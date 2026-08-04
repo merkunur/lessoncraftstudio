@@ -64,6 +64,11 @@ var EstimationJar = {
     undoGuess:    {en:'Take the last one back',de:'Die letzte zurücknehmen',fr:'Retirer la dernière',it:'Togli l’ultima',es:'Quitar la última',pt:'Tirar o último',nl:'Laatste terugnemen',sv:'Ta bort den sista pricken',da:'Tag det sidste bud tilbage',no:'Ta tilbake den siste',fi:'Ota viimeisin pois'},
     nudgeDown:    {en:'A little less',de:'Etwas kleiner',fr:'Un peu moins',it:'Un po’ di meno',es:'Un poco menos',pt:'Um pouco menos',nl:'Iets lager',sv:'Lite färre',da:'Lidt færre',no:'Litt lavere',fi:'Hieman vähemmän'},
     nudgeUp:      {en:'A little more',de:'Etwas größer',fr:'Un peu plus',it:'Un po’ di più',es:'Un poco más',pt:'Um pouco mais',nl:'Iets hoger',sv:'Lite fler',da:'Lidt flere',no:'Litt høyere',fi:'Hieman enemmän'},
+    nudgeDown10:  {en:'Ten fewer',de:'Zehn weniger',fr:'Dix de moins',it:'Dieci in meno',es:'Diez menos',pt:'Dez a menos',nl:'Tien minder',sv:'Tio färre',da:'Ti færre',no:'Ti færre',fi:'Kymmenen vähemmän'},
+    nudgeUp10:    {en:'Ten more',de:'Zehn mehr',fr:'Dix de plus',it:'Dieci in più',es:'Diez más',pt:'Dez a mais',nl:'Tien meer',sv:'Tio fler',da:'Ti flere',no:'Ti flere',fi:'Kymmenen enemmän'},
+    surprise:     {en:'Pick a number for me',de:'Zahl für mich auswählen',fr:'Choisir un nombre pour moi',it:'Scegli un numero per me',es:'Elige un número por mí',pt:'Escolha um número para mim',nl:'Kies een getal voor mij',sv:'Välj ett tal åt mig',da:'Vælg et tal for mig',no:'Velg et tall for meg',fi:'Valitse luku puolestani'},
+    capAria:      {en:'Jar that holds up to {n}',de:'Glas für bis zu {n}',fr:'Bocal pouvant contenir jusqu’à {n}',it:'Barattolo che contiene fino a {n}',es:'Frasco para hasta {n}',pt:'Vidro que leva até {n}',nl:'Pot voor maximaal {n}',sv:'Burk som rymmer upp till {n}',da:'Glas der kan rumme op til {n}',no:'Glass som rommer opptil {n}',fi:'Purkki, johon mahtuu enintään {n}'},
+    capLabel:     {en:'How big is the jar?',de:'Wie groß ist das Glas?',fr:'Quelle taille de bocal ?',it:'Quanto è grande il barattolo?',es:'¿De qué tamaño es el frasco?',pt:'Qual o tamanho do vidro?',nl:'Hoe groot is de pot?',sv:'Hur stor är burken?',da:'Hvor stort er glasset?',no:'Hvor stort er glasset?',fi:'Kuinka iso purkki on?'},
     guessesIn:    {en:'Every guess belongs on the line.',de:'Jede Schätzung gehört auf die Linie.',fr:'Chaque estimation a sa place sur la ligne.',it:'Ogni stima ha il suo posto sulla linea.',es:'Cada idea tiene su lugar en la línea.',pt:'Todo palpite tem lugar na linha.',nl:'Elke schatting hoort op de lijn.',sv:'Varje tanke får plats på linjen.',da:'Alle bud hører til på linjen.',no:'Alle overslag hører hjemme på tallinja.',fi:'Jokainen arvio kuuluu viivalle.'},
 
     /* reveal face */
@@ -124,9 +129,11 @@ var EstimationJar = {
      PURE ENGINE — no DOM. The build gate calls these directly.
      ================================================================= */
 
+  /* freeMax / premiumMax stay the TIER bounds — they clamp a deep link
+     and they name the number in the paywall copy. They are no longer
+     the jar: `ceiling()` below reads the teacher's chosen capacity. */
   freeMax: function () { return (this.data && this.data.freeMax) || 30; },
   premiumMax: function () { return (this.data && this.data.premiumMax) || 200; },
-  ceiling: function () { return this.premium ? this.premiumMax() : this.freeMax(); },
 
   /* THE STRUCTURAL GATE — locked sets are ABSENT, not hidden, so a
      premium filling never reaches the DOM for a free visitor. */
@@ -157,6 +164,315 @@ var EstimationJar = {
     if (!state || state.stage !== 'reveal')
       throw new Error('the count is not available before the jar is tipped out');
     return state.count;
+  },
+
+  /* =================================================================
+     THE PACKING ENGINE — pure, DOM-free, and the honest core of the
+     rebuild. Every function here is called directly by the build gate.
+
+     THE ARCHITECTURAL INVERSION: the fill line is an OUTPUT, not an
+     input. v1 computed a height from a formula and drew decorative
+     blobs to match it; this places N objects by deposition and the top
+     of the resulting pile IS the fill line. That is self-correcting for
+     object shape — a jar of snowflakes and a jar of blueberries at the
+     same N have honestly different fill heights — and it deletes a
+     whole class of "the glass says one thing and the contents say
+     another" bug.
+     ================================================================= */
+
+  /* mulberry32, the declared house idiom (draw-bag.js:266). The
+     (seed*9301+49297)%233280 LCG this file used to carry is on the
+     do-not-copy list: its low bits are visibly correlated, and this
+     packer draws two jitters + a depth + a rotation from CONSECUTIVE
+     calls per object — exactly the pattern that surfaces LCG banding as
+     diagonal streaks across a pile. */
+  mulberry32: function (s) {
+    return function () {
+      s = (s + 0x6D2B79F5) | 0;
+      var t = Math.imul(s ^ (s >>> 15), 1 | s);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  },
+
+  /* ⚠ THE SEED DELIBERATELY DOES NOT INCLUDE N. Measured: seeding per
+     count re-rolled the whole arrangement on every step, so the pile
+     top moved DOWN as the teacher added an object — 83 non-monotonic
+     steps in a 200-jar. Adding one object must add one object. Seeding
+     per (set, capacity) makes the lattice stable, so packPile(n) is a
+     PREFIX of packPile(n+1) and monotonicity holds by construction
+     rather than by luck. It also stops the pile jumping about while the
+     teacher dials the count in. */
+  seedFor: function (setId, capacity) {
+    var seed = 0, s = String(setId || '');
+    for (var i = 0; i < s.length; i++) seed = (seed * 31 + s.charCodeAt(i)) | 0;
+    return seed ^ (capacity * 2246823);
+  },
+
+  /* The glass interior, sampled. Inverting the béziers at runtime would
+     be slower and no more accurate than lerping a table measured off
+     the same path the SVG draws. y 60-100 is the neck, reached only by
+     the overfill case. */
+  PROFILE: [
+    [48, 29], [62, 40], [76, 58], [84, 68], [88, 70], [120, 72.5],
+    [160, 73], [200, 71.5], [214, 69], [224, 64], [232, 56], [238, 50]
+  ],
+  FILL_TOP: 88,      /* the capacity ring — a full jar's pile tops out here */
+  FILL_BOTTOM: 238,
+
+  interiorHalfWidthAt: function (y) {
+    var P = this.PROFILE, i;
+    if (y <= P[0][0]) return P[0][1];
+    if (y >= P[P.length - 1][0]) return P[P.length - 1][1];
+    for (i = 0; i < P.length - 1; i++) {
+      if (y >= P[i][0] && y <= P[i + 1][0]) {
+        var t = (y - P[i][0]) / (P[i + 1][0] - P[i][0]);
+        return P[i][1] + t * (P[i + 1][1] - P[i][1]);
+      }
+    }
+    return P[P.length - 1][1];
+  },
+
+  /* How many lattice slots sit at or below the capacity ring for a
+     given object radius. Pure counting — no objects, no rng — so it is
+     cheap enough to bisect at pack time. */
+  slotsBelowRing: function (R) {
+    var px = 2 * R * 0.90, py = 1.50 * R;
+    var y = this.FILL_BOTTOM - R * 0.98, count = 0, guard = 0;
+    while (y >= this.FILL_TOP && guard++ < 400) {
+      var half = this.interiorHalfWidthAt(y);
+      count += Math.max(1, Math.floor((2 * half - 2 * R) / px) + 1);
+      y -= py;
+    }
+    return count;
+  },
+
+  /* ⚠ THE OBJECT RADIUS IS SOLVED, NOT TUNED.
+     The obvious formula — R = sqrt(phi*A/(pi*capacity)) with a fitted
+     efficiency phi — was tried first and abandoned on measurement: the
+     lattice is DISCRETE, so no single phi lands a full jar on the ring
+     at every capacity. Solving it showed a 30-jar jumping from y116 to
+     y94 across 0.75 units of R, because that is one whole row appearing.
+     A constant fitted to that is a constant fitted to a knife edge.
+
+     So instead of fitting, ask the question directly: what is the
+     largest R for which `capacity` objects still fit at or below the
+     ring? Bisection over an exactly-computable slot count. That is true
+     by construction for every capacity, needs no magic number, and the
+     gate can check it in one line — the capacity-th object sits below
+     the ring and the (capacity+1)-th does not. */
+  packRadius: function (capacity) {
+    var cap = Math.max(1, Math.floor(capacity || 30));
+    this._radiusCache = this._radiusCache || {};
+    if (this._radiusCache[cap]) return this._radiusCache[cap];
+    var lo = 1.5, hi = 45, i, mid;
+    /* slotsBelowRing is monotonically DECREASING in R, so bisect for the
+       largest R that still holds `cap`. */
+    for (i = 0; i < 44; i++) {
+      mid = (lo + hi) / 2;
+      if (this.slotsBelowRing(mid) >= cap) lo = mid; else hi = mid;
+    }
+    return (this._radiusCache[cap] = lo);
+  },
+
+  /* Offset-lattice deposition, bottom-up. Not a physics sim — a hex
+     lattice with jitter, which is what a settled pile actually is.
+     Returns viewBox-unit placements, so a resize NEVER re-packs (a pile
+     that reshuffles when the projector resolution is detected, or
+     mid-reveal, is the bug that rule exists to prevent).
+     `rotN` is normalised to [-1,1] and multiplied by the set's own
+     rotMax at draw time, so one packing serves every set. */
+  packFull: function (capacity, setId) {
+    var cap = Math.max(1, Math.floor(capacity || 30));
+    var key = setId + '|' + cap;
+    if (this._packCache && this._packCache.key === key) return this._packCache.slots;
+
+    var R = this.packRadius(cap);
+    var rnd = this.mulberry32(this.seedFor(setId, cap));
+    var px = 2 * R * 0.90;          /* horizontal pitch, 10% overlap */
+    var py = 1.50 * R;              /* vertical pitch (hex, nested)  */
+    var out = [];
+    var y = this.FILL_BOTTOM - R * 0.98;
+    var row = 0, i, j, tmp;
+
+    /* Deposit until the jar is full, plus a little headroom so an
+       overfilled jar spills into the neck honestly rather than dropping
+       objects on the floor. */
+    while (out.length < cap * 1.35 && y > 52) {
+      var half = this.interiorHalfWidthAt(y);
+      var k = Math.max(1, Math.floor((2 * half - 2 * R) / px) + 1);
+      /* ⚠ A STRICTLY ALTERNATING HALF-OFFSET IS STILL A LATTICE, and
+         the render showed it: the pile read as visible columns. A
+         per-row random offset destroys the vertical alignment the eye
+         picks up (it detects it down to about 5 degrees), while the row
+         PITCH stays regular so the pile still settles rather than
+         floating. Offset is capped at a quarter-pitch so an odd row
+         cannot be pushed past the wall. */
+      var x0 = 100 - ((k - 1) * px) / 2 + (rnd() - 0.5) * px * 0.5;
+      var slots = [];
+      for (i = 0; i < k; i++) slots.push(i);
+      /* EVERY row is shuffled, not just the last one. Filling a partial
+         row left-to-right leaves a rectangular gap and the pile reads as
+         a grid instantly; shuffling makes the surface look poured. Doing
+         it to every row (rather than only the incomplete one) is what
+         lets packPile(n) be a clean PREFIX — see seedFor. */
+      for (i = slots.length - 1; i > 0; i--) {
+        j = Math.floor(rnd() * (i + 1));
+        tmp = slots[i]; slots[i] = slots[j]; slots[j] = tmp;
+      }
+      for (i = 0; i < slots.length; i++) {
+        /* jitter raised from 0.16/0.13 after reading the render — at the
+           lower values the pile still read as rows and columns, because
+           0.16 of a pitch is only 0.29R against an object of radius R */
+        var ox = x0 + slots[i] * px + (rnd() * 2 - 1) * px * 0.30;
+        var oy = y + (rnd() * 2 - 1) * py * 0.24;
+        /* ⚠ CLAMP TO THE WALL. Measured before this line: 328 objects in
+           a 200-jar had their packing disc outside the glass, worst case
+           8.8 units past it. The clip path would have hidden the crime
+           and left a flat-sided pile. The r70 disc stays in; the sprite
+           may still overhang, and a cherry stem sliced by the glass edge
+           reads as BEHIND the glass, which is correct.
+           ⚠ Measure the wall at the JITTERED height, not the row's. The
+           first version used the row y and left 261 sub-unit breaches,
+           because jitter lifts an object into a narrower part of the
+           glass than the row it belongs to. */
+        var lim = Math.max(0, this.interiorHalfWidthAt(oy) - R);
+        if (ox > 100 + lim) ox = 100 + lim;
+        if (ox < 100 - lim) ox = 100 - lim;
+        var d = rnd();
+        out.push({
+          x: ox, y: oy, row: row, baseY: oy,
+          rotN: rnd() * 2 - 1,
+          depth: d,
+          /* three discrete tint buckets: the variety lever, and free —
+             three pre-rendered sprites instead of 200 composites */
+          tint: d < 0.42 ? 0 : (d < 0.76 ? 1 : 2),
+          scale: (1 - 0.10 * d) * (0.93 + rnd() * 0.14)
+        });
+      }
+      y -= py; row++;
+    }
+    this._packCache = { key: key, slots: out, R: R, py: py };
+    return out;
+  },
+
+  packPile: function (n, capacity, setId) {
+    var cap = Math.max(1, Math.floor(capacity || 30));
+    var all = this.packFull(cap, setId);
+    var N = Math.max(0, Math.min(all.length, Math.floor(n || 0)));
+    var R = this._packCache.R;
+    var out = [], i;
+    for (i = 0; i < N; i++) {
+      var s = all[i];
+      out.push({ x: s.x, y: s.baseY, row: s.row, rotN: s.rotN, depth: s.depth, tint: s.tint, scale: s.scale });
+    }
+    /* THE CROWN, applied at slice time because it depends on where the
+       pile currently tops out. A poured pile domes in the middle; the
+       weight ramps in over the top three rows so it reads as a dome and
+       not a bulge. */
+    var topRow = 0;
+    for (i = 0; i < out.length; i++) if (out[i].row > topRow) topRow = out[i].row;
+    for (i = 0; i < out.length; i++) {
+      var o = out[i];
+      var w = Math.max(0, Math.min(1, (o.row - (topRow - 2)) / 3));
+      if (!w) continue;
+      var half = this.interiorHalfWidthAt(o.y);
+      var u = (o.x - 100) / Math.max(1, half);
+      o.y -= R * 0.28 * Math.max(0, 1 - u * u) * w;
+      /* re-clamp AFTER the crown: lifting an object moves it into a
+         narrower part of the glass, so a point that was inside the wall
+         at its packed height can be outside it once crowned. Measured
+         at 292 sub-unit breaches before this line — small enough that
+         the clip path would have swallowed them, which is exactly why
+         it is worth closing rather than tolerating. */
+      var lim = Math.max(0, this.interiorHalfWidthAt(o.y) - R);
+      if (o.x > 100 + lim) o.x = 100 + lim;
+      if (o.x < 100 - lim) o.x = 100 - lim;
+    }
+    return out;
+  },
+
+  /* Paint back-to-front. Sorting by DEPTH rather than by row is what
+     stops the pile reading as scanlines — it interleaves rows in one
+     comparator. Precedent at small counts: echo-grove-activity.js:162
+     and mochi-feast-core.js:301 sort their sprites the same way. */
+  paintOrder: function (placements) {
+    return placements.slice().sort(function (a, b) {
+      return (b.depth - a.depth) || (a.row - b.row);
+    });
+  },
+
+  /* The reveal drains from the TOP, so the jar visibly empties. */
+  drainOrder: function (placements) {
+    return placements.slice().sort(function (a, b) { return a.y - b.y; });
+  },
+
+  /* The top of the pile, in viewBox units — the fill line, which is now
+     measured off the placements rather than asserted by a formula. */
+  pileTop: function (placements) {
+    var top = this.FILL_BOTTOM, i;
+    for (i = 0; i < placements.length; i++) if (placements[i].y < top) top = placements[i].y;
+    return top;
+  },
+
+  /* =================================================================
+     CAPACITY — the teacher's choice, never the subscription tier.
+     ================================================================= */
+
+  capacities: function () {
+    var c = (this.data && this.data.capacities) || [
+      { id: 'small', cap: 30, free: true },
+      { id: 'medium', cap: 60, free: false },
+      { id: 'large', cap: 200, free: false }
+    ];
+    return c;
+  },
+  openCapacities: function () {
+    var all = this.capacities(), out = [], i;
+    for (i = 0; i < all.length; i++) if (all[i].free || this.premium) out.push(all[i]);
+    return out.length ? out : [all[0]];
+  },
+  capacityById: function (id) {
+    var all = this.capacities(), i;
+    for (i = 0; i < all.length; i++) if (all[i].id === id) return all[i];
+    return null;
+  },
+  /* THE CEILING IS THE JAR, NOT THE TIER. This is the single line that
+     fixes the v1 defect where the same 30 cherries rendered as an
+     88%-full jar for a free teacher and a 39%-full jar for a
+     subscriber, and where the number line ran 0..200 for a jar of 24. */
+  ceiling: function () {
+    var c = this.capacityById(this.capacityId);
+    if (c && (c.free || this.premium)) return c.cap;
+    var open = this.openCapacities();
+    return open[open.length - 1].cap;
+  },
+
+  /* A count the teacher did not have to think of. Decades are
+     deliberately rejected: a multiple of ten leaves ZERO leftover ones,
+     which skips the most valuable moment of the reveal; children carry a
+     documented round-number bias in estimation, so a round answer
+     rewards the bias instead of confronting it; and an exact "same" hit
+     becomes artificially likely, which manufactures de-facto winners
+     against Doctrine A. Multiples of five are down-weighted for the
+     same reasons, more weakly. Takes an injected rng so the gate can
+     prove the rejection rules rather than sample and hope. */
+  pickCount: function (capacity, rnd) {
+    var cap = Math.max(4, capacity || 30);
+    var lo = Math.max(4, Math.round(cap * 0.25));
+    var hi = Math.max(lo + 1, Math.round(cap * 0.85));
+    var tries = 0, v;
+    while (tries++ < 40) {
+      v = lo + Math.floor(rnd() * (hi - lo + 1));
+      if (v % 10 === 0) continue;
+      if (v % 5 === 0 && rnd() < 0.75) continue;
+      return v;
+    }
+    /* the loop is bounded, so it must still terminate on something
+       legal — walk off the nearest decade rather than return one */
+    v = lo + Math.floor((hi - lo) / 2);
+    if (v % 10 === 0) v += 1;
+    return Math.max(1, Math.min(cap, v));
   },
 
   /* 137 -> [10,10,10,10,10,10,10,10,10,10,10,10,10,7] */
@@ -193,11 +509,28 @@ var EstimationJar = {
     for (i = 0; i < all.length; i++) if (all[i].id === sid) { found = all[i]; break; }
     if (!found) return null;
     if (!found.free && !premium) return null;
-    var cap = premium ? this.premiumMax() : this.freeMax();
+    var tierMax = premium ? this.premiumMax() : this.freeMax();
     var c = parseInt(params.count, 10);
     if (!isFinite(c) || c < 1) c = null;
-    if (c !== null && c > cap) c = cap;   /* never hand a free visitor a premium-size jar */
-    return { set: sid, count: c };
+    if (c !== null && c > tierMax) c = tierMax;   /* never hand a free visitor a premium-size jar */
+    /* ⚠ A DEEP LINK MUST BRING ITS JAR WITH IT. The count ceiling is now
+       the chosen capacity, not the tier, so a link asking for 200 landed
+       in the default 30-jar and silently clamped to 30 — the link
+       resolved, and quietly delivered a different lesson. Pick the
+       smallest capacity that actually holds the request, within tier. */
+    var capId = null;
+    if (c !== null) {
+      var caps = this.capacities(), i;
+      for (i = 0; i < caps.length; i++) {
+        if ((caps[i].free || premium) && caps[i].cap >= c) { capId = caps[i].id; break; }
+      }
+      if (!capId) {
+        var open = [];
+        for (i = 0; i < caps.length; i++) if (caps[i].free || premium) open.push(caps[i]);
+        capId = open.length ? open[open.length - 1].id : null;
+      }
+    }
+    return { set: sid, count: c, capacityId: capId };
   },
 
   fmt: function (key, args) {
@@ -227,7 +560,13 @@ var EstimationJar = {
     this.data = null;
     this.stage = 'fill';
     this.setId = null;
-    this.count = 12;          /* never rendered before the reveal */
+    this.capacityId = 'small';
+    /* 23, not the old 12. Above 20 so the tens-then-ones reveal the
+       landing copy sells actually fires; not a decade, so the leftover
+       ones — the place-value payload — are never empty; ones digit not
+       zero; and it fits the free jar. The old 12 was counted out as
+       "ten … twelve", which skips the exact move the tool teaches. */
+    this.count = 23;          /* never rendered before the reveal */
     this.guesses = [];        /* anonymous values only — no names, no order meaning */
     this.pending = null;
     this.premiumKnown = false;
@@ -321,6 +660,7 @@ var EstimationJar = {
     var d = this._deepPending ? this.resolveDeepLink(this._deepPending, this.premium) : null;
     if (d) {
       this.setId = d.set;
+      if (d.capacityId) this.capacityId = d.capacityId;
       if (d.count) this.count = d.count;
       if (this.premiumKnown) this._deepPending = null;
     } else if (!this.setId || !this.setById(this.setId)) {
@@ -328,7 +668,16 @@ var EstimationJar = {
       var last = this._store.lastSet;
       this.setId = (last && this.setById(last)) ? last : (open.length ? open[0].id : null);
     }
+    /* ⚠ LOCKING A CONTROL IS NOT ENOUGH — reset the state it produced.
+       A subscriber who set a 200-jar and then lapsed must not still be
+       sitting on one, or the paid capacity survives the entitlement. */
+    var cap = this.capacityById(this.capacityId);
+    if (!cap || (!cap.free && !this.premium)) {
+      var openCaps = this.openCapacities();
+      this.capacityId = openCaps[openCaps.length - 1].id;
+    }
     if (this.count > this.ceiling()) this.count = this.ceiling();
+    if (this.count < 1) this.count = 1;
   },
 
   /* =================================================================
@@ -356,6 +705,8 @@ var EstimationJar = {
   render: function () {
     var self = this, api = this.api;
     this._clearTimers();
+    this._jarEls = [];
+    this._bindResize();
     api.stage.innerHTML = '';
     var wrap = api.el('div', 'ej-wrap');
     this._wrap = wrap;
@@ -389,41 +740,339 @@ var EstimationJar = {
     api.stage.appendChild(wrap);
   },
 
-  _imgUrl: function (s) {
-    return '/image-library-webp/themes/' + encodeURIComponent(s.imageDir) + '/' + s.imageFile + '@2x.webp';
+  _imgUrl: function (s, variant) {
+    return '/image-library-webp/themes/' + encodeURIComponent(s.imageDir) + '/'
+      + s.imageFile + '@' + (variant || '2x') + '.webp';
   },
 
-  /* ---- the jar. clipPath keyed to the body path, so contents can never
-     escape the glass (the wondering-jar recipe). ---- */
-  _jarSVG: function (fill, clumped) {
-    var id = 'ejc' + (++this._uid || (this._uid = 1));
-    var body = 'M26 24 Q50 18 74 24 L72 96 Q50 104 28 96 Z';
-    var inner = '';
-    if (clumped) {
-      var topY = 94 - Math.max(0.25, Math.min(0.92, fill)) * 66;
-      var seed = Math.round(fill * 131) + 7;
-      var rnd = function () { seed = (seed * 9301 + 49297) % 233280; return seed / 233280; };
-      for (var y = 92; y > topY; y -= 7) {
-        for (var x = 30; x <= 70; x += 8) {
-          var jx = (rnd() - 0.5) * 7, jy = (rnd() - 0.5) * 6;
-          inner += '<circle cx="' + (x + jx).toFixed(1) + '" cy="' + (y + jy).toFixed(1) + '" r="6.5" class="ej-blob"/>';
-        }
-      }
-    }
-    return '<svg viewBox="0 0 100 110" class="ej-jarsvg" role="img" aria-label="jar">'
-      + '<defs><clipPath id="' + id + '"><path d="' + body + '"/></clipPath></defs>'
-      + '<rect x="30" y="14" width="40" height="8" rx="4" fill="#C99A5B"/>'
-      + '<path d="' + body + '" fill="rgba(180,220,210,.45)" stroke="rgba(20,107,94,.35)" stroke-width="2.5"/>'
-      + (clumped ? '<g clip-path="url(#' + id + ')">' + inner + '</g>' : '')
-      + '<ellipse cx="42" cy="34" rx="16" ry="9" fill="#fff" opacity="0.28"/>'
+  /* =================================================================
+     THE GLASS — SVG, so the strokes stay crisp on a 2560 board and cost
+     nothing to scale. Only the CONTENTS are canvas (see _paintPile).
+
+     ⚠ `vector-effect="non-scaling-stroke"` is load-bearing on every
+     stroked element here. Without it the 510px jar on a wide board
+     renders a 7.6px cartoon outline. It is the single easiest thing in
+     this file to drop by accident.
+     ================================================================= */
+
+  /* ⚠ The first geometry put the mouth at y56 and the shoulder at y98,
+     which left a tall empty dome above the fill line: a jar at 23 of 30
+     is 73% of its capacity but READ as barely half full, because the
+     eye measures against the whole glass and not against the band the
+     model fills. Raising the mouth to y44 and the shoulder to y86 makes
+     the body dominate, so "how full does it look" and "how full is it"
+     agree. Found by reading the render, not by any assertion. */
+  JAR_BODY: 'M66 44 C66 58 24 64 24 86 C22 122 22 172 24 214 '
+    + 'C24 231 33 240 46 243 L154 243 C167 240 176 231 176 214 '
+    + 'C178 172 178 122 176 86 C176 64 134 58 134 44 Z',
+  JAR_CLIP: 'M71 48 C71 61 29 67 29 88 C27 123 27 171 29 212 '
+    + 'C29 227 37 235 48 238 L152 238 C163 235 171 227 171 212 '
+    + 'C173 171 173 123 171 88 C171 67 129 61 129 48 Z',
+
+  /* Behind the pile: the body tint only. Real glass is visible at its
+     EDGES, where the light path through it is longest, and clear in the
+     middle — the shipped flat rgba(180,220,210,.45) was milky, tinted
+     the objects behind it, and read as plastic. Asymmetric on purpose:
+     the light is up-left, matching the baked lighting in every sprite. */
+  _glassBack: function (uid) {
+    return '<svg class="ej-glassback" viewBox="0 0 200 260" aria-hidden="true" focusable="false">'
+      + '<defs><linearGradient id="ejg' + uid + '" x1="0" y1="0" x2="1" y2="0">'
+      + '<stop offset="0" stop-color="#146B5E" stop-opacity="0.15"/>'
+      + '<stop offset="0.16" stop-color="#146B5E" stop-opacity="0.05"/>'
+      + '<stop offset="0.46" stop-color="#146B5E" stop-opacity="0.015"/>'
+      + '<stop offset="0.58" stop-color="#146B5E" stop-opacity="0.02"/>'
+      + '<stop offset="0.86" stop-color="#146B5E" stop-opacity="0.06"/>'
+      + '<stop offset="1" stop-color="#146B5E" stop-opacity="0.17"/>'
+      + '</linearGradient></defs>'
+      + '<path d="' + this.JAR_BODY + '" fill="url(#ejg' + uid + ')"/>'
       + '</svg>';
   },
 
-  /* a perceptible but INEXACT fill height — you must not be able to read
-     the count off the glass */
-  _fillFor: function (n) {
-    var cap = this.ceiling();
-    return 0.3 + Math.max(0, Math.min(1, n / cap)) * 0.58;
+  /* In front of the pile — and that is the whole trick of "behind
+     glass": the glass is in FRONT of what is inside it. */
+  _glassFront: function (uid, ariaLabel) {
+    var s = '<svg class="ej-glassfront" viewBox="0 0 200 260" role="img" aria-label="'
+      + this._esc(ariaLabel) + '">'
+      + '<defs>'
+      + '<linearGradient id="ejl' + uid + '" x1="0" y1="0" x2="1" y2="0">'
+      + '<stop offset="0" stop-color="#B0864F"/><stop offset="0.28" stop-color="#D9B183"/>'
+      + '<stop offset="0.62" stop-color="#C99A5B"/><stop offset="1" stop-color="#A87F4A"/>'
+      + '</linearGradient>'
+      + '<linearGradient id="eji' + uid + '" x1="0" y1="0" x2="0" y2="1">'
+      + '<stop offset="0" stop-color="#3A3226" stop-opacity="0"/>'
+      + '<stop offset="0.62" stop-color="#3A3226" stop-opacity="0.06"/>'
+      + '<stop offset="1" stop-color="#3A3226" stop-opacity="0.16"/>'
+      + '</linearGradient>'
+      + '<clipPath id="ejk' + uid + '"><path d="' + this.JAR_CLIP + '"/></clipPath>'
+      + '</defs>'
+      /* base cast shadow, drawn first so it sits under the glass */
+      + '<ellipse cx="100" cy="249" rx="60" ry="6" fill="#146B5E" opacity="0.05"/>'
+      + '<ellipse cx="100" cy="248" rx="55" ry="4.5" fill="#146B5E" opacity="0.06"/>'
+      + '<ellipse cx="100" cy="247" rx="48" ry="3" fill="#146B5E" opacity="0.07"/>'
+      /* inner base shadow + wall occlusion, so the pile is grounded and
+         does not look pasted onto the glass */
+      + '<g clip-path="url(#ejk' + uid + ')">'
+      + '<rect x="20" y="186" width="160" height="60" fill="url(#eji' + uid + ')"/>'
+      + '<path d="' + this.JAR_CLIP + '" fill="none" stroke="#3A3226" stroke-opacity="0.07" stroke-width="6"/>'
+      + '</g>'
+      /* the silhouette — this is what keeps the jar from vanishing over
+         cream; the fill deliberately does almost nothing */
+      + '<path d="' + this.JAR_BODY + '" fill="none" stroke="#146B5E" stroke-opacity="0.42" '
+      + 'stroke-width="3" vector-effect="non-scaling-stroke"/>'
+      /* the capacity ring: a shallow downward arc reads as the FAR side
+         of a moulded seam seen through the glass. It says "full is here"
+         with no words, which is the whole design law. */
+      + '<path class="ej-ring" d="M31 88 C58 94 142 94 169 88" fill="none" stroke="#146B5E" '
+      + 'stroke-opacity="0.22" stroke-width="2" vector-effect="non-scaling-stroke"/>'
+      /* Specular highlights. ⚠ Opacity dropped from 0.32 to 0.16 and the
+         lozenge narrowed after reading a 200-cherry render: white at a
+         third opacity over saturated red stopped reading as glass and
+         started reading as a scratch down the picture. A highlight has
+         to be legible over an EMPTY jar and invisible-as-an-object over
+         a full one, and only the full jar shows you which it is. */
+      + '<path d="M47 102 C43 138 43 176 48 206 C52 208 56 206 56 202 '
+      + 'C52 172 52 138 56 106 C55 100 50 99 47 102 Z" fill="#FFFFFF" opacity="0.16"/>'
+      + '<ellipse cx="152" cy="106" rx="4" ry="13" fill="#FFFFFF" opacity="0.12" '
+      + 'transform="rotate(-8 152 106)"/>'
+      + '<path d="M34 80 C40 64 62 56 74 50" fill="none" stroke="#FFFFFF" stroke-opacity="0.42" '
+      + 'stroke-width="2.5" vector-effect="non-scaling-stroke"/>'
+      /* A screw band, not the shipped flat rect (which read as a plank).
+         Brass is a fourth hue in a three-hue system, kept because it is
+         the single cue that reads "jar" instantly, and confined to under
+         6% of the jar's area. A sealed jar is also the right object for
+         the ritual: it is one you cannot reach into.
+         ⚠ The band must OVERLAP the mouth plane (y44). The first version
+         stopped at y44-48 against a mouth at y56 and read as a cork
+         hovering above the jar — obvious in every render, invisible to
+         every assertion. */
+      + '<path d="M62 14 L138 14 L136 42 Q100 50 64 42 Z" fill="url(#ejl' + uid + ')"/>'
+      + '<ellipse cx="100" cy="14" rx="38" ry="7" fill="#E0BC92"/>'
+      + '<ellipse cx="100" cy="14" rx="38" ry="7" fill="none" stroke="#146B5E" '
+      + 'stroke-opacity="0.28" stroke-width="2" vector-effect="non-scaling-stroke"/>'
+      + '<path d="M66 23 Q100 26 134 23" stroke="#8E6E4E" stroke-opacity="0.28" stroke-width="1.5" '
+      + 'fill="none" vector-effect="non-scaling-stroke"/>'
+      + '<path d="M65 32 Q100 35 135 32" stroke="#8E6E4E" stroke-opacity="0.22" stroke-width="1.5" '
+      + 'fill="none" vector-effect="non-scaling-stroke"/>'
+      + '</svg>';
+    return s;
+  },
+
+  _esc: function (s) {
+    return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  },
+
+  /* =================================================================
+     THE PILE — a <canvas>, and the deciding argument is DOCTRINE.
+
+     200 SVG <image> nodes would be 200 COUNTABLE DOM nodes, so
+     `document.querySelectorAll('.ej-obj').length` would BE the secret —
+     walking straight around the accessor that throws to protect it. A
+     canvas is one node with no children, and it carries aria-hidden, so
+     the count is unreachable from the DOM, the a11y tree and the live
+     region alike. Performance (a blit beats re-rasterising 200 <use>
+     references) is the second reason, not the first.
+
+     ⚠ This is close to a first for the codebase: exactly one other
+     mini-tool uses canvas, none draws a library image with drawImage,
+     and no tool anywhere handles devicePixelRatio — so the dpr handling
+     below is invented here rather than inherited. It is capped at 2 (a
+     3x phone would allocate a 786px backing store for no visible gain),
+     and getContext failure falls back to the SVG blob clump.
+
+     The asymmetry worth stating: post-reveal the ten-frames stay <img>.
+     Doctrine B protects only the estimating stages, and once the jar is
+     tipped out the count is public by design.
+     ================================================================= */
+
+  _spriteKey: function (setId, px, tint) { return setId + '|' + px + '|' + tint; },
+
+  /* Three tint buckets, pre-rendered once per (set, size band). The
+     depth tint is teal rather than neutral grey because cool
+     desaturation reads specifically as "further back, through more
+     glass" — it does double duty as depth and as glass, and it keeps
+     the pile inside the Direction A palette. */
+  TINTS: [0, 0.09, 0.18],
+
+  _spriteFor: function (setId, img, px, tint) {
+    this._sprites = this._sprites || {};
+    var key = this._spriteKey(setId, px, tint);
+    if (this._sprites[key]) return this._sprites[key];
+    var c = document.createElement('canvas');
+    c.width = px; c.height = px;
+    var g = c.getContext('2d');
+    if (!g) return null;
+    g.imageSmoothingEnabled = true;
+    try { g.imageSmoothingQuality = 'high'; } catch (_) {}
+    g.drawImage(img, 0, 0, px, px);
+    if (this.TINTS[tint]) {
+      g.globalCompositeOperation = 'source-atop';
+      g.fillStyle = 'rgba(20,107,94,' + this.TINTS[tint] + ')';
+      g.fillRect(0, 0, px, px);
+      g.globalCompositeOperation = 'source-over';
+    }
+    this._sprites[key] = c;
+    return c;
+  },
+
+  _loadSprite: function (set, cb) {
+    this._imgCache = this._imgCache || {};
+    var self = this, key = set.id;
+    var hit = this._imgCache[key];
+    if (hit && hit.ready) { cb(hit.img); return; }
+    if (hit) { hit.waiting.push(cb); return; }
+    var img = new Image();
+    var rec = { img: img, ready: false, waiting: [cb] };
+    this._imgCache[key] = rec;
+    img.onload = function () {
+      rec.ready = true;
+      for (var i = 0; i < rec.waiting.length; i++) rec.waiting[i](img);
+      rec.waiting = [];
+    };
+    /* ⚠ the house failure affordance — sixteen mini-tools carry it and
+       this one did not, so a 404 painted a broken-image glyph. Here a
+       failed sprite simply leaves the pile unpainted rather than
+       drawing a grid of missing-image boxes. */
+    img.onerror = function () { rec.ready = false; rec.failed = true; rec.waiting = []; };
+    img.src = this._imgUrl(set, '2x');
+  },
+
+  /* The whole draw loop. `-S * cy` is the lollipop fix: sprites are
+     square but their INK is not centred in them (measured cy spans
+     0.325 to 0.659), so drawing on the canvas centre floats a
+     lollipop's candy a sixth of a canvas above where it belongs. */
+  _paintPile: function (canvas, placements, set) {
+    var self = this;
+    if (!canvas || !set) return;
+    var box = canvas.parentNode;
+    var cssW = (box && box.clientWidth) || 0;
+    if (!cssW) return;
+    var cssH = cssW * 260 / 200;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var g;
+    try { g = canvas.getContext('2d'); } catch (_) { g = null; }
+    if (!g) { canvas.setAttribute('data-ej-nocanvas', '1'); return; }
+
+    canvas.style.width = cssW + 'px';
+    canvas.style.height = cssH + 'px';
+    canvas.width = Math.round(cssW * dpr);
+    canvas.height = Math.round(cssH * dpr);
+
+    var s = cssW / 200;                       /* viewBox units -> CSS px */
+    g.setTransform(dpr * s, 0, 0, dpr * s, 0, 0);
+    g.clearRect(0, 0, 200, 260);
+    try { g.clip(new Path2D(this.JAR_CLIP)); } catch (_) {}
+
+    this._loadSprite(set, function (img) {
+      var pack = set.pack || { r70: 0.33, cy: 0.5, rotMax: 22 };
+      var R = self.packRadius(self.capacityOf());
+      var baseS = R / (pack.r70 || 0.33);
+      /* one sprite size per pile, rounded up to a power-of-two-ish band
+         so a resize does not re-render the offscreens on every pixel */
+      var needPx = Math.max(16, Math.min(512, Math.pow(2, Math.ceil(Math.log(baseS * s * dpr * 1.15) / Math.LN2))));
+      var order = self.paintOrder(placements);
+      var rotK = (pack.rotMax || 22) * Math.PI / 180;
+      for (var i = 0; i < order.length; i++) {
+        var o = order[i];
+        var sp = self._spriteFor(set.id, img, needPx, o.tint);
+        if (!sp) continue;
+        var S = baseS * o.scale;
+        g.save();
+        g.translate(o.x, o.y);
+        g.rotate(o.rotN * rotK);
+        g.drawImage(sp, -S * 0.5, -S * (pack.cy == null ? 0.5 : pack.cy), S, S);
+        g.restore();
+      }
+    });
+  },
+
+  capacityOf: function () { return this.ceiling(); },
+
+  /* =================================================================
+     THE QUESTION IS AN IDENTITY.
+
+     v1 cleared `guesses` only on a brand-new jar, and the stage strip
+     was always live — so a teacher could take the class's estimates on
+     a jar of 24, walk back to the fill face, change it to 60, and the
+     same dots would stand against a jar the room never saw, with the
+     reveal scoring them against it.
+
+     The fix has to live in the MODEL rather than in a disabled
+     attribute: a guess is an answer to a QUESTION, it carries that
+     question's id, and an answer to a question nobody asked is not
+     rendered and not counted.
+     ================================================================= */
+  questionId: function () {
+    return String(this.setId) + '|' + this.capacityOf() + '|' + this.count;
+  },
+  _questionChanged: function () {
+    var q = this.questionId();
+    if (this._qid === q) return;
+    this._qid = q;
+    this.guesses = [];
+    this.pending = null;
+  },
+  liveGuesses: function () {
+    var q = this.questionId(), out = [], i;
+    for (i = 0; i < this.guesses.length; i++) {
+      if (this.guesses[i] && this.guesses[i].q === q) out.push(this.guesses[i].v);
+    }
+    return out;
+  },
+
+  /* Build the three-layer jar box. `n` is what actually goes in the
+     glass; the reveal passes a shrinking n as the jar drains. */
+  _buildJar: function (n, opts) {
+    var self = this, api = this.api;
+    opts = opts || {};
+    var uid = (++this._uid || (this._uid = 1));
+    var set = this.setById(this.setId);
+    var box = api.el('div', 'ej-jar' + (opts.small ? ' ej-jarsmall' : ''));
+    var inner = api.el('div', 'ej-jarbox');
+
+    var back = api.el('div', 'ej-layer');
+    back.innerHTML = this._glassBack(uid);
+    inner.appendChild(back);
+
+    var cv = api.el('canvas', 'ej-pile');
+    cv.setAttribute('aria-hidden', 'true');
+    inner.appendChild(cv);
+
+    var front = api.el('div', 'ej-layer');
+    /* the a11y name is the SET NOUN ONLY — never the count */
+    front.innerHTML = this._glassFront(uid, set ? ('a jar of ' + set.noun + 's') : 'a jar');
+    inner.appendChild(front);
+
+    box.appendChild(inner);
+    this._jarEls = this._jarEls || [];
+    this._jarEls.push({ canvas: cv, n: n });
+    /* paint after layout so clientWidth is real */
+    this._after(0, function () { self._paintPile(cv, self.packPile(n, self.capacityOf(), self.setId), set); });
+    return box;
+  },
+
+  /* A resize repaints; it must NEVER re-pack. A pile that reshuffles
+     when the projector resolution is detected — or mid-reveal — is
+     exactly the bug the (set, capacity) seed exists to prevent. */
+  _bindResize: function () {
+    var self = this;
+    if (this._resizeBound) return;
+    this._resizeBound = true;
+    window.addEventListener('resize', function () {
+      clearTimeout(self._rsTimer);
+      self._rsTimer = setTimeout(function () { self._repaintJars(); }, 120);
+    });
+  },
+
+  _repaintJars: function () {
+    var set = this.setById(this.setId), i;
+    if (!this._jarEls) return;
+    for (i = 0; i < this._jarEls.length; i++) {
+      var j = this._jarEls[i];
+      if (j.canvas && j.canvas.parentNode) {
+        this._paintPile(j.canvas, this.packPile(j.n, this.capacityOf(), this.setId), set);
+      }
+    }
   },
 
   _buildFill: function () {
@@ -431,9 +1080,7 @@ var EstimationJar = {
     var box = api.el('div', 'ej-card');
 
     var set = this.setById(this.setId);
-    var jar = api.el('div', 'ej-jar');
-    jar.innerHTML = this._jarSVG(this._fillFor(this.count), true);
-    box.appendChild(jar);
+    box.appendChild(this._buildJar(this.count));
 
     var pick = api.el('button', 'ej-pill');
     pick.type = 'button';
@@ -441,34 +1088,46 @@ var EstimationJar = {
     pick.addEventListener('click', function () { self.panelOpen = true; self.render(); });
     box.appendChild(pick);
 
-    if (set) {
-      var prev = api.el('img', 'ej-setpic');
-      prev.src = this._imgUrl(set); prev.alt = '';
-      prev.draggable = false;
-      prev.addEventListener('dragstart', function (e) { e.preventDefault(); });
-      box.appendChild(prev);
-    }
+    /* THE JAR SIZE — a row of jar silhouettes, chosen by shape. No
+       words: §23.2's design law, and it is also why this needs no noun
+       in eleven languages. The GLASS never changes size between them —
+       the OBJECTS do. Three physically different glasses would destroy
+       cross-session comparison, because a child cannot tell whether
+       today's jar holds more than yesterday's if the glass changed. */
+    box.appendChild(this._buildCapacityRow());
 
     /* the count control. This IS the secret — it is only ever on the fill
        face, which the teacher leaves before the class estimates. */
-    var lbl = api.el('div', 'ej-lbl'); lbl.textContent = api.t('howMany');
+    var lbl = api.el('div', 'ej-seclbl'); lbl.textContent = api.t('howMany');
     box.appendChild(lbl);
 
     var row = api.el('div', 'ej-countrow');
-    var mk = function (delta, sym) {
-      var b = api.el('button', 'ej-stepbtn'); b.type = 'button'; b.textContent = sym;
-      b.setAttribute('aria-label', sym === '−' ? api.t('nudgeDown') : api.t('nudgeUp'));
-      b.addEventListener('click', function () {
-        self.count = Math.max(1, Math.min(self.ceiling(), self.count + delta));
-        self.render();
-      });
-      return b;
-    };
-    row.appendChild(mk(-10, '−'));
+    /* ⚠ THE OPERATOR'S REPORT. v1 shipped only -10 and +10 over a
+       default of 12, so the reachable set was a congruence class mod 10
+       — a teacher could not set 17, every jar ended in the same digit,
+       and the leftover-ones group (the place-value payload of the whole
+       reveal) never varied. Four buttons, and the ones step first in
+       reading order because it is the one used most.
+       Deliberately NOT a slider: a slider connotes approximation, but
+       the teacher's number is the one exact act in the ritual. */
+    row.appendChild(this._stepBtn(-10, '−10', 'nudgeDown10'));
+    row.appendChild(this._stepBtn(-1, '−', 'nudgeDown'));
     var val = api.el('span', 'ej-countval'); val.textContent = String(this.count);
+    val.setAttribute('aria-live', 'off');
     row.appendChild(val);
-    row.appendChild(mk(10, '+'));
+    row.appendChild(this._stepBtn(1, '+', 'nudgeUp'));
+    row.appendChild(this._stepBtn(10, '+10', 'nudgeUp10'));
     box.appendChild(row);
+
+    var dice = api.el('button', 'ej-linkbtn'); dice.type = 'button';
+    dice.textContent = api.t('surprise');
+    dice.addEventListener('click', function () {
+      self._rng = self._rng || self.mulberry32((Date.now() & 0x7fffffff) | 1);
+      self.count = self.pickCount(self.ceiling(), self._rng);
+      self._questionChanged();
+      self.render();
+    });
+    box.appendChild(dice);
 
     var hint = api.el('p', 'ej-hint'); hint.textContent = api.t('secretHint');
     box.appendChild(hint);
@@ -480,14 +1139,107 @@ var EstimationJar = {
     return box;
   },
 
+  /* One stepper, with press-and-hold repeat so a teacher can run 23 to
+     140 without 117 taps. */
+  _stepBtn: function (delta, sym, labelKey) {
+    var self = this, api = this.api;
+    var b = api.el('button', 'ej-stepbtn' + (Math.abs(delta) === 10 ? ' ej-step10' : ''));
+    b.type = 'button';
+    b.textContent = sym;
+    b.setAttribute('aria-label', api.t(labelKey));
+    var timer = null, ramp = null;
+    var apply = function () {
+      var next = Math.max(1, Math.min(self.ceiling(), self.count + delta));
+      if (next === self.count) {
+        /* AT THE CEILING, SAY SO. v1 clamped in silence while the
+           paywall copy promised "jars past 30", so the tool advertised
+           a paid affordance with no control behind it. */
+        if (delta > 0 && !self.premium && self.count >= self.ceiling()) {
+          self.gateOpen = true; self.render();
+        }
+        return false;
+      }
+      self.count = next;
+      self._questionChanged();
+      var v = self._wrap && self._wrap.querySelector('.ej-countval');
+      if (v) v.textContent = String(self.count);
+      self._repaintJars();
+      return true;
+    };
+    var stop = function () { clearTimeout(timer); clearInterval(ramp); timer = ramp = null; };
+    b.addEventListener('click', function () { apply(); });
+    b.addEventListener('pointerdown', function () {
+      timer = setTimeout(function () {
+        ramp = setInterval(function () { if (!apply()) stop(); }, 90);
+      }, 420);
+    });
+    ['pointerup', 'pointerleave', 'pointercancel', 'blur'].forEach(function (ev) {
+      b.addEventListener(ev, stop);
+    });
+    return b;
+  },
+
+  _buildCapacityRow: function () {
+    var self = this, api = this.api;
+    var row = api.el('div', 'ej-caprow');
+    var all = this.capacities();
+    var maxCap = all[all.length - 1].cap;
+    for (var i = 0; i < all.length; i++) {
+      (function (c) {
+        var locked = !c.free && !self.premium;
+        var b = api.el('button', 'ej-capbtn'
+          + (c.id === self.capacityId ? ' ej-on' : '') + (locked ? ' ej-locked' : ''));
+        b.type = 'button';
+        /* ⚠ THE FIRST VERSION DREW THREE DIFFERENT-SIZED JARS, and that
+           is a lie about the model: the glass never changes size — the
+           OBJECTS do. Drawing a small/medium/large glass told the
+           teacher the opposite of what the control does. So: one jar,
+           always the same size, holding dots at the size that capacity
+           actually produces. The control now shows its own consequence,
+           which is the only thing that makes it legible without a word. */
+        /* Reuse the REAL packer, so the icon cannot drift from what the
+           control does — the objects in it are at the true radius for
+           that capacity, in the true lattice. Capped at a legible
+           handful; the point is "big things, few" against "small
+           things, many", which is exactly what capacity means here. */
+        var rr = self.packRadius(c.cap);
+        var dots = '', pp = self.packPile(Math.min(c.cap, 16), c.cap, 'ejicon'), q;
+        for (q = 0; q < pp.length; q++) {
+          dots += '<circle cx="' + pp[q].x.toFixed(0) + '" cy="' + pp[q].y.toFixed(0)
+            + '" r="' + rr.toFixed(0) + '" fill="currentColor" opacity="0.55"/>';
+        }
+        self._packCache = null;   /* the icon must not poison the jar's cache */
+        /* ⚠ stroke-width 10 + non-scaling-stroke rendered a SOLID BLOB at
+           46px: non-scaling means screen pixels, so 10 was 10px on a
+           46px icon. Caught by reading the render. */
+        b.innerHTML = '<svg viewBox="0 0 200 260" style="height:44px;width:auto" aria-hidden="true">'
+          + '<clipPath id="ejcc' + c.id + '"><path d="' + self.JAR_CLIP + '"/></clipPath>'
+          + '<g clip-path="url(#ejcc' + c.id + ')">' + dots + '</g>'
+          + '<path d="' + self.JAR_BODY + '" fill="none" stroke="currentColor" stroke-opacity="0.85" '
+          + 'stroke-width="2" vector-effect="non-scaling-stroke"/></svg>';
+        b.setAttribute('aria-label', self.fmt('capAria', { n: c.cap }));
+        b.setAttribute('aria-pressed', c.id === self.capacityId ? 'true' : 'false');
+        b.addEventListener('click', function () {
+          if (locked) { self.gateOpen = true; self.render(); return; }
+          if (self.capacityId === c.id) return;
+          self.capacityId = c.id;
+          if (self.count > self.ceiling()) self.count = self.ceiling();
+          self._questionChanged();
+          self._saveStore();
+          self.render();
+        });
+        row.appendChild(b);
+      }(all[i]));
+    }
+    return row;
+  },
+
   /* ---- the guess face: tap the line, nudge, commit ---- */
   _buildGuess: function () {
     var self = this, api = this.api;
     var box = api.el('div', 'ej-card');
 
-    var jar = api.el('div', 'ej-jar ej-jarsmall');
-    jar.innerHTML = this._jarSVG(this._fillFor(this.count), true);
-    box.appendChild(jar);
+    box.appendChild(this._buildJar(this.count, { small: true }));
 
     box.appendChild(this._buildLine(false));
 
@@ -509,7 +1261,7 @@ var EstimationJar = {
     add.addEventListener('click', function () { self._commit(); });
     box.appendChild(add);
 
-    if (this.guesses.length) {
+    if (this.liveGuesses().length) {
       var undo = api.el('button', 'ej-linkbtn'); undo.type = 'button';
       undo.textContent = api.t('undoGuess');
       undo.addEventListener('click', function () { self.guesses.pop(); self.render(); });
@@ -534,7 +1286,8 @@ var EstimationJar = {
 
   _commit: function () {
     if (this.pending === null) return;
-    this.guesses.push(this.pending);
+    /* a guess carries the question it answers — see questionId() */
+    this.guesses.push({ v: this.pending, q: this.questionId() });
     this.pending = null;
     try { this.api.sound(660); } catch (_) {}
     this.render();
@@ -599,10 +1352,11 @@ var EstimationJar = {
     if (!el) return;
     el.innerHTML = '';
     var i, d;
+    var live = this.liveGuesses();
     /* committed guesses — anonymous, identical, unordered */
-    for (i = 0; i < this.guesses.length; i++) {
+    for (i = 0; i < live.length; i++) {
       d = api.el('span', 'ej-dot');
-      d.style.left = ((this.guesses[i] / max) * 100) + '%';
+      d.style.left = ((live[i] / max) * 100) + '%';
       d.style.top = (14 + (i % 3) * 13) + 'px';
       el.appendChild(d);
     }
@@ -838,21 +1592,35 @@ function injectEstimationJarCSS() {
     + '.ej-card{position:relative;width:100%;max-width:640px;margin-inline:auto;background:#FFFDF7;'
     + 'border:2px solid #146B5E22;border-radius:22px;padding:18px 16px 16px;'
     + 'box-shadow:0 3px 0 #146B5E14,0 10px 26px -14px #146B5E55;display:flex;flex-direction:column;align-items:center;gap:12px}'
-    + '.ej-jar{width:min(190px,44vw);flex:0 0 auto}'
-    + '.ej-jar.ej-jarsmall{width:min(120px,28vw)}'
-    + '.ej-jarsvg{width:100%;height:auto;display:block}'
-    /* The clump is ABSTRACT on purpose: how many blobs are drawn follows the
-       fill HEIGHT, never the count, so nothing in the glass can be counted.
-       It therefore must not impersonate the filling either — at #F2A65A a jar
-       of cherries read as a jar of oranges, which looks like a bug and quietly
-       invites a child to count what is only decoration. A soft neutral says
-       "full of something" and leaves the answer where it belongs. */
-    + '.ej-blob{fill:#DCCDB4;opacity:.9;stroke:#C9B899;stroke-width:.5}'
+    /* ⚠ 190px was TOO TIMID ON A PHONE and it was a legibility bug, not
+       a taste one: at 320px it gives a 140px jar, and 200 objects in a
+       140px jar draw at 9px — below any floor at which a children's
+       illustration is still an object rather than a coloured speck. At
+       82vw the same worst case is ~20px. The phone is a setup surface,
+       but it still has to show real things. */
+    + '.ej-jar{width:min(300px,82vw);flex:0 0 auto}'
+    + '.ej-jar.ej-jarsmall{width:min(190px,52vw)}'
+    + '.ej-jarbox{position:relative;width:100%;aspect-ratio:200/260}'
+    + '.ej-layer{position:absolute;inset:0;pointer-events:none}'
+    + '.ej-layer svg,.ej-glassback,.ej-glassfront{width:100%;height:100%;display:block}'
+    + '.ej-pile{position:absolute;inset:0;width:100%;height:100%;display:block}'
     + '.ej-setpic{width:52px;height:auto;flex:0 0 auto;user-select:none;-webkit-user-drag:none}'
+    /* the jar-size chooser — silhouettes, never words */
+    + '.ej-caprow{display:flex;align-items:flex-end;gap:10px;justify-content:center}'
+    + '.ej-capbtn{display:flex;align-items:flex-end;justify-content:center;min-width:52px;min-height:52px;'
+    + 'padding:6px 10px;border:2px solid #146B5E22;border-radius:14px;background:#FFF9EE;color:#146B5E;cursor:pointer}'
+    + '.ej-capbtn.ej-on{border-color:#F2784B;background:#FFF6F1}'
+    + '.ej-capbtn.ej-locked{color:#B9AC98;border-style:dashed}'
+    + '.ej-seclbl{font:700 13px/1 Nunito,system-ui,sans-serif;color:#7A6A55;text-transform:uppercase;letter-spacing:.06em}'
+    + '.ej-step10{font-size:15px}'
     + '.ej-pill{font:600 15px/1.2 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF9EE;border:2px solid #146B5E33;'
     + 'border-radius:999px;padding:9px 18px;min-height:44px;cursor:pointer;flex:0 0 auto}'
-    + '.ej-lbl{font:700 13px/1 Nunito,system-ui,sans-serif;color:#7A6A55;text-transform:uppercase;letter-spacing:.06em}'
-    + '.ej-countrow,.ej-guessctl{display:flex;align-items:center;gap:10px;flex-wrap:nowrap}'
+    /* ⚠ `.ej-lbl` used to be declared TWICE — here for the uppercase
+       section label and again below for the SVG tick numerals. Same
+       class, two different elements, so the later `font:` shorthand won
+       and the teacher-facing label silently rendered at 22px/600
+       instead of 13px/700. The HTML one is now `.ej-seclbl`. */
+    + '.ej-countrow,.ej-guessctl{display:flex;align-items:center;gap:8px;flex-wrap:nowrap}'
     + '.ej-stepbtn{width:48px;height:48px;flex:0 0 auto;border-radius:50%;border:2px solid #146B5E33;background:#FFF9EE;'
     + 'color:#146B5E;font:700 22px/1 Nunito,system-ui,sans-serif;cursor:pointer}'
     + '.ej-countval,.ej-pendpill{min-width:74px;text-align:center;'

@@ -43,7 +43,10 @@ const path = require('path');
 const sharp = require(path.join(__dirname, '..', 'frontend', 'node_modules', 'sharp'));
 
 const ROOT = path.join(__dirname, '..');
-const SETS = path.join(ROOT, 'mini tools', 'estimation-jar-sets.json');
+/* EJ_DATA_DIR so verify-estimation-jar.js can point this at the sets
+   file UNDER TEST — measuring a mutated constant against the real
+   sprite, rather than against itself. */
+const SETS = path.join(process.env.EJ_DATA_DIR || path.join(ROOT, 'mini tools'), 'estimation-jar-sets.json');
 const WEBP = path.join(ROOT, 'image-library-webp', 'themes');
 
 /* Radially symmetric sets tolerate a wider rotation range: with no

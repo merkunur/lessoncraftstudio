@@ -1757,7 +1757,14 @@ var EstimationJar = {
        ⚠ Nothing may tint, scale, ring or otherwise mark a dot by its
        proximity to this line. That is a distance gradient, it is the
        tempting move here, and it is banned. */
-    if (this._showTruth && this.stage === 'reveal') {
+    /* ⚠ THE TRUTH MUST NOT LAND BEFORE THE COUNT REACHES IT. The first
+       build painted it as soon as the reveal face mounted, so the answer
+       sat on the line while the room was still chanting its way up to
+       it — the ritual's one moment of arrival, given away at t=0. It
+       shows only once the last object is out of the jar.
+       (Found by probing the reveal timeline; every assertion passed,
+       because they all sampled AFTER the count had finished.) */
+    if (this._showTruth && this.stage === 'reveal' && (this._revealShown || 0) >= this.count) {
       var rule = api.el('span', 'ej-truthrule');
       rule.style.left = ((this.count / max) * 100) + '%';
       el.appendChild(rule);

@@ -178,7 +178,7 @@ const WIDTH_PROBE = function (vw) {
        worst case is all 20 frames on screen, not the walk that gets there. */
     await p.evaluate(() => {
       const T = window.EstimationJar;
-      T._revealStep = T.groupsOfTen(T.count).length;
+      T._revealShown = T.count;
       T._paintFrames(); T._paintDots();
     });
     await sleep(300);
@@ -239,15 +239,43 @@ const WIDTH_PROBE = function (vw) {
     const anon = await p.evaluate(() => [...document.querySelectorAll('.ej-dot')].every(d => !d.textContent.trim()));
     ok('dots carry no label of any kind', anon);
     await shoot(p, 'guesses.png');
+    /* READ the default rather than hard-coding it: this assertion used
+       to carry a literal 12, so changing the default count turned a
+       correct tool into a red gate. The count is the tool's to choose;
+       what the gate owns is that the SAME number reaches the line. */
+    const want = await p.evaluate(() => String(window.EstimationJar.count));
     await toStage(p, 2);
-    await sleep(2200);
+    /* ⚠ THE ANSWER MUST NOT ARRIVE BEFORE THE COUNT REACHES IT. The
+       first build painted the truth as soon as the reveal face mounted,
+       so it sat on the line while the room was still chanting up to it.
+       Every assertion missed it, because they all sampled after the
+       count had finished. Sample DURING. */
+    await sleep(700);
+    const midTruth = await p.evaluate(() => ({
+      shown: window.EstimationJar._revealShown || 0,
+      total: window.EstimationJar.count,
+      truth: !!document.querySelector('.ej-truth')
+    }));
+    ok('the count is still running when we look', midTruth.shown < midTruth.total,
+      'shown=' + midTruth.shown + '/' + midTruth.total);
+    ok('the true count has NOT landed yet — the reveal is not spoiled', !midTruth.truth);
+    /* the reveal is beat-driven now, so wait for it to SETTLE rather
+       than for a fixed sleep that a longer count would outrun */
+    await p.waitForFunction(() => !!document.querySelector('.ej-truth'), { timeout: 30000 });
+    await sleep(600);
     const rev = await p.evaluate(() => ({
       frames: document.querySelectorAll('.ej-tf').length,
       truth: (document.querySelector('.ej-truth') || {}).textContent,
+      tally: (document.querySelector('.ej-tally') || {}).textContent,
+      rule: !!document.querySelector('.ej-truthrule'),
       closing: (document.querySelector('.ej-closing') || {}).textContent
     }));
     ok('ten-frames filled on reveal', rev.frames >= 1, 'frames ' + rev.frames);
-    ok('the true count lands on the line', rev.truth === '12', 'truth=' + rev.truth);
+    ok('the true count lands on the line', rev.truth === want, 'truth=' + rev.truth + ' want=' + want);
+    ok('the truth is a RULE through the plot, not a pill beside it', rev.rule);
+    /* the count must be legible with the sound off — six of eleven
+       locales get no voice at all */
+    ok('the running total is RENDERED, not only spoken', rev.tally === want, 'tally=' + rev.tally);
     ok('a closing line is spoken/shown', (rev.closing || '').length > 5, rev.closing);
     await shoot(p, 'reveal.png');
     await p.close();
@@ -337,8 +365,14 @@ const WIDTH_PROBE = function (vw) {
     await p2.goto(`${BASE}?lang=en&set=${freeSets[1].id}&count=200`, { waitUntil: 'domcontentloaded' });
     await ready(p2); await sleep(500);
     const s2 = await p2.evaluate(() => [...document.querySelectorAll('img')].map(i => i.getAttribute('src') || ''));
+    /* ⚠ This used to prove the link resolved by finding an <img> with
+       the set's src. The pile is a CANVAS now — deliberately, so the
+       count cannot be read out of the DOM — so that probe measured the
+       absence of the old render path, not a broken link. Ask the model
+       which set it actually loaded. */
+    const loaded = await p2.evaluate(() => window.EstimationJar.setId);
     ok('a free deep link IS honoured (the clamp probe is live)',
-      s2.some(u => u.includes('/' + freeSets[1].imageFile + '@')), s2.join(','));
+      loaded === freeSets[1].id, 'setId=' + loaded);
     const shown = await p2.$eval('.ej-countval', e => parseInt(e.textContent, 10));
     ok('a premium-size count is clamped to the free ceiling', shown <= data.freeMax, 'count=' + shown);
     await p2.close();
@@ -349,14 +383,29 @@ const WIDTH_PROBE = function (vw) {
   {
     const p = await newPage({}); await p.goto(BASE + '?lang=en', { waitUntil: 'domcontentloaded' }); await ready(p);
     await spy(p);
-    await toStage(p, 2); await sleep(2400);
+    await toStage(p, 2);
+    /* ⚠ Wait for the reveal to SETTLE, not for a fixed sleep. The count
+       is beat-driven now — a ten takes longer to say than a one — so a
+       2400ms window captured "10, 20, 21" of a 23-jar and reported the
+       tool as broken for finishing later than the gate expected. */
+    await p.waitForFunction(() => !!document.querySelector('.ej-truth'), { timeout: 40000 });
+    await sleep(400);
     const sp = await p.evaluate(() => window.__spoken || []);
     ok('the count is spoken', sp.length > 0, 'n=' + sp.length);
     ok('every speak call carries lang', sp.every(s => !!s.lang));
     ok('types are number|ui only', sp.every(s => ['number', 'ui'].includes(s.type)), JSON.stringify(sp.map(s => s.type)));
     const nums = sp.filter(s => s.type === 'number').map(s => s.text);
     ok('numbers are spoken as BARE numerals', nums.every(t => /^\d+$/.test(t)), nums.join(','));
-    ok('running totals count by tens', nums[0] === '10' || nums[0] === String(Math.min(10, 12)), nums.slice(0, 3).join(','));
+    /* Below twenty the reveal counts by ONES on purpose (that is where
+       a ten comes from), so the old "first number is 10" assertion was
+       asserting the defect. What must hold is that the spoken sequence
+       is the running total: it starts at its own first beat and ends on
+       the count. */
+    const jarN = await p.evaluate(() => window.EstimationJar.count);
+    ok('the spoken sequence ends on the true count',
+      nums.length > 0 && nums[nums.length - 1] === String(jarN), nums.slice(-3).join(','));
+    ok('the spoken sequence is monotonic (a running total, not a group size)',
+      nums.every((t, i) => i === 0 || Number(t) > Number(nums[i - 1])), nums.slice(0, 4).join(','));
     await p.close();
   }
 

@@ -1805,6 +1805,17 @@ var FractionKitchen = {
           self.friends = f;
           self.placed = []; self.plateOf = [];
           self.render();
+          /* ⭐ TAPPING THE COUNT ALWAYS SAYS THE COUNT. The chip used to set
+             the value and re-render, which on the already-current value is a
+             byte-identical DOM and therefore does nothing at all — the liveness
+             gate found "2" inert on its only reachable path, since entering
+             share mode already sets friends to 2. Re-announcing costs no new
+             string (sharePrompt is authored in all eleven and _speak writes the
+             visible ribbon) and is the teacher's actual gesture: say the
+             question again for the class. Depth-1 could not see this; only the
+             two-deep path could. */
+          self._speak(self.fmt('sharePrompt', { f: self.friends,
+            food: self._loc(self.strings['food' + self.food.charAt(0).toUpperCase() + self.food.slice(1)]) }));
         });
         r2.appendChild(chip);
       });

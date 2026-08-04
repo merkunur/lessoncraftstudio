@@ -42,20 +42,77 @@ const TOOL_DIR = process.env.MM_TOOL_DIR || path.join(REPO, 'mini tools');
 const errors = [];
 const E = (m) => errors.push(m);
 
+/* ⚠⚠ `\b` IS ASCII-ONLY, AND TWO OF THESE BANS WERE BORN DEAD.
+   Measured, not reasoned about:
+     /\b(…|equivocad)\b/   never matched "está equivocado" — `equivocad` is
+                           a STEM, and the trailing \b demands a non-word
+                           character where the inflection's vowel sits.
+     /\b(…|väärä)\b/       never matched "se on väärä" — the word ENDS in a
+                           non-ASCII letter, so \b after it requires a word
+                           character to FOLLOW, inverting the test.
+   A ban tested only on English is tested in the one language where \b
+   happens to work. These use Unicode look-arounds, and stems drop the
+   trailing boundary deliberately so inflections are caught. */
+const w = (body, tail) => new RegExp('(?<!\\p{L})(?:' + body + ')' + (tail === false ? '' : '(?!\\p{L})'), 'iu');
 const VERDICT = {
-  en: /\b(correct|incorrect|wrong|oops)\b/i,
-  de: /\b(richtig|falsch)\b/i,
-  fr: /\b(correct|correcte|faux|fausse)\b/i,
-  it: /\b(giusto|sbagliato|corretto)\b/i,
-  es: /\b(correcto|incorrecto|equivocad)\b/i,
-  pt: /\b(correto|errado|incorreto)\b/i,
-  nl: /\b(goed antwoord|fout|onjuist)\b/i,
-  sv: /\b(rätt svar|fel)\b/i,
-  da: /\b(rigtigt svar|forkert)\b/i,
-  no: /\b(riktig svar|feil)\b/i,
-  fi: /\b(oikein|väärin|väärä)\b/i
+  /* ⭐ STEMS, not headwords. Five of these were dead against the form a
+     native would actually write — "falsche", "sbagliata", "incorrecta",
+     "errada", "foute" — because each was drafted from the dictionary entry
+     with a trailing boundary welded on. The MUST_PASS block below is what
+     stops the widening going too far. */
+  en: [w('correct|incorrect|wrong|oops')],
+  de: [w('richtig', false), w('falsch', false)],
+  fr: [w('correct', false), w('faux'), w('fauss', false)],
+  it: [w('giust', false), w('sbagliat', false), w('corrett', false)],
+  es: [w('correct', false), w('incorrect', false), w('equivocad', false)],
+  pt: [w('corret', false), w('incorret', false), w('errad', false)],
+  nl: [w('goed antwoord'), w('fout', false), w('onjuist', false)],
+  sv: [w('rätt svar'), w('fel')],
+  da: [w('rigtigt svar'), w('forkert', false)],
+  no: [w('riktig svar'), w('feil')],
+  /* vääri- covers väärin/väärän; väärä covers väärä/väärää */
+  fi: [w('oikein'), w('vääri', false), w('väärä', false)]
 };
-const SCORE_RE = /\b(score|timer|streak|points|punkte|punteggio|puntos|pontos|punten|poäng|poeng|point)\b/i;
+const SCORE_RE = w('score|timer|streak|points|punkte|punteggio|puntos|pontos|punten|poäng|poeng|point');
+
+/* ⭐ POISON THE BANS IN BOTH DIRECTIONS, EVERY RUN, IN THE LANGUAGE EACH
+   POLICES — a ban that rejects correct native prose teaches a panel to word
+   around it, and a ban that fires on nothing is not a ban. */
+{
+  /* one INFLECTED must-fire per locale — the form a native would actually
+     write, not the dictionary headword the ban was drafted from */
+  const fire = [
+    ['en', 'that is wrong'], ['en', 'incorrect'],
+    ['de', 'das ist falsch'], ['de', 'die falsche Münze'],
+    ['fr', 'ce nombre est faux'], ['fr', 'la réponse est fausse'],
+    ['it', 'è sbagliato'], ['it', 'la risposta è sbagliata'],
+    ['es', 'está equivocado'], ['es', 'la respuesta es incorrecta'],
+    ['pt', 'está errado'], ['pt', 'a resposta está errada'],
+    ['nl', 'dat is fout'], ['nl', 'het foute antwoord'],
+    ['sv', 'rätt svar'], ['da', 'det er forkert'], ['no', 'det er feil'],
+    ['fi', 'se on väärä'], ['fi', 'vastasit väärin'], ['fi', 'kaikki oikein']
+  ];
+  /* ⚠ ordinary prose from THIS tool's own strings — a ban that rejects
+     correct native copy teaches a panel to word around it */
+  const pass = [
+    ['es', 'toca monedas para ponerlas en el tapete y pagar justo'],
+    ['fi', 'napauta kolikoita matolle ja maksa hinta tasan'],
+    ['de', 'tippe münzen auf die matte und bezahle passend'],
+    ['sv', 'tryck på mynt för att lägga dem på mattan'],
+    ['fr', 'touche des pièces pour les poser sur le tapis'],
+    ['it', 'tocca le monete per metterle sul tappeto'],
+    ['pt', 'toque nas moedas para colocá-las no tapete'],
+    ['nl', 'tik munten op de mat en betaal gepast'],
+    ['da', 'tryk på mønterne for at lægge dem på måtten'],
+    ['no', 'trykk på mynter for å legge dem på matta'],
+    ['en', 'tap coins onto the mat to pay the exact price']
+  ];
+  const hit = (loc, s) => [].concat(VERDICT[loc]).some((re) => re.test(s));
+  for (const [loc, s] of fire) if (!hit(loc, s)) E(`verdict ban MUST FIRE on ${loc} "${s}" and did not`);
+  for (const [loc, s] of pass) if (hit(loc, s)) E(`verdict ban MUST PASS ordinary ${loc} prose "${s}" and did not`);
+  if (!SCORE_RE.test('poäng')) E('score ban MUST FIRE on "poäng"');
+  if (SCORE_RE.test('pointe')) E('score ban MUST PASS "pointe"');
+}
 
 /* ---- load ---- */
 const sandbox = {
@@ -101,18 +158,75 @@ for (const k of ['sek', 'dkk', 'nok']) if (T.CURRENCIES[k].minorPerMajor !== 1) 
 for (const L of ALL) if (!T.LOCALE_CUR[L]) E(`LOCALE_CUR missing ${L}`);
 for (const k of ['usd', 'gbp']) if (!T.CURRENCIES[k]) E(`en toggle currency ${k} missing`);
 
-/* ================= 2. COMPOSABILITY (DP over the full price set) == */
+/* ================= 2. COMPOSABILITY ================================
+   ⭐⭐ THIS SECTION USED TO MARK ITS OWN HOMEWORK. Its only assertion was
+   `if (!T.composable(p, coinVals)) E(...)` — it asked the tool the very
+   question it existed to answer and believed the reply. Stub
+   `T.composable = () => true` and the whole section passed with ZERO
+   errors, on a tool that might emit prices no child could pay.
+
+   The replacement is an INDEPENDENT construction written here: a BFS that
+   must EXHIBIT an actual multiset of coins summing to p. It shares no code
+   and no strategy with the tool's DP. Then both answers are compared, so a
+   disagreement in EITHER direction is an error — the gate now also catches
+   a `composable` that wrongly says no.
+   (§3 below was always honest by contrast: it calls greedyChange and then
+   verifies the sum, the length and the ordering itself. That is the model.) */
+function exhibitCoins(amount, coinVals) {
+  if (amount === 0) return [];
+  const vals = coinVals.slice().sort((a, b) => b - a);
+  const prev = new Map([[0, null]]);          /* reached-amount -> {from, coin} */
+  let frontier = [0];
+  while (frontier.length) {
+    const next = [];
+    for (const a of frontier) {
+      for (const v of vals) {
+        const n = a + v;
+        if (n > amount || prev.has(n)) continue;
+        prev.set(n, { from: a, coin: v });
+        if (n === amount) {
+          const out = [];
+          let cur = amount;
+          while (cur !== 0) { const step = prev.get(cur); out.push(step.coin); cur = step.from; }
+          return out;
+        }
+        next.push(n);
+      }
+    }
+    frontier = next;
+  }
+  return null;
+}
+
 for (const cKey of Object.keys(T.CURRENCIES)) {
-  const coinVals = T.CURRENCIES[cKey].coins.map((d) => d.v);
-  for (const band of [1, 2, 3]) {
-    for (const tier of [1, 2, 3]) {
-      const r = T.priceRange(band, tier, cKey);
-      if (r.lo > r.hi) { E(`${cKey} b${band} t${tier}: empty price range`); continue; }
-      for (let p = r.lo; p <= r.hi; p += r.grain) {
-        if (!T.composable(p, coinVals)) E(`${cKey} b${band} t${tier}: price ${p} NOT composable from coins`);
+  const allCoins = T.CURRENCIES[cKey].coins.map((d) => d.v);
+  /* sweep the RESTRICTED purses too: a teacher-set coinsFrom must never be
+     handed a price it cannot pay. That regression shipped once — whole-krona
+     pinned the grain to 1 regardless of the smallest coin, so sek/dkk/nok
+     emitted 6, 7 and 8 kr into a purse of 5s and 10s. */
+  for (const coinsFrom of [0, 5, 10]) {
+    for (const fineGrain of [false, true]) {
+      const coinVals = allCoins.filter((v) => v >= coinsFrom);
+      if (!coinVals.length) continue;
+      T.api = { lang: 'en', settings: { enCurrency: cKey, coinsFrom, fineGrain }, t: (k) => k };
+      const minCoin = Math.max(coinsFrom, allCoins[0]);
+      for (const band of [1, 2, 3]) {
+        for (const tier of [0, 1, 2, 3]) {
+          const r = T.priceRange(band, tier, cKey, minCoin);
+          if (r.lo > r.hi) { E(`${cKey} b${band} t${tier}: empty price range`); continue; }
+          for (let p = r.lo; p <= r.hi; p += r.grain) {
+            const witness = exhibitCoins(p, coinVals);
+            const claimed = T.composable(p, coinVals);
+            const tag = `${cKey} b${band} t${tier} coins>=${coinsFrom}${fineGrain ? ' fine' : ''}`;
+            if (!witness) E(`${tag}: price ${p} NOT payable — no multiset of [${coinVals}] sums to it`);
+            else if (witness.reduce((a, b) => a + b, 0) !== p) E(`${tag}: the gate's own witness for ${p} sums wrong`);
+            if (claimed !== !!witness) E(`${tag}: composable(${p}) said ${claimed}, an independent search said ${!!witness}`);
+          }
+        }
       }
     }
   }
+  T.api = undefined;
 }
 
 /* ================= 3. CHANGE (over the CHANGE-MODE price set:
@@ -270,7 +384,9 @@ for (const key of Object.keys(S)) {
     const v = S[key][L];
     if (!v || !v.trim()) { E(`strings.${key}.${L}: empty`); continue; }
     for (const p of ph) if (!v.includes(p)) E(`strings.${key}.${L}: drops placeholder ${p}`);
-    if (VERDICT[L] && VERDICT[L].test(v)) E(`strings.${key}.${L}: verdict vocabulary ("${v}")`);
+    /* ⚠ es and fi carry TWO patterns each (a whole-word set plus a stem),
+       so this must not call .test on the entry directly */
+    if (VERDICT[L] && [].concat(VERDICT[L]).some((re) => re.test(v))) E(`strings.${key}.${L}: verdict vocabulary ("${v}")`);
     if (SCORE_RE.test(v)) E(`strings.${key}.${L}: score/timer vocabulary ("${v}")`);
     if (/Common Core/.test(v)) E(`strings.${key}.${L}: mentions Common Core`);
   }
@@ -334,10 +450,13 @@ async function seatingProofs() {
   }
   console.log(`PASS — money-mat verified (locales: ${LOCALES.join(',')})`);
   console.log(`  ✓ ${Object.keys(T.CURRENCIES).length} currencies: denominations sane, faces complete, NOK-no-2kr, whole-krona honest`);
-  console.log('  ✓ composability: every generatable price provably coin-composable (all bands × tiers × currencies)');
+  console.log('  ✓ composability: an INDEPENDENT search exhibits a paying multiset for every price the');
+  console.log('    generator can emit (band × tier × currency × coinsFrom × fineGrain), and its verdict');
+  console.log('    is compared against the tool\'s own — so stubbing composable() no longer hides a defect');
   console.log('  ✓ change: every (price, tender) sums exactly, ≤6 coins, ascending count-on order');
   console.log('  ✓ format: money-core display conventions + minor-form tags hold');
   console.log('  ✓ formatLike: one notation per round — no flip at 1 major, overpay safe, formatLike(v,v)≡formatTag(v)');
   console.log(`  ✓ seating: ${T.ITEMS.length} items trim-proven at the anchor + sharp re-measure clean`);
-  console.log(`  ✓ ${Object.keys(S).length} strings + spoken templates + unit words complete (${LOCALES.length} locales); bans hold`);
+  console.log(`  ✓ ${Object.keys(S).length} strings + spoken templates + unit words complete (${LOCALES.length} locales)`);
+  console.log('    verdict/score bans poison-tested BOTH ways in every language they police (21 must-fire, 11 must-pass)');
 })();

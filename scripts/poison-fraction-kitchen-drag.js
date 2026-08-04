@@ -64,8 +64,8 @@ const CASES = [
       let out = sub(s, '  _knifeMove: function (d, e) {\n    if (this._busy || this.sliced) return;',
         '  _knifeMove: function (d, e) {\n    if (d._done) return;\n    if (this._busy || this.sliced) return;', 'B2 guard');
       return sub(out,
-        '      this._disengage(c);\n      this._commit(kind, idx);',
-        '      this._disengage(c);\n      d._done = true; this._endKnife(c);\n      this._commit(kind, idx);',
+        '      this._disengage(c);\n      this._commit(idx);',
+        '      this._disengage(c);\n      d._done = true; this._endKnife(c);\n      this._commit(idx);',
         'B2 terminate');
     }
   },
@@ -73,8 +73,8 @@ const CASES = [
     name: 'B2 one handler per gesture after a cut (no stacking)',
     why: 'the knife is re-wired from _commit, stacking a quadruple per cut',
     build: (s) => sub(s,
-      '      this._markCut(idx);',
-      '      this._markCut(idx); this._wireKnife(); this._wireKnife();',
+      '    this._markCut(idx);',
+      '    this._markCut(idx); this._wireKnife(); this._wireKnife();',
       'B2 stacking')
   },
   {

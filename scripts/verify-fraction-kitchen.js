@@ -68,9 +68,12 @@ const sandbox = {
   URLSearchParams: URLSearchParams, Math: Math, JSON: JSON, Date: Date
 };
 sandbox.global = sandbox;
+const TOOL_PATH = path.join(process.env.FRK_TOOL_DIR || path.join(REPO, 'mini tools'), 'fraction-kitchen.js');
+/* the raw source — §8 audits the SHAPE of the code, not just its output */
+const SRC = fs.readFileSync(TOOL_PATH, 'utf8').replace(/\r\n/g, '\n');
 try {
   vm.createContext(sandbox);
-  vm.runInContext(fs.readFileSync(path.join(REPO, 'mini tools', 'fraction-kitchen.js'), 'utf8'), sandbox);
+  vm.runInContext(SRC, sandbox);
 } catch (e) { console.log('FAIL  eval: ' + e.message); process.exit(1); }
 const T = sandbox.FractionKitchen;
 if (!T || !T.strings || !T.FRAC) { console.log('FAIL  FractionKitchen not found'); process.exit(1); }
@@ -314,6 +317,130 @@ if ((T.STORIES || []).length === 8 && discussions !== 2) E(`STORIES: ${discussio
 for (const food of Object.keys(T.FREE_TASKS)) {
   if (!T.MENU[food]) E(`FREE_TASKS: unknown food ${food}`);
   else for (const n of T.FREE_TASKS[food]) if (T.MENU[food].indexOf(n) < 0) E(`FREE_TASKS: ${food} ${n} not in MENU`);
+}
+
+/* =================== 8. SOURCE SHAPE ==============================
+   The output-level proofs above cannot see a method that is CALLED and
+   never DEFINED, a pointer handler bound to a node its own re-render
+   will replace, or an `id` inside a body that gets injected eight times
+   per render. Those are properties of the SOURCE, so they are measured
+   here — the gate implements its own ground truth and never asks the
+   tool to confirm its own shape.
+
+   Every check below asserts NON-VACUITY first: a regex that matched
+   nothing must FAIL, not pass quietly. A scan that silently selects an
+   empty set is the shape of a gate that cannot fail.
+   ================================================================== */
+
+/* ---- 8a. every this./self. call resolves to a definition ---------- */
+{
+  const defs = new Set();
+  let m;
+  const defRe = /^ {2}([A-Za-z_$][\w$]*)\s*:/gm;          /* object-literal members */
+  while ((m = defRe.exec(SRC))) defs.add(m[1]);
+  const calls = new Map();
+  const callRe = /(?:self|this)\.([A-Za-z_$][\w$]*)\s*\(/g;
+  while ((m = callRe.exec(SRC))) {
+    if (!calls.has(m[1])) calls.set(m[1], SRC.slice(0, m.index).split('\n').length);
+  }
+  if (defs.size < 40) E(`8a NON-VACUITY: only ${defs.size} member definitions parsed (expected ≥40) — the definition scan is broken, not the tool`);
+  if (calls.size < 20) E(`8a NON-VACUITY: only ${calls.size} self./this. call sites parsed (expected ≥20)`);
+  for (const [name, line] of calls) {
+    if (!defs.has(name)) E(`8a UNDEFINED METHOD: this.${name}() is called at line ${line} and never defined — this throws at runtime`);
+  }
+}
+
+/* ---- 8b. pointer handlers follow the house drag contract ---------- */
+{
+  /* body of the function literal that starts at/after `from` */
+  const bodyAt = (from) => {
+    const open = SRC.indexOf('{', from);
+    if (open < 0) return '';
+    let d = 0, i = open, q = null;
+    for (; i < SRC.length; i++) {
+      const c = SRC[i];
+      if (q) { if (c === '\\') i++; else if (c === q) q = null; continue; }
+      if (c === '"' || c === "'" || c === '`') { q = c; continue; }
+      if (c === '{') d++;
+      else if (c === '}') { d--; if (!d) return SRC.slice(open, i + 1); }
+    }
+    return '';
+  };
+
+  /* pointermove/up/cancel must be bound to WINDOW — a re-render replaces
+     the element and takes its listeners (and its pointer capture) with
+     it. unit-handle.js:680-686 / cold-line.js:578 paid for this. */
+  let m, moves = 0;
+  const bindRe = /([A-Za-z_$][\w$.]*)\.addEventListener\(\s*'(pointermove|pointerup|pointercancel)'/g;
+  while ((m = bindRe.exec(SRC))) {
+    moves++;
+    if (m[1] !== 'window') {
+      E(`8b DRAG CONTRACT: '${m[2]}' bound to \`${m[1]}\` at line ${SRC.slice(0, m.index).split('\n').length} — must be bound to window`);
+    }
+  }
+  if (!moves) E('8b NON-VACUITY: no pointermove/up/cancel bindings found at all — the scan is broken');
+
+  /* every pointerdown handler must suppress the browser gesture, or a
+     touch drag becomes a page pan and dies on pointercancel */
+  let downs = 0;
+  const downRe = /addEventListener\(\s*'pointerdown'\s*,/g;
+  while ((m = downRe.exec(SRC))) {
+    downs++;
+    const body = bodyAt(m.index);
+    if (!body) { E('8b: could not parse a pointerdown handler body'); continue; }
+    if (!/preventDefault\s*\(/.test(body)) {
+      E(`8b DRAG CONTRACT: the pointerdown handler at line ${SRC.slice(0, m.index).split('\n').length} never calls preventDefault() — on touch the browser pans and cancels the drag`);
+    }
+  }
+  if (downs < 2) E(`8b NON-VACUITY: only ${downs} pointerdown handlers found (expected ≥2)`);
+
+  /* touch-action:none is INERT on a non-root SVG element. Setting it on
+     one is the defect, not the fix — the target must be an HTML node. */
+  if (/\.frk-piece[^{]*\{[^}]*touch-action/.test(SRC) || /\bg\.style\.touchAction/.test(SRC)) {
+    E('8b DRAG CONTRACT: touch-action is being set on an SVG <g> (.frk-piece) — it is inert there; the pointer target must be an HTML element');
+  }
+}
+
+/* ---- 8c. _bodySVG is injected many times per render: no ids ------- */
+{
+  let injected = 0;
+  for (const food of Object.keys(T.MENU)) {
+    const body = T._bodySVG(food);
+    injected++;
+    if (/\sid\s*=/.test(body)) E(`8c: _bodySVG('${food}') contains an id — it is injected up to 8× per render, so every id would be duplicated`);
+    if (body.length < 100) E(`8c NON-VACUITY: _bodySVG('${food}') returned ${body.length} chars`);
+    /* the no-shame colour ban, at source. Same predicate as local-test F,
+       so the two can never disagree about what "alarm red" means. */
+    let h;
+    const hexRe = /#([0-9A-Fa-f]{6})\b/g;
+    while ((h = hexRe.exec(body))) {
+      const r = parseInt(h[1].slice(0, 2), 16), g2 = parseInt(h[1].slice(2, 4), 16), b = parseInt(h[1].slice(4, 6), 16);
+      if (r > 185 && g2 < 90 && b < 90) E(`8c NO-SHAME: ${food} body uses alarm-red #${h[1]} — local-test F bans it; pick a hue outside r>185 & g<90 & b<90`);
+      if (g2 > 150 && r < 100 && b < 100) E(`8c NO-SHAME: ${food} body uses verdict-green #${h[1]}`);
+    }
+  }
+  if (injected < 3) E(`8c NON-VACUITY: only ${injected} foods checked`);
+}
+
+/* ---- 8d. the foodbox must stay SQUARE ----------------------------
+   The hit overlay is positioned in the foodbox's percentage space, and
+   viewBox units map isotropically to px ONLY while it is square. A
+   one-sided clamp would skew every hit target silently. */
+{
+  let m, blocks = 0;
+  const boxRe = /\.frk-foodbox\s*\{([^}]*)\}/g;
+  while ((m = boxRe.exec(SRC))) {
+    blocks++;
+    const decl = m[1];
+    if (/aspect-ratio\s*:\s*1\b/.test(decl)) continue;
+    const w = (decl.match(/(?:^|;)\s*width\s*:\s*([^;]+)/) || [])[1];
+    const h = (decl.match(/(?:^|;)\s*height\s*:\s*([^;]+)/) || [])[1];
+    if (!w || !h) continue;
+    if (w.trim() !== h.trim()) {
+      E(`8d SQUARE INVARIANT: .frk-foodbox rule #${blocks} has width:${w.trim()} but height:${h.trim()} — the hit overlay's percentage maths needs a square box (or an explicit aspect-ratio:1)`);
+    }
+  }
+  if (blocks < 2) E(`8d NON-VACUITY: only ${blocks} .frk-foodbox rules parsed (expected ≥2 — base + breakpoints)`);
 }
 
 /* =================== report ======================================== */

@@ -65,7 +65,14 @@ function serve() {
   async function newPage(opts) {
     opts = opts || {};
     const page = await browser.newPage();
-    await page.setViewport({ width: opts.w || 1024, height: opts.h || 768 });
+    /* ⚠ hasTouch MUST be on for the touch path, or Chrome declines to
+       synthesise touch at all and every touch assertion passes on
+       nothing. isMobile rides along so the compositor runs the real
+       touch-action hit test rather than the desktop one. */
+    await page.setViewport({
+      width: opts.w || 1024, height: opts.h || 768,
+      hasTouch: !!opts.touch, isMobile: !!opts.touch
+    });
     await page.evaluateOnNewDocument((premium) => {
       try { localStorage.clear(); } catch (_) {}
       if (premium) {
@@ -132,6 +139,49 @@ function serve() {
     await page.mouse.up();
     await sleep(250);
   }
+
+  /* ---- the TOUCH path -------------------------------------------------
+     `page.mouse` dispatches pointerType:'mouse' and never engages the
+     browser's pan/scroll gesture, so it cannot see the defect class that
+     makes a drag die on a phone. `page.touchscreen.tap()` is no use
+     either — start+end with no moves in between is not a drag.
+
+     Assert the OUTCOME and the CANCEL COUNT, never the move count:
+     Chrome throttles touchmove, so a gate that counts pointermove events
+     is flaky by construction. pointercancel is the sharper signal — it
+     fires the moment the browser decides the gesture is a pan, which is
+     exactly the defect, and it fails even when the outcome survives. */
+  async function armTouchWatch(page) {
+    await page.evaluate(() => {
+      window.__cancels = 0;
+      window.__scrolled = 0;
+      addEventListener('pointercancel', () => { window.__cancels++; }, true);
+      addEventListener('scroll', () => { window.__scrolled++; }, true);
+      try { document.scrollingElement.scrollTop = 0; } catch (_) {}
+    });
+  }
+  async function touchDrag(page, from, to, steps) {
+    steps = steps || 12;
+    const t = await page.touchscreen.touchStart(from.x, from.y);
+    for (let i = 1; i <= steps; i++) {
+      await t.move(from.x + (to.x - from.x) * i / steps, from.y + (to.y - from.y) * i / steps);
+      await sleep(24);
+    }
+    await t.end();
+    await sleep(260);
+  }
+  async function touchWatch(page) {
+    return page.evaluate(() => ({
+      cancels: window.__cancels,
+      scrollTop: (document.scrollingElement && document.scrollingElement.scrollTop) || 0
+    }));
+  }
+  const centerOf = (page, sel) => page.evaluate((s) => {
+    const el = document.querySelector(s);
+    if (!el) return null;
+    const r = el.getBoundingClientRect();
+    return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+  }, sel);
 
   /* ============================ A: viewports ============================ */
   console.log('A. viewport sweep');
@@ -334,6 +384,43 @@ function serve() {
     await page.close();
   }
 
+  /* ==================== D2: the board→tray path ==========================
+     Section D drives ONLY `.frk-supplypiece`. The `up` handler in
+     _wirePieces forks at its last line — share → _dropOnPlate, else →
+     _dropOnTray — and nothing has ever taken the second branch, which is
+     how a call to an undefined method shipped.
+
+     The assertion is deliberately shaped to survive either repair: if the
+     board keeps its pieces in equiv mode, dragging one must not throw; if
+     the board stops rendering there, there is nothing to drag and the
+     tool must still be alive. What is NOT allowed is an exception. */
+  console.log('D2. board pieces in Fill-the-tray');
+  {
+    const page = await newPage({ premium: true });
+    await page.goto(BASE);
+    await ready(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.food = 'pizza'; T.n = 4;
+      T.committed = [0, 1]; T.sliced = true;      /* the child has cut it */
+      T.mode = 'equiv';
+      T.equivTask = T.EQUIV[0];                   /* pizza ½ = 2×¼ — deterministic */
+      T.equivFilled = 0; T.equivMisses = 0;
+      T.render();
+    });
+    await sleep(300);
+    const hasPieces = await page.evaluate(() => document.querySelectorAll('.frk-piece[data-piece], .frk-piecebtn[data-piece]').length);
+    if (hasPieces) {
+      const sel = await page.evaluate(() =>
+        document.querySelector('.frk-piecebtn[data-piece="0"]') ? '.frk-piecebtn[data-piece="0"]' : '.frk-piece[data-piece="0"]');
+      await dragCenter(page, sel, '.frk-tray.fill');
+    }
+    ok('board piece dragged in equiv mode throws nothing', page._errs.length === 0, page._errs[0]);
+    const alive = await page.evaluate(() => !!document.querySelector('.frk-dock') && !!document.querySelector('.frk-tray.fill'));
+    ok('D2 the tool is still alive after the drag', alive);
+    await page.close();
+  }
+
   /* ============================ E: free vs premium ====================== */
   console.log('E. free vs premium');
   {
@@ -450,6 +537,98 @@ function serve() {
     const allButtons = await page.evaluate(() => [...document.querySelectorAll('.frk-chip')].every((b) => b.tagName === 'BUTTON'));
     ok('every chip is a real <button>', allButtons);
     ok('H no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+
+  /* ============================ T: TOUCH ================================
+     The defect the operator reported. Every assertion below is on a real
+     touch pointer at a phone viewport — the first in this repo; there is
+     no dispatchTouchEvent or .touchscreen. anywhere else in scripts/.
+
+     Three surfaces, three outcomes, and for each one `pointercancel === 0`,
+     because a cancel IS the defect: it is the browser deciding mid-gesture
+     that the child meant to scroll the page. */
+  console.log('T. touch pointer (412×915, hasTouch)');
+  {
+    /* T1 — the knife along a correct guide */
+    const page = await newPage({ w: 412, h: 915, touch: true });
+    await page.goto(BASE);
+    await ready(page);
+    await armTouchWatch(page);
+    const knife = await centerOf(page, '.frk-knife');
+    const g = await guidePts(page, 'c', 0).catch(() => null);
+    ok('T1 non-vacuity: knife and guide 0 are both on screen', !!knife && !!g,
+      `knife=${JSON.stringify(knife)} guide=${g ? 'ok' : 'missing'}`);
+    if (knife && g) {
+      /* press the knife, travel to the guide, then along it */
+      const t = await page.touchscreen.touchStart(knife.x, knife.y);
+      for (let i = 1; i <= 4; i++) { await t.move(knife.x + (g.a.x - knife.x) * i / 4, knife.y + (g.a.y - knife.y) * i / 4); await sleep(24); }
+      for (let i = 1; i <= 12; i++) { await t.move(g.a.x + (g.b.x - g.a.x) * i / 12, g.a.y + (g.b.y - g.a.y) * i / 12); await sleep(24); }
+      await t.end();
+      await sleep(300);
+      const st = await page.evaluate(() => ({ committed: FractionKitchen.committed.length, sliced: FractionKitchen.sliced }));
+      const w = await touchWatch(page);
+      ok('T1 a touch drag along a guide CUTS', st.committed >= 1 || st.sliced, `committed=${st.committed} sliced=${st.sliced}`);
+      ok('T1 no pointercancel — the browser never took it for a pan', w.cancels === 0, `cancels=${w.cancels}`);
+      ok('T1 the page did not scroll instead of cutting', w.scrollTop === 0, `scrollTop=${w.scrollTop}`);
+    }
+    ok('T1 no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+  {
+    /* T2 — a cut piece onto a plate */
+    const page = await newPage({ w: 412, h: 915, touch: true });
+    await page.goto(BASE);
+    await ready(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.food = 'pizza'; T.n = 2; T.committed = [0]; T.sliced = true;
+      T.mode = 'share'; T.friends = 2; T.placed = [];
+      T.render();
+    });
+    await sleep(300);
+    await armTouchWatch(page);
+    const pieceSel = await page.evaluate(() =>
+      document.querySelector('.frk-piecebtn[data-piece="0"]') ? '.frk-piecebtn[data-piece="0"]' : '.frk-piece[data-piece="0"]');
+    const from = await centerOf(page, pieceSel);
+    const to = await centerOf(page, '.frk-plate');
+    ok('T2 non-vacuity: a cut piece and a plate are both on screen', !!from && !!to);
+    if (from && to) {
+      await touchDrag(page, from, to);
+      const placed = await page.evaluate(() => FractionKitchen.placed.length);
+      const w = await touchWatch(page);
+      ok('T2 a touch drag puts a slice on a plate', placed === 1, `placed=${placed}`);
+      ok('T2 no pointercancel', w.cancels === 0, `cancels=${w.cancels}`);
+      ok('T2 the page did not scroll', w.scrollTop === 0, `scrollTop=${w.scrollTop}`);
+    }
+    ok('T2 no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+  {
+    /* T3 — a supply chip into the tray */
+    const page = await newPage({ w: 412, h: 915, touch: true, premium: true });
+    await page.goto(BASE);
+    await ready(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.mode = 'equiv'; T.equivTask = T.EQUIV[0];
+      T.equivFilled = 0; T.equivMisses = 0;
+      T.render();
+    });
+    await sleep(300);
+    await armTouchWatch(page);
+    const from = await centerOf(page, '.frk-supplypiece[data-slot="0"]');
+    const to = await centerOf(page, '.frk-tray.fill');
+    ok('T3 non-vacuity: a supply chip and the fill tray are both on screen', !!from && !!to);
+    if (from && to) {
+      await touchDrag(page, from, to);
+      const filled = await page.evaluate(() => FractionKitchen.equivFilled);
+      const w = await touchWatch(page);
+      ok('T3 a touch drag fills a tray slot', filled === 1, `equivFilled=${filled}`);
+      ok('T3 no pointercancel', w.cancels === 0, `cancels=${w.cancels}`);
+      ok('T3 the page did not scroll', w.scrollTop === 0, `scrollTop=${w.scrollTop}`);
+    }
+    ok('T3 no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }
 

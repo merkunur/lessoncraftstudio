@@ -89,6 +89,31 @@ var MoneyMat = {
        _loc falls back to .en so the tool degrades to English rather than
        breaking, but shipping that would be the "45 c is nobody's Finnish"
        defect in a new dress. Locale round closes this. */
+    /* ⭐ REBUILT BY THREE NATIVE PANELS, NOT TRANSLATED. Each caught something
+       the English could not see. `setFineGrain` is SUPPRESSED in sv/da/no
+       (whole krona has no finer step, so the label would lie in both
+       directions) and below band 3 in nl/fi — the strings exist only so the
+       drawer degrades honestly if it is ever shown. fi warned that the
+       English promise "cents become necessary" is IMPOSSIBLE in Finland,
+       where no 1c or 2c coin circulates, so the fi label claims only
+       "finer" and matches the shape of its bandChip neighbours. */
+    setFineGrain: {en:'Prices need the small coins',de:'Centgenaue Preise',fr:'Prix à la pièce près',it:'Prezzi alla monetina',es:'Precios a la última moneda',pt:'Preços até a menor moeda',nl:'Prijzen op de kleinste munt',sv:'Priser till minsta myntet',da:'Priser til mindste mønt',no:'Bruk enkronene også',fi:'Tarkemmat hinnat'},
+    /* ⚠ every purse noun here is the one the tool's OWN landing copy already
+       uses, and each was checked against all ~48 siblings. no takes
+       `pengepungen` not bare `pung` — neutral in Danish, playground slang in
+       Norwegian, and a 25-character label has no context to disambiguate.
+       pt takes `bolsinha` not `carteira`, which is the pupil's DESK in
+       Brazilian classroom register and is owned by dictation-desk. */
+    setCoinsFrom: {en:'Smallest coin in the purse',de:'Münzen im Geldbeutel',fr:'Pièces du porte-monnaie',it:'Monete nel borsellino',es:'Monedas del monedero',pt:'Moedas da bolsinha',nl:'Munten in de portemonnee',sv:'Mynt i portmonnän',da:'Mønter i pungen',no:'Minste mynt i pengepungen',fi:'Kukkaron pienin kolikko'},
+    /* ⚠ NOT "print the mat": fr/it/es/pt `tapis|tappeto|tapete` are owned by
+       arrow-strip and sorting-hoops, and it is the word money-mat's own
+       apparatus is called. sv rejected `arken` — the definite plural of
+       `ark` is spelt identically to Noah's ARK — and sv/da rejected
+       `sidorna`/`siderne`, which mean SIDES and are shipped that way by
+       number-balance and sort-bins-core. no/fi anchor on the tool's own
+       owned noun (bod / koju) because "Skriv ut matta" and "Tulosta matto"
+       are ALREADY SHIPPED by two siblings. */
+    printBtn:     {en:'Print the paper stall',de:'Kopiervorlagen',fr:'Imprimer le matériel',it:'Stampa e ritaglia',es:'Imprimir recortables',pt:'Imprimir a feirinha',nl:'Kopieerbladen printen',sv:'Skriv ut underlagen',da:'Print kopiarkene',no:'Skriv ut papirboden',fi:'Tulosta kojun paperit'},
     setSpeak:     {en:'Speak the money words',de:'Geldbeträge vorlesen',fr:'Dire les montants à voix haute',it:'Leggi gli importi ad alta voce',es:'Decir las cantidades en voz alta',pt:'Falar os valores em voz alta',nl:'De bedragen hardop voorlezen',sv:'Läs upp beloppen',da:'Sig beløbene højt',no:'Les opp beløpene',fi:'Lue summat ääneen'}
   },
 
@@ -238,6 +263,8 @@ var MoneyMat = {
        and adds the two rows here in the same commit. Authoring them myself
        would be translate-not-rebuild, which is the one thing the locale
        doctrine forbids. */
+    { key: 'coinsFrom', type: 'choice', labelKey: 'setCoinsFrom', options: [] },
+    { key: 'fineGrain', type: 'toggle', labelKey: 'setFineGrain' },
     { key: 'speakNames', type: 'toggle', labelKey: 'setSpeak' }
   ],
 
@@ -560,6 +587,44 @@ var MoneyMat = {
 
   /* =========================== lifecycle =========================== */
 
+  /* ⭐⭐ THE DRAWER SHOWS ONLY ROWS THAT DO SOMETHING HERE.
+     `enOnly: true` has been declared on the Currency row since the tool
+     shipped and is honoured NOWHERE — grep lcs-shell.js for it and you get
+     zero. So a Finnish class has been offered a choice between "Dollarit
+     (USD)" and "Punnat (GBP)" all along, and cur() ignores the setting
+     unless lang === 'en', making it inert in ten locales. The shared
+     liveness gate cannot see that: a choice chip that flips its own
+     aria-checked has "acted".
+     The shell builds the drawer LAZILY on click, long after init(), so the
+     tool can filter its own rows — no line of lcs-shell.js is touched. */
+  _applicableSettings: function () {
+    var self = this;
+    return this.settings.filter(function (f) {
+      if (f.enOnly && self.api.lang !== 'en') return false;
+      if (f.key === 'fineGrain') return self.fineGrainApplies();
+      if (f.key === 'coinsFrom') return self.coinsFromApplies(5) || self.coinsFromApplies(10);
+      return true;
+    }).map(function (f) {
+      if (f.key !== 'coinsFrom') return f;
+      /* ⭐ the options are COIN FACES, not "5+"/"10+". Both native panels
+         independently rejected the authored form: `+` is an arithmetic glyph
+         in a maths tool, and the same digit means five CENTS in Finnish and
+         five KRONER in Norwegian — a hundredfold difference in what the
+         teacher just did. formatTag is already the single locale-correct
+         site, so this needs no string at all, and it drops the option that
+         merely repeats another (nl/fi already floor at 5). */
+      var c = self.cur();
+      var opts = [{ value: 0, label: self.formatTag(c.coins[0].v) }];
+      [5, 10].forEach(function (v) {
+        if (self.coinsFromApplies(v)) opts.push({ value: v, label: self.formatTag(v) });
+      });
+      var out = {};
+      for (var k in f) out[k] = f[k];
+      out.options = opts;
+      return out;
+    });
+  },
+
   init: function (api) {
     this.api = api;
     this.premium = false;
@@ -573,6 +638,7 @@ var MoneyMat = {
     this.chg = null;             /* { tender, coins[], idx, run } */
     this._actx = null;
 
+    this.settings = this._applicableSettings();
     this._store = this._loadStore();
     if (!this._store.v) this._store = { v: 1, ent: null, settings: null, stalls: [] };
     if (!this._store.stalls) this._store.stalls = [];
@@ -1439,6 +1505,20 @@ var MoneyMat = {
       self._speak(self._cap(self.fmt('pricePrompt', { noun: self._noun(key), price: self.spokenAmount(self.price) })));
     });
     row.appendChild(another);
+
+    /* ⭐ the print chip. ⚠ It is NOT the gate — the sheet's @media print
+       reveal is scoped to .mm-paid, because Ctrl+P bypasses every button on
+       the page. This chip is the affordance; the entitlement lives in the
+       model. */
+    var pr = api.el('button', 'mm-chip' + (this.premium ? '' : ' locked'));
+    pr.type = 'button';
+    pr.innerHTML = api.t('printBtn') + (this.premium ? '' : lock);
+    pr.addEventListener('click', function () {
+      if (!self.premium) { self._gate(dock); return; }
+      self._buildSheet();
+      try { window.print(); } catch (_) { /* no printer in a headless gate */ }
+    });
+    row.appendChild(pr);
 
     var again = api.el('button', 'mm-chip');
     again.type = 'button';

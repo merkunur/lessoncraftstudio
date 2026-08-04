@@ -556,6 +556,39 @@ function serve() {
     const inChange = await page.evaluate(() => [...document.querySelectorAll('.mm-chip')].map((c) => c.textContent.trim()));
     ok('⭐ the band chips are absent in change mode, where they do nothing',
       !inChange.some((t) => /prices/i.test(t)), JSON.stringify(inChange));
+    /* ⭐⭐ A DRAWER ROW APPEARS ONLY WHERE IT ACTS. `enOnly` has been declared
+       on the Currency row since the tool shipped and is honoured NOWHERE in
+       lcs-shell.js, so a Finnish class was offered "Dollarit (USD)" vs
+       "Punnat (GBP)" — a control that cur() ignores unless lang === 'en'.
+       The liveness gate cannot see this: a chip that flips its own
+       aria-checked has "acted". So it is asserted on the MODEL. */
+    /* ⚠ THE GATE COULD NOT ATTACH ITS OWN INSTRUMENT AND REPORTED THAT AS A
+       DEFECT. My first version set `MoneyMat.api.lang = 'fi'` and read the
+       result — but lcs-shell.js freezes the api object, so the assignment
+       silently no-ops in sloppy mode and every locale returned the English
+       answer. It failed a CORRECT tool. Load the real page per locale. */
+    const drawer = {};
+    for (const L of ['en', 'de', 'fi', 'sv']) {
+      const lp = await newPage({});
+      await lp.goto(BASE + '?lang=' + L);
+      await ready(lp);
+      drawer[L] = await lp.evaluate(() => MoneyMat.settings.map((f) => f.key));
+      await lp.close();
+    }
+    ok('⭐ the Currency row is offered ONLY in en', drawer.en.includes('enCurrency') && !drawer.fi.includes('enCurrency') && !drawer.sv.includes('enCurrency'), JSON.stringify(drawer));
+    ok('⭐ the fine-grain row is suppressed where whole krona makes it a no-op', !drawer.sv.includes('fineGrain'), JSON.stringify(drawer.sv));
+    ok('the fine-grain row IS offered where it acts', drawer.en.includes('fineGrain') && drawer.de.includes('fineGrain'), JSON.stringify(drawer.en));
+
+    /* and the purse options are COIN FACES carrying their own unit — never
+       "5+", which means five cents in Finnish and five kroner in Norwegian */
+    const opts = await page.evaluate(() => {
+      MoneyMat.api.lang = 'en';
+      const f = MoneyMat._applicableSettings().find((x) => x.key === 'coinsFrom');
+      return f ? f.options.map((o) => o.label) : [];
+    });
+    ok('⭐ the purse options are coin faces with units, not "5+"',
+      opts.length >= 2 && opts.every((l) => /\d/.test(l) && !/\+/.test(l)), JSON.stringify(opts));
+
     ok('E2 no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }

@@ -226,6 +226,44 @@ for (const key of Object.keys(S)) {
   }
 }
 
+/* ---- 4b. RENDERED strings: the doubling the templates can produce ----
+   §4 checks each template in isolation, which cannot see a defect that
+   only exists once a FRAC form is slotted into it. English shipped
+   `pieceName: 'one {fs}'` while all ten siblings were bare `{fs}` —
+   and the `s` form already carries its own article, so it rendered
+   "one one half". The native ensembles caught exactly this doubling in
+   the equiv template and fixed it across eleven locales; they missed it
+   here, in the one locale none of them was asked to read.
+
+   So render every template that slots a fraction form, in every locale,
+   and look for an immediately repeated word. ================== */
+{
+  const jobs = [
+    ['cutPrompt', (L) => ({ food: 'X', n: 4, fp: T.FRAC[4].p[L] })],
+    ['cutDone', (L) => ({ n: 4, fp: T.FRAC[4].p[L] })],
+    ['pieceName', (L) => ({ fs: T.FRAC[4].s[L] })],
+    ['sharePrompt', () => ({ f: 3, food: 'X' })],
+    ['equivPrompt', (L) => ({ a: 2, small: T.FRAC[4].c[L], big: T.FRAC[2].s[L] })],
+    ['equivDone', (L) => ({ a: 2, small: T.FRAC[4].c[L], big: T.FRAC[2].s[L] })]
+  ];
+  let rendered = 0;
+  for (const [key, args] of jobs) {
+    if (!S[key]) { E(`4b: no such string "${key}"`); continue; }
+    for (const L of LOCALES) {
+      const tpl = S[key][L];
+      if (!tpl) continue;
+      const out = tpl.replace(/\{(\w+)\}/g, (m, k) => {
+        const a = args(L);
+        return (k in a) ? String(a[k]) : m;
+      });
+      rendered++;
+      const dbl = /(?:^|\s)(\p{L}+)\s+\1(?=\s|[.!?,]|$)/iu.exec(out);
+      if (dbl) E(`4b DOUBLING: strings.${key}.${L} renders "${out}" — "${dbl[1]} ${dbl[1]}" (the template adds an article the FRAC form already carries)`);
+    }
+  }
+  if (rendered < 40) E(`4b NON-VACUITY: only ${rendered} template renders checked (expected ≥40)`);
+}
+
 /* =================== 5. equivalence cross-multiply ================= */
 if (!Array.isArray(T.EQUIV) || T.EQUIV.length !== 6) E(`EQUIV: ${(T.EQUIV || []).length} tasks (need 6)`);
 for (const q of T.EQUIV || []) {
@@ -523,6 +561,22 @@ for (const food of Object.keys(T.FREE_TASKS)) {
         E(`9: ${food} vertical cut at x=${x} — _splitAreas says ${(100 * got).toFixed(1)}%, geometry says ${(100 * want).toFixed(1)}%`);
       }
     }
+  }
+  /* the food mask itself. _splitAreas only ever samples INSIDE the
+     bounding box, so a mask that forgets an edge is invisible to the
+     area checks above — but _knifeMove asks _onFood whether the stroke
+     has landed on the food at all, and a leaky mask anchors a cut in
+     mid-air beside the cake. */
+  {
+    const inside = [{ f: 'pizza', p: { x: 50, y: 50 } }, { f: 'cake', p: { x: 50, y: 50 } }, { f: 'bar', p: { x: 20, y: 40 } }];
+    const outside = [
+      { f: 'pizza', p: { x: 50, y: 4 } }, { f: 'pizza', p: { x: 4, y: 50 } }, { f: 'pizza', p: { x: 96, y: 96 } },
+      { f: 'cake', p: { x: 50, y: 12 } }, { f: 'cake', p: { x: 50, y: 90 } }, { f: 'cake', p: { x: 2, y: 50 } }, { f: 'cake', p: { x: 98, y: 50 } },
+      { f: 'bar', p: { x: 50, y: 12 } }, { f: 'bar', p: { x: 50, y: 90 } }
+    ];
+    for (const c of inside) { T.food = c.f; if (!T._onFood(c.p)) E(`9: _onFood says (${c.p.x},${c.p.y}) is OFF the ${c.f}, but it is on it`); }
+    for (const c of outside) { T.food = c.f; if (T._onFood(c.p)) E(`9: _onFood accepts (${c.p.x},${c.p.y}), which is OFF the ${c.f} — a stroke would anchor in mid-air`); }
+    checked += inside.length + outside.length;
   }
   /* the floor, both directions: it must refuse a corner clip and accept
      a genuine lopsided attempt */

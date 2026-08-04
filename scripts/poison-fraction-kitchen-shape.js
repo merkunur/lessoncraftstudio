@@ -139,22 +139,23 @@ CASES.push({
   name: '8c MUST_FIRE — an id inside _bodySVG',
   marker: 'contains an id',
   expect: true,
-  build: (s) => sub(s, "s += '<circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#D9A05B\" stroke=\"#B97F3F\" stroke-width=\"2.5\"/>';",
-    "s += '<circle id=\"crust\" cx=\"50\" cy=\"50\" r=\"40\" fill=\"#D9A05B\" stroke=\"#B97F3F\" stroke-width=\"2.5\"/>';", '8c id')
+  build: (s) => sub(s, "s += '<circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#C1813F\"/>';",
+    "s += '<circle id=\"crust\" cx=\"50\" cy=\"50\" r=\"40\" fill=\"#C1813F\"/>';", '8c id')
 });
 CASES.push({
   name: '8c MUST_FIRE — alarm-red in a food body (#D2553A, the sauce that was proposed)',
   marker: 'alarm-red',
   expect: true,
-  build: (s) => sub(s, "s += '<circle cx=\"50\" cy=\"50\" r=\"33.5\" fill=\"#F5D272\"/>';",
-    "s += '<circle cx=\"50\" cy=\"50\" r=\"33.5\" fill=\"#D2553A\"/>';", '8c red')
+  build: (s) => sub(s, "fill=\"#CB5F3C\"/>';", "fill=\"#D2553A\"/>';", '8c red')
 });
 CASES.push({
   name: '8c MUST_PASS — #CB5F3C, the tomato that clears the same predicate',
   marker: 'alarm-red',
   expect: false,
-  build: (s) => sub(s, "s += '<circle cx=\"50\" cy=\"50\" r=\"33.5\" fill=\"#F5D272\"/>';",
-    "s += '<circle cx=\"50\" cy=\"50\" r=\"33.5\" fill=\"#CB5F3C\"/>';", '8c tomato')
+  /* the shipped sauce IS #CB5F3C, so the "repair" here is to re-state it
+     on another element — the point is that this hue does not fire */
+  build: (s) => sub(s, "s += '<path d=\"' + this._lobed(31.20, 0.90, 24) + '\" fill=\"#F5CE63\"/>';",
+    "s += '<path d=\"' + this._lobed(31.20, 0.90, 24) + '\" fill=\"#CB5F3C\"/>';", '8c tomato')
 });
 
 CASES.push({

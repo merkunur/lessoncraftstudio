@@ -818,6 +818,10 @@ var MoneyMat = {
     this._paintPurse();
 
     wrap.appendChild(this._dock());
+    /* the sheet lives in the DOM and is hidden on screen; only @media print
+       reveals it, so nothing here can leak into the stage */
+    this._sheetEl = api.el('div', 'mm-sheet');
+    wrap.appendChild(this._sheetEl);
   },
 
   /* ⭐ THE KEEPER — a half-figure the counter genuinely occludes.
@@ -1252,6 +1256,84 @@ var MoneyMat = {
      counted ON by the child, which is why the mode performed rather than
      taught. The count is now built by _placeCoin like any other coin. */
 
+  /* ====================== the printable sheet ======================
+     ⭐ THE PAID ARTEFACT. Three pages, drawn fresh from what is on screen —
+     not a screenshot of the stage and not a certificate.
+
+     ⚠⚠ PX_PER_MM IS A STATED CONSTANT AND WANTS A RULER. The `d` values are
+     DISPLAY px, and the fraction-kitchen sheet once printed a 6.2mm piece
+     for K-2 scissors. At 1.77 — the px-per-mm ratio measured across
+     eur/usd/gbp/sek/nok — the coins print 16.9mm to 26.6mm, i.e. life size,
+     and the smallest is comfortably cuttable. Measure a printed 2 € against
+     a real one before trusting this.
+     ⚠ It must NOT inherit --mm-cs or --mm-dz: those are screen-legibility
+     multipliers, and the wide tiers would silently print coins at twice
+     life size. The sheet sets its own --mm-d chain from scratch.
+     ⚠ brl and dkk diameters are NOT faithful to their real coins (21% and
+     12% px/mm spread, see verify's ratchet) — their sheets keep the tool's
+     internal ratios but will not match a real Brazilian or Danish coin. */
+  PX_PER_MM: 1.77,
+  SHEET_COPIES: 6,
+  _sheetCoinHTML: function (den) {
+    var mm = (den.d / this.PX_PER_MM).toFixed(2);
+    var fam = den.fam === 'bi-sg' ? 'gold' : den.fam === 'bi-gs' ? 'silver' : (den.fam || 'gold');
+    return '<span class="mm-cut fam-' + fam + '" style="width:' + mm + 'mm;height:' + mm + 'mm">'
+      + this._face(den.label) + '</span>';
+  },
+  _buildSheet: function () {
+    if (!this._sheetEl) return;
+    var self = this, api = this.api;
+    var c = this.curView();
+    var h = '';
+
+    /* PAGE 1 — the coins, life size, on cut lines. The single most
+       photocopied artefact in primary money teaching, and every teacher
+       currently makes it badly by hand. */
+    h += '<section class="mm-page"><div class="mm-cutgrid">';
+    for (var i = 0; i < c.coins.length; i++) {
+      for (var n = 0; n < this.SHEET_COPIES; n++) h += this._sheetCoinHTML(c.coins[i]);
+    }
+    if (this.premium && this.band > 1) {
+      for (var j = 0; j < c.notes.length; j++) {
+        for (var m = 0; m < 3; m++) {
+          h += '<span class="mm-cutnote" style="--mm-tint:' + c.notes[j].tint + '">' + this._face(c.notes[j].label) + '</span>';
+        }
+      }
+    }
+    h += '</div></section>';
+
+    /* PAGE 2 — three empty mats, carrying THE PRICE JUST USED plus two
+       neighbours from the same band, each with a second mat and an equals
+       between: the another-way move, on paper, in the tool's own notation.
+       No writing required, which matters at 5-6. */
+    var s = this.priceSteps();
+    var prices = [this.price];
+    if (this.price - s.grain >= s.lo) prices.push(this.price - s.grain);
+    if (this.price + s.grain <= s.hi) prices.push(this.price + s.grain);
+    while (prices.length < 3) prices.push(this.price);
+    h += '<section class="mm-page">';
+    for (var p = 0; p < 3; p++) {
+      h += '<div class="mm-psheet">'
+        + '<div class="mm-ptag">' + this.formatLike(prices[p], prices[p]) + '</div>'
+        + '<div class="mm-pmat"></div><div class="mm-peq">=</div><div class="mm-pmat"></div>'
+        + '</div>';
+    }
+    h += '</section>';
+
+    /* PAGE 3 — change mode only: the counting-on line with the SAME price
+       and the SAME tender the class just used, and blank hops to draw. */
+    if (this.chg) {
+      h += '<section class="mm-page"><div class="mm-pline">'
+        + '<span class="mm-pend">' + this.formatLike(this.price) + '</span>'
+        + '<span class="mm-ptrack"></span>'
+        + '<span class="mm-pend">' + this.formatLike(this.chg.tender) + '</span>'
+        + '</div><div class="mm-pline"><span class="mm-pend">'
+        + this.formatLike(this.price) + '</span><span class="mm-ptrack"></span><span class="mm-pend">'
+        + this.formatLike(this.chg.tender) + '</span></div></section>';
+    }
+    this._sheetEl.innerHTML = h;
+  },
+
   /* ============================ dock =============================== */
 
   _dock: function () {
@@ -1671,6 +1753,37 @@ var MoneyMat = {
   +   'body.mm-wide .mm-total{font-size:34px;}'
   +   'body.mm-wide .mm-mat{min-height:225px;gap:12px;}'
   +   'body.mm-wide .mm-purse{gap:14px;padding:18px;}'
+  + '}'
+
+  /* ⭐ THE PRINT SHEET. Hidden on screen, revealed only by @media print —
+     and the chrome goes, because a printed picture of a button is not a
+     worksheet. ⚠ The cut-out coins are sized in MILLIMETRES from their own
+     --mm-d, deliberately outside the --mm-cs / --mm-dz chain: those are
+     screen-legibility multipliers and the wide tiers would print coins at
+     twice life size. */
+  + '.mm-sheet{display:none;}'
+  + '@media print{'
+  +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
+  +   '.lcs-header,.lcs-bar,.mm-scene,.mm-matzone,.mm-purse,.mm-phasehost,.mm-dock,.mm-gate{display:none !important;}'
+  +   '.mm-sheet{display:block !important;}'
+  +   '.mm-page{break-after:page;padding:0;}'
+  +   '.mm-page:last-child{break-after:auto;}'
+  +   '.mm-cutgrid{display:flex;flex-wrap:wrap;gap:6mm;align-items:center;}'
+  +   '.mm-cut{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
+  +     'border:1px dashed #555;font-family:var(--lcs-font-display);font-weight:800;'
+  +     'font-size:3.2mm;color:#000;}'
+  +   '.mm-cut b{font-size:1em;}.mm-cut i{font-style:normal;font-size:.7em;}'
+  +   '.mm-cutnote{display:inline-flex;align-items:center;justify-content:center;'
+  +     'width:38mm;height:21mm;border:1px dashed #555;border-radius:1.5mm;'
+  +     'background-color:var(--mm-tint,#eee);font-family:var(--lcs-font-display);font-weight:800;font-size:4mm;color:#000;}'
+  +   '.mm-psheet{display:flex;align-items:center;gap:4mm;margin-bottom:9mm;break-inside:avoid;}'
+  +   '.mm-ptag{min-width:22mm;font-family:var(--lcs-font-display);font-weight:800;font-size:6mm;color:#000;}'
+  +   '.mm-pmat{flex:1;height:26mm;border:1.2px solid #333;border-radius:3mm;}'
+  +   '.mm-peq{font-family:var(--lcs-font-display);font-weight:800;font-size:7mm;color:#000;}'
+  +   '.mm-pline{display:flex;align-items:center;gap:3mm;margin-bottom:22mm;break-inside:avoid;}'
+  +   '.mm-pend{font-family:var(--lcs-font-display);font-weight:800;font-size:5mm;color:#000;white-space:nowrap;}'
+  +   '.mm-ptrack{flex:1;height:2.5mm;border:1.2px solid #333;border-radius:1.2mm;}'
+  +   '@page{margin:14mm;}'
   + '}'
 
   /* reduced motion */

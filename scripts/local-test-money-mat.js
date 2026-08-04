@@ -278,6 +278,26 @@ function serve() {
     await sleep(250);
     st = await page.evaluate(() => ({ total: MoneyMat.trayTotal(), phase: MoneyMat.phase }));
     ok('overpay does not celebrate', st.total === 50 && st.phase === 'paying', JSON.stringify(st));
+
+    /* ⭐ OVERPAY IS SIGNALLED, AND IN A SECOND KIND — NOT A SECOND HUE.
+       Going past the price used to produce no signal of any sort. It now
+       runs past the notch as a hatch. A colour here would be a verdict, and
+       the no-shame lock forbids verdicts — so the check asserts BOTH that
+       the signal exists AND that it introduces no new colour. */
+    const over = await page.evaluate(() => {
+      const o = document.querySelector('.mm-rail .mm-over');
+      if (!o) return { present: false };
+      const cs = getComputedStyle(o);
+      return {
+        present: true,
+        width: o.getBoundingClientRect().width,
+        image: cs.backgroundImage,
+        /* the hatch must be built from the SAME teal the fill uses */
+        usesFillColour: cs.backgroundImage.includes('20, 107, 94') || cs.backgroundImage.toLowerCase().includes('rgb(20, 107, 94)')
+      };
+    });
+    ok('⭐ overpay is visible on the rail', over.present && over.width > 1, JSON.stringify(over));
+    ok('⭐ and it is a HATCH, not a verdict colour', over.present && /repeating-linear-gradient/.test(over.image || '') && over.usesFillColour, String(over.image).slice(0, 90));
     await page.evaluate(() => { window.__spoken = []; });
     await takeFromMat(page, 5);                                    /* lift ONE 5 → exactly 45 */
     st = await page.evaluate(() => ({
@@ -397,23 +417,81 @@ function serve() {
       line: !!document.querySelector('.mm-changeline')
     }));
     ok('change mode offers only valid tenders (> price)', st.tenders.length >= 1 && st.tenders.every((v) => v > 45), JSON.stringify(st.tenders));
-    /* pick the $1 tender (100) → change 55 = 5+25+25 ascending */
+
+    /* pick the $1 tender (100) → the child owes themselves 55 */
     await page.evaluate(() => { window.__spoken = []; });
     await clickCoin(page, 100);
-    await sleep(250);
-    st = await page.evaluate(() => ({ phase: MoneyMat.phase, coins: MoneyMat.chg && MoneyMat.chg.coins.slice(), strip: !!document.querySelector('.mm-countstrip') }));
-    ok('tender picked → count begins with the strip', st.phase === 'changeCount' && st.strip && st.coins.join(',') === '5,25,25', JSON.stringify(st.coins));
-    /* tap-accept each offered coin */
+    await sleep(280);
+
+    /* ⭐ THE TENDER MUST STILL BE ON SCREEN. It used to vanish the instant it
+       was tapped, so the child was asked to count up to a target that was
+       not there. */
+    st = await page.evaluate(() => ({
+      phase: MoneyMat.phase,
+      deck: !!document.querySelector('.mm-deck'),
+      tenderShown: !!document.querySelector('.mm-deck .mm-disc, .mm-deck .mm-note'),
+      priceShown: (document.querySelector('.mm-deck-price') || {}).textContent
+    }));
+    ok('⭐ the tender STAYS on screen for the whole count', st.phase === 'changeCount' && st.deck && st.tenderShown, JSON.stringify(st));
+    ok('the price stays beside it', /45/.test(st.priceShown || ''), String(st.priceShown));
+
+    /* ⭐ NO WRONG TAP EXISTS — the purse offers only coins that still fit */
+    st = await page.evaluate(() => ({ offered: [...document.querySelectorAll('.mm-purse .mm-coinbtn')].map((b) => Number(b.dataset.v)), gap: MoneyMat.changeGap() }));
+    ok('⭐ the purse offers only coins that fit the gap', st.offered.length > 0 && st.offered.every((v) => v <= st.gap), JSON.stringify(st));
+
+    /* the child BUILDS the change: 25 + 25 + 5 = 55 */
     let spokeOn = 0;
-    for (let i = 0; i < 3; i++) {
-      await page.evaluate(() => { window.__spoken = []; document.querySelector('.mm-offer .mm-coinbtn, .mm-offer .mm-notebtn').click(); });
-      await sleep(200);
+    for (const v of [25, 25, 5]) {
+      await page.evaluate(() => { window.__spoken = []; });
+      await clickCoin(page, v);
+      await sleep(230);
       const s2 = await page.evaluate(() => window.__spoken.join('|'));
-      if (/makes|dollar|cent/i.test(s2)) spokeOn++;
+      if (/\d/.test(s2)) spokeOn++;
     }
-    st = await page.evaluate(() => ({ run: MoneyMat.chg.run, tender: MoneyMat.chg.tender, idx: MoneyMat.chg.idx, offer: !!document.querySelector('.mm-offer') }));
-    ok('count-on terminates at EXACTLY the tender', st.run === st.tender && st.idx === 3 && !st.offer, JSON.stringify(st));
-    ok('each accepted coin spoke the counting-on line', spokeOn === 3, String(spokeOn));
+    ok('the keeper narrates each move the CHILD made', spokeOn === 3, String(spokeOn));
+
+    /* ⭐⭐ THE ASSERTION THIS WHOLE REBUILD EXISTS FOR.
+       Not "a strip exists" — the RENDERED change numeral, read off the DOM,
+       must equal tender − price. The tool used to end by announcing the
+       TENDER, so a teacher paying 45c with $1 was told "that makes 1 dollar"
+       while holding 55c, and the change appeared nowhere on screen at all. */
+    const shown = await page.evaluate(() => ({
+      total: (document.querySelector('.mm-total') || {}).textContent,
+      phase: MoneyMat.phase,
+      tender: MoneyMat.chg.tender,
+      price: MoneyMat.price,
+      trayTotal: MoneyMat.trayTotal()
+    }));
+    const wantChange = shown.tender - shown.price;
+    const shownDigits = String(shown.total || '').replace(/\D+/g, '');
+    ok('⭐⭐ the RENDERED change numeral equals tender − price',
+      shownDigits === String(wantChange) && shown.trayTotal === wantChange,
+      `rendered "${shown.total}" want ${wantChange}`);
+    ok('the count finished', shown.phase === 'changeDone', shown.phase);
+
+    /* the rail carries one hop per coin, and each hop's WIDTH is its value —
+       five 5c hops must read as five cramped steps, not as one stride */
+    const rail = await page.evaluate(() => {
+      const hops = [...document.querySelectorAll('.mm-rail .mm-hop')];
+      const track = document.querySelector('.mm-rail-track');
+      return {
+        n: hops.length,
+        widths: hops.map((h) => h.getBoundingClientRect().width),
+        trackW: track ? track.getBoundingClientRect().width : 0,
+        coins: MoneyMat.tray.slice()
+      };
+    });
+    ok('the rail draws one hop per coin', rail.n === rail.coins.length && rail.n === 3, JSON.stringify({ n: rail.n, coins: rail.coins }));
+    if (rail.n === 3 && rail.trackW > 0) {
+      /* proportionality, stated independently: hop width / track width should
+         match coin value / change, within a pixel-rounding tolerance */
+      const worst = rail.coins.reduce((acc, v, i) => {
+        const want = v / wantChange;
+        const got = rail.widths[i] / rail.trackW;
+        return Math.max(acc, Math.abs(got - want));
+      }, 0);
+      ok('⭐ each hop is as long as its coin is worth', worst < 0.04, `worst deviation ${(worst * 100).toFixed(1)}%`);
+    }
     await page.screenshot({ path: path.join(QA, 'E-change-done.png') });
     ok('E no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();

@@ -54,7 +54,6 @@ var PlaceValueLab = {
     subPrompt:    {en:'Take away {b} from {a}',de:'Nimm {b} von {a} weg',fr:'Enlève {b} à {a}',it:'Togli {b} da {a}',es:'Quita {b} de {a}',pt:'Tire {b} de {a}',nl:'Haal {b} van {a} af',sv:'Ta bort {b} från {a}',da:'Tag {b} fra {a}',no:'Ta bort {b} fra {a}',fi:'Vähennä {b} luvusta {a}'},
     subNudge:     {en:'Not enough loose ones — break a ten!',de:'Nicht genug lose Einer — tausche einen Zehner!',fr:'Pas assez d’unités — casse une dizaine !',it:'Non bastano le unità — cambia una decina!',es:'No alcanzan las unidades sueltas — ¡desarma una decena!',pt:'Faltam unidades soltas — troque uma dezena!',nl:'Niet genoeg losse blokjes — wissel een tiental in!',sv:'De lösa entalen räcker inte — växla ett tiotal!',da:'Ikke nok løse enere — veksl en tier!',no:'Ikke nok løse enere — veksle en tier!',fi:'Ykköset eivät riitä — vaihda kymppi!'},
     subDone:      {en:'{a} − {b} = {c}. You broke a ten to do it!',de:'{a} − {b} = {c}. Dafür hast du einen Zehner getauscht!',fr:'{a} − {b} = {c}. Tu as cassé une dizaine pour y arriver !',it:'{a} − {b} = {c}. Hai cambiato una decina per riuscirci!',es:'{a} − {b} = {c}. ¡Desarmaste una decena para lograrlo!',pt:'{a} − {b} = {c}. Você trocou uma dezena para conseguir!',nl:'{a} − {b} = {c}. Daarvoor heb je een tiental ingewisseld!',sv:'{a} − {b} = {c}. Du växlade ett tiotal för att klara det!',da:'{a} − {b} = {c}. Du vekslede en tier for at klare det!',no:'{a} − {b} = {c}. Du vekslet en tier for å klare det!',fi:'{a} − {b} = {c}. Vaihdoit kympin ykkösiksi!'},
-    subRemove:    {en:'Tap the marked blocks to take them away.',de:'Tippe die markierten Blöcke an, um sie wegzunehmen.',fr:'Appuie sur les blocs marqués pour les enlever.',it:'Tocca i blocchi segnati per toglierli.',es:'Toca los bloques marcados para quitarlos.',pt:'Toque nos blocos marcados para tirá-los.',nl:'Tik op de gemarkeerde blokjes om ze weg te halen.',sv:'Tryck på de markerade blocken för att ta bort dem.',da:'Tryk på de markerede klodser for at fjerne dem.',no:'Trykk på de markerte klossene for å fjerne dem.',fi:'Napauta merkittyjä palikoita poistaaksesi ne.'},
     /* ⭐ REUSED VERBATIM from number-line.js — the closest sibling
        manipulative, already native-panel-approved in eleven locales.
        A bare verb also carries no noun to collide with any tool's named
@@ -1273,8 +1272,34 @@ var PlaceValueLab = {
   engineBreakHundred: function (st) { if (st.h >= 1 && st.t <= 9) { st.h -= 1; st.t += 10; st._decomposed = true; return true; } return false; },
   /* the borrow is load-bearing: a correct difference WITHOUT the break
      is rejected (regroup-core recipe) — and the mat must be canonical */
-  gradeSubtract: function (st, a, b) {
-    return this.engineValue(st) === a - b && st._decomposed === true && st.o <= 9 && st.t <= 9;
+  /* ⭐ GRADES THE METHOD, NOT A STICKY FLAG.
+     This used to be `value === a-b && _decomposed && canonical`, and
+     three things were wrong with it at once:
+       · it required a break on EVERY problem, which is false whenever
+         the ones do not run out — it would have marked a correct
+         no-regroup subtraction wrong
+       · `_decomposed` is a boolean that never clears, so breaking one
+         ten and then reaching the right total by any route at all
+         passed. The `+` buttons were not even suppressed in this mode
+       · `removedT` / `removedO` were collected at every removal and
+         NEVER READ — the record that would have made this checkable was
+         declared and abandoned
+     Now: the mat must hold a−b, tidily; the child must have removed
+     exactly b; and the break must have happened IF AND ONLY IF the
+     problem needed one. Breaking when you did not need to is as much a
+     misread of the mat as not breaking when you did.
+     `rec` is optional so the pure gate can still call this with a bare
+     state; when it is absent only the value and the regroup rule are
+     judged. */
+  gradeSubtract: function (st, a, b, rec) {
+    if (this.engineValue(st) !== a - b) return false;
+    if (st.o > 9 || st.t > 9) return false;
+    var needed = (b % 10) > (a % 10);
+    if (st._decomposed !== needed) return false;
+    if (rec) {
+      if ((rec.removedT * 10 + rec.removedO) !== b) return false;
+    }
+    return true;
   },
   /* the canonical-state test the word-highlight honesty hangs on */
   engineCanonical: function (st) { return st.o <= 9 && st.t <= 9; },
@@ -1581,12 +1606,19 @@ var PlaceValueLab = {
     var lbl = api.el('div', 'pvl-collbl');
     lbl.textContent = api.t(colKeys[pl]);
     col.appendChild(lbl);
-    var add = api.el('button', 'pvl-add pvl-hue-' + pl);
-    add.type = 'button';
-    add.setAttribute('aria-label', api.t(addKeys[pl]));
-    add.textContent = '+';
-    add.addEventListener('click', function () { self._userGestured = true; self._add(pl); });
-    col.appendChild(add);
+    /* ⚠ NO ADDING IN THE SUBTRACT LAB. The + buttons were rendered
+       unconditionally, so a child could break one ten to satisfy the old
+       flag and then ADD blocks until the readout happened to read a−b,
+       and be congratulated for "breaking a ten to do it". Subtraction is
+       taking away; the only verbs here are remove and regroup. */
+    if (this.mode !== 'sub') {
+      var add = api.el('button', 'pvl-add pvl-hue-' + pl);
+      add.type = 'button';
+      add.setAttribute('aria-label', api.t(addKeys[pl]));
+      add.textContent = '+';
+      add.addEventListener('click', function () { self._userGestured = true; self._add(pl); });
+      col.appendChild(add);
+    }
     var tray = api.el('div', 'pvl-tray pvl-tray--' + pl);
     col.appendChild(tray);
     this._trays[pl] = tray;
@@ -1780,6 +1812,12 @@ var PlaceValueLab = {
   },
   _removeBlock: function (pl) {
     if (this.engineRemove(this.st, pl)) {
+      /* the removal RECORD — collected here and now actually read by
+         gradeSubtract, which is what makes the grade about the method */
+      if (this.mode === 'sub' && this.sub && this.sub.phase === 'work') {
+        if (pl === 'tens') this.sub.removedT += 1;
+        else if (pl === 'ones') this.sub.removedO += 1;
+      }
       this.render();
       this._pulseChanged(pl);
       this._settleSpeech();
@@ -2137,20 +2175,38 @@ var PlaceValueLab = {
 
   /* ==================== Subtract lab (premium) ===================== */
 
+  /* ⭐ THE CHILD DECIDES WHETHER TO REGROUP. Every problem used to force
+     a borrow — `bo = ao + 1 + rand(9-ao)` guaranteed onesOf(b) >
+     onesOf(a) — so "do I need to break a ten?" was answered before the
+     child arrived. That question IS 2.NBT.B.5/B.7; removing it left the
+     task with no decision in it at all. Roughly half of these need a
+     borrow now and half do not, and the mat is what tells you which. */
   _nextSub: function () {
-    /* 2-digit − 2-digit with the borrow forced: onesOf(a) < onesOf(b) */
     var at = 3 + Math.floor(Math.random() * 6);           /* 3-8 */
-    var ao = 1 + Math.floor(Math.random() * 4);           /* 1-4 */
+    var ao = 1 + Math.floor(Math.random() * 8);           /* 1-8 */
     var bt = 1 + Math.floor(Math.random() * (at - 1));    /* 1..at-1 */
-    var bo = ao + 1 + Math.floor(Math.random() * (9 - ao)); /* ao+1..9 */
+    var bo = 1 + Math.floor(Math.random() * 8);           /* 1-8, free */
     this.sub = { a: at * 10 + ao, b: bt * 10 + bo, phase: 'work', removedT: 0, removedO: 0 };
     this.st = this.engineNew({ bundle: this.api.settings.bundle, maxPlaces: 2 });
     this.st.t = at; this.st.o = ao;
-    this._marked = { tens: bt, ones: bo };
-    this._subNote = this.api.t('subRemove');
+    /* ⭐ NOTHING IS PRE-MARKED. The blocks to remove used to arrive
+       wearing an ✕, which hands over the one piece of thinking in the
+       task: working out that you need seven ones and only have two. */
+    this._marked = null;
+    /* ⚠ the subRemove note read 'tap the MARKED blocks' in eleven
+       locales, and nothing is marked any more. It only ever existed to
+       explain the crosses; the prompt strip already states the task
+       ('Take 17 from 42'), so the note is now false AND redundant. */
+    this._subNote = null;
     this._subNoteKind = '';
     this.render();
   },
+  /* does THIS problem need a regroup at all? */
+  _subBorrowNeeded: function () {
+    var s = this.sub;
+    return !!s && (s.b % 10) > (s.a % 10);
+  },
+  /* is the child stuck at the wall RIGHT NOW? */
   _subNeedsBreak: function () {
     var s = this.sub;
     if (!s || s.phase !== 'work' || this.st._decomposed) return false;
@@ -2160,7 +2216,7 @@ var PlaceValueLab = {
     var s = this.sub;
     if (this.mode !== 'sub' || !s || s.phase !== 'work') return;
     if (this._subNeedsBreak()) { this._subNote = this.api.t('subNudge'); this._subNoteKind = ''; this._paintSubNote(); return; }
-    if (this.gradeSubtract(this.st, s.a, s.b)) {
+    if (this.gradeSubtract(this.st, s.a, s.b, s)) {
       s.phase = 'done';
       this._marked = null;
       this._subNote = this.fmt('subDone', { a: s.a, b: s.b, c: s.a - s.b });

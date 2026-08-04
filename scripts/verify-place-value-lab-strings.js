@@ -141,8 +141,12 @@ function serve() {
       T.sub = { a: 42, b: 17, phase: 'work', removedT: 0, removedO: 0 };
       set(0, 4, 2, 2);
       T._maybeCheckSub();          /* not enough loose ones -> subNudge */
+      /* ⚠ the grader now reads the REMOVAL RECORD, so a bare state no
+         longer reaches subDone — the string was not dead, this harness
+         had simply not kept up with the fix. Drive the branch. */
       T.st.t = 2; T.st.o = 5; T.st._decomposed = true;
-      T._maybeCheckSub();          /* 25 with the break -> subDone */
+      T.sub.removedT = 1; T.sub.removedO = 7;   /* took away 17 */
+      T._maybeCheckSub();          /* 25, with the break it needed -> subDone */
       T.render();
     } catch (_) {}
     /* the keypad and the saved-mat panel */

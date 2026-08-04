@@ -192,6 +192,35 @@ if (typeof tool.engineNew === 'function') {
     const wrong = { h: 0, t: 3, o: 5, _decomposed: true };
     if (tool.gradeSubtract(wrong, 42, 17)) E('gradeSubtract accepts a wrong difference');
     engineAsserts += 3;
+
+    /* ⭐ A PROBLEM THAT NEEDS NO REGROUP MUST PASS WITHOUT ONE. The old
+       grader demanded `_decomposed` on every problem, which is simply
+       false whenever the ones do not run out — it would have marked a
+       correct no-regroup subtraction WRONG. Every problem used to force
+       a borrow, so the bug could never fire; loosening the generator so
+       the child gets to decide is what exposes it. */
+    const easy = { h: 0, t: 2, o: 3, _decomposed: false };   /* 48 − 25 = 23 */
+    if (!tool.gradeSubtract(easy, 48, 25)) E('gradeSubtract rejects a correct subtraction that needed no regroup');
+    /* and breaking when you did not need to is a misread of the mat */
+    const overBroke = { h: 0, t: 2, o: 3, _decomposed: true };
+    if (tool.gradeSubtract(overBroke, 48, 25)) E('gradeSubtract accepts a needless break');
+    engineAsserts += 2;
+
+    /* ⭐ THE REMOVAL RECORD IS READ. removedT/removedO were collected at
+       every removal and never looked at, so the grade was about a value
+       and a boolean, never about what the child actually took away. */
+    const rightRec = { removedT: 1, removedO: 7 };
+    if (!tool.gradeSubtract({ h: 0, t: 2, o: 5, _decomposed: true }, 42, 17, rightRec)) E('gradeSubtract rejects a correct removal record');
+    for (const bad of [{ removedT: 0, removedO: 7 }, { removedT: 1, removedO: 0 }, { removedT: 2, removedO: 7 }]) {
+      if (tool.gradeSubtract({ h: 0, t: 2, o: 5, _decomposed: true }, 42, 17, bad)) {
+        E(`gradeSubtract accepts a removal record of ${bad.removedT * 10 + bad.removedO} for b=17`);
+      }
+    }
+    /* seventeen ones taken one at a time after two breaks is ALSO 17 */
+    if (!tool.gradeSubtract({ h: 0, t: 2, o: 5, _decomposed: true }, 42, 17, { removedT: 0, removedO: 17 })) {
+      E('gradeSubtract rejects seventeen ones removed singly — that is still taking away 17');
+    }
+    engineAsserts += 5;
   } else E('gradeSubtract missing');
 } else E('engine fns missing (engineNew/engineAddOne/...)');
 

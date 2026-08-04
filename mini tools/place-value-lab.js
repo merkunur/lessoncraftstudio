@@ -1350,6 +1350,7 @@ var PlaceValueLab = {
     this.st.h = 1; this.st.t = 2; this.st.o = 4;
 
     this._fetchEntitlement();
+    this._loadSets();
   },
   _loadStore: function () {
     try { return JSON.parse(localStorage.getItem(this.STORE_KEY)); } catch (_) { return null; }
@@ -2056,12 +2057,48 @@ var PlaceValueLab = {
 
   /* ≥7 originals + no-repeat-till-exhausted + reshuffle ≠ previous —
      the house variety rule. Inversion-sensitive targets. */
-  SHOW_POOL: [24, 47, 61, 35, 83, 52, 76, 91, 68, 39, 17, 45],
+  /* ⭐ THE REPERTOIRE, and it is the paid layer.
+     This was twelve hard-coded numbers — [24,47,61,35,83,52,76,91,68,
+     39,17,45] — which between them covered 0 decades, 1 teen, 0 single
+     digits, 0 three-digit numbers and 0 of the teen-vs-decade
+     confusable pairs (13/30, 14/40) that are the commonest number-word
+     error in six of the eleven locales. A tool whose thesis is the
+     number WORD cannot ship a pool that never meets a teen.
+
+     195 entries now live in place-value-lab-sets.json, with zero
+     authored language — integers and a closed feature enum — so the
+     library costs nothing to fan out to eleven locales, which is
+     exactly why it can be 195 where wodb-grids.json is stuck at 21.
+
+     ⚠ THE OFFLINE FALLBACK DEGRADES TO THE FREE TIER, NOT TO NOTHING.
+     arrow-strip shipped an empty fallback, which made its Mat Book chip
+     a dead control for a subscriber the moment the file 404'd. These
+     sixteen are the free set, carried inline; no paid entry is. */
+  SHOW_POOL: [4, 7, 10, 12, 14, 16, 20, 24, 30, 42, 47, 71, 91, 100, 124, 147],
+
+  _loadSets: function () {
+    var self = this;
+    fetch('/mini-tools/place-value-lab-sets.json', { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (j) {
+        if (!j || !Array.isArray(j.sets) || !j.sets.length) return;
+        self._sets = j.sets;
+        self._setsFree = j.sets.filter(function (s) { return s.free; });
+      })
+      .catch(function () { /* the inline free set stands */ });
+  },
+  /* the pool the current tier may draw from */
+  _pool: function () {
+    if (!this._sets) return this.SHOW_POOL;
+    var rows = this.premium ? this._sets : this._setsFree;
+    if (!rows || !rows.length) return this.SHOW_POOL;
+    return rows.filter(function (s) { return s.kind === 'build'; }).map(function (s) { return s.n; });
+  },
   _nextShow: function () {
     var sh = this.show;
     if (!sh.order || !sh.order.length) {
       var prevFirst = sh.target;
-      var order = this.SHOW_POOL.slice();
+      var order = this._pool().slice();
       for (var i = order.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var tmp = order[i]; order[i] = order[j]; order[j] = tmp; }
       if (order[0] === prevFirst && order.length > 1) { var t2 = order[0]; order[0] = order[1]; order[1] = t2; }
       sh.order = order;

@@ -37,7 +37,9 @@ const { execFileSync } = require('child_process');
 const ROOT = path.join(__dirname, '..');
 const TOOLS = path.join(ROOT, 'mini tools');
 const SRC = fs.readFileSync(path.join(TOOLS, 'place-value-lab.js'), 'utf8').replace(/\r\n/g, '\n');
-const CARRY = [];              /* no data file yet — the repertoire is future work */
+/* ⚠ CARRY THE REPERTOIRE. Without it every mutation is "killed" by a
+   missing file and the harness reports a clean sweep of nothing. */
+const CARRY = ['place-value-lab-sets.json'];
 const TIMEOUT = 30000;
 
 /* self-anchoring locale needle: reads the CURRENT English value out of
@@ -151,6 +153,17 @@ const M = [
     "out=[{t:'hundert',p:'hundreds',v:h*100}]"],
   ['the Spanish y-joiner becomes a bare space',
     "{t:' y ',p:'joiner',v:0}", "{t:' ',p:'joiner',v:0}"],
+
+  /* ---- the repertoire: the inline fallback IS the free tier ---------- */
+  ['⭐ the offline fallback degrades to NOTHING — the arrow-strip defect',
+    'SHOW_POOL: [4, 7, 10, 12, 14, 16, 20, 24, 30, 42, 47, 71, 91, 100, 124, 147],',
+    'SHOW_POOL: [],'],
+  ['the offline fallback leaks a PAID entry',
+    'SHOW_POOL: [4, 7, 10, 12, 14, 16, 20, 24, 30, 42, 47, 71, 91, 100, 124, 147],',
+    'SHOW_POOL: [4, 7, 10, 12, 14, 16, 20, 24, 30, 42, 47, 71, 91, 100, 124, 999],'],
+  ['the free tier is served to everyone — the paid layer evaporates',
+    'var rows = this.premium ? this._sets : this._setsFree;',
+    'var rows = this._sets;'],
 
   /* ---- the strings, self-anchored ------------------------------------- */
   enNeedle('showPrompt', 'Can you build it?', 'the {n} placeholder is dropped from the Show me prompt'),

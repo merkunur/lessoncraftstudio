@@ -239,16 +239,34 @@ var FractionKitchen = {
   /* toppings/decoration positions — every element sits ≥ r+3 units from
      EVERY candidate cut segment incl. distractors (measured by the gate;
      the chord distractors at x=30/34 exclude the pizza's left band) */
+  /* ⚠ TWO LOPSIDED CLUSTERS, NOT A RING. Ten toppings whose negative
+     space forms a rosette IS a pattern, and a bright seven-year-old can
+     read a pattern. Five in two uneven clusters is a scatter. The cake's
+     four berries used to sit in a strict row at a near-constant y, with
+     a cut in each of the three gaps — a negative-space telegraph. Radii
+     and heights are now deliberately uneven.
+
+     Every entry is measured by verify §2 against EVERY candidate segment
+     of that food across ALL its partitions, correct and decoy alike. The
+     clearance is tightest in the upper-left cone, where the two chord
+     candidates bind: that cone holds exactly one mushroom. */
   TOPPINGS: {
     pizza: [
-      { t: 'mushroom', x: 42, y: 36.1 }, { t: 'mushroom', x: 62.5, y: 71.7 },
-      { t: 'olive', x: 76.1, y: 43 }, { t: 'olive', x: 67.7, y: 32.3 },
-      { t: 'olive', x: 57, y: 76.1 }, { t: 'olive', x: 23.9, y: 57 }
+      { t: 'mushroom', x: 42.00, y: 36.14, r: 4.6 },
+      { t: 'olive', x: 43.91, y: 34.13, r: 2.6 },
+      { t: 'mushroom', x: 61.00, y: 69.05, r: 5.0 },
+      { t: 'olive', x: 65.39, y: 67.09, r: 4.0 },
+      { t: 'olive', x: 57.11, y: 71.87, r: 4.0 }
     ],
     cake: [
-      { t: 'berry', x: 18, y: 64.5 }, { t: 'berry', x: 42, y: 65 },
-      { t: 'berry', x: 60, y: 64 }, { t: 'berry', x: 81, y: 65 }
+      { t: 'berry', x: 17.0, y: 66.5, r: 4.2 },
+      { t: 'berry', x: 42.0, y: 67.0, r: 3.0 },
+      { t: 'berry', x: 60.5, y: 66.0, r: 3.6 },
+      { t: 'berry', x: 84.0, y: 66.0, r: 3.6 },
+      { t: 'currant', x: 20.0, y: 30.6, r: 2.0 },
+      { t: 'currant', x: 61.0, y: 30.6, r: 2.0 }
     ],
+    /* the lattice IS the cut set; a landmark could only telegraph */
     bar: []
   },
 
@@ -400,43 +418,146 @@ var FractionKitchen = {
 
   /* ============================ food art ============================ */
 
+  /* ⚠ EVERY sub-feature is a <path>, never a circle or ellipse.
+     verify §2 parses circles and ellipses out of the rendered body and
+     demands r+3 clearance from every candidate cut. A highlight sitting
+     concentric with an already-cleared parent cannot telegraph anything
+     the parent does not — but it CAN fail the parser. Paths keep the
+     clearance map about the objects that actually carry meaning. */
   _toppingSVG: function (tp) {
-    if (tp.t === 'mushroom') return '<circle cx="' + tp.x + '" cy="' + tp.y + '" r="4" fill="#EAD9C0" stroke="#C9B18A" stroke-width="0.8"/><circle cx="' + (tp.x - 1.2) + '" cy="' + (tp.y - 0.8) + '" r="1" fill="#DCC7A6"/>';
-    if (tp.t === 'olive') return '<circle cx="' + tp.x + '" cy="' + tp.y + '" r="2.5" fill="#4A3B52"/><circle cx="' + tp.x + '" cy="' + tp.y + '" r="0.9" fill="#6B5A78"/>';
-    if (tp.t === 'basil') return '<ellipse cx="' + tp.x + '" cy="' + tp.y + '" rx="5" ry="3" fill="#6FA886" stroke="#4E8A5C" stroke-width="0.7" transform="rotate(' + (tp.r || 0) + ' ' + tp.x + ' ' + tp.y + ')"/>';
+    var x = tp.x, y = tp.y, r = tp.r;
+    if (tp.t === 'mushroom') {
+      return '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#EFE0C6"/>' +
+        '<path d="M' + (x - r + 0.6) + ' ' + (y + 0.2) + ' a' + (r - 0.6) + ' ' + (r - 0.6) + ' 0 0 1 ' + (2 * r - 1.2) + ' 0 Z" fill="#F7EEDD"/>' +
+        '<path d="M' + (x - r * 0.55) + ' ' + (y + r * 0.42) + ' h' + (r * 1.1) +
+        ' M' + (x - r * 0.34) + ' ' + (y + r * 0.68) + ' h' + (r * 0.68) +
+        '" stroke="#D7BE9A" stroke-width="0.9" stroke-linecap="round" fill="none"/>';
+    }
+    if (tp.t === 'olive') {
+      return '<ellipse cx="' + x + '" cy="' + y + '" rx="' + r + '" ry="' + (r * 0.86).toFixed(2) + '" fill="#3E3350"/>' +
+        '<path d="M' + (x - 0.95) + ' ' + y + ' a0.95 0.95 0 1 0 1.9 0 a0.95 0.95 0 1 0 -1.9 0Z" fill="#6B5A78"/>';
+    }
+    if (tp.t === 'currant') {
+      return '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#8A5FA0"/>' +
+        '<path d="M' + (x - r * 0.4) + ' ' + (y - r * 0.42) + ' a' + (r * 0.36) + ' ' + (r * 0.36) + ' 0 1 0 0.02 0Z" fill="#C09AD2"/>';
+    }
     /* berry */
-    return '<circle cx="' + tp.x + '" cy="' + tp.y + '" r="3" fill="#8A5FA0"/><circle cx="' + (tp.x - 0.9) + '" cy="' + (tp.y - 1) + '" r="0.8" fill="#B58BC9"/>';
+    return '<circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#8A5FA0"/>' +
+      '<path d="M' + (x - r * 0.38) + ' ' + (y - r * 0.4) + ' a' + (r * 0.34) + ' ' + (r * 0.34) + ' 0 1 0 0.02 0Z" fill="#C09AD2"/>' +
+      '<path d="M' + x + ' ' + (y - r) + ' q' + (r * 0.5) + ' ' + (-r * 0.55) + ' ' + (r * 1.05) + ' ' + (-r * 0.2) +
+      '" stroke="#5E8A5E" stroke-width="0.85" fill="none" stroke-linecap="round"/>';
+  },
+
+  /* ===================== the lobed contour =========================
+     One helper replaces the flat concentric circles the pizza was made
+     of. r(θ) swings between base±amp with `lobes` lobes, and the control
+     radius is solved so the curve peaks EXACTLY at base+amp.
+
+     ⚠ IT CANNOT TELEGRAPH, and that is provable rather than asserted.
+     The vertex set is invariant under rotation by 360/lobes. With lobes
+     in {12,24,36} that step is 30°, 15° or 10° — and every candidate cut
+     direction on the pizza is a multiple of 30°, so each one meets an
+     IDENTICAL contour. (The two chord candidates meet the rim where the
+     contour has no unique feature to key on.) Unlike a discrete topping,
+     this needs no clearance entry at all. */
+  _lobed: function (base, amp, lobes) {
+    var step = 360 / lobes, half = step / 2, RAD = Math.PI / 180;
+    var rv = base - amp, rc = 2 * (base + amp) - rv * Math.cos(half * RAD);
+    var P = function (r, a) {
+      a *= RAD;
+      return (50 + r * Math.cos(a)).toFixed(2) + ' ' + (50 - r * Math.sin(a)).toFixed(2);
+    };
+    var d = 'M' + P(rv, 0);
+    for (var k = 0; k < lobes; k++) d += 'Q' + P(rc, k * step + half) + ' ' + P(rv, (k + 1) * step);
+    return d + 'Z';
+  },
+  /* ⚠ MEMOISED, and it has to be: the body is injected up to EIGHT times
+     per render (one clip per piece, plus the fly, the plate, the tray
+     reference, the tray fill and every supply chip). For the same reason
+     it may never contain an `id` — no defs, no gradients, no filters,
+     ever — which is what forces the flat faceted idiom the rest of the
+     premium family already uses. verify §8c asserts both. */
+  _body: function (food) {
+    this._bodyCache = this._bodyCache || {};
+    if (!this._bodyCache[food]) this._bodyCache[food] = this._bodySVG(food);
+    return this._bodyCache[food];
   },
   _bodySVG: function (food) {
-    var G = this.GEO, s = '', i;
+    var s = '', self = this;
     if (food === 'pizza') {
-      s += '<circle cx="50" cy="50" r="40" fill="#D9A05B" stroke="#B97F3F" stroke-width="2.5"/>';
-      /* 4 crust dots at cut-clear angles only (gate-measured) */
-      [22, 70, 292, 340].forEach(function (deg) {
-        var fa = deg * Math.PI / 180;
-        s += '<circle cx="' + (50 + 36.6 * Math.cos(fa)).toFixed(1) + '" cy="' + (50 - 36.6 * Math.sin(fa)).toFixed(1) + '" r="1.2" fill="#C58A4E"/>';
-      });
-      s += '<circle cx="50" cy="50" r="33.5" fill="#F5D272"/>';
+      /* crust underside (r≥12 ⇒ the clearance parser skips it as a base) */
+      s += '<circle cx="50" cy="50" r="40" fill="#C1813F"/>';
+      s += '<path d="' + this._lobed(38.85, 1.15, 24) + '" fill="#E0A961"/>';       /* scalloped crust top */
+      s += '<path d="' + this._lobed(35.40, 0.70, 24) + '" fill="#C9903F" opacity=".38"/>';
+      s += '<path d="' + this._lobed(34.00, 0.90, 12) + '" fill="#CB5F3C"/>';       /* sauce, ladle-spread */
+      s += '<path d="' + this._lobed(31.20, 0.90, 24) + '" fill="#F5CE63"/>';       /* cheese field */
+      s += '<path d="' + this._lobed(24.00, 0.80, 24) + '" fill="#FBE49B" opacity=".42"/>';  /* molten centre */
+      /* blister ring + flour bloom: 30°-periodic, so provably neutral */
+      for (var k = 0; k < 12; k++) {
+        var a = (15 + 30 * k) * Math.PI / 180;
+        s += '<circle cx="' + (50 + 37.3 * Math.cos(a)).toFixed(2) + '" cy="' + (50 - 37.3 * Math.sin(a)).toFixed(2) + '" r="1.55" fill="#C98B4A"/>';
+        var b = (30 * k) * Math.PI / 180;
+        s += '<path d="M' + (50 + 39.1 * Math.cos(b)).toFixed(2) + ' ' + (50 - 39.1 * Math.sin(b)).toFixed(2) +
+          ' a2 2 0 0 1 1.6 1.2" stroke="#EFCB99" stroke-width="0.9" fill="none" opacity=".5" stroke-linecap="round"/>';
+      }
     } else if (food === 'bar') {
-      s += '<rect x="8" y="28" width="84" height="44" rx="3" fill="#7A4A2B" stroke="#4E2E1B" stroke-width="2.5"/>';
-      /* 6×2 molded lattice — scores at x 22/36/50/64/78, y 50 */
+      s += '<rect x="8" y="28" width="84" height="44" rx="3.5" fill="#5F3722"/>';
+      /* three flat rects per cell — the house cube idiom, 12 times over */
       for (var cx0 = 0; cx0 < 6; cx0++) {
         for (var cy0 = 0; cy0 < 2; cy0++) {
-          var bx = 8 + cx0 * 14 + 1.8, by = 28 + cy0 * 22 + 1.8;
-          s += '<rect x="' + bx + '" y="' + by + '" width="10.4" height="18.4" rx="1.5" fill="#8A5636"/>';
-          s += '<path d="M' + bx + ' ' + (by + 2) + ' L' + bx + ' ' + by + ' L' + (bx + 2) + ' ' + by + '" fill="none" stroke="#9A6440" stroke-width="1" opacity="0.45"/>';
+          var bx = 8 + cx0 * 14 + 1.4, by = 28 + cy0 * 22 + 1.4;
+          s += '<rect x="' + bx + '" y="' + by + '" width="11.2" height="19.2" rx="2.2" fill="#4A2A18"/>' +
+            '<rect x="' + bx + '" y="' + by + '" width="9.9" height="17.9" rx="2.2" fill="#96603C"/>' +
+            '<rect x="' + (bx + 1.2) + '" y="' + (by + 1.2) + '" width="8.7" height="16.7" rx="1.6" fill="#7A4A2B"/>';
         }
       }
-      [22, 36, 50, 64, 78].forEach(function (x) { s += '<line x1="' + x + '" y1="28" x2="' + x + '" y2="72" stroke="#5C3620" stroke-width="1.4"/>'; });
-      s += '<line x1="8" y1="50" x2="92" y2="50" stroke="#5C3620" stroke-width="1.4"/>';
+      /* the five CUTTABLE grooves go all the way through and catch light */
+      [22, 36, 50, 64, 78].forEach(function (x) {
+        s += '<rect x="' + (x - 1.1) + '" y="28" width="2.2" height="44" fill="#3E2314"/>' +
+          '<rect x="' + (x - 1.1) + '" y="28" width="0.8" height="44" fill="#96603C" opacity=".55"/>';
+      });
+      /* ⚠ the horizontal mould crease is NOT cuttable — cuts('bar', n)
+         never contains a horizontal — so it is half the depth with no lit
+         wall. It used to be drawn at the same 1.4 weight as the grooves,
+         inviting the child to drag along a line that does nothing. */
+      s += '<rect x="8" y="49.5" width="84" height="1" fill="#4A2A18" opacity=".34"/>' +
+        '<rect x="8" y="50.5" width="84" height="0.5" fill="#96603C" opacity=".32"/>' +
+        '<path d="M9.6 29.6 H90.4" stroke="#96603C" stroke-width="1.3" opacity=".45" fill="none"/>';
     } else {
-      s += '<rect x="8" y="28" width="84" height="44" rx="4" fill="#F7D9A0" stroke="#C99B62" stroke-width="2.5"/>';
-      s += '<rect x="12" y="32" width="76" height="36" rx="3" fill="none" stroke="#E8B45F" stroke-width="2.2" stroke-dasharray="0.1 5" stroke-linecap="round"/>';
+      s += '<rect x="8" y="28" width="84" height="44" rx="4.5" fill="#D2A462"/>';
+      s += '<rect x="9.1" y="29.1" width="81.8" height="41.8" rx="4" fill="#F0CE93"/>';
+      s += '<rect x="10.8" y="30.8" width="78.4" height="38.4" rx="3.2" fill="#FFF6E6"/>';
+      s += '<path d="M89.2 30.8 V69.2 H10.8 l2.6-2.6 H86.6 V33.4 Z" fill="#F2E0C4" opacity=".7"/>';
+      /* ⚠ the icing comb runs at 40°. Horizontal or vertical strokes would
+         sit on or beside the cut candidates and telegraph; a diagonal
+         crosses every one of them identically. And the cake's whole
+         mid-field MUST be path art: the horizontal candidates leave gaps
+         of under 7.4 units, so the greatest clearance anywhere in
+         y∈[36,57] is 3.67 — not even an r=1 dot is legal there. */
+      var comb = '';
+      for (var t = -40; t <= 96; t += 5.5) {
+        comb += 'M' + t + ' 30.8 L' + (t + 32.2) + ' 69.2 ';
+      }
+      s += '<path d="' + comb + '" stroke="#F7E6C9" stroke-width="0.9" opacity=".55" fill="none" clip-path="none"/>';
+      /* piped shell border — crossed identically by every candidate */
+      var shells = '';
+      for (var px = 12.5; px < 88; px += 5.6) {
+        shells += 'M' + px.toFixed(1) + ' 32.4 q2.8 -2.4 5.6 0 ';
+        shells += 'M' + px.toFixed(1) + ' 67.6 q2.8 2.4 5.6 0 ';
+      }
+      s += '<path d="' + shells + '" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity=".62" fill="none"/>';
     }
-    (this.TOPPINGS[food] || []).forEach(function (tp) { s += this._toppingSVG(tp); }, this);
+    (this.TOPPINGS[food] || []).forEach(function (tp) { s += self._toppingSVG(tp); });
     return s;
   },
-  _edgeTint: { pizza: '#F9E09A', bar: '#8A5636', cake: '#E8C79A' },
+  /* the exposed interior of a fresh cut — the colour under the surface,
+     not a tint of the outside. The bar's old edge tint was the same value
+     as its own cell fill, so a cut edge on chocolate was invisible. */
+  CUT: {
+    pizza: { face: '#EFD3A4', lip: '#FBE49B', crumb: '#E9C48A' },
+    bar: { face: '#8B5C39', lip: '#A9744C', crumb: '#8B5C39' },
+    cake: { face: '#F0D6A2', lip: '#FFF6E6', crumb: '#E9C48A' }
+  },
 
   /* ============================ render ============================== */
 
@@ -552,7 +673,7 @@ var FractionKitchen = {
     var cuts = this.cuts(this.food, this.n);
     var s = '<svg class="frk-food" viewBox="0 0 100 100" aria-hidden="true">';
     if (!this.sliced) {
-      s += '<g class="frk-body">' + this._bodySVG(this.food) + '</g>';
+      s += '<g class="frk-body">' + this._body(this.food) + '</g>';
       /* ONLY the equal-parts figure. The decoy line that used to be drawn
          here — pixel-identical, one per board — is gone: thirds drew FOUR
          radii (60/60/120/120, which is not thirds and is not anything) and
@@ -574,9 +695,9 @@ var FractionKitchen = {
     } else {
       /* sliced: pieces as clipped copies, exploded along centroid vectors */
       var pieces = this.pieces(this.food, this.n);
-      var body = this._bodySVG(this.food);
+      var body = this._body(this.food);
       var G = this.GEO;
-      var edge = this._edgeTint[this.food];
+      var cutc = this.CUT[this.food];
       pieces.forEach(function (p, i) {
         var dx = (p.cx - G.CX), dy = (p.cy - G.CY);
         var len = Math.hypot(dx, dy) || 1;
@@ -590,7 +711,8 @@ var FractionKitchen = {
           '<path class="frk-socket" d="' + p.d + '"/>' +
           '<clipPath id="frkp' + i + '"><path d="' + p.d + '"/></clipPath>' +
           '<g class="frk-pbody" clip-path="url(#frkp' + i + ')">' + body + '</g>' +
-          '<path class="frk-pedge" d="' + p.d + '" fill="none" stroke="' + edge + '" stroke-width="1.6"/>' +
+          '<path class="frk-pedge" d="' + p.d + '" fill="none" stroke="' + cutc.face + '" stroke-width="3.2"/>' +
+          '<path class="frk-pedge" d="' + p.d + '" fill="none" stroke="' + cutc.lip + '" stroke-width="1" opacity=".55"/>' +
           '</g>';
       }, this);
     }
@@ -598,13 +720,23 @@ var FractionKitchen = {
     return s;
   },
 
+  /* ⚠ THE HANDLE IS CORAL, and that is the highest-leverage line in the
+     art. This is the single most important control in the tool and it was
+     a grey blade with a #C99B62 handle — the SAME hex as the cutting
+     board it sits on — in a detached white box, then dropped to 45%
+     opacity after the last cut, which reads as broken rather than as
+     finished. Nothing else in this kitchen is #F2784B, so a six-year-old
+     scanning a muted screen finds the tool in one saccade. */
   _knifeSVG: function () {
-    return '<svg class="frk-knife" viewBox="0 0 150 48" aria-hidden="true">' +
-      '<path d="M4 24 Q4 12 20 10 L96 10 L96 34 L20 36 Q4 34 4 24 Z" fill="#DCE4E2" stroke="#B9C6C2" stroke-width="2"/>' +
-      '<path d="M8 20 Q20 14 90 13" fill="none" stroke="#F4F7F6" stroke-width="2.5" stroke-linecap="round"/>' +
-      '<rect x="94" y="8" width="8" height="30" rx="3" fill="#A9814F"/>' +
-      '<rect x="100" y="9" width="46" height="28" rx="12" fill="#C99B62" stroke="#A9814F" stroke-width="2"/>' +
-      '<circle cx="114" cy="23" r="2.2" fill="#8B6F47"/><circle cx="132" cy="23" r="2.2" fill="#8B6F47"/>' +
+    return '<svg class="frk-knife" viewBox="0 0 160 52" aria-hidden="true">' +
+      '<path d="M6 26 Q6 12.5 24 10.5 L104 8.5 L104 41.5 L24 43 Q6 41 6 26 Z" fill="#E3EBE9" stroke="#BFCFCA" stroke-width="2"/>' +
+      '<path d="M12 19 Q28 13.5 100 12" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity=".92"/>' +
+      '<path d="M10 34.5 Q28 41.5 104 40.2" fill="none" stroke="#FFFFFF" stroke-width="1.3" stroke-linecap="round" opacity=".8"/>' +
+      '<rect x="102" y="6.5" width="10" height="38" rx="4" fill="#BC6238"/>' +
+      '<rect x="110" y="9" width="46" height="34" rx="15" fill="#F2784B" stroke="#BC6238" stroke-width="2.4"/>' +
+      '<rect x="122" y="16" width="2.6" height="20" rx="1.3" fill="#BC6238" opacity=".42"/>' +
+      '<rect x="131" y="16" width="2.6" height="20" rx="1.3" fill="#BC6238" opacity=".42"/>' +
+      '<rect x="140" y="16" width="2.6" height="20" rx="1.3" fill="#BC6238" opacity=".42"/>' +
       '</svg>';
   },
 
@@ -1106,7 +1238,7 @@ var FractionKitchen = {
   },
   _unequalSVG: function (seg) {
     /* two half-plane clips along the distractor segment's infinite line */
-    var body = this._bodySVG(this.food);
+    var body = this._body(this.food);
     var G = this.GEO;
     var big = 200;
     var dx = seg.x2 - seg.x1, dy = seg.y2 - seg.y1;
@@ -1220,8 +1352,9 @@ var FractionKitchen = {
     fly.className = 'frk-fly';
     fly.innerHTML = '<svg viewBox="' + this._bboxAttr(this.food, this.n, pieceIdx) + '" width="90" height="90">' +
       '<clipPath id="frkfly"><path d="' + p.d + '"/></clipPath>' +
-      '<g clip-path="url(#frkfly)">' + this._bodySVG(this.food) + '</g>' +
-      '<path d="' + p.d + '" fill="none" stroke="' + this._edgeTint[this.food] + '" stroke-width="1.6"/></svg>';
+      '<g clip-path="url(#frkfly)">' + this._body(this.food) + '</g>' +
+      '<path d="' + p.d + '" fill="none" stroke="' + this.CUT[this.food].face + '" stroke-width="3.2"/>' +
+      '<path d="' + p.d + '" fill="none" stroke="' + this.CUT[this.food].lip + '" stroke-width="1" opacity=".55"/></svg>';
     return fly;
   },
   _inTarget: function (t, x, y) {
@@ -1238,19 +1371,70 @@ var FractionKitchen = {
     (this._wrap.querySelectorAll('.hot') || []).forEach(function (el) { el.classList.remove('hot'); });
   },
 
+  /* ⚠ SIX INDIVIDUALS, DIFFERING IN SILHOUETTE FIRST AND TONE SECOND.
+     The old six were skin+hair PERMUTATIONS over one identical haircut —
+     inclusion expressed only as melanin, which is its weakest form, and
+     it also meant a child could not tell the friends apart. That matters
+     when the question on screen is "did everyone get a share?".
+     Shoulders-up behind the plate, too: a head hovering over a plate with
+     no body reads as a balloon; a person at a table reads as the social
+     premise the whole share mode rests on.
+     Pedagogy lock unchanged: bounce on receiving, one shared blink at
+     completion, and nothing else — ever. No idle blink; that would read
+     as a reaction. */
+  FRIENDS: [
+    { skin: '#F6D8B8', shade: '#E4BE97', hair: '#8A5A34', shirt: '#7FB8D8', style: 'crop' },
+    { skin: '#E8B98C', shade: '#D3A074', hair: '#2E2A33', shirt: '#F2C879', style: 'puffs' },
+    { skin: '#C98A5C', shade: '#B0724A', hair: '#4A2F1E', shirt: '#8FC9A8', style: 'long' },
+    { skin: '#8D5A3B', shade: '#764930', hair: '#241E24', shirt: '#F2A0A0', style: 'coils' },
+    { skin: '#F0C9A0', shade: '#DCB088', hair: '#C7833B', shirt: '#B7A8E0', style: 'bob', glasses: true },
+    { skin: '#6E442C', shade: '#5A3722', hair: '#1F1A20', shirt: '#F2784B', style: 'wrap' }
+  ],
+  _hairPath: function (style) {
+    if (style === 'crop') return '<path d="M13.6 22 Q14.8 7.2 28 7.2 Q41.2 7.2 42.4 22 Q40 13.4 30.4 12.2 Q24 15 20 13.6 Q16.4 15.6 13.6 22 Z"/>';
+    if (style === 'puffs') return '<path d="M14.6 21 Q17 8.4 28 8.4 Q39 8.4 41.4 21 Q37 12.6 28 12.6 Q19 12.6 14.6 21Z"/>' +
+      '<path d="M6 12.6 a6.4 6.4 0 1 0 12.8 0 a6.4 6.4 0 1 0 -12.8 0Z"/>' +
+      '<path d="M37.2 12.6 a6.4 6.4 0 1 0 12.8 0 a6.4 6.4 0 1 0 -12.8 0Z"/>';
+    if (style === 'long') return '<path d="M13 22 Q14 7 28 7 Q42 7 43 22 L43 40 L38.6 40 L38.6 21 Q34 14 28 14 Q22 14 17.4 21 L17.4 40 L13 40 Z"/>';
+    if (style === 'coils') {
+      var d = '<path d="M13 23 Q14 8 28 8 Q42 8 43 23 Q38 15 28 15 Q18 15 13 23Z"/>';
+      for (var k = 0; k < 7; k++) {
+        var a = (200 + k * 23.3) * Math.PI / 180;
+        d += '<path d="M' + (28 + 15.2 * Math.cos(a)).toFixed(1) + ' ' + (23 + 15.2 * Math.sin(a)).toFixed(1) +
+          ' a4.6 4.6 0 1 0 0.02 0Z"/>';
+      }
+      return d;
+    }
+    if (style === 'bob') return '<path d="M12.8 23 Q13.6 7.6 28 7.6 Q42.4 7.6 43.2 23 q-2.6 3.6 -5.2 0 q-2.6 3.6 -5.2 0 q-2.6 3.6 -5.2 0 q-2.6 3.6 -5.2 0 q-2.6 3.6 -5.2 0 Z"/>';
+    return '<path d="M12.6 22.4 Q14 8 28 8 Q42 8 43.4 22.4 L40 24.6 Q39 13 28 13 Q17 13 16 24.6 Z"/>' +
+      '<path d="M39.6 17 a4.4 3.2 0 1 0 8.8 0 a4.4 3.2 0 1 0 -8.8 0Z"/>';
+  },
+  _friendSVG: function (i) {
+    var f = this.FRIENDS[i % this.FRIENDS.length];
+    return '<svg class="frk-face" viewBox="0 0 56 56" aria-hidden="true">' +
+      '<path d="M5 56 Q5 41.5 18 38.5 L38 38.5 Q51 41.5 51 56 Z" fill="' + f.shirt + '"/>' +
+      '<path d="M23 31 h10 v9 a5 5 0 0 1 -10 0 Z" fill="' + f.shade + '"/>' +
+      '<path d="M10 24.5 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0Z" fill="' + f.skin + '"/>' +
+      '<path d="M39.6 24.5 a3.2 3.2 0 1 0 6.4 0 a3.2 3.2 0 1 0 -6.4 0Z" fill="' + f.skin + '"/>' +
+      '<path d="M13.5 23 a14.5 15.2 0 1 0 29 0 a14.5 15.2 0 1 0 -29 0Z" fill="' + f.skin + '"/>' +
+      '<g fill="' + f.hair + '">' + this._hairPath(f.style) + '</g>' +
+      '<path d="M20.6 18.6 q2.4 -1.4 4.6 -0.2 M31.0 18.4 q2.2 -1.2 4.6 0.2" stroke="' + f.hair + '" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".75"/>' +
+      '<path d="M15 28.4 a3.3 2.2 0 1 0 6.6 0 a3.3 2.2 0 1 0 -6.6 0Z" fill="#E98A6A" opacity=".26"/>' +
+      '<path d="M34.5 28.4 a3.3 2.2 0 1 0 6.6 0 a3.3 2.2 0 1 0 -6.6 0Z" fill="#E98A6A" opacity=".26"/>' +
+      (f.glasses ? '<path d="M17.4 23.2 a5.2 5.2 0 1 0 10.4 0 a5.2 5.2 0 1 0 -10.4 0Z M28.2 23.2 a5.2 5.2 0 1 0 10.4 0 a5.2 5.2 0 1 0 -10.4 0Z M27.8 23.2 h2" fill="none" stroke="#146B5E" stroke-width="1.5"/>' : '') +
+      '<circle cx="22.6" cy="23.2" r="2.15" fill="#2A2A35"/>' +
+      '<circle cx="33.4" cy="23.2" r="2.15" fill="#2A2A35"/>' +
+      '<path d="M21.6 22.3 a0.7 0.7 0 1 0 0.02 0Z" fill="#FFF" opacity=".9"/>' +
+      '<path d="M32.4 22.3 a0.7 0.7 0 1 0 0.02 0Z" fill="#FFF" opacity=".9"/>' +
+      '<path d="M22.4 30.4 q5.6 5 11.2 0" stroke="#B4573C" stroke-width="2.6" stroke-linecap="round" fill="none"/>' +
+      '</svg>';
+  },
   _platesRow: function () {
     var api = this.api, self = this;
     var row = api.el('div', 'frk-plates');
-    var TONES = [['#F5D0A9', '#7A4E2E'], ['#E0A878', '#2A2A35'], ['#B87A50', '#4A3B2A'], ['#8D5A3B', '#2A2A35'], ['#F5D0A9', '#C7833B'], ['#E0A878', '#4A3B2A']];
     for (var i = 0; i < this.friends; i++) {
       var cell = api.el('div', 'frk-platecell');
-      var tone = TONES[i % TONES.length];
-      cell.innerHTML = '<svg class="frk-face" viewBox="0 0 44 44" aria-hidden="true">' +
-        '<circle cx="22" cy="25" r="15" fill="' + tone[0] + '" stroke="rgba(74,59,42,.35)" stroke-width="1.5"/>' +
-        '<path d="M7 21 Q22 -2 37 21 Q33 12 22 12 Q11 12 7 21 Z" fill="' + tone[1] + '"/>' +
-        '<circle cx="16" cy="24" r="2" fill="#2A2A35"/><circle cx="28" cy="24" r="2" fill="#2A2A35"/>' +
-        '<path d="M16.5 30 q5.5 4.5 11 0" stroke="#7A4E2E" stroke-width="2.4" fill="none" stroke-linecap="round"/>' +
-        '</svg>';
+      cell.innerHTML = this._friendSVG(i);
       var plate = api.el('button', 'frk-plate');
       plate.type = 'button';
       plate.dataset.plate = i;
@@ -1272,7 +1456,7 @@ var FractionKitchen = {
         var p = this.pieces(this.food, this.n)[pieceIdx];
         plate.innerHTML = '<svg viewBox="' + this._bboxAttr(this.food, this.n, pieceIdx) + '" class="frk-plateslice">' +
           '<clipPath id="frkpl' + i + '"><path d="' + p.d + '"/></clipPath>' +
-          '<g clip-path="url(#frkpl' + i + ')">' + this._bodySVG(this.food) + '</g></svg>';
+          '<g clip-path="url(#frkpl' + i + ')">' + this._body(this.food) + '</g></svg>';
         this.placed.push(pieceIdx);
         if (this._sel === pieceIdx) { this._sel = null; this._paintSel(); }
         var pieceEl = this._hitsEl.querySelector('.frk-piecebtn[data-piece="' + pieceIdx + '"]');
@@ -1381,7 +1565,7 @@ var FractionKitchen = {
        (by construction of the geometry: adjacent pieces) */
     var ref = api.el('div', 'frk-tray ref');
     ref.innerHTML = '<svg viewBox="0 0 100 100"><clipPath id="frkref"><path d="' + refPiece.d + '"/></clipPath>' +
-      '<g clip-path="url(#frkref)">' + this._bodySVG(task.food) + '</g>' +
+      '<g clip-path="url(#frkref)">' + this._body(task.food) + '</g>' +
       '<path d="' + refPiece.d + '" fill="none" stroke="#146B5E" stroke-width="1.8"/></svg>' +
       '<span class="frk-traylbl">' + this._bigName(task) + '</span>';
     var fill = api.el('div', 'frk-tray fill');
@@ -1399,8 +1583,9 @@ var FractionKitchen = {
       chip.dataset.slot = i;
       chip.setAttribute('aria-label', this.frac(task.small, 's'));
       chip.innerHTML = '<svg viewBox="' + this._bboxAttr(task.food, task.small, spIdx) + '" aria-hidden="true"><clipPath id="frksup' + i + '"><path d="' + sp.d + '"/></clipPath>' +
-        '<g clip-path="url(#frksup' + i + ')">' + this._bodySVG(task.food) + '</g>' +
-        '<path d="' + sp.d + '" fill="none" stroke="' + this._edgeTint[task.food] + '" stroke-width="1.6"/></svg>';
+        '<g clip-path="url(#frksup' + i + ')">' + this._body(task.food) + '</g>' +
+        '<path d="' + sp.d + '" fill="none" stroke="' + this.CUT[task.food].face + '" stroke-width="3.2"/>' +
+        '<path d="' + sp.d + '" fill="none" stroke="' + this.CUT[task.food].lip + '" stroke-width="1" opacity=".55"/></svg>';
       this._wireSupply(chip);
       supply.appendChild(chip);
     }
@@ -1447,8 +1632,8 @@ var FractionKitchen = {
        re-creates every piece already placed, restarting their transitions */
     g.insertAdjacentHTML('beforeend',
       '<clipPath id="frkfill' + this.equivFilled + '"><path d="' + sp.d + '"/></clipPath>' +
-      '<g clip-path="url(#frkfill' + this.equivFilled + ')">' + this._bodySVG(task.food) + '</g>' +
-      '<path d="' + sp.d + '" fill="none" stroke="' + this._edgeTint[task.food] + '" stroke-width="1.2"/>');
+      '<g clip-path="url(#frkfill' + this.equivFilled + ')">' + this._body(task.food) + '</g>' +
+      '<path d="' + sp.d + '" fill="none" stroke="' + this.CUT[task.food].face + '" stroke-width="2.4"/>');
     chip.classList.add('used');
     this.equivFilled++;
     this._sfxPlate();
@@ -1502,7 +1687,7 @@ var FractionKitchen = {
       var locked = !self._allowed(self.food, n);
       var chip = api.el('button', 'frk-chip small' + (self.n === n ? ' active' : '') + (locked ? ' locked' : ''));
       chip.type = 'button';
-      chip.innerHTML = self._miniCut(self.food, n) + (locked ? lock : '');
+      chip.innerHTML = self._miniCut(self.food, n) + '<span>' + self.frac(n, 'p') + '</span>' + (locked ? lock : '');
       chip.setAttribute('aria-label', self.frac(n, 'p'));
       chip.addEventListener('click', function () {
         if (locked) { self._gateInline(dock, 'gateMenu'); return; }
@@ -1594,24 +1779,46 @@ var FractionKitchen = {
     if (food === 'bar') return '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="3" y="7" width="18" height="10" rx="1.5" fill="#7A4A2B"/><line x1="9" y1="7" x2="9" y2="17" stroke="#5C3620" stroke-width="1"/><line x1="15" y1="7" x2="15" y2="17" stroke="#5C3620" stroke-width="1"/></svg>';
     return '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><rect x="3" y="8" width="18" height="9" rx="2" fill="#F7D9A0" stroke="#C99B62"/><circle cx="9" cy="12" r="1.4" fill="#8A5FA0"/><circle cx="16" cy="13" r="1.4" fill="#8A5FA0"/></svg>';
   },
+  /* ⚠ THE GLYPH IS THE FOOD, ALREADY CUT AND SLIGHTLY SEPARATED — derived
+     from pieces(), not hand-drawn per case. The old glyphs were thin
+     outline diagrams at 20px: a child could not tell thirds from sixths
+     at a glance, and the shapes were a different visual language from the
+     food chips beside them. Filled parts with transparent gaps read at
+     20px and work identically on the cream chip and the teal active one,
+     because the gaps are gaps and not a background-coloured stroke.
+     The locale WORD rides alongside — no new string: frac(n,'p') is the
+     same value the aria-label has always carried. */
   _miniCut: function (food, n) {
-    var inner = food === 'pizza' ? '<circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/>' : '<rect x="3.5" y="6" width="17" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.8"/>';
-    var lines = '';
+    var g = '<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">';
     if (food === 'pizza') {
-      if (n === 2) lines = '<line x1="12" y1="3" x2="12" y2="21"/>';
-      else if (n === 3) lines = '<line x1="12" y1="12" x2="12" y2="3"/><line x1="12" y1="12" x2="4.2" y2="16.5"/><line x1="12" y1="12" x2="19.8" y2="16.5"/>';
-      else if (n === 4) lines = '<line x1="12" y1="3" x2="12" y2="21"/><line x1="3" y1="12" x2="21" y2="12"/>';
-      else lines = '<line x1="12" y1="3" x2="12" y2="21"/><line x1="4.2" y1="7.5" x2="19.8" y2="16.5"/><line x1="19.8" y1="7.5" x2="4.2" y2="16.5"/>';
+      var A = this.PIZZA_ANGLES[n].slice().sort(function (a, b) { return a - b; });
+      var R = 9.6, off = n === 2 ? 1.15 : 0.85, D = Math.PI / 180;
+      for (var i = 0; i < A.length; i++) {
+        var a1 = A[i], a2 = A[(i + 1) % A.length];
+        if (a2 <= a1) a2 += 360;
+        var m = (a1 + a2) / 2 * D, ox = off * Math.cos(m), oy = -off * Math.sin(m);
+        var lg = (a2 - a1) > 180 ? 1 : 0;
+        var P = function (a) {
+          a *= D;
+          return (12 + ox + R * Math.cos(a)).toFixed(2) + ' ' + (12 + oy - R * Math.sin(a)).toFixed(2);
+        };
+        g += '<path d="M' + (12 + ox).toFixed(2) + ' ' + (12 + oy).toFixed(2) + ' L' + P(a1) +
+          ' A' + R + ' ' + R + ' 0 ' + lg + ' 0 ' + P(a2 % 360) + ' Z"/>';
+      }
     } else {
-      if (n === 2) lines = '<line x1="12" y1="6" x2="12" y2="18"/>';
-      else if (n === 3) lines = food === 'cake' ? '<line x1="3.5" y1="10" x2="20.5" y2="10"/><line x1="3.5" y1="14" x2="20.5" y2="14"/>' : '<line x1="9.2" y1="6" x2="9.2" y2="18"/><line x1="14.8" y1="6" x2="14.8" y2="18"/>';
-      else if (n === 4) lines = '<line x1="12" y1="6" x2="12" y2="18"/><line x1="3.5" y1="12" x2="20.5" y2="12"/>';
-      else if (n === 6) lines = '<line x1="6.3" y1="6" x2="6.3" y2="18"/><line x1="9.2" y1="6" x2="9.2" y2="18"/><line x1="12" y1="6" x2="12" y2="18"/><line x1="14.8" y1="6" x2="14.8" y2="18"/><line x1="17.7" y1="6" x2="17.7" y2="18"/>';
-      else lines = '<line x1="7.75" y1="6" x2="7.75" y2="18"/><line x1="12" y1="6" x2="12" y2="18"/><line x1="16.25" y1="6" x2="16.25" y2="18"/><line x1="3.5" y1="12" x2="20.5" y2="12"/>';
+      /* map the REAL cell decomposition into the 24x24 glyph box */
+      var X = function (v) { return 2.4 + (v - 8) * 19.2 / 84; };
+      var Y = function (v) { return 6.6 + (v - 28) * 10.8 / 44; };
+      this.pieces(food, n).forEach(function (pc) {
+        var mm = pc.d.match(/M([\d.]+) ([\d.]+) H([\d.]+) V([\d.]+)/);
+        if (!mm) return;
+        g += '<rect x="' + (X(+mm[1]) + 0.5).toFixed(2) + '" y="' + (Y(+mm[2]) + 0.5).toFixed(2) +
+          '" width="' + (X(+mm[3]) - X(+mm[1]) - 1).toFixed(2) +
+          '" height="' + (Y(+mm[4]) - Y(+mm[2]) - 1).toFixed(2) + '" rx="0.9"/>';
+      });
     }
-    return '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">' + inner + lines + '</svg>';
+    return g + '</svg>';
   },
-
   _gateInline: function (host, key) {
     var api = this.api;
     var old = this._wrap.querySelector('.frk-gate');
@@ -1652,11 +1859,13 @@ var FractionKitchen = {
      below its content, so in share/equiv the board overflowed the band and
      crossed the counter — visible in the committed 1024×768 QA renders. */
   + '.frk-boardzone{position:relative;flex:1 1 auto;min-height:0;width:100%;display:flex;'
-  +   'align-items:center;justify-content:center;}'
+  /* the board SITS ON the counter rather than floating above it —
+     flex-end plus the counter's own height as padding */
+  +   'align-items:flex-end;justify-content:center;padding-bottom:32px;}'
   + '.frk-wrap[data-mode="share"] .frk-boardzone{flex:0 0 auto;}'
-  + '.frk-counterrow{display:flex;align-items:center;justify-content:center;'
+  + '.frk-counterrow{display:flex;align-items:flex-end;justify-content:center;'
   +   'gap:clamp(6px,1.6vmin,18px);height:100%;min-height:0;width:100%;}'
-  + '.frk-counter{position:absolute;bottom:0;left:0;right:0;height:26px;pointer-events:none;'
+  + '.frk-counter{position:absolute;bottom:0;left:0;right:0;height:32px;pointer-events:none;'
   +   'background:linear-gradient(180deg,#EFE2CB,#E7DCC8);border-top:1px solid #DCCFB4;border-radius:0 0 24px 24px;}'
   /* in each mode the SUBJECT takes the slack, so no band of dead space is
      left below the dock */
@@ -1666,11 +1875,21 @@ var FractionKitchen = {
      neither overflow it nor leave a slab of dead space above it */
   + '.frk-wrap{--frk-bh:min(420px,62vh);}'
   + '.frk-wrap[data-mode="share"]{--frk-bh:min(210px,28vh);}'
-  + '.frk-board{position:relative;width:min(460px,86vw);height:var(--frk-bh);max-height:100%;background:#C99B62;'
-  +   'border:3px solid #A9814F;border-radius:26px;display:flex;align-items:center;justify-content:center;'
-  +   'background-image:repeating-linear-gradient(180deg,transparent 0 44px,rgba(139,111,71,.14) 44px 47px);'
-  +   'box-shadow:0 8px 20px rgba(20,30,28,.14);}'
-  + '.frk-hole{position:absolute;top:12px;right:14px;width:18px;height:18px;border-radius:50%;background:#A8763E;}'
+  + '.frk-board{position:relative;width:min(460px,86vw);height:var(--frk-bh);max-height:100%;background:#DEC195;'
+  +   'border:2.5px solid #C0A074;border-radius:23px;display:flex;align-items:center;justify-content:center;'
+  +   'box-shadow:0 2px 0 #C0A074, 0 12px 20px rgba(58,46,34,.15);}'
+  /* three hand-placed grain lines, not a 44px repeating band sitting
+     directly behind the cake's horizontal cut guides */
+  + '.frk-board::after{content:"";position:absolute;inset:0;border-radius:23px;pointer-events:none;'
+  +   'background:linear-gradient(180deg,transparent 21%,rgba(184,152,110,.45) 21% calc(21% + 2px),transparent calc(21% + 2px)),'
+  +   'linear-gradient(180deg,transparent 50%,rgba(184,152,110,.45) 50% calc(50% + 3px),transparent calc(50% + 3px)),'
+  +   'linear-gradient(180deg,transparent 78%,rgba(184,152,110,.45) 78% calc(78% + 2px),transparent calc(78% + 2px));}'
+  /* a hole in a HANDLE is a hole; a dot in the corner is a mystery */
+  + '.frk-board::before{content:"";position:absolute;left:-34px;top:50%;transform:translateY(-50%);'
+  +   'width:44px;height:84px;background:#DEC195;border:2.5px solid #C0A074;'
+  +   'border-radius:14px 0 0 14px;box-shadow:inset -6px 0 0 #DEC195;}'
+  + '.frk-hole{position:absolute;left:-22px;top:50%;transform:translateY(-50%);'
+  +   'width:16px;height:16px;border-radius:50%;background:#C09A68;z-index:1;}'
   /* ⚠ SQUARE — and now STRUCTURALLY so: one custom property drives both
      axes, so the two can no longer drift apart in a later edit. The hit
      overlay is positioned in this box's percentage space, and viewBox
@@ -1713,7 +1932,7 @@ var FractionKitchen = {
   + '.frk-foodbox.exploded .frk-piece{transform:translate(var(--ex),var(--ey));}'
   /* a shared slice is GONE, leaving a board-coloured socket — the old
      opacity:.18 ghost read as broken rather than as backgrounded */
-  + '.frk-socket{fill:#BC8F58;display:none;}'
+  + '.frk-socket{fill:#CDAE7F;display:none;}'
   + '.frk-piece.onplate .frk-socket{display:block;}'
   + '.frk-piece.onplate .frk-pbody,.frk-piece.onplate .frk-pedge{display:none;}'
   + '.frk-fly{position:fixed;z-index:1000;pointer-events:none;'
@@ -1731,9 +1950,8 @@ var FractionKitchen = {
   /* knife — a flex sibling of the board, NEVER absolutely positioned over
      it. The old rule anchored it bottom-right inside the zone and at
      ≤560px put it straight on top of the food. */
-  + '.frk-knife-rest{position:static;flex:0 0 auto;'
-  +   'width:88px;height:140px;background:#FDF6E8;border:1.5px solid #E7DCC8;border-radius:14px;'
-  +   'display:flex;align-items:center;justify-content:center;}'
+  + '.frk-knife-rest{position:static;flex:0 0 auto;background:none;border:0;'
+  +   'width:132px;height:56px;display:flex;align-items:center;justify-content:center;}'
   + '.frk-knife-btn{padding:0;margin:0;border:0;background:transparent;font:inherit;color:inherit;'
   +   'touch-action:none;cursor:grab;appearance:none;-webkit-appearance:none;line-height:0;'
   +   'min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;}'
@@ -1743,15 +1961,16 @@ var FractionKitchen = {
      control reads as broken rather than as finished */
   + '.frk-knife-btn.done{cursor:default;}'
   + '.frk-knife-btn.done .frk-knife{transform:rotate(-6deg);}'
-  + '.frk-knife{width:120px;height:38px;transform:rotate(-20deg);pointer-events:none;'
-  +   'filter:drop-shadow(0 3px 5px rgba(20,30,28,.18));transition:transform .14s var(--lcs-ease);}'
+  + '.frk-knife{width:126px;height:41px;transform:rotate(-16deg);pointer-events:none;'
+  +   'filter:drop-shadow(0 4px 5px rgba(58,46,34,.26));transition:transform .14s var(--lcs-ease);}'
+  + '.frk-knife-btn.lifted .frk-knife{filter:drop-shadow(0 12px 14px rgba(58,46,34,.30));}'
   + '.frk-knife-btn.lifted .frk-knife{transform:rotate(0deg) scale(1.06);z-index:100;}'
 
   /* plates */
   + '.frk-plates{flex-shrink:0;display:flex;justify-content:center;align-items:flex-end;gap:28px;'
   +   'flex-wrap:wrap;min-height:150px;width:100%;padding:4px 0 10px;}'
   + '.frk-platecell{display:flex;flex-direction:column;align-items:center;}'
-  + '.frk-face{width:54px;height:54px;margin-bottom:-10px;position:relative;z-index:2;}'
+  + '.frk-face{width:62px;height:62px;margin-bottom:-16px;position:relative;z-index:0;}'
   + '.frk-face.bounce{animation:frkBounce .25s cubic-bezier(.34,1.56,.64,1);}'
   + '@keyframes frkBounce{50%{transform:scale(1.08);}}'
   + '.frk-face circle[fill="#2A2A35"]{transform-box:fill-box;transform-origin:center;}'
@@ -1824,13 +2043,18 @@ var FractionKitchen = {
      and belongs lower, nearer the dock. */
   + '@media (max-width:560px){'
   +   '.frk-counterrow{flex-direction:column-reverse;gap:6px;}'
+  /* the handle lug hangs 34px off the board and gets clipped once the
+     board is near the card edge — it is decoration, so it goes */
+  +   '.frk-board::before,.frk-hole{display:none;}'
+  +   '.frk-chip{font-size:13.5px;padding:7px 11px;}'
+  +   '.frk-chip.small{padding:7px 9px;}'
   +   '.frk-knife-rest{width:104px;height:56px;}'
   +   '.frk-wrap{--frk-bh:min(300px,42vh);}'
   +   '.frk-wrap[data-mode="share"]{--frk-bh:min(180px,24vh);}'
   +   '.frk-knife{width:92px;height:30px;}'
   +   '.frk-plates{gap:14px;min-height:120px;}'
   +   '.frk-plate{width:84px;height:84px;}'
-  +   '.frk-face{width:42px;height:42px;}'
+  +   '.frk-face{width:48px;height:48px;margin-bottom:-12px;}'
   +   '.frk-tray{width:120px;height:120px;}'
   +   '.frk-supplypiece{width:66px;height:66px;}'
   +   '.frk-chiprow{gap:6px;}'

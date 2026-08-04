@@ -629,10 +629,10 @@ function serve() {
     }));
     ok('ref + fill trays and 3 supply pieces render', trays.ref && trays.fill && trays.supply === 3);
     await page.evaluate(() => { window.__spoken = []; window.__notes = 0; });
-    await dragCenter(page, '.frk-supplypiece[data-slot="0"]', '.frk-tray.fill');
+    await dragCenter(page, '.frk-supplypiece[data-chip="0"]', '.frk-tray.fill');
     let eq = await page.evaluate(() => FractionKitchen.equivFilled);
     ok('first fourth snaps into the outline', eq === 1);
-    await dragCenter(page, '.frk-supplypiece[data-slot="1"]', '.frk-tray.fill');
+    await dragCenter(page, '.frk-supplypiece[data-chip="1"]', '.frk-tray.fill');
     await sleep(500);
     eq = await page.evaluate(() => ({
       filled: FractionKitchen.equivFilled,
@@ -646,7 +646,7 @@ function serve() {
     await page.screenshot({ path: path.join(QA, 'D-tray-fit.png') });
     /* the extra piece glides back silently */
     await page.evaluate(() => { window.__spoken = []; });
-    await dragCenter(page, '.frk-supplypiece[data-slot="2"]', '.frk-tray.fill');
+    await dragCenter(page, '.frk-supplypiece[data-chip="2"]', '.frk-tray.fill');
     const extra = await page.evaluate(() => ({
       filled: FractionKitchen.equivFilled,
       used: document.querySelectorAll('.frk-supplypiece.used').length,
@@ -719,7 +719,12 @@ function serve() {
       const chipFor = (label) => [...document.querySelectorAll('.frk-chip')].find((b) => b.textContent.trim().indexOf(label) === 0);
       const cake = chipFor('Cake');
       return {
-        expected: lockedFoods.length + lockedParts.length + 2,   /* + tray + stories */
+        /* + tray + stories + PRINT. The sheet is a paid feature, so its chip
+           is locked for a free visitor exactly like the other three. This
+           number is derived from the tool's own FREE_TASKS and MENU rather
+           than written down, so it cannot silently drift — which is why
+           adding one gated chip failed here rather than passing quietly. */
+        expected: lockedFoods.length + lockedParts.length + 3,
         lockedFoods, lockedParts,
         cakeLocked: !!(cake && cake.classList.contains('locked'))
       };
@@ -1000,7 +1005,7 @@ function serve() {
     });
     await sleep(300);
     await armTouchWatch(page);
-    const from = await centerOf(page, '.frk-supplypiece[data-slot="0"]');
+    const from = await centerOf(page, '.frk-supplypiece[data-chip="0"]');
     const to = await centerOf(page, '.frk-tray.fill');
     ok('T3 non-vacuity: a supply chip and the fill tray are both on screen', !!from && !!to);
     if (from && to) {

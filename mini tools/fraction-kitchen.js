@@ -68,7 +68,21 @@ var FractionKitchen = {
     gateEquiv:      {en:'The tray station — proving that two fourths fill one half exactly — is part of Premium.',de:'Die Tablett-Station — der Beweis, dass zwei Viertel genau eine Hälfte füllen — gehört zu Premium.',fr:'Le plateau — la preuve que deux quarts remplissent exactement une moitié — fait partie de Premium.',it:'Il vassoio — la prova che due quarti riempiono esattamente una metà — fa parte di Premium.',es:'La bandeja — la prueba de que dos cuartos llenan exactamente una mitad — es parte de Premium.',pt:'O tabuleiro — a prova de que dois quartos enchem exatamente uma metade — faz parte do Premium.',nl:'De bakplaat — het bewijs dat twee kwarten precies één helft vullen — hoort bij Premium.',sv:'Brickan — beviset på att två fjärdedelar fyller exakt en halva — ingår i Premium.',da:'Bakken — beviset på, at to fjerdedele fylder præcis en halvdel — er en del af Premium.',no:'Brettet — beviset på at to firedeler fyller nøyaktig en halvdel — er en del av Premium.',fi:'Tarjotinpiste — todiste siitä, että kaksi neljäsosaa täyttää tarkalleen yhden puolikkaan — kuuluu Premiumiin.'},
     unlock:         {en:'Unlock everything',de:'Alles freischalten',fr:'Tout débloquer',it:'Sblocca tutto',es:'Desbloquear todo',pt:'Desbloquear tudo',nl:'Alles ontgrendelen',sv:'Lås upp allt',da:'Lås alt op',no:'Lås opp alt',fi:'Avaa kaikki'},
     setSpeak:       {en:'Speak the fraction names',de:'Bruchnamen vorsprechen',fr:'Dire les noms des fractions',it:'Pronuncia i nomi delle frazioni',es:'Decir los nombres de las fracciones',pt:'Falar os nomes das frações',nl:'Breuknamen hardop uitspreken',sv:'Läs upp bråkens namn',da:'Sig brøkernes navne',no:'Les brøknavnene høyt',fi:'Lue murtolukujen nimet ääneen'},
-    loading:        {en:'Setting the table…',de:'Der Tisch wird gedeckt…',fr:'On met la table…',it:'Apparecchiamo la tavola…',es:'Poniendo la mesa…',pt:'Arrumando a mesa…',nl:'De tafel wordt gedekt…',sv:'Bordet dukas…',da:'Bordet dækkes…',no:'Bordet dekkes…',fi:'Katetaan pöytää…'}
+    loading:        {en:'Setting the table…',de:'Der Tisch wird gedeckt…',fr:'On met la table…',it:'Apparecchiamo la tavola…',es:'Poniendo la mesa…',pt:'Arrumando a mesa…',nl:'De tafel wordt gedekt…',sv:'Bordet dukas…',da:'Bordet dækkes…',no:'Bordet dekkes…',fi:'Katetaan pöytää…'},
+    printChip:      {en:'Print the pages',de:'Vorlagen drucken',fr:'Imprimer les fiches',it:'Stampa le pagine',es:'Imprimir las páginas',pt:'Imprimir as folhas',nl:'Bladen afdrukken',sv:'Skriv ut häftet',da:'Print arkene',no:'Skriv ut kopiarkene',fi:'Tulosta monisteet'},
+    gatePrint:      {en:'The printable pages — drawing the cuts, cutting them out and laying them on — are part of Premium.',de:'Die Vorlagen zum Ausdrucken — vier Seiten zum Einzeichnen, Ausschneiden und Auflegen — gehören zu Premium.',fr:'Les fiches à imprimer — tracer les coupes, découper et recouvrir — font partie de Premium.',it:'Le pagine da stampare — disegnare i tagli, ritagliare i pezzi e appoggiarli sopra — fanno parte di Premium.',es:'Las páginas para imprimir — dibujar los cortes, recortar las partes y comprobar con las manos — son parte de Premium.',pt:'As folhas para imprimir — desenhar os cortes, recortar os pedaços e conferir com as próprias mãos — fazem parte do Premium.',nl:'Afdrukken — de vier bladen om te tekenen, te knippen en op elkaar te leggen — hoort bij Premium.',sv:'Häftet — att rita, klippa och lägga ovanpå — ingår i Premium.',da:'Arkene til print — at tegne, klippe og lægge oven på — er en del af Premium.',no:'Kopiarkene er en del av Premium.',fi:'Monisteiden tulostaminen kuuluu Premiumiin.'},
+    p1Head:         {en:'Draw the lines',de:'Schnitte einzeichnen',fr:'Trace les traits de coupe',it:'Disegna dove tagliare',es:'Dibuja los cortes',pt:'Desenhe os cortes',nl:'Teken de lijnen',sv:'Rita snitten',da:'Tegn streger',no:'Tegn hvor vi skjærer',fi:'Piirrä leikkausviivat'},
+    p1Note:         {en:'Read the word under each shape. Draw lines to make that many equal parts.',de:'Zeichne in jede Form Linien ein — so, dass gleich große Teile entstehen.',fr:'Trace des traits pour partager chaque figure en parts égales.',it:'Disegna le linee che dividono ogni figura in parti uguali.',es:'Dibuja las líneas para que cada figura quede en partes iguales. Aquí solo se dibuja — todavía no se corta.',pt:'Desenhe as linhas que dividem cada figura em partes iguais. Nesta folha, ninguém corta nada.',nl:'Teken lijnen en verdeel elke vorm in gelijke stukken.',sv:'Rita streck som delar varje figur i lika stora delar.',da:'Tegn streger, så hver figur bliver delt i lige store dele.',no:'Tegn streker som deler hver figur i like store biter. Ordet under figuren sier hvor mange.',fi:'Piirrä viivat, jotka jakavat jokaisen kuvion yhtä suuriin osiin.'},
+    p2Head:         {en:'How we shared',de:'So haben wir geteilt',fr:'Nos partages',it:'Come abbiamo diviso',es:'Nuestro cuadro de repartos',pt:'Nossa tabela de partes iguais',nl:'Zo hebben we gedeeld',sv:'Så här delade vi',da:'Sådan delte vi',no:'Slik delte vi',fi:'Näin me jaoimme'},
+    p2Note:         {en:'Fill in one row each time the class shares something. Write it in words.',de:'Immer wenn ihr etwas geteilt habt, füllt ihr eine Zeile aus — und schreibt alles in Worten.',fr:'À chaque partage, on remplit une ligne. Ici, on écrit en toutes lettres.',it:'Ogni volta che dividiamo qualcosa, riempiamo una riga — scriviamo tutto a parole.',es:'Llenen una fila cada vez que compartan algo. Escriban todo con palabras, sin números.',pt:'Preencha uma linha da tabela cada vez que a turma dividir alguma coisa.',nl:'Vul één rij in elke keer dat we iets delen. Schrijf het in woorden.',sv:'Fyll i en rad varje gång ni delar något. Skriv med ord.',da:'Udfyld en række, hver gang I har delt noget — og skriv det med ord.',no:'Fyll ut én rad hver gang dere har delt noe. Skriv med ord.',fi:'Täytetään yksi rivi aina, kun jaamme jotakin. Kirjoitetaan sanoilla — vain ystävien määrä merkitään numerolla.'},
+    p2ColFood:      {en:'What we shared',de:'Was wir geteilt haben',fr:'Ce qu’on a partagé',it:'Che cosa abbiamo diviso',es:'Lo que compartimos',pt:'O que a gente dividiu',nl:'Wat we deelden',sv:'Vad vi delade på',da:'Det, vi delte',no:'Hva vi delte',fi:'Mitä jaoimme'},
+    p2ColFriends:   {en:'How many friends',de:'Wie viele Freunde',fr:'Combien d’amis',it:'Quanti amici',es:'Cuántos amigos',pt:'Quantos amigos',nl:'Hoeveel vrienden',sv:'Hur många vänner',da:'Hvor mange venner',no:'Hvor mange venner',fi:'Montako ystävää'},
+    p2ColEach:      {en:'What each friend got',de:'Was jeder bekommen hat',fr:'La part de chacun',it:'Che cosa ha avuto ognuno',es:'Lo que le tocó a cada uno',pt:'O que cada amigo ganhou',nl:'Wat iedereen kreeg',sv:'Vad var och en fick',da:'Hvad hver ven fik',no:'Hva hver og en fikk',fi:'Mitä jokainen sai'},
+    p3Head:         {en:'Cut out the pieces',de:'Schneide die Teile aus',fr:'Découpe les parts',it:'Ritaglia questi pezzi',es:'Recorta estas partes',pt:'Recorte os pedaços',nl:'Knip de stukjes uit',sv:'Klipp ut bitarna',da:'Klip stykkerne ud',no:'Klipp ut bitene',fi:'Leikkaa palat irti'},
+    p3Note:         {en:'Cut out every piece along its line. The pieces with the same letter belong together — and that letter is on the big shape too.',de:'Schneide an jeder Linie entlang. Auf jedem Teil steht ein Buchstabe — lege zusammen, was denselben Buchstaben hat. Den findest du auch auf der großen Form.',fr:'Découpe le long de chaque trait. Range ensemble les parts qui portent la même lettre.',it:'Ritaglia lungo tutte le linee e tieni insieme i pezzi che portano la stessa lettera: sono un gruppo solo.',es:'Recorta por todas las líneas y guarda juntas las partes que tienen la misma letra. Busca esa letra en la figura grande.',pt:'Recorte todos os pedaços seguindo as linhas. Guarde juntinhos os pedaços que têm a mesma letra — a letra mostra em qual figura grande eles vão.',nl:'Knip langs elke lijn. Houd de stukjes met dezelfde letter bij elkaar.',sv:'Klipp längs alla streck. Lägg bitarna med samma bokstav i en egen hög.',da:'Klip langs alle stregerne, og hold stykkerne med samme bogstav samlet. De hører til figuren med samme bogstav på side fire.',no:'Klipp langs alle strekene. Bitene med samme bokstav hører sammen — hold dem i én bunke.',fi:'Leikkaa jokaista viivaa pitkin. Jokaisessa palassa on kirjain — pidä saman kirjaimen palat yhdessä.'},
+    p4Head:         {en:'Lay the pieces on the shapes',de:'Leg die Teile darauf',fr:'Pose les parts par-dessus',it:'Appoggia i pezzi sopra',es:'Pon las partes encima',pt:'Coloque os pedaços por cima',nl:'Leg de stukjes erop',sv:'Lägg bitarna ovanpå',da:'Læg dem ovenpå',no:'Legg bitene oppå',fi:'Aseta palat kuvion päälle'},
+    p4Note:         {en:'Find the shape with the same letter. Lay the small pieces on the big shape. Do they fill it exactly?',de:'Leg die kleinen Teile auf die große Form. Bedecken sie die Form genau?',fr:'Pose les petites parts sur la grande. Est-ce qu’elles la recouvrent exactement ?',it:'Appoggia i pezzi piccoli sopra la figura grande. La coprono esattamente?',es:'Coloca las partes pequeñas encima de la figura grande. ¿La cubren exactamente?',pt:'Coloque os pedaços pequenos por cima da figura grande. Será que eles cobrem certinho?',nl:'Leg de kleine stukjes op de grote vorm. Bedekken ze die precies?',sv:'Lägg de små bitarna ovanpå den stora figuren. Täcker de den exakt?',da:'Læg de små stykker oven på den store figur. Dækker de den helt præcist?',no:'Finn figuren med samme bokstav. Legg de små bitene oppå den store. Dekker de den helt nøyaktig?',fi:'Aseta pienet palat ison kuvion päälle. Peittävätkö ne sen tarkalleen?'},
+    teacherCard:    {en:'Page three is the one to cut out; page four is the one to lay the pieces on, and the letter says which shape each set belongs to. When the small pieces fill the big shape exactly, the class has shown it with their hands — before anyone writes a fraction down.',de:'Die Teile auf Seite drei werden ausgeschnitten, Seite vier ist die Unterlage. Wenn die kleinen Teile die große Form genau bedecken, hat die Klasse es mit den Händen gezeigt — noch bevor jemand etwas aufschreibt.',fr:'La page trois se découpe ; la page quatre sert de support. Quand les petites parts recouvrent exactement la grande, les élèves ont fait la preuve avec leurs mains, avant d’écrire quoi que ce soit.',it:'Dalla terza pagina si ritagliano i pezzi; sulla quarta si appoggiano. Quando i pezzi piccoli coprono esattamente la figura grande, i bambini lo hanno mostrato con le mani, prima ancora di scriverlo.',es:'La página tres es la que se recorta; la página cuatro es donde se acomodan las partes encima. Cuando las partes pequeñas cubren exactamente la figura grande, la clase ya lo mostró con las manos, antes de escribir nada.',pt:'A terceira folha é para recortar; a quarta é onde os pedaços vão por cima. Quando os pedaços pequenos cobrem a figura grande certinho, a turma provou com as próprias mãos — antes de alguém escrever uma fração.',nl:'Blad drie knip je uit, blad vier is waar je de stukjes op legt. Als de kleine stukjes de grote vorm precies bedekken, hebben de kinderen het met hun handen laten zien — nog voordat er iets is opgeschreven.',sv:'Sidan tre klipper ni ut. Sidan fyra lägger ni bitarna på. När de små bitarna täcker den stora figuren exakt har klassen visat det med händerna — innan någon skriver ner det.',da:'Side tre klipper I ud. Side fire lægger I stykkerne oven på. Når de små stykker dækker den store figur helt, har klassen vist det med hænderne, før nogen skriver en brøk ned.',no:'Bitene på det tredje arket klippes ut, og det fjerde arket viser hva de skal legges oppå — bokstaven forteller hvilken figur som hører til. Når de små bitene dekker den store helt nøyaktig, har klassen vist det med hendene, lenge før noen skriver noe ned.',fi:'Kolmannelta sivulta leikataan palat, ja ne asetetaan neljännen sivun kuvioiden päälle. Kun pienet palat peittävät ison kuvion tarkalleen, luokka on osoittanut asian omin käsin ennen kuin kukaan kirjoittaa sitä muistiin.'}
   },
 
   /* per-locale per-denominator fraction forms: s = singular ("one half" /
@@ -595,6 +609,9 @@ var FractionKitchen = {
     wrap.dataset.mode = this.mode;
     stage.appendChild(wrap);
     this._wrap = wrap;
+    /* the sheet is a SIBLING of the wrap, never a descendant: print hides
+       .frk-wrap entirely, and a sheet inside it would inherit that. */
+    this._ensureSheet(stage);
     this._foodBoxEl = this._foodSvgEl = this._hitsEl = this._knifeBtn = this._knifeEl = null;
 
     if (this.mode === 'equiv') {
@@ -1617,8 +1634,12 @@ var FractionKitchen = {
     var task = this.equivTask;
     var row = api.el('div', 'frk-trays');
     if (!task) return row;
+    /* ⚠ WAS A HARDCODED CIRCLE for big===1, regardless of food — correct today
+       only because the sole big:1 task is a pizza, and only while GEO.R stays
+       40. A whole CAKE task would have drawn a circle around rectangular
+       strips. One food-aware source for the outline, shared with the sheet. */
     var bigPieces = task.big === 1
-      ? [{ d: 'M50 10 A40 40 0 1 1 49.99 10 Z', cx: 50, cy: 50 }]
+      ? [{ d: this._wholeD(task.food), cx: 50, cy: 50 }]
       : this.pieces(task.food, task.big);
     var refPiece = bigPieces[0];
     var smallPieces = this.pieces(task.food, task.small);
@@ -1635,13 +1656,36 @@ var FractionKitchen = {
     var slots = this._equivSlots(task);
     this._slotIdx = slots;
     var supply = api.el('div', 'frk-supply');
-    var count = task.count + 1;   /* one extra piece — it can't fit when full */
+    /* ⚠ THE EXTRA CHIP USED TO BE A DUPLICATE OF A TILING PIECE, and that is
+       what made the placement bug unfixable: with chips [a,b,a] no assignment
+       from chip to slot can be a bijection, so SOME drag had to place a piece
+       other than the one touched. The extra is now a piece from OUTSIDE the
+       tiling — which also makes the intended lesson true rather than merely
+       asserted: it does not fit because it genuinely does not fit. */
+    var extra = null;
+    for (var k = 0; k < smallPieces.length; k++) {
+      if (slots.indexOf(k) < 0) { extra = k; break; }
+    }
+    var order = slots.slice(0, task.count);
+    if (extra !== null) order.push(extra);
+    var count = order.length;
     for (var i = 0; i < count; i++) {
-      var spIdx = slots[i % slots.length];
+      var spIdx = order[i];
       var sp = smallPieces[spIdx];
       var chip = api.el('button', 'frk-supplypiece');
       chip.type = 'button';
-      chip.dataset.slot = i;
+      /* the PIECE this chip depicts — not its position in the row. The tray
+         used to place `_slotIdx[equivFilled]`, i.e. whatever was next in
+         order, so dragging the second chip first picked up one wedge and
+         landed a different one. Invisible on bar and cake (congruent
+         rectangles), visible on every pizza task. */
+      chip.dataset.slot = spIdx;
+      /* ⚠ TWO DIFFERENT FACTS, TWO ATTRIBUTES. `slot` is WHICH PIECE this
+         chip depicts (the placement fix depends on it); `chip` is WHERE it
+         sits in the row. They used to be the same number by accident, and
+         overloading one attribute is how a harness ends up selecting a
+         different chip than it means to. */
+      chip.dataset.chip = i;
       chip.setAttribute('aria-label', this.frac(task.small, 's'));
       chip.innerHTML = '<svg viewBox="' + this._bboxAttr(task.food, task.small, spIdx) + '" aria-hidden="true"><clipPath id="frksup' + i + '"><path d="' + sp.d + '"/></clipPath>' +
         '<g clip-path="url(#frksup' + i + ')">' + this._body(task.food) + '</g>' +
@@ -1687,7 +1731,10 @@ var FractionKitchen = {
     var task = this.equivTask;
     if (!task || !chip || chip.classList.contains('used')) return;
     if (this.equivFilled >= task.count) { this._missTray(); return; }
-    var sp = this.pieces(task.food, task.small)[this._slotIdx[this.equivFilled]];
+    var want = parseInt(chip.dataset.slot, 10);
+    /* the outside piece is not part of the tiling and cannot be placed */
+    if (this._slotIdx.indexOf(want) < 0) { this._missTray(); return; }
+    var sp = this.pieces(task.food, task.small)[want];
     var g = this._fillEl.querySelector('.frk-fills');
     /* insertAdjacentHTML, not `innerHTML +=` — the latter re-parses and
        re-creates every piece already placed, restarting their transitions */
@@ -1848,6 +1895,21 @@ var FractionKitchen = {
       self._speak(self._loc(story.story));
     });
     r2.appendChild(st);
+    /* ⚠ THE CHIP MUST SAY WHAT IT DOES AND THEN DO IT. #40 and #41 each
+       shipped a Print chip that called window.print() with no @media print
+       block, so it printed the whole web page — and the generic liveness
+       gate scored both green, because window.print fired and the DOM
+       changed. audit-tool-print-sheets.js is the gate for that class. */
+    var pr = api.el('button', 'frk-chip' + (this.premium ? '' : ' locked'));
+    pr.type = 'button';
+    pr.textContent = api.t('printChip');
+    if (!this.premium) pr.innerHTML += lock;
+    pr.addEventListener('click', function () {
+      if (!self.premium) { self._gateInline(dock, 'gatePrint'); return; }
+      self._ensureSheet();
+      window.print();
+    });
+    r2.appendChild(pr);
     if (this.sliced && this.mode !== 'equiv') {
       var whole = api.el('button', 'frk-chip' + (this.whole ? ' active' : ''));
       whole.type = 'button';
@@ -1935,6 +1997,195 @@ var FractionKitchen = {
     }
     return g + '</svg>';
   },
+  /* =====================================================================
+     THE PRINT SHEET — four pages, and pages 3-4 are the point.
+
+     The tool shipped with no print at all: no chip, no @media print, so it
+     was not even on the roster of audit-tool-print-sheets.js. A v4
+     instrument sells free apparatus and PAID DEPTH AND RECORD, and nothing
+     here could leave the room.
+
+     Built as REAL DOM, display:none on screen — not `window.print()` over
+     the web page, which is the defect #40 and #41 both shipped (a chip
+     labelled "Print the bench" that printed nav, buttons and footer).
+
+     ⚠ ZERO FILLS and deliberately no print-color-adjust. The sheet is line
+     art, so it costs almost no ink, prints the same on any school printer,
+     and survives a photocopier — which matters because the on-screen pizza
+     is #F2C879 on #DEC195 and those reduce to the same grey.
+
+     ⭐ PAGES 3 AND 4 ARE DERIVED FROM `EQUIV`, NOT AUTHORED. The six tasks
+     are the same ones the on-screen tray uses and the same ones verify
+     proves cross-multiply exactly, so the paper inherits the geometry
+     already gated rather than opening a second correctness surface. It
+     also makes the defect an earlier panel found — a page printing sixths
+     and three rectangles that NO instruction ever referred to — impossible
+     by construction: every cut-out on page 3 exists because some frame on
+     page 4 asks for it, and `_sheetPieces` is the single list both read.
+
+     That is what the chip earns. Two fourths covering one half is a claim
+     the screen can only assert; with scissors the class can check it.
+     ===================================================================== */
+  _sheetPieces: function () {
+    /* the ONE list pages 3 and 4 both read — see the header */
+    var self = this;
+    return this.EQUIV.map(function (task, i) {
+      var slots = self._equivSlots(task);
+      return {
+        no: i + 1,
+        /* ⚠ A LETTER, NOT A NUMERAL. A bare "3" printed beside two thirds of a
+           chocolate bar invites reading as a count or a denominator, in the one
+           tool whose whole law is meaning before notation. A-F groups the
+           pieces with no numeric reading available. */
+        mark: 'ABCDEF'.charAt(i),
+        task: task,
+        /* EXACTLY `count`, no spare. The screen's supply row deliberately
+           offers one extra, but there the extra is visibly STOCK. A loose
+           spare among cut-out paper has no such framing: a child who has
+           covered the shape and still holds a piece reads it as having got
+           it wrong, in a tool whose whole frame is no-shame. Exactly-count
+           also keeps the invariant clean — every printed piece has a home,
+           and "do they fill it exactly?" has one unambiguous answer. */
+        slots: slots.slice(0, task.count),
+        bigD: task.big === 1 ? self._wholeD(task.food) : self.pieces(task.food, task.big)[0].d
+      };
+    });
+  },
+  /* the outer boundary of an uncut food. PIZZA_ANGLES has no [1], so
+     pieces(food,1) is not a thing — the whole is drawn, not decomposed. */
+  _wholeD: function (food) {
+    var G = this.GEO;
+    if (food === 'pizza') {
+      return 'M' + (G.CX - G.R) + ' ' + G.CY +
+        ' a' + G.R + ' ' + G.R + ' 0 1 0 ' + (2 * G.R) + ' 0' +
+        ' a' + G.R + ' ' + G.R + ' 0 1 0 ' + (-2 * G.R) + ' 0 Z';
+    }
+    return 'M' + G.RX + ' ' + G.RY + ' H' + G.RR + ' V' + G.RB + ' H' + G.RX + ' Z';
+  },
+  /* box = the full 100-unit frame (pages 1 and 4). bbox = cropped to the
+     piece's own extent (page 3) — at the SAME millimetres-per-unit, so a
+     cut-out still lands on its frame exactly while the paper packs tightly.
+     Cropping is what makes the pieces big enough to cut: uncropped, every
+     piece needed a full square of paper, which forced the unit down until a
+     bar sixth printed 6.2mm wide — narrower than a pencil, for scissors held
+     by a seven-year-old. */
+  _art: function (d, cls, bbox) {
+    var vb = bbox ? [bbox.x - 2, bbox.y - 2, bbox.w + 4, bbox.h + 4].join(' ') : '0 0 100 100';
+    var w = bbox ? (bbox.w + 4) : 100, h = bbox ? (bbox.h + 4) : 100;
+    return '<svg viewBox="' + vb + '" class="frk-part' + (cls ? ' ' + cls : '') + '" aria-hidden="true" ' +
+      'style="width:calc(var(--frk-pu) * ' + (w / 100).toFixed(4) + ');' +
+      'height:calc(var(--frk-pu) * ' + (h / 100).toFixed(4) + ')">' +
+      '<path d="' + d + '" fill="none" stroke="#111" stroke-width="0.9" ' +
+      'stroke-linejoin="round" vector-effect="non-scaling-stroke"/></svg>';
+  },
+  /* ⚠ THE PAYWALL WAS ONLY ON THE CHIP. The sheet was appended for everyone
+     and the @media print rules fired unconditionally, so a free visitor who
+     pressed Ctrl+P — or used File > Print, which no chip guards — got all
+     four Teacher-plan pages. Gating the CHIP is not gating the FEATURE.
+     Idempotent, and called again from the chip so the gate suite (which
+     forces `premium` after mount and then clicks) still finds a sheet. */
+  _ensureSheet: function (stage) {
+    stage = stage || (this._wrap && this._wrap.parentNode);
+    if (!stage) return;
+    var old = stage.querySelector('.frk-sheet');
+    if (!this.premium) {
+      if (old) old.remove();
+      document.body.classList.remove('frk-paid');
+      return;
+    }
+    if (old) old.remove();
+    stage.appendChild(this._buildSheet());
+    document.body.classList.add('frk-paid');
+  },
+  _buildSheet: function () {
+    var api = this.api, self = this;
+    var sheet = api.el('div', 'frk-sheet');
+    function page(cls) { var el = api.el('div', 'frk-page ' + cls); sheet.appendChild(el); return el; }
+    function head(host, h, note) {
+      var a = api.el('div', 'frk-phead'); a.textContent = api.t(h); host.appendChild(a);
+      var b = api.el('div', 'frk-pnote'); b.textContent = api.t(note); host.appendChild(b);
+    }
+    function tag(host, txt) { var t = api.el('div', 'frk-ptag'); t.textContent = txt; host.appendChild(t); }
+
+    /* ---- page 1: the child DRAWS the cuts (nothing is cut here) ------- */
+    var p1 = page('frk-page--draw');
+    head(p1, 'p1Head', 'p1Note');
+    var g1 = api.el('div', 'frk-pgrid');
+    /* ⚠ DERIVED FROM `MENU`, NOT HAND-PICKED. The hand-written list had
+       ['bar', 4] in it — and the bar's menu is [2,3,6], so `pieces('bar',4)`
+       falls through to the SIXTHS branch and returns six strips under a cell
+       tagged "fourths". A child who took that page to the screen to check
+       would find no fourths chip on the chocolate at all. Reading the menu
+       makes an impossible partition unprintable. */
+    /* ⚠ ONE CIRCLE SET AND ONE RECTANGLE SET — 1.G.A.3 names both. Listing
+       all three foods printed the RECTANGLE TWICE at every partition, because
+       `_wholeD` is shape-aware and bar and cake are the same rectangle: three
+       of six cells were byte-identical duplicates. Pizza carries the circle,
+       cake the rectangle, and the partitions come from each food's own MENU so
+       a cut the tool refuses can never be printed. */
+    var specs = [];
+    self.MENU.pizza.slice(0, 3).forEach(function (n) { specs.push(['pizza', n]); });
+    self.MENU.cake.slice(0, 3).forEach(function (n) { specs.push(['cake', n]); });
+    specs.sort(function (a, b) { return a[1] - b[1]; });
+    specs.forEach(function (spec) {
+      var cell = api.el('div', 'frk-pcell');
+      cell.innerHTML = self._art(self._wholeD(spec[0]));
+      tag(cell, self.frac(spec[1], 'p'));      /* "fourths" — the word, never 1/4 */
+      g1.appendChild(cell);
+    });
+    p1.appendChild(g1);
+
+    /* ---- page 2: what the class shared, in words --------------------- */
+    var p2 = page('frk-page--table');
+    head(p2, 'p2Head', 'p2Note');
+    var tbl = api.el('div', 'frk-ptable');
+    var hr = api.el('div', 'frk-prow frk-prow--head');
+    ['p2ColFood', 'p2ColFriends', 'p2ColEach'].forEach(function (k) {
+      var c = api.el('div', 'frk-pcol'); c.textContent = api.t(k); hr.appendChild(c);
+    });
+    tbl.appendChild(hr);
+    for (var r = 0; r < 6; r++) {
+      var row = api.el('div', 'frk-prow');
+      for (var c = 0; c < 3; c++) row.appendChild(api.el('div', 'frk-pcol'));
+      tbl.appendChild(row);
+    }
+    p2.appendChild(tbl);
+
+    /* ---- page 3: cut these out -------------------------------------- */
+    var sets = this._sheetPieces();
+    var p3 = page('frk-page--cut');
+    head(p3, 'p3Head', 'p3Note');
+    var g3 = api.el('div', 'frk-pgrid frk-pgrid--cut');
+    sets.forEach(function (set) {
+      set.slots.forEach(function (idx) {
+        var cell = api.el('div', 'frk-pcell frk-pcell--cut');
+        cell.innerHTML = self._art(self.pieces(set.task.food, set.task.small)[idx].d, null,
+          self._pieceBBox(set.task.food, set.task.small, idx));
+        tag(cell, set.mark);
+        g3.appendChild(cell);
+      });
+    });
+    p3.appendChild(g3);
+
+    /* ---- page 4: lay them on top ------------------------------------ */
+    var p4 = page('frk-page--lay');
+    head(p4, 'p4Head', 'p4Note');
+    var g4 = api.el('div', 'frk-pgrid');
+    sets.forEach(function (set) {
+      var cell = api.el('div', 'frk-pcell');
+      cell.innerHTML = self._art(set.bigD, 'frk-part--frame');
+      tag(cell, set.mark);
+      g4.appendChild(cell);
+    });
+    p4.appendChild(g4);
+
+    /* the teacher card rides the last page, not a fifth sheet of paper */
+    var card = api.el('div', 'frk-pcard');
+    card.textContent = api.t('teacherCard');
+    p4.appendChild(card);
+    return sheet;
+  },
+
   _gateInline: function (host, key) {
     var api = this.api;
     var old = this._wrap.querySelector('.frk-gate');
@@ -2271,6 +2522,64 @@ var FractionKitchen = {
     +   'body.frk-wide{--frk-fbmax:570px;--frk-fbfull:min(1020px,calc((100vh - 500px) / 1.18),55vw);}'
     +   'body.frk-wide .lcs-app{max-width:min(1740px,96vw);}'
     + '}'
+  /* =====================================================================
+     PRINT — a real sheet, not the web page.
+     Line art only, zero fills, deliberately no print-color-adjust: it
+     costs almost no ink, prints the same on any school printer, and
+     survives a photocopier. The screen's #F2C879 pizza on a #DEC195
+     board reduces to one flat grey; these outlines do not.
+     ONE physical unit, --frk-pu, is the printed size of the shared
+     100-unit box — so a piece cut from page 3 lands on its page-4 frame
+     at exactly the same scale. That is the whole point of the pages.
+     ===================================================================== */
+  + '.frk-sheet{display:none;}'
+  /* 72mm per 100 units: every page fits A4 with margin to spare in the
+     longest locale, and the smallest printed piece — a bar sixth — comes
+     out ~12.9mm wide, which a seven-year-old can actually cut. At 44mm it
+     was 6.2mm, narrower than a pencil; at 78mm page 3 came within 3mm of
+     the page edge, and German and Finnish headings run longer than the
+     English these were measured against. */
+  + '@media print{'
+  +   'body.frk-paid .lcs-header,body.frk-paid .lcs-bar,body.frk-paid .frk-wrap,'
+  +     'body.frk-paid .frk-gate,body.frk-paid .frk-scrim{display:none !important;}'
+  +   'body.frk-paid .frk-sheet{display:block !important;background:#fff !important;--frk-pu:72mm;}'
+  +   'html,body,.lcs-app,.lcs-stage{background:#fff !important;box-shadow:none !important;'
+  +     'max-width:none !important;max-height:none !important;height:auto !important;}'
+  +   '@page{margin:13mm;}'
+  /* every mark on the sheet is BLACK. The tool's theme colours are warm
+     cream and teal; a themed word inside a printed sentence costs colour
+     ink on a school printer and reduces to an indistinct grey on a mono
+     one. Line art plus black text is what survives a photocopier. */
+  +   'body.frk-paid .frk-sheet,body.frk-paid .frk-sheet *{color:#000 !important;}'
+  +   '.frk-page{break-after:page;break-inside:avoid;}'
+  +   '.frk-page:last-child{break-after:auto;}'
+  +   '.frk-phead{font-family:var(--lcs-font-display);font-weight:800;font-size:16pt;'
+  +     'color:#000;margin:0 0 1.5mm;}'
+  +   '.frk-pnote{font-family:var(--lcs-font-body);font-size:11pt;color:#222;margin:0 0 6mm;}'
+  +   '.frk-pgrid{display:flex;flex-wrap:wrap;gap:5mm;align-content:flex-start;}'
+  +   '.frk-pcell{width:var(--frk-pu);}'
+  +   '.frk-part{display:block;width:var(--frk-pu);height:var(--frk-pu);}'
+  +   '.frk-ptag{font-family:var(--lcs-font-display);font-weight:800;font-size:12pt;'
+  +     'color:#000 !important;text-align:center;margin-top:1mm;}'
+  /* ⚠ NO DASHED BOX ROUND THE CUT-OUTS. It was there to separate them, but
+     on a worksheet a dashed rectangle MEANS "cut here" — so it told the child
+     to cut the box, when the whole proof depends on cutting the SHAPE. The
+     piece's own solid outline is the only cut line on the page, and spacing
+     does the separating. */
+  +   '.frk-pcell--cut{padding:2mm 6mm 2mm 0;}'
+  /* page 4's frames are the same 100-unit box at the same --frk-pu, which
+     is what makes a cut piece land on them exactly */
+  +   '.frk-part--frame{}'
+  +   '.frk-ptable{display:flex;flex-direction:column;border:0.4mm solid #333;}'
+  +   '.frk-prow{display:flex;min-height:15mm;}'
+  +   '.frk-prow--head{min-height:9mm;background:#f0f0f0;}'
+  +   '.frk-pcol{flex:1 1 0;border-right:0.3mm solid #333;border-bottom:0.3mm solid #333;'
+  +     'padding:2mm;font-family:var(--lcs-font-body);font-size:10pt;color:#000;}'
+  +   '.frk-prow:last-child .frk-pcol{border-bottom:0;}'
+  +   '.frk-pcol:last-child{border-right:0;}'
+  +   '.frk-pcard{margin-top:8mm;padding:4mm;border:0.4mm solid #333;border-radius:2mm;'
+  +     'font-family:var(--lcs-font-body);font-size:10pt;line-height:1.4;color:#000;}'
+  + '}'
   + '@media (prefers-reduced-motion: reduce){'
   +   '.frk-piece{transition:none;}'
   +   '.frk-uneq{transition:none;}'

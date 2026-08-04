@@ -157,6 +157,114 @@ if (typeof tool.engineNew === 'function') {
   } else E('gradeSubtract missing');
 } else E('engine fns missing (engineNew/engineAddOne/...)');
 
+/* =====================================================================
+   I1 · REACHABILITY — exhaustive BFS over the engine's OWN legal moves.
+
+   ⭐ The gate implements its own ground truth: it never asks the tool
+   whether a state is legal, it asks what the DIGIT CARDS would display
+   for that state and compares against what the MAT holds. The display
+   rule is transcribed from `render()` (dvals is sliced out of
+   engineValue), NOT called, so a change to render() cannot silently
+   move the expectation.
+
+   Two invariants over every reachable state, per (bundleMode, places):
+     R1  the numeral the tool DISPLAYS equals the value the mat HOLDS.
+         h*100+t*10+o must be representable in `places` digits, because
+         the display slices it per place and drops anything above.
+     R2  no state is a DEAD END above the canonical ceiling: if a mat is
+         non-canonical (o>9 or t>9) at least one bundling move must be
+         legal, or the child is stuck holding a number the tool refuses
+         to name and refuses to let them tidy.
+
+   This is the invariant the tool never had, and it is the reason two
+   engine defects survived: it would have caught both on its first run.
+   ===================================================================== */
+let reachAsserts = 0;
+if (tool.engineNew && tool.engineAddOne) {
+  const key = (s) => s.h + ',' + s.t + ',' + s.o;
+  const clone = (s) => ({ h: s.h, t: s.t, o: s.o, bundleMode: s.bundleMode, maxPlaces: s.maxPlaces, _decomposed: s._decomposed });
+
+  /* the display rule, transcribed from render():1371 — NOT called */
+  const displayed = (s, places) => {
+    const v = s.h * 100 + s.t * 10 + s.o;
+    const d = { hundreds: Math.floor(v / 100), tens: Math.floor(v / 10) % 10, ones: v % 10 };
+    let shown = 0;
+    if (places >= 3) shown += d.hundreds * 100;
+    shown += d.tens * 10 + d.ones;
+    return shown;
+  };
+
+  for (const mode of ['invited', 'auto']) {
+    for (const places of [2, 3]) {
+      const start = tool.engineNew({ bundle: mode, maxPlaces: places });
+      const seen = new Set([key(start)]);
+      const queue = [start];
+      /* ⚠ ONLY the moves the UI can actually invoke. `engineMakeTen` has
+         no ceiling on tens of its own — the guard lives in the caller
+         (`_makeTen` checks `engineCanMakeTen` first, and the button is
+         not rendered otherwise). A BFS that calls the raw mutators
+         explores states no child can reach and, because makeTen then
+         grows tens without bound, never terminates. Model the UI, not
+         the mutator. */
+      const moves = [
+        ['addOne', (s) => tool.engineAddOne(s)],
+        ['addTen', (s) => tool.engineAddTen(s)],
+        ['addHundred', (s) => tool.engineAddHundred(s)],
+        ['remOnes', (s) => tool.engineRemove(s, 'ones')],
+        ['remTens', (s) => tool.engineRemove(s, 'tens')],
+        ['remHund', (s) => tool.engineRemove(s, 'hundreds')],
+        ['makeTen', (s) => { if (tool.engineCanMakeTen(s)) tool.engineMakeTen(s); }],
+        ['makeHundred', (s) => { if (tool.engineCanMakeHundred(s)) tool.engineMakeHundred(s); }],
+        ['breakTen', (s) => tool.engineBreakTen(s)],
+        ['breakHundred', (s) => tool.engineBreakHundred(s)],
+      ];
+      /* a gate that hangs is a gate that SURVIVED — bound the walk and
+         report the bound being hit as a FAILURE, never as completion. */
+      const CEILING = 20000;
+      const badDisplay = [];
+      const deadEnds = [];
+      let blewUp = false;
+      while (queue.length) {
+        if (seen.size > CEILING) { blewUp = true; break; }
+        const s = queue.shift();
+        const held = s.h * 100 + s.t * 10 + s.o;
+
+        /* R1 — what the mat holds vs what the numeral says */
+        if (displayed(s, places) !== held) {
+          if (badDisplay.length < 6) badDisplay.push(`{h:${s.h},t:${s.t},o:${s.o}} holds ${held}, displays ${displayed(s, places)}`);
+        }
+        /* R2 — a non-canonical mat must have a way back */
+        if (s.o > 9 || s.t > 9) {
+          const canTidy = tool.engineCanMakeTen(s) || tool.engineCanMakeHundred(s);
+          if (!canTidy && deadEnds.length < 6) deadEnds.push(`{h:${s.h},t:${s.t},o:${s.o}} = ${held} is non-canonical with no legal bundling move`);
+        }
+        for (const [, fn] of moves) {
+          const nxt = clone(s);
+          try { fn(nxt); } catch (_) { continue; }
+          const k = key(nxt);
+          if (!seen.has(k)) { seen.add(k); queue.push(nxt); }
+        }
+      }
+      reachAsserts += seen.size;
+      const tag = `I1 ${mode}/${places}pl`;
+      if (blewUp) E(`${tag}: state space exceeded ${CEILING} — the reachable set is unbounded`);
+      for (const m of badDisplay) E(`${tag} R1 numeral≠mat: ${m}`);
+      for (const m of deadEnds) E(`${tag} R2 dead end: ${m}`);
+
+      /* R3 — the AUTO setting promises "bundles by itself at ten". If a
+         place can be reached at 10+ of the place below without the
+         bundle happening, or a hundred is unreachable by adding tens,
+         the setting's own label is false. */
+      if (mode === 'auto' && places >= 3) {
+        const s = tool.engineNew({ bundle: 'auto', maxPlaces: 3 });
+        for (let i = 0; i < 12; i++) tool.engineAddTen(s);
+        if (s.h < 1) E(`I1 auto/3pl R3: 12×addTen reached {h:${s.h},t:${s.t}} — 100 is unreachable by tens, but setBundleAuto promises it bundles by itself at ten`);
+        reachAsserts++;
+      }
+    }
+  }
+} else E('I1: engine fns missing');
+
 /* ---- 5. strings hygiene ---- */
 const S = tool.strings;
 for (const key of Object.keys(S)) {
@@ -172,7 +280,7 @@ for (const L of LOCALES) {
   }
 }
 
-console.log(`${errors.length ? 'FAIL' : 'PASS'}  place-value-lab gate  (${spanAsserts} span, ${spliceAsserts} splice, ${engineAsserts} engine asserts, ${errors.length} errors)`);
+console.log(`${errors.length ? 'FAIL' : 'PASS'}  place-value-lab gate  (${spanAsserts} span, ${spliceAsserts} splice, ${engineAsserts} engine, ${reachAsserts} reachable states, ${errors.length} errors)`);
 for (const e of errors.slice(0, 20)) console.log('   ERROR ' + e);
 if (errors.length > 20) console.log(`   … +${errors.length - 20} more`);
 process.exit(errors.length ? 1 : 0);

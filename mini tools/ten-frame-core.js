@@ -156,8 +156,24 @@ window.TenFrameCore = {
       }
       cell.setAttribute('aria-label', ord + ', ' + (filled ? filledWord : emptyWord));
     }
-    if (this.readoutNum) this.readoutNum.textContent = String(this.count);
-    this.api.announce(this.api.t('count') + ': ' + this.count);
+    /* ⚠⚠ THE ANNOUNCE IS INSIDE THE GUARD, AND IT WAS NOT.
+       [2026-08-04, operator-authorised.] `hideReadout` exists so a
+       "how many?" task does not show the child the answer it is asking
+       for (see :59-61) — and it worked, visually. But the announce sat
+       OUTSIDE this `if`, so the count went to the shell's polite live
+       region anyway (`lcs-shell.js:474,492`) and a screen-reader user
+       was TOLD THE ANSWER to the question on screen. It affected
+       ten-frame.how-many.0-10.animals (K.CC.B.5) and
+       ten-frame.write-numeral.0-20.fruits (K.CC.A.3).
+       This is the class of defect `estimation-jar` (revealedCount()
+       throws) and `number-talk-easel` (its numeral-leak gate) each
+       carry a dedicated gate to prevent; this file predates both and
+       had neither. `scripts/verify-ten-frame-noleak.js` is now that
+       gate, and it poison-tests itself against this exact line. */
+    if (this.readoutNum) {
+      this.readoutNum.textContent = String(this.count);
+      this.api.announce(this.api.t('count') + ': ' + this.count);
+    }
   },
 
   reset: function () { this.setCount(0); },

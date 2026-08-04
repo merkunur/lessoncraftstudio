@@ -194,8 +194,20 @@ var TenFrameActivity = Object.assign({}, TenFrameCore, {
         }
         cell.setAttribute('aria-label', ord + ', ' + (filled ? filledWord : emptyWord));
       }
-      if (this.readoutNum) this.readoutNum.textContent = String(this.count);
-      this.api.announce(this.api.t('count') + ': ' + this.count);
+      /* ⚠⚠ THE SAME NUMERAL LEAK AS ten-frame-core.js:157-171, AND THIS
+         COPY IS THE ONE THAT MATTERED MOST. [2026-08-04, authorised.]
+         This override is installed for the IMAGE-THEME activities, and
+         `ten-frame.how-many.0-10.animals` (K.CC.B.5) is one of them —
+         so on the very task whose whole design hides the answer, a
+         screen-reader user heard it announced on every tap.
+         ⭐ Fixing only the core would have LOOKED like a fix and left
+         the worst instance live: the override replaces paint() wholesale
+         and carried its own copy of the line. A leak that exists in two
+         places is not fixed until both are. */
+      if (this.readoutNum) {
+        this.readoutNum.textContent = String(this.count);
+        this.api.announce(this.api.t('count') + ': ' + this.count);
+      }
     };
   },
 

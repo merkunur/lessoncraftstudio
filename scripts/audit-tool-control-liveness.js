@@ -72,7 +72,7 @@ const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'applicati
    step that 410'd a tool in all eleven locales: a list somebody has to
    remember. The `--all` roster below is scope, not registration. */
 const ALL_TOOLS = ['class-graph', 'number-balance', 'pattern-bench', 'sorting-hoops',
-  'reading-easel', 'folding-sheet'];
+  'reading-easel', 'folding-sheet', 'ten-frame'];
 
 function prefixOf(tool) {
   const f = path.join(MINI, tool + '.js');

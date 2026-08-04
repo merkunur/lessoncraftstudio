@@ -208,6 +208,80 @@ const read = (page) => page.evaluate(() => {
     const k2 = await read(page);
     is(k2.filled === 6, `shift-Enter takes exactly one back off (got ${k2.filled})`);
 
+    /* ================= THE CARRY ================================
+       ⭐ Real pointer events. A synthetic .click() never fires
+       pointerdown, so it cannot see a drag at all — and the whole
+       reason drag exists here is that the copy has promised it in
+       eleven locales since launch. */
+    const centre = (sel, n) => page.evaluate((s, i) => {
+      const e = document.querySelectorAll(s)[i];
+      const r = e.getBoundingClientRect();
+      return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+    }, sel, n);
+    const drag = async (from, to) => {
+      await page.mouse.move(from.x, from.y);
+      await page.mouse.down();
+      await page.mouse.move(from.x + 14, from.y + 4);      /* past the 8px threshold */
+      await page.mouse.move(to.x, to.y, { steps: 6 });
+      await page.mouse.up();
+      await new Promise((r) => setTimeout(r, 120));
+    };
+
+    await page.evaluate(() => {
+      const b = Array.from(document.querySelectorAll('.lcs-ctrl'));
+      b[b.length - 1].click();
+    });
+    await new Promise((r) => setTimeout(r, 120));
+    await tap(page, '.tnf-cell', 4);                        /* five down, canonical */
+    st = await read(page);
+    is(st.filled === 5, `five counters down before the carry (got ${st.filled})`);
+
+    /* ⭐ TRAY -> CELL: the counters come from somewhere */
+    await drag(await centre('.tnf-tray', 0), await centre('.tnf-cell', 8));
+    st = await read(page);
+    is(st.filled === 6 && st.ords.indexOf(8) !== -1,
+      `⭐ a counter is carried out of the tray into cell 9 (${st.ords.join(',')})`);
+    is(st.trayLeft === 4, `and the tray is one lighter (got ${st.trayLeft})`);
+
+    /* ⭐ CELL -> CELL: the SAME counter travels, and the number holds */
+    const n0 = st.filled;
+    await drag(await centre('.tnf-cell', 8), await centre('.tnf-cell', 6));
+    st = await read(page);
+    is(st.filled === n0, `⭐ carrying a counter across does not change the number (${n0} -> ${st.filled})`);
+    is(st.ords.indexOf(6) !== -1 && st.ords.indexOf(8) === -1,
+      `and it really moved, 9 -> 7 (${st.ords.join(',')})`);
+
+    /* CELL -> away: dropping it off the frame puts it back in the tray */
+    const before2 = st.trayLeft;
+    await drag(await centre('.tnf-cell', 6), { x: 40, y: 40 });
+    st = await read(page);
+    is(st.trayLeft === before2 + 1, `dropping a counter off the frame returns it to the tray (${before2} -> ${st.trayLeft})`);
+
+    /* ⚠ A BAD DROP DOES NOTHING — onto an occupied cell */
+    const snap0 = (await read(page)).ords.join(',');
+    await drag(await centre('.tnf-cell', 0), await centre('.tnf-cell', 1));
+    st = await read(page);
+    is(st.ords.join(',') === snap0, `⚠ a drop onto an occupied cell changes nothing (${st.ords.join(',')})`);
+
+    /* ⚠ AND A SHAKY TAP IS STILL A TAP — under the threshold */
+    await page.evaluate(() => {
+      const b = Array.from(document.querySelectorAll('.lcs-ctrl'));
+      b[b.length - 1].click();
+    });
+    await new Promise((r) => setTimeout(r, 120));
+    const c3 = await centre('.tnf-cell', 3);
+    await page.mouse.move(c3.x, c3.y);
+    await page.mouse.down();
+    await page.mouse.move(c3.x + 4, c3.y + 3);              /* 5px — under 8 */
+    await page.mouse.up();
+    await new Promise((r) => setTimeout(r, 120));
+    st = await read(page);
+    is(st.filled === 4, `⚠ a 5px wobble is still a tap, not a drag (got ${st.filled})`);
+
+    /* the carried ghost is cleaned up */
+    const leftovers = await page.evaluate(() => document.querySelectorAll('.tnf-carry').length);
+    is(leftovers === 0, `no carried counter is left on the page (${leftovers})`);
+
     is(errs.filter((e) => !/quota\/status|favicon|net::ERR|404/.test(e)).length === 0,
       'no console errors: ' + JSON.stringify(errs.slice(0, 3)));
     await page.close();

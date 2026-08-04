@@ -292,7 +292,9 @@ var FractionKitchen = {
     this.friends = 2;
     this.committed = [];         /* committed correct-line indices */
     this.sliced = false;
-    this.placed = [];            /* plate idx -> piece idx */
+    this.placed = [];            /* piece indices already served */
+    this.plateOf = [];           /* piece idx -> plate idx */
+    this.whole = false;          /* the pieces pulled back into one */
     this._sel = null;            /* tap-to-select: the piece awaiting a plate */
     this.wobbleSpoken = {};      /* food -> true (≤1 kind line per food) */
     this.equivTask = null;
@@ -1323,6 +1325,7 @@ var FractionKitchen = {
      piece, without one it takes the first piece still on the board */
   _tapPlate: function (plateEl) {
     if (this.mode !== 'share') return;
+    if (this._plateCount(Number(plateEl.dataset.plate)) >= this._share()) return;
     var idx = this._sel;
     if (idx == null) {
       var ps = this.pieces(this.food, this.n);
@@ -1446,18 +1449,47 @@ var FractionKitchen = {
     this._platesEl = row;
     return row;
   },
+  /* ⭐ THE FAIR SHARE, not one slice. A single line — `if
+     (plate.querySelector('svg')) return;` — capped this whole tool at
+     UNIT fractions: no child could ever be given THREE FOURTHS, which is
+     the pivot idea of grade 3 (3.NF.A.1's second clause, "a/b as a parts
+     of size 1/b"). It also made every leftover unresolvable: six pieces
+     among three friends had to leave three over instead of giving each
+     of them two sixths. */
+  _share: function () {
+    var total = this.pieces(this.food, this.n).length;
+    return Math.max(1, Math.floor(total / this.friends));
+  },
+  _plateCount: function (i) {
+    return (this.plateOf || []).filter(function (v) { return v === i; }).length;
+  },
   _dropOnPlate: function (pieceIdx, x, y, targets) {
     var self = this;
     targets = targets || this._targets();
+    this.plateOf = this.plateOf || [];
     for (var k = 0; k < targets.length; k++) {
       if (this._inTarget(targets[k], x, y)) {
         var plate = targets[k].el, i = Number(plate.dataset.plate);
-        if (plate.querySelector('svg')) return;   /* one slice per plate — extra slides back (render no-op) */
+        if (this._plateCount(i) >= this._share()) return;   /* this plate has its share */
         var p = this.pieces(this.food, this.n)[pieceIdx];
-        plate.innerHTML = '<svg viewBox="' + this._bboxAttr(this.food, this.n, pieceIdx) + '" class="frk-plateslice">' +
-          '<clipPath id="frkpl' + i + '"><path d="' + p.d + '"/></clipPath>' +
-          '<g clip-path="url(#frkpl' + i + ')">' + this._body(this.food) + '</g></svg>';
+        var kOn = this._plateCount(i) + 1;
+        /* slices shrink as the share grows, so four still read as four */
+        var sz = Math.max(30, Math.min(68, 68 / Math.sqrt(kOn))).toFixed(0);
+        plate.insertAdjacentHTML('beforeend',
+          '<svg viewBox="' + this._bboxAttr(this.food, this.n, pieceIdx) + '" class="frk-plateslice">' +
+          '<clipPath id="frkpl' + i + '_' + pieceIdx + '"><path d="' + p.d + '"/></clipPath>' +
+          '<g clip-path="url(#frkpl' + i + '_' + pieceIdx + ')">' + this._body(this.food) + '</g></svg>');
+        [].forEach.call(plate.querySelectorAll('.frk-plateslice'), function (s) {
+          s.style.width = sz + '%'; s.style.height = sz + '%';
+        });
         this.placed.push(pieceIdx);
+        this.plateOf[pieceIdx] = i;
+        /* ⭐ NAME THE SHARE. FRAC's `c` form is defined as the form that
+           follows a numeral, in every locale — so "2 " + c is correct
+           by construction and needs no new string in any language. */
+        this._speak(kOn > 1
+          ? kOn + ' ' + this.frac(this.n, 'c')
+          : this.fmt('pieceName', { fs: this.frac(this.n, 's') }));
         if (this._sel === pieceIdx) { this._sel = null; this._paintSel(); }
         var pieceEl = this._hitsEl.querySelector('.frk-piecebtn[data-piece="' + pieceIdx + '"]');
         if (pieceEl) pieceEl.classList.add('onplate');
@@ -1475,8 +1507,10 @@ var FractionKitchen = {
     var total = this.pieces(this.food, this.n).length;
     var filled = this.placed.length;
     var self = this;
-    if (filled === Math.min(this.friends, total)) {
-      var leftover = total - this.friends;
+    /* everyone has their SHARE, not merely one piece each */
+    var served = Math.min(this.friends * this._share(), total);
+    if (filled === served) {
+      var leftover = total - served;
       setTimeout(function () {
         if (leftover > 0) {
           /* ⚠ shareLeftover is the ONE share string with no placeholders:
@@ -1489,7 +1523,7 @@ var FractionKitchen = {
              observes-then-waits. Parameterising it properly needs counted
              forms in eleven languages — a locale pass, not a code fix. */
           if (leftover === 1) self._speak(self.api.t('shareLeftover'));
-        } else if (leftover < 0) {
+        } else if (self.friends > total) {
           self._speak(self.fmt('shareEmpty', { p: total, f: self.friends }));
         } else {
           (self._platesEl.querySelectorAll('.frk-face') || []).forEach(function (f) { f.classList.add('blink'); });
@@ -1725,7 +1759,7 @@ var FractionKitchen = {
         chip.addEventListener('click', function () {
           if (locked) { self._gateInline(dock, 'gateMenu'); return; }
           self.friends = f;
-          self.placed = [];
+          self.placed = []; self.plateOf = [];
           self.render();
         });
         r2.appendChild(chip);
@@ -1759,6 +1793,23 @@ var FractionKitchen = {
       self._speak(self._loc(story.story));
     });
     r2.appendChild(st);
+    if (this.sliced && this.mode !== 'equiv') {
+      var whole = api.el('button', 'frk-chip' + (this.whole ? ' active' : ''));
+      whole.type = 'button';
+      whole.textContent = api.t('fracWhole');
+      whole.addEventListener('click', function () {
+        self.whole = !self.whole;
+        self._foodBoxEl.classList.toggle('exploded', !self.whole);
+        whole.classList.toggle('active', self.whole);
+        if (self.whole) {
+          self._sfxFit();
+          self._speak(self.fmt('equivDone', {
+            a: self.n, small: self.frac(self.n, 'c'), big: api.t('fracWhole')
+          }));
+        }
+      });
+      r2.appendChild(whole);
+    }
     var again = api.el('button', 'frk-chip');
     again.type = 'button';
     again.textContent = api.t(this.sliced ? 'cutAgain' : 'startAgain');
@@ -1778,6 +1829,8 @@ var FractionKitchen = {
     this.committed = [];
     this.sliced = false;
     this.placed = [];
+    this.plateOf = [];
+    this.whole = false;
     this._sel = null;
     if (!keepMode && this.mode === 'equiv') this.mode = 'cut';
     this.render();
@@ -1991,10 +2044,12 @@ var FractionKitchen = {
   + '.frk-plate:focus-visible,.frk-supplypiece:focus-visible,.frk-tray.fill:focus-visible{'
   +   'outline:3px solid var(--lcs-focus,#146B5E);outline-offset:3px;}'
   + '.frk-plate{width:108px;height:108px;border-radius:50%;background:#FFFFFF;'
-  +   'border:1.5px solid #C9D8D3;box-shadow:var(--lcs-shadow-sm);display:grid;place-items:center;position:relative;}'
+  +   'border:1.5px solid #C9D8D3;box-shadow:var(--lcs-shadow-sm);position:relative;'
+  +   'display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:1px;padding:9%;}'
   + '.frk-plate::before{content:"";position:absolute;inset:12%;border-radius:50%;border:2px solid #E2F0EC;}'
   + '.frk-plate.hot{border-color:#F2784B;transform:scale(1.03);transition:all .14s var(--lcs-ease);}'
-  + '.frk-plateslice{width:64%;height:64%;}'
+  + '.frk-plateslice{width:64%;height:64%;flex:0 0 auto;'
+  +   'filter:drop-shadow(0 2px 2px rgba(58,46,34,.20));}'
 
   /* equivalence trays */
   + '.frk-trays{flex-shrink:0;display:flex;justify-content:center;align-items:center;gap:24px;'

@@ -227,15 +227,42 @@ var MoneyMat = {
     }
     return c.before ? (c.symbol + ' ' + s) : (s + ' ' + c.symbol);
   },
+  /* the minor-unit mark, ONE site. ⚠ Native panels own this table: `45 c`
+     is not how fi (snt), de (Cent), it, es or pt write it — queued for the
+     locale round, and it must stay a single site so the fix is one edit. */
+  _minorMark: function (cKey) {
+    var mark = { eur: 'c', usd: '¢', gbp: 'p', brl: 'c' }[cKey || this.curKey()] || 'c';
+    if ((this.api && this.api.lang) === 'nl') mark = 'ct';   /* Dutch tags read "ct" */
+    return mark;
+  },
   /* the price TAG: minor-form under 1 major, major-form above */
   formatTag: function (v, cKey) {
     var c = this.CURRENCIES[cKey || this.curKey()];
     if (c.minorPerMajor === 1) return v + ' ' + c.symbol;
-    if (v < c.minorPerMajor) {
-      var minMark = { eur: 'c', usd: '¢', gbp: 'p', brl: 'c' }[cKey || this.curKey()] || 'c';
-      if ((this.api && this.api.lang) === 'nl') minMark = 'ct';   /* Dutch tags read "ct" */
-      return v + ' ' + minMark;
-    }
+    if (v < c.minorPerMajor) return v + ' ' + this._minorMark(cKey);
+    return this.formatMoney(v, c);
+  },
+  /* ⭐ ONE NOTATION PER ROUND — the running total's formatter.
+     formatTag flips form AT 1 major (95 c → 1,00 €), so pointing the total
+     at it would change units MID-COUNT, which is worse than the constant
+     mismatch it replaces (measured: the flip lands between 95 and 100 in
+     eur/usd/gbp/brl; sv/da/no have one form and are already coherent).
+     So the form is pinned to the ROUND's price and every amount — tag,
+     total, rail, caption — is rendered that way, always naming the same
+     countable unit. `ref` overrides the anchor for amounts belonging to a
+     different round.
+     RELATION TO formatTag, which is the rule for a tag standing ALONE:
+       formatLike(v, v) === formatTag(v)  for every v and every currency.
+     They are not interchangeable — in a minor-form round an OVERPAY can
+     exceed one major, and formatTag would flip it while formatLike must
+     not. Both are live: tags-for-other-rounds (saved stalls, and the print
+     sheet's neighbour prices) use formatTag; everything inside the running
+     round uses formatLike. */
+  formatLike: function (v, ref) {
+    var c = this.cur();
+    if ((c.minorPerMajor || 1) === 1) return v + ' ' + c.symbol;
+    var anchor = (typeof ref === 'number') ? ref : this.price;
+    if (anchor < c.minorPerMajor) return v + ' ' + this._minorMark();
     return this.formatMoney(v, c);
   },
   /* PURE: is `amount` composable from `values` (unbounded)? DP. */
@@ -519,7 +546,7 @@ var MoneyMat = {
     scene.appendChild(anchor);
     /* price tag */
     var tag = api.el('div', 'mm-tag');
-    tag.innerHTML = '<span class="mm-tag-string"></span><span class="mm-tag-body">' + this.formatTag(this.price) + '</span>';
+    tag.innerHTML = '<span class="mm-tag-string"></span><span class="mm-tag-body">' + this.formatLike(this.price) + '</span>';
     scene.appendChild(tag);
     wrap.appendChild(scene);
 
@@ -528,7 +555,7 @@ var MoneyMat = {
     var inChange = this.phase === 'changePick' || this.phase === 'changeCount';
     var totalRow = api.el('div', 'mm-totalrow' + (inChange ? ' mm-hidden' : ''));
     var pill = api.el('div', 'mm-total');
-    pill.textContent = this.formatMoney(this.trayTotal());
+    pill.textContent = this.formatLike(this.trayTotal());
     this._totalEl = pill;
     var spk = api.el('button', 'mm-speak');
     spk.type = 'button';
@@ -653,13 +680,20 @@ var MoneyMat = {
     var den = this._denOf(v);
     this._sfxClink(den ? (den.d || 40) : 40, true);
     this._paintTray();
-    /* leaving exact-paid state rewinds the invitation phase */
-    if (this.phase === 'invited' || this.phase === 'secondWay') {
-      if (this.trayTotal() !== this.price) {
-        if (this.phase === 'invited' && !this.firstWay) this.phase = 'paying';
-      }
-    }
-    this._paintPhase();
+    /* ⭐ TAKING A COIN BACK IS A WAY OF PAYING. Removal used to be the one
+       route to an exact total that the tool could not see: a child who
+       overpaid (25+10+10+5 against 45) and lifted the 5 back off landed on
+       the price in silence, and — from `invited` — a second, genuinely
+       different way built that way could never reach `bothWays`, because
+       only _placeCoin ever asked. The tool's best moment was unreachable by
+       its most natural route.
+       (The rewind block that used to sit here was DEAD: it required
+       `phase === 'invited' && !this.firstWay`, but firstWay is assigned in
+       _checkPaid immediately BEFORE phase becomes 'invited', so the
+       condition could never be true. Removed rather than repaired — the
+       phase does not need rewinding, since _checkPaid is idempotent on a
+       non-matching total.) */
+    this._checkPaid();
   },
   _paintTray: function () {
     var self = this;
@@ -673,7 +707,7 @@ var MoneyMat = {
       b.addEventListener('click', function () { self._removeCoin(i); });
       self._matEl.appendChild(b);
     });
-    if (this._totalEl) this._totalEl.textContent = this.formatMoney(this.trayTotal());
+    if (this._totalEl) this._totalEl.textContent = this.formatLike(this.trayTotal());
   },
   _checkPaid: function () {
     var self = this;
@@ -708,10 +742,10 @@ var MoneyMat = {
     if (this.phase === 'invited' && !this.dismissedInvite) {
       var inv = api.el('div', 'mm-invite');
       var txt = api.el('span');
-      txt.textContent = this.fmt('anotherWay', { price: this.formatTag(this.price) });
+      txt.textContent = this.fmt('anotherWay', { price: this.formatLike(this.price) });
       var go = api.el('button', 'mm-chip small primary');
       go.type = 'button'; go.textContent = '✦';
-      go.setAttribute('aria-label', this.fmt('anotherWay', { price: this.formatTag(this.price) }));
+      go.setAttribute('aria-label', this.fmt('anotherWay', { price: this.formatLike(this.price) }));
       go.addEventListener('click', function () {
         self.phase = 'secondWay';
         self.tray = [];
@@ -741,7 +775,7 @@ var MoneyMat = {
       eq.textContent = '=';
       panel.append(mk(this.firstWay), eq, mk(this.tray));
       var cap = api.el('div', 'mm-bothcap');
-      cap.textContent = this.fmt('bothWays', { price: this.formatTag(this.price) });
+      cap.textContent = this.fmt('bothWays', { price: this.formatLike(this.price) });
       host.append(panel, cap);
     }
     if (this.phase === 'changePick') {
@@ -776,8 +810,8 @@ var MoneyMat = {
     if (!this.chg) return '';
     var taken = this.chg.coins.slice(0, this.chg.idx);
     var run = this.price;
-    var parts = [this.formatTag(this.price)];
-    for (var i = 0; i < taken.length; i++) { run += taken[i]; parts.push(this.formatTag(run)); }
+    var parts = [this.formatLike(this.price)];
+    for (var i = 0; i < taken.length; i++) { run += taken[i]; parts.push(this.formatLike(run)); }
     return parts.join(' → ');
   },
   _pickTender: function (den) {
@@ -881,6 +915,8 @@ var MoneyMat = {
           self._store.stalls.forEach(function (st) {
             var chipR = api.el('button', 'mm-chip small');
             chipR.type = 'button';
+            /* a saved stall is a DIFFERENT round, so its chip carries a price
+               TAG (anchored on itself), not this round's pinned form. */
             chipR.textContent = self._cap(self._noun(st.item).replace(/^the /, '')) + ' · ' + self.formatTag(st.price);
             chipR.addEventListener('click', function () {
               self.itemIdx = Math.max(0, self.ITEMS.findIndex(function (it) { return it.k === st.item; }));

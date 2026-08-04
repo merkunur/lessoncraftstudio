@@ -38,6 +38,7 @@ const arg = process.argv.find((a) => a.startsWith('--locales='));
 const LOCALES = arg ? arg.split('=')[1].split(',').filter((l) => ALL.includes(l)) : ALL;
 
 const REPO = path.join(__dirname, '..');
+const TOOL_DIR = process.env.MM_TOOL_DIR || path.join(REPO, 'mini tools');
 const errors = [];
 const E = (m) => errors.push(m);
 
@@ -67,7 +68,8 @@ const sandbox = {
 sandbox.global = sandbox;
 try {
   vm.createContext(sandbox);
-  vm.runInContext(fs.readFileSync(path.join(REPO, 'mini tools', 'money-mat.js'), 'utf8'), sandbox);
+  /* env indirection so mutate-money-mat.js can point the gate at a copy */
+  vm.runInContext(fs.readFileSync(path.join(TOOL_DIR, 'money-mat.js'), 'utf8'), sandbox);
 } catch (e) { console.log('FAIL  eval: ' + e.message); process.exit(1); }
 const T = sandbox.MoneyMat;
 if (!T || !T.CURRENCIES) { console.log('FAIL  MoneyMat not found'); process.exit(1); }
@@ -180,6 +182,67 @@ for (const cKey of Object.keys(T.CURRENCIES)) {
   if (tag(7, 'sek') !== '7 kr') E(`formatTag sek: "${tag(7, 'sek')}"`);
 }
 
+/* ================= 4b. formatLike — ONE NOTATION PER ROUND ========
+   ⚠ The invariant is stated on the RENDERED STRING, not read off the
+   function, so the gate cannot mark its own homework: "is this the major
+   form?" is answered by looking for a decimal separator with two digits
+   after it, which is true of "0,95 €" / "$ 1.05" / "R$ 1,05" and false of
+   "45 c" / "7 kr" / "105 kr" — independent of anything money-mat does.
+   Measured before writing: formatTag flips form between 95 and 100 in
+   eur/usd/gbp/brl, and is already single-form in sek/dkk/nok. */
+{
+  const MAJOR_FORM = /[.,]\d\d(\D|$)/;
+  const ROUNDS = [
+    { lang: 'en', cur: 'usd', minorPrice: 45, majorPrice: 145 },
+    { lang: 'en', cur: 'gbp', minorPrice: 45, majorPrice: 145 },
+    { lang: 'de', cur: 'eur', minorPrice: 45, majorPrice: 145 },
+    { lang: 'nl', cur: 'eur', minorPrice: 45, majorPrice: 145 },
+    { lang: 'pt', cur: 'brl', minorPrice: 70, majorPrice: 170 },
+    { lang: 'sv', cur: 'sek', minorPrice: 7, majorPrice: 40 },
+    { lang: 'da', cur: 'dkk', minorPrice: 7, majorPrice: 40 },
+    { lang: 'no', cur: 'nok', minorPrice: 7, majorPrice: 40 }
+  ];
+  const savedApi = T.api, savedPrice = T.price;
+  for (const r of ROUNDS) {
+    T.api = { lang: r.lang, settings: { enCurrency: r.cur }, t: (k) => k };
+    const c = T.CURRENCIES[r.cur];
+    const per = c.minorPerMajor || 1;
+
+    /* (a) the DECLARED relation: formatLike(v, v) === formatTag(v), swept */
+    for (let v = 1; v <= 2 * per + 60; v++) {
+      T.price = v;
+      const tg = T.formatTag.call(T, v);
+      if (T.formatLike.call(T, v) !== tg) E(`formatLike(v) !== formatTag(v) at ${r.cur} ${v}`);
+      if (T.formatLike.call(T, v, v) !== tg) E(`formatLike(v, v) !== formatTag(v) at ${r.cur} ${v}`);
+    }
+
+    /* (b) NO FLIP inside a round — the whole reason the function exists */
+    for (const price of [r.minorPrice, r.majorPrice]) {
+      T.price = price;
+      const forms = new Set();
+      for (let v = 0; v <= price + 2 * per; v += 5) {
+        forms.add(MAJOR_FORM.test(T.formatLike.call(T, v)) ? 'major' : 'minor');
+      }
+      if (forms.size !== 1) {
+        E(`formatLike FLIPS form inside a ${r.cur} round anchored at ${price}: ${[...forms].join('+')}`);
+      }
+    }
+
+    /* (c) a minor-anchored round survives an OVERPAY past one major — and
+       formatTag is asserted to flip there, so the justification for having
+       two functions is measured rather than assumed. */
+    if (per > 1) {
+      T.price = r.minorPrice;
+      const over = T.formatLike.call(T, per + 5);
+      if (MAJOR_FORM.test(over)) E(`${r.cur}: an overpay past 1 major flipped the round's notation → "${over}"`);
+      if (!MAJOR_FORM.test(T.formatTag.call(T, per + 5))) {
+        E(`${r.cur}: formatTag no longer flips at 1 major — formatLike's reason for existing is gone`);
+      }
+    }
+  }
+  T.api = savedApi; T.price = savedPrice;
+}
+
 /* ================= 5. SPOKEN templates =========================== */
 for (const L of LOCALES) {
   const cKey = T.LOCALE_CUR[L];
@@ -274,6 +337,7 @@ async function seatingProofs() {
   console.log('  ✓ composability: every generatable price provably coin-composable (all bands × tiers × currencies)');
   console.log('  ✓ change: every (price, tender) sums exactly, ≤6 coins, ascending count-on order');
   console.log('  ✓ format: money-core display conventions + minor-form tags hold');
+  console.log('  ✓ formatLike: one notation per round — no flip at 1 major, overpay safe, formatLike(v,v)≡formatTag(v)');
   console.log(`  ✓ seating: ${T.ITEMS.length} items trim-proven at the anchor + sharp re-measure clean`);
   console.log(`  ✓ ${Object.keys(S).length} strings + spoken templates + unit words complete (${LOCALES.length} locales); bans hold`);
 })();

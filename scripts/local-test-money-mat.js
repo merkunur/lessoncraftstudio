@@ -30,7 +30,9 @@ const path = require('path');
 const puppeteer = require('puppeteer');
 
 const REPO = path.join(__dirname, '..');
-const MINI = path.join(REPO, 'mini tools');
+/* env indirection so a poison run can point the harness at a copy of the
+   tool — a gate nobody has proven can FAIL is not a gate. */
+const MINI = process.env.MM_TOOL_DIR || path.join(REPO, 'mini tools');
 const IMGLIB = path.join(REPO, 'frontend', 'public', 'image-library-webp');
 const QA = path.join(REPO, 'docs', 'audit-results', 'money-mat', 'qa');
 fs.mkdirSync(QA, { recursive: true });
@@ -97,12 +99,36 @@ function serve() {
       AudioContext.prototype.createOscillator = function () { window.__notes++; return Real.call(this); };
     });
   }
+  /* ⚠ TWO FAILURE MODES, AND ONLY ONE OF THEM IS SURVIVABLE.
+     A scripted interaction that silently no-ops hollows out the NEXT
+     assertion — the recorded #39 defect, where a click on a legitimately
+     disabled control returned quietly and "the toggle is not swapped"
+     then passed because nothing had been toggled. But an interaction that
+     THROWS aborts the whole run and hides every assertion after it, and a
+     crashed gate reads exactly like a failed one. So these return a
+     boolean, loudly, and the caller decides. */
+  const clickBy = async (page, sel, v) => page.evaluate((sel, v) => {
+    const b = [...document.querySelectorAll(sel)].find((x) => Number(x.dataset.v) === v);
+    if (!b) return false;
+    b.click();
+    return true;
+  }, sel, v);
   const clickCoin = async (page, v) => {
-    await page.evaluate((v) => {
-      const b = [...document.querySelectorAll('.mm-purse .mm-coinbtn, .mm-purse .mm-notebtn')].find((x) => Number(x.dataset.v) === v);
-      b.click();
-    }, v);
+    const hit = await clickBy(page, '.mm-purse .mm-coinbtn, .mm-purse .mm-notebtn', v);
+    if (!hit) ok(`the purse offers a ${v} to tap`, false, 'no such denomination on screen');
     await sleep(120);
+    return hit;
+  };
+  const takeFromMat = async (page, v) => {
+    const hit = await clickBy(page, '.mm-mat .mm-coinbtn, .mm-mat .mm-notebtn', v);
+    if (!hit) ok(`the mat holds a ${v} to take back`, false, 'no such coin on the mat');
+    await sleep(200);
+    return hit;
+  };
+  const clickSel = async (page, sel) => {
+    const hit = await page.evaluate((s) => { const e = document.querySelector(s); if (!e) return false; e.click(); return true; }, sel);
+    await sleep(200);
+    return hit;
   };
 
   /* ============================ A: viewports ============================ */
@@ -182,6 +208,67 @@ function serve() {
     st = await page.evaluate(() => ({ phase: MoneyMat.phase, both: !!document.querySelector('.mm-bothways'), ways: document.querySelectorAll('.mm-bothways .mm-way').length }));
     ok('differing multiset completes both-ways side by side', st.phase === 'bothWays' && st.both && st.ways === 2, JSON.stringify(st));
     await page.screenshot({ path: path.join(QA, 'B-bothways.png') });
+
+    /* ⭐ REACHING THE PRICE BY REMOVAL — no coverage existed for this, which
+       is why it shipped broken. Overpay to 50 against 45, then lift the 5
+       back off: the total lands on the price WITHOUT a placement, so only
+       _removeCoin calling _checkPaid can see it. */
+    await page.evaluate(() => {
+      const T = MoneyMat;
+      T.price = 45; T.tray = []; T.phase = 'paying'; T.firstWay = null; T.dismissedInvite = false;
+      T.render();
+    });
+    await sleep(200);
+    /* ⚠ the running total must never PASS THROUGH 45 on the way up, or the
+       placement path celebrates and the removal path is never exercised.
+       5,10,10,10,10,5 → 5,15,25,35,45 ✗. Use 5,5,10,10,10,10 → 5,10,20,30,40,50. */
+    for (const v of [5, 5, 10, 10, 10, 10]) await clickCoin(page, v);   /* 50, never 45 en route */
+    await sleep(250);
+    st = await page.evaluate(() => ({ total: MoneyMat.trayTotal(), phase: MoneyMat.phase }));
+    ok('overpay does not celebrate', st.total === 50 && st.phase === 'paying', JSON.stringify(st));
+    await page.evaluate(() => { window.__spoken = []; });
+    await takeFromMat(page, 5);                                    /* lift ONE 5 → exactly 45 */
+    st = await page.evaluate(() => ({
+      total: MoneyMat.trayTotal(),
+      phase: MoneyMat.phase,
+      invite: !!document.querySelector('.mm-invite'),
+      spoke: window.__spoken.length > 0
+    }));
+    ok('⭐ reaching the price BY REMOVAL is recognised', st.total === 45 && st.phase === 'invited' && st.invite && st.spoke, JSON.stringify(st));
+
+    /* and the same route can complete a SECOND way — the tool's best moment,
+       previously unreachable from `invited` by removal alone.
+       ⚠ Guarded: under a poison run the invitation never appears, and an
+       unguarded click would abort the run and hide every later assertion. */
+    if (await clickSel(page, '.mm-invite .mm-chip.primary')) {
+      /* 10,10,10,25 → 10,20,30,55: never 45 en route. Remove a 10 → 45, giving
+         the multiset [10,10,25], different from the first way [5,10,10,10,10]. */
+      for (const v of [10, 10, 10, 25]) await clickCoin(page, v);
+      await takeFromMat(page, 10);                                 /* → 45 by removal */
+      st = await page.evaluate(() => ({ phase: MoneyMat.phase, ways: document.querySelectorAll('.mm-bothways .mm-way').length }));
+      ok('⭐ a second way completed BY REMOVAL reaches both-ways', st.phase === 'bothWays' && st.ways === 2, JSON.stringify(st));
+    } else {
+      ok('⭐ a second way completed BY REMOVAL reaches both-ways', false, 'the invitation never opened, so the route could not be driven');
+    }
+
+    /* ⭐ ONE NOTATION PER ROUND — the tag and the total must name the same
+       unit, and an overpay past 1 major must not flip the total's form. */
+    await page.evaluate(() => {
+      const T = MoneyMat;
+      T.price = 45; T.tray = []; T.phase = 'paying'; T.firstWay = null; T.dismissedInvite = false;
+      T.render();
+    });
+    await sleep(200);
+    for (const v of [25, 25, 25, 25, 25]) await clickCoin(page, v);   /* 125 — past $1 */
+    await sleep(250);
+    st = await page.evaluate(() => ({
+      tag: document.querySelector('.mm-tag-body').textContent.trim(),
+      total: document.querySelector('.mm-total').textContent.trim()
+    }));
+    const decimal = /[.,]\d\d(\D|$)/;
+    ok('tag and total share one notation (45 ¢ / 125 ¢, not 45 ¢ / $1.25)',
+      decimal.test(st.tag) === decimal.test(st.total), JSON.stringify(st));
+
     ok('B no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }

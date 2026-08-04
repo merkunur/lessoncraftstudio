@@ -48,10 +48,18 @@ function load(file, name) {
   return sb[name] || sb.window[name];
 }
 
+/* env indirection so mutate-place-value-lab.js can point the gate at a
+   mutated COPY without touching the working tree */
+const TOOLDIR = process.env.PVL_TOOL_DIR || path.join(__dirname, '..', 'mini tools');
+const COREDIR = path.join(__dirname, '..', 'mini tools');
+
 let tool, core;
 try {
-  tool = load(path.join(__dirname, '..', 'mini tools', 'place-value-lab.js'), 'PlaceValueLab');
-  core = load(path.join(__dirname, '..', 'mini tools', 'place-value-core.js'), 'PlaceValueCore');
+  tool = load(path.join(TOOLDIR, 'place-value-lab.js'), 'PlaceValueLab');
+  /* ⚠ the CORE is always read from the real tree. It is the thing the
+     splice is checked AGAINST, so a mutation harness that copied it
+     would let a mutation move both sides of the comparison at once. */
+  core = load(path.join(COREDIR, 'place-value-core.js'), 'PlaceValueCore');
 } catch (e) { console.log('FAIL  eval: ' + e.message); process.exit(1); }
 if (!tool || !tool.PV_WORD_SPANS) { console.log('FAIL  PlaceValueLab.PV_WORD_SPANS not found'); process.exit(1); }
 
@@ -186,6 +194,87 @@ if (typeof tool.engineNew === 'function') {
     engineAsserts += 3;
   } else E('gradeSubtract missing');
 } else E('engine fns missing (engineNew/engineAddOne/...)');
+
+/* =====================================================================
+   I1b · THE FIVE THE MUTATION HARNESS FOUND, and not one of them was a
+   bad mutation — every one named a hole.
+
+   ⭐ AN OFFER MUST BE HONOURABLE. `engineCanMakeTen` is what puts the
+   "Make a ten!" button on screen, and it was possible to loosen it to
+   o >= 9 without any gate noticing, because `engineMakeTen` guards
+   itself at o >= 10 and quietly refuses. The button would appear and do
+   nothing — §23.6's consequence-free control, in the one place this tool
+   cannot afford it. So: whenever a can-predicate says yes, performing
+   the move must CHANGE the state.
+
+   ⭐ REGROUPING PRESERVES VALUE. That is what the word means: you trade
+   ten of one place for one of the next and the number does not move.
+   Nothing asserted it, so `breakHundred` could hand back 90 for 100 and
+   the whole suite stayed green.
+   ===================================================================== */
+if (typeof tool.engineNew === 'function') {
+  const REGROUP = [
+    ['makeTen', 'engineCanMakeTen', 'engineMakeTen'],
+    ['makeHundred', 'engineCanMakeHundred', 'engineMakeHundred'],
+  ];
+  for (let h = 0; h <= 9; h++) {
+    for (let t = 0; t <= 19; t++) {
+      for (let o = 0; o <= 19; o++) {
+        for (const places of [2, 3]) {
+          const base = { h: places >= 3 ? h : 0, t: t, o: o, bundleMode: 'invited', maxPlaces: places, _decomposed: false };
+          if (tool.engineValue(base) > tool.engineMaxValue(base)) continue;
+
+          /* value preservation across every regrouping move */
+          for (const fn of ['engineMakeTen', 'engineMakeHundred', 'engineBreakTen', 'engineBreakHundred']) {
+            const s = Object.assign({}, base);
+            const before = tool.engineValue(s);
+            const did = tool[fn](s);
+            const after = tool.engineValue(s);
+            if (did && after !== before) {
+              E(`REGROUP ${fn} {h:${base.h},t:${base.t},o:${base.o}}: ${before} → ${after} — regrouping must preserve the value`);
+            }
+            engineAsserts++;
+          }
+
+          /* an offer the engine refuses to honour */
+          for (const [label, can, make] of REGROUP) {
+            const s = Object.assign({}, base);
+            if (!tool[can](s)) continue;
+            const snap = s.h + ',' + s.t + ',' + s.o;
+            tool[make](s);
+            if (snap === s.h + ',' + s.t + ',' + s.o) {
+              E(`OFFER ${label} {h:${base.h},t:${base.t},o:${base.o}}: the predicate says yes and the move does nothing`);
+            }
+            engineAsserts++;
+          }
+        }
+      }
+    }
+  }
+
+  /* canonical must notice BOTH columns — it is what the word-highlight
+     honesty hangs on, and it was only ever asserted on the ones */
+  if (tool.engineCanonical({ h: 0, t: 12, o: 0, maxPlaces: 3 })) E('CANONICAL: a mat with 12 tens reports canonical');
+  if (tool.engineCanonical({ h: 0, t: 0, o: 12, maxPlaces: 2 })) E('CANONICAL: a mat with 12 ones reports canonical');
+  if (!tool.engineCanonical({ h: 1, t: 9, o: 9, maxPlaces: 3 })) E('CANONICAL: a tidy mat reports non-canonical');
+  engineAsserts += 3;
+
+  /* the grader must refuse a non-canonical mat even at the right value:
+     "42 − 17 = 25" is not shown by 1 ten and 15 ones */
+  if (typeof tool.gradeSubtract === 'function') {
+    const messy = { h: 0, t: 1, o: 15, _decomposed: true };
+    if (tool.gradeSubtract(messy, 42, 17)) E('GRADE: accepts 25 shown as 1 ten and 15 ones — the mat is not tidied');
+    const messyTens = { h: 0, t: 12, o: 5, _decomposed: true, maxPlaces: 3 };
+    if (tool.gradeSubtract(messyTens, 142, 17)) E('GRADE: accepts 125 shown as 12 tens — the mat is not tidied');
+    engineAsserts += 2;
+  }
+
+  /* AUTO must bundle ones into a ten, not only tens into a hundred */
+  const a2 = tool.engineNew({ bundle: 'auto', maxPlaces: 2 });
+  for (let i = 0; i < 12; i++) tool.engineAddOne(a2);
+  if (a2.t < 1) E(`AUTO: 12×addOne reached {t:${a2.t},o:${a2.o}} — ones never bundled, but setBundleAuto promises they do`);
+  engineAsserts++;
+}
 
 /* =====================================================================
    I1 · REACHABILITY — exhaustive BFS over the engine's OWN legal moves.

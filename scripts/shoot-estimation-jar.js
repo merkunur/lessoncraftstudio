@@ -107,6 +107,22 @@ const SHOTS = WIDE
       await page.screenshot({ path: path.join(OUT, name2) });
       written.push(name2);
 
+      /* the reveal, driven to a mid-count beat AND to the end — the
+         middle is where the drain, the tally and the frames have to
+         agree with each other, and it is the frame nobody looks at */
+      await page.evaluate(() => {
+        const T = window.EstimationJar;
+        if (!T) return;
+        T.stage = 'reveal';
+        T._revealShown = Math.min(T.count, Math.max(10, Math.floor(T.count * 0.55)));
+        T.render();
+        T._paintTally(T._revealShown);
+      });
+      await new Promise(r => setTimeout(r, 700));
+      const name3 = `reveal-mid-${w}${cap ? '-' + cap : ''}${count ? '-n' + count : ''}.png`;
+      await page.screenshot({ path: path.join(OUT, name3) });
+      written.push(name3);
+
       await page.close();
     }
   } finally {

@@ -806,7 +806,13 @@ var MoneyMat = {
     var api = this.api, self = this;
     api.stage.innerHTML = '';
     document.body.classList.add('mm-wide');
-    var wrap = api.el('div', 'mm-wrap' + (this.premium ? ' mm-paid' : ''));
+    /* ⚠ THE LITERAL MUST STAY INTACT. audit-tool-control-liveness derives
+       this tool's class prefix by grepping for exactly `api.el('div',
+       'mm-wrap')`; concatenating the paid class onto the argument made the
+       shared gate unable to resolve a prefix at all, so it exited rather
+       than running. The entitlement class goes on afterwards. */
+    var wrap = api.el('div', 'mm-wrap');
+    if (this.premium) wrap.classList.add('mm-paid');
     api.stage.appendChild(wrap);
     this._wrap = wrap;
 
@@ -1762,8 +1768,8 @@ var MoneyMat = {
   + '.mm-bothrule::before,.mm-bothrule::after{content:"";flex:1;height:2px;background:rgba(20,107,94,.35);border-radius:2px;}'
   + '.mm-bothprice{font-family:var(--lcs-font-display);font-weight:800;'
   +   'font-size:calc(17px * var(--mm-tsc,1));color:#146B5E;white-space:nowrap;}'
-  + '.mm-bothcap{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(14px * var(--mm-tsc,1));color:#5A4630;text-align:center;}'
-  + '.mm-changeline{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(14.5px * var(--mm-tsc,1));color:var(--lcs-ink);text-align:center;}'
+  + '.mm-bothcap{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(15px * var(--mm-tsc,1));color:#5A4630;text-align:center;}'
+  + '.mm-changeline{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(15px * var(--mm-tsc,1));color:var(--lcs-ink);text-align:center;}'
 
   /* ⭐ THE RAIL — a JOURNEY, where the mat is a COLLECTION.
      Each hop is its own segment with a hard divider, so five 5c hops read as
@@ -1781,7 +1787,7 @@ var MoneyMat = {
   + '.mm-over{background-image:repeating-linear-gradient(135deg,#146B5E 0 5px,#EFE3CB 5px 10px);'
   +   'box-shadow:inset 1.5px 0 0 rgba(253,249,240,.9);}'
   + '.mm-rail-ends{display:flex;justify-content:space-between;font-family:var(--lcs-font-display);'
-  +   'font-weight:800;font-size:calc(13px * var(--mm-tsc,1));color:#5A4630;opacity:.85;}'
+  +   'font-weight:800;font-size:calc(15px * var(--mm-tsc,1));color:#5A4630;opacity:.85;}'
 
   /* the counter deck: the price, and beside it the money that paid it */
   + '.mm-deck{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;'

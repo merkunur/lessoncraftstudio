@@ -190,7 +190,14 @@ function serve() {
     };
   });
   if (inv.o !== 10 || !inv.invite || inv.spans !== 0 || !inv.offer || !inv.make) FAIL(`offer state: ${JSON.stringify(inv)}`);
-  else if (inv.digits !== '30') FAIL(`numeral at 2t+10o: "${inv.digits}" (want the TRUE 30)`);
+  /* ⚠ the assertion, not the tool, changed here. Hundreds are FREE now
+     and the third place is on by default, so a board holding 30 reads
+     "0 3 0" with a GHOSTED hundreds zero — which is the placeholder
+     lesson, not a defect. The invariant worth keeping is that the
+     numeral is the TRUE value (30) rather than the canonicalised digits
+     of a mat that is deliberately non-canonical; strip the leading
+     ghost and compare. */
+  else if (String(Number(inv.digits)) !== '30') FAIL(`numeral at 2t+10o: "${inv.digits}" (want the TRUE 30)`);
   else OK('10th one → offer (invite + suppressed word + numeral 30 + band)');
   const snap = await page.evaluate(() => {
     document.querySelector('.pvl-ctxbtn.make').click();
@@ -327,19 +334,25 @@ function serve() {
     chips.find((c) => c.className.includes('locked')).click();
     out.subGate = !!document.querySelector('.pvl-gate');
     out.link = (document.querySelector('.pvl-gatelink') || {}).getAttribute('href');
-    /* hundreds setting reverts */
+    /* ⭐ HUNDREDS NO LONGER REVERT — that is the point of the change,
+       so the assertion is inverted rather than deleted. A signed-out
+       teacher turning the third place on must KEEP it: the place a
+       Grade-2 class works in is not a paid feature, and the German
+       inversion the tool is built around only gets hard at three
+       digits (zweihundertsiebenundvierzig). */
     PlaceValueLab.api.settings.hundreds = true;
     PlaceValueLab.onSettings();
-    out.hundredsReverted = PlaceValueLab.api.settings.hundreds === false;
+    out.hundredsStayFree = PlaceValueLab.api.settings.hundreds === true
+      && document.querySelectorAll('.pvl-col').length === 3;
     /* saves chip gates */
     const manage = [...document.querySelectorAll('.pvl-chip')].find((c) => c.className.includes('manage'));
     manage.click();
     out.savesGate = document.querySelectorAll('.pvl-gate').length >= 1;
     return out;
   });
-  if (!gates.subGate || !gates.hundredsReverted || !gates.savesGate) FAIL(`gates: ${JSON.stringify(gates)}`);
+  if (!gates.subGate || !gates.hundredsStayFree || !gates.savesGate) FAIL(`gates: ${JSON.stringify(gates)}`);
   else if (!/from=tool-place-value-lab/.test(gates.link)) FAIL(`gate link: ${gates.link}`);
-  else OK('sub chip, hundreds setting, saves all gate → pricing?from=tool-place-value-lab');
+  else OK('sub + saves gate → pricing; hundreds stay FREE and render three columns');
 
   /* ---------- K. store roundtrip ---------- */
   console.log('\nK. store roundtrip');

@@ -1163,7 +1163,28 @@ var PlaceValueLab = {
     return { h: 0, t: 0, o: 0, bundleMode: opts.bundle || 'invited', maxPlaces: opts.maxPlaces || 2, _decomposed: false };
   },
   engineValue: function (st) { return st.h * 100 + st.t * 10 + st.o; },
+
+  /* ⭐⭐ THE CEILING IS ON THE VALUE, NOT ON EACH PLACE — and getting
+     that wrong is what produced a whole FAMILY of states in which the
+     mat held a number the numeral could not show.
+
+     The digit cards slice `engineValue` per place (render()), so a mat
+     holding more than `places` digits can represent has its top digit
+     SILENTLY DROPPED. With per-place caps only, invited/2-place could
+     reach {t:9,o:10..19} — the mat holds 100-109 and the cards read
+     "0 0" through "0 9" — and none of them could be bundled away,
+     because canMakeTen refused at t=9. Thirty-odd dead ends in which
+     the instrument displayed a number that was not on the table.
+
+     A value ceiling makes every one of them unreachable by
+     construction, and it is the honest rule anyway: a two-place
+     instrument represents 0-99, a three-place one 0-999. Regrouping
+     moves (make/break) preserve value and so can never breach it.
+     Gated by I1 in scripts/verify-place-value-lab.js. */
+  engineMaxValue: function (st) { return st.maxPlaces >= 3 ? 999 : 99; },
+
   engineAddOne: function (st) {
+    if (this.engineValue(st) + 1 > this.engineMaxValue(st)) return 'cap';
     if (st.bundleMode === 'auto') {
       if (st.o < 9) { st.o += 1; return 'added'; }
       /* the 10th one: bundle synchronously (cascade to a hundred when full) */
@@ -1175,11 +1196,22 @@ var PlaceValueLab = {
     return 'cap';
   },
   engineAddTen: function (st) {
-    var cap = (st.bundleMode === 'invited' && st.maxPlaces >= 3) ? 19 : 9;
+    if (this.engineValue(st) + 10 > this.engineMaxValue(st)) return 'cap';
+    /* ⚠ AUTO MUST CASCADE TENS→HUNDRED, or its own setting label lies.
+       `setBundleAuto` reads "Bundles by itself at ten" — that was true
+       of ones and FALSE of tens: the old cap pinned tens at 9 in auto
+       mode, so a hundred was literally unreachable by adding tens. */
+    if (st.bundleMode === 'auto') {
+      if (st.t < 9) { st.t += 1; return 'added'; }
+      if (st.maxPlaces >= 3 && st.h < 9) { st.h += 1; st.t = 0; return 'snapped'; }
+      return 'cap';
+    }
+    var cap = st.maxPlaces >= 3 ? 19 : 9;
     if (st.t < cap) { st.t += 1; return 'added'; }
     return 'cap';
   },
   engineAddHundred: function (st) {
+    if (this.engineValue(st) + 100 > this.engineMaxValue(st)) return 'cap';
     if (st.maxPlaces >= 3 && st.h < 9) { st.h += 1; return 'added'; }
     return 'cap';
   },
@@ -1189,7 +1221,11 @@ var PlaceValueLab = {
     if (place === 'hundreds' && st.h > 0) { st.h -= 1; return true; }
     return false;
   },
-  engineCanMakeTen: function (st) { return st.o >= 10 && st.t < 9 + (st.maxPlaces >= 3 ? 1 : 0); },
+  /* Bundling PRESERVES value, so with the value ceiling in place it can
+     never create an unrepresentable mat — the old `t < 9+…` guard was
+     the thing that turned a full tens column into a dead end. Ten loose
+     ones can ALWAYS become a ten; that is the whole promise. */
+  engineCanMakeTen: function (st) { return st.o >= 10; },
   engineMakeTen: function (st) { if (st.o >= 10) { st.o -= 10; st.t += 1; return true; } return false; },
   engineCanMakeHundred: function (st) { return st.t >= 10 && st.maxPlaces >= 3 && st.h < 9; },
   engineMakeHundred: function (st) { if (st.t >= 10 && st.maxPlaces >= 3) { st.t -= 10; st.h += 1; return true; } return false; },
@@ -1236,7 +1272,7 @@ var PlaceValueLab = {
   ENT_TRUST_DAYS: 14,
   C: { T: '#146B5E', CORAL: '#F2784B', CORALD: '#C9502A', FACE: '#FBF3E4', HONEY: '#F2C879', HONEYD: '#B98A2E', CARD: '#FFFEFB' },
 
-  defaults: { bundle: 'invited', wordHighlight: true, hundreds: false, speakOnChange: true },
+  defaults: { bundle: 'invited', wordHighlight: true, hundreds: true, speakOnChange: true },
   settings: [
     { key: 'bundle', type: 'choice', labelKey: 'setBundle', options: [
       { value: 'invited', labelKey: 'setBundleInvited' },
@@ -1311,8 +1347,17 @@ var PlaceValueLab = {
     if (this.st.maxPlaces < 3 && this.st.h > 0) { this.st.h = 0; }
     if (this._wrap) this.render();
   },
+  /* ⭐ HUNDREDS ARE FREE. They were gated behind premium AND a settings
+     switch, which is "never gate the first affordance" in its worst
+     form: a Grade-2 teacher opened the instrument named for place value
+     and the place they teach was missing, with no way to discover it
+     existed. It also gated the THESIS — the inversion a German
+     classroom actually fights is `zweihundertsiebenundvierzig`, not
+     `vierundzwanzig` — and it gated the only zero-placeholder
+     affordance (the "no tens" chip needs h > 0). Place count is now a
+     display choice the teacher makes, like a chart's range. */
   _maxPlaces: function () {
-    return (this.premium && this.api.settings.hundreds) ? 3 : 2;
+    return this.api.settings.hundreds ? 3 : 2;
   },
 
   fmt: function (key, args) {
@@ -1364,9 +1409,29 @@ var PlaceValueLab = {
     var prompt = this._buildPrompt();
     if (prompt) { wrap.classList.add('compact'); wrap.appendChild(prompt); }
 
+    /* ---- the board: ONE unit for the digits AND the mat ----
+       Custom properties inherit downwards only, so the unit has to be
+       declared on a common ANCESTOR of both bands, not on either of
+       them. --pvl-b is the board's width in units and --pvl-tracks the
+       mat's column widths; both are derived from the place list here so
+       the CSS never has to guess how many places are on screen. */
+    var board = api.el('div', 'pvl-board');
+    this._board = board;
+    /* ⚠ the place count goes on an ATTRIBUTE, and the unit budget and
+       column tracks are declared in CSS against it — NOT written inline
+       here. An inline custom property cannot be overridden by a media
+       or container query, so writing them from JS would make the
+       stacked phone layout unreachable. */
+    board.setAttribute('data-places', String(places.length));
+
     /* ---- the display band: digit cards + word line ---- */
     var top = api.el('div', 'pvl-top');
-    var digits = api.el('div', 'pvl-grid pvl-digits');
+    /* ⚠ NOT .pvl-grid. The digit cards used to inherit the MAT's column
+       template, so at three places "3", "0", "4" sat ~320px apart and
+       read as three separate cards rather than as the number three
+       hundred and four — on a tool whose own comment calls the word
+       under the digits the teaching point. */
+    var digits = api.el('div', 'pvl-digits');
     var value = this.engineValue(this.st);
     var dvals = { hundreds: Math.floor(value / 100), tens: Math.floor(value / 10) % 10, ones: value % 10 };
     var slotKeys = { hundreds: 'slotH', tens: 'slotT', ones: 'slotO' };
@@ -1394,7 +1459,13 @@ var PlaceValueLab = {
       /* non-canonical: the highlight would lie. In build/show, invite
          the bundle; in subtract the 10+ loose ones ARE the borrow —
          no invite (the prompt strip carries the instruction). */
-      if (this.mode !== 'sub') {
+      /* ⚠ `bundleInvite` says "Ten ones! Can you make a ten?" — it is
+         about the ONES column and nothing else. It used to show for any
+         non-canonical mat, so a board holding ten TENS was invited to
+         make a ten out of its zero ones. Show it only when it is true;
+         when the tens are over, the glowing "Make a hundred!" button is
+         already the invitation and needs no authored sentence. */
+      if (this.mode !== 'sub' && this.st.o >= 10) {
         var invite = api.el('span', 'pvl-invite');
         invite.textContent = api.t('bundleInvite');
         word.appendChild(invite);
@@ -1424,13 +1495,28 @@ var PlaceValueLab = {
     top.appendChild(arcSvg);
     this._arcSvg = arcSvg;
     this._topEl = top;
-    wrap.appendChild(top);
+    board.appendChild(top);
 
     /* ---- the mat band ---- */
     var mat = api.el('div', 'pvl-grid pvl-mat');
     this._trays = {};
     places.forEach(function (pl) { mat.appendChild(self._buildCol(pl)); });
-    wrap.appendChild(mat);
+    board.appendChild(mat);
+    /* ⭐ ONE regroup row under the mat, not a reserved 44px slot inside
+       every column. Per-column slots cost the material ~50px of height
+       in a layout that is already tight at 1024x768, and only one of
+       them is ever occupied; German ("Einen Hunderter tauschen") also
+       wrapped to three lines inside a narrow column. */
+    var ctxRow = api.el('div', 'pvl-ctxrow');
+    this._ctxRow = ctxRow;
+    this._ctx = {};
+    places.forEach(function (pl) {
+      var slot = api.el('span', 'pvl-ctxslot');
+      ctxRow.appendChild(slot);
+      self._ctx[pl] = slot;
+    });
+    board.appendChild(ctxRow);
+    wrap.appendChild(board);
 
     /* ---- the dock ---- */
     wrap.appendChild(this._buildDock());
@@ -1457,11 +1543,6 @@ var PlaceValueLab = {
     var tray = api.el('div', 'pvl-tray pvl-tray--' + pl);
     col.appendChild(tray);
     this._trays[pl] = tray;
-    /* context regroup buttons live under the column */
-    var ctx = api.el('div', 'pvl-ctx');
-    col.appendChild(ctx);
-    this._ctx = this._ctx || {};
-    this._ctx[pl] = ctx;
     return col;
   },
 
@@ -1476,18 +1557,45 @@ var PlaceValueLab = {
       if (!tray) return;
       tray.innerHTML = '';
       if (pl === 'ones') {
-        /* the 5×2 ghost grid — "how close to ten" always visible */
-        for (var g = 0; g < Math.max(10, counts.ones); g++) {
+        /* the 5×2 ghost frame — "how close to ten" always visible. A
+           SECOND block of ten appears once the first is full, so the
+           bundle invitation is the frame itself rather than a message:
+           the child can see the ten that is ready to go. Bounded at 20,
+           which is the engine's own ceiling for loose ones. */
+        var shown = counts.ones > 10 ? 20 : 10;
+        for (var g = 0; g < shown; g++) {
           var slot = api.el('div', 'pvl-slot' + (g >= 10 ? ' extra' : ''));
-          if (g < counts.ones) {
-            var cube = self._blockBtn('cube', srKeys.ones, pl, g);
-            slot.appendChild(cube);
-          }
+          if (g < counts.ones) slot.appendChild(self._blockBtn('cube', srKeys.ones, pl, g));
           tray.appendChild(slot);
         }
+      } else if (pl === 'tens') {
+        /* ⭐ TEN SLOTS PER BANK, FLUSH. Ten rods laid side by side with
+           no gap occupy exactly one flat's footprint — a full bank IS a
+           hundred, and the layout is what says so. The ghost slots keep
+           the bank's width constant, so the mat cannot reflow as rods
+           arrive, and they show at a glance how many more make a
+           hundred. A second bank appears only when it is needed. */
+        var shownT = counts.tens > 10 ? 20 : 10;
+        for (var j = 0; j < shownT; j++) {
+          var tslot = api.el('div', 'pvl-slot pvl-slot--rod' + (j >= 10 ? ' extra' : ''));
+          if (j < counts.tens) tslot.appendChild(self._blockBtn('rod', srKeys.tens, pl, j));
+          tray.appendChild(tslot);
+        }
       } else {
-        for (var i = 0; i < counts[pl]; i++) {
-          tray.appendChild(self._blockBtn(pl === 'tens' ? 'rod' : 'flat', srKeys[pl], pl, i));
+        /* the 3-wide bay. Three wide is the only arrangement that is
+           square at the ceiling, so the column is the same WIDTH at one
+           hundred as at nine and the mat can never reflow sideways.
+           ⚠ Only the rows in use are laid out (plus one waiting slot),
+           because a permanent 3x3 of ghosts is seven empty boxes
+           dominating a board that holds two hundreds. The column's
+           HEIGHT is reserved for all three rows by --pvl-bh, so the
+           unit never changes as hundreds arrive — a cube that shrinks
+           when you add a hundred is a broken instrument. */
+        var rows = Math.min(3, Math.max(1, Math.ceil((counts.hundreds + 1) / 3)));
+        for (var i = 0; i < rows * 3; i++) {
+          var hslot = api.el('div', 'pvl-slot pvl-slot--flat');
+          if (i < counts.hundreds) hslot.appendChild(self._blockBtn('flat', srKeys.hundreds, pl, i));
+          tray.appendChild(hslot);
         }
       }
     });
@@ -1501,21 +1609,87 @@ var PlaceValueLab = {
     b.addEventListener('click', function () { self._userGestured = true; self._removeBlock(place); });
     return b;
   },
+  /* =====================================================================
+     THE MATERIAL — and the one law it must obey.
+
+     ⭐⭐ Every piece is drawn as TEN of the piece below it, AND at ten
+     times its area. Both halves matter and the shipped tool had
+     neither: it drew ten segments on a rod that was 4.32 cubes tall and
+     a 10x10 grid on a flat that was 3.53 rods wide, so a child counting
+     seams got the right answer and a child comparing sizes was told a
+     ten is worth about three and a half ones — the exact misconception
+     base-ten material exists to kill. The header asserted the correct
+     law while the geometry violated it, and named the reason it
+     survived: nothing measured it.
+
+     Geometry, in units of --pvl-u:
+        cube  1u x  1u     one unit
+        rod   1u x 10u     ten cubes stacked, each segment EXACTLY 1u
+        flat 10u x 10u     ten rods side by side, a hundred cubes
+     so ten rods laid flush occupy exactly one flat's footprint. That
+     identity is the tool's central claim and it is now the layout's own
+     answer rather than an assertion — verify-place-value-lab.js
+     measures it off the rendered SVG.
+
+     ⚠ NO preserveAspectRatio="none" anywhere. The old rod stretched a
+     square viewBox non-uniformly, which is why its vertical and
+     horizontal edges rendered at different widths (1.36 vs 1.52px) and
+     its corner radius came out an ellipse.
+     ⚠ Every stroke carries vector-effect="non-scaling-stroke", so the
+     weights below are DEVICE pixels at every size. Without it the rod's
+     outline measured 0.88px at 360 (invisible) and the flat's 7.7px at
+     2400 (a black band) — a 2.6x spread across three pieces that are
+     supposed to be one material.
+     ONE ink on every edge (#0F4A40, 10:1 on the card) so contrast comes
+     from the outline rather than the fill; the honey flat's fill is
+     only 1.56:1 and used to read as a hole in the mat. */
+  INK: '#0F4A40',
+
   _cubeSvg: function () {
-    return '<svg viewBox="0 0 100 100" aria-hidden="true"><rect x="6" y="6" width="88" height="88" rx="14" fill="#F2784B" stroke="#C9502A" stroke-width="5"/></svg>';
+    /* the unit. The ONLY piece with no internal line — being plain is
+       itself the countable signal ("the plain one is one"). */
+    return '<svg viewBox="0 0 10 10" class="pvl-svg" aria-hidden="true">'
+      + '<rect x="0.35" y="0.35" width="9.3" height="9.3" rx="1.9" fill="#F2784B"/>'
+      + '<path d="M0.35 7.6 h9.3 v0.15 a1.9 1.9 0 0 1-1.9 1.9 h-5.5 a1.9 1.9 0 0 1-1.9-1.9 z" fill="' + this.INK + '" opacity=".13"/>'
+      + '<rect x="0.35" y="0.35" width="9.3" height="9.3" rx="1.9" fill="none" stroke="' + this.INK + '" stroke-width="2" vector-effect="non-scaling-stroke"/>'
+      + '</svg>';
   },
+
   _rodSvg: function () {
-    var lines = '';
-    for (var i = 1; i < 10; i++) lines += '<line x1="8" x2="92" y1="' + (i * 50) + '" y2="' + (i * 50) + '" stroke="#FFFEFB" stroke-width="6"/>';
-    return '<svg viewBox="0 0 100 500" preserveAspectRatio="none" aria-hidden="true"><rect x="4" y="4" width="92" height="492" rx="12" fill="#146B5E" stroke="#0E4A41" stroke-width="4"/>' + lines + '</svg>';
-  },
-  _flatSvg: function () {
-    var g = '';
+    /* ten cubes. Nine seams at SEAM weight, each gap exactly one unit.
+       Seams are INK at 55%, not white: white dividers on teal read as
+       gaps between separate bars, a dark seam reads as the join between
+       adjoining cubes — which is what a rod is. */
+    var seams = '';
     for (var i = 1; i < 10; i++) {
-      g += '<line x1="' + (i * 10) + '" x2="' + (i * 10) + '" y1="2" y2="98" stroke="#146B5E" stroke-width="1.4" opacity="0.55"/>';
-      g += '<line y1="' + (i * 10) + '" y2="' + (i * 10) + '" x1="2" x2="98" stroke="#146B5E" stroke-width="1.4" opacity="0.55"/>';
+      seams += '<line x1="0.35" x2="9.65" y1="' + (i * 10) + '" y2="' + (i * 10) + '" data-seam="' + i + '"/>';
     }
-    return '<svg viewBox="0 0 100 100" aria-hidden="true"><rect x="2" y="2" width="96" height="96" rx="8" fill="#F2C879" stroke="#B98A2E" stroke-width="3"/>' + g + '</svg>';
+    return '<svg viewBox="0 0 10 100" class="pvl-svg" aria-hidden="true">'
+      + '<rect x="0.35" y="0.35" width="9.3" height="99.3" rx="1.9" fill="#146B5E"/>'
+      + '<g stroke="' + this.INK + '" stroke-width="1.5" vector-effect="non-scaling-stroke" opacity=".55" data-units="10">' + seams + '</g>'
+      + '<path d="M0.35 97.6 h9.3 v0.15 a1.9 1.9 0 0 1-1.9 1.9 h-5.5 a1.9 1.9 0 0 1-1.9-1.9 z" fill="' + this.INK + '" opacity=".13"/>'
+      + '<rect x="0.35" y="0.35" width="9.3" height="99.3" rx="1.9" fill="none" stroke="' + this.INK + '" stroke-width="2" vector-effect="non-scaling-stroke"/>'
+      + '</svg>';
+  },
+
+  _flatSvg: function () {
+    /* ten rods. TWO weights, TWO meanings — this is the fix for the
+       woven-mesh problem: the old flat drew 18 identical hairlines and
+       so read as graph paper. Rod boundaries at SEAM weight make the
+       ten rods countable; the unit lines sit at HAIR weight behind them
+       so the hundred is present without becoming texture. */
+    var rods = '', hair = '';
+    for (var i = 1; i < 10; i++) {
+      rods += '<line x1="' + (i * 10) + '" x2="' + (i * 10) + '" y1="0.35" y2="99.65" data-rod="' + i + '"/>';
+      hair += '<line y1="' + (i * 10) + '" y2="' + (i * 10) + '" x1="0.35" x2="99.65"/>';
+    }
+    return '<svg viewBox="0 0 100 100" class="pvl-svg" aria-hidden="true">'
+      + '<rect x="0.35" y="0.35" width="99.3" height="99.3" rx="1.9" fill="#F2C879"/>'
+      + '<g class="pvl-flat-hair" stroke="' + this.INK + '" stroke-width="1" vector-effect="non-scaling-stroke" opacity=".30">' + hair + '</g>'
+      + '<g stroke="' + this.INK + '" stroke-width="1.5" vector-effect="non-scaling-stroke" opacity=".55" data-rods="10">' + rods + '</g>'
+      + '<path d="M0.35 97.6 h99.3 v0.15 a1.9 1.9 0 0 1-1.9 1.9 h-95.5 a1.9 1.9 0 0 1-1.9-1.9 z" fill="' + this.INK + '" opacity=".13"/>'
+      + '<rect x="0.35" y="0.35" width="99.3" height="99.3" rx="1.9" fill="none" stroke="' + this.INK + '" stroke-width="2" vector-effect="non-scaling-stroke"/>'
+      + '</svg>';
   },
 
   /* the word line spans */
@@ -1635,7 +1809,11 @@ var PlaceValueLab = {
     if (ctxT) {
       ctxT.innerHTML = '';
       if (this.engineCanMakeHundred(st)) {
-        var mh = api.el('button', 'pvl-ctxbtn make');
+        /* tinted by the place it CREATES — honey for a hundred, teal
+           for a ten. Honey used to mean both "hundreds" and "a bundle
+           is available", so a honey offer beside the hundreds column
+           read as "these belong over there". */
+        var mh = api.el('button', 'pvl-ctxbtn make toHundred');
         mh.type = 'button';
         mh.textContent = api.t('makeHundred');
         mh.addEventListener('click', function () { self._userGestured = true; self._makeHundred(); });
@@ -1927,7 +2105,7 @@ var PlaceValueLab = {
       var box = api.el('div', 'pvl-promptbox');
       var p = api.el('div', 'pvl-prompt');
       if (this.show.kind === 'numeral') {
-        var parts = this.fmt('showPrompt', { n: ' ' }).split(' ');
+        var parts = this.fmt('showPrompt', { n: '\u0000' }).split('\u0000');
         p.appendChild(document.createTextNode(parts[0]));
         var em = api.el('em', '');
         em.textContent = String(this.show.target);
@@ -1962,7 +2140,7 @@ var PlaceValueLab = {
     if (this.mode === 'sub' && this.sub.a !== null) {
       var box2 = api.el('div', 'pvl-promptbox');
       var p2 = api.el('div', 'pvl-prompt');
-      var txt = this.fmt('subPrompt', { a: this.sub.a, b: ' ' }).split(' ');
+      var txt = this.fmt('subPrompt', { a: this.sub.a, b: '\u0000' }).split('\u0000');
       p2.appendChild(document.createTextNode(txt[0]));
       var em2 = api.el('em', '');
       em2.textContent = String(this.sub.b);
@@ -2173,16 +2351,19 @@ var PlaceValueLab = {
     this.render();
   },
   onSettings: function () {
-    /* the hundreds toggle is premium-gated */
-    if (this.api.settings.hundreds && !this.premium) {
-      this.api.settings.hundreds = false;
-      if (this._wrap) this._gateInline(this._wrap.querySelector('.pvl-dock') || this._wrap, 'gateHundreds');
-    }
     this.st.bundleMode = this.api.settings.bundle;
     var mp = this._maxPlaces();
     if (mp !== this.st.maxPlaces) {
       this.st.maxPlaces = mp;
-      if (mp < 3 && this.st.h > 0) this.st.h = 0;
+      /* dropping to two places must not leave the mat holding a value
+         the two cards cannot show (the I1/R1 invariant) — fold the
+         hundreds down if they fit, else clamp to the ceiling. */
+      if (mp < 3 && this.st.h > 0) {
+        this.st.h = 0;
+        while (this.engineValue(this.st) > this.engineMaxValue(this.st)) {
+          if (this.st.o > 0) this.st.o -= 1; else if (this.st.t > 0) this.st.t -= 1; else break;
+        }
+      }
     }
     /* switching to auto with a pending offer canonicalizes (full anim) */
     if (this.st.bundleMode === 'auto') {
@@ -2203,8 +2384,64 @@ var PlaceValueLab = {
   + '@media (max-width:480px){'
   +   'body.pvl-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}'
   + '}'
-  + '.pvl-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,1.4vmin,14px);width:100%;}'
-  + '.pvl-grid{display:grid;grid-template-columns:repeat(var(--pvl-p,2),minmax(0,calc(var(--pvl-u,44px) * 6.818)));gap:clamp(10px,2vw,20px);justify-content:center;width:100%;}'
+  + '.pvl-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,1.4vmin,14px);width:100%;'
+  +   'container-type:inline-size;}'
+
+  /* ===================================================================
+     ⭐⭐ ONE UNIT, DECLARED UNCONDITIONALLY.
+
+     --pvl-u used to be declared ONLY inside @media (min-width:1367px),
+     while being READ at twenty sites — so at every viewport at or below
+     1366 (every phone, every tablet, and the 1024/1366 desktop a
+     teacher actually projects from) all twenty fell back to a hardcoded
+     44px while the columns stayed fluid. Fixed geometry in a fluid box
+     is the whole of the reported defect: a five-column 44px ones grid
+     inside a column that shrinks with the viewport walks straight out
+     of its card. Measured at the worst state, 24 blocks sat up to 195px
+     outside their own column at 768.
+
+     Declared on .pvl-board, which wraps the digits AND the mat, because
+     custom properties inherit DOWNWARDS ONLY and those two are
+     siblings — the trap that cost the ten-frame rebuild a day, where
+     --tnf-u sat on the frame and its siblings silently used the
+     fallback while every floor still passed.
+
+     --pvl-b is the board's width in units (set from JS beside --pvl-p):
+       3 places  hundreds 30u + tens 10u + ones 5u + chrome  = 52
+       2 places             tens 10u + ones 5u + chrome      = 19
+     Width sets demand; a height budget sets the ceiling, so a two-place
+     mat on a wide short screen cannot grow a rod taller than the fold.
+     =================================================================== */
+  + '.pvl-board{--pvl-u:clamp(6px,min(calc(100cqw / var(--pvl-b,20.2)),calc(var(--pvl-hbudget,calc(100vh - 420px)) / var(--pvl-bh,27))),var(--pvl-umax,72px));'
+  +   'display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.2vmin,12px);width:100%;}'
+  /* the width budget and the mat's tracks, in units. 30/10/5 for the
+     material + 1.2 of column padding each + 0.8 per gap + 2 of board
+     margin. Keyed on the attribute so a container query can restack. */
+  /* --pvl-bh is the board's HEIGHT in units: the tallest tray (a 3x3
+     hundreds bay is 30.6u; two tens banks are 20u) plus slack for the
+     column label and the fixed-size controls. */
+  + '.pvl-board[data-places="2"]{--pvl-b:20.2;--pvl-bh:26;'
+  +   '--pvl-tracks:calc(var(--pvl-u) * 11.2) calc(var(--pvl-u) * 6.2);}'
+  + '.pvl-board[data-places="3"]{--pvl-b:52.2;--pvl-bh:38;'
+  +   '--pvl-tracks:calc(var(--pvl-u) * 31.2) calc(var(--pvl-u) * 11.2) calc(var(--pvl-u) * 6.2);}'
+  + '.pvl-grid{display:grid;gap:calc(var(--pvl-u) * 0.8);justify-content:center;width:100%;}'
+  /* columns are sized to what they HOLD, not shared equally — a ones
+     column is five units wide and a hundreds bay is thirty, and forcing
+     them to 1fr is what made the mat read as three sparse boxes. */
+  + '.pvl-mat{grid-template-columns:var(--pvl-tracks);align-items:stretch;}'
+  /* ⭐ STACK when the board is too narrow to stand the places side by
+     side. Three 30u-wide bays cannot share a phone; side-by-side there
+     drives the unit down to a few pixels and pushes the material out of
+     the card (measured: 144 blocks escaping by 59px at 360). Stacked,
+     each place gets the full width and the budget is the widest one. */
+  + '@container (max-width:700px){'
+  /* stacked, the page scrolls (body.pvl-wide{overflow-y:auto} ≤560), so
+     WIDTH should bind rather than the fold — a height-bound unit here
+     drove the cube to 8px for no gain. */
+  +   '.pvl-board[data-places="3"]{--pvl-b:33.2;--pvl-hbudget:400vh;}'
+  +   '.pvl-board[data-places="2"]{--pvl-b:13.2;--pvl-hbudget:400vh;}'
+  +   '.pvl-mat{grid-template-columns:minmax(0,max-content);}'
+  + '}'
 
   /* prompt strip */
   + '.pvl-prompt{font-family:var(--lcs-font-display);font-weight:700;color:var(--lcs-structure);'
@@ -2213,12 +2450,20 @@ var PlaceValueLab = {
 
   /* the display band */
   + '.pvl-top{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;gap:8px;}'
-  + '.pvl-digits{align-items:end;}'
-  + '.pvl-digit{justify-self:center;display:flex;flex-direction:column;align-items:center;gap:2px;'
-  +   'background:#FFFEFB;border:none;border-radius:18px;box-shadow:var(--lcs-shadow);cursor:pointer;'
-  +   'padding:8px 22px 10px;min-width:84px;min-height:44px;transition:transform .1s var(--lcs-ease);}'
+  /* ONE numeral group, not three cards scattered across the mat's
+     column template. Cells adjacent with a hairline place divider, so
+     "304" reads as a number and the word beneath it lines up with it. */
+  + '.pvl-digits{display:flex;align-items:stretch;justify-content:center;gap:0;'
+  +   'background:#FFFEFB;border-radius:18px;box-shadow:var(--lcs-shadow);overflow:hidden;}'
+  + '.pvl-digit{display:flex;flex-direction:column;align-items:center;gap:2px;'
+  +   'background:none;border:none;cursor:pointer;'
+  +   'padding:8px 22px 10px;min-width:64px;min-height:44px;transition:transform .1s var(--lcs-ease);}'
+  /* AFTER .pvl-digit, or `border:none` above wins and the place
+     dividers never render */
+  + '.pvl-digit + .pvl-digit{border-left:1px solid var(--lcs-line);}'
   + '.pvl-digit:active{transform:scale(.97);}'
-  + '.pvl-slotlbl{font-family:var(--lcs-font-body);font-weight:800;font-size:13px;letter-spacing:.08em;opacity:.75;}'
+  /* was 13px — the place label is a name a child reads, not a caption */
+  + '.pvl-slotlbl{font-family:var(--lcs-font-body);font-weight:800;font-size:16px;letter-spacing:.05em;opacity:.8;}'
   + '.pvl-dg{font-family:var(--lcs-font-display);font-weight:700;font-size:clamp(44px,7vmin,76px);line-height:1;'
   +   'border-bottom:4px solid currentColor;padding:0 4px 2px;font-variant-numeric:tabular-nums;}'
   + '.pvl-dg.ghost{opacity:.28;border-bottom-style:dotted;}'
@@ -2260,46 +2505,112 @@ var PlaceValueLab = {
 
   /* the mat */
   + '.pvl-col{background:#FFFEFB;border-radius:22px;box-shadow:var(--lcs-shadow);display:flex;'
-  +   'flex-direction:column;align-items:center;gap:8px;padding:12px 12px 14px;min-height:calc(var(--pvl-u,44px) * 6.818);}'
+  +   'flex-direction:column;align-items:center;gap:calc(var(--pvl-u) * .35);'
+  +   'padding:calc(var(--pvl-u) * .6);min-width:0;}'
   + '.pvl-col--tens{background:linear-gradient(rgba(20,107,94,.06),rgba(20,107,94,.06)),#FFFEFB;}'
   + '.pvl-col--hundreds{background:linear-gradient(rgba(242,200,121,.1),rgba(242,200,121,.1)),#FFFEFB;}'
   + '.pvl-collbl{font-family:var(--lcs-font-body);font-weight:800;font-size:15px;letter-spacing:.06em;'
   +   'text-transform:uppercase;color:var(--lcs-ink-soft);}'
-  + '.pvl-add{width:calc(var(--pvl-u,44px) * 1.273);height:calc(var(--pvl-u,44px) * 1.091);border-radius:16px;border:none;cursor:pointer;'
-  +   'font-family:var(--lcs-font-display);font-weight:700;font-size:calc(var(--pvl-u,44px) * .682);line-height:1;color:#fff;'
-  +   'background:#F2784B;box-shadow:0 3px 0 0 #C9502A;transition:transform .1s var(--lcs-ease);}'
-  + '.pvl-add.pvl-hue-tens{background:#146B5E;box-shadow:0 3px 0 0 #0E4A41;}'
-  + '.pvl-add.pvl-hue-hundreds{background:#F2C879;color:#6B4E12;box-shadow:0 3px 0 0 #B98A2E;}'
-  + '.pvl-add:active{transform:translateY(2px);box-shadow:none;}'
-  /* left-aligned wrap so a 7th rod reads "6 and one more", not a stray */
-  + '.pvl-tray{flex:1;width:100%;display:flex;flex-wrap:wrap;gap:6px;align-content:flex-start;'
-  +   'justify-content:flex-start;padding:8px 8px 8px 16px;border-radius:14px;}'
-  + '.pvl-tray--ones{display:grid;grid-template-columns:repeat(5,var(--pvl-u,44px));grid-auto-rows:var(--pvl-u,44px);gap:calc(var(--pvl-u,44px) * .182);'
-  +   'justify-content:center;align-content:flex-start;}'
-  + '.pvl-tray--ones.offer{outline:3px dashed #F2C879;outline-offset:4px;border-radius:14px;}'
-  + '.pvl-slot{width:var(--pvl-u,44px);height:var(--pvl-u,44px);border-radius:10px;border:2px dotted rgba(20,30,28,.14);}'
-  + '.pvl-slot.extra{border-color:rgba(242,200,121,.7);}'
-  + '.pvl-block{border:none;background:none;padding:0;cursor:pointer;transition:transform .1s var(--lcs-ease);}'
+  /* ⚠ CONTROLS ARE CHROME, NOT MATERIAL — do NOT size them off the
+     unit. They used to be u*1.273 wide, which was fine at u=44 and
+     became a 21x18px button the moment the unit became honest. A
+     control has a floor (44px) that has nothing to do with base ten.
+     Tonal rather than filled, too: in an apparatus the material is loud
+     and the controls are quiet, and a saturated pill in the middle of
+     each column was competing with the blocks it produces. */
+  + '.pvl-add{width:52px;height:44px;border-radius:14px;cursor:pointer;flex:none;'
+  +   'font-family:var(--lcs-font-display);font-weight:700;font-size:26px;line-height:1;'
+  +   'color:#C9502A;background:rgba(242,120,75,.14);border:2px solid #C9502A;'
+  +   'transition:transform .1s var(--lcs-ease),background .1s var(--lcs-ease);}'
+  + '.pvl-add.pvl-hue-tens{color:#0E4A41;background:rgba(20,107,94,.14);border-color:#146B5E;}'
+  + '.pvl-add.pvl-hue-hundreds{color:#6B4E12;background:rgba(242,200,121,.28);border-color:#B98A2E;}'
+  + '.pvl-add:active{transform:translateY(2px);background:#F2784B;color:#fff;}'
+  + '.pvl-add.pvl-hue-tens:active{background:#146B5E;color:#fff;}'
+  + '.pvl-add.pvl-hue-hundreds:active{background:#F2C879;}'
+  /* ===================================================================
+     FIXED-TRACK TRAYS. Every tray is a grid of a KNOWN number of unit
+     tracks, so its footprint is a function of (viewport, place count)
+     and NEVER of state. That single property is what makes all three
+     reported overflows structurally impossible rather than patched:
+     nothing here can grow when a block is added, because the tracks
+     were already there.
+
+       hundreds  3 x 3 bay, 2 rows visible          30u wide, 20u tall
+       tens      two flush banks of ten             10u wide, 20u tall
+       ones      5 x 4 flush frame                   5u wide,  4u tall
+
+     ⭐ THE TENS BANK IS THE POINT. Ten rods at 1u x 10u laid FLUSH
+     occupy exactly 10u x 10u — pixel-identical to one flat. A completed
+     bank IS a hundred, and the layout says so rather than the copy: the
+     zero gap is load-bearing, not a style choice.
+
+     Trays align to the BOTTOM (align-items:end on the mat, and the
+     material sits at the end of the column) because material rests on a
+     surface. It also stops a short ones column reading as a sparse box.
+     =================================================================== */
+  /* flex:1 + align-content:end — the material rests on the FLOOR of the
+     column, which is where material rests. Columns stretch to a common
+     height so the three bays read as one table rather than three boxes. */
+  + '.pvl-tray{width:100%;flex:1;display:grid;justify-content:center;align-content:end;'
+  +   'padding:calc(var(--pvl-u) * .3);border-radius:14px;}'
+  /* ⚠ NO SCROLLING BAY. The first attempt showed two of the three rows
+     and scrolled the third — but `align-content:end` inside an
+     overflowing grid pushes the overflow off the TOP, so with two
+     hundreds on the mat both flats rendered at their full 165px and
+     neither was on screen. Every gate passed; the renders showed an
+     empty bay. All nine are laid out, and the unit budget carries the
+     height instead. */
+  + '.pvl-tray--hundreds{grid-template-columns:repeat(3,calc(var(--pvl-u) * 10));'
+  +   'grid-auto-rows:calc(var(--pvl-u) * 10);gap:calc(var(--pvl-u) * .3);}'
+  /* zero gap — a full bank must be a flat, exactly */
+  + '.pvl-tray--tens{grid-template-columns:repeat(10,var(--pvl-u));'
+  +   'grid-auto-rows:calc(var(--pvl-u) * 10);gap:0;height:calc(var(--pvl-u) * 20);}'
+  + '.pvl-tray--ones{grid-template-columns:repeat(5,var(--pvl-u));grid-auto-rows:var(--pvl-u);'
+  +   'gap:0;height:calc(var(--pvl-u) * 4);}'
+  + '.pvl-tray--ones.offer{outline:calc(var(--pvl-u) * .12) dashed #146B5E;outline-offset:3px;border-radius:10px;}'
+  /* the ghost slot at ~2:1 against the card — it used to sit at 1.33:1,
+     invisible from the back of a classroom, which silently removed the
+     "how close to ten" frame that is half the bundling lesson. */
+  + '.pvl-slot{width:var(--pvl-u);height:var(--pvl-u);border-radius:calc(var(--pvl-u) * .2);'
+  +   'border:2px dashed rgba(15,74,64,.30);box-sizing:border-box;}'
+  + '.pvl-slot--rod{width:var(--pvl-u);height:calc(var(--pvl-u) * 10);}'
+  + '.pvl-slot--flat{width:calc(var(--pvl-u) * 10);height:calc(var(--pvl-u) * 10);}'
+  /* past the frame — said with line STYLE, not a second hue (honey here
+     would claim these ones belong to the hundreds column) */
+  + '.pvl-slot.extra{border-style:solid;}'
+  /* ⚠ the drawn cube is small at true 1:10:100 scale (16-33px), which is
+     under the 34px canvas floor. The hit box is separated from the art
+     rather than the floor being dropped — legitimate HERE because
+     engineRemove decrements a COUNT and never identifies which block was
+     tapped, so the blocks are fungible and overlapping hit boxes cost
+     nothing. Declared, and gated. */
+  + '.pvl-block{border:none;background:none;padding:0;cursor:pointer;position:relative;'
+  +   'transition:transform .1s var(--lcs-ease);}'
+  + '.pvl-block:after{content:"";position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);'
+  +   'width:max(100%,34px);height:max(100%,34px);}'
   + '.pvl-block:active{transform:scale(.94);}'
-  + '.pvl-block.marked{filter:saturate(.4) brightness(1.08);position:relative;}'
-  + '.pvl-block.marked:after{content:"✕";position:absolute;inset:0;margin:auto;width:26px;height:26px;'
-  +   'display:grid;place-items:center;color:#8A5A3A;font-weight:800;font-size:18px;'
-  +   'background:rgba(255,254,251,.92);border-radius:50%;box-shadow:0 1px 3px rgba(20,30,28,.18);}'
-  + '.pvl-cube{width:var(--pvl-u,44px);height:var(--pvl-u,44px);display:block;}'
-  + '.pvl-cube svg{width:100%;height:100%;display:block;}'
-  + '.pvl-slot .pvl-cube{margin:-2px;}'
-  /* rods NEVER wrap — they compress in one row (7 tens must not spawn
-     a second 190px row and push the dock under the fold) */
-  + '.pvl-tray--tens{flex-wrap:nowrap;}'
-  + '.pvl-rod{width:calc(var(--pvl-u,44px) * .773);flex:0 1 calc(var(--pvl-u,44px) * .773);min-width:15px;height:calc(var(--pvl-u,44px) * 4.318);display:block;}'
-  + '.pvl-rod svg{width:100%;height:100%;display:block;}'
-  + '.pvl-flat{width:calc(var(--pvl-u,44px) * 2.727);height:calc(var(--pvl-u,44px) * 2.727);display:block;}'
-  + '.pvl-flat svg{width:100%;height:100%;display:block;}'
+  /* marked = LIFTED, not judged. The old treatment desaturated coral to
+     a muddy tan that was in no palette and tonally closer to an empty
+     slot than to a live block, then stamped a verdict on it — so "seven
+     marked to take away" read as "seven already gone", and a fixed 26px
+     disc covered the very seams a child counts. Kind, never hue. */
+  + '.pvl-block.marked{transform:translateY(-6%);filter:drop-shadow(0 4px 3px rgba(15,74,64,.28));}'
+  + '.pvl-block.marked .pvl-svg{opacity:.92;}'
+  + '.pvl-block.marked rect[stroke]{stroke-dasharray:5 4;}'
+  + '.pvl-cube{width:var(--pvl-u);height:var(--pvl-u);display:block;}'
+  + '.pvl-rod{width:var(--pvl-u);height:calc(var(--pvl-u) * 10);display:block;}'
+  + '.pvl-flat{width:calc(var(--pvl-u) * 10);height:calc(var(--pvl-u) * 10);display:block;}'
+  + '.pvl-svg{width:100%;height:100%;display:block;}'
+  /* the hundred cells become texture below ~100px of rendered flat —
+     ten countable rods survive, a hundred 7px cells do not. */
+  + '@container (max-width:760px){.pvl-flat-hair{display:none;}}'
   + '.pvl-incoming{visibility:hidden;}'
-  + '.pvl-ctx{min-height:44px;display:flex;align-items:center;justify-content:center;}'
+  + '.pvl-ctxrow{min-height:48px;display:flex;align-items:center;justify-content:center;gap:10px;'
+  +   'flex-wrap:wrap;width:100%;}'
+  + '.pvl-ctxslot{display:contents;}'
   + '.pvl-ctxbtn{font-family:var(--lcs-font-display);font-weight:700;font-size:15px;border-radius:999px;'
-  +   'padding:9px 18px;min-height:44px;cursor:pointer;border:none;}'
-  + '.pvl-ctxbtn.make{background:#F2C879;color:#6B4E12;box-shadow:0 3px 0 0 #B98A2E;animation:pvlBreathe 1.8s ease-in-out infinite;}'
+  +   'padding:9px 18px;min-height:44px;cursor:pointer;border:none;white-space:nowrap;}'
+  + '.pvl-ctxbtn.make{background:#146B5E;color:#fff;box-shadow:0 3px 0 0 #0E4A41;animation:pvlBreathe 1.8s ease-in-out infinite;}.pvl-ctxbtn.make.toHundred{background:#F2C879;color:#6B4E12;box-shadow:0 3px 0 0 #B98A2E;}'
   + '.pvl-ctxbtn.break{background:var(--lcs-surface);color:var(--lcs-structure);border:2px solid var(--lcs-line);}'
   + '.pvl-ctxbtn.break.glow{animation:pvlBreathe 1.8s ease-in-out infinite;border-color:#F2C879;}'
   + '@keyframes pvlBreathe{0%,100%{box-shadow:0 3px 0 0 #B98A2E,0 0 0 0 rgba(242,200,121,.6);}'
@@ -2354,10 +2665,12 @@ var PlaceValueLab = {
 
   /* compact: any prompt-strip mode must keep the dock above the
      1024×768 fold (the §A.13.62 desktop cut-off class) */
+  /* ⚠ compact may shrink CHROME only. It used to override .pvl-rod and
+     .pvl-flat to fixed pixel sizes while leaving .pvl-cube alone, which
+     is one of the three places the ten-ness ratio silently drifted. The
+     unit is the only lever now: change --pvl-hbudget, never a piece. */
   + '.pvl-wrap.compact{gap:6px;}'
-  + '.pvl-wrap.compact .pvl-col{min-height:216px;padding:8px 10px 10px;}'
-  + '.pvl-wrap.compact .pvl-rod{height:138px;}'
-  + '.pvl-wrap.compact .pvl-flat{width:92px;height:92px;}'
+  + '.pvl-wrap.compact .pvl-board{--pvl-hbudget:calc(100vh - 470px);}'
   + '.pvl-wrap.compact .pvl-dg{font-size:clamp(36px,5.2vmin,54px);}'
   + '.pvl-wrap.compact .pvl-digit{padding:5px 18px 7px;}'
   + '.pvl-wrap.compact .pvl-word{font-size:clamp(19px,2.5vmin,26px);}'
@@ -2365,76 +2678,57 @@ var PlaceValueLab = {
   + '.pvl-wrap.compact .pvl-big{min-height:46px;padding:8px 22px;}'
   + '.pvl-wrap.compact .pvl-ctx{min-height:40px;}'
 
-  /* stacked + phone */
-  + '@media (max-width:900px){'
-  +   '.pvl-grid{grid-template-columns:repeat(var(--pvl-p,2),minmax(0,1fr));}'
-  +   '.pvl-rod{height:150px;}'
-  +   '.pvl-flat{width:96px;height:96px;}'
-  + '}'
+  /* phone. ⚠ NOT ONE PIECE SIZE HERE — the old block redeclared the
+     cube at 40px, the rod at 28x110 and the flat at 76x76, three
+     independent numbers whose ratio (2.75 and 2.24) was even further
+     from base ten than the desktop's. The unit handles it now. */
   + '@media (max-width:560px){'
   +   'body.pvl-wide{overflow-y:auto;}'
   +   '.pvl-dg{font-size:40px;}'
   +   '.pvl-word{font-size:20px;}'
-  /* the MAT stacks single-column so the 5×2 ghost grid never clips;
-     the digit cards STAY side-by-side (they mirror the numeral) */
-  +   '.pvl-grid.pvl-mat{grid-template-columns:1fr;}'
-  +   '.pvl-col{min-height:150px;padding:8px;}'
-  +   '.pvl-tray--ones{grid-template-columns:repeat(5,40px);grid-auto-rows:40px;gap:7px;}'
-  +   '.pvl-slot{width:40px;height:40px;}'
-  +   '.pvl-cube{width:40px;height:40px;}'
-  +   '.pvl-rod{width:28px;height:110px;}'
-  +   '.pvl-flat{width:76px;height:76px;}'
   +   '.pvl-arcs{display:none;}'
   +   '.pvl-wordrow{padding:0;}'
   +   '.pvl-speak{position:static;transform:none;}'
   +   '.pvl-speak.decomp{position:static;}'
   +   '.pvl-speak:active{transform:translateY(2px);}'
   + '}'
-  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
-     Every piece of this apparatus is a multiple of ONE unit — the ones cube
-     is 44px, a rod is 34x190, a flat is 120x120, a column is 300 wide and
-     300 tall, the add button 56x48. They are all expressed as ratios of
-     --pvl-u above, so a tier is one number and no ratio can drift: a rod
-     stays exactly ten cubes tall and a flat exactly ten rods wide, which is
-     the entire point of the instrument. Ramping them one by one would let
-     that relationship rot silently, and NOTHING in the gate suite measures
-     "is a flat still ten rods" — the pieces are drawn art, not a computed
-     model.
-     ⚠ The column labels, place-value chips and dock sit outside the block
-     geometry and are ramped separately; leaving them turns a big apparatus
-     into a big apparatus with phone-sized controls. */
+  /* ---- wide board (§23, the apparatus a teacher teaches FROM) ----
+     The tiers now raise ONE number: the card width the container query
+     measures, plus the unit's own ceiling. Nothing here touches a piece,
+     so no ratio can drift — that was the previous block's stated
+     intention and it did not hold, because the compact and phone blocks
+     each redeclared rod and flat behind its back.
+     ⚠ Chrome that sits OUTSIDE the block geometry (column labels,
+     regroup chips) is still ramped by hand; leaving it turns a big
+     apparatus into a big apparatus with phone-sized controls. */
   + '@media (min-width:1367px) and (min-height:880px){'
   +   'body.pvl-wide .lcs-app{max-width:min(1192px,97vw);}'
-  +   'body.pvl-wide .pvl-wrap{--pvl-u:min(56px,calc((1192px - 76px - (var(--pvl-p,2) - 1) * 20px) / var(--pvl-p,2) / 6.818));}'
+  +   'body.pvl-wide .pvl-board{--pvl-umax:26px;--pvl-hbudget:calc(100vh - 400px);}'
   +   'body.pvl-wide .pvl-collbl{font-size:18px;}'
   +   'body.pvl-wide .pvl-ctxbtn{font-size:18px;}'
-/* ⚠ .pvl-speak is position:absolute;right:56px inside a full-width row,
+  /* ⚠ .pvl-speak is position:absolute;right:56px inside a full-width row,
      so widening the board did not move it CLOSER to the number word — it
      pinned it to the right edge of a 1704px row, ~600px away from the
-     thing it speaks. The tool already has a correct layout for this: the
-     phone rule puts the two buttons back in the flow, next to the word.
-     Use it here too, and size them off the unit like everything else. */
-  +   'body.pvl-wide .pvl-speak{position:static;transform:none;'
-  +     'width:calc(var(--pvl-u,44px) * 1.09);height:calc(var(--pvl-u,44px) * 1.09);}'
+     thing it speaks. Put the two buttons back in the flow, as the phone
+     rule already does. */
+  +   'body.pvl-wide .pvl-speak{position:static;transform:none;width:48px;height:48px;}'
   +   'body.pvl-wide .pvl-speak:active{transform:translateY(2px);}'
   +   'body.pvl-wide .pvl-speak svg{width:60%;height:60%;}'
   +   'body.pvl-wide .pvl-wordrow{gap:16px;}'
-  /* ⚠ putting the buttons back in the flow pushed the number word off the
-     centre line, and the word sitting directly under the digit cards IS the
-     teaching point (24 = two tens and four ones). A mirror spacer the exact
-     width of the two buttons and their gaps restores the centring with no
-     DOM change: 2 x (u x 1.09) + two 16px gaps. */
-  +   'body.pvl-wide .pvl-wordrow::before{content:"";flex:0 0 calc(var(--pvl-u,44px) * 2.18 + 32px);}'
+  /* the word sitting directly under the digits IS the teaching point, so
+     a mirror spacer the exact width of the two buttons and their gaps
+     restores the centring with no DOM change. */
+  +   'body.pvl-wide .pvl-wordrow::before{content:"";flex:0 0 128px;}'
   + '}'
   + '@media (min-width:1800px) and (min-height:1080px){'
   +   'body.pvl-wide .lcs-app{max-width:min(1560px,97vw);}'
-  +   'body.pvl-wide .pvl-wrap{--pvl-u:min(70px,calc((1560px - 76px - (var(--pvl-p,2) - 1) * 20px) / var(--pvl-p,2) / 6.818));}'
+  +   'body.pvl-wide .pvl-board{--pvl-umax:34px;--pvl-hbudget:calc(100vh - 400px);}'
   +   'body.pvl-wide .pvl-collbl{font-size:21px;}'
   +   'body.pvl-wide .pvl-ctxbtn{font-size:20px;}'
   + '}'
   + '@media (min-width:2400px) and (min-height:1150px){'
   +   'body.pvl-wide .lcs-app{max-width:min(1752px,97vw);}'
-  +   'body.pvl-wide .pvl-wrap{--pvl-u:min(94px,calc((1752px - 76px - (var(--pvl-p,2) - 1) * 20px) / var(--pvl-p,2) / 6.818));}'
+  +   'body.pvl-wide .pvl-board{--pvl-umax:44px;--pvl-hbudget:calc(100vh - 400px);}'
   +   'body.pvl-wide .pvl-collbl{font-size:23px;}'
   +   'body.pvl-wide .pvl-ctxbtn{font-size:22px;}'
   + '}'

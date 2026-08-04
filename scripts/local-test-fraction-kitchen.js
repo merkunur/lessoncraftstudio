@@ -496,6 +496,48 @@ function serve() {
     await page.close(); await p2.close();
   }
 
+  /* ============ C1b: the ALREADY-CURRENT count still answers ============
+     A selector chip set on its own current value re-renders to a
+     byte-identical DOM, so it does nothing observable — and entering share
+     mode already sets friends to 2, which made "2" the one friend-count chip
+     that could never act. audit-tool-control-liveness found it, but only at
+     depth 2 (~25 min); depth 1 is blind to it because it never reaches the
+     chip through "Share it" first. This is the seconds-long guard. */
+  {
+    const page = await newPage({ w: 412, h: 915, premium: true });
+    await page.goto(BASE);
+    await ready(page);
+    await spy(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.premium = true; T.n = 2; T.committed = [0]; T.sliced = true;
+      T.mode = 'share'; T.friends = 2; T.placed = []; T.plateOf = [];
+      T.render(); window.__spoken = [];
+    });
+    const before = await page.evaluate(() => window.__spoken.length);
+    const clicked = await page.evaluate(() => {
+      const chips = [...document.querySelectorAll('.frk-chip.small')];
+      const two = chips.find((c) => c.textContent.trim().startsWith('2'));
+      if (!two) return null;
+      two.click();
+      return { was: two.classList.contains('active') };
+    });
+    ok('C1b non-vacuity: the already-active count chip was found and clicked',
+      !!clicked && clicked.was === true);
+    await sleep(260);
+    const after = await page.evaluate(() => ({
+      n: window.__spoken.length,
+      last: window.__spoken[window.__spoken.length - 1] || '',
+      ribbon: (document.querySelector('.frk-said') || {}).textContent || ''
+    }));
+    ok('C1b tapping the CURRENT count still says the count', after.n > before,
+      `spoken ${before} -> ${after.n}`);
+    ok('C1b and it names that count, in the ribbon too',
+      /2/.test(after.last) && !!after.ribbon.trim(), JSON.stringify(after.last));
+    ok('C1b no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+
   /* ================= C2: the FAIR SHARE, not one slice ==================
      One line used to cap this tool at unit fractions — a plate could hold
      exactly one piece, so no child could ever be given three fourths, and

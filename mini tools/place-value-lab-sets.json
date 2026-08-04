@@ -1,0 +1,2111 @@
+{
+ "version": 1,
+ "freeCount": 19,
+ "_note": "Locale-NEUTRAL by construction: every entry is integers and a closed feature enum, so the library costs nothing to fan out to eleven locales. Features are COMPUTED here and RE-COMPUTED independently by verify-place-value-lab.js from the integer and from PV_WORD_SPANS — neither reads the other's answer. The free subset is chosen BY MEASUREMENT, not by taste: a greedy pass takes whichever number adds the most uncovered features until every feature in the enum is exhibited at least once, then tops up with the numbers a first lesson actually starts on. So no claim the tool's header makes — the inversion, the teens, the decades, the zero placeholder, the French vigesimal — sits behind the paywall. The paid remainder is DEPTH, not the argument. Replaces SHOW_POOL, twelve hard-coded numbers that between them covered 0 decades, 1 teen, 0 single digits, 0 three-digit numbers and 0 teen-vs-decade confusable pairs.",
+ "features": [
+  "atom",
+  "decade",
+  "inversion",
+  "reversal",
+  "same-digits",
+  "single-digit",
+  "teen",
+  "three-digit",
+  "vigesimal",
+  "zero-placeholder"
+ ],
+ "sets": [
+  {
+   "id": "b000",
+   "kind": "build",
+   "n": 0,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ],
+   "free": true
+  },
+  {
+   "id": "b001",
+   "kind": "build",
+   "n": 1,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b002",
+   "kind": "build",
+   "n": 2,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b003",
+   "kind": "build",
+   "n": 3,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b004",
+   "kind": "build",
+   "n": 4,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ],
+   "free": true
+  },
+  {
+   "id": "b005",
+   "kind": "build",
+   "n": 5,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b006",
+   "kind": "build",
+   "n": 6,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b007",
+   "kind": "build",
+   "n": 7,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ],
+   "free": true
+  },
+  {
+   "id": "b008",
+   "kind": "build",
+   "n": 8,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b009",
+   "kind": "build",
+   "n": 9,
+   "places": 2,
+   "features": [
+    "single-digit"
+   ]
+  },
+  {
+   "id": "b010",
+   "kind": "build",
+   "n": 10,
+   "places": 2,
+   "features": [
+    "decade"
+   ],
+   "free": true
+  },
+  {
+   "id": "b011",
+   "kind": "build",
+   "n": 11,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen"
+   ]
+  },
+  {
+   "id": "b012",
+   "kind": "build",
+   "n": 12,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "teen"
+   ],
+   "free": true
+  },
+  {
+   "id": "b013",
+   "kind": "build",
+   "n": 13,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "teen"
+   ]
+  },
+  {
+   "id": "b014",
+   "kind": "build",
+   "n": 14,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "teen"
+   ],
+   "free": true
+  },
+  {
+   "id": "b015",
+   "kind": "build",
+   "n": 15,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "teen"
+   ]
+  },
+  {
+   "id": "b016",
+   "kind": "build",
+   "n": 16,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "teen"
+   ],
+   "free": true
+  },
+  {
+   "id": "b017",
+   "kind": "build",
+   "n": 17,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "teen"
+   ]
+  },
+  {
+   "id": "b018",
+   "kind": "build",
+   "n": 18,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "teen"
+   ]
+  },
+  {
+   "id": "b019",
+   "kind": "build",
+   "n": 19,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "teen"
+   ]
+  },
+  {
+   "id": "b020",
+   "kind": "build",
+   "n": 20,
+   "places": 2,
+   "features": [
+    "decade"
+   ],
+   "free": true
+  },
+  {
+   "id": "b021",
+   "kind": "build",
+   "n": 21,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b022",
+   "kind": "build",
+   "n": 22,
+   "places": 2,
+   "features": [
+    "inversion",
+    "same-digits"
+   ]
+  },
+  {
+   "id": "b023",
+   "kind": "build",
+   "n": 23,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b024",
+   "kind": "build",
+   "n": 24,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ],
+   "free": true
+  },
+  {
+   "id": "b025",
+   "kind": "build",
+   "n": 25,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b026",
+   "kind": "build",
+   "n": 26,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b027",
+   "kind": "build",
+   "n": 27,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b028",
+   "kind": "build",
+   "n": 28,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b029",
+   "kind": "build",
+   "n": 29,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b030",
+   "kind": "build",
+   "n": 30,
+   "places": 2,
+   "features": [
+    "decade"
+   ],
+   "free": true
+  },
+  {
+   "id": "b031",
+   "kind": "build",
+   "n": 31,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b032",
+   "kind": "build",
+   "n": 32,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b033",
+   "kind": "build",
+   "n": 33,
+   "places": 2,
+   "features": [
+    "inversion",
+    "same-digits"
+   ]
+  },
+  {
+   "id": "b034",
+   "kind": "build",
+   "n": 34,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b035",
+   "kind": "build",
+   "n": 35,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b036",
+   "kind": "build",
+   "n": 36,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b037",
+   "kind": "build",
+   "n": 37,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b038",
+   "kind": "build",
+   "n": 38,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b039",
+   "kind": "build",
+   "n": 39,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b040",
+   "kind": "build",
+   "n": 40,
+   "places": 2,
+   "features": [
+    "decade"
+   ]
+  },
+  {
+   "id": "b041",
+   "kind": "build",
+   "n": 41,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b042",
+   "kind": "build",
+   "n": 42,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ],
+   "free": true
+  },
+  {
+   "id": "b043",
+   "kind": "build",
+   "n": 43,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b044",
+   "kind": "build",
+   "n": 44,
+   "places": 2,
+   "features": [
+    "inversion",
+    "same-digits"
+   ]
+  },
+  {
+   "id": "b045",
+   "kind": "build",
+   "n": 45,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b046",
+   "kind": "build",
+   "n": 46,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b047",
+   "kind": "build",
+   "n": 47,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ],
+   "free": true
+  },
+  {
+   "id": "b048",
+   "kind": "build",
+   "n": 48,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b049",
+   "kind": "build",
+   "n": 49,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b050",
+   "kind": "build",
+   "n": 50,
+   "places": 2,
+   "features": [
+    "decade"
+   ]
+  },
+  {
+   "id": "b051",
+   "kind": "build",
+   "n": 51,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b052",
+   "kind": "build",
+   "n": 52,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b053",
+   "kind": "build",
+   "n": 53,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b054",
+   "kind": "build",
+   "n": 54,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b055",
+   "kind": "build",
+   "n": 55,
+   "places": 2,
+   "features": [
+    "inversion",
+    "same-digits"
+   ]
+  },
+  {
+   "id": "b056",
+   "kind": "build",
+   "n": 56,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b057",
+   "kind": "build",
+   "n": 57,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b058",
+   "kind": "build",
+   "n": 58,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b059",
+   "kind": "build",
+   "n": 59,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b060",
+   "kind": "build",
+   "n": 60,
+   "places": 2,
+   "features": [
+    "decade"
+   ]
+  },
+  {
+   "id": "b061",
+   "kind": "build",
+   "n": 61,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b062",
+   "kind": "build",
+   "n": 62,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b063",
+   "kind": "build",
+   "n": 63,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b064",
+   "kind": "build",
+   "n": 64,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b065",
+   "kind": "build",
+   "n": 65,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b066",
+   "kind": "build",
+   "n": 66,
+   "places": 2,
+   "features": [
+    "inversion",
+    "same-digits"
+   ]
+  },
+  {
+   "id": "b067",
+   "kind": "build",
+   "n": 67,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b068",
+   "kind": "build",
+   "n": 68,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b069",
+   "kind": "build",
+   "n": 69,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b070",
+   "kind": "build",
+   "n": 70,
+   "places": 2,
+   "features": [
+    "decade"
+   ]
+  },
+  {
+   "id": "b071",
+   "kind": "build",
+   "n": 71,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ],
+   "free": true
+  },
+  {
+   "id": "b072",
+   "kind": "build",
+   "n": 72,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b073",
+   "kind": "build",
+   "n": 73,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b074",
+   "kind": "build",
+   "n": 74,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b075",
+   "kind": "build",
+   "n": 75,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b076",
+   "kind": "build",
+   "n": 76,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b077",
+   "kind": "build",
+   "n": 77,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits"
+   ]
+  },
+  {
+   "id": "b078",
+   "kind": "build",
+   "n": 78,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b079",
+   "kind": "build",
+   "n": 79,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal"
+   ]
+  },
+  {
+   "id": "b080",
+   "kind": "build",
+   "n": 80,
+   "places": 2,
+   "features": [
+    "decade",
+    "vigesimal"
+   ],
+   "free": true
+  },
+  {
+   "id": "b081",
+   "kind": "build",
+   "n": 81,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b082",
+   "kind": "build",
+   "n": 82,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b083",
+   "kind": "build",
+   "n": 83,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b084",
+   "kind": "build",
+   "n": 84,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b085",
+   "kind": "build",
+   "n": 85,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b086",
+   "kind": "build",
+   "n": 86,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b087",
+   "kind": "build",
+   "n": 87,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b088",
+   "kind": "build",
+   "n": 88,
+   "places": 2,
+   "features": [
+    "inversion",
+    "same-digits",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b089",
+   "kind": "build",
+   "n": 89,
+   "places": 2,
+   "features": [
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b090",
+   "kind": "build",
+   "n": 90,
+   "places": 2,
+   "features": [
+    "decade",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b091",
+   "kind": "build",
+   "n": 91,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ],
+   "free": true
+  },
+  {
+   "id": "b092",
+   "kind": "build",
+   "n": 92,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b093",
+   "kind": "build",
+   "n": 93,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b094",
+   "kind": "build",
+   "n": 94,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b095",
+   "kind": "build",
+   "n": 95,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b096",
+   "kind": "build",
+   "n": 96,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b097",
+   "kind": "build",
+   "n": 97,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b098",
+   "kind": "build",
+   "n": 98,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b099",
+   "kind": "build",
+   "n": 99,
+   "places": 2,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b100",
+   "kind": "build",
+   "n": 100,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ],
+   "free": true
+  },
+  {
+   "id": "b104",
+   "kind": "build",
+   "n": 104,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b107",
+   "kind": "build",
+   "n": 107,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b111",
+   "kind": "build",
+   "n": 111,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ],
+   "free": true
+  },
+  {
+   "id": "b124",
+   "kind": "build",
+   "n": 124,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ],
+   "free": true
+  },
+  {
+   "id": "b140",
+   "kind": "build",
+   "n": 140,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b142",
+   "kind": "build",
+   "n": 142,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b147",
+   "kind": "build",
+   "n": 147,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ],
+   "free": true
+  },
+  {
+   "id": "b170",
+   "kind": "build",
+   "n": 170,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b196",
+   "kind": "build",
+   "n": 196,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b200",
+   "kind": "build",
+   "n": 200,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b204",
+   "kind": "build",
+   "n": 204,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b207",
+   "kind": "build",
+   "n": 207,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b211",
+   "kind": "build",
+   "n": 211,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b224",
+   "kind": "build",
+   "n": 224,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b240",
+   "kind": "build",
+   "n": 240,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b242",
+   "kind": "build",
+   "n": 242,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b247",
+   "kind": "build",
+   "n": 247,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b270",
+   "kind": "build",
+   "n": 270,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b296",
+   "kind": "build",
+   "n": 296,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b300",
+   "kind": "build",
+   "n": 300,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b304",
+   "kind": "build",
+   "n": 304,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b305",
+   "kind": "build",
+   "n": 305,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b307",
+   "kind": "build",
+   "n": 307,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b311",
+   "kind": "build",
+   "n": 311,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b324",
+   "kind": "build",
+   "n": 324,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b340",
+   "kind": "build",
+   "n": 340,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b342",
+   "kind": "build",
+   "n": 342,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b370",
+   "kind": "build",
+   "n": 370,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b380",
+   "kind": "build",
+   "n": 380,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b396",
+   "kind": "build",
+   "n": 396,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b400",
+   "kind": "build",
+   "n": 400,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b404",
+   "kind": "build",
+   "n": 404,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b407",
+   "kind": "build",
+   "n": 407,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b411",
+   "kind": "build",
+   "n": 411,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b419",
+   "kind": "build",
+   "n": 419,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b424",
+   "kind": "build",
+   "n": 424,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b440",
+   "kind": "build",
+   "n": 440,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b442",
+   "kind": "build",
+   "n": 442,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b470",
+   "kind": "build",
+   "n": 470,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b496",
+   "kind": "build",
+   "n": 496,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b500",
+   "kind": "build",
+   "n": 500,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b502",
+   "kind": "build",
+   "n": 502,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b504",
+   "kind": "build",
+   "n": 504,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b507",
+   "kind": "build",
+   "n": 507,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b511",
+   "kind": "build",
+   "n": 511,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b524",
+   "kind": "build",
+   "n": 524,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b540",
+   "kind": "build",
+   "n": 540,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b542",
+   "kind": "build",
+   "n": 542,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b570",
+   "kind": "build",
+   "n": 570,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b571",
+   "kind": "build",
+   "n": 571,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b596",
+   "kind": "build",
+   "n": 596,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b600",
+   "kind": "build",
+   "n": 600,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b604",
+   "kind": "build",
+   "n": 604,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b606",
+   "kind": "build",
+   "n": 606,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b607",
+   "kind": "build",
+   "n": 607,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b611",
+   "kind": "build",
+   "n": 611,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b624",
+   "kind": "build",
+   "n": 624,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b640",
+   "kind": "build",
+   "n": 640,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b642",
+   "kind": "build",
+   "n": 642,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b670",
+   "kind": "build",
+   "n": 670,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b683",
+   "kind": "build",
+   "n": 683,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b696",
+   "kind": "build",
+   "n": 696,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b700",
+   "kind": "build",
+   "n": 700,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b704",
+   "kind": "build",
+   "n": 704,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b707",
+   "kind": "build",
+   "n": 707,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b711",
+   "kind": "build",
+   "n": 711,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b714",
+   "kind": "build",
+   "n": 714,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b724",
+   "kind": "build",
+   "n": 724,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b740",
+   "kind": "build",
+   "n": 740,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b742",
+   "kind": "build",
+   "n": 742,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b770",
+   "kind": "build",
+   "n": 770,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b790",
+   "kind": "build",
+   "n": 790,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b796",
+   "kind": "build",
+   "n": 796,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b800",
+   "kind": "build",
+   "n": 800,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b804",
+   "kind": "build",
+   "n": 804,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b807",
+   "kind": "build",
+   "n": 807,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b811",
+   "kind": "build",
+   "n": 811,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b824",
+   "kind": "build",
+   "n": 824,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b828",
+   "kind": "build",
+   "n": 828,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b840",
+   "kind": "build",
+   "n": 840,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b842",
+   "kind": "build",
+   "n": 842,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b870",
+   "kind": "build",
+   "n": 870,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b896",
+   "kind": "build",
+   "n": 896,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b900",
+   "kind": "build",
+   "n": 900,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b904",
+   "kind": "build",
+   "n": 904,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b905",
+   "kind": "build",
+   "n": 905,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b907",
+   "kind": "build",
+   "n": 907,
+   "places": 3,
+   "features": [
+    "three-digit",
+    "zero-placeholder"
+   ]
+  },
+  {
+   "id": "b911",
+   "kind": "build",
+   "n": 911,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "teen",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b924",
+   "kind": "build",
+   "n": 924,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b940",
+   "kind": "build",
+   "n": 940,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b942",
+   "kind": "build",
+   "n": 942,
+   "places": 3,
+   "features": [
+    "inversion",
+    "reversal",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b970",
+   "kind": "build",
+   "n": 970,
+   "places": 3,
+   "features": [
+    "decade",
+    "three-digit"
+   ]
+  },
+  {
+   "id": "b996",
+   "kind": "build",
+   "n": 996,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "reversal",
+    "three-digit",
+    "vigesimal"
+   ]
+  },
+  {
+   "id": "b999",
+   "kind": "build",
+   "n": 999,
+   "places": 3,
+   "features": [
+    "atom",
+    "inversion",
+    "same-digits",
+    "three-digit",
+    "vigesimal"
+   ]
+  }
+ ]
+}

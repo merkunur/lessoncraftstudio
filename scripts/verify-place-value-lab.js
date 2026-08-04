@@ -384,6 +384,113 @@ if (tool.engineNew && tool.engineAddOne) {
   }
 } else E('I1: engine fns missing');
 
+/* =====================================================================
+   I2 + I4 · THE REPERTOIRE.
+
+   ⚠ THE GATE RE-COMPUTES EVERY FEATURE FROM THE INTEGER AND FROM
+   PV_WORD_SPANS. It never reads the file's own answer back — a
+   repertoire is precisely where marks-its-own-homework would bite,
+   because a data file looks authoritative and a wrong tag would simply
+   be believed.
+
+   I2  every declared feature is TRUE of the number, and every feature in
+       the enum is exhibited by at least one entry (a filter that matches
+       nothing must FAIL, not report a clean sweep of an empty set)
+   I4  the FREE subset exhibits every feature — so no claim the tool's
+       header makes sits behind the paywall — and no entry is duplicated
+   ===================================================================== */
+let repAsserts = 0;
+{
+  const setsPath = path.join(TOOLDIR, 'place-value-lab-sets.json');
+  let rep = null;
+  try { rep = JSON.parse(fs.readFileSync(setsPath, 'utf8')); } catch (_) { rep = null; }
+  if (!rep) E('REPERTOIRE: place-value-lab-sets.json missing or unparseable');
+  else if (!Array.isArray(rep.sets) || rep.sets.length < 150) {
+    E(`REPERTOIRE: ${rep.sets ? rep.sets.length : 0} entries — the house bar is a real library, not a sample`);
+  } else {
+    /* ⭐ the gate's OWN ground truth, transcribed from the definition of
+       each feature — not imported from the generator. */
+    const dig = (n) => ({ h: Math.floor(n / 100), t: Math.floor(n / 10) % 10, o: n % 10 });
+    const truth = (n) => {
+      const d = dig(n), f = new Set(), sub = n % 100;
+      if (sub >= 11 && sub <= 19) f.add('teen');
+      if (n >= 10 && sub % 10 === 0 && sub !== 0) f.add('decade');
+      if (n >= 100 && d.t === 0) f.add('zero-placeholder');
+      if (d.t !== 0 && d.o !== 0 && d.t !== d.o) f.add('reversal');
+      if (d.t === d.o && d.t !== 0) f.add('same-digits');
+      if (n >= 100) f.add('three-digit');
+      if (n < 10) f.add('single-digit');
+      for (const L of LOCALES) {
+        const sp = tool.PV_WORD_SPANS[L](n);
+        const io = sp.findIndex((s) => s.p === 'ones');
+        const it2 = sp.findIndex((s) => s.p === 'tens' || s.p === 'tenMark');
+        if (io >= 0 && it2 >= 0 && io < it2) { f.add('inversion'); break; }
+      }
+      for (const L of LOCALES) {
+        if (tool.PV_WORD_SPANS[L](n).some((s) => s.p === 'atom')) { f.add('atom'); break; }
+      }
+      if (tool.PV_WORD_SPANS.fr(n).some((s) => s.p === 'scoreMark')) f.add('vigesimal');
+      return f;
+    };
+
+    const seen = new Set(), exhibited = new Set(), freeExhibited = new Set();
+    let freeN = 0;
+    for (const s of rep.sets) {
+      if (typeof s.n !== 'number' || s.n < 0 || s.n > 999) { E(`REPERTOIRE ${s.id}: n=${s.n} out of range`); continue; }
+      if (seen.has(s.n)) E(`REPERTOIRE ${s.id}: ${s.n} appears twice`);
+      seen.add(s.n);
+      const want = truth(s.n), got = new Set(s.features || []);
+      for (const f of got) if (!want.has(f)) E(`I2 ${s.id} (${s.n}): declares "${f}" — not true of the number`);
+      for (const f of want) if (!got.has(f)) E(`I2 ${s.id} (${s.n}): omits "${f}"`);
+      const needPlaces = s.n >= 100 ? 3 : 2;
+      if (s.places !== needPlaces) E(`I2 ${s.id} (${s.n}): places=${s.places}, needs ${needPlaces}`);
+      got.forEach((f) => exhibited.add(f));
+      if (s.free) { freeN++; got.forEach((f) => freeExhibited.add(f)); }
+      repAsserts++;
+    }
+    /* non-vacuity: a feature nothing exhibits is a dead enum member */
+    for (const f of (rep.features || [])) {
+      if (!exhibited.has(f)) E(`I2: feature "${f}" is declared in the enum and exhibited by NO entry`);
+      if (!freeExhibited.has(f)) E(`I4: feature "${f}" is exhibited by no FREE entry — part of the argument is behind the paywall`);
+    }
+    if (!freeN) E('I4: no free entries at all — the first affordance is gated');
+    if (rep.freeCount !== freeN) E(`I4: freeCount says ${rep.freeCount}, ${freeN} entries carry free:true`);
+    repAsserts += (rep.features || []).length * 2;
+
+    /* the inline fallback must BE the free tier, not nothing and not
+       everything (the arrow-strip lesson) */
+    const inline = tool.SHOW_POOL || [];
+    if (!inline.length) E('FALLBACK: SHOW_POOL is empty — offline degrades to a dead mode');
+    const freeSet = new Set(rep.sets.filter((s) => s.free).map((s) => s.n));
+    for (const n of inline) if (!freeSet.has(n)) E(`FALLBACK: SHOW_POOL carries ${n}, which is not a free entry`);
+    repAsserts += inline.length;
+
+    /* ⭐ THE TIER SPLIT ITSELF, exercised rather than assumed. The
+       mutation that removed the entitlement branch from _pool() —
+       serving the whole library to everyone — survived the first run of
+       this gate, because nothing here had ever CALLED _pool. A pure gate
+       that only inspects data cannot see a paid layer evaporate. */
+    if (typeof tool._pool === 'function') {
+      const ctx = { SHOW_POOL: inline, _sets: rep.sets, _setsFree: rep.sets.filter((s) => s.free), _pool: tool._pool };
+      ctx.premium = false;
+      const poolFree = tool._pool.call(ctx);
+      ctx.premium = true;
+      const poolAll = tool._pool.call(ctx);
+      const buildAll = rep.sets.filter((s) => s.kind === 'build').length;
+      const buildFree = rep.sets.filter((s) => s.kind === 'build' && s.free).length;
+      if (poolFree.length !== buildFree) E(`TIER: the free pool holds ${poolFree.length}, expected ${buildFree}`);
+      if (poolAll.length !== buildAll) E(`TIER: the paid pool holds ${poolAll.length}, expected ${buildAll}`);
+      if (poolAll.length <= poolFree.length) E('TIER: the paid pool is no larger than the free one — there is no depth to sell');
+      for (const n of poolFree) if (!freeSet.has(n)) E(`TIER: the free pool leaks ${n}, a paid entry`);
+      /* and with no library loaded at all, both tiers fall back to the
+         inline free set rather than to an empty mode */
+      const off = { SHOW_POOL: inline, _sets: null, premium: true, _pool: tool._pool };
+      if (tool._pool.call(off).length !== inline.length) E('TIER: offline does not fall back to the inline free set');
+      repAsserts += 5;
+    } else E('TIER: _pool() is missing — the repertoire is not wired to entitlement');
+  }
+}
+
 /* ---- 5. strings hygiene ---- */
 const S = tool.strings;
 for (const key of Object.keys(S)) {
@@ -399,7 +506,7 @@ for (const L of LOCALES) {
   }
 }
 
-console.log(`${errors.length ? 'FAIL' : 'PASS'}  place-value-lab gate  (${spanAsserts} span, ${spliceAsserts} splice, ${engineAsserts} engine, ${reachAsserts} reachable states, ${errors.length} errors)`);
+console.log(`${errors.length ? 'FAIL' : 'PASS'}  place-value-lab gate  (${spanAsserts} span, ${spliceAsserts} splice, ${engineAsserts} engine, ${reachAsserts} reachable states, ${repAsserts} repertoire, ${errors.length} errors)`);
 for (const e of errors.slice(0, 20)) console.log('   ERROR ' + e);
 if (errors.length > 20) console.log(`   … +${errors.length - 20} more`);
 process.exit(errors.length ? 1 : 0);

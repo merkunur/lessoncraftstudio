@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import LiveToolEmbedV10 from '@/components/homepage-v6/LiveToolEmbedV6';
+import EmbedCopy from '@/components/homepage-v10/EmbedCopy';
 import ActivityVignette, { type ActivityVignetteKind } from '@/components/homepage-v10/ActivityVignettes';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
 
@@ -64,8 +65,11 @@ const TILTS = ['-1.1deg', '0.8deg', '-0.6deg', '1.2deg', '-0.9deg', '0.5deg'];
 
 /* Deck.title is a per-locale map typed `unknown` (a JSON column), so it is
    read through the same accessor the v6 page uses rather than rendered
-   directly — and it falls back to the slug, never to an empty alt on a link. */
-function titleFor(deck: ShowcaseDeck): string {
+   directly — and it falls back to the slug, never to an empty alt on a link.
+   Exported because page.tsx needs the same title for the embed snippet's
+   iframe `title` attribute, and two ways of reading one JSON column is one
+   too many. */
+export function titleFor(deck: ShowcaseDeck): string {
   const titleMap = (deck.title ?? {}) as Record<string, string>;
   return titleMap[deck.language] || deck.slug;
 }
@@ -224,8 +228,13 @@ export function PrintRoom({
       <h2 className="hv10-room-h2">{strings.printH2}</h2>
       <p className="hv10-room-body">{strings.printBody}</p>
 
+      {/* Fifteen works, always. `.hv10-hang` declares the column count per
+          band and hides down to the largest whole-row multiple, so the wall
+          is a rectangle at every width — see the long note in the stylesheet.
+          The count and the CSS are a matched pair: changing one without the
+          other brings the ragged row back. */}
       <div className="hv10-hang">
-        {decks.slice(0, 12).map((d, i) => (
+        {decks.slice(0, 15).map((d, i) => (
           <a
             key={d.id}
             className="hv10-work"
@@ -237,7 +246,10 @@ export function PrintRoom({
               alt={titleFor(d)}
               width={480}
               height={620}
-              sizes="(max-width: 640px) 42vw, 170px"
+              /* Tracks the declared column count above, not the old auto-fit
+                 behaviour: 2 / 3 / 4 / 5 columns. The desktop tile grew from
+                 ~170px to ~203px when the count stopped jumping to six. */
+              sizes="(max-width: 479px) 45vw, (max-width: 639px) 30vw, (max-width: 879px) 23vw, 210px"
               quality={72}
             />
           </a>
@@ -368,10 +380,13 @@ export function Dispatch({
   locale,
   strings,
   deck,
+  embed,
 }: {
   locale: string;
   strings: RoomStrings;
   deck?: ShowcaseDeck;
+  /** The real embed snippet for `deck`, built server-side. See THE LOAN LABEL. */
+  embed?: { snippet: string };
 }) {
   return (
     <Room id="share" wall="terracotta">
@@ -411,20 +426,90 @@ export function Dispatch({
         <span className="hv10-plan-tag">{strings.planTag}</span>
       </div>
 
-      {/* The other way out, and it is FREE — embedding is anonymous-accessible
-          and is the platform's acquisition flywheel, so it must not sit under
-          the Teacher tag above. */}
-      <div className="hv10-embed">
-        <span className="hv10-embed-window" aria-hidden="true">
-          <span className="hv10-embed-bar"><i /><i /><i /></span>
-          {deck ? <Image src={deck.thumbnailUrl} alt="" width={480} height={620} sizes="160px" quality={72} /> : null}
-        </span>
-        <span className="hv10-embed-text">
-          {strings.embedLine}
-          <br />
-          <span className="hv10-embed-free">{strings.freeTitle}</span>
-        </span>
-      </div>
+      {/* ── THE LOAN LABEL — the other way out, and it is FREE ─────────────
+          A work that travels carries a loan label on its back: the mounting
+          instructions that go with it to the borrowing building. So one
+          worksheet is turned around, and the label is the ACTUAL embed
+          snippet — the same string buildEmbedSnippet() hands a teacher on a
+          landing page, for a real published deck, with a button that really
+          copies it. Beside it, the same worksheet already hanging on their
+          site, drawn as a lighter room of this same gallery.
+
+          It replaces a 1116x168 glass strip that carried one sentence and a
+          pill: it named the feature and explained nothing about it.
+
+          ⚠ TIER TRUTH: embedded play is genuinely free AND UNMETERED —
+          lcs-meter.js:24 returns early when window.top !== window.self, so
+          the backlink flywheel never burns a visitor's daily plays. That is
+          why this block sits OUTSIDE the Teacher-plan tag above and carries
+          its own Free stamp. The QR route above is subscriber-gated; this one
+          is not, and the two must not read as one offer. */}
+      {embed ? (
+        <section className="hv10-loan">
+          <div className="hv10-loan-head">
+            <h3 className="hv10-loan-h">
+              <span className="hv10-loan-h-a">{strings.embedHeadA}</span>
+              <span className="hv10-loan-h-b">{strings.embedHeadB}</span>
+            </h3>
+            <span className="hv10-loan-stamp">{strings.freeTitle}</span>
+          </div>
+
+          <div className="hv10-loan-grid">
+            {/* the work, turned around: backing board, picture wire, label */}
+            <div className="hv10-loan-back">
+              <div className="hv10-loan-label">
+                <EmbedCopy
+                  snippet={embed.snippet}
+                  caption={strings.embedCaption}
+                  copyLabel={strings.embedCopy}
+                  copiedLabel={strings.embedCopied}
+                />
+              </div>
+            </div>
+
+            {/* Their site. Entirely drawn, so the whole subtree is hidden from
+                assistive tech: it illustrates the mechanism, it is not the
+                subject, and there is no string available to name it. The
+                address bar is a blank pill on purpose — writing a plausible
+                school domain there would be fabricating an organisation's
+                address for a marketing image. */}
+            <div className="hv10-loan-site" aria-hidden="true">
+              <div className="hv10-loan-browser">
+                <div className="hv10-loan-chrome">
+                  <i /><i /><i />
+                  <span className="hv10-loan-addr" />
+                </div>
+                <div className="hv10-loan-page">
+                  <span className="hv10-loan-rule is-mid" />
+                  <span className="hv10-loan-rule is-short" />
+                  <div className="hv10-loan-well">
+                    <span className="hv10-loan-slot" />
+                    <span className="hv10-loan-live">
+                      {deck ? (
+                        <Image
+                          src={deck.thumbnailUrl}
+                          alt=""
+                          width={480}
+                          height={620}
+                          sizes="(max-width: 940px) 88vw, 420px"
+                          quality={72}
+                        />
+                      ) : null}
+                    </span>
+                  </div>
+                  <span className="hv10-loan-rule is-mid" />
+                  <span className="hv10-loan-rule is-short" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul className="hv10-loan-facts">
+            <li>{strings.embedFact1}</li>
+            <li>{strings.embedFact2}</li>
+          </ul>
+        </section>
+      ) : null}
     </Room>
   );
 }
@@ -482,7 +567,16 @@ export type RoomStrings = {
   shareQrAlt: string;
   shareChips: string[];
   planTag: string;
-  embedLine: string;
+  /* THE LOAN LABEL. Every one of these is an existing native string in all
+     eleven locales — nothing was authored or machine-translated for this
+     block. embedHeadA/B are the two authored lines of one sentence. */
+  embedHeadA: string;
+  embedHeadB: string;
+  embedCaption: string;
+  embedCopy: string;
+  embedCopied: string;
+  embedFact1: string;
+  embedFact2: string;
   closeH2: string;
   closeBody: string;
   closeCtaPrimary: string;

@@ -774,8 +774,18 @@ var MeasurementBench = {
        two-line German estimate prompt shrank the vertical budget with nothing
        to notice. This is not circular: none of the chrome measured by
        _chromeH depends on the stage's scale. */
-    var budget = (window.innerHeight || 800) - this._overheadH() - 16;
-    if (budget > 200) s = Math.min(s, budget / 430);
+    /* ⚠⚠ THE HEIGHT TERM IS FOR THE STANDALONE PAGE ONLY.
+       Inside the embed the iframe is CONTENT-SIZED, so `window.innerHeight` IS
+       the height this routine is computing — a second fixed point, softer than
+       the 422px one but the same shape: measured live at 0.98x in a 538px
+       frame, i.e. still refusing to grow. On the standalone page the viewport
+       really is the screen and the term is what stops the bench outgrowing it.
+       Embedded, width drives it and the frame grows to follow — which is the
+       whole point of removing the root binding. */
+    if (!this.api.embed) {
+      var budget = (window.innerHeight || 800) - this._overheadH() - 16;
+      if (budget > 200) s = Math.min(s, budget / 430);
+    }
     if (!(s > 0.1)) s = 0.1;
     /* ⚠ IDEMPOTENCE IS LOAD-BEARING, not tidiness: this routine writes the
        stage's height, the ResizeObserver watching the wrap sees that write,

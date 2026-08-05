@@ -293,6 +293,12 @@ const VIEWPORT = {
      container breakpoint, which turns a landscape instrument into a
      portrait strip with half the frame empty */
   'place-value-lab': { width: 1180, height: 760 },
+  /* the learning clock puts the dial and the speech bubble side by side
+     from 760px up and stacks them below it. At the default 720 the card
+     came out 698x998 and --fit=auto top-cropped the bottom of the dial
+     clean off — the 6 and the minute hand's tip, on a clock. A width past
+     its own breakpoint gives the landscape card the tool actually is. */
+  'learning-clock': { width: 1000, height: 620 },
 };
 
 async function runSeed(page, key) {

@@ -159,6 +159,30 @@ const TOOLS = [
      Its `@media print` block IS verified by the static half (chip => block).
      A prime that reconstructs a full session is the work this deserves; it
      is not the work of a wide-viewport commit. */
+  /* learning-clock prints a DEDICATED four-page sheet: draw-the-hands,
+     write-the-time, the class's own saved times, and a page of cards to cut
+     out. ⚠ Its sheet is DOUBLE-LOCKED — the subtree is never built for a
+     free visitor and every print rule is scoped `body.lck-paid` — so the
+     prime must force the tier AND rebuild, or the probe measures an absent
+     sheet and every assertion under it is vacuous.
+     ⚠ chrome is `.lck-dock`: there is no `.lck-foot` on this tool, and the
+     default selector would return null and fail a correct build. */
+  {
+    key: 'learning-clock', p: 'lck', apparatus: '.lck-sheet', chrome: '.lck-dock',
+    prime: function (p) {
+      var T = window.LearningClock;
+      if (!T) return;
+      T.premium = true;
+      T.premiumKnown = true;
+      /* a sheet with the class's own times on page 3, not just blanks */
+      T._store.ourTimes = [
+        { id: 'a', label: 'Lunch', h: 12, m: 0, pm: false },
+        { id: 'b', label: 'Story time', h: 2, m: 15, pm: true }
+      ];
+      T.render();
+      T._ensureSheet(T.api.stage);
+    }
+  },
 ];
 
 const only = (process.argv.find((a) => a.indexOf('--tool=') === 0) || '').split('=')[1];

@@ -54,6 +54,25 @@ const PORT = 5540;
 
 /* every tool that offers a Print chip must appear here */
 const TOOLS = [
+  /* ⚠ wodb is DOUBLE-LOCKED like lids: the sheet subtree is absent unless
+     entitled AND every print rule is scoped `body.wdb-paid`, because
+     Ctrl+P is guarded by no chip. A probe that does not force the tier
+     measures an un-entitled page and reports the chrome as still showing.
+     ⚠ Its sheet is also built on DEMAND (`_ensureSheet`), not at mount —
+     so the prime must call it, or this measures an empty container and
+     passes VACUOUSLY, which is what happened to comparison-planks in this
+     gate's own first version. */
+  {
+    key: 'wodb', p: 'wdb', apparatus: '.wdb-sheet', chrome: '.wdb-dock',
+    prime: function () {
+      var T = window.Wodb;
+      if (!T) return;
+      T.premium = true;
+      document.body.classList.add('wdb-paid');
+      if (T.render) T.render();
+      if (T._ensureSheet) T._ensureSheet();
+    }
+  },
   { key: 'unit-handle', p: 'unh', apparatus: '.unh-bench' },
   { key: 'unroll-tape', p: 'urt', apparatus: '.urt-bench' },
   { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' },

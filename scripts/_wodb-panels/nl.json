@@ -1,7 +1,7 @@
 {
   "doctrine": "Vier dingen — en elk antwoord kan goed zijn.",
   "invite": "Tik op wat jij zou kiezen en vertel ons waarom.",
-  "stemPrompt": "Vertel waarom. Tik om een startzin te horen.",
+  "stemPrompt": "Vertel waarom. Tik op het oor om een startzin te horen.",
   "nextGrid": "Volgende denkkaart",
   "prevGrid": "Vorige denkkaart",
   "turnIt": "Kwartslag draaien",
@@ -52,5 +52,13 @@
   "printChildLine": "Het is de enige die",
   "printOthers": "Iemand anders koos ____________ . De reden daarvoor:",
   "printMakeOwn": "Maak zelf een denkkaart waarbij elke hoek de vreemde eend in de bijt kan zijn.",
-  "gatePrint": "De denkbladen om te printen horen bij Premium. De denkkaart van de week blijft altijd gratis."
+  "gatePrint": "De denkbladen om te printen horen bij Premium. De denkkaart van de week blijft altijd gratis.",
+  "oneDot": "1 stip",
+  "rotated": "gedraaid",
+  "fillSolid": "ingekleurd",
+  "sizeMedium": "middelgroot",
+  "sizeLarge": "groot",
+  "arr_rowWrapped": "op twee rijen",
+  "turnedFull": "Helemaal rond — de vier staan weer waar ze begonnen.",
+  "endOfMine": "Dit waren al je eigen denkkaarten — {n} in totaal."
 }

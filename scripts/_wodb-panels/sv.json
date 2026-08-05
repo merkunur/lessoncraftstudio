@@ -21,7 +21,7 @@
   "posTR": "Uppe till höger",
   "posBL": "Nere till vänster",
   "posBR": "Nere till höger",
-  "nDots": "antal prickar: {n}",
+  "nDots": "{n} prickar",
   "clockTime": "en klocka som visar {h}:{m}",
   "arr_dice": "som på en tärning",
   "arr_row": "på rad",
@@ -52,5 +52,13 @@
   "printChildLine": "Jag valde ____________. Den är den enda som",
   "printOthers": "Någon annan valde ____________. Skälet var:",
   "printMakeOwn": "Gör ett eget rutnät där varje hörn kan vara det som inte passar in.",
-  "gatePrint": "Att skriva ut arbetsbladen ingår i Premium. Veckans rutnät är alltid gratis."
+  "gatePrint": "Att skriva ut arbetsbladen ingår i Premium. Veckans rutnät är alltid gratis.",
+  "oneDot": "1 prick",
+  "rotated": "åt ett annat håll",
+  "fillSolid": "med färg inuti",
+  "sizeMedium": "mellanstorlek",
+  "sizeLarge": "stor storlek",
+  "arr_rowWrapped": "på två rader",
+  "turnedFull": "Ett helt varv — de fyra är tillbaka där de började.",
+  "endOfMine": "Det var det sista av dina egna rutnät — {n} totalt."
 }

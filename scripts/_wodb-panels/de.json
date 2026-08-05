@@ -1,7 +1,7 @@
 {
   "doctrine": "Vier Dinge — und jede Antwort kann eine gute sein!",
   "invite": "Tippe auf deins und erzähl uns, warum.",
-  "stemPrompt": "Erzähl uns, warum. Tippe auf den Lautsprecher, dann hörst du einen Satzanfang.",
+  "stemPrompt": "Erzähl uns, warum. Tippe auf das Ohr, dann hörst du einen Satzanfang.",
   "nextGrid": "Nächstes Rätsel",
   "prevGrid": "Vorheriges Rätsel",
   "turnIt": "Einmal drehen",
@@ -21,7 +21,7 @@
   "posTR": "Oben rechts",
   "posBL": "Unten links",
   "posBR": "Unten rechts",
-  "nDots": "Punkte: {n}",
+  "nDots": "{n} Punkte",
   "clockTime": "{h}:{m} Uhr",
   "arr_dice": "als Würfelbild",
   "arr_row": "in einer Reihe",
@@ -52,5 +52,13 @@
   "printChildLine": "Es ist das Einzige, das",
   "printOthers": "Jemand anderes hat eine andere Ecke gewählt. Warum?",
   "printMakeOwn": "Baue dein eigenes Rätsel",
-  "gatePrint": "Die Arbeitsblätter zum Ausdrucken gehören zu Premium. Das Rätsel der Woche bleibt immer kostenlos."
+  "gatePrint": "Die Arbeitsblätter zum Ausdrucken gehören zu Premium. Das Rätsel der Woche bleibt immer kostenlos.",
+  "oneDot": "1 Punkt",
+  "rotated": "gedreht",
+  "fillSolid": "ausgemalt",
+  "sizeMedium": "mittelgroß",
+  "sizeLarge": "groß",
+  "arr_rowWrapped": "in zwei Reihen",
+  "turnedFull": "Einmal ganz herum — die vier sind wieder da, wo sie angefangen haben.",
+  "endOfMine": "Das waren alle deine eigenen Rätsel — insgesamt {n}."
 }

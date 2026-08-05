@@ -122,6 +122,25 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ THE CARD MUST SHOW THE ROUTINE, NOT A PICTURE SET. At rest wodb is
+     four illustrations on four white squares, which sells clip-art. The
+     mixed grid — a numeral 6, six dots, the WORD six and a clock at six —
+     says "four different things that are all the same number" in one
+     glance, which IS the pitch. Two cells lifted, not one: a still image
+     has no other way to say MORE THAN ONE ANSWER IS ALLOWED, and that is
+     the whole differentiator. One reason showing, not four, which at card
+     size is noise. */
+  'wodb': [
+    { js: "var T=window.Wodb;T.premium=true;T._wantGrid='wodb-mix-23-six';T.current=T.byId['wodb-mix-23-six'];T._resetRitual();T.render();", wait: 700 },
+    { sel: '.wdb-cell', nth: 0, wait: 200 },
+    { sel: '.wdb-cell', nth: 3, wait: 200 },
+    /* ⚠ THE REVEAL WAS DROPPED FROM THIS SEED, AND ONLY MEASURING THE
+       CARD FOUND OUT WHY. With the ribbon in shot the app is taller than
+       it is wide, `--fit=auto` top-cropped it, and the generator still
+       reported "ok" — the shipped card had the word `six` and the clock
+       sliced off, i.e. two of the four things the grid is ABOUT. Two
+       lifted cells already carry the differentiator on their own. */
+  ],
   // A shape with a strand wrapped round it reads as just a shape — the
   // whole story is the strand LEAVING it. So plant the flag (a click on
   // the handle plants it), then run the peel to the end, so the card
@@ -299,6 +318,11 @@ const VIEWPORT = {
      clean off — the 6 and the minute hand's tip, on a clock. A width past
      its own breakpoint gives the landscape card the tool actually is. */
   'learning-clock': { width: 1000, height: 620 },
+  /* wodb's board is aspect-ratio:1/1 with the dock beneath it, so at the
+     default width the app is portrait and gets top-cropped. Wide enough
+     to reach the 1200px tier's 660px board, short enough to stay
+     landscape — measured, not guessed. */
+  'wodb': { width: 1280, height: 840 },
 };
 
 async function runSeed(page, key) {

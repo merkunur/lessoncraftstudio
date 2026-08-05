@@ -96,7 +96,12 @@ const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'applicati
       w: document.querySelectorAll('.pwf-box-whole .pwf-dot').length
     }));
     await page.evaluate(() => { window.PartWholeFrame._carry('toB'); });
-    await new Promise(r => setTimeout(r, 200));
+    /* the spoken split is DEBOUNCED by 380ms — a class carries twenty
+       times in a minute and each utterance is a whole sentence, so the
+       tool waits for the hand to settle before it speaks. A 200ms wait
+       measured silence and reported it as a missing voice in all eleven
+       locales; the tool was correct and the probe was early. */
+    await new Promise(r => setTimeout(r, 900));
 
     const s = await page.evaluate(() => ({
       title: (document.querySelector('.lcs-title') || {}).textContent,

@@ -728,28 +728,28 @@
   },
   "part-whole-frame": {
     "slug": "decomposer-les-nombres",
-    "name": "Décomposer les nombres",
-    "tagline": "Un tout, deux parts — et le tout ne change jamais.",
+    "name": "Le tout et les parties",
+    "tagline": "Un tout, deux parties — et un tout qui ne change jamais.",
     "about": [
-      "Décomposer les nombres met la décomposition au tableau. En haut, le nombre repose dans le nid ; en dessous, deux plateaux portent les parts. Un enfant prend un jeton dans un plateau et le fait passer de l’autre côté : les deux parts changent, le nombre du haut ne bouge pas. C’est toute la leçon, et elle tient au matériel lui-même — on ne peut ni ajouter ni retirer un jeton, donc les parts ne peuvent pas cesser de faire le tout.",
-      "Il n’y a rien à corriger ici, parce que toute décomposition d’un nombre est juste. Six, c’est quatre et deux, et c’est aussi cinq et un. Un enfant qui déplace les jetons ne cherche pas une bonne réponse : il découvre qu’un nombre est fait de nombres plus petits, l’idée qui réunit l’addition et la soustraction. Le tableau ne note rien, ne compte aucun point et ne déclare jamais une décomposition fausse.",
-      "Un tissu recouvre le nid ou l’un des plateaux, et le même tableau devient les trois questions que l’on pose vraiment en classe : combien en tout, et combien sont cachés ? Les nombres jusqu’à dix, les trois caches, la décomposition dite à voix haute et l’écriture chiffrée sont gratuits. Les nombres jusqu’à vingt, le relevé de toutes les façons trouvées et l’impression font partie de l’offre Enseignant."
+      "Le tout et les parties est l’instrument du tout et des parties, sur le vidéoprojecteur. Un nombre est posé en haut dans le nid ; en dessous, deux réserves tiennent les parties. Un enfant fait passer un jeton, les deux parties changent, et le nombre du haut, lui, ne bouge pas. C’est toute la leçon, et elle est dans le matériel plutôt que dans une phrase : rien ne permet d’ajouter un jeton ni d’en retirer un, donc les parties ne peuvent pas cesser de faire le tout.",
+      "Avec deux couleurs, la décomposition devient visible. La partie de gauche porte une couleur, celle de droite l’autre, et en haut elles forment une seule suite ininterrompue — un passage ne rallonge ni ne raccourcit cette suite, il change la couleur d’un seul jeton. Un double se lit comme une rangée pleine de chaque couleur. Rien n’est corrigé et rien n’est noté, car toute décomposition d’un nombre est juste : six, c’est quatre et deux, et c’est aussi cinq et un.",
+      "Un voile couvre le nid ou l’une des parties, et le même cadre devient les trois questions que l’on pose vraiment en classe : combien en tout, et combien sont cachés. Tant que le voile est posé, tout se tait — le nombre, la voix et le relevé cessent de donner la réponse. Les nombres jusqu’à dix, les trois voiles, quatre formes de jetons, trois jeux de couleurs, la voix et l’écriture du calcul sont gratuits. Les nombres jusqu’à vingt, le relevé de toutes les décompositions trouvées et la fiche imprimable en deux pages font partie de l’offre Enseignant."
     ],
     "howToUse": [
-      "Affichez le tableau au vidéoprojecteur et réglez le nombre du jour avec plus et moins — un nombre est déjà chargé.",
-      "Invitez un enfant à venir faire passer un jeton. Toucher le plateau fait la même chose que glisser : cela marche au tableau comme sur tablette.",
-      "Dites la décomposition ensemble à chaque fois : six, c’est quatre et deux. Avec « Dire à voix haute », le tableau la dit avec vous.",
-      "Recouvrez un plateau et demandez combien de jetons sont cachés. Recouvrez plutôt le nid et demandez combien il y en a en tout.",
-      "N’activez « Afficher l’écriture » que lorsque l’image est en place — d’abord les jetons, ensuite les chiffres."
+      "Projetez le cadre et réglez le nombre du jour avec plus et moins, ou touchez cinq, dix ou vingt.",
+      "Demandez à un enfant de venir toucher une partie. Un jeton passe de l’autre côté ; toucher revient à faire glisser, au tableau comme sur tablette.",
+      "Dites la décomposition ensemble à chaque fois : six, c’est quatre et deux. Activez la voix et le cadre la dit avec vous, dans votre langue.",
+      "Couvrez une partie et demandez combien se cachent. Couvrez le tout et demandez combien il y en a en tout — rien sur le cadre ne répondra à leur place.",
+      "Affichez l’écriture du calcul quand vous voulez l’égalité à côté des jetons, ou les quatre égalités quand la classe y est prête."
     ],
     "classroomIdeas": [
-      "Gardez le même nombre toute une semaine : lundi c’est six, et chaque matin un enfant différent trouve une autre décomposition.",
-      "Recouvrez un plateau avant que l’enfant ne fasse passer le jeton, pour que la classe déduise ce qui a changé sans le voir.",
-      "Demandez une décomposition, puis celle d’à côté : si six c’est quatre et deux, que se passe-t-il avec un jeton de plus ?",
-      "Placez deux décompositions côte à côte dans le relevé et demandez ce qui reste pareil — c’est là que le motif apparaît."
+      "Fixez le nombre pour toute une semaine. Lundi, c’est six, et chaque matin un enfant différent trouve une décomposition différente.",
+      "Activez les deux couleurs et demandez ce qui a changé après un passage. La rangée du haut fait la même longueur ; un jeton a changé de couleur.",
+      "Couvrez une partie avant que l’enfant ne fasse passer le jeton, pour que la classe cherche ce qui a changé sans le voir.",
+      "Imprimez la fiche, distribuez de vrais jetons et laissez-les faire au sol ce que vous avez fait au tableau."
     ],
-    "metaTitle": "Décomposer les nombres — le tout et les parts | Gratuit",
-    "metaDescription": "Décomposition des nombres au CP : faites passer un jeton, le tout ne change pas. Cachez le tout ou une part, écoutez la décomposition. Gratuit, sans compte."
+    "metaTitle": "Le tout et les parties — décomposer | Outil CP gratuit",
+    "metaDescription": "Cadre de décomposition gratuit pour le CP : faites passer un jeton, le tout ne change pas. Deux couleurs, un voile pour cacher, la décomposition dite à voix haute."
   },
   "dictation-desk": {
     "slug": "la-dictee",

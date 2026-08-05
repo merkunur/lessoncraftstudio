@@ -142,6 +142,18 @@ function apply(opts) {
   var canonicalURL = CANONICAL_URL_BASE + '/' + locale + '/decks/' + slug + '/';
   note('__CANONICAL_URL__', 'computed', canonicalURL, false);
 
+  /* 1b. __DECK_EMBED_URL__ — the PLAYABLE deck URL for the embed snippet's
+     iframe src. Same value as the canonical at publish time, but a SEPARATE
+     placeholder on purpose: the canonical is later repointed to a landing page
+     by scripts/seo-landing/repoint-deck-canonical.js, and the iframe must not
+     follow it. The landing posts no lcs-embed-resize message and renders the
+     full site chrome, so an embed pointed there is frozen at its fallback
+     height with our header and footer inside the teacher's page. Sharing one
+     placeholder is what let a canonical repoint break embedding across ~32,000
+     decks without touching anything anyone was looking at. */
+  var deckEmbedURL = canonicalURL;
+  note('__DECK_EMBED_URL__', 'computed', deckEmbedURL, false);
+
   // 2. __EDUCATIONAL_LEVEL__
   // Per-deck age_range from the manifest takes precedence over the per-app
   // taxonomy default — worksheet-gen printables span K..G3 within one family
@@ -357,6 +369,9 @@ function apply(opts) {
   // calls above already resolved 3 before 10 so the levelLocalized variable
   // is correct here.
   var html = deckHtml
+    // __DECK_EMBED_URL__ first: it CONTAINS no other placeholder, but ordering
+    // it ahead of __CANONICAL_URL__ keeps the two visibly independent.
+    .replace(/__DECK_EMBED_URL__/g, deckEmbedURL)
     .replace(/__CANONICAL_URL__/g, canonicalURL)
     .replace(/__EDUCATIONAL_LEVEL__/g, levelEn)
     .replace(/__EDUCATIONAL_LEVEL_LOCALIZED__/g, levelLocalized)

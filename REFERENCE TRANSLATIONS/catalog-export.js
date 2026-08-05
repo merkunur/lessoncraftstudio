@@ -1420,6 +1420,17 @@
       url = '__CANONICAL_URL__';
     }
 
+    // The PLAYABLE deck URL, for the iframe src ONLY — deliberately a
+    // DIFFERENT value from `url`. `url` is the page canonical and is the
+    // backlink target, and a later canonical repoint may legitimately move
+    // it to a landing page. The iframe must keep pointing at the deck: it is
+    // the only URL that emits the lcs-embed-resize message and hides the site
+    // chrome when framed. Sharing ONE variable between the two is exactly
+    // what let a canonical repoint silently break embedding catalogue-wide.
+    var embedSrc = (opts.embedSrcURL && typeof opts.embedSrcURL === 'string' && !isPlaceholder(opts.embedSrcURL))
+      ? opts.embedSrcURL
+      : '__DECK_EMBED_URL__';
+
     // Bare-translations lookup per §17.8.14 srLang-keyed convention.
     var t = (typeof translations !== 'undefined' && translations[locale]) || {};
     var ten = (typeof translations !== 'undefined' && translations.en) || {};
@@ -1556,6 +1567,7 @@
       'var closeBtn=document.getElementById("lcs-embed-close");',
       'if(!btn||!overlay||!widthInput||!heightInput||!snippet)return;',
       'var url=' + JSON.stringify(url) + ';',
+      'var embedSrc=' + JSON.stringify(embedSrc) + ';',
       'var homeURL=' + JSON.stringify(homepageURL) + ';',
       'var prefixText=' + JSON.stringify(attribPrefixHtml) + ';',
       'var brandText=' + JSON.stringify(attribBrandHtml) + ';',
@@ -1612,7 +1624,7 @@
       'var iframeId=\'lcs-embed-\'+Math.random().toString(36).slice(2,10);',
       'var lines=[];',
       'lines.push(\'<div style="max-width: \'+w+\'px; margin: 0 auto;">\');',
-      'lines.push(\'  <iframe id="\'+iframeId+\'" title="\'+iframeTitle+\'" src="\'+url+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
+      'lines.push(\'  <iframe id="\'+iframeId+\'" title="\'+iframeTitle+\'" src="\'+embedSrc+\'" frameborder="0" style="display: block; width: 100%; max-width: \'+w+\'px; aspect-ratio: \'+w+\' / \'+h+\'; border: 1px solid #e0d8c5; border-radius: 8px;"></iframe>\');',
       'lines.push(\'  <p style="font-size: 13px; color: #6b6357; text-align: center; margin: 8px 0 0; font-family: system-ui, sans-serif;">\');',
       'lines.push(\'    \'+prefixText+\' <a href="\'+url+\'" style="color: #6b6357; text-decoration: underline;">\'+brandText+\'</a>\'+sepText+\'<a href="\'+homeURL+\'" style="color: #6b6357; text-decoration: underline;">\'+keywordText+\'</a>\');',
       'lines.push(\'  </p>\');',

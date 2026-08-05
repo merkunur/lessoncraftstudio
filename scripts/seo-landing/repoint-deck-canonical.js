@@ -16,6 +16,14 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+/* ⚠ The replacement MUST NOT reach inside executable <script> blocks.
+   This script's needle is `<deckURL>` + a quote, and catalog-export.js emits
+   `var url="https://…/<loc>/decks/<slug>/";` inside the deck's inline embed
+   affordance — a verbatim match. Every repoint therefore used to drag the
+   embed snippet's iframe src onto the landing page, which posts no resize
+   message and renders the full site chrome, silently breaking embedding across
+   ~32,000 decks. JSON-LD is DATA and is still rewritten; only code is spared. */
+const { replaceQuoteTerminatedOutsideScripts } = require('./replace-outside-scripts');
 
 const argv = process.argv.slice(2);
 const arg = (k, d) => { const a = argv.find(s => s.indexOf('--' + k + '=') === 0); return a ? a.slice(k.length + 3) : d; };
@@ -40,17 +48,15 @@ for (const l of data.landings) {
   for (const ds of decks) map[ds] = landingURL;
 }
 
-let okFiles = 0, replTotal = 0; const missing = [], noop = [];
+let okFiles = 0, replTotal = 0, sparedTotal = 0; const missing = [], noop = [];
 for (const [slug, landingURL] of Object.entries(map)) {
   const f = `${DECKS_ROOT}/${slug}/deck.html`;
   if (!fs.existsSync(f)) { missing.push(slug); continue; }
   const orig = fs.readFileSync(f, 'utf8');
   const deckURL = `${HOST}/${LOCALE}/decks/${slug}/`;
-  let html = orig, n = 0;
-  for (const q of ['"', "'"]) {
-    const needle = deckURL + q, repl = landingURL + q;
-    const parts = html.split(needle); n += parts.length - 1; html = parts.join(repl);
-  }
+  const rep = replaceQuoteTerminatedOutsideScripts(orig, deckURL, landingURL);
+  let html = rep.html; const n = rep.n;
+  sparedTotal += rep.skipped;
   if (n === 0) { noop.push(slug); continue; }
   if (!DRY) {
     const bak = f + '.precanonical-bak';
@@ -61,5 +67,5 @@ for (const [slug, landingURL] of Object.entries(map)) {
 }
 console.log(`${DRY ? '[DRY-RUN] ' : ''}repoint types=${TYPES ? TYPES.join('+') : 'ALL'} locale=${LOCALE}: ` +
   `deck-slugs=${Object.keys(map).length} repointed-files=${okFiles} replacements=${replTotal} ` +
-  `missing=${missing.length}${missing.length ? ' [' + missing.slice(0, 8).join(',') + ']' : ''} ` +
+  `spared-in-scripts=${sparedTotal} missing=${missing.length}${missing.length ? ' [' + missing.slice(0, 8).join(',') + ']' : ''} ` +
   `noop=${noop.length}${noop.length ? ' [' + noop.slice(0, 8).join(',') + ']' : ''}`);

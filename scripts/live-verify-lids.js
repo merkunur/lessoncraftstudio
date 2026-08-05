@@ -85,18 +85,30 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   /* the table book must have loaded from the server, not the fallback */
   const book = await page.evaluate(() => fetch('/mini-tools/lids-setups.json').then((r) => r.json()).then((d) => d.setups.length).catch(() => 0));
-  is(book === 76, `the table book served ${book} setups from production (expected 76)`);
+  is(book === 81, `the table book served ${book} setups from production (expected 81)`);
+  /* ⚠ 81, NOT 76. The generator used to refuse any setup whose share
+     passed 12 — "the marker strip tops out at 12" — so the BOOK was
+     built around a defect in the strip. Totals 26..30 had no two-lid
+     table at all, while the Teacher plan sells bigger totals. */
 
   /* set a total we choose, then drive the whole routine */
   await page.evaluate(() => {
-    const b = Array.from(document.querySelectorAll('.lid-bar .lid-chip')).find((x) => x.textContent === '20');
-    if (b && !b.disabled) b.click();
+    /* ⚠ THE TOTAL IS A STEPPER. One card used to carry a SETUP scale of six
+       numerals and an ANSWER scale four hundred pixels below it, with
+       nothing telling a teacher which row the class should point at — and
+       six chips could not express a model that takes every integer from 4
+       to 30, so a teacher could not set 13 although the book hands them 13. */
+    const plus = document.querySelector('.lid-total [data-fk="total+"]');
+    for (let i = 0; i < 8 && plus; i++) plus.click();
   });
   await wait(220);
   is((await n('.lid-counter')) === 20, `20 counters on the table (saw ${await n('.lid-counter')})`);
 
-  is(await foot('Another lid'), 'the first lid goes down on production');
-  is(await foot('Another lid'), 'the second lid goes down');
+  /* ⚠ THE FIRST PRESS LAYS A PAIR. One lid took floor(n/1) = n and
+     swallowed every counter — an empty table and one enormous disc, one
+     click from the opening frame — so the reachable set is {0,2,3,4} and
+     the chip is named for the state it is actually in. */
+  is(await foot('Put a lid down'), 'the pair of lids goes down on production');
   is((await n('.lid-counter')) === 0 && (await n('.lid-lid')) === 2,
     '⭐ THE VALUE LOCK ON PRODUCTION: 20 under 2 lids leaves 0 on the table');
 
@@ -108,25 +120,30 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   /* ⭐ the operator's report, driven on production: the numerals must be
      INERT before there is a question, and LIVE once there is one */
   const stripAtRest = await page.evaluate(() =>
-    Array.from(document.querySelectorAll('.lid-mark')).every((b) => !b.disabled));
+    Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.getAttribute('aria-disabled') !== 'true'));
   is(stripAtRest, 'the strip is live now that three lids are down');
   const rung = await page.evaluate(() =>
     Array.from(document.querySelectorAll('.lid-hint .lid-hline')).map((e) => e.textContent));
-  is(rung.length === 2 && rung[1] === 'Park the marker on the number you think it is.',
-    `⭐ hintMark renders on production — "${rung[1] || '(nothing)'}"`);
+  /* ⚠ THE RUNG WAS RE-AUTHORED, AND FIVE NATIVE PANELS ARE WHY. "Park the
+     marker on the number you think it is" named a MARKER — a noun the
+     apparatus never shows — so a teacher hunting for one saw a row of
+     numerals. It is a locative imperative now, with no device verb,
+     because a projector has no mouse. */
+  is(rung.length === 2 && rung[1] === 'Choose a number below.',
+    `⭐ the strip is told what it is for on production — "${rung[1] || '(nothing)'}"`);
 
-  await page.evaluate(() => { const m = document.querySelectorAll('.lid-mark')[9]; if (m) m.click(); });
+  await page.evaluate(() => { const m = Array.from(document.querySelectorAll('.lid-mark')).find((x) => x.textContent === '9'); if (m) m.click(); });
   await wait(160);
-  const marked = await page.evaluate(() => Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
+  const marked = await page.evaluate(() => { const b = document.querySelector('.lid-mark.lid-on'); return b ? parseInt(b.textContent, 10) : -1; });
   is(marked === 9, 'the class parks a marker on 9 — a wrong number, which the tool must not care about');
 
   is(await foot('Lift the lids'), 'the lids come up');
   const after = await page.evaluate(() => ({
-    truth: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')),
+    truth: (function () { const b = document.querySelector('.lid-mark.lid-truth'); return b ? parseInt(b.textContent, 10) : -1; }()),
     truthCount: document.querySelectorAll('.lid-mark.lid-truth').length,
     both: document.querySelectorAll('.lid-mark.lid-on.lid-truth').length,
     counters: document.querySelectorAll('.lid-counter').length,
-    marked: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')),
+    marked: (function () { const b = document.querySelector('.lid-mark.lid-on'); return b ? parseInt(b.textContent, 10) : -1; }()),
     verdict: document.querySelectorAll('[class*="correct"],[class*="wrong"]').length
   }));
   is(after.truth === 6, `⭐ THE TRUTH LANDS ON THE STRIP at numeral ${after.truth}, beside the class's 9 — one scale, two values`);

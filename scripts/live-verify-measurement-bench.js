@@ -36,9 +36,12 @@ const ok = (m, cond, extra) => {
 };
 
 (async () => {
-  const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-
   for (const loc of LOCALES) {
+    /* ⚠ A FRESH BROWSER PER LOCALE — the house standard, and it is load-bearing
+       here: eleven rapid sequential loads in one browser tripped the site's
+       bot-defence burst limit, and the eleventh reported 'no iframe' about a
+       page that serves one perfectly. Run alone, that same locale passed 18/18. */
+    const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
     const url = `${BASE}/${loc}/tools/${SLUGS[loc]}`;
     console.log('\n[' + loc + '] ' + url);
     const page = await b.newPage();
@@ -48,8 +51,15 @@ const ok = (m, cond, extra) => {
     const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
     ok('page 200', resp && resp.status() === 200, resp && resp.status());
 
-    /* the tool lives in an iframe on the wrapper page */
-    await new Promise((r) => setTimeout(r, 6000));
+    /* ⚠ POLL, do not sleep a guess. A flat 6s passed ten locales and failed
+       the eleventh purely on a cold page — a gate that reports a defect
+       because it was impatient is worse than no gate, because the next person
+       goes looking for the bug in the tool. */
+    for (let i = 0; i < 40; i++) {
+      if (page.frames().some((f) => f.url().indexOf('/mini-tools/measurement-bench.html') >= 0)) break;
+      await new Promise((r) => setTimeout(r, 500));
+    }
+    await new Promise((r) => setTimeout(r, 2500));
     /* ⚠ MATCH THE /mini-tools/ FRAME, NOT JUST THE NAME. The WRAPPER page is
        also at /<loc>/tools/measurement-bench, so a bare name filter returns the
        PARENT first and every assertion below then runs against the Next.js
@@ -148,9 +158,10 @@ const ok = (m, cond, extra) => {
 
     ok('no js errors', errs.length === 0, errs[0]);
     await page.close();
+    await b.close();
+    await new Promise((r) => setTimeout(r, 1200));
   }
 
-  await b.close();
   console.log('\n' + PASS + ' passed, ' + FAIL + ' failed on production (' + LOCALES.length + ' locales)');
   if (FAIL) process.exit(1);
   console.log('live-verify-measurement-bench: ALL GREEN ON PRODUCTION');

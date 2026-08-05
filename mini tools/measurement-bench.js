@@ -63,8 +63,8 @@ var MeasurementBench = {
        The rule for the native panels: two labels, two numbers, no verb of
        judgement, no second person, no comparative, and never the difference
        (an "off by 2" is a score). */
-    compareLine:  {en:'Guessed: {g} · Measured: {n}',de:'Geschätzt: {g} · Gemessen: {n}',fr:'Estimé : {g} · Mesuré : {n}',it:'Stimato: {g} · Misurato: {n}',es:'Estimado: {g} · Medido: {n}',pt:'Palpite: {g} · Medida: {n}',nl:'Geschat: {g} · Gemeten: {n}',sv:'Gissat: {g} · Uppmätt: {n}',da:'Gættet: {g} · Målt: {n}',no:'Gjettet: {g} · Målt: {n}',fi:'Arvio: {g} · Mittaus: {n}'},
-    measuredOnly: {en:'Measured: {n}',de:'Gemessen: {n}',fr:'Mesuré : {n}',it:'Misurato: {n}',es:'Medido: {n}',pt:'Medida: {n}',nl:'Gemeten: {n}',sv:'Uppmätt: {n}',da:'Målt: {n}',no:'Målt: {n}',fi:'Mittaus: {n}'},
+    compareLine: {en:"Guessed: {g} · Measured: {n}",de:"Geschätzt: {g} · Gemessen: {n}",fr:"Estimation : {g} · Mesure : {n}",it:"Stima: {g} · Misura: {n}",es:"Estimación: {g} · Medición: {n}",pt:"Estimativa: {g} · Medida: {n}",nl:"Geschat: {g} · Gemeten: {n}",sv:"Gissning: {g} · Mätning: {n}",da:"Gæt: {g} · Måling: {n}",no:"Gjetning: {g} · Måling: {n}",fi:"Arvio: {g} · Mittaus: {n}"},
+    measuredOnly: {en:"Measured: {n}",de:"Gemessen: {n}",fr:"Mesure : {n}",it:"Misura: {n}",es:"Medición: {n}",pt:"Medida: {n}",nl:"Gemeten: {n}",sv:"Mätning: {n}",da:"Måling: {n}",no:"Måling: {n}",fi:"Mittaus: {n}"},
     thinkLine:    {en:'A guess and a measure — that’s how scientists work!',de:'Schätzen und messen — genau so arbeiten Forscherinnen und Forscher!',fr:'Estimer, puis mesurer — c’est comme ça que travaillent les scientifiques !',it:'Stimare e misurare — è così che lavorano gli scienziati!',es:'Estimar y medir — ¡así trabajan los científicos!',pt:'Primeiro o palpite, depois a medida — é assim que os cientistas trabalham!',nl:'Schatten en meten — zo werken echte wetenschappers!',sv:'Att gissa och sedan mäta — precis så jobbar forskare!',da:'At gætte og måle — sådan arbejder forskere!',no:'Å gjette og måle — akkurat slik jobber forskere!',fi:'Arvio ja mittaus — juuri näin tutkijat työskentelevät!'},
     /* length bench */
     countBtn:     {en:'Count',de:'Zählen',fr:'Compter',it:'Conta',es:'Contar',pt:'Contar',nl:'Tellen',sv:'Räkna',da:'Tæl',no:'Tell',fi:'Laske'},
@@ -74,14 +74,26 @@ var MeasurementBench = {
        with no gaps or overlaps", FROM the endpoint) and the tool had no line
        for it at all: a chain starting left of the object was silently yanked
        to the start with the gap line, or nothing. */
-    startLine:    {en:'Let’s begin right at the end of {noun}, so we don’t miss a bit.',de:'Wir fangen genau am Ende von {noun} an, damit nichts fehlt.',fr:'On commence juste au bout de {noun}, pour ne rien oublier.',it:'Cominciamo proprio all’estremità di {noun}, così non ci sfugge niente.',es:'Empecemos justo en el borde de {noun}, para que no falte nada.',pt:'Vamos começar bem na ponta de {noun}, para não faltar nada.',nl:'We beginnen precies bij het uiteinde van {noun}, dan slaan we niets over.',sv:'Vi börjar precis vid kanten på {noun}, så att inget missas.',da:'Vi begynder lige ved enden af {noun}, så vi ikke springer noget over.',no:'Vi starter helt ved enden av {noun}, da blir ingenting glemt.',fi:'Aloitetaan aivan {noun} reunasta, ettei mitään jää väliin.'},
-    /* the two counts side by side — the whole point of counting BEFORE the
-       scooch. Same grammar as compareLine: two labels, two numbers, no verdict. */
-    bothCountsLine:{en:'With gaps: {a} · Snuggled up: {b}',de:'Mit Lücken: {a} · Dicht an dicht: {b}',fr:'Avec des trous : {a} · Bien serrés : {b}',it:'Con i buchi: {a} · Tutti attaccati: {b}',es:'Con huecos: {a} · Bien juntos: {b}',pt:'Com espaços: {a} · Bem juntinhos: {b}',nl:'Met gaten: {a} · Tegen elkaar: {b}',sv:'Med glapp: {a} · Kant i kant: {b}',da:'Med mellemrum: {a} · Kant mod kant: {b}',no:'Med mellomrom: {a} · Kant i kant: {b}',fi:'Rakoja jäi: {a} · Peräkkäin: {b}'},
+    startLine: {en:"Let’s begin at the very start of {noun}, so nothing is missed.",de:"Wir fangen ganz vorne an, da wo {noun} anfängt — dann fehlt nichts.",fr:"On part juste du bord, là où {noun} commence, comme ça on n’oublie rien.",it:"Il primo pezzo va proprio dove comincia {noun}, così non ci sfugge niente.",es:"La primera pieza va justo donde empieza {noun}, así no nos dejamos nada.",pt:"A primeira peça vai bem onde {noun} começa, assim não fica nada de fora.",nl:"We beginnen helemaal bij het begin van {noun}, dan slaan we niets over.",sv:"Vi börjar precis vid kanten på {noun}, så att ingenting missas.",da:"Vi begynder helt ude ved kanten af {noun}, så vi får det hele med.",no:"Vi starter helt ute ved kanten av {noun}, så får vi med alt sammen.",fi:"{noun} mitataan aivan päästä alkaen, niin mitään ei jää väliin."},
+    /* ⭐⭐ THE LABEL MUST BE DEFECT-NEUTRAL — "With gaps" WAS FALSE.
+       Two native panels found this independently, in code written the same
+       hour, and the Nordic panel traced it: a GAPPY chain closes to FEWER
+       units than the object needs, so `closed.length < need0` fires
+       _speakCover and returns — this line is never reached. It renders for
+       OVERLAPS (where the laid count is HIGHER and the scooch pushes them
+       APART) and for a misaligned start. So the one case the old label named
+       is the one case that cannot produce it.
+       ⚠ AND THE PLACEHOLDERS ARE RENAMED. {a}/{b} are vessel NOUN PHRASES in
+       capSameLine/capDiffLine and bare INTEGERS here — the same two letters
+       for two incompatible types, in a `fmt` that is a blind global regex.
+       Both panels called it a design error; a future retrofit reasoning about
+       placeholder meaning would render a beaker's name where a count belongs
+       and fail no gate. */
+    bothCountsLine: {en:"First count: {n1} · End to end: {n2}",de:"So gelegt: {n1} · Kante an Kante: {n2}",fr:"D’abord : {n1} · Bout à bout : {n2}",it:"Come stavano: {n1} · Tutti attaccati: {n2}",es:"Tal como estaban: {n1} · Todas juntas: {n2}",pt:"Do jeito que ficaram: {n1} · Bem juntinhas: {n2}",nl:"Eerste telling: {n1} · Tegen elkaar: {n2}",sv:"Som de låg: {n1} · Kant i kant: {n2}",da:"Som de lå: {n1} · Kant mod kant: {n2}",no:"Slik de lå: {n1} · Kant i kant: {n2}",fi:"Näin ladottuna: {n1} · Kiinni toisissaan: {n2}"},
     scoochLine:   {en:'Let’s snuggle the {unitP} together so nothing is missed.',de:'Wir rücken die {unitP} zusammen, damit nichts fehlt.',fr:'On serre les {unitP} les uns contre les autres pour ne rien oublier.',it:'Avviciniamo la fila di {unitP}, così non ci sfugge niente.',es:'Juntemos los {unitP} para que no falte nada.',pt:'Vamos deixar os {unitP} bem juntinhos, para não pular nada.',nl:'We schuiven de {unitP} tegen elkaar aan, zo slaan we niets over.',sv:'Vi knuffar ihop alla {unitP} så att inget missas.',da:'Lad os rykke de små {unitP} helt sammen, så vi ikke springer noget over.',no:'Vi legger {unitP} kant i kant — da blir ingenting glemt.',fi:'Työnnetään jokaista {unitP} vähän lähemmäs, ettei mitään jää väliin.'},
     anotherObj:   {en:'Another object',de:'Noch ein Gegenstand',fr:'Un autre objet',it:'Un altro oggetto',es:'Otro objeto',pt:'Outro objeto',nl:'Nog een voorwerp',sv:'Ett nytt föremål',da:'En ny ting',no:'En ny gjenstand',fi:'Uusi esine'},
-    anotherPair:  {en:'Another pair',de:'Noch ein Paar',fr:'Deux autres récipients',it:'Un’altra coppia',es:'Otra pareja',pt:'Outro par',nl:'Nog twee bakjes',sv:'Ett nytt par',da:'Et nyt par',no:'Et nytt par',fi:'Uusi pari'},
-    lengthHint:   {en:'Drag units from the pile and lay them end to end along the object.',de:'Zieh die Einheiten vom Stapel und lege sie dicht an dicht am Gegenstand entlang.',fr:'Fais glisser les unités du tas et pose-les bout à bout le long de l’objet.',it:'Trascina le unità dal mucchietto e mettile una dopo l’altra lungo l’oggetto.',es:'Arrastra las unidades del montón y colócalas una tras otra a lo largo del objeto.',pt:'Arraste as unidades do montinho e coloque-as uma após a outra ao longo do objeto.',nl:'Sleep de eenheden van de stapel en leg ze kop aan staart langs het voorwerp.',sv:'Dra enheterna från högen och lägg dem kant i kant längs föremålet.',da:'Træk enhederne fra bunken, og læg dem kant mod kant langs tingen.',no:'Dra enhetene fra haugen og legg dem kant i kant langs gjenstanden.',fi:'Vedä yksiköitä pinosta ja lado ne peräkkäin esineen viereen.'},
+    anotherPair: {en:"Two new beakers",de:"Zwei andere Gefäße",fr:"Deux autres récipients",it:"Altri due recipienti",es:"Otros dos recipientes",pt:"Outros dois recipientes",nl:"Twee nieuwe bakjes",sv:"Två nya kärl",da:"To nye beholdere",no:"To nye beholdere",fi:"Uudet astiat"},
+    lengthHint: {en:"Drag paperclips or cubes from the pile and lay them along the object. Drag one back to the pile to take it away.",de:"Zieh Büroklammern oder Würfel aus dem Stapel und leg sie am Gegenstand entlang. Zieh sie auf den Stapel zurück, um sie wieder wegzunehmen.",fr:"Fais glisser les trombones ou les cubes du tas et pose-les le long de l’objet, puis appuie sur Compter.",it:"Trascina i pezzi dal mucchietto e mettili lungo l’oggetto, uno dopo l’altro. Trascina un pezzo nel mucchietto per toglierlo.",es:"Arrastra las piezas del montón y ponlas a lo largo del objeto, una detrás de otra. Arrastra una pieza al montón para quitarla.",pt:"Arraste as peças do montinho e coloque-as ao longo do objeto, uma depois da outra. Arraste uma peça de volta para o montinho para tirá-la.",nl:"Sleep paperclips of blokjes van de stapel en leg ze langs het voorwerp. Sleep er een terug naar de stapel om hem weg te halen.",sv:"Dra en i taget från högen och lägg dem längs föremålet.",da:"Træk én ad gangen fra bunken, og læg dem langs tingen.",no:"Dra én om gangen fra haugen og legg dem langs gjenstanden.",fi:"Vedä pinosta mittapaloja ja lado ne viivalle kuvan alle. Palan voi siirtää tai vetää takaisin pinoon."},
     /* capacity bench */
     vesselJug:    {en:'the jug',de:'der Krug',fr:'la carafe',it:'la brocca',es:'la jarra',pt:'a jarra',nl:'de kan',sv:'kannan',da:'kanden',no:'kanna',fi:'kannuun'},
     vesselTall:   {en:'the tall beaker',de:'das hohe Glas',fr:'le verre haut',it:'il bicchiere alto',es:'el vaso alto',pt:'o pote alto',nl:'de hoge maatbeker',sv:'den höga bägaren',da:'det høje bæger',no:'det høye begeret',fi:'korkeaan astiaan'},
@@ -92,8 +104,8 @@ var MeasurementBench = {
     /* the conservation moment: both vessels filled. DESCRIBES the containers —
        never "you were tricked", never a comparative aimed at what the child
        believed. Fires at most once per pair. */
-    capSameLine:  {en:'{a} and {b} both hold {n} {unitP}. They look different, and the number is the same.',de:'{a} und {b} fassen beide {n} {unitP}. Sie sehen ganz verschieden aus, und die Zahl ist dieselbe.',fr:'{a} et {b} contiennent tous les deux {n} {unitP}. Ils ne se ressemblent pas, et le nombre est le même.',it:'{a} e {b} contengono tutti e due {n} {unitP}. Sembrano diversi, e il numero è lo stesso.',es:'En {a} y en {b} caben {n} {unitP}. Son muy distintos, y el número es el mismo.',pt:'{a} e {b} guardam os dois {n} {unitP}. São bem diferentes, e o número é o mesmo.',nl:'In {a} en in {b} passen allebei {n} {unitP}. Ze zien er anders uit, en het getal is hetzelfde.',sv:'{a} och {b} rymmer båda {n} {unitP}. De ser olika ut, och talet är detsamma.',da:'{a} og {b} kan begge rumme {n} {unitP}. De ser forskellige ud, og tallet er det samme.',no:'{a} og {b} rommer begge {n} {unitP}. De ser ulike ut, og tallet er det samme.',fi:'{a} ja {b} vetävät molemmat {n} {unitP}. Ne näyttävät erilaisilta, ja luku on sama.'},
-    capDiffLine:  {en:'{a} holds {na} {unitP} and {b} holds {nb}.',de:'{a} fasst {na} {unitP} und {b} fasst {nb}.',fr:'{a} contient {na} {unitP} et {b} en contient {nb}.',it:'{a} contiene {na} {unitP} e {b} ne contiene {nb}.',es:'En {a} caben {na} {unitP} y en {b} caben {nb}.',pt:'{a} guarda {na} {unitP} e {b} guarda {nb}.',nl:'In {a} passen {na} {unitP} en in {b} passen er {nb}.',sv:'{a} rymmer {na} {unitP} och {b} rymmer {nb}.',da:'{a} kan rumme {na} {unitP}, og {b} kan rumme {nb}.',no:'{a} rommer {na} {unitP} og {b} rommer {nb}.',fi:'{a} vetää {na} {unitP} ja {b} vetää {nb}.'},
+    capSameLine: {en:"{a} and {b} both hold {n} {unitP}. Two different shapes, the same number of {unitP}.",de:"{a} und {b} fassen beide {n} {unitP}. Sie sehen ganz verschieden aus, und die Zahl ist gleich.",fr:"{a} et {b} contiennent tous les deux {n} {unitP}. Ils ne se ressemblent pas du tout, et le nombre est le même.",it:"{a} e {b} contengono {n} {unitP}. Da fuori non si somigliano per niente, e il numero è lo stesso.",es:"En {a} y en {b} caben {n} {unitP}. Por fuera no se parecen en nada, y el número es el mismo.",pt:"{a} e {b} guardam {n} {unitP}. Por fora não se parecem em nada, e o número é o mesmo.",nl:"In {a} en in {b} passen allebei {n} {unitP}. Twee verschillende vormen, hetzelfde aantal {unitP}.",sv:"{a} och {b} rymmer båda {n} {unitP}. De ser helt olika ut, och ändå blir det lika många.",da:"{a} og {b} rummer begge {n} {unitP}. De ser helt forskellige ud, og alligevel bliver det lige mange.",no:"{a} og {b} rommer begge {n} {unitP}. De ser helt ulike ut, og likevel blir det like mange.",fi:"{a} mahtuu {n} {unitP} ja {b} mahtuu {n} {unitP}. Astiat näyttävät aivan erilaisilta, ja luku on sama."},
+    capDiffLine: {en:"{a} holds {na} {unitP} and {b} holds {nb} {unitP}.",de:"{a} fasst {na} {unitP}, {b} fasst {nb} {unitP}.",fr:"{a} contient {na} {unitP} et {b} en contient {nb}.",it:"{a} contiene {na} {unitP} e {b} ne contiene {nb}.",es:"En {a} caben {na} {unitP} y en {b} caben {nb}.",pt:"{a} guarda {na} {unitP} e {b} guarda {nb}.",nl:"In {a} passen {na} {unitP} en in {b} passen er {nb}.",sv:"{a} rymmer {na} {unitP} och {b} rymmer {nb}.",da:"{a} rummer {na} {unitP}, og {b} rummer {nb}.",no:"{a} rommer {na} {unitP} og {b} rommer {nb}.",fi:"{a} mahtuu {na} {unitP} ja {b} mahtuu {nb} {unitP}."},
     /* weight bench */
     weightHint:   {en:'Tap cubes onto the pan until the scale balances.',de:'Lege Würfel auf die Waagschale, bis die Waage im Gleichgewicht ist.',fr:'Pose des cubes sur le plateau jusqu’à ce que la balance soit en équilibre.',it:'Metti i cubetti sul piatto finché la bilancia non è in equilibrio.',es:'Pon cubos en el platillo hasta que la balanza quede en equilibrio.',pt:'Coloque cubinhos no prato até a balança ficar equilibrada.',nl:'Leg blokjes op het schaaltje tot de weegschaal in evenwicht is.',sv:'Lägg kuber på vågskålen tills vågen är i jämvikt.',da:'Læg terninger på vægtskålen, indtil vægten er i balance.',no:'Legg kuber på vektskålen til vekten er i balanse.',fi:'Lisää kuutioita vaakakuppiin, kunnes vaaka on tasapainossa.'},
     weightDone:   {en:'{noun} weighs {n} {unitP}!',de:'{noun} wiegt {n} {unitP}!',fr:'{noun} pèse {n} {unitP} !',it:'{noun} pesa {n} {unitP}!',es:'{noun} pesa {n} {unitP} — ¡quedó en equilibrio!',pt:'{noun} pesa {n} {unitP}!',nl:'{noun} weegt {n} {unitP}!',sv:'{noun} väger {n} {unitP}!',da:'{noun} vejer {n} {unitP}!',no:'{noun} veier {n} {unitP}!',fi:'{noun} painaa {n} {unitP}!'},
@@ -102,12 +114,13 @@ var MeasurementBench = {
        the child just made, delivered by the machine, and it survived only on a
        once-per-session throttle. The beam already says everything that follows;
        the sentence now only DESCRIBES the picture. */
-    takeOneOff:   {en:'Now the cubes are the heavier side.',de:'Jetzt ist die Seite mit den Würfeln schwerer.',fr:'Maintenant, c’est le côté des cubes qui est le plus lourd.',it:'Adesso il piatto dei cubetti è quello più pesante.',es:'Ahora el lado de los cubos es el más pesado.',pt:'Agora o lado dos cubinhos é o mais pesado.',nl:'Nu is de kant met de blokjes de zwaarste.',sv:'Nu är sidan med kuberna den tyngre.',da:'Nu er siden med terningerne den tungeste.',no:'Nå er siden med kubene den tyngste.',fi:'Nyt kuutioiden puoli on painavampi.'},
+    takeOneOff: {en:"The cubes are heavier now.",de:"Jetzt ist die Waagschale mit den Würfeln schwerer.",fr:"Maintenant, le plateau des cubes descend : il est plus lourd.",it:"Adesso pesa di più il piatto dei cubetti.",es:"Ahora pesa más el platillo de los cubos.",pt:"Agora o prato dos cubinhos está mais pesado.",nl:"Nu zijn de blokjes zwaarder.",sv:"Nu är det kuberna som väger ner.",da:"Nu er det terningerne, der vejer ned.",no:"Nå er det kubene som veier ned.",fi:"Nyt kuutioiden puoli painaa enemmän."},
     /* chrome */
     rulerLabel:   {en:'Ruler check',de:'Lineal-Check',fr:'Vérif à la règle',it:'Controllo col righello',es:'Prueba con la regla',pt:'Conferir na régua',nl:'Liniaal-check',sv:'Linjalkoll',da:'Linealtjek',no:'Linjalsjekk',fi:'Viivaintarkistus'},
     myGuesses:    {en:'My guesses',de:'Meine Schätzungen',fr:'Mes estimations',it:'Le mie stime',es:'Mis estimaciones',pt:'Meus palpites',nl:'Mijn schattingen',sv:'Mina gissningar',da:'Mine gæt',no:'Mine gjetninger',fi:'Omat arvioni'},
     saveSetup:    {en:'Save this setup',de:'Aufbau speichern',fr:'Enregistrer ce montage',it:'Salva questa postazione',es:'Guardar esta estación',pt:'Salvar esta bancada',nl:'Deze opstelling opslaan',sv:'Spara uppställningen',da:'Gem opstillingen',no:'Lagre oppsettet',fi:'Tallenna tämä asetelma'},
     savedList:    {en:'Saved setups',de:'Gespeicherte Aufbauten',fr:'Montages enregistrés',it:'Postazioni salvate',es:'Estaciones guardadas',pt:'Bancadas salvas',nl:'Opgeslagen opstellingen',sv:'Sparade uppställningar',da:'Gemte opstillinger',no:'Lagrede oppsett',fi:'Tallennetut asetelmat'},
+    printSheet: {en:"Print the measuring pages",de:"Arbeitsblatt drucken",fr:"Imprimer la fiche",it:"Stampa la scheda delle misure",es:"Imprimir la ficha de medidas",pt:"Imprimir a folha de medidas",nl:"Meetbladen afdrukken",sv:"Skriv ut arket",da:"Print arket",no:"Skriv ut arket",fi:"Tulosta moniste"},
     startAgain:   {en:'Start again',de:'Noch einmal',fr:'Recommencer',it:'Ricomincia',es:'Empezar de nuevo',pt:'Começar de novo',nl:'Opnieuw beginnen',sv:'Börja om',da:'Begynd forfra',no:'Begynn på nytt',fi:'Aloita alusta'},
     gateBench:    {en:'The capacity and weight benches — pouring, weighing, the guess log and saved setups — are part of Premium. The length bench with the estimate chip is always free.',de:'Die Füllmengen- und die Gewichts-Werkbank — Gießen, Wiegen, die Schätzliste und gespeicherte Aufbauten — gehören zu Premium. Die Längen-Werkbank mit dem Schätzzettel bleibt immer kostenlos.',fr:'Les ateliers contenance et poids — verser, peser, le carnet d’estimations et les montages enregistrés — font partie de Premium. L’atelier longueur, avec son estimation, reste toujours gratuit.',it:'I banchi della capacità e del peso — versare, pesare, il diario delle stime e le postazioni salvate — fanno parte di Premium. Il banco della lunghezza, con la sua stima, resta sempre gratuito.',es:'Los talleres de capacidad y peso — verter, pesar, el diario de estimaciones y las estaciones guardadas — son parte de Premium. El taller de longitud con la estimación siempre es gratis.',pt:'As bancadas de capacidade e peso — despejar, pesar, o diário de palpites e as bancadas salvas — fazem parte do Premium. A bancada de comprimento com o palpite é sempre gratuita.',nl:'De werkbanken voor inhoud en gewicht — schenken, wegen, de schattingenlijst en opgeslagen opstellingen — horen bij Premium. De lengtewerkbank, mét schatten, blijft altijd gratis.',sv:'Volym- och viktbänkarna — att hälla, att väga, gissningsloggen och sparade uppställningar — ingår i Premium. Längdbänken med gissningsrutan är alltid gratis.',da:'Rumfangs- og vægtbænkene — at hælde og veje, gættelisten og de gemte opstillinger — hører til Premium. Længdebænken, hvor man også gætter først, er altid gratis.',no:'Volum- og vektbenkene — å helle, veie, gjettelista og lagrede oppsett — er en del av Premium. Lengdebenken med gjettelappen er alltid gratis.',fi:'Tilavuuden ja painon mittaaminen — kaataminen, punnitseminen, arvioloki ja tallennetut asetelmat — kuuluu Premiumiin. Pituuden mittaaminen arviolappuineen on aina ilmaista.'},
     unlock:       {en:'Unlock everything',de:'Alles freischalten',fr:'Tout débloquer',it:'Sblocca tutto',es:'Desbloquear todo',pt:'Desbloquear tudo',nl:'Alles ontgrendelen',sv:'Lås upp allt',da:'Lås alt op',no:'Lås opp alt',fi:'Avaa kaikki'},
@@ -116,10 +129,10 @@ var MeasurementBench = {
     unitsCm:      {en:'Centimeters',de:'Zentimeter',fr:'Centimètres',it:'Centimetri',es:'Centímetros',pt:'Centímetros',nl:'Centimeters',sv:'Centimeter',da:'Centimeter',no:'Centimeter',fi:'Senttimetrit'},
     unitsInch:    {en:'Inches',de:'Zoll',fr:'Pouces',it:'Pollici',es:'Pulgadas',pt:'Polegadas',nl:'Inches',sv:'Tum',da:'Tommer',no:'Tommer',fi:'Tuumat'},
     setRuler:     {en:'Ruler check after counting',de:'Lineal-Check nach dem Zählen',fr:'Vérification à la règle après le comptage',it:'Controllo col righello dopo il conteggio',es:'Prueba con la regla después de contar',pt:'Conferir na régua depois de contar',nl:'Liniaal-check na het tellen',sv:'Linjalkoll efter räkningen',da:'Linealtjek efter tællingen',no:'Linjalsjekk etter tellingen',fi:'Viivaintarkistus laskemisen jälkeen'},
-    setScale:     {en:'Beaker scale',de:'Skala am Gefäß',fr:'Graduations',it:'Scala sui recipienti',es:'Escala del recipiente',pt:'Escala do recipiente',nl:'Schaalverdeling',sv:'Skala på kärlen',da:'Skala på beholderne',no:'Skala på beholderne',fi:'Astian asteikko'},
-    scaleNone:    {en:'No numbers',de:'Ohne Zahlen',fr:'Sans chiffres',it:'Senza numeri',es:'Sin números',pt:'Sem números',nl:'Zonder cijfers',sv:'Utan siffror',da:'Uden tal',no:'Uten tall',fi:'Ilman numeroita'},
-    scaleCups:    {en:'Cups',de:'Becher',fr:'Gobelets',it:'Misurini',es:'Tazas',pt:'Copinhos',nl:'Bekers',sv:'Muggar',da:'Kopper',no:'Kopper',fi:'Kupilliset'},
-    scaleMl:      {en:'Milliliters',de:'Milliliter',fr:'Millilitres',it:'Millilitri',es:'Mililitros',pt:'Mililitros',nl:'Milliliters',sv:'Milliliter',da:'Milliliter',no:'Milliliter',fi:'Millilitrat'},
+    setScale: {en:"Numbers on the beakers",de:"Zahlen an den Gefäßen",fr:"Graduations des récipients",it:"Tacche sui recipienti",es:"Marcas en los recipientes",pt:"Marcas nos recipientes",nl:"Cijfers op de bakjes",sv:"Siffror på kärlen",da:"Tal på beholderne",no:"Tall på beholderne",fi:"Astioiden numerot"},
+    scaleNone: {en:"No numbers",de:"Ohne Zahlen",fr:"Sans chiffres",it:"Senza numeri",es:"Sin números",pt:"Sem números",nl:"Geen cijfers",sv:"Utan siffror",da:"Uden tal",no:"Uten tall",fi:"Ei numeroita"},
+    scaleCups: {en:"Cups",de:"Becher",fr:"Gobelets",it:"Misurini",es:"Tazas",pt:"Copinhos",nl:"Bekers",sv:"Muggar",da:"Kopper",no:"Kopper",fi:"Kupilliset"},
+    scaleMl: {en:"Milliliters",de:"Milliliter",fr:"Millilitres",it:"Millilitri",es:"Mililitros",pt:"Mililitros",nl:"Milliliters",sv:"Milliliter",da:"Milliliter",no:"Milliliter",fi:"Millilitrat"},
     setSpeak:     {en:'Speak the measurements',de:'Messungen vorlesen',fr:'Dire les mesures à voix haute',it:'Leggi le misure ad alta voce',es:'Decir las medidas en voz alta',pt:'Falar as medidas em voz alta',nl:'De metingen uitspreken',sv:'Läs upp mätningarna',da:'Sig målingerne højt',no:'Les opp målingene',fi:'Lue mittaukset ääneen'}
   },
 
@@ -635,23 +648,7 @@ var MeasurementBench = {
     var estBar = api.el('div', 'mb-estbar');
     wrap.appendChild(estBar);
     this._estHost = estBar;
-    if (this.bench === 'length' || this.premium) {
-      if (this.bench === 'length') {
-        var lo = this.LENGTH_OBJECTS[this.lenIdx];
-        estBar.appendChild(this._estimateChip('estPromptLen',
-          { unitP: this._unitName(this.unit, 2), noun: this._noun(lo.k) },
-          { s: this._unitName(this.unit, 1), p: this._unitName(this.unit, 2) }));
-      } else if (this.bench === 'capacity') {
-        estBar.appendChild(this._estimateChip('estPromptCap',
-          { unitP: this._cupName(2), noun: this._loc(this.strings[this.VESSELS[this.capTarget].nounKey]) },
-          { s: this._cupName(1), p: this._cupName(2) }));
-      } else {
-        var wk = this.WEIGHT_KEYS[this.wtIdx % this.WEIGHT_KEYS.length];
-        estBar.appendChild(this._estimateChip('estPromptWt',
-          { unitP: this._unitName('cube', 2), noun: this._noun(wk) },
-          { s: this._unitName('cube', 1), p: this._unitName('cube', 2) }));
-      }
-    }
+    estBar.appendChild(this._buildEstimateChip());
 
     /* stage (fixed 660-wide coordinate space, scaled to fit) */
     var stageOuter = api.el('div', 'mb-stage-outer');
@@ -683,6 +680,7 @@ var MeasurementBench = {
     var dock = this._dock();
     wrap.appendChild(dock);
     this._dockEl = dock;
+    this._ensureSheet();
     this._measureEstBar();
     this._fitStage();
     if (!this._fitBound) {
@@ -838,7 +836,29 @@ var MeasurementBench = {
 
   /* the guess range is per bench, because a stepper capped at 20 against a
      largest attainable answer of 8 is neither reachable nor usable */
-  EST_RANGE: { length: 15, capacity: 12, weight: 15 },
+  EST_RANGE: { length: 15, capacity: 12, weight: 18 },
+
+  /* one place that decides WHAT is being asked about — so the estimate slot
+     can be repainted on its own, without a render() that would destroy the
+     apparatus the answer just came from */
+  _buildEstimateChip: function () {
+    if (this.bench !== 'length' && !this.premium) return this.api.el('span');
+    if (this.bench === 'length') {
+      var lo = this.LENGTH_OBJECTS[this.lenIdx];
+      return this._estimateChip('estPromptLen',
+        { unitP: this._unitName(this.unit, 2), noun: this._noun(lo.k) },
+        { s: this._unitName(this.unit, 1), p: this._unitName(this.unit, 2) });
+    }
+    if (this.bench === 'capacity') {
+      return this._estimateChip('estPromptCap',
+        { unitP: this._cupName(2), noun: this._loc(this.strings[this.VESSELS[this.capTarget].nounKey]) },
+        { s: this._cupName(1), p: this._cupName(2) });
+    }
+    var wk = this.WEIGHT_KEYS[this.wtIdx % this.WEIGHT_KEYS.length];
+    return this._estimateChip('estPromptWt',
+      { unitP: this._unitName('cube', 2), noun: this._noun(wk) },
+      { s: this._unitName('cube', 1), p: this._unitName('cube', 2) });
+  },
 
   _estimateChip: function (promptKey, promptArgs, unitPair) {
     var api = this.api, self = this;
@@ -969,6 +989,10 @@ var MeasurementBench = {
 
     stage.innerHTML = '';
     stage.dataset.locked = this.counted ? '1' : '0';
+    /* ⭐ the contact shadow — the single largest "this is standing on
+       something" signal, and it costs one element. Same law on every bench:
+       longer the nearer the front of the slab. */
+    stage.appendChild(this._castShadow(X0 + obj.w / 2, TRACK_Y, obj.w / 2));
     /* the object */
     var img = api.el('img', 'mb-lenobj');
     img.src = this._imgUrl(obj.k);
@@ -993,21 +1017,66 @@ var MeasurementBench = {
     this._unitEls = [];
     this.placed.forEach(function (x, i) { self._addUnitEl(stage, x, i); });
 
-    /* supply pile */
-    var supply = api.el('div', 'mb-supply');
-    supply.style.left = '18px'; supply.style.top = (TRACK_Y + 62) + 'px';
+    /* ⭐⭐ THE SUPPLY IS A REAL BUTTON, NOT A DRAG-ONLY DIV.
+       It was a plain <div> wired with `pointerdown` only — no click, no key
+       handler, no tabindex, no role — while `api.announce` reads the hint
+       "drag units from the pile" to a screen-reader user on bench entry. The
+       tool was instructing people to operate a control that is dead to them,
+       on the ONE bench a free teacher sees. The weight bench's supply has been
+       a real <button> with an aria-label all along, so this was not even
+       internally consistent.
+       Clicking or pressing Enter/Space lays one unit at the next lattice slot,
+       which is also the discoverable path the drag never offered. */
+    var supply = api.el('button', 'mb-supply');
+    supply.type = 'button';
+    supply.style.left = '14px'; supply.style.top = (TRACK_Y + 34) + 'px';
     for (var i = 0; i < 3; i++) {
       var chip = api.el('div', 'mb-unit supply');
       chip.innerHTML = this._unitSVG(this.unit);
       chip.style.left = (i * 12) + 'px'; chip.style.top = (i * -6) + 'px';
       supply.appendChild(chip);
     }
+    supply.setAttribute('aria-label', this._unitName(this.unit, 2));
+    supply.disabled = this.counted;
     stage.appendChild(supply);
     this._wireSupply(supply, stage);
+    /* the click/keyboard path: lay ONE unit at the next lattice slot.
+       ⚠ suppressed when a drag just ended, or a completed drop would also
+       fire this and lay two. */
+    supply.addEventListener('click', function () {
+      if (self._justDragged) { self._justDragged = false; return; }
+      if (self.counted) return;
+      var u = self.UNITS[self.unit];
+      self.placed.push(self._lenX0 + self.placed.length * u.w);
+      self._hintDone.length = true;
+      self._sfxSnap();
+      self.render();
+      var s2 = self._stageEl && self._stageEl.querySelector('.mb-supply');
+      if (s2) s2.focus();
+      self.api.announce(self.placed.length + ' ' + self._unitName(self.unit, self.placed.length));
+    });
 
     /* ruler check strip (after counting, teacher setting) */
     if (this.counted && api.settings.rulerCheck) stage.appendChild(this._rulerStrip(X0, TRACK_Y + 26, obj.w));
 
+  },
+
+  /* repaint the two unscaled chrome slots without touching the stage — so a
+     result can land without destroying the apparatus that produced it */
+  _refreshSay: function () {
+    if (!this._sayEl) return;
+    var t = this._sayLine();
+    this._sayEl.textContent = t || '';
+    this._sayEl.classList.toggle('on', !!t);
+    this._fitStage();
+  },
+  _refreshEstimate: function () {
+    if (!this._estHost) return;
+    var ek = this._estKey();
+    this.est = this._estBy[ek] || null;
+    this.measured = this._measBy[ek] != null ? this._measBy[ek] : null;
+    this._estHost.innerHTML = '';
+    this._estHost.appendChild(this._buildEstimateChip());
   },
 
   /* ⭐ THE RESULT SENTENCE IS DERIVED FROM STATE, ONCE, FOR ALL THREE BENCHES.
@@ -1027,7 +1096,12 @@ var MeasurementBench = {
          the visible form of "a gappy chain and a tight chain are not the same
          measurement". Neither is called wrong; they are simply both shown. */
       if (this._laidCount != null && this._laidCount !== this.placed.length) {
-        return this.fmt('bothCountsLine', { a: this._laidCount, b: this.placed.length }) + '  ·  ' + done;
+        /* ⚠ a DIFFERENT joiner from the one inside the string. Joined with the
+           same middot, the pair and the sentence became three
+           typographically identical fragments — "First count: 12 · End to
+           end: 10 · The key is 10 paperclips long!" — with no way to see
+           where the comparison stopped and the result began. */
+        return this.fmt('bothCountsLine', { n1: this._laidCount, n2: this.placed.length }) + ' — ' + done;
       }
       return done;
     }
@@ -1144,7 +1218,7 @@ var MeasurementBench = {
         fly.remove();
         self._dragging = false;
       };
-      var onUp = function (ev) { teardown(); self._dropUnit(self._pt(ev), stage); };
+      var onUp = function (ev) { teardown(); self._justDragged = true; self._dropUnit(self._pt(ev), stage); };
       /* ⚠ CANCEL MUST NOT DROP. `pointercancel` was bound to the same handler
          as `pointerup`, so a palm rejection on a whiteboard — or the browser
          taking the pointer away — LAID A PAPERCLIP the child never released.
@@ -1421,6 +1495,20 @@ var MeasurementBench = {
      read as a container. */
   _ry: function (rx) { return +(rx * 0.115).toFixed(2); },
 
+  /* ONE formula for every object that stands on the bench, so the three
+     benches agree about where the light is. Never `filter: drop-shadow` —
+     that is an offscreen pass per element, and the length bench can have
+     fifteen of them on screen at once. */
+  _castShadow: function (cx, baseY, halfW) {
+    var ry = 4 + (baseY - 237) * 0.036;
+    var el = this.api.el('div', 'mb-cast-el');
+    el.style.left = (cx - halfW * 1.06) + 'px';
+    el.style.top = (baseY - ry * 0.45) + 'px';
+    el.style.width = (halfW * 2.12) + 'px';
+    el.style.height = (ry * 2) + 'px';
+    return el;
+  },
+
   _vesselEl: function (vk) {
     var api = this.api;
     var v = this.VESSELS[vk];
@@ -1649,7 +1737,12 @@ var MeasurementBench = {
     var nA = this._loc(this.strings.vesselTall), nB = this._loc(this.strings.vesselWide);
     var line = a === b
       ? this.fmt('capSameLine', { a: nA, b: nB, n: a, unitP: this._cupName(a) })
-      : this.fmt('capDiffLine', { a: nA, na: a, b: nB, nb: b, unitP: this._cupName(Math.max(a, b)) });
+      /* ⚠ the plural is chosen from {na}, the number the unit is ATTACHED to —
+         not from max(a,b). Three panels caught this independently: taking the
+         larger would print "1 tazas" / "1 kupillista" the day a one-cup vessel
+         is authored, and the whole point of the pair table is that new pairs
+         get added. */
+      : this.fmt('capDiffLine', { a: nA, na: a, b: nB, nb: b, unitP: this._cupName(a) });
     var self = this;
     setTimeout(function () { self._speak(self._cap(line)); }, 900);
   },
@@ -1860,13 +1953,21 @@ var MeasurementBench = {
     var back = 'M' + (-P.RIM_HALF) + ' ' + P.RIM_Y + ' q ' + P.RIM_HALF + ' ' + (P.DEPTH * 2) + ' ' + (P.RIM_HALF * 2) + ' 0 Z';
     var front = 'M' + (-P.RIM_HALF) + ' ' + P.RIM_Y + ' q ' + P.RIM_HALF + ' ' + (P.DEPTH * 2) + ' ' + (P.RIM_HALF * 2) + ' 0 ' +
       'l -6 9 q -' + (P.RIM_HALF - 8) + ' ' + (P.DEPTH * 1.7) + ' -' + (P.RIM_HALF * 2 - 16) + ' 0 Z';
-    return '<g class="' + cls + '">' +
-      '<line x1="0" y1="0" x2="' + (-P.RIM_HALF) + '" y2="' + P.RIM_Y + '" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>' +
-      '<line x1="0" y1="0" x2="' + P.RIM_HALF + '" y2="' + P.RIM_Y + '" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>' +
-      '<circle cx="0" cy="0" r="3.5" fill="#5A4630"/>' +
-      '<path d="' + back + '" fill="#9A7248"/>' +
+    /* ⭐ THE YOKE IS REAL NOW. `BAL_ROPE_HALF: 20` was declared once and used
+       NOWHERE in the tool — a constant documenting a two-point suspension that
+       was never drawn, while both cords ran from a single point at (0,0). The
+       gate meanwhile built two assertions ON that constant and a third
+       enforcing the single-point version, so it was validating geometry that
+       did not exist and pinning in place the geometry that did.
+       Both cord tops are repositioned every frame by _paintBalance so they
+       stay ON the sloping beam; a fixed local offset would visibly detach. */
+    return '<g class="mb-pan ' + cls + '">' +
+      '<line class="pan-str a" x1="' + (-this.BAL_ROPE_HALF) + '" y1="0" x2="' + (-P.RIM_HALF + 6) + '" y2="' + (P.RIM_Y - 2) + '"/>' +
+      '<line class="pan-str b" x1="' + this.BAL_ROPE_HALF + '" y1="0" x2="' + (P.RIM_HALF - 6) + '" y2="' + (P.RIM_Y - 2) + '"/>' +
+      '<path class="pan-back" d="' + back + '"/>' +
       '<g class="mb-pan-load"></g>' +
-      '<path d="' + front + '" fill="#C99B62" stroke="#8B6F47" stroke-width="2" stroke-linejoin="round"/>' +
+      '<path class="pan-front" d="' + front + '"/>' +
+      '<path class="pan-shine" d="M' + (-P.RIM_HALF + 14) + ' ' + (P.RIM_Y + 1.6) + ' Q 0 ' + (P.RIM_Y + 13) + ' ' + (P.RIM_HALF - 14) + ' ' + (P.RIM_Y + 1.6) + '"/>' +
       '</g>';
   },
 
@@ -1886,12 +1987,37 @@ var MeasurementBench = {
     bal.innerHTML =
       '<svg viewBox="0 0 660 430" width="660" height="430" role="img" aria-label="' +
       this._noun(key).replace(/"/g, '&quot;') + '">' +
-      '<rect x="' + (cx - 7) + '" y="' + cy + '" width="14" height="196" rx="6" fill="#8B6F47"/>' +
-      '<rect x="' + (cx - 67) + '" y="' + (cy + 192) + '" width="134" height="16" rx="8" fill="#6F5738"/>' +
+      /* it stands on the bench like everything else */
+      '<ellipse class="mb-cast" cx="' + cx + '" cy="' + (cy + 210) + '" rx="76" ry="7.5"/>' +
+      /* plinth, then a TAPERED post — a straight 14px bar reads as a pipe */
+      '<rect class="bal-wood-d" x="' + (cx - 68) + '" y="' + (cy + 190) + '" width="136" height="20" rx="10"/>' +
+      '<rect class="bal-wood" x="' + (cx - 64) + '" y="' + (cy + 190) + '" width="128" height="7" rx="3.5"/>' +
+      '<path class="bal-wood" d="M' + (cx - 8) + ' ' + (cy + 8) + ' H' + (cx + 8) + ' L' + (cx + 13) + ' ' + (cy + 192) + ' H' + (cx - 13) + ' Z"/>' +
+      /* the knife edge: the fulcrum points UP at the pivot, which is what a
+         balance actually turns on */
+      '<path class="bal-wood-d" d="M' + cx + ' ' + (cy - 13) + ' L' + (cx + 12.5) + ' ' + (cy + 10) + ' H' + (cx - 12.5) + ' Z"/>' +
+      /* ⭐ THE INDEX PLATE + NEEDLE. This is the biggest single win on the
+         bench: it gives "level" a mechanical, wordless signal, which is
+         exactly what the no-shame rule wants and what a number or a colour
+         could never be. Five paths. */
+      /* sized so the needle's SWEEP is the thing you see: at maxAngle 14 a
+         64-long needle travels 64·sin14 = 15.5px, which needs a plate about
+         34 half-wide to read as "off centre" versus "dead centre" from the
+         back of a room. Smaller than this and it is a sticker, not a gauge. */
+      '<rect class="bal-plate" x="' + (cx - 34) + '" y="' + (cy + 34) + '" width="68" height="34" rx="11"/>' +
+      '<path class="bal-tick-s" d="M' + (cx - 20) + ' ' + (cy + 42) + ' v18 M' + (cx + 20) + ' ' + (cy + 42) + ' v18"/>' +
+      '<path class="bal-tick" d="M' + cx + ' ' + (cy + 38) + ' v26"/>' +
       '<g class="mb-beam-g">' +
-      '<rect x="' + (cx - arm) + '" y="' + (cy - 6) + '" width="' + (arm * 2) + '" height="12" rx="6" fill="#C99B62" stroke="#8B6F47" stroke-width="2"/>' +
+      '<path class="bal-beam" d="M' + (cx - arm) + ' ' + (cy - 6) + ' Q ' + cx + ' ' + (cy - 12) + ' ' + (cx + arm) + ' ' + (cy - 6) +
+        ' L' + (cx + arm) + ' ' + (cy + 6) + ' Q ' + cx + ' ' + (cy + 12) + ' ' + (cx - arm) + ' ' + (cy + 6) + ' Z"/>' +
+      '<path class="bal-beam-hi" d="M' + (cx - arm + 18) + ' ' + (cy - 6.6) + ' Q ' + cx + ' ' + (cy - 12.4) + ' ' + (cx + arm - 18) + ' ' + (cy - 6.6) + '"/>' +
+      /* the stirrups make BAL_ROPE_HALF real — see the note on _panGroup */
+      '<path class="bal-stir" d="M' + (cx - arm + 10) + ' ' + (cy + 7) + ' H' + (cx - arm + 50) +
+        ' M' + (cx + arm - 50) + ' ' + (cy + 7) + ' H' + (cx + arm - 10) + '"/>' +
+      '<path class="bal-needle" d="M' + cx + ' ' + (cy + 6) + ' L' + (cx - 5.4) + ' ' + (cy + 56) + ' L' + cx + ' ' + (cy + 64) + ' L' + (cx + 5.4) + ' ' + (cy + 56) + ' Z"/>' +
       '</g>' +
-      '<circle cx="' + cx + '" cy="' + cy + '" r="10" fill="#5A4630"/>' +
+      '<circle class="bal-boss" cx="' + cx + '" cy="' + cy + '" r="8.5"/>' +
+      '<circle class="bal-boss-hi" cx="' + (cx - 2.8) + '" cy="' + (cy - 2.8) + '" r="2.7"/>' +
       this._panGroup('mb-pan-l') + this._panGroup('mb-pan-r') +
       '</svg>';
     stage.appendChild(bal);
@@ -1919,7 +2045,7 @@ var MeasurementBench = {
       self._paintCubes();
       self._checkOver();
     });
-    supply.style.left = '540px'; supply.style.top = '330px';
+    supply.style.left = '520px'; supply.style.top = '318px';
     stage.appendChild(supply);
 
     this._runBalance();
@@ -1972,12 +2098,22 @@ var MeasurementBench = {
           self.settled = true;
           self._sfxSettle();
           var n = w, key = self._wtKey;
+          /* ⚠ THE SETTLE MOMENT USED TO CALL render(), which does
+             stage.innerHTML = '' — so it destroyed the SVG on the exact frame
+             it was meant to celebrate on, and any animation attached there was
+             wiped in the same tick. Mark the element instead; the say-line
+             below is unscaled chrome and repaints on its own. */
+          self._balEl.classList.add('settled');
           self._speak(self._cap(self.fmt('weightDone', { noun: self._noun(key), n: n, unitP: self._unitName('cube', n) })));
           self._afterMeasure(n, 'weight', key);
-          self.render();
+          self._refreshSay();
+          self._refreshEstimate();
           return;
         }
       } else lastLevelAt = null;
+      /* the beam has arrived and nothing is moving — stop the rAF instead of
+         spinning it forever at zero velocity */
+      if (self.settled) return;
       self._raf = requestAnimationFrame(step);
     };
     this._raf = requestAnimationFrame(step);
@@ -1991,6 +2127,21 @@ var MeasurementBench = {
     var pr = this._balEl.querySelector('.mb-pan-r');
     if (pl) pl.setAttribute('transform', 'translate(' + L.x + ' ' + L.y + ')');
     if (pr) pr.setAttribute('transform', 'translate(' + Rr.x + ' ' + Rr.y + ')');
+    /* the two cord tops sit ±BAL_ROPE_HALF ALONG THE BEAM, so they must be
+       rotated by the beam angle — a fixed horizontal offset would lift off the
+       beam the moment it tilts. The pan itself stays plumb (a pan on flexible
+       cord hangs vertically whatever the beam does), which is why only the
+       cord tops move and not the group's rotation. */
+    var r = this.balAngle * Math.PI / 180, H = this.BAL_ROPE_HALF;
+    var dx = (H * Math.cos(r)).toFixed(2), dy = (H * Math.sin(r)).toFixed(2);
+    var self = this;
+    ['l', 'r'].forEach(function (side) {
+      var g = self._balEl.querySelector('.mb-pan-' + side);
+      if (!g) return;
+      var a = g.querySelector('.pan-str.a'), b = g.querySelector('.pan-str.b');
+      if (a) { a.setAttribute('x1', -dx); a.setAttribute('y1', -dy); }
+      if (b) { b.setAttribute('x1', dx); b.setAttribute('y1', dy); }
+    });
   },
 
   /* ============================ dock =============================== */
@@ -2069,6 +2220,17 @@ var MeasurementBench = {
     again.addEventListener('click', function () { self._resetBench(self.bench); });
     row.appendChild(again);
 
+    if (this.premium) {
+      var pr = api.el('button', 'mb-chip');
+      pr.type = 'button';
+      pr.textContent = api.t('printSheet');
+      pr.addEventListener('click', function () {
+        self._ensureSheet();
+        setTimeout(function () { try { window.print(); } catch (_) {} }, 60);
+      });
+      row.appendChild(pr);
+    }
+
     /* premium: the guess log */
     if (this.premium && this._store.log.length) {
       var log = api.el('button', 'mb-chip');
@@ -2093,6 +2255,55 @@ var MeasurementBench = {
   },
 
   onSettings: function () { this._saveStore(); this.render(); },
+
+  /* ⭐ THE SHEET IS ABSENT UNLESS ENTITLED — not merely behind the chip.
+     Gating only the button leaves Ctrl+P, which no chip guards, handing a free
+     visitor the paid pages; that exact defect has shipped twice in this
+     programme. Built on demand and rebuilt whenever the tier or the bench
+     changes, so the probe cannot measure an empty container either. */
+  _ensureSheet: function () {
+    if (!this._wrap) return;
+    var host = this._wrap.parentNode || this._wrap;
+    var old = host.querySelector ? host.querySelector('.mb-sheet') : null;
+    if (old) old.remove();
+    document.body.classList.toggle('mb-paid', !!this.premium);
+    if (!this.premium) return;
+
+    var api = this.api;
+    var sheet = api.el('div', 'mb-sheet');
+    var esc = this._esc.bind(this);
+    var cupP = this._cupName(2), clipP = this._unitName('clip', 2), cubeP = this._unitName('cube', 2);
+
+    /* PAGE 1 — the record of the routine: guess, then measure, on real
+       objects in the room. The columns ARE the routine; no words needed. */
+    var p1 = api.el('div', 'mb-page');
+    var rows = '';
+    for (var i = 0; i < 8; i++) rows += '<div class="mb-pr"><div class="mb-pc wide"></div><div class="mb-pc"></div><div class="mb-pc"></div></div>';
+    p1.innerHTML = '<h2 class="mb-phead">' + esc(api.t('title')) + '</h2>' +
+      '<div class="mb-prow">' +
+      '<div class="mb-pr mb-phr"><div class="mb-pc wide">' + esc(api.t('anotherObj')) + '</div>' +
+      '<div class="mb-pc">' + esc(api.t('estPin')) + '</div><div class="mb-pc">' + esc(api.t('countBtn')) + '</div></div>' +
+      rows + '</div>';
+
+    /* PAGE 2 — units to cut out and lay along a real object, at a real size,
+       plus the capacity and weight columns. Squares, because a printed
+       paperclip is a picture of a unit and a cut square IS one. */
+    var p2 = api.el('div', 'mb-page');
+    var strip = '';
+    for (i = 0; i < 20; i++) strip += '<div class="mb-pu"></div>';
+    var rows2 = '';
+    for (i = 0; i < 6; i++) rows2 += '<div class="mb-pr"><div class="mb-pc wide"></div><div class="mb-pc"></div><div class="mb-pc"></div></div>';
+    p2.innerHTML = '<h2 class="mb-phead">' + esc(api.t('tabLength')) + ' · ' + esc(api.t('tabCapacity')) + ' · ' + esc(api.t('tabWeight')) + '</h2>' +
+      '<div class="mb-pstrip">' + strip + '</div>' +
+      '<div class="mb-prow">' +
+      '<div class="mb-pr mb-phr"><div class="mb-pc wide">' + esc(api.t('anotherObj')) + '</div>' +
+      '<div class="mb-pc">' + esc(clipP) + ' / ' + esc(cubeP) + '</div>' +
+      '<div class="mb-pc">' + esc(cupP) + '</div></div>' + rows2 + '</div>';
+
+    sheet.append(p1, p2);
+    host.appendChild(sheet);
+    this._sheetEl = sheet;
+  },
 
   /* clear ONE bench, keeping the object/pair it is on */
   _resetBench: function (b) {
@@ -2200,9 +2411,28 @@ var MeasurementBench = {
      every board to 1.03x regardless of what --mb-maxscale claimed. The tiers
      below raise it, and nothing else caps the scale. */
   + '.mb-stage-outer{position:relative;width:100%;max-width:680px;display:flex;justify-content:center;align-items:center;overflow:visible;}'
+  /* ⭐ THE BENCH IS A PLACE, NOT A GRADIENT.
+     The shipped stage was one two-stop linear-gradient whose seam sat at
+     y=236 while NOTHING stood on it — the length track is at 268, the vessel
+     bases at 350, the balance foot at 368 — so the painted horizon was
+     decorative and unrelated to where anything rested. That is exactly why
+     three unrelated instruments read as diagrams floating on paper.
+     Four things fix it and none of them costs a DOM node: a lit wall above a
+     shaded seam, a slab with grain running along it, a front lip so the bench
+     has thickness and you are standing AT it, and (in the SVG) a contact
+     shadow under everything that stands. */
   + '.mb-stage{position:relative;width:660px;height:430px;transform-origin:center center;flex:0 0 auto;'
-  +   'background:linear-gradient(180deg,#FDF9F0 55%,#F2E7D3 55.2%,#EFE2CB 100%);'
-  +   'border:2px solid #E7DCC8;border-radius:22px;}'
+  +   'border:2px solid #D9C9A8;border-radius:22px;overflow:hidden;'
+  +   'background:linear-gradient(180deg,#FBF3E4 0px,#F7EFDF 140px,#EFE6D3 232px,'
+  +     'rgba(58,44,28,.17) 233px,rgba(58,44,28,.17) 236px,'
+  +     '#DCC29F 237px,#D5B58F 330px,#CFAB80 430px);}'
+  /* grain runs ALONG the bench, because planks do */
+  + '.mb-stage::before{content:"";position:absolute;left:0;right:0;top:237px;bottom:0;pointer-events:none;'
+  +   'background:repeating-linear-gradient(180deg,rgba(122,90,52,.05) 0 1px,transparent 1px 9px),'
+  +     'repeating-linear-gradient(180deg,transparent 0 48px,rgba(122,90,52,.11) 48px 50px);}'
+  /* the front lip: the slab has thickness */
+  + '.mb-stage::after{content:"";position:absolute;left:0;right:0;bottom:0;height:15px;pointer-events:none;'
+  +   'background:linear-gradient(180deg,#BE8F5B 0,#AC8150 100%);border-top:2px solid #7A5A34;}'
 
   /* gate */
   + '.mb-gatepanel{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;padding:24px;}'
@@ -2243,9 +2473,11 @@ var MeasurementBench = {
 
   /* length bench */
   + '.mb-lenobj{position:absolute;pointer-events:none;user-select:none;-webkit-user-drag:none;}'
-  + '.mb-track{position:absolute;height:2.5px;background:rgba(20,107,94,.35);border-radius:2px;}'
+  + '.mb-cast-el{position:absolute;border-radius:50%;background:var(--mb-shade);opacity:.13;'
+  +   'pointer-events:none;filter:blur(1.5px);}'
+  + '.mb-track{position:absolute;height:2.5px;background:var(--mb-teal-soft);opacity:.55;border-radius:2px;}'
   + '.mb-track::before,.mb-track::after{content:"";position:absolute;top:-6px;width:2.5px;height:14px;'
-  +   'background:rgba(20,107,94,.45);border-radius:2px;}'
+  +   'background:var(--mb-teal-soft);border-radius:2px;}'
   + '.mb-track::before{left:0;}.mb-track::after{right:0;}'
   + '.mb-unit{position:absolute;touch-action:none;}'
   /* ⭐ THE HIT BOX IS SIZED IN DEVICE PIXELS, THE DRAWING IS NOT.
@@ -2265,7 +2497,17 @@ var MeasurementBench = {
   + '.mb-unit.laid.counted{background:radial-gradient(circle, rgba(242,200,121,.6), transparent 72%);border-radius:50%;}'
   + '.mb-unit.laid.counted svg{filter:drop-shadow(0 0 10px rgba(232,165,58,.95));}'
   + '.mb-unit.fly{pointer-events:none;z-index:60;filter:drop-shadow(0 8px 12px rgba(20,30,28,.25));}'
-  + '.mb-supply{position:absolute;width:96px;height:56px;cursor:grab;touch-action:none;}'
+  /* ⭐ THE TWO SUPPLIES ARE A CONSTANT DEVICE SIZE.
+     Both live inside the scaled stage, so at the 320px floor (s ~ 0.43) the
+     length pile measured 41x24 and the cube tray 43x19 REAL pixels — under
+     half the 44px floor, on the only two controls that put a unit on the
+     bench. It went unseen because the tap-target gate excluded a class the
+     tool never emits (`mb-cube`) and because the pile was a <div>, which
+     `querySelectorAll('button, a')` cannot match. Both are buttons now, the
+     gate sees them, and the floor is divided back out of the scale. */
+  + '.mb-supply{position:absolute;width:96px;height:56px;cursor:grab;touch-action:none;'
+  +   'background:none;border:0;padding:0;'
+  +   'min-width:calc(48px / var(--mb-s));min-height:calc(48px / var(--mb-s));}'
   + '.mb-supply .mb-unit{pointer-events:none;position:absolute;}'
   + '.mb-minichip{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:6px 12px;'
   +   'border-radius:var(--lcs-radius-pill);border:1.5px solid var(--lcs-line);background:var(--lcs-surface);'
@@ -2366,8 +2608,33 @@ var MeasurementBench = {
   /* weight */
   + '.mb-balance{position:absolute;left:0;top:0;pointer-events:none;}'
   + '.mb-balance .mb-cube-g{pointer-events:auto;cursor:pointer;}'
-  + '.mb-cubesupply{position:absolute;display:flex;gap:2px;min-width:100px;min-height:44px;padding:6px 10px;'
-  +   'background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.35);border-radius:14px;cursor:pointer;align-items:center;}'
+  + '.bal-wood{fill:var(--mb-wood);stroke:var(--mb-wood-deep);stroke-width:1.8;stroke-linejoin:round;}'
+  + '.bal-wood-d{fill:var(--mb-wood-deep);}'
+  + '.bal-beam{fill:var(--mb-wood);stroke:var(--mb-wood-deep);stroke-width:2;stroke-linejoin:round;}'
+  + '.bal-beam-hi{fill:none;stroke:rgba(255,255,255,.34);stroke-width:2.4;stroke-linecap:round;}'
+  + '.bal-stir{stroke:var(--mb-wood-deep);stroke-width:3;stroke-linecap:round;}'
+  + '.bal-needle{fill:var(--mb-coral);}'
+  + '.bal-plate{fill:var(--mb-paper);stroke:var(--mb-line);stroke-width:1.4;}'
+  + '.bal-tick{stroke:var(--mb-teal);stroke-width:2.6;stroke-linecap:round;}'
+  + '.bal-tick-s{stroke:var(--mb-teal-soft);stroke-width:1.8;stroke-linecap:round;opacity:.7;}'
+  + '.bal-boss{fill:var(--mb-brass);stroke:var(--mb-wood-deep);stroke-width:2;}'
+  + '.bal-boss-hi{fill:rgba(255,255,255,.55);}'
+  /* 1.6px cord with a light core — 2.5px reads as dowel, not string, and a
+     curve would be a lie about the physics (slack cord on a balance) */
+  + '.pan-str{stroke:var(--mb-wood-deep);stroke-width:1.6;stroke-linecap:round;}'
+  + '.pan-back{fill:#936E44;}'
+  + '.pan-front{fill:var(--mb-wood);stroke:var(--mb-wood-deep);stroke-width:1.8;stroke-linejoin:round;}'
+  + '.pan-shine{fill:none;stroke:rgba(255,255,255,.32);stroke-width:2.2;stroke-linecap:round;}'
+  /* the moment of balance — on the boss and the plate, never a colour verdict */
+  + '.mb-balance.settled .bal-boss{animation:mbBoss 420ms cubic-bezier(.34,1.32,.5,1);'
+  +   'transform-box:fill-box;transform-origin:center;}'
+  + '.mb-balance.settled .bal-plate{animation:mbPlate 900ms var(--lcs-ease);}'
+  + '@keyframes mbBoss{0%{transform:scale(1)}45%{transform:scale(1.18)}100%{transform:scale(1)}}'
+  + '@keyframes mbPlate{0%,100%{fill:var(--mb-paper)}30%{fill:var(--mb-brass-lite)}}'
+  + '.mb-cubesupply{position:absolute;display:flex;gap:2px;padding:6px 10px;'
+  +   'min-width:max(100px,calc(48px / var(--mb-s)));min-height:calc(48px / var(--mb-s));'
+  +   'background:var(--mb-paper);border:1.5px solid var(--mb-wood-deep);border-radius:14px;cursor:pointer;'
+  +   'align-items:center;box-shadow:0 3px 0 rgba(58,44,28,.14);}'
 
   /* log */
   + '.mb-log{width:min(480px,92%);background:var(--lcs-surface);border:1.5px solid var(--lcs-line);border-radius:14px;'
@@ -2469,11 +2736,62 @@ var MeasurementBench = {
   +   'body.mb-wide .mb-stage-outer{max-width:1520px;}'
   + '}'
 
-  /* reduced motion */
+  /* reduced motion.
+     ⚠ THE SHIPPED BLOCK DELETED ALL POUR FEEDBACK: `transform:none` on
+     `.mb-vessel.pouring` meant a reduced-motion user saw literally nothing
+     happen when they poured. The STATIC tilt and the STATIC stream are facts
+     about what is going on, not decoration — only the motion goes. */
   + '@media (prefers-reduced-motion: reduce){'
   +   '.mb-unit.laid{transition:none !important;}'
-  +   '.mb-vessel,.mb-vessel.pouring{transition:none;transform:none;}'
+  +   '.mb-vbody{transition:none;}'
+  +   '.mb-vessel.arming::after{transition:none;}'
+  +   '.mb-stream{animation:none;stroke-dasharray:none;}'
+  +   '.mb-ripple,.mb-drop{animation:none;opacity:.5;}'
+  +   '.mb-balance.settled .bal-boss,.mb-balance.settled .bal-plate{animation:none;}'
   +   '.mb-ruler{animation:none;}'
+  +   '.mb-say.on{animation:none;}'
+  + '}'
+
+  /* the sheet is display:none on screen and only ever appears in print */
+  + '.mb-sheet{display:none;}'
+
+  /* =====================================================================
+     ⭐ THE PRINT SHEET — a recording sheet for the routine the bench runs.
+     ⚠ DOUBLE-LOCKED, because Ctrl+P is guarded by no chip: the subtree is
+     absent unless entitled AND every rule below is scoped `body.mb-paid`. A
+     block that is merely behind a button hands a free visitor the paid sheet
+     the moment they press Ctrl+P.
+     ⚠ LINE ART ONLY. Chrome ships "Background graphics" OFF for a great many
+     teachers, so anything carried by a background-color photocopies BLANK.
+     Borders print unconditionally; nothing here is filled.
+     ⚠ The heading is the shell's own title, un-hidden — eleven locales, zero
+     new strings.
+     ===================================================================== */
+  + '@media print{'
+  +   '@page{size:A4 portrait;margin:14mm;}'
+  +   'body.mb-paid html,body.mb-paid body,body.mb-paid .lcs-app,body.mb-paid .lcs-stage{'
+  +     'background:#FFF !important;box-shadow:none !important;height:auto !important;'
+  +     'max-height:none !important;max-width:none !important;overflow:visible !important;padding:0 !important;}'
+  +   'body.mb-paid .lcs-header,body.mb-paid .lcs-controls,body.mb-paid .lcs-instruction{display:none !important;}'
+  +   'body.mb-paid .mb-wrap{display:none !important;}'
+  +   'body.mb-paid .mb-sheet{display:block !important;}'
+  +   'body.mb-paid .mb-page{break-after:page;page-break-after:always;break-inside:avoid;'
+  +     'page-break-inside:avoid;color:#000;font-family:Nunito,sans-serif;}'
+  +   'body.mb-paid .mb-page:last-child{break-after:auto;page-break-after:auto;}'
+  /* a name rule, not a label — the no-words law does not stop at the paper */
+  +   'body.mb-paid .mb-page::before{content:"";display:block;width:82mm;height:0;'
+  +     'border-bottom:.7pt solid #444;margin:0 0 7mm;}'
+  +   'body.mb-paid .mb-phead{font-family:Baloo\\ 2,serif;font-size:17pt;font-weight:700;margin:0 0 5mm;}'
+  +   'body.mb-paid .mb-prow{display:table;width:100%;border-collapse:collapse;}'
+  +   'body.mb-paid .mb-pr{display:table-row;}'
+  +   'body.mb-paid .mb-pc{display:table-cell;height:14mm;border:.7pt solid #666;'
+  +     'text-align:center;vertical-align:middle;font-family:Baloo\\ 2,serif;font-size:13pt;width:25%;}'
+  +   'body.mb-paid .mb-pc.wide{width:50%;text-align:left;padding-left:3mm;}'
+  +   'body.mb-paid .mb-phr .mb-pc{height:10mm;font-size:11pt;}'
+  /* the unit strip: real squares to cut out and lay along a real object */
+  +   'body.mb-paid .mb-pstrip{display:flex;flex-wrap:wrap;gap:0;margin:0 0 6mm;}'
+  +   'body.mb-paid .mb-pu{width:18mm;height:18mm;border:.9pt solid #333;}'
+  +   'body.mb-paid .mb-pnote{font-size:10.5pt;line-height:1.35;margin:0 0 5mm;}'
   + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);

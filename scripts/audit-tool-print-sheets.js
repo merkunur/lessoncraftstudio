@@ -73,6 +73,25 @@ const TOOLS = [
       if (T._ensureSheet) T._ensureSheet();
     }
   },
+  /* ⚠ measurement-bench is DOUBLE-LOCKED like lids and wodb: the sheet subtree
+     is absent unless entitled AND every print rule is scoped `body.mb-paid`,
+     because Ctrl+P is guarded by no chip. A probe that does not force the tier
+     measures an un-entitled page and reports the chrome as still showing.
+     ⚠ Its sheet is also built ON DEMAND (`_ensureSheet`), not at mount, so the
+     prime must call it — otherwise this measures an empty container and passes
+     vacuously, which is what happened to comparison-planks in this gate's own
+     first version. */
+  {
+    key: 'measurement-bench', p: 'mb', apparatus: '.mb-sheet', chrome: '.mb-dock',
+    prime: function () {
+      var T = window.MeasurementBench;
+      if (!T) return;
+      T.premium = true;
+      document.body.classList.add('mb-paid');
+      if (T.render) T.render();
+      if (T._ensureSheet) T._ensureSheet();
+    }
+  },
   { key: 'unit-handle', p: 'unh', apparatus: '.unh-bench' },
   { key: 'unroll-tape', p: 'urt', apparatus: '.urt-bench' },
   { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' },

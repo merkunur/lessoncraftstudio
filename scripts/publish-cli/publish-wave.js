@@ -45,6 +45,13 @@
  *   6. EMBED-HIDE  — inject-embed-hide-style.js per wave locale. Injects the
  *                    body.lcs-embedded hide rule so the in-deck internal link sections
  *                    do NOT render inside an embed iframe (idempotent).
+ *  6c. SITE-CHROME — inject-deck-site-chrome.js per wave locale. Bakes the localized
+ *                    static site header + footer so a deck reads as a page OF the
+ *                    site: a deck bypasses app/[locale]/layout.tsx entirely, so
+ *                    without this a visitor from Google gets no logo, no nav and no
+ *                    footer. Idempotent; CSS at the TOP of <head> so hreflang stays
+ *                    last. Markup SoT = scripts/lib/site-chrome.js (shared with the
+ *                    landing generator). This step is ALSO the forward path.
  *   7. HREFLANG    — populate-and-inject-hreflang.js across the FULL 11-locale set
  *                    (cross-locale sibling blocks need every locale, not just the
  *                    wave's). Runs AFTER embed-hide so the hreflang block stays last
@@ -70,8 +77,8 @@
  * Usage:
  *   node scripts/publish-cli/publish-wave.js <staging-folder> --locales=<csv> [--confirm]
  *        [--decks-root=<path>] [--updates-manifest=<path>] [--batch-id=<id>]
- *        [--skip-preflight] [--skip-preband] [--skip-alt-text] [--skip-audit]
- *        [--no-db-check]
+ *        [--skip-preflight] [--skip-preband] [--skip-alt-text] [--skip-site-chrome]
+ *        [--skip-audit] [--no-db-check]
  *
  * Exit 0 only if every executed step succeeds; non-zero (and STOPS) at the first
  * failing step, naming it.
@@ -100,6 +107,7 @@ function parseArgs(argv) {
     skipPreflight: false,
     skipPreband: false,
     skipAltText: false,
+    skipSiteChrome: false,
     skipAudit: false,
     noDbCheck: false,
   };
@@ -111,6 +119,7 @@ function parseArgs(argv) {
     else if (a === '--skip-img-dims') args.skipImgDims = true;
     else if (a === '--skip-lazy-deckend') args.skipLazyDeckend = true;
     else if (a === '--skip-topic-slash') args.skipTopicSlash = true;
+    else if (a === '--skip-site-chrome') args.skipSiteChrome = true;
     else if (a === '--skip-audit') args.skipAudit = true;
     else if (a === '--no-db-check') args.noDbCheck = true;
     else if (a === '--help' || a === '-h') args.help = true;
@@ -147,6 +156,8 @@ Options:
   --skip-img-dims         skip the worksheet-img width/height retrofit (NOT recommended; mobile CLS)
   --skip-lazy-deckend     skip the deckend-thumb lazy-load + font-async retrofit (NOT recommended; mobile LCP)
   --skip-topic-slash      skip the end-deck topic-link trailing-slash strip (NOT recommended; internal redirects)
+  --skip-site-chrome      skip the site header/footer injection (NOT recommended; decks
+                          bypass the Next layout, so they'd ship with no site nav at all)
   --skip-audit            skip the post-publish deck.html audit
   --no-db-check           pass through to PREBAND (skip existing-title collision check)
 
@@ -273,7 +284,8 @@ function main() {
     console.log('mutate the staged ZIPs), so publish-bulk above operated on UN-prebanded');
     console.log('ZIPs — any DESCRIPTION_LENGTH_TOO_LONG / TITLE_NON_UNIQUE errors it');
     console.log('reported are EXPECTED and are auto-fixed by PREBAND under --confirm.');
-    console.log('Post-publish steps (og-images, alt-text, end-links, embed-hide, hreflang,');
+    console.log('Post-publish steps (og-images, alt-text, end-links, embed-hide, site-chrome,');
+    console.log('hreflang,');
     console.log('audit) are skipped in dry-run. Re-run with --confirm to publish + run the');
     console.log('full SEO finalization.');
     process.exit(0);
@@ -360,6 +372,27 @@ function main() {
     runStep(`ANALYTICS — inject-analytics-beacon (${loc})`, 'inject-analytics-beacon.js', [`--locale=${loc}`, ...scopeArg]);
   }
 
+  // STEP 6c — SITE CHROME: inject the localized static site header + footer so a
+  // deck page reads as a page OF the site rather than an orphan asset. A deck is
+  // served by nginx and never touches app/[locale]/layout.tsx, so without this a
+  // visitor arriving from Google has no logo, no nav and no footer — no way into
+  // the rest of the site. Per-locale; idempotent (id="lcs-site-chrome" +
+  // sentinel-guarded); CSS goes at the TOP of <head> so the hreflang block stays
+  // last (§17.8.1).
+  //
+  // Ordering is load-bearing: AFTER end-links / embed-hide / analytics (so the
+  // </body> anchor sees the final document) and BEFORE hreflang and the audit.
+  // This step is also the FORWARD path — there is deliberately no chrome emitter
+  // in catalog-export.js, because a browser file cannot require the shared module
+  // and a byte-duplicated copy is the drift trap §21.8-A records.
+  if (!args.skipSiteChrome) {
+    for (const loc of args.locales) {
+      runStep(`SITE-CHROME — inject-deck-site-chrome (${loc})`, 'inject-deck-site-chrome.js', [`--locale=${loc}`, ...scopeArg]);
+    }
+  } else {
+    console.log('\n(skipping site-chrome injection per --skip-site-chrome)');
+  }
+
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
@@ -401,7 +434,8 @@ function main() {
   console.log('  native slug ×locale · canonical · banded description · disambiguated');
   console.log('  title · OG (14 tags + composite image) · LearningResource+ImageObject');
   console.log('  JSON-LD · rich alt-text · per-locale end-deck topic links · embed-hide');
-  console.log('  · cross-locale hreflang · sitemap (auto via ID-parity shard) · audited.');
+  console.log('  · localized site header + footer · cross-locale hreflang · sitemap');
+  console.log('  (auto via ID-parity shard) · audited.');
   console.log(`${'═'.repeat(64)}\n`);
   console.log('Next: spot-check a few live deck URLs (curl 200 + grep <title>/og:image),');
   console.log('and remember Cloudflare 5-min TTL before edge reflects new bytes.');

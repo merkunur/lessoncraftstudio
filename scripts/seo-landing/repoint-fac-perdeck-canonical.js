@@ -18,6 +18,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { replaceQuoteTerminatedOutsideScripts } = require('./replace-outside-scripts');
 
 const argv = process.argv.slice(2);
 const arg = (k, d) => { const a = argv.find(s => s.indexOf('--' + k + '=') === 0); return a ? a.slice(k.length + 3) : d; };
@@ -36,7 +37,7 @@ for (const l of data.landings) {
   for (const ds of decks) map[ds] = url;
 }
 
-let okFiles = 0, replTotal = 0; const missing = [], noop = [], already = [];
+let okFiles = 0, replTotal = 0, sparedTotal = 0; const missing = [], noop = [], already = [];
 for (const [slug, newURL] of Object.entries(map)) {
   const f = `${DECKS_ROOT}/${slug}/deck.html`;
   if (!fs.existsSync(f)) { missing.push(slug); continue; }
@@ -48,13 +49,17 @@ for (const [slug, newURL] of Object.entries(map)) {
   const needles = new Set();
   if (current) needles.add(current);
   needles.add(`${HOST}/${LOCALE}/decks/${slug}/`);
-  let html = orig, n = 0;
+  /* ⚠ Outside executable <script> only. The deck's inline embed affordance
+     assigns this exact quote-terminated URL to a var, and rewriting it pointed
+     the embed iframe at a landing page — which posts no resize message and
+     renders the full site chrome. JSON-LD is data and is still rewritten. */
+  let html = orig, n = 0, sparedHere = 0;
   for (const needle of needles) {
     if (!needle || needle === newURL) continue;
-    for (const q of ['"', "'"]) {
-      const parts = html.split(needle + q); n += parts.length - 1; html = parts.join(newURL + q);
-    }
+    const rep = replaceQuoteTerminatedOutsideScripts(html, needle, newURL);
+    html = rep.html; n += rep.n; sparedHere += rep.skipped;
   }
+  sparedTotal += sparedHere;
   if (n === 0) { noop.push(slug); continue; }
   if (!DRY) {
     const bak = f + '.perdeck-canonical-bak';
@@ -64,6 +69,6 @@ for (const [slug, newURL] of Object.entries(map)) {
   okFiles++; replTotal += n;
 }
 console.log(`${DRY ? '[DRY-RUN] ' : ''}fac per-deck repoint locale=${LOCALE}: deck-slugs=${Object.keys(map).length} ` +
-  `repointed-files=${okFiles} replacements=${replTotal} already-correct=${already.length} ` +
+  `repointed-files=${okFiles} replacements=${replTotal} spared-in-scripts=${sparedTotal} already-correct=${already.length} ` +
   `missing=${missing.length}${missing.length ? ' [' + missing.slice(0, 6).join(',') + ']' : ''} ` +
   `noop=${noop.length}${noop.length ? ' [' + noop.slice(0, 6).join(',') + ']' : ''}`);

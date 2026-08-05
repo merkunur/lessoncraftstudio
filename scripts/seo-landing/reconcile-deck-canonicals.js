@@ -24,6 +24,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { replaceQuoteTerminatedOutsideScripts } = require('./replace-outside-scripts');
 
 const HOST = 'https://www.lessoncraftstudio.com';
 const ALL_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -51,15 +52,16 @@ function loadMaps(locale) {
   return { deckToLanding, landingSlugs };
 }
 
+/* ⚠ Must not reach inside executable <script> blocks. catalog-export.js emits
+   a quote-terminated self-canonical assignment (var url="…/<loc>/decks/<slug>/";)
+   inside the deck's inline embed affordance — a verbatim match for this needle.
+   Rewriting it repointed the embed iframe at a landing page, which posts no
+   resize message and renders the full site chrome, so embedding broke on every
+   deck a repoint touched. JSON-LD is DATA and is still rewritten; only
+   executable code is spared. */
 function replaceAllQuoteTerminated(html, fromURL, toURL) {
-  let n = 0;
-  for (const q of ['"', "'"]) {
-    const needle = fromURL + q, repl = toURL + q;
-    const parts = html.split(needle);
-    n += parts.length - 1;
-    html = parts.join(repl);
-  }
-  return { html, n };
+  const r = replaceQuoteTerminatedOutsideScripts(html, fromURL, toURL);
+  return { html: r.html, n: r.n, skipped: r.skipped };
 }
 
 function writeAtomic(file, content) {

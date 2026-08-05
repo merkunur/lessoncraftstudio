@@ -31,6 +31,8 @@ var db = require('./db');
 var seoReconciliation = require('./seo-reconciliation');
 var countInboundMod = require('./count-inbound-surfaces');
 var waveScope = require('./wave-scope');
+// One source of truth for what a valid embed iframe src looks like.
+var embedSrcCheck = require('./verify-deck-embed-src');
 
 var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
 var DECKS_ROOT_DEFAULT = '/var/www/lcs-media/decks';
@@ -452,6 +454,33 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
     checks.metaDescriptionFallback = { pass: true };
   }
 
+  // ===== Check 18: embed snippet's iframe points at the PLAYABLE deck =====
+  // The embed affordance hands teachers a copy-paste iframe. Its src must be
+  // this deck's own directory — the only URL that emits the lcs-embed-resize
+  // message and hides the site chrome when framed. A canonical repoint once
+  // dragged it onto the landing page instead, which does neither, and every
+  // string-level check still passed: the snippet was well-formed and the URL
+  // resolved 200. It was wrong only at runtime, on ~32,000 decks.
+  // Two shapes are legitimate — a baked literal (retrofitted decks) and
+  // `'+embedSrc+'` resolved from its own var (decks generated after the source
+  // fix). `'+url+'` is not: `url` is the canonical and follows repoints.
+  var embedRes = embedSrcCheck.resolveEmbedSrc(htmlText);
+  var wantEmbed = 'https://www.lessoncraftstudio.com/' + dbDeck.language + '/decks/' + dbDeck.slug + '/';
+  if (htmlText.indexOf('lcs-embed-snippet') === -1) {
+    checks.embedIframeSrc = { pass: true, skip: 'no embed affordance in this deck' };
+  } else if (embedRes.kind === 'canonical-concat') {
+    checks.embedIframeSrc = { pass: false, category: 'FOLLOWS_CANONICAL' };
+    defects.push('EMBED_IFRAME_SRC_NOT_DECK_URL');
+  } else if (!embedRes.value) {
+    checks.embedIframeSrc = { pass: false, category: 'UNRESOLVED', kind: embedRes.kind };
+    defects.push('EMBED_IFRAME_SRC_NOT_DECK_URL');
+  } else if (embedRes.value !== wantEmbed) {
+    checks.embedIframeSrc = { pass: false, category: 'WRONG_TARGET', value: embedRes.value, expected: wantEmbed };
+    defects.push('EMBED_IFRAME_SRC_NOT_DECK_URL');
+  } else {
+    checks.embedIframeSrc = { pass: true };
+  }
+
   // ===== Check 17: title displayed-length target 50-70 =====
   // Deck-title overhaul 2026-05-28: a good title is 50-70 displayed chars.
   // Displayed length = entity-decoded (& not &amp;) — what Google renders +
@@ -780,7 +809,15 @@ async function main() {
   await db.disconnect();
 }
 
-main().catch(function (err) {
-  console.error('[audit-deck-html] FATAL:', err && err.stack || err);
-  process.exit(1);
-});
+/* Guarded so this module can be REQUIRED by its poison test without kicking off
+   a full database-backed audit as an import side effect. Unguarded, `require()`
+   alone ran main(). CLI behaviour is unchanged. */
+if (require.main === module) {
+  main().catch(function (err) {
+    console.error('[audit-deck-html] FATAL:', err && err.stack || err);
+    process.exit(1);
+  });
+}
+
+/* Exported so the per-check poison tests can drive a single deck in memory. */
+module.exports = { runChecksForDeck: runChecksForDeck };

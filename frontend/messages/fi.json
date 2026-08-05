@@ -38,7 +38,9 @@
         "interactive": "Kaikki interaktiiviset",
         "languages": "Kielet"
       },
-      "languages": "Kielet"
+      "languages": "Kielet",
+      "activities": "Tehtävät",
+      "manipulatives": "Työkalut"
     }
   },
   "homepage": {

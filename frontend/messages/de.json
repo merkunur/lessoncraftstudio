@@ -38,7 +38,9 @@
         "interactive": "Alle interaktiven",
         "languages": "Sprachen lernen"
       },
-      "languages": "Sprachen"
+      "languages": "Sprachen",
+      "activities": "Aufgaben",
+      "manipulatives": "Werkzeuge"
     }
   },
   "homepage": {

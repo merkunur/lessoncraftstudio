@@ -31,6 +31,15 @@
 const fs = require('fs');
 const path = require('path');
 
+/* Static site header + footer. These ~30k pages are served by nginx straight
+ * from disk and never touch app/[locale]/layout.tsx, so without this they carry
+ * NO site chrome at all — a visitor arriving from Google gets a breadcrumb and
+ * nothing else. scripts/lib/site-chrome.js is the SINGLE source of truth,
+ * shared with scripts/publish-cli/inject-deck-site-chrome.js; do NOT inline a
+ * second copy here (that is exactly the duplicated-renderer trap CLAUDE.md
+ * §21.8-A records for buildHreflangAlternates). */
+const siteChrome = require('../lib/site-chrome');
+
 /* ============================== paths / data ============================== */
 
 const REPO_CANDIDATES = [
@@ -890,7 +899,7 @@ h1{font-family:'Fraunces',serif;font-weight:700;font-size:1.875rem;line-height:1
 .versions a{display:block;border-radius:.75rem;overflow:hidden;border:1px solid var(--cream-300);background:#fff;transition:transform .15s}
 .versions a:hover{transform:translateY(-2px)}
 .versions img{display:block;width:100%;aspect-ratio:480/620;object-fit:cover}
-`.trim();
+`.trim() + siteChrome.cssRules();
 
 /* ============================== render one landing ============================== */
 
@@ -1213,6 +1222,7 @@ ${quizSchema ? `<script type="application/ld+json">${jsonLd(quizSchema)}</script
 ${relatedItemList ? `<script type="application/ld+json">${jsonLd(relatedItemList)}</script>` : ''}
 </head>
 <body>
+${siteChrome.header(locale, 'landing')}
 <main>
   <div class="container">
 
@@ -1283,6 +1293,7 @@ ${(() => {
 ${makerHtml}
   </div>
 </main>
+${siteChrome.footer(locale, 'landing')}
 <script>
 (function(){
   var t=document.getElementById('lcs-embed-toggle'),p=document.getElementById('lcs-embed-panel'),

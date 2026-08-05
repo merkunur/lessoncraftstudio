@@ -227,6 +227,16 @@ fi
 echo "🔎 hreflang mirror parity check..."
 node /opt/lessoncraftstudio/scripts/publish-cli/hreflang-codes.test.js || { echo "ERROR: hreflang-codes.js has drifted from frontend/lib/seo/hreflang.ts — fix before deploying"; exit 1; }
 
+# Guard: the static site header/footer baked into ~40,000 nginx-served pages
+# (30,078 worksheet landings + ~9,752 deck players). Nine route segments are
+# frozen into those files with NO build-time reference, so a route rename would
+# orphan every one of them silently. This asserts each still resolves to a
+# page.tsx, that all 11 locales are genuinely localized and escaped, that the
+# three hide states (print / embed / landscape-fit) are present, and that
+# --rewrite is byte-idempotent. Browser-free, ~1s.
+echo "🔎 site-chrome route + locale guard..."
+node /opt/lessoncraftstudio/scripts/publish-cli/site-chrome.test.js || { echo "ERROR: the static site chrome is broken — a renamed route would orphan ~40k baked links, or a locale lost its strings. See scripts/lib/site-chrome.js"; exit 1; }
+
 # Guard: CLAUDE.md §10 indexable-route rule. Every text/html surface must declare a
 # canonical or a robots directive (nginx X-Robots-Tag counts). Ratcheted against a
 # frozen baseline of pre-existing debt, so this fails only on NEWLY-ungated surfaces.

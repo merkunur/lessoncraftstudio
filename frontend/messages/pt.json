@@ -23,7 +23,7 @@
       "start": "Comece com LessonCraftStudio",
       "blog": "Dicas e estratégias para professores"
     },
-    "pricing": "Precos",
+    "pricing": "Preços",
     "toggleMenu": "Abrir menu",
     "selectLanguage": "Selecionar idioma"
   },
@@ -38,7 +38,9 @@
         "interactive": "Todas as interativas",
         "languages": "Idiomas"
       },
-      "languages": "Idiomas"
+      "languages": "Idiomas",
+      "activities": "Atividades",
+      "manipulatives": "Ferramentas"
     }
   },
   "homepage": {

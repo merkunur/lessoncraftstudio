@@ -38,7 +38,9 @@
         "interactive": "Browse all interactive",
         "languages": "Languages"
       },
-      "languages": "Languages"
+      "languages": "Languages",
+      "activities": "Activities",
+      "manipulatives": "Tools"
     }
   },
   "homepage": {

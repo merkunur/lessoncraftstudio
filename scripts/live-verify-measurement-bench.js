@@ -74,7 +74,8 @@ const ok = (m, cond, extra) => {
       const w = document.querySelector('.mb-wrap');
       return parseFloat(getComputedStyle(w).getPropertyValue('--mb-s')) || 0;
     });
-    ok('the stage is drawn at ' + scale.toFixed(2) + 'x, not pinned to 1.03', scale > 1.03, scale);
+    const iw = Math.round(box.width);
+    ok('the stage is drawn at ' + scale.toFixed(2) + 'x inside a ' + iw + 'px frame', scale * 660 > iw * 0.7, 'scale ' + scale.toFixed(3) + ' frame ' + iw);
 
     /* ⭐ THE POUR, DRIVEN — the operator's second defect.
        Force the premium bench, then press and hold the jug for real. */

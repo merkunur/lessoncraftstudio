@@ -51,6 +51,34 @@ const VERDICT = {
 };
 const SCORE_RE = /\b(score|timer|streak|points|punkte|punteggio|puntos|pontos|punten|poäng|point)\b/i;
 
+/* ⭐ THE JUXTAPOSITION MUST BE IMPERSONAL ON BOTH SIDES.
+   The shipped English was "You guessed {g} · It measured {n}" — "you" against
+   "it" is person-versus-truth, the one asymmetry a no-shame comparison may not
+   have — and es/pt/sv/da carried the same shape. Mutation testing found the
+   gate could not see it at all.
+   ⚠ SCOPED TO THE COMPARISON FAMILY. A second-person ban across every string
+   would be far too wide: the hints legitimately address the child ("Tippe auf
+   ein Gefäß", "Arvioi ensin"). This is the ban-too-wide trap, and the scope IS
+   the fix — not a looser pattern.
+   ⚠ `\b` IS ASCII-ONLY. `\bdu\b` cannot fire correctly next to a non-ASCII
+   letter, so these use `\p{L}` lookarounds with the /u flag. A ban written
+   with `\b` is tested in the one language where it happens to work. */
+const SECOND_PERSON_KEYS = ['compareLine', 'measuredOnly', 'bothCountsLine'];
+const P = (words) => new RegExp('(?<!\\p{L})(' + words + ')(?!\\p{L})', 'iu');
+const SECOND_PERSON = {
+  en: P('you|your|yours'),
+  de: P('du|dein|deine|deinen|deiner|dir|dich'),
+  fr: P('tu|ton|ta|tes|toi|vous|votre|vos'),
+  it: P('tu|tuo|tua|tuoi|tue|ti'),
+  es: P('tú|tu|tus|ti|usted'),
+  pt: P('você|teu|tua|seu|sua|seus|suas'),
+  nl: P('je|jij|jouw|jou|u|uw'),
+  sv: P('du|din|ditt|dina|dig'),
+  da: P('du|din|dit|dine|dig'),
+  no: P('du|din|ditt|dine|deg'),
+  fi: P('sinä|sinun|sinua|arvasit|arvioit')
+};
+
 /* ---- load the tool ---- */
 const sandbox = {
   window: {},
@@ -140,6 +168,58 @@ for (const o of T.LENGTH_OBJECTS) {
   if (inch.formatLength(202.5) !== '4 1/2 in') E(`formatLength in fraction: ${inch.formatLength(202.5)} (want "4 1/2 in")`);
 }
 
+/* ================= 2b. THE POUR DIRECTION + THE VESSEL MODEL =======
+   The operator-reported defect, and the vessel laws that make the capacity
+   bench honest. All PURE, so they cost nothing and cannot be skipped. */
+{
+  /* ⭐ A SOURCE MUST TIP TOWARD WHAT IT IS FILLING. The shipped tool used ONE
+     css rule, rotate(-7deg), for every pour — negative is counter-clockwise
+     and every target sat to the jug's right, so it lifted its spout and tipped
+     AWAY. Checked over every ORDERED PAIR, not just the two the tool happens
+     to use today, so a future vessel cannot reintroduce it. */
+  const keys = Object.keys(T.VESSELS);
+  let pairs = 0;
+  for (const from of keys) for (const to of keys) {
+    if (from === to) continue;
+    pairs++;
+    const g = T._pourGeom(from, to);
+    const dir = Math.sign((T.VESSELS[to].x + T.VESSELS[to].w / 2) - (T.VESSELS[from].x + T.VESSELS[from].w / 2));
+    if (g.sgn !== dir) E(`pour ${from}->${to}: tips ${g.sgn > 0 ? 'right' : 'left'} but the target is to the ${dir > 0 ? 'right' : 'left'}`);
+    if (Math.sign(g.deg) !== dir) E(`pour ${from}->${to}: rotation ${g.deg} has the wrong sign for the direction`);
+    if (Math.abs(g.deg) < 10) E(`pour ${from}->${to}: ${g.deg} is too shallow to read across a room`);
+    if (Math.abs(g.deg) > 30) E(`pour ${from}->${to}: ${g.deg} is a topple, not a pour`);
+  }
+  if (pairs < 6) E(`pour direction: only ${pairs} ordered pairs tested — the law is near-vacuous`);
+
+  /* ⭐ A CUP IS THE SAME AMOUNT IN EVERY VESSEL, in every authored pair.
+     MEASURED on the shipped build at 2383 / 2969 / 4000 px2 per cup — a 68%
+     spread on a bench whose subject is that a unit is one fixed amount. */
+  const areaPerCup = (v) => (v.w * v.h) / v.cap;
+  const jugA = areaPerCup(T.JUG);
+  if (Math.abs(jugA - T.CUP_AREA) > 0.5) E(`jug: ${jugA.toFixed(1)} px2/cup ≠ CUP_AREA ${T.CUP_AREA}`);
+  let sames = 0, inversions = 0;
+  T.CAP_PAIRS.forEach((p, i) => {
+    ['tall', 'wide'].forEach((role) => {
+      const v = p[role];
+      const a = areaPerCup(v);
+      if (Math.abs(a - T.CUP_AREA) > 0.5) E(`pair ${i} ${role}: ${a.toFixed(1)} px2/cup ≠ CUP_AREA ${T.CUP_AREA}`);
+      if (!Number.isInteger(v.cap)) E(`pair ${i} ${role}: cap ${v.cap} is not a whole number of cups`);
+    });
+    /* the roles must actually LOOK like their names, or the pair teaches nothing */
+    if (!(p.tall.h > p.wide.h)) E(`pair ${i}: the "tall" vessel (${p.tall.h}) is not taller than the "wide" one (${p.wide.h})`);
+    if (!(p.wide.w > p.tall.w)) E(`pair ${i}: the "wide" vessel (${p.wide.w}) is not wider than the "tall" one (${p.tall.w})`);
+    /* the jug must be able to fill BOTH — the shipped 10 could not fill 8+6 */
+    if (p.tall.cap + p.wide.cap + 2 > T.JUG.cap) E(`pair ${i}: jug cap ${T.JUG.cap} cannot serve ${p.tall.cap}+${p.wide.cap}`);
+    if (p.tall.cap === p.wide.cap) sames++;
+    if (p.tall.cap < p.wide.cap) inversions++;
+  });
+  /* ⭐ the pairs are the pedagogy: without a collision and an inversion the
+     bench cannot disturb "taller means more", which is what it exists for. */
+  if (sames < 1) E('CAP_PAIRS: no pair holds the SAME amount in differently-shaped vessels (conservation is unreachable)');
+  if (inversions < 1) E('CAP_PAIRS: no pair where the TALLER vessel holds FEWER (the height heuristic is never disturbed)');
+  if (T.CAP_PAIRS.length < 4) E(`CAP_PAIRS: ${T.CAP_PAIRS.length} pairs is not a repeatable routine`);
+}
+
 /* ================= 3. BALANCE ==================================== */
 for (const [k, w] of Object.entries(T.WEIGHTS)) {
   if (!Number.isInteger(w) || w < 3 || w > 16) E(`weight ${k}: ${w} not an integer in 3-16`);
@@ -185,19 +265,39 @@ for (const [k, w] of Object.entries(T.WEIGHTS)) {
     const r = Math.hypot(L8.x - T.BAL_CX, L8.y - T.BAL_CY);
     if (Math.abs(r - (T.BAL.arm - T.BAL_HANG_INSET)) > 1e-6) E('panAnchor: hang radius drifted off arm − inset');
   }
-  /* structural connection: parse the emitted pan markup and assert the
-     strings run from the HANG POINT (0,0) to EXACTLY the dish rim ends,
-     the load seat sits inside the dish, and the 4-col stack fits */
+  /* ⭐ THE YOKE LAW — and this block used to assert the OPPOSITE of the design.
+     `BAL_ROPE_HALF: 20` was declared in the tool and used NOWHERE: both cords
+     ran from a single point at (0,0). This gate then built two assertions ON
+     that dead constant (lines above) AND required every cord to start at
+     exactly (0,0), i.e. it simultaneously validated geometry that did not
+     exist and pinned in place the geometry that did. Now the yoke is real, and
+     what is checked is what makes it correct: two cords, tops symmetric about
+     the hang point at exactly ±BAL_ROPE_HALF, ends on the rim, and — the part
+     that actually matters — the tops still land ON the beam once the beam
+     tilts, which is what _paintBalance rotates them for.
+     ⚠ attribute-order-independent parsing: the previous regex required
+     `<line x1=` literally, so simply adding a class attribute made it report
+     "0 strings" on correct markup. */
   {
     const P = T.PAN;
     const g = T._panGroup('x');
-    const lines = [...g.matchAll(/<line x1="([-\d.]+)" y1="([-\d.]+)" x2="([-\d.]+)" y2="([-\d.]+)"/g)]
-      .map((m) => m.slice(1, 5).map(Number));
+    const num = (tag, a) => { const m = tag.match(new RegExp(a + '="([-\\d.]+)"')); return m ? Number(m[1]) : NaN; };
+    const lineTags = g.match(/<line\b[^>]*>/g) || [];
+    const lines = lineTags.map((t) => [num(t, 'x1'), num(t, 'y1'), num(t, 'x2'), num(t, 'y2')]);
     if (lines.length !== 2) E(`panGroup: ${lines.length} strings (need 2)`);
-    for (const [x1, y1] of lines) if (x1 !== 0 || y1 !== 0) E('panGroup: a string does not start at the hang point (0,0)');
-    const ends = lines.map(([, , x2, y2]) => `${x2},${y2}`).sort();
-    const rimEnds = [`${-P.RIM_HALF},${P.RIM_Y}`, `${P.RIM_HALF},${P.RIM_Y}`].sort();
-    if (ends.join('|') !== rimEnds.join('|')) E(`panGroup: string ends ${ends.join(' ')} ≠ dish rim ends ${rimEnds.join(' ')}`);
+    else {
+      const tops = lines.map(([x1, y1]) => [x1, y1]).sort((a, b) => a[0] - b[0]);
+      if (tops.some(([, y1]) => y1 !== 0)) E('panGroup: a cord top is not on the beam line (y1 must be 0)');
+      if (Math.abs(tops[0][0] + T.BAL_ROPE_HALF) > 1e-9 || Math.abs(tops[1][0] - T.BAL_ROPE_HALF) > 1e-9) {
+        E(`panGroup: cord tops ${tops.map((t) => t[0]).join(',')} are not ±BAL_ROPE_HALF (${T.BAL_ROPE_HALF}) — the yoke is not real`);
+      }
+      /* the rotated tops must stay within the beam's own half-length */
+      const reach = T.BAL.arm - T.BAL_HANG_INSET + T.BAL_ROPE_HALF;
+      if (reach > T.BAL.arm) E(`panGroup: a cord top reaches ${reach} past the beam end ${T.BAL.arm}`);
+      const ends = lines.map(([, , x2, y2]) => `${x2},${y2}`).sort();
+      const rimEnds = [`${-P.RIM_HALF + 6},${P.RIM_Y - 2}`, `${P.RIM_HALF - 6},${P.RIM_Y - 2}`].sort();
+      if (ends.join('|') !== rimEnds.join('|')) E(`panGroup: cord ends ${ends.join(' ')} ≠ dish rim ends ${rimEnds.join(' ')}`);
+    }
     const dishes = [...g.matchAll(/<path d="M([-\d.]+) ([-\d.]+) q [-\d. ]+"/g)];
     for (const d of dishes) if (Math.abs(Number(d[1])) !== P.RIM_HALF || Number(d[2]) !== P.RIM_Y) E('panGroup: a dish path does not start at a rim end');
     if (!(P.SEAT_Y > P.RIM_Y)) E('panGroup: SEAT_Y must sit below the rim (inside the dish)');
@@ -247,7 +347,23 @@ const S = T.strings;
 for (const key of Object.keys(S)) {
   const en = S[key].en;
   if (!en) { E(`strings.${key}: missing en`); continue; }
-  const ph = (en.match(/\{\w+\}/g) || []);
+  /* ⚠ THE EXPECTED SET IS THE UNION OVER ALL LOCALES, NOT `en` ALONE.
+     Derived from `en`, the check was blind in exactly the direction that
+     matters: drop {n} from the ENGLISH and the expected set simply became
+     empty, so every locale "agreed" and the run passed — mutation testing
+     caught it surviving. English is a locale like the others and gets
+     checked against the consensus, not consulted as the oracle. */
+  /* ⚠ THE UNION SCANS **ALL** ELEVEN, NEVER THE --locales FILTER.
+     Built from `LOCALES`, a `--locales=en` run reduced the union to English
+     alone and the law became vacuous again — which is exactly how the
+     mutation survived a SECOND time after the first fix. A cross-locale
+     consistency law cannot be scoped to one locale. */
+  const ph = [];
+  for (const L of ALL) {
+    const v = S[key][L];
+    if (!v) continue;
+    for (const p of (v.match(/\{\w+\}/g) || [])) if (ph.indexOf(p) < 0) ph.push(p);
+  }
   for (const L of LOCALES) {
     const v = S[key][L];
     if (!v || !v.trim()) { E(`strings.${key}.${L}: empty`); continue; }
@@ -255,7 +371,11 @@ for (const key of Object.keys(S)) {
     if (VERDICT[L] && VERDICT[L].test(v)) E(`strings.${key}.${L}: verdict vocabulary ("${v}")`);
     if (SCORE_RE.test(v)) E(`strings.${key}.${L}: score/timer vocabulary ("${v}")`);
     if (/Common Core/.test(v)) E(`strings.${key}.${L}: mentions Common Core`);
+    if (SECOND_PERSON_KEYS.indexOf(key) >= 0 && SECOND_PERSON[L] && SECOND_PERSON[L].test(v)) {
+      E(`strings.${key}.${L}: addresses the child in the second person ("${v}")`);
+    }
   }
+  for (const p of ph) if (!en.includes(p)) E(`strings.${key}.en: drops placeholder ${p} that other locales carry`);
 }
 for (const [k, map] of Object.entries(T.NOUNS)) {
   for (const L of LOCALES) {

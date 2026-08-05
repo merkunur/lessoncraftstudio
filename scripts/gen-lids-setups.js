@@ -40,7 +40,17 @@ function admit(n, k) {
   if (!(n >= MIN_TOTAL && n <= MAX_TOTAL)) return false;
   if (!(k >= MIN_LIDS && k <= MAX_LIDS)) return false;   /* never k = 1 */
   if (Math.floor(n / k) < 1) return false;               /* every lid must hold something */
-  if (Math.floor(n / k) > 12) return false;              /* the marker strip tops out at 12 */
+  /* ⚠⚠ THE `> 12` CLAUSE IS GONE, AND IT SHOULD NEVER HAVE BEEN HERE.
+     It read "the marker strip tops out at 12" — so the BOOK was generated
+     around a defect in the strip instead of the strip being fixed to fit
+     the book. Measured against the shipped JSON, it cost the paid tier
+     every two-lid table above 25: totals 26, 27, 28, 29 and 30 had NO
+     k=2 entry at all, while the Teacher plan sells "bigger totals". At
+     the five largest paid totals the routine's own opening move — put two
+     lids down — had no ready-made table behind it.
+     The strip is now state-sized (stripTop: the next multiple of five
+     strictly greater than floor(n/2)), so it holds every share the model
+     can produce and the book no longer has to duck. */
   return true;
 }
 const family = (n, k) => (n % k === 0 ? 'shares' : 'remains');
@@ -53,7 +63,15 @@ const family = (n, k) => (n % k === 0 ? 'shares' : 'remains');
     ['a total below the floor is refused', () => admit(3, 2) === false],
     ['a total above the ceiling is refused', () => admit(31, 2) === false],
     ['a share of zero is refused', () => admit(4, 5) === false],
-    ['a share past the marker strip is refused', () => admit(30, 2) === false],
+    /* ⚠ THIS CASE USED TO ASSERT admit(30,2) === false, AND IT WAS
+       PINNING A DEFECT RATHER THAN GUARDING AGAINST ONE. The strip could
+       not hold a share of 15, so the generator was taught to refuse the
+       table instead — and a poison case then locked that in, which is
+       how five paid two-lid totals stayed missing for a whole release.
+       Sort each example by what it MEANS, not by whether it currently
+       passes: 30 counters under two lids is the routine's opening move
+       at the largest total the plan sells, and it must be ADMITTED. */
+    ['the biggest paid two-lid table is ADMITTED', () => admit(30, 2) === true],
     ['a legitimate setup is ADMITTED', () => admit(12, 3) === true],
     ['families split correctly', () => family(12, 3) === 'shares' && family(13, 3) === 'remains']
   ];

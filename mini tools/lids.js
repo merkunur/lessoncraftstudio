@@ -20,7 +20,7 @@
    share leaves its remainder sitting in plain sight on the table.
 
    THREE INVENTIONS:
-     1. ⭐ THE VALUE LOCK. Every lid of a colour hides the same number,
+     1. ⭐ THE VALUE LOCK. Every lid hides the same number,
         and that is enforced by MOTION, not by arithmetic: drop another
         lid and the counters re-settle underneath all of them until the
         shares are equal again. `total = visible + k*x` becomes a thing
@@ -117,44 +117,88 @@ var Lids = {
      brickor · brikker · brikker · laskunapit.
      --------------------------------------------------------------- */
   strings: {
-    title:        { en: "The Lids", de: "Die Deckel", fr: "Les couvercles", es: "Las tapaderas", pt: "As tampas", it: "I coperchi", nl: "Onder de deksels", sv: "Locken", da: "Lågene", no: "Lokkene", fi: "Kannen alla" },
-    instruction:  { en: "Put down two lids or more. Every lid of the same colour covers the same number of counters — so what one number fits under all of them?", de: "Legt zwei oder mehr Deckel hin. Unter jedem Deckel derselben Farbe liegen gleich viele Wendeplättchen – welche Zahl passt unter alle?", fr: "Posez deux couvercles ou plus : tous les couvercles de la même couleur cachent le même nombre de jetons, alors quel est ce nombre ?", es: "Pongamos dos tapaderas o más. Todas las del mismo color cubren la misma cantidad de fichas: ¿qué número cabe debajo de todas?", pt: "Coloquem duas tampas ou mais. Cada tampa da mesma cor cobre a mesma quantidade de fichas — então, que número cabe embaixo de todas elas?", it: "Metti due coperchi o più: ogni coperchio dello stesso colore copre lo stesso numero di gettoni, e allora quale numero sta sotto tutti quanti?", nl: "Leg twee of meer deksels neer. Onder elk deksel van dezelfde kleur liggen evenveel fiches — welk getal past er dan onder allemaal?", sv: "Lägg ut två lock eller fler. Alla lock i samma färg döljer lika många brickor – vilket tal passar under vart och ett?", da: "Læg to eller flere låg på bordet. Låg i samme farve dækker lige mange brikker – så hvilket tal ligger under dem alle?", no: "Legg to eller flere lokk på bordet. Alle lokk i samme farge dekker like mange brikker – hvilket tall passer under hvert av dem?", fi: "Asettakaa pöydälle vähintään kaksi kantta: samanvärisen kannen alla on aina yhtä monta laskunappia, joten mikä sama luku sopii jokaisen kannen alle?" },
+    title:           { en: "The Lids", de: "Die Deckel", fr: "Les couvercles", es: "Las tapaderas", pt: "As tampas", it: "I coperchi", nl: "Onder de deksels", sv: "Locken", da: "Lågene", no: "Lokkene", fi: "Kannen alla" },
+    instruction:     { en: "Drag two lids onto the table — or three, or four. Every lid covers the same number of counters, so what one number fits under all of them?", de: "Zieht zwei Deckel auf den Tisch. Unter jedem Deckel liegen gleich viele Wendeplättchen – welche Zahl passt unter alle Deckel?", fr: "Faites glisser deux couvercles sur le plateau, ou trois, ou quatre : sous chaque couvercle il y a le même nombre de jetons. Quel est ce nombre ?", es: "Arrastremos dos tapaderas a la mesa, o tres, o cuatro. Cada tapadera cubre la misma cantidad de fichas: ¿qué número cabe debajo de todas?", pt: "Arrastem duas tampas para a mesa, ou três, ou quatro. Cada tampa cobre a mesma quantidade de fichas — então, que número cabe embaixo de todas elas?", it: "Trascina due coperchi sul tavolo, o tre, o quattro: sotto ognuno c'è lo stesso numero di gettoni. Quale numero sta sotto tutti?", nl: "Sleep twee deksels op het blad, of drie, of vier. Onder elk deksel liggen evenveel fiches — welk getal past er dan onder allemaal?", sv: "Dra ut två lock på bordet, eller tre, eller fyra. Under varje lock ligger lika många brickor – vilket tal passar under alla?", da: "Træk to låg ud på bordet, eller tre, eller fire. Under hvert låg ligger der lige mange brikker – så hvilket tal ligger under dem alle?", no: "Dra to lokk ut på bordet, eller tre, eller fire. Under hvert lokk ligger det like mange brikker – hvilket tall passer under alle sammen?", fi: "Vetäkää pöydälle kaksi kantta, tai kolme, tai neljä: jokaisen kannen alla on yhtä monta laskunappia, joten mikä sama luku sopii niiden kaikkien alle?" },
 
-    hintPlace:    { en: "Put down two lids.", de: "Legt zwei Deckel hin.", fr: "Posez deux couvercles.", es: "Pongamos dos tapaderas.", pt: "Coloquem duas tampas.", it: "Metti giù due coperchi.", nl: "Leg twee deksels neer.", sv: "Lägg ut två lock.", da: "Læg to låg på bordet.", no: "Legg to lokk på bordet.", fi: "Asettakaa pöydälle kaksi kantta." },
-    hintShare:    { en: "The same number is under each one. Which number?", de: "Unter jedem Deckel liegen gleich viele Plättchen. Wie viele sind es?", fr: "Il y a le même nombre de jetons sous chaque couvercle. Lequel ?", es: "Debajo de cada una hay la misma cantidad. ¿Cuál es ese número?", pt: "Embaixo de cada tampa há a mesma quantidade. Que número será?", it: "Sotto ognuno c'è lo stesso numero. Quale?", nl: "Onder elk deksel liggen er evenveel. Welk getal is dat?", sv: "Det ligger lika många under varje lock. Vilket tal?", da: "Der ligger lige mange under hvert låg. Hvilket tal er det?", no: "Det er like mange under hvert lokk. Hvilket tall er det?", fi: "Jokaisen kannen alla on yhtä monta nappia. Mikä luku se on?" },
-    hintMark:     { en: "Park the marker on the number you think it is.", de: "Setzt den Marker auf die Zahl, die ihr vermutet.", fr: "Placez le repère sur le nombre que vous proposez.", es: "Pongamos la marca en el número que creemos que está debajo.", pt: "Coloquem o marcador no número que a turma acha que é.", it: "Metti il segnalino sul numero che secondo voi c'è sotto.", nl: "Zet het pijltje op het getal dat de klas kiest.", sv: "Sätt markören på det tal ni tror det är.", da: "Sæt markøren på det tal, I gætter på.", no: "Sett markøren på det tallet dere tror.", fi: "Siirtäkää merkki sen luvun kohdalle, jonka luokka arvaa." },
-    hintLift:     { en: "Lift the lids.", de: "Hebt die Deckel an.", fr: "Soulevez les couvercles.", es: "Levantemos las tapaderas.", pt: "Levantem as tampas.", it: "Ora alza i coperchi.", nl: "Til de deksels op.", sv: "Lyft på locken.", da: "Løft lågene.", no: "Løft lokkene.", fi: "Nyt voitte nostaa kannet." },
-    hintLeftover: { en: "Some are left over. They do not fit under a lid.", de: "Einige Plättchen bleiben übrig – sie passen unter keinen Deckel.", fr: "Il reste des jetons : ils ne tiennent sous aucun couvercle.", es: "Sobran algunas fichas: no caben debajo de ninguna tapadera.", pt: "Sobraram algumas fichas. Elas não cabem embaixo de nenhuma tampa.", it: "Alcuni gettoni sono avanzati: non stanno sotto nessun coperchio.", nl: "Er blijven er over. Die passen niet onder een deksel.", sv: "Några blir över. De får inte plats under något lock.", da: "Nogle brikker er til overs. De kan ikke være under et låg.", no: "Noen brikker blir til overs. De får ikke plass under et lokk.", fi: "Osa napeista jäi yli. Ne eivät jakaudu tasan kansien alle." },
+    hintPlace:       { en: "Drag a lid onto the table. Put down two.", de: "Zieht einen Deckel auf den Tisch – und dann noch einen.", fr: "Faites glisser un couvercle sur le plateau, puis un deuxième.", es: "Arrastremos dos tapaderas a la mesa.", pt: "Arrastem uma tampa para a mesa. Coloquem duas.", it: "Trascina un coperchio sul tavolo. Mettine giù due.", nl: "Sleep een deksel naar een stippelrondje. Leg er twee neer.", sv: "Dra ett lock till en streckad ring. Lägg ut två.", da: "Træk et låg ud på en stiplet cirkel. Læg to låg.", no: "Dra et lokk ut til en stiplet ring. Legg ut to.", fi: "Vetäkää kansi pöydälle. Asettakaa kaksi kantta." },
+    hintRule:        { en: "Every lid covers the same number of counters.", de: "Jeder Deckel deckt gleich viele Plättchen zu.", fr: "Tous les couvercles cachent le même nombre de jetons.", es: "Todas las tapaderas cubren la misma cantidad de fichas.", pt: "Cada tampa cobre a mesma quantidade de fichas.", it: "Ogni coperchio copre la stessa quantità di gettoni.", nl: "Onder elk deksel liggen evenveel fiches.", sv: "Under varje lock ligger lika många brickor.", da: "Under hvert låg ligger der lige mange brikker.", no: "Under hvert lokk ligger det like mange brikker.", fi: "Jokaisen kannen alla on yhtä monta nappia." },
+    hintShare:       { en: "Which number is under each lid?", de: "Welche Zahl liegt unter jedem Deckel?", fr: "Quel nombre est caché sous chaque couvercle ?", es: "¿Qué número hay debajo de cada tapadera?", pt: "Que número está embaixo de cada tampa?", it: "Quale numero sta sotto ogni coperchio?", nl: "Welk getal ligt er onder elk deksel?", sv: "Vilket tal ligger under varje lock?", da: "Hvilket tal ligger under hvert låg?", no: "Hvilket tall ligger under hvert lokk?", fi: "Mikä luku on jokaisen kannen alla?" },
+    hintMark:        { en: "Choose a number below.", de: "Wählt unten eine Zahl aus.", fr: "Choisissez un nombre ci-dessous.", es: "Elijamos un número aquí abajo.", pt: "Escolham um número aqui embaixo.", it: "Scegli un numero qui sotto.", nl: "Kies hieronder een getal.", sv: "Välj ett av talen nedanför.", da: "Vælg et af tallene nedenfor.", no: "Velg et tall nedenfor.", fi: "Valitkaa alta yksi luku." },
+    hintLift:        { en: "Now lift the lids.", de: "Hebt jetzt die Deckel an.", fr: "Soulevez maintenant les couvercles.", es: "Levantemos ahora las tapaderas.", pt: "Agora levantem as tampas.", it: "Ora alza i coperchi.", nl: "Til nu de deksels op.", sv: "Lyft nu på locken.", da: "Løft nu lågene.", no: "Løft nå lokkene.", fi: "Nostakaa nyt kannet." },
+    hintLeftover:    { en: "Some counters are left over. They do not fit under a lid.", de: "Einige Plättchen bleiben übrig – sie passen unter keinen Deckel.", fr: "Il reste des jetons : ils ne tiennent sous aucun couvercle.", es: "Sobran algunas fichas: no caben debajo de ninguna tapadera.", pt: "Sobraram algumas fichas. Elas não cabem embaixo de nenhuma tampa.", it: "Alcuni gettoni sono avanzati: non stanno sotto nessun coperchio.", nl: "Er blijven fiches over. Die passen niet onder een deksel.", sv: "Några brickor blir över. De får inte plats under något lock.", da: "Nogle brikker er til overs. Der er ikke plads til dem under lågene.", no: "Noen brikker blir til overs. De får ikke plass under et lokk.", fi: "Osa napeista jäi yli. Ne eivät mahdu minkään kannen alle." },
+    hintExact:       { en: "Every counter is under a lid. None are left over.", de: "Alle Plättchen liegen unter einem Deckel – es bleibt keines übrig.", fr: "Tous les jetons sont sous un couvercle : il n'en reste aucun.", es: "Todas las fichas están debajo de una tapadera. No sobra ninguna.", pt: "Todas as fichas estão embaixo das tampas. Não sobrou nenhuma.", it: "Tutti i gettoni stanno sotto i coperchi: non ne avanza nessuno.", nl: "Elke fiche ligt onder een deksel. Er blijft niets over.", sv: "Alla brickor ligger under locken. Inga blir över.", da: "Alle brikker er under et låg. Ingen er til overs.", no: "Alle brikkene ligger under et lokk. Ingen blir til overs.", fi: "Kaikki napit ovat kansien alla. Yhtään ei jäänyt yli." },
+    hintAgain:       { en: "Put the lids back on, then put another one down.", de: "Legt die Deckel wieder drauf und dann noch einen dazu.", fr: "Recouvrez, puis posez un couvercle de plus.", es: "Volvamos a tapar y pongamos una tapadera más.", pt: "Tampem de novo e coloquem mais uma tampa.", it: "Rimetti i coperchi e mettine giù un altro.", nl: "Leg de deksels terug en leg er dan nog een bij.", sv: "Lägg på locken igen och lägg ut ett lock till.", da: "Læg lågene på igen, og læg så et låg mere.", no: "Legg på lokkene igjen, og legg ut ett til.", fi: "Laittakaa kannet päälle ja asettakaa vielä yksi." },
 
-    addLid:       { en: "Another lid", de: "Deckel dazu", fr: "Ajouter", es: "Otra tapadera", pt: "Outra tampa", it: "Aggiungi coperchio", nl: "Nog een deksel", sv: "Ett lock till", da: "Et låg mere", no: "Ett lokk til", fi: "Lisää kansi" },
-    takeLid:      { en: "Take one away", de: "Deckel weg", fr: "Retirer", es: "Quitar una", pt: "Tirar uma tampa", it: "Togli un coperchio", nl: "Deksel weghalen", sv: "Ta bort ett", da: "Tag et væk", no: "Ta bort ett", fi: "Poista kansi" },
-    liftBtn:      { en: "Lift the lids", de: "Deckel anheben", fr: "Soulever", es: "Destapar", pt: "Destampar", it: "Alza i coperchi", nl: "Deksels optillen", sv: "Lyft på locken", da: "Løft lågene", no: "Løft lokkene", fi: "Nosta kannet" },
-    againBtn:     { en: "Lids back on", de: "Deckel drauf", fr: "Recouvrir", es: "Volver a tapar", pt: "Tampar de novo", it: "Rimetti i coperchi", nl: "Deksels terug", sv: "Lock på igen", da: "Låg på igen", no: "Legg på lokkene", fi: "Kannet päälle" },
-    newSetBtn:    { en: "Another table", de: "Neuer Tisch", fr: "Autre plateau", es: "Otra mesa", pt: "Outra mesa", it: "Un altro tavolo", nl: "Ander blad", sv: "Nytt bord", da: "Nyt bord", no: "Nytt bord", fi: "Vaihda pöytä" },
-    printBtn:     { en: "Print the table", de: "Aufgabe drucken", fr: "Imprimer", es: "Imprimir la mesa", pt: "Imprimir a mesa", it: "Stampa il tavolo", nl: "Blad printen", sv: "Skriv ut bordet", da: "Print bordet", no: "Skriv ut bordet", fi: "Tulosta pöytä" },
+    firstLid:        { en: "Put a lid down", de: "Deckel hinlegen", fr: "Poser un couvercle", es: "Poner una tapadera", pt: "Colocar uma tampa", it: "Metti un coperchio", nl: "Deksel neerleggen", sv: "Lägg ut ett lock", da: "Læg et låg på bordet", no: "Legg ut et lokk", fi: "Aseta kansi" },
+    addLid:          { en: "Another lid", de: "Deckel dazu", fr: "Un couvercle de plus", es: "Otra tapadera", pt: "Outra tampa", it: "Aggiungi un coperchio", nl: "Nog een deksel", sv: "Ett lock till", da: "Et låg mere", no: "Ett lokk til", fi: "Lisää kansi" },
+    takeLid:         { en: "Take one away", de: "Deckel weg", fr: "Retirer un couvercle", es: "Quitar una", pt: "Tirar uma tampa", it: "Togli un coperchio", nl: "Deksel weghalen", sv: "Ta bort ett", da: "Tag et væk", no: "Ta bort et lokk", fi: "Poista kansi" },
+    liftBtn:         { en: "Lift the lids", de: "Deckel anheben", fr: "Soulever les couvercles", es: "Destapar", pt: "Destampar", it: "Alza i coperchi", nl: "Deksels optillen", sv: "Lyft på locken", da: "Løft lågene", no: "Løft lokkene", fi: "Nosta kannet" },
+    againBtn:        { en: "Lids back on", de: "Deckel drauf", fr: "Recouvrir", es: "Volver a tapar", pt: "Tampar de novo", it: "Rimetti i coperchi", nl: "Deksels terug", sv: "Lock på igen", da: "Låg på igen", no: "Legg på lokkene", fi: "Kannet päälle" },
+    newSetBtn:       { en: "Another table", de: "Neuer Tisch", fr: "Autre plateau", es: "Otra mesa", pt: "Outra mesa", it: "Un altro tavolo", nl: "Ander blad", sv: "Nytt bord", da: "Nyt bord", no: "Nytt bord", fi: "Vaihda pöytä" },
+    printBtn:        { en: "Print the worksheet", de: "Aufgabe drucken", fr: "Imprimer la fiche", es: "Imprimir la hoja", pt: "Imprimir a folha", it: "Stampa la scheda", nl: "Werkblad printen", sv: "Skriv ut uppgiften", da: "Print opgaven", no: "Skriv ut oppgaven", fi: "Tulosta tehtävä" },
 
-    gateLine:     { en: "Bigger totals, the table book and printing are part of the Teacher plan.", de: "Größere Anzahlen, das Aufgabenheft und das Drucken gehören zum Lehrer-Paket.", fr: "Les plus grands totaux, le carnet de plateaux et l'impression font partie de l'offre Enseignant.", es: "Los totales más grandes, la colección de mesas y la impresión forman parte del plan Docente.", pt: "Totais maiores, o caderno de mesas prontas e a impressão fazem parte do plano Professor.", it: "I totali più grandi, la raccolta di tavoli e la stampa fanno parte del piano Insegnante.", nl: "Grotere aantallen, alle bladen en printen horen bij het Leerkracht-pakket.", sv: "Större antal, bordssamlingen och utskrift ingår i Lärarpaketet.", da: "Større tal, samlingen af borde og print er en del af Lærerabonnementet.", no: "Større tall, bordsamlingen og utskrift er en del av Lærerabonnementet.", fi: "Opettaja-tilaus sisältää suuremmat lukumäärät, valmiiden pöytien kokoelman ja tulostuksen." },
-    unlock:       { en: "See the Teacher plan", de: "Lehrer-Paket ansehen", fr: "Voir l'offre Enseignant", es: "Ver el plan Docente", pt: "Ver o plano Professor", it: "Scopri il piano Insegnante", nl: "Bekijk het Leerkracht-pakket", sv: "Se Lärarpaketet", da: "Se Lærerabonnementet", no: "Se Lærerabonnementet", fi: "Katso Opettaja-tilaus" },
+    refuseTotal:     { en: "Lids are on the table. Take them away before you change the number of counters.", de: "Auf dem Tisch liegen Deckel. Nehmt sie weg, bevor ihr die Anzahl ändert.", fr: "Des couvercles sont posés. Retirez-les avant de changer le nombre de jetons.", es: "Hay tapaderas en la mesa. Quitémoslas antes de cambiar la cantidad de fichas.", pt: "Há tampas na mesa. Tirem as tampas antes de mudar a quantidade de fichas.", it: "Togli i coperchi prima di cambiare il numero di gettoni.", nl: "Er liggen deksels op het blad. Haal ze eerst weg.", sv: "Locken ligger på bordet. Ta bort dem innan ni ändrar antalet.", da: "Der ligger låg på bordet. Tag dem væk, før antallet kan ændres.", no: "Det ligger lokk på bordet. Ta dem bort før dere endrer antallet.", fi: "Pöydällä on kansia. Poistakaa ne ennen kuin vaihdatte nappien määrän." },
+    refuseLifted:    { en: "The lids are up. Put them back on to choose a number.", de: "Die Deckel sind oben. Legt sie wieder drauf, um eine Zahl zu wählen.", fr: "Les couvercles sont soulevés. Recouvrez pour choisir un nombre.", es: "Las tapaderas están levantadas. Volvamos a taparlas para elegir un número.", pt: "As tampas estão levantadas. Tampem de novo para escolher um número.", it: "I coperchi sono alzati: rimettili per scegliere un numero.", nl: "De deksels zijn omhoog. Leg ze terug om een getal te kiezen.", sv: "Locken är uppe. Lägg på dem igen för att välja ett tal.", da: "Lågene er løftet. Læg dem på igen, hvis der skal vælges et tal.", no: "Lokkene er løftet. Legg dem på igjen for å velge et tall.", fi: "Kannet ovat ylhäällä. Laittakaa ne takaisin päälle, niin voitte valita luvun." },
+    refuseMax:       { en: "The table has no room for another lid.", de: "Mehr Deckel passen nicht auf den Tisch.", fr: "Il n'y a plus de place pour un couvercle sur le plateau.", es: "En la mesa no cabe otra tapadera.", pt: "Não cabe mais nenhuma tampa na mesa.", it: "Sul tavolo non c'è posto per un altro coperchio.", nl: "Er past geen deksel meer op het blad.", sv: "Det får inte plats fler lock på bordet.", da: "Der er ikke plads til flere låg på bordet.", no: "Det er ikke plass til flere lokk på bordet.", fi: "Pöydälle ei mahdu enempää kansia." },
 
-    totalLabel:   { en: "How many counters on the table", de: "Anzahl der Plättchen auf dem Tisch", fr: "Nombre de jetons sur le plateau", es: "Cuántas fichas hay en la mesa", pt: "Quantas fichas há na mesa", it: "Quanti gettoni ci sono sul tavolo", nl: "Hoeveel fiches er op het blad liggen", sv: "Hur många brickor på bordet", da: "Antal brikker på bordet", no: "Antall brikker på bordet", fi: "Montako nappia pöydällä on" },
-    tableLabel:   { en: "the table", de: "Tisch", fr: "le plateau", es: "la mesa", pt: "a mesa", it: "il tavolo", nl: "het blad", sv: "bordet", da: "bordet", no: "bordet", fi: "pöytä" },
-    lidAria:      { en: "lid {i}", de: "Deckel {i}", fr: "couvercle {i}", es: "tapadera {i}", pt: "tampa {i}", it: "coperchio {i}", nl: "deksel {i}", sv: "lock {i}", da: "låg {i}", no: "lokk {i}", fi: "kansi {i}" },
-    counterAria:  { en: "a counter", de: "ein Wendeplättchen", fr: "un jeton", es: "una ficha", pt: "uma ficha", it: "un gettone", nl: "een fiche", sv: "en bricka", da: "en brik", no: "en brikke", fi: "nappi" },
-    markStrip:    { en: "What the class thinks is under each lid", de: "Was die Klasse unter jedem Deckel vermutet", fr: "Ce que la classe pense qu'il y a sous chaque couvercle", es: "Lo que la clase cree que hay debajo de cada tapadera", pt: "O que a turma acha que há embaixo de cada tampa", it: "Il numero che la classe pensa ci sia sotto ogni coperchio", nl: "Wat de klas denkt dat er onder elk deksel ligt", sv: "Det klassen tror ligger under varje lock", da: "Det tal, klassen tror, der ligger under hvert låg", no: "Det klassen tror ligger under hvert lokk", fi: "Mitä luokka arvelee kunkin kannen alla olevan" },
-    markAria:     { en: "mark {n}", de: "Marke {n}", fr: "repère {n}", es: "marca {n}", pt: "marcar {n}", it: "numero {n}", nl: "getal {n}", sv: "markera {n}", da: "markér {n}", no: "marker {n}", fi: "luku {n}" },
-    revealAria:   { en: "under each lid", de: "unter jedem Deckel", fr: "sous chaque couvercle", es: "debajo de cada tapadera", pt: "embaixo de cada tampa", it: "sotto ogni coperchio", nl: "onder elk deksel", sv: "under varje lock", da: "under hvert låg", no: "under hvert lokk", fi: "jokaisen kannen alla" }
+    gateLine:        { en: "Bigger totals, more ready-made tables and printing are part of the Teacher plan.", de: "Größere Anzahlen, mehr fertige Tische und das Drucken gehören zum Lehrer-Paket.", fr: "Les plus grands totaux, d'autres plateaux prêts à l'emploi et l'impression font partie de l'offre Enseignant.", es: "Los totales más grandes, más mesas preparadas y la impresión forman parte del plan Docente.", pt: "Totais maiores, mais mesas prontas e a impressão fazem parte do plano Professor.", it: "Più gettoni, altri tavoli pronti e la stampa fanno parte del piano Insegnante.", nl: "Grotere aantallen, meer kant-en-klare bladen en printen horen bij het Leerkracht-pakket.", sv: "Större antal, fler färdiga bord och utskrift ingår i Lärarpaketet.", da: "Flere brikker, flere færdige borde og print er en del af Lærerabonnementet.", no: "Flere brikker, flere ferdige bord og utskrift er en del av Lærerabonnementet.", fi: "Opettaja-tilaus sisältää suuremmat lukumäärät, lisää valmiita pöytiä ja tulostuksen." },
+    unlock:          { en: "See the Teacher plan", de: "Lehrer-Paket ansehen", fr: "Voir l'offre Enseignant", es: "Ver el plan Docente", pt: "Ver o plano Professor", it: "Scopri il piano Insegnante", nl: "Bekijk het Leerkracht-pakket", sv: "Se Lärarpaketet", da: "Se Lærerabonnementet", no: "Se Lærerabonnementet", fi: "Katso Opettaja-tilaus" },
+
+    totalLabel:      { en: "Counters on the table", de: "Plättchen auf dem Tisch", fr: "Jetons sur le plateau", es: "Fichas en la mesa", pt: "Fichas na mesa", it: "Gettoni sul tavolo", nl: "Fiches op het blad", sv: "Brickor på bordet", da: "Brikker på bordet", no: "Brikker på bordet", fi: "Nappeja pöydällä" },
+    tableLabel:      { en: "the table", de: "der Tisch", fr: "le plateau", es: "la mesa", pt: "a mesa", it: "il tavolo", nl: "het blad", sv: "bordet", da: "bordet", no: "bordet", fi: "pöytä" },
+    lidAria:         { en: "lid {i}", de: "Deckel {i}", fr: "couvercle {i}", es: "tapadera {i}", pt: "tampa {i}", it: "coperchio {i}", nl: "deksel {i}", sv: "lock {i}", da: "låg {i}", no: "lokk {i}", fi: "kansi {i}" },
+    countersAria:    { en: "counters in all", de: "Plättchen insgesamt", fr: "jetons en tout", es: "fichas en total", pt: "fichas no total", it: "gettoni in tutto", nl: "aantal fiches in totaal", sv: "brickor totalt", da: "brikker i alt", no: "brikker til sammen", fi: "nappeja yhteensä" },
+    lidsAria:        { en: "lids on the table", de: "Deckel auf dem Tisch", fr: "couvercles posés", es: "tapaderas en la mesa", pt: "tampas na mesa", it: "coperchi sul tavolo", nl: "aantal deksels op het blad", sv: "lock på bordet", da: "låg på bordet", no: "lokk på bordet", fi: "kansia pöydällä" },
+    looseAria:       { en: "counters outside the lids", de: "außerhalb der Deckel", fr: "jetons hors couvercle", es: "fichas fuera de las tapaderas", pt: "fichas fora das tampas", it: "fuori dai coperchi", nl: "aantal fiches zonder deksel", sv: "brickor utanför locken", da: "brikker uden for lågene", no: "brikker utenfor lokkene", fi: "nappeja kansien ulkopuolella" },
+    markStrip:       { en: "The class's number, and what was under each lid", de: "Die Zahl der Klasse und was unter jedem Deckel lag", fr: "Le nombre de la classe et ce qu'il y avait sous chaque couvercle", es: "El número de la clase y lo que había debajo de cada tapadera", pt: "O número da turma e o que havia embaixo de cada tampa", it: "Il numero della classe e quello che stava sotto ogni coperchio", nl: "Het getal van de klas en wat er onder elk deksel lag", sv: "Klassens tal och vad som låg under varje lock", da: "Klassens tal og det, der lå under hvert låg", no: "Tallet klassen valgte, og det som lå under hvert lokk", fi: "Luokan luku ja se, mitä kunkin kannen alla oli" },
+    markAria:        { en: "number {n}", de: "Zahl {n}", fr: "nombre {n}", es: "número {n}", pt: "número {n}", it: "numero {n}", nl: "getal {n}", sv: "tal {n}", da: "tallet {n}", no: "tall {n}", fi: "luku {n}" },
+    revealAria:      { en: "under each lid", de: "unter jedem Deckel", fr: "sous chaque couvercle", es: "debajo de cada tapadera", pt: "embaixo de cada tampa", it: "sotto ogni coperchio", nl: "onder elk deksel", sv: "under varje lock", da: "under hvert låg", no: "under hvert lokk", fi: "jokaisen kannen alla" },
+    recordAria:      { en: "the previous round", de: "der Durchgang davor", fr: "le tour précédent", es: "la ronda anterior", pt: "a rodada anterior", it: "il giro precedente", nl: "de vorige ronde", sv: "förra omgången", da: "forrige runde", no: "forrige runde", fi: "edellinen kierros" },
+
+    setGhosts:       { en: "Show the dashed circles", de: "Gestrichelte Kreise anzeigen", fr: "Montrer les cercles en pointillés", es: "Mostrar los círculos punteados", pt: "Mostrar os círculos tracejados", it: "Mostra i cerchi tratteggiati", nl: "Laat de stippelrondjes zien", sv: "Visa de streckade ringarna", da: "Vis de stiplede cirkler", no: "Vis de stiplede ringene", fi: "Näytä katkoviivaympyrät" },
+    setStrip:        { en: "Show the numbers", de: "Zahlen anzeigen", fr: "Montrer les nombres", es: "Mostrar los números", pt: "Mostrar os números", it: "Mostra i numeri", nl: "Laat de getallen zien", sv: "Visa talen", da: "Vis tallene", no: "Vis tallene", fi: "Näytä luvut" },
+
+    sheetTask:       { en: "Every lid covers the same number of counters. Share them out under the lids, then write how many go under each lid and how many are left over.", de: "Unter jedem Deckel liegen gleich viele Plättchen. Verteile sie unter die Deckel und schreibe auf, wie viele unter jeden Deckel kommen und wie viele übrig bleiben.", fr: "Sous chaque couvercle il y a le même nombre de jetons. Partage-les sous les couvercles, puis écris combien il y en a sous chaque couvercle et combien il en reste.", es: "Cada tapadera cubre la misma cantidad de fichas. Repártelas debajo de las tapaderas y escribe cuántas hay debajo de cada una y cuántas sobran.", pt: "Cada tampa cobre a mesma quantidade de fichas. Reparta as fichas embaixo das tampas e escreva quantas ficam embaixo de cada tampa e quantas sobraram.", it: "Ogni coperchio copre la stessa quantità di gettoni. Dividili sotto i coperchi, poi scrivi quanti ne vanno sotto ogni coperchio e quanti ne avanzano.", nl: "Onder elk deksel liggen evenveel fiches. Verdeel ze eerlijk onder de deksels en schrijf op hoeveel er onder elk deksel liggen en hoeveel er overblijven.", sv: "Under varje lock ligger lika många brickor. Dela ut dem under locken och skriv hur många som ligger under varje lock och hur många som blir över.", da: "Under hvert låg ligger der lige mange brikker. Del brikkerne ud under lågene, og skriv hvor mange der ligger under hvert låg, og hvor mange der er til overs.", no: "Under hvert lokk ligger det like mange brikker. Del brikkene likt under lokkene, og skriv hvor mange som ligger under hvert lokk, og hvor mange som blir til overs.", fi: "Jokaisen kannen alla on yhtä monta nappia. Jaa napit kansien alle ja kirjoita, montako nappia tulee kunkin kannen alle ja montako jää yli." },
+    sheetRecordHead: { en: "What we found", de: "Das haben wir herausgefunden", fr: "Ce que nous avons trouvé", es: "Lo que descubrimos", pt: "O que descobrimos", it: "Che cosa abbiamo trovato", nl: "Wat we gevonden hebben", sv: "Vad vi kom fram till", da: "Det, vi fandt ud af", no: "Det vi fant ut", fi: "Mitä huomasimme" }
   },
 
   STORE_KEY: 'lcs:lids:v1',
   ENT_TRUST_DAYS: 14,
 
-  defaults: {},
-  settings: [],
+  /* ⚠ TWO BOOLEANS, AND NOTHING ELSE, IN THE SHELL DRAWER. renderField
+     flips aria-checked itself and buildDrawer builds once and is never
+     rebuilt, so a value the tool must be able to REFUSE (a paid total for
+     a free account) or OVERWRITE (loadSetup rewrites st.n behind the
+     drawer's back) would desync permanently — the drawer would say 30
+     while the card said 12, and nothing could reconcile them without
+     touching the shell. The drawer is for booleans that can never be
+     refused. The total stays on the card. */
+  defaults: { ghosts: true, strip: true },
+  settings: [
+    { key: 'ghosts', type: 'toggle', labelKey: 'setGhosts' },
+    { key: 'strip', type: 'toggle', labelKey: 'setStrip' }
+  ],
 
   premium: false,
   premiumKnown: false,
 
   MAX_LIDS: 4,
+  /* ⭐ TWO IS THE FLOOR, AND IT IS NOW A MODEL FACT RATHER THAN A HOPE.
+     Refusal 1 says there is no single-lid MODE — but the shipped build
+     enforced that as a mode and left the STATE one click away. Measured
+     from the opening frame, one press of "Another lid" gave:
+         n=12  k=1  share=12  leftover=0  visible=0  lidRadius=148
+         n=20  k=1  share=20  leftover=0  visible=0  lidRadius=209
+     i.e. a single lid swallowed EVERY counter, the table went empty, the
+     strip stayed dead (it refuses below two), and the largest disc the
+     tool can draw sat on a blank cream rectangle. A teacher's first
+     interaction made everything disappear.
+     So the reachable set is k in {0, 2, 3, 4}: placing from an empty
+     table lays TWO, and taking one away from two returns to none. The
+     model still answers correctly for k=1 — V15's oracle sweeps it and
+     must keep passing — it simply cannot be reached through the
+     interface. That is the difference between a refusal and a hole. */
+  MIN_LIDS: 2,
   FREE_MAX_TOTAL: 20,
   PAID_MAX_TOTAL: 30,
   MIN_TOTAL: 4,
@@ -203,17 +247,67 @@ var Lids = {
     return (h ^ (h >>> 16)) >>> 0;
   },
 
-  /* the counters' resting places — a seeded scatter, deliberately not a
-     grid, because a grid can be counted in rows and the point is that
-     the covered ones cannot be counted at all */
+  /* ⭐⭐ THE COUNTERS' RESTING PLACES — a seeded scatter, deliberately not
+     a grid, because a grid can be counted in rows and the point is that
+     the covered ones cannot be counted at all.
+
+     ⚠ AND IT USED TO LET THEM OVERLAP, ON THE DEFAULT TABLE. The first
+     version was independent seeded sampling with NO separation
+     constraint, while a counter is 5.6% of a 1000-unit table — exactly
+     2 x C_R = 56 units across. Measured over the whole domain:
+
+         totals with at least one OVERLAPPING pair: 19 of 27
+         chip-reachable totals affected: 12, 16, 20, 24, 30   <- 12 is the DEFAULT
+         worst case: total 17, two counters 4.5 units apart
+         total 28: eleven overlapping pairs
+
+     Two discs 14 units apart draw as one figure-of-eight blob, so a class
+     asked "how many are on the table?" looked at twelve counters and saw
+     eleven shapes. This is a COUNTING instrument; its opening picture was
+     uncountable. V15 proved at length that counters UNDER A LID never
+     overlap — the hexagonal packing, correct by construction — and nobody
+     ever checked the half that is actually random. The check was written
+     where the geometry was easy to reason about rather than where it
+     could fail.
+
+     ⭐ THE FIX IS SEEDED DART-THROWING. Draw candidates from the same
+     _mix stream, accept the first that clears SEP of every counter
+     already placed, and after TRIES candidates keep the best-separated
+     one — so the loop is BOUNDED and the model can never sit spinning.
+     Pure, total, and a deterministic function of (seed, n): V10 holds.
+
+     ⚠ SEP IS MEASURED, NOT GUESSED. Sweeping the target across the whole
+     4..30 domain:
+         56 -> 0 overlaps, tightest 56.0u ( 0.0px clearance at 680)  touching
+         64 -> 0 overlaps, tightest 64.4u ( 5.7px)
+         76 -> 0 overlaps, tightest 76.0u (13.6px)   <- chosen
+         84 -> 0 overlaps, tightest 84.0u (19.0px)   over-regular, reads laid out
+     76 units is 1.36 diameters. It leaves 13.6px of visible gap at a
+     680px table, which is what makes twelve counters read as twelve
+     shapes, and it still scatters: 29 distinct x and 30 distinct y out of
+     30 points, where a grid would collapse both. */
+  SEP: 76,
+  SEP_TRIES: 64,
+
   scatter: function (st) {
-    var s = this._st(st), out = [], i, h;
+    var s = this._st(st), out = [], i, k, h, p, gap, j, d;
+    var best, bestGap;
     for (i = 0; i < s.n; i++) {
-      h = this._mix(s.seed, i);
-      out.push({
-        x: 70 + (h % 861),
-        y: 70 + ((h >>> 9) % 481)
-      });
+      best = null; bestGap = -1;
+      for (k = 0; k < this.SEP_TRIES; k++) {
+        /* i*97 + k keeps every candidate on its own point of the stream,
+           so adding a counter never re-rolls the ones before it */
+        h = this._mix(s.seed, i * 97 + k);
+        p = { x: 70 + (h % 861), y: 70 + ((h >>> 9) % 481) };
+        gap = Infinity;
+        for (j = 0; j < out.length; j++) {
+          d = Math.sqrt((p.x - out[j].x) * (p.x - out[j].x) + (p.y - out[j].y) * (p.y - out[j].y));
+          if (d < gap) gap = d;
+        }
+        if (gap > bestGap) { bestGap = gap; best = p; }
+        if (gap >= this.SEP) break;
+      }
+      out.push(best);
     }
     return out;
   },
@@ -235,6 +329,47 @@ var Lids = {
   leftover: function (st) {
     var s = this._st(st);
     return s.n - this.hidden(s);
+  },
+
+  /* ⭐⭐ HOW FAR THE NUMERAL STRIP RUNS — and the shipped build could not
+     hold its own answer.
+     `_buildStrip` rendered 0..min(maxTotal, 12). On the Teacher plan the
+     totals reach 30, and the routine's opening move is two lids, so:
+
+         n=30, k=2  ->  share = 15  >  stripTop = 12
+
+     The class could not park a marker on the right number, and at the
+     lift NO numeral was ringed at all — the reveal marked nothing. That
+     is reachable by following the tool's own printed instruction at the
+     largest paid total. In the other direction, at n=8 the largest share
+     two lids can hide is 4, yet the strip offered 0..12: nine numerals
+     that can never be the answer under any lid count.
+
+     ⚠ AND THE OBVIOUS FIX LEAKS. top = floor(n/2) is exactly the share at
+     two lids, so the answer would sit on the last button every time, in
+     the one configuration the routine opens with. Verified across the
+     whole chip set before it was rejected.
+
+     THE RULE: the next multiple of five STRICTLY GREATER than floor(n/2).
+         n 4-9 -> 5    n 10-19 -> 10    n 20-29 -> 15    n 30 -> 20
+     Every share is on the strip, no share is ever the top numeral, the
+     top is always a landmark (5, 10, 15, 20), and it is never more than
+     two rows at any width the tool supports.
+
+     ⚠ IT DEPENDS ON n ALONE, NEVER ON k. A strip that tightened when a
+     third lid went down would tell the class the answer got smaller
+     before they looked. Since setTotal refuses while lids are down and
+     loadSetup clears them, the strip re-ranges only when the TABLE
+     changes, never when a lid does — which is gateable.
+
+     ⚠ AND IT STARTS AT 1, NOT 0. With MIN_TOTAL 4 against MAX_LIDS 4 the
+     share is always at least 1, so 0 is a numeral that can never be the
+     answer — precisely the defect the top end was fixed for. A tool
+     cannot condemn dead numerals at one end and keep one at the other. */
+  stripTop: function (st) {
+    var s = this._st(st);
+    var half = Math.floor(s.n / 2);
+    return 5 * (Math.floor(half / 5) + 1);
   },
 
   /* ⭐ THE RE-SETTLE. Which counters end up under which lid: each lid in
@@ -339,7 +474,7 @@ var Lids = {
      What is here instead: a lid is drawn big enough to HOLD its share
      packed in hexagonal rings, and on the lift its counters are shown
      sitting inside it in exactly that packing. Nothing is claimed that
-     is not shown. And because every lid of a colour hides the same
+     is not shown. And because every lid hides the same
      number, EVERY LID IS THE SAME SIZE — the value lock is not a
      sentence the teacher says, it is the first thing you notice — and
      when another lid goes down they all shrink together, which this
@@ -349,45 +484,170 @@ var Lids = {
      does. The total and the lid count are both on screen by design and
      the whole point is that the class CAN work it out; reading it off
      an area is not easier than dividing. */
-  MIN_R: 74,
+  MIN_R: 62,
   C_R: 28,             /* a counter's own radius in model units, plus a hair */
-  RING: 2.15,          /* ring spacing in counter-radii — just clear of touching */
 
-  /* where the m counters under a lid sit, relative to its centre: the
-     middle first, then hexagonal rings outward. Deterministic, and the
-     SAME list the renderer draws and the gate measures. */
-  packing: function (m) {
-    var out = [], ring = 1, i, cnt, ang, rad;
-    if (!(m > 0)) return out;
-    out.push({ dx: 0, dy: 0 });
-    while (out.length < m) {
-      /* ⚠ A PART-FILLED RING IS SPREAD ROUND THE WHOLE CIRCLE, not
-         stopped partway. Filling 6*ring slots and breaking out early
-         piles the leftovers into one quadrant, and ten counters under a
-         lid then read as a lopsided smudge rather than a pile you can
-         count. Spacing only ever grows when the ring is under-filled, so
-         nothing can collide. */
-      cnt = Math.min(6 * ring, m - out.length);
-      rad = ring * this.RING * this.C_R;
-      for (i = 0; i < cnt; i++) {
-        ang = (Math.PI * 2 * i) / cnt + (ring % 2 ? 0 : Math.PI / cnt);
-        out.push({ dx: rad * Math.cos(ang), dy: rad * Math.sin(ang) });
+  /* ⭐⭐ THE SIGNATURE MOMENT DID NOT HAPPEN, AND THE GATE PRINTED THE
+     NUMBER AND PASSED.
+     The header sells the value lock as something you SEE: put another lid
+     down and they all shrink together. The old packing was fixed-pitch
+     hexagonal rings, which collapsed fifteen shares onto three radii —
+
+         share  1     -> r =  74
+         share  2 - 7 -> r =  88      one bucket for six different shares
+         share  8 -15 -> r = 148
+
+     so the move the whole routine is built on, 12 counters from two lids
+     to three (share 6 -> 4), changed the picture by NOTHING AT ALL. That
+     is t-001 -> t-002, the two flagship free setups. Running the shipped
+     gate: "dropping another never grows them (it shrinks them in 38/81)"
+     ... PASS — 0 errors. V15 asserted only `if (!shrank)` — non-vacuity —
+     and printed its own failure inside a green run. Either the design
+     makes the law true or the claim comes out of the header; softening
+     the gate a third time was the forbidden answer.
+
+     ⚠ THE OBVIOUS FIX WAS MEASURED AND REJECTED. A fixed-pitch sunflower
+     r_i = c*sqrt(i) gives a beautiful ladder and OVERLAPS: a Vogel
+     spiral's tightest pair is the centre-to-first distance, which is c
+     itself, so at every constant that produced a usable ladder (31.6, 33,
+     34, 36) the counters collided against the 56-unit floor. Mixing
+     sunflower radii with hexagonal seats is worse — at share 8 the hex
+     ring needs 148 and the sunflower radius offers 118, so the counters
+     would sit outside the lid that claims to hold them.
+
+     ⭐ WHAT IS HERE: a bounded, deterministic search over concentric-ring
+     arrangements — optional centre, then one to three rings — keeping the
+     smallest enclosing circle whose closest pair still clears 2*C_R. Each
+     ring sits at the smaller of what its own neighbours need
+     ((D/2)/sin(pi/cnt)) and what the ring inside it needs (Rprev + D), so
+     non-overlap is STRUCTURAL rather than observed. Measured over the
+     whole reachable domain:
+
+         share   1  2  3  4  5  6  7   8   9  10  11  12  13  14  15
+         radius 62 62 62 68 76 84 84  93 101 110 112 116 119 124 127
+         overlaps 0 · monotone true · 12 distinct radii (was 3)
+         DEFAULT MOVE share 6 -> 4:  84 -> 68  =  -19%   (was 0%)
+         shrink law: 42/54            (the gate reported 38/81 and passed)
+         largest lid: 127u = 25% of the table   (was 148u = 30%)
+
+     The lids got SMALLER at the top end as well as monotone, which buys
+     back room on a table that had four 148-unit discs competing for 1000
+     units of width. */
+  /* ⚠ THE WHOLE DOMAIN, NOT JUST THE REACHABLE ONE. The largest share the
+     INTERFACE can produce is PAID_MAX_TOTAL / MIN_LIDS = 15, but the
+     model is still asked for k=1 — the oracle sweep checks it precisely
+     because the interface can no longer get there — and a lone lid takes
+     the whole total. Clamping at 15 made packing(16) hold fifteen
+     counters, which the gate caught immediately. Memoised, so the wider
+     search costs one pass per distinct share. */
+  MAX_PACK: 30,        /* PAID_MAX_TOTAL — a single lid takes all of it */
+
+  /* one ring's radius: big enough for its own neighbours AND to clear the
+     ring inside it. `prev < 0` means nothing is inside it yet. */
+  _ringR: function (cnt, prev) {
+    var need = cnt >= 2 ? (this.C_R) / Math.sin(Math.PI / cnt) : 0;
+    var clear = prev < 0 ? 0 : prev + 2 * this.C_R;
+    return Math.max(need, clear);
+  },
+
+  /* ⚠ THERE IS NO SEPARATE "CENTRE" FLAG, AND A MUTATION IS WHY. The
+     first version carried one — optional centre, then rings — and the
+     harness mutated the centre point off-origin and the tool did not
+     change at all. Not a gap in the gate: the flag was REDUNDANT. A ring
+     of ONE sits at radius 0, so `counts = [1, 6]` already IS a centre
+     with six round it, and the search reaches the same shape either way.
+     An inert mutation is the harness telling you about dead code; the
+     honest answer is to delete the code, not to write an assertion for a
+     branch nothing can reach. */
+  _layout: function (counts) {
+    var out = [], prev = -1, i, j, cnt, R, a;
+    for (i = 0; i < counts.length; i++) {
+      cnt = counts[i];
+      R = this._ringR(cnt, prev);
+      for (j = 0; j < cnt; j++) {
+        a = (Math.PI * 2 * j) / cnt + (i % 2 ? Math.PI / cnt : 0);
+        out.push({ dx: R * Math.cos(a), dy: R * Math.sin(a) });
       }
-      ring++;
-      if (ring > 12) break;      /* the model can never sit spinning */
+      prev = R;
     }
     return out;
   },
 
-  /* ONE radius for every lid, because every lid holds the same number */
-  lidRadius: function (st) {
-    var s = this._st(st);
-    var p = this.packing(this.share(s)), r = 0, i, d;
+  _clears: function (p) {
+    var i, j, d, D = 2 * this.C_R;
+    for (i = 0; i < p.length; i++) {
+      for (j = i + 1; j < p.length; j++) {
+        d = Math.sqrt((p[i].dx - p[j].dx) * (p[i].dx - p[j].dx) +
+                      (p[i].dy - p[j].dy) * (p[i].dy - p[j].dy));
+        if (d < D - 1e-9) return false;
+      }
+    }
+    return true;
+  },
+
+  _reach: function (p) {
+    var r = 0, i, d;
     for (i = 0; i < p.length; i++) {
       d = Math.sqrt(p[i].dx * p[i].dx + p[i].dy * p[i].dy);
       if (d > r) r = d;
     }
-    return Math.round(Math.max(this.MIN_R, r + this.C_R));
+    return r;
+  },
+
+  /* where the m counters under a lid sit, relative to its centre.
+     Deterministic, and the SAME list the renderer draws and the gate
+     measures. Memoised because render() and the gates both call it in
+     loops; the cache is keyed on m alone, which is the whole input. */
+  packing: function (m) {
+    if (!(m > 0)) return [];
+    if (m > this.MAX_PACK) m = this.MAX_PACK;
+    this._packCache = this._packCache || {};
+    if (this._packCache[m]) return this._packCache[m];
+
+    var best = null, bestR = Infinity, a, b, p, r;
+    var take = function (cand) {
+      if (!cand || cand.length !== m || !this._clears(cand)) return;
+      r = this._reach(cand);
+      if (r < bestR - 1e-9) { bestR = r; best = cand; }
+    }.bind(this);
+
+    /* one, two or three concentric rings — and a ring of one is a centre */
+    take(this._layout([m]));
+    for (a = 1; a < m; a++) take(this._layout([a, m - a]));
+    for (a = 1; a < m; a++) {
+      for (b = 1; b < m - a; b++) take(this._layout([a, b, m - a - b]));
+    }
+    /* ⚠ THE FALLBACK HOLDS m COUNTERS, NOT ONE. The search always
+       succeeds — a single ring of m is constructible for every m, and
+       V15 proves `packing(m).length === m` across the whole domain — but
+       a total function should degrade to something of the right SIZE
+       rather than to a single point, or a future change to the search
+       would silently draw one counter where the lid claims m. */
+    p = best || this._layout([m]);
+    this._packCache[m] = p;
+    return p;
+  },
+
+  /* the radius a lid needs to HOLD a given share — the whole ladder, and
+     the one place the size of a lid is decided */
+  /* ⚠ CEIL, NOT ROUND. Math.round shaved a fifth of a unit off three of
+     the fifteen radii (share 9 wanted 101.2 and got 101), so the outer
+     counters sat marginally OUTSIDE the lid that claims to hold them —
+     the whole point of sizing a lid from its own packing. The gate caught
+     it; the fix is to round up, never to widen the tolerance. */
+  radiusForShare: function (m) {
+    /* ⚠ AND THE DUST IS SHAVED BEFORE THE CEIL. The reach for six
+       counters is exactly 56 and computes as 56.000000000000014, so a
+       bare ceil made the lid 85 where 84 holds it — one unit of slack
+       bought entirely from floating point, and the gate called it
+       "padded, not measured". 1e-9 is far below any real geometry here
+       and far above the dust. */
+    return Math.ceil(Math.max(this.MIN_R, this._reach(this.packing(m)) + this.C_R) - 1e-9);
+  },
+
+  /* ONE radius for every lid, because every lid holds the same number */
+  lidRadius: function (st) {
+    return this.radiusForShare(this.share(this._st(st)));
   },
 
   /* where "Another lid" puts the next one: the emptiest spot on the
@@ -395,27 +655,70 @@ var Lids = {
      TOWARDS the last one, so three lids landed in an overlapping heap —
      a convenience control that produces a broken arrangement is not a
      convenience. Deterministic grid search, ties by scan order. */
-  _farPoint: function (st) {
+  /* the radius a lid WILL have once the table holds k of them — needed
+     before the lid exists, so the clamp can keep the whole disc on the
+     table rather than just its centre */
+  radiusAtCount: function (st, k) {
     var s = this._st(st);
-    if (!s.lids.length) return { cx: Math.round(this.W * 0.5), cy: Math.round(this.H * 0.5) };
-    var best = null, bestD = -1, gx, gy, i, dx, dy, d, m;
+    return this.radiusForShare(k < 1 ? 0 : Math.floor(s.n / k));
+  },
+
+  /* ⭐⭐ ONE LAW FOR WHERE A LID MAY SIT, used by the drag, the ghosts,
+     the keyboard and the auto-placer, so they cannot disagree.
+
+     ⚠ IT CLAMPS THE LID, NOT THE CENTRE. addLid and moveLid used to clamp
+     to 0..W and 0..H — the centre — while _farPoint's own comment insisted
+     the grid was inset "far enough that the whole lid lands on the table".
+     The auto-placer was careful and the drag threw it away. Measured on a
+     20-counter table with two lids, dragging one into the corner:
+
+         moveLid to (1000, 620) accepted -> {cx:1000, cy:620}
+         lid radius 148u; of 10 seated counters, 6 fall OUTSIDE the table
+         (worst 104u past the edge) — and .lid-table is overflow:hidden
+
+     So the class lifted a lid the tool said hid ten and counted four. The
+     value lock is the one invention this tool has, and a drag to the edge
+     broke it on screen. */
+  _placeable: function (st, cx, cy, k) {
+    var s = this._st(st);
+    var r = this.radiusAtCount(s, k);
+    var x = Math.round(Number(cx)), y = Math.round(Number(cy));
+    if (!isFinite(x) || !isFinite(y)) return null;
+    /* if the table is narrower than the lid, centre it rather than
+       producing an empty range — total, for every (n, k) */
+    var lo = Math.min(r, this.W / 2), hi = Math.max(this.W - r, this.W / 2);
+    x = Math.max(lo, Math.min(hi, x));
+    lo = Math.min(r, this.H / 2); hi = Math.max(this.H - r, this.H / 2);
+    y = Math.max(lo, Math.min(hi, y));
+    return { cx: Math.round(x), cy: Math.round(y) };
+  },
+
+  /* where an auto-placed lid goes: the emptiest spot on the table.
+     ⚠ The first version stepped W/(k+2) and marched every new lid TOWARDS
+     the last one, so three lids landed in an overlapping heap — a
+     convenience control that produces a broken arrangement is not a
+     convenience. Deterministic grid search, ties by scan order.
+     ⚠ THE BAND USED TO STOP AT cy 450 OF 620, so auto-placed lids never
+     occupied the bottom quarter of the table and three discs sat in a row
+     above a wide empty strip. The band now runs the full height and the
+     clamp keeps each lid whole, which is what the inset was standing in
+     for. */
+  _farPoint: function (st, k) {
+    var s = this._st(st);
+    if (k == null) k = s.lids.length + 1;
+    if (!s.lids.length) return this._placeable(s, this.W * 0.5, this.H * 0.5, k);
+    var best = null, bestD = -1, gx, gy, i, dx, dy, d, m, p;
     for (gy = 0; gy < 5; gy++) {
       for (gx = 0; gx < 7; gx++) {
-        /* ⚠ INSET FAR ENOUGH THAT THE WHOLE LID LANDS ON THE TABLE. The
-           grid ran [150,850] x [130,490] for one draft and the outer
-           lids were shaved by the table's own edge, because the largest
-           auto-placed lid has a radius of about 148 model units. The
-           teacher can still DRAG a lid to the rim — that is their
-           choice, and it is visibly their choice. */
-        var cx = Math.round(200 + (600 / 6) * gx);
-        var cy = Math.round(170 + (280 / 4) * gy);
+        p = this._placeable(s, 120 + (760 / 6) * gx, 110 + (400 / 4) * gy, k);
+        if (!p) continue;
         m = Infinity;
         for (i = 0; i < s.lids.length; i++) {
-          dx = cx - s.lids[i].cx; dy = cy - s.lids[i].cy;
+          dx = p.cx - s.lids[i].cx; dy = p.cy - s.lids[i].cy;
           d = dx * dx + dy * dy;
           if (d < m) m = d;
         }
-        if (m > bestD) { bestD = m; best = { cx: cx, cy: cy }; }
+        if (m > bestD) { bestD = m; best = p; }
       }
     }
     return best;
@@ -464,13 +767,26 @@ var Lids = {
      be the tool quietly re-using an old commitment for a new problem.
      moveLid does NOT clear it (the share is unchanged by where a lid
      sits) and neither does lower (the class may want to look again). */
+  /* ⭐ PLACING FROM AN EMPTY TABLE LAYS TWO. See MIN_LIDS: one lid takes
+     floor(n/1) = n and swallows every counter, which was one click from
+     the opening frame. The pair is also what the routine is: "the second
+     lid is not a feature here, it is the subject." */
   addLid: function (st, cx, cy) {
     var s = this._clone(st);
     if (s.lifted) return null;
     if (s.lids.length >= this.MAX_LIDS) return null;
-    var x = Math.round(Number(cx)), y = Math.round(Number(cy));
-    if (!isFinite(x) || !isFinite(y)) return null;
-    s.lids.push({ cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) });
+    var pairing = s.lids.length === 0;
+    var k = pairing ? this.MIN_LIDS : s.lids.length + 1;
+    var p = this._placeable(s, cx, cy, k);
+    if (!p) return null;
+    s.lids.push(p);
+    if (pairing) {
+      /* the second of the pair goes to the emptiest spot left, measured
+         against the first — the same rule the ghosts draw */
+      var q = this._farPoint(s, k);
+      if (!q) return null;
+      s.lids.push(q);
+    }
     s.guess = null;
     return s;
   },
@@ -479,17 +795,20 @@ var Lids = {
     var s = this._clone(st);
     if (s.lifted) return null;
     if (!(i >= 0 && i < s.lids.length)) return null;
-    var x = Math.round(Number(cx)), y = Math.round(Number(cy));
-    if (!isFinite(x) || !isFinite(y)) return null;
-    s.lids[i] = { cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) };
+    var p = this._placeable(s, cx, cy, s.lids.length);
+    if (!p) return null;
+    s.lids[i] = p;
     return s;
   },
 
+  /* ⚠ AND TAKING ONE AWAY FROM TWO CLEARS THE TABLE, for the same reason:
+     k = 1 is not a state this tool has. */
   removeLid: function (st) {
     var s = this._clone(st);
     if (s.lifted) return null;
     if (!s.lids.length) return null;
     s.lids.pop();
+    if (s.lids.length === 1) s.lids.pop();
     s.guess = null;
     return s;
   },
@@ -510,20 +829,30 @@ var Lids = {
      one refuses to be (refusal 1). Enforced HERE, in the model, so no
      path can park a marker early; the disabled attribute on the buttons
      is only the mirror. */
+  /* ⚠ ONE SCALE, READ TWICE. The bound is stripTop(), the same function
+     the renderer draws from — the shipped build bounded here at
+     PAID_MAX_TOTAL while the strip rendered 0..12, so the model and the
+     picture disagreed about what could be chosen. */
   placeGuess: function (st, v) {
     var s = this._clone(st);
     if (s.lifted) return null;
-    if (s.lids.length < 2) return null;
+    if (s.lids.length < this.MIN_LIDS) return null;
     var g = Math.round(Number(v));
-    if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return null;
+    if (!isFinite(g) || g < 1 || g > this.stripTop(s)) return null;
     s.guess = (s.guess === g) ? null : g;
     return s;
   },
 
+  /* ⚠ AND THE LIFT REFUSES BELOW TWO. The shipped build allowed
+     `lids.length >= 1`, so a teacher could put one lid down and lift it —
+     reaching the single-lid subtraction that refusal 1 calls "the tool
+     this one refuses to be" — with no string and no refusal anywhere on
+     that path. Belt and braces with MIN_LIDS: the reachable set already
+     makes k=1 unreachable, and this refuses it in the model too. */
   lift: function (st) {
     var s = this._clone(st);
     if (s.lifted) return null;
-    if (s.lids.length < 1) return null;
+    if (s.lids.length < this.MIN_LIDS) return null;
     s.lifted = true;
     return s;
   },
@@ -620,15 +949,24 @@ var Lids = {
      lid COUNT, never positions, so the book stays tiny and locale-free */
   loadSetup: function (st, rec) {
     var s = this._clone(st);
-    if (!rec || !(rec.n >= this.MIN_TOTAL) || !(rec.k >= 1)) return null;
+    /* ⚠ k >= MIN_LIDS, not k >= 1: the book has never contained a
+       one-lid table and the tool no longer has a one-lid state, so a
+       setup asking for one is rejected rather than quietly laid out. */
+    if (!rec || !(rec.n >= this.MIN_TOTAL) || !(rec.k >= this.MIN_LIDS)) return null;
     if (rec.n > this.PAID_MAX_TOTAL || rec.k > this.MAX_LIDS) return null;
     s.n = rec.n;
     s.seed = rec.n * 7919;
     s.guess = null;
     s.lifted = false;
     s.lids = [];
-    var i, gap = this.W / (rec.k + 1);
-    for (i = 0; i < rec.k; i++) s.lids.push({ cx: Math.round(gap * (i + 1)), cy: Math.round(this.H / 2) });
+    /* laid out through the same clamp everything else uses, so a book
+       table cannot put a lid half off the edge either */
+    var i, p, gap = this.W / (rec.k + 1);
+    for (i = 0; i < rec.k; i++) {
+      p = this._placeable(s, Math.round(gap * (i + 1)), Math.round(this.H / 2), rec.k);
+      if (!p) return null;
+      s.lids.push(p);
+    }
     return s;
   },
 
@@ -646,80 +984,158 @@ var Lids = {
     this.st = this.newState();
     this._timers = [];
     this._setupIdx = 0;
+    this._rounds = [];
     this._fetchSetups();
     this._fetchEntitlement();
-    this.render();
+    /* ⚠ NO render() HERE. The shell calls tool.init(api) and then
+       tool.render() on the very next line (lcs-shell.js:994-995), so the
+       old call built the whole stage twice on every single boot. */
   },
 
   reset: function () {
     this.st = this.newState();
     this._setupIdx = 0;
+    this._rounds = [];
+    this._say(null);
     this.render();
   },
 
+  /* ⚠ AND IT TAKES THE BODY CLASS WITH IT. init adds `lid-wide` to
+     <body>; destroy used to clear the timers and nothing else, so the
+     class outlived the tool in any document that mounts a second one. */
   destroy: function () {
     (this._timers || []).forEach(function (t) { clearTimeout(t); });
     this._timers = [];
+    document.body.classList.remove('lid-wide', 'lid-paid');
+  },
+
+  onSettings: function () {
+    /* the shell renders immediately after this returns; a second render
+       here would rebuild the stage twice per toggle */
   },
 
   _after: function (ms, fn) { var t = setTimeout(fn, ms); this._timers.push(t); return t; },
 
   /* =================================================================
+     THE TOOL'S VOICE — one channel, both audiences.
+
+     ⭐ NO CONTROL ON THIS CARD GOES GREY IN SILENCE. The shipped build
+     had three: the six total chips died the instant a lid landed, the
+     whole numeral strip was dead below two lids, and "Another lid" died
+     at four. Every one of those refusals is deliberate and defensible,
+     and not one of them said anything, so each read as breakage — which
+     is most of what "a bit confusing" was.
+
+     ⚠ AND `title` ON A DISABLED BUTTON CANNOT FIX IT. A disabled button
+     is unfocusable and skipped by screen readers, and THERE IS NO HOVER
+     ON A PROJECTOR OR A TOUCH PANEL — which is the entire population this
+     tool is built for. So a refusing control keeps `aria-disabled`, stays
+     focusable and clickable, and speaks: api.announce for the one person
+     with a screen reader, and the hint band for the thirty people looking
+     at the wall.
+
+     ⚠ `disabled` SURVIVES IN EXACTLY ONE CASE — a control whose effect is
+     already the state (the total that is already chosen). A live control
+     that provably does nothing reads as broken too.
+
+     ⚠ DISPATCH BY REASON, NEVER BY "THE REDUCER RETURNED NULL". Four
+     panels caught this independently: setTotal returns null for three
+     different reasons and placeGuess for two, so speaking one string on
+     any null would announce "Lids are on the table" over an empty one,
+     or "The lids are up" when no lid had ever been placed. ================================================================= */
+  _say: function (key) {
+    var self = this;
+    this._said = key || null;
+    if (!key || !this._wrap) { if (this._wrap) this.render(); return; }
+    this.api.announce(this.api.t(key));
+    this.render();
+    this._after(4200, function () {
+      if (self._said === key) { self._said = null; if (self._wrap) self.render(); }
+    });
+  },
+
+  /* wire a control that cannot act right now: it keeps its own label,
+     stays reachable, and names its reason when pressed */
+  _refuse: function (btn, key) {
+    var self = this;
+    btn.setAttribute('aria-disabled', 'true');
+    btn.classList.add('lid-hold');
+    btn.title = this.api.t(key);
+    btn.addEventListener('click', function () { self._say(key); });
+    return btn;
+  },
+
+  _announce: function (msg) { if (msg) this.api.announce(msg); },
+
+  /* =================================================================
      RENDER
      ================================================================= */
+  /* ⭐ FOCUS: ONE MECHANISM, NOT FIVE SPECIAL CASES.
+     render() does stage.innerHTML = '' and rebuilds everything, so every
+     press destroys the button that was pressed. The shipped build put a
+     bespoke .focus() restore inside the lid handler and another inside
+     the strip, and none on the five foot chips — so a keyboard teacher
+     pressing "Another lid" was thrown to <body> on every press.
+     Now every focusable node carries a stable data-fk, and render() is a
+     sandwich: read the key, rebuild, put focus back.
+     ⚠ IT ONLY EVER RESTORES FOCUS THAT WAS ALREADY INSIDE .lid-wrap, so
+     it cannot steal focus at boot and cannot yank the teacher out of the
+     shell's settings drawer when commitSettings calls tool.render(). */
+  _FALLBACK: function (key) {
+    if (key.indexOf('ghost:') === 0) return 'lid:0';
+    if (key.indexOf('lid:') === 0) return 'add';
+    if (key.indexOf('mark:') === 0) return 'lift';
+    return 'add';
+  },
+
   render: function () {
-    var api = this.api;
+    var api = this.api, self = this;
+
+    /* --- focus, half one --- */
+    var prev = document.activeElement;
+    var key = (this._wrap && prev && this._wrap.contains(prev))
+      ? prev.getAttribute('data-fk') : null;
+    if (this._focusNext) { key = this._focusNext; this._focusNext = null; }
+
     /* ⚠ locking a control is not enough — reset the STATE it produced.
        If we learn the account is free while a paid-size total is on the
-       table, put it back. (pattern-bench:290) */
-    if (this.premiumKnown && !this.premium && this.st.n > this.FREE_MAX_TOTAL) {
+       table, put it back.
+       ⚠ BUT NOT MID-LESSON. The shipped build wiped lids, guess AND
+       lifted the moment a cached-premium account resolved to free, which
+       can land while a class is looking at the table. It now only
+       re-clamps an EMPTY table; a table in play keeps its question and
+       the gate line explains the rest. */
+    if (this.premiumKnown && !this.premium && this.st.n > this.FREE_MAX_TOTAL &&
+        !this.st.lids.length) {
       this.st.n = this.FREE_MAX_TOTAL;
       this.st.seed = this.FREE_MAX_TOTAL * 7919;
-      this.st.lids = [];
       this.st.guess = null;
       this.st.lifted = false;
     }
+
     api.stage.innerHTML = '';
     var wrap = api.el('div', 'lid-wrap');
     this._wrap = wrap;
-    wrap.appendChild(this._buildBar());
     /* ⚠ THE HINT SITS ABOVE THE TABLE — the only instruction this tool
        gives, and below a tall table it can be off-screen at the moment
        it appears (the recorded number-sieve defect). */
     wrap.appendChild(this._buildHint());
     wrap.appendChild(this._buildTable());
-    wrap.appendChild(this._buildStrip());
+    if (api.settings.strip !== false) wrap.appendChild(this._buildStrip());
+    wrap.appendChild(this._buildRecord());
     wrap.appendChild(this._buildFoot());
     api.stage.appendChild(wrap);
-  },
 
-  _buildBar: function () {
-    var api = this.api, self = this, bar = api.el('div', 'lid-bar');
+    /* the printable lives OUTSIDE the wrap: print hides .lid-wrap
+       entirely and a sheet inside it would inherit that */
+    this._ensureSheet(api.stage);
 
-    var group = api.el('div', 'lid-group');
-    group.setAttribute('role', 'group');
-    group.setAttribute('aria-label', api.t('totalLabel'));
-    /* the total is a numeral, which the no-words law explicitly allows */
-    [8, 12, 16, 20, 24, 30].forEach(function (n) {
-      var open = n <= self.maxTotal();
-      var b = api.el('button', 'lid-chip' + (self.st.n === n ? ' lid-on' : '') + (open ? '' : ' lid-locked'));
-      b.type = 'button';
-      b.textContent = String(n);
-      b.setAttribute('aria-pressed', String(self.st.n === n));
-      /* the option that IS the state cannot be chosen again — a live
-         control that provably does nothing reads as broken */
-      b.disabled = (open && self.st.n === n) || !!self.st.lids.length;
-      b.addEventListener('click', function () {
-        if (!open) { self._showGate(); return; }
-        var next = self.setTotal(self.st, n);
-        if (!next) return;
-        self.st = next;
-        self.render();
-      });
-      group.appendChild(b);
-    });
-    bar.appendChild(group);
-    return bar;
+    /* --- focus, half two --- */
+    if (!key) return;
+    var el = wrap.querySelector('[data-fk="' + key + '"]') ||
+             wrap.querySelector('[data-fk="' + this._FALLBACK(key) + '"]');
+    if (el) { try { el.focus(); } catch (_) {} }
+    void self;
   },
 
   /* ⚠ `hintMark` WAS A DEAD STRING. "Park the marker on the number you
@@ -729,19 +1145,55 @@ var Lids = {
      the reason the numerals read as decoration. It now has the one rung
      where it belongs: the state where the strip is live and empty.
      verify-lids V17 makes an unreferenced string a build failure. */
+  /* ⭐ THE LADDER — and it had two rungs missing, one of which was 60% of
+     the tool.
+     `hintMark` used to be a DEAD STRING: authored in eleven locales and
+     never referenced, so the tool never said what the numerals were for.
+     Worse, the exact-share case rendered an EMPTY STRING — measured
+     across the fifteen configurations the totals can reach with two or
+     more lids, NINE render blank. The clean share is not an edge case, it
+     is the majority of the tool, and the tool said nothing about it. That
+     silence is itself an editorial: it marks the exact share as the case
+     with nothing to say and the remainder as the case where something
+     went wrong — the precise inverse of this tool's third invention.
+
+     ⚠ EVERY RUNG IS GUARDED ON WHAT IS ACTUALLY ON SCREEN. Six native
+     panels independently caught the same class of defect: `hintAgain`
+     ("...then put another one down") is FALSE at MAX_LIDS, where the next
+     thing the class meets is `refuseMax`; and `hintMark` ("Choose a
+     number below") is FALSE when the strip is switched off. A hint that
+     instructs a move the tool refuses is the marker defect again. */
   _buildHint: function () {
     var api = this.api, s = this.st, hint = api.el('div', 'lid-hint');
-    if (s.lifted) hint.textContent = this.leftover(s) > 0 ? api.t('hintLeftover') : '';
-    else if (s.lids.length < 2) hint.textContent = api.t('hintPlace');
-    else if (s.guess === null) {
-      /* two lines: the question, then what to do about it */
-      var q = api.el('span', 'lid-hline');
-      q.textContent = api.t('hintShare');
-      var m = api.el('span', 'lid-hline');
-      m.textContent = api.t('hintMark');
-      hint.appendChild(q);
-      hint.appendChild(m);
-    } else hint.textContent = api.t('hintLift');
+    var self = this;
+    var line = function (key) {
+      var el = api.el('span', 'lid-hline');
+      el.textContent = api.t(key);
+      hint.appendChild(el);
+      return el;
+    };
+
+    /* a refusal takes the band for a few seconds, and says so in coral */
+    if (this._said) {
+      hint.className = 'lid-hint lid-say';
+      line(this._said);
+      return hint;
+    }
+
+    if (s.lifted) {
+      line(this.leftover(s) > 0 ? 'hintLeftover' : 'hintExact');
+      /* the routine's whole move — but only where it is true */
+      if (s.lids.length < this.MAX_LIDS) line('hintAgain');
+    } else if (s.lids.length < this.MIN_LIDS) {
+      line('hintPlace');
+      line('hintRule');
+    } else if (s.guess === null) {
+      line('hintShare');
+      if (api.settings.strip !== false) line('hintMark');
+    } else {
+      line('hintLift');
+    }
+    void self;
     return hint;
   },
 
@@ -753,58 +1205,190 @@ var Lids = {
      part-whole-frame.js:517-520) and this tool inherits it rather than
      claiming it.
      ================================================================= */
+  /* the three-part accessible name, joined as label-colon-value.
+     ⚠ DELIBERATELY NOT "{n} counters". Label-colon-value is the one shape
+     that stays grammatical in all eleven languages with a bare numeral
+     appended by code — Finnish needs partitive plural, German needs no
+     agreement at all, and nobody is going to author plural forms for
+     this. Every native panel resolved its own three phrases on that
+     basis, and two of them corrected my English while doing it: "lids
+     down" is FALSE once the lids are up, and "counters on the table"
+     stuttered against the group's own name. */
+  _tableName: function () {
+    var api = this.api, s = this.st;
+    return api.t('tableLabel') + '. ' +
+      api.t('countersAria') + ': ' + s.n + ', ' +
+      api.t('lidsAria') + ': ' + s.lids.length + ', ' +
+      api.t('looseAria') + ': ' + this.leftover(s);
+  },
+
   _buildTable: function () {
     var api = this.api, self = this, s = this.st;
     var box = api.el('div', 'lid-table');
     box.setAttribute('role', 'group');
-    box.setAttribute('aria-label', api.t('tableLabel'));
+    box.setAttribute('aria-label', this._tableName());
 
     var pts = this.scatter(s);
     var vis = s.lifted ? null : this.visibleIndices(s);
     var i;
 
+    /* ⭐ THE GHOSTS — the answer to "what do I do", drawn instead of
+       written. Two dashed circles at exactly the coordinates a lid would
+       land on, at MIN_R and never at the share's own radius (a ghost
+       sized from the share would pre-announce the re-settle). They are
+       real buttons, so the liveness gate can press them and a keyboard
+       teacher can reach them, and they carry the SAME accessible name as
+       the chip because they perform the same move.
+       ⚠ TWO PREVIEWS OF ONE MOVE, not two controls. Pressing either lays
+       the pair — because k=1 is not a state this tool has, and a first
+       press that made every counter vanish is what the ghosts exist to
+       prevent. */
+    if (!s.lids.length && !s.lifted && api.settings.ghosts !== false) {
+      var probe = this._clone(s), g;
+      for (i = 0; i < this.MIN_LIDS; i++) {
+        g = i === 0
+          ? this._placeable(probe, this.W * 0.5, this.H * 0.5, this.MIN_LIDS)
+          : this._farPoint(probe, this.MIN_LIDS);
+        if (!g) break;
+        probe.lids.push(g);
+        box.appendChild(this._ghost(g, i));
+      }
+    }
+
+    /* ⚠⚠ PAINT ORDER IS THE WHOLE REVEAL, AND IT WAS BACKWARDS.
+       Counters were appended first and lids second, both absolutely
+       positioned with no z-index, so the lid painted LAST — on top. With
+       `.lid-up` at opacity .32 the class saw the counters through an
+       orange veil at the one moment that has to be clean: measured, a
+       veiled counter blends to #5B6F58, which is 1.17:1 against an
+       unveiled neighbour. The lift's entire job is to show WHICH counters
+       were under WHICH lid, and the old treatment destroyed exactly that.
+       No gate could see it — every assertion was on counts and classes.
+       So when the lids are up they are painted FIRST and the counters sit
+       on top of them; while they are down they still paint last, because
+       a cover that does not cover is not a cover. */
+    var paintLids = function () {
+      s.lids.forEach(function (lid, idx) {
+        var el = api.el('button', 'lid-lid' + (s.lifted ? ' lid-up' : ''));
+        el.type = 'button';
+        el.setAttribute('data-fk', 'lid:' + idx);
+        el.style.left = (lid.cx / self.W * 100) + '%';
+        el.style.top = (lid.cy / self.H * 100) + '%';
+        /* as wide as it holds — see radiusForShare(). A percentage of the
+           table's WIDTH with aspect-ratio:1, so the circle stays a circle
+           whatever the table's own scale; CSS min-width holds the 44px tap
+           floor when the arithmetic asks for something smaller. */
+        el.style.width = (self.lidRadius(s) * 2 / self.W * 100) + '%';
+        el.setAttribute('aria-label', api.t('lidAria').replace('{i}', String(idx + 1)));
+        self._wireLidDrag(el, idx, box);
+        box.appendChild(el);
+      });
+    };
+
     if (s.lifted) {
+      paintLids();
       /* ⭐ THE COUNTERS ARE SHOWN WHERE THEY WERE — UNDER THEIR OWN LID,
          in the same packing the lid was sized to hold. So the class does
          not take "ten under each" on trust; they count ten under each.
          An earlier draft put every counter back at its scatter point,
          which answered the question with a shrug. What was never under a
-         lid has not moved and does not move now. */
+         lid has not moved and does not move now — and it does not
+         animate either, which is the only difference the tool ever draws
+         between a shared counter and a left-over one. */
       var pack = this.packing(this.share(s));
       s.lids.forEach(function (lid) {
         for (var q = 0; q < pack.length; q++) {
-          box.appendChild(self._counter({ x: lid.cx + pack[q].dx, y: lid.cy + pack[q].dy }, api));
+          box.appendChild(self._counter({ x: lid.cx + pack[q].dx, y: lid.cy + pack[q].dy }, api, 'lid-fresh'));
         }
       });
       var rest = this.visibleIndices(s);
       for (i = 0; i < rest.length; i++) box.appendChild(this._counter(pts[rest[i]], api));
     } else {
       for (i = 0; i < vis.length; i++) box.appendChild(this._counter(pts[vis[i]], api));
+      paintLids();
     }
-
-    s.lids.forEach(function (lid, idx) {
-      var el = api.el('button', 'lid-lid' + (s.lifted ? ' lid-up' : ''));
-      el.type = 'button';
-      el.style.left = (lid.cx / self.W * 100) + '%';
-      el.style.top = (lid.cy / self.H * 100) + '%';
-      /* as wide as it reaches — see lidRadius(). A percentage of the
-         table's WIDTH with aspect-ratio:1, so the circle stays a circle
-         whatever the table's own scale; CSS min-width holds the 44px tap
-         floor when the arithmetic asks for something smaller. */
-      el.style.width = (self.lidRadius(s) * 2 / self.W * 100) + '%';
-      el.setAttribute('aria-label', api.t('lidAria').replace('{i}', String(idx + 1)));
-      self._wireLidDrag(el, idx, box);
-      box.appendChild(el);
-    });
     return box;
   },
 
-  _counter: function (p, api) {
-    var c = api.el('div', 'lid-counter');
+  _ghost: function (p, i) {
+    var api = this.api, self = this;
+    var g = api.el('button', 'lid-ghost');
+    g.type = 'button';
+    g.setAttribute('data-fk', 'ghost:' + i);
+    g.style.left = (p.cx / this.W * 100) + '%';
+    g.style.top = (p.cy / this.H * 100) + '%';
+    g.style.width = (this.MIN_R * 2 / this.W * 100) + '%';
+    g.setAttribute('aria-label', api.t('firstLid'));
+    g.addEventListener('click', function () { self._placeFrom(p.cx, p.cy); });
+    this._wireGhostDrag(g);
+    return g;
+  },
+
+  /* ⚠ aria-hidden, AND NO LABEL AT ALL. Every counter used to carry
+     aria-label="a counter", so a screen-reader user met up to thirty
+     identical announcements and never learned how many were on the
+     table — noise that was simultaneously not a real name, since an
+     aria-label on a role-less <div> is not reliably exposed anyway. The
+     count now lives on the group, where a count belongs, and
+     `counterAria` is deleted from all eleven locales. */
+  _counter: function (p, api, extra) {
+    var c = api.el('div', 'lid-counter' + (extra ? ' ' + extra : ''));
     c.style.left = (p.x / this.W * 100) + '%';
     c.style.top = (p.y / this.H * 100) + '%';
-    c.setAttribute('aria-label', api.t('counterAria'));
+    c.setAttribute('aria-hidden', 'true');
     return c;
+  },
+
+  /* placing, from wherever the gesture started */
+  _placeFrom: function (cx, cy) {
+    var next = this.addLid(this.st, cx, cy);
+    if (!next) { this._say('refuseMax'); return; }
+    this.st = next; this._said = null;
+    this._focusNext = 'lid:0';
+    this._announce(this.api.t('lidsAria') + ': ' + next.lids.length + ', ' +
+                   this.api.t('looseAria') + ': ' + this.leftover(next));
+    this.render();
+  },
+
+  /* the ghost is both the suggestion and the handle: press it and the
+     pair lands where it sits, or carry it and the pair lands where you
+     let go. One object, one gesture, no new region and no new pixels. */
+  _wireGhostDrag: function (el) {
+    var self = this;
+    el.addEventListener('pointerdown', function (ev) {
+      var box = el.parentNode;
+      if (!box) return;
+      ev.preventDefault();
+      try { el.setPointerCapture(ev.pointerId); } catch (_) {}
+      var moved = false, sx = ev.clientX, sy = ev.clientY, at = null;
+      var move = function (e) {
+        var r = box.getBoundingClientRect();
+        if (!r.width) return;
+        if (Math.abs(e.clientX - sx) + Math.abs(e.clientY - sy) > 6) moved = true;
+        at = {
+          cx: (e.clientX - r.left) / r.width * self.W,
+          cy: (e.clientY - r.top) / r.height * self.H
+        };
+        el.classList.add('lid-carry');
+        el.style.left = (at.cx / self.W * 100) + '%';
+        el.style.top = (at.cy / self.H * 100) + '%';
+      };
+      var up = function () {
+        el.removeEventListener('pointermove', move);
+        el.removeEventListener('pointerup', up);
+        el.removeEventListener('pointercancel', up);
+        if (moved && at) self._placeFrom(at.cx, at.cy);
+        else self.render();
+      };
+      el.addEventListener('pointermove', move);
+      el.addEventListener('pointerup', up);
+      el.addEventListener('pointercancel', up);
+    });
+    el.addEventListener('keydown', function (ev) {
+      if (ev.key !== 'Enter' && ev.key !== ' ' && ev.key !== 'Spacebar') return;
+      ev.preventDefault();
+      el.click();
+    });
   },
 
   /* free 2-D placement — no precedent on this platform (sort-bins-core
@@ -814,7 +1398,17 @@ var Lids = {
      ⚠ The keyboard fallback is not optional: the liveness gate drives
      controls by key when a click changes nothing. */
   _wireLidDrag: function (el, idx, box) {
-    var self = this;
+    var self = this, api = this.api;
+    /* ⚠ AFTER THE LIFT A LID IS NOT DEAD, IT IS A READOUT. pointerdown
+       used to return immediately and the arrow keys returned null, so a
+       lifted lid was a live-looking control that did nothing. Now it says
+       what it was hiding. */
+    if (this.st.lifted) {
+      el.addEventListener('click', function () {
+        self._announce(api.t('revealAria') + ': ' + self.share(self.st));
+      });
+      return;
+    }
     el.addEventListener('pointerdown', function (ev) {
       if (self.st.lifted) return;
       ev.preventDefault();
@@ -826,7 +1420,7 @@ var Lids = {
         var cy = (e.clientY - r.top) / r.height * self.H;
         var next = self.moveLid(self.st, idx, cx, cy);
         if (!next) return;
-        self.st = next;
+        self.st = next; self._said = null;
         el.style.left = (self.st.lids[idx].cx / self.W * 100) + '%';
         el.style.top = (self.st.lids[idx].cy / self.H * 100) + '%';
       };
@@ -857,13 +1451,14 @@ var Lids = {
         ev.preventDefault();
         var without = self._clone(self.st);
         without.lids.splice(idx, 1);
-        var p = self._farPoint(without);
+        var p = self._farPoint(without, self.st.lids.length);
+        if (!p) return;
         next = self.moveLid(self.st, idx, p.cx, p.cy);
         if (!next) return;
-        self.st = next;
+        self.st = next; self._said = null;
+        self._focusNext = 'lid:' + idx;
+        self._announce(api.t('lidAria').replace('{i}', String(idx + 1)));
         self.render();
-        var moved = self._wrap && self._wrap.querySelectorAll('.lid-lid')[idx];
-        if (moved) { try { moved.focus(); } catch (_) {} }
         return;
       }
       var d = { ArrowLeft: [-60, 0], ArrowRight: [60, 0], ArrowUp: [0, -60], ArrowDown: [0, 60] }[ev.key];
@@ -871,7 +1466,8 @@ var Lids = {
       ev.preventDefault();
       next = self.moveLid(self.st, idx, lid.cx + d[0], lid.cy + d[1]);
       if (!next) return;
-      self.st = next;
+      self.st = next; self._said = null;
+      self._focusNext = 'lid:' + idx;
       self.render();
     });
   },
@@ -922,39 +1518,93 @@ var Lids = {
     /* ⚠ share() is read ONCE, here, and ONLY when the lids are up. It is
        never compared with s.guess anywhere in this file. */
     var truth = s.lifted ? this.revealed(s).share : null;
-    var top = Math.min(this.maxTotal(), 12), i;
-    for (i = 0; i <= top; i++) {
+    /* ⭐ 1..stripTop(n) — see stripTop(). The shipped build ran
+       0..min(maxTotal, 12), which could not hold its own answer at total
+       30 (share 15) and offered nine numerals that could never be the
+       answer at total 8. Zero goes too: with MIN_TOTAL 4 against
+       MAX_LIDS 4 the share is always at least 1, so a leading 0 was the
+       same dead numeral at the other end of the scale. */
+    var top = this.stripTop(s), i;
+    for (i = 1; i <= top; i++) {
       (function (v) {
         var isMark = (s.guess === v), isTruth = (truth === v);
-        var b = api.el('button', 'lid-mark' + (isMark ? ' lid-on' : '') + (isTruth ? ' lid-truth' : ''));
+        var b = api.el('button', 'lid-mark' + (isMark ? ' lid-on' : '') + (isTruth ? ' lid-truth' : '') +
+                       (v % 5 === 0 ? ' lid-five' : ''));
         b.type = 'button';
         b.textContent = String(v);
+        b.setAttribute('data-fk', 'mark:' + v);
         /* ⚠ label-colon-value, deliberately NOT prose: "under each lid: 6"
            is correct in all eleven locales without new authoring, where a
-           composed sentence would need word order per language. */
+           composed sentence would need word order per language.
+           ⚠ AND THE NOUN IS "number", NOT "mark". Five native panels
+           independently caught that `markAria` still said "mark {n}" —
+           reintroducing, in the accessible layer, the very noun hintMark
+           had just been rewritten to remove. A sighted class was told to
+           choose a number while a blind child was told to choose a mark. */
         b.setAttribute('aria-label', isTruth
           ? api.t('revealAria') + ': ' + String(v)
           : api.t('markAria').replace('{n}', String(v)));
         b.setAttribute('aria-pressed', String(isMark));
-        /* inert until there is a question, and inert once it is answered */
-        b.disabled = !!s.lifted || s.lids.length < 2;
-        b.addEventListener('click', function () {
-          var next = self.placeGuess(self.st, v);
-          if (!next) return;
-          self.st = next;
-          self.render();
-          /* ⚠ render() rebuilds the stage, so the button that was just
-             pressed no longer exists and focus falls to <body>. The lid
-             keyboard handler already restores it; this one did not, and
-             a keyboard user was thrown to the top of the card on every
-             numeral press. */
-          var again = self._wrap && self._wrap.querySelectorAll('.lid-mark')[v];
-          if (again) { try { again.focus(); } catch (_) {} }
-        });
+
+        /* inert until there is a question, and inert once it is answered —
+           but never inert in SILENCE, and never with the wrong reason.
+           Two panels caught that speaking one string on any refusal would
+           announce "the lids are up" over a table where no lid had ever
+           been placed. */
+        if (s.lifted) self._refuse(b, 'refuseLifted');
+        else if (s.lids.length < self.MIN_LIDS) self._refuse(b, 'hintPlace');
+        else {
+          b.addEventListener('click', function () {
+            var next = self.placeGuess(self.st, v);
+            if (!next) return;
+            self.st = next; self._said = null;
+            self._announce(next.guess === null
+              ? api.t('hintMark')
+              : api.t('markStrip') + ': ' + String(v));
+            self.render();
+          });
+        }
         strip.appendChild(b);
       }(i));
     }
     return strip;
+  },
+
+  /* ⭐ THE RECORD — one row, and it costs no height at all.
+     The thesis is the relation between the lid count and the share at a
+     fixed total, and one round is a single point of it. This shows the
+     PREVIOUS round on this same table, so at the moment the class reads
+     "12, three lids, 4 each" the line above reads "12, two lids, 6 each"
+     — the comparison the routine exists to produce.
+     ⚠ ONLY WHILE THE LIDS ARE UP. Last round's number on screen while a
+     class is still choosing is an anchor, and anchoring is the one way
+     this could make the routine worse (estimation-jar:2165-2169).
+     ⚠ AND IT NEVER HOLDS THE GUESS. Printed beside the share, a guess is
+     a verdict delivered by table layout — which is what V7 and V16 exist
+     to prevent. The row is frozen at {n, k, x, r}: four numerals under
+     four glyphs made of the tool's own material, so no new noun. */
+  _buildRecord: function () {
+    var api = this.api, row = api.el('div', 'lid-record');
+    var r = this._prevRow;
+    if (!this.premium || !this.st.lifted || !r) return row;
+    row.setAttribute('role', 'group');
+    row.setAttribute('aria-label', api.t('recordAria'));
+    var cell = function (glyph, labelKey, value) {
+      var c = api.el('div', 'lid-rc');
+      var g = api.el('span', 'lid-rglyph ' + glyph);
+      g.setAttribute('aria-hidden', 'true');
+      var v = api.el('span', 'lid-rnum');
+      v.textContent = String(value);
+      c.setAttribute('aria-label', api.t(labelKey) + ': ' + String(value));
+      c.appendChild(g);
+      c.appendChild(v);
+      row.appendChild(c);
+    };
+    cell('lid-gcount', 'countersAria', r.n);
+    cell('lid-glid', 'lidsAria', r.k);
+    cell('lid-gshare', 'revealAria', r.x);
+    cell('lid-gloose', 'looseAria', r.r);
+    return row;
   },
 
   _buildFoot: function () {
@@ -963,59 +1613,114 @@ var Lids = {
 
     /* ⭐ a noun-labelled control does what its label says — the recorded
        number-sieve "New cards" defect was a chip that armed a mode and
-       dealt nothing, and it reached the operator. */
+       dealt nothing, and it reached the operator.
+       ⚠ AND ON AN EMPTY TABLE IT IS NOT "ANOTHER" LID. Another than what?
+       The label branches, and the addLid lookup survives the branch so
+       V11's label-truth scan still finds it.
+       ⚠ Do not name that lookup again in prose: a mutation needle keys on
+       it, and a second textual occurrence makes the needle match a
+       COMMENT as well as the code, which mutates nothing while still
+       being counted as a mutation. */
     var add = api.el('button', 'lid-chip');
     add.type = 'button';
-    add.textContent = api.t('addLid');
-    add.disabled = s.lifted || s.lids.length >= this.MAX_LIDS;
-    add.addEventListener('click', function () {
-      var p = self._farPoint(self.st);
-      var next = self.addLid(self.st, p.cx, p.cy);
-      if (!next) return;
-      self.st = next;
-      self.render();
-    });
+    add.setAttribute('data-fk', 'add');
+    add.textContent = s.lids.length ? api.t('addLid') : api.t('firstLid');
+    if (s.lifted) this._refuse(add, 'refuseLifted');
+    else if (s.lids.length >= this.MAX_LIDS) this._refuse(add, 'refuseMax');
+    else {
+      add.addEventListener('click', function () {
+        var p = self._farPoint(self.st);
+        if (!p) return;
+        self._placeFrom(p.cx, p.cy);
+      });
+    }
     foot.appendChild(add);
 
     var take = api.el('button', 'lid-chip');
     take.type = 'button';
+    take.setAttribute('data-fk', 'take');
     take.textContent = api.t('takeLid');
-    take.disabled = s.lifted || !s.lids.length;
-    take.addEventListener('click', function () {
-      var next = self.removeLid(self.st);
-      if (!next) return;
-      self.st = next;
-      self.render();
-    });
+    if (s.lifted) this._refuse(take, 'refuseLifted');
+    else if (!s.lids.length) this._refuse(take, 'hintPlace');
+    else {
+      take.addEventListener('click', function () {
+        var next = self.removeLid(self.st);
+        if (!next) return;
+        self.st = next; self._said = null;
+        self._focusNext = 'add';
+        self._announce(api.t('lidsAria') + ': ' + next.lids.length + ', ' +
+                       api.t('looseAria') + ': ' + self.leftover(next));
+        self.render();
+      });
+    }
     foot.appendChild(take);
 
     var lift = api.el('button', 'lid-chip lid-go');
     lift.type = 'button';
+    lift.setAttribute('data-fk', 'lift');
     lift.textContent = api.t(s.lifted ? 'againBtn' : 'liftBtn');
-    lift.disabled = !s.lids.length;
-    lift.addEventListener('click', function () {
-      var next = self.st.lifted ? self.lower(self.st) : self.lift(self.st);
-      if (!next) return;
-      self.st = next;
-      self.render();
-    });
+    if (!s.lifted && s.lids.length < this.MIN_LIDS) this._refuse(lift, 'hintPlace');
+    else {
+      lift.addEventListener('click', function () {
+        var was = self.st;
+        var next = was.lifted ? self.lower(was) : self.lift(was);
+        if (!next) return;
+        if (!was.lifted) self._recordRound(next);
+        self.st = next; self._said = null;
+        if (next.lifted) {
+          self._announce(api.t('revealAria') + ': ' + self.share(next) +
+            (self.leftover(next) ? ' ' + api.t('hintLeftover') : ' ' + api.t('hintExact')));
+        } else {
+          self._announce(api.t('hintShare'));
+        }
+        self.render();
+      });
+    }
     foot.appendChild(lift);
 
     var other = api.el('button', 'lid-chip');
     other.type = 'button';
+    other.setAttribute('data-fk', 'setup');
     other.textContent = api.t('newSetBtn');
-    other.disabled = this.setupsFor().length < 2;
-    other.addEventListener('click', function () { self._stepSetup(); });
+    if (this.setupsFor().length < 2) this._refuse(other, 'gateLine');
+    else other.addEventListener('click', function () { self._stepSetup(); });
     foot.appendChild(other);
 
     var pr = api.el('button', 'lid-chip' + (this.premium ? '' : ' lid-locked'));
     pr.type = 'button';
+    pr.setAttribute('data-fk', 'print');
     pr.textContent = api.t('printBtn');
     pr.addEventListener('click', function () {
       if (!self.premium) { self._showGate(); return; }
       window.print();
     });
     foot.appendChild(pr);
+
+    /* ⭐⭐ THE TOTAL — a stepper, set apart at the end of the row.
+       It stays on the card in EVERY frame because it is half the
+       derivation the class is doing. What it is NOT any more is a second
+       row of six numerals four hundred pixels above the answer scale:
+       one card carried a SETUP scale (8-12-16-20-24-30) and an ANSWER
+       scale (0-12) with nothing distinguishing them, and a teacher
+       reading it cold could not tell which row the class should point at.
+
+       ⚠ AND SIX CHIPS COULD NOT EXPRESS THE MODEL. setTotal accepts every
+       integer from 4 to 30 — 27 values — and the table book ships totals
+       right across that range (t-003 is n=13). The chips offered six, so
+       a teacher could not set 13 by hand though the book would hand it to
+       them. That is estimation-jar's own logged v1 defect verbatim: "the
+       reachable set was a congruence class mod 10 — a teacher could not
+       set 17". Press-and-hold ramps, as it does there. */
+    var group = api.el('div', 'lid-total');
+    group.setAttribute('role', 'group');
+    group.setAttribute('aria-label', api.t('totalLabel'));
+    foot.appendChild(group);
+    group.appendChild(this._stepBtn(-1, '−'));
+    var tv = api.el('span', 'lid-tval');
+    tv.textContent = String(s.n);
+    tv.setAttribute('aria-hidden', 'true');
+    group.appendChild(tv);
+    group.appendChild(this._stepBtn(1, '+'));
 
     /* ⚠ TWO NODES, NEVER A CONCATENATION — the recorded localisation
        smell, and joining them makes the one actionable thing
@@ -1036,6 +1741,74 @@ var Lids = {
     return foot;
   },
 
+  /* one arm of the total stepper. Its accessible name is its own
+     authored phrase plus the value it would reach — never label+number
+     concatenation of two unrelated strings, which broke Finnish
+     case-marking on a sibling tool and three ensembles caught it. */
+  _stepBtn: function (delta, glyph) {
+    var api = this.api, self = this, s = this.st;
+    var b = api.el('button', 'lid-chip lid-step');
+    b.type = 'button';
+    b.textContent = glyph;
+    b.setAttribute('data-fk', 'total' + (delta < 0 ? '-' : '+'));
+    var want = s.n + delta;
+    b.setAttribute('aria-label', api.t('totalLabel') + ': ' + String(want));
+
+    /* dispatch by REASON, not by "setTotal returned null" */
+    if (s.lids.length) { this._refuse(b, 'refuseTotal'); return b; }
+    if (want < this.MIN_TOTAL) { this._refuse(b, 'hintPlace'); return b; }
+    /* ⚠ AT THE CEILING, SAY SO. A control that clamps in silence while
+       the paywall copy promises bigger totals advertises a paid
+       affordance with no control behind it. */
+    if (want > this.maxTotal()) {
+      if (want <= this.PAID_MAX_TOTAL && !this.premium) {
+        b.classList.add('lid-locked');
+        b.addEventListener('click', function () { self._showGate(); });
+      } else { this._refuse(b, 'refuseMax'); }
+      return b;
+    }
+
+    var apply = function () {
+      var next = self.setTotal(self.st, self.st.n + delta);
+      if (!next) return false;
+      self.st = next; self._said = null;
+      self._prevRow = null;
+      self._announce(api.t('totalLabel') + ': ' + next.n);
+      self.render();
+      return true;
+    };
+    var timer = null, ramp = null;
+    var stop = function () { clearTimeout(timer); clearInterval(ramp); timer = ramp = null; };
+    b.addEventListener('click', function () { apply(); });
+    b.addEventListener('pointerdown', function () {
+      timer = setTimeout(function () {
+        ramp = setInterval(function () { if (!apply()) stop(); }, 90);
+      }, 420);
+      self._timers.push(timer);
+    });
+    ['pointerup', 'pointerleave', 'pointercancel', 'blur'].forEach(function (ev) {
+      b.addEventListener(ev, stop);
+    });
+    return b;
+  },
+
+  /* ⭐ ONE ROW REMEMBERED, and only the previous one on THIS total.
+     Deduped on (n, k) so a teacher demonstrating the same table twice
+     does not fake a history. The guess is never stored. */
+  _recordRound: function (next) {
+    var row = { n: next.n, k: next.lids.length, x: this.share(next), r: this.leftover(next) };
+    var i, prev = null;
+    for (i = this._rounds.length - 1; i >= 0; i--) {
+      if (this._rounds[i].n === row.n && this._rounds[i].k !== row.k) { prev = this._rounds[i]; break; }
+    }
+    this._prevRow = prev;
+    for (i = 0; i < this._rounds.length; i++) {
+      if (this._rounds[i].n === row.n && this._rounds[i].k === row.k) { this._rounds.splice(i, 1); break; }
+    }
+    this._rounds.push(row);
+    if (this._rounds.length > 12) this._rounds.shift();
+  },
+
   /* ⚠ STEP PAST A SETUP THAT WOULD RENDER IDENTICALLY — the recorded
      number-sieve library defect and the arrow-strip Mat Book defect,
      which are the same defect twice. */
@@ -1052,8 +1825,143 @@ var Lids = {
     var next = this.loadSetup(this.st, hit);
     if (!next) return;
     this._setupIdx = idx;
-    this.st = next;
+    this.st = next; this._said = null;
     this.render();
+  },
+
+  /* =================================================================
+     ⭐⭐ THE PRINT SHEET — and the shipped build gave it away for free.
+     The chip called _showGate() for a free visitor, but the @media print
+     block was UNCONDITIONAL: nothing scoped it to a paid body class, so
+     Ctrl+P handed anybody the Teacher-plan sheet. That is "gate the
+     FEATURE, not the CHIP", already recorded twice on this platform and
+     shipped here anyway. Two locks, the house pattern: the subtree is
+     ABSENT unless entitled, and every print rule is scoped .lid-paid.
+
+     ⚠ AND IT IS A PURE FUNCTION OF (n, k). It never reads `lifted` and
+     never reads `guess` — which is what makes an answer key structurally
+     impossible. The old block printed the live screen, so printing after
+     a lift put `lid-on` and `lid-truth` on twenty-five copies.
+
+     ⚠ THE SHEET IS A SIBLING OF .lid-wrap, never a descendant: print
+     hides the wrap entirely and a sheet inside it would inherit that.
+     ================================================================= */
+  _ensureSheet: function (host) {
+    if (!host) return;
+    var old = host.querySelector ? host.querySelector('.lid-sheet') : null;
+    if (old && old.parentNode) old.parentNode.removeChild(old);
+    if (!this.premium) { document.body.classList.remove('lid-paid'); return; }
+    host.appendChild(this._buildSheet());
+    document.body.classList.add('lid-paid');
+  },
+
+  _buildSheet: function () {
+    var api = this.api, self = this, s = this.st;
+    var sheet = api.el('div', 'lid-sheet');
+    sheet.setAttribute('aria-hidden', 'true');
+
+    /* ---- page 1: the worksheet ---- */
+    var p1 = api.el('div', 'lid-page');
+    sheet.appendChild(p1);
+
+    /* ⚠ THE SHEET CARRIES ITS OWN HEADING, and the shell's header is
+       hidden in print like every other tool's. Un-hiding `.lcs-header`
+       was tempting — eleven locales of title for nothing — but the shared
+       print gate asserts the shell chrome does not reach paper, and that
+       law exists because two tools shipped a chip that printed the whole
+       web page. Weakening a shared gate for one tool is the wrong trade;
+       reusing the authored title inside the sheet costs nothing and keeps
+       the renamed title in de, fi, nl and pt. */
+    var head1 = api.el('div', 'lid-phead');
+    head1.textContent = api.t('title');
+    p1.appendChild(head1);
+
+    var task = api.el('div', 'lid-ptask');
+    task.textContent = api.t('sheetTask');
+    p1.appendChild(task);
+
+    /* the total, as a numeral — the covered counters are absent from the
+       DOM by doctrine, so without this the sheet is unanswerable */
+    var tot = api.el('div', 'lid-ptotal');
+    var tl = api.el('span', 'lid-plabel');
+    tl.textContent = api.t('totalLabel');
+    var tn = api.el('span', 'lid-pnum');
+    tn.textContent = String(s.n);
+    tot.appendChild(tl); tot.appendChild(tn);
+    p1.appendChild(tot);
+
+    /* every counter visible, as an OPEN RING. Solid discs are a toner
+       bath across 25 copies, two that land close photocopy into one blob,
+       and a ring is a thing a child can tick. */
+    var table = api.el('div', 'lid-ptable');
+    var pts = this.scatter(s), i;
+    for (i = 0; i < pts.length; i++) {
+      var c = api.el('span', 'lid-pdot');
+      c.style.left = (pts[i].x / this.W * 100) + '%';
+      c.style.top = (pts[i].y / this.H * 100) + '%';
+      table.appendChild(c);
+    }
+    p1.appendChild(table);
+
+    /* k empty rings to share into, and one loose area for the remainder.
+       On paper there is no lift, so a filled lid would be a question that
+       can never be answered — a ring is where the child writes. */
+    var k = Math.max(this.MIN_LIDS, s.lids.length);
+    var rings = api.el('div', 'lid-prings');
+    for (i = 0; i < k; i++) rings.appendChild(api.el('span', 'lid-pring'));
+    var loose = api.el('span', 'lid-ploose');
+    rings.appendChild(loose);
+    p1.appendChild(rings);
+
+    /* two write-in boxes, icon-headed, no words */
+    var boxes = api.el('div', 'lid-pboxes');
+    [['lid-gshare', 'revealAria'], ['lid-gloose', 'looseAria']].forEach(function (pair) {
+      var b = api.el('div', 'lid-pbox');
+      var g = api.el('span', 'lid-rglyph ' + pair[0]);
+      var w = api.el('span', 'lid-pwrite');
+      b.appendChild(g); b.appendChild(w);
+      boxes.appendChild(b);
+      void self;
+    });
+    p1.appendChild(boxes);
+
+    /* ---- page 2: the record, and next time's blanks ---- */
+    var p2 = api.el('div', 'lid-page lid-p2');
+    sheet.appendChild(p2);
+    var head = api.el('div', 'lid-phead');
+    head.textContent = api.t('sheetRecordHead');
+    p2.appendChild(head);
+
+    var tbl = api.el('div', 'lid-precord');
+    var headRow = api.el('div', 'lid-prow lid-phrow');
+    [['lid-gcount'], ['lid-glid'], ['lid-gshare'], ['lid-gloose']].forEach(function (g) {
+      var cell = api.el('span', 'lid-pcell');
+      cell.appendChild(api.el('span', 'lid-rglyph ' + g[0]));
+      headRow.appendChild(cell);
+    });
+    tbl.appendChild(headRow);
+
+    var rows = this._rounds || [], r;
+    for (i = 0; i < rows.length; i++) {
+      r = rows[i];
+      var row = api.el('div', 'lid-prow');
+      [r.n, r.k, r.x, r.r].forEach(function (v) {
+        var cell = api.el('span', 'lid-pcell');
+        cell.textContent = String(v);
+        row.appendChild(cell);
+      });
+      tbl.appendChild(row);
+    }
+    /* next lesson opens on the same total and the class predicts the next
+       row before a lid goes down — which is what turns a reveal machine
+       into a pattern-finding one */
+    for (i = rows.length; i < rows.length + 4; i++) {
+      var blank = api.el('div', 'lid-prow');
+      for (var q = 0; q < 4; q++) blank.appendChild(api.el('span', 'lid-pcell'));
+      tbl.appendChild(blank);
+    }
+    p2.appendChild(tbl);
+    return sheet;
   },
 
   _showGate: function () {
@@ -1067,165 +1975,322 @@ var Lids = {
 /* =====================================================================
    THE STYLESHEET
    ⚠ TWO TAP FLOORS, MEASURED SEPARATELY AND NEITHER MOVES: every CONTROL
-   holds 44px; a COUNTER is canvas and holds 34px. Collapsing them into
-   one number waves a real defect through, and an or-shaped assertion has
-   hidden a missing floor twice on this platform.
+   holds 44px; a COUNTER is canvas.
+   ⚠ AND THE COUNTER'S FLOOR IS TWO-TIER, BECAUSE 34px AT 320 IS
+   GEOMETRICALLY IMPOSSIBLE AND THE OLD HEADER CLAIMED IT ANYWAY.
+   Measured: at a 320px viewport the stage padding clamps to 12px, so the
+   table is 296px and a 5.6% counter is 16.6px — 51% short of 34. It
+   cannot be fixed by widening the disc either: the packing's tightest
+   pair is 2*C_R = 56 units = 5.6% of the table, so anything wider
+   overlaps its neighbour UNDER A LID, at the one moment the counters must
+   be countable. The honest floor is
+       counter >= 34px  for viewport >= 650      (620px table -> 34.7px)
+       counter >= 15px  always                   (the largest value that
+                                                  is provably collision-
+                                                  free at 280px)
+   min-width was 12px, which could never fire above a ~238px viewport and
+   was therefore a floor that enforced nothing.
    ⚠ No `vh` anywhere: a manipulative's iframe grows to its content, so a
    vh rule inside it is a feedback loop the shell has no path for.
    ⚠ Never an inline `background` SHORTHAND — it resets background-image
    and beats the stylesheet.
+   ⭐⭐ AND CORAL IS A MATERIAL, NEVER A TYPE COLOUR. Measured contrast on
+   the shipped build, every figure recomputed and confirmed:
+       2.78:1  white on coral   = .lid-go, the button the routine turns on
+       1.62:1  the lid's own border against the lid's body
+       1.27:1  the shell's default focus ring on a lid
+       4.08:1  gate text and locked labels at 14px
+       1.17:1  a lid-veiled counter against an unveiled neighbour
+   Every one of those disappears if coral stays a fill, a rim and a rule,
+   and every coral WORD goes teal. No new brand hex.
    ===================================================================== */
 function injectLidsCSS() {
   if (document.getElementById('lid-style')) return;
   var css = ''
-    /* ⚠ gap 8, not 10. The two-line hint costs 22px of card height, and
-       the locale audit caught Italian at 903px against the 900px desktop
-       budget with the gate showing — the longest hint pair in the set on
-       top of a two-row foot. The threshold does not move; the 10px was
-       reclaimed here and 2px more off the hint's own reservation, which
-       is a layout decision rather than a loosened gauge. */
+    /* ⚠ gap 8, not 10. The card is measured against a 900px desktop
+       budget and Italian is the longest locale in the set. The strip's
+       own padding and dashed border came off in this rebuild, which is
+       what pays for the projector type ramp below. */
     + '.lid-wrap{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;min-width:0;}'
-    + '.lid-bar,.lid-foot{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;width:100%;}'
-    + '.lid-group{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;}'
+    + '.lid-foot{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;width:100%;}'
     + '.lid-chip{min-height:44px;min-width:44px;padding:8px 14px;border-radius:13px;border:2px solid #146B5E;'
-    +   'background:#FBF3E4;color:#0E5147;font-family:Baloo\\ 2,cursive;font-size:15px;line-height:1.15;cursor:pointer;}'
-    + '.lid-chip.lid-on{background:#146B5E;color:#FBF3E4;}'
-    + '.lid-chip.lid-locked{border-color:#F2784B;color:#C2562F;}'
+    +   'background-color:#FBF3E4;color:#0E5147;font-family:Baloo\\ 2,cursive;font-size:15px;line-height:1.15;cursor:pointer;}'
+    + '.lid-chip.lid-on{background-color:#146B5E;color:#FBF3E4;}'
+    /* ⚠ the LABEL goes teal; only the border stays coral. #C2562F on
+       cream is 4.08:1 — fine as a 3:1 UI edge, a fail as 14px text. */
+    + '.lid-chip.lid-locked{border-color:#C2562F;color:#0E5147;}'
     + '.lid-chip[disabled]{opacity:.5;cursor:default;}'
-    + '.lid-chip.lid-go{background:#F2784B;border-color:#C2562F;color:#FFF;}'
-    + '.lid-chip.lid-go[disabled]{background:#FBF3E4;color:#0E5147;border-color:#146B5E;}'
-    + '.lid-gate{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:14px;color:#C2562F;'
+    /* ⭐ a control that cannot act right now still LOOKS reachable,
+       because it is: it keeps focus, keeps its label, and says why when
+       pressed. Grey-and-silent is what read as breakage. */
+    + '.lid-chip[aria-disabled="true"],.lid-mark[aria-disabled="true"]{opacity:.62;}'
+    + '.lid-chip[aria-disabled="true"]:hover,.lid-mark[aria-disabled="true"]:hover{opacity:.78;}'
+    /* ⚠ #FFF on #F2784B is 2.78:1 and this is the primary action.
+       #C2562F under white is 4.50:1; the coral top light keeps it
+       reading as coral without asking it to carry the text. */
+    + '.lid-chip.lid-go{background-color:#C2562F;background-image:none;border-color:#A8461F;color:#FFF;'
+    +   'font-weight:700;box-shadow:inset 0 2px 0 rgba(255,255,255,.26),0 2px 0 rgba(104,38,14,.28);}'
+    + '.lid-chip.lid-go[aria-disabled="true"]{background-color:#FBF3E4;color:#0E5147;border-color:#146B5E;box-shadow:none;}'
+    + '.lid-chip:focus-visible,.lid-mark:focus-visible,.lid-gate a:focus-visible{outline:3px solid #0E5147;outline-offset:2px;}'
+    /* the total stepper: two arms round a readout, not a second row of
+       numerals competing with the answer scale */
+    + '.lid-total{display:inline-flex;align-items:center;gap:4px;margin-inline-start:auto;'
+    +   'padding:2px;border-radius:15px;background-color:rgba(20,107,94,.07);}'
+    + '.lid-step{padding:8px 12px;font-size:19px;line-height:1;}'
+    + '.lid-tval{min-width:34px;text-align:center;font-family:Baloo\\ 2,cursive;font-size:19px;'
+    +   'font-variant-numeric:tabular-nums;color:#0E5147;}'
+    + '.lid-gate{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:14px;color:#0E5147;'
     +   'display:flex;flex-wrap:wrap;justify-content:center;gap:6px;align-items:center;}'
-    + '.lid-gate a{color:#C2562F;min-height:44px;display:inline-flex;align-items:center;}'
-    /* ⚠ min-height reserves TWO lines, because the rung where the strip
-       is live and empty carries the question and the instruction as two
-       .lid-hline spans. Reserving one line made the whole card jump when
-       that rung appeared. */
+    + '.lid-gate a{color:#0E5147;font-weight:700;text-decoration:underline;min-height:44px;display:inline-flex;align-items:center;}'
+    /* ⚠ min-height reserves TWO lines: several rungs carry a question
+       and an instruction as two .lid-hline spans, and reserving one line
+       made the whole card jump when they appeared. */
     + '.lid-hint{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:15px;'
     +   'color:#0E5147;min-height:40px;display:flex;flex-direction:column;justify-content:center;gap:1px;}'
     + '.lid-hline{display:block;line-height:1.25;}'
-    /* THE TABLE */
+    /* a refusal takes the band for a few seconds and says so in coral —
+       the projector half of "no control goes grey in silence" */
+    + '.lid-hint.lid-say{color:#C2562F;font-weight:700;}'
+
+    /* =================== THE TABLE — a tray, not a div ================
+       ⚠ NO DOTS, NO GRID, NO REPEATING SHAPE. A countable mark on a
+       counting canvas is a defect, not a texture. The grain is two
+       crossed diagonal tooths at <=3% alpha with CO-PRIME periods (5px,
+       7px), so it can never form a lattice, never aligns with the
+       scatter, and reads as paper rather than as material.
+       ⚠ THE VIGNETTE IS CAPPED AT .28 AND THE NUMBER IS MEASURED: a teal
+       counter on the darkened rim is 4.54:1, so the vignette costs 1.24
+       of contrast and still clears AA. It is also academic — scatter()
+       insets every counter 7% from the edge. */
     + '.lid-table{position:relative;width:100%;max-width:620px;aspect-ratio:1000/620;'
-    +   'border-radius:18px;border:2px solid rgba(20,107,94,.28);background-color:#FBF3E4;overflow:hidden;}'
-    /* ⚠ THE COUNTER SCALES WITH THE TABLE, and it must. A fixed 34px
-       counter whose SPACING is a percentage of the table looks fine at
-       1024 and collapses into a blob at 320, because the gaps shrink
-       with the table while the discs do not. 5.6% is exactly 2 x C_R in
-       model units, so the packing's 60-unit spacing keeps its clearance
-       at every width and overlap is structurally impossible rather than
-       merely unobserved. */
-    + '.lid-counter{position:absolute;width:5.6%;aspect-ratio:1;min-width:12px;min-height:12px;'
-    +   'transform:translate(-50%,-50%);border-radius:50%;'
-    +   'background-color:#146B5E;box-shadow:inset 0 -2px 0 rgba(0,0,0,.12);}'
-    /* the lid: a circle, deliberately NOT an irregular blob */
-    /* ⚠ transform-centred, NOT negative margins: the width is set from
-       the model at render time, so a fixed -66px offset would mis-centre
-       every lid that is not exactly 132px. min-width/min-height hold the
-       44px control floor when the claim is small. */
-    + '.lid-lid{position:absolute;padding:0;border-radius:50%;aspect-ratio:1;'
+    +   'border-radius:18px;overflow:hidden;border:3px solid rgba(20,107,94,.32);'
+    +   'background-color:#FBF3E4;'
+    +   'background-image:'
+    +     'radial-gradient(130% 80% at 50% -14%,rgba(255,255,255,.62) 0%,rgba(255,255,255,0) 32%),'
+    +     'radial-gradient(112% 128% at 50% 42%,rgba(214,193,155,0) 0%,rgba(214,193,155,0) 54%,'
+    +       'rgba(214,193,155,.20) 80%,rgba(176,148,102,.28) 100%),'
+    +     'repeating-linear-gradient(58deg,rgba(93,72,45,.022) 0 1px,rgba(93,72,45,0) 1px 5px),'
+    +     'repeating-linear-gradient(-31deg,rgba(255,255,255,.030) 0 1px,rgba(255,255,255,0) 1px 7px);'
+    +   'box-shadow:inset 0 0 0 1px rgba(255,255,255,.55),inset 0 3px 6px -2px rgba(93,72,45,.26),'
+    +     'inset 0 -2px 0 rgba(255,255,255,.70),0 1px 0 rgba(255,255,255,.85),0 6px 16px -8px rgba(93,72,45,.30);}'
+
+    /* ⭐ THE COUNTER — a two-SIDED counter is one face plus an edge.
+       ⚠ NOT two-TONE. assignment() swaps counters between lids freely, so
+       they are interchangeable BY CONSTRUCTION; two tones would assert a
+       distinction the model does not have — and on a table that also has
+       a remainder it would read as "the orange ones are the ones that
+       don't fit", which is the rejected verdict colour in a second dress.
+       The Wendeplättchen's second side is a property of the object, not
+       of this picture: it lives in the bevel.
+       ⚠ THE 1px CONTACT RING IS THE BIGGEST PROJECTOR WIN. The scatter is
+       seeded, not gridded, so counters land near each other; with no edge
+       two of them merge into one ambiguous blob and a countable canvas
+       stops being countable. The tight close shadow is also what
+       separates a 3mm disc lying ON the table from a lid hovering ABOVE
+       it — the two shadows are the whole depth cue. */
+    + '.lid-counter{position:absolute;width:5.6%;aspect-ratio:1;min-width:15px;min-height:15px;'
+    +   'transform:translate(-50%,-50%);border-radius:50%;background-color:#146B5E;'
+    +   'background-image:'
+    +     'radial-gradient(46% 38% at 36% 26%,rgba(255,255,255,.34) 0%,rgba(255,255,255,0) 68%),'
+    +     'radial-gradient(circle closest-side at 50% 50%,rgba(255,255,255,0) 0 74%,'
+    +       'rgba(255,255,255,.22) 78% 83%,rgba(255,255,255,0) 85%),'
+    +     'radial-gradient(circle closest-side at 50% 50%,rgba(6,44,38,0) 0 76%,'
+    +       'rgba(6,44,38,.26) 90%,rgba(6,44,38,.58) 100%),'
+    +     'linear-gradient(178deg,#1E8878 0%,#146B5E 52%,#0E5147 100%);'
+    +   'box-shadow:0 0 0 1px rgba(6,44,38,.34),0 1px 2px rgba(14,58,50,.32);}'
+
+    /* ⭐ THE LID — the most important object in the tool, and every length
+       in it is PROPORTIONAL. Its width is written by the model at render
+       time, so a fixed 3px rim is 6.8% of a 44px lid and 1.5% of a 250px
+       one: the same object drawn as two different things. Rim, skirt,
+       shoulder, specular and grip are all gradient stops in PERCENT.
+       ⚠ THE FACE IS THE ::before, NOT THE ELEMENT. That is what lets the
+       lift take the lid away without taking its footprint with it — the
+       face rises and drains, the element keeps the ring.
+       ⚠ The old `border:3px solid #C2562F` measured 1.62:1 against the
+       lid's own body: at 1024 across a room the lid was a flat coin with
+       no edge. The rim is now the outermost gradient stop and the
+       silhouette against the table measures 6.65:1. */
+    + '.lid-lid{position:absolute;padding:0;border:0;background:none;border-radius:50%;aspect-ratio:1;'
+    +   'min-width:44px;min-height:44px;transform:translate(-50%,-50%);container-type:inline-size;'
+    +   'cursor:grab;touch-action:none;-webkit-tap-highlight-color:transparent;'
+    +   'transition:transform .16s var(--lcs-ease,ease-out),width .18s var(--lcs-ease,ease-out);}'
+    + '.lid-lid::before{content:"";position:absolute;inset:0;border-radius:50%;background-color:#F2784B;'
+    +   'background-image:'
+    +     'radial-gradient(40% 32% at 34% 23%,rgba(255,255,255,.55) 0%,rgba(255,255,255,.14) 48%,rgba(255,255,255,0) 72%),'
+    +     'radial-gradient(circle closest-side at 50% 50%,rgba(255,255,255,0) 0 27%,'
+    +       'rgba(255,255,255,.38) 29% 33%,rgba(255,255,255,0) 35%),'
+    +     'radial-gradient(circle closest-side at 50% 50%,rgba(104,38,14,0) 0 33%,'
+    +       'rgba(104,38,14,.28) 34.5% 37%,rgba(104,38,14,0) 39%),'
+    +     'radial-gradient(circle closest-side at 50% 50%,rgba(255,255,255,0) 0 69%,'
+    +       'rgba(255,255,255,.32) 71% 74%,rgba(255,255,255,0) 76%),'
+    +     'radial-gradient(circle closest-side at 50% 50%,rgba(104,38,14,0) 0 72%,'
+    +       'rgba(104,38,14,.14) 82%,rgba(104,38,14,.42) 94%,rgba(104,38,14,.72) 100%),'
+    +     'linear-gradient(177deg,#FF9A70 0%,#F2784B 46%,#DE6A3C 100%);'
+    /* ⚠ THE CAST SHADOW IS THE ONE HONEST px. A real lid is about the
+       same height off the table whatever its diameter, so the floor is px
+       and the growth is cqw. */
+    +   'box-shadow:0 max(3px,1.6cqw) max(7px,3.4cqw) rgba(58,32,14,.26),0 max(1px,.5cqw) 0 rgba(58,32,14,.16);'
+    +   'transition:box-shadow .16s var(--lcs-ease,ease-out);}'
+    /* the footprint ring: invisible while the lid is down, and the whole
+       of what is left once it is up */
+    + '.lid-lid::after{content:"";position:absolute;inset:0;border-radius:50%;'
+    +   'border:max(2.5px,1.4cqw) solid #C2562F;background-color:rgba(242,120,75,.06);'
+    +   'opacity:0;pointer-events:none;}'
+    + '.lid-lid:hover{transform:translate(-50%,-50%) scale(1.025);}'
+    + '.lid-lid:hover::before{box-shadow:0 max(5px,2.4cqw) max(11px,5cqw) rgba(58,32,14,.28),0 max(1px,.5cqw) 0 rgba(58,32,14,.16);}'
+    /* being carried: higher off the table, so the shadow is BIGGER,
+       SOFTER and FURTHER AWAY — the only cue in the physical world that
+       says "this is in the air" */
+    + '.lid-lid:active{cursor:grabbing;z-index:3;transform:translate(-50%,-50%) scale(1.06);}'
+    + '.lid-lid:active::before{box-shadow:0 max(12px,5.4cqw) max(22px,10cqw) rgba(58,32,14,.30),0 max(3px,1.2cqw) max(6px,2.4cqw) rgba(58,32,14,.16);}'
+    /* ⚠ THE FOCUS RING IS OURS, NOT THE SHELL'S. #1E8FD4 measures 1.27:1
+       against coral — invisible on the one object a keyboard teacher
+       actually drives. #0E5147 offset onto the cream is 8.33:1. */
+    + '.lid-lid:focus-visible,.lid-ghost:focus-visible{outline:3px solid #0E5147;outline-offset:3px;}'
+
+    /* ⭐⭐ THE LIFT — 380ms, one beat, and nothing celebrates.
+       ⚠ `opacity:.32` had to go, and the number says why: coral at 32%
+       over a teal counter blends to #5B6F58, which is 1.17:1 against the
+       counters OUTSIDE the lid. The one thing the lift exists to show —
+       which counters were under which lid — was exactly what the old
+       treatment destroyed. An empty rim shows every counter at its full
+       5.78:1 and keeps the enclosure at 4.08:1.
+       No stagger: a stagger counts them for the class. No overshoot: an
+       overshoot reads as "correct", and nothing here is correct or not. */
+    + '@keyframes lid-rise{0%{transform:translate(0,0) scale(1);opacity:1;}38%{opacity:1;}'
+    +   '100%{transform:translate(0,-16%) scale(1.07);opacity:0;}}'
+    + '@keyframes lid-ring{from{opacity:0;}to{opacity:1;}}'
+    /* ⚠ THE COUNTER REACHES FULL OPACITY IN THE FIRST THIRD, and the
+       reason is a render I read rather than a gate. A screenshot caught
+       the lift mid-flight and the counters were a muddy grey-green: they
+       were fading IN at the same moment the lid face was fading OUT, so
+       for about two hundred milliseconds the class saw one translucent
+       thing through another — the exact 1.17:1 blend the paint-order fix
+       exists to prevent, only in motion. The counters are painted ON TOP
+       of the lid, so as soon as they are opaque they hide it; the scale
+       carries the rest of the movement. */
+    + '@keyframes lid-settle{from{opacity:0;transform:translate(-50%,-50%) scale(.86);}'
+    +   '34%{opacity:1;}to{opacity:1;transform:translate(-50%,-50%) scale(1);}}'
+    + '@keyframes lid-fade{from{opacity:0;}to{opacity:1;}}'
+    + '.lid-lid.lid-up{cursor:default;transform:translate(-50%,-50%);}'
+    + '.lid-lid.lid-up::before{animation:lid-rise 380ms cubic-bezier(.22,.61,.20,1) both;pointer-events:none;}'
+    + '.lid-lid.lid-up::after{animation:lid-ring 260ms linear 120ms both;}'
+    + '.lid-counter.lid-fresh{animation:lid-settle 220ms cubic-bezier(.22,.72,.24,1) 160ms both;}'
+
+    /* ⭐ THE GHOST — a place, not a lid already down. Dashed, unfilled,
+       no grip ring, and always MIN_R: a ghost sized from the share would
+       pre-announce the re-settle. */
+    + '.lid-ghost{position:absolute;padding:0;border-radius:50%;aspect-ratio:1;'
     +   'min-width:44px;min-height:44px;transform:translate(-50%,-50%);'
-    +   'border:3px solid #C2562F;background-color:#F2784B;cursor:grab;touch-action:none;'
-    +   'box-shadow:0 4px 10px rgba(20,30,28,.22);'
-    +   'transition:opacity .2s var(--lcs-ease,ease-out),width .18s var(--lcs-ease,ease-out);}'
-    /* the grip ring scales with the lid so it never outgrows a small one */
-    + '.lid-lid::after{content:"";position:absolute;left:50%;top:50%;width:32%;height:32%;'
-    +   'min-width:16px;min-height:16px;transform:translate(-50%,-50%);'
-    +   'border-radius:50%;border:3px solid rgba(255,255,255,.55);}'
-    + '.lid-lid:active{cursor:grabbing;}'
-    + '.lid-lid.lid-up{opacity:.32;cursor:default;}'
-    /* THE STRIP — the committed prior */
-    + '.lid-strip{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px;'
-    +   'width:100%;max-width:620px;padding:8px;border-radius:14px;border:2px dashed rgba(20,107,94,.30);}'
-    + '.lid-mark{min-height:44px;min-width:44px;padding:0 6px;border-radius:11px;border:2px solid #146B5E;'
-    +   'background:#FBF3E4;color:#0E5147;font-family:Baloo\\ 2,cursive;font-size:16px;cursor:pointer;}'
+    +   'border:3px dashed rgba(194,86,47,.72);background-color:rgba(242,120,75,.05);'
+    +   'cursor:grab;touch-action:none;animation:lid-fade 400ms linear both;}'
+    + '.lid-ghost:hover{background-color:rgba(242,120,75,.13);border-color:#C2562F;}'
+    + '.lid-ghost.lid-carry{border-style:solid;background-color:rgba(242,120,75,.35);cursor:grabbing;z-index:3;}'
+
+    /* ⭐ THE STRIP IS A NUMBER LINE, NOT A ROW OF BUTTONS. Equal stations
+       sharing hairline rules inside one recessed rail; equal spacing IS
+       the message, and it survives wrapping where a drawn axis does not.
+       ⚠ AND IT GIVES BACK HEIGHT: the 8px padding and the 2px dashed
+       border are both gone, which is what pays for the type ramp. */
+    /* ⚠ GRID, NOT flex-wrap. With `flex:1 1 auto` a wrapped row STRETCHES
+       to fill the rail, so a strip of 20 numerals drew fifteen normal
+       cells on row one and five cells three times as wide on row two —
+       which reads as broken, not as a scale. A grid keeps every station
+       the same width whichever row it lands on, which is the whole point
+       of drawing this as a ruler rather than a row of loose buttons.
+       ⚠ auto-FIT, and the distinction is worth stating because I had it
+       backwards first. auto-fit collapses only the tracks that are empty
+       in EVERY row — so a strip of ten numerals fills the rail evenly
+       instead of trailing off into blank cells, while a strip of twenty
+       still keeps uniform columns, because every column is occupied by
+       the first row. auto-fill leaves the trailing tracks in place and
+       the rail ends in a stretch of empty ruler. */
+    + '.lid-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(44px,1fr));'
+    +   'justify-items:stretch;align-items:stretch;gap:0;padding:0;'
+    +   'width:100%;max-width:620px;overflow:hidden;border-radius:14px;border:2px solid rgba(20,107,94,.34);'
+    +   'background-color:#FBF3E4;box-shadow:inset 0 2px 4px -2px rgba(93,72,45,.22),inset 0 -1px 0 rgba(255,255,255,.85);}'
+    /* ⚠ border-right, NOT box-shadow, for the rules: box-shadow is spoken
+       for by the marker and the truth, and two systems on one property is
+       how one treatment silently wins over another. */
+    + '.lid-mark{min-height:44px;min-width:44px;padding:0 6px;border:0;'
+    +   'border-right:1px solid rgba(20,107,94,.26);border-radius:0;background-color:#FBF3E4;color:#0E5147;'
+    +   'font-family:Baloo\\ 2,cursive;font-size:16px;font-weight:600;font-variant-numeric:tabular-nums;cursor:pointer;}'
+    + '.lid-mark:last-child{border-right:0;}'
+    /* the landmarks. A fixed property of the SCALE, present before any
+       lid goes down, so it can never be read as a hint about this table. */
+    + '.lid-mark.lid-five{border-right:2px solid rgba(20,107,94,.52);font-weight:700;}'
+    + '.lid-mark:hover:not([aria-disabled="true"]){background-color:#F1E7D2;}'
     /* THE CLASS'S MARKER: filled. */
-    + '.lid-mark.lid-on{background:#146B5E;color:#FBF3E4;}'
+    + '.lid-mark.lid-on{background-color:#146B5E;color:#FBF3E4;font-weight:700;}'
     /* ⭐ WHAT WAS UNDER EACH LID: ringed, not filled — and ringed in the
        SAME teal. The two treatments differ in KIND, never in hue: a
        coral-vs-teal pair was designed and rejected because orange reads
-       as "wrong" and green as "right" to a six-year-old, which would be
-       a verdict delivered by palette — and backwards at that, since the
-       marker is the teal one.
-       ⚠ INSET, because .lid-strip has gap:6px and an outer halo would
-       collide with the neighbouring numeral. */
-    /* ⚠ AND IT CARRIES WEIGHT AS WELL AS A RING. At 1024 the first draft
-       put a thin double outline next to a solid filled pill, so on a
-       projector the eye went to the class's guess and had to hunt for
-       the answer. Weight is a second signal in the same hue — it makes
-       the truth as loud as the marker without making it louder, which
-       would say the tool's number matters more than the class's. */
+       as "wrong" and green as "right" to a six-year-old, which would be a
+       verdict delivered by palette — and backwards at that, since the
+       marker is the teal one. A gapless rail is also where an INSET ring
+       belongs, since it can no longer collide with a neighbour. */
     + '.lid-mark.lid-truth{box-shadow:0 0 0 3px #FBF3E4 inset, 0 0 0 7px #146B5E inset;font-weight:800;}'
-    /* when the class was right, one numeral wears both — so the rings
-       invert to stay visible against the filled pill */
     + '.lid-mark.lid-on.lid-truth{box-shadow:0 0 0 3px #146B5E inset, 0 0 0 7px #FBF3E4 inset;}'
-    /* ⚠ the truth must stay at full strength after the lift, when every
-       button carries [disabled] */
     + '.lid-mark[disabled]{cursor:default;opacity:.85;}'
     + '.lid-mark[disabled].lid-on,.lid-mark[disabled].lid-truth{opacity:1;}'
-    + '@media (min-width:760px){'
-    +   '.lid-table{max-width:680px;}'
-    +   '.lid-strip{max-width:680px;}'
+    + '.lid-mark[aria-disabled="true"].lid-on,.lid-mark[aria-disabled="true"].lid-truth{opacity:1;}'
+
+    /* ⭐ THE RECORD — one row, in the slot the old totals bar vacated, so
+       it costs nothing and there is no layout jump at the lift. Four
+       numerals under four glyphs made of the tool's own material: a teal
+       disc, a coral ring, a ring with a disc in it, a bare disc. No new
+       noun anywhere. */
+    + '.lid-record{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;'
+    +   'width:100%;min-height:0;}'
+    + '.lid-record:empty{display:none;}'
+    + '.lid-rc{display:inline-flex;align-items:center;gap:6px;font-family:Baloo\\ 2,cursive;'
+    +   'font-size:16px;font-variant-numeric:tabular-nums;color:#0E5147;}'
+    + '.lid-rglyph{display:inline-block;width:16px;height:16px;border-radius:50%;flex:0 0 auto;}'
+    + '.lid-gcount{background-color:#146B5E;}'
+    + '.lid-glid{border:3px solid #C2562F;}'
+    + '.lid-gshare{border:3px solid #C2562F;background-color:#146B5E;background-clip:content-box;}'
+    + '.lid-gloose{background-color:#146B5E;opacity:.45;}'
+
+    + '@media (min-width:760px){.lid-table{max-width:680px;}.lid-strip{max-width:680px;}}'
+    /* ⚠ THE TYPE RAMP STARTS AT 1000px, NOT 1367. 1024x768 is the
+       commonest classroom projector in the world and used to get nothing:
+       a 16px numeral across a six-metre room is under the readable floor
+       for the back row. Type only — every box floor is untouched. */
+    + '@media (min-width:1000px){'
+    +   '.lid-mark{font-size:20px;}.lid-chip{font-size:16px;}'
+    +   '.lid-hint{font-size:17px;min-height:44px;}.lid-gate{font-size:15px;}'
+    +   '.lid-tval{font-size:22px;}.lid-rc{font-size:18px;}'
     + '}'
     /* =====================================================================
-       WIDE VIEWPORTS — the per-tool tiers, and the tool that gets the LEAST.
-
-       ⚠ THIS TOOL IS ALREADY AT ITS HEIGHT LIMIT AND ITS OWN COMMENT SAYS
-       SO: the locale audit caught ITALIAN at 903px against a 900px budget
-       with the gate showing, and the `gap:8` and hint savings that bought
-       that headroom are already spent. So the derivation was run in three
-       locales — de, it and fi — rather than German alone, because German is
-       NOT the worst here. Measured chrome (card height minus table):
-         1366x900   de 420   it 472   fi 420   <- narrow card, chrome wraps
-         1400x880   de 375   it 375   fi 396
-         1800x1000  de 388   it 388   fi 409   <- the worst WIDE cell
-       The tiers only apply above 1367, so 409 is the number that governs
-       them; 420 is used, plus the ~12-20px the type ramp itself adds.
-         A  (880-432)/0.62 = 722, but a 700px table plus the ramp lands at
-            874 of 880 — six pixels. TIER A GETS NO TABLE GROWTH AT ALL,
-            only bigger type: 680 x 0.62 + 432 = 854 of 880 (26 spare).
-            This is the derivation table's `-` for lids, confirmed by hand.
-         B  (1000-440)/0.62 = 903 -> 840 -> 840 x 0.62 + 440 = 961 of 1000
-         C  (1150-450)/0.62 = 1129 -> 1040 -> 1040 x .62 + 450 = 1095 of 1150
-       Width is never the constraint (840 <= 1192, 1040 <= 1752), which is
-       what an 0.62 aspect on a 16:9 screen guarantees.
-
-       ⚠ `.lid-mark` and `.lid-chip` KEEP min-height/min-width 44px — the
-       ramp only ever raises them. `.lid-strip` tracks the table, or the
-       marks would sit under a table twice their row's width.
+       WIDE VIEWPORTS — the per-tool tiers. Each step is derived at its own
+       height floor and the later rules are larger, so the cascade picks the
+       tallest that applies. `.lid-mark` and `.lid-chip` KEEP their 44px
+       floors; the ramp only ever raises them. `.lid-strip` tracks the table,
+       or the marks would sit under a table twice their row's width.
+       ⚠ The rail owns the radius now, so the marks must NOT regain one.
        ===================================================================== */
     + '@media (min-width:1367px) and (min-height:880px){'
     +   'body.lid-wide .lid-chip{font-size:17px;}'
-    +   'body.lid-wide .lid-mark{font-size:18px;min-width:54px;min-height:54px;border-radius:14px;}'
+    +   'body.lid-wide .lid-mark{font-size:18px;min-width:54px;min-height:54px;}'
     +   'body.lid-wide .lid-hint{font-size:17px;}'
     +   'body.lid-wide .lid-gate{font-size:16px;}'
     + '}'
     + '@media (min-width:1800px) and (min-height:1000px){'
     +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:840px;}'
+    +   'body.lid-wide .lid-strip{border-radius:16px;}'
     +   'body.lid-wide .lid-chip{font-size:18px;}'
-    +   'body.lid-wide .lid-mark{font-size:20px;min-width:62px;min-height:62px;border-radius:16px;}'
+    +   'body.lid-wide .lid-mark{font-size:20px;min-width:62px;min-height:62px;}'
     +   'body.lid-wide .lid-hint{font-size:18px;}'
     +   'body.lid-wide .lid-gate{font-size:17px;}'
     + '}'
-    /* ⚠ AND TWO MORE STEPS, BECAUSE THE FIRST THREE WERE SIZED FOR THEIR OWN
-       FLOORS AND THE FILL GATE WAS RIGHT TO SAY SO: 43.8% at 1920 and 40.6% at
-       2560, against floors of 45 and 50. A 0.62 aspect makes this tool
-       height-bound, so a cap derived at a 1000px floor leaves a real 1080px
-       board — and a real 1440px one — running a table sized for a shorter
-       screen. The ladder is now monotone in HEIGHT, each step derived at its
-       own floor, later rules larger so the cascade picks the tallest that
-       applies:
-         h>=1080  (1080-440)/0.62 = 1032 -> 1000 -> 1060 of 1080   (20 spare)
-         h>=1400  (1400-450)/0.62 = 1532 -> 1480 -> 1368 of 1440   (72 spare)
-       Card usable is never binding (1000 <= 1192, 1480 <= 1752). FILL becomes
-       52.1% at 1920 and 57.8% at 2560. Lowering the floor was the other,
-       forbidden answer. */
     + '@media (min-width:1800px) and (min-height:1080px){'
     +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1000px;}'
     + '}'
     + '@media (min-width:2400px) and (min-height:1150px){'
     +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1080px;}'
     +   'body.lid-wide .lid-chip{font-size:19px;}'
-    +   'body.lid-wide .lid-mark{font-size:22px;min-width:70px;min-height:70px;border-radius:18px;}'
+    +   'body.lid-wide .lid-mark{font-size:22px;min-width:70px;min-height:70px;}'
     +   'body.lid-wide .lid-hint{font-size:19px;}'
     +   'body.lid-wide .lid-gate{font-size:18px;}'
     + '}'
@@ -1233,29 +2298,80 @@ function injectLidsCSS() {
     +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1480px;}'
     +   'body.lid-wide .lid-mark{font-size:24px;}'
     + '}'
+
+    /* the sheet is display:none on screen and only ever appears in print */
+    + '.lid-sheet{display:none;}'
+
     /* =====================================================================
-       ⭐⭐ THE PRINT SHEET. Same story as arrow-strip: a "Print the table"
-       chip calling window.print() with no `@media print` block, so it printed
-       the entire web page. The chip names the TABLE, so the sheet is the
-       table at page width with its counters and lids exactly as they stand,
-       and the number strip underneath for marking a guess with a pencil.
-       ⚠ THE STRIP STAYS, the foot chips go. `.lid-mark` is the answer
-       surface a child writes on; `.lid-chip` is a button. On paper the first
-       is a worksheet and the second is a picture of a button.
-       ⚠ The table keeps its 1000/620 aspect — it is what puts each counter
-       where it belongs — so only the max-width is released. */
+       ⭐⭐ THE PRINT SHEET.
+       ⚠ TWO LOCKS, NOT ONE. The chip called _showGate() for a free visitor
+       while the @media print block was UNCONDITIONAL, so Ctrl+P handed
+       anybody the Teacher-plan sheet. The subtree is now ABSENT unless
+       entitled AND every rule below is scoped `body.lid-paid`.
+       ⚠ AND IT IS LINE ART, NOT A GREYSCALE SCREENSHOT. Every counter used
+       to be a background-color, and Chrome ships "Background graphics" OFF
+       for a great many teachers — so the old sheet could come out of the
+       photocopier as an EMPTY TRAY. Borders print unconditionally;
+       backgrounds do not. Nothing on paper is coloured now, so
+       print-color-adjust has nothing left to force and is deleted.
+       ⚠ THE HEADING IS THE SHELL'S OWN TITLE, UN-HIDDEN: eleven locales,
+       zero new strings — and it is the RENAMED title in de/fi/nl/pt, where
+       the panels rejected the obvious word.
+       ===================================================================== */
     + '@media print{'
-    +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
-    +   '.lcs-header,.lid-hint,.lid-bar,.lid-foot,.lid-gate,.lid-chip{display:none !important;}'
-    +   '.lid-wrap{gap:6mm;}'
-    +   '.lid-table{max-width:none !important;width:100%;border-color:#333 !important;'
-    +     'background:#fff !important;break-inside:avoid;}'
-    +   '.lid-strip{max-width:none !important;width:100%;border-color:#333 !important;}'
-    +   '.lid-mark{border-color:#333 !important;background:#fff !important;color:#000 !important;}'
-    +   '@page{margin:14mm;}'
+    +   '@page{size:A4 portrait;margin:14mm;}'
+    +   'body.lid-paid html,body.lid-paid body,body.lid-paid .lcs-app,body.lid-paid .lcs-stage{'
+    +     'background:#FFF !important;box-shadow:none !important;height:auto !important;'
+    +     'max-height:none !important;max-width:none !important;overflow:visible !important;padding:0 !important;}'
+    +   'body.lid-paid .lcs-header,body.lid-paid .lcs-controls,body.lid-paid .lcs-instruction{display:none !important;}'
+    +   'body.lid-paid .lid-wrap{display:none !important;}'
+    +   'body.lid-paid .lid-sheet{display:block !important;}'
+    +   'body.lid-paid .lid-page{break-after:page;page-break-after:always;break-inside:avoid;'
+    +     'page-break-inside:avoid;color:#000;font-family:Nunito,sans-serif;}'
+    +   'body.lid-paid .lid-page:last-child{break-after:auto;page-break-after:auto;}'
+        /* the name rule — a rule, not a label: the no-words law does not
+           stop at the glass */
+    +   'body.lid-paid .lid-page::before{content:"";display:block;width:82mm;height:0;'
+    +     'border-bottom:.7pt solid #444;margin:0 0 7mm;}'
+    +   'body.lid-paid .lid-ptask{font-size:12pt;line-height:1.35;margin:0 0 5mm;}'
+    +   'body.lid-paid .lid-ptotal{display:flex;align-items:baseline;gap:4mm;margin:0 0 4mm;}'
+    +   'body.lid-paid .lid-plabel{font-size:11pt;}'
+    +   'body.lid-paid .lid-pnum{font-family:Baloo\\ 2,serif;font-size:22pt;font-weight:700;}'
+    +   'body.lid-paid .lid-ptable{position:relative;width:100%;aspect-ratio:1000/620;'
+    +     'border:1pt solid #333;border-radius:3mm;margin:0 0 6mm;}'
+        /* ⚠ OPEN RINGS, NOT DISCS. Solid discs are toner x25, and two that
+           land close photocopy into one blob — the one thing a counting
+           sheet may never do. A ring can also be ticked. */
+    +   'body.lid-paid .lid-pdot{position:absolute;width:5.6%;aspect-ratio:1;'
+    +     'transform:translate(-50%,-50%);border-radius:50%;border:.9pt solid #222;}'
+    +   'body.lid-paid .lid-prings{display:flex;flex-wrap:wrap;gap:6mm;align-items:center;margin:0 0 6mm;}'
+    +   'body.lid-paid .lid-pring{width:34mm;height:34mm;border-radius:50%;border:1.2pt dashed #555;}'
+    +   'body.lid-paid .lid-ploose{flex:1 1 40mm;min-width:40mm;height:34mm;border:.8pt dashed #999;border-radius:3mm;}'
+    +   'body.lid-paid .lid-pboxes{display:flex;gap:10mm;}'
+    +   'body.lid-paid .lid-pbox{display:flex;align-items:center;gap:3mm;}'
+    +   'body.lid-paid .lid-pwrite{display:block;width:14mm;height:14mm;border:.8pt solid #666;}'
+    +   'body.lid-paid .lid-phead{font-family:Baloo\\ 2,serif;font-size:17pt;font-weight:700;margin:0 0 4mm;color:#000;}'
+    +   'body.lid-paid .lid-precord{display:table;width:100%;border-collapse:collapse;}'
+    +   'body.lid-paid .lid-prow{display:table-row;}'
+    +   'body.lid-paid .lid-pcell{display:table-cell;width:25%;height:12mm;border:.7pt solid #666;'
+    +     'text-align:center;vertical-align:middle;font-family:Baloo\\ 2,serif;font-size:14pt;}'
+    +   'body.lid-paid .lid-phrow .lid-pcell{height:9mm;}'
+        /* the glyph legend prints as line art too */
+    +   'body.lid-paid .lid-rglyph{display:inline-block;width:5mm;height:5mm;border-radius:50%;'
+    +     'border:.9pt solid #222;background:none !important;opacity:1 !important;}'
+    +   'body.lid-paid .lid-gcount{background:#000 !important;}'
+    +   'body.lid-paid .lid-gshare{box-shadow:inset 0 0 0 1mm #FFF, inset 0 0 0 2mm #000;}'
     + '}'
     + '@media (prefers-reduced-motion:reduce){'
-    +   '.lid-lid{transition:none;}'
+    /* ⚠ WCAG 2.3.3 is about vestibular MOTION, not about opacity, and a
+       hard cut on thirty objects at once is harder to follow than a fade.
+       So travel and scale go to zero and one 120ms cross-fade stays. */
+    +   '.lid-lid,.lid-lid::before{transition:none !important;}'
+    +   '.lid-lid:hover,.lid-lid:active{transform:translate(-50%,-50%);}'
+    +   '.lid-lid.lid-up::before{animation:none;opacity:0;}'
+    +   '.lid-lid.lid-up::after{animation:none;opacity:1;}'
+    +   '.lid-counter.lid-fresh{animation:lid-fade 120ms linear both;}'
+    +   '.lid-ghost{animation:none;}'
     + '}';
   var st = document.createElement('style');
   st.id = 'lid-style';

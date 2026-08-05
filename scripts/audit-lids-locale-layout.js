@@ -80,9 +80,15 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
           if (b && !b.disabled) { b.click(); return true; }
           return false;
         };
-        hit(labels.add); hit(labels.add); hit(labels.add);
+        /* ⚠ THE PLACING CHIP IS NAMED FOR AN EMPTY TABLE FIRST. It reads
+           firstLid with nothing down — "Another lid" is a lie there — and
+           the first press lays a PAIR, because one lid took the whole
+           total and swallowed every counter. So: one press to reach two,
+           then two more to reach the four-lid ceiling, which is the state
+           that carries the longest strings AND the refusal. */
+        hit(labels.add); hit(labels.add2); hit(labels.add2);
         hit(labels.print);            /* free tier -> the gate shows */
-      }, { add: T.strings.addLid[loc], print: T.strings.printBtn[loc] });
+      }, { add: T.strings.firstLid[loc], add2: T.strings.addLid[loc], print: T.strings.printBtn[loc] });
       await wait(320);
 
       const m = await page.evaluate(() => {
@@ -94,7 +100,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
         const minFont = texts.length ? Math.min(...texts.map((e) => parseFloat(getComputedStyle(e).fontSize))) : 99;
         /* a label wider than its own box is a clipped label */
         const clipped = texts.filter((e) => e.scrollWidth > e.clientWidth + 1).map((e) => e.textContent.trim());
-        const outside = Array.from(document.querySelectorAll('.lid-bar,.lid-table,.lid-strip,.lid-foot,.lid-hint,.lid-gate'))
+        const outside = Array.from(document.querySelectorAll('.lid-table,.lid-strip,.lid-foot,.lid-hint,.lid-gate,.lid-record'))
           .filter(vis)
           .filter((e) => { const r = e.getBoundingClientRect(); return r.right > card.right + 1 || r.left < card.left - 1; })
           .map((e) => e.className);
@@ -134,7 +140,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   await browser.close();
   server.close();
   console.log('');
-  console.log('  ' + checked + ' renders (11 locales x 6 widths); smallest control ' + worstCtrl.toFixed(1) + 'px, smallest text ' + worstFont + 'px');
+  console.log('  ' + checked + ' renders (11 locales x ' + WIDTHS.length + ' widths); smallest control ' + worstCtrl.toFixed(1) + 'px, smallest text ' + worstFont + 'px');
   if (FAIL) { console.error('FAIL — ' + FAIL + ' defect(s)'); process.exit(1); }
   console.log('PASS — no locale breaks the layout at any width');
 })();

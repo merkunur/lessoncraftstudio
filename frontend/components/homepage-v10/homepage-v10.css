@@ -2125,7 +2125,11 @@
    grows downward. Slot and live are SIBLINGS — nesting them would multiply
    their opacities. One animation per node; movement occupies under a fifth of
    the cycle, so the composition is at rest most of the time. */
-.hv10-loan-well { position: relative; aspect-ratio: 5 / 4; }
+/* Square, not 5/4 landscape: deck thumbnails are portrait (480x620), and with
+   `contain` a wide well shrank the sheet to a strip between two broad cream
+   margins. A square block gives the page real presence while keeping the
+   right-hand column a sane height. */
+.hv10-loan-well { position: relative; aspect-ratio: 1 / 1; }
 /* The empty state has to read as AN EMPTY EMBED BLOCK WAITING, not as a
    failed image. At 0.24 alpha on the cream page it was almost invisible, and
    a screenshot taken mid-cycle showed a blank box in the one panel whose job
@@ -2150,13 +2154,22 @@
   transform: scale(0.97);
   animation: hv10LoanLive 17s cubic-bezier(0.2, 0.8, 0.2, 1) -4s infinite;
 }
+/* CONTAIN, not cover. `cover` + `object-position: top center` crops to the top
+   third of the sheet, and which sheet lands here is whatever the showcase
+   selector picked that day. Production drew a picture-sort, whose top third is
+   two deliberately EMPTY sorting bins — so the one panel that exists to show
+   "your worksheet, installed" rendered as a blank rectangle. Nothing had
+   failed; the image was loaded and complete.
+   `contain` is also the truthful shape: a real embed auto-resizes to the
+   deck's own height, so the teacher sees the WHOLE sheet. The letterbox is
+   the browser page's own colour, so a portrait sheet in a wide block reads as
+   a page with margins — which is exactly what it is. */
 .hv10-loan-live img {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  object-position: top center;
-  background: var(--g10-cream);
+  object-fit: contain;
+  background: #FFFDF8;
 }
 
 /* Weighted so the INSTALLED state dominates: the worksheet is present for

@@ -72,17 +72,31 @@ const oShare = (n, k) => (k < 1 ? 0 : Math.floor(n / k));
 const oLeft = (n, k) => n - k * oShare(n, k);
 
 /* build a state with n counters and k lids spread across the table */
+/* ⚠ THE REACHABLE SET IS {0, 2, 3, 4} AND THE BUILDER HAS TO KNOW IT.
+   Placing from an empty table lays TWO lids — one lid takes floor(n/1)=n
+   and swallows every counter, which used to be one click from the
+   opening frame. So the first addLid buys two, and k=1 is reachable only
+   by writing the state directly, which is exactly what the oracle sweep
+   below still does: the MODEL must keep answering correctly at k=1 even
+   though the interface can no longer get there. That is the difference
+   between a refusal and a hole. */
 function build(n, k, spread) {
   let st = T.newState();
   st.n = n; st.seed = n * 7919; st.lids = []; st.guess = null; st.lifted = false;
-  for (let i = 0; i < k; i++) {
+  if (k === 0) return st;
+  if (k === 1) {
+    /* direct, on purpose — see above */
+    st.lids = [{ cx: Math.round(O_W / 2), cy: Math.round(O_H / 2) }];
+    return st;
+  }
+  for (let i = 0; i < k - 1; i++) {
     const cx = spread ? Math.round((O_W / (k + 1)) * (i + 1)) : 200 + i * 37;
     const cy = spread ? Math.round(O_H / 2) : 250 + i * 29;
     const next = T.addLid(st, cx, cy);
     if (!next) return null;
     st = next;
   }
-  return st;
+  return st.lids.length === k ? st : null;
 }
 
 /* =====================================================================
@@ -169,15 +183,34 @@ function build(n, k, spread) {
     for (let k = 1; k <= O_MAXLIDS; k++) {
       const st = build(n, k, true);
       const x = T.share(st), r = T.lidRadius(st), pack = T.packing(x);
+      let reach = 0;
+      for (const p of pack) reach = Math.max(reach, Math.sqrt(p.dx * p.dx + p.dy * p.dy));
       if (pack.length !== x) { err(`V15 the packing holds ${pack.length} but the share is ${x} at n=${n} k=${k}`); return; }
       if (r < 44) { err(`V15 lid radius ${r} at n=${n} k=${k} is under the tap floor`); return; }
-      /* ⚠ THE MIDDLE OF A LID IS THE FIRST PLACE A COUNTER GOES. A pile
-         with a hole in it is not a pile — and mutation proved this is
-         not pedantry: dropping the centre point left every fits-and-does
-         not-overlap law green while a single counter sat off to one side
-         of an oversized lid. */
-      if (pack.length && (pack[0].dx !== 0 || pack[0].dy !== 0)) {
-        err(`V15 the packing has a hole in the middle at n=${n} k=${k}`); return;
+      /* ⚠ THIS LAW WAS RE-DERIVED IN THE 2026-08 REBUILD, BECAUSE THE OLD
+         FORM CONDEMNED CORRECT GEOMETRY. It used to require pack[0] to be
+         the exact centre — true of the old fixed-pitch hexagonal rings,
+         and FALSE of the tightest arrangement for small shares: four
+         counters pack as a square with nothing in the middle, and that is
+         the smallest circle that holds them. A centre-point law would
+         force a strictly worse packing.
+         The defect it was written for is real and is still caught, by two
+         stronger laws that do not care about the arrangement:
+           (a) the pile is CENTRED — its centroid sits on the lid's own
+               centre, so no counter can sit off to one side of an
+               oversized lid (the mutation that motivated the original);
+           (b) the lid is TIGHT — its radius is the reach plus one counter
+               radius, never slack, unless MIN_R is what is binding.
+         Together those forbid "an oversized lid with the pile pushed to
+         the edge" without forbidding a legitimate ring. */
+      let sx = 0, sy = 0;
+      for (const p of pack) { sx += p.dx; sy += p.dy; }
+      const off = Math.sqrt((sx / pack.length) ** 2 + (sy / pack.length) ** 2);
+      if (pack.length && off > 1e-6) {
+        err(`V15 the pile is not centred under its lid at n=${n} k=${k} (centroid ${off.toFixed(2)} units off)`); return;
+      }
+      if (r > Math.max(T.MIN_R, reach + T.C_R) + 1) {
+        err(`V15 the lid is slack at n=${n} k=${k}: radius ${r} against a reach of ${Math.round(reach)}`); return;
       }
       /* ⚠ AND THE LID IS NO BIGGER THAN IT NEEDS. "Fits" alone is
          satisfied by drawing every lid the size of the table. This
@@ -186,7 +219,16 @@ function build(n, k, spread) {
          is testing. */
       let far = 0;
       for (const q of pack) far = Math.max(far, Math.sqrt(q.dx * q.dx + q.dy * q.dy));
-      const want = Math.round(Math.max(T.MIN_R, far + T.C_R));
+      /* ⚠ CEIL, NOT ROUND — the oracle itself was wrong, and in the
+         dangerous direction. Rounding permits a lid up to half a unit
+         SMALLER than its own contents: at share 9 the pile reaches 101.24
+         and round() asks for 101, so the outer counters sit outside the
+         circle that claims to hold them. The tool had exactly that defect
+         until this same law caught it from the other side. The 1e-9 shave
+         kills floating-point dust (six counters reach exactly 56 and
+         compute as 56.000000000000014), which would otherwise buy a unit
+         of slack out of nothing. */
+      const want = Math.ceil(Math.max(T.MIN_R, far + T.C_R) - 1e-9);
       if (r !== want) { err(`V15 the lid is ${r} at n=${n} k=${k} but its contents need ${want} — padded, not measured`); return; }
       /* a. every packed counter inside the circle */
       for (const q of pack) {
@@ -259,10 +301,42 @@ function build(n, k, spread) {
   }
   /* AND THE LIFT MUST SEAT THE COUNTERS IN THE PACKING, not scatter them
      back where they came from — which answers the question with a shrug */
-  const liftAt = RENDER.indexOf('if (s.lifted) {');
+  /* ⚠ ANCHOR ON THE BUILDER, THEN ON ITS BRANCH. A bare search for
+     `if (s.lifted) {` finds the HINT LADDER's branch first — it is
+     earlier in the file and has the identical text — so the three laws
+     below were being measured against the wrong function entirely. */
+  const tableAt = RENDER.indexOf('_buildTable: function');
+  const liftAt = tableAt < 0 ? -1 : RENDER.indexOf('if (s.lifted) {', tableAt);
   if (liftAt < 0) err('V15 the lifted branch of the table was not found');
-  else if (RENDER.slice(liftAt, liftAt + 900).indexOf('packing(') === -1) {
+  else if (RENDER.slice(liftAt, liftAt + 1800).indexOf('lid.cx + pack[q].dx') === -1) {
+    /* ⚠ anchored on the SEATING EXPRESSION, not on a nearby `packing(`
+       token: the old form measured proximity and would have passed a
+       branch that merely mentioned the packing without using it. */
     err('V15 the lift does not seat the counters under their own lid');
+  }
+  /* ⭐⭐ AND AT THE LIFT THE LIDS ARE PAINTED FIRST, SO THE COUNTERS SIT
+     ON TOP OF THEM. The shipped build appended counters first and lids
+     second with no z-index, so the lid painted last — over its own
+     answer. At `.lid-up` opacity .32 that veiled every revealed counter:
+     measured, coral at 32% over #146B5E blends to #5B6F58, which is
+     1.17:1 against an unveiled neighbour. The one thing the lift exists
+     to show is WHICH counters were under WHICH lid, and the old paint
+     order destroyed exactly that. No count, class or geometry assertion
+     could see it — only the render could. */
+  if (liftAt >= 0) {
+    const branch = RENDER.slice(liftAt, liftAt + 1800);
+    const lidsAt = branch.indexOf('paintLids()');
+    const seatAt = branch.indexOf('lid.cx + pack[q].dx');
+    if (lidsAt < 0 || seatAt < 0 || lidsAt > seatAt) {
+      err('V15 at the lift the lids are not painted before the counters — the reveal would be veiled by its own lid');
+    }
+    /* and the other way round while they are DOWN: a cover that does not
+       cover is not a cover */
+    const elseAt = RENDER.indexOf('} else {', liftAt);
+    const down = elseAt > 0 ? RENDER.slice(elseAt, elseAt + 400) : '';
+    if (down.indexOf('paintLids()') < 0 || down.indexOf('_counter(') > down.indexOf('paintLids()')) {
+      err('V15 while the lids are down they are not painted last — they would not cover the counters');
+    }
   }
   console.log(`V15 the lid holds what it hides: ${checked} configurations — every packed counter inside its circle (tightest ${Math.round(tightest)} units of room, closest pair ${Math.round(closest)} apart against a floor of ${2 * T.C_R}); ONE size for every lid, and dropping another never grows them (it shrinks them in ${shrank}/${tried}); auto-placed lids ${Math.round(minSep)} apart`);
 })();
@@ -338,7 +412,21 @@ function build(n, k, spread) {
   const relid = T.lower(T.lift(T.placeGuess(build(20, 3, true), 6)));
   if (!relid || relid.guess !== 6) { err('V6c putting the lids back on wrongly voided the commitment'); return; }
 
-  const VERDICT = /\b(score|scoring|correct|incorrect|wrong|winner|wins|verdict|rank|ranking|closest|better|worse|accuracy|streak)\b/i;
+  /* ⚠ `closest` IS NARROWED, AND THE NARROWING IS AUDITABLE, NOT A
+     LOOSENING. The stylesheet legitimately contains CSS's own
+     `radial-gradient(circle closest-side …)` — six times, in the lid and
+     the counter — and `\bclosest\b` matched it, because a hyphen is a
+     word boundary. So the gate condemned correct CSS as verdict
+     machinery: the ban-too-wide trap, in its fourth recorded dress. The
+     word is still banned as a WORD; only the CSS keyword is exempt, and
+     the poison below proves both directions. */
+  const VERDICT = /(?<!\p{L})(score|scoring|correct|incorrect|wrong|winner|wins|verdict|rank|ranking|closest(?!-side)|better|worse|accuracy|streak)(?!\p{L})/iu;
+  if (VERDICT.test('radial-gradient(circle closest-side at 50% 50%)')) {
+    err('V7 POISON: the verdict ban rejects CSS closest-side, which is correct code');
+  }
+  if (!VERDICT.test('the closest guess wins')) {
+    err('V7 POISON: the verdict ban no longer fires on real verdict prose');
+  }
   if (VERDICT.test(SRC_NC)) err(`V7 verdict machinery in the source ("${SRC_NC.match(VERDICT)[0]}")`);
   if (/lid-(correct|wrong|right|good|bad|win|fail)/.test(SRC)) err('V7 a verdict class name exists');
   /* nothing may compare the guess with the share */
@@ -384,25 +472,52 @@ function build(n, k, spread) {
    the corpus already contains Dutch `Koekjesplaten`.
    ===================================================================== */
 (function locales() {
+  /* ⚠⚠ `\b` IS ASCII-ONLY, EVEN UNDER /u, AND THAT MADE THESE BANS LIE.
+     The Finnish panel measured it on this very file and I reproduced it:
+
+         /\bpöytä\b/.test('pöytä')       -> false    the bare word: MISSED
+         /\bpöytä\b/.test('pöytäliina')  -> true     a compound: FALSE POSITIVE
+         /\bväärä\b/i.test('Väärä!')     -> false    even with the /u flag
+
+     The old Finnish ban worked ONLY BY LUCK — `oikein`, `väärin` and
+     `hyvin tehty` all happen to begin and end with ASCII letters — and
+     its poison example was `oikein`, so the poison could never reveal the
+     gap. That is "a poison set is only as good as its examples" exactly.
+     `väärä`, the most natural Finnish verdict, was invisible to it; so
+     were `rätt`-class Swedish forms the moment anyone widened them.
+     Every ban is now (?<!\p{L})…(?!\p{L}) with /u, and every MUSTFIRE is
+     a word that would have EXPOSED the bug in its own language. */
+  const W = (alts) => new RegExp('(?<!\\p{L})(' + alts + ')(?!\\p{L})', 'iu');
   const BAN = {
-    en: /\b(correct|wrong|well done|good job)\b/i,
-    de: /\b(richtig|falsch|gut gemacht)\b/i,
-    fr: /\b(correct|faux|bravo|bien joué)\b/i,
-    es: /\b(correcto|incorrecto|bien hecho)\b/i,
-    pt: /\b(correto|errado|muito bem)\b/i,
-    it: /\b(giusto|sbagliato|bravo)\b/i,
-    nl: /\b(goed zo|fout|correct)\b/i,
-    sv: /\b(rätt|fel|bra jobbat)\b/i,
-    da: /\b(rigtigt|forkert|godt klaret)\b/i,
-    no: /\b(riktig|galt|bra jobba)\b/i,
-    fi: /\b(oikein|väärin|hyvin tehty)\b/i
+    en: W('correct|wrong|well done|good job'),
+    de: W('richtig|falsch|gut gemacht'),
+    fr: W('correct|faux|bravo|bien joué'),
+    es: W('correcto|incorrecto|bien hecho'),
+    pt: W('correto|errado|muito bem'),
+    it: W('giusto|sbagliato|bravo'),
+    nl: W('goed zo|fout|correct'),
+    sv: W('rätt|fel|bra jobbat|rätta'),
+    da: W('rigtigt|forkert|godt klaret'),
+    no: W('riktig|galt|bra jobba'),
+    fi: W('oikein|väärin|väärä|hyvin tehty')
   };
-  const MUSTFIRE = { en: 'correct', de: 'richtig', fr: 'bravo', es: 'correcto', pt: 'errado', it: 'giusto', nl: 'fout', sv: 'rätt', da: 'forkert', no: 'riktig', fi: 'oikein' };
+  /* ⚠ EVERY ONE OF THESE ENDS IN A NON-ASCII LETTER WHERE THE LANGUAGE
+     HAS ONE, so a regression to \b fails the poison instead of passing
+     it. `väärä` and `rätta` are the two that the old form could not see. */
+  const MUSTFIRE = { en: 'correct', de: 'richtig', fr: 'bravo', es: 'correcto', pt: 'errado', it: 'giusto', nl: 'fout', sv: 'rätta', da: 'forkert', no: 'riktig', fi: 'väärä' };
+  /* and the other direction: correct native prose that must NOT fire */
+  const MUSTPASS = { en: 'Lift the lids.', de: 'Hebt die Deckel an.', fr: 'Soulevez les couvercles.', es: 'Destapar', pt: 'Destampar', it: 'Alza i coperchi', nl: 'Deksels optillen', sv: 'Lyft på locken', da: 'Løft lågene', no: 'Løft lokkene', fi: 'Vetäkää pöydälle kaksi kantta.' };
+  for (const loc of LOCALES) {
+    if (BAN[loc].test(MUSTPASS[loc])) err(`V9 POISON: the ${loc} verdict ban is TOO WIDE — it rejects "${MUSTPASS[loc]}"`);
+  }
+  /* the ASCII-only regression, named so it cannot come back quietly */
+  if (/\bväärä\b/iu.test('Väärä!')) err('V9 POISON: \\b unexpectedly works on Finnish — re-derive this check');
+  if (!BAN.fi.test('Väärä!')) err('V9 POISON: the Finnish ban cannot see a Finnish verdict');
 
   /* ⚠ THE BRAND. Word-boundary anchored on purpose: the corpus contains
      the Dutch `Koekjesplaten` (baking trays) and a bare substring ban
      would reject correct Dutch — the `par`-rejects-French defect again. */
-  const BRAND = /\bsplat\w*\b/i;
+  const BRAND = /(?<!\p{L})splat\p{L}*(?!\p{L})/iu;
   if (!BRAND.test('a splat mat')) err('V9 POISON: the brand ban no longer fires');
   if (BRAND.test('Koekjesplaten')) err('V9 POISON: the brand ban is too wide — it rejects the Dutch Koekjesplaten');
 
@@ -468,7 +583,16 @@ function build(n, k, spread) {
    V11 — labels are true
    ===================================================================== */
 (function labels() {
-  const PAIRS = [['addLid', 'addLid('], ['takeLid', 'removeLid('], ['newSetBtn', '_stepSetup(']];
+  /* ⚠ THE PLACING CONTROL NOW GOES THROUGH ONE HOP, AND THE LAW FOLLOWS
+     IT RATHER THAN BEING DROPPED. Three surfaces place a lid — the chip,
+     a ghost, and the keyboard — so they share `_placeFrom`, which is the
+     single site that calls addLid and the single site that speaks. The
+     label-truth law therefore checks the hop AND that the hop lands. */
+  const PAIRS = [['addLid', '_placeFrom('], ['firstLid', '_placeFrom('],
+                 ['takeLid', 'removeLid('], ['newSetBtn', '_stepSetup(']];
+  if (!/_placeFrom:\s*function[\s\S]{0,400}?this\.addLid\(/.test(SRC)) {
+    err('V11 _placeFrom does not call addLid — the placing controls promise a lid and land nowhere');
+  }
   for (const [key, call] of PAIRS) {
     const needle = `api.t('${key}')`;
     let at = RENDER.indexOf(needle), found = false, seen = 0;
@@ -670,12 +794,38 @@ function build(n, k, spread) {
   if (!/\.lid-mark\.lid-on\.lid-truth\{/.test(SRC)) {
     err('V16 there is no rule for a numeral that is BOTH the marker and the truth');
   }
-  /* f. the strip is inert until there is a question */
-  if (!/disabled\s*=\s*!!s\.lifted\s*\|\|\s*s\.lids\.length\s*<\s*2/.test(body)) {
-    err('V16 the strip is not disabled below two lids');
+  /* f. the strip is inert until there is a question — AND SAYS SO.
+     ⚠ RE-POINTED IN THE 2026-08 REBUILD, AND THE OLD FORM WAS PINNED TO
+     THE BUG'S FIX RATHER THAN TO THE LAW. It required the literal
+     `disabled = !!s.lifted || s.lids.length < 2`. A `disabled` button
+     fires no click, is unfocusable and is skipped by screen readers —
+     so all three refusal strings would have been unreachable behind it,
+     which is the dead-string defect this file exists to catch. Four
+     native panels caught that independently. The law is that the strip
+     REFUSES below two lids and after the lift, with the RIGHT REASON for
+     each; the mechanism is aria-disabled plus a spoken reason. */
+  if (!/if\s*\(s\.lifted\)\s*self\._refuse\(b,\s*'refuseLifted'\)/.test(body)) {
+    err('V16 the strip does not refuse, with its own reason, once the lids are up');
   }
-  /* g. focus survives the re-render */
-  if (body.indexOf('.focus()') === -1) err('V16 the strip does not restore focus after its own re-render');
+  if (!/s\.lids\.length\s*<\s*self\.MIN_LIDS\)\s*self\._refuse\(b,\s*'hintPlace'\)/.test(body)) {
+    err('V16 the strip does not refuse, with its own reason, below two lids');
+  }
+  if (/\bb\.disabled\s*=/.test(body)) {
+    err('V16 the strip still uses `disabled`, which cannot be focused, clicked or heard');
+  }
+  /* g. focus survives the re-render.
+     ⚠ ALSO RE-POINTED. The old check looked for `.focus()` inside
+     _buildStrip, which is the shape of the old bespoke fix. Focus is now
+     restored ONCE, in render(), for every control the tool builds — so
+     the law is that the strip's numerals carry a stable data-fk and that
+     render() reads one back. Checking the old shape would have failed a
+     strictly better fix. */
+  if (!/data-fk['"],\s*'mark:'/.test(body)) {
+    err('V16 the strip numerals carry no stable focus key');
+  }
+  if (!/getAttribute\('data-fk'\)/.test(SRC) || !/querySelector\('\[data-fk="'/.test(SRC)) {
+    err('V16 render() does not restore focus by data-fk after its own re-render');
+  }
   /* h. the old dot row is gone — the table already seats the counters */
   if (SRC_NC.indexOf('lid-rcell') >= 0) err('V16 the old .lid-rcell dot row is still rendered');
   /* i. AND STILL NO VERDICT. The two values sit on one strip; nothing
@@ -707,6 +857,24 @@ function build(n, k, spread) {
   const re = /\bt\(([^()]*(?:\([^()]*\)[^()]*)*)\)/g;
   let m;
   while ((m = re.exec(SRC_NC)) !== null) keysIn(m[1]).forEach((k) => used.add(k));
+  /* ⚠ AND IT FOLLOWS THE TWO HELPERS THAT TAKE A KEY, because otherwise
+     it condemns correct code — the third time this file has had to learn
+     that. `_refuse(btn, key)` and `_say(key)` are the whole refusal
+     channel and `line(key)` is the whole hint ladder; every one of them
+     ends in api.t(key), and the scan proves that below rather than
+     assuming it. Nine strings looked dead to the old scan purely because
+     they are reached through a named helper instead of inline. */
+  const HELPERS = /\b(?:_refuse\([A-Za-z0-9_.]+,\s*|_say\(|line\()('[A-Za-z0-9_]+')/g;
+  while ((m = HELPERS.exec(SRC_NC)) !== null) used.add(m[1].slice(1, -1));
+  for (const h of ['_refuse', '_say']) {
+    const at = SRC_NC.indexOf(h + ': function');
+    if (at < 0 || SRC_NC.slice(at, at + 500).indexOf('.t(key)') < 0) {
+      err(`V17 the ${h} helper does not resolve its key through t() — the scan's indirection is unproven`);
+    }
+  }
+  if (!/var line = function \(key\)[\s\S]{0,200}?api\.t\(key\)/.test(SRC_NC)) {
+    err('V17 the hint ladder helper does not resolve its key through t()');
+  }
 
   /* ⚠ AN EXPLICIT, AUDITABLE EXEMPTION LIST — never a loosened regex.
      These two are read by the SHELL, not by this file: lcs-shell.js:47-58
@@ -714,7 +882,23 @@ function build(n, k, spread) {
      description in all eleven locales. They are used; they are simply
      not used HERE. Anything added to this list needs the same one-line
      proof beside it. */
-  const SHELL_CONSUMED = { title: 'lcs-shell.js:47-58 {title} interpolation', instruction: 'lcs-shell.js:47-58 {instruction} interpolation' };
+  const SHELL_CONSUMED = {
+    title: 'lcs-shell.js:47-58 {title} interpolation',
+    instruction: 'lcs-shell.js:47-58 {instruction} interpolation',
+    /* the settings drawer is built by the shell from tool.settings[].labelKey
+       (lcs-shell.js:591-593 renderField), so these two are rendered in all
+       eleven locales and never pass through this file's own t() */
+    setGhosts: 'lcs-shell.js:591-593 renderField(labelKey) — drawer row 1',
+    setStrip: 'lcs-shell.js:591-593 renderField(labelKey) — drawer row 2'
+  };
+  /* ⚠ AND THE EXEMPTION IS PROVED, NOT ASSERTED: each of those two keys
+     must actually appear as a labelKey in the tool's settings array, or
+     the list becomes a place to hide a genuinely dead string. */
+  for (const k of ['setGhosts', 'setStrip']) {
+    if (!(T.settings || []).some((f) => f.labelKey === k)) {
+      err(`V17 ${k} is exempted as shell-consumed but is not a labelKey in tool.settings`);
+    }
+  }
   const reach = (k) => used.has(k) || Object.prototype.hasOwnProperty.call(SHELL_CONSUMED, k);
 
   const dead = Object.keys(T.strings).filter((k) => !reach(k));
@@ -753,8 +937,12 @@ function build(n, k, spread) {
   };
   const probeApi = {
     lang: 'en',
+    /* the two drawer booleans are part of the state space now: a hint
+       that points at the numeral strip is FALSE when the strip is off */
+    settings: { ghosts: true, strip: true },
     el: (tag, cls) => { const n = stub(); n.tag = tag; n.cls = cls || ''; return n; },
     t: (k) => { REACH.add(k); const v = T.strings[k]; return (v && v.en) || k; },
+    announce: () => {},
     stage: stub()
   };
   const inst = Object.create(T);
@@ -766,25 +954,48 @@ function build(n, k, spread) {
 
   const twoLid = build(20, 2, true);
   const STATES = [
+    /* ⚠ `one lid down` IS GONE FROM THE MATRIX BECAUSE IT IS GONE FROM
+       THE TOOL. Placing from an empty table lays two; k=1 swallowed every
+       counter and was one click from the opening frame. The MODEL still
+       answers at k=1 and the oracle sweep still checks it — the interface
+       simply cannot get there. */
     ['no lids yet', build(20, 0, true), false],
-    ['one lid down', build(20, 1, true), false],
     ['two lids, nothing committed', twoLid, false],
     ['two lids, marker parked', T.placeGuess(twoLid, 10), false],
     ['lifted, shares exactly', T.lift(T.placeGuess(twoLid, 10)), false],
     ['lifted, something left over', T.lift(T.placeGuess(build(20, 3, true), 6)), false],
     ['four lids, the paid ceiling in view', build(30, 4, true), true],
+    ['lifted at four lids — where hintAgain must NOT appear', T.lift(build(20, 4, true)), false],
     ['the gate showing', twoLid, true]
   ];
+  /* ⚠ AND THE MATRIX NOW SWEEPS THE REFUSALS AND BOTH SETTINGS. Six
+     native panels caught that the three refusal strings would be
+     unreachable if the controls stayed `disabled`, and that hintMark is
+     false when the numeral strip is switched off — a string is only
+     reached if some REAL state asks for it, and "real" includes the
+     settings a teacher can change. */
+  const SAID = [null, 'refuseTotal', 'refuseLifted', 'refuseMax', 'hintPlace'];
   for (const [label, st, gate] of STATES) {
     if (!st) { err(`V17b could not build the "${label}" state`); continue; }
-    inst.st = st;
-    inst._gate = gate;
-    try {
-      inst._buildBar(); inst._buildHint(); inst._buildStrip(); inst._buildFoot();
-      /* the table is driven too — it labels the lids and the counters */
-      inst._buildTable();
-    } catch (e) {
-      err(`V17b a builder threw on the "${label}" state: ${e.message}`);
+    for (const strip of [true, false]) {
+      for (const said of SAID) {
+        inst.st = st;
+        inst._gate = gate;
+        inst._said = said;
+        inst._prevRow = { n: 20, k: 2, x: 10, r: 0 };
+        inst._rounds = [{ n: 20, k: 2, x: 10, r: 0 }];
+        inst.premium = true;
+        inst.api.settings.strip = strip;
+        inst.api.settings.ghosts = strip;
+        try {
+          inst._buildHint(); inst._buildStrip(); inst._buildFoot();
+          inst._buildRecord(); inst._buildSheet();
+          /* the table is driven too — it labels the lids and the ghosts */
+          inst._buildTable();
+        } catch (e) {
+          err(`V17b a builder threw on the "${label}" state (strip=${strip}, said=${said}): ${e.message}`);
+        }
+      }
     }
   }
 
@@ -800,6 +1011,240 @@ function build(n, k, spread) {
   if (!REACH.has('againBtn')) err('V17b POISON: the state matrix never lifts the lids');
 
   console.log(`V17 no dead strings: all ${Object.keys(T.strings).length} authored keys are REACHED at runtime — ${REACH.size} asked for by a real state of the tool across ${STATES.length} states, ${Object.keys(SHELL_CONSUMED).length} owned by the shell`);
+})();
+
+/* =====================================================================
+   V18 — ⭐⭐ THE COUNTERS ON THE OPEN TABLE DO NOT OVERLAP.
+   The half of V15 that was never written. V15 proves at length that the
+   counters UNDER A LID clear each other — the hexagonal packing, correct
+   by construction — and nothing checked the part that is actually
+   random. Measured on the shipped build:
+       totals with at least one OVERLAPPING pair: 19 of 27
+       chip-reachable totals affected: 12, 16, 20, 24, 30  (12 is DEFAULT)
+       worst: total 17, two counters 4.5 units apart on a 56-unit disc
+   Two discs 14 units apart draw as one figure-of-eight blob, so a class
+   asked "how many are on the table?" saw eleven shapes where there were
+   twelve. A counting instrument whose counters cannot be counted.
+   ===================================================================== */
+(function separation() {
+  const D = 2 * T.C_R;
+  let tightest = Infinity, bad = 0, checked = 0;
+  for (let n = O_MIN; n <= O_MAX; n++) {
+    const pts = T.scatter({ n, seed: n * 7919, lids: [], guess: null, lifted: false });
+    if (pts.length !== n) { err(`V18 the scatter produced ${pts.length} counters for a total of ${n}`); return; }
+    checked++;
+    for (let i = 0; i < pts.length; i++) {
+      for (let j = i + 1; j < pts.length; j++) {
+        const d = Math.hypot(pts[i].x - pts[j].x, pts[i].y - pts[j].y);
+        if (d < tightest) tightest = d;
+        if (d < D) bad++;
+      }
+    }
+    /* and every counter is on the table, not half off its edge */
+    for (const p of pts) {
+      if (p.x < T.C_R || p.x > O_W - T.C_R || p.y < T.C_R || p.y > O_H - T.C_R) {
+        err(`V18 a counter sits off the table at n=${n}`); return;
+      }
+    }
+  }
+  if (bad) err(`V18 ${bad} pairs of counters overlap on the open table (tightest ${tightest.toFixed(1)} against a floor of ${D})`);
+  /* ⚠ POISON: the check must FIRE on a scatter with no separation at
+     all — the exact shipped implementation, so a regression to it cannot
+     pass. */
+  const naive = [];
+  for (let i = 0; i < 30; i++) { const h = T._mix(30 * 7919, i); naive.push({ x: 70 + (h % 861), y: 70 + ((h >>> 9) % 481) }); }
+  let naiveBad = 0;
+  for (let i = 0; i < naive.length; i++) for (let j = i + 1; j < naive.length; j++) {
+    if (Math.hypot(naive[i].x - naive[j].x, naive[i].y - naive[j].y) < D) naiveBad++;
+  }
+  if (!naiveBad) err('V18 POISON: the separation check cannot see the un-separated scatter it was written for');
+  console.log(`V18 the open table is countable: ${checked} totals, no two counters closer than ${Math.round(tightest)} units against a floor of ${D} (the old scatter overlapped in 19 of 27)`);
+})();
+
+/* =====================================================================
+   V19 — ⭐ THE REACHABLE LID SET IS {0, 2, 3, 4}, and k=1 still answers.
+   Refusal 1 says there is no single-lid MODE; the shipped build enforced
+   that as a mode and left the STATE one click from the opening frame,
+   where one lid took floor(n/1) = n and swallowed every counter.
+   ===================================================================== */
+(function lidSet() {
+  let st = T.newState();
+  const seen = [st.lids.length];
+  for (let i = 0; i < 6; i++) {
+    const next = T.addLid(st, 300 + i * 40, 300);
+    if (!next) break;
+    st = next; seen.push(st.lids.length);
+  }
+  if (seen.join(',') !== '0,2,3,4') err(`V19 placing walks ${seen.join(',')} — the reachable set must be 0,2,3,4`);
+  if (T.addLid(st, 500, 300) !== null) err('V19 a fifth lid was accepted');
+  const down = [];
+  let s2 = st;
+  for (let i = 0; i < 4; i++) { const r = T.removeLid(s2); if (!r) break; s2 = r; down.push(r.lids.length); }
+  if (down.join(',') !== '3,2,0') err(`V19 taking lids away walks ${down.join(',')} — two must clear the table`);
+  /* the model is still TOTAL at k=1, which is why the oracle sweeps it */
+  const one = { n: 12, seed: 12 * 7919, lids: [{ cx: 500, cy: 310 }], guess: null, lifted: false };
+  if (T.share(one) !== 12) err('V19 the model no longer answers at k=1 — the sweep above would be measuring nothing');
+  if (T.lift(one) !== null) err('V19 a single lid can still be lifted — the subtraction refusal 1 forbids');
+  if (T.placeGuess(one, 3) !== null) err('V19 the strip accepts a commitment with one lid down');
+  console.log('V19 the lid set: placing lays two, taking one from two clears the table, a fifth is refused, and k=1 still answers in the model while being unreachable in the tool');
+})();
+
+/* =====================================================================
+   V20 — ⭐⭐ THE STRIP CONTAINS THE SHARE AND NEVER TOPS OUT ON IT.
+   The shipped strip ran 0..min(maxTotal, 12): at total 30 with two lids
+   the share is 15, so the class could not commit the right number and
+   the reveal ringed NOTHING. At total 8 nine numerals could never be the
+   answer under any lid count. And floor(n/2) — the obvious repair — is
+   exactly the share at two lids, which is the configuration the routine
+   OPENS with, so the answer would have sat on the last button every time.
+   ===================================================================== */
+(function stripRange() {
+  for (let n = O_MIN; n <= O_MAX; n++) {
+    const st = { n, seed: n * 7919, lids: [], guess: null, lifted: false };
+    const top = T.stripTop(st);
+    if (top !== Math.round(top) || top < 1) { err(`V20 stripTop(${n}) is ${top}`); return; }
+    if (top % 5 !== 0) err(`V20 the top of the strip at n=${n} is ${top}, not a landmark`);
+    for (let k = T.MIN_LIDS; k <= O_MAXLIDS; k++) {
+      const x = Math.floor(n / k);
+      if (x > top) { err(`V20 the share ${x} at n=${n} k=${k} is OFF the strip (top ${top})`); return; }
+      if (x === top) { err(`V20 the share ${x} at n=${n} k=${k} IS the top numeral — the strip would hand over the answer`); return; }
+      if (x < 1) { err(`V20 the share at n=${n} k=${k} is below the strip's first numeral`); return; }
+    }
+    /* the range must not move when a lid does */
+    const three = { n, seed: n * 7919, lids: [{ cx: 1, cy: 1 }, { cx: 2, cy: 2 }, { cx: 3, cy: 3 }], guess: null, lifted: false };
+    if (T.stripTop(three) !== top) err(`V20 the strip re-ranged when a lid went down at n=${n} — it would leak the answer`);
+    /* one scale, read twice: the reducer bounds on the same function */
+    if (T.placeGuess({ n, seed: n * 7919, lids: [{ cx: 1, cy: 1 }, { cx: 2, cy: 2 }], guess: null, lifted: false }, top + 1) !== null) {
+      err(`V20 placeGuess accepts ${top + 1}, which the strip does not render at n=${n}`);
+    }
+    if (T.placeGuess({ n, seed: n * 7919, lids: [{ cx: 1, cy: 1 }, { cx: 2, cy: 2 }], guess: null, lifted: false }, 0) !== null) {
+      err(`V20 placeGuess accepts 0, which can never be the share`);
+    }
+  }
+  /* ⚠ POISON: the shipped rule and the naive repair must BOTH fail */
+  const shipped = (n) => Math.min(30, 12);
+  const naive = (n) => Math.floor(n / 2);
+  if (shipped(30) >= Math.floor(30 / 2)) err('V20 POISON: the old fixed top would still hold the share at 30');
+  if (naive(12) !== Math.floor(12 / 2)) err('V20 POISON: floor(n/2) no longer coincides with the two-lid share — re-derive this check');
+  console.log('V20 the strip: every share sits on it, none is its top numeral, none is below 1, and it re-ranges only when the TABLE changes');
+})();
+
+/* =====================================================================
+   V21 — ⭐ THE PRINTABLE IS DOUBLE-LOCKED AND CANNOT BECOME AN ANSWER KEY.
+   The shipped chip called _showGate() for a free visitor while the
+   @media print block was UNCONDITIONAL, so Ctrl+P — which no chip guards
+   — handed anybody the Teacher-plan sheet. And the block printed the
+   LIVE screen, so printing after a lift put the committed marker and the
+   revealed share onto twenty-five copies.
+   ===================================================================== */
+(function printable() {
+  const sheetAt = SRC.indexOf('_buildSheet: function');
+  if (sheetAt < 0) { err('V21 there is no print sheet builder'); return; }
+  const body = SRC.slice(sheetAt, SRC.indexOf('_showGate: function'));
+  if (/\.lifted/.test(body)) err('V21 the sheet reads `lifted` — it could print the reveal');
+  if (/\.guess/.test(body)) err('V21 the sheet reads `guess` — it could print the class\'s commitment as an answer');
+  if (!/if \(!this\.premium\) \{ document\.body\.classList\.remove\('lid-paid'\); return; \}/.test(SRC)) {
+    err('V21 the sheet subtree is not absent for a free visitor');
+  }
+  const printBlock = SRC.slice(SRC.indexOf('@media print{'));
+  const rules = printBlock.split('\n').filter((l) => /\.lid-|\.lcs-/.test(l) && /display|visibility/.test(l));
+  const unscoped = rules.filter((l) => l.indexOf('body.lid-paid') < 0);
+  if (unscoped.length) err(`V21 ${unscoped.length} print rule(s) are not scoped to body.lid-paid — Ctrl+P would leak the sheet`);
+  /* ⚠ POISON: both halves must be able to fail */
+  if (!/\.lifted/.test('if (s.lifted) {')) err('V21 POISON: the lifted scan cannot see a lifted read');
+  if ('display:none'.indexOf('body.lid-paid') >= 0) err('V21 POISON: the scoping scan is vacuous');
+  console.log('V21 the printable: absent unless entitled, every print rule scoped to the paid body class, and a pure function of (total, lid count) — it cannot print an answer');
+})();
+
+/* =====================================================================
+   V22 — ⭐ THE EIGHT THE MUTATION HARNESS FOUND.
+   Every law below exists because a mutation SURVIVED the gate: the model
+   was checked and the render was not, or the check happened to look at a
+   token the mutation left alone. A survivor is the gate telling you where
+   it is blind, and the honest response is a new assertion, never a
+   quieter one.
+   ===================================================================== */
+(function blindSpots() {
+  /* a. THE PACKING IS TIGHT AGAINST AN INDEPENDENT REFERENCE.
+     "the rings start one out, leaving a gap in the middle" survived: the
+     centroid law passes for a ring and the tight law derives the radius
+     FROM the packing, so both move together and neither notices. The
+     published optimal radii for n unit circles packed in a circle are an
+     outside source the tool cannot influence — mine are concentric rings,
+     so they may be a little larger, but never wildly so. */
+  const OPT = [1, 2, 2.155, 2.414, 2.701, 3, 3, 3.304, 3.613, 3.813, 3.924, 4.029, 4.236, 4.328, 4.521];
+  let worst = 0;
+  for (let m = 1; m <= OPT.length; m++) {
+    const r = T.radiusForShare(m);
+    const ideal = Math.max(T.MIN_R, OPT[m - 1] * T.C_R);
+    if (r > ideal + 6) {
+      err(`V22 the lid for ${m} counters is ${r}, against a known-optimal ${Math.round(ideal)} — the pile is not packed tightly`);
+    }
+    worst = Math.max(worst, r - ideal);
+  }
+  /* b. THE LIFT SEATS EVERY COUNTER. A source grep could not see
+     `var pack = [];` because the seating expression survived it — so this
+     asks the MODEL: the packing must hold exactly the share. */
+  for (let n = O_MIN; n <= O_MAX; n++) {
+    for (let k = T.MIN_LIDS; k <= O_MAXLIDS; k++) {
+      const st = build(n, k, true);
+      if (!st) continue;
+      const x = T.share(st);
+      if (T.packing(x).length !== x) {
+        err(`V22 the lift would seat ${T.packing(x).length} counters under a lid holding ${x} at n=${n} k=${k}`); return;
+      }
+    }
+  }
+  /* b2. AND THE LIFT COMPUTES THAT PACKING FROM THE SHARE. Asking the
+     model is not enough: a mutation replaced the RENDER's
+     `var pack = this.packing(this.share(s))` with `var pack = []`, which
+     leaves the model untouched and empties the reveal — the counters
+     would simply not be drawn under their lids. Nothing in the model can
+     see that, so the law has to name the expression. */
+  const tableAt2 = RENDER.indexOf('_buildTable: function');
+  const liftBranch = tableAt2 < 0 ? '' : RENDER.slice(RENDER.indexOf('if (s.lifted) {', tableAt2), tableAt2 + 4200);
+  if (!/var pack = this\.packing\(this\.share\(s\)\);/.test(liftBranch)) {
+    err('V22 the lift does not compute its packing from the share — the reveal would seat nothing');
+  }
+  /* c. FOCUS IS ACTUALLY RESTORED, not merely keyed. The data-fk check
+     passes with the restore deleted. */
+  if (!/querySelector\('\[data-fk="'[\s\S]{0,220}?\.focus\(\)/.test(SRC)) {
+    err('V22 render() looks a control up by data-fk and never focuses it');
+  }
+  /* d. A REFUSAL NAMES ITS OWN REASON, and stays reachable. */
+  const refuse = SRC.slice(SRC.indexOf('_refuse: function'), SRC.indexOf('_announce: function'));
+  if (!/self\._say\(key\)/.test(refuse)) err('V22 a refused control no longer speaks its own reason');
+  if (!/aria-disabled['"],\s*['"]true/.test(refuse)) err('V22 a refused control is not marked aria-disabled');
+  if (/\bbtn\.disabled\s*=\s*true/.test(refuse)) {
+    err('V22 a refused control is `disabled` — unfocusable, unclickable and silent to a screen reader, which is what made three refusal strings dead');
+  }
+  /* e. THE COUNTERS STAY OUT OF THE ACCESSIBILITY TREE. Thirty nodes each
+     announcing "a counter" is noise that never says how many. */
+  const counter = SRC.slice(SRC.indexOf('_counter: function'), SRC.indexOf('_placeFrom: function'));
+  if (!/aria-hidden['"],\s*['"]true/.test(counter)) err('V22 a counter is exposed to the accessibility tree again');
+  if (/setAttribute\('aria-label'/.test(counter)) err('V22 a counter carries its own aria-label again');
+  /* f. THE WHOLE LID LANDS ON THE TABLE — measured, not grepped. */
+  for (let n = O_MIN; n <= O_MAX; n += 3) {
+    for (let k = T.MIN_LIDS; k <= O_MAXLIDS; k++) {
+      let st = build(n, k, true);
+      if (!st) continue;
+      st = T.moveLid(st, 0, 99999, 99999);
+      if (!st) { err(`V22 a lid could not be moved at n=${n} k=${k}`); return; }
+      const r = T.lidRadius(st), L = st.lids[0];
+      if (L.cx + r > O_W + 1 || L.cy + r > O_H + 1 || L.cx - r < -1 || L.cy - r < -1) {
+        err(`V22 a lid dragged into the corner hangs off the table at n=${n} k=${k} — its counters would be clipped away at the lift`); return;
+      }
+    }
+  }
+  /* g. destroy TAKES THE BODY CLASSES WITH IT. */
+  const destroy = SRC.slice(SRC.indexOf('destroy: function'), SRC.indexOf('onSettings: function'));
+  if (!/classList\.remove\('lid-wide', 'lid-paid'\)/.test(destroy)) {
+    err('V22 destroy leaves lid-wide (and the paid class) on <body> — they outlive the tool');
+  }
+  /* ⚠ POISON: each of these must be able to fire. */
+  if (T.radiusForShare(2) > OPT[1] * T.C_R + 6) err('V22 POISON: the tightness bound is already violated by a correct packing');
+  if (/aria-hidden/.test('setAttribute(\'aria-label\', \'x\')')) err('V22 POISON: the counter scan cannot tell the two attributes apart');
+  console.log(`V22 the mutation harness's blind spots: the pile is packed within ${Math.round(worst)} units of the known optimum, the lift seats every counter, focus is restored not merely keyed, a refusal speaks and stays reachable, the counters stay out of the tree, a dragged lid lands whole, and destroy cleans up after itself`);
 })();
 
 console.log('');

@@ -98,8 +98,41 @@ const open = async (page, lang, w, h) => {
 };
 
 const count = (page, sel) => page.evaluate((s) => document.querySelectorAll(s).length, sel);
-const footIdx = (page, label) => page.evaluate((l) =>
-  Array.from(document.querySelectorAll('.lid-foot .lid-chip')).findIndex((b) => b.textContent === l), label);
+/* ⚠ A LIST OF ACCEPTABLE LABELS, NOT ONE. The placing chip legitimately
+   branches — on an EMPTY table it reads "Put a lid down", because
+   "Another lid" is a lie there (another than what?). Driving by a single
+   literal made the harness report "the control was not on the page" for a
+   control that was on the page, correctly renamed. */
+const footIdx = (page, label) => page.evaluate((ls) =>
+  Array.from(document.querySelectorAll('.lid-foot .lid-chip'))
+    .findIndex((b) => ls.indexOf(b.textContent) >= 0), [].concat(label));
+/* the placing chip, under either of its two true names */
+const ADD = ['Put a lid down', 'Another lid'];
+/* ⚠ ADDRESS A NUMERAL BY ITS VALUE, NEVER BY ITS INDEX. The strip used
+   to run 0..12, so index and value coincided by accident. It now runs
+   1..stripTop(n) — state-sized, because a fixed top could not hold the
+   share at total 30 and offered nine numerals that could never be the
+   answer at total 8 — and every index-addressed assertion in this file
+   silently shifted by one. Driving by the numeral is also what a teacher
+   does: they press a number, not a position. */
+const clickMark = (page, v) => page.evaluate((n) => {
+  const b = Array.from(document.querySelectorAll('.lid-mark')).find((x) => x.textContent === String(n));
+  if (!b || b.getAttribute('aria-disabled') === 'true') return false;
+  b.click(); return true;
+}, v);
+const markWith = (page, cls) => page.evaluate((c) => {
+  const b = document.querySelector('.lid-mark.' + c);
+  return b ? parseInt(b.textContent, 10) : -1;
+}, cls);
+/* the strip refuses out loud now, so 'inert' is aria-disabled, not disabled */
+const stripInert = (page) => page.evaluate(() => {
+  const m = Array.from(document.querySelectorAll('.lid-mark'));
+  return m.length > 0 && m.every((b) => b.getAttribute('aria-disabled') === 'true');
+});
+const stripLive = (page) => page.evaluate(() => {
+  const m = Array.from(document.querySelectorAll('.lid-mark'));
+  return m.length > 0 && m.every((b) => b.getAttribute('aria-disabled') !== 'true');
+});
 /* ⚠ A CLICK THAT DID NOT HAPPEN MUST BE LOUD. The first draft returned
    false quietly, so when a disabled "Lift the lids" swallowed the click,
    the NEXT assertion — that the toggle is not swapped — passed for the
@@ -111,7 +144,11 @@ const clickFoot = async (page, label, mayFail) => {
   if (i >= 0) {
     ok = await page.evaluate((n) => {
       const b = document.querySelectorAll('.lid-foot .lid-chip')[n];
-      if (!b || b.disabled) return false;
+      /* ⚠ aria-disabled COUNTS AS REFUSED. No control on this card goes
+         grey in silence any more — a control that cannot act stays
+         focusable and clickable and says why — so `disabled` alone no
+         longer tells the harness whether the press did anything. */
+      if (!b || b.disabled || b.getAttribute('aria-disabled') === 'true') return false;
       b.click(); return true;
     }, i);
   }
@@ -123,15 +160,36 @@ const clickFoot = async (page, label, mayFail) => {
 const onTable = (page) => count(page, '.lid-counter');
 const lidCount = (page) => count(page, '.lid-lid');
 /* start from a known table: no lids, a chosen total */
+/* ⚠ THE TOTAL IS A STEPPER NOW, NOT SIX CHIPS. One card used to carry a
+   SETUP scale (8-12-16-20-24-30) and an ANSWER scale (0-12) four hundred
+   pixels apart with nothing distinguishing them; and six chips could not
+   express a model that accepts every integer from 4 to 30. */
 const setTotal = async (page, n) => {
-  await page.evaluate((v) => {
-    const b = Array.from(document.querySelectorAll('.lid-bar .lid-chip')).find((x) => x.textContent === String(v));
-    if (b && !b.disabled) b.click();
-  }, n);
-  await wait(120);
+  for (let guard = 0; guard < 40; guard++) {
+    const at = await page.evaluate(() => {
+      const v = document.querySelector('.lid-tval');
+      return v ? parseInt(v.textContent, 10) : null;
+    });
+    if (at === null || at === n) break;
+    const dir = at < n ? '+' : '-';
+    const moved = await page.evaluate((d) => {
+      const b = document.querySelector('.lid-total [data-fk="total' + d + '"]');
+      if (!b || b.getAttribute('aria-disabled') === 'true') return false;
+      b.click(); return true;
+    }, dir);
+    if (!moved) break;
+    await wait(45);
+  }
+  await wait(90);
 };
+/* ⚠ PLACING FROM AN EMPTY TABLE LAYS TWO. One lid took floor(n/1) = n and
+   swallowed every counter, which was one click from the opening frame, so
+   the reachable set is {0,2,3,4}. The harness has to walk it the same way
+   a teacher does. */
 const addLids = async (page, k) => {
-  for (let i = 0; i < k; i++) await clickFoot(page, 'Another lid');
+  if (k < 2) throw new Error('addLids: the tool has no one-lid state; the reachable set is {0,2,3,4}');
+  await clickFoot(page, ADD);                 /* 0 -> 2 */
+  for (let i = 2; i < k; i++) await clickFoot(page, ADD);
 };
 
 /* ===================================================================== */
@@ -151,14 +209,21 @@ const addLids = async (page, k) => {
       const total = 20;
       is((await onTable(page)) === total, 'L1 an empty table shows all ' + total + ' counters');
       let ok = true, detail = [];
-      for (let k = 1; k <= T.MAX_LIDS; k++) {
-        await clickFoot(page, 'Another lid');
+      /* ⚠ THE WALK STARTS AT TWO. Placing from an empty table lays a
+         PAIR — one lid took floor(n/1) = n and swallowed every counter,
+         which was one click from the opening frame — so the reachable
+         set is {0,2,3,4} and the harness walks it the way a teacher
+         does. The value lock is checked at every reachable count. */
+      for (let k = T.MIN_LIDS; k <= T.MAX_LIDS; k++) {
+        await clickFoot(page, ADD);
         const vis = await onTable(page);
         const lids = await lidCount(page);
         const share = Math.floor(total / k);
         detail.push(k + ':' + vis);
         if (lids !== k || total - vis !== k * share) ok = false;
       }
+      /* and one lid is not reachable at all, which is the point */
+      is((await lidCount(page)) === T.MAX_LIDS, 'L1 the walk ends at the four-lid ceiling');
       is(ok, 'L1 ⭐ THE VALUE LOCK ON SCREEN: hidden === lids x share at every lid count (visible ' + detail.join(' ') + ')');
       await page.close();
     }
@@ -171,9 +236,9 @@ const addLids = async (page, k) => {
       await setTotal(page, 12);
       await addLids(page, 2);
       const visTwo = await onTable(page);      /* 12 - 2*6 = 0 */
-      await clickFoot(page, 'Another lid');
+      await clickFoot(page, ADD);
       const visThree = await onTable(page);    /* 12 - 3*4 = 0 */
-      await clickFoot(page, 'Another lid');
+      await clickFoot(page, ADD);
       const visFour = await onTable(page);     /* 12 - 4*3 = 0 */
       is(visTwo === 0 && visThree === 0 && visFour === 0,
         'L2 12 counters share exactly 2, 3 and 4 ways (' + visTwo + '/' + visThree + '/' + visFour + ' left over)');
@@ -183,7 +248,7 @@ const addLids = async (page, k) => {
       await setTotal(page, 20);
       await addLids(page, 2);
       const a = await onTable(page);            /* 20 - 2*10 = 0 */
-      await clickFoot(page, 'Another lid');
+      await clickFoot(page, ADD);
       const b = await onTable(page);            /* 20 - 3*6  = 2 */
       is(a === 0 && b === 2,
         'L2 ⭐ THE RE-SETTLE: a third lid makes the first two give back — 0 on the table becomes ' + b);
@@ -211,13 +276,27 @@ const addLids = async (page, k) => {
         };
       });
       is(m.n === 0, 'L3 ⭐ COVERED MEANS ABSENT: 16 under 2 lids leaves ' + m.n + ' counters in the whole tree');
-      is(m.faded === 0 && m.hiddenAttr === 0, 'L3 no counter is merely faded or aria-hidden — house doctrine honoured');
+      /* ⚠ THE aria-hidden CLAUSE IS GONE, AND DELIBERATELY. It was written
+         to enforce house doctrine — a covered counter LEAVES THE DOM, it
+         is not hidden with CSS or with an attribute — and the count above
+         proves exactly that: zero counters in the whole tree. But every
+         VISIBLE counter is now aria-hidden on purpose, because thirty
+         nodes each announcing "a counter" is noise that never told a
+         screen-reader user how many were on the table; the count moved
+         onto the table's own group label. Keeping the old clause would
+         have condemned the accessibility fix. What survives is the half
+         that is still a law: nothing is merely FADED. */
+      is(m.faded === 0, 'L3 no counter is merely faded out — a covered counter leaves the DOM entirely');
       is(m.leak === '', 'L3 the table carries no text at all (the no-words law)');
       /* and the reveal is genuinely absent before the lift */
       is((await count(page, '.lid-reveal')) === 0, 'L3 no reveal block exists before the lids are lifted');
       await clickFoot(page, 'Lift the lids');
-      const truth = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')));
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
+      const truth = await markWith(page, 'lid-truth');
       is(truth === 8, 'L3 after the lift the truth is marked on the strip at numeral ' + truth + ' (16 shared 2 ways)');
       is((await onTable(page)) === 16, 'L3 every counter comes back when the lids come up');
       await page.close();
@@ -295,10 +374,23 @@ const addLids = async (page, k) => {
       is(vis === 2, 'L5 ⭐ THE REMAINDER IS HONEST: 20 under 3 lids leaves ' + vis + ' counters in plain sight');
       const hint = await page.evaluate(() => document.querySelector('.lid-hint').textContent.trim());
       await clickFoot(page, 'Lift the lids');
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
       const after = await page.evaluate(() => document.querySelector('.lid-hint').textContent.trim());
-      is(after === 'Some are left over. They do not fit under a lid.',
+      is(after.indexOf('Some counters are left over. They do not fit under a lid.') === 0,
         'L5 the leftover gets its own sentence, only once it can be seen ("' + after + '")');
-      /* and an exact share says nothing at all — no false drama */
+      /* ⚠ AND THE EXACT SHARE MUST SPEAK. This assertion used to require
+         the hint to be EMPTY when nothing was left over, which pinned the
+         defect rather than a law: measured across the fifteen
+         configurations two-or-more lids can reach, NINE render blank, so
+         the clean share was the majority of the tool and the tool said
+         nothing about it. Silence is itself an editorial — it marks the
+         exact share as the case with nothing to say and the remainder as
+         the case where something went wrong, which is the inverse of this
+         tool's own third invention. */
       for (let i = 0; i < 5; i++) await clickFoot(page, 'Lids back on', true);
       await page.close();
       const p2 = await newPage(browser, { premium: true });
@@ -308,7 +400,10 @@ const addLids = async (page, k) => {
       await addLids(p2, 3);
       await clickFoot(p2, 'Lift the lids');
       const clean = await p2.evaluate(() => document.querySelector('.lid-hint').textContent.trim());
-      is(clean === '', 'L5 a total that shares exactly says nothing after the lift (was "' + hint + '" before)');
+      is(clean.indexOf('Every counter is under a lid. None are left over.') === 0,
+        'L5 a total that shares exactly SAYS SO after the lift ("' + clean + '")');
+      is(clean.indexOf('left over. They do not fit') === -1,
+        'L5 — and it does not borrow the remainder\'s sentence');
       await p2.close();
     }
 
@@ -319,17 +414,21 @@ const addLids = async (page, k) => {
       for (let i = 0; i < 4; i++) await clickFoot(page, 'Take one away', true);
       await setTotal(page, 12);
       await addLids(page, 3);
-      await page.evaluate(() => document.querySelectorAll('.lid-mark')[5].click());
+      await clickMark(page, 5);
       await wait(90);
-      const marked = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
+      const marked = await markWith(page, 'lid-on');
       is(marked === 5, 'L6 the class parks a marker on 5 (a wrong guess — the tool must not care)');
 
       await clickFoot(page, 'Lift the lids');
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
       const after = await page.evaluate(() => ({
-        marked: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')),
-        allDisabled: Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.disabled),
-        truth: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')),
+        marked: (function () { const b = document.querySelector('.lid-mark.lid-on'); return b ? parseInt(b.textContent, 10) : -1; }()),
+        allDisabled: Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.getAttribute('aria-disabled') === 'true'),
+        truth: (function () { const b = document.querySelector('.lid-mark.lid-truth'); return b ? parseInt(b.textContent, 10) : -1; }()),
         both: document.querySelectorAll('.lid-mark.lid-on.lid-truth').length,
         truthCount: document.querySelectorAll('.lid-mark.lid-truth').length,
         verdictClass: document.querySelectorAll('[class*="correct"],[class*="wrong"],[class*="right"]').length,
@@ -356,15 +455,28 @@ const addLids = async (page, k) => {
          passes for the boring reason. Put lids down first. */
       const k0 = await lidCount(page);
       is(k0 === 0, 'L7 the tool opens with an untouched table and no lids on it');
-      await clickFoot(page, 'Another lid');
-      await clickFoot(page, 'Another lid');
+      /* ⚠ THE FIRST PRESS LAYS A PAIR. One lid took floor(n/1) = n and
+         swallowed every counter — an empty table and one enormous disc,
+         one click from the opening frame — so the reachable set is
+         {0,2,3,4} and the placing control is honest about it: on an empty
+         table it reads "Put a lid down" and it puts down two, because two
+         is what the routine is. */
+      await clickFoot(page, ADD);
+      const kPair = await lidCount(page);
+      is(kPair === 2, 'L7 the first press lays a PAIR, never a single lid (' + k0 + ' -> ' + kPair + ')');
+      await clickFoot(page, ADD);
       const k1 = await lidCount(page);
-      is(k1 === 2, 'L7 "Another lid" adds a lid, twice (' + k0 + ' -> ' + k1 + ')');
+      is(k1 === 3, 'L7 "Another lid" then adds one at a time (' + kPair + ' -> ' + k1 + ')');
       await clickFoot(page, 'Take one away');
       is((await lidCount(page)) === k1 - 1, 'L7 "Take one away" removes one');
-      await clickFoot(page, 'Another lid');
+      await clickFoot(page, ADD);
 
       await clickFoot(page, 'Lift the lids');
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
       is(await footIdx(page, 'Lids back on') >= 0, 'L7 the button relabels itself "Lids back on" once they are up');
       await clickFoot(page, 'Lids back on');
       is(await footIdx(page, 'Lift the lids') >= 0 && (await count(page, '.lid-reveal')) === 0,
@@ -382,14 +494,23 @@ const addLids = async (page, k) => {
     {
       const page = await newPage(browser, { premium: false });
       await open(page, 'en', 1024, 900);
-      const free = await page.evaluate(() => ({
-        open: Array.from(document.querySelectorAll('.lid-bar .lid-chip')).filter((b) => !b.classList.contains('lid-locked')).map((b) => b.textContent),
-        locked: Array.from(document.querySelectorAll('.lid-bar .lid-chip')).filter((b) => b.classList.contains('lid-locked')).map((b) => b.textContent)
-      }));
-      is(free.open.join(',') === '8,12,16,20', 'L7b free totals are ' + free.open.join(',') + ' — a real try, not a demo');
-      is(free.locked.join(',') === '24,30', 'L7b the paid totals are visibly locked (' + free.locked.join(',') + ')');
+      /* ⚠ THE TOTALS BAR IS GONE. Six chips could not express a model that
+         accepts every integer from 4 to 30 — a teacher could not set 13 by
+         hand although the book hands them 13 — and a SETUP scale of six
+         numerals sitting four hundred pixels above the ANSWER scale was
+         what made a teacher unable to tell which row the class should
+         point at. It is a stepper now, so the free tier is measured by
+         where the stepper STOPS. */
+      await setTotal(page, 20);
+      const atFreeCeiling = await page.evaluate(() => {
+        const v = document.querySelector('.lid-tval');
+        const plus = document.querySelector('.lid-total [data-fk="total+"]');
+        return { at: v ? parseInt(v.textContent, 10) : null, locked: !!(plus && plus.classList.contains('lid-locked')) };
+      });
+      is(atFreeCeiling.at === 20, 'L7b a free class reaches 20 counters — a real try, not a demo (' + atFreeCeiling.at + ')');
+      is(atFreeCeiling.locked, 'L7b and the step past it is visibly locked rather than silently clamped');
       await page.evaluate(() => {
-        const b = Array.from(document.querySelectorAll('.lid-bar .lid-chip')).find((x) => x.textContent === '30');
+        const b = document.querySelector('.lid-total [data-fk="total+"]');
         if (b) b.click();
       });
       await wait(150);
@@ -405,10 +526,14 @@ const addLids = async (page, k) => {
       for (let i = 0; i < 4; i++) await clickFoot(page, 'Take one away', true);
       await setTotal(page, 20);
       await addLids(page, 2);
-      await page.evaluate(() => document.querySelectorAll('.lid-mark')[9].click());
+      await clickMark(page, 9);
       await clickFoot(page, 'Lift the lids');
-      const freeTruth = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')));
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
+      const freeTruth = await markWith(page, 'lid-truth');
       is(freeTruth === 10, 'L7b a signed-out class runs the whole routine and sees the truth land on 10');
       await page.close();
     }
@@ -425,35 +550,50 @@ const addLids = async (page, k) => {
 
       /* a. INERT UNTIL THERE IS A QUESTION — the exact state in the
          operator's screenshot: no lids, whole strip live and willing. */
-      const off0 = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.disabled));
+      const off0 = await stripInert(page);
       is(off0, '\u2b50 L10 with no lids down the whole strip is inert \u2014 there is no question yet');
-      await clickFoot(page, 'Another lid');
-      const off1 = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.disabled));
-      is(off1, 'L10 with ONE lid down it is still inert \u2014 one lid is a subtraction, not this tool');
-      await clickFoot(page, 'Another lid');
-      const on2 = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).every((b) => !b.disabled));
-      is(on2, 'L10 the second lid brings the strip to life');
+      /* \u26a0 AND IT REFUSES OUT LOUD RATHER THAN GOING GREY IN SILENCE. Three
+         controls used to die without a word \u2014 the totals, the strip, and
+         the placing chip at four lids \u2014 and each read as breakage. A
+         `disabled` button also fires no click, is unfocusable and is
+         skipped by screen readers, so the refusal strings behind it would
+         have been dead in all eleven locales. */
+      const spoke = await page.evaluate(() => {
+        const b = document.querySelector('.lid-mark');
+        if (!b) return null;
+        b.click();
+        return document.querySelector('.lid-hint').textContent.trim();
+      });
+      await wait(150);
+      is(spoke && spoke.indexOf('Drag a lid onto the table') === 0,
+        '\u2b50 L10 a numeral pressed with no lids down SAYS WHY (\"' + spoke + '\")');
+      /* \u26a0 THE ONE-LID RUNG IS GONE FROM THIS BLOCK BECAUSE IT IS GONE FROM
+         THE TOOL: one lid took the whole total and swallowed every
+         counter, so placing lays a PAIR and the strip comes alive at once. */
+      await clickFoot(page, ADD);
+      const on2 = await stripLive(page);
+      is(on2, 'L10 the pair brings the strip to life');
 
       /* b. THE HINT NOW SAYS WHAT THE STRIP IS FOR (hintMark was a dead
          string authored in eleven locales and never referenced) */
       const hint = await page.evaluate(() =>
         Array.from(document.querySelectorAll('.lid-hint .lid-hline')).map((e) => e.textContent));
       is(hint.length === 2, 'L10 the hint is two lines here (saw ' + hint.length + ')');
-      is(hint[1] === 'Park the marker on the number you think it is.',
-        '\u2b50 L10 hintMark finally renders: "' + hint[1] + '"');
+      /* \u26a0 THE WORDING CHANGED, AND FIVE NATIVE PANELS ARE WHY. "Park the
+         marker on the number you think it is" named a MARKER \u2014 a noun the
+         apparatus never shows \u2014 so a teacher hunting for one saw a row of
+         numerals. It is now a locative imperative with no device verb,
+         because a projector has no mouse. */
+      is(hint[1] === 'Choose a number below.',
+        '\u2b50 L10 the strip is finally told what it is for: "' + hint[1] + '"');
 
       /* c. A LID CHANGE VOIDS THE COMMITMENT */
-      await page.evaluate(() => document.querySelectorAll('.lid-mark')[6].click());
+      await clickMark(page, 6);
       await wait(120);
-      const parked = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
+      const parked = await markWith(page, 'lid-on');
       is(parked === 6, 'L10 the marker parks on 6');
-      await clickFoot(page, 'Another lid');
-      const voided = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
+      await clickFoot(page, ADD);
+      const voided = await markWith(page, 'lid-on');
       is(voided === -1, '\u2b50 L10 a third lid VOIDS the commitment \u2014 it was an answer to a different question');
 
       /* d. FOCUS SURVIVES THE RE-RENDER.
@@ -462,8 +602,8 @@ const addLids = async (page, k) => {
          the truth and then asserted the two treatments differ, which
          compared one element with itself and failed for a reason that
          had nothing to do with the tool. */
-      await page.evaluate(() => document.querySelectorAll('.lid-mark')[9].focus());
-      await page.evaluate(() => document.querySelectorAll('.lid-mark')[9].click());
+      await page.evaluate(() => { const b = Array.from(document.querySelectorAll('.lid-mark')).find((x) => x.textContent === '9'); if (b) b.focus(); });
+      await clickMark(page, 9);
       await wait(160);
       const focused = await page.evaluate(() => {
         const a = document.activeElement;
@@ -473,6 +613,11 @@ const addLids = async (page, k) => {
 
       /* e. THE TWO TREATMENTS ARE VISUALLY DISTINCT, AND IN THE SAME HUE */
       await clickFoot(page, 'Lift the lids');
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
       const look = await page.evaluate(() => {
         const marks = Array.from(document.querySelectorAll('.lid-mark'));
         const mark = marks.find((b) => b.classList.contains('lid-on'));
@@ -498,9 +643,14 @@ const addLids = async (page, k) => {
          the case that needs its own rule: a filled pill with rings the
          same colour as the fill would be invisible, so they invert. */
       await clickFoot(page, 'Lids back on');
-      await page.evaluate(() => document.querySelectorAll('.lid-mark')[4].click());
+      await clickMark(page, 4);
       await wait(120);
       await clickFoot(page, 'Lift the lids');
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
       const same = await page.evaluate(() => {
         const both = document.querySelectorAll('.lid-mark.lid-on.lid-truth');
         if (both.length !== 1) return { n: both.length };
@@ -526,7 +676,11 @@ const addLids = async (page, k) => {
          height budget forbids it) and 840/1040 above, so the wide cells are
          where the type ramp and the bigger table have to prove they fit. */
       for (const w of [320, 360, 412, 768, 1024, 1366, 1400, 1800, 2400, 2560]) {
-        for (const k of [1, 2, 3, 4]) {
+        /* ⚠ 0 REPLACES 1. The sweep must cover the OPENING FRAME — an
+           empty table with two ghosts on it, which is the state the
+           operator actually complained about — and must not ask for a
+           one-lid state the tool no longer has. */
+        for (const k of [0, 2, 3, 4]) {
           for (const lifted of [false, true]) CASES.push([w, k, lifted]);
         }
       }
@@ -539,10 +693,17 @@ const addLids = async (page, k) => {
            states, because the lifted table grows a reveal block */
         for (let i = 0; i < T.MAX_LIDS; i++) await clickFoot(page, 'Take one away', true);
         await setTotal(page, 30);             /* the widest strip and the densest table */
-        await addLids(page, k);
-        await page.evaluate(() => { const m = document.querySelectorAll('.lid-mark')[12]; if (m && !m.disabled) m.click(); });
-        await wait(80);
-        if (lifted) await clickFoot(page, 'Lift the lids');
+        if (k >= 2) {
+          await addLids(page, k);
+          await clickMark(page, 6);
+          await wait(80);
+          if (lifted) await clickFoot(page, 'Lift the lids');
+      /* ⚠ WAIT OUT THE LIFT BEFORE MEASURING OR SHOOTING. The reveal is a
+         380ms animation with the counters arriving at 160ms; a screenshot
+         taken inside that window shows a half-faded lid over half-faded
+         counters and reads as a defect that is not there. */
+      await wait(560);
+        }
         await wait(140);
 
         const m = await page.evaluate(() => {
@@ -652,7 +813,7 @@ const addLids = async (page, k) => {
         checked++;
         await page.close();
       }
-      is(true, 'L8 ⭐ the sweep: ' + checked + ' configurations (6 widths x 4 lid counts x both states)');
+      is(true, 'L8 ⭐ the sweep: ' + checked + ' configurations (' + new Set(CASES.map((c) => c[0])).size + ' widths x ' + new Set(CASES.map((c) => c[1])).size + ' lid counts x both states)');
       is(worstCtrl >= 43.5, 'L8 smallest control across the whole sweep: ' + worstCtrl.toFixed(1) + 'px (floor 44)');
       is(worstCellWide >= 33.5, 'L8 smallest counter at 768px and above: ' + worstCellWide.toFixed(1) + 'px (floor 34)');
       is(worstCell >= 12, 'L8 smallest counter anywhere, phones included: ' + worstCell.toFixed(1) + 'px (floor 12)');

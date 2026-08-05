@@ -83,9 +83,9 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     const seen = await page.evaluate(() => ({
       title: (document.querySelector('.lcs-title') || {}).textContent || '',
       hint: (document.querySelector('.lid-hint') || {}).textContent || '',
-      foot: Array.from(document.querySelectorAll('.lid-foot .lid-chip')).map((b) => b.textContent),
+      foot: Array.from(document.querySelectorAll('.lid-foot .lid-chip:not(.lid-step)')).map((b) => b.textContent),
       marks: Array.from(document.querySelectorAll('.lid-mark')).map((b) => b.getAttribute('aria-label')),
-      barLabel: (document.querySelector('.lid-bar .lid-group') || {}).getAttribute && document.querySelector('.lid-bar .lid-group').getAttribute('aria-label'),
+      barLabel: (document.querySelector('.lid-total') || {}).getAttribute && document.querySelector('.lid-total').getAttribute('aria-label'),
       stripLabel: (document.querySelector('.lid-strip') || {}).getAttribute && document.querySelector('.lid-strip').getAttribute('aria-label'),
       body: document.querySelector('.lid-wrap').textContent
     }));
@@ -97,12 +97,21 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     console.log('        strip   : ' + seen.stripLabel);
 
     /* S1 — verbatim, never a wildcard */
-    is(seen.hint === S('hintPlace'), loc + ': the opening hint is "' + seen.hint + '", expected "' + S('hintPlace') + '"');
-    const wantFoot = [S('addLid'), S('takeLid'), S('liftBtn'), S('newSetBtn'), S('printBtn')];
+    /* ⚠ TWO RUNGS ON THE OPENING FRAME. The move comes first, because a
+   teacher scanning for five seconds needs the verb in the first three
+   words; the rule is the second line because it is what makes the NEXT
+   five seconds make sense. The old single-rung form said neither what a
+   lid does nor how to put one down. */
+    is(seen.hint.indexOf(S('hintPlace')) === 0, loc + ': the opening hint is "' + seen.hint + '", expected it to open with "' + S('hintPlace') + '"');
+    is(seen.hint.indexOf(S('hintRule')) > 0, loc + ': the opening frame never states the rule that makes the puzzle work');
+    /* ⚠ firstLid, NOT addLid. With nothing on the table "Another lid" is a
+   lie — another than what? — so the chip is named for the state it is
+   actually in, and it lays a PAIR when pressed. */
+    const wantFoot = [S('firstLid'), S('takeLid'), S('liftBtn'), S('newSetBtn'), S('printBtn')];
     is(seen.foot.join('|') === wantFoot.join('|'), loc + ': controls are [' + seen.foot.join(', ') + '], expected [' + wantFoot.join(', ') + ']');
     is(seen.barLabel === S('totalLabel'), loc + ': the total group is labelled "' + seen.barLabel + '"');
     is(seen.stripLabel === S('markStrip'), loc + ': the marker strip is labelled "' + seen.stripLabel + '"');
-    is(seen.marks[3] === S('markAria').replace('{n}', '3'), loc + ': a marker reads "' + seen.marks[3] + '"');
+    is(seen.marks[3] === S('markAria').replace('{n}', '4'), loc + ': the fourth numeral reads "' + seen.marks[3] + '"');
 
     /* S2 — no English left where another locale was authored */
     if (loc !== 'en') {
@@ -126,8 +135,11 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       await wait(110);
       return ok;
     };
-    is(await click(S('addLid')), loc + ': the first lid could not be put down');
-    is(await click(S('addLid')), loc + ': the second lid could not be put down');
+        /* ⚠ ON AN EMPTY TABLE THE CHIP READS firstLid, AND IT LAYS A PAIR.
+   "Another lid" is a lie there — another than what? — and one lid took
+   floor(n/1) = n, swallowing every counter one click from the opening
+   frame. So the reachable set is {0,2,3,4}. */
+    is(await click(S('firstLid')), loc + ': the pair of lids could not be put down');
 
     /* ⭐ S6 — hintMark, in every language, for the first time. It was
        authored in all eleven locales and never once referenced, so the
@@ -141,20 +153,23 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     console.log('        strip is: ' + rung.join(' / '));
     /* and the strip is only now alive */
     const live = await page.evaluate(() =>
-      Array.from(document.querySelectorAll('.lid-mark')).every((b) => !b.disabled));
+      Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.getAttribute('aria-disabled') !== 'true'));
     is(live, loc + ': the strip did not come alive when the second lid went down');
 
-    await page.evaluate(() => { const m = document.querySelectorAll('.lid-mark')[5]; if (m) m.click(); });
+    /* ⚠ BY VALUE, NOT BY INDEX. The strip ran 0..12 so index and numeral
+   coincided by accident; it now runs 1..stripTop(n), which is sized to
+   the table, so every index-addressed assertion shifted by one. */
+    await page.evaluate(() => { const m = Array.from(document.querySelectorAll('.lid-mark')).find((x) => x.textContent === '9'); if (m) m.click(); });
     await wait(110);
     is(await click(S('liftBtn')), loc + ': the lids could not be lifted');
     const after = await page.evaluate(() => ({
-      truth: Array.from(document.querySelectorAll('.lid-mark')).findIndex((x) => x.classList.contains('lid-truth')),
+      truth: (function () { const b = document.querySelector('.lid-mark.lid-truth'); return b ? parseInt(b.textContent, 10) : -1; }()),
       again: Array.from(document.querySelectorAll('.lid-foot .lid-chip')).map((b) => b.textContent),
-      marked: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on'))
+      marked: (function () { const b = document.querySelector('.lid-mark.lid-on'); return b ? parseInt(b.textContent, 10) : -1; }())
     }));
     is(after.truth === 6, loc + ': the truth lands on numeral ' + after.truth + ' on the same strip, expected 6');
-    is(after.again[2] === S('againBtn'), loc + ': the lift control now reads "' + after.again[2] + '", expected "' + S('againBtn') + '"');
-    is(after.marked === 5, loc + ': the committed marker did not survive the lift');
+    is(after.again.indexOf(S('againBtn')) >= 0, loc + ': the lift control does not read "' + S('againBtn') + '" after the lift (saw ' + after.again.join(' | ') + ')');
+    is(after.marked === 9, loc + ': the committed marker (9) did not survive the lift, saw ' + after.marked);
 
     /* S5 — the gate, two nodes, pointing at this locale's pricing.
        ⚠ THROUGH THE PRINT CONTROL, not a locked total. Once lids are on

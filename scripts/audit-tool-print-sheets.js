@@ -61,7 +61,28 @@ const TOOLS = [
   { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' },
   /* the three found printing the whole web page, now with sheets */
   { key: 'arrow-strip', p: 'arw', apparatus: '.arw-mat' },
-  { key: 'lids', p: 'lid', apparatus: '.lid-table' },
+  /* ⚠ lids PRINTS A DEDICATED TWO-PAGE SHEET NOW, and it is DOUBLE-LOCKED.
+     The shipped build gated only the chip while the @media print block was
+     unconditional, so Ctrl+P — which no chip guards — handed a free
+     visitor the Teacher-plan sheet. The subtree is now ABSENT unless
+     entitled AND every print rule is scoped `body.lid-paid`, which means a
+     probe that does not force the tier measures an un-entitled page and
+     reports the chrome as still showing. The gate caught exactly that
+     when the scoping landed, which is the gate working. */
+  {
+    key: 'lids', p: 'lid', apparatus: '.lid-sheet', chrome: '.lid-foot',
+    prime: function () {
+      var T = window.Lids;
+      if (!T) return;
+      T.premium = true;
+      T.premiumKnown = true;
+      document.body.classList.add('lid-paid');
+      /* a sheet with something on it: a table, a pair of lids, a lift */
+      var s = T.addLid(T.st, 320, 300);
+      if (s) T.st = s;
+      T.render();
+    }
+  },
   /* ⚠ part-whole-frame prints TWO DEDICATED PAGES — a blank mat for real
      counters and the record of what the class found — and BOTH are
      entitlement-gated in the DOM, not merely behind the chip: a free

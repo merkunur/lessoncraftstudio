@@ -41,16 +41,29 @@ const FILE = path.join(ROOT, 'mini tools', 'lids.js');
 const DRY = process.argv.indexOf('--dry-run') > -1;
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 
-/* the 22 keys, in the order they appear in the file */
+/* the 36 keys, in the order they appear in the file.
+   ⚠ `counterAria` was DELETED in the 2026-08 rebuild. Up to thirty
+   counters each carried aria-label="a counter", which is simultaneously
+   noise and not a real name (an aria-label on a role-less <div> is not
+   reliably exposed at all). The count moved onto the table's own group
+   label as countersAria/lidsAria/looseAria, joined by code as
+   `label: value` so no locale ever has to agree a plural with a number. */
 const ORDER = [
   'title', 'instruction',
-  'hintPlace', 'hintShare', 'hintMark', 'hintLift', 'hintLeftover',
-  'addLid', 'takeLid', 'liftBtn', 'againBtn', 'newSetBtn', 'printBtn',
+  'hintPlace', 'hintRule', 'hintShare', 'hintMark', 'hintLift', 'hintLeftover', 'hintExact', 'hintAgain',
+  'firstLid', 'addLid', 'takeLid', 'liftBtn', 'againBtn', 'newSetBtn', 'printBtn',
+  'refuseTotal', 'refuseLifted', 'refuseMax',
   'gateLine', 'unlock',
-  'totalLabel', 'tableLabel', 'lidAria', 'counterAria', 'markStrip', 'markAria', 'revealAria'
+  'totalLabel', 'tableLabel', 'lidAria', 'countersAria', 'lidsAria', 'looseAria',
+  'markStrip', 'markAria', 'revealAria', 'recordAria',
+  'setGhosts', 'setStrip',
+  'sheetTask', 'sheetRecordHead'
 ];
 /* blank lines in the emitted block, so it stays readable */
-const BREAK_BEFORE = { hintPlace: 1, addLid: 1, gateLine: 1, totalLabel: 1 };
+const BREAK_BEFORE = {
+  hintPlace: 1, firstLid: 1, refuseTotal: 1, gateLine: 1,
+  totalLabel: 1, setGhosts: 1, sheetTask: 1
+};
 
 const P = require('./_lids-strings.js');
 

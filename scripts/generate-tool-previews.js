@@ -245,10 +245,26 @@ const SEEDS = {
   'unit-handle': [
     { sel: '.unh-foot .unh-chip', nth: [2, 2] },
   ],
+  /* ⚠ RE-SEEDED FOR THE 2026-08 REBUILD, and every step changed.
+     There is no `.lid-bar` any more — one card carried a SETUP scale of
+     six numerals and an ANSWER scale four hundred pixels below it, with
+     nothing telling a teacher which row the class should point at, so the
+     total became a stepper in the foot. And the placing chip lays a PAIR
+     on the first press, because one lid took the whole total and swallowed
+     every counter. So: step the total up to 20 (eight presses of +), one
+     press to lay the pair, one more for the third lid, park the marker,
+     lift. Foot order: place / take one away / lift / another table /
+     print, then the stepper's − and +.
+     ⚠ SIXTEEN, NOT TWENTY. Twenty leaves a handsome remainder of two, but
+     the strip is state-sized now — stripTop(20) is 15 — so it wrapped to
+     a lone "15" on a second row and the card ended in a ragged edge.
+     Sixteen shares five three ways with ONE left over, and stripTop(16)
+     is 10, which fits one clean row. The remainder is still there, which
+     is the half of the idea the card must not lose. */
   'lids': [
-    { sel: '.lid-bar .lid-chip', nth: 3 },
-    { sel: '.lid-foot .lid-chip', nth: [0, 0, 0] },
-    { sel: '.lid-mark', nth: 9 },
+    { sel: '.lid-total [data-fk="total+"]', nth: [0, 0, 0, 0] },
+    { sel: '.lid-foot .lid-chip', nth: [0, 0] },
+    { sel: '.lid-mark', nth: 7 },
     { sel: '.lid-foot .lid-chip', nth: 2 },
   ],
   /* ⭐ 147, and every part of that is a decision.

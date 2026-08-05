@@ -43,15 +43,31 @@ const M = [
   ['an off-by-one puts a counter that does not exist under a lid', 'out[lid].push(rows[r].j); break;', 'out[lid].push(rows[r].j + 1); break;'],
 
   /* ---- V15 THE LID HOLDS WHAT IT HIDES ---- */
-  ['the lid goes back to a fixed size', 'return Math.round(Math.max(this.MIN_R, r + this.C_R));', 'return 132;'],
-  ['the lid is drawn smaller than its contents', 'return Math.round(Math.max(this.MIN_R, r + this.C_R));', 'return Math.round(Math.max(this.MIN_R, r));'],
-  ['the packing holds fewer than the share', 'while (out.length < m) {', 'while (out.length < m - 1) {'],
-  ['the rings crowd until the counters overlap', 'rad = ring * this.RING * this.C_R;', 'rad = ring * 1.2 * this.C_R;'],
-  ['the packing loses its centre counter', "out.push({ dx: 0, dy: 0 });", ''],
-  ['the lid is padded rather than measured', 'return Math.round(Math.max(this.MIN_R, r + this.C_R));', 'return Math.round(Math.max(this.MIN_R, r + this.C_R) + 90);'],
-  ['the rings start one out, leaving a gap in the middle', 'out.push({ dx: 0, dy: 0 });', 'out.push({ dx: this.C_R, dy: 0 });'],
+  ['the lid goes back to a fixed size', 'return Math.ceil(Math.max(this.MIN_R, this._reach(this.packing(m)) + this.C_R) - 1e-9);', 'return 132;'],
+  ['the lid is drawn smaller than its contents', 'return Math.ceil(Math.max(this.MIN_R, this._reach(this.packing(m)) + this.C_R) - 1e-9);', 'return Math.ceil(Math.max(this.MIN_R, this._reach(this.packing(m))) - 1e-9);'],
+  ['the packing holds fewer than the share', 'take(this._layout([m]));', 'take(this._layout([m - 1]));'],
+  ['the rings crowd until the counters overlap', 'var need = cnt >= 2 ? (this.C_R) / Math.sin(Math.PI / cnt) : 0;', 'var need = cnt >= 2 ? (this.C_R) / Math.sin(Math.PI / cnt) / 2 : 0;'],
+  /* ⚠ RE-POINTED, NOT DROPPED. The centre used to be its own push; it is
+     a RING OF ONE now, because a mutation of the old centre flag turned
+     out to be INERT — the search reached the same shape through
+     counts = [1, 6] either way, which is the harness telling you the flag
+     was dead code. The law that survives is the fallback: if no
+     arrangement fits, the packing must still hold something. */
+  /* ⚠ RE-POINTED TWICE, AND BOTH TIMES THE HARNESS WAS RIGHT. It first
+     mutated a "centre" flag that turned out to be redundant (a ring of one
+     IS a centre), then a fallback the search can never reach. An inert
+     mutation is not a gap in the gate — it is the harness naming dead
+     code, and the answer is to delete the code and point the needle at a
+     path that is actually taken. The memo is taken on every repeat call,
+     and render() and the gates both call packing() in loops. */
+  ['the packing memo hands back the wrong pile on a repeat call',
+    'if (this._packCache[m]) return this._packCache[m];', 'if (this._packCache[m]) return [];'],
+  ['the lid is padded rather than measured', 'return Math.ceil(Math.max(this.MIN_R, this._reach(this.packing(m)) + this.C_R) - 1e-9);', 'return Math.ceil(Math.max(this.MIN_R, this._reach(this.packing(m)) + this.C_R) - 1e-9) + 90;'],
+  /* the middle counter is a RING OF ONE at radius zero — there is no
+     separate centre flag, because a mutation proved one redundant */
+  ['the middle counter is pushed off the centre', 'var need = cnt >= 2 ? (this.C_R) / Math.sin(Math.PI / cnt) : 0;', 'var need = cnt >= 2 ? (this.C_R) / Math.sin(Math.PI / cnt) : this.C_R;'],
   ['the lift scatters the counters back instead of seating them', 'var pack = this.packing(this.share(s));', 'var pack = [];'],
-  ['"Another lid" marches them into a heap again', 'var p = self._farPoint(self.st);\n      var next = self.addLid(self.st, p.cx, p.cy);', 'var k = self.st.lids.length;\n      var next = self.addLid(self.st, Math.round(self.W / (k + 2) * (k + 1)), Math.round(self.H / 2));'],
+  ['"Another lid" marches them into a heap again', 'var p = self._farPoint(self.st);\n        if (!p) return;\n        self._placeFrom(p.cx, p.cy);', 'var k = self.st.lids.length;\n      var next = self.addLid(self.st, Math.round(self.W / (k + 2) * (k + 1)), Math.round(self.H / 2));'],
 
   /* ---- V16 THE TRUTH LANDS ON THE STRIP ---- */
   ['the truth is marked on the wrong numeral', 'var truth = s.lifted ? this.revealed(s).share : null;', 'var truth = s.lifted ? this.revealed(s).share + 1 : null;'],
@@ -64,17 +80,17 @@ const M = [
   ['the old dot row comes back', 'return strip;\n  },', "var z = api.el('div', 'lid-rcell'); strip.appendChild(z);\n    return strip;\n  },"],
 
   /* ---- the strip must be inert until there is a question ---- */
-  ['the strip is live before any lid is down', 'b.disabled = !!s.lifted || s.lids.length < 2;', 'b.disabled = !!s.lifted;'],
-  ['the model accepts a marker with no question asked', 'if (s.lifted) return null;\n    if (s.lids.length < 2) return null;', 'if (s.lifted) return null;'],
+  ['the strip is live before any lid is down', "if (s.lids.length < self.MIN_LIDS) self._refuse(b, 'hintPlace');", 'b.disabled = !!s.lifted;'],
+  ['the model accepts a marker with no question asked', 'if (s.lids.length < this.MIN_LIDS) return null;\n    var g = Math.round(Number(v));', 'var g = Math.round(Number(v));'],
 
   /* ---- changing the question must void the commitment ---- */
-  ['the guess survives a new lid', "s.lids.push({ cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) });\n    s.guess = null;", 's.lids.push({ cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) });'],
+  ['the guess survives a new lid', "s.lids.push(q);\n    }\n    s.guess = null;", 's.lids.push(q);\n    }'],
   ['the guess survives a removed lid', 's.lids.pop();\n    s.guess = null;', 's.lids.pop();'],
-  ['sliding a lid wrongly voids the commitment', 's.lids[i] = { cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) };', 's.lids[i] = { cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) };\n    s.guess = null;'],
+  ['sliding a lid wrongly voids the commitment', 's.lids[i] = p;', 's.lids[i] = p;\n    s.guess = null;'],
 
   /* ---- V17 NO DEAD STRINGS ---- */
   ['hintMark goes back to being a dead string', "else if (s.guess === null) {", 'else if (s.guess === null && false) {'],
-  ['the focus restore is dropped again', 'if (again) { try { again.focus(); } catch (_) {} }', ''],
+  ['the focus restore is dropped again', 'if (el) { try { el.focus(); } catch (_) {} }', ''],
 
   /* ---- V1 CONSERVATION ---- */
   ['hidden forgets to multiply by the lid count', 'return s.lids.length * this.share(s);', 'return this.share(s);'],
@@ -84,15 +100,15 @@ const M = [
   /* ---- V4 UNREACHABILITY ---- */
   ['the reveal no longer waits for the lift', "if (!s.lifted) throw new Error('the lids are still down');", ''],
   ['a lifted table can be lifted again', 'lift: function (st) {\n    var s = this._clone(st);\n    if (s.lifted) return null;', 'lift: function (st) {\n    var s = this._clone(st);'],
-  ['an empty table can be lifted', 'if (s.lids.length < 1) return null;\n    s.lifted = true;', 's.lifted = true;'],
+  ['an empty table can be lifted', 'if (s.lids.length < this.MIN_LIDS) return null;\n    s.lifted = true;', 's.lifted = true;'],
 
   /* ---- V6 THE COMMITTED PRIOR ---- */
-  ['the marker moves after the lids are up', 'if (s.lifted) return null;\n    if (s.lids.length < 2) return null;', 'if (s.lids.length < 2) return null;'],
-  ['a refused guess carries the old state forward as a success', 'if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return null;', 'if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return s;'],
+  ['the marker moves after the lids are up', 'if (s.lifted) return null;\n    if (s.lids.length < this.MIN_LIDS) return null;\n    var g', 'if (s.lids.length < this.MIN_LIDS) return null;\n    var g'],
+  ['a refused guess carries the old state forward as a success', 'if (!isFinite(g) || g < 1 || g > this.stripTop(s)) return null;', 'if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return s;'],
   ['tapping the same numeral no longer clears the marker', 's.guess = (s.guess === g) ? null : g;', 's.guess = g;'],
 
   /* ---- V10 DETERMINISM ---- */
-  ['the scatter becomes unseeded', 'h = this._mix(s.seed, i);', 'h = Math.floor(Math.random() * 1e9);'],
+  ['the scatter becomes unseeded', 'h = this._mix(s.seed, i * 97 + k);', 'h = Math.floor(Math.random() * 1e9);'],
   ['the distance ranking depends on sort stability', 'return a.d - b.d || a.i - b.i;', 'return a.d - b.d;'],
   ['the regret ordering depends on sort stability', 'return b.regret - a.regret || a.j - b.j;', 'return b.regret - a.regret;'],
 
@@ -106,14 +122,14 @@ const M = [
 
   /* ---- V8 / V9 THE LAW AND THE LOCALES ---- */
   ['a numeral is printed onto the table', "var pts = this.scatter(s);\n    var vis =", "var pts = this.scatter(s);\n    box.textContent = String(this.share(s));\n    var vis ="],
-  ['a verdict word reaches a German string', 'de: "Legt zwei Deckel hin."', 'de: "Legt zwei Deckel hin. Richtig!"'],
-  ['a verdict word reaches a Finnish string', 'fi: "Nyt voitte nostaa kannet."', 'fi: "Nyt voitte nostaa kannet. Oikein!"'],
+  ['a verdict word reaches a German string', 'de: "Zieht einen Deckel auf den Tisch – und dann noch einen."', 'de: "Legt zwei Deckel hin. Richtig!"'],
+  ['a verdict word reaches a Finnish string', 'fi: "Nostakaa nyt kannet."', 'fi: "Nyt voitte nostaa kannet. Oikein!"'],
   ['the brand word reaches a string', 'en: "The Lids"', 'en: "The Splat Lids"'],
   ['an invisible character is pasted into a string', 'sv: "Lyft på locken"', 'sv: "Lyft​ på locken"'],
 
   /* ---- V11 LABELS ARE TRUE ---- */
-  ['the lift button is wired backwards', 'self.st.lifted ? self.lower(self.st) : self.lift(self.st)', 'self.st.lifted ? self.lift(self.st) : self.lower(self.st)'],
-  ['the "another lid" button takes one away', "api.t('addLid')", "api.t('takeLid')"],
+  ['the lift button is wired backwards', 'was.lifted ? self.lower(was) : self.lift(was)', 'self.st.lifted ? self.lift(self.st) : self.lower(self.st)'],
+  ['the "another lid" button takes one away', "s.lids.length ? api.t('addLid') : api.t('firstLid')", "api.t('takeLid')"],
 
   /* ---- V7 NO VERDICT ---- */
   ['the tool starts marking the guess', 's.lifted = true;\n    return s;', 's.lifted = true;\n    s.correct = (s.guess === this.share(s));\n    return s;'],
@@ -126,7 +142,48 @@ const M = [
   /* ---- V13 THE TABLE BOOK ---- */
   ['the offline fallback degrades to nothing', "version: 1, freeMax: 8, premiumMax: 76,\n    setups: [", "version: 1, freeMax: 8, premiumMax: 76,\n    setups: [].concat([], ["],
   ['a paid setup leaks into the offline fallback', "{ id: 't-008', n: 20, k: 3, free: true }", "{ id: 't-008', n: 20, k: 3, free: false }"],
-  ['entitlement stops filtering the book', 'if (all[i].free || this.premium) out.push(all[i]);', 'out.push(all[i]);']
+  ['entitlement stops filtering the book', 'if (all[i].free || this.premium) out.push(all[i]);', 'out.push(all[i]);'],
+  /* ================= the 2026-08 rebuild: laws that did not exist =========
+     Each of these guards something the shipped tool got wrong, and each is
+     here because a needle that is DROPPED shrinks the denominator while the
+     run still reports "every mutation killed". ==================== */
+  ['the scatter loses its separation constraint — counters overlap again',
+    'if (gap >= this.SEP) break;', 'if (gap >= 0) break;'],
+  ['the separation floor is quietly lowered below one counter',
+    'SEP: 76,', 'SEP: 20,'],
+  ['placing from an empty table lays ONE lid again — it would swallow the table',
+    'var pairing = s.lids.length === 0;', 'var pairing = false;'],
+  ['taking one from two leaves a single lid behind',
+    'if (s.lids.length === 1) s.lids.pop();', 'if (false) s.lids.pop();'],
+  ['the strip goes back to a fixed top that cannot hold the share',
+    'return 5 * (Math.floor(half / 5) + 1);', 'return 12;'],
+  ['the strip tops out ON the answer at two lids',
+    'return 5 * (Math.floor(half / 5) + 1);', 'return half;'],
+  ['the strip range starts leaking the lid count',
+    'var half = Math.floor(s.n / 2);', 'var half = Math.floor(s.n / Math.max(2, s.lids.length));'],
+  ['the print sheet starts reading the reveal',
+    'var k = Math.max(this.MIN_LIDS, s.lids.length);', 'var k = s.lifted ? this.MIN_LIDS : s.lids.length;'],
+  ['the printable is built for a free visitor too',
+    "if (!this.premium) { document.body.classList.remove('lid-paid'); return; }",
+    "if (false) { document.body.classList.remove('lid-paid'); return; }"],
+  ['a print rule stops being scoped to the paid class',
+    "'body.lid-paid .lid-wrap{display:none !important;}'", "'.lid-wrap{display:none !important;}'"],
+  ['a refusal stops naming its own reason',
+    "btn.addEventListener('click', function () { self._say(key); });",
+    "btn.addEventListener('click', function () { self._say(null); });"],
+  ['the refusal goes back to a silent disabled button',
+    "btn.setAttribute('aria-disabled', 'true');", 'btn.disabled = true;'],
+  ['the exact-share rung goes silent again',
+    "line(this.leftover(s) > 0 ? 'hintLeftover' : 'hintExact');",
+    "if (this.leftover(s) > 0) line('hintLeftover');"],
+  ['the counters go back into the accessibility tree one by one',
+    "c.setAttribute('aria-hidden', 'true');", "c.setAttribute('aria-label', 'a counter');"],
+  ['the table stops reporting its counts',
+    "api.t('countersAria') + ': ' + s.n + ', ' +", "'' +"],
+  ['a lid can be dragged half off the table again',
+    'var lo = Math.min(r, this.W / 2), hi = Math.max(this.W - r, this.W / 2);', 'var lo = 0, hi = this.W;'],
+  ['destroy leaks the wide-viewport class again',
+    "document.body.classList.remove('lid-wide', 'lid-paid');", 'void 0;']
 ];
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'lids-mut-'));

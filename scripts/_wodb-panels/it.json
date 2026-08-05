@@ -52,5 +52,13 @@
   "printChildLine": "Ho scelto ____________ .  È l’unico che",
   "printOthers": "Un compagno o una compagna ha scelto ____________ .  Il suo motivo:",
   "printMakeOwn": "Crea un quartetto in cui ogni angolo può essere l’intruso.",
-  "gatePrint": "Le schede da stampare fanno parte di Premium. Il quartetto della settimana resta sempre gratuito."
+  "gatePrint": "Le schede da stampare fanno parte di Premium. Il quartetto della settimana resta sempre gratuito.",
+  "oneDot": "1 punto",
+  "rotated": "in un’altra posizione",
+  "fillSolid": "a tinta unita",
+  "sizeMedium": "di media grandezza",
+  "sizeLarge": "in grande",
+  "arr_rowWrapped": "su due file",
+  "turnedFull": "Un giro completo — le quattro sono tornate al punto di partenza.",
+  "endOfMine": "Questo era l’ultimo dei tuoi quartetti: {n} in tutto."
 }

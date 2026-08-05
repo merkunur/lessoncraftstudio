@@ -1,7 +1,7 @@
 {
   "doctrine": "Four things — and every answer can be right.",
   "invite": "Tap the one you would pick, and tell us why.",
-  "stemPrompt": "Tell us why. Tap a speaker to hear a sentence starter.",
+  "stemPrompt": "Tell us why. Tap an ear to hear a sentence starter.",
   "nextGrid": "Next grid",
   "prevGrid": "Previous grid",
   "turnIt": "Turn the corners",
@@ -52,5 +52,13 @@
   "printChildLine": "It’s the only one that",
   "printOthers": "Someone else chose ____________. They said it was the only one that",
   "printMakeOwn": "Make your own grid",
-  "gatePrint": "The printable sheet is part of Premium. Everything on the board stays free."
+  "gatePrint": "The printable sheet is part of Premium. Everything on the board stays free.",
+  "oneDot": "1 dot",
+  "rotated": "turned",
+  "fillSolid": "filled in",
+  "sizeMedium": "medium",
+  "sizeLarge": "large",
+  "arr_rowWrapped": "in two rows",
+  "turnedFull": "All the way round — the four are back where they started.",
+  "endOfMine": "That was the last of your own grids — {n} in all."
 }

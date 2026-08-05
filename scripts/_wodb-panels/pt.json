@@ -1,7 +1,7 @@
 {
   "doctrine": "Quatro coisas — e toda resposta pode estar certa.",
   "invite": "Toque na sua e conte para a gente o porquê.",
-  "stemPrompt": "Agora conte o porquê. Toque no alto-falante para ouvir um começo de frase.",
+  "stemPrompt": "Agora conte o porquê. Toque na orelha para ouvir um começo de frase.",
   "nextGrid": "Próxima cartela",
   "prevGrid": "Cartela anterior",
   "turnIt": "Girar a cartela",
@@ -52,5 +52,13 @@
   "printChildLine": "É o único que ______________________________",
   "printOthers": "Alguém da turma escolheu ____________ . O motivo foi:",
   "printMakeOwn": "Monte uma cartela em que cada canto possa ser o diferente.",
-  "gatePrint": "As folhas para imprimir fazem parte do Premium. A cartela da semana é sempre gratuita."
+  "gatePrint": "As folhas para imprimir fazem parte do Premium. A cartela da semana é sempre gratuita.",
+  "oneDot": "1 ponto",
+  "rotated": "em outra posição",
+  "fillSolid": "com o interior pintado",
+  "sizeMedium": "de tamanho médio",
+  "sizeLarge": "de tamanho grande",
+  "arr_rowWrapped": "em duas filas",
+  "turnedFull": "Uma volta completa — as quatro coisas voltaram para onde começaram.",
+  "endOfMine": "Fim das suas cartelas. Ao todo: {n}."
 }

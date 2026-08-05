@@ -52,5 +52,13 @@
   "printChildLine": "Minä valitsin: ____________ . Se on ainoa, joka",
   "printOthers": "Joku toinen valitsi: ____________ . Hänen perustelunsa:",
   "printMakeOwn": "Tee oma ruudukko, jossa jokainen voi olla se, joka ei kuulu joukkoon.",
-  "gatePrint": "Tulostettavat monisteet kuuluvat Premiumiin. Viikon ruudukko on aina ilmainen."
+  "gatePrint": "Tulostettavat monisteet kuuluvat Premiumiin. Viikon ruudukko on aina ilmainen.",
+  "oneDot": "1 piste",
+  "rotated": "käännetty",
+  "fillSolid": "väritetty sisältä",
+  "sizeMedium": "keskikokoinen",
+  "sizeLarge": "iso",
+  "arr_rowWrapped": "kahdessa rivissä",
+  "turnedFull": "Täysi kierros — kaikki neljä ovat taas samoissa kulmissa kuin alussa.",
+  "endOfMine": "Tämä oli viimeinen omista ruudukoistasi, yhteensä {n}."
 }

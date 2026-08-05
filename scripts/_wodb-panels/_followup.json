@@ -1,0 +1,119 @@
+{
+  "en": {
+    "oneDot": "1 dot",
+    "rotated": "turned",
+    "fillSolid": "filled in",
+    "sizeMedium": "medium",
+    "sizeLarge": "large",
+    "arr_rowWrapped": "in two rows",
+    "turnedFull": "All the way round — the four are back where they started.",
+    "endOfMine": "That was the last of your own grids — {n} in all.",
+    "stemPrompt": "Tell us why. Tap an ear to hear a sentence starter."
+  },
+  "de": {
+    "oneDot": "1 Punkt",
+    "nDots": "{n} Punkte",
+    "rotated": "gedreht",
+    "fillSolid": "ausgemalt",
+    "sizeMedium": "mittelgroß",
+    "sizeLarge": "groß",
+    "arr_rowWrapped": "in zwei Reihen",
+    "turnedFull": "Einmal ganz herum — die vier sind wieder da, wo sie angefangen haben.",
+    "endOfMine": "Das waren alle deine eigenen Rätsel — insgesamt {n}.",
+    "stemPrompt": "Erzähl uns, warum. Tippe auf das Ohr, dann hörst du einen Satzanfang."
+  },
+  "fr": {
+    "oneDot": "1 point",
+    "rotated": "dans un autre sens",
+    "fillSolid": "tout en couleur",
+    "sizeMedium": "en taille moyenne",
+    "sizeLarge": "en plus grand",
+    "arr_rowWrapped": "sur deux lignes",
+    "turnedFull": "Un tour complet — les quatre choses ont retrouvé leur place de départ.",
+    "endOfMine": "C’est la dernière de tes propres grilles ({n} en tout)."
+  },
+  "it": {
+    "oneDot": "1 punto",
+    "rotated": "in un’altra posizione",
+    "fillSolid": "a tinta unita",
+    "sizeMedium": "di media grandezza",
+    "sizeLarge": "in grande",
+    "arr_rowWrapped": "su due file",
+    "turnedFull": "Un giro completo — le quattro sono tornate al punto di partenza.",
+    "endOfMine": "Questo era l’ultimo dei tuoi quartetti: {n} in tutto."
+  },
+  "es": {
+    "oneDot": "1 punto",
+    "rotated": "en otra posición",
+    "fillSolid": "con relleno",
+    "sizeMedium": "de tamaño mediano",
+    "sizeLarge": "de tamaño grande",
+    "arr_rowWrapped": "en dos filas",
+    "turnedFull": "Una vuelta completa: las cuatro están otra vez donde empezaron.",
+    "endOfMine": "Esta era la última de tus tarjetas: {n} en total."
+  },
+  "pt": {
+    "oneDot": "1 ponto",
+    "rotated": "em outra posição",
+    "fillSolid": "com o interior pintado",
+    "sizeMedium": "de tamanho médio",
+    "sizeLarge": "de tamanho grande",
+    "arr_rowWrapped": "em duas filas",
+    "turnedFull": "Uma volta completa — as quatro coisas voltaram para onde começaram.",
+    "endOfMine": "Fim das suas cartelas. Ao todo: {n}.",
+    "stemPrompt": "Agora conte o porquê. Toque na orelha para ouvir um começo de frase."
+  },
+  "nl": {
+    "oneDot": "1 stip",
+    "rotated": "gedraaid",
+    "fillSolid": "ingekleurd",
+    "sizeMedium": "middelgroot",
+    "sizeLarge": "groot",
+    "arr_rowWrapped": "op twee rijen",
+    "turnedFull": "Helemaal rond — de vier staan weer waar ze begonnen.",
+    "endOfMine": "Dit waren al je eigen denkkaarten — {n} in totaal.",
+    "stemPrompt": "Vertel waarom. Tik op het oor om een startzin te horen."
+  },
+  "sv": {
+    "oneDot": "1 prick",
+    "nDots": "{n} prickar",
+    "rotated": "åt ett annat håll",
+    "fillSolid": "med färg inuti",
+    "sizeMedium": "mellanstorlek",
+    "sizeLarge": "stor storlek",
+    "arr_rowWrapped": "på två rader",
+    "turnedFull": "Ett helt varv — de fyra är tillbaka där de började.",
+    "endOfMine": "Det var det sista av dina egna rutnät — {n} totalt."
+  },
+  "da": {
+    "oneDot": "1 prik",
+    "rotated": "drejet",
+    "fillSolid": "fyldt ud",
+    "sizeMedium": "mellemstørrelse",
+    "sizeLarge": "stor størrelse",
+    "arr_rowWrapped": "på to rækker",
+    "turnedFull": "Hele vejen rundt — de fire er tilbage, hvor de startede.",
+    "endOfMine": "Det var det sidste af dine egne sæt — {n} i alt.",
+    "stemPrompt": "Fortæl hvorfor. Tryk på øret for at høre en sætning, du kan starte med."
+  },
+  "no": {
+    "oneDot": "1 prikk",
+    "rotated": "dreid",
+    "fillSolid": "helt fylt",
+    "sizeMedium": "middels størrelse",
+    "sizeLarge": "stor størrelse",
+    "arr_rowWrapped": "på to rekker",
+    "turnedFull": "Hele veien rundt — de fire er tilbake der de startet.",
+    "endOfMine": "Det var det siste av dine egne rutenett — {n} i alt."
+  },
+  "fi": {
+    "oneDot": "1 piste",
+    "rotated": "käännetty",
+    "fillSolid": "väritetty sisältä",
+    "sizeMedium": "keskikokoinen",
+    "sizeLarge": "iso",
+    "arr_rowWrapped": "kahdessa rivissä",
+    "turnedFull": "Täysi kierros — kaikki neljä ovat taas samoissa kulmissa kuin alussa.",
+    "endOfMine": "Tämä oli viimeinen omista ruudukoistasi, yhteensä {n}."
+  }
+}

@@ -52,5 +52,13 @@
   "printChildLine": "Jeg valgte ____________ .  Den er den eneste som",
   "printOthers": "En annen valgte ____________ .  Grunnen var:",
   "printMakeOwn": "Lag et rutenett der hvert hjørne kan være det som skiller seg ut.",
-  "gatePrint": "Arkene til utskrift er en del av Premium. Ukens rutenett er alltid gratis."
+  "gatePrint": "Arkene til utskrift er en del av Premium. Ukens rutenett er alltid gratis.",
+  "oneDot": "1 prikk",
+  "rotated": "dreid",
+  "fillSolid": "helt fylt",
+  "sizeMedium": "middels størrelse",
+  "sizeLarge": "stor størrelse",
+  "arr_rowWrapped": "på to rekker",
+  "turnedFull": "Hele veien rundt — de fire er tilbake der de startet.",
+  "endOfMine": "Det var det siste av dine egne rutenett — {n} i alt."
 }

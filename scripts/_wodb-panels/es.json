@@ -52,5 +52,13 @@
   "printChildLine": "Yo elegí ____________ . Es diferente porque",
   "printOthers": "Alguien más eligió ____________ . Su razón:",
   "printMakeOwn": "Crea una tarjeta en la que cada una de las cuatro pueda ser la diferente.",
-  "gatePrint": "Las páginas para imprimir son parte de Premium. La tarjeta de la semana siempre es gratis."
+  "gatePrint": "Las páginas para imprimir son parte de Premium. La tarjeta de la semana siempre es gratis.",
+  "oneDot": "1 punto",
+  "rotated": "en otra posición",
+  "fillSolid": "con relleno",
+  "sizeMedium": "de tamaño mediano",
+  "sizeLarge": "de tamaño grande",
+  "arr_rowWrapped": "en dos filas",
+  "turnedFull": "Una vuelta completa: las cuatro están otra vez donde empezaron.",
+  "endOfMine": "Esta era la última de tus tarjetas: {n} en total."
 }

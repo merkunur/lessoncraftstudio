@@ -1,7 +1,7 @@
 {
   "doctrine": "Fire ting — og alle svar kan være gode.",
   "invite": "Tryk på den, du vælger, og fortæl os hvorfor.",
-  "stemPrompt": "Fortæl hvorfor. Tryk på højttaleren for at høre en sætning, du kan starte med.",
+  "stemPrompt": "Fortæl hvorfor. Tryk på øret for at høre en sætning, du kan starte med.",
   "nextGrid": "Næste sæt",
   "prevGrid": "Forrige sæt",
   "turnIt": "Drej sættet",
@@ -52,5 +52,13 @@
   "printChildLine": "Den er den eneste, der",
   "printOthers": "En anden valgte ____________ . Grunden var:",
   "printMakeOwn": "Lav et sæt, hvor alle fire kan være den, der skiller sig ud.",
-  "gatePrint": "Ark til print er en del af Premium. Ugens sæt er altid gratis."
+  "gatePrint": "Ark til print er en del af Premium. Ugens sæt er altid gratis.",
+  "oneDot": "1 prik",
+  "rotated": "drejet",
+  "fillSolid": "fyldt ud",
+  "sizeMedium": "mellemstørrelse",
+  "sizeLarge": "stor størrelse",
+  "arr_rowWrapped": "på to rækker",
+  "turnedFull": "Hele vejen rundt — de fire er tilbage, hvor de startede.",
+  "endOfMine": "Det var det sidste af dine egne sæt — {n} i alt."
 }

@@ -142,7 +142,24 @@ for (const o of T.LENGTH_OBJECTS) {
 
 /* ================= 3. BALANCE ==================================== */
 for (const [k, w] of Object.entries(T.WEIGHTS)) {
-  if (!Number.isInteger(w) || w < 3 || w > 12) E(`weight ${k}: ${w} not an integer in 3-12`);
+  if (!Number.isInteger(w) || w < 3 || w > 16) E(`weight ${k}: ${w} not an integer in 3-16`);
+}
+{
+  /* ⭐ EVERY WEIGHT MUST BE REACHABLE, and this was never checked.
+     The supply refuses to add past a hard cap; a manifest weight above it is
+     an object that can NEVER be balanced, so the bench would sit there
+     accepting cubes and never settle, with nothing to say why. Read the cap
+     out of the source rather than restating it, and require headroom of at
+     least one cube so an over-guess stays expressible. */
+  const src = fs.readFileSync(path.join(REPO, 'mini tools', 'measurement-bench.js'), 'utf8');
+  const m = src.match(/self\.cubes\s*>=\s*(\d+)/);
+  if (!m) E('cube supply cap not found in source — the reachability law cannot be checked');
+  else {
+    const cap = Number(m[1]);
+    const heaviest = Math.max(...Object.values(T.WEIGHTS));
+    if (heaviest > cap) E(`heaviest weight ${heaviest} exceeds the cube supply cap ${cap} — it can never balance`);
+    if (heaviest >= cap) E(`no headroom above the heaviest weight ${heaviest} (cap ${cap}) — an over-guess is inexpressible`);
+  }
 }
 {
   if (Math.abs(T.balanceAngle(8, 8)) > 1e-9) E('balanceAngle not zero at equal');
@@ -318,7 +335,7 @@ async function visibleExtentProofs() {
   console.log(`  ✓ lattice: ${T.LENGTH_OBJECTS.length} objects × ${Object.keys(T.UNITS).length} units exact; evalChain statuses + scooch proven`);
   console.log('  ✓ visible extent: ≥30 objects, dominant-axis ≥1.5, placement affine maps trim → track exactly, sharp trim re-measure clean');
   console.log('  ✓ pour: 40×300 random steps conserve volume within bounds; formatLength matches ruler conventions');
-  console.log(`  ✓ balance: derived tilt odd/monotonic/bounded; ${Object.keys(T.WEIGHTS).length} weights integer 3-12; relative sanity holds`);
+  console.log(`  ✓ balance: derived tilt odd/monotonic/bounded; ${Object.keys(T.WEIGHTS).length} weights integer 3-16, every one reachable; relative sanity holds`);
   console.log(`  ✓ art: ${Object.keys(T.META).length} images resolve vs pww-index-en + exist on disk`);
   console.log(`  ✓ ${Object.keys(S).length} strings + ${Object.keys(T.NOUNS).length} noun phrases complete (${LOCALES.length} locales); verdict/score bans hold`);
 })();

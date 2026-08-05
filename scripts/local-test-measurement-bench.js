@@ -118,7 +118,7 @@ function serve() {
         const r = b.getBoundingClientRect();
         const cs = getComputedStyle(b);
         if (r.width === 0 || cs.pointerEvents === 'none' || parseFloat(cs.opacity) < 0.05) return;
-        if ((r.width < 44 || r.height < 44) && !b.classList.contains('mb-cube')) tiny.push(`${(b.textContent || b.className).trim().slice(0, 18)} ${Math.round(r.width)}x${Math.round(r.height)}`);
+        if (r.width < 44 || r.height < 44) tiny.push(`${(b.textContent || b.className).trim().slice(0, 18)} ${Math.round(r.width)}x${Math.round(r.height)}`);
       });
       const stage = document.querySelector('.mb-stage-outer').getBoundingClientRect();
       const dock = document.querySelector('.mb-dock').getBoundingClientRect();
@@ -183,7 +183,9 @@ function serve() {
     await sleep(200);
     await page.evaluate(() => { window.__spoken = []; });
     await page.click('.mb-chip.primary');
-    await sleep(600);
+    /* ⚠ the order is COUNT -> SCOOCH -> COUNT now, so the defect line lands
+       after the as-laid count-up (budgeted <=1400ms + 260), not immediately. */
+    await sleep(1900);
     const scooch = await page.evaluate(() => ({
       spokeScooch: window.__spoken.some((s) => /snuggle/i.test(s)),
       spokeCount: window.__spoken.some((s) => /long!/i.test(s))
@@ -195,12 +197,32 @@ function serve() {
       placed: MeasurementBench.placed.length,
       chain: MeasurementBench.placed.every((x, i) => x === MeasurementBench._lenX0 + i * 45),
       spoke: window.__spoken.some((s) => /key is 4 paperclips long/i.test(s)),
-      compare: window.__spoken.some((s) => /You guessed 5 · It measured 4/.test(s)),
+      /* ⚠ was a literal match on 'You guessed 5 · It measured 4'. That English
+         broke the tool's own no-shame rule — "you" against "it" is
+         person-versus-truth — so the gate was pinning the defect in place.
+         Assert the INVARIANT instead: both numbers present, and no second
+         person anywhere in the line. */
+      /* the guess is READ FROM THE TOOL, never assumed to be 5. The seed is
+         now the previous measurement on this bench (or the range midpoint), so
+         a literal 5 pinned the gate to a constant the tool no longer has. */
+      guess: MeasurementBench.est ? MeasurementBench.est.value : null,
+      compare: (function () {
+        var g = MeasurementBench.est ? MeasurementBench.est.value : -1;
+        return window.__spoken.some(function (s) {
+          return s.indexOf('·') >= 0 &&
+            (function () { var n = (s.match(/[0-9]+/g) || []).map(Number);
+                          return n.length >= 2 && n[0] === g && n[1] === 4; })();
+        });
+      })(),
+      noSecondPerson: !window.__spoken.some(function (s) {
+        return s.indexOf('·') >= 0 && /(^|[^a-z])(you|your)([^a-z]|$)/i.test(s);
+      }),
       compareUI: !!document.querySelector('.mb-est.compared')
     }));
     ok('chain closes + counts 4 exact clips', counted.counted && counted.placed === 4 && counted.chain);
     ok('length sentence speaks', counted.spoke);
     ok('estimate juxtaposition (no verdict framing)', counted.compare && counted.compareUI);
+    ok('the comparison never addresses the child in the second person', counted.noSecondPerson);
     await page.screenshot({ path: path.join(QA, 'B-length-counted.png') });
     /* second defect run: scooch line must NOT speak again (≤1/session) */
     await page.evaluate(() => {
@@ -269,6 +291,14 @@ function serve() {
     await spy(page);
     const vessels = await page.evaluate(() => document.querySelectorAll('.mb-vessel').length);
     ok('3 vessels render', vessels === 3);
+    /* the total to conserve is READ FROM THE MODEL, not assumed. The old
+       assertion hardcoded 10 (the jug's start at the time) and so went stale
+       the moment the vessel model changed — a gate that has to be edited to
+       agree with a correct tool is measuring the wrong thing. */
+    const total0 = await page.evaluate(() => {
+      const L = MeasurementBench.levels;
+      return L.jug + L.tall + L.wide;
+    });
     /* short hold: level rises then stops on release */
     const jug = await page.evaluate(() => {
       const r = document.querySelector('.mb-vessel[data-vessel="jug"]').getBoundingClientRect();
@@ -285,7 +315,7 @@ function serve() {
     await sleep(500);
     lv = await page.evaluate(() => ({ ...MeasurementBench.levels }));
     ok('release stops the pour', Math.abs(lv.tall - frozen) < 0.01);
-    ok('volume conserved', Math.abs(lv.jug + lv.tall + lv.wide - 10) < 0.01, JSON.stringify(lv));
+    ok('volume conserved', Math.abs(lv.jug + lv.tall + lv.wide - total0) < 0.01, JSON.stringify(lv) + ' vs start ' + total0);
     /* pour to the brim: hold until auto-stop */
     await page.evaluate(() => { window.__spoken = []; });
     await page.mouse.move(jug.x, jug.y);
@@ -293,12 +323,31 @@ function serve() {
     await sleep(6200);
     await page.mouse.up();
     await sleep(1200);
-    const brim = await page.evaluate(() => ({
-      tall: MeasurementBench.levels.tall,
-      spokeFull: window.__spoken.some((s) => /full to the top/i.test(s)),
-      spokeCap: window.__spoken.some((s) => /tall beaker holds 8 cups/i.test(s))
-    }));
-    ok('brim auto-stops EXACTLY at capacity', Math.abs(brim.tall - 8) < 0.001, String(brim.tall));
+    const brim = await page.evaluate(() => {
+      const T = MeasurementBench, V = T.VESSELS.tall;
+      return {
+        tall: T.levels.tall,
+        cap: V.cap,
+        /* the honest-unit law, derived here rather than read off the tool:
+           a cup must occupy the SAME drawn area in every vessel. The shipped
+           build ranged 2383..4000 px2 per cup, a 68% spread, on a bench whose
+           subject is that a unit is one fixed amount. */
+        areaPerCup: (V.w * V.h) / V.cap,
+        jugAreaPerCup: (T.VESSELS.jug.w * T.VESSELS.jug.h) / T.VESSELS.jug.cap,
+        wideAreaPerCup: (T.VESSELS.wide.w * T.VESSELS.wide.h) / T.VESSELS.wide.cap,
+        spokeFull: window.__spoken.some((s) => /full to the top/i.test(s)),
+        /* the announced number must be the capacity — checked as a NUMBER, so
+           the assertion does not depend on the tool's own phrasing */
+        /* ⚠ built with a RegExp CONSTRUCTOR and a doubled backslash, because a
+           single '\b' in a JS string literal is the BACKSPACE character, not a
+           word boundary — the first version could never match anything. */
+        spokeCap: window.__spoken.some(function (s) { var n = (s.match(/[0-9]+/g) || []).map(Number); return n.indexOf(V.cap) >= 0 && /beaker/i.test(s); })
+      };
+    });
+    ok('brim auto-stops EXACTLY at capacity', Math.abs(brim.tall - brim.cap) < 0.001, brim.tall + ' vs cap ' + brim.cap);
+    ok('a cup is the same amount in every vessel',
+      Math.abs(brim.areaPerCup - brim.jugAreaPerCup) < 1 && Math.abs(brim.areaPerCup - brim.wideAreaPerCup) < 1,
+      'px2/cup tall ' + brim.areaPerCup + ' jug ' + brim.jugAreaPerCup + ' wide ' + brim.wideAreaPerCup);
     ok('full + capacity sentences speak', brim.spokeFull && brim.spokeCap);
     await page.screenshot({ path: path.join(QA, 'D-capacity-brim.png') });
     ok('D no js errors', page._errs.length === 0, page._errs[0]);
@@ -337,7 +386,12 @@ function serve() {
       });
       ok(`${label}: object rides INSIDE the left pan group`, m.inL);
       ok(`${label}: object carries the trim-exact seat placement`, m.attrsMatch, JSON.stringify(m));
+      /* ⚠ NON-VACUITY FIRST. This compared T.cubes with the rendered NodeList
+         length, and at rest BOTH ARE ZERO — so it passed on a tool that drew no
+         cubes at all, which is exactly the empty-NodeList trap. The count is
+         still compared, but a state that claims cubes must SHOW them. */
       ok(`${label}: cube count matches the SVG stack`, m.cubes === m.cubesInR, JSON.stringify(m));
+      if (m.cubes > 0) ok(`${label}: the stack is non-vacuous`, m.cubesInR > 0, JSON.stringify(m));
     };
     await seating('at rest (0 cubes, tilted left)');
     /* cube add + REMOVE through the SVG (tap a cube in the pan) */
@@ -362,8 +416,16 @@ function serve() {
     await page.evaluate((n) => { MeasurementBench.cubes = n; MeasurementBench._paintCubes(); MeasurementBench._checkOver(); }, weight + 2);
     await sleep(900);
     angle = await page.evaluate(() => MeasurementBench.balAngle);
-    const over1 = await page.evaluate(() => window.__spoken.some((s) => /Take one off/i.test(s)));
-    ok('over-loaded beam tilts the other way + kind line', angle > 1 && over1);
+    /* ⚠ assert the INVARIANT, not the wording. The line used to be "Hmm —
+       the cubes are heavier now. Take one off?" — an instruction to undo a
+       specific choice, i.e. the closest thing to a verdict in the file — so a
+       literal match pinned that defect in place. What must hold: something is
+       said, at most once, and it is a DESCRIPTION rather than a request. */
+    const overSaid = await page.evaluate(() => window.__spoken.slice());
+    ok('over-loaded beam tilts the other way + kind line',
+      angle > 1 && overSaid.length === 1, 'angle ' + angle + ' said ' + JSON.stringify(overSaid));
+    ok('the overshoot line describes, it does not instruct',
+      overSaid.length === 1 && overSaid[0].indexOf('?') < 0, JSON.stringify(overSaid));
     await seating('over-loaded (tilted right)');
     await page.evaluate(() => { window.__spoken = []; MeasurementBench._checkOver(); });
     const over2 = await page.evaluate(() => window.__spoken.some((s) => /Take one off/i.test(s)));

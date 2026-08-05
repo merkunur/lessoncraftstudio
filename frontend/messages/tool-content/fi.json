@@ -706,28 +706,28 @@
   },
   "part-whole-frame": {
     "slug": "luvun-hajotelma",
-    "name": "Luvun hajotelma",
-    "tagline": "Yksi kokonaisuus, kaksi osaa — eikä kokonaisuus muutu koskaan.",
+    "name": "Osat ja kokonaisuus",
+    "tagline": "Yksi kokonaisuus, kaksi osaa — ja kokonaisuus, joka ei koskaan muutu.",
     "about": [
-      "Luvun hajotelma tuo hajotelman valkokankaalle. Ylhäällä luku on pesässä; sen alla kaksi kaukaloa pitävät osia. Lapsi ottaa yhden nappulan toisesta kaukalosta ja siirtää sen toiselle puolelle: osat muuttuvat, ylhäällä oleva luku ei. Siinä on koko oppitunti, ja se on itse välineessä — nappulaa ei voi lisätä eikä poistaa, joten osat eivät voi lakata muodostamasta kokonaisuutta.",
-      "Täällä ei ole mitään tarkistettavaa, sillä jokainen luvun hajotelma on oikein. Kuusi on neljä ja kaksi, ja kuusi on myös viisi ja yksi. Lapsi, joka siirtelee nappuloita puolelta toiselle, ei arvaa vastausta vaan huomaa, että luku koostuu pienemmistä luvuista — juuri se ajatus, joka tekee yhteen- ja vähennyslaskusta yhden asian kahden sijaan. Taulu ei arvioi mitään, ei laske pisteitä eikä koskaan sano hajotelmaa vääräksi.",
-      "Liina peittää pesän tai jommankumman kaukalon, ja samasta taulusta tulevat ne kolme kysymystä, joita luokassa oikeasti kysytään: montako niitä on yhteensä ja montako on piilossa? Luvut kymmeneen asti, kaikki kolme peittoa, ääneen sanottu hajotelma ja kirjoitusasu ovat maksuttomia. Luvut kahteenkymmeneen, kooste kaikista löydetyistä tavoista ja tulostepohja kuuluvat Opettaja-tilaukseen."
+      "Osat ja kokonaisuus on kokonaisuuden ja osien väline, heijastimella. Ylhäällä pesässä on luku; sen alla kaksi osaa pitävät nappuloita. Lapsi siirtää yhden nappulan toiselle puolelle, kaksi osaa muuttuvat, ja ylhäällä oleva luku pysyy juuri sellaisena kuin oli. Siinä on koko oppitunti, ja se on materiaalissa eikä sen yläpuolelle kirjoitetussa lauseessa: nappulaa ei voi lisätä eikä ottaa pois, joten osat eivät voi lakata olemasta yhdessä kokonaisuus.",
+      "Kahdella värillä hajotelma tulee näkyviin. Vasen osa käyttää toista väriä ja oikea toista, ja ylhäällä ne muodostavat yhden katkeamattoman rivin — nappulan siirtäminen ei pidennä eikä lyhennä riviä, vaan vaihtaa täsmälleen yhden nappulan värin. Kaksinkertainen luetaan yhtenä täytenä rivinä kumpaakin väriä. Mitään ei tarkasteta eikä pisteytetä, sillä jokainen luvun hajotelma on hyvin ajateltu: kuusi on neljä ja kaksi, ja kuusi on myös viisi ja yksi.",
+      "Liina peittää kokonaisuuden tai jommankumman osan, ja sama taulu muuttuu kolmeksi kysymykseksi, joita luokassa oikeasti kysytään: montako niitä on yhteensä ja montako on piilossa. Niin kauan kuin liina on päällä, kaikki vaikenee — luku, ääni ja kooste lakkaavat paljastamasta vastausta. Luvut kymmeneen, kaikki kolme liinaa, neljä nappulan muotoa, kolme värisarjaa, ääni ja kirjoitettu muoto ovat maksuttomia. Luvut kahteenkymmeneen, kooste kaikista luokan löytämistä hajotelmista ja kaksisivuinen tulostettava arkki kuuluvat Premiumiin."
     ],
     "howToUse": [
-      "Heijasta taulu ja aseta päivän luku plus- ja miinuspainikkeilla — luku on jo valmiina.",
-      "Pyydä lapsi eteen siirtämään yksi nappula. Kaukalon napauttaminen tekee saman kuin raahaaminen, joten se toimii sekä taululla että tabletilla.",
-      "Sanokaa hajotelma yhdessä joka kerta: kuusi on neljä ja kaksi. Kun „Sano ääneen“ on päällä, taulu sanoo sen mukananne.",
-      "Peitä toinen kaukalo ja kysy, montako on piilossa. Peitä sen sijaan pesä ja kysy, montako niitä on yhteensä.",
-      "Ota „Näytä laskuna“ käyttöön vasta, kun mielikuva on selvä — ensin nappulat, sitten numerot."
+      "Heijastakaa taulu ja asettakaa päivän luku plussalla ja miinuksella tai napauttamalla viittä, kymmentä tai kahtakymmentä.",
+      "Pyytäkää lasta tulemaan eteen ja napauttamaan osaa. Yksi nappula siirtyy toiselle puolelle; napautus toimii kuten vetäminen, sekä taululla että tabletilla.",
+      "Sanokaa hajotelma ääneen yhdessä joka kerta: kuusi on neljä ja kaksi. Kytkekää ääni päälle, niin taulu sanoo sen mukananne omalla kielellänne.",
+      "Peittäkää osa ja kysykää, montako on piilossa. Peittäkää sen sijaan kokonaisuus ja kysykää, montako niitä on yhteensä.",
+      "Kytkekää kirjoitettu muoto päälle, kun haluatte laskun nappuloiden viereen, tai kaikki neljä, kun luokka on siihen valmis."
     ],
     "classroomIdeas": [
-      "Pidä sama luku koko viikon: maanantai on kuutonen, ja joka aamu eri lapsi löytää uuden tavan.",
-      "Peitä toinen kaukalo ennen kuin lapsi siirtää nappulan, niin luokka joutuu päättelemään näkemättä, mikä muuttui.",
-      "Pyydä yksi hajotelma ja sitten sen naapuri: jos kuusi on neljä ja kaksi, mitä tapahtuu yhdellä nappulalla lisää?",
-      "Aseta kaksi hajotelmaa koosteessa vierekkäin ja kysy, mikä niissä pysyi samana — siinä kohtaa säännönmukaisuus näkyy."
+      "Valitkaa luku koko viikoksi. Maanantai on kuusi, ja joka aamu eri lapsi löytää eri hajotelman.",
+      "Kytkekää kaksi väriä päälle ja kysykää siirron jälkeen, mikä muuttui. Ylärivi on yhtä pitkä; yksi nappula vaihtoi väriä.",
+      "Peittäkää osa ennen kuin lapsi siirtää nappulan, jotta luokan täytyy päätellä näkemättä, mitä tapahtui.",
+      "Tulostakaa arkki, jakakaa oikeita nappuloita ja antakaa heidän tehdä matolla se, minkä te teitte taululla."
     ],
-    "metaTitle": "Luvun hajotelma — kokonaisuus ja osat | Maksuton",
-    "metaDescription": "Luvun hajottaminen 1. luokalla: siirrä yksi nappula, kokonaisuus pysyy samana. Peitä kokonaisuus tai osa ja kuule hajotelma. Maksuton, ilman tiliä."
+    "metaTitle": "Osat ja kokonaisuus — luvun hajotelma | Ilmainen työkalu",
+    "metaDescription": "Ilmainen hajotelmataulu 1. luokalle: siirrä nappula, ja kokonaisuus pysyy samana. Kaksi väriä, liina peittämiseen ja hajotelma ääneen luettuna."
   },
   "dictation-desk": {
     "slug": "sanelu",

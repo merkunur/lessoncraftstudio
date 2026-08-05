@@ -728,28 +728,28 @@
   },
   "part-whole-frame": {
     "slug": "decompor-numeros",
-    "name": "Decompor números",
-    "tagline": "Um todo, duas partes — e o todo nunca muda.",
+    "name": "Decompor o número",
+    "tagline": "Um total, duas partes — e um total que nunca muda.",
     "about": [
-      "Decompor números leva a decomposição para o projetor. Em cima, o número fica no ninho; embaixo, duas bandejas seguram as partes. Uma criança tira uma ficha de uma bandeja e leva para o outro lado: as duas partes mudam, o número de cima não. É toda a lição, e ela está no próprio material — não dá para acrescentar nem tirar uma ficha, então as partes não têm como deixar de formar o todo.",
-      "Aqui não há nada para corrigir, porque toda decomposição de um número está certa. Seis é quatro e dois, e também é cinco e um. Uma criança que move fichas de um lado para o outro não está chutando uma resposta: está descobrindo que um número é feito de números menores, a ideia que junta a adição e a subtração numa coisa só. O quadro não avalia, não conta pontos e nunca diz que uma decomposição está errada.",
-      "Um pano cobre o ninho ou uma das bandejas, e o mesmo quadro vira as três perguntas que a gente faz de verdade na sala: quantos são ao todo e quantos estão escondidos? Os números até dez, as três coberturas, a decomposição falada em voz alta e a escrita são gratuitos. Os números até vinte, o registo de todas as maneiras encontradas e a impressão fazem parte do plano Professor."
+      "Decompor o número é o instrumento do total e das partes, no projetor. Em cima, no ninho, fica um número; embaixo, duas bandejas seguram as partes. Uma criança leva uma ficha para o outro lado, as duas partes mudam e o número de cima continua o mesmo. Essa é a lição inteira, e ela está no material e não numa frase escrita em cima: não há como acrescentar uma ficha nem como tirar uma, então as partes não podem deixar de somar o total.",
+      "Com duas cores a decomposição fica visível. A parte da esquerda usa uma cor, a da direita usa a outra, e em cima elas formam uma única fila contínua — levar uma ficha não deixa essa fila maior nem menor, muda a cor de uma ficha só. Um dobro se lê como uma fila inteira de cada cor. Aqui nada é corrigido e nada é pontuado, porque toda decomposição de um número está bem pensada: seis são quatro e dois, e também cinco e um.",
+      "Um pano cobre o total ou qualquer uma das partes, e o mesmo quadro vira as três perguntas que a gente faz de verdade em aula: quantos há no total e quantos estão escondidos. Enquanto o pano está posto, tudo se cala — o número, a voz e o registro deixam de dar a resposta. Os números até dez, os três panos, quatro formatos de ficha, três conjuntos de cores, a voz e a forma escrita são gratuitos. Os números até vinte, o registro de todas as decomposições achadas e a folha para imprimir de duas páginas fazem parte do plano Professor."
     ],
     "howToUse": [
-      "Projete o quadro e ajuste o número de hoje com mais e menos — já vem com um número.",
-      "Chame uma criança para levar uma ficha para o outro lado. Tocar na bandeja faz o mesmo que arrastar, então funciona na lousa e no tablet.",
-      "Digam juntos a decomposição a cada vez: seis é quatro e dois. Com « Dizer em voz alta » o quadro fala junto.",
-      "Cubra uma bandeja e pergunte quantas fichas estão escondidas. Cubra o ninho e pergunte quantas são ao todo.",
-      "Ligue « Mostrar a escrita » só quando a imagem já estiver firme — primeiro as fichas, depois os números."
+      "Projetem o quadro e ponham o número do dia com mais e menos, ou toquem em cinco, dez ou vinte.",
+      "Peçam que uma criança venha à frente e toque em uma parte. Uma ficha passa para o outro lado; tocar é o mesmo que arrastar, na lousa ou no tablet.",
+      "Digam a decomposição em voz alta toda vez: seis são quatro e dois. Liguem a voz e o quadro fala junto, no idioma de vocês.",
+      "Cubram uma parte e perguntem quantas estão escondidas. Cubram o total e perguntem quantas há no total — nada no quadro vai responder por eles.",
+      "Mostrem a forma escrita quando quiserem a igualdade ao lado das fichas, ou todas as quatro quando a turma estiver pronta."
     ],
     "classroomIdeas": [
-      "Mantenha o mesmo número a semana inteira: segunda é o seis, e cada manhã uma criança diferente acha outra maneira.",
-      "Cubra uma bandeja antes de a criança levar a ficha, para a turma descobrir o que mudou sem ver.",
-      "Peça uma decomposição e depois a vizinha dela: se seis é quatro e dois, o que acontece com uma ficha a mais?",
-      "Coloque duas decomposições lado a lado no registo e pergunte o que ficou igual — é ali que o padrão aparece."
+      "Fixem o número por uma semana inteira. Segunda é o seis, e cada manhã uma criança diferente acha uma decomposição diferente.",
+      "Liguem as duas cores e perguntem o que mudou depois de levar uma ficha. A fila de cima tem o mesmo tamanho; uma ficha trocou de cor.",
+      "Cubram uma parte antes de a criança levar a ficha, para a turma descobrir o que mudou sem ver.",
+      "Imprimam a folha, distribuam fichas de verdade e deixem que façam no chão o que vocês fizeram na lousa."
     ],
-    "metaTitle": "Decompor números — o todo e as partes | Grátis",
-    "metaDescription": "Decomposição de números no 1.º ano: leve uma ficha e o todo continua igual. Cubra o todo ou uma parte e ouça a decomposição. Grátis, sem conta."
+    "metaTitle": "Decompor o número — total e partes | Ferramenta grátis",
+    "metaDescription": "Quadro grátis de decomposição para o 1º ano: leve uma ficha e o total continua o mesmo. Duas cores, um pano para cobrir e a decomposição dita em voz alta."
   },
   "dictation-desk": {
     "slug": "ditado",

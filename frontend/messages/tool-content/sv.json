@@ -728,28 +728,28 @@
   },
   "part-whole-frame": {
     "slug": "dela-upp-tal",
-    "name": "Dela upp tal",
-    "tagline": "En helhet, två delar — och helheten ändras aldrig.",
+    "name": "Helhet och delar",
+    "tagline": "En helhet, två delar — och en helhet som aldrig ändras.",
     "about": [
-      "Dela upp tal sätter taluppdelningen på projektorn. Överst ligger talet i boet; under det håller två brickor delarna. Ett barn tar en bricka ur den ena skålen och bär över den: de två delarna ändras, talet högst upp gör det inte. Det är hela lektionen, och den sitter i materialet självt — det går varken att lägga till eller ta bort en bricka, så delarna kan inte sluta bli hela talet.",
-      "Det finns ingenting att rätta här, för varje uppdelning av ett tal är riktig. Sex är fyra och två, och sex är också fem och ett. Ett barn som flyttar brickor fram och tillbaka gissar inte på ett svar utan upptäcker att ett tal är byggt av mindre tal — tanken som gör addition och subtraktion till en enda sak. Tavlan bedömer ingenting, räknar inga poäng och säger aldrig att en uppdelning är fel.",
-      "En duk täcker boet eller någon av skålarna, och samma tavla blir de tre frågor man faktiskt ställer i klassrummet: hur många är det allt tillsammans, och hur många är gömda? Tal upp till tio, alla tre övertäckningarna, den upplästa uppdelningen och skrivsättet är gratis. Tal upp till tjugo, sammanställningen över alla hittade sätt och utskriften ingår i Lärarpaketet."
+      "Helhet och delar är redskapet för det hela och delarna, på projektorn. Överst ligger ett tal i boet; under det håller två delar brickorna. Ett barn skickar över en bricka, de två delarna ändras och talet överst står kvar precis som det var. Det är hela lektionen, och den finns i materialet i stället för i en mening ovanför: det går inte att lägga till en bricka och inte att ta bort en, så delarna kan inte sluta bli det hela tillsammans.",
+      "Med två färger syns uppdelningen. Den vänstra delen bär den ena färgen, den högra den andra, och överst står de som en enda obruten rad — att skicka över en bricka gör inte raden längre eller kortare, den byter färg på exakt en bricka. En dubbel läses som en hel rad av varje färg. Ingenting rättas och ingenting poängsätts, för varje uppdelning av ett tal är väl tänkt: sex är fyra och två, och sex är också fem och ett.",
+      "Ett tyg täcker det hela eller någon av delarna, och samma bräde blir de tre frågor man verkligen ställer i klassrummet: hur många är det tillsammans, och hur många gömmer sig. Så länge det är övertäckt tiger allt — talet, rösten och sammanställningen slutar avslöja svaret. Tal upp till tio, alla tre övertäckningarna, fyra brickformer, tre färgsatser, rösten och den skrivna formen är gratis. Tal upp till tjugo, sammanställningen av alla uppdelningar klassen hittat och det utskrivbara arket på två sidor ingår i Premium."
     ],
     "howToUse": [
-      "Visa tavlan på projektorn och ställ in dagens tal med plus och minus — ett tal ligger redan framme.",
-      "Låt ett barn komma fram och bära över en bricka. Att trycka på skålen gör samma sak som att dra, så det fungerar både på tavlan och på en surfplatta.",
-      "Säg uppdelningen tillsammans varje gång: sex är fyra och två. Med „Säg det högt“ säger tavlan det med er.",
-      "Täck över en skål och fråga hur många som är gömda. Täck i stället över boet och fråga hur många det är allt tillsammans.",
-      "Slå på „Visa som uttryck“ först när bilden sitter — brickorna först, siffrorna sedan."
+      "Lägg upp brädet på projektorn och ställ in dagens tal med plus och minus, eller tryck på fem, tio eller tjugo.",
+      "Be ett barn komma fram och trycka på en del. En bricka skickas över; att trycka fungerar som att dra, både på tavlan och på plattan.",
+      "Säg uppdelningen högt tillsammans varje gång: sex är fyra och två. Slå på uppläsningen så säger brädet det med er, på ert språk.",
+      "Täck över en del och fråga hur många som gömmer sig. Täck över det hela i stället och fråga hur många det är tillsammans.",
+      "Slå på den skrivna formen när ni vill ha likheten bredvid brickorna, eller alla fyra när klassen är redo."
     ],
     "classroomIdeas": [
-      "Behåll samma tal en hel vecka: måndag är sexan, och varje morgon hittar ett nytt barn ett nytt sätt.",
-      "Täck över en skål innan barnet bär över brickan, så att klassen får lista ut vad som ändrades utan att se det.",
-      "Be om en uppdelning och sedan om grannen till den: om sex är fyra och två, vad händer med en bricka till?",
-      "Ställ två uppdelningar bredvid varandra i sammanställningen och fråga vad som är likadant — där syns mönstret."
+      "Bestäm talet för en hel vecka. Måndag är sex, och varje morgon hittar ett nytt barn en ny uppdelning.",
+      "Slå på två färger och fråga vad som ändrades efter en överskickning. Raden överst är lika lång; en bricka bytte färg.",
+      "Täck över en del innan barnet skickar över brickan, så att klassen får räkna ut vad som hände utan att se det.",
+      "Skriv ut arket, dela ut riktiga brickor och låt dem göra på mattan det ni gjorde på tavlan."
     ],
-    "metaTitle": "Dela upp tal — helhet och delar | Gratis för åk 1",
-    "metaDescription": "Dela upp tal i årskurs 1: flytta en bricka och helheten är kvar. Täck över helheten eller en del och hör uppdelningen. Gratis, utan konto och utan poäng."
+    "metaTitle": "Helhet och delar — dela upp tal | Gratis verktyg åk 1",
+    "metaDescription": "Gratis uppdelningsbräde för åk 1: skicka över en bricka och det hela är sig likt. Två färger, ett tyg att täcka med och uppdelningen uppläst högt."
   },
   "dictation-desk": {
     "slug": "diktamen",

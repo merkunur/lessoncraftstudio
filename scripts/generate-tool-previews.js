@@ -174,6 +174,19 @@ const SEEDS = {
     { sel: '.arw-card', nth: [0, 0, 2, 0, 0] },
     { sel: '.arw-foot .arw-chip', nth: 0, wait: 900 },
   ],
+  // ⭐ THE CARD MUST SHOW THE BOND, NOT A ROW OF IDENTICAL DOTS. At rest
+  // this board opens one-tone, so the thumbnail was six orange discs in
+  // three boxes — indistinguishable from the ten-frame and showing none of
+  // what the tool is about. Switch on two colours and carry once, so the
+  // card carries the whole thesis wordlessly: the nest is ONE unbroken run
+  // of two colours, the trays below are those same two colours split, and
+  // the run is the same length as the two trays together. A teacher reads
+  // "the whole is made of these two parts" off the picture alone.
+  // ⚠ driven through the tool object rather than by clicking the drawer:
+  // the settings drawer is shell chrome and would be open in the shot.
+  'part-whole-frame': [
+    { js: "var T=window.PartWholeFrame; T.api.settings.tone='two'; T._setWhole(6); T._carry('toB'); T.render();", wait: 700 },
+  ],
   // blank count grid → walk the count on so numbers fill the cells
   'choral-counting': [{ sel: '.cc-next', times: 14, wait: 70 }],
   // blank 8x8 sheet → paint a block of squares
@@ -270,6 +283,20 @@ async function runSeed(page, key) {
   const steps = SEEDS[key];
   if (!steps) return false;
   for (const step of steps) {
+    /* ⭐ a `js` step drives the TOOL OBJECT rather than the chrome. Some
+       cards need a state that is only reachable through the settings
+       drawer — and clicking the drawer open leaves the drawer in the shot.
+       ⚠ it THROWS on a missing global rather than continuing quietly: a
+       seed that silently did nothing photographs the rest state and looks
+       exactly like a seed that worked. */
+    if (step.js) {
+      const ok = await page.evaluate((src) => {
+        try { eval(src); return true; } catch (e) { return String(e); }
+      }, step.js);
+      if (ok !== true) throw new Error(`seed js step failed for ${key}: ${ok}`);
+      await new Promise((r) => setTimeout(r, step.wait ?? 400));
+      continue;
+    }
     if (step.drag) {
       // clone-drag a tray tile onto the board with real PointerEvents
       await page.evaluate(({ g, fx, fy }) => {

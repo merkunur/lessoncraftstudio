@@ -728,28 +728,28 @@
   },
   "part-whole-frame": {
     "slug": "del-opp-tall",
-    "name": "Del opp tallet",
-    "tagline": "En helhet, to deler — og helheten endrer seg aldri.",
+    "name": "Helhet og deler",
+    "tagline": "En helhet, to deler — og en helhet som aldri endrer seg.",
     "about": [
-      "Del opp tallet setter tallvennene på projektoren. Øverst ligger tallet i reiret; under holder to skåler delene. Et barn tar en brikke fra den ene skålen og bærer den over: de to delene endrer seg, tallet øverst gjør det ikke. Det er hele poenget, og det ligger i materialet selv — man kan verken legge til eller ta bort en brikke, så delene kan ikke slutte å bli helheten.",
-      "Det er ingenting å rette her, for hver eneste oppdeling av et tall er riktig. Seks er fire og to, og seks er også fem og én. Et barn som flytter brikker fram og tilbake, gjetter ikke på et svar, men oppdager at et tall er bygd av mindre tall — tanken som gjør pluss og minus til én ting i stedet for to. Tavla vurderer ingenting, teller ingen poeng og sier aldri at en oppdeling er feil.",
-      "Et klede dekker reiret eller en av skålene, og den samme tavla blir de tre spørsmålene man faktisk stiller i klasserommet: hvor mange er det til sammen, og hvor mange er gjemt? Tall opp til ti, alle tre tildekkingene, den opplesne oppdelingen og skrivemåten er gratis. Tall opp til tjue, oversikten over alle måtene dere har funnet, og utskriften er en del av Lærerpakken."
+      "Helhet og deler er redskapet for det hele og delene, på projektoren. Øverst ligger et tall i reiret; under holder to deler brikkene. Et barn sender en brikke over, de to delene endrer seg, og tallet øverst blir stående akkurat som det var. Det er hele leksjonen, og den ligger i materialet i stedet for i en setning over: det finnes ingen måte å legge til en brikke eller ta bort en, så delene kan ikke slutte å være det hele til sammen.",
+      "Med to farger blir oppdelingen synlig. Den venstre delen bærer den ene fargen, den høyre den andre, og øverst står de som én ubrutt rekke — å sende en brikke over gjør ikke rekka lengre eller kortere, den bytter farge på nøyaktig én brikke. En dobbel leses som en hel rekke av hver farge. Ingenting rettes og ingenting gis poeng for, for enhver oppdeling av et tall er godt tenkt: seks er fire og to, og seks er også fem og én.",
+      "Et klede dekker det hele eller en av delene, og det samme brettet blir til de tre spørsmålene man faktisk stiller i klassen: hvor mange er det til sammen, og hvor mange gjemmer seg. Så lenge det er dekket til, tier alt — tallet, stemmen og oversikten slutter å røpe svaret. Tall opp til ti, alle tre tildekkingene, fire brikkeformer, tre fargesett, stemmen og den skrevne formen er gratis. Tall opp til tjue, oversikten over alle oppdelingene klassen har funnet, og det utskrivbare arket på to sider er en del av Premium."
     ],
     "howToUse": [
-      "Vis tavla på projektoren og still inn dagens tall med pluss og minus — det ligger allerede et tall klart.",
-      "La et barn komme fram og bære en brikke over. Å trykke på skåla gjør det samme som å dra, så det virker både på tavla og på nettbrett.",
-      "Si oppdelingen sammen hver gang: seks er fire og to. Med „Si det høyt“ sier tavla den sammen med dere.",
-      "Dekk til en skål og spør hvor mange som er gjemt. Dekk heller til reiret og spør hvor mange det er til sammen.",
-      "Slå på „Vis som regnestykke“ når bildet sitter — brikkene først, tallene etterpå."
+      "Legg brettet opp på projektoren, og still inn dagens tall med pluss og minus, eller trykk på fem, ti eller tjue.",
+      "Be et barn komme fram og trykke på en del. En brikke sendes over; å trykke virker som å dra, både på tavla og på nettbrettet.",
+      "Si oppdelingen høyt sammen hver gang: seks er fire og to. Slå på opplesingen, så sier brettet det sammen med dere, på deres språk.",
+      "Dekk til en del, og spør hvor mange som gjemmer seg. Dekk til det hele i stedet, og spør hvor mange det er til sammen.",
+      "Slå på den skrevne formen når dere vil ha regnestykket ved siden av brikkene, eller alle fire når klassen er klar."
     ],
     "classroomIdeas": [
-      "Behold det samme tallet en hel uke: mandag er sekseren, og hver morgen finner et nytt barn en ny måte.",
-      "Dekk til en skål før barnet bærer brikken over, så klassen må finne ut hva som endret seg uten å se det.",
-      "Be om en oppdeling og deretter naboen til den: hvis seks er fire og to, hva skjer med én brikke til?",
-      "Sett to oppdelinger ved siden av hverandre i oversikten og spør hva som er likt — der kommer mønsteret fram."
+      "Velg tallet for en hel uke. Mandag er seks, og hver morgen finner et nytt barn en ny oppdeling.",
+      "Slå på to farger, og spør hva som endret seg etter en overføring. Rekka øverst er like lang; én brikke byttet farge.",
+      "Dekk til en del før barnet sender brikken over, så klassen må regne ut hva som skjedde uten å se det.",
+      "Skriv ut arket, del ut ekte brikker, og la dem gjøre på gulvet det dere gjorde på tavla."
     ],
-    "metaTitle": "Del opp tallet — helhet og deler | Gratis for 1. trinn",
-    "metaDescription": "Tallvenner på 1. trinn: bær en brikke over, og helheten er den samme. Dekk til helheten eller en del og hør oppdelingen. Gratis, uten konto og uten poeng."
+    "metaTitle": "Helhet og deler — del opp tall | Gratis verktøy 1. trinn",
+    "metaDescription": "Gratis oppdelingsbrett for 1. trinn: send en brikke over, og det hele er det samme. To farger, et klede å dekke til med og oppdelingen lest høyt."
   },
   "dictation-desk": {
     "slug": "diktat",

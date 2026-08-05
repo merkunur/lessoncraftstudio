@@ -728,28 +728,28 @@
   },
   "part-whole-frame": {
     "slug": "scomporre-i-numeri",
-    "name": "Scomporre i numeri",
-    "tagline": "Un intero, due parti — e l’intero non cambia mai.",
+    "name": "Scomponi il numero",
+    "tagline": "Un tutto, due parti — e un tutto che non cambia mai.",
     "about": [
-      "Scomporre i numeri porta la scomposizione alla lavagna. In alto il numero sta nel nido; sotto, due vassoi tengono le parti. Un bambino prende un gettone da un vassoio e lo porta dall’altra parte: le due parti cambiano, il numero in alto no. È tutta qui la lezione, ed è nel materiale stesso — non si può aggiungere né togliere un gettone, quindi le parti non possono smettere di formare l’intero.",
-      "Non c’è nulla da correggere, perché ogni scomposizione di un numero è giusta. Sei è quattro e due, ed è anche cinque e uno. Un bambino che sposta i gettoni non sta indovinando una risposta: sta scoprendo che un numero è fatto di numeri più piccoli, l’idea che tiene insieme addizione e sottrazione. La lavagna non valuta nulla, non assegna punti e non dice mai che una scomposizione è sbagliata.",
-      "Un telo copre il nido o uno dei due vassoi, e la stessa lavagna diventa le tre domande che in classe si fanno davvero: quanti sono in tutto, e quanti sono nascosti? I numeri fino a dieci, tutte e tre le coperture, la scomposizione detta ad alta voce e la scrittura sono gratuiti. I numeri fino a venti, il registro di tutti i modi trovati e la stampa fanno parte del piano Insegnante."
+      "Scomponi il numero è lo strumento del tutto e delle parti, sul proiettore. In alto, nel nido, c’è un numero; sotto, due vassoi tengono le parti. Un bambino sposta un gettone dall’altra parte, le due parti cambiano e il numero in alto resta com’era. È tutta qui la lezione, e sta nel materiale invece che in una frase scritta sopra: non c’è modo di aggiungere un gettone né di toglierne uno, quindi le parti non possono smettere di fare il tutto.",
+      "Con due colori la scomposizione si vede. La parte di sinistra porta un colore, quella di destra l’altro, e in alto formano una sola fila ininterrotta — spostare un gettone non allunga né accorcia quella fila, cambia il colore di un gettone solo. Un doppio si legge come una fila intera per colore. Qui non si corregge e non si assegna nulla, perché ogni scomposizione di un numero è ben pensata: sei è quattro e due, ed è anche cinque e uno.",
+      "Un panno copre il tutto o una delle due parti, e lo stesso quadro diventa le tre domande che in classe si fanno davvero: quanti in tutto e quanti sono nascosti. Finché il panno è posato, tutto tace — il numero, la voce e il registro smettono di dare la risposta. I numeri fino a dieci, i tre panni, quattro forme di gettone, tre serie di colori, la voce e la forma scritta sono gratuiti. I numeri fino a venti, il registro di tutte le scomposizioni trovate e la scheda stampabile su due pagine fanno parte del piano Insegnante."
     ],
     "howToUse": [
-      "Proietti la lavagna e imposti il numero del giorno con più e meno — un numero è già pronto.",
-      "Chiami un bambino a portare un gettone dall’altra parte. Toccare il vassoio fa lo stesso effetto del trascinamento: funziona alla LIM e sul tablet.",
-      "Dite insieme la scomposizione ogni volta: sei è quattro e due. Con « Leggi ad alta voce » la dice anche la lavagna.",
-      "Copra un vassoio e chieda quanti gettoni sono nascosti. Copra invece il nido e chieda quanti sono in tutto.",
-      "Attivi « Mostra la scrittura » solo quando l’immagine è chiara — prima i gettoni, poi i numeri."
+      "Proiettate il quadro e impostate il numero del giorno con più e meno, oppure toccate cinque, dieci o venti.",
+      "Chiedete a un bambino di venire a toccare una parte. Un gettone passa di là; toccare equivale a trascinare, alla lavagna come sul tablet.",
+      "Dite insieme la scomposizione ogni volta: sei è quattro e due. Attivate la voce e il quadro la dice con voi, nella vostra lingua.",
+      "Coprite una parte e chiedete quanti si nascondono. Coprite il tutto e chiedete quanti sono in tutto — niente sul quadro risponderà al posto loro.",
+      "Mostrate la forma scritta quando volete l’uguaglianza accanto ai gettoni, o tutte e quattro quando la classe è pronta."
     ],
     "classroomIdeas": [
-      "Tenga lo stesso numero per una settimana: lunedì è il sei, e ogni mattina un bambino diverso trova un modo diverso.",
-      "Copra un vassoio prima che il bambino sposti il gettone, così la classe deve capire che cosa è cambiato senza vederlo.",
-      "Chieda una scomposizione e poi quella vicina: se sei è quattro e due, che cosa succede con un gettone in più?",
-      "Metta due scomposizioni una accanto all’altra nel registro e chieda che cosa è rimasto uguale — lì si vede lo schema."
+      "Fissate il numero per una settimana intera. Lunedì è il sei, e ogni mattina un bambino diverso trova una scomposizione diversa.",
+      "Attivate i due colori e chiedete che cosa è cambiato dopo uno spostamento. La fila in alto è lunga uguale; un gettone ha cambiato colore.",
+      "Coprite una parte prima che il bambino sposti il gettone, così la classe deve capire che cosa è cambiato senza vederlo.",
+      "Stampate la scheda, distribuite gettoni veri e lasciate che facciano sul tappeto quello che avete fatto alla lavagna."
     ],
-    "metaTitle": "Scomporre i numeri — l’intero e le parti | Gratis",
-    "metaDescription": "Scomposizione dei numeri in prima: sposta un gettone e l’intero resta uguale. Copri l’intero o una parte, ascolta la scomposizione. Gratis, senza account."
+    "metaTitle": "Scomponi il numero — il tutto e le parti | Strumento gratis",
+    "metaDescription": "Quadro gratuito di scomposizione per la prima: sposta un gettone e il tutto non cambia. Due colori, un panno per coprire e la scomposizione letta ad alta voce."
   },
   "dictation-desk": {
     "slug": "dettato",

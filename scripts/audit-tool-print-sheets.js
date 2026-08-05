@@ -62,6 +62,35 @@ const TOOLS = [
   /* the three found printing the whole web page, now with sheets */
   { key: 'arrow-strip', p: 'arw', apparatus: '.arw-mat' },
   { key: 'lids', p: 'lid', apparatus: '.lid-table' },
+  /* ⚠ part-whole-frame prints TWO DEDICATED PAGES — a blank mat for real
+     counters and the record of what the class found — and BOTH are
+     entitlement-gated in the DOM, not merely behind the chip: a free
+     visitor's `_buildPrintMat` is never called at all. So the prime must
+     force the tier AND rebuild, or the probe measures an absent sheet and
+     every assertion under it is vacuous (the fraction-kitchen lesson).
+     The record page also needs a class to have FOUND something, so the
+     prime carries twice first — an empty record page is a legitimate
+     state but not the one worth probing. */
+  {
+    key: 'part-whole-frame', p: 'pwf', apparatus: '.pwf-printmat', chrome: '.pwf-controls',
+    prime: function (p) {
+      var T = window.PartWholeFrame;
+      if (!T) return;
+      T.premium = true;
+      /* ⚠ AND THE PAID BODY CLASS, which is what the print rules are
+         scoped to. Setting `premium` by hand bypasses both `init` and the
+         entitlement callback, which are the two places the real tool
+         toggles it — so a prime that skips it measures an unentitled page
+         and reports the mat as missing. (The gate caught exactly that when
+         the scoping landed, which is the gate working.) */
+      document.body.classList.add('pwf-paid');
+      T._applyBandOptions();
+      T._setWhole(6);
+      T._carry('toB');
+      T._carry('toB');
+      T.render();
+    }
+  },
   /* prints a DEDICATED sheet (the build-plan pattern), so the
      apparatus that reaches paper is .pvl-sheet, not the on-screen mat */
   { key: 'place-value-lab', p: 'pvl', apparatus: '.pvl-sheet', chrome: '.pvl-dock' },

@@ -1,2053 +1,2051 @@
 {
-  "v": 1,
-  "grids": [
+ "v": 1,
+ "grids": [
+  {
+   "id": "wodb-num-k-lines",
+   "band": "K",
+   "cells": [
     {
-      "id": "wodb-num-k-lines",
-      "band": "K",
-      "cells": [
-        {
-          "t": "num",
-          "v": "2"
-        },
-        {
-          "t": "num",
-          "v": "7"
-        },
-        {
-          "t": "num",
-          "v": "8"
-        },
-        {
-          "t": "num",
-          "v": "10"
-        }
-      ],
-      "title": {
-        "en": "Numbers: lines and curves",
-        "de": "Zahlen: Striche und Bögen",
-        "nl": "Getallen: recht of rond?",
-        "fr": "Nombres : traits droits et courbes",
-        "es": "Números: líneas y curvas",
-        "it": "Numeri: linee e curve",
-        "pt": "Números: retas e curvas",
-        "sv": "Tal: raka streck och bågar",
-        "da": "Tal: streger og buer",
-        "no": "Tall: streker og buer",
-        "fi": "Luvut: viivoja ja kaaria"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one that is the smallest number.",
-          "de": "Es ist das Einzige, das am kleinsten ist.",
-          "nl": "Het is het enige dat het kleinste getal is.",
-          "fr": "C’est le seul qui est le plus petit.",
-          "es": "Es el único que es el más chico de todos.",
-          "it": "È l’unico che è il più piccolo di tutti.",
-          "pt": "É o único que é o menor de todos.",
-          "sv": "Det är det enda som är minst av alla.",
-          "da": "Det er det eneste, der er allermindst.",
-          "no": "Det er det eneste som er minst av alle.",
-          "fi": "Se on ainoa, joka on kaikista pienin."
-        },
-        {
-          "en": "It's the only one made of only straight lines.",
-          "de": "Es ist das Einzige nur aus geraden Strichen.",
-          "nl": "Het is het enige dat alleen uit rechte lijnen bestaat.",
-          "fr": "C’est le seul qui s’écrit seulement avec des traits droits.",
-          "es": "Es el único que está hecho solo de líneas rectas.",
-          "it": "È l’unico che è fatto solo di linee dritte.",
-          "pt": "É o único que é feito só de linhas retas.",
-          "sv": "Det är det enda som är skrivet med bara raka streck.",
-          "da": "Det er det eneste, der kun er lavet af lige streger.",
-          "no": "Det er det eneste som er laget av bare rette streker.",
-          "fi": "Se on ainoa, jossa on vain suoria viivoja."
-        },
-        {
-          "en": "It's the only one made of only curves.",
-          "de": "Es ist das Einzige nur aus runden Bögen.",
-          "nl": "Het is het enige dat alleen uit rondingen bestaat.",
-          "fr": "C’est le seul qui s’écrit seulement avec des courbes.",
-          "es": "Es el único que está hecho solo de curvas.",
-          "it": "È l’unico che è fatto solo di curve.",
-          "pt": "É o único que é feito só de curvas.",
-          "sv": "Det är det enda som är skrivet med bara runda bågar.",
-          "da": "Det er det eneste, der kun er lavet af buer.",
-          "no": "Det er det eneste som er laget av bare buer.",
-          "fi": "Se on ainoa, jossa on vain kaarevia viivoja."
-        },
-        {
-          "en": "It's the only one with two digits.",
-          "de": "Es ist das Einzige mit zwei Ziffern.",
-          "nl": "Het is het enige dat twee cijfers heeft.",
-          "fr": "C’est le seul qui s’écrit avec deux chiffres.",
-          "es": "Es el único que se escribe con dos números.",
-          "it": "È l’unico che si scrive con due cifre.",
-          "pt": "É o único que tem dois algarismos.",
-          "sv": "Det är det enda som har två siffror.",
-          "da": "Det er det eneste, der skrives med to tal.",
-          "no": "Det er det eneste som har to sifre.",
-          "fi": "Se on ainoa, jossa on kaksi numeroa."
-        }
-      ]
+     "t": "num",
+     "v": "2"
     },
     {
-      "id": "wodb-num-1-threes",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "num",
-          "v": "3"
-        },
-        {
-          "t": "num",
-          "v": "13"
-        },
-        {
-          "t": "num",
-          "v": "30"
-        },
-        {
-          "t": "num",
-          "v": "31"
-        }
-      ],
-      "title": {
-        "en": "Numbers made of 1s and 3s",
-        "de": "Zahlen aus 1 und 3",
-        "nl": "Getallen met enen en drieën",
-        "fr": "Des nombres avec des 1 et des 3",
-        "es": "Números hechos con 1 y 3",
-        "it": "Numeri fatti di 1 e di 3",
-        "pt": "Números feitos de 1 e 3",
-        "sv": "Tal av ettor och treor",
-        "da": "Tal lavet af 1-taller og 3-taller",
-        "no": "Tall laget av 1 og 3",
-        "fi": "Luvut ykkösistä ja kolmosista"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with just one digit.",
-          "de": "Es ist das Einzige mit nur einer Ziffer.",
-          "nl": "Het is het enige dat maar één cijfer heeft.",
-          "fr": "C’est le seul qui s’écrit avec un seul chiffre.",
-          "es": "Es el único que se escribe con un solo número.",
-          "it": "È l’unico che si scrive con una cifra sola.",
-          "pt": "É o único que tem um algarismo só.",
-          "sv": "Det är det enda som har bara en siffra.",
-          "da": "Det er det eneste, der kun har ét ciffer.",
-          "no": "Det er det eneste som har bare ett siffer.",
-          "fi": "Se on ainoa, jossa on vain yksi numero."
-        },
-        {
-          "en": "It's the only one between 10 and 20.",
-          "de": "Es ist das Einzige zwischen 10 und 20.",
-          "nl": "Het is het enige dat tussen de 10 en de 20 ligt.",
-          "fr": "C’est le seul qui est entre 10 et 20.",
-          "es": "Es el único que está entre el 10 y el 20.",
-          "it": "È l’unico che sta tra il 10 e il 20.",
-          "pt": "É o único que fica entre 10 e 20.",
-          "sv": "Det är det enda som ligger mellan 10 och 20.",
-          "da": "Det er det eneste, der ligger mellem 10 og 20.",
-          "no": "Det er det eneste som er mellom 10 og 20.",
-          "fi": "Se on ainoa, joka on kymmenen ja kahdenkymmenen välissä."
-        },
-        {
-          "en": "It's the only one you say when counting by tens.",
-          "de": "Es ist das Einzige, das man beim Zählen in Zehnerschritten sagt.",
-          "nl": "Het is het enige dat je hoort als je met sprongen van tien telt.",
-          "fr": "C’est le seul qu’on dit quand on compte de 10 en 10.",
-          "es": "Es el único que dices cuando cuentas de 10 en 10.",
-          "it": "È l’unico che dici contando di dieci in dieci.",
-          "pt": "É o único que a gente fala contando de 10 em 10.",
-          "sv": "Det är det enda som är med när man räknar tioskutt.",
-          "da": "Det er det eneste, der er med, når man tæller med 10 ad gangen.",
-          "no": "Det er det eneste som er med når du teller med ti om gangen.",
-          "fi": "Se on ainoa, joka sanotaan, kun luetellaan kymmenittäin."
-        },
-        {
-          "en": "It's the only one that is the biggest.",
-          "de": "Es ist das Einzige, das am größten ist.",
-          "nl": "Het is het enige dat het grootste getal is.",
-          "fr": "C’est le seul qui est le plus grand.",
-          "es": "Es el único que es el más grande de todos.",
-          "it": "È l’unico che è il più grande di tutti.",
-          "pt": "É o único que é o maior de todos.",
-          "sv": "Det är det enda som är störst av alla.",
-          "da": "Det er det eneste, der er allerstørst.",
-          "no": "Det er det eneste som er størst av alle.",
-          "fi": "Se on ainoa, joka on kaikista suurin."
-        }
-      ]
+     "t": "num",
+     "v": "7"
     },
     {
-      "id": "wodb-num-1-fives",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "num",
-          "v": "5"
-        },
-        {
-          "t": "num",
-          "v": "10"
-        },
-        {
-          "t": "num",
-          "v": "15"
-        },
-        {
-          "t": "num",
-          "v": "12"
-        }
-      ],
-      "title": {
-        "en": "Counting by fives — almost",
-        "de": "In Fünferschritten — fast!",
-        "nl": "Tellen met sprongen van vijf — bijna!",
-        "fr": "On compte de 5 en 5… ou presque !",
-        "es": "De 5 en 5… ¡casi!",
-        "it": "La conta del cinque… quasi!",
-        "pt": "Contando de 5 em 5 — quase",
-        "sv": "Femskutt — nästan!",
-        "da": "Tæl med 5 ad gangen — næsten",
-        "no": "Telling med fem — nesten",
-        "fi": "Viiden hyppyjä — melkein"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with just one digit.",
-          "de": "Es ist das Einzige mit nur einer Ziffer.",
-          "nl": "Het is het enige dat maar één cijfer heeft.",
-          "fr": "C’est le seul qui s’écrit avec un seul chiffre.",
-          "es": "Es el único que se escribe con un solo número.",
-          "it": "È l’unico che si scrive con una cifra sola.",
-          "pt": "É o único que tem um algarismo só.",
-          "sv": "Det är det enda som har bara en siffra.",
-          "da": "Det er det eneste, der kun har ét ciffer.",
-          "no": "Det er det eneste som har bare ett siffer.",
-          "fi": "Se on ainoa, jossa on vain yksi numero."
-        },
-        {
-          "en": "It's the only one with a zero.",
-          "de": "Es ist das Einzige mit einer Null.",
-          "nl": "Het is het enige dat een nul heeft.",
-          "fr": "C’est le seul qui a un zéro.",
-          "es": "Es el único que tiene un cero.",
-          "it": "È l’unico che ha uno zero.",
-          "pt": "É o único que tem um zero.",
-          "sv": "Det är det enda som har en nolla.",
-          "da": "Det er det eneste, der har et nul i sig.",
-          "no": "Det er det eneste som har en null i seg.",
-          "fi": "Se on ainoa, jossa on nolla."
-        },
-        {
-          "en": "It's the only one that is the biggest.",
-          "de": "Es ist das Einzige, das am größten ist.",
-          "nl": "Het is het enige dat het grootste getal is.",
-          "fr": "C’est le seul qui est le plus grand.",
-          "es": "Es el único que es el más grande de todos.",
-          "it": "È l’unico che è il più grande di tutti.",
-          "pt": "É o único que é o maior de todos.",
-          "sv": "Det är det enda som är störst av alla.",
-          "da": "Det er det eneste, der er allerstørst.",
-          "no": "Det er det eneste som er størst av alle.",
-          "fi": "Se on ainoa, joka on kaikista suurin."
-        },
-        {
-          "en": "It's the only one you don't say counting by fives.",
-          "de": "Es ist das Einzige, das man beim Zählen in Fünferschritten nicht sagt.",
-          "nl": "Het is het enige dat je overslaat als je met sprongen van vijf telt.",
-          "fr": "C’est le seul qu’on ne dit pas quand on compte de 5 en 5.",
-          "es": "Es el único que no dices al contar de 5 en 5.",
-          "it": "È l’unico che non dici contando di cinque in cinque.",
-          "pt": "É o único que a gente não fala contando de 5 em 5.",
-          "sv": "Det är det enda som inte är med när man räknar femskutt.",
-          "da": "Det er det eneste, der ikke er med, når man tæller med 5 ad gangen.",
-          "no": "Det er det eneste som du hopper over når du teller med fem.",
-          "fi": "Se on ainoa, jota ei sanota, kun luetellaan viiden hyppyinä."
-        }
-      ]
+     "t": "num",
+     "v": "8"
     },
     {
-      "id": "wodb-num-23-squares",
-      "band": "G23",
-      "cells": [
-        {
-          "t": "num",
-          "v": "9"
-        },
-        {
-          "t": "num",
-          "v": "16"
-        },
-        {
-          "t": "num",
-          "v": "25"
-        },
-        {
-          "t": "num",
-          "v": "43"
-        }
-      ],
-      "title": {
-        "en": "Numbers: 9, 16, 25, 43",
-        "de": "Zahlen: 9, 16, 25, 43",
-        "nl": "Getallen: 9, 16, 25, 43",
-        "fr": "Les nombres 9, 16, 25 et 43",
-        "es": "Números: 9, 16, 25, 43",
-        "it": "I numeri 9, 16, 25 e 43",
-        "pt": "Números: 9, 16, 25, 43",
-        "sv": "Talen 9, 16, 25 och 43",
-        "da": "Tallene 9, 16, 25 og 43",
-        "no": "Tallene 9, 16, 25 og 43",
-        "fi": "Luvut 9, 16, 25 ja 43"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with just one digit.",
-          "de": "Es ist das Einzige mit nur einer Ziffer.",
-          "nl": "Het is het enige dat maar één cijfer heeft.",
-          "fr": "C’est le seul qui s’écrit avec un seul chiffre.",
-          "es": "Es el único que se escribe con una sola cifra.",
-          "it": "È l’unico che si scrive con una cifra sola.",
-          "pt": "É o único que tem um algarismo só.",
-          "sv": "Det är det enda som har bara en siffra.",
-          "da": "Det er det eneste, der kun har ét ciffer.",
-          "no": "Det er det eneste som har bare ett siffer.",
-          "fi": "Se on ainoa, jossa on vain yksi numero."
-        },
-        {
-          "en": "It's the only even number.",
-          "de": "Es ist das Einzige, das eine gerade Zahl ist.",
-          "nl": "Het is het enige dat even is.",
-          "fr": "C’est le seul qui est un nombre pair.",
-          "es": "Es el único que es un número par.",
-          "it": "È l’unico che è un numero pari.",
-          "pt": "É o único que é par.",
-          "sv": "Det är det enda som är ett jämnt tal.",
-          "da": "Det er det eneste, der er et lige tal.",
-          "no": "Det er det eneste som er et partall.",
-          "fi": "Se on ainoa, joka on parillinen."
-        },
-        {
-          "en": "It's the only one you say when counting by fives.",
-          "de": "Es ist das Einzige, das man beim Zählen in Fünferschritten sagt.",
-          "nl": "Het is het enige dat je zegt als je met sprongen van vijf telt.",
-          "fr": "C’est le seul qu’on dit quand on compte de 5 en 5.",
-          "es": "Es el único que dices cuando cuentas de 5 en 5.",
-          "it": "È l’unico che dici contando di cinque in cinque.",
-          "pt": "É o único que a gente fala contando de 5 em 5.",
-          "sv": "Det är det enda som är med när man räknar femskutt.",
-          "da": "Det er det eneste, der er med, når man tæller med 5 ad gangen.",
-          "no": "Det er det eneste som er med når du teller med fem om gangen.",
-          "fi": "Se on ainoa, joka sanotaan, kun luetellaan viiden hyppyinä."
-        },
-        {
-          "en": "It's the only one bigger than 40.",
-          "de": "Es ist das Einzige, das größer als 40 ist.",
-          "nl": "Het is het enige dat groter is dan 40.",
-          "fr": "C’est le seul qui est plus grand que 40.",
-          "es": "Es el único que es más grande que 40.",
-          "it": "È l’unico che è più grande di 40.",
-          "pt": "É o único que é maior que 40.",
-          "sv": "Det är det enda som är större än 40.",
-          "da": "Det er det eneste, der er større end 40.",
-          "no": "Det er det eneste som er større enn 40.",
-          "fi": "Se on ainoa, joka on suurempi kuin neljäkymmentä."
-        }
-      ]
-    },
-    {
-      "id": "wodb-num-23-twofour",
-      "band": "G23",
-      "cells": [
-        {
-          "t": "num",
-          "v": "22"
-        },
-        {
-          "t": "num",
-          "v": "24"
-        },
-        {
-          "t": "num",
-          "v": "42"
-        },
-        {
-          "t": "num",
-          "v": "44"
-        }
-      ],
-      "title": {
-        "en": "Numbers made of 2s and 4s",
-        "de": "Zahlen aus 2 und 4",
-        "nl": "Getallen met tweeën en vieren",
-        "fr": "Des nombres avec des 2 et des 4",
-        "es": "Números hechos con 2 y 4",
-        "it": "Numeri fatti di 2 e di 4",
-        "pt": "Números feitos de 2 e 4",
-        "sv": "Tal av tvåor och fyror",
-        "da": "Tal lavet af 2-taller og 4-taller",
-        "no": "Tall laget av 2 og 4",
-        "fi": "Luvut kakkosista ja nelosista"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with no 4 in it.",
-          "de": "Es ist das Einzige, in dem keine 4 steckt.",
-          "nl": "Het is het enige dat geen 4 heeft.",
-          "fr": "C’est le seul qui n’a pas de 4.",
-          "es": "Es el único que no tiene ningún 4.",
-          "it": "È l’unico che non ha nessun 4.",
-          "pt": "É o único que não tem nenhum 4.",
-          "sv": "Det är det enda som inte har någon fyra i sig.",
-          "da": "Det er det eneste, der ikke har noget 4-tal i sig.",
-          "no": "Det er det eneste som ikke har en firer i seg.",
-          "fi": "Se on ainoa, jossa ei ole yhtään nelosta."
-        },
-        {
-          "en": "It's the only one whose digits count up.",
-          "de": "Es ist das Einzige, bei dem die Ziffern aufwärts zählen.",
-          "nl": "Het is het enige dat omhoog telt: eerst 2, dan 4.",
-          "fr": "C’est le seul dont les chiffres vont en montant.",
-          "es": "Es el único que tiene sus cifras de menor a mayor.",
-          "it": "È l’unico che ha le cifre in salita: prima la piccola, poi la grande.",
-          "pt": "É o único que tem os algarismos subindo.",
-          "sv": "Det är det enda som har siffrorna i ordning uppåt.",
-          "da": "Det er det eneste, der tæller opad — først 2, så 4.",
-          "no": "Det er det eneste som har sifre som teller oppover.",
-          "fi": "Se on ainoa, jonka numerot menevät pienestä suureen."
-        },
-        {
-          "en": "It's the only one whose digits count down.",
-          "de": "Es ist das Einzige, bei dem die Ziffern abwärts zählen.",
-          "nl": "Het is het enige dat omlaag telt: eerst 4, dan 2.",
-          "fr": "C’est le seul dont les chiffres vont en descendant.",
-          "es": "Es el único que tiene sus cifras de mayor a menor.",
-          "it": "È l’unico che ha le cifre in discesa: prima la grande, poi la piccola.",
-          "pt": "É o único que tem os algarismos descendo.",
-          "sv": "Det är det enda som har siffrorna i ordning nedåt.",
-          "da": "Det er det eneste, der tæller nedad — først 4, så 2.",
-          "no": "Det er det eneste som har sifre som teller nedover.",
-          "fi": "Se on ainoa, jonka numerot menevät suuresta pieneen."
-        },
-        {
-          "en": "It's the only one with no 2 in it.",
-          "de": "Es ist das Einzige, in dem keine 2 steckt.",
-          "nl": "Het is het enige dat geen 2 heeft.",
-          "fr": "C’est le seul qui n’a pas de 2.",
-          "es": "Es el único que no tiene ningún 2.",
-          "it": "È l’unico che non ha nessun 2.",
-          "pt": "É o único que não tem nenhum 2.",
-          "sv": "Det är det enda som inte har någon tvåa i sig.",
-          "da": "Det er det eneste, der ikke har noget 2-tal i sig.",
-          "no": "Det er det eneste som ikke har en toer i seg.",
-          "fi": "Se on ainoa, jossa ei ole yhtään kakkosta."
-        }
-      ]
-    },
-    {
-      "id": "wodb-shape-k-onlyone",
-      "band": "K",
-      "cells": [
-        {
-          "t": "shape",
-          "shape": "circle",
-          "color": "coral",
-          "size": "lg",
-          "fill": "filled"
-        },
-        {
-          "t": "shape",
-          "shape": "square",
-          "color": "coral",
-          "size": "lg",
-          "fill": "filled"
-        },
-        {
-          "t": "shape",
-          "shape": "circle",
-          "color": "coral",
-          "size": "sm",
-          "fill": "filled"
-        },
-        {
-          "t": "shape",
-          "shape": "circle",
-          "color": "plum",
-          "size": "lg",
-          "fill": "filled"
-        }
-      ],
-      "title": {
-        "en": "Shapes: which one is different?",
-        "de": "Formen: Was ist hier anders?",
-        "nl": "Vormen: welke is anders?",
-        "fr": "Formes : laquelle est différente ?",
-        "es": "Figuras: ¿cuál es diferente?",
-        "it": "Forme: qual è quella diversa?",
-        "pt": "Figuras: qual é a diferente?",
-        "sv": "Figurer: vilken är annorlunda?",
-        "da": "Former: hvad er anderledes?",
-        "no": "Former: hvilken skiller seg ut?",
-        "fi": "Muodot: mikä on erilainen?"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with nothing different — it matches everyone!",
-          "de": "Es ist das Einzige ohne Besonderheit — es passt einfach zu allen!",
-          "nl": "Het is de enige die niets aparts heeft — hij past bij iedereen!",
-          "fr": "C’est le seul qui n’a rien de spécial — il va avec tout le monde !",
-          "es": "Es la única que no tiene nada diferente: ¡se parece a todas!",
-          "it": "È l’unica che assomiglia a tutte le altre — non ha proprio niente di strano!",
-          "pt": "É a única que não tem nada de diferente — ela combina com todo mundo!",
-          "sv": "Den är den enda som passar ihop med alla — och visst är det finurligt!",
-          "da": "Den er den eneste, der ligner alle de andre — den passer ind alle steder!",
-          "no": "Den er den eneste som ligner på alle sammen — for en luring!",
-          "fi": "Se on ainoa, jossa ei ole mitään erilaista — se on kaikkien kaveri!"
-        },
-        {
-          "en": "It's the only one that isn't round.",
-          "de": "Es ist das Einzige, das nicht rund ist.",
-          "nl": "Het is het enige dat niet rond is.",
-          "fr": "C’est le seul qui n’est pas rond.",
-          "es": "Es la única que no es redonda.",
-          "it": "È l’unica che non è rotonda.",
-          "pt": "É a única que não é redonda.",
-          "sv": "Den är den enda som inte är rund.",
-          "da": "Den er den eneste, der ikke er rund.",
-          "no": "Den er den eneste som ikke er rund.",
-          "fi": "Se on ainoa, joka ei ole pyöreä."
-        },
-        {
-          "en": "It's the only small one.",
-          "de": "Es ist das Einzige, das klein ist.",
-          "nl": "Het is de enige die klein is.",
-          "fr": "C’est le seul qui est tout petit.",
-          "es": "Es la única que es chiquita.",
-          "it": "È l’unica che è piccola.",
-          "pt": "É a única que é pequenininha.",
-          "sv": "Den är den enda som är liten.",
-          "da": "Den er den eneste, der er helt lille.",
-          "no": "Den er den eneste som er liten.",
-          "fi": "Se on ainoa, joka on pieni."
-        },
-        {
-          "en": "It's the only purple one.",
-          "de": "Es ist das Einzige, das lila ist.",
-          "nl": "Het is de enige die paars is.",
-          "fr": "C’est le seul qui est violet.",
-          "es": "Es la única que es morada.",
-          "it": "È l’unica che è viola.",
-          "pt": "É a única que é roxa.",
-          "sv": "Den är den enda som är lila.",
-          "da": "Den er den eneste, der er lilla.",
-          "no": "Den er den eneste som er lilla.",
-          "fi": "Se on ainoa, joka on violetti."
-        }
-      ]
-    },
-    {
-      "id": "wodb-shape-1-sides",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "shape",
-          "shape": "triangle",
-          "color": "coral",
-          "size": "md",
-          "fill": "filled"
-        },
-        {
-          "t": "shape",
-          "shape": "square",
-          "color": "coral",
-          "size": "md",
-          "fill": "filled",
-          "rot": 45
-        },
-        {
-          "t": "shape",
-          "shape": "hexagon",
-          "color": "coral",
-          "size": "md",
-          "fill": "filled"
-        },
-        {
-          "t": "shape",
-          "shape": "star",
-          "color": "coral",
-          "size": "md",
-          "fill": "filled"
-        }
-      ],
-      "title": {
-        "en": "Shapes: count the sides",
-        "de": "Formen: Ecken und Seiten",
-        "nl": "Vormen: tel de zijden",
-        "fr": "Formes : compte les côtés",
-        "es": "Figuras: cuenta los lados",
-        "it": "Forme: conta i lati",
-        "pt": "Figuras: conte os lados",
-        "sv": "Figurer: räkna sidorna",
-        "da": "Former: tæl siderne",
-        "no": "Former: tell sidene",
-        "fi": "Muodot: laske sivut"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with three sides.",
-          "de": "Es ist das Einzige mit drei Seiten.",
-          "nl": "Het is de enige die drie zijden heeft.",
-          "fr": "C’est le seul qui a trois côtés.",
-          "es": "Es la única que tiene tres lados.",
-          "it": "È l’unica che ha tre lati.",
-          "pt": "É a única que tem três lados.",
-          "sv": "Den är den enda som har tre sidor.",
-          "da": "Den er den eneste, der har tre sider.",
-          "no": "Den er den eneste som har tre sider.",
-          "fi": "Se on ainoa, jossa on kolme sivua."
-        },
-        {
-          "en": "It's the only one balancing on its corner.",
-          "de": "Es ist das Einzige, das auf einer Ecke balanciert.",
-          "nl": "Het is het enige dat op zijn puntje balanceert.",
-          "fr": "C’est le seul qui tient en équilibre sur sa pointe.",
-          "es": "Es la única que está parada de puntitas sobre su esquina.",
-          "it": "È l’unica che sta in equilibrio sulla punta.",
-          "pt": "É a única que se equilibra em um cantinho.",
-          "sv": "Den är den enda som balanserar på ett hörn.",
-          "da": "Den er den eneste, der balancerer på et hjørne.",
-          "no": "Den er den eneste som balanserer på et hjørne.",
-          "fi": "Se on ainoa, joka tasapainoilee kulmansa varassa."
-        },
-        {
-          "en": "It's the only one with six sides.",
-          "de": "Es ist das Einzige mit sechs Seiten.",
-          "nl": "Het is de enige die zes zijden heeft.",
-          "fr": "C’est le seul qui a six côtés.",
-          "es": "Es la única que tiene seis lados.",
-          "it": "È l’unica che ha sei lati.",
-          "pt": "É a única que tem seis lados.",
-          "sv": "Den är den enda som har sex sidor.",
-          "da": "Den er den eneste, der har seks sider.",
-          "no": "Den er den eneste som har seks sider.",
-          "fi": "Se on ainoa, jossa on kuusi sivua."
-        },
-        {
-          "en": "It's the only one with dents that go in.",
-          "de": "Es ist das Einzige mit Ecken, die nach innen zeigen.",
-          "nl": "Het is de enige die deukjes naar binnen heeft.",
-          "fr": "C’est le seul qui a des creux qui rentrent dedans.",
-          "es": "Es la única que tiene esquinas que se hunden hacia adentro.",
-          "it": "È l’unica che ha degli angoli che vanno in dentro.",
-          "pt": "É a única que tem cantinhos que entram para dentro.",
-          "sv": "Den är den enda som har hörn som pekar inåt.",
-          "da": "Den er den eneste, der har hak, der går indad.",
-          "no": "Den er den eneste som har hakk som går innover.",
-          "fi": "Se on ainoa, jossa on sisäänpäin meneviä lovia."
-        }
-      ]
-    },
-    {
-      "id": "wodb-shape-23-triangles",
-      "band": "G23",
-      "cells": [
-        {
-          "t": "shape",
-          "shape": "triangle",
-          "color": "teal",
-          "size": "md",
-          "fill": "outline"
-        },
-        {
-          "t": "shape",
-          "shape": "rightTriangle",
-          "color": "teal",
-          "size": "md",
-          "fill": "filled"
-        },
-        {
-          "t": "shape",
-          "shape": "triangle",
-          "color": "teal",
-          "size": "md",
-          "fill": "filled",
-          "rot": 180
-        },
-        {
-          "t": "shape",
-          "shape": "triangle",
-          "color": "plum",
-          "size": "sm",
-          "fill": "filled"
-        }
-      ],
-      "title": {
-        "en": "All triangles!",
-        "de": "Lauter Dreiecke!",
-        "nl": "Allemaal driehoeken!",
-        "fr": "Tous des triangles !",
-        "es": "¡Puros triángulos!",
-        "it": "Tutti triangoli!",
-        "pt": "Só triângulos!",
-        "sv": "Bara trianglar!",
-        "da": "Alle er trekanter!",
-        "no": "Bare trekanter!",
-        "fi": "Pelkkiä kolmioita!"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one not colored in.",
-          "de": "Es ist das Einzige, das nicht ausgemalt ist.",
-          "nl": "Het is de enige die niet ingekleurd is.",
-          "fr": "C’est le seul qui n’est pas colorié à l’intérieur.",
-          "es": "Es el único que no está pintado por dentro.",
-          "it": "È l’unica che non è colorata dentro.",
-          "pt": "É a única que não está pintada por dentro.",
-          "sv": "Den är den enda som inte är ifylld.",
-          "da": "Den er den eneste, der ikke er farvelagt.",
-          "no": "Den er den eneste som ikke er fargelagt inni.",
-          "fi": "Se on ainoa, jota ei ole väritetty sisältä."
-        },
-        {
-          "en": "It's the only one with a square corner.",
-          "de": "Es ist das Einzige mit einer Ecke wie beim Quadrat.",
-          "nl": "Het is de enige die een rechte hoek heeft.",
-          "fr": "C’est le seul qui a un angle droit.",
-          "es": "Es el único que tiene una esquina cuadrada.",
-          "it": "È l’unica che ha un angolo retto.",
-          "pt": "É a única que tem um canto quadrado.",
-          "sv": "Den är den enda som har en rät vinkel i hörnet.",
-          "da": "Den er den eneste, der har en ret vinkel.",
-          "no": "Den er den eneste som har et helt rett hjørne.",
-          "fi": "Se on ainoa, jossa on suora kulma."
-        },
-        {
-          "en": "It's the only one standing on its point.",
-          "de": "Es ist das Einzige, das auf der Spitze steht.",
-          "nl": "Het is de enige die op zijn punt staat.",
-          "fr": "C’est le seul qui est posé sur sa pointe.",
-          "es": "Es el único que está parado sobre su puntita.",
-          "it": "È l’unica che sta a testa in giù, appoggiata sulla punta.",
-          "pt": "É a única que fica em pé na pontinha.",
-          "sv": "Den är den enda som står på spetsen.",
-          "da": "Den er den eneste, der står på spidsen.",
-          "no": "Den er den eneste som står på spissen.",
-          "fi": "Se on ainoa, joka seisoo kärjellään."
-        },
-        {
-          "en": "It's the only purple one — and the only small one.",
-          "de": "Es ist das Einzige, das lila ist — und das einzige kleine.",
-          "nl": "Het is de enige die paars is — en ook nog de kleinste!",
-          "fr": "C’est le seul qui est violet — et le seul tout petit.",
-          "es": "Es el único que es morado… ¡y también el más chiquito!",
-          "it": "È l’unica che è viola — e anche l’unica piccola.",
-          "pt": "É a única que é roxa — e também a única pequenininha.",
-          "sv": "Den är den enda som är lila — och den enda som är liten.",
-          "da": "Den er den eneste, der er lilla — og den eneste, der er helt lille.",
-          "no": "Den er den eneste som er lilla — og den eneste som er liten.",
-          "fi": "Se on ainoa, joka on violetti — ja ainoa, joka on pieni."
-        }
-      ]
-    },
-    {
-      "id": "wodb-dots-k-four",
-      "band": "K",
-      "cells": [
-        {
-          "t": "dots",
-          "arr": "dice",
-          "n": 4
-        },
-        {
-          "t": "dots",
-          "arr": "row",
-          "n": 4
-        },
-        {
-          "t": "dots",
-          "arr": "scatter",
-          "n": 4
-        },
-        {
-          "t": "dots",
-          "arr": "dice",
-          "n": 5
-        }
-      ],
-      "title": {
-        "en": "Dots: ways to see four",
-        "de": "Punkte: So kann vier aussehen",
-        "nl": "Stippen: manieren om vier te zien",
-        "fr": "Points : des façons de voir quatre",
-        "es": "Puntos: maneras de ver el cuatro",
-        "it": "Punti: quattro in tanti modi",
-        "pt": "Pontos: jeitos de ver o quatro",
-        "sv": "Prickar: sätt att se fyra",
-        "da": "Prikker: fire på mange måder",
-        "no": "Prikker: måter å se fire på",
-        "fi": "Pisteet: monta tapaa nähdä neljä"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one whose dots make a square.",
-          "de": "Es ist das Einzige, bei dem die Punkte ein Viereck bilden.",
-          "nl": "Het is de enige die van de stippen een vierkant maakt.",
-          "fr": "C’est le seul dont les points forment un carré.",
-          "es": "Es el único que forma un cuadrado con sus puntos.",
-          "it": "È l’unico che con i suoi punti disegna un quadrato.",
-          "pt": "É o único que tem os pontos formando um quadradinho.",
-          "sv": "Den är den enda som har prickar som gör en fyrkant.",
-          "da": "Det er det eneste, der har prikker, som danner en firkant.",
-          "no": "Det er det eneste som har prikker som lager en firkant.",
-          "fi": "Se on ainoa, jonka pisteet muodostavat neliön."
-        },
-        {
-          "en": "It's the only one in a straight line.",
-          "de": "Es ist das Einzige mit Punkten in einer geraden Reihe.",
-          "nl": "Het is de enige die de stippen op één rechte rij heeft.",
-          "fr": "C’est le seul qui a tous ses points sur une ligne droite.",
-          "es": "Es el único que tiene sus puntos en línea recta.",
-          "it": "È l’unico che ha i punti tutti in fila.",
-          "pt": "É o único que tem os pontos em uma fila retinha.",
-          "sv": "Den är den enda som har prickarna på en rak rad.",
-          "da": "Det er det eneste, der har alle prikker på én lige række.",
-          "no": "Det er det eneste som har alle prikkene på rekke.",
-          "fi": "Se on ainoa, jossa pisteet ovat suorassa rivissä."
-        },
-        {
-          "en": "It's the only one with dots all jumbled up.",
-          "de": "Es ist das Einzige, bei dem die Punkte durcheinander liegen.",
-          "nl": "Het is de enige die de stippen kriskras door elkaar heeft.",
-          "fr": "C’est le seul qui a ses points tout mélangés.",
-          "es": "Es el único que tiene los puntos regados por todos lados.",
-          "it": "È l’unico che ha i punti sparsi qua e là.",
-          "pt": "É o único que tem os pontos todos espalhados.",
-          "sv": "Den är den enda som har prickarna huller om buller.",
-          "da": "Det er det eneste, der har prikker, som ligger hulter til bulter.",
-          "no": "Det er det eneste som har prikkene hulter til bulter.",
-          "fi": "Se on ainoa, jossa pisteet ovat iloisesti sikin sokin."
-        },
-        {
-          "en": "It's the only one with five dots.",
-          "de": "Es ist das Einzige mit fünf Punkten.",
-          "nl": "Het is de enige die vijf stippen heeft.",
-          "fr": "C’est le seul qui a cinq points.",
-          "es": "Es el único que tiene cinco puntos.",
-          "it": "È l’unico che ha cinque punti.",
-          "pt": "É o único que tem cinco pontos.",
-          "sv": "Den är den enda som har fem prickar.",
-          "da": "Det er det eneste, der har fem prikker.",
-          "no": "Det er det eneste som har fem prikker.",
-          "fi": "Se on ainoa, jossa on viisi pistettä."
-        }
-      ]
-    },
-    {
-      "id": "wodb-dots-k-six",
-      "band": "K",
-      "cells": [
-        {
-          "t": "dots",
-          "arr": "dice",
-          "n": 6
-        },
-        {
-          "t": "dots",
-          "arr": "row",
-          "n": 6
-        },
-        {
-          "t": "dots",
-          "arr": "circle",
-          "n": 6
-        },
-        {
-          "t": "dots",
-          "arr": "tenframe",
-          "n": 7
-        }
-      ],
-      "title": {
-        "en": "Dots: ways to see six",
-        "de": "Punkte: So kann sechs aussehen",
-        "nl": "Stippen: manieren om zes te zien",
-        "fr": "Points : des façons de voir six",
-        "es": "Puntos: maneras de ver el seis",
-        "it": "Punti: sei in tanti modi",
-        "pt": "Pontos: jeitos de ver o seis",
-        "sv": "Prickar: sätt att se sex",
-        "da": "Prikker: seks på mange måder",
-        "no": "Prikker: måter å se seks på",
-        "fi": "Pisteet: monta tapaa nähdä kuusi"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one that looks like six on a dice.",
-          "de": "Es ist das Einzige, das wie die Sechs auf dem Würfel aussieht.",
-          "nl": "Het is de enige die eruitziet als de zes op een dobbelsteen.",
-          "fr": "C’est le seul qui ressemble au six du dé.",
-          "es": "Es el único que se ve como el seis del dado.",
-          "it": "È l’unico che è uguale al sei del dado.",
-          "pt": "É o único que parece o seis do dado.",
-          "sv": "Den är den enda som ser ut som sexan på en tärning.",
-          "da": "Det er det eneste, der ligner sekseren på en terning.",
-          "no": "Det er det eneste som ser ut som sekseren på en terning.",
-          "fi": "Se on ainoa, joka näyttää nopan kuutoselta."
-        },
-        {
-          "en": "It's the only one in a straight line.",
-          "de": "Es ist das Einzige mit Punkten in einer geraden Reihe.",
-          "nl": "Het is de enige die de stippen op één rechte rij heeft.",
-          "fr": "C’est le seul qui a tous ses points sur une ligne droite.",
-          "es": "Es el único que tiene sus puntos en línea recta.",
-          "it": "È l’unico che ha i punti tutti in fila.",
-          "pt": "É o único que tem os pontos em fila.",
-          "sv": "Den är den enda som har prickarna på en rak rad.",
-          "da": "Det er det eneste, der har alle prikker på én lige række.",
-          "no": "Det er det eneste som har alle prikkene på rekke.",
-          "fi": "Se on ainoa, jossa pisteet ovat suorassa rivissä."
-        },
-        {
-          "en": "It's the only one that makes a ring.",
-          "de": "Es ist das Einzige, bei dem die Punkte einen Kreis bilden.",
-          "nl": "Het is de enige die van de stippen een kring maakt.",
-          "fr": "C’est le seul dont les points font la ronde.",
-          "es": "Es el único que forma una rueda.",
-          "it": "È l’unico che con i punti fa un girotondo.",
-          "pt": "É o único que forma uma rodinha.",
-          "sv": "Den är den enda som gör en ring.",
-          "da": "Det er det eneste, der danner en rund ring.",
-          "no": "Det er det eneste som lager en ring.",
-          "fi": "Se on ainoa, joka muodostaa renkaan."
-        },
-        {
-          "en": "It's the only one with seven dots.",
-          "de": "Es ist das Einzige mit sieben Punkten.",
-          "nl": "Het is de enige die zeven stippen heeft.",
-          "fr": "C’est le seul qui a sept points.",
-          "es": "Es el único que tiene siete puntos.",
-          "it": "È l’unico che ha sette punti.",
-          "pt": "É o único que tem sete pontos.",
-          "sv": "Den är den enda som har sju prickar.",
-          "da": "Det er det eneste, der har syv prikker.",
-          "no": "Det er det eneste som har sju prikker.",
-          "fi": "Se on ainoa, jossa on seitsemän pistettä."
-        }
-      ]
-    },
-    {
-      "id": "wodb-dots-1-twelve",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "dots",
-          "arr": "circle",
-          "n": 12
-        },
-        {
-          "t": "dots",
-          "arr": "row",
-          "n": 12
-        },
-        {
-          "t": "dots",
-          "arr": "scatter",
-          "n": 12
-        },
-        {
-          "t": "dots",
-          "arr": "tenframe",
-          "n": 10
-        }
-      ],
-      "title": {
-        "en": "Dots: a dozen ways",
-        "de": "Punkte: ein ganzes Dutzend",
-        "nl": "Twaalf stippen — of toch niet?",
-        "fr": "Points : une douzaine de façons",
-        "es": "Puntos: una docena de maneras",
-        "it": "Una dozzina di punti… o quasi",
-        "pt": "Pontos: uma dúzia de jeitos",
-        "sv": "Prickar: ett dussin sätt",
-        "da": "Prikker: tolv på mange måder",
-        "no": "Prikker: tolv på mange måter",
-        "fi": "Pisteet: tusina monella tavalla"
-      },
-      "reasons": [
-        {
-          "en": "It's the only ring — no beginning and no end.",
-          "de": "Es ist das Einzige, das einen Ring bildet — ohne Anfang und Ende.",
-          "nl": "Het is de enige die een kring maakt — zonder begin en zonder eind.",
-          "fr": "C’est le seul qui fait une boucle, sans début ni fin.",
-          "es": "Es el único que forma una rueda sin principio ni fin.",
-          "it": "È l’unico che fa un cerchio senza inizio e senza fine.",
-          "pt": "É o único que faz uma roda — sem começo e sem fim.",
-          "sv": "Den är den enda som gör en ring — utan början och utan slut.",
-          "da": "Det er det eneste, der danner en ring uden begyndelse og slutning.",
-          "no": "Det er det eneste som lager en ring uten start og slutt.",
-          "fi": "Se on ainoa, joka on rengas — ilman alkua ja loppua."
-        },
-        {
-          "en": "It's the only one lined up in a row.",
-          "de": "Es ist das Einzige, bei dem alle Punkte in einer Reihe stehen.",
-          "nl": "Het is de enige die alle stippen op één lange rij heeft.",
-          "fr": "C’est le seul qui est rangé sur une seule ligne.",
-          "es": "Es el único que está formado en una fila derechita.",
-          "it": "È l’unico che ha i punti in fila, uno dietro l’altro.",
-          "pt": "É o único que tem os pontos enfileirados.",
-          "sv": "Den är den enda som har prickarna uppradade på en lång rad.",
-          "da": "Det er det eneste, der har alle prikker på én lang række.",
-          "no": "Det er det eneste som har prikkene på én lang rekke.",
-          "fi": "Se on ainoa, jossa pisteet ovat yhdessä rivissä."
-        },
-        {
-          "en": "It's the only one you must count extra carefully.",
-          "de": "Es ist das Einzige, bei dem man ganz genau zählen muss.",
-          "nl": "Het is de enige die je stip voor stip heel precies moet tellen.",
-          "fr": "C’est le seul qu’on doit compter avec beaucoup d’attention.",
-          "es": "Es el único que tienes que contar con muchísimo cuidado.",
-          "it": "È l’unico che ti fa contare con gli occhi bene aperti.",
-          "pt": "É o único que você precisa contar com muito cuidado.",
-          "sv": "Den är den enda som du måste räkna extra noga.",
-          "da": "Det er det eneste, der skal tælles ekstra omhyggeligt.",
-          "no": "Det er det eneste som du må telle ekstra nøye.",
-          "fi": "Se on ainoa, jota pitää laskea erityisen tarkasti."
-        },
-        {
-          "en": "It's the only one showing ten — and the only one in a frame.",
-          "de": "Es ist das Einzige, das zehn zeigt — und das einzige im Zehnerfeld.",
-          "nl": "Het is de enige die tien stippen heeft — én de enige in een tienraam.",
-          "fr": "C’est le seul qui montre dix — et le seul dans un cadre.",
-          "es": "Es el único que muestra diez… ¡y el único dentro de un marco!",
-          "it": "È l’unico che fa dieci — ed è l’unico dentro una cornice.",
-          "pt": "É o único que mostra dez — e o único dentro de um quadro.",
-          "sv": "Den är den enda som visar tio — och den enda som bor i en ram.",
-          "da": "Det er det eneste, der viser ti — og det eneste, der bor i en ramme.",
-          "no": "Det er det eneste som viser ti — og det eneste med ramme.",
-          "fi": "Se on ainoa, jossa on tasan kymmenen — ja ainoa kymmenruudukossa."
-        }
-      ]
-    },
-    {
-      "id": "wodb-clock-1-oclock",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "clock",
-          "h": 3,
-          "m": 0
-        },
-        {
-          "t": "clock",
-          "h": 6,
-          "m": 0
-        },
-        {
-          "t": "clock",
-          "h": 9,
-          "m": 0
-        },
-        {
-          "t": "clock",
-          "h": 12,
-          "m": 0
-        }
-      ],
-      "title": {
-        "en": "Clocks on the hour",
-        "de": "Uhren zur vollen Stunde",
-        "nl": "Klokken op het hele uur",
-        "fr": "Horloges à l’heure pile",
-        "es": "Relojes en punto",
-        "it": "Orologi in punto",
-        "pt": "Relógios: horas em ponto",
-        "sv": "Klockor på hel timme",
-        "da": "Ure, der viser hel time",
-        "no": "Klokker på hel time",
-        "fi": "Neljä tasatuntia"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one where the little hand points right.",
-          "de": "Es ist das Einzige, bei dem der kleine Zeiger nach rechts zeigt.",
-          "nl": "Het is de enige die met de kleine wijzer naar rechts wijst.",
-          "fr": "C’est la seule où la petite aiguille pointe vers la droite.",
-          "es": "Es el único que apunta con la manecilla chica a la derecha.",
-          "it": "È l’unico che ha la lancetta corta che guarda a destra.",
-          "pt": "É o único que tem o ponteiro pequeno apontando para a direita.",
-          "sv": "Den är den enda som har den korta visaren rakt åt höger.",
-          "da": "Det er det eneste, der peger til højre med den lille viser.",
-          "no": "Den er den eneste som har den lille viseren mot høyre.",
-          "fi": "Se on ainoa, jossa pieni viisari osoittaa oikealle."
-        },
-        {
-          "en": "It's the only one where the hands make one straight line.",
-          "de": "Es ist das Einzige, bei dem die Zeiger eine gerade Linie bilden.",
-          "nl": "Het is de enige die met zijn wijzers één rechte lijn maakt.",
-          "fr": "C’est la seule où les aiguilles font une grande ligne droite.",
-          "es": "Es el único que forma una línea recta con sus manecillas.",
-          "it": "È l’unico che ha le lancette che formano una linea dritta.",
-          "pt": "É o único que tem os ponteiros formando uma linha reta.",
-          "sv": "Den är den enda som har visare som bildar en rak linje.",
-          "da": "Det er det eneste, der har viserne på én lige linje.",
-          "no": "Den er den eneste som har viserne på én rett linje.",
-          "fi": "Se on ainoa, jossa viisarit muodostavat suoran viivan."
-        },
-        {
-          "en": "It's the only one where the little hand points left.",
-          "de": "Es ist das Einzige, bei dem der kleine Zeiger nach links zeigt.",
-          "nl": "Het is de enige die met de kleine wijzer naar links wijst.",
-          "fr": "C’est la seule où la petite aiguille pointe vers la gauche.",
-          "es": "Es el único que apunta con la manecilla chica a la izquierda.",
-          "it": "È l’unico che ha la lancetta corta che guarda a sinistra.",
-          "pt": "É o único que tem o ponteiro pequeno apontando para a esquerda.",
-          "sv": "Den är den enda som har den korta visaren rakt åt vänster.",
-          "da": "Det er det eneste, der peger til venstre med den lille viser.",
-          "no": "Den er den eneste som har den lille viseren mot venstre.",
-          "fi": "Se on ainoa, jossa pieni viisari osoittaa vasemmalle."
-        },
-        {
-          "en": "It's the only one where the hands hide on top of each other.",
-          "de": "Es ist das Einzige, bei dem ein Zeiger den anderen versteckt.",
-          "nl": "Het is de enige die de twee wijzers boven op elkaar verstopt.",
-          "fr": "C’est la seule où les deux aiguilles se cachent l’une sur l’autre.",
-          "es": "Es el único que esconde una manecilla abajo de la otra.",
-          "it": "È l’unico che ha le lancette nascoste una sopra l’altra.",
-          "pt": "É o único que tem um ponteiro escondido embaixo do outro.",
-          "sv": "Den är den enda som har visare som gömmer sig ovanpå varandra.",
-          "da": "Det er det eneste, der har begge visere gemt oven på hinanden.",
-          "no": "Den er den eneste som gjemmer viserne oppå hverandre.",
-          "fi": "Se on ainoa, jossa viisarit piiloutuvat toistensa päälle."
-        }
-      ]
-    },
-    {
-      "id": "wodb-clock-23-four",
-      "band": "G23",
-      "cells": [
-        {
-          "t": "clock",
-          "h": 4,
-          "m": 0
-        },
-        {
-          "t": "clock",
-          "h": 4,
-          "m": 15
-        },
-        {
-          "t": "clock",
-          "h": 4,
-          "m": 30
-        },
-        {
-          "t": "clock",
-          "h": 4,
-          "m": 45
-        }
-      ],
-      "title": {
-        "en": "Four o'clock — four ways",
-        "de": "Vier Uhr — viermal anders",
-        "nl": "Vier uur — op vier manieren",
-        "fr": "Quatre heures — de quatre façons",
-        "es": "Las cuatro… de cuatro maneras",
-        "it": "Le quattro… in quattro modi",
-        "pt": "Quatro horas — de quatro jeitos",
-        "sv": "Klockan fyra — på fyra sätt",
-        "da": "Klokken fire — på fire måder",
-        "no": "Klokka fire — på fire måter",
-        "fi": "Kello neljä — neljällä tavalla"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one exactly on the hour.",
-          "de": "Es ist das Einzige genau zur vollen Stunde.",
-          "nl": "Het is de enige die precies op het hele uur staat.",
-          "fr": "C’est la seule où il est quatre heures pile.",
-          "es": "Es el único que marca la hora en punto.",
-          "it": "È l’unico che segna le quattro in punto.",
-          "pt": "É o único que marca quatro horas em ponto.",
-          "sv": "Den är den enda som visar ett helt klockslag.",
-          "da": "Det er det eneste, der viser lige præcis hel time.",
-          "no": "Den er den eneste som er akkurat på hel time.",
-          "fi": "Se on ainoa, joka näyttää tasatuntia."
-        },
-        {
-          "en": "It's the only one where the long hand points to the 3.",
-          "de": "Es ist das Einzige, bei dem der große Zeiger auf die 3 zeigt.",
-          "nl": "Het is de enige die met de grote wijzer naar de 3 wijst.",
-          "fr": "C’est la seule où la grande aiguille pointe sur le 3.",
-          "es": "Es el único que apunta con la manecilla grande al 3.",
-          "it": "È l’unico che ha la lancetta lunga sul 3.",
-          "pt": "É o único que tem o ponteiro grande apontando para o 3.",
-          "sv": "Den är den enda som har den långa visaren på trean.",
-          "da": "Det er det eneste, der peger på 3-tallet med den store viser.",
-          "no": "Den er den eneste som har den store viseren på tretallet.",
-          "fi": "Se on ainoa, jossa iso viisari osoittaa kolmosta."
-        },
-        {
-          "en": "It's the only one at half past.",
-          "de": "Es ist das Einzige, das genau halb fünf zeigt.",
-          "nl": "Het is de enige die half vijf laat zien.",
-          "fr": "C’est la seule où il est quatre heures et demie.",
-          "es": "Es el único que marca la media hora.",
-          "it": "È l’unico che segna le quattro e mezza.",
-          "pt": "É o único que marca quatro e meia.",
-          "sv": "Den är den enda som visar halv fem.",
-          "da": "Det er det eneste, der viser halv fem.",
-          "no": "Den er den eneste som viser halv fem.",
-          "fi": "Se on ainoa, jossa kello on puoli viisi."
-        },
-        {
-          "en": "It's the only one where the little hand is closer to the 5.",
-          "de": "Es ist das Einzige, bei dem der kleine Zeiger fast bei der 5 ist.",
-          "nl": "Het is de enige die de kleine wijzer al bijna bij de 5 heeft.",
-          "fr": "C’est la seule où la petite aiguille est tout près du 5.",
-          "es": "Es el único que tiene la manecilla chica más cerca del 5.",
-          "it": "È l’unico che ha la lancetta corta più vicina al 5.",
-          "pt": "É o único que tem o ponteiro pequeno mais perto do 5.",
-          "sv": "Den är den enda som har den korta visaren närmast femman.",
-          "da": "Det er det eneste, der har den lille viser tættest på 5-tallet.",
-          "no": "Den er den eneste som har den lille viseren nesten på femtallet.",
-          "fi": "Se on ainoa, jossa pieni viisari on lähempänä viitosta."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-k-flyers",
-      "band": "K",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "things_that_fly",
-          "d": "Things That Fly",
-          "f": "bird",
-          "k": "bird"
-        },
-        {
-          "t": "img",
-          "theme": "things_that_fly",
-          "d": "Things That Fly",
-          "f": "butterfly",
-          "k": "butterfly"
-        },
-        {
-          "t": "img",
-          "theme": "things_that_fly",
-          "d": "Things That Fly",
-          "f": "bee",
-          "k": "bee"
-        },
-        {
-          "t": "img",
-          "theme": "pets",
-          "d": "pets",
-          "f": "dog",
-          "k": "dog"
-        }
-      ],
-      "title": {
-        "en": "Bird, butterfly, bee, dog",
-        "de": "Vogel, Schmetterling, Biene, Hund",
-        "nl": "Vogel, vlinder, bij, hond",
-        "fr": "Oiseau, papillon, abeille, chien",
-        "es": "Pájaro, mariposa, abeja y perro",
-        "it": "Uccello, farfalla, ape, cane",
-        "pt": "Passarinho, borboleta, abelha, cachorro",
-        "sv": "Fågel, fjäril, bi och hund",
-        "da": "Fugl, sommerfugl, bi og hund",
-        "no": "Fugl, sommerfugl, bie og hund",
-        "fi": "Lintu, perhonen, mehiläinen ja koira"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with feathers.",
-          "de": "Es ist das Einzige mit Federn.",
-          "nl": "Het is de enige die veren heeft.",
-          "fr": "C’est le seul qui a des plumes.",
-          "es": "Es el único que tiene plumas.",
-          "it": "È l’unico che ha le piume.",
-          "pt": "É o único que tem penas.",
-          "sv": "Den är den enda som har fjädrar.",
-          "da": "Den er den eneste, der har fjer.",
-          "no": "Den er den eneste som har fjær.",
-          "fi": "Se on ainoa, jolla on höyhenet."
-        },
-        {
-          "en": "It's the only one that starts life as a caterpillar.",
-          "de": "Es ist das Einzige, das zuerst eine Raupe war.",
-          "nl": "Het is de enige die zijn leven als rups begint.",
-          "fr": "C’est le seul qui commence sa vie en chenille.",
-          "es": "Es la única que empieza su vida como oruga.",
-          "it": "È l’unica che da piccola era un bruco.",
-          "pt": "É a única que começa a vida como uma lagarta.",
-          "sv": "Den är den enda som börjar sitt liv som en larv.",
-          "da": "Den er den eneste, der begynder livet som en larve.",
-          "no": "Den er den eneste som starter livet som en larve.",
-          "fi": "Se on ainoa, joka aloittaa elämänsä toukkana."
-        },
-        {
-          "en": "It's the only one that makes honey.",
-          "de": "Es ist das Einzige, das Honig macht.",
-          "nl": "Het is de enige die honing maakt.",
-          "fr": "C’est la seule qui fabrique du miel.",
-          "es": "Es la única que hace miel.",
-          "it": "È l’unica che fa il miele.",
-          "pt": "É a única que faz mel.",
-          "sv": "Det är det enda som gör honung.",
-          "da": "Den er den eneste, der laver honning.",
-          "no": "Den er den eneste som lager honning.",
-          "fi": "Se on ainoa, joka tekee hunajaa."
-        },
-        {
-          "en": "It's the only one that can't fly.",
-          "de": "Es ist das Einzige, das nicht fliegen kann.",
-          "nl": "Het is de enige die niet kan vliegen.",
-          "fr": "C’est le seul qui ne sait pas voler.",
-          "es": "Es el único que no puede volar.",
-          "it": "È l’unico che non sa volare.",
-          "pt": "É o único que não sabe voar.",
-          "sv": "Den är den enda som inte kan flyga.",
-          "da": "Den er den eneste, der ikke kan flyve.",
-          "no": "Den er den eneste som ikke kan fly.",
-          "fi": "Se on ainoa, joka ei osaa lentää."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-k-longparts",
-      "band": "K",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "zoo_animals",
-          "d": "zoo animals",
-          "f": "elephant",
-          "k": "elephant"
-        },
-        {
-          "t": "img",
-          "theme": "zoo_animals",
-          "d": "zoo animals",
-          "f": "giraffe",
-          "k": "giraffe"
-        },
-        {
-          "t": "img",
-          "theme": "pets",
-          "d": "pets",
-          "f": "rabbit",
-          "k": "rabbit"
-        },
-        {
-          "t": "img",
-          "theme": "zoo_animals",
-          "d": "zoo animals",
-          "f": "monkey",
-          "k": "monkey"
-        }
-      ],
-      "title": {
-        "en": "Everyone has a long something",
-        "de": "Alle haben etwas Langes",
-        "nl": "Iedereen heeft iets langs",
-        "fr": "Chacun a quelque chose de très long !",
-        "es": "Trompa, cuello, orejas y cola",
-        "it": "Ognuno ha qualcosa di lungo",
-        "pt": "Todo mundo tem uma parte comprida",
-        "sv": "Alla har något långt",
-        "da": "Alle har noget langt",
-        "no": "Alle har noe langt",
-        "fi": "Jokaisella on jotakin pitkää"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with a long trunk.",
-          "de": "Es ist das Einzige mit einem langen Rüssel.",
-          "nl": "Het is de enige die een lange slurf heeft.",
-          "fr": "C’est le seul qui a une longue trompe.",
-          "es": "Es el único que tiene una trompa larga.",
-          "it": "È l’unico che ha una lunga proboscide.",
-          "pt": "É o único que tem uma tromba bem comprida.",
-          "sv": "Den är den enda som har en lång snabel.",
-          "da": "Den er den eneste, der har en lang snabel.",
-          "no": "Den er den eneste som har en lang snabel.",
-          "fi": "Se on ainoa, jolla on pitkä kärsä."
-        },
-        {
-          "en": "It's the only one with a long, long neck.",
-          "de": "Es ist das Einzige mit einem langen, langen Hals.",
-          "nl": "Het is de enige die een lange, lange nek heeft.",
-          "fr": "C’est la seule qui a un très très long cou.",
-          "es": "Es la única que tiene un cuello largo, largo.",
-          "it": "È l’unica che ha un collo lungo lungo.",
-          "pt": "É a única que tem um pescoço bem, bem comprido.",
-          "sv": "Den är den enda som har en lång, lång hals.",
-          "da": "Den er den eneste, der har en lang, lang hals.",
-          "no": "Den er den eneste som har en lang, lang hals.",
-          "fi": "Se on ainoa, jolla on pitkä, pitkä kaula."
-        },
-        {
-          "en": "It's the only one with long ears.",
-          "de": "Es ist das Einzige mit langen Ohren.",
-          "nl": "Het is het enige dat lange oren heeft.",
-          "fr": "C’est le seul qui a de longues oreilles.",
-          "es": "Es el único que tiene las orejas largas.",
-          "it": "È l’unico che ha le orecchie lunghe.",
-          "pt": "É o único que tem orelhas compridas.",
-          "sv": "Den är den enda som har långa öron.",
-          "da": "Den er den eneste, der har lange ører.",
-          "no": "Den er den eneste som har lange ører.",
-          "fi": "Se on ainoa, jolla on pitkät korvat."
-        },
-        {
-          "en": "It's the only one with a long curly tail.",
-          "de": "Es ist das Einzige mit einem langen, geringelten Schwanz.",
-          "nl": "Het is de enige die een lange krulstaart heeft.",
-          "fr": "C’est le seul qui a une longue queue toute enroulée.",
-          "es": "Es el único que tiene una cola larga y enroscada.",
-          "it": "È l’unica che ha una lunga coda arricciata.",
-          "pt": "É o único que tem um rabo comprido e enrolado.",
-          "sv": "Den är den enda som har en lång, ringlande svans.",
-          "da": "Den er den eneste, der har en lang, krøllet hale.",
-          "no": "Den er den eneste som har en lang, krøllete hale.",
-          "fi": "Se on ainoa, jolla on pitkä kippurahäntä."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-k-food",
-      "band": "K",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "fruits",
-          "d": "fruits",
-          "f": "apple",
-          "k": "apple"
-        },
-        {
-          "t": "img",
-          "theme": "fruits",
-          "d": "fruits",
-          "f": "banana",
-          "k": "banana"
-        },
-        {
-          "t": "img",
-          "theme": "vegetables",
-          "d": "vegetables",
-          "f": "carrot",
-          "k": "carrot"
-        },
-        {
-          "t": "img",
-          "theme": "desserts_and_sweets",
-          "d": "desserts and sweets",
-          "f": "cookie",
-          "k": "cookie"
-        }
-      ],
-      "title": {
-        "en": "Apple, banana, carrot, cookie",
-        "de": "Apfel, Banane, Karotte, Keks",
-        "nl": "Appel, banaan, wortel, koekje",
-        "fr": "Pomme, banane, carotte, biscuit",
-        "es": "Manzana, plátano, zanahoria y galleta",
-        "it": "Mela, banana, carota, biscotto",
-        "pt": "Maçã, banana, cenoura, biscoito",
-        "sv": "Äpple, banan, morot och kaka",
-        "da": "Æble, banan, gulerod og småkage",
-        "no": "Eple, banan, gulrot og kjeks",
-        "fi": "Omena, banaani, porkkana ja keksi"
-      },
-      "reasons": [
-        {
-          "en": "It's the only red one.",
-          "de": "Es ist das Einzige, das rot ist.",
-          "nl": "Het is de enige die rood is.",
-          "fr": "C’est la seule qui est rouge.",
-          "es": "Es la única que es roja.",
-          "it": "È l’unica che è rossa.",
-          "pt": "É a única que é vermelha.",
-          "sv": "Det är det enda som är rött.",
-          "da": "Det er det eneste, der er rødt.",
-          "no": "Den er den eneste som er rød.",
-          "fi": "Se on ainoa, joka on punainen."
-        },
-        {
-          "en": "It's the only one you peel open.",
-          "de": "Es ist das Einzige, das man mit den Händen aufmacht.",
-          "nl": "Het is de enige die je openpelt.",
-          "fr": "C’est la seule qu’on épluche pour l’ouvrir.",
-          "es": "Es el único que pelas antes de comértelo.",
-          "it": "È l’unica che si apre tirando giù la buccia.",
-          "pt": "É a única que você descasca para comer.",
-          "sv": "Den är den enda som du skalar.",
-          "da": "Den er den eneste, der skal skrælles først.",
-          "no": "Den er den eneste som du må skrelle først.",
-          "fi": "Se on ainoa, joka avataan kuorimalla."
-        },
-        {
-          "en": "It's the only one that grows under the ground.",
-          "de": "Es ist das Einzige, das unter der Erde wächst.",
-          "nl": "Het is de enige die onder de grond groeit.",
-          "fr": "C’est la seule qui pousse sous la terre.",
-          "es": "Es la única que crece abajo de la tierra.",
-          "it": "È l’unica che cresce sotto terra.",
-          "pt": "É a única que cresce debaixo da terra.",
-          "sv": "Den är den enda som växer under jorden.",
-          "da": "Den er den eneste, der vokser nede i jorden.",
-          "no": "Den er den eneste som vokser under jorda.",
-          "fi": "Se on ainoa, joka kasvaa maan alla."
-        },
-        {
-          "en": "It's the only one that is baked, not grown.",
-          "de": "Es ist das Einzige, das gebacken wird und nicht wächst.",
-          "nl": "Het is het enige dat uit de oven komt en niet uit de tuin.",
-          "fr": "C’est le seul qui sort du four et ne pousse pas.",
-          "es": "Es la única que sale del horno y no de una planta.",
-          "it": "È l’unico che esce dal forno, non dall’orto.",
-          "pt": "É o único que sai do forno, não do pé.",
-          "sv": "Den är den enda som är bakad, inte odlad.",
-          "da": "Den er den eneste, der er bagt — ikke groet.",
-          "no": "Den er den eneste som er bakt, ikke dyrket.",
-          "fi": "Se on ainoa, joka leivotaan uunissa eikä kasva maassa."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-k-clothes",
-      "band": "K",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "clothing",
-          "d": "clothing",
-          "f": "mitten",
-          "k": "mitten"
-        },
-        {
-          "t": "img",
-          "theme": "clothing",
-          "d": "clothing",
-          "f": "scarf",
-          "k": "scarf"
-        },
-        {
-          "t": "img",
-          "theme": "clothing",
-          "d": "clothing",
-          "f": "boots",
-          "k": "boots"
-        },
-        {
-          "t": "img",
-          "theme": "clothing",
-          "d": "clothing",
-          "f": "swimsuit",
-          "k": "swimsuit"
-        }
-      ],
-      "title": {
-        "en": "What do we wear?",
-        "de": "Was ziehen wir an?",
-        "nl": "Wat trekken we aan?",
-        "fr": "Qu’est-ce qu’on porte ?",
-        "es": "¿Qué nos ponemos?",
-        "it": "Cosa ci mettiamo addosso?",
-        "pt": "O que a gente veste?",
-        "sv": "Vad har vi på oss?",
-        "da": "Hvad har vi på?",
-        "no": "Hva har vi på oss?",
-        "fi": "Mitä puemme päälle?"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one for your hands.",
-          "de": "Es ist das Einzige für die Hände.",
-          "nl": "Het is de enige die om je handen past.",
-          "fr": "C’est le seul qu’on met sur les mains.",
-          "es": "Es la única que es para tus manos.",
-          "it": "È l’unica che tiene calde le mani.",
-          "pt": "É a única que você usa nas mãos.",
-          "sv": "Det är det enda som du har på händerna.",
-          "da": "Den er den eneste, der er til hænderne.",
-          "no": "Den er den eneste som er til hendene.",
-          "fi": "Se on ainoa, joka puetaan käsiin."
-        },
-        {
-          "en": "It's the only one for your neck.",
-          "de": "Es ist das Einzige für den Hals.",
-          "nl": "Het is de enige die om je nek gaat.",
-          "fr": "C’est le seul qu’on enroule autour du cou.",
-          "es": "Es la única que es para tu cuello.",
-          "it": "È l’unica che avvolge il collo.",
-          "pt": "É a única que você enrola no pescoço.",
-          "sv": "Det är det enda som du har runt halsen.",
-          "da": "Det er det eneste, der er til halsen.",
-          "no": "Den er den eneste som er til halsen.",
-          "fi": "Se on ainoa, joka kiedotaan kaulaan."
-        },
-        {
-          "en": "It's the only one for your feet.",
-          "de": "Es ist das Einzige für die Füße.",
-          "nl": "Het is het enige dat je aan je voeten draagt.",
-          "fr": "C’est le seul qu’on enfile aux pieds.",
-          "es": "Es la única que es para tus pies.",
-          "it": "È l’unico che metti ai piedi.",
-          "pt": "É a única que você calça nos pés.",
-          "sv": "Det är det enda som du har på fötterna.",
-          "da": "Det er det eneste, der er til fødderne.",
-          "no": "Den er den eneste som er til føttene.",
-          "fi": "Se on ainoa, joka puetaan jalkoihin."
-        },
-        {
-          "en": "It's the only one for hot summer days.",
-          "de": "Es ist das Einzige für heiße Sommertage.",
-          "nl": "Het is het enige dat je aantrekt als het heet is.",
-          "fr": "C’est le seul qu’on porte pour aller se baigner.",
-          "es": "Es la única que es para los días de mucho calor.",
-          "it": "È l’unico che usi nei giorni caldi d’estate.",
-          "pt": "É a única que você usa nos dias quentes de verão.",
-          "sv": "Det är det enda som du har på dig varma sommardagar.",
-          "da": "Den er den eneste, der er til varme sommerdage.",
-          "no": "Den er den eneste som er til varme sommerdager.",
-          "fi": "Se on ainoa, joka puetaan kuumana kesäpäivänä."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-1-vehicles",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "vehicles",
-          "d": "vehicles",
-          "f": "bus",
-          "k": "bus"
-        },
-        {
-          "t": "img",
-          "theme": "vehicles",
-          "d": "vehicles",
-          "f": "boat",
-          "k": "boat"
-        },
-        {
-          "t": "img",
-          "theme": "vehicles",
-          "d": "vehicles",
-          "f": "airplane",
-          "k": "airplane"
-        },
-        {
-          "t": "img",
-          "theme": "vehicles",
-          "d": "vehicles",
-          "f": "bicycle",
-          "k": "bicycle"
-        }
-      ],
-      "title": {
-        "en": "How do we travel?",
-        "de": "Wie sind wir unterwegs?",
-        "nl": "Hoe reizen we?",
-        "fr": "Comment on se déplace ?",
-        "es": "¿Cómo viajamos?",
-        "it": "Come viaggiamo?",
-        "pt": "Como a gente viaja?",
-        "sv": "Hur tar vi oss fram?",
-        "da": "Hvordan kommer vi rundt?",
-        "no": "Hvordan reiser vi?",
-        "fi": "Miten me matkustamme?"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one that waits for you at a bus stop.",
-          "de": "Es ist das Einzige, das an der Haltestelle auf dich wartet.",
-          "nl": "Het is de enige die bij de bushalte op je wacht.",
-          "fr": "C’est le seul qui nous attend à l’arrêt de bus.",
-          "es": "Es el único que te espera en su parada.",
-          "it": "È l’unico che ti aspetta alla fermata.",
-          "pt": "É o único que espera você no ponto de ônibus.",
-          "sv": "Den är den enda som väntar på dig vid en hållplats.",
-          "da": "Den er den eneste, der venter på dig ved et busstoppested.",
-          "no": "Den er den eneste som venter på deg ved en holdeplass.",
-          "fi": "Se on ainoa, joka odottaa sinua pysäkillä."
-        },
-        {
-          "en": "It's the only one that travels on water.",
-          "de": "Es ist das Einzige, das auf dem Wasser fährt.",
-          "nl": "Het is de enige die over het water vaart.",
-          "fr": "C’est le seul qui se déplace sur l’eau.",
-          "es": "Es el único que viaja por el agua.",
-          "it": "È l’unica che viaggia sull’acqua.",
-          "pt": "É o único que anda na água.",
-          "sv": "Den är den enda som åker på vatten.",
-          "da": "Den er den eneste, der sejler på vandet.",
-          "no": "Den er den eneste som reiser på vannet.",
-          "fi": "Se on ainoa, joka kulkee vettä pitkin."
-        },
-        {
-          "en": "It's the only one that flies in the sky.",
-          "de": "Es ist das Einzige, das am Himmel fliegt.",
-          "nl": "Het is het enige dat door de lucht vliegt.",
-          "fr": "C’est le seul qui vole dans le ciel.",
-          "es": "Es el único que vuela por el cielo.",
-          "it": "È l’unico che vola nel cielo.",
-          "pt": "É o único que voa pelo céu.",
-          "sv": "Det är det enda som flyger på himlen.",
-          "da": "Det er det eneste, der flyver højt oppe på himlen.",
-          "no": "Den er den eneste som flyr høyt oppe i lufta.",
-          "fi": "Se on ainoa, joka lentää taivaalla."
-        },
-        {
-          "en": "It's the only one you move with your own legs.",
-          "de": "Es ist das Einzige, das du mit deinen Beinen antreibst.",
-          "nl": "Het is de enige die alleen vooruitkomt als jij trapt.",
-          "fr": "C’est le seul qu’on fait avancer avec ses jambes.",
-          "es": "Es la única que mueves con tus propias piernas.",
-          "it": "È l’unica che fai andare tu, pedalando.",
-          "pt": "É a única que anda com a força das suas pernas.",
-          "sv": "Den är den enda som du trampar fram med dina egna ben.",
-          "da": "Den er den eneste, der kører, når du selv træder i pedalerne.",
-          "no": "Den er den eneste som du beveger med dine egne bein.",
-          "fi": "Se on ainoa, jota liikutat omilla jaloillasi."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-1-legs",
-      "band": "G1",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "insects_and_bugs",
-          "d": "insects and bugs",
-          "f": "spider",
-          "k": "spider"
-        },
-        {
-          "t": "img",
-          "theme": "insects_and_bugs",
-          "d": "insects and bugs",
-          "f": "ant",
-          "k": "ant"
-        },
-        {
-          "t": "img",
-          "theme": "things_that_fly",
-          "d": "Things That Fly",
-          "f": "bird",
-          "k": "bird"
-        },
-        {
-          "t": "img",
-          "theme": "farm_animals",
-          "d": "farm animals",
-          "f": "horse",
-          "k": "horse"
-        }
-      ],
-      "title": {
-        "en": "Count the legs",
-        "de": "Beine zählen",
-        "nl": "Tel de poten",
-        "fr": "Compte les pattes",
-        "es": "Cuenta las patas",
-        "it": "Conta le zampe",
-        "pt": "Conte as pernas",
-        "sv": "Räkna benen",
-        "da": "Tæl benene",
-        "no": "Tell beina!",
-        "fi": "Laske jalat"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with eight legs.",
-          "de": "Es ist das Einzige mit acht Beinen.",
-          "nl": "Het is de enige die acht poten heeft.",
-          "fr": "C’est la seule qui a huit pattes.",
-          "es": "Es la única que tiene ocho patas.",
-          "it": "È l’unico che ha otto zampe.",
-          "pt": "É a única que tem oito pernas.",
-          "sv": "Den är den enda som har åtta ben.",
-          "da": "Den er den eneste, der har otte ben.",
-          "no": "Den er den eneste som har åtte bein.",
-          "fi": "Se on ainoa, jolla on kahdeksan jalkaa."
-        },
-        {
-          "en": "It's the only one with six legs — and the smallest.",
-          "de": "Es ist das Einzige mit sechs Beinen — und das kleinste.",
-          "nl": "Het is de enige die zes poten heeft — en de kleinste is.",
-          "fr": "C’est la seule qui a six pattes — et la plus petite.",
-          "es": "Es la única que tiene seis patas… ¡y es la más chiquita!",
-          "it": "È l’unica che ha sei zampe — ed è la più piccola.",
-          "pt": "É a única que tem seis pernas — e é a menorzinha.",
-          "sv": "Den är den enda som har sex ben — och den är minst av alla.",
-          "da": "Den er den eneste, der har seks ben — og den er allermindst.",
-          "no": "Den er den eneste som har seks bein — og er minst.",
-          "fi": "Se on ainoa, jolla on kuusi jalkaa — ja kaikista pienin."
-        },
-        {
-          "en": "It's the only one with two legs and wings.",
-          "de": "Es ist das Einzige mit zwei Beinen und Flügeln.",
-          "nl": "Het is de enige die twee poten én vleugels heeft.",
-          "fr": "C’est le seul qui a deux pattes et des ailes.",
-          "es": "Es el único que tiene dos patas y alas.",
-          "it": "È l’unico che ha due zampe e le ali.",
-          "pt": "É o único que tem duas pernas e asas.",
-          "sv": "Den är den enda som har två ben och vingar.",
-          "da": "Den er den eneste, der har to ben og vinger.",
-          "no": "Den er den eneste som har to bein og vinger.",
-          "fi": "Se on ainoa, jolla on kaksi jalkaa ja siivet."
-        },
-        {
-          "en": "It's the only one you can ride.",
-          "de": "Es ist das Einzige, auf dem man reiten kann.",
-          "nl": "Het is het enige dat jou op zijn rug laat rijden.",
-          "fr": "C’est le seul qu’on peut monter sur son dos.",
-          "es": "Es el único que te puede llevar en su lomo.",
-          "it": "È l’unico che puoi cavalcare.",
-          "pt": "É o único que você consegue montar.",
-          "sv": "Den är den enda som du kan rida på.",
-          "da": "Den er den eneste, der er stor nok til at ride på.",
-          "no": "Den er den eneste som du kan ri på.",
-          "fi": "Se on ainoa, jolla voi ratsastaa."
-        }
-      ]
-    },
-    {
-      "id": "wodb-pic-23-living",
-      "band": "G23",
-      "cells": [
-        {
-          "t": "img",
-          "theme": "tree",
-          "d": "tree",
-          "f": "oak",
-          "k": "oak-tree"
-        },
-        {
-          "t": "img",
-          "theme": "spring",
-          "d": "spring",
-          "f": "flower",
-          "k": "flower"
-        },
-        {
-          "t": "img",
-          "theme": "vegetables",
-          "d": "vegetables",
-          "f": "mushroom",
-          "k": "mushroom"
-        },
-        {
-          "t": "img",
-          "theme": "camping",
-          "d": "camping",
-          "f": "rock",
-          "k": "rock"
-        }
-      ],
-      "title": {
-        "en": "Alive or not?",
-        "de": "Lebendig oder nicht?",
-        "nl": "Levend of niet?",
-        "fr": "Vivant ou pas ?",
-        "es": "¿Vivo o no vivo?",
-        "it": "Vivo o non vivo?",
-        "pt": "Ser vivo ou não?",
-        "sv": "Levande eller inte?",
-        "da": "Levende eller ej?",
-        "no": "Levende eller ikke?",
-        "fi": "Elävä vai eloton?"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one with a trunk and branches.",
-          "de": "Es ist das Einzige mit Stamm und Ästen.",
-          "nl": "Het is de enige die een stam en takken heeft.",
-          "fr": "C’est le seul qui a un tronc et des branches.",
-          "es": "Es el único que tiene tronco y ramas.",
-          "it": "È l’unico che ha il tronco e i rami.",
-          "pt": "É a única que tem tronco e galhos.",
-          "sv": "Den är den enda som har stam och grenar.",
-          "da": "Det er det eneste, der har en stamme og grene.",
-          "no": "Den er den eneste som har stamme og greiner.",
-          "fi": "Se on ainoa, jolla on runko ja oksat."
-        },
-        {
-          "en": "It's the only one that bees visit.",
-          "de": "Es ist das Einzige, das Bienen besuchen.",
-          "nl": "Het is de enige die bezoek krijgt van bijen.",
-          "fr": "C’est la seule que les abeilles viennent butiner.",
-          "es": "Es la única que recibe visitas de las abejas.",
-          "it": "È l’unico che le api vengono a trovare.",
-          "pt": "É a única que as abelhas visitam.",
-          "sv": "Den är den enda som får besök av bin.",
-          "da": "Den er den eneste, der får besøg af bierne.",
-          "no": "Den er den eneste som får besøk av biene.",
-          "fi": "Se on ainoa, jossa mehiläiset vierailevat."
-        },
-        {
-          "en": "It's the only one that isn't a plant.",
-          "de": "Es ist das Einzige, das keine Pflanze ist.",
-          "nl": "Het is de enige die geen plant is.",
-          "fr": "C’est le seul qui n’est pas une plante.",
-          "es": "Es el único que no es una planta.",
-          "it": "È l’unico che non è una pianta.",
-          "pt": "É o único que não é uma planta.",
-          "sv": "Den är den enda som inte är en växt.",
-          "da": "Den er den eneste, der ikke er en plante.",
-          "no": "Den er den eneste som ikke er en plante.",
-          "fi": "Se on ainoa, joka ei ole kasvi."
-        },
-        {
-          "en": "It's the only one that isn't alive.",
-          "de": "Es ist das Einzige, das nicht lebt.",
-          "nl": "Het is de enige die niet leeft.",
-          "fr": "C’est le seul qui n’est pas vivant.",
-          "es": "Es la única que no es un ser vivo.",
-          "it": "È l’unico che non è vivo.",
-          "pt": "É a única que não é um ser vivo.",
-          "sv": "Den är den enda som inte lever.",
-          "da": "Den er den eneste, der ikke er levende.",
-          "no": "Den er den eneste som ikke er levende.",
-          "fi": "Se on ainoa, joka ei ole elossa."
-        }
-      ]
-    },
-    {
-      "id": "wodb-mix-23-six",
-      "band": "G23",
-      "cells": [
-        {
-          "t": "num",
-          "v": "6"
-        },
-        {
-          "t": "dots",
-          "arr": "dice",
-          "n": 6
-        },
-        {
-          "t": "word",
-          "w": {
-            "en": "six",
-            "de": "sechs",
-            "nl": "zes",
-            "fr": "six",
-            "es": "seis",
-            "it": "sei",
-            "pt": "seis",
-            "sv": "sex",
-            "da": "seks",
-            "no": "seks",
-            "fi": "kuusi"
-          }
-        },
-        {
-          "t": "clock",
-          "h": 6,
-          "m": 0
-        }
-      ],
-      "title": {
-        "en": "They all say six!",
-        "de": "Alle sagen sechs!",
-        "nl": "Ze zeggen allemaal zes!",
-        "fr": "Ils disent tous six !",
-        "es": "¡Todos dicen seis!",
-        "it": "Dicono tutti sei!",
-        "pt": "Todos mostram o seis!",
-        "sv": "Alla säger sex!",
-        "da": "Alle siger seks!",
-        "no": "Alle sier seks!",
-        "fi": "Kaikki sanovat kuusi!"
-      },
-      "reasons": [
-        {
-          "en": "It's the only one written as a digit.",
-          "de": "Es ist das Einzige, das als Ziffer geschrieben ist.",
-          "nl": "Het is de enige die met een cijfer geschreven is.",
-          "fr": "C’est le seul qui est écrit en chiffre.",
-          "es": "Es el único que se escribe con una cifra.",
-          "it": "È l’unico che è scritto in cifra.",
-          "pt": "É o único que aparece escrito com algarismo.",
-          "sv": "Det är det enda som är skrivet med en siffra.",
-          "da": "Det er det eneste, der er skrevet som et tal.",
-          "no": "Det er det eneste som er skrevet med siffer.",
-          "fi": "Se on ainoa, joka on kirjoitettu numerolla."
-        },
-        {
-          "en": "It's the only one you can count dot by dot.",
-          "de": "Es ist das Einzige, das man Punkt für Punkt zählen kann.",
-          "nl": "Het is de enige die je stip voor stip kunt tellen.",
-          "fr": "C’est le seul qu’on peut compter point par point.",
-          "es": "Es el único que puedes contar puntito por puntito.",
-          "it": "È l’unico che puoi contare punto per punto.",
-          "pt": "É o único que dá para contar ponto por ponto.",
-          "sv": "Den är den enda som du kan räkna prick för prick.",
-          "da": "Det er det eneste, der kan tælles prik for prik.",
-          "no": "Det er det eneste som du kan telle prikk for prikk.",
-          "fi": "Se on ainoa, jonka voi laskea piste pisteeltä."
-        },
-        {
-          "en": "It's the only one made of letters.",
-          "de": "Es ist das Einzige aus Buchstaben.",
-          "nl": "Het is de enige die uit letters bestaat.",
-          "fr": "C’est le seul qui est écrit avec des lettres.",
-          "es": "Es la única que está hecha de letras.",
-          "it": "È l’unico che è fatto di lettere.",
-          "pt": "É o único que é feito de letras.",
-          "sv": "Det är det enda som är skrivet med bokstäver.",
-          "da": "Det er det eneste, der er lavet af bogstaver.",
-          "no": "Det er det eneste som er skrevet med bokstaver.",
-          "fi": "Se on ainoa, joka on kirjoitettu kirjaimilla."
-        },
-        {
-          "en": "It's the only one that tells a time.",
-          "de": "Es ist das Einzige, das eine Uhrzeit zeigt.",
-          "nl": "Het is de enige die je vertelt hoe laat het is.",
-          "fr": "C’est la seule qui donne l’heure.",
-          "es": "Es el único que marca una hora.",
-          "it": "È l’unico che segna un’ora.",
-          "pt": "É o único que mostra um horário.",
-          "sv": "Den är den enda som visar ett klockslag.",
-          "da": "Det er det eneste, der viser et klokkeslæt.",
-          "no": "Det er det eneste som viser et klokkeslett.",
-          "fi": "Se on ainoa, joka kertoo kellonajan."
-        }
-      ]
+     "t": "num",
+     "v": "10"
     }
-  ],
-  "featuredOrder": [
-    "wodb-pic-k-flyers",
-    "wodb-num-1-fives",
-    "wodb-clock-1-oclock",
-    "wodb-shape-k-onlyone",
-    "wodb-num-23-squares",
-    "wodb-dots-k-four",
-    "wodb-pic-1-vehicles",
-    "wodb-mix-23-six",
-    "wodb-dots-k-six",
-    "wodb-num-k-lines",
-    "wodb-pic-23-living",
-    "wodb-shape-1-sides",
-    "wodb-clock-23-four",
-    "wodb-pic-k-food",
-    "wodb-num-1-threes",
-    "wodb-dots-1-twelve",
-    "wodb-pic-k-longparts",
-    "wodb-shape-23-triangles",
-    "wodb-num-23-twofour",
-    "wodb-pic-k-clothes",
-    "wodb-pic-1-legs"
-  ]
+   ],
+   "title": {
+    "en": "Numbers: lines and curves",
+    "de": "Zahlen: Striche und Bögen",
+    "nl": "Getallen: recht of rond?",
+    "fr": "Nombres : traits droits et courbes",
+    "es": "Números: líneas y curvas",
+    "it": "Numeri: linee e curve",
+    "pt": "Números: retas e curvas",
+    "sv": "Tal: raka streck och bågar",
+    "da": "Tal: streger og buer",
+    "no": "Tall: streker og buer",
+    "fi": "Luvut: viivoja ja kaaria"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one that is the smallest number.",
+     "de": "Es ist das Einzige, das am kleinsten ist.",
+     "nl": "Het is het enige dat het kleinste getal is.",
+     "fr": "C’est le seul qui est le plus petit.",
+     "es": "Es el único que es el más chico de todos.",
+     "it": "È l’unico che è il più piccolo di tutti.",
+     "pt": "É o único que é o menor de todos.",
+     "sv": "Det är det enda som är minst av alla.",
+     "da": "Det er det eneste, der er allermindst.",
+     "no": "Det er det eneste som er minst av alle.",
+     "fi": "Se on ainoa, joka on kaikista pienin."
+    },
+    {
+     "en": "It's the only one made of only straight lines.",
+     "de": "Es ist das Einzige nur aus geraden Strichen.",
+     "nl": "Het is het enige dat alleen uit rechte lijnen bestaat.",
+     "fr": "C’est le seul qui s’écrit seulement avec des traits droits.",
+     "es": "Es el único que está hecho solo de líneas rectas.",
+     "it": "È l’unico che è fatto solo di linee dritte.",
+     "pt": "É o único que é feito só de linhas retas.",
+     "sv": "Det är det enda som är skrivet med bara raka streck.",
+     "da": "Det er det eneste, der kun er lavet af lige streger.",
+     "no": "Det er det eneste som er laget av bare rette streker.",
+     "fi": "Se on ainoa, jossa on vain suoria viivoja."
+    },
+    {
+     "en": "It's the only one made of only curves.",
+     "de": "Es ist das Einzige nur aus runden Bögen.",
+     "nl": "Het is het enige dat alleen uit rondingen bestaat.",
+     "fr": "C’est le seul qui s’écrit seulement avec des courbes.",
+     "es": "Es el único que está hecho solo de curvas.",
+     "it": "È l’unico che è fatto solo di curve.",
+     "pt": "É o único que é feito só de curvas.",
+     "sv": "Det är det enda som är skrivet med bara runda bågar.",
+     "da": "Det er det eneste, der kun er lavet af buer.",
+     "no": "Det er det eneste som er laget av bare buer.",
+     "fi": "Se on ainoa, jossa on vain kaarevia viivoja."
+    },
+    {
+     "en": "It's the only one with two digits.",
+     "de": "Es ist das Einzige mit zwei Ziffern.",
+     "nl": "Het is het enige dat twee cijfers heeft.",
+     "fr": "C’est le seul qui s’écrit avec deux chiffres.",
+     "es": "Es el único que se escribe con dos números.",
+     "it": "È l’unico che si scrive con due cifre.",
+     "pt": "É o único que tem dois algarismos.",
+     "sv": "Det är det enda som har två siffror.",
+     "da": "Det er det eneste, der skrives med to tal.",
+     "no": "Det er det eneste som har to sifre.",
+     "fi": "Se on ainoa, jossa on kaksi numeroa."
+    }
+   ]
+  },
+  {
+   "id": "wodb-num-1-threes",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "num",
+     "v": "3"
+    },
+    {
+     "t": "num",
+     "v": "13"
+    },
+    {
+     "t": "num",
+     "v": "30"
+    },
+    {
+     "t": "num",
+     "v": "31"
+    }
+   ],
+   "title": {
+    "en": "Numbers made of 1s and 3s",
+    "de": "Zahlen aus 1 und 3",
+    "nl": "Getallen met enen en drieën",
+    "fr": "Des nombres avec des 1 et des 3",
+    "es": "Números hechos con 1 y 3",
+    "it": "Numeri fatti di 1 e di 3",
+    "pt": "Números feitos de 1 e 3",
+    "sv": "Tal av ettor och treor",
+    "da": "Tal lavet af 1-taller og 3-taller",
+    "no": "Tall laget av 1 og 3",
+    "fi": "Luvut ykkösistä ja kolmosista"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with just one digit.",
+     "de": "Es ist das Einzige mit nur einer Ziffer.",
+     "nl": "Het is het enige dat maar één cijfer heeft.",
+     "fr": "C’est le seul qui s’écrit avec un seul chiffre.",
+     "es": "Es el único que se escribe con un solo número.",
+     "it": "È l’unico che si scrive con una cifra sola.",
+     "pt": "É o único que tem um algarismo só.",
+     "sv": "Det är det enda som har bara en siffra.",
+     "da": "Det er det eneste, der kun har ét ciffer.",
+     "no": "Det er det eneste som har bare ett siffer.",
+     "fi": "Se on ainoa, jossa on vain yksi numero."
+    },
+    {
+     "en": "It's the only one between 10 and 20.",
+     "de": "Es ist das Einzige zwischen 10 und 20.",
+     "nl": "Het is het enige dat tussen de 10 en de 20 ligt.",
+     "fr": "C’est le seul qui est entre 10 et 20.",
+     "es": "Es el único que está entre el 10 y el 20.",
+     "it": "È l’unico che sta tra il 10 e il 20.",
+     "pt": "É o único que fica entre 10 e 20.",
+     "sv": "Det är det enda som ligger mellan 10 och 20.",
+     "da": "Det er det eneste, der ligger mellem 10 og 20.",
+     "no": "Det er det eneste som er mellom 10 og 20.",
+     "fi": "Se on ainoa, joka on kymmenen ja kahdenkymmenen välissä."
+    },
+    {
+     "en": "It's the only one you say when counting by tens.",
+     "de": "Es ist das Einzige, das man beim Zählen in Zehnerschritten sagt.",
+     "nl": "Het is het enige dat je hoort als je met sprongen van tien telt.",
+     "fr": "C’est le seul qu’on dit quand on compte de 10 en 10.",
+     "es": "Es el único que dices cuando cuentas de 10 en 10.",
+     "it": "È l’unico che dici contando di dieci in dieci.",
+     "pt": "É o único que a gente fala contando de 10 em 10.",
+     "sv": "Det är det enda som är med när man räknar tioskutt.",
+     "da": "Det er det eneste, der er med, når man tæller med 10 ad gangen.",
+     "no": "Det er det eneste som er med når du teller med ti om gangen.",
+     "fi": "Se on ainoa, joka sanotaan, kun luetellaan kymmenittäin."
+    },
+    {
+     "en": "It's the only one that is the biggest.",
+     "de": "Es ist das Einzige, das am größten ist.",
+     "nl": "Het is het enige dat het grootste getal is.",
+     "fr": "C’est le seul qui est le plus grand.",
+     "es": "Es el único que es el más grande de todos.",
+     "it": "È l’unico che è il più grande di tutti.",
+     "pt": "É o único que é o maior de todos.",
+     "sv": "Det är det enda som är störst av alla.",
+     "da": "Det er det eneste, der er allerstørst.",
+     "no": "Det er det eneste som er størst av alle.",
+     "fi": "Se on ainoa, joka on kaikista suurin."
+    }
+   ]
+  },
+  {
+   "id": "wodb-num-1-fives",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "num",
+     "v": "5"
+    },
+    {
+     "t": "num",
+     "v": "10"
+    },
+    {
+     "t": "num",
+     "v": "15"
+    },
+    {
+     "t": "num",
+     "v": "12"
+    }
+   ],
+   "title": {
+    "en": "Counting by fives — almost",
+    "de": "In Fünferschritten — fast!",
+    "nl": "Tellen met sprongen van vijf — bijna!",
+    "fr": "On compte de 5 en 5… ou presque !",
+    "es": "De 5 en 5… ¡casi!",
+    "it": "La conta del cinque… quasi!",
+    "pt": "Contando de 5 em 5 — quase",
+    "sv": "Femskutt — nästan!",
+    "da": "Tæl med 5 ad gangen — næsten",
+    "no": "Telling med fem — nesten",
+    "fi": "Viiden hyppyjä — melkein"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with just one digit.",
+     "de": "Es ist das Einzige mit nur einer Ziffer.",
+     "nl": "Het is het enige dat maar één cijfer heeft.",
+     "fr": "C’est le seul qui s’écrit avec un seul chiffre.",
+     "es": "Es el único que se escribe con un solo número.",
+     "it": "È l’unico che si scrive con una cifra sola.",
+     "pt": "É o único que tem um algarismo só.",
+     "sv": "Det är det enda som har bara en siffra.",
+     "da": "Det er det eneste, der kun har ét ciffer.",
+     "no": "Det er det eneste som har bare ett siffer.",
+     "fi": "Se on ainoa, jossa on vain yksi numero."
+    },
+    {
+     "en": "It's the only one with a zero.",
+     "de": "Es ist das Einzige mit einer Null.",
+     "nl": "Het is het enige dat een nul heeft.",
+     "fr": "C’est le seul qui a un zéro.",
+     "es": "Es el único que tiene un cero.",
+     "it": "È l’unico che ha uno zero.",
+     "pt": "É o único que tem um zero.",
+     "sv": "Det är det enda som har en nolla.",
+     "da": "Det er det eneste, der har et nul i sig.",
+     "no": "Det er det eneste som har en null i seg.",
+     "fi": "Se on ainoa, jossa on nolla."
+    },
+    {
+     "en": "It's the only one that is the biggest.",
+     "de": "Es ist das Einzige, das am größten ist.",
+     "nl": "Het is het enige dat het grootste getal is.",
+     "fr": "C’est le seul qui est le plus grand.",
+     "es": "Es el único que es el más grande de todos.",
+     "it": "È l’unico che è il più grande di tutti.",
+     "pt": "É o único que é o maior de todos.",
+     "sv": "Det är det enda som är störst av alla.",
+     "da": "Det er det eneste, der er allerstørst.",
+     "no": "Det er det eneste som er størst av alle.",
+     "fi": "Se on ainoa, joka on kaikista suurin."
+    },
+    {
+     "en": "It's the only one you don't say counting by fives.",
+     "de": "Es ist das Einzige, das man beim Zählen in Fünferschritten nicht sagt.",
+     "nl": "Het is het enige dat je overslaat als je met sprongen van vijf telt.",
+     "fr": "C’est le seul qu’on ne dit pas quand on compte de 5 en 5.",
+     "es": "Es el único que no dices al contar de 5 en 5.",
+     "it": "È l’unico che non dici contando di cinque in cinque.",
+     "pt": "É o único que a gente não fala contando de 5 em 5.",
+     "sv": "Det är det enda som inte är med när man räknar femskutt.",
+     "da": "Det er det eneste, der ikke er med, når man tæller med 5 ad gangen.",
+     "no": "Det er det eneste som du hopper over når du teller med fem.",
+     "fi": "Se on ainoa, jota ei sanota, kun luetellaan viiden hyppyinä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-num-23-squares",
+   "band": "G23",
+   "cells": [
+    {
+     "t": "num",
+     "v": "9"
+    },
+    {
+     "t": "num",
+     "v": "16"
+    },
+    {
+     "t": "num",
+     "v": "25"
+    },
+    {
+     "t": "num",
+     "v": "43"
+    }
+   ],
+   "title": {
+    "en": "Numbers: 9, 16, 25, 43",
+    "de": "Zahlen: 9, 16, 25, 43",
+    "nl": "Getallen: 9, 16, 25, 43",
+    "fr": "Les nombres 9, 16, 25 et 43",
+    "es": "Números: 9, 16, 25, 43",
+    "it": "I numeri 9, 16, 25 e 43",
+    "pt": "Números: 9, 16, 25, 43",
+    "sv": "Talen 9, 16, 25 och 43",
+    "da": "Tallene 9, 16, 25 og 43",
+    "no": "Tallene 9, 16, 25 og 43",
+    "fi": "Luvut 9, 16, 25 ja 43"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with just one digit.",
+     "de": "Es ist das Einzige mit nur einer Ziffer.",
+     "nl": "Het is het enige dat maar één cijfer heeft.",
+     "fr": "C’est le seul qui s’écrit avec un seul chiffre.",
+     "es": "Es el único que se escribe con una sola cifra.",
+     "it": "È l’unico che si scrive con una cifra sola.",
+     "pt": "É o único que tem um algarismo só.",
+     "sv": "Det är det enda som har bara en siffra.",
+     "da": "Det er det eneste, der kun har ét ciffer.",
+     "no": "Det er det eneste som har bare ett siffer.",
+     "fi": "Se on ainoa, jossa on vain yksi numero."
+    },
+    {
+     "en": "It's the only even number.",
+     "de": "Es ist das Einzige, das eine gerade Zahl ist.",
+     "nl": "Het is het enige dat even is.",
+     "fr": "C’est le seul qui est un nombre pair.",
+     "es": "Es el único que es un número par.",
+     "it": "È l’unico che è un numero pari.",
+     "pt": "É o único que é par.",
+     "sv": "Det är det enda som är ett jämnt tal.",
+     "da": "Det er det eneste, der er et lige tal.",
+     "no": "Det er det eneste som er et partall.",
+     "fi": "Se on ainoa, joka on parillinen."
+    },
+    {
+     "en": "It's the only one you say when counting by fives.",
+     "de": "Es ist das Einzige, das man beim Zählen in Fünferschritten sagt.",
+     "nl": "Het is het enige dat je zegt als je met sprongen van vijf telt.",
+     "fr": "C’est le seul qu’on dit quand on compte de 5 en 5.",
+     "es": "Es el único que dices cuando cuentas de 5 en 5.",
+     "it": "È l’unico che dici contando di cinque in cinque.",
+     "pt": "É o único que a gente fala contando de 5 em 5.",
+     "sv": "Det är det enda som är med när man räknar femskutt.",
+     "da": "Det er det eneste, der er med, når man tæller med 5 ad gangen.",
+     "no": "Det er det eneste som er med når du teller med fem om gangen.",
+     "fi": "Se on ainoa, joka sanotaan, kun luetellaan viiden hyppyinä."
+    },
+    {
+     "en": "It's the only one bigger than 40.",
+     "de": "Es ist das Einzige, das größer als 40 ist.",
+     "nl": "Het is het enige dat groter is dan 40.",
+     "fr": "C’est le seul qui est plus grand que 40.",
+     "es": "Es el único que es más grande que 40.",
+     "it": "È l’unico che è più grande di 40.",
+     "pt": "É o único que é maior que 40.",
+     "sv": "Det är det enda som är större än 40.",
+     "da": "Det er det eneste, der er større end 40.",
+     "no": "Det er det eneste som er større enn 40.",
+     "fi": "Se on ainoa, joka on suurempi kuin neljäkymmentä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-num-23-twofour",
+   "band": "G23",
+   "cells": [
+    {
+     "t": "num",
+     "v": "22"
+    },
+    {
+     "t": "num",
+     "v": "24"
+    },
+    {
+     "t": "num",
+     "v": "42"
+    },
+    {
+     "t": "num",
+     "v": "44"
+    }
+   ],
+   "title": {
+    "en": "Numbers made of 2s and 4s",
+    "de": "Zahlen aus 2 und 4",
+    "nl": "Getallen met tweeën en vieren",
+    "fr": "Des nombres avec des 2 et des 4",
+    "es": "Números hechos con 2 y 4",
+    "it": "Numeri fatti di 2 e di 4",
+    "pt": "Números feitos de 2 e 4",
+    "sv": "Tal av tvåor och fyror",
+    "da": "Tal lavet af 2-taller og 4-taller",
+    "no": "Tall laget av 2 og 4",
+    "fi": "Luvut kakkosista ja nelosista"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with no 4 in it.",
+     "de": "Es ist das Einzige, in dem keine 4 steckt.",
+     "nl": "Het is het enige dat geen 4 heeft.",
+     "fr": "C’est le seul qui n’a pas de 4.",
+     "es": "Es el único que no tiene ningún 4.",
+     "it": "È l’unico che non ha nessun 4.",
+     "pt": "É o único que não tem nenhum 4.",
+     "sv": "Det är det enda som inte har någon fyra i sig.",
+     "da": "Det er det eneste, der ikke har noget 4-tal i sig.",
+     "no": "Det er det eneste som ikke har en firer i seg.",
+     "fi": "Se on ainoa, jossa ei ole yhtään nelosta."
+    },
+    {
+     "en": "It's the only one whose digits count up.",
+     "de": "Es ist das Einzige, bei dem die Ziffern aufwärts zählen.",
+     "nl": "Het is het enige dat omhoog telt: eerst 2, dan 4.",
+     "fr": "C’est le seul dont les chiffres vont en montant.",
+     "es": "Es el único que tiene sus cifras de menor a mayor.",
+     "it": "È l’unico che ha le cifre in salita: prima la piccola, poi la grande.",
+     "pt": "É o único que tem os algarismos subindo.",
+     "sv": "Det är det enda som har siffrorna i ordning uppåt.",
+     "da": "Det er det eneste, der tæller opad — først 2, så 4.",
+     "no": "Det er det eneste som har sifre som teller oppover.",
+     "fi": "Se on ainoa, jonka numerot menevät pienestä suureen."
+    },
+    {
+     "en": "It's the only one whose digits count down.",
+     "de": "Es ist das Einzige, bei dem die Ziffern abwärts zählen.",
+     "nl": "Het is het enige dat omlaag telt: eerst 4, dan 2.",
+     "fr": "C’est le seul dont les chiffres vont en descendant.",
+     "es": "Es el único que tiene sus cifras de mayor a menor.",
+     "it": "È l’unico che ha le cifre in discesa: prima la grande, poi la piccola.",
+     "pt": "É o único que tem os algarismos descendo.",
+     "sv": "Det är det enda som har siffrorna i ordning nedåt.",
+     "da": "Det er det eneste, der tæller nedad — først 4, så 2.",
+     "no": "Det er det eneste som har sifre som teller nedover.",
+     "fi": "Se on ainoa, jonka numerot menevät suuresta pieneen."
+    },
+    {
+     "en": "It's the only one with no 2 in it.",
+     "de": "Es ist das Einzige, in dem keine 2 steckt.",
+     "nl": "Het is het enige dat geen 2 heeft.",
+     "fr": "C’est le seul qui n’a pas de 2.",
+     "es": "Es el único que no tiene ningún 2.",
+     "it": "È l’unico che non ha nessun 2.",
+     "pt": "É o único que não tem nenhum 2.",
+     "sv": "Det är det enda som inte har någon tvåa i sig.",
+     "da": "Det er det eneste, der ikke har noget 2-tal i sig.",
+     "no": "Det er det eneste som ikke har en toer i seg.",
+     "fi": "Se on ainoa, jossa ei ole yhtään kakkosta."
+    }
+   ]
+  },
+  {
+   "id": "wodb-shape-k-onlyone",
+   "band": "K",
+   "cells": [
+    {
+     "t": "shape",
+     "shape": "circle",
+     "color": "coral",
+     "size": "lg",
+     "fill": "filled"
+    },
+    {
+     "t": "shape",
+     "shape": "square",
+     "color": "coral",
+     "size": "lg",
+     "fill": "filled"
+    },
+    {
+     "t": "shape",
+     "shape": "circle",
+     "color": "coral",
+     "size": "sm",
+     "fill": "filled"
+    },
+    {
+     "t": "shape",
+     "shape": "circle",
+     "size": "lg",
+     "fill": "outline"
+    }
+   ],
+   "title": {
+    "en": "Shapes: which one is different?",
+    "de": "Formen: Was ist hier anders?",
+    "nl": "Vormen: welke is anders?",
+    "fr": "Formes : laquelle est différente ?",
+    "es": "Figuras: ¿cuál es diferente?",
+    "it": "Forme: qual è quella diversa?",
+    "pt": "Figuras: qual é a diferente?",
+    "sv": "Figurer: vilken är annorlunda?",
+    "da": "Former: hvad er anderledes?",
+    "no": "Former: hvilken skiller seg ut?",
+    "fi": "Muodot: mikä on erilainen?"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with nothing different — it matches everyone!",
+     "de": "Es ist das Einzige ohne Besonderheit — es passt einfach zu allen!",
+     "nl": "Het is de enige die niets aparts heeft — hij past bij iedereen!",
+     "fr": "C’est le seul qui n’a rien de spécial — il va avec tout le monde !",
+     "es": "Es la única que no tiene nada diferente: ¡se parece a todas!",
+     "it": "È l’unica che assomiglia a tutte le altre — non ha proprio niente di strano!",
+     "pt": "É a única que não tem nada de diferente — ela combina com todo mundo!",
+     "sv": "Den är den enda som passar ihop med alla — och visst är det finurligt!",
+     "da": "Den er den eneste, der ligner alle de andre — den passer ind alle steder!",
+     "no": "Den er den eneste som ligner på alle sammen — for en luring!",
+     "fi": "Se on ainoa, jossa ei ole mitään erilaista — se on kaikkien kaveri!"
+    },
+    {
+     "en": "It's the only one that isn't round.",
+     "de": "Es ist das Einzige, das nicht rund ist.",
+     "nl": "Het is het enige dat niet rond is.",
+     "fr": "C’est le seul qui n’est pas rond.",
+     "es": "Es la única que no es redonda.",
+     "it": "È l’unica che non è rotonda.",
+     "pt": "É a única que não é redonda.",
+     "sv": "Den är den enda som inte är rund.",
+     "da": "Den er den eneste, der ikke er rund.",
+     "no": "Den er den eneste som ikke er rund.",
+     "fi": "Se on ainoa, joka ei ole pyöreä."
+    },
+    {
+     "en": "It's the only small one.",
+     "de": "Es ist das Einzige, das klein ist.",
+     "nl": "Het is de enige die klein is.",
+     "fr": "C’est le seul qui est tout petit.",
+     "es": "Es la única que es chiquita.",
+     "it": "È l’unica che è piccola.",
+     "pt": "É a única que é pequenininha.",
+     "sv": "Den är den enda som är liten.",
+     "da": "Den er den eneste, der er helt lille.",
+     "no": "Den er den eneste som er liten.",
+     "fi": "Se on ainoa, joka on pieni."
+    },
+    {
+     "en": "It's the only one not colored in.",
+     "de": "Es ist das Einzige, das nicht ausgemalt ist.",
+     "nl": "Het is de enige die niet ingekleurd is.",
+     "fr": "C’est le seul qui n’est pas colorié à l’intérieur.",
+     "es": "Es el único que no está pintado por dentro.",
+     "it": "È l’unica che non è colorata dentro.",
+     "pt": "É a única que não está pintada por dentro.",
+     "sv": "Den är den enda som inte är ifylld.",
+     "da": "Den er den eneste, der ikke er farvelagt.",
+     "no": "Den er den eneste som ikke er fargelagt inni.",
+     "fi": "Se on ainoa, jota ei ole väritetty sisältä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-shape-1-sides",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "shape",
+     "shape": "triangle",
+     "color": "coral",
+     "size": "md",
+     "fill": "filled"
+    },
+    {
+     "t": "shape",
+     "shape": "square",
+     "color": "coral",
+     "size": "md",
+     "fill": "filled",
+     "rot": 45
+    },
+    {
+     "t": "shape",
+     "shape": "hexagon",
+     "color": "coral",
+     "size": "md",
+     "fill": "filled"
+    },
+    {
+     "t": "shape",
+     "shape": "star",
+     "color": "coral",
+     "size": "md",
+     "fill": "filled"
+    }
+   ],
+   "title": {
+    "en": "Shapes: count the sides",
+    "de": "Formen: Ecken und Seiten",
+    "nl": "Vormen: tel de zijden",
+    "fr": "Formes : compte les côtés",
+    "es": "Figuras: cuenta los lados",
+    "it": "Forme: conta i lati",
+    "pt": "Figuras: conte os lados",
+    "sv": "Figurer: räkna sidorna",
+    "da": "Former: tæl siderne",
+    "no": "Former: tell sidene",
+    "fi": "Muodot: laske sivut"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with three sides.",
+     "de": "Es ist das Einzige mit drei Seiten.",
+     "nl": "Het is de enige die drie zijden heeft.",
+     "fr": "C’est le seul qui a trois côtés.",
+     "es": "Es la única que tiene tres lados.",
+     "it": "È l’unica che ha tre lati.",
+     "pt": "É a única que tem três lados.",
+     "sv": "Den är den enda som har tre sidor.",
+     "da": "Den er den eneste, der har tre sider.",
+     "no": "Den er den eneste som har tre sider.",
+     "fi": "Se on ainoa, jossa on kolme sivua."
+    },
+    {
+     "en": "It's the only one balancing on its corner.",
+     "de": "Es ist das Einzige, das auf einer Ecke balanciert.",
+     "nl": "Het is het enige dat op zijn puntje balanceert.",
+     "fr": "C’est le seul qui tient en équilibre sur sa pointe.",
+     "es": "Es la única que está parada de puntitas sobre su esquina.",
+     "it": "È l’unica che sta in equilibrio sulla punta.",
+     "pt": "É a única que se equilibra em um cantinho.",
+     "sv": "Den är den enda som balanserar på ett hörn.",
+     "da": "Den er den eneste, der balancerer på et hjørne.",
+     "no": "Den er den eneste som balanserer på et hjørne.",
+     "fi": "Se on ainoa, joka tasapainoilee kulmansa varassa."
+    },
+    {
+     "en": "It's the only one with six sides.",
+     "de": "Es ist das Einzige mit sechs Seiten.",
+     "nl": "Het is de enige die zes zijden heeft.",
+     "fr": "C’est le seul qui a six côtés.",
+     "es": "Es la única que tiene seis lados.",
+     "it": "È l’unica che ha sei lati.",
+     "pt": "É a única que tem seis lados.",
+     "sv": "Den är den enda som har sex sidor.",
+     "da": "Den er den eneste, der har seks sider.",
+     "no": "Den er den eneste som har seks sider.",
+     "fi": "Se on ainoa, jossa on kuusi sivua."
+    },
+    {
+     "en": "It's the only one with dents that go in.",
+     "de": "Es ist das Einzige mit Ecken, die nach innen zeigen.",
+     "nl": "Het is de enige die deukjes naar binnen heeft.",
+     "fr": "C’est le seul qui a des creux qui rentrent dedans.",
+     "es": "Es la única que tiene esquinas que se hunden hacia adentro.",
+     "it": "È l’unica che ha degli angoli che vanno in dentro.",
+     "pt": "É a única que tem cantinhos que entram para dentro.",
+     "sv": "Den är den enda som har hörn som pekar inåt.",
+     "da": "Den er den eneste, der har hak, der går indad.",
+     "no": "Den er den eneste som har hakk som går innover.",
+     "fi": "Se on ainoa, jossa on sisäänpäin meneviä lovia."
+    }
+   ]
+  },
+  {
+   "id": "wodb-shape-23-triangles",
+   "band": "G23",
+   "cells": [
+    {
+     "t": "shape",
+     "shape": "triangle",
+     "color": "teal",
+     "size": "md",
+     "fill": "outline"
+    },
+    {
+     "t": "shape",
+     "shape": "rightTriangle",
+     "color": "teal",
+     "size": "md",
+     "fill": "filled"
+    },
+    {
+     "t": "shape",
+     "shape": "triangle",
+     "color": "teal",
+     "size": "md",
+     "fill": "filled",
+     "rot": 180
+    },
+    {
+     "t": "shape",
+     "shape": "triangle",
+     "size": "sm",
+     "fill": "solid"
+    }
+   ],
+   "title": {
+    "en": "All triangles!",
+    "de": "Lauter Dreiecke!",
+    "nl": "Allemaal driehoeken!",
+    "fr": "Tous des triangles !",
+    "es": "¡Puros triángulos!",
+    "it": "Tutti triangoli!",
+    "pt": "Só triângulos!",
+    "sv": "Bara trianglar!",
+    "da": "Alle er trekanter!",
+    "no": "Bare trekanter!",
+    "fi": "Pelkkiä kolmioita!"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one not colored in.",
+     "de": "Es ist das Einzige, das nicht ausgemalt ist.",
+     "nl": "Het is de enige die niet ingekleurd is.",
+     "fr": "C’est le seul qui n’est pas colorié à l’intérieur.",
+     "es": "Es el único que no está pintado por dentro.",
+     "it": "È l’unica che non è colorata dentro.",
+     "pt": "É a única que não está pintada por dentro.",
+     "sv": "Den är den enda som inte är ifylld.",
+     "da": "Den er den eneste, der ikke er farvelagt.",
+     "no": "Den er den eneste som ikke er fargelagt inni.",
+     "fi": "Se on ainoa, jota ei ole väritetty sisältä."
+    },
+    {
+     "en": "It's the only one with a square corner.",
+     "de": "Es ist das Einzige mit einer Ecke wie beim Quadrat.",
+     "nl": "Het is de enige die een rechte hoek heeft.",
+     "fr": "C’est le seul qui a un angle droit.",
+     "es": "Es el único que tiene una esquina cuadrada.",
+     "it": "È l’unica che ha un angolo retto.",
+     "pt": "É a única que tem um canto quadrado.",
+     "sv": "Den är den enda som har en rät vinkel i hörnet.",
+     "da": "Den er den eneste, der har en ret vinkel.",
+     "no": "Den er den eneste som har et helt rett hjørne.",
+     "fi": "Se on ainoa, jossa on suora kulma."
+    },
+    {
+     "en": "It's the only one standing on its point.",
+     "de": "Es ist das Einzige, das auf der Spitze steht.",
+     "nl": "Het is de enige die op zijn punt staat.",
+     "fr": "C’est le seul qui est posé sur sa pointe.",
+     "es": "Es el único que está parado sobre su puntita.",
+     "it": "È l’unica che sta a testa in giù, appoggiata sulla punta.",
+     "pt": "É a única que fica em pé na pontinha.",
+     "sv": "Den är den enda som står på spetsen.",
+     "da": "Den er den eneste, der står på spidsen.",
+     "no": "Den er den eneste som står på spissen.",
+     "fi": "Se on ainoa, joka seisoo kärjellään."
+    },
+    {
+     "en": "It's the only small one.",
+     "de": "Es ist das Einzige, das klein ist.",
+     "nl": "Het is de enige die klein is.",
+     "fr": "C’est le seul qui est tout petit.",
+     "es": "Es la única que es chiquita.",
+     "it": "È l’unica che è piccola.",
+     "pt": "É a única que é pequenininha.",
+     "sv": "Den är den enda som är liten.",
+     "da": "Den er den eneste, der er helt lille.",
+     "no": "Den er den eneste som er liten.",
+     "fi": "Se on ainoa, joka on pieni."
+    }
+   ]
+  },
+  {
+   "id": "wodb-dots-k-four",
+   "band": "K",
+   "cells": [
+    {
+     "t": "dots",
+     "arr": "dice",
+     "n": 4
+    },
+    {
+     "t": "dots",
+     "arr": "row",
+     "n": 4
+    },
+    {
+     "t": "dots",
+     "arr": "scatter",
+     "n": 4
+    },
+    {
+     "t": "dots",
+     "arr": "dice",
+     "n": 5
+    }
+   ],
+   "title": {
+    "en": "Dots: ways to see four",
+    "de": "Punkte: So kann vier aussehen",
+    "nl": "Stippen: manieren om vier te zien",
+    "fr": "Points : des façons de voir quatre",
+    "es": "Puntos: maneras de ver el cuatro",
+    "it": "Punti: quattro in tanti modi",
+    "pt": "Pontos: jeitos de ver o quatro",
+    "sv": "Prickar: sätt att se fyra",
+    "da": "Prikker: fire på mange måder",
+    "no": "Prikker: måter å se fire på",
+    "fi": "Pisteet: monta tapaa nähdä neljä"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one whose dots make a square.",
+     "de": "Es ist das Einzige, bei dem die Punkte ein Viereck bilden.",
+     "nl": "Het is de enige die van de stippen een vierkant maakt.",
+     "fr": "C’est le seul dont les points forment un carré.",
+     "es": "Es el único que forma un cuadrado con sus puntos.",
+     "it": "È l’unico che con i suoi punti disegna un quadrato.",
+     "pt": "É o único que tem os pontos formando um quadradinho.",
+     "sv": "Den är den enda som har prickar som gör en fyrkant.",
+     "da": "Det er det eneste, der har prikker, som danner en firkant.",
+     "no": "Det er det eneste som har prikker som lager en firkant.",
+     "fi": "Se on ainoa, jonka pisteet muodostavat neliön."
+    },
+    {
+     "en": "It's the only one in a straight line.",
+     "de": "Es ist das Einzige mit Punkten in einer geraden Reihe.",
+     "nl": "Het is de enige die de stippen op één rechte rij heeft.",
+     "fr": "C’est le seul qui a tous ses points sur une ligne droite.",
+     "es": "Es el único que tiene sus puntos en línea recta.",
+     "it": "È l’unico che ha i punti tutti in fila.",
+     "pt": "É o único que tem os pontos em uma fila retinha.",
+     "sv": "Den är den enda som har prickarna på en rak rad.",
+     "da": "Det er det eneste, der har alle prikker på én lige række.",
+     "no": "Det er det eneste som har alle prikkene på rekke.",
+     "fi": "Se on ainoa, jossa pisteet ovat suorassa rivissä."
+    },
+    {
+     "en": "It's the only one with dots all jumbled up.",
+     "de": "Es ist das Einzige, bei dem die Punkte durcheinander liegen.",
+     "nl": "Het is de enige die de stippen kriskras door elkaar heeft.",
+     "fr": "C’est le seul qui a ses points tout mélangés.",
+     "es": "Es el único que tiene los puntos regados por todos lados.",
+     "it": "È l’unico che ha i punti sparsi qua e là.",
+     "pt": "É o único que tem os pontos todos espalhados.",
+     "sv": "Den är den enda som har prickarna huller om buller.",
+     "da": "Det er det eneste, der har prikker, som ligger hulter til bulter.",
+     "no": "Det er det eneste som har prikkene hulter til bulter.",
+     "fi": "Se on ainoa, jossa pisteet ovat iloisesti sikin sokin."
+    },
+    {
+     "en": "It's the only one with five dots.",
+     "de": "Es ist das Einzige mit fünf Punkten.",
+     "nl": "Het is de enige die vijf stippen heeft.",
+     "fr": "C’est le seul qui a cinq points.",
+     "es": "Es el único que tiene cinco puntos.",
+     "it": "È l’unico che ha cinque punti.",
+     "pt": "É o único que tem cinco pontos.",
+     "sv": "Den är den enda som har fem prickar.",
+     "da": "Det er det eneste, der har fem prikker.",
+     "no": "Det er det eneste som har fem prikker.",
+     "fi": "Se on ainoa, jossa on viisi pistettä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-dots-k-six",
+   "band": "K",
+   "cells": [
+    {
+     "t": "dots",
+     "arr": "dice",
+     "n": 6
+    },
+    {
+     "t": "dots",
+     "arr": "row",
+     "n": 6
+    },
+    {
+     "t": "dots",
+     "arr": "circle",
+     "n": 6
+    },
+    {
+     "t": "dots",
+     "arr": "tenframe",
+     "n": 7
+    }
+   ],
+   "title": {
+    "en": "Dots: ways to see six",
+    "de": "Punkte: So kann sechs aussehen",
+    "nl": "Stippen: manieren om zes te zien",
+    "fr": "Points : des façons de voir six",
+    "es": "Puntos: maneras de ver el seis",
+    "it": "Punti: sei in tanti modi",
+    "pt": "Pontos: jeitos de ver o seis",
+    "sv": "Prickar: sätt att se sex",
+    "da": "Prikker: seks på mange måder",
+    "no": "Prikker: måter å se seks på",
+    "fi": "Pisteet: monta tapaa nähdä kuusi"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one that looks like six on a dice.",
+     "de": "Es ist das Einzige, das wie die Sechs auf dem Würfel aussieht.",
+     "nl": "Het is de enige die eruitziet als de zes op een dobbelsteen.",
+     "fr": "C’est le seul qui ressemble au six du dé.",
+     "es": "Es el único que se ve como el seis del dado.",
+     "it": "È l’unico che è uguale al sei del dado.",
+     "pt": "É o único que parece o seis do dado.",
+     "sv": "Den är den enda som ser ut som sexan på en tärning.",
+     "da": "Det er det eneste, der ligner sekseren på en terning.",
+     "no": "Det er det eneste som ser ut som sekseren på en terning.",
+     "fi": "Se on ainoa, joka näyttää nopan kuutoselta."
+    },
+    {
+     "en": "It's the only one in a straight line.",
+     "de": "Es ist das Einzige mit Punkten in einer geraden Reihe.",
+     "nl": "Het is de enige die de stippen op één rechte rij heeft.",
+     "fr": "C’est le seul qui a tous ses points sur une ligne droite.",
+     "es": "Es el único que tiene sus puntos en línea recta.",
+     "it": "È l’unico che ha i punti tutti in fila.",
+     "pt": "É o único que tem os pontos em fila.",
+     "sv": "Den är den enda som har prickarna på en rak rad.",
+     "da": "Det er det eneste, der har alle prikker på én lige række.",
+     "no": "Det er det eneste som har alle prikkene på rekke.",
+     "fi": "Se on ainoa, jossa pisteet ovat suorassa rivissä."
+    },
+    {
+     "en": "It's the only one that makes a ring.",
+     "de": "Es ist das Einzige, bei dem die Punkte einen Kreis bilden.",
+     "nl": "Het is de enige die van de stippen een kring maakt.",
+     "fr": "C’est le seul dont les points font la ronde.",
+     "es": "Es el único que forma una rueda.",
+     "it": "È l’unico che con i punti fa un girotondo.",
+     "pt": "É o único que forma uma rodinha.",
+     "sv": "Den är den enda som gör en ring.",
+     "da": "Det er det eneste, der danner en rund ring.",
+     "no": "Det er det eneste som lager en ring.",
+     "fi": "Se on ainoa, joka muodostaa renkaan."
+    },
+    {
+     "en": "It's the only one with seven dots.",
+     "de": "Es ist das Einzige mit sieben Punkten.",
+     "nl": "Het is de enige die zeven stippen heeft.",
+     "fr": "C’est le seul qui a sept points.",
+     "es": "Es el único que tiene siete puntos.",
+     "it": "È l’unico che ha sette punti.",
+     "pt": "É o único que tem sete pontos.",
+     "sv": "Den är den enda som har sju prickar.",
+     "da": "Det er det eneste, der har syv prikker.",
+     "no": "Det er det eneste som har sju prikker.",
+     "fi": "Se on ainoa, jossa on seitsemän pistettä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-dots-1-twelve",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "dots",
+     "arr": "circle",
+     "n": 12
+    },
+    {
+     "t": "dots",
+     "arr": "row",
+     "n": 12
+    },
+    {
+     "t": "dots",
+     "arr": "scatter",
+     "n": 12
+    },
+    {
+     "t": "dots",
+     "arr": "tenframe",
+     "n": 10
+    }
+   ],
+   "title": {
+    "en": "Dots: a dozen ways",
+    "de": "Punkte: ein ganzes Dutzend",
+    "nl": "Twaalf stippen — of toch niet?",
+    "fr": "Points : une douzaine de façons",
+    "es": "Puntos: una docena de maneras",
+    "it": "Una dozzina di punti… o quasi",
+    "pt": "Pontos: uma dúzia de jeitos",
+    "sv": "Prickar: ett dussin sätt",
+    "da": "Prikker: tolv på mange måder",
+    "no": "Prikker: tolv på mange måter",
+    "fi": "Pisteet: tusina monella tavalla"
+   },
+   "reasons": [
+    {
+     "en": "It's the only ring — no beginning and no end.",
+     "de": "Es ist das Einzige, das einen Ring bildet — ohne Anfang und Ende.",
+     "nl": "Het is de enige die een kring maakt — zonder begin en zonder eind.",
+     "fr": "C’est le seul qui fait une boucle, sans début ni fin.",
+     "es": "Es el único que forma una rueda sin principio ni fin.",
+     "it": "È l’unico che fa un cerchio senza inizio e senza fine.",
+     "pt": "É o único que faz uma roda — sem começo e sem fim.",
+     "sv": "Den är den enda som gör en ring — utan början och utan slut.",
+     "da": "Det er det eneste, der danner en ring uden begyndelse og slutning.",
+     "no": "Det er det eneste som lager en ring uten start og slutt.",
+     "fi": "Se on ainoa, joka on rengas — ilman alkua ja loppua."
+    },
+    {
+     "en": "It's the only one lined up in a row.",
+     "de": "Es ist das Einzige, bei dem alle Punkte in einer Reihe stehen.",
+     "nl": "Het is de enige die alle stippen op één lange rij heeft.",
+     "fr": "C’est le seul qui est rangé sur une seule ligne.",
+     "es": "Es el único que está formado en una fila derechita.",
+     "it": "È l’unico che ha i punti in fila, uno dietro l’altro.",
+     "pt": "É o único que tem os pontos enfileirados.",
+     "sv": "Den är den enda som har prickarna uppradade på en lång rad.",
+     "da": "Det er det eneste, der har alle prikker på én lang række.",
+     "no": "Det er det eneste som har prikkene på én lang rekke.",
+     "fi": "Se on ainoa, jossa pisteet ovat yhdessä rivissä."
+    },
+    {
+     "en": "It's the only one you must count extra carefully.",
+     "de": "Es ist das Einzige, bei dem man ganz genau zählen muss.",
+     "nl": "Het is de enige die je stip voor stip heel precies moet tellen.",
+     "fr": "C’est le seul qu’on doit compter avec beaucoup d’attention.",
+     "es": "Es el único que tienes que contar con muchísimo cuidado.",
+     "it": "È l’unico che ti fa contare con gli occhi bene aperti.",
+     "pt": "É o único que você precisa contar com muito cuidado.",
+     "sv": "Den är den enda som du måste räkna extra noga.",
+     "da": "Det er det eneste, der skal tælles ekstra omhyggeligt.",
+     "no": "Det er det eneste som du må telle ekstra nøye.",
+     "fi": "Se on ainoa, jota pitää laskea erityisen tarkasti."
+    },
+    {
+     "en": "It's the only one showing ten — and the only one in a frame.",
+     "de": "Es ist das Einzige, das zehn zeigt — und das einzige im Zehnerfeld.",
+     "nl": "Het is de enige die tien stippen heeft — én de enige in een tienraam.",
+     "fr": "C’est le seul qui montre dix — et le seul dans un cadre.",
+     "es": "Es el único que muestra diez… ¡y el único dentro de un marco!",
+     "it": "È l’unico che fa dieci — ed è l’unico dentro una cornice.",
+     "pt": "É o único que mostra dez — e o único dentro de um quadro.",
+     "sv": "Den är den enda som visar tio — och den enda som bor i en ram.",
+     "da": "Det er det eneste, der viser ti — og det eneste, der bor i en ramme.",
+     "no": "Det er det eneste som viser ti — og det eneste med ramme.",
+     "fi": "Se on ainoa, jossa on tasan kymmenen — ja ainoa kymmenruudukossa."
+    }
+   ]
+  },
+  {
+   "id": "wodb-clock-1-oclock",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "clock",
+     "h": 3,
+     "m": 0
+    },
+    {
+     "t": "clock",
+     "h": 6,
+     "m": 0
+    },
+    {
+     "t": "clock",
+     "h": 9,
+     "m": 0
+    },
+    {
+     "t": "clock",
+     "h": 12,
+     "m": 0
+    }
+   ],
+   "title": {
+    "en": "Clocks on the hour",
+    "de": "Uhren zur vollen Stunde",
+    "nl": "Klokken op het hele uur",
+    "fr": "Horloges à l’heure pile",
+    "es": "Relojes en punto",
+    "it": "Orologi in punto",
+    "pt": "Relógios: horas em ponto",
+    "sv": "Klockor på hel timme",
+    "da": "Ure, der viser hel time",
+    "no": "Klokker på hel time",
+    "fi": "Neljä tasatuntia"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one where the little hand points right.",
+     "de": "Es ist das Einzige, bei dem der kleine Zeiger nach rechts zeigt.",
+     "nl": "Het is de enige die met de kleine wijzer naar rechts wijst.",
+     "fr": "C’est la seule où la petite aiguille pointe vers la droite.",
+     "es": "Es el único que apunta con la manecilla chica a la derecha.",
+     "it": "È l’unico che ha la lancetta corta che guarda a destra.",
+     "pt": "É o único que tem o ponteiro pequeno apontando para a direita.",
+     "sv": "Den är den enda som har den korta visaren rakt åt höger.",
+     "da": "Det er det eneste, der peger til højre med den lille viser.",
+     "no": "Den er den eneste som har den lille viseren mot høyre.",
+     "fi": "Se on ainoa, jossa pieni viisari osoittaa oikealle."
+    },
+    {
+     "en": "It's the only one where the hands make one straight line.",
+     "de": "Es ist das Einzige, bei dem die Zeiger eine gerade Linie bilden.",
+     "nl": "Het is de enige die met zijn wijzers één rechte lijn maakt.",
+     "fr": "C’est la seule où les aiguilles font une grande ligne droite.",
+     "es": "Es el único que forma una línea recta con sus manecillas.",
+     "it": "È l’unico che ha le lancette che formano una linea dritta.",
+     "pt": "É o único que tem os ponteiros formando uma linha reta.",
+     "sv": "Den är den enda som har visare som bildar en rak linje.",
+     "da": "Det er det eneste, der har viserne på én lige linje.",
+     "no": "Den er den eneste som har viserne på én rett linje.",
+     "fi": "Se on ainoa, jossa viisarit muodostavat suoran viivan."
+    },
+    {
+     "en": "It's the only one where the little hand points left.",
+     "de": "Es ist das Einzige, bei dem der kleine Zeiger nach links zeigt.",
+     "nl": "Het is de enige die met de kleine wijzer naar links wijst.",
+     "fr": "C’est la seule où la petite aiguille pointe vers la gauche.",
+     "es": "Es el único que apunta con la manecilla chica a la izquierda.",
+     "it": "È l’unico che ha la lancetta corta che guarda a sinistra.",
+     "pt": "É o único que tem o ponteiro pequeno apontando para a esquerda.",
+     "sv": "Den är den enda som har den korta visaren rakt åt vänster.",
+     "da": "Det er det eneste, der peger til venstre med den lille viser.",
+     "no": "Den er den eneste som har den lille viseren mot venstre.",
+     "fi": "Se on ainoa, jossa pieni viisari osoittaa vasemmalle."
+    },
+    {
+     "en": "It's the only one where the hands hide on top of each other.",
+     "de": "Es ist das Einzige, bei dem ein Zeiger den anderen versteckt.",
+     "nl": "Het is de enige die de twee wijzers boven op elkaar verstopt.",
+     "fr": "C’est la seule où les deux aiguilles se cachent l’une sur l’autre.",
+     "es": "Es el único que esconde una manecilla abajo de la otra.",
+     "it": "È l’unico che ha le lancette nascoste una sopra l’altra.",
+     "pt": "É o único que tem um ponteiro escondido embaixo do outro.",
+     "sv": "Den är den enda som har visare som gömmer sig ovanpå varandra.",
+     "da": "Det er det eneste, der har begge visere gemt oven på hinanden.",
+     "no": "Den er den eneste som gjemmer viserne oppå hverandre.",
+     "fi": "Se on ainoa, jossa viisarit piiloutuvat toistensa päälle."
+    }
+   ]
+  },
+  {
+   "id": "wodb-clock-23-four",
+   "band": "G23",
+   "cells": [
+    {
+     "t": "clock",
+     "h": 4,
+     "m": 0
+    },
+    {
+     "t": "clock",
+     "h": 4,
+     "m": 15
+    },
+    {
+     "t": "clock",
+     "h": 4,
+     "m": 30
+    },
+    {
+     "t": "clock",
+     "h": 4,
+     "m": 45
+    }
+   ],
+   "title": {
+    "en": "Four o'clock — four ways",
+    "de": "Vier Uhr — viermal anders",
+    "nl": "Vier uur — op vier manieren",
+    "fr": "Quatre heures — de quatre façons",
+    "es": "Las cuatro… de cuatro maneras",
+    "it": "Le quattro… in quattro modi",
+    "pt": "Quatro horas — de quatro jeitos",
+    "sv": "Klockan fyra — på fyra sätt",
+    "da": "Klokken fire — på fire måder",
+    "no": "Klokka fire — på fire måter",
+    "fi": "Kello neljä — neljällä tavalla"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one exactly on the hour.",
+     "de": "Es ist das Einzige genau zur vollen Stunde.",
+     "nl": "Het is de enige die precies op het hele uur staat.",
+     "fr": "C’est la seule où il est quatre heures pile.",
+     "es": "Es el único que marca la hora en punto.",
+     "it": "È l’unico che segna le quattro in punto.",
+     "pt": "É o único que marca quatro horas em ponto.",
+     "sv": "Den är den enda som visar ett helt klockslag.",
+     "da": "Det er det eneste, der viser lige præcis hel time.",
+     "no": "Den er den eneste som er akkurat på hel time.",
+     "fi": "Se on ainoa, joka näyttää tasatuntia."
+    },
+    {
+     "en": "It's the only one where the long hand points to the 3.",
+     "de": "Es ist das Einzige, bei dem der große Zeiger auf die 3 zeigt.",
+     "nl": "Het is de enige die met de grote wijzer naar de 3 wijst.",
+     "fr": "C’est la seule où la grande aiguille pointe sur le 3.",
+     "es": "Es el único que apunta con la manecilla grande al 3.",
+     "it": "È l’unico che ha la lancetta lunga sul 3.",
+     "pt": "É o único que tem o ponteiro grande apontando para o 3.",
+     "sv": "Den är den enda som har den långa visaren på trean.",
+     "da": "Det er det eneste, der peger på 3-tallet med den store viser.",
+     "no": "Den er den eneste som har den store viseren på tretallet.",
+     "fi": "Se on ainoa, jossa iso viisari osoittaa kolmosta."
+    },
+    {
+     "en": "It's the only one at half past.",
+     "de": "Es ist das Einzige, das genau halb fünf zeigt.",
+     "nl": "Het is de enige die half vijf laat zien.",
+     "fr": "C’est la seule où il est quatre heures et demie.",
+     "es": "Es el único que marca la media hora.",
+     "it": "È l’unico che segna le quattro e mezza.",
+     "pt": "É o único que marca quatro e meia.",
+     "sv": "Den är den enda som visar halv fem.",
+     "da": "Det er det eneste, der viser halv fem.",
+     "no": "Den er den eneste som viser halv fem.",
+     "fi": "Se on ainoa, jossa kello on puoli viisi."
+    },
+    {
+     "en": "It's the only one where the little hand is closer to the 5.",
+     "de": "Es ist das Einzige, bei dem der kleine Zeiger fast bei der 5 ist.",
+     "nl": "Het is de enige die de kleine wijzer al bijna bij de 5 heeft.",
+     "fr": "C’est la seule où la petite aiguille est tout près du 5.",
+     "es": "Es el único que tiene la manecilla chica más cerca del 5.",
+     "it": "È l’unico che ha la lancetta corta più vicina al 5.",
+     "pt": "É o único que tem o ponteiro pequeno mais perto do 5.",
+     "sv": "Den är den enda som har den korta visaren närmast femman.",
+     "da": "Det er det eneste, der har den lille viser tættest på 5-tallet.",
+     "no": "Den er den eneste som har den lille viseren nesten på femtallet.",
+     "fi": "Se on ainoa, jossa pieni viisari on lähempänä viitosta."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-k-flyers",
+   "band": "K",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "things_that_fly",
+     "d": "Things That Fly",
+     "f": "bird",
+     "k": "bird"
+    },
+    {
+     "t": "img",
+     "theme": "things_that_fly",
+     "d": "Things That Fly",
+     "f": "butterfly",
+     "k": "butterfly"
+    },
+    {
+     "t": "img",
+     "theme": "things_that_fly",
+     "d": "Things That Fly",
+     "f": "bee",
+     "k": "bee"
+    },
+    {
+     "t": "img",
+     "theme": "pets",
+     "d": "pets",
+     "f": "dog",
+     "k": "dog"
+    }
+   ],
+   "title": {
+    "en": "Bird, butterfly, bee, dog",
+    "de": "Vogel, Schmetterling, Biene, Hund",
+    "nl": "Vogel, vlinder, bij, hond",
+    "fr": "Oiseau, papillon, abeille, chien",
+    "es": "Pájaro, mariposa, abeja y perro",
+    "it": "Uccello, farfalla, ape, cane",
+    "pt": "Passarinho, borboleta, abelha, cachorro",
+    "sv": "Fågel, fjäril, bi och hund",
+    "da": "Fugl, sommerfugl, bi og hund",
+    "no": "Fugl, sommerfugl, bie og hund",
+    "fi": "Lintu, perhonen, mehiläinen ja koira"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with feathers.",
+     "de": "Es ist das Einzige mit Federn.",
+     "nl": "Het is de enige die veren heeft.",
+     "fr": "C’est le seul qui a des plumes.",
+     "es": "Es el único que tiene plumas.",
+     "it": "È l’unico che ha le piume.",
+     "pt": "É o único que tem penas.",
+     "sv": "Den är den enda som har fjädrar.",
+     "da": "Den er den eneste, der har fjer.",
+     "no": "Den er den eneste som har fjær.",
+     "fi": "Se on ainoa, jolla on höyhenet."
+    },
+    {
+     "en": "It's the only one that starts life as a caterpillar.",
+     "de": "Es ist das Einzige, das zuerst eine Raupe war.",
+     "nl": "Het is de enige die zijn leven als rups begint.",
+     "fr": "C’est le seul qui commence sa vie en chenille.",
+     "es": "Es la única que empieza su vida como oruga.",
+     "it": "È l’unica che da piccola era un bruco.",
+     "pt": "É a única que começa a vida como uma lagarta.",
+     "sv": "Den är den enda som börjar sitt liv som en larv.",
+     "da": "Den er den eneste, der begynder livet som en larve.",
+     "no": "Den er den eneste som starter livet som en larve.",
+     "fi": "Se on ainoa, joka aloittaa elämänsä toukkana."
+    },
+    {
+     "en": "It's the only one that makes honey.",
+     "de": "Es ist das Einzige, das Honig macht.",
+     "nl": "Het is de enige die honing maakt.",
+     "fr": "C’est la seule qui fabrique du miel.",
+     "es": "Es la única que hace miel.",
+     "it": "È l’unica che fa il miele.",
+     "pt": "É a única que faz mel.",
+     "sv": "Det är det enda som gör honung.",
+     "da": "Den er den eneste, der laver honning.",
+     "no": "Den er den eneste som lager honning.",
+     "fi": "Se on ainoa, joka tekee hunajaa."
+    },
+    {
+     "en": "It's the only one that can't fly.",
+     "de": "Es ist das Einzige, das nicht fliegen kann.",
+     "nl": "Het is de enige die niet kan vliegen.",
+     "fr": "C’est le seul qui ne sait pas voler.",
+     "es": "Es el único que no puede volar.",
+     "it": "È l’unico che non sa volare.",
+     "pt": "É o único que não sabe voar.",
+     "sv": "Den är den enda som inte kan flyga.",
+     "da": "Den er den eneste, der ikke kan flyve.",
+     "no": "Den er den eneste som ikke kan fly.",
+     "fi": "Se on ainoa, joka ei osaa lentää."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-k-longparts",
+   "band": "K",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "zoo_animals",
+     "d": "zoo animals",
+     "f": "elephant",
+     "k": "elephant"
+    },
+    {
+     "t": "img",
+     "theme": "zoo_animals",
+     "d": "zoo animals",
+     "f": "giraffe",
+     "k": "giraffe"
+    },
+    {
+     "t": "img",
+     "theme": "pets",
+     "d": "pets",
+     "f": "rabbit",
+     "k": "rabbit"
+    },
+    {
+     "t": "img",
+     "theme": "zoo_animals",
+     "d": "zoo animals",
+     "f": "monkey",
+     "k": "monkey"
+    }
+   ],
+   "title": {
+    "en": "Everyone has a long something",
+    "de": "Alle haben etwas Langes",
+    "nl": "Iedereen heeft iets langs",
+    "fr": "Chacun a quelque chose de très long !",
+    "es": "Trompa, cuello, orejas y cola",
+    "it": "Ognuno ha qualcosa di lungo",
+    "pt": "Todo mundo tem uma parte comprida",
+    "sv": "Alla har något långt",
+    "da": "Alle har noget langt",
+    "no": "Alle har noe langt",
+    "fi": "Jokaisella on jotakin pitkää"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with a long trunk.",
+     "de": "Es ist das Einzige mit einem langen Rüssel.",
+     "nl": "Het is de enige die een lange slurf heeft.",
+     "fr": "C’est le seul qui a une longue trompe.",
+     "es": "Es el único que tiene una trompa larga.",
+     "it": "È l’unico che ha una lunga proboscide.",
+     "pt": "É o único que tem uma tromba bem comprida.",
+     "sv": "Den är den enda som har en lång snabel.",
+     "da": "Den er den eneste, der har en lang snabel.",
+     "no": "Den er den eneste som har en lang snabel.",
+     "fi": "Se on ainoa, jolla on pitkä kärsä."
+    },
+    {
+     "en": "It's the only one with a long, long neck.",
+     "de": "Es ist das Einzige mit einem langen, langen Hals.",
+     "nl": "Het is de enige die een lange, lange nek heeft.",
+     "fr": "C’est la seule qui a un très très long cou.",
+     "es": "Es la única que tiene un cuello largo, largo.",
+     "it": "È l’unica che ha un collo lungo lungo.",
+     "pt": "É a única que tem um pescoço bem, bem comprido.",
+     "sv": "Den är den enda som har en lång, lång hals.",
+     "da": "Den er den eneste, der har en lang, lang hals.",
+     "no": "Den er den eneste som har en lang, lang hals.",
+     "fi": "Se on ainoa, jolla on pitkä, pitkä kaula."
+    },
+    {
+     "en": "It's the only one with long ears.",
+     "de": "Es ist das Einzige mit langen Ohren.",
+     "nl": "Het is het enige dat lange oren heeft.",
+     "fr": "C’est le seul qui a de longues oreilles.",
+     "es": "Es el único que tiene las orejas largas.",
+     "it": "È l’unico che ha le orecchie lunghe.",
+     "pt": "É o único que tem orelhas compridas.",
+     "sv": "Den är den enda som har långa öron.",
+     "da": "Den er den eneste, der har lange ører.",
+     "no": "Den er den eneste som har lange ører.",
+     "fi": "Se on ainoa, jolla on pitkät korvat."
+    },
+    {
+     "en": "It's the only one with a long curly tail.",
+     "de": "Es ist das Einzige mit einem langen, geringelten Schwanz.",
+     "nl": "Het is de enige die een lange krulstaart heeft.",
+     "fr": "C’est le seul qui a une longue queue toute enroulée.",
+     "es": "Es el único que tiene una cola larga y enroscada.",
+     "it": "È l’unica che ha una lunga coda arricciata.",
+     "pt": "É o único que tem um rabo comprido e enrolado.",
+     "sv": "Den är den enda som har en lång, ringlande svans.",
+     "da": "Den er den eneste, der har en lang, krøllet hale.",
+     "no": "Den er den eneste som har en lang, krøllete hale.",
+     "fi": "Se on ainoa, jolla on pitkä kippurahäntä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-k-food",
+   "band": "K",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "fruits",
+     "d": "fruits",
+     "f": "apple",
+     "k": "apple"
+    },
+    {
+     "t": "img",
+     "theme": "fruits",
+     "d": "fruits",
+     "f": "banana",
+     "k": "banana"
+    },
+    {
+     "t": "img",
+     "theme": "vegetables",
+     "d": "vegetables",
+     "f": "carrot",
+     "k": "carrot"
+    },
+    {
+     "t": "img",
+     "theme": "desserts_and_sweets",
+     "d": "desserts and sweets",
+     "f": "cookie",
+     "k": "cookie"
+    }
+   ],
+   "title": {
+    "en": "Apple, banana, carrot, cookie",
+    "de": "Apfel, Banane, Karotte, Keks",
+    "nl": "Appel, banaan, wortel, koekje",
+    "fr": "Pomme, banane, carotte, biscuit",
+    "es": "Manzana, plátano, zanahoria y galleta",
+    "it": "Mela, banana, carota, biscotto",
+    "pt": "Maçã, banana, cenoura, biscoito",
+    "sv": "Äpple, banan, morot och kaka",
+    "da": "Æble, banan, gulerod og småkage",
+    "no": "Eple, banan, gulrot og kjeks",
+    "fi": "Omena, banaani, porkkana ja keksi"
+   },
+   "reasons": [
+    {
+     "en": "It's the only red one.",
+     "de": "Es ist das Einzige, das rot ist.",
+     "nl": "Het is de enige die rood is.",
+     "fr": "C’est la seule qui est rouge.",
+     "es": "Es la única que es roja.",
+     "it": "È l’unica che è rossa.",
+     "pt": "É a única que é vermelha.",
+     "sv": "Det är det enda som är rött.",
+     "da": "Det er det eneste, der er rødt.",
+     "no": "Den er den eneste som er rød.",
+     "fi": "Se on ainoa, joka on punainen."
+    },
+    {
+     "en": "It's the only one you peel open.",
+     "de": "Es ist das Einzige, das man mit den Händen aufmacht.",
+     "nl": "Het is de enige die je openpelt.",
+     "fr": "C’est la seule qu’on épluche pour l’ouvrir.",
+     "es": "Es el único que pelas antes de comértelo.",
+     "it": "È l’unica che si apre tirando giù la buccia.",
+     "pt": "É a única que você descasca para comer.",
+     "sv": "Den är den enda som du skalar.",
+     "da": "Den er den eneste, der skal skrælles først.",
+     "no": "Den er den eneste som du må skrelle først.",
+     "fi": "Se on ainoa, joka avataan kuorimalla."
+    },
+    {
+     "en": "It's the only one that grows under the ground.",
+     "de": "Es ist das Einzige, das unter der Erde wächst.",
+     "nl": "Het is de enige die onder de grond groeit.",
+     "fr": "C’est la seule qui pousse sous la terre.",
+     "es": "Es la única que crece abajo de la tierra.",
+     "it": "È l’unica che cresce sotto terra.",
+     "pt": "É a única que cresce debaixo da terra.",
+     "sv": "Den är den enda som växer under jorden.",
+     "da": "Den er den eneste, der vokser nede i jorden.",
+     "no": "Den er den eneste som vokser under jorda.",
+     "fi": "Se on ainoa, joka kasvaa maan alla."
+    },
+    {
+     "en": "It's the only one that is baked, not grown.",
+     "de": "Es ist das Einzige, das gebacken wird und nicht wächst.",
+     "nl": "Het is het enige dat uit de oven komt en niet uit de tuin.",
+     "fr": "C’est le seul qui sort du four et ne pousse pas.",
+     "es": "Es la única que sale del horno y no de una planta.",
+     "it": "È l’unico che esce dal forno, non dall’orto.",
+     "pt": "É o único que sai do forno, não do pé.",
+     "sv": "Den är den enda som är bakad, inte odlad.",
+     "da": "Den er den eneste, der er bagt — ikke groet.",
+     "no": "Den er den eneste som er bakt, ikke dyrket.",
+     "fi": "Se on ainoa, joka leivotaan uunissa eikä kasva maassa."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-k-clothes",
+   "band": "K",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "clothing",
+     "d": "clothing",
+     "f": "mitten",
+     "k": "mitten"
+    },
+    {
+     "t": "img",
+     "theme": "clothing",
+     "d": "clothing",
+     "f": "scarf",
+     "k": "scarf"
+    },
+    {
+     "t": "img",
+     "theme": "clothing",
+     "d": "clothing",
+     "f": "boots",
+     "k": "boots"
+    },
+    {
+     "t": "img",
+     "theme": "clothing",
+     "d": "clothing",
+     "f": "swimsuit",
+     "k": "swimsuit"
+    }
+   ],
+   "title": {
+    "en": "What do we wear?",
+    "de": "Was ziehen wir an?",
+    "nl": "Wat trekken we aan?",
+    "fr": "Qu’est-ce qu’on porte ?",
+    "es": "¿Qué nos ponemos?",
+    "it": "Cosa ci mettiamo addosso?",
+    "pt": "O que a gente veste?",
+    "sv": "Vad har vi på oss?",
+    "da": "Hvad har vi på?",
+    "no": "Hva har vi på oss?",
+    "fi": "Mitä puemme päälle?"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one for your hands.",
+     "de": "Es ist das Einzige für die Hände.",
+     "nl": "Het is de enige die om je handen past.",
+     "fr": "C’est le seul qu’on met sur les mains.",
+     "es": "Es la única que es para tus manos.",
+     "it": "È l’unica che tiene calde le mani.",
+     "pt": "É a única que você usa nas mãos.",
+     "sv": "Det är det enda som du har på händerna.",
+     "da": "Den er den eneste, der er til hænderne.",
+     "no": "Den er den eneste som er til hendene.",
+     "fi": "Se on ainoa, joka puetaan käsiin."
+    },
+    {
+     "en": "It's the only one for your neck.",
+     "de": "Es ist das Einzige für den Hals.",
+     "nl": "Het is de enige die om je nek gaat.",
+     "fr": "C’est le seul qu’on enroule autour du cou.",
+     "es": "Es la única que es para tu cuello.",
+     "it": "È l’unica che avvolge il collo.",
+     "pt": "É a única que você enrola no pescoço.",
+     "sv": "Det är det enda som du har runt halsen.",
+     "da": "Det er det eneste, der er til halsen.",
+     "no": "Den er den eneste som er til halsen.",
+     "fi": "Se on ainoa, joka kiedotaan kaulaan."
+    },
+    {
+     "en": "It's the only one for your feet.",
+     "de": "Es ist das Einzige für die Füße.",
+     "nl": "Het is het enige dat je aan je voeten draagt.",
+     "fr": "C’est le seul qu’on enfile aux pieds.",
+     "es": "Es la única que es para tus pies.",
+     "it": "È l’unico che metti ai piedi.",
+     "pt": "É a única que você calça nos pés.",
+     "sv": "Det är det enda som du har på fötterna.",
+     "da": "Det er det eneste, der er til fødderne.",
+     "no": "Den er den eneste som er til føttene.",
+     "fi": "Se on ainoa, joka puetaan jalkoihin."
+    },
+    {
+     "en": "It's the only one for hot summer days.",
+     "de": "Es ist das Einzige für heiße Sommertage.",
+     "nl": "Het is het enige dat je aantrekt als het heet is.",
+     "fr": "C’est le seul qu’on porte pour aller se baigner.",
+     "es": "Es la única que es para los días de mucho calor.",
+     "it": "È l’unico che usi nei giorni caldi d’estate.",
+     "pt": "É a única que você usa nos dias quentes de verão.",
+     "sv": "Det är det enda som du har på dig varma sommardagar.",
+     "da": "Den er den eneste, der er til varme sommerdage.",
+     "no": "Den er den eneste som er til varme sommerdager.",
+     "fi": "Se on ainoa, joka puetaan kuumana kesäpäivänä."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-1-vehicles",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "vehicles",
+     "d": "vehicles",
+     "f": "bus",
+     "k": "bus"
+    },
+    {
+     "t": "img",
+     "theme": "vehicles",
+     "d": "vehicles",
+     "f": "boat",
+     "k": "boat"
+    },
+    {
+     "t": "img",
+     "theme": "vehicles",
+     "d": "vehicles",
+     "f": "airplane",
+     "k": "airplane"
+    },
+    {
+     "t": "img",
+     "theme": "vehicles",
+     "d": "vehicles",
+     "f": "bicycle",
+     "k": "bicycle"
+    }
+   ],
+   "title": {
+    "en": "How do we travel?",
+    "de": "Wie sind wir unterwegs?",
+    "nl": "Hoe reizen we?",
+    "fr": "Comment on se déplace ?",
+    "es": "¿Cómo viajamos?",
+    "it": "Come viaggiamo?",
+    "pt": "Como a gente viaja?",
+    "sv": "Hur tar vi oss fram?",
+    "da": "Hvordan kommer vi rundt?",
+    "no": "Hvordan reiser vi?",
+    "fi": "Miten me matkustamme?"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one that waits for you at a bus stop.",
+     "de": "Es ist das Einzige, das an der Haltestelle auf dich wartet.",
+     "nl": "Het is de enige die bij de bushalte op je wacht.",
+     "fr": "C’est le seul qui nous attend à l’arrêt de bus.",
+     "es": "Es el único que te espera en su parada.",
+     "it": "È l’unico che ti aspetta alla fermata.",
+     "pt": "É o único que espera você no ponto de ônibus.",
+     "sv": "Den är den enda som väntar på dig vid en hållplats.",
+     "da": "Den er den eneste, der venter på dig ved et busstoppested.",
+     "no": "Den er den eneste som venter på deg ved en holdeplass.",
+     "fi": "Se on ainoa, joka odottaa sinua pysäkillä."
+    },
+    {
+     "en": "It's the only one that travels on water.",
+     "de": "Es ist das Einzige, das auf dem Wasser fährt.",
+     "nl": "Het is de enige die over het water vaart.",
+     "fr": "C’est le seul qui se déplace sur l’eau.",
+     "es": "Es el único que viaja por el agua.",
+     "it": "È l’unica che viaggia sull’acqua.",
+     "pt": "É o único que anda na água.",
+     "sv": "Den är den enda som åker på vatten.",
+     "da": "Den er den eneste, der sejler på vandet.",
+     "no": "Den er den eneste som reiser på vannet.",
+     "fi": "Se on ainoa, joka kulkee vettä pitkin."
+    },
+    {
+     "en": "It's the only one that flies in the sky.",
+     "de": "Es ist das Einzige, das am Himmel fliegt.",
+     "nl": "Het is het enige dat door de lucht vliegt.",
+     "fr": "C’est le seul qui vole dans le ciel.",
+     "es": "Es el único que vuela por el cielo.",
+     "it": "È l’unico che vola nel cielo.",
+     "pt": "É o único que voa pelo céu.",
+     "sv": "Det är det enda som flyger på himlen.",
+     "da": "Det er det eneste, der flyver højt oppe på himlen.",
+     "no": "Den er den eneste som flyr høyt oppe i lufta.",
+     "fi": "Se on ainoa, joka lentää taivaalla."
+    },
+    {
+     "en": "It's the only one you move with your own legs.",
+     "de": "Es ist das Einzige, das du mit deinen Beinen antreibst.",
+     "nl": "Het is de enige die alleen vooruitkomt als jij trapt.",
+     "fr": "C’est le seul qu’on fait avancer avec ses jambes.",
+     "es": "Es la única que mueves con tus propias piernas.",
+     "it": "È l’unica che fai andare tu, pedalando.",
+     "pt": "É a única que anda com a força das suas pernas.",
+     "sv": "Den är den enda som du trampar fram med dina egna ben.",
+     "da": "Den er den eneste, der kører, når du selv træder i pedalerne.",
+     "no": "Den er den eneste som du beveger med dine egne bein.",
+     "fi": "Se on ainoa, jota liikutat omilla jaloillasi."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-1-legs",
+   "band": "G1",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "insects_and_bugs",
+     "d": "insects and bugs",
+     "f": "spider",
+     "k": "spider"
+    },
+    {
+     "t": "img",
+     "theme": "insects_and_bugs",
+     "d": "insects and bugs",
+     "f": "ant",
+     "k": "ant"
+    },
+    {
+     "t": "img",
+     "theme": "things_that_fly",
+     "d": "Things That Fly",
+     "f": "bird",
+     "k": "bird"
+    },
+    {
+     "t": "img",
+     "theme": "farm_animals",
+     "d": "farm animals",
+     "f": "horse",
+     "k": "horse"
+    }
+   ],
+   "title": {
+    "en": "Count the legs",
+    "de": "Beine zählen",
+    "nl": "Tel de poten",
+    "fr": "Compte les pattes",
+    "es": "Cuenta las patas",
+    "it": "Conta le zampe",
+    "pt": "Conte as pernas",
+    "sv": "Räkna benen",
+    "da": "Tæl benene",
+    "no": "Tell beina!",
+    "fi": "Laske jalat"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with eight legs.",
+     "de": "Es ist das Einzige mit acht Beinen.",
+     "nl": "Het is de enige die acht poten heeft.",
+     "fr": "C’est la seule qui a huit pattes.",
+     "es": "Es la única que tiene ocho patas.",
+     "it": "È l’unico che ha otto zampe.",
+     "pt": "É a única que tem oito pernas.",
+     "sv": "Den är den enda som har åtta ben.",
+     "da": "Den er den eneste, der har otte ben.",
+     "no": "Den er den eneste som har åtte bein.",
+     "fi": "Se on ainoa, jolla on kahdeksan jalkaa."
+    },
+    {
+     "en": "It's the only one with six legs — and the smallest.",
+     "de": "Es ist das Einzige mit sechs Beinen — und das kleinste.",
+     "nl": "Het is de enige die zes poten heeft — en de kleinste is.",
+     "fr": "C’est la seule qui a six pattes — et la plus petite.",
+     "es": "Es la única que tiene seis patas… ¡y es la más chiquita!",
+     "it": "È l’unica che ha sei zampe — ed è la più piccola.",
+     "pt": "É a única que tem seis pernas — e é a menorzinha.",
+     "sv": "Den är den enda som har sex ben — och den är minst av alla.",
+     "da": "Den er den eneste, der har seks ben — og den er allermindst.",
+     "no": "Den er den eneste som har seks bein — og er minst.",
+     "fi": "Se on ainoa, jolla on kuusi jalkaa — ja kaikista pienin."
+    },
+    {
+     "en": "It's the only one with two legs and wings.",
+     "de": "Es ist das Einzige mit zwei Beinen und Flügeln.",
+     "nl": "Het is de enige die twee poten én vleugels heeft.",
+     "fr": "C’est le seul qui a deux pattes et des ailes.",
+     "es": "Es el único que tiene dos patas y alas.",
+     "it": "È l’unico che ha due zampe e le ali.",
+     "pt": "É o único que tem duas pernas e asas.",
+     "sv": "Den är den enda som har två ben och vingar.",
+     "da": "Den er den eneste, der har to ben og vinger.",
+     "no": "Den er den eneste som har to bein og vinger.",
+     "fi": "Se on ainoa, jolla on kaksi jalkaa ja siivet."
+    },
+    {
+     "en": "It's the only one you can ride.",
+     "de": "Es ist das Einzige, auf dem man reiten kann.",
+     "nl": "Het is het enige dat jou op zijn rug laat rijden.",
+     "fr": "C’est le seul qu’on peut monter sur son dos.",
+     "es": "Es el único que te puede llevar en su lomo.",
+     "it": "È l’unico che puoi cavalcare.",
+     "pt": "É o único que você consegue montar.",
+     "sv": "Den är den enda som du kan rida på.",
+     "da": "Den er den eneste, der er stor nok til at ride på.",
+     "no": "Den er den eneste som du kan ri på.",
+     "fi": "Se on ainoa, jolla voi ratsastaa."
+    }
+   ]
+  },
+  {
+   "id": "wodb-pic-23-living",
+   "band": "G23",
+   "cells": [
+    {
+     "t": "img",
+     "theme": "tree",
+     "d": "tree",
+     "f": "oak",
+     "k": "oak-tree"
+    },
+    {
+     "t": "img",
+     "theme": "spring",
+     "d": "spring",
+     "f": "flower",
+     "k": "flower"
+    },
+    {
+     "t": "img",
+     "theme": "vegetables",
+     "d": "vegetables",
+     "f": "mushroom",
+     "k": "mushroom"
+    },
+    {
+     "t": "img",
+     "theme": "camping",
+     "d": "camping",
+     "f": "rock",
+     "k": "rock"
+    }
+   ],
+   "title": {
+    "en": "Alive or not?",
+    "de": "Lebendig oder nicht?",
+    "nl": "Levend of niet?",
+    "fr": "Vivant ou pas ?",
+    "es": "¿Vivo o no vivo?",
+    "it": "Vivo o non vivo?",
+    "pt": "Ser vivo ou não?",
+    "sv": "Levande eller inte?",
+    "da": "Levende eller ej?",
+    "no": "Levende eller ikke?",
+    "fi": "Elävä vai eloton?"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one with a trunk and branches.",
+     "de": "Es ist das Einzige mit Stamm und Ästen.",
+     "nl": "Het is de enige die een stam en takken heeft.",
+     "fr": "C’est le seul qui a un tronc et des branches.",
+     "es": "Es el único que tiene tronco y ramas.",
+     "it": "È l’unico che ha il tronco e i rami.",
+     "pt": "É a única que tem tronco e galhos.",
+     "sv": "Den är den enda som har stam och grenar.",
+     "da": "Det er det eneste, der har en stamme og grene.",
+     "no": "Den er den eneste som har stamme og greiner.",
+     "fi": "Se on ainoa, jolla on runko ja oksat."
+    },
+    {
+     "en": "It's the only one that bees visit.",
+     "de": "Es ist das Einzige, das Bienen besuchen.",
+     "nl": "Het is de enige die bezoek krijgt van bijen.",
+     "fr": "C’est la seule que les abeilles viennent butiner.",
+     "es": "Es la única que recibe visitas de las abejas.",
+     "it": "È l’unico che le api vengono a trovare.",
+     "pt": "É a única que as abelhas visitam.",
+     "sv": "Den är den enda som får besök av bin.",
+     "da": "Den er den eneste, der får besøg af bierne.",
+     "no": "Den er den eneste som får besøk av biene.",
+     "fi": "Se on ainoa, jossa mehiläiset vierailevat."
+    },
+    {
+     "en": "It's the only one that isn't a plant.",
+     "de": "Es ist das Einzige, das keine Pflanze ist.",
+     "nl": "Het is de enige die geen plant is.",
+     "fr": "C’est le seul qui n’est pas une plante.",
+     "es": "Es el único que no es una planta.",
+     "it": "È l’unico che non è una pianta.",
+     "pt": "É o único que não é uma planta.",
+     "sv": "Den är den enda som inte är en växt.",
+     "da": "Den er den eneste, der ikke er en plante.",
+     "no": "Den er den eneste som ikke er en plante.",
+     "fi": "Se on ainoa, joka ei ole kasvi."
+    },
+    {
+     "en": "It's the only one that isn't alive.",
+     "de": "Es ist das Einzige, das nicht lebt.",
+     "nl": "Het is de enige die niet leeft.",
+     "fr": "C’est le seul qui n’est pas vivant.",
+     "es": "Es la única que no es un ser vivo.",
+     "it": "È l’unico che non è vivo.",
+     "pt": "É a única que não é um ser vivo.",
+     "sv": "Den är den enda som inte lever.",
+     "da": "Den er den eneste, der ikke er levende.",
+     "no": "Den er den eneste som ikke er levende.",
+     "fi": "Se on ainoa, joka ei ole elossa."
+    }
+   ]
+  },
+  {
+   "id": "wodb-mix-23-six",
+   "band": "G23",
+   "cells": [
+    {
+     "t": "num",
+     "v": "6"
+    },
+    {
+     "t": "dots",
+     "arr": "dice",
+     "n": 6
+    },
+    {
+     "t": "word",
+     "w": {
+      "en": "six",
+      "de": "sechs",
+      "nl": "zes",
+      "fr": "six",
+      "es": "seis",
+      "it": "sei",
+      "pt": "seis",
+      "sv": "sex",
+      "da": "seks",
+      "no": "seks",
+      "fi": "kuusi"
+     }
+    },
+    {
+     "t": "clock",
+     "h": 6,
+     "m": 0
+    }
+   ],
+   "title": {
+    "en": "They all say six!",
+    "de": "Alle sagen sechs!",
+    "nl": "Ze zeggen allemaal zes!",
+    "fr": "Ils disent tous six !",
+    "es": "¡Todos dicen seis!",
+    "it": "Dicono tutti sei!",
+    "pt": "Todos mostram o seis!",
+    "sv": "Alla säger sex!",
+    "da": "Alle siger seks!",
+    "no": "Alle sier seks!",
+    "fi": "Kaikki sanovat kuusi!"
+   },
+   "reasons": [
+    {
+     "en": "It's the only one written as a digit.",
+     "de": "Es ist das Einzige, das als Ziffer geschrieben ist.",
+     "nl": "Het is de enige die met een cijfer geschreven is.",
+     "fr": "C’est le seul qui est écrit en chiffre.",
+     "es": "Es el único que se escribe con una cifra.",
+     "it": "È l’unico che è scritto in cifra.",
+     "pt": "É o único que aparece escrito com algarismo.",
+     "sv": "Det är det enda som är skrivet med en siffra.",
+     "da": "Det er det eneste, der er skrevet som et tal.",
+     "no": "Det er det eneste som er skrevet med siffer.",
+     "fi": "Se on ainoa, joka on kirjoitettu numerolla."
+    },
+    {
+     "en": "It's the only one you can count dot by dot.",
+     "de": "Es ist das Einzige, das man Punkt für Punkt zählen kann.",
+     "nl": "Het is de enige die je stip voor stip kunt tellen.",
+     "fr": "C’est le seul qu’on peut compter point par point.",
+     "es": "Es el único que puedes contar puntito por puntito.",
+     "it": "È l’unico che puoi contare punto per punto.",
+     "pt": "É o único que dá para contar ponto por ponto.",
+     "sv": "Den är den enda som du kan räkna prick för prick.",
+     "da": "Det er det eneste, der kan tælles prik for prik.",
+     "no": "Det er det eneste som du kan telle prikk for prikk.",
+     "fi": "Se on ainoa, jonka voi laskea piste pisteeltä."
+    },
+    {
+     "en": "It's the only one made of letters.",
+     "de": "Es ist das Einzige aus Buchstaben.",
+     "nl": "Het is de enige die uit letters bestaat.",
+     "fr": "C’est le seul qui est écrit avec des lettres.",
+     "es": "Es la única que está hecha de letras.",
+     "it": "È l’unico che è fatto di lettere.",
+     "pt": "É o único que é feito de letras.",
+     "sv": "Det är det enda som är skrivet med bokstäver.",
+     "da": "Det er det eneste, der er lavet af bogstaver.",
+     "no": "Det er det eneste som er skrevet med bokstaver.",
+     "fi": "Se on ainoa, joka on kirjoitettu kirjaimilla."
+    },
+    {
+     "en": "It's the only one that tells a time.",
+     "de": "Es ist das Einzige, das eine Uhrzeit zeigt.",
+     "nl": "Het is de enige die je vertelt hoe laat het is.",
+     "fr": "C’est la seule qui donne l’heure.",
+     "es": "Es el único que marca una hora.",
+     "it": "È l’unico che segna un’ora.",
+     "pt": "É o único que mostra um horário.",
+     "sv": "Den är den enda som visar ett klockslag.",
+     "da": "Det er det eneste, der viser et klokkeslæt.",
+     "no": "Det er det eneste som viser et klokkeslett.",
+     "fi": "Se on ainoa, joka kertoo kellonajan."
+    }
+   ]
+  }
+ ],
+ "featuredOrder": [
+  "wodb-pic-k-flyers",
+  "wodb-num-1-fives",
+  "wodb-clock-1-oclock",
+  "wodb-shape-k-onlyone",
+  "wodb-num-23-squares",
+  "wodb-dots-k-four",
+  "wodb-pic-1-vehicles",
+  "wodb-mix-23-six",
+  "wodb-dots-k-six",
+  "wodb-num-k-lines",
+  "wodb-pic-23-living",
+  "wodb-shape-1-sides",
+  "wodb-clock-23-four",
+  "wodb-pic-k-food",
+  "wodb-num-1-threes",
+  "wodb-dots-1-twelve",
+  "wodb-pic-k-longparts",
+  "wodb-shape-23-triangles",
+  "wodb-num-23-twofour",
+  "wodb-pic-k-clothes",
+  "wodb-pic-1-legs"
+ ]
 }

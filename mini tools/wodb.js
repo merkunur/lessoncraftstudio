@@ -90,75 +90,86 @@ var Wodb = {
        ====================================================================== */
 
     /* the doctrine line, now rendered ON the stage (the shell hides it) */
-    doctrine:     {en:'Four things — and every answer can be right.'},
-    invite:       {en:'Tap the one you would pick, and tell us why.'},
-    stemPrompt:   {en:'Tell us why. Tap the ear to hear a sentence starter.'},
+    doctrine:     {en:'Four things — and every answer can be right.',de:'Vier Dinge — und jede Antwort kann eine gute sein!',fr:'Quatre choses — et chaque réponse peut être la bonne !',it:'Quattro cose — e ogni risposta può andare bene.',es:'Cuatro cosas — y toda respuesta puede estar bien.',pt:'Quatro coisas — e toda resposta pode estar certa.',nl:'Vier dingen — en elk antwoord kan goed zijn.',sv:'Fyra saker — och varje svar kan vara rätt!',da:'Fire ting — og alle svar kan være gode.',no:'Fire ting — og alle svar kan være gode.',fi:'Neljä asiaa — ja jokainen vastaus voi olla hyvä!'},
+    invite:       {en:'Tap the one you would pick, and tell us why.',de:'Tippe auf deins und erzähl uns, warum.',fr:'Touche celle que tu choisis et dis-nous pourquoi.',it:'Tocca la tua e raccontaci perché.',es:'Toca la que tú elijas y cuéntanos por qué.',pt:'Toque na sua e conte para a gente o porquê.',nl:'Tik op wat jij zou kiezen en vertel ons waarom.',sv:'Tryck på den du skulle välja och berätta varför.',da:'Tryk på den, du vælger, og fortæl os hvorfor.',no:'Trykk på den du velger, og fortell oss hvorfor.',fi:'Napauta omaasi ja kerro meille, miksi.'},
+    stemPrompt:   {en:'Tell us why. Tap a speaker to hear a sentence starter.',de:'Erzähl uns, warum. Tippe auf den Lautsprecher, dann hörst du einen Satzanfang.',fr:'Dis-nous pourquoi. Touche le haut-parleur pour écouter un début de phrase.',it:'Raccontaci perché. Tocca l’orecchio per ascoltare un avvio di frase.',es:'Cuéntanos por qué. Toca la oreja para escuchar cómo empezar la frase.',pt:'Agora conte o porquê. Toque no alto-falante para ouvir um começo de frase.',nl:'Vertel waarom. Tik om een startzin te horen.',sv:'Berätta varför. Tryck på örat för att höra hur du kan börja meningen.',da:'Fortæl hvorfor. Tryk på højttaleren for at høre en sætning, du kan starte med.',no:'Fortell oss hvorfor. Trykk på øret for å høre en setningsstarter.',fi:'Kerro, miksi. Napauta korvaa, niin kuulet lauseen alun.'},
 
     /* navigation */
-    nextGrid:     {en:'Next grid'},
-    prevGrid:     {en:'The grid before'},
-    turnIt:       {en:'Turn it'},
-    turnedAnnounce:{en:'Same four — new corners. Look again.'},
-    endOfBand:    {en:'That is all {n} in {band}.'},
-    startSetAgain:{en:'Start the set again'},
-    goToBand:     {en:'Go to {band}'},
-    freeNote:     {en:'This week’s grid — a new one every Monday, and it is yours to keep.'},
-    noReasonsYet: {en:'This grid has no reasons yet.'},
+    nextGrid:     {en:'Next grid',de:'Nächstes Rätsel',fr:'Grille suivante',it:'Quartetto successivo',es:'Siguiente tarjeta',pt:'Próxima cartela',nl:'Volgende denkkaart',sv:'Nästa rutnät',da:'Næste sæt',no:'Neste rutenett',fi:'Seuraava ruudukko'},
+    prevGrid:     {en:'Previous grid',de:'Vorheriges Rätsel',fr:'Grille précédente',it:'Quartetto precedente',es:'Tarjeta anterior',pt:'Cartela anterior',nl:'Vorige denkkaart',sv:'Föregående rutnät',da:'Forrige sæt',no:'Forrige rutenett',fi:'Edellinen ruudukko'},
+    turnIt:       {en:'Turn the corners',de:'Einmal drehen',fr:'Changer les coins',it:'Ruota il quartetto',es:'Girar la tarjeta',pt:'Girar a cartela',nl:'Kwartslag draaien',sv:'Vrid rutnätet',da:'Drej sættet',no:'Snu rutenettet',fi:'Kierrä ruudukkoa'},
+    turnedAnnounce:{en:'The same four things, in new corners. Look again.',de:'Dieselben vier — neue Ecken. Schau noch mal hin.',fr:'Les mêmes quatre choses, dans d’autres coins. Regarde encore.',it:'Le stesse quattro, in angoli nuovi. Guardate ancora.',es:'Son las mismas cuatro, pero en otras esquinas. Míralas otra vez.',pt:'As mesmas quatro coisas — em outros cantos. Olhe de novo.',nl:'Dezelfde vier — andere hoeken. Kijk nog eens goed.',sv:'Samma fyra — nya hörn. Titta en gång till.',da:'Samme fire — nye hjørner. Kig en gang til.',no:'Samme fire — nye hjørner. Se en gang til.',fi:'Samat neljä — uudet kulmat. Katso uudelleen.'},
+    turnedFull:   {en:'All the way round — the four are back where they started.',fr:'Un tour complet — les quatre choses sont revenues à leur place.'},
+    endOfBand:    {en:'That was the last grid for {band} — {n} in the set.',de:'Das waren alle Rätsel für {band} — insgesamt {n}.',fr:'C’est la dernière grille pour les {band} — {n} en tout.',it:'Questi sono tutti i quartetti per {band}: {n} in tutto.',es:'Estas son todas las tarjetas de {band}: {n} en total.',pt:'Fim das cartelas de {band}. Ao todo: {n}.',nl:'Dit waren alle {n} denkkaarten voor {band}.',sv:'{n} rutnät för {band} — det var alla.',da:'Det var det hele — {n} sæt til {band}.',no:'Det var alle rutenettene for {band} — {n} i alt.',fi:'Nämä olivat kaikki ikäryhmän {band} ruudukot, yhteensä {n}.'},
+    startSetAgain:{en:'Start the set again',de:'Zurück zum ersten Rätsel',fr:'Reprendre à la première grille',it:'Riparti dal primo',es:'Volver a la primera tarjeta',pt:'Voltar para a primeira cartela',nl:'Weer bij de eerste beginnen',sv:'Börja om från första rutnätet',da:'Tilbage til det første sæt',no:'Tilbake til det første',fi:'Aloita ruudukot alusta'},
+    endOfMine:    {en:'That was the last of your own grids — {n} in all.',fr:'C’est la dernière de vos propres grilles — {n} en tout.'},
+    goToBand:     {en:'Go to {band}',de:'Weiter: {band}',fr:'Passer aux {band}',it:'Vai a {band}',es:'Ir a {band}',pt:'Ir para {band}',nl:'Verder met {band}',sv:'Gå vidare till {band}',da:'Videre til {band}',no:'Gå til {band}',fi:'Siirry ikäryhmään {band}'},
+    freeNote:     {en:'A new grid free every Monday — and the ones you have already been given stay unlocked.',de:'Jeden Montag ein neues Rätsel — und alle bisherigen bleiben freigeschaltet.',fr:'La grille de la semaine — une nouvelle chaque lundi, et toutes celles des semaines passées vous restent.',it:'Il quartetto della settimana: uno nuovo ogni lunedì, e quelli che hai già ricevuto restano tuoi.',es:'Tarjeta de esta semana: cada lunes llega una nueva, y todas las que ya recibiste se quedan contigo.',pt:'A cartela da semana — uma nova toda segunda-feira, e as que já vieram continuam suas.',nl:'De denkkaart van de week — elke maandag een nieuwe, en alle kaarten die je kreeg blijven van jou.',sv:'Veckans rutnät — ett nytt varje måndag, och alla du har fått får du behålla.',da:'Ugens sæt — et nyt hver mandag, og I beholder alle dem, I har fået.',no:'Ukens rutenett — et nytt hvert mandag, og du beholder alle du har fått.',fi:'Viikon ruudukko — uusi joka maanantai, ja kaikki saamasi ruudukot jäävät sinulle.'},
+    noReasonsYet: {en:'This grid has no reasons yet.',de:'Für dieses Rätsel gibt es noch keine Gründe.',fr:'Cette grille n’a pas encore de raisons.',it:'Questo quartetto non ha ancora i motivi.',es:'Esta tarjeta todavía no tiene razones.',pt:'Esta cartela ainda não tem motivos.',nl:'Bij deze denkkaart staan nog geen redenen.',sv:'Det här rutnätet har inga skäl än.',da:'Det her sæt har ingen grunde endnu.',no:'Dette rutenettet har ingen grunner ennå.',fi:'Tässä ruudukossa ei ole vielä perusteluja.'},
 
     /* the ritual + accessibility */
-    hearStem:     {en:'Hear a sentence starter'},
-    chosenToTalk: {en:'chosen to talk about'},
-    noLongerChosen:{en:'no longer chosen'},
-    readAloud:    {en:'read aloud'},
-    anotherWay:   {en:'Another way to see it:'},
-    reasonFrom:   {en:'{pos}: {reason}'},
+    hearStem:     {en:'Hear a sentence starter',de:'Einen Satzanfang hören',fr:'Écouter un début de phrase',it:'Ascolta un avvio di frase',es:'Escuchar cómo empezar la frase',pt:'Ouvir um começo de frase',nl:'Een startzin horen',sv:'Lyssna på hur du kan börja meningen',da:'Hør en sætning, du kan starte med',no:'Hør en setningsstarter',fi:'Kuuntele lauseen alku'},
+    chosenToTalk: {en:'chosen to talk about',de:'zum Reden ausgewählt',fr:'on en parle',it:'da discutere insieme',es:'para comentar en clase',pt:'entrou na conversa',nl:'gekozen om over te praten',sv:'vi ska prata om det här hörnet',da:'valgt til at snakke om',no:'valgt til samtale',fi:'valittu keskusteltavaksi'},
+    noLongerChosen:{en:'not chosen any more',de:'nicht mehr ausgewählt',fr:'on n’en parle plus',it:'non più da discutere',es:'sin elegir',pt:'saiu da conversa',nl:'niet meer gekozen',sv:'vi ska inte prata om det här hörnet',da:'ikke længere valgt',no:'ikke valgt lenger',fi:'valinta poistettu'},
+    readAloud:    {en:'read aloud',de:'vorlesen',fr:'lire à voix haute',it:'leggi ad alta voce',es:'escuchar en voz alta',pt:'ler em voz alta',nl:'voorlezen',sv:'läs upp',da:'læs højt',no:'les opp',fi:'lue ääneen'},
+    anotherWay:   {en:'You could also say:',de:'Man kann es auch so sehen:',fr:'On peut aussi le voir comme ça :',it:'Un altro modo di vederlo:',es:'Y también se puede ver así:',pt:'Também dá para ver assim:',nl:'Je kunt er ook zo naar kijken:',sv:'Man kan också tänka så här:',da:'Man kan også se det sådan her:',no:'En annen måte å se det på:',fi:'Voi ajatella myös näin:'},
+    reasonFrom:   {en:'{pos}: {reason}',de:'{pos}: {reason}',fr:'{pos} : {reason}',it:'{pos}: {reason}',es:'{pos}: {reason}',pt:'{pos}: {reason}',nl:'{pos}: {reason}',sv:'{pos}: {reason}',da:'{pos}: {reason}',no:'{pos}: {reason}',fi:'{pos}: {reason}'},
 
     /* corner names — POSITION FIRST, because that is how a class refers
        to a corner out loud, and it is what makes the reveal narratable */
-    posTL:        {en:'Top left'},
-    posTR:        {en:'Top right'},
-    posBL:        {en:'Bottom left'},
-    posBR:        {en:'Bottom right'},
+    posTL:        {en:'Top left',de:'Oben links',fr:'En haut à gauche',it:'In alto a sinistra',es:'Arriba a la izquierda',pt:'Em cima à esquerda',nl:'Linksboven',sv:'Uppe till vänster',da:'Øverst til venstre',no:'Øverst til venstre',fi:'Vasen yläkulma'},
+    posTR:        {en:'Top right',de:'Oben rechts',fr:'En haut à droite',it:'In alto a destra',es:'Arriba a la derecha',pt:'Em cima à direita',nl:'Rechtsboven',sv:'Uppe till höger',da:'Øverst til højre',no:'Øverst til høyre',fi:'Oikea yläkulma'},
+    posBL:        {en:'Bottom left',de:'Unten links',fr:'En bas à gauche',it:'In basso a sinistra',es:'Abajo a la izquierda',pt:'Embaixo à esquerda',nl:'Linksonder',sv:'Nere till vänster',da:'Nederst til venstre',no:'Nederst til venstre',fi:'Vasen alakulma'},
+    posBR:        {en:'Bottom right',de:'Unten rechts',fr:'En bas à droite',it:'In basso a destra',es:'Abajo a la derecha',pt:'Embaixo à direita',nl:'Rechtsonder',sv:'Nere till höger',da:'Nederst til højre',no:'Nederst til høyre',fi:'Oikea alakulma'},
 
     /* spoken descriptions of cell content, for the screen reader */
-    nDots:        {en:'{n} dots'},
-    clockTime:    {en:'{h}:{m} on a clock'},
-    arr_dice:     {en:'in a dice pattern'},
-    arr_row:      {en:'in a row'},
-    arr_circle:   {en:'in a ring'},
-    arr_scatter:  {en:'scattered'},
-    arr_tenframe: {en:'in a ten-frame'},
-    fillOutline:  {en:'not filled in'},
-    fillHatch:    {en:'striped'},
-    fillStipple:  {en:'speckled'},
-    sizeSmall:    {en:'small'},
-    shape_circle: {en:'a circle'},
-    shape_square: {en:'a square'},
-    shape_rectangle:{en:'a rectangle'},
-    shape_triangle:{en:'a triangle'},
-    shape_rightTriangle:{en:'a triangle with a square corner'},
-    shape_hexagon:{en:'a hexagon'},
-    shape_pentagon:{en:'a pentagon'},
-    shape_octagon:{en:'an octagon'},
-    shape_ellipse:{en:'an oval'},
-    shape_rhombus:{en:'a diamond'},
-    shape_trapezoid:{en:'a trapezium'},
-    shape_semicircle:{en:'a half circle'},
-    shape_star:   {en:'a star'},
-    shape_cross:  {en:'a cross'},
-    shape_heart:  {en:'a heart'},
+    nDots:        {en:'{n} dots',de:'Punkte: {n}',fr:'{n} points',it:'{n} punti',es:'{n} puntos',pt:'{n} pontos',nl:'{n} stippen',sv:'antal prickar: {n}',da:'{n} prikker',no:'{n} prikker',fi:'{n} pistettä'},
+    oneDot:       {en:'1 dot',fr:'1 point'},
+    clockTime:    {en:'a clock showing {h}:{m}',de:'{h}:{m} Uhr',fr:'une horloge qui indique {h} h {m}',it:'{h}:{m} su un orologio',es:'{h}:{m} en un reloj',pt:'{h}:{m} no relógio',nl:'{h}:{m} op de klok',sv:'en klocka som visar {h}:{m}',da:'et ur, der viser {h}.{m}',no:'en klokke som viser {h}:{m}',fi:'kello {h}.{m}'},
+    arr_dice:     {en:'in a dice pattern',de:'als Würfelbild',fr:'comme sur un dé',it:'come sul dado',es:'como en un dado',pt:'como num dado',nl:'als op een dobbelsteen',sv:'som på en tärning',da:'som på en terning',no:'som på en terning',fi:'kuten nopassa'},
+    arr_row:      {en:'in a row',de:'in einer Reihe',fr:'en ligne',it:'in fila',es:'en fila',pt:'em fila',nl:'op een rij',sv:'på rad',da:'på række',no:'på rekke',fi:'rivissä'},
+    arr_rowWrapped:{en:'in two rows',fr:'sur deux lignes'},
+    arr_circle:   {en:'in a ring',de:'als Kreisbild',fr:'en rond',it:'in cerchio',es:'en círculo',pt:'em roda',nl:'in een kring',sv:'i en ring',da:'i en ring',no:'i ring',fi:'renkaana'},
+    arr_scatter:  {en:'scattered',de:'durcheinander',fr:'en désordre',it:'sparsi',es:'sin orden',pt:'espalhados',nl:'door elkaar',sv:'utspridda',da:'spredt ud',no:'spredt utover',fi:'sikin sokin'},
+    arr_tenframe: {en:'in a ten-frame',de:'im Zehnerfeld',fr:'dans une boîte de dix',it:'nella tabella del dieci',es:'en un marco de diez',pt:'no quadro de dez',nl:'in een tienraam',sv:'i en tioram',da:'i en tierramme',no:'i en tierramme',fi:'kymmenruudukossa'},
+    fillSolid:    {en:'filled in',fr:'rempli'},
+    fillOutline:  {en:'not filled in',de:'nicht ausgemalt',fr:'seulement le contour',it:'solo il contorno',es:'sin rellenar',pt:'só o contorno',nl:'niet ingekleurd',sv:'bara kanten',da:'ikke fyldt ud',no:'bare omriss',fi:'ei väritetty sisältä'},
+    fillHatch:    {en:'striped',de:'gestreift',fr:'à rayures',it:'a righe',es:'con rayas',pt:'com listras',nl:'gestreept',sv:'med ränder',da:'skråstribet',no:'stripete',fi:'viivoitettu'},
+    fillStipple:  {en:'speckled',de:'getupft',fr:'à pois',it:'a puntini',es:'con puntitos',pt:'com bolinhas',nl:'gespikkeld',sv:'med små punkter',da:'prikket',no:'prikkete',fi:'täplikäs'},
+    rotated:      {en:'turned',fr:'dans un autre sens'},
+    sizeSmall:    {en:'small',de:'klein',fr:'en plus petit',it:'in piccolo',es:'de tamaño pequeño',pt:'de tamanho pequeno',nl:'klein',sv:'liten storlek',da:'lille',no:'liten størrelse',fi:'pieni'},
+    sizeMedium:   {en:'medium',fr:'en taille moyenne'},
+    sizeLarge:    {en:'large',fr:'en plus grand'},
+    shape_circle: {en:'a circle',de:'ein Kreis',fr:'un cercle',it:'un cerchio',es:'un círculo',pt:'um círculo',nl:'een cirkel',sv:'en cirkel',da:'en cirkel',no:'en sirkel',fi:'ympyrä'},
+    shape_square: {en:'a square',de:'ein Quadrat',fr:'un carré',it:'un quadrato',es:'un cuadrado',pt:'um quadrado',nl:'een vierkant',sv:'en kvadrat',da:'et kvadrat',no:'et kvadrat',fi:'neliö'},
+    shape_rectangle:{en:'a rectangle',de:'ein Rechteck',fr:'un rectangle',it:'un rettangolo',es:'un rectángulo',pt:'um retângulo',nl:'een rechthoek',sv:'en rektangel',da:'et rektangel',no:'et rektangel',fi:'suorakulmio'},
+    shape_triangle:{en:'a triangle',de:'ein Dreieck',fr:'un triangle',it:'un triangolo',es:'un triángulo',pt:'um triângulo',nl:'een driehoek',sv:'en triangel',da:'en trekant',no:'en trekant',fi:'kolmio'},
+    shape_rightTriangle:{en:'a triangle with a square corner',de:'ein Dreieck mit einem rechten Winkel',fr:'un triangle avec un angle droit',it:'un triangolo con un angolo retto',es:'un triángulo con una esquina cuadrada',pt:'um triângulo com um ângulo reto',nl:'een driehoek met een rechte hoek',sv:'en triangel med en rät vinkel',da:'en trekant med et ret hjørne',no:'en trekant med en rett vinkel',fi:'suorakulmainen kolmio'},
+    shape_hexagon:{en:'a hexagon',de:'ein Sechseck',fr:'un hexagone',it:'un esagono',es:'un hexágono',pt:'um hexágono',nl:'een zeshoek',sv:'en sexhörning',da:'en sekskant',no:'en sekskant',fi:'kuusikulmio'},
+    shape_pentagon:{en:'a pentagon',de:'ein Fünfeck',fr:'un pentagone',it:'un pentagono',es:'un pentágono',pt:'um pentágono',nl:'een vijfhoek',sv:'en femhörning',da:'en femkant',no:'en femkant',fi:'viisikulmio'},
+    shape_octagon:{en:'an octagon',de:'ein Achteck',fr:'un octogone',it:'un ottagono',es:'un octágono',pt:'um octógono',nl:'een achthoek',sv:'en åttahörning',da:'en ottekant',no:'en åttekant',fi:'kahdeksankulmio'},
+    shape_ellipse:{en:'an oval',de:'ein Oval',fr:'un ovale',it:'un ovale',es:'un óvalo',pt:'uma figura oval',nl:'een ovaal',sv:'en oval',da:'en oval',no:'en oval',fi:'soikio'},
+    shape_rhombus:{en:'a rhombus',de:'eine Raute',fr:'un losange',it:'un rombo',es:'un rombo',pt:'um losango',nl:'een ruit',sv:'en romb',da:'en rombe',no:'en rombe',fi:'vinoneliö'},
+    shape_trapezoid:{en:'a trapezoid',de:'ein Trapez',fr:'un trapèze',it:'un trapezio',es:'un trapecio',pt:'um trapézio',nl:'een trapezium',sv:'en trapets',da:'et trapez',no:'et trapes',fi:'puolisuunnikas'},
+    shape_semicircle:{en:'a half circle',de:'ein Halbkreis',fr:'un demi-cercle',it:'un semicerchio',es:'medio círculo',pt:'meio círculo',nl:'een halve cirkel',sv:'en halvcirkel',da:'en halvcirkel',no:'en halvsirkel',fi:'puoliympyrä'},
+    shape_star:   {en:'a star',de:'ein Stern',fr:'une étoile',it:'una stella',es:'una estrella',pt:'uma estrela',nl:'een ster',sv:'en stjärna',da:'en stjerne',no:'en stjerne',fi:'tähti'},
+    shape_cross:  {en:'a cross',de:'ein Kreuz',fr:'une croix',it:'una croce',es:'una cruz',pt:'uma cruz',nl:'een kruis',sv:'ett kors',da:'et kors',no:'et kors',fi:'risti'},
+    shape_heart:  {en:'a heart',de:'ein Herz',fr:'un cœur',it:'un cuore',es:'un corazón',pt:'um coração',nl:'een hart',sv:'ett hjärta',da:'et hjerte',no:'et hjerte',fi:'sydän'},
 
     /* settings */
-    setBand:      {en:'Your class'},
+    setBand:      {en:'Your class',de:'Alter der Kinder',fr:'Votre classe',it:'La tua classe',es:'Tu clase',pt:'Sua turma',nl:'Jouw groep',sv:'Din klass',da:'Din klasse',no:'Klassen din',fi:'Ikäryhmä'},
 
     /* print */
-    printSheet:   {en:'Print the sheet'},
-    printTalkTitle:{en:'What we noticed'},
-    printChildLine:{en:'I chose ____________ .  It’s the only one that'},
-    printOthers:  {en:'Someone else chose ____________ .  Their reason:'},
-    printMakeOwn: {en:'Make a grid where every one can be the odd one out.'},
-    printTeacher: {en:'Teacher notes'},
-    gatePrint:    {en:'The printable sheets are part of Premium. This week’s grid is always free.'}
+    /* ⚠ `printTalkTitle` and `printTeacher` were authored here and never
+       reached — the sheet uses `title` for its heading and has no teacher
+       page yet. A dead string is not harmless: it goes to eleven native
+       panels, costs eleven pieces of real work, and renders nowhere.
+       Deleted rather than given a home it does not have. */
+    printSheet:   {en:'Print the sheet',de:'Arbeitsblatt drucken',fr:'Imprimer la fiche',it:'Stampa le schede',es:'Imprimir las páginas',pt:'Imprimir as folhas',nl:'Denkblad printen',sv:'Skriv ut arbetsbladet',da:'Print arket',no:'Skriv ut arkene',fi:'Tulosta moniste'},
+    printChildLine:{en:'It’s the only one that',de:'Es ist das Einzige, das',fr:'C’est le seul qui',it:'Ho scelto ____________ .  È l’unico che',es:'Yo elegí ____________ . Es diferente porque',pt:'É o único que ______________________________',nl:'Het is de enige die',sv:'Jag valde ____________. Den är den enda som',da:'Den er den eneste, der',no:'Jeg valgte ____________ .  Den er den eneste som',fi:'Minä valitsin: ____________ . Se on ainoa, joka'},
+    printOthers:  {en:'Someone else chose ____________. They said it was the only one that',de:'Jemand anderes hat eine andere Ecke gewählt. Warum?',fr:'Quelqu’un d’autre a choisi ____________. Sa raison :',it:'Un compagno o una compagna ha scelto ____________ .  Il suo motivo:',es:'Alguien más eligió ____________ . Su razón:',pt:'Alguém da turma escolheu ____________ . O motivo foi:',nl:'Iemand anders koos ____________ . De reden daarvoor:',sv:'Någon annan valde ____________. Skälet var:',da:'En anden valgte ____________ . Grunden var:',no:'En annen valgte ____________ .  Grunnen var:',fi:'Joku toinen valitsi: ____________ . Hänen perustelunsa:'},
+    printMakeOwn: {en:'Make your own grid',de:'Baue dein eigenes Rätsel',fr:'Crée ta propre grille',it:'Crea un quartetto in cui ogni angolo può essere l’intruso.',es:'Crea una tarjeta en la que cada una de las cuatro pueda ser la diferente.',pt:'Monte uma cartela em que cada canto possa ser o diferente.',nl:'Maak zelf een denkkaart waarbij elke hoek de vreemde eend in de bijt kan zijn.',sv:'Gör ett eget rutnät där varje hörn kan vara det som inte passar in.',da:'Lav et sæt, hvor alle fire kan være den, der skiller sig ud.',no:'Lag et rutenett der hvert hjørne kan være det som skiller seg ut.',fi:'Tee oma ruudukko, jossa jokainen voi olla se, joka ei kuulu joukkoon.'},
+    gatePrint:    {en:'The printable sheet is part of Premium. Everything on the board stays free.',de:'Die Arbeitsblätter zum Ausdrucken gehören zu Premium. Das Rätsel der Woche bleibt immer kostenlos.',fr:'Les fiches à imprimer font partie de Premium. La grille de la semaine reste gratuite.',it:'Le schede da stampare fanno parte di Premium. Il quartetto della settimana resta sempre gratuito.',es:'Las páginas para imprimir son parte de Premium. La tarjeta de la semana siempre es gratis.',pt:'As folhas para imprimir fazem parte do Premium. A cartela da semana é sempre gratuita.',nl:'De denkbladen om te printen horen bij Premium. De denkkaart van de week blijft altijd gratis.',sv:'Att skriva ut arbetsbladen ingår i Premium. Veckans rutnät är alltid gratis.',da:'Ark til print er en del af Premium. Ugens sæt er altid gratis.',no:'Arkene til utskrift er en del av Premium. Ukens rutenett er alltid gratis.',fi:'Tulostettavat monisteet kuuluvat Premiumiin. Viikon ruudukko on aina ilmainen.'}
   },
 
   /* ⭐ THE BAND IS A SETTING, NOT A BROWSE FILTER. It decides which deck
@@ -318,6 +329,36 @@ var Wodb = {
     return one ? [one] : [];
   },
 
+  /* ⭐ ONE PLACE DECIDES A CELL'S FILL, so the renderer, the accessible
+     name and the print sheet can never disagree about it. They did: the
+     Italian panel measured `wodb-shape-23-triangles` cell 4, which is
+     `{shape:'triangle', color:'plum', fill:'filled'}` — LEGACY_FILL maps
+     plum to `hatch`, so it RENDERS hatched while the screen reader said
+     "a triangle, small". That grid is titled "All triangles!"; telling
+     the four apart is its entire task. */
+  fillOf: function (cell) {
+    var fk = cell && cell.fill;
+    if (!fk || fk === 'filled') fk = 'solid';
+    if (fk === 'solid' && cell && cell.color && this.LEGACY_FILL[cell.color]) {
+      fk = this.LEGACY_FILL[cell.color];
+    }
+    return fk;
+  },
+
+  /* ⚠ WHAT WAS DRAWN, NOT WHAT WAS DECLARED. `_dotsSVG` substitutes a
+     scatter for a dice count it has no face for and for a ten-frame over
+     ten, and wraps a row above eight — so `wodb-dots-1-twelve`'s
+     `{arr:'row', n:12}` renders as two rows of six while the label said
+     "in a row", in the one grid that exists to compare four
+     representations of twelve. */
+  renderedArr: function (arr, n) {
+    n = Math.max(0, Math.round(Number(n) || 0));
+    if (arr === 'dice' && !this.DICE[n]) return 'scatter';
+    if (arr === 'tenframe' && n > 10) return 'scatter';
+    if (arr === 'row' && n > 8) return 'rowWrapped';
+    return arr;
+  },
+
   /* how many corners actually carry a reason — NOT four. A custom grid
      with two reasons could never reach the closing line, because the
      shipped check compared against a hard 4. */
@@ -427,14 +468,14 @@ var Wodb = {
     if (!map) return fallbackKey ? this.api.t(fallbackKey) : '';
     return map[this.api.lang] || map.en || '';
   },
-  /* ISO week number — the free weekly rotation is deterministic */
-  _isoWeek: function (now) {
-    var d = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
-    var day = (d.getUTCDay() + 6) % 7;
-    d.setUTCDate(d.getUTCDate() - day + 3);
-    var first = new Date(Date.UTC(d.getUTCFullYear(), 0, 4));
-    return 1 + Math.round(((d - first) / 86400000 - 3 + ((first.getUTCDay() + 6) % 7)) / 7);
-  },
+  /* ⚠ `_isoWeek` USED TO LIVE HERE, byte-identical to the model's
+     `isoWeek` above. The mutation harness found it — a needle aimed at
+     the week calculation matched twice and could not say which copy it
+     meant. Two copies of one rule is the half-fixed trap: a correction to
+     either leaves the other wrong, and the free tier's whole rotation
+     hangs off it. Deleted; `isoWeek` is the single implementation and
+     the gate checks it against an independently written one. */
+
   /* the band a teacher has chosen, persisted beside showWords */
   _band: function () {
     var b = this.api && this.api.settings && this.api.settings.band;
@@ -501,6 +542,14 @@ var Wodb = {
       return self._canOpen(self.byId[id]);
     });
   },
+  /* curated grids live in byId, a teacher's own in the store — one
+     resolver, so no caller can look in only half the world */
+  _gridById: function (id) {
+    if (!id) return null;
+    if (this.byId[id]) return this.byId[id];
+    var mine = this._store.savedGrids.filter(function (g) { return g.id === id; });
+    return mine.length ? mine[0] : null;
+  },
   _deckPos: function () {
     var d = this._deck();
     return this.current ? d.indexOf(this.current.id) : -1;
@@ -510,7 +559,7 @@ var Wodb = {
     if (i < 0) i = 0; else i += delta;
     if (i < 0) return false;
     if (i >= d.length) return false;              /* never wrap silently */
-    var g = this.byId[d[i]] || this._store.savedGrids.filter(function (x) { return x.id === d[i]; })[0];
+    var g = this._gridById(d[i]);
     if (!g) return false;
     this._setGrid(g);
     this.api.track(delta > 0 ? 'grid:next' : 'grid:prev', { id: g.id, band: g.band });
@@ -535,7 +584,12 @@ var Wodb = {
     this._resetRitual();
     this.render();
     this.api.track('grid:turn', { id: g.id, turns: turned._turns });
-    this.api.announce(this.api.t('turnedAnnounce'));
+    /* ⚠ FOUR TURNS ARE THE IDENTITY, so the fourth press puts the grid
+       back exactly where it started — and announcing "new corners" there
+       is a string describing a move the code did not make. The Swedish
+       panel found this by reading the model; no gate would have, because
+       the turn itself is correct every single time. */
+    this.api.announce(this.api.t(turned._turns % 4 === 0 ? 'turnedFull' : 'turnedAnnounce'));
   },
   _speak: function (text) {
     try { LCSAudio.speak({ type: 'ui', text: text, lang: this.api.lang, rate: 0.92 }); } catch (_) {}
@@ -1014,11 +1068,30 @@ var Wodb = {
     if (cell.t === 'num') what = String(cell.v);
     else if (cell.t === 'word') what = this._loc(cell.w) || '';
     else if (cell.t === 'shape') {
+      /* ⚠⚠ THE ANSWER CHANNEL WAS INAUDIBLE, AND FIVE PANELS FOUND IT
+         INDEPENDENTLY — which makes it a fix, not a note. Colour was
+         removed as an answer because one child in twelve could not use
+         it; `_cellName` then spoke only `fillOutline` and `sizeSmall`, so
+         a solid, a hatched and a stippled hexagon all announced as "a
+         hexagon". The replacement channel excluded a different child.
+         Rotation was mute too, so "the only one turned on its point"
+         could not be heard at all. */
       what = api.t('shape_' + cell.shape) || cell.shape;
-      if (cell.fill === 'outline') what += ', ' + api.t('fillOutline');
+      var fk = this.fillOf(cell);
+      if (fk !== 'solid') what += ', ' + api.t('fill' + fk.charAt(0).toUpperCase() + fk.slice(1));
       if (cell.size === 'sm') what += ', ' + api.t('sizeSmall');
+      if (cell.rot) what += ', ' + api.t('rotated');
     } else if (cell.t === 'dots') {
-      what = this._fill(api.t('nDots'), { n: cell.n }) + ', ' + (api.t('arr_' + cell.arr) || cell.arr);
+      /* ⚠ announce what was DRAWN, not what was declared. `_dotsSVG`
+         falls back to a scatter for a dice count it has no face for and
+         for a ten-frame over ten — so `{arr:'dice', n:11}` drew scattered
+         dots and said "in a dice pattern". */
+      var arr = this.renderedArr(cell.arr, cell.n);
+      /* ⚠ "1 dots". Every panel flagged it; several said it is worse in
+         their language than in mine. A singular key, never a "(s)" that a
+         screen reader reads out as "open bracket ess close bracket". */
+      what = this._fill(api.t(cell.n === 1 ? 'oneDot' : 'nDots'), { n: cell.n }) +
+        ', ' + (api.t('arr_' + arr) || arr);
     } else if (cell.t === 'clock') {
       what = this._fill(api.t('clockTime'), { h: cell.h, m: (cell.m < 10 ? '0' : '') + cell.m });
     } else if (cell.t === 'img') {
@@ -1084,8 +1157,22 @@ var Wodb = {
     ear.setAttribute('data-fk', 'ear:' + i);
     /* ⚠ the shipped label was hard-wired to stem1 while _stemIdx cycled
        all three, so it announced one frame and spoke another */
-    ear.setAttribute('aria-label', api.t('hearStem'));
-    ear.innerHTML = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10 v4 h3.5 L13 19 V5 L7.5 10 Z" fill="currentColor" stroke="none"/><path d="M16.5 9.5 a4 4 0 0 1 0 5"/><path d="M19 7.5 a7.5 7.5 0 0 1 0 9"/></svg>';
+    /* ⚠ ALL FOUR SPEAKERS SHARED ONE NAME. A screen-reader user heard
+       "Hear a sentence starter, button" four times with nothing to tell
+       them apart — in a routine whose whole vocabulary is which CORNER
+       you mean. */
+    ear.setAttribute('aria-label', api.t('hearStem') + ' — ' + api.t(this.POS_KEY[i]));
+    /* ⚠⚠ IT DREW A LOUDSPEAKER AND EVERY SURFACE CALLED IT AN EAR.
+       The class is `.wdb-ear`, the file header has said "the ear icon
+       speaks sentence stems" since the tool was built, and six of the
+       eleven native panels independently wrote "tap the ear" — while the
+       glyph was a speaker cone with two sound arcs. The French, German,
+       Portuguese, Danish and Dutch panels each reported it as a child
+       being sent to hunt for a body part that is not on screen; it is the
+       #41 "fourth named part" defect. The DRAWING was the outlier, so the
+       drawing changed: an ear, with the two arcs kept as the listening
+       cue. */
+    ear.innerHTML = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 20.5c0-2-1-2.6-1.9-3.6C5.3 15.5 4.5 13.9 4.5 11.5a6 6 0 0 1 12 0c0 2-1.4 3-2.8 3.4-1 .3-1.7.8-1.7 1.9 0 1.2-.9 2-2 2a1.6 1.6 0 0 1-1.5-1.1" fill="currentColor" fill-opacity=".14"/><path d="M8.6 11.2a2.9 2.9 0 0 1 5.8 0c0 1.4-1.1 2-1.9 2.5" /><path d="M19.2 8.2a7.5 7.5 0 0 1 0 7.6"/></svg>';
     ear.addEventListener('click', function (e) {
       e.stopPropagation();
       var stems = ['stem1', 'stem2', 'stem3'];
@@ -1107,6 +1194,17 @@ var Wodb = {
     var g = this.current, list = this.reasonListFor(g, i, this.api.lang);
     if (!list.length) return;
     var txt = list[0];
+    /* ⚠⚠ THE RIBBON GOES STALE THE MOMENT THE MAP REPLACES IT.
+       `_revealArea` only creates a ribbon while fewer than two cards are
+       out; from the second reveal onward `_ribbonEl` points at a node
+       `stage.innerHTML=''` already destroyed, so this string rendered
+       once per grid and never again. The English panel found it by
+       reading the model — it is invisible to every gate, because the
+       reveal still WORKS: the map shows the text and only the spoken
+       ribbon silently stopped. Re-resolve against the live DOM. */
+    if (!this._ribbonEl || !this._ribbonEl.isConnected) {
+      this._ribbonEl = this._wrap && this._wrap.querySelector('.wdb-ribbon');
+    }
     if (this._ribbonEl) {
       this._ribbonEl.textContent = this._fill(this.api.t('reasonFrom'),
         { pos: this.api.t(this.POS_KEY[i]), reason: txt });
@@ -1230,15 +1328,22 @@ var Wodb = {
     this.api.track('reasons:' + (this.revealMode ? 'show' : 'hide'), { id: this.current.id });
     this.render();
   },
+  /* ⚠⚠ THE LABEL AND THE BEHAVIOUR MUST BE THE SAME FUNCTION.
+     The Spanish panel read the model and found that `_dock` chose the
+     chip's label from `_deckHasNext()` alone while `_advance` ALSO
+     branched on `premium` — so a paying teacher on the last grid of a
+     band pressed a chip reading "Turn it", wearing a rotate icon, and
+     got an end-of-band card instead. One button, two behaviours, one
+     label. Both now ask the same question. */
+  _advanceKind: function () {
+    if (this._deckHasNext()) return 'next';
+    return this.premium ? 'end' : 'turn';
+  },
   _advance: function () {
-    if (!this._deckHasNext()) {
-      /* free, or the last grid in the band: the honest move is the turn,
-         not a sales card */
-      if (!this.premium) { this._turnIt(); return; }
-      this._showEndOfBand();
-      return;
-    }
-    this._step(1);
+    var k = this._advanceKind();
+    if (k === 'next') { this._step(1); return; }
+    if (k === 'turn') { this._turnIt(); return; }
+    this._showEndOfBand();
   },
   _retreat: function () { this._step(-1); },
   _deckHasNext: function () {
@@ -1253,7 +1358,13 @@ var Wodb = {
     if (old) old.parentNode.removeChild(old);
     var box = api.el('div', 'wdb-endband');
     var line = api.el('div', 'wdb-endline');
-    line.textContent = this._fill(api.t('endOfBand'),
+    /* ⚠ THE LABEL MUST DESCRIBE THE DECK THAT ACTUALLY RAN OUT. `_deck()`
+       returns the teacher's OWN grids when the current one is theirs, but
+       this line read the band SETTING — so a teacher at the end of three
+       saved grids was told "that is all 3 in Ages 4-6", about grids that
+       are in no band at all. Four panels reported it independently. */
+    var mine = !!(this.current && this.current.mine);
+    line.textContent = this._fill(api.t(mine ? 'endOfMine' : 'endOfBand'),
       { n: this._deck().length, band: api.t(this.BAND_KEY[this._band()]) });
     box.appendChild(line);
     var row = api.el('div', 'wdb-chiprow');
@@ -1261,11 +1372,15 @@ var Wodb = {
     again.type = 'button';
     again.textContent = api.t('startSetAgain');
     again.addEventListener('click', function () {
-      var d = self._deck();
-      if (d.length) self._setGrid(self.byId[d[0]]);
+      /* ⚠ `byId` holds only the CURATED grids, so on a saved-grid deck
+         this set `current` to undefined and render() returned on a blank
+         stage — the Portuguese panel traced it. Resolve from both. */
+      var g0 = self._gridById(self._deck()[0]);
+      if (g0) self._setGrid(g0);
     });
     row.appendChild(again);
-    if (bi >= 0 && bi < this.BANDS.length - 1) {
+    /* a teacher inside their own grids has no "next band" to go to */
+    if (!mine && bi >= 0 && bi < this.BANDS.length - 1) {
       var nxt = api.el('button', 'wdb-chip teal');
       nxt.type = 'button';
       nxt.textContent = this._fill(api.t('goToBand'),
@@ -1273,8 +1388,8 @@ var Wodb = {
       nxt.addEventListener('click', function () {
         api.settings.band = self.BANDS[bi + 1];
         self._saveStore();
-        var d = self._deck();
-        if (d.length) self._setGrid(self.byId[d[0]]); else self.render();
+        var g0 = self._gridById(self._deck()[0]);
+        if (g0) self._setGrid(g0); else self.render();
       });
       row.appendChild(nxt);
     }
@@ -2027,7 +2142,12 @@ var Wodb = {
       this.FILLS.forEach(function (fk) {
         var b = api.el('button', 'wdb-shapechip' + (self._pickFill === fk ? ' active' : ''));
         b.type = 'button';
-        b.setAttribute('aria-label', api.t('fill' + fk.charAt(0).toUpperCase() + fk.slice(1)) || fk);
+        /* ⚠ `api.t` RETURNS THE RAW KEY ON A MISS, and a raw key is
+           truthy — so `|| fk` could never fire and this chip announced
+           the literal string "fillSolid" in all eleven locales. The
+           recorded `t(k) || 'default'` trap, found by four panels. The
+           key exists now; the fallback is gone because it never worked. */
+        b.setAttribute('aria-label', api.t('fill' + fk.charAt(0).toUpperCase() + fk.slice(1)));
         b.innerHTML = self._shapeSVG({ shape: 'square', size: 'lg', fill: fk });
         b.addEventListener('click', function () { self._pickFill = fk; self._renderPicker(); });
         frow.appendChild(b);
@@ -2039,7 +2159,8 @@ var Wodb = {
       ['sm', 'md', 'lg'].forEach(function (sz) {
         var b = api.el('button', 'wdb-shapechip' + (self._pickSize === sz ? ' active' : ''));
         b.type = 'button';
-        b.setAttribute('aria-label', sz === 'sm' ? api.t('sizeSmall') : sz);
+        b.setAttribute('aria-label',
+          api.t(sz === 'sm' ? 'sizeSmall' : (sz === 'md' ? 'sizeMedium' : 'sizeLarge')));
         b.innerHTML = self._shapeSVG({ shape: 'circle', size: sz, fill: 'solid' });
         b.addEventListener('click', function () { self._pickSize = sz; self._renderPicker(); });
         zrow.appendChild(b);
@@ -2062,6 +2183,10 @@ var Wodb = {
       arrs.forEach(function (a) {
         var b = api.el('button', 'wdb-chip' + (self._pickArr === a ? ' active' : ''));
         b.type = 'button';
+        /* ⚠ these five chips carried NO accessible name at all — SVG
+           only — while `arr_*` sat authored in eleven locales and unused.
+           Three panels reported it. */
+        b.setAttribute('aria-label', api.t('arr_' + a));
         b.innerHTML = '<span class="wdb-arrmini">' + self._dotsSVG(a, a === 'scatter' ? 4 : (a === 'tenframe' ? 7 : 5)) + '</span>';
         b.addEventListener('click', function () { self._pickArr = a; self._renderPicker(); });
         arrow.appendChild(b);
@@ -2073,7 +2198,10 @@ var Wodb = {
         (function (nn) {
           if (self._pickArr === 'dice' && nn > 9) return;
           if (self._pickArr === 'tenframe' && nn > 10) return;
-          if (self._pickArr === 'scatter' && nn !== 4 && nn !== 12) return;
+          /* ⚠ a leftover of the old SCATTER lookup table: the renderer
+             generates a scatter for ANY n now, so the picker was gating
+             on a limit that no longer exists. The Dutch panel spotted it
+             while reading the model. */
           var b = api.el('button', 'wdb-chip small' + (self._pickN === nn ? ' active' : ''));
           b.type = 'button';
           b.textContent = String(nn);

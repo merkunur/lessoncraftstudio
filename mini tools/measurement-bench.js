@@ -2453,8 +2453,18 @@ var MeasurementBench = {
      language, because the prompt is ~2x longer in some locales than others. */
   + '.mb-estbar{width:100%;max-width:680px;height:var(--mb-estbar-h,58px);'
   +   'display:flex;justify-content:center;align-items:center;}'
-  + '.mb-est{display:flex;align-items:center;justify-content:center;gap:6px 10px;flex-wrap:wrap;}'
-  + '.mb-est-ctl{display:inline-flex;align-items:center;gap:8px;flex-wrap:nowrap;white-space:nowrap;}'
+  + '.mb-est{display:flex;align-items:center;justify-content:center;gap:6px 10px;flex-wrap:wrap;max-width:100%;}'
+  + '.mb-est-ctl{display:inline-flex;align-items:center;gap:8px;flex-wrap:nowrap;white-space:nowrap;max-width:100%;}'
+  /* ⚠ at 320 the stepper plus a long pin label overruns the card — measured at
+     2px in German ("Meine Schätzung merken"), and the h-overflow check could
+     not see it because the tool's own `overflow-x:hidden` suppresses
+     scrollWidth. The pin wraps to two lines rather than pushing the row wide;
+     the row itself never scrolls, because a control a child cannot see is the
+     same as one that is not there. */
+  + '@media (max-width:420px){'
+  +   '.mb-est-ctl{gap:6px;}'
+  +   '.mb-est-pin{white-space:normal;line-height:1.1;max-width:42vw;padding:6px 10px;}'
+  + '}'
   + '.mb-est-q{font-family:var(--lcs-font-display);font-weight:700;font-size:14.5px;color:var(--lcs-ink);}'
   + '.mb-est-btn{width:44px;height:44px;border-radius:50%;border:1.5px solid var(--lcs-line);background:var(--lcs-surface);'
   +   'font-size:20px;font-weight:800;color:var(--lcs-structure);cursor:pointer;}'

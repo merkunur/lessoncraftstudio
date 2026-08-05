@@ -94,6 +94,22 @@ async function auditOne(browser, locale, width) {
       // sr-only subtrees are visually 1px-clipped by construction (nav
       // crawl-bait lists); child rects still report layout positions.
       if (el.closest('.sr-only, [aria-hidden="true"]')) continue;
+      // A descendant of a horizontally SCROLLABLE box is not a viewport
+      // breakout: it is content the reader reaches by scrolling that box,
+      // which is how every code block on earth works. Measure it against the
+      // scroller instead — if the SCROLLER itself breaks out, it is still
+      // flagged on its own iteration, so nothing is hidden by this.
+      //
+      // ⚠ auto|scroll ONLY. `overflow-x: clip` must NOT exempt anything:
+      // every .hv10-room sets it, so accepting clip here would make this
+      // check blind across the entire page. That distinction is the whole
+      // reason this is a fix to WHAT is measured rather than a loophole.
+      let scroller = null;
+      for (let p = el.parentElement; p && p !== document.body; p = p.parentElement) {
+        const ox = getComputedStyle(p).overflowX;
+        if (ox === 'auto' || ox === 'scroll') { scroller = p; break; }
+      }
+      if (scroller && scroller.getBoundingClientRect().right <= vw + tol) continue;
       if (r.right > vw + tol && offenders.length < 8) {
         offenders.push(
           `${el.tagName.toLowerCase()}.${String(el.className).split(' ').slice(0, 2).join('.')} right=${Math.round(r.right)}`,

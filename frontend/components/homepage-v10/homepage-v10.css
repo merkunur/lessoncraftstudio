@@ -807,13 +807,48 @@
 .hv10-room.is-light .hv10-room-body { color: #46504A; }
 
 /* ── Works hung in a room ────────────────────────────────────────────────
-   Same walnut-and-mat frame system as the hall, in a reflowing grid. */
+   Same walnut-and-mat frame system as the hall, in a grid that hangs a
+   RECTANGLE — never a full row with a fragment underneath.
+
+   ⚠ THE COLUMN COUNT IS DECLARED, NOT DERIVED. It used to be
+   `repeat(auto-fit, minmax(clamp(112px, 14vw, 168px), 1fr))`, which made the
+   column count an emergent property of three independent clamp() curves.
+   MEASURED on the live page across 320→2560 that produced
+   2,2,3,3,4,5,6,6,6,5,5,5,5 — note it is NOT monotonic: SIX columns from
+   ~880-1200 and five above, because the 14vw term keeps growing the minimum
+   track. Two of those transitions sat on sub-3px knife-edges. Against a count
+   nobody can predict, no fixed number of works can fill the last row, which
+   is why the wall shipped reading 5 / 5 / 1 — two full rows and one lonely
+   worksheet, on a catalogue holding tens of thousands of decks.
+
+   Fifteen works are always in the HTML. Each band shows the largest whole-row
+   multiple of its own column count: 12 below the five-column band (12 divides
+   by 2, 3 AND 4, so a single rule covers all three), 15 at five columns.
+
+   Hidden tiles use `display: none` deliberately: it removes them from the
+   accessibility tree and the tab order TOGETHER, so there is no invisible
+   focus stop. They stay in the server-rendered HTML, so the anchors are still
+   crawled (audit-homepage-link-count.js reads the raw HTML, not the CSSOM),
+   and every one of these decks is independently reachable from the catalogue
+   mesh at the foot of the page. */
 .hv10-hang {
   display: grid;
   gap: clamp(14px, 1.8vw, 26px);
-  grid-template-columns: repeat(auto-fit, minmax(clamp(112px, 14vw, 168px), 1fr));
+  grid-template-columns: repeat(var(--hang-n, 5), minmax(0, 1fr));
   margin-top: clamp(26px, 3vw, 44px);
 }
+/* minmax(0, 1fr) above rather than a bare 1fr: the intrinsic width of the
+   next/image children would otherwise set the track minimum and push the
+   wall wider than the room. */
+@media (max-width: 479px) { .hv10-hang { --hang-n: 2; } }
+@media (min-width: 480px) and (max-width: 639px) { .hv10-hang { --hang-n: 3; } }
+@media (min-width: 640px) and (max-width: 879px) { .hv10-hang { --hang-n: 4; } }
+@media (min-width: 880px) { .hv10-hang { --hang-n: 5; } }
+@media (max-width: 879px) {
+  .hv10-hang > .hv10-work:nth-child(n + 13) { display: none; }
+}
+/* Backstop if the slice in Rooms.tsx is ever raised past fifteen. */
+.hv10-hang > .hv10-work:nth-child(n + 16) { display: none; }
 .hv10-work {
   position: relative;
   display: block;
@@ -1767,67 +1802,419 @@
   .hv10-dispatch-class span { animation: none; opacity: 1; transform: translateY(0); }
 }
 
-/* The second way out of the building: an embed on the school's own site.
-   Kept visually distinct from the QR route because the TIERS differ — share
-   links are subscriber-gated, embedding is free and anonymous (it is the
-   acquisition flywheel: embedded decks carry links back). Saying so plainly
-   is the difference between marketing and a false claim. */
-.hv10-embed {
+/* ═══════════════════════════════════════════════════════════════════════════
+   ROOM V, SECOND HALF — THE LOAN LABEL
+
+   The QR route above sends the work to the class. This route sends it to
+   ANOTHER BUILDING — the school's own website. In a gallery, a work that
+   travels carries a loan label on its back with the mounting instructions, so
+   that is what this is: one worksheet turned around, the real embed snippet
+   taped to the back of it, and beside it the same worksheet already hanging
+   on their site — drawn as a lighter room of this same building.
+
+   It replaces a 1116x168 glass strip that held one sentence and a pill: it
+   named the feature and explained nothing about it.
+
+   ⚠ TIER TRUTH: embedding is free AND UNMETERED (lcs-meter.js:24 returns
+   early when framed), so this block carries its own Free stamp and sits
+   outside the subscriber-gated Teacher tag above.
+
+   ⚠ EVERY TRACK HERE IS minmax(0, …) AND EVERY GRID ITEM CARRIES min-width: 0.
+   The <pre> holds an unbroken ~230-character line; a default `auto` track
+   minimum resolves to that line's full width and pushes the room open at every
+   viewport. `.hv10-room`'s `overflow-x: clip` would then HIDE the symptom by
+   silently cutting the code off rather than showing a scrollbar. This is the
+   one declaration in the block that must not be "simplified".
+
+   Motion: 17s, coprime with the room's 14s dispatch arc — the two only ever
+   share a viewport with each other, which is the scope that rule is about.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.hv10-loan { margin-top: clamp(30px, 3.6vw, 52px); }
+
+.hv10-loan-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px clamp(12px, 1.6vw, 22px);
+}
+/* `0 1 auto`, NOT `1 1 20ch`. Letting the heading grow pushed the Free stamp
+   to the far right of the 1116px room — a lone pill some 700px from the words
+   it qualifies, which reads as a page badge rather than as a stamp on this
+   offer. Sized to its own content, the stamp sits against the heading and the
+   pair reads as one statement. It still wraps below on narrow widths. */
+.hv10-loan-h {
+  flex: 0 1 auto;
+  min-width: 0;
+  margin: 0;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.12rem, 1.85vw, 1.62rem);
+  line-height: 1.16;
+  letter-spacing: -0.005em;
+  text-wrap: balance;
+  color: var(--g10-light);
+}
+/* The source string is authored as two lines; honour the break and let the
+   second recede, so the pair reads as one sentence with a trailing clause. */
+.hv10-loan-h-a,
+.hv10-loan-h-b { display: block; }
+.hv10-loan-h-b { font-weight: 600; color: rgba(253, 251, 246, 0.74); }
+
+/* A rubber stamp, not a badge. Coral is this site's ACTION colour (every
+   .hv10-cta.is-primary, and the .hv10-plan-tag directly above), so it cannot
+   also be made to mean "free" — the tier is carried by the WORD, on the cream
+   surface the rest of the free surfaces already use. */
+.hv10-loan-stamp {
+  flex: 0 0 auto;
+  align-self: center;
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 15px;
+  border-radius: 4px;
+  rotate: -3.5deg;
+  background: var(--g10-light);
+  color: #2C4A3F;
+  box-shadow: inset 0 0 0 2px rgba(44, 74, 63, 0.28);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: clamp(11.5px, 0.88vw, 13.5px);
+}
+
+.hv10-loan-grid {
+  display: grid;
+  gap: clamp(18px, 2.4vw, 34px);
+  grid-template-columns: minmax(0, 1fr);
+  margin-top: clamp(18px, 2.2vw, 30px);
+}
+@media (min-width: 940px) {
+  .hv10-loan-grid {
+    grid-template-columns: minmax(0, 1.06fr) minmax(0, 0.94fr);
+    /* start, NOT stretch. Stretching made the backing board match the taller
+       site panel, and MEASURED the label then filled only 52% of the board at
+       1024-1600 (against 80-82% in the single-column layout) — half a board of
+       empty brown, visible at exactly the widths the operator uses. Both
+       columns now hang from the same top rail at their own natural height,
+       which is also what the picture wire implies. */
+    align-items: start;
+  }
+}
+
+/* ── The back of the work ─────────────────────────────────────────────────
+   Kraft backing board seen from behind, the walnut moulding showing as an
+   inset edge — one element, no extra DOM. The batten texture is a background
+   layer; the picture wire is ::before. */
+.hv10-loan-back {
+  position: relative;
+  min-width: 0;
   display: flex;
   align-items: center;
-  gap: clamp(12px, 1.6vw, 22px);
-  flex-wrap: wrap;
-  margin-top: clamp(22px, 2.6vw, 34px);
-  padding: clamp(12px, 1.4vw, 18px);
-  border-radius: 10px;
-  background: rgba(253, 251, 246, 0.1);
-  box-shadow: inset 0 0 0 1.5px rgba(253, 251, 246, 0.26);
+  padding: clamp(30px, 3.4vw, 46px) clamp(16px, 2vw, 26px) clamp(18px, 2vw, 26px);
+  border-radius: 4px;
+  rotate: 0.9deg;
+  background:
+    repeating-linear-gradient(112deg, rgba(255, 240, 214, 0.055) 0 2px, transparent 2px 30px),
+    linear-gradient(168deg, #7A5A3B 0%, #6A4C31 55%, #573D26 100%);
+  box-shadow:
+    inset 0 0 0 clamp(7px, 0.9vw, 12px) var(--g10-frame-wood),
+    inset 0 0 0 calc(clamp(7px, 0.9vw, 12px) + 1.5px) rgba(255, 236, 206, 0.14),
+    0 20px 38px rgba(18, 9, 2, 0.44);
 }
-/* a browser window, drawn — the school site the worksheet lands in */
-.hv10-embed-window {
-  flex: none;
-  width: clamp(112px, 13vw, 156px);
+/* The picture wire — the one cue that makes this unmistakably a BACK. Same
+   arc construction as .hv10-dispatch-arc::before, inverted so the slack hangs
+   down, and sited INSIDE the board so it can never overflow the room. */
+.hv10-loan-back::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  top: clamp(11px, 1.4vw, 18px);
+  width: min(58%, 190px);
+  height: clamp(9px, 1.1vw, 15px);
+  border: 2px solid rgba(255, 236, 206, 0.30);
+  border-top: 0;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+}
+
+/* The label was stuck on straight; the picture is hung crooked. The counter-
+   rotation is what keeps the CODE dead level — tilted monospace reads sloppy. */
+.hv10-loan-label {
+  min-width: 0;
+  width: 100%;
+  margin-block: auto;
+  rotate: -0.9deg;
+  padding: clamp(13px, 1.5vw, 20px) clamp(12px, 1.4vw, 18px);
   border-radius: 6px;
+  background: var(--g10-light);
+  box-shadow: 0 8px 18px rgba(18, 9, 2, 0.26), inset 0 0 0 1px rgba(20, 50, 45, 0.07);
+}
+.hv10-loan-cap {
+  margin: 0 0 clamp(8px, 1vw, 12px);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(11.5px, 0.86vw, 13.5px);
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  color: #4A5A52;
+}
+
+/* ── The snippet ──────────────────────────────────────────────────────────
+   Warm paper, not a dark terminal: a dark panel would be the only one in the
+   building, and it reads as developer tooling on a page whose whole argument
+   is that this is for teachers. */
+.hv10-loan-codewrap { position: relative; min-width: 0; }
+/* "There is more to the right" — a real cue, not decoration: the iframe line
+   is longer than the box at every viewport. Sits outside the scroller so it
+   stays put while the code moves under it. */
+.hv10-loan-codewrap::after {
+  content: '';
+  position: absolute;
+  inset-block: 1px;
+  right: 1px;
+  width: clamp(16px, 2vw, 28px);
+  border-radius: 0 7px 7px 0;
+  pointer-events: none;
+  background: linear-gradient(270deg, var(--g10-cream) 20%, rgba(251, 243, 228, 0) 100%);
+}
+.hv10-loan-code {
+  margin: 0;
+  max-width: 100%;
+  min-width: 0;
+  max-height: clamp(9rem, 19vh, 14rem);
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: clamp(10px, 1.1vw, 15px) clamp(11px, 1.2vw, 16px);
+  border-radius: 7px;
+  background: var(--g10-cream);
+  box-shadow: inset 0 0 0 1px rgba(20, 50, 45, 0.12);
+  white-space: pre;
+  tab-size: 2;
+  scrollbar-width: thin;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: clamp(10.5px, 0.78vw, 12.5px);
+  line-height: 1.55;
+  color: rgba(20, 50, 45, 0.9);
+}
+.hv10-loan-code:focus-visible { outline: 2px solid var(--g10-ink); outline-offset: 2px; }
+
+.hv10-loan-copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  margin-top: clamp(10px, 1.2vw, 14px);
+  padding: 10px clamp(16px, 1.8vw, 24px);
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  background: var(--g10-coral);
+  color: #2A1206;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(14px, 1.05vw, 17px);
+  box-shadow: 0 5px 14px rgba(60, 20, 6, 0.28);
+  transition: transform 160ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 160ms, color 160ms;
+}
+.hv10-loan-copy:hover { transform: translateY(-2px); }
+.hv10-loan-copy:focus-visible { outline: 3px solid var(--g10-ink); outline-offset: 2px; }
+/* Ink, not cream: a cream "copied" state on a cream label is no state at all. */
+.hv10-loan-copy[data-copied='true'] { background: var(--g10-ink); color: var(--g10-light); }
+.hv10-loan-copy svg { width: 17px; height: 17px; flex: none; }
+
+/* The live region that announces the copy. Deliberately not Tailwind's
+   `sr-only`: this block must not depend on a utility class surviving a purge. */
+.hv10-loan-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Their wall ───────────────────────────────────────────────────────────
+   Their site, drawn as another room of this gallery: the .is-light wall
+   colours and the dado's own gradient stops, at small scale. */
+.hv10-loan-site {
+  position: relative;
+  min-width: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(16px, 2vw, 26px) clamp(14px, 1.8vw, 24px) clamp(30px, 3.4vw, 48px);
+  border-radius: 4px;
+  background:
+    radial-gradient(110% 70% at 40% 0%, rgba(255, 250, 232, 0.5) 0%, rgba(255, 250, 232, 0) 62%),
+    linear-gradient(180deg, #FAF3E3 0%, #F0E5CE 46%, #E0D2B6 100%);
+  box-shadow: inset 0 0 0 1.5px rgba(20, 50, 45, 0.08), 0 20px 38px rgba(18, 9, 2, 0.34);
+}
+.hv10-loan-site::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: clamp(14px, 1.8vw, 24px);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 40, 32, 0.16) 0%, rgba(8, 40, 32, 0.03) 8%,
+    #E4D7BC 8%, #E4D7BC 34%,
+    #CBBB9B 34%, #CBBB9B 46%,
+    #F0E6D0 46%, #DCCFB2 70%, #C6B694 100%
+  );
+}
+.hv10-loan-browser {
+  border-radius: 8px;
   overflow: hidden;
   background: #FFFDF8;
-  box-shadow: 0 10px 20px rgba(18, 9, 2, 0.34);
+  box-shadow: 0 12px 24px rgba(18, 9, 2, 0.22), inset 0 0 0 1px rgba(20, 50, 45, 0.08);
 }
-.hv10-embed-bar {
+.hv10-loan-chrome {
   display: flex;
   align-items: center;
-  gap: 3px;
-  padding: 5px 7px;
-  background: #E7DCC8;
+  gap: 4px;
+  padding: clamp(6px, 0.7vw, 9px) clamp(8px, 0.9vw, 12px);
+  background: #EFE7D6;
 }
-.hv10-embed-bar i {
-  width: 5px;
-  height: 5px;
+.hv10-loan-chrome i {
+  width: clamp(5px, 0.6vw, 7px);
+  aspect-ratio: 1;
+  flex: none;
   border-radius: 50%;
-  background: rgba(20, 50, 45, 0.28);
+  background: rgba(20, 50, 45, 0.22);
 }
-.hv10-embed-window img {
+/* An EMPTY address pill. Writing a plausible school domain here would be
+   fabricating an organisation's address for a marketing image; a drawn shape
+   says the same thing truthfully, and needs no translating. */
+.hv10-loan-addr {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-left: 7px;
+  height: clamp(9px, 1vw, 13px);
+  border-radius: 999px;
+  background: #FFFDF8;
+  box-shadow: inset 0 0 0 1px rgba(20, 50, 45, 0.08);
+}
+.hv10-loan-page {
+  display: grid;
+  gap: clamp(7px, 0.8vw, 11px);
+  padding: clamp(10px, 1.2vw, 16px);
+}
+.hv10-loan-rule {
+  height: clamp(5px, 0.6vw, 8px);
+  border-radius: 999px;
+  background: rgba(20, 50, 45, 0.11);
+}
+.hv10-loan-rule.is-short { width: 58%; }
+.hv10-loan-rule.is-mid { width: 84%; }
+
+/* ── The signature motion: the block growing to fit the work ──────────────
+   The snippet's own <script> sets aspectRatio:"auto" and then height from the
+   deck's posted lcs-embed-resize message — the empty block on your page
+   expands to fit the worksheet. That is what this draws, and it is the one
+   thing about embedding that a still image cannot say.
+
+   The well's height is FIXED, so nothing below it ever moves: the growth is a
+   scaleY on the empty slot with transform-origin top, exactly as a real embed
+   grows downward. Slot and live are SIBLINGS — nesting them would multiply
+   their opacities. One animation per node; movement occupies under a fifth of
+   the cycle, so the composition is at rest most of the time. */
+.hv10-loan-well { position: relative; aspect-ratio: 5 / 4; }
+/* The empty state has to read as AN EMPTY EMBED BLOCK WAITING, not as a
+   failed image. At 0.24 alpha on the cream page it was almost invisible, and
+   a screenshot taken mid-cycle showed a blank box in the one panel whose job
+   is to show the result. Stronger dash, slightly tinted fill. */
+.hv10-loan-slot {
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  border: 2px dashed rgba(20, 50, 45, 0.36);
+  background: rgba(20, 50, 45, 0.055);
+  transform-origin: top center;
+  transform: scaleY(0.3);
+  animation: hv10LoanSlot 17s ease-in-out -4s infinite;
+}
+.hv10-loan-live {
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(20, 50, 45, 0.1);
+  opacity: 0;
+  transform: scale(0.97);
+  animation: hv10LoanLive 17s cubic-bezier(0.2, 0.8, 0.2, 1) -4s infinite;
+}
+.hv10-loan-live img {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
   object-position: top center;
+  background: var(--g10-cream);
 }
-.hv10-embed-text {
-  flex: 1 1 14rem;
+
+/* Weighted so the INSTALLED state dominates: the worksheet is present for
+   roughly seven tenths of the cycle. A visitor scrolling past should almost
+   always meet the finished result; the empty slot is the brief setup, not a
+   state you are likely to be shown. */
+@keyframes hv10LoanSlot {
+  0%, 6% { opacity: 1; transform: scaleY(0.30); }
+  16%, 88% { opacity: 0; transform: scaleY(1); }
+  94%, 100% { opacity: 1; transform: scaleY(0.30); }
+}
+@keyframes hv10LoanLive {
+  0%, 9% { opacity: 0; transform: scale(0.97); }
+  18%, 88% { opacity: 1; transform: scale(1); }
+  94%, 100% { opacity: 0; transform: scale(0.97); }
+}
+
+/* Composed pose: installed. Never blank. */
+@media (prefers-reduced-motion: reduce) {
+  .hv10-loan-slot { animation: none; opacity: 0; transform: scaleY(1); }
+  .hv10-loan-live { animation: none; opacity: 1; transform: none; }
+  .hv10-loan-copy { transition: none; }
+  .hv10-loan-copy:hover { transform: none; }
+}
+
+/* ── The two facts ────────────────────────────────────────────────────────
+   NOT .hv10-chip: the four share chips sit a couple of hundred pixels above,
+   and pills again would merge the two routes into one offer. A tack head
+   instead — things get nailed to walls. */
+.hv10-loan-facts {
+  list-style: none;
+  margin: clamp(18px, 2.2vw, 28px) 0 0;
+  padding: 0;
+  display: grid;
+  gap: 10px clamp(18px, 2.4vw, 34px);
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 760px) {
+  .hv10-loan-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.hv10-loan-facts li {
+  position: relative;
   min-width: 0;
+  padding-left: 21px;
   font-family: var(--font-nunito), system-ui, sans-serif;
-  font-size: clamp(13px, 1.02vw, 16px);
+  font-weight: 600;
+  font-size: clamp(13px, 1vw, 15.5px);
   line-height: 1.5;
-  color: rgba(253, 251, 246, 0.92);
+  color: rgba(253, 251, 246, 0.9);
 }
-.hv10-embed-free {
-  display: inline-flex;
-  margin-top: 8px;
-  padding: 5px 12px;
-  border-radius: 999px;
-  background: rgba(253, 251, 246, 0.92);
-  color: #2C4A3F;
-  font-size: clamp(11px, 0.85vw, 13px);
-  font-weight: 700;
+.hv10-loan-facts li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  rotate: 45deg;
+  border-radius: 1px;
+  background: var(--g10-coral);
 }

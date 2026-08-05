@@ -18,6 +18,10 @@ import { wwwImg } from '@/lib/img-host';
 import { canonicalUrl, localePath, CANONICAL_HOST } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
+// The two backlink anchors moved out of the UI_STRINGS table below and into a
+// shared module when the homepage started building the same snippet: one
+// table, two consumers, rather than two copies that drift (§21.8-A).
+import { embedAnchor } from '@/lib/seo/embed-anchor-text';
 import { EmbedWorksheet } from '@/components/worksheets/EmbedWorksheet';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
@@ -55,7 +59,7 @@ const UI_STRINGS: Record<string, {
   sameThemeHeading: string; sameLevelHeading: string;
   madeWith: (t: string) => string; typeCrumb: (eyebrow: string) => string;
   playAria: (h1: string) => string; previewAlt: (h1: string) => string;
-  embedButton: string; embedCopy: string; embedCopied: string; embedPrefix: string; embedKeyword: string;
+  embedButton: string; embedCopy: string; embedCopied: string;
 }> = {
   en: {
     worksheets: 'Worksheets', playInteractive: 'Play interactive', downloadPdf: 'Download PDF', answerKey: 'Answer key',
@@ -65,7 +69,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Made with the ${t} maker`, typeCrumb: (e) => e + 's',
     playAria: (h1) => `Play ${h1}`, previewAlt: (h1) => `Preview of ${h1}`,
     embedButton: 'Embed this worksheet', embedCopy: 'Copy code', embedCopied: 'Copied!',
-    embedPrefix: 'Worksheet from', embedKeyword: 'free printable worksheets',
   },
   de: {
     worksheets: 'Arbeitsblätter', playInteractive: 'Interaktiv spielen', downloadPdf: 'PDF herunterladen', answerKey: 'Lösungen',
@@ -75,7 +78,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Erstellt mit dem ${t}-Generator`, typeCrumb: (e) => e.replace(/^Arbeitsblatt:\s*/, ''),
     playAria: (h1) => `${h1} spielen`, previewAlt: (h1) => `Vorschau: ${h1}`,
     embedButton: 'Dieses Arbeitsblatt einbetten', embedCopy: 'Code kopieren', embedCopied: 'Kopiert!',
-    embedPrefix: 'Arbeitsblatt von', embedKeyword: 'kostenlose druckbare Arbeitsblätter',
   },
   es: {
     worksheets: 'Hojas de trabajo', playInteractive: 'Jugar', downloadPdf: 'Descargar PDF', answerKey: 'Solución',
@@ -85,7 +87,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Hecho con el generador de ${t}`, typeCrumb: (e) => e,
     playAria: (h1) => `Jugar ${h1}`, previewAlt: (h1) => `Vista previa de ${h1}`,
     embedButton: 'Insertar esta hoja', embedCopy: 'Copiar código', embedCopied: '¡Copiado!',
-    embedPrefix: 'Hoja de trabajo de', embedKeyword: 'hojas de trabajo imprimibles gratis',
   },
   sv: {
     worksheets: 'Arbetsblad', playInteractive: 'Spela', downloadPdf: 'Ladda ner PDF', answerKey: 'Facit',
@@ -96,7 +97,6 @@ const UI_STRINGS: Record<string, {
     playAria: (h1) => `Spela ${h1}`, previewAlt: (h1) => `Förhandsvisning av ${h1}`,
     // [NSR-FLAG] sv embed labels — native review pending (§17.5.1)
     embedButton: 'Bädda in detta arbetsblad', embedCopy: 'Kopiera kod', embedCopied: 'Kopierat!',
-    embedPrefix: 'Arbetsblad från', embedKeyword: 'gratis utskrivbara arbetsblad',
   },
   nl: {
     worksheets: 'Werkbladen', playInteractive: 'Spelen', downloadPdf: 'PDF downloaden', answerKey: 'Antwoorden',
@@ -106,7 +106,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Gemaakt met de ${t}-generator`, typeCrumb: (e) => e.replace(/^Werkblad:\s*/, ''),
     playAria: (h1) => `${h1} spelen`, previewAlt: (h1) => `Voorbeeld van ${h1}`,
     embedButton: 'Dit werkblad insluiten', embedCopy: 'Code kopiëren', embedCopied: 'Gekopieerd!',
-    embedPrefix: 'Werkblad van', embedKeyword: 'gratis printbare werkbladen',
   },
   da: {
     worksheets: 'Opgaver', playInteractive: 'Spil interaktivt', downloadPdf: 'Hent PDF', answerKey: 'Facitliste',
@@ -117,7 +116,6 @@ const UI_STRINGS: Record<string, {
     playAria: (h1) => `Spil ${h1}`, previewAlt: (h1) => `Forhåndsvisning af ${h1}`,
     // [NSR-FLAG] da embed labels — native review pending (§17.5.1)
     embedButton: 'Indlejr dette opgaveark', embedCopy: 'Kopiér kode', embedCopied: 'Kopieret!',
-    embedPrefix: 'Arbejdsark fra', embedKeyword: 'gratis printbare arbejdsark',
   },
   it: {
     worksheets: 'Schede didattiche', playInteractive: 'Gioca', downloadPdf: 'Scarica PDF', answerKey: 'Soluzioni',
@@ -127,7 +125,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Creato con il generatore di ${t}`, typeCrumb: (e) => e.replace(/^Scheda:\s*/, ''),
     playAria: (h1) => `Gioca ${h1}`, previewAlt: (h1) => `Anteprima di ${h1}`,
     embedButton: 'Incorpora questa scheda', embedCopy: 'Copia codice', embedCopied: 'Copiato!',
-    embedPrefix: 'Scheda di', embedKeyword: 'schede stampabili gratuite',
   },
   no: {
     worksheets: 'Arbeidsark', playInteractive: 'Spill', downloadPdf: 'Last ned PDF', answerKey: 'Fasit',
@@ -138,7 +135,6 @@ const UI_STRINGS: Record<string, {
     playAria: (h1) => `Spill ${h1}`, previewAlt: (h1) => `Forhåndsvisning av ${h1}`,
     // [NSR-FLAG] no embed labels — native review pending (§17.5.1)
     embedButton: 'Bygg inn dette arbeidsarket', embedCopy: 'Kopier kode', embedCopied: 'Kopiert!',
-    embedPrefix: 'Arbeidsark fra', embedKeyword: 'gratis utskrivbare arbeidsark',
   },
   fr: {
     worksheets: 'Fiches', playInteractive: 'Jouer', downloadPdf: 'Télécharger le PDF', answerKey: 'Corrigé',
@@ -148,7 +144,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Créé avec le générateur ${t}`, typeCrumb: (e) => e.replace(/^(Fiche|Activité|Exercice)\s*:\s*/, ''),
     playAria: (h1) => `Jouer à ${h1}`, previewAlt: (h1) => `Aperçu : ${h1}`,
     embedButton: 'Intégrer cette fiche', embedCopy: 'Copier le code', embedCopied: 'Copié !',
-    embedPrefix: 'Fiche de', embedKeyword: 'fiches gratuites à imprimer',
   },
   pt: {
     worksheets: 'Atividades', playInteractive: 'Jogar', downloadPdf: 'Baixar PDF', answerKey: 'Gabarito',
@@ -158,7 +153,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Criado com o gerador de ${t}`, typeCrumb: (e) => e.replace(/^(Atividade|Ficha|Exercício)\s*:\s*/, ''),
     playAria: (h1) => `Jogar ${h1}`, previewAlt: (h1) => `Prévia: ${h1}`,
     embedButton: 'Incorporar esta atividade', embedCopy: 'Copiar código', embedCopied: 'Copiado!',
-    embedPrefix: 'Atividade de', embedKeyword: 'atividades grátis para imprimir',
   },
   fi: {
     worksheets: 'Tehtävät', playInteractive: 'Pelaa', downloadPdf: 'Lataa PDF', answerKey: 'Vastaukset',
@@ -168,7 +162,6 @@ const UI_STRINGS: Record<string, {
     madeWith: (t) => `Tehty ${t}-generaattorilla`, typeCrumb: (e) => e.replace(/^Tehtävä:\s*/, ''),
     playAria: (h1) => `Pelaa: ${h1}`, previewAlt: (h1) => `Esikatselu: ${h1}`,
     embedButton: 'Upota tämä tehtävä', embedCopy: 'Kopioi koodi', embedCopied: 'Kopioitu!',
-    embedPrefix: 'Tehtävä:', embedKeyword: 'ilmaiset tulostettavat tehtävät',
   },
 };
 
@@ -258,6 +251,7 @@ export default async function WorksheetLandingPage(
     : null;
 
   const a = deckAssets(locale, l.canonicalDeckSlug);
+  const anchor = embedAnchor(locale);
   const canonical = canonicalUrl(localePath(locale, 'worksheets', l.slug));
   // W6 embed-backlink flywheel: copy-paste snippet (2 crawlable <a> outside the
   // iframe — brand-anchor→this canonical, keyword-anchor→homepage). §1 / §14.3a.
@@ -265,8 +259,8 @@ export default async function WorksheetLandingPage(
     iframeUrl: a.deckDir,
     brandHref: canonical,
     homeHref: CANONICAL_HOST,
-    prefix: ui.embedPrefix,
-    keyword: ui.embedKeyword,
+    prefix: anchor.prefix,
+    keyword: anchor.keyword,
     title: l.h1,
     id: `lcs-embed-${l.slug}`,
   });

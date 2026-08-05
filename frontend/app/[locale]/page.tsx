@@ -13,10 +13,15 @@ import {
   Dispatch,
   MembersRoom,
   Exit,
+  titleFor,
   type RoomStrings,
   type InstrumentCard,
   type AlcoveCard,
 } from '@/components/homepage-v10/Rooms';
+import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
+import { embedAnchor } from '@/lib/seo/embed-anchor-text';
+import { deckAssets } from '@/lib/seo/landing-content';
+import { canonicalUrl, localePath } from '@/lib/seo/url';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { resolveActivityById } from '@/lib/activities';
@@ -177,6 +182,25 @@ function localized(map: Record<string, string> | undefined, locale: string) {
   return (map && (map[locale] || map.en)) || '';
 }
 
+/* ── The print room's wall size ───────────────────────────────────────────────
+   Room II hangs a RECTANGLE, not a ragged stack. The CSS lays the wall out at
+   5 / 3 / 2 columns (see `.hv10-hang`), and 15 divides evenly by 5 and by 3, so
+   the only width that cannot fill its last row is the 2-column phone band —
+   where the stylesheet hides exactly one tile.
+
+   Until 2026-08-05 the wall got 11 tiles and read 5 / 5 / 1 on a desktop: two
+   full rows and one lonely worksheet, which looks like a catalogue that ran out
+   of stock rather than one holding tens of thousands of decks.
+
+   `fullRows` is the graceful-degradation guard, not the mechanism: if a locale
+   ever yields fewer than 15 decks, drop to the largest multiple of 5 rather
+   than re-introducing a ragged row. It should never fire — SHOWCASE_TYPES
+   carries 24 curated types and every one of them has decks in every locale. */
+const HANG_TARGET = 15;
+function fullRows(available: number): number {
+  return available >= HANG_TARGET ? HANG_TARGET : Math.max(0, Math.floor(available / 5) * 5);
+}
+
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
@@ -187,13 +211,20 @@ export default async function HomePage({ params }: { params: { locale: string } 
   // ONE showcase fetch feeds the whole building: the hall's salon hang (6)
   // and the print room's wall (the rest). DB failure -> the curated EN
   // fallback set; a real worksheet in the wrong language beats an empty wall.
+  //
+  // 22 = 1 reserved + 6 for the hall + 15 for the print room. The +1 is because
+  // selectShowcaseDecks reserves decks[0] as `featured` and hands back
+  // slice(1, count) as `thumbs`, so asking for N yields N-1 usable tiles.
+  // ⚠ The real ceiling is SHOWCASE_TYPES.length (it takes at most one deck per
+  // type), so raising this number alone does nothing — the type list has to be
+  // long enough too. It is: 24.
   let decks: ShowcaseDeck[] = [];
   try {
-    let sel = await selectShowcaseDecks(locale, 18);
-    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(18);
+    let sel = await selectShowcaseDecks(locale, 22);
+    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(22);
     decks = sel.thumbs;
   } catch {
-    decks = fallbackShowcase(18).thumbs;
+    decks = fallbackShowcase(22).thumbs;
   }
 
   const hero = {
@@ -205,8 +236,15 @@ export default async function HomePage({ params }: { params: { locale: string } 
     countsLine: tv('hero.countsLine'),
   };
 
-  // Embedding is described natively x11 on the pricing page already.
-  const tEmbed = await getTranslations({ locale, namespace: 'pricingPage' });
+  /* THE LOAN LABEL (Room V, second half). Every string it needs was already
+     natively authored in all eleven locales for the v3 embed section, so the
+     rebuilt block cost no translation round and nothing here is machine-
+     translated. `homepageV3.embedShare.body` is deliberately NOT used: it
+     promises a "one-line iframe snippet", and the block now shows the real
+     one, which is eight lines. The two trust lines are accurate and concrete,
+     so they carry the explanation instead. */
+  const tEmbed = await getTranslations({ locale, namespace: 'homepageV3.embedShare' });
+  const tCopied = await getTranslations({ locale, namespace: 'workspace.hosted' });
 
   const rooms: RoomStrings = {
     instrumentsH2: tv('teach.heading'),
@@ -252,7 +290,14 @@ export default async function HomePage({ params }: { params: { locale: string } 
     shareQrAlt: tv('share.qrAlt'),
     shareChips: [tv('share.chip1'), tv('share.chip2'), tv('share.chip3'), tv('share.chip4')],
     planTag: tv('planTag'),
-    embedLine: tEmbed('free.item5'),
+
+    embedHeadA: tEmbed('h2Line1'),
+    embedHeadB: tEmbed('h2Line2'),
+    embedCaption: tEmbed('mockup.snippetCaption'),
+    embedCopy: tEmbed('mockup.copyCodeButton'),
+    embedCopied: tCopied('copied'),
+    embedFact1: tEmbed('trust1'),
+    embedFact2: tEmbed('trust2'),
 
     closeH2: `${tv('close.line1')} ${tv('close.line2')}`,
     closeBody: tv('close.body'),
@@ -291,6 +336,38 @@ export default async function HomePage({ params }: { params: { locale: string } 
     return { key, name: localized(m?.title, locale), note: localized(m?.tagline, locale) };
   }).filter((i) => i.name);
 
+  /* The loan label shows a REAL embed snippet, not a mockup of one: the same
+     buildEmbedSnippet() the worksheet landing pages call, for the same
+     published deck the room already displays, with the same native anchor
+     text. What is rendered is byte-for-byte what the copy button puts on the
+     clipboard, and it works if pasted into a school site.
+
+     iframeUrl is the DECK directory — the playable, self-contained deck.html
+     that carries the resize emitter and the embedded-context styling. (The
+     snippet baked into deck.html itself points at the landing page instead,
+     because the 2026-06 canonical repoint moved __CANONICAL_URL__ there; the
+     landing route's own affordance uses deckDir like this one. Retrofitting
+     the baked copies is a separate commission under the §21.5a churn freeze.)
+
+     brandHref is the deck directory too rather than the deck's landing page:
+     resolving a landing means building the per-locale landing index, which
+     the homepage otherwise never loads. Both targets are real pages. */
+  const embedDeck = decks[3];
+  const anchor = embedAnchor(locale);
+  const embed = embedDeck
+    ? {
+        snippet: buildEmbedSnippet({
+          iframeUrl: deckAssets(embedDeck.language, embedDeck.slug).deckDir,
+          brandHref: deckAssets(embedDeck.language, embedDeck.slug).deckDir,
+          homeHref: canonicalUrl(localePath(locale)),
+          prefix: anchor.prefix,
+          keyword: anchor.keyword,
+          title: titleFor(embedDeck),
+          id: `lcs-embed-${embedDeck.slug}`,
+        }),
+      }
+    : undefined;
+
   const touch = MANIPULATIVES.find((x) => x.id === TOUCHABLE);
   const live = {
     src: `/mini-tools/${TOUCHABLE}.html?lang=${locale}&embed=compact`,
@@ -325,10 +402,10 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <div className={`hv6 hv10 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
         <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
         <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-        <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
+        <PrintRoom locale={locale} decks={decks.slice(6, 6 + fullRows(decks.length - 6))} strings={rooms} />
         <Playroom locale={locale} strings={rooms} activities={alcoves} />
         <Studio locale={locale} strings={rooms} />
-        <Dispatch locale={locale} strings={rooms} deck={decks[3]} />
+        <Dispatch locale={locale} strings={rooms} deck={embedDeck} embed={embed} />
         <MembersRoom locale={locale} strings={rooms} />
         <Exit locale={locale} strings={rooms} />
 

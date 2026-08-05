@@ -43,14 +43,60 @@ const DECK_SELECT = {
 /**
  * Curated, subject-diverse, image-rich exercise types (every one verified to
  * have dozens-to-hundreds of themed decks). Interleaved across math / letters /
- * counting / logic / visual / spatial so any 9-deck slice is cross-subject.
+ * counting / logic / visual / spatial so any slice is cross-subject.
  * cryptogram is excluded (0 themed decks — text-only, not visually appealing).
+ *
+ * ⚠ THIS LIST IS THE SUPPLY CEILING, and that is not obvious from the call site.
+ * The assembler below takes AT MOST ONE deck per type, so `selectShowcaseDecks`
+ * can never return more decks than there are entries here — asking for 22 from
+ * an 18-entry list silently yields 18. The homepage's print room sizes its wall
+ * off this number (see app/[locale]/page.tsx), so shortening this list shortens
+ * that wall.
+ *
+ * Extended 18 -> 25 (2026-08-05) so the print room can hang a full third row.
+ * Every addition was verified against the LIVE production DB to have themed,
+ * published decks in all ELEVEN locales — thinnest locale in brackets:
+ * code-addition (97), math-puzzle (140), find-objects (93), grid-match (47),
+ * word-guess (49), pattern-worksheet (46), bingo (36).
+ * REJECTED: `picture-path` (0 `en` decks — en publishes `picture-trail`
+ * instead, so `en` would burn a slot for nothing) and `math-worksheet`
+ * (Gr3-6 content, above this platform's K-2 ceiling).
+ *
+ * The same audit found that `crossword` has no THEMED decks in es/pt, and
+ * `sudoku` none in pt. That is NOT an English-deck leak: candidatesForType
+ * falls back to themeless IN-LOCALE decks first (47 / 47 / 150 available
+ * respectively) and only reaches the English branch when a locale has no deck
+ * of that type at all — which is true of none of the 25. Those three
+ * (type, locale) pairs render an in-locale worksheet without images.
  */
 const SHOWCASE_TYPES = [
-  'addition', 'alphabet-train', 'find-and-count', 'sudoku', 'matching', 'more-less',
-  'picture-sort', 'wordsearch', 'shadow-match', 'subtraction', 'pattern-train',
-  'prepositions', 'missing-pieces', 'big-small', 'treasure-hunt', 'odd-one-out',
-  'crossword', 'chart-count',
+  'addition',        // math
+  'alphabet-train',  // letters
+  'find-and-count',  // counting
+  'sudoku',          // logic
+  'matching',        // visual
+  'more-less',       // comparison
+  'code-addition',   // math
+  'wordsearch',      // letters
+  'chart-count',     // data
+  'grid-match',      // visual
+  'picture-sort',    // sorting
+  'subtraction',     // math
+  'crossword',       // letters
+  'find-objects',    // visual scan
+  'pattern-train',   // pattern
+  'prepositions',    // spatial
+  'math-puzzle',     // math / logic
+  'word-guess',      // letters
+  'missing-pieces',  // visual
+  'big-small',       // comparison
+  'treasure-hunt',   // spatial
+  'odd-one-out',     // logic
+  'shadow-match',    // visual
+  'bingo',           // letters
+  'pattern-worksheet', // pattern (spare-slot filler: 25 types against a request
+                       // of 22 means a type that ever yields nothing is simply
+                       // backfilled by the next one)
 ];
 
 const SHOWCASE_COUNT = 9; // 1 featured inline-play tile + 8 thumbnails
@@ -136,12 +182,19 @@ export async function getTypedThumbs(locale: string, types: string[]): Promise<(
  * (caller renders nothing — honesty).
  */
 /**
- * Curated FALLBACK showcase — 18 verified published EN decks, one per
+ * Curated FALLBACK showcase — verified published EN decks, one per
  * exercise type with distinct themes (queried from the prod DB
  * 2026-08-01; thumbnails spot-checked 200). Used by the homepage when the
  * DB is unreachable or returns nothing, so the fold/wall never render
  * empty. EN-only by design: a fallback in the wrong language is still
  * a real, working worksheet.
+ *
+ * ⚠ This is NOT a rarely-exercised path in development: local dev has no
+ * database, so every local render and every local screenshot comes from
+ * here. It must therefore be long enough to fill the same walls the DB path
+ * fills, or the layout you verify locally is not the layout that ships.
+ * Extended 18 -> 24 (2026-08-05) alongside SHOWCASE_TYPES for that reason;
+ * all 24 slugs re-checked 200 on production the same day.
  */
 const FALLBACK_SLUGS: Array<[type: string, slug: string, title: string]> = [
   ['addition', 'addition-mixed-easter', 'Addition Practice'],
@@ -162,6 +215,12 @@ const FALLBACK_SLUGS: Array<[type: string, slug: string, title: string]> = [
   ['word-guess', 'word-guess-easy-insects-and-bugs', 'Word Guess'],
   ['crossword', 'crossword-around-the-house', 'Picture Crossword'],
   ['wordsearch', 'wordsearch-occupations', 'Word Search'],
+  ['alphabet-train', 'alphabet-train-letter-hint-vehicles-bfc4', 'Alphabet Train'],
+  ['code-addition', 'code-addition-secret-word-winter', 'Code Addition'],
+  ['math-puzzle', 'math-puzzle-toys-3', 'Math Puzzle'],
+  ['picture-sort', 'picture-sort-bakery-vs-beach', 'Picture Sort'],
+  ['prepositions', 'prepositions-multiplechoice-vegetables', 'Prepositions'],
+  ['treasure-hunt', 'treasure-hunt-4th-of-july-050', 'Treasure Hunt'],
 ];
 
 export function fallbackShowcase(count: number = SHOWCASE_COUNT): ShowcaseSelection {

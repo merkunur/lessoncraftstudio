@@ -17,8 +17,11 @@
    new prose, it goes through the native panel per §A.13.48 — never through
    a machine translation step.
 
-   The showcase fetch mirrors the live page exactly (one fetch of 18, sliced)
-   so promotion is an import swap in app/[locale]/page.tsx. */
+   The showcase fetch mirrors the live page exactly (one fetch of 22, sliced
+   6 to the hall and 15 to the print room) so promotion is an import swap in
+   app/[locale]/page.tsx. ⚠ This file is a near-duplicate of that one and is
+   the visual-diff safety net: an edit made there and not here means every
+   gate pointed at this route measures the OLD composition. */
 
 import { getTranslations } from 'next-intl/server';
 import GrandHall from '@/components/homepage-v10/GrandHall';
@@ -30,6 +33,7 @@ import {
   Dispatch,
   MembersRoom,
   Exit,
+  titleFor,
   type RoomStrings,
   type InstrumentCard,
   type AlcoveCard,
@@ -39,6 +43,10 @@ import { MANIPULATIVES } from '@/lib/manipulatives';
 import { resolveActivityById } from '@/lib/activities';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
+import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
+import { embedAnchor } from '@/lib/seo/embed-anchor-text';
+import { deckAssets } from '@/lib/seo/landing-content';
+import { canonicalUrl, localePath } from '@/lib/seo/url';
 
 export const revalidate = 3600;
 
@@ -65,19 +73,26 @@ function localized(map: Record<string, string> | undefined, locale: string) {
   return (map && (map[locale] || map.en)) || '';
 }
 
+/* Mirrors app/[locale]/page.tsx exactly — see the long note there. 15 tiles is
+   the print room's wall size; `fullRows` is only the degradation guard. */
+const HANG_TARGET = 15;
+function fullRows(available: number): number {
+  return available >= HANG_TARGET ? HANG_TARGET : Math.max(0, Math.floor(available / 5) * 5);
+}
+
 export default async function HomepageV10Preview({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepageV6' });
 
   let decks: ShowcaseDeck[] = [];
   try {
-    let sel = await selectShowcaseDecks(locale, 18);
+    let sel = await selectShowcaseDecks(locale, 22);
     // DB empty/unreachable -> the curated EN fallback set (a real worksheet
     // in the wrong language beats an empty wall).
-    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(18);
+    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(22);
     decks = sel.thumbs;
   } catch {
-    decks = fallbackShowcase(18).thumbs;
+    decks = fallbackShowcase(22).thumbs;
   }
 
   const hero = {
@@ -89,8 +104,11 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     countsLine: t('hero.countsLine'),
   };
 
-  // Embedding is described natively x11 on the pricing page already.
-  const tEmbed = await getTranslations({ locale, namespace: 'pricingPage' });
+  // THE LOAN LABEL. Every string was already native x11 from the v3 embed
+  // section, so the rebuild cost no translation round.
+  // See app/[locale]/page.tsx for why homepageV3.embedShare.body is unused.
+  const tEmbed = await getTranslations({ locale, namespace: 'homepageV3.embedShare' });
+  const tCopied = await getTranslations({ locale, namespace: 'workspace.hosted' });
 
   const rooms: RoomStrings = {
     instrumentsH2: t('teach.heading'),
@@ -134,7 +152,14 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     shareQrAlt: t('share.qrAlt'),
     shareChips: [t('share.chip1'), t('share.chip2'), t('share.chip3'), t('share.chip4')],
     planTag: t('planTag'),
-    embedLine: tEmbed('free.item5'),
+
+    embedHeadA: tEmbed('h2Line1'),
+    embedHeadB: tEmbed('h2Line2'),
+    embedCaption: tEmbed('mockup.snippetCaption'),
+    embedCopy: tEmbed('mockup.copyCodeButton'),
+    embedCopied: tCopied('copied'),
+    embedFact1: tEmbed('trust1'),
+    embedFact2: tEmbed('trust2'),
 
     closeH2: `${t('close.line1')} ${t('close.line2')}`,
     closeBody: t('close.body'),
@@ -173,6 +198,25 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     return { key, name: localized(m?.title, locale), note: localized(m?.tagline, locale) };
   }).filter((i) => i.name);
 
+  /* The loan label's REAL snippet — mirrors app/[locale]/page.tsx exactly.
+     See the long note there for why iframeUrl and brandHref are both the
+     deck directory. */
+  const embedDeck = decks[3];
+  const anchor = embedAnchor(locale);
+  const embed = embedDeck
+    ? {
+        snippet: buildEmbedSnippet({
+          iframeUrl: deckAssets(embedDeck.language, embedDeck.slug).deckDir,
+          brandHref: deckAssets(embedDeck.language, embedDeck.slug).deckDir,
+          homeHref: canonicalUrl(localePath(locale)),
+          prefix: anchor.prefix,
+          keyword: anchor.keyword,
+          title: titleFor(embedDeck),
+          id: `lcs-embed-${embedDeck.slug}`,
+        }),
+      }
+    : undefined;
+
   const touch = MANIPULATIVES.find((x) => x.id === TOUCHABLE);
   const live = {
     src: `/mini-tools/${TOUCHABLE}.html?lang=${locale}&embed=compact`,
@@ -187,10 +231,10 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     <div className="hv10-page">
       <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
       <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-      <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
+      <PrintRoom locale={locale} decks={decks.slice(6, 6 + fullRows(decks.length - 6))} strings={rooms} />
       <Playroom locale={locale} strings={rooms} activities={alcoves} />
       <Studio locale={locale} strings={rooms} />
-      <Dispatch locale={locale} strings={rooms} deck={decks[3]} />
+      <Dispatch locale={locale} strings={rooms} deck={embedDeck} embed={embed} />
       <MembersRoom locale={locale} strings={rooms} />
       <Exit locale={locale} strings={rooms} />
       {/* The catalogue at the back of the building — the crawl-bait link

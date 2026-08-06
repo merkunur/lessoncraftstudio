@@ -134,6 +134,23 @@ const BAGS = (BOOK && BOOK.bags) || [];
 
 const mk = (o) => { const b = {}; for (const k of O_KINDS) b[k] = (o && o[k]) || 0; return b; };
 const bagsOf = () => BAGS.map((r) => mk(r.b));
+const SKINS = (BOOK && BOOK.skins) || [];
+
+/* ⭐ ARM THE PRIOR. From build #4 the bag REFUSES to draw until the class
+   has claimed at least one kind — because build #3 set `committed = true`
+   on the very first tap whatever the guess held, so one tap on the
+   largest object on the stage silently froze an all-zero prior forever.
+   Every group below that wants to draw must therefore state a claim
+   first, exactly as a class does. This helper is that one claim, and it
+   ASSERTS the arming worked rather than quietly handing back an
+   unarmable state — a silent no-op here would hollow out every
+   assertion downstream (the recorded #39 harness defect). */
+function armed(st, where) {
+  const a = T.placeGuess(st, 'c', T.ZONE_IN);
+  if (!a) { err((where || 'armed') + ': could not place the opening claim'); return st; }
+  if (!T.canDraw(a)) { err((where || 'armed') + ': the bag still refuses to draw after a claim'); return a; }
+  return a;
+}
 
 /* ⚠ BOUNDED, ALWAYS. A mutation that stopped the record filling made an
    unbounded `while (T.canDraw(s))` spin forever, and the harness scored
@@ -142,6 +159,7 @@ const bagsOf = () => BAGS.map((r) => mk(r.b));
    terminating. */
 function fillRun(st, where) {
   let s = st, guard = 0;
+  if (!s.committed && T.claimed(s.guess) < 1) s = armed(s, where);
   while (T.canDraw(s)) {
     const next = T.draw(s);
     if (!next) break;
@@ -272,6 +290,7 @@ const EDGE = [
     st = T.openDraft(st);
     st = T.setDraft(st, 'c', 1); st = T.setDraft(st, 'c', 1); st = T.setDraft(st, 's', 1);
     st = T.sealDraft(st);
+    st = armed(st, 'D3');
     for (let i = 0; i < st.n; i++) st = T.draw(st);
     return st.runs[0].draws.join('');
   };
@@ -319,6 +338,7 @@ const EDGE = [
     if (!st) { err('D6: loadBag refused a library bag (' + rec.id + ')'); return; }
     const before = JSON.stringify(st.bag);
     st.n = 40;
+    st = armed(st, 'D6');
     for (let i = 0; i < 40; i++) {
       const next = T.draw(st);
       if (!next) { err('D6: draw refused at ' + i + ' of 40'); return; }
@@ -336,6 +356,7 @@ const EDGE = [
 (function D7() {
   let st = T.loadBag(T.newState(), BAGS[1] || { b: { c: 3, s: 2 } });
   st.n = 40;
+  st = armed(st, 'D7');
   let prev = [];
   for (let i = 0; i < 40; i++) {
     st = T.draw(st);
@@ -400,6 +421,7 @@ const EDGE = [
   if (!threw) { err('D9: composition() did not throw before the bag was opened'); return; }
   /* it must keep throwing all the way through a run */
   st.n = 10;
+  st = armed(st, 'D9');
   for (let i = 0; i < 10; i++) {
     st = T.draw(st);
     let t2 = false;
@@ -434,19 +456,77 @@ const EDGE = [
      changed afterwards" is true for the boring reason. An IFF that is
      almost always false is vacuous. */
   const before = JSON.stringify(st.guess);
-  st = T.placeGuess(st, 'c');
+  st = T.placeGuess(st, 'c', 1);
   if (!st) { err('D10: placeGuess refused before any draw — the prior can never be placed'); return; }
   if (JSON.stringify(st.guess) === before) { err('D10: placeGuess did not move the guess'); return; }
-  /* three taps cycle back to undecided */
-  let cyc = T.placeGuess(T.placeGuess(st, 'c'), 'c');
-  if (cyc.guess.c !== 0) { err('D10: three taps did not return the piece to undecided'); return; }
-  st = T.placeGuess(st, 's');
+
+  /* ⭐⭐ ABSOLUTE PLACEMENT, MEASURED AS REACHABILITY. Build #3 was a
+     blind 3-cycle — `(guess[kind] + 1) % 3` — and on the shipped tool
+     one piece over six taps went pool -> in -> out -> pool -> in -> out
+     -> pool: the destination of a single tap was not choosable and the
+     middle zone cost three. That IS the operator's "the objects could
+     not be placed on the second line". The law is not "a cycle exists";
+     it is EVERY ZONE REACHES EVERY OTHER ZONE IN ONE ACTION. */
+  const ZONES = [T.ZONE_TRAY, T.ZONE_IN, T.ZONE_OUT];
+  if (new Set(ZONES).size !== 3) { err('D10: the three zones are not distinct'); return; }
+  for (const from of ZONES) {
+    for (const to of ZONES) {
+      let base = T.loadBag(T.newState(), BAGS[0] || { b: { c: 3, s: 2 } });
+      if (from !== T.ZONE_TRAY) { base = T.placeGuess(base, 'c', from); }
+      if (!base || base.guess.c !== from) { err('D10: could not set up zone ' + from); return; }
+      const moved = T.placeGuess(base, 'c', to);
+      if (from === to) {
+        /* a no-op is a REFUSAL, per the setLen/setSkin doctrine — a
+           control that provably does nothing must not report success */
+        if (moved !== null) { err('D10: placeGuess accepted a no-op (' + from + ' -> ' + to + ')'); return; }
+        continue;
+      }
+      if (!moved) { err('D10: ' + from + ' -> ' + to + ' was refused; a destination must be choosable in ONE action'); return; }
+      if (moved.guess.c !== to) { err('D10: ' + from + ' -> ' + to + ' landed on ' + moved.guess.c); return; }
+    }
+  }
+  /* a zone outside the set is refused rather than clamped */
+  for (const bad of [3, -1, 1.5, null, 'in', NaN]) {
+    if (T.placeGuess(st, 'c', bad) !== null) { err('D10: placeGuess accepted the zone ' + String(bad)); return; }
+  }
+
+  /* ⭐⭐ THE PRIOR MUST EXIST BEFORE THE FIRST DRAW, AND THAT HAD TO BE
+     ASSERTED RATHER THAN ASSUMED. Two mutations survived the first run of
+     this gate — one that deleted the guard outright and one that made
+     `claimed()` count pieces nobody had moved — because the gate checked
+     that the prior FREEZES and never that it EXISTS. Build #3 set
+     `committed = true` on the very first tap whatever the guess held, so
+     one tap on the largest object on the stage silently froze an all-zero
+     claim, forever, with no undo. */
+  {
+    const cold = T.loadBag(T.newState(), BAGS[0] || { b: { c: 3, s: 2 } });
+    if (T.claimed(cold.guess) !== 0) err('D10: a freshly seated bag already counts a claim');
+    if (T.canDraw(cold)) err('D10: the bag draws before the class has claimed anything');
+    if (T.draw(cold) !== null) err('D10: draw() succeeded on an empty prior');
+    /* and it must open the moment ONE claim exists — an always-false guard
+       would satisfy the line above for the boring reason */
+    for (const z of [T.ZONE_IN, T.ZONE_OUT]) {
+      const one = T.placeGuess(cold, 'c', z);
+      if (!one) { err('D10: could not claim into zone ' + z); continue; }
+      if (T.claimed(one.guess) !== 1) err('D10: one claim counts as ' + T.claimed(one.guess));
+      if (!T.canDraw(one)) err('D10: the bag still refuses after a claim in zone ' + z);
+      if (T.draw(one) === null) err('D10: draw() still refused after a claim in zone ' + z);
+    }
+    /* moving a piece BACK to the tray withdraws the claim */
+    let back = T.placeGuess(cold, 'c', T.ZONE_IN);
+    back = T.placeGuess(back, 'c', T.ZONE_TRAY);
+    if (!back) err('D10: a claim could not be withdrawn');
+    else if (T.canDraw(back)) err('D10: the bag draws after every claim was withdrawn');
+  }
+  st = T.placeGuess(st, 's', 2);
   const committedGuess = JSON.stringify(st.guess);
   st.n = 10;
   st = T.draw(st);
   if (!st.committed) { err('D10: the first draw did not commit the prior'); return; }
   for (const k of O_KINDS) {
-    if (T.placeGuess(st, k) !== null) { err('D10: the guess moved after the first draw'); return; }
+    for (const z of ZONES) {
+      if (T.placeGuess(st, k, z) !== null) { err('D10: the guess moved after the first draw'); return; }
+    }
   }
   st = fillRun(st, 'D10');
   const opened = T.openBag(st);
@@ -464,9 +544,27 @@ const EDGE = [
      preposition, so correct French would have failed the build. A fence
      that rejects correct code is not a fence — it teaches you to word
      things around it. The scoring vocabulary below is unambiguous. */
+  /* ⚠ AND `closest` HAD TO COME OUT OF THE SCAN, WHICH IS THE SAME TRAP
+     AGAIN. `Element.closest()` is a standard DOM method and the drop
+     handler legitimately calls `ev.target.closest('.drb-gpiece')`. A ban
+     that condemns the platform's own API teaches you to write around the
+     fence instead of reporting it — exactly what the `par` and
+     `Zufallsbeutel` defects did. It stays banned as a WORD and is
+     exempted as a METHOD CALL, and both directions are poison-tested. */
   const VERDICT = /\b(score|scoring|correct|incorrect|wrong|right_answer|winner|wins|verdict|rank|ranking|closest|better|worse|accuracy|streak)\b/i;
-  if (VERDICT.test(SRC_NC)) {
-    const hit = SRC_NC.match(VERDICT);
+  /* ⚠ AND IT HAS TO COVER THE EXISTENCE CHECK. The first exemption was
+     `/\.closest\s*\(/`, which misses `ev.target.closest && ...` — so a
+     narrowed exemption left the ban still condemning correct code. The
+     recorded rule is to poison-test every narrowed regex; this is why. */
+  const SCAN = SRC_NC.replace(/\.closest\b/g, '.__domClosest');
+  if (/\bclosest\b/.test(SCAN.replace(/__domClosest/g, ''))) {
+    err('D11: a bare "closest" survives the DOM exemption — check what it is');
+  }
+  if (!/\bclosest\b/.test('pick the closest one'.replace(/\.closest\b/g, '.__domClosest'))) {
+    err('D11 POISON: the DOM exemption swallows the word in prose too');
+  }
+  if (VERDICT.test(SCAN)) {
+    const hit = SCAN.match(VERDICT);
     err('D11: verdict machinery in the source ("' + hit[0] + '")');
   }
   if (/drb-(correct|wrong|right|good|bad|win|fail)/.test(SRC)) err('D11: a verdict class name exists');
@@ -485,7 +583,7 @@ const EDGE = [
 (function D12() {
   /* every textContent assignment in the file must be an authored string
      or the record-length numeral, which is chrome on a chip */
-  const ALLOWED = [/^api\.t\('[a-zA-Z]+'\)$/, /^String\(n\)$/, /^''$/];
+  const ALLOWED = [/^api\.t\('[a-zA-Z]+'\)$/, /^api\.t\(this\._hintKey\(\)\)$/, /^String\(n\)$/, /^''$/];
   /* ⚠ SCOPE TO THE OBJECT LITERAL. The stylesheet injector lives outside
      it and legitimately does `st.textContent = css`, which is a <style>
      element and not a word on the screen. Scanning the whole file made
@@ -534,6 +632,28 @@ const EDGE = [
   if (/createElementNS\([^,]+,\s*['"]text['"]\)/.test(SRC_NC)) err('D13: an SVG text node exists');
   const poison = "_buildGuess: function () { x.textContent = 'hi'; }";
   if (!/\.textContent\s*=/.test(poison)) err('D13 POISON: the text-node ban no longer fires');
+  /* ⭐⭐ AND THE ONE SENTENCE A TEACHER CAN SEE MUST ACTUALLY BE PAINTED.
+     A mutation that blanked it survived the first run of this gate,
+     because `''` is on D12's allow-list and nothing else looked. This is
+     the tool's ONLY explanation on the real product surface: the shell
+     renders `strings.instruction` into `.lcs-instruction` and
+     `lcs-shell.css:261` hides that for every iframed load, which every
+     production surface is. */
+  const band = (() => {
+    const at = SRC_NC.indexOf('_buildBand: function');
+    if (at < 0) return '';
+    const rest = SRC_NC.slice(at + 1);
+    const end = rest.search(/\n  [_a-zA-Z]+: function/);
+    return end > 0 ? rest.slice(0, end) : rest;
+  })();
+  if (!band) err('D13: there is no band, so the tool has no visible explanation at all');
+  if (!/l1\.textContent\s*=\s*api\.t\('doctrine'\)/.test(band)) {
+    err('D13: the permanent line is not painted from the doctrine string');
+  }
+  if (!/l2\.textContent\s*=\s*api\.t\(this\._hintKey\(\)\)/.test(band)) {
+    err('D13: the state rung is not painted from an authored key');
+  }
+  if (/textContent\s*=\s*''/.test(band)) err('D13: the band blanks one of its own lines');
   console.log('D13 no words on the stage: ' + STAGE.length + ' material builders, zero text nodes (poison-tested)');
 })();
 
@@ -735,19 +855,33 @@ const EDGE = [
    gate and reached the operator.
    ===================================================================== */
 (function D17() {
+  /* ⚠ PROXIMITY IS A PROXY, AND IT BROKE HONESTLY. The bag's handler
+     moved into `_wire`, so the 700-character window between the label and
+     the call stopped reaching it and this gate reported a control dead
+     that is wired perfectly well. The proxy is kept for the chips, whose
+     handler really does sit beside their label, and the bag — the one
+     control that is wired at a distance — gets an explicit CHAIN check
+     below instead. Fixing WHAT is measured, never the threshold. */
   const PAIRS = [
     ['openBtn', 'openBag('],
     ['againBtn', 'secondRun('],
     ['fillBtn', 'openDraft('],
     ['sealBtn', 'sealDraft('],
-    ['anotherBtn', '_stepBag('],
-    ['drawAria', 'draw(']
+    ['cancelBtn', 'cancelDraft('],
+    ['anotherBtn', '_stepBag(']
   ];
   /* ⚠ CHECK EVERY OCCURRENCE, NOT THE FIRST. `fillBtn` names both the
      control and the builder's aria-label, and anchoring on indexOf
      found the aria-label — reporting a control dead that is wired
      perfectly well twenty lines further down. At least one occurrence
      must be followed by the call it promises. */
+  const bodyOf = (name) => {
+    const at = RENDER.indexOf(name + ': function');
+    if (at < 0) return '';
+    const rest = RENDER.slice(at + 1);
+    const end = rest.search(/\n  [_a-zA-Z]+: function/);
+    return end > 0 ? rest.slice(0, end) : rest;
+  };
   for (const [key, call] of PAIRS) {
     const needle = "api.t('" + key + "')";
     let at = RENDER.indexOf(needle), found = false, seen = 0;
@@ -762,7 +896,7 @@ const EDGE = [
   /* and "another bag" must really land on a different bag — the recorded
      defect where a library step chose an entry that rendered identically */
   const inst = Object.create(T);
-  inst.api = { lang: 'en', t: (k) => k, el: () => ({ setAttribute() {}, appendChild() {}, addEventListener() {}, classList: { add() {} }, style: {} }) };
+  inst.api = { lang: 'en', t: (k) => k, announce: () => {}, el: () => ({ setAttribute() {}, appendChild() {}, addEventListener() {}, classList: { add() {} }, style: {} }) };
   inst.data = BOOK;
   inst.premium = true;
   inst._bagIdx = 0;
@@ -799,6 +933,21 @@ const EDGE = [
   if (JSON.stringify(inst2.st.bag) !== JSON.stringify(mk(dupB))) {
     err('D17: "another bag" landed on a bag that renders identically to the one already on screen');
   }
+  /* ⭐ THE BAG'S CHAIN, LINK BY LINK. The element carrying `drawAria`
+     must be the element the draw handler is bound to, and that handler
+     must reach `draw(`. Every link is asserted separately, so a broken
+     one names itself instead of collapsing into "not found". */
+  const main = bodyOf('_buildMain');
+  const wire = bodyOf('_wire');
+  const tap = bodyOf('_tapBag');
+  if (main.indexOf("api.t('drawAria')") < 0) err('D17 chain: the bag does not carry the drawAria label');
+  if (!/this\._bagBtn\s*=\s*bagBtn/.test(main)) err('D17 chain: the labelled bag is never handed to the wiring');
+  if (!/this\._bagBtn[\s\S]{0,200}addEventListener\('click'/.test(wire)) err('D17 chain: nothing binds a click to the bag');
+  if (wire.indexOf('_tapBag(') < 0) err('D17 chain: the bag click does not reach _tapBag');
+  if (!tap) err('D17 chain: _tapBag does not exist');
+  else if (tap.indexOf('this.draw(') < 0) err('D17 chain: _tapBag never draws');
+  /* poison: each link must be falsifiable */
+  if (/this\._bagBtn\s*=\s*bagBtn/.test('var x = 1;')) err('D17 POISON: the chain check passes on unrelated source');
   console.log('D17 labels are true: ' + PAIRS.length + ' noun-labelled controls call what they promise; "another bag" reached ' + distinct.size + ' distinct bags');
 })();
 
@@ -821,9 +970,10 @@ const EDGE = [
   /* and setSkin must touch nothing else */
   let a = T.loadBag(T.newState(), BAGS[3] || { b: { c: 5, s: 3 } });
   a.n = 20;
+  a = armed(a, 'D18');
   a = T.draw(a);
   const before = JSON.stringify({ bag: a.bag, runs: a.runs, guess: a.guess, n: a.n });
-  const b = T.setSkin(a, (BOOK.skins && BOOK.skins[0] && BOOK.skins[0].id) || 'fruits');
+  const b = T.setSkin(a, (SKINS[0] && SKINS[0].id) || 'fruits', SKINS);
   if (!b) { err('D18: setSkin refused a real skin'); return; }
   if (JSON.stringify({ bag: b.bag, runs: b.runs, guess: b.guess, n: b.n }) !== before) err('D18: setSkin changed something other than the skin');
   console.log('D18 material is a skin: ' + skinIds.length + ' skins, one identical 40-draw sequence, and setSkin touches nothing else');
@@ -840,11 +990,12 @@ const EDGE = [
   /* reducers must not mutate their input */
   const probes = [
     ['openDraft', (s) => T.openDraft(s)],
-    ['placeGuess', (s) => T.placeGuess(s, 'c')],
+    ['placeGuess', (s) => T.placeGuess(s, 'c', 1)],
+    ['cancelDraft', (s) => T.cancelDraft(T.openDraft(s))],
     ['setLen', (s) => T.setLen(s, 10)],
-    ['setSkin', (s) => T.setSkin(s, 'fruits')],
+    ['setSkin', (s) => T.setSkin(s, 'fruits', SKINS)],
     ['loadBag', (s) => T.loadBag(s, BAGS[0])],
-    ['draw', (s) => { const l = T.loadBag(s, BAGS[0]); return T.draw(l); }],
+    ['draw', (s) => { const l = armed(T.loadBag(s, BAGS[0]), 'D19'); return T.draw(l); }],
     ['openBag', (s) => T.openBag(T.loadBag(s, BAGS[0]))]
   ];
   for (const [name, fn] of probes) {
@@ -869,6 +1020,7 @@ const EDGE = [
      and left a teacher looking at a full screen with nothing to do. */
   let mid = T.loadBag(T.newState(), BAGS[0]);
   mid.n = 20;
+  mid = armed(mid, 'D19');
   mid = T.draw(mid);
   mid = T.draw(mid);
   const drawnBefore = mid.runs[0].draws.join('');
@@ -879,13 +1031,434 @@ const EDGE = [
      Sharing the reference is invisible today because nothing writes to
      the bag — and it is exactly the aliasing that would make a future
      without-replacement bug unfindable. */
-  const src = T.loadBag(T.newState(), BAGS[0]);
-  const alias = [['draw', T.draw(src)], ['openDraft', T.openDraft(src)], ['placeGuess', T.placeGuess(src, 'c')]];
+  const src = armed(T.loadBag(T.newState(), BAGS[0]), 'D19');
+  const alias = [['draw', T.draw(src)], ['openDraft', T.openDraft(src)], ['placeGuess', T.placeGuess(src, 'c', 1)]];
   for (const [name, out] of alias) {
     if (out && out.bag === src.bag) err('D19: ' + name + ' shares its input\'s bag object rather than copying it');
     if (out && out.guess === src.guess) err('D19: ' + name + ' shares its input\'s guess object rather than copying it');
   }
   console.log('D19 purity: state shape frozen, ' + probes.length + ' reducers leave their input untouched, hostile input refused');
+})();
+
+/* =====================================================================
+   D20 ⭐⭐ THE BUILDER IS BLIND
+   Build #3's `openDraft` did `s.draft = this._copyCounts(s.bag)` and
+   `_buildFill` painted every piece of it — so one free, always-live chip
+   labelled "Fill the bag" rendered the sealed composition across the
+   stage at any moment, including after the prior was committed. Measured
+   on the shipped tool: the painted counts were [10,7,0,0,0,0], byte-
+   identical to `st.bag`. D9 proved the REVEAL was unreachable and said
+   nothing at all about the BUILDER, which is why this group exists.
+   ===================================================================== */
+(function D20() {
+  for (const rec of BAGS.slice(0, 40)) {
+    const sealed = T.loadBag(T.newState(), rec);
+    if (!sealed) { err('D20: loadBag refused ' + rec.id); return; }
+    const d = T.openDraft(sealed);
+    if (!d || !d.draft) { err('D20: openDraft did not open a draft'); return; }
+    if (oTotal(d.draft) !== 0) {
+      err('D20: the builder opened holding ' + oTotal(d.draft) + ' pieces — it is seeded from the sealed bag');
+      return;
+    }
+    /* and the sealed bag must be untouched by opening the builder */
+    if (JSON.stringify(mk(d.bag)) !== JSON.stringify(mk(sealed.bag))) { err('D20: openDraft altered the bag'); return; }
+  }
+  /* ⚠ POISON, BOTH DIRECTIONS. A draft that can never hold anything
+     would pass the check above for the boring reason. */
+  let d = T.openDraft(T.loadBag(T.newState(), BAGS[0]));
+  d = T.setDraft(d, 't', 1);
+  if (!d || d.draft.t !== 1) { err('D20 POISON: the draft cannot be filled at all'); return; }
+
+  /* the way OUT must destroy nothing. Build #3 had exactly one exit and
+     it wiped the guess, both records and the lid, so one curious tap
+     mid-lesson cost the whole lesson with no way back. */
+  let live = armed(T.loadBag(T.newState(), BAGS[0]), 'D20');
+  live.n = 10;
+  live = fillRun(live, 'D20');
+  const keep = JSON.stringify({ runs: live.runs, guess: live.guess, committed: live.committed, bag: live.bag });
+  const back = T.cancelDraft(T.openDraft(live));
+  if (!back) { err('D20: there is no way out of the builder that keeps the lesson'); return; }
+  if (JSON.stringify({ runs: back.runs, guess: back.guess, committed: back.committed, bag: back.bag }) !== keep) {
+    err('D20: cancelling the builder damaged the lesson');
+  }
+  if (T.cancelDraft(live) !== null) err('D20: cancelDraft worked with no draft open');
+  console.log('D20 the builder is blind: the draft opens EMPTY over ' + Math.min(40, BAGS.length) + ' bags, and backing out destroys nothing');
+})();
+
+/* =====================================================================
+   D21 ⭐⭐ THE PREMISE IS FREE
+   The whole thesis of this instrument is "run the SAME bag again". In
+   build #3 that was premium: at the end of run one the measured DOM held
+   two record rows, the second with zero cells and unfillable, the bag
+   `disabled` at opacity .5, and `hintAgain` gated on `premium` so a free
+   teacher was told to open the bag instead. That is exactly what the
+   operator reported as "the objects could not be placed on the second
+   line at all". The plan sells DEPTH, never the premise.
+   ===================================================================== */
+(function D21() {
+  /* the model must not know what an entitlement is */
+  if (/\bpremium\b/.test(MODEL.slice(MODEL.indexOf('newState:')))) {
+    err('D21: the model reasons about entitlement');
+  }
+  /* run two must be reachable from an ordinary state, with no argument,
+     flag or option that could carry a tier */
+  if (T.secondRun.length !== 1) err('D21: secondRun takes ' + T.secondRun.length + ' arguments; it must take only the state');
+  let s = armed(T.loadBag(T.newState(), BAGS[0]), 'D21');
+  s.n = 10;
+  s = fillRun(s, 'D21');
+  const two = T.secondRun(s);
+  if (!two) { err('D21: run two was refused after a full first run'); return; }
+  if (two.runs.length !== 2) { err('D21: secondRun did not add a record'); return; }
+  const filled = fillRun(two, 'D21');
+  if (filled.runs[1].draws.length !== filled.n) { err('D21: the second record could not be filled'); return; }
+
+  /* ⚠ AND THE RENDER PATH MUST NOT GATE IT EITHER. The one place this
+     could regress is a `premium` test wrapped around the againBtn
+     handler, which is exactly the shape build #3 shipped. */
+  const foot = RENDER.slice(RENDER.indexOf('_buildFoot: function'));
+  const at = foot.indexOf("api.t('againBtn')");
+  if (at < 0) { err('D21: the run-again control was not found'); return; }
+  const scope = foot.slice(at, at + 900);
+  if (/premium/.test(scope) || /drb-locked/.test(scope) || /_raiseGate\(/.test(scope)) {
+    err('D21: the run-again control is gated on entitlement — the premise is behind the paywall');
+  }
+  /* poison: the gate must still be able to SEE a paywall where one
+     legitimately is, or this assertion proves nothing */
+  const pat = foot.indexOf("api.t('printBtn')");
+  if (pat < 0 || !/premium/.test(foot.slice(pat, pat + 900))) {
+    err('D21 POISON: the entitlement check cannot detect a gated control');
+  }
+  console.log('D21 the premise is free: run two is reachable with no tier, in the model and in the render path (poison-tested)');
+})();
+
+/* =====================================================================
+   D22 ⭐ THE BAG'S TAG LEAKS NOTHING
+   The bag is opaque, so "Another bag" changed nothing anybody could see.
+   The tag fixes that — and a mark on an opaque bag is the exact place a
+   hint about its contents would hide. The mark is a pure function of the
+   ORDINAL POSITION in the book, which the book's own note already
+   establishes as the safe channel ("the ids are a plain sequence that
+   encodes nothing").
+   ===================================================================== */
+(function D22() {
+  if (typeof T._tagNode !== 'function') { err('D22: there is no tag'); return; }
+  if (T._tagNode.length !== 1) err('D22: _tagNode takes ' + T._tagNode.length + ' arguments; it must take only the index');
+  /* the source of the tag must not mention the bag at all */
+  /* ⚠ STRIP THE COMMENTS FIRST. `Function.prototype.toString()` returns
+     the comments too, and this ban condemned _tagNode's OWN sentence,
+     "a 120-bag library keeps differentiating" — the ban-too-wide trap for
+     the fourth time in this build, every time on prose that was correct.
+     A ban on what the CODE reads must read only the code. */
+  const src = T._tagNode.toString().replace(/\/\*[\s\S]*?\*\//g, '').replace(/\/\/.*$/gm, '');
+  const READS = /\bbag\b|this\.st\b|composition|\bKINDS\b/;
+  if (READS.test(src)) err('D22: _tagNode reads something other than its index ("' + src.match(READS)[0] + '")');
+  /* poison, BOTH ways: it must fire on a real read and pass a legitimate one */
+  if (!READS.test('var q = this.st.bag;')) err('D22 POISON: the read-ban cannot fire');
+  if (READS.test('var n = idx % this.PIPS.length;')) err('D22 POISON: the read-ban condemns a legitimate index expression');
+  /* PIPS is a fixed table, so two libraries with different contents at
+     the same index give the same mark by construction — assert it */
+  if (!Array.isArray(T.PIPS) || T.PIPS.length < 2) { err('D22: the pip table is missing'); return; }
+  for (let i = 0; i < T.PIPS.length; i++) {
+    if (!Array.isArray(T.PIPS[i]) || T.PIPS[i].length !== i + 1) {
+      err('D22: pip row ' + i + ' shows ' + (T.PIPS[i] || []).length + ' pips, not ' + (i + 1));
+    }
+  }
+  /* and every pip sits inside the card it is drawn on (73..93, 35..59) */
+  for (const row of T.PIPS) {
+    for (const p of row) {
+      const x = 73 + p[0] * 0.20, y = 35 + p[1] * 0.24;
+      if (x < 74.5 || x > 91.5 || y < 36.5 || y > 57.5) err('D22: a pip at ' + x.toFixed(1) + ',' + y.toFixed(1) + ' falls off the tag');
+    }
+  }
+  /* ⚠ THE SIZE MUST NEVER VARY WITH THE BAG. Size reads as fullness. */
+  const bagSrc = String(T._bagNode);
+  if (/total\s*\(|\.bag\b|composition/.test(bagSrc)) err('D22: the bag drawing reads its own contents');
+  console.log('D22 the tag: ' + T.PIPS.length + ' marks, a pure function of the index, all pips on the card, and the drawing never reads the bag');
+})();
+
+/* =====================================================================
+   D23 ⭐⭐ THE BAG CANNOT BE SWAPPED MID-RUN
+   The entire argument of run two is that nothing changed in between. In
+   build #3 the two controls that swap the contents — "Fill the bag" and
+   "Another bag" — sat live on screen at exactly that moment, so a
+   seven-year-old's objection ("you changed it") was not merely
+   available, it was DISPLAYED.
+   ===================================================================== */
+(function D23() {
+  const s = RENDER.indexOf('_buildFoot: function');
+  const rest = RENDER.slice(s + 1);
+  const e = rest.search(/\n  [_a-zA-Z]+: function/);
+  const foot = e > 0 ? rest.slice(0, e) : rest;
+  if (!foot) { err('D23: _buildFoot not found'); return; }
+
+  const guard = foot.indexOf('if (setupOpen)');
+  if (guard < 0) { err('D23: there is no guard around the bag-changing controls'); return; }
+  const decl = foot.match(/var setupOpen = ([^;]+);/);
+  if (!decl) { err('D23: setupOpen is not declared'); return; }
+  /* it must be true ONLY before the first draw or after the reveal */
+  if (!/!s\.runs\.length/.test(decl[1]) || !/s\.opened/.test(decl[1])) {
+    err('D23: the guard is not "no run yet, or already opened" — it is "' + decl[1].trim() + '"');
+  }
+  /* the scoping is a FUNCTION so it can be poisoned on synthetic input.
+     Poisoning it by mangling the real source only proved a mangled string
+     still parses — the first version did exactly that and passed for the
+     wrong reason. */
+  const scopeOf = (text) => {
+    const g = text.indexOf('if (setupOpen)');
+    if (g < 0) return null;
+    const c = text.indexOf('\n    }', g);
+    return text.slice(g, c > 0 ? c : text.length);
+  };
+  const countIn = (text, key) => (text.match(new RegExp("api\\.t\\('" + key + "'\\)", 'g')) || []).length;
+  const scoped = scopeOf(foot);
+  if (scoped === null) { err('D23: the guard could not be scoped'); return; }
+  for (const key of ['fillBtn', 'anotherBtn']) {
+    const all = countIn(foot, key);
+    const inside = countIn(scoped, key);
+    if (all === 0) { err('D23: the control ' + key + ' is gone from the foot entirely'); continue; }
+    if (inside !== all) err('D23: ' + key + ' appears ' + all + ' time(s) in the foot but only ' + inside + ' inside the guard');
+  }
+  /* ⭐ POISON, BOTH DIRECTIONS, on inputs built for the purpose */
+  const GOOD = "if (setupOpen) {\n      x(api.t('anotherBtn'));\n    }\n    y();";
+  const BAD  = "if (setupOpen) {\n      z();\n    }\n    x(api.t('anotherBtn'));";
+  if (countIn(scopeOf(GOOD), 'anotherBtn') !== 1) err('D23 POISON: a control inside the guard is not counted as inside');
+  if (countIn(scopeOf(BAD), 'anotherBtn') !== 0) err('D23 POISON: a control OUTSIDE the guard is still counted as inside it');
+  console.log('D23 the bag cannot be swapped mid-run: both bag-changing controls live inside "' + decl[1].trim() + '" (poison-tested)');
+})();
+
+/* =====================================================================
+   D24 ⭐ THE LIBRARY IS A TEACHING LADDER
+   ⚠ MEASURED FIRST, GATED SECOND. The three laws below are the ones the
+   library ACTUALLY satisfies when its own seeded runs are computed —
+   not a percentage anyone liked the look of. Measured over the free
+   eight at n=20: the single-kind bag differs in 0 of 20 cells, and the
+   rest differ in 7..16.
+   The single-kind bag is the CONTROL CONDITION the thesis needs: without
+   it "two rows differ" is just noise, and with it the class learns that
+   what decides sameness is what is in the bag. Build #3 seated a 10:7
+   two-kind bag first and buried its best demonstration at position four.
+   ===================================================================== */
+(function D24() {
+  const free = BAGS.filter((r) => r.free);
+  if (!free.length) { err('D24: no free bags'); return; }
+  const runOf = (b, k, n) => { const sd = oSeed(b, k), out = []; for (let i = 0; i < n; i++) out.push(oPick(b, sd, i)); return out; };
+
+  /* LAW 1 — the FIRST free bag, the one the tool seats on a cold load,
+     is single-kind. */
+  const first = mk(free[0].b);
+  const firstKinds = O_KINDS.filter((k) => first[k] > 0);
+  if (firstKinds.length !== 1) {
+    err('D24: the opening bag (' + free[0].id + ') holds ' + firstKinds.length + ' kinds; the control condition needs exactly one');
+  }
+
+  let single = 0, differing = 0;
+  for (const rec of free) {
+    const b = mk(rec.b);
+    const kinds = O_KINDS.filter((k) => b[k] > 0);
+    const a = runOf(b, 1, 20), c = runOf(b, 2, 20);
+    const diff = a.filter((v, i) => v !== c[i]).length;
+    if (kinds.length === 1) {
+      /* LAW 2 — one kind in, one kind out, both runs identical. This is
+         the only bag in the book whose two records MUST match. */
+      single++;
+      if (diff !== 0) err('D24: single-kind bag ' + rec.id + ' produced two different records (' + diff + '/20)');
+      if (a.some((v) => v !== kinds[0])) err('D24: single-kind bag ' + rec.id + ' drew something that is not in it');
+    } else {
+      /* LAW 3 — every other bag MUST produce two different records, or
+         "Run it again" reads as broken on that bag. */
+      differing++;
+      if (diff === 0) err('D24: bag ' + rec.id + ' produced two IDENTICAL records — run two would look broken');
+      /* LAW 4 — a dominant bag (top kind at least twice the runner-up)
+         must agree on its modal kind across both runs, or the apparatus
+         teaches that everything is equally likely. */
+      const sorted = kinds.map((k) => b[k]).sort((x, y) => y - x);
+      if (sorted[0] >= 2 * sorted[1]) {
+        const mode = (arr) => { const t = {}; for (const v of arr) t[v] = (t[v] || 0) + 1; const o = Object.keys(t).sort((p, q) => t[q] - t[p]); return { k: o[0], tie: o.length > 1 && t[o[0]] === t[o[1]] }; };
+        const ma = mode(a), mc = mode(c);
+        if (ma.tie || mc.tie) err('D24: dominant bag ' + rec.id + ' produced a tie at the top');
+        else if (ma.k !== mc.k) err('D24: dominant bag ' + rec.id + ' changed its most-drawn kind between runs (' + ma.k + ' then ' + mc.k + ')');
+      }
+    }
+  }
+  if (single < 1) err('D24: no single-kind bag is free — the control condition is unreachable');
+  console.log('D24 the library is a ladder: ' + free.length + ' free bags, ' + single + ' single-kind control, ' + differing + ' that provably differ across two runs');
+})();
+
+/* =====================================================================
+   D25 ⭐⭐ THE MATERIAL IS LEGIBLE — MEASURED, NOT ASSERTED
+   Build #3's palette had a worst-case colour-blind separation of dE00
+   0.7: the purple diamond and the slate star were ONE OBJECT under
+   deuteranopia, in a room where roughly one boy in twelve sees that way.
+   Its bag drew its open/closed signal at 1.44:1, its empty record cell
+   at 1.26:1, and the SELECTED length chip at 1.50:1. None of that is a
+   matter of taste and none of it was in a gate, so all of it shipped.
+   ⚠ THE THRESHOLDS ARE NOT INVENTED. Contrast uses WCAG's own floors
+   (4.5:1 text, 3:1 non-text). The colour-separation floor is the one the
+   platform has already ruled on: sorting-hoops.js:281 REJECTED a ring
+   colour at dE00 6.7 and shipped one at 13.7, so 6.7 is a measured
+   rejection and the floor sits above it.
+   ===================================================================== */
+(function D25() {
+  const CSS = SRC.slice(SRC.indexOf('function injectDrawBagCSS'));
+  const hex = (h) => [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)];
+  const lin = (c) => { const s = c / 255; return s <= 0.04045 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4); };
+  const lum = (h) => { const [r, g, b] = hex(h).map(lin); return 0.2126 * r + 0.7152 * g + 0.0722 * b; };
+  const ratio = (a, b) => { const l1 = lum(a), l2 = lum(b); return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05); };
+
+  /* the pairs this tool actually renders, each with the floor its USE
+     demands. A pair is only listed if both colours are in the stylesheet
+     — asserted below, so a rename cannot silently empty this table. */
+  const CREAM = '#FBF3E4';
+  const PAIRS = [
+    ['#FFFFFF', '#C2562F', 4.5, 'the primary action chip'],
+    ['#A8451F', CREAM, 4.5, 'the paid-plan explanation'],
+    ['#0E5147', CREAM, 4.5, 'the doctrine line'],
+    ['#3C4A43', CREAM, 4.5, 'the hint line'],
+    ['#0E5147', '#FBF3E4', 3.0, 'the focus ring'],
+    ['#3C7C72', '#F6EEDD', 3.0, 'a laid chip on the rail'],
+    ['#4E8B7C', CREAM, 3.0, 'the rail edge'],
+    ['#146B5E', '#F6EEDD', 3.0, 'the bag wall of the claim zone'],
+    ['#55917F', CREAM, 3.0, 'the empty-slot marker'],
+    ['#F1E7D2', '#146B5E', 3.0, 'the drawstring and the open mouth']
+  ];
+  /* ⚠⚠ BOTH SIDES MUST BE IN THE STYLESHEET, OR THIS IS A TABLE OF
+     CONSTANTS AGREEING WITH ITSELF. A mutation that changed the action
+     chip's background to build #3's 2.78:1 orange SURVIVED the first run
+     of this gate: only the first colour of each pair was checked for
+     presence, so the measurement went on happily reporting the value the
+     table wished were there. The non-vacuity rule, applied to a colour
+     table instead of a NodeList. */
+  let worstText = Infinity;
+  for (const [a, b, floor, what] of PAIRS) {
+    for (const side of [a, b]) {
+      if (CSS.indexOf(side) < 0 && CSS.indexOf(side.toLowerCase()) < 0) {
+        err('D25: ' + side + ' (' + what + ') is not in the stylesheet — this pair is measuring a colour the tool does not use');
+      }
+    }
+    const r = ratio(a, b);
+    if (floor >= 4.5) worstText = Math.min(worstText, r);
+    if (r < floor) err('D25: ' + what + ' measures ' + r.toFixed(2) + ':1 against a floor of ' + floor + ':1');
+  }
+  /* and the two rules whose colour is the whole point are read back OFF
+     the stylesheet rather than trusted to the table above */
+  const declared = (rule, prop) => {
+    const m = CSS.match(new RegExp(rule.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + "\\{[^']*?" + prop + ':(#[0-9A-Fa-f]{6})'));
+    return m ? m[1] : null;
+  };
+  const goBg = declared('.drb-chip.drb-go', 'background-color');
+  if (!goBg) err('D25: the primary action chip declares no background colour');
+  else if (ratio('#FFFFFF', goBg) < 4.5) err('D25: the primary action chip is ' + goBg + ' — ' + ratio('#FFFFFF', goBg).toFixed(2) + ':1 against white');
+  const gateFg = declared('.drb-gate', 'color');
+  if (!gateFg) err('D25: the paid-plan explanation declares no colour');
+  else if (ratio(gateFg, CREAM) < 4.5) err('D25: the paid-plan explanation is ' + gateFg + ' — ' + ratio(gateFg, CREAM).toFixed(2) + ':1 on cream');
+  /* ⚠ POISON: the measurement must condemn a pair that is genuinely
+     illegible, or every number above is decoration. These are build #3's
+     own shipped values. */
+  if (ratio('#0E5147', '#146B5E') >= 3.0) err('D25 POISON: contrast cannot detect build #3\'s 1.44:1 bag');
+  if (ratio('#FFFFFF', '#F2784B') >= 4.5) err('D25 POISON: contrast cannot detect build #3\'s 2.78:1 action chip');
+
+  /* ---- colour separation, including for the ~8% who cannot use hue ---- */
+  const M = [[0.31399, 0.63951, 0.04649], [0.15537, 0.75789, 0.08670], [0.01775, 0.10945, 0.87252]];
+  const Mi = [[5.47221, -4.64196, 0.16963], [-1.12524, 2.29317, -0.16789], [0.02980, -0.19318, 1.16364]];
+  const mul = (m, v) => m.map((r) => r[0] * v[0] + r[1] * v[1] + r[2] * v[2]);
+  const SIM = {
+    normal: null,
+    protan: [[0, 1.05118294, -0.05116099], [0, 1, 0], [0, 0, 1]],
+    deutan: [[1, 0, 0], [0.9513092, 0, 0.04866992], [0, 0, 1]],
+    tritan: [[1, 0, 0], [0, 1, 0], [-0.86744736, 1.86727089, 0]]
+  };
+  /* ⚠ TAKES LINEAR RGB AND RETURNS LINEAR RGB. The first version applied
+     `lin` a SECOND time to values that were already linear, which crushed
+     every colour to near-black — so all fifteen pairs, AND THE POISON
+     ITSELF, reported dE00 0.0. A measurement that says everything is
+     identical is broken, not a discovery. */
+  const sim = (rgbLin, kind) => {
+    if (!SIM[kind]) return rgbLin;
+    const out = mul(Mi, mul(SIM[kind], mul(M, rgbLin)));
+    return out.map((c) => Math.max(0, Math.min(1, c)));
+  };
+  const toLab = (rgbLin) => {
+    const X = 0.4124 * rgbLin[0] + 0.3576 * rgbLin[1] + 0.1805 * rgbLin[2];
+    const Y = 0.2126 * rgbLin[0] + 0.7152 * rgbLin[1] + 0.0722 * rgbLin[2];
+    const Z = 0.0193 * rgbLin[0] + 0.1192 * rgbLin[1] + 0.9505 * rgbLin[2];
+    const f = (t) => t > 0.008856 ? Math.cbrt(t) : (7.787 * t + 16 / 116);
+    const fx = f(X / 0.95047), fy = f(Y), fz = f(Z / 1.08883);
+    return [116 * fy - 16, 500 * (fx - fy), 200 * (fy - fz)];
+  };
+  /* CIEDE2000 */
+  const de00 = (L1, L2) => {
+    const [l1, a1, b1] = L1, [l2, a2, b2] = L2;
+    const C1 = Math.hypot(a1, b1), C2 = Math.hypot(a2, b2), Cb = (C1 + C2) / 2;
+    const G = 0.5 * (1 - Math.sqrt(Math.pow(Cb, 7) / (Math.pow(Cb, 7) + Math.pow(25, 7))));
+    const ap1 = (1 + G) * a1, ap2 = (1 + G) * a2;
+    const Cp1 = Math.hypot(ap1, b1), Cp2 = Math.hypot(ap2, b2);
+    const hp = (a, b) => { if (a === 0 && b === 0) return 0; let h = Math.atan2(b, a) * 180 / Math.PI; return h < 0 ? h + 360 : h; };
+    const hp1 = hp(ap1, b1), hp2 = hp(ap2, b2);
+    const dL = l2 - l1, dC = Cp2 - Cp1;
+    let dh = 0;
+    if (Cp1 * Cp2 !== 0) { dh = hp2 - hp1; if (dh > 180) dh -= 360; else if (dh < -180) dh += 360; }
+    const dH = 2 * Math.sqrt(Cp1 * Cp2) * Math.sin(dh * Math.PI / 360);
+    const Lb = (l1 + l2) / 2, Cpb = (Cp1 + Cp2) / 2;
+    let Hb;
+    if (Cp1 * Cp2 === 0) Hb = hp1 + hp2;
+    else { Hb = (hp1 + hp2) / 2; if (Math.abs(hp1 - hp2) > 180) Hb += (hp1 + hp2 < 360) ? 180 : -180; }
+    const Tt = 1 - 0.17 * Math.cos((Hb - 30) * Math.PI / 180) + 0.24 * Math.cos(2 * Hb * Math.PI / 180)
+      + 0.32 * Math.cos((3 * Hb + 6) * Math.PI / 180) - 0.20 * Math.cos((4 * Hb - 63) * Math.PI / 180);
+    const Sl = 1 + (0.015 * Math.pow(Lb - 50, 2)) / Math.sqrt(20 + Math.pow(Lb - 50, 2));
+    const Sc = 1 + 0.045 * Cpb, Sh = 1 + 0.015 * Cpb * Tt;
+    const Rt = -2 * Math.sqrt(Math.pow(Cpb, 7) / (Math.pow(Cpb, 7) + Math.pow(25, 7)))
+      * Math.sin((60 * Math.exp(-Math.pow((Hb - 275) / 25, 2))) * Math.PI / 180);
+    return Math.sqrt(Math.pow(dL / Sl, 2) + Math.pow(dC / Sc, 2) + Math.pow(dH / Sh, 2) + Rt * (dC / Sc) * (dH / Sh));
+  };
+  /* ⚠ PROVE THE METRIC WORKS BEFORE READING ANYTHING OFF IT. */
+  const sepOf = (h1, h2, kind) => de00(toLab(sim(hex(h1).map(lin), kind)), toLab(sim(hex(h2).map(lin), kind)));
+  if (sepOf('#000000', '#FFFFFF', 'normal') < 90) err('D25 POISON: the colour metric cannot tell black from white');
+  if (sepOf('#146B5E', '#146B5E', 'normal') > 0.001) err('D25 POISON: the metric reports a difference between a colour and itself');
+  const sep = (h1, h2) => {
+    let worst = Infinity;
+    for (const kind of ['normal', 'protan', 'deutan', 'tritan']) {
+      const A = toLab(sim(hex(h1).map(lin), kind)), B = toLab(sim(hex(h2).map(lin), kind));
+      worst = Math.min(worst, de00(A, B));
+    }
+    return worst;
+  };
+
+  /* read the six piece fills OFF THE STYLESHEET, so a palette edit that
+     forgets this gate is impossible */
+  const fills = {};
+  for (const k of O_KINDS) {
+    const m = CSS.match(new RegExp('\\.drb-k-' + k + '\\{fill:(#[0-9A-Fa-f]{6});'));
+    if (!m) { err('D25: no fill declared for kind "' + k + '"'); continue; }
+    fills[k] = m[1];
+  }
+  const got = Object.keys(fills);
+  if (got.length !== 6) { err('D25: only ' + got.length + ' of 6 piece fills were found — refusing to report a separation floor'); return; }
+  const FLOOR = 8.0;   /* above the platform's own measured rejection of 6.7 */
+  let worst = Infinity, worstPair = '';
+  for (let i = 0; i < got.length; i++) {
+    for (let j = i + 1; j < got.length; j++) {
+      const d = sep(fills[got[i]], fills[got[j]]);
+      if (d < worst) { worst = d; worstPair = got[i] + '/' + got[j]; }
+      if (d < FLOOR) err('D25: pieces ' + got[i] + ' and ' + got[j] + ' separate by only dE00 ' + d.toFixed(1) + ' for someone who cannot use hue');
+    }
+  }
+  /* ⚠ POISON: build #3's own purple diamond and slate star. If the
+     measurement cannot condemn THOSE, it is measuring nothing. */
+  const oldPair = sep('#7B4B7E', '#4A6480');
+  if (oldPair >= FLOOR) err('D25 POISON: the colour measurement cannot detect build #3\'s dE00 ' + oldPair.toFixed(1) + ' pair');
+
+  /* every piece must also carry a rim, because two of the fills sit
+     under 3:1 on cream and it is the EDGE that carries the silhouette
+     (the sorting-hoops.js:1494 ruling) */
+  for (const k of O_KINDS) {
+    if (!new RegExp('\\.drb-k-' + k + '\\{fill:#[0-9A-Fa-f]{6};stroke:#[0-9A-Fa-f]{6};').test(CSS)) {
+      err('D25: kind "' + k + '" has no rim colour');
+    }
+  }
+  if (!/vector-effect:non-scaling-stroke/.test(CSS)) err('D25: the rim is not non-scaling — it will draw 4px at the widest tier');
+
+  console.log('D25 the material is legible: ' + PAIRS.length + ' contrast pairs at their WCAG floors (worst text ' + worstText.toFixed(2)
+    + ':1), and the six pieces separate by at least dE00 ' + worst.toFixed(1) + ' (' + worstPair + ') for every vision type — poison-tested against build #3 (' + oldPair.toFixed(1) + ')');
 })();
 
 /* ===================================================================== */

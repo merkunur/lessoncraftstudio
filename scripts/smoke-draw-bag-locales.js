@@ -53,15 +53,19 @@ vm.runInContext(fs.readFileSync(path.join(MINI, 'draw-bag.js'), 'utf8') + '\n;th
 const T = sandbox.__T;
 
 /* rendered as visible text at some point in the session */
-const VISIBLE = ['title', 'instruction', 'hintGuess', 'hintDraw', 'hintAgain', 'hintOpen', 'fillBtn',
-  'sealBtn', 'againBtn', 'openBtn', 'anotherBtn', 'printBtn', 'gateLine', 'unlock'];
+const VISIBLE = ['title', 'doctrine', 'hintGuess', 'hintCarry', 'hintClaimFirst', 'hintDraw', 'hintAgain',
+  'hintOpen', 'hintLook', 'fillBtn', 'sealBtn', 'cancelBtn', 'againBtn', 'openBtn', 'anotherBtn',
+  'printBtn', 'gateLine', 'unlock'];
 /* rendered only into an aria-label — invisible, and just as load-bearing */
-const ARIA = ['lenLabel', 'skinLabel', 'skinShapes', 'drawAria', 'guessLabel', 'inLabel', 'outLabel',
-  'poolLabel', 'recordAria', 'cellAria', 'openedLabel', 'moreAria', 'lessAria',
+const ARIA = ['lenLabel', 'skinLabel', 'skinShapes', 'drawAria', 'tagAria', 'litAria', 'guessLabel',
+  'inLabel', 'outLabel', 'poolLabel', 'recordAria', 'cellAria', 'openedLabel', 'moreAria', 'lessAria',
   'pieceRound', 'pieceSquare', 'pieceTriangle', 'pieceDiamond', 'pieceHexagon', 'pieceStar'];
-/* hintFill only shows on an empty bag, which the seeded book prevents —
-   it is exercised by the builder path instead */
-const ALSO = ['hintFill'];
+/* ⚠ `instruction` is rendered by the SHELL and then hidden by
+   `.lcs-app.embed .lcs-instruction{display:none}` on every iframed load, so
+   it never appears in the page text — it survives only in the
+   role="application" accessible name. `hintFill` shows only on an empty bag,
+   which the seeded book prevents; the builder path exercises it. */
+const ALSO = ['hintFill', 'instruction'];
 const ALL = VISIBLE.concat(ARIA, ALSO);
 
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -141,24 +145,57 @@ const drawAll = async (page) => {
         for (const k of ALL) if (!seen[k] && patternFor(k, loc).test(txt)) seen[k] = true;
       };
       await mark();
-      /* the builder — foot index 0 is "fill", and it is reached by INDEX */
-      await clickIdx(p1, '.drb-foot .drb-chip', 0);
-      await mark();
-      await clickIdx(p1, '.drb-fillcol .drb-step', 0);
-      await mark();
-      await clickIdx(p1, '.drb-foot .drb-chip', 0);            /* seal */
-      await wait(120);
-      await mark();
+
+      /* ⚠ THE FOOT IS TWO GROUPS NOW, and the setup group LEAVES THE SCREEN
+         between the first draw and the reveal (that is invention 1 — the
+         bag must be visibly unswappable while the two runs are compared).
+         So indices are only valid in a named state:
+             at rest / after the reveal : 0 open  1 again  2 fill  3 another  4 print
+             inside the builder         : 0 close 1 leave
+         and `.drb-sep` is a div, so it does not shift the chip indices. */
+
+      /* the lift, the drop, and the first draw */
+      await p1.evaluate(() => { const e = document.querySelector('.drb-gpiece'); if (e) e.click(); });
+      await wait(70);
+      await mark();                                            /* hintCarry */
+      await p1.evaluate(() => { const z = document.querySelector('.drb-shelf[data-zone="1"]'); if (z) z.click(); });
+      await wait(70);
+      await mark();                                            /* hintGuess */
       await clickIdx(p1, '.drb-bag', 0);
-      await mark();
+      await mark();                                            /* hintDraw */
       await drawAll(p1);
-      await mark();
+      await mark();                                            /* hintAgain */
       await clickIdx(p1, '.drb-foot .drb-chip', 1);            /* run it again */
       await wait(150);
-      await mark();
       await drawAll(p1);
+      await mark();                                            /* hintOpen */
+      await clickIdx(p1, '.drb-foot .drb-chip', 0);            /* open the bag */
+      await wait(150);
+      await mark();                                            /* hintLook, openedLabel */
+
+      /* the committed prior doubles as the highlight control */
+      await p1.evaluate(() => { const e = document.querySelector('.drb-gpiece'); if (e) e.click(); });
+      await wait(70);
+      await mark();                                            /* litAria */
+
+      /* stepping the library announces the bag's tag */
+      await clickIdx(p1, '.drb-foot .drb-chip', 3);            /* another bag */
+      await wait(120);
+      await mark();                                            /* tagAria */
+
+      /* the builder, last: it is the only path to hintFill / sealBtn / cancelBtn */
+      await clickIdx(p1, '.drb-foot .drb-chip', 2);            /* fill the bag */
+      await wait(120);
       await mark();
-      await clickIdx(p1, '.drb-foot .drb-chip', 2);            /* open the bag */
+      await clickIdx(p1, '.drb-fillcol .drb-step', 0);         /* one more piece */
+      await mark();
+      await clickIdx(p1, '.drb-foot .drb-chip', 1);            /* leave it as it was */
+      await wait(120);
+      await mark();
+      await clickIdx(p1, '.drb-foot .drb-chip', 2);            /* fill again */
+      await wait(120);
+      await clickIdx(p1, '.drb-fillcol .drb-step', 0);
+      await clickIdx(p1, '.drb-foot .drb-chip', 0);            /* close the bag */
       await wait(150);
       await mark();
       errs = errs.concat(p1._errs);

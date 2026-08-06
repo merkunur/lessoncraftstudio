@@ -54,6 +54,28 @@ const PORT = 5540;
 
 /* every tool that offers a Print chip must appear here */
 const TOOLS = [
+  /* ⭐ THE SHEET CARRIES THE CLAIM, WHICH IS THE WHOLE POINT OF PRINTING IT.
+     Build #3 hid `.drb-guess` and kept `.drb-opened`, so the page a class took
+     home carried the ANSWER and not the prediction they made — backwards: the
+     claim is the only part of that sheet that was theirs. The apparatus
+     selector is therefore the CLAIM, not the record, because the record
+     surviving was never the thing at risk. */
+  {
+    key: 'draw-bag', p: 'drb', apparatus: '.drb-guess', chrome: '.drb-foot',
+    prime: function () {
+      var T = window.DrawBag;
+      T.premium = true; T.premiumKnown = true;
+      T.st = T.placeGuess(T.st, 'c', T.ZONE_IN);
+      T.st = T.placeGuess(T.st, 's', T.ZONE_OUT);
+      var g = 0;
+      while (T.canDraw(T.st) && g++ < 200) T.st = T.draw(T.st);
+      T.st = T.secondRun(T.st) || T.st;
+      g = 0;
+      while (T.canDraw(T.st) && g++ < 200) T.st = T.draw(T.st);
+      T.st = T.openBag(T.st) || T.st;
+      T.render();
+    }
+  },
   /* ⚠ wodb is DOUBLE-LOCKED like lids: the sheet subtree is absent unless
      entitled AND every print rule is scoped `body.wdb-paid`, because
      Ctrl+P is guarded by no chip. A probe that does not force the tier

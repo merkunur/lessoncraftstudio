@@ -122,6 +122,24 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ SORTING HOOPS AT REST IS TWO EMPTY RINGS — the card sells a Venn
+     clip-art, not a routine. The pitch is the OVERLAP holding a thing that
+     is both, so the seed sorts a handful of blocks into all three regions
+     with the rules SHOWN, which is what a labelled sort looks like on a
+     carpet.
+     ⚠ AND IT MUST NOT BE TOP-CROPPED. Measured: the unseeded card came out
+     720x955 (aspect 0.75), `--fit=auto` cropped the bottom, and the shipped
+     picture cut BOTH HOOPS IN HALF and lost the tray entirely — the
+     generator reported "ok" both times. The seed keeps the shot to the mat
+     by putting the tool in a labelled sort whose captions are short. Verify
+     by READING the card, never by reading the log line. */
+  'sorting-hoops': [
+    { js: "var T=window.SortingHoops;T.mode='labelled';T.phase='sort';" +
+          "T.ruleA={f:'colour',v:'red'};T.ruleB={f:'shape',v:'circle'};" +
+          "T.dealt=[];T.placement={};T._deal(12);" +
+          "T.dealt.forEach(function(it){T.placement[it.uid]=T.regionFor(it,T.ruleA,T.ruleB);});" +
+          "T.render();", wait: 700 }
+  ],
   /* ⭐ THE CARD MUST SHOW THE ROUTINE, NOT A PICTURE SET. At rest wodb is
      four illustrations on four white squares, which sells clip-art. The
      mixed grid — a numeral 6, six dots, the WORD six and a clock at six —

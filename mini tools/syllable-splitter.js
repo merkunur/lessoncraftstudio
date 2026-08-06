@@ -1172,15 +1172,27 @@ var SyllableSplitter = {
       if (this.api.settings.voice) this._after(260, function () { self.speakWord(); });
     }
 
-    var mix = api.el('button', 'ss-again');
-    mix.type = 'button';
-    mix.textContent = api.t('scramble');
-    mix.addEventListener('click', function () {
-      self._scrambleSalt = (self._scrambleSalt || 0) + 7;
-      self.built = []; self.order = [];
-      self.render();
-    });
-    box.appendChild(mix);
+    /* ⚠ ONLY WHEN IT CAN ACTUALLY CHANGE SOMETHING. MEASURED: the
+       deterministic scramble plus its identity guard yields exactly ONE
+       reachable order for a two-piece word (5 for three pieces, 8 for
+       four) — so on every two-syllable word, which is the entire free
+       shelf, "Mix them up" did nothing at all. It still has a consequence
+       once pieces are placed, because it clears them. A control whose only
+       possible effect is nothing is furniture, and the shared liveness
+       gate is what named it: it scored DEAD across all three entitlement
+       states while every other gate stayed green. */
+    var canMix = cards.length > 2 || self.built.some(function (x) { return x !== null; });
+    if (canMix) {
+      var mix = api.el('button', 'ss-again');
+      mix.type = 'button';
+      mix.textContent = api.t('scramble');
+      mix.addEventListener('click', function () {
+        self._scrambleSalt = (self._scrambleSalt || 0) + 7;
+        self.built = []; self.order = [];
+        self.render();
+      });
+      box.appendChild(mix);
+    }
 
     /* the divergence caveat MUST reach this face: build is the one place
        where both conventions are visible at once (French `pomme` shows two
@@ -1419,7 +1431,13 @@ var SyllableSplitter = {
       body.appendChild(self._shelfBlock(shelf, self._shelfUnlocked(shelf)));
     });
 
-    if (this._notice === 'gate' || !this.premium) body.appendChild(this._gateLine());
+    /* ⚠ ON DEMAND, NOT ALWAYS. This used to render for every non-premium
+       visitor the moment the sets list opened — so tapping a locked set
+       changed NOTHING, and the shared liveness gate scored all three
+       locked rows DEAD in every entitlement state. Showing it only when a
+       teacher reaches for a locked set makes those rows consequential and
+       stops the desk opening with a price on it. */
+    if (this._notice === 'gate') body.appendChild(this._gateLine());
   },
 
   _shelfBlock: function (shelf, open) {
@@ -1950,7 +1968,21 @@ function injectSyllableSplitterCSS() {
     + '.ss-namecard{font:700 clamp(34px,10vw,58px)/1.1 "Baloo 2",Nunito,system-ui,sans-serif;'
     + 'color:#3A3226;text-align:center;padding:6px 4px;overflow-wrap:anywhere}'
     + '.ss-speak{position:absolute;top:12px;right:12px;width:44px;height:44px;flex:0 0 auto;border-radius:50%;'
-    + 'border:2px solid #146B5E22;background:#FFF9EE;color:#146B5E;cursor:pointer;display:flex;align-items:center;justify-content:center}'
+    + 'border:2px solid #146B5E22;background:#FFF9EE;color:#146B5E;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:2}'
+    /* ⚠ THE SPEAKER IS OUT OF FLOW, SO EVERYTHING UNDER IT HAS TO RESERVE
+       ITS ROOM. In the landscape card the build column sits at the card's
+       right edge and its hint ran straight under the speaker — "Put the
+       parts back in o⏵" clipped mid-word. Nothing caught it: every
+       assertion in the suite measured ONE box against a floor, and not one
+       asked whether two rendered things OVERLAP. (Now one does.) */
+    + '.ss-build .ss-hint,.ss-clap .ss-hint{padding-right:52px}'
+    /* ⚠ AND IN LANDSCAPE, PADDING IS NOT ENOUGH. Once the card turns into a
+       row the right-hand column reaches the card's right edge, so the
+       speaker overlapped the BOX of both the build hint and the word row
+       whatever the text inset. The out-of-flow control has to move to a
+       corner nothing else occupies: bottom-left, under the picture, which
+       is also where "hear this word" belongs. Found by the new collision
+       assertion, which caught the word-row overlap I had not even seen. */
 
     + '.ss-clap{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%}'
 
@@ -2152,6 +2184,8 @@ function injectSyllableSplitterCSS() {
        either way — measured, not guessed.) */
     + '@media (min-width:1024px){'
     +   '.ss-card{flex-direction:row;align-items:center;gap:26px;padding:22px 30px}'
+    +   '.ss-speak{top:auto;bottom:16px;right:auto;left:20px}'
+    +   '.ss-build .ss-hint,.ss-clap .ss-hint{padding-right:0}'
     /* ⚠ the clap column stays CONTENT-SIZED. A min-width here (I tried
        46vw) pushes the picture and the word apart by half a metre on a
        projected board — and they are the same object to a child. */

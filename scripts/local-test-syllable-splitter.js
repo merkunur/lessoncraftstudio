@@ -152,6 +152,31 @@ const VIEWPORTS = [{ w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 }, {
     });
     ok(`${v.w}px every control is reachable`, reach.lowest <= reach.reach + 2,
       `lowest ${reach.lowest} > reachable ${reach.reach}`);
+
+    /* ⭐ DO TWO RENDERED THINGS OVERLAP? Every other assertion in this file
+       measures ONE box against a floor — no overflow, tall enough, big
+       enough, reachable — and the whole set stayed green while the build
+       face shipped its hint clipped mid-word under the absolutely
+       positioned speaker button. A floor cannot see a collision. This
+       checks the out-of-flow controls against the text they sit over,
+       which is where the class of defect lives. */
+    const collide = await p.evaluate(() => {
+      const over = [...document.querySelectorAll('.ss-speak')];
+      const text = [...document.querySelectorAll('.ss-hint, .ss-cue, .ss-wordrow, .ss-namecard, .ss-oralnote')];
+      const hits = [];
+      for (const a of over) {
+        const ra = a.getBoundingClientRect();
+        if (!ra.width) continue;
+        for (const b of text) {
+          const rb = b.getBoundingClientRect();
+          if (!rb.width) continue;
+          if (ra.left < rb.right && ra.right > rb.left && ra.top < rb.bottom && ra.bottom > rb.top)
+            hits.push(a.className + ' over ' + b.className);
+        }
+      }
+      return hits;
+    });
+    ok(`${v.w}px no control sits on top of text`, collide.length === 0, collide.slice(0, 2).join(' | '));
     ok(`${v.w}px no console errors`, p._errs.length === 0, p._errs[0]);
     if ([360, 768, 1024].includes(v.w)) await shoot(p, `sweep-${v.w}.png`);
     await p.close();
@@ -263,6 +288,24 @@ const VIEWPORTS = [{ w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 }, {
     }
     const filled = await p.$$eval('.ss-slot', e => e.map(x => x.textContent).join(''));
     ok('rebuild spells the word', filled === w.chunks.join(''), filled);
+
+    /* ⚠ the collision that actually shipped was HERE, in the landscape
+       build face, not on the clap face the sweep photographs — so the
+       check has to run in this mode too. */
+    for (const bw of [1024, 1440]) {
+      const q = await newPage({ w: bw, h: 900 });
+      await q.goto(BASE + '?lang=en', { waitUntil: 'domcontentloaded' }); await ready(q);
+      await q.evaluate(() => [...document.querySelectorAll('.ss-segbtn')][1].click());
+      await sleep(350);
+      const hit = await q.evaluate(() => {
+        const s = document.querySelector('.ss-speak'), h = document.querySelector('.ss-hint');
+        if (!s || !h) return 'missing';
+        const a = s.getBoundingClientRect(), b = h.getBoundingClientRect();
+        return (a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top) ? 'OVERLAP' : '';
+      });
+      ok(`build face at ${bw}px: the speaker does not sit on the hint`, hit === '', hit);
+      await q.close();
+    }
     await shoot(p, 'build.png');
     await p.close();
   }

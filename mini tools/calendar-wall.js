@@ -839,7 +839,6 @@
     stripTomorrow: {en:"Tomorrow will be {w}.",de:"Morgen ist {w}.",fr:"Demain, ce sera {w}.",it:"Domani sarà {w}.",es:"Mañana será {w}.",pt:"Amanhã será {w}.",nl:"Morgen wordt het {w}.",sv:"I morgon blir det {w}.",da:"I morgen bliver det {w}.",no:"I morgen blir det {w}.",fi:"Huomenna on {w}."},
     todayBtn: {en:"Today",de:"Heute",fr:"Aujourd’hui",it:"Oggi",es:"Hoy",pt:"Hoje",nl:"Vandaag",sv:"I dag",da:"I dag",no:"I dag",fi:"Tänään"},
     speakDateAria: {en:"Hear today’s date",de:"Das heutige Datum anhören",fr:"Écouter la date d’aujourd’hui",it:"Ascolta la data di oggi",es:"Escuchar la fecha de hoy",pt:"Ouvir a data de hoje",nl:"De datum van vandaag beluisteren",sv:"Lyssna på dagens datum",da:"Hør dagens dato",no:"Hør dagens dato",fi:"Kuuntele tämän päivän päivämäärä"},
-    flipAria: {en:"Turn over today’s card",de:"Die Karte von heute umdrehen",fr:"Retourner la carte d’aujourd’hui",it:"Gira il cartellino di oggi",es:"Voltear la tarjeta de hoy",pt:"Virar o cartão de hoje",nl:"De kaart van vandaag omdraaien",sv:"Vänd på dagens kort",da:"Vend dagens kort",no:"Snu dagens kort",fi:"Käännä tämän päivän kortti"},
     prevMonth: {en:"Previous month",de:"Voriger Monat",fr:"Mois précédent",it:"Mese precedente",es:"Mes anterior",pt:"Mês anterior",nl:"Vorige maand",sv:"Föregående månad",da:"Forrige måned",no:"Forrige måned",fi:"Edellinen kuukausi"},
     nextMonth: {en:"Next month",de:"Nächster Monat",fr:"Mois suivant",it:"Mese successivo",es:"Mes siguiente",pt:"Próximo mês",nl:"Volgende maand",sv:"Nästa månad",da:"Næste måned",no:"Neste måned",fi:"Seuraava kuukausi"},
     close: {en:"Close",de:"Schließen",fr:"Fermer",it:"Chiudi",es:"Cerrar",pt:"Fechar",nl:"Sluiten",sv:"Stäng",da:"Luk",no:"Lukk",fi:"Sulje"},
@@ -894,7 +893,6 @@
     setWeekAuto: {en:"Automatic",de:"Automatisch",fr:"Automatique",it:"Automatico",es:"Automático",pt:"Automático",nl:"Automatisch",sv:"Automatiskt",da:"Automatisk",no:"Automatisk",fi:"Automaattisesti"},
     setWeekMon: {en:"Monday",de:"Montag",fr:"Lundi",it:"Lunedì",es:"Lunes",pt:"Segunda",nl:"Maandag",sv:"Måndag",da:"Mandag",no:"Mandag",fi:"Maanantaista"},
     setWeekSun: {en:"Sunday",de:"Sonntag",fr:"Dimanche",it:"Domenica",es:"Domingo",pt:"Domingo",nl:"Zondag",sv:"Söndag",da:"Søndag",no:"Søndag",fi:"Sunnuntaista"},
-    loading: {en:"Opening the wall…",de:"Der Kalender wird geöffnet…",fr:"Ouverture du calendrier…",it:"Apertura del calendario…",es:"Abriendo el calendario…",pt:"Abrindo o mural…",nl:"De dagopening wordt geopend…",sv:"Öppnar kalendern…",da:"Åbner væggen…",no:"Åpner veggen…",fi:"Avataan seinää…"},
     kindOff: {en:"No school",de:"Schulfrei",fr:"Pas d’école",it:"Niente scuola",es:"Sin clases",pt:"Sem aula",nl:"Geen school",sv:"Ingen skola",da:"Ingen skole",no:"Ingen skole",fi:"Ei koulua"},
     kindTrip: {en:"Trip",de:"Ausflug",fr:"Sortie",it:"Gita",es:"Excursión",pt:"Passeio",nl:"Uitje",sv:"Utflykt",da:"Tur",no:"Tur",fi:"Retki"},
     kindBday: {en:"Birthday",de:"Geburtstag",fr:"Anniversaire",it:"Compleanno",es:"Cumpleaños",pt:"Aniversário",nl:"Verjaardag",sv:"Födelsedag",da:"Fødselsdag",no:"Bursdag",fi:"Syntymäpäivä"},
@@ -922,7 +920,6 @@
     stateNoSchool: {en:"No school",de:"Schulfrei",fr:"Pas d’école",it:"Niente scuola",es:"Sin clases",pt:"Sem aula",nl:"Geen school",sv:"Ingen skola",da:"Ingen skole",no:"Ingen skole",fi:"Ei koulua"},
     stateAhead: {en:"Still to come",de:"Kommt noch",fr:"À venir",it:"Deve ancora venire",es:"Todavía por venir",pt:"Ainda por vir",nl:"Komt nog",sv:"Kommer ännu",da:"Kommer endnu",no:"Kommer ennå",fi:"Vielä edessä"},
     patternNext: {en:"Which card comes tomorrow?",de:"Welche Karte kommt morgen?",fr:"Quelle carte vient demain ?",it:"Quale cartellino viene domani?",es:"¿Qué tarjeta viene mañana?",pt:"Qual cartão vem amanhã?",nl:"Welke kaart komt morgen?",sv:"Vilket kort kommer i morgon?",da:"Hvilket kort kommer i morgen?",no:"Hvilket kort kommer i morgen?",fi:"Mikä kortti tulee huomenna?"},
-    patternOff: {en:"No card",de:"Keine Karte",fr:"Aucune carte",it:"Nessun cartellino",es:"Sin tarjeta",pt:"Sem cartão",nl:"Geen kaart",sv:"Inget kort",da:"Intet kort",no:"Ingen kort",fi:"Ei korttia"},
     setMeets: {en:"We are in school on",de:"Wir haben Schule am",fr:"Nous avons école le",it:"Andiamo a scuola il",es:"Tenemos clases el",pt:"Temos aula às",nl:"We hebben school op",sv:"Vi har skola på",da:"Vi har skole om",no:"Vi har skole på",fi:"Meillä on koulua"},
     printMonth: {en:"Print this month",de:"Diesen Monat drucken",fr:"Imprimer ce mois",it:"Stampa questo mese",es:"Imprimir este mes",pt:"Imprimir este mês",nl:"Deze maand afdrukken",sv:"Skriv ut den här månaden",da:"Udskriv denne måned",no:"Skriv ut denne måneden",fi:"Tulosta tämä kuukausi"},
     printGate: {en:"The printable month is part of a subscription.",de:"Der druckbare Monat gehört zum Abo.",fr:"Le mois imprimable fait partie de l’abonnement.",it:"Il mese stampabile fa parte dell’abbonamento.",es:"El mes imprimible es parte de la suscripción.",pt:"O mês para imprimir faz parte da assinatura.",nl:"De afdrukbare maand hoort bij een abonnement.",sv:"Den utskrivbara månaden ingår i prenumerationen.",da:"Den udskrivbare måned er en del af abonnementet.",no:"Den utskrivbare måneden er en del av abonnementet.",fi:"Tulostettava kuukausi kuuluu tilaukseen."},
@@ -1455,10 +1452,44 @@
          the previous build's own stated objection at 2.3, which it made
          about a cell far squarer than the 2.7 this produced unclamped. */
       if (gridEl) {
-        var maxW = Math.round(7 * 1.55 * cap / rows);
-        gridEl.style.maxWidth = maxW + 'px';
         var mat = gridEl.closest ? gridEl.closest('.cwl-mat') : null;
+        /* ⚠ THE FLOOR IS A FINGER, NOT A PREFERENCE. Below MIN_ROW the
+           board stops shrinking and the mat scrolls instead, because a
+           cell too small to hit is worse than a board you have to move. */
+        var MIN_ROW = 38;
+        if (mat) { mat.style.overflowY = ''; mat.style.maxHeight = ''; }
+        if (cap / rows < MIN_ROW) {
+          var needed = Math.round(rows * MIN_ROW + (rows - 1) * 4);
+          gridEl.style.maxHeight = '';
+          gridEl.style.height = needed + 'px';
+          if (mat) {
+            mat.style.maxHeight = cap + 'px';
+            mat.style.overflowY = 'auto';
+          }
+        } else {
+          gridEl.style.height = '';
+        }
+        var maxW = Math.round(7 * 1.55 * Math.max(cap, rows * MIN_ROW) / rows);
+        gridEl.style.maxWidth = maxW + 'px';
         if (mat) mat.style.maxWidth = (maxW + 32) + 'px';
+
+        /* ⭐ AND MEASURE AFTER THE LAST THING YOU DID. The scroller and
+           the width cap both change the height of what sits above the
+           dock, so the correction computed before them is stale by
+           exactly their effect — at 320x640 that was 58px of dock
+           hanging under a fold that cannot scroll. Shrink-only, bounded,
+           and it clamps the SCROLLER's own box, which is the one thing
+           that can still be too tall once the grid has stopped
+           shrinking. */
+        var host = mat || gridEl;
+        for (var pass = 0; pass < 3; pass++) {
+          var spill = this._dock.getBoundingClientRect().bottom - window.innerHeight;
+          if (spill <= 0) break;
+          var h = host.getBoundingClientRect().height;
+          var next = Math.max(120, Math.round(h - spill - 2));
+          host.style.maxHeight = next + 'px';
+          host.style.overflowY = 'auto';
+        }
       }
     },
 
@@ -1514,10 +1545,29 @@
         chip.addEventListener('click', function () {
           self._viewMonth = MODEL.monthOf(cd.key);
           self._widx = 0;
-          if (self.teacherOpen() && cd.sleeps > 0) self._countTogether(cd);
-          else { api.announce(chip.textContent); self._paint(); }
+          api.announce(chip.textContent);
+          self._paint();
         });
         this._readouts.appendChild(chip);
+
+        /* ⚠ THE COUNT-TOGETHER MOVE HAD NO CONTROL. It fired when the
+           chip was tapped inside the teacher window and nothing told
+           anyone that, so the richest thing in the feature — walking the
+           class along the intervening days, one number at a time — was
+           reachable only by accident. Its string was authored in eleven
+           locales for a button that was never drawn. */
+        if (this.teacherOpen() && cd.sleeps > 0) {
+          var ct = api.el('button', 'cwl-counttogether');
+          ct.type = 'button';
+          ct.setAttribute('data-fk', 'counttogether');
+          ct.textContent = api.t('cdCountTogether');
+          ct.addEventListener('click', function () {
+            self._viewMonth = MODEL.monthOf(cd.key);
+            self._widx = 0;
+            self._countTogether(cd);
+          });
+          this._readouts.appendChild(ct);
+        }
       }
 
       var n = MODEL.dayCount(wall);
@@ -2987,6 +3037,11 @@
        at y=907 in a 900px viewport and elementFromPoint returned
        nothing — the card is content-driven and taller than the
        window, so its bottom is not the screen's bottom. */
+    + '.cwl-counttogether{display:inline-flex;align-items:center;min-height:44px;'
+    +   'padding:9px 16px;border-radius:var(--lcs-radius-pill);cursor:pointer;'
+    +   'font-family:var(--lcs-font-body);font-weight:800;font-size:13.5px;'
+    +   'color:var(--lcs-surface);background-color:var(--lcs-structure);border:none;'
+    +   'box-shadow:var(--lcs-shadow-sm);}'
     + '.cwl-undochip{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);'
     +   'z-index:80;font-family:var(--lcs-font-body);font-weight:800;font-size:14px;'
     +   'color:var(--lcs-surface);background-color:var(--lcs-structure);border:none;'

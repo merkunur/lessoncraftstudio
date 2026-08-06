@@ -122,6 +122,25 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ SYLLABLE SPLITTER AT REST IS DELIBERATELY A PICTURE AND A DRUM AND
+     NOTHING ELSE. The rebuild hides the word until the class has clapped
+     it — that hiding IS the tool's central teaching ruling — but it also
+     means the unseeded card photographs a picture, a drum, and no sign of
+     what the tool is for. The one mark this tool exists to teach, the
+     syllable arc, would never appear on the hub.
+     So the seed claps the word and reveals it: two taps on the drum, then
+     the eye. The card then shows a word with its arcs drawn under it,
+     which is the whole idea in one frame.
+     ⚠ This entry became MANDATORY the moment the word was hidden (§21.5
+     point 7). Before the rebuild the tool showed its word at rest and
+     needed no seed; a change to the at-rest state silently invalidates
+     that, and the failure mode is a card that looks fine and sells
+     nothing. */
+  'syllable-splitter': [
+    { sel: '.ss-drum', times: 2, wait: 320 },
+    { sel: '.ss-ghostbtn', nth: 0, wait: 420 }
+  ],
+
   /* ⭐ HEART WORDS AT REST IS AN UNTOUCHED WORD — which shows grapheme
      boxes and nothing else, i.e. it sells Sound Boxes, the sibling tool.
      THE HEART IS THE PRODUCT and it only exists after a tap, so the card
@@ -419,6 +438,17 @@ const VIEWPORT = {
      the zones go side by side and the bag sits beside the record, which is
      the landscape instrument it actually is. */
   'draw-bag': { width: 1040, height: 660 },
+  /* ⚠ MEASURED AT SIX WIDTHS, NOT GUESSED. The rebuild hides the word until
+     it is clapped, so this card must be SEEDED (see SEEDS) — and a seeded
+     clap card is a portrait column: 720x696 at the default, aspect 0.967,
+     which `--fit=auto` reported "ok" while cropping the drum clean off the
+     bottom. The drum is the one control the whole tool is about.
+     Past the tool's own 1024 breakpoint the card turns landscape (picture
+     beside the word and drum) and the shell's wide card tier widens the
+     app, giving 1240x683 — aspect 0.551, comfortably under the 0.85 line,
+     nothing cropped. Read the .webp after any change here; the log says ok
+     either way. */
+  'syllable-splitter': { width: 1440, height: 900 },
 };
 
 async function runSeed(page, key) {

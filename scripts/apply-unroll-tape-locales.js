@@ -29,7 +29,12 @@ const ORDER = [
   'title', 'instruction', 'benchLabel',
   'hintGuess', 'hintUnroll', 'hintLanded',
   'unrollBtn', 'rollBackBtn', 'nextShapeBtn', 'printBtn',
-  'sizeAria', 'strandAria', 'flagAria',
+  'sizeAria', 'strandAria', 'flagAria', 'runwayAria',
+  'shelfLabel', 'lockedSuffix', 'recordLabel', 'acrossUnit',
+  'sizeSmall', 'sizeMedium', 'sizeBig',
+  'shapeCircle', 'shapePebble', 'shapeEye', 'shapeEgg', 'shapeCrescent',
+  'shapeTrack', 'shapePillow', 'shapeCushion', 'shapeReuleaux',
+  'shapeFlower', 'shapePeanut', 'shapeBurst',
   'gateTitle', 'gateBody', 'gateCta'
 ];
 
@@ -57,6 +62,10 @@ const fail = (m) => { console.error('  REFUSED: ' + m); bad++; };
 }());
 
 /* ---- validate the SoT before touching the tool --------------------- */
+/* the ONE auditable exemption list, shared by every gate that carries
+   this ban — see scripts/_unroll-tape-cognates.js */
+const COGNATE_OK = require('./_unroll-tape-cognates.js');
+
 for (const loc of LOCALES) {
   const L = SoT[loc];
   if (!L) { fail(`locale ${loc} is missing entirely`); continue; }
@@ -67,7 +76,9 @@ for (const loc of LOCALES) {
     if (/\d/.test(v)) fail(`${loc}.${k} contains a digit — "${v}"`);
     if (/!/.test(v)) fail(`${loc}.${k} contains an exclamation mark`);
     if (/[​­﻿]/.test(v)) fail(`${loc}.${k} contains an invisible character`);
-    if (loc !== 'en' && v === SoT.en[k]) fail(`${loc}.${k} is identical to English — an untranslated leak`);
+    if (loc !== 'en' && v === SoT.en[k] && COGNATE_OK[loc + '.' + k] === undefined) {
+      fail(`${loc}.${k} is identical to English — an untranslated leak`);
+    }
   }
   const extra = Object.keys(L).filter((k) => ORDER.indexOf(k) < 0);
   if (extra.length) fail(`${loc} has keys not in ORDER: ${extra.join(', ')}`);

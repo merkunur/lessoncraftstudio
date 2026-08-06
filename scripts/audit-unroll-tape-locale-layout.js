@@ -8,7 +8,7 @@
    agglutination is two or three times an English button, and the row it
    sits in is the same width in every language.
 
-   66 renders. Measured, not eyeballed:
+   99 renders. Measured, not eyeballed:
      · no horizontal overflow at any width in any language
      · the bench is contained by THE CARD (not by its own inner box —
        an overflow-x on the inner box absorbs the evidence)
@@ -76,6 +76,10 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
           if (cr.right > window.innerWidth + 0.5 || cr.left < -0.5) offscreen++;
         }
         return {
+        chipCount: chips.length,
+        gripCount: document.querySelectorAll('.urt-handle').length,
+        shapeChips: document.querySelectorAll('.urt-chip-shape').length,
+        benchW: Math.round((document.querySelector('.urt-bench') || { getBoundingClientRect: () => ({ width: 0 }) }).getBoundingClientRect().width),
           overflowX: doc.scrollWidth > doc.clientWidth,
           benchOver: Math.round((r(bench).width - cardR.width) * 100) / 100,
           chipOver: Math.round(over * 100) / 100,
@@ -87,6 +91,17 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       });
 
       const at = `${loc}@${W}`;
+      /* ⚠⚠ NON-VACUITY FIRST, AND THIS FILE WAS THE WORST OFFENDER.
+         Every aggregate below is seeded so that an EMPTY `.urt-chip`
+         NodeList passes all of them: `over` starts at -Infinity, `minH` at
+         Infinity, `offscreen` at 0, and `Math.max.apply(null, [])` is
+         -Infinity. There was no chips.length assertion anywhere in the
+         file, so a renamed class would have reported "PASS — 594 checks
+         across 99 renders" having measured nothing at all. */
+      is(m.chipCount >= 3, `${loc} ${W}px: the foot rendered its chips (${m.chipCount})`);
+      is(m.shapeChips >= 5, `${loc} ${W}px: the shape shelf rendered (${m.shapeChips} chips)`);
+      is(m.gripCount >= 2, `${loc} ${W}px: the bench rendered its handles (${m.gripCount})`);
+      is(m.benchW >= 240, `${loc} ${W}px: the bench is laid out (${m.benchW}px)`);
       is(!m.overflowX, `${at}: horizontal overflow`);
       /* ⚠ measured against THE CARD, never the inner box */
       is(m.benchOver <= 0.5, `${at}: the bench overhangs the card by ${m.benchOver}px`);

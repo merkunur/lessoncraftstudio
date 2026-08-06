@@ -145,20 +145,42 @@ sec('V1  the model is total, pure and immutable');
   }
   is(ok, 'every hostile input yields a usable state' + (ok ? '' : ' — ' + why));
 
-  const before = { shape: 0, A: 150, t: 0.3, flag: 2, committed: false };
+  const before = { shape: 0, A: 150, t: 0.3, flags: [2], committed: false };
   const snap = JSON.stringify(before);
-  T.setSize(before, outlines.circle, 160);
+  T.setSizeStep(before, outlines.circle, 0);
   T.setPeel(before, 0.6);
-  T.setFlag(before, outlines.circle, 3);
+  T.addFlag(before, outlines.circle, 3);
+  T.moveFlag(before, outlines.circle, 0, 3);
   T.nextShape(before, SHAPES);
   is(JSON.stringify(before) === snap, 'no reducer mutates its input');
 
-  is(T.setSize({ shape: 0, A: 150, t: 0, flag: null, committed: false }, outlines.circle, 150) === null,
-    'a no-op size change reports null, not a fake success');
-  is(T.setSize({ shape: 0, A: 150, t: 0, flag: null, committed: false }, outlines.circle, 1e6) === null,
-    'a size past the ceiling is refused');
-  is(T.setSize({ shape: 0, A: 150, t: 0, flag: null, committed: false }, outlines.circle, 5) === null,
-    'a size below the floor is refused');
+  is(T.setSizeStep({ shape: 0, A: 150, t: 0, flags: [], committed: false }, outlines.circle, -1) === null,
+    'a size step below the ladder is refused');
+  is(T.setSizeStep({ shape: 0, A: 150, t: 0, flags: [], committed: false }, outlines.circle, 99) === null,
+    'a size step above the ladder is refused');
+  {
+    const o = outlines.circle;
+    const top = T.sizeStep(o, T.SIZE_STEPS.length - 1);
+    is(T.setSizeStep({ shape: 0, A: top, t: 0, flags: [], committed: false }, o, T.SIZE_STEPS.length - 1) === null,
+      'selecting the size already showing is a no-op, not a new state');
+    let rising = true;
+    for (let k = 1; k < T.SIZE_STEPS.length; k++) if (T.sizeStep(o, k) <= T.sizeStep(o, k - 1)) rising = false;
+    is(rising, `the three rungs strictly increase (${T.SIZE_STEPS.map((_, k) => T.sizeStep(o, k)).join(' < ')})`);
+    /* ⚠ ON EVERY SHAPE, NOT JUST THE CIRCLE. The circle's smallest rung is
+       118 and the floor is 70, so the clamp is invisible there and a
+       mutation removing it survived. The burst's smallest rung is 65 —
+       the floor only BINDS on the shapes the runway squeezes hardest. */
+    let floorHolds = true, floorWorst = null;
+    for (const sh of SHAPES) {
+      const oo = outlines[sh.k];
+      for (let k = 0; k < T.SIZE_STEPS.length; k++) {
+        if (T.sizeStep(oo, k) < T.A_MIN) { floorHolds = false; floorWorst = sh.k + '@' + k; }
+      }
+    }
+    is(floorHolds, floorHolds
+      ? `no rung on any of the ${SHAPES.length} shapes falls below the legibility floor of ${T.A_MIN}`
+      : `a rung falls below the floor: ${floorWorst}`);
+  }
 }
 
 /* ===================================================================
@@ -330,7 +352,7 @@ sec('V8  the length scales linearly');
   const o = outlines.circle;
   let worst = 0;
   for (const A of [70, 97, 128, 199, 230]) {
-    const L = T.strandLength(o, { shape: 1, A, t: 1, flag: null, committed: false }, A);
+    const L = T.strandLength(o, { shape: 1, A, t: 1, flags: [], committed: false }, A);
     const perAcross = L / A;
     worst = Math.max(worst, Math.abs(perAcross - o.R) / o.R);
   }
@@ -359,7 +381,7 @@ sec('V9  ⭐ the π readout — circle AND Reuleaux, three ways');
   const o = outlines.circle;
   let lo = Infinity, hi = -Infinity;
   for (let A = T.A_MIN; A <= T.aMax(o); A++) {
-    const st = { shape: 1, A, t: 1, flag: null, committed: false };
+    const st = { shape: 1, A, t: 1, flags: [], committed: false };
     const L = T.strandLength(o, st, A);
     const r = L / A;
     lo = Math.min(lo, r); hi = Math.max(hi, r);
@@ -381,7 +403,7 @@ sec('V10 ⭐ the strand is the SAME strand at every frame of the peel');
     let worst = 0;
     for (let i = 0; i <= 64; i++) {
       const t = i / 64;
-      const L = T.strandLength(o, { shape: 0, A, t, flag: null, committed: false }, A);
+      const L = T.strandLength(o, { shape: 0, A, t, flags: [], committed: false }, A);
       worst = Math.max(worst, Math.abs(L - Lm) / Lm);
     }
     is(worst < 1e-9, `${s.k}: total length is L at all 65 frames (worst ${worst.toExponential(2)})`);
@@ -498,15 +520,59 @@ sec('V15 the refusals');
      where the formatting happens, and poison-tested both ways. */
   {
     const lines = SRC.split('\n');
+    /* ⚠ AN AUDITABLE EXEMPTION LIST, NEVER A LOOSENED CHECK. The refusal
+       this guards is "never prints the total", so what matters is not that
+       `toFixed` appears once but that every appearance is either a COORDINATE
+       or the child's OWN GUESS. A flag's aria-valuetext in acrosses is the
+       guess read against a numbered ruler and is explicitly allowed; the
+       strand tip's is a PERCENT OF THE LAY and never acrosses, because in
+       acrosses that value at t=1 IS the total. */
+    const FIXED_OK = [
+      { re: /s\.push\(arr\[i\]\[0\]/, why: '_pts — the SVG coordinate serialiser' },
+      { re: /--urt-aspect/, why: 'the bench aspect, a layout ratio, never shown' },
+      { re: /paddingBottom/, why: 'the bench aspect box, a layout ratio' },
+      { re: /_pctY/, why: 'a percentage position for an HTML handle' },
+      { re: /aria-valuemax/, why: "the flag slider's range — the child's own guess space" },
+      { re: /aria-valuenow|aria-valuetext/, why: "the child's OWN guess, in acrosses, against a numbered ruler" },
+      /* added when the paid cut-out sheet landed: this is the viewBox HEIGHT
+         of a printed shape, i.e. a coordinate, and the gate correctly refused
+         to let it through unexplained rather than being widened for it */
+      { re: /viewBox:\s*"0 0 100 "/, why: "the cut-out sheet's viewBox height — a coordinate, printed at true size" }
+    ];
     const fixedLines = lines.filter((l) => /toFixed\s*\(/.test(l));
-    const allInPts = fixedLines.every((l) => /s\.push\(arr\[i\]\[0\]/.test(l));
-    is(fixedLines.length > 0 && allInPts,
-      `number formatting occurs only in _pts, the SVG coordinate serialiser (${fixedLines.length} line)`);
+    const unexplained = fixedLines.filter((l) => !FIXED_OK.some((e) => e.re.test(l)));
+    is(fixedLines.length > 0 && unexplained.length === 0,
+      unexplained.length === 0
+        ? `every one of the ${fixedLines.length} number-formatting sites is a coordinate, a layout ratio, or the child's own guess`
+        : `UNEXPLAINED number formatting: ${unexplained[0].trim().slice(0, 90)}`);
+    /* and the one that would be a real defect: the tip must never speak acrosses */
+    is(!/urt-tip[\s\S]{0,400}acrossUnit/.test(SRC),
+      "the strand tip's spoken value is never in acrosses — at t=1 that value IS the total");
     /* poison, both directions */
     is(/toFixed\s*\(/.test('x.toFixed(2)'), 'poison: the formatting probe fires on a real toFixed');
     is(!/s\.push\(arr\[i\]\[0\]/.test('hint.textContent = ratio.toFixed(2);'),
       'poison: and a readout written into text would NOT be excused');
   }
+  /* ⭐ THE STRAND IS NEVER A RULER. It carried a fixed dasharray before;
+     it now carries none at all, and a mutation adding one back survived
+     because the old assertion only checked that the value was constant. */
+  {
+    const strandCss = (SRC.match(/\.urt-strand[^\x27]*/g) || []).join(' ');
+    is(strandCss.length > 40, `the strand\u2019s own CSS is present (${strandCss.length} chars) \u2014 the ban below measures something`);
+    is(!/dasharray/.test(strandCss), '\u2b50 the strand carries NO dash \u2014 a tiled cord is a ruler, and #40 owns "how many units fit"');
+    is(/dasharray/.test('.urt-x{stroke-dasharray:4 4;}'), 'poison: the dash probe fires on a real dasharray');
+  }
+  /* the printable sheet is a paid promise; a build without it is a lie */
+  is(/@media print\{/.test(SRC), 'the print sheet block is emitted');
+  is(/body\.urt-paid[\s\S]{0,4000}@media print|@media print[\s\S]{0,200}urt-paid|urt-paid/.test(SRC),
+    'and the paid state is expressed in the DOM, so the sheet can be gated where Ctrl+P also reaches');
+  /* ⚠ AN OFFLINE FALLBACK MUST DEGRADE TO THE FREE TIER, NEVER TO NOTHING */
+  is(/\?\s*d\s*:\s*self\.FALLBACK_SHAPES/.test(SRC),
+    '\u2b50 a 404 on the shape book falls back to the FREE FIVE, never to an empty shelf');
+  /* the record is of LANDINGS, never of guesses (refusal 8) */
+  is(/addMark\(this\.marks,\s*sh\.k,\s*o\.R\)/.test(SRC),
+    '\u2b50 the record marks the LANDING (o.R), never a flag \u2014 a permanent mark at a guess is a verdict');
+  is(!/addMark\([^)]*flags\[/.test(SRC), 'and no code path feeds a flag into the record');
   const strs = SRC.match(/en:\s*"([^"]*)"/g) || [];
   is(!strs.some((s) => /\d/.test(s)), 'no authored string contains a digit');
 
@@ -555,35 +621,69 @@ sec('V16 ⭐ every authored string is REACHED at runtime');
 {
   const keys = Object.keys(T.strings);
   const asked = {};
+  /* ⚠ A SHIM THAT IS TOO THIN MAKES `render()` THROW, AND A THROW MAKES
+     EVERY STRING LOOK DEAD. The first version of this reported 22 dead
+     strings on a tool whose strings all render — the gate failing a
+     correct tool, which is how you learn to distrust the gate. It has to
+     carry classList, style.setProperty, childNodes and a rect, because
+     the build/paint split uses all four. */
+  const mkEl = (tag, cls) => {
+    const e = {
+      tagName: tag, className: cls || '', children: [], childNodes: [],
+      textContent: '', type: '', href: '', disabled: false,
+      style: { setProperty() {}, removeProperty() {} },
+      classList: {
+        _s: {}, add(c) { this._s[c] = 1; }, remove(c) { delete this._s[c]; },
+        contains(c) { return !!this._s[c]; },
+        toggle(c, v) { if (v) this.add(c); else this.remove(c); }
+      },
+      appendChild(c) { this.children.push(c); this.childNodes.push(c); return c; },
+      addEventListener() {}, removeEventListener() {},
+      setAttribute() {}, getAttribute() { return null; },
+      querySelector: () => null, querySelectorAll: () => [],
+      getBoundingClientRect: () => ({ width: 660, height: 200, left: 0, top: 0, right: 660, bottom: 200 })
+    };
+    e.classList.toggle = e.classList.toggle.bind(e.classList);
+    return e;
+  };
   const fakeApi = {
-    stage: { innerHTML: '', appendChild() {}, querySelector: () => null },
+    stage: mkEl('div'),
     t: (k) => { asked[k] = true; return String(k); },
-    el: (tag, cls) => {
-      const e = {
-        tagName: tag, className: cls || '', children: [], style: {}, textContent: '', type: '', href: '', disabled: false,
-        appendChild(c) { this.children.push(c); }, addEventListener() {}, setAttribute() {},
-        querySelector: () => null
-      };
-      return e;
-    }
+    el: (tag, cls) => mkEl(tag, cls),
+    announce() {}
   };
   /* drive the builders over a matrix of REAL states */
   const shelf = SHAPES.slice(0, T.FREE_SHAPES);
   T.api = fakeApi; T.data = BOOK; T._outlines = outlines; T._wrap = null;
   const states = [
-    { shape: 0, A: 150, t: 0, flag: null, committed: false },
-    { shape: 0, A: 150, t: 0, flag: 2, committed: false },
-    { shape: 1, A: 150, t: 0.5, flag: 2, committed: true },
-    { shape: 1, A: 150, t: 1, flag: 2, committed: true }
+    { shape: 0, A: 150, t: 0, flags: [], committed: false },
+    { shape: 0, A: 150, t: 0, flags: [2], committed: false },
+    { shape: 1, A: 150, t: 0.5, flags: [2], committed: true },
+    { shape: 1, A: 150, t: 1, flags: [2], committed: true }
   ];
   const origDoc = global.document;
   global.document = {
-    createElementNS: () => ({ setAttribute() {}, appendChild() {}, addEventListener() {}, textContent: '', getBoundingClientRect: () => ({ width: 100 }) }),
-    createElement: () => ({ setAttribute() {}, appendChild() {}, textContent: '' }),
-    head: { appendChild() {} }
+    createElementNS: () => mkEl('svg'),
+    createElement: () => mkEl('style'),
+    head: { appendChild() {} },
+    body: { classList: { add() {}, remove() {}, contains() { return false; } } }
   };
-  for (const st of states) { T.st = st; try { T.render(); } catch (_) {} }
-  T.premium = false; try { T._wrap = fakeApi.el('div'); T._showGate(); } catch (_) {}
+
+  let renderDied = null;
+  for (const st of states) {
+    T.st = st;
+    try { T.render(); } catch (e) { if (!renderDied) renderDied = e && e.message; }
+  }
+  is(!renderDied, renderDied
+    ? `render() threw while driving the string matrix: ${renderDied}`
+    : 'render() survives every state in the matrix');
+  T.premium = true; T._dirtyBuild = true;
+  try { T.st = T.pickShape(T.st, T.shelf(), 8) || T.st; T.render(); } catch (_) {}
+  T.marks = T.addMark([], 'circle', 3.1416);
+  try { T.render(); } catch (_) {}
+  T.premium = false; T._dirtyBuild = true;
+  try { T.render(); } catch (_) {}
+  try { T._wrap = fakeApi.el('div'); T._showGate(); } catch (_) {}
   global.document = origDoc;
 
   /* ⚠ AN AUDITABLE EXEMPTION LIST, NEVER A LOOSENED CHECK. These two are
@@ -629,16 +729,48 @@ sec('V17 the sampler, the stage, the state and the shelf');
   /* the stage: the shape stands ON the runway, never under it */
   for (const s of SHAPES) {
     const o = outlines[s.k], A = T.defaultA(o);
-    const op = T.outlinePoints(o, { shape: 0, A, t: 0, flag: null, committed: false }, A);
+    const op = T.outlinePoints(o, { shape: 0, A, t: 0, flags: [], committed: false }, A);
     let maxY = -Infinity, minY = Infinity;
     for (const p of op) { if (p[1] > maxY) maxY = p[1]; if (p[1] < minY) minY = p[1]; }
     is(maxY <= T.BASE + 1e-9, `${s.k}: the shape rests ON the runway, not below it`);
-    is(minY >= T.TOP - 1e-9, `${s.k}: and does not grow out of the top of the bench`);
+    /* ⚠ THE OLD ASSERTION WAS AGAINST A FIXED `TOP` CONSTANT, and that
+       constant is gone: the viewBox now crops to whatever is drawn, and its
+       y may be NEGATIVE. The invariant that actually matters is that the
+       box CONTAINS the shape with its stated headroom — which is a stronger
+       claim than clearing a constant, because it also fails if the crop is
+       computed from the wrong height. */
+    const vb = T.viewBox(o, A, false);
+    is(minY >= vb.top - 1e-9,
+      `${s.k}: the viewBox contains the whole shape (top ${minY.toFixed(1)} ≥ ${vb.top})`);
+    /* ⚠ ONE-SIDED, AND THAT IS THE POINT. The requirement is NO DEAD AIR:
+       the box must not leave more than the stated headroom above the
+       topmost drawn thing. Containment is the other side and is asserted
+       above. A two-sided |diff| <= 1 was the first version and it failed
+       four CORRECT shapes, because `viewBox` deliberately rounds to EVEN
+       units so the bench does not shimmer during a drag — I would have
+       been tuning a tolerance to fit a rounding rule instead of measuring
+       the property I actually care about. */
+    is(Math.min(minY, T.FLAG_TOP) - vb.top <= T.HEAD + 2,
+      `${s.k}: and crops to it — ${(Math.min(minY, T.FLAG_TOP) - vb.top).toFixed(1)} units of headroom, at most ${T.HEAD + 2}`);
+    /* ⚠ THE WORST CASE, WHICH IS THE ONE `aMax` BUDGETS FOR. Testing the
+       aspect with the record rail hidden let a mutation that DELETES the
+       height ceiling survive: without the rail the box was still under
+       the cap, and the gate never saw it. */
+    const vbFull = T.viewBox(o, A, true);
+    is(vbFull.h / T.W <= T.ASPECT_MAX + 1e-9,
+      `${s.k}: with the record rail showing the bench still never becomes a column (aspect ${(vbFull.h / T.W).toFixed(3)} ≤ ${T.ASPECT_MAX})`);
+    is(vb.h / T.W <= T.ASPECT_MAX + 1e-9,
+      `${s.k}: the bench never becomes a column (aspect ${(vb.h / T.W).toFixed(3)} ≤ ${T.ASPECT_MAX})`);
     /* the runway ceiling: the laid strand must fit */
     const amax = T.aMax(o);
-    const laid = T.strandLength(o, { shape: 0, A: amax, t: 1, flag: null, committed: false }, amax);
-    is(T.X0 + laid <= T.RIGHT + 1e-6,
-      `${s.k}: at its largest the laid strand still fits the runway (${(T.X0 + laid).toFixed(0)} ≤ ${T.RIGHT})`);
+    const laid = T.strandLength(o, { shape: 0, A: amax, t: 1, flags: [], committed: false }, amax);
+    const x0 = T.x0For(o, amax);
+    is(x0 + laid <= T.RIGHT + 1e-6,
+      `${s.k}: at its largest the laid strand still fits the runway (${(x0 + laid).toFixed(0)} ≤ ${T.RIGHT})`);
+    is(x0 - o.fLeft * amax >= -1e-6,
+      `${s.k}: and the plate's own left overhang stays on stage (${(x0 - o.fLeft * amax).toFixed(1)} ≥ 0)`);
+    is((T.RIGHT - x0) / amax - o.R >= 0.6,
+      `${s.k}: the runway outruns the landing by ${(((T.RIGHT - x0) / amax) - o.R).toFixed(2)} of a width — a guess can be too long as well as too short`);
   }
 
   /* ⭐ AT t=0 THE STRAND IS THE OUTLINE. Not "similar to" — the same
@@ -648,7 +780,7 @@ sec('V17 the sampler, the stage, the state and the shelf');
      each, on its own, looked fine). */
   for (const s of SHAPES) {
     const o = outlines[s.k], A = T.defaultA(o);
-    const st0 = { shape: 0, A, t: 0, flag: null, committed: false };
+    const st0 = { shape: 0, A, t: 0, flags: [], committed: false };
     const op = T.outlinePoints(o, st0, A), sp = T.strandPoints(o, st0, A);
     let worst = 0;
     for (let i = 0; i < op.length; i++) {
@@ -670,27 +802,42 @@ sec('V17 the sampler, the stage, the state and the shelf');
   }
 
   /* the state shape is closed — no reducer may grow a field */
-  const KEYS = ['shape', 'A', 't', 'flag', 'committed'].sort().join(',');
-  const base = { shape: 0, A: 150, t: 0, flag: null, committed: false };
+  const KEYS = ['shape', 'A', 't', 'flags', 'committed'].sort().join(',');
+  const base = { shape: 0, A: 150, t: 0, flags: [], committed: false };
   const outs = [
-    T.setSize(base, outlines.circle, 160),
+    T.setSizeStep(base, outlines.circle, 0),
     T.setPeel(base, 0.4),
-    T.setFlag(base, outlines.circle, 3),
+    T.addFlag(base, outlines.circle, 3),
     T.nextShape(base, SHAPES)
   ].filter(Boolean);
   is(outs.length === 4 && outs.every((s) => Object.keys(s).sort().join(',') === KEYS),
     'every reducer returns exactly the declared state shape — no field is ever grown');
 
   /* ⭐ the flag is gated in the MODEL, not by a disabled attribute */
-  is(T.setFlag({ shape: 0, A: 150, t: 0, flag: 2, committed: true }, outlines.circle, 4) === null,
+  is(T.addFlag({ shape: 0, A: 150, t: 0, flags: [2], committed: true }, outlines.circle, 1.5) === null,
     '⭐ the flag REFUSES to move once committed');
-  is(T.setFlag({ shape: 0, A: 150, t: 0.3, flag: 2, committed: false }, outlines.circle, 4) === null,
+  is(T.addFlag({ shape: 0, A: 150, t: 0.3, flags: [2], committed: false }, outlines.circle, 1.5) === null,
     '⭐ the flag REFUSES to move once the peel has started');
-  const committed = T.setPeel({ shape: 0, A: 150, t: 0, flag: 2, committed: false }, 0.2);
+  const committed = T.setPeel({ shape: 0, A: 150, t: 0, flags: [2], committed: false }, 0.2);
   is(committed && committed.committed === true, 'and the first movement off the wrap COMMITS the guess');
-  const noFlag = T.setPeel({ shape: 0, A: 150, t: 0, flag: null, committed: false }, 0.2);
-  is(noFlag && noFlag.committed === false, 'but peeling with no flag planted commits nothing');
+  const noFlag = T.setPeel({ shape: 0, A: 150, t: 0, flags: [], committed: false }, 0.2);
+  is(noFlag && noFlag.committed === true,
+    '⭐ and peeling with NO flag planted commits too — the hole that let a class see the answer and then plant a "guess"');
 
+  /* ⭐ EVERY MINIATURE IS THE SAME WIDTH. Not the same height, not the
+     same area — the width, because that silently restates the thesis
+     every time a mark is drawn. */
+  {
+    const widths = SHAPES.map((sh) => {
+      const pts = T.miniPoints(outlines[sh.k], 500, 300);
+      let lo = Infinity, hi = -Infinity;
+      for (const p of pts) { if (p[0] < lo) lo = p[0]; if (p[0] > hi) hi = p[0]; }
+      return hi - lo;
+    });
+    const spread = Math.max.apply(null, widths) - Math.min.apply(null, widths);
+    is(widths.length === SHAPES.length && spread < 1e-9,
+      `⭐ all ${widths.length} miniatures are exactly ${T.MINI_W} wide (spread ${spread.toExponential(1)})`);
+  }
   /* the shelf, and the offline fallback */
   T.premium = false;
   is(T.shelf().length === T.FREE_SHAPES, `entitlement filters the shelf to ${T.FREE_SHAPES} free shapes`);

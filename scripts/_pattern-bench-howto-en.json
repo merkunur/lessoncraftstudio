@@ -1,0 +1,22 @@
+{
+  "_note": "The EN source for the pattern-bench landing rewrite. The shipped howToUse documented gestures the v4 rebuild inverted ('Tap a bead in the strip to cover it' — tapping now EDITS; covering is an armed chip), and the shipped `about` claimed a test the tool could not perform. Handed to every native panel as a SOURCE TO AUDIT, not a target to translate.",
+  "howToUse": [
+    "Open it on the class screen. A two-bead unit and a strip already repeating it — nothing to set up.",
+    "Tap any bead, in the unit or anywhere along the strip, and every bead like it changes with it. That is the whole idea in one gesture: the beads are not linked to each other, they are all copies of one bead.",
+    "Slide the bracket along the strip and watch nothing happen. In ABABAB the repeating part can honestly be read as AB or as BA, and moving the bracket lets a class test each claim on the material instead of being told which is right.",
+    "Press Cover a bead, then tap one in the middle. A gap at the end can be solved by copying the last bead; a gap in the middle can only be solved from the unit.",
+    "Switch between colours, shapes and pictures while the class watches. Ask what changed and what did not.",
+    "Tap Clap it to hear the pattern one bead at a time, then clap it with your hands and ask whether that was the same pattern. It was.",
+    "When they are ready, hide the unit and leave only the strip. Now the question is what repeats, and that is the one worth their time."
+  ],
+  "aboutPara4": "There is no right answer button anywhere in this tool, and that is deliberate: in ABABAB the repeating part can honestly be read as AB or as BA. Slide the bracket from one reading to the other and the strip does not change by so much as a bead, which settles the argument the way a good manipulative should — the material answers, not the adult.",
+  "toolStrings": {
+    "hintTap": "Tap any bead. Every bead like it changes too.",
+    "hintSlide": "Move the bracket. The strip stays exactly the same.",
+    "coverBtn": "Cover a bead",
+    "slideLeft": "Move the bracket left",
+    "slideRight": "Move the bracket right",
+    "printKey": "Key",
+    "printCarryOn": "Carry it on"
+  }
+}

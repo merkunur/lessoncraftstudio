@@ -122,6 +122,23 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ PATTERN BENCH AT REST IS RED-BLUE-RED-BLUE — which is the exact
+     misconception the tool exists to break (a two-bead unit reads as mere
+     alternation, and a card that sells alternation sells a colour picker).
+     A THREE-bead unit shows a genuine unit of repeat, uses three of the
+     four inks so the value ladder is visible, and 10 beads gives three
+     whole repeats plus one so the strip visibly stops MID-UNIT.
+     The covered bead is the highest-signal mark on the card: a cloth in
+     the MIDDLE says "this is a thinking tool", and it is the one thing no
+     pattern worksheet in the catalogue can show. Index 5 is interior and
+     is the last bead of the second repeat, which is the interesting case
+     rather than a boundary.
+     ⚠ Letters stay OFF: a second thin row halves the bead size at card
+     scale and the notation is not the pitch. */
+  'pattern-bench': [
+    { js: "var T=window.PatternBench;T.st=T.setUnitLength(T.st,3);" +
+          "T.st=T.setLen(T.st,10);T.st=T.toggleCover(T.st,5);T.render();", wait: 700 }
+  ],
   /* ⭐ SORTING HOOPS AT REST IS TWO EMPTY RINGS — the card sells a Venn
      clip-art, not a routine. The pitch is the OVERLAP holding a thing that
      is both, so the seed sorts a handful of blocks into all three regions
@@ -326,6 +343,13 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* ⚠ MEASURED, NOT GUESSED. At the default 720 the seeded bench came out
+     720x651 — aspect 0.904, over the 0.85 line — so `--fit=auto` reported
+     "ok" and TOP-CROPPED the card: the title went and the hint line at the
+     bottom shipped sliced in half. Reading the .webp is what found it; the
+     log said ok both times. 940 wide keeps the same 10-bead strip on one
+     row and drops the aspect under the crop threshold. */
+  'pattern-bench': { width: 1400, height: 920 },
   /* a three-place base-ten board is 52 units wide and stacks below its
      container breakpoint, which turns a landscape instrument into a
      portrait strip with half the frame empty */

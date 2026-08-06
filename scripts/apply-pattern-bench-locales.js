@@ -1,89 +1,77 @@
 #!/usr/bin/env node
 /* =====================================================================
-   apply-pattern-bench-locales.js — merge the native ensembles' strings
-   into `mini tools/pattern-bench.js`.
+   apply-pattern-bench-locales.js — merge the native panels' strings into
+   `mini tools/pattern-bench.js`.
 
    Reads scripts/_pattern-bench-ensembles.json  ({locale: {key: value}}).
-   Rewrites the whole `strings:` block from the merged object, so the
-   result is generated rather than hand-edited eleven times.
+   Rewrites ONLY the keys present in that file, leaving every other string
+   byte-identical — so a panel that revised four strings does not silently
+   re-emit the other twenty-six.
 
    ⚠ Values are emitted with JSON.stringify (double quotes) on purpose:
-   the ensembles return typographic apostrophes and em dashes, and hand
+   the panels return typographic apostrophes and em dashes, and hand
    quoting those into single-quoted JS is exactly how a stray straight
    apostrophe gets in. The build gate checks the PARSED value.
 
-   Usage: node scripts/apply-pattern-bench-locales.js
+   ⚠ EVERY LOCALE OR NONE, PER KEY. A key rewritten for eight locales and
+   left shipped for three is worse than not touching it: the eight new
+   readings and the three old ones would then disagree about what the
+   tool does, which is precisely the defect this run exists to fix.
+
+   Usage: node scripts/apply-pattern-bench-locales.js [--dry-run]
    ===================================================================== */
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
 
 const ROOT = path.join(__dirname, '..');
 const SRC = path.join(ROOT, 'mini tools', 'pattern-bench.js');
 const IN = path.join(__dirname, '_pattern-bench-ensembles.json');
 const ORDER = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+const DRY = process.argv.indexOf('--dry-run') > -1;
 
-const src = fs.readFileSync(SRC, 'utf8');
+let src = fs.readFileSync(SRC, 'utf8');
 const add = JSON.parse(fs.readFileSync(IN, 'utf8'));
-
-/* read the existing strings object out of the tool itself */
-const sandbox = {
-  document: { getElementById: () => null, createElement: () => ({ style: {}, setAttribute() {}, appendChild() {} }),
-    createElementNS: () => ({ setAttribute() {}, appendChild() {} }), head: { appendChild() {} },
-    body: { classList: { add() {} } } },
-  window: {}, localStorage: { getItem: () => null, setItem() {} }, fetch: () => Promise.resolve({ ok: false }),
-  setTimeout: () => 0, clearTimeout() {}, Promise, Math, Date, JSON, console
-};
-vm.createContext(sandbox);
-vm.runInContext(src + '\n;this.__T = PatternBench;', sandbox);
-const cur = sandbox.__T.strings;
-const KEYS = Object.keys(cur);
 
 /* ---- checks BEFORE writing anything ---- */
 let bad = 0;
 const err = (m) => { bad++; console.error('  ERROR  ' + m); };
-ORDER.slice(1).forEach((loc) => {
+
+const keys = {};
+ORDER.forEach((loc) => {
   if (!add[loc]) { err(`${loc}: missing entirely`); return; }
-  const missing = KEYS.filter((k) => !add[loc][k]);
-  const extra = Object.keys(add[loc]).filter((k) => KEYS.indexOf(k) === -1);
-  if (missing.length) err(`${loc}: missing ${missing.join(', ')}`);
-  if (extra.length) err(`${loc}: unknown key(s) ${extra.join(', ')}`);
-  KEYS.forEach((k) => {
+  Object.keys(add[loc]).forEach((k) => { keys[k] = (keys[k] || 0) + 1; });
+});
+Object.keys(keys).forEach((k) => {
+  if (keys[k] !== ORDER.length) err(`key "${k}" is present for only ${keys[k]}/${ORDER.length} locales`);
+});
+ORDER.forEach((loc) => {
+  Object.keys(add[loc] || {}).forEach((k) => {
     const v = add[loc][k];
-    if (typeof v !== 'string' || !v.trim()) { err(`${loc}.${k} is empty`); return; }
-    if (/'/.test(v)) err(`${loc}.${k} has a straight apostrophe: ${v}`);
-    if (v === cur[k].en && !/^(A|B|C|D)$/.test(v)) {
-      /* identical to English is only suspicious, not always wrong */
-      console.log(`  note   ${loc}.${k} is identical to en ("${v}")`);
-    }
+    if (typeof v !== 'string' || !v.trim()) err(`${loc}.${k} is empty`);
+    if (/'/.test(v)) err(`${loc}.${k} carries a straight apostrophe: ${v}`);
   });
 });
-if (bad) { console.error(`\n${bad} problem(s) — nothing written`); process.exit(1); }
+if (bad) { console.error(`\nrefusing to write — ${bad} problem(s)`); process.exit(1); }
 
-/* ---- rebuild the block ---- */
-const merged = {};
-KEYS.forEach((k) => {
-  merged[k] = {};
-  ORDER.forEach((loc) => {
-    const v = loc === 'en' ? cur[k].en : add[loc][k];
-    if (v) merged[k][loc] = v;
-  });
+/* ---- rewrite, one key at a time ---- */
+let written = 0;
+Object.keys(keys).forEach((k) => {
+  /* the strings block keeps one key per line: `key:<pad>{ en: "…", … },` */
+  /* ⚠ THE TRAILING COMMA IS OPTIONAL. The LAST key in the strings object
+     has none, so a matcher that demands `},` silently reports "the block
+     shape changed" for exactly one key — and the run refuses to write
+     while every other key was fine. */
+  const re = new RegExp('(\\n\\s*' + k + ':\\s*)\\{[^\\n]*\\},?');
+  const m = re.exec(src);
+  if (!m) { err(`no strings entry for "${k}" — the block shape changed`); return; }
+  if (re.exec(src.slice(m.index + 1))) { err(`"${k}" matched more than once`); return; }
+  const body = ORDER.map((loc) => loc + ': ' + JSON.stringify(add[loc][k])).join(', ');
+  src = src.replace(re, m[1] + '{ ' + body + ' },');
+  written++;
 });
+if (bad) { console.error(`\nrefusing to write — ${bad} problem(s)`); process.exit(1); }
 
-const pad = Math.max.apply(null, KEYS.map((k) => k.length));
-const block = 'strings: {\n' + KEYS.map((k) => {
-  const inner = ORDER.filter((l) => merged[k][l])
-    .map((l) => `${l}: ${JSON.stringify(merged[k][l])}`).join(', ');
-  return `    ${k}:${' '.repeat(pad - k.length)} { ${inner} }`;
-}).join(',\n') + '\n  },';
-
-const start = src.indexOf('  strings: {');
-if (start === -1) { console.error('strings block not found'); process.exit(1); }
-const end = src.indexOf('\n  },', start);
-if (end === -1) { console.error('strings block terminator not found'); process.exit(1); }
-const out = src.slice(0, start + 2) + block + src.slice(end + 5);
-fs.writeFileSync(SRC, out, 'utf8');
-
-const n = new Set(); KEYS.forEach((k) => Object.keys(merged[k]).forEach((l) => n.add(l)));
-console.log(`  ${KEYS.length} strings x ${n.size} locales written`);
+if (DRY) { console.log(`dry run — would rewrite ${written} key(s) x ${ORDER.length} locales`); process.exit(0); }
+fs.writeFileSync(SRC, src, 'utf8');
+console.log(`rewrote ${written} key(s) x ${ORDER.length} locales into mini tools/pattern-bench.js`);

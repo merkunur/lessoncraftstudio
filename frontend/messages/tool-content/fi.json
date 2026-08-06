@@ -837,15 +837,16 @@
       "Kuviopaja on väline taululle. Rakennat kahdesta, kolmesta tai neljästä helmestä osan, joka toistuu, ja jono jatkaa sitä itsestään näytön reunaan asti. Jonoa voi pidentää kesken työskentelyn, ja koko ryhmä näkee saman asian omalta paikaltaan. Mitään ei tarvitse jakaa pulpeteille eikä kerätä pois lopuksi: rakennat vain sen osan, joka toistuu, ja jono hoitaa loput. Väline on tarkoitettu yhteiseen keskusteluun taulun ääressä, ei yksin tehtäväksi harjoitukseksi.",
       "Lapsi, joka osaa jatkaa punainen-sininen-punainen-sininen, ei ole välttämättä nähnyt kuviota. Hän voi vain vuorotella kahta väriä, ja se on paljon suppeampi ajatus. Ratkaiseva hetki tulee, kun lapsi huomaa, että punainen-sininen-punainen-sininen, ympyrä-neliö-ympyrä-neliö ja taputus-tömistys-taputus-tömistys ovat sama kuvio eri asussa. Silloin katse siirtyy pinnasta rakenteeseen, ja juuri siitä algebrallinen ajattelu alkaa. OPS 2014 puhuu samasta asiasta, kun se pyytää tunnistamaan ja kuvailemaan säännönmukaisuuksia.",
       "Siksi jono voi vaihtaa asua: värit, muodot ja kuvat. Kuvio pysyy samana, vain näkyvä puoli vaihtuu, ja juuri tuo vaihto luokan edessä osoittaa lyhimmällä tavalla, että rakenne kestää. Yhtä helmeä voi napauttaa niin, että se peittyy, ja peittäminen kannattaa tehdä keskeltä: jonon päässä oleva peitetty helmi ratkeaa naapuria katsomalla, mutta keskellä oleva vain päättelemällä siitä osasta, joka toistuu. Lisäksi tuon osan voi piilottaa kokonaan, jolloin ryhmä päättelee sen itse jonoa tutkimalla. Värit ja muodot ovat maksuttomia; kuvat ja tulostus kuuluvat Opettaja-tilaukseen.",
-      "Vastauspainiketta ei ole, ei pisteitä eikä kelloa. Kun jonossa lukee ABABAB, yksi lapsi voi perustellusti sanoa, että osa, joka toistuu, on AB, ja toinen yhtä perustellusti, että se on BA. Erimielisyyttä ei ratkaise aikuinen: kumpikin rakentaa jonon uudelleen omasta ehdotuksestaan, ja ryhmä katsoo, mitä tapahtuu. Materiaali ratkaisee asian rauhassa ja kaikkien nähden. Sen oppiminen, että väitteen voi koetella, on yhtä arvokasta kuin itse kuvioiden opiskelu."
+      "Työkalussa ei ole missään oikein-painiketta, eikä sellaista ole tarkoituskaan olla. Jonossa A B A B A B toistuvan osan voi yhtä hyvin perustein lukea muodossa A B tai B A. Siirrä hakasta lukutavasta toiseen: osa kääntyy koko ryhmän nähden, mutta jono ei muutu yhden helmen vertaa. Näin asian ratkaisee materiaali eikä aikuinen — ja juuri siihen hyvän havaintovälineen kuuluu pystyä."
     ],
     "howToUse": [
-      "Rakenna osa, joka toistuu, kahdesta neljään helmestä ja anna jonon jatkaa sitä.",
-      "Pyydä ryhmää lukemaan jono ääneen ennen kuin selität mitään.",
-      "Vaihda jonon asuksi muodot ja kysy, onko kuvio yhä sama.",
-      "Peitä yksi helmi keskeltä ja pyydä lapsia perustelemaan, mikä sen alla on.",
-      "Käynnistä ääni, yksi sävel helmeä kohti, ja anna ryhmän toistaa kuvio kehollaan.",
-      "Piilota osa, joka toistuu, ja anna ryhmän päätellä se jonoa katsomalla."
+      "Avaa se luokan näytölle. Kahden helmen osa ja jono, joka jo toistaa sitä — mitään ei tarvitse asettaa valmiiksi.",
+      "Napauta mitä tahansa helmeä. Helmi on osan yhdellä paikalla, joten jokainen sen kopio vaihtuu samalla kertaa. Pyydä lapsia osoittamaan, mitkä helmet liikkuivat mukana, ennen kuin kerrot miksi.",
+      "Siirrä hakasta yhden askeleen verran. Osa kääntyy — A B:stä tulee B A — mutta jono pysyy täsmälleen samana. Näin ryhmä pääsee itse koettelemaan väitettä siitä, että toistuva osa on A B, sen sijaan että aikuinen ratkaisisi asian.",
+      "Paina Peitä yksi helmi ja peitä sitten helmi keskeltä jonoa. Lopusta puuttuvan helmen voi päätellä rytmiä jatkamalla; keskeltä puuttuvan voi päätellä vain osasta.",
+      "Vaihda asua värien ja muotojen välillä ryhmän katsoessa. Kysy, mikä muuttui ja mikä pysyi ennallaan. (Kuvat kuuluvat Opettaja-tilaukseen.)",
+      "Paina Taputa mukana ja kuuntele jono helmi kerrallaan. Taputa sitten sama käsillä ja anna ryhmän päättää, oliko se sama kuvio.",
+      "Piilota lopuksi osa ja jätä pelkkä jono näkyviin. Nyt kysymys on, mikä toistuu — ja juuri säännönmukaisuuksien havaitseminen ja kuvaileminen on esiopetuksen ja ensimmäisen luokan matematiikan ydintä."
     ],
     "classroomIdeas": [
       "Rakenna AB-kuvio väreillä ja pyydä kolmea lasta esittämään se taputuksella ja tömistyksellä. Vaihda sitten jono muotoihin ja kysy, sopiiko sama liike edelleen.",

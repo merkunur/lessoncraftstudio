@@ -860,14 +860,15 @@
       "Pattern Bench is a strip of beads that repeats whatever small unit you build. Put red-blue in the unit and the strip runs red-blue-red-blue as far as you like. Put red-blue-yellow in and it runs in threes. That is the entire apparatus, and everything interesting comes from what you do with it.",
       "A child who can carry on red-blue-red-blue has not necessarily seen the pattern. They may simply be alternating, which is a much smaller idea. The child who sees that red-blue-red-blue and circle-square-circle-square and clap-stamp-clap-stamp are the same pattern has seen something else entirely — that a pattern is a structure, not a surface. That recognition is where algebraic thinking starts, years before any letter stands for a number.",
       "So the bench stores your pattern as pure structure and treats colour, shape and picture as costumes it can put on. Switch costume and the strip re-dresses in front of the class while the pattern underneath is provably untouched. Cover a bead in the middle of the strip and the only way to work out what is under it is to reason from the unit, because there is nothing next to it to copy. Hide the unit altogether and the question stops being carry it on and becomes what is the part that repeats, which is much harder and much more worth arguing about.",
-      "There is no right answer button anywhere in this tool, and that is deliberate: in ABABAB the repeating part can honestly be read as AB or as BA, and the bench lets a class test each claim by rebuilding the strip from it. The material settles the argument, not the adult."
+      "There is no right answer button anywhere in this tool, and that is deliberate: in a strip of red-blue-red-blue the repeating part can honestly be read as red-blue or as blue-red, and both readings hold. Slide the bracket from one reading to the other and the unit turns over in front of the class while the strip does not change by a single bead. The question is not decided, it is dissolved — and what shows it is the material, not the adult."
     ],
     "howToUse": [
       "Open it on the class screen. A two-bead unit and a strip already repeating it — nothing to set up.",
-      "Tap a bead in the unit to change it. The whole strip re-forms instantly, which is the point: the unit is the only thing that decides the strip.",
-      "Tap a bead in the strip to cover it. Choose one in the middle. A gap at the end can be solved by copying the last bead; a gap in the middle can only be solved from the unit.",
-      "Switch between colours, shapes and pictures while the class watches. Ask what changed and what did not.",
-      "Tap Clap it to hear the pattern one bead at a time, then clap it with your hands and ask whether that was the same pattern. It was.",
+      "Tap any bead, in the unit or anywhere along the strip, and every bead in the same place in the unit changes with it. Not the beads that look alike — the ones in the same place. That difference is the whole lesson.",
+      "Slide the bracket one step. The unit turns over — AB becomes BA — while the strip does not change by a single bead. That is how a class tests the claim that the repeating part is AB, instead of being told which reading is right.",
+      "Press Cover a bead, then tap one in the middle. A gap at the end can still be reached by carrying the rhythm on; a gap in the middle can only be answered from the unit.",
+      "Switch between colours and shapes while the class watches, and ask what changed and what did not. (The picture costume is part of the Teacher plan.)",
+      "With the sound on, tap Clap it and hear the strip one bead at a time. A covered bead stays silent, so the class hears the gap as well as the pattern. Then clap it with your hands and ask whether that was the same pattern.",
       "When they are ready, hide the unit and leave only the strip. Now the question is what repeats, and that is the one worth their time."
     ],
     "classroomIdeas": [

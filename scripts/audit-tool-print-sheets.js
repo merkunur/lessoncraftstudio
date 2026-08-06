@@ -234,6 +234,29 @@ const TOOLS = [
      ⚠ chrome is `.lck-dock`: there is no `.lck-foot` on this tool, and the
      default selector would return null and fail a correct build. */
   {
+    /* ⚠ PATTERN BENCH SHIPPED FOR MONTHS WITH A PRINT CHIP AND NO PROBE.
+       It called window.print() and emitted an @media print block, so the
+       DERIVED roster check passed it — and it sat in the "has a block but
+       no probe" bucket, which is exactly where a sheet nobody has ever
+       driven hides. What it actually printed was the LIVE DOM, including
+       a horizontally-scrolling rail: a scrolled strip printed CUT OFF,
+       silently. The prime must force the tier AND build the sheet, or
+       this probe measures an empty container and passes vacuously. */
+    key: 'pattern-bench', p: 'ptn', apparatus: '.ptn-printsheet', chrome: '.ptn-foot',
+    prime: function () {
+      var T = window.PatternBench;
+      if (!T) return;
+      T.premium = true;
+      T.premiumKnown = true;
+      document.body.classList.add('ptn-paid');
+      /* a sheet with a real pattern and an interior gap on it, not blanks */
+      T.st = T.setUnitLength(T.st, 3);
+      T.st = T.toggleCover(T.st, 5);
+      T.render();
+      T._ensureSheet(T.api.stage);
+    }
+  },
+  {
     key: 'learning-clock', p: 'lck', apparatus: '.lck-sheet', chrome: '.lck-dock',
     prime: function (p) {
       var T = window.LearningClock;

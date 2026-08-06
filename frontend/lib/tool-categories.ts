@@ -63,7 +63,12 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'folding-sheet': 'measurement',
   'sorting-hoops': 'measurement',
   'wodb': 'measurement',
-  'pattern-bench': 'measurement',
+  // Repeating patterns are early ALGEBRA (Muster und Strukturen / patronen /
+  // mönster / säännönmukaisuudet), not measurement or shape. Filed under
+  // 'measurement' at introduction and moved 2026-08-06 when both the design
+  // and pedagogy panels flagged it independently; of the four coarse buckets,
+  // number sense is where a unit-of-repeat instrument belongs.
+  'pattern-bench': 'number',
   'arrow-strip': 'measurement',
   // chance and data — the bucket's "& data" half, alongside class-graph.
   // Absent, this fell back to 'number' and filed a chance instrument under

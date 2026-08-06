@@ -995,7 +995,7 @@
   },
   "arrow-strip": {
     "slug": "kaeferplan-programmieren-ohne-computer",
-    "name": "Der Käferplan",
+    "name": "Der Käfer und die Karten",
     "tagline": "Die Klasse legt den ganzen Weg als Karten, sagt laut vorher, wo der Käfer stehen bleibt — und erst dann läuft er los.",
     "about": [
       "Der Käferplan ist ein Werkzeug für den Klassenbildschirm: eine Matte aus Feldern, ein Käfer, der auf einem Feld sitzt und in eine Richtung schaut, und darunter eine leere Bahn. In die Bahn legen die Kinder Karten — vorwärts, rückwärts und zwei Vierteldrehungen. Solange gelegt wird, bewegt sich der Käfer keinen Millimeter. Erst ein einziger Tipp lässt die ganze Bahn ablaufen, Karte für Karte, und der Käfer zieht dabei seine Spur über die Matte. Bauen und Laufen sind getrennt — und genau das kann kein echter Bodenroboter, der sofort losfährt, sobald ein Kind drückt.",
@@ -1008,7 +1008,7 @@
       "Zeigen Sie das Zielfeld und lassen Sie die Kinder die Karten in die Bahn legen.",
       "Halten Sie an, bevor etwas passiert: Die Klasse sagt laut, auf welchem Feld der Käfer stehen bleibt.",
       "Tippen Sie auf Losschicken und lassen Sie den Käfer die ganze Bahn ablaufen.",
-      "Ändern Sie danach genau eine Karte und schicken Sie ihn noch einmal los — die blasse Spur zeigt, wie weit diese eine Karte reicht.",
+      "Tippt in der Schiene eine Karte an – sie wechselt zur nächsten. Dann schickt ihn noch einmal los.",
       "Streitet die Klasse über links und rechts, wechseln Sie in die Käfersicht, während der Käfer die Kinder anschaut."
     ],
     "classroomIdeas": [

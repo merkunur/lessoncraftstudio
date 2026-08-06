@@ -44,9 +44,11 @@ vm.runInContext(fs.readFileSync(path.join(MINI, 'arrow-strip.js'), 'utf8') + '\n
 const T = sandbox.__T;
 
 /* the strings that must be VISIBLE somewhere in a normal session */
-const VISIBLE = ['title', 'buildHint', 'predictHint', 'againHint', 'runBtn', 'clearBtn', 'eyeBtn', 'eyeOffBtn', 'matBook', 'printBtn', 'gateLine', 'unlock'];
+const VISIBLE = ['title', 'buildHint', 'predictHint', 'againHint', 'changedHint', 'runBtn', 'backBtn', 'clearBtn',
+  'eyeBtn', 'eyeOffBtn', 'matBook', 'keepBtn', 'printBtn', 'gateLine', 'unlock'];
 /* the strings that live in aria only */
-const ARIA = ['matLabel', 'cardFwd', 'cardBack', 'cardTurnL', 'cardTurnR', 'railSlotAria', 'bodyAria'];
+const ARIA = ['matLabel', 'matSizeLabel', 'cardFwd', 'cardBack', 'cardTurnL', 'cardTurnR',
+  'railSlotAria', 'railEmptyAria', 'startAria', 'bodyAria', 'facingAria', 'blockedAria', 'runDoneAria'];
 
 let PASS = 0, FAIL = 0;
 const is = (c, m) => { if (c) { PASS++; } else { FAIL++; console.error('  FAIL ' + m); } };
@@ -86,7 +88,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
        exposed it. A wildcard in a coverage check manufactures coverage. */
     const pat = (x) => new RegExp(
       x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-        .replace(/\\\{(?:i|r|c)\\\}/g, '[0-9]+')
+        .replace(/\\\{(?:i|r|c|n|q)\\\}/g, '[0-9]+')
         .replace(/\\\{card\\\}/g, '.{1,60}?')
     );
     const seen = new Set();
@@ -100,19 +102,52 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     await sweep();
     /* build a rail, run it, toggle the eye, then trip the gate — the
        whole authored surface in one pass, all by INDEX */
-    await page.evaluate(() => { const c = document.querySelectorAll('.arw-card'); c[0].click(); });
-    await wait(120); await sweep();
-    await page.evaluate(() => { const c = document.querySelectorAll('.arw-card'); c[3].click(); c[0].click(); });
-    await wait(120);
-    await page.evaluate(() => document.querySelectorAll('.arw-foot .arw-chip')[0].click());
-    await wait(320); await sweep();
-    await page.evaluate(() => { const b = document.querySelectorAll('.arw-bar .arw-chip'); b[3].click(); });
-    await wait(320); await sweep();
-    await page.evaluate(() => { const b = document.querySelectorAll('.arw-bar .arw-chip'); b[3].click(); });
-    await wait(320); await sweep();
-    /* the locked print control shows gateLine + unlock for a free account */
-    await page.evaluate(() => { const f = document.querySelectorAll('.arw-foot .arw-chip'); f[f.length - 1].click(); });
-    await wait(320); await sweep();
+    /* ⚠ BY HANDLE AND ON A SIGNAL, NEVER BY INDEX AND A SLEEP. Both traps
+       fired here: the foot gained a control so `f[f.length-1]` stopped
+       being the paid chip (which moved to the bar) and the gate line was
+       never tripped, and the run is now STEPPED so a 320ms sleep expired
+       mid-journey and the next click was correctly refused. */
+    const tap = (fk) => page.evaluate((k) => { const b = document.querySelector('[data-fk="' + k + '"]'); if (b) b.click(); }, fk);
+    /* ⚠ SWEEP DURING THE RUN, NOT ONLY AFTER IT. `api.announce` writes to
+       ONE live region, so the end-of-run announcement OVERWRITES the
+       per-card blocked announcement — and sweeping only at the end
+       reported `blockedAria` as never rendered when it had been spoken
+       twice. A digest that samples one moment measures one moment. */
+    const runIt = async () => {
+      await tap('run');
+      for (let i = 0; i < 60; i++) {
+        await sweep();
+        if (!(await page.evaluate(() => !!document.querySelector('.arw-mat.arw-running')))) break;
+        await wait(90);
+      }
+      await wait(140); await sweep();
+    };
+    /* build → predict → run → the edited state → the eye, both ways →
+       a blocked run → the paid gate. The whole authored surface. */
+    /* move the start pose — the only path that speaks startAria */
+    await page.evaluate(() => { const c = document.querySelectorAll('.arw-cell'); c[8].click(); });
+    await wait(150); await sweep();
+    await tap('trayF'); await wait(120); await sweep();
+    await tap('trayR'); await tap('trayF'); await wait(120); await sweep();
+    await runIt(); await sweep();
+    await tap('slot1'); await wait(150); await sweep();      /* changedHint */
+    await tap('eye'); await wait(420); await sweep();
+    await tap('eye'); await wait(420); await sweep();
+    await tap('back'); await wait(150); await sweep();
+    /* ⚠ A RAIL THE EDGE ACTUALLY REFUSES. The first version ran two `back`
+       cards from a start I had just moved into the MIDDLE of the mat, so
+       nothing was refused and `blockedAria` read as unrendered in all
+       eleven locales — the harness testing a state that cannot produce the
+       thing it is looking for. Seat the beetle on the bottom row first. */
+    await tap('clear'); await wait(150);
+    await page.evaluate(() => { const c = document.querySelectorAll('.arw-cell'); c[30].click(); });
+    await wait(150);
+    await tap('trayB'); await tap('trayB'); await wait(150);
+    await runIt(); await sweep();
+    /* the locked controls show gateLine + unlock for a free account */
+    await tap('print'); await wait(320); await sweep();
+    await tap('book'); await wait(200); await sweep();
+    await tap('keep'); await wait(200); await sweep();
 
     console.log(`\n[${loc}]  ${T.strings.title[loc]}`);
     let missing = 0;

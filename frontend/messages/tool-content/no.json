@@ -994,7 +994,7 @@
   },
   "arrow-strip": {
     "slug": "pilbanen-programmering-kommandokort-1-trinn",
-    "name": "Pilbanen",
+    "name": "Billebanen",
     "tagline": "Kortene ligger i banen uten at noe skjer, klassen sier høyt hvor billa stopper, og først da trykker dere Kjør.",
     "about": [
       "Pilbanen er ei rutematte på skjermen foran klassen, med ei bille som sitter på matta og ser én vei, og en tom bane du legger kort i. Det finnes nøyaktig fire kort: ett framover, ett bakover og to som snur billa en kvart omdreining, ett til hver side. Du legger så mange du vil i banen, og ingenting skjer. Klassen sier høyt hvilken rute billa havner i. Så trykker dere Kjør én gang, og billa går kort for kort og tegner sporet sitt etter seg.",
@@ -1007,7 +1007,7 @@
       "Legg kortene i banen sammen med klassen, ett om gangen, uten å kjøre.",
       "Spør hvilken rute billa havner i, og la barna vise med hele kroppen hvilken vei den snur.",
       "Trykk Kjør én gang, og se sporet tegne seg kort for kort.",
-      "Bytt ett eneste kort, kjør igjen, og se hvor langt bak i banen det ene byttet rakk.",
+      "Trykk på et kort i banen for å bytte det, og kjør igjen.",
       "Trykk Slik den ser det når klassen er uenige om venstre, og la matta snu seg i stedet for billa."
     ],
     "classroomIdeas": [

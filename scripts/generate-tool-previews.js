@@ -223,10 +223,21 @@ const SEEDS = {
     { sel: '.nl-foot .nl-chip', nth: 1, wait: 2400 },
   ],
   // "Nothing moves yet" → build a rail, then RUN it so a trail is drawn.
-  // The run button is .arw-foot .arw-chip[0] (per scripts/local-test-arrow-strip.js).
+  // ⚠ THE RUN IS STEPPED NOW — one 380ms beat per card, plus a rewind and
+  // a landing. The old 900ms wait was written for a run that completed in
+  // one frame and would photograph the beetle MID-JOURNEY with half a
+  // trail. Five cards need ~2.5s; 3200 leaves margin.
+  // ⚠ Reach the control by its handle, not by `.arw-foot .arw-chip[0]` —
+  // the foot gained a "take the last card off" control and an index would
+  // silently photograph the wrong button being pressed.
+  // ⭐ THE ROUTE MUST CONTAIN TURNS. The old seed drew a two-cell trail, so
+  // the card showed a grid with a short orange line and none of the idea.
+  // F F F R F F R F sends the beetle up, right and down again — a trail
+  // that crosses the mat and carries TWO pivot arcs, which is the one
+  // thing this tool has that no other path renderer does.
   'arrow-strip': [
-    { sel: '.arw-card', nth: [0, 0, 2, 0, 0] },
-    { sel: '.arw-foot .arw-chip', nth: 0, wait: 900 },
+    { sel: '.arw-card', nth: [0, 0, 0, 3, 0, 0, 3, 0] },
+    { sel: '[data-fk="run"]', nth: 0, wait: 4400 },
   ],
   // ⭐ THE CARD MUST SHOW THE BOND, NOT A ROW OF IDENTICAL DOTS. At rest
   // this board opens one-tone, so the thumbnail was six orange discs in

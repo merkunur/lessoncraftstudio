@@ -70,7 +70,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       const m = await page.evaluate(() => {
         const card = (document.querySelector('.lcs-app') || document.body).getBoundingClientRect();
         const mat = document.querySelector('.arw-mat').getBoundingClientRect();
-        const ctrl = Array.from(document.querySelectorAll('.arw-chip,.arw-card,.arw-slot'));
+        const ctrl = Array.from(document.querySelectorAll('.arw-chip,.arw-card,.arw-place.arw-filled'));
         const cells = Array.from(document.querySelectorAll('.arw-cell'));
         const txt = Array.from(document.querySelectorAll('.arw-hint,.arw-chip')).filter((e) => (e.textContent || '').trim());
         return {

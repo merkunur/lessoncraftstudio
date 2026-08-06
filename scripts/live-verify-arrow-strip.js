@@ -62,7 +62,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
         await page.evaluate((i) => document.querySelectorAll('.arw-card')[i].click(), IDX[k]);
         await wait(60);
       }
-      is(await page.evaluate(() => document.querySelectorAll('.arw-slot').length) === 4,
+      is(await page.evaluate(() => document.querySelectorAll('.arw-place.arw-filled').length) === 4,
         `${loc}: four cards are in the rail`);
       is(!(await page.evaluate(() => !!document.querySelector('.arw-trail'))),
         `${loc}: nothing has moved yet — the rail is inert while it is built`);

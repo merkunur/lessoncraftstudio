@@ -994,7 +994,7 @@
   },
   "arrow-strip": {
     "slug": "programmering-utan-dator-kommandokort",
-    "name": "Kommandorälsen",
+    "name": "Skalbaggens räls",
     "tagline": "Lägg korten på rälsen, låt klassen säga var skalbaggen hamnar — och kör först sedan.",
     "about": [
       "Kommandorälsen är tre saker på klassens skärm och inget mer: en rutmatta, en räls och en skalbagge som sitter på mattan och tittar åt ett håll. Du har fyra kort utan text — framåt, bakåt och två kvartsvarv. Du lägger korten på rälsen och ingenting händer. Klassen säger högt var skalbaggen kommer att hamna. Först därefter trycker du en gång, och rälsen körs kort för kort medan skalbaggen ritar sitt spår över rutorna. Sedan kommer det som betyder mest: byt ett enda kort och kör igen.",
@@ -1007,7 +1007,7 @@
       "Lägg korten på rälsen tillsammans med klassen — ingenting rör sig än.",
       "Låt klassen säga högt var skalbaggen kommer att stanna.",
       "Tryck på Kör och följ rälsen kort för kort.",
-      "Byt ett enda kort och kör igen — den bleka linjen visar hur långt just det kortet räckte.",
+      "Tryck på ett kort på rälsen för att byta det. Kör sedan igen.",
       "Vrid mattan med Se med skalbaggens ögon när klassen tvistar om vänster och höger."
     ],
     "classroomIdeas": [

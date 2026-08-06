@@ -994,7 +994,7 @@
   },
   "arrow-strip": {
     "slug": "deplacements-codes-sur-quadrillage",
-    "name": "La piste qui attend",
+    "name": "La file qui attend",
     "tagline": "On pose les cartes, la classe annonce où la petite bête va s’arrêter — et rien ne bouge tant que personne n’a lancé.",
     "about": [
       "La piste qui attend, c’est un quadrillage projeté au tableau, une petite bête posée dessus qui regarde toujours dans une seule direction, et une piste vide sur le côté. Vous y glissez des cartes : avancer, reculer, un quart de tour vers sa gauche à elle, un quart de tour vers sa droite. Tant que vous remplissez la piste, rien ne bouge du tout. Un seul appui déroule ensuite la piste entière, carte après carte, et la bête laisse sa trace derrière elle. C’est exactement le coder et décoder des déplacements du cycle 2, mais la classe parle avant que quoi que ce soit ne parte.",
@@ -1007,7 +1007,7 @@
       "Posez trois ou quatre cartes sur la piste, pas davantage, et dites-le clairement : rien ne bouge encore.",
       "Faites annoncer la case d’arrivée avant le moindre appui, à l’oral, sur l’ardoise, ou en la montrant du doigt.",
       "Lancez, et laissez la trace se dessiner carte après carte sans rien commenter.",
-      "Changez une seule carte au milieu de la piste, puis relancez : la trace précédente reste en fantôme et la classe voit jusqu’où cette carte-là a porté.",
+      "Touchez une carte de la file pour la changer, puis relancez.",
       "Quand la classe se divise sur un quart de tour, appuyez sur « Voir avec ses yeux » et refaites le même lancement."
     ],
     "classroomIdeas": [

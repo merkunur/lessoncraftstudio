@@ -280,11 +280,21 @@ const SEEDS = {
   // bag is the hero of this card. Every control here is reachable on the
   // anonymous load the generator performs (the 10-chip is free; the second run
   // and the 40-cell record are not, and are not touched).
+  // ⚠ PLACEMENT IS LIFT-THEN-DROP FROM BUILD #4, NOT A TAP-CYCLE. The old
+  // seed clicked pool pieces three times to walk them round the zones; a
+  // click now only LIFTS, so that seed would have left every piece on the
+  // tray and the bag refusing to draw — the card would show an untouched
+  // cold load. Each placement is now a lift and a drop on a named zone.
+  // Drop the record to its 10-cell setting so it reads as ONE row, then draw
+  // seven of the ten: enough that the record reads as a record, few enough
+  // that the bag stays live — and the bag is the hero of this card.
   'draw-bag': [
-    { sel: '.drb-shelf.drb-pool .drb-gpiece', nth: [0, 0, 0] },
-    { sel: '.drb-shelf.drb-in .drb-gpiece', nth: 2 },
+    { sel: '.drb-gpiece[data-kind="c"]', nth: 0 },
+    { sel: '.drb-shelf[data-zone="1"]', nth: 0 },
+    { sel: '.drb-gpiece[data-kind="s"]', nth: 0 },
+    { sel: '.drb-shelf[data-zone="2"]', nth: 0 },
     { sel: '.drb-bar .drb-group:first-child .drb-chip', nth: 0 },
-    { sel: '.drb-bag', times: 9, wait: 60 },
+    { sel: '.drb-bag', times: 7, wait: 60 },
   ],
   /* THE LIDS: 20 counters, three lids, marker parked — and then LIFTED.
      ⚠ The first seed left the lids DOWN, which is the state where the
@@ -376,6 +386,15 @@ const VIEWPORT = {
      to reach the 1200px tier's 660px board, short enough to stay
      landscape — measured, not guessed. */
   'wodb': { width: 1280, height: 840 },
+  /* ⚠ MEASURED, NOT GUESSED, AND THE GENERATOR SAID "ok" WHILE IT WAS
+     WRONG. At the default 720 the draw bag stacks its three claim zones into
+     a column and puts the bag above the record, so the card came out 720x754
+     — aspect 0.955, over the 0.85 line — and `--fit=auto` top-cropped it:
+     the "in the bag" zone lost its top and the record lost its bottom row.
+     Reading the .webp is what found it. Past the tool's own 760px breakpoint
+     the zones go side by side and the bag sits beside the record, which is
+     the landscape instrument it actually is. */
+  'draw-bag': { width: 1040, height: 660 },
 };
 
 async function runSeed(page, key) {

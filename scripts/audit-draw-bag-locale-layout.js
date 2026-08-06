@@ -72,8 +72,18 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
         if (last && !last.disabled) last.click();
       });
       await wait(90);
-      for (const sel of ['.drb-shelf.drb-pool .drb-gpiece', '.drb-shelf.drb-pool .drb-gpiece', '.drb-shelf.drb-in .drb-gpiece']) {
-        await page.evaluate((s) => { const e = document.querySelectorAll(s)[0]; if (e && !e.disabled) e.click(); }, sel);
+      /* ⚠ PLACEMENT IS LIFT-THEN-DROP NOW, NOT A CYCLE. Clicking a piece
+         three times used to walk it round three zones; it now only lifts and
+         puts back, so a click-only sequence leaves every piece on the tray
+         and the bag refuses to draw — which would have made every
+         measurement below run on a state the operator never sees. */
+      for (const [kind, zone] of [['c', 1], ['s', 1], ['t', 2]]) {
+        await page.evaluate((v) => {
+          const e = document.querySelector('.drb-gpiece[data-kind="' + v.k + '"]');
+          if (e) e.click();
+          const z = document.querySelector('.drb-shelf[data-zone="' + v.z + '"]');
+          if (z) z.click();
+        }, { k: kind, z: zone });
         await wait(45);
       }
       const drawAll = async () => {

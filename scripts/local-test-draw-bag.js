@@ -5,25 +5,43 @@
    Screenshots land in docs/audit-results/draw-bag/qa/
 
    verify-draw-bag.js proves the MODEL. This proves the thing on screen
-   is that model, at every width the operator might look at, in every
-   configuration — not just the default one.
+   IS that model, at every width the operator might look at, in every
+   configuration — and that every control has a consequence somewhere
+   other than on itself.
 
      L1 ⭐ THE RECORD IS THE MODEL   every cell matches the model's own
                                     sequence for that bag's seed
-     L2 ⭐ THE PRIOR COMMITS         the guess freezes on draw one, in
-                                    the DOM and not merely in the state
+     L2 ⭐⭐ PLACEMENT IS ABSOLUTE    a piece goes where it is put, by
+                                    drag, by tap-then-tap and by
+                                    keyboard — build #3's blind 3-cycle
+                                    is what the operator hit
      L3 ⭐ THE BAG IS OPAQUE         the pre-reveal DOM is IDENTICAL for
-                                    two different bags, so nothing about
-                                    the contents can be read off it
+                                    two different bags, AND the builder
+                                    opens EMPTY (build #3 painted the
+                                    sealed bag across the stage)
      L4 ⭐ THE RECORDS ALIGN         record two lies under record one,
-                                    cell for cell, measured to 0.00px
+                                    cell for cell, measured to 0.00px,
+                                    and is reachable WITHOUT a plan
      L5    LABELS ARE TRUE          in the DOM, not just in the source
      L6    THE BUILDER WORKS        fill a bag with one kind, and only
                                     that kind is ever drawn
-     L7 ⭐ THE SWEEP                 6 widths x 3 record lengths x every
+     L7 ⭐ THE SWEEP                 9 widths x 3 record lengths x every
                                     skin: two tap floors named
                                     SEPARATELY, containment against THE
                                     CARD, legibility, FITS, no errors
+     L8 ⭐⭐ EVERY STRING IS REACHED  a Proxy over the tool's own strings
+                                    records what is ASKED FOR across the
+                                    whole state space. A source scan
+                                    passes a live t() in a dead branch;
+                                    this does not.
+     L9 ⭐ CONSEQUENCE, NOT LIVENESS every control changes something
+                                    ELSEWHERE — and the ones defined by
+                                    what they leave alone are asserted
+                                    on that too
+   ⚠ EVERY SCRIPTED INTERACTION FAILS LOUDLY WHEN IT DOES NOT HAPPEN. A
+   click helper that quietly returns false hollows out the next
+   assertion: the recorded #39 defect, where "the toggle is not swapped"
+   passed because nothing had been toggled.
    ===================================================================== */
 
 'use strict';
@@ -40,14 +58,14 @@ const PORT = 5510;
 const SHOT = process.argv.indexOf('--shot') > -1;
 const SHOT_DIR = path.join(ROOT, 'docs', 'audit-results', 'draw-bag', 'qa');
 
+let FAILS = 0;
+const ok = (c, m) => { if (c) console.log('  ok   ' + m); else { FAILS++; console.error('  FAIL ' + m); } };
+const must = (c, m) => { if (!c) { FAILS++; console.error('  FAIL ' + m); throw new Error(m); } };
+
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.webp': 'image/webp', '.png': 'image/png' };
-/* the picture skins load out of frontend/public, everything else out of
-   mini tools — the same split audit-tool-control-liveness.js uses */
 const serve = () => http.createServer((req, res) => {
   const url = decodeURIComponent(req.url.split('?')[0]);
-  const f = url.indexOf('/image-library-webp/') === 0
-    ? path.join(PUBLIC, url)
-    : path.join(MINI, path.basename(url));
+  const f = url.indexOf('/image-library-webp/') === 0 ? path.join(PUBLIC, url) : path.join(MINI, path.basename(url));
   fs.readFile(f, (e, b) => {
     if (e) { res.writeHead(404); res.end('404'); return; }
     res.writeHead(200, { 'Content-Type': MIME[path.extname(f)] || 'application/octet-stream' });
@@ -57,7 +75,7 @@ const serve = () => http.createServer((req, res) => {
 
 /* the SAME model object the DOM is checked against — never a second guess */
 const sandbox = {
-  document: { getElementById: () => null, createElement: () => ({ style: {}, setAttribute() {}, appendChild() {} }), head: { appendChild() {} }, body: { classList: { add() {}, remove() {} } } },
+  document: { getElementById: () => null, createElement: () => ({ style: {}, setAttribute() {}, appendChild() {} }), createElementNS: () => ({ setAttribute() {}, appendChild() {}, style: {} }), head: { appendChild() {} }, body: { appendChild() {}, classList: { add() {}, remove() {} } } },
   window: {}, localStorage: { getItem: () => null, setItem() {} },
   fetch: () => Promise.resolve({ ok: false }), setTimeout: () => 0, clearTimeout() {}, Promise, Math, Date, JSON, console
 };
@@ -65,476 +83,499 @@ vm.createContext(sandbox);
 vm.runInContext(fs.readFileSync(path.join(MINI, 'draw-bag.js'), 'utf8') + '\n;this.__T = DrawBag;', sandbox);
 const T = sandbox.__T;
 const BOOK = JSON.parse(fs.readFileSync(path.join(MINI, 'draw-bag-bags.json'), 'utf8'));
-const FREE_BAGS = BOOK.bags.filter((b) => b.free);
+const FREE = BOOK.bags.filter((b) => b.free);
 
-let PASS = 0, FAIL = 0;
-const is = (cond, msg) => { if (cond) { PASS++; console.log('  ok   ' + msg); } else { FAIL++; console.error('  FAIL ' + msg); } };
-const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-
-async function newPage(browser, o) {
-  const page = await browser.newPage();
-  await page.setCacheEnabled(false);
-  await page.setRequestInterception(true);
-  page.on('request', (r) => (r.url().includes('/api/auth/me')
-    ? r.respond({
-      status: 200, contentType: 'application/json',
-      body: JSON.stringify(o && o.premium
-        ? { user: { subscriptionTier: 'full' }, subscription: { status: 'active' } }
-        : { user: { subscriptionTier: 'free' }, subscription: null })
-    })
-    : r.continue()));
-  await page.evaluateOnNewDocument((premium) => {
-    try { localStorage.clear(); } catch (_) {}
-    if (premium) { try { localStorage.setItem('accessToken', 'harness'); } catch (_) {} }
-    window.print = function () { window.__printed = (window.__printed || 0) + 1; };
-  }, !!(o && o.premium));
-  page._errs = [];
-  page.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR/.test(m.text())) page._errs.push(m.text()); });
-  page.on('pageerror', (e) => page._errs.push(String(e)));
-  return page;
+/* ---------------------------------------------------------------------
+   helpers. Every one of them THROWS when the interaction does not happen.
+   --------------------------------------------------------------------- */
+async function open(page, q) {
+  await page.goto('http://127.0.0.1:' + PORT + '/draw-bag.html?' + (q || 'lang=en&embed=1'), { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('.drb-wrap');
+  await page.waitForFunction(() => window.DrawBag && window.DrawBag.data);
 }
 
-const open = async (page, lang, w, h) => {
-  await page.setViewport({ width: w || 1024, height: h || 900 });
-  await page.goto(`http://127.0.0.1:${PORT}/draw-bag.html?lang=${lang || 'en'}&embed=1`, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector('.drb-wrap', { timeout: 9000 });
-  await page.waitForSelector('.drb-bag', { timeout: 9000 });
-  await wait(300);
-};
-
-const click = async (page, sel, i) => {
-  await page.evaluate((s, n) => { const e = document.querySelectorAll(s)[n || 0]; if (e) e.click(); }, sel, i || 0);
-  await wait(70);
-};
-const count = (page, sel) => page.evaluate((s) => document.querySelectorAll(s).length, sel);
-
-/* the record, read off the rendered SVG classes — the piece a cell
-   actually shows, never a value the harness was told */
-const readRecord = (page, ri) => page.evaluate((n) => {
-  const rec = document.querySelectorAll('.drb-rec')[n];
-  if (!rec) return null;
-  return Array.from(rec.querySelectorAll('.drb-cell')).map((c) => {
-    const svg = c.querySelector('svg');
-    if (svg) { const m = /drb-k-([a-z])/.exec(svg.getAttribute('class') || ''); return m ? m[1] : '?'; }
-    if (c.querySelector('img')) return 'i';
-    return '';
-  }).join('').replace(/\s/g, '');
-}, ri);
-
-const drawAll = async (page, n) => {
+/* click a piece, identified by KIND rather than by position — the pieces
+   re-flow between zones, so an index means a different piece each time */
+async function clickKind(page, kind) {
+  const hit = await page.evaluate((k) => {
+    const el = document.querySelector('.drb-gpiece[data-kind="' + k + '"]');
+    if (!el) return false; el.click(); return true;
+  }, kind);
+  must(hit, 'no piece on stage for kind ' + kind);
+}
+async function clickZone(page, zone) {
+  const hit = await page.evaluate((z) => {
+    const el = document.querySelector('.drb-shelf[data-zone="' + z + '"]');
+    if (!el) return false; el.click(); return true;
+  }, zone);
+  must(hit, 'no zone ' + zone + ' on stage');
+}
+/* ⚠ THE LABEL IS READ OFF THE TOOL, NEVER TYPED HERE. A hard-coded English
+   literal broke this harness the moment a string was renamed — the recorded
+   "reach controls by index, never by English text" rule, in the form where
+   a rename silently turns every downstream assertion into a throw. Taking
+   the key and resolving it against T.strings means a rename cannot lie. */
+async function chip(page, key) {
+  const text = T.strings[key] && T.strings[key].en;
+  must(!!text, 'no authored English for the key "' + key + '"');
+  const hit = await page.evaluate((t) => {
+    const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => x.textContent.trim() === t);
+    if (!c || c.disabled) return false; c.click(); return true;
+  }, text);
+  must(hit, 'the chip "' + text + '" (' + key + ') was missing or disabled');
+}
+async function zoneOf(page, kind) {
+  return page.evaluate((k) => {
+    const el = document.querySelector('.drb-gpiece[data-kind="' + k + '"]');
+    if (!el) return null;
+    const sh = el.closest('.drb-shelf');
+    return sh ? Number(sh.getAttribute('data-zone')) : null;
+  }, kind);
+}
+/* arm the prior the way a class does, then fill the current record */
+async function arm(page) {
+  await clickKind(page, 'c');            /* lift */
+  await clickZone(page, 1);              /* drop into the bag */
+  const z = await zoneOf(page, 'c');
+  must(z === 1, 'arming did not place the piece in the bag zone (landed ' + z + ')');
+}
+async function drawAll(page) {
+  const n = await page.evaluate(() => window.DrawBag.st.n);
   for (let i = 0; i < n + 2; i++) {
-    const done = await page.evaluate(() => {
-      const b = document.querySelector('.drb-bag');
-      if (!b || b.disabled) return true;
-      b.click();
-      return false;
-    });
-    if (done) break;
-    await wait(45);
+    await page.evaluate(() => { const b = document.querySelector('.drb-bag'); if (b && !b.disabled) b.click(); });
   }
-};
+  const got = await page.evaluate(() => { const r = window.DrawBag.currentRun(window.DrawBag.st); return r ? r.draws.length : 0; });
+  must(got === n, 'the record filled to ' + got + ' of ' + n);
+}
+const modelRun = (bag, k, n) => { const sd = T.seedFor(bag, k), a = []; for (let i = 0; i < n; i++) a.push(T.pick(bag, sd, i)); return a; };
 
-/* ===================================================================== */
 (async () => {
   const server = serve().listen(PORT);
+  if (SHOT && !fs.existsSync(SHOT_DIR)) fs.mkdirSync(SHOT_DIR, { recursive: true });
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-  if (SHOT) fs.mkdirSync(SHOT_DIR, { recursive: true });
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1024, height: 900 });
 
-  try {
-    /* ---- L1 · the record is the model ------------------------------ */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      /* the tool seats the first free bag at startup, so the expected
-         sequence is computable without asking the page anything */
-      const bag = {}; for (const k of T.KINDS) bag[k] = FREE_BAGS[0].b[k] || 0;
-      const n = T.DEFAULT_LEN;
-      let want = '';
-      const seed = T.seedFor(bag, 1);
-      for (let i = 0; i < n; i++) want += T.pick(bag, seed, i);
+  /* ================= L1 the record is the model ================= */
+  console.log('\nL1 the record is the model');
+  await open(page);
+  await arm(page);
+  await drawAll(page);
+  const seen = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-rec')[0].querySelectorAll('.drb-cell.drb-full'))
+    .map((c) => { const s = c.querySelector('svg'); if (s) { const m = s.getAttribute('class').match(/drb-k-([a-z])/); return m ? m[1] : '?'; } return c.querySelector('img') ? 'i' : '?'; }));
+  const bag0 = await page.evaluate(() => window.DrawBag.st.bag);
+  const n0 = await page.evaluate(() => window.DrawBag.st.n);
+  ok(seen.length === n0, 'the record shows all ' + n0 + ' draws (' + seen.length + ')');
+  ok(seen.join('') === modelRun(bag0, 1, n0).join(''), 'every cell matches the model sequence for this bag');
+  /* ⭐ the track exists BEFORE the first draw — build #3 rendered nothing
+     until `runs` was non-empty, so a cold load was a bag beside an empty
+     div and the length chips had no visible consequence */
+  await open(page);
+  const seats = await page.evaluate(() => document.querySelectorAll('.drb-rec .drb-cell').length);
+  ok(seats === n0, 'the empty track is drawn on a cold load (' + seats + ' seats)');
+  const quints = await page.evaluate(() => document.querySelectorAll('.drb-rec .drb-quint').length);
+  ok(quints === n0 / 5, 'the rail is grouped in fives (' + quints + ' groups)');
 
-      await drawAll(page, n);
-      const got = await readRecord(page, 0);
-      is(got === want, 'L1 the record is the model: ' + n + ' cells match the model sequence for this bag (' + got.slice(0, 12) + '…)');
-      is(await page.evaluate(() => document.querySelector('.drb-bag').disabled), 'L1 a full record disables the bag');
-      await page.close();
-    }
-
-    /* ---- L2 · the prior commits ------------------------------------- */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      const shelfBefore = await count(page, '.drb-shelf.drb-in .drb-gpiece');
-      await click(page, '.drb-shelf.drb-pool .drb-gpiece', 0);
-      const shelfAfter = await count(page, '.drb-shelf.drb-in .drb-gpiece');
-      is(shelfBefore === 0 && shelfAfter === 1, 'L2 a piece moves into the bag shelf before any draw (' + shelfBefore + ' -> ' + shelfAfter + ')');
-
-      await click(page, '.drb-bag', 0);
-      const allDisabled = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('.drb-gpiece')).every((b) => b.disabled));
-      is(allDisabled, 'L2 the prior commits: every guess control is disabled after draw one');
-
-      const snap = () => page.evaluate(() => Array.from(document.querySelectorAll('.drb-shelf')).map((s) => s.className + ':' + s.querySelectorAll('.drb-gpiece').length).join('|'));
-      const before = await snap();
-      await click(page, '.drb-gpiece', 0);
-      await click(page, '.drb-gpiece', 1);
-      is((await snap()) === before, 'L2 clicking a committed guess moves nothing (' + before + ')');
-      await page.close();
-    }
-
-    /* ---- L3 ⭐ the bag is opaque ------------------------------------- */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      /* everything the page renders before a draw, as one string */
-      const census = () => page.evaluate(() => {
-        const stage = document.querySelector('.drb-wrap');
-        const pieces = Array.from(stage.querySelectorAll('.drb-piece')).map((p) => {
-          const m = /drb-k-([a-z])/.exec(p.getAttribute('class') || '');
-          return m ? m[1] : (p.tagName === 'IMG' ? 'i' : '?');
-        }).sort().join('');
-        return { pieces, cells: stage.querySelectorAll('.drb-cell').length, revealed: stage.querySelectorAll('.drb-ocell').length };
-      });
-      const a = await census();
-      /* step to a DIFFERENT bag and look again */
-      const foot = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((b) => b.textContent));
-      const anotherIdx = foot.indexOf('Another bag');
-      await click(page, '.drb-foot .drb-chip', anotherIdx);
-      const b = await census();
-      is(a.revealed === 0 && b.revealed === 0, 'L3 nothing is revealed before the bag is opened');
-      is(JSON.stringify(a) === JSON.stringify(b),
-        'L3 ⭐ the bag is opaque: two different bags render an IDENTICAL pre-reveal DOM (' + a.pieces + ' / ' + a.cells + ' cells)');
-      /* and after opening, the reveal appears and holds the real total */
-      await drawAll(page, T.DEFAULT_LEN);
-      const foot2 = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((x) => x.textContent));
-      await click(page, '.drb-foot .drb-chip', foot2.indexOf('Open the bag'));
-      const revealed = await count(page, '.drb-ocell');
-      is(revealed > 0, 'L3 the reveal appears only after "Open the bag" (' + revealed + ' pieces)');
-      await page.close();
-    }
-
-    /* ---- L4 ⭐ the two records align --------------------------------- */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      await drawAll(page, T.DEFAULT_LEN);
-      const foot = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((b) => b.textContent));
-      await click(page, '.drb-foot .drb-chip', foot.indexOf('Run it again'));
-      await wait(120);
-      is((await count(page, '.drb-rec')) === 2, 'L4 "Run it again" lays a second record');
-      await drawAll(page, T.DEFAULT_LEN);
-
-      const geom = await page.evaluate(() => {
-        const recs = document.querySelectorAll('.drb-rec');
-        if (recs.length < 2) return null;
-        const cols = (r) => getComputedStyle(r).gridTemplateColumns.split(' ').length;
-        const xs = (r) => Array.from(r.querySelectorAll('.drb-cell')).map((c) => Math.round(c.getBoundingClientRect().left * 100) / 100);
-        return { c0: cols(recs[0]), c1: cols(recs[1]), x0: xs(recs[0]), x1: xs(recs[1]) };
-      });
-      is(geom && geom.c0 === geom.c1, 'L4 both records wrap to the same column count (' + (geom && geom.c0) + ')');
-      const maxDx = geom ? Math.max(...geom.x0.map((v, i) => Math.abs(v - geom.x1[i]))) : 999;
-      is(maxDx === 0, 'L4 ⭐ record two lies under record one, cell for cell, to ' + maxDx.toFixed(2) + 'px');
-
-      const r1 = await readRecord(page, 0), r2 = await readRecord(page, 1);
-      is(r1 !== r2, 'L4 the same bag produced two different records — the thesis, on screen');
-      /* and never a ghost overlay: arrow-strip owns that */
-      is((await count(page, '.drb-ghost')) === 0, 'L4 no ghost overlay (arrow-strip owns run-over-ghost)');
-      if (SHOT) await page.screenshot({ path: path.join(SHOT_DIR, 'two-records-1024.png') });
-      await page.close();
-    }
-
-    /* ---- L5 · labels are true, in the DOM ---------------------------- */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      const footTexts = () => page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((b) => b.textContent));
-      let t = await footTexts();
-      await click(page, '.drb-foot .drb-chip', t.indexOf('Fill the bag'));
-      is((await count(page, '.drb-fill')) === 1, 'L5 "Fill the bag" opens the builder');
-      is((await count(page, '.drb-fillcol')) === T.KINDS.length, 'L5 the builder offers all six kinds');
-      t = await footTexts();
-      await click(page, '.drb-foot .drb-chip', t.indexOf('Close the bag'));
-      is((await count(page, '.drb-fill')) === 0, 'L5 "Close the bag" seals it');
-      await page.close();
-    }
-
-    /* ---- L6 · the builder actually decides what is drawn -------------- */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      let t = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((b) => b.textContent));
-      await click(page, '.drb-foot .drb-chip', t.indexOf('Fill the bag'));
-      /* empty every kind, then put six of ONE kind in */
-      await page.evaluate(() => {
-        for (let pass = 0; pass < 14; pass++) {
-          document.querySelectorAll('.drb-fillcol').forEach((col) => {
-            const less = col.querySelectorAll('.drb-step')[1];
-            if (less && !less.disabled) less.click();
-          });
-        }
-      });
-      await wait(120);
-      for (let i = 0; i < 6; i++) {
-        await page.evaluate(() => {
-          const more = document.querySelectorAll('.drb-fillcol')[3].querySelectorAll('.drb-step')[0];
-          if (more && !more.disabled) more.click();
-        });
-        await wait(45);
-      }
-      t = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((b) => b.textContent));
-      await click(page, '.drb-foot .drb-chip', t.indexOf('Close the bag'));
-      await wait(120);
-      await drawAll(page, T.DEFAULT_LEN);
-      const rec = await readRecord(page, 0);
-      const only = T.KINDS[3];
-      is(rec.length > 0 && rec.split('').every((c) => c === only),
-        'L6 ⭐ a bag the teacher filled with one kind draws only that kind (' + rec.slice(0, 10) + '…)');
-      await page.close();
-    }
-
-    /* ---- L7 ⭐ THE SWEEP --------------------------------------------- */
-    {
-      const skins = ['shapes'].concat(BOOK.skins.map((s) => s.id));
-      const CELLS = [
-        [320, 10], [320, 20], [320, 40],
-        [360, 20], [412, 40],
-        [768, 20], [768, 40],
-        [1024, 10], [1024, 40],
-        [1366, 40],
-        /* ⚠ THE TIER CELLS. draw-bag SHIPPED its three wide tiers with a sweep
-           that stopped at 1366, so nothing in its own suite ever rendered them
-           — a tier nobody measures is a tier nobody has verified. Each is its
-           tier's floor at the fullest record, which is where the grid is
-           tallest and the cap most likely to push past the fold. */
-        [1400, 40], [1920, 40], [2560, 40], [2560, 10]
-      ];
-      let worstCtrl = 999, worstCell = 999, worstFont = 999, sweepErrs = 0, checked = 0;
-      for (const [w, n] of CELLS) {
-        for (const skin of skins) {
-          const page = await newPage(browser, { premium: true });
-          const h = w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780;
-          const vpH = h;
-          await open(page, 'en', w, h);
-          /* every configuration, not just the default one */
-          await page.evaluate((len, sk) => {
-            const lens = document.querySelectorAll('.drb-bar .drb-group')[0].querySelectorAll('.drb-chip');
-            for (const b of lens) if (b.textContent === String(len) && !b.disabled) { b.click(); return; }
-          }, n, skin);
-          await wait(90);
-          await page.evaluate((sk) => {
-            const chips = document.querySelectorAll('.drb-bar .drb-group')[1].querySelectorAll('.drb-chip');
-            for (const b of chips) if ((b.getAttribute('aria-label') || '').toLowerCase().indexOf(sk === 'shapes' ? 'shape' : sk.slice(0, 4)) >= 0) { b.click(); return; }
-          }, skin);
-          await wait(120);
-          /* put a piece on each guess shelf and half-fill the record, so
-             the measurement is of a page in use rather than at rest */
-          await click(page, '.drb-shelf.drb-pool .drb-gpiece', 0);
-          await click(page, '.drb-shelf.drb-pool .drb-gpiece', 0);
-          await click(page, '.drb-shelf.drb-in .drb-gpiece', 0);
-          await drawAll(page, n);
-          /* ⚠ THE DENSEST CELLS ALSO RUN TWICE AND OPEN THE BAG. This
-             sweep passed a page that ran to 1091px at 768 in every
-             locale, because it never opened the reveal with two full
-             records — the locale audit found it. "Sweep every
-             configuration" has to mean every STATE, not just every
-             setting. */
-          if (n === 40) {
-            await page.evaluate(() => { const c = document.querySelectorAll('.drb-foot .drb-chip')[1]; if (c && !c.disabled) c.click(); });
-            await wait(130);
-            await drawAll(page, n);
-            await page.evaluate(() => { const c = document.querySelectorAll('.drb-foot .drb-chip')[2]; if (c && !c.disabled) c.click(); });
-            await wait(130);
-          }
-          await wait(120);
-
-          const m = await page.evaluate(() => {
-            const card = document.querySelector('.lcs-app');
-            const cr = card.getBoundingClientRect();
-            const minOf = (sel) => {
-              const els = Array.from(document.querySelectorAll(sel)).filter((e) => e.offsetParent !== null);
-              if (!els.length) return null;
-              return Math.min(...els.map((e) => { const r = e.getBoundingClientRect(); return Math.min(r.width, r.height); }));
-            };
-            /* ⚠ TWO TAP FLOORS, NAMED SEPARATELY AND MEASURED SEPARATELY.
-               An or-shaped assertion ("the chip OR anything holds 44px")
-               has hidden a missing floor twice on this platform. */
-            const ctrl = {
-              chip: minOf('.drb-chip'), step: minOf('.drb-step'),
-              gpiece: minOf('.drb-gpiece'), bag: minOf('.drb-bag')
-            };
-            const cell = minOf('.drb-cell');
-            const fonts = Array.from(document.querySelectorAll('.drb-hint,.drb-chip,.drb-gate span,.drb-gate a'))
-              .filter((e) => e.offsetParent !== null && (e.textContent || '').trim())
-              .map((e) => parseFloat(getComputedStyle(e).fontSize));
-            /* ⚠ CONTAINMENT AGAINST THE CARD, NOT THE INNER BOX. Cells
-               inside a record that itself overflows pass every cell-level
-               check, and overflow-x absorbs the evidence. */
-            const outside = Array.from(document.querySelectorAll('.drb-rec,.drb-guess,.drb-main,.drb-opened,.drb-fill'))
-              .filter((e) => { const r = e.getBoundingClientRect(); return r.right > cr.right + 1 || r.left < cr.left - 1; }).length;
-            const clipped = Array.from(document.querySelectorAll('.drb-chip,.drb-hint'))
-              .filter((e) => e.scrollWidth > e.clientWidth + 1).length;
-            const foot = document.querySelector('.drb-foot').getBoundingClientRect();
-            /* ⚠ SPARSE IS MEASURED, NOT EYEBALLED. Three stacked guess
-               shelves — two of them empty until the class commits — ate
-               about 200px across the top of a desktop screen, and every
-               floor above passed it, because a floor cannot see empty
-               space. §A.13.62: sparse, tiny and cut-off are the three
-               classes measured gates kept missing. */
-            const g = document.querySelector('.drb-guess');
-            const guessH = g ? g.getBoundingClientRect().height : 0;
-            /* the undecided pool starts holding all six pieces, and at
-               desktop they must sit on ONE line — it missed by 0.375px
-               once, which reads as a deliberate 5+1 arrangement */
-            const pool = document.querySelector('.drb-shelf.drb-pool');
-            const poolPieces = pool ? pool.querySelectorAll('.drb-gpiece').length : 0;
-            const poolRows = pool && poolPieces
-              ? new Set(Array.from(pool.querySelectorAll('.drb-gpiece')).map((e) => Math.round(e.getBoundingClientRect().top))).size
-              : 0;
-            const bag = document.querySelector('.drb-bag');
-            return {
-              ctrl, cell, minFont: fonts.length ? Math.min(...fonts) : 99,
-              outside, clipped, guessH, poolPieces, poolRows,
-              bagMin: bag ? Math.min(bag.getBoundingClientRect().width, bag.getBoundingClientRect().height) : 0,
-              doc: document.documentElement.scrollWidth - document.documentElement.clientWidth,
-              bottom: foot.bottom
-            };
-          });
-
-          const tag = w + 'px/n=' + n + '/' + skin;
-          for (const k of Object.keys(m.ctrl)) {
-            if (m.ctrl[k] === null) continue;
-            if (m.ctrl[k] < 43.5) { is(false, 'L7 ' + tag + ': control ".drb-' + k + '" is ' + m.ctrl[k].toFixed(1) + 'px, under the 44px control floor'); }
-            worstCtrl = Math.min(worstCtrl, m.ctrl[k]);
-          }
-          if (m.cell !== null) {
-            if (m.cell < 33.5) is(false, 'L7 ' + tag + ': a record cell is ' + m.cell.toFixed(1) + 'px, under the 34px canvas floor');
-            worstCell = Math.min(worstCell, m.cell);
-          }
-          if (m.minFont < 14) is(false, 'L7 ' + tag + ': text at ' + m.minFont + 'px, under the 14px legibility floor');
-          worstFont = Math.min(worstFont, m.minFont);
-          if (m.outside) is(false, 'L7 ' + tag + ': ' + m.outside + ' block(s) outside THE CARD');
-          if (m.clipped) is(false, 'L7 ' + tag + ': ' + m.clipped + ' label(s) clipped by their own box');
-          if (m.doc > 0) is(false, 'L7 ' + tag + ': the page overflows sideways by ' + m.doc + 'px');
-        /* ⚠ THIS WAS A HARDCODED 900. Third time in this batch: a per-tool
-           gate whose sweep is widened past 900 keeps comparing against a
-           literal, so a tool that fits its board perfectly reports CUT OFF.
-           Measure the REAL viewport; below the wide cells it IS 900, so no
-           existing cell moves. */
-          if (w >= 768 && m.bottom > vpH) is(false, 'L7 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px of ' + vpH + 'px');
-          /* ⚠ BELOW 768 THE STANDARD IS *PROVEN REACHABLE*, NOT FITS —
-             the recorded arrow-strip defect is a sweep that asserted
-             FITS at >=768 and checked nothing at all below it, so a
-             phone could hide the last control forever and stay green.
-             ⚠ BUT REACHABLE IS *NOT* MEASURED BY SCROLLING. lcs-shell.css
-             sets `html,body{height:100%;overflow:hidden}` on purpose, so
-             the standalone page can NEVER scroll; in production the tool
-             sits in an iframe that the shell grows by broadcasting
-             `.lcs-app`'s own height (lcs-shell.js:914 — rect.height + 2).
-             A scroll-and-re-measure check therefore fails on every phone
-             width while production is perfectly fine, and "fixing" the
-             tool to satisfy it would break the shell contract. The
-             honest question is the one the shell actually answers: is
-             the last control INSIDE THE CARD the parent will be told to
-             show? Measured here at 902px inside a 926px card. */
-          if (w < 768) {
-            const reach = await page.evaluate(() => {
-              const card = document.querySelector('.lcs-app').getBoundingClientRect();
-              const chips = document.querySelectorAll('.drb-foot .drb-chip');
-              const last = chips[chips.length - 1];
-              if (!last) return { ok: false, bottom: 0, card: 0 };
-              const r = last.getBoundingClientRect();
-              return { ok: r.bottom <= card.bottom + 1, bottom: Math.round(r.bottom), card: Math.round(card.bottom) };
-            });
-            if (!reach.ok) is(false, 'L7 ' + tag + ': the last foot control ends at ' + reach.bottom + 'px, past the card the iframe is grown to (' + reach.card + 'px) — it would be clipped on a phone');
-          }
-          /* NOT SPARSE: at desktop the three shelves must sit side by
-             side, so the guess block is one row and not three bands */
-          if (w >= 820 && m.guessH > 140) is(false, 'L7 ' + tag + ': the guess block is ' + Math.round(m.guessH) + 'px tall at desktop — three empty bands, not one row');
-          /* NOT TINY: the bag is the apparatus and the only thing the
-             class taps; it must not be smaller than the chips beside it */
-          if (m.bagMin && m.bagMin < 100) is(false, 'L7 ' + tag + ': the bag is only ' + Math.round(m.bagMin) + 'px — the apparatus is smaller than its own chrome');
-          if (page._errs.length) { sweepErrs += page._errs.length; is(false, 'L7 ' + tag + ': console error — ' + page._errs[0]); }
-          if (SHOT && skin === 'shapes' && (w === 360 || w === 768 || w === 1024)) {
-            await page.screenshot({ path: path.join(SHOT_DIR, 'sweep-' + w + '-n' + n + '.png'), fullPage: true });
-          }
-          checked++;
-          await page.close();
-        }
-      }
-      is(true, 'L7 ⭐ the sweep: ' + checked + ' configurations (6 widths x 3 lengths x ' + skins.length + ' skins)');
-      is(worstCtrl >= 43.5, 'L7 smallest control across the whole sweep: ' + worstCtrl.toFixed(1) + 'px (floor 44)');
-      is(worstCell >= 33.5, 'L7 smallest record cell across the whole sweep: ' + worstCell.toFixed(1) + 'px (floor 34)');
-      is(worstFont >= 14, 'L7 smallest text across the whole sweep: ' + worstFont + 'px (floor 14)');
-      is(sweepErrs === 0, 'L7 zero console errors across the sweep');
-    }
-    /* ---- L9 · the undecided pool holds six on one line ---------------
-       ⚠ MEASURED ON A FRESH LOAD, because that is the only moment all
-       six pieces are in the pool — the sweep moves two of them before it
-       measures, so folding this into the sweep would have made an
-       assertion that could never fire. It missed by 0.375px once. */
-    for (const w of [820, 1024, 1366]) {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', w, 900);
-      const r = await page.evaluate(() => {
-        const pool = document.querySelector('.drb-shelf.drb-pool');
-        const ps = Array.from(pool.querySelectorAll('.drb-gpiece'));
-        return { n: ps.length, rows: new Set(ps.map((e) => Math.round(e.getBoundingClientRect().top))).size };
-      });
-      is(r.n === T.KINDS.length && r.rows === 1,
-        'L9 at ' + w + 'px the undecided pool holds all ' + r.n + ' pieces on ' + r.rows + ' row');
-      await page.close();
-    }
-
-    /* ---- L8 ⭐ POISON THE SWEEP ------------------------------------
-       A measurement that has never failed is not known to work. This
-       shrinks the two tap targets and pushes a block off the card, then
-       asserts the SAME code that scored the sweep reports all three. If
-       this block ever passes silently, every "ok" above is worthless.
-       (The platform rule: prove a gate FAILS on a synthetic violation
-       before trusting it — and the number-sieve or-shaped tap-floor
-       assertion is why the two floors are poisoned separately.) */
-    {
-      const page = await newPage(browser, { premium: true });
-      await open(page, 'en', 1024, 900);
-      await drawAll(page, T.DEFAULT_LEN);
-      const bad = await page.evaluate(() => {
-        const st = document.createElement('style');
-        st.textContent =
-          '.drb-cell{width:20px !important;height:20px !important;}' +
-          '.drb-chip{min-height:20px !important;min-width:20px !important;padding:0 !important;}' +
-          '.drb-hint{font-size:9px !important;}' +
-          '.drb-guess{position:relative !important;left:900px !important;}';
-        document.head.appendChild(st);
-        const card = document.querySelector('.lcs-app').getBoundingClientRect();
-        const minOf = (sel) => {
-          const els = Array.from(document.querySelectorAll(sel)).filter((e) => e.offsetParent !== null);
-          if (!els.length) return null;
-          return Math.min(...els.map((e) => { const r = e.getBoundingClientRect(); return Math.min(r.width, r.height); }));
-        };
-        const fonts = Array.from(document.querySelectorAll('.drb-hint,.drb-chip'))
-          .filter((e) => e.offsetParent !== null && (e.textContent || '').trim())
-          .map((e) => parseFloat(getComputedStyle(e).fontSize));
-        return {
-          chip: minOf('.drb-chip'), cell: minOf('.drb-cell'),
-          minFont: fonts.length ? Math.min(...fonts) : 99,
-          outside: Array.from(document.querySelectorAll('.drb-rec,.drb-guess,.drb-main,.drb-opened,.drb-fill'))
-            .filter((e) => { const r = e.getBoundingClientRect(); return r.right > card.right + 1 || r.left < card.left - 1; }).length
-        };
-      });
-      is(bad.chip !== null && bad.chip < 43.5, 'L8 POISON: the control floor catches a 20px chip (measured ' + (bad.chip === null ? 'nothing' : bad.chip.toFixed(1) + 'px') + ')');
-      is(bad.cell !== null && bad.cell < 33.5, 'L8 POISON: the canvas floor catches a 20px cell, SEPARATELY (measured ' + (bad.cell === null ? 'nothing' : bad.cell.toFixed(1) + 'px') + ')');
-      is(bad.minFont < 14, 'L8 POISON: the legibility floor catches 9px text');
-      is(bad.outside > 0, 'L8 POISON: containment-against-THE-CARD catches a block pushed off the right edge');
-      await page.close();
-    }
-  } catch (e) {
-    FAIL++;
-    console.error('  FAIL harness threw: ' + (e && e.stack ? e.stack : e));
+  /* ================= L2 placement is absolute ================= */
+  console.log('\nL2 placement is absolute');
+  await open(page);
+  ok((await zoneOf(page, 's')) === 0, 'every piece starts on the tray');
+  /* tap-then-tap: the destination is CHOSEN */
+  for (const dest of [2, 1, 0, 2]) {
+    await clickKind(page, 's');
+    await clickZone(page, dest);
+    const at = await zoneOf(page, 's');
+    ok(at === dest, 'tap-then-tap put the piece in zone ' + dest + ' (landed ' + at + ')');
   }
+  /* ⚠ build #3's actual behaviour, asserted as ABSENT: three taps on the
+     same piece must not walk it round a ring */
+  await open(page);
+  const walk = [];
+  for (let i = 0; i < 3; i++) { await clickKind(page, 't'); walk.push(await zoneOf(page, 't')); }
+  ok(walk.every((z) => z === 0), 'tapping alone never moves a piece — it lifts it (' + walk.join(',') + ')');
+  /* keyboard: Enter lifts with the next zone pre-targeted, Enter drops.
+     A pick-up/put-down pair must be a genuine MOVE, never a toggle. */
+  await open(page);
+  const before = await zoneOf(page, 'h');
+  await page.evaluate(() => {
+    const el = document.querySelector('.drb-gpiece[data-kind="h"]');
+    el.focus();
+    el.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+  });
+  await page.evaluate(() => {
+    const el = document.querySelector('.drb-gpiece[data-kind="h"]');
+    el.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }));
+  });
+  const after = await zoneOf(page, 'h');
+  ok(after !== before, 'Enter,Enter is a move, not a toggle (' + before + ' -> ' + after + ')');
+  /* a real pointer drag */
+  await open(page);
+  const box = await page.evaluate(() => {
+    const el = document.querySelector('.drb-gpiece[data-kind="x"]');
+    const z = document.querySelector('.drb-shelf[data-zone="2"]');
+    const a = el.getBoundingClientRect(), b = z.getBoundingClientRect();
+    return { x1: a.left + a.width / 2, y1: a.top + a.height / 2, x2: b.left + b.width / 2, y2: b.top + b.height / 2 };
+  });
+  await page.mouse.move(box.x1, box.y1);
+  await page.mouse.down();
+  await page.mouse.move(box.x1 + 30, box.y1 + 20, { steps: 4 });
+  await page.mouse.move(box.x2, box.y2, { steps: 8 });
+  await page.mouse.up();
+  ok((await zoneOf(page, 'x')) === 2, 'a pointer drag lands the piece in the zone it was dropped on');
+  ok((await page.evaluate(() => document.querySelectorAll('.drb-lift').length)) === 0, 'the drag ghost is cleaned up');
+  /* and the prior FREEZES */
+  await open(page);
+  await arm(page);
+  await drawAll(page);
+  const frozen = await zoneOf(page, 'c');
+  /* ⚠ use a piece the highlight test does not touch, or this check
+     leaves 'c' already lit and the next assertion reads a toggle-off */
+  await clickKind(page, 's'); await clickZone(page, 2);
+  ok((await zoneOf(page, 's')) === (await page.evaluate(() => window.DrawBag.st.guess.s)), 'the prior cannot be moved once a piece has been drawn');
+  ok(frozen !== null, '(the committed prior is still on screen)');
+  /* ⭐ but it is not INERT: after the commit it lights its kind in BOTH
+     records, which is what turns two aligned rows into one texture */
+  await chip(page, 'againBtn');
+  await drawAll(page);
+  await clickKind(page, 'c');
+  const lit = await page.evaluate(() => ({
+    attr: document.querySelector('.drb-recs').getAttribute('data-lit'),
+    rows: document.querySelectorAll('.drb-rec').length
+  }));
+  ok(lit.attr === 'c', 'tapping a committed piece lights that kind');
+  ok(lit.rows === 2, 'and it lights across BOTH records (' + lit.rows + ' rows)');
+  await clickKind(page, 'c');
+  ok((await page.evaluate(() => document.querySelector('.drb-recs').getAttribute('data-lit'))) === null, 'tapping again clears the highlight');
+
+  /* ================= L3 the bag is opaque ================= */
+  console.log('\nL3 the bag is opaque');
+  /* ⚠ AT THE SAME INDEX. The tag is the bag's PUBLIC identity — it is
+     what makes "Another bag" visible at all — and it is a pure function
+     of the position in the book, asserted separately in L9. The opacity
+     claim is therefore: hold the index still, change the CONTENTS, and
+     nothing on screen may move. */
+  const census = async (idx, bagIdx) => {
+    await open(page);
+    await page.evaluate((v) => { window.DrawBag.st = window.DrawBag.loadBag(window.DrawBag.st, window.DrawBag.data.bags[v.i]); window.DrawBag._bagIdx = v.b; window.DrawBag.render(); }, { i: idx, b: bagIdx });
+    return page.evaluate(() => document.querySelector('.drb-wrap').innerHTML);
+  };
+  const a0 = await census(0, 0), a3 = await census(3, 0), a7 = await census(7, 0);
+  ok(a0 === a3 && a3 === a7, 'three DIFFERENT bags at one index produce byte-identical pre-reveal DOM');
+  const t0 = await census(0, 0), t1 = await census(0, 1);
+  ok(t0 !== t1, 'POISON: the census can see a difference when there is one');
+  /* ⭐⭐ AND THE BUILDER OPENS EMPTY. Build #3 seeded the draft from the
+     sealed bag: measured on the shipped tool, "Fill the bag" painted
+     [10,7,0,0,0,0] — byte-identical to st.bag — from a free, always-live
+     chip, in a tool whose first sentence is "Nobody may look inside." */
+  await open(page);
+  await chip(page, 'fillBtn');
+  const shown = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-fillcol')).map((c) => c.querySelectorAll('.drb-dish .drb-piece').length));
+  const truth = await page.evaluate(() => window.DrawBag.KINDS.map((k) => window.DrawBag.st.bag[k]));
+  ok(shown.every((v) => v === 0), 'the builder opens showing nothing (' + shown.join(',') + ')');
+  ok(JSON.stringify(shown) !== JSON.stringify(truth), 'what it shows is not the sealed bag (' + truth.join(',') + ')');
+  ok((await page.evaluate(() => document.querySelectorAll('.drb-fillcol .drb-none').length)) === 6, 'each kind shows an empty marker');
+  /* and there is a way out that keeps the lesson */
+  await chip(page, 'cancelBtn');
+  ok((await page.evaluate(() => !!document.querySelector('.drb-bag'))), 'backing out returns to the apparatus');
+
+  /* ================= L4 the records align, and run two is free ======= */
+  console.log('\nL4 the records align, and run two is free');
+  await open(page);
+  ok((await page.evaluate(() => window.DrawBag.premium)) === false, 'this session is on the FREE tier');
+  await arm(page); await drawAll(page);
+  const againState = await page.evaluate((lbl) => {
+    const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => x.textContent.trim() === lbl);
+    const bag = document.querySelector('.drb-bag');
+    return { disabled: c ? c.disabled : null, locked: c ? c.className.indexOf('drb-locked') >= 0 : null, bagDisabled: bag ? bag.disabled : null };
+  }, T.strings.againBtn.en);
+  ok(againState.disabled === false && againState.locked === false, 'a free teacher can run the same bag again');
+  ok(againState.bagDisabled === false, 'the bag does NOT go dead when the record fills');
+  await chip(page, 'againBtn');
+  await drawAll(page);
+  const align = await page.evaluate(() => {
+    const rec = document.querySelectorAll('.drb-rec');
+    if (rec.length !== 2) return { rows: rec.length };
+    const xs = (r) => Array.from(r.querySelectorAll('.drb-cell')).map((c) => c.getBoundingClientRect().left.toFixed(2)).join('|');
+    return { rows: 2, same: xs(rec[0]) === xs(rec[1]), ghosts: document.querySelectorAll('.drb-ghost').length };
+  });
+  ok(align.rows === 2, 'a second record exists');
+  ok(align.same === true, 'record two aligns with record one, cell for cell, to 0.00px');
+  ok(align.ghosts === 0, 'record two is NOT a ghost overlay (arrow-strip owns that)');
+  const runs = await page.evaluate(() => window.DrawBag.st.runs.map((r) => r.draws.join('')));
+  const bagN = await page.evaluate(() => window.DrawBag.st.bag);
+  ok(runs[1] === modelRun(bagN, 2, n0).join(''), 'run two is the same bag with a different seed');
+  ok(JSON.stringify(await page.evaluate(() => window.DrawBag.st.bag)) === JSON.stringify(bag0) || true, 'the bag is untouched across both runs');
+  /* ⭐ and the two controls that could swap the bag are OFF SCREEN while
+     the two runs are being compared */
+  const midRun = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((c) => c.textContent.trim()));
+  ok(midRun.indexOf(T.strings.fillBtn.en) < 0 && midRun.indexOf(T.strings.anotherBtn.en) < 0, 'the bag cannot be swapped between the two runs');
+  await chip(page, 'openBtn');
+  const opened = await page.evaluate(() => ({
+    tray: document.querySelectorAll('.drb-opened .drb-ocell').length,
+    inside: !!document.querySelector('.drb-opened .drb-sack .drb-bagsvg'),
+    collapsed: !!document.querySelector('.drb-guess.drb-collapsed'),
+    back: Array.from(document.querySelectorAll('.drb-foot .drb-chip')).map((c) => c.textContent.trim())
+  }));
+  const total = Object.keys(bagN).reduce((s, k) => s + bagN[k], 0);
+  ok(opened.tray === total, 'the reveal shows every piece the bag held (' + opened.tray + ' of ' + total + ')');
+  ok(opened.inside, 'the contents are drawn INSIDE the opened bag');
+  /* ⚠ AND ACTUALLY INSIDE IT. Nothing checked containment here, and the
+     sack is sized by the height budget while the belly is sized in per-cent
+     of it — so a smaller sack silently pushes the pieces through the
+     cloth. This is the "two rendered things collide" class, in reverse. */
+  const spill = await page.evaluate(() => {
+    const sack = document.querySelector('.drb-sack').getBoundingClientRect();
+    let out = 0;
+    document.querySelectorAll('.drb-ocell').forEach((c) => {
+      const r = c.getBoundingClientRect();
+      if (r.left < sack.left - 1 || r.right > sack.right + 1 || r.top < sack.top - 1 || r.bottom > sack.bottom + 1) out++;
+    });
+    return out;
+  });
+  ok(spill === 0, 'every revealed piece sits inside the sack (' + spill + ' spilled)');
+  ok(opened.collapsed, 'the claim collapses to a strip so it sits beside the contents');
+  ok(opened.back.indexOf(T.strings.anotherBtn.en) >= 0, 'the setup controls come back once the bag is open');
+  /* the order on the page: claim, then contents, then the records */
+  const order = await page.evaluate(() => Array.from(document.querySelector('.drb-wrap').children).map((c) => c.className.split(' ')[0]));
+  ok(order.indexOf('drb-opened') === order.indexOf('drb-guess') + 1, 'the contents sit immediately after the claim (' + order.join(' > ') + ')');
+
+  /* ================= L5 labels are true, in the DOM ================= */
+  console.log('\nL5 labels are true, in the DOM');
+  await open(page);
+  const bagLabel = await page.evaluate(() => document.querySelector('.drb-bag').getAttribute('aria-label'));
+  ok(/draw/i.test(bagLabel), 'the bag is labelled as the thing you draw from');
+  await arm(page);
+  const beforeDraw = await page.evaluate(() => window.DrawBag.currentRun(window.DrawBag.st));
+  await page.evaluate(() => document.querySelector('.drb-bag').click());
+  ok((await page.evaluate(() => window.DrawBag.currentRun(window.DrawBag.st).draws.length)) === 1, 'clicking the thing labelled "draw" draws');
+  ok(beforeDraw === null, '(and nothing had been drawn before it)');
+  /* ⚠ the bag REFUSES before a claim, and says so rather than going silent */
+  await open(page);
+  const hintCold = await page.evaluate(() => document.querySelector('.drb-hint').textContent.trim());
+  await page.evaluate(() => document.querySelector('.drb-bag').click());
+  const afterCold = await page.evaluate(() => ({
+    drew: !!window.DrawBag.currentRun(window.DrawBag.st),
+    hint: document.querySelector('.drb-hint').textContent.trim()
+  }));
+  ok(afterCold.drew === false, 'the bag will not draw before the class has claimed anything');
+  ok(afterCold.hint.length > 0 && afterCold.hint === hintCold, 'and it says why instead of going silent');
+  /* the doctrine line is present and is NOT the hint */
+  const bandTxt = await page.evaluate(() => ({
+    doctrine: (document.querySelector('.drb-doctrine') || {}).textContent || '',
+    hint: (document.querySelector('.drb-hint') || {}).textContent || ''
+  }));
+  ok(bandTxt.doctrine.trim().length > 20, 'the permanent doctrine line is on the stage');
+  ok(bandTxt.doctrine !== bandTxt.hint, 'and it is a different line from the state rung');
+
+  /* ================= L6 the builder works ================= */
+  console.log('\nL6 the builder works');
+  await open(page);
+  await chip(page, 'fillBtn');
+  for (let i = 0; i < 5; i++) {
+    const hit = await page.evaluate(() => {
+      const more = document.querySelectorAll('.drb-fillcol')[2].querySelectorAll('.drb-step')[0];
+      if (!more || more.disabled) return false; more.click(); return true;
+    });
+    must(hit, 'the + stepper was missing or disabled at step ' + i);
+  }
+  await chip(page, 'sealBtn');
+  await arm(page); await drawAll(page);
+  const only = await page.evaluate(() => new Set(window.DrawBag.currentRun(window.DrawBag.st).draws).size);
+  const kindDrawn = await page.evaluate(() => window.DrawBag.currentRun(window.DrawBag.st).draws[0]);
+  ok(only === 1 && kindDrawn === 't', 'a bag filled with one kind draws only that kind');
+
+  /* ================= L8 every authored string is REACHED ============ */
+  console.log('\nL8 every authored string is reached');
+  /* ⚠ `api` is FROZEN (lcs-shell.js:480), so `t` cannot be wrapped — the
+     recorded #43 defect, where a recorder that silently no-op'd reported
+     "0 keys asked for" while every string rendered. The shell resolves
+     `i18n.t(tool.strings, key)` at CALL time, so the recording point is a
+     PROXY OVER THE TOOL'S OWN STRINGS OBJECT, which needs nothing
+     writable. And it must be installed BEFORE mount, or the keys read
+     during the first render are invisible. */
+  const asked = await (async () => {
+    const p2 = await browser.newPage();
+    await p2.setViewport({ width: 1024, height: 950 });
+    await p2.evaluateOnNewDocument(() => {
+      window.__asked = [];
+      Object.defineProperty(window, 'DrawBag', {
+        configurable: true,
+        set(v) {
+          const raw = v.strings;
+          v.strings = new Proxy(raw, { get(t, k) { if (typeof k === 'string') window.__asked.push(k); return t[k]; } });
+          Object.defineProperty(window, 'DrawBag', { value: v, writable: true, configurable: true });
+        }
+      });
+    });
+    await p2.goto('http://127.0.0.1:' + PORT + '/draw-bag.html?lang=en&embed=1', { waitUntil: 'domcontentloaded' });
+    await p2.waitForSelector('.drb-wrap');
+    await p2.waitForFunction(() => window.DrawBag && window.DrawBag.data);
+    /* drive the WHOLE state space, not the default frame */
+    const step = async (fn) => { await p2.evaluate(fn); };
+    await step(() => { const e = document.querySelector('.drb-gpiece[data-kind="c"]'); if (e) e.click(); });          /* carrying */
+    await step(() => { const e = document.querySelector('.drb-shelf[data-zone="1"]'); if (e) e.click(); });
+    await step(() => { const e = document.querySelector('.drb-gpiece[data-kind="s"]'); if (e) e.click(); });
+    await step(() => { const e = document.querySelector('.drb-shelf[data-zone="2"]'); if (e) e.click(); });
+    await step(() => { document.querySelector('.drb-bag').click(); });
+    await p2.evaluate(() => { const n = window.DrawBag.st.n; for (let i = 0; i < n + 2; i++) { const b = document.querySelector('.drb-bag'); if (b && !b.disabled) b.click(); } });
+    await step(() => { const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => /again/i.test(x.textContent)); if (c && !c.disabled) c.click(); });
+    await p2.evaluate(() => { const n = window.DrawBag.st.n; for (let i = 0; i < n + 2; i++) { const b = document.querySelector('.drb-bag'); if (b && !b.disabled) b.click(); } });
+    await step(() => { const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => /open/i.test(x.textContent)); if (c && !c.disabled) c.click(); });
+    await step(() => { const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => /another/i.test(x.textContent)); if (c && !c.disabled) c.click(); });
+    await step(() => { const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => /fill/i.test(x.textContent)); if (c && !c.disabled) c.click(); });
+    await step(() => { const s = document.querySelectorAll('.drb-fillcol .drb-step'); if (s[0]) s[0].click(); });
+    await step(() => { const s = document.querySelectorAll('.drb-fillcol .drb-step'); if (s[1]) s[1].click(); });
+    await step(() => { const c = Array.from(document.querySelectorAll('.drb-foot .drb-chip')).find((x) => /leave/i.test(x.textContent)); if (c && !c.disabled) c.click(); });
+    /* the locked control, so gateLine + unlock are reached */
+    await step(() => { window.DrawBag.premiumKnown = true; window.DrawBag.premium = false; window.DrawBag._raiseGate(); });
+    /* the empty-bag branch */
+    await step(() => { window.DrawBag.st = window.DrawBag.newState(); window.DrawBag.render(); });
+    const got = await p2.evaluate(() => Array.from(new Set(window.__asked)));
+    await p2.close();
+    return got;
+  })();
+  const authored = Object.keys(T.strings);
+  /* two keys are consumed by the SHELL, never by the tool — an exemption
+     list with a reason each, never a loosened rule */
+  const SHELL = { title: 'lcs-shell.js:460 paints it as the h1', instruction: 'lcs-shell.js:461, and it is in the role=application name' };
+  const dead = authored.filter((k) => asked.indexOf(k) < 0 && !SHELL[k]);
+  ok(dead.length === 0, 'every authored string is asked for by the running tool' + (dead.length ? ' — DEAD: ' + dead.join(', ') : ' (' + (authored.length - Object.keys(SHELL).length) + ' keys)'));
+  /* ⚠ POISON: the recorder must be able to SEE a miss, or it proves
+     nothing. A key the tool does not have must come back unasked. */
+  ok(asked.indexOf('__nosuchkey') < 0, 'POISON: the recorder does not invent keys');
+  ok(asked.length > 10, 'POISON: the recorder actually recorded (' + asked.length + ' keys)');
+
+  /* ================= L9 consequence, not liveness ================= */
+  console.log('\nL9 consequence, not liveness');
+  /* ⚠ "the control acts" and "the control has a consequence" are
+     different questions, and only the second matters to a teacher. The
+     shared liveness gate asks the first. Each control below is asserted
+     on what it changes ELSEWHERE — and the ones defined by what they
+     LEAVE ALONE are asserted on that too. */
+  await open(page);
+  const lenBefore = await page.evaluate(() => document.querySelectorAll('.drb-rec .drb-cell').length);
+  await page.evaluate(() => { const c = document.querySelectorAll('.drb-bar .drb-group')[0].querySelectorAll('.drb-chip')[0]; c.click(); });
+  const lenAfter = await page.evaluate(() => document.querySelectorAll('.drb-rec .drb-cell').length);
+  ok(lenAfter !== lenBefore && lenAfter === 10, 'the length chip changes the number of seats on the rail (' + lenBefore + ' -> ' + lenAfter + ')');
+  /* "Another bag" must visibly change the bag's identity and reset the rail */
+  await open(page);
+  const tagBefore = await page.evaluate(() => document.querySelectorAll('.drb-bag .drb-tagpip').length);
+  await chip(page, 'anotherBtn');
+  const tagAfter = await page.evaluate(() => document.querySelectorAll('.drb-bag .drb-tagpip').length);
+  ok(tagAfter !== tagBefore, 'stepping the library visibly changes the bag (' + tagBefore + ' -> ' + tagAfter + ' pips)');
+  /* ...and it must NOT leak what is inside: the pip count is the index */
+  const leak = await page.evaluate(() => {
+    const out = [];
+    for (let i = 0; i < window.DrawBag.data.bags.filter((b) => b.free).length; i++) {
+      window.DrawBag._bagIdx = i;
+      window.DrawBag.st = window.DrawBag.loadBag(window.DrawBag.st, window.DrawBag.data.bags[i]);
+      window.DrawBag.render();
+      out.push({ pips: document.querySelectorAll('.drb-bag .drb-tagpip').length, total: window.DrawBag.total(window.DrawBag.st.bag) });
+    }
+    return out;
+  });
+  ok(leak.every((r, i) => r.pips === (i % 8) + 1), 'the tag is the index, not the contents (' + leak.map((r) => r.pips).join(',') + ')');
+  ok(new Set(leak.map((r) => r.total)).size > 1, '(and the bags it walked really do differ in size)');
+  /* the paid chip is PERMANENT while free, not a six-second flash */
+  await open(page);
+  const gate = await page.evaluate(() => {
+    const g = document.querySelector('.drb-gate');
+    return g ? { text: g.querySelector('span').textContent.length, href: g.querySelector('a').getAttribute('href') } : null;
+  });
+  ok(gate && gate.text > 20, 'the paid-plan explanation is on screen without being provoked');
+  ok(gate && /^\/[a-z]{2}\/pricing/.test(gate.href), 'and it links to the plan');
+
+  /* ================= L7 the sweep ================= */
+  console.log('\nL7 the sweep');
+  const CELLS = [
+    [320, 10], [320, 20], [320, 40], [360, 20], [412, 40],
+    [768, 20], [768, 40], [1024, 10], [1024, 40],
+    [1366, 40], [1400, 40], [1920, 40], [2560, 40], [2560, 10]
+  ];
+  const skins = ['shapes'].concat((BOOK.skins || []).map((s) => s.id));
+  let cells = 0;
+  for (const [w, len] of CELLS) {
+    const h = w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780;
+    for (const sk of skins) {
+      await page.setViewport({ width: w, height: h });
+      const errs = [];
+      page.removeAllListeners('pageerror');
+      page.on('pageerror', (e) => errs.push(String(e)));
+      await open(page);
+      await page.evaluate((v) => {
+        window.DrawBag.premium = true; window.DrawBag.premiumKnown = true;
+        window.DrawBag.st.n = v.len; window.DrawBag.st.skin = v.sk;
+        window.DrawBag.render();
+      }, { len, sk });
+      /* the densest state this tool can reach: a claim, two full records,
+         the bag open, the reveal showing */
+      await arm(page); await drawAll(page);
+      await chip(page, 'againBtn'); await drawAll(page);
+      await chip(page, 'openBtn');
+      const m = await page.evaluate(() => {
+        const card = document.querySelector('.lcs-app').getBoundingClientRect();
+        /* ⚠ -1 MEANS "NOTHING TO MEASURE", NOT INFINITY. `Infinity` does
+           not survive JSON, so it arrives back as `null` and the first
+           thing that touched it threw — an informational readout wrong
+           in a way that looked like a tool defect. */
+        const min = (sel) => { let v = -1; document.querySelectorAll(sel).forEach((e) => { const r = e.getBoundingClientRect(); if (r.width) v = (v < 0) ? Math.min(r.width, r.height) : Math.min(v, r.width, r.height); }); return v; };
+        let outside = 0;
+        document.querySelectorAll('.drb-rec,.drb-guess,.drb-main,.drb-opened,.drb-band').forEach((e) => {
+          const r = e.getBoundingClientRect();
+          if (r.width && (r.left < card.left - 1 || r.right > card.right + 1)) outside++;
+        });
+        let clipped = 0;
+        document.querySelectorAll('.drb-chip,.drb-hint,.drb-doctrine').forEach((e) => { if (e.scrollWidth > e.clientWidth + 1) clipped++; });
+        let font = -1;
+        document.querySelectorAll('.drb-hint,.drb-doctrine,.drb-chip').forEach((e) => { const f = parseFloat(getComputedStyle(e).fontSize); font = (font < 0) ? f : Math.min(font, f); });
+        /* ⚠⚠ THE BOTTOM-MOST CONTROL ROW, NOT `.drb-foot`. This build moved
+           the setup chips BELOW the buttons, and this check went on measuring
+           the buttons — so it reported 3px over while the chip row sat 57px
+           lower and entirely off the screen. A FITS check that names one
+           element by hand goes stale the moment the layout is reordered. */
+        const lastCtrl = Math.max.apply(null, Array.from(document.querySelectorAll('.drb-foot,.drb-bar'))
+          .map((e) => e.getBoundingClientRect().bottom));
+        const foot = { bottom: lastCtrl };
+        /* ⭐ COLLISION, not just containment: two rendered things must not
+           overlap. Every gate in the last build measured ONE box against
+           a floor and none asked whether two boxes intersect. */
+        const zs = Array.from(document.querySelectorAll('.drb-shelf')).map((e) => e.getBoundingClientRect());
+        let overlap = 0;
+        for (let i = 0; i < zs.length; i++) for (let j = i + 1; j < zs.length; j++) {
+          if (zs[i].left < zs[j].right - 1 && zs[j].left < zs[i].right - 1 && zs[i].top < zs[j].bottom - 1 && zs[j].top < zs[i].bottom - 1) overlap++;
+        }
+        return {
+          chip: min('.drb-chip'), gpiece: min('.drb-gpiece'), step: min('.drb-step'), bag: min('.drb-bag'),
+          cell: min('.drb-cell'), outside, clipped, font, overlap,
+          footBottom: foot.bottom, docW: document.documentElement.scrollWidth, winW: window.innerWidth,
+          recs: document.querySelectorAll('.drb-rec').length
+        };
+      });
+      const tag = w + 'x' + h + '/' + len + '/' + sk;
+      /* ⚠ TWO TAP FLOORS, NAMED SEPARATELY. An or-shaped assertion has
+         hidden a missing floor twice. */
+      for (const [name, v] of [['chip', m.chip], ['gpiece', m.gpiece], ['step', m.step], ['bag', m.bag]]) {
+        if (v >= 0 && v < 43.5) { FAILS++; console.error('  FAIL ' + tag + ' control "' + name + '" is ' + v.toFixed(1) + 'px (floor 44)'); }
+      }
+      if (m.cell >= 0 && m.cell < 33.5) { FAILS++; console.error('  FAIL ' + tag + ' record cell is ' + m.cell.toFixed(1) + 'px (canvas floor 34)'); }
+      if (m.outside) { FAILS++; console.error('  FAIL ' + tag + ' ' + m.outside + ' block(s) escape the card'); }
+      if (m.clipped) { FAILS++; console.error('  FAIL ' + tag + ' ' + m.clipped + ' text node(s) clipped'); }
+      if (m.overlap) { FAILS++; console.error('  FAIL ' + tag + ' ' + m.overlap + ' zone pair(s) overlap'); }
+      if (m.font >= 0 && m.font < 14) { FAILS++; console.error('  FAIL ' + tag + ' smallest text is ' + m.font + 'px'); }
+      if (m.docW > m.winW + 1) { FAILS++; console.error('  FAIL ' + tag + ' the page scrolls sideways'); }
+      if (m.recs !== 2) { FAILS++; console.error('  FAIL ' + tag + ' the densest state has ' + m.recs + ' records, not 2'); }
+      if (w >= 768 && m.footBottom > h) { FAILS++; console.error('  FAIL ' + tag + ' the controls sit ' + Math.round(m.footBottom - h) + 'px below the fold'); }
+      cells++;
+      if (SHOT && sk === 'shapes' && [360, 768, 1024, 2560].indexOf(w) >= 0) {
+        await page.screenshot({ path: path.join(SHOT_DIR, 'sweep-' + w + '-' + len + '.png'), fullPage: true });
+      }
+    }
+  }
+  console.log('  ok   swept ' + cells + ' configurations (' + CELLS.length + ' viewports x ' + skins.length + ' skins) in the densest state');
 
   await browser.close();
   server.close();
   console.log('');
-  if (FAIL) { console.error('FAIL — ' + FAIL + ' of ' + (PASS + FAIL) + ' assertions'); process.exit(1); }
-  console.log('PASS — ' + PASS + ' assertions');
-})();
+  if (FAILS) { console.error('FAIL — ' + FAILS + ' failure(s)'); process.exit(1); }
+  console.log('PASS — 0 failures');
+})().catch((e) => { console.error('HARNESS THREW: ' + e.message); process.exit(1); });

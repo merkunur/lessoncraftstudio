@@ -489,6 +489,11 @@ const modelRun = (bag, k, n) => { const sd = T.seedFor(bag, k), a = []; for (let
   console.log('\nL7 the sweep');
   const CELLS = [
     [320, 10], [320, 20], [320, 40], [360, 20], [412, 40],
+    /* ⭐ 704 IS THE PRODUCTION WIDTH. The tool page pins every iframe to
+       704px at 1440, 1920 and 2560 alike, so this is the ONLY width most
+       teachers will ever see the tool at — and it was absent from this
+       sweep while 768 and 1024 were in it. */
+    [704, 20], [704, 40],
     [768, 20], [768, 40], [1024, 10], [1024, 40],
     [1366, 40], [1400, 40], [1920, 40], [2560, 40], [2560, 10]
   ];

@@ -159,6 +159,19 @@ function serve() {
       T._openSheet(T.M.shiftKey(T._todayKey, 5)); T._paintSheet(); T._closeSheet();
       T.premium = true;
 
+      /* the countdown at n = 1 — the day before the trip, and the most
+         emotionally loaded frame the chip ever shows — and the span
+         stepper above 1, which is the only state that uses the plural
+         day unit */
+      w.events = {}; w.target = null;
+      const oneAway = T.M.addEvent(w, T.M.shiftKey(T._todayKey, 1), 'trip', '', 1, 'once');
+      T.M.setTarget(w, oneAway);
+      T._goWidget(0); paint();
+      T._draftSpan = 3;
+      T._openSheet(T.M.shiftKey(T._todayKey, 1)); T._paintSheet();
+      T._draftSpan = 1; T._paintSheet();
+      T._closeSheet();
+
       /* exactly one day in school, and a hundred */
       w.days = {}; T.M.setCountOn(w, T._todayKey, 1);
       T._goWidget(1); paint();
@@ -173,6 +186,17 @@ function serve() {
          all eleven locales failed for a reason that had nothing to do
          with the locales. A driver that leaves the subject somewhere
          arbitrary is measuring wherever it happened to stop. */
+      /* ⚠ PIN THE n=1 COUNTDOWN LAST. Setting it earlier did not
+         survive the states that followed, and a recorder can only see a
+         key that some paint actually asks for — so the state that needs
+         proving goes immediately before the final paint, not somewhere
+         hopeful in the middle. */
+      w.events = {}; w.target = null;
+      var soon = T.M.shiftKey(T._todayKey, 1), guard = 0;
+      while (!T.M.isSchoolDay(w, soon) && guard++ < 9) soon = T.M.shiftKey(soon, 1);
+      var one = T.M.addEvent(w, soon, 'trip', '', 1, 'once');
+      T.M.setTarget(w, one);
+      T._draftSpan = 1;
       T._armTeacher(false);
       T._closeSheet(); T._closePanel(); T._hideUndo();
       T._viewMonth = T.M.monthOf(T._todayKey);

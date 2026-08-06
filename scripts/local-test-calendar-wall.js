@@ -263,7 +263,16 @@ async function tap(page, sel, what) {
   }));
   if (free.digits !== '37') FAIL('the free tier shows "' + free.digits + '" for a class on day 37 — a counting instrument may not assert a false quantity');
   else OK('the count is TRUE on the free plan (37), and the record is what is withheld');
-  if (!free.gate) FAIL('no gate line explaining what a subscription adds'); else OK('the gate says what it withholds');
+  /* ⭐ THE ASSERTION IS INVERTED, and it is the panels' finding encoded.
+     There is NOTHING gated on the counter: historyVisible() is consulted
+     at exactly one call site in the tool — the weather chart — and
+     _saveStore persists the count and every ordinal for everybody. The
+     line that used to sit here claimed subscribers "keep the record",
+     which is false, and this gate REQUIRED it to be there. A paywall on
+     a widget with no paywall in it is the same offence as the false zero
+     it replaced, pointed outward instead of inward. */
+  if (free.gate) FAIL('a gate line is shown on a widget where nothing is actually withheld');
+  else OK('no paywall on the counter — because nothing there is withheld');
 
   /* ================= E. the weather month ================= */
   console.log('\nE. weather');

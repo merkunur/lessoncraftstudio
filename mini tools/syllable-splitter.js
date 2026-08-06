@@ -1395,12 +1395,20 @@ var SyllableSplitter = {
     var tabs = api.el('div', 'ss-tabs');
     tabs.setAttribute('role', 'tablist');
     [['sets', 'shelfPick'], ['mine', 'deskMine'], ['print', 'deskPrint']].forEach(function (t) {
-      var b = api.el('button', 'ss-tab' + (self.deskTab === t[0] ? ' ss-on' : ''));
+      var on = self.deskTab === t[0];
+      var b = api.el('button', 'ss-tab' + (on ? ' ss-on' : ''));
       b.type = 'button';
       b.setAttribute('role', 'tab');
-      b.setAttribute('aria-selected', String(self.deskTab === t[0]));
+      b.setAttribute('aria-selected', String(on));
       b.textContent = api.t(t[1]);
-      b.addEventListener('click', function () { self.deskTab = t[0]; self.render(); });
+      /* ⚠ THE SELECTED TAB IS NOT A CONTROL. Clicking what is already
+         showing changes nothing, and the shared liveness gate is right to
+         score that DEAD — it did, in all three entitlement states, and it
+         was the last dead control left in the tool. `aria-selected` already
+         carries the state; `disabled` stops us offering an action that
+         cannot happen. You cannot select what is selected. */
+      if (on) b.disabled = true;
+      else b.addEventListener('click', function () { self.deskTab = t[0]; self.render(); });
       tabs.appendChild(b);
     });
     head.appendChild(tabs);
@@ -2093,6 +2101,9 @@ function injectSyllableSplitterCSS() {
     + '.ss-tab{font:700 14px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF9EE;border:2px solid #146B5E22;'
     + 'border-radius:999px;padding:10px 15px;min-height:44px;cursor:pointer}'
     + '.ss-tab.ss-on{background:#146B5E;color:#FFFDF7;border-color:#146B5E}'
+    /* the selected tab is `disabled` (see the tab builder) — it must NOT
+       therefore look greyed out, because it is the ACTIVE one */
+    + '.ss-tab:disabled{cursor:default;opacity:1}'
     + '.ss-desk-close{font:600 14px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF3DC;border:2px solid #146B5E33;'
     + 'border-radius:999px;padding:10px 15px;min-height:44px;cursor:pointer}'
     + '.ss-desk-body{display:flex;flex-direction:column;gap:10px}'

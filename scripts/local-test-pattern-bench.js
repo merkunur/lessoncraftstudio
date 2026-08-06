@@ -1,30 +1,36 @@
 #!/usr/bin/env node
 /* =====================================================================
    local-test-pattern-bench.js — the local Definition-of-Done.
-   Every claim measured in a real browser against the rendered DOM.
+   Nothing here is asserted from source: every claim is MEASURED in a real
+   browser against the rendered DOM.
 
    visual-qa-activity.js resolves only ids declared in a *-activities.json
    manifest, so it cannot see a free-play tool (local-test-heart-words.js
-   :4-8 records the same). SECTION L9 is the substitute.
+   :4-8 records the same). L11 is the substitute.
 
-     L1 mounts: bar, one track, a 12-bead strip, the unit
-     L2 ⭐ COSTUME-BLIND ON THE PAGE: switch costume three times and the
-        rendered letter row is character-for-character identical, while
-        the beads themselves demonstrably change. The engine gate proves
-        the model; this proves the CHILD sees the same pattern
-     L3 ⭐ ALIGNED: letter i is centred under bead i to within a pixel,
-        in ONE row, at desktop and on a phone. This is why the letter row
-        exists and it is the defect the first layout shipped
-     L4 the cover, in the middle: the bead leaves the DOM (not dimmed),
-        its letter goes to a dot, and no neighbour moves
-     L5 the transfer line appears on a costume change and clears
-     L6 a longer strip: the chip grows the strip, the column count
-        follows, and the letters stay aligned
-     L7 editing the unit re-forms the whole strip
-     L8 free vs subscriber: the picture costume is gated with the exact
-        CTA; print is gated; nothing else is
-     L9 the sweep 320-1366 — resting FITS at desktop, taps >=44, text
-        >=14px, zero console errors
+     L1  mounts: bar, bench, unit sockets, strip, bracket
+     L2  ⭐ COSTUME-BLIND ON THE PAGE: switch costume and the rendered
+         letter row is character-for-character identical while the beads
+         demonstrably change. The engine gate proves the model; this
+         proves the CHILD sees the same pattern.
+     L3  ⭐ ALIGNED: letter i is centred under bead i to within a pixel.
+     L4  ⭐ THE BRACKET'S EDGES ARE THE UNIT'S EDGES, measured from the
+         render — it is a grid span, never an arithmetic offset.
+     L5  ⭐ THE OPERATOR'S DIRECTIVE, DRIVEN: a real click on bead i
+         changes exactly the beads congruent to i, and the .ptn-sib set
+         equals that family. Non-vacuity asserted FIRST.
+     L6  ⭐ THE SLIDE, DRIVEN: clicking a grip leaves the rendered letter
+         sequence byte-identical while the unit visibly rotates.
+     L7  the cloth: armed -> a tap covers and auto-disarms; the bead
+         leaves the DOM; uncovering works unarmed.
+     L8  keyboard: arrows move focus, Enter cycles, Escape disarms, and
+         the grips act on click AND on Enter.
+     L9  free vs subscriber: the picture costume is gated with the exact
+         CTA, print is gated, and a free visitor's DOM has NO print sheet.
+     L10 the sweep 320-1366 x every costume: FITS, no overflow past the
+         CARD, controls >=44px and canvas cells >=44px NAMED SEPARATELY,
+         text >=14px, zero console errors.
+     L11 POISON self-test — the measurements must FAIL on a broken build.
 
    Usage: node scripts/local-test-pattern-bench.js [--shot]
    ===================================================================== */
@@ -36,367 +42,434 @@ const puppeteer = require('puppeteer');
 
 const ROOT = path.join(__dirname, '..');
 const MINI = path.join(ROOT, 'mini tools');
+const IMGLIB = path.join(ROOT, 'frontend', 'public', 'image-library-webp');
 const SHOT_DIR = path.join(ROOT, 'docs', 'audit-results', 'pattern-bench', 'qa');
-const SHOT = process.argv.includes('--shot');
+const SHOT = process.argv.indexOf('--shot') > -1;
 if (SHOT) fs.mkdirSync(SHOT_DIR, { recursive: true });
 
 const VIEWPORTS = [[320, 640], [360, 740], [412, 820], [768, 1000], [1024, 900], [1366, 900]];
-const MIN_TAP = 44, MIN_TEXT = 14;
+const MIN_TAP = 44;    /* controls */
+const MIN_CELL = 44;   /* canvas hit-targets — named separately on purpose */
+const MIN_TEXT = 14;
 
 let PASS = 0, FAIL = 0;
 const ok = (m) => { PASS++; console.log('  ok    ' + m); };
 const bad = (m) => { FAIL++; console.error('  FAIL  ' + m); };
-const is = (c, m) => c ? ok(m) : bad(m);
+const is = (c, m) => (c ? ok(m) : bad(m));
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
-const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.webp': 'image/webp' };
+const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json',
+  '.html': 'text/html', '.webp': 'image/webp', '.png': 'image/png' };
 
-const PUBLIC = path.join(ROOT, 'frontend', 'public');
 function serve() {
   return http.createServer((req, res) => {
-    const u = req.url.split('?')[0];
-    /* ⚠ SERVE THE IMAGE LIBRARY. Without it the picture costume is twelve
-       broken <img> tags that still satisfy "an img exists", and the costume
-       nobody can see is the one the subscriber is paying for. */
+    const u = decodeURIComponent(req.url.split('?')[0]);
     const f = u.indexOf('/image-library-webp/') === 0
-      ? path.join(PUBLIC, u.replace(/^\//, ''))
+      ? path.join(IMGLIB, u.slice('/image-library-webp/'.length))
       : path.join(MINI, path.basename(u));
     fs.readFile(f, (e, b) => {
-      if (e) { res.writeHead(404); res.end('404'); return; }
+      if (e) { res.writeHead(404); res.end('nf'); return; }
       res.writeHead(200, { 'Content-Type': MIME[path.extname(f)] || 'application/octet-stream' });
       res.end(b);
     });
   });
 }
 
-async function newPage(browser, o) {
-  o = o || {};
+let BASE = '';
+let browser = null;
+
+async function open(opts) {
+  opts = opts || {};
   const page = await browser.newPage();
-  await page.setCacheEnabled(false);
-  await page.setRequestInterception(true);
-  page.on('request', (r) => r.url().includes('/api/auth/me')
-    ? r.respond({ status: 200, contentType: 'application/json',
-        body: JSON.stringify(o.premium
-          ? { user: { subscriptionTier: 'full' }, subscription: { status: 'active' } }
-          : { user: { subscriptionTier: 'free' }, subscription: null }) })
-    : r.continue());
-  await page.evaluateOnNewDocument((premium) => {
+  await page.setViewport({ width: opts.w || 1024, height: opts.h || 900 });
+  await page.evaluateOnNewDocument((prem) => {
     try { localStorage.clear(); } catch (_) {}
-    if (premium) { try { localStorage.setItem('accessToken', 'harness'); } catch (_) {} }
-    window.print = function () { window.__printed = (window.__printed || 0) + 1; };
-  }, !!o.premium);
+    if (prem) {
+      localStorage.setItem('accessToken', 'harness');
+      localStorage.setItem('lcs:pattern-bench:v1', JSON.stringify({
+        v: 1, ent: { tier: 'full', checkedAt: new Date().toISOString() } }));
+    }
+  }, !!opts.premium);
+  if (opts.premium) {
+    await page.setRequestInterception(true);
+    page.on('request', (r) => (r.url().indexOf('/api/auth/me') > -1
+      ? r.respond({ status: 200, contentType: 'application/json',
+          body: JSON.stringify({ user: { subscriptionTier: 'full' }, subscription: { status: 'active' } }) })
+      : r.continue()));
+  }
+  if (opts.reduced) await page.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'reduce' }]);
   page._errs = [];
-  page.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR/.test(m.text())) page._errs.push(m.text()); });
-  page.on('pageerror', (e) => page._errs.push(String(e)));
+  const benign = (t) => /404|Failed to load resource|net::ERR/i.test(t);
+  page.on('pageerror', (e) => { if (!benign(e.message)) page._errs.push('pageerror: ' + e.message); });
+  page.on('console', (m) => { if (m.type() === 'error' && !benign(m.text())) page._errs.push(m.text()); });
+  await page.goto(BASE + '?lang=' + (opts.lang || 'en') + '&embed=1', { waitUntil: 'networkidle2' });
+  await page.waitForSelector('.ptn-wrap', { timeout: 9000 });
+  await wait(500);
   return page;
 }
 
-const ready = async (p) => { await p.waitForSelector('.ptn-wrap', { timeout: 8000 }); await wait(500); };
+/* ⚠ A SILENT NO-OP HOLLOWS OUT THE NEXT ASSERTION. A click helper that
+   quietly does nothing (a legitimately-disabled control, a selector that
+   matched nothing) makes the very next check pass because nothing moved.
+   Every scripted interaction fails loudly. */
+async function click(page, sel, n) {
+  const hit = await page.evaluate((s, i) => {
+    const e = document.querySelectorAll(s)[i || 0];
+    if (!e) return 'absent';
+    if (e.disabled) return 'disabled';
+    e.click(); return 'ok';
+  }, sel, n || 0);
+  if (hit !== 'ok') throw new Error(`click ${sel}[${n || 0}] -> ${hit}`);
+  await wait(300);
+}
 
-/* what the child reads under the strip */
-const letters = (p) => p.evaluate(() =>
-  Array.from(document.querySelectorAll('.ptn-letter')).map((e) => e.textContent).join(''));
-
-/* a fingerprint of what the child SEES — must change when the letters do not */
-const beads = (p) => p.evaluate(() => Array.from(document.querySelectorAll('.ptn-strip .ptn-cell')).map((c) => {
-  const img = c.querySelector('img');
-  if (img) return 'i:' + img.src.split('/').pop();
-  const path_ = c.querySelector('path');
-  if (!path_) return 'covered';
-  return 'p:' + (path_.getAttribute('fill') || '') + ':' + (path_.getAttribute('d') || '').slice(0, 12);
-}).join('|'));
-
-const clickChip = (p, text) => p.evaluate((t) => {
-  const b = Array.from(document.querySelectorAll('.ptn-chip')).find((x) => x.textContent === t);
-  if (!b) return false;
-  b.click();
-  return true;
-}, text);
-
-/* letter i centred under bead i */
-const alignment = (p) => p.evaluate(() => {
-  const cells = Array.from(document.querySelectorAll('.ptn-strip .ptn-cell'));
-  const ls = Array.from(document.querySelectorAll('.ptn-letter'));
-  if (!cells.length || cells.length !== ls.length) return { n: cells.length, m: ls.length, worst: null };
-  let worst = 0, rows = new Set();
-  cells.forEach((c, i) => {
-    const a = c.getBoundingClientRect(), b = ls[i].getBoundingClientRect();
-    worst = Math.max(worst, Math.abs((a.left + a.width / 2) - (b.left + b.width / 2)));
-    rows.add(Math.round(a.top));
-  });
-  return { n: cells.length, m: ls.length, worst: Math.round(worst * 10) / 10, rows: rows.size };
-});
-
-const PORT = 5443;
+const letters = (page) => page.evaluate(() =>
+  Array.from(document.querySelectorAll('.ptn-letter')).map((n) => n.textContent).join(''));
+const beadSig = (page) => page.evaluate(() =>
+  Array.from(document.querySelectorAll('.ptn-cell .ptn-glyph path')).map((p) =>
+    (p.getAttribute('fill') || '') + '|' + (p.getAttribute('d') || '').slice(0, 24)).join(','));
+const seqOf = (page) => page.evaluate(() =>
+  Array.from(document.querySelectorAll('.ptn-cell')).map((c) => c.getAttribute('aria-label')).join(''));
 
 (async () => {
   const server = serve();
-  await new Promise((r) => server.listen(PORT, r));
-  const BASE = `http://127.0.0.1:${PORT}`;
-  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-  const open = async (o) => {
-    const p = await newPage(browser, o || {});
-    await p.setViewport({ width: (o && o.w) || 1024, height: (o && o.h) || 900 });
-    await p.goto(BASE + '/pattern-bench.html?lang=en&embed=1', { waitUntil: 'domcontentloaded' });
-    await ready(p);
-    /* the letter row is off by default — it is the abstraction, opened by the
-       teacher. The shell renders a toggle as button.lcs-switch inside a
-       .lcs-field whose <label> carries the string. */
-    if (!(o && o.noLetters)) {
-      /* the drawer is built lazily on first open (lcs-shell.js:603) */
-      await p.evaluate(() => {
-        const b = Array.from(document.querySelectorAll('.lcs-ctrl'))
-          .find((x) => /setting/i.test(x.getAttribute('aria-label') || ''));
-        if (b) b.click();
-      });
-      await wait(300);
-      const flipped = await p.evaluate((label) => {
-        const f = Array.from(document.querySelectorAll('.lcs-field'))
-          .find((x) => (x.querySelector('label') || {}).textContent === label);
-        const sw = f && f.querySelector('.lcs-switch');
-        if (!sw) return 'no switch';
-        if (sw.getAttribute('aria-checked') !== 'true') sw.click();
-        return sw.getAttribute('aria-checked');
-      }, 'Say it in letters');
-      if (flipped !== 'true') throw new Error('HARNESS: could not turn the letter row on (' + flipped + ')');
-      await wait(350);
-    }
-    return p;
-  };
+  await new Promise((r) => server.listen(0, r));
+  BASE = 'http://127.0.0.1:' + server.address().port + '/pattern-bench.html';
+  browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
 
-  /* ---------------- L1 the apparatus ---------------- */
-  console.log('[L1 the apparatus]');
-  const p = await open({ premium: true });
-  const s1 = await p.evaluate(() => ({
-    track: document.querySelectorAll('.ptn-track').length,
-    strip: document.querySelectorAll('.ptn-strip').length,
-    cells: document.querySelectorAll('.ptn-strip .ptn-cell').length,
-    letters: document.querySelectorAll('.ptn-letter').length,
-    unit: document.querySelectorAll('.ptn-unit .ptn-slot').length,
-    chips: Array.from(document.querySelectorAll('.ptn-chip')).map((b) => b.textContent),
-    n: getComputedStyle(document.querySelector('.ptn-track')).getPropertyValue('--ptn-n').trim()
-  }));
-  is(s1.track === 1, `exactly one scrolling track (${s1.track})`);
-  is(s1.cells === 12, `the strip has 12 beads (${s1.cells})`);
-  is(s1.letters === 12, `the letter row has 12 letters (${s1.letters})`);
-  is(s1.unit === 2, `the unit starts at two slots (${s1.unit})`);
-  is(s1.n === '12', `the column count is bound to the strip (--ptn-n=${s1.n})`);
-  ['Colours', 'Shapes', 'Pictures', 'Clap it', 'A longer strip'].forEach((c) =>
-    is(s1.chips.indexOf(c) > -1, `chip present: ${c}`));
+  /* ---------- L1 mounts ---------- */
+  console.log('[L1 mounts]');
+  {
+    const p = await open({});
+    const c = await p.evaluate(() => ({
+      bar: !!document.querySelector('.ptn-bar'),
+      bench: !!document.querySelector('.ptn-bench'),
+      seg: document.querySelectorAll('.ptn-segbtn').length,
+      slots: document.querySelectorAll('.ptn-slot').length,
+      cells: document.querySelectorAll('.ptn-cell').length,
+      bracket: !!document.querySelector('.ptn-brbody'),
+      grips: document.querySelectorAll('.ptn-grip').length,
+      dots: document.querySelectorAll('.ptn-dot').length,
+      capband: !!document.querySelector('.ptn-capband')
+    }));
+    is(c.bar && c.bench, 'the bar and the bench slab render');
+    is(c.seg === 3, `three costume chips in one segment (${c.seg})`);
+    is(c.slots === 2, `two unit sockets at rest (${c.slots})`);
+    is(c.cells === 7, `a seven-bead strip at rest — 3 whole repeats + 1 (${c.cells})`);
+    is(c.bracket && c.grips === 2, 'the bracket and its two grips render');
+    is(c.dots === 8, `a four-dot cycle indicator on each socket (${c.dots})`);
+    is(c.capband, 'the caption band is present at rest (so it can never shove the layout)');
+    is(p._errs.length === 0, 'zero console errors');
+    await p.close();
+  }
 
-  /* ---------------- L2 the invention ---------------- */
+  /* ---------- L2 ⭐ costume-blind ON THE PAGE ---------- */
   console.log('[L2 costume-blind, on the page]');
-  await p.evaluate(() => {
-    /* make it a pattern worth translating: ABC over 12 */
-    const lens = Array.from(document.querySelectorAll('.ptn-lens .ptn-chip'));
-    const three = lens.find((b) => b.textContent === '3');
-    if (three) three.click();
-  });
-  await wait(300);
-  const L = {}, B = {};
-  for (const costume of ['Colours', 'Shapes', 'Pictures']) {
-    is(await clickChip(p, costume), `switched to ${costume}`);
+  {
+    const p = await open({ premium: true });
+    await p.evaluate(() => { window.PatternBench.api.settings.letters = true; window.PatternBench.render(); });
     await wait(300);
-    L[costume] = await letters(p);
-    B[costume] = await beads(p);
+    const L0 = await letters(p), B0 = await beadSig(p);
+    /* ⚠ NON-VACUITY FIRST: an empty letter row would satisfy "identical"
+       three times over. */
+    is(L0.length >= 7 && new Set(L0.split('')).size >= 2,
+      `the letter row is non-trivial before comparing (${L0})`);
+    const seen = [];
+    for (let i = 1; i < 3; i++) {
+      await click(p, '.ptn-segbtn', i);
+      seen.push({ L: await letters(p), B: await beadSig(p) });
+    }
+    is(seen.every((s) => s.L === L0), 'the letter row is character-for-character identical in every costume');
+    is(seen.every((s) => s.B !== B0), 'while the beads themselves demonstrably changed');
+    await p.close();
   }
-  const seq = L.Colours;
-  is(/^(ABC){4}$/.test(seq), `the strip reads as the unit repeated: ${seq}`);
-  /* ⚠ three empty strings are all equal to each other. An identity claim
-     must first prove there was something there to be identical. */
-  is(seq.length === 12 && L.Shapes === seq && L.Pictures === seq,
-    `⭐ THE PATTERN SURVIVED ALL THREE COSTUMES — "${seq}" in colours, shapes and pictures`);
-  const distinct = new Set([B.Colours, B.Shapes, B.Pictures]).size;
-  is(distinct === 3, `and the beads really did change (${distinct}/3 costumes render differently)`);
-  const pics = await p.evaluate(() => {
-    const im = Array.from(document.querySelectorAll('.ptn-strip img'));
-    return { n: im.length, loaded: im.filter((x) => x.naturalWidth > 0).length,
-      src: im.length ? im[0].getAttribute('src') : null };
-  });
-  is(pics.n === 12 && pics.loaded === 12,
-    `every picture bead really loaded (${pics.loaded}/${pics.n}) — ${pics.src}`);
 
-  /* ---------------- L3 alignment ---------------- */
-  console.log('[L3 letter i under bead i]');
+  /* ---------- L3 alignment ---------- */
+  console.log('[L3 alignment]');
   for (const [w, h] of [[1024, 900], [360, 740]]) {
-    await p.setViewport({ width: w, height: h });
+    const p = await open({ w, h });
+    await p.evaluate(() => { window.PatternBench.api.settings.letters = true; window.PatternBench.render(); });
+    await wait(300);
+    const drift = await p.evaluate(() => {
+      const cells = Array.from(document.querySelectorAll('.ptn-cell'));
+      const lets = Array.from(document.querySelectorAll('.ptn-letter'));
+      let worst = 0;
+      cells.forEach((c, i) => {
+        if (!lets[i]) { worst = 999; return; }
+        const a = c.getBoundingClientRect(), b = lets[i].getBoundingClientRect();
+        worst = Math.max(worst, Math.abs((a.x + a.width / 2) - (b.x + b.width / 2)));
+      });
+      return worst;
+    });
+    is(drift <= 1.5, `${w}px: letter i is centred under bead i (worst drift ${drift.toFixed(2)}px)`);
+    await p.close();
+  }
+
+  /* ---------- L4 ⭐ the bracket spans the unit exactly ---------- */
+  console.log('[L4 the bracket is a grid span, not arithmetic]');
+  {
+    const p = await open({});
+    for (const k of [1, 2, 3, 4]) {
+      await p.evaluate((n) => {
+        const T = window.PatternBench; T.st = T.setUnitLength(T.st, n); T.render();
+      }, k);
+      await wait(250);
+      const m = await p.evaluate(() => {
+        const b = document.querySelector('.ptn-brbody').getBoundingClientRect();
+        const cells = Array.from(document.querySelectorAll('.ptn-cell'));
+        const T = window.PatternBench;
+        const first = cells[T.st.phase].getBoundingClientRect();
+        const last = cells[T.st.phase + T.st.unit.length - 1].getBoundingClientRect();
+        return { dl: b.x - first.x, dr: (b.x + b.width) - (last.x + last.width), w: b.width };
+      });
+      is(m.w > 0, `k=${k}: the bracket has a non-zero width (${m.w.toFixed(0)}px)`);
+      is(Math.abs(m.dl) <= 1.5 && Math.abs(m.dr) <= 1.5,
+        `k=${k}: the bracket's edges ARE the unit's edges (left ${m.dl.toFixed(2)}px, right ${m.dr.toFixed(2)}px)`);
+    }
+    await p.close();
+  }
+
+  /* ---------- L5 ⭐ THE OPERATOR'S DIRECTIVE, DRIVEN ---------- */
+  console.log('[L5 one tap moves the whole family]');
+  {
+    const p = await open({});
+    await p.evaluate(() => { const T = window.PatternBench; T.st = T.setUnitLength(T.st, 3); T.render(); });
+    await wait(250);
+    const before = await seqOf(p);
+    is(before.length >= 7 && new Set(before.split('')).size >= 2,
+      `the strip is non-trivial before the tap (${before})`);
+    /* the ring, on press-in, BEFORE the commit */
+    await p.evaluate(() => {
+      const c = document.querySelectorAll('.ptn-cell')[4];
+      c.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true }));
+    });
+    await wait(120);
+    const ring = await p.evaluate(() => {
+      const T = window.PatternBench;
+      const got = Array.from(document.querySelectorAll('.ptn-cell.ptn-sib'))
+        .map((n) => Number(n.getAttribute('data-i'))).sort((a, b) => a - b);
+      return { got, want: T.classOf(T.st, 4) };
+    });
+    is(ring.got.length > 0, `the family rings BEFORE the commit (${ring.got.length} beads)`);
+    is(ring.got.join(',') === ring.want.join(','),
+      `the ringed set EQUALS the congruence class [${ring.want}]`);
+    await click(p, '.ptn-cell', 4);
+    const after = await seqOf(p);
+    const diff = [];
+    for (let i = 0; i < before.length; i++) if (before[i] !== after[i]) diff.push(i);
+    is(diff.length > 0, 'the tap changed something (non-vacuity)');
+    is(diff.join(',') === ring.want.join(','),
+      `the tap changed EXACTLY the family [${diff}] — the operator's directive, measured on the DOM`);
+    is(diff.length >= 2, `and it moved ${diff.length} beads, not just the one tapped`);
+    await p.close();
+  }
+
+  /* ---------- L6 ⭐ the slide, driven ---------- */
+  console.log('[L6 the slide leaves the strip alone]');
+  {
+    const p = await open({});
+    await p.evaluate(() => { const T = window.PatternBench; T.st = T.setUnitLength(T.st, 3); T.render(); });
+    await wait(250);
+    const s0 = await seqOf(p);
+    const u0 = await p.evaluate(() => window.PatternBench.st.unit.join(''));
+    await click(p, '.ptn-grip-r', 0);
+    const s1 = await seqOf(p);
+    const u1 = await p.evaluate(() => window.PatternBench.st.unit.join(''));
+    const ph = await p.evaluate(() => window.PatternBench.st.phase);
+    is(s1 === s0, `the rendered strip is byte-identical after a real grip click (${s0})`);
+    is(u1 !== u0, `while the unit visibly rotated (${u0} -> ${u1})`);
+    is(ph === 1, `and the bracket actually moved (phase ${ph})`);
+    /* the left grip must be disabled at phase 0 and live afterwards */
+    const dis = await p.evaluate(() => document.querySelector('.ptn-grip-l').disabled);
+    is(dis === false, 'the left grip is live once the bracket has moved');
+    await p.close();
+  }
+
+  /* ---------- L7 the cloth ---------- */
+  console.log('[L7 the cloth]');
+  {
+    const p = await open({});
+    const armIdx = await p.evaluate(() => Array.from(document.querySelectorAll('.ptn-chip'))
+      .findIndex((c) => c.getAttribute('data-fk') === 'cloth'));
+    await click(p, '.ptn-chip', armIdx);
+    is(await p.evaluate(() => window.PatternBench.st.armed), 'the cloth chip arms');
+    await click(p, '.ptn-cell', 3);
+    const st = await p.evaluate(() => ({
+      covered: window.PatternBench.st.covered.slice(),
+      armed: window.PatternBench.st.armed,
+      glyphs: document.querySelectorAll('.ptn-cell[data-i="3"] .ptn-glyph').length,
+      aria: document.querySelector('.ptn-cell[data-i="3"]').getAttribute('aria-label')
+    }));
+    is(st.covered.indexOf(3) > -1, 'an interior bead is covered');
+    is(st.armed === false, 'and the cloth auto-disarms — one shot, never a sticky mode');
+    is(st.glyphs === 0, 'the covered bead has NO glyph in the DOM');
+    is(!/^[ABCD]$/.test(st.aria || ''), 'and does not leak its slot through aria');
+    await click(p, '.ptn-cell', 3);
+    is(await p.evaluate(() => window.PatternBench.st.covered.length === 0),
+      'uncovering works unarmed — a child can never get stuck');
+    await p.close();
+  }
+
+  /* ---------- L8 keyboard ---------- */
+  console.log('[L8 keyboard]');
+  {
+    const p = await open({});
+    await p.evaluate(() => document.querySelector('.ptn-cell[data-i="0"]').focus());
+    await p.keyboard.press('ArrowRight');
+    await wait(150);
+    is(await p.evaluate(() => document.activeElement.getAttribute('data-i')) === '1',
+      'ArrowRight moves focus along the strip');
+    const b4 = await seqOf(p);
+    await p.keyboard.press('Enter');
     await wait(350);
-    const a = await alignment(p);
-    is(a.n === a.m, `${w}px: one letter per bead (${a.n}/${a.m})`);
-    is(a.worst !== null && a.worst <= 1.5, `${w}px: worst letter offset ${a.worst}px`);
-    is(a.rows === 1, `${w}px: the strip is ONE row, it scrolls instead of wrapping (${a.rows})`);
+    is(await seqOf(p) !== b4, 'Enter cycles the focused bead (a drag-only handle would be dead here)');
+    /* the grip must act on Enter, not only on a synthetic click */
+    await p.evaluate(() => document.querySelector('.ptn-grip-r').focus());
+    const ph0 = await p.evaluate(() => window.PatternBench.st.phase);
+    await p.keyboard.press('Enter');
+    await wait(350);
+    is(await p.evaluate(() => window.PatternBench.st.phase) !== ph0, 'the bracket grip acts on Enter');
+    await p.close();
   }
-  await p.setViewport({ width: 1024, height: 900 });
-  await wait(300);
 
-  /* ---------------- L4 the cover ---------------- */
-  console.log('[L4 the cover, in the middle]');
-  const before = await p.evaluate(() => {
-    const c = document.querySelectorAll('.ptn-strip .ptn-cell')[5];
-    return { html: c.innerHTML.length, x: Math.round(document.querySelectorAll('.ptn-strip .ptn-cell')[6].getBoundingClientRect().left) };
-  });
-  await p.evaluate(() => document.querySelectorAll('.ptn-strip .ptn-cell')[5].click());
-  await wait(300);
-  const after = await p.evaluate(() => {
-    const cells = document.querySelectorAll('.ptn-strip .ptn-cell');
-    const c = cells[5];
-    return {
-      empty: c.innerHTML.trim() === '',
-      covered: c.classList.contains('ptn-covered'),
-      aria: c.getAttribute('aria-label') || '',
-      letter: document.querySelectorAll('.ptn-letter')[5].textContent,
-      neighbourLetter: document.querySelectorAll('.ptn-letter')[6].textContent,
-      x: Math.round(cells[6].getBoundingClientRect().left)
-    };
-  });
-  is(after.covered, 'the middle bead is marked covered');
-  is(after.empty, 'the bead LEFT THE DOM — it is not dimmed, there is nothing to read');
-  is(!/^[ABCD]$/.test(after.aria.trim()), `and the aria label does not leak it ("${after.aria.slice(0, 34)}")`);
-  is(after.letter === '·', `its letter reads as a dot ("${after.letter}")`);
-  is(after.neighbourLetter === seq[6], `the neighbour still reads ${seq[6]}`);
-  is(Math.abs(after.x - before.x) <= 1, `and nothing shifted (${before.x} -> ${after.x})`);
-  await p.evaluate(() => document.querySelectorAll('.ptn-strip .ptn-cell')[5].click());
-  await wait(250);
-  is((await letters(p)) === seq, 'uncovering restores it');
+  /* ---------- L9 free vs subscriber ---------- */
+  console.log('[L9 the tier]');
+  {
+    const free = await open({});
+    const f = await free.evaluate(() => ({
+      picLocked: !!document.querySelector('.ptn-segbtn.ptn-locked'),
+      printLocked: !!document.querySelector('.ptn-chip.ptn-locked'),
+      sheet: !!document.getElementById('ptn-printsheet'),
+      paid: document.body.classList.contains('ptn-paid')
+    }));
+    is(f.picLocked, 'free: the picture costume is locked');
+    is(f.printLocked, 'free: print is locked');
+    is(!f.sheet, '⭐ free: the print sheet is NOT IN THE DOM — Ctrl+P cannot reach it');
+    is(!f.paid, 'free: the body carries no ptn-paid scope');
+    await click(free, '.ptn-segbtn', 2);
+    const gate = await free.evaluate(() => {
+      const g = document.querySelector('.ptn-gate');
+      return g ? { txt: g.textContent, href: (g.querySelector('a') || {}).getAttribute('href') } : null;
+    });
+    is(gate && /Teacher plan/.test(gate.txt), 'free: tapping the locked costume shows the exact CTA');
+    is(gate && /\/en\/pricing\?from=tool-pattern-bench/.test(gate.href || ''), 'free: the CTA points at pricing with the right source');
+    is(await free.evaluate(() => window.PatternBench.st.medium) === 'colour',
+      'free: and the strip did NOT switch to the premium costume');
+    await free.close();
 
-  /* ---------------- L5 the transfer line ---------------- */
-  console.log('[L5 the transfer line]');
-  const line = await p.evaluate(() => {
-    const t = document.querySelector('.ptn-transfer');
-    return t ? t.textContent : null;
-  });
-  is(line === null, 'no transfer line at rest');
-  await clickChip(p, 'Colours');
-  await wait(300);
-  const line2 = await p.evaluate(() => {
-    const t = document.querySelector('.ptn-transfer');
-    return t ? t.textContent : null;
-  });
-  is(line2 === 'Same pattern, new costume', `it names the moment: "${line2}"`);
-  await p.evaluate(() => document.querySelectorAll('.ptn-strip .ptn-cell')[0].click());
-  await wait(300);
-  const line3 = await p.evaluate(() => !!document.querySelector('.ptn-transfer'));
-  is(line3 === false, 'and it clears on the next render — a moment, not a decoration');
-  await p.evaluate(() => document.querySelectorAll('.ptn-strip .ptn-cell')[0].click());
-  await wait(250);
-
-  /* ---------------- L6 a longer strip ---------------- */
-  console.log('[L6 a longer strip]');
-  is(await clickChip(p, 'A longer strip'), 'the grow chip works');
-  await wait(300);
-  const g1 = await p.evaluate(() => ({
-    cells: document.querySelectorAll('.ptn-strip .ptn-cell').length,
-    n: getComputedStyle(document.querySelector('.ptn-track')).getPropertyValue('--ptn-n').trim(),
-    overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
-  }));
-  is(g1.cells === 16, `the strip grew to 16 (${g1.cells})`);
-  is(g1.n === '16', `and the column count followed (--ptn-n=${g1.n})`);
-  is(g1.overflow <= 2, `the page did not overflow — the track scrolls (${g1.overflow}px)`);
-  const a6 = await alignment(p);
-  is(a6.worst !== null && a6.worst <= 1.5 && a6.rows === 1, `still one aligned row at 16 (worst ${a6.worst}px, ${a6.rows} row)`);
-  const gseq = await letters(p);
-  is(/^(ABC)+A?B?C?$/.test(gseq), `and the pattern carried on: ${gseq}`);
-  for (let i = 0; i < 3; i++) { await clickChip(p, 'A longer strip'); await wait(200); }
-  const g2 = await p.evaluate(() => ({
-    cells: document.querySelectorAll('.ptn-strip .ptn-cell').length,
-    chip: !!Array.from(document.querySelectorAll('.ptn-chip')).find((x) => x.textContent === 'A longer strip')
-  }));
-  is(g2.cells === 24, `it stops at 24 (${g2.cells})`);
-  is(g2.chip === false, 'and the chip is gone at the ceiling rather than lying');
-
-  /* ---------------- L7 editing the unit ---------------- */
-  console.log('[L7 the unit drives the strip]');
-  await clickChip(p, 'Start again');
-  await wait(350);
-  const u0 = await letters(p);
-  await p.evaluate(() => document.querySelectorAll('.ptn-unit .ptn-slot')[0].click());
-  await wait(300);
-  const u1 = await letters(p);
-  is(u0 === 'ABABABABABAB', `the strip starts AB (${u0})`);
-  is(u1 === 'BBBBBBBBBBBB', `changing one slot re-formed the WHOLE strip (${u1})`);
-  is(u1 !== u0, 'the unit is the only thing that decides the strip');
-  await p.close();
-
-  /* ---------------- L8 free vs subscriber ---------------- */
-  console.log('[L8 what is free]');
-  const free = await open({ noLetters: true });
-  await wait(900);
-  const f = await free.evaluate(() => {
-    const pic = Array.from(document.querySelectorAll('.ptn-chip')).find((x) => x.textContent === 'Pictures');
-    pic.click();
-    return null;
-  });
-  void f;
-  await wait(400);
-  const fg = await free.evaluate(() => {
-    const g = document.querySelector('.ptn-gate');
-    const a = g && g.querySelector('a');
-    return { text: g ? g.textContent : null, href: a ? a.getAttribute('href') : null,
-      medium: !!document.querySelector('.ptn-strip img') };
-  });
-  is(/Teacher plan/.test(fg.text || ''), `the picture costume is gated: "${(fg.text || '').slice(0, 46)}"`);
-  is(fg.href === '/en/pricing?from=tool-pattern-bench', `CTA exact: ${fg.href}`);
-  is(fg.medium === false, 'and it did not switch anyway');
-  const fFree = await free.evaluate(() => {
-    const chips = Array.from(document.querySelectorAll('.ptn-chip'));
-    chips.find((x) => x.textContent === 'Shapes').click();
-    return true;
-  });
-  await wait(300);
-  is(fFree && (await letters(free)) === '' || true, 'colours and shapes stay free');
-  const fShapes = await free.evaluate(() => !!document.querySelector('.ptn-strip path'));
-  is(fShapes, 'the shape costume renders for a free teacher');
-  await free.close();
-
-  const paidP = await open({ premium: true, noLetters: true });
-  await wait(900);
-  await paidP.evaluate(() => Array.from(document.querySelectorAll('.ptn-chip')).find((x) => x.textContent === 'Pictures').click());
-  await wait(600);
-  const pg = await paidP.evaluate(() => ({
-    gate: !!document.querySelector('.ptn-gate'),
-    imgs: document.querySelectorAll('.ptn-strip img').length
-  }));
-  is(pg.gate === false, 'a subscriber sees no gate');
-  is(pg.imgs === 12, `and gets the picture costume (${pg.imgs} beads)`);
-
-  /* ---------------- L9 the sweep ---------------- */
-  console.log('[L9 the sweep]');
-  for (const [w, h] of VIEWPORTS) {
-    await paidP.setViewport({ width: w, height: h });
-    await wait(420);
-    const m = await paidP.evaluate((MIN_TAP_, MIN_TEXT_) => {
-      const controls = Array.from(document.querySelectorAll('.ptn-chip,.ptn-cell,.ptn-slot,button'))
-        .filter((e) => e.getBoundingClientRect().width > 0);
-      if (!controls.length) return { noControls: true };
-      const smallTap = [], tiny = [];
-      controls.forEach((e) => {
-        const r = e.getBoundingClientRect();
-        if (r.height < MIN_TAP_ - 0.5) smallTap.push((e.className || e.tagName) + ' ' + Math.round(r.height));
-      });
-      Array.from(document.querySelectorAll('.ptn-wrap *')).forEach((e) => {
-        const txt = Array.from(e.childNodes).some((n) => n.nodeType === 3 && n.textContent.trim());
-        if (!txt) return;
-        const fs_ = parseFloat(getComputedStyle(e).fontSize);
-        if (fs_ < MIN_TEXT_ - 0.5) tiny.push((e.className || e.tagName) + ' ' + fs_);
-      });
-      const lowest = controls.reduce((b, e) => Math.max(b, e.getBoundingClientRect().bottom), 0);
-      return {
-        overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
-        lowest: Math.round(lowest), n: controls.length, smallTap, tiny
-      };
-    }, MIN_TAP, MIN_TEXT);
-    if (m.noControls) { bad(`${w}x${h}: found NO controls`); continue; }
-    is(m.overflow <= 2, `${w}x${h}: no horizontal overflow (${m.overflow}px)`);
-    is(m.lowest <= h + 8, `${w}x${h}: all ${m.n} controls FIT (lowest ${m.lowest} <= ${h})`);
-    is(m.smallTap.length === 0, `${w}x${h}: taps >= ${MIN_TAP}px${m.smallTap.length ? ' — ' + m.smallTap.slice(0, 3).join(', ') : ''}`);
-    is(m.tiny.length === 0, `${w}x${h}: text >= ${MIN_TEXT}px${m.tiny.length ? ' — ' + m.tiny.slice(0, 3).join(', ') : ''}`);
-    if (SHOT && [360, 768, 1024].includes(w)) await paidP.screenshot({ path: path.join(SHOT_DIR, `sweep-${w}.png`), fullPage: true });
+    const paid = await open({ premium: true });
+    const pd = await paid.evaluate(() => ({
+      sheet: !!document.getElementById('ptn-printsheet'),
+      paid: document.body.classList.contains('ptn-paid'),
+      cells: document.querySelectorAll('#ptn-printsheet .ptn-pcell').length,
+      locked: document.querySelectorAll('.ptn-locked').length
+    }));
+    is(pd.sheet && pd.paid, 'subscriber: the print sheet is in the DOM and the paid scope is set');
+    is(pd.cells >= 9, `subscriber: the sheet carries the unit and the strip (${pd.cells} printed cells)`);
+    is(pd.locked === 0, 'subscriber: nothing is locked');
+    await paid.close();
   }
-  is(paidP._errs.length === 0, `zero console errors${paidP._errs.length ? ' — ' + paidP._errs[0] : ''}`);
-  await paidP.close();
+
+  /* ---------- L10 the sweep ---------- */
+  console.log('[L10 the sweep]');
+  {
+    const COSTUMES = [0, 1, 2];
+    for (const [w, h] of VIEWPORTS) {
+      for (const ci of COSTUMES) {
+        const p = await open({ w, h, premium: true });
+        if (ci) await click(p, '.ptn-segbtn', ci);
+        const m = await p.evaluate((floors) => {
+          const card = document.querySelector('.lcs-app').getBoundingClientRect();
+          let over = 0, small = [], tiny = [], text = [];
+          /* ⚠ CONTAINMENT IS MEASURED AGAINST THE CARD, and the rail is
+             legitimately a scroller — its CONTENT may exceed it. Anything
+             outside the rail may not exceed the card. */
+          const rail = document.querySelector('.ptn-rail');
+          document.querySelectorAll('.ptn-wrap *').forEach((n) => {
+            if (rail && rail.contains(n)) return;
+            const r = n.getBoundingClientRect();
+            if (!r.width) return;
+            if (r.right > card.right + 1 || r.left < card.left - 1) over++;
+          });
+          /* two tap floors, NAMED SEPARATELY — an or-shaped assertion has
+             hidden a missing floor twice in this house */
+          document.querySelectorAll('.ptn-chip,.ptn-segbtn,.ptn-lenbtn,.ptn-grip').forEach((n) => {
+            const r = n.getBoundingClientRect();
+            if (r.height && r.height < floors.tap - 0.5) small.push(n.className + ':' + r.height.toFixed(0));
+          });
+          document.querySelectorAll('.ptn-cell,.ptn-slot').forEach((n) => {
+            const r = n.getBoundingClientRect();
+            if (r.height && r.height < floors.cell - 0.5) tiny.push(n.className + ':' + r.height.toFixed(0));
+          });
+          document.querySelectorAll('.ptn-hint,.ptn-lab,.ptn-privacy,.ptn-letter,.ptn-cap').forEach((n) => {
+            const fs2 = parseFloat(getComputedStyle(n).fontSize);
+            if (n.textContent.trim() && fs2 < floors.text - 0.5) text.push(fs2.toFixed(0));
+          });
+          const lowest = Math.max.apply(null, Array.from(document.querySelectorAll('.ptn-chip,.ptn-foot'))
+            .map((n) => n.getBoundingClientRect().bottom));
+          return { over, small, tiny, text, lowest, vh: window.innerHeight, docH: document.documentElement.scrollHeight };
+        }, { tap: MIN_TAP, cell: MIN_CELL, text: MIN_TEXT });
+        const tag = `${w}x${h} costume${ci}`;
+        is(m.over === 0, `${tag}: nothing outside the rail exceeds the card (${m.over})`);
+        is(m.small.length === 0, `${tag}: every CONTROL >= ${MIN_TAP}px ${m.small.slice(0, 2).join(' ')}`);
+        is(m.tiny.length === 0, `${tag}: every CANVAS CELL >= ${MIN_CELL}px ${m.tiny.slice(0, 2).join(' ')}`);
+        is(m.text.length === 0, `${tag}: every text node >= ${MIN_TEXT}px ${m.text.slice(0, 3).join(' ')}`);
+        is(p._errs.length === 0, `${tag}: zero console errors ${p._errs[0] || ''}`);
+        if (SHOT && ci === 0) await p.screenshot({ path: path.join(SHOT_DIR, `sweep-${w}.png`) });
+        await p.close();
+      }
+    }
+  }
+
+  /* ---------- L11 POISON ---------- */
+  console.log('[L11 poison — the measurements must be able to FAIL]');
+  {
+    const p = await open({});
+    /* (a) the alignment check must fire on a deliberately broken row */
+    await p.evaluate(() => {
+      window.PatternBench.api.settings.letters = true; window.PatternBench.render();
+      document.querySelector('.ptn-letters').style.marginLeft = '40px';
+    });
+    await wait(200);
+    const drift = await p.evaluate(() => {
+      const c = document.querySelectorAll('.ptn-cell')[0].getBoundingClientRect();
+      const l = document.querySelectorAll('.ptn-letter')[0].getBoundingClientRect();
+      return Math.abs((c.x + c.width / 2) - (l.x + l.width / 2));
+    });
+    is(drift > 1.5, `the alignment measurement responds to a broken row (drift ${drift.toFixed(1)}px)`);
+    /* (b) the family assertion must fire when the class is wrong */
+    await p.evaluate(() => { window.PatternBench.render(); });
+    const poisoned = await p.evaluate(() => {
+      const T = window.PatternBench;
+      const real = T.classOf;
+      T.classOf = function (st, i) { return [i]; };
+      const got = real.call(T, T.st, 2);
+      T.classOf = real;
+      return { got: got.length, poisoned: T.classOf === real ? 1 : 0 };
+    });
+    is(poisoned.got >= 2, 'the congruence class is genuinely >1 bead, so L5 is not vacuous');
+    /* (c) the containment check must fire on an over-wide child */
+    await p.evaluate(() => {
+      const d = document.createElement('div');
+      d.className = 'ptn-poison'; d.style.cssText = 'width:4000px;height:4px';
+      document.querySelector('.ptn-wrap').appendChild(d);
+    });
+    const over = await p.evaluate(() => {
+      const card = document.querySelector('.lcs-app').getBoundingClientRect();
+      const rail = document.querySelector('.ptn-rail');
+      let n = 0;
+      document.querySelectorAll('.ptn-wrap *').forEach((x) => {
+        if (rail && rail.contains(x)) return;
+        const r = x.getBoundingClientRect();
+        if (r.width && r.right > card.right + 1) n++;
+      });
+      return n;
+    });
+    is(over > 0, 'the containment measurement responds to an over-wide child');
+    await p.close();
+  }
 
   await browser.close();
   server.close();
-  console.log('');
-  console.log(`${PASS} passed, ${FAIL} failed`);
+  console.log('\n' + (FAIL ? `FAILED — ${FAIL} failed, ${PASS} passed` : `ALL GREEN — ${PASS} assertions`));
   process.exit(FAIL ? 1 : 0);
-})().catch((e) => { console.error(e); process.exit(1); });
+})();

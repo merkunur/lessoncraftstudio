@@ -43,12 +43,12 @@ module.exports = {
       'Drag the strand’s tip slowly, so the class watches the cord leave the curve and arrive on the line.',
       '⭐ Now make the shape much bigger and let it lie down again — the number does not change. This is the move the whole tool is for.',
       'Try the shape with three curved sides next to the circle, and let the class explain why they read the same.',
-      'Compare the strand with the shorter bar beneath it, which is the shape’s height, and say nothing at all about which is longer.'
+      'Put a second shape up and look at where the first one\'s mark still sits: each mark waits on the runway under a miniature of its own shape, and every miniature is the same width, so the class compares shapes that are no longer on the bench.'
     ],
     classroomIdeas: [
       'Predict first: every child writes down how many widths they expect, before the strand moves.',
       'Two shapes, one question — the crescent is shorter than the egg and carries more cord. Ask why.',
-      'Give a child a target: make the shape so the strand lands exactly on the fourth mark.',
+      'Give a target that can actually be met: find the shapes whose strand stops past the fourth mark — the crescent and the eye both do, and the circle never will, however big you make it.',
       'Run the circle three times at three sizes and record all three readings on the board, then look at the column.',
       'Do it on paper afterwards with real string round a jar lid, and compare what the class gets.',
       'Ask which shape would carry the most cord for its width, then check — the flower looks as round as the circle.'
@@ -56,7 +56,6 @@ module.exports = {
     metaTitle: 'All the Way Round — measure around a shape, K-2',
     metaDescription: 'A strand lies round a shape, then lies down straight on a scale ruled in the shape’s own width. A free whiteboard tool for measuring around, K-2.'
   },
-
   de: {
     slug: 'messen-rundherum-umfang-grundschule',
     name: 'Die Schnur rundherum',
@@ -73,12 +72,12 @@ module.exports = {
       'Zieht langsam am Ende der Schnur, damit alle sehen, wie sie den Bogen verlässt und auf der Leiste ankommt.',
       '⭐ Macht die Form jetzt viel größer und lasst die Schnur noch einmal hinlegen — die Zahl bleibt gleich. Dafür ist das ganze Werkzeug da.',
       'Legt danach die Form mit den drei gebogenen Seiten neben den Kreis und lasst erklären, warum beide dasselbe ergeben.',
-      'Vergleicht die Schnur mit dem kurzen Balken darunter — das ist die Höhe der Form — und sagt nichts darüber, was länger ist.'
+      'Nehmt danach die nächste Form: Das Zeichen der vorigen bleibt auf der Leiste stehen, darunter die Form im Kleinen, jede gleich breit — so seht ihr im Lauf der Stunde, wie viele ganz verschiedene Formen ihr Zeichen an derselben Stelle liegen lassen.'
     ],
     classroomIdeas: [
       'Erst schätzen: Jedes Kind schreibt auf, wie viele Breiten es erwartet, bevor sich die Schnur bewegt.',
       'Zwei Formen, eine Frage — der Mond ist niedriger als das Ei und braucht mehr Schnur. Warum?',
-      'Gebt ein Ziel vor: Stellt die Form so ein, dass die Schnur genau auf dem vierten Strich endet.',
+      'Gebt ein Ziel vor: Sucht die Form aus, deren Schnur über den vierten Strich hinausreicht — es gibt mehr als eine, und größer oder kleiner machen bringt dabei nichts.',
       'Messt denselben Kreis in drei Größen und schreibt alle drei Zahlen untereinander an die Tafel.',
       'Macht es danach auf Papier mit echter Schnur um einen Deckel und vergleicht.',
       'Fragt, welche Form für ihre Breite am meisten Schnur braucht, und prüft es nach — die Blume sieht so rund aus wie der Kreis.'
@@ -86,7 +85,6 @@ module.exports = {
     metaTitle: 'Die Schnur rundherum – messen rundherum, Klasse 1-2',
     metaDescription: 'Eine Schnur liegt rundherum um eine Form und legt sich gerade auf eine Leiste, die in der Breite der Form eingeteilt ist. Kostenlos am Whiteboard, Klasse 1-2.'
   },
-
   fr: {
     slug: 'mesurer-le-tour-dune-forme-cycle-2',
     name: 'La ficelle qui se couche',
@@ -103,12 +101,12 @@ module.exports = {
       'Faites glisser le bout de la ficelle lentement, pour que la classe la voie quitter la courbe et arriver sur la ligne.',
       '⭐ Agrandissez maintenant beaucoup la forme et recouchez la ficelle : le nombre ne change pas. C’est pour cela que l’outil existe.',
       'Placez ensuite la forme aux trois côtés courbes à côté du cercle et faites expliquer pourquoi les deux donnent la même chose.',
-      'Comparez la ficelle à la barre plus courte en dessous, qui est la hauteur de la forme, et ne dites rien sur ce qui est le plus long.'
+      'Couchez ensuite une deuxième forme et regardez le repère laissé par la première : chaque repère attend dans le couloir sous une miniature de sa forme, et toutes ces miniatures ont la même largeur — la classe compare donc des tours à largeur égale.'
     ],
     classroomIdeas: [
       'Estimer d’abord : chacun écrit combien de largeurs il attend, avant que la ficelle bouge.',
       'Deux formes, une question — le croissant est plus bas que l’œuf et prend plus de ficelle. Pourquoi ?',
-      'Donnez une cible : réglez la forme pour que la ficelle s’arrête pile sur la quatrième marque.',
+      'Donnez une cible atteignable : trouvez une forme dont la ficelle dépasse la quatrième marque. Le croissant de lune et l’amande y arrivent ; le cercle, lui, n’y arrivera jamais, même agrandi au maximum.',
       'Mesurez le même cercle à trois tailles et écrivez les trois nombres l’un sous l’autre au tableau.',
       'Refaites-le sur papier avec une vraie ficelle autour d’un couvercle et comparez.',
       'Demandez quelle forme prend le plus de ficelle pour sa largeur, puis vérifiez — la fleur paraît aussi ronde que le cercle.'
@@ -116,7 +114,6 @@ module.exports = {
     metaTitle: 'La ficelle qui se couche — mesurer le tour, cycle 2',
     metaDescription: 'Une ficelle fait le tour d’une forme puis se couche droite dans un couloir marqué à la largeur de la forme. Outil gratuit au TBI, cycle 2.'
   },
-
   es: {
     slug: 'medir-el-contorno-de-una-figura-primaria',
     name: 'La vuelta a la figura',
@@ -133,12 +130,12 @@ module.exports = {
       'Arrastra la punta del cordón despacio, para que la clase lo vea salir de la curva y llegar a la pista.',
       '⭐ Ahora haz la figura mucho más grande y vuelve a acostar el cordón: el número no cambia. Para esto existe la herramienta.',
       'Pon luego la figura de tres lados curvos junto al círculo y pide que expliquen por qué dan lo mismo.',
-      'Compara el cordón con la barra más corta de abajo, que es la altura de la figura, y no digas nada sobre cuál es mayor.'
+      'Pon ahora una segunda figura y mira dónde sigue la huella de la primera: cada huella se queda en la franja bajo una miniatura de su figura, y todas las miniaturas tienen el mismo ancho, así que el círculo y la curva de tres puntas se ven caer en el mismo punto.'
     ],
     classroomIdeas: [
       'Estimar primero: cada niño escribe cuántos anchos espera, antes de que el cordón se mueva.',
       'Dos figuras, una pregunta — la luna es más baja que el huevo y lleva más cordón. ¿Por qué?',
-      'Da un objetivo: ajusta la figura para que el cordón caiga justo en la cuarta marca.',
+      'Da un objetivo que sí se puede cumplir: encontrad las figuras cuyo cordón pasa de la cuarta marca de la franja — la media luna, el ojo, la flor, el cacahuete y la estrella lo consiguen, y el círculo no, por más grande que lo hagáis.',
       'Mide el mismo círculo en tres tamaños y escribe los tres números uno debajo de otro.',
       'Házlo después en papel con un cordón de verdad alrededor de una tapa y compara.',
       'Pregunta qué figura lleva más cordón para su ancho y comprobadlo — la flor parece tan redonda como el círculo.'
@@ -146,7 +143,6 @@ module.exports = {
     metaTitle: 'La vuelta a la figura: medir el contorno, 1.º y 2.º',
     metaDescription: 'Un cordón da la vuelta a una figura y se acuesta recto en una pista marcada con el ancho de la figura. Herramienta gratuita para la pizarra digital.'
   },
-
   pt: {
     slug: 'medir-a-volta-de-uma-figura-anos-iniciais',
     name: 'O Barbante do Contorno',
@@ -163,12 +159,12 @@ module.exports = {
       'Arraste a ponta do barbante devagar, para a turma ver ele sair da curva e chegar na trilha.',
       '⭐ Agora aumente bastante a figura e deite o barbante de novo: o número não muda. É para isso que a ferramenta existe.',
       'Depois ponha a figura de três lados curvos ao lado do círculo e peça que expliquem por que dão o mesmo.',
-      'Compare o barbante com a barra mais curta embaixo, que é a altura da figura, e não diga nada sobre qual é maior.'
+      'Ponha uma segunda figura e repare que a marquinha da primeira continua na trilha, embaixo de uma miniatura dela — e como todas as miniaturas têm a mesma largura, dá para ver de longe quais figuras pararam no mesmo ponto.'
     ],
     classroomIdeas: [
       'Estimar primeiro: cada criança escreve quantas larguras espera, antes de o barbante se mexer.',
       'Duas figuras, uma pergunta — a lua é mais baixa que o ovo e leva mais barbante. Por quê?',
-      'Dê um alvo: ajuste a figura para o barbante parar bem na quarta marca.',
+      'Dê um alvo: descubram quais figuras fazem o barbante passar da quarta marca — e confiram depois que mudar o tamanho não tira nenhuma delas dali.',
       'Meça o mesmo círculo em três tamanhos e escreva os três números um embaixo do outro.',
       'Depois faça no papel com barbante de verdade em volta de uma tampa e comparem.',
       'Pergunte qual figura leva mais barbante para a largura dela e confiram — a flor parece tão redonda quanto o círculo.'
@@ -176,7 +172,6 @@ module.exports = {
     metaTitle: 'O Barbante do Contorno | medir a volta de uma figura',
     metaDescription: 'Um barbante dá a volta numa figura e deita reto numa trilha marcada com a largura da figura. Ferramenta gratuita para a lousa digital.'
   },
-
   it: {
     slug: 'misurare-il-giro-di-una-figura-primaria',
     name: 'Lo spago del contorno',
@@ -193,12 +188,12 @@ module.exports = {
       'Trascinate la punta dello spago lentamente, così la classe lo vede lasciare la curva e arrivare sulla pista.',
       '⭐ Ora ingrandite molto la figura e fate stendere di nuovo lo spago: il numero non cambia. È per questo che lo strumento esiste.',
       'Poi mettete la figura con i tre lati curvi accanto al cerchio e fate spiegare perché danno lo stesso risultato.',
-      'Confrontate lo spago con la barra più corta sotto, che è l’altezza della figura, e non dite nulla su quale sia maggiore.'
+      'Mettete poi una seconda figura e guardate dove è rimasta l’impronta della prima: le impronte restano sulla pista, ognuna sotto la sua figura in miniatura e tutte larghe uguali, così la classe confronta anche figure che non sono più sul banco.'
     ],
     classroomIdeas: [
       'Prima la stima: ogni bambino scrive quante larghezze si aspetta, prima che lo spago si muova.',
       'Due figure, una domanda — la luna è più bassa dell’uovo e porta più spago. Perché?',
-      'Date un obiettivo: regolate la figura perché lo spago si fermi esattamente sulla quarta tacca.',
+      'Date un obiettivo possibile: trovate tutte le figure il cui spago supera la quarta tacca della pista — la mezzaluna, il chicco, il fiore, la nocciolina e il sole.',
       'Misurate lo stesso cerchio in tre grandezze e scrivete i tre numeri uno sotto l’altro.',
       'Rifatelo su carta con uno spago vero attorno a un coperchio e confrontate.',
       'Chiedete quale figura porta più spago per la sua larghezza, poi verificate — il fiore sembra rotondo come il cerchio.'
@@ -206,7 +201,6 @@ module.exports = {
     metaTitle: 'Lo spago del contorno — misurare il giro, primaria',
     metaDescription: 'Uno spago fa il giro di una figura e si stende dritto su una pista graduata con la larghezza della figura. Strumento gratuito per la LIM.'
   },
-
   nl: {
     slug: 'meten-rondom-een-vorm-groep-3',
     name: 'Helemaal rondom',
@@ -223,12 +217,12 @@ module.exports = {
       'Sleep het uiteinde langzaam, zodat de klas ziet hoe het touwtje de bocht verlaat en op de lijn aankomt.',
       '⭐ Maak de vorm nu veel groter en laat het touwtje opnieuw gaan liggen: het getal verandert niet. Daar is het hele gereedschap voor.',
       'Zet daarna de vorm met de drie ronde zijden naast de cirkel en laat uitleggen waarom ze hetzelfde geven.',
-      'Vergelijk het touwtje met het kortere balkje eronder, dat is de hoogte van de vorm, en zeg niets over wat langer is.'
+      'Zet er daarna een tweede vorm bij en laat het touwtje opnieuw gaan liggen: het stipje van de eerste vorm blijft gewoon op de weg staan, met een klein vormpje eronder dat precies even breed is als alle andere, en de klas ziet twee vormen die niets op elkaar lijken op dezelfde plek uitkomen.'
     ],
     classroomIdeas: [
       'Eerst schatten: elk kind schrijft op hoeveel breedtes het verwacht, voordat het touwtje beweegt.',
       'Twee vormen, één vraag — de maan is lager dan het ei en heeft meer touw nodig. Hoe kan dat?',
-      'Geef een doel: stel de vorm zo in dat het touwtje precies op het vierde streepje eindigt.',
+      'Geef een doel: zoek samen alle vormen waarvan het touwtje voorbij de vierde stap op de weg komt — het maantje, de amandel, de bloem, de pinda en de zon halen dat allemaal, en de vorm groter of kleiner maken verandert daar niets aan.',
       'Meet dezelfde cirkel in drie maten en schrijf de drie getallen onder elkaar op het bord.',
       'Doe het daarna op papier met echt touw om een deksel en vergelijk.',
       'Vraag welke vorm het meeste touw nodig heeft voor zijn breedte en controleer het — de bloem lijkt net zo rond als de cirkel.'
@@ -236,7 +230,6 @@ module.exports = {
     metaTitle: 'Helemaal rondom – meten rondom een vorm, groep 3/4',
     metaDescription: 'Een touwtje ligt rondom een vorm en gaat recht op een lijn liggen die verdeeld is in breedtes van de vorm. Gratis op het digibord, groep 3/4.'
   },
-
   sv: {
     slug: 'mata-runt-en-figur-lagstadiet',
     name: 'Snöret runt',
@@ -253,12 +246,12 @@ module.exports = {
       'Dra i snörets ände långsamt, så att klassen ser det lämna bågen och komma fram på spåret.',
       '⭐ Gör nu figuren mycket större och låt snöret lägga sig igen: talet ändras inte. Det är därför verktyget finns.',
       'Sätt sedan figuren med de tre bågformade sidorna bredvid cirkeln och låt klassen förklara varför de blir lika.',
-      'Jämför snöret med den kortare stapeln under, som är figurens höjd, och säg ingenting om vilket som är längst.'
+      'Byt sedan till en ny figur och titta ner på spåret: märket från den förra står kvar, under en miniatyr av den, och eftersom alla miniatyrer är lika breda blir raden av märken en jämförelse som står kvar hela lektionen.'
     ],
     classroomIdeas: [
       'Gissa först: varje barn skriver hur många bredder de tror, innan snöret rör sig.',
       'Två figurer, en fråga — månen är lägre än ägget och tar mer snöre. Hur kommer det sig?',
-      'Ge ett mål: ställ in figuren så att snöret slutar precis på fjärde strecket.',
+      'Ge ett mål som går att nå: leta upp de figurer vars snöre slutar bortom fjärde strecket — att göra figuren större hjälper inte, det är formen som avgör.',
       'Mät samma cirkel i tre storlekar och skriv de tre talen under varandra på tavlan.',
       'Gör det sedan på papper med riktigt snöre runt ett lock och jämför.',
       'Fråga vilken figur som tar mest snöre i förhållande till sin bredd, och kontrollera — blomman ser lika rund ut som cirkeln.'
@@ -266,7 +259,6 @@ module.exports = {
     metaTitle: 'Snöret runt – mäta runt en figur, åk 1–2',
     metaDescription: 'Ett snöre ligger runt en figur och lägger sig rakt på ett spår indelat i figurens egen bredd. Gratis att använda i klassrummet, åk 1–2.'
   },
-
   da: {
     slug: 'maale-hele-vejen-rundt-om-en-figur',
     name: 'Tråden om figuren',
@@ -283,12 +275,12 @@ module.exports = {
       'Træk langsomt i trådens ende, så klassen ser den forlade buen og nå frem på banen.',
       '⭐ Gør nu figuren meget større og lad tråden lægge sig igen: tallet ændrer sig ikke. Det er derfor værktøjet findes.',
       'Sæt derefter figuren med de tre buede sider ved siden af cirklen, og lad klassen forklare, hvorfor de bliver ens.',
-      'Sammenlign tråden med den kortere bjælke nedenunder, som er figurens højde, og sig ingenting om hvad der er længst.'
+      'Skift til den næste figur, og se, at mærket fra den forrige bliver stående på banen under en lille udgave af figuren — de små figurer er lige brede, så mærkerne kan sammenlignes, uden at nogen behøver sige, hvad der er længst.'
     ],
     classroomIdeas: [
       'Gæt først: hvert barn skriver, hvor mange bredder de tror, før tråden bevæger sig.',
       'To figurer, ét spørgsmål — månen er lavere end ægget og bruger mere tråd. Hvordan kan det være?',
-      'Giv et mål: indstil figuren, så tråden stopper præcis ved fjerde streg.',
+      'Giv et mål, der kan lykkes: find de figurer, hvis tråd stopper forbi den fjerde streg — cirklen gør det ikke, men månen og blomsten gør, og størrelsen ændrer det ikke.',
       'Mål den samme cirkel i tre størrelser og skriv de tre tal under hinanden på tavlen.',
       'Gør det bagefter på papir med rigtig tråd om et låg og sammenlign.',
       'Spørg, hvilken figur der bruger mest tråd i forhold til sin bredde, og tjek det — blomsten ser lige så rund ud som cirklen.'
@@ -296,7 +288,6 @@ module.exports = {
     metaTitle: 'Tråden om figuren – mål hele vejen rundt, 1.–2. kl.',
     metaDescription: 'En tråd ligger rundt om en figur og lægger sig lige ned på en bane inddelt i figurens egen bredde. Gratis værktøj til 1.–2. klasse.'
   },
-
   no: {
     slug: 'maale-hele-veien-rundt-en-figur',
     name: 'Hyssingsporet',
@@ -313,12 +304,12 @@ module.exports = {
       'Dra sakte i enden av hyssingen, så klassen ser den forlate buen og komme fram på sporet.',
       '⭐ Gjør nå figuren mye større og la hyssingen legge seg igjen: tallet endrer seg ikke. Det er derfor verktøyet finnes.',
       'Sett deretter figuren med de tre buede sidene ved siden av sirkelen, og la klassen forklare hvorfor de blir like.',
-      'Sammenlign hyssingen med den kortere stolpen under, som er høyden til figuren, og si ingenting om hva som er lengst.'
+      'Sett så opp en ny figur — merket etter den forrige blir stående igjen på sporet, under en liten utgave av figuren, og alle de små figurene er like brede, så klassen ser at sirkelen og den buede trekanten stanset på nøyaktig samme sted.'
     ],
     classroomIdeas: [
       'Gjett først: hvert barn skriver hvor mange bredder de tror, før hyssingen beveger seg.',
       'To figurer, ett spørsmål — månen er lavere enn egget og bruker mer hyssing. Hvordan kan det ha seg?',
-      'Gi et mål: still inn figuren slik at hyssingen stopper akkurat på fjerde strek.',
+      'Gi et mål som faktisk går an: finn en figur der hyssingen stopper forbi den fjerde streken på sporet — halvmånen, ovalen, blomsten, peanøtten og stjernen klarer det, mens sirkelen aldri gjør det, uansett hvor stor dere lager den.',
       'Mål den samme sirkelen i tre størrelser og skriv de tre tallene under hverandre på tavla.',
       'Gjør det etterpå på papir med ekte hyssing rundt et lokk og sammenlign.',
       'Spør hvilken figur som bruker mest hyssing i forhold til bredden sin, og sjekk — blomsten ser like rund ut som sirkelen.'
@@ -326,32 +317,31 @@ module.exports = {
     metaTitle: 'Hyssingsporet – mål hele veien rundt, 1.–2. trinn',
     metaDescription: 'En hyssing ligger rundt en figur og legger seg rett ut på et spor delt inn i figurens egen bredde. Gratis verktøy for 1.–2. trinn.'
   },
-
   fi: {
     slug: 'mittaa-kuvion-ympari-alkuopetus',
     name: 'Ympäri ja suoraksi',
-    tagline: 'Lanka kulkee kuvion ympäri ja asettuu sitten suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin — ympyrällä tulee aina kolme ja vähän päälle.',
+    tagline: 'Naru kulkee kuvion ympäri ja asettuu sitten suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin — ympyrällä tulee aina kolme ja vähän päälle.',
     about: [
-      'Litteä kuvio seisoo viivalla. Sen reunan ympäri kulkee lanka. Vedä langan päästä: se liukuu kuviolta pois ja asettuu suoraksi kaistalle, täsmälleen yhtä pitkänä kuin se oli kaarella. Kaistaa ei ole jaettu mihinkään sovittuun mittaan, vaan kuvion omaan leveyteen, jonka kaksi pientä viivaa sen alla näyttävät.',
-      'Kaarevan pituuden muuttaminen suoraksi on ainoa alkuopetuksen mittaamisen vaihe, josta ei ole olemassa pysähtynyttä kuvaa. Oikealla langalla sen tekee kerran, ja juuri siksi sitä ei melkein koskaan tehdä kahdesti: lanka menee solmuun, tunti loppuu, hetki ei tule uudelleen. Tästä rutiinista ei ole vaikuttavuustutkimusta emmekä sellaista väitä; työkalu tekee hetkestä toistettavan.',
-      'Ja sitten luku. Ympyrän lanka yltää vähän kolmannen viivan yli. Suurenna ympyrää: kaikki kasvaa mukana — reuna, lanka, viivat — ja langan pää jää samojen kahden viivan väliin. Kolme ja vähän päälle, jokaisella ympyrällä mitä on olemassa. Ja kuvio joka ei selvästikään ole ympyrä, jolla on kolme kaarevaa sivua, antaa täsmälleen saman kolme ja vähän päälle.',
-      'Ennen kuin mikään liikkuu, luokka asettaa lipun siihen kohtaan, johon se arvelee langan yltävän. Lippu lukittuu heti kun lanka lähtee liikkeelle, eikä sitä koskaan korjata eikä pisteytetä: se jää siihen mihin se asetettiin, sen viereen mihin lanka päätyi. Mikään ruudulla ei sano kumpi on pidempi. Käyttöön ei tarvitse osata lukea: kuvio, lanka ja rivi numeroita. Viisi kuviota ja koko laitteisto ovat ilmaisia; loput seitsemän ja tulostettava arkki kuuluvat Opettaja-tilaukseen.'
+      'Litteä kuvio seisoo viivalla. Sen reunan ympäri kulkee naru. Vedä narun päästä: se liukuu kuviolta pois ja asettuu suoraksi kaistalle, täsmälleen yhtä pitkänä kuin se oli kaarella. Kaistaa ei ole jaettu mihinkään sovittuun mittaan, vaan kuvion omaan leveyteen, jonka kaksi pientä viivaa sen alla näyttävät.',
+      'Kaarevan pituuden muuttaminen suoraksi on ainoa alkuopetuksen mittaamisen vaihe, josta ei ole olemassa pysähtynyttä kuvaa. Oikealla narulla sen tekee kerran, ja juuri siksi sitä ei melkein koskaan tehdä kahdesti: naru menee solmuun, tunti loppuu, hetki ei tule uudelleen. Tästä rutiinista ei ole vaikuttavuustutkimusta emmekä sellaista väitä; työkalu tekee hetkestä toistettavan.',
+      'Ja sitten luku. Ympyrän naru yltää vähän kolmannen viivan yli. Suurenna ympyrää: kaikki kasvaa mukana — reuna, naru, viivat — ja narun pää jää samojen kahden viivan väliin. Kolme ja vähän päälle, jokaisella ympyrällä mitä on olemassa. Ja kuvio joka ei selvästikään ole ympyrä, jolla on kolme kaarevaa sivua, antaa täsmälleen saman kolme ja vähän päälle.',
+      'Ennen kuin mikään liikkuu, luokka asettaa lipun siihen kohtaan, johon se arvelee narun yltävän. Lippu lukittuu heti kun naru lähtee liikkeelle, eikä sitä koskaan korjata eikä pisteytetä: se jää siihen mihin se asetettiin, sen viereen mihin naru päätyi. Mikään ruudulla ei sano kumpi on pidempi. Käyttöön ei tarvitse osata lukea: kuvio, naru ja rivi numeroita. Viisi kuviota ja koko laitteisto ovat ilmaisia; loput seitsemän ja tulostettava arkki kuuluvat Opettaja-tilaukseen.'
     ],
     howToUse: [
       'Nosta kuvio esiin ja kysy, kuinka pitkä matka on kuvion ympäri, ennen kuin mikään liikkuu.',
-      'Anna lapsen vetää lippu siihen kohtaan, johon hän arvelee langan yltävän, ja jätä se siihen.',
-      'Vedä langan päästä hitaasti, jotta luokka näkee sen lähtevän kaarelta ja saapuvan kaistalle.',
-      '⭐ Suurenna nyt kuviota paljon ja anna langan asettua uudelleen: luku ei muutu. Tätä varten koko työkalu on olemassa.',
+      'Anna lapsen vetää lippu siihen kohtaan, johon hän arvelee narun yltävän, ja jätä se siihen.',
+      'Vedä narun päästä hitaasti, jotta luokka näkee sen lähtevän kaarelta ja saapuvan kaistalle.',
+      '⭐ Suurenna nyt kuviota paljon ja anna narun asettua uudelleen: luku ei muutu. Tätä varten koko työkalu on olemassa.',
       'Aseta sitten kolmikaarinen kuvio ympyrän viereen ja anna luokan selittää, miksi ne antavat saman.',
-      'Vertaa lankaa sen alla olevaan lyhyempään palkkiin, joka on kuvion korkeus, äläkä sano mitään siitä kumpi on pidempi.'
+      'Nosta seuraava kuvio esiin: edellisen merkki jää kaistalle ja sen alle pienoiskuva kuviosta. Jokainen pienoiskuva on yhtä leveä, joten luokka näkee heti, että kolmikulmainen kaari pysähtyy täsmälleen ympyrän merkin kohdalle.'
     ],
     classroomIdeas: [
-      'Arvatkaa ensin: jokainen kirjoittaa, montako leveyttä odottaa, ennen kuin lanka liikkuu.',
-      'Kaksi kuviota, yksi kysymys — kuu on matalampi kuin muna ja vie enemmän lankaa. Miten niin?',
-      'Antakaa tavoite: säädä kuvio niin, että lanka päättyy täsmälleen neljänteen viivaan.',
+      'Arvatkaa ensin: jokainen kirjoittaa, montako leveyttä odottaa, ennen kuin naru liikkuu.',
+      'Kaksi kuviota, yksi kysymys — kuu on matalampi kuin muna ja vie enemmän narua. Miten niin?',
+      'Antakaa tavoite: etsikää kuvio, jonka naru pysähtyy vasta neljännen viivan jälkeen — ympyrä ei koskaan yllä sinne, mutta kuunsirppi ja silmä yltävät.',
       'Mitatkaa sama ympyrä kolmessa koossa ja kirjoittakaa kolme lukua allekkain taululle.',
-      'Tehkää se sen jälkeen paperilla oikealla langalla kannen ympäri ja vertailkaa.',
-      'Kysykää, mikä kuvio vie eniten lankaa leveyteensä nähden, ja tarkistakaa — kukka näyttää yhtä pyöreältä kuin ympyrä.'
+      'Tehkää se sen jälkeen paperilla oikealla narulla kannen ympäri ja vertailkaa.',
+      'Kysykää, mikä kuvio vie eniten narua leveyteensä nähden, ja tarkistakaa — kukka näyttää yhtä pyöreältä kuin ympyrä.'
     ],
     metaTitle: 'Ympäri ja suoraksi – mittaa kuvion ympäri, 1.–2. lk',
     metaDescription: 'Lanka kulkee kuvion ympäri ja asettuu suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin. Ilmainen työkalu 1.–2. luokan älytaululle.'

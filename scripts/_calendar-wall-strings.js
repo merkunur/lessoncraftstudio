@@ -19,8 +19,14 @@
    against English. Every round of this programme so far has had panels
    find real defects in the English nobody else reviews.
 
-   DROPPED FROM THE PREVIOUS BUILD, recorded so they are not restored by
-   reflex:
+   DROPPED, recorded so they are not restored by reflex:
+     flipAria       a fossil of the face-down-card flip the rebuild
+                    removed. 0 references.
+     loading        there is no loading state; nothing fetches. 0 refs.
+     patternOff     0 references. Written for a 'no card today' label
+                    that the inverted pattern made unnecessary: a day
+                    with no card simply has no tab drawn on it, which
+                    says it without a word in any language.
      yesterdayChip  the backfill it labelled is gone — any missed day can
                     now be filled, not just yesterday-if-premium.
      setWeekends    THE DEAD SETTING. Declared in `defaults` and in the
@@ -189,19 +195,6 @@ module.exports = {
     da: "Hør dagens dato",
     no: "Hør dagens dato",
     fi: "Kuuntele tämän päivän päivämäärä"
-  },
-  flipAria: {
-    en: "Turn over today’s card",
-    de: "Die Karte von heute umdrehen",
-    fr: "Retourner la carte d’aujourd’hui",
-    it: "Gira il cartellino di oggi",
-    es: "Voltear la tarjeta de hoy",
-    pt: "Virar o cartão de hoje",
-    nl: "De kaart van vandaag omdraaien",
-    sv: "Vänd på dagens kort",
-    da: "Vend dagens kort",
-    no: "Snu dagens kort",
-    fi: "Käännä tämän päivän kortti"
   },
   prevMonth: {
     en: "Previous month",
@@ -907,19 +900,6 @@ module.exports = {
     no: "Søndag",
     fi: "Sunnuntaista"
   },
-  loading: {
-    en: "Opening the wall…",
-    de: "Der Kalender wird geöffnet…",
-    fr: "Ouverture du calendrier…",
-    it: "Apertura del calendario…",
-    es: "Abriendo el calendario…",
-    pt: "Abrindo o mural…",
-    nl: "De dagopening wordt geopend…",
-    sv: "Öppnar kalendern…",
-    da: "Åbner væggen…",
-    no: "Åpner veggen…",
-    fi: "Avataan seinää…"
-  },
   kindOff: {
     draft: true,
     en: "No school",
@@ -1297,20 +1277,6 @@ module.exports = {
     da: "Hvilket kort kommer i morgen?",
     no: "Hvilket kort kommer i morgen?",
     fi: "Mikä kortti tulee huomenna?"
-  },
-  patternOff: {
-    draft: true,
-    en: "No card",
-    de: "Keine Karte",
-    fr: "Aucune carte",
-    it: "Nessun cartellino",
-    es: "Sin tarjeta",
-    pt: "Sem cartão",
-    nl: "Geen kaart",
-    sv: "Inget kort",
-    da: "Intet kort",
-    no: "Ingen kort",
-    fi: "Ei korttia"
   },
   setMeets: {
     draft: true,

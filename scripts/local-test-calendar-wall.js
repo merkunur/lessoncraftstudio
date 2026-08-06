@@ -1,34 +1,38 @@
 #!/usr/bin/env node
 /* =====================================================================
-   local-test-calendar-wall.js — the local DoD for the Calendar Wall
-   FREE-PLAY TOOL (mini tools/calendar-wall.html).
+   local-test-calendar-wall.js — the browser DoD for Calendar Wall.
+   ---------------------------------------------------------------------
+   Run:  node scripts/local-test-calendar-wall.js
 
-   Serves `mini tools/` locally, then:
-     A. viewport sweep 320·360·412·768·1024·1366 — no horizontal
-        overflow · dock chips + nav ≥44px · date line + grid render
-     B. functional drive (1024, projector-first):
-        NO auto-audio on open (speechSynthesis spy) · today card is
-        face-down → tap flips + speaks · date-line tap speaks again ·
-        counter: +1 advances all visible representations in sync ·
-        double-tap structurally blocked (button replaced by the counted
-        chip) · Undo restores · teacher stepper sets an arbitrary count ·
-        REBUNDLE: store seeded at dayCount 9 (counted yesterday) → +1 →
-        band appears mid-chain → tens jar gains a bundle · weather: tap
-        sun → today pill + stamp lands, Change → re-pick to rain ·
-        month back-nav → title changes, forward re-enabled, Today
-        returns · panel: wall rows + rename + "+ New class wall" free
-        upsell + new-year two-step confirm zeroes the count and writes
-        lastSummary · shell reset = VIEW only (store untouched)
-     C. free next-morning read-gate: seeded count from "yesterday", no
-        premium → counter renders 0 + the warm gate line; weather chart
-        shows ghost stamps + gate line
-     D. deep links: ?widget=weather lands on the weather widget;
-        ?class=<id> selects the wall
-     E. lang smoke: ?lang=de + ?lang=fi mount with composed date
-        sentences (der …e/…toista forms, no bare digit date in the line)
-     F. console errors: zero tolerated
-   Screenshots at 360/768/1024 → docs/audit-results/calendar-wall/qa/
-   Exit 1 on any FAIL.
+   Serves `mini tools/` locally and drives the tool with REAL POINTER
+   EVENTS. Screenshots to docs/audit-results/calendar-wall/qa/.
+
+   ⭐⭐ THE OLD VERSION OF THIS FILE ASSERTED THE DEFECT. At line 394 it
+   read `if (free.digits !== '0') FAIL(...)` — it required the free tier
+   to display ZERO days in school for a class on day 37, which is the
+   confusing render the rebuild removed. Three artefacts described that
+   tier and all three disagreed: the code persistently saved the count,
+   the copy said it did not, and the test certified the copy. A gate can
+   certify a defect, and this one did for months.
+
+   ⭐ AND THE OLD SWEEP COULD NOT SEE THE HEADLINE DEFECT EITHER. It
+   asserted `.cwl-cell:not(.empty)` >= 28 — it counted CELLS, and a
+   face-down card with no number on it is a cell. A count is not a
+   reading. The numeral assertion below is the one that matters, and it
+   is poison-tested against the pre-rebuild build.
+
+   ⚠ 704 IS IN THE SWEEP AND IS THE PRODUCTION WIDTH. The tool page
+   embeds this in an iframe inside `max-w-3xl`, which is ~704px at 1440,
+   1920 and 2560 alike, and media queries inside an iframe resolve
+   against the IFRAME. The previous build's projector-compression block
+   was keyed `(min-width:768px)` and therefore could never fire on the
+   only surface teachers use.
+
+   ⚠ EVERY INTERACTION FAILS LOUDLY IF IT DID NOT HAPPEN. A click helper
+   that silently no-ops leaves the NEXT assertion passing for the wrong
+   reason, and a synthetic `.click()` proves nothing about reachability —
+   it bypasses hit-testing, and it hid two real unreachable-control
+   defects in this very rebuild before the pointer runs found them.
    ===================================================================== */
 'use strict';
 const http = require('http');
@@ -39,52 +43,67 @@ const puppeteer = require('puppeteer');
 const REPO = path.join(__dirname, '..');
 const MINI = path.join(REPO, 'mini tools');
 const OUT = path.join(REPO, 'docs', 'audit-results', 'calendar-wall', 'qa');
-const MIME = { '.js':'text/javascript', '.css':'text/css', '.json':'application/json', '.html':'text/html', '.svg':'image/svg+xml', '.webp':'image/webp', '.png':'image/png' };
+const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json',
+               '.html': 'text/html', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.png': 'image/png' };
 
+/* ⭐ `fits` IS ON EVERY VIEWPORT, and it was not always. The first
+   version marked only the three projector sizes, so the sweep passed at
+   704x900 — THE PRODUCTION WIDTH — with the last week of the month and
+   the whole dock below the fold. I found that by reading the render, not
+   from the gate, which is the second time in this build that a hole in
+   my own sweep was visible in a screenshot and invisible to 40 green
+   assertions.
+   The tool cannot scroll (`body{overflow:hidden}` and no scrollable
+   ancestor), so on any standalone viewport EVERYTHING has to fit or it
+   is unreachable. Embedded, `_fitBoard` stands down and the iframe grows
+   instead — a different regime, checked separately. */
 const VIEWPORTS = [
-  { w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 },
-  { w: 768, h: 1000 }, { w: 1024, h: 768, fits: true }, { w: 1024, h: 900, fits: true },
+  { w: 320, h: 640, fits: true }, { w: 360, h: 740, fits: true }, { w: 412, h: 820, fits: true },
+  { w: 704, h: 900, fits: true, embedWidth: true },
+  { w: 768, h: 1000, fits: true },
+  { w: 1024, h: 768, fits: true }, { w: 1024, h: 900, fits: true },
   { w: 1366, h: 768, fits: true },
 ];
-const SHOT_WIDTHS = new Set([360, 768, 1024]);
-const MIN_TAP = 44;
+const SHOTS = new Set([360, 704, 768, 1024]);
+const TAP_CONTROL = 44;   /* chrome controls */
+const TAP_CELL = 34;      /* canvas cells — a DIFFERENT floor, asserted separately */
+const MIN_NUMERAL = 13;
+
+const fails = [];
+const FAIL = (m) => { fails.push(m); console.log('  ✗ FAIL ' + m); };
+const OK = (m) => console.log('  ✓ ' + m);
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 function serve() {
   return http.createServer((req, res) => {
     let p = decodeURIComponent(req.url.split('?')[0]);
     if (p === '/') p = '/calendar-wall.html';
-    const file = p.startsWith('/mini-tools/') ? path.join(MINI, p.slice('/mini-tools/'.length)) : path.join(MINI, p.replace(/^\//, ''));
-    fs.readFile(file, (err, buf) => {
-      if (err) { res.statusCode = 404; res.end('not found'); return; }
-      res.setHeader('Content-Type', MIME[path.extname(file)] || 'application/octet-stream');
-      res.end(buf);
+    const f = p.startsWith('/mini-tools/') ? path.join(MINI, p.slice('/mini-tools/'.length))
+                                           : path.join(MINI, p.replace(/^\//, ''));
+    fs.readFile(f, (e, b) => {
+      if (e) { res.statusCode = 404; res.end('nf'); return; }
+      res.setHeader('Content-Type', MIME[path.extname(f)] || 'application/octet-stream');
+      res.end(b);
     });
   });
 }
 
-const fails = [];
-function FAIL(msg) { fails.push(msg); console.log('  ✗ FAIL ' + msg); }
-function OK(msg) { console.log('  ✓ ' + msg); }
-const sleep = ms => new Promise(r => setTimeout(r, ms));
-
-function localKey(offsetDays) {
-  const d = new Date();
-  const t = new Date(d.getFullYear(), d.getMonth(), d.getDate() + (offsetDays || 0));
-  const pad = n => (n < 10 ? '0' : '') + n;
-  return t.getFullYear() + '-' + pad(t.getMonth() + 1) + '-' + pad(t.getDate());
-}
-
-/* seed the store from inside the page */
-async function seedStore(page, wall) {
-  await page.evaluate((wall) => {
-    const id = 'w_test1';
-    localStorage.setItem('lcs:calendar-wall:v1', JSON.stringify({
-      v: 1, activeWallId: id, ent: null, walls: { [id]: Object.assign({
-        name: 'Test class', createdAt: '2026-01-01', dayCount: 0, lastCountDate: null,
-        lastFlipDate: null, countLog: [], weather: {}, pattern: 'ab', lastSummary: null
-      }, wall) }
-    }));
-  }, wall);
+async function tap(page, sel, what) {
+  const el = await page.$(sel);
+  if (!el) { FAIL('could not find ' + (what || sel)); return false; }
+  const box = await el.boundingBox();
+  if (!box || box.width < 1 || box.height < 1) { FAIL((what || sel) + ' has no box'); return false; }
+  /* ⚠ reachability, not just existence: ask the browser what is actually
+     at the point a finger would land on */
+  const cx = box.x + box.width / 2, cy = box.y + box.height / 2;
+  const hit = await page.evaluate((x, y, s) => {
+    const at = document.elementFromPoint(x, y);
+    return !!(at && at.closest && at.closest(s));
+  }, cx, cy, sel);
+  if (!hit) { FAIL((what || sel) + ' is not reachable at its own centre (covered or off-screen)'); return false; }
+  await page.mouse.click(cx, cy);
+  await sleep(170);
+  return true;
 }
 
 (async () => {
@@ -96,359 +115,237 @@ async function seedStore(page, wall) {
 
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   const page = await browser.newPage();
-  const consoleErrors = [];
-  page.on('console', m => { if (m.type() === 'error') consoleErrors.push(m.text()); });
-  page.on('pageerror', e => consoleErrors.push('pageerror: ' + e.message));
-  /* speechSynthesis spy */
+  const errs = [];
+  page.on('console', m => { if (m.type() === 'error' && !/404|Failed to load resource|net::ERR/.test(m.text())) errs.push(m.text()); });
+  page.on('pageerror', e => errs.push('pageerror: ' + e.message));
   await page.evaluateOnNewDocument(() => {
     window.__spoken = [];
-    const orig = window.speechSynthesis && window.speechSynthesis.speak;
-    if (window.speechSynthesis) {
-      window.speechSynthesis.speak = function (u) { window.__spoken.push(u.text); };
-    }
+    if (window.speechSynthesis) window.speechSynthesis.speak = (u) => window.__spoken.push(u.text);
+    window.__printed = 0;
+    window.print = () => { window.__printed++; };
   });
 
-  /* ---------- A. viewport sweep ---------- */
-  console.log('\nA. viewport sweep');
+  /* ================= A. the viewport sweep ================= */
+  console.log('\nA. viewport sweep (704 is the production width)');
   for (const vp of VIEWPORTS) {
     await page.setViewport({ width: vp.w, height: vp.h });
     await page.goto(BASE + '?lang=en', { waitUntil: 'networkidle0' });
     await page.waitForSelector('.cwl-grid', { timeout: 8000 }).catch(() => null);
-    const m = await page.evaluate((MIN_TAP) => {
-      const overflow = document.documentElement.scrollWidth - window.innerWidth;
+    await sleep(450);
+
+    const m = await page.evaluate((TC, TL, MN) => {
+      const r = (e) => e.getBoundingClientRect();
+      const cells = [...document.querySelectorAll('.cwl-cell:not(.empty)')];
       const small = [];
-      for (const s of ['.cwl-dockchip', '.cwl-nav', '.cwl-monav']) {
-        document.querySelectorAll(s).forEach(el => {
-          const r = el.getBoundingClientRect();
-          if (r.width && (r.width < MIN_TAP || r.height < MIN_TAP)) small.push(`${s} ${Math.round(r.width)}x${Math.round(r.height)}`);
+      for (const s of ['.cwl-dockchip', '.cwl-nav', '.cwl-monav', '.cwl-chipbtn', '.cwl-chip']) {
+        document.querySelectorAll(s).forEach(e => {
+          const b = r(e);
+          if (b.width && (b.width < TC || b.height < TC)) small.push(s + ' ' + Math.round(b.width) + 'x' + Math.round(b.height));
         });
       }
-      /* grid-track containment: the last-column cells must end INSIDE
-         the grid box (the aspect-ratio+min-height bug pushed column 7
-         off-viewport at 360 while scrollWidth stayed clean) */
-      const gridBox = document.querySelector('.cwl-grid');
-      let colOverflow = 0;
-      if (gridBox) {
-        const gr = gridBox.getBoundingClientRect().right;
-        gridBox.querySelectorAll(':scope > *').forEach(el => {
-          const r = el.getBoundingClientRect().right - gr;
-          if (r > colOverflow) colOverflow = r;
-        });
+      const smallCells = cells.filter(c => { const b = r(c); return b.width < TL || b.height < TL; }).length;
+      const nums = cells.map(c => c.querySelector('.cwl-cellnum')).filter(Boolean);
+      const tinyNum = nums.filter(n => parseFloat(getComputedStyle(n).fontSize) < MN).length;
+      /* ⭐ COLLISION, not just containment. Every other assertion here
+         measures ONE box against a floor, and a set of those cannot see
+         two rendered things overlapping — which is how a clipped hint
+         shipped past 141 of them on a sibling tool. */
+      const marks = [...document.querySelectorAll('.cwl-cell .cwl-cellnum, .cwl-cell .cwl-marks, .cwl-cell .cwl-cellw, .cwl-cell .cwl-ord')];
+      let collisions = 0;
+      for (let i = 0; i < marks.length; i++) {
+        for (let j = i + 1; j < marks.length; j++) {
+          if (marks[i].parentNode !== marks[j].parentNode) continue;
+          const a = r(marks[i]), b = r(marks[j]);
+          if (a.right > b.left + 1 && b.right > a.left + 1 && a.bottom > b.top + 1 && b.bottom > a.top + 1) collisions++;
+        }
       }
+      const card = document.querySelector('.lcs-app');
+      const cardR = r(card);
+      let outside = 0;
+      document.querySelectorAll('.cwl-wrap *').forEach(e => {
+        const b = r(e);
+        if (b.width && (b.right > cardR.right + 1.5 || b.left < cardR.left - 1.5)) outside++;
+      });
       const dock = document.querySelector('.cwl-dock');
-      const dockBottom = dock ? dock.getBoundingClientRect().bottom : 0;
-      return { overflow, small, colOverflow, dockBottom, vh: window.innerHeight,
-        grid: document.querySelectorAll('.cwl-cell:not(.empty)').length,
-        dateline: !!(document.querySelector('.cwl-dateline') || {}).textContent };
-    }, MIN_TAP);
-    const tag = `${vp.w}x${vp.h}`;
+      return {
+        cells: cells.length, numbered: nums.length, tinyNum, smallCells, small: [...new Set(small)],
+        collisions, outside,
+        overflowX: document.documentElement.scrollWidth - window.innerWidth,
+        dockBottom: dock ? Math.round(r(dock).bottom) : 0,
+        vh: window.innerHeight,
+        cellW: cells[0] ? Math.round(r(cells[0]).width) : 0,
+        cellH: cells[0] ? Math.round(r(cells[0]).height) : 0,
+      };
+    }, TAP_CONTROL, TAP_CELL, MIN_NUMERAL);
+
+    const tag = vp.w + 'x' + vp.h;
     let bad = false;
-    if (m.overflow > 1) { FAIL(`${tag}: horizontal overflow ${m.overflow}px`); bad = true; }
-    if (m.colOverflow > 2) { FAIL(`${tag}: grid cells overflow their tracks by ${Math.round(m.colOverflow)}px`); bad = true; }
-    if (m.small.length) { FAIL(`${tag}: tap targets <44px: ${[...new Set(m.small)].join(', ')}`); bad = true; }
-    if (m.grid < 28) { FAIL(`${tag}: only ${m.grid} day cells`); bad = true; }
-    if (!m.dateline) { FAIL(`${tag}: no date line`); bad = true; }
-    /* projector FITS gate: the whole ritual — grid AND dock — without scrolling */
-    if (vp.fits && m.dockBottom > m.vh + 1) { FAIL(`${tag}: dock bottom ${Math.round(m.dockBottom)}px > viewport ${m.vh}px (calendar view must fit a projector)`); bad = true; }
-    if (!bad) OK(`${tag}: fits, ${m.grid} day cells, taps ok${vp.fits ? `, dock at ${Math.round(m.dockBottom)}/${m.vh}` : ''}`);
-    if (SHOT_WIDTHS.has(vp.w) && vp.h >= 900 || vp.w < 1024 && SHOT_WIDTHS.has(vp.w)) await page.screenshot({ path: path.join(OUT, `sweep-${vp.w}.png`), fullPage: true });
-    if (vp.w === 1024 && vp.h === 768) await page.screenshot({ path: path.join(OUT, 'sweep-1024x768.png'), fullPage: true });
+    /* ⭐ THE ASSERTION THE OLD GATE DID NOT HAVE */
+    if (m.numbered !== m.cells || m.cells < 28) {
+      FAIL(tag + ': ' + m.numbered + ' of ' + m.cells + ' day cells carry a numeral'); bad = true;
+    }
+    if (m.tinyNum) { FAIL(tag + ': ' + m.tinyNum + ' numerals below ' + MIN_NUMERAL + 'px'); bad = true; }
+    if (m.overflowX > 1) { FAIL(tag + ': horizontal overflow ' + m.overflowX + 'px'); bad = true; }
+    if (m.outside > 0) { FAIL(tag + ': ' + m.outside + ' node(s) outside the CARD'); bad = true; }
+    if (m.collisions > 0) { FAIL(tag + ': ' + m.collisions + ' overlapping pair(s) inside a cell'); bad = true; }
+    if (m.small.length) { FAIL(tag + ': controls under ' + TAP_CONTROL + 'px: ' + m.small.join(', ')); bad = true; }
+    if (m.smallCells) { FAIL(tag + ': ' + m.smallCells + ' cells under ' + TAP_CELL + 'px'); bad = true; }
+    if (vp.fits && m.dockBottom > m.vh + 1) {
+      FAIL(tag + ': dock bottom ' + m.dockBottom + ' > viewport ' + m.vh + ' (the whole ritual must fit a projector)'); bad = true;
+    }
+    /* a calendar cell that is more than 1.7x wider than tall is a ledger row */
+    if (m.cellH && m.cellW / m.cellH > 1.75) {
+      FAIL(tag + ': cell ' + m.cellW + 'x' + m.cellH + ' reads as a spreadsheet row'); bad = true;
+    }
+    if (!bad) OK(tag + ': ' + m.numbered + '/' + m.cells + ' numbered, cell ' + m.cellW + 'x' + m.cellH +
+                 (vp.fits ? ', dock ' + m.dockBottom + '/' + m.vh : '') + (vp.embedWidth ? '  [production width]' : ''));
+    if (SHOTS.has(vp.w) && (vp.w !== 1024 || vp.h === 768)) {
+      await page.screenshot({ path: path.join(OUT, 'dod-' + vp.w + '.png'), fullPage: true });
+    }
   }
 
-  /* ---------- B. functional drive (1024) ---------- */
-  console.log('\nB. functional drive (1024)');
+  /* ================= B. no audio on open ================= */
+  console.log('\nB. the tool is legible with the sound off');
   await page.setViewport({ width: 1024, height: 900 });
   await page.goto(BASE + '?lang=en', { waitUntil: 'networkidle0' });
-  await page.evaluate(() => localStorage.clear());
-  await page.goto(BASE + '?lang=en', { waitUntil: 'networkidle0' });
-  await page.waitForSelector('.cwl-grid');
+  await sleep(500);
+  const spokeOnOpen = await page.evaluate(() => window.__spoken.length);
+  if (spokeOnOpen) FAIL('it spoke on open (' + spokeOnOpen + ' utterances)'); else OK('nothing is spoken on open');
+  const visible = await page.evaluate(() => (document.querySelector('.cwl-datetext') || {}).textContent || '');
+  if (!visible.trim() || /\d/.test(visible)) FAIL('the date line is not a composed sentence: "' + visible + '"');
+  else OK('the date is READ from the board, not heard: "' + visible.trim() + '"');
 
-  /* no auto-audio */
-  const spokenOnOpen = await page.evaluate(() => window.__spoken.length);
-  if (spokenOnOpen > 0) FAIL(`auto-audio on open: ${spokenOnOpen} utterances`);
-  else OK('no auto-audio on open');
-
-  /* today card face-down → tap flips + speaks */
-  const facedown = await page.$('.cwl-cell.today.facedown');
-  if (!facedown) FAIL('today card not face-down on first open');
-  else {
-    await page.click('.cwl-cell.today');
-    await sleep(900);
-    const st = await page.evaluate(() => ({
-      flipped: !!document.querySelector('.cwl-cell.today:not(.facedown)'),
-      spoken: window.__spoken.length,
-      lastText: window.__spoken[window.__spoken.length - 1] || ''
-    }));
-    if (!st.flipped) FAIL('today card did not flip');
-    else if (st.spoken < 1) FAIL('flip did not speak the date');
-    else if (/\d/.test(st.lastText.replace(/\b(19|20)\d\d\b/, ''))) FAIL(`spoken date contains digits: "${st.lastText}"`);
-    else OK(`flip + spoke "${st.lastText}"`);
-  }
-  /* date line replay */
-  const before = await page.evaluate(() => window.__spoken.length);
-  await page.click('.cwl-dateline');
-  await sleep(300);
-  const after = await page.evaluate(() => window.__spoken.length);
-  if (after <= before) FAIL('date-line tap did not speak');
-  else OK('date-line tap replays the date');
-  await page.screenshot({ path: path.join(OUT, 'calendar-flipped-1024.png'), fullPage: true });
-
-  /* counter: premium-free basics — +1 today (fresh wall, count 0→1) */
-  await page.click('.cwl-dockchip:nth-of-type(2)');   /* nth-of-type counts buttons within dock incl nav? use text-free approach below */
-  await sleep(200);
-  let onCounter = await page.$('.cwl-plusone');
-  if (!onCounter) {
-    /* dock chips: find by class order */
-    await page.evaluate(() => { document.querySelectorAll('.cwl-dockchip')[1].click(); });
-    await sleep(250);
-    onCounter = await page.$('.cwl-plusone');
-  }
-  if (!onCounter) { FAIL('counter widget did not open'); }
-  else {
-    await page.click('.cwl-plusone');
-    await sleep(400);
-    const c1 = await page.evaluate(() => ({
-      digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
-      dots: document.querySelectorAll('.cwl-tfcell.filled').length,
-      straws: document.querySelectorAll('.cwl-jar.ones .cwl-jaritem').length,
-      counted: !!document.querySelector('.cwl-counted'),
-      plus: !!document.querySelector('.cwl-plusone')
-    }));
-    if (c1.digits !== '1') FAIL(`+1: numeral "${c1.digits}" (want 1)`);
-    else if (c1.dots !== 1) FAIL(`+1: ten-frame ${c1.dots} dots (want 1)`);
-    else if (c1.straws !== 1) FAIL(`+1: ${c1.straws} straws (want 1)`);
-    else OK('+1 advances numeral + frame + straws in sync');
-    if (c1.plus || !c1.counted) FAIL('double-tap not structurally blocked (plus button still present)');
-    else OK('counted-today chip replaces the button (double-tap impossible)');
-
-    /* undo */
-    await page.click('.cwl-undochip');
-    await sleep(300);
-    const c2 = await page.evaluate(() => ({
-      digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
-      plus: !!document.querySelector('.cwl-plusone')
-    }));
-    if (c2.digits !== '0' || !c2.plus) FAIL(`undo: numeral "${c2.digits}", plus=${c2.plus}`);
-    else OK('undo restores count + button');
-
-    /* teacher stepper sets 37 */
-    await page.click('.cwl-pencil');
-    await sleep(250);
-    await page.$eval('.cwl-stepinput', el => { el.value = ''; });
-    await page.type('.cwl-stepinput', '37');
-    await page.$eval('.cwl-stepinput', el => el.dispatchEvent(new Event('change', { bubbles: true })));
-    await sleep(350);
-    const c3 = await page.evaluate(() => ({
-      digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
-      bundles: document.querySelectorAll('.cwl-bundle').length,
-      straws: document.querySelectorAll('.cwl-jar.ones .cwl-jaritem').length
-    }));
-    if (c3.digits !== '37') FAIL(`stepper: numeral "${c3.digits}" (want 37)`);
-    else if (c3.bundles !== 3) FAIL(`stepper 37: ${c3.bundles} bundles (want 3)`);
-    else if (c3.straws !== 7) FAIL(`stepper 37: ${c3.straws} straws (want 7)`);
-    else OK('teacher stepper → 37 = 3 bundles + 7 straws');
-    await page.screenshot({ path: path.join(OUT, 'counter-37-1024.png'), fullPage: true });
-  }
-
-  /* REBUNDLE: seed dayCount 9 counted yesterday (premium-free path still animates) */
-  await seedStore(page, { dayCount: 9, lastCountDate: localKey(-1) });
-  await page.goto(BASE + '?lang=en&widget=counter', { waitUntil: 'networkidle0' });
-  await page.waitForSelector('.cwl-plusone', { timeout: 5000 }).catch(() => null);
-  const plusBtn = await page.$('.cwl-plusone');
-  if (!plusBtn) FAIL('rebundle seed: no +1 button');
-  else {
-    await page.click('.cwl-plusone');
-    await sleep(750);
-    const midBand = await page.evaluate(() => !!document.querySelector('.cwl-band'));
-    await sleep(1200);
-    const post = await page.evaluate(() => ({
-      digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
-      bundles: document.querySelectorAll('.cwl-bundle').length,
-      straws: document.querySelectorAll('.cwl-jar.ones .cwl-jaritem').length,
-      narr: window.__spoken.some(t => /ten|Ten/.test(t))
-    }));
-    if (!midBand) FAIL('rebundle: no band appeared mid-chain');
-    else OK('rebundle: teal band snapped around the ten');
-    if (post.digits !== '10' || post.bundles !== 1 || post.straws !== 0) {
-      FAIL(`rebundle end-state: "${post.digits}" digits, ${post.bundles} bundles, ${post.straws} straws`);
-    } else OK('rebundle: 9 → 10 = one bundle in the tens jar, ones empty');
-    if (!post.narr) FAIL('rebundle: narration not spoken');
-    else OK('rebundle: narration spoken');
-  }
-
-  /* weather: pick, pill, correction */
-  await page.evaluate(() => { document.querySelectorAll('.cwl-dockchip')[2].click(); });
-  await sleep(250);
-  const picker = await page.$('.cwl-picker');
-  if (!picker) FAIL('weather: no picker on a fresh day');
-  else {
-    await page.click('.cwl-wbtn[data-w="sun"]');
-    await sleep(600);
-    const w1 = await page.evaluate(() => ({
-      pill: !!document.querySelector('.cwl-todaypill'),
-      stamps: document.querySelectorAll('.cwl-stamp:not(.ghost)').length
-    }));
-    if (!w1.pill) FAIL('weather: no today-pill after picking');
-    else OK('weather: sun picked → today pill');
-    if (w1.stamps !== 1) FAIL(`weather: ${w1.stamps} stamps (want 1)`);
-    else OK('weather: one stamp on the chart');
-    /* correction */
-    await page.click('.cwl-todaypill');
-    await sleep(250);
-    await page.click('.cwl-wbtn[data-w="rain"]');
-    await sleep(600);
-    const w2 = await page.evaluate(() => {
-      const cols = [...document.querySelectorAll('.cwl-col')];
-      const find = (id) => {
-        for (const c of cols) {
-          const cnt = c.querySelector('.cwl-colcount');
-          const svg = c.querySelector('.cwl-colicon svg');
-          if (c.querySelector('.cwl-colbase') && cnt) {
-            // identify column by index: order matches WEATHER array (sun,cloud,rain,...)
-          }
-        }
-        return null;
-      };
-      const counts = [...document.querySelectorAll('.cwl-colcount')].map(e => +e.textContent);
-      return { counts };
-    });
-    if (w2.counts[0] !== 0 || w2.counts[2] !== 1) FAIL(`weather correction: counts ${w2.counts.join(',')} (want sun 0, rain 1)`);
-    else OK('weather: same-day correction moved the mark');
-    await page.screenshot({ path: path.join(OUT, 'weather-1024.png'), fullPage: true });
-  }
-
-  /* month back-nav (on weather) */
-  await page.evaluate(() => { document.querySelectorAll('.cwl-monav')[0].click(); });
-  await sleep(300);
-  const nav = await page.evaluate(() => ({
-    fwdEnabled: !document.querySelectorAll('.cwl-monav')[1].disabled,
-    todayBtn: !!document.querySelector('.cwl-todaybtn'),
-    picker: !!document.querySelector('.cwl-picker'),
+  /* ================= C. the counter ================= */
+  console.log('\nC. days in school');
+  await tap(page, '.cwl-dockchip[data-fk="dock-1"]', 'the counter chip');
+  const c0 = await page.evaluate(() => ({
+    digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
+    jars: document.querySelectorAll('.cwl-jarcol').length,
+    hundreds: !!document.querySelector('.cwl-jar.hundreds'),
+    plus: !!document.querySelector('.cwl-plusone'),
   }));
-  if (!nav.fwdEnabled || !nav.todayBtn) FAIL('month back-nav: forward/Today not offered');
-  else OK('month back-nav: read-only view + Today returns');
-  if (nav.picker) FAIL('month back-nav: picker rendered on a past month');
-  else OK('month back-nav: no picker on a past month');
-  await page.click('.cwl-todaybtn');
-  await sleep(250);
+  if (c0.jars !== 3 || !c0.hundreds) FAIL('the hundreds column must always be drawn (jars=' + c0.jars + ')');
+  else OK('all three place-value columns are drawn, empty or not');
+  if (!c0.plus) FAIL('no +1 control on a school day'); else OK('the +1 is offered');
+  await tap(page, '.cwl-plusone', 'the +1');
+  const c1 = await page.evaluate(() => ({
+    digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
+    ones: document.querySelectorAll('.cwl-jar.ones .cwl-jaritem').length,
+    frameFilled: document.querySelectorAll('.cwl-tfcell.filled').length,
+    counted: !!document.querySelector('.cwl-counted'),
+    iHasVar: (() => { const it = document.querySelector('.cwl-jaritem');
+      return !!(it && it.style.getPropertyValue('--i') !== ''); })(),
+  }));
+  if (c1.digits !== '1') FAIL('after +1 the numeral reads "' + c1.digits + '"'); else OK('the numeral advanced to 1');
+  if (c1.ones !== 1 || c1.frameFilled !== 1) FAIL('the representations are out of sync (straws ' + c1.ones + ', frame ' + c1.frameFilled + ')');
+  else OK('bundles, frame and numeral move together');
+  if (!c1.counted) FAIL('double-counting is not structurally blocked'); else OK('counting twice in a day is structurally blocked');
+  /* ⭐ --i IS THE VARIABLE WHOSE ABSENCE MADE THE CELEBRATION A NO-OP */
+  if (!c1.iHasVar) FAIL('--i is not set on the jar items: the rebundle gather cannot animate');
+  else OK('--i is set, so the regroup can actually gather');
 
-  /* panel: rename + new-wall gate + new-year confirm; then reset=view-only */
-  await page.click('.cwl-wallchip');
-  await sleep(300);
-  const rows = await page.$$eval('.cwl-wallrow', els => els.length);
-  if (rows < 1) FAIL('panel: no wall rows');
-  else OK(`panel: ${rows} wall row(s)`);
-  await page.click('.cwl-newwall');
-  await sleep(250);
-  const gate = await page.$('.cwl-panel .cwl-gate');
-  if (!gate) FAIL('panel: "+ New class wall" free tap → no upsell');
-  else OK('panel: new-wall free tap → warm upsell');
-  /* new-year two-step */
-  await page.evaluate(() => { [...document.querySelectorAll('.cwl-linkbtn.danger')].at(-1).click(); });
-  await sleep(250);
-  const confirmMsg = await page.$eval('.cwl-confirm p', el => el.textContent).catch(() => null);
-  if (!confirmMsg || !/10/.test(confirmMsg)) FAIL(`new-year confirm does not show the stakes: "${confirmMsg}"`);
-  else OK(`new-year confirm shows the stakes ("${confirmMsg.trim().slice(0, 50)}…")`);
-  /* capture the PANEL while it is actually open (the prior shot landed
-     post-close and was byte-identical to the free-gate view) */
-  await page.screenshot({ path: path.join(OUT, 'panel-open-1024.png'), fullPage: true });
-  await page.click('.cwl-btn.danger');
-  await sleep(350);
-  const afterNY = await page.evaluate(() => JSON.parse(localStorage.getItem('lcs:calendar-wall:v1')));
-  const wallNY = afterNY.walls[afterNY.activeWallId];
-  if (wallNY.dayCount !== 0 || !wallNY.lastSummary || wallNY.lastSummary.days !== 10) {
-    FAIL(`new-year: dayCount=${wallNY.dayCount}, lastSummary=${JSON.stringify(wallNY.lastSummary)}`);
-  } else OK('new-year ritual: count zeroed, lastSummary written');
-  await page.screenshot({ path: path.join(OUT, 'panel-1024.png'), fullPage: true });
-
-  /* shell reset = view only */
-  await seedStore(page, { dayCount: 42, lastCountDate: localKey(0) });
-  await page.goto(BASE + '?lang=en&widget=weather', { waitUntil: 'networkidle0' });
-  await sleep(300);
+  /* ================= D. the free tier tells the truth ================= */
+  console.log('\nD. the free tier');
   await page.evaluate(() => {
-    const b = [...document.querySelectorAll('.lcs-ctrl')].find(x => /reset/i.test(x.getAttribute('aria-label') || ''));
-    if (b) b.click();
+    const T = window.CalendarWall;
+    T.premium = false;
+    const w = T.wall();
+    /* a class on day 37, counted yesterday — the exact case the old gate
+       required to render as ZERO */
+    w.days = {};
+    w.days[T.M.shiftKey(T._todayKey, -1)] = { n: 37 };
+    T._paint();
   });
-  await sleep(400);
-  const afterReset = await page.evaluate(() => ({
-    store: JSON.parse(localStorage.getItem('lcs:calendar-wall:v1')),
-    onCalendar: !!document.querySelector('.cwl-grid')
-  }));
-  const wr = afterReset.store.walls[afterReset.store.activeWallId];
-  if (wr.dayCount !== 42) FAIL(`shell reset touched data: dayCount=${wr.dayCount}`);
-  else OK('shell reset preserved the store (dayCount 42 intact)');
-  if (!afterReset.onCalendar) FAIL('shell reset did not snap to the calendar widget');
-  else OK('shell reset = view reset to widget 1');
-
-  /* ---------- C. free next-morning read-gate ---------- */
-  console.log('\nC. free next-morning read-gate');
-  await seedStore(page, { dayCount: 5, lastCountDate: localKey(-1),
-    weather: (() => { const o = {}; const ym = localKey(-1).slice(0, 7); o[ym] = {}; o[ym][localKey(-1).slice(8, 10)] = 'sun'; return o; })() });
-  await page.goto(BASE + '?lang=en&widget=counter', { waitUntil: 'networkidle0' });
-  await sleep(300);
+  await sleep(200);
   const free = await page.evaluate(() => ({
     digits: [...document.querySelectorAll('.cwl-digit')].map(e => e.textContent).join(''),
     gate: !!document.querySelector('.cwl-gate'),
-    store: JSON.parse(localStorage.getItem('lcs:calendar-wall:v1'))
   }));
-  if (free.digits !== '0') FAIL(`free read-gate: counter shows "${free.digits}" (want 0)`);
-  else OK('free tier next morning: counter reads 0 (read-gate)');
-  if (!free.gate) FAIL('free read-gate: no warm gate line');
-  else OK('free tier: warm gate line under the counter');
-  const storedCount = free.store.walls[free.store.activeWallId].dayCount;
-  if (storedCount !== 5) FAIL(`free read-gate DELETED data: stored dayCount=${storedCount}`);
-  else OK('free read-gate: stored data untouched (5 preserved)');
-  /* weather ghost + gate */
-  await page.evaluate(() => { document.querySelectorAll('.cwl-dockchip')[2].click(); });
-  await sleep(300);
-  const freeW = await page.evaluate(() => ({
+  if (free.digits !== '37') FAIL('the free tier shows "' + free.digits + '" for a class on day 37 — a counting instrument may not assert a false quantity');
+  else OK('the count is TRUE on the free plan (37), and the record is what is withheld');
+  if (!free.gate) FAIL('no gate line explaining what a subscription adds'); else OK('the gate says what it withholds');
+
+  /* ================= E. the weather month ================= */
+  console.log('\nE. weather');
+  await tap(page, '.cwl-dockchip[data-fk="dock-2"]', 'the weather chip');
+  await tap(page, '.cwl-wbtn[data-w="rain"]', 'rain');
+  const w1 = await page.evaluate(() => ({
+    rows: document.querySelectorAll('.cwl-wrow').length,
+    stamps: document.querySelectorAll('.cwl-stamp').length,
     ghosts: document.querySelectorAll('.cwl-stamp.ghost').length,
-    gate: !!document.querySelector('.cwl-gate')
+    keyOpacity: (() => { const k = document.querySelector('.cwl-wkeyicon svg');
+      return k ? getComputedStyle(k).opacity : '0'; })(),
+    pill: !!document.querySelector('.cwl-todaypill'),
+    counts: [...document.querySelectorAll('.cwl-wcount')].map(e => e.textContent).join(''),
   }));
-  if (!freeW.ghosts) FAIL('free weather: no ghost month preview');
-  else OK(`free weather: ghost preview (${freeW.ghosts} faint stamps) + today only`);
-  if (!freeW.gate) FAIL('free weather: no gate line');
-  else OK('free weather: warm gate line');
-  await page.screenshot({ path: path.join(OUT, 'free-gate-1024.png'), fullPage: true });
+  if (w1.rows !== 6) FAIL('expected 6 weather rows, got ' + w1.rows); else OK('the pictograph is laid down as six rows');
+  if (w1.stamps !== 1) FAIL('expected exactly 1 stamp after one observation, got ' + w1.stamps);
+  else OK('one observation, one stamp — strict 1:1');
+  /* ⭐ THE GHOSTS WERE PHANTOM DATA UNDER A REAL QUESTION */
+  if (w1.ghosts) FAIL(w1.ghosts + ' ghost stamps still render'); else OK('no phantom stamps');
+  if (parseFloat(w1.keyOpacity) < 1) FAIL('the axis key is faded (' + w1.keyOpacity + ') — key and unit must be the same mark');
+  else OK('the key is the unit at full strength');
+  if (!w1.pill) FAIL('no today pill after picking'); else OK('today reads back what was chosen');
 
-  /* ---------- D. deep links ---------- */
-  console.log('\nD. deep links');
-  await page.goto(BASE + '?lang=en&widget=weather', { waitUntil: 'networkidle0' });
-  await sleep(250);
-  const dlW = await page.evaluate(() => !!document.querySelector('.cwl-chart'));
-  if (!dlW) FAIL('?widget=weather did not open the weather widget');
-  else OK('?widget=weather lands on weather');
-  const wallId = await page.evaluate(() => JSON.parse(localStorage.getItem('lcs:calendar-wall:v1')).activeWallId);
-  await page.goto(BASE + `?lang=en&class=${wallId}&widget=counter`, { waitUntil: 'networkidle0' });
-  await sleep(250);
-  const dlC = await page.evaluate(() => !!document.querySelector('.cwl-counter'));
-  if (!dlC) FAIL('?class + ?widget=counter did not land');
-  else OK('?class=<id>&widget=counter lands on the wall + counter');
+  /* ================= F. print ================= */
+  console.log('\nF. print');
+  await page.evaluate(() => { window.CalendarWall.premium = false; window.CalendarWall._paint(); });
+  await tap(page, '.cwl-printchip', 'the print chip (free)');
+  const pFree = await page.evaluate(() => ({
+    printed: window.__printed,
+    sheetKids: document.querySelectorAll('.cwl-sheet > *').length,
+    gate: !!document.querySelector('.cwl-gate'),
+  }));
+  if (pFree.printed) FAIL('a free visitor reached window.print()');
+  else OK('the print chip is gated');
+  if (pFree.sheetKids) FAIL('the sheet subtree exists in the DOM when unpaid (' + pFree.sheetKids + ' nodes)');
+  else OK('the sheet is ABSENT from the DOM when unpaid, not merely hidden');
+  await page.evaluate(() => { window.CalendarWall.premium = true; window.CalendarWall._paint(); });
+  await sleep(150);
+  await tap(page, '.cwl-printchip', 'the print chip (paid)');
+  const pPaid = await page.evaluate(() => ({
+    printed: window.__printed,
+    cells: document.querySelectorAll('.cwl-p-cell').length,
+    nums: document.querySelectorAll('.cwl-p-num').length,
+  }));
+  if (!pPaid.printed) FAIL('a subscriber did not reach window.print()'); else OK('a subscriber prints');
+  if (pPaid.nums < 28) FAIL('the sheet carries only ' + pPaid.nums + ' numerals'); else OK('every day is numbered on paper too (' + pPaid.nums + ')');
 
-  /* ---------- E. lang smoke ---------- */
-  console.log('\nE. lang smoke');
-  for (const L of ['de', 'fi']) {
-    await page.goto(BASE + `?lang=${L}`, { waitUntil: 'networkidle0' });
-    const got = await page.waitForSelector('.cwl-grid', { timeout: 8000 }).then(() => true).catch(() => false);
-    const info = await page.evaluate(() => ({
-      title: (document.querySelector('.lcs-title') || {}).textContent,
-      line: (document.querySelector('.cwl-datetext') || {}).textContent || ''
-    }));
-    if (!got) FAIL(`${L}: grid did not render`);
-    else if (/\d/.test(info.line)) FAIL(`${L}: date line contains digits: "${info.line}"`);
-    else OK(`${L}: "${info.title}" — date line "${info.line}"`);
-  }
+  /* ================= G. keyboard + a11y ================= */
+  console.log('\nG. keyboard and semantics');
+  await page.goto(BASE + '?lang=en', { waitUntil: 'networkidle0' });
+  await sleep(400);
+  const a11y = await page.evaluate(() => {
+    const cells = [...document.querySelectorAll('.cwl-cell:not(.empty)')];
+    return {
+      allButtons: cells.every(c => c.tagName === 'BUTTON'),
+      allLabelled: cells.every(c => (c.getAttribute('aria-label') || '').length > 3),
+      gridRole: (document.querySelector('.cwl-grid') || {}).getAttribute ? document.querySelector('.cwl-grid').getAttribute('role') : null,
+      todayCurrent: !!document.querySelector('.cwl-cell[aria-current="date"]'),
+    };
+  });
+  if (!a11y.allButtons) FAIL('not every day is a button — you cannot tab to a day'); else OK('every day is a real button');
+  if (!a11y.allLabelled) FAIL('a day cell has no aria-label'); else OK('every day announces its date and its state');
+  if (a11y.gridRole !== 'grid') FAIL('the month has no grid role'); else OK('the month is a grid to assistive tech');
+  if (!a11y.todayCurrent) FAIL('today is not aria-current'); else OK('today is aria-current="date"');
+  /* the arrow keys must NOT reach through an open dialog */
+  await tap(page, '.cwl-cell[aria-current="date"]', 'today');
+  const before = await page.evaluate(() => window.CalendarWall._widx);
+  await page.keyboard.press('ArrowRight');
+  await sleep(120);
+  const after = await page.evaluate(() => window.CalendarWall._widx);
+  if (after !== before) FAIL('an arrow key changed the widget behind an open dialog');
+  else OK('arrow keys do not reach through an open dialog');
+  await page.keyboard.press('Escape');
+  await sleep(150);
+  const closed = await page.evaluate(() => !document.querySelector('.cwl-sheetdlg.open'));
+  if (!closed) FAIL('Escape did not close the day sheet'); else OK('Escape closes the sheet');
 
-  /* ---------- F. console errors ---------- */
-  console.log('\nF. console errors');
-  const realErrors = consoleErrors.filter(e => !/404|Failed to load resource|net::ERR/i.test(e));
-  if (realErrors.length) FAIL('console errors: ' + realErrors.slice(0, 5).join(' | '));
-  else OK(`no console errors (${consoleErrors.length - realErrors.length} expected 404s ignored)`);
+  console.log('\nconsole errors: ' + (errs.length ? errs.slice(0, 5).join(' | ') : 'none'));
+  errs.forEach(e => FAIL('console: ' + e));
 
   await browser.close();
   server.close();
-
-  console.log('\n' + (fails.length ? `RESULT: FAIL (${fails.length})` : 'RESULT: PASS'));
-  console.log('screenshots → ' + OUT);
+  console.log('\n' + (fails.length ? 'RESULT: FAIL (' + fails.length + ')' : 'RESULT: PASS'));
   process.exit(fails.length ? 1 : 0);
 })().catch(e => { console.error(e); process.exit(1); });

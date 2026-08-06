@@ -157,22 +157,25 @@
     "metaDescription": "Free interactive calendar for morning meeting: the spoken date, a days-in-school counter with bundling, and a weather graph — no login, on any device.",
     "about": [
       "The calendar wall is the heart of the K-2 morning meeting: the date, the days we have been in school, and what the weather is doing outside. This digital wall replaces the laminated pockets and paper straws with one screen the whole class can see — and every element is touchable, because in a good calendar routine it is a child, the calendar helper, who does the touching.",
-      "The mathematics is real, not decorative. Today’s card sits face-down until the helper flips it, and the date is spoken in real words — “Thursday, July sixteenth,” never a robotic digit reading. The days-in-school counter shows the same number three ways at once: straw bundles, a ten-frame, and the numeral. When day ten arrives, the class watches ten loose straws become one bundle — place value happening in front of them, and the hundredth day gets the same treatment with bunting. One tap moves all three representations together, something a physical wall can never do.",
-      "The weather graph turns the daily observation into the class’s first data work: one tap a day, one icon on the chart, and by mid-month there is a real pictograph to discuss — which weather has the most days, how many more sunny than rainy. Everything works in eleven languages with the date read the way each language actually says it, the week starting on the right day, and the whole routine ready the moment the projector turns on."
+      "The mathematics is real, not decorative. Every date in the month is written and readable from the back of the room, and the date line is spoken in real words — “Thursday, July sixteenth,” never a robotic digit reading. The days-in-school counter shows the same number three ways at once: straw bundles, a ten-frame, and the numeral. When day ten arrives, the class watches ten loose straws become one bundle — place value happening in front of them, and the hundredth day gets the same treatment with bunting. One tap moves all three representations together, something a physical wall can never do.",
+      "The weather graph turns the daily observation into the class’s first data work: one tap a day, one icon on the chart, and by mid-month there is a real pictograph to discuss — which weather has the most days, how many more sunny than rainy. Everything works in eleven languages with the date read the way each language actually says it, the week starting on the right day, and the whole routine ready the moment the projector turns on.",
+      "And the month becomes the class's own record. The teacher opens a window — which closes by itself — and marks the days that matter: no school, a trip, a birthday, a special day. Each school day is written into its square with its number and stays there, so day 61 carries its 61 and the Friday before carried 60. Choose a day to wait for and the countdown shows two numbers at once: twelve sleeps, but only eight school days. Why aren't they the same? That gap is the whole lesson. At the end of the month the calendar prints with the class's record on it."
     ],
     "howToUse": [
-      "Open the wall on your projector or whiteboard — the calendar shows the month with today’s card face-down.",
-      "Let the calendar helper flip today’s card: the date is spoken aloud in real words, and the class echoes it.",
+      "Open the wall on your projector or whiteboard — the whole month is there, every date readable, and today stands out.",
+      "Let the calendar helper tap the date line: the date is spoken aloud in real words, and the class echoes it.",
       "Move to Days in School and let the helper tap +1 — the straws, the ten-frame, and the number all move together.",
       "Ask the class what the weather is doing, agree on one word, and let the helper tap it — the month’s graph grows by one.",
-      "Use the talk prompt under the graph for one minute of real data talk, and you are done — the whole routine in about ten minutes."
+      "Use the talk prompt under the graph for one minute of real data talk, and you are done — the whole routine in about ten minutes.",
+      "Tap the key at the top and you have ninety seconds to mark days — no school, a trip, a birthday, a special day — before the window closes itself, so nobody changes anything by accident during the circle."
     ],
     "classroomIdeas": [
       "Yesterday–today–tomorrow chorus: read the three sentence strips together every morning — gold for multilingual learners.",
-      "Prediction before the flip: have the class say tomorrow’s day and date aloud today, then check with tomorrow’s flip.",
+      "Prediction before you look: have the class say tomorrow's day and date aloud today, then point to the square where tomorrow's school-day number will be written.",
       "Decade-day countdowns: three days before day 40, ask “what will the bundles look like?” and let the class draw their prediction.",
       "Data detective: each Friday, ask one child to report the weather graph — how many of each, which is winning, how many days recorded in all.",
-      "The hundredth day: count to 100 by tens together as the ten bundles become one hundred — then keep counting past it (day 101 is a number too)."
+      "The hundredth day: count to 100 by tens together as the ten bundles become one hundred — then keep counting past it (day 101 is a number too).",
+      "Two numbers to the trip: pick a marked day as the target. From three weeks out the wall shows both every morning — how many sleeps, and how many of those are school days. Why aren't they the same? That difference is the sum."
     ]
   },
   "number-talk-easel": {

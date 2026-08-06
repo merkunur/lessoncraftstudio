@@ -15,7 +15,7 @@
        bank from /mini-tools/heart-words-<lang>.json at runtime.
        Heart Words ships in TEN locales — there is no Finnish bank. -->
   <script src="/mini-tools/lcs-shell.js?v=5"></script>
-  <script src="/mini-tools/heart-words.js?v=3"></script>
+  <script src="/mini-tools/heart-words.js?v=4"></script>
   <script>
     // URL params the shell understands:
     //   ?lang=sv  ?lang=de  (any of: en de fr it es pt nl sv da no)
@@ -25,6 +25,9 @@
     //   A deep link to a PREMIUM shelf is HELD until entitlement resolves
     //   and then discarded for free visitors — premium words never reach
     //   the DOM, so no premium content can leak through a shared URL.
+    //   ?add=<json>     — a colleague's shared custom word list. UNTRUSTED:
+    //   re-validated on ingest with the editor's own validators and only
+    //   ever rendered through textContent. Never trust a URL to write a shelf.
     LCS.mount(HeartWords, { mount: '#lcs-root' });
   </script>
 </body>

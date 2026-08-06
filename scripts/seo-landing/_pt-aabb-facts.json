@@ -1,0 +1,394 @@
+[
+ {
+  "slug": "tren-de-patrones-aabb-4-de-julio-fe63",
+  "themeKey": "4th_of_july",
+  "elements": [
+   "Bandera",
+   "Hot Dog"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-accesorios-fe63",
+  "themeKey": "accessories",
+  "elements": [
+   "Mochila",
+   "Paraguas"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-actividades-fe63",
+  "themeKey": "activities",
+  "elements": [
+   "Cerámica",
+   "Patinar"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63",
+  "themeKey": "around_the_house",
+  "elements": [
+   "Alfombra",
+   "Estante"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-animales-de-granja-fe63",
+  "themeKey": "farm_animals",
+  "elements": [
+   "Burro",
+   "Cerdo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-animales-del-zoologico-fe63",
+  "themeKey": "zoo_animals",
+  "elements": [
+   "Koala",
+   "Hipopótamo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-animales-fe63",
+  "themeKey": "animals",
+  "elements": [
+   "Mapache",
+   "Conejo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-arboles-fe63",
+  "themeKey": "tree",
+  "elements": [
+   "Plátano",
+   "Cedro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-aves-2-fe63",
+  "themeKey": "birds_2",
+  "elements": [
+   "Pájaro carpintero",
+   "Cardenal"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-aves-fe63",
+  "themeKey": "birds",
+  "elements": [
+   "Flamenco",
+   "Pelícano"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-campamento-fe63",
+  "themeKey": "camping",
+  "elements": [
+   "Binoculares",
+   "Mochila"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-clima-fe63",
+  "themeKey": "weather",
+  "elements": [
+   "Bufanda",
+   "Botas de lluvia"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-colores-fe63",
+  "themeKey": "colors",
+  "elements": [
+   "Coral",
+   "Morado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-cosas-que-vuelan-fe63",
+  "themeKey": "things_that_fly",
+  "elements": [
+   "Escarabajo",
+   "Tucán"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-desayuno-fe63",
+  "themeKey": "breakfast",
+  "elements": [
+   "Huevo frito",
+   "Gachas"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63",
+  "themeKey": "thanksgivinng",
+  "elements": [
+   "Pan",
+   "Calabaza"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-dinosaurios-fe63",
+  "themeKey": "dinosaurs",
+  "elements": [
+   "Brontosaurio",
+   "Estegosaurio"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-emociones-fe63",
+  "themeKey": "emotions",
+  "elements": [
+   "Aburrido",
+   "Emocionado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-en-el-supermercado-fe63",
+  "themeKey": "at_the_supermarket",
+  "elements": [
+   "Frambuesa",
+   "Jugo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-espacio-fe63",
+  "themeKey": "space",
+  "elements": [
+   "Telescopio",
+   "Astronauta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-flores-fe63",
+  "themeKey": "flowers",
+  "elements": [
+   "Orquídea",
+   "Lirio"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-formas-fe63",
+  "themeKey": "shapes",
+  "elements": [
+   "Cuadrado",
+   "Heptágono"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-frutas-fe63",
+  "themeKey": "fruits",
+  "elements": [
+   "Manzana",
+   "Arándano"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-herramientas-fe63",
+  "themeKey": "tools",
+  "elements": [
+   "Clavo",
+   "Pinzas"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-hospital-fe63",
+  "themeKey": "hospital",
+  "elements": [
+   "Camilla",
+   "Doctor"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-insectos-y-bichos-fe63",
+  "themeKey": "insects_and_bugs",
+  "elements": [
+   "Hormiga",
+   "Abeja"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-invierno-fe63",
+  "themeKey": "winter",
+  "elements": [
+   "Patinaje sobre hielo",
+   "Esquí"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-juguetes-fe63",
+  "themeKey": "toys",
+  "elements": [
+   "Patín del diablo",
+   "Tren"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-mascotas-fe63",
+  "themeKey": "pets",
+  "elements": [
+   "Pez",
+   "Chinchilla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-miscelaneo-fe63",
+  "themeKey": "miscellaneous",
+  "elements": [
+   "Araña",
+   "Halloween"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-muebles-fe63",
+  "themeKey": "furniture",
+  "elements": [
+   "Tapete",
+   "Lámpara"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-musica-fe63",
+  "themeKey": "music",
+  "elements": [
+   "Xilófono",
+   "Guitarra"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-navidad-fe63",
+  "themeKey": "christmas",
+  "elements": [
+   "Vela",
+   "Árbol"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-ocupaciones-fe63",
+  "themeKey": "occupations",
+  "elements": [
+   "Chef",
+   "Músico"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-oficina-de-correos-fe63",
+  "themeKey": "post_office",
+  "elements": [
+   "Carta",
+   "Camión de correos"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-panaderia-fe63",
+  "themeKey": "bakery",
+  "elements": [
+   "Pay",
+   "Hombre de jengibre"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-partes-del-cuerpo-fe63",
+  "themeKey": "body_parts",
+  "elements": [
+   "Boca",
+   "Diente"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-pascua-fe63",
+  "themeKey": "easter",
+  "elements": [
+   "Pollito",
+   "Mariposa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-playa-fe63",
+  "themeKey": "beach",
+  "elements": [
+   "Cubeta",
+   "Papalote"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-postres-y-dulces-fe63",
+  "themeKey": "desserts_and_sweets",
+  "elements": [
+   "Dona",
+   "Paleta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-primavera-fe63",
+  "themeKey": "spring",
+  "elements": [
+   "Jardín",
+   "Regadera"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63",
+  "themeKey": "reptiles_and_amphibians",
+  "elements": [
+   "Tortuga de tierra",
+   "Cobra"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-ropa-fe63",
+  "themeKey": "clothing",
+  "elements": [
+   "Zapato",
+   "Sudadera con capucha"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-salon-de-clases-fe63",
+  "themeKey": "classroom",
+  "elements": [
+   "Maestro",
+   "Escritorio"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-utensilios-de-cocina-fe63",
+  "themeKey": "kitchen_tools",
+  "elements": [
+   "Jarra",
+   "Olla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-vehiculos-fe63",
+  "themeKey": "vehicles",
+  "elements": [
+   "Camión de basura",
+   "Avión"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-verano-fe63",
+  "themeKey": "summer",
+  "elements": [
+   "Tienda de campaña",
+   "Parrilla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-verduras-fe63",
+  "themeKey": "vegetables",
+  "elements": [
+   "Jitomate",
+   "Nabo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aabb-vida-marina-fe63",
+  "themeKey": "ocean_life",
+  "elements": [
+   "Cangrejo",
+   "Tiburón"
+  ]
+ }
+]

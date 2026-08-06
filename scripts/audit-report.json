@@ -1,0 +1,765 @@
+{
+  "summary": {
+    "totalPages": 194,
+    "totalUrls": 1651,
+    "pass": 3,
+    "warn": 105,
+    "fail": 73
+  },
+  "pass": [
+    {
+      "check": "1-seo-fields",
+      "msg": "All 1357 content files have required SEO fields"
+    },
+    {
+      "check": "4-slug-unique",
+      "msg": "All slugs unique within their page type and locale"
+    },
+    {
+      "check": "5-hreflang",
+      "msg": "All hreflang alternates consistent"
+    }
+  ],
+  "warn": [
+    {
+      "check": "2-meta-length",
+      "msg": "9 titleTags exceed 60 chars:"
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/find-and-count] (72 chars): \"Ik Zie Ik Zie Werkblad Generator | Maak & Verkoop Zoek en Tel Printables\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/find-objects] (72 chars): \"Zoek Voorwerpen Generator | Maak & Verkoop Verborgen Voorwerp Werkbladen\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/missing-pieces] (62 chars): \"Ontbrekende Stukjes Generator | Maak & Verkoop Visuele Puzzels\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/odd-one-out] (61 chars): \"Welke Hoort Er Niet Bij Generator | Maak & Verkoop Werkbladen\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/picture-sort] (62 chars): \"Sorteer Werkblad Generator | Maak & Verkoop Sorteer-Printables\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [tool/nl/sudoku] (63 chars): \"Plaatjes Sudoku Maker — Plaatjes Sudoku voor Kinderen Generator\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [tool/nl/picture-path] (61 chars): \"Plaatjespad Maker — Doolhof Werkblad Generator voor Verkopers\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [tool/nl/find-objects] (61 chars): \"Zoek Voorwerpen Maker — Verborgen Voorwerp Werkblad Generator\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [idea/fr/ocean-animals-printable-ideas] (61 chars): \"Idées d\\'Imprimables Animaux Marins à Vendre — Guide de Niche\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "90 metaDescriptions exceed 160 chars:"
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/pt/missing-pieces] (161 chars): \"Crie puzzles de peças faltantes para Etsy, KDP e TPT. 6 formas de peça, dificuld...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/word-search] (166 chars): \"Maak woordzoeker werkbladen om te verkopen op Etsy, KDP en TPT. Rastergrootte 5–...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/alphabet-train] (164 chars): \"Maak alfabettrein werkbladen om te verkopen op Etsy, KDP en TPT. Treinwagon lett...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/coloring] (179 chars): \"Maak aangepaste kleurplaten om te verkopen op Etsy, KDP en TPT. Vrij canvas, 104...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/math-worksheet] (173 chars): \"Maak algebra puzzel werkbladen om te verkopen op Etsy, KDP en TPT. Afbeeldingen ...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/word-scramble] (173 chars): \"Maak woordkruisel werkbladen om te verkopen op Etsy, KDP en TPT. Gehusselde lett...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/find-and-count] (205 chars): \"Maak ik zie ik zie telwerkbladen om te verkopen op Etsy, KDP & TPT. 4 taaktypen,...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/matching-app] (197 chars): \"Maak verbindingswerkbladen om te verkopen op Etsy, KDP & TPT. 4 koppelmodi, auto...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/drawing-lines] (173 chars): \"Maak lijntraceer werkbladen om te verkopen op Etsy, KDP en TPT. Acht SVG-lijnsja...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/picture-bingo] (192 chars): \"Maak plaatjesbingokaarten om te verkopen op Etsy, KDP & TPT. Batchgeneratie van ...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/sudoku] (202 chars): \"Maak plaatjes sudoku werkbladen om te verkopen op Etsy, KDP & TPT. 4×4 raster, d...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/big-small-app] (178 chars): \"Maak groottevergelijking werkbladen om te verkopen op Etsy, KDP en TPT. Vijf vra...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/chart-count-color] (190 chars): \"Maak telgrafiek werkbladen om te verkopen op Etsy, KDP en TPT. Automatisch antwo...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/draw-and-color] (177 chars): \"Maak rasterteken werkbladen om te verkopen op Etsy, KDP en TPT. Dubbel rastersys...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/find-objects] (234 chars): \"Maak verborgen voorwerp werkbladen om te verkopen op Etsy, KDP & TPT. Vind de Ve...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/grid-match] (188 chars): \"Maak rasterpuzzels om te verkopen op Etsy, KDP & TPT. Instelbaar raster, aanwijz...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/image-crossword] (212 chars): \"Maak plaatjes kruiswoordpuzzels om te verkopen op Etsy, KDP & TPT. Afbeeldingsaa...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/image-cryptogram] (170 chars): \"Maak cryptogram werkbladen om te verkopen op Etsy, KDP en TPT. Beeldcijfer coder...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/missing-pieces] (203 chars): \"Maak ontbrekende stukjes puzzels om te verkopen op Etsy, KDP & TPT. 6 stukvormen...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  [app/nl/more-less] (166 chars): \"Maak vergelijkingswerkbladen om te verkopen op Etsy, KDP en TPT. 3 vergelijkings...\""
+    },
+    {
+      "check": "2-meta-length",
+      "msg": "  ... and 70 more"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/prepositions] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/cryptogram] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/writing] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/coloring] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/matching] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/bingo] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/sudoku] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "7-showcase",
+      "msg": "[tool/crossword] missing from toolShowcaseConfigs"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"i spy worksheet generator\" shared by: app/find-and-count, tool/find-and-count"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"matching worksheet generator\" shared by: app/matching-app, tool/matching"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"pattern worksheet generator\" shared by: app/pattern-worksheet, tool/pattern-train"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"maze worksheet generator\" shared by: app/picture-path, tool/picture-path"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"subtraction worksheet generator\" shared by: app/subtraction, tool/image-subtraction"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"handwriting worksheet generator\" shared by: app/writing-app, tool/writing"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[en] keyword \"scale printable business\" shared by: guide/scale-printable-business-guide, start/scaling-printable-business"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"wortsuche-generator\" shared by: app/word-search, tool/word-search"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"buchstabensalat-generator\" shared by: app/word-scramble, tool/word-scramble"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"zuordnungs-generator\" shared by: app/matching-app, tool/matching"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"bilder-sudoku-generator\" shared by: app/sudoku, tool/sudoku"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"rasterzeichnen-generator\" shared by: app/draw-and-color, tool/draw-and-color"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"kryptogramm-generator\" shared by: app/image-cryptogram, tool/cryptogram"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"bilder-sortieren-generator\" shared by: app/picture-sort, tool/picture-sort"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"präpositionen-generator\" shared by: app/prepositions, tool/prepositions"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"wörter-raten-generator\" shared by: app/word-guess, tool/word-guess"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"schreibübungen-generator\" shared by: app/writing-app, tool/writing"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[de] keyword \"druckvorlagen-geschäft skalieren\" shared by: guide/scale-printable-business-guide, start/scaling-printable-business"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches mots cachés\" shared by: app/word-search, tool/word-search"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches mots mélangés\" shared by: app/word-scramble, tool/word-scramble"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches graphisme\" shared by: app/drawing-lines, tool/drawing-lines"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches dessin quadrillage\" shared by: app/draw-and-color, tool/draw-and-color"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches cryptogramme\" shared by: app/image-cryptogram, tool/cryptogram"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches train suites logiques\" shared by: app/pattern-train, tool/pattern-train"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches séquences logiques\" shared by: app/pattern-worksheet, tool/pattern-worksheet"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches prépositions\" shared by: app/prepositions, tool/prepositions"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur de fiches de soustraction\" shared by: app/subtraction, tool/image-subtraction"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches deviner les mots\" shared by: app/word-guess, tool/word-guess"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"générateur fiches d\\'écriture\" shared by: app/writing-app, tool/writing"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[fr] keyword \"développer activité imprimables\" shared by: guide/scale-printable-business-guide, start/scaling-printable-business"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[es] keyword \"generador fichas de asociación\" shared by: app/matching-app, tool/matching"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[es] keyword \"generador fichas objetos ocultos\" shared by: app/find-objects, tool/find-objects"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[es] keyword \"generador fichas adivinar palabras\" shared by: app/word-guess, tool/word-guess"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas de associação\" shared by: app/matching-app, tool/matching"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas grafomotricidade\" shared by: app/drawing-lines, tool/drawing-lines"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas desenho em grelha\" shared by: app/draw-and-color, tool/draw-and-color"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas objetos ocultos\" shared by: app/find-objects, tool/find-objects"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas trem de padrões\" shared by: app/pattern-train, tool/pattern-train"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador caça ao tesouro\" shared by: app/treasure-hunt, tool/treasure-hunt"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas adivinhar palavras\" shared by: app/word-guess, tool/word-guess"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[pt] keyword \"gerador fichas de escrita\" shared by: app/writing-app, tool/writing"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[it] keyword \"generatore schede cerca e conta\" shared by: app/find-and-count, tool/find-and-count"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[it] keyword \"generatore schede di abbinamento\" shared by: app/matching-app, tool/matching"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[it] keyword \"generatore schede disegno su griglia\" shared by: app/draw-and-color, tool/draw-and-color"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[it] keyword \"generatore schede classificazione immagini\" shared by: app/picture-sort, tool/picture-sort"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[it] keyword \"generatore schede sottrazione\" shared by: app/subtraction, tool/image-subtraction"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[it] keyword \"schede puzzle pezzi mancanti\" shared by: tool/missing-pieces, guide/create-missing-pieces-puzzles"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"ik zie ik zie werkblad generator\" shared by: app/find-and-count, tool/find-and-count"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"rasterpuzzel werkblad generator\" shared by: app/grid-match, tool/grid-match"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"doolhof werkblad generator\" shared by: app/picture-path, tool/picture-path"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"sorteer werkblad generator\" shared by: app/picture-sort, tool/picture-sort"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"schaduw koppelen werkblad generator\" shared by: app/shadow-match, tool/shadow-match"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"schattenjacht werkblad generator\" shared by: app/treasure-hunt, tool/treasure-hunt"
+    },
+    {
+      "check": "8-cannibalization",
+      "msg": "[nl] keyword \"printable bedrijf opschalen\" shared by: guide/scale-printable-business-guide, start/scaling-printable-business"
+    },
+    {
+      "check": "9-sitemap-count",
+      "msg": "ID 3 (tools): config has 264 URLs, sitemap documents 231"
+    },
+    {
+      "check": "9-sitemap-count",
+      "msg": "ID 4 (bundles): config has 48 URLs, sitemap documents 42"
+    },
+    {
+      "check": "9-sitemap-count",
+      "msg": "ID 5 (start): config has 96 URLs, sitemap documents 84"
+    },
+    {
+      "check": "9-sitemap-count",
+      "msg": "ID 6 (guides): config has 520 URLs, sitemap documents 455"
+    },
+    {
+      "check": "9-sitemap-count",
+      "msg": "ID 7 (ideas): config has 360 URLs, sitemap documents 315"
+    },
+    {
+      "check": "10-sv-gap",
+      "msg": "[app] sv has 9/33 content files (24 missing)"
+    },
+    {
+      "check": "10-sv-gap",
+      "msg": "[tool] sv directory missing but 33 slugs defined"
+    },
+    {
+      "check": "10-sv-gap",
+      "msg": "[guide] sv directory missing but 65 slugs defined"
+    },
+    {
+      "check": "10-sv-gap",
+      "msg": "[bundle] sv directory missing but 6 slugs defined"
+    },
+    {
+      "check": "10-sv-gap",
+      "msg": "[idea] sv directory missing but 45 slugs defined"
+    },
+    {
+      "check": "10-sv-gap",
+      "msg": "[start] sv directory missing but 12 slugs defined"
+    }
+  ],
+  "fail": [
+    {
+      "check": "3-slug-content-map",
+      "msg": "[tool/pt/word-search] has slug \"gerador-caca-palavras\" but no content file"
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/en/find-and-count] broken link → idea:\"i-spy-books-kdp\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/en/sudoku] broken link → idea:\"logic-puzzles-printable-ideas\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/en/odd-one-out] broken link → idea:\"visual-discrimination-printable-ideas\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/en/picture-path] broken link → idea:\"maze-pathway-printable-ideas\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/de/missing-pieces] broken link → idea:\"ozean-druckvorlagen-ideen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/de/odd-one-out] broken link → idea:\"bauernhof-druckvorlagen-ideen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[app/de/picture-path] broken link → idea:\"dschungel-druckvorlagen-ideen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/sell-educational-printables-etsy] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/price-etsy-printables] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/etsy-seo-educational-printables] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-etsy-worksheet-bundles] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/math-activity-books-kdp] broken link → guide:\"woordzoekerboeken-kdp\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/math-activity-books-kdp] broken link → guide:\"kdp-versus-etsy-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/math-activity-books-kdp] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/publish-puzzle-books-kdp] broken link → guide:\"kdp-versus-etsy-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/publish-puzzle-books-kdp] broken link → tool:\"kruiswoord-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/word-search-books-kdp] broken link → guide:\"kdp-versus-etsy-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/word-search-books-kdp] broken link → guide:\"woordzoekerpuzzels-maken\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/make-money-kdp-activity-books] broken link → guide:\"kdp-versus-etsy-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/kdp-formatting-worksheets] broken link → guide:\"kdp-versus-etsy-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/kdp-formatting-worksheets] broken link → app:\"rekenwerkblad-generator\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/best-kdp-activity-book-niches] broken link → guide:\"kdp-versus-etsy-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/best-kdp-activity-book-niches] broken link → app:\"rekenwerkblad-generator\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/kdp-vs-etsy-printables] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-sell-tpt-resources] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/tpt-store-optimization] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-addition-worksheets] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-subtraction-worksheets] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-crossword-puzzles] broken link → app:\"kruiswoord-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-crossword-puzzles] broken link → tool:\"kruiswoord-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-math-puzzle-worksheets] broken link → app:\"rekenpuzzel-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-bingo-cards] broken link → guide:\"zoekdeparen-werkbladen-maken\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-bingo-cards] broken link → app:\"bingo-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-bingo-cards] broken link → tool:\"bingo-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-matching-worksheets] broken link → app:\"zoekdeparen-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-matching-worksheets] broken link → tool:\"zoekdeparen-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-pattern-worksheets] broken link → app:\"patroontreinen-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-pattern-worksheets] broken link → tool:\"patroonwerkblad-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-maze-worksheets] broken link → app:\"afbeeldingspad-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-maze-worksheets] broken link → tool:\"afbeeldingspad-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-hidden-object-worksheets] broken link → app:\"voorwerpen-zoeken-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-hidden-object-worksheets] broken link → tool:\"voorwerpen-zoeken-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-size-comparison-worksheets] broken link → tool:\"groot-klein-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-drawing-worksheets] broken link → app:\"tekenen-kleuren-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-drawing-worksheets] broken link → app:\"tekenlijnen-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-drawing-worksheets] broken link → tool:\"tekenen-kleuren-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-sorting-worksheets] broken link → app:\"plaatjes-sorteren-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-shadow-matching-worksheets] broken link → app:\"schaduw-koppelen-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-odd-one-out-puzzles] broken link → app:\"vreemde-eend-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-odd-one-out-puzzles] broken link → tool:\"vreemde-eend-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-missing-pieces-puzzles] broken link → app:\"ontbrekende-stukjes-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-missing-pieces-puzzles] broken link → app:\"wat-hoort-er-niet-bij-maken\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-alphabet-worksheets] broken link → app:\"alfabettrein-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-preposition-worksheets] broken link → tool:\"voorzetsels-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-chart-count-worksheets] broken link → app:\"grafiek-tellen-werkbladen\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/create-chart-count-worksheets] broken link → tool:\"grafiek-tellen-maker\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/passive-income-worksheets] broken link → guide:\"complete-guide-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/passive-income-worksheets] broken link → guide:\"printable-business-income\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/understanding-commercial-licenses] broken link → guide:\"educatieve-printables-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/research-profitable-niches] broken link → guide:\"complete-guide-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/research-profitable-niches] broken link → guide:\"commercial-license-guide\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/worksheets-multiple-languages] broken link → guide:\"complete-guide-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/customer-support-digital-products] broken link → guide:\"reviews-krijgen-printable-producten\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/customer-support-digital-products] broken link → guide:\"prijsstelling-educatieve-printables\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/customer-support-digital-products] broken link → guide:\"rekenwerkbladen-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/customer-support-digital-products] broken link → guide:\"educatieve-printables-verkopen-etsy\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/automate-printable-business] broken link → guide:\"complete-guide-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/automate-printable-business] broken link → guide:\"tools-for-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/email-marketing-printables] broken link → guide:\"complete-guide-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/email-marketing-printables] broken link → guide:\"marketing-printable-business\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/get-reviews-printable-products] broken link → start:\"start-etsy-printable-shop\""
+    },
+    {
+      "check": "6-internal-links",
+      "msg": "[guide/nl/quality-standards-worksheets] broken link → guide:\"create-worksheets\""
+    }
+  ],
+  "counts": {
+    "ID 1 (apps)": {
+      "expected": 363,
+      "documented": 363
+    },
+    "ID 3 (tools)": {
+      "expected": 264,
+      "documented": 231
+    },
+    "ID 4 (bundles)": {
+      "expected": 48,
+      "documented": 42
+    },
+    "ID 5 (start)": {
+      "expected": 96,
+      "documented": 84
+    },
+    "ID 6 (guides)": {
+      "expected": 520,
+      "documented": 455
+    },
+    "ID 7 (ideas)": {
+      "expected": 360,
+      "documented": 315
+    }
+  }
+}

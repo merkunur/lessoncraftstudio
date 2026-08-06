@@ -1,0 +1,14 @@
+{
+  "locale": "fr",
+  "text": {
+    "strings": {},
+    "skillFull": {},
+    "skillShort": {},
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "Full native-speaker QA pass of all FR strings (15 literacy + 22 science titles/instructions, 8 family name/skill/slug sets, 3 category labels, vowels/consonants labels, 18 science bin-label files). All values are natural, grammatically correct (accord, register), and use correct maternelle/CP terminology (sons/syllabes/voyelles/consonnes; 'découverte du monde' framing; classement/tri/association). All slugs are clean: lowercase, hyphenated, accents stripped (sons-initiaux, conscience-phonologique, tri-en-sciences, ordre-et-cycles-de-vie, associations-en-sciences, etc.). Notes on conservative non-changes: (1) K-221/K-226 use 'la lettre par laquelle commence/se termine chaque image' — a mild metonymy (it's the word that begins/ends with the letter, not the image) but it is consistent across the family and is acceptable, idiomatic K-classroom shorthand, so left as-is. (2) 'Moins sain' for 'Not Healthy' (K-203, bin label) is a deliberate, pedagogically-kind register choice — correct and preferred over a blunt 'malsain'. (3) 'Fabriqué par l'homme' (bin) vs 'Fabriqué' (title K-214) — both correct; the fuller bin form is the standard sorting-category wording. No genuine issues found; empty correction set."
+}

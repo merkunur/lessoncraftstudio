@@ -1,0 +1,452 @@
+[
+ {
+  "slug": "tren-de-patrones-abc-4-de-julio-fe63",
+  "themeKey": "4th_of_july",
+  "elements": [
+   "Papas Fritas",
+   "Estatua",
+   "EE.UU."
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-accesorios-fe63",
+  "themeKey": "accessories",
+  "elements": [
+   "Gorro",
+   "Máscara",
+   "Insignia"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-actividades-fe63",
+  "themeKey": "activities",
+  "elements": [
+   "Escribir",
+   "Coser",
+   "Acampar"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-alrededor-de-la-casa-fe63",
+  "themeKey": "around_the_house",
+  "elements": [
+   "Escaleras",
+   "Lámpara",
+   "Tetera"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-animales-de-granja-fe63",
+  "themeKey": "farm_animals",
+  "elements": [
+   "Buey",
+   "Toro",
+   "Burro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-animales-del-zoologico-fe63",
+  "themeKey": "zoo_animals",
+  "elements": [
+   "León marino",
+   "Tigre",
+   "Jirafa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-animales-fe63",
+  "themeKey": "animals",
+  "elements": [
+   "Ballena",
+   "Delfín",
+   "Jaguar"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-arboles-fe63",
+  "themeKey": "tree",
+  "elements": [
+   "Palmera",
+   "Abedul",
+   "Ciprés"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-aves-2-fe63",
+  "themeKey": "birds_2",
+  "elements": [
+   "Pato",
+   "Frailecillo",
+   "Golondrina"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-aves-fe63",
+  "themeKey": "birds",
+  "elements": [
+   "Pingüino",
+   "Avestruz",
+   "Flamenco"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-campamento-fe63",
+  "themeKey": "camping",
+  "elements": [
+   "Mesa de picnic",
+   "Brújula",
+   "Parrilla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-clima-fe63",
+  "themeKey": "weather",
+  "elements": [
+   "Frío",
+   "Termómetro",
+   "Mitones"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-colores-fe63",
+  "themeKey": "colors",
+  "elements": [
+   "Carmesí",
+   "Verde",
+   "Rojo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-cosas-que-vuelan-fe63",
+  "themeKey": "things_that_fly",
+  "elements": [
+   "Avión de papel",
+   "Cohete",
+   "Pájaro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-criaturas-del-bosque-fe63",
+  "themeKey": "forest_creatures",
+  "elements": [
+   "Conejo",
+   "Venado",
+   "Halcón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-desayuno-fe63",
+  "themeKey": "breakfast",
+  "elements": [
+   "Toronja",
+   "Muffin",
+   "Queso"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63",
+  "themeKey": "thanksgivinng",
+  "elements": [
+   "Pavo asado",
+   "Manzana",
+   "Calabaza"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-dinosaurios-fe63",
+  "themeKey": "dinosaurs",
+  "elements": [
+   "Alosaurio",
+   "Argentinosaurio",
+   "Brontosaurio"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-emociones-fe63",
+  "themeKey": "emotions",
+  "elements": [
+   "Feliz",
+   "Aburrido",
+   "Emocionado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-en-el-supermercado-fe63",
+  "themeKey": "at_the_supermarket",
+  "elements": [
+   "Galleta",
+   "Zanahoria",
+   "Manzana"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-espacio-fe63",
+  "themeKey": "space",
+  "elements": [
+   "Urano",
+   "Luna",
+   "Cohete"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-flores-fe63",
+  "themeKey": "flowers",
+  "elements": [
+   "Peonía",
+   "Forsitia",
+   "Loto"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-formas-fe63",
+  "themeKey": "shapes",
+  "elements": [
+   "Luna",
+   "Cubo",
+   "Hexágono"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-frutas-fe63",
+  "themeKey": "fruits",
+  "elements": [
+   "Clementina",
+   "Cereza",
+   "Toronja"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-herramientas-fe63",
+  "themeKey": "tools",
+  "elements": [
+   "Destapacaños",
+   "Brocha",
+   "Desarmador"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-hospital-fe63",
+  "themeKey": "hospital",
+  "elements": [
+   "Muletas",
+   "Silla de ruedas",
+   "Termómetro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-insectos-y-bichos-fe63",
+  "themeKey": "insects_and_bugs",
+  "elements": [
+   "Araña",
+   "Caracol",
+   "Mariposa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-invierno-fe63",
+  "themeKey": "winter",
+  "elements": [
+   "Snowboard",
+   "Iglú",
+   "Gorro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-juguetes-fe63",
+  "themeKey": "toys",
+  "elements": [
+   "Barco",
+   "Cohete",
+   "Cubeta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-mascotas-fe63",
+  "themeKey": "pets",
+  "elements": [
+   "Jerbo",
+   "Lagartija",
+   "Cacatúa ninfa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-miscelaneo-fe63",
+  "themeKey": "miscellaneous",
+  "elements": [
+   "Espantapájaros",
+   "Piña",
+   "Otoño"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-muebles-fe63",
+  "themeKey": "furniture",
+  "elements": [
+   "Silla",
+   "Tapete",
+   "Espejo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-musica-fe63",
+  "themeKey": "music",
+  "elements": [
+   "Nota musical",
+   "Arpa",
+   "Trombón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-navidad-fe63",
+  "themeKey": "christmas",
+  "elements": [
+   "Vela",
+   "Trineo",
+   "Santa Claus"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-ocupaciones-fe63",
+  "themeKey": "occupations",
+  "elements": [
+   "Granjero",
+   "Bailarina",
+   "Atleta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-oficina-de-correos-fe63",
+  "themeKey": "post_office",
+  "elements": [
+   "Sobre",
+   "Cartero",
+   "Paquete"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-panaderia-fe63",
+  "themeKey": "bakery",
+  "elements": [
+   "Pastel de queso",
+   "Brownie",
+   "Galleta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-partes-del-cuerpo-fe63",
+  "themeKey": "body_parts",
+  "elements": [
+   "Oreja",
+   "Talón",
+   "Boca"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-pascua-fe63",
+  "themeKey": "easter",
+  "elements": [
+   "Conejito",
+   "Chocolate",
+   "Arcoíris"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-playa-fe63",
+  "themeKey": "beach",
+  "elements": [
+   "Gaviota",
+   "Delfín",
+   "Palmera"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-postres-y-dulces-fe63",
+  "themeKey": "desserts_and_sweets",
+  "elements": [
+   "Rollo de canela",
+   "Pay",
+   "Galleta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-primavera-fe63",
+  "themeKey": "spring",
+  "elements": [
+   "Nube",
+   "Patito",
+   "Rana"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-reptiles-y-anfibios-fe63",
+  "themeKey": "reptiles_and_amphibians",
+  "elements": [
+   "Cobra",
+   "Tortuga",
+   "Salamandra"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-ropa-fe63",
+  "themeKey": "clothing",
+  "elements": [
+   "Camiseta",
+   "Gorro",
+   "Pantalón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-salon-de-clases-fe63",
+  "themeKey": "classroom",
+  "elements": [
+   "Calculadora",
+   "Cinta adhesiva",
+   "Lápiz"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-utensilios-de-cocina-fe63",
+  "themeKey": "kitchen_tools",
+  "elements": [
+   "Rodillo",
+   "Plato",
+   "Bandeja para hornear"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-vehiculos-fe63",
+  "themeKey": "vehicles",
+  "elements": [
+   "Grúa",
+   "Motocicleta",
+   "Tren"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-verano-fe63",
+  "themeKey": "summer",
+  "elements": [
+   "Natación",
+   "Sombrero de sol",
+   "Parrilla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-verduras-fe63",
+  "themeKey": "vegetables",
+  "elements": [
+   "Papa",
+   "Calabaza",
+   "Coliflor"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abc-vida-marina-fe63",
+  "themeKey": "ocean_life",
+  "elements": [
+   "Ostra",
+   "Caballito de mar",
+   "Pez payaso"
+  ]
+ }
+]

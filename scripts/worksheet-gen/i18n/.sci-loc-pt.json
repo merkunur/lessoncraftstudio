@@ -1,0 +1,182 @@
+{
+  "locale": "pt",
+  "strand": "Ciências da Natureza",
+  "families": {
+    "science-sort": {
+      "name": "Classificar em Ciências",
+      "slug": "classificar-ciencias"
+    },
+    "science-sequence": {
+      "name": "Sequências e Ciclos de Vida",
+      "slug": "sequencias-ciclos-de-vida"
+    },
+    "science-match": {
+      "name": "Associação em Ciências",
+      "slug": "associacao-ciencias"
+    }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Classifique os Animais",
+      "instruction": "Ligue cada animal ao grupo a que ele pertence.",
+      "bins": {
+        "mammals": "Mamíferos",
+        "birds": "Aves",
+        "reptiles": "Répteis"
+      }
+    },
+    "G1-202": {
+      "title": "Onde os Animais Vivem?",
+      "instruction": "Ligue cada animal ao lugar onde ele vive.",
+      "bins": {
+        "land": "Terra",
+        "water": "Água",
+        "air": "Ar"
+      }
+    },
+    "G1-203": {
+      "title": "O Ciclo de Vida da Galinha",
+      "instruction": "Escreva 1, 2, 3 para colocar as figuras na ordem certa."
+    },
+    "G1-204": {
+      "title": "Afunda ou Flutua?",
+      "instruction": "Ligue cada objeto ao grupo que você acha que ele pertence.",
+      "bins": {
+        "float": "Flutua",
+        "sink": "Afunda"
+      }
+    },
+    "G1-205": {
+      "title": "A Cobertura do Corpo dos Animais",
+      "instruction": "Ligue cada animal à cobertura do corpo dele.",
+      "bins": {
+        "fur": "Pelos",
+        "feathers": "Penas",
+        "scales": "Escamas"
+      }
+    },
+    "G1-206": {
+      "title": "O Que os Animais Comem",
+      "instruction": "Ligue cada animal ao grupo a que ele pertence.",
+      "bins": {
+        "plant": "Herbívoros",
+        "meat": "Carnívoros"
+      }
+    },
+    "G1-207": {
+      "title": "Os Quatro Grupos de Alimentos",
+      "instruction": "Ligue cada alimento ao seu grupo alimentar.",
+      "bins": {
+        "fruits": "Frutas",
+        "vegetables": "Legumes e Verduras",
+        "grains": "Cereais",
+        "protein": "Proteínas"
+      }
+    },
+    "K-201": {
+      "title": "Seres Vivos e Não Vivos",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+      "bins": {
+        "living": "Ser vivo",
+        "nonliving": "Não vivo"
+      }
+    },
+    "K-202": {
+      "title": "Frutas e Legumes",
+      "instruction": "Ligue cada alimento ao grupo a que ele pertence.",
+      "bins": {
+        "fruits": "Frutas",
+        "vegetables": "Legumes e Verduras"
+      }
+    },
+    "K-203": {
+      "title": "Alimentos Saudáveis e Não Saudáveis",
+      "instruction": "Ligue cada alimento ao grupo a que ele pertence.",
+      "bins": {
+        "healthy": "Saudável",
+        "unhealthy": "Não saudável"
+      }
+    },
+    "K-204": {
+      "title": "Animais de Estimação e Animais Selvagens",
+      "instruction": "Ligue cada animal ao grupo a que ele pertence.",
+      "bins": {
+        "pets": "Animais de estimação",
+        "wild": "Animais selvagens"
+      }
+    },
+    "K-205": {
+      "title": "Os Filhotes dos Animais",
+      "instruction": "Ligue cada animal adulto ao seu filhote."
+    },
+    "K-206": {
+      "title": "Coisas Que Voam",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+      "bins": {
+        "canfly": "Voa",
+        "cannot": "Não voa"
+      }
+    },
+    "K-207": {
+      "title": "Roupas de Verão e de Inverno",
+      "instruction": "Ligue cada peça de roupa ao grupo certo.",
+      "bins": {
+        "summer": "Verão",
+        "winter": "Inverno"
+      }
+    },
+    "K-208": {
+      "title": "Dia e Noite",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+      "bins": {
+        "day": "Dia",
+        "night": "Noite"
+      }
+    },
+    "K-209": {
+      "title": "Animais da Fazenda e Animais Selvagens",
+      "instruction": "Ligue cada animal ao grupo a que ele pertence.",
+      "bins": {
+        "farm": "Animais da fazenda",
+        "wild": "Animais selvagens"
+      }
+    },
+    "K-210": {
+      "title": "Transportes na Terra, na Água e no Ar",
+      "instruction": "Ligue cada veículo ao lugar por onde ele anda.",
+      "bins": {
+        "land": "Terra",
+        "water": "Água",
+        "air": "Ar"
+      }
+    },
+    "K-211": {
+      "title": "Quente e Frio",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+      "bins": {
+        "hot": "Quente",
+        "cold": "Frio"
+      }
+    },
+    "K-212": {
+      "title": "Desejos e Necessidades",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+      "bins": {
+        "needs": "Necessidades",
+        "wants": "Desejos"
+      }
+    },
+    "K-213": {
+      "title": "Profissionais da Comunidade e Suas Ferramentas",
+      "instruction": "Ligue cada profissional à ferramenta que ele usa."
+    },
+    "K-214": {
+      "title": "Natural e Feito pelo Ser Humano",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence.",
+      "bins": {
+        "natural": "Natural",
+        "manmade": "Feito pelo ser humano"
+      }
+    }
+  }
+}

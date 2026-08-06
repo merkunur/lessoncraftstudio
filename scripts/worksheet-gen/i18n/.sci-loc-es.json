@@ -1,0 +1,173 @@
+{
+  "locale": "es",
+  "strand": "Conocimiento del medio",
+  "families": {
+    "science-sort": { "name": "Clasificar en ciencias", "slug": "clasificar-ciencias" },
+    "science-sequence": { "name": "Secuencias y ciclos de vida", "slug": "secuencias-ciclos-de-vida" },
+    "science-match": { "name": "Relacionar en ciencias", "slug": "relacionar-ciencias" }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Clasifica los animales",
+      "instruction": "Une con una línea cada animal con el grupo al que pertenece.",
+      "bins": {
+        "mammals": "Mamíferos",
+        "birds": "Aves",
+        "reptiles": "Reptiles"
+      }
+    },
+    "G1-202": {
+      "title": "¿Dónde viven los animales?",
+      "instruction": "Une con una línea cada animal con el lugar donde vive.",
+      "bins": {
+        "land": "Tierra",
+        "water": "Agua",
+        "air": "Aire"
+      }
+    },
+    "G1-203": {
+      "title": "El ciclo de vida de la gallina",
+      "instruction": "Escribe 1, 2, 3 para ordenar los dibujos correctamente."
+    },
+    "G1-204": {
+      "title": "¿Se hunde o flota?",
+      "instruction": "Une con una línea cada objeto con el grupo al que crees que pertenece.",
+      "bins": {
+        "float": "Flota",
+        "sink": "Se hunde"
+      }
+    },
+    "G1-205": {
+      "title": "El cuerpo de los animales",
+      "instruction": "Une con una línea cada animal con lo que cubre su cuerpo.",
+      "bins": {
+        "fur": "Pelo",
+        "feathers": "Plumas",
+        "scales": "Escamas"
+      }
+    },
+    "G1-206": {
+      "title": "¿Qué comen los animales?",
+      "instruction": "Une con una línea cada animal con el grupo al que pertenece.",
+      "bins": {
+        "plant": "Herbívoros",
+        "meat": "Carnívoros"
+      }
+    },
+    "G1-207": {
+      "title": "Los grupos de alimentos",
+      "instruction": "Une con una línea cada alimento con su grupo.",
+      "bins": {
+        "fruits": "Frutas",
+        "vegetables": "Verduras",
+        "grains": "Cereales",
+        "protein": "Proteínas"
+      }
+    },
+    "K-201": {
+      "title": "Seres vivos y no vivos",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+      "bins": {
+        "living": "Ser vivo",
+        "nonliving": "No vivo"
+      }
+    },
+    "K-202": {
+      "title": "Frutas y verduras",
+      "instruction": "Une con una línea cada alimento con el grupo al que pertenece.",
+      "bins": {
+        "fruits": "Frutas",
+        "vegetables": "Verduras"
+      }
+    },
+    "K-203": {
+      "title": "Alimentos sanos y no sanos",
+      "instruction": "Une con una línea cada alimento con el grupo al que pertenece.",
+      "bins": {
+        "healthy": "Sanos",
+        "unhealthy": "No sanos"
+      }
+    },
+    "K-204": {
+      "title": "Mascotas y animales salvajes",
+      "instruction": "Une con una línea cada animal con el grupo al que pertenece.",
+      "bins": {
+        "pets": "Mascotas",
+        "wild": "Animales salvajes"
+      }
+    },
+    "K-205": {
+      "title": "Las crías de los animales",
+      "instruction": "Une con una línea cada animal adulto con su cría."
+    },
+    "K-206": {
+      "title": "Cosas que vuelan",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+      "bins": {
+        "canfly": "Vuela",
+        "cannot": "No vuela"
+      }
+    },
+    "K-207": {
+      "title": "Ropa de verano y de invierno",
+      "instruction": "Une con una línea cada prenda con el grupo correcto.",
+      "bins": {
+        "summer": "Verano",
+        "winter": "Invierno"
+      }
+    },
+    "K-208": {
+      "title": "El día y la noche",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+      "bins": {
+        "day": "Día",
+        "night": "Noche"
+      }
+    },
+    "K-209": {
+      "title": "Animales de granja y salvajes",
+      "instruction": "Une con una línea cada animal con el grupo al que pertenece.",
+      "bins": {
+        "farm": "Animales de granja",
+        "wild": "Animales salvajes"
+      }
+    },
+    "K-210": {
+      "title": "Transportes de tierra, agua y aire",
+      "instruction": "Une con una línea cada vehículo con el lugar por donde se desplaza.",
+      "bins": {
+        "land": "Tierra",
+        "water": "Agua",
+        "air": "Aire"
+      }
+    },
+    "K-211": {
+      "title": "Frío y calor",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+      "bins": {
+        "hot": "Caliente",
+        "cold": "Frío"
+      }
+    },
+    "K-212": {
+      "title": "Deseos y necesidades",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+      "bins": {
+        "needs": "Necesidades",
+        "wants": "Deseos"
+      }
+    },
+    "K-213": {
+      "title": "Las profesiones y sus herramientas",
+      "instruction": "Une con una línea cada profesión con la herramienta que utiliza."
+    },
+    "K-214": {
+      "title": "Natural y artificial",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece.",
+      "bins": {
+        "natural": "Natural",
+        "manmade": "Artificial"
+      }
+    }
+  }
+}

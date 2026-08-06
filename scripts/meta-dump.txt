@@ -1,0 +1,518 @@
+---
+app-content/alphabet-train (237 chars):
+Alphabet-Zug-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Zugwaggon-Format mit Buchstaben-Bild-Zuordnung, 11 Sprachen mit nativen Alphabeten, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/big-small (243 chars):
+Größenvergleich-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Fünf Fragetypen, identische und verschiedene Bildmodi, 104 Themen, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/bingo (238 chars):
+Professionelle Bilder-Bingo-Karten erstellen und auf Etsy.de, Amazon KDP verkaufen. Stapel-Generierung von 1–10 einzigartigen Karten, ZIP-Export, Ansageblatt, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/chart-count (245 chars):
+Professionelle Bilddiagramm-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Automatischer Lösungsschlüssel, 104 Themen, 6 Bildtypen pro Blatt, Graustufen-Export. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/code-addition (194 chars):
+Code-Knacker-Additions-Rätsel erstellen und auf Etsy, Amazon KDP verkaufen. Wort-Entschlüsselung, 11 Sprach-Alphabete, 104 Themen, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit Wasserzeichen.
+---
+app-content/coloring (272 chars):
+Professionelle Malvorlagen und Ausmalseiten erstellen und auf Etsy.de, Amazon KDP verkaufen. Freie Arbeitsfläche, 104 Schwarzweiß-Themen, Freihand-Zeichenwerkzeug, Graustufen-Export, Klassenzimmer-Helfer. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/crossword (292 chars):
+Professionelle Bilderkreuzworträtsel erstellen und auf Etsy.de, Amazon KDP verkaufen. Bildhinweise auf 15×15-Raster, 4 Eingabemethoden, automatischer Lösungsschlüssel, 104 Themen, lokalisierte Kreuzwortwörter in 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/cryptogram (268 chars):
+Bildkryptogramm-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bild-Buchstaben-Chiffre mit Buchstaben aufdecken 0–10, 104 Themen, erweitertes deutsches Alphabet mit ä/ö/ü/ß, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/draw-and-color (260 chars):
+Professionelle Rasterzeichnen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Duales Rastersystem mit einstellbarem Hinweisprozent 10–75%, drei Symmetriemodi, über 100 S&W-Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/drawing-lines (250 chars):
+Professionelle Linien-Ziehen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal, Vertikal — mit Bildpaar-Zuordnung. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/find-and-count (268 chars):
+Professionelle Suchbild- und Suchen-und-Zählen-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 4 Aufgabentypen, Buchstabenerkennung mit ÄÖÜ, automatischer Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/find-objects (294 chars):
+Professionelle Versteckte-Objekte- und Suchbild-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Ich-sehe-was- und Welches-passt-nicht-Modus, überlappungsfreie Szenen, automatischer Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/grid-match (309 chars):
+Professionelle Raster-Puzzle-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Konfigurierbares Raster (2–4 Zeilen × 2–4 Spalten), einstellbare Hinweiszellen, automatischer Lösungsschlüssel mit nummerierten Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/matching (247 chars):
+Professionelle Zuordnungs-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 4 Zuordnungsmodi, automatischer Lösungsschlüssel, 104 Themen, konfigurierbare Paaranzahl. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/math-puzzle (222 chars):
+Professionelle Mathe-Rätsel-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bilderpuzzle mit Addition und Subtraktion, konfigurierbares Raster, 104 Themen, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.
+---
+app-content/math-worksheet (210 chars):
+Professionelle Algebra-Bilderätsel-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bilder als Variablen, 4 Schwierigkeitsstufen, eindeutige Lösungen, 104 Themen. Kostenlos testen mit Wasserzeichen.
+---
+app-content/missing-pieces (258 chars):
+Professionelle Fehlende-Puzzleteile-Rätsel erstellen und auf Etsy.de, Amazon KDP verkaufen. 6 Teilformen, 1–5 fehlende Teile, 2–6 Lösungsoptionen, automatischer Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/more-less (180 chars):
+Vergleichs-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 3 Vergleichsmodi, Check & Cross, 104 Themen, Lösungsschlüssel, 400+ DPI. Kostenlos testen mit Wasserzeichen.
+---
+app-content/odd-one-out (299 chars):
+Professionelle Was-passt-nicht-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei Erzeugungsmodi (Identisch & Ähnlich), Modus-Überschreibung pro Übung, automatischer Lösungsschlüssel mit roten Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/pattern-train (263 chars):
+Musterfolge-Zug-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Fünf Mustertypen (AB, AAB, ABB, ABC, AABB), 11 Zugwaggons, einstellbare Hinweisanzahl, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/pattern-worksheet (274 chars):
+Professionelle Muster-Raster-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Neun Mustertypen (AB bis ABCD), zwei Fragemodi, pro-Übung-Konfiguration, 104 Themen, automatischer Lösungsschlüssel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/picture-path (247 chars):
+Professionelle Labyrinth-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 3 Spielmodi, LPF-Algorithmus, automatischer Lösungsschlüssel mit rosa Kreisen, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/picture-sort (248 chars):
+Professionelle Bilder-Sortieren-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei-Kategorien-Sortierung, automatischer Lösungsschlüssel, 104 Themen, 4–12 Bilder. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/prepositions (191 chars):
+Präpositionen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. 8 Ortspräpositionen, Lückentext & Multiple Choice, Dativ-Grammatik, 11 Sprachen. Kostenlos testen mit Wasserzeichen.
+---
+app-content/shadow-match (292 chars):
+Professionelle Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Zwei Modi — Schattenbild-Zuordnung und Bild-Vervollständigung — automatische Silhouetten, Lösungsschlüssel, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/sudoku (281 chars):
+Professionelle 4×4-Bilder-Sudoku-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. Drei Schwierigkeitsgrade, automatischer Lösungsschlüssel mit vollständigem Raster, 104 Themen, rein visuelle Rätsel. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/treasure-hunt (296 chars):
+Professionelle Schatzsuche-Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP verkaufen. 5×5-Koordinatenraster, zwei Richtungstypen, automatischer Lösungsschlüssel, 104 Themen, lokalisierte Richtungsanweisungen in 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/word-guess (211 chars):
+Wörter-Raten-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Bild-Hinweise, 4 Schwierigkeitsstufen, 3 Inhaltsquellen, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/word-scramble (245 chars):
+Buchstabensalat-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Gemischte Buchstabenplättchen, 4 Schwierigkeitsstufen, Vokal-Konsonanten-Farbcodierung, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/word-search (249 chars):
+Wortsuche-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Einstellbare Gittergröße 5–30, Diagonal- und Rückwärts-Steuerung, sprachabhängige Füllbuchstaben, 11 Sprachen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+app-content/writing (274 chars):
+Schreibübungen-Arbeitsblätter erstellen und auf Etsy, Amazon KDP verkaufen. Drei Übungsmodi, fünf Schriftarten, Strichrichtungspfeile, verblassende Buchstabenführung, Vorübungen zur Feinmotorik, 104 Themen. Kostenlos testen mit Wasserzeichen — kommerzielle Lizenz verfügbar.
+---
+bundle-content/literacy-bundle (320 chars):
+Holen Sie sich 7 professionelle Lese- und Sprach-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Alphabet-Zug-, Wortsuche-, Buchstabensalat-, Kryptogramm-, Präpositionen-, Wörter-Raten- und Schreibübungen-Arbeitsblätter in 11 Sprachen. Verkaufen Sie auf Etsy.de, KDP und Lehrermarktplatz mit kommerzieller Lizenz.
+---
+bundle-content/matching-bundle (288 chars):
+Holen Sie sich 5 professionelle Zuordnungs- und Sortier-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Zuordnungs-, Raster-Puzzle-, Schattenbilder-, Bingo-Karten- und Bilder-Sortieren-Arbeitsblätter zum Verkauf auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.
+---
+bundle-content/math-bundle (263 chars):
+Holen Sie sich 6 professionelle Mathe-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Additions-, Subtraktions-, Code-Rätsel-, Vergleichs-, Puzzle- und Algebra-Arbeitsblätter zum Verkauf auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.
+---
+bundle-content/puzzle-bundle (204 chars):
+Rätsel-Arbeitsblatt-Paket mit 4 Generatoren: Fehlende Puzzleteile, Was passt nicht, Kinder-Sudoku und Bilderpfad-Labyrinthe. Verkaufen auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.
+---
+bundle-content/search-bundle (201 chars):
+Suchen-Finden-Arbeitsblatt-Paket mit 4 Generatoren: Suchbilder, Bilderkreuzworträtsel, Schatzsuche und Suchen-und-Zählen. Verkaufen auf Etsy.de, KDP und Lehrermarktplatz. Kommerzielle Lizenz inklusive.
+---
+bundle-content/visual-bundle (290 chars):
+Holen Sie sich 7 professionelle visuelle Lern-Arbeitsblatt-Generatoren in einem Paket. Erstellen Sie Malvorlagen, Zeichenaktivitäten, Musterübungen, Größenvergleiche, Bilddiagramme und Linienübungen. Textunabhängig — weltweit einsetzbar. Verkaufen Sie auf Etsy.de, KDP und Lehrermarktplatz.
+---
+guide-content/automate-printable-business (174 chars):
+Automatisieren Sie Ihr Druckvorlagen-Geschäft mit Stapelverarbeitung, Vorlagensystemen und systematischen Prozessen, die Stunden sparen und die Produktionsleistung skalieren.
+---
+guide-content/best-kdp-activity-book-niches (162 chars):
+Entdecken Sie die besten KDP Aktivitätsbuch-Nischen für Verleger. Umfasst Nachfrageanalyse, Wettbewerbsbewertung, unterversorgte Kategorien und saisonales Timing.
+---
+guide-content/copyright-printable-sellers (204 chars):
+Erfahren Sie, was Druckvorlagen-Verkäufer über Urheberrecht wissen müssen: welche Arbeitsblatt-Elemente schutzfähig sind, Registrierungsvorteile, Durchsetzung und Vermeidung von Urheberrechtsverletzungen.
+---
+guide-content/create-addition-worksheets (202 chars):
+Additions-Arbeitsblätter für Kinder erstellen. Schritt-für-Schritt-Anleitung: Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren und PDFs zum Verkauf auf Etsy und KDP exportieren.
+---
+guide-content/create-alphabet-worksheets (279 chars):
+So erstellen Sie Alphabet-Zug-Arbeitsblätter mit 11 bunten Waggons, zwei Erstellungsmodi (Automatische Erstellung und Manuelle Auswahl), konfigurierbarer Hinweisanzahl 3–11, sprachsensitiver Buchstabenzuordnung in 11 Sprachen und automatischen Lösungsschlüsseln für Etsy und KDP.
+---
+guide-content/create-bingo-cards (165 chars):
+So erstellen Sie Bingo-Karten mit thematischen Bildern. Rastergrößen wählen, einzigartige Karten mit Kontrollkarten generieren und PDFs für Etsy und KDP exportieren.
+---
+guide-content/create-chart-count-worksheets (183 chars):
+Bilddiagramm-Arbeitsblätter mit 4×5-Bildraster erstellen. Automatischer Lösungsschlüssel mit gelb hervorgehobenen Zellen, Zufallsverteilung für einzigartige Generierungen, 104 Themen.
+---
+guide-content/create-coloring-pages (182 chars):
+So erstellen Sie Malvorlagen aus über 3.100 thematischen Bildern. Freie Leinwand mit Graustufen-Export, Freihand-Zeichenwerkzeug und Klassenzimmer-Hilfen. Verkaufen auf Etsy und KDP.
+---
+guide-content/create-counting-worksheets (178 chars):
+So erstellen Sie Zähl- und Diagramm-Arbeitsblätter mit Bilddiagrammen, automatischen Lösungsschlüsseln und 104 Themen. Schritt-für-Schritt-Anleitung für Etsy, Amazon KDP und TpT.
+---
+guide-content/create-crossword-puzzles (169 chars):
+Kreuzworträtsel für Kinder mit Bildhinweisen erstellen. Themen wählen, Kreuzungsraster generieren, nummerierte Hinweise, Lösungsschlüssel und auf Etsy und KDP verkaufen.
+---
+guide-content/create-cryptogram-puzzles (220 chars):
+Kryptogramm-Rätsel mit Bildchiffre-Codierung erstellen. Aufzudeckende Buchstaben (0–10) Schwierigkeit, Automatische und Manuelle Zuweisung, sprachspezifisches Alphabet in 11 Sprachen, Buchstabenlegenden-Lösungsschlüssel.
+---
+guide-content/create-drawing-worksheets (182 chars):
+Erstellen Sie Zeichen- und Symmetrie-Arbeitsblätter mit Doppelraster-System, einstellbarem Hinweisprozentsatz, drei Symmetriemodi und Schwarz-Weiß-Umrissen. Verkauf auf Etsy und KDP.
+---
+guide-content/create-etsy-coloring-pages (162 chars):
+Etsy-Malvorlagen aus 104 Bildthemen erstellen. S/W- und Graustufen-Export, Angebotsoptimierung, Preisgestaltung für Themenpakete und saisonale Verkaufsstrategien.
+---
+guide-content/create-etsy-worksheet-bundles (171 chars):
+Etsy Arbeitsblatt-Pakete erstellen, die den durchschnittlichen Bestellwert steigern. Pakettypen, Dateiorganisation, Vorschaubilder, Angebotsoptimierung und Preisstrategie.
+---
+guide-content/create-handwriting-sheets (175 chars):
+Erstellen Sie Schreibübungen mit Nachfahr-, Verblassendem-Nachfahr- und Geführtem-Abschreib-Modus. Strichreihenfolge-Pfeile, fünf Schriftarten und PDF-Export für Etsy und KDP.
+---
+guide-content/create-hidden-object-worksheets (190 chars):
+Wie Sie Suchbilder-Arbeitsblätter mit 2 Spielmodi erstellen: Ich sehe was und Was passt nicht. Thematische Szenen aufbauen, Lösungsschlüssel generieren und auf Etsy und Amazon KDP verkaufen.
+---
+guide-content/create-matching-worksheets (207 chars):
+So erstellen Sie Zuordnungs-Arbeitsblätter für die Vorschule. Nutzen Sie 4 Modi, thematische Bilder, automatische Lösungsschlüssel mit Verbindungslinien und exportieren Sie PDFs zum Verkauf auf Etsy und KDP.
+---
+guide-content/create-math-puzzle-worksheets (192 chars):
+Mathe-Rätsel-Arbeitsblätter erstellen, bei denen Kinder Gleichungen lösen, um Bilder zusammenzusetzen. Rastergrößen, Rechenoperationen, Lösungsschlüssel und Tipps zum Verkauf auf Etsy und KDP.
+---
+guide-content/create-maze-worksheets (176 chars):
+So erstellen Sie Labyrinth-Arbeitsblätter mit 3 Spielmodi, thematischen Bildern und Lösungsschlüsseln. Druckbare Labyrinth-Aktivitätsblätter für Etsy und Amazon KDP generieren.
+---
+guide-content/create-missing-pieces-puzzles (318 chars):
+So erstellen Sie Puzzle-Arbeitsblätter mit fehlenden Teilen mit 6 Puzzleteil-Formen, intelligentem Extraktionsalgorithmus mit Helligkeitsvarianz-Erkennung, Ablenkungsteilen, zwei unabhängigen Schwierigkeitssteuerungen und automatischen Lösungsschlüsseln mit gelber Hervorhebung für weltweiten Verkauf auf Etsy und KDP.
+---
+guide-content/create-odd-one-out-puzzles (274 chars):
+So erstellen Sie Was-passt-nicht-Arbeitsblätter mit Identisch- und Ähnlich-Modus, pro-Übung-Modusüberschreibungen für gemischte Schwierigkeitsgrade, automatischen Lösungsschlüsseln mit roter Kreis-Markierung und rein visuellem Format für weltweiten Verkauf auf Etsy und KDP.
+---
+guide-content/create-pattern-worksheets (166 chars):
+Erstellen Sie Muster-Arbeitsblätter mit 9 Mustertypen, thematischen Bildern, Lösungsschlüsseln und 2 Frageformaten. Exportieren Sie PDFs zum Verkauf auf Etsy und KDP.
+---
+guide-content/create-picture-sudoku (170 chars):
+Bilder-Sudoku für junge Lerner erstellen. 4×4-Bildraster, 3 Schwierigkeitsstufen, thematische Bilder, Lösungsschlüssel und druckfertige PDFs zum Verkauf auf Etsy und KDP.
+---
+guide-content/create-preposition-worksheets (179 chars):
+Präpositionen-Arbeitsblätter mit zwei Übungsmodi, Formaustausch für Szenenvielfalt, 7-Präpositionen-Kontrollkästchen, muttersprachlichen Positionswörtern in 11 Sprachen erstellen.
+---
+guide-content/create-sell-tpt-resources (171 chars):
+Wie Sie TPT Materialien erstellen und verkaufen. Kontoeinrichtung, Materialformatierung, Listing-Optimierung, Preisstrategie und Dynamik aufbauen auf dem Lehrermarktplatz.
+---
+guide-content/create-shadow-matching-worksheets (255 chars):
+Schattenbilder-Zuordnungs-Arbeitsblätter mit zwei Modi erstellen. Schritt-für-Schritt-Anleitung: Schattenbilder-Zuordnung generiert pixelgenaue Silhouetten, Halb-Bilder teilt Bilder in Hälften, automatische Lösungsschlüssel und auf Etsy und KDP verkaufen.
+---
+guide-content/create-size-comparison-worksheets (178 chars):
+So erstellen Sie Größenvergleich-Arbeitsblätter mit 5 Aufgabentypen und 2 Bildmodi. Textfreie Ausgabe verkauft sich weltweit. Schritt-für-Schritt-Anleitung für Etsy, KDP und TpT.
+---
+guide-content/create-sorting-worksheets (258 chars):
+So erstellen Sie Zwei-Kategorien-Sortier-Arbeitsblätter. Schritt-für-Schritt-Anleitung: Themen- oder manuellen Modus wählen, 4–12 Bilder konfigurieren, gemischte Ausschneideraster mit automatischen Lösungsschlüsseln generieren und auf Etsy und KDP verkaufen.
+---
+guide-content/create-subtraction-worksheets (184 chars):
+Subtraktions-Arbeitsblätter für Kinder mit durchgestrichenen Bildern, visuellen Themen und Lösungsschlüsseln erstellen. Schritt-für-Schritt-Anleitung zum Verkauf auf Etsy, KDP und TpT.
+---
+guide-content/create-treasure-hunt-worksheets (369 chars):
+So erstellen Sie Schatzsuche-Arbeitsblätter auf einem 5×5-Koordinatenraster mit zwei Richtungstypen (Grundrichtungen und Himmelsrichtungen), genau 4 Richtungsbewegungen, 6 thematischen Orientierungsbildern, automatischen Lösungsschlüsseln mit blassgelb hervorgehobener Schatzzelle und vollständig lokalisierten Hinweisen in 11 Sprachen für den Verkauf auf Etsy und KDP.
+---
+guide-content/create-word-search-puzzles (172 chars):
+Wortsuchrätsel mit Bildhinweisen erstellen. Themen wählen, Rastergröße einstellen, Suchrichtungen konfigurieren, Lösungsschlüssel generieren und auf Etsy und KDP verkaufen.
+---
+guide-content/create-worksheet-bundles (169 chars):
+So erstellen Sie Arbeitsblatt-Pakete, die sich auf jeder Plattform verkaufen. Pakettypen, Preispsychologie, Wert-Stapelung und professionelle Verpackung für mehr Umsatz.
+---
+guide-content/email-marketing-printables (185 chars):
+E-Mail-Marketing-Strategie für Druckvorlagen-Verkäufer. Bauen Sie eine Abonnentenliste auf, erstellen Sie Lead-Magnete, automatisieren Sie Sequenzen und steigern Sie Wiederholungskäufe.
+---
+guide-content/etsy-seo-educational-printables (173 chars):
+Etsy SEO Leitfaden für Lernmaterial-Druckvorlagen. Keyword-Recherche, Titeloptimierung, alle 13 Tags, Angebotsbeschreibungen und Rankingfaktoren für Druckvorlagen-Verkäufer.
+---
+guide-content/get-reviews-printable-products (174 chars):
+Bewährte Strategien für Bewertungen, die Druckvorlagen-Verkäufer brauchen. Sozialen Beweis aufbauen, authentisches Käuferfeedback verdienen und Shop-Glaubwürdigkeit steigern.
+---
+guide-content/kdp-formatting-worksheets (189 chars):
+KDP Formatierungsanleitung für Arbeitsblätter mit Beschnittgrößen, Seitenrändern, Beschnitteinstellungen, PDF-Export bei 300 DPI, Cover-Maßen und Upload-Fehlerbehebung für Aktivitätsbücher.
+---
+guide-content/make-money-kdp-activity-books (163 chars):
+Geld verdienen mit KDP Aktivitätsbüchern durch Preis-, Katalog- und Tantieme-Strategien. Umsatzrechnung, saisonales Veröffentlichen und Multi-Plattform-Skalierung.
+---
+guide-content/multilingual-printable-business (190 chars):
+Bauen Sie ein mehrsprachiges Druckvorlagen-Geschäft auf, indem Sie in internationale Märkte expandieren. Erfahren Sie, welche Sprachen Priorität haben und wie Sie Ihren Umsatz vervielfachen.
+---
+guide-content/niche-selection-printables (166 chars):
+Nischenauswahl für Druckvorlagen-Geschäfte: Nachfrage recherchieren, Wettbewerb analysieren, Rentabilität bewerten, vor dem Festlegen validieren und Expansion planen.
+---
+guide-content/passive-income-worksheets (164 chars):
+Bauen Sie wiederkehrenden Umsatz mit Arbeitsblättern auf durch immergrüne Kataloge, Multiplattform-Vertrieb, Sprachexpansion und Katalog-Zusammensetzungsstrategien.
+---
+guide-content/price-etsy-printables (197 chars):
+Druckbare Arbeitsblätter auf Etsy bepreisen mit Gebührenberechnung, dreistufiger Preisstruktur, Bündelstrategien und saisonalen Anpassungen. Vollständiger Preisleitfaden für Arbeitsblatt-Verkäufer.
+---
+guide-content/publish-puzzle-books-kdp (146 chars):
+Rätselbücher auf KDP veröffentlichen mit Wortsuche, Kreuzworträtsel und Sudoku. Formatierung, Variety-Bücher, Serienaufbau und Amazon-Optimierung.
+---
+guide-content/quality-standards-worksheets (187 chars):
+Qualitätsstandards für Arbeitsblätter, die Verkäufer für professionelle Ergebnisse brauchen. Deckt Auflösung, Seitenränder, Typografie, Lösungsschlüssel und Drucktests für Marktplätze ab.
+---
+guide-content/research-profitable-niches (180 chars):
+Lernen Sie, profitable Druckvorlagen-Nischen mit Marktplatzdaten, Keyword-Analyse, Wettbewerbsforschung, Nachfragesignalen und systematischen Validierungsmethoden zu recherchieren.
+---
+guide-content/scale-printable-business-guide (172 chars):
+So skalieren Sie Ihr Druckvorlagen-Geschäft mit Stapelproduktionssystemen, Multiplattform-Expansion, Katalogwachstum, mehrsprachigen Märkten und Automatisierungsstrategien.
+---
+guide-content/seasonal-marketing-printables (177 chars):
+Planen Sie saisonale Druckvorlagen-Kampagnen abgestimmt auf Nachfragezyklen. Ein Verkäuferkalender für Produktionstiming, Schlüsselwörter und Strategien für Hauptverkaufszeiten.
+---
+guide-content/sell-educational-printables-etsy (175 chars):
+Pädagogische Druckvorlagen auf Etsy verkaufen mit 33 Generatoren in 6 Kategorien. Shop-Strategie, Etsy SEO, kategorieübergreifende Bündelung und Preisgestaltung für Verkäufer.
+---
+guide-content/sell-math-worksheets-etsy (174 chars):
+Mathe-Arbeitsblätter auf Etsy verkaufen mit 6 Generatoren. Etsy SEO, Angebotsoptimierung, Preisgestaltung, Bündelstrategien und saisonales Timing für Druckvorlagen-Verkäufer.
+---
+guide-content/sell-word-search-etsy (192 chars):
+Wortsuche-Rätsel auf Etsy verkaufen mit 4 Rätsel-Generatoren. Etsy SEO, Angebotsoptimierung, Preisgestaltung, Bündelstrategien mit Kreuzworträtseln und Buchstabensalat sowie saisonales Timing.
+---
+guide-content/start-etsy-printable-shop (168 chars):
+Etsy-Druckvorlagen-Shop von Grund auf starten mit 33 Generatoren. Shop-Einrichtung, Branding, Angebotsoptimierung, Preisgestaltung, Etsy-Gebühren und 30-Tage-Startplan.
+---
+guide-content/sudoku-books-kdp (172 chars):
+Erstellen Sie Sudoku-Bücher für KDP mit Bilder-Sudoku für Kinder und Zahlen-Sudoku für Erwachsene. Schwierigkeitsprogression, Rasterformatierung und Serienaufbau-Strategie.
+---
+guide-content/understanding-commercial-licenses (161 chars):
+Verstehen Sie kommerzielle Lizenzen für Druckvorlagen vor dem Verkauf. Lernen Sie Lizenztypen, häufige Fehler und wie korrekte Lizenzierung Ihr Geschäft schützt.
+---
+idea-content/back-to-school-printable-ideas (164 chars):
+Entdecken Sie Schulanfang-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Einschulung-Produktkonzepte, Juli-September-Strategien und Plattformtipps für Verkäufer.
+---
+idea-content/birds-printable-ideas (164 chars):
+Entdecken Sie profitable Vögel-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/bulk-licensing-printable-ideas (174 chars):
+Geschäftsideen für Massenlizenzierung von Arbeitsblatt-Kollektionen an Schulen, Bezirke und Organisationen. Volumenlizenzierungsstrategien für Bildungsanbieter und Verkäufer.
+---
+idea-content/camping-printable-ideas (162 chars):
+Entdecken Sie Camping-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Outdoor-Produktkonzepte, Plattformstrategien und Nischentipps für Druckvorlagen-Verkäufer.
+---
+idea-content/christmas-printable-ideas (179 chars):
+Entdecken Sie profitable Weihnachts-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Saisonale Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/custom-worksheet-service-ideas (170 chars):
+Geschäftsideen für maßgeschneiderte Arbeitsblatt-Services auf Etsy und als Freelancer. Bieten Sie individuelle Lernmaterialien mit Premium-Preisgestaltung pro Auftrag an.
+---
+idea-content/digital-download-printable-ideas (168 chars):
+Digitale Download-Arbeitsblatt-Ideen für Etsy-, Gumroad- und TPT-Verkäufer. Bauen Sie ein Druckvorlagen-Geschäft ohne Lagerhaltung mit sofort lieferbaren Lern-PDFs auf.
+---
+idea-content/dinosaur-printable-ideas (170 chars):
+Entdecken Sie profitable Dinosaurier-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/easter-printable-ideas (166 chars):
+Entdecken Sie Ostern-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Frühlings-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.
+---
+idea-content/esl-printable-ideas (315 chars):
+Entdecken Sie ESL-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im wachsenden globalen Markt, in dem ESL/ELL-Lehrkräfte, Nachhilfelehrer, Sprachschulen und Einwandererfamilien Vokabel-Arbeitsblätter, visuell unterstützte Übungen und gestufte Lernmaterialien kaufen.
+---
+idea-content/fairy-tale-printable-ideas (163 chars):
+Entdecken Sie Märchen-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Geschichtenbuch-Produktkonzepte, Plattformtipps und Strategien für Druckvorlagen-Verkäufer.
+---
+idea-content/first-grade-printable-ideas (193 chars):
+Entdecken Sie Erste-Klasse-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer im Bereich Grundschule erste Klasse.
+---
+idea-content/food-cooking-printable-ideas (182 chars):
+Entdecken Sie Essen- und Koch-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Rezeptthemen-Produktkonzepte, Plattformstrategien und Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/forest-animals-printable-ideas (167 chars):
+Entdecken Sie profitable Waldtier-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/halloween-printable-ideas (169 chars):
+Entdecken Sie Halloween-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Gruselige Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.
+---
+idea-content/homeschool-printable-ideas (254 chars):
+Entdecken Sie Heimunterricht-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer, die den wachsenden Heimunterricht-Markt ansprechen, in dem Eltern komplette Lehrpläne aus gekauften Materialien zusammenstellen.
+---
+idea-content/insects-printable-ideas (167 chars):
+Entdecken Sie profitable Insekten-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Nischen-Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/kindergarten-printable-ideas (197 chars):
+Entdecken Sie Kindergarten-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer und Unternehmer im Kindergarten-Bereich.
+---
+idea-content/math-facts-printable-ideas (388 chars):
+Entdecken Sie Mathe-Grundlagen-Druckvorlagen-Ideen für den Verkauf auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer, die den immergrünen Hochvolumen-Markt erschließen wollen, in dem Lehrer, Eltern, Nachhilfelehrer und Homeschool-Familien Rechenflüssigkeits-Arbeitsblätter, zeitbasierte Übungsblätter und Materialien zur Automatisierung der Grundrechenarten ganzjährig kaufen.
+---
+idea-content/ocean-animals-printable-ideas (167 chars):
+Entdecken Sie profitable Meerestiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Produktkonzepte, Plattformstrategien und Preistipps für Druckvorlagen-Verkäufer.
+---
+idea-content/party-supply-printable-ideas (164 chars):
+Druckbare Partyzubehör-Geschäftsideen für Etsy- und Marktplatz-Verkäufer. Erstellen Sie thematische Partypakete, Geburtstagsspiele und Aktivitätsblätter für Feiern.
+---
+idea-content/pets-printable-ideas (168 chars):
+Entdecken Sie profitable Haustier-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Hunde-, Katzen- und Kleintier-Produktkonzepte mit Plattformstrategien für Verkäufer.
+---
+idea-content/physical-printable-product-ideas (183 chars):
+Physische Druckvorlagen-Produkt-Ideen für Etsy- und Kunstmessen-Verkäufer. Bauen Sie ein Premium-Geschäft auf durch Drucken, Laminieren und Versenden greifbarer Arbeitsblatt-Produkte.
+---
+idea-content/preschool-printable-ideas (179 chars):
+Entdecken Sie Vorschule-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Vorschul-Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer und Unternehmer.
+---
+idea-content/print-on-demand-printable-ideas (177 chars):
+Print-on-Demand Arbeitsblatt-Ideen für Etsy-, Amazon-KDP- und Shopify-Verkäufer. Bauen Sie ein Geschäft ohne Lagerhaltung mit gedruckten Arbeitsheften und Aktivitätspaketen auf.
+---
+idea-content/safari-animals-printable-ideas (163 chars):
+Entdecken Sie profitable Safaritiere-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Afrikanische Wildtier-Produktkonzepte und Plattformstrategien für Verkäufer.
+---
+idea-content/second-grade-printable-ideas (181 chars):
+Entdecken Sie Zweite-Klasse-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Produktkonzepte und Nischenstrategien für Verkäufer im Bereich Grundschule zweite Klasse.
+---
+idea-content/space-printable-ideas (162 chars):
+Entdecken Sie Weltraum-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Weltraum-Produktkonzepte, STEM-Strategien und Plattformtipps für Druckvorlagen-Verkäufer.
+---
+idea-content/special-education-printable-ideas (255 chars):
+Entdecken Sie Sonderpädagogik-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im unterversorgten SPED-Markt, wo Förderschullehrer, Therapeuten und Eltern angepasste Arbeitsblätter und visuelle Hilfen kaufen.
+---
+idea-content/spring-printable-ideas (167 chars):
+Entdecken Sie Frühling Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Saisonale Produktkonzepte, März-Mai-Strategien und Plattformtipps für Druckvorlagen-Verkäufer.
+---
+idea-content/subscription-box-printable-ideas (181 chars):
+Arbeitsblatt-Abo-Box-Ideen zum Verkauf auf Etsy, Gumroad und Patreon. Bauen Sie wiederkehrende Einnahmen mit monatlich kuratierten Arbeitsblatt-Paketen und thematischen Bundles auf.
+---
+idea-content/summer-learning-printable-ideas (340 chars):
+Entdecken Sie Sommerlernen-Druckvorlagen-Ideen für den Verkauf auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im saisonalen Hochnachfrage-Markt, in dem Eltern, Lehrer und Feriencamp-Leiter Sommerbrücken-Arbeitsblätter, Ferienaktivitätspakete und Fähigkeitserhaltungs-Druckvorlagen zur Prävention von Sommerlernverlust kaufen.
+---
+idea-content/summer-printable-ideas (167 chars):
+Entdecken Sie Sommer-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Strand- und Sonnenschein-Produktkonzepte, saisonale Strategien und Plattformtipps für Verkäufer.
+---
+idea-content/thanksgiving-printable-ideas (163 chars):
+Entdecken Sie Erntedankfest-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Thanksgiving-Produktkonzepte, saisonale Strategien und Plattform-Tipps für Verkäufer.
+---
+idea-content/third-grade-printable-ideas (165 chars):
+Entdecken Sie Dritte-Klasse-Druckvorlagen-Ideen zum Verkaufen auf Etsy, Amazon KDP und TPT. Nischenstrategien für Verkäufer im entscheidenden dritten Grundschuljahr.
+---
+idea-content/transportation-printable-ideas (164 chars):
+Entdecken Sie Fahrzeuge-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Fahrzeugthemen-Produktkonzepte, Plattformstrategien und Tipps für Druckvorlagen-Verkäufer.
+---
+idea-content/underwater-printable-ideas (164 chars):
+Entdecken Sie Unterwasser-Druckvorlagen-Ideen für den Verkauf auf Etsy, Amazon KDP und TPT. Ozean-Produktkonzepte und Nischenstrategien für Druckvorlagen-Verkäufer.
+---
+idea-content/valentines-day-printable-ideas (169 chars):
+Entdecken Sie Valentinstag-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Liebes-Produktkonzepte, saisonale Strategien und Plattformtipps für Druckvorlagen-Verkäufer.
+---
+idea-content/winter-printable-ideas (172 chars):
+Entdecken Sie Winter-Druckvorlagen-Ideen für Etsy, Amazon KDP und TPT. Kaltwetter-Produktkonzepte mit starker Nachfrage von November bis Februar für Arbeitsblatt-Verkäufer.
+---
+start-content/amazon-kdp-activity-books (193 chars):
+Aktivitätsbücher auf Amazon KDP verkaufen Schritt für Schritt. Innenformatierung, Cover-Design, Keyword-Recherche, Preisgestaltung, Kategorien und Skalierung eines KDP-Aktivitätsbuch-Geschäfts.
+---
+start-content/commercial-license-guide (169 chars):
+Verstehen Sie kommerzielle Lizenzen für den Verkauf von Arbeitsblättern auf Etsy, Amazon KDP und anderen Plattformen. Zwei Stufen erklärt mit klaren Rechten und Preisen.
+---
+start-content/complete-guide-printable-business (193 chars):
+Druckvorlagen-Geschäft von Grund auf starten. Schritt-für-Schritt-Anleitung für Etsy.de, Amazon KDP und Lehrermarktplatz-Verkäufer mit Arbeitsblatt-Generatoren für Produkte, die sich verkaufen.
+---
+start-content/create-multilingual-worksheets (181 chars):
+Mit einem mehrsprachigen Arbeitsblatt-Generator Arbeitsblätter in 11 Sprachen erstellen und verkaufen. Deutsche, französische und spanische Käufer auf Etsy und Amazon KDP erreichen.
+---
+start-content/create-worksheets-that-sell (184 chars):
+Arbeitsblätter erstellen und auf Etsy.de, Amazon KDP und Lehrermarktplatz verkaufen. Schritt-für-Schritt-Erstellungsprozess mit Generatoren, thematischen Bildern und Lösungsschlüsseln.
+---
+start-content/etsy-printable-business (162 chars):
+Druckvorlagen auf Etsy verkaufen Schritt für Schritt. Shop-Einrichtung, Etsy-SEO, Listing-Optimierung, Preisstrategie und Skalierung mit Arbeitsblatt-Generatoren.
+---
+start-content/marketing-printable-business (167 chars):
+Druckvorlagen-Arbeitsblätter online vermarkten: Plattform-SEO, Pinterest-Strategie, E-Mail-Marketing, saisonales Timing und Markenaufbau für Druckvorlagen-Unternehmer.
+---
+start-content/printable-business-blueprint (194 chars):
+Verwandeln Sie Druckvorlagen-Geschäftsideen in einen strukturierten Bauplan. Planen Sie Ihre Produktlinie, wählen Sie Plattformen, setzen Sie Preise und starten Sie mit Arbeitsblatt-Generatoren.
+---
+start-content/printable-business-income (180 chars):
+Wie viel verdient man mit Druckvorlagen verkaufen? Realistische Einkommenserwartungen, Plattform-Gebührenstrukturen, Preisstrategien und die Variablen, die den Verdienst bestimmen.
+---
+start-content/printable-business-legal (167 chars):
+Steuerpflichten beim Verkauf von Druckvorlagen erklärt. Unternehmensform, absetzbare Ausgaben, geistiges Eigentum und Plattform-Compliance für Druckvorlagen-Verkäufer.
+---
+start-content/tools-for-printable-business (180 chars):
+Beste Werkzeuge für Druckvorlagen-Verkäufer: Arbeitsblatt-Generatoren, Design-Werkzeuge, Plattform-Hilfsmittel und Workflows für ein professionelles Druckvorlagen-Geschäft-Toolkit.
+---
+tool-content/alphabet-train (207 chars):
+Farbenfrohe Alphabet-Zug-Arbeitsblätter mit Buchstabe-Bild-Zuordnung in 11 Sprachen erstellen. Einzigartige mehrsprachige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/big-small (425 chars):
+Größenvergleich-Arbeitsblätter mit fünf Fragetypen (Großes einkreisen, Kleines einkreisen, Mittleres einkreisen, Nummerierung aufsteigend, Nummerierung absteigend), identischem und verschiedenem Bildmodus, 1–10 Übungen pro Seite und Auto-Lösungsschlüssel erstellen. Textfreie Ausgabe — weltweit verkaufbar ohne Übersetzung. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/bingo (428 chars):
+Bilder-Bingo-Karten erstellen mit konfigurierbaren Rastern von 3×3 bis 5×5, Stapel-Generierung von 1–10 einzigartigen Karten pro Satz, ZIP-Export, Doppel-Füllmodi für Zellen und Chips, eigenem Ansageblatt, benutzerdefinierter Ansage-Auswahl und 104 thematischen Bildsammlungen. Wort-Füllung verwendet lokalisierte Bildnamen für mehrsprachige Bingo-Produkte. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/chart-count (296 chars):
+Professionelle Bilddiagramm-Arbeitsblätter mit verteiltem 4×5-Bildraster, 6 Bildtypen pro Blatt, automatisch generiertem Lösungsschlüssel mit gelb hervorgehobenen Zellen, lokalisierten Überschriften in 11 Sprachen und 104 thematischen Bildsammlungen erstellen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/code-addition (204 chars):
+Kryptarithmetische Code-Knacker-Additions-Rätsel mit Bildern in Sekunden erstellen. Regulärer Modus und Wort-Entschlüsselung, 11 Sprachen, 104 Themen, Lösungsschlüssel. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/coloring (270 chars):
+Professionelle Ausmalseiten auf freier Arbeitsfläche mit über 3.100 Schwarzweiß-Umrisszeichnungen aus 104 Themen, Freihand-Zeichenwerkzeug, Klassenzimmer-Helfern (Namensfeld + Handschrift-Übungslinien) und Graustufen-Export erstellen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/crossword (467 chars):
+Erstellen Sie Bilderkreuzworträtsel mit Bildhinweisen auf einem festen 15×15-Raster — vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste, Eigene Bilder hochladen), automatisch generierter Lösungsschlüssel mit ausgefülltem Raster, sprachabhängige Kreuzwortwörter in 11 Sprachen über das Bildvokabular-System, 104 thematische Sammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/cryptogram (333 chars):
+Kryptogramm-Arbeitsblätter mit Bild-Buchstaben-Chiffre, Buchstaben aufdecken (0–10), Auto-Zuordnung und manueller Zuordnung, Buchstabenlegende-Lösungsschlüssel in 11 Sprachen erstellen. 104 Bildthemen. Deutsches 30-Buchstaben-Alphabet mit ä/ö/ü/ß. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/draw-and-color (289 chars):
+Rasterzeichnen-Arbeitsblätter mit dualem Rastersystem (Übungsraster + Hinweisraster), einstellbarem Hinweisprozent von 10 % bis 75 %, drei Symmetriemodi, konfigurierbaren Rastergrößen von 3×3 bis 10×10 und über 100 S&W-Umriss-Themensammlungen erstellen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/drawing-lines (267 chars):
+Professionelle Linienverfolgung-Arbeitsblätter mit acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal, Vertikal — plus über 3.100 farbenfrohe Illustrationen aus 104 Themen erstellen. Auto-Füllen für schnelle Stapelerstellung. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/find-and-count (442 chars):
+Erstellen Sie Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi — Suchbild-Modus und Buchstabenerkennung — vier mischbaren Aufgabentypen (Einkreisen, Umrahmen, Durchstreichen, Zählen), sprachspezifischen Alphabeten mit Umlauten, lokalisierten Bildbezeichnungen in 11 Sprachen, konfigurierbarer Rasterdichte, automatisch generierten Lösungsschlüsseln mit roten Markierungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/find-objects (406 chars):
+Erstellen Sie Suchbild-Arbeitsblätter mit zwei Aktivitätsmodi — Ich-sehe-was (verteilte Suchszenen mit überlappungsfreier Platzierung und Legende) und Welches-passt-nicht (gepaarte Bilder mit unpaaren Elementen). Automatische Lösungsschlüssel mit roten Kreis-Markierungen, adaptiver Platzierungsalgorithmus, 104 thematische Sammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/grid-match (413 chars):
+Professionelle Raster-Puzzle-Arbeitsblätter erstellen, bei denen ein einzelnes Bild in Kacheln geteilt wird und Lernende nummerierte Kacheln den richtigen Positionen zuordnen. Konfigurierbare Rastergröße (2×2 bis 4×4), einstellbare Hinweiszellen 1–5, Fisher-Yates-Zufallsverteilung, automatischer Lösungsschlüssel mit nummerierten Kreis-Overlays und 104 thematische Sammlungen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/image-addition (182 chars):
+Additions-Arbeitsblätter mit Bildern in Sekunden erstellen. 104 Themen, 4 Übungsmodi, Lösungsschlüssel, druckfertige PDFs. Kostenlos testen mit Wasserzeichen — keine Anmeldung nötig.
+---
+tool-content/image-subtraction (205 chars):
+Subtraktions-Arbeitsblätter mit Durchstreich-Visualisierung in Sekunden erstellen. 4 Übungsmodi, 104 Themen, Lösungsschlüssel, Graustufen-Export. Kostenlos testen mit Wasserzeichen — keine Anmeldung nötig.
+---
+tool-content/matching (336 chars):
+Professionelle Zuordnungs-Arbeitsblätter mit 4 Modi (Anfangsbuchstabe, Bild+Wort, Mischung, Eigenes Wort), automatischem Lösungsschlüssel mit Verbindungslinien, konfigurierbarer Paaranzahl 4–6, lokalisierter „Finde die Paare!“-Überschrift in 11 Sprachen und 104 thematischen Bildsammlungen erstellen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/math-puzzle (209 chars):
+Puzzle-Mathe-Arbeitsblätter im Jigsaw-Stil mit Bildraster, drei Rechenarten und eigenem Bild-Upload erstellen. Einzigartige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/math-worksheet (241 chars):
+Algebra-Bilderrätsel mit Bildsymbolen als Variablen in verknüpften Gleichungssystemen erstellen. Vier Schwierigkeitsstufen, garantiert eindeutige Lösungen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/missing-pieces (432 chars):
+Erstellen Sie Jigsaw-Puzzle-Arbeitsblätter mit 6 Teilformen (Quadrat, Kreis, Rechteck, Ellipse-Varianten), 1–5 fehlenden Teilen, 2–6 Lösungsoptionen mit Distraktoren, intelligenter Teileextraktion mit Farbvarianz-Erkennung und automatisch generierten Lösungsschlüsseln mit gelb hervorgehobenen Beschriftungen. 104 Themensammlungen mit über 3.100 Illustrationen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/more-less (237 chars):
+Visuelle Größer-als-, Kleiner-als- und Gleich-Arbeitsblätter mit Bildern in Sekunden erstellen. Drei Modi inkl. einzigartigem Ankreuzen und Durchstreichen. Auf Etsy, KDP und Lehrermarktplatz verkaufen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/odd-one-out (384 chars):
+Erstellen Sie Was-passt-nicht-Arbeitsblätter mit zwei Erzeugungsmodi — Identisch (3 Klone + 1 anderes) und Ähnlich (Thema A + Thema B). Modus-Überschreibung pro Übung für gemischte Schwierigkeitsgrade, 5–10 konfigurierbare Übungen, automatischer Lösungsschlüssel mit roten Kreismarkierungen, 104 Themensammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/pattern-train (286 chars):
+Muster-Zug-Arbeitsblätter mit fünf Mustertypen (AB, AAB, ABB, ABC, AABB), 11 thematischen Zugwaggons, einstellbarer Hinweisanzahl von 4 bis 10, automatischen Lösungsschlüsseln und 104 Bildsammlungen erstellen. Textfreie Ausgabe — weltweit verkaufbar. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/pattern-worksheet (274 chars):
+Mustervervollständigungs-Arbeitsblätter mit neun Mustertypen (AB bis ABCD), zwei Fragemodi (Lückenfeld und Multiple-Choice), Pro-Übung-Konfiguration, 1–8 Übungen pro Seite, automatischen Lösungsschlüsseln und 104 Bildsammlungen erstellen. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/picture-path (366 chars):
+Erstellen Sie Labyrinth-Arbeitsblätter mit drei Spielmodi — Bilderpfad, Klassisches Labyrinth (LPF-Algorithmus) und Wähle den richtigen Weg. Fünf Bildrollen, Wandanpassung, Sammelobjekt-System, automatisch generierte Lösungsschlüssel mit rosa Kreis-Lösungspfaden, 104 thematische Bildsammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/picture-sort (394 chars):
+Zwei-Kategorien-Sortier-Arbeitsblätter erstellen mit Themen-Modus oder manueller Bildauswahl, gemischtem Ausschneidegitter mit 4–12 Bildern, automatisch generierten Lösungsschlüsseln mit 6× größeren Bildern in Kategorieboxen und lokalisiertem Header in 11 Sprachen. 104 thematische Sammlungen mit über 3.100 Illustrationen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/prepositions (221 chars):
+Präpositionen-Arbeitsblätter mit Lückentext und Multiple Choice in 11 Sprachen erstellen. Formenaustausch, 104 Bildthemen. Einzigartige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/shadow-match (440 chars):
+Schattenbilder-Zuordnungsblätter erstellen mit zwei Modi — Schattenbild-Zuordnung generiert pixelgenaue schwarze Silhouetten, Bild Vervollständigen teilt Bilder in Hälften mit horizontalen oder vertikalen Schnitten. Fisher-Yates-Derangement garantiert echte Zuordnungsherausforderungen. Automatischer Lösungsschlüssel, umschaltbare Beschriftungen, 104 Themensammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/sudoku (316 chars):
+Erstellen Sie Bilder-Sudoku für Kinder mit einem 4×4-Raster und Bildern statt Zahlen. Drei Schwierigkeitsgrade (4, 6 oder 8 leere Zellen), automatisch generierter Lösungsschlüssel mit vollständig gefülltem Raster, 104 thematische Bildsammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/treasure-hunt (456 chars):
+Erstellen Sie Schatzsuche-Wegfindungs-Arbeitsblätter auf einem 5×5-Koordinatenraster — zwei Richtungstypen (Grundrichtungen und Himmelsrichtungen), 6 thematische Bilder als Orientierungspunkte, genau 4 Richtungsbewegungen pro Rätsel, automatisch generierter Lösungsschlüssel mit hervorgehobener Schatzzelle, lokalisierte Richtungsanweisungen in 11 Sprachen, 104 thematische Sammlungen. Kostenlos testen mit allen Funktionen — kommerzielle Lizenz verfügbar.
+---
+tool-content/word-guess (235 chars):
+Wörter-Raten-Arbeitsblätter mit 4 Hinweisstufen, dualem Eingabemodus und Buchstaben-Ausschluss in 11 Sprachen erstellen. 104 Bildthemen. Einzigartige Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/word-scramble (269 chars):
+Buchstabensalat-Arbeitsblätter mit gemischten Buchstabenplättchen, Bild-Hinweisen, Vokal-Konsonanten-Farbcodierung und 4 Schwierigkeitsstufen in 11 Sprachen erstellen. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/word-search (309 chars):
+Wortsuche-Arbeitsblätter mit einstellbaren Gittern von 5×5 bis 30×30, Diagonal- und Rückwärts-Richtungssteuerung, sprachabhängigen Füllbuchstaben und farbcodierten Lösungsschlüsseln in 11 Sprachen erstellen. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+---
+tool-content/writing (335 chars):
+Schreibübungen-Arbeitsblätter mit drei Übungsmodi (Nachspuren, Verblassendes Nachspuren, Geführte Abschrift), fünf Schriftstilen mit pfeilgeführter Strichrichtung, Vorübungen zur Feinmotorik und zeilenweiser Unabhängigkeit erstellen. 104 Bildthemen. Druckvorlagen für Etsy, KDP und Lehrermarktplatz. Kostenlos testen mit Wasserzeichen.
+
+Total files needing meta fix: 172

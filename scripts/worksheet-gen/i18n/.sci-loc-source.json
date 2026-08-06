@@ -1,0 +1,341 @@
+{
+  "note": "Localize each title (worksheet title), instruction (kid-facing), and each bin label (short category word). Sequence/match types have no bins.",
+  "families": {
+    "science-sort": "Science Sorting",
+    "science-sequence": "Sequencing & Life Cycles",
+    "science-match": "Science Matching"
+  },
+  "strandEn": "Science (early-childhood / primary science)",
+  "types": [
+    {
+      "id": "G1-201",
+      "exerciseType": "science-sort",
+      "title": "Sort the Animals",
+      "instruction": "Draw a line from each animal to the group it belongs to.",
+      "bins": [
+        {
+          "key": "mammals",
+          "en": "Mammals"
+        },
+        {
+          "key": "birds",
+          "en": "Birds"
+        },
+        {
+          "key": "reptiles",
+          "en": "Reptiles"
+        }
+      ]
+    },
+    {
+      "id": "G1-202",
+      "exerciseType": "science-sort",
+      "title": "Where Do Animals Live?",
+      "instruction": "Draw a line from each animal to where it lives.",
+      "bins": [
+        {
+          "key": "land",
+          "en": "Land"
+        },
+        {
+          "key": "water",
+          "en": "Water"
+        },
+        {
+          "key": "air",
+          "en": "Air"
+        }
+      ]
+    },
+    {
+      "id": "G1-203",
+      "exerciseType": "science-sequence",
+      "title": "The Life Cycle of a Chicken",
+      "instruction": "Write 1, 2, 3 to put the pictures in the right order."
+    },
+    {
+      "id": "G1-204",
+      "exerciseType": "science-sort",
+      "title": "Sink or Float?",
+      "instruction": "Draw a line from each object to the group you think it belongs to.",
+      "bins": [
+        {
+          "key": "float",
+          "en": "Float"
+        },
+        {
+          "key": "sink",
+          "en": "Sink"
+        }
+      ]
+    },
+    {
+      "id": "G1-205",
+      "exerciseType": "science-sort",
+      "title": "Animal Coverings",
+      "instruction": "Draw a line from each animal to its body covering.",
+      "bins": [
+        {
+          "key": "fur",
+          "en": "Fur"
+        },
+        {
+          "key": "feathers",
+          "en": "Feathers"
+        },
+        {
+          "key": "scales",
+          "en": "Scales"
+        }
+      ]
+    },
+    {
+      "id": "G1-206",
+      "exerciseType": "science-sort",
+      "title": "What Animals Eat",
+      "instruction": "Draw a line from each animal to the group it belongs to.",
+      "bins": [
+        {
+          "key": "plant",
+          "en": "Plant Eaters"
+        },
+        {
+          "key": "meat",
+          "en": "Meat Eaters"
+        }
+      ]
+    },
+    {
+      "id": "G1-207",
+      "exerciseType": "science-sort",
+      "title": "The Four Food Groups",
+      "instruction": "Draw a line from each food to its food group.",
+      "bins": [
+        {
+          "key": "fruits",
+          "en": "Fruits"
+        },
+        {
+          "key": "vegetables",
+          "en": "Vegetables"
+        },
+        {
+          "key": "grains",
+          "en": "Grains"
+        },
+        {
+          "key": "protein",
+          "en": "Protein"
+        }
+      ]
+    },
+    {
+      "id": "K-201",
+      "exerciseType": "science-sort",
+      "title": "Living and Non-living Things",
+      "instruction": "Draw a line from each picture to the group it belongs to.",
+      "bins": [
+        {
+          "key": "living",
+          "en": "Living"
+        },
+        {
+          "key": "nonliving",
+          "en": "Non-living"
+        }
+      ]
+    },
+    {
+      "id": "K-202",
+      "exerciseType": "science-sort",
+      "title": "Fruits and Vegetables",
+      "instruction": "Draw a line from each food to the group it belongs to.",
+      "bins": [
+        {
+          "key": "fruits",
+          "en": "Fruits"
+        },
+        {
+          "key": "vegetables",
+          "en": "Vegetables"
+        }
+      ]
+    },
+    {
+      "id": "K-203",
+      "exerciseType": "science-sort",
+      "title": "Healthy and Not-Healthy Foods",
+      "instruction": "Draw a line from each food to the group it belongs to.",
+      "bins": [
+        {
+          "key": "healthy",
+          "en": "Healthy"
+        },
+        {
+          "key": "unhealthy",
+          "en": "Not Healthy"
+        }
+      ]
+    },
+    {
+      "id": "K-204",
+      "exerciseType": "science-sort",
+      "title": "Pets and Wild Animals",
+      "instruction": "Draw a line from each animal to the group it belongs to.",
+      "bins": [
+        {
+          "key": "pets",
+          "en": "Pets"
+        },
+        {
+          "key": "wild",
+          "en": "Wild Animals"
+        }
+      ]
+    },
+    {
+      "id": "K-205",
+      "exerciseType": "science-match",
+      "title": "Animal Babies",
+      "instruction": "Draw a line from each grown-up animal to its baby."
+    },
+    {
+      "id": "K-206",
+      "exerciseType": "science-sort",
+      "title": "Things That Fly",
+      "instruction": "Draw a line from each picture to the group it belongs to.",
+      "bins": [
+        {
+          "key": "canfly",
+          "en": "Can Fly"
+        },
+        {
+          "key": "cannot",
+          "en": "Cannot Fly"
+        }
+      ]
+    },
+    {
+      "id": "K-207",
+      "exerciseType": "science-sort",
+      "title": "Summer and Winter Clothes",
+      "instruction": "Draw a line from each item of clothing to the right group.",
+      "bins": [
+        {
+          "key": "summer",
+          "en": "Summer"
+        },
+        {
+          "key": "winter",
+          "en": "Winter"
+        }
+      ]
+    },
+    {
+      "id": "K-208",
+      "exerciseType": "science-sort",
+      "title": "Day and Night",
+      "instruction": "Draw a line from each picture to the group it belongs to.",
+      "bins": [
+        {
+          "key": "day",
+          "en": "Day"
+        },
+        {
+          "key": "night",
+          "en": "Night"
+        }
+      ]
+    },
+    {
+      "id": "K-209",
+      "exerciseType": "science-sort",
+      "title": "Farm and Wild Animals",
+      "instruction": "Draw a line from each animal to the group it belongs to.",
+      "bins": [
+        {
+          "key": "farm",
+          "en": "Farm Animals"
+        },
+        {
+          "key": "wild",
+          "en": "Wild Animals"
+        }
+      ]
+    },
+    {
+      "id": "K-210",
+      "exerciseType": "science-sort",
+      "title": "Land, Water, and Air Transportation",
+      "instruction": "Draw a line from each vehicle to where it travels.",
+      "bins": [
+        {
+          "key": "land",
+          "en": "Land"
+        },
+        {
+          "key": "water",
+          "en": "Water"
+        },
+        {
+          "key": "air",
+          "en": "Air"
+        }
+      ]
+    },
+    {
+      "id": "K-211",
+      "exerciseType": "science-sort",
+      "title": "Hot and Cold",
+      "instruction": "Draw a line from each picture to the group it belongs to.",
+      "bins": [
+        {
+          "key": "hot",
+          "en": "Hot"
+        },
+        {
+          "key": "cold",
+          "en": "Cold"
+        }
+      ]
+    },
+    {
+      "id": "K-212",
+      "exerciseType": "science-sort",
+      "title": "Wants and Needs",
+      "instruction": "Draw a line from each picture to the group it belongs to.",
+      "bins": [
+        {
+          "key": "needs",
+          "en": "Needs"
+        },
+        {
+          "key": "wants",
+          "en": "Wants"
+        }
+      ]
+    },
+    {
+      "id": "K-213",
+      "exerciseType": "science-match",
+      "title": "Community Helpers and Their Tools",
+      "instruction": "Draw a line from each helper to the tool they use."
+    },
+    {
+      "id": "K-214",
+      "exerciseType": "science-sort",
+      "title": "Natural and Man-made",
+      "instruction": "Draw a line from each picture to the group it belongs to.",
+      "bins": [
+        {
+          "key": "natural",
+          "en": "Natural"
+        },
+        {
+          "key": "manmade",
+          "en": "Man-made"
+        }
+      ]
+    }
+  ]
+}

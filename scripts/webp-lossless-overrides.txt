@@ -1,0 +1,27 @@
+# WebP lossless overrides
+#
+# List source files (relative to the image library root, using forward slashes)
+# that should be encoded with WebP lossless instead of the default lossy quality 85.
+#
+# Use lossless for images with significant text content, very sharp geometric edges,
+# or technical diagrams where lossy compression artifacts would be problematic.
+# Examples: written numerals, clock faces with precise hand positions, symbol illustrations.
+#
+# Most cartoon/animal/object illustrations do NOT need lossless. Default lossy 85 is
+# already visually indistinguishable from the original for those.
+#
+# Format:
+#   - One entry per line
+#   - Path is "<theme folder>/<filename>.png" (case-insensitive on Windows)
+#   - Lines starting with # are comments
+#   - Blank lines are ignored
+#
+# Examples (uncomment after reviewing the pilot):
+#   numbers/seven.png
+#   alphabet/a.png
+#   time/clock.png
+#
+# After editing this file, re-run:
+#   node scripts/convert-png-to-webp.js --full
+# Stale outputs will be regenerated automatically (mtime check).
+

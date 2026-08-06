@@ -1,0 +1,20 @@
+{
+  "locale": "pt",
+  "text": {
+    "strings": {
+      "G1-204": {
+        "instruction": "Ligue cada objeto ao grupo a que você acha que ele pertence."
+      }
+    },
+    "skillFull": {
+      "beginning-sounds": "Nomear o primeiro som de cada figura desenvolve o conhecimento das relações entre letra e som, que é a base da leitura inicial."
+    },
+    "skillShort": {},
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "CONSERVATIVE pass. Only 2 fixes. (1) G1-204 instruction: 'grupo que você acha que ele pertence' dropped the obligatory preposition required by the verb 'pertencer (a)' (regência) and broke parallelism with every other sort instruction ('ao grupo a que ... pertence'); restored 'a que'. (2) beginning-sounds skillFull: 'que está no coração da leitura inicial' is a literal calque of EN 'at the heart of', which reads translated to a BR teacher; replaced with the natural 'que é a base da leitura inicial'. Everything else accepted as native and K-appropriate: terminology (sons/sílabas/vogais/consoantes), 'quadrinho' (acceptable K register), BR food distinctions (Legumes e Verduras, Cereais), 'Feito pelo ser humano', all slugs (lowercase, hyphenated, accents/ç correctly stripped: consciencia-fonologica, classificar-ciencias, associacao-ciencias, sequencias-ciclos-de-vida). The other 'no coração da' family phrasings (letter-knowledge uses 'sobre o qual ... se constrói' which is fine) were left untouched — only the one literal calque was corrected."
+}

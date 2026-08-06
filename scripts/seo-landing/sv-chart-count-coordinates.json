@@ -1,0 +1,700 @@
+{
+  "locale": "sv",
+  "exerciseType": "chart-count",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 50,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 41,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "(null)/activities — INVALID: cannot chart-count activities — not discrete-countable (semantic nonsense)",
+    "(null)/body_parts — INVALID: cannot chart-count body_parts — not discrete-countable (semantic nonsense)",
+    "(null)/emotions — INVALID: cannot chart-count emotions — not discrete-countable (semantic nonsense)",
+    "(null)/spring — INVALID: cannot chart-count spring — not discrete-countable (semantic nonsense)",
+    "(null)/summer — INVALID: cannot chart-count summer — not discrete-countable (semantic nonsense)",
+    "(null)/weather — INVALID: cannot chart-count weather — not discrete-countable (semantic nonsense)",
+    "(null)/winter — INVALID: cannot chart-count winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "rakna-i-diagram-tillbehor-0bee",
+      "siblings": [
+        "rakna-i-diagram-tillbehor-0bee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "rakna-i-diagram-djur",
+      "siblings": [
+        "rakna-i-diagram-djur",
+        "rakna-i-diagram-djur-c093"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "rakna-i-diagram-runt-huset-d246",
+      "siblings": [
+        "rakna-i-diagram-runt-huset-d246"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "rakna-i-diagram-i-snabbkopet-0078",
+      "siblings": [
+        "rakna-i-diagram-i-snabbkopet-0078"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "rakna-i-diagram-bageri-4532",
+      "siblings": [
+        "rakna-i-diagram-bageri-4532"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "rakna-i-diagram-strand-d835",
+      "siblings": [
+        "rakna-i-diagram-strand-d835"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "rakna-i-diagram-faglar-dcbc",
+      "siblings": [
+        "rakna-i-diagram-faglar-dcbc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "rakna-i-diagram-faglar-2-3d5b",
+      "siblings": [
+        "rakna-i-diagram-faglar-2-3d5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "rakna-i-diagram-frukost-2f6f",
+      "siblings": [
+        "rakna-i-diagram-frukost-2f6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "rakna-i-diagram-camping-5b9d",
+      "siblings": [
+        "rakna-i-diagram-camping-5b9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "rakna-i-diagram-jul-34b2",
+      "siblings": [
+        "rakna-i-diagram-jul-34b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "rakna-i-diagram-klassrum-dc2d",
+      "siblings": [
+        "rakna-i-diagram-klassrum-dc2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "rakna-i-diagram-klader-7eea",
+      "siblings": [
+        "rakna-i-diagram-klader-7eea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "rakna-i-diagram-farger-2fa0",
+      "siblings": [
+        "rakna-i-diagram-farger-2fa0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "rakna-i-diagram-efterratter-och-godis-166f",
+      "siblings": [
+        "rakna-i-diagram-efterratter-och-godis-166f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "rakna-i-diagram-dinosaurier-43ad",
+      "siblings": [
+        "rakna-i-diagram-dinosaurier-43ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "rakna-i-diagram-pask-b069",
+      "siblings": [
+        "rakna-i-diagram-pask-b069"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "rakna-i-diagram-bondgardsdjur-abb4",
+      "siblings": [
+        "rakna-i-diagram-bondgardsdjur-abb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "rakna-i-diagram-blommor-56ce",
+      "siblings": [
+        "rakna-i-diagram-blommor-56ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "rakna-i-diagram-skogsdjur-0ff2",
+      "siblings": [
+        "rakna-i-diagram-skogsdjur-0ff2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "rakna-i-diagram-frukter-0f34",
+      "siblings": [
+        "rakna-i-diagram-frukter-0f34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "rakna-i-diagram-mobler-5129",
+      "siblings": [
+        "rakna-i-diagram-mobler-5129"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "rakna-i-diagram-sjukhus-5651",
+      "siblings": [
+        "rakna-i-diagram-sjukhus-5651"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "rakna-i-diagram-insekter-och-kryp-25d3",
+      "siblings": [
+        "rakna-i-diagram-insekter-och-kryp-25d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "rakna-i-diagram-koksredskap-d75b",
+      "siblings": [
+        "rakna-i-diagram-koksredskap-d75b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "rakna-i-diagram-musik-8f73",
+      "siblings": [
+        "rakna-i-diagram-musik-8f73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "rakna-i-diagram-yrken-ade4",
+      "siblings": [
+        "rakna-i-diagram-yrken-ade4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "rakna-i-diagram-havsliv-eb50",
+      "siblings": [
+        "rakna-i-diagram-havsliv-eb50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "rakna-i-diagram-husdjur-8990",
+      "siblings": [
+        "rakna-i-diagram-husdjur-8990"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "rakna-i-diagram-postkontor-f835",
+      "siblings": [
+        "rakna-i-diagram-postkontor-f835"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "rakna-i-diagram-reptiler-och-groddjur-60e4",
+      "siblings": [
+        "rakna-i-diagram-reptiler-och-groddjur-60e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "rakna-i-diagram-former-bd2c",
+      "siblings": [
+        "rakna-i-diagram-former-bd2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "rakna-i-diagram-rymden-39e3",
+      "siblings": [
+        "rakna-i-diagram-rymden-39e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "rakna-i-diagram-thanksgiving-f73c",
+      "siblings": [
+        "rakna-i-diagram-thanksgiving-f73c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "rakna-i-diagram-saker-som-flyger-d07c",
+      "siblings": [
+        "rakna-i-diagram-saker-som-flyger-d07c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "rakna-i-diagram-verktyg-4ea7",
+      "siblings": [
+        "rakna-i-diagram-verktyg-4ea7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "rakna-i-diagram-leksaker-025e",
+      "siblings": [
+        "rakna-i-diagram-leksaker-025e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "rakna-i-diagram-trad-ad00",
+      "siblings": [
+        "rakna-i-diagram-trad-ad00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "rakna-i-diagram-gronsaker-3bcd",
+      "siblings": [
+        "rakna-i-diagram-gronsaker-3bcd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "rakna-i-diagram-fordon-121a",
+      "siblings": [
+        "rakna-i-diagram-fordon-121a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "rakna-i-diagram-djurparksdjur-23d2",
+      "siblings": [
+        "rakna-i-diagram-djurparksdjur-23d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    }
+  ]
+}

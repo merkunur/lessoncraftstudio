@@ -1,0 +1,30 @@
+{
+  "locale": "da",
+  "text": {
+    "strings": {
+      "K-202": {
+        "instruction": "Tegn en streg fra hver madvare til den gruppe, den hører til."
+      },
+      "K-203": {
+        "instruction": "Tegn en streg fra hver madvare til den gruppe, den hører til."
+      },
+      "K-210": {
+        "instruction": "Tegn en streg fra hvert køretøj til det sted, hvor det færdes."
+      },
+      "G1-205": {
+        "title": "Hvad dækker dyret?"
+      },
+      "G1-207": {
+        "instruction": "Tegn en streg fra hver madvare til dens madgruppe."
+      }
+    },
+    "skillFull": {},
+    "skillShort": {},
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "Native DA K-2 QA. Fixes: (1) K-202/K-203/G1-207 'hver mad' is ungrammatical — 'mad' is an uncountable mass noun in Danish, so 'each food' cannot be 'hver mad'. Replaced with 'hver madvare' (countable, food-specific, natural for a K teacher). (2) K-210 Transport på land/vand/luft: 'kører' (drives) only fits land vehicles, but the sheet covers boats and planes — replaced with 'færdes' (travels/moves about), which covers all modes. (3) G1-205 'Animal Coverings': 'Dyrenes hud og pels' (skin and fur) wrongly narrows to two coverings, but the bins are fur/feathers/scales (pels/fjer/skæl). Retitled 'Hvad dækker dyret?' (What covers the animal?) to match the instruction and all three bins. NOT changed (reviewed, judged fine): K-224 'Den manglende lyd' (sound-focus title is natural); K-213 'de bruger' after singular 'hver hjælper' (generic 'de' is accepted in modern DA K register); K-235 'Sortér i grupper'; terminology forlyd/udlyd/stavelser/vokaler all correct; all slugs correctly transliterate ae/oe/aa, lowercase, hyphenated."
+}

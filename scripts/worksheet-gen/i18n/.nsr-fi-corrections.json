@@ -1,0 +1,29 @@
+{
+  "locale": "fi",
+  "text": {
+    "strings": {
+      "K-225": {
+        "instruction": "Vedä viiva jokaisesta sanasta kuvaan, jonka nimi se on."
+      },
+      "K-232": {
+        "instruction": "Vedä viiva kahden kuvan välille, joiden nimet rimmaavat."
+      },
+      "G1-205": {
+        "title": "Eläinten kehonpeite",
+        "instruction": "Piirrä viiva jokaisesta eläimestä sen kehonpeitteeseen."
+      }
+    },
+    "skillFull": {
+      "science-sequence": "Kuvien järjestäminen oikeaan järjestykseen auttaa lapsia ymmärtämään, miten elävät olennot kasvavat ja muuttuvat."
+    },
+    "skillShort": {
+      "science-sequence": "Harjoittaa järjestämistä ja elämänkiertojen ymmärtämistä."
+    },
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "K-225: 'kuvaan, jota se tarkoittaa' is a calque (a word does not 'tarkoittaa' a picture) -> 'kuvaan, jonka nimi se on' (the picture whose name it is), clearest for K. K-232: 'jotka riimittelevät' means actively composing rhymes; rhyming is a property of the words/names, not the pictures -> 'joiden nimet rimmaavat' (natural K register). G1-205: 'ihopeite' (skin covering) is wrong for feathers/scales which are not skin; standard biology term is ruumiinpeite/kehonpeite -> 'kehonpeite' (child-friendly), fixed in title + instruction. science-sequence skillFull: 'elävät asiat' is a calque of 'living things'; natural FI is 'elävät olennot'. science-sequence skillShort: 'Kehittää järjestystä' is awkward (you do not develop 'order' as a skill) -> 'Harjoittaa järjestämistä ja elämänkiertojen ymmärtämistä.' Everything else (titles, instructions, family names/skills, categoryLabels, vcLabels, all binLabels, all slugs) is natural, correct K-2 Finnish and was left unchanged. Slugs correctly ASCII-fold ä/ö->a/o, lowercase, hyphenated."
+}

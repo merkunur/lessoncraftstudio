@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Suoni iniziali",
+      "instruction": "Scrivi la lettera con cui comincia ogni immagine."
+    },
+    "K-222": {
+      "title": "Maiuscole e minuscole",
+      "instruction": "Unisci con una linea ogni lettera maiuscola alla sua minuscola."
+    },
+    "K-223": {
+      "title": "Lettere mancanti",
+      "instruction": "Scrivi le lettere mancanti per completare l'alfabeto."
+    },
+    "K-224": {
+      "title": "Suono mancante",
+      "instruction": "Scrivi la lettera mancante per completare ogni parola."
+    },
+    "K-225": {
+      "title": "Collega parola e immagine",
+      "instruction": "Unisci con una linea ogni parola all'immagine che indica."
+    },
+    "K-226": {
+      "title": "Suoni finali",
+      "instruction": "Scrivi la lettera con cui finisce ogni immagine."
+    },
+    "K-227": {
+      "title": "Suoni in mezzo",
+      "instruction": "Scrivi la vocale che senti in mezzo a ogni parola."
+    },
+    "K-228": {
+      "title": "Ordina per suono iniziale",
+      "instruction": "Unisci con una linea ogni immagine alla lettera con cui comincia."
+    },
+    "K-229": {
+      "title": "Trova la lettera",
+      "instruction": "Cerchia tutte le lettere uguali a quella nel riquadro."
+    },
+    "K-230": {
+      "title": "Vocali e consonanti",
+      "instruction": "Ordina ogni lettera tra le vocali o le consonanti."
+    },
+    "K-231": {
+      "title": "Costruisci la parola",
+      "instruction": "Usa le lettere per costruire la parola di ogni immagine."
+    },
+    "K-232": {
+      "title": "Coppie in rima",
+      "instruction": "Unisci con una linea le due immagini che fanno rima."
+    },
+    "K-233": {
+      "title": "Conta le sillabe",
+      "instruction": "Scrivi quante sillabe senti in ogni parola."
+    },
+    "K-234": {
+      "title": "Ordina per sillabe",
+      "instruction": "Unisci con una linea ogni immagine al suo numero di sillabe."
+    },
+    "K-235": {
+      "title": "Ordina per categoria",
+      "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Dire il primo suono di ogni immagine costruisce la conoscenza dei suoni delle lettere che è al cuore della lettura iniziale.",
+      "short": "Allena suoni iniziali e suoni delle lettere."
+    },
+    "letter-knowledge": {
+      "full": "Riconoscere le lettere maiuscole e minuscole e il loro ordine costruisce la conoscenza dell'alfabeto su cui si fonda la lettura iniziale.",
+      "short": "Allena il riconoscimento delle lettere e l'alfabeto."
+    },
+    "word-building": {
+      "full": "Ascoltare ogni suono e scrivere la lettera mancante costruisce le abilità di decodifica con cui i bambini leggono le prime parole.",
+      "short": "Allena decodifica e costruzione di parole."
+    },
+    "picture-vocabulary": {
+      "full": "Abbinare le parole scritte alle immagini costruisce il riconoscimento delle parole e il vocabolario che trasforma le lettere in significato.",
+      "short": "Allena riconoscimento delle parole e vocabolario."
+    },
+    "phonological-awareness": {
+      "full": "Sentire i suoni e le sillabe dentro le parole costruisce la consapevolezza fonologica da cui dipende la lettura fluente.",
+      "short": "Allena la consapevolezza fonologica."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "suoni-iniziali",
+      "name": "Suoni iniziali"
+    },
+    "letter-knowledge": {
+      "slug": "conoscenza-delle-lettere",
+      "name": "Conoscenza delle lettere"
+    },
+    "word-building": {
+      "slug": "costruzione-di-parole",
+      "name": "Costruzione di parole"
+    },
+    "picture-vocabulary": {
+      "slug": "vocabolario-illustrato",
+      "name": "Vocabolario illustrato"
+    },
+    "phonological-awareness": {
+      "slug": "consapevolezza-fonologica",
+      "name": "Consapevolezza fonologica"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Animali",
+    "Fruits": "Frutta",
+    "Vehicles": "Veicoli"
+  },
+  "vcLabels": {
+    "vowels": "Vocali",
+    "consonants": "Consonanti"
+  }
+}

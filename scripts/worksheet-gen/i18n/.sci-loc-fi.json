@@ -1,0 +1,182 @@
+{
+  "locale": "fi",
+  "strand": "Ympäristöoppi",
+  "families": {
+    "science-sort": {
+      "name": "Luonnontieteen lajittelu",
+      "slug": "luonnontieteen-lajittelu"
+    },
+    "science-sequence": {
+      "name": "Järjestys ja elämänkierto",
+      "slug": "jarjestys-ja-elamankierto"
+    },
+    "science-match": {
+      "name": "Luonnontieteen yhdistäminen",
+      "slug": "luonnontieteen-yhdistaminen"
+    }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Lajittele eläimet",
+      "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "mammals": "Nisäkkäät",
+        "birds": "Linnut",
+        "reptiles": "Matelijat"
+      }
+    },
+    "G1-202": {
+      "title": "Missä eläimet elävät?",
+      "instruction": "Piirrä viiva jokaisesta eläimestä siihen, missä se elää.",
+      "bins": {
+        "land": "Maa",
+        "water": "Vesi",
+        "air": "Ilma"
+      }
+    },
+    "G1-203": {
+      "title": "Kanan elämänkierto",
+      "instruction": "Kirjoita 1, 2, 3 ja laita kuvat oikeaan järjestykseen."
+    },
+    "G1-204": {
+      "title": "Uppoaa vai kelluu?",
+      "instruction": "Piirrä viiva jokaisesta esineestä siihen ryhmään, johon arvelet sen kuuluvan.",
+      "bins": {
+        "float": "Kelluu",
+        "sink": "Uppoaa"
+      }
+    },
+    "G1-205": {
+      "title": "Eläinten ihopeite",
+      "instruction": "Piirrä viiva jokaisesta eläimestä sen ihopeitteeseen.",
+      "bins": {
+        "fur": "Turkki",
+        "feathers": "Höyhenet",
+        "scales": "Suomut"
+      }
+    },
+    "G1-206": {
+      "title": "Mitä eläimet syövät",
+      "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "plant": "Kasvinsyöjät",
+        "meat": "Lihansyöjät"
+      }
+    },
+    "G1-207": {
+      "title": "Neljä ruoka-aineryhmää",
+      "instruction": "Piirrä viiva jokaisesta ruoasta sen ruoka-aineryhmään.",
+      "bins": {
+        "fruits": "Hedelmät",
+        "vegetables": "Vihannekset",
+        "grains": "Viljatuotteet",
+        "protein": "Proteiini"
+      }
+    },
+    "K-201": {
+      "title": "Elävät ja elottomat",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "living": "Elävä",
+        "nonliving": "Eloton"
+      }
+    },
+    "K-202": {
+      "title": "Hedelmät ja vihannekset",
+      "instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "fruits": "Hedelmät",
+        "vegetables": "Vihannekset"
+      }
+    },
+    "K-203": {
+      "title": "Terveelliset ja epäterveelliset ruoat",
+      "instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "healthy": "Terveellinen",
+        "unhealthy": "Epäterveellinen"
+      }
+    },
+    "K-204": {
+      "title": "Lemmikit ja villieläimet",
+      "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "pets": "Lemmikit",
+        "wild": "Villieläimet"
+      }
+    },
+    "K-205": {
+      "title": "Eläinten poikaset",
+      "instruction": "Piirrä viiva jokaisesta aikuisesta eläimestä sen poikaseen."
+    },
+    "K-206": {
+      "title": "Mikä osaa lentää?",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "canfly": "Osaa lentää",
+        "cannot": "Ei osaa lentää"
+      }
+    },
+    "K-207": {
+      "title": "Kesä- ja talvivaatteet",
+      "instruction": "Piirrä viiva jokaisesta vaatteesta oikeaan ryhmään.",
+      "bins": {
+        "summer": "Kesä",
+        "winter": "Talvi"
+      }
+    },
+    "K-208": {
+      "title": "Päivä ja yö",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "day": "Päivä",
+        "night": "Yö"
+      }
+    },
+    "K-209": {
+      "title": "Maatilan eläimet ja villieläimet",
+      "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "farm": "Maatilan eläimet",
+        "wild": "Villieläimet"
+      }
+    },
+    "K-210": {
+      "title": "Maa-, vesi- ja ilmaliikenne",
+      "instruction": "Piirrä viiva jokaisesta kulkuvälineestä siihen, missä se kulkee.",
+      "bins": {
+        "land": "Maa",
+        "water": "Vesi",
+        "air": "Ilma"
+      }
+    },
+    "K-211": {
+      "title": "Kuuma ja kylmä",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "hot": "Kuuma",
+        "cold": "Kylmä"
+      }
+    },
+    "K-212": {
+      "title": "Tarpeet ja toiveet",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "needs": "Tarpeet",
+        "wants": "Toiveet"
+      }
+    },
+    "K-213": {
+      "title": "Ammattilaiset ja heidän työvälineensä",
+      "instruction": "Piirrä viiva jokaisesta ammattilaisesta hänen käyttämäänsä työvälineeseen."
+    },
+    "K-214": {
+      "title": "Luonnollinen ja ihmisen tekemä",
+      "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu.",
+      "bins": {
+        "natural": "Luonnollinen",
+        "manmade": "Ihmisen tekemä"
+      }
+    }
+  }
+}

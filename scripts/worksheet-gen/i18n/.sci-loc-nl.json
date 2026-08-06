@@ -1,0 +1,173 @@
+{
+  "locale": "nl",
+  "strand": "Oriëntatie op jezelf en de wereld (natuur)",
+  "families": {
+    "science-sort": { "name": "Natuur sorteren", "slug": "natuur-sorteren" },
+    "science-sequence": { "name": "Volgorde en levenscyclus", "slug": "volgorde-en-levenscyclus" },
+    "science-match": { "name": "Natuur verbinden", "slug": "natuur-verbinden" }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Sorteer de dieren",
+      "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort.",
+      "bins": {
+        "mammals": "Zoogdieren",
+        "birds": "Vogels",
+        "reptiles": "Reptielen"
+      }
+    },
+    "G1-202": {
+      "title": "Waar wonen de dieren?",
+      "instruction": "Trek een lijn van elk dier naar de plek waar het woont.",
+      "bins": {
+        "land": "Land",
+        "water": "Water",
+        "air": "Lucht"
+      }
+    },
+    "G1-203": {
+      "title": "De levenscyclus van een kip",
+      "instruction": "Schrijf 1, 2, 3 om de plaatjes in de goede volgorde te zetten."
+    },
+    "G1-204": {
+      "title": "Zinkt het of drijft het?",
+      "instruction": "Trek een lijn van elk voorwerp naar de groep waar het volgens jou bij hoort.",
+      "bins": {
+        "float": "Drijven",
+        "sink": "Zinken"
+      }
+    },
+    "G1-205": {
+      "title": "De huid van dieren",
+      "instruction": "Trek een lijn van elk dier naar wat zijn lichaam bedekt.",
+      "bins": {
+        "fur": "Vacht",
+        "feathers": "Veren",
+        "scales": "Schubben"
+      }
+    },
+    "G1-206": {
+      "title": "Wat eten dieren?",
+      "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort.",
+      "bins": {
+        "plant": "Planteneters",
+        "meat": "Vleeseters"
+      }
+    },
+    "G1-207": {
+      "title": "De vier voedselgroepen",
+      "instruction": "Trek een lijn van elk voedsel naar de voedselgroep.",
+      "bins": {
+        "fruits": "Fruit",
+        "vegetables": "Groenten",
+        "grains": "Granen",
+        "protein": "Eiwitten"
+      }
+    },
+    "K-201": {
+      "title": "Levend en niet-levend",
+      "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort.",
+      "bins": {
+        "living": "Levend",
+        "nonliving": "Niet-levend"
+      }
+    },
+    "K-202": {
+      "title": "Fruit en groenten",
+      "instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort.",
+      "bins": {
+        "fruits": "Fruit",
+        "vegetables": "Groenten"
+      }
+    },
+    "K-203": {
+      "title": "Gezond en ongezond eten",
+      "instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort.",
+      "bins": {
+        "healthy": "Gezond",
+        "unhealthy": "Ongezond"
+      }
+    },
+    "K-204": {
+      "title": "Huisdieren en wilde dieren",
+      "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort.",
+      "bins": {
+        "pets": "Huisdieren",
+        "wild": "Wilde dieren"
+      }
+    },
+    "K-205": {
+      "title": "Dieren en hun jongen",
+      "instruction": "Trek een lijn van elk volwassen dier naar zijn jong."
+    },
+    "K-206": {
+      "title": "Wat kan er vliegen?",
+      "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort.",
+      "bins": {
+        "canfly": "Kan vliegen",
+        "cannot": "Kan niet vliegen"
+      }
+    },
+    "K-207": {
+      "title": "Zomer- en winterkleren",
+      "instruction": "Trek een lijn van elk kledingstuk naar de goede groep.",
+      "bins": {
+        "summer": "Zomer",
+        "winter": "Winter"
+      }
+    },
+    "K-208": {
+      "title": "Dag en nacht",
+      "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort.",
+      "bins": {
+        "day": "Dag",
+        "night": "Nacht"
+      }
+    },
+    "K-209": {
+      "title": "Boerderijdieren en wilde dieren",
+      "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort.",
+      "bins": {
+        "farm": "Boerderijdieren",
+        "wild": "Wilde dieren"
+      }
+    },
+    "K-210": {
+      "title": "Vervoer over land, water en in de lucht",
+      "instruction": "Trek een lijn van elk voertuig naar de plek waar het rijdt, vaart of vliegt.",
+      "bins": {
+        "land": "Land",
+        "water": "Water",
+        "air": "Lucht"
+      }
+    },
+    "K-211": {
+      "title": "Warm en koud",
+      "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort.",
+      "bins": {
+        "hot": "Warm",
+        "cold": "Koud"
+      }
+    },
+    "K-212": {
+      "title": "Wat je wilt en wat je nodig hebt",
+      "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort.",
+      "bins": {
+        "needs": "Nodig hebben",
+        "wants": "Willen hebben"
+      }
+    },
+    "K-213": {
+      "title": "Beroepen en hun gereedschap",
+      "instruction": "Trek een lijn van elke helper naar het gereedschap dat hij gebruikt."
+    },
+    "K-214": {
+      "title": "Natuurlijk en gemaakt",
+      "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort.",
+      "bins": {
+        "natural": "Natuurlijk",
+        "manmade": "Gemaakt door mensen"
+      }
+    }
+  }
+}

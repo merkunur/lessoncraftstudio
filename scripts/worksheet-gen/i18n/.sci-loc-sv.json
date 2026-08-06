@@ -1,0 +1,182 @@
+{
+  "locale": "sv",
+  "strand": "Naturorienterande ämnen",
+  "families": {
+    "science-sort": {
+      "name": "Sortera i naturen",
+      "slug": "sortera-i-naturen"
+    },
+    "science-sequence": {
+      "name": "Ordningsföljd och livscykler",
+      "slug": "ordningsfoljd-och-livscykler"
+    },
+    "science-match": {
+      "name": "Para ihop i naturen",
+      "slug": "para-ihop-i-naturen"
+    }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Sortera djuren",
+      "instruction": "Dra ett streck från varje djur till gruppen det hör till.",
+      "bins": {
+        "mammals": "Däggdjur",
+        "birds": "Fåglar",
+        "reptiles": "Reptiler"
+      }
+    },
+    "G1-202": {
+      "title": "Var bor djuren?",
+      "instruction": "Dra ett streck från varje djur till platsen där det bor.",
+      "bins": {
+        "land": "Land",
+        "water": "Vatten",
+        "air": "Luft"
+      }
+    },
+    "G1-203": {
+      "title": "Hönans livscykel",
+      "instruction": "Skriv 1, 2, 3 för att lägga bilderna i rätt ordning."
+    },
+    "G1-204": {
+      "title": "Sjunker eller flyter?",
+      "instruction": "Dra ett streck från varje föremål till gruppen du tror det hör till.",
+      "bins": {
+        "float": "Flyter",
+        "sink": "Sjunker"
+      }
+    },
+    "G1-205": {
+      "title": "Djurens kroppshölje",
+      "instruction": "Dra ett streck från varje djur till dess kroppshölje.",
+      "bins": {
+        "fur": "Päls",
+        "feathers": "Fjädrar",
+        "scales": "Fjäll"
+      }
+    },
+    "G1-206": {
+      "title": "Vad djuren äter",
+      "instruction": "Dra ett streck från varje djur till gruppen det hör till.",
+      "bins": {
+        "plant": "Växtätare",
+        "meat": "Köttätare"
+      }
+    },
+    "G1-207": {
+      "title": "De fyra matgrupperna",
+      "instruction": "Dra ett streck från varje mat till dess matgrupp.",
+      "bins": {
+        "fruits": "Frukt",
+        "vegetables": "Grönsaker",
+        "grains": "Spannmål",
+        "protein": "Protein"
+      }
+    },
+    "K-201": {
+      "title": "Levande och icke levande",
+      "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+      "bins": {
+        "living": "Levande",
+        "nonliving": "Icke levande"
+      }
+    },
+    "K-202": {
+      "title": "Frukt och grönsaker",
+      "instruction": "Dra ett streck från varje mat till gruppen den hör till.",
+      "bins": {
+        "fruits": "Frukt",
+        "vegetables": "Grönsaker"
+      }
+    },
+    "K-203": {
+      "title": "Nyttig och onyttig mat",
+      "instruction": "Dra ett streck från varje mat till gruppen den hör till.",
+      "bins": {
+        "healthy": "Nyttigt",
+        "unhealthy": "Onyttigt"
+      }
+    },
+    "K-204": {
+      "title": "Husdjur och vilda djur",
+      "instruction": "Dra ett streck från varje djur till gruppen det hör till.",
+      "bins": {
+        "pets": "Husdjur",
+        "wild": "Vilda djur"
+      }
+    },
+    "K-205": {
+      "title": "Djurens ungar",
+      "instruction": "Dra ett streck från varje vuxet djur till dess unge."
+    },
+    "K-206": {
+      "title": "Saker som flyger",
+      "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+      "bins": {
+        "canfly": "Kan flyga",
+        "cannot": "Kan inte flyga"
+      }
+    },
+    "K-207": {
+      "title": "Sommar- och vinterkläder",
+      "instruction": "Dra ett streck från varje klädesplagg till rätt grupp.",
+      "bins": {
+        "summer": "Sommar",
+        "winter": "Vinter"
+      }
+    },
+    "K-208": {
+      "title": "Dag och natt",
+      "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+      "bins": {
+        "day": "Dag",
+        "night": "Natt"
+      }
+    },
+    "K-209": {
+      "title": "Lantbruksdjur och vilda djur",
+      "instruction": "Dra ett streck från varje djur till gruppen det hör till.",
+      "bins": {
+        "farm": "Lantbruksdjur",
+        "wild": "Vilda djur"
+      }
+    },
+    "K-210": {
+      "title": "Transport på land, vatten och i luften",
+      "instruction": "Dra ett streck från varje fordon till platsen där det färdas.",
+      "bins": {
+        "land": "Land",
+        "water": "Vatten",
+        "air": "Luft"
+      }
+    },
+    "K-211": {
+      "title": "Varmt och kallt",
+      "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+      "bins": {
+        "hot": "Varmt",
+        "cold": "Kallt"
+      }
+    },
+    "K-212": {
+      "title": "Behov och önskningar",
+      "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+      "bins": {
+        "needs": "Behov",
+        "wants": "Önskningar"
+      }
+    },
+    "K-213": {
+      "title": "Yrken och deras verktyg",
+      "instruction": "Dra ett streck från varje yrkesperson till verktyget de använder."
+    },
+    "K-214": {
+      "title": "Naturligt och tillverkat",
+      "instruction": "Dra ett streck från varje bild till gruppen den hör till.",
+      "bins": {
+        "natural": "Naturligt",
+        "manmade": "Tillverkat"
+      }
+    }
+  }
+}

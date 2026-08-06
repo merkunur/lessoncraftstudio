@@ -1,0 +1,403 @@
+[
+ {
+  "slug": "tren-de-patrones",
+  "themeKey": null,
+  "elements": [
+   "Conejo",
+   "Tigre",
+   "Ballena"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-4-de-julio-fe63",
+  "themeKey": "4th_of_july",
+  "elements": [
+   "Globo",
+   "Béisbol"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-accesorios-fe63",
+  "themeKey": "accessories",
+  "elements": [
+   "Lentes de sol",
+   "Silbato"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-actividades-fe63",
+  "themeKey": "activities",
+  "elements": [
+   "Ciencia",
+   "Leer"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-alrededor-de-la-casa-fe63",
+  "themeKey": "around_the_house",
+  "elements": [
+   "Microondas",
+   "Secadora"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-animales-de-granja-fe63",
+  "themeKey": "farm_animals",
+  "elements": [
+   "Gato 2",
+   "Gallo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-animales-del-zoologico-fe63",
+  "themeKey": "zoo_animals",
+  "elements": [
+   "Jaguar",
+   "Chimpancé"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-animales-fe63",
+  "themeKey": "animals",
+  "elements": [
+   "Pájaro carpintero",
+   "Mapache"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-arboles-fe63",
+  "themeKey": "tree",
+  "elements": [
+   "Peral",
+   "Cocotero"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aves-2-fe63",
+  "themeKey": "birds_2",
+  "elements": [
+   "Petirrojo",
+   "Cardenal"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-aves-fe63",
+  "themeKey": "birds",
+  "elements": [
+   "Búho",
+   "Guacamayo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-campamento-fe63",
+  "themeKey": "camping",
+  "elements": [
+   "Silla de camping",
+   "Farol"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-clima-fe63",
+  "themeKey": "weather",
+  "elements": [
+   "Tormenta eléctrica",
+   "Paraguas"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-colores-fe63",
+  "themeKey": "colors",
+  "elements": [
+   "Verde",
+   "Negro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-cosas-que-vuelan-fe63",
+  "themeKey": "things_that_fly",
+  "elements": [
+   "Mosquito",
+   "Halcón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-criaturas-del-bosque-fe63",
+  "themeKey": "forest_creatures",
+  "elements": [
+   "Puercoespín",
+   "Lobo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-desayuno-fe63",
+  "themeKey": "breakfast",
+  "elements": [
+   "Leche",
+   "Pan tostado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-dia-de-accion-de-gracias-fe63",
+  "themeKey": "thanksgivinng",
+  "elements": [
+   "Espantapájaros",
+   "Pastel"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-dinosaurios-fe63",
+  "themeKey": "dinosaurs",
+  "elements": [
+   "Estegosaurio",
+   "Anquilosaurio"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-emociones-fe63",
+  "themeKey": "emotions",
+  "elements": [
+   "Emocionado",
+   "Asustado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-en-el-supermercado-fe63",
+  "themeKey": "at_the_supermarket",
+  "elements": [
+   "Papa",
+   "Pan"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-espacio-fe63",
+  "themeKey": "space",
+  "elements": [
+   "Venus",
+   "Cohete"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-flores-fe63",
+  "themeKey": "flowers",
+  "elements": [
+   "Lavanda",
+   "Azalea"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-formas-fe63",
+  "themeKey": "shapes",
+  "elements": [
+   "Luna",
+   "Cubo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-frutas-fe63",
+  "themeKey": "fruits",
+  "elements": [
+   "Ciruela",
+   "Pera"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-herramientas-fe63",
+  "themeKey": "tools",
+  "elements": [
+   "Tornillo",
+   "Clavo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-hospital-fe63",
+  "themeKey": "hospital",
+  "elements": [
+   "Cubrebocas",
+   "Medicina"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-insectos-y-bichos-fe63",
+  "themeKey": "insects_and_bugs",
+  "elements": [
+   "Oruga",
+   "Abeja"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-invierno-fe63",
+  "themeKey": "winter",
+  "elements": [
+   "Carámbano",
+   "Muñeco de nieve"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-juguetes-fe63",
+  "themeKey": "toys",
+  "elements": [
+   "Bebé niña",
+   "Pala"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-mascotas-fe63",
+  "themeKey": "pets",
+  "elements": [
+   "Tortuga",
+   "Gato"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-miscelaneo-fe63",
+  "themeKey": "miscellaneous",
+  "elements": [
+   "Espantapájaros",
+   "Bellota"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-muebles-fe63",
+  "themeKey": "furniture",
+  "elements": [
+   "Librero",
+   "Mesa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-musica-fe63",
+  "themeKey": "music",
+  "elements": [
+   "Platillos",
+   "Cantante"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-navidad-fe63",
+  "themeKey": "christmas",
+  "elements": [
+   "Árbol",
+   "Esfera navideña"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-ocupaciones-fe63",
+  "themeKey": "occupations",
+  "elements": [
+   "Barbero",
+   "Bibliotecario"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-oficina-de-correos-fe63",
+  "themeKey": "post_office",
+  "elements": [
+   "Paquete",
+   "Estampilla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-panaderia-fe63",
+  "themeKey": "bakery",
+  "elements": [
+   "Pastel",
+   "Waffle"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-partes-del-cuerpo-fe63",
+  "themeKey": "body_parts",
+  "elements": [
+   "Labio",
+   "Muñeca"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-pascua-fe63",
+  "themeKey": "easter",
+  "elements": [
+   "Patito",
+   "Narciso"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-playa-fe63",
+  "themeKey": "beach",
+  "elements": [
+   "Gaviota",
+   "Delfín"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-primavera-fe63",
+  "themeKey": "spring",
+  "elements": [
+   "Caracol",
+   "Brote"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-reptiles-y-anfibios-fe63",
+  "themeKey": "reptiles_and_amphibians",
+  "elements": [
+   "Tortuga",
+   "Camaleón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-ropa-fe63",
+  "themeKey": "clothing",
+  "elements": [
+   "Pijama",
+   "Guante"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-salon-de-clases-fe63",
+  "themeKey": "classroom",
+  "elements": [
+   "Crayón",
+   "Libro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-utensilios-de-cocina-fe63",
+  "themeKey": "kitchen_tools",
+  "elements": [
+   "Sartén",
+   "Taza"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-vehiculos-fe63",
+  "themeKey": "vehicles",
+  "elements": [
+   "Helicóptero",
+   "Patrulla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-verano-fe63",
+  "themeKey": "summer",
+  "elements": [
+   "Flor",
+   "Palmera"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-verduras-fe63",
+  "themeKey": "vegetables",
+  "elements": [
+   "Pimiento",
+   "Brócoli"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-vida-marina-fe63",
+  "themeKey": "ocean_life",
+  "elements": [
+   "Camarón",
+   "Vieira"
+  ]
+ }
+]

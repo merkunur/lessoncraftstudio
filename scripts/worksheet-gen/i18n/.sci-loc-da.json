@@ -1,0 +1,182 @@
+{
+  "locale": "da",
+  "strand": "Natur/teknologi",
+  "families": {
+    "science-sort": {
+      "name": "Sortér i naturen",
+      "slug": "sorter-i-naturen"
+    },
+    "science-sequence": {
+      "name": "Rækkefølge og livscyklusser",
+      "slug": "raekkefoelge-og-livscyklusser"
+    },
+    "science-match": {
+      "name": "Find par i naturen",
+      "slug": "find-par-i-naturen"
+    }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Sortér dyrene",
+      "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til.",
+      "bins": {
+        "mammals": "Pattedyr",
+        "birds": "Fugle",
+        "reptiles": "Krybdyr"
+      }
+    },
+    "G1-202": {
+      "title": "Hvor bor dyrene?",
+      "instruction": "Tegn en streg fra hvert dyr til det sted, hvor det bor.",
+      "bins": {
+        "land": "Land",
+        "water": "Vand",
+        "air": "Luft"
+      }
+    },
+    "G1-203": {
+      "title": "En kyllings livscyklus",
+      "instruction": "Skriv 1, 2, 3 for at sætte billederne i den rigtige rækkefølge."
+    },
+    "G1-204": {
+      "title": "Synker eller flyder?",
+      "instruction": "Tegn en streg fra hver ting til den gruppe, du tror, den hører til.",
+      "bins": {
+        "float": "Flyder",
+        "sink": "Synker"
+      }
+    },
+    "G1-205": {
+      "title": "Dyrenes hud og pels",
+      "instruction": "Tegn en streg fra hvert dyr til det, der dækker dets krop.",
+      "bins": {
+        "fur": "Pels",
+        "feathers": "Fjer",
+        "scales": "Skæl"
+      }
+    },
+    "G1-206": {
+      "title": "Hvad spiser dyrene?",
+      "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til.",
+      "bins": {
+        "plant": "Planteædere",
+        "meat": "Kødædere"
+      }
+    },
+    "G1-207": {
+      "title": "De fire madgrupper",
+      "instruction": "Tegn en streg fra hver mad til dens madgruppe.",
+      "bins": {
+        "fruits": "Frugt",
+        "vegetables": "Grøntsager",
+        "grains": "Korn",
+        "protein": "Protein"
+      }
+    },
+    "K-201": {
+      "title": "Levende og ikke-levende",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+      "bins": {
+        "living": "Levende",
+        "nonliving": "Ikke-levende"
+      }
+    },
+    "K-202": {
+      "title": "Frugt og grøntsager",
+      "instruction": "Tegn en streg fra hver mad til den gruppe, den hører til.",
+      "bins": {
+        "fruits": "Frugt",
+        "vegetables": "Grøntsager"
+      }
+    },
+    "K-203": {
+      "title": "Sund og usund mad",
+      "instruction": "Tegn en streg fra hver mad til den gruppe, den hører til.",
+      "bins": {
+        "healthy": "Sund",
+        "unhealthy": "Usund"
+      }
+    },
+    "K-204": {
+      "title": "Kæledyr og vilde dyr",
+      "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til.",
+      "bins": {
+        "pets": "Kæledyr",
+        "wild": "Vilde dyr"
+      }
+    },
+    "K-205": {
+      "title": "Dyreunger",
+      "instruction": "Tegn en streg fra hvert voksent dyr til dets unge."
+    },
+    "K-206": {
+      "title": "Ting der kan flyve",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+      "bins": {
+        "canfly": "Kan flyve",
+        "cannot": "Kan ikke flyve"
+      }
+    },
+    "K-207": {
+      "title": "Sommer- og vintertøj",
+      "instruction": "Tegn en streg fra hvert stykke tøj til den rigtige gruppe.",
+      "bins": {
+        "summer": "Sommer",
+        "winter": "Vinter"
+      }
+    },
+    "K-208": {
+      "title": "Dag og nat",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+      "bins": {
+        "day": "Dag",
+        "night": "Nat"
+      }
+    },
+    "K-209": {
+      "title": "Husdyr og vilde dyr",
+      "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til.",
+      "bins": {
+        "farm": "Husdyr",
+        "wild": "Vilde dyr"
+      }
+    },
+    "K-210": {
+      "title": "Transport på land, vand og i luften",
+      "instruction": "Tegn en streg fra hvert køretøj til det sted, hvor det kører.",
+      "bins": {
+        "land": "Land",
+        "water": "Vand",
+        "air": "Luft"
+      }
+    },
+    "K-211": {
+      "title": "Varmt og koldt",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+      "bins": {
+        "hot": "Varmt",
+        "cold": "Koldt"
+      }
+    },
+    "K-212": {
+      "title": "Behov og ønsker",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+      "bins": {
+        "needs": "Behov",
+        "wants": "Ønsker"
+      }
+    },
+    "K-213": {
+      "title": "Hjælpere i samfundet og deres redskaber",
+      "instruction": "Tegn en streg fra hver hjælper til det redskab, de bruger."
+    },
+    "K-214": {
+      "title": "Naturligt og menneskeskabt",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til.",
+      "bins": {
+        "natural": "Naturligt",
+        "manmade": "Menneskeskabt"
+      }
+    }
+  }
+}

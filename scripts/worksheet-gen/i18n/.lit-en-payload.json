@@ -1,0 +1,102 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Beginning Sounds",
+      "instruction": "Write the letter that each picture begins with."
+    },
+    "K-222": {
+      "title": "Capital and Small Letters",
+      "instruction": "Draw a line from each capital letter to its small letter."
+    },
+    "K-223": {
+      "title": "Missing Letters",
+      "instruction": "Write the missing letters to finish the alphabet."
+    },
+    "K-224": {
+      "title": "Missing Sound",
+      "instruction": "Write the missing letter to finish each word."
+    },
+    "K-225": {
+      "title": "Match Word to Picture",
+      "instruction": "Draw a line from each word to the picture it names."
+    },
+    "K-226": {
+      "title": "Ending Sounds",
+      "instruction": "Write the letter that each picture ends with."
+    },
+    "K-227": {
+      "title": "Middle Sounds",
+      "instruction": "Write the vowel you hear in the middle of each word."
+    },
+    "K-228": {
+      "title": "Sort by Beginning Sound",
+      "instruction": "Draw a line from each picture to the letter it begins with."
+    },
+    "K-229": {
+      "title": "Find the Letter",
+      "instruction": "Circle every letter that matches the one in the box."
+    },
+    "K-230": {
+      "title": "Vowels and Consonants",
+      "instruction": "Sort each letter into the vowels or the consonants."
+    },
+    "K-231": {
+      "title": "Build the Word",
+      "instruction": "Use the letters to build the word for each picture."
+    },
+    "K-232": {
+      "title": "Rhyming Pairs",
+      "instruction": "Draw a line between the two pictures that rhyme."
+    },
+    "K-233": {
+      "title": "Count the Syllables",
+      "instruction": "Write how many syllables you hear in each word."
+    },
+    "K-234": {
+      "title": "Sort by Syllables",
+      "instruction": "Draw a line from each picture to its number of syllables."
+    },
+    "K-235": {
+      "title": "Sort by Category",
+      "instruction": "Draw a line from each picture to the group it belongs to."
+    }
+  },
+  "skillSentencesEn": {
+    "beginning-sounds": {
+      "full": "Naming the first sound in each picture builds the letter-sound knowledge at the heart of early reading.",
+      "short": "Builds beginning-sound and letter-sound skills."
+    },
+    "letter-knowledge": {
+      "full": "Recognizing capital and small letters and their order builds the alphabet knowledge early reading is built on.",
+      "short": "Builds letter recognition and alphabet skills."
+    },
+    "word-building": {
+      "full": "Listening for each sound and writing the missing letter builds the decoding skills children use to read their first words.",
+      "short": "Builds decoding and word-building skills."
+    },
+    "picture-vocabulary": {
+      "full": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
+      "short": "Builds word recognition and vocabulary skills."
+    },
+    "phonological-awareness": {
+      "full": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
+      "short": "Builds phonological awareness skills."
+    }
+  },
+  "familyNamesEn": {
+    "beginning-sounds": "Beginning Sounds",
+    "letter-knowledge": "Letter Knowledge",
+    "word-building": "Word Building",
+    "picture-vocabulary": "Picture Vocabulary",
+    "phonological-awareness": "Sounds & Syllables"
+  },
+  "categoryLabelsEn": [
+    "Animals",
+    "Fruits",
+    "Vehicles"
+  ],
+  "vcLabelsEn": {
+    "vowels": "Vowels",
+    "consonants": "Consonants"
+  }
+}

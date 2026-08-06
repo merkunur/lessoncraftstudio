@@ -1,0 +1,7 @@
+[
+  {
+    "file": "frontend\\lib\\homepage-content-manager.ts",
+    "path": "english/${config.app}/worksheet.webp",
+    "fullMatch": "/samples/english/%24%7Bconfig.app%7D/worksheet.webp"
+  }
+]

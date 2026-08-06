@@ -1,0 +1,402 @@
+[
+ {
+  "slug": "tren-de-patrones-abb-4-de-julio-fe63",
+  "themeKey": "4th_of_july",
+  "elements": [
+   "Hot Dog",
+   "Tío Sam"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-accesorios-fe63",
+  "themeKey": "accessories",
+  "elements": [
+   "Bolso",
+   "Orejeras"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-actividades-fe63",
+  "themeKey": "activities",
+  "elements": [
+   "Leer",
+   "Bailar"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-alrededor-de-la-casa-fe63",
+  "themeKey": "around_the_house",
+  "elements": [
+   "Alfombra",
+   "Espejo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-animales-de-granja-fe63",
+  "themeKey": "farm_animals",
+  "elements": [
+   "Gato",
+   "Pato"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-animales-del-zoologico-fe63",
+  "themeKey": "zoo_animals",
+  "elements": [
+   "Oso",
+   "Gorila"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-animales-fe63",
+  "themeKey": "animals",
+  "elements": [
+   "Burro",
+   "Oveja"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-arboles-fe63",
+  "themeKey": "tree",
+  "elements": [
+   "Sicómoro",
+   "Durazno"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-aves-2-fe63",
+  "themeKey": "birds_2",
+  "elements": [
+   "Búho",
+   "Halcón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-aves-fe63",
+  "themeKey": "birds",
+  "elements": [
+   "Tucán",
+   "Loro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-campamento-fe63",
+  "themeKey": "camping",
+  "elements": [
+   "Hamaca",
+   "Silla de camping"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-clima-fe63",
+  "themeKey": "weather",
+  "elements": [
+   "Paraguas",
+   "Parcialmente nublado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-colores-fe63",
+  "themeKey": "colors",
+  "elements": [
+   "Coral",
+   "Negro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-cosas-que-vuelan-fe63",
+  "themeKey": "things_that_fly",
+  "elements": [
+   "Gaviota",
+   "Flamingo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-criaturas-del-bosque-fe63",
+  "themeKey": "forest_creatures",
+  "elements": [
+   "Cardenal",
+   "Pinzón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-desayuno-fe63",
+  "themeKey": "breakfast",
+  "elements": [
+   "Cuerno",
+   "Queso"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-dia-de-accion-de-gracias-fe63",
+  "themeKey": "thanksgivinng",
+  "elements": [
+   "Espantapájaros",
+   "Manzana"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-dinosaurios-fe63",
+  "themeKey": "dinosaurs",
+  "elements": [
+   "Apatosaurio",
+   "Paquicefalosaurio"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-emociones-fe63",
+  "themeKey": "emotions",
+  "elements": [
+   "Feliz",
+   "Sorprendido"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-en-el-supermercado-fe63",
+  "themeKey": "at_the_supermarket",
+  "elements": [
+   "Pan",
+   "Pay"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-espacio-fe63",
+  "themeKey": "space",
+  "elements": [
+   "Luna",
+   "Tierra"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-flores-fe63",
+  "themeKey": "flowers",
+  "elements": [
+   "Orquídea",
+   "Girasol"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-formas-fe63",
+  "themeKey": "shapes",
+  "elements": [
+   "Hexágono",
+   "Rectángulo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-frutas-fe63",
+  "themeKey": "fruits",
+  "elements": [
+   "Pera",
+   "Frambuesa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-herramientas-fe63",
+  "themeKey": "tools",
+  "elements": [
+   "Tuerca",
+   "Clavo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-hospital-fe63",
+  "themeKey": "hospital",
+  "elements": [
+   "Termómetro",
+   "Silla de ruedas"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-insectos-y-bichos-fe63",
+  "themeKey": "insects_and_bugs",
+  "elements": [
+   "Mosquito",
+   "Catarina"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-invierno-fe63",
+  "themeKey": "winter",
+  "elements": [
+   "Trineo",
+   "Paseo en trineo"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-juguetes-fe63",
+  "themeKey": "toys",
+  "elements": [
+   "Papalote",
+   "Arenero"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-mascotas-fe63",
+  "themeKey": "pets",
+  "elements": [
+   "Pez",
+   "Pinzón"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-miscelaneo-fe63",
+  "themeKey": "miscellaneous",
+  "elements": [
+   "Fogata",
+   "Bellota"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-muebles-fe63",
+  "themeKey": "furniture",
+  "elements": [
+   "Silla",
+   "Mecedora"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-musica-fe63",
+  "themeKey": "music",
+  "elements": [
+   "Arpa",
+   "Teclado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-navidad-fe63",
+  "themeKey": "christmas",
+  "elements": [
+   "Corona navideña",
+   "Costal"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-ocupaciones-fe63",
+  "themeKey": "occupations",
+  "elements": [
+   "Cartero 2",
+   "Granjero"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-oficina-de-correos-fe63",
+  "themeKey": "post_office",
+  "elements": [
+   "Camión de correos",
+   "Entrega"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-panaderia-fe63",
+  "themeKey": "bakery",
+  "elements": [
+   "Pastel de queso",
+   "Galleta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-partes-del-cuerpo-fe63",
+  "themeKey": "body_parts",
+  "elements": [
+   "Oreja",
+   "Pie"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-pascua-fe63",
+  "themeKey": "easter",
+  "elements": [
+   "Tulipán",
+   "Flor"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-playa-fe63",
+  "themeKey": "beach",
+  "elements": [
+   "Bloqueador solar",
+   "Helado"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-postres-y-dulces-fe63",
+  "themeKey": "desserts_and_sweets",
+  "elements": [
+   "Pay de manzana",
+   "Panquecito"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-primavera-fe63",
+  "themeKey": "spring",
+  "elements": [
+   "Nube",
+   "Brote"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-reptiles-y-anfibios-fe63",
+  "themeKey": "reptiles_and_amphibians",
+  "elements": [
+   "Tortuga",
+   "Iguana"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-ropa-fe63",
+  "themeKey": "clothing",
+  "elements": [
+   "Manopla",
+   "Corbata"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-salon-de-clases-fe63",
+  "themeKey": "classroom",
+  "elements": [
+   "Pizarrón",
+   "Mesa"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-utensilios-de-cocina-fe63",
+  "themeKey": "kitchen_tools",
+  "elements": [
+   "Frasco",
+   "Tarro"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-vehiculos-fe63",
+  "themeKey": "vehicles",
+  "elements": [
+   "Taxi",
+   "Patrulla"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-verano-fe63",
+  "themeKey": "summer",
+  "elements": [
+   "Sandía",
+   "Cubeta"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-verduras-fe63",
+  "themeKey": "vegetables",
+  "elements": [
+   "Nabo",
+   "Lechuga"
+  ]
+ },
+ {
+  "slug": "tren-de-patrones-abb-vida-marina-fe63",
+  "themeKey": "ocean_life",
+  "elements": [
+   "Camarón",
+   "Pez globo"
+  ]
+ }
+]

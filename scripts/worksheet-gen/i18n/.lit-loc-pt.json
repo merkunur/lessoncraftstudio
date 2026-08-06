@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Sons iniciais",
+      "instruction": "Escreva a letra com que cada figura começa."
+    },
+    "K-222": {
+      "title": "Letras maiúsculas e minúsculas",
+      "instruction": "Ligue cada letra maiúscula à sua letra minúscula."
+    },
+    "K-223": {
+      "title": "Letras que faltam",
+      "instruction": "Escreva as letras que faltam para completar o alfabeto."
+    },
+    "K-224": {
+      "title": "Som que falta",
+      "instruction": "Escreva a letra que falta para completar cada palavra."
+    },
+    "K-225": {
+      "title": "Ligue a palavra à figura",
+      "instruction": "Ligue cada palavra à figura que ela nomeia."
+    },
+    "K-226": {
+      "title": "Sons finais",
+      "instruction": "Escreva a letra com que cada figura termina."
+    },
+    "K-227": {
+      "title": "Sons do meio",
+      "instruction": "Escreva a vogal que você ouve no meio de cada palavra."
+    },
+    "K-228": {
+      "title": "Agrupe pelo som inicial",
+      "instruction": "Ligue cada figura à letra com que ela começa."
+    },
+    "K-229": {
+      "title": "Encontre a letra",
+      "instruction": "Circule todas as letras iguais à letra do quadrinho."
+    },
+    "K-230": {
+      "title": "Vogais e consoantes",
+      "instruction": "Separe cada letra entre as vogais ou as consoantes."
+    },
+    "K-231": {
+      "title": "Monte a palavra",
+      "instruction": "Use as letras para montar a palavra de cada figura."
+    },
+    "K-232": {
+      "title": "Pares que rimam",
+      "instruction": "Ligue as duas figuras que rimam."
+    },
+    "K-233": {
+      "title": "Conte as sílabas",
+      "instruction": "Escreva quantas sílabas você ouve em cada palavra."
+    },
+    "K-234": {
+      "title": "Agrupe por sílabas",
+      "instruction": "Ligue cada figura ao seu número de sílabas."
+    },
+    "K-235": {
+      "title": "Agrupe por categoria",
+      "instruction": "Ligue cada figura ao grupo a que ela pertence."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Nomear o primeiro som de cada figura desenvolve o conhecimento das relações entre letra e som que está no coração da leitura inicial.",
+      "short": "Desenvolve o som inicial e a relação letra-som."
+    },
+    "letter-knowledge": {
+      "full": "Reconhecer letras maiúsculas e minúsculas e sua ordem desenvolve o conhecimento do alfabeto sobre o qual a leitura inicial se constrói.",
+      "short": "Desenvolve o reconhecimento das letras e do alfabeto."
+    },
+    "word-building": {
+      "full": "Ouvir cada som e escrever a letra que falta desenvolve as habilidades de decodificação que as crianças usam para ler suas primeiras palavras.",
+      "short": "Desenvolve a decodificação e a montagem de palavras."
+    },
+    "picture-vocabulary": {
+      "full": "Ligar palavras escritas às suas figuras desenvolve o reconhecimento de palavras e o vocabulário que transformam letras em significado.",
+      "short": "Desenvolve o reconhecimento de palavras e o vocabulário."
+    },
+    "phonological-awareness": {
+      "full": "Ouvir os sons e as sílabas dentro das palavras desenvolve a consciência fonológica de que a leitura fluente depende.",
+      "short": "Desenvolve a consciência fonológica."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "sons-iniciais",
+      "name": "Sons iniciais"
+    },
+    "letter-knowledge": {
+      "slug": "conhecimento-das-letras",
+      "name": "Conhecimento das letras"
+    },
+    "word-building": {
+      "slug": "montagem-de-palavras",
+      "name": "Montagem de palavras"
+    },
+    "picture-vocabulary": {
+      "slug": "vocabulario-com-figuras",
+      "name": "Vocabulário com figuras"
+    },
+    "phonological-awareness": {
+      "slug": "consciencia-fonologica",
+      "name": "Consciência fonológica"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Animais",
+    "Fruits": "Frutas",
+    "Vehicles": "Veículos"
+  },
+  "vcLabels": {
+    "vowels": "Vogais",
+    "consonants": "Consoantes"
+  }
+}

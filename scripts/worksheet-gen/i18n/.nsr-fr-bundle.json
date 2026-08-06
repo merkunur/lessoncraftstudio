@@ -1,0 +1,526 @@
+{
+  "locale": "fr",
+  "_instructions": "Review the <loc> fields for native naturalness, K-2 register, terminology, grammar. en_* = English source for meaning only.",
+  "literacy": {
+    "strings": {
+      "K-221": {
+        "en_title": "Beginning Sounds",
+        "loc_title": "Sons initiaux",
+        "en_instruction": "Write the letter that each picture begins with.",
+        "loc_instruction": "Écris la lettre par laquelle commence chaque image."
+      },
+      "K-222": {
+        "en_title": "Capital and Small Letters",
+        "loc_title": "Majuscules et minuscules",
+        "en_instruction": "Draw a line from each capital letter to its small letter.",
+        "loc_instruction": "Relie chaque lettre majuscule à sa minuscule."
+      },
+      "K-223": {
+        "en_title": "Missing Letters",
+        "loc_title": "Lettres manquantes",
+        "en_instruction": "Write the missing letters to finish the alphabet.",
+        "loc_instruction": "Écris les lettres manquantes pour compléter l'alphabet."
+      },
+      "K-224": {
+        "en_title": "Missing Sound",
+        "loc_title": "Le son manquant",
+        "en_instruction": "Write the missing letter to finish each word.",
+        "loc_instruction": "Écris la lettre manquante pour compléter chaque mot."
+      },
+      "K-225": {
+        "en_title": "Match Word to Picture",
+        "loc_title": "Associe le mot à l'image",
+        "en_instruction": "Draw a line from each word to the picture it names.",
+        "loc_instruction": "Relie chaque mot à l'image qu'il nomme."
+      },
+      "K-226": {
+        "en_title": "Ending Sounds",
+        "loc_title": "Sons finaux",
+        "en_instruction": "Write the letter that each picture ends with.",
+        "loc_instruction": "Écris la lettre par laquelle se termine chaque image."
+      },
+      "K-227": {
+        "en_title": "Middle Sounds",
+        "loc_title": "Sons du milieu",
+        "en_instruction": "Write the vowel you hear in the middle of each word.",
+        "loc_instruction": "Écris la voyelle que tu entends au milieu de chaque mot."
+      },
+      "K-228": {
+        "en_title": "Sort by Beginning Sound",
+        "loc_title": "Classe par son initial",
+        "en_instruction": "Draw a line from each picture to the letter it begins with.",
+        "loc_instruction": "Relie chaque image à la lettre par laquelle elle commence."
+      },
+      "K-229": {
+        "en_title": "Find the Letter",
+        "loc_title": "Trouve la lettre",
+        "en_instruction": "Circle every letter that matches the one in the box.",
+        "loc_instruction": "Entoure chaque lettre identique à celle de la case."
+      },
+      "K-230": {
+        "en_title": "Vowels and Consonants",
+        "loc_title": "Voyelles et consonnes",
+        "en_instruction": "Sort each letter into the vowels or the consonants.",
+        "loc_instruction": "Classe chaque lettre dans les voyelles ou les consonnes."
+      },
+      "K-231": {
+        "en_title": "Build the Word",
+        "loc_title": "Construis le mot",
+        "en_instruction": "Use the letters to build the word for each picture.",
+        "loc_instruction": "Utilise les lettres pour construire le mot de chaque image."
+      },
+      "K-232": {
+        "en_title": "Rhyming Pairs",
+        "loc_title": "Les rimes",
+        "en_instruction": "Draw a line between the two pictures that rhyme.",
+        "loc_instruction": "Relie les deux images qui riment."
+      },
+      "K-233": {
+        "en_title": "Count the Syllables",
+        "loc_title": "Compte les syllabes",
+        "en_instruction": "Write how many syllables you hear in each word.",
+        "loc_instruction": "Écris combien de syllabes tu entends dans chaque mot."
+      },
+      "K-234": {
+        "en_title": "Sort by Syllables",
+        "loc_title": "Classe par syllabes",
+        "en_instruction": "Draw a line from each picture to its number of syllables.",
+        "loc_instruction": "Relie chaque image à son nombre de syllabes."
+      },
+      "K-235": {
+        "en_title": "Sort by Category",
+        "loc_title": "Classe par catégorie",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      }
+    },
+    "families": {
+      "beginning-sounds": {
+        "en_name": "Beginning Sounds",
+        "loc_name": "Sons initiaux",
+        "loc_slug": "sons-initiaux",
+        "en_skill": "Naming the first sound in each picture builds the letter-sound knowledge at the heart of early reading.",
+        "loc_skill_full": "Nommer le premier son de chaque image développe la connaissance des correspondances lettre-son, au cœur de l'apprentissage de la lecture.",
+        "loc_skill_short": "Développe le son initial et le lien lettre-son."
+      },
+      "letter-knowledge": {
+        "en_name": "Letter Knowledge",
+        "loc_name": "Connaissance des lettres",
+        "loc_slug": "connaissance-des-lettres",
+        "en_skill": "Recognizing capital and small letters and their order builds the alphabet knowledge early reading is built on.",
+        "loc_skill_full": "Reconnaître les majuscules, les minuscules et leur ordre construit la connaissance de l'alphabet sur laquelle repose la lecture.",
+        "loc_skill_short": "Développe la reconnaissance des lettres."
+      },
+      "word-building": {
+        "en_name": "Word Building",
+        "loc_name": "Construction de mots",
+        "loc_slug": "construction-de-mots",
+        "en_skill": "Listening for each sound and writing the missing letter builds the decoding skills children use to read their first words.",
+        "loc_skill_full": "Écouter chaque son et écrire la lettre manquante développe le décodage que les enfants utilisent pour lire leurs premiers mots.",
+        "loc_skill_short": "Développe le décodage et l'écriture des mots."
+      },
+      "picture-vocabulary": {
+        "en_name": "Picture Vocabulary",
+        "loc_name": "Vocabulaire en images",
+        "loc_slug": "vocabulaire-en-images",
+        "en_skill": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
+        "loc_skill_full": "Associer les mots écrits à leurs images développe la reconnaissance des mots et le vocabulaire qui donnent du sens aux lettres.",
+        "loc_skill_short": "Développe la reconnaissance des mots et le vocabulaire."
+      },
+      "phonological-awareness": {
+        "en_name": "Sounds & Syllables",
+        "loc_name": "Conscience phonologique",
+        "loc_slug": "conscience-phonologique",
+        "en_skill": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
+        "loc_skill_full": "Entendre les sons et les syllabes à l'intérieur des mots développe la conscience phonologique dont dépend une lecture fluide.",
+        "loc_skill_short": "Développe la conscience phonologique."
+      }
+    },
+    "categoryLabels": {
+      "Animals": {
+        "en": "Animals",
+        "loc": "Animaux"
+      },
+      "Fruits": {
+        "en": "Fruits",
+        "loc": "Fruits"
+      },
+      "Vehicles": {
+        "en": "Vehicles",
+        "loc": "Véhicules"
+      }
+    },
+    "vcLabels": {
+      "vowels": {
+        "en": "Vowels",
+        "loc": "Voyelles"
+      },
+      "consonants": {
+        "en": "Consonants",
+        "loc": "Consonnes"
+      }
+    }
+  },
+  "science": {
+    "strings": {
+      "K-201": {
+        "en_title": "Living and Non-living Things",
+        "loc_title": "Vivant ou non-vivant",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      },
+      "K-202": {
+        "en_title": "Fruits and Vegetables",
+        "loc_title": "Fruits et légumes",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Relie chaque aliment au groupe auquel il appartient."
+      },
+      "K-203": {
+        "en_title": "Healthy and Not-Healthy Foods",
+        "loc_title": "Aliments sains et moins sains",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Relie chaque aliment au groupe auquel il appartient."
+      },
+      "K-204": {
+        "en_title": "Pets and Wild Animals",
+        "loc_title": "Animaux domestiques et animaux sauvages",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Relie chaque animal au groupe auquel il appartient."
+      },
+      "K-205": {
+        "en_title": "Animal Babies",
+        "loc_title": "Les bébés animaux",
+        "en_instruction": "Draw a line from each grown-up animal to its baby.",
+        "loc_instruction": "Relie chaque animal adulte à son petit."
+      },
+      "K-206": {
+        "en_title": "Things That Fly",
+        "loc_title": "Ce qui vole",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      },
+      "K-207": {
+        "en_title": "Summer and Winter Clothes",
+        "loc_title": "Vêtements d'été et d'hiver",
+        "en_instruction": "Draw a line from each item of clothing to the right group.",
+        "loc_instruction": "Relie chaque vêtement au bon groupe."
+      },
+      "K-208": {
+        "en_title": "Day and Night",
+        "loc_title": "Le jour et la nuit",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      },
+      "K-209": {
+        "en_title": "Farm and Wild Animals",
+        "loc_title": "Animaux de la ferme et animaux sauvages",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Relie chaque animal au groupe auquel il appartient."
+      },
+      "K-210": {
+        "en_title": "Land, Water, and Air Transportation",
+        "loc_title": "Transports sur terre, sur l'eau et dans l'air",
+        "en_instruction": "Draw a line from each vehicle to where it travels.",
+        "loc_instruction": "Relie chaque véhicule à l'endroit où il se déplace."
+      },
+      "K-211": {
+        "en_title": "Hot and Cold",
+        "loc_title": "Chaud et froid",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      },
+      "K-212": {
+        "en_title": "Wants and Needs",
+        "loc_title": "Besoins et envies",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      },
+      "K-213": {
+        "en_title": "Community Helpers and Their Tools",
+        "loc_title": "Les métiers et leurs outils",
+        "en_instruction": "Draw a line from each helper to the tool they use.",
+        "loc_instruction": "Relie chaque personne à l'outil qu'elle utilise."
+      },
+      "K-214": {
+        "en_title": "Natural and Man-made",
+        "loc_title": "Naturel ou fabriqué",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Relie chaque image au groupe auquel elle appartient."
+      },
+      "G1-201": {
+        "en_title": "Sort the Animals",
+        "loc_title": "Range les animaux",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Relie chaque animal au groupe auquel il appartient."
+      },
+      "G1-202": {
+        "en_title": "Where Do Animals Live?",
+        "loc_title": "Où vivent les animaux ?",
+        "en_instruction": "Draw a line from each animal to where it lives.",
+        "loc_instruction": "Relie chaque animal à l'endroit où il vit."
+      },
+      "G1-203": {
+        "en_title": "The Life Cycle of a Chicken",
+        "loc_title": "Le cycle de vie de la poule",
+        "en_instruction": "Write 1, 2, 3 to put the pictures in the right order.",
+        "loc_instruction": "Écris 1, 2, 3 pour remettre les images dans le bon ordre."
+      },
+      "G1-204": {
+        "en_title": "Sink or Float?",
+        "loc_title": "Flotte ou coule ?",
+        "en_instruction": "Draw a line from each object to the group you think it belongs to.",
+        "loc_instruction": "Relie chaque objet au groupe qui te semble correct."
+      },
+      "G1-205": {
+        "en_title": "Animal Coverings",
+        "loc_title": "Le corps des animaux",
+        "en_instruction": "Draw a line from each animal to its body covering.",
+        "loc_instruction": "Relie chaque animal à ce qui recouvre son corps."
+      },
+      "G1-206": {
+        "en_title": "What Animals Eat",
+        "loc_title": "Que mangent les animaux ?",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Relie chaque animal au groupe auquel il appartient."
+      },
+      "G1-207": {
+        "en_title": "The Four Food Groups",
+        "loc_title": "Les quatre groupes d'aliments",
+        "en_instruction": "Draw a line from each food to its food group.",
+        "loc_instruction": "Relie chaque aliment à son groupe."
+      }
+    },
+    "families": {
+      "science-sort": {
+        "en_name": "Science Sorting",
+        "loc_name": "Tri en sciences",
+        "loc_slug": "tri-en-sciences",
+        "en_skill": "Sorting pictures into the right groups builds the classifying and observing skills at the heart of early science.",
+        "loc_skill_full": "Trier les images dans les bons groupes développe l'observation et le classement, au cœur de la découverte du monde.",
+        "loc_skill_short": "Développe l'observation et le classement."
+      },
+      "science-sequence": {
+        "en_name": "Sequencing & Life Cycles",
+        "loc_name": "Ordre et cycles de vie",
+        "loc_slug": "ordre-et-cycles-de-vie",
+        "en_skill": "Putting the pictures in order helps young learners understand sequence and how living things grow and change over time.",
+        "loc_skill_full": "Remettre les images dans le bon ordre aide les enfants à comprendre comment les êtres vivants grandissent et changent.",
+        "loc_skill_short": "Développe la chronologie et les cycles de vie."
+      },
+      "science-match": {
+        "en_name": "Science Matching",
+        "loc_name": "Associations en sciences",
+        "loc_slug": "associations-en-sciences",
+        "en_skill": "Matching each picture to its partner builds the reasoning children use to notice connections in the world around them.",
+        "loc_skill_full": "Associer chaque image à sa paire développe le raisonnement pour repérer les liens dans le monde qui les entoure.",
+        "loc_skill_short": "Développe l'association et le raisonnement."
+      }
+    },
+    "binLabels": {
+      "animal-classification.json": {
+        "mammals": {
+          "en": "Mammals",
+          "loc": "Mammifères"
+        },
+        "birds": {
+          "en": "Birds",
+          "loc": "Oiseaux"
+        },
+        "reptiles": {
+          "en": "Reptiles",
+          "loc": "Reptiles"
+        }
+      },
+      "animal-coverings.json": {
+        "fur": {
+          "en": "Fur",
+          "loc": "Poils"
+        },
+        "feathers": {
+          "en": "Feathers",
+          "loc": "Plumes"
+        },
+        "scales": {
+          "en": "Scales",
+          "loc": "Écailles"
+        }
+      },
+      "can-fly-vs-cannot.json": {
+        "canfly": {
+          "en": "Can Fly",
+          "loc": "Peut voler"
+        },
+        "cannot": {
+          "en": "Cannot Fly",
+          "loc": "Ne peut pas voler"
+        }
+      },
+      "day-vs-night.json": {
+        "day": {
+          "en": "Day",
+          "loc": "Jour"
+        },
+        "night": {
+          "en": "Night",
+          "loc": "Nuit"
+        }
+      },
+      "farm-vs-wild-animals.json": {
+        "farm": {
+          "en": "Farm Animals",
+          "loc": "Animaux de la ferme"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Animaux sauvages"
+        }
+      },
+      "food-groups.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Fruits"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Légumes"
+        },
+        "grains": {
+          "en": "Grains",
+          "loc": "Céréales"
+        },
+        "protein": {
+          "en": "Protein",
+          "loc": "Protéines"
+        }
+      },
+      "fruits-vs-vegetables.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Fruits"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Légumes"
+        }
+      },
+      "healthy-vs-unhealthy-food.json": {
+        "healthy": {
+          "en": "Healthy",
+          "loc": "Sain"
+        },
+        "unhealthy": {
+          "en": "Not Healthy",
+          "loc": "Moins sain"
+        }
+      },
+      "hot-vs-cold.json": {
+        "hot": {
+          "en": "Hot",
+          "loc": "Chaud"
+        },
+        "cold": {
+          "en": "Cold",
+          "loc": "Froid"
+        }
+      },
+      "land-water-air-animals.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Terre"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Eau"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Air"
+        }
+      },
+      "living-vs-nonliving.json": {
+        "living": {
+          "en": "Living",
+          "loc": "Vivant"
+        },
+        "nonliving": {
+          "en": "Non-living",
+          "loc": "Non-vivant"
+        }
+      },
+      "natural-vs-manmade.json": {
+        "natural": {
+          "en": "Natural",
+          "loc": "Naturel"
+        },
+        "manmade": {
+          "en": "Man-made",
+          "loc": "Fabriqué par l'homme"
+        }
+      },
+      "pets-vs-wild-animals.json": {
+        "pets": {
+          "en": "Pets",
+          "loc": "Animaux domestiques"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Animaux sauvages"
+        }
+      },
+      "sink-vs-float.json": {
+        "float": {
+          "en": "Float",
+          "loc": "Flotte"
+        },
+        "sink": {
+          "en": "Sink",
+          "loc": "Coule"
+        }
+      },
+      "summer-vs-winter-clothes.json": {
+        "summer": {
+          "en": "Summer",
+          "loc": "Été"
+        },
+        "winter": {
+          "en": "Winter",
+          "loc": "Hiver"
+        }
+      },
+      "transportation-land-water-air.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Terre"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Eau"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Air"
+        }
+      },
+      "wants-vs-needs.json": {
+        "needs": {
+          "en": "Needs",
+          "loc": "Besoins"
+        },
+        "wants": {
+          "en": "Wants",
+          "loc": "Envies"
+        }
+      },
+      "what-animals-eat.json": {
+        "plant": {
+          "en": "Plant Eaters",
+          "loc": "Herbivores"
+        },
+        "meat": {
+          "en": "Meat Eaters",
+          "loc": "Carnivores"
+        }
+      }
+    }
+  }
+}

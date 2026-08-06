@@ -1,0 +1,22 @@
+{
+  "locale": "en",
+  "note": "GATED phoneme -> {DIFFERENT-sound confusable graphemes} table for the L.1.2.e Word Doctor's Clinic activity. The FIRST grapheme in each list is the CORRECT spelling of that phoneme; the rest are the near-confusion DIFFERENT-SOUND graphemes a Grade-1 speller mixes up (a wrong pick = a wrong SOUND = a different word voiced back). NOT same-sound homophones (those are L.1.2.d convention-choices, deliberately excluded). word-clinic-core.js embeds an identical CONFUSABLES const; verify-word-clinic-core.js asserts the two are byte-equal (no drift). Hand-authored + per-entry native-verified; the gate also asserts graphemes.join===the real approved word + the pool is untaught-skewed.",
+  "authored": "2026-06-24",
+  "confusables": {
+    "short_a": ["a", "e", "o"],
+    "short_e": ["e", "a", "i"],
+    "short_i": ["i", "e", "a"],
+    "short_o": ["o", "a", "u"],
+    "short_u": ["u", "o", "a"],
+    "sh": ["sh", "ch", "th"],
+    "ch": ["ch", "sh", "th"],
+    "th": ["th", "f", "sh"],
+    "long_o": ["oa", "o", "u"],
+    "long_a": ["ai", "a", "e"],
+    "long_e": ["ea", "e", "i"],
+    "fr": ["fr", "f", "r"],
+    "fl": ["fl", "f", "l"],
+    "gr": ["gr", "g", "r"],
+    "st": ["st", "s", "t"]
+  }
+}

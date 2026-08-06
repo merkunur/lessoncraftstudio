@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Sanan alkuäänne",
+      "instruction": "Kirjoita kirjain, jolla kukin kuva alkaa."
+    },
+    "K-222": {
+      "title": "Isot ja pienet kirjaimet",
+      "instruction": "Vedä viiva isosta kirjaimesta sen pieneen kirjaimeen."
+    },
+    "K-223": {
+      "title": "Puuttuvat kirjaimet",
+      "instruction": "Kirjoita puuttuvat kirjaimet ja täydennä aakkoset."
+    },
+    "K-224": {
+      "title": "Puuttuva äänne",
+      "instruction": "Kirjoita puuttuva kirjain ja täydennä jokainen sana."
+    },
+    "K-225": {
+      "title": "Yhdistä sana ja kuva",
+      "instruction": "Vedä viiva jokaisesta sanasta kuvaan, jota se tarkoittaa."
+    },
+    "K-226": {
+      "title": "Sanan loppuäänne",
+      "instruction": "Kirjoita kirjain, johon kukin kuva loppuu."
+    },
+    "K-227": {
+      "title": "Sanan keskiäänne",
+      "instruction": "Kirjoita vokaali, jonka kuulet sanan keskellä."
+    },
+    "K-228": {
+      "title": "Lajittele alkuäänteen mukaan",
+      "instruction": "Vedä viiva jokaisesta kuvasta kirjaimeen, jolla se alkaa."
+    },
+    "K-229": {
+      "title": "Etsi kirjain",
+      "instruction": "Ympyröi jokainen kirjain, joka on sama kuin laatikossa."
+    },
+    "K-230": {
+      "title": "Vokaalit ja konsonantit",
+      "instruction": "Lajittele jokainen kirjain vokaaleihin tai konsonantteihin."
+    },
+    "K-231": {
+      "title": "Rakenna sana",
+      "instruction": "Rakenna kirjaimista jokaisen kuvan sana."
+    },
+    "K-232": {
+      "title": "Riimiparit",
+      "instruction": "Vedä viiva kahden kuvan välille, jotka riimittelevät."
+    },
+    "K-233": {
+      "title": "Laske tavut",
+      "instruction": "Kirjoita, kuinka monta tavua kuulet jokaisessa sanassa."
+    },
+    "K-234": {
+      "title": "Lajittele tavujen mukaan",
+      "instruction": "Vedä viiva jokaisesta kuvasta sen tavujen lukumäärään."
+    },
+    "K-235": {
+      "title": "Lajittele ryhmiin",
+      "instruction": "Vedä viiva jokaisesta kuvasta ryhmään, johon se kuuluu."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Sanan alkuäänteen nimeäminen kuvasta rakentaa kirjain-äänne-yhteyttä, joka on lukemaan oppimisen ydin.",
+      "short": "Vahvistaa alkuäänne- ja kirjaintaitoja."
+    },
+    "letter-knowledge": {
+      "full": "Isojen ja pienten kirjainten sekä niiden järjestyksen tunnistaminen rakentaa aakkostaitoa, jolle lukeminen perustuu.",
+      "short": "Vahvistaa kirjainten ja aakkosten tuntemusta."
+    },
+    "word-building": {
+      "full": "Äänteiden kuunteleminen ja puuttuvan kirjaimen kirjoittaminen harjoittaa lukutaitoa, jolla lapsi lukee ensimmäiset sanansa.",
+      "short": "Vahvistaa lukemisen ja sananrakennuksen taitoja."
+    },
+    "picture-vocabulary": {
+      "full": "Kirjoitettujen sanojen ja kuvien yhdistäminen vahvistaa sanantunnistusta ja sanavarastoa, jotka muuttavat kirjaimet merkitykseksi.",
+      "short": "Vahvistaa sanantunnistusta ja sanavarastoa."
+    },
+    "phonological-awareness": {
+      "full": "Sanojen sisältämien äänteiden ja tavujen kuuleminen rakentaa kielellistä tietoisuutta, jolle sujuva lukeminen perustuu.",
+      "short": "Vahvistaa kielellistä tietoisuutta."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "alkuaanteet",
+      "name": "Alkuäänteet"
+    },
+    "letter-knowledge": {
+      "slug": "kirjaintuntemus",
+      "name": "Kirjaintuntemus"
+    },
+    "word-building": {
+      "slug": "sananrakennus",
+      "name": "Sananrakennus"
+    },
+    "picture-vocabulary": {
+      "slug": "kuvasanasto",
+      "name": "Kuvasanasto"
+    },
+    "phonological-awareness": {
+      "slug": "kielellinen-tietoisuus",
+      "name": "Kielellinen tietoisuus"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Eläimet",
+    "Fruits": "Hedelmät",
+    "Vehicles": "Ajoneuvot"
+  },
+  "vcLabels": {
+    "vowels": "Vokaalit",
+    "consonants": "Konsonantit"
+  }
+}

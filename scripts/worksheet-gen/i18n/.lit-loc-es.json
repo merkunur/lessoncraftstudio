@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Sonidos iniciales",
+      "instruction": "Escribe la letra con la que empieza cada dibujo."
+    },
+    "K-222": {
+      "title": "Mayúsculas y minúsculas",
+      "instruction": "Une con una línea cada letra mayúscula con su minúscula."
+    },
+    "K-223": {
+      "title": "Letras que faltan",
+      "instruction": "Escribe las letras que faltan para completar el abecedario."
+    },
+    "K-224": {
+      "title": "El sonido que falta",
+      "instruction": "Escribe la letra que falta para completar cada palabra."
+    },
+    "K-225": {
+      "title": "Une la palabra con el dibujo",
+      "instruction": "Une con una línea cada palabra con el dibujo que nombra."
+    },
+    "K-226": {
+      "title": "Sonidos finales",
+      "instruction": "Escribe la letra con la que termina cada dibujo."
+    },
+    "K-227": {
+      "title": "Sonidos del medio",
+      "instruction": "Escribe la vocal que oyes en el medio de cada palabra."
+    },
+    "K-228": {
+      "title": "Clasifica por sonido inicial",
+      "instruction": "Une con una línea cada dibujo con la letra con la que empieza."
+    },
+    "K-229": {
+      "title": "Encuentra la letra",
+      "instruction": "Rodea con un círculo cada letra igual a la del recuadro."
+    },
+    "K-230": {
+      "title": "Vocales y consonantes",
+      "instruction": "Clasifica cada letra en las vocales o en las consonantes."
+    },
+    "K-231": {
+      "title": "Forma la palabra",
+      "instruction": "Usa las letras para formar la palabra de cada dibujo."
+    },
+    "K-232": {
+      "title": "Parejas que riman",
+      "instruction": "Une con una línea los dos dibujos que riman."
+    },
+    "K-233": {
+      "title": "Cuenta las sílabas",
+      "instruction": "Escribe cuántas sílabas oyes en cada palabra."
+    },
+    "K-234": {
+      "title": "Clasifica por sílabas",
+      "instruction": "Une con una línea cada dibujo con su número de sílabas."
+    },
+    "K-235": {
+      "title": "Clasifica por categoría",
+      "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Nombrar el primer sonido de cada dibujo desarrolla el conocimiento de las letras y sus sonidos que está en el corazón de la lectura inicial.",
+      "short": "Desarrolla el sonido inicial y las letras."
+    },
+    "letter-knowledge": {
+      "full": "Reconocer las letras mayúsculas y minúsculas y su orden desarrolla el conocimiento del abecedario sobre el que se construye la lectura inicial.",
+      "short": "Desarrolla el reconocimiento de letras."
+    },
+    "word-building": {
+      "full": "Escuchar cada sonido y escribir la letra que falta desarrolla las destrezas de decodificación que los niños usan para leer sus primeras palabras.",
+      "short": "Desarrolla la decodificación de palabras."
+    },
+    "picture-vocabulary": {
+      "full": "Unir las palabras escritas con sus dibujos desarrolla el reconocimiento de palabras y el vocabulario que convierte las letras en significado.",
+      "short": "Desarrolla el vocabulario y la lectura."
+    },
+    "phonological-awareness": {
+      "full": "Oír los sonidos y las sílabas dentro de las palabras desarrolla la conciencia fonológica de la que depende la lectura fluida.",
+      "short": "Desarrolla la conciencia fonológica."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "sonidos-iniciales",
+      "name": "Sonidos iniciales"
+    },
+    "letter-knowledge": {
+      "slug": "conocimiento-de-letras",
+      "name": "Conocimiento de letras"
+    },
+    "word-building": {
+      "slug": "formar-palabras",
+      "name": "Formar palabras"
+    },
+    "picture-vocabulary": {
+      "slug": "vocabulario-con-dibujos",
+      "name": "Vocabulario con dibujos"
+    },
+    "phonological-awareness": {
+      "slug": "conciencia-fonologica",
+      "name": "Conciencia fonológica"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Animales",
+    "Fruits": "Frutas",
+    "Vehicles": "Vehículos"
+  },
+  "vcLabels": {
+    "vowels": "Vocales",
+    "consonants": "Consonantes"
+  }
+}

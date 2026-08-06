@@ -258,6 +258,16 @@ const VERDICT = {
 };
 const SCORE_RE = /\b(score|scores|timer|streak|poäng|poeng|punkte|punteggio|puntuación|pontuação|niveau|level|badge|sticker|reward)\b/i;
 
+/* ⚠ `\b` IS ASCII-ONLY, and that makes it the wrong tool for a ban applied
+   across ten languages. `\bquiz\b` MATCHES inside the Spanish `quizá`,
+   because `á` is not an ASCII word character so the engine reads a
+   boundary there — it condemned a correct native sentence
+   ("… quizá le vayan mejor") the moment the English ban was widened to
+   every locale. Unicode lookaround is the fix; the ban is unchanged, only
+   its idea of where a word ends. */
+const VERDICT_EN_ANYLOCALE =
+  /(?<!\p{L})(correct|incorrect|wrong|oops|try again|test|quiz|drill|fail)(?!\p{L})/iu;
+
 let ERRORS = 0, WARNS = 0;
 const err = (m) => { ERRORS++; console.error('  ERROR ' + m); };
 const warn = (m) => { WARNS++; console.warn('  warn  ' + m); };
@@ -673,8 +683,18 @@ function checkTool(tool, src) {
       const pe = (row.en.match(/\{[a-zA-Z]+\}/g) || []).sort().join(',');
       const pl = (row[L].match(/\{[a-zA-Z]+\}/g) || []).sort().join(',');
       if (pe !== pl) err(`T3 strings.${k}.${L} placeholders "${pl}" != en "${pe}"`);
-      /* T4 no-shame */
+      /* T4 no-shame.
+         ⚠ EVERY locale is checked against the English ban as well as its
+         own. Each locale used to be tested only against its own language's
+         verdict words, so "Test: correct or incorrect?" dropped into the
+         Italian string sailed through — seven mutations survived on exactly
+         that. English verdict vocabulary in a non-English string is BOTH a
+         no-shame breach and a locale leak, and neither is acceptable.
+         Poison-tested in both directions: it fires on the injected string
+         and passes every authored one. */
       if (VERDICT[L] && VERDICT[L].test(row[L])) err(`T4 strings.${k}.${L} carries verdict vocabulary: "${row[L]}"`);
+      if (L !== 'en' && VERDICT_EN_ANYLOCALE.test(row[L]))
+        err(`T4 strings.${k}.${L} carries ENGLISH verdict vocabulary: "${row[L]}"`);
       if (SCORE_RE.test(row[L])) err(`T4 strings.${k}.${L} carries score/timer vocabulary: "${row[L]}"`);
       if (/common core/i.test(row[L])) err(`T4 strings.${k}.${L} leaks "Common Core"`);
     }
@@ -713,9 +733,143 @@ function checkTool(tool, src) {
      does not weaken the rule — a real `.lcs-` selector in a real string
      still fires, which the poison test below proves. */
   const srcNoComments = src.replace(/\/\*[\s\S]*?\*\//g, '').replace(/^[ \t]*\/\/.*$/gm, '');
-  const lcsSel = (srcNoComments.match(/['"][^'"\n]*\.lcs-[a-z-]+[^'"\n]*['"]/g) || [])
+
+  /* ⚠ THE BAN IS SCOPED BY REGION, NOT BY EXCEPTION.
+     On SCREEN the tool may not touch a shell selector — that is the real
+     invariant and it stays absolute. INSIDE `@media print` it must, because
+     the shell header and control bar have to come off the paper, and every
+     sibling tool that prints does exactly this (ten-frame, money-mat,
+     fraction-kitchen). A blanket ban made the correct print rule
+     unshippable and the print gate caught the consequence: the shell header
+     was landing on the printed card. Widening an exemption list would have
+     been the loose fix; splitting the region is the true one. */
+  const PRINT_AT = srcNoComments.indexOf('@media print{');
+  const SCREEN = PRINT_AT > 0 ? srcNoComments.slice(0, PRINT_AT) : srcNoComments;
+  const PRINT = PRINT_AT > 0 ? srcNoComments.slice(PRINT_AT) : '';
+  if (PRINT_AT < 0) err('T8 no @media print block found — the print region scan below would be vacuous');
+
+  const lcsSel = (SCREEN.match(/['"][^'"\n]*\.lcs-[a-z-]+[^'"\n]*['"]/g) || [])
     .filter(s => !/hw-wide/.test(s));
-  if (lcsSel.length) err(`T8 tool writes protected .lcs- selectors: ${lcsSel.slice(0, 3).join(' ')}`);
+  if (lcsSel.length) err(`T8 tool writes protected .lcs- selectors ON SCREEN: ${lcsSel.slice(0, 3).join(' ')}`);
+
+  /* And in the print region, only NEUTRALISING is allowed.
+     ⚠ EVERY declaration is checked, not "does the rule contain one of
+     them". The first version asked whether an allowed property appeared
+     anywhere in the rule, so a rule that added `color:red` alongside a
+     legitimate `box-shadow:none` passed — the poison test did not fire,
+     which is the only reason this is right now. A check that is satisfied
+     by one good declaration cannot see the bad one next to it. */
+  const NEUTRALISING = { 'display': ['none'], 'background': ['none', '#fff', 'transparent'],
+                         'box-shadow': ['none'], 'max-width': ['none'], 'max-height': ['none'],
+                         'height': ['auto'], 'padding': ['0'], 'margin': ['0'] };
+  const printLcs = (PRINT.match(/['"][^'"\n]*\.lcs-[a-z-]+[^'"\n]*['"]/g) || []);
+  for (const rule of printLcs) {
+    const body = /\{([^}]*)\}/.exec(rule);
+    if (!body) { err(`T8 print rule names a shell selector with no declaration block: ${rule}`); continue; }
+    for (const decl of body[1].split(';')) {
+      const d = decl.trim();
+      if (!d) continue;
+      const m = /^([a-z-]+)\s*:\s*(.+?)(\s*!important)?$/.exec(d);
+      if (!m) { err(`T8 unparseable print declaration on a shell selector: "${d}"`); continue; }
+      const allowed = NEUTRALISING[m[1]];
+      if (!allowed || allowed.indexOf(m[2].trim()) < 0)
+        err(`T8 print rule RESTYLES a shell selector ("${d}") — in print the tool may only neutralise the shell, never redraw it`);
+    }
+  }
+
+  /* =================================================================
+     T13 — THE PURE ENGINE, exercised directly against the gate's OWN
+     ground truth.
+
+     Every function below is DOM-free and was, until the mutation harness
+     said so, invisible to every gate in the suite: mutating `reassemble`
+     to drop the silent tail, `boxFace` to show the whole split token,
+     `cutsToBoxes` to lose the last letter, or `_sanitiseCustom` to trust
+     an untrusted URL payload all SURVIVED. The banks happen to contain no
+     split-digraph word, so the browser gate could not see it either —
+     which is exactly why these use SYNTHETIC inputs rather than the
+     shipped data. A check that only fires on data you happen to ship is a
+     check that stops working the day the data changes.
+     ================================================================= */
+  {
+    const W = { boxes: ['m', 'a_e', 'k'], silentTail: '' };
+    /* the gate computes the expectation itself, by a different route */
+    if (tool.reassemble(W) !== 'make')
+      err(`T13 reassemble(m|a_e|k) = "${tool.reassemble(W)}", expected "make" — the split-digraph tail is lost`);
+    if (tool.tailText(W) !== 'e')
+      err(`T13 tailText(m|a_e|k) = "${tool.tailText(W)}", expected "e"`);
+    if (tool.boxFace('a_e') !== 'a')
+      err(`T13 boxFace("a_e") = "${tool.boxFace('a_e')}" — the box must show only its main letter`);
+    if (tool.boxFace('th') !== 'th') err('T13 boxFace mangles an ordinary digraph');
+
+    const S = { boxes: ['c', 'o', 'm'], silentTail: 'e' };
+    if (tool.reassemble(S) !== 'come') err(`T13 reassemble drops silentTail ("${tool.reassemble(S)}")`);
+    if (tool.tailText(S) !== 'e') err('T13 tailText drops silentTail');
+
+    /* the ratio the editor enforces must be the SAME rule as D8' */
+    for (const [n, want] of [[2, 1], [3, 1], [4, 2], [5, 2], [6, 2]]) {
+      if (tool.heartCap(n) !== want)
+        err(`T13 heartCap(${n}) = ${tool.heartCap(n)}, expected ${want} — the editor would allow a shape-learning word`);
+    }
+
+    /* the seam editor's two conversions must round-trip EXACTLY, or a
+       teacher's correction silently changes the word */
+    for (const boxes of [['sh', 'o', 'n', 'e'], ['b', 'u', 'i', 'l', 'd'], ['th', 'e']]) {
+      const word = boxes.join('');
+      const back = tool.cutsToBoxes(word.split(''), tool.boxesToCuts(boxes));
+      if (back.join('|') !== boxes.join('|'))
+        err(`T13 seam round-trip broke ${boxes.join('|')} -> ${back.join('|')}`);
+      if (back.join('') !== word)
+        err(`T13 seam round-trip no longer spells "${word}" (got "${back.join('')}")`);
+    }
+
+    /* the segmenter must REFUSE, never weld */
+    if (tool.segment('strengths', 'en') !== null)
+      err('T13 segment() did not refuse an over-long word — it must never silently weld the overflow into the last box');
+    const seg = tool.segment('shone', 'en');
+    if (!Array.isArray(seg) || seg.join('') !== 'shone') err('T13 segment() does not reassemble');
+    if (!seg || seg[0] !== 'sh') err('T13 segment() is not greedy-longest-match over the locale inventory');
+
+    /* ⚠ the shared-list ingest is UNTRUSTED INPUT and had no gate at all */
+    const bad = [
+      [{ display: 'cat', boxes: ['c', 'a'], heart: [0] }, 'boxes that do not spell the word'],
+      [{ display: 'cat', boxes: ['c', 'a', 't'], heart: [0, 1, 2] }, 'a fully-hearted word'],
+      [{ display: 'cat', boxes: ['c', 'a', 't'], heart: [] }, 'no heart at all'],
+      [{ display: 'cat', boxes: ['c', 'a', 't'], heart: [9] }, 'a heart index out of range'],
+      [{ display: 'c4t<script>', boxes: ['c', '4', 't'], heart: [0] }, 'non-letters'],
+      /* ⚠ this one is the subtle case: strip the digit and the boxes still
+         JOIN to "cat" and still equal the display, so a reassembly check
+         alone waves it through and the child gets a blank tile to map */
+      [{ display: 'ca4t', boxes: ['c', 'a', '4', 't'], heart: [0] }, 'a box that strips to empty'],
+      [{ display: 'antidisestablishment', boxes: ['a', 'b'], heart: [0] }, 'a word past the letter cap'],
+      [{ display: 'cat', boxes: ['cat'], heart: [0] }, 'a single box'],
+      ['not an object', 'a non-object'],
+      [null, 'null']
+    ];
+    for (const [payload, why] of bad) {
+      if (tool._sanitiseCustom(payload) !== null)
+        err(`T13 _sanitiseCustom accepted ${why} — never trust a URL to write a shelf`);
+    }
+    /* ⚠ The display strip is load-bearing in the PERMISSIVE direction, and
+       that is the only reason a needle removing it survived at first:
+       dropping it makes the tool STRICTER, so it admits nothing unsafe —
+       it just silently discards a colleague's hyphenated word. Measured,
+       not reasoned: with the strip `ca-t` normalises to `cat`; without it
+       the boxes no longer equal the display and the word vanishes. The
+       same normalisation runs on typed input, so the two paths agree. */
+    const norm = tool._sanitiseCustom({ display: 'ca-t', boxes: ['c', 'a', 't'], heart: [0] });
+    if (!norm || norm.display !== 'cat')
+      err('T13 _sanitiseCustom silently DROPS a punctuated word instead of normalising it — a shared list would lose words with no signal');
+
+    const good = tool._sanitiseCustom({ display: 'Shone', boxes: ['SH', 'o', 'n', 'e'], heart: [0], sentence: 'x' });
+    if (!good) err('T13 _sanitiseCustom REFUSED a legitimate shared word — the check is too wide');
+    else {
+      if (good.id.indexOf('my:') !== 0)
+        err(`T13 a shared word must be namespaced (got "${good.id}") or a ?word= link can resolve into the curated set`);
+      if (good.display !== 'shone' || good.boxes.join('') !== 'shone')
+        err('T13 _sanitiseCustom did not normalise case');
+    }
+  }
 
   /* T9 / T10 / T11 need a bank loaded into the tool */
   const bankFile = path.join(DATA_DIR, 'heart-words-en.json');

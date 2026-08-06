@@ -122,6 +122,30 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ HEART WORDS AT REST IS AN UNTOUCHED WORD — which shows grapheme
+     boxes and nothing else, i.e. it sells Sound Boxes, the sibling tool.
+     THE HEART IS THE PRODUCT and it only exists after a tap, so the card
+     must photograph the tool IN USE: every box mapped and the seal
+     stamped. `have` is the pick — three boxes (large tiles at card scale,
+     unlike a five-box word), and its heart sits on `ve`, so the card shows
+     the seal on a MULTI-LETTER box with its tie underneath. That is the
+     whole idea of the tool in one frame: the regular parts are read, the
+     part that cannot be is stamped.
+     ⚠ The first-run demonstration must be suppressed — it clears itself
+     after two seconds and would photograph a half-marked word or a blank
+     one depending on when the shutter fell. Setting `seen` also removes
+     the legend line, which at card scale is unreadable anyway. */
+  'heart-words': [
+    { js: "var T=window.HeartWords;T._store.seen=1;T._stopDemo();" +
+          "var l=T.wordsForShelf(T.shelfId);var i=l.findIndex(function(w){return w.display==='have';});" +
+          "if(i<0)i=l.findIndex(function(w){return w.boxes.length===3;});if(i<0)i=0;" +
+          "T.index=i;T.mapped={};T.face='map';T.render();", wait: 400 },
+    { js: "var T=window.HeartWords;var w=T.current();" +
+          "for(var k=0;k<w.boxes.length;k++){T.mapped[k]=true;}T._paintBoxes();" +
+          "var b=document.querySelectorAll('.hw-face-map .hw-box');" +
+          "for(var j=0;j<b.length;j++){b[j].classList.add('hw-mapped');" +
+          "if(T.isHeart(w,j))b[j].classList.add('hw-hearted');}", wait: 800 }
+  ],
   /* ⭐ PATTERN BENCH AT REST IS RED-BLUE-RED-BLUE — which is the exact
      misconception the tool exists to break (a two-bead unit reads as mere
      alternation, and a card that sells alternation sells a colour picker).

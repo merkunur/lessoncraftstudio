@@ -116,6 +116,12 @@ const TOOLS = [
   },
   { key: 'unit-handle', p: 'unh', apparatus: '.unh-bench' },
   { key: 'unroll-tape', p: 'urt', apparatus: '.urt-bench' },
+  /* Heart Words. ⚠ The apparatus here is `.hw-printcard` — the sheet is
+     built for EVERY visitor (filtered by the shelf gate), because a free
+     teacher's Ctrl+P used to produce a genuinely BLANK PAGE. The paid
+     sheets are gated by ABSENCE from the DOM, not by the chooser, since
+     Ctrl+P bypasses every button on the page. */
+  { key: 'heart-words', p: 'hw', apparatus: '.hw-printcard', chrome: '.hw-tools' },
   { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' },
   { key: 'cold-line', p: 'cld', apparatus: '.cld-sheet' },
   { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' },

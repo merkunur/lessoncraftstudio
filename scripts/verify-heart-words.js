@@ -15,7 +15,12 @@
    DATA (per locale bank)
      D1  locale field matches filename; version numeric; kind valid
      D2  shelf ids unique + labelled; >=1 free; every word's shelf exists
-     D3  free-shelf words === 10 EXACTLY; 38 <= total <= 44
+     D3  free-shelf words === 10 EXACTLY; words.length === bank.targetTotal
+         (a DECLARED per-locale figure, cross-checked against TARGETS);
+         every non-free shelf holds 8-10. The old flat 38-44 forced Spanish
+         and Italian to manufacture 40 irregular words out of orthographies
+         that barely contain them — precisely the fabrication objection this
+         gate raises against Finnish, applied inconsistently.
      D4  word ids + displays unique; 2 <= boxes.length <= 6
      D5  REASSEMBLY: join(boxes) + splitTail + silentTail === display
      D6  every multi-char box is in the locale's legal-grapheme whitelist
@@ -23,8 +28,37 @@
          GRAPHEMES must deep-equal the tool's GRAPHEME_INVENTORY (drift)
      D7  adjacent single-char boxes must not form a known digraph
      D8  heart[] = non-empty, ascending, deduped, in range, and
-         heart.length < boxes.length  (a word where EVERY part is hearted
-         is whole-word memorisation — the pedagogy SoR replaced)
+         heart.length <= min(2, floor(boxes/2))  — and AT MOST 1 in the K
+         band. The shipped `heart < boxes` was too loose: at 2-of-3 boxes
+         hearted, two thirds of the word is "learn this by heart", which
+         is whole-word memorisation wearing a heart-word costume. Measured
+         against the shipped corpus the old rule passed 20 of 400 such
+         words (en 3, de 3, sv 4, da 8, fr 1, no 1). In the Nordic cases
+         the fix is CORRECT BOXING (`m|ig` not `m|i|g`) — the ratio rule
+         forces it, which is why it is the right instrument.
+     D14 PHASE COVERAGE: every UN-hearted box is decodable from the
+         graphemes introduced at or before its shelf's `phase`. Catches
+         "hearted too little" and "placed too early" in one predicate.
+         Declared per locale in PHASES; a locale with no table is a
+         recorded gap (PHASE_GAP), never a silent pass.
+     D15 HEART JUSTIFICATION — the converse, and the more valuable half.
+         a) a hearted box is not a plain grapheme already in its phase set
+         b) it does not match a NEVER_HEART position rule (final s=/z/
+            after a voiced box, soft c/g before e/i/y, final y=/iː/)
+         c) it does not appear UN-hearted in >=2 other words of the same
+            bank without an explicit heartOverride reason
+         D15 alone catches was, does, once, because and goes — 5 of the 6
+         substantive defects in the shipped English bank, WITHOUT an
+         expert reading it.
+     D16 NOTE/HEART AGREEMENT: `note` is required and `noteFocus[]` names
+         the box indexes it explains; every one must be hearted. Catches
+         have/give/live, where the note correctly described the final `e`
+         while the heart sat on the vowel — the data recorded its own
+         disagreement and nothing was reading it.
+     D17 IMAGE COHERENCE: the image fields are all-present or all-absent.
+         A function word (the, of, was, said) takes NO picture — a cat on
+         the card for `the` teaches a pre-reader that `the` MEANS cat,
+         the exact whole-word association SoR exists to prevent.
      D9  heartKind valid; 'accent' => the hearted box carries a diacritic
      D10 sentence <=90 chars, ends . ! or ?, contains display on a word
          boundary, and carries NO ASCII apostrophe (fan-out killer)
@@ -85,7 +119,13 @@ const DIACRITIC = /[áéíóúàèìòùâêîôûäöüåãõñçøæÁÉÍÓÚ
    turn up in irregular words, which is the point of this tool. */
 const GRAPHEMES = {
   en: ['sh','ch','th','wh','ck','ng','ph','ee','oo','oa','ai','ay','ea','ie','ow','ou','oi','oy','aw','au','ew','ue','ar','or','er','ur','ir','igh','a_e','i_e','o_e','u_e','e_e','ll','ss','ff','zz','gg','tt','dd','nn','mm','bb','pp',
-       /* heart-word additions */ 'oe','ere','oul','eo','our','eigh','eir','ear'],
+       /* heart-word additions */ 'oe','ere','oul','eo','our','eigh','eir','ear',
+       /* `ve`: no English word ends in v, so a job-less e is added and it
+          does NOT lengthen the vowel. That is the heart in have/give/live,
+          and boxing it makes the rule visible instead of hiding it in a
+          silent tail. ⚠ D6 deep-equals this against the tool's own
+          GRAPHEME_INVENTORY — both halves move together or the build fails. */
+       've'],
   de: ['sch','ch','ck','ei','ie','au','eu','äu','ll','ss','ff','tt','nn','mm','pp','rr','tz','ng','sp','st','qu','ah','eh','ih','oh','uh','aa','ee','oo',
        /* heart-word additions */ 'ieh','äh','öh','üh'],
   fr: ['ch','ou','oi','on','an','en','in','un','ai','ei','au','eau','eu','oeu','gn','ph','ll','ss','tt','nn','mm','rr','pp','qu','é','è','ê',
@@ -119,6 +159,86 @@ const SPLIT_TRAPS = {
   sv: ['ng','sj','kj','tj','ck'],
   da: ['ng','sj','aa'],
   no: ['ng','sj','kj','gj','øy','ei']
+};
+
+/* =====================================================================
+   D3′ — DECLARED per-locale totals.
+
+   Not uniform, and deliberately so. A transparent orthography has fewer
+   genuinely irregular high-frequency words, and the honest answer is a
+   smaller bank, not a padded one. English is the ceiling because English
+   is the outlier: Fry 1-300's irregular residue is ~90-110 words, UFLI's
+   K-2 heart-word sequence totals ~90-100, Really Great Reading's
+   inventory 100-150. 120 sits inside all three. Past it you start
+   hearting REGULAR words — which the shipped 40-word bank already does.
+   ===================================================================== */
+const TARGETS = {
+  en: 120, fr: 100, da: 100, de: 80, sv: 80, nl: 70, no: 70, pt: 70, it: 50, es: 50
+};
+
+/* Bands. `band` is a curriculum position, not a locale label — the
+   TEACHER-FACING band name is read from topics-taxonomy.json per §17.4.3
+   (so de reads "1. Klasse", sv "åk 1"), never re-authored here. */
+const BANDS = ['k', 'g1', 'g2'];
+
+/* =====================================================================
+   D14 — cumulative grapheme sets per phase.
+
+   Phase N's set is every grapheme introduced at or before N. An UN-hearted
+   box must be decodable from it: that is what makes the word "temporarily
+   irregular" (irregular RELATIVE TO THE CODE TAUGHT SO FAR) rather than a
+   flashcard.
+
+   ⚠ A locale with no table here is a RECORDED GAP, printed on every run,
+   never a silent pass — a check that cannot fail is worth nothing.
+   ===================================================================== */
+const PHASES = {
+  en: [
+    /* phase 1 — single letters + the earliest consonant digraphs */
+    ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
+     'sh','ch','th','ck','ng','ll','ss','ff','zz'],
+    /* phase 2 — vowel teams + r-controlled + split digraphs */
+    ['wh','ph','ee','oo','oa','ai','ay','ea','ie','ow','ou','oi','oy','ar','or','er','ur','ir',
+     'a_e','i_e','o_e','u_e','e_e','gg','tt','dd','nn','mm','bb','pp','ve'],
+    /* phase 3 — the long tail */
+    ['aw','au','ew','ue','igh','oe','ere','oul','eo','our','eigh','eir','ear']
+  ]
+};
+
+/* =====================================================================
+   D15b — NEVER-HEART position rules.
+
+   Each entry is a predicate over (box, index, word). A hearted box that
+   matches one is a POSITION RULE the child can learn once and apply
+   everywhere, not a word-specific irregularity. Hearting it teaches that
+   English is arbitrary where it is in fact regular.
+
+   Each rule names what it caught in the shipped bank so a future session
+   can see it was measured, not imagined.
+   ===================================================================== */
+const VOICED_FINALS = /[aeiouybdglmnrvwz]$/i;
+const NEVER_HEART = {
+  en: [
+    { id: 'final-s-voiced',
+      why: 'final s = /z/ after a voiced sound is a position rule (is, has, dogs)',
+      caught: 'was, does, because, goes',
+      test: (box, i, w) => box.toLowerCase() === 's' && i === w.boxes.length - 1 &&
+                           i > 0 && VOICED_FINALS.test(String(w.boxes[i - 1])) },
+    { id: 'soft-c',
+      why: 'c = /s/ before e, i or y is the soft-c rule, taught in Grade 1',
+      caught: 'once',
+      test: (box, i, w) => box.toLowerCase() === 'c' &&
+                           /^[eiy]/i.test(String(w.boxes[i + 1] || '') + String(w.silentTail || '')) },
+    { id: 'soft-g',
+      why: 'g = /dʒ/ before e, i or y is the soft-g rule',
+      caught: '(none in the shipped bank — the guard is prospective)',
+      test: (box, i, w) => box.toLowerCase() === 'g' && i > 0 &&
+                           /^[eiy]/i.test(String(w.boxes[i + 1] || '') + String(w.silentTail || '')) },
+    { id: 'final-y-ee',
+      why: 'final y = /iː/ in a two-syllable word is regular (many, any, only, happy)',
+      caught: '(correctly avoided throughout — the guard keeps it that way)',
+      test: (box, i, w) => box.toLowerCase() === 'y' && i === w.boxes.length - 1 && w.boxes.length >= 3 }
+  ]
 };
 
 /* No-shame lexical bans. Applied to the tool's `strings` only — the SEO
@@ -235,15 +355,35 @@ function checkBank(locale, bank, vocab, pww, graphemeInventory, label, opts) {
 
   /* D2 */
   const shelfIds = new Set(), syllableShelves = new Set(), freeShelves = new Set();
+  const shelfMeta = new Map();
   if (!Array.isArray(bank.shelves) || !bank.shelves.length) err(`[${label}:${locale}] D2 shelves[] missing/empty`);
   for (const s of bank.shelves || []) {
     if (!s.id || !s.label) err(`[${label}:${locale}] D2 shelf missing id/label: ${JSON.stringify(s)}`);
     if (shelfIds.has(s.id)) err(`[${label}:${locale}] D2 duplicate shelf id ${s.id}`);
     shelfIds.add(s.id);
+    shelfMeta.set(s.id, s);
     if (s.type === 'syllables') syllableShelves.add(s.id);
     if (s.free) freeShelves.add(s.id);
+    if (!opts.skipCounts) {
+      if (BANDS.indexOf(s.band) < 0)
+        err(`[${label}:${locale}] D2 shelf "${s.id}" band "${s.band}" not in {${BANDS.join(',')}}`);
+      if (!Number.isInteger(s.phase) || s.phase < 1)
+        err(`[${label}:${locale}] D2 shelf "${s.id}" needs an integer phase >= 1`);
+      if (!s.teachingPoint)
+        err(`[${label}:${locale}] D2 shelf "${s.id}" has no teachingPoint — a shelf a teacher cannot rank ` +
+            `is a conversion defect on top of a teaching one`);
+    }
   }
   if (!freeShelves.size) err(`[${label}:${locale}] D2 no free shelf (need >=1)`);
+
+  /* D14/D15 substrate. A locale with no phase table is a RECORDED gap. */
+  const phaseTable = PHASES[locale] || null;
+  if (!phaseTable && !opts.skipCounts)
+    warn(`[${label}:${locale}] PHASE_GAP — no PHASES table, so D14/D15a cannot run for this locale`);
+  const neverHeart = NEVER_HEART[locale] || [];
+  if (!neverHeart.length && !opts.skipCounts)
+    warn(`[${label}:${locale}] NEVER_HEART_GAP — no position rules declared, so D15b cannot run`);
+  const heartSuspect = [], boxUse = {};
 
   const words = bank.words || [];
   const legal = new Set(graphemeInventory || []);
@@ -297,8 +437,9 @@ function checkBank(locale, bank, vocab, pww, graphemeInventory, label, opts) {
       }
     }
 
-    /* D8 heart */
+    /* D8′ heart — shape, range, AND the over-hearting ratio */
     const h = w.heart;
+    const shelfOf = shelfMeta.get(w.shelf) || {};
     if (!Array.isArray(h) || !h.length) err(`${tag(w)} D8 heart[] missing/empty`);
     else {
       const n = (w.boxes || []).length;
@@ -307,9 +448,99 @@ function checkBank(locale, bank, vocab, pww, graphemeInventory, label, opts) {
         else if (h[i] < 0 || h[i] >= n) err(`${tag(w)} D8 heart index ${h[i]} out of range 0..${n - 1}`);
         if (i && h[i] <= h[i - 1]) err(`${tag(w)} D8 heart[] must be ascending + deduped`);
       }
-      if (h.length >= n)
-        err(`${tag(w)} D8 heart covers every box (${h.length}/${n}) — that is whole-word memorisation, not a heart word`);
+      /* the ratio. `heart < boxes` passed 2-of-3, which is the defect. */
+      const cap = Math.min(2, Math.floor(n / 2));
+      if (h.length > cap)
+        err(`${tag(w)} D8 heart covers ${h.length} of ${n} boxes (max ${cap}) — at that ratio the child ` +
+            `learns the SHAPE, which is the whole-word memorisation SoR replaced`);
+      /* the K band gets ONE heart. A five-year-old holding two arbitrary
+         parts of one word is holding the word. */
+      if (shelfOf.band === 'k' && h.length > 1)
+        err(`${tag(w)} D8 ${h.length} hearts on a K-band shelf — the K band allows exactly one`);
     }
+
+    /* ---- the phase set this word is decoded against (D14/D15a) ---- */
+    let phaseSet = null;
+    if (phaseTable && Number.isInteger(shelfOf.phase)) {
+      phaseSet = new Set();
+      for (let p = 0; p < Math.min(shelfOf.phase, phaseTable.length); p++)
+        for (const g of phaseTable[p]) phaseSet.add(g);
+    }
+
+    /* D14 phase coverage — every UN-hearted box must be readable by now */
+    if (phaseSet && Array.isArray(h)) {
+      for (let i = 0; i < (w.boxes || []).length; i++) {
+        if (h.indexOf(i) >= 0) continue;
+        const core = String(w.boxes[i]).toLowerCase();
+        if (!phaseSet.has(core))
+          err(`${tag(w)} D14 un-hearted box "${w.boxes[i]}" is not decodable at phase ${shelfOf.phase} — ` +
+              `either the word is placed too early, or that box IS part of the irregularity and is un-hearted`);
+      }
+    }
+
+    /* D15a — a hearted box that the phase already taught is not irregular */
+    if (phaseSet && Array.isArray(h)) {
+      for (const i of h) {
+        const core = String((w.boxes || [])[i] || '').toLowerCase();
+        if (!core) continue;
+        if (phaseSet.has(core) && !w.heartOverride)
+          heartSuspect.push({ w, i, core, why: `D15a "${core}" is already in the phase-${shelfOf.phase} set` });
+      }
+    }
+
+    /* D15b — never-heart position rules.
+       ⚠ heartOverride does NOT excuse this check, and that is deliberate.
+       An override is a claim that a box is IRREGULAR for this word; it is
+       not a licence to heart a POSITION RULE that holds language-wide.
+       The distinction matters because D15a fires on every single-letter
+       heart (single letters are all in phase 1), so nearly every word in a
+       real bank carries an override — and when D15b honoured it too, the
+       position rules were unenforced across 99 of 120 words while the gate
+       reported PASS. Found by poison-testing each invariant family
+       separately: eight died, this one survived. A gate you help past is
+       not a gate. */
+    if (Array.isArray(h) && neverHeart.length) {
+      for (const i of h) {
+        const box = String((w.boxes || [])[i] || '');
+        if (!box) continue;
+        for (const rule of neverHeart) {
+          if (!rule.test(box, i, w)) continue;
+          err(`${tag(w)} D15b heart on box "${box}" breaks the never-heart rule "${rule.id}" — ${rule.why}`);
+        }
+      }
+    }
+
+    /* D15c bookkeeping — same box, hearted here, plain elsewhere */
+    for (let i = 0; i < (w.boxes || []).length; i++) {
+      const core = String(w.boxes[i]).toLowerCase();
+      const slot = boxUse[core] || (boxUse[core] = { hearted: [], plain: [] });
+      (Array.isArray(h) && h.indexOf(i) >= 0 ? slot.hearted : slot.plain).push(w.id);
+    }
+
+    /* D16 note / heart agreement */
+    if (!w.note) err(`${tag(w)} D16 note missing — it is the answer to "why is THAT the heart?"`);
+    if (!Array.isArray(w.noteFocus) || !w.noteFocus.length)
+      err(`${tag(w)} D16 noteFocus[] missing — name the box indexes the note explains`);
+    else {
+      for (const i of w.noteFocus) {
+        if (!Number.isInteger(i) || i < 0 || i >= (w.boxes || []).length)
+          err(`${tag(w)} D16 noteFocus index ${i} out of range`);
+        else if (Array.isArray(h) && h.indexOf(i) < 0)
+          err(`${tag(w)} D16 the note explains box ${i} ("${w.boxes[i]}") but that box is NOT hearted — ` +
+              `the data is disagreeing with itself in writing`);
+      }
+    }
+
+    /* D17 image coherence — all present or all absent, never half */
+    const imgFields = ['sentenceNoun', 'imageDir', 'imageFile'];
+    const present = imgFields.filter(f => !!w[f]);
+    if (present.length && present.length !== imgFields.length)
+      err(`${tag(w)} D17 image fields half-specified (${present.join(',')}) — all three or none`);
+    if (w.noImage && present.length)
+      err(`${tag(w)} D17 noImage is set but image fields are present`);
+    if (!present.length && !w.noImage)
+      err(`${tag(w)} D17 no picture and no noImage flag — a function word takes noImage:true deliberately, ` +
+          `it is never an omission`);
 
     /* D9 heartKind */
     if (!HEART_KINDS.has(w.heartKind)) err(`${tag(w)} D9 heartKind "${w.heartKind}" invalid`);
@@ -332,53 +563,89 @@ function checkBank(locale, bank, vocab, pww, graphemeInventory, label, opts) {
         err(`${tag(w)} D10 sentence does not contain "${w.display}" as a whole word`);
     }
 
-    /* D11 illustration */
-    if (!w.sentenceNoun) err(`${tag(w)} D11 sentenceNoun missing`);
-    else if (vocab && !vocab[w.sentenceNoun])
-      err(`${tag(w)} D11 sentenceNoun "${w.sentenceNoun}" not in IMAGE_VOCABULARY`);
-    if (!w.imageDir || !w.imageFile) err(`${tag(w)} D11 imageDir/imageFile missing`);
-    else if (byDir) {
-      const theme = byDir.get(w.imageDir);
-      if (!theme) err(`${tag(w)} D11 imageDir "${w.imageDir}" is not a theme dir in pww-index-${locale}`);
-      else {
-        const key = theme.get(w.imageFile);
-        if (key === undefined) err(`${tag(w)} D11 "${w.imageDir}/${w.imageFile}" not a card in that theme`);
-        else if (key !== w.sentenceNoun)
-          err(`${tag(w)} D11 "${w.imageDir}/${w.imageFile}" is noun "${key}", not "${w.sentenceNoun}"`);
-      }
-    }
-    /* on-disk check only when the (gitignored) image tree is present */
+    /* D11 illustration — only for words that HAVE one (see D17) */
     if (w.imageDir && w.imageFile) {
+      if (vocab && !vocab[w.sentenceNoun])
+        err(`${tag(w)} D11 sentenceNoun "${w.sentenceNoun}" not in IMAGE_VOCABULARY`);
+      if (byDir) {
+        const theme = byDir.get(w.imageDir);
+        if (!theme) err(`${tag(w)} D11 imageDir "${w.imageDir}" is not a theme dir in pww-index-${locale}`);
+        else {
+          const key = theme.get(w.imageFile);
+          if (key === undefined) err(`${tag(w)} D11 "${w.imageDir}/${w.imageFile}" not a card in that theme`);
+          else if (key !== w.sentenceNoun)
+            err(`${tag(w)} D11 "${w.imageDir}/${w.imageFile}" is noun "${key}", not "${w.sentenceNoun}"`);
+        }
+      }
+      /* on-disk check only when the (gitignored) image tree is present */
       const dir = path.join(ROOT, 'image-library-webp', 'themes');
       if (fs.existsSync(dir)) {
         const f = path.join(dir, w.imageDir, w.imageFile + '@2x.webp');
         if (!fs.existsSync(f)) err(`${tag(w)} D11 missing image file ${w.imageDir}/${w.imageFile}@2x.webp`);
       }
+
+      /* D12 nounForm appears in the sentence — the picture must depict
+         something actually IN the sentence, in its inflected surface form */
+      const form = w.nounForm || w.sentenceNoun;
+      if (s && form && s.toLowerCase().indexOf(form.toLowerCase()) < 0)
+        err(`${tag(w)} D12 nounForm "${form}" does not appear in the sentence`);
+
+      /* D13 image reuse */
+      const pair = w.imageDir + '/' + w.imageFile;
+      imgUse[pair] = (imgUse[pair] || 0) + 1;
     }
-
-    /* D12 nounForm appears in the sentence */
-    const form = w.nounForm || (w.sentenceNoun || '');
-    if (s && form && s.toLowerCase().indexOf(form.toLowerCase()) < 0)
-      err(`${tag(w)} D12 nounForm "${form}" does not appear in the sentence`);
-
-    /* D13 image reuse */
-    const pair = w.imageDir + '/' + w.imageFile;
-    imgUse[pair] = (imgUse[pair] || 0) + 1;
   }
 
-  /* D3 — shipped banks only (see opts.skipCounts rationale above) */
+  /* ---- D15c: the same box hearted here and plain elsewhere ----
+     A grapheme cannot be both "un-derivable from the code" in one word and
+     ordinary in two others. Either the heart is wrong or the word needs an
+     explicit heartOverride saying why THIS one differs. */
+  for (const core of Object.keys(boxUse)) {
+    const u = boxUse[core];
+    if (!u.hearted.length || u.plain.length < 2) continue;
+    for (const id of u.hearted) {
+      const w = words.find(x => x.id === id);
+      if (w && w.heartOverride) continue;
+      err(`[${label}:${locale}:${id}] D15c box "${core}" is hearted here but plain in ` +
+          `${u.plain.length} other words (${u.plain.slice(0, 3).join(', ')}) — ` +
+          `add heartOverride with a reason, or the heart is wrong`);
+    }
+  }
+  /* D15a suspects are reported after D15c so the two read together */
+  for (const s of heartSuspect) err(`[${label}:${locale}:${s.w.id}] ${s.why}`);
+
+  /* D3′ — shipped banks only (see opts.skipCounts rationale above) */
   if (!opts.skipCounts) {
     if (freeWords !== 10) err(`[${label}:${locale}] D3 free-shelf words = ${freeWords}, must be exactly 10`);
-    if (words.length < 38 || words.length > 44)
-      err(`[${label}:${locale}] D3 total words = ${words.length}, must be 38-44`);
+    const target = TARGETS[locale];
+    if (!Number.isInteger(bank.targetTotal))
+      err(`[${label}:${locale}] D3 bank.targetTotal missing — the size of a bank is DECLARED, not discovered`);
+    else if (bank.targetTotal !== target)
+      err(`[${label}:${locale}] D3 bank.targetTotal ${bank.targetTotal} != the declared ${target} for ${locale}`);
+    if (Number.isInteger(bank.targetTotal) && words.length !== bank.targetTotal)
+      err(`[${label}:${locale}] D3 ${words.length} words against a declared target of ${bank.targetTotal}`);
+    /* every non-free shelf holds 8-10. A shelf of eight good words beats
+       ten with two the class will never meet. */
+    const perShelf = {};
+    for (const w of words) perShelf[w.shelf] = (perShelf[w.shelf] || 0) + 1;
+    for (const s of bank.shelves || []) {
+      if (s.free) continue;
+      const n = perShelf[s.id] || 0;
+      if (n < 8 || n > 10)
+        err(`[${label}:${locale}] D3 shelf "${s.id}" holds ${n} words (8-10)`);
+    }
   } else if (!freeWords) {
     /* a fallback that is not fully free would strand an offline visitor */
     err(`[${label}:${locale}] D3 fallback bank has no free words`);
   }
 
-  /* D13 */
+  /* D13 — the cap is re-derived for the new bank size, not loosened by
+     taste: 3x encoded the variety intent of a 40-word bank; at 120 the
+     same intent is 6x, and reusing one cat across six sentences is
+     pedagogically inert because the picture decorates, never answers. */
+  const reuseCap = (bank.targetTotal || words.length) > 60 ? 6 : 3;
   for (const p of Object.keys(imgUse)) {
-    if (imgUse[p] > 3) err(`[${label}:${locale}] D13 image "${p}" used ${imgUse[p]}x (max 3)`);
+    if (imgUse[p] > reuseCap) err(`[${label}:${locale}] D13 image "${p}" used ${imgUse[p]}x (max ${reuseCap})`);
   }
 
   return words.length;

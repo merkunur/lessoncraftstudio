@@ -2263,7 +2263,19 @@ function injectDrawBagCSS() {
        ⚠ THE BREAKPOINT IS 760, NOT 820, AND THAT IS A CUT-OFF FIX: at
        820 a 768px tablet kept the stacked layout and the densest state
        ran past the fold in all eleven locales. */
-    + '@media (min-width:760px){'
+    /* ⚠⚠ THE BREAKPOINT IS 700, AND 760 WAS DEAD ON THE REAL SURFACE.
+       Measured on production: the tool page wraps every instrument in
+       `article.mx-auto.max-w-3xl`, so the iframe is pinned at 704px at
+       1440, at 1920 AND at 2560 — identical to the pixel. A 760 breakpoint
+       therefore never fired on any desktop a teacher owns, and every one
+       of the row layouts below existed only in the local sweep. This is
+       the recorded pinned-iframe class (#pattern-bench, #measurement-bench
+       and #wodb each shipped at phone size inside one), found by reading
+       the LIVE render rather than the local one. 700 is under the measured
+       704 with room for a scrollbar; the sweep now drives 704 explicitly.
+       (The 1367/1800/2400 tiers stay: they are for the full-screen link,
+       which is not capped.) */
+    + '@media (min-width:700px){'
     +   '.drb-main{flex-direction:row;justify-content:center;align-items:center;gap:20px;}'
     +   '.drb-recs{max-width:600px;}'
     +   '.drb-rec{--drb-cell:clamp(34px,7.4vmin,38px);}'

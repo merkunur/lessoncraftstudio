@@ -1,57 +1,1928 @@
 {
   "locale": "sv",
-  "version": 1,
+  "version": 2,
   "kind": "irregular",
-  "curation": "native-pass-1",
+  "curation": "native-pass-2",
+  "targetTotal": 80,
   "shelves": [
-    { "id": "sh1", "label": "Våra första tio", "free": true },
-    { "id": "sh2", "label": "Ord vi säger på ett annat sätt", "free": false },
-    { "id": "sh3", "label": "Sje-ljudet och tje-ljudet", "free": false },
-    { "id": "sh4", "label": "Bokstäver som gömmer sig", "free": false }
+    {
+      "id": "fk-forsta",
+      "label": "Förskoleklass · Orden vi känner igen direkt",
+      "band": "k",
+      "phase": 1,
+      "teachingPoint": "orden som återkommer på varje boksida, men inte går att ljuda fram bokstav för bokstav",
+      "free": true
+    },
+    {
+      "id": "ak1-kortare",
+      "label": "Årskurs 1 · Kortare i tal än i skrift",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "bokstäver mitt inne i eller sist i ordet som helt försvinner i vanligt tal",
+      "free": false
+    },
+    {
+      "id": "ak1-tyst-forst",
+      "label": "Årskurs 1 · Den tysta bokstaven först",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "hj, lj, dj och gj — den första bokstaven skrivs men hörs inte alls, alla fyra låter som j",
+      "free": false
+    },
+    {
+      "id": "ak1-x",
+      "label": "Årskurs 1 · Bokstaven som gör dubbelt jobb",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "x är en enda bokstav, men den låter som k plus s efter varandra",
+      "free": false
+    },
+    {
+      "id": "ak1-sje",
+      "label": "Årskurs 1 · Sje-ljudet",
+      "band": "g1",
+      "phase": 3,
+      "teachingPoint": "sj, skj och stj — tre olika stavningar som alla ger samma sje-ljud",
+      "free": false
+    },
+    {
+      "id": "ak2-tje",
+      "label": "Årskurs 2 · Tje-ljudet",
+      "band": "g2",
+      "phase": 3,
+      "teachingPoint": "tj och kj — två stavningar för tje-ljudet, som varken låter som t, k eller j",
+      "free": false
+    },
+    {
+      "id": "ak2-r-smalter",
+      "label": "Årskurs 2 · Bokstäver som smälter ihop",
+      "band": "g2",
+      "phase": 4,
+      "teachingPoint": "rd, rt, rn, rs och rl uttalas tillsammans och går inte att dela i två delar",
+      "free": false
+    },
+    {
+      "id": "ak2-ig",
+      "label": "Årskurs 2 · Ord som slutar på -ig",
+      "band": "g2",
+      "phase": 4,
+      "teachingPoint": "det sista g:et skrivs men hörs inte — ändelsen uttalas som -i",
+      "free": false
+    }
   ],
   "words": [
-    { "id": "och",     "display": "och",     "boxes": ["o","c"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Katten sover och drömmer.",              "sentenceNoun": "cat",        "nounForm": "Katten",      "imageDir": "pets",             "imageFile": "cat",        "silentTail": "h", "shelf": "sh1", "note": "c låter som k och h:et hörs inte alls" },
-    { "id": "jag",     "display": "jag",     "boxes": ["j","a"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Jag har en hund hemma.",                  "sentenceNoun": "dog",        "nounForm": "hund",        "imageDir": "pets",             "imageFile": "dog",        "silentTail": "g", "shelf": "sh1", "note": "g:et hörs inte — vi säger ja" },
-    { "id": "det",     "display": "det",     "boxes": ["d","e"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Det här är min nya cykel.",               "sentenceNoun": "bicycle",    "nounForm": "cykel",       "imageDir": "toys",             "imageFile": "bicycle",    "silentTail": "t", "shelf": "sh1", "note": "man hör inget t — e:et blir långt" },
-    { "id": "de",      "display": "de",      "boxes": ["d","e"],                  "heart": [1],   "heartKind": "irregular", "sentence": "De leker med en boll ute.",               "sentenceNoun": "ball",       "nounForm": "boll",        "imageDir": "toys",             "imageFile": "ball",       "shelf": "sh1", "note": "e:et gör jobbet för två ljud — vi säger dom" },
-    { "id": "ar",      "display": "är",      "boxes": ["ä","r"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Solen är varm idag.",                     "sentenceNoun": "sun",        "nounForm": "Solen",       "imageDir": "weather",          "imageFile": "sun",        "shelf": "sh1", "note": "r:et hörs nästan aldrig — vi säger e" },
-    { "id": "mig",     "display": "mig",     "boxes": ["m","i","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Kan du ge mig en penna?",                 "sentenceNoun": "pencil",     "nounForm": "penna",       "imageDir": "classroom",        "imageFile": "pencil",     "shelf": "sh1", "note": "ig låter som ej — vi säger mej" },
-    { "id": "dig",     "display": "dig",     "boxes": ["d","i","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Jag väntar på dig vid grinden.",          "sentenceNoun": "gate",       "nounForm": "grinden",     "imageDir": "around the house", "imageFile": "gate",       "shelf": "sh1", "note": "ig låter som ej, precis som i mig" },
-    { "id": "sig",     "display": "sig",     "boxes": ["s","i","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Musen gömmer sig snabbt.",                "sentenceNoun": "mouse",      "nounForm": "Musen",       "imageDir": "forest creatures", "imageFile": "mouse",      "shelf": "sh1", "note": "ig låter som ej — mig, dig och sig hör ihop" },
-    { "id": "vad",     "display": "vad",     "boxes": ["v","a"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Vad ritar du på ditt papper?",            "sentenceNoun": "paper",      "nounForm": "papper",      "imageDir": "classroom",        "imageFile": "paper",      "silentTail": "d", "shelf": "sh1", "note": "d:et hörs oftast inte — vi säger va" },
-    { "id": "sager",   "display": "säger",   "boxes": ["s","ä","g","e","r"],      "heart": [2],   "heartKind": "irregular", "sentence": "Läraren säger god morgon till oss.",      "sentenceNoun": "teacher",    "nounForm": "Läraren",     "imageDir": "classroom",        "imageFile": "teacher",    "shelf": "sh1", "note": "g låter som j — vi säger säjer" },
-
-    { "id": "dem",     "display": "dem",     "boxes": ["d","e","m"],              "heart": [1],   "heartKind": "irregular", "sentence": "Jag ser dem i fönstret.",                 "sentenceNoun": "window",     "nounForm": "fönstret",    "imageDir": "around the house", "imageFile": "window",     "shelf": "sh2", "note": "e låter som å — vi säger dom" },
-    { "id": "nagot",   "display": "något",   "boxes": ["n","å","g","o","t"],      "heart": [2,3], "heartKind": "irregular", "sentence": "Det ligger något i min ryggsäck.",        "sentenceNoun": "backpack",   "nounForm": "ryggsäck",    "imageDir": "classroom",        "imageFile": "backpack",   "shelf": "sh2", "note": "g och o hörs inte — vi säger nåt" },
-    { "id": "nagon",   "display": "någon",   "boxes": ["n","å","g","o","n"],      "heart": [2,3], "heartKind": "irregular", "sentence": "Har någon sett min mössa?",               "sentenceNoun": "beanie",     "nounForm": "mössa",       "imageDir": "clothing",         "imageFile": "beanie",     "shelf": "sh2", "note": "g och o hörs inte — vi säger nån" },
-    { "id": "mycket",  "display": "mycket",  "boxes": ["m","y","ck","e"],         "heart": [3],   "heartKind": "irregular", "sentence": "Min hund dricker mycket vatten.",         "sentenceNoun": "dog",        "nounForm": "hund",        "imageDir": "pets",             "imageFile": "dog",        "silentTail": "t", "shelf": "sh2", "note": "man hör inget t på slutet" },
-    { "id": "morgon",  "display": "morgon",  "boxes": ["m","o","r","g","o","n"],  "heart": [3],   "heartKind": "irregular", "sentence": "Varje morgon äter jag en banan.",         "sentenceNoun": "banana",     "nounForm": "banan",       "imageDir": "fruits",           "imageFile": "banana",     "shelf": "sh2", "note": "g:et hörs inte — vi säger morron" },
-    { "id": "sedan",   "display": "sedan",   "boxes": ["s","e","d","a","n"],      "heart": [2,3], "heartKind": "irregular", "sentence": "Först läser vi och sedan ritar vi en katt.", "sentenceNoun": "cat",     "nounForm": "katt",        "imageDir": "pets",             "imageFile": "cat",        "shelf": "sh2", "note": "d och a hörs inte — vi säger sen" },
-    { "id": "sadan",   "display": "sådan",   "boxes": ["s","å","d","a","n"],      "heart": [2,3], "heartKind": "irregular", "sentence": "Jag vill också ha en sådan drake.",       "sentenceNoun": "kite",       "nounForm": "drake",       "imageDir": "toys",             "imageFile": "kite",       "shelf": "sh2", "note": "d och a hörs inte — vi säger sån" },
-    { "id": "roligt",  "display": "roligt",  "boxes": ["r","o","l","i","g","t"],  "heart": [4],   "heartKind": "irregular", "sentence": "Det är roligt att bygga med klossar.",    "sentenceNoun": "blocks",     "nounForm": "klossar",     "imageDir": "toys",             "imageFile": "blocks",     "shelf": "sh2", "note": "g:et hörs inte — vi säger rolit" },
-    { "id": "ledsen",  "display": "ledsen",  "boxes": ["l","e","d","s","e","n"],  "heart": [2],   "heartKind": "irregular", "sentence": "Min nallebjörn ser ledsen ut.",           "sentenceNoun": "teddy-bear", "nounForm": "nallebjörn",  "imageDir": "toys",             "imageFile": "teddy_bear", "shelf": "sh2", "note": "d:et hörs inte — vi säger lessen" },
-    { "id": "gjorde",  "display": "gjorde",  "boxes": ["gj","o","rd","e"],        "heart": [0,2], "heartKind": "irregular", "sentence": "Vi gjorde en robot i skolan.",            "sentenceNoun": "robot",      "nounForm": "robot",       "imageDir": "toys",             "imageFile": "robot",      "shelf": "sh2", "note": "g:et hörs inte i gj, och rd blir ett enda ljud" },
-
-    { "id": "sju",     "display": "sju",     "boxes": ["sj","u"],                 "heart": [0],   "heartKind": "irregular", "sentence": "Jag räknar sju ankor.",                   "sentenceNoun": "duck",       "nounForm": "ankor",       "imageDir": "farm animals",     "imageFile": "duck",       "shelf": "sh3", "note": "sj låter som sje-ljudet" },
-    { "id": "sjo",     "display": "sjö",     "boxes": ["sj","ö"],                 "heart": [0],   "heartKind": "irregular", "sentence": "En svan simmar i vår sjö.",               "sentenceNoun": "swan",       "nounForm": "svan",        "imageDir": "animals",          "imageFile": "swan",       "shelf": "sh3", "note": "sj låter som sje-ljudet, precis som i sju" },
-    { "id": "sjunga",  "display": "sjunga",  "boxes": ["sj","u","ng","a"],        "heart": [0],   "heartKind": "irregular", "sentence": "Vi kan sjunga och spela gitarr.",         "sentenceNoun": "guitar",     "nounForm": "gitarr",      "imageDir": "music",            "imageFile": "guitar",     "shelf": "sh3", "note": "sj låter som sje-ljudet — ng är helt vanligt" },
-    { "id": "skjorta", "display": "skjorta", "boxes": ["skj","o","rt","a"],       "heart": [0,2], "heartKind": "irregular", "sentence": "Jag har en blå skjorta idag.",            "sentenceNoun": "shirt",      "nounForm": "skjorta",     "imageDir": "clothing",         "imageFile": "shirt",      "shelf": "sh3", "note": "skj låter som sje-ljudet, och rt blir ett enda ljud" },
-    { "id": "stjarna", "display": "stjärna", "boxes": ["stj","ä","rn","a"],       "heart": [0,2], "heartKind": "irregular", "sentence": "Jag ser en stjärna på himlen.",           "sentenceNoun": "star",       "nounForm": "stjärna",     "imageDir": "shapes",           "imageFile": "star",       "shelf": "sh3", "note": "stj låter som sje-ljudet, och rn blir ett enda ljud" },
-    { "id": "kjol",    "display": "kjol",    "boxes": ["kj","o","l"],             "heart": [0],   "heartKind": "irregular", "sentence": "Hon har en röd kjol idag.",               "sentenceNoun": "skirt",      "nounForm": "kjol",        "imageDir": "clothing",         "imageFile": "skirt",      "shelf": "sh3", "note": "kj låter som tje-ljudet" },
-    { "id": "tjur",    "display": "tjur",    "boxes": ["tj","u","r"],             "heart": [0],   "heartKind": "irregular", "sentence": "En stor tjur står i hagen.",              "sentenceNoun": "bull",       "nounForm": "tjur",        "imageDir": "farm animals",     "imageFile": "bull",       "shelf": "sh3", "note": "tj låter som tje-ljudet, precis som kj" },
-    { "id": "tjugo",   "display": "tjugo",   "boxes": ["tj","u","g","o"],         "heart": [0],   "heartKind": "irregular", "sentence": "Vi målar med tjugo kritor.",              "sentenceNoun": "crayons",    "nounForm": "kritor",      "imageDir": "toys",             "imageFile": "crayons",    "shelf": "sh3", "note": "tj låter som tje-ljudet" },
-    { "id": "get",     "display": "get",     "boxes": ["g","e","t"],              "heart": [0],   "heartKind": "irregular", "sentence": "En get äter gräs på gården.",             "sentenceNoun": "goat",       "nounForm": "get",         "imageDir": "farm animals",     "imageFile": "goat",       "shelf": "sh3", "note": "g före e låter som j" },
-    { "id": "kyckling","display": "kyckling","boxes": ["k","y","ck","l","i","ng"],"heart": [0],   "heartKind": "irregular", "sentence": "En liten kyckling pickar på marken.",     "sentenceNoun": "chick",      "nounForm": "kyckling",    "imageDir": "farm animals",     "imageFile": "chick",      "shelf": "sh3", "note": "k före y låter som tje-ljudet" },
-
-    { "id": "hjarta",  "display": "hjärta",  "boxes": ["hj","ä","rt","a"],        "heart": [0,2], "heartKind": "irregular", "sentence": "Jag ritar ett rött hjärta.",              "sentenceNoun": "heart",      "nounForm": "hjärta",      "imageDir": "shapes",           "imageFile": "heart",      "shelf": "sh4", "note": "h:et hörs inte i hj, och rt blir ett enda ljud" },
-    { "id": "hjul",    "display": "hjul",    "boxes": ["hj","u","l"],             "heart": [0],   "heartKind": "irregular", "sentence": "Min cykel har två hjul.",                 "sentenceNoun": "bicycle",    "nounForm": "cykel",       "imageDir": "toys",             "imageFile": "bicycle",    "shelf": "sh4", "note": "h:et hörs inte — hj låter som j" },
-    { "id": "hjort",   "display": "hjort",   "boxes": ["hj","o","rt"],            "heart": [0,2], "heartKind": "irregular", "sentence": "En hjort springer bland träden.",         "sentenceNoun": "deer",       "nounForm": "hjort",       "imageDir": "forest creatures", "imageFile": "deer",       "shelf": "sh4", "note": "h:et hörs inte, och rt blir ett enda ljud" },
-    { "id": "ljus",    "display": "ljus",    "boxes": ["lj","u","s"],             "heart": [0],   "heartKind": "irregular", "sentence": "Vi tänder ett ljus på bordet.",           "sentenceNoun": "table",      "nounForm": "bordet",      "imageDir": "around the house", "imageFile": "table",      "shelf": "sh4", "note": "l:et hörs inte — lj låter som j" },
-    { "id": "djur",    "display": "djur",    "boxes": ["dj","u","r"],             "heart": [0],   "heartKind": "irregular", "sentence": "En räv är ett vilt djur.",                "sentenceNoun": "fox",        "nounForm": "räv",         "imageDir": "forest creatures", "imageFile": "fox",        "shelf": "sh4", "note": "d:et hörs inte — dj låter som j" },
-    { "id": "bjorn",   "display": "björn",   "boxes": ["b","j","ö","rn"],         "heart": [3],   "heartKind": "irregular", "sentence": "En björn sover hela vintern.",            "sentenceNoun": "bear",       "nounForm": "björn",       "imageDir": "forest creatures", "imageFile": "bear",       "shelf": "sh4", "note": "rn smälter ihop till ett enda ljud" },
-    { "id": "bord",    "display": "bord",    "boxes": ["b","o","rd"],             "heart": [2],   "heartKind": "irregular", "sentence": "Vi dukar vårt bord till middag.",         "sentenceNoun": "table",      "nounForm": "bord",        "imageDir": "furniture",        "imageFile": "table",      "shelf": "sh4", "note": "rd smälter ihop till ett enda ljud" },
-    { "id": "karta",   "display": "karta",   "boxes": ["k","a","rt","a"],         "heart": [2],   "heartKind": "irregular", "sentence": "Vi tittar på en stor karta.",             "sentenceNoun": "map",        "nounForm": "karta",       "imageDir": "classroom",        "imageFile": "map",        "shelf": "sh4", "note": "rt smälter ihop till ett enda ljud" },
-    { "id": "kort",    "display": "kort",    "boxes": ["k","o","rt"],             "heart": [2],   "heartKind": "irregular", "sentence": "Vi spelar med våra kort.",                "sentenceNoun": "cards",      "nounForm": "kort",        "imageDir": "toys",             "imageFile": "cards",      "shelf": "sh4", "note": "rt smälter ihop till ett enda ljud, som i karta" },
-    { "id": "mars",    "display": "mars",    "boxes": ["m","a","rs"],             "heart": [2],   "heartKind": "irregular", "sentence": "I mars börjar solen värma.",              "sentenceNoun": "sun",        "nounForm": "solen",       "imageDir": "weather",          "imageFile": "sun",        "shelf": "sh4", "note": "rs smälter ihop till ett enda ljud" }
+    {
+      "id": "och",
+      "display": "och",
+      "boxes": [
+        "o",
+        "c"
+      ],
+      "silentTail": "h",
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "c:et låter som k, och h:et sist är alldeles tyst",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "c is not a letter Swedish spells with on its own; here it carries the k sound while the h beside it carries none",
+      "sentence": "Jag ritar en katt och en hund.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "jag",
+      "display": "jag",
+      "boxes": [
+        "j",
+        "a",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "g:et sist hörs inte — vi säger ja",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a spoken sound in tjugo; at the end of this one small word it disappears",
+      "sentence": "Jag går till skolan varje dag.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "det",
+      "display": "det",
+      "boxes": [
+        "d",
+        "e",
+        "t"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "t:et hörs inte — vi säger de",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "t speaks at the end of text and taxi; in this word it is written and never said",
+      "sentence": "Det regnar ute idag.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "de",
+      "display": "de",
+      "boxes": [
+        "d",
+        "e"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "e:et gör jobbet för hela slutet — vi säger dom",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "one lone e standing in for the whole spoken ending dom, which no rule predicts",
+      "sentence": "De leker ute på gården.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "dem",
+      "display": "dem",
+      "boxes": [
+        "d",
+        "e",
+        "m"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "e:et låter som å — vi säger dom",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "e says its own sound everywhere else the child has met it; here it says å",
+      "sentence": "Jag ser dem borta vid grinden.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "ar",
+      "display": "är",
+      "boxes": [
+        "ä",
+        "r"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "silent",
+      "note": "r:et hörs nästan aldrig — vi säger ä",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "r is a clear sound in djur and tjur; in this word it is written and hardly ever said",
+      "sentence": "Min lillebror är fyra år.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "mig",
+      "display": "mig",
+      "boxes": [
+        "m",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g:et låter som j — vi säger mej",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g takes the j sound in this small family only, and nothing in the spelling shows it",
+      "sentence": "Kan du vänta på mig?",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "dig",
+      "display": "dig",
+      "boxes": [
+        "d",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g:et låter som j — vi säger dej",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the same j-sounding g as in mig, and just as invisible",
+      "sentence": "Jag ser dig bakom trädet.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "sig",
+      "display": "sig",
+      "boxes": [
+        "s",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g:et låter som j — vi säger sej",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the third word in the mig, dig, sig family where g says j",
+      "sentence": "Musen gömmer sig under bordet.",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "vad",
+      "display": "vad",
+      "boxes": [
+        "v",
+        "a",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "d:et hörs oftast inte — vi säger va",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a spoken sound in modig and ljud; here it is written and left unsaid",
+      "sentence": "Vad ritar du nu?",
+      "noImage": true,
+      "shelf": "fk-forsta"
+    },
+    {
+      "id": "mycket",
+      "display": "mycket",
+      "boxes": [
+        "m",
+        "y",
+        "ck",
+        "e",
+        "t"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "t:et sist hörs inte — vi säger mycke",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "t is said at the end of text and kort; at the end of this word it is silent",
+      "sentence": "Vi lekte mycket ute igår.",
+      "noImage": true,
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "sedan",
+      "display": "sedan",
+      "boxes": [
+        "s",
+        "e",
+        "d",
+        "a",
+        "n"
+      ],
+      "heart": [
+        2,
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d och a hörs inte — vi säger sen",
+      "noteFocus": [
+        2,
+        3
+      ],
+      "heartOverride": "two letters in the middle that fall away together; neither is predictable from the code",
+      "sentence": "Först äter vi och sedan går vi ut.",
+      "noImage": true,
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "sadan",
+      "display": "sådan",
+      "boxes": [
+        "s",
+        "å",
+        "d",
+        "a",
+        "n"
+      ],
+      "heart": [
+        2,
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d och a hörs inte — vi säger sån",
+      "noteFocus": [
+        2,
+        3
+      ],
+      "heartOverride": "the same pair of vanishing middle letters as in sedan",
+      "sentence": "Jag vill ha en sådan också.",
+      "noImage": true,
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "nagot",
+      "display": "något",
+      "boxes": [
+        "n",
+        "å",
+        "g",
+        "o",
+        "t"
+      ],
+      "heart": [
+        2,
+        3
+      ],
+      "heartKind": "silent",
+      "note": "g och o hörs inte — vi säger nåt",
+      "noteFocus": [
+        2,
+        3
+      ],
+      "heartOverride": "a consonant and a vowel that drop out together in the middle of the word",
+      "sentence": "Har du något i fickan?",
+      "noImage": true,
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "nagon",
+      "display": "någon",
+      "boxes": [
+        "n",
+        "å",
+        "g",
+        "o",
+        "n"
+      ],
+      "heart": [
+        2,
+        3
+      ],
+      "heartKind": "silent",
+      "note": "g och o hörs inte — vi säger nån",
+      "noteFocus": [
+        2,
+        3
+      ],
+      "heartOverride": "the same silent middle pair as in något",
+      "sentence": "Har någon sett min mössa?",
+      "noImage": true,
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "morgon",
+      "display": "morgon",
+      "boxes": [
+        "m",
+        "o",
+        "r",
+        "g",
+        "o",
+        "n"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "g:et hörs inte — vi säger morron",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "g is said in tjugo; buried between two o letters here it makes no sound",
+      "sentence": "Varje morgon dricker jag mjölk.",
+      "sentenceNoun": "milk",
+      "nounForm": "mjölk",
+      "imageDir": "breakfast",
+      "imageFile": "milk",
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "sade",
+      "display": "sade",
+      "boxes": [
+        "s",
+        "a",
+        "d",
+        "e"
+      ],
+      "heart": [
+        2,
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d och e hörs inte — vi säger sa",
+      "noteFocus": [
+        2,
+        3
+      ],
+      "heartOverride": "the whole written ending falls away and only the first sound is left",
+      "sentence": "Hej, sade den lilla fågeln.",
+      "sentenceNoun": "bird",
+      "nounForm": "fågeln",
+      "imageDir": "spring",
+      "imageFile": "bird",
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "sager",
+      "display": "säger",
+      "boxes": [
+        "s",
+        "ä",
+        "g",
+        "e",
+        "r"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g:et låter som j — vi säger säjer",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g turns into a j sound in front of e, and the spelling never shows it",
+      "sentence": "Klockan säger tick tack.",
+      "sentenceNoun": "clock",
+      "nounForm": "Klockan",
+      "imageDir": "around the house",
+      "imageFile": "clock",
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "med",
+      "display": "med",
+      "boxes": [
+        "m",
+        "e",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "d:et hörs oftast inte — vi säger me",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the same unsaid final d as in vad",
+      "sentence": "Kom med ut och lek!",
+      "noImage": true,
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "ledsen",
+      "display": "ledsen",
+      "boxes": [
+        "l",
+        "e",
+        "d",
+        "s",
+        "e",
+        "n"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "d:et hörs inte — vi säger lessen",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d speaks in modig and ljud; squeezed between e and s here it is silent",
+      "sentence": "Min nallebjörn ser ledsen ut.",
+      "sentenceNoun": "teddy-bear",
+      "nounForm": "nallebjörn",
+      "imageDir": "toys",
+      "imageFile": "teddy_bear",
+      "shelf": "ak1-kortare"
+    },
+    {
+      "id": "hjarta",
+      "display": "hjärta",
+      "boxes": [
+        "hj",
+        "ä",
+        "rt",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h:et i hj hörs inte — hj låter som j",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag ritar ett rött hjärta.",
+      "sentenceNoun": "heart",
+      "nounForm": "hjärta",
+      "imageDir": "shapes",
+      "imageFile": "heart",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "hjul",
+      "display": "hjul",
+      "boxes": [
+        "hj",
+        "u",
+        "l"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h:et i hj är tyst",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Min cykel har två hjul.",
+      "sentenceNoun": "bicycle",
+      "nounForm": "cykel",
+      "imageDir": "toys",
+      "imageFile": "bicycle",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "hjort",
+      "display": "hjort",
+      "boxes": [
+        "hj",
+        "o",
+        "rt"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h:et i hj är tyst — rt är ett helt vanligt ljud",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "En hjort står stilla bland träden.",
+      "sentenceNoun": "deer",
+      "nounForm": "hjort",
+      "imageDir": "forest creatures",
+      "imageFile": "deer",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "hjalm",
+      "display": "hjälm",
+      "boxes": [
+        "hj",
+        "ä",
+        "l",
+        "m"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h:et i hj hörs inte",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag har en blå hjälm på min cykel.",
+      "sentenceNoun": "bicycle",
+      "nounForm": "cykel",
+      "imageDir": "toys",
+      "imageFile": "bicycle",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "hjalp",
+      "display": "hjälp",
+      "boxes": [
+        "hj",
+        "ä",
+        "l",
+        "p"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h:et i hj är tyst, precis som i hjul",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag behöver hjälp med min sko.",
+      "sentenceNoun": "shoe",
+      "nounForm": "sko",
+      "imageDir": "clothing",
+      "imageFile": "shoe",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "ljus",
+      "display": "ljus",
+      "boxes": [
+        "lj",
+        "u",
+        "s"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "l:et i lj hörs inte — lj låter som j",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vi tänder ett ljus på bordet.",
+      "sentenceNoun": "candle",
+      "nounForm": "ljus",
+      "imageDir": "christmas",
+      "imageFile": "candle",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "ljud",
+      "display": "ljud",
+      "boxes": [
+        "lj",
+        "u",
+        "d"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "l:et i lj är tyst",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Trumman gör ett högt ljud.",
+      "sentenceNoun": "drum",
+      "nounForm": "Trumman",
+      "imageDir": "music",
+      "imageFile": "drum",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "djur",
+      "display": "djur",
+      "boxes": [
+        "dj",
+        "u",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "d:et i dj hörs inte — dj låter som j",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "En räv är ett vilt djur.",
+      "sentenceNoun": "fox",
+      "nounForm": "räv",
+      "imageDir": "forest creatures",
+      "imageFile": "fox",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "djup",
+      "display": "djup",
+      "boxes": [
+        "dj",
+        "u",
+        "p"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "d:et i dj är tyst",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Sjön är djup och kall.",
+      "sentenceNoun": "lake",
+      "nounForm": "Sjön",
+      "imageDir": "camping",
+      "imageFile": "lake",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "gjorde",
+      "display": "gjorde",
+      "boxes": [
+        "gj",
+        "o",
+        "rd",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "g:et i gj hörs inte — gj låter som j",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vi gjorde en robot i skolan.",
+      "sentenceNoun": "robot",
+      "nounForm": "robot",
+      "imageDir": "toys",
+      "imageFile": "robot",
+      "shelf": "ak1-tyst-forst"
+    },
+    {
+      "id": "sax",
+      "display": "sax",
+      "boxes": [
+        "s",
+        "a",
+        "x"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x är en bokstav som säger två ljud, k och s",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "Klipp pappret med en sax.",
+      "sentenceNoun": "scissors",
+      "nounForm": "sax",
+      "imageDir": "classroom",
+      "imageFile": "scissors",
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "lax",
+      "display": "lax",
+      "boxes": [
+        "l",
+        "a",
+        "x"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s efter varandra",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "En lax är en stor fisk.",
+      "sentenceNoun": "fish",
+      "nounForm": "fisk",
+      "imageDir": "animals",
+      "imageFile": "fish",
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "sex",
+      "display": "sex",
+      "boxes": [
+        "s",
+        "e",
+        "x"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s, fast det bara står en bokstav",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "Jag har sex äpplen i korgen.",
+      "sentenceNoun": "apple",
+      "nounForm": "äpplen",
+      "imageDir": "fruits",
+      "imageFile": "apple",
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "sexton",
+      "display": "sexton",
+      "boxes": [
+        "s",
+        "e",
+        "x",
+        "t",
+        "o",
+        "n"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s mitt inne i ordet",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "Vi är sexton barn i klassen.",
+      "noImage": true,
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "haxa",
+      "display": "häxa",
+      "boxes": [
+        "h",
+        "ä",
+        "x",
+        "a"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "I sagan flyger en häxa över taken.",
+      "noImage": true,
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "yxa",
+      "display": "yxa",
+      "boxes": [
+        "y",
+        "x",
+        "a"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Farfar hugger ved med en yxa.",
+      "noImage": true,
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "vaxa",
+      "display": "växa",
+      "boxes": [
+        "v",
+        "ä",
+        "x",
+        "a"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "En liten blomma börjar växa.",
+      "sentenceNoun": "flower",
+      "nounForm": "blomma",
+      "imageDir": "spring",
+      "imageFile": "flower",
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "text",
+      "display": "text",
+      "boxes": [
+        "t",
+        "e",
+        "x",
+        "t"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "Vi läser en kort text tillsammans.",
+      "noImage": true,
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "taxi",
+      "display": "taxi",
+      "boxes": [
+        "t",
+        "a",
+        "x",
+        "i"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "En gul taxi stannar vid huset.",
+      "sentenceNoun": "taxi",
+      "nounForm": "taxi",
+      "imageDir": "vehicles",
+      "imageFile": "taxi",
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "extra",
+      "display": "extra",
+      "boxes": [
+        "e",
+        "x",
+        "t",
+        "r",
+        "a"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "x säger k och s redan i början av ordet",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Jag fick en extra kaka.",
+      "noImage": true,
+      "shelf": "ak1-x"
+    },
+    {
+      "id": "sju",
+      "display": "sju",
+      "boxes": [
+        "sj",
+        "u"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet, varken s eller j",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag räknar sju ankor vid dammen.",
+      "sentenceNoun": "duck",
+      "nounForm": "ankor",
+      "imageDir": "farm animals",
+      "imageFile": "duck",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjo",
+      "display": "sjö",
+      "boxes": [
+        "sj",
+        "ö"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "En svan simmar i vår sjö.",
+      "sentenceNoun": "swan",
+      "nounForm": "svan",
+      "imageDir": "animals",
+      "imageFile": "swan",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjuk",
+      "display": "sjuk",
+      "boxes": [
+        "sj",
+        "u",
+        "k"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Min hund är sjuk idag.",
+      "sentenceNoun": "dog",
+      "nounForm": "hund",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjunga",
+      "display": "sjunga",
+      "boxes": [
+        "sj",
+        "u",
+        "ng",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet — ng är helt vanligt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vi kan sjunga och spela gitarr.",
+      "sentenceNoun": "guitar",
+      "nounForm": "gitarr",
+      "imageDir": "music",
+      "imageFile": "guitar",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjunka",
+      "display": "sjunka",
+      "boxes": [
+        "sj",
+        "u",
+        "n",
+        "k",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Båten kan sjunka om den blir full.",
+      "sentenceNoun": "boat",
+      "nounForm": "Båten",
+      "imageDir": "toys",
+      "imageFile": "boat",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjalv",
+      "display": "själv",
+      "boxes": [
+        "sj",
+        "ä",
+        "l",
+        "v"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag knyter skorna själv.",
+      "noImage": true,
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjal",
+      "display": "sjal",
+      "boxes": [
+        "sj",
+        "a",
+        "l"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Farmor stickade en varm sjal.",
+      "noImage": true,
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "sjatte",
+      "display": "sjätte",
+      "boxes": [
+        "sj",
+        "ä",
+        "tt",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "sj är sje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Idag är det min sjätte dag i skolan.",
+      "noImage": true,
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "skjorta",
+      "display": "skjorta",
+      "boxes": [
+        "skj",
+        "o",
+        "rt",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "skj är också sje-ljudet — tre bokstäver, ett ljud",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag har en blå skjorta idag.",
+      "sentenceNoun": "shirt",
+      "nounForm": "skjorta",
+      "imageDir": "clothing",
+      "imageFile": "shirt",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "stjarna",
+      "display": "stjärna",
+      "boxes": [
+        "stj",
+        "ä",
+        "rn",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "stj är också sje-ljudet — tre bokstäver, ett ljud",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag ser en stjärna på himlen.",
+      "sentenceNoun": "star",
+      "nounForm": "stjärna",
+      "imageDir": "shapes",
+      "imageFile": "star",
+      "shelf": "ak1-sje"
+    },
+    {
+      "id": "kjol",
+      "display": "kjol",
+      "boxes": [
+        "kj",
+        "o",
+        "l"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "kj är tje-ljudet, varken k eller j",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hon har en röd kjol idag.",
+      "sentenceNoun": "skirt",
+      "nounForm": "kjol",
+      "imageDir": "clothing",
+      "imageFile": "skirt",
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjej",
+      "display": "tjej",
+      "boxes": [
+        "tj",
+        "e",
+        "j"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "En tjej i min klass heter Vera.",
+      "noImage": true,
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjugo",
+      "display": "tjugo",
+      "boxes": [
+        "tj",
+        "u",
+        "g",
+        "o"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet — g:et här hörs som vanligt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vi målar med tjugo kritor.",
+      "sentenceNoun": "crayons",
+      "nounForm": "kritor",
+      "imageDir": "toys",
+      "imageFile": "crayons",
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjur",
+      "display": "tjur",
+      "boxes": [
+        "tj",
+        "u",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "En stor tjur står i hagen.",
+      "sentenceNoun": "bull",
+      "nounForm": "tjur",
+      "imageDir": "farm animals",
+      "imageFile": "bull",
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjuv",
+      "display": "tjuv",
+      "boxes": [
+        "tj",
+        "u",
+        "v"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "I sagan smyger en tjuv genom skogen.",
+      "noImage": true,
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjuta",
+      "display": "tjuta",
+      "boxes": [
+        "tj",
+        "u",
+        "t",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vargen börjar tjuta mot månen.",
+      "sentenceNoun": "wolf",
+      "nounForm": "Vargen",
+      "imageDir": "forest creatures",
+      "imageFile": "wolf",
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjura",
+      "display": "tjura",
+      "boxes": [
+        "tj",
+        "u",
+        "r",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Det hjälper inte att tjura.",
+      "noImage": true,
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjock",
+      "display": "tjock",
+      "boxes": [
+        "tj",
+        "o",
+        "ck"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet — ck är helt vanligt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jag läser en tjock bok.",
+      "sentenceNoun": "book",
+      "nounForm": "bok",
+      "imageDir": "classroom",
+      "imageFile": "book",
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjana",
+      "display": "tjäna",
+      "boxes": [
+        "tj",
+        "ä",
+        "n",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Min syster vill tjäna pengar på lördag.",
+      "noImage": true,
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "tjata",
+      "display": "tjata",
+      "boxes": [
+        "tj",
+        "a",
+        "t",
+        "a"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "tj är tje-ljudet",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Du behöver inte tjata på mig.",
+      "noImage": true,
+      "shelf": "ak2-tje"
+    },
+    {
+      "id": "bord",
+      "display": "bord",
+      "boxes": [
+        "b",
+        "o",
+        "rd"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "r och d smälter ihop till ett enda ljud",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Vi dukar vårt bord till middag.",
+      "sentenceNoun": "table",
+      "nounForm": "bord",
+      "imageDir": "furniture",
+      "imageFile": "table",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "jord",
+      "display": "jord",
+      "boxes": [
+        "j",
+        "o",
+        "rd"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "rd blir ett enda ljud, precis som i bord",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Vi planterar en blomma i mjuk jord.",
+      "sentenceNoun": "flower",
+      "nounForm": "blomma",
+      "imageDir": "spring",
+      "imageFile": "flower",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "svart",
+      "display": "svart",
+      "boxes": [
+        "s",
+        "v",
+        "a",
+        "rt"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "irregular",
+      "note": "r och t smälter ihop till ett enda ljud",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Vår katt är svart och vit.",
+      "sentenceNoun": "cat",
+      "nounForm": "katt",
+      "imageDir": "pets",
+      "imageFile": "cat",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "kort",
+      "display": "kort",
+      "boxes": [
+        "k",
+        "o",
+        "rt"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "rt blir ett enda ljud",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Vi spelar med våra kort.",
+      "sentenceNoun": "cards",
+      "nounForm": "kort",
+      "imageDir": "toys",
+      "imageFile": "cards",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "karta",
+      "display": "karta",
+      "boxes": [
+        "k",
+        "a",
+        "rt",
+        "a"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "rt blir ett enda ljud mitt inne i ordet",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Vi tittar på en stor karta.",
+      "sentenceNoun": "map",
+      "nounForm": "karta",
+      "imageDir": "classroom",
+      "imageFile": "map",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "barn",
+      "display": "barn",
+      "boxes": [
+        "b",
+        "a",
+        "rn"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "r och n smälter ihop till ett enda ljud",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Alla barn ritar med kritor.",
+      "sentenceNoun": "crayons",
+      "nounForm": "kritor",
+      "imageDir": "toys",
+      "imageFile": "crayons",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "bjorn",
+      "display": "björn",
+      "boxes": [
+        "b",
+        "j",
+        "ö",
+        "rn"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "irregular",
+      "note": "rn blir ett enda ljud",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "En björn sover hela vintern.",
+      "sentenceNoun": "bear",
+      "nounForm": "björn",
+      "imageDir": "forest creatures",
+      "imageFile": "bear",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "horn",
+      "display": "horn",
+      "boxes": [
+        "h",
+        "o",
+        "rn"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "rn blir ett enda ljud, som i björn",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Geten har två horn.",
+      "sentenceNoun": "goat",
+      "nounForm": "Geten",
+      "imageDir": "farm animals",
+      "imageFile": "goat",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "mars",
+      "display": "mars",
+      "boxes": [
+        "m",
+        "a",
+        "rs"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "r och s smälter ihop till ett enda ljud",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "I mars börjar solen värma.",
+      "sentenceNoun": "sun",
+      "nounForm": "solen",
+      "imageDir": "weather",
+      "imageFile": "sun",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "parla",
+      "display": "pärla",
+      "boxes": [
+        "p",
+        "ä",
+        "rl",
+        "a"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "r och l smälter ihop till ett enda ljud",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "the r and the letter after it melt into one single sound the child cannot pull apart, and the two written letters show nothing of it",
+      "sentence": "Jag trädde en pärla på mitt halsband.",
+      "sentenceNoun": "necklace",
+      "nounForm": "halsband",
+      "imageDir": "accessories",
+      "imageFile": "necklace",
+      "shelf": "ak2-r-smalter"
+    },
+    {
+      "id": "rolig",
+      "display": "rolig",
+      "boxes": [
+        "r",
+        "o",
+        "l",
+        "i",
+        "g"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "g:et sist hörs inte — vi säger roli",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Min farfar är en rolig gubbe.",
+      "noImage": true,
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "trakig",
+      "display": "tråkig",
+      "boxes": [
+        "t",
+        "r",
+        "å",
+        "k",
+        "i",
+        "g"
+      ],
+      "heart": [
+        5
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte",
+      "noteFocus": [
+        5
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Filmen var lång och tråkig.",
+      "noImage": true,
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "fardig",
+      "display": "färdig",
+      "boxes": [
+        "f",
+        "ä",
+        "rd",
+        "i",
+        "g"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte — rd är ett vanligt ljud",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Nu är min teckning färdig!",
+      "noImage": true,
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "hungrig",
+      "display": "hungrig",
+      "boxes": [
+        "h",
+        "u",
+        "ng",
+        "r",
+        "i",
+        "g"
+      ],
+      "heart": [
+        5
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte",
+      "noteFocus": [
+        5
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Jag är hungrig och vill ha bröd.",
+      "sentenceNoun": "bread",
+      "nounForm": "bröd",
+      "imageDir": "At the Supermarket",
+      "imageFile": "bread",
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "tokig",
+      "display": "tokig",
+      "boxes": [
+        "t",
+        "o",
+        "k",
+        "i",
+        "g"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Min katt är tokig i fisk.",
+      "sentenceNoun": "fish",
+      "nounForm": "fisk",
+      "imageDir": "animals",
+      "imageFile": "fish",
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "harlig",
+      "display": "härlig",
+      "boxes": [
+        "h",
+        "ä",
+        "rl",
+        "i",
+        "g"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte — rl är ett vanligt ljud",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Det är en härlig dag i solen.",
+      "sentenceNoun": "sun",
+      "nounForm": "solen",
+      "imageDir": "weather",
+      "imageFile": "sun",
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "lycklig",
+      "display": "lycklig",
+      "boxes": [
+        "l",
+        "y",
+        "ck",
+        "l",
+        "i",
+        "g"
+      ],
+      "heart": [
+        5
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte",
+      "noteFocus": [
+        5
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Jag blev lycklig av presenten.",
+      "noImage": true,
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "dalig",
+      "display": "dålig",
+      "boxes": [
+        "d",
+        "å",
+        "l",
+        "i",
+        "g"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Min gamla cykel är dålig.",
+      "noImage": true,
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "modig",
+      "display": "modig",
+      "boxes": [
+        "m",
+        "o",
+        "d",
+        "i",
+        "g"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Musen är liten men modig.",
+      "sentenceNoun": "mouse",
+      "nounForm": "Musen",
+      "imageDir": "pets",
+      "imageFile": "mouse",
+      "shelf": "ak2-ig"
+    },
+    {
+      "id": "aldrig",
+      "display": "aldrig",
+      "boxes": [
+        "a",
+        "l",
+        "d",
+        "r",
+        "i",
+        "g"
+      ],
+      "heart": [
+        5
+      ],
+      "heartKind": "silent",
+      "note": "sista g:et hörs inte — vi säger aldri",
+      "noteFocus": [
+        5
+      ],
+      "heartOverride": "the ending -ig is written with a g that is never said, while the very same letter says j in mig and dig",
+      "sentence": "Vi glömmer aldrig den dagen.",
+      "noImage": true,
+      "shelf": "ak2-ig"
+    }
   ]
 }

@@ -630,6 +630,11 @@ var HeartWords = {
     if (!display || display.length > this.MAX_LETTERS) return null;
     if (!Array.isArray(raw.boxes) || raw.boxes.length < 2 || raw.boxes.length > this.MAX_BOXES) return null;
     var boxes = raw.boxes.map(function (b) { return String(b).toLowerCase().replace(/[^\p{L}]/gu, ''); });
+    /* ⚠ An EMPTY box after stripping. `["c","a","4","t"]` strips to
+       `["c","a","","t"]`, which still joins to "cat" and still equals a
+       display of "cat" — so the reassembly check alone passes it and the
+       apparatus renders a blank tile the child is asked to map. */
+    for (var b = 0; b < boxes.length; b++) if (!boxes[b]) return null;
     if (boxes.join('') !== display) return null;
     var heart = Array.isArray(raw.heart) ? raw.heart.filter(function (i) {
       return Number.isInteger(i) && i >= 0 && i < boxes.length;
@@ -834,7 +839,12 @@ var HeartWords = {
     this._celebrated = null;
     api.stage.innerHTML = '';
 
-    var wrap = api.el('div', 'hw-wrap hw-s-' + this.surface);
+    /* ⚠ the literal 'hw-wrap' stays a bare literal: the shared liveness
+       gate derives a tool's class prefix by matching
+       api.el('div','<pfx>-wrap'), and concatenating the surface class into
+       the same argument makes it unable to resolve heart-words at all. */
+    var wrap = api.el('div', 'hw-wrap');
+    wrap.classList.add('hw-s-' + this.surface);
     this._wrap = wrap;
 
     if (!this.bank) {
@@ -1281,15 +1291,33 @@ var HeartWords = {
     var desk = api.el('div', 'hw-desk');
 
     var head = api.el('div', 'hw-desk-head');
+    /* A real tablist. ⚠ The SELECTED tab is `disabled` and carries
+       aria-selected, deliberately: a tab you are already on has nowhere to
+       go, and leaving it clickable makes it a control whose click produces
+       an identical DOM — precisely the consequence-free control the shared
+       liveness gate scores as DEAD, and it scored this one dead three times
+       over. The choice was to manufacture an effect for it or to stop
+       presenting it as actionable; the second is the honest one, and it is
+       also what a screen reader should hear. */
     var tabs = api.el('div', 'hw-tabs');
+    tabs.setAttribute('role', 'tablist');
     var defs = [['words', 'deskWords'], ['mine', 'deskMine'], ['print', 'deskPrint']];
     for (var i = 0; i < defs.length; i++) {
       (function (key, lbl) {
-        var t = api.el('button', 'hw-tab' + (self.deskTab === key ? ' hw-tab-on' : ''));
+        var on = self.deskTab === key;
+        var t = api.el('button', 'hw-tab' + (on ? ' hw-tab-on' : ''));
         t.type = 'button';
         t.textContent = api.t(lbl);
-        t.setAttribute('aria-pressed', self.deskTab === key ? 'true' : 'false');
-        t.addEventListener('click', function () { self.deskTab = key; self.notice = null; self.render(); });
+        t.setAttribute('role', 'tab');
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+        if (on) { t.disabled = true; return void tabs.appendChild(t); }
+        t.addEventListener('click', function () {
+          /* leaving a tab drops that tab's transient view state, so
+             returning to it is a clean surface rather than a stale one */
+          self.deskTab = key; self.notice = null;
+          self.query = ''; self.openShelf = null; self.selected = null;
+          self.render();
+        });
         tabs.appendChild(t);
       })(defs[i][0], defs[i][1]);
     }
@@ -1637,8 +1665,10 @@ var HeartWords = {
 
     /* the reassembly, shown plainly. No error text, no red field, no icon —
        the teacher sees the parts and fixes them. The adult side of the same
-       no-verdict discipline the child's side runs on. */
-    if (d.boxes.join('') !== d.display) {
+       no-verdict discipline the child's side runs on.
+       ⚠ Through reassemble(), not boxes.join(''), so a split-digraph token
+       is handled by the one function that knows how. */
+    if (this.reassemble(d) !== d.display) {
       var bad = api.el('p', 'hw-reassemble');
       bad.textContent = d.boxes.join(' · ');
       prev.appendChild(bad);
@@ -2267,7 +2297,7 @@ function injectHeartWordsCSS() {
     + '.hw-tab{font:600 13px/1 var(--lcs-font-body,Nunito),system-ui,sans-serif;color:#3F6B62;'
     + 'background:#EEF4F2;border:1px solid #DCE6E2;border-radius:10px;padding:12px 14px;'
     + 'min-height:44px;cursor:pointer}'
-    + '.hw-tab-on{background:var(--hw-teal);border-color:var(--hw-teal);color:#FFFFFF}'
+    + '.hw-tab-on{background:var(--hw-teal);border-color:var(--hw-teal);color:#FFFFFF;cursor:default;opacity:1}'
     + '.hw-deskback{font:600 13px/1 var(--lcs-font-body,Nunito),system-ui,sans-serif;color:#3F6B62;'
     + 'background:none;border:1px solid #DCE6E2;border-radius:10px;padding:12px 14px;'
     + 'min-height:44px;cursor:pointer}'
@@ -2417,6 +2447,12 @@ function injectHeartWordsCSS() {
     + '@media print{'
     + '@page{size:A4 portrait;margin:12mm}'
     + '.hw-toprow,.hw-cardbed,.hw-nav,.hw-shelf,.hw-tools,.hw-siblings,.hw-desk,.hw-legend{display:none !important}'
+    /* the SHELL chrome has to come off the paper too — a printed flashcard
+       carrying the app header and the mute/fullscreen buttons is not a
+       flashcard. Scoped strictly to @media print; the tool restyles no
+       shell selector on screen. */
+    + '.lcs-header,.lcs-controls,.lcs-bar,.lcs-drawer,.lcs-drawer-scrim{display:none !important}'
+    + '.lcs-app,.lcs-stage{background:none !important;box-shadow:none !important;max-width:none !important}'
     + 'html,body{background:#fff !important}'
     + '.hw-printsheet{display:block !important;background:#fff !important}'
     + '.hw-printsheet,.hw-printsheet *{color:#000 !important}'

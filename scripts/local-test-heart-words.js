@@ -252,12 +252,21 @@ const tileWidthForBoxes = async (page, n) => {
 
     /* the seal must never touch the letter — asserted as geometry, at the
        real rendered size, not as a design intention */
+    /* ⚠ BOTH dimensions, and the seal's own TOP relative to its tile.
+       Measuring width alone let a mutation that shrank only the height
+       survive; measuring overlap alone let one that moved the seal DOWN
+       into the tile survive, because a 30%-inset seal can still miss a
+       narrow glyph's bbox. */
     const clash = await page.evaluate(() => {
       const hs = Array.from(document.querySelectorAll('.hw-face-map .hw-box .hw-heart'));
-      let worst = 0, minW = 1e9;
+      let worst = 0, minW = 1e9, minH = 1e9, maxInset = -1e9;
       for (const h of hs) {
         const hr = h.getBoundingClientRect();
         minW = Math.min(minW, hr.width);
+        minH = Math.min(minH, hr.height);
+        const tile = h.parentElement.getBoundingClientRect();
+        /* negative = the seal overhangs the tile's top edge, as designed */
+        maxInset = Math.max(maxInset, hr.top - tile.top);
         const g = h.parentElement.querySelector('.hw-glyph');
         if (!g) continue;
         const gr = g.getBoundingClientRect();
@@ -265,9 +274,12 @@ const tileWidthForBoxes = async (page, n) => {
         const oy = Math.min(hr.bottom, gr.bottom) - Math.max(hr.top, gr.top);
         if (ox > 0 && oy > 0) worst = Math.max(worst, Math.min(ox, oy));
       }
-      return { worst, minW: hs.length ? minW : -1 };
+      return { worst, minW: hs.length ? minW : -1, minH: hs.length ? minH : -1, maxInset };
     });
-    is(clash.minW >= 26, `the seal renders >=26px at 704 (${Math.round(clash.minW)}px) — it has to read from the back of the room`);
+    is(clash.minW >= 26 && clash.minH >= 26,
+      `the seal renders >=26px BOTH ways at 704 (${Math.round(clash.minW)}x${Math.round(clash.minH)}) — it has to read from the back of the room`);
+    is(clash.maxInset < 0,
+      `the seal OVERHANGS its tile (top is ${Math.round(clash.maxInset)}px inside) — that is what makes touching the glyph structurally impossible`);
     is(clash.worst === 0, `the seal never overlaps the letters (worst overlap ${Math.round(clash.worst)}px)`);
 
     if (SHOT) await page.screenshot({ path: path.join(SHOTDIR, 'heart-moment.png'), fullPage: true });
@@ -288,6 +300,20 @@ const tileWidthForBoxes = async (page, n) => {
   sec('E  the write face — the word goes away, the boxes stay');
   {
     const { page } = await boot(browser, '?lang=en&embed=1', 704, 860);
+    /* ⚠ Navigate to a word that HAS a tail first. The free shelf opens on
+       `the`, which has none — so an assertion about the write row's tail
+       ran against a row that had no tail to leak, and a mutation printing
+       the silent e on the write face survived. */
+    await page.evaluate(() => {
+      const T = window.HeartWords;
+      const list = T.wordsForShelf(T.shelfId);
+      const i = list.findIndex(w => T.tailText(w));
+      if (i >= 0) { T.index = i; T.mapped = {}; T.face = 'map'; T.render(); }
+    });
+    await wait(200);
+    const hasTail = await page.$$eval('.hw-face-map .hw-tail', n => n.length);
+    is(hasTail === 1, 'the write test runs on a word that HAS a silent tail — otherwise it proves nothing');
+
     const label = await page.evaluate(() => window.HeartWords.strings.writeIt.en);
     const clicked = await page.evaluate((lbl) => {
       const b = Array.from(document.querySelectorAll('.hw-flip')).find(x => x.textContent.trim() === lbl);
@@ -303,7 +329,11 @@ const tileWidthForBoxes = async (page, n) => {
         visible: !!wf && getComputedStyle(wf).opacity === '1',
         blanks: blanks.length,
         live: live.length,
-        text: blanks.map(b => b.textContent.trim()).join(''),
+        /* ⚠ the TAIL as well as the boxes. Asserting only the boxes let a
+           mutation that printed the silent e on the write face survive —
+           and on a split-digraph word the tail IS part of the answer. */
+        text: blanks.map(b => b.textContent.trim()).join('')
+              + Array.from(document.querySelectorAll('.hw-blankrow .hw-tail')).map(t => t.textContent.trim()).join(''),
         sameWidth: blanks.length && live.length
           ? Math.abs(blanks[0].getBoundingClientRect().width - live[0].getBoundingClientRect().width) < 2 : false
       };
@@ -450,6 +480,23 @@ const tileWidthForBoxes = async (page, n) => {
     is(shown.surface === 'board' && !!shown.display,
       `⭐ a FREE teacher sees their own word on their own board ("${shown.display}")`);
     is(shown.boxes >= 2, `and it renders as the real apparatus (${shown.boxes} boxes)`);
+
+    /* ...but a free PREVIEW is not a classroom record. Mapping it must not
+       write to the shelf, or an unsaved draft looks like kept content. */
+    const boxes2 = await page.$$('.hw-face-map .hw-box');
+    for (const b of boxes2) {
+      const r = await b.boundingBox();
+      await page.mouse.move(r.x + r.width / 2, r.y + r.height / 2);
+      await page.mouse.down(); await page.mouse.up();
+      await wait(90);
+    }
+    await wait(500);
+    const rec = await page.evaluate(() => ({
+      known: Object.keys(window.HeartWords._store.known || {}),
+      spines: document.querySelectorAll('.hw-spine').length
+    }));
+    is(rec.known.filter(k => k.indexOf('my:') === 0).length === 0,
+      `⭐ mapping a free PREVIEW writes nothing to the shelf (known: ${JSON.stringify(rec.known)}) — an unsaved draft must not look like kept content`);
     await page.close();
   }
 
@@ -543,6 +590,41 @@ const tileWidthForBoxes = async (page, n) => {
     is(m.heart, 'the seal is still stamped under reduced motion');
     is(m.opacity === '1', 'and it is fully visible — the meaning is not lost with the movement');
     is(m.anim !== 'hw-seal', `the spring is replaced (${m.anim})`);
+    await page.close();
+  }
+
+  /* ---------------------------------------------------------------
+     L — ⭐ the ?add= ingest path. A colleague's shared list is
+     UNTRUSTED INPUT and had no end-to-end gate at all: the model gate
+     tests _sanitiseCustom directly, so a mutation that simply stopped
+     CALLING it survived.
+     --------------------------------------------------------------- */
+  sec('L  ⭐ a shared list is re-validated on ingest, not trusted');
+  {
+    const payload = [
+      { display: 'shone', boxes: ['sh', 'o', 'n', 'e'], heart: [0], sentence: 'The lamp shone.' },
+      { display: 'evil', boxes: ['e', 'v', 'i'], heart: [0] },                    /* boxes do not spell it */
+      { display: 'bad', boxes: ['b', 'a', 'd'], heart: [0, 1, 2] },               /* fully hearted */
+      { display: 'x<img src=x onerror=alert(1)>', boxes: ['x'], heart: [0] }      /* injection */
+    ];
+    const q = '?lang=en&embed=1&add=' + encodeURIComponent(JSON.stringify(payload));
+    const { page } = await boot(browser, q, 1024, 900);
+    await wait(500);
+    const got = await page.evaluate(() => {
+      const T = window.HeartWords;
+      T.surface = 'desk'; T.deskTab = 'mine'; T.render();
+      return {
+        kept: (T._store.custom || []).map(w => w.display),
+        ids: (T._store.custom || []).map(w => w.id),
+        html: document.querySelector('.hw-desk').innerHTML
+      };
+    });
+    is(got.kept.length === 1 && got.kept[0] === 'shone',
+      `only the legitimate word survived ingest (kept: ${JSON.stringify(got.kept)})`);
+    is(got.ids.every(i => i.indexOf('my:') === 0),
+      `every ingested word is namespaced my: (${JSON.stringify(got.ids)}) — a ?word= link can never resolve into the curated set`);
+    is(got.html.indexOf('onerror') < 0 && got.html.indexOf('<img') < 0,
+      'the injection payload reached no markup');
     await page.close();
   }
 

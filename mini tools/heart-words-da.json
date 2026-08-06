@@ -1,57 +1,2403 @@
 {
   "locale": "da",
-  "version": 1,
+  "version": 2,
   "kind": "irregular",
-  "curation": "native-pass-1",
+  "curation": "native-da-v2",
+  "targetTotal": 100,
   "shelves": [
-    { "id": "sh1", "label": "Vores første ti", "free": true },
-    { "id": "sh2", "label": "Små ord vi møder hver dag", "free": false },
-    { "id": "sh3", "label": "Ord der driller", "free": false },
-    { "id": "sh4", "label": "Ord værd at kunne", "free": false }
+    {
+      "id": "k-forste",
+      "label": "Børnehaveklasse · De allerførste ord i bøgerne",
+      "band": "k",
+      "phase": 1,
+      "teachingPoint": "de små ord der står på alle sider, længe før et barn kan lyde dem — de læres som hele former, ikke som enkeltlyde",
+      "free": true
+    },
+    {
+      "id": "k-hv",
+      "label": "Børnehaveklasse · Når h foran v er tavs",
+      "band": "k",
+      "phase": 1,
+      "teachingPoint": "h i hv- skrives, men siges ikke — spørgeordene hører alle sammen til her",
+      "free": false
+    },
+    {
+      "id": "k-hj",
+      "label": "Børnehaveklasse · Når h foran j er tavs",
+      "band": "k",
+      "phase": 1,
+      "teachingPoint": "hj- lyder præcis som j — h står der kun for øjnene",
+      "free": false
+    },
+    {
+      "id": "g1-blodt-d",
+      "label": "1. klasse · Det bløde d til sidst",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "et d sidst i ordet siges ikke som d — det bliver til en blød lyd bagerst i munden",
+      "free": false
+    },
+    {
+      "id": "g1-stumt-d",
+      "label": "1. klasse · Det stumme d efter n og l",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "mellem n eller l og ordets slutning står et d, som slet ikke høres — det skal huskes af øjnene",
+      "free": false
+    },
+    {
+      "id": "g1-g",
+      "label": "1. klasse · Når g skifter lyd eller forsvinder",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "g siger j, u eller slet ingenting, når det ikke står forrest i ordet",
+      "free": false
+    },
+    {
+      "id": "g1-diftong",
+      "label": "1. klasse · To bogstaver, én lyd",
+      "band": "g1",
+      "phase": 2,
+      "teachingPoint": "ej, øj og av skal læses i ét hug — hvert par gemmer en j- eller u-lyd, som bogstaverne ikke har alene",
+      "free": false
+    },
+    {
+      "id": "g2-v",
+      "label": "2. klasse · Når v ikke siger v",
+      "band": "g2",
+      "phase": 3,
+      "teachingPoint": "sidst i ordet bliver v til en u-lyd, og efter l forsvinder det helt",
+      "free": false
+    },
+    {
+      "id": "g2-et",
+      "label": "2. klasse · Endelsen der ikke lyder, som den skrives",
+      "band": "g2",
+      "phase": 3,
+      "teachingPoint": "endelsen -et siges uden t og ender i en blød lyd — derfor skriver mange børn -ed i stedet",
+      "free": false
+    },
+    {
+      "id": "g2-lange",
+      "label": "2. klasse · Lange ord vi bruger hele tiden",
+      "band": "g2",
+      "phase": 3,
+      "teachingPoint": "ord vi møder overalt, men som taber bogstaver, når de siges — de skrives længere, end de lyder",
+      "free": false
+    }
   ],
   "words": [
-    { "id": "jeg",     "display": "jeg",     "boxes": ["j","e","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Jeg har en lille hund.",                  "sentenceNoun": "dog",        "nounForm": "hund",     "imageDir": "pets",             "imageFile": "dog",        "shelf": "sh1", "note": "e’et lyder som a, og g’et lyder som j" },
-    { "id": "det",     "display": "det",     "boxes": ["d","e"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Se, det er en stor bil!",                  "sentenceNoun": "car",        "nounForm": "bil",      "imageDir": "vehicles",         "imageFile": "car",        "silentTail": "t", "shelf": "sh1", "note": "e’et lyder langt, og t’et er helt stumt" },
-    { "id": "de",      "display": "de",      "boxes": ["d","e"],                  "heart": [1],   "heartKind": "irregular", "sentence": "De to katte sover.",                       "sentenceNoun": "cat",        "nounForm": "katte",    "imageDir": "pets",             "imageFile": "cat",        "shelf": "sh1", "note": "e’et lyder som i" },
-    { "id": "er",      "display": "er",      "boxes": ["e","r"],                  "heart": [0],   "heartKind": "irregular", "sentence": "Min bamse er blød og varm.",               "sentenceNoun": "teddy-bear", "nounForm": "bamse",    "imageDir": "toys",             "imageFile": "teddy_bear", "shelf": "sh1", "note": "e’et lyder som æ foran r" },
-    { "id": "ikke",    "display": "ikke",    "boxes": ["i","kk","e"],             "heart": [0,1], "heartKind": "irregular", "sentence": "Frøen kan ikke sidde stille.",             "sentenceNoun": "frog",       "nounForm": "Frøen",    "imageDir": "pets",             "imageFile": "frog",       "shelf": "sh1", "note": "i’et lyder som e, og kk lyder som g" },
-    { "id": "til",     "display": "til",     "boxes": ["t","i","l"],              "heart": [1],   "heartKind": "irregular", "sentence": "Vi går til bussen sammen.",                "sentenceNoun": "bus",        "nounForm": "bussen",   "imageDir": "vehicles",         "imageFile": "bus",        "shelf": "sh1", "note": "i’et lyder som e" },
-    { "id": "mig",     "display": "mig",     "boxes": ["m","i","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Vil du hjælpe mig med min cykel?",         "sentenceNoun": "bicycle",    "nounForm": "cykel",    "imageDir": "vehicles",         "imageFile": "bicycle",    "shelf": "sh1", "note": "i’et lyder som a, og g’et lyder som j" },
-    { "id": "dig",     "display": "dig",     "boxes": ["d","i","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Jeg har tegnet en sol til dig.",           "sentenceNoun": "sun",        "nounForm": "sol",      "imageDir": "weather",          "imageFile": "sun",        "shelf": "sh1", "note": "ligesom i mig — i lyder som a, g lyder som j" },
-    { "id": "hvad",    "display": "hvad",    "boxes": ["hv","a","d"],             "heart": [0],   "heartKind": "silent",    "sentence": "Hvad hedder din kanin?",                   "sentenceNoun": "rabbit",     "nounForm": "kanin",    "imageDir": "pets",             "imageFile": "rabbit",     "shelf": "sh1", "note": "man hører ikke h’et" },
-    { "id": "hvor",    "display": "hvor",    "boxes": ["hv","o","r"],             "heart": [0],   "heartKind": "silent",    "sentence": "Hvor er min sko?",                         "sentenceNoun": "shoe",       "nounForm": "sko",      "imageDir": "clothing",         "imageFile": "shoe",       "shelf": "sh1", "note": "h’et er stumt, ligesom i hvad" },
-
-    { "id": "at",      "display": "at",      "boxes": ["a","t"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Jeg kan godt lide at tegne en stjerne.",   "sentenceNoun": "star",       "nounForm": "stjerne",  "imageDir": "shapes",           "imageFile": "star",       "shelf": "sh2", "note": "t’et lyder som et d" },
-    { "id": "med",     "display": "med",     "boxes": ["m","e","d"],              "heart": [2],   "heartKind": "irregular", "sentence": "Jeg leger med min bold.",                  "sentenceNoun": "ball",       "nounForm": "bold",     "imageDir": "toys",             "imageFile": "ball",       "shelf": "sh2", "note": "d’et er blødt — det siger ikke d" },
-    { "id": "ved",     "display": "ved",     "boxes": ["v","e","d"],              "heart": [2],   "heartKind": "irregular", "sentence": "Jeg ved, hvor min hat er.",                "sentenceNoun": "hat",        "nounForm": "hat",      "imageDir": "clothing",         "imageFile": "hat",        "shelf": "sh2", "note": "blødt d til sidst, ligesom i med" },
-    { "id": "her",     "display": "her",     "boxes": ["h","e","r"],              "heart": [1],   "heartKind": "irregular", "sentence": "Her står min stol.",                       "sentenceNoun": "chair",      "nounForm": "stol",     "imageDir": "classroom",        "imageFile": "chair",      "shelf": "sh2", "note": "e’et lyder som æ foran r" },
-    { "id": "der",     "display": "der",     "boxes": ["d","e","r"],              "heart": [1],   "heartKind": "irregular", "sentence": "Der løber en ræv over vejen.",             "sentenceNoun": "fox",        "nounForm": "ræv",      "imageDir": "animals",          "imageFile": "fox",        "shelf": "sh2", "note": "e’et lyder som æ, ligesom i her" },
-    { "id": "hvem",    "display": "hvem",    "boxes": ["hv","e","m"],             "heart": [0],   "heartKind": "silent",    "sentence": "Hvem har tegnet den store fisk?",           "sentenceNoun": "fish",       "nounForm": "fisk",     "imageDir": "ocean life",       "imageFile": "fish",       "shelf": "sh2", "note": "endnu et ord, hvor h’et er stumt" },
-    { "id": "sig",     "display": "sig",     "boxes": ["s","i","g"],              "heart": [1,2], "heartKind": "irregular", "sentence": "Musen gemmer sig i græsset.",              "sentenceNoun": "mouse",      "nounForm": "Musen",    "imageDir": "pets",             "imageFile": "mouse",      "shelf": "sh2", "note": "i lyder som a, og g lyder som j" },
-    { "id": "hjem",    "display": "hjem",    "boxes": ["hj","e","m"],             "heart": [0],   "heartKind": "silent",    "sentence": "Nu går vi hjem med toget.",                "sentenceNoun": "train",      "nounForm": "toget",    "imageDir": "vehicles",         "imageFile": "train",      "shelf": "sh2", "note": "hj lyder bare som j — h’et er stumt" },
-    { "id": "nej",     "display": "nej",     "boxes": ["n","ej"],                 "heart": [1],   "heartKind": "irregular", "sentence": "Nej, den kage er ikke min!",               "sentenceNoun": "cake",       "nounForm": "kage",     "imageDir": "bakery",           "imageFile": "cake",       "shelf": "sh2", "note": "ej lyder som aj" },
-    { "id": "hej",     "display": "hej",     "boxes": ["h","ej"],                 "heart": [1],   "heartKind": "irregular", "sentence": "Hej, lille gris!",                         "sentenceNoun": "pig",        "nounForm": "gris",     "imageDir": "farm animals",     "imageFile": "pig",        "shelf": "sh2", "note": "ej lyder som aj, ligesom i nej" },
-
-    { "id": "hvis",    "display": "hvis",    "boxes": ["hv","i","s"],             "heart": [0],   "heartKind": "silent",    "sentence": "Hvis det regner, tager jeg min paraply.",  "sentenceNoun": "umbrella",   "nounForm": "paraply",  "imageDir": "weather",          "imageFile": "umbrella",   "shelf": "sh3", "note": "hv-familien — h’et siger ingenting" },
-    { "id": "hvordan", "display": "hvordan", "boxes": ["hv","o","r","d","a","n"], "heart": [0],   "heartKind": "silent",    "sentence": "Hvordan tegner man en trekant?",           "sentenceNoun": "triangle",   "nounForm": "trekant",  "imageDir": "shapes",           "imageFile": "triangle",   "shelf": "sh3", "note": "et langt hv-ord, men h’et er stadig stumt" },
-    { "id": "hver",    "display": "hver",    "boxes": ["hv","e","r"],             "heart": [0,1], "heartKind": "irregular", "sentence": "Hver morgen spiser jeg et æble.",          "sentenceNoun": "apple",      "nounForm": "æble",     "imageDir": "fruits",           "imageFile": "apple",      "shelf": "sh3", "note": "h’et er stumt, og e’et lyder som æ" },
-    { "id": "have",    "display": "have",    "boxes": ["h","a","v","e"],          "heart": [1],   "heartKind": "irregular", "sentence": "Må jeg have en bolle mere?",               "sentenceNoun": "bun",        "nounForm": "bolle",    "imageDir": "bakery",           "imageFile": "bun",        "shelf": "sh3", "note": "a’et lyder langt som æ" },
-    { "id": "dag",     "display": "dag",     "boxes": ["d","a"],                  "heart": [1],   "heartKind": "irregular", "sentence": "I dag skinner solen.",                     "sentenceNoun": "sun",        "nounForm": "solen",    "imageDir": "weather",          "imageFile": "sun",        "silentTail": "g", "shelf": "sh3", "note": "a’et lyder som æ, og g’et er stumt" },
-    { "id": "skulle",  "display": "skulle",  "boxes": ["s","k","u","ll","e"],     "heart": [1],   "heartKind": "irregular", "sentence": "Jeg skulle bære min rygsæk selv.",         "sentenceNoun": "backpack",   "nounForm": "rygsæk",   "imageDir": "classroom",        "imageFile": "backpack",   "shelf": "sh3", "note": "k’et lyder som g, når det står efter s" },
-    { "id": "seks",    "display": "seks",    "boxes": ["s","e","k","s"],          "heart": [2],   "heartKind": "irregular", "sentence": "Jeg kan tælle seks ænder.",                "sentenceNoun": "duck",       "nounForm": "ænder",    "imageDir": "farm animals",     "imageFile": "duck",       "shelf": "sh3", "note": "k’et lyder som g" },
-    { "id": "syv",     "display": "syv",     "boxes": ["s","y","v"],              "heart": [2],   "heartKind": "irregular", "sentence": "Vi har syv blyanter.",                     "sentenceNoun": "pencil",     "nounForm": "blyanter", "imageDir": "classroom",        "imageFile": "pencil",     "shelf": "sh3", "note": "v’et lyder som et u til sidst" },
-    { "id": "otte",    "display": "otte",    "boxes": ["o","tt","e"],             "heart": [0,1], "heartKind": "irregular", "sentence": "Vi ser otte fisk i vandet.",               "sentenceNoun": "fish",       "nounForm": "fisk",     "imageDir": "ocean life",       "imageFile": "fish",       "shelf": "sh3", "note": "o’et er langt, selv om der står to t — og tt lyder som d" },
-    { "id": "ud",      "display": "ud",      "boxes": ["u","d"],                  "heart": [1],   "heartKind": "irregular", "sentence": "Kom ud og se min drage!",                  "sentenceNoun": "kite",       "nounForm": "drage",    "imageDir": "toys",             "imageFile": "kite",       "shelf": "sh3", "note": "blødt d — det siger ikke d" },
-
-    { "id": "ned",     "display": "ned",     "boxes": ["n","e","d"],              "heart": [2],   "heartKind": "irregular", "sentence": "Bolden triller ned ad bakken.",            "sentenceNoun": "ball",       "nounForm": "Bolden",   "imageDir": "toys",             "imageFile": "ball",       "shelf": "sh4", "note": "blødt d, ligesom i ud" },
-    { "id": "god",     "display": "god",     "boxes": ["g","o","d"],              "heart": [2],   "heartKind": "irregular", "sentence": "Min hund er en god ven.",                  "sentenceNoun": "dog",        "nounForm": "hund",     "imageDir": "pets",             "imageFile": "dog",        "shelf": "sh4", "note": "blødt d til sidst" },
-    { "id": "rød",     "display": "rød",     "boxes": ["r","ø","d"],              "heart": [2],   "heartKind": "irregular", "sentence": "Min hue er rød og varm.",                  "sentenceNoun": "beanie",     "nounForm": "hue",      "imageDir": "clothing",         "imageFile": "beanie",     "shelf": "sh4", "note": "blødt d, ligesom i god" },
-    { "id": "glad",    "display": "glad",    "boxes": ["g","l","a","d"],          "heart": [3],   "heartKind": "irregular", "sentence": "Jeg bliver glad af at se en sommerfugl.",  "sentenceNoun": "butterfly",  "nounForm": "sommerfugl","imageDir": "forest creatures","imageFile": "butterfly",  "shelf": "sh4", "note": "endnu et blødt d" },
-    { "id": "mad",     "display": "mad",     "boxes": ["m","a","d"],              "heart": [2],   "heartKind": "irregular", "sentence": "Katten står og venter på mad.",            "sentenceNoun": "cat",        "nounForm": "Katten",   "imageDir": "pets",             "imageFile": "cat",        "shelf": "sh4", "note": "blødt d — familien med, ved, mad" },
-    { "id": "hjerte",  "display": "hjerte",  "boxes": ["hj","e","r","t","e"],     "heart": [0],   "heartKind": "silent",    "sentence": "Jeg har tegnet et stort hjerte.",          "sentenceNoun": "heart",      "nounForm": "hjerte",   "imageDir": "shapes",           "imageFile": "heart",      "shelf": "sh4", "note": "hj lyder som j — h’et er stumt" },
-    { "id": "hval",    "display": "hval",    "boxes": ["hv","a","l"],             "heart": [0],   "heartKind": "silent",    "sentence": "Der svømmer en stor hval forbi.",          "sentenceNoun": "whale",      "nounForm": "hval",     "imageDir": "ocean life",       "imageFile": "whale",      "shelf": "sh4", "note": "h’et er stumt, og hv lyder som v" },
-    { "id": "hvid",    "display": "hvid",    "boxes": ["hv","i","d"],             "heart": [0,2], "heartKind": "irregular", "sentence": "Kaninen er hvid og blød.",                 "sentenceNoun": "rabbit",     "nounForm": "Kaninen",  "imageDir": "pets",             "imageFile": "rabbit",     "shelf": "sh4", "note": "h’et er stumt, og d’et er blødt" },
-    { "id": "øje",     "display": "øje",     "boxes": ["øj","e"],                 "heart": [0],   "heartKind": "irregular", "sentence": "Kan du lukke det ene øje?",                "sentenceNoun": "eye",        "nounForm": "øje",      "imageDir": "body parts",       "imageFile": "eye",        "shelf": "sh4", "note": "øj lyder som oj" },
-    { "id": "navn",    "display": "navn",    "boxes": ["n","av","n"],             "heart": [1],   "heartKind": "irregular", "sentence": "Hunden har fået et nyt navn.",             "sentenceNoun": "dog",        "nounForm": "Hunden",   "imageDir": "pets",             "imageFile": "dog",        "shelf": "sh4", "note": "av lyder som au" }
+    {
+      "id": "jeg",
+      "display": "jeg",
+      "boxes": [
+        "j",
+        "e",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g lyder som j, så -eg siges aj",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad, so a child who has only met that g has no way to hear a j in it",
+      "sentence": "Jeg kan godt lide at male.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "det",
+      "display": "det",
+      "boxes": [
+        "d",
+        "e"
+      ],
+      "silentTail": "t",
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "e er langt her, og t til sidst er helt stumt",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "a lone e says /e/ in every word the child has sounded out so far, and in this one it does not",
+      "sentence": "Det er min tur nu.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "de",
+      "display": "de",
+      "boxes": [
+        "d",
+        "e"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "e lyder som i",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "a lone e says /e/ in every word the child has sounded out so far, and in this one it does not",
+      "sentence": "De sover alle sammen.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "er",
+      "display": "er",
+      "boxes": [
+        "e",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "e lyder som æ foran r",
+      "noteFocus": [
+        0
+      ],
+      "heartOverride": "a lone e says /e/ in every word the child has sounded out so far, and in this one it does not",
+      "sentence": "Nu er det tid til at sove.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "ikke",
+      "display": "ikke",
+      "boxes": [
+        "i",
+        "kk",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "i lyder som e",
+      "noteFocus": [
+        0
+      ],
+      "heartOverride": "a lone i says /i/ in bil and fisk; in these small words it slips down to an e-sound",
+      "sentence": "Jeg kan ikke nå op på hylden.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "til",
+      "display": "til",
+      "boxes": [
+        "t",
+        "i",
+        "l"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "i lyder som e",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "a lone i says /i/ in bil and fisk; in these small words it slips down to an e-sound",
+      "sentence": "Vi går ned til stranden.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "og",
+      "display": "og",
+      "boxes": [
+        "o",
+        "g"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "silent",
+      "note": "g siger ingenting — og lyder bare som å",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Far og mor kommer snart.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "at",
+      "display": "at",
+      "boxes": [
+        "a",
+        "t"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "t lyder som et blødt d",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this one small word it is said as a soft d",
+      "sentence": "Det er sjovt at hoppe.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "af",
+      "display": "af",
+      "boxes": [
+        "a",
+        "f"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "silent",
+      "note": "f høres slet ikke — af siges bare a",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "f says /f/ in far and fisk; in this word nothing at all is heard",
+      "sentence": "Jeg tog en bid af mit brød.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "skal",
+      "display": "skal",
+      "boxes": [
+        "s",
+        "k",
+        "a",
+        "l"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "k lyder som g efter s",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "k says /k/ in ko and kage; standing behind an s it turns into a g-sound",
+      "sentence": "Vi skal ud og lege nu.",
+      "noImage": true,
+      "shelf": "k-forste"
+    },
+    {
+      "id": "hvad",
+      "display": "hvad",
+      "boxes": [
+        "hv",
+        "a",
+        "d"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er helt stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvad har du i din taske?",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvor",
+      "display": "hvor",
+      "boxes": [
+        "hv",
+        "o",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er helt stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvor skal vi hen i dag?",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvem",
+      "display": "hvem",
+      "boxes": [
+        "hv",
+        "e",
+        "m"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er helt stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvem vil læse med mig?",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvis",
+      "display": "hvis",
+      "boxes": [
+        "hv",
+        "i",
+        "s"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er stumt, ligesom i hvad og hvor",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvis det regner, bliver vi inde.",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hver",
+      "display": "hver",
+      "boxes": [
+        "hv",
+        "e",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er stumt — hver begynder med v-lyden",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vi synger hver morgen.",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvorfor",
+      "display": "hvorfor",
+      "boxes": [
+        "hv",
+        "o",
+        "r",
+        "f",
+        "o",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "et langt ord, men h foran v er stadig stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvorfor griner du sådan?",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvordan",
+      "display": "hvordan",
+      "boxes": [
+        "hv",
+        "o",
+        "r",
+        "d",
+        "a",
+        "n"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er stumt, uanset hvor langt ordet er",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvordan tegner man en hest?",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvornår",
+      "display": "hvornår",
+      "boxes": [
+        "hv",
+        "o",
+        "r",
+        "n",
+        "å",
+        "r"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "endnu et spørgeord med stumt h foran v",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Hvornår må vi spise?",
+      "noImage": true,
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hval",
+      "display": "hval",
+      "boxes": [
+        "hv",
+        "a",
+        "l"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er stumt — hval begynder med v-lyden",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Der svømmer en stor hval forbi.",
+      "sentenceNoun": "whale",
+      "nounForm": "hval",
+      "imageDir": "ocean life",
+      "imageFile": "whale",
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hvid",
+      "display": "hvid",
+      "boxes": [
+        "hv",
+        "i",
+        "d"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "h foran v er stumt, og d til sidst er blødt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Snemanden er hvid over det hele.",
+      "sentenceNoun": "snowman",
+      "nounForm": "Snemanden",
+      "imageDir": "winter",
+      "imageFile": "snowman",
+      "shelf": "k-hv"
+    },
+    {
+      "id": "hjem",
+      "display": "hjem",
+      "boxes": [
+        "hj",
+        "e",
+        "m"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Nu går vi hjem igen.",
+      "noImage": true,
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjemme",
+      "display": "hjemme",
+      "boxes": [
+        "hj",
+        "e",
+        "mm",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder som j, ligesom i hjem",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Mine hjemmesko står hjemme ved døren.",
+      "sentenceNoun": "slippers",
+      "nounForm": "hjemmesko",
+      "imageDir": "clothing",
+      "imageFile": "slippers",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjerte",
+      "display": "hjerte",
+      "boxes": [
+        "hj",
+        "e",
+        "r",
+        "t",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Jeg har tegnet et stort hjerte.",
+      "sentenceNoun": "heart",
+      "nounForm": "hjerte",
+      "imageDir": "body parts",
+      "imageFile": "heart",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjerne",
+      "display": "hjerne",
+      "boxes": [
+        "hj",
+        "e",
+        "r",
+        "n",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder som j — man hører ikke h",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Din hjerne husker alt det sjove.",
+      "sentenceNoun": "brain",
+      "nounForm": "hjerne",
+      "imageDir": "body parts",
+      "imageFile": "brain",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjælp",
+      "display": "hjælp",
+      "boxes": [
+        "hj",
+        "æ",
+        "l",
+        "p"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Råb om hjælp, hvis du falder.",
+      "noImage": true,
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjælpe",
+      "display": "hjælpe",
+      "boxes": [
+        "hj",
+        "æ",
+        "l",
+        "p",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder som j, ligesom i hjælp",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Vil du hjælpe mig med posen?",
+      "noImage": true,
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjul",
+      "display": "hjul",
+      "boxes": [
+        "hj",
+        "u",
+        "l"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Mit løbehjul har to hjul.",
+      "sentenceNoun": "scooter",
+      "nounForm": "løbehjul",
+      "imageDir": "toys",
+      "imageFile": "scooter",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjørne",
+      "display": "hjørne",
+      "boxes": [
+        "hj",
+        "ø",
+        "r",
+        "n",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Bordet står i et hjørne.",
+      "sentenceNoun": "table",
+      "nounForm": "Bordet",
+      "imageDir": "around the house",
+      "imageFile": "table",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjort",
+      "display": "hjort",
+      "boxes": [
+        "hj",
+        "o",
+        "r",
+        "t"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "En hjort løber ind i skoven.",
+      "sentenceNoun": "deer",
+      "nounForm": "hjort",
+      "imageDir": "forest creatures",
+      "imageFile": "deer",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "hjelm",
+      "display": "hjelm",
+      "boxes": [
+        "hj",
+        "e",
+        "l",
+        "m"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "silent",
+      "note": "hj lyder bare som j — h er stumt",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Min hjelm ligger på min cykel.",
+      "sentenceNoun": "bicycle",
+      "nounForm": "cykel",
+      "imageDir": "vehicles",
+      "imageFile": "bicycle",
+      "shelf": "k-hj"
+    },
+    {
+      "id": "med",
+      "display": "med",
+      "boxes": [
+        "m",
+        "e",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt — det siger ikke d",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Jeg leger med min lillebror.",
+      "noImage": true,
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "ved",
+      "display": "ved",
+      "boxes": [
+        "v",
+        "e",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "blødt d til sidst, ligesom i med",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Jeg ved godt, hvor den er.",
+      "noImage": true,
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "ud",
+      "display": "ud",
+      "boxes": [
+        "u",
+        "d"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt — det siger ikke d",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Kom ud og se på himlen!",
+      "noImage": true,
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "ned",
+      "display": "ned",
+      "boxes": [
+        "n",
+        "e",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "blødt d til sidst, ligesom i ud",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Bolden triller ned ad bakken.",
+      "noImage": true,
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "god",
+      "display": "god",
+      "boxes": [
+        "g",
+        "o",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt — det siger ikke d",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Min hund er en god ven.",
+      "sentenceNoun": "dog",
+      "nounForm": "hund",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "rød",
+      "display": "rød",
+      "boxes": [
+        "r",
+        "ø",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "blødt d til sidst, ligesom i god",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Min jakke er rød og varm.",
+      "sentenceNoun": "jacket",
+      "nounForm": "jakke",
+      "imageDir": "clothing",
+      "imageFile": "jacket",
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "glad",
+      "display": "glad",
+      "boxes": [
+        "g",
+        "l",
+        "a",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt — det siger ikke d",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Jeg bliver glad af at se en sommerfugl.",
+      "sentenceNoun": "butterfly",
+      "nounForm": "sommerfugl",
+      "imageDir": "spring",
+      "imageFile": "butterfly",
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "mad",
+      "display": "mad",
+      "boxes": [
+        "m",
+        "a",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "blødt d — samme familie som med, ved og glad",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Katten venter på sin mad.",
+      "sentenceNoun": "cat",
+      "nounForm": "Katten",
+      "imageDir": "pets",
+      "imageFile": "cat",
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "bad",
+      "display": "bad",
+      "boxes": [
+        "b",
+        "a",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt — det siger ikke d",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Jeg tager et varmt bad i badekarret.",
+      "sentenceNoun": "bathtub",
+      "nounForm": "badekar",
+      "imageDir": "around the house",
+      "imageFile": "bathtub",
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "fod",
+      "display": "fod",
+      "boxes": [
+        "f",
+        "o",
+        "d"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt — det siger ikke d",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Jeg står på én fod.",
+      "sentenceNoun": "foot",
+      "nounForm": "fod",
+      "imageDir": "body parts",
+      "imageFile": "foot",
+      "shelf": "g1-blodt-d"
+    },
+    {
+      "id": "vand",
+      "display": "vand",
+      "boxes": [
+        "v",
+        "a",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Jeg drikker et glas vand.",
+      "sentenceNoun": "water",
+      "nounForm": "vand",
+      "imageDir": "At the Supermarket",
+      "imageFile": "water",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "hund",
+      "display": "hund",
+      "boxes": [
+        "h",
+        "u",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Vores hund sover på gulvet.",
+      "sentenceNoun": "dog",
+      "nounForm": "hund",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "mand",
+      "display": "mand",
+      "boxes": [
+        "m",
+        "a",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "En mand kører brandbilen.",
+      "sentenceNoun": "fire-truck",
+      "nounForm": "brandbil",
+      "imageDir": "vehicles",
+      "imageFile": "fire_truck",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "land",
+      "display": "land",
+      "boxes": [
+        "l",
+        "a",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er stumt, ligesom i vand",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Vi sejler ind mod land.",
+      "noImage": true,
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "hånd",
+      "display": "hånd",
+      "boxes": [
+        "h",
+        "å",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Giv mig din hånd.",
+      "sentenceNoun": "hand",
+      "nounForm": "hånd",
+      "imageDir": "body parts",
+      "imageFile": "hand",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "mund",
+      "display": "mund",
+      "boxes": [
+        "m",
+        "u",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Luk din mund, når du tygger.",
+      "sentenceNoun": "mouth",
+      "nounForm": "mund",
+      "imageDir": "body parts",
+      "imageFile": "mouth",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "tand",
+      "display": "tand",
+      "boxes": [
+        "t",
+        "a",
+        "n",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter n er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Jeg har mistet en tand.",
+      "sentenceNoun": "tooth",
+      "nounForm": "tand",
+      "imageDir": "body parts",
+      "imageFile": "tooth",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "kold",
+      "display": "kold",
+      "boxes": [
+        "k",
+        "o",
+        "l",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter l er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Min is er kold og sød.",
+      "sentenceNoun": "ice-cream",
+      "nounForm": "is",
+      "imageDir": "desserts and sweets",
+      "imageFile": "ice_cream",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "guld",
+      "display": "guld",
+      "boxes": [
+        "g",
+        "u",
+        "l",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter l er helt stumt",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Kronen er lavet af guld.",
+      "sentenceNoun": "crown",
+      "nounForm": "Kronen",
+      "imageDir": "accessories",
+      "imageFile": "crown",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "bold",
+      "display": "bold",
+      "boxes": [
+        "b",
+        "o",
+        "l",
+        "d"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "d efter l er stumt, ligesom i kold og guld",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "the d behind n or l is written and never spoken, and nothing in the sound of the word warns the child that it is there",
+      "sentence": "Min bold trillede ud i haven.",
+      "sentenceNoun": "ball",
+      "nounForm": "bold",
+      "imageDir": "toys",
+      "imageFile": "ball",
+      "shelf": "g1-stumt-d"
+    },
+    {
+      "id": "mig",
+      "display": "mig",
+      "boxes": [
+        "m",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g lyder som j, så -ig siges aj",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad, so a child who has only met that g has no way to hear a j in it",
+      "sentence": "Vil du hjælpe mig lidt?",
+      "noImage": true,
+      "shelf": "g1-g"
+    },
+    {
+      "id": "dig",
+      "display": "dig",
+      "boxes": [
+        "d",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g lyder som j, ligesom i mig",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad, so a child who has only met that g has no way to hear a j in it",
+      "sentence": "Jeg har tegnet noget til dig.",
+      "noImage": true,
+      "shelf": "g1-g"
+    },
+    {
+      "id": "sig",
+      "display": "sig",
+      "boxes": [
+        "s",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g lyder som j — mig, dig og sig hører sammen",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad, so a child who has only met that g has no way to hear a j in it",
+      "sentence": "Musen gemmer sig under bordet.",
+      "noImage": true,
+      "shelf": "g1-g"
+    },
+    {
+      "id": "leg",
+      "display": "leg",
+      "boxes": [
+        "l",
+        "e",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g lyder som j, så -eg siges aj",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad, so a child who has only met that g has no way to hear a j in it",
+      "sentence": "Vores leg med klodser varer længe.",
+      "sentenceNoun": "blocks",
+      "nounForm": "klodser",
+      "imageDir": "toys",
+      "imageFile": "blocks",
+      "shelf": "g1-g"
+    },
+    {
+      "id": "dag",
+      "display": "dag",
+      "boxes": [
+        "d",
+        "a",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "g er helt stumt, og a bliver langt",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "I dag skinner solen.",
+      "sentenceNoun": "sun",
+      "nounForm": "solen",
+      "imageDir": "weather",
+      "imageFile": "sun",
+      "shelf": "g1-g"
+    },
+    {
+      "id": "bog",
+      "display": "bog",
+      "boxes": [
+        "b",
+        "o",
+        "g"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g lyder som et u til sidst",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; at the end of this word it turns into a u-sound instead",
+      "sentence": "Jeg læser en bog om dyr.",
+      "sentenceNoun": "book",
+      "nounForm": "bog",
+      "imageDir": "classroom",
+      "imageFile": "book",
+      "shelf": "g1-g"
+    },
+    {
+      "id": "kage",
+      "display": "kage",
+      "boxes": [
+        "k",
+        "a",
+        "g",
+        "e"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "g inde i ordet lyder som j",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad, so a child who has only met that g has no way to hear a j in it",
+      "sentence": "Vi bager en kage til far.",
+      "sentenceNoun": "cake",
+      "nounForm": "kage",
+      "imageDir": "bakery",
+      "imageFile": "cake",
+      "shelf": "g1-g"
+    },
+    {
+      "id": "sagde",
+      "display": "sagde",
+      "boxes": [
+        "s",
+        "a",
+        "g",
+        "d",
+        "e"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "g siger ingenting — sagde lyder som sa-de",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Hun sagde godnat og slukkede lyset.",
+      "noImage": true,
+      "shelf": "g1-g"
+    },
+    {
+      "id": "lagde",
+      "display": "lagde",
+      "boxes": [
+        "l",
+        "a",
+        "g",
+        "d",
+        "e"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "g er stumt, ligesom i sagde",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Jeg lagde min jakke på stolen.",
+      "noImage": true,
+      "shelf": "g1-g"
+    },
+    {
+      "id": "meget",
+      "display": "meget",
+      "boxes": [
+        "m",
+        "e",
+        "g",
+        "e",
+        "t"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "g inde i ordet er helt stumt",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Jeg kan meget godt lide is.",
+      "noImage": true,
+      "shelf": "g1-g"
+    },
+    {
+      "id": "nej",
+      "display": "nej",
+      "boxes": [
+        "n",
+        "ej"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "ej læses i ét hug og lyder aj",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Nej, den er ikke min!",
+      "noImage": true,
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "hej",
+      "display": "hej",
+      "boxes": [
+        "h",
+        "ej"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "ej læses i ét hug og lyder aj",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Hej, hvor er det godt at se dig!",
+      "noImage": true,
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "vej",
+      "display": "vej",
+      "boxes": [
+        "v",
+        "ej"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "ej læses i ét hug og lyder aj",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Kender du vej til skolen?",
+      "noImage": true,
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "sejl",
+      "display": "sejl",
+      "boxes": [
+        "s",
+        "ej",
+        "l"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "ej lyder aj, også midt inde i ordet",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Sejlbåden har et hvidt sejl.",
+      "sentenceNoun": "sailboat",
+      "nounForm": "Sejlbåden",
+      "imageDir": "beach",
+      "imageFile": "sailboat",
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "øje",
+      "display": "øje",
+      "boxes": [
+        "øj",
+        "e"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "øj læses i ét hug og lyder oj",
+      "noteFocus": [
+        0
+      ],
+      "sentence": "Kan du lukke det ene øje?",
+      "sentenceNoun": "eye",
+      "nounForm": "øje",
+      "imageDir": "body parts",
+      "imageFile": "eye",
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "høj",
+      "display": "høj",
+      "boxes": [
+        "h",
+        "øj"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "øj læses i ét hug og lyder oj",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Han er lige så høj som mig.",
+      "noImage": true,
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "tøj",
+      "display": "tøj",
+      "boxes": [
+        "t",
+        "øj"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "øj læses i ét hug og lyder oj",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Mit tøj ligger i en stor pose.",
+      "sentenceNoun": "bag",
+      "nounForm": "pose",
+      "imageDir": "At the Supermarket",
+      "imageFile": "bag",
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "støj",
+      "display": "støj",
+      "boxes": [
+        "s",
+        "t",
+        "øj"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "øj læses i ét hug og lyder oj",
+      "noteFocus": [
+        2
+      ],
+      "sentence": "Trommen laver en masse støj.",
+      "sentenceNoun": "drum",
+      "nounForm": "Trommen",
+      "imageDir": "music",
+      "imageFile": "drum",
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "navn",
+      "display": "navn",
+      "boxes": [
+        "n",
+        "av",
+        "n"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "av læses i ét hug og lyder au",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Hunden har fået et nyt navn.",
+      "sentenceNoun": "dog",
+      "nounForm": "Hunden",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "havn",
+      "display": "havn",
+      "boxes": [
+        "h",
+        "av",
+        "n"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "av lyder au, ligesom i navn",
+      "noteFocus": [
+        1
+      ],
+      "sentence": "Skibet ligger stille i havn.",
+      "sentenceNoun": "ship",
+      "nounForm": "Skibet",
+      "imageDir": "vehicles",
+      "imageFile": "ship",
+      "shelf": "g1-diftong"
+    },
+    {
+      "id": "selv",
+      "display": "selv",
+      "boxes": [
+        "s",
+        "e",
+        "l",
+        "v"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "v efter l siges slet ikke",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Jeg kan selv binde mine sko.",
+      "noImage": true,
+      "shelf": "g2-v"
+    },
+    {
+      "id": "halv",
+      "display": "halv",
+      "boxes": [
+        "h",
+        "a",
+        "l",
+        "v"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "v efter l siges slet ikke",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Jeg spiste en halv pandekage.",
+      "sentenceNoun": "pancake",
+      "nounForm": "pandekage",
+      "imageDir": "breakfast",
+      "imageFile": "pancake",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "tolv",
+      "display": "tolv",
+      "boxes": [
+        "t",
+        "o",
+        "l",
+        "v"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "v efter l er stumt, ligesom i selv og halv",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Jeg har stablet tolv klodser.",
+      "sentenceNoun": "blocks",
+      "nounForm": "klodser",
+      "imageDir": "toys",
+      "imageFile": "blocks",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "sølv",
+      "display": "sølv",
+      "boxes": [
+        "s",
+        "ø",
+        "l",
+        "v"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "v efter l siges slet ikke",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Skeen skinner som sølv.",
+      "sentenceNoun": "spoon",
+      "nounForm": "Skeen",
+      "imageDir": "around the house",
+      "imageFile": "spoon",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "gulv",
+      "display": "gulv",
+      "boxes": [
+        "g",
+        "u",
+        "l",
+        "v"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "silent",
+      "note": "v efter l siges slet ikke",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Der ligger en bold på mit gulv.",
+      "sentenceNoun": "ball",
+      "nounForm": "bold",
+      "imageDir": "toys",
+      "imageFile": "ball",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "syv",
+      "display": "syv",
+      "boxes": [
+        "s",
+        "y",
+        "v"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "v til sidst lyder som et u",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Vi har syv blyanter i kassen.",
+      "sentenceNoun": "pencil",
+      "nounForm": "blyanter",
+      "imageDir": "classroom",
+      "imageFile": "pencil",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "lov",
+      "display": "lov",
+      "boxes": [
+        "l",
+        "o",
+        "v"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "v til sidst lyder som et u",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Du får lov til at vælge først.",
+      "noImage": true,
+      "shelf": "g2-v"
+    },
+    {
+      "id": "sjov",
+      "display": "sjov",
+      "boxes": [
+        "sj",
+        "o",
+        "v"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "v til sidst lyder som u, ligesom i lov",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Det var en sjov dag i skoven.",
+      "noImage": true,
+      "shelf": "g2-v"
+    },
+    {
+      "id": "skov",
+      "display": "skov",
+      "boxes": [
+        "s",
+        "k",
+        "o",
+        "v"
+      ],
+      "heart": [
+        1,
+        3
+      ],
+      "heartKind": "irregular",
+      "note": "k lyder som g efter s, og v til sidst lyder som u",
+      "noteFocus": [
+        1,
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Vi går en tur i en stor skov.",
+      "sentenceNoun": "forest",
+      "nounForm": "skov",
+      "imageDir": "camping",
+      "imageFile": "forest",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "brev",
+      "display": "brev",
+      "boxes": [
+        "b",
+        "r",
+        "e",
+        "v"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "irregular",
+      "note": "v til sidst lyder som et u",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Der kom et brev til mig i dag.",
+      "sentenceNoun": "letter",
+      "nounForm": "brev",
+      "imageDir": "post office",
+      "imageFile": "letter",
+      "shelf": "g2-v"
+    },
+    {
+      "id": "huset",
+      "display": "huset",
+      "boxes": [
+        "h",
+        "u",
+        "s",
+        "e",
+        "t"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Huset har en rød dør.",
+      "sentenceNoun": "house",
+      "nounForm": "Huset",
+      "imageDir": "miscellaneous",
+      "imageFile": "house",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "barnet",
+      "display": "barnet",
+      "boxes": [
+        "b",
+        "a",
+        "r",
+        "n",
+        "e",
+        "t"
+      ],
+      "heart": [
+        5
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        5
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Barnet sover trygt i sin seng.",
+      "noImage": true,
+      "shelf": "g2-et"
+    },
+    {
+      "id": "træet",
+      "display": "træet",
+      "boxes": [
+        "t",
+        "r",
+        "æ",
+        "e",
+        "t"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Træet taber sine blade om efteråret.",
+      "sentenceNoun": "tree",
+      "nounForm": "Træet",
+      "imageDir": "christmas",
+      "imageFile": "tree",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "æblet",
+      "display": "æblet",
+      "boxes": [
+        "æ",
+        "b",
+        "l",
+        "e",
+        "t"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Æblet er faldet ned i græsset.",
+      "sentenceNoun": "apple",
+      "nounForm": "Æblet",
+      "imageDir": "fruits",
+      "imageFile": "apple",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "lyset",
+      "display": "lyset",
+      "boxes": [
+        "l",
+        "y",
+        "s",
+        "e",
+        "t"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Lyset på bordet brænder stille.",
+      "sentenceNoun": "candle",
+      "nounForm": "Lyset",
+      "imageDir": "christmas",
+      "imageFile": "candle",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "bordet",
+      "display": "bordet",
+      "boxes": [
+        "b",
+        "o",
+        "r",
+        "d",
+        "e",
+        "t"
+      ],
+      "heart": [
+        3,
+        5
+      ],
+      "heartKind": "irregular",
+      "note": "d efter r siges ikke, og t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        3,
+        5
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Bordet står midt i køkkenet.",
+      "sentenceNoun": "table",
+      "nounForm": "Bordet",
+      "imageDir": "around the house",
+      "imageFile": "table",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "vandet",
+      "display": "vandet",
+      "boxes": [
+        "v",
+        "a",
+        "n",
+        "d",
+        "e",
+        "t"
+      ],
+      "heart": [
+        3,
+        5
+      ],
+      "heartKind": "irregular",
+      "note": "d efter n er stumt, og t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        3,
+        5
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Vandet i søen er helt stille.",
+      "sentenceNoun": "water",
+      "nounForm": "Vandet",
+      "imageDir": "At the Supermarket",
+      "imageFile": "water",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "brevet",
+      "display": "brevet",
+      "boxes": [
+        "b",
+        "r",
+        "e",
+        "v",
+        "e",
+        "t"
+      ],
+      "heart": [
+        3,
+        5
+      ],
+      "heartKind": "irregular",
+      "note": "v lyder som u, og t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        3,
+        5
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Brevet lå nede i postkassen.",
+      "sentenceNoun": "letter",
+      "nounForm": "Brevet",
+      "imageDir": "post office",
+      "imageFile": "letter",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "øjet",
+      "display": "øjet",
+      "boxes": [
+        "øj",
+        "e",
+        "t"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Øjet kan se alle farverne.",
+      "sentenceNoun": "eye",
+      "nounForm": "Øjet",
+      "imageDir": "body parts",
+      "imageFile": "eye",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "glasset",
+      "display": "glasset",
+      "boxes": [
+        "g",
+        "l",
+        "a",
+        "ss",
+        "e",
+        "t"
+      ],
+      "heart": [
+        5
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        5
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Glasset er fyldt med mælk.",
+      "sentenceNoun": "glass",
+      "nounForm": "Glasset",
+      "imageDir": "around the house",
+      "imageFile": "glass",
+      "shelf": "g2-et"
+    },
+    {
+      "id": "nogen",
+      "display": "nogen",
+      "boxes": [
+        "n",
+        "o",
+        "g",
+        "e",
+        "n"
+      ],
+      "heart": [
+        2
+      ],
+      "heartKind": "silent",
+      "note": "g siger ingenting — nogen siges no-en",
+      "noteFocus": [
+        2
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Er der nogen hjemme?",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "noget",
+      "display": "noget",
+      "boxes": [
+        "n",
+        "o",
+        "g",
+        "e",
+        "t"
+      ],
+      "heart": [
+        2,
+        4
+      ],
+      "heartKind": "silent",
+      "note": "g er stumt, og t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        2,
+        4
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Jeg har noget med til dig.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "aldrig",
+      "display": "aldrig",
+      "boxes": [
+        "a",
+        "l",
+        "d",
+        "r",
+        "i",
+        "g"
+      ],
+      "heart": [
+        2,
+        5
+      ],
+      "heartKind": "silent",
+      "note": "d efter l og g til sidst siges hverken det ene eller det andet",
+      "noteFocus": [
+        2,
+        5
+      ],
+      "heartOverride": "g is a hard /g/ at the front of gul and glad; inside this word it is written and never said at all",
+      "sentence": "Jeg glemmer aldrig den dag.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "altid",
+      "display": "altid",
+      "boxes": [
+        "a",
+        "l",
+        "t",
+        "i",
+        "d"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "irregular",
+      "note": "d til sidst er blødt",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "d is a firm /d/ at the front of dag and du, and nothing prepares the child for the soft sound it makes at the end of a word",
+      "sentence": "Vi synger altid, før vi spiser.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "måske",
+      "display": "måske",
+      "boxes": [
+        "m",
+        "å",
+        "s",
+        "k",
+        "e"
+      ],
+      "heart": [
+        3
+      ],
+      "heartKind": "irregular",
+      "note": "k lyder som g efter s",
+      "noteFocus": [
+        3
+      ],
+      "heartOverride": "k says /k/ in ko and kage; standing behind an s it turns into a g-sound",
+      "sentence": "Måske kommer der sne i nat.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "skulle",
+      "display": "skulle",
+      "boxes": [
+        "s",
+        "k",
+        "u",
+        "ll",
+        "e"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "k lyder som g efter s",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "k says /k/ in ko and kage; standing behind an s it turns into a g-sound",
+      "sentence": "Vi skulle have været afsted.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "kunne",
+      "display": "kunne",
+      "boxes": [
+        "k",
+        "u",
+        "nn",
+        "e"
+      ],
+      "heart": [
+        1
+      ],
+      "heartKind": "irregular",
+      "note": "u lyder som å",
+      "noteFocus": [
+        1
+      ],
+      "heartOverride": "a lone u says /u/ in hus and ud; in this word it slips down to an å-sound",
+      "sentence": "Jeg kunne godt bruge en pause.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "ingen",
+      "display": "ingen",
+      "boxes": [
+        "i",
+        "ng",
+        "e",
+        "n"
+      ],
+      "heart": [
+        0
+      ],
+      "heartKind": "irregular",
+      "note": "i lyder som e foran ng",
+      "noteFocus": [
+        0
+      ],
+      "heartOverride": "a lone i says /i/ in bil and fisk; in these small words it slips down to an e-sound",
+      "sentence": "Der er ingen hjemme i huset.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "været",
+      "display": "været",
+      "boxes": [
+        "v",
+        "æ",
+        "r",
+        "e",
+        "t"
+      ],
+      "heart": [
+        4
+      ],
+      "heartKind": "irregular",
+      "note": "t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        4
+      ],
+      "heartOverride": "t is a crisp /t/ in tal and tog; in this ending it softens to the sound a child would spell with d",
+      "sentence": "Vi har været i skoven i dag.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    },
+    {
+      "id": "blevet",
+      "display": "blevet",
+      "boxes": [
+        "b",
+        "l",
+        "e",
+        "v",
+        "e",
+        "t"
+      ],
+      "heart": [
+        3,
+        5
+      ],
+      "heartKind": "irregular",
+      "note": "v lyder som u, og t i endelsen -et lyder som et blødt d",
+      "noteFocus": [
+        3,
+        5
+      ],
+      "heartOverride": "v is a clear /v/ at the front of vand and vej; at the end of a word it becomes a u-sound or disappears",
+      "sentence": "Det er blevet mørkt udenfor.",
+      "noImage": true,
+      "shelf": "g2-lange"
+    }
   ]
 }

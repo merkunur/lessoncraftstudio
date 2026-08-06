@@ -33,8 +33,419 @@
    (card stays visible all day); speech declarative-warm; no punctuality
    praise. Day-state persists in localStorage (an all-day tool must
    survive a browser crash).
+
+   ---------------------------------------------------------------------
+   ⭐ REBUILD 2026-08-07 — what it is for, in one sentence:
+   the tool was designed as a BUILDER and shipped as a builder, and the
+   six hours a day it spends being a DISPLAY were never designed at all.
+
+   THE INVENTION: the day is one object read at two scales at once — the
+   whole day as a ribbon you can point at and count, and the current
+   activity as a single card big enough to read from the back row. The
+   sun is the only thing that moves between them, and only a person
+   moves it.
+
+   THE MOAT: eleven locales of AUTHORED (not translated) school-day
+   vocabulary — per-locale concept cards, per-locale announce register,
+   fi partitive forms, the fi/da/no clock-word strip — plus a teacher's
+   own cards on top of it. No competitor ships a visual timetable that
+   speaks Finnish correctly, and none lets a Swedish school put
+   morgonsamling on the board at all.
+
+   THE FENCE (§23.3, four surfaces, the occupied parts SUBTRACTED):
+     · tools — calendar-wall owns WHICH DAY it is (its own header writes
+       the boundary from the other side: "the calendar never shows a
+       time; our-day never shows a date"); class-timer owns HOW LONG,
+       and already ships the one-minute cue, so this tool must never
+       grow a duration; center-board owns rotation INSIDE a block;
+       learning-clock owns telling the time (its TIME_RULES are copied
+       here verbatim under a byte-drift gate, never imported).
+     · activities — none claim it; a daily schedule is not a CCSS skill.
+     · the ~240 printable types — nearest are K-208-day-night and the
+       G2/G3 clock sheets; neither is a class schedule.
+     · the 33 apps — none.
+     THE REMAINDER, and what this tool owns: THE ORDER OF TODAY.
+
+   REFUSES, FOREVER:
+     1. never compares the clock to the plan — no delta, no "late", no
+        tint, no clock-fired anything. It may SHOW a planned time; it
+        may never COMPARE one.
+     2. never advances itself. A human moves the sun, always.
+     3. no timer, countdown, elapsed bar, emptying jar, score, streak,
+        or punctuality praise (§20.4).
+     4. no record about a child — no per-child note, no name, no
+        attendance, no trend (the feelings-check-in doctrine). A custom
+        card carries a name, an icon and a colour, and nothing else.
+     5. first-then is a LENS on the whole day, never a second schedule
+        and never a contingency ("first work, then iPad" is forbidden;
+        the next slot is always the actual next card).
+     6. no free-text icon. A teacher chooses a symbol; she never draws
+        one, and a card can never be text-only — a pre-reader has to be
+        able to use this.
+     7. no "?" card. You schedule the STRUCTURE of an unknown, never
+        the unknown.
+     8. the warning stage never animates on its own after the tap.
+        Anything still moving is a countdown a child can read.
    ===================================================================== */
+
+/* =====================================================================
+   § THE MODEL — pure, total, no DOM.
+   Everything a gate needs to prove lives here, so the gate can drive it
+   in Node and cannot end up reimplementing the tool (§23.6: a gate that
+   reimplements what it checks is testing a copy).
+
+   ⚠ TOTALITY IS LOAD-BEARING. Every entry point coerces and clamps. A
+   hand-edited or half-written localStorage blob must not be able to
+   throw — `st || newDay()` is NOT total, because it catches null and 0
+   and hands `[]` straight through to `.length`.
+   ===================================================================== */
+var ODM = {
+
+  MAX_CARDS: 16,
+  MAX_CUSTOM: 12,
+  MAX_NAME: 20,
+
+  /* ---------- day state ----------
+     { items:[{id,time,changedFrom,skipped,skipDay,snap}], sunIdx, started, warned }
+     sunIdx === items.length  MEANS THE DAY IS FINISHED (a real state,
+     not an overflow — the old build had no end and the sun vanished). */
+  newDay: function () { return { items: [], sunIdx: 0, started: false, warned: false }; },
+
+  isKey: function (s) { return typeof s === 'string' && s.length > 0 && s.length < 64; },
+
+  coerceTime: function (t) {
+    if (!t || typeof t !== 'object') return null;
+    var h = Math.floor(Number(t.h)), m = Math.floor(Number(t.m));
+    if (!isFinite(h) || !isFinite(m)) return null;
+    if (h < 0) h = 0; if (h > 23) h = 23;
+    if (m < 0) m = 0; if (m > 59) m = 59;
+    m = m - (m % 5);
+    return { h: h, m: m };
+  },
+
+  /* a snapshot is what makes a custom card safe to delete and a saved
+     plan safe to reopen in another locale (the old build stored only an
+     id, so a plan saved with `showtell` reloaded in de rendered a
+     literal em-dash from NAMES). */
+  coerceSnap: function (s) {
+    if (!s || typeof s !== 'object') return null;
+    if (!this.isKey(s.name)) return null;
+    return {
+      name: String(s.name).slice(0, this.MAX_NAME),
+      icon: this.isKey(s.icon) ? s.icon : 'centers',
+      tint: this.isKey(s.tint) ? s.tint : 'teal'
+    };
+  },
+
+  coerceItem: function (it) {
+    if (!it || typeof it !== 'object' || !this.isKey(it.id)) return null;
+    return {
+      id: it.id,
+      time: this.coerceTime(it.time),
+      changedFrom: this.isKey(it.changedFrom) ? it.changedFrom : null,
+      changedSnap: this.coerceSnap(it.changedSnap),
+      skipped: !!it.skipped,
+      skipDay: (typeof it.skipDay === 'number' && it.skipDay >= 0 && it.skipDay <= 4) ? it.skipDay : null,
+      snap: this.coerceSnap(it.snap)
+    };
+  },
+
+  coerceDay: function (d) {
+    var out = this.newDay(), i, it;
+    if (!d || typeof d !== 'object') return out;
+    var src = (d.items && d.items.length !== undefined && typeof d.items !== 'string') ? d.items : [];
+    for (i = 0; i < src.length && out.items.length < this.MAX_CARDS; i++) {
+      it = this.coerceItem(src[i]);
+      if (it) out.items.push(it);
+    }
+    out.started = !!d.started;
+    out.warned = !!d.warned;
+    var s = Math.floor(Number(d.sunIdx));
+    if (!isFinite(s) || s < 0) s = 0;
+    if (s > out.items.length) s = out.items.length;
+    out.sunIdx = s;
+    return out;
+  },
+
+  atEnd: function (day) { return day.sunIdx >= day.items.length; },
+  isNow: function (day, i) { return day.started && !this.atEnd(day) && i === day.sunIdx; },
+  isDone: function (day, i) { return day.started && i < day.sunIdx; },
+
+  /* ⚠ THE PAST IS NOT EDITABLE. The old build's docblock claimed the
+     moon-fold was "only for future cards" and the code had no guard of
+     any kind, so a finished activity could be cancelled and the tool
+     would announce a change about something that had already happened.
+     SWAP reaches the current card (doing art instead, starting now, is
+     a real classroom event); SKIP does not (you cannot un-happen the
+     thing the class is in the middle of — you advance past it). */
+  canSwap: function (day, i) { return i >= 0 && i < day.items.length && (!day.started || i >= day.sunIdx); },
+  canSkip: function (day, i) { return i >= 0 && i < day.items.length && (!day.started || i > day.sunIdx); },
+
+  /* the next index the sun may LAND on — skipped cards are not stops.
+     The old advance() was a bare sunIdx++, so the tool announced
+     "Now it's time for Swimming!" about the very card it had just
+     moon-folded as not happening today. */
+  nextStop: function (day, from) {
+    var n = from + 1;
+    while (n < day.items.length && day.items[n].skipped) n++;
+    return n;                       /* may equal items.length = finished */
+  },
+  prevStop: function (day, from) {
+    var p = from - 1;
+    while (p >= 0 && day.items[p].skipped) p--;
+    return p;                       /* -1 = nothing to go back to */
+  },
+
+  addCard: function (day, cardId, at, snap) {
+    if (!this.isKey(cardId)) return false;
+    if (day.items.length >= this.MAX_CARDS) return false;
+    var item = { id: cardId, time: null, changedFrom: null, changedSnap: null, skipped: false, skipDay: null, snap: this.coerceSnap(snap) };
+    if (at === undefined || at === null || at >= day.items.length || at < 0) {
+      day.items.push(item);
+    } else {
+      day.items.splice(at, 0, item);
+      /* ⚠ THE SUN MUST NOT DRIFT. removeCard adjusted sunIdx and these
+         two did not, so inserting a card ahead of the sun mid-day
+         silently rewrote which activities were finished — in a tool
+         whose whole thesis is that the day does not change under you. */
+      if (at <= day.sunIdx) day.sunIdx++;
+    }
+    return true;
+  },
+
+  removeCard: function (day, idx) {
+    if (idx < 0 || idx >= day.items.length) return false;
+    day.items.splice(idx, 1);
+    if (day.sunIdx > idx) day.sunIdx--;
+    if (day.sunIdx > day.items.length) day.sunIdx = day.items.length;
+    return true;
+  },
+
+  moveCard: function (day, from, to) {
+    if (from === to) return false;
+    if (from < 0 || from >= day.items.length) return false;
+    if (to < 0 || to >= day.items.length) return false;
+    /* hold the CURRENT card by identity, move, then re-find it — the
+       only way the sun stays on the same activity under a reorder. */
+    var cur = this.atEnd(day) ? null : day.items[day.sunIdx];
+    var it = day.items.splice(from, 1)[0];
+    day.items.splice(to, 0, it);
+    if (cur) {
+      for (var i = 0; i < day.items.length; i++) if (day.items[i] === cur) { day.sunIdx = i; break; }
+    } else {
+      day.sunIdx = day.items.length;
+    }
+    return true;
+  },
+
+  startDay: function (day) {
+    if (!day.items.length) return false;
+    day.started = true;
+    day.warned = false;
+    var s = 0;
+    while (s < day.items.length && day.items[s].skipped) s++;
+    day.sunIdx = s;
+    return true;
+  },
+
+  /* TWO-STAGE ADVANCE. Tap 1 arms the warning; tap 2 crosses. Returns
+     'warned' | 'moved' | 'end' | false. The warning is a POSITION and an
+     OUTLINE and nothing else — see REFUSE 8. */
+  advance: function (day, force) {
+    if (this.atEnd(day)) return false;
+    var n = this.nextStop(day, day.sunIdx);
+    if (!force && !day.warned && n < day.items.length) { day.warned = true; return 'warned'; }
+    day.warned = false;
+    day.sunIdx = n;
+    return this.atEnd(day) ? 'end' : 'moved';
+  },
+
+  unAdvance: function (day) {
+    if (day.warned) { day.warned = false; return 'unwarned'; }
+    var start = this.atEnd(day) ? day.items.length : day.sunIdx;
+    var p = this.prevStop(day, start);
+    if (p < 0) return false;
+    day.sunIdx = p;
+    return 'moved';
+  },
+
+  swapCard: function (day, idx, newId, snap) {
+    if (!this.canSwap(day, idx) || !this.isKey(newId)) return false;
+    var it = day.items[idx];
+    it.changedFrom = it.id;
+    it.changedSnap = it.snap;
+    it.id = newId;
+    it.snap = this.coerceSnap(snap);
+    it.skipped = false;
+    it.skipDay = null;
+    return true;
+  },
+
+  /* the moon-fold. `weekday` (0=Mon..4=Fri) turns a deferral into an
+     appointment: the card reads "Thursday" instead of "another day",
+     which is the difference between a loss and a plan. */
+  skipCard: function (day, idx, weekday) {
+    if (!this.canSkip(day, idx)) return false;
+    var it = day.items[idx];
+    it.skipped = !it.skipped;
+    it.skipDay = it.skipped ? ((typeof weekday === 'number' && weekday >= 0 && weekday <= 4) ? weekday : null) : null;
+    return true;
+  },
+
+  setTime: function (day, idx, h, m) {
+    if (idx < 0 || idx >= day.items.length) return false;
+    day.items[idx].time = (h === null || h === undefined) ? null : this.coerceTime({ h: h, m: m });
+    return true;
+  },
+
+  /* ---------- teacher-authored cards ----------
+     ⚠ APPEND, NEVER REPLACE, and REFUSE WITH A REASON, NEVER IN SILENCE
+     (both bought by syllable-splitter). Returns 'ok' | 'listFull' |
+     'tooLong' | 'empty' | 'duplicate'. */
+  cleanName: function (s) {
+    return String(s === null || s === undefined ? '' : s)
+      .replace(/[\u0000-\u0008\u000B-\u001F\u007F-\u009F\u200B-\u200F\u2028\u2029\uFEFF]/g, '')
+      .replace(/\s+/g, ' ')
+      .replace(/'/g, '’')
+      .trim();
+  },
+  coerceCustom: function (c) {
+    if (!c || typeof c !== 'object') return null;
+    var name = this.cleanName(c.name);
+    if (!name) return null;
+    return {
+      id: this.isKey(c.id) ? c.id : ('my:' + name.toLowerCase()),
+      name: name.slice(0, this.MAX_NAME),
+      icon: this.isKey(c.icon) ? c.icon : 'centers',
+      tint: this.isKey(c.tint) ? c.tint : 'teal',
+      group: (typeof c.group === 'number' && c.group >= 0 && c.group <= 5) ? c.group : 4
+    };
+  },
+  coerceCustomList: function (list) {
+    var out = [], i, c;
+    if (!list || list.length === undefined || typeof list === 'string') return out;
+    for (i = 0; i < list.length && out.length < this.MAX_CUSTOM; i++) {
+      c = this.coerceCustom(list[i]);
+      if (c) out.push(c);
+    }
+    return out;
+  },
+  addCustom: function (list, name, icon, tint, group, editId) {
+    var clean = this.cleanName(name), i;
+    if (!clean) return 'empty';
+    if (clean.length > this.MAX_NAME) return 'tooLong';
+    if (!editId && list.length >= this.MAX_CUSTOM) return 'listFull';
+    /* shape AND colour together are what make an invented symbol
+       separable at 34px from the back row — two cards sharing both are
+       not distinguishable, so the save is refused. */
+    for (i = 0; i < list.length; i++) {
+      if (editId && list[i].id === editId) continue;
+      if (list[i].icon === icon && list[i].tint === tint) return 'duplicate';
+      if (list[i].name.toLowerCase() === clean.toLowerCase()) return 'duplicate';
+    }
+    if (editId) {
+      for (i = 0; i < list.length; i++) {
+        if (list[i].id === editId) { list[i].name = clean; list[i].icon = icon; list[i].tint = tint; list[i].group = group; return 'ok'; }
+      }
+      return 'empty';
+    }
+    list.push(this.coerceCustom({ id: 'my:' + Date.now().toString(36) + ':' + list.length, name: clean, icon: icon, tint: tint, group: group }));
+    return 'ok';
+  },
+  /* ⚠ Deleting a custom card removes it from the PALETTE only. Cards
+     already on today's strip or inside a saved plan keep their snapshot
+     and stay exactly as they were — a deletion must never silently
+     blank a saved Tuesday. */
+  removeCustom: function (list, id) {
+    for (var i = 0; i < list.length; i++) if (list[i].id === id) { list.splice(i, 1); return true; }
+    return false;
+  },
+  findCustom: function (list, id) {
+    for (var i = 0; i < list.length; i++) if (list[i].id === id) return list[i];
+    return null;
+  },
+
+  /* ---------- templates ----------
+     stored WITH snapshots, so a plan is locale-safe and custom-safe. */
+  templateFromDay: function (day) {
+    var out = [], i, it;
+    for (i = 0; i < day.items.length; i++) {
+      it = day.items[i];
+      out.push({ id: it.id, time: it.time ? { h: it.time.h, m: it.time.m } : null, snap: it.snap });
+    }
+    return out;
+  },
+  dayFromTemplate: function (items) {
+    var day = this.newDay(), i, it;
+    var src = (items && items.length !== undefined && typeof items !== 'string') ? items : [];
+    for (i = 0; i < src.length && day.items.length < this.MAX_CARDS; i++) {
+      it = this.coerceItem({ id: src[i] && src[i].id, time: src[i] && src[i].time, snap: src[i] && src[i].snap });
+      if (it) day.items.push(it);
+    }
+    return day;
+  }
+};
+
+/* =====================================================================
+   § THE ART FOR TEACHER-AUTHORED CARDS
+   ⚠ THE COLOUR IS THE TILE AND THE SYMBOL IS KNOCKED OUT OF IT IN CREAM.
+   A teacher cannot judge contrast, so she is never asked to: cream on
+   any of these six tints is >=3:1 by construction, it greyscales cleanly
+   at the 14mm print size, and a solid tile with a hole in it is the
+   strongest mark available at the 16px plan-thumbnail size. Sky #9CC3E5
+   and lilac #C9A8E0 are deliberately ABSENT as tile fills — cream on
+   either is under 2:1.
+   ===================================================================== */
+var ODM_TINTS = ['#146B5E', '#F2784B', '#E0A63C', '#7FA860', '#8A6B4A', '#B08CD0'];
+
+var ODM_GLYPHS = {
+  /* the six she reaches for first */
+  star:    '<path d="M24 10l4.4 8.9 9.8 1.4-7.1 6.9 1.7 9.8L24 32.4l-8.8 4.6 1.7-9.8-7.1-6.9 9.8-1.4z" fill="#FFFDF7"/>',
+  book:    '<path d="M23 17v19c-3.2-2.1-7.6-3.2-12.4-3.2V13.8c4.8 0 9.2 1.1 12.4 3.2zm2 0v19c3.2-2.1 7.6-3.2 12.4-3.2V13.8c-4.8 0-9.2 1.1-12.4 3.2z" fill="#FFFDF7"/>',
+  note:    '<path d="M20 34V14l16-3v19" fill="none" stroke="#FFFDF7" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="16" cy="34" rx="4.8" ry="3.9" fill="#FFFDF7"/><ellipse cx="32" cy="30" rx="4.8" ry="3.9" fill="#FFFDF7"/>',
+  ball:    '<circle cx="24" cy="24" r="14" fill="#FFFDF7"/><path d="M24 15l8.3 6-3.2 9.8H18.9L15.7 21z" fill="currentColor"/>',
+  hand:    '<path d="M15 32V22a3 3 0 0 1 6 0v-6a3 3 0 0 1 6 0v-2a3 3 0 0 1 6 0v4a3 3 0 0 1 6 0v14c0 6-4.6 10-10.5 10h-3C19.6 42 15 38 15 32z" fill="#FFFDF7"/>',
+  bubble:  '<path d="M9 12h30v20H24l-9 8v-8H9z" fill="#FFFDF7"/>',
+  /* objects */
+  pencil:  '<path d="M12 36l18-18 6 6-18 18-8 2z" fill="#FFFDF7"/><path d="M30 18l4-4 6 6-4 4z" fill="#FFFDF7"/><path d="M30 18l6 6" stroke="currentColor" stroke-width="2.2"/>',
+  brush:   '<path d="M14 40c-2 2-6.5 2-6.5 2s0-4.5 2-6.5l16-16 4.5 4.5z" fill="#FFFDF7"/><path d="M30 20l-4.5-4.5 7.5-7.5a3.2 3.2 0 0 1 4.5 4.5z" fill="#FFFDF7"/>',
+  scissors:'<circle cx="14" cy="14" r="5" fill="none" stroke="#FFFDF7" stroke-width="3.4"/><circle cx="14" cy="30" r="5" fill="none" stroke="#FFFDF7" stroke-width="3.4"/><path d="M18 17 39 38M18 27 39 8" stroke="#FFFDF7" stroke-width="3.4" stroke-linecap="round"/>',
+  bag:     '<path d="M18 18v-3a6 6 0 0 1 12 0v3" fill="none" stroke="#FFFDF7" stroke-width="3" stroke-linecap="round"/><path d="M11 18h26l-2.4 22a3 3 0 0 1-3 2.6H16.4a3 3 0 0 1-3-2.6z" fill="#FFFDF7"/>',
+  screen:  '<rect x="9" y="12" width="30" height="20" rx="3" fill="#FFFDF7"/><rect x="13" y="16" width="22" height="12" rx="1.5" fill="currentColor"/><path d="M18 38h12" stroke="#FFFDF7" stroke-width="3.2" stroke-linecap="round"/>',
+  bell:    '<path d="M24 9a3 3 0 0 1 3 3v.7c5.2 1.3 9 6 9 11.6v6.3l3 4.4H9l3-4.4v-6.3c0-5.6 3.8-10.3 9-11.6V12a3 3 0 0 1 3-3z" fill="#FFFDF7"/><path d="M19.6 38a4.5 4.5 0 0 0 8.8 0z" fill="#FFFDF7"/>',
+  /* nature and weather */
+  plant:   '<path d="M14 30h20l-2.4 10a2.6 2.6 0 0 1-2.6 2.2h-10a2.6 2.6 0 0 1-2.6-2.2z" fill="#FFFDF7"/><path d="M24 30V17" stroke="#FFFDF7" stroke-width="2.8" stroke-linecap="round"/><path d="M24 24q-9-1-9-9 9 0 9 9z" fill="#FFFDF7"/><path d="M24 26q9-1 9-9-9 0-9 9z" fill="#FFFDF7"/>',
+  tree:    '<path d="M24 8 12 26h5l-7 11h28l-7-11h5z" fill="#FFFDF7"/><rect x="21.5" y="37" width="5" height="6" fill="#FFFDF7"/>',
+  leaf:    '<path d="M38 9C19 9 10 18 10 29c0 3.2 1 6.2 2.7 8.7 4.6-8 11.9-13.3 21.3-15.4-7.3 3.5-13.6 8.9-17.7 17.8 3.1 1.6 6.2 2 8.7 2C36.6 42 40.4 27.6 38 9z" fill="#FFFDF7"/>',
+  sun:     '<circle cx="24" cy="24" r="9" fill="#FFFDF7"/><path d="M24 7v4m0 26v4M7 24h4m26 0h4M12 12l3 3m18 18 3 3M12 36l3-3m18-18 3-3" stroke="#FFFDF7" stroke-width="3.2" stroke-linecap="round"/>',
+  cloud:   '<path d="M17 38a8 8 0 0 1-1-15.9A10 10 0 0 1 35 21a7.5 7.5 0 0 1-1 17z" fill="#FFFDF7"/>',
+  drop:    '<path d="M24 8s11 12.6 11 19a11 11 0 0 1-22 0c0-6.4 11-19 11-19z" fill="#FFFDF7"/>',
+  /* places, things, food */
+  house:   '<path d="M9 24 24 11l15 13" fill="none" stroke="#FFFDF7" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 24v16h22V24z" fill="#FFFDF7"/><rect x="21" y="30" width="6" height="10" fill="currentColor"/>',
+  flag:    '<path d="M13 8v34" stroke="#FFFDF7" stroke-width="3.6" stroke-linecap="round"/><path d="M15 11h22l-5 7 5 7H15z" fill="#FFFDF7"/>',
+  cup:     '<path d="M12 14h20v14a10 10 0 0 1-20 0z" fill="#FFFDF7"/><path d="M32 18h3.5a5 5 0 0 1 0 10H32" fill="none" stroke="#FFFDF7" stroke-width="3"/><path d="M14 40h20" stroke="#FFFDF7" stroke-width="3.2" stroke-linecap="round"/>',
+  apple:   '<path d="M24 15c3-4 12.5-4 13.5 4.2C38.5 28.5 32.3 42 28 42c-2 0-3-1.4-4-1.4S22 42 20 42c-4.3 0-10.5-13.5-9.5-22.8C11.5 11 21 11 24 15z" fill="#FFFDF7"/><path d="M24 15q0-6 6.5-7" fill="none" stroke="#FFFDF7" stroke-width="2.8" stroke-linecap="round"/>',
+  clock:   '<circle cx="24" cy="24" r="15" fill="#FFFDF7"/><path d="M24 14v10h8" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>',
+  block:   '<path d="M24 8l14 8v16l-14 8-14-8V16z" fill="#FFFDF7"/><path d="M24 24 10 16m14 8 14-8m-14 8v16" fill="none" stroke="currentColor" stroke-width="2.2"/>',
+  /* play and making */
+  shapes:  '<circle cx="15" cy="16" r="6.5" fill="#FFFDF7"/><rect x="26" y="9.5" width="13" height="13" rx="2" fill="#FFFDF7"/><path d="M24 27l9 15H15z" fill="#FFFDF7"/>',
+  puzzle:  '<path d="M12 14h8a4 4 0 1 1 8 0h8v8a4 4 0 1 1 0 8v8h-8a4 4 0 1 0-8 0h-8z" fill="#FFFDF7"/>',
+  dice:    '<rect x="10" y="10" width="28" height="28" rx="6" fill="#FFFDF7"/><circle cx="18" cy="18" r="3.2" fill="currentColor"/><circle cx="24" cy="24" r="3.2" fill="currentColor"/><circle cx="30" cy="30" r="3.2" fill="currentColor"/>',
+  medal:   '<path d="M16.5 20 11 8h8l4.5 9.5m1 0L29 8h8l-5.5 12z" fill="#FFFDF7"/><circle cx="24" cy="31" r="11" fill="#FFFDF7"/><path d="M24 25.5l1.9 3.9 4.3.6-3.1 3 .7 4.3-3.8-2-3.8 2 .7-4.3-3.1-3 4.3-.6z" fill="currentColor"/>',
+  camera:  '<path d="M17 15l2.5-4h9l2.5 4h6a3.2 3.2 0 0 1 3.2 3.2v14.6A3.2 3.2 0 0 1 37 36H11a3.2 3.2 0 0 1-3.2-3.2V18.2A3.2 3.2 0 0 1 11 15z" fill="#FFFDF7"/><circle cx="24" cy="25.5" r="7" fill="currentColor"/>',
+  globe:   '<circle cx="24" cy="24" r="14" fill="#FFFDF7"/><path d="M10 24h28M24 10q-6 14 0 28M24 10q6 14 0 28" fill="none" stroke="currentColor" stroke-width="2.6"/>',
+  /* people and going places */
+  smile:   '<circle cx="24" cy="24" r="15" fill="#FFFDF7"/><circle cx="18.5" cy="21" r="2.3" fill="currentColor"/><circle cx="29.5" cy="21" r="2.3" fill="currentColor"/><path d="M17 28q7 6.5 14 0" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>',
+  heart:   '<path d="M24 39S9 30 9 21.2A7.2 7.2 0 0 1 24 16.6 7.2 7.2 0 0 1 39 21.2C39 30 24 39 24 39z" fill="#FFFDF7"/>',
+  shoe:    '<path d="M9 20v6h9l6 5 12 2a5.5 5.5 0 0 1 5 5.5V41H9z" fill="#FFFDF7"/>',
+  boat:    '<path d="M7 32h34l-5.5 9H12.5z" fill="#FFFDF7"/><path d="M24 8v22M24 12l11 16H24" fill="#FFFDF7" stroke="#FFFDF7" stroke-width="2.8" stroke-linejoin="round"/>',
+  key:     '<circle cx="17" cy="20" r="8" fill="none" stroke="#FFFDF7" stroke-width="4.2"/><path d="M22.5 26.5 37 41m-6-6 4-4m-8.5-2.5 4-4" stroke="#FFFDF7" stroke-width="4.2" stroke-linecap="round"/>',
+  crown:   '<path d="M9 36 7 14l10 7.5L24 9l7 12.5L41 14l-2 22z" fill="#FFFDF7"/><path d="M10 41h28" stroke="#FFFDF7" stroke-width="3.4" stroke-linecap="round"/>'
+};
+
 var OurDay = {
+  M: ODM,                    /* exposed so a Node gate drives the model
+                                without a browser (calendar-wall :817) */
   id: 'our-day',
 
   strings: {
@@ -65,7 +476,6 @@ var OurDay = {
     grpTogether:  {en:'Together',de:'Gemeinsam',fr:'Ensemble',it:'Insieme',es:'Juntos',pt:'Juntos',nl:'Samen',sv:'Tillsammans',da:'Sammen',no:'Sammen',fi:'Yhdessä'},
     grpSpecial:   {en:'Special cards',de:'Besondere Karten',fr:'Cartes spéciales',it:'Carte speciali',es:'Tarjetas especiales',pt:'Cartões especiais',nl:'Speciale kaartjes',sv:'Specialkort',da:'Særlige kort',no:'Spesialkort',fi:'Erikoiskortit'},
     tmplTitle:    {en:'Weekly plans',de:'Wochenpläne',fr:'Plans de la semaine',it:'Piani della settimana',es:'Planes de la semana',pt:'Planos da semana',nl:'Weekplannen',sv:'Veckoplaner',da:'Ugeplaner',no:'Ukeplaner',fi:'Viikkosuunnitelmat'},
-    tmplSaveAs:   {en:'Save as {day}',de:'Als {day} speichern',fr:'Enregistrer pour {day}',it:'Salva come {day}',es:'Guardar como {day}',pt:'Salvar como {day}',nl:'Opslaan als {day}',sv:'Spara som {day}',da:'Gem som {day}',no:'Lagre som {day}',fi:'Tallenna: {day}'},
     tmplReady:    {en:'{day}’s plan is ready — change anything?',de:'Der Plan für {day} liegt bereit — noch etwas ändern?',fr:'Le plan de {day} est prêt — on change quelque chose ?',it:'Il piano di {day} è pronto — vuoi cambiare qualcosa?',es:'{day}: el plan está listo — ¿cambiamos algo?',pt:'O plano de {day} está pronto — quer mudar algo?',nl:'Het plan voor {day} staat klaar — nog iets aanpassen?',sv:'Planen för {day} är klar — vill du ändra något?',da:'Planen for {day} er klar — skal noget ændres?',no:'Planen for {day} er klar — vil du endre noe?',fi:'{day}-suunnitelma on valmis — muutetaanko jotain?'},
     tmplUse:      {en:'Use it',de:'Übernehmen',fr:'Le garder',it:'Usalo',es:'Usarlo',pt:'Usar',nl:'Gebruiken',sv:'Använd den',da:'Brug den',no:'Bruk den',fi:'Käytä'},
     tmplFresh:    {en:'Start fresh',de:'Neu beginnen',fr:'Partir de zéro',it:'Ricomincia',es:'Empezar de cero',pt:'Começar do zero',nl:'Opnieuw beginnen',sv:'Börja om',da:'Start forfra',no:'Begynn på nytt',fi:'Aloita alusta'},
@@ -78,6 +488,45 @@ var OurDay = {
     setCues:      {en:'Sound cues',de:'Töne',fr:'Signaux sonores',it:'Segnali sonori',es:'Efectos de sonido',pt:'Sinais sonoros',nl:'Geluidssignalen',sv:'Ljudsignaler',da:'Lydsignaler',no:'Lydsignaler',fi:'Äänimerkit'},
     gatePremium:  {en:'Times on the cards, the spoken voice, weekly plans, and printing are part of Premium. Building today’s schedule — with the sun, the change cards, and every activity — is always free.',de:'Uhrzeiten auf den Karten, die Vorlesestimme, Wochenpläne und das Drucken gehören zu Premium. Den Tagesplan bauen — mit Sonne, Änderungskarten und allen Aktivitäten — bleibt immer kostenlos.',fr:'Les heures sur les cartes, la voix, les plans de la semaine et l’impression font partie de Premium. Construire la journée — avec le soleil, les cartes de changement et toutes les activités — reste toujours gratuit.',it:'Gli orari sulle carte, la voce che legge, i piani della settimana e la stampa fanno parte di Premium. Costruire la giornata — con il sole, i cambi di programma e tutte le attività — resta sempre gratuito.',es:'Las horas en las tarjetas, la voz, los planes de la semana y la impresión forman parte de Premium. Armar el día — con el sol, las tarjetas de cambio y todas las actividades — es gratis para siempre.',pt:'Os horários nos cartões, a voz, os planos da semana e a impressão fazem parte do Premium. Montar o dia — com o sol, os cartões de mudança e todas as atividades — é sempre gratuito.',nl:'Tijden op de kaartjes, de stem, weekplannen en afdrukken horen bij Premium. De dag bouwen — met de zon, de veranderkaartjes en alle activiteiten — blijft altijd gratis.',sv:'Tider på korten, rösten, veckoplaner och utskrift ingår i Premium. Att bygga dagen — med solen, ändringskorten och alla aktiviteter — är alltid gratis.',da:'Tider på kortene, stemmen, ugeplaner og udskrift er en del af Premium. At bygge dagen — med solen, ændringskortene og alle aktiviteter — er altid gratis.',no:'Klokkeslett på kortene, stemmen, ukeplaner og utskrift er en del av Premium. Å bygge dagen — med sola, endringskortene og alle aktivitetene — er alltid gratis.',fi:'Korttien kellonajat, ääni, viikkosuunnitelmat ja tulostus kuuluvat Premiumiin. Päivän rakentaminen — aurinkoineen, muutoskortteineen ja kaikkine puuhineen — on aina ilmaista.'},
     unlock:       {en:'Unlock everything',de:'Alles freischalten',fr:'Tout débloquer',it:'Sblocca tutto',es:'Desbloquear todo',pt:'Desbloquear tudo',nl:'Alles ontgrendelen',sv:'Lås upp allt',da:'Lås alt op',no:'Lås opp alt',fi:'Avaa kaikki'},
+    /* ---- REBUILD 2026-08-07: new keys ----
+       ⚠ These are the ENGLISH SOURCE and it is the locale nobody
+       reviews. Every native panel gets this block as a SOURCE TO AUDIT,
+       not as a target to translate — that is where the last several
+       tools' worst copy defects were caught. */
+    soonFrame:    {en:'Soon it’s {a}.',de:'Gleich kommt {a}.',fr:'Bientôt, ce sera {a}.',it:'Fra poco c’è {a}.',es:'Ahora viene {a}.',pt:'Daqui a pouco é {a}.',nl:'Straks is het {a}.',sv:'Snart är det {a}.',da:'Om lidt er det {a}.',no:'Snart er det {a}.',fi:'Kohta on {a}.'},
+    dayDoneTitle: {en:'That was our day.',de:'Das war unser Tag.',fr:'Voilà notre journée.',it:'Questa è stata la nostra giornata.',es:'Ese fue nuestro día.',pt:'Esse foi o nosso dia.',nl:'Dat was onze dag.',sv:'Det var vår dag.',da:'Det var vores dag.',no:'Det var dagen vår.',fi:'Se oli meidän päivä.'},
+    dayDoneSpoken:{en:'That was our day.',de:'Das war unser Tag.',fr:'Voilà notre journée.',it:'Questa è stata la nostra giornata.',es:'Ese fue nuestro día.',pt:'Esse foi o nosso dia.',nl:'Dat was onze dag.',sv:'Det var vår dag.',da:'Det var vores dag.',no:'Det var dagen vår.',fi:'Se oli meidän päivä.'},
+    tomorrowChip: {en:'Build tomorrow',de:'Morgen planen',fr:'Préparer demain',it:'Prepara domani',es:'Preparar mañana',pt:'Montar amanhã',nl:'Morgen klaarzetten',sv:'Bygg i morgon',da:'Byg i morgen',no:'Bygg i morgen',fi:'Rakenna huominen'},
+    removedOnDay: {en:'{name} moves to {day}.',de:'{name} wandert auf {day}.',fr:'{name}, ce sera {day}.',it:'{name} passa a {day}.',es:'Guardamos {name} para el {day}.',pt:'{name} fica para {day}.',nl:'{name} schuift door naar {day}.',sv:'{name} flyttas till {day}.',da:'{name} flyttes til {day}.',no:'{name} flyttes til {day}.',fi:'{name} siirtyy {day}.'},
+    skipWhich:    {en:'Which day instead?',de:'An welchem Tag dann?',fr:'Quel jour à la place ?',it:'Quale giorno, allora?',es:'¿Qué día en su lugar?',pt:'Em que dia, então?',nl:'Welke dag dan?',sv:'Vilken dag i stället?',da:'Hvilken dag i stedet?',no:'Hvilken dag i stedet?',fi:'Minä päivänä sitten?'},
+    skipNoDay:    {en:'Another day',de:'Ein andermal',fr:'Un autre jour',it:'Un altro giorno',es:'Otro día',pt:'Outro dia',nl:'Een andere keer',sv:'En annan dag',da:'En anden dag',no:'En annen dag',fi:'Toisena päivänä'},
+    setWarn:      {en:'Two taps to move on (a gentle warning first)',de:'Zwei Tipper zum Weitergehen (erst ein sanfter Hinweis)',fr:'Deux touches pour avancer (un signal doux d’abord)',it:'Due tocchi per proseguire (prima un segnale gentile)',es:'Dos toques para avanzar (primero un aviso suave)',pt:'Dois toques para avançar (primeiro um aviso suave)',nl:'Twee tikken om verder te gaan (eerst een zacht seintje)',sv:'Två tryck för att gå vidare (först en mjuk förvarning)',da:'To tryk for at gå videre (først et blidt varsel)',no:'To trykk for å gå videre (først et mykt varsel)',fi:'Kaksi napautusta eteenpäin (ensin lempeä ennakkomerkki)'},
+    addOwn:       {en:'My cards',de:'Meine Karten',fr:'Mes cartes',it:'Le mie carte',es:'Mis tarjetas',pt:'Meus cartões',nl:'Mijn kaartjes',sv:'Mina kort',da:'Mine kort',no:'Mine kort',fi:'Omat kortit'},
+    makeTitle:    {en:'Name this card',de:'Wie heißt diese Karte?',fr:'Nomme cette carte',it:'Dai un nome a questa carta',es:'Ponle nombre a esta tarjeta',pt:'Dê um nome a este cartão',nl:'Geef dit kaartje een naam',sv:'Vad heter det här kortet?',da:'Hvad hedder dette kort?',no:'Hva heter dette kortet?',fi:'Anna kortille nimi'},
+    makeHint:     {en:'Children will see the picture, not the words.',de:'Die Kinder sehen das Bild, nicht die Wörter.',fr:'Les enfants voient l’image, pas les mots.',it:'I bambini vedono l’immagine, non le parole.',es:'Los niños ven el dibujo, no las palabras.',pt:'As crianças veem a imagem, não as palavras.',nl:'Kinderen zien het plaatje, niet de woorden.',sv:'Barnen ser bilden, inte orden.',da:'Børnene ser billedet, ikke ordene.',no:'Barna ser bildet, ikke ordene.',fi:'Lapset näkevät kuvan, eivät sanoja.'},
+    makeAdd:      {en:'Add to today',de:'Zum Tag hinzufügen',fr:'Ajouter à la journée',it:'Aggiungi alla giornata',es:'Añadir al día',pt:'Adicionar ao dia',nl:'Aan vandaag toevoegen',sv:'Lägg till i dagen',da:'Føj til dagen',no:'Legg til i dagen',fi:'Lisää päivään'},
+    makeSave:     {en:'Save',de:'Speichern',fr:'Enregistrer',it:'Salva',es:'Guardar',pt:'Salvar',nl:'Opslaan',sv:'Spara',da:'Gem',no:'Lagre',fi:'Tallenna'},
+    makeDelete:   {en:'Delete this card',de:'Karte löschen',fr:'Supprimer cette carte',it:'Elimina questa carta',es:'Borrar esta tarjeta',pt:'Excluir este cartão',nl:'Dit kaartje verwijderen',sv:'Ta bort kortet',da:'Slet kortet',no:'Slett kortet',fi:'Poista kortti'},
+    makeDeviceOnly:{en:'Your cards stay in this browser, on this computer.',de:'Deine Karten bleiben in diesem Browser, auf diesem Computer.',fr:'Vos cartes restent dans ce navigateur, sur cet ordinateur.',it:'Le tue carte restano in questo browser, su questo computer.',es:'Tus tarjetas se quedan en este navegador, en este ordenador.',pt:'Seus cartões ficam neste navegador, neste computador.',nl:'Je kaartjes blijven in deze browser, op deze computer.',sv:'Dina kort stannar i den här webbläsaren, på den här datorn.',da:'Dine kort bliver i denne browser, på denne computer.',no:'Kortene dine blir i denne nettleseren, på denne maskinen.',fi:'Korttisi säilyvät tässä selaimessa, tällä koneella.'},
+    /* ⚠ REFUSE WITH A REASON, NEVER IN SILENCE. Each of these used to be
+       impossible to reach because the feature did not exist; a bare
+       `return` would be indistinguishable from the tool being broken. */
+    noticeFull:   {en:'That’s twelve cards — the most you can keep. Edit one you already have.',de:'Das sind zwölf Karten — mehr lassen sich nicht behalten. Bearbeite eine vorhandene.',fr:'Cela fait douze cartes — c’est le maximum. Modifiez-en une existante.',it:'Sono dodici carte — il massimo. Modificane una che hai già.',es:'Son doce tarjetas — el máximo. Edita una que ya tengas.',pt:'São doze cartões — o máximo. Edite um que você já tem.',nl:'Dat zijn twaalf kaartjes — het maximum. Pas er een aan die je al hebt.',sv:'Det är tolv kort — fler går inte att spara. Ändra ett du redan har.',da:'Det er tolv kort — flere kan ikke gemmes. Rediger et, du allerede har.',no:'Det er tolv kort — flere kan ikke lagres. Endre ett du allerede har.',fi:'Kaksitoista korttia on enimmäismäärä. Muokkaa jotakin jo olemassa olevaa.'},
+    noticeLong:   {en:'That name is a little long for the board — try twenty letters or fewer.',de:'Der Name ist für die Tafel etwas lang — höchstens zwanzig Zeichen.',fr:'Ce nom est un peu long pour le tableau — vingt lettres au maximum.',it:'Il nome è un po’ lungo per la lavagna — al massimo venti lettere.',es:'Ese nombre es un poco largo para la pizarra — veinte letras como máximo.',pt:'Esse nome é um pouco longo para o quadro — no máximo vinte letras.',nl:'Die naam is wat lang voor het bord — hoogstens twintig letters.',sv:'Namnet är lite långt för tavlan — högst tjugo tecken.',da:'Navnet er lidt langt til tavlen — højst tyve tegn.',no:'Navnet er litt langt for tavla — høyst tjue tegn.',fi:'Nimi on taululle vähän pitkä — enintään kaksikymmentä merkkiä.'},
+    noticeDup:    {en:'You already have a card that looks like this one. Pick another picture or colour.',de:'So eine Karte gibt es schon. Wähle ein anderes Bild oder eine andere Farbe.',fr:'Vous avez déjà une carte qui ressemble à celle-ci. Choisissez une autre image ou couleur.',it:'Hai già una carta come questa. Scegli un’altra immagine o un altro colore.',es:'Ya tienes una tarjeta parecida. Elige otro dibujo u otro color.',pt:'Você já tem um cartão parecido. Escolha outra imagem ou outra cor.',nl:'Je hebt al zo’n kaartje. Kies een ander plaatje of een andere kleur.',sv:'Du har redan ett kort som ser ut så här. Välj en annan bild eller färg.',da:'Du har allerede et kort, der ser sådan ud. Vælg et andet billede eller en anden farve.',no:'Du har allerede et kort som ser slik ut. Velg et annet bilde eller en annen farge.',fi:'Sinulla on jo tällainen kortti. Valitse toinen kuva tai väri.'},
+    noticeEmpty:  {en:'Give the card a name first.',de:'Gib der Karte zuerst einen Namen.',fr:'Donnez d’abord un nom à la carte.',it:'Prima dai un nome alla carta.',es:'Primero ponle un nombre a la tarjeta.',pt:'Primeiro dê um nome ao cartão.',nl:'Geef het kaartje eerst een naam.',sv:'Ge kortet ett namn först.',da:'Giv først kortet et navn.',no:'Gi kortet et navn først.',fi:'Anna kortille ensin nimi.'},
+    recentLbl:    {en:'Used often',de:'Oft benutzt',fr:'Souvent utilisées',it:'Usate spesso',es:'Usadas a menudo',pt:'Usados com frequência',nl:'Vaak gebruikt',sv:'Ofta använda',da:'Ofte brugt',no:'Ofte brukt',fi:'Usein käytetyt'},
+    addCardAria:  {en:'Add an activity',de:'Aktivität hinzufügen',fr:'Ajouter une activité',it:'Aggiungi un’attività',es:'Añadir una actividad',pt:'Adicionar uma atividade',nl:'Activiteit toevoegen',sv:'Lägg till en aktivitet',da:'Tilføj en aktivitet',no:'Legg til en aktivitet',fi:'Lisää puuha'},
+    closeAria:    {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
+    upAria:       {en:'Move {name} earlier',de:'{name} nach vorn schieben',fr:'Déplacer {name} plus tôt',it:'Sposta {name} prima',es:'Mover {name} antes',pt:'Mover {name} para antes',nl:'{name} eerder zetten',sv:'Flytta {name} tidigare',da:'Flyt {name} tidligere',no:'Flytt {name} tidligere',fi:'Siirrä {name} aiemmaksi'},
+    downAria:     {en:'Move {name} later',de:'{name} nach hinten schieben',fr:'Déplacer {name} plus tard',it:'Sposta {name} dopo',es:'Mover {name} después',pt:'Mover {name} para depois',nl:'{name} later zetten',sv:'Flytta {name} senare',da:'Flyt {name} senere',no:'Flytt {name} senere',fi:'Siirrä {name} myöhemmäksi'},
+    nextLbl:      {en:'Next',de:'Danach',fr:'Ensuite',it:'Poi',es:'Después',pt:'Depois',nl:'Daarna',sv:'Sedan',da:'Derefter',no:'Deretter',fi:'Seuraavaksi'},
+    focusChip:    {en:'Now and next',de:'Jetzt und danach',fr:'Maintenant et ensuite',it:'Adesso e poi',es:'Ahora y después',pt:'Agora e depois',nl:'Nu en straks',sv:'Nu och sedan',da:'Nu og derefter',no:'Nå og deretter',fi:'Nyt ja seuraavaksi'},
+    moreChip:     {en:'Show the tools',de:'Werkzeuge zeigen',fr:'Afficher les outils',it:'Mostra gli strumenti',es:'Mostrar las herramientas',pt:'Mostrar as ferramentas',nl:'Toon de knoppen',sv:'Visa verktygen',da:'Vis værktøjerne',no:'Vis verktøyene',fi:'Näytä työkalut'},
+    tmplReplace:  {en:'Replace {day}?',de:'{day} ersetzen?',fr:'Remplacer {day} ?',it:'Sostituire {day}?',es:'¿Reemplazar {day}?',pt:'Substituir {day}?',nl:'{day} vervangen?',sv:'Ersätta {day}?',da:'Erstat {day}?',no:'Erstatte {day}?',fi:'Korvataanko {day}?'},
+    tmplSaveHere: {en:'Save today here',de:'Heute hier speichern',fr:'Enregistrer aujourd’hui ici',it:'Salva qui la giornata',es:'Guardar hoy aquí',pt:'Salvar hoje aqui',nl:'Vandaag hier opslaan',sv:'Spara dagen här',da:'Gem dagen her',no:'Lagre dagen her',fi:'Tallenna tämä päivä tähän'},
+    tmplKeep:     {en:'Keep',de:'Behalten',fr:'Garder',it:'Mantieni',es:'Mantener',pt:'Manter',nl:'Behouden',sv:'Behåll',da:'Behold',no:'Behold',fi:'Säilytä'},
+    tmplName:     {en:'Name this plan',de:'Plan benennen',fr:'Nommer ce plan',it:'Dai un nome al piano',es:'Ponle nombre al plan',pt:'Dê um nome ao plano',nl:'Geef dit plan een naam',sv:'Namnge planen',da:'Navngiv planen',no:'Gi planen et navn',fi:'Nimeä suunnitelma'},
     voiceMissing: {en:'No voice for this language is installed on this device.',de:'Auf diesem Gerät ist keine Stimme für diese Sprache installiert.',fr:'Aucune voix pour cette langue n’est installée sur cet appareil.',it:'Su questo dispositivo non è installata una voce per questa lingua.',es:'Este dispositivo no tiene instalada una voz para este idioma.',pt:'Este aparelho não tem uma voz instalada para este idioma.',nl:'Op dit apparaat is geen stem voor deze taal geïnstalleerd.',sv:'Det finns ingen röst för det här språket på den här enheten.',da:'Der er ingen stemme til dette sprog på denne enhed.',no:'Det er ikke installert noen stemme for dette språket på denne enheten.',fi:'Tässä laitteessa ei ole puheääntä tälle kielelle.'}
   },
 
@@ -227,13 +676,20 @@ var OurDay = {
     /*__TR_fi__*/ fi: { hourWords:['1','2','3','4','5','6','7','8','9','10','11','12'], hourWordsAlt:['yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän','kymmenen','yksitoista','kaksitoista'], hourWordsAlt2:['yhtä','kahta','kolmea','neljää','viittä','kuutta','seitsemää','kahdeksaa','yhdeksää','kymmentä','yhtätoista','kahtatoista'], positions:{0:'kello {H}',5:'viisi yli {H2}',10:'kymmenen yli {H2}',15:'vartti yli {H2}',20:'kymmentä vaille puoli {N2}',25:'viittä vaille puoli {N2}',30:'puoli {N}',35:'viisi yli puoli {N2}',40:'kymmenen yli puoli {N2}',45:'varttia vaille {N2}',50:'kymmentä vaille {N2}',55:'viittä vaille {N2}'}, formal:{tpl:'{HW} {M#}',zero:'kello {HW}',low:'{HW} nolla {M#}'}, specials:[] },
   },
 
-  defaults: { voice: true, soundCues: true },
+  defaults: { voice: true, soundCues: true, warnFirst: true },
   settings: [
     { key: 'voice', type: 'toggle', labelKey: 'setVoice' },
-    { key: 'soundCues', type: 'toggle', labelKey: 'setCues' }
+    { key: 'soundCues', type: 'toggle', labelKey: 'setCues' },
+    /* the warning stage is opt-OUT, not opt-in: the teachers who most
+       need it are the least likely to go looking for a setting. */
+    { key: 'warnFirst', type: 'toggle', labelKey: 'setWarn' }
   ],
 
-  STORE_KEY: 'lcs:our-day:v1',
+  /* ⚠ v2: the stored shape changed (items carry `snap`, the store carries
+     `custom` and `recent`), so the KEY changes too rather than silently
+     mis-reading a v1 blob. v1 days are same-day-only and expire at
+     midnight anyway, so there is nothing worth migrating. */
+  STORE_KEY: 'lcs:our-day:v2',
   ENT_TRUST_DAYS: 14,
   MAX_CARDS: 16,
 
@@ -247,13 +703,32 @@ var OurDay = {
       return true;
     });
   },
-  cardName: function (id, loc) {
+  /* ⭐ THE SNAPSHOT WINS. Every card carried in the strip or in a saved
+     plan stores its own {name,icon,tint}, and it is consulted first.
+     That one rule buys three things at once: a teacher may delete a
+     custom card without blanking the Tuesday it appears in; the printed
+     sheet is always right; and it fixes the locale-blind template bug —
+     a plan saved with `showtell` (en-only) or `honores` (es/pt-only)
+     reopened in another locale used to render the literal em-dash that
+     NAMES holds as its not-available marker, because '—' is truthy and
+     the English fallback never fired. */
+  cardName: function (id, loc, snap) {
+    if (snap && snap.name) return snap.name;
+    var c = ODM.findCustom(this._store && this._store.custom ? this._store.custom : [], id);
+    if (c) return c.name;
     var m = this.NAMES[id];
-    return m ? (m[loc] || m.en) : id;
+    if (!m) return id;
+    var v = m[loc];
+    if (!v || v === '—') v = m.en;
+    return (!v || v === '—') ? id : v;
   },
-  announceName: function (id, loc) {
+  /* a teacher's own words are never routed through ANNOUNCE or dropped
+     into a frame that assumes a grammatical form — they are spoken bare. */
+  isCustom: function (id) { return typeof id === 'string' && id.indexOf('my:') === 0; },
+  announceName: function (id, loc, snap) {
+    if (this.isCustom(id) || (snap && snap.name)) return this.cardName(id, loc, snap);
     var ov = this.ANNOUNCE[loc];
-    return (ov && ov[id]) || this.cardName(id, loc);
+    return (ov && ov[id]) || this.cardName(id, loc, snap);
   },
 
   /* sayTime — positions-path of learning-clock's sayTime (this tool only
@@ -285,23 +760,37 @@ var OurDay = {
   /* the framed time sentence: "{Activity} ist um halb eins." with the
      fi/da/no leading clock-word STRIP (their pos-0 emits it; the frame
      supplies its own — a doubled clock word is the defect class). */
-  timeSentence: function (loc, cardId, h24, m) {
+  timeSentence: function (loc, cardId, h24, m, snap) {
     var h = h24 % 12 === 0 ? 12 : h24 % 12;
     var t = this.sayTime(loc, h, m);
     if (t === null) return null;
     var strip = this.CLOCKWORD_STRIP[loc];
     if (strip && t.indexOf(strip) === 0) t = t.slice(strip.length);
     var frame = this.TIME_FRAME[loc] || this.TIME_FRAME.en;
-    var tname = ((this.TIME_NAMES || {})[loc] || {})[cardId] || this.cardName(cardId, loc);
+    var tname = (snap && snap.name) ? snap.name
+      : (((this.TIME_NAMES || {})[loc] || {})[cardId] || this.cardName(cardId, loc, snap));
     return frame.split('{a}').join(this._cap(tname)).split('{t}').join(t);
   },
-  nowSentence: function (loc, cardId) {
+  nowSentence: function (loc, cardId, snap) {
+    /* a teacher's own words are spoken BARE — a dignified noun beats
+       forcing "Morgonsamling" through a frame that assumes a case. */
+    if (this.isCustom(cardId) || (snap && snap.name)) return this._cap(this.cardName(cardId, loc, snap)) + '.';
     var frame = this.NOW_FRAME[loc] || this.NOW_FRAME.en;
-    return frame.split('{a}').join(this.announceName(cardId, loc));
+    return frame.split('{a}').join(this.announceName(cardId, loc, snap));
   },
-  /* digital display always HH:MM 24h-agnostic per locale? keep simple:
-     the picker range is 7-16, displayed as set (school-day clock). */
-  fmtDigital: function (h24, m) { return h24 + ':' + (m < 10 ? '0' + m : m); },
+
+  /* ⚠ THE DIGITAL CHIP USED TO BE 24-HOUR IN EVERY LOCALE. An English
+     or Brazilian classroom read "13:30" on the card while the voice
+     beside it correctly said "half past one" — the two halves of the
+     same feature disagreeing. The clock convention is derived from the
+     SAME per-locale table the speech uses, so the two cannot drift. */
+  CLOCK_12H: { en: true, pt: true, es: true },
+  fmtDigital: function (h24, m) {
+    var mm = (m < 10 ? '0' + m : String(m));
+    if (!this.CLOCK_12H[this.api && this.api.lang]) return h24 + ':' + mm;
+    var h = h24 % 12; if (h === 0) h = 12;
+    return h + ':' + mm + (h24 < 12 ? ' am' : ' pm');
+  },
 
   /* weekday label: Intl (nb for no), SELF-capitalized, Monday-first */
   WEEKDAYS: ['mon', 'tue', 'wed', 'thu', 'fri'],
@@ -319,41 +808,40 @@ var OurDay = {
   },
   _cap: function (s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; },
 
-  /* day-state (persisted): items[] of {id, time:null|{h,m}, changedFrom:null|id, skipped:bool}, sunIdx */
-  _blankDay: function () { return { items: [], sunIdx: 0, started: false }; },
-
   /* ========================== mount ================================= */
 
   premium: false,
+  premiumKnown: false,      /* ⚠ unknown entitlement is PESSIMISTIC */
 
   init: function (api) {
     this.api = api;
     injectOurDayCSS();
 
-    this.day = this._blankDay();
+    this.day = ODM.newDay();
     this.mode = 'build';        /* build | run | edit */
-    this.changeIdx = null;      /* card index in the change overlay */
-    this.changePick = null;     /* 'swap' | 'before' | 'after' */
-    this.timeIdx = null;        /* card index in the time picker */
-    this.gateOpen = false;
+    this._closeOverlays();
     this.banner = null;         /* pending template banner {idx} */
-    this.pebbleUntil = 0;
     this.displayMode = false;
+    this.focusMode = false;     /* first-then LENS — never a 2nd schedule */
     this._lastTouch = Date.now();
+    this._lastAdvance = 0;      /* double-tap accelerator through the warning */
     this._speaking = false;
     this._actx = null;
     this._voiceState = null;
-    this._flyFrom = null;
 
     this._store = this._loadStore();
-    if (!this._store.v) this._store = { v: 1, ent: null, settings: null, templates: {}, day: null };
+    if (!this._store.v) this._store = { v: 2, ent: null, settings: null, templates: {}, day: null, custom: [], recent: [] };
     if (!this._store.templates) this._store.templates = {};
+    this._store.custom = ODM.coerceCustomList(this._store.custom);
+    if (!this._store.recent || this._store.recent.length === undefined) this._store.recent = [];
     var saved = this._store.settings || {};
     for (var k in saved) if (Object.prototype.hasOwnProperty.call(api.settings, k)) api.settings[k] = saved[k];
 
-    /* an all-day tool survives a reload: restore today's day-state */
+    /* an all-day tool survives a reload: restore today's day-state.
+       ⚠ ALWAYS THROUGH coerceDay — a hand-edited or half-written blob
+       must be made total on the way in, never trusted on the way in. */
     if (this._store.day && this._store.day.date === this._todayKey() && this._store.day.state) {
-      this.day = this._store.day.state;
+      this.day = ODM.coerceDay(this._store.day.state);
       if (this.day.started) this.mode = 'run';
     }
 
@@ -362,12 +850,24 @@ var OurDay = {
 
     var self = this;
     this._idleTimer = setInterval(function () {
-      if (self.mode === 'run' && !self.displayMode && Date.now() - self._lastTouch > 60000) {
+      if (self.mode === 'run' && !self.displayMode && !self._anyOverlayOpen() &&
+          Date.now() - self._lastTouch > 60000) {
         self.displayMode = true;
         self.render();
       }
     }, 5000);
-    document.addEventListener('pointerdown', function () { self._lastTouch = Date.now(); }, true);
+    /* ⚠ DISPLAY MODE USED TO BE A ONE-WAY TRAP. Sixty seconds of not
+       touching the board — i.e. always, on a projector — set
+       displayMode, and display mode set `pointer-events:none` on the
+       toolbar that held the ONLY control which could clear it again.
+       The teacher then had no Edit, no change ritual, no Print for the
+       rest of the school day, and the one in-page escape was the shell's
+       Reset, which wipes the day. Any pointer on the tool now leaves it. */
+    this._onPointer = function () {
+      self._lastTouch = Date.now();
+      if (self.displayMode) { self.displayMode = false; self.render(); }
+    };
+    document.addEventListener('pointerdown', this._onPointer, true);
   },
 
   _todayKey: function () {
@@ -408,19 +908,23 @@ var OurDay = {
     };
     var token = null;
     try { token = localStorage.getItem('accessToken'); } catch (_) {}
-    if (!token) return;
+    /* ⚠ UNKNOWN ENTITLEMENT IS PESSIMISTIC — an unknown tier is a free
+       tier until proven otherwise, and the cached 14-day trust applies
+       ONLY to a NETWORK failure. An authoritative "free" demotes at once. */
+    if (!token) { this.premiumKnown = true; return; }
     fetch('/api/auth/me', { headers: { Authorization: 'Bearer ' + token }, cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
-        if (!j) { trustCache(); return; }
+        if (!j) { trustCache(); self.premiumKnown = true; return; }
         var tier = j.user && j.user.subscriptionTier;
         var sub = j.subscription;
         self.premium = !!((tier && tier !== 'free') || (sub && (sub.status === 'active' || sub.status === 'past_due')));
+        self.premiumKnown = true;
         self._store.ent = { tier: self.premium ? 'full' : 'free', checkedAt: new Date().toISOString() };
         self._saveStore();
         if (self._wrap) { self._maybeTemplateBanner(); applyDeepLink(); self.render(); }
       })
-      .catch(function () { trustCache(); });
+      .catch(function () { trustCache(); self.premiumKnown = true; if (self._wrap) self.render(); });
   },
   /* today's weekday template exists → pre-stage behind a banner (never
      silently start, never make her rebuild) */
@@ -439,24 +943,47 @@ var OurDay = {
   _voiceOk: function () {
     if (this._voiceState !== null) return this._voiceState;
     var ok = true;
+    /* ⚠ AN EMPTY getVoices() IS "NOT YET", NOT "YES". Chrome returns []
+       until the `voiceschanged` event fires, and the old code fell
+       through with ok=true and CACHED it — so on the device where the
+       voice is genuinely missing the 🔇 indicator could never appear.
+       An indeterminate answer is not cached, and we listen once. */
     try {
-      if (!window.speechSynthesis) ok = false;
-      else {
-        var voices = window.speechSynthesis.getVoices() || [];
-        if (voices.length > 0) {
-          var want = ({ no: 'nb', pt: 'pt' }[this.api.lang] || this.api.lang).toLowerCase();
-          ok = voices.some(function (v) { return (v.lang || '').toLowerCase().indexOf(want) === 0; });
-          if (!ok && this.api.lang === 'no') ok = voices.some(function (v) { return (v.lang || '').toLowerCase().indexOf('no') === 0; });
+      if (!window.speechSynthesis) { this._voiceState = false; return false; }
+      var voices = window.speechSynthesis.getVoices() || [];
+      if (!voices.length) {
+        if (!this._voiceBound) {
+          this._voiceBound = true;
+          var self = this;
+          try {
+            window.speechSynthesis.addEventListener('voiceschanged', function () {
+              self._voiceState = null;
+              if (self._wrap) self.render();
+            });
+          } catch (_) {}
         }
+        return true;                       /* provisional, NOT cached */
       }
+      var want = ({ no: 'nb', pt: 'pt' }[this.api.lang] || this.api.lang).toLowerCase();
+      ok = voices.some(function (v) { return (v.lang || '').toLowerCase().indexOf(want) === 0; });
+      if (!ok && this.api.lang === 'no') ok = voices.some(function (v) { return (v.lang || '').toLowerCase().indexOf('no') === 0; });
     } catch (_) { ok = true; }
     this._voiceState = ok;
     return ok;
   },
   /* one utterance at a time (a kid drumming on a phone must not queue
-     twelve sentences); lang passed in THIS arm and the announce arm */
-  _speak: function (text) {
-    this.api.announce(text);
+     twelve sentences); lang passed in THIS arm and the announce arm.
+
+     ⚠ THE ARIA CHANNEL IS A PAYWALL SURFACE TOO. This used to run
+     `api.announce(text)` unconditionally, BEFORE the entitlement check —
+     so a free screen-reader user heard the whole premium sentence
+     ("Lunch is at half past twelve") that the visual free tier never
+     shows. A gate that reads the DOM cannot see that leak. The free
+     tier now announces the bare activity name, which is exactly what the
+     free tier renders. */
+  _speak: function (text, item) {
+    if (this.premium) this.api.announce(text);
+    else if (item) this.api.announce(this.cardName(item.id, this.api.lang, item.snap));
     if (!this.premium || !this.api.settings.voice) return;
     if (!this._voiceOk()) return;
     var self = this;
@@ -464,6 +991,10 @@ var OurDay = {
     this._speaking = true;
     setTimeout(function () { self._speaking = false; }, 1200);
     try { LCSAudio.speak({ type: 'ui', text: text, lang: this.api.lang, rate: 0.95 }); } catch (_) {}
+  },
+  _anyOverlayOpen: function () {
+    return this.changeIdx !== null || this.timeIdx !== null || this._palOpen ||
+           this._makeOpen || this._tmplOpen || this.gateOpen;
   },
   _ctx: function () {
     if (this._actx === null) {
@@ -489,78 +1020,127 @@ var OurDay = {
   _sfxAppend: function () { this._note(587.33, 0, 0.10, 0.06); },
   _sfxAdvance: function () { this._note(523.25, 0, 0.22, 0.07); this._note(659.25, 0.12, 0.30, 0.06); },
   _sfxChange: function () { this._note(493.88, 0, 0.14, 0.06); this._note(587.33, 0.10, 0.18, 0.06); },
+  /* the warning cue — ONE soft descending pair, played once, never
+     repeated and never chased by a second chime. Descending, so it
+     cannot read as an alarm; quieter than the crossing, so the crossing
+     is still the event. */
+  _sfxWarn: function () { this._note(659.25, 0, 0.16, 0.045); this._note(523.25, 0.13, 0.26, 0.04); },
+  _sfxDone: function () { this._note(523.25, 0, 0.26, 0.06); this._note(440.00, 0.16, 0.30, 0.05); this._note(349.23, 0.34, 0.46, 0.05); },
 
-  /* ======================== day actions ============================= */
+  /* ======================== day actions =============================
+     ⚠ EVERY ONE OF THESE IS NOW A THIN WRAPPER OVER ODM. The state
+     rules live in the pure model where a Node gate can drive them; what
+     stays here is only the things a model must not know about — sound,
+     speech, persistence and repaint. The old versions carried four bugs
+     that a model gate would have caught on day one:
+       · advance() was a bare sunIdx++, so the sun landed on a MOON-FOLDED
+         card and the tool announced "Now it's time for Swimming!" about
+         the very thing it had just cancelled;
+       · addCard/moveCard never adjusted sunIdx while removeCard did, so
+         inserting ahead of the sun silently rewrote which activities
+         were finished;
+       · skipCard/swapCard had no guard against the past, despite a
+         comment claiming "only for future cards";
+       · there was no end-of-day state at all.
+     ================================================================= */
 
-  addCard: function (cardId, at) {
-    if (this.day.items.length >= this.MAX_CARDS) { this.api.announce(this.api.t('dayFull')); this.render(); return false; }
-    var item = { id: cardId, time: null, changedFrom: null, skipped: false };
-    if (at === undefined || at >= this.day.items.length) this.day.items.push(item);
-    else this.day.items.splice(at, 0, item);
+  addCard: function (cardId, at, snap) {
+    if (this.day.items.length >= ODM.MAX_CARDS) { this._notice = 'dayFull'; this.render(); return false; }
+    if (!ODM.addCard(this.day, cardId, at, snap)) return false;
+    this._noteRecent(cardId);
     this._sfxAppend();
     this._persistDay();
     return true;
   },
-  removeCard: function (idx) {
-    this.day.items.splice(idx, 1);
-    if (this.day.sunIdx > idx) this.day.sunIdx--;
-    if (this.day.sunIdx > this.day.items.length) this.day.sunIdx = this.day.items.length;
-    this._persistDay();
-  },
-  moveCard: function (from, to) {
-    if (from === to || from < 0 || from >= this.day.items.length) return;
-    var it = this.day.items.splice(from, 1)[0];
-    this.day.items.splice(to, 0, it);
-    this._persistDay();
-  },
+  removeCard: function (idx) { if (ODM.removeCard(this.day, idx)) this._persistDay(); },
+  moveCard: function (from, to) { if (ODM.moveCard(this.day, from, to)) this._persistDay(); },
+
   startDay: function () {
-    if (!this.day.items.length) return;
-    this.day.started = true;
-    this.day.sunIdx = 0;
+    if (!ODM.startDay(this.day)) return;
     this.mode = 'run';
     this._persistDay();
-    if (this.day.items[0]) this._speak(this.nowSentence(this.api.lang, this.day.items[0].id));
+    var first = this.day.items[this.day.sunIdx];
+    if (first) this._speak(this.nowSentence(this.api.lang, first.id), first);
     this.render();
   },
-  advance: function () {
-    if (this.day.sunIdx >= this.day.items.length) return;
-    this.day.sunIdx++;
-    this.pebbleUntil = Date.now() + 12000;
-    this._sfxAdvance();
-    var next = this.day.items[this.day.sunIdx];
-    if (next) this._speak(this.nowSentence(this.api.lang, next.id));
+
+  /* TWO-STAGE ADVANCE — tap 1 warns, tap 2 crosses (§ REFUSE 8).
+     `force` is the double-tap accelerator and the settings opt-out. */
+  advance: function (force) {
+    var r = ODM.advance(this.day, force || !this.api.settings.warnFirst);
+    if (!r) return;
+    if (r === 'warned') {
+      this._sfxWarn();
+      var nx = this.day.items[ODM.nextStop(this.day, this.day.sunIdx)];
+      if (nx) this._speak(this.fmt('soonFrame', { a: this.announceName(nx.id, this.api.lang) }), nx);
+      this._persistDay();
+      this.render();
+      return;
+    }
+    if (r === 'end') {
+      this._sfxDone();
+      this._speak(this.api.t('dayDoneSpoken'));
+    } else {
+      this._sfxAdvance();
+      var next = this.day.items[this.day.sunIdx];
+      if (next) this._speak(this.nowSentence(this.api.lang, next.id), next);
+    }
     this._persistDay();
     this.render();
-    var self = this;
-    setTimeout(function () { if (Date.now() >= self.pebbleUntil && self._wrap) self.render(); }, 12500);
   },
+
+  /* ⚠ THE STEP-BACK IS PERMANENT. It used to self-destruct 12 seconds
+     after the advance, so a mis-tap noticed at the end of a sentence was
+     unrecoverable — and once the day ended it was unreachable entirely,
+     because it only rendered on the card the sun was sitting on. */
   unAdvance: function () {
-    if (this.day.sunIdx === 0) return;
-    this.day.sunIdx--;
-    this.pebbleUntil = 0;
+    if (!ODM.unAdvance(this.day)) return;
     this._persistDay();
     this.render();
   },
+
   /* the change ritual — swap keeps the old activity small + legible */
-  swapCard: function (idx, newId) {
+  swapCard: function (idx, newId, snap) {
     var it = this.day.items[idx];
-    var oldId = it.id;
-    it.changedFrom = oldId;
-    it.id = newId;
+    if (!it) return;
+    var oldId = it.id, oldSnap = it.snap;
+    if (!ODM.swapCard(this.day, idx, newId, snap)) return;
     this._sfxChange();
-    this._speak(this.fmt('changeSpoken', { nw: this.announceName(newId, this.api.lang), old: this.announceName(oldId, this.api.lang) }));
+    this._speak(this.fmt('changeSpoken', {
+      nw: this.announceName(newId, this.api.lang, snap),
+      old: this.announceName(oldId, this.api.lang, oldSnap)
+    }));
     this._persistDay();
   },
-  /* the quiet "another day" path (moon-fold), only for future cards */
-  skipCard: function (idx) {
+
+  /* the moon-fold. A weekday turns a deferral into an appointment:
+     "Thursday" instead of "another day" is the difference between a loss
+     and a plan, and it is the cheapest kind thing in this tool. */
+  skipCard: function (idx, weekday) {
     var it = this.day.items[idx];
-    it.skipped = !it.skipped;
-    if (it.skipped) this.api.announce(this.fmt('removedNote', { name: this.cardName(it.id, this.api.lang) }));
+    if (!it || !ODM.skipCard(this.day, idx, weekday)) return false;
+    if (it.skipped) {
+      this._notice = null;
+      this.api.announce(this.fmt(it.skipDay === null ? 'removedNote' : 'removedOnDay', {
+        name: this.cardName(it.id, this.api.lang, it.snap),
+        day: it.skipDay === null ? '' : this.weekdayLabel(this.api.lang, it.skipDay)
+      }));
+    }
     this._persistDay();
+    return true;
   },
-  setTime: function (idx, h, m) {
-    this.day.items[idx].time = (h === null) ? null : { h: h, m: m };
-    this._persistDay();
+
+  setTime: function (idx, h, m) { if (ODM.setTime(this.day, idx, h, m)) this._persistDay(); },
+
+  /* the palette's Recent row — a teacher's day is the same 10-14 cards,
+     and the catalogue is a long tail. This is what actually buys the
+     "thirty seconds", far more than any grid does. */
+  _noteRecent: function (cardId) {
+    var r = this._store.recent || [];
+    for (var i = 0; i < r.length; i++) if (r[i] === cardId) { r.splice(i, 1); break; }
+    r.unshift(cardId);
+    if (r.length > 8) r.length = 8;
+    this._store.recent = r;
   },
 
   /* card-tap speech (RUN mode): time set → the framed time sentence;
@@ -568,17 +1148,23 @@ var OurDay = {
   speakCard: function (idx) {
     var it = this.day.items[idx];
     var loc = this.api.lang;
-    if (it.time) { this._speak(this.timeSentence(loc, it.id, it.time.h, it.time.m)); return; }
-    if (idx === 0) { this._speak(this.fmt('firstFrame', { a: this._cap(this.announceName(it.id, loc)) })); return; }
+    if (it.time) { this._speak(this.timeSentence(loc, it.id, it.time.h, it.time.m, it.snap), it); return; }
+    if (idx === 0) { this._speak(this.fmt('firstFrame', { a: this._cap(this.announceName(it.id, loc, it.snap)) }), it); return; }
     var prev = this.day.items[idx - 1];
-    this._speak(this.fmt('afterFrame', { a: this._cap(this.announceName(it.id, loc)), b: this.announceName(prev.id, loc) }));
+    this._speak(this.fmt('afterFrame', {
+      a: this._cap(this.announceName(it.id, loc, it.snap)),
+      b: this.announceName(prev.id, loc, prev.snap)
+    }), it);
   },
 
-  /* templates */
+  /* templates — stored WITH snapshots, so a saved plan is safe against
+     both a deleted custom card and a locale change. */
   saveTemplate: function (slot) {
     if (!this.premium) return;
+    var prev = this._store.templates[slot];
     this._store.templates[slot] = {
-      items: this.day.items.map(function (it) { return { id: it.id, time: it.time ? { h: it.time.h, m: it.time.m } : null }; }),
+      items: ODM.templateFromDay(this.day),
+      name: prev && prev.name ? prev.name : null,
       ts: Date.now()
     };
     this._saveStore();
@@ -588,228 +1174,992 @@ var OurDay = {
     if (!this.premium) return;
     var t = this._store.templates[slot];
     if (!t) return;
-    this.day = this._blankDay();
-    this.day.items = t.items.map(function (it) { return { id: it.id, time: it.time ? { h: it.time.h, m: it.time.m } : null, changedFrom: null, skipped: false }; });
+    this.day = ODM.dayFromTemplate(t.items);
     this.mode = 'build';
     this.banner = null;
     this._persistDay();
     this.render();
   },
 
-  /* ============================ render ============================== */
+  /* ============================ render ==============================
+     BUILD / PAINT SPLIT. The old render() was `stage.innerHTML = ''`
+     followed by a full rebuild, called from every interaction — which is
+     survivable for a tool made only of buttons and fatal the moment a
+     teacher is typing a card name into a field, because a re-render
+     mid-keystroke throws her out of it. _build() lays the skeleton once;
+     _paint() recomputes from state.
+
+     ⚠ THE SHELL CALLS render() WITH NO ARGUMENTS and re-calls it on
+     every settings commit and on resize. Taking an `api` parameter here
+     would wipe this.api on the second call.
+     ================================================================= */
 
   render: function () {
+    if (!this._wrap || !this._wrap.parentNode) this._build();
+    this._paint();
+  },
+
+  _build: function () {
     var api = this.api, self = this;
     api.stage.innerHTML = '';
     document.body.classList.add('od-wide');
-    var wrap = api.el('div', 'od-wrap' + (this.displayMode ? ' od-display' : ''));
-    api.stage.appendChild(wrap);
+
+    var wrap = api.el('div', 'od-wrap');
     this._wrap = wrap;
+    this._bannerHost = api.el('div', 'od-bannerhost');
+    this._main       = api.el('div', 'od-main');
+    this._ribbonHost = api.el('div', 'od-ribbonhost');
+    this._nowHost    = api.el('div', 'od-nowhost');
+    this._barHost    = api.el('div', 'od-barhost');
+    this._sheetHost  = api.el('div', 'od-sheethost');
+    this._main.append(this._ribbonHost, this._nowHost);
+    wrap.append(this._bannerHost, this._main, this._barHost, this._sheetHost);
+    api.stage.appendChild(wrap);
 
-    if (this.banner) wrap.appendChild(this._bannerEl());
+    /* ⚠ MEASURE THE BOX, DO NOT MATCH A MEDIA QUERY. Every wide tier
+       this tool used to ship was keyed `min-width:1367px`, and the tool
+       page pins the iframe at 704px at 1440, 1920 and 2560 alike — so
+       all three tiers were dead on the one surface teachers actually
+       use. A ResizeObserver on our own wrap cannot be wrong about that,
+       and it also retires all five `vh` rules, which resolve against the
+       iframe and form a feedback path with the shell's height broadcast. */
+    var relayout = function () { self._measure(); };
+    if (window.ResizeObserver) {
+      this._ro = new ResizeObserver(relayout);
+      this._ro.observe(wrap);
+    }
+    window.addEventListener('resize', relayout);
+    if (document.fonts && document.fonts.ready && document.fonts.ready.then) {
+      document.fonts.ready.then(function () { self._measure(); self._paint(); });
+    }
+  },
 
-    var main = api.el('div', 'od-main');
-    if (this.mode === 'build' || this.mode === 'edit') main.appendChild(this._palette());
-    main.appendChild(this._strip());
-    wrap.appendChild(main);
+  /* the three layouts. STACK = one narrow column. DESK = one column with
+     room to breathe and height to spend. BOARD = the projector: the day
+     as a ribbon on the left, ONE card at hero scale on the right. */
+  _measure: function () {
+    var wrap = this._wrap;
+    if (!wrap) return;
+    var w = Math.round(wrap.clientWidth || 0);
+    var vh = Math.round((document.documentElement && document.documentElement.clientHeight) || 0);
+    /* inside an auto-resizing iframe the visible height is the PARENT's
+       and we cannot see it, so height-driven layout is only claimed when
+       we are demonstrably standing alone. */
+    var standalone = false;
+    try { standalone = (window.self === window.top); } catch (_) { standalone = false; }
+    var h = standalone ? vh : 0;
+    var mode = 'desk';
+    if (w < 560) mode = 'stack';
+    else if (h > 0 && (w / h) >= 1.1) mode = 'board';
+    wrap.style.setProperty('--od-w', String(w));
+    wrap.style.setProperty('--od-h', String(h || Math.round(w * 0.9)) + 'px');
+    if (this._layout !== mode) { this._layout = mode; wrap.setAttribute('data-layout', mode); return true; }
+    wrap.setAttribute('data-layout', mode);
+    return false;
+  },
 
-    wrap.appendChild(this._toolbar());
-    if (this.gateOpen) wrap.appendChild(this._gatePanel());
-    if (this.changeIdx !== null) wrap.appendChild(this._changeOverlay());
-    if (this.timeIdx !== null) wrap.appendChild(this._timePicker());
-    if (this._tmplOpen) wrap.appendChild(this._templates());
+  _paint: function () {
+    var self = this, api = this.api;
+    if (!this._wrap) return;
+    this._measure();
+
+    this._wrap.className = 'od-wrap'
+      + (this.displayMode ? ' od-display' : '')
+      + (this.focusMode ? ' od-focus' : '')
+      + (this.premium ? ' od-paid' : '');
+    /* the print rules are scoped to this class, so the class IS the
+       second half of the print double-lock (see the CSS). */
+    document.body.classList.toggle('od-paid', !!this.premium);
+
+    this._bannerHost.innerHTML = '';
+    if (this.banner) this._bannerHost.appendChild(this._bannerEl());
+    if (this._notice) this._bannerHost.appendChild(this._noticeEl());
+
+    this._ribbonHost.innerHTML = '';
+    this._ribbonHost.appendChild(this._strip());
+
+    this._nowHost.innerHTML = '';
+    if (this._layout === 'board' && this.mode !== 'build') this._nowHost.appendChild(this._nowPanel());
+
+    this._barHost.innerHTML = '';
+    this._barHost.appendChild(this._toolbar());
+    /* ⚠ THE DISPLAY-MODE ESCAPE MUST BE IN THE DOM, not merely written.
+       A dead control is exactly what made display mode a trap the first
+       time, and a source scan cannot tell "the function exists" from
+       "the function is reached". */
+    if (!this._moreEl) { this._moreEl = this._moreBtn(); this._wrap.appendChild(this._moreEl); }
+
+    this._sheetHost.innerHTML = '';
+    if (this.gateOpen)          this._sheetHost.appendChild(this._gatePanel());
+    if (this._palOpen)          this._sheetHost.appendChild(this._sheet(this._paletteBody(), 'od-sheet-pal'));
+    if (this._makeOpen)         this._sheetHost.appendChild(this._sheet(this._makeBody(), 'od-sheet-make'));
+    if (this._tmplOpen)         this._sheetHost.appendChild(this._sheet(this._templatesBody(), 'od-sheet-tmpl'));
+    if (this.timeIdx !== null)  this._sheetHost.appendChild(this._sheet(this._timeBody(), 'od-sheet-time'));
+
+    /* the printable documents live off-screen and are ABSENT from the
+       DOM unless entitled — the first half of the print double-lock. */
+    this._paintPrintDocs();
+  },
+
+  _noticeEl: function () {
+    var n = this.api.el('div', 'od-notice');
+    n.setAttribute('role', 'status');
+    n.textContent = this.api.t(this._notice === 'dayFull' ? 'dayFull'
+      : this._notice === 'listFull' ? 'noticeFull'
+      : this._notice === 'tooLong' ? 'noticeLong'
+      : this._notice === 'duplicate' ? 'noticeDup' : 'noticeEmpty');
+    return n;
   },
 
   _bannerEl: function () {
     var api = this.api, self = this;
     var b = api.el('div', 'od-banner');
     var day = this.weekdayLabel(api.lang, this.banner.idx);
-    b.innerHTML = '<span>' + this.fmt('tmplReady', { day: day }) + '</span>';
-    var use = this._chipBtn(api.t('tmplUse'), 'od-chip od-on', function () {
+    var msg = api.el('span', '');
+    msg.textContent = this.fmt('tmplReady', { day: day });
+    b.appendChild(msg);
+    b.appendChild(this._chipBtn(api.t('tmplUse'), 'od-chip od-on', function () {
       var slot = self.WEEKDAYS[self.banner.idx];
       self.banner = null;
       self.loadTemplate(slot);
-    });
-    var fresh = this._chipBtn(api.t('tmplFresh'), 'od-chip', function () { self.banner = null; self.render(); });
-    b.append(use, fresh);
+    }));
+    b.appendChild(this._chipBtn(api.t('tmplFresh'), 'od-chip', function () { self.banner = null; self.render(); }));
     return b;
   },
 
-  /* ------- palette (build/edit) ------- */
-  _palette: function () {
-    var api = this.api, self = this;
-    var pal = api.el('div', 'od-palette');
-    var cards = this.visibleCards(api.lang);
-    for (var g = 0; g < this.GROUPS.length; g++) {
-      var inGroup = cards.filter(function (c) { return c.group === g; });
-      if (!inGroup.length) continue;
-      var band = api.el('div', 'od-band');
-      band.innerHTML = '<span class="od-band-label">' + api.t(this.GROUPS[g]) + '</span>';
-      var row = api.el('div', 'od-band-row');
-      inGroup.forEach(function (c) {
-        var b = api.el('button', 'od-pal-card');
-        b.type = 'button';
-        b.innerHTML = self._iconSVG(c.id) + '<span>' + self.cardName(c.id, api.lang) + '</span>';
-        b.addEventListener('click', function () {
-          if (self.changePick) { self._resolveChangePick(c.id); return; }
-          if (self.addCard(c.id)) self.render();
-        });
-        row.appendChild(b);
-      });
-      band.appendChild(row);
-      pal.appendChild(band);
-    }
-    return pal;
-  },
-  _resolveChangePick: function (cardId) {
-    var idx = this.changeIdx;
-    if (this.changePick === 'swap') this.swapCard(idx, cardId);
-    else if (this.changePick === 'before') { if (this.addCard(cardId, idx)) this.day.items[idx].changedFrom = null; }
-    else if (this.changePick === 'after') this.addCard(cardId, idx + 1);
-    this.changeIdx = null;
-    this.changePick = null;
-    this.render();
-  },
-
-  /* ------- the strip ------- */
+  /* ------- the strip / ribbon ------- */
   _strip: function () {
     var api = this.api, self = this;
     var host = api.el('div', 'od-striphost');
     var strip = api.el('div', 'od-strip');
     var n = this.day.items.length;
+
     if (!n) {
       var hint = api.el('div', 'od-empty');
+      /* ⚠ the old copy said "the cards to the LEFT" in eight locales
+         while the phone stacked the palette ABOVE — and after the
+         rebuild the palette is a sheet, so no direction is true at all.
+         Direction words are gone from every locale. */
       hint.textContent = api.t('emptyHint');
       strip.appendChild(hint);
+      strip.appendChild(this._addSlot());
       host.appendChild(strip);
       return host;
     }
-    /* projector fit: card height clamps 56-96 by count (phone scrolls)
-       ⭐ BOTH NUMBERS ARE A JS CEILING — the 96px per-card cap and the 560px
-       total strip budget — so no CSS tier can reach them and a wider board
-       would have shown the same small cards. --od-cardscale raises both
-       together from CSS, where it keys on width AND height; the `560/n` term
-       still decides, so a 7-card day stays denser than a 4-card one. */
-    var _ok = parseFloat(getComputedStyle(document.body).getPropertyValue('--od-cardscale'));
-    if (!(_ok > 0)) _ok = 1;
-    var cardH = Math.max(56, Math.min(Math.round(96 * _ok), Math.floor(560 * _ok / n)));
-    strip.style.setProperty('--od-cardh', cardH + 'px');
 
-    for (var i = 0; i < n; i++) strip.appendChild(this._cardEl(i, cardH));
+    /* ⚠ THE CARD-HEIGHT BUDGET IS NOW A REAL FIT, NOT A CLAIM. The old
+       `max(56, min(96, 560/n))` stopped deciding at n>=10 — the 56 floor
+       won, sixteen cards came to ~990px, neither the strip nor its host
+       had any overflow, and the tool measured 117%-204% of the viewport
+       at every viewport and every locale. The ribbon now solves for the
+       space it actually has. */
+    var cardH = this._cardHeight(n);
+    strip.style.setProperty('--od-cardh', cardH + 'px');
+    strip.setAttribute('data-cards', String(n));
+    /* ⚠ TIGHT MODE IS A HONEST DEGRADATION, AND IT CHANGES WHAT THE ROWS
+       ARE. Below 44px a ribbon row cannot be a tap target without
+       breaking the control floor — so at that size it stops being one.
+       On a projector the tappable things are the sun, the NOW panel and
+       the toolbar; the ribbon is what the CLASS reads. Sixteen names at
+       20px on a wall are unreadable anyway, while sixteen icons at 34px
+       are recognisable, and §23.2 says the icon is the content. */
+    this._tight = (cardH < 44);
+    if (this._tight) strip.classList.add('od-tight');
+
+    var showFrom = 0, showTo = n;
+    if (this.focusMode && this.mode !== 'build' && !ODM.atEnd(this.day)) {
+      showFrom = this.day.sunIdx;
+      showTo = Math.min(n, this.day.sunIdx + 2);
+    }
+    for (var i = 0; i < n; i++) {
+      if (i >= showFrom && i < showTo) strip.appendChild(this._cardEl(i, cardH));
+      else if (this.focusMode) strip.appendChild(this._ghostEl(i));
+    }
+    if (this.mode === 'build' || this.mode === 'edit') strip.appendChild(this._addSlot());
+    if (this.mode === 'run' && ODM.atEnd(this.day)) strip.appendChild(this._sunsetEl());
     host.appendChild(strip);
+    /* ⚠ SHRINKING THE CONTENTS IS NOT ENOUGH — CAP THE CONTAINER.
+       Card height has real floors under it (a 34px icon, a 52px sun that
+       must stay a legal tap target), so past a certain card count the
+       budget stops being achievable and the strip pushes the app past
+       the projector again. On a board the ribbon scrolls instead; the
+       apparatus never exceeds the screen it is projected on, which is
+       the whole claim the old build made and never met. */
+    if (this._layout === 'board') {
+      var cap = this._availableStripHeight();
+      if (cap > 120) { host.style.maxHeight = cap + 'px'; host.style.overflowY = 'auto'; }
+    }
     return host;
   },
+
+  /* ⚠ THE CHROME IS MEASURED, NOT GUESSED. The first version of this
+     subtracted a flat 150px for "the chrome" and the board came out at
+     131% of a 1024x768 projector — because the real chrome is the shell
+     header (81-92px, and it grows with the locale), the toolbar (60),
+     the strip host padding, the wrap gaps and the card padding, which is
+     210-240px. A constant I invented is not a measurement; the DOM
+     already knows the answer, so ask it. */
+  _availableStripHeight: function () {
+    var vh = (document.documentElement && document.documentElement.clientHeight) || 0;
+    if (!vh) return 0;
+    var top = 0;
+    try { top = this._ribbonHost.getBoundingClientRect().top; } catch (_) { top = 120; }
+    var bar = 0;
+    try { bar = this._barHost.getBoundingClientRect().height || 60; } catch (_) { bar = 60; }
+    /* 20 = the striphost's own vertical padding, 16 = wrap gap + breathing */
+    return Math.max(120, vh - top - bar - 64);
+  },
+
+  _cardHeight: function (n) {
+    var w = parseFloat(this._wrap.style.getPropertyValue('--od-w')) || 704;
+    if (this._layout === 'board') {
+      var avail = this._availableStripHeight();
+      if (!avail) avail = 520;
+      return Math.max(26, Math.min(84, Math.floor((avail - (n - 1) * 6 - 20) / Math.max(1, n))));
+    }
+    if (this._layout === 'stack') return Math.max(64, Math.min(96, Math.round(w * 0.22)));
+    /* DESK: height is genuinely free — the iframe grows and the page
+       scrolls — so the cards get the size that reads, not the size that
+       fits an imaginary budget. */
+    return Math.max(72, Math.min(104, Math.floor(1180 / Math.max(1, n))));
+  },
+
+  _ghostEl: function (i) {
+    var it = this.day.items[i];
+    var g = this.api.el('span', 'od-ghost' + (it.skipped ? ' od-ghost-skip' : ''));
+    g.innerHTML = this._iconSVG(it.id, it.snap);
+    g.title = this.cardName(it.id, this.api.lang, it.snap);
+    return g;
+  },
+
+  /* the wordless "+" slot that opens the palette sheet */
+  _addSlot: function () {
+    var self = this;
+    var b = this.api.el('button', 'od-addslot');
+    b.type = 'button';
+    b.setAttribute('aria-label', this.api.t('addCardAria'));
+    b.innerHTML = '<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 8v16M8 16h16" stroke="#146B5E" stroke-width="3.4" stroke-linecap="round" fill="none"/></svg>';
+    b.addEventListener('click', function () {
+      self._palOpen = true; self._notice = null;
+      /* open where she can act: her own cards if she has any, the cards
+         she uses most if she has history, else the whole catalogue. */
+      if (self._palGroup === undefined || self._palGroup === null) {
+        self._palGroup = (self._store.custom && self._store.custom.length) ? 'mine' : 'recent';
+      }
+      self.render();
+    });
+    return b;
+  },
+
   _cardEl: function (i, cardH) {
     var api = this.api, self = this;
     var it = this.day.items[i];
-    var isDone = this.mode === 'run' && i < this.day.sunIdx;
-    var isNow = this.mode === 'run' && i === this.day.sunIdx;
-    var cls = 'od-card' + (isDone ? ' od-done' : '') + (isNow ? ' od-now' : '') + (it.skipped ? ' od-skipped' : '');
+    var isDone = ODM.isDone(this.day, i);
+    var isNow = ODM.isNow(this.day, i);
+    var warnNext = this.day.warned && !ODM.atEnd(this.day) && i === ODM.nextStop(this.day, this.day.sunIdx);
+    var cls = 'od-card'
+      + (isDone ? ' od-done' : '')
+      + (isNow ? ' od-now' : '')
+      + (it.skipped ? ' od-skipped' : '')
+      + (warnNext ? ' od-soon' : '');
     var row = api.el('div', cls);
+    if (it.snap && it.snap.tint) row.style.setProperty('--od-tint', it.snap.tint);
 
-    /* sun rail cell */
+    /* ⚠ THE RAIL IS A FIXED 2-CELL GRID, NOT A FLEX BOX. It used to be
+       `flex:0 0 56px` holding a 52px sun PLUS a 30px step-back — 86px of
+       content in a 56px basis — so the flex item grew and the current
+       card's name started ~28px to the right of every other name.
+       Cell 1: the ordinal, or the sun when this is the current card.
+       Cell 2: the step-back, which is now PERMANENT. */
     var rail = api.el('div', 'od-rail');
+    var c1 = api.el('div', 'od-railcell');
     if (isNow) {
       var sun = api.el('button', 'od-sun');
       sun.type = 'button';
       sun.setAttribute('aria-label', api.t('sunAria'));
       sun.innerHTML = this._sunSVG();
-      sun.addEventListener('click', function () { self.advance(); });
-      rail.appendChild(sun);
-      if (Date.now() < this.pebbleUntil || this.mode === 'edit') rail.appendChild(this._pebble());
-    } else if (this.mode === 'run' && this.day.sunIdx >= this.day.items.length && i === this.day.items.length - 1) {
-      /* day complete: the sun rests below the last card via CSS marker */
+      sun.addEventListener('click', function () {
+        var now = Date.now();
+        var quick = (now - self._lastAdvance) < 1200;   /* double-tap passes through */
+        self._lastAdvance = now;
+        self.advance(quick);
+      });
+      c1.appendChild(sun);
+    } else {
+      /* numerals are explicitly permitted (§23.2) and they give the class
+         and the schedule helper something to point at and count. */
+      var ord = api.el('span', 'od-ord');
+      ord.textContent = String(i + 1);
+      ord.setAttribute('aria-hidden', 'true');
+      c1.appendChild(ord);
     }
+    rail.appendChild(c1);
+    var c2 = api.el('div', 'od-railcell');
+    if (this.mode === 'run' && this.day.sunIdx > 0 && isNow) c2.appendChild(this._pebble());
+    rail.appendChild(c2);
     row.appendChild(rail);
 
-    /* body: icon + name (+ was:) + time chip */
-    var body = api.el('button', 'od-cardbody');
-    body.type = 'button';
-    body.innerHTML = this._iconSVG(it.id) +
-      '<span class="od-cardtext"><span class="od-cardname">' + this._cap(this.cardName(it.id, api.lang)) + '</span>' +
-      (it.changedFrom ? '<span class="od-was">' + this.fmt('wasLabel', { name: this.cardName(it.changedFrom, api.lang) }) + '</span>' : '') +
-      (it.skipped ? '<span class="od-was">' + api.t('skipCard') + ' ☾</span>' : '') +
-      '</span>' +
-      (it.changedFrom ? '<span class="od-badge" aria-hidden="true">⟳</span>' : '');
+    /* body: icon + name (+ was:). A display row in tight mode, a button
+       everywhere else — see the note in _strip. */
+    var body = api.el(this._tight ? 'div' : 'button', 'od-cardbody');
+    if (!this._tight) body.type = 'button';
+    var nm = this.cardName(it.id, api.lang, it.snap);
+    var txt = '<span class="od-cardtext"><span class="od-cardname"' + (nm.length > 18 ? ' data-long="1"' : '') + '>'
+      + this._esc(this._cap(nm)) + '</span>';
+    if (it.changedFrom) {
+      txt += '<span class="od-was">' + this._esc(this.fmt('wasLabel', { name: this.cardName(it.changedFrom, api.lang, it.changedSnap) })) + '</span>';
+    }
+    if (it.skipped) {
+      txt += '<span class="od-was">' + this._esc(it.skipDay === null ? api.t('skipNoDay') : this.weekdayLabel(api.lang, it.skipDay)) + '</span>';
+    }
+    txt += '</span>';
+    body.innerHTML = this._iconSVG(it.id, it.snap) + txt;
     body.addEventListener('click', function () {
-      if (self.mode === 'edit') { self.changeIdx = i; self.changePick = null; self.render(); return; }
-      /* RUN/BUILD: speak (premium) or pulse (free) — child-tap harmless */
+      if (self.mode === 'edit') { self.changeIdx = (self.changeIdx === i ? null : i); self.changePick = null; self.render(); return; }
       body.classList.remove('od-pulse'); void body.offsetWidth; body.classList.add('od-pulse');
       if (self.premium && self.mode === 'run') self.speakCard(i);
-      else self.api.announce(self.cardName(it.id, self.api.lang));
+      else self.api.announce(self.cardName(it.id, self.api.lang, it.snap));
     });
     row.appendChild(body);
 
+    /* the drawn state marks — a real mark, not a CSS filter. A filter is
+       subtractive and "finished" is additive; a filter cannot be two
+       shapes for two opposite meanings; and, decisively, a filter CANNOT
+       REACH PAPER, so the substitute's printed strip could not show
+       which activities had happened. */
+    if (isDone) { var dm = api.el('span', 'od-mark'); dm.innerHTML = this._doneMarkSVG(); row.appendChild(dm); }
+    else if (it.skipped) { var sm = api.el('span', 'od-mark'); sm.innerHTML = this._skipMarkSVG(); row.appendChild(sm); }
+
     /* time chip (premium) */
     if (this.premium && (it.time || this.mode === 'edit')) {
-      var chip = api.el('button', 'od-timechip' + (it.time ? '' : ' od-timechip-ghost'));
+      var chip = api.el('button', 'od-timechip' + (it.time ? '' : ' od-timechip-add'));
       chip.type = 'button';
-      chip.setAttribute('aria-label', this.fmt('timeAria', { name: this.cardName(it.id, api.lang) }));
-      chip.innerHTML = it.time ? this._miniClock(it.time.h, it.time.m) + '<span>' + this.fmtDigital(it.time.h, it.time.m) + '</span>' : '+';
+      chip.setAttribute('aria-label', this.fmt('timeAria', { name: nm }));
+      chip.innerHTML = it.time
+        ? this._miniClock(it.time.h, it.time.m) + '<span>' + this._esc(this.fmtDigital(it.time.h, it.time.m)) + '</span>'
+        : '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 6v12M6 12h12" stroke="#5B4A2F" stroke-width="2.6" stroke-linecap="round" fill="none"/></svg>';
       chip.addEventListener('click', function (e) {
         e.stopPropagation();
-        if (self.mode === 'edit') { self.timeIdx = i; self.render(); }
-        else if (it.time) self._speak(self.timeSentence(self.api.lang, it.id, it.time.h, it.time.m));
+        if (self.mode === 'edit') { self.timeIdx = i; self._pick = null; self.render(); }
+        else if (it.time) self._speak(self.timeSentence(self.api.lang, it.id, it.time.h, it.time.m, it.snap), it);
       });
       row.appendChild(chip);
     }
 
-    /* edit affordances */
-    if (this.mode === 'edit') {
-      var grip = api.el('span', 'od-grip');
-      grip.innerHTML = '⋮⋮';
-      this._wireDrag(grip, row, i);
-      row.insertBefore(grip, body);
-      var del = api.el('button', 'od-del');
-      del.type = 'button';
-      del.setAttribute('aria-label', api.t('changeRemove'));
-      del.textContent = '×';
-      del.addEventListener('click', function () { self.removeCard(i); self.render(); });
-      row.appendChild(del);
-    }
+    if (this.mode === 'edit') row.appendChild(this._editTools(i, nm));
+    if (this.changeIdx === i) row.appendChild(this._changePanel(i));
     return row;
   },
+
+  /* ⚠ REORDER IS NO LONGER DRAG-ONLY. It used to be a pointerdown on a
+     15px <span> with no tabindex and no role — so reordering the day was
+     completely unavailable to a keyboard or to assistive tech, and the
+     liveness gate scored the control DEAD because a synthetic click
+     never fires pointerdown. Two 44px buttons are also simply better on
+     an interactive whiteboard, where drag is unreliable. */
+  _editTools: function (i, nm) {
+    var api = this.api, self = this, n = this.day.items.length;
+    var box = api.el('div', 'od-edittools');
+    var up = api.el('button', 'od-iconbtn');
+    up.type = 'button';
+    up.setAttribute('aria-label', this.fmt('upAria', { name: nm }));
+    up.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 18V7m-5 5 5-5 5 5" stroke="#146B5E" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    up.disabled = (i === 0);
+    up.addEventListener('click', function (e) { e.stopPropagation(); self.moveCard(i, i - 1); self.render(); });
+    var dn = api.el('button', 'od-iconbtn');
+    dn.type = 'button';
+    dn.setAttribute('aria-label', this.fmt('downAria', { name: nm }));
+    dn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v11m-5-5 5 5 5-5" stroke="#146B5E" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    dn.disabled = (i === n - 1);
+    dn.addEventListener('click', function (e) { e.stopPropagation(); self.moveCard(i, i + 1); self.render(); });
+    box.append(up, dn);
+    return box;
+  },
+
   _pebble: function () {
     var self = this;
     var p = this.api.el('button', 'od-pebble');
     p.type = 'button';
     p.setAttribute('aria-label', this.api.t('backAria'));
-    p.innerHTML = '↩';
-    p.addEventListener('click', function () { self.unAdvance(); });
+    p.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6 9 12l6 6" stroke="#fff" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    p.addEventListener('click', function (e) { e.stopPropagation(); self.unAdvance(); });
     return p;
   },
-  /* grip-handle drag (pointer-capture on the HANDLE only — scroll lives
-     everywhere else; the center-board pattern, narrowed) */
-  _wireDrag: function (grip, row, idx) {
-    var self = this;
-    grip.addEventListener('pointerdown', function (e) {
-      e.preventDefault();
-      grip.setPointerCapture(e.pointerId);
-      row.classList.add('od-dragging');
-      var startY = e.clientY;
-      var rowH = row.offsetHeight + 6;
-      var move = function (ev) {
-        var dy = ev.clientY - startY;
-        row.style.transform = 'translateY(' + dy + 'px)';
-      };
-      var up = function (ev) {
-        grip.removeEventListener('pointermove', move);
-        grip.removeEventListener('pointerup', up);
-        row.classList.remove('od-dragging');
-        row.style.transform = '';
-        var delta = Math.round((ev.clientY - startY) / rowH);
-        if (delta !== 0) {
-          var to = Math.max(0, Math.min(self.day.items.length - 1, idx + delta));
-          self.moveCard(idx, to);
-        }
-        self.render();
-      };
-      grip.addEventListener('pointermove', move);
-      grip.addEventListener('pointerup', up);
+
+  /* ------- the change ritual -------
+     ⚠ IT IS NO LONGER A FULL-SCREEN SCRIM. The old overlay covered the
+     whole strip in front of the class, so the anxious child could not
+     see WHERE the change landed — which is the entire point of the
+     ritual. The card itself opens downward and the day stays visible
+     above and below it. The change belongs to that card. */
+  _changePanel: function (idx) {
+    var api = this.api, self = this;
+    var it = this.day.items[idx];
+    var p = api.el('div', 'od-changepanel');
+
+    if (this.changePick === 'skip') {
+      var q = api.el('div', 'od-change-hint');
+      q.textContent = api.t('skipWhich');
+      p.appendChild(q);
+      var days = api.el('div', 'od-change-opts');
+      for (var d = 0; d < 5; d++) {
+        (function (dd) {
+          days.appendChild(self._chipBtn(self.weekdayLabel(api.lang, dd), 'od-chip', function () {
+            self.skipCard(idx, dd); self.changeIdx = null; self.changePick = null; self.render();
+          }));
+        }(d));
+      }
+      days.appendChild(this._chipBtn(api.t('skipNoDay'), 'od-chip od-chip-ghost', function () {
+        self.skipCard(idx, null); self.changeIdx = null; self.changePick = null; self.render();
+      }));
+      p.appendChild(days);
+      return p;
+    }
+
+    if (this.changePick) {                      /* pick a replacement card */
+      var h = api.el('div', 'od-change-hint');
+      h.textContent = api.t('changeTitle');
+      p.appendChild(h);
+      p.appendChild(this._paletteGrid(function (cardId, snap) {
+        if (self.changePick === 'swap') self.swapCard(idx, cardId, snap);
+        else if (self.changePick === 'before') self.addCard(cardId, idx, snap);
+        else self.addCard(cardId, idx + 1, snap);
+        self.changeIdx = null; self.changePick = null; self.render();
+      }));
+      return p;
+    }
+
+    var ttl = api.el('div', 'od-change-hint');
+    ttl.textContent = api.t('changeTitle');
+    p.appendChild(ttl);
+    /* ⚠ ORDERED BY KINDNESS, NOT BY CODE PATH. The old panel put a
+       destructive "Remove it" in the same chip row, at the same weight,
+       as "Add before" — and buried the gentle "Another day" among them. */
+    var r1 = api.el('div', 'od-change-opts');
+    if (ODM.canSwap(this.day, idx)) {
+      r1.appendChild(this._chipBtn(api.t('changeSwap'), 'od-chip od-on', function () { self.changePick = 'swap'; self.render(); }));
+    }
+    r1.appendChild(this._chipBtn(api.t('changeAddB'), 'od-chip', function () { self.changePick = 'before'; self.render(); }));
+    r1.appendChild(this._chipBtn(api.t('changeAddA'), 'od-chip', function () { self.changePick = 'after'; self.render(); }));
+    p.appendChild(r1);
+
+    var r2 = api.el('div', 'od-change-opts od-change-quiet');
+    if (ODM.canSkip(this.day, idx) && !it.skipped) {
+      r2.appendChild(this._chipBtn(api.t('skipCard'), 'od-chip od-chip-ghost', function () { self.changePick = 'skip'; self.render(); }));
+    } else if (it.skipped) {
+      r2.appendChild(this._chipBtn(api.t('tmplUse'), 'od-chip od-chip-ghost', function () {
+        self.skipCard(idx, null); self.changeIdx = null; self.render();
+      }));
+    }
+    var rm = this._chipBtn(api.t('changeRemove'), 'od-chip od-chip-quiet', function () {
+      self.removeCard(idx); self.changeIdx = null; self.render();
     });
+    r2.appendChild(rm);
+    p.appendChild(r2);
+    return p;
   },
 
-  /* ------- toolbar ------- */
+  /* ------- the end of the day -------
+     The tool used to end on nothing: once sunIdx passed the last card no
+     card was "now", so the sun AND the step-back both stopped rendering,
+     and a comment claimed a CSS marker that did not exist. For a class
+     that has watched a sun travel down a list all day, that is a story
+     with no last page. */
+  _sunsetEl: function () {
+    var api = this.api, self = this;
+    var box = api.el('div', 'od-sunset');
+    var art = api.el('button', 'od-sunset-art');
+    art.type = 'button';
+    art.setAttribute('aria-label', api.t('backAria'));
+    art.innerHTML = this._dayDoneSVG();
+    /* the resting sun IS the step-back, so the way back never disappears
+       and it sits exactly where the class is already looking. */
+    art.addEventListener('click', function () { self.unAdvance(); });
+    box.appendChild(art);
+
+    var ttl = api.el('div', 'od-sunset-title');
+    ttl.textContent = api.t('dayDoneTitle');
+    box.appendChild(ttl);
+
+    /* one dot per card the class completed — wordless, countable, and
+       five-year-olds count them aloud without being asked. A skipped
+       card gets a hollow dot: a skipped thing is not a failed thing. */
+    var dots = api.el('div', 'od-sunset-dots');
+    dots.setAttribute('aria-hidden', 'true');
+    for (var i = 0; i < this.day.items.length; i++) {
+      var d = api.el('span', 'od-dot' + (this.day.items[i].skipped ? ' od-dot-skip' : ''));
+      dots.appendChild(d);
+    }
+    box.appendChild(dots);
+
+    box.appendChild(this._chipBtn(api.t('tomorrowChip'), 'od-chip', function () {
+      /* "same again" is the overwhelmingly common next action, and the
+         only path used to be the shell's Reset, which blanks everything. */
+      self.day.started = false;
+      self.day.sunIdx = 0;
+      self.day.warned = false;
+      for (var k = 0; k < self.day.items.length; k++) {
+        self.day.items[k].changedFrom = null;
+        self.day.items[k].changedSnap = null;
+        self.day.items[k].skipped = false;
+        self.day.items[k].skipDay = null;
+      }
+      self.mode = 'build';
+      self._persistDay();
+      self.render();
+    }));
+    return box;
+  },
+
+  /* ------- the NOW panel (BOARD only) -------
+     The current card stops earning its dominance with a 3px honey ring —
+     which loses against a projector's washed gamma at four metres — and
+     earns it by being a different object at a different scale. */
+  _nowPanel: function () {
+    var api = this.api, self = this;
+    var p = api.el('div', 'od-now-panel');
+    if (ODM.atEnd(this.day)) { p.appendChild(this._sunsetEl()); return p; }
+    var it = this.day.items[this.day.sunIdx];
+    if (!it) return p;
+
+    var ic = api.el('div', 'od-now-icon');
+    ic.innerHTML = this._iconSVG(it.id, it.snap);
+    p.appendChild(ic);
+
+    var nm = api.el('div', 'od-now-name');
+    nm.textContent = this._cap(this.cardName(it.id, api.lang, it.snap));
+    p.appendChild(nm);
+
+    if (this.premium && it.time) {
+      var t = api.el('div', 'od-now-time');
+      t.innerHTML = this._miniClock(it.time.h, it.time.m) + '<span>' + this._esc(this.fmtDigital(it.time.h, it.time.m)) + '</span>';
+      p.appendChild(t);
+    }
+
+    /* "what's after this?" is the most-asked question in the room, and
+       the class used to have to squint at a ribbon to answer it. */
+    var ni = ODM.nextStop(this.day, this.day.sunIdx);
+    if (ni < this.day.items.length) {
+      var nx = this.day.items[ni];
+      var nrow = api.el('div', 'od-now-next' + (this.day.warned ? ' od-now-next-soon' : ''));
+      nrow.innerHTML = '<span class="od-now-nextlbl">' + this._esc(api.t('nextLbl')) + '</span>'
+        + this._iconSVG(nx.id, nx.snap)
+        + '<span class="od-now-nextname">' + this._esc(this._cap(this.cardName(nx.id, api.lang, nx.snap))) + '</span>';
+      p.appendChild(nrow);
+    }
+    return p;
+  },
+
+  /* ------- one sheet primitive for all four overlays -------
+     The old tool had THREE overlay grammars: the gate was an inline
+     block that pushed the layout down, change and time were fixed
+     scrims, templates were an inline block appended after the toolbar
+     that grew the iframe and shoved the page. */
+  _sheet: function (body, cls) {
+    var api = this.api, self = this;
+    var scrim = api.el('div', 'od-scrim');
+    var panel = api.el('div', 'od-sheet ' + (cls || ''));
+    var x = api.el('button', 'od-close');
+    x.type = 'button';
+    x.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7l10 10M17 7 7 17" stroke="#8A7A5C" stroke-width="2.6" stroke-linecap="round" fill="none"/></svg>';
+    /* ⚠ this used to be a hard-coded English "close" in all 11 locales */
+    x.setAttribute('aria-label', api.t('closeAria'));
+    x.addEventListener('click', function () { self._closeSheets(); });
+    panel.append(x, body);
+    scrim.appendChild(panel);
+    scrim.addEventListener('click', function (e) { if (e.target === scrim) self._closeSheets(); });
+    return scrim;
+  },
+  _closeSheets: function () {
+    this._palOpen = false;
+    this._makeOpen = false;
+    this._makeEdit = null;
+    this._tmplOpen = false;
+    this.timeIdx = null;
+    this._pick = null;
+    this._notice = null;
+    this.render();
+  },
+
+  /* ------- the palette, as a sheet -------
+     ⚠ THE OLD PALETTE COULD NOT DELIVER ITS OWN "THIRTY SECONDS".
+     `flex:0 0 32%` of 704 is 213px holding variable-width chips, which
+     is where the ragged rows of one and two came from; ~1500px of
+     content sat inside a ~500px scroller clipped mid-card so it did not
+     even look scrollable; and every append re-rendered the palette and
+     reset its scrollTop, so a ten-card day meant re-scrolling a 1500px
+     list ten times. */
+  _paletteBody: function () {
+    var api = this.api, self = this;
+    var body = api.el('div', 'od-palbody');
+
+    var t = api.el('h3', 'od-sheet-title');
+    t.textContent = api.t('emptyHint');
+    body.appendChild(t);
+
+    /* the group rail: My cards first, then the six bands */
+    var rail = api.el('div', 'od-grouprail');
+    var mk = function (label, key) {
+      var b = self._chipBtn(label, 'od-chip od-chip-sm' + (self._palGroup === key ? ' od-on' : ''), function () {
+        self._palGroup = key; self.render();
+      });
+      rail.appendChild(b);
+    };
+    mk(api.t('addOwn'), 'mine');
+    for (var g = 0; g < this.GROUPS.length; g++) mk(api.t(this.GROUPS[g]), g);
+    body.appendChild(rail);
+
+    body.appendChild(this._paletteGrid(function (cardId, snap) {
+      if (self.addCard(cardId, undefined, snap)) self.render();     /* sheet STAYS OPEN for multi-add */
+    }));
+    return body;
+  },
+
+  /* the uniform grid. `repeat(auto-fill, minmax(...))` with identical
+     tiles makes ragged wrapping structurally impossible. */
+  _paletteGrid: function (onPick) {
+    var api = this.api, self = this;
+    var box = api.el('div', 'od-palwrap');
+    var group = (this._palGroup === undefined || this._palGroup === null) ? 'recent' : this._palGroup;
+
+    var tile = function (id, name, snap) {
+      var b = api.el('button', 'od-tile');
+      b.type = 'button';
+      b.innerHTML = self._iconSVG(id, snap) + '<span class="od-tilename">' + self._esc(self._cap(name)) + '</span>';
+      b.addEventListener('click', function () { onPick(id, snap); });
+      return b;
+    };
+
+    /* Recent — a teacher's day is the same 10-14 cards and the catalogue
+       is a long tail. THIS is what buys the thirty seconds. */
+    var recent = this._store.recent || [];
+    if (group === 'recent' && recent.length) {
+      var rl = api.el('div', 'od-band-label'); rl.textContent = api.t('recentLbl');
+      var rg = api.el('div', 'od-grid');
+      for (var r = 0; r < recent.length; r++) {
+        var cid = recent[r];
+        var cs = ODM.findCustom(this._store.custom, cid);
+        if (!cs && !this.NAMES[cid]) continue;
+        rg.appendChild(tile(cid, this.cardName(cid, api.lang), cs ? { name: cs.name, icon: cs.icon, tint: cs.tint } : null));
+      }
+      box.append(rl, rg);
+    }
+
+    if (group === 'mine') {
+      box.appendChild(this._mineGrid(onPick, tile));
+      return box;
+    }
+
+    var cards = this.visibleCards(api.lang);
+    var start = (group === 'recent') ? 0 : group;
+    var end = (group === 'recent') ? this.GROUPS.length - 1 : group;
+    for (var gi = start; gi <= end; gi++) {
+      var inGroup = cards.filter(function (c) { return c.group === gi; });
+      if (!inGroup.length) continue;
+      var lbl = api.el('div', 'od-band-label');
+      lbl.textContent = api.t(this.GROUPS[gi]);
+      var grid = api.el('div', 'od-grid');
+      for (var k = 0; k < inGroup.length; k++) grid.appendChild(tile(inGroup[k].id, this.cardName(inGroup[k].id, api.lang)));
+      box.append(lbl, grid);
+    }
+    return box;
+  },
+
+  /* ------- ★ My cards ------- */
+  _mineGrid: function (onPick, tile) {
+    var api = this.api, self = this;
+    var box = api.el('div', '');
+    var lbl = api.el('div', 'od-band-label');
+    lbl.textContent = api.t('addOwn');
+    box.appendChild(lbl);
+
+    var grid = api.el('div', 'od-grid');
+    var list = this._store.custom || [];
+    for (var i = 0; i < list.length; i++) {
+      (function (c) {
+        var snap = { name: c.name, icon: c.icon, tint: c.tint };
+        var t = tile(c.id, c.name, snap);
+        var pen = api.el('button', 'od-tileedit');
+        pen.type = 'button';
+        pen.setAttribute('aria-label', api.t('editChip') + ': ' + c.name);
+        pen.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19h4L20 8l-4-4L5 15z" fill="none" stroke="#146B5E" stroke-width="2" stroke-linejoin="round"/></svg>';
+        pen.addEventListener('click', function (e) {
+          e.stopPropagation();
+          self._makeEdit = c.id;
+          self._makeName = c.name; self._makeIcon = c.icon; self._makeTint = c.tint;
+          self._palOpen = false; self._makeOpen = true; self._notice = null;
+          self.render();
+        });
+        t.appendChild(pen);
+        grid.appendChild(t);
+      }(list[i]));
+    }
+
+    var add = api.el('button', 'od-tile od-tile-new');
+    add.type = 'button';
+    add.setAttribute('aria-label', api.t('makeTitle'));
+    add.innerHTML = '<svg class="od-ic" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 14v20M14 24h20" stroke="#146B5E" stroke-width="3.6" stroke-linecap="round" fill="none"/></svg>'
+      + '<span class="od-tilename">' + this._esc(api.t('makeTitle')) + '</span>';
+    add.addEventListener('click', function () {
+      self._makeEdit = null;
+      self._makeName = ''; self._makeIcon = 'star'; self._makeTint = ODM_TINTS[0];
+      self._palOpen = false; self._makeOpen = true; self._notice = null;
+      self.render();
+    });
+    grid.appendChild(add);
+    box.appendChild(grid);
+
+    var note = api.el('p', 'od-devicenote');
+    note.textContent = api.t('makeDeviceOnly');
+    box.appendChild(note);
+    return box;
+  },
+
+  /* ------- make a card -------
+     ⚠ THE COLOUR GOES ON THE TILE AND THE SYMBOL IS KNOCKED OUT OF IT
+     IN CREAM. A teacher cannot judge contrast, and if she picks the ink
+     she will eventually pick honey on cream and produce an invisible
+     card. Inverting it makes legibility STRUCTURAL: cream on any of the
+     six tints is >=3:1 by construction, it greyscales cleanly at 14mm,
+     and a solid tile with a hole in it is the strongest possible mark at
+     thumbnail size. It also means a teacher's card LOOKS like a
+     teacher's card, which the class learns. */
+  _makeBody: function () {
+    var api = this.api, self = this;
+    var body = api.el('div', 'od-makebody');
+
+    var t = api.el('h3', 'od-sheet-title');
+    t.textContent = api.t('makeTitle');
+    body.appendChild(t);
+
+    var inp = document.createElement('input');
+    inp.className = 'od-input';
+    inp.type = 'text';
+    inp.maxLength = ODM.MAX_NAME;
+    inp.value = this._makeName || '';
+    inp.setAttribute('aria-label', api.t('makeTitle'));
+    inp.autocapitalize = 'sentences';
+    inp.addEventListener('input', function () { self._makeName = inp.value; });
+    body.appendChild(inp);
+
+    var hint = api.el('p', 'od-makehint');
+    hint.textContent = api.t('makeHint');
+    body.appendChild(hint);
+
+    /* tints FIRST and above the grid, because tapping one recolours all
+       36 tiles at once — the grid IS the preview, so she never has to
+       compose the finished card in her head. */
+    var tints = api.el('div', 'od-tintrow');
+    for (var i = 0; i < ODM_TINTS.length; i++) {
+      (function (tint) {
+        var b = api.el('button', 'od-tintbtn' + (self._makeTint === tint ? ' od-on' : ''));
+        b.type = 'button';
+        b.style.setProperty('background-color', tint);
+        b.setAttribute('aria-label', tint);
+        b.addEventListener('click', function () { self._makeTint = tint; self.render(); });
+        tints.appendChild(b);
+      }(ODM_TINTS[i]));
+    }
+    body.appendChild(tints);
+
+    var grid = api.el('div', 'od-glyphgrid');
+    for (var k in ODM_GLYPHS) {
+      (function (key) {
+        var b = api.el('button', 'od-glyphbtn' + (self._makeIcon === key ? ' od-on' : ''));
+        b.type = 'button';
+        b.setAttribute('aria-label', key);
+        b.innerHTML = self._madeSVG(key, self._makeTint);
+        b.addEventListener('click', function () { self._makeIcon = key; self.render(); });
+        grid.appendChild(b);
+      }(k));
+    }
+    body.appendChild(grid);
+
+    var acts = api.el('div', 'od-makeacts');
+    acts.appendChild(this._chipBtn(api.t(this._makeEdit ? 'makeSave' : 'makeAdd'), 'od-chip od-on od-chip-go', function () {
+      var r = ODM.addCustom(self._store.custom, self._makeName, self._makeIcon, self._makeTint, 4, self._makeEdit);
+      if (r !== 'ok') { self._notice = r; self.render(); return; }
+      self._saveStore();
+      if (!self._makeEdit) {
+        var c = self._store.custom[self._store.custom.length - 1];
+        self.addCard(c.id, undefined, { name: c.name, icon: c.icon, tint: c.tint });
+      }
+      self._makeOpen = false; self._makeEdit = null; self._notice = null;
+      self.render();
+    }));
+    if (this._makeEdit) {
+      acts.appendChild(this._chipBtn(api.t('makeDelete'), 'od-chip od-chip-quiet', function () {
+        /* removes it from the PALETTE only — cards already on today's
+           strip or in a saved plan keep their snapshot and stay put. */
+        ODM.removeCustom(self._store.custom, self._makeEdit);
+        self._saveStore();
+        self._makeOpen = false; self._makeEdit = null;
+        self.render();
+      }));
+    }
+    body.appendChild(acts);
+    return body;
+  },
+
+  /* ------- weekly plans, as a shelf of objects -------
+     The old panel was sixteen ragged chips in four rows: five weekday
+     buttons, five "Save as <day>" buttons, then three unnameable stars
+     with their own save buttons — and a thumbnail that was a vertical
+     column of 16px icons. */
+  _templatesBody: function () {
+    var api = this.api, self = this;
+    var body = api.el('div', 'od-tmplbody');
+    var t = api.el('h3', 'od-sheet-title');
+    t.textContent = api.t('tmplTitle');
+    body.appendChild(t);
+
+    if (!this.premium) { body.appendChild(this._gateLine()); return body; }
+
+    var shelf = api.el('div', 'od-shelf');
+    var slots = this.WEEKDAYS.concat(['a', 'b', 'c']);
+    var today = this.todayWeekdayIdx();
+    slots.forEach(function (slot, si) {
+      var stored = self._store.templates[slot];
+      var label = si < 5 ? self.weekdayLabel(api.lang, si)
+        : ((stored && stored.name) ? stored.name : '★' + (si - 4));
+      var card = api.el('div', 'od-plan' + (si === today ? ' od-plan-today' : ''));
+
+      var open = api.el('button', 'od-plan-face');
+      open.type = 'button';
+      /* the thumbnail IS the day, shrunk — the same rows, the same
+         order, one tinted bar per card. It reads instantly as a day
+         because it is one. */
+      var th = '<span class="od-thumb">';
+      if (stored && stored.items) {
+        for (var q = 0; q < Math.min(stored.items.length, 12); q++) {
+          var sn = stored.items[q].snap;
+          th += '<span class="od-thumbrow"' + (sn && sn.tint ? ' style="--od-tint:' + sn.tint + '"' : '') + '>'
+             + self._iconSVG(stored.items[q].id, sn) + '</span>';
+        }
+      }
+      th += '</span>';
+      open.innerHTML = th + '<span class="od-plan-name">' + self._esc(label) + '</span>';
+      open.addEventListener('click', function () { self._planOpen = (self._planOpen === slot ? null : slot); self.render(); });
+      card.appendChild(open);
+
+      if (self._planOpen === slot) {
+        var acts = api.el('div', 'od-plan-acts');
+        if (stored) {
+          acts.appendChild(self._chipBtn(api.t('tmplUse'), 'od-chip od-chip-sm od-on', function () {
+            self.loadTemplate(slot); self._planOpen = null; self._tmplOpen = false; self.render();
+          }));
+        }
+        var saveLbl = stored ? api.t('tmplSaveHere') : api.t('tmplSaveHere');
+        var save = self._chipBtn(saveLbl, 'od-chip od-chip-sm', function () {
+          /* overwriting a term's work used to be silent */
+          if (stored && self._planConfirm !== slot) { self._planConfirm = slot; self.render(); return; }
+          self.saveTemplate(slot);
+          self._planConfirm = null; self._planOpen = null;
+          self.render();
+        });
+        save.disabled = !self.day.items.length;
+        acts.appendChild(save);
+        if (self._planConfirm === slot) {
+          var q2 = api.el('span', 'od-plan-confirm');
+          q2.textContent = self.fmt('tmplReplace', { day: label });
+          acts.appendChild(q2);
+          acts.appendChild(self._chipBtn(api.t('tmplKeep'), 'od-chip od-chip-sm od-chip-ghost', function () {
+            self._planConfirm = null; self.render();
+          }));
+        }
+        if (si >= 5) {
+          var nin = document.createElement('input');
+          nin.className = 'od-input od-input-sm';
+          nin.type = 'text';
+          nin.maxLength = 18;
+          nin.value = (stored && stored.name) ? stored.name : '';
+          nin.setAttribute('aria-label', api.t('tmplName'));
+          nin.addEventListener('change', function () {
+            var nm = ODM.cleanName(nin.value).slice(0, 18);
+            if (!self._store.templates[slot]) return;
+            self._store.templates[slot].name = nm || null;
+            self._saveStore(); self.render();
+          });
+          nin.disabled = !stored;
+          acts.appendChild(nin);
+        }
+        card.appendChild(acts);
+      }
+      shelf.appendChild(card);
+    });
+    body.appendChild(shelf);
+    return body;
+  },
+
+  /* ------- the time picker ------- */
+  _timeBody: function () {
+    var api = this.api, self = this;
+    var idx = this.timeIdx;
+    var it = this.day.items[idx];
+    var body = api.el('div', 'od-timebody');
+    if (!it) return body;
+
+    if (!this._pick || this._pickFor !== idx) {
+      var seed = it.time;
+      if (!seed) {
+        for (var j = idx - 1; j >= 0; j--) {
+          if (this.day.items[j].time) {
+            var t0 = this.day.items[j].time;
+            var mins = t0.h * 60 + t0.m + 30;
+            /* ⚠ the old seed clamped the HOUR to 16 while keeping the
+               rolled-over minutes, so a card at 16:45 seeded the next
+               one at 16:15 — thirty minutes EARLIER than the card it
+               follows. Clamp the whole minute count, not the hour. */
+            if (mins > 18 * 60) mins = 18 * 60;
+            seed = { h: Math.floor(mins / 60), m: mins % 60 - (mins % 60) % 5 };
+            break;
+          }
+        }
+      }
+      if (!seed) seed = { h: 8, m: 0 };
+      this._pick = { h: seed.h, m: seed.m };
+      this._pickFor = idx;
+    }
+
+    var h3 = api.el('h3', 'od-sheet-title');
+    h3.textContent = this.fmt('timeAria', { name: this.cardName(it.id, api.lang, it.snap) });
+    body.appendChild(h3);
+
+    var prev = api.el('div', 'od-tp-preview');
+    prev.innerHTML = this._miniClock(this._pick.h, this._pick.m) + '<span>' + this._esc(this.fmtDigital(this._pick.h, this._pick.m)) + '</span>';
+    body.appendChild(prev);
+
+    var hrow = api.el('div', 'od-tp-row');
+    /* 6-18, not 7-16: a breakfast club at 6:45 and aftercare at 17:00
+       used to be silently unrepresentable. */
+    for (var h = 6; h <= 18; h++) {
+      (function (hh) {
+        hrow.appendChild(self._chipBtn(String(hh), 'od-chip od-tp-key' + (self._pick.h === hh ? ' od-on' : ''), function () { self._pick.h = hh; self.render(); }));
+      }(h));
+    }
+    body.appendChild(hrow);
+
+    var mrow = api.el('div', 'od-tp-row');
+    for (var m = 0; m < 60; m += 5) {
+      (function (mm) {
+        mrow.appendChild(self._chipBtn(':' + (mm < 10 ? '0' + mm : mm), 'od-chip od-tp-key' + (self._pick.m === mm ? ' od-on' : ''), function () { self._pick.m = mm; self.render(); }));
+      }(m));
+    }
+    body.appendChild(mrow);
+
+    var acts = api.el('div', 'od-tp-actions');
+    acts.appendChild(this._chipBtn(api.t('doneChip'), 'od-chip od-on od-chip-go', function () {
+      self.setTime(idx, self._pick.h, self._pick.m);
+      self.timeIdx = null; self._pick = null; self.render();
+    }));
+    acts.appendChild(this._chipBtn(api.t('timeNone'), 'od-chip', function () {
+      self.setTime(idx, null); self.timeIdx = null; self._pick = null; self.render();
+    }));
+    body.appendChild(acts);
+    return body;
+  },
+
+  /* ------- the toolbar ------- */
   _toolbar: function () {
     var api = this.api, self = this;
     var bar = api.el('div', 'od-toolbar');
@@ -822,17 +2172,28 @@ var OurDay = {
       start.addEventListener('click', function () { self.startDay(); });
       bar.appendChild(start);
     } else {
-      var edit = this._chipBtn(this.mode === 'edit' ? api.t('doneChip') : api.t('editChip'), 'od-chip od-editchip' + (this.mode === 'edit' ? ' od-on' : ''), function () {
-        self.mode = self.mode === 'edit' ? 'run' : 'edit';
-        self.displayMode = false;
-        self.changeIdx = null; self.changePick = null; self.timeIdx = null;
-        self.render();
-      });
-      bar.appendChild(edit);
+      bar.appendChild(this._chipBtn(this.mode === 'edit' ? api.t('doneChip') : api.t('editChip'),
+        'od-chip od-editchip' + (this.mode === 'edit' ? ' od-on' : ''), function () {
+          self.mode = self.mode === 'edit' ? 'run' : 'edit';
+          self.displayMode = false;
+          self.changeIdx = null; self.changePick = null; self.timeIdx = null;
+          self.render();
+        }));
+      /* ⚠ a card could not be removed or reordered in BUILD mode at all:
+         Edit only rendered when mode !== 'build'. A mis-tap while
+         building was undoable only by starting the day, entering Edit
+         and fixing it there — or by Reset. */
+      bar.appendChild(this._chipBtn(api.t('focusChip'), 'od-chip' + (this.focusMode ? ' od-on' : ''), function () {
+        self.focusMode = !self.focusMode; self.render();
+      }));
+    }
+    if (this.mode === 'build' && this.day.items.length) {
+      bar.appendChild(this._chipBtn(api.t('editChip'), 'od-chip' + (this.mode === 'edit' ? ' od-on' : ''), function () {
+        self.mode = 'edit'; self.render();
+      }));
     }
 
-    var spacer = api.el('div', 'od-spacer');
-    bar.appendChild(spacer);
+    bar.appendChild(api.el('div', 'od-spacer'));
 
     if (this.api.settings.voice && this.premium && !this._voiceOk()) {
       var vm = api.el('span', 'od-voicemiss');
@@ -843,7 +2204,7 @@ var OurDay = {
 
     bar.appendChild(this._chipBtn(api.t('tmplTitle'), 'od-chip' + (!this.premium ? ' od-locked' : ''), function () {
       if (!self.premium) { self.gateOpen = true; self.render(); return; }
-      self._tmplOpen = !self._tmplOpen;
+      self._tmplOpen = true; self._planOpen = null; self._planConfirm = null;
       self.render();
     }));
     bar.appendChild(this._chipBtn(api.t('printChip'), 'od-chip' + (!this.premium ? ' od-locked' : ''), function () {
@@ -853,138 +2214,37 @@ var OurDay = {
     return bar;
   },
 
-  /* ------- change overlay (the ritual) ------- */
-  _changeOverlay: function () {
-    var api = this.api, self = this;
-    var ov = api.el('div', 'od-scrim');
-    var panel = api.el('div', 'od-change');
-    var it = this.day.items[this.changeIdx];
-    if (!this.changePick) {
-      panel.innerHTML = '<div class="od-change-swirl">↝</div><h3>' + api.t('changeTitle') + '</h3>' +
-        '<div class="od-change-card">' + this._iconSVG(it.id) + '<span>' + this._cap(this.cardName(it.id, api.lang)) + '</span></div>';
-      var opts = api.el('div', 'od-change-opts');
-      opts.append(
-        this._chipBtn(api.t('changeSwap'), 'od-chip od-on', function () { self.changePick = 'swap'; self.render(); }),
-        this._chipBtn(api.t('changeAddB'), 'od-chip', function () { self.changePick = 'before'; self.render(); }),
-        this._chipBtn(api.t('changeAddA'), 'od-chip', function () { self.changePick = 'after'; self.render(); }),
-        this._chipBtn(api.t('skipCard') + ' ☾', 'od-chip', function () { self.skipCard(self.changeIdx); self.changeIdx = null; self.render(); }),
-        this._chipBtn(api.t('changeRemove'), 'od-chip', function () { self.removeCard(self.changeIdx); self.changeIdx = null; self.render(); })
-      );
-      panel.appendChild(opts);
-    } else {
-      panel.innerHTML = '<h3>' + api.t('changeTitle') + '</h3><p class="od-change-hint">' + api.t('emptyHint') + '</p>';
-      panel.appendChild(this._palette());
-    }
-    var x = api.el('button', 'od-close');
-    x.type = 'button'; x.textContent = '×'; x.setAttribute('aria-label', 'close');
-    x.addEventListener('click', function () { self.changeIdx = null; self.changePick = null; self.render(); });
-    panel.appendChild(x);
-    ov.appendChild(panel);
-    ov.addEventListener('click', function (e) { if (e.target === ov) { self.changeIdx = null; self.changePick = null; self.render(); } });
-    return ov;
+  /* the display-mode exit. The chrome fades on a projector so the day
+     owns the screen, but there must always be a way back to it. */
+  _moreBtn: function () {
+    var self = this;
+    var b = this.api.el('button', 'od-more');
+    b.type = 'button';
+    b.setAttribute('aria-label', this.api.t('moreChip'));
+    b.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="2" fill="#146B5E"/><circle cx="12" cy="12" r="2" fill="#146B5E"/><circle cx="18" cy="12" r="2" fill="#146B5E"/></svg>';
+    b.addEventListener('click', function () { self.displayMode = false; self.render(); });
+    return b;
   },
 
-  /* ------- time picker (5-min two-row; pre-seed prev + 30) ------- */
-  _timePicker: function () {
-    var api = this.api, self = this;
-    var idx = this.timeIdx;
-    var it = this.day.items[idx];
-    var seed = it.time;
-    if (!seed) {
-      for (var j = idx - 1; j >= 0; j--) {
-        if (this.day.items[j].time) {
-          var t = this.day.items[j].time;
-          var mins = t.h * 60 + t.m + 30;
-          seed = { h: Math.min(16, Math.floor(mins / 60)), m: mins % 60 - (mins % 60) % 5 };
-          break;
-        }
-      }
-      if (!seed) seed = { h: 8, m: 0 };
-    }
-    this._pick = this._pick || { h: seed.h, m: seed.m };
-    var ov = api.el('div', 'od-scrim');
-    var panel = api.el('div', 'od-timepick');
-    panel.innerHTML = '<h3>' + this.fmt('timeAria', { name: this.cardName(it.id, api.lang) }) + '</h3>' +
-      '<div class="od-tp-preview">' + this._miniClock(this._pick.h, this._pick.m) + '<span>' + this.fmtDigital(this._pick.h, this._pick.m) + '</span></div>';
-    var hrow = api.el('div', 'od-tp-row');
-    for (var h = 7; h <= 16; h++) {
-      (function (hh) {
-        var b = self._chipBtn(String(hh), 'od-chip od-tp-key' + (self._pick.h === hh ? ' od-on' : ''), function () { self._pick.h = hh; self.render(); });
-        hrow.appendChild(b);
-      }(h));
-    }
-    panel.appendChild(hrow);
-    var mrow = api.el('div', 'od-tp-row');
-    for (var m = 0; m < 60; m += 5) {
-      (function (mm) {
-        var b = self._chipBtn(':' + (mm < 10 ? '0' + mm : mm), 'od-chip od-tp-key' + (self._pick.m === mm ? ' od-on' : ''), function () { self._pick.m = mm; self.render(); });
-        mrow.appendChild(b);
-      }(m));
-    }
-    panel.appendChild(mrow);
-    var act = api.el('div', 'od-tp-actions');
-    act.append(
-      this._chipBtn(api.t('doneChip'), 'od-chip od-on', function () { self.setTime(idx, self._pick.h, self._pick.m); self.timeIdx = null; self._pick = null; self.render(); }),
-      this._chipBtn(api.t('timeNone'), 'od-chip', function () { self.setTime(idx, null); self.timeIdx = null; self._pick = null; self.render(); })
-    );
-    panel.appendChild(act);
-    ov.appendChild(panel);
-    ov.addEventListener('click', function (e) { if (e.target === ov) { self.timeIdx = null; self._pick = null; self.render(); } });
-    return ov;
-  },
-
-  /* ------- templates panel ------- */
-  _templates: function () {
-    var api = this.api, self = this;
-    var host = api.el('div', 'od-templates');
-    host.innerHTML = '<span class="od-band-label">' + api.t('tmplTitle') + '</span>';
-    var row = api.el('div', 'od-tmpl-row');
-    var slots = this.WEEKDAYS.concat(['a', 'b', 'c']);
-    slots.forEach(function (slot, si) {
-      var label = si < 5 ? self.weekdayLabel(api.lang, si) : '★' + (si - 4);
-      var t = self._store.templates[slot];
-      var card = api.el('div', 'od-tmpl-card');
-      var open = api.el('button', 'od-tmpl-open');
-      open.type = 'button';
-      if (t) {
-        var thumb = api.el('span', 'od-thumb');
-        t.items.slice(0, 8).forEach(function (item) {
-          var d = api.el('span', 'od-thumb-cell');
-          d.innerHTML = self._iconSVG(item.id);
-          thumb.appendChild(d);
-        });
-        open.appendChild(thumb);
-      }
-      var nm = api.el('span', 'od-tmpl-name');
-      nm.textContent = label;
-      open.appendChild(nm);
-      open.addEventListener('click', function () {
-        if (t) self.loadTemplate(slot);
-      });
-      card.appendChild(open);
-      var save = self._chipBtn(self.fmt('tmplSaveAs', { day: label }), 'od-chip od-chip-sm', function () { self.saveTemplate(slot); });
-      save.disabled = !self.day.items.length;
-      card.appendChild(save);
-      row.appendChild(card);
-    });
-    host.appendChild(row);
-    return host;
-  },
-
-  _gatePanel: function () {
-    var api = this.api, self = this;
+  /* ⚠ THE GATE LINE IS TWO NODES, NEVER A CONCATENATION. */
+  _gateLine: function () {
+    var api = this.api;
     var g = api.el('div', 'od-gate');
     var p = api.el('p', 'od-gate-text');
     p.textContent = api.t('gatePremium');
     var a = api.el('a', 'od-gate-link');
     a.href = '/' + api.lang + '/pricing?from=tool-our-day';
     a.target = '_top';
+    a.rel = 'noopener';
     a.textContent = api.t('unlock');
-    var x = api.el('button', 'od-close');
-    x.type = 'button'; x.textContent = '×'; x.setAttribute('aria-label', 'close');
-    x.addEventListener('click', function () { self.gateOpen = false; self.render(); });
-    g.append(x, p, a);
+    g.append(p, a);
     return g;
+  },
+  _gatePanel: function () {
+    var self = this;
+    var body = this.api.el('div', '');
+    body.appendChild(this._gateLine());
+    return this._sheet(body, 'od-sheet-gate');
   },
 
   _chipBtn: function (label, cls, fn) {
@@ -994,15 +2254,142 @@ var OurDay = {
     b.addEventListener('click', fn);
     return b;
   },
+  _esc: function (s) {
+    return String(s === null || s === undefined ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  },
 
-  /* ------- SVG: the sun, the mini clock, the activity icons ------- */
+
+  /* ================= PRINT — two real documents =====================
+     ⚠ DOUBLE-LOCKED, and the reason is on the record: gating the CHIP is
+     not gating the FEATURE, because Ctrl+P is guarded by no button. The
+     old build shipped an UNCONDITIONAL `@media print` block, so a free
+     visitor pressing Ctrl+P got the whole premium sheet. So:
+       1. these subtrees are ABSENT from the DOM unless entitled, and
+       2. every print rule is scoped `body.od-paid`,
+     and a free visitor pressing Ctrl+P therefore gets a NORMAL page —
+     not a blank one, which is the other way to get this wrong.
+
+     ⚠ AND THE SHELL RESET IS PART OF THE CONTRACT: lcs-shell.css ships
+     ZERO @media print blocks (verified), so html,body{height:100%;
+     overflow:hidden} and the .lcs-app max-width survive into print and
+     would clip a twelve-card day to one screenful — which is exactly the
+     day a substitute needs.
+
+     Two documents, because they are two different jobs. A substitute
+     needs a DOCUMENT (where the class goes, who to ask, what changed,
+     who leaves the room). A child needs a STRIP (portrait,
+     icon-dominant, one tick box per card, and NO TIMES — a time on a
+     child's desk strip becomes a deadline the child polices themselves
+     against, which is the exact failure §20.4 exists to prevent). */
+  _paintPrintDocs: function () {
+    if (!this._printHost) {
+      this._printHost = this.api.el('div', 'od-printdocs');
+      this._wrap.appendChild(this._printHost);
+    }
+    this._printHost.innerHTML = '';
+    if (!this.premium) return;
+    this._printHost.appendChild(this._subSheet());
+    this._printHost.appendChild(this._deskStrip());
+  },
+
+  _subSheet: function () {
+    var api = this.api, self = this;
+    var d = api.el('section', 'od-doc od-doc-sub');
+
+    var h = api.el('header', 'od-doc-head');
+    h.innerHTML = '<h1>' + this._esc(api.t('title')) + '</h1>'
+      + '<p class="od-doc-meta">' + this._esc(api.t('printWith')) + '</p>';
+    d.appendChild(h);
+
+    var list = api.el('ol', 'od-doc-list');
+    for (var i = 0; i < this.day.items.length; i++) {
+      var it = this.day.items[i];
+      var li = api.el('li', 'od-doc-row' + (it.skipped ? ' od-doc-skip' : ''));
+      var t = (this.premium && it.time) ? this.fmtDigital(it.time.h, it.time.m) : '';
+      li.innerHTML = '<span class="od-doc-ord">' + (i + 1) + '</span>'
+        + this._iconSVG(it.id, it.snap)
+        + '<span class="od-doc-name">' + this._esc(this._cap(this.cardName(it.id, api.lang, it.snap))) + '</span>'
+        + '<span class="od-doc-time">' + this._esc(t) + '</span>'
+        + '<span class="od-doc-rule"></span>';
+      list.appendChild(li);
+    }
+    d.appendChild(list);
+
+    /* today's changes — this is where "was: PE" belongs on paper */
+    var changed = [];
+    for (var k = 0; k < this.day.items.length; k++) {
+      var c = this.day.items[k];
+      if (c.changedFrom) changed.push(this.fmt('changeSpoken', {
+        nw: this.cardName(c.id, api.lang, c.snap),
+        old: this.cardName(c.changedFrom, api.lang, c.changedSnap)
+      }));
+      else if (c.skipped) changed.push(this.fmt(c.skipDay === null ? 'removedNote' : 'removedOnDay', {
+        name: this.cardName(c.id, api.lang, c.snap),
+        day: c.skipDay === null ? '' : this.weekdayLabel(api.lang, c.skipDay)
+      }));
+    }
+    if (changed.length) {
+      var ch = api.el('div', 'od-doc-changes');
+      ch.innerHTML = '<h2>' + this._esc(api.t('changeTitle')) + '</h2>';
+      var ul = api.el('ul', '');
+      for (var m = 0; m < changed.length; m++) {
+        var li2 = api.el('li', '');
+        li2.textContent = changed[m];
+        ul.appendChild(li2);
+      }
+      ch.appendChild(ul);
+      d.appendChild(ch);
+    }
+
+    var notes = api.el('div', 'od-doc-notes');
+    notes.innerHTML = '<h2>' + this._esc(api.t('printNotes')) + '</h2>'
+      + '<span class="od-doc-lines"></span>';
+    d.appendChild(notes);
+    return d;
+  },
+
+  _deskStrip: function () {
+    var api = this.api;
+    var d = api.el('section', 'od-doc od-doc-desk');
+    /* printed 2-up so one sheet serves two children */
+    for (var copy = 0; copy < 2; copy++) {
+      var col = api.el('div', 'od-desk-col');
+      var hd = api.el('div', 'od-desk-head');
+      hd.textContent = api.t('printWith');
+      col.appendChild(hd);
+      for (var i = 0; i < this.day.items.length; i++) {
+        var it = this.day.items[i];
+        var row = api.el('div', 'od-desk-row' + (it.skipped ? ' od-doc-skip' : ''));
+        row.innerHTML = this._iconSVG(it.id, it.snap)
+          + '<span class="od-desk-name">' + this._esc(this._cap(this.cardName(it.id, api.lang, it.snap))) + '</span>'
+          + '<span class="od-desk-tick"></span>';
+        col.appendChild(row);
+      }
+      d.appendChild(col);
+    }
+    return d;
+  },
+
+  /* ------- SVG: the sun, the mini clock, the activity icons -------
+     ⚠ THE SIGNATURE MARK WAS THE LEAST VISIBLE THING IN THE TOOL. Eight
+     identical LINE rays stroked #F2C879 on #FFFCF2 is about 1.3:1 — on a
+     projector in a daylit room the corona simply is not there, and on
+     paper it is gone. Filled petals with a #E0A63C keyline have mass and
+     survive both. The petals also ALTERNATE long and short, because a
+     sun drawn with eight equal spokes is an asterisk. */
   _sunSVG: function () {
-    return '<svg viewBox="0 0 48 48" width="44" height="44" aria-hidden="true"><g class="od-sun-rays" stroke="#F2C879" stroke-width="3" stroke-linecap="round">' +
-      '<line x1="24" y1="2" x2="24" y2="9"/><line x1="24" y1="39" x2="24" y2="46"/><line x1="2" y1="24" x2="9" y2="24"/><line x1="39" y1="24" x2="46" y2="24"/>' +
-      '<line x1="8.4" y1="8.4" x2="13.4" y2="13.4"/><line x1="34.6" y1="34.6" x2="39.6" y2="39.6"/><line x1="8.4" y1="39.6" x2="13.4" y2="34.6"/><line x1="34.6" y1="13.4" x2="39.6" y2="8.4"/></g>' +
-      '<circle cx="24" cy="24" r="11" fill="#F2C879" stroke="#E0A63C" stroke-width="2"/>' +
-      '<circle cx="20.5" cy="22" r="1.5" fill="#8F6512"/><circle cx="27.5" cy="22" r="1.5" fill="#8F6512"/>' +
-      '<path d="M20 26.5q4 3 8 0" stroke="#8F6512" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>';
+    var petal = '<path d="M24 3 27.4 15.4a13.4 13.4 0 0 0-6.8 0z"/>';
+    var stub  = '<path d="M24 6.5 27 15.6a13.4 13.4 0 0 0-6 0z"/>';
+    var rays = '', a = [0, 90, 180, 270], b = [45, 135, 225, 315], i;
+    for (i = 0; i < a.length; i++) rays += '<g transform="rotate(' + a[i] + ' 24 24)">' + petal + '</g>';
+    for (i = 0; i < b.length; i++) rays += '<g transform="rotate(' + b[i] + ' 24 24)">' + stub + '</g>';
+    return '<svg viewBox="0 0 48 48" aria-hidden="true">'
+      + '<g class="od-sun-rays" fill="#F2C879" stroke="#E0A63C" stroke-width="2" stroke-linejoin="round">' + rays + '</g>'
+      + '<circle cx="24" cy="24" r="13" fill="#F2C879" stroke="#E0A63C" stroke-width="2.4"/>'
+      + '<circle cx="20" cy="21.5" r="1.9" fill="#8F6512"/><circle cx="28" cy="21.5" r="1.9" fill="#8F6512"/>'
+      + '<path d="M19.4 27q4.6 4 9.2 0" stroke="#8F6512" stroke-width="2.2" fill="none" stroke-linecap="round"/></svg>';
   },
   _miniClock: function (h24, m) {
     var h = h24 % 12;
@@ -1013,9 +2400,69 @@ var OurDay = {
       '<line x1="12" y1="12" x2="' + hx.toFixed(1) + '" y2="' + hy.toFixed(1) + '" stroke="#146B5E" stroke-width="2" stroke-linecap="round"/>' +
       '<line x1="12" y1="12" x2="' + mx.toFixed(1) + '" y2="' + my.toFixed(1) + '" stroke="#F2784B" stroke-width="1.5" stroke-linecap="round"/></svg>';
   },
-  _iconSVG: function (id) {
-    var P = this.ICON_PATHS[id] || this.ICON_PATHS.centers;
+  /* a teacher-made card: a solid tint tile with the symbol knocked out
+     of it in cream. Legibility is structural, not a judgement call. */
+  _madeSVG: function (glyph, tint) {
+    var g = ODM_GLYPHS[glyph] || ODM_GLYPHS.star;
+    return '<svg class="od-ic od-ic-made" viewBox="0 0 48 48" style="color:' + (tint || ODM_TINTS[0]) + '" aria-hidden="true">'
+      + '<rect x="3" y="3" width="42" height="42" rx="13" fill="currentColor"/>' + g + '</svg>';
+  },
+  /* ⚠ THE UNKNOWN-ID FALLBACK IS NOT `centers`. It used to be, which
+     means an unrecognised card silently rendered the FREE PLAY icon —
+     on a board a class reads all day that is not a null state, it is a
+     wrong statement. A neutral star claims nothing. */
+  _iconSVG: function (id, snap) {
+    if (snap && snap.icon) return this._madeSVG(snap.icon, snap.tint);
+    var c = ODM.findCustom(this._store && this._store.custom ? this._store.custom : [], id);
+    if (c) return this._madeSVG(c.icon, c.tint);
+    var P = this.ICON_PATHS[id];
+    if (!P) return this._madeSVG('star', ODM_TINTS[0]);
     return '<svg class="od-ic" viewBox="0 0 48 48" aria-hidden="true">' + P + '</svg>';
+  },
+
+  /* ------- the drawn state marks -------
+     A filter is subtractive and "finished" is additive; every visual
+     schedule a SEN coordinator recognises marks a finished thing by
+     PUTTING SOMETHING ON IT. A filter also cannot be two shapes for two
+     opposite meanings, and — decisively — it cannot reach paper, so the
+     substitute's printed strip could not show what had happened. */
+  _doneMarkSVG: function () {
+    return '<svg viewBox="0 0 32 32" class="od-mark-done" aria-hidden="true">'
+      + '<circle cx="16" cy="16" r="14" fill="#146B5E"/>'
+      + '<path d="M9 16.5l4.6 4.8L23.2 11" fill="none" stroke="#FFFDF7" stroke-width="4.2"'
+      + ' stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  },
+  /* a BAR in a soft ring, never a red cross and never a diagonal slash.
+     A cross means wrong; a slash means forbidden; a bar means removed
+     from the list — which is the truth, and which is the mark Nordic
+     bildschema already use. */
+  _skipMarkSVG: function () {
+    return '<svg viewBox="0 0 32 32" class="od-mark-skip" aria-hidden="true">'
+      + '<circle cx="16" cy="16" r="13.6" fill="#FBF3E4" stroke="#8A9A96" stroke-width="2.8"/>'
+      + '<path d="M9.5 16h13" stroke="#8A9A96" stroke-width="4.2" stroke-linecap="round"/></svg>';
+  },
+
+  /* the sun comes to rest. The only possible closing mark for this tool,
+     because it is the only one with narrative continuity: the thing that
+     carried the class through the day lies down at the end of it. No
+     trophy and no fireworks — a class that had a hard day deserves the
+     same ending as a class that had a good one. */
+  _dayDoneSVG: function () {
+    return '<svg viewBox="0 0 96 56" class="od-daydone" aria-hidden="true">'
+      + '<g fill="#F2C879" stroke="#E0A63C" stroke-width="2" stroke-linejoin="round">'
+      +   '<path d="M48 4 51.4 15a12 12 0 0 0-6.8 0z"/>'
+      +   '<path d="M28.7 9.9 37 17.4a12 12 0 0 0-3.4 5.9z"/>'
+      +   '<path d="M67.3 9.9 59 17.4a12 12 0 0 1 3.4 5.9z"/>'
+      +   '<path d="M20 27h11.5a12 12 0 0 1 .6-3.4z"/>'
+      +   '<path d="M76 27H64.5a12 12 0 0 0-.6-3.4z"/>'
+      + '</g>'
+      + '<path d="M35 38a13 13 0 0 1 26 0z" fill="#F2C879" stroke="#E0A63C" stroke-width="2.4" stroke-linejoin="round"/>'
+      + '<path d="M42 31q2.6 2.8 5.2 0m1.6 0q2.6 2.8 5.2 0" fill="none" stroke="#8F6512" stroke-width="2.2" stroke-linecap="round"/>'
+      + '<path d="M44 35.5q4 3.4 8 0" fill="none" stroke="#8F6512" stroke-width="2.2" stroke-linecap="round"/>'
+      + '<path d="M4 38h88" stroke="#146B5E" stroke-width="3" stroke-linecap="round"/>'
+      + '<circle cx="14" cy="17" r="2" fill="#C9A8E0"/><circle cx="24" cy="10" r="1.6" fill="#9CC3E5"/>'
+      + '<circle cx="82" cy="16" r="2" fill="#C9A8E0"/><circle cx="72" cy="9" r="1.6" fill="#9CC3E5"/>'
+      + '</svg>';
   },
   /* flat Direction-A icons — teal strokes, coral/honey accents, 2-4
      primitives each (deliberately simple: readable at 34px from the
@@ -1071,172 +2518,333 @@ var OurDay = {
     celebrate: '<path d="M10 40 20 16l12 12z" fill="#F2C879" stroke="#E0A63C" stroke-width="2" stroke-linejoin="round"/><circle cx="30" cy="10" r="2.4" fill="#F2784B"/><circle cx="38" cy="18" r="2" fill="#9CC3E5"/><circle cx="34" cy="28" r="2.2" fill="#C9A8E0"/><path d="M24 8l2 4" stroke="#F2784B" stroke-width="2.4" stroke-linecap="round"/>'
   },
 
+  /* ⚠ RESET MUST CLEAR EVERY OVERLAY, NOT JUST THE DAY. The old version
+     blanked day.items and left changeIdx/timeIdx set, so the render that
+     followed did `this.day.items[this.changeIdx].id` on `undefined` and
+     threw a TypeError. Reset is a SHELL control — always on screen, one
+     click away — so this crashed from the most reachable button there is. */
+  _closeOverlays: function () {
+    this.changeIdx = null;
+    this.changePick = null;
+    this.timeIdx = null;
+    this._pick = null;
+    this._tmplOpen = false;
+    this._palOpen = false;
+    this._makeOpen = false;
+    this._makeEdit = null;
+    this.gateOpen = false;
+    this._notice = null;
+  },
   reset: function () {
-    this.day = this._blankDay();
+    this.day = ODM.newDay();
     this.mode = 'build';
     this.banner = null;
     this.displayMode = false;
+    this._closeOverlays();
     this._persistDay();
     this.render();
   },
   onSettings: function () { this._voiceState = null; this._saveStore(); this.render(); }
 };
 
-/* ========================== styles ================================== */
+/* ========================== styles ==================================
+   ⚠ NOT ONE `vh` IN THIS FILE. Every one of the old five resolved
+   against the IFRAME, which for a non-task tool is content-driven and
+   broadcast back to the parent by the shell's ResizeObserver — a real
+   feedback path, and forbidden outright for a manipulative (§23.6).
+   Layout keys on `[data-layout]`, which JS sets from a measured box.
+
+   ⚠ AND NOT ONE LAYOUT MEDIA QUERY ABOVE 700px. The tool page pins the
+   iframe at 704px at 1440, 1920 and 2560 alike, so every `min-width:
+   1367px` tier the old build shipped was dead on the one surface a
+   teacher actually uses. The wide tiers that remain do only what they
+   are entitled to do — raise the shell's own card cap on the
+   full-screen link, which is genuinely uncapped.
+   ================================================================== */
 function injectOurDayCSS() {
   if (document.getElementById('od-style')) return;
   var st = document.createElement('style');
   st.id = 'od-style';
   st.textContent = ''
-    + '.od-wrap{display:flex;flex-direction:column;gap:10px;max-width:980px;margin:0 auto;padding:4px 2px 10px;}'
-    + '.od-main{display:flex;gap:12px;align-items:flex-start;}'
+    /* ---------------- shell + frame ---------------- */
+    + '.od-wrap{display:flex;flex-direction:column;gap:10px;width:100%;margin:0 auto;padding:2px 2px 8px;}'
+    + '.od-main{display:flex;gap:14px;align-items:flex-start;width:100%;}'
+    + '.od-ribbonhost{flex:1 1 auto;min-width:0;}'
+    + '.od-nowhost{display:none;}'
+    /* BOARD: the day as a ribbon, and ONE card at hero scale */
+    + '.od-wrap[data-layout="board"] .od-ribbonhost{flex:0 0 30%;max-width:34%;min-width:220px;}'
+    + '.od-wrap[data-layout="board"] .od-nowhost{display:block;flex:1 1 auto;min-width:0;}'
+    /* ⭐ the shell documents `body.<ns>-wide .lcs-app` at (0,1,1) as the
+       intended override point for a tool with its own cap. This tool set
+       `od-wide` on <body> on every render and used it for NOTHING but a
+       scale variable, so on a 1024 projector the app stayed boxed at
+       720px and 30% of the screen was cream before the strip was even
+       measured. One rule. */
+    + 'body.od-wide .lcs-app{max-width:100%;}'
 
-    /* banner */
-    + '.od-banner{display:flex;flex-wrap:wrap;align-items:center;gap:10px;background:#FDF7EA;border:2px solid #F2C87966;border-radius:14px;padding:10px 14px;font-family:Nunito,sans-serif;font-weight:800;color:#5B4A2F;}'
+    /* ---------------- banner + notice ---------------- */
+    + '.od-bannerhost:empty{display:none;}'
+    + '.od-banner{display:flex;flex-wrap:wrap;align-items:center;gap:10px;background:#FDF7EA;border:2px solid #F2C87966;border-radius:14px;padding:10px 14px;font-family:Nunito,sans-serif;font-weight:800;color:#5B4A2F;font-size:15px;}'
+    /* refuse with a reason, never in silence — and VISIBLY, not only to
+       a screen reader, which is how "our day is full" used to be told. */
+    + '.od-notice{background:#FFF3E8;border:2px solid #F2784B66;border-radius:14px;padding:10px 14px;font-family:Nunito,sans-serif;font-weight:800;color:#8A3E1B;font-size:15px;line-height:1.4;}'
 
-    /* palette */
-    + '.od-palette{flex:0 0 32%;max-width:340px;display:flex;flex-direction:column;gap:8px;background:#fff;border-radius:16px;padding:10px;box-shadow:0 1px 4px rgba(20,107,94,.08);max-height:72vh;overflow-y:auto;}'
-    + '.od-band-label{font-family:Nunito,sans-serif;font-weight:800;font-size:12px;color:#4E6E69;text-transform:uppercase;letter-spacing:.05em;}'
-    + '.od-band{display:flex;flex-direction:column;gap:5px;}'
-    + '.od-band-row{display:flex;flex-wrap:wrap;gap:5px;}'
-    + '.od-pal-card{display:flex;align-items:center;gap:6px;border:1.5px solid rgba(20,107,94,.14);background:#FFFDF7;border-radius:10px;padding:5px 9px 5px 5px;cursor:pointer;font-family:Nunito,sans-serif;font-weight:800;font-size:12.5px;color:#146B5E;min-height:40px;}'
-    + '.od-pal-card .od-ic{width:28px;height:28px;flex:none;}'
-    + '.od-pal-card:hover{background:#FBF3E4;}'
-
-    /* strip */
-    + '.od-striphost{flex:1;background:#FFFDF7;border-radius:18px;padding:12px 14px;box-shadow:0 2px 10px rgba(20,107,94,.10);min-height:200px;}'
+    /* ---------------- the strip ---------------- */
+    + '.od-striphost{background:#FFFDF7;border-radius:18px;padding:10px 12px;box-shadow:0 2px 10px rgba(20,107,94,.10);min-height:120px;}'
     + '.od-strip{display:flex;flex-direction:column;gap:6px;}'
-    + '.od-empty{font-family:Nunito,sans-serif;font-weight:700;color:#8A9A96;padding:30px 10px;text-align:center;}'
-    + '.od-card{position:relative;display:flex;align-items:center;gap:10px;height:var(--od-cardh,72px);border:1.5px solid rgba(20,107,94,.12);border-radius:14px;background:#fff;padding:0 10px 0 0;transition:height .4s ease,filter .4s ease,opacity .4s ease;}'
-    + '.od-rail{flex:0 0 56px;display:flex;align-items:center;justify-content:center;gap:4px;align-self:stretch;}'
-    + '.od-sun{border:0;background:transparent;cursor:pointer;padding:4px;min-width:52px;min-height:52px;animation:odBreathe 4s ease-in-out infinite;}'
-    + '@keyframes odBreathe{0%,100%{transform:scale(1);}50%{transform:scale(1.06);}}'
-    + '.od-pebble{border:0;background:#F2784B;color:#fff;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:15px;box-shadow:0 1px 3px rgba(0,0,0,.2);}'
-    + '.od-cardbody{flex:1;display:flex;align-items:center;gap:12px;border:0;background:transparent;cursor:pointer;padding:6px 0;text-align:left;min-width:0;}'
-    + '.od-cardbody .od-ic{width:calc(var(--od-cardh,72px)*.66);height:calc(var(--od-cardh,72px)*.66);flex:none;}'
-    + '.od-cardtext{display:flex;flex-direction:column;min-width:0;}'
-    + '.od-cardname{font-family:Baloo\\ 2,cursive;font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),30px);color:#0E5147;line-height:1.1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}'
-    + '.od-was{font-family:Nunito,sans-serif;font-weight:700;font-size:12px;color:#8A9A96;}'
-    + '.od-badge{position:absolute;top:-7px;right:-6px;background:#F2C879;color:#5B4A2F;border-radius:50%;width:22px;height:22px;display:flex;align-items:center;justify-content:center;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.18);}'
+    + '.od-empty{font-family:Nunito,sans-serif;font-weight:700;color:#7A8C88;padding:22px 10px 14px;text-align:center;font-size:16px;line-height:1.4;}'
+    + '.od-card{position:relative;display:flex;align-items:center;gap:10px;min-height:var(--od-cardh,72px);border:1.5px solid rgba(20,107,94,.12);border-radius:14px;background:#fff;padding:0 10px 0 0;transition:min-height .35s ease,background .35s ease;}'
     + '.od-card.od-now{border-color:#F2C879;box-shadow:0 0 0 3px #F2C87955,0 2px 10px rgba(224,166,60,.25);background:#FFFCF2;}'
-    + '.od-card.od-done{filter:saturate(.55);opacity:.72;height:calc(var(--od-cardh,72px)*.7);transform:rotate(-.6deg);}'
-    + '.od-card.od-skipped{filter:saturate(.4);opacity:.55;}'
-    + '.od-card.od-skipped .od-cardname{text-decoration:none;}'
-    + '@keyframes odPulse{0%{transform:scale(1);}40%{transform:scale(1.02);}100%{transform:scale(1);}}'
-    + '.od-cardbody.od-pulse{animation:odPulse .5s ease;}'
-    + '.od-timechip{display:flex;align-items:center;gap:5px;border:1.5px solid #E0A63C88;background:#FDF7EA;border-radius:999px;padding:4px 10px;cursor:pointer;font-family:Nunito,sans-serif;font-weight:800;font-size:14px;color:#5B4A2F;flex:none;}'
-    + '.od-timechip-ghost{opacity:.45;min-width:34px;justify-content:center;}'
-    + '.od-grip{cursor:grab;color:#8A9A96;font-size:15px;letter-spacing:-2px;padding:0 2px 0 8px;touch-action:none;user-select:none;}'
-    + '.od-card.od-dragging{z-index:5;box-shadow:0 8px 18px rgba(20,30,28,.25);}'
-    + '.od-del{border:0;background:transparent;color:#8A9A96;font-size:19px;cursor:pointer;padding:2px 6px;flex:none;}'
+    /* the warning: a difference in KIND (a ring), never in hue */
+    + '.od-card.od-soon{border-color:#146B5E;box-shadow:0 0 0 2px #146B5E33;}'
+    /* ⚠ done LOSES HEIGHT, NEVER SATURATION. A finished card is the
+       child\'s evidence of a day survived and it must stay readable from
+       the back row for the rest of the day; `opacity:.72` on a daylit
+       projector took it to roughly 5:1 and every honey element below
+       1.5:1 — on the wall it was not dimmed, it was GONE. */
+    + '.od-card.od-done{--od-markgap:calc(var(--od-cardh,72px)*.36 + 14px);min-height:calc(var(--od-cardh,72px)*.78);background:#FBF3E4;border-color:rgba(20,107,94,.10);}'
+    + '.od-card.od-done .od-cardname{color:#3C6C64;}'
+    + '.od-card.od-skipped{--od-markgap:calc(var(--od-cardh,72px)*.36 + 14px);min-height:calc(var(--od-cardh,72px)*.66);background:#FFFDF7;border-style:dashed;border-color:#8A9A9666;}'
+    + '.od-card.od-skipped .od-ic{opacity:.8;}'
 
-    /* toolbar */
+    /* the rail: a FIXED 2-cell grid. It used to be flex:0 0 56px holding
+       86px of content, so the current card\'s name started ~28px right of
+       every other name. */
+    + '.od-rail{flex:0 0 auto;display:grid;grid-template-columns:44px 44px;align-items:center;justify-items:center;align-self:stretch;}'
+    + '.od-railcell{display:flex;align-items:center;justify-content:center;width:44px;min-height:44px;}'
+    + '.od-ord{font-family:Baloo\\ 2,cursive;font-size:clamp(15px,calc(var(--od-cardh,72px)*.26),26px);color:#9BAAA6;line-height:1;}'
+    + '.od-sun{border:0;background:transparent;cursor:pointer;padding:2px;min-width:52px;min-height:52px;width:clamp(52px,calc(var(--od-cardh,72px)*.68),92px);}'
+    + '.od-sun svg{width:100%;height:auto;display:block;}'
+    + '.od-pebble{border:0;background:#F2784B;color:#fff;border-radius:50%;width:44px;height:44px;min-width:44px;min-height:44px;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.2);display:flex;align-items:center;justify-content:center;padding:0;}'
+    + '.od-pebble svg{width:24px;height:24px;}'
+
+    + '.od-cardbody{flex:1;display:flex;align-items:center;gap:12px;padding-right:var(--od-markgap,0px);border:0;background:transparent;cursor:pointer;padding:6px 0;text-align:left;min-width:0;min-height:44px;}'
+    + '.od-cardbody .od-ic{width:clamp(34px,calc(var(--od-cardh,72px)*.62),96px);height:clamp(34px,calc(var(--od-cardh,72px)*.62),96px);flex:none;}'
+    + '.od-cardtext{display:flex;flex-direction:column;min-width:0;flex:1;}'
+    /* ⚠ A SCHEDULE ITEM IS CONTENT, AND CONTENT IS NEVER ELLIPSISED.
+       The old rule was nowrap+ellipsis, so pt "a hora das atividades
+       manuais", es "el tiempo al aire libre" and nl "Invaljuf of
+       invalmeester" were cut off on the primary display surface. */
+    + '.od-cardname{font-family:Baloo\\ 2,cursive;font-size:clamp(17px,calc(var(--od-cardh,72px)*.38),46px);color:#0E5147;line-height:1.05;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:break-word;hyphens:auto;}'
+    + '.od-cardname[data-long]{font-size:clamp(15px,calc(var(--od-cardh,72px)*.31),36px);}'
+    + '.od-was{font-family:Nunito,sans-serif;font-weight:700;font-size:clamp(12px,calc(var(--od-cardh,72px)*.17),18px);color:#7A8C88;}'
+    + '.od-strip.od-tight .od-cardname,.od-strip.od-tight .od-was{display:none;}'
+    + '.od-strip.od-tight .od-cardbody{gap:6px;min-height:0;padding:2px 0;cursor:default;}'
+    + '.od-strip.od-tight .od-railcell{min-height:0;width:34px;}'
+    + '.od-strip.od-tight .od-rail{grid-template-columns:34px;}'
+    + '.od-strip.od-tight .od-card{padding-right:6px;}'
+    + '.od-strip.od-tight .od-mark{right:6px;width:clamp(16px,calc(var(--od-cardh,72px)*.6),26px);height:clamp(16px,calc(var(--od-cardh,72px)*.6),26px);}'
+    + '.od-strip.od-tight .od-ord{font-size:clamp(11px,calc(var(--od-cardh,72px)*.42),18px);}'
+
+    /* the drawn state marks */
+    + '.od-mark{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:clamp(20px,calc(var(--od-cardh,72px)*.32),40px);height:clamp(20px,calc(var(--od-cardh,72px)*.32),40px);pointer-events:none;}'
+    + '.od-mark svg{width:100%;height:100%;display:block;}'
+    + '@keyframes odStamp{0%{transform:translateY(-50%) scale(1.55) rotate(-11deg);opacity:0;}55%{transform:translateY(-50%) scale(.93) rotate(2deg);opacity:1;}100%{transform:translateY(-50%) scale(1) rotate(0);opacity:1;}}'
+    + '.od-card.od-done .od-mark{animation:odStamp .28s cubic-bezier(.2,.9,.3,1);}'
+
+    + '.od-timechip{display:flex;align-items:center;gap:5px;border:1.5px solid #E0A63C88;background:#FDF7EA;border-radius:999px;padding:6px 12px;cursor:pointer;font-family:Nunito,sans-serif;font-weight:800;font-size:15px;color:#5B4A2F;flex:none;min-height:44px;}'
+    /* ⚠ NOT 45% OPACITY. That is the universal DISABLED signal, and it is
+       the recorded defect from the unroll-tape flag. A dashed chip with a
+       full-contrast + reads as "add one". */
+    + '.od-timechip-add{border-style:dashed;background:#FFFDF7;min-width:48px;justify-content:center;}'
+    + '.od-badge{position:absolute;top:-8px;right:-6px;background:#F2C879;color:#5B4A2F;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 1px 3px rgba(0,0,0,.18);}'
+    + '@keyframes odPulse{0%{transform:scale(1);}45%{transform:scale(1.03);}100%{transform:scale(1);}}'
+    + '.od-cardbody.od-pulse{animation:odPulse .5s ease;}'
+
+    + '.od-edittools{display:flex;gap:6px;flex:none;}'
+    + '.od-iconbtn{width:44px;height:44px;min-width:44px;min-height:44px;border:1.5px solid rgba(20,107,94,.16);background:#fff;border-radius:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;}'
+    + '.od-iconbtn svg{width:24px;height:24px;}'
+    + '.od-iconbtn:disabled{opacity:.35;cursor:default;}'
+
+    /* the wordless add slot */
+    + '.od-addslot{width:100%;min-height:56px;border:2.5px dashed rgba(20,107,94,.28);background:#FFFDF7;border-radius:14px;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:8px;}'
+    + '.od-addslot svg{width:30px;height:30px;}'
+
+    /* the first-then ghosts — the rest of the day is ALWAYS present, or
+       the child learns the day is two things and every third is a shock */
+    + '.od-ghost{display:inline-flex;width:22px;height:22px;margin:0 2px;opacity:.5;}'
+    + '.od-ghost .od-ic{width:22px;height:22px;}'
+    + '.od-ghost-skip{opacity:.25;}'
+
+    /* ---------------- the NOW panel (BOARD) ---------------- */
+    + '.od-now-panel{background:#FFFCF2;border:2px solid #F2C879;border-radius:22px;padding:18px 20px;display:flex;flex-direction:column;align-items:center;gap:10px;box-shadow:0 3px 16px rgba(224,166,60,.22);}'
+    + '.od-now-icon{width:min(38%,300px);min-width:120px;}'
+    + '.od-now-icon .od-ic{width:100%;height:auto;}'
+    + '.od-now-name{font-family:Baloo\\ 2,cursive;font-size:clamp(30px,calc(var(--od-w,704)*0.055px),120px);color:#0E5147;line-height:1.03;text-align:center;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
+    + '.od-now-time{display:flex;align-items:center;gap:8px;font-family:Nunito,sans-serif;font-weight:800;font-size:clamp(18px,calc(var(--od-w,704)*0.024px),44px);color:#5B4A2F;}'
+    + '.od-now-next{display:flex;align-items:center;gap:10px;opacity:.62;border-top:2px dashed rgba(20,107,94,.18);padding-top:10px;width:100%;justify-content:center;}'
+    + '.od-now-next .od-ic{width:clamp(28px,calc(var(--od-w,704)*0.035px),80px);height:auto;}'
+    + '.od-now-nextlbl{font-family:Nunito,sans-serif;font-weight:800;font-size:14px;color:#4E6E69;text-transform:uppercase;letter-spacing:.05em;}'
+    + '.od-now-nextname{font-family:Baloo\\ 2,cursive;font-size:clamp(18px,calc(var(--od-w,704)*0.028px),52px);color:#0E5147;}'
+    + '.od-now-next-soon{opacity:1;border-top-style:solid;border-top-color:#146B5E55;}'
+
+    /* ---------------- the sunset ---------------- */
+    + '.od-sunset{display:flex;flex-direction:column;align-items:center;gap:10px;padding:14px 8px 6px;}'
+    + '.od-sunset-art{border:0;background:transparent;cursor:pointer;padding:0;width:min(78%,260px);}'
+    + '.od-sunset-art svg{width:100%;height:auto;display:block;}'
+    + '@keyframes odSettle{0%{opacity:0;transform:translateY(-4px);}100%{opacity:1;transform:translateY(0);}}'
+    + '.od-sunset-art{animation:odSettle .9s cubic-bezier(.2,.7,.3,1) .6s both;}'
+    + '.od-sunset-title{font-family:Baloo\\ 2,cursive;font-size:clamp(20px,calc(var(--od-w,704)*0.032px),44px);color:#0E5147;text-align:center;}'
+    + '.od-sunset-dots{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;}'
+    + '.od-dot{width:14px;height:14px;border-radius:50%;background:#F2C879;box-shadow:inset 0 0 0 1.5px #E0A63C;}'
+    + '.od-dot-skip{background:transparent;box-shadow:inset 0 0 0 2px #8A9A96;}'
+
+    /* ---------------- toolbar ---------------- */
     + '.od-toolbar{display:flex;align-items:center;gap:8px;background:#fff;border-radius:14px;padding:8px 10px;box-shadow:0 1px 4px rgba(20,107,94,.08);flex-wrap:wrap;}'
     + '.od-spacer{flex:1;}'
-    + '.od-voicemiss{font-size:15px;}'
-    + '.od-start{min-width:170px;height:54px;border-radius:15px;border:0;background:#F2784B;color:#fff;font-family:Baloo\\ 2,cursive;font-size:20px;cursor:pointer;box-shadow:0 3px 0 #C4552B;}'
+    + '.od-voicemiss{font-size:17px;}'
+    + '.od-start{min-width:180px;min-height:56px;border-radius:15px;border:0;background:#F2784B;color:#fff;font-family:Baloo\\ 2,cursive;font-size:21px;cursor:pointer;box-shadow:0 3px 0 #C4552B;padding:6px 18px;}'
     + '.od-start:disabled{opacity:.4;box-shadow:none;cursor:default;}'
-    + '.od-chip{border:2px solid #146B5E22;background:#fff;border-radius:999px;padding:7px 13px;font-family:Nunito,sans-serif;font-weight:800;font-size:13.5px;color:#146B5E;cursor:pointer;min-height:38px;}'
+    /* ⚠ EVERY CONTROL CLEARS 44px. Five classes were under it, and one of
+       them (.od-pal-card at 40) was the tool\'s most-used control. The old
+       local-test asserted "Start >= 44" and nothing else, which is why
+       none of the other five was ever caught. */
+    + '.od-chip{border:2px solid #146B5E22;background:#fff;border-radius:999px;padding:9px 15px;font-family:Nunito,sans-serif;font-weight:800;font-size:15px;color:#146B5E;cursor:pointer;min-height:44px;}'
     + '.od-chip.od-on{background:#146B5E;border-color:#146B5E;color:#fff;}'
-    + '.od-chip.od-locked::after{content:" 🔒";font-size:11px;}'
-    + '.od-chip-sm{padding:4px 9px;font-size:12px;min-height:30px;}'
+    + '.od-chip.od-locked::after{content:" \\1F512";font-size:12px;}'
+    + '.od-chip-sm{padding:7px 12px;font-size:14px;min-height:44px;}'
+    + '.od-chip-ghost{background:#FBF3E4;border-color:#E0A63C55;color:#5B4A2F;}'
+    + '.od-chip-quiet{border-color:transparent;background:transparent;color:#8A9A96;font-size:14px;text-decoration:underline;}'
+    + '.od-chip-go{font-size:16px;}'
+    + '.od-chip:disabled{opacity:.4;cursor:default;}'
+    + '.od-more{position:absolute;left:12px;bottom:12px;width:56px;height:56px;border-radius:50%;border:0;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.14);opacity:.45;cursor:pointer;display:none;align-items:center;justify-content:center;z-index:30;}'
+    + '.od-more svg{width:26px;height:26px;}'
 
-    /* overlays */
-    + '.od-scrim{position:fixed;inset:0;background:rgba(20,40,36,.35);display:flex;align-items:center;justify-content:center;z-index:80;padding:12px;}'
-    + '.od-change,.od-timepick{position:relative;background:#fff;border-radius:18px;padding:18px;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:560px;width:100%;max-height:86vh;overflow-y:auto;}'
-    + '.od-change h3,.od-timepick h3{margin:0 0 10px;font-family:Baloo\\ 2,cursive;color:#146B5E;font-size:20px;}'
-    + '.od-change-swirl{font-size:30px;color:#E0A63C;line-height:1;}'
-    + '.od-change-card{display:flex;align-items:center;gap:10px;font-family:Baloo\\ 2,cursive;font-size:19px;color:#0E5147;margin:8px 0 12px;}'
-    + '.od-change-card .od-ic{width:44px;height:44px;}'
+    /* ---------------- one sheet primitive ---------------- */
+    + '.od-scrim{position:absolute;inset:0;background:rgba(20,40,36,.35);display:flex;align-items:flex-start;justify-content:center;z-index:80;padding:10px;overflow:auto;}'
+    + '.od-sheet{position:relative;background:#fff;border-radius:18px;padding:16px 16px 18px;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:620px;width:100%;margin:auto;}'
+    + '.od-sheet-title{margin:0 34px 10px 0;font-family:Baloo\\ 2,cursive;color:#146B5E;font-size:20px;line-height:1.2;}'
+    + '.od-close{position:absolute;top:8px;right:8px;width:44px;height:44px;min-width:44px;min-height:44px;border:0;background:transparent;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;}'
+    + '.od-close svg{width:24px;height:24px;}'
+
+    /* the palette grid — uniform tiles make ragged wrap impossible */
+    + '.od-grouprail{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;position:sticky;top:0;background:#fff;padding-bottom:6px;z-index:2;}'
+    + '.od-palwrap{max-height:none;}'
+    + '.od-band-label{font-family:Nunito,sans-serif;font-weight:800;font-size:12px;color:#4E6E69;text-transform:uppercase;letter-spacing:.05em;margin:10px 0 5px;display:block;}'
+    + '.od-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:8px;}'
+    + '.od-tile{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:5px;min-height:92px;border:1.5px solid rgba(20,107,94,.14);background:#FFFDF7;border-radius:12px;padding:8px 6px;cursor:pointer;}'
+    + '.od-tile .od-ic{width:40px;height:40px;flex:none;}'
+    + '.od-tilename{font-family:Nunito,sans-serif;font-weight:800;font-size:13px;color:#146B5E;line-height:1.15;text-align:center;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:anywhere;}'
+    + '.od-tile-new{border-style:dashed;}'
+    + '.od-tileedit{position:absolute;top:2px;right:2px;width:30px;height:30px;border:0;background:transparent;cursor:pointer;padding:0;}'
+    + '.od-tileedit svg{width:18px;height:18px;}'
+
+    /* make-a-card */
+    + '.od-input{width:100%;box-sizing:border-box;min-height:48px;border:2px solid rgba(20,107,94,.24);border-radius:12px;padding:10px 12px;font-family:Baloo\\ 2,cursive;font-size:20px;color:#0E5147;background:#FFFDF7;}'
+    + '.od-input-sm{min-height:44px;font-size:16px;}'
+    + '.od-makehint{margin:8px 0 12px;font-family:Nunito,sans-serif;font-weight:700;font-size:14px;color:#4E6E69;}'
+    + '.od-tintrow{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px;}'
+    + '.od-tintbtn{width:44px;height:44px;min-width:44px;min-height:44px;border-radius:50%;border:3px solid transparent;cursor:pointer;padding:0;}'
+    + '.od-tintbtn.od-on{border-color:#0E5147;box-shadow:0 0 0 2px #fff inset;}'
+    + '.od-glyphgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:8px;}'
+    + '.od-glyphbtn{border:2px solid transparent;background:transparent;border-radius:14px;cursor:pointer;padding:2px;min-width:56px;min-height:56px;}'
+    + '.od-glyphbtn .od-ic{width:100%;height:auto;display:block;}'
+    + '.od-glyphbtn.od-on{border-color:#0E5147;}'
+    + '.od-makeacts{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;align-items:center;}'
+    + '.od-devicenote{margin:12px 0 0;font-family:Nunito,sans-serif;font-weight:700;font-size:13px;color:#8A9A96;}'
+
+    /* the plan shelf */
+    + '.od-shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:10px;}'
+    + '.od-plan{border:1.5px solid rgba(20,107,94,.14);border-radius:14px;background:#FFFDF7;padding:8px;display:flex;flex-direction:column;gap:6px;}'
+    + '.od-plan-today{border-color:#F2C879;box-shadow:0 0 0 2px #F2C87955;}'
+    + '.od-plan-face{border:0;background:transparent;cursor:pointer;display:flex;flex-direction:column;gap:6px;align-items:center;padding:4px;min-height:110px;}'
+    + '.od-thumb{display:flex;flex-direction:column;gap:2px;width:100%;min-height:56px;}'
+    + '.od-thumbrow{display:block;height:8px;border-radius:3px;background:var(--od-tint,#146B5E22);}'
+    + '.od-thumbrow .od-ic{display:none;}'
+    + '.od-plan-name{font-family:Nunito,sans-serif;font-weight:800;font-size:14px;color:#146B5E;}'
+    + '.od-plan-acts{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}'
+    + '.od-plan-confirm{font-family:Nunito,sans-serif;font-weight:800;font-size:13px;color:#8A3E1B;}'
+
+    /* time picker */
+    + '.od-tp-preview{display:flex;align-items:center;gap:8px;font-family:Baloo\\ 2,cursive;font-size:26px;color:#146B5E;margin-bottom:10px;}'
+    + '.od-tp-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px;}'
+    + '.od-tp-key{min-width:48px;min-height:48px;padding:6px 10px;}'
+    + '.od-tp-actions{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap;}'
+
+    /* the change ritual, INLINE on its own card — the strip stays
+       visible above and below it, because the anxious child has to see
+       WHERE the change lands, which is the whole point of the ritual */
+    + '.od-changepanel{position:absolute;left:0;right:0;top:100%;z-index:20;margin-top:6px;background:#fff;border:2px solid #F2C879;border-radius:16px;padding:12px;box-shadow:0 6px 20px rgba(0,0,0,.16);}'
+    + '.od-change-hint{font-family:Nunito,sans-serif;font-weight:800;color:#5B4A2F;margin:0 0 8px;font-size:15px;}'
     + '.od-change-opts{display:flex;flex-wrap:wrap;gap:8px;}'
-    + '.od-change-hint{font-family:Nunito,sans-serif;font-weight:700;color:#4E6E69;margin:0 0 8px;}'
-    + '.od-change .od-palette{flex:none;max-width:none;box-shadow:none;padding:0;max-height:46vh;}'
-    + '.od-close{position:absolute;top:8px;right:10px;border:0;background:transparent;font-size:21px;color:#8A7A5C;cursor:pointer;}'
-    + '.od-tp-preview{display:flex;align-items:center;gap:8px;font-family:Baloo\\ 2,cursive;font-size:23px;color:#146B5E;margin-bottom:10px;}'
-    + '.od-tp-row{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px;}'
-    + '.od-tp-key{min-width:44px;min-height:44px;padding:4px 8px;}'
-    + '.od-tp-actions{display:flex;gap:8px;margin-top:6px;}'
+    + '.od-change-quiet{margin-top:10px;padding-top:8px;border-top:1px dashed rgba(20,107,94,.16);align-items:center;}'
+    + '.od-changepanel .od-grid{grid-template-columns:repeat(auto-fill,minmax(92px,1fr));}'
+    + '.od-changepanel .od-tile{min-height:80px;}'
+    + '.od-changepanel .od-tile .od-ic{width:32px;height:32px;}'
 
-    /* templates */
-    + '.od-templates{background:#fff;border-radius:16px;padding:10px 12px;box-shadow:0 1px 4px rgba(20,107,94,.08);display:flex;flex-direction:column;gap:8px;}'
-    + '.od-tmpl-row{display:flex;flex-wrap:wrap;gap:10px;}'
-    + '.od-tmpl-card{display:flex;flex-direction:column;gap:5px;align-items:stretch;}'
-    + '.od-tmpl-open{display:flex;flex-direction:column;align-items:center;gap:4px;border:1.5px solid rgba(20,107,94,.14);background:#FFFDF7;border-radius:12px;padding:8px 10px;cursor:pointer;min-width:86px;}'
-    + '.od-tmpl-name{font-family:Nunito,sans-serif;font-weight:800;font-size:13px;color:#146B5E;}'
-    + '.od-thumb{display:flex;flex-direction:column;gap:2px;}'
-    + '.od-thumb-cell .od-ic{width:16px;height:16px;display:block;}'
+    /* gate — two nodes, never a concatenation */
+    + '.od-gate{background:#FDF7EA;border:2px solid #F2C879;border-radius:16px;padding:14px 16px;font-family:Nunito,sans-serif;}'
+    + '.od-gate-text{margin:0 0 10px;font-weight:700;color:#5B4A2F;font-size:15px;line-height:1.5;}'
+    + '.od-gate-link{display:inline-block;min-height:44px;line-height:44px;color:#C4552B;font-weight:900;text-decoration:underline;font-size:16px;}'
 
-    /* gate */
-    + '.od-gate{position:relative;background:#FDF7EA;border:2px solid #F2C879;border-radius:16px;padding:14px 40px 14px 16px;font-family:Nunito,sans-serif;}'
-    + '.od-gate-text{margin:0 0 8px;font-weight:700;color:#5B4A2F;font-size:14.5px;line-height:1.5;}'
-    + '.od-gate-link{color:#C4552B;font-weight:900;text-decoration:underline;}'
+    /* display mode — the chrome fades so the day owns the screen, but
+       there is ALWAYS a way back to it (the old version had none, and
+       sixty idle seconds disabled the change ritual for the whole day) */
+    + '.od-wrap.od-display .od-toolbar{opacity:0;pointer-events:none;transition:opacity .8s ease;}'
+    + '.od-wrap.od-display .od-more{display:flex;}'
+    + '.od-wrap{position:relative;}'
 
-    /* display mode: chrome fades, the strip owns the screen */
-    + '.od-wrap.od-display .od-toolbar,.od-wrap.od-display .od-templates{opacity:0;pointer-events:none;transition:opacity .8s ease;}'
+    /* the print documents live off-screen on screen */
+    + '.od-printdocs{position:absolute;left:-99999px;top:0;width:1px;height:1px;overflow:hidden;}'
 
-    /* phone: palette above, strip scrolls */
-    + '@media (max-width:640px){'
-    +   '.od-main{flex-direction:column;}'
-    +   '.od-palette{flex:none;max-width:none;width:100%;max-height:38vh;}'
-    +   '.od-card{height:auto;min-height:56px;}'
-    +   '.od-cardbody .od-ic{width:36px;height:36px;}'
-    +   '.od-cardname{font-size:17px;white-space:normal;}'
-    + '}'
-    + '@media (prefers-reduced-motion:reduce){.od-sun{animation:none;}.od-cardbody.od-pulse{animation:none;}.od-card{transition:none;}}'
+    /* ---------------- STACK ---------------- */
+    + '.od-wrap[data-layout="stack"] .od-main{flex-direction:column;}'
+    + '.od-wrap[data-layout="stack"] .od-cardbody .od-ic{width:38px;height:38px;}'
+    + '.od-wrap[data-layout="stack"] .od-grid{grid-template-columns:repeat(auto-fill,minmax(92px,1fr));}'
+    + '.od-wrap[data-layout="stack"] .od-sheet{padding:14px 12px;}'
+    + '@media (prefers-reduced-motion:reduce){.od-sun-rays{animation:none;}.od-cardbody.od-pulse{animation:none;}.od-card{transition:none;}.od-card.od-done .od-mark{animation:none;}.od-sunset-art{animation:none;}}'
 
-    /* print: the para/sub desk strip (same DOM) */
+    /* the sun breathes: ONLY the corona moves and the face never does —
+       that is the whole difference between breathing and blinking. 5.5s
+       asymmetric (~11 breaths/min, a calm adult breath); the old 4s
+       symmetric cycle is 15/min, which is why it read as hurrying. */
+    + '.od-sun-rays{transform-box:fill-box;transform-origin:center;animation:odSunBreathe 5.5s cubic-bezier(.42,0,.35,1) infinite;}'
+    + '@keyframes odSunBreathe{0%{transform:scale(1);opacity:.94;}38%{transform:scale(1.045);opacity:1;}50%{transform:scale(1.045);opacity:1;}100%{transform:scale(1);opacity:.94;}}'
+
+    /* ---------------- PRINT ----------------
+       ⚠ EVERY RULE IS SCOPED body.od-paid. Gating the chip is not gating
+       the feature: Ctrl+P is guarded by no button, and a free visitor who
+       presses it must get a NORMAL page, not a blank one — which is why
+       the chrome-hiding rules are scoped too, not only the sheets.
+       ⚠ AND THE SHELL RESET IS MANDATORY: lcs-shell.css ships zero
+       @media print blocks, so html,body{height:100%;overflow:hidden} and
+       the .lcs-app max-width would clip a twelve-card day to one screen. */
     + '@media print{'
-    +   'body{background:#fff;}'
-    +   '.lcs-header,.lcs-chrome,.od-toolbar,.od-palette,.od-banner,.od-templates,.od-rail,.od-gate,.od-scrim{display:none!important;}'
-    +   '.od-striphost{box-shadow:none;padding:0;}'
-    +   '.od-card{height:auto!important;min-height:52px;border:1px solid #999;border-radius:8px;page-break-inside:avoid;filter:none!important;opacity:1!important;transform:none!important;}'
-    +   '.od-cardbody .od-ic{width:14mm;height:14mm;}'
-    +   '.od-cardname{font-size:16pt;color:#000;}'
-    +   '.od-timechip{border-color:#999;background:#fff;color:#000;}'
-    +   '.od-card::after{content:"________________";color:#bbb;font-size:10pt;margin-left:auto;padding-right:6px;}'
+    +   'html{height:auto !important;overflow:visible !important;}'
+    +   'body.od-paid{height:auto !important;overflow:visible !important;background:#fff !important;}'
+    +   'body.od-paid .lcs-app{max-width:none !important;height:auto !important;overflow:visible !important;box-shadow:none !important;background-image:none !important;background-color:#fff !important;border-radius:0 !important;padding:0 !important;}'
+    +   'body.od-paid .lcs-header,body.od-paid .od-toolbar,body.od-paid .od-banner,body.od-paid .od-notice,'
+    +     'body.od-paid .od-scrim,body.od-paid .od-gate,body.od-paid .od-striphost,body.od-paid .od-nowhost,'
+    +     'body.od-paid .od-more,body.od-paid .od-addslot,body.od-paid .od-edittools,body.od-paid .od-chip,'
+    +     'body.od-paid .od-close{display:none !important;}'
+    +   'body.od-paid .od-printdocs{position:static !important;left:auto !important;width:auto !important;height:auto !important;overflow:visible !important;}'
+    +   '@page{margin:12mm;}'
+    +   '.od-doc{page-break-after:always;font-family:Nunito,sans-serif;color:#000;}'
+    +   '.od-doc:last-child{page-break-after:auto;}'
+    +   '.od-doc-head h1{font-family:Baloo\\ 2,cursive;font-size:22pt;margin:0 0 4pt;}'
+    +   '.od-doc-meta{font-size:12pt;margin:0 0 10pt;}'
+    +   '.od-doc-list{list-style:none;margin:0;padding:0;}'
+    +   '.od-doc-row{display:flex;align-items:center;gap:6mm;border-bottom:1px solid #999;padding:2.5mm 0;page-break-inside:avoid;}'
+    +   '.od-doc-ord{font-family:Baloo\\ 2,cursive;font-size:14pt;width:8mm;}'
+    +   '.od-doc-row .od-ic{width:12mm;height:12mm;flex:none;}'
+    +   '.od-doc-name{font-size:15pt;flex:1;}'
+    +   '.od-doc-time{font-size:13pt;width:22mm;text-align:right;}'
+    +   '.od-doc-rule{width:45mm;border-bottom:1px dotted #bbb;height:6mm;}'
+    +   '.od-doc-skip{opacity:1;text-decoration:line-through;}'
+    +   '.od-doc-changes{margin-top:8mm;}'
+    +   '.od-doc-changes h2,.od-doc-notes h2{font-family:Baloo\\ 2,cursive;font-size:14pt;margin:0 0 3mm;}'
+    +   '.od-doc-lines{display:block;height:45mm;border-bottom:1px dotted #bbb;}'
+    +   '.od-doc-desk{display:flex;gap:8mm;}'
+    +   '.od-desk-col{flex:1;border-right:1px dashed #bbb;padding-right:6mm;}'
+    +   '.od-desk-col:last-child{border-right:0;}'
+    +   '.od-desk-head{font-size:11pt;margin-bottom:4mm;}'
+    +   '.od-desk-row{display:flex;align-items:center;gap:4mm;padding:2mm 0;border-bottom:1px solid #ddd;page-break-inside:avoid;}'
+    +   '.od-desk-row .od-ic{width:14mm;height:14mm;flex:none;}'
+    +   '.od-desk-name{font-size:13pt;flex:1;}'
+    +   '.od-desk-tick{width:8mm;height:8mm;border:1.4pt solid #444;border-radius:2mm;flex:none;}'
+    /* a teacher tile at a tone that keeps its cream glyph legible */
+    +   '.od-ic-made rect{fill:#5A5A5A !important;}'
     + '}'
-
-    /* ⚠ THESE MUST SIT OUTSIDE `@media print`. The first version anchored
-       on `+ '}';` — which was the PRINT block's closing brace, not the end
-       of the stylesheet — so the whole tier block was nested inside
-       @media print and applied only on paper. Nothing errored; the tools
-       simply did not change, and the computed `--od-cardscale` came back
-       EMPTY at 2560. Anchor an inserted rule on the block it must affect,
-       not on the first plausible match. */
-    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
-       Three caps, and only one of them is CSS: the wrap at 980, the palette at
-       340, and the card-height budget in JS above. All three move together —
-       raising the wrap alone would have stretched a column of 72px cards.
-       ⚠ The card-name type is `clamp(16px, cardh*.34, 30px)`: it already
-       follows the card height, but its own 30px CEILING would have capped it
-       the moment the cards grew past 88px. Raised, not re-derived. */
-    + '@media (min-width:1367px) and (min-height:880px){'
-    +   'body.od-wide{--od-cardscale:1.25;}'
-    +   'body.od-wide .od-wrap{max-width:1192px;width:100%;}'
-    +   'body.od-wide .od-palette{max-width:420px;}'
-    +   'body.od-wide .od-pal-card{font-size:15px;min-height:48px;}'
-    +   'body.od-wide .od-pal-card .od-ic{width:44px;height:44px;}'
-    +   'body.od-wide .od-cardname{font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),38px);}'
-    + '}'
-    + '@media (min-width:1800px) and (min-height:1080px){'
-    +   'body.od-wide{--od-cardscale:1.45;}'
-    +   'body.od-wide .od-wrap{max-width:1460px;width:100%;}'
-    +   'body.od-wide .od-palette{max-width:500px;}'
-    +   'body.od-wide .od-pal-card{font-size:17px;min-height:52px;}'
-    +   'body.od-wide .od-pal-card .od-ic{width:54px;height:54px;}'
-    +   'body.od-wide .od-cardname{font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),46px);}'
-    + '}'
-    + '@media (min-width:2400px) and (min-height:1150px){'
-    +   'body.od-wide{--od-cardscale:1.55;}'
-    +   'body.od-wide .od-wrap{max-width:1660px;width:100%;}'
-    +   'body.od-wide .od-palette{max-width:560px;}'
-    +   'body.od-wide .od-pal-card{font-size:19px;min-height:56px;}'
-    +   'body.od-wide .od-pal-card .od-ic{width:64px;height:64px;}'
-    +   'body.od-wide .od-cardname{font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),52px);}'
-    + '}'
-    /* the strip is a HEIGHT budget, so a taller board can afford a lot more */
-    + '@media (min-width:2400px) and (min-height:1300px){'
-    +   'body.od-wide{--od-cardscale:1.9;}'
     ;
   document.head.appendChild(st);
 }

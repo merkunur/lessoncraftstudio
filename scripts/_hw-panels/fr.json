@@ -1,0 +1,106 @@
+{
+  "locale": "fr",
+  "englishDefects": [
+    {
+      "key": "looksDecodable",
+      "problem": "The string names Sound Boxes, and heart-words.js:1694-1699 then appends `api.t('siblingSbx')` as a link immediately after it. The line renders as \"This one looks like it can be sounded out. Sound Boxes may suit it better. Sound Boxes\" — the sibling tool is named twice, the second time as a bare dangling link with no sentence around it. Every one of the ten locales inherited this; the existing French inherited it twice over, because it also lowercased the sibling's shipped proper name (\"les boîtes à sons\" vs the shipped \"Boîtes à sons\").",
+      "correction": "The string must NOT name the tool. End it with a lead-in the appended link completes: \"This one looks like it can be sounded out. It may be happier in:\" — then the link supplies \"Sound Boxes\"."
+    },
+    {
+      "key": "saveWord",
+      "problem": "\"Use this word\" labels the button that SAVES (heart-words.js:1731-1743 pushes to store.custom and is gated on premium at 1733). The button that actually USES the word is \"Show on the board\", and that one is FREE. So the paid button claims the free button's verb, and it contradicts the tool's own gate line, which says \"KEEPING your own word list is part of Premium\". A teacher reads the pair and concludes that using her word costs money.",
+      "correction": "\"Keep this word\" — matching gateSave's own verb and the actual behaviour."
+    },
+    {
+      "key": "tooLong",
+      "problem": "One string serves three different refusals and is false in two of them. (a) segment() returns null when out.length < 2 (399-400), so a ONE-letter word — \"à\", \"y\", \"a\" in French; \"a\", \"I\" in English — is refused as \"too long\". (b) Tapping a seam to SPLIT past six boxes raises the same string (1616), where \"try a shorter word\" is the wrong remedy: the teacher only needs to re-join a seam. Only case (c), raw.length > MAX_LETTERS, matches the wording.",
+      "correction": "State the real constraint and offer both remedies: \"That will not fit the row — a word needs between two and six parts. Join some letters, or use a different word.\" Better still, a separate key for the fewer-than-two case."
+    },
+    {
+      "key": "myWordsHint",
+      "problem": "It describes steps two and three of a sequence whose step one is missing, at a moment when nothing it refers to is on screen. The editor is only built once drafts exist (1533), so on arrival the teacher reads \"We have guessed where the sounds break\" with no word, no break and no guess anywhere in front of her. Nothing on the tab says \"type your words here\" — the textarea's only label is the placeholder \"One word per line\" (1520-1521).",
+      "correction": "Lead with the first move: \"Type your words below, one per line. The tool proposes a split — say the word slowly, move the breaks, then mark the part your class must learn by heart.\""
+    },
+    {
+      "key": "myWordMark",
+      "problem": "\"your own word\" is a badge rendered on the CHILD's card front (966-969), on the projected board. \"Your\" is written to the teacher but read by the class, and it is not their word — it is hers. The one string in the set that crosses the board/desk seam is the one written from the wrong side of it.",
+      "correction": "Make it third-person and true for both readers: \"a word from our class\"."
+    },
+    {
+      "key": "printNote",
+      "problem": "\"Fold along the dotted line\" is FALSE on the wall strip. The strip builds no back at all (1941, `if (kind !== 'strip')`) and the dotted rule belongs to `.hw-printback` (2465), yet printNote is printed on the cards sheet AND the strip alike (1902). A teacher printing the strip is told to fold a line that is not on the paper.",
+      "correction": "Scope the fold to the sheet that has one: \"Cut along the dashed lines; on the cards, fold along the dotted line.\""
+    },
+    {
+      "key": "workedExample",
+      "problem": "Three faults. (a) \"We will break 'one' as o-n-e\" attributes the machine's wrong split to \"we\", which blurs the exact asymmetry the design comment at 1492-1500 says everything rests on — the machine proposes, the teacher publishes. The worked FAILURE is the tool's, and saying \"we\" makes the teacher a co-author of it. (b) /u/ is not the vowel of \"one\": /wʌn/. (c) An English word is the permanent worked example in ten non-English locales, where it teaches nothing and quietly signals that the tool was built elsewhere.",
+      "correction": "\"The tool will split 'one' as o-n-e. Your mouth says /w/ + /ʌ/ + /n/.\" — and each locale substitutes a word its own segmenter genuinely mis-splits."
+    },
+    {
+      "key": "copyList",
+      "problem": "The button says \"Copy my list\", but _copyList (1783-1798) copies a URL — origin + /mini-tools/heart-words.html?lang=..&add=<json>. Nothing on the button says so; the word \"link\" first appears in the confirmation, after the teacher has already pressed it. The three sibling tools already ship the honest form (\"Copier le lien vers ce mot\" / \"Lien copié !\"), so this tool is the odd one out in its own quartet.",
+      "correction": "\"Copy a link to my words\" — name the artefact on the control, not in the receipt."
+    },
+    {
+      "key": "deviceOnly",
+      "problem": "Not false, but it is placed directly above the copy button (1546-1554), so the teacher reads \"Your words stay in this browser, on this device\" and then meets a control whose entire purpose is to carry them off it. Read as a promise about where the words CAN go, it is contradicted one line later; the thing actually worth saying is that nothing is stored anywhere else.",
+      "correction": "Say the storage fact, not the mobility one: \"Your words stay in this browser, on this device. Nothing is stored anywhere else.\""
+    },
+    {
+      "key": "duplicateSkip",
+      "problem": "\"That word is already here.\" — \"here\" is false whenever the match sits on a different shelf. _hasWord (648-657) scans every unlocked shelf plus the custom list, so a teacher on her own tab is told the word is \"here\" when it is on a shelf she is not looking at.",
+      "correction": "\"That word is already in your lists.\""
+    },
+    {
+      "key": "writePrompt",
+      "problem": "\"bring it back and look\" names a move by a verb no control on that face uses — the only button there is labelled \"Show the word\" (1036). It also reads, to a five-year-old, as bringing a piece of paper to the teacher. The one string in the tool that has to hand the child from paper back to screen is the one that does not name the button.",
+      "correction": "\"Write the word from memory, then show the word and compare.\""
+    }
+  ],
+  "strings": {
+    "heartLegend": "Le cœur montre la partie qu’on apprend par cœur.",
+    "writeIt": "À toi d’écrire",
+    "writePrompt": "Écris le mot de mémoire, puis montre le mot et compare.",
+    "showWord": "Montrer le mot",
+    "bigWord": "En grand",
+    "bigWordLeave": "En plus petit",
+    "deskWords": "Mots",
+    "deskMine": "Mes mots",
+    "deskPrint": "Imprimer",
+    "deskBack": "Retour au tableau",
+    "searchWords": "Chercher un mot",
+    "searchNone": "Aucun mot ne correspond.",
+    "teacherNote": "Le piège de ce mot",
+    "teachShelf": "Travailler cette étagère",
+    "myWordsHint": "Écrivez vos mots ci-dessous, un par ligne. L’outil propose une découpe : dites le mot lentement, déplacez les coupures, puis marquez la partie que votre classe apprendra par cœur.",
+    "workedExample": "L’outil coupera « femme » en f-em-m-e. Votre bouche, elle, dit /f/ + /a/ + /m/.",
+    "pasteHint": "Un mot par ligne",
+    "addWords": "Ajouter",
+    "seamHint": "Touchez entre deux lettres pour les réunir ou les séparer.",
+    "heartHint": "Marquez la partie que votre classe devra apprendre par cœur.",
+    "sentenceOpt": "Une phrase avec ce mot (facultatif)",
+    "saveWord": "Garder ce mot",
+    "showOnBoard": "Montrer au tableau",
+    "deleteWord": "Retirer",
+    "myWordsShelf": "Mes mots",
+    "myWordMark": "un mot de la classe",
+    "needHeart": "Marquez d’abord une partie à apprendre par cœur : c’est elle qui en fait un mot à cœur.",
+    "tooManyHearts": "Si presque tout porte un cœur, l’enfant retient la forme du mot au lieu des sons.",
+    "looksDecodable": "Ce mot semble se déchiffrer tout seul. Il serait peut-être mieux dans :",
+    "tooLong": "Ce mot ne tient pas dans la rangée : il faut de deux à six parties. Réunissez des lettres, ou changez de mot.",
+    "duplicateSkip": "Ce mot est déjà dans vos listes.",
+    "capReached": "La liste est pleine. Retirez un mot pour en ajouter un autre.",
+    "copyList": "Copier le lien vers mes mots",
+    "copied": "Lien copié – collez-le là où vous rangez vos liens.",
+    "deviceOnly": "Vos mots restent dans ce navigateur, sur cet appareil. Rien n’est enregistré ailleurs.",
+    "gateSave": "Garder votre liste fait partie de Premium – la construire et la montrer au tableau, c’est toujours gratuit.",
+    "sheetCards": "Cartes à plier",
+    "sheetStrip": "Bande d’affichage",
+    "sheetHome": "Feuille pour la maison",
+    "scopeShelf": "Cette étagère",
+    "scopeMine": "Mes mots",
+    "printNote": "Découper le long des tirets ; sur les cartes, plier le long des pointillés. Le cœur montre la partie qu’on apprend par cœur.",
+    "homeNote": "Écris le mot dans les cases vides, puis colorie le cœur."
+  },
+  "notes": "REGISTER — TU on the board, VOUS at the desk, and this is grounded in the shipped quartet, not in taste. Sound Boxes ships « Saisissez les mots de la semaine » and « Touchez entre les lettres… »; Letter Tiles ships « Saisissez les mots de la semaine ». Both address the teacher as VOUS on exactly the surface this tool's desk duplicates. The existing French for heart-words used TU throughout the desk (« Dis le mot lentement… ta classe »), which is the odd one out — and it also makes a teacher read a professional tool as though she were one of the pupils. Blending Board does use TU for a teacher-facing setting, so the quartet is not unanimous; we follow the two tools whose custom-word editor is the same editor. The board keeps TU (« À toi d’écrire », « Écris le mot de mémoire »), which every French infant classroom uses.\n\nCOLLISIONS ROUTED AROUND — (1) « case » belongs to Sound Boxes: it ships « Pose un jeton dans une case », « Case {i} sur {n} », « {n} cases ». This tool's own shipped strings already establish « partie » as its unit noun (« Partie {i} sur {n} », « une partie à retenir par cœur »), so every one of our 43 uses PARTIE and never « case » — with one deliberate exception, homeNote, where the child is writing into literal printed squares on paper and no French adult would call those anything but « les cases vides ». (2) seamHint was a near-verbatim twin of Sound Boxes' « Touchez entre les lettres pour séparer ou réunir les cases. » We route around it with « entre deux lettres » (which is also the more accurate description — you tap between a PAIR) and « les réunir ou les séparer », dropping « cases » entirely. (3) looksDecodable can no longer contain « Boîtes à sons » at all, because the code appends that name as a link — see the defect list; the string now ends in a colon and hands the naming to the link. (4) « tableau » — Blending Board is NAMED « Tableau de syllabes » and Letter Tiles ships « tableau libre ». We keep the bare « le tableau » for the projection surface because in a French classroom there is no other word for it, and the compound sibling name never collides with it in a sentence. (5) « Mes mots » is a collision we KEPT on purpose: Sound Boxes and Letter Tiles both ship it for the custom list, so a teacher meeting all four tools should find the same drawer under the same label. Same for « Ajouter » — the siblings ship the longer « Ajouter les mots », but here the button sits directly under a textarea whose placeholder already says « Un mot par ligne », and the brief caps it at a 44px button on a 320px phone.\n\nPAID-PLAN NAME — normalised, not invented. All three siblings ship the bare name « Premium » and the same sentence shape: « Les listes personnalisées font partie de Premium – les mots de départ restent gratuits. » gateSave follows that shape exactly. We also name the free path (« la montrer au tableau »), because in this tool the free exit is a real one — « Montrer au tableau » puts the teacher's own word live on her own board — and a gate that names what stays free reads as an offer rather than a wall. (unlock is outside our 43 and already ships as « Découvrir Premium »; the siblings ship « Débloquer toutes les listes / tous les jeux / toutes les cartes », so if anyone touches it later, « Débloquer toutes les étagères » is the house form.)\n\nWORKEDEXAMPLE — WE SUBSTITUTE A FRENCH WORD, and the panel is unanimous. « one » teaches a CP teacher nothing, and a permanent English artefact on a French teacher's desk is the clearest possible signal that the tool was built somewhere else. We chose « femme » and verified it rather than assuming it. Running this tool's own segmenter by hand over its own fr inventory (heart-words.js:182, which contains « em »): f → no match; « em » matches at index 1 and is taken greedily; then m; then e. The tool proposes f-em-m-e. The shipped fr bank (heart-words-fr.json) gives the true mapping f | e | mm with a silent-e tail, three parts, and the mouth says /f/ + /a/ + /m/. So this is a genuine, reproducible failure of THIS segmenter on the single most famous irregular word in French infant reading — every CP teacher in the country has explained « femme » — and it is checkable against a word already in the bank. We tested the two other candidates and rejected both: « monsieur » segments to m-on-s-i-eu-r, which is exactly what the bank says, and « automne » segments to au-t-o-m-n-e, also right. Only « femme » actually breaks. We also fixed the English's pronoun on the way through: « L’outil coupera », not « Nous coupons » — the tool proposes, the teacher publishes, and the failure belongs to the tool.\n\nOTHER REBUILDS, NOT TRANSLATIONS — teacherNote becomes « Le piège de ce mot », a noun phrase, because the code renders it as heading + « — » + the word (1456): « Le piège de ce mot — femme » reads as a French teacher's own note; « Pourquoi ce mot est piégeux — femme » does not, and « piégeux » is barely French. writeIt is « À toi d’écrire », which is what the teacher actually says at that moment, not a translation of « Now write it ». sentenceOpt takes « (facultatif) », the standard marker on every French form, instead of a parenthetical sentence. tooLong now states the real constraint (« de deux à six parties ») so that it is TRUE for the one-letter refusal and the seam-split refusal as well as the long-word one, and offers both remedies — this is the string we would most like split into two keys.\n\nWHERE WE DISAGREED — sheetStrip. The teacher and the marketing writer wanted « Bande d’affichage », which is what the object is called in a French classroom (« l’affichage » is the whole wall-display practice); the linguist wanted the plainer « Bande murale », on the grounds that it is shorter and that « affichage » can read administratively. We shipped « Bande d’affichage ». Second disagreement: whether homeNote should say « cases » at all, given point (1) above. The linguist proposed « une partie par case » to teach the mapping on paper; the teacher vetoed it as too much sentence for a five-year-old at the kitchen table. We shipped the plain form and are recording the objection.\n\nGATE CHECK — no verdict vocabulary in any of the 43 (no correct/correcte/faux/fausse/erreur; « déplacez les coupures » was chosen over « corrigez » partly to keep the string a clear distance from any regex on that stem). No score, timer, streak, level, badge, sticker or reward. No {n} or any other placeholder introduced. Every apostrophe is the typographic ’. « Premium » is the shipped plan name, not a synonym."
+}

@@ -1,0 +1,126 @@
+{
+  "locale": "nl",
+  "englishDefects": [
+    {
+      "key": "looksDecodable",
+      "problem": "The string names the sibling tool AND the code appends that same name as a link immediately after it. heart-words.js:1692-1700 does `wl.textContent = api.t('looksDecodable') + ' '` and then appends an `<a>` whose text is `api.t('siblingSbx')`. On screen the teacher reads: \"... Sound Boxes may suit it better. Sound Boxes\". The tool name is printed twice, and the second one is a bare dangling word. This ships in all ten locales.",
+      "correction": "The string must END in a lead-in and never name the tool, so the appended link supplies the name once: \"Nothing is marked by heart yet. As it stands this word can be sounded out — a better home for it is:\""
+    },
+    {
+      "key": "printNote",
+      "problem": "\"Fold along the dotted line\" is FALSE on the wall strip, and the wall strip uses this exact string. _buildPrintSheet passes `printNote` for every sheet except 'home', so both the fold-over cards AND the wall strip get it — but the print CSS contains `.hw-printsheet[data-sheet=\"strip\"] .hw-printcard::after{display:none}`, which deletes the dotted fold line on the strip. The strip also has no back face at all (`if (kind !== 'strip')` guards the whole `hw-printback`). We are telling a teacher to fold along a line the stylesheet removed. Secondary: \"the dashed line\" is not identifiable — the card border and the silent-tail ghost tile carry the same `0.4mm dashed #555` stroke, and \"line\" is singular on a sheet of six cards.",
+      "correction": "Make the fold conditional and name the cut by the boundary, not the stroke: \"Cut around the outside of each card. Where a dotted line crosses a card, fold there. The heart marks the part we learn by heart.\""
+    },
+    {
+      "key": "homeNote",
+      "problem": "The take-home card is a fold-over and the note never says so, which makes the sheet unusable as printed. `.hw-printback{transform:rotate(180deg)}` applies to the home sheet too (only 'strip' is excluded from the back face), so the sentence — the ONLY place the word itself appears on a home card, since `blank = kind === 'home'` prints every box empty — comes out of the printer upside down. A child told to \"write the word\" is looking at a row of empty boxes and an inverted sentence, with no instruction to fold.",
+      "correction": "\"Cut out the card and fold it along the dotted line. Write the word in the empty boxes, then colour the heart.\""
+    },
+    {
+      "key": "tooLong",
+      "problem": "One string is fired by three different conditions and describes two of them falsely. (a) Seam editing, heart-words.js:1616 — `if (nb.length > self.MAX_BOXES) { self.notice = 'tooLong' }`: the teacher has SPLIT an existing word into seven parts. The word is not too long, and \"try a shorter word\" is not a move available in that editor — she cannot change the word from there, only rejoin two letters. This is a hint instructing something the code refuses. (b) One-letter words, line 1574 via `segment()`, which returns null at `if (out.length < 2) return null` — a single-letter word is told it is too LONG, which is exactly backwards. (c) Only `raw.length > MAX_LETTERS` at line 1570 is genuinely about length.",
+      "correction": "Diagnose the boxes, not the word, and drop the impossible advice: \"That will not fit the boxes — they hold two to six parts.\" True in all three firing conditions."
+    },
+    {
+      "key": "tooManyHearts",
+      "problem": "\"If nearly all of it is a heart\" is not the condition that fires it. `heartCap(n) = Math.min(2, Math.floor(n / 2))`, so the message appears when the teacher tries a second heart on a four-box word (2 of 4) or a third on a five- or six-box word (3 of 5, 3 of 6). Only on a two-box word is it anywhere near \"nearly all\". A teacher who reads it at 2-of-4 concludes the tool has miscounted, and the real rule — at most two — is never stated anywhere.",
+      "correction": "State the rule instead of the exaggeration: \"One or two parts by heart, no more — the parts that follow the code are the lesson.\""
+    },
+    {
+      "key": "myWordsHint",
+      "problem": "\"We have guessed where the sounds break\" is printed permanently at the top of the My-words tab (heart-words.js:1506-1508, appended unconditionally before any draft exists). On a first visit nothing has been added and nothing has been guessed, so the tab opens with a sentence about work that has not happened. Second problem: its closing clause is a verbatim copy of `heartHint`, and both render in the same view a few lines apart — the teacher is told to tap the heart twice in identical words.",
+      "correction": "Make it a standing rule rather than a report, and let heartHint own the heart instruction: \"Every word you add, we split into sounds for you. Say the word slowly and fix the split wherever your mouth does something else.\""
+    },
+    {
+      "key": "workedExample",
+      "problem": "Two faults. (1) /u/ is the wrong symbol: \"one\" is /wʌn/, and /u/ is conventionally the vowel of \"boot\". The one string in the tool that shows a teacher how to read her own mouth against the machine contains a wrong transcription. (2) The example is English, and it demonstrates the ENGLISH segmenter. `segment()` runs over `GRAPHEME_INVENTORY[lang]`, so nothing about o-n-e tells a Dutch teacher anything about what this tool will do to her words.",
+      "correction": "Substitute a native word whose greedy split is genuinely wrong in this tool (see notes for the Dutch ruling), and drop the slashes in favour of the sound names a class actually uses."
+    },
+    {
+      "key": "saveWord",
+      "problem": "\"Use this word\" does not describe what the button does, and the button beside it does. The two exits are `showOnBoard` (\"Show on the board\", which really does use the word — it sets `self.transient` and puts it on the board this minute) and this one, which pushes it to `store.custom` and is Premium-gated. Naming the gated, deferred action \"use\" and the free, immediate action \"show\" is backwards.",
+      "correction": "\"Keep this word\" — it is kept on the teacher's list, not used."
+    },
+    {
+      "key": "gateSave",
+      "problem": "\"Keeping your own word list is part of Premium\" is not the boundary the code draws. `_addFromText` and every seam and heart edit call `_saveStore()`, which writes the whole `_store` — drafts included — to localStorage for a free visitor, so a free teacher's words already survive a reload. And `_ingestSharedList` writes straight into `store.custom` with NO premium check at all, so a shared `?add=` link gives a free visitor a saved list by another door. What Premium actually gates is a word JOINING her own shelf — the board list, the bookshelf, the printouts.",
+      "correction": "Name the real boundary, which is also the better offer: \"Putting your own words on your shelf is part of Premium — building them and showing them on the board is always free.\""
+    },
+    {
+      "key": "copyList",
+      "problem": "What is copied is a LINK, not a list. `_copyList` builds `location.origin + '/mini-tools/heart-words.html?lang=…&add=' + JSON`. A teacher who reads \"Copy my list\" and pastes into a document expects her words in text and gets a URL. The three sibling tools all label this action \"Copy link to …\", so this is also the only one out of step.",
+      "correction": "\"Copy a link to my list\""
+    },
+    {
+      "key": "copied",
+      "problem": "The string asserts a copy the code cannot guarantee. `navigator.clipboard.writeText(url).then(done, done)` passes the SAME handler as both fulfil and reject, and the outer path calls `done()` again when the clipboard API is absent entirely. In a locked-down browser, or an iframe without clipboard permission, nothing is copied and the teacher is told it was.",
+      "correction": "The string is not the thing to weaken — fix the call to `.then(done, fail)` and keep an honest success line. If only the string may change, at minimum it should not be the only feedback: \"Link copied — paste it wherever you keep your links.\" (kept, on the condition the rejection path stops reporting success)."
+    },
+    {
+      "key": "searchNone",
+      "problem": "\"Nothing HERE matches that\" is scoped wrongly and reads as a fact about the catalogue. `_paintWordList` searches through `wordsForShelf()`, which returns `[]` for any shelf the visitor cannot open. A free teacher who types a word that exists on a Premium shelf is told the tool does not have it. That is not what the tool means and not what she will conclude.",
+      "correction": "Scope it to what was actually searched: \"Nothing on your shelves matches that.\""
+    },
+    {
+      "key": "duplicateSkip",
+      "problem": "\"That word is already here\" is said in the My-words tab, but `_hasWord` matches across `allWords()` — every curated word on an unlocked shelf as well as the teacher's own. So it fires for a word that is not in \"My words\" at all, and she looks down a list that does not contain it.",
+      "correction": "\"That word is already on one of your shelves.\""
+    },
+    {
+      "key": "writePrompt",
+      "problem": "\"bring it back\" names no control the child can find. The write face has exactly one button and it says \"Show the word\". This string is also passed to `api.announce()` (heart-words.js:829), so it is the only instruction a screen-reader user gets for that face — and it points at nothing. \"it\" is ambiguous too: the word on screen, or the paper the child wrote on.",
+      "correction": "Use the button's own verb: \"Write the word. Then show it and look.\""
+    },
+    {
+      "key": "deleteWord",
+      "problem": "Listed in the brief as a chip that must fit a 44px button, but it is never a button label. `_customRow` sets `del.innerHTML = '&#10005;'` and uses this string only as an aria-label prefix: `api.t('deleteWord') + ': ' + item.display`. It has no width constraint at all and must instead read as a spoken label ending before a word.",
+      "correction": "No text change needed in English; the constraint should be dropped from the chip list so translators optimise it for speech, not width."
+    }
+  ],
+  "strings": {
+    "heartLegend": "Het hartje staat bij het stukje dat je uit je hoofd leert.",
+    "writeIt": "Schrijf het op",
+    "writePrompt": "Schrijf het woord op. Laat het daarna zien en kijk goed.",
+    "showWord": "Laat het woord zien",
+    "bigWord": "Groot woord",
+    "bigWordLeave": "Weer kleiner",
+    "deskWords": "Woorden",
+    "deskMine": "Mijn woorden",
+    "deskPrint": "Afdrukken",
+    "deskBack": "Terug naar het bord",
+    "searchWords": "Zoek een woord",
+    "searchNone": "Op deze planken staat geen woord dat daarop lijkt.",
+    "teacherNote": "Waarom dit woord lastig is",
+    "teachShelf": "Deze plank gebruiken",
+    "myWordsHint": "Elk woord dat je toevoegt, splitsen wij alvast in klanken. Zeg het woord langzaam en pas de splitsing aan waar je mond iets anders doet.",
+    "workedExample": "Van ‘sjaal’ maken wij s-j-aa-l. Maar de s en de j zijn samen één klank.",
+    "pasteHint": "Eén woord per regel",
+    "addWords": "Toevoegen",
+    "seamHint": "Tik tussen de letters om ze samen te voegen of te splitsen.",
+    "heartHint": "Tik het stukje aan dat je klas uit het hoofd moet leren.",
+    "sentenceOpt": "Een zin bij dit woord (mag leeg blijven)",
+    "saveWord": "Dit woord bewaren",
+    "showOnBoard": "Op het bord tonen",
+    "deleteWord": "Verwijderen",
+    "myWordsShelf": "Mijn woorden",
+    "myWordMark": "ons eigen woord",
+    "needHeart": "Zet eerst een hartje bij een stukje – dat maakt het pas een hartwoord.",
+    "tooManyHearts": "Eén of twee stukjes uit het hoofd, meer niet – de stukjes die je gewoon kunt lezen zijn juist de les.",
+    "looksDecodable": "Er staat nog geen hartje bij. Zoals het er nu staat is dit woord klankzuiver – dan hoort het eerder thuis in:",
+    "tooLong": "Dit past niet in de vakjes: die houden twee tot zes stukjes.",
+    "duplicateSkip": "Dat woord staat al op een van je planken.",
+    "capReached": "De lijst is vol. Verwijder er één om een nieuw woord toe te voegen.",
+    "copyList": "Link naar mijn lijst kopiëren",
+    "copied": "Link gekopieerd – plak hem waar je je links bewaart.",
+    "deviceOnly": "Je woorden blijven in deze browser, op dit apparaat.",
+    "gateSave": "Je eigen woorden op je plank zetten hoort bij Premium – ze maken en op het bord tonen is altijd gratis.",
+    "sheetCards": "Vouwkaartjes",
+    "sheetStrip": "Muurstrook",
+    "sheetHome": "Blad voor thuis",
+    "scopeShelf": "Deze plank",
+    "scopeMine": "Mijn woorden",
+    "printNote": "Knip rondom elk kaartje. Loopt er een stippellijn over een kaartje, vouw het daar. Het hartje staat bij het stukje dat je uit je hoofd leert.",
+    "homeNote": "Knip het kaartje uit en vouw het op de stippellijn. Schrijf het woord in de lege vakjes en kleur daarna het hartje."
+  },
+  "notes": "WORKEDEXAMPLE RULING — substituted, not kept. We ran this tool's own segmenter by hand over the nl inventory ['aa','ee','oo','uu','oe','ie','ij','ei','ui','eu','ou','au','ch','ng','nk','eeu','ieu','aai','ooi','oei']. On 'sjaal' greedy longest-match yields s | j | aa | l, because sj is NOT in the nl inventory. The mouth says three sounds: sj – aa – l. That is a genuine, reproducible failure of this exact code, it is fixed by one tap on the seam the string sits above, and word-initial sj in Dutch is uncontroversially /ʃ/ (sjaal, sjabloon, sjorren) — unlike the diminutive -sje, which Dutch phonologists do dispute and which we therefore rejected as the example. We also rejected 'een': the split ee|n is correct there and only the SOUND is odd, which demonstrates nothing about the splitter. Related code finding, out of our remit but worth someone's attention: sj is missing from GRAPHEME_INVENTORY.nl, which is why the example works.\n\nLEXICON COLLISIONS ROUTED AROUND — 'doos/dozen' is doubly taken by the siblings (Sound Boxes = Klankdozen, Letter Tiles = Letterdoos), so the boxes here stay 'vakjes', which is what the shipped boxOf already says. 'Kaart' is taken twice as well (Blending Board = Kaartensets/kaarten, Letter Tiles = Woordkaarten), so the print sheet is 'Vouwkaartjes' — a different object on a different plane (paper), and the diminutive keeps it clear of Letter Tiles' Woordkaarten. 'Klank' is shared vocabulary across all four and stays shared; that is correct, it is the subject. We did NOT route around 'bord': Letter Tiles and Blending Board both use 'het bord' generically for the classroom board, and inventing a synonym for the one place a teacher points would be worse than the overlap.\n\nSIBLING PATTERN ADOPTED — all three siblings label the commit action 'Deze X gebruiken' (Deze woorden gebruiken / Deze set gebruiken / Deze kaarten gebruiken). teachShelf therefore became 'Deze plank gebruiken' rather than the shipped 'Deze plank nemen', which was out of step for no reason. copied likewise opens on 'Link gekopieerd', which is the exact phrase all three siblings use.\n\nPAID-PLAN NAME — normalised to 'Premium', which is what all three siblings say in Dutch (premiumLine, lockedLabel) and what this tool's own gatePremium and unlock already say. No synonym invented.\n\nREGISTER — 'je' throughout, for both the class and the teacher, matching the shipped nl bank and the siblings. myWordMark changed from 'je eigen woord' to 'ons eigen woord': it renders on the child's card, and every other child-facing line in this tool speaks as 'we' (Dit stukje leren we uit ons hoofd). 'klankzuiver' in looksDecodable is deliberate teacher register — it is the standard groep-3 term for a word that can simply be read as written, the desk is adult-facing, and it says in one word what the English needed a clause for.\n\nBANNED-VOCABULARY NOTE — we avoided 'corrigeren' throughout even though it is the natural Dutch verb, because it contains the banned English substring 'correct'; 'aanpassen' carries no verdict freight anyway and is the better word here. No string contains fout, goed antwoord, or any of the English banned tokens.\n\nCHIP WIDTHS — checked against the actual CSS, not guessed: .hw-tab, .hw-radiobtn and .hw-ed-btn are all min-height:44px with flex-wrap on their rows, so 44px is the TAP HEIGHT and a long label wraps rather than clips. The real risk is line-height:1 on those rules, which makes a wrapped label's two lines touch. Everything here is short enough to stay on one line inside the 660px desk; at 320px the sheet row (Vouwkaartjes / Muurstrook / Blad voor thuis) and the ed-acts row (Dit woord bewaren / Op het bord tonen) each wrap to two rows, which is the intended behaviour and not a defect.\n\nTHREE KEYS, ONE STRING — deskMine, myWordsShelf and scopeMine all carry 'Mijn woorden' in English and in Dutch. That is correct (they are three different surfaces naming the same shelf) but it means a future edit must touch all three or they will drift; worth a comment in the source.\n\nDISAGREEMENT WITHIN THE PANEL — the educator wanted homeNote to name the word so a parent knows what is being practised, since the home card prints its boxes empty. The linguist noted the word does appear, inside the sentence on the fold-over half, and that naming it again would put the answer above the empty boxes the child is meant to retrieve into — which is the one thing this tool's whole write step exists to prevent. We went with the linguist. The fold instruction we added is what makes that sentence readable at all."
+}

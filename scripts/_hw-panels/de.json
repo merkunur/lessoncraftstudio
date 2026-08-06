@@ -1,0 +1,129 @@
+{
+  "locale": "de",
+
+  "englishDefects": [
+    {
+      "key": "looksDecodable",
+      "problem": "The sibling tool is named TWICE on one line. heart-words.js:1694 sets wl.textContent = t('looksDecodable') + ' ' and then appends an <a> whose text is t('siblingSbx'). The string already ends '…Sound Boxes may suit it better.', so the rendered line is '…Sound Boxes may suit it better. Sound Boxes' — the second one a bare dangling link with no sentence around it. Every locale inherits the duplication.",
+      "correction": "Do not name the sibling in the string; let the link supply the name and end on a colon: 'This one looks like it can be sounded out. A word like that belongs here:'"
+    },
+    {
+      "key": "printNote",
+      "problem": "'Fold along the dotted line.' is printed on a sheet that has no dotted line and nothing to fold. printNote is used for BOTH the cards sheet and the Wall strip (heart-words.js:1902, kind === 'home' ? homeNote : printNote), but the CSS explicitly removes the fold rule on the strip — '.hw-printsheet[data-sheet=\"strip\"] .hw-printcard::after{display:none}' (:2485) — and no back face is built for it at all (:1941, if (kind !== 'strip')). A teacher is told to fold a single-sided strip along a line that is not on the paper.",
+      "correction": "Either give the strip its own note, or make the shared one conditional and therefore true of both: 'Cut along the dashed line. Where a card has a dotted line, fold it there. The heart marks the part we learn by heart.'"
+    },
+    {
+      "key": "tooManyHearts",
+      "problem": "The sentence is arithmetically false for the words it most often fires on. The cap is heartCap = min(2, floor(n/2)) (:441) and the notice fires when a further heart is REFUSED (:1653). On a six-part word (springen: sp·r·i·ng·e·n) it fires at the third heart — exactly HALF the word, not 'nearly all of it'. The real rule is a hard ceiling of two, which the string never states, so a teacher blocked at two hearts on a long word is given a reason that does not describe her situation.",
+      "correction": "State the rule, not a false quantity: 'A word carries two hearts at most, and never more than half its parts. The parts that follow the code are the lesson.'"
+    },
+    {
+      "key": "tooLong",
+      "problem": "'try a shorter word' is the wrong instruction on one of the three paths that raise this notice. At :1616 it fires when a SEAM TAP produces more than six parts — the word is not too long, the teacher has simply made one cut too many, and the remedy is to remove a cut. Following the message (shortening the word) throws away work and does not address what happened. (The other two paths, raw.length > MAX_LETTERS at :1570 and segment() returning null at :1574, are genuine length refusals.)",
+      "correction": "Cover both causes and both remedies: 'That is more than one row holds — try a shorter word, or one break fewer.'"
+    },
+    {
+      "key": "writePrompt",
+      "problem": "'bring it back' names no control that exists. On the write face the only control is the button labelled 'Show the word' (:1036). The prompt is also the string ANNOUNCED to screen readers on entering that face (:829), so a child who cannot see the screen is told to perform a move by a name nothing on the page uses. This is the tool's own ending step — the one moment the instruction has to be followable.",
+      "correction": "Use the button's own verb: 'Write the word. Then show the word again and look closely.'"
+    },
+    {
+      "key": "copyList",
+      "problem": "The label promises a list and the clipboard receives a URL. _copyList (:1783) builds location.origin + '/mini-tools/heart-words.html?lang=…&add=…' and copies THAT. Nothing in the button says so; the fact only surfaces afterwards in 'copied', which mentions links as though the reader already knew.",
+      "correction": "'Copy my list as a link' — then 'copied' can explain what the link does rather than what the reader was supposed to have guessed."
+    },
+    {
+      "key": "deviceOnly",
+      "problem": "It contradicts the control rendered directly beneath it. In _deskMine the order is deviceOnly (:1547) then the Copy button (:1552). 'Your words stay in this browser, on this device' is read one line above the one affordance whose entire purpose is to carry them to a different device. Read literally it is false; read charitably it is confusing at exactly the point a teacher is deciding whether to trust the tool with her list.",
+      "correction": "Say what is actually guaranteed — no server, no automatic movement — and leave the link as the explicit, teacher-initiated exception: 'Your words are kept in this browser only — nothing is sent to us, and nothing travels to another device on its own.'"
+    },
+    {
+      "key": "copied",
+      "problem": "'Copied' is asserted on a path where nothing was copied. _copyList (:1791-1797) calls done() from the catch block and from the fall-through when navigator.clipboard is absent, so a browser without clipboard access still shows the success line. A teacher then pastes nothing and loses a list she believes she saved.",
+      "correction": "Code fix, not a string fix: set the notice only in the resolve path, and on failure render the URL in a selectable field so it can be copied by hand."
+    },
+    {
+      "key": "seamHint",
+      "problem": "One string doing two jobs. It is the section heading (:1596) and ALSO the aria-label of every single seam button (:1611). A screen-reader user moving through a five-letter word hears the identical sentence 'Tap between the letters to join or split them' four times, with nothing to say WHICH gap is focused. aria-pressed carries the state, but not the position. This is the same defect the platform recorded on #42 (one element wearing two jobs under one label).",
+      "correction": "Keep seamHint as the heading only, and give each seam its own label naming the two letters it sits between — the tool already has that pattern in boxOf ('Part {i} of {n}')."
+    },
+    {
+      "key": "pasteHint",
+      "problem": "Same shape as seamHint: 'One word per line' is both the textarea placeholder and its aria-label (:1520-1521). A screen-reader user is told the FORMAT of a field but never what the field is for, and the placeholder disappears for a sighted user the moment they type.",
+      "correction": "Label the field with its purpose ('Add words') and keep 'One word per line' as the placeholder."
+    },
+    {
+      "key": "myWordsHint",
+      "problem": "It describes a state that does not exist when the teacher arrives. The hint is rendered at the top of the My-words tab unconditionally (:1506-1508), before anything has been typed: there is no draft, no proposed break, nothing to say slowly and nothing to tap. 'We HAVE guessed where the sounds break' is a report about work that has not happened yet, and the three instructions that follow point at controls that are not on screen.",
+      "correction": "Write it for the moment it is actually read, so it holds in both states: 'When you add a word we guess where the sounds break. Say it slowly and fix the breaks — then tap the part your class must learn by heart.'"
+    },
+    {
+      "key": "needHeart",
+      "problem": "The sentence that explains the rule cannot be reached from the button that most needs it. 'Use this word' is disabled whenever no heart is marked (save.disabled = !d.heart.length, :1730), so its click handler's needHeart branch (:1732) is unreachable; the notice only ever appears if the teacher happens to try 'Show on the board' instead (:1712). The teacher who goes for the primary action meets a dead control and no reason at all — and the comment above it (':1727') is explicit that the inertness is deliberate, which makes the missing explanation the whole defect.",
+      "correction": "Render needHeart as a standing line beside the disabled button while heart is empty, rather than only as a reaction to the other button."
+    },
+    {
+      "key": "myWordMark",
+      "problem": "'your own word' is a badge on the CHILD's card (:966-969, inside the map face), but it is written to the teacher. On the projector the class reads a possessive that is not addressed to them and is not true of them.",
+      "correction": "'our own word' — the class made it with the teacher, and it is the only reading that works on the surface it appears on."
+    },
+    {
+      "key": "workedExample",
+      "problem": "GERMAN PANEL RULING — substitute, do not translate. The English example is about English phonology (/w/ + /u/ + /n/ for the letters o-n-e) and demonstrates nothing whatever about the German segmenter, which a German teacher is looking at while typing German words. It is also, verbatim, a foreign word printed permanently in a German classroom tool. The worked FAILURE has to be a failure this machine actually commits on this language. We verified one against the shipped GRAPHEME_INVENTORY.de and segment() (:386-403, greedy, sorted longest-first): 'Häuschen' -> h · äu · sch · e · n, because 'sch' is matched before the s can be seen as its own sound. The mouth says s and then ch. It is the single most famous German grapheme trap, it is fixable with exactly one tap of the seam control shown directly below the example, and the fix lands on six parts, which is precisely MAX_BOXES — so the teacher can reproduce the whole lesson in the tool. (We rejected 'Familie', which fails the same way, because splitting its ie gives seven parts and the tool would REFUSE the correction.)",
+      "correction": "German: 'Bei „Häuschen“ schlagen wir h-äu-sch-e-n vor. Der Mund sagt hier aber erst s und dann ch.' Each locale should verify its own example against its own inventory the same way; the English keeps 'one'."
+    },
+    {
+      "key": "_code: _addFromText (:1567)",
+      "problem": "GERMAN-SPECIFIC AND INVISIBLE IN ENGLISH. The teacher's word is lowercased before it is stored as the display form: raw = parts[i].trim().toLowerCase()… then display: raw (:1576). German capitalises EVERY noun, so a teacher who adds 'Kuh' gets 'kuh' on the word chip, in the My-words list, in the search and on the shelf — while every noun in the shipped German bank keeps its capital ('display': 'Kuh', heart-words-de.json). Two spellings of the same word, one of them wrong, inside a tool whose entire subject is correct spelling.",
+      "correction": "Lowercase only for segmentation and duplicate matching; keep the typed form for display. (The grapheme boxes themselves are lowercase throughout the bank by design — that convention is fine and should not change.)"
+    }
+  ],
+
+  "strings": {
+    "heartLegend": "Das Herz zeigt den Teil, den wir uns merken.",
+    "writeIt": "Jetzt schreiben",
+    "writePrompt": "Schreibt das Wort auf. Danach zeigen wir das Wort wieder – schaut dann ganz genau hin.",
+    "showWord": "Wort zeigen",
+    "bigWord": "Groß zeigen",
+    "bigWordLeave": "Wieder klein",
+    "deskWords": "Wörter",
+    "deskMine": "Meine Wörter",
+    "deskPrint": "Drucken",
+    "deskBack": "Zurück zur Klasse",
+    "searchWords": "Wort suchen",
+    "searchNone": "Dazu gibt es hier kein Wort.",
+    "teacherNote": "Die Stolperstelle im Wort",
+    "teachShelf": "Regal der Klasse zeigen",
+    "myWordsHint": "Sobald Sie ein Wort eintragen, raten wir, wo es in seine Laute zerfällt. Sprechen Sie es langsam mit und passen Sie die Trennstellen an – tippen Sie dann auf den Teil, den sich Ihre Klasse merken muss.",
+    "workedExample": "Bei „Häuschen“ schlagen wir h-äu-sch-e-n vor. Der Mund sagt hier aber erst s und dann ch.",
+    "pasteHint": "Ein Wort pro Zeile",
+    "addWords": "Hinzufügen",
+    "seamHint": "Tippen Sie zwischen zwei Buchstaben, um sie zu trennen oder zu verbinden.",
+    "heartHint": "Tippen Sie auf den Teil, den sich Ihre Klasse merken muss.",
+    "sentenceOpt": "Ein Satz zu diesem Wort (kann auch leer bleiben)",
+    "saveWord": "Dieses Wort verwenden",
+    "showOnBoard": "Der Klasse zeigen",
+    "deleteWord": "Entfernen",
+    "myWordsShelf": "Meine Wörter",
+    "myWordMark": "unser eigenes Wort",
+    "needHeart": "Markieren Sie zuerst einen Teil zum Merken – das macht daraus erst ein Merkwort.",
+    "tooManyHearts": "Ein Wort trägt höchstens zwei Herzen und nie mehr als die Hälfte seiner Teile. Was man erlesen kann, ist die eigentliche Übung.",
+    "looksDecodable": "Dieses Wort lässt sich Laut für Laut erlesen. Ein solches Wort gehört eher hierhin:",
+    "tooLong": "Das ist mehr, als in eine Reihe passt – nehmen Sie ein kürzeres Wort oder eine Trennstelle weniger.",
+    "duplicateSkip": "Dieses Wort steht schon in der Liste.",
+    "capReached": "Die Liste ist voll. Entfernen Sie ein Wort, um ein neues aufzunehmen.",
+    "copyList": "Liste als Link kopieren",
+    "copied": "Kopiert – mit diesem Link holen Sie Ihre Wortliste auf ein anderes Gerät.",
+    "deviceOnly": "Ihre Wörter bleiben in diesem Browser, auf diesem Gerät. Nichts geht an uns, und von allein wandert nichts weiter.",
+    "gateSave": "Eigene Wörter zu speichern gehört zu Premium – sie anzulegen und der Klasse zu zeigen bleibt immer kostenlos.",
+    "sheetCards": "Faltkarten",
+    "sheetStrip": "Wandstreifen",
+    "sheetHome": "Blatt für zu Hause",
+    "scopeShelf": "Dieses Regal",
+    "scopeMine": "Meine Wörter",
+    "printNote": "An der gestrichelten Linie schneiden. Wo eine Karte eine gepunktete Linie hat, dort falten. Das Herz zeigt den Teil, den wir uns merken.",
+    "homeNote": "Schreibt das Wort in die leeren Kästchen und malt dann das Herz aus."
+  },
+
+  "notes": "REGISTER. The desk is one teacher alone at her laptop, so it is Sie throughout (myWordsHint, seamHint, heartHint, needHeart, capReached, tooLong, copied, deviceOnly). The shipped German used ihr there — 'Sprecht das Wort langsam … eure Klasse' — which addresses a group of children and then attributes a class to them; 'eure Klasse' said to one teacher is a category error. The quartet is already inconsistent on this (Magnetbuchstaben says Sie in its My-words hint, Lautboxen says du), so we followed the tool whose surface is functionally identical: Magnetbuchstaben. The board keeps wir/ihr. The linguist would have preferred neutral infinitives throughout ('Zwischen zwei Buchstaben tippen …') to sidestep the question; the teacher argued a hint that never addresses her reads like a manual, and won.\n\nCOLLISIONS ROUTED AROUND, all against the shipped German of the other three tools. (1) TAFEL — Magnetbuchstaben names its own apparatus 'die Tafel' ('Ziehe Buchstaben auf die Tafel', 'Freie Tafel', 'gespeicherte Tafeln'). Merkwörter used the same noun for a different referent (the front-of-class surface), in a quartet a teacher sees together. We named that surface by who is looking at it instead: deskBack 'Zurück zur Klasse', showOnBoard 'Der Klasse zeigen', teachShelf 'Regal der Klasse zeigen' — one coherent family, no borrowed apparatus. The marketing writer dissented: 'Zurück zur Tafel' is the more idiomatic German and the collision is with another tool's noun, not an internal one. Majority ruled to route around. (2) WORTKARTEN — owned by Magnetbuchstaben ('Wortkarten', 'Eigene Wortkarten'), so sheetCards cannot be that; 'Faltkarten' is unambiguous and names the fold. (3) KARTEN / KARTENSATZ — owned by der Lesemaschine; a second reason sheetCards avoids a bare 'Karten'. (4) BOXEN / LAUTBOXEN — owned by den Lautboxen. Merkwörter calls its own units Teile in its own aria-label ('Teil {i} von {n}'), and the shipped tooLong then borrowed the sibling's noun ('zu lang für die Boxen'). Everything here now says Teil, and tooLong talks about the Reihe. (5) MASCHINE — der Lesemaschine owns it, so workedExample says 'schlagen wir … vor' rather than 'die Maschine trennt', which also matches the design's own line that it PROPOSES and the teacher publishes.\n\nPAID PLAN. Normalised to Premium, verbatim, and to the siblings' sentence shape ('Eigene Wortlisten gehören zu Premium – die Startwörter bleiben immer kostenlos'). gateSave now also states the split accurately: on the board is free, saving is not — which is what the code does (showOnBoard is ungated, saveWord checks premium at :1733).\n\nteacherNote is 'Die Stolperstelle im Wort' because it renders as heading + ' — ' + the word (:1456), and 'Warum dieses Wort knifflig ist — Kuh' reads as a broken sentence. Stolperstelle is the standard term in German Rechtschreibdidaktik for exactly this — the place where the writing stops following the sound — so it is the German teaching point, not a rendering of the English one. The teacher initially worried it was too specialist; the linguist showed it is the precise term and the writer noted it is also what a German teacher would search for.\n\nMerken/Merkwort is the through-line: heartLegend, needHeart, heartHint and myWordsHint all end on 'merken', which is where the tool's German name comes from. erlesen (looksDecodable, tooManyHearts) is the German didactic verb for reading a word sound by sound and is the honest opposite of a Merkwort. No string carries a verdict, a count, a score or a placeholder; nothing here contains richtig, falsch, Fehler or Test in any form.\n\nOne thing we did NOT change and want on the record: the grapheme boxes render lowercase for every word in the bank, including the nouns (Kuh shows as k · uh). That is right — it matches Lautboxen and it is the grapheme, not the word. The defect is only that the teacher's own display form is lowercased too (see the last englishDefects entry)."
+}

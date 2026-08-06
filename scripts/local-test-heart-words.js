@@ -419,7 +419,7 @@ const tileWidthForBoxes = async (page, n) => {
         drafts: (T._store.drafts || []).length,
         boxes: T._draft ? T._draft.boxes.slice() : null,
         heart: T._draft ? T._draft.heart.slice() : null,
-        saveDisabled: save ? save.disabled : null,
+        saveAria: save ? save.getAttribute('aria-disabled') : null,
         seams: document.querySelectorAll('.hw-seam').length,
         previewBoxes: document.querySelectorAll('.hw-ed-preview .hw-box').length
       };
@@ -428,9 +428,42 @@ const tileWidthForBoxes = async (page, n) => {
     is(Array.isArray(st.boxes) && st.boxes.length >= 2, `the machine PROPOSED a split (${JSON.stringify(st.boxes)})`);
     is(Array.isArray(st.heart) && st.heart.length === 0,
       '⭐ the heart is EMPTY — the machine never guesses the pedagogical claim');
-    is(st.saveDisabled === true, '⭐ "Use this word" is inert until the teacher performs the marking act');
+    /* ⚠ assert the CONSEQUENCE, not the attribute. This used to check
+       `disabled`, which is why `needHeart` was dead from this control while
+       its twin stayed live and refused — two controls with one precondition
+       disagreeing about how to say no. */
+    is(st.saveAria === 'true', '⭐ the keep control announces itself as unavailable until the teacher marks a heart');
     is(st.seams >= 3, `the seam editor offers a tap target between every pair (${st.seams})`);
     is(st.previewBoxes === st.boxes.length, 'the preview IS the child\'s apparatus, box for box');
+
+    /* ⚠ THE TYPED PATH, which the model gate cannot reach: _addFromText used
+       to lowercase the display, so a German teacher's "Kuh" shipped as "kuh"
+       beside a bank of capitalised nouns — two spellings of one word, in a
+       tool about which letters a word has. And the apostrophe/hyphen must
+       survive, because the shipped ITALIAN bank has a whole shelf built on
+       the apostrophe and the desk has to be able to reproduce it. */
+    const typed = await page.evaluate(() => {
+      const T = window.HeartWords;
+      T._store.drafts = []; T._draft = null;
+      T._addFromText("Kuh\nl'ape\nguarda-chuva");
+      return {
+        drafts: (T._store.drafts || []).map(d => ({ display: d.display, id: d.id })),
+        notice: T.notice
+      };
+    });
+    is(typed.drafts.some(d => d.display === 'Kuh'),
+      `⭐ a typed capital survives (${JSON.stringify(typed.drafts.map(d => d.display))}) — German nouns keep theirs`);
+    is(typed.drafts.some(d => d.id === 'my:kuh'), 'while the storage id folds, so one word never gets two entries');
+    is(typed.drafts.some(d => d.display === 'l’ape'), 'a typed ASCII apostrophe folds to the typographic one and SURVIVES');
+    /* ⚠ `guarda-chuva` is REFUSED here, and correctly: twelve letters cannot
+       be laid out in six boxes, so the cap bites long before the character
+       strip matters. Asserting that it survives the TYPED path would be
+       asserting a path the model makes unreachable — the hyphen contract is
+       tested where it is actually reachable, in T13's ingest, where the
+       boxes arrive ready-made. What matters here is that it is refused with
+       a REASON rather than silently welded. */
+    is(typed.drafts.every(d => d.display !== 'guarda-chuva') && !!typed.notice,
+      `a word too long for the boxes is refused with a reason (notice: ${typed.notice})`);
 
     /* the seam toggle must actually change the model, both directions */
     const seamEffect = await page.evaluate(() => {
@@ -450,10 +483,10 @@ const tileWidthForBoxes = async (page, n) => {
       const T2 = window.HeartWords;
       const save = Array.from(document.querySelectorAll('.hw-ed-btn'))
         .find(x => x.textContent.trim() === T2.strings.saveWord.en);
-      return { heart: T2._draft.heart.slice(), saveDisabled: save ? save.disabled : null };
+      return { heart: T2._draft.heart.slice(), saveAria: save ? save.getAttribute('aria-disabled') : null };
     });
     is(heartEffect.heart.length === 1, `tapping a preview box stamps the heart (${JSON.stringify(heartEffect.heart)})`);
-    is(heartEffect.saveDisabled === false, 'Save becomes live only after the teacher has marked it');
+    is(heartEffect.saveAria === 'false', 'the keep control becomes available only after the teacher has marked it');
     if (SHOT) await page.screenshot({ path: path.join(SHOTDIR, 'desk-my-words.png'), fullPage: true });
 
     /* free visitor: Save refuses and offers the gate; the word is NOT kept */

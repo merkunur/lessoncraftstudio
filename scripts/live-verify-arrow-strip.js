@@ -67,30 +67,48 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       is(!(await page.evaluate(() => !!document.querySelector('.arw-trail'))),
         `${loc}: nothing has moved yet — the rail is inert while it is built`);
 
-      await page.evaluate(() => document.querySelectorAll('.arw-foot .arw-chip')[0].click());
-      await wait(600);
+      /* ⚠ WAIT ON THE SIGNAL. The run is STEPPED — one beat per card — so a
+         fixed 600ms sleep expires mid-journey and everything after it is
+         correctly refused by the tool. */
+      await page.evaluate(() => document.querySelector('[data-fk="run"]').click());
+      await page.waitForFunction(() => !document.querySelector('.arw-mat.arw-running'), { timeout: 25000, polling: 80 });
+      await wait(160);
 
       const pts = await page.evaluate(() => {
         const el = document.querySelector('.arw-trail');
         return el ? el.getAttribute('points').trim().split(/\s+/).map((p) => p.split(',').map(Number)) : null;
       });
       const st0 = T.newState();
-      const want = T.run(st0.pose, rail, st0.n).map((p) => [p.c + 0.5, p.r + 0.5]);
+      /* ⚠ the trail is the model's OFFSET polyline, not bare cell centres:
+         every vertex is pushed perpendicular to travel so a there-and-back
+         rail draws two lanes instead of one line. Compare against the
+         model's own render function — still the model, never a second
+         guess. */
+      const want = T.trailPoints(T.run(st0.pose, rail, st0.n)).map((p) => [p.x, p.y]);
       is(pts && pts.length === want.length && pts.every((p, i) => p[0] === want[i][0] && p[1] === want[i][1]),
-        `${loc}: ⭐ it RAN — the trail on production is the model's pose sequence, all ${want.length} vertices`);
+        `${loc}: ⭐ it RAN — the trail on production is the model's own geometry, all ${want.length} vertices`);
+      /* ⭐ and a turn is VISIBLE on it — the defect that shipped */
+      const pivots = await page.evaluate(() => document.querySelectorAll('.arw-pivot').length);
+      is(pivots === 1, `${loc}: ⭐ the turn card leaves a pivot mark on the trail (${pivots})`);
 
-      /* 3: the beetle's-eye toggle really rotates the mat */
-      await page.evaluate(() => {
-        const b = Array.from(document.querySelectorAll('.arw-bar .arw-chip'));
-        const eye = b[3];
-        if (eye) eye.click();
-      });
-      await wait(600);
+      /* 3: the beetle's-eye toggle really rotates the mat, and the beetle
+         rides it. ⚠ THE OLD ASSERTION HERE DEMANDED `.arw-fixed` — i.e. it
+         demanded the DEFECT: a beetle pinned to the mat centre, which on an
+         even-sided mat is a grid vertex and never a square. */
+      await page.evaluate(() => document.querySelector('[data-fk="eye"]').click());
+      await wait(700);
       const rot = await page.evaluate(() => {
         const f = document.querySelector('.arw-frame');
-        return { t: f ? getComputedStyle(f).transform : 'none', fixed: !!document.querySelector('.arw-beetle.arw-fixed') };
+        const b = document.querySelector('.arw-beetle');
+        const m = f ? new DOMMatrixReadOnly(getComputedStyle(f).transform) : null;
+        return {
+          deg: m ? Math.round(Math.atan2(m.b, m.a) * 180 / Math.PI) : 0,
+          inside: !!(f && b && f.contains(b)),
+          pinned: !!document.querySelector('.arw-beetle.arw-fixed')
+        };
       });
-      is(rot.t !== 'none' && rot.fixed, `${loc}: the mat turns under a fixed beetle`);
+      is(rot.deg !== 0 && rot.inside && !rot.pinned,
+        `${loc}: the mat turns ${rot.deg}deg with the beetle riding it on its own square`);
     } catch (e) {
       FAIL++; console.error(`  FAIL ${loc}: ${e.message}`);
     } finally {

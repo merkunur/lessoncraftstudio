@@ -1,0 +1,111 @@
+{
+  "locale": "it",
+  "englishDefects": [
+    {
+      "key": "looksDecodable",
+      "problem": "THE STRING NAMES THE SIBLING TOOL, AND THE CODE APPENDS ITS NAME AGAIN. _buildEditor does `wl.textContent = t('looksDecodable') + ' '` and then appends an <a> whose text is `t('siblingSbx')`. The rendered line therefore reads \"…Sound Boxes may suit it better. Sound Boxes\" — a dangling second mention with no sentence around it, inherited by all ten locales. (The working copy of heart-words.js already carries a ⚠ comment saying exactly this, credited to the French panel; the English SOURCE file we were handed still has the defect, so it would ship again.) Second, in the source the warning is un-conditioned, so the sentence must not assume the teacher has done nothing yet.",
+      "correction": "End the string with a lead-in and let the link be the name: \"Every part of this word still follows the code. Perhaps a better fit:\" — the tool name is the link that follows."
+    },
+    {
+      "key": "printNote",
+      "problem": "IT INSTRUCTS A FOLD ON A SHEET THAT HAS NOTHING TO FOLD. _buildPrintSheet prints this note on the wall strip as well as the cards, but `.hw-printsheet[data-sheet=\"strip\"] .hw-printcard::after{display:none}` deletes the dotted fold line for the strip, and _printCard builds no back face for it (`if (kind !== 'strip')`). A teacher printing a wall strip is told to fold along a line the stylesheet has removed. (Being fixed concurrently: a `stripNote` key has appeared in the working file.)",
+      "correction": "Scope the fold to the sheet that has one, so the string stays true whether or not a separate strip note ships: \"Cut along the dashed line. The word cards fold along the dotted line. The heart marks the part we learn by heart.\""
+    },
+    {
+      "key": "tooManyHearts",
+      "problem": "THE SENTENCE IS FALSE AT THE ACTUAL THRESHOLD, AND NEVER STATES THE RULE. The notice fires at `d.heart.length >= heartCap(n)` where `heartCap = Math.min(2, Math.floor(n/2))`. On a six-part word it therefore fires on the THIRD heart — a third of the word, not \"nearly all of it\". The teacher is given a rationale she can see is untrue and is never told the limit (two parts, and never more than half).",
+      "correction": "State the rule and keep the reason short: \"Two parts at most can wear a heart — and never more than half the word. The parts that can be read are the lesson.\""
+    },
+    {
+      "key": "tooLong",
+      "problem": "ONE STRING FOR THREE DIFFERENT REFUSALS, AND IT IS WRONG IN TWO OF THEM. It is raised (a) when the typed word is longer than MAX_LETTERS, (b) when segment() returns null — which happens BELOW two parts as well as above six, so a teacher who types \"a\" or \"è\" is told her word is too long and to try a shorter one, and (c) when a seam SPLIT would exceed six parts, where \"try a shorter word\" is unactionable because she is tapping a seam, not typing a word (she only has to join a seam back up). (Both (b) and (c) are being split out in the working copy, with ⚠ comments saying the same thing.)",
+      "correction": "Keep `tooLong` to the meaning of its own name — \"That word is too long. Try a shorter one.\" — and give the other two their own strings. Our it/pt strings are written to the key's NAME, not to the source's three call sites."
+    },
+    {
+      "key": "writePrompt",
+      "problem": "IT NAMES A MOVE THE FACE DOES NOT OFFER. On the write face there is exactly one control and it is labelled \"Show the word\". Nothing is ever taken away and \"brought back\", and \"it\" has no referent — the word? the paper? A five-year-old is being told to do something no button on the screen does.",
+      "correction": "Name the button that is actually there, and leave the comparing to the child: \"Write the word on paper. Then show the word and compare it with yours.\""
+    },
+    {
+      "key": "copyList",
+      "problem": "IT DOES NOT COPY A LIST. _copyList puts a URL on the clipboard (`location.origin + '/mini-tools/heart-words.html?lang=…&add=…'`). The three sibling tools all ship `copyLink` — \"Copy link to this word / this card\" — and \"Link copied!\", so the house already has the right word for this and this tool alone gets it wrong. It also makes `copied` (\"paste it anywhere you keep your links\") read as a non-sequitur after a button that promised a list.",
+      "correction": "\"Copy a link to my words\" — then `copied` follows naturally, and the pair matches the three siblings."
+    },
+    {
+      "key": "copied",
+      "problem": "Correct about the payload but orphaned by the button above it; and it drops the word the siblings use. All three siblings say \"Link copied!\".",
+      "correction": "\"Link copied. Paste it wherever you keep your links.\""
+    },
+    {
+      "key": "workedExample",
+      "problem": "TWO PROBLEMS. (1) The transcription is wrong even in English: \"one\" is /wʌn/, and /u/ is the vowel of \"boot\" — a phonics tool must not mis-transcribe its one worked example. (2) It is an ENGLISH word used to explain the segmenter to an Italian teacher, in a desk panel that has no other English in it. An Italian primary teacher is not required to read English phonics notation to understand her own tool.",
+      "correction": "In English, fix the vowel: \"…Your mouth says /w/ + /ʌ/ + /n/.\" In every other locale, substitute a native word where the segmenter is genuinely wrong (see notes for our ruling)."
+    },
+    {
+      "key": "pasteHint",
+      "problem": "⭐ ITALIAN PANEL — CODE DEFECT, NOT A COPY DEFECT. _addFromText does `raw = parts[i].trim().toLowerCase().replace(/[^\\p{L}]/gu, '')`, which silently DELETES the apostrophe. An Italian teacher who types l'ape, un'ora, po', c'è gets lape, unora, po, cè — no notice, no warning, and the word is then segmented from the corrupted letters. This is not a corner case: the shipped Italian bank has an entire shelf built on it (g1-apostrofo — l’acqua, l’ape, l’oca, l’uva, l’orso, un’ora, po’, c’è), whose boxes contain the ’ character, so the apparatus supports it perfectly and only the ADD path destroys it. The desk cannot reproduce the shelf the tool itself ships. No wording of `pasteHint` can fix this.",
+      "correction": "Code: allow ’ and ' in the raw filter and normalise ' → ’ (e.g. `.replace(/'/g, '’').replace(/[^\\p{L}’]/gu, '')`), so that l’ape survives. The Portuguese panel notes the same filter eats the hyphen in guarda-chuva — a smaller loss, same cause."
+    },
+    {
+      "key": "gateSave",
+      "problem": "TRUE BUT IT UNDERSELLS THE FREE TASTE, WHICH IS THIS TOOL'S WHOLE PITCH. The premium check is on `saveWord` only; `showOnBoard` (the button beside it) has no entitlement check at all, so a free teacher can build her own word AND put it live on the class board. \"Building one is always free\" describes half of what she can actually do.",
+      "correction": "\"Saving your own words is part of Premium — building them and putting them on the board is always free.\""
+    },
+    {
+      "key": "teacherNote",
+      "problem": "IT IS RENDERED AS A LABEL, NOT A SENTENCE: `nh.textContent = t('teacherNote') + ' — ' + this.selected.display`. \"Why this one is tricky — hai\" reads as a broken fragment, because \"this one\" and the word that follows the dash are the same thing said twice.",
+      "correction": "Write it as a label that takes a word after a dash: \"Where it tricks you\"."
+    },
+    {
+      "key": "workedExample|myWordsHint",
+      "problem": "TYPOGRAPHY, it/pt SPECIFICALLY. The shipped it and pt strings quote with SPACED French guillemets — « one » — which is a French convention. Italian sets guillemets tight («quando»); Brazilian Portuguese does not use guillemets at all and sets “aspas”. The shipped it strings also mix tu and voi across the same desk panel (voi in myWordsHint/needHeart/capReached, tu elsewhere) where all three sibling tools address the teacher as tu throughout.",
+      "correction": "it: «quando», no spaces, tu throughout. pt: “nascer”, você-register imperative throughout. Both applied below."
+    }
+  ],
+  "strings": {
+    "heartLegend": "Il cuore segna la parte che impariamo a memoria.",
+    "writeIt": "Adesso scrivila",
+    "writePrompt": "Scrivi la parola sul foglio. Poi mostra la parola e confrontala con la tua.",
+    "showWord": "Mostra la parola",
+    "bigWord": "Più grande",
+    "bigWordLeave": "Più piccola",
+    "deskWords": "Parole",
+    "deskMine": "Le mie parole",
+    "deskPrint": "Stampa",
+    "deskBack": "Torna alla classe",
+    "searchWords": "Cerca una parola",
+    "searchNone": "Nessuna parola con queste lettere.",
+    "teacherNote": "Dove inganna",
+    "teachShelf": "Usa questo scaffale",
+    "myWordsHint": "Le divisioni dei suoni le abbiamo indovinate noi. Di’ la parola piano piano e sistemale, poi tocca la parte che la classe deve imparare a memoria.",
+    "workedExample": "Dividiamo «quando» in q-u-a-n-d-o. La bocca invece fa un suono solo con q-u: /kw/.",
+    "pasteHint": "Una parola per riga",
+    "addWords": "Aggiungi",
+    "seamHint": "Tocca tra le lettere per unirle o dividerle.",
+    "heartHint": "Tocca la parte che la classe deve imparare a memoria.",
+    "sentenceOpt": "Una frase con questa parola (puoi lasciarla vuota)",
+    "saveWord": "Usa questa parola",
+    "showOnBoard": "Mostra alla classe",
+    "deleteWord": "Togli",
+    "myWordsShelf": "Le mie parole",
+    "myWordMark": "parola della classe",
+    "needHeart": "Segna prima una parte da imparare a memoria: è quella che la rende una parola del cuore.",
+    "tooManyHearts": "Il cuore va al massimo su due parti, e mai su più di mezza parola. Le parti che si leggono sono la lezione.",
+    "looksDecodable": "Ogni parte di questa parola si legge come è scritta. Forse va meglio con:",
+    "tooLong": "Questa parola è troppo lunga. Provane una più corta.",
+    "duplicateSkip": "Questa parola c’è già.",
+    "capReached": "Non c’è più spazio. Togli una parola per aggiungerne un’altra.",
+    "copyList": "Copia il link alle mie parole",
+    "copied": "Link copiato. Incollalo dove tieni i tuoi link.",
+    "deviceOnly": "Le tue parole restano in questo browser, su questo dispositivo.",
+    "gateSave": "Salvare le tue parole fa parte di Premium: comporle e mostrarle alla classe resta sempre gratuito.",
+    "sheetCards": "Schede da piegare",
+    "sheetStrip": "Striscia da parete",
+    "sheetHome": "Foglio per casa",
+    "scopeShelf": "Questo scaffale",
+    "scopeMine": "Le mie parole",
+    "printNote": "Ritaglia lungo il tratteggio. Le schede si piegano lungo la linea di puntini. Il cuore segna la parte che impariamo a memoria.",
+    "homeNote": "Scrivi la parola nei riquadri vuoti, poi colora il cuore."
+  },
+  "notes": "COLLISIONS ROUTED AROUND (read against the shipped it strings of sound-boxes.js, blending-board.js, letter-tiles.js). (1) «casella/caselle» is Sound Boxes' own name — Caselle dei suoni — and Letter Tiles takes «Caselle delle lettere» on top of it. Heart Words must not call its container a casella. It already has its own word in the shipped strings (boxOf = «Parte {i} di {n}», heartPart = «una parte»), so we use PARTE/PARTI throughout, and RIQUADRI for the printed squares on the take-home sheet. This is why tooLong and homeNote no longer say caselle. (2) «lavagna» belongs to Letter Tiles (Trascina le lettere sulla lavagna / Lavagna libera / Torna alla lavagna libera). The shipped heart-words deskBack and showOnBoard both said lavagna, which puts three tools on one noun. We route to LA CLASSE — «Mostra alla classe» / «Torna alla classe» — which is what the teacher actually says in the room, and the pair reads as one gesture. (3) «elenco / elenchi di parole» belongs to Sound Boxes (Elenco di parole, Elenchi di parole). The shipped copyList and capReached both used elenco. Heart Words' own collection is «le mie parole» and its containers are «scaffali», so copyList becomes «Copia il link alle mie parole» and capReached loses the noun entirely. (4) «carte» belongs to Blending Board and Letter Tiles; we keep SCHEDE for the printed cards, which is free and is the ordinary Italian word for a printed card. (5) «gettone», «mazzo», «alfabetiere» are untouched. DELIBERATE ALIGNMENTS, not collisions: seamHint is kept almost word-for-word with Sound Boxes' («Tocca tra le lettere per dividere o unire le caselle») because it describes the IDENTICAL gesture on the IDENTICAL row — a teacher meeting the quartet together should not have to learn it twice, and we only drop «le caselle» to keep the sibling's noun out. deskMine / scopeMine / myWordsShelf keep «Le mie parole» for the same reason: Sound Boxes and Letter Tiles both ship «Le mie parole» for the same concept.\n\nPAID-PLAN NAME. Normalised, not invented: all three siblings ship the bare word «Premium» (lockedLabel: Premium) with the pattern «X fanno parte di Premium: Y rest[a|ano] gratuit[o|e]» (sound-boxes: «Gli elenchi personalizzati fanno parte di Premium: le parole iniziali restano gratuite»). gateSave is written to that exact shape. NOT one of our 43, but flagged: heart-words' `unlock` says «Scopri Premium» while all three siblings say «Sblocca tutti i/le …» — the odd one out; align it at the next touch.\n\nWORKED EXAMPLE — WE SUBSTITUTE, and here is the test we ran rather than reasoning about it. We executed HeartWords.segment(w,'it') for a spread of Italian words. The it inventory holds cqu, sci, gli, gn, ch, gh, ci, gi and the doubles, and it is good: acqua → a|cqu|a, sciarpa → sci|a|r|p|a, famiglia → f|a|m|i|gli|a, pesce → p|e|sc|e — all correct. It has ONE gap that a first-grade teacher meets every single day: there is no `qu`. So «quando» comes back q|u|a|n|d|o — six parts for five sounds, with q and u torn apart. Every high-frequency word she is likeliest to add herself — quando, questo, quello, quaderno, quattro — fails the same way. That is a real failure of the shipped machine, it is exactly the mistake the seam row exists to repair (she joins q and u), the fix is a JOIN which is what the very next line tells her to do, and «quando» is NOT in the shipped Italian bank, so she can type it and watch it happen. We rejected the silent-h words (ho, hai, ha, hanno) for the opposite reason: they are all already in the bank, so typing one returns «Questa parola c’è già» — a poor first experience of the panel. ⚠ IF THE BUILD ADDS `qu` TO GRAPHEME_INVENTORY.it — which we recommend, it is correct and safe because `cqu` is longer and still wins the greedy match — THIS STRING BECOMES FALSE. Replacement to use in that case, which is structurally unfixable by any grapheme list because segment() falls back to a letter split whenever it produces fewer than two parts: «Dividiamo «gli» in g-l-i. La bocca invece fa due suoni soli.» Do not let the inventory change and the string drift apart.\n\nREGISTER. Child surface and desk are both TU, matching all three siblings (sound-boxes: «Tocca l’immagine…», «Metti un gettone…», «Scrivi le parole della settimana»; letter-tiles: «Disattiva le carte che la classe non ha ancora imparato»). The shipped it strings mixed voi into myWordsHint, needHeart, capReached, printNote and homeNote while using tu elsewhere in the same panel; that is repaired here. «la classe» is kept as the third person the teacher talks ABOUT (heartHint, myWordsHint), which is how an Italian primary teacher phrases it.\n\nCHIP LENGTHS at 320px: the longest of the fourteen chip labels is «Striscia da parete» (18) and «Usa questa parola» (17); bigWord/bigWordLeave were shortened from the shipped «Parola grande» / «Torna piccola» to «Più grande» / «Più piccola», which are shorter, agree with «parola», and read to a six-year-old.\n\nDISAGREEMENT WITHIN THE PANEL, recorded. The educator wanted heartLegend to reuse heartLine verbatim («Questa parte la impariamo a memoria») so the class hears one sentence all year; the linguist objected that the legend describes the SYMBOL and the line describes the MOMENT, and that a legend beginning «Il cuore…» is what makes the symbol readable to a child arriving mid-lesson. We kept «Il cuore segna la parte che impariamo a memoria» — the verb «segna» differs from heartLine's «impariamo» so the two are not heard as a stutter, and the shared «impariamo a memoria» carries the continuity the educator wanted.\n\nONE MORE FOR THE BUILD, outside our 43. The Italian bank ships c’è as [c|’|è] and po’ as [p|o|’] — an apostrophe alone in a box. On the take-home sheet that box prints EMPTY (blank = kind==='home'), so a child is asked to write a sound into a square whose only content was punctuation. Worth a look before the home sheet ships for Italian."
+}

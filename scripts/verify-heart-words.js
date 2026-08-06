@@ -857,17 +857,38 @@ function checkTool(tool, src) {
        not reasoned: with the strip `ca-t` normalises to `cat`; without it
        the boxes no longer equal the display and the word vanishes. The
        same normalisation runs on typed input, so the two paths agree. */
-    const norm = tool._sanitiseCustom({ display: 'ca-t', boxes: ['c', 'a', 't'], heart: [0] });
-    if (!norm || norm.display !== 'cat')
-      err('T13 _sanitiseCustom silently DROPS a punctuated word instead of normalising it — a shared list would lose words with no signal');
+    /* THE APOSTROPHE AND THE HYPHEN ARE PART OF THE WORD, and must survive
+       into the boxes. This assertion previously demanded that `ca-t`
+       NORMALISE to `cat` — i.e. it enforced the defect the Italian panel
+       found, where `l’ape` became `lape` and the desk could not reproduce
+       the tool's own shipped Italian shelf (`g1-apostrofo`, whose boxes
+       contain `’`). ASCII `'` folds to the typographic form the banks use;
+       everything that is not a letter, an apostrophe or a hyphen still goes. */
+    const apo = tool._sanitiseCustom({ display: "l'ape", boxes: ['l', "'", 'a', 'p', 'e'], heart: [1] });
+    if (!apo || apo.display !== 'l’ape')
+      err(`T13 _sanitiseCustom mangled an apostrophe word (got ${apo ? '"' + apo.display + '"' : 'REFUSED'}) — the shipped Italian bank has a whole shelf built on it`);
+    const hyp = tool._sanitiseCustom({ display: 'guarda-chuva', boxes: ['guarda', '-chuva'], heart: [0] });
+    if (!hyp || hyp.display !== 'guarda-chuva')
+      err(`T13 _sanitiseCustom mangled a hyphenated word (got ${hyp ? '"' + hyp.display + '"' : 'REFUSED'})`);
 
     const good = tool._sanitiseCustom({ display: 'Shone', boxes: ['SH', 'o', 'n', 'e'], heart: [0], sentence: 'x' });
     if (!good) err('T13 _sanitiseCustom REFUSED a legitimate shared word — the check is too wide');
     else {
       if (good.id.indexOf('my:') !== 0)
         err(`T13 a shared word must be namespaced (got "${good.id}") or a ?word= link can resolve into the curated set`);
-      if (good.display !== 'shone' || good.boxes.join('') !== 'shone')
-        err('T13 _sanitiseCustom did not normalise case');
+      /* ⚠ THE TEACHER'S CAPITAL SURVIVES, the id and the boxes do not.
+         This assertion used to demand `display === 'shone'`, i.e. it
+         enforced the very defect the German panel found: a teacher's "Kuh"
+         shipped as "kuh" while every noun in the shipped German bank keeps
+         its capital — two spellings of one word in a tool whose subject is
+         which letters a word actually has. Graphemes are case-free, so the
+         boxes and the storage key still fold. */
+      if (good.display !== 'Shone')
+        err(`T13 _sanitiseCustom lowercased the teacher's word ("${good.display}") — German nouns must keep their capital`);
+      if (good.boxes.join('') !== 'shone')
+        err('T13 _sanitiseCustom did not case-fold the BOXES (graphemes are case-free)');
+      if (good.id !== 'my:shone')
+        err(`T13 the storage id must be case-folded (got "${good.id}") or one word gets two entries`);
     }
   }
 

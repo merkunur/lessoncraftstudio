@@ -1,0 +1,138 @@
+{
+  "locale": "es",
+
+  "englishDefects": [
+    {
+      "key": "tooManyHearts",
+      "problem": "MATHEMATICALLY FALSE in the ordinary case. The cap is heartCap(n) = min(2, floor(n/2)) (line 441) and the notice fires at line 1653 when the teacher tries to exceed it. For a 5-box word the cap is 2, so she is told 'nearly all of it is a heart' when she has hearted TWO of FIVE. For a 3-box word the cap is 1, so it fires at ONE of THREE. 'Nearly all' is only true at n=2. Worse, the sentence explains a pedagogy instead of stating the rule, so the teacher cannot tell what she is allowed to do and reads the refusal as a fault of her own.",
+      "correction": "State the real rule and let the pedagogy follow from it: 'The heart is for one part — two in a long word. The rest is exactly what can be read.' True at every n, and it tells her what to do next."
+    },
+    {
+      "key": "looksDecodable",
+      "problem": "TWO defects. (a) The string names Sound Boxes, and line 1694-1698 then APPENDS a link whose text is t('siblingSbx') — also 'Sound Boxes'. The rendered line reads '... Sound Boxes may suit it better. Sound Boxes'. The tool name prints twice in a row, and in ten locales nobody would see it because each panel is shown the string alone. (b) looksDecodable() returns false the moment a heart exists (line 431) and the warning is rendered BELOW the heart row (line 1692), so it fires on EVERY freshly added word, before the teacher has had the chance to perform the one act that clears it. In Spanish it fires on essentially 100% of words, because every Spanish box is either a single letter or a legal digraph in GRAPHEME_INVENTORY.es. A warning that condemns correct input on the first render teaches the teacher to stop reading warnings.",
+      "correction": "End the sentence so the link COMPLETES it — 'This one looks like it can be sounded out; it may do better in' + [Sound Boxes] — and suppress it until the teacher has touched the heart row at least once (or say plainly that marking a heart clears it)."
+    },
+    {
+      "key": "saveWord",
+      "problem": "THE LABEL DOES NOT SAY WHAT THE CONTROL DOES, and it costs money. 'Use this word' is the SAVE button (line 1724-1743) and it is the PAID one (gateSave at 1733). The button that actually USES the word — puts it live on the class board, free — is labelled 'Show on the board' (1708). A teacher reading 'Use this word' clicks the paywall for the thing she can already do for nothing. All three sibling tools spend 'Use ...' on the ACTIVATE action (sound-boxes 'Usar estas palabras', blending-board 'Usar esta baraja', letter-tiles 'Usar estas tarjetas'), so this tool inverts the quartet's own verb.",
+      "correction": "'Save this word' (or 'Keep this word'). Leave 'Use ...' to mean activate, as the other three tools already do."
+    },
+    {
+      "key": "tooLong",
+      "problem": "ONE STRING, THREE CALL SITES, THREE DIFFERENT MEANINGS — and it is factually inverted at one of them. Line 1570 fires for raw.length > MAX_LETTERS (14): genuinely too long, fine. Line 1574 fires when segment() returns null, and segment() returns null for a ONE-LETTER word too (out.length < 2, lines 399-400) — so a teacher typing 'y' or 'a' is told 'too long — try a shorter word'. Line 1616 fires when a seam split pushes past MAX_BOXES (6), i.e. while she is splitting a word the tool already accepted; 'try a shorter word' is not an available move there — she needs to re-JOIN a seam.",
+      "correction": "Split it. At minimum use a message true at all three sites and drop the advice: 'That word will not divide into these boxes.' Better: keep tooLong for line 1570 and add tooManyBoxes ('That is more parts than the boxes hold — join two back together.') for 1616."
+    },
+    {
+      "key": "copied",
+      "problem": "IT CAN BE A LIE. _copyList (1783-1798) does navigator.clipboard.writeText(url).then(done, done) — done() runs on FAILURE as well as success — and the non-clipboard fallback path calls done() with nothing copied at all. In both cases the teacher reads 'Copied' and her clipboard is empty. Second defect, in the sibling key: copyList says 'Copy my list' but the payload is a URL (line 1788), so she expects a word list and gets a very long link.",
+      "correction": "Name the artefact — 'Copy a link to my list' — and either implement a real fallback (select the URL in a field) or use a message that does not assert success on the failure branch."
+    },
+    {
+      "key": "printNote",
+      "problem": "INSTRUCTS A MOVE THE SHEET DOES NOT HAVE. Line 1902 uses printNote for BOTH the 'cards' and the 'strip' sheet, but _printCard builds a back only when kind !== 'strip' (line 1941). The wall strip has no back and therefore nothing to fold, yet it prints 'Fold along the dotted line.' This is the recorded hint-instructing-a-refused-move defect in a third dress.",
+      "correction": "Add a sheetStripNote ('Cut along the dashed line and pin the strip up. The heart marks the part we learn by heart.'), or scope the fold explicitly to the cards so it reads as a statement about cards rather than an order the strip cannot obey."
+    },
+    {
+      "key": "myWordsHint",
+      "problem": "THREE problems in one paragraph. (a) 'We have guessed' is past tense, but the hint is the FIRST thing in the panel (line 1506-1508) and at that moment nothing has been typed and nothing has been guessed. (b) It tells her to 'fix the breaks' and 'tap the part', but the seam row and the heart preview only exist once this._draft is set (line 1533) — on first sight it describes controls that are not on screen. (c) Its final clause is heartHint VERBATIM, and heartHint sits as the label directly above the very control it describes (line 1632). The paragraph pre-empts its own label.",
+      "correction": "Lead with the step she can actually take, in the future tense, and stop before the heart: 'Type your words below and we will divide them into sounds. Say each word slowly and fix the breaks.' Let heartHint own the heart."
+    },
+    {
+      "key": "seamHint",
+      "problem": "REUSED AS AN ARIA-LABEL FOR EVERY SEAM BUTTON. Line 1611 sets aria-label = t('seamHint') on each of the N-1 gaps, so a screen-reader user hears the identical name 'Tap between the letters to join or split them' N-1 times with no way to tell WHICH gap is focused — while aria-pressed faithfully reports a state she cannot locate. It is also an instruction, not a name, and 'tap' is false for a keyboard user.",
+      "correction": "Keep this string as the visible paragraph, and give the buttons a distinct, indexed label — 'Between g and u' — built from the two letters the seam sits between."
+    },
+    {
+      "key": "writePrompt",
+      "problem": "'BRING IT BACK' NAMES NO CONTROL, and this is child-facing text for 5-7 year olds that is also read aloud to assistive tech (api.announce, line 829). Nothing is brought back: the child writes on PAPER and the only control on that face says 'Show the word' (line 1036). The prompt also never names the comparison, which is the whole pedagogical point of the write face and the tool's own no-verdict law ('the CHILD does the comparing', line 1026).",
+      "correction": "Name the paper and name the comparison: 'Write the word on your paper. Then show the word and compare it with yours.'"
+    },
+    {
+      "key": "homeNote",
+      "problem": "THE CHILD IS NOT TOLD WHICH WORD TO WRITE. On the take-home sheet blank = true (line 1927), so the front prints empty boxes and an open heart — correct — but the word itself then appears NOWHERE except inside the sentence on the back (line 1944). For the Spanish bank that is often unusable: the card for 'el' with a tilde carries the sentence 'Ese cuaderno es de Ana; el trajo el suyo azul', which contains the accented and unaccented forms both, and the child cannot tell which one she is being asked to write. The instruction is correct about the mechanics and silent about the target.",
+      "correction": "Print the word plainly on the back of the home card (it is a fold-over, so it is a self-check), or print it once above the empty boxes."
+    },
+    {
+      "key": "workedExample",
+      "problem": "THE WEAKEST POSSIBLE DEMONSTRATION, and for es simply the wrong language. (a) In en, segment('one') returns o|n|e — three boxes — and the string says the mouth says three sounds. The COUNT AGREES; only the alignment is wrong, which is exactly the subtlety a hurried teacher will miss. A worked FAILURE should fail visibly. (b) /u/ is not the vowel of 'one' (/w-uh-n/); writing /u/ invites 'oo'. (c) In es the sentence shows an ENGLISH word split by GRAPHEME_INVENTORY.es, which does not contain a single grapheme of it — the example demonstrates nothing about the machine the Spanish teacher is actually looking at.",
+      "correction": "For en, choose a word where the box count itself is wrong. For es we have substituted a live Spanish failure — see notes."
+    },
+    {
+      "key": "needHeart",
+      "problem": "UNREACHABLE FROM ONE OF ITS TWO CALL SITES, and the two controls disagree about how to refuse. save.disabled = !d.heart.length (line 1730), so a disabled button never fires its handler and the needHeart branch at line 1732 is dead. Only 'Show on the board' (1712) can raise it — and that button stays LIVE and then refuses on click. Same precondition, two opposite affordances, in one row of two buttons.",
+      "correction": "Pick one. Either disable both and let the label of the disabled control carry the reason, or leave both live and let needHeart explain. The string itself is fine."
+    },
+    {
+      "key": "capReached",
+      "problem": "SILENTLY DISCARDS THE REST OF THE PASTE. Line 1569 sets the notice and then BREAKS out of the loop, so if a teacher pastes thirty words into a list with room for four, twenty-six vanish with no record. The message reports the state of the list and says nothing about the words she just lost.",
+      "correction": "Say what happened to them: 'The list is full, so the rest were not added. Remove a word to make room.'"
+    },
+    {
+      "key": "gateSave",
+      "problem": "LITERALLY UNTRUE AS WRITTEN. Drafts are written to localStorage by _saveStore() at lines 1576, 1621 and 1658, so a free teacher's own words ARE kept and DO survive a reload. What Premium buys is not 'keeping' but the finished list becoming a teachable shelf (wordsForShelf returns customWords(), which reads store.custom only, line 313 / 282-283). Overstating a gate is the one marketing error a teacher can personally disprove in ten seconds.",
+      "correction": "'Your finished word list is part of Premium — building words is always free.' Same promise, and it survives being checked."
+    },
+    {
+      "key": "deviceOnly",
+      "problem": "SHOWN TO THE ONLY PEOPLE WHO DO NOT NEED IT. Line 1545 renders it only if (saved.length) — that is, only to a teacher who has already paid and saved. The FREE teacher's drafts sit in exactly the same localStorage, are exactly as losable, and she is never told.",
+      "correction": "Render it whenever there is anything in the store at all — drafts or saved."
+    },
+    {
+      "key": "sentenceOpt",
+      "problem": "OMITS THE ONLY CONSTRAINT IT HAS. si.maxLength = 90 (line 1685) and the deep-link path slices at 90 as well (line 644). The label offers a free-text sentence and mentions that it may be left empty, but not that it will stop accepting characters partway through a long one — which reads as a broken keyboard.",
+      "correction": "Either raise the cap or say so: 'A short sentence for this word (you can leave this empty).'"
+    }
+  ],
+
+  "strings": {
+    "heartLegend": "El corazón marca la parte que aprendemos de memoria.",
+    "writeIt": "Ahora escríbela",
+    "writePrompt": "Escribe la palabra en tu hoja. Luego muéstrala aquí y compárala con la tuya.",
+    "showWord": "Mostrar la palabra",
+    "bigWord": "En grande",
+    "bigWordLeave": "Tamaño normal",
+
+    "deskWords": "Palabras",
+    "deskMine": "Mis palabras",
+    "deskPrint": "Imprimir",
+    "deskBack": "Volver a la pizarra",
+    "searchWords": "Buscar una palabra",
+    "searchNone": "No hay ninguna palabra que coincida.",
+    "teacherNote": "Por qué engaña esta palabra",
+    "teachShelf": "Trabajar este estante",
+
+    "myWordsHint": "Escribe abajo tus palabras y las dividiremos en sonidos. Di cada palabra despacio y ajusta los cortes donde haga falta.",
+    "workedExample": "Cortamos «gusano» como gu-s-a-n-o: damos por hecho que la u es muda. Aquí no lo es, y tu boca dice /g/ y después /u/.",
+    "pasteHint": "Una palabra por línea",
+    "addWords": "Agregar",
+    "seamHint": "Toca entre dos letras para separarlas o volver a juntarlas.",
+    "heartHint": "Toca la parte que tu clase debe aprender de memoria.",
+    "sentenceOpt": "Una oración corta para esta palabra (puedes dejarla vacía)",
+    "saveWord": "Guardar esta palabra",
+    "showOnBoard": "Llevar a la pizarra",
+    "deleteWord": "Quitar",
+    "myWordsShelf": "Mis palabras",
+    "myWordMark": "una palabra tuya",
+
+    "needHeart": "Marca primero una parte de memoria: eso es lo que la convierte en una palabra con corazón.",
+    "tooManyHearts": "El corazón es para una parte, o dos si la palabra es larga. El resto es justo lo que sí se puede leer.",
+    "looksDecodable": "Esta palabra parece que se puede leer sonido a sonido; tal vez le vaya mejor en",
+    "tooLong": "Esa palabra no se puede dividir en estas cajas.",
+    "duplicateSkip": "Esa palabra ya está aquí.",
+    "capReached": "La lista está llena. Quita una palabra para agregar otra.",
+    "copyList": "Copiar el enlace de mi lista",
+    "copied": "¡Enlace copiado! Pégalo donde guardes tus enlaces.",
+    "deviceOnly": "Tus palabras se guardan solo en este navegador y en este dispositivo.",
+    "gateSave": "Guardar tu propia lista es parte de Premium: crearla siempre es gratis.",
+
+    "sheetCards": "Tarjetas plegables",
+    "sheetStrip": "Tira de pared",
+    "sheetHome": "Hoja para casa",
+    "scopeShelf": "Este estante",
+    "scopeMine": "Mis palabras",
+    "printNote": "Corta por la línea discontinua y dobla las tarjetas por la línea de puntos. El corazón marca la parte que aprendemos de memoria.",
+    "homeNote": "Escribe la palabra en las cajas vacías y luego colorea el corazón."
+  },
+
+  "notes": "THE workedExample RULING — SUBSTITUTED, and the substitute is a real failure of this tool's own Spanish segmenter. Keeping «one» would have shown a Spanish teacher an English word chopped up by GRAPHEME_INVENTORY.es, which contains not one grapheme of it. We ran segment() over the es inventory ['ch','ll','rr','qu','gu','ñ','á','é','í','ó','ú','gü'] and found the machine's real Spanish blind spot: it is greedy and it does not know that the mute u after g only exists before e and i. segment('gusano') returns gu|s|a|n|o — FIVE boxes — while the mouth says /g/ /u/ /s/ /a/ /n/ /o/, SIX sounds. The greedy 'gu' has swallowed a live vowel. (Same failure: aguja -> a|gu|j|a, gustar -> gu|s|t|a|r.) This is better than the English original on three counts: the box count is visibly wrong, not merely misaligned; the word is K-2 and a teacher might genuinely add it; and it fails on the exact rule the Spanish bank's fourth shelf teaches (la u muda tras q y g), so the worked failure and the curriculum reinforce each other. We also say WHY the machine erred — it over-applied a real rule — because a teacher who understands the failure will catch the next one, and a teacher who only sees it will not.\n\nCOLLISIONS ROUTED AROUND (checked against the shipped Spanish of sound-boxes.js, blending-board.js and letter-tiles.js, which is the quartet a teacher meets together). (1) 'tablero' is TAKEN twice over — letter-tiles calls its surface 'tablero libre' and blending-board is itself 'Tablero de sílabas'. This tool's board is therefore 'la pizarra' throughout (deskBack, showOnBoard), which is also what the shipped Spanish already used. (2) seamHint would have collided almost word for word: sound-boxes ships 'Toca entre las letras para separar o unir las cajas' for a control that edits BOXES, while this one edits where the SOUNDS break inside one word. We kept the gesture and changed the noun and the verb pair — 'Toca entre dos letras para separarlas o volver a juntarlas'. Two tools, two sentences, two meanings. (3) 'Usar ...' is the quartet's verb for ACTIVATE (Usar estas palabras / esta baraja / estas tarjetas), which is precisely why 'Use this word' on a SAVE button is a defect and why our saveWord is 'Guardar esta palabra'. The activate slot goes to showOnBoard, 'Llevar a la pizarra'. (4) 'Agregar' not 'Añadir': both siblings with a paste box ship 'Agregar palabras', and 'agregar' is the more neutral pan-Hispanic form. (5) copyList/copied follow the shipped sibling shape 'Copiar el enlace de esta palabra' / '¡Enlace copiado!', which as a bonus fixes the English key naming a list and copying a URL. (6) UNAVOIDABLE and left alone: sound-boxes offers 'Corazón' as a TOKEN SHAPE in its settings. This tool is called Palabras con corazón in all four tools' sibling footers, so the word is load-bearing here and cannot be routed around; the registers are far enough apart (a chip you place vs a seal that means 'learn by heart') that no teacher will confuse them.\n\nTHE PAID PLAN is 'Premium', spelled exactly that way, in all three siblings; gateSave copies their sentence shape too ('... son parte de Premium: ... siempre son gratis'). We invented no synonym.\n\nBANNED VOCABULARY. No form of correcto / incorrecto / error / equivocado appears. We also deliberately avoided the corregir family in myWordsHint and used 'ajusta los cortes' instead: 'corregir' is legal today but it sits one regex widening away from a false alarm, exactly like the quizá/quiz case in the brief — and 'ajustar' is what a teacher actually does to a break she disagrees with, so the safer word is also the truer one. 'Tal vez' for the same reason in looksDecodable. No counts, no placeholders, no score, timer, streak, level, badge or reward.\n\nlooksDecodable DELIBERATELY ENDS WITHOUT A FULL STOP. Line 1694 appends ' ' and then the link whose text is 'Cajas de sonidos', so our string is written to be COMPLETED by it: '... tal vez le vaya mejor en Cajas de sonidos'. That is the fix for the doubled tool name, and it means this one string is the only one in the set that must not be given a closing period by a later tidy-up.\n\nSHIPPED-es SLIP FIXED IN PASSING: the current sentenceOpt reads 'puedes dejarlo vacío' with masculine agreement while the antecedent is 'una oración', feminine. Ours is 'puedes dejarla vacía'. We also folded in the maxLength=90 finding by saying 'una oración corta'.\n\nWHERE WE DISAGREED. Two, both settled, both recorded honestly. (a) tooManyHearts: our linguist wanted the cap stated numerically, since min(2, floor(n/2)) means the true limit changes with the word and any prose is an approximation. The teacher refused a number on a phonics desk and argued that 'una parte, o dos si la palabra es larga' is what she would say to a colleague, is true at every n, and carries the reason in its second clause. The teacher won; the linguist's objection stands on record — for a 2-box word the cap is 1, and 'dos si la palabra es larga' is correctly silent about that rather than wrong about it. (b) showOnBoard: the marketing writer preferred the literal 'Mostrar en la pizarra' as the shipped and safest form; the teacher preferred 'Llevar a la pizarra' because 'llevar' is the verb she uses for taking a word to the front of the class, it is two characters shorter on a 320px button, and it puts a clear distance between this FREE control and the paid 'Guardar esta palabra' beside it. The teacher won on the grounds that the two buttons in that row have been confusable in English and the Spanish should not repeat it.\n\nWE READ IT BACK ALOUD. Two lines were changed on the second pass: writePrompt lost a third 'palabra' (it had three in one breath and a six-year-old loses the thread), and workedExample gained the 'y' before 'tu boca dice', because without it the two clauses collide and the sentence has to be re-read — which is the one thing a permanently-displayed worked failure cannot afford."
+}

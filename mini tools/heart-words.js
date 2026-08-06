@@ -82,7 +82,7 @@ var HeartWords = {
     /* the heart moment */
     heartLine:    {en:'This part we learn by heart.',de:'Diesen Teil merken wir uns.',fr:'Cette partie, on la retient par cœur.',it:'Questa parte la impariamo a memoria.',es:'Esta parte la aprendemos de memoria.',pt:'Esta parte a gente guarda de cor.',nl:'Dit stukje leren we uit ons hoofd.',sv:'Den här delen lär vi oss utantill.',da:'Den her del lærer vi udenad.',no:'Denne delen lærer vi utenat.'},
     wordKnown:    {en:'We know {word} by heart now.',de:'Jetzt kennen wir {word} auswendig.',fr:'Maintenant, on connaît {word} par cœur.',it:'Ora sappiamo {word} a memoria.',es:'Ya nos sabemos {word} de memoria.',pt:'Agora a gente sabe {word} de cor.',nl:'Nu kennen we {word} uit ons hoofd.',sv:'Nu kan vi {word} utantill.',da:'Nu kan vi {word} udenad.',no:'Nå kan vi {word} utenat.'},
-    heartLegend:  {en:'The heart marks the part we learn by heart.',de:'Das Herz zeigt den Teil, den wir uns merken.',fr:'Le cœur montre la partie qui se retient par cœur.',it:'Il cuore indica la parte da imparare a memoria.',es:'El corazón señala la parte que aprendemos de memoria.',pt:'O coração mostra a parte que guardamos de cor.',nl:'Het hartje wijst het stukje aan dat je uit je hoofd leert.',sv:'Hjärtat visar delen vi lär oss utantill.',da:'Hjertet viser den del, vi lærer udenad.',no:'Hjertet viser delen vi lærer utenat.'},
+    heartLegend:  {en:'The heart marks the part we learn by heart.',de:'Das Herz zeigt den Teil, den wir uns merken.',fr:'Le cœur montre la partie qu’on apprend par cœur.',it:'Il cuore segna la parte che impariamo a memoria.',es:'El corazón marca la parte que aprendemos de memoria.',pt:'O coração marca a parte que a gente guarda de cor.',nl:'Het hartje staat bij het stukje dat je uit je hoofd leert.',sv:'Hjärtat visar delen vi lär oss utantill.',da:'Hjertet sidder på den del, vi lærer udenad.',no:'Hjertet viser hvilken del vi må kunne utenat.'},
     stateMapped:  {en:'marked',de:'markiert',fr:'marquée',it:'segnata',es:'marcada',pt:'marcada',nl:'gemarkeerd',sv:'markerad',da:'markeret',no:'markert'},
     boxOf:        {en:'Part {i} of {n}',de:'Teil {i} von {n}',fr:'Partie {i} sur {n}',it:'Parte {i} di {n}',es:'Parte {i} de {n}',pt:'Parte {i} de {n}',nl:'Vakje {i} van {n}',sv:'Del {i} av {n}',da:'Del {i} af {n}',no:'Del {i} av {n}'},
     heartPart:    {en:'a part to learn by heart',de:'ein Teil, den wir uns merken',fr:'une partie à retenir par cœur',it:'una parte da imparare a memoria',es:'una parte para aprender de memoria',pt:'uma parte para guardar de cor',nl:'een stukje om uit je hoofd te leren',sv:'en del att lära sig utantill',da:'en del at lære udenad',no:'en del å lære utenat'},
@@ -96,13 +96,13 @@ var HeartWords = {
     nextWord:     {en:'Next word',de:'Nächstes Wort',fr:'Mot suivant',it:'Parola successiva',es:'Palabra siguiente',pt:'Próxima palavra',nl:'Volgend woord',sv:'Nästa ord',da:'Næste ord',no:'Neste ord'},
 
     /* THE WRITE FACE — the routine's ending */
-    writeIt:      {en:'Now write it',de:'Jetzt schreiben',fr:'Maintenant, écris-le',it:'Adesso scrivila',es:'Ahora escríbela',pt:'Agora escreva',nl:'Schrijf het nu',sv:'Skriv det nu',da:'Skriv det nu',no:'Skriv det nå'},
-    writePrompt:  {en:'Write the word, then bring it back and look.',de:'Schreibt das Wort, holt es zurück und schaut nach.',fr:'Écris le mot, puis fais-le revenir et regarde.',it:'Scrivete la parola, poi fatela tornare e guardate.',es:'Escribe la palabra, luego hazla volver y mira.',pt:'Escrevam a palavra, depois tragam de volta e olhem.',nl:'Schrijf het woord, haal het dan terug en kijk.',sv:'Skriv ordet, ta sedan tillbaka det och titta.',da:'Skriv ordet, hent det så tilbage og se efter.',no:'Skriv ordet, hent det så tilbake og se etter.'},
+    writeIt:      {en:'Now write it',de:'Jetzt schreiben',fr:'À toi d’écrire',it:'Adesso scrivila',es:'Ahora escríbela',pt:'Agora escreva',nl:'Schrijf het op',sv:'Skriv ordet',da:'Skriv det selv',no:'Nå skriver du'},
+    writePrompt:  {en:'Write the word, then show it again and compare.',de:'Schreibt das Wort auf. Danach zeigen wir das Wort wieder – schaut dann ganz genau hin.',fr:'Écris le mot de mémoire, puis montre le mot et compare.',it:'Scrivi la parola sul foglio. Poi mostra la parola e confrontala con la tua.',es:'Escribe la palabra en tu hoja. Luego muéstrala aquí y compárala con la tuya.',pt:'Escreva a palavra no papel. Depois mostre a palavra e compare com a sua.',nl:'Schrijf het woord op. Laat het daarna zien en kijk goed.',sv:'Skriv ordet. Visa det sedan och titta noga.',da:'Skriv ordet først. Tryk så på Vis ordet, og kig på dit eget.',no:'Skriv ordet først. Trykk så på Vis ordet, og se på ditt eget.'},
     showWord:     {en:'Show the word',de:'Wort zeigen',fr:'Montrer le mot',it:'Mostra la parola',es:'Mostrar la palabra',pt:'Mostrar a palavra',nl:'Laat het woord zien',sv:'Visa ordet',da:'Vis ordet',no:'Vis ordet'},
 
     /* board tools */
-    bigWord:      {en:'Big word',de:'Großes Wort',fr:'En grand',it:'Parola grande',es:'Palabra grande',pt:'Palavra grande',nl:'Groot woord',sv:'Stort ord',da:'Stort ord',no:'Stort ord'},
-    bigWordLeave: {en:'Smaller again',de:'Wieder kleiner',fr:'Revenir en petit',it:'Torna piccola',es:'Volver al tamaño normal',pt:'Voltar ao tamanho normal',nl:'Weer kleiner',sv:'Mindre igen',da:'Mindre igen',no:'Mindre igjen'},
+    bigWord:      {en:'Big word',de:'Groß zeigen',fr:'En grand',it:'Più grande',es:'En grande',pt:'Maior',nl:'Groot woord',sv:'Stort ord',da:'Vis stort',no:'Forstørr ordet'},
+    bigWordLeave: {en:'Smaller again',de:'Wieder klein',fr:'En plus petit',it:'Più piccola',es:'Tamaño normal',pt:'Menor',nl:'Weer kleiner',sv:'Mindre igen',da:'Vis mindre',no:'Mindre igjen'},
     bookshelf:    {en:'Words we know by heart',de:'Wörter, die wir auswendig kennen',fr:'Les mots qu’on connaît par cœur',it:'Le parole che sappiamo a memoria',es:'Palabras que sabemos de memoria',pt:'Palavras que sabemos de cor',nl:'Woorden die we uit ons hoofd kennen',sv:'Ord vi kan utantill',da:'Ord, vi kan udenad',no:'Ord vi kan utenat'},
     bookEmpty:    {en:'Your shelf fills up as you map words.',de:'Das Regal füllt sich, während ihr Wörter markiert.',fr:'L’étagère se remplit à mesure que vous marquez des mots.',it:'Lo scaffale si riempie man mano che segnate le parole.',es:'El estante se llena a medida que se marcan palabras.',pt:'A prateleira vai enchendo quando vocês marcam palavras.',nl:'De plank raakt voller terwijl jullie woorden markeren.',sv:'Hyllan fylls medan ni markerar ord.',da:'Hylden fyldes op, efterhånden som I markerer ord.',no:'Hylla fylles opp mens dere markerer ord.'},
     ringStart:    {en:'Visit words again',de:'Wörter noch einmal ansehen',fr:'Revoir des mots',it:'Rivedi le parole',es:'Volver a ver palabras',pt:'Ver as palavras de novo',nl:'Woorden opnieuw bekijken',sv:'Titta på ord igen',da:'Se ordene igen',no:'Besøk ord igjen'},
@@ -111,54 +111,75 @@ var HeartWords = {
 
     /* ---- THE DESK (adult-facing) ---- */
     shelfPick:    {en:'Word shelves',de:'Wortregale',fr:'Étagères de mots',it:'Scaffali di parole',es:'Estantes de palabras',pt:'Prateleiras de palavras',nl:'Woordplanken',sv:'Ordhyllor',da:'Ordhylder',no:'Ordhyller'},
-    deskWords:    {en:'Words',de:'Wörter',fr:'Mots',it:'Parole',es:'Palabras',pt:'Palavras',nl:'Woorden',sv:'Ord',da:'Ord',no:'Ord'},
+    deskWords:    {en:'Words',de:'Wörter',fr:'Mots',it:'Parole',es:'Palabras',pt:'Palavras',nl:'Woorden',sv:'Ord',da:'Ordene',no:'Ordbanken'},
     deskMine:     {en:'My words',de:'Meine Wörter',fr:'Mes mots',it:'Le mie parole',es:'Mis palabras',pt:'Minhas palavras',nl:'Mijn woorden',sv:'Mina ord',da:'Mine ord',no:'Mine ord'},
-    deskPrint:    {en:'Print',de:'Drucken',fr:'Imprimer',it:'Stampa',es:'Imprimir',pt:'Imprimir',nl:'Afdrukken',sv:'Skriv ut',da:'Print',no:'Skriv ut'},
-    deskBack:     {en:'Back to the board',de:'Zurück zur Tafel',fr:'Retour au tableau',it:'Torna alla lavagna',es:'Volver a la pizarra',pt:'Voltar ao quadro',nl:'Terug naar het bord',sv:'Tillbaka till tavlan',da:'Tilbage til tavlen',no:'Tilbake til tavla'},
+    deskPrint:    {en:'Print',de:'Drucken',fr:'Imprimer',it:'Stampa',es:'Imprimir',pt:'Imprimir',nl:'Afdrukken',sv:'Skriv ut',da:'Print',no:'Utskrift'},
+    deskBack:     {en:'Back to the board',de:'Zurück zur Klasse',fr:'Retour au tableau',it:'Torna alla classe',es:'Volver a la pizarra',pt:'Voltar para a turma',nl:'Terug naar het bord',sv:'Tillbaka till tavlan',da:'Tilbage til tavlen',no:'Tilbake til tavla'},
     searchWords:  {en:'Find a word',de:'Wort suchen',fr:'Chercher un mot',it:'Cerca una parola',es:'Buscar una palabra',pt:'Procurar uma palavra',nl:'Zoek een woord',sv:'Hitta ett ord',da:'Find et ord',no:'Finn et ord'},
-    searchNone:   {en:'Nothing here matches that.',de:'Dazu passt hier nichts.',fr:'Rien ne correspond ici.',it:'Qui non c’è nulla che corrisponda.',es:'Aquí no hay nada que coincida.',pt:'Aqui não há nada que corresponda.',nl:'Hier past niets bij.',sv:'Inget här stämmer med det.',da:'Der er ikke noget her, der passer.',no:'Ingenting her passer med det.'},
-    teacherNote:  {en:'Why this one is tricky',de:'Warum dieses Wort knifflig ist',fr:'Pourquoi ce mot est piégeux',it:'Perché questa parola è insidiosa',es:'Por qué esta palabra es engañosa',pt:'Por que esta palavra engana',nl:'Waarom dit woord lastig is',sv:'Varför det här ordet lurar',da:'Hvorfor det her ord snyder',no:'Hvorfor dette ordet lurer'},
-    teachShelf:   {en:'Teach this shelf',de:'Dieses Regal nehmen',fr:'Travailler cette étagère',it:'Usa questo scaffale',es:'Trabajar este estante',pt:'Usar esta prateleira',nl:'Deze plank nemen',sv:'Arbeta med den här hyllan',da:'Arbejd med den her hylde',no:'Jobb med denne hylla'},
+    searchNone:   {en:'Nothing here matches that.',de:'Dazu gibt es hier kein Wort.',fr:'Aucun mot ne correspond.',it:'Nessuna parola con queste lettere.',es:'No hay ninguna palabra que coincida.',pt:'Nenhuma palavra com essas letras.',nl:'Op deze planken staat geen woord dat daarop lijkt.',sv:'Inget ord på dina hyllor stämmer med det.',da:'Ingen af ordene her passer til det.',no:'Ingen ord her ligner på det du skrev.'},
+    teacherNote:  {en:'Why this one is tricky',de:'Die Stolperstelle im Wort',fr:'Le piège de ce mot',it:'Dove inganna',es:'Por qué engaña esta palabra',pt:'Onde ela engana',nl:'Waarom dit woord lastig is',sv:'Varför det här ordet lurar',da:'Derfor snyder det her ord',no:'Derfor er dette ordet vanskelig'},
+    teachShelf:   {en:'Teach this shelf',de:'Regal der Klasse zeigen',fr:'Travailler cette étagère',it:'Usa questo scaffale',es:'Trabajar este estante',pt:'Usar esta prateleira',nl:'Deze plank gebruiken',sv:'Använd den här hyllan',da:'Tag den her hylde',no:'Ta denne hylla'},
     shelfClose:   {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk'},
 
     /* ---- THE CUSTOM-WORD EDITOR (adult-facing) ---- */
-    myWordsHint:  {en:'We have guessed where the sounds break. Say the word slowly and fix the breaks — then tap the part your class must learn by heart.',de:'Wir haben geraten, wo die Laute getrennt werden. Sprecht das Wort langsam und korrigiert die Trennungen – tippt dann den Teil an, den eure Klasse auswendig lernen soll.',fr:'Nous avons deviné où les sons se séparent. Dis le mot lentement et corrige les coupures, puis touche la partie que ta classe doit retenir par cœur.',it:'Abbiamo indovinato dove si separano i suoni. Di’ la parola lentamente e correggi le divisioni, poi tocca la parte che la classe deve imparare a memoria.',es:'Hemos adivinado dónde se separan los sonidos. Di la palabra despacio y corrige los cortes; luego toca la parte que tu clase debe aprender de memoria.',pt:'Nós adivinhamos onde os sons se separam. Diga a palavra devagar e corrija as divisões — depois toque na parte que a turma precisa guardar de cor.',nl:'Wij hebben geraden waar de klanken splitsen. Zeg het woord langzaam en verbeter de splitsingen – tik daarna het stukje aan dat je klas uit het hoofd moet leren.',sv:'Vi har gissat var ljuden delas. Säg ordet långsamt och rätta delningarna – tryck sedan på den del som klassen ska lära sig utantill.',da:'Vi har gættet, hvor lydene deles. Sig ordet langsomt, og ret delingerne – tryk så på den del, klassen skal lære udenad.',no:'Vi har gjettet hvor lydene deles. Si ordet langsomt og rett delingene – trykk så på den delen klassen skal lære utenat.'},
-    workedExample:{en:'We will break “one” as o-n-e. Your mouth says /w/ + /u/ + /n/.',de:'Wir trennen „one“ als o-n-e. Euer Mund sagt /w/ + /u/ + /n/.',fr:'Nous coupons « one » en o-n-e. Ta bouche dit /w/ + /u/ + /n/.',it:'Dividiamo « one » in o-n-e. La bocca dice /w/ + /u/ + /n/.',es:'Cortamos « one » como o-n-e. Tu boca dice /w/ + /u/ + /n/.',pt:'Dividimos « one » como o-n-e. Sua boca diz /w/ + /u/ + /n/.',nl:'Wij splitsen « one » als o-n-e. Je mond zegt /w/ + /u/ + /n/.',sv:'Vi delar « one » som o-n-e. Munnen säger /w/ + /u/ + /n/.',da:'Vi deler « one » som o-n-e. Munden siger /w/ + /u/ + /n/.',no:'Vi deler « one » som o-n-e. Munnen sier /w/ + /u/ + /n/.'},
-    pasteHint:    {en:'One word per line',de:'Ein Wort pro Zeile',fr:'Un mot par ligne',it:'Una parola per riga',es:'Una palabra por línea',pt:'Uma palavra por linha',nl:'Eén woord per regel',sv:'Ett ord per rad',da:'Ét ord per linje',no:'Ett ord per linje'},
-    addWords:     {en:'Add',de:'Hinzufügen',fr:'Ajouter',it:'Aggiungi',es:'Añadir',pt:'Adicionar',nl:'Toevoegen',sv:'Lägg till',da:'Tilføj',no:'Legg til'},
-    seamHint:     {en:'Tap between the letters to join or split them.',de:'Tippt zwischen die Buchstaben, um sie zu verbinden oder zu trennen.',fr:'Touche entre les lettres pour les joindre ou les séparer.',it:'Tocca tra le lettere per unirle o dividerle.',es:'Toca entre las letras para unirlas o separarlas.',pt:'Toque entre as letras para juntá-las ou separá-las.',nl:'Tik tussen de letters om ze samen te voegen of te splitsen.',sv:'Tryck mellan bokstäverna för att slå ihop eller dela dem.',da:'Tryk mellem bogstaverne for at samle eller dele dem.',no:'Trykk mellom bokstavene for å slå sammen eller dele dem.'},
-    heartHint:    {en:'Tap the part your class must learn by heart.',de:'Tippt den Teil an, den eure Klasse auswendig lernen soll.',fr:'Touche la partie que ta classe doit retenir par cœur.',it:'Tocca la parte che la classe deve imparare a memoria.',es:'Toca la parte que tu clase debe aprender de memoria.',pt:'Toque na parte que a turma precisa guardar de cor.',nl:'Tik het stukje aan dat je klas uit het hoofd moet leren.',sv:'Tryck på den del som klassen ska lära sig utantill.',da:'Tryk på den del, klassen skal lære udenad.',no:'Trykk på den delen klassen skal lære utenat.'},
-    sentenceOpt:  {en:'A sentence for this word (you can leave this empty)',de:'Ein Satz zu diesem Wort (kann leer bleiben)',fr:'Une phrase pour ce mot (tu peux laisser vide)',it:'Una frase per questa parola (puoi lasciarla vuota)',es:'Una oración para esta palabra (puedes dejarlo vacío)',pt:'Uma frase para esta palavra (pode deixar em branco)',nl:'Een zin bij dit woord (mag leeg blijven)',sv:'En mening till ordet (kan lämnas tom)',da:'En sætning til ordet (må gerne stå tom)',no:'En setning til ordet (kan stå tom)'},
-    saveWord:     {en:'Use this word',de:'Dieses Wort verwenden',fr:'Utiliser ce mot',it:'Usa questa parola',es:'Usar esta palabra',pt:'Usar esta palavra',nl:'Dit woord gebruiken',sv:'Använd det här ordet',da:'Brug det her ord',no:'Bruk dette ordet'},
-    showOnBoard:  {en:'Show on the board',de:'An der Tafel zeigen',fr:'Montrer au tableau',it:'Mostra sulla lavagna',es:'Mostrar en la pizarra',pt:'Mostrar no quadro',nl:'Op het bord tonen',sv:'Visa på tavlan',da:'Vis på tavlen',no:'Vis på tavla'},
-    deleteWord:   {en:'Remove',de:'Entfernen',fr:'Retirer',it:'Rimuovi',es:'Quitar',pt:'Remover',nl:'Verwijderen',sv:'Ta bort',da:'Fjern',no:'Fjern'},
+    myWordsHint:  {en:'Type your words below, one per line. The tool will guess where the sounds break — say each word slowly, fix the breaks, then mark the part your class must learn by heart.',de:'Sobald Sie ein Wort eintragen, raten wir, wo es in seine Laute zerfällt. Sprechen Sie es langsam mit und passen Sie die Trennstellen an – tippen Sie dann auf den Teil, den sich Ihre Klasse merken muss.',fr:'Écrivez vos mots ci-dessous, un par ligne. L’outil propose une découpe : dites le mot lentement, déplacez les coupures, puis marquez la partie que votre classe apprendra par cœur.',it:'Le divisioni dei suoni le abbiamo indovinate noi. Di’ la parola piano piano e sistemale, poi tocca la parte che la classe deve imparare a memoria.',es:'Escribe abajo tus palabras y las dividiremos en sonidos. Di cada palabra despacio y ajusta los cortes donde haga falta.',pt:'As divisões dos sons quem chutou fomos nós. Diga a palavra bem devagar e ajuste as divisões — depois toque na parte que a turma precisa guardar de cor.',nl:'Elk woord dat je toevoegt, splitsen wij alvast in klanken. Zeg het woord langzaam en pas de splitsing aan waar je mond iets anders doet.',sv:'Varje ord du lägger till delar vi upp i ljud åt dig. Säg ordet långsamt och ändra delningen där munnen gör något annat.',da:'Vi har gættet, hvor lydene deles. Sig ordet langsomt, og flyt delingerne derhen, hvor de hører til – gør det først, for flytter du en deling bagefter, forsvinder hjertet. Tryk så på den del, klassen skal lære udenad.',no:'Vi har gjettet hvor lydene deles. Si ordet sakte og flytt delingene dit de hører hjemme – gjør det først, for flytter du en deling etterpå, forsvinner hjertet. Trykk så på delen klassen skal kunne utenat.'},
+    /* ⚠ "THE TOOL will break", not "we". The whole design rests on the
+       asymmetry that the MACHINE proposes and the TEACHER publishes, and
+       "we" quietly makes her a co-author of the machine's failure. And the
+       vowel of `one` is /ʌ/, not /u/ — a phonetics tool mis-transcribing a
+       vowel in its own worked example. Both found by native panels reading
+       the code; several substituted a word that breaks their OWN
+       segmenter, which is stronger still. */
+    workedExample:{en:'The tool will break “one” as o-n-e. Your mouth says /w/ + /ʌ/ + /n/.',de:'Bei „Häuschen“ schlagen wir h-äu-sch-e-n vor. Der Mund sagt hier aber erst s und dann ch.',fr:'L’outil coupera « femme » en f-em-m-e. Votre bouche, elle, dit /f/ + /a/ + /m/.',it:'Dividiamo «quando» in q-u-a-n-d-o. La bocca invece fa un suono solo con q-u: /kw/.',es:'Cortamos «gusano» como gu-s-a-n-o: damos por hecho que la u es muda. Aquí no lo es, y tu boca dice /g/ y después /u/.',pt:'Dividimos “nascer” como n-a-s-c-e-r. Mas a boca faz um som só no s-c: /s/.',nl:'Van ‘sjaal’ maken wij s-j-aa-l. Maar de s en de j zijn samen één klank.',sv:'Av ”kanske” gör vi k-a-n-s-k-e. Men s och k blir ett enda sje-ljud.',da:'Vi deler »have« som h-av-e. Munden siger /h/ + /a/ + /v/ + /e/.',no:'Vi deler «ski» som s-k-i. Munnen sier /sj/ + /i/.'},
+    pasteHint:    {en:'One word per line',de:'Ein Wort pro Zeile',fr:'Un mot par ligne',it:'Una parola per riga',es:'Una palabra por línea',pt:'Uma palavra por linha',nl:'Eén woord per regel',sv:'Ett ord per rad',da:'Ét hjerteord pr. linje',no:'Ett hjerteord per linje'},
+    addWords:     {en:'Add',de:'Hinzufügen',fr:'Ajouter',it:'Aggiungi',es:'Agregar',pt:'Adicionar',nl:'Toevoegen',sv:'Lägg till',da:'Tilføj',no:'Legg til'},
+    seamHint:     {en:'Tap between the letters to join or split them.',de:'Tippen Sie zwischen zwei Buchstaben, um sie zu trennen oder zu verbinden.',fr:'Touchez entre deux lettres pour les réunir ou les séparer.',it:'Tocca tra le lettere per unirle o dividerle.',es:'Toca entre dos letras para separarlas o volver a juntarlas.',pt:'Toque entre as letras para juntar ou separar.',nl:'Tik tussen de letters om ze samen te voegen of te splitsen.',sv:'Tryck mellan bokstäverna för att slå ihop eller dela dem.',da:'Tryk mellem bogstaverne for at dele dem eller samle dem.',no:'Trykk mellom bokstavene for å skille dem eller sette dem sammen.'},
+    heartHint:    {en:'Tap the part your class must learn by heart.',de:'Tippen Sie auf den Teil, den sich Ihre Klasse merken muss.',fr:'Marquez la partie que votre classe devra apprendre par cœur.',it:'Tocca la parte che la classe deve imparare a memoria.',es:'Toca la parte que tu clase debe aprender de memoria.',pt:'Toque na parte que a turma precisa guardar de cor.',nl:'Tik het stukje aan dat je klas uit het hoofd moet leren.',sv:'Tryck på den del som klassen ska lära sig utantill.',da:'Tryk på den del, der skal læres udenad.',no:'Trykk på delen som skal kunne utenat.'},
+    sentenceOpt:  {en:'A sentence for this word (you can leave this empty)',de:'Ein Satz zu diesem Wort (kann auch leer bleiben)',fr:'Une phrase avec ce mot (facultatif)',it:'Una frase con questa parola (puoi lasciarla vuota)',es:'Una oración corta para esta palabra (puedes dejarla vacía)',pt:'Uma frase com esta palavra (pode deixar em branco)',nl:'Een zin bij dit woord (mag leeg blijven)',sv:'En mening till ordet (kan lämnas tom)',da:'En sætning til ordet (må gerne stå tom)',no:'En setning til ordet (kan stå tom)'},
+    saveWord:     {en:'Keep this word',de:'Dieses Wort verwenden',fr:'Garder ce mot',it:'Usa questa parola',es:'Guardar esta palabra',pt:'Usar esta palavra',nl:'Dit woord bewaren',sv:'Spara ordet',da:'Gem ordet',no:'Lagre ordet'},
+    showOnBoard:  {en:'Show on the board',de:'Der Klasse zeigen',fr:'Montrer au tableau',it:'Mostra alla classe',es:'Llevar a la pizarra',pt:'Mostrar para a turma',nl:'Op het bord tonen',sv:'Visa på tavlan',da:'Vis på tavlen',no:'Vis på tavla'},
+    deleteWord:   {en:'Remove',de:'Entfernen',fr:'Retirer',it:'Togli',es:'Quitar',pt:'Remover',nl:'Verwijderen',sv:'Ta bort',da:'Fjern',no:'Slett'},
     myWordsShelf: {en:'My words',de:'Meine Wörter',fr:'Mes mots',it:'Le mie parole',es:'Mis palabras',pt:'Minhas palavras',nl:'Mijn woorden',sv:'Mina ord',da:'Mine ord',no:'Mine ord'},
-    myWordMark:   {en:'your own word',de:'euer eigenes Wort',fr:'ton propre mot',it:'una vostra parola',es:'una palabra tuya',pt:'uma palavra sua',nl:'je eigen woord',sv:'ert eget ord',da:'jeres eget ord',no:'deres eget ord'},
-    needHeart:    {en:'Mark a part by heart first — that is what makes it a heart word.',de:'Markiert zuerst einen Teil zum Merken – erst das macht es zu einem Merkwort.',fr:'Marque d’abord une partie à retenir – c’est ce qui en fait un mot à cœur.',it:'Segnate prima una parte da imparare a memoria: è questo che ne fa una parola del cuore.',es:'Marca primero una parte de memoria: eso es lo que la hace una palabra con corazón.',pt:'Marque primeiro uma parte de cor — é isso que faz dela uma palavra de coração.',nl:'Markeer eerst een stukje uit het hoofd – dat maakt het pas een hartwoord.',sv:'Markera först en del att kunna utantill – det är det som gör det till ett hjärteord.',da:'Markér først en del udenad – det er dét, der gør det til et hjerteord.',no:'Markér først en del utenat – det er det som gjør det til et hjerteord.'},
-    tooManyHearts:{en:'If nearly all of it is a heart, the child learns the shape instead of the sounds.',de:'Wenn fast alles ein Herz trägt, lernt das Kind die Form statt der Laute.',fr:'Si presque tout porte un cœur, l’enfant apprend la forme au lieu des sons.',it:'Se quasi tutto è cuore, il bambino impara la forma invece dei suoni.',es:'Si casi todo lleva corazón, el niño aprende la forma en vez de los sonidos.',pt:'Se quase tudo tem coração, a criança aprende o formato em vez dos sons.',nl:'Als bijna alles een hartje krijgt, leert het kind de vorm in plaats van de klanken.',sv:'Om nästan allt är hjärta lär sig barnet formen i stället för ljuden.',da:'Hvis næsten alt er hjerte, lærer barnet formen i stedet for lydene.',no:'Hvis nesten alt er hjerte, lærer barnet formen i stedet for lydene.'},
-    looksDecodable:{en:'This one looks like it can be sounded out. Sound Boxes may suit it better.',de:'Dieses Wort lässt sich anscheinend erlesen. Die Lautboxen passen vielleicht besser.',fr:'Ce mot semble pouvoir se déchiffrer. Les boîtes à sons conviennent peut-être mieux.',it:'Questa parola sembra leggibile suono per suono. Le caselle dei suoni forse vanno meglio.',es:'Esta palabra parece que se puede leer sonido a sonido. Las cajas de sonidos quizá le vayan mejor.',pt:'Esta palavra parece dar para ler som a som. As caixas de sons talvez sirvam melhor.',nl:'Dit woord lijkt te verklanken. De klankdozen passen er misschien beter bij.',sv:'Det här ordet går nog att ljuda. Ljudrutorna passar kanske bättre.',da:'Det her ord kan vist lydes. Lydboksene passer måske bedre.',no:'Dette ordet kan nok lydes. Lydboksene passer kanskje bedre.'},
-    tooLong:      {en:'That one is too long for the boxes — try a shorter word.',de:'Das ist zu lang für die Boxen – nehmt ein kürzeres Wort.',fr:'Celui-là est trop long pour les cases – essaie un mot plus court.',it:'Questa è troppo lunga per le caselle: provate una parola più corta.',es:'Esa es demasiado larga para las cajas: prueba una palabra más corta.',pt:'Essa é comprida demais para as caixas — tentem uma palavra mais curta.',nl:'Dat woord is te lang voor de vakjes – probeer een korter woord.',sv:'Det ordet är för långt för rutorna – prova ett kortare ord.',da:'Det ord er for langt til boksene – prøv et kortere ord.',no:'Det ordet er for langt for boksene – prøv et kortere ord.'},
-    duplicateSkip:{en:'That word is already here.',de:'Dieses Wort ist schon da.',fr:'Ce mot est déjà là.',it:'Questa parola c’è già.',es:'Esa palabra ya está aquí.',pt:'Essa palavra já está aqui.',nl:'Dat woord staat er al.',sv:'Det ordet finns redan.',da:'Det ord er der allerede.',no:'Det ordet er der allerede.'},
-    capReached:   {en:'The list is full. Remove one to add another.',de:'Die Liste ist voll. Entfernt eines, um ein neues hinzuzufügen.',fr:'La liste est pleine. Retire un mot pour en ajouter un autre.',it:'L’elenco è pieno. Rimuovete una parola per aggiungerne un’altra.',es:'La lista está llena. Quita una para añadir otra.',pt:'A lista está cheia. Remova uma para adicionar outra.',nl:'De lijst is vol. Verwijder er één om een nieuw woord toe te voegen.',sv:'Listan är full. Ta bort ett ord för att lägga till ett nytt.',da:'Listen er fuld. Fjern ét for at tilføje et nyt.',no:'Lista er full. Fjern ett for å legge til et nytt.'},
-    copyList:     {en:'Copy my list',de:'Liste kopieren',fr:'Copier ma liste',it:'Copia il mio elenco',es:'Copiar mi lista',pt:'Copiar minha lista',nl:'Mijn lijst kopiëren',sv:'Kopiera min lista',da:'Kopiér min liste',no:'Kopier lista mi'},
-    copied:       {en:'Copied — paste it anywhere you keep your links.',de:'Kopiert – fügt es dort ein, wo ihr eure Links sammelt.',fr:'Copié – colle-le là où tu gardes tes liens.',it:'Copiato: incollatelo dove tenete i vostri link.',es:'Copiado: pégalo donde guardes tus enlaces.',pt:'Copiado — cole onde vocês guardam seus links.',nl:'Gekopieerd – plak het waar je je links bewaart.',sv:'Kopierat – klistra in det där ni sparar era länkar.',da:'Kopieret – sæt det ind, hvor I gemmer jeres links.',no:'Kopiert – lim det inn der dere lagrer lenkene deres.'},
-    deviceOnly:   {en:'Your words stay in this browser, on this device.',de:'Eure Wörter bleiben in diesem Browser, auf diesem Gerät.',fr:'Tes mots restent dans ce navigateur, sur cet appareil.',it:'Le vostre parole restano in questo browser, su questo dispositivo.',es:'Tus palabras se quedan en este navegador, en este dispositivo.',pt:'Suas palavras ficam neste navegador, neste aparelho.',nl:'Je woorden blijven in deze browser, op dit apparaat.',sv:'Era ord stannar i den här webbläsaren, på den här enheten.',da:'Jeres ord bliver i denne browser, på denne enhed.',no:'Ordene deres blir i denne nettleseren, på denne enheten.'},
+    myWordMark:   {en:'a word you added',de:'unser eigenes Wort',fr:'un mot de la classe',it:'parola della classe',es:'una palabra tuya',pt:'palavra da turma',nl:'ons eigen woord',sv:'vårt eget ord',da:'vores eget ord',no:'vårt eget ord'},
+    needHeart:    {en:'Mark a part by heart first — that is what makes it a heart word.',de:'Markieren Sie zuerst einen Teil zum Merken – das macht daraus erst ein Merkwort.',fr:'Marquez d’abord une partie à apprendre par cœur : c’est elle qui en fait un mot à cœur.',it:'Segna prima una parte da imparare a memoria: è quella che la rende una parola del cuore.',es:'Marca primero una parte de memoria: eso es lo que la convierte en una palabra con corazón.',pt:'Marque primeiro uma parte para guardar de cor — é isso que faz dela uma palavra de coração.',nl:'Zet eerst een hartje bij een stukje – dat maakt het pas een hartwoord.',sv:'Sätt först ett hjärta på en del – det är det som gör ordet till ett hjärteord.',da:'Sæt først et hjerte på en del – det er dét, der gør ordet til et hjerteord.',no:'Sett et hjerte på en del først – uten det er ikke ordet et hjerteord.'},
+    tooManyHearts:{en:'Two parts is the most a word can hold — past that the child learns the shape instead of the sounds.',de:'Ein Wort trägt höchstens zwei Herzen und nie mehr als die Hälfte seiner Teile. Was man erlesen kann, ist die eigentliche Übung.',fr:'Si presque tout porte un cœur, l’enfant retient la forme du mot au lieu des sons.',it:'Il cuore va al massimo su due parti, e mai su più di mezza parola. Le parti che si leggono sono la lezione.',es:'El corazón es para una parte, o dos si la palabra es larga. El resto es justo lo que sí se puede leer.',pt:'O coração cabe em duas partes, no máximo, e nunca em mais da metade da palavra. As partes que dá para ler são a lição.',nl:'Eén of twee stukjes uit het hoofd, meer niet – de stukjes die je gewoon kunt lezen zijn juist de les.',sv:'En eller två delar utantill, inte fler – delarna som går att ljuda är själva lektionen.',da:'Hvis næsten hele ordet er hjerte, lærer barnet formen i stedet for lydene.',no:'Er nesten hele ordet hjerte, lærer barnet formen og ikke lydene.'},
+    looksDecodable:{en:'Every part of this one follows the code — it may belong in',de:'Dieses Wort lässt sich Laut für Laut erlesen. Ein solches Wort gehört eher hierhin:',fr:'Ce mot semble se déchiffrer tout seul. Il serait peut-être mieux dans :',it:'Ogni parte di questa parola si legge come è scritta. Forse va meglio con:',es:'Esta palabra parece que se puede leer sonido a sonido; tal vez le vaya mejor en',pt:'Toda parte desta palavra se lê do jeito que está escrita. Talvez combine mais com:',nl:'Er staat nog geen hartje bij. Zoals het er nu staat is dit woord klankzuiver – dan hoort het eerder thuis in:',sv:'Ingen del har hjärta än. Som ordet står nu är det ljudenligt – då hör det hellre hemma i:',da:'Det her ord kan vist lydes helt igennem. Et andet værktøj passer måske bedre:',no:'Dette ordet ser lydrett ut. Et annet verktøy passer kanskje bedre:'},
+    tooLong:      {en:'That one is too long for the boxes — try a shorter word.',de:'Das ist mehr, als in eine Reihe passt – nehmen Sie ein kürzeres Wort oder eine Trennstelle weniger.',fr:'Ce mot ne tient pas dans la rangée : il faut de deux à six parties. Réunissez des lettres, ou changez de mot.',it:'Questa parola è troppo lunga. Provane una più corta.',es:'Esa palabra no se puede dividir en estas cajas.',pt:'Esta palavra é comprida demais. Tente uma mais curta.',nl:'Dit past niet in de vakjes: die houden twee tot zes stukjes.',sv:'Det här får inte plats i raden: den rymmer två till sex delar.',da:'Det ord er for langt til boksene – prøv et kortere.',no:'Det ordet får ikke plass i boksene – prøv et kortere.'},
+    duplicateSkip:{en:'That word is already in the shelves.',de:'Dieses Wort steht schon in der Liste.',fr:'Ce mot est déjà dans vos listes.',it:'Questa parola c’è già.',es:'Esa palabra ya está aquí.',pt:'Esta palavra já está aqui.',nl:'Dat woord staat al op een van je planken.',sv:'Det ordet finns redan på någon av dina hyllor.',da:'Det ord står her allerede.',no:'Det ordet ligger her fra før.'},
+    /* ⚠ "the rest were not added" is load-bearing: paste thirty words into a
+       list with room for four and the loop stops, so twenty-six used to
+       disappear with nothing on screen acknowledging it. */
+    capReached:   {en:'The list is full — the rest were not added. Remove one to make room.',de:'Die Liste ist voll. Entfernen Sie ein Wort, um ein neues aufzunehmen.',fr:'La liste est pleine. Retirez un mot pour en ajouter un autre.',it:'Non c’è più spazio. Togli una parola per aggiungerne un’altra.',es:'La lista está llena. Quita una palabra para agregar otra.',pt:'Não cabe mais nenhuma. Remova uma para adicionar outra.',nl:'De lijst is vol. Verwijder er één om een nieuw woord toe te voegen.',sv:'Listan är full. Ta bort ett ord för att lägga till ett nytt.',da:'Listen er fuld. Fjern et ord for at få plads til et nyt.',no:'Lista er full. Slett ett ord for å få plass til et nytt.'},
+    /* ⚠ THESE FOUR ARE MY DRAFTS, NOT PANEL COPY. They were created by the
+       code fixes the native panels' English audit forced (one string was
+       serving three different refusals and was false in two of them; the
+       wall strip was being told to fold a line it does not print; "Copied"
+       could fire when nothing had been copied). They are honest and they
+       fit, but they have NOT had a native pass — flag them to the next
+       panel round rather than assuming they are finished. */
+    tooShort:     {en:'A heart word needs at least two sounds.',de:'Ein Merkwort braucht mindestens zwei Laute.',fr:'Un mot à cœur a besoin d’au moins deux sons.',it:'Una parola del cuore ha bisogno di almeno due suoni.',es:'Una palabra con corazón necesita al menos dos sonidos.',pt:'Uma palavra de coração precisa de pelo menos dois sons.',nl:'Een hartwoord heeft minstens twee klanken nodig.',sv:'Ett hjärteord behöver minst två ljud.',da:'Et hjerteord skal have mindst to lyde.',no:'Et hjerteord trenger minst to lyder.'},
+    tooManyBoxes: {en:'That is one box too many — join two letters back together.',de:'Das ist eine Box zu viel – verbindet zwei Buchstaben wieder.',fr:'Cela fait une case de trop – réunis deux lettres.',it:'È una casella di troppo: riunite due lettere.',es:'Es una caja de más: vuelve a unir dos letras.',pt:'É uma caixa a mais — junte duas letras de novo.',nl:'Dat is één vakje te veel – voeg twee letters weer samen.',sv:'Det är en ruta för mycket – slå ihop två bokstäver igen.',da:'Det er én boks for meget – saml to bogstaver igen.',no:'Det er én boks for mye – slå sammen to bokstaver igjen.'},
+    stripNote:    {en:'Cut along the dashed line. The heart marks the part we learn by heart.',de:'Entlang der gestrichelten Linie schneiden. Das Herz zeigt den Teil, den wir uns merken.',fr:'Découpe le long des tirets. Le cœur montre la partie qui se retient par cœur.',it:'Tagliate lungo la linea tratteggiata. Il cuore indica la parte da imparare a memoria.',es:'Corta por la línea discontinua. El corazón señala la parte que aprendemos de memoria.',pt:'Corte pela linha tracejada. O coração mostra a parte que guardamos de cor.',nl:'Knip langs de streepjeslijn. Het hartje wijst het stukje aan dat je uit je hoofd leert.',sv:'Klipp längs den streckade linjen. Hjärtat visar delen vi lär oss utantill.',da:'Klip langs den stiplede linje. Hjertet viser den del, vi lærer udenad.',no:'Klipp langs den stiplede linja. Hjertet viser delen vi lærer utenat.'},
+    copyFailed:   {en:'The link could not be copied — you can copy it from the address bar instead.',de:'Der Link ließ sich nicht kopieren – ihr könnt ihn aus der Adresszeile kopieren.',fr:'Le lien n’a pas pu être copié – tu peux le copier depuis la barre d’adresse.',it:'Il link non è stato copiato: potete copiarlo dalla barra degli indirizzi.',es:'El enlace no se pudo copiar: puedes copiarlo desde la barra de direcciones.',pt:'O link não pôde ser copiado — dá para copiar da barra de endereço.',nl:'De link kon niet gekopieerd worden – je kunt hem uit de adresbalk kopiëren.',sv:'Länken kunde inte kopieras – ni kan kopiera den från adressfältet.',da:'Linket kunne ikke kopieres – I kan kopiere det fra adresselinjen.',no:'Lenken kunne ikke kopieres – dere kan kopiere den fra adressefeltet.'},
+    copyList:     {en:'Copy the link to my list',de:'Liste als Link kopieren',fr:'Copier le lien vers mes mots',it:'Copia il link alle mie parole',es:'Copiar el enlace de mi lista',pt:'Copiar o link das minhas palavras',nl:'Link naar mijn lijst kopiëren',sv:'Kopiera länk till min lista',da:'Kopiér link til listen',no:'Kopier lenke til lista'},
+    copied:       {en:'Copied — paste it anywhere you keep your links.',de:'Kopiert – mit diesem Link holen Sie Ihre Wortliste auf ein anderes Gerät.',fr:'Lien copié – collez-le là où vous rangez vos liens.',it:'Link copiato. Incollalo dove tieni i tuoi link.',es:'¡Enlace copiado! Pégalo donde guardes tus enlaces.',pt:'Link copiado. Cole onde você guarda seus links.',nl:'Link gekopieerd – plak hem waar je je links bewaart.',sv:'Länk kopierad – klistra in den där du sparar dina länkar.',da:'Link kopieret – sæt det ind, hvor I gemmer jeres links.',no:'Lenke kopiert – lim den inn der dere samler lenkene deres.'},
+    deviceOnly:   {en:'Your words stay in this browser, on this device.',de:'Ihre Wörter bleiben in diesem Browser, auf diesem Gerät. Nichts geht an uns, und von allein wandert nichts weiter.',fr:'Vos mots restent dans ce navigateur, sur cet appareil. Rien n’est enregistré ailleurs.',it:'Le tue parole restano in questo browser, su questo dispositivo.',es:'Tus palabras se guardan solo en este navegador y en este dispositivo.',pt:'Suas palavras ficam neste navegador, neste aparelho.',nl:'Je woorden blijven in deze browser, op dit apparaat.',sv:'Dina ord stannar i den här webbläsaren, på den här enheten.',da:'Ordene bliver kun liggende i denne browser på denne enhed. Linket herunder er måden at tage dem med et andet sted hen.',no:'Ordene blir liggende i denne nettleseren, på denne maskinen. Lenka under er måten å ta dem med til en annen.'},
 
     /* premium */
     gatePremium:  {en:'These shelves are part of Premium — your first shelf is always free.',de:'Diese Regale gehören zu Premium – euer erstes Regal bleibt immer kostenlos.',fr:'Ces étagères font partie de Premium – la première reste toujours gratuite.',it:'Questi scaffali fanno parte di Premium: il primo resta sempre gratuito.',es:'Estos estantes son parte de Premium: el primero siempre es gratis.',pt:'Estas prateleiras fazem parte do Premium — a sua primeira prateleira é sempre gratuita.',nl:'Deze planken horen bij Premium – je eerste plank blijft altijd gratis.',sv:'De här hyllorna ingår i Premium – den första hyllan är alltid gratis.',da:'Disse hylder er en del af Premium – den første hylde er altid gratis.',no:'Disse hyllene er en del av Premium – den første hylla er alltid gratis.'},
-    gateSave:     {en:'Keeping your own word list is part of Premium — building one is always free.',de:'Eine eigene Wortliste zu behalten gehört zu Premium – sie zu bauen ist immer kostenlos.',fr:'Garder sa propre liste de mots fait partie de Premium – la construire reste toujours gratuit.',it:'Conservare il proprio elenco fa parte di Premium: costruirlo è sempre gratuito.',es:'Guardar tu propia lista es parte de Premium: construirla siempre es gratis.',pt:'Guardar sua própria lista faz parte do Premium — montá-la é sempre gratuito.',nl:'Je eigen woordenlijst bewaren hoort bij Premium – hem maken is altijd gratis.',sv:'Att spara sin egen ordlista ingår i Premium – att bygga den är alltid gratis.',da:'At gemme sin egen ordliste er en del af Premium – at bygge den er altid gratis.',no:'Å lagre si egen ordliste er en del av Premium – å bygge den er alltid gratis.'},
+    gateSave:     {en:'Keeping your own word list is part of Premium — building one is always free.',de:'Eigene Wörter zu speichern gehört zu Premium – sie anzulegen und der Klasse zu zeigen bleibt immer kostenlos.',fr:'Garder votre liste fait partie de Premium – la construire et la montrer au tableau, c’est toujours gratuit.',it:'Salvare le tue parole fa parte di Premium: comporle e mostrarle alla classe resta sempre gratuito.',es:'Guardar tu propia lista es parte de Premium: crearla siempre es gratis.',pt:'Guardar suas palavras faz parte do Premium — montar e mostrar para a turma é sempre gratuito.',nl:'Je eigen woorden op je plank zetten hoort bij Premium – ze maken en op het bord tonen is altijd gratis.',sv:'Att lägga dina egna ord på hyllan ingår i Premium – att bygga dem och visa dem på tavlan är alltid gratis.',da:'En gemt ordliste er en del af Premium – at bygge den er altid gratis.',no:'En lagret ordliste er en del av Premium – å bygge den er alltid gratis.'},
     unlock:       {en:'See Premium',de:'Premium ansehen',fr:'Découvrir Premium',it:'Scopri Premium',es:'Ver Premium',pt:'Conhecer o Premium',nl:'Bekijk Premium',sv:'Se Premium',da:'Se Premium',no:'Se Premium'},
     lockedShelf:  {en:'Premium shelf',de:'Premium-Regal',fr:'Étagère Premium',it:'Scaffale Premium',es:'Estante Premium',pt:'Prateleira Premium',nl:'Premium-plank',sv:'Premiumhylla',da:'Premiumhylde',no:'Premiumhylle'},
 
     /* print */
     printCards:   {en:'Print the cards',de:'Karten ausdrucken',fr:'Imprimer les cartes',it:'Stampa le schede',es:'Imprimir las tarjetas',pt:'Imprimir os cartões',nl:'Kaarten afdrukken',sv:'Skriv ut korten',da:'Print kortene',no:'Skriv ut kortene'},
-    sheetCards:   {en:'Fold-over word cards',de:'Faltkarten',fr:'Cartes à plier',it:'Schede da piegare',es:'Tarjetas plegables',pt:'Cartões dobráveis',nl:'Vouwkaartjes',sv:'Vikkort',da:'Foldekort',no:'Brettekort'},
-    sheetStrip:   {en:'Wall strip',de:'Wandstreifen',fr:'Bande murale',it:'Striscia da parete',es:'Tira de pared',pt:'Faixa de parede',nl:'Muurstrook',sv:'Väggremsa',da:'Vægstrimmel',no:'Veggstripe'},
-    sheetHome:    {en:'Take-home sheet',de:'Blatt für zu Hause',fr:'Feuille à emporter',it:'Foglio da portare a casa',es:'Hoja para casa',pt:'Folha para levar para casa',nl:'Blad voor thuis',sv:'Blad att ta hem',da:'Ark til hjemmet',no:'Ark til hjemmet'},
+    sheetCards:   {en:'Fold-over word cards',de:'Faltkarten',fr:'Cartes à plier',it:'Schede da piegare',es:'Tarjetas plegables',pt:'Cartelas para dobrar',nl:'Vouwkaartjes',sv:'Vikkort',da:'Foldekort',no:'Brettekort'},
+    sheetStrip:   {en:'Wall strip',de:'Wandstreifen',fr:'Bande d’affichage',it:'Striscia da parete',es:'Tira de pared',pt:'Faixa de parede',nl:'Muurstrook',sv:'Väggremsa',da:'Vægstrimmel',no:'Veggstripe'},
+    sheetHome:    {en:'Take-home sheet',de:'Blatt für zu Hause',fr:'Feuille pour la maison',it:'Foglio per casa',es:'Hoja para casa',pt:'Folha para casa',nl:'Blad voor thuis',sv:'Blad att ta hem',da:'Ark til hjemmet',no:'Hjemmeark'},
     scopeShelf:   {en:'This shelf',de:'Dieses Regal',fr:'Cette étagère',it:'Questo scaffale',es:'Este estante',pt:'Esta prateleira',nl:'Deze plank',sv:'Den här hyllan',da:'Den her hylde',no:'Denne hylla'},
     scopeMine:    {en:'My words',de:'Meine Wörter',fr:'Mes mots',it:'Le mie parole',es:'Mis palabras',pt:'Minhas palavras',nl:'Mijn woorden',sv:'Mina ord',da:'Mine ord',no:'Mine ord'},
-    printNote:    {en:'Cut along the dashed line. Fold along the dotted line. The heart marks the part we learn by heart.',de:'Entlang der gestrichelten Linie schneiden. An der gepunkteten Linie falten. Das Herz zeigt den Teil, den wir uns merken.',fr:'Découpe le long des tirets. Plie le long des pointillés. Le cœur montre la partie qui se retient par cœur.',it:'Tagliate lungo la linea tratteggiata. Piegate lungo la linea punteggiata. Il cuore indica la parte da imparare a memoria.',es:'Corta por la línea discontinua. Dobla por la línea de puntos. El corazón señala la parte que aprendemos de memoria.',pt:'Corte pela linha tracejada. Dobre pela linha pontilhada. O coração mostra a parte que guardamos de cor.',nl:'Knip langs de streepjeslijn. Vouw langs de stippellijn. Het hartje wijst het stukje aan dat je uit je hoofd leert.',sv:'Klipp längs den streckade linjen. Vik längs den prickade linjen. Hjärtat visar delen vi lär oss utantill.',da:'Klip langs den stiplede linje. Fold langs den prikkede linje. Hjertet viser den del, vi lærer udenad.',no:'Klipp langs den stiplede linja. Brett langs den prikkete linja. Hjertet viser delen vi lærer utenat.'},
-    homeNote:     {en:'Write the word in the empty boxes, then colour the heart.',de:'Schreibt das Wort in die leeren Kästchen und malt dann das Herz aus.',fr:'Écris le mot dans les cases vides, puis colorie le cœur.',it:'Scrivete la parola nelle caselle vuote, poi colorate il cuore.',es:'Escribe la palabra en las cajas vacías y luego colorea el corazón.',pt:'Escreva a palavra nas caixas vazias e depois pinte o coração.',nl:'Schrijf het woord in de lege vakjes en kleur daarna het hartje.',sv:'Skriv ordet i de tomma rutorna och färglägg sedan hjärtat.',da:'Skriv ordet i de tomme bokse, og farvelæg så hjertet.',no:'Skriv ordet i de tomme boksene, og fargelegg så hjertet.'},
+    printNote:    {en:'Cut along the dashed line, fold along the dotted line. The heart marks the part we learn by heart.',de:'An der gestrichelten Linie schneiden. Wo eine Karte eine gepunktete Linie hat, dort falten. Das Herz zeigt den Teil, den wir uns merken.',fr:'Découper le long des tirets ; sur les cartes, plier le long des pointillés. Le cœur montre la partie qu’on apprend par cœur.',it:'Ritaglia lungo il tratteggio. Le schede si piegano lungo la linea di puntini. Il cuore segna la parte che impariamo a memoria.',es:'Corta por la línea discontinua y dobla las tarjetas por la línea de puntos. El corazón marca la parte que aprendemos de memoria.',pt:'Recorte pelo tracejado. As cartelas dobram na linha pontilhada. O coração marca a parte que a gente guarda de cor.',nl:'Knip rondom elk kaartje. Loopt er een stippellijn over een kaartje, vouw het daar. Het hartje staat bij het stukje dat je uit je hoofd leert.',sv:'Klipp runt varje kort. Går det en prickad linje över ett kort viker du det där. Hjärtat visar delen vi lär oss utantill.',da:'Klip langs den stiplede linje. Foldekortene foldes langs den prikkede linje. Hjertet viser den del, vi lærer udenad.',no:'Klipp langs den stiplede linja. Brettekortene brettes langs den prikkete linja. Hjertet viser delen vi lærer utenat.'},
+    homeNote:     {en:'Write the word in the empty boxes, then colour the heart.',de:'Schreibt das Wort in die leeren Kästchen und malt dann das Herz aus.',fr:'Écris le mot dans les cases vides, puis colorie le cœur.',it:'Scrivi la parola nei riquadri vuoti, poi colora il cuore.',es:'Escribe la palabra en las cajas vacías y luego colorea el corazón.',pt:'Escreva a palavra nos quadradinhos vazios e depois pinte o coração.',nl:'Knip het kaartje uit en vouw het op de stippellijn. Schrijf het woord in de lege vakjes en kleur daarna het hartje.',sv:'Klipp ut kortet och vik det på den prickade linjen. Skriv ordet i de tomma rutorna och färglägg sedan hjärtat.',da:'Skriv ordet i de tomme bokse, og farvelæg så hjertet.',no:'Skriv ordet i de tomme boksene, og fargelegg hjertet.'},
 
     /* settings */
     setVoice:     {en:'Say words aloud',de:'Wörter vorlesen',fr:'Dire les mots à voix haute',it:'Pronuncia le parole ad alta voce',es:'Decir las palabras en voz alta',pt:'Dizer as palavras em voz alta',nl:'Woorden hardop zeggen',sv:'Läs orden högt',da:'Læs ordene højt',no:'Les ordene høyt'},
@@ -426,9 +447,15 @@ var HeartWords = {
      that a grapheme list does not, and the curated expert bank produced
      exactly this defect once in forty (`goes`), so the warning is not
      hypothetical. */
-  looksDecodable: function (boxes, heart, lang) {
+  /* ⚠ THIS IS A PROPERTY OF THE WORD, NOT OF THE EDITING STATE.
+     It used to return false as soon as a heart existed, so on a fresh draft
+     (heart always empty) the warning fired for EVERY word — in Spanish,
+     where nearly every box is a plain letter or a legal digraph, that is
+     ~100% of them, shown before the teacher can perform the one act that
+     clears it. A warning that always fires carries no information. The
+     caller now decides WHEN to show it; this only answers WHETHER. */
+  looksDecodable: function (boxes, lang) {
     if (!boxes || !boxes.length) return false;
-    if (heart && heart.length) return false;
     var inv = this.GRAPHEME_INVENTORY[lang] || [];
     for (var i = 0; i < boxes.length; i++) {
       var b = String(boxes[i]).toLowerCase();
@@ -626,23 +653,28 @@ var HeartWords = {
 
   _sanitiseCustom: function (raw) {
     if (!raw || typeof raw !== 'object') return null;
-    var display = String(raw.display || '').toLowerCase().replace(/[^\p{L}]/gu, '');
+    /* the teacher's capital survives an ingest too (see _addFromText); the
+       comparisons below are all case-folded */
+    var display = String(raw.display || '').replace(/'/g, '’').replace(/[^\p{L}’-]/gu, '');
+    var fold = display.toLowerCase();
     if (!display || display.length > this.MAX_LETTERS) return null;
     if (!Array.isArray(raw.boxes) || raw.boxes.length < 2 || raw.boxes.length > this.MAX_BOXES) return null;
-    var boxes = raw.boxes.map(function (b) { return String(b).toLowerCase().replace(/[^\p{L}]/gu, ''); });
+    var boxes = raw.boxes.map(function (b) {
+      return String(b).toLowerCase().replace(/'/g, '’').replace(/[^\p{L}’-]/gu, '');
+    });
     /* ⚠ An EMPTY box after stripping. `["c","a","4","t"]` strips to
        `["c","a","","t"]`, which still joins to "cat" and still equals a
        display of "cat" — so the reassembly check alone passes it and the
        apparatus renders a blank tile the child is asked to map. */
     for (var b = 0; b < boxes.length; b++) if (!boxes[b]) return null;
-    if (boxes.join('') !== display) return null;
+    if (boxes.join('') !== fold) return null;
     var heart = Array.isArray(raw.heart) ? raw.heart.filter(function (i) {
       return Number.isInteger(i) && i >= 0 && i < boxes.length;
     }) : [];
     heart = heart.filter(function (v, i, a) { return a.indexOf(v) === i; }).sort(function (a, b) { return a - b; });
     if (!heart.length || heart.length > this.heartCap(boxes.length)) return null;
     var sentence = String(raw.sentence || '').slice(0, 90);
-    return { id: 'my:' + display, display: display, boxes: boxes, heart: heart, sentence: sentence };
+    return { id: 'my:' + fold, display: display, boxes: boxes, heart: heart, sentence: sentence };
   },
 
   _hasWord: function (display) {
@@ -1564,16 +1596,43 @@ var HeartWords = {
     store.drafts = store.drafts || [];
     this.notice = null;
     for (i = 0; i < parts.length; i++) {
-      var raw = parts[i].trim().toLowerCase().replace(/[^\p{L}]/gu, '');
+      /* ⚠ THE TEACHER'S CAPITAL SURVIVES. This used to lowercase the
+         display, so a German teacher's "Kuh" shipped as "kuh" while every
+         noun in the shipped German bank keeps its capital — two spellings
+         of one word, in a tool whose whole subject is which letters a word
+         actually has. The BOXES are still matched lowercase (graphemes are
+         case-free) and so is the duplicate check; only what the child reads
+         keeps her spelling. Found by the German panel; invisible in
+         English. */
+      /* ⚠ THE APOSTROPHE AND THE HYPHEN ARE LETTERS' WORK HERE. A bare
+         `[^\p{L}]` strip turned `l’ape` into `lape` and `guarda-chuva` into
+         `guardachuva`, silently — and the shipped ITALIAN bank has a whole
+         shelf built on the apostrophe (`g1-apostrofo`), storing `’` inside
+         its boxes. The desk could not reproduce the tool's own content.
+         ASCII `'` is normalised to the typographic form, which is what the
+         banks use throughout. */
+      var shown = parts[i].trim().replace(/'/g, '’').replace(/[^\p{L}’-]/gu, '');
+      var raw = shown.toLowerCase();
       if (!raw) continue;
+      /* ⚠ the rest of the paste is NOT silently discarded — paste thirty
+         words into a list with room for four and twenty-six used to vanish
+         with no record at all. The notice now says so. */
       if (store.drafts.length + (store.custom || []).length >= this.MAX_CUSTOM) { this.notice = 'capReached'; break; }
       if (raw.length > this.MAX_LETTERS) { this.notice = 'tooLong'; continue; }
+      /* ⚠ A ONE-LETTER WORD IS NOT "TOO LONG". segment() returns null under
+         two boxes as well as over six, and routing both to one string told a
+         teacher who typed "a" or "à" to try something shorter. Three
+         different refusals were sharing one sentence and it was false in
+         two of them. */
+      if (raw.length < 2) { this.notice = 'tooShort'; continue; }
       if (this._hasWord(raw) || this._inDrafts(raw)) { this.notice = 'duplicateSkip'; continue; }
       var boxes = this.segment(raw, this.api.lang);
       /* REFUSED, with a reason — never silently truncated */
       if (!boxes) { this.notice = 'tooLong'; continue; }
       /* ⭐ heart deliberately EMPTY. The machine does not guess it. */
-      store.drafts.push({ id: 'my:' + raw, display: raw, boxes: boxes, heart: [], sentence: '' });
+      /* id stays case-folded (it keys storage and the deep link); `display`
+         is what the class reads, so it keeps the teacher's capital */
+      store.drafts.push({ id: 'my:' + raw, display: shown, boxes: boxes, heart: [], sentence: '' });
       this._draft = store.drafts[store.drafts.length - 1];
     }
     this._saveStore();
@@ -1613,7 +1672,10 @@ var HeartWords = {
             var c = self.boxesToCuts(d.boxes);
             if (c[at]) delete c[at]; else c[at] = true;
             var nb = self.cutsToBoxes(d.display.split(''), c);
-            if (nb.length > self.MAX_BOXES) { self.notice = 'tooLong'; self.render(); return; }
+            /* ⚠ splitting past the cap is not a "try a shorter word"
+               problem — the teacher only has to join a seam back up, and
+               the word she typed is fine. Its own line. */
+            if (nb.length > self.MAX_BOXES) { self.notice = 'tooManyBoxes'; self.render(); return; }
             d.boxes = nb;
             /* a heart index can no longer be trusted once the boxes move */
             d.heart = [];
@@ -1689,8 +1751,17 @@ var HeartWords = {
     ed.appendChild(sf);
 
     /* ---- the fully-decodable WARNING (never a block) ---- */
-    if (this.looksDecodable(d.boxes, d.heart, this.api.lang)) {
+    /* Shown only ONCE THE TEACHER HAS COMMITTED — she has marked a heart,
+       i.e. claimed this is a heart word, and every part of it still follows
+       the code. That is the moment the observation is worth making; before
+       it, it is noise on every draft. */
+    if (d.heart.length && this.looksDecodable(d.boxes, this.api.lang)) {
       var wl = api.el('p', 'hw-warnline');
+      /* ⚠ the STRING must not name the sibling tool — the link appended two
+         lines below IS its name. Naming it in both rendered
+         "… Sound Boxes may suit it better. Sound Boxes": a dangling second
+         mention with no sentence around it, inherited by all ten locales.
+         Found by the French panel reading the code, not the copy. */
       wl.textContent = api.t('looksDecodable') + ' ';
       var a = api.el('a', 'hw-sib-link');
       a.href = '/mini-tools/sound-boxes.html?lang=' + this.api.lang;
@@ -1724,10 +1795,15 @@ var HeartWords = {
     var save = api.el('button', 'hw-ed-btn' + (this.premium ? '' : ' hw-locked'));
     save.type = 'button';
     save.textContent = api.t('saveWord');
-    /* ⭐ inert until the teacher has performed the marking act. The heart is
-       the pedagogical claim; it must never be a default that survives
-       inattention. */
-    save.disabled = !d.heart.length;
+    /* ⭐ The heart is the pedagogical claim and must never be a default that
+       survives inattention — so this refuses until the teacher has marked
+       one. It REFUSES rather than sitting disabled, and that is a change of
+       mind: a mute button explains nothing, and `needHeart` was reachable
+       only from "Show on the board", so the two controls with the SAME
+       precondition disagreed about how to say no — one went dead, the other
+       stayed live and refused. Now both refuse, with the reason. */
+    save.setAttribute('aria-disabled', d.heart.length ? 'false' : 'true');
+    if (!d.heart.length) save.classList.add('hw-ed-await');
     save.addEventListener('click', function () {
       if (!d.heart.length) { self.notice = 'needHeart'; self.render(); return; }
       if (!self.premium) { self.notice = 'gateSave'; self.render(); return; }
@@ -1787,14 +1863,20 @@ var HeartWords = {
     });
     var url = location.origin + '/mini-tools/heart-words.html?lang=' + this.api.lang
       + '&add=' + encodeURIComponent(JSON.stringify(payload));
-    var done = function () { self.notice = 'copied'; self.render(); };
+    /* ⚠ "Copied" MUST NOT BE A LIE. This used to be `.then(done, done)` with
+       a fallback that also called done() having copied nothing — so the
+       teacher was told the link was on her clipboard when in three of the
+       four paths it was not. A confirmation that fires on failure is worse
+       than no confirmation, because she stops checking. */
+    var ok = function () { self.notice = 'copied'; self.render(); };
+    var failed = function () { self.notice = 'copyFailed'; self.render(); };
     try {
       if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(url).then(done, done);
+        navigator.clipboard.writeText(url).then(ok, failed);
         return;
       }
     } catch (_) {}
-    done();
+    failed();
   },
 
   /* =================================================================
@@ -1899,7 +1981,12 @@ var HeartWords = {
     if (!words.length) return sheet;
 
     var note = api.el('p', 'hw-printnote');
-    note.textContent = kind === 'home' ? api.t('homeNote') : api.t('printNote');
+    /* ⚠ THE WALL STRIP HAS NO FOLD. It builds no back face (see _printCard's
+       `kind !== 'strip'`) and the dotted rule belongs to .hw-printback, so
+       "fold along the dotted line" instructed the teacher to fold a line
+       that is not on the paper. One note per sheet. */
+    note.textContent = kind === 'home' ? api.t('homeNote')
+                     : (kind === 'strip' ? api.t('stripNote') : api.t('printNote'));
     sheet.appendChild(note);
 
     var perPage = kind === 'strip' ? 5 : (kind === 'home' ? 4 : 6);
@@ -2370,6 +2457,7 @@ function injectHeartWordsCSS() {
     + 'background:var(--hw-teal);border:0;border-radius:10px;padding:13px 18px;min-height:44px;'
     + 'cursor:pointer}'
     + '.hw-ed-btn:disabled{opacity:.45;cursor:not-allowed}'
+    + '.hw-ed-await{opacity:.62}'
     + '.hw-ed-ghost{background:#EEF4F2;color:#3F6B62;border:1px solid #DCE6E2}'
     + '.hw-ed-btn.hw-locked{background:#8FB3AB}'
     + '.hw-customrow{display:flex;align-items:center;gap:9px;background:#FFFFFF;'
@@ -2465,8 +2553,11 @@ function injectHeartWordsCSS() {
     + 'border-top:0.3mm dotted #999}'
     + '.hw-printfront{height:50%;display:flex;flex-direction:column;align-items:center;'
     + 'justify-content:center;gap:3mm}'
-    + '.hw-printback{height:50%;display:flex;align-items:center;justify-content:center;'
-    + 'transform:rotate(180deg)}'
+    /* ⚠ THE 180° IS THE FOLD, AND ONLY THE CARDS SHEET FOLDS. Applying it to
+       every sheet printed the take-home sentence UPSIDE DOWN — a sheet that
+       has no fold, sent home to a parent. Scoped to the sheet that earns it. */
+    + '.hw-printback{height:50%;display:flex;align-items:center;justify-content:center}'
+    + '.hw-printsheet[data-sheet="cards"] .hw-printback{transform:rotate(180deg)}'
     + '.hw-printword{display:flex;align-items:center;justify-content:center;gap:1.6mm}'
     + '.hw-printbox{position:relative;display:inline-flex;align-items:center;justify-content:center;'
     + 'min-width:13mm;height:13mm;padding:0 1.5mm;border:0.5mm solid #000;border-radius:1.5mm;'

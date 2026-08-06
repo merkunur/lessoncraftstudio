@@ -1,0 +1,111 @@
+{
+  "locale": "pt",
+  "englishDefects": [
+    {
+      "key": "looksDecodable",
+      "problem": "THE STRING NAMES THE SIBLING TOOL, AND THE CODE APPENDS ITS NAME AGAIN. _buildEditor does `wl.textContent = t('looksDecodable') + ' '` and then appends an <a> whose text is `t('siblingSbx')`, so the rendered line is \"…Sound Boxes may suit it better. Sound Boxes\" — a second, dangling mention with no sentence around it, in all ten locales. (Both panels found this independently; the working copy of heart-words.js now carries a ⚠ comment saying the same, credited to the French panel — the English SOURCE we were handed still has it, so it would ship again.)",
+      "correction": "End with a lead-in and let the link be the name: \"Every part of this word still follows the code. Perhaps a better fit:\""
+    },
+    {
+      "key": "printNote",
+      "problem": "IT INSTRUCTS A FOLD ON A SHEET THAT HAS NOTHING TO FOLD. The same note is printed on the wall strip, but `.hw-printsheet[data-sheet=\"strip\"] .hw-printcard::after{display:none}` removes the dotted fold line for the strip and _printCard builds no back face for it (`if (kind !== 'strip')`). (A `stripNote` key has appeared in the working file since — being fixed concurrently.)",
+      "correction": "Scope the fold to the sheet that has one, so the string is true either way: \"Cut along the dashed line. The word cards fold along the dotted line. The heart marks the part we learn by heart.\""
+    },
+    {
+      "key": "tooManyHearts",
+      "problem": "FALSE AT THE ACTUAL THRESHOLD, AND NEVER STATES THE RULE. It fires at `d.heart.length >= heartCap(n)` with `heartCap = Math.min(2, Math.floor(n/2))` — on a six-part word that is the THIRD heart, a third of the word, not \"nearly all of it\". The teacher is handed a reason she can see is untrue, and is never told the limit.",
+      "correction": "\"Two parts at most can wear a heart — and never more than half the word. The parts that can be read are the lesson.\""
+    },
+    {
+      "key": "tooLong",
+      "problem": "ONE STRING FOR THREE REFUSALS, WRONG IN TWO. Raised when the word exceeds MAX_LETTERS; when segment() returns null — which happens BELOW two parts as well as above six, so a teacher who types \"à\" or \"é\" is told her word is too long; and when a seam SPLIT would exceed six parts, where \"try a shorter word\" is unactionable because she is tapping a seam and only has to join one back up. (The working copy is splitting these out, with ⚠ comments to the same effect.)",
+      "correction": "Keep `tooLong` to the meaning of its own name and give the other two their own strings. Our pt/it strings are written to the key's NAME, not to the source's three call sites."
+    },
+    {
+      "key": "writePrompt",
+      "problem": "IT NAMES A MOVE THE FACE DOES NOT OFFER. The write face has exactly one control and it is labelled \"Show the word\". Nothing is taken away and \"brought back\", and \"it\" has no referent — the word, or the paper? This is the one string on the write face and it is addressed to a five-year-old.",
+      "correction": "Name the button that is there, and leave the comparing to the child: \"Write the word on paper. Then show the word and compare it with yours.\""
+    },
+    {
+      "key": "copyList",
+      "problem": "IT DOES NOT COPY A LIST. _copyList puts a URL on the clipboard. All three sibling tools already ship `copyLink` (\"Copy link to this word / this card\") and \"Link copied!\" for exactly this action, so the house word exists and only this tool departs from it — which is also what makes `copied` (\"paste it anywhere you keep your links\") read as a non-sequitur under a button that promised a list.",
+      "correction": "\"Copy a link to my words\"."
+    },
+    {
+      "key": "copied",
+      "problem": "Right about the payload, orphaned by the button above it, and it drops the phrase the three siblings ship.",
+      "correction": "\"Link copied. Paste it wherever you keep your links.\""
+    },
+    {
+      "key": "workedExample",
+      "problem": "TWO PROBLEMS. (1) The transcription is wrong in English: \"one\" is /wʌn/ — /u/ is the vowel of \"boot\". A phonics tool cannot mis-transcribe its single worked example. (2) It is an English word explaining the segmenter to a Brazilian teacher, in a panel with no other English in it. A 1º-ano alfabetizadora is not required to read English phonics to use her own desk.",
+      "correction": "In English fix the vowel (/w/ + /ʌ/ + /n/). Everywhere else substitute a native word where the segmenter is genuinely wrong — see notes for our ruling."
+    },
+    {
+      "key": "pasteHint",
+      "problem": "⭐ CODE DEFECT, NOT A COPY DEFECT — found by the Italian panel, confirmed here. _addFromText does `raw = parts[i].trim().toLowerCase().replace(/[^\\p{L}]/gu, '')`, silently deleting every character that is not a letter. For Italian that destroys an entire shipped shelf (l’ape → lape, un’ora → unora, po’ → po, c’è → cè, while the shipped it bank stores those words WITH the ’ in their boxes). For Portuguese the accents and ç survive \\p{L}, so the damage is smaller but real: the hyphen goes, so guarda-chuva → guardachuva and chama-se → chamase, and the word is then segmented from the corrupted letters with no notice of any kind.",
+      "correction": "Code: keep ’ and ' (normalising ' → ’) and the hyphen in the raw filter. No wording of `pasteHint` can reach this."
+    },
+    {
+      "key": "gateSave",
+      "problem": "TRUE BUT IT UNDERSELLS THE FREE TASTE. The entitlement check is on `saveWord` only; `showOnBoard` — the button immediately beside it — has none, so a free teacher can build her own word AND put it live in front of her class. \"Building one is always free\" describes half of what she is actually allowed to do, and this is the tool's whole pitch.",
+      "correction": "\"Saving your own words is part of Premium — building them and putting them on the board is always free.\""
+    },
+    {
+      "key": "teacherNote",
+      "problem": "RENDERED AS A LABEL, NOT A SENTENCE: `t('teacherNote') + ' — ' + this.selected.display`. \"Why this one is tricky — hoje\" is a fragment, because \"this one\" and the word after the dash are the same thing named twice.",
+      "correction": "Write it as a label that takes a word after a dash: \"Where it tricks you\"."
+    },
+    {
+      "key": "workedExample|myWordsHint",
+      "problem": "TYPOGRAPHY, pt SPECIFICALLY. The shipped pt strings quote with SPACED French guillemets — « one » — a convention Brazilian Portuguese does not use at all. BR sets “aspas duplas”. (The it strings have the same import with the opposite error: Italian does use guillemets, but tight, «assim».)",
+      "correction": "pt: “nascer”. it: «quando». Applied below."
+    }
+  ],
+  "strings": {
+    "heartLegend": "O coração marca a parte que a gente guarda de cor.",
+    "writeIt": "Agora escreva",
+    "writePrompt": "Escreva a palavra no papel. Depois mostre a palavra e compare com a sua.",
+    "showWord": "Mostrar a palavra",
+    "bigWord": "Maior",
+    "bigWordLeave": "Menor",
+    "deskWords": "Palavras",
+    "deskMine": "Minhas palavras",
+    "deskPrint": "Imprimir",
+    "deskBack": "Voltar para a turma",
+    "searchWords": "Procurar uma palavra",
+    "searchNone": "Nenhuma palavra com essas letras.",
+    "teacherNote": "Onde ela engana",
+    "teachShelf": "Usar esta prateleira",
+    "myWordsHint": "As divisões dos sons quem chutou fomos nós. Diga a palavra bem devagar e ajuste as divisões — depois toque na parte que a turma precisa guardar de cor.",
+    "workedExample": "Dividimos “nascer” como n-a-s-c-e-r. Mas a boca faz um som só no s-c: /s/.",
+    "pasteHint": "Uma palavra por linha",
+    "addWords": "Adicionar",
+    "seamHint": "Toque entre as letras para juntar ou separar.",
+    "heartHint": "Toque na parte que a turma precisa guardar de cor.",
+    "sentenceOpt": "Uma frase com esta palavra (pode deixar em branco)",
+    "saveWord": "Usar esta palavra",
+    "showOnBoard": "Mostrar para a turma",
+    "deleteWord": "Remover",
+    "myWordsShelf": "Minhas palavras",
+    "myWordMark": "palavra da turma",
+    "needHeart": "Marque primeiro uma parte para guardar de cor — é isso que faz dela uma palavra de coração.",
+    "tooManyHearts": "O coração cabe em duas partes, no máximo, e nunca em mais da metade da palavra. As partes que dá para ler são a lição.",
+    "looksDecodable": "Toda parte desta palavra se lê do jeito que está escrita. Talvez combine mais com:",
+    "tooLong": "Esta palavra é comprida demais. Tente uma mais curta.",
+    "duplicateSkip": "Esta palavra já está aqui.",
+    "capReached": "Não cabe mais nenhuma. Remova uma para adicionar outra.",
+    "copyList": "Copiar o link das minhas palavras",
+    "copied": "Link copiado. Cole onde você guarda seus links.",
+    "deviceOnly": "Suas palavras ficam neste navegador, neste aparelho.",
+    "gateSave": "Guardar suas palavras faz parte do Premium — montar e mostrar para a turma é sempre gratuito.",
+    "sheetCards": "Cartelas para dobrar",
+    "sheetStrip": "Faixa de parede",
+    "sheetHome": "Folha para casa",
+    "scopeShelf": "Esta prateleira",
+    "scopeMine": "Minhas palavras",
+    "printNote": "Recorte pelo tracejado. As cartelas dobram na linha pontilhada. O coração marca a parte que a gente guarda de cor.",
+    "homeNote": "Escreva a palavra nos quadradinhos vazios e depois pinte o coração."
+  },
+  "notes": "COLLISIONS ROUTED AROUND (read against the shipped pt strings of sound-boxes.js, blending-board.js, letter-tiles.js). (1) «caixa/caixas» is Sound Boxes' own name — Caixas de sons — and Letter Tiles takes «Caixas de letras» on top of it. Heart Words must not call its container a caixa, and it already has its own word in the shipped strings (boxOf = «Parte {i} de {n}», heartPart = «uma parte»), so we use PARTE/PARTES throughout, and QUADRADINHOS for the printed squares on the take-home sheet — the ordinary word a Brazilian teacher writes on a worksheet, and free. This is why tooLong and homeNote no longer say caixas. (2) «quadro» is doubly taken: Blending Board IS «Quadro de sílabas», and Letter Tiles ships «Quadro livre» and «quadros fixados». The shipped heart-words showOnBoard and deskBack both said quadro, which puts three tools on one noun — and in a Brazilian classroom «quadro» is also the physical board, so the sentence reads as an instruction about the wall. We route to A TURMA: «Mostrar para a turma» / «Voltar para a turma». It is what the teacher actually says, and the pair reads as one gesture. (3) «lista / listas de palavras» belongs to Sound Boxes (Lista de palavras, Listas de palavras). The shipped copyList and capReached both used lista; Heart Words' own collection is «minhas palavras» and its containers are «prateleiras», so copyList becomes «Copiar o link das minhas palavras» and capReached drops the noun. (4) «cartão/cartões» belongs to Letter Tiles (Cartões de palavras, Usar estes cartões, Copiar link deste cartão) and «ficha» belongs to Sound Boxes (Forma da ficha, Colocar uma ficha) — BOTH of the obvious words for a printed card are already spent. We take CARTELAS, which is free, is standard BR for printed word cards, and is used consistently in sheetCards and printNote. (5) «baralho», «abecedário», «bandeja» untouched. DELIBERATE ALIGNMENTS, not collisions: seamHint stays close to Sound Boxes' («Toque entre as letras para separar ou juntar as caixas») because it is the IDENTICAL gesture on the IDENTICAL row and a teacher meeting the quartet together should not learn it twice — we only drop «as caixas» to keep the sibling's noun out. deskMine / scopeMine / myWordsShelf keep «Minhas palavras», which Sound Boxes and Letter Tiles both ship for the same concept.\n\nPAID-PLAN NAME. Normalised, not invented: all three siblings ship «Premium» with the article — «fazem parte do Premium — … são sempre gratuitos» (sound-boxes: «Listas personalizadas fazem parte do Premium — as palavras iniciais são sempre gratuitas»). gateSave follows that shape exactly. NOT one of our 43, but flagged: heart-words' `unlock` says «Conhecer o Premium» while the siblings all say «Desbloquear …» — the odd one out; align at the next touch.\n\nWORKED EXAMPLE — WE SUBSTITUTE, and we ran the segmenter rather than reasoning about it. HeartWords.segment(w,'pt') over a spread: the pt inventory (ch, lh, nh, rr, ss, qu, gu, ão, ãe, õe and the accented vowels) is good — porque → p|o|r|qu|e, coelho → c|o|e|lh|o, água → á|gu|a, all correct. Its gap is the digraph «sc» before e/i: nascer comes back n|a|s|c|e|r — six parts for five sounds, with s and c torn apart when the mouth makes one /s/. That is a genuine failure of the shipped machine; it is exactly what the seam row exists to repair (she joins s and c, which is what the very next line tells her to do); and «nascer» is NOT in the shipped Portuguese bank, so she can type it and watch it happen. Two candidates were REJECTED and the reason matters: «muito» and «também» are real failures too (the machine gives 5 and 6 parts for 4 sounds each), but the shipped pt bank ships them AS m|u|i|t|o and t|a|m|b|é|m with the odd letter hearted — so an example claiming the mouth says four would put the desk in contradiction with the shelf two clicks away. «hoje» was rejected for the same reason plus duplicateSkip: it is in the bank, so a teacher who types the example gets «Esta palavra já está aqui», a poor first experience of the panel. ⚠ IF THE BUILD ADDS `sc` TO GRAPHEME_INVENTORY.pt, this string becomes false — and we do NOT recommend adding it, because sc is /s/ only before e and i (nascer, desce, piscina) and is /sk/ elsewhere (escola, escuro), so a flat grapheme list would break far more words than it fixes. Leave the gap and keep the example.\n\nREGISTER. Brazilian, 1º-2º ano alfabetização. Child surface and desk are both the você-register imperative — «Escreva», «Toque», «Mostre», «Remova» — which is what all three siblings ship («Digite as palavras da semana», «Desative as cartas que a turma ainda não aprendeu»). «a gente guarda de cor» is kept from the shipped heartLine so the legend and the spoken moment are heard as one sentence all year; it is warmer and far more natural in a Brazilian classroom than «guardamos». «a turma» is the third person the teacher talks ABOUT (heartHint, myWordsHint, showOnBoard) and is the ordinary BR word — «a classe» reads European.\n\nCHIP LENGTHS at 320px: the longest of the fourteen is «Cartelas para dobrar» (20) and «Mostrar para a turma» (20); bigWord/bigWordLeave were cut from the shipped «Palavra grande» / «Voltar ao tamanho normal» (23 — it did not fit) to «Maior» / «Menor», which a six-year-old reads and which a 44px chip holds at any width.\n\nDISAGREEMENT WITHIN THE PANEL, recorded. The marketing writer wanted gateSave to lead with the benefit («Leve suas palavras para o ano inteiro…»). The teacher refused: the notice appears at the moment a save is REFUSED, and a sales sentence in that slot reads as a taunt. We kept the sibling's factual shape — what is paid, what is free — and moved the persuasion into the FREE half of the sentence, which is also the more accurate half now that we have checked that showOnBoard has no entitlement gate.\n\nONE MORE FOR THE BUILD, outside our 43. The pt bank ships «também» as t|a|m|b|é|m with only the final m hearted, and «bem» / «tem» / «com» as three parts each. The header of heart-words.js states that boxes[] are aligned 1:1 to PHONEMES. A nasal vowel written with two letters (a+m, e+m) is one phoneme, so those entries have more boxes than the child has sounds. It is a defensible teaching choice — the letter that causes the trouble gets its own square and its own heart — but it is not what the header says the contract is, and a Brazilian teacher reading the boxes as sounds will count wrong. Worth an explicit ruling in the bank's own comment before the pt shelves ship."
+}

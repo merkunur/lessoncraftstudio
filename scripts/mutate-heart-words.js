@@ -124,14 +124,16 @@ M.push(['⭐ a shared list is trusted without re-validation',
   'var c = this._sanitiseCustom(parsed[i]);',
   'var c = parsed[i];']);
 M.push(['_sanitiseCustom accepts boxes that do not spell the word',
-  'if (boxes.join(\'\') !== display) return null;',
+  'if (boxes.join(\'\') !== fold) return null;',
   'if (false) return null;']);
 M.push(['_sanitiseCustom accepts a fully-hearted word',
   'if (!heart.length || heart.length > this.heartCap(boxes.length)) return null;',
   'if (false) return null;']);
+/* ⚠ the strip now KEEPS the apostrophe and the hyphen (they are part of the
+   word — `l’ape`, `guarda-chuva`) and no longer case-folds the display */
 M.push(['_sanitiseCustom lets non-letters through',
-  "var display = String(raw.display || '').toLowerCase().replace(/[^\\p{L}]/gu, '');",
-  "var display = String(raw.display || '').toLowerCase();"]);
+  "var display = String(raw.display || '').replace(/'/g, '’').replace(/[^\\p{L}’-]/gu, '');",
+  "var display = String(raw.display || '');"]);
 
 /* ---- THE SPEECH LOCK (T6) — no isolated phonemes, ever ---- */
 M.push(['speech leaks an isolated-phoneme type',
@@ -170,10 +172,17 @@ M.push(['⭐ the write boxes print the word the child is meant to retrieve',
   "var b = api.el(blank ? 'div' : 'button', 'hw-box');",
   "var b = api.el(blank ? 'div' : 'button', 'hw-box'); if (blank) b.textContent = w.boxes[i];"]);
 M.push(['⭐ the machine GUESSES the heart',
-  "store.drafts.push({ id: 'my:' + raw, display: raw, boxes: boxes, heart: [], sentence: '' });",
-  "store.drafts.push({ id: 'my:' + raw, display: raw, boxes: boxes, heart: [0], sentence: '' });"]);
-M.push(['⭐ Save is live before the teacher has marked anything',
-  '    save.disabled = !d.heart.length;', '    save.disabled = false;']);
+  "store.drafts.push({ id: 'my:' + raw, display: shown, boxes: boxes, heart: [], sentence: '' });",
+  "store.drafts.push({ id: 'my:' + raw, display: shown, boxes: boxes, heart: [0], sentence: '' });"]);
+M.push(['⭐ the keep control is available before the teacher has marked anything',
+  "    save.setAttribute('aria-disabled', d.heart.length ? 'false' : 'true');",
+  "    save.setAttribute('aria-disabled', 'false');"]);
+/* ⚠ the teacher's capital is a GERMAN correctness matter, not cosmetics:
+   a bank full of capitalised nouns beside her own lowercased "kuh" is two
+   spellings of one word, in a tool about which letters a word has */
+M.push(["the teacher's capital is folded away (Kuh -> kuh)",
+  "      var shown = parts[i].trim().replace(/'/g, '’').replace(/[^\\p{L}’-]/gu, '');",
+  "      var shown = parts[i].trim().toLowerCase().replace(/[^\\p{L}]/gu, '');"]);
 M.push(['⭐ a free visitor can keep the list',
   "      if (!self.premium) { self.notice = 'gateSave'; self.render(); return; }",
   '      if (false) { return; }']);

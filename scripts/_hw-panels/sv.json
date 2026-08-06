@@ -1,0 +1,126 @@
+{
+  "locale": "sv",
+  "englishDefects": [
+    {
+      "key": "looksDecodable",
+      "problem": "The tool's name is printed twice. heart-words.js:1692-1700 sets `wl.textContent = api.t('looksDecodable') + ' '` and then appends an anchor whose text is `api.t('siblingSbx')` — so the rendered warning reads \"... Sound Boxes may suit it better. Sound Boxes\", ending on a bare repeated noun. The string names something the code is already about to name.",
+      "correction": "End the string on a lead-in and let the link carry the name: \"Nothing is marked by heart yet. As it stands this word can be sounded out — it belongs better in:\""
+    },
+    {
+      "key": "printNote",
+      "problem": "The wall strip is told to fold along a line the stylesheet deletes. `_buildPrintSheet` uses `printNote` for every sheet except 'home', so the strip gets it — but the print CSS ends with `.hw-printsheet[data-sheet=\"strip\"] .hw-printcard::after{display:none}`, which removes the dotted fold line on exactly that sheet, and `_printCard` builds no back face for the strip at all (`if (kind !== 'strip')`). There is nothing to fold and nothing marking where. Separately, \"the dashed line\" is not identifiable: `.hw-printcard` and `.hw-printtail` both carry `0.4mm dashed #555`, so a word with a silent tail prints two different dashed shapes on one card.",
+      "correction": "\"Cut around the outside of each card. Where a dotted line crosses a card, fold there. The heart marks the part we learn by heart.\" — true on cards and on the strip alike."
+    },
+    {
+      "key": "homeNote",
+      "problem": "The take-home card is a fold-over that the note never mentions, and without the fold the sheet does not work. `blank = kind === 'home'` prints every box EMPTY, so the only place the word itself appears on a home card is the sentence — and `.hw-printback{transform:rotate(180deg)}` applies to home as well as to the cards. The sentence therefore prints upside down. A child is handed empty boxes, an inverted sentence and an instruction to write the word.",
+      "correction": "\"Cut out the card and fold it along the dotted line. Write the word in the empty boxes, then colour the heart.\""
+    },
+    {
+      "key": "tooLong",
+      "problem": "Three separate conditions share one sentence and it is wrong for two of them. At heart-words.js:1616 it fires when a SEAM SPLIT pushes the word past MAX_BOXES — the word has not changed length, and \"try a shorter word\" is not a move the seam editor offers; the fix is to rejoin two letters, which is the opposite of what the sentence says. At line 1574 it fires when `segment()` returns null, and `segment` returns null at `if (out.length < 2) return null` — so a ONE-LETTER word is told it is too long. Only the `raw.length > MAX_LETTERS` branch is about length at all.",
+      "correction": "Describe the boxes, which is the true constraint in all three cases, and delete the impossible instruction: \"That will not fit the boxes — they hold two to six parts.\""
+    },
+    {
+      "key": "tooManyHearts",
+      "problem": "\"Nearly all of it\" is not what triggers this. `heartCap(n) = Math.min(2, Math.floor(n / 2))`, so it appears at 2 of 4, at 3 of 5 and at 3 of 6 — proportions no one would call nearly all. The teacher sees a message that does not describe her screen, and the actual rule (never more than two) appears nowhere in the interface.",
+      "correction": "\"One or two parts by heart, no more — the parts that follow the code are the lesson.\""
+    },
+    {
+      "key": "myWordsHint",
+      "problem": "It reports work that has not happened. The line is appended unconditionally at the top of the My-words tab (heart-words.js:1506-1508), before any word exists, so a teacher opening the tab for the first time reads \"We have guessed where the sounds break\" over an empty text box. Its last clause is also a word-for-word copy of `heartHint`, which renders a few elements below it in the same view.",
+      "correction": "Write it as the standing rule and let heartHint keep the heart instruction: \"Every word you add, we split into sounds for you. Say the word slowly and fix the split wherever your mouth does something else.\""
+    },
+    {
+      "key": "workedExample",
+      "problem": "The phonetic transcription is wrong and the example is in the wrong language. \"one\" is /wʌn/; /u/ denotes the vowel of \"boot\". In the single string whose whole job is to teach a teacher to trust her mouth over the machine, the mouth is transcribed incorrectly. And because `segment()` reads `GRAPHEME_INVENTORY[lang]`, an English word demonstrates the English segmenter and predicts nothing about what this tool will do to a Swedish word.",
+      "correction": "Replace with a native word this tool's own segmenter genuinely gets wrong (Swedish ruling in notes), and use the sound names a Swedish class already has rather than slashes."
+    },
+    {
+      "key": "saveWord",
+      "problem": "\"Use this word\" names the wrong one of the two buttons. `showOnBoard`, immediately beside it, is what actually uses the word — it writes `self.transient` and puts it on the board at once, and it is free. This one pushes to `store.custom` and is Premium-gated. The free, immediate action is called \"show\" and the paid, deferred one is called \"use\".",
+      "correction": "\"Keep this word\""
+    },
+    {
+      "key": "gateSave",
+      "problem": "Not the boundary the code draws. Every add, seam tap and heart tap calls `_saveStore()`, which serialises the entire `_store` — `drafts` included — to localStorage for free visitors, so free words already survive a reload. `_ingestSharedList` goes further and writes directly into `store.custom` with no premium check whatsoever, so a shared `?add=` link hands a free visitor a saved list outright. Premium gates a word JOINING the teacher's own shelf: the board list, the bookshelf, the printouts.",
+      "correction": "\"Putting your own words on your shelf is part of Premium — building them and showing them on the board is always free.\""
+    },
+    {
+      "key": "copyList",
+      "problem": "A link is copied, not a list. `_copyList` assembles `origin + '/mini-tools/heart-words.html?lang=…&add=' + JSON.stringify(payload)`. All three sibling tools label the same action \"Copy link to …\", so this is both inaccurate and the odd one out.",
+      "correction": "\"Copy a link to my list\""
+    },
+    {
+      "key": "copied",
+      "problem": "It can report a copy that did not happen. `navigator.clipboard.writeText(url).then(done, done)` hands the same callback to both outcomes, and the surrounding code calls `done()` again when there is no clipboard API. In a browser that refuses clipboard access — an embedded iframe, most likely — the teacher is told the link is on her clipboard and it is not.",
+      "correction": "The fix belongs in the code (`.then(done, fail)`); the string should not be softened into uselessness. Keep \"Link copied — paste it wherever you keep your links.\" conditional on the rejection path no longer reporting success."
+    },
+    {
+      "key": "searchNone",
+      "problem": "The scope is wrong in a way that misinforms. `_paintWordList` searches through `wordsForShelf()`, which returns `[]` for locked shelves, so a free visitor searching for a word that exists on a Premium shelf is told nothing matches. She will conclude the tool does not have the word.",
+      "correction": "\"Nothing on your shelves matches that.\""
+    },
+    {
+      "key": "duplicateSkip",
+      "problem": "Said inside the My-words tab, but `_hasWord` matches across `allWords()` — every curated word on an unlocked shelf as well as the teacher's own. So it fires for words that are nowhere in the list she is looking at.",
+      "correction": "\"That word is already on one of your shelves.\""
+    },
+    {
+      "key": "writePrompt",
+      "problem": "\"bring it back\" corresponds to no control. The write face has one button and it says \"Show the word\". This string is also what `api.announce()` speaks when the face opens (heart-words.js:829), so for a screen-reader user it is the only instruction for that face and it points at a control that does not exist under that name. \"it\" is ambiguous besides — the word on the screen, or the paper.",
+      "correction": "\"Write the word. Then show it and look.\""
+    },
+    {
+      "key": "deleteWord",
+      "problem": "It is not a chip. `_customRow` renders the button as `del.innerHTML = '&#10005;'` and uses this string only as an aria-label prefix — `api.t('deleteWord') + ': ' + item.display`. It is never displayed, has no width constraint, and must be optimised as spoken text that runs into a word.",
+      "correction": "No change to the English; the 44px constraint should be removed from the brief so translators write for speech."
+    }
+  ],
+  "strings": {
+    "heartLegend": "Hjärtat visar delen vi lär oss utantill.",
+    "writeIt": "Skriv ordet",
+    "writePrompt": "Skriv ordet. Visa det sedan och titta noga.",
+    "showWord": "Visa ordet",
+    "bigWord": "Stort ord",
+    "bigWordLeave": "Mindre igen",
+    "deskWords": "Ord",
+    "deskMine": "Mina ord",
+    "deskPrint": "Skriv ut",
+    "deskBack": "Tillbaka till tavlan",
+    "searchWords": "Hitta ett ord",
+    "searchNone": "Inget ord på dina hyllor stämmer med det.",
+    "teacherNote": "Varför det här ordet lurar",
+    "teachShelf": "Använd den här hyllan",
+    "myWordsHint": "Varje ord du lägger till delar vi upp i ljud åt dig. Säg ordet långsamt och ändra delningen där munnen gör något annat.",
+    "workedExample": "Av ”kanske” gör vi k-a-n-s-k-e. Men s och k blir ett enda sje-ljud.",
+    "pasteHint": "Ett ord per rad",
+    "addWords": "Lägg till",
+    "seamHint": "Tryck mellan bokstäverna för att slå ihop eller dela dem.",
+    "heartHint": "Tryck på den del som klassen ska lära sig utantill.",
+    "sentenceOpt": "En mening till ordet (kan lämnas tom)",
+    "saveWord": "Spara ordet",
+    "showOnBoard": "Visa på tavlan",
+    "deleteWord": "Ta bort",
+    "myWordsShelf": "Mina ord",
+    "myWordMark": "vårt eget ord",
+    "needHeart": "Sätt först ett hjärta på en del – det är det som gör ordet till ett hjärteord.",
+    "tooManyHearts": "En eller två delar utantill, inte fler – delarna som går att ljuda är själva lektionen.",
+    "looksDecodable": "Ingen del har hjärta än. Som ordet står nu är det ljudenligt – då hör det hellre hemma i:",
+    "tooLong": "Det här får inte plats i raden: den rymmer två till sex delar.",
+    "duplicateSkip": "Det ordet finns redan på någon av dina hyllor.",
+    "capReached": "Listan är full. Ta bort ett ord för att lägga till ett nytt.",
+    "copyList": "Kopiera länk till min lista",
+    "copied": "Länk kopierad – klistra in den där du sparar dina länkar.",
+    "deviceOnly": "Dina ord stannar i den här webbläsaren, på den här enheten.",
+    "gateSave": "Att lägga dina egna ord på hyllan ingår i Premium – att bygga dem och visa dem på tavlan är alltid gratis.",
+    "sheetCards": "Vikkort",
+    "sheetStrip": "Väggremsa",
+    "sheetHome": "Blad att ta hem",
+    "scopeShelf": "Den här hyllan",
+    "scopeMine": "Mina ord",
+    "printNote": "Klipp runt varje kort. Går det en prickad linje över ett kort viker du det där. Hjärtat visar delen vi lär oss utantill.",
+    "homeNote": "Klipp ut kortet och vik det på den prickade linjen. Skriv ordet i de tomma rutorna och färglägg sedan hjärtat."
+  },
+  "notes": "WORKEDEXAMPLE RULING — substituted, not kept, and the substitution was chosen by running this tool's own segmenter by hand. GRAPHEME_INVENTORY.sv is ['ll','tt','ss','nn','mm','pp','rr','kk','gg','ck','ng','sj','skj','stj','kj','tj','hj','lj','dj','gj','rs','rt','rd','rn','rl'] — 'sk' is NOT in it. Greedy longest-match on ”kanske” therefore yields k | a | n | s | k | e, six parts, while the mouth says five: k – a – n – sje-ljud – e. It is a genuine failure of this code, on one of the most common words an åk-1 child meets, and it is repaired by a single tap on the seam the string sits directly above. We rejected ”matjord” (where the machine welds t|j into a tje-ljud across the compound seam — a real and better-known error, but not åk-1 vocabulary) and ”stjärna” / ”skjorta”, where the machine is in fact correct. Related code finding outside our remit: the absence of 'sk' from the sv inventory is what makes the example work, and someone should decide whether that is a gap or a deliberate omission.\n\nLEXICON COLLISIONS ROUTED AROUND — 'ruta' is heavily taken: Sound Boxes IS Ljudrutor, and Letter Tiles ships Bokstavsrutor. The parts of a word here are therefore 'delar' throughout, which is what the shipped boxOf ('Del {i} av {n}') already says and what the sv word bank already writes ('går inte att dela i två delar'). We changed tooLong away from the shipped 'för långt för rutorna' for exactly this reason. ONE deliberate exception: homeNote keeps 'rutorna', because there it names literal printed squares on paper that the child writes into, 'de tomma delarna' is not Swedish anyone says, and no child holding a paper sheet is going to confuse it with another tool. 'Kort' is taken by Blending Board (kortlek) and Letter Tiles (ordkort), so the print sheet is the compound 'Vikkort', which is a distinct object.\n\nA COLLISION WE DID NOT ROUTE AROUND, DELIBERATELY — 'tavlan'. Blending Board is named Ljudtavla and Letter Tiles uses 'tavlan' generically ('Dra bokstäver till tavlan', 'Fri tavla'). But 'tavlan' is simply the Swedish classroom noun for the board at the front, both siblings already use it that way, and inventing a synonym for the one surface the teacher physically points at would cost more than the overlap. deskBack and showOnBoard therefore keep it.\n\nDEFINITE FORMS, SAID ALOUD — every definite we wrote was checked, after the 'banan' incident. hyllan, hyllor, tavlan, ordet, orden, hjärtat, listan, raden, delen, delarna, rutorna, linjen, kortet, munnen, webbläsaren, enheten, delningen. None is a homograph of another word. We avoided 'bana' entirely and had no need of it.\n\nSIBLING PATTERN ADOPTED — all three siblings label the commit action with 'Använd …' (Använd dessa ord / Använd denna kortlek / Använd dessa kort), so teachShelf became 'Använd den här hyllan' rather than the shipped 'Arbeta med den här hyllan'. copied opens on 'Länk kopierad', the exact phrase all three siblings use. addWords stays inside the siblings' 'Lägg till ord' family, shortened to 'Lägg till' because the object is already the surrounding field.\n\nPAID-PLAN NAME — 'Premium', unchanged. All three siblings say Premium in Swedish (premiumLine, lockedLabel), and this tool's own gatePremium and unlock already do. No synonym invented.\n\nREGISTER AND NATIVE TERMINOLOGY — 'ljudenligt' in looksDecodable is the professional term a Swedish åk-1 teacher uses for a word that can be sounded out as written; its opposite, 'ljudstridig', is precisely what this whole tool is about. The desk is adult-facing, so we used the real word rather than a paraphrase. 'sje-ljud' in workedExample is likewise the class's own name for the sound, and the shipped sv bank already has a shelf called 'Sje-ljudet'. myWordMark moved from 'ert eget ord' to 'vårt eget ord' — it renders on the child's card, and every other child-facing line in this tool speaks as 'vi' (Den här delen lär vi oss utantill), so addressing the class as 'ni' there was the odd one out.\n\nBANNED-VOCABULARY NOTE — we used 'ändra' rather than the natural 'rätta' in myWordsHint. 'Rätta delningen' is the sentence a Swedish teacher would write, but 'rätta' carries the verdict sense and shares its stem with the banned 'rätt svar'; 'ändra' says the same thing with none of the freight. No string contains 'fel' in any form, nor any of the banned English tokens.\n\nCHIP WIDTHS — measured against the CSS rather than estimated. .hw-tab, .hw-radiobtn and .hw-ed-btn all declare min-height:44px inside flex-wrap rows, so 44px is the tap height and a long label wraps instead of clipping; the genuine hazard is line-height:1 on those rules, which makes two wrapped lines collide. Swedish compounds nowhere near that here — the longest chip is 'Blad att ta hem' at 15 characters, and at 320px the sheet row and the two editor buttons each wrap cleanly to a second row.\n\nTHREE KEYS, ONE STRING — deskMine, myWordsShelf and scopeMine are all 'Mina ord'. Correct, but a future edit that touches one and not the others will produce a silent drift across three surfaces.\n\nDISAGREEMENT WITHIN THE PANEL — the marketing writer wanted gateSave to lead with what is free ('Bygg och visa dina egna ord gratis …'), on the grounds that a paywall line reads better opening on the gift. The teacher objected that the line appears at the exact moment a save is refused, and burying the refusal under an offer is how a teacher ends up not knowing why her word vanished. We kept the refusal first and the free part second, which is also the shape the shipped gatePremium already uses. Separately, the linguist wanted 'ljudstridigt' rather than 'ljudenligt' in looksDecodable; it is the more precise term for what this tool collects, but the message fires on the opposite case — a word that is NOT ljudstridigt — so 'ljudenligt' is the correct pole."
+}

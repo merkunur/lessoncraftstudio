@@ -1,0 +1,106 @@
+{
+  "locale": "da",
+  "englishDefects": [
+    {
+      "key": "saveWord",
+      "problem": "WRONG VERB, and it collides with the free button standing next to it. heart-words.js:1708-1722 `showOnBoard` (\"Show on the board\") is the control that USES the word — it puts it live on the class board, and it is FREE. heart-words.js:1724-1743 `saveWord` does not use the word at all: it pushes it into `store.custom` (persistence) and is premium-gated (`if (!self.premium) { self.notice = 'gateSave' }`). Its own gate string already says \"KEEPING your own word list is part of Premium\". So the label says use, the code says keep, and the button that genuinely means use sits immediately to its left in the same `.hw-ed-acts` flex row. A teacher presses the wrong one and meets a paywall for a feature she did not ask for. Cross-tool as well: sound-boxes and letter-tiles both ship \"Use these words\" / \"Use these cards\" for their APPLY-NOW action, so \"use\" already means something else in this quartet.",
+      "correction": "\"Keep this word\" (or \"Save to my list\"). Any verb except the one the free neighbour owns."
+    },
+    {
+      "key": "looksDecodable",
+      "problem": "Prints the sibling tool's name TWICE. heart-words.js:1692-1700 sets `wl.textContent = api.t('looksDecodable') + ' '` and then appends an <a> whose text is `api.t('siblingSbx')` = \"Sound Boxes\". The rendered line is: \"This one looks like it can be sounded out. Sound Boxes may suit it better. Sound Boxes\".",
+      "correction": "Drop the name from the prose and let the link carry it, ending on a colon so the anchor reads as the continuation: \"This one looks like it can be sounded out. Another tool may suit it better:\""
+    },
+    {
+      "key": "printNote",
+      "problem": "Instructs a fold the code deliberately deletes. heart-words.js:1902 is `note.textContent = kind === 'home' ? api.t('homeNote') : api.t('printNote')` — so printNote prints on the WALL STRIP as well as on the cards. But heart-words.js:1941 `if (kind !== 'strip')` means the strip is never given a back face, and the print CSS at heart-words.js:2485 `.hw-printsheet[data-sheet=\"strip\"] .hw-printcard::after{display:none}` explicitly removes the dotted fold line for the strip. On the wall strip the sheet therefore tells the teacher to fold along a dotted line that the tool has just taken away, on a card that has nothing on its other side.",
+      "correction": "Best fix is a third key `stripNote` (cut only), selected alongside `homeNote`. Without a new key, scope the fold clause to the artefact it belongs to so it is never an instruction on a strip page: \"Cut along the dashed line. The fold-over cards fold along the dotted line. The heart marks the part we learn by heart.\" I have written the Danish that way."
+    },
+    {
+      "key": "myWordMark",
+      "problem": "This string is CHILD-FACING and the brief classifies it as adult-facing. heart-words.js:966-969 renders it inside `_buildCard`'s FRONT face — the child's mapping card — so it is on the projector, on both the `board` and the `big` surface. And \"YOUR own word\" addresses nobody who is looking at it: the word belongs to the teacher, the audience is twenty-five children.",
+      "correction": "Make it class-facing and collective: \"our own word\". (Also: move it into the child-facing constraint set for future rounds.)"
+    },
+    {
+      "key": "writePrompt",
+      "problem": "Names a move the screen does not offer, to the youngest reader in the tool. On the write face (heart-words.js:1028-1039) the ONLY control is `showWord` = \"Show the word\". The prompt says \"Write the word, then BRING IT BACK and look.\" Nothing is brought back — the word comes back — and \"it\" reads most naturally as the child's own writing, which is the one thing that stays put. A 5-7-year-old is told to do something no button does.",
+      "correction": "Tie the prompt to the button that exists: \"Write the word first. Then show the word, and look at yours.\""
+    },
+    {
+      "key": "copyList",
+      "problem": "The label and the clipboard disagree, and `deviceOnly` is printed between them saying the opposite. heart-words.js:1783-1797 `_copyList` puts a URL on the clipboard (`/mini-tools/heart-words.html?lang=…&add=<json>`) — a link, not a list. In `_deskMine` the render order (heart-words.js:1545-1554) is `deviceOnly` FIRST (\"Your words stay in this browser, on this device.\") and the \"Copy my list\" button immediately BELOW it — i.e. the sentence denying portability sits directly on top of the mechanism that provides it. Only `copied` mentions links, and only after the click. All three sibling tools already ship the honest form: \"Copy link to the word\" / \"Link copied!\".",
+      "correction": "Name the link in the LABEL, as the siblings do: copyList -> \"Copy a link to my list\"; copied -> \"Link copied - paste it where you keep your links.\"; deviceOnly -> say nothing leaves the browser AND point down at the link as the way to carry them."
+    },
+    {
+      "key": "myWordsHint",
+      "problem": "The sequence it gives is exactly right and load-bearing, but it hides why. heart-words.js:1612-1622: tapping any seam sets `d.heart = []` — every heart the teacher has placed is discarded — and the same path sets `self.notice = null`, so there is no message. A teacher who hearts first and then nudges one seam watches her work vanish with no explanation.",
+      "correction": "State the consequence, not just the order: \"...fix the breaks FIRST - moving a break clears the heart.\""
+    },
+    {
+      "key": "workedExample",
+      "problem": "Three faults. (1) Tense: \"We WILL break\" — heart-words.js:1510-1515 shows this as a permanent static row beside the paste box, read before and after every add, so the breaking is not in the future. (2) It is an ENGLISH word shown to ten non-English classrooms, while the segmenter actually running is the LOCAL one; the example is only load-bearing in the language whose code the teacher is teaching. (3) READ THE INVENTORY BEFORE PICKING A SUBSTITUTE - the brief's own hints do not survive contact with the code. For Danish I measured `segment()` (heart-words.js) against GRAPHEME_INVENTORY.da: `hvad` -> hv-a-d, i.e. hv- is ALREADY a listed da grapheme and the machine gets it RIGHT, so hv- is a success and cannot be the worked failure. And silent letters cannot be the failure either, because this bank's own convention gives a silent letter its own box plus a heart (heart-words-da.json ships `og` as o-g heart on g; `det` as d-e with silentTail t) - the machine's per-letter split is the CORRECT answer there and the teacher only adds the heart. Likewise `mig` is unusable: heart-words-da.json:1220 curates it as m-i-g with the heart on g, identical to the machine.",
+      "correction": "Present tense, and a native word whose failure is real under the DANISH inventory. I measured `have` -> h-av-e: the machine wrongly JOINS a+v because `av` is a legitimate Danish grapheme (hav, lav) but not inside have, where the mouth says h-a-v-e. `have` is not in the shipped da bank, so nothing on the shelf contradicts it, and the repair is a seam SPLIT - which rehearses `seamHint` on the next line."
+    },
+    {
+      "key": "pasteHint",
+      "problem": "Narrower than the code, though not false. `_addFromText` (heart-words.js:1562) splits on `/[\\n,;]+/` - commas and semicolons work as well as newlines.",
+      "correction": "No change needed (a teacher pasting a comma list is pleasantly surprised, not misled). Recorded so nobody 'fixes' the splitter to match the hint."
+    },
+    {
+      "key": "deleteWord",
+      "problem": "The brief lists this among the chip labels that must fit a 44px button. It is NOT a chip. heart-words.js:1767-1770: the button's visible face is the glyph &#10005; and this string is used ONLY as `aria-label` = t('deleteWord') + ': ' + item.display, i.e. it is spoken as \"Remove: the\".",
+      "correction": "No text change - but the constraint is wrong: it must read well as VERB + colon + word to a screen reader, and its width is irrelevant."
+    },
+    {
+      "key": "needHeart",
+      "problem": "Not a defect, recorded so it is written for the right reader. heart-words.js:1730 sets `save.disabled = !d.heart.length`, so the needHeart branch inside the save handler (1732) is unreachable by mouse; the string only ever fires from `showOnBoard` (1712), which is the FREE path. It is therefore read by a teacher who has not paid, at the moment she tries to put her own word on the board.",
+      "correction": "None. Keep it warm and non-blaming; it is a first-contact string, not an error."
+    }
+  ],
+  "strings": {
+    "heartLegend": "Hjertet sidder på den del, vi lærer udenad.",
+    "writeIt": "Skriv det selv",
+    "writePrompt": "Skriv ordet først. Tryk så på Vis ordet, og kig på dit eget.",
+    "showWord": "Vis ordet",
+    "bigWord": "Vis stort",
+    "bigWordLeave": "Vis mindre",
+    "deskWords": "Ordene",
+    "deskMine": "Mine ord",
+    "deskPrint": "Print",
+    "deskBack": "Tilbage til tavlen",
+    "searchWords": "Find et ord",
+    "searchNone": "Ingen af ordene her passer til det.",
+    "teacherNote": "Derfor snyder det her ord",
+    "teachShelf": "Tag den her hylde",
+    "myWordsHint": "Vi har gættet, hvor lydene deles. Sig ordet langsomt, og flyt delingerne derhen, hvor de hører til – gør det først, for flytter du en deling bagefter, forsvinder hjertet. Tryk så på den del, klassen skal lære udenad.",
+    "workedExample": "Vi deler »have« som h-av-e. Munden siger /h/ + /a/ + /v/ + /e/.",
+    "pasteHint": "Ét hjerteord pr. linje",
+    "addWords": "Tilføj",
+    "seamHint": "Tryk mellem bogstaverne for at dele dem eller samle dem.",
+    "heartHint": "Tryk på den del, der skal læres udenad.",
+    "sentenceOpt": "En sætning til ordet (må gerne stå tom)",
+    "saveWord": "Gem ordet",
+    "showOnBoard": "Vis på tavlen",
+    "deleteWord": "Fjern",
+    "myWordsShelf": "Mine ord",
+    "myWordMark": "vores eget ord",
+    "needHeart": "Sæt først et hjerte på en del – det er dét, der gør ordet til et hjerteord.",
+    "tooManyHearts": "Hvis næsten hele ordet er hjerte, lærer barnet formen i stedet for lydene.",
+    "looksDecodable": "Det her ord kan vist lydes helt igennem. Et andet værktøj passer måske bedre:",
+    "tooLong": "Det ord er for langt til boksene – prøv et kortere.",
+    "duplicateSkip": "Det ord står her allerede.",
+    "capReached": "Listen er fuld. Fjern et ord for at få plads til et nyt.",
+    "copyList": "Kopiér link til listen",
+    "copied": "Link kopieret – sæt det ind, hvor I gemmer jeres links.",
+    "deviceOnly": "Ordene bliver kun liggende i denne browser på denne enhed. Linket herunder er måden at tage dem med et andet sted hen.",
+    "gateSave": "En gemt ordliste er en del af Premium – at bygge den er altid gratis.",
+    "sheetCards": "Foldekort",
+    "sheetStrip": "Vægstrimmel",
+    "sheetHome": "Ark til hjemmet",
+    "scopeShelf": "Den her hylde",
+    "scopeMine": "Mine ord",
+    "printNote": "Klip langs den stiplede linje. Foldekortene foldes langs den prikkede linje. Hjertet viser den del, vi lærer udenad.",
+    "homeNote": "Skriv ordet i de tomme bokse, og farvelæg så hjertet."
+  },
+  "notes": "WORKED EXAMPLE RULING (da). Measured, not assumed: I ran heart-words.js `segment()` against GRAPHEME_INVENTORY.da over twenty-two candidates. Chosen: »have« -> h-av-e. The machine JOINS a+v because `av` is a real Danish grapheme (hav, lav, gavl) and it has no way to know it is not one inside have, where the mouth says /h/+/a/+/v/+/e/. Three boxes, four sounds. Rejected, each for a reason found in the code rather than in taste: (a) hv- words, because `hv` is already in the da inventory and `hvad` measures as hv-a-d, i.e. correct - the brief's hint is wrong for Danish; (b) every silent-letter word (og, det, glad, vand), because this bank's own convention gives a silent letter its own box and a heart - heart-words-da.json ships `og` as o-g with the heart on g - so the machine's split is the RIGHT answer and only the heart is missing, which is not a failure; (c) `mig`, because heart-words-da.json:1220 curates it as m-i-g with the heart on g, exactly what the machine produces - calling it an error would contradict the shelf two clicks away. `have` appears nowhere in the da bank, so nothing contradicts it, and the repair is a seam SPLIT, which is the gesture `seamHint` teaches on the very next line. Deliberately the OPPOSITE error from the Norwegian panel's (a wrong join here, a wrong split there), so the two locales teach two different lessons and cannot read as one text respelled.\n\nCOLLISIONS ROUTED AROUND (against the shipped da lexicon of sound-boxes.js, blending-board.js, letter-tiles.js). saveWord: the siblings own \"Brug disse ord\" / \"Brug disse kort\" for APPLY-NOW, so \"Brug det her ord\" would have collided in both word and meaning - and it was the wrong verb anyway (englishDefects #1). Took \"Gem ordet\". addWords: siblings ship \"Tilføj ord\"; shortened to \"Tilføj\", which both de-collides and fits the chip. pasteHint: siblings ship \"Skriv ugens ord – ét pr. linje.\"; took \"Ét hjerteord pr. linje\", which uses this tool's own noun instead. seamHint: sound-boxes ships \"...for at dele bokse eller slå dem sammen\"; took the different verb pair dele/samle - the gesture stays recognisable across the quartet, the sentence does not repeat. teachShelf: avoided \"Brug\" for the same reason as saveWord; took \"Tag den her hylde\". copyList/copied: deliberately MOVED TOWARDS the siblings, which already ship \"Kopiér link til ordet\" / \"Link kopieret!\" - the shipped lexicon is the evidence that englishDefects #6 is a real defect and not a preference.\n\nCOLLISION ACCEPTED AND NAMED: tavlen. blending-board is called \"Lydtavle\" and letter-tiles ships \"Fri tavle\", so -tavle is already a tool name in this quartet, and deskBack/showOnBoard use tavlen for the classroom board. I kept it: tavlen is what a Danish teacher calls the surface at the front of the room, the sibling names are compounds, and bare \"tavlen\" is unambiguous in context. Renaming it to skærmen would be worse - the child's surface is a board, not a screen.\n\nDA/NO COLLISIONS. Four strings are identical to the Norwegian panel's and I left them so deliberately, because forcing a difference would have produced worse copy in one of the two languages: showWord (\"Vis ordet\" is simply the same in both), and deskMine / myWordsShelf / scopeMine (\"Mine ord\", which the siblings also ship in both languages - four tools calling the teacher's own list the same thing is coherence, not laziness). Everything else diverges on a real axis rather than a cosmetic one: Tilføj vs Legg til, Gem vs Lagre, Fjern vs Slett, Print vs Utskrift, Ordene vs Ordbanken, Foldekort vs Brettekort, Vægstrimmel vs Veggstripe, Ark til hjemmet vs Hjemmeark, Vis stort vs Forstørr ordet, »have« vs «ski», \"den her hylde\" vs \"denne hylla\", pr./Ét vs per/ett, and Kopiér (acute) vs Kopier - the last two are orthographic differences the two languages genuinely have, and the siblings already ship them that way.\n\nDEFINITE FORMS, SAID ALOUD (the sibling-tool near-miss the brief warns about). Checked every definite I wrote: ordene, tavlen, listen, boksene, linjen, linket, hjertet, klassen, munden, ordet. None is spelt like an unrelated everyday noun. Worth recording that hylde has a homograph verb - at hylde means to acclaim - but it never appears bare: it is always carried by a determiner (\"den her hylde\", \"Ordhylder\"), so it cannot be misread.\n\nNO-VERDICT LAW. I removed my own first draft of myWordsHint, which said \"ret delingerne\". Danish ret / at rette is the teacher's marking word, and in a tool whose stated law is that nothing is ever marked, telling the teacher to CORRECT the machine imports exactly the frame the tool exists to refuse. Rewrote as \"flyt delingerne derhen, hvor de hører til\" - it names the gesture instead of judging the state, and it is also plainer Danish. Nothing anywhere contains rigtigt svar, forkert or fejl; no string carries a count placeholder, a score, a time or a badge.\n\nONE BANNED-TOKEN COLLISION, FOR THE GATE'S ATTENTION. My first teacherNote was \"Derfor driller det her ord\" - at drille is the ordinary Danish verb for a word that trips a child up, and it is the exact register a Danish reading teacher uses. It also CONTAINS the banned English token drill as a substring. I changed it to \"Derfor snyder det her ord\", which is just as native, rather than ship a string that may fail the build. But the finding is worth recording in the other direction too: if the ban is a bare substring match, it will keep rejecting correct Danish - drille, drillede, drilagtig are all ordinary words, and so is Danish test in the sense of a hearing test. A ban that rejects correct native prose teaches a panel to write around it instead of reporting it. Recommend the English tokens be matched on word boundaries with a Latin-letter guard rather than as substrings.\n\nREGISTER. 0.-2. klasse, so: børnehaveklasse-through-2.-klasse teacher prose on the desk, and short warm sentences on the board. The plan is called Premium, in the sibling tools' own sentence shape (\"... er en del af Premium – ... er altid gratis\"); I did not invent a synonym. printNote is written per englishDefects #3 so the fold clause names the fold-over cards rather than instructing a fold on the wall strip, where the code removes the line - but the honest fix is a third key, and I recommend it."
+}

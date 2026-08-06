@@ -705,7 +705,15 @@ function checkTool(tool, src) {
   if (!/getElementById\(\s*['"]hw-style['"]\s*\)/.test(src)) err('T8 CSS injector is not idempotent on #hw-style');
   if (!/@media print/.test(src)) err('T8 injected CSS has no @media print block');
   if (!/prefers-reduced-motion/.test(src)) err('T8 injected CSS has no reduced-motion block');
-  const lcsSel = (src.match(/['"][^'"]*\.lcs-[a-z-]+[^'"]*['"]/g) || [])
+  /* ⚠ Scan the CODE, not the prose. Comments legitimately NAME protected
+     selectors in order to explain a constraint ("the iframe height is
+     content-driven by a ResizeObserver on .lcs-app"), and an apostrophe
+     anywhere in that sentence makes the quoted-string pattern match a
+     paragraph of English. Stripping comments narrows WHAT is measured; it
+     does not weaken the rule — a real `.lcs-` selector in a real string
+     still fires, which the poison test below proves. */
+  const srcNoComments = src.replace(/\/\*[\s\S]*?\*\//g, '').replace(/^[ \t]*\/\/.*$/gm, '');
+  const lcsSel = (srcNoComments.match(/['"][^'"\n]*\.lcs-[a-z-]+[^'"\n]*['"]/g) || [])
     .filter(s => !/hw-wide/.test(s));
   if (lcsSel.length) err(`T8 tool writes protected .lcs- selectors: ${lcsSel.slice(0, 3).join(' ')}`);
 

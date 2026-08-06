@@ -1276,11 +1276,20 @@ var SyllableSplitter = {
       else pile.appendChild(tile);
     });
 
-    var back = api.el('button', 'ss-again');
-    back.type = 'button';
-    back.textContent = api.t('backToPile');
-    back.addEventListener('click', function () { self.penOf = {}; self._picked = null; self.render(); });
-    box.appendChild(back);
+    /* ⚠ ONLY WHEN THERE IS SOMETHING TO SEND BACK. With every tile still
+       in the pile this emptied an already-empty map and changed nothing —
+       the third consequence-free control in this tool, and the third one
+       only the shared liveness gate could see (it scored DEAD in the
+       premium state while all 152 local assertions were green). A reset
+       for a state that does not exist is furniture. */
+    var placed = Object.keys(this.penOf).length > 0;
+    if (placed || this._picked) {
+      var back = api.el('button', 'ss-again');
+      back.type = 'button';
+      back.textContent = api.t('backToPile');
+      back.addEventListener('click', function () { self.penOf = {}; self._picked = null; self.render(); });
+      box.appendChild(back);
+    }
     return box;
   },
 

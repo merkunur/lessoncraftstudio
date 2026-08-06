@@ -1248,6 +1248,56 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 ` to CRLF on Windows, which silently broke eleven multi-line mutation needles at once. Pass `newline=''`, or use node.
 
 
+⭐ **Bought on #22 (Syllable Splitter), and the first one cost a retraction:**
+- ⭐⭐ **A DEFECT CLASS THAT IS REAL FOR FOUR SIBLINGS CAN BE FALSE FOR THE FIFTH — AND TWO
+  EXPERT PANELS PLUS A SEVEN-ROW SOURCE TRACE CAN ALL BE WRONG TOGETHER.** I wrote up the
+  420px iframe clip as the headline finding, with citations. One browser run refuted it: this
+  tool never binds `#lcs-root{height:100%}`, so `.lcs-app{height:100%}` resolves against an
+  auto-height parent and the app was content-driven all along (shell posts 420→737→766).
+  **§23.6 already stated that exception** — the doc was right and all three of us were wrong.
+  ⚠ **A percentage height only pins if EVERY ancestor to the viewport has a definite height:
+  check the containing block, not the two ends.** And agreement between panels is not
+  independent confirmation — they read the same file and can share a premise.
+  ⚠ **But keep hunting after a retraction.** The real defect was one viewport away: standalone
+  on a phone there is no iframe to grow, and 320×568 put an 886px app in a 568px window with
+  `scrollY` pinned at 0 and the reveal control **physically unreachable**.
+- ⭐⭐ **EVERY ASSERTION MEASURED ONE BOX AGAINST A FLOOR, SO 141 OF THEM COULD NOT SEE A
+  COLLISION.** No-overflow, tall-enough, big-enough, reachable — all green while the build hint
+  shipped clipped mid-word under an absolutely positioned speaker. **Found by reading the
+  render.** The collision check then found a second instance I had not seen at all. ⚠ And
+  padding does not fix a BOX overlap: the out-of-flow control has to move to a corner nothing
+  else occupies.
+- ⭐⭐ **THE SHARED LIVENESS GATE WAS THE ONLY INSTRUMENT THAT COULD SEE FOUR DEAD CONTROLS**,
+  in all three entitlement states, while every other gate was green. "Mix them up" did nothing
+  on the **entire free shelf** (measured: a two-piece word has exactly **one** reachable order
+  under the identity guard); three locked shelf rows changed nothing because the gate line was
+  already rendered for every non-premium visitor; and the **selected tab** of a tab strip is not
+  a control at all — `disabled` it, at full contrast, because it is the active one.
+- ⭐⭐ **THE PAYWALL SOLD SOMETHING THE CODE GAVE AWAY, AND SO DID THE LANDING PAGE.** Both
+  native panels found it independently by **reading the model rather than the copy**:
+  `_saveStore` had no entitlement check, `customShelf()` was hard-coded `free:true`. ⚠ **A
+  never-referenced string is how it survived** — `saveWords` was authored in 11 locales and
+  wired to nothing, the fossil of the gate that was never built. **Audit what is actually
+  gated before writing any sentence about what is paid.**
+- ⭐ **A GATE WHOSE ORACLE READS THE SAME FILE MARKS ITS OWN HOMEWORK.** Poisoning a *string*
+  left the 11-locale smoke gate green (both sides moved together); poisoning the *render* fired
+  four assertions. It proves locale-selection, never translation quality — recorded in its own
+  docblock so nobody mistakes it for review.
+- ⭐ **A GATE CAN READ PROSE INSTEAD OF CODE.** A `.lcs-` ban matched a *comment* twice in a
+  row, because `[^'"]*` crosses newlines and an apostrophe in ordinary English opens a match.
+  Strip comments before scanning. ⚠ And the ban was **too wide**: `lcs-shell.css` ships **no
+  `@media print` block at all**, so a real worksheet MUST reset the shell — scope the ban to
+  screen rules, never forbid the correct thing.
+- ⚠ **`html,body.x-scroll` IS A SELECTOR LIST** — the `html` half applies unconditionally, so
+  the class is decorative and poisoning the `classList.add` proves nothing. Poison the RULE.
+  (The four sibling tools carry the same shape.)
+- ⚠ **TWO THINGS UNDER ONE CLASS NAME, AGAIN** — `.ss-ghost` was the sort drag ghost
+  (`position:fixed`) *and* a button modifier, so the desk's Copy button parked itself on top of
+  the hint. The recorded `.urt-lock` defect, walked into anyway.
+- ⚠ **I NEARLY FILED A DEFECT AGAINST MY OWN CORRECT FIX** by reading a screenshot wrong (a
+  vacated tray socket read as an empty slot). **Verify the measurement before the defect** —
+  drive the DOM.
+
 ⭐ **Bought on #44 (The Blueprint), and the first three are the same disease in three dresses — a check that agrees with itself:**
 - ⭐⭐ **MEASURING THE RENDER IS NOT ENOUGH IF THE ORACLE SHARES THE CONVENTION.** The side profile shipped
   MIRRORED — showing `401` where the eye sees `104` — and every gate passed, because local-test compared the

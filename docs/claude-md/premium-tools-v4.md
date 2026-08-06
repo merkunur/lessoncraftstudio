@@ -403,9 +403,65 @@ RECTILINEALLY (boundaryEdges over a polyomino; its “roll of fence” is a text
 number). → **this tool NEVER WRAPS A POLYGON.** Curved length was virgin: zero `getPointAtLength`
 in the repo, no tool sums polyline segments for display, no curve-straightening anywhere.
 
-**Gates as run:** verify 188 · mutate **42/42, 0 harness faults** · local-test 51 · smoke 122 × 11 ·
-locale-layout 396 checks / 66 renders · liveness 27/27 × 3 states · **live-verify 117 on
-production** · 0 protected-core lines.
+**Gates as first run (2026-08-01):** verify 188 · mutate 42/42 · local-test 51 · smoke 122 × 11 ·
+locale-layout 396 / 66 · liveness 27/27 × 3 states · live-verify 117 · 0 protected-core lines.
+
+---
+
+#### ⭐⭐ REBUILT 2026-08-06 — "I could not set the flag, it was not possible to drag on my screen"
+
+**The flag was INVISIBLE.** On the tool's own page the bench renders **660px**, so one model unit
+is 0.66px and the 30-unit pennant drew **under 20px** — behind an **18px OPAQUE TEAL DOT** covering
+the pole and half the cloth, at **45% opacity**, which is the universal *disabled* signal. Three
+identical dots sat on the bench (size / strand tip / flag) and the hint said *"Drag the flag"*
+while no flag was legible anywhere. There was nothing to grab.
+Two further causes compounded it: every `pointermove` ran `render()`, which did
+`stage.innerHTML=''` — **removing the element mid-`pointerdown`**, with no pointer capture, so on
+touch and pen the gesture died after one move; and there was **no way to plant a flag by tapping
+the runway**, the gesture a teacher reaches for first.
+
+⭐ **AND NO GATE IN ELEVEN SCRIPTS EVER TOUCHED THE FLAG.** Every `.urt-flag` assertion was
+`!!querySelector`; the flag was only ever moved by calling `setFlag` inside `page.evaluate`. The
+three DOM paths written *for* it — pointerdown-tap, click, keydown — each carried a comment saying
+a liveness gate had reported them dead, and **not one was driven by any test**. The rendered flag
+classes appeared **zero times** across `scripts/`. That is why it shipped.
+
+⭐ **EVERY WIDE TIER THE TOOL SHIPPED WAS DEAD ON ITS OWN PAGE.** The tool page pins the iframe at
+704px at 1440, 1920 and 2560 alike, and **media queries inside an iframe resolve against the IFRAME
+viewport** — so a ladder keyed `(min-width:1367px) and (min-height:880px)` could never match,
+`body.urt-wide` did nothing, and the bench stayed 660px on every desktop. It went unseen because
+**both QA renders were taken STANDALONE**, where the tiers do fire. The ladder now starts at 680
+and carries no `min-height` term. ⚠ **MEASURED, NOT ASSUMED:** the iframe *height* is fine here
+(427px, content-driven) — the recorded 422px pin belongs to tools that bind `#lcs-root{height:100%}`
+and this one never did, so **no height escape is shipped**. Checking that was the difference between
+a real fix and a cargo-cult one.
+
+**What changed.** build/paint split + one gesture object on `window` (`{passive:false}`, rAF,
+`pointercancel`+`blur`, **flush on release**) + `setPointerCapture` — a handle can only be dragged
+if it survives the drag · **the whole runway plants a flag**, up to **three**, from three children,
+so the disagreement is visible and nothing on screen can settle it · the flag is a chequered marker
+flag in **HTML** (an SVG pennant is 9px of cloth at a 320px bench), full opacity, parked at the
+plate's edge — **not at two acrosses**, where it sat within a third of a step of the default
+shape's answer · **adaptive viewBox**: the default shape's dead air was **37% of the stage**; the
+plate is now **29% bigger** and the bench **shorter** (aspect .340 → .276) · the size drag handle is
+**deleted** for three discrete rungs (a continuous drag is a *zoom*, and invariance is evidence only
+with a prediction in between) · the height leaves the runway's number space and stands up the shape
+· ⭐ **THE RECORD** — each landing leaves a mark under a miniature of its shape, **every miniature
+the same width**; `circle == reuleaux` at 3.1416 is Barbier, they land on one spot, and the marks
+**stagger onto two rows** rather than hiding each other · a **twelve-shape shelf** with the seven
+locked ones padlocked (the shape gate was previously *unreachable* — `nextShape` only returns null
+on a shelf of one, so a free teacher cycled five forever) · the paid Print chip hands over the shape
+at **true size (25mm and 50mm)** on a cut line, while a free Ctrl+P still gets the apparatus.
+
+⚠ **THE RUNWAY MUST OUTRUN THE ANSWER.** Sizing the plate to fill the runway exactly put every
+landing at ~97% of the scale — a child could guess short but never long, and on the default shape
+`addFlag` REFUSED anything past 2.39 while the answer was 2.30. **A guess space that opens one way
+is not a guess space.** One whole width of room beyond the landing, always.
+
+**Gates as rebuilt:** verify **261** · mutate **52/52, 0 harness faults** (⭐ **6 killed ONLY by the
+new browser escalation**) · local-test **117** · smoke **133 × 11** · locale-layout **990 checks /
+99 renders** · liveness **69 across 3 entitlement states** · print-sheets 10 · wide-viewport 12 ·
+**live-verify 117 driven on production** · 0 protected-core lines.
 
 ### B5 · The Reshape
 A shape on a grid; draw one straight cut and drag or turn either piece. **THE INVENTION:** the

@@ -1392,6 +1392,48 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 - ⚠ **A `*/` INSIDE A BLOCK COMMENT CLOSES IT**, and `enNeedle`-style regex built in a template
   literal loses `\s` — both cost a parse error each. Same family as the recorded backtick trap.
 
+⭐ **Bought on the #41 REBUILD (2026-08-06), after the operator reported "I could not set the flag":**
+- ⭐⭐ **A GATE SUITE CAN CERTIFY A CONTROL IT HAS NEVER TOUCHED.** Every `.urt-flag` assertion in
+  ELEVEN scripts was `!!querySelector`; the flag was only ever moved by calling the model inside
+  `page.evaluate`. Its three DOM paths each carried a comment saying a liveness gate had once
+  reported them dead — and **not one was driven by any test**. The flag shipped INVISIBLE: a 30-unit
+  pennant renders under 20px on the 660px bench the tool actually gets, behind an 18px opaque
+  handle-dot, at 45% opacity, which is the universal *disabled* signal. **Existence is not
+  reachability; assert that the control MOVES SOMETHING, with a real pointer.**
+- ⭐⭐ **MEDIA QUERIES INSIDE AN IFRAME RESOLVE AGAINST THE IFRAME.** All three of the tool's wide
+  tiers were keyed `min-width:1367px` — dead on the 704px surface a teacher uses. It went unseen
+  because **both QA renders were taken STANDALONE**, where they do fire. ⚠ **Render QA at the
+  EMBEDDED size, or you are photographing a surface nobody visits.**
+- ⭐⭐ **AND DO NOT INHERIT THE SIBLING'S DIAGNOSIS.** The recorded 422px iframe-height pin is real
+  — for tools that bind `#lcs-root{height:100%}`. This one never did, so its height was already
+  content-driven and the "fix" would have been cargo cult. **Measure the specific tool.**
+- ⭐ **A CACHE KEY MUST NEVER OUTLIVE THE NODE IT DESCRIBES.** The build/paint split memoised the
+  512-point geometry; `_build()` replaced those nodes with empty ones and left the keys set — a
+  bench with a caliper, a runway and **no shape and no cord at all**. Intermittent, because it needs
+  a rebuild AFTER a paint, which is exactly what a data fetch does.
+- ⭐ **A GUESS SPACE THAT OPENS ONE WAY IS NOT A GUESS SPACE.** Sizing the apparatus to fill the
+  runway put every answer at ~97% of the scale, so a child could guess short but never long.
+- ⭐ **TWO THINGS NAMED THE SAME THING, AND ONLY ONE LOOKED BROKEN.** `.urt-lock` was both the
+  padlock icon (`position:absolute;width:15px`) and the Print chip's modifier — so the Print BUTTON
+  was absolutely positioned into the card corner at 34px wide.
+- ⭐ **`justify-content:center` ON AN OVERFLOWING FLEX ROW PUTS THE FIRST ITEMS BEYOND ANY SCROLL.**
+  At 360 the shape shelf parked mid-row with the first shape unreachable. Use `safe center`.
+- ⭐ **A PREFIX COMPARISON IS NOT A COMPARISON.** My hub-card check compared the first 45 characters
+  and reported "every description matches" while twelve stale words sat further down the same
+  string — a wrong measurement agreeing with a wrong measurement.
+- ⭐ **A SYNC THAT SILENTLY MATCHES NOTHING IS WORSE THAN NO SYNC**, because it looks like
+  agreement: a `JSON.stringify` needle against a single-quoted file reported "0 strings synced".
+- ⚠ **`grep -c FAIL` RETURNING 0 CAN MEAN THE GATE CRASHED**, not that it passed — check the exit
+  status and the summary line, never the absence of a word.
+- ⭐ **THE MODEL LENGTH AND THE PICTURE'S LENGTH ARE TWO QUANTITIES.** Asserting 1e-6 on a polyline
+  serialised with `toFixed(3)` over 360 vertices is asserting a precision the data does not carry —
+  and, here, that a theorem is false.
+- ⭐ **TEN NATIVE PANELS CONVICTED THE ENGLISH AGAIN, AND ONE CONVICTION WAS A REPEAT OFFENCE.**
+  9 of 10 found `gateBody` PRINTED THE ANSWER on a panel the class sees; 7 found `acrossUnit` was a
+  **verbatim regression of the previous round's own recorded finding**, in the file I had read
+  before writing it. **Hand the English over as a SOURCE TO AUDIT — and re-read the defect list of
+  the last round before writing the next one.**
+
 ### 23.7 What is NOT in scope
 **Closed strands — do not re-propose:** time · money · capacity/weight/non-standard length · all corpus science (the repo proves the art does not exist) · puzzles-with-a-solution (they fail gate 5 — solving ends the interaction). The **rejected list with reasons** (Pin Board, Standing Line, Pairing Rail, Fold-and-Cut, Number String, Same/Different, a generic slow-reveal runtime, Clothesline Math, Ten Bridge, Compass Rose…) is in the companion — read it before proposing anything new. **C4 The Splitting Key is corpus-blocked** until `object-attributes.json` is reviewed past 456/933.
 

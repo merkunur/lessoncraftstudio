@@ -67,7 +67,8 @@ cards.ADD.forEach((c) => {
   if (src.indexOf("{ id: '" + c.id + "',") >= 0) return;          /* idempotent */
   const by = {};
   LOCALES.forEach((l) => { by[l] = (panels[l].cardNames || {})[c.id] || c.en; });
-  const cardRow = "    { id: '" + c.id + "',".padEnd(26) + ' group: ' + c.group + ' },';
+  const pad = ' '.repeat(Math.max(1, 11 - c.id.length));
+  const cardRow = "    { id: '" + c.id + "'," + pad + 'group: ' + c.group + ' },';
   src = src.replace(/^(    \{ id: 'celebrate',.*)$/m, '$1\n' + cardRow);
   src = src.replace(/^(    celebrate: \{en:.*)$/m, '$1\n' + row('    ', c.id, by));
   src = src.replace(/^(    celebrate: '.*',?)$/m, "$1\n    " + c.id + ": '" + c.icon.replace(/'/g, "\\'") + "',");

@@ -101,8 +101,17 @@ const POLICY = {
   brushing: ['pt', 'de'],          /* + de Zähneputzen */
   breakfast: ['de', 'es', 'fi'],   /* nl tien-uurtje drop; es desayuno + fi aamupala adds */
   aftercare: ['sv', 'da', 'no', 'nl', 'fr', 'de', 'pt', 'fi'],
-  italiano: ['it']
+  /* ⚠ `italiano` is GONE. It was the ACCIDENTAL one-locale instance of
+     the mother-tongue lesson — the most-scheduled block of the week in
+     every locale, shipped to exactly one — and it is superseded by the
+     universal `mothertongue` card. The Italian panel caught that leaving
+     both in would show `l'italiano` TWICE in the same band. */
+  italiano: []
 };
+/* the universal cards the pedagogy panel ruled must exist everywhere */
+for (const id of ['mothertongue', 'singing', 'guidedreading', 'onetoone', 'quiet', 'firedrill']) {
+  for (const L of ALL) if (!visIds(L).includes(id)) E(`${id} missing from ${L} (must be universal)`);
+}
 for (const L of ALL) {
   for (const id of Object.keys(POLICY)) {
     const should = POLICY[id].includes(L);

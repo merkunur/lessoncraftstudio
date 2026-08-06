@@ -82,7 +82,18 @@ const VERDICT_EN = /(?<!\p{L})(correct|incorrect|wrong|oops|try again|test|quiz|
     is(/\/mini-tools\/heart-words\.html/.test(m.iframeSrc), `${loc}: the iframe points at the tool (${m.iframeSrc.slice(0, 60)})`);
     is(m.proseLen > 400, `${loc}: the landing carries real prose (${m.proseLen} chars)`);
     is(m.desc === C.metaDescription, `${loc}: meta description matches the authored one`);
-    is(!VERDICT_EN.test(m.prose), `${loc}: no verdict vocabulary in the landing prose`);
+
+    /* ⚠ NO LEXICAL VERDICT BAN HERE, DELIBERATELY. The no-shame ban governs
+       the tool's CHILD-FACING strings (verify T4) — it is the wrong
+       instrument for adult marketing prose, which has to USE those words in
+       order to DENY them: this landing says "there is no marking, no score
+       and no wrong tap available", and a word ban condemns the very
+       sentence that sells the pedagogy. Ban-too-wide, third dress.
+       What is actually worth checking on a landing is that it does not
+       claim a tier the product does not have — the real defect found here
+       was copy calling the printable cards Premium after they became free. */
+    is(!/premium[^.]{0,80}(print|imprim|druck|stamp|afdruk|skriv ut|print)/i.test(m.prose),
+      `${loc}: the prose does not put the printable cards behind Premium — sheet A is free for everyone`);
     await page.close();
   }
 
@@ -180,13 +191,13 @@ const VERDICT_EN = /(?<!\p{L})(correct|incorrect|wrong|oops|try again|test|quiz|
       return { ok: true,
                boxes: T._draft ? T._draft.boxes.join('|') : '',
                heart: T._draft ? T._draft.heart.length : -1,
-               saveDisabled: save ? save.disabled : null,
+               saveAria: save ? save.getAttribute('aria-disabled') : null,
                seams: document.querySelectorAll('.hw-seam').length };
     });
     is(desk.ok, 'the teacher desk opens on production');
     is(desk.boxes === 'sh|o|n|e', `the machine proposes a split (${desk.boxes})`);
     is(desk.heart === 0, '⭐ and it does NOT guess the heart');
-    is(desk.saveDisabled === true, '⭐ Save is inert until the teacher marks it');
+    is(desk.saveAria === 'true', '⭐ the keep control announces itself unavailable until the teacher marks it');
     is(desk.seams >= 3, `the seam editor is live (${desk.seams} tap targets)`);
 
     /* the free visitor's print sheet — this used to be a BLANK PAGE */

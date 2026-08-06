@@ -139,6 +139,75 @@ const MUST_PASS = [
   is(before.handles === 2, `both bench handles are present (saw ${before.handles})`);
   is(before.strandLen > 100, `and the strand has real length (${before.strandLen.toFixed(1)})`);
 
+  /* =================================================================
+     ⭐⭐ THE FLAG, DRAGGED ON PRODUCTION — the exact gesture the operator
+     reported dead. This suite drove the strand tip and never the flag,
+     and eleven scripts asserted the flag with `!!querySelector` alone.
+     Existence is not reachability: the shipped flag was a 45%-opacity
+     pennant under 20px wide with an opaque handle-dot on top of it.
+     ================================================================= */
+  const flagBefore = await page.evaluate(() => {
+    const f = document.querySelector('.urt-flag');
+    if (!f) return null;
+    const r = f.getBoundingClientRect();
+    const cloth = f.querySelector('.urt-fl-cloth');
+    const cr = cloth ? cloth.getBoundingClientRect() : null;
+    const el = document.elementFromPoint((r.left + r.right) / 2, (r.top + r.bottom) / 2);
+    const cs = getComputedStyle(f);
+    return {
+      x: Math.round((r.left + r.right) / 2), w: Math.round(r.width), h: Math.round(r.height),
+      cloth: cr ? Math.round(cr.width) + "x" + Math.round(cr.height) : null,
+      topmostIsOwn: !!(el && (el === f || f.contains(el))),
+      opacity: Number(cs.opacity)
+    };
+  });
+  is(!!flagBefore, 'a flag handle is on the bench');
+  is(flagBefore && flagBefore.w >= 44 && flagBefore.h >= 44,
+    `the flag is a ${flagBefore ? flagBefore.w + "x" + flagBefore.h : "?"} target (K-2 floor 44)`);
+  is(flagBefore && flagBefore.topmostIsOwn,
+    '⭐ the flag is the TOPMOST element at its own centre — nothing covers it');
+  is(flagBefore && flagBefore.opacity > 0.9,
+    `and it is at full opacity (${flagBefore ? flagBefore.opacity : "?"}), not the .45 that reads as disabled`);
+  is(!!(flagBefore && flagBefore.cloth),
+    `⭐ and it has a visible cloth (${flagBefore ? flagBefore.cloth : "none"}) — the thing a teacher reaches for`);
+
+  const fbox = await (await page.$('.urt-flag')).boundingBox();
+  await page.mouse.move(fbox.x + fbox.width / 2, fbox.y + fbox.height / 2);
+  await page.mouse.down();
+  for (let i = 1; i <= 10; i++) { await page.mouse.move(fbox.x + fbox.width / 2 + i * 18, fbox.y + fbox.height / 2); await wait(20); }
+  await page.mouse.up();
+  await wait(300);
+  const flagAfter = await page.evaluate(() => {
+    const f = document.querySelector('.urt-flag');
+    if (!f) return null;
+    const r = f.getBoundingClientRect();
+    return { x: Math.round((r.left + r.right) / 2), n: window.UnrollTape.st.flags.length };
+  });
+  is(!!flagAfter && flagAfter.x > flagBefore.x + 70,
+    `⭐⭐ A REAL POINTER DRAG MOVES THE FLAG ON PRODUCTION (${flagBefore.x}px → ${flagAfter ? flagAfter.x : "gone"}px)`);
+  is(!!flagAfter && flagAfter.n === 1,
+    'and it moves that flag rather than planting a second one');
+
+  /* the runway itself plants one — the gesture a teacher reaches for first */
+  const planted = await page.evaluate(() => {
+    const U = window.UnrollTape;
+    const strip = document.querySelector('.urt-plant');
+    if (!strip) return { err: 'no runway hit surface' };
+    const r = strip.getBoundingClientRect();
+    const before = U.st.flags.length;
+    strip.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true,
+      clientX: r.left + r.width * 0.7, clientY: r.top + r.height / 2,
+      pointerId: 9, isPrimary: true, button: 0 }));
+    window.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, pointerId: 9 }));
+    return { before: before, after: U.st.flags.length };
+  });
+  is(planted.after === planted.before + 1,
+    `⭐ tapping the runway plants a flag there (${planted.before} → ${planted.after})`);
+
+  await page.evaluate(() => { const U = window.UnrollTape; U.st = U.newState(); U.marks = [];
+    U.st.A = U.defaultA(U.outlineFor(U.shelf()[0])); U._dirtyBuild = true; U.render(); });
+  await wait(250);
+
   const tip = await page.$('.urt-tip');
   is(!!tip, 'the strand has a draggable tip');
   const g = await tip.boundingBox();

@@ -107,6 +107,34 @@ const TOOLS = [
      probe that does not force the tier measures an un-entitled page and
      reports the chrome as still showing. The gate caught exactly that
      when the scoping landed, which is the gate working. */
+  /* ⚠ sorting-hoops gates the sheet by DOM PRESENCE, not by print CSS. The
+     shipped tool gated the CHIP and left `@media print` unconditional, so a
+     measured anonymous visitor with emulateMediaType('print') got the paid
+     sheet — Ctrl+P walked straight past the paywall. `_ensureSheet` now
+     returns early when `!premium`, so an un-entitled probe finds nothing at
+     all and this `prime` has to force the tier before the sheet exists.
+     The sheet also DRAWS THE TWO HOOPS: what it printed before was four
+     headings over four empty rows. */
+  {
+    key: 'sorting-hoops', p: 'hp', apparatus: '.hp-printsvg', chrome: '.hp-foot',
+    prime: function () {
+      var T = window.SortingHoops;
+      if (!T) return;
+      T.premium = true;
+      T.premiumKnown = true;
+      T.mode = 'guess';
+      T.ruleA = { f: 'colour', v: 'red' };
+      T.ruleB = { f: 'shape', v: 'circle' };
+      T.revealed = true;
+      T.phase = 'sort';
+      /* something on the mat, so the rows are not empty */
+      var tray = T.trayItems();
+      if (tray[0]) T.placement[tray[0].uid] = 'a';
+      if (tray[1]) T.placement[tray[1].uid] = 'both';
+      if (tray[2]) T.placement[tray[2].uid] = 'out';
+      T.render();
+    }
+  },
   {
     key: 'lids', p: 'lid', apparatus: '.lid-sheet', chrome: '.lid-foot',
     prime: function () {

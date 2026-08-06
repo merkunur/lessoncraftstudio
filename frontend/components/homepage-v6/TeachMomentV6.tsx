@@ -17,8 +17,13 @@ interface Props {
   locale: string;
 }
 
-/* Matches the tool-page iframe contract (app/[locale]/tools/[tool]/page.tsx). */
-const TOOL_WRAPPER_VERSION = '7.57';
+/* Matches the tool-page iframe contract (app/[locale]/tools/[tool]/page.tsx).
+   ⚠ THE COMMENT WAS TRUE WHEN IT WAS WRITTEN AND HAD NOT BEEN FOR ELEVEN
+   BUMPS. This read '7.57' against the tool page's '7.67', so the homepage
+   served its tool iframes under a different cache key and could hand a
+   visitor a stale wrapper indefinitely. Nothing gates the pair; if you bump
+   one, bump both. */
+const TOOL_WRAPPER_VERSION = '7.68';
 
 const FEATURED_TOOLS: ToolKey[] = [
   'number-balance',

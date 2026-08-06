@@ -99,7 +99,7 @@ var HeartWords = {
      GRAPHEMES in scripts/verify-heart-words.js (the drift gate) — extend
      BOTH, deliberately, or the build fails. */
   GRAPHEME_INVENTORY: {
-    en: ['sh','ch','th','wh','ck','ng','ph','ee','oo','oa','ai','ay','ea','ie','ow','ou','oi','oy','aw','au','ew','ue','ar','or','er','ur','ir','igh','a_e','i_e','o_e','u_e','e_e','ll','ss','ff','zz','gg','tt','dd','nn','mm','bb','pp','oe','ere','oul','eo','our','eigh','eir','ear'],
+    en: ['sh','ch','th','wh','ck','ng','ph','ee','oo','oa','ai','ay','ea','ie','ow','ou','oi','oy','aw','au','ew','ue','ar','or','er','ur','ir','igh','a_e','i_e','o_e','u_e','e_e','ll','ss','ff','zz','gg','tt','dd','nn','mm','bb','pp','oe','ere','oul','eo','our','eigh','eir','ear','ve'],
     de: ['sch','ch','ck','ei','ie','au','eu','äu','ll','ss','ff','tt','nn','mm','pp','rr','tz','ng','sp','st','qu','ah','eh','ih','oh','uh','aa','ee','oo','ieh','äh','öh','üh'],
     fr: ['ch','ou','oi','on','an','en','in','un','ai','ei','au','eau','eu','oeu','gn','ph','ll','ss','tt','nn','mm','rr','pp','qu','é','è','ê','em','om','am','ien','oy','ay','aim','ein'],
     es: ['ch','ll','rr','qu','gu','ñ','á','é','í','ó','ú','gü'],
@@ -117,15 +117,24 @@ var HeartWords = {
   /* Emergency bank if the per-locale fetch 404s. Free shelf only, so a
      network failure still leaves a complete working free tool. */
   FALLBACK_BANK: {
-    locale: 'en', version: 1, kind: 'irregular', curation: 'fallback',
-    shelves: [{ id: 'sh1', label: 'Our first ten', free: true }],
+    locale: 'en', version: 2, kind: 'irregular', curation: 'fallback',
+    /* Mirrors the shipped free shelf exactly (id, band, phase), so an
+       offline visitor meets the same ten words in the same order. These
+       are function words: they carry NO picture by design (D17) — a cat
+       on the card for `the` teaches that `the` MEANS cat. */
+    shelves: [{ id: 'k-first', label: 'K · First words in every book', band: 'k', phase: 1,
+                teachingPoint: 'the earliest ten — no family, no rule to hang them on', free: true }],
     words: [
-      { id:'the',  display:'the',  boxes:['th','e'],     heart:[1], heartKind:'irregular', sentence:'The cat sat on my lap.',       sentenceNoun:'cat',  nounForm:'cat',  imageDir:'pets',      imageFile:'cat',  shelf:'sh1' },
-      { id:'of',   display:'of',   boxes:['o','f'],      heart:[1], heartKind:'irregular', sentence:'I drank all of my milk.',      sentenceNoun:'milk', nounForm:'milk', imageDir:'breakfast', imageFile:'milk', shelf:'sh1' },
-      { id:'to',   display:'to',   boxes:['t','o'],      heart:[1], heartKind:'irregular', sentence:'We run to the bus.',           sentenceNoun:'bus',  nounForm:'bus',  imageDir:'vehicles',  imageFile:'bus',  shelf:'sh1' },
-      { id:'do',   display:'do',   boxes:['d','o'],      heart:[1], heartKind:'irregular', sentence:'What can you do with a ball?', sentenceNoun:'ball', nounForm:'ball', imageDir:'toys',      imageFile:'ball', shelf:'sh1' },
-      { id:'was',  display:'was',  boxes:['w','a','s'],  heart:[1,2], heartKind:'irregular', sentence:'My dog was fast asleep.',    sentenceNoun:'dog',  nounForm:'dog',  imageDir:'pets',      imageFile:'dog',  shelf:'sh1' },
-      { id:'said', display:'said', boxes:['s','ai','d'], heart:[1], heartKind:'irregular', sentence:'Hello, said the little bird.', sentenceNoun:'bird', nounForm:'bird', imageDir:'spring',    imageFile:'bird', shelf:'sh1' }
+      { id:'the',  display:'the',  boxes:['th','e'],    heart:[1], heartKind:'irregular', note:'the e says /uh/', noteFocus:[1], heartOverride:'a lone e says /e/ everywhere else the child has met it', sentence:'The cat sat on my lap.',       noImage:true, shelf:'k-first' },
+      { id:'of',   display:'of',   boxes:['o','f'],     heart:[1], heartKind:'irregular', note:'the f says /v/ — the only word in English where it does', noteFocus:[1], heartOverride:'f says /f/ in every other word', sentence:'I drank all of my milk.',      noImage:true, shelf:'k-first' },
+      { id:'to',   display:'to',   boxes:['t','o'],     heart:[1], heartKind:'irregular', note:'the o says /oo/', noteFocus:[1], heartOverride:'a lone o says /o/ as in on', sentence:'We run to the bus.',           noImage:true, shelf:'k-first' },
+      { id:'do',   display:'do',   boxes:['d','o'],     heart:[1], heartKind:'irregular', note:'the o says /oo/, like in to', noteFocus:[1], heartOverride:'same handful as to', sentence:'What can you do with a ball?', noImage:true, shelf:'k-first' },
+      { id:'was',  display:'was',  boxes:['w','a','s'], heart:[1], heartKind:'irregular', note:'the a says /o/ after the w — the s saying /z/ is an ordinary rule', noteFocus:[1], heartOverride:'the w-changes-a pattern is not taught until later', sentence:'My dog was fast asleep.',      noImage:true, shelf:'k-first' },
+      { id:'said', display:'said', boxes:['s','ai','d'],heart:[1], heartKind:'irregular', note:'ai usually says /ay/ — here it says /e/', noteFocus:[1], sentence:'Hello, said the little bird.', noImage:true, shelf:'k-first' },
+      { id:'you',  display:'you',  boxes:['y','ou'],    heart:[1], heartKind:'irregular', note:'ou usually says /ow/ — here it says /oo/', noteFocus:[1], sentence:'Can you see the moon?',        noImage:true, shelf:'k-first' },
+      { id:'have', display:'have', boxes:['h','a','ve'],heart:[2], heartKind:'irregular', note:'the ve keeps the a short — this e is not a magic e', noteFocus:[2], heartOverride:'after v a final e does nothing at all', sentence:'I have a warm hat.',          noImage:true, shelf:'k-first' },
+      { id:'come', display:'come', boxes:['c','o','m'], silentTail:'e', heart:[1], heartKind:'irregular', note:'the o says /u/', noteFocus:[1], heartOverride:'o for /u/ is not a rule the child has been given', sentence:'Come and see my cake!',        noImage:true, shelf:'k-first' },
+      { id:'some', display:'some', boxes:['s','o','m'], silentTail:'e', heart:[1], heartKind:'irregular', note:'the o says /u/, like in come', noteFocus:[1], heartOverride:'same o as come', sentence:'I will pick some flowers.',    noImage:true, shelf:'k-first' }
     ]
   },
 

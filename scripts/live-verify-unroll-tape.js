@@ -24,6 +24,12 @@
 const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
+/* ⚠ THE EXPECTED LABELS COME FROM THE TOOL, NEVER FROM A LITERAL HERE.
+   This file matched foot buttons against hard-coded English, and its own
+   header records that biting once when a label was re-authored. A gate
+   that carries its own copy of the thing it checks has a half-life. */
+const TOOL = require(require('path').join(__dirname, '..', 'mini tools', 'unroll-tape.js'));
+const LBL = (k) => TOOL.strings[k].en;
 
 const BASE = 'https://www.lessoncraftstudio.com';
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -125,7 +131,12 @@ const MUST_PASS = [
   is(before.strandVerts > 100, `the strand is a real polyline (${before.strandVerts} vertices)`);
   is(before.outlineVerts === 512, `the outline carries exactly 512 vertices (saw ${before.outlineVerts})`);
   is(before.ticks >= 3, `the runway is ruled (${before.ticks} ticks, numerals ${before.nums})`);
-  is(before.handles === 3, `all three handles are on the bench (saw ${before.handles})`);
+  /* ⚠ TWO, NOT THREE. The size DRAG HANDLE is gone: a continuous drag is a
+     zoom, and invariance is evidence only when there are two separately
+     witnessed trials with a prediction in between — a wrist movement cannot
+     hold a prediction. Size is now three discrete rungs in the foot. What is
+     left on the bench is the strand tip and the flag. */
+  is(before.handles === 2, `both bench handles are present (saw ${before.handles})`);
   is(before.strandLen > 100, `and the strand has real length (${before.strandLen.toFixed(1)})`);
 
   const tip = await page.$('.urt-tip');
@@ -182,19 +193,19 @@ const MUST_PASS = [
      "Put it back round" only at t = 1; after a 0.6 drag it still reads
      "Let it lie down". Asking for the wrong label reports a live control
      as dead — write the assertion from the artefact, not from the plan. */
-  is(await foot('Let it lie down'), '"Let it lie down" carries the strand the rest of the way');
+  is(await foot(LBL('unrollBtn')), `"${LBL('unrollBtn')}" carries the strand the rest of the way`);
   const landed = await read();
   is(landed.t >= 1, `⭐ and it lands fully (t → ${landed.t.toFixed(3)})`);
   is(landed.strandVerts === 2, `at rest the laid cord is ONE straight segment (${landed.strandVerts} vertices)`);
   is(Math.abs(landed.strandLen - before.strandLen) / before.strandLen < 1e-6,
     `⭐ and it STILL has the length it had when it was curved (${landed.strandLen.toFixed(4)})`);
 
-  is(await foot('Put it back round'), '"Put it back round" is live once the cord is down');
+  is(await foot(LBL('rollBackBtn')), `"${LBL('rollBackBtn')}" is live once the cord is down`);
   const backOn = await read();
   is(backOn.t < 0.05, `⭐ and it puts the cord back round (t → ${backOn.t.toFixed(3)})`);
 
   const objBefore = backOn.obj;
-  is(await foot('Another shape'), '"Another shape" is live');
+  is(await foot(LBL('nextShapeBtn')), `"${LBL('nextShapeBtn')}" is live`);
   const swapped = await read();
   is(swapped.obj !== objBefore, 'a different shape is on the bench');
   is(swapped.outlineVerts === 512, 'and it too carries exactly 512 vertices');

@@ -93,8 +93,30 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
       await page.evaluate(() => document.querySelector('.drb-bag').click());
       await wait(250);
-      const locked = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-gpiece')).every((b) => b.disabled));
-      is(locked, `[${loc}] ⭐ the guess LOCKS on the first draw`);
+      /* ⚠⚠ THE LOCK IS PROVED BY BEHAVIOUR, NOT BY A `disabled` ATTRIBUTE,
+         and that is a corrected MEASUREMENT rather than a relaxed one. Build
+         #4 freezes the prior by REFUSAL — `placeGuess` returns null once a
+         draw has happened, so no path in the file can move it — and the
+         frozen pieces stay live on purpose, because they become the control
+         that lights their kind across both records. Asserting `.disabled`
+         measured the old implementation, not the invariant; it failed in all
+         eleven locales against a tool that locks perfectly well. */
+      const before = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-gpiece'))
+        .map((b) => b.getAttribute('data-kind') + ':' + b.closest('.drb-shelf').getAttribute('data-zone')).sort().join(','));
+      await page.evaluate(() => { const g = document.querySelector('.drb-gpiece'); if (g) g.click(); });
+      await wait(120);
+      await page.evaluate(() => { const z = document.querySelector('.drb-shelf[data-zone="2"]'); if (z) z.click(); });
+      await wait(120);
+      const after = await page.evaluate(() => Array.from(document.querySelectorAll('.drb-gpiece'))
+        .map((b) => b.getAttribute('data-kind') + ':' + b.closest('.drb-shelf').getAttribute('data-zone')).sort().join(','));
+      is(before === after && before.length > 0, `[${loc}] ⭐ the guess LOCKS on the first draw — no piece can be moved (${before})`);
+      /* ⭐ and it is not inert: the same press now lights that kind on BOTH
+         records, which is what turns two aligned rows into one texture */
+      const litK = await page.evaluate(() => (document.querySelector('.drb-recs') || {}).getAttribute
+        ? document.querySelector('.drb-recs').getAttribute('data-lit') : null);
+      is(!!litK, `[${loc}] ⭐ and the frozen prior lights its kind instead of going dead (${litK})`);
+      await page.evaluate(() => { const g = document.querySelector('.drb-gpiece.drb-on'); if (g) g.click(); });
+      await wait(80);
 
       /* 4 · the record is the model's own sequence for this bag */
       for (let i = 0; i < 40; i++) {

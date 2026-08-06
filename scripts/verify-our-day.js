@@ -35,6 +35,7 @@ const arg = process.argv.find((a) => a.startsWith('--locales='));
 const LOCALES = arg ? arg.split('=')[1].split(',').filter((l) => ALL.includes(l)) : ALL;
 
 const REPO = path.join(__dirname, '..');
+const TOOL_DIR = process.env.OUR_DAY_TOOL_DIR || path.join(REPO, 'mini tools');
 const errors = [];
 const E = (m) => errors.push(m);
 
@@ -68,7 +69,7 @@ function loadTool(file, globalName) {
   };
   sandbox.global = sandbox;
   vm.createContext(sandbox);
-  vm.runInContext(fs.readFileSync(path.join(REPO, 'mini tools', file), 'utf8'), sandbox);
+  vm.runInContext(fs.readFileSync(path.join(TOOL_DIR, file), 'utf8'), sandbox);
   return sandbox[globalName];
 }
 const T = loadTool('our-day.js', 'OurDay');
@@ -179,8 +180,9 @@ for (const L of Object.keys(T.ANNOUNCE)) {
 /* MAX_CARDS enforced */
 {
   T.api = { lang: 'en', settings: { voice: false, soundCues: false }, t: (k) => T.strings[k].en, announce: () => {}, el: () => ({ style: {} }) };
-  T.day = T._blankDay();
-  T._store = { v: 1, templates: {} };
+  T.day = T.M.newDay();
+  T._store = { v: 2, templates: {}, custom: [], recent: [] };
+  T._notice = null;
   T._persistDay = function () {};
   T.render = function () {};
   for (let i = 0; i < 16; i++) {
@@ -208,7 +210,7 @@ if (!/^m/i.test(T.weekdayLabel('en', 0))) E('weekday index 0 must be Monday');
 
 /* ========================= SPEECH ================================= */
 
-const src = fs.readFileSync(path.join(REPO, 'mini tools', 'our-day.js'), 'utf8');
+const src = fs.readFileSync(path.join(TOOL_DIR, 'our-day.js'), 'utf8');
 const speakCalls = src.match(/LCSAudio\.speak\(\{[^}]*\}/g) || [];
 if (!speakCalls.length) E('no LCSAudio.speak call found');
 for (const call of speakCalls) {
@@ -234,6 +236,191 @@ for (const key of Object.keys(T.strings)) {
    advance anywhere (the only new Date uses are weekday/persist keys) */
 if (/setInterval[^)]*advance/i.test(src) || /new Date\(\)[^;]{0,80}sunIdx/.test(src)) {
   E('clock-driven advance detected — the sun is HUMAN-advanced only');
+}
+
+
+/* ===================== THE MODEL (ODM) ============================
+   ⚠ THIS GATE IMPLEMENTS ITS OWN GROUND TRUTH. It never reads an
+   expectation off the tool — every expected value below is written out
+   by hand, because a gate that asks the tool what the answer should be
+   is marking its own homework (19 of 51 mutations survived on
+   number-sieve for exactly that reason).
+
+   Env indirection: OUR_DAY_TOOL_DIR lets mutate-our-day.js point this
+   file at a poisoned COPY of the tool.
+   ================================================================= */
+const M = T.M;
+if (!M) E('the pure model is not exposed on the tool (a Node gate cannot drive it)');
+else {
+
+  const day = () => M.newDay();
+  const build = (ids) => { const d = day(); ids.forEach((i) => M.addCard(d, i)); return d; };
+
+  /* --- totality: a hand-edited blob must not be able to throw --- */
+  [null, undefined, 0, '', [], 'x', { items: 'nope' }, { items: [null, 3, {}] },
+   { items: [{ id: 'a' }], sunIdx: 999 }, { items: [{ id: 'a' }], sunIdx: -5 },
+   { sunIdx: NaN }, { items: [{ id: 'a', time: { h: 'x', m: null } }] }].forEach((bad, i) => {
+    let d;
+    try { d = M.coerceDay(bad); } catch (e) { E(`coerceDay threw on malformed input #${i}: ${e.message}`); return; }
+    if (!d || !d.items || d.items.length === undefined) E(`coerceDay returned a non-total day for input #${i}`);
+    if (!(d.sunIdx >= 0 && d.sunIdx <= d.items.length)) E(`coerceDay left sunIdx out of range for input #${i} (${d.sunIdx})`);
+  });
+  if (M.coerceDay({ items: new Array(40).fill({ id: 'arrival' }) }).items.length !== 16) {
+    E('coerceDay does not clamp to the 16-card ceiling');
+  }
+
+  /* --- the sun steps OVER skipped cards, and never onto one --- */
+  {
+    const d = build(['arrival', 'circle', 'math', 'lunch']);
+    M.startDay(d);
+    if (d.sunIdx !== 0) E('startDay did not put the sun on the first card');
+    if (!M.skipCard(d, 2)) E('a future card could not be skipped');
+    M.advance(d, true);
+    if (d.sunIdx !== 1) E(`advance from 0 should land on 1, landed on ${d.sunIdx}`);
+    M.advance(d, true);
+    if (d.sunIdx !== 3) E(`advance must STEP OVER the skipped card 2 and land on 3, landed on ${d.sunIdx}`);
+    if (d.items[d.sunIdx].skipped) E('the sun landed on a skipped card');
+    M.advance(d, true);
+    if (!M.atEnd(d)) E('the day did not reach its end state');
+    if (M.advance(d, true) !== false) E('advance past the end must refuse');
+  }
+
+  /* --- the past is not editable --- */
+  {
+    const d = build(['arrival', 'circle', 'math']);
+    M.startDay(d);
+    M.advance(d, true);                       /* sun on 1 */
+    if (M.canSkip(d, 0)) E('a FINISHED card must not be skippable');
+    if (M.skipCard(d, 0) !== false) E('skipCard accepted a finished card');
+    if (M.canSwap(d, 0)) E('a FINISHED card must not be swappable');
+    if (M.swapCard(d, 0, 'art') !== false) E('swapCard accepted a finished card');
+    if (M.canSkip(d, 1)) E('the CURRENT card must not be skippable (you advance past it)');
+    if (!M.canSwap(d, 1)) E('the CURRENT card must be swappable — doing art instead, now, is a real event');
+    if (!M.canSkip(d, 2)) E('a FUTURE card must be skippable');
+  }
+
+  /* --- the sun does not drift under an insert or a reorder --- */
+  {
+    const d = build(['arrival', 'circle', 'math', 'lunch']);
+    M.startDay(d); M.advance(d, true); M.advance(d, true);   /* sun on 2 = math */
+    const cur = d.items[d.sunIdx];
+    M.addCard(d, 'art', 0);
+    if (d.items[d.sunIdx] !== cur) E('inserting BEFORE the sun moved which activity is current');
+    if (d.sunIdx !== 3) E(`sunIdx should follow the insert to 3, got ${d.sunIdx}`);
+    M.addCard(d, 'music');
+    if (d.items[d.sunIdx] !== cur) E('appending at the end moved the sun');
+    M.moveCard(d, 0, 4);
+    if (d.items[d.sunIdx] !== cur) E('a reorder moved which activity is current');
+    M.removeCard(d, 0);
+    if (d.items[d.sunIdx] !== cur) E('removing an earlier card moved which activity is current');
+  }
+
+  /* --- two-stage advance --- */
+  {
+    const d = build(['arrival', 'circle', 'math']);
+    M.startDay(d);
+    if (M.advance(d) !== 'warned') E('the first tap must ARM the warning, not cross');
+    if (d.sunIdx !== 0) E('the warning tap moved the sun');
+    if (!d.warned) E('the warning flag was not set');
+    if (M.advance(d) !== 'moved') E('the second tap must cross');
+    if (d.warned) E('the warning flag survived the crossing');
+    if (d.sunIdx !== 1) E('the crossing did not move the sun');
+    M.advance(d);                              /* warned again */
+    if (M.unAdvance(d) !== 'unwarned') E('step-back must first cancel a pending warning');
+    if (d.warned) E('the warning survived the step-back');
+    /* force skips the warning entirely (double-tap + the settings opt-out) */
+    const d2 = build(['arrival', 'circle']);
+    M.startDay(d2);
+    if (M.advance(d2, true) !== 'end' && d2.sunIdx !== 1) E('forced advance did not cross in one tap');
+  }
+
+  /* --- the step-back is always available, including at the end --- */
+  {
+    const d = build(['arrival', 'circle']);
+    M.startDay(d);
+    if (M.unAdvance(d) !== false) E('step-back from the first card must refuse');
+    M.advance(d, true); M.advance(d, true);
+    if (!M.atEnd(d)) E('expected the end state');
+    if (M.unAdvance(d) !== 'moved') E('the step-back must work AFTER the day has ended');
+    if (d.sunIdx !== 1) E(`step-back from the end should land on the last card, got ${d.sunIdx}`);
+  }
+  /* and it must walk back OVER skipped cards, not onto one */
+  {
+    const d = build(['arrival', 'circle', 'math', 'lunch']);
+    M.startDay(d);
+    M.skipCard(d, 1);
+    M.advance(d, true);
+    if (d.sunIdx !== 2) E(`advance should step over the skipped 1 to 2, got ${d.sunIdx}`);
+    if (M.unAdvance(d) !== 'moved') E('step-back refused');
+    if (d.sunIdx !== 0) E(`step-back must walk BACK over the skipped card to 0, got ${d.sunIdx}`);
+    if (d.items[d.sunIdx].skipped) E('the step-back landed on a skipped card');
+  }
+
+  /* --- teacher-authored cards --- */
+  {
+    const list = [];
+    if (M.addCustom(list, 'Morgonsamling', 'bubble', '#F2784B', 4, null) !== 'ok') E('a valid custom card was refused');
+    if (list.length !== 1) E('the custom card was not appended');
+    if (M.addCustom(list, 'Sangstund', 'bubble', '#F2784B', 4, null) !== 'duplicate') E('same icon+colour must be refused as duplicate');
+    if (M.addCustom(list, 'morgonsamling', 'star', '#7FA860', 4, null) !== 'duplicate') E('the same NAME must be refused regardless of case');
+    if (M.addCustom(list, 'x'.repeat(21), 'star', '#7FA860', 4, null) !== 'tooLong') E('an over-long name must be refused, not truncated');
+    if (M.addCustom(list, '   ', 'star', '#7FA860', 4, null) !== 'empty') E('an empty name must be refused');
+    if (M.cleanName('  Morgon samling  ') !== 'Morgonsamling') E('cleanName does not strip control characters');
+    if (M.cleanName('Sång  stund') !== 'Sång stund') E('cleanName does not collapse whitespace');
+    /* the cap, with icon AND colour varied so the duplicate rule is not
+       what stops the loop (it was, the first time this was written) */
+    const glyphs = ['star', 'book', 'note', 'ball', 'hand', 'bubble', 'pencil', 'brush', 'scissors', 'bag', 'screen', 'bell', 'plant', 'tree'];
+    const tints = ['#146B5E', '#F2784B', '#E0A63C', '#7FA860', '#8A6B4A', '#B08CD0'];
+    let n = 0;
+    while (list.length < 30 && M.addCustom(list, 'card' + n, glyphs[n % glyphs.length], tints[n % tints.length], 4, null) === 'ok') n++;
+    if (list.length !== 12) E(`the custom-card cap must be 12, got ${list.length}`);
+    if (M.addCustom(list, 'one more', glyphs[13], tints[5], 4, null) !== 'listFull') E('the 13th must be refused WITH A REASON');
+    /* a deletion must not blank the day it appears in */
+    const d = day();
+    M.addCard(d, list[0].id, undefined, { name: list[0].name, icon: list[0].icon, tint: list[0].tint });
+    M.removeCustom(list, list[0].id);
+    if (!d.items[0].snap || !d.items[0].snap.name) E('deleting a custom card destroyed the snapshot on the strip');
+  }
+
+  /* --- templates carry snapshots, so a plan is locale- and delete-safe --- */
+  {
+    const d = build(['arrival', 'showtell']);
+    M.addCard(d, 'my:z', undefined, { name: 'Sångstund', icon: 'note', tint: '#F2784B' });
+    const t = M.templateFromDay(d);
+    if (t.length !== 3) E('templateFromDay lost a card');
+    if (!t[2].snap || t[2].snap.name !== 'Sångstund') E('templateFromDay dropped the snapshot');
+    const back = M.dayFromTemplate(t);
+    if (back.items.length !== 3) E('dayFromTemplate lost a card');
+    if (!back.items[2].snap || back.items[2].snap.name !== 'Sångstund') E('dayFromTemplate dropped the snapshot');
+    if (M.dayFromTemplate(null).items.length !== 0) E('dayFromTemplate is not total on null');
+    if (M.dayFromTemplate('nope').items.length !== 0) E('dayFromTemplate is not total on a string');
+  }
+
+  /* --- the ceiling holds --- */
+  {
+    const d = day();
+    for (let i = 0; i < 20; i++) M.addCard(d, 'arrival');
+    if (d.items.length !== 16) E(`MAX_CARDS must hold at 16, got ${d.items.length}`);
+    if (M.addCard(d, 'circle') !== false) E('addCard past the ceiling must refuse');
+  }
+}
+
+/* the strings a teacher can be shown must exist in all 11 locales */
+['soonFrame', 'dayDoneTitle', 'dayDoneSpoken', 'removedOnDay', 'skipWhich', 'skipNoDay',
+ 'addOwn', 'makeTitle', 'makeHint', 'makeDeviceOnly', 'noticeFull', 'noticeLong',
+ 'noticeDup', 'noticeEmpty', 'closeAria', 'nextLbl'].forEach((k) => {
+  const e = T.strings[k];
+  if (!e) { E(`string "${k}" is missing entirely`); return; }
+  ALL.forEach((l) => { if (!e[l]) E(`string "${k}" has no ${l}`); });
+});
+/* ⚠ aria-label English leaked into all 11 locales for two releases */
+const src2 = fs.readFileSync(path.join(TOOL_DIR, 'our-day.js'), 'utf8');
+if (/setAttribute\('aria-label',\s*'(?!\{)[a-z]/.test(src2)) {
+  E('a hard-coded English aria-label is present (use a translated key)');
+}
+if (/\d+vh\b/.test(src2)) E('a vh unit is present — forbidden inside a manipulative (§23.6)');
+if (/@media\s*\(min-width:\s*(7[0-9][0-9]|[89]\d\d|1\d{3})px\)[^{]*\{[^}]*(flex-direction|grid-template)/.test(src2)) {
+  E('a LAYOUT media query above 700px — the tool page pins the iframe at 704');
 }
 
 /* ---- report ---- */

@@ -262,8 +262,7 @@ var ODM = {
 
   unAdvance: function (day) {
     if (day.warned) { day.warned = false; return 'unwarned'; }
-    var start = this.atEnd(day) ? day.items.length : day.sunIdx;
-    var p = this.prevStop(day, start);
+    var p = this.prevStop(day, day.sunIdx);
     if (p < 0) return false;
     day.sunIdx = p;
     return 'moved';
@@ -599,7 +598,7 @@ var OurDay = {
     writing:   {en:'Writing',de:'Schreiben',fr:'l’écriture',it:'la scrittura',es:'la escritura',pt:'a escrita',nl:'Schrijven',sv:'Skrivstund',da:'Skrivning',no:'Skriving',fi:'Kirjoittaminen'},
     math:      {en:'Math',de:'Mathe',fr:'les maths',it:'la matematica',es:'las matemáticas',pt:'a matemática',nl:'Rekenen',sv:'Matte',da:'Matematik',no:'Matte',fi:'Matematiikka'},
     phonics:   {en:'Phonics',de:'Buchstabenzeit',fr:'les sons et les lettres',it:'l’alfabeto',es:'las letras',pt:'a hora das letras',nl:'Letters',sv:'Bokstäver',da:'Bogstaver',no:'Bokstaver',fi:'Kirjaimet'},
-    science:   {en:'Science',de:'Sachunterricht',fr:'la découverte du monde',it:'la scienza',es:'las ciencias',pt:'ciências',nl:'Wereldoriëntatie',sv:'NO',da:'Natur og teknologi',no:'Naturfag',fi:'Ympäristöoppi'},
+    science:   {en:'Science',de:'Sachunterricht',fr:'la découverte du monde',it:'la scienza',es:'las ciencias',pt:'as ciências',nl:'Wereldoriëntatie',sv:'NO',da:'Natur og teknologi',no:'Naturfag',fi:'Ympäristöoppi'},
     art:       {en:'Art',de:'Kunst',fr:'les arts plastiques',it:'l’arte',es:'el arte',pt:'a arte',nl:'Knutselen',sv:'Bild',da:'Billedkunst',no:'Kunst og håndverk',fi:'Kuvataide'},
     crafts:    {en:'Crafts',de:'Basteln',fr:'le bricolage',it:'il lavoretto',es:'las manualidades',pt:'a hora das atividades manuais',nl:'Handvaardigheid',sv:'Pyssel',da:'Krea',no:'Forming',fi:'Käsityö'},
     music:     {en:'Music',de:'Musik',fr:'la musique',it:'la musica',es:'la música',pt:'a música',nl:'Muziek',sv:'Musik',da:'Musik',no:'Musikk',fi:'Musiikki'},
@@ -608,7 +607,7 @@ var OurDay = {
     religion:  {en:'Religion & ethics',de:'Religion',fr:'—',it:'la religione',es:'la religión',pt:'o ensino religioso',nl:'Levensbeschouwing',sv:'SO',da:'Kristendom',no:'KRLE',fi:'Katsomusaine'},
     breakfast: {en:'Breakfast break',de:'Frühstückspause',fr:'—',it:'—',es:'el desayuno',pt:'—',nl:'Tien-uurtje',sv:'—',da:'—',no:'—',fi:'Aamupala'},
     snack:     {en:'Snack',de:'Obstpause',fr:'la collation',it:'la merenda',es:'el refrigerio',pt:'o lanche',nl:'Tien-uurtje',sv:'Fruktstund',da:'Frugtpause',no:'Fruktstund',fi:'Välipala'},
-    lunch:     {en:'Lunch',de:'Mittagessen',fr:'la cantine',it:'la mensa',es:'la comida',pt:'o almoço',nl:'De lunch',sv:'Lunch',da:'Madpakketid',no:'Matpakketid',fi:'Ruokailu'},
+    lunch:     {en:'Lunch',de:'Mittagessen',fr:'la cantine',it:'la mensa',es:'el almuerzo',pt:'o almoço',nl:'De lunch',sv:'Lunch',da:'Madpakketid',no:'Matpakketid',fi:'Ruokailu'},
     washhands: {en:'Wash hands',de:'Händewaschen',fr:'le lavage des mains',it:'il lavaggio delle mani',es:'el lavado de manos',pt:'a hora de lavar as mãos',nl:'Handen wassen',sv:'Handtvätt',da:'Håndvask',no:'Håndvask',fi:'Käsienpesu'},
     bathroom:  {en:'Bathroom',de:'Toilette',fr:'le passage aux toilettes',it:'il bagno',es:'el baño',pt:'a hora do banheiro',nl:'Naar de wc',sv:'Toalett',da:'Toilettid',no:'Dopause',fi:'Vessa'},
     brushing:  {en:'Tooth brushing',de:'Zähneputzen',fr:'—',it:'—',es:'—',pt:'a escovação',nl:'—',sv:'—',da:'—',no:'—',fi:'—'},
@@ -725,6 +724,13 @@ var OurDay = {
   /* a teacher's own words are never routed through ANNOUNCE or dropped
      into a frame that assumes a grammatical form — they are spoken bare. */
   isCustom: function (id) { return typeof id === 'string' && id.indexOf('my:') === 0; },
+  /* the form a card takes INSIDE a sentence: lowercase where the locale
+     lowercases subject names, and the ANNOUNCE override where one exists. */
+  sentenceName: function (id, loc, snap) {
+    var n = this.announceName(id, loc, snap);
+    if (loc === 'en' || loc === 'de' || this.isCustom(id) || (snap && snap.name)) return n;
+    return n ? n.charAt(0).toLowerCase() + n.slice(1) : n;
+  },
   announceName: function (id, loc, snap) {
     if (this.isCustom(id) || (snap && snap.name)) return this.cardName(id, loc, snap);
     var ov = this.ANNOUNCE[loc];
@@ -794,6 +800,14 @@ var OurDay = {
 
   /* weekday label: Intl (nb for no), SELF-capitalized, Monday-first */
   WEEKDAYS: ['mon', 'tue', 'wed', 'thu', 'fri'],
+  /* ⚠ CAPITALISED FOR A CHIP, LOWERCASE INSIDE A SENTENCE. Only en and
+     de capitalise weekdays; the other nine do not, and `removedOnDay`
+     reaches paper via the substitute sheet. Two call sites, two forms. */
+  weekdayInline: function (loc, idx) {
+    var w = this.weekdayLabel(loc, idx);
+    if (loc === 'en' || loc === 'de') return w;
+    return w ? w.charAt(0).toLowerCase() + w.slice(1) : w;
+  },
   weekdayLabel: function (loc, idx) {
     var locMap = { en: 'en', de: 'de', fr: 'fr', it: 'it', es: 'es-MX', pt: 'pt-BR', nl: 'nl', sv: 'sv', da: 'da', no: 'nb', fi: 'fi' };
     /* idx 0 = Monday; 2024-01-01 was a Monday */
@@ -1107,8 +1121,8 @@ var OurDay = {
     if (!ODM.swapCard(this.day, idx, newId, snap)) return;
     this._sfxChange();
     this._speak(this.fmt('changeSpoken', {
-      nw: this.announceName(newId, this.api.lang, snap),
-      old: this.announceName(oldId, this.api.lang, oldSnap)
+      nw: this.sentenceName(newId, this.api.lang, snap),
+      old: this.sentenceName(oldId, this.api.lang, oldSnap)
     }));
     this._persistDay();
   },
@@ -1122,8 +1136,8 @@ var OurDay = {
     if (it.skipped) {
       this._notice = null;
       this.api.announce(this.fmt(it.skipDay === null ? 'removedNote' : 'removedOnDay', {
-        name: this.cardName(it.id, this.api.lang, it.snap),
-        day: it.skipDay === null ? '' : this.weekdayLabel(this.api.lang, it.skipDay)
+        name: this.sentenceName(it.id, this.api.lang, it.snap),
+        day: it.skipDay === null ? '' : this.weekdayInline(this.api.lang, it.skipDay)
       }));
     }
     this._persistDay();
@@ -1153,7 +1167,7 @@ var OurDay = {
     var prev = this.day.items[idx - 1];
     this._speak(this.fmt('afterFrame', {
       a: this._cap(this.announceName(it.id, loc, it.snap)),
-      b: this.announceName(prev.id, loc, prev.snap)
+      b: this.sentenceName(prev.id, loc, prev.snap)
     }), it);
   },
 
@@ -1507,7 +1521,7 @@ var OurDay = {
     var txt = '<span class="od-cardtext"><span class="od-cardname"' + (nm.length > 18 ? ' data-long="1"' : '') + '>'
       + this._esc(this._cap(nm)) + '</span>';
     if (it.changedFrom) {
-      txt += '<span class="od-was">' + this._esc(this.fmt('wasLabel', { name: this.cardName(it.changedFrom, api.lang, it.changedSnap) })) + '</span>';
+      txt += '<span class="od-was">' + this._esc(this.fmt('wasLabel', { name: this.sentenceName(it.changedFrom, api.lang, it.changedSnap) })) + '</span>';
     }
     if (it.skipped) {
       txt += '<span class="od-was">' + this._esc(it.skipDay === null ? api.t('skipNoDay') : this.weekdayLabel(api.lang, it.skipDay)) + '</span>';
@@ -1701,8 +1715,9 @@ var OurDay = {
       for (var k = 0; k < self.day.items.length; k++) {
         self.day.items[k].changedFrom = null;
         self.day.items[k].changedSnap = null;
-        self.day.items[k].skipped = false;
-        self.day.items[k].skipDay = null;
+        /* a deferral is a PROMISE. Tomorrow's plan starts clean, but a
+           card the class agreed to move to Thursday KEEPS Thursday. */
+        if (!self.day.items[k].skipped) { self.day.items[k].skipDay = null; }
       }
       self.mode = 'build';
       self._persistDay();
@@ -1897,9 +1912,9 @@ var OurDay = {
 
     var add = api.el('button', 'od-tile od-tile-new');
     add.type = 'button';
-    add.setAttribute('aria-label', api.t('makeTitle'));
+    add.setAttribute('aria-label', api.t('makeNew'));
     add.innerHTML = '<svg class="od-ic" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 14v20M14 24h20" stroke="#146B5E" stroke-width="3.6" stroke-linecap="round" fill="none"/></svg>'
-      + '<span class="od-tilename">' + this._esc(api.t('makeTitle')) + '</span>';
+      + '<span class="od-tilename">' + this._esc(api.t('makeNew')) + '</span>';
     add.addEventListener('click', function () {
       self._makeEdit = null;
       self._makeName = ''; self._makeIcon = 'star'; self._makeTint = ODM_TINTS[0];
@@ -1935,7 +1950,8 @@ var OurDay = {
     var inp = document.createElement('input');
     inp.className = 'od-input';
     inp.type = 'text';
-    inp.maxLength = ODM.MAX_NAME;
+    /* deliberately NOT maxLength-capped: a silent truncation is worse
+       than being told, and the cap made `noticeLong` a dead string. */
     inp.value = this._makeName || '';
     inp.setAttribute('aria-label', api.t('makeTitle'));
     inp.autocapitalize = 'sentences';
@@ -2322,12 +2338,12 @@ var OurDay = {
     for (var k = 0; k < this.day.items.length; k++) {
       var c = this.day.items[k];
       if (c.changedFrom) changed.push(this.fmt('changeSpoken', {
-        nw: this.cardName(c.id, api.lang, c.snap),
-        old: this.cardName(c.changedFrom, api.lang, c.changedSnap)
+        nw: this.sentenceName(c.id, api.lang, c.snap),
+        old: this.sentenceName(c.changedFrom, api.lang, c.changedSnap)
       }));
       else if (c.skipped) changed.push(this.fmt(c.skipDay === null ? 'removedNote' : 'removedOnDay', {
-        name: this.cardName(c.id, api.lang, c.snap),
-        day: c.skipDay === null ? '' : this.weekdayLabel(api.lang, c.skipDay)
+        name: this.sentenceName(c.id, api.lang, c.snap),
+        day: c.skipDay === null ? '' : this.weekdayInline(api.lang, c.skipDay)
       }));
     }
     if (changed.length) {
@@ -2590,10 +2606,10 @@ function injectOurDayCSS() {
     + '.od-notice{background:#FFF3E8;border:2px solid #F2784B66;border-radius:14px;padding:10px 14px;font-family:Nunito,sans-serif;font-weight:800;color:#8A3E1B;font-size:15px;line-height:1.4;}'
 
     /* ---------------- the strip ---------------- */
-    + '.od-striphost{background:#FFFDF7;border-radius:18px;padding:10px 12px;box-shadow:0 2px 10px rgba(20,107,94,.10);min-height:120px;}'
-    + '.od-strip{display:flex;flex-direction:column;gap:6px;}'
+    + '.od-striphost{min-width:0;max-width:100%;background:#FFFDF7;border-radius:18px;padding:10px 12px;box-shadow:0 2px 10px rgba(20,107,94,.10);min-height:120px;}'
+    + '.od-strip{display:flex;flex-direction:column;gap:6px;min-width:0;}'
     + '.od-empty{font-family:Nunito,sans-serif;font-weight:700;color:#7A8C88;padding:22px 10px 14px;text-align:center;font-size:16px;line-height:1.4;}'
-    + '.od-card{position:relative;display:flex;align-items:center;gap:10px;min-height:var(--od-cardh,72px);border:1.5px solid rgba(20,107,94,.12);border-radius:14px;background:#fff;padding:0 10px 0 0;transition:min-height .35s ease,background .35s ease;}'
+    + '.od-card{position:relative;min-width:0;max-width:100%;display:flex;align-items:center;gap:10px;min-height:var(--od-cardh,72px);border:1.5px solid rgba(20,107,94,.12);border-radius:14px;background:#fff;padding:0 10px 0 0;transition:min-height .35s ease,background .35s ease;}'
     + '.od-card.od-now{border-color:#F2C879;box-shadow:0 0 0 3px #F2C87955,0 2px 10px rgba(224,166,60,.25);background:#FFFCF2;}'
     /* the warning: a difference in KIND (a ring), never in hue */
     + '.od-card.od-soon{border-color:#146B5E;box-shadow:0 0 0 2px #146B5E33;}'
@@ -2625,7 +2641,7 @@ function injectOurDayCSS() {
        The old rule was nowrap+ellipsis, so pt "a hora das atividades
        manuais", es "el tiempo al aire libre" and nl "Invaljuf of
        invalmeester" were cut off on the primary display surface. */
-    + '.od-cardname{font-family:Baloo\\ 2,cursive;font-size:clamp(17px,calc(var(--od-cardh,72px)*.38),46px);color:#0E5147;line-height:1.05;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;overflow-wrap:break-word;hyphens:auto;}'
+    + '.od-cardname{font-family:Baloo\\ 2,cursive;font-size:clamp(17px,calc(var(--od-cardh,72px)*.38),46px);color:#0E5147;line-height:1.05;overflow:hidden;max-height:3.25em;overflow-wrap:break-word;hyphens:auto;}'
     + '.od-cardname[data-long]{font-size:clamp(15px,calc(var(--od-cardh,72px)*.31),36px);}'
     + '.od-was{font-family:Nunito,sans-serif;font-weight:700;font-size:clamp(12px,calc(var(--od-cardh,72px)*.17),18px);color:#7A8C88;}'
     + '.od-strip.od-tight .od-cardname,.od-strip.od-tight .od-was{display:none;}'
@@ -2670,7 +2686,7 @@ function injectOurDayCSS() {
     + '.od-now-panel{background:#FFFCF2;border:2px solid #F2C879;border-radius:22px;padding:18px 20px;display:flex;flex-direction:column;align-items:center;gap:10px;box-shadow:0 3px 16px rgba(224,166,60,.22);}'
     + '.od-now-icon{width:min(38%,300px);min-width:120px;}'
     + '.od-now-icon .od-ic{width:100%;height:auto;}'
-    + '.od-now-name{font-family:Baloo\\ 2,cursive;font-size:clamp(30px,calc(var(--od-w,704)*0.055px),120px);color:#0E5147;line-height:1.03;text-align:center;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
+    + '.od-now-name{font-family:Baloo\\ 2,cursive;font-size:clamp(30px,calc(var(--od-w,704)*0.055px),120px);color:#0E5147;line-height:1.03;text-align:center;overflow-wrap:break-word;hyphens:auto;overflow:hidden;max-height:2.2em;}'
     + '.od-now-time{display:flex;align-items:center;gap:8px;font-family:Nunito,sans-serif;font-weight:800;font-size:clamp(18px,calc(var(--od-w,704)*0.024px),44px);color:#5B4A2F;}'
     + '.od-now-next{display:flex;align-items:center;gap:10px;opacity:.62;border-top:2px dashed rgba(20,107,94,.18);padding-top:10px;width:100%;justify-content:center;}'
     + '.od-now-next .od-ic{width:clamp(28px,calc(var(--od-w,704)*0.035px),80px);height:auto;}'
@@ -2790,6 +2806,7 @@ function injectOurDayCSS() {
     /* ---------------- STACK ---------------- */
     + '.od-wrap[data-layout="stack"] .od-main{flex-direction:column;}'
     + '.od-wrap[data-layout="stack"] .od-cardbody .od-ic{width:38px;height:38px;}'
+    + '@media (max-width:420px){.od-rail{grid-template-columns:40px;}.od-railcell{width:40px;}.od-rail .od-railcell:nth-child(2){position:absolute;right:6px;bottom:6px;}}'
     + '.od-wrap[data-layout="stack"] .od-grid{grid-template-columns:repeat(auto-fill,minmax(92px,1fr));}'
     + '.od-wrap[data-layout="stack"] .od-sheet{padding:14px 12px;}'
     + '@media (prefers-reduced-motion:reduce){.od-sun-rays{animation:none;}.od-cardbody.od-pulse{animation:none;}.od-card{transition:none;}.od-card.od-done .od-mark{animation:none;}.od-sunset-art{animation:none;}}'

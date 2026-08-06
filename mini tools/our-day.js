@@ -466,7 +466,7 @@ var OurDay = {
     removedNote:  {en:'{name} moved to another day.',de:'{name} wandert auf einen anderen Tag.',fr:'{name}, ce sera pour un autre jour.',it:'{name} passa a un altro giorno.',es:'Guardamos {name} para otro día.',pt:'{name} ficou para outro dia.',nl:'{name} schuift door naar een andere dag.',sv:'{name} flyttas till en annan dag.',da:'{name} flyttes til en anden dag.',no:'{name} flyttes til en annen dag.',fi:'{name} siirtyy toiseen päivään.'},
     afterFrame:   {en:'{a} comes after {b}.',de:'{a} kommt nach {b}.',fr:'{a} vient après {b}.',it:'{a} viene dopo {b}.',es:'{a}, cuando terminemos con {b}.',pt:'{a} vem depois que {b} termina.',nl:'{a} komt na {b}.',sv:'{a} kommer efter {b}.',da:'{a} kommer efter {b}.',no:'{a} kommer etter {b}.',fi:'{a} on vuorossa, kun {b} on ohi.'},
     firstFrame:   {en:'{a} is how we start our day.',de:'Mit {a} beginnt unser Tag.',fr:'On commence la journée avec {a}.',it:'La giornata comincia con {a}.',es:'{a}: así empezamos el día.',pt:'{a} abre o nosso dia.',nl:'Met {a} begint onze dag.',sv:'Vi börjar dagen med {a}.',da:'Vi begynder dagen med {a}.',no:'Vi begynner dagen med {a}.',fi:'Päivä alkaa: {a}.'},
-    emptyHint:    {en:'Tap the activity cards to build today.',de:'Tippt links auf die Karten und baut euren Tag.',fr:'Touchez les cartes à gauche pour construire la journée.',it:'Tocca le carte a sinistra per costruire la giornata.',es:'Toca las tarjetas de la izquierda para armar el día.',pt:'Toque nos cartões ao lado para montar o dia.',nl:'Tik links op de kaartjes om de dag te bouwen.',sv:'Tryck på korten till vänster för att bygga dagen.',da:'Tryk på kortene til venstre for at bygge dagen.',no:'Trykk på kortene til venstre for å bygge dagen.',fi:'Rakenna päivä napauttamalla vieressä olevia kortteja.'},
+    emptyHint:    {en:'Tap the activity cards to build today.',de:'Tippt die Karten an und baut euren Tag.',fr:'Touchez les cartes pour construire la journée.',it:'Tocca le carte per costruire la giornata.',es:'Toca las tarjetas para armar el día.',pt:'Toque nos cartões para montar o dia.',nl:'Tik op de kaartjes om de dag te bouwen.',sv:'Tryck på korten för att bygga dagen.',da:'Tryk på kortene for at bygge dagen.',no:'Trykk på kortene for å bygge dagen.',fi:'Rakenna päivä napauttamalla kortteja.'},
     dayFull:      {en:'Our day is full — 16 cards is the whole strip.',de:'Unser Tag ist voll — 16 Karten passen auf den Streifen.',fr:'La journée est pleine — 16 cartes, c’est le maximum.',it:'La giornata è piena — il massimo è 16 carte.',es:'El día está lleno — 16 tarjetas es el máximo.',pt:'O dia está cheio — 16 cartões é o máximo.',nl:'De dag is vol — 16 kaartjes is het maximum.',sv:'Dagen är full — fler än 16 kort får inte plats.',da:'Dagen er fuld — der er plads til 16 kort.',no:'Dagen er full — det er plass til 16 kort.',fi:'Päivä on täynnä — 16 korttia on enimmäismäärä.'},
     grpArrival:   {en:'Arriving & leaving',de:'Ankommen & Gehen',fr:'Arrivée & départ',it:'Arrivo e uscita',es:'Llegada y salida',pt:'Chegada e saída',nl:'Komen & gaan',sv:'Komma & gå',da:'Komme & gå',no:'Komme & gå',fi:'Tulo ja lähtö'},
     grpLearning:  {en:'Learning',de:'Lernen',fr:'Apprentissages',it:'Imparare',es:'Aprender',pt:'Aprender',nl:'Leren',sv:'Lärande',da:'Læring',no:'Læring',fi:'Oppiminen'},
@@ -492,40 +492,41 @@ var OurDay = {
        reviews. Every native panel gets this block as a SOURCE TO AUDIT,
        not as a target to translate — that is where the last several
        tools' worst copy defects were caught. */
-    soonFrame:    {en:'Soon it’s {a}.',de:'Gleich kommt {a}.',fr:'Bientôt, ce sera {a}.',it:'Fra poco c’è {a}.',es:'Ahora viene {a}.',pt:'Daqui a pouco é {a}.',nl:'Straks is het {a}.',sv:'Snart är det {a}.',da:'Om lidt er det {a}.',no:'Snart er det {a}.',fi:'Kohta on {a}.'},
-    dayDoneTitle: {en:'That was our day.',de:'Das war unser Tag.',fr:'Voilà notre journée.',it:'Questa è stata la nostra giornata.',es:'Ese fue nuestro día.',pt:'Esse foi o nosso dia.',nl:'Dat was onze dag.',sv:'Det var vår dag.',da:'Det var vores dag.',no:'Det var dagen vår.',fi:'Se oli meidän päivä.'},
-    dayDoneSpoken:{en:'That was our day.',de:'Das war unser Tag.',fr:'Voilà notre journée.',it:'Questa è stata la nostra giornata.',es:'Ese fue nuestro día.',pt:'Esse foi o nosso dia.',nl:'Dat was onze dag.',sv:'Det var vår dag.',da:'Det var vores dag.',no:'Det var dagen vår.',fi:'Se oli meidän päivä.'},
-    tomorrowChip: {en:'Build tomorrow',de:'Morgen planen',fr:'Préparer demain',it:'Prepara domani',es:'Preparar mañana',pt:'Montar amanhã',nl:'Morgen klaarzetten',sv:'Bygg i morgon',da:'Byg i morgen',no:'Bygg i morgen',fi:'Rakenna huominen'},
-    removedOnDay: {en:'{name} moves to {day}.',de:'{name} wandert auf {day}.',fr:'{name}, ce sera {day}.',it:'{name} passa a {day}.',es:'Guardamos {name} para el {day}.',pt:'{name} fica para {day}.',nl:'{name} schuift door naar {day}.',sv:'{name} flyttas till {day}.',da:'{name} flyttes til {day}.',no:'{name} flyttes til {day}.',fi:'{name} siirtyy {day}.'},
-    skipWhich:    {en:'Which day instead?',de:'An welchem Tag dann?',fr:'Quel jour à la place ?',it:'Quale giorno, allora?',es:'¿Qué día en su lugar?',pt:'Em que dia, então?',nl:'Welke dag dan?',sv:'Vilken dag i stället?',da:'Hvilken dag i stedet?',no:'Hvilken dag i stedet?',fi:'Minä päivänä sitten?'},
-    skipNoDay:    {en:'Another day',de:'Ein andermal',fr:'Un autre jour',it:'Un altro giorno',es:'Otro día',pt:'Outro dia',nl:'Een andere keer',sv:'En annan dag',da:'En anden dag',no:'En annen dag',fi:'Toisena päivänä'},
-    setWarn:      {en:'Two taps to move on (a gentle warning first)',de:'Zwei Tipper zum Weitergehen (erst ein sanfter Hinweis)',fr:'Deux touches pour avancer (un signal doux d’abord)',it:'Due tocchi per proseguire (prima un segnale gentile)',es:'Dos toques para avanzar (primero un aviso suave)',pt:'Dois toques para avançar (primeiro um aviso suave)',nl:'Twee tikken om verder te gaan (eerst een zacht seintje)',sv:'Två tryck för att gå vidare (först en mjuk förvarning)',da:'To tryk for at gå videre (først et blidt varsel)',no:'To trykk for å gå videre (først et mykt varsel)',fi:'Kaksi napautusta eteenpäin (ensin lempeä ennakkomerkki)'},
-    addOwn:       {en:'My cards',de:'Meine Karten',fr:'Mes cartes',it:'Le mie carte',es:'Mis tarjetas',pt:'Meus cartões',nl:'Mijn kaartjes',sv:'Mina kort',da:'Mine kort',no:'Mine kort',fi:'Omat kortit'},
-    makeTitle:    {en:'Name this card',de:'Wie heißt diese Karte?',fr:'Nomme cette carte',it:'Dai un nome a questa carta',es:'Ponle nombre a esta tarjeta',pt:'Dê um nome a este cartão',nl:'Geef dit kaartje een naam',sv:'Vad heter det här kortet?',da:'Hvad hedder dette kort?',no:'Hva heter dette kortet?',fi:'Anna kortille nimi'},
-    makeHint:     {en:'Children will see the picture, not the words.',de:'Die Kinder sehen das Bild, nicht die Wörter.',fr:'Les enfants voient l’image, pas les mots.',it:'I bambini vedono l’immagine, non le parole.',es:'Los niños ven el dibujo, no las palabras.',pt:'As crianças veem a imagem, não as palavras.',nl:'Kinderen zien het plaatje, niet de woorden.',sv:'Barnen ser bilden, inte orden.',da:'Børnene ser billedet, ikke ordene.',no:'Barna ser bildet, ikke ordene.',fi:'Lapset näkevät kuvan, eivät sanoja.'},
-    makeAdd:      {en:'Add to today',de:'Zum Tag hinzufügen',fr:'Ajouter à la journée',it:'Aggiungi alla giornata',es:'Añadir al día',pt:'Adicionar ao dia',nl:'Aan vandaag toevoegen',sv:'Lägg till i dagen',da:'Føj til dagen',no:'Legg til i dagen',fi:'Lisää päivään'},
-    makeSave:     {en:'Save',de:'Speichern',fr:'Enregistrer',it:'Salva',es:'Guardar',pt:'Salvar',nl:'Opslaan',sv:'Spara',da:'Gem',no:'Lagre',fi:'Tallenna'},
-    makeDelete:   {en:'Delete this card',de:'Karte löschen',fr:'Supprimer cette carte',it:'Elimina questa carta',es:'Borrar esta tarjeta',pt:'Excluir este cartão',nl:'Dit kaartje verwijderen',sv:'Ta bort kortet',da:'Slet kortet',no:'Slett kortet',fi:'Poista kortti'},
-    makeDeviceOnly:{en:'Your cards stay in this browser, on this computer.',de:'Deine Karten bleiben in diesem Browser, auf diesem Computer.',fr:'Vos cartes restent dans ce navigateur, sur cet ordinateur.',it:'Le tue carte restano in questo browser, su questo computer.',es:'Tus tarjetas se quedan en este navegador, en este ordenador.',pt:'Seus cartões ficam neste navegador, neste computador.',nl:'Je kaartjes blijven in deze browser, op deze computer.',sv:'Dina kort stannar i den här webbläsaren, på den här datorn.',da:'Dine kort bliver i denne browser, på denne computer.',no:'Kortene dine blir i denne nettleseren, på denne maskinen.',fi:'Korttisi säilyvät tässä selaimessa, tällä koneella.'},
+    soonFrame: {en:'Soon it’s time for {a}.',de:'Gleich kommt {a}.',fr:'Bientôt, ce sera {a}.',it:'Fra poco c’è {a}.',es:'En un ratito vamos con {a}.',pt:'Daqui a pouco é {a}.',nl:'Straks is het tijd voor {a}.',sv:'Snart är det {a}.',da:'Om lidt er det {a}.',no:'Snart er det {a}.',fi:'Kohta on {a}.'},
+    dayDoneTitle: {en:'That was our day.',de:'Das war unser Tag.',fr:'Voilà notre journée.',it:'Ecco la nostra giornata.',es:'Así fue nuestro día.',pt:'Esse foi o nosso dia.',nl:'Dat was onze dag.',sv:'Det var vår dag.',da:'Det var vores dag.',no:'Det var dagen vår.',fi:'Tämä oli meidän päivä.'},
+    dayDoneSpoken: {en:'That was our day.',de:'Das war unser Tag.',fr:'Voilà notre journée.',it:'Questa è stata la nostra giornata.',es:'Así fue nuestro día.',pt:'Esse foi o nosso dia.',nl:'Dat was onze dag.',sv:'Då var vår dag slut.',da:'Det var vores dag.',no:'Det var dagen vår.',fi:'Tämä oli meidän päivä.'},
+    tomorrowChip: {en:'Build tomorrow',de:'Für morgen übernehmen',fr:'Préparer demain',it:'Prepara domani',es:'Armar mañana',pt:'Montar amanhã',nl:'Morgen klaarzetten',sv:'Samma i morgon',da:'Byg morgendagen',no:'Bygg morgendagen',fi:'Rakenna huominen'},
+    removedOnDay: {en:'{name} moves to {day}.',de:'{name} wandert auf {day}.',fr:'On garde {name} pour {day}.',it:'Spostiamo {name} a {day}.',es:'Guardamos {name} para el {day}.',pt:'Deixamos {name} para {day}.',nl:'{name} schuift door naar {day}.',sv:'{name} flyttas till {day}.',da:'{name} flyttes til {day}.',no:'{name} flyttes til {day}.',fi:'{name} siirtyy. {day} on uusi päivä.'},
+    skipWhich: {en:'Which day instead?',de:'An welchem Tag stattdessen?',fr:'Ce sera quel jour ?',it:'Quale giorno, allora?',es:'¿Qué día, entonces?',pt:'Fica para que dia?',nl:'Welke dag wordt het?',sv:'Vilken dag i stället?',da:'Hvilken dag i stedet?',no:'Hvilken dag i stedet?',fi:'Minä päivänä sitten?'},
+    skipNoDay: {en:'No day yet',de:'Noch offen',fr:'Pas encore de jour',it:'Ancora nessun giorno',es:'Todavía sin día',pt:'Ainda sem dia',nl:'Nog geen dag',sv:'Ingen särskild dag',da:'Ingen bestemt dag',no:'Ingen bestemt dag',fi:'Ei vielä tiedossa'},
+    setWarn: {en:'Two taps to move on — the first one says “soon”.',de:'Zweimal tippen zum Weitergehen — der erste Tipp sagt „gleich“.',fr:'Avancer en deux fois — le premier signal dit « bientôt ».',it:'Due tocchi per andare avanti — il primo dice « fra poco ».',es:'Dos toques para avanzar — el primero dice “ahorita”.',pt:'Dois toques para avançar — o primeiro diz “daqui a pouco”.',nl:'Twee tikken om verder te gaan — de eerste zegt „straks”.',sv:'Två tryck för att gå vidare (med förvarning först)',da:'To tryk for at gå videre — det første siger “om lidt”.',no:'To trykk for å gå videre — det første sier «snart».',fi:'Kaksi napautusta eteenpäin — ensimmäinen sanoo “kohta”.'},
+    addOwn: {en:'My cards',de:'Meine Karten',fr:'Mes cartes',it:'Le mie carte',es:'Mis tarjetas',pt:'Meus cartões',nl:'Mijn kaartjes',sv:'Mina kort',da:'Mine kort',no:'Mine kort',fi:'Omat kortit'},
+    makeNew:      {en:'New card',de:'Neue Karte',fr:'Nouvelle carte',it:'Nuova carta',es:'Tarjeta nueva',pt:'Cartão novo',nl:'Nieuw kaartje',sv:'Eget kort',da:'Nyt kort',no:'Nytt kort',fi:'Uusi kortti'},
+    makeTitle: {en:'Name this card',de:'Karte benennen',fr:'Nommez cette carte',it:'Dai un nome a questa carta',es:'Ponle nombre a esta tarjeta',pt:'Dê um nome a este cartão',nl:'Geef dit kaartje een naam',sv:'Namnge kortet',da:'Hvad hedder dette kort?',no:'Hva heter dette kortet?',fi:'Anna kortille nimi'},
+    makeHint: {en:'Children who are not reading yet go by the picture — pick one that says it on its own.',de:'Die Kinder erkennen die Karte am Bild — der Name ist für dich.',fr:'Les enfants qui ne lisent pas encore se fient à l’image — choisissez-en une qui dit tout.',it:'I bambini che non leggono ancora si affidano all’immagine — scegline una che dica tutto.',es:'Los niños que aún no leen se guían por el dibujo — elige uno que lo diga todo.',pt:'As crianças que ainda não leem se guiam pela imagem — escolha uma que diga tudo.',nl:'Jonge kinderen lezen de naam nog niet — kies een plaatje dat zij meteen herkennen.',sv:'Barnen läser bilden — namnet är för dig och för utskriften.',da:'De mindste går efter billedet — vælg et, der siger det hele.',no:'De minste går etter bildet — velg ett som sier alt.',fi:'Pienimmät katsovat kuvaa — valitse kuva, joka kertoo kaiken.'},
+    makeAdd: {en:'Add to today',de:'Zum Tag hinzufügen',fr:'Ajouter à la journée',it:'Aggiungi alla giornata',es:'Agregar al día',pt:'Adicionar ao dia',nl:'Aan vandaag toevoegen',sv:'Lägg till i vår dag',da:'Tilføj til dagen',no:'Legg til i dagen',fi:'Lisää päivään'},
+    makeSave: {en:'Save',de:'Speichern',fr:'Enregistrer',it:'Salva',es:'Guardar',pt:'Salvar',nl:'Opslaan',sv:'Spara',da:'Gem',no:'Lagre',fi:'Tallenna'},
+    makeDelete: {en:'Delete this card',de:'Aus meinen Karten entfernen',fr:'Supprimer cette carte',it:'Elimina questa carta',es:'Borrar esta tarjeta',pt:'Excluir este cartão',nl:'Uit Mijn kaartjes halen',sv:'Ta bort ur Mina kort',da:'Slet kortet',no:'Slett kortet',fi:'Poista kortti'},
+    makeDeviceOnly: {en:'Your cards stay in this browser, on this device.',de:'Deine Karten bleiben nur in diesem Browser, auf diesem Gerät.',fr:'Vos cartes restent dans ce navigateur, sur cet appareil.',it:'Le tue carte restano in questo browser, su questo dispositivo.',es:'Tus tarjetas se quedan en este navegador, en este dispositivo.',pt:'Seus cartões ficam neste navegador, neste aparelho.',nl:'Je kaartjes blijven in deze browser, op dit apparaat — ergens anders zie je ze niet.',sv:'Dina kort stannar i den här webbläsaren, på den här enheten.',da:'Dine kort bliver i denne browser, på denne enhed.',no:'Kortene dine blir i denne nettleseren, på denne enheten.',fi:'Korttisi säilyvät tässä selaimessa, tällä laitteella.'},
     /* ⚠ REFUSE WITH A REASON, NEVER IN SILENCE. Each of these used to be
        impossible to reach because the feature did not exist; a bare
        `return` would be indistinguishable from the tool being broken. */
-    noticeFull:   {en:'That’s twelve cards — the most you can keep. Edit one you already have.',de:'Das sind zwölf Karten — mehr lassen sich nicht behalten. Bearbeite eine vorhandene.',fr:'Cela fait douze cartes — c’est le maximum. Modifiez-en une existante.',it:'Sono dodici carte — il massimo. Modificane una che hai già.',es:'Son doce tarjetas — el máximo. Edita una que ya tengas.',pt:'São doze cartões — o máximo. Edite um que você já tem.',nl:'Dat zijn twaalf kaartjes — het maximum. Pas er een aan die je al hebt.',sv:'Det är tolv kort — fler går inte att spara. Ändra ett du redan har.',da:'Det er tolv kort — flere kan ikke gemmes. Rediger et, du allerede har.',no:'Det er tolv kort — flere kan ikke lagres. Endre ett du allerede har.',fi:'Kaksitoista korttia on enimmäismäärä. Muokkaa jotakin jo olemassa olevaa.'},
-    noticeLong:   {en:'That name is a little long for the board — try twenty letters or fewer.',de:'Der Name ist für die Tafel etwas lang — höchstens zwanzig Zeichen.',fr:'Ce nom est un peu long pour le tableau — vingt lettres au maximum.',it:'Il nome è un po’ lungo per la lavagna — al massimo venti lettere.',es:'Ese nombre es un poco largo para la pizarra — veinte letras como máximo.',pt:'Esse nome é um pouco longo para o quadro — no máximo vinte letras.',nl:'Die naam is wat lang voor het bord — hoogstens twintig letters.',sv:'Namnet är lite långt för tavlan — högst tjugo tecken.',da:'Navnet er lidt langt til tavlen — højst tyve tegn.',no:'Navnet er litt langt for tavla — høyst tjue tegn.',fi:'Nimi on taululle vähän pitkä — enintään kaksikymmentä merkkiä.'},
-    noticeDup:    {en:'You already have a card that looks like this one. Pick another picture or colour.',de:'So eine Karte gibt es schon. Wähle ein anderes Bild oder eine andere Farbe.',fr:'Vous avez déjà une carte qui ressemble à celle-ci. Choisissez une autre image ou couleur.',it:'Hai già una carta come questa. Scegli un’altra immagine o un altro colore.',es:'Ya tienes una tarjeta parecida. Elige otro dibujo u otro color.',pt:'Você já tem um cartão parecido. Escolha outra imagem ou outra cor.',nl:'Je hebt al zo’n kaartje. Kies een ander plaatje of een andere kleur.',sv:'Du har redan ett kort som ser ut så här. Välj en annan bild eller färg.',da:'Du har allerede et kort, der ser sådan ud. Vælg et andet billede eller en anden farve.',no:'Du har allerede et kort som ser slik ut. Velg et annet bilde eller en annen farge.',fi:'Sinulla on jo tällainen kortti. Valitse toinen kuva tai väri.'},
-    noticeEmpty:  {en:'Give the card a name first.',de:'Gib der Karte zuerst einen Namen.',fr:'Donnez d’abord un nom à la carte.',it:'Prima dai un nome alla carta.',es:'Primero ponle un nombre a la tarjeta.',pt:'Primeiro dê um nome ao cartão.',nl:'Geef het kaartje eerst een naam.',sv:'Ge kortet ett namn först.',da:'Giv først kortet et navn.',no:'Gi kortet et navn først.',fi:'Anna kortille ensin nimi.'},
-    recentLbl:    {en:'Used often',de:'Oft benutzt',fr:'Souvent utilisées',it:'Usate spesso',es:'Usadas a menudo',pt:'Usados com frequência',nl:'Vaak gebruikt',sv:'Ofta använda',da:'Ofte brugt',no:'Ofte brukt',fi:'Usein käytetyt'},
-    addCardAria:  {en:'Add an activity',de:'Aktivität hinzufügen',fr:'Ajouter une activité',it:'Aggiungi un’attività',es:'Añadir una actividad',pt:'Adicionar uma atividade',nl:'Activiteit toevoegen',sv:'Lägg till en aktivitet',da:'Tilføj en aktivitet',no:'Legg til en aktivitet',fi:'Lisää puuha'},
-    closeAria:    {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
-    upAria:       {en:'Move {name} earlier',de:'{name} nach vorn schieben',fr:'Déplacer {name} plus tôt',it:'Sposta {name} prima',es:'Mover {name} antes',pt:'Mover {name} para antes',nl:'{name} eerder zetten',sv:'Flytta {name} tidigare',da:'Flyt {name} tidligere',no:'Flytt {name} tidligere',fi:'Siirrä {name} aiemmaksi'},
-    downAria:     {en:'Move {name} later',de:'{name} nach hinten schieben',fr:'Déplacer {name} plus tard',it:'Sposta {name} dopo',es:'Mover {name} después',pt:'Mover {name} para depois',nl:'{name} later zetten',sv:'Flytta {name} senare',da:'Flyt {name} senere',no:'Flytt {name} senere',fi:'Siirrä {name} myöhemmäksi'},
-    nextLbl:      {en:'Next',de:'Danach',fr:'Ensuite',it:'Poi',es:'Después',pt:'Depois',nl:'Daarna',sv:'Sedan',da:'Derefter',no:'Deretter',fi:'Seuraavaksi'},
-    focusChip:    {en:'Now and next',de:'Jetzt und danach',fr:'Maintenant et ensuite',it:'Adesso e poi',es:'Ahora y después',pt:'Agora e depois',nl:'Nu en straks',sv:'Nu och sedan',da:'Nu og derefter',no:'Nå og deretter',fi:'Nyt ja seuraavaksi'},
-    moreChip:     {en:'Show the tools',de:'Werkzeuge zeigen',fr:'Afficher les outils',it:'Mostra gli strumenti',es:'Mostrar las herramientas',pt:'Mostrar as ferramentas',nl:'Toon de knoppen',sv:'Visa verktygen',da:'Vis værktøjerne',no:'Vis verktøyene',fi:'Näytä työkalut'},
-    tmplReplace:  {en:'Replace {day}?',de:'{day} ersetzen?',fr:'Remplacer {day} ?',it:'Sostituire {day}?',es:'¿Reemplazar {day}?',pt:'Substituir {day}?',nl:'{day} vervangen?',sv:'Ersätta {day}?',da:'Erstat {day}?',no:'Erstatte {day}?',fi:'Korvataanko {day}?'},
-    tmplSaveHere: {en:'Save today here',de:'Heute hier speichern',fr:'Enregistrer aujourd’hui ici',it:'Salva qui la giornata',es:'Guardar hoy aquí',pt:'Salvar hoje aqui',nl:'Vandaag hier opslaan',sv:'Spara dagen här',da:'Gem dagen her',no:'Lagre dagen her',fi:'Tallenna tämä päivä tähän'},
-    tmplKeep:     {en:'Keep',de:'Behalten',fr:'Garder',it:'Mantieni',es:'Mantener',pt:'Manter',nl:'Behouden',sv:'Behåll',da:'Behold',no:'Behold',fi:'Säilytä'},
-    tmplName:     {en:'Name this plan',de:'Plan benennen',fr:'Nommer ce plan',it:'Dai un nome al piano',es:'Ponle nombre al plan',pt:'Dê um nome ao plano',nl:'Geef dit plan een naam',sv:'Namnge planen',da:'Navngiv planen',no:'Gi planen et navn',fi:'Nimeä suunnitelma'},
+    noticeFull: {en:'That’s twelve cards — the most you can keep. Edit or delete one you already have.',de:'Mehr als zwölf eigene Karten gehen nicht — bearbeite oder lösche eine davon.',fr:'Cela fait douze cartes — c’est le maximum. Modifiez-en une ou supprimez-en une.',it:'Sono dodici carte — il massimo. Modificane una o eliminane una.',es:'Son doce tarjetas — el máximo. Edita o borra una que ya tengas.',pt:'São doze cartões — o máximo. Edite ou exclua um que você já tem.',nl:'Dat zijn twaalf kaartjes — het maximum. Pas er een aan of verwijder er een.',sv:'Det är tolv kort — fler går inte att spara. Ändra eller ta bort ett du redan har.',da:'Det er tolv kort — flere kan ikke gemmes. Rediger eller slet et, du allerede har.',no:'Det er tolv kort — flere kan ikke lagres. Endre eller slett ett du allerede har.',fi:'Kaksitoista korttia on enimmäismäärä. Muokkaa tai poista jokin vanha kortti.'},
+    noticeLong: {en:'That name is a bit long for the board — twenty characters is the most it will hold.',de:'Der Name ist für die Karte etwas lang — höchstens zwanzig Zeichen.',fr:'Ce nom ne tient pas sur la carte — vingt caractères au maximum.',it:'Questo nome non ci sta sulla carta — al massimo venti caratteri.',es:'Ese nombre no cabe en la tarjeta — veinte caracteres como máximo.',pt:'Esse nome não cabe no cartão — no máximo vinte caracteres.',nl:'Die naam is wat lang voor het kaartje — hoogstens twintig tekens.',sv:'Namnet är lite långt för kortet — högst tjugo tecken.',da:'Navnet er lidt langt til tavlen — højst tyve tegn.',no:'Navnet er litt langt for tavla — høyst tjue tegn.',fi:'Nimi on taululle vähän pitkä — enintään kaksikymmentä merkkiä.'},
+    noticeDup: {en:'You already have a card like this one — same name, or same picture and colour.',de:'So eine Karte gibt es schon — gleicher Name, oder gleiches Bild und gleiche Farbe.',fr:'Vous avez déjà une carte comme celle-ci — même nom, ou même image et même couleur.',it:'Hai già una carta così — stesso nome, oppure stessa immagine e stesso colore.',es:'Ya tienes una tarjeta así — con el mismo nombre, o con el mismo dibujo y color.',pt:'Você já tem um cartão assim — mesmo nome, ou mesma imagem e mesma cor.',nl:'Je hebt al zo’n kaartje — dezelfde naam, of hetzelfde plaatje en dezelfde kleur.',sv:'Du har redan ett kort som ser likadant ut — samma namn, eller samma bild och färg.',da:'Du har allerede et kort som dette — samme navn, eller samme billede og farve.',no:'Du har allerede et kort som dette — samme navn, eller samme bilde og farge.',fi:'Sinulla on jo tällainen kortti — sama nimi, tai sama kuva ja väri.'},
+    noticeEmpty: {en:'Give the card a name first.',de:'Gib der Karte zuerst einen Namen.',fr:'Donnez d’abord un nom à la carte.',it:'Prima dai un nome alla carta.',es:'Primero ponle un nombre a la tarjeta.',pt:'Primeiro dê um nome ao cartão.',nl:'Geef het kaartje eerst een naam.',sv:'Ge kortet ett namn först.',da:'Giv først kortet et navn.',no:'Gi kortet et navn først.',fi:'Anna kortille ensin nimi.'},
+    recentLbl: {en:'Recently used',de:'Zuletzt benutzt',fr:'Utilisées récemment',it:'Usate di recente',es:'Las más recientes',pt:'Usados recentemente',nl:'Laatst gebruikt',sv:'Senast använda',da:'Senest brugt',no:'Sist brukt',fi:'Viimeksi käytetyt'},
+    addCardAria: {en:'Add an activity',de:'Aktivität hinzufügen',fr:'Ajouter une activité',it:'Aggiungi un’attività',es:'Agregar una actividad',pt:'Adicionar uma atividade',nl:'Activiteit toevoegen',sv:'Lägg till en aktivitet',da:'Tilføj en aktivitet',no:'Legg til en aktivitet',fi:'Lisää puuha'},
+    closeAria: {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
+    upAria: {en:'Move {name} earlier',de:'{name} nach vorn schieben',fr:'Déplacer {name} plus tôt',it:'Sposta {name} prima',es:'Mover {name} antes',pt:'Mover {name} para antes',nl:'{name} eerder zetten',sv:'Flytta {name} tidigare',da:'Flyt {name} tidligere',no:'Flytt {name} tidligere',fi:'Siirrä {name} aiemmaksi'},
+    downAria: {en:'Move {name} later',de:'{name} nach hinten schieben',fr:'Déplacer {name} plus tard',it:'Sposta {name} dopo',es:'Mover {name} después',pt:'Mover {name} para depois',nl:'{name} later zetten',sv:'Flytta {name} senare',da:'Flyt {name} senere',no:'Flytt {name} senere',fi:'Siirrä {name} myöhemmäksi'},
+    nextLbl: {en:'Next',de:'Danach',fr:'Ensuite',it:'Poi',es:'Después',pt:'Depois',nl:'Straks',sv:'Sedan',da:'Bagefter',no:'Etterpå',fi:'Seuraavaksi'},
+    focusChip: {en:'Now and next',de:'Jetzt und danach',fr:'Maintenant et ensuite',it:'Adesso e poi',es:'Ahora y después',pt:'Agora e depois',nl:'Nu en straks',sv:'Nu och sedan',da:'Nu og bagefter',no:'Nå og etterpå',fi:'Nyt ja seuraavaksi'},
+    moreChip: {en:'Show the controls',de:'Bedienleiste einblenden',fr:'Afficher les boutons',it:'Mostra i pulsanti',es:'Mostrar los botones',pt:'Mostrar os botões',nl:'Toon de knoppen',sv:'Visa knapparna',da:'Vis knapperne',no:'Vis knappene',fi:'Näytä painikkeet'},
+    tmplReplace: {en:'Replace {day}?',de:'Plan für {day} ersetzen?',fr:'Remplacer {day} ?',it:'Sostituire {day}?',es:'¿Reemplazar {day}?',pt:'Substituir {day}?',nl:'{day} vervangen?',sv:'Ersätta planen för {day}?',da:'Erstat {day}?',no:'Erstatte {day}?',fi:'Korvataanko {day}?'},
+    tmplSaveHere: {en:'Save today’s plan here',de:'Heute hier speichern',fr:'Enregistrer la journée ici',it:'Salva qui la giornata',es:'Guardar el día aquí',pt:'Salvar o dia aqui',nl:'Vandaag hier opslaan',sv:'Spara dagen här',da:'Gem dagens plan her',no:'Lagre dagens plan her',fi:'Tallenna päivä tähän'},
+    tmplKeep: {en:'Keep',de:'Behalten',fr:'Garder',it:'Mantieni',es:'Mantener',pt:'Manter',nl:'Behouden',sv:'Behåll',da:'Behold',no:'Behold',fi:'Säilytä'},
+    tmplName: {en:'Name this plan',de:'Plan benennen',fr:'Nommer ce plan',it:'Dai un nome al piano',es:'Ponle nombre al plan',pt:'Dê um nome ao plano',nl:'Geef dit plan een naam',sv:'Namnge planen',da:'Giv planen et navn',no:'Gi planen et navn',fi:'Nimeä suunnitelma'},
     voiceMissing: {en:'No voice for this language is installed on this device.',de:'Auf diesem Gerät ist keine Stimme für diese Sprache installiert.',fr:'Aucune voix pour cette langue n’est installée sur cet appareil.',it:'Su questo dispositivo non è installata una voce per questa lingua.',es:'Este dispositivo no tiene instalada una voz para este idioma.',pt:'Este aparelho não tem uma voz instalada para este idioma.',nl:'Op dit apparaat is geen stem voor deze taal geïnstalleerd.',sv:'Det finns ingen röst för det här språket på den här enheten.',da:'Der er ingen stemme til dette sprog på denne enhed.',no:'Det er ikke installert noen stemme for dette språket på denne enheten.',fi:'Tässä laitteessa ei ole puheääntä tälle kielelle.'}
   },
 
@@ -536,54 +537,63 @@ var OurDay = {
      baked in for fr/es/it/pt so the announce frame never contracts). */
   GROUPS: ['grpArrival', 'grpLearning', 'grpCare', 'grpMove', 'grpTogether', 'grpSpecial'],
   CARDS: [
-    { id: 'arrival',   group: 0 },
-    { id: 'circle',    group: 0 },
-    { id: 'tidyup',    group: 0 },
-    { id: 'lineup',    group: 0 },
-    { id: 'packup',    group: 0 },
-    { id: 'home',      group: 0 },
+    { id: 'arrival',     group: 0 },
+    { id: 'circle',      group: 0 },
+    { id: 'tidyup',      group: 0 },
+    { id: 'lineup',      group: 0 },
+    { id: 'packup',      group: 0 },
+    { id: 'home',        group: 0 },
     { id: 'aftercare', group: 0, only: ['sv', 'da', 'no', 'nl', 'fr', 'de', 'pt', 'fi'] },
-    { id: 'reading',   group: 1 },
-    { id: 'storytime', group: 1 },
-    { id: 'writing',   group: 1 },
-    { id: 'math',      group: 1 },
-    { id: 'phonics',   group: 1 },
-    { id: 'science',   group: 1 },
-    { id: 'art',       group: 1 },
-    { id: 'crafts',    group: 1 },
-    { id: 'music',     group: 1 },
-    { id: 'language',  group: 1 },
-    { id: 'italiano',  group: 1, only: ['it'] },
+    { id: 'reading',     group: 1 },
+    { id: 'storytime',   group: 1 },
+    { id: 'writing',     group: 1 },
+    { id: 'math',        group: 1 },
+    { id: 'phonics',     group: 1 },
+    { id: 'science',     group: 1 },
+    { id: 'art',         group: 1 },
+    { id: 'crafts',      group: 1 },
+    { id: 'music',       group: 1 },
+    { id: 'language',    group: 1 },
     { id: 'religion',  group: 1, not: ['fr'] },
     { id: 'breakfast', group: 2, only: ['de', 'es', 'fi'] },
-    { id: 'snack',     group: 2 },
-    { id: 'lunch',     group: 2 },
-    { id: 'washhands', group: 2 },
-    { id: 'bathroom',  group: 2 },
+    { id: 'snack',       group: 2 },
+    { id: 'lunch',       group: 2 },
+    { id: 'washhands',   group: 2 },
+    { id: 'bathroom',    group: 2 },
     { id: 'brushing',  group: 2, only: ['pt', 'de'] },
-    { id: 'rest',      group: 2 },
-    { id: 'pe',        group: 3 },
-    { id: 'swimming',  group: 3 },
-    { id: 'recess',    group: 3 },
-    { id: 'outdoor',   group: 3 },
-    { id: 'forest',    group: 3 },
+    { id: 'rest',        group: 2 },
+    { id: 'pe',          group: 3 },
+    { id: 'swimming',    group: 3 },
+    { id: 'recess',      group: 3 },
+    { id: 'outdoor',     group: 3 },
+    { id: 'forest',      group: 3 },
     { id: 'brainbreak',group: 3 },
-    { id: 'dance',     group: 3 },
-    { id: 'centers',   group: 4 },
-    { id: 'stations',  group: 4 },
+    { id: 'dance',       group: 3 },
+    { id: 'centers',     group: 4 },
+    { id: 'stations',    group: 4 },
     { id: 'showtell',  group: 4, only: ['en'] },
-    { id: 'library',   group: 4 },
-    { id: 'computers', group: 4 },
-    { id: 'calendar',  group: 4 },
-    { id: 'birthday',  group: 4 },
-    { id: 'assembly',  group: 4 },
-    { id: 'fieldtrip', group: 4 },
-    { id: 'visitor',   group: 4 },
+    { id: 'library',     group: 4 },
+    { id: 'computers',   group: 4 },
+    { id: 'calendar',    group: 4 },
+    { id: 'birthday',    group: 4 },
+    { id: 'assembly',    group: 4 },
+    { id: 'fieldtrip',   group: 4 },
+    { id: 'visitor',     group: 4 },
     { id: 'honores',   group: 4, only: ['es', 'pt'] },
-    { id: 'change',    group: 5 },
-    { id: 'surprise',  group: 5 },
-    { id: 'guest',     group: 5 },
-    { id: 'celebrate', group: 5 }
+    { id: 'guest',       group: 5 },
+    { id: 'celebrate',   group: 5 },
+    { id: 'helper',      group: 4 },
+    { id: 'firedrill',   group: 5 },
+    { id: 'transport',   group: 0 },
+    { id: 'classmeeting',  group: 4 },
+    { id: 'quiet',       group: 2 },
+    { id: 'changepe',    group: 3 },
+    { id: 'dressing',    group: 0 },
+    { id: 'homelang',    group: 1 },
+    { id: 'onetoone',    group: 1 },
+    { id: 'guidedreading',  group: 1 },
+    { id: 'singing',     group: 4 },
+    { id: 'mothertongue',  group: 1 },
   ],
   NAMES: {
     arrival:   {en:'Arrival',de:'Ankommen',fr:'l’accueil',it:'l’accoglienza',es:'la llegada',pt:'a acolhida',nl:'De inloop',sv:'Ankomst',da:'Ankomst',no:'Ankomst',fi:'Saapuminen'},
@@ -599,11 +609,11 @@ var OurDay = {
     math:      {en:'Math',de:'Mathe',fr:'les maths',it:'la matematica',es:'las matemáticas',pt:'a matemática',nl:'Rekenen',sv:'Matte',da:'Matematik',no:'Matte',fi:'Matematiikka'},
     phonics:   {en:'Phonics',de:'Buchstabenzeit',fr:'les sons et les lettres',it:'l’alfabeto',es:'las letras',pt:'a hora das letras',nl:'Letters',sv:'Bokstäver',da:'Bogstaver',no:'Bokstaver',fi:'Kirjaimet'},
     science:   {en:'Science',de:'Sachunterricht',fr:'la découverte du monde',it:'la scienza',es:'las ciencias',pt:'as ciências',nl:'Wereldoriëntatie',sv:'NO',da:'Natur og teknologi',no:'Naturfag',fi:'Ympäristöoppi'},
-    art:       {en:'Art',de:'Kunst',fr:'les arts plastiques',it:'l’arte',es:'el arte',pt:'a arte',nl:'Knutselen',sv:'Bild',da:'Billedkunst',no:'Kunst og håndverk',fi:'Kuvataide'},
+    art:       {en:'Art',de:'Kunst',fr:'les arts plastiques',it:'l’arte',es:'el arte',pt:'a arte',nl:'Tekenen',sv:'Bild',da:'Billedkunst',no:'Kunst og håndverk',fi:'Kuvataide'},
     crafts:    {en:'Crafts',de:'Basteln',fr:'le bricolage',it:'il lavoretto',es:'las manualidades',pt:'a hora das atividades manuais',nl:'Handvaardigheid',sv:'Pyssel',da:'Krea',no:'Forming',fi:'Käsityö'},
     music:     {en:'Music',de:'Musik',fr:'la musique',it:'la musica',es:'la música',pt:'a música',nl:'Muziek',sv:'Musik',da:'Musik',no:'Musikk',fi:'Musiikki'},
     italiano:  {en:'Italian',de:'—',fr:'—',it:'l’italiano',es:'—',pt:'—',nl:'—',sv:'—',da:'—',no:'—',fi:'—'},
-    language:  {en:'Language class',de:'Englisch',fr:'l’anglais',it:'l’inglese',es:'el inglés',pt:'o inglês',nl:'Engels',sv:'Engelska',da:'Engelsk',no:'Engelsk',fi:'Englanti'},
+    language: {en:'Language lesson',de:'Englisch',fr:'l’anglais',it:'l’inglese',es:'el inglés',pt:'o inglês',nl:'Engels',sv:'Engelska',da:'Engelsk',no:'Engelsk',fi:'Englanti'},
     religion:  {en:'Religion & ethics',de:'Religion',fr:'—',it:'la religione',es:'la religión',pt:'o ensino religioso',nl:'Levensbeschouwing',sv:'SO',da:'Kristendom',no:'KRLE',fi:'Katsomusaine'},
     breakfast: {en:'Breakfast break',de:'Frühstückspause',fr:'—',it:'—',es:'el desayuno',pt:'—',nl:'Tien-uurtje',sv:'—',da:'—',no:'—',fi:'Aamupala'},
     snack:     {en:'Snack',de:'Obstpause',fr:'la collation',it:'la merenda',es:'el refrigerio',pt:'o lanche',nl:'Tien-uurtje',sv:'Fruktstund',da:'Frugtpause',no:'Fruktstund',fi:'Välipala'},
@@ -632,22 +642,38 @@ var OurDay = {
     honores:   {en:'Flag ceremony',de:'—',fr:'—',it:'—',es:'los honores a la bandera',pt:'a hora cívica',nl:'—',sv:'—',da:'—',no:'—',fi:'—'},
     change:    {en:'Change',de:'Änderung',fr:'le changement',it:'il cambio di programma',es:'el cambio',pt:'a mudança',nl:'Verandering',sv:'Ändring',da:'Ændring',no:'Endring',fi:'Muutos'},
     surprise:  {en:'Surprise',de:'Überraschung',fr:'la surprise',it:'la sorpresa',es:'la sorpresa',pt:'a surpresa',nl:'Verrassing',sv:'Överraskning',da:'Overraskelse',no:'Overraskelse',fi:'Yllätys'},
-    guest:     {en:'Guest teacher',de:'Vertretung',fr:'l’intervenant',it:'l’insegnante ospite',es:'el maestro invitado',pt:'o professor convidado',nl:'Invaljuf of invalmeester',sv:'Vikarie',da:'Vikartime',no:'Vikar',fi:'Vieraileva opettaja'},
-    celebrate: {en:'Celebration',de:'Fest',fr:'la fête',it:'la festa',es:'la fiesta',pt:'a festa',nl:'Feest',sv:'Fest',da:'Fest',no:'Fest',fi:'Juhla'}
+    guest:     {en:'Guest teacher',de:'Vertretung',fr:'l’intervenant',it:'l’insegnante ospite',es:'el maestro invitado',pt:'o professor convidado',nl:'Invaller',sv:'Vikarie',da:'Vikartime',no:'Vikar',fi:'Vieraileva opettaja'},
+    celebrate: {en:'Celebration',de:'Fest',fr:'la fête',it:'la festa',es:'la fiesta',pt:'a festa',nl:'Feest',sv:'Fest',da:'Fest',no:'Fest',fi:'Juhla'},
+    helper: {en:'Helper of the day',de:'Klassendienst',fr:'le responsable du jour',it:'il responsabile del giorno',es:'el ayudante del día',pt:'o ajudante do dia',nl:'Hulpje van de dag',sv:'Dagens värd',da:'Dagens hjælper',no:'Dagens hjelper',fi:'Päivystäjä'},
+    firedrill: {en:'Practice alarm',de:'Probealarm',fr:'l’exercice d’évacuation',it:'la prova di evacuazione',es:'el simulacro',pt:'o treino de evacuação',nl:'Brandoefening',sv:'Brandövning',da:'Brandøvelse',no:'Brannøvelse',fi:'Poistumisharjoitus'},
+    transport: {en:'School bus',de:'Schulbus',fr:'le bus scolaire',it:'lo scuolabus',es:'el transporte escolar',pt:'o ônibus escolar',nl:'De taxi',sv:'Skolskjuts',da:'Skolebussen',no:'Skolebussen',fi:'Koulukyyti'},
+    classmeeting: {en:'Class meeting',de:'Klassenrat',fr:'le conseil des élèves',it:'l’assemblea di classe',es:'la asamblea del grupo',pt:'a assembleia da turma',nl:'Kringgesprek',sv:'Klassråd',da:'Klassens tid',no:'Klassens time',fi:'Luokkakokous'},
+    quiet: {en:'Quiet time',de:'Stilleübung',fr:'le temps calme',it:'il momento di calma',es:'el momento de calma',pt:'o momento de calma',nl:'Stiltemoment',sv:'Lugn stund',da:'Stillestund',no:'Stillestund',fi:'Rauhoittumishetki'},
+    changepe: {en:'Getting changed',de:'Umziehen',fr:'le vestiaire',it:'il cambio per la motoria',es:'el cambio de ropa',pt:'a troca de roupa',nl:'Omkleden',sv:'Omklädning',da:'Omklædning',no:'Omkledning',fi:'Liikuntavaatteet'},
+    dressing: {en:'Coats on',de:'Anziehen',fr:'l’habillage',it:'il cappotto',es:'la hora del abrigo',pt:'a hora do casaco',nl:'Jassen aan',sv:'Påklädning',da:'Overtøj på',no:'Påkledning',fi:'Pukeutuminen'},
+    homelang: {en:'Home language',de:'Sprachförderung',fr:'la langue de la maison',it:'la lingua di casa',es:'la lengua de casa',pt:'a língua de casa',nl:'Taalklas',sv:'Modersmål',da:'Modersmål',no:'Morsmål',fi:'Oma äidinkieli'},
+    onetoone: {en:'Extra help',de:'Förderstunde',fr:'l’aide personnalisée',it:'il sostegno',es:'el apoyo',pt:'o reforço',nl:'Extra hulp',sv:'Extra träning',da:'Støttetime',no:'Ekstra hjelp',fi:'Erityisopettaja'},
+    guidedreading: {en:'Small group',de:'Kleingruppe',fr:'le petit groupe',it:'il piccolo gruppo',es:'el grupo pequeño',pt:'o pequeno grupo',nl:'De kleine kring',sv:'Liten grupp',da:'Lille gruppe',no:'Liten gruppe',fi:'Pienryhmä'},
+    singing: {en:'Singing',de:'Singkreis',fr:'les chansons',it:'il canto',es:'las canciones',pt:'a hora de cantar',nl:'Zingen',sv:'Sångsamling',da:'Sangstund',no:'Sangstund',fi:'Lauluhetki'},
+    mothertongue: {en:'English',de:'Deutsch',fr:'le français',it:'l’italiano',es:'el español',pt:'o português',nl:'Taal',sv:'Svenska',da:'Dansk',no:'Norsk',fi:'Äidinkieli'},
   },
   /* fi announces in the partitive/case-correct form where the nominative
      label reads wrong in "Nyt on {a}" (subjects want partitive); the fi
      fan-out native owns this table. Other locales fall back to NAMES. */
   ANNOUNCE: {
-    de: { home: 'Nachhausegehen', celebrate: 'Feiern' },
-    nl: { arrival: 'de inloop', circle: 'de kring', tidyup: 'opruimen', lineup: 'de rij', packup: 'inpakken', home: 'naar huis', aftercare: 'de opvang', reading: 'lezen', storytime: 'voorlezen', writing: 'schrijven', math: 'rekenen', phonics: 'letters', science: 'wereldoriëntatie', art: 'knutselen', crafts: 'handvaardigheid', music: 'muziek', language: 'Engels', religion: 'levensbeschouwing', snack: 'het tien-uurtje', lunch: 'de lunch', washhands: 'handen wassen', bathroom: 'de wc', rest: 'het rustmoment', pe: 'gym', swimming: 'schoolzwemmen', recess: 'pauze', outdoor: 'buitenspelen', forest: 'de natuurdag', brainbreak: 'een beweegpauze', dance: 'dansen', centers: 'vrij spelen', stations: 'hoekenwerk', library: 'de bieb', computers: 'de tablets', calendar: 'de kalender en het weer', birthday: 'de verjaardag', assembly: 'de weekopening', fieldtrip: 'het schoolreisje', visitor: 'het bezoek', surprise: 'een verrassing', guest: 'een invaljuf of invalmeester', celebrate: 'feest' },
-    sv: { science: 'N O', religion: 'S O', calendar: 'kalender och väder', surprise: 'en överraskning' },
-    fi: { arrival: 'saapumisen aika', circle: 'aamupiiri', tidyup: 'siivouksen aika', lineup: 'aika mennä jonoon', packup: 'pakkaamisen aika', home: 'kotiinlähdön aika', aftercare: 'iltapäiväkerho', reading: 'lukemista', storytime: 'satuhetki', writing: 'kirjoittamista', math: 'matikkaa', phonics: 'kirjainhetki', science: 'ympäristöoppia', art: 'kuvataidetta', crafts: 'käsitöitä', music: 'musiikkia', language: 'englantia', religion: 'katsomustunti', breakfast: 'aamupala', snack: 'välipala', lunch: 'ruokailu', washhands: 'käsienpesun aika', bathroom: 'vessahetki', rest: 'lepohetki', pe: 'liikuntaa', swimming: 'uintia', recess: 'välitunti', outdoor: 'ulkoilu', forest: 'metsäretki', brainbreak: 'taukojumppa', dance: 'tanssia', centers: 'vapaata leikkiä', stations: 'pistetyöskentelyä', library: 'kirjastohetki', computers: 'tablettihetki', calendar: 'kalenterihetki', birthday: 'syntymäpäivä', assembly: 'aamunavaus', fieldtrip: 'retki', visitor: 'vierailu', change: 'muutos', surprise: 'yllätys', guest: 'vierailevan opettajan tunti', celebrate: 'juhla' }
+    en: { mothertongue: 'English', singing: 'singing', guidedreading: 'small groups', onetoone: 'extra help', homelang: 'home language', dressing: 'coats on', changepe: 'getting changed', quiet: 'quiet time', classmeeting: 'our class meeting', transport: 'the school bus', firedrill: 'our practice alarm', helper: 'the helper of the day', language: 'our language lesson' },
+    de: { home: 'Nachhausegehen', celebrate: 'Feiern', transport: 'Busfahren' },
+    es: { helper: 'el turno del ayudante del día' },
+    nl: { arrival: 'de inloop', circle: 'de kring', tidyup: 'opruimen', lineup: 'de rij', packup: 'inpakken', home: 'naar huis', aftercare: 'de opvang', reading: 'lezen', storytime: 'voorlezen', writing: 'schrijven', math: 'rekenen', phonics: 'letters', science: 'wereldoriëntatie', art: 'tekenen', crafts: 'handvaardigheid', music: 'muziek', language: 'Engels', religion: 'levensbeschouwing', snack: 'het tien-uurtje', lunch: 'de lunch', washhands: 'handen wassen', bathroom: 'de wc', rest: 'het rustmoment', pe: 'gym', swimming: 'schoolzwemmen', recess: 'pauze', outdoor: 'buitenspelen', forest: 'de natuurdag', brainbreak: 'een beweegpauze', dance: 'dansen', centers: 'vrij spelen', stations: 'hoekenwerk', library: 'de bieb', computers: 'de tablets', calendar: 'de kalender en het weer', birthday: 'de verjaardag', assembly: 'de weekopening', fieldtrip: 'het schoolreisje', visitor: 'het bezoek', guest: 'een invaljuf of invalmeester', celebrate: 'feest', mothertongue: 'taal', singing: 'zingen', guidedreading: 'de kleine kring', onetoone: 'extra hulp', homelang: 'de taalklas', dressing: 'de jassen', changepe: 'omkleden', quiet: 'een stiltemoment', classmeeting: 'het kringgesprek', transport: 'de taxi', firedrill: 'de brandoefening', helper: 'het hulpje van de dag' },
+    sv: { science: 'N O', religion: 'S O', calendar: 'kalender och väder', guidedreading: 'dags för liten grupp', quiet: 'en lugn stund', helper: 'dags för dagens värd' },
+    da: { mothertongue: 'dansk', singing: 'sangstund', guidedreading: 'gruppetid', onetoone: 'støttetime', homelang: 'modersmål', dressing: 'tid til overtøj', changepe: 'omklædning', quiet: 'stillestund', classmeeting: 'klassens tid', transport: 'bussen', firedrill: 'brandøvelse', helper: 'dagens hjælper', language: 'engelsk', religion: 'kristendom' },
+    no: { mothertongue: 'norsk', singing: 'sangstund', guidedreading: 'gruppetid', onetoone: 'tid for ekstra hjelp', homelang: 'morsmål', dressing: 'påkledning', changepe: 'omkledning', quiet: 'stillestund', classmeeting: 'klassens time', transport: 'bussen', firedrill: 'brannøvelse', helper: 'dagens hjelper', language: 'engelsk', crafts: 'formingsstund' },
+    fi: { arrival: 'saapumisen aika', circle: 'aamupiiri', tidyup: 'siivouksen aika', lineup: 'aika mennä jonoon', packup: 'pakkaamisen aika', home: 'kotiinlähdön aika', aftercare: 'iltapäiväkerho', reading: 'lukemista', storytime: 'satuhetki', writing: 'kirjoittamista', math: 'matikkaa', phonics: 'kirjainhetki', science: 'ympäristöoppia', art: 'kuvataidetta', crafts: 'käsitöitä', music: 'musiikkia', language: 'englantia', religion: 'katsomustunti', breakfast: 'aamupala', snack: 'välipala', lunch: 'ruokailu', washhands: 'käsienpesun aika', bathroom: 'vessahetki', rest: 'lepohetki', pe: 'liikuntaa', swimming: 'uintia', recess: 'välitunti', outdoor: 'ulkoilu', forest: 'metsäretki', brainbreak: 'taukojumppa', dance: 'tanssia', centers: 'vapaata leikkiä', stations: 'pistetyöskentelyä', library: 'kirjastohetki', computers: 'tablettihetki', calendar: 'kalenterihetki', birthday: 'syntymäpäivä', assembly: 'aamunavaus', fieldtrip: 'retki', visitor: 'vierailu', guest: 'vierailevan opettajan tunti', celebrate: 'juhla', mothertongue: 'äidinkieltä', singing: 'lauluhetki', guidedreading: 'pienryhmän vuoro', onetoone: 'erityisopettajan tunti', homelang: 'oman äidinkielen tunti', dressing: 'pukeutumisen aika', changepe: 'liikuntavaatteiden vaihto', quiet: 'rauhoittumishetki', classmeeting: 'luokkakokous', transport: 'koulukyydin aika', firedrill: 'poistumisharjoitus', helper: 'päivystäjän vuoro' },
   },
   /* fi time-safe card names for the "{a} alkaa…" frame (labels like
      "Jonoon" cannot be sentence subjects) */
   TIME_NAMES: {
-    fi: { lineup: 'Jonoon meno', bathroom: 'Vessakäynti', computers: 'Tablettihetki', phonics: 'Kirjainhetki', visitor: 'Vierailu', guest: 'Vierailevan opettajan tunti', calendar: 'Kalenterihetki' }
+    fi: { lineup: 'Jonoon meno', bathroom: 'Vessakäynti', computers: 'Tablettihetki', phonics: 'Kirjainhetki', visitor: 'Vierailu', guest: 'Vierailevan opettajan tunti', calendar: 'Kalenterihetki', onetoone: 'Erityisopettajan tunti', changepe: 'Liikuntavaatteiden vaihto', helper: 'Päivystäjän vuoro', homelang: 'Oman äidinkielen tunti' }
   },
   /* the "Now it's …" frame per locale (fi uses ANNOUNCE overrides) */
   NOW_FRAME: {en:'Now it’s time for {a}!',de:'Jetzt ist {a} dran!',fr:'Maintenant, c’est {a} !',it:'Adesso c’è {a}!',es:'¡Ahora vamos con {a}!',pt:'Agora é {a}!',nl:'Nu is het tijd voor {a}!',sv:'Nu är det {a}!',da:'Nu er det {a}!',no:'Nå er det {a}!',fi:'Nyt on {a}!'},
@@ -1086,7 +1112,7 @@ var OurDay = {
     if (r === 'warned') {
       this._sfxWarn();
       var nx = this.day.items[ODM.nextStop(this.day, this.day.sunIdx)];
-      if (nx) this._speak(this.fmt('soonFrame', { a: this.announceName(nx.id, this.api.lang) }), nx);
+      if (nx) this._speak(this.fmt('soonFrame', { a: this.announceName(nx.id, this.api.lang, nx.snap) }), nx);
       this._persistDay();
       this.render();
       return;
@@ -1163,10 +1189,10 @@ var OurDay = {
     var it = this.day.items[idx];
     var loc = this.api.lang;
     if (it.time) { this._speak(this.timeSentence(loc, it.id, it.time.h, it.time.m, it.snap), it); return; }
-    if (idx === 0) { this._speak(this.fmt('firstFrame', { a: this._cap(this.announceName(it.id, loc, it.snap)) }), it); return; }
+    if (idx === 0) { this._speak(this.fmt('firstFrame', { a: this.sentenceName(it.id, loc, it.snap) }), it); return; }
     var prev = this.day.items[idx - 1];
     this._speak(this.fmt('afterFrame', {
-      a: this._cap(this.announceName(it.id, loc, it.snap)),
+      a: this.sentenceName(it.id, loc, it.snap),
       b: this.sentenceName(prev.id, loc, prev.snap)
     }), it);
   },
@@ -2065,8 +2091,7 @@ var OurDay = {
             self.loadTemplate(slot); self._planOpen = null; self._tmplOpen = false; self.render();
           }));
         }
-        var saveLbl = stored ? api.t('tmplSaveHere') : api.t('tmplSaveHere');
-        var save = self._chipBtn(saveLbl, 'od-chip od-chip-sm', function () {
+        var save = self._chipBtn(api.t('tmplSaveHere'), 'od-chip od-chip-sm', function () {
           /* overwriting a term's work used to be silent */
           if (stored && self._planConfirm !== slot) { self._planConfirm = slot; self.render(); return; }
           self.saveTemplate(slot);
@@ -2532,6 +2557,18 @@ var OurDay = {
     surprise:  '<rect x="8" y="24" width="32" height="18" rx="3" fill="#C9A8E0" stroke="#146B5E" stroke-width="2.4"/><rect x="6" y="18" width="36" height="8" rx="2.5" fill="#B08CD0" stroke="#146B5E" stroke-width="2.4"/><circle cx="24" cy="7" r="4.5" fill="#F2784B"/><circle cx="12" cy="12" r="3.2" fill="#F2C879" stroke="#8F6512" stroke-width="1.8"/><circle cx="36" cy="12" r="3.2" fill="#7FA860"/>',
     guest:     '<rect x="4" y="8" width="24" height="20" rx="2.5" fill="#FBF3E4" stroke="#146B5E" stroke-width="2.6"/><path d="M9 15h14m-14 6h9" stroke="#9CC3E5" stroke-width="2.8" stroke-linecap="round"/><path d="M10 28v13m12-13v13" stroke="#146B5E" stroke-width="2.6" stroke-linecap="round"/><circle cx="37" cy="16" r="6.5" fill="#F2C879" stroke="#E0A63C" stroke-width="2.2"/><path d="M37 24v18" stroke="#F2784B" stroke-width="8" stroke-linecap="round"/>',
     celebrate: '<path d="M3 11q21 11 42 0" fill="none" stroke="#146B5E" stroke-width="2.8" stroke-linecap="round"/><path d="M8 14.4 17 16.4 12.5 27z" fill="#F2784B" stroke="#C4552B" stroke-width="1.8" stroke-linejoin="round"/><path d="M19 16.8h9L23.5 28z" fill="#F2C879" stroke="#8F6512" stroke-width="1.8" stroke-linejoin="round"/><path d="M30 16.5 39 14.5 34.5 26z" fill="#9CC3E5" stroke="#146B5E" stroke-width="1.8" stroke-linejoin="round"/>',
+    helper: '<circle cx="24" cy="11" r="7" fill="#F2C879" stroke="#E0A63C" stroke-width="2.2"/><path d="M9 44q0-17 15-17t15 17z" fill="#F2784B" stroke="#C4552B" stroke-width="2"/><path d="M24 28v16" stroke="#FBF3E4" stroke-width="3.2"/><path d="M13 35h22" stroke="#FBF3E4" stroke-width="3.2"/>',
+    firedrill: '<rect x="4" y="6" width="40" height="36" rx="5" fill="#7FA860" stroke="#146B5E" stroke-width="2.4"/><path d="M32 12h8v24h-8" fill="none" stroke="#FBF3E4" stroke-width="3.2" stroke-linejoin="round"/><circle cx="16" cy="14" r="3.6" fill="#FBF3E4"/><path d="M16 18l-4.5 8.5 5.5 3 2 9m-3.5-12L9 29.5" fill="none" stroke="#FBF3E4" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>',
+    transport: '<rect x="9" y="6" width="30" height="34" rx="5" fill="#F2C879" stroke="#8F6512" stroke-width="2.4"/><rect x="13" y="11" width="22" height="11" rx="2" fill="#9CC3E5" stroke="#146B5E" stroke-width="1.8"/><circle cx="16" cy="30" r="3.2" fill="#FBF3E4" stroke="#146B5E" stroke-width="1.8"/><circle cx="32" cy="30" r="3.2" fill="#FBF3E4" stroke="#146B5E" stroke-width="1.8"/><path d="M12 43h6m12 0h6" stroke="#146B5E" stroke-width="4.5" stroke-linecap="round"/>',
+    classmeeting: '<circle cx="9" cy="35" r="6.5" fill="#F2784B"/><circle cx="24" cy="37" r="6.5" fill="#F2C879" stroke="#8F6512" stroke-width="1.8"/><circle cx="39" cy="35" r="6.5" fill="#9CC3E5" stroke="#146B5E" stroke-width="1.8"/><path d="M23 27V12a3.2 3.2 0 0 1 6.4 0v-1a3.2 3.2 0 0 1 6.4 0v11c0 4.4-2.6 7-7 7H27z" fill="#FBF3E4" stroke="#146B5E" stroke-width="2.4" stroke-linejoin="round"/>',
+    quiet: '<circle cx="24" cy="24" r="19" fill="none" stroke="#9CC3E5" stroke-width="2.6"/><path d="M9 39q6-12 15-12t15 12z" fill="#C9A8E0" stroke="#146B5E" stroke-width="2.2" stroke-linejoin="round"/><circle cx="24" cy="18" r="7.5" fill="#F2C879" stroke="#E0A63C" stroke-width="2.2"/><path d="M19.8 18q2 2.2 4 0m0.4 0q2 2.2 4 0" fill="none" stroke="#8F6512" stroke-width="2" stroke-linecap="round"/>',
+    changepe: '<path d="M18 8 8 13l3 9 5-2v13h16V20l5 2 3-9-10-5z" fill="#F2784B" stroke="#C4552B" stroke-width="2.2" stroke-linejoin="round"/><path d="M18 8q6 6 12 0" fill="none" stroke="#C4552B" stroke-width="2.2"/><path d="M15 35h18v3l-1.5 6h-6l-1.5-5-1.5 5h-6L15 38z" fill="#146B5E" stroke="#0E5147" stroke-width="2" stroke-linejoin="round"/>',
+    dressing: '<path d="M18 9 7 14l3.5 10 5.5-2v18h16V22l5.5 2L41 14 30 9z" fill="#9CC3E5" stroke="#146B5E" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 9q6 6 12 0" fill="none" stroke="#146B5E" stroke-width="2.4"/><path d="M24 16v24" stroke="#146B5E" stroke-width="2.2"/><circle cx="24" cy="34" r="2.2" fill="#F2C879"/>',
+    homelang: '<circle cx="24" cy="22" r="13" fill="#9CC3E5" stroke="#146B5E" stroke-width="2.6"/><path d="M11 22h26M24 9q-6 13 0 26M24 9q6 13 0 26" fill="none" stroke="#FBF3E4" stroke-width="2.4"/><path d="M34 30h11v9h-3v4l-4-4h-4z" fill="#F2C879" stroke="#8F6512" stroke-width="2" stroke-linejoin="round"/>',
+    onetoone: '<circle cx="14" cy="14" r="8" fill="#F2C879" stroke="#E0A63C" stroke-width="2.4"/><path d="M3 43q0-13 11-13t11 13z" fill="#146B5E"/><circle cx="35" cy="21" r="6" fill="#F2784B"/><path d="M26 43q0-10 9-10t9 10z" fill="#9CC3E5" stroke="#146B5E" stroke-width="2"/>',
+    guidedreading: '<path d="M6 30a18 18 0 0 1 36 0z" fill="#FBF3E4" stroke="#146B5E" stroke-width="2.8" stroke-linejoin="round"/><circle cx="24" cy="40" r="6.5" fill="#F2C879" stroke="#E0A63C" stroke-width="2.2"/><circle cx="8" cy="16" r="4.8" fill="#F2784B"/><circle cx="24" cy="9" r="4.8" fill="#9CC3E5" stroke="#146B5E" stroke-width="1.8"/><circle cx="40" cy="16" r="4.8" fill="#7FA860"/>',
+    singing: '<circle cx="18" cy="20" r="12" fill="#F2C879" stroke="#E0A63C" stroke-width="2.4"/><circle cx="13.5" cy="16" r="1.8" fill="#8F6512"/><circle cx="22.5" cy="16" r="1.8" fill="#8F6512"/><ellipse cx="18" cy="26.5" rx="5" ry="5.5" fill="#C4552B"/><path d="M34 34V12q7 2 7 9" fill="none" stroke="#146B5E" stroke-width="3.2" stroke-linecap="round"/><ellipse cx="30.5" cy="34" rx="4.2" ry="3.4" fill="#F2784B"/>',
+    mothertongue: '<path d="M5 9h38v25H27l-10 8v-8H5z" fill="#FBF3E4" stroke="#146B5E" stroke-width="2.8" stroke-linejoin="round"/><path d="M24 16c-3.4-4.4-10-3.4-10 2.2 0 4.4 6.6 8.4 10 11 3.4-2.6 10-6.6 10-11 0-5.6-6.6-6.6-10-2.2z" fill="#F2784B" stroke="#C4552B" stroke-width="2" stroke-linejoin="round"/>',
   },
 
   /* ⚠ RESET MUST CLEAR EVERY OVERLAY, NOT JUST THE DAY. The old version

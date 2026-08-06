@@ -1,6 +1,5 @@
 {
   "_README": "Native-panel output for our-day. REBUILD, NEVER TRANSLATE (§A.13.48). Each panel was handed the English as a SOURCE TO AUDIT, not a target. Their sourceDefects lists are kept here on purpose: three of the findings were bugs in the MODEL, not the copy — tomorrowChip erasing a promised weekday, weekdayLabel capitalising mid-sentence, and noticeLong being unreachable behind an input maxLength. Consumed by apply-our-day-locales.js.",
-
   "en": {
     "sourceDefects": [
       "recentLbl 'Used often' was FALSE: _noteRecent is a most-recently-used stack with no counters. Ten locales inherited the lie.",
@@ -17,18 +16,34 @@
       "SYSTEMIC: weekdayLabel force-capitalised through _cap and the result landed mid-sentence AND on the printed substitute sheet."
     ],
     "cardNames": {
-      "mothertongue": "English", "singing": "Singing", "guidedreading": "Small group",
-      "onetoone": "Extra help", "homelang": "Home language", "dressing": "Coats on",
-      "changepe": "Getting changed", "quiet": "Quiet time", "classmeeting": "Class meeting",
-      "transport": "School bus", "firedrill": "Practice alarm", "helper": "Helper of the day",
+      "mothertongue": "English",
+      "singing": "Singing",
+      "guidedreading": "Small group",
+      "onetoone": "Extra help",
+      "homelang": "Home language",
+      "dressing": "Coats on",
+      "changepe": "Getting changed",
+      "quiet": "Quiet time",
+      "classmeeting": "Class meeting",
+      "transport": "School bus",
+      "firedrill": "Practice alarm",
+      "helper": "Helper of the day",
       "language": "Language lesson"
     },
     "announce": {
-      "mothertongue": "English", "singing": "singing", "guidedreading": "small groups",
-      "onetoone": "extra help", "homelang": "home language", "dressing": "coats on",
-      "changepe": "getting changed", "quiet": "quiet time", "classmeeting": "our class meeting",
-      "transport": "the school bus", "firedrill": "our practice alarm",
-      "helper": "the helper of the day", "language": "our language lesson"
+      "mothertongue": "English",
+      "singing": "singing",
+      "guidedreading": "small groups",
+      "onetoone": "extra help",
+      "homelang": "home language",
+      "dressing": "coats on",
+      "changepe": "getting changed",
+      "quiet": "quiet time",
+      "classmeeting": "our class meeting",
+      "transport": "the school bus",
+      "firedrill": "our practice alarm",
+      "helper": "the helper of the day",
+      "language": "our language lesson"
     },
     "strings": {
       "soonFrame": "Soon it’s time for {a}.",
@@ -65,7 +80,6 @@
       "tmplName": "Name this plan"
     }
   },
-
   "fr": {
     "sourceDefects": [
       "setWarn said 'Deux touches' — in French une touche is a keyboard KEY, not a tap.",
@@ -73,11 +87,19 @@
       "removedOnDay began with the article-baked lowercase card name and then capitalised the weekday — both wrong, and it PRINTS on the substitute sheet."
     ],
     "cardNames": {
-      "mothertongue": "le français", "singing": "les chansons", "guidedreading": "le petit groupe",
-      "onetoone": "l’aide personnalisée", "homelang": "la langue de la maison", "dressing": "l’habillage",
-      "changepe": "le vestiaire", "quiet": "le temps calme", "classmeeting": "le conseil des élèves",
-      "transport": "le bus scolaire", "firedrill": "l’exercice d’évacuation",
-      "helper": "le responsable du jour", "language": "l’anglais"
+      "mothertongue": "le français",
+      "singing": "les chansons",
+      "guidedreading": "le petit groupe",
+      "onetoone": "l’aide personnalisée",
+      "homelang": "la langue de la maison",
+      "dressing": "l’habillage",
+      "changepe": "le vestiaire",
+      "quiet": "le temps calme",
+      "classmeeting": "le conseil des élèves",
+      "transport": "le bus scolaire",
+      "firedrill": "l’exercice d’évacuation",
+      "helper": "le responsable du jour",
+      "language": "l’anglais"
     },
     "announce": {},
     "strings": {
@@ -115,7 +137,6 @@
       "tmplName": "Nommer ce plan"
     }
   },
-
   "es": {
     "sourceDefects": [
       "soonFrame said 'Ahora' one step BEFORE the sun moves, colliding with NOW_FRAME, and 'viene' broke number agreement on the plural card names the file ships.",
@@ -124,13 +145,23 @@
       "RULING: lunch 'la comida' is the main meal eaten AT HOME after primaria ends — changed to 'el almuerzo'."
     ],
     "cardNames": {
-      "mothertongue": "el español", "singing": "las canciones", "guidedreading": "el grupo pequeño",
-      "onetoone": "el apoyo", "homelang": "la lengua de casa", "dressing": "la hora del abrigo",
-      "changepe": "el cambio de ropa", "quiet": "el momento de calma", "classmeeting": "la asamblea del grupo",
-      "transport": "el transporte escolar", "firedrill": "el simulacro",
-      "helper": "el ayudante del día", "language": "el inglés"
+      "mothertongue": "el español",
+      "singing": "las canciones",
+      "guidedreading": "el grupo pequeño",
+      "onetoone": "el apoyo",
+      "homelang": "la lengua de casa",
+      "dressing": "la hora del abrigo",
+      "changepe": "el cambio de ropa",
+      "quiet": "el momento de calma",
+      "classmeeting": "la asamblea del grupo",
+      "transport": "el transporte escolar",
+      "firedrill": "el simulacro",
+      "helper": "el ayudante del día",
+      "language": "el inglés"
     },
-    "announce": { "helper": "el turno del ayudante del día" },
+    "announce": {
+      "helper": "el turno del ayudante del día"
+    },
     "strings": {
       "soonFrame": "En un ratito vamos con {a}.",
       "dayDoneTitle": "Así fue nuestro día.",
@@ -166,7 +197,6 @@
       "tmplName": "Ponle nombre al plan"
     }
   },
-
   "it": {
     "sourceDefects": [
       "THE SPEC LEFT A DUPLICATE CARD: mothertongue takes 'l'italiano' but the old italiano card was not in REMOVE, so the Italian palette would have shown it twice. Added to REMOVE.",
@@ -174,11 +204,19 @@
       "'il consiglio di classe' would have been WRONG — in Italy that is the teachers' body, not the pupils' meeting."
     ],
     "cardNames": {
-      "mothertongue": "l’italiano", "singing": "il canto", "guidedreading": "il piccolo gruppo",
-      "onetoone": "il sostegno", "homelang": "la lingua di casa", "dressing": "il cappotto",
-      "changepe": "il cambio per la motoria", "quiet": "il momento di calma",
-      "classmeeting": "l’assemblea di classe", "transport": "lo scuolabus",
-      "firedrill": "la prova di evacuazione", "helper": "il responsabile del giorno", "language": "l’inglese"
+      "mothertongue": "l’italiano",
+      "singing": "il canto",
+      "guidedreading": "il piccolo gruppo",
+      "onetoone": "il sostegno",
+      "homelang": "la lingua di casa",
+      "dressing": "il cappotto",
+      "changepe": "il cambio per la motoria",
+      "quiet": "il momento di calma",
+      "classmeeting": "l’assemblea di classe",
+      "transport": "lo scuolabus",
+      "firedrill": "la prova di evacuazione",
+      "helper": "il responsabile del giorno",
+      "language": "l’inglese"
     },
     "announce": {},
     "strings": {
@@ -216,7 +254,6 @@
       "tmplName": "Dai un nome al piano"
     }
   },
-
   "pt": {
     "sourceDefects": [
       "TRAP THAT WOULD HAVE SHIPPED: 'o simulado' means a MOCK EXAM in Brazil — one of the most anxiety-loaded words a Brazilian pupil knows. A card meant to reassure an autistic child would have announced a practice test. Used 'o treino de evacuação'.",
@@ -224,11 +261,19 @@
       "classmeeting collided with the existing assembly card; differentiated as 'a assembleia da turma'."
     ],
     "cardNames": {
-      "mothertongue": "o português", "singing": "a hora de cantar", "guidedreading": "o pequeno grupo",
-      "onetoone": "o reforço", "homelang": "a língua de casa", "dressing": "a hora do casaco",
-      "changepe": "a troca de roupa", "quiet": "o momento de calma", "classmeeting": "a assembleia da turma",
-      "transport": "o ônibus escolar", "firedrill": "o treino de evacuação",
-      "helper": "o ajudante do dia", "language": "o inglês"
+      "mothertongue": "o português",
+      "singing": "a hora de cantar",
+      "guidedreading": "o pequeno grupo",
+      "onetoone": "o reforço",
+      "homelang": "a língua de casa",
+      "dressing": "a hora do casaco",
+      "changepe": "a troca de roupa",
+      "quiet": "o momento de calma",
+      "classmeeting": "a assembleia da turma",
+      "transport": "o ônibus escolar",
+      "firedrill": "o treino de evacuação",
+      "helper": "o ajudante do dia",
+      "language": "o inglês"
     },
     "announce": {},
     "strings": {
@@ -266,7 +311,6 @@
       "tmplName": "Dê um nome ao plano"
     }
   },
-
   "da": {
     "sourceDefects": [
       "RULING: religion 'Kristendom' names the FAITH; the folkeskole subject is Kristendomskundskab. Label corrected, with ANNOUNCE 'kristendom' for the spoken line.",
@@ -274,18 +318,35 @@
       "makeAdd said 'Føj til dagen' while changeAddB/A already say 'Tilføj'. One verb, two forms."
     ],
     "cardNames": {
-      "mothertongue": "Dansk", "singing": "Sangstund", "guidedreading": "Lille gruppe",
-      "onetoone": "Støttetime", "homelang": "Modersmål", "dressing": "Overtøj på",
-      "changepe": "Omklædning", "quiet": "Stillestund", "classmeeting": "Klassens tid",
-      "transport": "Skolebussen", "firedrill": "Brandøvelse", "helper": "Dagens hjælper",
+      "mothertongue": "Dansk",
+      "singing": "Sangstund",
+      "guidedreading": "Lille gruppe",
+      "onetoone": "Støttetime",
+      "homelang": "Modersmål",
+      "dressing": "Overtøj på",
+      "changepe": "Omklædning",
+      "quiet": "Stillestund",
+      "classmeeting": "Klassens tid",
+      "transport": "Skolebussen",
+      "firedrill": "Brandøvelse",
+      "helper": "Dagens hjælper",
       "language": "Engelsk"
     },
     "announce": {
-      "mothertongue": "dansk", "singing": "sangstund", "guidedreading": "gruppetid",
-      "onetoone": "støttetime", "homelang": "modersmål", "dressing": "tid til overtøj",
-      "changepe": "omklædning", "quiet": "stillestund", "classmeeting": "klassens tid",
-      "transport": "bussen", "firedrill": "brandøvelse", "helper": "dagens hjælper",
-      "language": "engelsk", "religion": "kristendom"
+      "mothertongue": "dansk",
+      "singing": "sangstund",
+      "guidedreading": "gruppetid",
+      "onetoone": "støttetime",
+      "homelang": "modersmål",
+      "dressing": "tid til overtøj",
+      "changepe": "omklædning",
+      "quiet": "stillestund",
+      "classmeeting": "klassens tid",
+      "transport": "bussen",
+      "firedrill": "brandøvelse",
+      "helper": "dagens hjælper",
+      "language": "engelsk",
+      "religion": "kristendom"
     },
     "strings": {
       "soonFrame": "Om lidt er det {a}.",
@@ -322,7 +383,6 @@
       "tmplName": "Giv planen et navn"
     }
   },
-
   "no": {
     "sourceDefects": [
       "RULING: crafts 'Forming' is the pre-1997 subject name, abolished with L97, while `art` already holds the current Kunst og håndverk. But 'forming' is still the live everyday word for making things with children — 'Formingsstund' keeps it and drops the subject reading.",
@@ -330,18 +390,35 @@
       "setWarn 'varsel' leans formal/official; naming what the first tap says is better than either word."
     ],
     "cardNames": {
-      "mothertongue": "Norsk", "singing": "Sangstund", "guidedreading": "Liten gruppe",
-      "onetoone": "Ekstra hjelp", "homelang": "Morsmål", "dressing": "Påkledning",
-      "changepe": "Omkledning", "quiet": "Stillestund", "classmeeting": "Klassens time",
-      "transport": "Skolebussen", "firedrill": "Brannøvelse", "helper": "Dagens hjelper",
+      "mothertongue": "Norsk",
+      "singing": "Sangstund",
+      "guidedreading": "Liten gruppe",
+      "onetoone": "Ekstra hjelp",
+      "homelang": "Morsmål",
+      "dressing": "Påkledning",
+      "changepe": "Omkledning",
+      "quiet": "Stillestund",
+      "classmeeting": "Klassens time",
+      "transport": "Skolebussen",
+      "firedrill": "Brannøvelse",
+      "helper": "Dagens hjelper",
       "language": "Engelsk"
     },
     "announce": {
-      "mothertongue": "norsk", "singing": "sangstund", "guidedreading": "gruppetid",
-      "onetoone": "tid for ekstra hjelp", "homelang": "morsmål", "dressing": "påkledning",
-      "changepe": "omkledning", "quiet": "stillestund", "classmeeting": "klassens time",
-      "transport": "bussen", "firedrill": "brannøvelse", "helper": "dagens hjelper",
-      "language": "engelsk", "crafts": "formingsstund"
+      "mothertongue": "norsk",
+      "singing": "sangstund",
+      "guidedreading": "gruppetid",
+      "onetoone": "tid for ekstra hjelp",
+      "homelang": "morsmål",
+      "dressing": "påkledning",
+      "changepe": "omkledning",
+      "quiet": "stillestund",
+      "classmeeting": "klassens time",
+      "transport": "bussen",
+      "firedrill": "brannøvelse",
+      "helper": "dagens hjelper",
+      "language": "engelsk",
+      "crafts": "formingsstund"
     },
     "strings": {
       "soonFrame": "Snart er det {a}.",
@@ -378,7 +455,6 @@
       "tmplName": "Gi planen et navn"
     }
   },
-
   "fi": {
     "sourceDefects": [
       "UNGRAMMATICAL AS SHIPPED: removedOnDay '{name} siirtyy {day}.' with a NOMINATIVE weekday. Finnish needs the allative (maanantaille). Rewritten so both placeholders sit sentence-initially and it is correct either way.",
@@ -387,18 +463,34 @@
       "MISSING TIME_NAMES rows: four new cards cannot be sentence subjects, so the premium time frame would emit 'the special-ed teacher begins…' and a plural subject with a singular verb."
     ],
     "cardNames": {
-      "mothertongue": "Äidinkieli", "singing": "Lauluhetki", "guidedreading": "Pienryhmä",
-      "onetoone": "Erityisopettaja", "homelang": "Oma äidinkieli", "dressing": "Pukeutuminen",
-      "changepe": "Liikuntavaatteet", "quiet": "Rauhoittumishetki", "classmeeting": "Luokkakokous",
-      "transport": "Koulukyyti", "firedrill": "Poistumisharjoitus", "helper": "Päivystäjä",
+      "mothertongue": "Äidinkieli",
+      "singing": "Lauluhetki",
+      "guidedreading": "Pienryhmä",
+      "onetoone": "Erityisopettaja",
+      "homelang": "Oma äidinkieli",
+      "dressing": "Pukeutuminen",
+      "changepe": "Liikuntavaatteet",
+      "quiet": "Rauhoittumishetki",
+      "classmeeting": "Luokkakokous",
+      "transport": "Koulukyyti",
+      "firedrill": "Poistumisharjoitus",
+      "helper": "Päivystäjä",
       "language": "Englanti"
     },
     "announce": {
-      "mothertongue": "äidinkieltä", "singing": "lauluhetki", "guidedreading": "pienryhmän vuoro",
-      "onetoone": "erityisopettajan tunti", "homelang": "oman äidinkielen tunti",
-      "dressing": "pukeutumisen aika", "changepe": "liikuntavaatteiden vaihto",
-      "quiet": "rauhoittumishetki", "classmeeting": "luokkakokous", "transport": "koulukyydin aika",
-      "firedrill": "poistumisharjoitus", "helper": "päivystäjän vuoro", "language": "englantia",
+      "mothertongue": "äidinkieltä",
+      "singing": "lauluhetki",
+      "guidedreading": "pienryhmän vuoro",
+      "onetoone": "erityisopettajan tunti",
+      "homelang": "oman äidinkielen tunti",
+      "dressing": "pukeutumisen aika",
+      "changepe": "liikuntavaatteiden vaihto",
+      "quiet": "rauhoittumishetki",
+      "classmeeting": "luokkakokous",
+      "transport": "koulukyydin aika",
+      "firedrill": "poistumisharjoitus",
+      "helper": "päivystäjän vuoro",
+      "language": "englantia",
       "religion": "katsomustunti"
     },
     "strings": {
@@ -434,6 +526,209 @@
       "tmplSaveHere": "Tallenna päivä tähän",
       "tmplKeep": "Säilytä",
       "tmplName": "Nimeä suunnitelma"
+    }
+  },
+  "de": {
+    "sourceDefects": [
+      "setWarn 'Tipper' is not German for a screen tap — it means a person who places a bet (Lotto-Tipper).",
+      "RULING: religion needs a SECOND card. One card labelled 'Religion' is false for roughly half of every German class, and both halves physically leave for different rooms — which is exactly what this tool exists to show. New card `ethics` = 'Ethik'.",
+      "emptyHint said 'links' — and the code comment claiming direction words were gone from every locale was FALSE; only en had been cleaned.",
+      "makeDelete over-promises: it removes the card from the PALETTE only, so a teacher who deletes and still sees it will think the tool is broken.",
+      "noticeFull was ambiguous between two different limits — MAX_CUSTOM 12 (own cards) and MAX_CARDS 16 (the whole day).",
+      "moreChip 'Werkzeuge zeigen' collides with the product's own noun for an instrument — it suggests navigating to OTHER tools.",
+      "PARALLEL ACTIVITIES ARE NOT REPRESENTABLE: the strip is linear and cannot express 'half the class does A in another room'. True of Förderstunde and Sprachförderung too. Recorded as a model limit, not fixed."
+    ],
+    "cardNames": {
+      "mothertongue": "Deutsch",
+      "singing": "Singkreis",
+      "guidedreading": "Kleingruppe",
+      "onetoone": "Förderstunde",
+      "homelang": "Sprachförderung",
+      "dressing": "Anziehen",
+      "changepe": "Umziehen",
+      "quiet": "Stilleübung",
+      "classmeeting": "Klassenrat",
+      "transport": "Schulbus",
+      "firedrill": "Probealarm",
+      "helper": "Klassendienst",
+      "language": "Englisch"
+    },
+    "announce": {
+      "transport": "Busfahren"
+    },
+    "strings": {
+      "soonFrame": "Gleich kommt {a}.",
+      "dayDoneTitle": "Das war unser Tag.",
+      "dayDoneSpoken": "Das war unser Tag.",
+      "tomorrowChip": "Für morgen übernehmen",
+      "removedOnDay": "{name} wandert auf {day}.",
+      "skipWhich": "An welchem Tag stattdessen?",
+      "skipNoDay": "Noch offen",
+      "setWarn": "Zweimal tippen zum Weitergehen — der erste Tipp sagt „gleich“.",
+      "addOwn": "Meine Karten",
+      "makeTitle": "Karte benennen",
+      "makeNew": "Neue Karte",
+      "makeHint": "Die Kinder erkennen die Karte am Bild — der Name ist für dich.",
+      "makeAdd": "Zum Tag hinzufügen",
+      "makeSave": "Speichern",
+      "makeDelete": "Aus meinen Karten entfernen",
+      "makeDeviceOnly": "Deine Karten bleiben nur in diesem Browser, auf diesem Gerät.",
+      "noticeFull": "Mehr als zwölf eigene Karten gehen nicht — bearbeite oder lösche eine davon.",
+      "noticeLong": "Der Name ist für die Karte etwas lang — höchstens zwanzig Zeichen.",
+      "noticeDup": "So eine Karte gibt es schon — gleicher Name, oder gleiches Bild und gleiche Farbe.",
+      "noticeEmpty": "Gib der Karte zuerst einen Namen.",
+      "recentLbl": "Zuletzt benutzt",
+      "addCardAria": "Aktivität hinzufügen",
+      "closeAria": "Schließen",
+      "upAria": "{name} nach vorn schieben",
+      "downAria": "{name} nach hinten schieben",
+      "nextLbl": "Danach",
+      "focusChip": "Jetzt und danach",
+      "moreChip": "Bedienleiste einblenden",
+      "tmplReplace": "Plan für {day} ersetzen?",
+      "tmplSaveHere": "Heute hier speichern",
+      "tmplKeep": "Behalten",
+      "tmplName": "Plan benennen"
+    }
+  },
+  "nl": {
+    "sourceDefects": [
+      "⚠ FOUND BY CC WHILE VERIFYING A PANEL CLAIM, NOT BY ANY PANEL: firstFrame and afterFrame wrapped the announce form in _cap, and Dutch is the ONE locale whose announce table is deliberately lowercase — so the tool spoke 'Met De kring begint onze dag.'",
+      "changeSpoken was filled with announceName when SPOKEN and cardName when PRINTED — the same sentence, two fill functions, and the printed sheet ignored the ANNOUNCE table that exists for it.",
+      "SHIPPED CARD DEFECT: art nl 'Knutselen' IS crafts. The Dutch subject pair is tekenen + handvaardigheid, so the two cards were the same activity twice.",
+      "SHIPPED CARD DEFECT: guest nl 'Invaljuf of invalmeester' is 24 characters — the longest label in the Dutch set and over the tool's own 18-character flag.",
+      "nextLbl 'Daarna' contradicted the tool's own vocabulary — focusChip already ships 'Nu en straks'. Three words for one relation is what a visual-schedule child cannot afford.",
+      "moreChip: THE DUTCH WAS RIGHT AND THE ENGLISH WAS WRONG. The button restores the toolbar; this tool has no 'tools'.",
+      "tomorrowChip: the ENGLISH is the misleading one — 'build' implies from scratch, which is exactly what the handler does not do."
+    ],
+    "cardNames": {
+      "mothertongue": "Taal",
+      "singing": "Zingen",
+      "guidedreading": "De kleine kring",
+      "onetoone": "Extra hulp",
+      "homelang": "Taalklas",
+      "dressing": "Jassen aan",
+      "changepe": "Omkleden",
+      "quiet": "Stiltemoment",
+      "classmeeting": "Kringgesprek",
+      "transport": "De taxi",
+      "firedrill": "Brandoefening",
+      "helper": "Hulpje van de dag",
+      "language": "Engels"
+    },
+    "announce": {
+      "mothertongue": "taal",
+      "singing": "zingen",
+      "guidedreading": "de kleine kring",
+      "onetoone": "extra hulp",
+      "homelang": "de taalklas",
+      "dressing": "de jassen",
+      "changepe": "omkleden",
+      "quiet": "een stiltemoment",
+      "classmeeting": "het kringgesprek",
+      "transport": "de taxi",
+      "firedrill": "de brandoefening",
+      "helper": "het hulpje van de dag",
+      "guest": "een invaljuf of invalmeester"
+    },
+    "strings": {
+      "soonFrame": "Straks is het tijd voor {a}.",
+      "dayDoneTitle": "Dat was onze dag.",
+      "dayDoneSpoken": "Dat was onze dag.",
+      "tomorrowChip": "Morgen klaarzetten",
+      "removedOnDay": "{name} schuift door naar {day}.",
+      "skipWhich": "Welke dag wordt het?",
+      "skipNoDay": "Nog geen dag",
+      "setWarn": "Twee tikken om verder te gaan — de eerste zegt „straks”.",
+      "addOwn": "Mijn kaartjes",
+      "makeTitle": "Geef dit kaartje een naam",
+      "makeNew": "Nieuw kaartje",
+      "makeHint": "Jonge kinderen lezen de naam nog niet — kies een plaatje dat zij meteen herkennen.",
+      "makeAdd": "Aan vandaag toevoegen",
+      "makeSave": "Opslaan",
+      "makeDelete": "Uit Mijn kaartjes halen",
+      "makeDeviceOnly": "Je kaartjes blijven in deze browser, op dit apparaat — ergens anders zie je ze niet.",
+      "noticeFull": "Dat zijn twaalf kaartjes — het maximum. Pas er een aan of verwijder er een.",
+      "noticeLong": "Die naam is wat lang voor het kaartje — hoogstens twintig tekens.",
+      "noticeDup": "Je hebt al zo’n kaartje — dezelfde naam, of hetzelfde plaatje en dezelfde kleur.",
+      "noticeEmpty": "Geef het kaartje eerst een naam.",
+      "recentLbl": "Laatst gebruikt",
+      "addCardAria": "Activiteit toevoegen",
+      "closeAria": "Sluiten",
+      "upAria": "{name} eerder zetten",
+      "downAria": "{name} later zetten",
+      "nextLbl": "Straks",
+      "focusChip": "Nu en straks",
+      "moreChip": "Toon de knoppen",
+      "tmplReplace": "{day} vervangen?",
+      "tmplSaveHere": "Vandaag hier opslaan",
+      "tmplKeep": "Behouden",
+      "tmplName": "Geef dit plan een naam"
+    }
+  },
+  "sv": {
+    "sourceDefects": [
+      "⚠ FOUND BY THE PANEL READING THE MODEL: soonFrame called announceName WITHOUT the snap argument that every other announce site passes — so the ONE announcement aimed at the child who cannot cope with a sudden switch could speak a name that does not match the card on the wall.",
+      "RULING AGAINST THE BRIEF'S OWN SUGGESTION, and it matters: 'först–sedan' is the established Swedish SEN term, and that is exactly why it must NOT be used — in Swedish practice a först–sedan-tavla IS the contingency board the tool's REFUSE #5 forbids. 'Nu och sedan' kept.",
+      "RULING: religion stays ONE card as 'SO'. In lågstadiet the four samhällsorienterande ämnen are genuinely timetabled as one block, and splitting would break parity with the identical NO card. The cross-to-globe icon change is correct and overdue.",
+      "makeAdd 'Lägg till i dagen' collides with a live Swedish idiom — 'lägga i dagen' means to display or manifest.",
+      "dayDoneSpoken: heard rather than read, 'vår dag' sits next to the compound 'vårdag' (a spring day), and word-boundary prosody is what TTS cannot be relied on for.",
+      "moreChip 'Visa verktygen' collides with the product noun — this product calls each instrument a verktyg.",
+      "makeDelete over-promises in every locale: it removes from the PALETTE only."
+    ],
+    "cardNames": {
+      "mothertongue": "Svenska",
+      "singing": "Sångsamling",
+      "guidedreading": "Liten grupp",
+      "onetoone": "Extra träning",
+      "homelang": "Modersmål",
+      "dressing": "Påklädning",
+      "changepe": "Omklädning",
+      "quiet": "Lugn stund",
+      "classmeeting": "Klassråd",
+      "transport": "Skolskjuts",
+      "firedrill": "Brandövning",
+      "helper": "Dagens värd",
+      "language": "Engelska"
+    },
+    "announce": {
+      "guidedreading": "dags för liten grupp",
+      "quiet": "en lugn stund",
+      "helper": "dags för dagens värd"
+    },
+    "strings": {
+      "soonFrame": "Snart är det {a}.",
+      "dayDoneTitle": "Det var vår dag.",
+      "dayDoneSpoken": "Då var vår dag slut.",
+      "tomorrowChip": "Samma i morgon",
+      "removedOnDay": "{name} flyttas till {day}.",
+      "skipWhich": "Vilken dag i stället?",
+      "skipNoDay": "Ingen särskild dag",
+      "setWarn": "Två tryck för att gå vidare (med förvarning först)",
+      "addOwn": "Mina kort",
+      "makeTitle": "Namnge kortet",
+      "makeNew": "Eget kort",
+      "makeHint": "Barnen läser bilden — namnet är för dig och för utskriften.",
+      "makeAdd": "Lägg till i vår dag",
+      "makeSave": "Spara",
+      "makeDelete": "Ta bort ur Mina kort",
+      "makeDeviceOnly": "Dina kort stannar i den här webbläsaren, på den här enheten.",
+      "noticeFull": "Det är tolv kort — fler går inte att spara. Ändra eller ta bort ett du redan har.",
+      "noticeLong": "Namnet är lite långt för kortet — högst tjugo tecken.",
+      "noticeDup": "Du har redan ett kort som ser likadant ut — samma namn, eller samma bild och färg.",
+      "noticeEmpty": "Ge kortet ett namn först.",
+      "recentLbl": "Senast använda",
+      "addCardAria": "Lägg till en aktivitet",
+      "closeAria": "Stäng",
+      "upAria": "Flytta {name} tidigare",
+      "downAria": "Flytta {name} senare",
+      "nextLbl": "Sedan",
+      "focusChip": "Nu och sedan",
+      "moreChip": "Visa knapparna",
+      "tmplReplace": "Ersätta planen för {day}?",
+      "tmplSaveHere": "Spara dagen här",
+      "tmplKeep": "Behåll",
+      "tmplName": "Namnge planen"
     }
   }
 }

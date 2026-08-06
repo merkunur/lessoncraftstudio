@@ -578,6 +578,13 @@ function staticRisks(key) {
        for reading one tool's numbers; writing is a whole-catalogue act.
        Same family as the non-vacuity rule: prove the collection is the one
        you meant before you do anything irreversible with it. */
+    /* ⭐ --emit-row PRINTS one measured row and writes NOTHING. It exists so
+       a single deliberate rebaseline can splice MEASURED numbers instead of
+       typed ones, without a whole-catalogue rewrite silently absorbing
+       unrelated drift. Printing is not writing; the refusal below stands. */
+    if (ONLY && process.argv.indexOf('--emit-row') >= 0) {
+      console.log('<<<ROW-JSON>>>' + JSON.stringify(rows) + '<<<END-ROW-JSON>>>');
+    }
     if (ONLY) {
       console.log('\n  baseline NOT written — this was a filtered run (' + ONLY + ').');
       console.log('  Re-run `--measure` with no --tool to rewrite the 48-tool reference.');

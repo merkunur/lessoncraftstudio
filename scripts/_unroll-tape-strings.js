@@ -9,308 +9,486 @@
    three-person native panel per locale (§A.13.48): a linguist, a primary
    teacher of the relevant grades, and a B2C marketer.
 
-   ⭐⭐ ALL ELEVEN PANELS AUDITED THE ENGLISH, AND ALL ELEVEN FOUND THE
-   SAME DEFECTS IN IT. The English is a locale too — the #38 lesson,
-   arriving again unprompted:
+   ⭐⭐ ROUND 2 (2026-08-06, the rebuild). EVERY ONE OF THE TEN PANELS WAS
+   ASKED TO AUDIT THE ENGLISH AS A SOURCE RATHER THAN TRANSLATE IT, AND
+   THEY CONVICTED IT ON FOUR COUNTS — three of them unanimous or nearly:
 
-     1. THE TITLE NAMED THE ONE NOUN THE TOOL FORBIDS. "The Unrolling
-        TAPE" — while all fifteen other strings say STRAND, and while
-        sibling #40 literally opens "Two tapes, one object". Six panels
-        independently refused to translate it. Now "All the Way Round",
-        which is the phrase a teacher actually uses.
-     2. NOTHING UNROLLS. A cord lying round an edge SLIDES OFF and lies
-        down; "unroll" describes a spool and re-imports the tape. Same
-        for "wrap it back up" — it goes back AROUND, not into a bundle.
-     3. "THE BENCH" WAS A FOURTH NAMED PART, in a tool whose whole rule
-        is three. Inherited from measurement-bench/unit-handle, where it
-        is the apparatus — and in sv/da/no it is a SIBLING TOOL'S NAME
-        (Mätbänken, Målebænken, Målebenken). The printable thing is the
-        RUNWAY.
-     4. `benchLabel` WAS AN INCOMPLETE SCREEN-READER LABEL — it named the
-        shape, the strand and the runway, and omitted the height bar and
-        the flag, while the very next string tells that same user to drag
-        the flag. An accessibility hole, not a wording preference.
-     5. "how many of the shape's own WIDTHS" — a shape has one width; the
-        meaning is how many TIMES its width fits. The plural is readable
-        in English and misleads on rebuild.
-     6. "the bench to print FOR paper" is not English.
-
-   ⚠ AND ONE PANEL FOUND A REAL BUG IN THE MODEL, which I then reproduced
-   and fixed: at 0 < t < 1 with no flag planted, the hint said "drag the
-   flag" while `setFlag` refused and no handle was drawn — a control
-   taking an answer to a question nobody asked (§23.6).
-
-   ⭐ THE BEST CATCH OF THE ROUND, from the Swedish panel: the obvious
-   Swedish word for the runway is `bana`, whose definite form is `banan`
-   — spelt identically to the banana. "Skriv ut banan" would have shipped
-   "print the banana" on a card for seven-year-olds. They used `spår`.
+     1. ⭐ `gateBody` PRINTED THE ANSWER. Nine of ten flagged it: "comes
+        out at exactly the same THREE AND A BIT" states the value the
+        apparatus exists to let a class discover, on a panel that appears
+        on the classroom projector the instant anyone taps a locked shape.
+        It breaks the tool's own refusal 2 (never prints the total) —
+        spelling a number in words is not the same as not saying it — and
+        it is self-contradictory ("exactly" + "a bit"). The surprise
+        survives intact without it: one that is plainly not a circle and
+        stops in exactly the same PLACE.
+        ⚠ And the Finnish panel, which had itself flagged the defect,
+        then reproduced it in its own copy — and on being shown that,
+        recorded rather than quietly overwrote its own failure mode:
+        it had diagnosed a floating number and prescribed ANCHORING it,
+        which would have printed the value harder.
+     2. ⭐ `acrossUnit` "widths of the shape" WAS A VERBATIM REGRESSION OF
+        ROUND 1's OWN FINDING #5, recorded thirty lines below this in the
+        file I read before writing it. A shape has ONE width; the meaning
+        is how many TIMES its width fits. Seven panels caught it, and it
+        is the one string spoken after every value the tool produces, so
+        it pushes every rebuild toward coining a pluralisable unit noun —
+        the single thing this tool forbids. Not one of the ten wrote a
+        plural: mal so breit wie / fois la largeur / veces el ancho /
+        vezes a largura / volte la larghezza / keer de breedte / gånger
+        figurens bredd / gange figurens bredde / ganger figurens bredde /
+        kuvion leveyttä (partitive singular, required after a numeral).
+     3. `strandAria` WAS BYTE-IDENTICAL TO `unrollBtn` — nine panels.
+        A drag handle and a foot button sharing one accessible name is
+        the §23.6 "one element, two jobs" defect from the other side.
+     4. `sizeAria` described a STATE where a control needs an ACTION, a
+        regression from the string round 1 shipped; `benchLabel` named
+        "a measure" — a vague fourth part, from the one word-family this
+        tool spends thirty-six strings avoiding — while omitting the row
+        of marks entirely, which is round 1's finding #4 arriving one
+        part further along; and "the paper set" was a fifth named part
+        that quietly overturned round 1's ruling that the printable thing
+        is the RUNWAY.
 
    ⚠ Each locale's cord noun and runway noun were chosen against the
-   SHIPPED lexicon of the other 43 tools, not against English. That is
+   SHIPPED lexicon of the other 47 tools, not against English — which is
    why they are unrelated words rather than one word respelled eleven
-   times: de Schnur/Leiste · fr ficelle/couloir · es cordón/pista ·
-   pt barbante/trilha · it spago/pista · nl touwtje/lijn · sv snöre/spår ·
-   da tråd/bane · no hyssing/spor · fi lanka/kaista.
+   times, and why several CHANGED this round after the panels grepped the
+   siblings: es runway pista -> franja (pista already means CLUE in the
+   shipped Spanish product, and is also a shape on this very shelf), nl
+   lijn -> weg (number-line owns lijn and renders a visually identical
+   apparatus), fr flag repère -> drapeau (repère was needed for the new
+   record MARK, and one noun may not carry two objects), fi cord lanka ->
+   naru (lanka is yarn; nauha is reserved to sibling #40 as tape).
+   Vetoes worth keeping: es `cuerda`, fr `corde`, it `corda` and pt
+   `corda` are all the term for a CHORD OF A CIRCLE, on a bench full of
+   circles; nl `pad` without its article is a TOAD; sv `bana` has the
+   definite `banan`, spelt exactly like the banana.
+
+   ⚠ AND NO STRING MAY NAME A UNIT. Not centimetre, not inch, not
+   paperclip. `ruler.js` owns standard units (2.MD.A.1) and the no-words
+   law forbids the label anyway — the shape's own width IS the unit.
    ===================================================================== */
 
 'use strict';
 
 module.exports = {
-  /* ---- EN, corrected against the eleven panels' audit ---------------- */
   en: {
-    title: "All the Way Round",
-    instruction: "A strand lies all the way round the shape. Let it lie down straight on the runway, and see how many times the shape's own width fits along it.",
-    benchLabel: "A shape with a strand around it, a runway ruled in the shape's own width, a bar showing the shape's height, and a flag for the guess",
-    hintGuess: "How far is it all the way round? Drag the flag to where you think the strand will reach.",
-    hintUnroll: "Now let the strand lie down.",
-    hintLanded: "The strand came off the shape. Nothing was added and nothing was taken away.",
-    unrollBtn: "Let it lie down",
-    rollBackBtn: "Put it back round",
-    nextShapeBtn: "Another shape",
-    printBtn: "Print the runway",
-    sizeAria: "Make the shape bigger or smaller",
-    strandAria: "Lay the strand down",
-    flagAria: "Move the flag",
-    gateTitle: "More shapes",
-    gateBody: "Seven more shapes, and the runway to print on paper.",
-    gateCta: "See the Teacher plan"
+    title:         "All the Way Round",
+    instruction:   "A strand goes all the way round the shape. Let it lie down straight on the runway and see how far it reaches. Every step along the runway is the shape's own width.",
+    benchLabel:    "A shape standing on a runway ruled in the shape's own width. A strand goes all the way round the shape, a dashed line up the middle of the shape shows how tall it is, flags can be put on the runway to mark the guesses, and under the runway a row of marks shows how far each shape's strand reached.",
+    hintGuess:     "How far is it all the way round this shape? Put a flag where you think the strand will reach.",
+    hintUnroll:    "Now let the strand lie down.",
+    hintLanded:    "The same strand that was round the shape is now lying straight. Nothing was added and nothing was taken away.",
+    unrollBtn:     "Let the strand lie down",
+    rollBackBtn:   "Put the strand back round",
+    nextShapeBtn:  "The next shape",
+    printBtn:      "Print the runway",
+    sizeAria:      "Make the shape bigger or smaller",
+    strandAria:    "Pull the end of the strand along the runway",
+    flagAria:      "A flag — move it to where you think the strand will reach",
+    runwayAria:    "Put a flag on the runway where you think the strand will reach",
+    shelfLabel:    "Choose a shape",
+    lockedSuffix:  "with the Teacher plan",
+    recordLabel:   "Where each shape's strand reached",
+    acrossUnit:    "times the shape's width",
+    sizeSmall:     "Small",
+    sizeMedium:    "Medium",
+    sizeBig:       "Big",
+    shapeCircle:   "Circle",
+    shapePebble:   "Pebble",
+    shapeEye:      "Eye",
+    shapeEgg:      "Egg",
+    shapeCrescent: "Crescent",
+    shapeTrack:    "Stadium",
+    shapePillow:   "Pillow",
+    shapeCushion:  "Cushion",
+    shapeReuleaux: "Three-cornered curve",
+    shapeFlower:   "Flower",
+    shapePeanut:   "Peanut",
+    shapeBurst:    "Star burst",
+    gateTitle:     "Seven more shapes",
+    gateBody:      "Seven more shapes — including one that is plainly not a circle and whose strand stops in exactly the same place — and the runway to print on paper.",
+    gateCta:       "See the Teacher plan"
   },
-
-  /* ---- de · cord = die Schnur, runway = die Leiste.
-     ⚠ `die Bahn` was unavailable — arrow-strip (#37, Der Käferplan) ships
-     it. `Streifen` is unit-handle's. Paid plan normalised to the SHIPPED
-     "Lehrer-Paket" (10 occurrences), not the brief's "Lehrer-Abo". ---- */
   de: {
-    title: "Die Schnur rundherum",
-    instruction: "Eine Schnur liegt einmal rundherum um die Form. Lass sie sich gerade auf die Leiste legen und schau, wie oft die Breite der Form hineinpasst.",
-    benchLabel: "Eine Form mit einer Schnur rundherum, darunter eine Leiste, die in der Breite der Form eingeteilt ist, ein Balken für die Höhe der Form und eine Fahne zum Schätzen",
-    hintGuess: "Wie weit ist es einmal rundherum? Zieh die Fahne dahin, wo die Schnur wohl ankommt.",
-    hintUnroll: "Jetzt darf sich die Schnur hinlegen.",
-    hintLanded: "Die Schnur ist von der Form gerutscht. Es wurde nichts dazugegeben und nichts weggenommen.",
-    unrollBtn: "Hinlegen",
-    rollBackBtn: "Aufwickeln",
-    nextShapeBtn: "Neue Form",
-    printBtn: "Leiste drucken",
-    sizeAria: "Die Form größer oder kleiner machen",
-    strandAria: "Die Schnur hinlegen",
-    flagAria: "Die Fahne verschieben",
-    gateTitle: "Mehr Formen",
-    gateBody: "Sieben weitere Formen und die Leiste zum Ausdrucken.",
-    gateCta: "Lehrer-Paket ansehen"
+    title:         "Einmal rundherum",
+    instruction:   "Eine Schnur liegt einmal rundherum um die Form. Lass sie sich gerade auf die Leiste legen und schau, wie weit sie reicht. Jeder Schritt auf der Leiste ist genau so breit wie die Form.",
+    benchLabel:    "Eine Form steht auf einer Leiste, die in der Breite der Form eingeteilt ist, um die Form liegt eine Schnur, Fähnchen zeigen die Schätzungen, ein Balken neben der Form zeigt ihre Höhe, und darunter stehen die Zeichen, wo die Schnur bei den anderen Formen angekommen ist",
+    hintGuess:     "Wie weit ist es einmal rundherum um diese Form? Setz ein Fähnchen dorthin, wo die Schnur wohl ankommt.",
+    hintUnroll:    "Jetzt darf sich die Schnur hinlegen.",
+    hintLanded:    "Es ist dieselbe Schnur, die eben noch um die Form lag, und jetzt liegt sie gerade da. Es kam nichts dazu und es ging nichts weg.",
+    unrollBtn:     "Schnur hinlegen",
+    rollBackBtn:   "Wieder rundherum",
+    nextShapeBtn:  "Nächste Form",
+    printBtn:      "Leiste drucken",
+    sizeAria:      "Die Form größer oder kleiner machen",
+    strandAria:    "Das Ende der Schnur ziehen, damit sie sich hinlegt",
+    flagAria:      "Dieses Fähnchen an die geschätzte Stelle ziehen",
+    runwayAria:    "Auf die Leiste tippen und dort ein Fähnchen setzen",
+    shelfLabel:    "Eine Form aussuchen",
+    lockedSuffix:  "gehört zum Lehrer-Paket",
+    recordLabel:   "Wo die Schnur bei jeder Form angekommen ist",
+    acrossUnit:    "mal so breit wie die Form",
+    sizeSmall:     "Klein",
+    sizeMedium:    "Mittel",
+    sizeBig:       "Groß",
+    shapeCircle:   "Kreis",
+    shapePebble:   "Kieselstein",
+    shapeEye:      "Auge",
+    shapeEgg:      "Ei",
+    shapeCrescent: "Mondsichel",
+    shapeTrack:    "Rennbahn",
+    shapePillow:   "Kopfkissen",
+    shapeCushion:  "Sitzkissen",
+    shapeReuleaux: "Rundes Dreieck",
+    shapeFlower:   "Blume",
+    shapePeanut:   "Erdnuss",
+    shapeBurst:    "Zackenstern",
+    gateTitle:     "Sieben weitere Formen",
+    gateBody:      "Sieben weitere Formen, darunter eine, die ganz und gar kein Kreis ist und die Klasse trotzdem ins Staunen bringt, und die Leiste zum Ausdrucken.",
+    gateCta:       "Lehrer-Paket ansehen"
   },
-
-  /* ---- fr · cord = la ficelle, runway = le couloir.
-     ⚠ `piste` is arrow-strip's; `bande` is unit-handle's; `étalon` is
-     unit-handle's name. `s'allonger` was rejected outright — it means
-     GETS LONGER, the exact misconception hintLanded exists to kill. ---- */
   fr: {
-    title: "La ficelle qui se couche",
-    instruction: "Une ficelle fait tout le tour de la forme. Couchez-la bien droite dans le couloir, puis regardez combien de fois la largeur de la forme y tient.",
-    benchLabel: "Une forme entourée d’une ficelle, un couloir marqué à la largeur de la forme, une barre qui montre la hauteur de la forme, et un repère pour l’estimation.",
-    hintGuess: "Le tour de la forme ira jusqu’où dans le couloir ? Posez le repère là où vous pensez que la ficelle s’arrêtera.",
-    hintUnroll: "Maintenant, couchez la ficelle.",
-    hintLanded: "La ficelle a quitté la forme. On n’a rien ajouté, on n’a rien enlevé.",
-    unrollBtn: "Coucher la ficelle",
-    rollBackBtn: "Remettre autour",
-    nextShapeBtn: "Une autre forme",
-    printBtn: "Imprimer le couloir",
-    sizeAria: "Agrandir ou réduire la forme",
-    strandAria: "Faire glisser la ficelle pour la coucher",
-    flagAria: "Déplacer le repère",
-    gateTitle: "D’autres formes",
-    gateBody: "Sept formes de plus et le couloir à imprimer sur papier.",
-    gateCta: "Voir l’offre Enseignant"
+    title:         "Le tour de la forme",
+    instruction:   "Une ficelle fait tout le tour de la forme. Laissez-la se coucher bien droite dans le couloir, puis regardez jusqu’où elle va. Dans le couloir, chaque pas est large comme la forme.",
+    benchLabel:    "Une forme entourée d’une ficelle, posée sur un couloir dont chaque pas est large comme la forme. À côté de la forme, une barre montre sa hauteur. On plante des drapeaux dans le couloir pour dire jusqu’où la ficelle ira, et un repère y reste pour chaque forme déjà couchée.",
+    hintGuess:     "Jusqu’où va tout le tour de cette forme ? Plantez un drapeau là où vous pensez que la ficelle s’arrêtera.",
+    hintUnroll:    "Maintenant, laissez la ficelle se coucher.",
+    hintLanded:    "C’est la même ficelle qui faisait le tour de la forme, et la voilà toute droite. On n’a rien ajouté, on n’a rien enlevé.",
+    unrollBtn:     "Coucher la ficelle",
+    rollBackBtn:   "Remettre autour",
+    nextShapeBtn:  "Une autre forme",
+    printBtn:      "Imprimer le couloir",
+    sizeAria:      "Agrandir ou réduire la forme",
+    strandAria:    "Faire glisser le bout de la ficelle pour la coucher",
+    flagAria:      "Déplacer le drapeau pour dire jusqu’où la ficelle ira",
+    runwayAria:    "Toucher le couloir pour y planter un drapeau",
+    shelfLabel:    "Choisir une forme",
+    lockedSuffix:  "avec l’offre Enseignant",
+    recordLabel:   "Jusqu’où la ficelle de chaque forme est allée",
+    acrossUnit:    "fois la largeur de la forme",
+    sizeSmall:     "Petite",
+    sizeMedium:    "Moyenne",
+    sizeBig:       "Grande",
+    shapeCircle:   "Cercle",
+    shapePebble:   "Galet",
+    shapeEye:      "Amande",
+    shapeEgg:      "Œuf",
+    shapeCrescent: "Croissant de lune",
+    shapeTrack:    "Stade",
+    shapePillow:   "Oreiller",
+    shapeCushion:  "Coussin",
+    shapeReuleaux: "Triangle bombé",
+    shapeFlower:   "Fleur",
+    shapePeanut:   "Cacahuète",
+    shapeBurst:    "Étoile",
+    gateTitle:     "Sept formes de plus",
+    gateBody:      "Sept formes de plus, dont une qui n’a vraiment rien d’un cercle et qui pourtant s’arrête juste au même endroit. Et le couloir à imprimer sur papier.",
+    gateCta:       "Voir l’offre Enseignant"
   },
-
-  /* ---- es · cord = el cordón, runway = la pista.
-     ⚠ `cuerda` was vetoed by the linguist on mathematical grounds: it is
-     the Spanish term for a CHORD of a circle, and this tool is full of
-     circles — it would teach the word backwards. `unidad` is the
-     sibling's. ---- */
   es: {
-    title: "La vuelta a la figura",
-    instruction: "Un cordón le da toda la vuelta a la figura. Deja que se acueste recto en la pista y mira cuántas veces cabe el ancho de la figura.",
-    benchLabel: "Una figura con un cordón alrededor, una pista marcada con el ancho de la figura, una barra que muestra su altura y una bandera para la estimación",
-    hintGuess: "¿Cuánto mide toda la vuelta? Arrastra la bandera hasta donde creas que llegará el cordón.",
-    hintUnroll: "Ahora deja que el cordón se acueste en la pista.",
-    hintLanded: "El cordón salió de la figura. Es el mismo cordón: no se le quitó ni se le puso nada.",
-    unrollBtn: "Acostar el cordón",
-    rollBackBtn: "Volver a enrollar",
-    nextShapeBtn: "Otra figura",
-    printBtn: "Imprimir la pista",
-    sizeAria: "Hacer la figura más grande o más pequeña",
-    strandAria: "Acostar el cordón en la pista",
-    flagAria: "Mover la bandera",
-    gateTitle: "Más figuras",
-    gateBody: "Siete figuras más y la pista para imprimir en papel.",
-    gateCta: "Ver el plan Docente"
+    title:         "La vuelta a la figura",
+    instruction:   "Un cordón le da toda la vuelta al borde de la figura. Deja que se acueste recto en la franja y mira hasta dónde llega. Cada paso de la franja es el ancho de la propia figura.",
+    benchLabel:    "Una figura de pie sobre una franja dividida en pasos del ancho de la propia figura. Un cordón le da toda la vuelta a la figura, unas banderitas marcan las estimaciones y, al lado, una barra muestra lo alta que es la figura.",
+    hintGuess:     "¿Cuánto es toda la vuelta a esta figura? Pon una banderita donde creas que llegará el cordón.",
+    hintUnroll:    "Ahora deja que el cordón se acueste.",
+    hintLanded:    "Es el mismo cordón que rodeaba la figura, ahora acostado recto. No se le quitó ni se le puso nada.",
+    unrollBtn:     "Acostar el cordón",
+    rollBackBtn:   "Volver a rodear la figura",
+    nextShapeBtn:  "Otra figura",
+    printBtn:      "Imprimir la hoja",
+    sizeAria:      "Hacer la figura más grande o más pequeña",
+    strandAria:    "Extremo del cordón, arrástralo para acostarlo en la franja",
+    flagAria:      "Banderita, arrástrala hasta donde creas que llegará el cordón",
+    runwayAria:    "Franja, elige un punto para poner una banderita donde creas que llegará el cordón",
+    shelfLabel:    "Elige una figura",
+    lockedSuffix:  "con el plan Docente",
+    recordLabel:   "Hasta dónde llegó el cordón de cada figura",
+    acrossUnit:    "veces el ancho de la figura",
+    sizeSmall:     "Pequeña",
+    sizeMedium:    "Mediana",
+    sizeBig:       "Grande",
+    shapeCircle:   "Círculo",
+    shapePebble:   "Piedra de río",
+    shapeEye:      "Ojo",
+    shapeEgg:      "Huevo",
+    shapeCrescent: "Media luna",
+    shapeTrack:    "Estadio",
+    shapePillow:   "Almohada",
+    shapeCushion:  "Cojín",
+    shapeReuleaux: "Curva de tres puntas",
+    shapeFlower:   "Flor",
+    shapePeanut:   "Cacahuete",
+    shapeBurst:    "Estrella",
+    gateTitle:     "Siete figuras más",
+    gateBody:      "Siete figuras más, y entre ellas una que a simple vista no es un círculo y aun así llega al mismo punto exacto de la franja, y también la hoja para imprimir.",
+    gateCta:       "Ver el plan Docente"
   },
-
-  /* ---- pt · cord = o barbante, runway = a trilha.
-     ⚠ `pista` means CLUE in Brazilian classroom Portuguese and is used
-     that way in three shipped tools — "deitar na pista" would read as
-     "lie down on the clue". `trilha numérica` is already known to BR
-     teachers as a marked track you count along. ---- */
   pt: {
-    title: "O Barbante do Contorno",
-    instruction: "Um barbante dá a volta inteira na figura. Deixe o barbante deitar reto na trilha e veja quantas vezes cabe a largura da própria figura.",
-    benchLabel: "Uma figura com um barbante em volta, uma trilha marcada com a largura da figura, uma barra que mostra a altura da figura e uma bandeirinha para o palpite",
-    hintGuess: "Até onde vai a volta inteira? Arraste a bandeirinha até onde você acha que o barbante vai chegar.",
-    hintUnroll: "Agora deixe o barbante deitar na trilha.",
-    hintLanded: "O barbante saiu da figura. Nada foi acrescentado e nada foi tirado.",
-    unrollBtn: "Deitar o barbante",
-    rollBackBtn: "Enrolar de novo",
-    nextShapeBtn: "Outra figura",
-    printBtn: "Imprimir a trilha",
-    sizeAria: "Deixar a figura maior ou menor",
-    strandAria: "Deitar o barbante na trilha",
-    flagAria: "Mover a bandeirinha",
-    gateTitle: "Mais figuras",
-    gateBody: "Mais sete figuras e a trilha para imprimir em papel.",
-    gateCta: "Ver o plano Professor"
+    title:         "Em Volta da Figura",
+    instruction:   "Um barbante dá a volta inteira na figura. Deixe o barbante deitar reto na trilha e veja até onde ele chega. Cada passo da trilha tem a largura da própria figura.",
+    benchLabel:    "Uma figura em pé sobre uma trilha marcada com a largura da própria figura. Um barbante dá a volta inteira na figura, ao lado dela uma barra mostra a altura da figura, bandeirinhas marcam os palpites e marquinhas na trilha mostram até onde o barbante de cada figura chegou.",
+    hintGuess:     "Até onde vai a volta inteira desta figura? Ponha uma bandeirinha onde você acha que o barbante vai chegar.",
+    hintUnroll:    "Agora deixe o barbante deitar na trilha.",
+    hintLanded:    "É o mesmo barbante que estava em volta da figura, agora deitado reto. Nada foi acrescentado e nada foi tirado.",
+    unrollBtn:     "Deitar o barbante",
+    rollBackBtn:   "Dar a volta de novo",
+    nextShapeBtn:  "Outra figura",
+    printBtn:      "Imprimir a trilha",
+    sizeAria:      "Deixar a figura maior ou menor",
+    strandAria:    "Arrastar a ponta do barbante até a trilha",
+    flagAria:      "Arrastar a bandeirinha até onde você acha que o barbante vai chegar",
+    runwayAria:    "Tocar na trilha para pôr uma bandeirinha onde você acha que o barbante vai chegar",
+    shelfLabel:    "Escolher uma figura",
+    lockedSuffix:  "no plano Professor",
+    recordLabel:   "Até onde chegou o barbante de cada figura",
+    acrossUnit:    "vezes a largura da figura",
+    sizeSmall:     "Pequena",
+    sizeMedium:    "Média",
+    sizeBig:       "Grande",
+    shapeCircle:   "Círculo",
+    shapePebble:   "Pedrinha",
+    shapeEye:      "Olho",
+    shapeEgg:      "Ovo",
+    shapeCrescent: "Meia-lua",
+    shapeTrack:    "Pista de corrida",
+    shapePillow:   "Travesseiro",
+    shapeCushion:  "Almofada",
+    shapeReuleaux: "Curva de três pontas",
+    shapeFlower:   "Flor",
+    shapePeanut:   "Amendoim",
+    shapeBurst:    "Estrela",
+    gateTitle:     "Mais sete figuras",
+    gateBody:      "Mais sete figuras — entre elas uma que não é nada parecida com um círculo e mesmo assim para no mesmo ponto — e a trilha para imprimir em papel.",
+    gateCta:       "Ver o plano Professor"
   },
-
-  /* ---- it · cord = lo spago, runway = la pista.
-     ⚠ `il banco` is the sibling Il banco delle misure; `nastro` and the
-     elastico/allungare axis belong to L'unità elastica. `filo` was
-     blocked — story-line owns `il filo della storia`. ---- */
   it: {
-    title: "Lo spago del contorno",
-    instruction: "Uno spago fa tutto il giro della figura. Lasciatelo stendere dritto sulla pista e guardate quante volte ci sta la larghezza della figura stessa.",
-    benchLabel: "Una figura con uno spago tutto intorno, una pista graduata con la larghezza della figura, una barra che mostra l’altezza della figura e una bandierina per la stima",
-    hintGuess: "Fin dove arriva tutto il giro? Trascinate la bandierina dove pensate che arriverà lo spago.",
-    hintUnroll: "Ora lasciate stendere lo spago sulla pista.",
-    hintLanded: "Lo spago si è staccato dalla figura. Nulla è stato aggiunto e nulla è stato tolto.",
-    unrollBtn: "Stendi lo spago",
-    rollBackBtn: "Riavvolgi lo spago",
-    nextShapeBtn: "Un’altra figura",
-    printBtn: "Stampa la pista",
-    sizeAria: "Rendere la figura più grande o più piccola",
-    strandAria: "Stendere lo spago sulla pista",
-    flagAria: "Spostare la bandierina",
-    gateTitle: "Altre figure",
-    gateBody: "Altre sette figure e la pista da stampare su carta.",
-    gateCta: "Il piano Insegnante"
+    title:         "Tutto il giro della figura",
+    instruction:   "Uno spago fa tutto il giro della figura. Lasciatelo stendere dritto sulla pista e guardate fin dove arriva. Ogni passo della pista è largo quanto la figura.",
+    benchLabel:    "Una figura appoggiata su una pista divisa in passi larghi quanto la figura. Uno spago fa tutto il giro della figura, le bandierine segnano le stime e accanto alla figura una misura ne mostra l’altezza.",
+    hintGuess:     "Fin dove arriva tutto il giro di questa figura? Mettete una bandierina dove pensate che arriverà lo spago.",
+    hintUnroll:    "Ora lasciate stendere lo spago sulla pista.",
+    hintLanded:    "Lo stesso spago che stava intorno alla figura ora è disteso dritto. Non è stato aggiunto nulla e non è stato tolto nulla.",
+    unrollBtn:     "Stendi lo spago",
+    rollBackBtn:   "Rimetti lo spago intorno",
+    nextShapeBtn:  "Un’altra figura",
+    printBtn:      "Stampa il foglio",
+    sizeAria:      "Quanto è grande la figura",
+    strandAria:    "Capo dello spago da stendere sulla pista",
+    flagAria:      "Spostare la bandierina dove pensate che arriverà lo spago",
+    runwayAria:    "Toccare la pista per mettere una bandierina dove pensate che arriverà lo spago",
+    shelfLabel:    "Scegliete una figura",
+    lockedSuffix:  "con il piano Insegnante",
+    recordLabel:   "Dove è arrivato lo spago di ogni figura",
+    acrossUnit:    "volte la larghezza della figura",
+    sizeSmall:     "Piccola",
+    sizeMedium:    "Media",
+    sizeBig:       "Grande",
+    shapeCircle:   "Cerchio",
+    shapePebble:   "Sasso",
+    shapeEye:      "Chicco",
+    shapeEgg:      "Uovo",
+    shapeCrescent: "Mezzaluna",
+    shapeTrack:    "Stadio",
+    shapePillow:   "Guanciale",
+    shapeCushion:  "Cuscino",
+    shapeReuleaux: "Curva a tre punte",
+    shapeFlower:   "Fiore",
+    shapePeanut:   "Nocciolina",
+    shapeBurst:    "Sole",
+    gateTitle:     "Altre sette figure",
+    gateBody:      "Altre sette figure, fra cui una che non somiglia per niente a un cerchio e arriva esattamente allo stesso punto, e il foglio da stampare.",
+    gateCta:       "Il piano Insegnante"
   },
-
-  /* ---- nl · cord = het touwtje, runway = de lijn.
-     ⚠ `de baan` is arrow-strip's (De Pijlenbaan, "Baan leegmaken");
-     `strook` and `maat` are De Rekbare Maat's. `omtrek` is a groep-6
-     term and would mis-shelve a groep-3/4 card. ---- */
   nl: {
-    title: "Helemaal rondom",
-    instruction: "Om de vorm heen ligt een touwtje. Laat het recht gaan liggen op de lijn en tel hoe vaak de breedte van de vorm erin past.",
-    benchLabel: "Een vorm met een touwtje eromheen, een lijn die verdeeld is in breedtes van de vorm, een balkje zo hoog als de vorm, en een vlaggetje om te raden",
-    hintGuess: "Hoe ver is het helemaal rondom? Sleep het vlaggetje naar de plek waar je denkt dat het touwtje komt.",
-    hintUnroll: "Laat het touwtje nu gaan liggen.",
-    hintLanded: "Het touwtje is van de vorm afgegleden. Er is niets bijgekomen en er is niets afgegaan.",
-    unrollBtn: "Recht leggen",
-    rollBackBtn: "Weer eromheen",
-    nextShapeBtn: "Andere vorm",
-    printBtn: "Lijn afdrukken",
-    sizeAria: "De vorm groter of kleiner maken",
-    strandAria: "Het touwtje recht leggen",
-    flagAria: "Het vlaggetje verplaatsen",
-    gateTitle: "Meer vormen",
-    gateBody: "Nog zeven vormen, en de lijn om af te drukken op papier.",
-    gateCta: "Bekijk het Leerkracht-pakket"
+    title:         "Helemaal rondom",
+    instruction:   "Om de vorm heen ligt een touwtje. Laat het recht op de weg gaan liggen en kijk hoe ver het komt. Elke stap op de weg is precies zo breed als de vorm zelf.",
+    benchLabel:    "Een vorm staat op een weg, en die weg is verdeeld in stappen die precies zo breed zijn als de vorm. Om de vorm heen ligt een touwtje, ernaast staat een balkje dat laat zien hoe hoog de vorm is, en op de weg zet je vlaggetjes om te raden waar het touwtje komt.",
+    hintGuess:     "Hoe ver is het helemaal rondom deze vorm? Zet een vlaggetje op de plek waar het touwtje volgens jullie komt.",
+    hintUnroll:    "Laat het touwtje nu gaan liggen.",
+    hintLanded:    "Hetzelfde touwtje dat om de vorm heen lag, ligt nu kaarsrecht op de weg. Er is niets bijgekomen en er is niets afgegaan.",
+    unrollBtn:     "Touwtje neerleggen",
+    rollBackBtn:   "Weer eromheen",
+    nextShapeBtn:  "Andere vorm",
+    printBtn:      "De weg afdrukken",
+    sizeAria:      "De vorm groter of kleiner maken",
+    strandAria:    "Het uiteinde van het touwtje. Sleep het naar de weg om het touwtje neer te leggen.",
+    flagAria:      "Het vlaggetje. Sleep het naar de plek waar het touwtje volgens jullie komt.",
+    runwayAria:    "De weg met stappen. Tik erop om een vlaggetje te zetten waar het touwtje volgens jullie komt.",
+    shelfLabel:    "Kies een vorm",
+    lockedSuffix:  "hoort bij het Leerkracht-pakket",
+    recordLabel:   "Stipjes die laten zien tot waar het touwtje van elke vorm kwam",
+    acrossUnit:    "keer de breedte van de vorm",
+    sizeSmall:     "Klein",
+    sizeMedium:    "Middelgroot",
+    sizeBig:       "Groot",
+    shapeCircle:   "Cirkel",
+    shapePebble:   "Kiezelsteen",
+    shapeEye:      "Amandel",
+    shapeEgg:      "Ei",
+    shapeCrescent: "Maantje",
+    shapeTrack:    "Renbaan",
+    shapePillow:   "Hoofdkussen",
+    shapeCushion:  "Zitkussen",
+    shapeReuleaux: "Bolle driehoek",
+    shapeFlower:   "Bloem",
+    shapePeanut:   "Pinda",
+    shapeBurst:    "Zon",
+    gateTitle:     "Nog zeven vormen",
+    gateBody:      "Zeven vormen erbij, waaronder eentje die duidelijk geen cirkel is en waarbij het touwtje toch tot precies dezelfde plek komt. En de weg om op papier af te drukken.",
+    gateCta:       "Bekijk het Leerkracht-pakket"
   },
-
-  /* ---- sv · cord = snöret, runway = spåret.
-     ⭐ `bana` was killed by a homograph: its definite is `banan`, which
-     is also the banana — "Skriv ut banan" reads "print the banana".
-     `räls` is Kommandorälsen's, `remsa` is Enhetsremsan's. `omkrets` is
-     an åk 4–6 term in Lgr22 and stays out of the buttons. ---- */
   sv: {
-    title: "Snöret runt",
-    instruction: "Ett snöre ligger hela vägen runt figuren. Låt det lägga sig rakt på spåret och se hur många gånger figurens egen bredd får plats.",
-    benchLabel: "En figur med ett snöre runt om, ett spår som är indelat i figurens egen bredd, en stapel som visar figurens höjd och en flagga för gissningen",
-    hintGuess: "Hur långt är det hela vägen runt? Dra flaggan dit du tror att snöret når.",
-    hintUnroll: "Låt snöret lägga sig ner.",
-    hintLanded: "Snöret har lämnat figuren. Ingenting har lagts till och ingenting har tagits bort.",
-    unrollBtn: "Lägg ner snöret",
-    rollBackBtn: "Lägg tillbaka",
-    nextShapeBtn: "Ny figur",
-    printBtn: "Skriv ut spåret",
-    sizeAria: "Gör figuren större eller mindre",
-    strandAria: "Lägg ner snöret på spåret",
-    flagAria: "Flytta flaggan",
-    gateTitle: "Fler figurer",
-    gateBody: "Sju figurer till, och spåret att skriva ut på papper.",
-    gateCta: "Se Lärarpaketet"
+    title:         "Hela vägen runt",
+    instruction:   "Ett snöre går hela vägen runt figuren. Låt det lägga sig rakt på spåret och se hur långt det räcker. Varje steg längs spåret är figurens egen bredd.",
+    benchLabel:    "En figur som står på ett spår indelat i figurens egen bredd, ett snöre hela vägen runt figuren, en stapel bredvid figuren som visar hur hög den är, flaggor för gissningarna, och små märken där tidigare figurers snören nådde",
+    hintGuess:     "Hur långt är det hela vägen runt den här figuren? Sätt en flagga där du tror att snöret når.",
+    hintUnroll:    "Låt snöret lägga sig ner nu.",
+    hintLanded:    "Det är samma snöre som låg runt figuren, och nu ligger det rakt. Ingenting har lagts till och ingenting har tagits bort.",
+    unrollBtn:     "Lägg ner snöret",
+    rollBackBtn:   "Lägg snöret runt igen",
+    nextShapeBtn:  "Nästa figur",
+    printBtn:      "Skriv ut pappren",
+    sizeAria:      "Gör figuren större eller mindre",
+    strandAria:    "Dra i snörets ände så lägger snöret sig ner på spåret",
+    flagAria:      "Flytta flaggan dit du tror att snöret når",
+    runwayAria:    "Tryck på spåret för att sätta en flagga där du tror att snöret når",
+    shelfLabel:    "Välj en figur",
+    lockedSuffix:  "ingår i Lärarpaketet",
+    recordLabel:   "Så långt nådde varje figurs snöre",
+    acrossUnit:    "gånger figurens bredd",
+    sizeSmall:     "Liten",
+    sizeMedium:    "Mellan",
+    sizeBig:       "Stor",
+    shapeCircle:   "Cirkel",
+    shapePebble:   "Småsten",
+    shapeEye:      "Öga",
+    shapeEgg:      "Ägg",
+    shapeCrescent: "Månskära",
+    shapeTrack:    "Löparbana",
+    shapePillow:   "Kudde",
+    shapeCushion:  "Sittdyna",
+    shapeReuleaux: "Rundad trekant",
+    shapeFlower:   "Blomma",
+    shapePeanut:   "Jordnöt",
+    shapeBurst:    "Stjärna",
+    gateTitle:     "Sju figurer till",
+    gateBody:      "Sju figurer till – en av dem är tydligt ingen cirkel, och ändå hamnar snöret på precis samma ställe – och pappren att skriva ut.",
+    gateCta:       "Se Lärarpaketet"
   },
-
-  /* ---- da · cord = tråden, runway = banen.
-     ⚠ `snor` is Historiesnoren's and `spor` is Pilesporet's, so both
-     obvious words were occupied. Danish takes SINGLE definite throughout
-     (tråden, banen, figuren, flaget) — never a preposed article. ---- */
   da: {
-    title: "Tråden om figuren",
-    instruction: "En tråd ligger hele vejen rundt om figuren. Lad den lægge sig lige ned på banen, og se hvor mange gange figurens egen bredde fylder.",
-    benchLabel: "En figur med en tråd rundt om, en bane der er inddelt i figurens egen bredde, en bjælke der viser figurens højde, og et flag til gættet",
-    hintGuess: "Hvor langt er der hele vejen rundt? Træk flaget hen, hvor du tror, tråden når til.",
-    hintUnroll: "Lad nu tråden lægge sig ned.",
-    hintLanded: "Tråden er kommet af figuren. Der blev ikke lagt noget til, og der blev ikke taget noget fra.",
-    unrollBtn: "Læg tråden ned",
-    rollBackBtn: "Læg den tilbage",
-    nextShapeBtn: "Ny figur",
-    printBtn: "Print banen",
-    sizeAria: "Gør figuren større eller mindre",
-    strandAria: "Læg tråden ned på banen",
-    flagAria: "Flyt flaget",
-    gateTitle: "Flere figurer",
-    gateBody: "Syv figurer mere, og banen til at printe på papir.",
-    gateCta: "Se Lærerabonnementet"
+    title:         "Tråden om figuren",
+    instruction:   "En tråd går hele vejen rundt om figuren. Lad den lægge sig lige ned på banen, og se, hvor langt den når. Hvert trin på banen er figurens egen bredde.",
+    benchLabel:    "En figur med en tråd hele vejen rundt om sig, en bane der er inddelt i figurens egen bredde, en bjælke der viser, hvor høj figuren er, et flag til gættet, og mærker efter de figurer, I allerede har prøvet.",
+    hintGuess:     "Hvor langt er der hele vejen rundt om denne figur? Sæt et flag der, hvor du tror, tråden når til.",
+    hintUnroll:    "Lad nu tråden lægge sig ned på banen.",
+    hintLanded:    "Det er den samme tråd, som lå rundt om figuren, og nu ligger den helt lige. Der er ikke lagt noget til, og der er ikke taget noget fra.",
+    unrollBtn:     "Læg tråden ned",
+    rollBackBtn:   "Læg den om figuren igen",
+    nextShapeBtn:  "Næste figur",
+    printBtn:      "Print banen",
+    sizeAria:      "Gør figuren større eller mindre",
+    strandAria:    "Træk trådens ende ned på banen",
+    flagAria:      "Flyt flaget hen, hvor du tror, tråden når til",
+    runwayAria:    "Banen. Vælg et sted på den, så flaget flytter derhen.",
+    shelfLabel:    "Vælg en figur",
+    lockedSuffix:  "med Lærerabonnementet",
+    recordLabel:   "Mærker efter hver figurs tråd",
+    acrossUnit:    "gange figurens bredde",
+    sizeSmall:     "Lille",
+    sizeMedium:    "Mellem",
+    sizeBig:       "Stor",
+    shapeCircle:   "Cirkel",
+    shapePebble:   "Rullesten",
+    shapeEye:      "Oval",
+    shapeEgg:      "Æg",
+    shapeCrescent: "Halvmåne",
+    shapeTrack:    "Pølse",
+    shapePillow:   "Pude",
+    shapeCushion:  "Madras",
+    shapeReuleaux: "Buet trekant",
+    shapeFlower:   "Blomst",
+    shapePeanut:   "Jordnød",
+    shapeBurst:    "Stjerne",
+    gateTitle:     "Syv figurer mere",
+    gateBody:      "Syv figurer mere — blandt dem en, der slet ikke ligner en cirkel, men hvis tråd alligevel når præcis lige så langt — og banen, som I kan printe.",
+    gateCta:       "Se Lærerabonnementet"
   },
-
-  /* ---- no · cord = hyssingen, runway = sporet.
-     ⚠ `snor` is Fortellingssnora's and `bane` is Pilbanen's. `hyssing`
-     is what a Norwegian teacher actually calls a short piece of string
-     and is unmistakably Norwegian rather than pan-Scandinavian — which
-     is the point, since sv/da/no must not be one word respelled. ---- */
   no: {
-    title: "Hyssingsporet",
-    instruction: "En hyssing ligger hele veien rundt figuren. La den legge seg rett ut på sporet, og se hvor mange ganger figurens egen bredde får plass.",
-    benchLabel: "En figur med en hyssing rundt, et spor som er delt inn i figurens egen bredde, en stolpe som viser figurens høyde, og et flagg til gjettingen",
-    hintGuess: "Hvor langt er det hele veien rundt? Dra flagget dit du tror hyssingen når.",
-    hintUnroll: "La hyssingen legge seg ned.",
-    hintLanded: "Hyssingen har gått av figuren. Ingenting ble lagt til, og ingenting ble tatt bort.",
-    unrollBtn: "Legg den ned",
-    rollBackBtn: "Legg den tilbake",
-    nextShapeBtn: "Ny figur",
-    printBtn: "Skriv ut sporet",
-    sizeAria: "Gjør figuren større eller mindre",
-    strandAria: "Legg hyssingen ned på sporet",
-    flagAria: "Flytt flagget",
-    gateTitle: "Flere figurer",
-    gateBody: "Sju figurer til, og sporet til å skrive ut på papir.",
-    gateCta: "Se Lærerabonnementet"
+    title:         "Hele veien rundt",
+    instruction:   "En hyssing går hele veien rundt figuren. La den legge seg rett ned på sporet, og se hvor langt den rekker. Hvert steg bortover sporet er figurens egen bredde.",
+    benchLabel:    "En figur står på et spor som er delt inn i figurens egen bredde. En hyssing går hele veien rundt figuren, flagg viser gjettingene, en stolpe ved siden av figuren viser hvor høy den er, og under sporet står merkene som viser hvor hyssingen rakk for hver figur.",
+    hintGuess:     "Hvor langt er det hele veien rundt denne figuren? Sett et flagg der du tror hyssingen rekker.",
+    hintUnroll:    "Nå kan hyssingen legge seg ned.",
+    hintLanded:    "Den samme hyssingen som gikk rundt figuren, ligger nå rett ut. Ingenting er lagt til, og ingenting er tatt bort.",
+    unrollBtn:     "Legg hyssingen ned",
+    rollBackBtn:   "Legg den rundt igjen",
+    nextShapeBtn:  "Neste figur",
+    printBtn:      "Skriv ut sporet",
+    sizeAria:      "Gjør figuren større eller mindre",
+    strandAria:    "Enden av hyssingen — dra den ned på sporet",
+    flagAria:      "Flytt flagget dit du tror hyssingen rekker",
+    runwayAria:    "Sporet — sett et flagg der du tror hyssingen rekker",
+    shelfLabel:    "Velg en figur",
+    lockedSuffix:  "med Lærerabonnementet",
+    recordLabel:   "Merkene viser hvor hyssingen rakk for hver figur",
+    acrossUnit:    "ganger figurens bredde",
+    sizeSmall:     "Liten",
+    sizeMedium:    "Mellomstor",
+    sizeBig:       "Stor",
+    shapeCircle:   "Sirkel",
+    shapePebble:   "Småstein",
+    shapeEye:      "Oval",
+    shapeEgg:      "Egg",
+    shapeCrescent: "Halvmåne",
+    shapeTrack:    "Stadion",
+    shapePillow:   "Pute",
+    shapeCushion:  "Sofapute",
+    shapeReuleaux: "Buet trekant",
+    shapeFlower:   "Blomst",
+    shapePeanut:   "Peanøtt",
+    shapeBurst:    "Stjerne",
+    gateTitle:     "Sju figurer til",
+    gateBody:      "Sju figurer til, og en av dem ser slett ikke ut som en sirkel. Sporet kan dere skrive ut på papir og ta det med til pultene.",
+    gateCta:       "Se Lærerabonnementet"
   },
-
-  /* ---- fi · cord = lanka, runway = kaista.
-     ⚠ `nauha` is Venyvä yksikkö's ("Kaksi nauhaa, yksi esine"), `naru`
-     is Tarinanaru's, `yksikkö` is the sibling's. `suora` was rejected
-     because a ruled horizontal line called `suora` reads as `lukusuora`
-     — a number line, which this is not. Case government is written out
-     literally, never assembled from a nominative token: langan asettua
-     (gen. subject of infinitive), langan yltävän (referative), kuviosta
-     (elative), levyisiin osiin (illative). ---- */
   fi: {
-    title: "Ympäri ja suoraksi",
-    instruction: "Lanka kulkee kuvion ympäri. Anna langan asettua suoraksi kaistalle ja katso, montako kertaa kuvion oma leveys siihen mahtuu.",
-    benchLabel: "Kuvio, jonka ympäri kulkee lanka, kaista joka on jaettu kuvion levyisiin osiin, kuvion korkuinen palkki ja lippu arvausta varten",
-    hintGuess: "Kuinka pitkä matka on kuvion ympäri? Vedä lippu kohtaan, johon arvelet langan yltävän.",
-    hintUnroll: "Anna langan nyt asettua kaistalle.",
-    hintLanded: "Lanka irtosi kuviosta. Mitään ei lisätty eikä otettu pois.",
-    unrollBtn: "Suoraksi",
-    rollBackBtn: "Takaisin ympäri",
-    nextShapeBtn: "Toinen kuvio",
-    printBtn: "Tulosta kaista",
-    sizeAria: "Suurenna tai pienennä kuviota",
-    strandAria: "Vedä lanka suoraksi kaistalle",
-    flagAria: "Siirrä lippua",
-    gateTitle: "Lisää kuvioita",
-    gateBody: "Seitsemän kuviota lisää ja kaista, jonka voi tulostaa paperille.",
-    gateCta: "Tutustu Opettaja-tilaukseen"
+    title:         "Ympäri ja suoraksi",
+    instruction:   "Naru kulkee koko matkan kuvion ympäri. Anna sen asettua suoraksi kaistalle ja katso, kuinka pitkälle se yltää. Jokainen askel kaistalla on kuvion oma leveys.",
+    benchLabel:    "Kuvio seisoo kaistalla, joka on jaettu kuvion levyisiin askeliin. Naru kulkee koko matkan kuvion ympäri, kaistalle voi asettaa lippuja arvauksia varten, ja kuvion vieressä oleva palkki näyttää, kuinka korkea kuvio on.",
+    hintGuess:     "Kuinka pitkä matka on tämän kuvion ympäri? Aseta lippu kohtaan, johon arvelet narun yltävän.",
+    hintUnroll:    "Anna narun nyt asettua suoraksi.",
+    hintLanded:    "Sama naru, joka oli kuvion ympärillä, on nyt suorana. Mitään ei lisätty eikä otettu pois.",
+    unrollBtn:     "Laske naru suoraksi",
+    rollBackBtn:   "Vie naru takaisin ympäri",
+    nextShapeBtn:  "Seuraava kuvio",
+    printBtn:      "Tulosta kaista",
+    sizeAria:      "Valitse kuvion koko",
+    strandAria:    "Vedä narun päästä",
+    flagAria:      "Siirrä lippu kohtaan, johon arvelet narun yltävän.",
+    runwayAria:    "Napauta kaistaa ja aseta lippu kohtaan, johon arvelet narun yltävän.",
+    shelfLabel:    "Valitse kuvio",
+    lockedSuffix:  "kuuluu Opettaja-tilaukseen",
+    recordLabel:   "Mihin asti kunkin kuvion naru ylsi",
+    acrossUnit:    "kuvion leveyttä",
+    sizeSmall:     "Pieni",
+    sizeMedium:    "Keskikokoinen",
+    sizeBig:       "Suuri",
+    shapeCircle:   "Ympyrä",
+    shapePebble:   "Pikkukivi",
+    shapeEye:      "Silmä",
+    shapeEgg:      "Muna",
+    shapeCrescent: "Kuunsirppi",
+    shapeTrack:    "Juoksurata",
+    shapePillow:   "Tyyny",
+    shapeCushion:  "Istuintyyny",
+    shapeReuleaux: "Kolmikulmainen kaari",
+    shapeFlower:   "Kukka",
+    shapePeanut:   "Maapähkinä",
+    shapeBurst:    "Tähtisade",
+    gateTitle:     "Seitsemän kuviota lisää",
+    gateBody:      "Seitsemän kuviota lisää — mukana yksi, joka ei selvästikään ole ympyrä mutta jonka naru pysähtyy silti täsmälleen samaan kohtaan kaistalla — sekä tulostettava kaista.",
+    gateCta:       "Katso Opettaja-tilaus"
   }
 };

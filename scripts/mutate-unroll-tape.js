@@ -57,8 +57,7 @@ const M = [
     'for (i = 0; i <= n; i++) pts.push(f(((a0 + (b0 - a0) * i / n) + uB) % 1));'],
 
   /* ---- ⭐ THE GUIDE: LENGTH CONSERVATION ---------------------------- */
-  ['the laid part stretches as it lays', 'if (laid > 0) out.push([this.X0 + laid, this.BASE]);',
-    'if (laid > 0) out.push([this.X0 + laid * 1.02, this.BASE]);'],
+    ["the laid part stretches as it lays", "if (laid > 0) out.push([X0 + laid, this.BASE]);", "if (laid > 0) out.push([X0 + laid * 1.02, this.BASE]);"],
   ['the wrapped part keeps the whole outline', 'for (i = 0; i < o.pts.length; i++) if (o.cum[i] > sFrom) out.push(map(o.pts[i]));',
     'for (i = 0; i < o.pts.length; i++) out.push(map(o.pts[i]));'],
   ['the strand drops its arrival back at B', 'out.push(map(o.pts[0]));             /* arrive back at B */', ''],
@@ -68,51 +67,64 @@ const M = [
   /* ---- THE SCALE + THE READING -------------------------------------- */
   ['across is read from the analytic curve, not the polyline', 'R: L / (x1 - x0)', 'R: L / (x1 - x0) * 1.000002'],
   ['the scale is applied twice', 'var scale = A / o.across;\n      var Lm = o.L * scale;', 'var scale = A / o.across;\n      var Lm = o.L * scale * scale;'],
-  ['the y axis stops flipping', 'return [UnrollTape.X0 + (p[0] - bx) * scale, UnrollTape.BASE - (p[1] - by) * scale];',
-    'return [UnrollTape.X0 + (p[0] - bx) * scale, UnrollTape.BASE + (p[1] - by) * scale];'],
+    ["the y axis stops flipping", "return [X0 + (p[0] - bx) * scale, self.BASE - (p[1] - by) * scale];", "return [X0 + (p[0] - bx) * scale, self.BASE + (p[1] - by) * scale];"],
 
   /* ---- THE SIZE BAND ------------------------------------------------- */
-  ['the runway ceiling is dropped', 'var byRunway = Math.floor((this.RIGHT - this.X0) / o.R);', 'var byRunway = 1e9;'],
-  ['the height ceiling is dropped', 'var byHeight = o.tallR > 0 ? Math.floor((this.BASE - this.TOP) / o.tallR) : this.A_MAX;', 'var byHeight = 1e9;'],
-  ['a size below the floor is accepted', 'if (!(a >= this.A_MIN) || !(a <= hi)) return null;', 'if (!(a <= hi)) return null;'],
+    ["the runway ceiling is dropped", "var byRunway = (this.RIGHT - this.PAD_L) / (o.R + o.fLeft + this.GUESS_ROOM);", "var byRunway = this.A_MAX;"],
+    ["the height ceiling is dropped", "? (this.ASPECT_MAX * this.W - this.BELOW_FULL - this.HEAD) / o.tallR", "? this.A_MAX"],
+    ["a size below the floor is accepted", "return Math.max(this.A_MIN, Math.min(hi, Math.round(hi * f)));", "return Math.round(hi * f);"],
   ['a no-op size change reports success', 'if (a === s.A) return null;', ''],
 
   /* ---- PURITY + TOTALITY --------------------------------------------- */
-  ['setSize mutates its input', 'setSize: function (st, o, v) {\n      var s = this._clone(st);', 'setSize: function (st, o, v) {\n      var s = st;'],
+    ["setSize mutates its input", "    setSizeStep: function (st, o, i) {\n      var s = this._clone(st);", "    setSizeStep: function (st, o, i) {\n      var s = st;"],
   ['the totality guard is dropped', "return (st && typeof st === 'object' &&", 'return (st &&\n        false &&'],
   ['the state grows an undeclared field', 's.t = t;\n      return s;', 's.t = t;\n      s.lastT = t;\n      return s;'],
 
   /* ---- THE FLAG: gated in the MODEL, not by an attribute ------------- */
-  ['the flag moves after the commit', 'if (s.committed) return null;          /* frozen by refusal */', ''],
-  ['the flag moves during the peel', 'if (s.t > 0) return null;              /* only while wrapped */', ''],
-  ['the commit never fires', "if (t > 0 && s.flag !== null) s.committed = true;", ''],
+    ["the flag moves after the commit", "if (st.committed || st.t > 0) return null;", "if (st.t > 0) return null;"],
+    ["the flag moves during the peel", "      if (st.committed || st.t > 0) return null;", "      if (st.committed) return null;"],
+    ["the commit never fires", "if (t > 0) s.committed = true;", "if (t > 2) s.committed = true;"],
 
   /* ---- THE REFUSALS --------------------------------------------------- */
   ['a verdict word enters the source', "STORE_KEY: 'lcs:unroll-tape:v1',", "correct: 1,\n    STORE_KEY: 'lcs:unroll-tape:v1',"],
-  ['the total is printed onto the stage', "num.textContent = String(k + 1);", "num.textContent = (o.L / o.across).toFixed(2);"],
-  ['a digit enters an authored string', 'en: "Another shape"', 'en: "Another shape 3"'],
-  ['the weave becomes a ruler', "+ 'stroke-linejoin:round;stroke-dasharray:6 5;}'", "+ 'stroke-linejoin:round;}'"],
-  ['art is loaded onto the bench', "var svg = this._svg('svg',", "var _u = '/image-library-webp/x.webp';\n      var svg = this._svg('svg',"],
+    ["the total is printed onto the stage", "el.textContent = String(i + 1);", "el.textContent = String(o.R.toFixed(2));"],
+    ["a digit enters an authored string", "shelfLabel:    { en: \"Choose a shape\"", "shelfLabel:    { en: \"Choose 1 shape\""],
+    ["the weave becomes a ruler", "+ '.urt-strand-core{stroke:#F2784B;stroke-width:5.5;}'", "+ '.urt-strand-core{stroke:#F2784B;stroke-width:5.5;stroke-dasharray:20 20;}'"],
+    ["art is loaded onto the bench", "      var mini = self._svgEl('svg', { viewBox: '0 0 44 44', 'class': 'urt-mini', 'aria-hidden': 'true' });", "      var mini = self._svgEl('image', { href: '/image-library-webp/x.webp', 'class': 'urt-mini' });"],
   ['the tool declares tasks and becomes an activity', "    id: 'unroll-tape',", "    id: 'unroll-tape',\n    tasks: [],"],
   ['the tool starts POSTing somewhere', "fetch('/api/auth/me'", "fetch('/api/telemetry'"],
-  ['the shape book becomes random', 'return { shape: 0, A: this.A_PREF, t: 0, flag: null, committed: false };',
-    'return { shape: Math.floor(Math.random() * 5), A: this.A_PREF, t: 0, flag: null, committed: false };'],
+    ["the shape book becomes random", "      var made = mk(shape.params || {});", "      var made = mk(shape.params || {}); var _r = Math.random();"],
 
   /* ---- ENTITLEMENT + FALLBACK ---------------------------------------- */
   ['entitlement stops filtering the shelf', 'for (i = 0; i < all.length; i++) if (i < this.FREE_SHAPES || this.premium) out.push(all[i]);',
     'for (i = 0; i < all.length; i++) out.push(all[i]);'],
-  ['the offline fallback degrades to nothing', 'FALLBACK_SHAPES: {\n      version: 1, freeCount: 5,', 'FALLBACK_SHAPES: {\n      version: 1, freeCount: 0,'],
+    ["the offline fallback degrades to nothing", "          self.data = (d && d.shapes && d.shapes.length) ? d : self.FALLBACK_SHAPES;", "          self.data = (d && d.shapes && d.shapes.length) ? d : { shapes: [] };"],
 
   /* ---- ⭐ DEAD STRINGS (V16 must see a branch made unreachable) ------- */
-  ['the landed hint becomes unreachable', "if (this.st.t >= 1) line('hintLanded');", "if (false) line('hintLanded');"],
-  ['the guess hint becomes unreachable', "else if (this.st.t === 0 && this.st.flag === null) line('hintGuess');", "else if (false) line('hintGuess');"],
-  ['the gate body becomes unreachable', "p.textContent = api.t('gateBody');", "p.textContent = '';"]
+    ["the landed hint becomes unreachable", "        laid ? 'hintLanded' : (this.st.flags.length === 0 ? 'hintGuess' : 'hintUnroll'));", "        (this.st.flags.length === 0 ? 'hintGuess' : 'hintUnroll'));"],
+    ["the guess hint becomes unreachable", "        laid ? 'hintLanded' : (this.st.flags.length === 0 ? 'hintGuess' : 'hintUnroll'));", "        laid ? 'hintLanded' : 'hintUnroll');"],
+  ['the gate body becomes unreachable', "p.textContent = api.t('gateBody');", "p.textContent = '';"],
+  /* ---- ⭐ THE FLAG AND THE RECORD. The audit found that NOTHING in
+       this list removed the flag grip, the runway hit surface, the flag
+       graphic or the print block — so a tool that rendered NO FLAG AT ALL
+       was killed by nothing here, which is precisely what shipped. */
+  ["⭐ THE FLAG HANDLE IS NEVER RENDERED", "        var b = api.el('button', 'urt-handle urt-flag');", "        var b = api.el('span', 'urt-nothing');"],
+  ["⭐ the runway stops being a hit surface", "      strip.addEventListener('pointerdown', function (ev) { self._plantFrom(ev); });", "      strip.addEventListener('pointerdown', function () {});"],
+  ["⭐ the flag graphic loses its cloth", "      var cloth = api.el('i', 'urt-fl-cloth');", "      var cloth = api.el('i', 'urt-fl-nothing');"],
+  ["the print sheet block is removed", "      + '@media print{'", "      + '@media speech{'"],
+  ["⭐ the paint memo outlives the node it describes", "      this._okey = null; this._skey = null;\n      stage.innerHTML = '';", "      stage.innerHTML = '';"],
+  ["the record marks a GUESS instead of a landing", "      this.marks = this.addMark(this.marks, sh.k, o.R);", "      this.marks = this.addMark(this.marks, sh.k, (this.st.flags[0] || o.R));"],
+  ["two marks at one place stop staggering", "          if (Math.abs(placed[j].x - x) < this.MINI_W + 4 && placed[j].row === row) { row++; j = -1; }", "          if (false) { row++; j = -1; }"],
+  ["a fourth flag is accepted", "      if (s.flags.length >= this.MAX_FLAGS) return null;", "      if (s.flags.length >= 99) return null;"],
+  ["the miniatures stop being one width", "    miniPoints: function (o, cx, baseY) {\n      if (!o) return [];\n      var s = this.MINI_W / o.across, out = [], i;", "    miniPoints: function (o, cx, baseY) {\n      if (!o) return [];\n      var s = this.MINI_W / o.tall, out = [], i;"],
+  ["the runway stops outrunning the answer", "    GUESS_ROOM: 0.85,", "    GUESS_ROOM: 0,"]
 ];
 
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'urt-mut-'));
 for (const f of CARRY) fs.copyFileSync(path.join(TOOLS, f), path.join(tmp, f));
 
-let killed = 0;
+let killed = 0, browserKills = 0;
+const BROWSER_TIMEOUT = 240000;
 const survived = [], harness = [];
 
 for (const [name, from, to] of M) {
@@ -130,14 +142,38 @@ for (const [name, from, to] of M) {
     died = true;
     why = (e.signal === 'SIGTERM' || /ETIMEDOUT/.test(String(e.code))) ? 'TIMEOUT' : 'gate';
   }
-  if (died && why === 'TIMEOUT') survived.push(`${name} (the gate HUNG — that is a survival)`);
-  else if (died) killed++;
-  else survived.push(name);
+  if (died && why === 'TIMEOUT') { survived.push(`${name} (the gate HUNG — that is a survival)`); continue; }
+  if (died) { killed++; continue; }
+
+  /* ⭐⭐ ESCALATE TO THE BROWSER. This harness ran ONLY the model gate, so
+     every claim about the RENDER had zero mutation coverage — no needle
+     removed the flag handle, the runway hit surface, the flag graphic or
+     the print block, and a tool that drew NO FLAG AT ALL was killed by
+     nothing here. That is exactly what shipped. Only verify-survivors pay
+     the browser cost, so the common case stays fast. */
+  let browserDied = false;
+  try {
+    execFileSync(process.execPath, [path.join(__dirname, 'local-test-unroll-tape.js')], {
+      env: Object.assign({}, process.env, { URT_TOOL_DIR: tmp }),
+      timeout: BROWSER_TIMEOUT, stdio: 'pipe'
+    });
+  } catch (e) {
+    /* ⚠ A HANG IS A SURVIVAL, NOT A KILL — a gate that never finishes has
+       judged nothing, and counting it as a kill is how a mutation slips. */
+    if (e.signal === 'SIGTERM' || /ETIMEDOUT/.test(String(e.code))) {
+      survived.push(`${name} (the browser gate HUNG — that is a survival)`);
+      continue;
+    }
+    browserDied = true;
+  }
+  if (browserDied) { killed++; browserKills++; continue; }
+  survived.push(name);
 }
 
 try { fs.rmSync(tmp, { recursive: true, force: true }); } catch (_) { }
 
 console.log(`mutations: ${M.length}   killed: ${killed}   survived: ${survived.length}   harness faults: ${harness.length}`);
+console.log(`  ${browserKills} of those were killed ONLY by the browser gate — coverage this harness did not have`);
 if (harness.length) { console.error('\nHARNESS FAULTS (a mutation that was never actually tested):'); for (const h of harness) console.error('  ' + h); }
 if (survived.length) { console.error('\nSURVIVED (verify-unroll-tape.js does not see these):'); for (const s of survived) console.error('  ' + s); }
 if (survived.length || harness.length) process.exit(1);

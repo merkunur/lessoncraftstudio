@@ -1087,28 +1087,28 @@
   "unroll-tape": {
     "slug": "mittaa-kuvion-ympari-alkuopetus",
     "name": "Ympäri ja suoraksi",
-    "tagline": "Lanka kulkee kuvion ympäri ja asettuu sitten suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin — ympyrällä tulee aina kolme ja vähän päälle.",
+    "tagline": "Naru kulkee kuvion ympäri ja asettuu sitten suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin — ympyrällä tulee aina kolme ja vähän päälle.",
     "about": [
-      "Litteä kuvio seisoo viivalla. Sen reunan ympäri kulkee lanka. Vedä langan päästä: se liukuu kuviolta pois ja asettuu suoraksi kaistalle, täsmälleen yhtä pitkänä kuin se oli kaarella. Kaistaa ei ole jaettu mihinkään sovittuun mittaan, vaan kuvion omaan leveyteen, jonka kaksi pientä viivaa sen alla näyttävät.",
-      "Kaarevan pituuden muuttaminen suoraksi on ainoa alkuopetuksen mittaamisen vaihe, josta ei ole olemassa pysähtynyttä kuvaa. Oikealla langalla sen tekee kerran, ja juuri siksi sitä ei melkein koskaan tehdä kahdesti: lanka menee solmuun, tunti loppuu, hetki ei tule uudelleen. Tästä rutiinista ei ole vaikuttavuustutkimusta emmekä sellaista väitä; työkalu tekee hetkestä toistettavan.",
-      "Ja sitten luku. Ympyrän lanka yltää vähän kolmannen viivan yli. Suurenna ympyrää: kaikki kasvaa mukana — reuna, lanka, viivat — ja langan pää jää samojen kahden viivan väliin. Kolme ja vähän päälle, jokaisella ympyrällä mitä on olemassa. Ja kuvio joka ei selvästikään ole ympyrä, jolla on kolme kaarevaa sivua, antaa täsmälleen saman kolme ja vähän päälle.",
-      "Ennen kuin mikään liikkuu, luokka asettaa lipun siihen kohtaan, johon se arvelee langan yltävän. Lippu lukittuu heti kun lanka lähtee liikkeelle, eikä sitä koskaan korjata eikä pisteytetä: se jää siihen mihin se asetettiin, sen viereen mihin lanka päätyi. Mikään ruudulla ei sano kumpi on pidempi. Käyttöön ei tarvitse osata lukea: kuvio, lanka ja rivi numeroita. Viisi kuviota ja koko laitteisto ovat ilmaisia; loput seitsemän ja tulostettava arkki kuuluvat Opettaja-tilaukseen."
+      "Litteä kuvio seisoo viivalla. Sen reunan ympäri kulkee naru. Vedä narun päästä: se liukuu kuviolta pois ja asettuu suoraksi kaistalle, täsmälleen yhtä pitkänä kuin se oli kaarella. Kaistaa ei ole jaettu mihinkään sovittuun mittaan, vaan kuvion omaan leveyteen, jonka kaksi pientä viivaa sen alla näyttävät.",
+      "Kaarevan pituuden muuttaminen suoraksi on ainoa alkuopetuksen mittaamisen vaihe, josta ei ole olemassa pysähtynyttä kuvaa. Oikealla narulla sen tekee kerran, ja juuri siksi sitä ei melkein koskaan tehdä kahdesti: naru menee solmuun, tunti loppuu, hetki ei tule uudelleen. Tästä rutiinista ei ole vaikuttavuustutkimusta emmekä sellaista väitä; työkalu tekee hetkestä toistettavan.",
+      "Ja sitten luku. Ympyrän naru yltää vähän kolmannen viivan yli. Suurenna ympyrää: kaikki kasvaa mukana — reuna, naru, viivat — ja narun pää jää samojen kahden viivan väliin. Kolme ja vähän päälle, jokaisella ympyrällä mitä on olemassa. Ja kuvio joka ei selvästikään ole ympyrä, jolla on kolme kaarevaa sivua, antaa täsmälleen saman kolme ja vähän päälle.",
+      "Ennen kuin mikään liikkuu, luokka asettaa lipun siihen kohtaan, johon se arvelee narun yltävän. Lippu lukittuu heti kun naru lähtee liikkeelle, eikä sitä koskaan korjata eikä pisteytetä: se jää siihen mihin se asetettiin, sen viereen mihin naru päätyi. Mikään ruudulla ei sano kumpi on pidempi. Käyttöön ei tarvitse osata lukea: kuvio, naru ja rivi numeroita. Viisi kuviota ja koko laitteisto ovat ilmaisia; loput seitsemän ja tulostettava arkki kuuluvat Opettaja-tilaukseen."
     ],
     "howToUse": [
       "Nosta kuvio esiin ja kysy, kuinka pitkä matka on kuvion ympäri, ennen kuin mikään liikkuu.",
-      "Anna lapsen vetää lippu siihen kohtaan, johon hän arvelee langan yltävän, ja jätä se siihen.",
-      "Vedä langan päästä hitaasti, jotta luokka näkee sen lähtevän kaarelta ja saapuvan kaistalle.",
-      "⭐ Suurenna nyt kuviota paljon ja anna langan asettua uudelleen: luku ei muutu. Tätä varten koko työkalu on olemassa.",
+      "Anna lapsen vetää lippu siihen kohtaan, johon hän arvelee narun yltävän, ja jätä se siihen.",
+      "Vedä narun päästä hitaasti, jotta luokka näkee sen lähtevän kaarelta ja saapuvan kaistalle.",
+      "⭐ Suurenna nyt kuviota paljon ja anna narun asettua uudelleen: luku ei muutu. Tätä varten koko työkalu on olemassa.",
       "Aseta sitten kolmikaarinen kuvio ympyrän viereen ja anna luokan selittää, miksi ne antavat saman.",
-      "Vertaa lankaa sen alla olevaan lyhyempään palkkiin, joka on kuvion korkeus, äläkä sano mitään siitä kumpi on pidempi."
+      "Nosta seuraava kuvio esiin: edellisen merkki jää kaistalle ja sen alle pienoiskuva kuviosta. Jokainen pienoiskuva on yhtä leveä, joten luokka näkee heti, että kolmikulmainen kaari pysähtyy täsmälleen ympyrän merkin kohdalle."
     ],
     "classroomIdeas": [
-      "Arvatkaa ensin: jokainen kirjoittaa, montako leveyttä odottaa, ennen kuin lanka liikkuu.",
-      "Kaksi kuviota, yksi kysymys — kuu on matalampi kuin muna ja vie enemmän lankaa. Miten niin?",
-      "Antakaa tavoite: säädä kuvio niin, että lanka päättyy täsmälleen neljänteen viivaan.",
+      "Arvatkaa ensin: jokainen kirjoittaa, montako leveyttä odottaa, ennen kuin naru liikkuu.",
+      "Kaksi kuviota, yksi kysymys — kuu on matalampi kuin muna ja vie enemmän narua. Miten niin?",
+      "Antakaa tavoite: etsikää kuvio, jonka naru pysähtyy vasta neljännen viivan jälkeen — ympyrä ei koskaan yllä sinne, mutta kuunsirppi ja silmä yltävät.",
       "Mitatkaa sama ympyrä kolmessa koossa ja kirjoittakaa kolme lukua allekkain taululle.",
-      "Tehkää se sen jälkeen paperilla oikealla langalla kannen ympäri ja vertailkaa.",
-      "Kysykää, mikä kuvio vie eniten lankaa leveyteensä nähden, ja tarkistakaa — kukka näyttää yhtä pyöreältä kuin ympyrä."
+      "Tehkää se sen jälkeen paperilla oikealla narulla kannen ympäri ja vertailkaa.",
+      "Kysykää, mikä kuvio vie eniten narua leveyteensä nähden, ja tarkistakaa — kukka näyttää yhtä pyöreältä kuin ympyrä."
     ],
     "metaTitle": "Ympäri ja suoraksi – mittaa kuvion ympäri, 1.–2. lk",
     "metaDescription": "Lanka kulkee kuvion ympäri ja asettuu suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin. Ilmainen työkalu 1.–2. luokan älytaululle."

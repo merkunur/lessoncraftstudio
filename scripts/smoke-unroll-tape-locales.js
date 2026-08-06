@@ -14,6 +14,8 @@
 
 'use strict';
 const http = require('http');
+const COGNATE_OK = require('./_unroll-tape-cognates.js');
+const EXPECT_KEYS = Object.keys(require(require('path').join(__dirname, '..', 'mini tools', 'unroll-tape.js')).strings).length;
 const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
@@ -101,9 +103,18 @@ const MUST_PASS = [
 
     /* every key present, non-empty, and NOT an English fallback (bar en) */
     const missing = Object.keys(seen.strings).filter((k) => !seen.strings[k] || !String(seen.strings[k]).trim());
-    is(missing.length === 0, `${loc}: all 16 keys are authored` + (missing.length ? ` — empty: ${missing}` : ''));
+    /* ⚠⚠ ASSERT THE COUNT, NOT JUST THE ABSENCE OF HOLES. `missing` is
+       empty when the string set is empty, and every refusal below is a
+       regex over the JOINED values — which on an empty set is '', so the
+       no-unit / no-digit / no-bang / no-invisible checks all passed having
+       looked at nothing. The count is the anchor. */
+    is(Object.keys(seen.strings).length === EXPECT_KEYS,
+      `${loc}: all ${EXPECT_KEYS} keys are present (saw ${Object.keys(seen.strings).length})`);
+    is(missing.length === 0, `${loc}: and none is empty` + (missing.length ? ` — empty: ${missing}` : ''));
     if (loc !== 'en') {
-      const enFall = Object.keys(seen.strings).filter((k) => seen.strings[k] === (require(path.join(ROOT, 'unroll-tape.js')).strings[k].en));
+      const enFall = Object.keys(seen.strings).filter((k) =>
+        seen.strings[k] === (require(path.join(ROOT, 'unroll-tape.js')).strings[k].en) &&
+        COGNATE_OK[loc + '.' + k] === undefined);
       is(enFall.length === 0, `${loc}: no key falls back to English` + (enFall.length ? ` — ${enFall.join(', ')}` : ''));
     }
 

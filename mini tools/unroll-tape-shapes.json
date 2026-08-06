@@ -1,7 +1,13 @@
 {
-  "version": 1,
+  "version": 2,
   "freeCount": 5,
+  "_order": "PEDAGOGICAL, not arbitrary. The circle is first because it is the only shape whose UNIT is self-evident: on a flat ellipse a child can and will point at the short way, so the unit would have to be defended before it could do any work. The free five are the same five as before, only reordered, so no entitlement moves. In the paid seven, the cushion must sit immediately before the reuleaux: it is as tall as it is wide, visibly not a circle, and it lands PAST the circle, so the class arrives at the reuleaux holding the rule 'the further from a circle, the further along' and predicts further still. Barbier is a surprise only against an active wrong prediction.",
   "shapes": [
+    {
+      "k": "circle",
+      "family": "circle",
+      "params": {}
+    },
     {
       "k": "pebble",
       "family": "ellipse",
@@ -10,9 +16,11 @@
       }
     },
     {
-      "k": "circle",
-      "family": "circle",
-      "params": {}
+      "k": "eye",
+      "family": "ellipse",
+      "params": {
+        "q": 2.3
+      }
     },
     {
       "k": "egg",
@@ -27,13 +35,6 @@
       "params": {
         "r": 0.7,
         "d": 0.3870136357809074
-      }
-    },
-    {
-      "k": "eye",
-      "family": "ellipse",
-      "params": {
-        "q": 2.3
       }
     },
     {
@@ -52,17 +53,17 @@
       }
     },
     {
-      "k": "reuleaux",
-      "family": "reuleaux",
-      "params": {}
-    },
-    {
       "k": "cushion",
       "family": "superellipse",
       "params": {
         "n": 8,
         "q": 1
       }
+    },
+    {
+      "k": "reuleaux",
+      "family": "reuleaux",
+      "params": {}
     },
     {
       "k": "flower",

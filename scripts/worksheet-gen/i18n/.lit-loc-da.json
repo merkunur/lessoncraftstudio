@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Forlyd",
+      "instruction": "Skriv det bogstav, hvert billede begynder med."
+    },
+    "K-222": {
+      "title": "Store og små bogstaver",
+      "instruction": "Tegn en streg fra hvert stort bogstav til det lille bogstav."
+    },
+    "K-223": {
+      "title": "Manglende bogstaver",
+      "instruction": "Skriv de bogstaver, der mangler, så alfabetet bliver færdigt."
+    },
+    "K-224": {
+      "title": "Den manglende lyd",
+      "instruction": "Skriv det bogstav, der mangler, så hvert ord bliver færdigt."
+    },
+    "K-225": {
+      "title": "Find ordet til billedet",
+      "instruction": "Tegn en streg fra hvert ord til det billede, det hører til."
+    },
+    "K-226": {
+      "title": "Udlyd",
+      "instruction": "Skriv det bogstav, hvert billede ender på."
+    },
+    "K-227": {
+      "title": "Lyden i midten",
+      "instruction": "Skriv den vokal, du hører midt i hvert ord."
+    },
+    "K-228": {
+      "title": "Sortér efter forlyd",
+      "instruction": "Tegn en streg fra hvert billede til det bogstav, det begynder med."
+    },
+    "K-229": {
+      "title": "Find bogstavet",
+      "instruction": "Sæt en ring om hvert bogstav, der er magen til det i kassen."
+    },
+    "K-230": {
+      "title": "Vokaler og konsonanter",
+      "instruction": "Sortér hvert bogstav som vokal eller konsonant."
+    },
+    "K-231": {
+      "title": "Byg ordet",
+      "instruction": "Brug bogstaverne til at bygge ordet til hvert billede."
+    },
+    "K-232": {
+      "title": "Rim-par",
+      "instruction": "Tegn en streg mellem de to billeder, der rimer."
+    },
+    "K-233": {
+      "title": "Tæl stavelserne",
+      "instruction": "Skriv, hvor mange stavelser du hører i hvert ord."
+    },
+    "K-234": {
+      "title": "Sortér efter stavelser",
+      "instruction": "Tegn en streg fra hvert billede til antallet af stavelser."
+    },
+    "K-235": {
+      "title": "Sortér i grupper",
+      "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Når barnet siger den første lyd i hvert billede, opbygges den bogstav-lyd-viden, der er kernen i den tidlige læsning.",
+      "short": "Styrker forlyd og bogstav-lyd."
+    },
+    "letter-knowledge": {
+      "full": "At kende store og små bogstaver og deres rækkefølge giver barnet det alfabetkendskab, som den tidlige læsning bygger på.",
+      "short": "Styrker bogstavkendskab og alfabet."
+    },
+    "word-building": {
+      "full": "At lytte efter hver lyd og skrive det manglende bogstav opbygger de afkodningsfærdigheder, barnet bruger til at læse sine første ord.",
+      "short": "Styrker afkodning og ordbygning."
+    },
+    "picture-vocabulary": {
+      "full": "At sætte skrevne ord sammen med billeder opbygger den ordgenkendelse og det ordforråd, der gør bogstaver til mening.",
+      "short": "Styrker ordgenkendelse og ordforråd."
+    },
+    "phonological-awareness": {
+      "full": "At høre lydene og stavelserne inde i ordene opbygger den sproglige opmærksomhed, som flydende læsning afhænger af.",
+      "short": "Styrker sproglig opmærksomhed."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "forlyd",
+      "name": "Forlyd"
+    },
+    "letter-knowledge": {
+      "slug": "bogstavkendskab",
+      "name": "Bogstavkendskab"
+    },
+    "word-building": {
+      "slug": "ordbygning",
+      "name": "Ordbygning"
+    },
+    "picture-vocabulary": {
+      "slug": "ordforraad",
+      "name": "Ordforråd"
+    },
+    "phonological-awareness": {
+      "slug": "sproglig-opmaerksomhed",
+      "name": "Sproglig opmærksomhed"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Dyr",
+    "Fruits": "Frugt",
+    "Vehicles": "Køretøjer"
+  },
+  "vcLabels": {
+    "vowels": "Vokaler",
+    "consonants": "Konsonanter"
+  }
+}

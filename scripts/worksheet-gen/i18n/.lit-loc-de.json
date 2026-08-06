@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Anlaute",
+      "instruction": "Schreibe den Buchstaben, mit dem jedes Bild beginnt."
+    },
+    "K-222": {
+      "title": "Groß- und Kleinbuchstaben",
+      "instruction": "Verbinde jeden Großbuchstaben mit seinem Kleinbuchstaben."
+    },
+    "K-223": {
+      "title": "Fehlende Buchstaben",
+      "instruction": "Schreibe die fehlenden Buchstaben, um das Alphabet zu vervollständigen."
+    },
+    "K-224": {
+      "title": "Fehlender Laut",
+      "instruction": "Schreibe den fehlenden Buchstaben, um jedes Wort zu vervollständigen."
+    },
+    "K-225": {
+      "title": "Wort und Bild verbinden",
+      "instruction": "Verbinde jedes Wort mit dem passenden Bild."
+    },
+    "K-226": {
+      "title": "Auslaute",
+      "instruction": "Schreibe den Buchstaben, mit dem jedes Bild endet."
+    },
+    "K-227": {
+      "title": "Inlaute",
+      "instruction": "Schreibe den Selbstlaut, den du in der Mitte jedes Wortes hörst."
+    },
+    "K-228": {
+      "title": "Nach Anlaut sortieren",
+      "instruction": "Verbinde jedes Bild mit dem Buchstaben, mit dem es beginnt."
+    },
+    "K-229": {
+      "title": "Finde den Buchstaben",
+      "instruction": "Kreise jeden Buchstaben ein, der zu dem im Kästchen passt."
+    },
+    "K-230": {
+      "title": "Selbstlaute und Mitlaute",
+      "instruction": "Sortiere jeden Buchstaben zu den Selbstlauten oder den Mitlauten."
+    },
+    "K-231": {
+      "title": "Wörter bauen",
+      "instruction": "Baue mit den Buchstaben das Wort zu jedem Bild."
+    },
+    "K-232": {
+      "title": "Reimpaare",
+      "instruction": "Verbinde die beiden Bilder, die sich reimen."
+    },
+    "K-233": {
+      "title": "Silben zählen",
+      "instruction": "Schreibe, wie viele Silben du in jedem Wort hörst."
+    },
+    "K-234": {
+      "title": "Nach Silben sortieren",
+      "instruction": "Verbinde jedes Bild mit der Anzahl seiner Silben."
+    },
+    "K-235": {
+      "title": "Nach Kategorien sortieren",
+      "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Den ersten Laut in jedem Bild zu benennen baut das Buchstaben-Laut-Wissen auf, das im Zentrum des ersten Lesens steht.",
+      "short": "Fördert Anlaute und Buchstaben-Laut-Zuordnung."
+    },
+    "letter-knowledge": {
+      "full": "Groß- und Kleinbuchstaben und ihre Reihenfolge zu erkennen baut das Alphabetwissen auf, auf dem das frühe Lesen aufbaut.",
+      "short": "Fördert Buchstabenerkennung und Alphabetwissen."
+    },
+    "word-building": {
+      "full": "Auf jeden Laut zu hören und den fehlenden Buchstaben zu schreiben baut die Lesefähigkeiten auf, mit denen Kinder ihre ersten Wörter lesen.",
+      "short": "Fördert Lautieren und Wortaufbau."
+    },
+    "picture-vocabulary": {
+      "full": "Geschriebene Wörter ihren Bildern zuzuordnen baut den Wortschatz und das Worterkennen auf, das aus Buchstaben Bedeutung macht.",
+      "short": "Fördert Worterkennung und Wortschatz."
+    },
+    "phonological-awareness": {
+      "full": "Die Laute und Silben in Wörtern zu hören baut die phonologische Bewusstheit auf, auf die flüssiges Lesen angewiesen ist.",
+      "short": "Fördert die phonologische Bewusstheit."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "anlaute",
+      "name": "Anlaute"
+    },
+    "letter-knowledge": {
+      "slug": "buchstaben-erkennen",
+      "name": "Buchstaben erkennen"
+    },
+    "word-building": {
+      "slug": "woerter-bauen",
+      "name": "Wörter bauen"
+    },
+    "picture-vocabulary": {
+      "slug": "wortschatz-mit-bildern",
+      "name": "Wortschatz mit Bildern"
+    },
+    "phonological-awareness": {
+      "slug": "laute-und-silben",
+      "name": "Laute & Silben"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Tiere",
+    "Fruits": "Obst",
+    "Vehicles": "Fahrzeuge"
+  },
+  "vcLabels": {
+    "vowels": "Selbstlaute",
+    "consonants": "Mitlaute"
+  }
+}

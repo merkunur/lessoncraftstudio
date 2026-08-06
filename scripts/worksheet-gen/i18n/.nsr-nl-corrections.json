@@ -1,0 +1,12 @@
+{
+  "locale": "nl",
+  "text": {
+    "strings": {
+      "G1-205": {
+        "title": "De buitenkant van dieren"
+      }
+    }
+  },
+  "slug": {},
+  "notes": "Only one change. G1-205 loc_title 'De huid van dieren' = 'the SKIN of animals', but the worksheet sorts fur/feathers/scales (Vacht/Veren/Schubben) = body coverings, not skin (feathers/scales are not 'huid'). 'De buitenkant van dieren' (the outside of animals) is accurate, K-natural, and matches the bins. Everything else reviewed and kept: literacy terminology (beginklanken/eindklanken/middenklanken/lettergrepen/klinkers/medeklinkers/fonologisch bewustzijn/verklanken/letter-klankkoppeling) all correct K-register; 'Zet een kring om' (K-229) acceptable NL (Flemish 'omcirkel' also fine, not changed conservatively); generic masculine 'zijn jong'/'hij gebruikt' (K-205/K-213) is standard didactic NL; K-210 expanded instruction 'rijdt, vaart of vliegt' is excellent; all slugs clean lowercase-hyphen-ASCII; all binLabels (Zoogdieren/Vogels/Reptielen, Vacht/Veren/Schubben, Planteneters/Vleeseters, Granen/Eiwitten, Gemaakt door mensen, Nodig hebben/Willen hebben) accurate."
+}

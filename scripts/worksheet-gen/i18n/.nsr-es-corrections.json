@@ -1,0 +1,6 @@
+{
+  "locale": "es",
+  "text": {},
+  "slug": {},
+  "notes": "Full native-speaker QA pass of all Spanish strings (literacy K-221..K-235, science K-201..K-214/G1-201..G1-207, all families, categoryLabels, vcLabels, and all science binLabels). No genuine corrections needed. Quality is consistently native and K-2 appropriate. Highlights confirming the work is sound: terminology is correct and child-register (sonidos iniciales/finales/del medio, sílabas, vocales/consonantes, abecedario, conciencia fonológica); science adaptations are idiomatic and curriculum-aware (en_skill 'early science' rendered as 'conocimiento del medio', the real ES Educacion Infantil/Primaria subject name; 'Community Helpers' -> 'profesiones'; 'Animal Coverings' -> 'El cuerpo de los animales'); bin labels agree correctly (Sanos/No sanos plural with alimentos; Herbivoros/Carnivoros for G1; Mamiferos/Aves/Reptiles). All slugs are correctly lowercased, hyphenated and ASCII-folded (conciencia-fonologica, clasificar-ciencias, secuencias-ciclos-de-vida, relacionar-ciencias). Minor non-issues considered but deliberately NOT flagged (conservative): living-vs-nonliving bins 'Ser vivo'/'No vivo' are singular while the worksheet title is plural, but singular category headers are standard and acceptable for sorting bins; 'del medio' for middle sounds is informal but correct and child-friendly."
+}

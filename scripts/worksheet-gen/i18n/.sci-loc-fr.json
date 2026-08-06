@@ -1,0 +1,182 @@
+{
+  "locale": "fr",
+  "strand": "Questionner le monde",
+  "families": {
+    "science-sort": {
+      "name": "Tri en sciences",
+      "slug": "tri-en-sciences"
+    },
+    "science-sequence": {
+      "name": "Ordre et cycles de vie",
+      "slug": "ordre-et-cycles-de-vie"
+    },
+    "science-match": {
+      "name": "Associations en sciences",
+      "slug": "associations-en-sciences"
+    }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Range les animaux",
+      "instruction": "Relie chaque animal au groupe auquel il appartient.",
+      "bins": {
+        "mammals": "Mammifères",
+        "birds": "Oiseaux",
+        "reptiles": "Reptiles"
+      }
+    },
+    "G1-202": {
+      "title": "Où vivent les animaux ?",
+      "instruction": "Relie chaque animal à l'endroit où il vit.",
+      "bins": {
+        "land": "Terre",
+        "water": "Eau",
+        "air": "Air"
+      }
+    },
+    "G1-203": {
+      "title": "Le cycle de vie de la poule",
+      "instruction": "Écris 1, 2, 3 pour remettre les images dans le bon ordre."
+    },
+    "G1-204": {
+      "title": "Flotte ou coule ?",
+      "instruction": "Relie chaque objet au groupe qui te semble correct.",
+      "bins": {
+        "float": "Flotte",
+        "sink": "Coule"
+      }
+    },
+    "G1-205": {
+      "title": "Le corps des animaux",
+      "instruction": "Relie chaque animal à ce qui recouvre son corps.",
+      "bins": {
+        "fur": "Poils",
+        "feathers": "Plumes",
+        "scales": "Écailles"
+      }
+    },
+    "G1-206": {
+      "title": "Que mangent les animaux ?",
+      "instruction": "Relie chaque animal au groupe auquel il appartient.",
+      "bins": {
+        "plant": "Herbivores",
+        "meat": "Carnivores"
+      }
+    },
+    "G1-207": {
+      "title": "Les quatre groupes d'aliments",
+      "instruction": "Relie chaque aliment à son groupe.",
+      "bins": {
+        "fruits": "Fruits",
+        "vegetables": "Légumes",
+        "grains": "Céréales",
+        "protein": "Protéines"
+      }
+    },
+    "K-201": {
+      "title": "Vivant ou non-vivant",
+      "instruction": "Relie chaque image au groupe auquel elle appartient.",
+      "bins": {
+        "living": "Vivant",
+        "nonliving": "Non-vivant"
+      }
+    },
+    "K-202": {
+      "title": "Fruits et légumes",
+      "instruction": "Relie chaque aliment au groupe auquel il appartient.",
+      "bins": {
+        "fruits": "Fruits",
+        "vegetables": "Légumes"
+      }
+    },
+    "K-203": {
+      "title": "Aliments sains et moins sains",
+      "instruction": "Relie chaque aliment au groupe auquel il appartient.",
+      "bins": {
+        "healthy": "Sain",
+        "unhealthy": "Moins sain"
+      }
+    },
+    "K-204": {
+      "title": "Animaux domestiques et animaux sauvages",
+      "instruction": "Relie chaque animal au groupe auquel il appartient.",
+      "bins": {
+        "pets": "Animaux domestiques",
+        "wild": "Animaux sauvages"
+      }
+    },
+    "K-205": {
+      "title": "Les bébés animaux",
+      "instruction": "Relie chaque animal adulte à son petit."
+    },
+    "K-206": {
+      "title": "Ce qui vole",
+      "instruction": "Relie chaque image au groupe auquel elle appartient.",
+      "bins": {
+        "canfly": "Peut voler",
+        "cannot": "Ne peut pas voler"
+      }
+    },
+    "K-207": {
+      "title": "Vêtements d'été et d'hiver",
+      "instruction": "Relie chaque vêtement au bon groupe.",
+      "bins": {
+        "summer": "Été",
+        "winter": "Hiver"
+      }
+    },
+    "K-208": {
+      "title": "Le jour et la nuit",
+      "instruction": "Relie chaque image au groupe auquel elle appartient.",
+      "bins": {
+        "day": "Jour",
+        "night": "Nuit"
+      }
+    },
+    "K-209": {
+      "title": "Animaux de la ferme et animaux sauvages",
+      "instruction": "Relie chaque animal au groupe auquel il appartient.",
+      "bins": {
+        "farm": "Animaux de la ferme",
+        "wild": "Animaux sauvages"
+      }
+    },
+    "K-210": {
+      "title": "Transports sur terre, sur l'eau et dans l'air",
+      "instruction": "Relie chaque véhicule à l'endroit où il se déplace.",
+      "bins": {
+        "land": "Terre",
+        "water": "Eau",
+        "air": "Air"
+      }
+    },
+    "K-211": {
+      "title": "Chaud et froid",
+      "instruction": "Relie chaque image au groupe auquel elle appartient.",
+      "bins": {
+        "hot": "Chaud",
+        "cold": "Froid"
+      }
+    },
+    "K-212": {
+      "title": "Besoins et envies",
+      "instruction": "Relie chaque image au groupe auquel elle appartient.",
+      "bins": {
+        "needs": "Besoins",
+        "wants": "Envies"
+      }
+    },
+    "K-213": {
+      "title": "Les métiers et leurs outils",
+      "instruction": "Relie chaque personne à l'outil qu'elle utilise."
+    },
+    "K-214": {
+      "title": "Naturel ou fabriqué",
+      "instruction": "Relie chaque image au groupe auquel elle appartient.",
+      "bins": {
+        "natural": "Naturel",
+        "manmade": "Fabriqué par l'homme"
+      }
+    }
+  }
+}

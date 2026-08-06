@@ -1,0 +1,109 @@
+{
+  "locale": "no",
+  "text": {
+    "strings": {
+      "K-201": {
+        "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+      },
+      "K-202": {
+        "title": "Frukt og grønnsaker",
+        "instruction": "Trekk en strek fra hver matvare til gruppen den hører til."
+      },
+      "K-203": {
+        "instruction": "Trekk en strek fra hver matvare til gruppen den hører til."
+      },
+      "K-204": {
+        "title": "Kjæledyr og ville dyr",
+        "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
+      },
+      "K-205": {
+        "instruction": "Trekk en strek fra hvert voksent dyr til ungen sin."
+      },
+      "K-206": {
+        "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+      },
+      "K-207": {
+        "title": "Sommerklær og vinterklær",
+        "instruction": "Trekk en strek fra hvert klesplagg til riktig gruppe."
+      },
+      "K-208": {
+        "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+      },
+      "K-209": {
+        "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
+      },
+      "K-210": {
+        "title": "Transport på land, vann og i luft",
+        "instruction": "Trekk en strek fra hvert kjøretøy til der det ferdes."
+      },
+      "K-211": {
+        "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+      },
+      "K-212": {
+        "title": "Ønsker og behov",
+        "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+      },
+      "K-213": {
+        "instruction": "Trekk en strek fra hver yrkesperson til redskapet de bruker."
+      },
+      "K-214": {
+        "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
+      },
+      "G1-201": {
+        "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
+      },
+      "G1-202": {
+        "instruction": "Trekk en strek fra hvert dyr til der det bor."
+      },
+      "G1-203": {
+        "title": "Livssyklusen til en høne",
+        "instruction": "Skriv 1, 2, 3 for å sette bildene i riktig rekkefølge."
+      },
+      "G1-204": {
+        "instruction": "Trekk en strek fra hver ting til gruppen du tror den hører til."
+      },
+      "G1-205": {
+        "instruction": "Trekk en strek fra hvert dyr til det som dekker kroppen."
+      },
+      "G1-206": {
+        "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
+      },
+      "G1-207": {
+        "instruction": "Trekk en strek fra hver matvare til matvaregruppen sin."
+      }
+    },
+    "skillFull": {
+      "science-sequence": "Å legge bildene i riktig rekkefølge hjelper barn å forstå hvordan levende ting vokser og endrer seg."
+    },
+    "skillShort": {},
+    "familyName": {
+      "science-sequence": "Rekkefølge og livssykluser"
+    },
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {
+      "animal-coverings.json": {
+        "feathers": "Fjær"
+      },
+      "food-groups.json": {
+        "vegetables": "Grønnsaker"
+      },
+      "fruits-vs-vegetables.json": {
+        "vegetables": "Grønnsaker"
+      },
+      "pets-vs-wild-animals.json": {
+        "pets": "Kjæledyr"
+      },
+      "wants-vs-needs.json": {
+        "wants": "Ønsker"
+      },
+      "what-animals-eat.json": {
+        "meat": "Kjøttetere"
+      }
+    }
+  },
+  "slug": {
+    "science-sequence": "rekkefoelge-og-livssykluser"
+  },
+  "notes": "Main issue: the SCIENCE block had æ/ø/å stripped to plain ASCII across nearly every loc_title, loc_instruction, family loc_name/loc_skill_full, and several sciBinLabels — but these are display strings, not slugs, so they MUST carry correct Bokmål characters. Restored: hører/grønnsaker/kjæledyr/sommerklær/vinterklær/kjøretøy/på/ønsker/høne/rekkefølge/livssyklusen/livssykluser/å sette/fjær/kjøttetere. The LITERACY block was already clean (correctly used æ/ø/å) and natural — no literacy text fixes needed; terminology (førstelyd/sistelyd/midtlyd/vokaler/konsonanter/stavelser/språklig bevissthet) is correct K-register Bokmål and slugs are correctly ae/oe/aa-folded. SLUG fix: science-sequence slug 'rekkefolge-…' kept a bare 'o' where the source ø should fold to 'oe' → 'rekkefoelge-og-livssykluser' (consistent with the foerstelyd/bildeordforraad/spraaklig folding convention already used). All other slugs valid. 'Trekk en strek' (science) vs 'Tegn en strek' (literacy) — both are natural Norwegian; left the existing inconsistency since each is correct in isolation, though a future harmonization to 'Trekk en strek' would read slightly more like a typical NO worksheet. Note 'Krypdyr' for Reptiles is the standard NO term — correct. 'Para sammen i naturfag' / 'Sortere i naturfag' family names are natural."
+}

@@ -1,0 +1,74 @@
+=== §4.B genericness + structural lints ===
+  -> all 2005 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/image-image (n=43): max 0.782 mean 0.258 #FAIL>=0.80=0 #WARN>=0.65=19 | P1-raw mean 0.126 | maxPair addition-image-image-clothing ~ addition-image-image-toys
+  addition/image-number (n=50): max 0.783 mean 0.241 #FAIL>=0.80=0 #WARN>=0.65=28 | P1-raw mean 0.124 | maxPair addition-image-number-4th-of-july ~ addition-image-number-vehicles
+  addition/mixed (n=50): max 0.489 mean 0.223 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.100 | maxPair addition-mixed-apparel-bw ~ addition-mixed-farm-bw
+  alphabet-train/null (n=37): max 0.506 mean 0.300 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair alphabet-train-forest-creatures ~ alphabet-train-toys
+  big-small/findBig (n=51): max 0.567 mean 0.291 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.107 | maxPair big-small-findbig-at-the-supermarket ~ big-small-findbig-winter
+  big-small/orderAsc (n=50): max 0.530 mean 0.291 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.118 | maxPair big-small-orderasc-at-the-supermarket ~ big-small-orderasc-tools
+  bingo/null (n=18): max 0.464 mean 0.261 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.090 | maxPair bingo-around-the-house-kindergarten ~ bingo-occupations-kindergarten
+  chart-count/null (n=43): max 0.479 mean 0.242 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.087 | maxPair chart-count-christmas ~ chart-count-thanksgiving
+  code-addition/null (n=47): max 0.558 mean 0.155 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.059 | maxPair code-addition-around-the-house-grade-2 ~ code-addition-colors-grade-2
+  code-addition/secret-word (n=47): max 0.595 mean 0.206 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.070 | maxPair code-addition-secret-word-summer ~ code-addition-secret-word-zoo-animals
+  crossword/null (n=44): max 0.527 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair crossword-bakery ~ crossword-furniture
+  find-and-count/letter-spotting (n=47): max 0.488 mean 0.244 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.100 | maxPair find-and-count-hospital-kindergarten ~ find-and-count-post-office
+  find-objects/find-odd (n=47): max 0.554 mean 0.290 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.101 | maxPair find-objects-find-odd-flowers-4fc0 ~ find-objects-find-odd-spring-18df
+  find-objects/i-spy (n=46): max 0.495 mean 0.288 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.092 | maxPair find-objects-i-spy-4th-of-july-a825 ~ find-objects-i-spy-hospital-cdaf
+  grid-match/null (n=47): max 0.540 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair grid-match-space-kindergarten ~ grid-match-weather-kindergarten
+  matching/letter (n=47): max 0.516 mean 0.281 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.109 | maxPair matching-letter-4th-of-july ~ matching-letter-spring
+  matching/name (n=44): max 0.509 mean 0.307 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair matching-name-emotions ~ matching-name-insects-and-bugs
+  math-puzzle/mixed (n=45): max 0.585 mean 0.214 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.086 | maxPair math-puzzle-occupations-grade-2 ~ math-puzzle-tree-grade-2
+  math-worksheet/three-symbols-add-sub (n=52): max 0.667 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=5 | P1-raw mean 0.114 | maxPair math-worksheet-colors ~ math-worksheet-occupations
+  missing-pieces/one-missing (n=48): max 0.569 mean 0.299 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair missing-pieces-emotions-kindergarten ~ missing-pieces-ocean-life-kindergarten
+  more-less/image-image (n=52): max 0.536 mean 0.294 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair more-less-space-preschool ~ more-less-winter-preschool
+  odd-one-out/cross-theme (n=49): max 0.533 mean 0.311 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair odd-one-out-cross-theme-4th-of-july ~ odd-one-out-cross-theme-vegetables
+  odd-one-out/same-theme (n=50): max 0.480 mean 0.252 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.113 | maxPair odd-one-out-birds-2 ~ odd-one-out-farm-animals
+  pattern-train/aab (n=49): max 0.556 mean 0.332 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair pattern-train-aab-4th-of-july ~ pattern-train-aab-zoo-animals
+  pattern-train/aabb (n=50): max 0.563 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair pattern-train-aabb-colors ~ pattern-train-aabb-winter
+  pattern-train/abb (n=50): max 0.616 mean 0.352 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.114 | maxPair pattern-train-abb-space ~ pattern-train-abb-vegetables
+  pattern-train/abc (n=50): max 0.591 mean 0.337 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.115 | maxPair pattern-train-abc-birds ~ pattern-train-abc-fruits
+  pattern-train/null (n=49): max 0.580 mean 0.328 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.101 | maxPair pattern-train-flowers ~ pattern-train-spring
+  pattern-worksheet/null (n=48): max 0.520 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair pattern-worksheet-clothing ~ pattern-worksheet-occupations
+  picture-sort/null (n=40): max 0.454 mean 0.238 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.082 | maxPair picture-sort-at-the-supermarket-vs-ocean-life ~ picture-sort-at-the-supermarket-vs-tree
+  picture-trail/pathway (n=48): max 0.515 mean 0.290 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair picture-trail-emotions-kindergarten ~ picture-trail-ocean-life-kindergarten
+  prepositions/multiplechoice (n=50): max 0.482 mean 0.230 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.093 | maxPair prepositions-multiplechoice-reptiles-and-amphibians ~ prepositions-multiplechoice-weather
+  shadow-match/find-shadow (n=48): max 0.509 mean 0.289 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.092 | maxPair shadow-match-activities-kindergarten ~ shadow-match-winter-kindergarten
+  subtraction/cross-out (n=49): max 0.488 mean 0.223 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.099 | maxPair subtraction-cross-out-animals-kindergarten ~ subtraction-cross-out-farm-animals
+  subtraction/find-subtrahend (n=41): max 0.498 mean 0.223 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.103 | maxPair subtraction-find-subtrahend-birds-2 ~ subtraction-find-subtrahend-easter
+  subtraction/image-number (n=45): max 0.459 mean 0.215 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.093 | maxPair subtraction-image-number-furniture ~ subtraction-image-number-toys
+  subtraction/mixed (n=45): max 0.477 mean 0.197 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.097 | maxPair subtraction-mixed-animals ~ subtraction-mixed-farm-animals
+  sudoku/medium (n=50): max 0.511 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair sudoku-medium-things-that-fly ~ sudoku-medium-tree
+  sudoku/null (n=50): max 0.500 mean 0.221 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.106 | maxPair sudoku-reptiles-and-amphibians ~ sudoku-weather
+  treasure-hunt/cardinal-arrows (n=48): max 0.637 mean 0.295 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.113 | maxPair treasure-hunt-ocean-life ~ treasure-hunt-winter
+  word-guess/easy (n=47): max 0.472 mean 0.224 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.090 | maxPair word-guess-easy-4th-of-july ~ word-guess-easy-spring
+  word-scramble/easy (n=47): max 0.544 mean 0.271 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair word-scramble-birds ~ word-scramble-hospital
+  wordsearch/null (n=46): max 0.544 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair wordsearch-4th-of-july ~ wordsearch-toys
+
+=== cross-class + within: ALL 2005 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.783","mean":"0.042","pairs":2009010,"over80":0,"over65":52,"over85":0,"maxPair":"addition-image-number-4th-of-july ~ addition-image-number-vehicles"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.783  addition-image-number-4th-of-july ~ addition-image-number-vehicles  (addition/image-number)
+  2. 0.782  addition-image-image-clothing ~ addition-image-image-toys  (addition/image-image)
+  3. 0.780  addition-image-number-insects-and-bugs ~ addition-image-number-vehicles  (addition/image-number)
+  4. 0.780  addition-image-number-flowers ~ addition-image-number-tools  (addition/image-number)
+  5. 0.779  addition-image-image-beach ~ addition-image-image-post-office  (addition/image-image)
+  6. 0.778  addition-image-image-animals-kindergarten ~ addition-image-image-music  (addition/image-image)
+  7. 0.777  addition-image-number-animals ~ addition-image-number-kitchen-tools  (addition/image-number)
+  8. 0.776  addition-image-image-birds-2 ~ addition-image-image-shapes  (addition/image-image)
+  9. 0.776  addition-image-image-birds ~ addition-image-image-reptiles-and-amphibians  (addition/image-image)
+  10. 0.774  addition-image-image-christmas ~ addition-image-image-things-that-fly  (addition/image-image)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.472  [addition-image-number-toys ~ subtraction-image-number-easter-bw (addition/image-number vs subtraction/image-number)]
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.783  [addition-image-number-4th-of-july ~ addition-image-number-vehicles]  -> PASS
+      all-pairs max:          0.783 #FAIL(>=0.80)=0 #WARN(>=0.65)=52  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.472  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

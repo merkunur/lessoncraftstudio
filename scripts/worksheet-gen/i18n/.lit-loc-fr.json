@@ -1,0 +1,117 @@
+{
+  "strings": {
+    "K-221": {
+      "title": "Sons initiaux",
+      "instruction": "Écris la lettre par laquelle commence chaque image."
+    },
+    "K-222": {
+      "title": "Majuscules et minuscules",
+      "instruction": "Relie chaque lettre majuscule à sa minuscule."
+    },
+    "K-223": {
+      "title": "Lettres manquantes",
+      "instruction": "Écris les lettres manquantes pour compléter l'alphabet."
+    },
+    "K-224": {
+      "title": "Le son manquant",
+      "instruction": "Écris la lettre manquante pour compléter chaque mot."
+    },
+    "K-225": {
+      "title": "Associe le mot à l'image",
+      "instruction": "Relie chaque mot à l'image qu'il nomme."
+    },
+    "K-226": {
+      "title": "Sons finaux",
+      "instruction": "Écris la lettre par laquelle se termine chaque image."
+    },
+    "K-227": {
+      "title": "Sons du milieu",
+      "instruction": "Écris la voyelle que tu entends au milieu de chaque mot."
+    },
+    "K-228": {
+      "title": "Classe par son initial",
+      "instruction": "Relie chaque image à la lettre par laquelle elle commence."
+    },
+    "K-229": {
+      "title": "Trouve la lettre",
+      "instruction": "Entoure chaque lettre identique à celle de la case."
+    },
+    "K-230": {
+      "title": "Voyelles et consonnes",
+      "instruction": "Classe chaque lettre dans les voyelles ou les consonnes."
+    },
+    "K-231": {
+      "title": "Construis le mot",
+      "instruction": "Utilise les lettres pour construire le mot de chaque image."
+    },
+    "K-232": {
+      "title": "Les rimes",
+      "instruction": "Relie les deux images qui riment."
+    },
+    "K-233": {
+      "title": "Compte les syllabes",
+      "instruction": "Écris combien de syllabes tu entends dans chaque mot."
+    },
+    "K-234": {
+      "title": "Classe par syllabes",
+      "instruction": "Relie chaque image à son nombre de syllabes."
+    },
+    "K-235": {
+      "title": "Classe par catégorie",
+      "instruction": "Relie chaque image au groupe auquel elle appartient."
+    }
+  },
+  "skillSentences": {
+    "beginning-sounds": {
+      "full": "Nommer le premier son de chaque image développe la connaissance des correspondances lettre-son, au cœur de l'apprentissage de la lecture.",
+      "short": "Développe le son initial et le lien lettre-son."
+    },
+    "letter-knowledge": {
+      "full": "Reconnaître les majuscules, les minuscules et leur ordre construit la connaissance de l'alphabet sur laquelle repose la lecture.",
+      "short": "Développe la reconnaissance des lettres."
+    },
+    "word-building": {
+      "full": "Écouter chaque son et écrire la lettre manquante développe le décodage que les enfants utilisent pour lire leurs premiers mots.",
+      "short": "Développe le décodage et l'écriture des mots."
+    },
+    "picture-vocabulary": {
+      "full": "Associer les mots écrits à leurs images développe la reconnaissance des mots et le vocabulaire qui donnent du sens aux lettres.",
+      "short": "Développe la reconnaissance des mots et le vocabulaire."
+    },
+    "phonological-awareness": {
+      "full": "Entendre les sons et les syllabes à l'intérieur des mots développe la conscience phonologique dont dépend une lecture fluide.",
+      "short": "Développe la conscience phonologique."
+    }
+  },
+  "taxonomy": {
+    "beginning-sounds": {
+      "slug": "sons-initiaux",
+      "name": "Sons initiaux"
+    },
+    "letter-knowledge": {
+      "slug": "connaissance-des-lettres",
+      "name": "Connaissance des lettres"
+    },
+    "word-building": {
+      "slug": "construction-de-mots",
+      "name": "Construction de mots"
+    },
+    "picture-vocabulary": {
+      "slug": "vocabulaire-en-images",
+      "name": "Vocabulaire en images"
+    },
+    "phonological-awareness": {
+      "slug": "conscience-phonologique",
+      "name": "Conscience phonologique"
+    }
+  },
+  "categoryLabels": {
+    "Animals": "Animaux",
+    "Fruits": "Fruits",
+    "Vehicles": "Véhicules"
+  },
+  "vcLabels": {
+    "vowels": "Voyelles",
+    "consonants": "Consonnes"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "locale": "de",
+  "text": {
+    "strings": {},
+    "skillFull": {
+      "beginning-sounds": "Den ersten Laut in jedem Bild zu benennen, baut das Buchstaben-Laut-Wissen auf, das im Zentrum des ersten Lesens steht.",
+      "letter-knowledge": "Groß- und Kleinbuchstaben und ihre Reihenfolge zu erkennen, baut das Alphabetwissen auf, auf dem das frühe Lesen aufbaut.",
+      "word-building": "Auf jeden Laut zu hören und den fehlenden Buchstaben zu schreiben, baut die Lesefähigkeiten auf, mit denen Kinder ihre ersten Wörter lesen.",
+      "picture-vocabulary": "Geschriebene Wörter ihren Bildern zuzuordnen, baut Wortschatz und Worterkennen auf, die aus Buchstaben Bedeutung machen.",
+      "phonological-awareness": "Die Laute und Silben in Wörtern zu hören, baut die phonologische Bewusstheit auf, auf die flüssiges Lesen angewiesen ist."
+    },
+    "skillShort": {},
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "5 fixes, all literacy skillFull: obligatory/strongly-recommended comma after subject infinitive group (zu-Infinitivgruppe) + picture-vocabulary relative-pronoun agreement (plural antecedent Wortschatz und Worterkennen -> 'die ... machen'). All titles, instructions, science strings, bin/category labels, vc-labels and slugs are native-correct and left untouched. High confidence."
+}

@@ -1,0 +1,526 @@
+{
+  "locale": "sv",
+  "_instructions": "Review the <loc> fields for native naturalness, K-2 register, terminology, grammar. en_* = English source for meaning only.",
+  "literacy": {
+    "strings": {
+      "K-221": {
+        "en_title": "Beginning Sounds",
+        "loc_title": "Första ljudet",
+        "en_instruction": "Write the letter that each picture begins with.",
+        "loc_instruction": "Skriv bokstaven som varje bild börjar med."
+      },
+      "K-222": {
+        "en_title": "Capital and Small Letters",
+        "loc_title": "Stora och små bokstäver",
+        "en_instruction": "Draw a line from each capital letter to its small letter.",
+        "loc_instruction": "Dra ett streck från varje stor bokstav till dess lilla bokstav."
+      },
+      "K-223": {
+        "en_title": "Missing Letters",
+        "loc_title": "Bokstäver som fattas",
+        "en_instruction": "Write the missing letters to finish the alphabet.",
+        "loc_instruction": "Skriv bokstäverna som fattas för att göra alfabetet färdigt."
+      },
+      "K-224": {
+        "en_title": "Missing Sound",
+        "loc_title": "Ljudet som fattas",
+        "en_instruction": "Write the missing letter to finish each word.",
+        "loc_instruction": "Skriv bokstaven som fattas för att göra varje ord färdigt."
+      },
+      "K-225": {
+        "en_title": "Match Word to Picture",
+        "loc_title": "Para ihop ord och bild",
+        "en_instruction": "Draw a line from each word to the picture it names.",
+        "loc_instruction": "Dra ett streck från varje ord till bilden det betyder."
+      },
+      "K-226": {
+        "en_title": "Ending Sounds",
+        "loc_title": "Sista ljudet",
+        "en_instruction": "Write the letter that each picture ends with.",
+        "loc_instruction": "Skriv bokstaven som varje bild slutar med."
+      },
+      "K-227": {
+        "en_title": "Middle Sounds",
+        "loc_title": "Ljudet i mitten",
+        "en_instruction": "Write the vowel you hear in the middle of each word.",
+        "loc_instruction": "Skriv vokalen du hör i mitten av varje ord."
+      },
+      "K-228": {
+        "en_title": "Sort by Beginning Sound",
+        "loc_title": "Sortera efter första ljudet",
+        "en_instruction": "Draw a line from each picture to the letter it begins with.",
+        "loc_instruction": "Dra ett streck från varje bild till bokstaven den börjar med."
+      },
+      "K-229": {
+        "en_title": "Find the Letter",
+        "loc_title": "Hitta bokstaven",
+        "en_instruction": "Circle every letter that matches the one in the box.",
+        "loc_instruction": "Ringa in varje bokstav som är lika med den i rutan."
+      },
+      "K-230": {
+        "en_title": "Vowels and Consonants",
+        "loc_title": "Vokaler och konsonanter",
+        "en_instruction": "Sort each letter into the vowels or the consonants.",
+        "loc_instruction": "Sortera varje bokstav till vokalerna eller konsonanterna."
+      },
+      "K-231": {
+        "en_title": "Build the Word",
+        "loc_title": "Bygg ordet",
+        "en_instruction": "Use the letters to build the word for each picture.",
+        "loc_instruction": "Använd bokstäverna för att bygga ordet till varje bild."
+      },
+      "K-232": {
+        "en_title": "Rhyming Pairs",
+        "loc_title": "Ord som rimmar",
+        "en_instruction": "Draw a line between the two pictures that rhyme.",
+        "loc_instruction": "Dra ett streck mellan de två bilderna som rimmar."
+      },
+      "K-233": {
+        "en_title": "Count the Syllables",
+        "loc_title": "Räkna stavelserna",
+        "en_instruction": "Write how many syllables you hear in each word.",
+        "loc_instruction": "Skriv hur många stavelser du hör i varje ord."
+      },
+      "K-234": {
+        "en_title": "Sort by Syllables",
+        "loc_title": "Sortera efter stavelser",
+        "en_instruction": "Draw a line from each picture to its number of syllables.",
+        "loc_instruction": "Dra ett streck från varje bild till antalet stavelser."
+      },
+      "K-235": {
+        "en_title": "Sort by Category",
+        "loc_title": "Sortera efter kategori",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      }
+    },
+    "families": {
+      "beginning-sounds": {
+        "en_name": "Beginning Sounds",
+        "loc_name": "Första ljudet",
+        "loc_slug": "forsta-ljudet",
+        "en_skill": "Naming the first sound in each picture builds the letter-sound knowledge at the heart of early reading.",
+        "loc_skill_full": "Att säga första ljudet i varje bild bygger den bokstav-ljud-kunskap som tidig läsning vilar på.",
+        "loc_skill_short": "Tränar första ljudet och bokstavsljud."
+      },
+      "letter-knowledge": {
+        "en_name": "Letter Knowledge",
+        "loc_name": "Bokstavskunskap",
+        "loc_slug": "bokstavskunskap",
+        "en_skill": "Recognizing capital and small letters and their order builds the alphabet knowledge early reading is built on.",
+        "loc_skill_full": "Att känna igen stora och små bokstäver och deras ordning bygger den alfabetskunskap som tidig läsning vilar på.",
+        "loc_skill_short": "Tränar bokstäver och alfabetet."
+      },
+      "word-building": {
+        "en_name": "Word Building",
+        "loc_name": "Bygga ord",
+        "loc_slug": "bygga-ord",
+        "en_skill": "Listening for each sound and writing the missing letter builds the decoding skills children use to read their first words.",
+        "loc_skill_full": "Att lyssna efter varje ljud och skriva bokstaven som fattas bygger den avkodning barn använder för att läsa sina första ord.",
+        "loc_skill_short": "Tränar avkodning och att bygga ord."
+      },
+      "picture-vocabulary": {
+        "en_name": "Picture Vocabulary",
+        "loc_name": "Bildordförråd",
+        "loc_slug": "bildordforrad",
+        "en_skill": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
+        "loc_skill_full": "Att para ihop skrivna ord med sina bilder bygger den ordförståelse och ordförråd som gör bokstäver till mening.",
+        "loc_skill_short": "Tränar ordigenkänning och ordförråd."
+      },
+      "phonological-awareness": {
+        "en_name": "Sounds & Syllables",
+        "loc_name": "Fonologisk medvetenhet",
+        "loc_slug": "fonologisk-medvetenhet",
+        "en_skill": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
+        "loc_skill_full": "Att höra ljuden och stavelserna inuti ord bygger den fonologiska medvetenhet som flytande läsning bygger på.",
+        "loc_skill_short": "Tränar fonologisk medvetenhet."
+      }
+    },
+    "categoryLabels": {
+      "Animals": {
+        "en": "Animals",
+        "loc": "Djur"
+      },
+      "Fruits": {
+        "en": "Fruits",
+        "loc": "Frukt"
+      },
+      "Vehicles": {
+        "en": "Vehicles",
+        "loc": "Fordon"
+      }
+    },
+    "vcLabels": {
+      "vowels": {
+        "en": "Vowels",
+        "loc": "Vokaler"
+      },
+      "consonants": {
+        "en": "Consonants",
+        "loc": "Konsonanter"
+      }
+    }
+  },
+  "science": {
+    "strings": {
+      "K-201": {
+        "en_title": "Living and Non-living Things",
+        "loc_title": "Levande och icke levande",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      },
+      "K-202": {
+        "en_title": "Fruits and Vegetables",
+        "loc_title": "Frukt och grönsaker",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje mat till gruppen den hör till."
+      },
+      "K-203": {
+        "en_title": "Healthy and Not-Healthy Foods",
+        "loc_title": "Nyttig och onyttig mat",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje mat till gruppen den hör till."
+      },
+      "K-204": {
+        "en_title": "Pets and Wild Animals",
+        "loc_title": "Husdjur och vilda djur",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje djur till gruppen det hör till."
+      },
+      "K-205": {
+        "en_title": "Animal Babies",
+        "loc_title": "Djurens ungar",
+        "en_instruction": "Draw a line from each grown-up animal to its baby.",
+        "loc_instruction": "Dra ett streck från varje vuxet djur till dess unge."
+      },
+      "K-206": {
+        "en_title": "Things That Fly",
+        "loc_title": "Saker som flyger",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      },
+      "K-207": {
+        "en_title": "Summer and Winter Clothes",
+        "loc_title": "Sommar- och vinterkläder",
+        "en_instruction": "Draw a line from each item of clothing to the right group.",
+        "loc_instruction": "Dra ett streck från varje klädesplagg till rätt grupp."
+      },
+      "K-208": {
+        "en_title": "Day and Night",
+        "loc_title": "Dag och natt",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      },
+      "K-209": {
+        "en_title": "Farm and Wild Animals",
+        "loc_title": "Lantbruksdjur och vilda djur",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje djur till gruppen det hör till."
+      },
+      "K-210": {
+        "en_title": "Land, Water, and Air Transportation",
+        "loc_title": "Transport på land, vatten och i luften",
+        "en_instruction": "Draw a line from each vehicle to where it travels.",
+        "loc_instruction": "Dra ett streck från varje fordon till platsen där det färdas."
+      },
+      "K-211": {
+        "en_title": "Hot and Cold",
+        "loc_title": "Varmt och kallt",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      },
+      "K-212": {
+        "en_title": "Wants and Needs",
+        "loc_title": "Behov och önskningar",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      },
+      "K-213": {
+        "en_title": "Community Helpers and Their Tools",
+        "loc_title": "Yrken och deras verktyg",
+        "en_instruction": "Draw a line from each helper to the tool they use.",
+        "loc_instruction": "Dra ett streck från varje yrkesperson till verktyget de använder."
+      },
+      "K-214": {
+        "en_title": "Natural and Man-made",
+        "loc_title": "Naturligt och tillverkat",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje bild till gruppen den hör till."
+      },
+      "G1-201": {
+        "en_title": "Sort the Animals",
+        "loc_title": "Sortera djuren",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje djur till gruppen det hör till."
+      },
+      "G1-202": {
+        "en_title": "Where Do Animals Live?",
+        "loc_title": "Var bor djuren?",
+        "en_instruction": "Draw a line from each animal to where it lives.",
+        "loc_instruction": "Dra ett streck från varje djur till platsen där det bor."
+      },
+      "G1-203": {
+        "en_title": "The Life Cycle of a Chicken",
+        "loc_title": "Hönans livscykel",
+        "en_instruction": "Write 1, 2, 3 to put the pictures in the right order.",
+        "loc_instruction": "Skriv 1, 2, 3 för att lägga bilderna i rätt ordning."
+      },
+      "G1-204": {
+        "en_title": "Sink or Float?",
+        "loc_title": "Sjunker eller flyter?",
+        "en_instruction": "Draw a line from each object to the group you think it belongs to.",
+        "loc_instruction": "Dra ett streck från varje föremål till gruppen du tror det hör till."
+      },
+      "G1-205": {
+        "en_title": "Animal Coverings",
+        "loc_title": "Djurens kroppshölje",
+        "en_instruction": "Draw a line from each animal to its body covering.",
+        "loc_instruction": "Dra ett streck från varje djur till dess kroppshölje."
+      },
+      "G1-206": {
+        "en_title": "What Animals Eat",
+        "loc_title": "Vad djuren äter",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Dra ett streck från varje djur till gruppen det hör till."
+      },
+      "G1-207": {
+        "en_title": "The Four Food Groups",
+        "loc_title": "De fyra matgrupperna",
+        "en_instruction": "Draw a line from each food to its food group.",
+        "loc_instruction": "Dra ett streck från varje mat till dess matgrupp."
+      }
+    },
+    "families": {
+      "science-sort": {
+        "en_name": "Science Sorting",
+        "loc_name": "Sortera i naturen",
+        "loc_slug": "sortera-i-naturen",
+        "en_skill": "Sorting pictures into the right groups builds the classifying and observing skills at the heart of early science.",
+        "loc_skill_full": "Att sortera bilder i rätt grupper utvecklar förmågan att observera och klassificera – grunden i de naturorienterande ämnena.",
+        "loc_skill_short": "Utvecklar att observera och sortera."
+      },
+      "science-sequence": {
+        "en_name": "Sequencing & Life Cycles",
+        "loc_name": "Ordningsföljd och livscykler",
+        "loc_slug": "ordningsfoljd-och-livscykler",
+        "en_skill": "Putting the pictures in order helps young learners understand sequence and how living things grow and change over time.",
+        "loc_skill_full": "Att lägga bilderna i rätt ordning hjälper barn att förstå hur levande saker växer och förändras.",
+        "loc_skill_short": "Utvecklar ordningsföljd och livscykler."
+      },
+      "science-match": {
+        "en_name": "Science Matching",
+        "loc_name": "Para ihop i naturen",
+        "loc_slug": "para-ihop-i-naturen",
+        "en_skill": "Matching each picture to its partner builds the reasoning children use to notice connections in the world around them.",
+        "loc_skill_full": "Att para ihop varje bild med sin partner utvecklar tänkandet för att upptäcka samband i naturen.",
+        "loc_skill_short": "Utvecklar parning och tänkande."
+      }
+    },
+    "binLabels": {
+      "animal-classification.json": {
+        "mammals": {
+          "en": "Mammals",
+          "loc": "Däggdjur"
+        },
+        "birds": {
+          "en": "Birds",
+          "loc": "Fåglar"
+        },
+        "reptiles": {
+          "en": "Reptiles",
+          "loc": "Reptiler"
+        }
+      },
+      "animal-coverings.json": {
+        "fur": {
+          "en": "Fur",
+          "loc": "Päls"
+        },
+        "feathers": {
+          "en": "Feathers",
+          "loc": "Fjädrar"
+        },
+        "scales": {
+          "en": "Scales",
+          "loc": "Fjäll"
+        }
+      },
+      "can-fly-vs-cannot.json": {
+        "canfly": {
+          "en": "Can Fly",
+          "loc": "Kan flyga"
+        },
+        "cannot": {
+          "en": "Cannot Fly",
+          "loc": "Kan inte flyga"
+        }
+      },
+      "day-vs-night.json": {
+        "day": {
+          "en": "Day",
+          "loc": "Dag"
+        },
+        "night": {
+          "en": "Night",
+          "loc": "Natt"
+        }
+      },
+      "farm-vs-wild-animals.json": {
+        "farm": {
+          "en": "Farm Animals",
+          "loc": "Lantbruksdjur"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Vilda djur"
+        }
+      },
+      "food-groups.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Frukt"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Grönsaker"
+        },
+        "grains": {
+          "en": "Grains",
+          "loc": "Spannmål"
+        },
+        "protein": {
+          "en": "Protein",
+          "loc": "Protein"
+        }
+      },
+      "fruits-vs-vegetables.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Frukt"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Grönsaker"
+        }
+      },
+      "healthy-vs-unhealthy-food.json": {
+        "healthy": {
+          "en": "Healthy",
+          "loc": "Nyttigt"
+        },
+        "unhealthy": {
+          "en": "Not Healthy",
+          "loc": "Onyttigt"
+        }
+      },
+      "hot-vs-cold.json": {
+        "hot": {
+          "en": "Hot",
+          "loc": "Varmt"
+        },
+        "cold": {
+          "en": "Cold",
+          "loc": "Kallt"
+        }
+      },
+      "land-water-air-animals.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Land"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Vatten"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Luft"
+        }
+      },
+      "living-vs-nonliving.json": {
+        "living": {
+          "en": "Living",
+          "loc": "Levande"
+        },
+        "nonliving": {
+          "en": "Non-living",
+          "loc": "Icke levande"
+        }
+      },
+      "natural-vs-manmade.json": {
+        "natural": {
+          "en": "Natural",
+          "loc": "Naturligt"
+        },
+        "manmade": {
+          "en": "Man-made",
+          "loc": "Tillverkat"
+        }
+      },
+      "pets-vs-wild-animals.json": {
+        "pets": {
+          "en": "Pets",
+          "loc": "Husdjur"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Vilda djur"
+        }
+      },
+      "sink-vs-float.json": {
+        "float": {
+          "en": "Float",
+          "loc": "Flyter"
+        },
+        "sink": {
+          "en": "Sink",
+          "loc": "Sjunker"
+        }
+      },
+      "summer-vs-winter-clothes.json": {
+        "summer": {
+          "en": "Summer",
+          "loc": "Sommar"
+        },
+        "winter": {
+          "en": "Winter",
+          "loc": "Vinter"
+        }
+      },
+      "transportation-land-water-air.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Land"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Vatten"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Luft"
+        }
+      },
+      "wants-vs-needs.json": {
+        "needs": {
+          "en": "Needs",
+          "loc": "Behov"
+        },
+        "wants": {
+          "en": "Wants",
+          "loc": "Önskningar"
+        }
+      },
+      "what-animals-eat.json": {
+        "plant": {
+          "en": "Plant Eaters",
+          "loc": "Växtätare"
+        },
+        "meat": {
+          "en": "Meat Eaters",
+          "loc": "Köttätare"
+        }
+      }
+    }
+  }
+}

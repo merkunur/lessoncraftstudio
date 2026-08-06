@@ -1,0 +1,16 @@
+{
+  "locale": "it",
+  "text": {
+    "strings": {
+      "K-227": { "title": "Suoni centrali" }
+    },
+    "skillFull": {},
+    "skillShort": {},
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "Only one conservative fix. K-227 title 'Suoni in mezzo' is understandable but weak/colloquial as a worksheet title; 'Suoni centrali' is the natural parallel to 'Suoni iniziali'/'Suoni finali' and reads better for a real IT teacher. The instruction ('in mezzo a ogni parola') is kept — natural idiomatic phrasing. Everything else passes native QA: terminology (suoni/sillabe/vocali/consonanti, consapevolezza fonologica) is correct; all accordo/grammar correct; K register appropriate; slugs lowercase/hyphenated/accent-free/sensible. Minor stylistic notes (NOT changed, conservative): science family 'Classifichiamo le scienze' is slightly literal ('classify the sciences') but acceptable as a warm K title; 'rivestimento del corpo' (G1-205 instruction) is correct if a touch formal for K but fine."
+}

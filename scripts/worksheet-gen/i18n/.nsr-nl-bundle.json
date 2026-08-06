@@ -1,0 +1,526 @@
+{
+  "locale": "nl",
+  "_instructions": "Review the <loc> fields for native naturalness, K-2 register, terminology, grammar. en_* = English source for meaning only.",
+  "literacy": {
+    "strings": {
+      "K-221": {
+        "en_title": "Beginning Sounds",
+        "loc_title": "Beginklanken",
+        "en_instruction": "Write the letter that each picture begins with.",
+        "loc_instruction": "Schrijf de letter waarmee elk plaatje begint."
+      },
+      "K-222": {
+        "en_title": "Capital and Small Letters",
+        "loc_title": "Hoofdletters en kleine letters",
+        "en_instruction": "Draw a line from each capital letter to its small letter.",
+        "loc_instruction": "Trek een lijn van elke hoofdletter naar de kleine letter."
+      },
+      "K-223": {
+        "en_title": "Missing Letters",
+        "loc_title": "Ontbrekende letters",
+        "en_instruction": "Write the missing letters to finish the alphabet.",
+        "loc_instruction": "Schrijf de ontbrekende letters om het alfabet af te maken."
+      },
+      "K-224": {
+        "en_title": "Missing Sound",
+        "loc_title": "Ontbrekende klank",
+        "en_instruction": "Write the missing letter to finish each word.",
+        "loc_instruction": "Schrijf de ontbrekende letter om elk woord af te maken."
+      },
+      "K-225": {
+        "en_title": "Match Word to Picture",
+        "loc_title": "Woord bij plaatje",
+        "en_instruction": "Draw a line from each word to the picture it names.",
+        "loc_instruction": "Trek een lijn van elk woord naar het plaatje dat erbij hoort."
+      },
+      "K-226": {
+        "en_title": "Ending Sounds",
+        "loc_title": "Eindklanken",
+        "en_instruction": "Write the letter that each picture ends with.",
+        "loc_instruction": "Schrijf de letter waarmee elk plaatje eindigt."
+      },
+      "K-227": {
+        "en_title": "Middle Sounds",
+        "loc_title": "Middenklanken",
+        "en_instruction": "Write the vowel you hear in the middle of each word.",
+        "loc_instruction": "Schrijf de klinker die je in het midden van elk woord hoort."
+      },
+      "K-228": {
+        "en_title": "Sort by Beginning Sound",
+        "loc_title": "Sorteren op beginklank",
+        "en_instruction": "Draw a line from each picture to the letter it begins with.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de letter waarmee het begint."
+      },
+      "K-229": {
+        "en_title": "Find the Letter",
+        "loc_title": "Zoek de letter",
+        "en_instruction": "Circle every letter that matches the one in the box.",
+        "loc_instruction": "Zet een kring om elke letter die hetzelfde is als die in het vak."
+      },
+      "K-230": {
+        "en_title": "Vowels and Consonants",
+        "loc_title": "Klinkers en medeklinkers",
+        "en_instruction": "Sort each letter into the vowels or the consonants.",
+        "loc_instruction": "Sorteer elke letter bij de klinkers of bij de medeklinkers."
+      },
+      "K-231": {
+        "en_title": "Build the Word",
+        "loc_title": "Bouw het woord",
+        "en_instruction": "Use the letters to build the word for each picture.",
+        "loc_instruction": "Gebruik de letters om het woord bij elk plaatje te bouwen."
+      },
+      "K-232": {
+        "en_title": "Rhyming Pairs",
+        "loc_title": "Rijmparen",
+        "en_instruction": "Draw a line between the two pictures that rhyme.",
+        "loc_instruction": "Trek een lijn tussen de twee plaatjes die op elkaar rijmen."
+      },
+      "K-233": {
+        "en_title": "Count the Syllables",
+        "loc_title": "Tel de lettergrepen",
+        "en_instruction": "Write how many syllables you hear in each word.",
+        "loc_instruction": "Schrijf hoeveel lettergrepen je in elk woord hoort."
+      },
+      "K-234": {
+        "en_title": "Sort by Syllables",
+        "loc_title": "Sorteren op lettergrepen",
+        "en_instruction": "Draw a line from each picture to its number of syllables.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar het juiste aantal lettergrepen."
+      },
+      "K-235": {
+        "en_title": "Sort by Category",
+        "loc_title": "Sorteren op groep",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      }
+    },
+    "families": {
+      "beginning-sounds": {
+        "en_name": "Beginning Sounds",
+        "loc_name": "Beginklanken",
+        "loc_slug": "beginklanken",
+        "en_skill": "Naming the first sound in each picture builds the letter-sound knowledge at the heart of early reading.",
+        "loc_skill_full": "Door de eerste klank van elk plaatje te benoemen leren kinderen de letter-klankkoppeling die de basis vormt van leren lezen.",
+        "loc_skill_short": "Oefent beginklanken en letterklanken."
+      },
+      "letter-knowledge": {
+        "en_name": "Letter Knowledge",
+        "loc_name": "Letterkennis",
+        "loc_slug": "letterkennis",
+        "en_skill": "Recognizing capital and small letters and their order builds the alphabet knowledge early reading is built on.",
+        "loc_skill_full": "Het herkennen van hoofdletters, kleine letters en hun volgorde bouwt de letterkennis op waarop leren lezen rust.",
+        "loc_skill_short": "Oefent letterherkenning en het alfabet."
+      },
+      "word-building": {
+        "en_name": "Word Building",
+        "loc_name": "Woorden bouwen",
+        "loc_slug": "woorden-bouwen",
+        "en_skill": "Listening for each sound and writing the missing letter builds the decoding skills children use to read their first words.",
+        "loc_skill_full": "Door naar elke klank te luisteren en de ontbrekende letter te schrijven oefenen kinderen het verklanken dat ze nodig hebben om hun eerste woorden te lezen.",
+        "loc_skill_short": "Oefent verklanken en woorden bouwen."
+      },
+      "picture-vocabulary": {
+        "en_name": "Picture Vocabulary",
+        "loc_name": "Woordenschat",
+        "loc_slug": "woordenschat",
+        "en_skill": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
+        "loc_skill_full": "Door geschreven woorden bij hun plaatje te zoeken bouwen kinderen de woordherkenning en woordenschat op die letters betekenis geven.",
+        "loc_skill_short": "Oefent woordherkenning en woordenschat."
+      },
+      "phonological-awareness": {
+        "en_name": "Sounds & Syllables",
+        "loc_name": "Klanken en lettergrepen",
+        "loc_slug": "fonologisch-bewustzijn",
+        "en_skill": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
+        "loc_skill_full": "Het horen van de klanken en lettergrepen in woorden bouwt het fonologisch bewustzijn op waarop vlot lezen steunt.",
+        "loc_skill_short": "Oefent fonologisch bewustzijn."
+      }
+    },
+    "categoryLabels": {
+      "Animals": {
+        "en": "Animals",
+        "loc": "Dieren"
+      },
+      "Fruits": {
+        "en": "Fruits",
+        "loc": "Fruit"
+      },
+      "Vehicles": {
+        "en": "Vehicles",
+        "loc": "Voertuigen"
+      }
+    },
+    "vcLabels": {
+      "vowels": {
+        "en": "Vowels",
+        "loc": "Klinkers"
+      },
+      "consonants": {
+        "en": "Consonants",
+        "loc": "Medeklinkers"
+      }
+    }
+  },
+  "science": {
+    "strings": {
+      "K-201": {
+        "en_title": "Living and Non-living Things",
+        "loc_title": "Levend en niet-levend",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      },
+      "K-202": {
+        "en_title": "Fruits and Vegetables",
+        "loc_title": "Fruit en groenten",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort."
+      },
+      "K-203": {
+        "en_title": "Healthy and Not-Healthy Foods",
+        "loc_title": "Gezond en ongezond eten",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort."
+      },
+      "K-204": {
+        "en_title": "Pets and Wild Animals",
+        "loc_title": "Huisdieren en wilde dieren",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+      },
+      "K-205": {
+        "en_title": "Animal Babies",
+        "loc_title": "Dieren en hun jongen",
+        "en_instruction": "Draw a line from each grown-up animal to its baby.",
+        "loc_instruction": "Trek een lijn van elk volwassen dier naar zijn jong."
+      },
+      "K-206": {
+        "en_title": "Things That Fly",
+        "loc_title": "Wat kan er vliegen?",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      },
+      "K-207": {
+        "en_title": "Summer and Winter Clothes",
+        "loc_title": "Zomer- en winterkleren",
+        "en_instruction": "Draw a line from each item of clothing to the right group.",
+        "loc_instruction": "Trek een lijn van elk kledingstuk naar de goede groep."
+      },
+      "K-208": {
+        "en_title": "Day and Night",
+        "loc_title": "Dag en nacht",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      },
+      "K-209": {
+        "en_title": "Farm and Wild Animals",
+        "loc_title": "Boerderijdieren en wilde dieren",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+      },
+      "K-210": {
+        "en_title": "Land, Water, and Air Transportation",
+        "loc_title": "Vervoer over land, water en in de lucht",
+        "en_instruction": "Draw a line from each vehicle to where it travels.",
+        "loc_instruction": "Trek een lijn van elk voertuig naar de plek waar het rijdt, vaart of vliegt."
+      },
+      "K-211": {
+        "en_title": "Hot and Cold",
+        "loc_title": "Warm en koud",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      },
+      "K-212": {
+        "en_title": "Wants and Needs",
+        "loc_title": "Wat je wilt en wat je nodig hebt",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      },
+      "K-213": {
+        "en_title": "Community Helpers and Their Tools",
+        "loc_title": "Beroepen en hun gereedschap",
+        "en_instruction": "Draw a line from each helper to the tool they use.",
+        "loc_instruction": "Trek een lijn van elke helper naar het gereedschap dat hij gebruikt."
+      },
+      "K-214": {
+        "en_title": "Natural and Man-made",
+        "loc_title": "Natuurlijk en gemaakt",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+      },
+      "G1-201": {
+        "en_title": "Sort the Animals",
+        "loc_title": "Sorteer de dieren",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+      },
+      "G1-202": {
+        "en_title": "Where Do Animals Live?",
+        "loc_title": "Waar wonen de dieren?",
+        "en_instruction": "Draw a line from each animal to where it lives.",
+        "loc_instruction": "Trek een lijn van elk dier naar de plek waar het woont."
+      },
+      "G1-203": {
+        "en_title": "The Life Cycle of a Chicken",
+        "loc_title": "De levenscyclus van een kip",
+        "en_instruction": "Write 1, 2, 3 to put the pictures in the right order.",
+        "loc_instruction": "Schrijf 1, 2, 3 om de plaatjes in de goede volgorde te zetten."
+      },
+      "G1-204": {
+        "en_title": "Sink or Float?",
+        "loc_title": "Zinkt het of drijft het?",
+        "en_instruction": "Draw a line from each object to the group you think it belongs to.",
+        "loc_instruction": "Trek een lijn van elk voorwerp naar de groep waar het volgens jou bij hoort."
+      },
+      "G1-205": {
+        "en_title": "Animal Coverings",
+        "loc_title": "De huid van dieren",
+        "en_instruction": "Draw a line from each animal to its body covering.",
+        "loc_instruction": "Trek een lijn van elk dier naar wat zijn lichaam bedekt."
+      },
+      "G1-206": {
+        "en_title": "What Animals Eat",
+        "loc_title": "Wat eten dieren?",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+      },
+      "G1-207": {
+        "en_title": "The Four Food Groups",
+        "loc_title": "De vier voedselgroepen",
+        "en_instruction": "Draw a line from each food to its food group.",
+        "loc_instruction": "Trek een lijn van elk voedsel naar de voedselgroep."
+      }
+    },
+    "families": {
+      "science-sort": {
+        "en_name": "Science Sorting",
+        "loc_name": "Natuur sorteren",
+        "loc_slug": "natuur-sorteren",
+        "en_skill": "Sorting pictures into the right groups builds the classifying and observing skills at the heart of early science.",
+        "loc_skill_full": "Plaatjes in de juiste groepen sorteren ontwikkelt het waarnemen en ordenen, de basis van natuur en techniek.",
+        "loc_skill_short": "Ontwikkelt waarnemen en ordenen."
+      },
+      "science-sequence": {
+        "en_name": "Sequencing & Life Cycles",
+        "loc_name": "Volgorde en levenscyclus",
+        "loc_slug": "volgorde-en-levenscyclus",
+        "en_skill": "Putting the pictures in order helps young learners understand sequence and how living things grow and change over time.",
+        "loc_skill_full": "De plaatjes in de juiste volgorde leggen helpt kinderen begrijpen hoe levende dingen groeien en veranderen.",
+        "loc_skill_short": "Ontwikkelt volgorde en levenscycli."
+      },
+      "science-match": {
+        "en_name": "Science Matching",
+        "loc_name": "Natuur verbinden",
+        "loc_slug": "natuur-verbinden",
+        "en_skill": "Matching each picture to its partner builds the reasoning children use to notice connections in the world around them.",
+        "loc_skill_full": "Elk plaatje aan zijn maatje koppelen ontwikkelt het redeneren om verbanden in de natuur te ontdekken.",
+        "loc_skill_short": "Ontwikkelt koppelen en redeneren."
+      }
+    },
+    "binLabels": {
+      "animal-classification.json": {
+        "mammals": {
+          "en": "Mammals",
+          "loc": "Zoogdieren"
+        },
+        "birds": {
+          "en": "Birds",
+          "loc": "Vogels"
+        },
+        "reptiles": {
+          "en": "Reptiles",
+          "loc": "Reptielen"
+        }
+      },
+      "animal-coverings.json": {
+        "fur": {
+          "en": "Fur",
+          "loc": "Vacht"
+        },
+        "feathers": {
+          "en": "Feathers",
+          "loc": "Veren"
+        },
+        "scales": {
+          "en": "Scales",
+          "loc": "Schubben"
+        }
+      },
+      "can-fly-vs-cannot.json": {
+        "canfly": {
+          "en": "Can Fly",
+          "loc": "Kan vliegen"
+        },
+        "cannot": {
+          "en": "Cannot Fly",
+          "loc": "Kan niet vliegen"
+        }
+      },
+      "day-vs-night.json": {
+        "day": {
+          "en": "Day",
+          "loc": "Dag"
+        },
+        "night": {
+          "en": "Night",
+          "loc": "Nacht"
+        }
+      },
+      "farm-vs-wild-animals.json": {
+        "farm": {
+          "en": "Farm Animals",
+          "loc": "Boerderijdieren"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Wilde dieren"
+        }
+      },
+      "food-groups.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Fruit"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Groenten"
+        },
+        "grains": {
+          "en": "Grains",
+          "loc": "Granen"
+        },
+        "protein": {
+          "en": "Protein",
+          "loc": "Eiwitten"
+        }
+      },
+      "fruits-vs-vegetables.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Fruit"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Groenten"
+        }
+      },
+      "healthy-vs-unhealthy-food.json": {
+        "healthy": {
+          "en": "Healthy",
+          "loc": "Gezond"
+        },
+        "unhealthy": {
+          "en": "Not Healthy",
+          "loc": "Ongezond"
+        }
+      },
+      "hot-vs-cold.json": {
+        "hot": {
+          "en": "Hot",
+          "loc": "Warm"
+        },
+        "cold": {
+          "en": "Cold",
+          "loc": "Koud"
+        }
+      },
+      "land-water-air-animals.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Land"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Water"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Lucht"
+        }
+      },
+      "living-vs-nonliving.json": {
+        "living": {
+          "en": "Living",
+          "loc": "Levend"
+        },
+        "nonliving": {
+          "en": "Non-living",
+          "loc": "Niet-levend"
+        }
+      },
+      "natural-vs-manmade.json": {
+        "natural": {
+          "en": "Natural",
+          "loc": "Natuurlijk"
+        },
+        "manmade": {
+          "en": "Man-made",
+          "loc": "Gemaakt door mensen"
+        }
+      },
+      "pets-vs-wild-animals.json": {
+        "pets": {
+          "en": "Pets",
+          "loc": "Huisdieren"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Wilde dieren"
+        }
+      },
+      "sink-vs-float.json": {
+        "float": {
+          "en": "Float",
+          "loc": "Drijven"
+        },
+        "sink": {
+          "en": "Sink",
+          "loc": "Zinken"
+        }
+      },
+      "summer-vs-winter-clothes.json": {
+        "summer": {
+          "en": "Summer",
+          "loc": "Zomer"
+        },
+        "winter": {
+          "en": "Winter",
+          "loc": "Winter"
+        }
+      },
+      "transportation-land-water-air.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Land"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Water"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Lucht"
+        }
+      },
+      "wants-vs-needs.json": {
+        "needs": {
+          "en": "Needs",
+          "loc": "Nodig hebben"
+        },
+        "wants": {
+          "en": "Wants",
+          "loc": "Willen hebben"
+        }
+      },
+      "what-animals-eat.json": {
+        "plant": {
+          "en": "Plant Eaters",
+          "loc": "Planteneters"
+        },
+        "meat": {
+          "en": "Meat Eaters",
+          "loc": "Vleeseters"
+        }
+      }
+    }
+  }
+}

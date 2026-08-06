@@ -1,0 +1,91 @@
+=== §4.B genericness + structural lints ===
+  FAIL piu-o-meno-immagine-immagine-uccelli-2-e8c7: NO theme-noun in P1
+  FAIL piu-o-meno-immagine-immagine-pasqua-b530: NO theme-noun in P1
+  FAIL piu-o-meno-immagine-immagine-utensili-da-cucina-df29: NO theme-noun in P1
+  FAIL piu-o-meno-immagine-immagine-forme-5107: NO theme-noun in P1
+  FAIL piu-o-meno-immagine-immagine-veicoli-5893: NO theme-noun in P1
+  FAIL grande-piccolo-trova-il-grande-parti-del-corpo-0f8b: NO theme-noun in P1
+  FAIL grande-piccolo-trova-il-grande-pasqua-4721: NO theme-noun in P1
+  FAIL grande-piccolo-trova-il-grande-musica-25c3: NO theme-noun in P1
+  FAIL grande-piccolo-trova-il-grande-giocattoli-9177: NO theme-noun in P1
+  FAIL grande-piccolo-ordine-crescente-uccelli-2-3bc3: NO theme-noun in P1
+  FAIL grande-piccolo-ordine-crescente-dinosauri-c763: NO theme-noun in P1
+  FAIL grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0: NO theme-noun in P1
+  FAIL grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd: NO theme-noun in P1
+  FAIL grande-piccolo-ordine-crescente-verdure-3be9: NO theme-noun in P1
+  -> 14 lint fails
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=39): max 0.634 mean 0.141 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair addizione-trova-l-addendo-al-supermercato-d09e ~ addizione-trova-l-addendo-aula-b360
+  addition/image-image (n=41): max 0.526 mean 0.156 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.092 | maxPair addizione-immagine-immagine-accessori-b739 ~ addizione-immagine-immagine-creature-della-foresta-16a2
+  addition/image-number (n=41): max 0.549 mean 0.169 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.106 | maxPair addizione-immagine-numero-accessori-e1a7 ~ addizione-immagine-numero-animali-dello-zoo-af2d
+  addition/mixed (n=41): max 0.578 mean 0.175 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.107 | maxPair addizione-misto-accessori-c2fc ~ addizione-misto-animali-dello-zoo-d074
+  alphabet-train/null (n=28): max 0.616 mean 0.248 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.156 | maxPair treno-dell-alfabeto-ospedale-6ed5 ~ treno-dell-alfabeto-alberi-c56b
+  big-small/findBig (n=36): max 0.643 mean 0.199 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair grande-piccolo-trova-il-grande-accessori-17be ~ grande-piccolo-trova-il-grande-animali-della-fattoria-d14f
+  big-small/orderAsc (n=42): max 0.629 mean 0.208 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair grande-piccolo-ordine-crescente-accessori-7caf ~ grande-piccolo-ordine-crescente-pasqua-3eb7
+  chart-count/null (n=40): max 0.777 mean 0.104 #FAIL>=0.80=0 #WARN>=0.65=48 | P1-raw mean 0.076 | maxPair conteggio-grafico-musica-4251 ~ conteggio-grafico-alberi-e265
+  code-addition/null (n=49): max 0.603 mean 0.196 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair addizione-codificata-spiaggia-af0e ~ addizione-codificata-estate-477b
+  code-addition/secret-word (n=47): max 0.611 mean 0.221 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair addizione-codificata-parola-segreta-attivita-a287 ~ addizione-codificata-parola-segreta-alberi-54d7
+  crossword/null (n=41): max 0.613 mean 0.206 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair cruciverba-accessori-d07b ~ cruciverba-utensili-da-cucina-ae69
+  find-and-count/letter-spotting (n=43): max 0.616 mean 0.221 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.129 | maxPair trova-e-conta-trova-lettere-uccelli-2-accb ~ trova-e-conta-trova-lettere-spazio-8386
+  find-objects/find-odd (n=46): max 0.604 mean 0.196 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair trova-gli-oggetti-trova-il-diverso-accessori-cd12 ~ trova-gli-oggetti-trova-il-diverso-dinosauri-84b9
+  grid-match/null (n=48): max 0.654 mean 0.194 #FAIL>=0.80=0 #WARN>=0.65=4 | P1-raw mean 0.121 | maxPair abbinamento-griglia-uccelli-2-abae ~ abbinamento-griglia-ospedale-dbc3
+  matching/letter (n=46): max 0.621 mean 0.226 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair abbinamento-lettera-accessori-a0d3 ~ abbinamento-lettera-uccelli-2-ee0c
+  math-puzzle/addition (n=37): max 0.595 mean 0.179 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.103 | maxPair puzzle-matematico-addizione-uccelli-319b ~ puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4
+  math-puzzle/mixed (n=40): max 0.621 mean 0.206 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.126 | maxPair puzzle-matematico-misto-accessori-baff ~ puzzle-matematico-misto-varie-ee21
+  math-puzzle/subtraction (n=40): max 0.610 mean 0.186 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair puzzle-matematico-sottrazione-creature-della-foresta-6ed9 ~ puzzle-matematico-sottrazione-attrezzi-dd9a
+  missing-pieces/one-missing (n=46): max 0.608 mean 0.170 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair pezzi-mancanti-1-pezzo-mancante-accessori-9129 ~ pezzi-mancanti-1-pezzo-mancante-alberi-d3de
+  missing-pieces/two-missing (n=46): max 0.614 mean 0.184 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.127 | maxPair pezzi-mancanti-2-pezzi-mancanti-accessori-2d81 ~ pezzi-mancanti-2-pezzi-mancanti-ospedale-30a5
+  more-less/image-image (n=41): max 0.626 mean 0.203 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair piu-o-meno-immagine-immagine-accessori-7d5f ~ piu-o-meno-immagine-immagine-animali-dello-zoo-b7ed
+  odd-one-out/cross-theme (n=42): max 0.651 mean 0.250 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.132 | maxPair l-intruso-multi-tema-accessori-2a94 ~ l-intruso-multi-tema-emozioni-39ec
+  odd-one-out/same-theme (n=47): max 0.632 mean 0.241 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair l-intruso-stesso-tema-accessori-f5c4 ~ l-intruso-stesso-tema-rettili-e-anfibi-215f
+  pattern-train/aab (n=49): max 0.633 mean 0.241 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair treno-dei-modelli-aab-accessori-3949 ~ treno-dei-modelli-aab-uccelli-2-4b2c
+  pattern-train/aabb (n=49): max 0.633 mean 0.242 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair treno-dei-modelli-aabb-accessori-d5fe ~ treno-dei-modelli-aabb-uccelli-2-ae80
+  pattern-train/abb (n=49): max 0.624 mean 0.240 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.142 | maxPair treno-dei-modelli-abb-accessori-5a68 ~ treno-dei-modelli-abb-uccelli-2-e4b6
+  pattern-train/abc (n=49): max 0.631 mean 0.239 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.140 | maxPair treno-dei-modelli-abc-accessori-1556 ~ treno-dei-modelli-abc-uccelli-2-0a85
+  pattern-train/null (n=49): max 0.644 mean 0.229 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.129 | maxPair treno-dei-modelli-accessori-e4cc ~ treno-dei-modelli-uccelli-2-5732
+  pattern-worksheet/null (n=48): max 0.616 mean 0.224 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair scheda-di-modelli-accessori-02f6 ~ scheda-di-modelli-uccelli-2-a962
+  picture-path/choose-path (n=48): max 0.584 mean 0.201 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair percorso-illustrato-scegli-il-percorso-giusto-accessori-8043 ~ percorso-illustrato-scegli-il-percorso-giusto-uccelli-2-89e5
+  picture-sort/null (n=71): max 0.584 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.082 | maxPair ordina-immagini-clothing-vs-accessories-e66e ~ ordina-immagini-clothing-vs-tree-066e
+  prepositions/fillin (n=49): max 0.628 mean 0.238 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair preposizioni-riempi-accessori-caf2 ~ preposizioni-riempi-animali-dello-zoo-bd31
+  prepositions/multiplechoice (n=49): max 0.629 mean 0.222 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.128 | maxPair preposizioni-scelta-multipla-accessori-86db ~ preposizioni-scelta-multipla-uccelli-2-e0af
+  shadow-match/find-shadow (n=45): max 0.608 mean 0.188 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair abbina-le-ombre-abbina-l-ombra-attivita-d1d3 ~ abbina-le-ombre-abbina-l-ombra-pasqua-e851
+  shadow-match/make-whole (n=48): max 0.634 mean 0.196 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair abbina-le-ombre-completa-accessori-57d2 ~ abbina-le-ombre-completa-uccelli-2-6c84
+  subtraction/cross-out (n=41): max 0.626 mean 0.209 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair sottrazione-barrare-accessori-8ac9 ~ sottrazione-barrare-animali-dello-zoo-6f7e
+  subtraction/find-subtrahend (n=41): max 0.661 mean 0.236 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.146 | maxPair sottrazione-trova-il-sottraendo-accessori-3f5a ~ sottrazione-trova-il-sottraendo-animali-dello-zoo-effa
+  subtraction/image-number (n=41): max 0.680 mean 0.245 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.156 | maxPair sottrazione-immagine-numero-accessori-7010 ~ sottrazione-immagine-numero-animali-dello-zoo-04e7
+  subtraction/mixed (n=41): max 0.668 mean 0.260 #FAIL>=0.80=0 #WARN>=0.65=4 | P1-raw mean 0.178 | maxPair sottrazione-misto-accessori-0033 ~ sottrazione-misto-animali-dello-zoo-fe1f
+  sudoku/easy (n=48): max 0.642 mean 0.220 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair sudoku-illustrato-facile-pasqua-f8d8 ~ sudoku-illustrato-facile-forme-7e13
+  sudoku/medium (n=48): max 0.629 mean 0.229 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair sudoku-illustrato-medio-accessori-ff3b ~ sudoku-illustrato-medio-mobili-5481
+  word-guess/easy (n=46): max 0.636 mean 0.233 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair indovina-la-parola-facile-accessori-445a ~ indovina-la-parola-facile-dolci-e-dolciumi-9d76
+  word-guess/normal (n=44): max 0.647 mean 0.262 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair indovina-la-parola-normale-accessori-bd1e ~ indovina-la-parola-normale-dolci-e-dolciumi-9373
+  word-scramble/easy (n=46): max 0.614 mean 0.240 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.127 | maxPair anagrammi-facile-accessori-8191 ~ anagrammi-facile-dolci-e-dolciumi-8ac0
+  word-scramble/normal (n=46): max 0.668 mean 0.263 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.141 | maxPair anagrammi-normale-accessori-6d82 ~ anagrammi-normale-dolci-e-dolciumi-00d6
+  wordsearch/null (n=48): max 0.600 mean 0.223 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair cerca-parole-in-giro-per-casa-33b0 ~ cerca-parole-spazio-d75a
+
+=== cross-class + within: ALL 2060 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.871","mean":"0.028","pairs":2120770,"over80":102,"over65":430,"over85":9,"maxPair":"treno-dei-modelli-abb-parti-del-corpo-30d7 ~ treno-dei-modelli-aabb-parti-del-corpo-904f"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.871  treno-dei-modelli-abb-parti-del-corpo-30d7 ~ treno-dei-modelli-aabb-parti-del-corpo-904f  (pattern-train/abb vs pattern-train/aabb)
+  2. 0.861  treno-dei-modelli-aab-utensili-da-cucina-7a90 ~ treno-dei-modelli-aabb-utensili-da-cucina-592f  (pattern-train/aab vs pattern-train/aabb)
+  3. 0.859  treno-dei-modelli-abb-utensili-da-cucina-cd0a ~ treno-dei-modelli-aabb-utensili-da-cucina-592f  (pattern-train/abb vs pattern-train/aabb)
+  4. 0.855  treno-dei-modelli-aab-ospedale-6fa9 ~ treno-dei-modelli-aabb-ospedale-40f1  (pattern-train/aab vs pattern-train/aabb)
+  5. 0.855  treno-dei-modelli-aab-utensili-da-cucina-7a90 ~ treno-dei-modelli-abb-utensili-da-cucina-cd0a  (pattern-train/aab vs pattern-train/abb)
+  6. 0.854  treno-dei-modelli-aab-al-supermercato-117c ~ treno-dei-modelli-aabb-al-supermercato-4ced  (pattern-train/aab vs pattern-train/aabb)
+  7. 0.854  treno-dei-modelli-aab-parti-del-corpo-ba37 ~ treno-dei-modelli-aabb-parti-del-corpo-904f  (pattern-train/aab vs pattern-train/aabb)
+  8. 0.853  treno-dei-modelli-aab-emozioni-104c ~ treno-dei-modelli-aabb-emozioni-8ff3  (pattern-train/aab vs pattern-train/aabb)
+  9. 0.852  treno-dei-modelli-aab-varie-a1cc ~ treno-dei-modelli-aabb-varie-eca8  (pattern-train/aab vs pattern-train/aabb)
+  10. 0.850  treno-dei-modelli-aab-spazio-d92b ~ treno-dei-modelli-aabb-spazio-31b9  (pattern-train/aab vs pattern-train/aabb)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.870  [treno-dei-modelli-abb-parti-del-corpo-30d7 ~ treno-dei-modelli-aabb-parti-del-corpo-904f (pattern-train/abb vs pattern-train/aabb)]
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.777  [conteggio-grafico-musica-4251 ~ conteggio-grafico-alberi-e265]  -> PASS
+      all-pairs max:          0.871 #FAIL(>=0.80)=102 #WARN(>=0.65)=430  -> FAIL
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.870  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

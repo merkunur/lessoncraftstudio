@@ -1,0 +1,24 @@
+{
+  "locale": "sv",
+  "text": {
+    "strings": {
+      "K-225": {
+        "instruction": "Dra ett streck från varje ord till rätt bild."
+      },
+      "K-229": {
+        "instruction": "Ringa in varje bokstav som är likadan som den i rutan."
+      },
+      "K-213": {
+        "instruction": "Dra ett streck från varje yrkesperson till verktyget hen använder."
+      }
+    },
+    "skillFull": {},
+    "skillShort": {},
+    "familyName": {},
+    "categoryLabels": {},
+    "vcLabels": {},
+    "sciBinLabels": {}
+  },
+  "slug": {},
+  "notes": "Swedish strings were overall high quality and idiomatic; most needed no change. Three genuine fixes: (1) K-225 — 'bilden det betyder' is unidiomatic (a picture doesn't 'mean' a word). Changed to 'rätt bild', which is the natural classroom phrasing and parallels the EN 'the picture it names'. (2) K-229 — 'är lika med' is a mathematical/equality register; for matching identical letters a Swedish teacher says 'är likadan som'. (3) K-213 — number-agreement error: subject is singular 'yrkesperson' but 'de använder' is plural. Corrected to singular 'hen använder' (gender-neutral, current SV school register). Reviewed but kept as correct: 'fattas' (child-friendly, fine alongside 'saknas'); 'kroppshölje' (G1-205, accurate SV NO-term); 'Lantbruksdjur'/'Bondgårdsdjur' — 'Lantbruksdjur' kept (correct, slightly formal but acceptable); all family names, skill texts, slugs (lowercase/hyphenated/å→a ä→a ö→o correct), categoryLabels, vcLabels (Vokaler/Konsonanter) and all science binLabels (Däggdjur, Fåglar, Reptiler, Päls, Fjädrar, Fjäll, Spannmål, Växtätare, Köttätare, etc.) are accurate and natural."
+}

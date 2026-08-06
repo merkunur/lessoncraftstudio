@@ -1,0 +1,526 @@
+{
+  "locale": "fi",
+  "_instructions": "Review the <loc> fields for native naturalness, K-2 register, terminology, grammar. en_* = English source for meaning only.",
+  "literacy": {
+    "strings": {
+      "K-221": {
+        "en_title": "Beginning Sounds",
+        "loc_title": "Sanan alkuäänne",
+        "en_instruction": "Write the letter that each picture begins with.",
+        "loc_instruction": "Kirjoita kirjain, jolla kukin kuva alkaa."
+      },
+      "K-222": {
+        "en_title": "Capital and Small Letters",
+        "loc_title": "Isot ja pienet kirjaimet",
+        "en_instruction": "Draw a line from each capital letter to its small letter.",
+        "loc_instruction": "Vedä viiva isosta kirjaimesta sen pieneen kirjaimeen."
+      },
+      "K-223": {
+        "en_title": "Missing Letters",
+        "loc_title": "Puuttuvat kirjaimet",
+        "en_instruction": "Write the missing letters to finish the alphabet.",
+        "loc_instruction": "Kirjoita puuttuvat kirjaimet ja täydennä aakkoset."
+      },
+      "K-224": {
+        "en_title": "Missing Sound",
+        "loc_title": "Puuttuva äänne",
+        "en_instruction": "Write the missing letter to finish each word.",
+        "loc_instruction": "Kirjoita puuttuva kirjain ja täydennä jokainen sana."
+      },
+      "K-225": {
+        "en_title": "Match Word to Picture",
+        "loc_title": "Yhdistä sana ja kuva",
+        "en_instruction": "Draw a line from each word to the picture it names.",
+        "loc_instruction": "Vedä viiva jokaisesta sanasta kuvaan, jota se tarkoittaa."
+      },
+      "K-226": {
+        "en_title": "Ending Sounds",
+        "loc_title": "Sanan loppuäänne",
+        "en_instruction": "Write the letter that each picture ends with.",
+        "loc_instruction": "Kirjoita kirjain, johon kukin kuva loppuu."
+      },
+      "K-227": {
+        "en_title": "Middle Sounds",
+        "loc_title": "Sanan keskiäänne",
+        "en_instruction": "Write the vowel you hear in the middle of each word.",
+        "loc_instruction": "Kirjoita vokaali, jonka kuulet sanan keskellä."
+      },
+      "K-228": {
+        "en_title": "Sort by Beginning Sound",
+        "loc_title": "Lajittele alkuäänteen mukaan",
+        "en_instruction": "Draw a line from each picture to the letter it begins with.",
+        "loc_instruction": "Vedä viiva jokaisesta kuvasta kirjaimeen, jolla se alkaa."
+      },
+      "K-229": {
+        "en_title": "Find the Letter",
+        "loc_title": "Etsi kirjain",
+        "en_instruction": "Circle every letter that matches the one in the box.",
+        "loc_instruction": "Ympyröi jokainen kirjain, joka on sama kuin laatikossa."
+      },
+      "K-230": {
+        "en_title": "Vowels and Consonants",
+        "loc_title": "Vokaalit ja konsonantit",
+        "en_instruction": "Sort each letter into the vowels or the consonants.",
+        "loc_instruction": "Lajittele jokainen kirjain vokaaleihin tai konsonantteihin."
+      },
+      "K-231": {
+        "en_title": "Build the Word",
+        "loc_title": "Rakenna sana",
+        "en_instruction": "Use the letters to build the word for each picture.",
+        "loc_instruction": "Rakenna kirjaimista jokaisen kuvan sana."
+      },
+      "K-232": {
+        "en_title": "Rhyming Pairs",
+        "loc_title": "Riimiparit",
+        "en_instruction": "Draw a line between the two pictures that rhyme.",
+        "loc_instruction": "Vedä viiva kahden kuvan välille, jotka riimittelevät."
+      },
+      "K-233": {
+        "en_title": "Count the Syllables",
+        "loc_title": "Laske tavut",
+        "en_instruction": "Write how many syllables you hear in each word.",
+        "loc_instruction": "Kirjoita, kuinka monta tavua kuulet jokaisessa sanassa."
+      },
+      "K-234": {
+        "en_title": "Sort by Syllables",
+        "loc_title": "Lajittele tavujen mukaan",
+        "en_instruction": "Draw a line from each picture to its number of syllables.",
+        "loc_instruction": "Vedä viiva jokaisesta kuvasta sen tavujen lukumäärään."
+      },
+      "K-235": {
+        "en_title": "Sort by Category",
+        "loc_title": "Lajittele ryhmiin",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Vedä viiva jokaisesta kuvasta ryhmään, johon se kuuluu."
+      }
+    },
+    "families": {
+      "beginning-sounds": {
+        "en_name": "Beginning Sounds",
+        "loc_name": "Alkuäänteet",
+        "loc_slug": "alkuaanteet",
+        "en_skill": "Naming the first sound in each picture builds the letter-sound knowledge at the heart of early reading.",
+        "loc_skill_full": "Sanan alkuäänteen nimeäminen kuvasta rakentaa kirjain-äänne-yhteyttä, joka on lukemaan oppimisen ydin.",
+        "loc_skill_short": "Vahvistaa alkuäänne- ja kirjaintaitoja."
+      },
+      "letter-knowledge": {
+        "en_name": "Letter Knowledge",
+        "loc_name": "Kirjaintuntemus",
+        "loc_slug": "kirjaintuntemus",
+        "en_skill": "Recognizing capital and small letters and their order builds the alphabet knowledge early reading is built on.",
+        "loc_skill_full": "Isojen ja pienten kirjainten sekä niiden järjestyksen tunnistaminen rakentaa aakkostaitoa, jolle lukeminen perustuu.",
+        "loc_skill_short": "Vahvistaa kirjainten ja aakkosten tuntemusta."
+      },
+      "word-building": {
+        "en_name": "Word Building",
+        "loc_name": "Sananrakennus",
+        "loc_slug": "sananrakennus",
+        "en_skill": "Listening for each sound and writing the missing letter builds the decoding skills children use to read their first words.",
+        "loc_skill_full": "Äänteiden kuunteleminen ja puuttuvan kirjaimen kirjoittaminen harjoittaa lukutaitoa, jolla lapsi lukee ensimmäiset sanansa.",
+        "loc_skill_short": "Vahvistaa lukemisen ja sananrakennuksen taitoja."
+      },
+      "picture-vocabulary": {
+        "en_name": "Picture Vocabulary",
+        "loc_name": "Kuvasanasto",
+        "loc_slug": "kuvasanasto",
+        "en_skill": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
+        "loc_skill_full": "Kirjoitettujen sanojen ja kuvien yhdistäminen vahvistaa sanantunnistusta ja sanavarastoa, jotka muuttavat kirjaimet merkitykseksi.",
+        "loc_skill_short": "Vahvistaa sanantunnistusta ja sanavarastoa."
+      },
+      "phonological-awareness": {
+        "en_name": "Sounds & Syllables",
+        "loc_name": "Kielellinen tietoisuus",
+        "loc_slug": "kielellinen-tietoisuus",
+        "en_skill": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
+        "loc_skill_full": "Sanojen sisältämien äänteiden ja tavujen kuuleminen rakentaa kielellistä tietoisuutta, jolle sujuva lukeminen perustuu.",
+        "loc_skill_short": "Vahvistaa kielellistä tietoisuutta."
+      }
+    },
+    "categoryLabels": {
+      "Animals": {
+        "en": "Animals",
+        "loc": "Eläimet"
+      },
+      "Fruits": {
+        "en": "Fruits",
+        "loc": "Hedelmät"
+      },
+      "Vehicles": {
+        "en": "Vehicles",
+        "loc": "Ajoneuvot"
+      }
+    },
+    "vcLabels": {
+      "vowels": {
+        "en": "Vowels",
+        "loc": "Vokaalit"
+      },
+      "consonants": {
+        "en": "Consonants",
+        "loc": "Konsonantit"
+      }
+    }
+  },
+  "science": {
+    "strings": {
+      "K-201": {
+        "en_title": "Living and Non-living Things",
+        "loc_title": "Elävät ja elottomat",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-202": {
+        "en_title": "Fruits and Vegetables",
+        "loc_title": "Hedelmät ja vihannekset",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-203": {
+        "en_title": "Healthy and Not-Healthy Foods",
+        "loc_title": "Terveelliset ja epäterveelliset ruoat",
+        "en_instruction": "Draw a line from each food to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-204": {
+        "en_title": "Pets and Wild Animals",
+        "loc_title": "Lemmikit ja villieläimet",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+      },
+      "K-205": {
+        "en_title": "Animal Babies",
+        "loc_title": "Eläinten poikaset",
+        "en_instruction": "Draw a line from each grown-up animal to its baby.",
+        "loc_instruction": "Piirrä viiva jokaisesta aikuisesta eläimestä sen poikaseen."
+      },
+      "K-206": {
+        "en_title": "Things That Fly",
+        "loc_title": "Mikä osaa lentää?",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-207": {
+        "en_title": "Summer and Winter Clothes",
+        "loc_title": "Kesä- ja talvivaatteet",
+        "en_instruction": "Draw a line from each item of clothing to the right group.",
+        "loc_instruction": "Piirrä viiva jokaisesta vaatteesta oikeaan ryhmään."
+      },
+      "K-208": {
+        "en_title": "Day and Night",
+        "loc_title": "Päivä ja yö",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-209": {
+        "en_title": "Farm and Wild Animals",
+        "loc_title": "Maatilan eläimet ja villieläimet",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+      },
+      "K-210": {
+        "en_title": "Land, Water, and Air Transportation",
+        "loc_title": "Maa-, vesi- ja ilmaliikenne",
+        "en_instruction": "Draw a line from each vehicle to where it travels.",
+        "loc_instruction": "Piirrä viiva jokaisesta kulkuvälineestä siihen, missä se kulkee."
+      },
+      "K-211": {
+        "en_title": "Hot and Cold",
+        "loc_title": "Kuuma ja kylmä",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-212": {
+        "en_title": "Wants and Needs",
+        "loc_title": "Tarpeet ja toiveet",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+      },
+      "K-213": {
+        "en_title": "Community Helpers and Their Tools",
+        "loc_title": "Ammattilaiset ja heidän työvälineensä",
+        "en_instruction": "Draw a line from each helper to the tool they use.",
+        "loc_instruction": "Piirrä viiva jokaisesta ammattilaisesta hänen käyttämäänsä työvälineeseen."
+      },
+      "K-214": {
+        "en_title": "Natural and Man-made",
+        "loc_title": "Luonnollinen ja ihmisen tekemä",
+        "en_instruction": "Draw a line from each picture to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+      },
+      "G1-201": {
+        "en_title": "Sort the Animals",
+        "loc_title": "Lajittele eläimet",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+      },
+      "G1-202": {
+        "en_title": "Where Do Animals Live?",
+        "loc_title": "Missä eläimet elävät?",
+        "en_instruction": "Draw a line from each animal to where it lives.",
+        "loc_instruction": "Piirrä viiva jokaisesta eläimestä siihen, missä se elää."
+      },
+      "G1-203": {
+        "en_title": "The Life Cycle of a Chicken",
+        "loc_title": "Kanan elämänkierto",
+        "en_instruction": "Write 1, 2, 3 to put the pictures in the right order.",
+        "loc_instruction": "Kirjoita 1, 2, 3 ja laita kuvat oikeaan järjestykseen."
+      },
+      "G1-204": {
+        "en_title": "Sink or Float?",
+        "loc_title": "Uppoaa vai kelluu?",
+        "en_instruction": "Draw a line from each object to the group you think it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta esineestä siihen ryhmään, johon arvelet sen kuuluvan."
+      },
+      "G1-205": {
+        "en_title": "Animal Coverings",
+        "loc_title": "Eläinten ihopeite",
+        "en_instruction": "Draw a line from each animal to its body covering.",
+        "loc_instruction": "Piirrä viiva jokaisesta eläimestä sen ihopeitteeseen."
+      },
+      "G1-206": {
+        "en_title": "What Animals Eat",
+        "loc_title": "Mitä eläimet syövät",
+        "en_instruction": "Draw a line from each animal to the group it belongs to.",
+        "loc_instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+      },
+      "G1-207": {
+        "en_title": "The Four Food Groups",
+        "loc_title": "Neljä ruoka-aineryhmää",
+        "en_instruction": "Draw a line from each food to its food group.",
+        "loc_instruction": "Piirrä viiva jokaisesta ruoasta sen ruoka-aineryhmään."
+      }
+    },
+    "families": {
+      "science-sort": {
+        "en_name": "Science Sorting",
+        "loc_name": "Luonnontieteen lajittelu",
+        "loc_slug": "luonnontieteen-lajittelu",
+        "en_skill": "Sorting pictures into the right groups builds the classifying and observing skills at the heart of early science.",
+        "loc_skill_full": "Kuvien lajittelu oikeisiin ryhmiin kehittää havainnointia ja luokittelua – ympäristöopin perustaitoja.",
+        "loc_skill_short": "Kehittää havainnointia ja lajittelua."
+      },
+      "science-sequence": {
+        "en_name": "Sequencing & Life Cycles",
+        "loc_name": "Järjestys ja elämänkierto",
+        "loc_slug": "jarjestys-ja-elamankierto",
+        "en_skill": "Putting the pictures in order helps young learners understand sequence and how living things grow and change over time.",
+        "loc_skill_full": "Kuvien järjestäminen oikeaan järjestykseen auttaa lapsia ymmärtämään, miten elävät asiat kasvavat ja muuttuvat.",
+        "loc_skill_short": "Kehittää järjestystä ja elämänkiertoja."
+      },
+      "science-match": {
+        "en_name": "Science Matching",
+        "loc_name": "Luonnontieteen yhdistäminen",
+        "loc_slug": "luonnontieteen-yhdistaminen",
+        "en_skill": "Matching each picture to its partner builds the reasoning children use to notice connections in the world around them.",
+        "loc_skill_full": "Kuvien yhdistäminen pareiksi kehittää päättelyä, jolla lapsi huomaa yhteyksiä luonnossa.",
+        "loc_skill_short": "Kehittää yhdistämistä ja päättelyä."
+      }
+    },
+    "binLabels": {
+      "animal-classification.json": {
+        "mammals": {
+          "en": "Mammals",
+          "loc": "Nisäkkäät"
+        },
+        "birds": {
+          "en": "Birds",
+          "loc": "Linnut"
+        },
+        "reptiles": {
+          "en": "Reptiles",
+          "loc": "Matelijat"
+        }
+      },
+      "animal-coverings.json": {
+        "fur": {
+          "en": "Fur",
+          "loc": "Turkki"
+        },
+        "feathers": {
+          "en": "Feathers",
+          "loc": "Höyhenet"
+        },
+        "scales": {
+          "en": "Scales",
+          "loc": "Suomut"
+        }
+      },
+      "can-fly-vs-cannot.json": {
+        "canfly": {
+          "en": "Can Fly",
+          "loc": "Osaa lentää"
+        },
+        "cannot": {
+          "en": "Cannot Fly",
+          "loc": "Ei osaa lentää"
+        }
+      },
+      "day-vs-night.json": {
+        "day": {
+          "en": "Day",
+          "loc": "Päivä"
+        },
+        "night": {
+          "en": "Night",
+          "loc": "Yö"
+        }
+      },
+      "farm-vs-wild-animals.json": {
+        "farm": {
+          "en": "Farm Animals",
+          "loc": "Maatilan eläimet"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Villieläimet"
+        }
+      },
+      "food-groups.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Hedelmät"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Vihannekset"
+        },
+        "grains": {
+          "en": "Grains",
+          "loc": "Viljatuotteet"
+        },
+        "protein": {
+          "en": "Protein",
+          "loc": "Proteiini"
+        }
+      },
+      "fruits-vs-vegetables.json": {
+        "fruits": {
+          "en": "Fruits",
+          "loc": "Hedelmät"
+        },
+        "vegetables": {
+          "en": "Vegetables",
+          "loc": "Vihannekset"
+        }
+      },
+      "healthy-vs-unhealthy-food.json": {
+        "healthy": {
+          "en": "Healthy",
+          "loc": "Terveellinen"
+        },
+        "unhealthy": {
+          "en": "Not Healthy",
+          "loc": "Epäterveellinen"
+        }
+      },
+      "hot-vs-cold.json": {
+        "hot": {
+          "en": "Hot",
+          "loc": "Kuuma"
+        },
+        "cold": {
+          "en": "Cold",
+          "loc": "Kylmä"
+        }
+      },
+      "land-water-air-animals.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Maa"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Vesi"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Ilma"
+        }
+      },
+      "living-vs-nonliving.json": {
+        "living": {
+          "en": "Living",
+          "loc": "Elävä"
+        },
+        "nonliving": {
+          "en": "Non-living",
+          "loc": "Eloton"
+        }
+      },
+      "natural-vs-manmade.json": {
+        "natural": {
+          "en": "Natural",
+          "loc": "Luonnollinen"
+        },
+        "manmade": {
+          "en": "Man-made",
+          "loc": "Ihmisen tekemä"
+        }
+      },
+      "pets-vs-wild-animals.json": {
+        "pets": {
+          "en": "Pets",
+          "loc": "Lemmikit"
+        },
+        "wild": {
+          "en": "Wild Animals",
+          "loc": "Villieläimet"
+        }
+      },
+      "sink-vs-float.json": {
+        "float": {
+          "en": "Float",
+          "loc": "Kelluu"
+        },
+        "sink": {
+          "en": "Sink",
+          "loc": "Uppoaa"
+        }
+      },
+      "summer-vs-winter-clothes.json": {
+        "summer": {
+          "en": "Summer",
+          "loc": "Kesä"
+        },
+        "winter": {
+          "en": "Winter",
+          "loc": "Talvi"
+        }
+      },
+      "transportation-land-water-air.json": {
+        "land": {
+          "en": "Land",
+          "loc": "Maa"
+        },
+        "water": {
+          "en": "Water",
+          "loc": "Vesi"
+        },
+        "air": {
+          "en": "Air",
+          "loc": "Ilma"
+        }
+      },
+      "wants-vs-needs.json": {
+        "needs": {
+          "en": "Needs",
+          "loc": "Tarpeet"
+        },
+        "wants": {
+          "en": "Wants",
+          "loc": "Toiveet"
+        }
+      },
+      "what-animals-eat.json": {
+        "plant": {
+          "en": "Plant Eaters",
+          "loc": "Kasvinsyöjät"
+        },
+        "meat": {
+          "en": "Meat Eaters",
+          "loc": "Lihansyöjät"
+        }
+      }
+    }
+  }
+}

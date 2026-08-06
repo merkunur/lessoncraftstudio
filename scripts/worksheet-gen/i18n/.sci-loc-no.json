@@ -1,0 +1,182 @@
+{
+  "locale": "no",
+  "strand": "Naturfag",
+  "families": {
+    "science-sort": {
+      "name": "Sortere i naturfag",
+      "slug": "sortere-i-naturfag"
+    },
+    "science-sequence": {
+      "name": "Rekkefolge og livssykluser",
+      "slug": "rekkefolge-og-livssykluser"
+    },
+    "science-match": {
+      "name": "Para sammen i naturfag",
+      "slug": "para-sammen-i-naturfag"
+    }
+  },
+  "types": {
+    "G1-201": {
+      "title": "Sorter dyrene",
+      "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til.",
+      "bins": {
+        "mammals": "Pattedyr",
+        "birds": "Fugler",
+        "reptiles": "Krypdyr"
+      }
+    },
+    "G1-202": {
+      "title": "Hvor bor dyrene?",
+      "instruction": "Trekk en strek fra hvert dyr til der det bor.",
+      "bins": {
+        "land": "Land",
+        "water": "Vann",
+        "air": "Luft"
+      }
+    },
+    "G1-203": {
+      "title": "Livssyklusen til en hone",
+      "instruction": "Skriv 1, 2, 3 for a sette bildene i riktig rekkefolge."
+    },
+    "G1-204": {
+      "title": "Synker eller flyter?",
+      "instruction": "Trekk en strek fra hver ting til gruppen du tror den hoerer til.",
+      "bins": {
+        "float": "Flyter",
+        "sink": "Synker"
+      }
+    },
+    "G1-205": {
+      "title": "Hva dyrene er dekket av",
+      "instruction": "Trekk en strek fra hvert dyr til det som dekker kroppen.",
+      "bins": {
+        "fur": "Pels",
+        "feathers": "Fjaer",
+        "scales": "Skjell"
+      }
+    },
+    "G1-206": {
+      "title": "Hva dyrene spiser",
+      "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til.",
+      "bins": {
+        "plant": "Planteetere",
+        "meat": "Kjottetere"
+      }
+    },
+    "G1-207": {
+      "title": "De fire matvaregruppene",
+      "instruction": "Trekk en strek fra hver matvare til matvaregruppen sin.",
+      "bins": {
+        "fruits": "Frukt",
+        "vegetables": "Gronnsaker",
+        "grains": "Korn",
+        "protein": "Protein"
+      }
+    },
+    "K-201": {
+      "title": "Levende og ikke-levende",
+      "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til.",
+      "bins": {
+        "living": "Levende",
+        "nonliving": "Ikke-levende"
+      }
+    },
+    "K-202": {
+      "title": "Frukt og gronnsaker",
+      "instruction": "Trekk en strek fra hver matvare til gruppen den hoerer til.",
+      "bins": {
+        "fruits": "Frukt",
+        "vegetables": "Gronnsaker"
+      }
+    },
+    "K-203": {
+      "title": "Sunn og usunn mat",
+      "instruction": "Trekk en strek fra hver matvare til gruppen den hoerer til.",
+      "bins": {
+        "healthy": "Sunn",
+        "unhealthy": "Usunn"
+      }
+    },
+    "K-204": {
+      "title": "Kjaeledyr og ville dyr",
+      "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til.",
+      "bins": {
+        "pets": "Kjaeledyr",
+        "wild": "Ville dyr"
+      }
+    },
+    "K-205": {
+      "title": "Dyreunger",
+      "instruction": "Trekk en strek fra hvert voksent dyr til ungen sin."
+    },
+    "K-206": {
+      "title": "Ting som kan fly",
+      "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til.",
+      "bins": {
+        "canfly": "Kan fly",
+        "cannot": "Kan ikke fly"
+      }
+    },
+    "K-207": {
+      "title": "Sommerklaer og vinterklaer",
+      "instruction": "Trekk en strek fra hvert klesplagg til riktig gruppe.",
+      "bins": {
+        "summer": "Sommer",
+        "winter": "Vinter"
+      }
+    },
+    "K-208": {
+      "title": "Dag og natt",
+      "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til.",
+      "bins": {
+        "day": "Dag",
+        "night": "Natt"
+      }
+    },
+    "K-209": {
+      "title": "Husdyr og ville dyr",
+      "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til.",
+      "bins": {
+        "farm": "Husdyr",
+        "wild": "Ville dyr"
+      }
+    },
+    "K-210": {
+      "title": "Transport pa land, vann og i luft",
+      "instruction": "Trekk en strek fra hvert kjoretoy til der det ferdes.",
+      "bins": {
+        "land": "Land",
+        "water": "Vann",
+        "air": "Luft"
+      }
+    },
+    "K-211": {
+      "title": "Varmt og kaldt",
+      "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til.",
+      "bins": {
+        "hot": "Varmt",
+        "cold": "Kaldt"
+      }
+    },
+    "K-212": {
+      "title": "Onsker og behov",
+      "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til.",
+      "bins": {
+        "needs": "Behov",
+        "wants": "Onsker"
+      }
+    },
+    "K-213": {
+      "title": "Yrker og redskapene deres",
+      "instruction": "Trekk en strek fra hver yrkesperson til redskapet de bruker."
+    },
+    "K-214": {
+      "title": "Naturlig og menneskeskapt",
+      "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til.",
+      "bins": {
+        "natural": "Naturlig",
+        "manmade": "Menneskeskapt"
+      }
+    }
+  }
+}

@@ -994,7 +994,7 @@
   },
   "arrow-strip": {
     "slug": "pilesporet-programmering-indskoling",
-    "name": "Pilesporet",
+    "name": "Billens skinne",
     "tagline": "Kortene ligger i sporet, og ingenting flytter sig, før klassen har sagt højt, hvilket felt billen ender på — og så kører hele sporet på ét tryk.",
     "about": [
       "Pilesporet er tre ting på tavlen og ikke andet. Måtten er et ternet felt. Sporet er en tom række af pladser, som I lægger kort i. Billen sidder på måtten og vender én bestemt vej. Der findes fire ordløse kort: frem, tilbage og en kvart omgang til hver side. Kortene lægges i sporet, og ingenting flytter sig imens. Klassen siger højt, hvilket felt billen ender på. Først bagefter kører ét tryk hele sporet igennem, kort for kort, mens billen tegner sin rute hen over måtten.",
@@ -1007,7 +1007,7 @@
       "Læg kortene i sporet ét ad gangen — der sker ingenting imens.",
       "Lad klassen sige højt, hvilket felt billen ender på.",
       "Tryk Kør, og se billen gå kortene igennem.",
-      "Byt ét kort ud, og kør igen — den blege rute viser den forrige tur.",
+      "Tryk på et kort på skinnen for at bytte det. Kør så igen.",
       "Slå Se med billens øjne til, når klassen er uenige om venstre og højre."
     ],
     "classroomIdeas": [

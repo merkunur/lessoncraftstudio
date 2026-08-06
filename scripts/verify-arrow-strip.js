@@ -37,6 +37,28 @@ const SRC = fs.readFileSync(path.join(TOOL_DIR, 'arrow-strip.js'), 'utf8');
 const SRC_NC = SRC.replace(/\/\*[\s\S]*?\*\//g, '').replace(/^\s*\/\/.*$/gm, '');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 
+/* ⚠ MEASURE THE STYLESHEET, NOT ITS SOURCE LAYOUT. The CSS is built by
+   concatenating string literals, so a single declaration can be split
+   across three source lines with quotes and plus signs between — and a
+   regex over the raw source then fails to find a rule that is plainly
+   there. Rejoin the literals first. This also strips the comments, which
+   otherwise let a `@media` mentioned in PROSE be counted as an open
+   block: that alone reported the height escape as living inside a media
+   query when it is the first rule in the file. */
+const CSS = (function () {
+  /* ⚠ START AT THE STRING, NOT AT THE FUNCTION. Starting at
+     `function injectArrowStripCSS(` puts the JS function's own opening
+     brace into the brace count, so the FIRST css rule measures as nested
+     one level deep and a correct unconditional escape reads as being
+     inside a block. */
+  const i = SRC.indexOf("var css = ''");
+  const body = i < 0 ? '' : SRC.slice(i);
+  return body
+    .replace(/\/\*[\s\S]*?\*\//g, '')
+    .replace(/'\s*\n\s*\+\s*'/g, '')
+    .replace(/'\s*\+\s*'/g, '');
+}());
+
 let ERRORS = 0, WARNS = 0;
 const err = (m) => { ERRORS++; console.error('  ERROR  ' + m); };
 const warn = (m) => { WARNS++; console.log('  warn   ' + m); };
@@ -222,11 +244,31 @@ console.log('[the stance]');
   const before = JSON.stringify(st);
   [null, undefined, NaN, -5, 1e9, 'x', {}, []].forEach((b) => {
     try {
-      T.applyCard(st.pose, b, N); T.run(st.pose, b, b); T.addCard(st, b); T.setCard(st, b, b);
+      T.applyCard(st.pose, b, N); T.run(st.pose, b, b); T.insertCard(st, b, b); T.setCard(st, b, b);
       T.removeCard(st, b); T.setMat(st, b); T.inverseRail(b); T.blocked(st.pose, b, N);
     } catch (e) { err(`A6 hostile input ${String(b)} threw: ${e.message}`); }
   });
-  T.addCard(st, 'F'); T.doRun(st); T.clearRail(st); T.toggleEye(st);
+  /* ⚠⚠ THE IMMUTABILITY PROBE MUST RUN ON A POPULATED STATE. A fresh one
+     has rail:[], ranRail:null, ghost:null — so `clearRail` mutating its
+     input IN PLACE sets each of those to the value it already had, and
+     the JSON compare cannot see it. A mutation of clearRail SURVIVED this
+     check for exactly that reason. Every mutator now gets a state on
+     which it has something to change, and the state is asserted
+     non-default first so the probe can never go vacuous again. */
+  let full = T.newState();
+  ['F', 'F', 'R', 'F'].forEach((c) => { full = T.insertCard(full, full.rail.length, c); });
+  full = T.doRun(full);
+  full = T.insertCard(full, 1, 'B');
+  full = T.doRun(full);
+  full = T.toggleEye(full);
+  if (!full.rail.length || !full.ranRail || !full.ghost || full.eye !== 'beetle') {
+    err('A6 the immutability probe state is not populated — the check would be vacuous'); return;
+  }
+  const fullBefore = JSON.stringify(full);
+  T.insertCard(full, 0, 'L'); T.setCard(full, 0, 'B'); T.removeCard(full, 0); T.removeLast(full);
+  T.cycleCard(full, 0); T.doRun(full); T.clearRail(full); T.toggleEye(full);
+  T.setStart(full, 0, 0); T.turnStart(full); T.setMat(full, 8); T.setPose(full, 4, 0, 0, 1);
+  if (JSON.stringify(full) !== fullBefore) err('A6 a model call mutated its input');
   if (JSON.stringify(st) !== before) err('A6 a model call mutated its input');
   if (!ERRORS) console.log('  A6 the model is pure and immutable, and hostile input clamps rather than throwing');
 }());
@@ -245,11 +287,11 @@ console.log('[the stance]');
      rail, which also made the ghost identical to the new run, so
      invention 2 silently did nothing. Structural now, and gated. */
   let st = T.newState();
-  ['F', 'F', 'R', 'F'].forEach((c) => { st = T.addCard(st, c); });
+  ['F', 'F', 'R', 'F'].forEach((c) => { st = T.insertCard(st, st.rail.length, c); });
   st = T.doRun(st);
   const drawn = T.path(st).map(key).join('|');
   let edited = T.setCard(st, 2, 'L');
-  edited = T.addCard(edited, 'B');
+  edited = T.insertCard(edited, edited.rail.length, 'B');
   edited = T.removeCard(edited, 0);
   if (T.path(edited).map(key).join('|') !== drawn) { err('A14 ⭐ editing the rail redrew the trail — the tool is executing as you build'); return; }
   if (edited.rail.join('') === st.rail.join('')) { err('A14 the edit did not take — the check is vacuous'); return; }
@@ -403,9 +445,18 @@ const ABS_BY_LOCALE = {
   const sEnd = SRC_NC.indexOf('STORE_KEY:');
   if (sStart < 0 || sEnd <= sStart) { err('A15 could not bound the strings block'); return; }
   const rest = SRC_NC.slice(0, sStart) + SRC_NC.slice(sEnd);
-  /* `title` is consumed by the SHELL (lcs-shell.js:448 i18n.t(tool.strings,
-     'title')), never by the tool, so it can never appear here. */
-  const SHELL_OWNED = ['title'];
+  /* ⚠ AN AUDITABLE LIST WITH A LINE REFERENCE EACH, NEVER A LOOSENED SCAN.
+     Both of these are read by the SHELL and never by the tool, so neither
+     can ever appear in the tool's own source:
+       title       lcs-shell.js:448  i18n.t(tool.strings, 'title')
+       instruction lcs-shell.js:449  i18n.t(tool.strings, 'instruction'),
+                   rendered at :461 as <p class="lcs-instruction"> and
+                   folded into the role="application" label at :450-456.
+     ⚠ `instruction` is ALSO display:none in every embed (lcs-shell.css:261),
+     which is why nothing load-bearing may live only there — but that is a
+     content rule, not a reachability one, and it does not make the key
+     dead. Verified by reading lcs-shell.js, not asserted. */
+  const SHELL_OWNED = ['title', 'instruction'];
   const isLive = (k) => SHELL_OWNED.indexOf(k) > -1 || rest.indexOf("'" + k + "'") > -1;
   const keys = Object.keys(T.strings);
   const dead = keys.filter((k) => !isLive(k));
@@ -460,18 +511,240 @@ const ABS_BY_LOCALE = {
   /* A12 ⭐ every noun-labelled control does what it says — the lesson from
      number-sieve's "New cards", which set a flag, dealt nothing, and
      passed the liveness gate because the DOM changed. */
-  const runH = /runBtn[\s\S]{0,400}?addEventListener\('click',\s*function \(\)\s*\{([\s\S]*?)\}\)/.exec(SRC_NC);
+  /* ⚠ FOLLOW ONE LEVEL OF INDIRECTION — DO NOT DROP THE ASSERTION.
+     The rebuild's Run handler calls `self._playRun()`, which calls
+     `doRun`. The first cut of this check read only the handler body and
+     reported "could not find the Run handler" on a CORRECT tool — a gate
+     condemning working code, which is how a panel gets taught to write
+     around a gate instead of reporting it. The fix widens what is
+     MEASURED (resolve a `self._method()` call into that method's body),
+     never what is accepted: the assertion is still that pressing Run
+     reaches doRun. Poison-tested below in both directions. */
+  /* ⚠ ANCHOR ON THE ELEMENT, NOT ON THE LABEL. The label now lives in
+     _sync() and the handler in _build(), hundreds of lines apart, so a
+     "find runBtn then look 400 chars ahead" anchor reported a MISSING
+     handler on a tool whose handler was right there. Anchoring on the
+     block the rule must affect, not the first plausible match. The label
+     is asserted separately below, so the pairing is still proved. */
+  const bodyOfHandler = (elName) => {
+    const h = new RegExp('els\\.' + elName + '\\.addEventListener\\(\'click\',\\s*function \\(\\)\\s*\\{([\\s\\S]*?)\\}\\);').exec(SRC_NC);
+    if (!h) return null;
+    let body = h[1];
+    /* resolve every `self._foo(` / `this._foo(` the handler calls */
+    const calls = body.match(/(?:self|this)\.(_[A-Za-z0-9]+)\s*\(/g) || [];
+    calls.forEach((c) => {
+      const name = /(_[A-Za-z0-9]+)/.exec(c)[1];
+      const m = new RegExp('\\n  ' + name + ':\\s*function[\\s\\S]*?\\n  \\},').exec(SRC_NC);
+      if (m) body += '\n' + m[0];
+    });
+    return body;
+  };
+  /* each control: it wears the label it should, AND it does what that
+     label says. Both halves, or the pairing is unproved. */
+  [['run', 'runBtn'], ['clear', 'clearBtn'], ['back', 'backBtn']].forEach(([el, key]) => {
+    if (!new RegExp('els\\.' + el + '\\.textContent = api\\.t\\(\'' + key + '\'\\)').test(SRC_NC)) {
+      err(`A12 the ${el} control is not labelled from '${key}'`);
+    }
+  });
+  const runH = bodyOfHandler('run');
   if (!runH) { err('A12 could not find the Run handler'); return; }
-  if (!/doRun\s*\(/.test(runH[1])) { err('A12 ⭐ the Run control does not run the rail — a noun-labelled control must do what its label says'); return; }
-  const clearH = /clearBtn[\s\S]{0,400}?addEventListener\('click',\s*function \(\)\s*\{([\s\S]*?)\}\)/.exec(SRC_NC);
-  if (!clearH || !/clearRail\s*\(/.test(clearH[1])) { err('A12 the Empty-the-rail control does not empty the rail'); return; }
+  if (!/doRun\s*\(/.test(runH)) { err('A12 ⭐ the Run control does not run the rail — a noun-labelled control must do what its label says'); return; }
+  const clearH = bodyOfHandler('clear');
+  if (!clearH || !/clearRail\s*\(/.test(clearH)) { err('A12 the Empty-the-rail control does not empty the rail'); return; }
+  const backH = bodyOfHandler('back');
+  if (!backH || !/removeLast\s*\(/.test(backH)) { err('A12 the take-the-last-card-off control does not remove the last card'); return; }
+  /* POISON, BOTH WAYS: it must find doRun through the indirection, and it
+     must NOT find a method the handler never calls. */
+  if (/cycleCard\s*\(/.test(runH)) { err('A12 POISON: the indirection resolver pulled in a method the Run handler never calls'); return; }
   /* A9 the mat must be square or the quarter-turn stops being exact */
   if (!/aspect-ratio:1\/1/.test(SRC)) err('A9 the mat is not square — the frame rotation would stop being exact');
   if (/\.arw-cell\{[^}]*aspect-ratio/.test(SRC)) err('A9 aspect-ratio is on the CELL — it belongs on the mat container, or the track over-inflates and the last column leaves the box while scrollWidth stays clean');
   if (!/\.arw-card\{[^}]*min-height:44px/.test(SRC)) err('A9 the cards are CONTROLS and must hold the 44px floor');
-  if (!/--arw-cell:\s*clamp\(3[4-9]px|--arw-cell:\s*clamp\(4[0-9]px/.test(SRC)) err('A9 no 34px mat-cell floor found');
+  /* ⚠ THE FLOOR MOVED, AND THE NEW FORM IS STRICTLY STRONGER. Build #1 put
+     it in a clamp on the CELL — `clamp(34px, 7.2vmin, 58px)` — which only
+     holds while the middle term is small, and whose middle term read the
+     IFRAME's height and therefore pinned every desktop AT the floor. The
+     floor is now derived on the mat's SIDE, `max(34px*cols + gaps, …)`, so
+     a 34px cell is guaranteed by arithmetic at every viewport rather than
+     by a clamp arm. Fix what is measured, never the threshold. */
+  if (!/--arw-side:max\(calc\(34px \* var\(--arw-cols/.test(CSS)) err('A9 no 34px mat-cell floor found — the mat side must be floored at 34px x cols plus its gaps');
   if (/\.style\.background\s*=/.test(SRC_NC)) err('A9 an inline background SHORTHAND assignment exists — it resets background-image and beats the stylesheet');
   if (!ERRORS) console.log('  A9/A12 the mat is square, the two tap floors hold, and every noun-labelled control does what it says');
+}());
+
+/* ---------- A16 ⭐⭐ THE 422px UNPIN, AND NOTHING MAY RE-PIN IT ---------- */
+(function () {
+  /* lcs-shell.css:54 html,body{height:100%} -> :63-70 .lcs-app{height:100%;
+     overflow:hidden}. `.lcs-app.activity{height:auto}` is the only escape
+     and a free-play manipulative never gets it, so .lcs-app's height IS the
+     iframe's height, the shell measures that same box and posts it to the
+     parent, and the loop's fixed point is 422. Build #1 added `arw-wide`
+     and never wrote the rule, so the class was INERT and every desktop
+     rendered a 214px mat with the Run button clipped off the bottom. */
+  const esc = /html\.arw-html,html\.arw-html body\.arw-wide\{[^}]*height:auto/.exec(CSS);
+  if (!esc) { err('A16 ⭐⭐ the height-chain escape is missing — the iframe will pin at its initial height and every desktop renders at phone size'); return; }
+  /* ⚠ IT MUST NOT SIT INSIDE A MEDIA QUERY. A sibling shipped this escape
+     at @media (max-width:700px) and the production embed measures ~704px:
+     it missed by FOUR PIXELS. A width is the wrong key.
+     ⚠ Counted on the FLATTENED css: the first cut counted `@media` over
+     the raw source, where the doc comments discuss the print block in
+     prose, and reported a correct unconditional rule as living inside a
+     media query. Measure the stylesheet, not the file. */
+  const before = CSS.slice(0, esc.index);
+  const depth = (before.match(/\{/g) || []).length - (before.match(/\}/g) || []).length;
+  if (depth > 0) { err('A16 ⭐⭐ the escape is nested inside a block — it must be unconditional'); return; }
+  /* the class the CSS scopes must be the class the JS adds, or every rule
+     is present and inert — which is exactly how build #1 shipped */
+  if (!/classList\.add\('arw-html'\)/.test(SRC_NC) || !/classList\.add\('arw-wide'\)/.test(SRC_NC)) { err('A16 the CSS scopes a class the JS never adds'); return; }
+  if (!/classList\.remove\('arw-html'\)/.test(SRC_NC)) { err('A16 destroy() leaks the html class onto every subsequent tool'); return; }
+  /* ⚠ NO HEIGHT-KEYED TIER ANYWHERE. min-height inside the iframe resolves
+     against the iframe, so every such tier is dead code. All four of build
+     #1's were, together with sixty lines of arithmetic derived from a card
+     width that never existed. */
+  const heightKeyed = CSS.match(/@media[^{]*min-height/g) || [];
+  if (heightKeyed.length) { err(`A16 ⭐ ${heightKeyed.length} tier(s) keyed on min-height — dead code inside the iframe`); return; }
+  /* ⚠ AND NO vh / vmin. Both read the iframe's height, which is the content
+     height: either one closes the loop the escape exists to open. */
+  const vhits = (CSS.match(/\d+(?:\.\d+)?(?:vh|vmin)\b/g) || []);
+  if (vhits.length) { err(`A16 ⭐ ${vhits.length} vh/vmin term(s) — they resolve against the iframe and feed back: ${vhits.slice(0, 4).join(', ')}`); return; }
+  /* the only height signal allowed is the physical screen, read once */
+  /* ⚠ AND IT MUST BE THE PARENT'S VIEWPORT, NOT THE SCREEN. `screen
+     .availHeight` is outside the layout and therefore non-circular, which
+     is why I reached for it — but headless reports 600 whatever the
+     viewport is, so the sweep measured a mat frozen at 372px from 1024 all
+     the way to 2560 with every gate green. A signal the gate cannot see is
+     a signal nobody can verify. The parent page's innerHeight is real,
+     same-origin, and outside this tool's own layout. */
+  if (!/window\.parent\.innerHeight/.test(SRC_NC) || !/--arw-sidecap/.test(SRC)) { err('A16 no non-circular height guard — the mat has no vertical budget at all'); return; }
+  if (/screen\.availHeight/.test(SRC_NC)) { err('A16 screen.availHeight is back — it is unverifiable in the harness and it froze the mat at 372px'); return; }
+  /* POISON, BOTH WAYS */
+  if (/@media[^{]*min-height/.test('@media (min-width:900px){')) { err('A16 POISON: the height-keyed scan fires on a width-only tier'); return; }
+  if (!/@media[^{]*min-height/.test('@media (min-width:1367px) and (min-height:880px){')) { err('A16 POISON: the height-keyed scan does not fire on build #1’s own dead tier'); return; }
+  if (!/\d+(?:\.\d+)?(?:vh|vmin)\b/.test('clamp(34px,7.2vmin,58px)')) { err('A16 POISON: the vmin scan does not fire on build #1’s own cell clamp'); return; }
+  if (/\d+(?:\.\d+)?(?:vh|vmin)\b/.test('max-width:min(1240px,96vw)')) { err('A16 POISON: the vmin scan fires on a vw term, which is legal'); return; }
+  console.log('  A16 ⭐⭐ the height chain is broken unconditionally, every tier is width-keyed, and no vh/vmin can re-pin it (poison-tested both ways)');
+}());
+
+/* ---------- A17 ⭐⭐ NO DEAD MODEL FUNCTION ---------- */
+(function () {
+  /* ⭐⭐ A NEW CLASS, AND THE ONE THAT FELL THROUGH WAS THE TOOL'S HEADLINE
+     ROUTINE. A15 forbids a dead STRING; nothing forbade a dead MODEL
+     FUNCTION. `setCard` was defined, exhaustively correct, exercised by
+     THIS GATE at A14 — and called from no handler anywhere, so "change ONE
+     card and run it again", the move the header calls the thing that
+     matters, could not be performed by any teacher. The gate certified the
+     invention through a path the UI could not reach. */
+  const modelStart = SRC_NC.indexOf('newState: function');
+  const modelEnd = SRC_NC.indexOf('_loadStore: function');
+  const model = SRC_NC.slice(modelStart, modelEnd);
+  const defined = (model.match(/\n  ([a-zA-Z][A-Za-z0-9]*): function/g) || [])
+    .map((m) => m.trim().split(':')[0])
+    .filter((n) => n[0] !== '_');
+  /* `inverseRail` is deliberately gate-only: refusal 9 records that the
+     inverse is FALSE whenever anything blocked, so wiring it to a control
+     would silently lie on edge mats AND manufacture a goal square. It is
+     the one exemption, and it carries its reason. */
+  /* ⚠ AN AUDITABLE EXEMPTION LIST WITH A REASON EACH, NEVER A LOOSER SCAN.
+       inverseRail — refusal 9: the inverse is FALSE whenever anything
+                     blocked, so wiring it to a control would silently lie
+                     on edge mats AND manufacture a goal square. A2 owns it.
+       blocked     — the boolean roll-up of blockedAt; A2/A3 use it to skip
+                     the runs A3 owns. The RENDER uses blockedAt, which is
+                     the one that can name the card.
+     ⚠ And the scan is over the WHOLE file, not "outside the model": a
+     model-internal helper called only by another model function (applyCard
+     by run, positions by trailPoints) is perfectly alive, and the first cut
+     of this check condemned six of them. The defect being caught is
+     DEFINED-AND-CALLED-BY-NOTHING, which is what setCard was. */
+  const GATE_ONLY = ['inverseRail', 'blocked'];
+  const dead = defined.filter((n) => GATE_ONLY.indexOf(n) < 0 && !new RegExp('\\.' + n + '\\s*\\(').test(SRC_NC));
+  if (dead.length) { err(`A17 ⭐⭐ model function(s) defined and called by nothing: ${dead.join(', ')}`); return; }
+  if (defined.length < 12) { err(`A17 the model scan found only ${defined.length} functions — it is measuring almost nothing`); return; }
+  if (defined.indexOf('setCard') < 0) { err('A17 setCard is gone — the in-place edit IS the routine'); return; }
+  /* ⚠ setCard is the one that fell through last time, so it gets its own
+     assertion: the cycle must go THROUGH it, not around it via the array. */
+  const cyc = /cycleCard: function[\s\S]*?\n  \},/.exec(SRC_NC);
+  if (!cyc || !/this\.setCard\s*\(/.test(cyc[0]) || !/this\.removeCard\s*\(/.test(cyc[0])) {
+    err('A17 ⭐⭐ cycleCard mutates the rail array directly — that is how setCard and removeCard become dead again'); return;
+  }
+  if (/\.splice\s*\(/.test(cyc[0]) || /rail\[\w+\]\s*=/.test(cyc[0])) { err('A17 cycleCard still touches the array itself'); return; }
+  /* POISON: a name nothing defines must read as unreachable */
+  if (new RegExp('\\.neverDefinedFn\\s*\\(').test(SRC_NC)) { err('A17 POISON: the reachability scan is vacuous'); return; }
+  console.log(`  A17 ⭐⭐ all ${defined.length} public model functions are called by something, and the cycle goes through setCard/removeCard (2 gate-only exemptions, each with its reason)`);
+}());
+
+/* ---------- A18 ⭐⭐ A TURN IS VISIBLE ON THE TRAIL ---------- */
+(function () {
+  /* ⭐⭐ THE DEEPEST DEFECT IN BUILD #1, AND A PANEL FOUND IT, NOT ME.
+     The trail was a polyline of (c+.5, r+.5), so a turn produced two
+     IDENTICAL consecutive points and contributed zero geometry. [F,F] and
+     [F,L,R,F] drew the same line; [L,L,L,L] ran the whole rail and drew
+     NOTHING AT ALL. The header's ONE THESIS is that turns matter, and the
+     artefact it calls the product rendered them as literally nothing. */
+  const P = { r: 2, c: 2, h: 0 }, N = 6;
+  const sig = (rail) => JSON.stringify([
+    T.trailPoints(T.run(P, rail, N)).map((p) => p.x.toFixed(3) + ',' + p.y.toFixed(3)),
+    T.pivotsFromPath(T.run(P, rail, N)).map((v) => v.r + ':' + v.c + ':' + v.h + ':' + v.dir)
+  ]);
+  if (sig(['F', 'F']) === sig(['F', 'L', 'R', 'F'])) { err('A18 ⭐⭐ [F,F] and [F,L,R,F] render identically — the two cards the tool exists to teach are invisible'); return; }
+  const spin = T.pivotsFromPath(T.run(P, ['L', 'L', 'L', 'L'], N));
+  if (spin.length !== 4) { err(`A18 ⭐⭐ a four-turn rail marks ${spin.length} pivots, not 4 — it must draw a full circle on one square`); return; }
+  if (!spin.every((v) => v.r === P.r && v.c === P.c && v.dir === -1)) { err('A18 the four pivots are not all on the start square turning the same way'); return; }
+  if (T.pivotsFromPath(T.run(P, ['F', 'F'], N)).length !== 0) { err('A18 a step marked a pivot'); return; }
+  /* every heading is represented, so no quarter of the circle is missing */
+  if (new Set(spin.map((v) => v.h)).size !== 4) { err('A18 the four pivots do not cover four distinct headings'); return; }
+  console.log('  A18 ⭐⭐ a turn is visible on the trail: [F,F] and [F,L,R,F] differ, and [L,L,L,L] draws four pivots on one square');
+}());
+
+/* ---------- A19 ⭐ A REVISITED SQUARE DRAWS TWO LANES ---------- */
+(function () {
+  /* [F,F,B,B] is the first rail most children build, and in build #1 it
+     rendered identically to [F,F] — the tool looked broken at the exact
+     moment it should be most interesting. */
+  const P = { r: 4, c: 2, h: 0 }, N = 6;
+  const there = T.trailPoints(T.run(P, ['F', 'F'], N));
+  const andBack = T.trailPoints(T.run(P, ['F', 'F', 'B', 'B'], N));
+  if (JSON.stringify(there) === JSON.stringify(andBack)) { err('A19 ⭐ a there-and-back rail draws the same line as the outbound leg alone'); return; }
+  /* the two lanes must be separated by about 2 x delta, and never zero */
+  const gaps = [];
+  andBack.forEach((a, i) => andBack.forEach((b, j) => {
+    if (j > i) { const d = Math.hypot(a.x - b.x, a.y - b.y); if (d < 0.5) gaps.push(d); }
+  }));
+  if (!gaps.length) { err('A19 the offset construction produced no near pairs — it is measuring nothing'); return; }
+  if (Math.min.apply(null, gaps) < 0.15) { err(`A19 ⭐ the outbound and return lanes are ${Math.min.apply(null, gaps).toFixed(3)} apart — under a 0.18 stroke they merge into one line`); return; }
+  /* a straight run must NOT be bent by the offset: every point on one side */
+  const straight = T.trailPoints(T.run(P, ['F', 'F', 'F'], N));
+  if (new Set(straight.map((p) => p.x.toFixed(4))).size !== 1) { err('A19 the offset bent a straight run'); return; }
+  console.log(`  A19 ⭐ a revisited square draws two lanes ${Math.min.apply(null, gaps).toFixed(3)} apart, and a straight run stays straight`);
+}());
+
+/* ---------- A20 ⭐ THE BEETLE'S-EYE VIEW, AND THE PRINT LOCK ---------- */
+(function () {
+  /* D5: build #1 rotated by pose.h — the START heading, which doRun never
+     touches — while drawing the beetle at endPose, so at the default h:0
+     the flagship control applied rotate(0deg) and THE MAT DID NOT MOVE.
+     And it pinned the beetle to the BOX centre while the frame turned
+     about the MAT centre; every mat is even-sided, so there is no centre
+     square and the beetle stood on the corner of four squares ALWAYS. */
+  if (/arw-fixed/.test(SRC)) { err('A20 ⭐ the beetle is still pinned outside the frame — it will be drawn off its own square'); return; }
+  if (/arw-turned/.test(SRC)) { err('A20 `arw-turned` is a class with no rule — dead'); return; }
+  const ff = /_frameFor: function[\s\S]*?\n  \},/.exec(SRC_NC);
+  if (!ff) { err('A20 could not find the frame rotation'); return; }
+  if (/pose\.h/.test(ff[0])) { err('A20 ⭐ the frame rotates by the START heading, which doRun never touches — press it after a turn card and the mat does not move'); return; }
+  if (!/_deg/.test(ff[0])) { err('A20 the frame does not rotate by the beetle’s current facing'); return; }
+  /* the beetle must be a child of the frame in BOTH views */
+  if (!/frame\.appendChild\(els\.beetle\)/.test(SRC_NC)) { err('A20 the beetle does not ride inside the rotating frame'); return; }
+  /* PRINT — double-locked: absent from the DOM AND every rule scoped */
+  if (!/if \(!this\.premium\) return;/.test(SRC_NC)) { err('A20 the print sheet is not removed from the DOM when unentitled'); return; }
+  const pm = /@media print\{([\s\S]*?)\+ '\}';/.exec(SRC);
+  if (!pm) { err('A20 could not find the print block'); return; }
+  const reveals = (pm[1].match(/\+\s*'([^']*display:block[^']*)'/g) || []);
+  if (!reveals.length) { err('A20 the print block reveals nothing — it is measuring nothing'); return; }
+  const unscoped = reveals.filter((r) => r.indexOf('body.arw-paid') < 0);
+  if (unscoped.length) { err(`A20 ⭐ ${unscoped.length} print reveal(s) not scoped body.arw-paid — Ctrl+P hands a free visitor the paid sheet`); return; }
+  if (!/\.arw-wrap\{display:none !important;\}/.test(pm[1])) { err('A20 the live apparatus is not hidden on paper'); return; }
+  if (!/@page\{size:A4 portrait/.test(pm[1])) { err('A20 no page size — a US-Letter default silently changes the mat relationship'); return; }
+  console.log('  A20 ⭐ the mat turns by the beetle’s CURRENT facing with the beetle riding it, and the print sheet is double-locked');
 }());
 
 console.log('');

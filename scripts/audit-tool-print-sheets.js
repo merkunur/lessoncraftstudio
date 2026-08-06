@@ -98,7 +98,28 @@ const TOOLS = [
   { key: 'cold-line', p: 'cld', apparatus: '.cld-sheet' },
   { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' },
   /* the three found printing the whole web page, now with sheets */
-  { key: 'arrow-strip', p: 'arw', apparatus: '.arw-mat' },
+  /* ⚠ arrow-strip NOW PRINTS A PURPOSE-BUILT PLANNING SHEET, and it is
+     DOUBLE-LOCKED. The apparatus on paper is `.arw-pmat` — the line-art
+     mat inside `.arw-sheet` — NOT `.arw-mat`, which is the LIVE apparatus
+     and is now correctly `display:none` on paper. Pointing the probe at
+     the live mat measured a hidden element and reported "the apparatus
+     does not reach the page" about a sheet that prints perfectly.
+     And the subtree is ABSENT until entitled (`_ensureSheet` returns early
+     when `!premium`), so the prime has to force the tier before the sheet
+     exists at all — the same shape as sorting-hoops and lids.
+     What prints: the mat with the START pose and never the trail, the two
+     blank rails ("first run" / "second run — change one card"), the four
+     card faces to cut out, and the movement rule in words. */
+  {
+    key: 'arrow-strip', p: 'arw', apparatus: '.arw-pmat',
+    prime: function () {
+      var T = window.ArrowStrip;
+      if (!T) return;
+      T.premium = true;
+      T.premiumKnown = true;
+      T._sync();
+    }
+  },
   /* ⚠ lids PRINTS A DEDICATED TWO-PAGE SHEET NOW, and it is DOUBLE-LOCKED.
      The shipped build gated only the chip while the @media print block was
      unconditional, so Ctrl+P — which no chip guards — handed a free

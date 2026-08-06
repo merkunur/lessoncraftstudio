@@ -994,7 +994,7 @@
   },
   "arrow-strip": {
     "slug": "binario-delle-frecce-percorsi-reticolo",
-    "name": "Il binario delle frecce",
+    "name": "Il binario dello scarabeo",
     "tagline": "Le carte entrano nel binario e non si muove niente: la classe dice dove si fermerà lo scarabeo, poi una sola pressione esegue tutto il percorso.",
     "about": [
       "Il binario delle frecce è uno strumento per la lavagna della classe. Sullo schermo ci sono tre cose e nient’altro: un reticolo di caselle, un binario vuoto in cui si mettono le carte e uno scarabeo fermo su una casella, girato da una parte. Le carte sono quattro e sono senza parole: avanti, indietro, un quarto di giro da una parte e un quarto di giro dall’altra. Le mettete nel binario e non si muove niente. Poi una sola pressione esegue tutto il binario, una carta per volta, e lo scarabeo lascia la sua scia.",
@@ -1007,7 +1007,7 @@
       "Fai mettere le carte nel binario da due o tre bambini, una alla volta, senza commentare.",
       "Prima di eseguire, chiedi alla classe di dire ad alta voce su quale casella si fermerà.",
       "Tocca «Esegui» e guardate insieme la scia che si disegna, una carta per volta.",
-      "Cambiate una carta sola e rieseguite: confrontate la scia nuova con quella sbiadita di prima.",
+      "Toccate una carta nel binario per cambiarla, poi fatelo partire di nuovo.",
       "Accendi «Con i suoi occhi» appena qualcuno discute se un giro va verso la sua sinistra o verso la tua."
     ],
     "classroomIdeas": [

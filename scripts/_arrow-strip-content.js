@@ -9,7 +9,7 @@
 module.exports = {
   "en": {
     "slug": "arrow-strip-directions-turns-classroom-tool",
-    "name": "The Arrow Strip",
+    "name": "The Rail That Waits",
     "tagline": "Build the plan, say where it will stop, then run it — and watch what one changed card does to everything after it.",
     "about": [
       "The Arrow Strip is a square mat on the class screen with a small beetle sitting on it, facing one way. Beside the mat is an empty rail and four cards: go forward, go back, and a quarter turn each way. You drop cards into the rail and nothing happens. That is deliberate. The rail is a plan, and a plan is something you can argue about before it runs. When the class has said out loud where the beetle will stop, one tap runs the whole rail and the beetle draws its trail behind it.",
@@ -22,7 +22,7 @@ module.exports = {
       "Drop three or four cards into the rail. Say nothing while you do it — let them watch the plan being made.",
       "Ask the class to say where the beetle will stop, and get a commitment before anything moves.",
       "Tap \"Run it\" and let the trail draw itself. Do not comment on whether they were right.",
-      "Now change exactly one card — tap a card in the rail to take it out, and add a different one — and run it again. The old trail stays as a ghost.",
+      "Tap a card in the rail to change it, then run it again. The old trail stays.",
       "When someone says a turn card is wrong, press \"See it their way\" and let the mat turn instead of explaining."
     ],
     "classroomIdeas": [
@@ -37,7 +37,7 @@ module.exports = {
   },
   "de": {
     "slug": "kaeferplan-programmieren-ohne-computer",
-    "name": "Der Käferplan",
+    "name": "Der Käfer und die Karten",
     "tagline": "Die Klasse legt den ganzen Weg als Karten, sagt laut vorher, wo der Käfer stehen bleibt — und erst dann läuft er los.",
     "about": [
       "Der Käferplan ist ein Werkzeug für den Klassenbildschirm: eine Matte aus Feldern, ein Käfer, der auf einem Feld sitzt und in eine Richtung schaut, und darunter eine leere Bahn. In die Bahn legen die Kinder Karten — vorwärts, rückwärts und zwei Vierteldrehungen. Solange gelegt wird, bewegt sich der Käfer keinen Millimeter. Erst ein einziger Tipp lässt die ganze Bahn ablaufen, Karte für Karte, und der Käfer zieht dabei seine Spur über die Matte. Bauen und Laufen sind getrennt — und genau das kann kein echter Bodenroboter, der sofort losfährt, sobald ein Kind drückt.",
@@ -50,7 +50,7 @@ module.exports = {
       "Zeigen Sie das Zielfeld und lassen Sie die Kinder die Karten in die Bahn legen.",
       "Halten Sie an, bevor etwas passiert: Die Klasse sagt laut, auf welchem Feld der Käfer stehen bleibt.",
       "Tippen Sie auf Losschicken und lassen Sie den Käfer die ganze Bahn ablaufen.",
-      "Ändern Sie danach genau eine Karte und schicken Sie ihn noch einmal los — die blasse Spur zeigt, wie weit diese eine Karte reicht.",
+      "Tippt in der Schiene eine Karte an – sie wechselt zur nächsten. Dann schickt ihn noch einmal los.",
       "Streitet die Klasse über links und rechts, wechseln Sie in die Käfersicht, während der Käfer die Kinder anschaut."
     ],
     "classroomIdeas": [
@@ -65,7 +65,7 @@ module.exports = {
   },
   "fr": {
     "slug": "deplacements-codes-sur-quadrillage",
-    "name": "La piste qui attend",
+    "name": "La file qui attend",
     "tagline": "On pose les cartes, la classe annonce où la petite bête va s’arrêter — et rien ne bouge tant que personne n’a lancé.",
     "about": [
       "La piste qui attend, c’est un quadrillage projeté au tableau, une petite bête posée dessus qui regarde toujours dans une seule direction, et une piste vide sur le côté. Vous y glissez des cartes : avancer, reculer, un quart de tour vers sa gauche à elle, un quart de tour vers sa droite. Tant que vous remplissez la piste, rien ne bouge du tout. Un seul appui déroule ensuite la piste entière, carte après carte, et la bête laisse sa trace derrière elle. C’est exactement le coder et décoder des déplacements du cycle 2, mais la classe parle avant que quoi que ce soit ne parte.",
@@ -78,7 +78,7 @@ module.exports = {
       "Posez trois ou quatre cartes sur la piste, pas davantage, et dites-le clairement : rien ne bouge encore.",
       "Faites annoncer la case d’arrivée avant le moindre appui, à l’oral, sur l’ardoise, ou en la montrant du doigt.",
       "Lancez, et laissez la trace se dessiner carte après carte sans rien commenter.",
-      "Changez une seule carte au milieu de la piste, puis relancez : la trace précédente reste en fantôme et la classe voit jusqu’où cette carte-là a porté.",
+      "Touchez une carte de la file pour la changer, puis relancez.",
       "Quand la classe se divise sur un quart de tour, appuyez sur « Voir avec ses yeux » et refaites le même lancement."
     ],
     "classroomIdeas": [
@@ -106,7 +106,7 @@ module.exports = {
       "Deje que los niños vayan poniendo tarjetas en el carril, y recuérdeles que todavía no se mueve nada.",
       "Antes de ejecutar, pida a la clase que diga en qué casilla va a parar el escarabajo y que la señale en el tapete.",
       "Ejecute el carril y sigan juntos el rastro, tarjeta por tarjeta.",
-      "Pregunte qué sola tarjeta habría que cambiar, cámbiela y ejecute otra vez: la sombra del intento anterior muestra hasta dónde llegó ese cambio.",
+      "Toquen una tarjeta del carril para cambiarla y pónganlo en marcha otra vez.",
       "Cuando alguien discuta un giro, toque Verlo desde el escarabajo y deje que la clase compruebe de quién es esa izquierda."
     ],
     "classroomIdeas": [
@@ -121,7 +121,7 @@ module.exports = {
   },
   "pt": {
     "slug": "trilho-de-setas-localizacao-e-movimentacao",
-    "name": "Trilho das setas",
+    "name": "O trilho do besouro",
     "tagline": "As cartas entram no trilho e nada se mexe: a turma diz em que casa o besouro vai parar antes de qualquer coisa andar.",
     "about": [
       "O Trilho das setas é um instrumento para a lousa da sala. Na tela há um tapete quadriculado, um besouro parado em uma casa, virado para um lado, e um trilho vazio ao lado. Existem quatro cartas e nada mais: para a frente, para trás e um quarto de volta para cada lado do corpo dele. Você encaixa as cartas no trilho e nada acontece. A turma diz em voz alta em que casa o besouro vai parar. Só então um toque roda o trilho inteiro, carta por carta, e ele vai deixando o rastro por onde passa.",
@@ -134,7 +134,7 @@ module.exports = {
       "Ponha o besouro na casa de onde a turma quer começar e mostre para que lado ele está virado.",
       "Peça três ou quatro cartas à turma e encaixe uma a uma no trilho, sem rodar nada.",
       "Antes de tocar em Rodar, peça que digam em voz alta em que casa ele vai parar.",
-      "Toque em Rodar e deixe o besouro andar carta por carta, sem comentar o palpite de ninguém.",
+      "Toquem em um cartão do trilho para trocá-lo. Depois, rodem de novo.",
       "Troque uma carta só, rode de novo e pergunte por que o rastro mudou tanto lá na frente."
     ],
     "classroomIdeas": [
@@ -149,7 +149,7 @@ module.exports = {
   },
   "it": {
     "slug": "binario-delle-frecce-percorsi-reticolo",
-    "name": "Il binario delle frecce",
+    "name": "Il binario dello scarabeo",
     "tagline": "Le carte entrano nel binario e non si muove niente: la classe dice dove si fermerà lo scarabeo, poi una sola pressione esegue tutto il percorso.",
     "about": [
       "Il binario delle frecce è uno strumento per la lavagna della classe. Sullo schermo ci sono tre cose e nient’altro: un reticolo di caselle, un binario vuoto in cui si mettono le carte e uno scarabeo fermo su una casella, girato da una parte. Le carte sono quattro e sono senza parole: avanti, indietro, un quarto di giro da una parte e un quarto di giro dall’altra. Le mettete nel binario e non si muove niente. Poi una sola pressione esegue tutto il binario, una carta per volta, e lo scarabeo lascia la sua scia.",
@@ -162,7 +162,7 @@ module.exports = {
       "Fai mettere le carte nel binario da due o tre bambini, una alla volta, senza commentare.",
       "Prima di eseguire, chiedi alla classe di dire ad alta voce su quale casella si fermerà.",
       "Tocca «Esegui» e guardate insieme la scia che si disegna, una carta per volta.",
-      "Cambiate una carta sola e rieseguite: confrontate la scia nuova con quella sbiadita di prima.",
+      "Toccate una carta nel binario per cambiarla, poi fatelo partire di nuovo.",
       "Accendi «Con i suoi occhi» appena qualcuno discute se un giro va verso la sua sinistra o verso la tua."
     ],
     "classroomIdeas": [
@@ -177,7 +177,7 @@ module.exports = {
   },
   "nl": {
     "slug": "pijlenbaan-programmeren-kleuters-links-rechts",
-    "name": "De Pijlenbaan",
+    "name": "De kever en het stappenplan",
     "tagline": "Leg de kaarten klaar, laat de klas hardop voorspellen waar de kever stopt, en laat de baan dan pas lopen.",
     "about": [
       "De Pijlenbaan is een klassikaal instrument voor het digibord. Op de mat staat een kever die één kant op kijkt. Daarnaast ligt de baan: een lege rij plekken waarin je kaarten legt. Er zijn precies vier kaarten en er staat geen woord op: vooruit, achteruit, een kwartslag naar zijn eigen linkerkant en een kwartslag naar zijn eigen rechterkant. Terwijl je de baan vult, beweegt er niets. Pas als je op laten lopen tikt, werkt de kever de hele baan kaart voor kaart af en trekt hij zijn spoor over de vakjes.",
@@ -190,7 +190,7 @@ module.exports = {
       "Leg samen kaarten in de baan; er beweegt nog niets.",
       "Laat de klas hardop zeggen op welk vakje hij stopt.",
       "Tik op laten lopen en volg zijn spoor kaart voor kaart.",
-      "Verander één kaart, laat opnieuw lopen en vergelijk met het lichte spoor van daarvoor.",
+      "Tik op een kaart in het stappenplan om hem te veranderen. Laat de kever daarna opnieuw lopen.",
       "Zet de kever met zijn kop naar de klas en kijk zoals hij kijkt."
     ],
     "classroomIdeas": [
@@ -205,7 +205,7 @@ module.exports = {
   },
   "sv": {
     "slug": "programmering-utan-dator-kommandokort",
-    "name": "Kommandorälsen",
+    "name": "Skalbaggens räls",
     "tagline": "Lägg korten på rälsen, låt klassen säga var skalbaggen hamnar — och kör först sedan.",
     "about": [
       "Kommandorälsen är tre saker på klassens skärm och inget mer: en rutmatta, en räls och en skalbagge som sitter på mattan och tittar åt ett håll. Du har fyra kort utan text — framåt, bakåt och två kvartsvarv. Du lägger korten på rälsen och ingenting händer. Klassen säger högt var skalbaggen kommer att hamna. Först därefter trycker du en gång, och rälsen körs kort för kort medan skalbaggen ritar sitt spår över rutorna. Sedan kommer det som betyder mest: byt ett enda kort och kör igen.",
@@ -218,7 +218,7 @@ module.exports = {
       "Lägg korten på rälsen tillsammans med klassen — ingenting rör sig än.",
       "Låt klassen säga högt var skalbaggen kommer att stanna.",
       "Tryck på Kör och följ rälsen kort för kort.",
-      "Byt ett enda kort och kör igen — den bleka linjen visar hur långt just det kortet räckte.",
+      "Tryck på ett kort på rälsen för att byta det. Kör sedan igen.",
       "Vrid mattan med Se med skalbaggens ögon när klassen tvistar om vänster och höger."
     ],
     "classroomIdeas": [
@@ -233,7 +233,7 @@ module.exports = {
   },
   "da": {
     "slug": "pilesporet-programmering-indskoling",
-    "name": "Pilesporet",
+    "name": "Billens skinne",
     "tagline": "Kortene ligger i sporet, og ingenting flytter sig, før klassen har sagt højt, hvilket felt billen ender på — og så kører hele sporet på ét tryk.",
     "about": [
       "Pilesporet er tre ting på tavlen og ikke andet. Måtten er et ternet felt. Sporet er en tom række af pladser, som I lægger kort i. Billen sidder på måtten og vender én bestemt vej. Der findes fire ordløse kort: frem, tilbage og en kvart omgang til hver side. Kortene lægges i sporet, og ingenting flytter sig imens. Klassen siger højt, hvilket felt billen ender på. Først bagefter kører ét tryk hele sporet igennem, kort for kort, mens billen tegner sin rute hen over måtten.",
@@ -246,7 +246,7 @@ module.exports = {
       "Læg kortene i sporet ét ad gangen — der sker ingenting imens.",
       "Lad klassen sige højt, hvilket felt billen ender på.",
       "Tryk Kør, og se billen gå kortene igennem.",
-      "Byt ét kort ud, og kør igen — den blege rute viser den forrige tur.",
+      "Tryk på et kort på skinnen for at bytte det. Kør så igen.",
       "Slå Se med billens øjne til, når klassen er uenige om venstre og højre."
     ],
     "classroomIdeas": [
@@ -261,7 +261,7 @@ module.exports = {
   },
   "no": {
     "slug": "pilbanen-programmering-kommandokort-1-trinn",
-    "name": "Pilbanen",
+    "name": "Billebanen",
     "tagline": "Kortene ligger i banen uten at noe skjer, klassen sier høyt hvor billa stopper, og først da trykker dere Kjør.",
     "about": [
       "Pilbanen er ei rutematte på skjermen foran klassen, med ei bille som sitter på matta og ser én vei, og en tom bane du legger kort i. Det finnes nøyaktig fire kort: ett framover, ett bakover og to som snur billa en kvart omdreining, ett til hver side. Du legger så mange du vil i banen, og ingenting skjer. Klassen sier høyt hvilken rute billa havner i. Så trykker dere Kjør én gang, og billa går kort for kort og tegner sporet sitt etter seg.",
@@ -274,7 +274,7 @@ module.exports = {
       "Legg kortene i banen sammen med klassen, ett om gangen, uten å kjøre.",
       "Spør hvilken rute billa havner i, og la barna vise med hele kroppen hvilken vei den snur.",
       "Trykk Kjør én gang, og se sporet tegne seg kort for kort.",
-      "Bytt ett eneste kort, kjør igjen, og se hvor langt bak i banen det ene byttet rakk.",
+      "Trykk på et kort i banen for å bytte det, og kjør igjen.",
       "Trykk Slik den ser det når klassen er uenige om venstre, og la matta snu seg i stedet for billa."
     ],
     "classroomIdeas": [
@@ -302,7 +302,7 @@ module.exports = {
       "Rakenna rata pudottamalla kortteja peräkkäin, äläkä vielä aja.",
       "Pyydä luokkaa sanomaan ääneen, mihin ruutuun kuoriainen päätyy.",
       "Aja rata ja katsokaa yhdessä, millaisen jäljen kuoriainen piirtää.",
-      "Vaihda yksi kortti, aja uudelleen ja vertaa uutta jälkeä haamujälkeen.",
+      "Napauta radalla olevaa korttia, niin se vaihtuu. Aja sitten uudelleen — vanha jälki jää näkyviin.",
       "Ota ”Kuoriaisen silmin” käyttöön, kun luokka on eri mieltä siitä, kumpaan päin käännös vie."
     ],
     "classroomIdeas": [

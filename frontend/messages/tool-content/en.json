@@ -995,7 +995,7 @@
   },
   "arrow-strip": {
     "slug": "arrow-strip-directions-turns-classroom-tool",
-    "name": "The Arrow Strip",
+    "name": "The Rail That Waits",
     "tagline": "Build the plan, say where it will stop, then run it — and watch what one changed card does to everything after it.",
     "about": [
       "The Arrow Strip is a square mat on the class screen with a small beetle sitting on it, facing one way. Beside the mat is an empty rail and four cards: go forward, go back, and a quarter turn each way. You drop cards into the rail and nothing happens. That is deliberate. The rail is a plan, and a plan is something you can argue about before it runs. When the class has said out loud where the beetle will stop, one tap runs the whole rail and the beetle draws its trail behind it.",
@@ -1008,7 +1008,7 @@
       "Drop three or four cards into the rail. Say nothing while you do it — let them watch the plan being made.",
       "Ask the class to say where the beetle will stop, and get a commitment before anything moves.",
       "Tap \"Run it\" and let the trail draw itself. Do not comment on whether they were right.",
-      "Now change exactly one card — tap a card in the rail to take it out, and add a different one — and run it again. The old trail stays as a ghost.",
+      "Tap a card in the rail to change it, then run it again. The old trail stays.",
       "When someone says a turn card is wrong, press \"See it their way\" and let the mat turn instead of explaining."
     ],
     "classroomIdeas": [

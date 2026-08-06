@@ -124,6 +124,35 @@ const TOOLS = [
   { key: 'heart-words', p: 'hw', apparatus: '.hw-printcard', chrome: '.hw-tools' },
   { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' },
   { key: 'cold-line', p: 'cld', apparatus: '.cld-sheet' },
+  /* CALENDAR WALL. The sheet is the MONTH with the class's own record on
+     it — every date, the school-day ordinal on each counted day, the
+     marks, and a legend carrying the teacher's own words, which are the
+     only language on the page and the reason the sheet is hers.
+     ⚠ DOUBLE-LOCKED, so the prime MUST force the tier: the subtree is
+     absent from the DOM when unpaid AND every print rule is scoped
+     body.cwl-paid. Ctrl+P is guarded by no button, so gating the chip
+     would not have been gating the feature — and a free visitor's Ctrl+P
+     has to yield a NORMAL page, not a blank one, which is why the
+     chrome-hiding rules are scoped too.
+     ⚠ And the sheet is built ON DEMAND, so the prime has to call the
+     builder. Pointing this probe at a lazily-built sheet without doing
+     that is how comparison-planks passed VACUOUSLY in this gate's own
+     first version.
+     ⚠ chrome is '.cwl-dock' because this tool has no '.cwl-foot'; the
+     '.cwl-chip' the generic check looks for is the print chip itself. */
+  {
+    key: 'calendar-wall', p: 'cwl', apparatus: '.cwl-p-grid', chrome: '.cwl-dock',
+    prime: function () {
+      var T = window.CalendarWall;
+      T.premium = true; T.premiumKnown = true;
+      var w = T.wall();
+      T.M.setCountOn(w, T._todayKey, 62);
+      T.M.addEvent(w, T.M.shiftKey(T._todayKey, 3), 'trip', 'Zoo', 2, 'once');
+      T.M.addEvent(w, T.M.shiftKey(T._todayKey, 1), 'off', '', 1, 'once');
+      T._paint();
+      T._buildPrintSheet();
+    }
+  },
   { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' },
   /* the three found printing the whole web page, now with sheets */
   /* ⚠ arrow-strip NOW PRINTS A PURPOSE-BUILT PLANNING SHEET, and it is

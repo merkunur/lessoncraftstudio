@@ -122,6 +122,34 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ CALENDAR WALL AT REST IS A PLAIN MONTH, and the marks are the
+     entire reason it was rebuilt — so an unseeded card sells the one
+     thing the tool already did. Worse, the card it replaces was shot on
+     31 July, the single day of the month when the OLD tool happened to
+     look right (every other day already past, and therefore numbered).
+     Luck is not a seed.
+     ⚠ The closed day is placed on a WEEKDAY the class actually meets,
+     computed rather than hard-offset: the first draft put it on a
+     Saturday, which marks as no-school a day nobody was coming anyway
+     and demonstrates nothing.
+     This puts a real class on the board: sixty-two days counted, a trip
+     four days out with the countdown running, and a closed day making
+     the two numbers differ — which is the tool's whole argument. */
+  'calendar-wall': [
+    { js: "var T=window.CalendarWall,w=T.wall(),i;" +
+          "T.premium=true;T.premiumKnown=true;" +
+          "for(i=61;i>=1;i--){var k=T._todayKey,n=0,g=0;" +
+          "while(n<i&&g++<400){k=T.M.shiftKey(k,-1);if(T.M.isSchoolDay(w,k))n++;}" +
+          "T.M.setCountOn(w,k,62-i);}" +
+          "T.M.setCountOn(w,T._todayKey,62);" +
+          "var trip=T.M.addEvent(w,T.M.shiftKey(T._todayKey,4),'trip','',1,'once');" +
+          "T.M.addEvent(w,(function(){var d=T._todayKey,c=0;while(c<9){d=T.M.shiftKey(d,1);c++;if(T.M.meetsDow(w,T.M.dowOf(d))&&T.M.sleepsBetween(T._todayKey,d)<4)return d;}return T.M.shiftKey(T._todayKey,1);}()),'off','',1,'once');" +
+          "T.M.addEvent(w,T.M.shiftKey(T._todayKey,-3),'bday','',1,'year');" +
+          "T.M.setTarget(w,trip);" +
+          "T.M.setWeatherOn(w,T._todayKey,'sun');" +
+          "T._widx=0;T._paint();", wait: 600 }
+  ],
+
   /* ⭐ SYLLABLE SPLITTER AT REST IS DELIBERATELY A PICTURE AND A DRUM AND
      NOTHING ELSE. The rebuild hides the word until the class has clapped
      it — that hiding IS the tool's central teaching ruling — but it also
@@ -407,6 +435,18 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* a month grid plus the readouts row is tall; at the default width the
+     card goes past the 0.85 aspect where --fit=auto TOP-CROPS, which is
+     how the previous card lost its bottom row. Wider keeps it under. */
+  /* ⚠ TALL ENOUGH TO CONTAIN THE WHOLE MONTH. In embed mode _fitBoard
+     stands down (the iframe is meant to grow), so the board keeps its
+     7-by-rows aspect and the card runs past a short viewport — and
+     body{overflow:hidden} means the element screenshot CLIPS rather
+     than scrolls. Measured: a 1180-wide board is ~1420 tall with its
+     chrome, so anything under that photographs a month with its last
+     week missing, which is the exact defect the old card had. */
+  'calendar-wall': { width: 1180, height: 1560 },
+
   /* ⚠ MEASURED, NOT GUESSED. At the default 720 the seeded bench came out
      720x651 — aspect 0.904, over the 0.85 line — so `--fit=auto` reported
      "ok" and TOP-CROPPED the card: the title went and the hint line at the

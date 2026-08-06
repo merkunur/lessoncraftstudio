@@ -323,8 +323,42 @@ function checkTool(tool, src) {
   if (!/getElementById\(\s*['"]ss-style['"]\s*\)/.test(src)) err('T6 CSS injector not idempotent on #ss-style');
   if (!/@media print/.test(src)) err('T6 no @media print block');
   if (!/prefers-reduced-motion/.test(src)) err('T6 no reduced-motion block');
-  const lcsSel = (src.match(/['"][^'"]*\.lcs-[a-z-]+[^'"]*['"]/g) || []).filter(s => !/ss-wide/.test(s));
-  if (lcsSel.length) err(`T6 tool writes protected .lcs- selectors: ${lcsSel.slice(0, 3).join(' ')}`);
+
+  /* T6b — .lcs- SELECTORS ARE BANNED ON SCREEN, REQUIRED IN PRINT.
+     The old form of this check banned every quoted `.lcs-` string
+     anywhere in the file. That is too wide: `lcs-shell.css` ships NO
+     @media print block at all, so its `html,body{height:100%;overflow:
+     hidden}` and `.lcs-app{max-width:720px;overflow:hidden}` survive into
+     print, and a tool that wants a real worksheet MUST reset the shell
+     before it can lay out a page. 19 sibling tools do exactly that. The
+     wide ban forbade the correct thing, so it is the SCOPE that is fixed
+     here, never the threshold: restyling shared chrome on SCREEN stays
+     banned, and the print reset is allowed — but only after the print
+     block has opened, which is also asserted to be last. */
+  /* ⚠ anchor on the CSS LITERAL `@media print{`, not the prose. The file's
+     own comments discuss "@media print" (explaining why the shell reset is
+     needed at all), and matching those put the boundary hundreds of lines
+     too early — every screen rule then counted as print scope and the
+     "must be last" assertion fired on a correct tool. A gate that reads a
+     comment is measuring the wrong artefact. */
+  /* ⚠ AND SCAN THE CODE, NOT THE PROSE. `[^'"]*` crosses newlines, and an
+     apostrophe in ordinary English ("the child's name") opens a match that
+     runs until the next one — so a COMMENT explaining that the shell hides
+     `.lcs-instruction` was being reported as the tool restyling it. Twice
+     in a row this check measured the wrong artefact. Comments discussing
+     shared chrome are legitimate and load-bearing; only emitted CSS counts. */
+  const code = src.replace(/\/\*[\s\S]*?\*\//g, '').replace(/(^|[^:])\/\/[^\n]*/g, '$1');
+  const printAt = code.indexOf('@media print{');
+  const beforePrint = code.slice(0, printAt < 0 ? code.length : printAt);
+  const screenLcs = (beforePrint.match(/['"][^'"]*\.lcs-[a-z-]+[^'"]*['"]/g) || []);
+  if (screenLcs.length) err(`T6 tool restyles protected .lcs- chrome on screen: ${screenLcs.slice(0, 3).join(' ')}`);
+  /* the print block must be the LAST thing in the stylesheet, or the
+     "after printAt" exemption above would silently cover screen rules */
+  if (printAt >= 0) {
+    const tail = code.slice(printAt);
+    if (/@media\s*\((?!prefers-reduced-motion)/.test(tail))
+      err('T6 a @media block follows @media print — the print reset must be last in the stylesheet');
+  }
 
   /* T7 / T8 / T9 — pure functions, measured */
   const f = path.join(DATA_DIR, 'syllable-splitter-en.json');

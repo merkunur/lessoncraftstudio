@@ -209,7 +209,7 @@ Two disciplines apply:
 
 > ⭐⭐ **BUILD #2. Three of build #1’s own claims were not true in production**, and every
 > one was found by measuring rather than by reading. **The going-dark had NEVER ANIMATED**
-> ( wiped the stage and minted every cell already dark; a CSS transition needs a
+> (`render()` wiped the stage and minted every cell already dark; a CSS transition needs a
 > node that already existed — the platform’s THIRD recurrence of that defect). **The
 > lit↔dark step was drawn at 1.44:1** against a WCAG floor of 3:1, as were the committed
 > marker (1.43) and the “survives” half of a card (1.21), while **amber on deep teal at

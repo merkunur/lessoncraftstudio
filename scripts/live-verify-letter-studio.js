@@ -60,23 +60,57 @@ function get(url) {
   });
 }
 const md5 = (b) => crypto.createHash('md5').update(b).digest('hex');
+const slugOf = (loc) => require(path.join(__dirname, '..', 'frontend', 'messages',
+  'tool-content', loc + '.json'))['letter-studio'].slug;
 
 (async () => {
   console.log('=== live-verify-letter-studio — ' + HOST + ' ===');
 
   /* ---------- A. the served bytes ARE the repo's bytes ---------- */
   head('A  what production is actually serving');
-  const FILES = ['letter-studio.js', 'letter-studio.html', 'stroke-trace-core.js',
-                 'alphabet-trace-core.js', 'number-trace-core.js'];
+  /* ⚠⚠ FETCH THE URL THE WRAPPER ASKS FOR, NOT THE BARE ONE.
+     Every script tag carries a `?v=N` cache-buster, so `?v=9` and the
+     bare path are DIFFERENT cache keys at the edge — and no browser ever
+     requests the bare one. My first version checked the bare path,
+     found Cloudflare's old cached copy, and reported a deploy as stale
+     twice when every URL a teacher's browser actually loads was already
+     correct. Parse the wrapper and ask for exactly what it asks for. */
+  const wrapper = await get(HOST + '/mini-tools/letter-studio.html');
+  const wrapperLocal = md5(fs.readFileSync(path.join(ROOT, 'letter-studio.html')));
   let stale = 0;
-  for (const f of FILES) {
-    const r = await get(HOST + '/mini-tools/' + f);
-    const local = md5(fs.readFileSync(path.join(ROOT, f)));
-    const served = md5(r.body);
-    const same = r.status === 200 && served === local;
+  {
+    /* ⚠⚠ THE HTML CAN NEVER MD5-MATCH, AND ASSERTING IT COULD ONLY EVER
+       FAIL. Cloudflare appends its own challenge-platform script to every
+       HTML response, carrying a PER-REQUEST token — so three consecutive
+       fetches gave three different digests and none of them could equal
+       the repo's. An assertion that cannot pass is exactly as useless as
+       one that cannot fail, and I shipped one of each today.
+       The honest question is whether everything the repo wrote is
+       PRESENT: Cloudflare only ever appends. */
+    const lf = (t) => t.split('\r\n').join('\n');
+    const servedTxt = lf(wrapper.body.toString());
+    const repoTxt = lf(fs.readFileSync(path.join(ROOT, 'letter-studio.html'), 'utf8'));
+    const repoLines = repoTxt.split('\n').map((l) => l.trim()).filter((l) => l.length > 3);
+    const missing = repoLines.filter((l) => servedTxt.indexOf(l) < 0);
+    ok(`the wrapper the repo wrote is present in full (${repoLines.length} lines, ${missing.length} missing)`,
+       wrapper.status === 200 && missing.length === 0, missing[0] || '');
+    if (missing.length) stale++;
+    /* and nothing unexpected precedes it — Cloudflare appends, it does not rewrite */
+    ok('the served wrapper still opens with the doctype the repo wrote',
+       servedTxt.trim().slice(0, 60).indexOf('<!DOCTYPE html>') === 0);
+  }
+  const refs = (wrapper.body.toString().match(/\/mini-tools\/[a-z0-9-]+\.js\?v=\d+/g) || []);
+  ok(`the wrapper references ${refs.length} scripts — non-vacuity before checking any of them`, refs.length >= 4);
+  for (const url of refs) {
+    const f = url.replace('/mini-tools/', '').replace(/\?.*/, '');
+    const local = path.join(ROOT, f);
+    if (!fs.existsSync(local)) continue;             /* lcs-shell etc. live here too */
+    const r = await get(HOST + url);
+    const served = md5(r.body), want = md5(fs.readFileSync(local));
+    const same = r.status === 200 && served === want;
     if (!same) stale++;
-    ok(`${f} is served and matches the repo`, same,
-       `(http ${r.status}, served ${served.slice(0, 8)} vs repo ${local.slice(0, 8)})`);
+    ok(`${url} — the URL the wrapper asks for — matches the repo`, same,
+       `(http ${r.status}, served ${served.slice(0, 8)} vs repo ${want.slice(0, 8)})`);
   }
   if (stale) {
     console.log('\n  ⚠ ' + stale + ' file(s) stale. Cloudflare holds mini-tool bytes for 5 minutes,');
@@ -178,12 +212,36 @@ const md5 = (b) => crypto.createHash('md5').update(b).digest('hex');
 
   /* ---------- E. every locale, on the surface a teacher uses ---------- */
   head('E  all 11 locales, inside the tool page as it really embeds');
+  /* ⚠ A FRESH BROWSER PER LOCALE — the house pattern, and it is here for a
+     measured reason. Sharing one browser across eleven heavy SSR pages
+     made the ELEVENTH fail every run while passing on its own: resource
+     accumulation, not a defect in Finnish. A gate that fails by position
+     rather than by content teaches you to distrust it. */
   for (const loc of LOCALES) {
-    const p = await browser.newPage();
+    const lb = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+    const p = await lb.newPage();
     const errs = [];
     p.on('pageerror', (e) => errs.push(e.message));
     await p.setViewport({ width: 1366, height: 1000 });
-    await p.goto(`${HOST}/${loc}/tools/letter-studio`, { waitUntil: 'networkidle0' });
+    /* the tool pages are heavy SSR routes behind the CDN; networkidle0 at
+       the default 30s timed out on the first cold locale and CRASHED the
+       whole run, taking sections A-D's passes with it. A crash is not a
+       failure and must not be able to erase results already earned. */
+    p.setDefaultNavigationTimeout(90000);
+    try {
+      /* ⚠⚠ THE TOOL PAGE USES EACH LOCALE'S NATIVE SLUG, NOT THE KEY.
+         `/de/tools/letter-studio` is a 404; the real URL is
+         `/de/tools/buchstaben-nachspuren`. Hard-coding the key made this
+         gate report TEN locales broken on a site where all eleven serve
+         200 — the sixth time today a wrong measurement produced a
+         confident false defect. Read the slug the route actually
+         publishes. */
+      await p.goto(`${HOST}/${loc}/tools/${slugOf(loc)}`, { waitUntil: 'domcontentloaded' });
+    } catch (e) {
+      ok(`${loc}: the tool page loads`, false, String(e.message).slice(0, 80));
+      await p.close();
+      continue;
+    }
     await new Promise((r) => setTimeout(r, 2600));
     const r = await p.evaluate(async () => {
       const f = document.querySelector('iframe');
@@ -191,9 +249,20 @@ const md5 = (b) => crypto.createHash('md5').update(b).digest('hex');
       return { w: Math.round(f.getBoundingClientRect().width), h: Math.round(f.getBoundingClientRect().height) };
     });
     let inner = {};
+    /* ⚠ A FLAKY GATE IS BARELY BETTER THAN A WRONG ONE. Running all eleven
+       in sequence, the LAST page reported no iframe while the same locale
+       passed on its own — the tool page lazy-loads it, and the browser is
+       under load by then. Wait for it rather than sampling once. */
+    try { await p.waitForSelector('iframe', { timeout: 25000 }); } catch (_) {}
+    const r2 = await p.evaluate(() => {
+      const f = document.querySelector('iframe');
+      return f ? { w: Math.round(f.getBoundingClientRect().width) } : { noIframe: true };
+    });
+    if (r.noIframe && !r2.noIframe) { r.noIframe = false; r.w = r2.w; }
     if (!r.noIframe) {
       const fh = await p.$('iframe');
       const frame = await fh.contentFrame();
+      await new Promise((x) => setTimeout(x, 1500));
       inner = await frame.evaluate(() => ({
         road: document.querySelectorAll('.ls-road').length,
         rule: document.querySelectorAll('.ls-rule').length,
@@ -208,6 +277,7 @@ const md5 = (b) => crypto.createHash('md5').update(b).digest('hex');
     ok(`${loc}: the tool renders in the tool page (iframe ${r.w}px, ${inner.keys} keys, ${inner.rule} ruling lines, "${(inner.title || '').slice(0, 24)}")`,
        good, errs[0] || (inner.raw ? 'RAW KEY LEAK' : ''));
     await p.close();
+    await lb.close();
   }
 
   await browser.close();

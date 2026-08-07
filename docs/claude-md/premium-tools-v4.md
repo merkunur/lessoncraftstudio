@@ -205,7 +205,29 @@ Two disciplines apply:
 
 ## A · Number, quantity and operations (7)
 
-### A1 · The Number Sieve — ✅ SHIPPED as tool #36
+### A1 · The Number Sieve — ✅ SHIPPED as tool #36, ⭐ REBUILT 2026-08-07
+
+> ⭐⭐ **BUILD #2. Three of build #1’s own claims were not true in production**, and every
+> one was found by measuring rather than by reading. **The going-dark had NEVER ANIMATED**
+> ( wiped the stage and minted every cell already dark; a CSS transition needs a
+> node that already existed — the platform’s THIRD recurrence of that defect). **The
+> lit↔dark step was drawn at 1.44:1** against a WCAG floor of 3:1, as were the committed
+> marker (1.43) and the “survives” half of a card (1.21), while **amber on deep teal at
+> 5.82:1 was unused anywhere**. And **the closing card extinguished exactly ONE number on 44
+> of the 60 shipped boards**, so the enacted-clue thesis held for every card except the one
+> the class cares about.
+> **The fourth move is new:** at the last card the tool deals THREE face-up candidates, of
+> which exactly one closes — the catalog’s own killer question, finally answerable, and the
+> only moment in the tool that asks a child to run a clue FORWARDS. Constructibility
+> measured: 125/125 boards.
+> **Library 60 → 373**, every board ≥4 cards / ≥3 kinds / ≥3 alight at the close / carrying a
+> valid closing choice — unlocked by two pure additions to the search, a deterministic
+> keeper rotation and a penultimate floor.
+> **PAID is now the library + saved boards + the two teacher print pages. PRINTING IS FREE**
+> (the child’s field sheet) — build #1 sold it as paid in all eleven landings while the free
+> Print chip produced a BLANK PAGE. Five native panels found that by reading the model.
+> Full record: [[project_number_sieve_rebuild]].
+
 A grid of every number in range, all alight. Tap a **sealed** clue card and it never *says*
 anything — it **acts**. **THE INVENTION: the clue is enacted, never stated**, so the class reads
 the rule off the *pattern of what died*. Second invention: **scramble the clue order and the

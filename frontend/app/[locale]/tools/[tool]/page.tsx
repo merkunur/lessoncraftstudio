@@ -50,7 +50,7 @@ const BASE_URL = CANONICAL_HOST;
 
 // Bump in lockstep with the activity page's wrapper version when a mini-tool
 // wrapper changes (§A.13.42). Tools read only ?lang / ?embed / ?v.
-const TOOL_WRAPPER_VERSION = '7.76';
+const TOOL_WRAPPER_VERSION = '7.77';
 
 interface PageParams {
   locale: string;
@@ -299,7 +299,7 @@ export default async function ToolPage({ params }: { params: PageParams }) {
             <p className="text-xs text-ink-600/70 max-w-2xl mx-auto leading-snug">{content.tagline}</p>
           </header>
           <div className="relative z-10">
-            <ActivityIframe src={iframeSrc} title={content.name} />
+            <ActivityIframe src={iframeSrc} title={content.name} toolKey={toolKey} />
           </div>
           <div className="relative z-10 mt-3 text-center">
             <a

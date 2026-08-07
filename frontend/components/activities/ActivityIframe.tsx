@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useLocale } from "next-intl";
 import { meterAction } from "@/lib/client-meter";
+import { isCareSurface } from "@/lib/care-surfaces";
 
 /**
  * Activity iframe wrapper that auto-resizes to its content via postMessage.
@@ -35,13 +36,36 @@ const WALL_COPY: Record<string, { title: string; body: string; cta: string }> = 
   fi: { title: "Olet käyttänyt tämän päivän ilmaiset pelikerrat", body: "Palaa huomenna, tai avaa rajaton pelaaminen Opettaja-tilauksella.", cta: "Katso Opettaja-tilaus" },
 };
 
-export function ActivityIframe({ src, title }: { src: string; title: string }) {
+export function ActivityIframe({
+  src,
+  title,
+  toolKey,
+}: {
+  src: string;
+  title: string;
+  /**
+   * ⭐ The tool key, when this iframe is a TOOL rather than an activity.
+   * Care surfaces (`lib/care-surfaces.ts`) are never metered: a
+   * communication board must not be able to show a newly arrived child
+   * "you've used your free plays for today" on the surface they use to
+   * ask for the toilet. Absent for activities, which are metered as
+   * before.
+   * ⚠ The KEY, never the localised slug — the slug differs per locale
+   * (`say-it-board`, `sanomistaulu`, …) and matching on it would exempt
+   * English and meter Finnish.
+   */
+  toolKey?: string;
+}) {
   const locale = useLocale();
   const [height, setHeight] = useState<number>(INITIAL_HEIGHT);
-  const [gate, setGate] = useState<"pending" | "open" | "blocked">("pending");
+  const exempt = isCareSurface(toolKey);
+  const [gate, setGate] = useState<"pending" | "open" | "blocked">(exempt ? "open" : "pending");
   const iframeRef = useRef<HTMLIFrameElement | null>(null);
 
   useEffect(() => {
+    // A care surface is not metered at all — we do not even count the play,
+    // because a counted play is a play that can later be refused.
+    if (exempt) return;
     let cancelled = false;
     meterAction("play").then(({ proceed }) => {
       if (!cancelled) setGate(proceed ? "open" : "blocked");
@@ -49,7 +73,7 @@ export function ActivityIframe({ src, title }: { src: string; title: string }) {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [exempt]);
 
   useEffect(() => {
     function onMessage(ev: MessageEvent) {

@@ -782,16 +782,17 @@
     "name": "El tablero para decirlo",
     "tagline": "Un niño sin palabras toca una imagen, y el grupo lo escucha.",
     "about": [
-      "El tablero le da voz a un niño recién llegado desde su primera mañana. Doce imágenes, doce cosas que un niño de cinco años de verdad necesita poder decir — necesito ayuda, no entiendo, necesito ir al baño, ¿puedo jugar yo también? — y un toque las dice en voz alta, en el idioma del aula. No es enseñanza de vocabulario y no es una evaluación: es una manera de que lo escuchen antes de haber aprendido una sola palabra del idioma nuevo.",
+      "El tablero le da voz a un niño recién llegado desde la primera mañana. Sesenta y ocho imágenes en seis grupos pequeños — y las ocho más importantes se quedan siempre en pantalla, siempre en el mismo sitio. Sí. No. Necesito ayuda. No entiendo. Necesito ir al baño. Para. Mírame, por favor. Ya terminé. Un toque y la frase suena en voz alta, en el idioma del aula. No es enseñanza de vocabulario ni una prueba: es una forma de ser escuchado el primer día, antes de haber aprendido una sola palabra del idioma nuevo.",
       "Las imágenes van primero, y eso es una decisión, no un estilo. Un dibujo se entiende hable el niño el idioma que hable: por eso el tablero sirve para el niño ucraniano, árabe, turco o somalí que llega en noviembre a un aula en español — es para él. Si su lengua familiar es una de nuestras once, puedes añadirla y cada tarjeta lleva entonces dos líneas. Es un extra, nunca la condición — y cuando está, la lengua familiar va arriba, del mismo tamaño y del mismo color, porque el idioma de un niño no es el pequeño.",
-      "Del niño no se mide nada. Sin nivel, sin puntuación, sin barra de progreso, sin contar palabras aprendidas — todos los productos de este campo añaden una, y ésa es justamente la parte dañina. Todo el tablero es gratis y seguirá siéndolo, porque la voz de un niño no se vende. No se guarda nada y no se envía nada. El plan Docente añade solo el lado del adulto: una tarjeta para imprimir, para la mesa o para el cordón, así las doce frases acompañan al niño donde no hay pantalla."
+      "No se mide nada sobre el niño. No hay nivel, ni puntuación, ni barra de progreso, ni registro de qué tarjetas se han tocado — todos los productos de este campo llevan uno, y esa es justamente la parte dañina. El tablero es gratis y seguirá siéndolo, y también las tarjetas recortables para el cordón: la voz de un niño no se vende, y la tarjeta impresa es simplemente el tablero en papel, para el pasillo y el patio. El plan Docente añade el lado del adulto: el póster de pared, la hoja de ida y vuelta para la familia, y guardar más de tres frases tuyas."
     ],
     "howToUse": [
-      "Ábrelo en la pantalla del aula, o dale una tableta al niño. Las doce imágenes ya están ahí — nada que configurar, nada que elegir.",
+      "Ábrelo en la pantalla de la clase, o dale una tableta al niño. Las ocho tarjetas más urgentes ya están ahí y no se mueven nunca; los seis grupos de abajo tienen el resto.",
       "El niño toca una imagen. El aparato dice la frase completa en voz alta en el idioma de tu aula, con calma, para que el grupo escuche la petición y no el acento.",
       "Si la lengua familiar del niño es una de las once, toca una vez «Añadir el idioma del niño». Cada tarjeta muestra entonces las dos líneas, primero la de casa.",
       "Déjalo abierto en una tableta junto a su mesa las primeras semanas. Funciona mejor cuando nadie tiene que pedirlo.",
-      "Imprime la tarjeta (plan Docente) para que las doce frases vayan al pasillo, al patio y a casa."
+      "Imprime gratis las tarjetas recortables, para que las frases acompañen al niño al pasillo, al patio y a casa.",
+      "Toca «Para el docente» para añadir una frase que esta clase necesita — elige un comienzo, complétalo con la voz del niño, elige una imagen. Tres se guardan gratis."
     ],
     "classroomIdeas": [
       "Enseña el tablero a todo el grupo la primera mañana y toquen dos o tres tarjetas juntos: así es algo de todos y no algo aparte.",
@@ -800,7 +801,7 @@
       "Pon la tarjeta impresa en la mesa y otra en la mochila. Las frases importan sobre todo donde no hay pantalla: el baño, el patio, la salida."
     ],
     "metaTitle": "Tablero para decirlo — alumnado recién llegado | Gratis",
-    "metaDescription": "Tablero de comunicación con imágenes para alumnado recién llegado en infantil y primaria: toca una imagen y el grupo escucha la frase. Sin evaluación."
+    "metaDescription": "Tablero de comunicación por imágenes gratuito para niños recién llegados: 68 frases en el idioma del aula, en voz alta, y las tuyas propias. Sin evaluación."
   },
   "sorting-hoops": {
     "slug": "aros-para-clasificar",

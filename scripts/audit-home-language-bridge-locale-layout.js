@@ -48,6 +48,7 @@ const ROOT = path.join(__dirname, '..');
 const MINI = path.join(ROOT, 'mini tools');
 const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
 const WIDTHS = [320, 360, 412, 704, 768, 1024, 1366];
+const HEIGHTS = { 320: 640, 360: 740, 412: 820, 704: 900, 768: 768, 1024: 768, 1366: 900 };
 const TAP_FLOOR = 44;    /* a control */
 const CELL_FLOOR = 34;   /* a card on the board — a different thing, named separately */
 const TEXT_FLOOR = 14;
@@ -71,7 +72,7 @@ const server = http.createServer((req, res) => {
     for (const loc of LOCALES) {
       const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
       const p = await b.newPage();
-      await p.setViewport({ width: w, height: 900, deviceScaleFactor: 1 });
+      await p.setViewport({ width: w, height: HEIGHTS[w] || 900, deviceScaleFactor: 1 });
       await p.evaluateOnNewDocument(() => { try { localStorage.clear(); } catch (e) {} });
       await p.goto(`${base}/home-language-bridge.html?lang=${loc}&embed=1`, { waitUntil: 'networkidle0' });
       await new Promise((r) => setTimeout(r, 250));
@@ -96,7 +97,41 @@ const server = http.createServer((req, res) => {
           smallCtl: ctl.filter((c) => { const b = c.getBoundingClientRect(); return b.width < TAP || b.height < TAP; })
             .map((c) => (c.textContent || '').trim().slice(0, 24)),
           smallTxt: txt.filter((e) => parseFloat(getComputedStyle(e).fontSize) < TEXT).length,
-          overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
+          overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+          /* ⚠ VERTICAL REACHABILITY, measured by actually scrolling.
+             The shell sets `html,body{overflow:hidden}`, so past the
+             fold is UNREACHABLE rather than merely off-screen — and the
+             v2 build scoped its escape hatch to `max-width:560px`,
+             which left a band (a 1024x768 laptop standalone) where the
+             Print chip could not be reached AT ALL. The first version
+             of this gate measured only horizontal containment and would
+             have shipped that defect again. */
+          reach: (function () {
+            const last = document.querySelector('.hlb-privacy');
+            if (!last) return { fatal: 'no last element to reach' };
+            const before = last.getBoundingClientRect().bottom;
+            if (before <= window.innerHeight) return { ok: true, scrolled: false };
+            /* ⚠⚠ ASK WHETHER A USER COULD SCROLL, NOT WHETHER SCRIPT CAN.
+               The first version set `scrollTop` and checked it moved —
+               and `overflow:hidden` DOES NOT PREVENT A PROGRAMMATIC
+               scrollTop, only a user gesture. So the check passed on a
+               deliberately poisoned build where the escape hatch was
+               re-scoped to `max-width:560px`, i.e. on the exact v2
+               defect it was written to catch: the bottom of the board
+               unreachable on a 1024x768 laptop.
+               A check that cannot fail is not a check. The computed
+               overflow is the thing a finger obeys. */
+            const scrollable = [document.documentElement, document.body, app].filter(Boolean)
+              .filter((c) => {
+                const o = getComputedStyle(c).overflowY;
+                return (o === 'auto' || o === 'scroll' || o === 'visible') && c.scrollHeight > c.clientHeight + 1;
+              });
+            if (!scrollable.length) return { ok: false, fatal: 'nothing a finger could scroll — overflow is hidden all the way up' };
+            const c = scrollable[0];
+            c.scrollTop = before - window.innerHeight + 20;
+            const a = last.getBoundingClientRect();
+            return { ok: a.bottom <= window.innerHeight + 2 && a.top >= 0, scrolled: true, took: c.className || c.tagName };
+          }())
         };
       }, TAP_FLOOR, CELL_FLOOR, TEXT_FLOOR);
 
@@ -114,6 +149,10 @@ const server = http.createServer((req, res) => {
         if (m.smallCtl.length) { console.error(`  FAIL ${at}: ${m.smallCtl.length} control(s) below the ${TAP_FLOOR}px tap floor — ${m.smallCtl.join(' | ')}`); bad++; }
         if (m.smallTxt) { console.error(`  FAIL ${at}: ${m.smallTxt} text node(s) below ${TEXT_FLOOR}px`); bad++; }
         if (m.overflow > 2) { console.error(`  FAIL ${at}: ${m.overflow}px of horizontal document overflow`); bad++; }
+        if (m.reach && !m.reach.ok) {
+          console.error(`  FAIL ${at}: the bottom of the board is UNREACHABLE — ${m.reach.fatal || 'nothing scrolled'}`);
+          bad++;
+        }
       }
       await b.close();
     }

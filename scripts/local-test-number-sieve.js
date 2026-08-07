@@ -97,7 +97,8 @@ const readField = (p) => p.evaluate(() => {
     lit: cells.filter((c) => !c.classList.contains('nsv-out')).map((c) => Number(c.getAttribute('data-n'))),
     total: cells.length,
     marked: cells.filter((c) => c.classList.contains('nsv-marked')).map((c) => Number(c.getAttribute('data-n'))),
-    cards: document.querySelectorAll('.nsv-card').length,
+    cards: document.querySelectorAll('.nsv-card:not(.nsv-spare)').length,
+    spares: document.querySelectorAll('.nsv-spare').length,
     up: document.querySelectorAll('.nsv-card.nsv-up').length
   };
 });
@@ -129,14 +130,14 @@ const turnNext = (p) => p.evaluate(() => {
       let steps = 0, worst = null;
       for (const [field, target] of CASES) {
         await page.evaluate((f) => {
-          const chips = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
+          const chips = Array.from(document.querySelectorAll('.nsv-seg .nsv-segbtn'));
           const idx = { 20: 0, 100: 1, 120: 2 }[f];
           if (chips[idx]) chips[idx].click();
         }, field);
         await wait(200);
         await page.evaluate(() => {
-          const chips = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
-          if (chips[3]) chips[3].click();          /* "New cards" arms the pick */
+          const b = document.querySelector('[data-fk="chip:deal"]');
+          if (b) b.click();                        /* "New cards" arms the pick */
         });
         await wait(150);
         await page.evaluate((n) => {
@@ -145,11 +146,14 @@ const turnNext = (p) => p.evaluate(() => {
         }, target);
         await wait(250);
 
-        const clues = T.buildFor(field, target);
-        const st = { field: field, clues: clues, turned: clues.length, target: target, marker: null, committed: false };
+        const clues = T.buildFor(field, target, T.AIM_CARDS, { minPen: T.MIN_PENULTIMATE, cleanTens: true })
+          || T.buildFor(field, target, T.AIM_CARDS, { cleanTens: true })
+          || T.buildFor(field, target);
+        const st = { field: field, clues: clues, turned: clues.length, target: target, markers: [], spares: [], chosen: -1, emblems: [], committed: false };
         const shown = await readField(page);
-        if (shown.cards !== clues.length || shown.total !== field) {
-          worst = `1-${field}/${target}: the tool dealt ${shown.cards} cards on a ${shown.total} field, the model says ${clues.length} on ${field}`;
+        const expectCards = shown.spares === 3 ? clues.length - 1 : clues.length;
+        if (shown.cards !== expectCards || shown.total !== field) {
+          worst = `1-${field}/${target}: the tool dealt ${shown.cards} cards plus ${shown.spares} candidates on a ${shown.total} field, the model says ${clues.length} clues on ${field}`;
           break;
         }
         for (let k = 0; k <= clues.length; k++) {
@@ -159,7 +163,25 @@ const turnNext = (p) => p.evaluate(() => {
           const b = model.slice().sort((x, y) => x - y).join(',');
           if (a !== b) { worst = `1-${field}/${target} step ${k}: DOM [${dom.lit.slice(0, 8)}] vs model [${model.slice(0, 8)}]`; break; }
           steps++;
-          if (k < clues.length) { await turnNext(page); await wait(160); }
+          if (k < clues.length) {
+            const turned = await turnNext(page);
+            if (!turned) {
+              /* the deck is out of face-down cards: the closing move is
+                 the three candidates, and the one that closes is the
+                 one whose residue is a single number */
+              const ok = await page.evaluate(() => {
+                const T = window.NumberSieve;
+                if (!T || !T.st.spares || T.st.spares.length !== 3) return false;
+                const i = T.closingSpare(T.st);
+                const els = document.querySelectorAll('.nsv-spare');
+                if (i < 0 || !els[i]) return false;
+                els[i].click();
+                return true;
+              });
+              if (!ok) break;
+            }
+            await wait(200);
+          }
         }
         if (worst) break;
       }
@@ -204,7 +226,7 @@ const turnNext = (p) => p.evaluate(() => {
       };
       const first = await runAll();
       await page.evaluate(() => {
-        const chips = Array.from(document.querySelectorAll('.nsv-foot .nsv-chip'));
+        const chips = Array.from(document.querySelectorAll('.nsv-foot [data-fk]'));
         if (chips[0]) chips[0].click();   /* shuffle is the first foot chip when present */
       });
       await wait(220);
@@ -255,8 +277,8 @@ const turnNext = (p) => p.evaluate(() => {
       const mid = await readField(page);
       is(mid.up === 2, `L6a two cards are face up before the press (${mid.up})`);
       const clickNew = () => page.evaluate(() => {
-        const c = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
-        if (c[3]) c[3].click();
+        const b = document.querySelector('[data-fk="chip:deal"]');
+        if (b) b.click();
       });
       await clickNew();
       await wait(350);
@@ -264,7 +286,7 @@ const turnNext = (p) => p.evaluate(() => {
       is(after.up === 0 && after.lit.length === after.total,
         `⭐ L6b pressing "New cards" deals a fresh board — ${mid.up} face-up and ${mid.lit.length}/${mid.total} lit became ${after.up} face-up and ${after.lit.length}/${after.total} lit`);
       /* and pressing it again lands on a DIFFERENT board, not the same one */
-      const deckOf = () => page.evaluate(() => Array.from(document.querySelectorAll('.nsv-card')).length);
+      const deckOf = () => page.evaluate(() => Array.from(document.querySelectorAll('.nsv-card:not(.nsv-spare)')).length);
       const a = await deckOf();
       let differed = false;
       for (let i = 0; i < 4 && !differed; i++) {
@@ -285,7 +307,7 @@ const turnNext = (p) => p.evaluate(() => {
         const page = await newPage(browser, { premium: false });
         await open(page, 'en', w, h);
         await page.evaluate(() => {
-          const c = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
+          const c = Array.from(document.querySelectorAll('.nsv-bar [data-fk]'));
           if (c[3]) c[3].click();
         });
         await wait(300);
@@ -316,12 +338,12 @@ const turnNext = (p) => p.evaluate(() => {
         await open(page, 'de', w, h);
         /* the 1-120 field is the densest state this tool has */
         await page.evaluate(() => {
-          const chips = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
+          const chips = Array.from(document.querySelectorAll('.nsv-seg .nsv-segbtn'));
           if (chips[2]) chips[2].click();
         });
         await wait(250);
         const geo = await page.evaluate(() => {
-          const ctrls = Array.from(document.querySelectorAll('.nsv-chip, .nsv-card')).filter((e) => e.getBoundingClientRect().width > 0);
+          const ctrls = Array.from(document.querySelectorAll('.nsv-chip, .nsv-segbtn, .nsv-fam, .nsv-card')).filter((e) => e.getBoundingClientRect().width > 0);
           const cells = Array.from(document.querySelectorAll('.nsv-cell'));
           const grid = document.querySelector('.nsv-field');
           /* ⚠ per-child right-edge containment. aspect-ratio + a cell

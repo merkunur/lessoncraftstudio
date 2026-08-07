@@ -46,9 +46,9 @@ const PLACEHOLDERS = { cellAria: ['{n}'], cellOutAria: ['{n}'], markerAria: ['{n
 /* the paid-plan name is the SUITE's — the panels each coin a different
    one if left to it, and then the subscription is called three things */
 const FIXED_UNLOCK = {
-  de: 'Lehrer-Paket ansehen', fr: 'Voir l’offre Enseignant', es: 'Ver el plan Docente',
-  pt: 'Ver o plano Professor', it: 'Vedi il piano Insegnante', nl: 'Bekijk het Leerkracht-pakket',
-  sv: 'Se Lärarpaketet', da: 'Se Lærerabonnementet', no: 'Se Lærerabonnementet', fi: 'Katso Opettaja-tilaus'
+  de: 'Zum Lehrkraft-Abo', fr: 'Voir l’abonnement Enseignant', es: 'Ver el plan Docente',
+  pt: 'Ver o plano Professor', it: 'Vedi il piano Insegnante', nl: 'Bekijk het Leerkracht-abonnement',
+  sv: 'Se Lärarabonnemanget', da: 'Se Lærerabonnementet', no: 'Se Lærerabonnementet', fi: 'Tutustu Opettajatilaukseen'
 };
 
 const lineRe = /^ {4}([A-Za-z0-9_]+):(\s+)\{ (.*) \},$/gm;

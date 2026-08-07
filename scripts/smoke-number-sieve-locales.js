@@ -47,7 +47,8 @@ const S = sandbox.__T.strings;
 
 /* filled at render from a template — the digest marks these `a` and the
    assertion below checks the FILLED form instead */
-const ARIA_KEYS = ['cellAria', 'cellOutAria', 'markerAria', 'cardAria'];
+const ARIA_KEYS = ['cellAria', 'cellOutAria', 'markerAria', 'cardAria',
+  'familyAria', 'lengthAria', 'spareAria', 'cardLookAria', 'markerOutAria'];
 
 let PASS = 0, FAIL = 0;
 const is = (c, m) => { if (c) { PASS++; console.log('    ok   ' + m); } else { FAIL++; console.error('    FAIL ' + m); } };
@@ -78,6 +79,9 @@ const norm = (t) => String(t).replace(/^[^\p{L}\p{N}]+/u, '').trim();
     await wait(300);
 
     const collect = () => page.evaluate(() => {
+    /* the shell's polite live region carries every api.announce, and
+       markerOutAria exists nowhere else */
+    const live = Array.from(document.querySelectorAll('[aria-live]')).map((e) => e.textContent || '');
       const out = [];
       document.querySelectorAll('.nsv-wrap *, .lcs-header h1, .lcs-title').forEach((e) => {
         const t = Array.from(e.childNodes).filter((n) => n.nodeType === 3).map((n) => n.textContent.trim()).join(' ').trim();
@@ -93,8 +97,14 @@ const norm = (t) => String(t).replace(/^[^\p{L}\p{N}]+/u, '').trim();
     /* ⚠ DRIVE EVERY STATE THE RESTING PAGE NEVER SHOWS, or a third of the
        strings never render and therefore never get READ. */
     let seen = await collect();                                    /* parkHint */
-    await page.evaluate(() => { const c = document.querySelector('.nsv-cell[data-n="3"]'); if (c) c.click(); });
-    await wait(180);
+    /* ⚠ PARK SEVERAL. One marker on one number may simply survive to
+       the end, and then no eviction is ever announced and markerOutAria
+       reads as unrendered when the tool is behaving perfectly. Six
+       markers on a field that ends on one guarantees five evictions. */
+    await page.evaluate(() => {
+      [1, 2, 3, 4, 5, 6].forEach((n) => { const c = document.querySelector('.nsv-cell[data-n="' + n + '"]'); if (c) c.click(); });
+    });
+    await wait(200);
     seen = seen.concat(await collect());                           /* instruction + markerAria */
     await page.evaluate(() => { const b = document.querySelector('.nsv-card.nsv-next'); if (b) b.click(); });
     await wait(200);
@@ -105,20 +115,62 @@ const norm = (t) => String(t).replace(/^[^\p{L}\p{N}]+/u, '').trim();
       await wait(140);
     }
     seen = seen.concat(await collect());                           /* tryAnother */
-    await page.evaluate(() => { const c = Array.from(document.querySelectorAll('.nsv-foot .nsv-chip')); if (c[0]) c[0].click(); });
+    const tap = (fk) => page.evaluate((k) => { const b = document.querySelector('[data-fk="' + k + '"]'); if (b && !b.disabled) b.click(); return !!b; }, fk);
+    /* the family toggles and the length chips — familyAria / lengthAria */
+    await tap('fam:parity'); await wait(120);
+    await tap('len:5'); await wait(120);
+    seen = seen.concat(await collect());
+    /* a re-look on a turned card — cardLookAria */
+    await page.evaluate(() => { const c = document.querySelector('.nsv-card.nsv-up'); if (c) c.click(); });
     await wait(200);
+    seen = seen.concat(await collect());
+    /* ⭐ THE CLOSING MOVE — spareLabel, spareAria, spareHint. Turning
+       cards reaches the end of the DEALT deck and stops; the last
+       transition is the class picking one of three candidates, and a
+       driver that only ever clicks `.nsv-next` never gets there. */
+    await page.evaluate(() => { const T = window.NumberSieve; if (T) { T.st = T.restart(T.st); T.render(); } });
+    await wait(150);
+    await page.evaluate(() => { const c = document.querySelector('.nsv-cell[data-n="3"]'); if (c) c.click(); });
+    await wait(120);
+    for (let i = 0; i < 8; i++) {
+      const more = await page.evaluate(() => { const b = document.querySelector('.nsv-card.nsv-next'); if (!b) return false; b.click(); return true; });
+      if (!more) break;
+      await wait(140);
+    }
+    seen = seen.concat(await collect());
+    /* ⭐ markerOutAria rides the shell's polite live region, not the
+       stage, so it has to be collected from there or it reads as
+       unrendered even when a marker really was evicted. */
+    await page.evaluate(() => {
+      const els = document.querySelectorAll('.nsv-spare');
+      const T = window.NumberSieve;
+      if (T && els.length === 3) { const i = T.closingSpare(T.st); if (els[i]) els[i].click(); }
+    });
+    await wait(300);
+    seen = seen.concat(await collect());
+    /* the save gate — savedBtn needs a subscriber, gateSave needs a free one */
+    await tap('chip:save'); await wait(260);
+    seen = seen.concat(await collect());
+    await page.evaluate(() => { const T = window.NumberSieve; if (T) { T.premium = true; T.premiumKnown = true; T._sig = null; T.render(); } });
+    await wait(150);
+    await tap('chip:save'); await wait(220);
+    seen = seen.concat(await collect());
+    await page.evaluate(() => { const T = window.NumberSieve; if (T) { T.premium = false; T._sig = null; T.render(); } });
+    await wait(150);
+    await tap('chip:shuffle'); await wait(180);
     seen = seen.concat(await collect());                           /* shuffleBtn state */
-    await page.evaluate(() => { const c = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip')); if (c[3]) c[3].click(); });
-    await wait(180);
+    await tap('chip:deal'); await wait(200);
     seen = seen.concat(await collect());                           /* pickHint */
-    await page.evaluate(() => { const c = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip')); if (c[4]) c[4].click(); });
-    await wait(220);
+    await tap('chip:lib'); await wait(240);
     seen = seen.concat(await collect());                           /* library */
     /* the print gate — free account, so this really is reachable here */
     await page.evaluate(() => {
-      const c = Array.from(document.querySelectorAll('.nsv-foot .nsv-chip'));
-      const pr = c[c.length - 1];
-      if (pr) pr.click();
+      /* the gate line is reached by cycling PAST the last free board,
+         which is where it now fires — printing no longer gates at all */
+      const lib = document.querySelector('[data-fk="chip:lib"]');
+      const T = window.NumberSieve;
+      if (T) { T.premiumKnown = true; T.premium = false; }
+      if (lib) { for (let i = 0; i < 12; i++) lib.click(); }
     });
     await wait(250);
     seen = seen.concat(await collect());                           /* gateLine + unlock */
@@ -160,6 +212,28 @@ const norm = (t) => String(t).replace(/^[^\p{L}\p{N}]+/u, '').trim();
         if (v && v.length >= 14 && !mine.has(v) && rendered.has(v)) others.push(`${l}.${k}`);
       });
     });
+    /* ⭐ EVERY EXEMPTED TEMPLATE GETS A FILLED-FORM CHECK. An exemption
+       list without one is the vacuity trap wearing a comment. */
+    const filled = await page.evaluate(() => {
+      const g = (sel) => { const e = document.querySelector(sel); return e ? (e.getAttribute('aria-label') || '') : ''; };
+      const grp = (sel) => { const e = document.querySelector(sel); return e ? (e.getAttribute('aria-label') || '') : ''; };
+      return { fam: g('.nsv-fam'), len: g('.nsv-lenbtn'), spare: g('.nsv-spare'),
+               look: g('.nsv-card.nsv-up'), famGrp: grp('.nsv-fams'), lenGrp: grp('.nsv-lens'),
+               out: g('.nsv-cell.nsv-out') };
+    });
+    is(/[0-9]/.test(filled.fam) && filled.fam.length > 3, `familyAria is POSITIONAL and filled ("${filled.fam}")`);
+    is(/[0-9]/.test(filled.len) && filled.len.length > 2, `lengthAria is filled ("${filled.len}")`);
+    const outs = await page.evaluate(() => {
+      const T = window.NumberSieve;
+      if (T) { T.st = T.restart(T.st); T.render(); }
+      const c = document.querySelector('.nsv-cell[data-n="3"]'); if (c) c.click();
+      for (let i = 0; i < 8; i++) { const b = document.querySelector('.nsv-card.nsv-next'); if (!b) break; b.click(); }
+      const dead = document.querySelectorAll('.nsv-cell.nsv-out');
+      return { n: dead.length, label: dead.length ? (dead[0].getAttribute('aria-label') || '') : '' };
+    });
+    is(outs.n > 0, `cells really went dark, so this measures something (${outs.n})`);
+    is(outs.label.length > 1, `cellOutAria is filled ("${outs.label}")`);
+
     is(others.length === 0, `no other locale's wording leaked in${others.length ? ' — ' + others.join(', ') : ''}`);
     is(errs.length === 0, `zero console errors${errs.length ? ' — ' + errs[0] : ''}`);
 

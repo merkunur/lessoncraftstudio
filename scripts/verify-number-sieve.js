@@ -91,7 +91,11 @@ const oracle = (c, n) => {
     const d = c.place === 'tens' ? Math.floor(Math.abs(v) / 10) % 10 : Math.abs(v) % 10;
     return c.keep ? d === c.d : d !== c.d;
   }
-  if (c.f === 'quantity') return c.op === 'lt' ? v < c.q : v > c.q;
+  /* ⚠ AN UNKNOWN OP IS A DEFECT, NOT A DEFAULT — and N26 caught this
+     one pointing the other way: after the generator's oracle was
+     tightened, THIS file was the weaker of the two and would have
+     accepted a malformed quantity card the generator refused. */
+  if (c.f === 'quantity') return c.op === 'lt' ? v < c.q : (c.op === 'gt' ? v > c.q : null);
   if (c.f === 'nearer') return Math.abs(v - c.a) < Math.abs(v - c.b);
   return null;   /* a family the gate does not know is a defect, not a pass */
 };
@@ -413,7 +417,11 @@ console.log('[the stance]');
 
 /* ---------- N9 NO TELL — structural: the render path cannot see the target ---------- */
 (function () {
-  const names = ['_cellEl', '_buildField', 'render'];
+  const names = /* ⚠ AND `_paint`, WHICH IS WHERE THE SURVIVORS ARE NOW COMPUTED. The
+     build/paint split moved that line out of `_buildField`, and this
+     scan kept looking at the old three — a mutation putting
+     `this.st.target` into the paint path sailed straight through. */
+  ['_cellEl', '_buildField', '_paint', 'render'];
   const bodies = names.map((n) => {
     const m = new RegExp(n + ':\\s*function[\\s\\S]*?\\n  \\},').exec(SRC_NC);
     return m ? m[0] : '';
@@ -431,11 +439,22 @@ console.log('[the stance]');
   let st = stateWith(b.field, b.clues, b.target);
   st.turned = 0; st.committed = false;
   st = T.park(st, 3);
-  if (st.marker !== 3) { err('N10 a marker could not be parked before the first card'); return; }
+  st = T.park(st, 9);
+  if (st.markers.join(',') !== '3,9') { err('N10 two markers could not be parked before the first card (got ' + st.markers.join(',') + ')'); return; }
+  if (T.park(st, 3).markers.join(',') !== '9') { err('N10 a marker could not be lifted again before the first card'); return; }
   st = T.turn(st);
   if (!st.committed) { err('N10 turning the first card did not commit the marker'); return; }
-  const moved = T.park(st, 9);
-  if (moved.marker !== 3) { err(`N10 the marker moved after the first card (${moved.marker}) — it must be committed`); return; }
+  const moved = T.park(st, 14);
+  if (moved.markers.join(',') !== '3,9') { err(`N10 a marker moved after the first card (${moved.markers.join(',')}) — they must be committed`); return; }
+  /* ⭐ AND A SHUFFLE MUST NOT UN-COMMIT THEM. The shipped build set
+     committed=false here, so after a full run — when the class already
+     knows the answer — the one control that invites a second run handed
+     them permission to move a marker onto it. N3b checked the survivors
+     and this gate checked one run; neither looked across a shuffle,
+     which is exactly where it broke. */
+  const shuf = T.shuffle(moved);
+  if (!shuf.committed) { err('N10 a shuffle un-committed the markers'); return; }
+  if (T.park(shuf, 14).markers.join(',') !== '3,9') { err('N10 a marker could be moved after a shuffle'); return; }
   /* and it is never given a verdict field */
   if (Object.prototype.hasOwnProperty.call(moved, 'markerCorrect') || /marker(Correct|Wrong|Hit|Won)/.test(SRC_NC)) {
     err('N10 the marker carries a verdict field'); return;
@@ -463,10 +482,16 @@ console.log('[the stance]');
   const st = T.newState();
   [0, -1, st.field + 1, 999, NaN, 'x', null].forEach((v) => {
     const p = T.park(st, v);
-    if (p.marker !== null) err(`N10b a marker was parked off the field at ${String(v)} (got ${p.marker})`);
+    if (p.markers.length) err(`N10b a marker was parked off the field at ${String(v)} (got ${p.markers.join(',')})`);
   });
   const good = T.park(st, st.field);
-  if (good.marker !== st.field) err('N10b the last cell of the field would not take a marker');
+  if (good.markers.join(',') !== String(st.field)) err('N10b the last cell of the field would not take a marker');
+  /* two markers may not share a cell, or the tables converge and the
+     disagreement the plural markers exist to produce disappears */
+  if (T.park(good, st.field).markers.length !== 0) err('N10b tapping a parked cell did not lift its marker');
+  let many = T.newState();
+  for (let i = 1; i <= T.MAX_MARKERS + 3; i++) many = T.park(many, i);
+  if (many.markers.length !== T.MAX_MARKERS) err(`N10b the marker cap did not hold (${many.markers.length}/${T.MAX_MARKERS})`);
   if (!ERRORS) console.log('  N10b the marker only lands on a number that is really there');
 }());
 
@@ -592,7 +617,7 @@ console.log('[the stance]');
     if (model.indexOf(w) > -1) err(`N14 the model touches "${w}" — predicates must be pure`);
   });
   const keys = Object.keys(T.newState()).sort().join(',');
-  if (keys !== 'clues,committed,field,marker,target,turned') err(`N14 state shape is "${keys}"`);
+  if (keys !== 'chosen,clues,committed,emblems,field,markers,spares,target,turned') err(`N14 state shape is "${keys}"`);
   /* immutability: no model call may mutate its input */
   const st = stateWith(20, T.buildFor(20, 7), 7);
   const before = JSON.stringify(st);
@@ -648,7 +673,8 @@ console.log('[the stance]');
   console.log(`  N20 ⭐ "New cards" deals a genuinely different board, and repeated presses reach all ${reached} targets`);
 }());
 
-/* ---------- N21 setTarget fails loudly ---------- */
+/* ---------- N21 setTarget fails loudly, and the hint dispatch is a
+     FUNCTION rather than a paragraph of render code ---------- */
 (function () {
   const st = T.loadBoard(T.newState(), { id: 'x', range: 20, clues: T.buildFor(20, 7) });
   [0, 21, -1, NaN, 'x', null].forEach((bad) => {
@@ -656,35 +682,56 @@ console.log('[the stance]');
   });
   if (!T.setTarget(st, 13)) { err('N21 setTarget refused a buildable target'); return; }
   const tap = (SRC_NC.match(/_tapCell:\s*function[\s\S]*?\n  \},/) || [''])[0];
+  if (!tap.trim()) { err('N21 could not find _tapCell — the scrape is disarmed, which is a failure and not a pass'); return; }
   if (/built\.clues\.length/.test(tap)) {
     err('N21 _tapCell still guards on built.clues.length — on failure that is the OLD deck and reads as success');
     return;
   }
-  /* ⚠ and the armed hint must be gated on ARMED alone. Tying it to an
-     empty deck fires it on every cold load — init renders before the board
-     fetch resolves — and then the screen asks for a tap that only parks a
-     marker. A hint that cannot be obeyed is worse than silence. */
-  const hintFn = (SRC_NC.match(/_buildHint:\s*function[\s\S]*?\n  \},/) || [''])[0];
-  if (!hintFn.trim()) { err('N21 could not find _buildHint'); return; }
-  const armed = /if \(this\._picking === 'target'\)([^\n]*)/.exec(hintFn);
-  if (!armed) { err('N21 the armed-hint branch is not gated on _picking alone'); return; }
-  const firstBranch = (hintFn.split('\n').find((l) => /_picking === 'target'/.test(l)) || '');
-  if (/clues\.length/.test(firstBranch)) {
-    err('N21 the armed hint also fires on an empty deck — that is every cold load, and the tap it asks for only parks a marker');
-    return;
-  }
-  if (!ERRORS) console.log('  N21 setTarget fails loudly, the caller guards on the build, and the armed hint needs armed state');
+  /* ⭐ THE HINT IS NOW DRIVEN, NOT SCRAPED. It used to be a chain of ifs
+     inside `_buildHint`, and this gate read that chain as TEXT — which
+     means it was testing the shape of a paragraph rather than what the
+     tool says. On #44 a Node gate that reimplemented an inline dispatch
+     let three mutations of the real one sail through. `hintKey` is a pure
+     function of the state, so the gate can simply ask it. */
+  if (typeof T.hintKey !== 'function') { err('N21 hintKey is not a function — the hint dispatch must be drivable'); return; }
+  const deck = T.buildFor(20, 7);
+  const board = T.loadBoard(T.newState(), { id: 'x', range: 20, clues: deck });
+  /* armed beats everything, on every state, including a cold load */
+  if (T.hintKey(T.newState(), 'target') !== 'pickHint') err('N21 the armed hint does not fire on an empty deck when armed');
+  if (T.hintKey(board, 'target') !== 'pickHint') err('N21 the armed hint does not fire on a dealt board');
+  /* ⚠ and it must NOT fire merely because the deck is empty — that is
+     every cold load, and the tap it asks for only parks a marker */
+  if (T.hintKey(T.newState(), null) === 'pickHint') err('N21 the armed hint fires on a cold load — a hint that cannot be obeyed is worse than silence');
+  if (T.hintKey(board, null) !== 'parkHint') err('N21 a fresh board does not ask for a marker');
+  if (T.hintKey(T.park(board, 7), null) !== 'instruction') err('N21 a parked board does not ask for a card');
+  let mid = T.turn(T.park(board, 7));
+  if (T.hintKey(mid, null) !== '') err('N21 the tool talks mid-deck — it should wait');
+  if (!ERRORS) console.log('  N21 setTarget fails loudly, the caller guards on the build, and the hint dispatch is driven');
 }());
 
-/* ---------- N19 NO DEAD STRINGS ---------- */
+/* ---------- N19 NO DEAD STRINGS — measured by REACHABILITY ---------- */
 (function () {
-  /* ⚠ Three times on this platform an unused string has turned out to be
-     a MISSING FEATURE, not dead copy. Here it found that the three range
-     chips were an unlabelled group. Take only what api.t actually
-     consumes — the whole argument, or a branch after ? or : — because a
-     looser scan reads the comparison operand in api.t(x ? 'a' : 'b') as a
-     key, and a stricter one misses the ternary entirely. */
-  const consumed = new Set(['title']);   /* title is rendered by the shell */
+  /* ⚠⚠ A SOURCE SCAN CANNOT ANSWER THIS QUESTION, and believing it could
+     was itself a defect. The hint keys are reached through
+     `api.t(this.hintKey(...))` — a VARIABLE — so a scan for the literal
+     `api.t('instruction')` reported five live, load-bearing strings as
+     dead. That is the recorded A15 trap exactly: a key can be reached
+     through a ternary, a lookup map or a dispatch function, and "the
+     string exists" is not "the string is reached".
+     So: every key must be REACHED by driving the tool's own dispatchers
+     over a matrix of real states, or be consumed by a literal api.t, or
+     be one of the two the shell itself renders. Three ways in, and a key
+     that meets none of them is genuinely dead.
+     ⚠ Three times on this platform an unused string has turned out to be
+     a MISSING FEATURE rather than dead copy — here it found that the
+     three range chips were an unlabelled group. */
+  const consumed = new Set();
+  /* (1) the shell renders these two itself (lcs-shell.js:458-468) */
+  consumed.add('title');
+  consumed.add('instruction');
+  /* (2) literal api.t('key') — the whole argument, or a branch after ? or
+     : , because a looser scan reads the comparison operand in
+     api.t(x ? 'a' : 'b') as a key and a stricter one misses the ternary */
   SRC_NC.replace(/api\.t\(([^()]*)\)/g, (m, arg) => {
     arg.split(/[?:]/).forEach((part) => {
       const q = /^\s*'([A-Za-z0-9_]+)'\s*$/.exec(part);
@@ -692,12 +739,355 @@ console.log('[the stance]');
     });
     return m;
   });
+  /* (3) DRIVEN: every key the hint dispatcher can actually produce, over
+     a matrix that reaches every branch it has */
+  /* ⚠ THE BOARD HAS TO BE ONE THAT ACTUALLY HAS SPARES. Built without
+     the penultimate floor a deck often arrives at two, and a two-wide
+     closing state has no three-way choice to offer — so `spareHint`
+     was unreachable and this gate correctly said so. The library is
+     generated under the floor, so the floor is the honest matrix. */
+  let deck = T.buildFor(20, 7, 4, { minPen: T.MIN_PENULTIMATE });
+  for (let t = 1; !deck && t <= 20; t++) deck = T.buildFor(20, t, 4, { minPen: T.MIN_PENULTIMATE });
+  if (!deck) { err('N19 could not build a floored board to drive the dispatcher'); return; }
+  const b0 = T.loadBoard(T.newState(), { id: 'x', range: 20, clues: deck });
+  if (b0.spares.length !== 3) { err('N19 a floored board carried no spares — the matrix cannot reach the closing move'); return; }
+  const states = [
+    [T.newState(), 'target'], [T.newState(), null], [b0, null], [b0, 'target'],
+    [T.park(b0, 7), null], [T.turn(T.park(b0, 7)), null]
+  ];
+  let run = T.park(b0, 7);
+  for (let i = 0; i < deck.length + 1; i++) { run = T.turn(run); states.push([run, null]); }
+  /* and the closing move, which is the only route to `spareHint` */
+  if (b0.spares && b0.spares.length === 3) {
+    let sp = T.park(b0, 7);
+    while (sp.turned < sp.clues.length - 1) sp = T.turn(sp);
+    states.push([sp, null]);
+    for (let i = 0; i < 3; i++) states.push([T.chooseSpare(sp, i), null]);
+  }
+  const produced = new Set();
+  states.forEach(([s, p]) => { const k = T.hintKey(s, p); if (k) produced.add(k); });
+  produced.forEach((k) => consumed.add(k));
+
   const dead = Object.keys(T.strings).filter((k) => !consumed.has(k));
   if (dead.length) {
-    err(`N19 unused string(s): ${dead.join(', ')} — on this platform that has three times been a missing feature, not dead copy. Wire it or delete it.`);
+    err(`N19 unreachable string(s): ${dead.join(', ')} — on this platform that has three times been a missing feature, not dead copy. Wire it or delete it.`);
     return;
   }
-  console.log(`  N19 every authored string is wired (${Object.keys(T.strings).length} keys)`);
+  /* ⚠ AND THE DISPATCHER MUST ACTUALLY HAVE REACHED SOMETHING, or this
+     whole section is a set-union with an empty set and cannot fail. */
+  if (produced.size < 4) {
+    err(`N19 the hint dispatcher produced only ${produced.size} keys over ${states.length} states — the matrix is not driving it`);
+    return;
+  }
+  console.log(`  N19 ⭐ every authored string is REACHED (${Object.keys(T.strings).length} keys; ${produced.size} of them only via the dispatcher)`);
+}());
+
+/* ---------- N22 ⭐ TWO DISTINCT CLUES NEVER DRAW THE SAME FACE ----------
+   The tool's whole law is that the icon IS the statement, so a
+   many-to-one face is not a cosmetic defect, it is the apparatus lying.
+   Measured on the shipped build: `_cardFace` drew Math.min(q, 10) dots
+   while `MAX_DOTS` was 20 and the universe emitted q up to 20 — the cap
+   was designed at 20 and the renderer written at 10, and the two never
+   met. On the 1-100 field ELEVEN distinct clues ("more than 10" through
+   "more than 20") rendered byte-identically, in two collision classes
+   per field, and 14 of the 26 quantity cards in the shipped library drew
+   a face that was simply false.
+   ⚠ THE GATE DRAWS THE REAL FACE. It builds the actual SVG through a
+   minimal DOM shim and digests the primitives, rather than re-deriving
+   what it thinks the renderer would do — a gate that reimplements the
+   thing it checks is testing a copy (#44). */
+(function () {
+  const NS = 'http://www.w3.org/2000/svg';
+  const mkEl = (tag) => ({
+    tag, attrs: {}, kids: [], _text: '',
+    setAttribute(k, v) { this.attrs[k] = String(v); },
+    appendChild(c) { this.kids.push(c); return c; },
+    set textContent(v) { this._text = String(v); },
+    get textContent() { return this._text; }
+  });
+  const prevCreate = sandbox.document.createElementNS;
+  sandbox.document.createElementNS = (ns, tag) => mkEl(tag);
+  const digest = (n) => {
+    const a = Object.keys(n.attrs).sort().map((k) => k + '=' + n.attrs[k]).join(',');
+    return n.tag + '[' + a + ']' + (n._text ? '{' + n._text + '}' : '')
+      + (n.kids.length ? '(' + n.kids.map(digest).join(';') + ')' : '');
+  };
+  let clashes = 0, worst = 0, worstEx = '';
+  try {
+    T.FIELDS.forEach((f) => {
+      const seen = {};
+      T.universe(f).forEach((c) => {
+        const d = digest(T._cardFace(c));
+        (seen[d] = seen[d] || []).push(c);
+      });
+      Object.keys(seen).forEach((d) => {
+        if (seen[d].length > 1) {
+          clashes++;
+          if (seen[d].length > worst) { worst = seen[d].length; worstEx = JSON.stringify(seen[d].slice(0, 3)); }
+        }
+      });
+    });
+  } finally { sandbox.document.createElementNS = prevCreate; }
+  /* ⚠ NON-VACUITY FIRST: prove the digest can tell two faces apart at
+     all, or "no collisions" is a statement about an empty comparison. */
+  sandbox.document.createElementNS = (ns, tag) => mkEl(tag);
+  const a = digest(T._cardFace({ f: 'parity', r: 0 }));
+  const b = digest(T._cardFace({ f: 'parity', r: 1 }));
+  const c2 = digest(T._cardFace({ f: 'quantity', op: 'gt', q: 11 }));
+  const c3 = digest(T._cardFace({ f: 'quantity', op: 'gt', q: 20 }));
+  sandbox.document.createElementNS = prevCreate;
+  if (a === b) { err('N22 the face digest cannot tell even and odd apart — it is not measuring the drawing'); return; }
+  if (!a.length || a.length < 40) { err('N22 the face digest is empty or trivial — nothing was drawn'); return; }
+  if (c2 === c3) { err('N22 "more than 11" and "more than 20" still draw the same face'); return; }
+  if (clashes) { err(`N22 ${clashes} face collision class(es); worst holds ${worst} distinct clues, e.g. ${worstEx}`); return; }
+  console.log('  N22 ⭐ no two distinct clues draw the same face — EXHAUSTIVE over the universe of all three fields');
+}());
+
+/* ---------- N23 ⭐ EVERY MEANING-BEARING PAIR MEETS 3:1 ----------
+   The measurement that reframed the whole rebuild. Cream, amber and
+   slate are near-isoluminant, so every boundary that carried meaning in
+   the shipped tool sat between two light values — the lit-versus-dark
+   step, which is the entire lesson, at 1.44:1 against a WCAG floor of
+   3:1 for non-text graphics — while amber on deep teal, 5.82:1, was not
+   used anywhere. This gate reads the shipped hex values out of the
+   stylesheet and does the arithmetic, so the palette cannot quietly
+   drift back. */
+(function () {
+  const lin = (v) => { v /= 255; return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); };
+  const L = (hex) => {
+    const h = hex.replace('#', '');
+    const r = parseInt(h.slice(0, 2), 16), g = parseInt(h.slice(2, 4), 16), b = parseInt(h.slice(4, 6), 16);
+    return 0.2126 * lin(r) + 0.7152 * lin(g) + 0.0722 * lin(b);
+  };
+  const ratio = (x, y) => { const a = L(x), b = L(y); return (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05); };
+  const css = (SRC.match(/function injectNumberSieveCSS[\s\S]*$/) || [''])[0];
+  if (css.length < 2000) { err('N23 could not find the stylesheet — the scrape is disarmed, which is a failure and not a pass'); return; }
+  const need = (name, re) => {
+    const m = re.exec(css);
+    if (!m) { err(`N23 ${name} is not in the stylesheet any more — this gate cannot measure what it cannot find`); return null; }
+    return m[1];
+  };
+  const lit = need('the lit cell background', /\.nsv-cell\{[^}]*background-color:(#[0-9A-Fa-f]{6})/);
+  const hatch = need('the dead cell hatch', /\.nsv-cell\.nsv-out\{[^}]*repeating-linear-gradient\(45deg,(#[0-9A-Fa-f]{6})/);
+  const marker = need('the marker glyph', /\.nsv-mkg\{[^}]*background-color:(#[0-9A-Fa-f]{6})/);
+  const bar = need('the card bar ground', /\.nsv-fbar\{fill:(#[0-9A-Fa-f]{6})/);
+  const keep = need('the survives fill', /\.nsv-keep\{fill:(#[0-9A-Fa-f]{6})/);
+  if (!lit || !hatch || !marker || !bar || !keep) return;
+  const FLOOR = 3.0;
+  const pairs = [
+    ['the dead cell mark against a lit cell (the LESSON)', hatch, lit],
+    ['the committed marker against a lit cell (invention 3)', marker, lit],
+    ['the survives fill against the card bar it sits on', keep, bar]
+  ];
+  let bad = 0;
+  pairs.forEach(([what, x, y]) => {
+    const r = ratio(x, y);
+    if (r < FLOOR) { err(`N23 ${what} is ${r.toFixed(2)}:1 — under the ${FLOOR}:1 floor for a non-text graphic`); bad++; }
+  });
+  /* ⚠ POISON IT IN BOTH DIRECTIONS. The old palette must FAIL and the
+     new one must PASS, or this is a floor nobody has ever seen fire. */
+  if (ratio('#C7CFCD', '#FBF3E4') >= FLOOR) { err('N23 the OLD dead-cell colour passes this floor — the gate is measuring the wrong thing'); bad++; }
+  if (ratio('#F2C879', '#0E5147') < FLOOR) { err('N23 amber on deep teal fails this floor — the arithmetic is wrong'); bad++; }
+  if (bad) return;
+  console.log(`  N23 ⭐ every meaning-bearing pair clears 3:1 (lesson ${ratio(hatch, lit).toFixed(1)}:1, marker ${ratio(marker, lit).toFixed(1)}:1, survives ${ratio(keep, bar).toFixed(1)}:1)`);
+}());
+
+/* ---------- N24 ⭐ THE CLOSING CHOICE ----------
+   Exactly one spare closes, the other two leave at least two numbers
+   with distinct residues, and none of them is implied by a card already
+   on the table (or the class could eliminate it without looking at the
+   field, which is the one thing the move exists to make them do). */
+(function () {
+  let checked = 0, bad = 0;
+  for (const field of T.FIELDS) {
+    for (let t = 1; t <= field; t++) {
+      const deck = T.buildFor(field, t, 4, { minPen: T.MIN_PENULTIMATE, cleanTens: true });
+      if (!deck) continue;
+      const st = T.loadBoard(T.newState(), { range: field, clues: deck });
+      if (st.spares.length !== 3) { err(`N24 ${field}/${t} met the floor but carries no closing choice`); bad++; if (bad > 3) return; continue; }
+      const res = [0, 1, 2].map((i) => T._afterSpare(st, i));
+      const closers = res.filter((r) => r.length === 1 && r[0] === t).length;
+      if (closers !== 1) { err(`N24 ${field}/${t} has ${closers} closing spares, not exactly one`); bad++; if (bad > 3) return; continue; }
+      if (res.filter((r) => r.length >= 2).length !== 2) { err(`N24 ${field}/${t} does not have two live decoys`); bad++; if (bad > 3) return; continue; }
+      if (new Set(res.map((r) => r.join(','))).size !== 3) { err(`N24 ${field}/${t} has two candidates leaving the same numbers`); bad++; if (bad > 3) return; continue; }
+      /* the derived closer must agree with the arithmetic */
+      const ci = T.closingSpare(st);
+      if (res[ci].length !== 1 || res[ci][0] !== t) { err(`N24 ${field}/${t} closingSpare disagrees with the field`); bad++; if (bad > 3) return; continue; }
+      /* ⚠ AND THE WINNER'S POSITION MUST NOT BE PREDICTABLE — a class
+         that learns "it is always the left one" has learned nothing */
+      checked++;
+    }
+  }
+  if (bad) return;
+  if (checked < 50) { err(`N24 only ${checked} boards carried a closing choice — the sweep is not driving it`); return; }
+  /* the closer's seat is spread across all three positions */
+  const seats = { 0: 0, 1: 0, 2: 0 };
+  for (const field of T.FIELDS) {
+    for (let t = 1; t <= field; t++) {
+      const deck = T.buildFor(field, t, 4, { minPen: T.MIN_PENULTIMATE, cleanTens: true });
+      if (!deck) continue;
+      const st = T.loadBoard(T.newState(), { range: field, clues: deck });
+      if (st.spares.length === 3) seats[T.closingSpare(st)]++;
+    }
+  }
+  const lowest = Math.min(seats[0], seats[1], seats[2]);
+  if (lowest < checked * 0.15) { err(`N24 the closing card sits in one seat too often (${JSON.stringify(seats)}) — its position leaks the answer`); return; }
+  console.log(`  N24 ⭐ the closing choice is sound on all ${checked} floored boards, and the closer's seat is spread ${JSON.stringify(seats)}`);
+}());
+
+/* ---------- N27 ⭐ THE INVARIANTS THE MUTATION HARNESS CAUGHT ME MISSING
+   Five mutations APPLIED cleanly and this file did not notice, which is
+   the only way a gate hole ever announces itself. Each one below is the
+   assertion that was absent.
+   ⚠ Every check here drives the model. None of them reads the tool's
+   source, because a source scan cannot tell whether a guard still has
+   the effect it used to have. ---------- */
+(function () {
+  /* (a) the closing candidates may not be implied by a card already on
+     the table — if one is, the class can eliminate it without looking at
+     the field, which is the one thing the move exists to make them do */
+  let checked = 0;
+  for (const field of T.FIELDS) {
+    for (let t = 1; t <= field; t++) {
+      const deck = T.buildFor(field, t, 4, { minPen: T.MIN_PENULTIMATE, cleanTens: true });
+      if (!deck) continue;
+      const st = T.loadBoard(T.newState(), { range: field, clues: deck });
+      if (st.spares.length !== 3) continue;
+      const all = T.allNumbers(field);
+      const opened = deck.slice(0, deck.length - 1).map((c) => all.map((n) => oracle(c, n)));
+      for (let i = 0; i < 3; i++) {
+        const m = all.map((n) => oracle(st.spares[i], n));
+        for (const o of opened) {
+          let ab = true, ba = true;
+          for (let k = 0; k < m.length; k++) { if (m[k] && !o[k]) ab = false; if (o[k] && !m[k]) ba = false; }
+          if (ab || ba) { err(`N27a ${field}/${t} candidate ${i} is implied by a card already turned`); return; }
+        }
+      }
+      checked++;
+      if (checked > 60) break;
+    }
+    if (checked > 60) break;
+  }
+  if (checked < 20) { err(`N27a only ${checked} boards were checked — the sweep is not driving it`); return; }
+
+  /* (b) the penultimate floor survives the prune, and (c) the closing
+     card really closes. Both are properties of the deck the builder
+     RETURNS, so they are measured there and not inside it. */
+  let n = 0, thin = 0, open = 0;
+  for (const field of T.FIELDS) {
+    for (let t = 1; t <= field; t++) {
+      const d = T.buildFor(field, t, 4, { minPen: 3, cleanTens: true });
+      if (!d) continue;
+      n++;
+      /* ⚠ THE FLOOR IS HARDCODED HERE ON PURPOSE. Reading it off the tool
+       means a mutation to `MIN_PENULTIMATE` moves this expectation with
+       it and the gate marks its own homework — which is exactly how
+       that mutation survived. Three is the number the library shape,
+       the closing choice and the whole pedagogical argument rest on. */
+      if (T.penultimateWidth(field, d) < 3) thin++;
+      const upto = T.survivorsAfter({ field, clues: d, turned: d.length - 1, markers: [], spares: [], chosen: -1, emblems: [], committed: false }, d.length - 1);
+      const after = upto.filter((x) => T.satisfies(d[d.length - 1], x));
+      if (after.length !== 1 || after[0] !== t) open++;
+    }
+  }
+  if (!n) { err('N27 the floored builder produced nothing — this check cannot measure what does not exist'); return; }
+  if (thin) { err(`N27b ${thin} of ${n} floored decks arrive at the last card below the floor — the prune is not re-checked`); return; }
+  if (open) { err(`N27c ${open} of ${n} floored decks do not actually close on their target`); return; }
+
+  /* (d) "Start again" starts THIS board again */
+  const deck = T.buildFor(20, 7, 4, { minPen: T.MIN_PENULTIMATE }) || T.buildFor(20, 7);
+  let st = T.loadBoard(T.newState(), { range: 20, clues: deck });
+  st = T.park(st, 5); st = T.turn(st);
+  const again = T.restart(st);
+  if (again.field !== st.field) { err('N27d Start again changed the field'); return; }
+  if (JSON.stringify(again.clues) !== JSON.stringify(st.clues)) { err('N27d Start again changed the board or its clue order'); return; }
+  if (again.markers.length || again.turned !== 0 || again.committed) { err('N27d Start again did not clear the run'); return; }
+
+  /* (e) the offline fallback degrades to the FREE TIER, not to nothing */
+  const fb = T.FALLBACK_BOARDS;
+  if (!fb || !fb.boards || fb.boards.length < 4) {
+    err(`N27e the offline fallback carries ${(fb && fb.boards ? fb.boards.length : 0)} boards — it must degrade to the free tier, not to nothing`);
+    return;
+  }
+  for (const b of fb.boards) {
+    if (b.free !== true) { err('N27e the offline fallback carries a board that is not free'); return; }
+    const live = T.allNumbers(b.range).filter((x) => b.clues.every((c) => oracle(c, x)));
+    if (live.length !== 1) { err(`N27e inline fallback board ${b.id} does not isolate`); return; }
+  }
+  console.log(`  N27 ⭐ the five invariants the mutation harness caught this file missing (${n} floored decks, ${fb.boards.length} inline free boards)`);
+}());
+
+/* ---------- N25 ⭐ THE EMBLEM IS IDENTITY, NOT A SECOND ORDINAL ----------
+   `shuffle` renumbered the card backs 1..n by POSITION, so four teal
+   cards reading 1 2 3 4 became four teal cards reading 1 2 3 4 —
+   indistinguishable from "New cards" dealing a completely different
+   deck. The headline invention, that the same cards in another order
+   leave the same survivors, was not observable on screen at all.
+   ⚠ AND THE EMBLEM MUST NOT BE DERIVED FROM THE FAMILY. One that could
+   be read back to a clue family would name the clue, which is refusal 4. */
+(function () {
+  const deck = T.buildFor(100, 37, 4, { minPen: T.MIN_PENULTIMATE }) || T.buildFor(100, 37);
+  let st = T.loadBoard(T.newState(), { range: 100, clues: deck });
+  if (st.emblems.length !== st.clues.length) { err('N25 the deck was dealt without an emblem per card'); return; }
+  const paired = st.clues.map((c, i) => JSON.stringify(c) + '#' + st.emblems[i]).sort().join('|');
+  let sh = T.shuffle(st);
+  const pairedAfter = sh.clues.map((c, i) => JSON.stringify(c) + '#' + sh.emblems[i]).sort().join('|');
+  if (paired !== pairedAfter) { err('N25 a shuffle broke the card-to-emblem pairing — the emblem is a second ordinal, not an identity'); return; }
+  if (sh.clues.map((c) => JSON.stringify(c)).join('|') === st.clues.map((c) => JSON.stringify(c)).join('|')) {
+    err('N25 the shuffle did not re-order the deck, so this proves nothing'); return;
+  }
+  /* the emblem must not be a function of the family */
+  const byFam = {};
+  let leak = true;
+  T.FIELDS.forEach((f) => {
+    for (let t = 1; t <= f; t++) {
+      const d = T.buildFor(f, t);
+      if (!d) continue;
+      const s2 = T.loadBoard(T.newState(), { range: f, clues: d });
+      d.forEach((c, i) => {
+        const k = c.f;
+        if (byFam[k] === undefined) byFam[k] = s2.emblems[i];
+        else if (byFam[k] !== s2.emblems[i]) leak = false;
+      });
+    }
+  });
+  if (leak) { err('N25 every clue of a family carries the same emblem — the emblem names the clue'); return; }
+  console.log('  N25 ⭐ the emblem travels with its card through a shuffle, and cannot be read back to a family');
+}());
+
+/* ---------- N26 THE TWO ORACLES AGREE ----------
+   `scripts/gen-number-sieve-boards.js` re-proves every board against its
+   own copy of the six families, and the value of a duplicate is only
+   real if it cannot silently drift. It had already drifted once: gen's
+   range branch read `op === 'ge' ? >= : <=`, treating any unrecognised
+   op as "at most", so it was strictly WEAKER than this file. */
+(function () {
+  const genSrc = (() => {
+    try { return fs.readFileSync(path.join(ROOT, 'scripts', 'gen-number-sieve-boards.js'), 'utf8'); }
+    catch (_) { return ''; }
+  })();
+  if (!genSrc) { err('N26 the generator could not be read — this gate cannot measure what it cannot find'); return; }
+  const m = /const oracle = ([\s\S]*?\n};)/.exec(genSrc);
+  if (!m) { err('N26 the generator no longer exposes a comparable oracle'); return; }
+  let genOracle;
+  try { genOracle = eval('(' + m[1].replace(/;\s*$/, '') + ')'); } catch (e) { err('N26 the generator oracle would not evaluate: ' + e.message); return; }
+  let n = 0, bad = 0;
+  T.FIELDS.forEach((f) => {
+    T.universe(f).forEach((c) => {
+      for (let v = 1; v <= f; v++) {
+        n++;
+        if (genOracle(c, v) !== oracle(c, v)) { bad++; if (bad === 1) err(`N26 the two oracles disagree on ${JSON.stringify(c)} at ${v}`); }
+      }
+    });
+  });
+  /* and on the malformed shapes, which is where they drifted before */
+  [{ f: 'range', op: 'zz', a: 5 }, { f: 'quantity', op: 'zz', q: 5 }].forEach((c) => {
+    n++;
+    if (genOracle(c, 7) !== oracle(c, 7)) { bad++; err(`N26 the two oracles disagree on a malformed ${c.f} card — the duplicate is weaker than the original`); }
+  });
+  if (bad) return;
+  if (n < 10000) { err(`N26 only ${n} comparisons ran — the sweep is not driving both oracles`); return; }
+  console.log(`  N26 the generator's oracle agrees with this one on all ${n.toLocaleString('en-US')} comparisons, malformed shapes included`);
 }());
 
 /* ---------- N18 THE SHIPPED LIBRARY — an invalid board cannot ship ---------- */
@@ -727,7 +1117,7 @@ console.log('[the stance]');
        on s100-05, where the three digits are the FIELD SIZE. The property
        is structural: <range>-<index>, and the index is bounded by how
        many boards that field has. */
-    const m = /^s(\d+)-(\d{2})$/.exec(b.id);
+    const m = /^s(\d+)-(\d{2,3})$/.exec(b.id);
     const inField = boards.filter((x) => x.range === b.range).length;
     if (!m || Number(m[1]) !== b.range || Number(m[2]) < 1 || Number(m[2]) > inField) {
       err(`N18 ${b.id} is not <field>-<sequence index> — an id must not be able to spell the answer`);
@@ -769,13 +1159,35 @@ console.log('[the stance]');
      anything carries 44px", and the card's own 44px satisfied the second
      half forever — so shrinking the chip was unfalsifiable. Every control
      class is named and checked on its own. */
-  ['nsv-chip', 'nsv-card'].forEach((c) => {
+  /* ⚠ EVERY CONTROL CLASS, NOT THE TWO THAT EXISTED WHEN THIS WAS
+     WRITTEN. The rebuild added a segmented range control, six family
+     toggles and a deck-length control; none of them was covered here,
+     and local-test measured the segmented buttons at 40px and the
+     length chips at 42x44 — both under the floor, both invisible to
+     this gate. A control floor that names a fixed list of classes
+     stops being a floor the moment a control is added. */
+  ['nsv-chip', 'nsv-card', 'nsv-segbtn', 'nsv-fam', 'nsv-lenbtn'].forEach((c) => {
     if (!new RegExp('\\.' + c + '\\{[^}]*min-height:44px').test(SRC)) {
       err(`N16 .${c} does not carry the 44px control floor`);
     }
   });
-  const cell = /--nsv-cell:\s*clamp\(3[4-9]px|--nsv-cell:\s*clamp\(4[0-9]px/.test(SRC);
-  if (!cell) err('N16 no 34px field-cell floor found (the calendar-wall canvas precedent)');
+  /* ⭐⭐ EVERY CLAMP, NOT ANY CLAMP — AND THE MUTATION HARNESS PROVED IT.
+     This used to be a single `.test()`, which passes when ONE
+     `--nsv-cell` clamp carries a floor of 34. The rebuild added a
+     per-field clamp for the twelve-row board, so there are now two —
+     and the mutation that drops the BASE floor to 22px sailed through,
+     because the other clamp still matched. One matching instance was
+     certifying all of them. Read every declaration and check every
+     floor, and refuse to run at all if none is found, so that an
+     empty sweep can never look like a clean one. */
+  const clamps = SRC.match(/--nsv-cell:\s*clamp\(\s*(\d+)px/g) || [];
+  if (!clamps.length) {
+    err('N16 no --nsv-cell clamp found at all — this check cannot measure what it cannot find');
+  } else {
+    const floors = clamps.map((c) => Number(/clamp\(\s*(\d+)px/.exec(c)[1]));
+    const low = floors.filter((f) => f < 34);
+    if (low.length) err(`N16 ${low.length} of ${floors.length} field-cell clamp(s) sit under the 34px canvas floor (${low.join(', ')}px) — the calendar-wall precedent`);
+  }
   if (!/\.nsv-cell\{[^}]*min-width:0/.test(SRC) || !/\.nsv-cell\{[^}]*min-height:0/.test(SRC)) {
     err('N16 the cell does not carry min-width:0;min-height:0 — aspect-ratio + a cell min-height over-inflates the track and pushes the last column out of the grid box while scrollWidth stays clean');
   }

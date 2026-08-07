@@ -54,7 +54,12 @@ const M = [
   ['⭐ the marker can be moved after the cards start turning', 'if (s.committed) return s;', 'if (false) return s;'],
   ['a marker can be parked off the field', 'if (!isFinite(v) || v < 1 || v > s.field) return s;', 'if (!isFinite(v)) return s;'],
   ['the shuffle drops a card instead of moving it', 's.clues = s.clues.slice(1).concat(s.clues.slice(0, 1));', 's.clues = s.clues.slice(1);'],
-  ['the shuffle leaves cards already turned', 's.clues = s.clues.slice(1).concat(s.clues.slice(0, 1));\n    s.turned = 0;', 's.clues = s.clues.slice(1).concat(s.clues.slice(0, 1));\n    s.turned = 1;'],
+  ['the shuffle leaves cards already turned', 's.turned = 0;\n    s.chosen = -1;', 's.turned = 1;\n    s.chosen = -1;'],
+  /* ⭐ NEW: the defect this rebuild found by driving the model — a
+     shuffle that un-commits the markers lets a class move a guess
+     onto an answer they have just watched the deck reveal. */
+  ['⭐ a shuffle un-commits the markers', 's.spares = this._deriveSpares(s.field, s.clues);\n    return s;', 's.spares = this._deriveSpares(s.field, s.clues);\n    s.committed = false;\n    return s;'],
+  ['⭐ the emblems stop travelling with their cards', 's.emblems = eh.slice(1).concat(eh.slice(0, 1)).concat(et);', 's.emblems = s.emblems.slice();'],
   ['the fold stops one card short', 'var upto = Math.max(0, Math.min(k === undefined ? s.turned : k, s.clues.length));', 'var upto = Math.max(0, Math.min(k === undefined ? s.turned : k, s.clues.length) - 1);'],
   ['the fold applies every card regardless of what has been turned', 'var upto = Math.max(0, Math.min(k === undefined ? s.turned : k, s.clues.length));', 'var upto = s.clues.length;'],
 
@@ -99,13 +104,13 @@ const M = [
   ['a columns control appears', 'MAX_DOTS: 20,', 'MAX_DOTS: 20,\n  cols: 10,'],
   ['per-digit tinting leaks in', 'MAX_DOTS: 20,', 'MAX_DOTS: 20,\n  tintOnes: false,'],
   ['a score field appears', 'MAX_DOTS: 20,', 'MAX_DOTS: 20,\n  score: 0,'],
-  ['the state grows a hidden field', 'marker: null,     /* the committed guess, or null */', 'marker: null, tally: 0,'],
+  ['the state grows a hidden field', 'markers: [],      /* the committed guesses, in the order parked */', 'markers: [], tally: 0,'],
   ['a third network call appears', 'fetch(\'/api/auth/me\', {', 'fetch(\'/api/track\', {'],
   ['⭐ locked boards reach the free array', 'for (i = 0; i < all.length; i++) if (all[i].free || this.premium) out.push(all[i]);', 'for (i = 0; i < all.length; i++) out.push(all[i]);'],
   ['⭐ unknown entitlement becomes optimistic', 'if (!token) { self.premium = false; self.premiumKnown = true; if (self._wrap) self.render(); return; }', 'if (!token) { self.premium = true; self.premiumKnown = true; if (self._wrap) self.render(); return; }'],
 
   /* ---- the render + the geometry -------------------------------- */
-  ['⭐ the render path learns what the deck is converging on', 'var live = {}, alive = this.survivors(this.st), i;', 'var live = {}, alive = this.survivors(this.st), i; void this.st.target;'],
+  ['⭐ the render path learns what the deck is converging on', 'var dying = this._dying || {};', 'var dying = this._dying || {}; void this.st.target;'],
   ['a control drops below the tap floor', '.nsv-chip{min-height:44px;', '.nsv-chip{min-height:30px;'],
   ['the field cell drops below the canvas floor', '--nsv-cell:clamp(34px,6.4vmin,46px);', '--nsv-cell:clamp(22px,6.4vmin,46px);'],
   ['⭐ the cell stops carrying min-width:0/min-height:0', '.nsv-cell{min-width:0;min-height:0;', '.nsv-cell{'],
@@ -119,7 +124,17 @@ const M = [
   ['the deal stride cycles a short orbit', 'cand = all[((start + k * 7) % all.length + all.length) % all.length];', 'cand = all[((start + k * 10) % all.length + all.length) % all.length];'],
   ['⭐ setTarget returns the old deck instead of failing', 'if (!built) return null;', 'if (!built) return s;'],
   ['the caller guards on the old clues again', 'if (built) { this.st = built; this._fromLibrary = false; this._boardId = null; }', 'if (built.clues.length) { this.st = built; this._fromLibrary = false; }'],
-  ['the unobeyable hint comes back', 'if (this._picking === \'target\') hint.textContent = api.t(\'pickHint\');', 'if (this._picking === \'target\' || !this.st.clues.length) hint.textContent = api.t(\'pickHint\');'],
+  ['the unobeyable hint comes back', 'if (picking === \'target\') return \'pickHint\';\n    if (!s.clues.length) return \'\';', 'if (picking === \'target\' || !s.clues.length) return \'pickHint\';'],
+  /* ⭐ NEW, for the rebuild's own inventions */
+  ['⭐ the closing choice loses its only closer', 'if (res.length === 1 && res[0] === t) { if (!closer) closer = uni[k]; continue; }', 'if (res.length === 1) { if (!closer) closer = uni[k]; continue; }'],
+  ['⭐ two closing candidates may leave the same numbers', 'if (seenRes[key]) continue;', 'if (false) continue;'],
+  ['⭐ a closing candidate may be implied by a card already on the table', 'if (this._comparableWithAny(this._maskOf(all, uni[k]), masks)) continue;', 'if (false) continue;'],
+  ['⭐ the emblem is derived from the clue family', 'for (i = 0; i < n; i++) out.push(i % this.EMBLEMS);', 'for (i = 0; i < n; i++) out.push(0);'],
+  ['⭐ the quantity face goes back to lying about its own count', 'var q = Math.max(0, Math.min(this.MAX_DOTS, Math.round(c.q)));', 'var q = Math.max(0, Math.min(10, Math.round(c.q)));'],
+  ['⭐ the dead cell loses its second channel', 'background-image:repeating-linear-gradient(45deg,#0E5147 0 1.5px,rgba(0,0,0,0) 1.5px 6px);', 'background-image:none;'],
+  ['⭐ the card bar goes back to a light ground', '.nsv-fbar{fill:#0E5147;}', '.nsv-fbar{fill:#E8E1D2;}'],
+  ['⭐ start again throws the teacher back to library board one', 's.turned = 0;\n    s.markers = [];\n    s.chosen = -1;\n    s.committed = false;\n    return s;', 'return this.newState();'],
+  ['⭐ the offline fallback degrades to nothing again', 'premiumMax: 8,\n    boards: [', 'premiumMax: 8,\n    boards: [] || ['],
 
   /* ---- the words ----------------------------------------------- */
   ['⭐ a string starts counting', ...restring('instruction', 'Turn 3 cards and watch the field.')],

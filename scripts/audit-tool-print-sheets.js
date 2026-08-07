@@ -54,6 +54,27 @@ const PORT = 5540;
 
 /* every tool that offers a Print chip must appear here */
 const TOOLS = [
+  /* ⭐ LETTER STUDIO WAS "HAS A BLOCK, NO PROBE" — which is exactly why the
+     window.print()-with-no-sheet defect caught twice elsewhere was still
+     live in it. Its sheet is PREMIUM-ONLY and built as real DOM, so the
+     probe's premium-forcing path is load-bearing: for a free visitor there
+     is no `.ls-psheet` node and no print stylesheet at all, which is the
+     gate (the chip being hidden is not). */
+  { key: 'letter-studio', p: 'ls', apparatus: '.ls-psheet', chrome: '.ls-dock',
+    /* ⚠ THE SHARED PREMIUM-FORCING IS NOT ENOUGH HERE, and that is by
+       design rather than an obstacle. It sets `inst.premium = true` and
+       clicks the chip, but this tool BUILDS the print sheet and INJECTS
+       the print stylesheet only inside `render()`, because gating the
+       chip is not gating the feature — Ctrl+P reached the paid worksheet
+       in the shipped build and in #16 before it. So premium has to be set
+       AND the tool re-rendered, or the probe measures a free visitor and
+       correctly finds nothing. */
+    prime: function () {
+      var T = window.LetterStudio;
+      if (!T) return;
+      T.premium = true; T.premiumKnown = true;
+      T.render();
+    } },
   /* ⭐ THE SHEET CARRIES THE CLAIM, WHICH IS THE WHOLE POINT OF PRINTING IT.
      Build #3 hid `.drb-guess` and kept `.drb-opened`, so the page a class took
      home carried the ANSWER and not the prediction they made — backwards: the

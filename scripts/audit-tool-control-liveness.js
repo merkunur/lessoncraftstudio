@@ -72,7 +72,12 @@ const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'applicati
    step that 410'd a tool in all eleven locales: a list somebody has to
    remember. The `--all` roster below is scope, not registration. */
 const ALL_TOOLS = ['class-graph', 'number-balance', 'pattern-bench', 'sorting-hoops',
-  'reading-easel', 'folding-sheet', 'ten-frame'];
+  'reading-easel', 'folding-sheet', 'ten-frame',
+  /* letter-studio was reachable only via an explicit --tool, so `--all` had
+     never covered it. This gate is the ONLY instrument that can see a
+     consequence-free control, and it is what caught the numeral strip on #39
+     whose entire effect in 1067 lines was its own highlight class. */
+  'letter-studio'];
 
 function prefixOf(tool) {
   const f = path.join(MINI, tool + '.js');

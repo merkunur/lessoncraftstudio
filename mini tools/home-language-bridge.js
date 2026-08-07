@@ -1926,10 +1926,20 @@
       var mine = (this._store.custom || []).length;
       for (var i = 0; i < cats.length; i++) {
         (function (c) {
-          var b = api.el('button', 'hlb-tab' + (self.cat === c.id ? ' hlb-on' : '')); b.type = 'button';
+          var on = self.cat === c.id;
+          var b = api.el('button', 'hlb-tab' + (on ? ' hlb-on' : '')); b.type = 'button';
           b.setAttribute('role', 'tab');
           b.setAttribute('data-fk', 'tab-' + c.id);
-          b.setAttribute('aria-selected', self.cat === c.id ? 'true' : 'false');
+          b.setAttribute('aria-selected', on ? 'true' : 'false');
+          /* ⚠ THE SELECTED TAB IS NOT A CONTROL. Tapping the group you
+             are already looking at can do nothing by definition, and a
+             control that can do nothing is furniture wearing a button's
+             clothes — the shared liveness gate scored it DEAD in all
+             three entitlement states, correctly. It is disabled AT FULL
+             CONTRAST: opacity is the universal *unavailable* signal and
+             would say the wrong thing about the group a child is
+             currently in. */
+          if (on) b.disabled = true;
           /* ⚠ AN ICON AS WELL AS A WORD. The child who needs this board
              cannot read the tab. */
           b.appendChild(iconSVG(c.icon, 'hlb-tabicon'));
@@ -2637,7 +2647,10 @@
       + '.hlb-tab{display:flex;align-items:center;gap:6px;min-height:44px;padding:7px 13px;border-radius:999px;'
       +   'border:1.5px solid rgba(20,107,94,.25);background:#FFFDF7;color:#3C7C72;'
       +   'font:400 14px Nunito,system-ui,sans-serif;cursor:pointer;}'
-      + '.hlb-tab.hlb-on{background:#146B5E;border-color:#146B5E;color:#FFFDF7;}'
+      /* full contrast, and NOT the browser's disabled grey — see the
+         note beside `b.disabled` in _paintTabs. */
+      + '.hlb-tab.hlb-on{background:#146B5E;border-color:#146B5E;color:#FFFDF7;'
+      +   'opacity:1;cursor:default;}'
       + '.hlb-tabicon{width:22px;height:22px;flex:0 0 auto;}'
       + '.hlb-tab.hlb-on .hlb-tabicon{filter:brightness(0) invert(1);}'
 

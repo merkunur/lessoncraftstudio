@@ -1170,12 +1170,31 @@ var LetterStudio = {
   /* Catmull-Rom -> cubic Bezier, passing THROUGH every point. The tracer
      flattens the SAME curve (stroke-trace-core.js `flatten`), so what the
      child sees and what the judge measures are one shape. */
+  /* ⚠ A CLOSED LOOP MUST WRAP ITS END TANGENTS, NOT CLAMP THEM.
+     Clamping p0 to pts[0] and p3 to p2 is right for an open stroke and
+     wrong for a ring: at the seam the control vector comes out ~50% of
+     its correct length and 8.8-15.4 degrees off, which paints a visible
+     notch. There are now TWELVE closed loops in the two tables (O Q a b
+     d g o p q and digits 0 8 9) where there used to be four, so the
+     defect landed on nine more glyphs the moment the round letters were
+     rebuilt. `stroke-trace-core.flatten` carries the identical fix --
+     if these two ever disagree the judge is measuring a different curve
+     from the one the child can see, which is the whole reason the digits
+     broke. */
+  _closed: function (pts) {
+    return pts.length > 3 && Math.abs(pts[0].x - pts[pts.length - 1].x) < 0.6
+                          && Math.abs(pts[0].y - pts[pts.length - 1].y) < 0.6;
+  },
+
   _d: function (pts) {
     if (!pts || !pts.length) return '';
     if (pts.length < 3) return 'M ' + pts.map(function (p) { return p.x + ' ' + p.y; }).join(' L ');
+    var loop = this._closed(pts), n = pts.length;
     var d = 'M ' + pts[0].x + ' ' + pts[0].y, k, p0, p1, p2, p3, c1x, c1y, c2x, c2y;
     for (k = 0; k < pts.length - 1; k++) {
-      p0 = pts[k - 1] || pts[k]; p1 = pts[k]; p2 = pts[k + 1]; p3 = pts[k + 2] || p2;
+      p0 = pts[k - 1] || (loop ? pts[n - 2] : pts[k]);
+      p1 = pts[k]; p2 = pts[k + 1];
+      p3 = pts[k + 2] || (loop ? pts[1] : p2);
       c1x = p1.x + (p2.x - p0.x) / 6; c1y = p1.y + (p2.y - p0.y) / 6;
       c2x = p2.x - (p3.x - p1.x) / 6; c2y = p2.y - (p3.y - p1.y) / 6;
       d += ' C ' + c1x.toFixed(2) + ' ' + c1y.toFixed(2) + ' ' + c2x.toFixed(2) + ' ' + c2y.toFixed(2) + ' ' + p2.x + ' ' + p2.y;

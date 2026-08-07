@@ -120,10 +120,20 @@ function crFlatten(stroke, step) {
     }
     return out;
   }
+  /* ⚠ A CLOSED LOOP WRAPS. This is not copied from the core to make the
+     core pass — it is the correct definition of a Catmull-Rom through a
+     ring, and this file had it wrong. Clamping the end tangents makes the
+     seam a corner; the curve a ring actually describes carries the
+     tangent round. With the clamped version here, the gate was asserting
+     the core matched a curve that is not the true one. */
+  const loop = stroke.length > 3 &&
+               Math.abs(stroke[0].x - stroke[stroke.length - 1].x) < 0.6 &&
+               Math.abs(stroke[0].y - stroke[stroke.length - 1].y) < 0.6;
+  const last = stroke.length - 1;
   out.push({ x: stroke[0].x, y: stroke[0].y });
   for (let k = 0; k < stroke.length - 1; k++) {
-    const p0 = stroke[k - 1] || stroke[k], p1 = stroke[k];
-    const p2 = stroke[k + 1], p3 = stroke[k + 2] || p2;
+    const p0 = stroke[k - 1] || (loop ? stroke[last - 1] : stroke[k]), p1 = stroke[k];
+    const p2 = stroke[k + 1], p3 = stroke[k + 2] || (loop ? stroke[1] : p2);
     const c1x = p1.x + (p2.x - p0.x) / 6, c1y = p1.y + (p2.y - p0.y) / 6;
     const c2x = p2.x - (p3.x - p1.x) / 6, c2y = p2.y - (p3.y - p1.y) / 6;
     const n = Math.max(2, Math.ceil((d(p1, p2) * 1.2) / step));

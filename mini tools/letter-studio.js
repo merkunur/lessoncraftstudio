@@ -113,13 +113,17 @@ var LetterStudio = {
        It must be true in both states; it used to say only "add a class". */
     noClass:      {en:'Add a class and its names in Name Sticks — this studio reads the same list.',de:'Legen Sie in den Namensstäbchen zuerst eine Klasse mit Namen an – hier wird dieselbe Liste gelesen.',fr:'Créez d’abord une classe dans Bâtonnets de prénoms : cet atelier lit la même liste.',it:'I nomi si aggiungono in Bastoncini dei nomi: qui si legge lo stesso elenco.',es:'Primero crea un grupo en Palitos con nombre: aquí se lee esa misma lista.',pt:'Crie primeiro uma turma em Palitos de nomes — esta oficina lê a mesma lista.',nl:'Maak eerst een klas aan in Beurtenstokjes — het letterhuisje leest dezelfde lijst.',sv:'Skapa först en klass i Namnpinnar — Bokstavsverkstaden läser samma lista.',da:'Opret først en klasse i Navnepinde — værkstedet læser den samme liste.',no:'Lag først en klasse i Navnepinner – Skriveverkstedet leser den samme lista.',fi:'Lisää luokka ja oppilaiden nimet Nimitikuissa – tämä paja lukee samaa listaa.'},
 
-    /* ⚠ ONE LABEL, THREE CONTROLS — reported by all ten native panels.
-       `a11yWord` is the aria-label of the text input, of the ▸ button that
-       SUBMITS, and of the ✎ chip that OPENS the panel, so a screen-reader
-       user hears "type a word to trace" on two controls that do neither.
-       No wording can be correct on all three; closing it needs two more
-       keys (`a11yWordOpen`, `a11yWordGo`) and is held pending that call. */
+    /* THREE CONTROLS, THREE LABELS. All ten native panels reported the same
+       defect: `a11yWord` was the aria-label of the text input, of the ▸ that
+       SUBMITS, and of the ✎ chip that OPENS the panel — so a screen-reader
+       user heard "type a word to trace" on two controls that do neither.
+       One string cannot be correct on all three, so there are three.
+       ⚠ `a11yWordOpen` must stay true for a FREE visitor: that chip opens a
+       word box for everyone and a class roster only for a subscriber, so it
+       may not promise names. The panels wrote them that way deliberately. */
     a11yWord:     {en:'Type a word to trace',de:'Wort zum Nachfahren eingeben',fr:'Écrire un mot à tracer',it:'Scrivi una parola da ripassare',es:'Escribe una palabra para trazar',pt:'Digite uma palavra para traçar',nl:'Typ een woord om na te trekken',sv:'Skriv ett ord att öva på',da:'Skriv et ord',no:'Ordet klassen skal øve på',fi:'Kirjoita harjoiteltava sana'},
+    a11yWordOpen: {en:'Write a word of your own',de:'Eigene Wörter',fr:'Choisir un mot à tracer',it:'Scegli tu la parola',es:'Escribir una palabra o un nombre',pt:'Escolher uma palavra para traçar',nl:'Zelf een woord typen',sv:'Öppna rutan för egna ord',da:'Skriv dit eget ord',no:'Skriv et eget ord',fi:'Avaa sanakenttä'},
+    a11yWordGo:   {en:'Trace this word',de:'Wort übernehmen',fr:'Tracer ce mot',it:'Ripassa questa parola',es:'Trazar esta palabra',pt:'Começar a traçar esta palavra',nl:'Dit woord natrekken',sv:'Använd ordet',da:'Vis ordet i skrivehuset',no:'Begynn på ordet',fi:'Aloita sanan harjoittelu'},
 
     /* The gate. INLINE — never a scrim with a price projected in front of
        25 children. ⭐ THE PLAN IS CALLED "Teacher", NOT "Premium": the word
@@ -155,8 +159,9 @@ var LetterStudio = {
      paper, and six independently reported that a DASHED midline is an
      Anglo convention their country does not print. Spain boxes lowercase
      between two equally strong lines; Brazil has no x-height line at
-     all; Finland's OPH grid draws four IDENTICAL lines with no
-     emphasised baseline. A locale whose ensemble could cite no national
+     all; the Finnish row draws four IDENTICAL lines with no
+     emphasised baseline (OPS 2014 prescribes no ruling, so that row is a
+     publisher convention rather than a national standard). A locale whose ensemble could cite no national
      convention keeps the neutral 3-zone default ON PURPOSE — an honest
      placeholder beats a confident guess.
 
@@ -165,14 +170,83 @@ var LetterStudio = {
      ================================================================= */
   RULING: {
     de: { system: 'lineatur-1', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }], band: { from: 44, to: 84 } },
-    fr: { system: 'seyes-agrandi', zones: [{ y: 14, kind: 'dashed', tone: 'mid' }, { y: 29, kind: 'dashed', tone: 'faint' }, { y: 44, kind: 'dashed', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'dashed', tone: 'faint' }] },
+    /* fr — was the MOST DASHED row in the table while claiming
+       `seyes-agrandi`, and no French cahier prints a dashed line at all.
+       All five lines go solid; `y:29` is DROPPED because nothing in the
+       glyph table tops out there and it is not an interligne of any
+       consistent unit — its only effect was to make the sheet LOOK more
+       Seyès without being it. Both interlignes go to a matching `faint`:
+       equal interligne WEIGHT is a genuine Seyès property obtainable
+       without touching a glyph, and the row previously ran mid/faint/mid,
+       three interlignes at two weights, which no ruled paper does.
+       ⚠ If faint proves unreadable from the back of a room, raise ALL of
+       them together — unequal interligne weight is precisely what is not
+       Seyès.
+       ⚠ AND THE NAME COMES OFF. Seyès IS its constant pitch — everything a
+       CP teacher instructs with is counted in interlignes — and the
+       shipped glyphs give 40/15/15. The panel refused to equalise it at
+       the data layer because every candidate unit teaches a FALSE COUNT
+       over these glyphs (u=40 floats the `l` at 1.75 interlignes reaching
+       no line; u=14 is prettiest and teaches "le a fait 3 interlignes"
+       when Seyès says 1). A confidently wrong ruling is worse than an
+       honestly generic one — this file's own doctrine.
+       THE REAL FIX IS GLYPH WORK, and it is scoped: u = 18 with the ligne
+       d'écriture at y = 60, lines at 6/24/42/60/78/96 — every gap 18,
+       x-height 1 interligne, ascender 3, descender 2, clear of MARK_CEIL
+       and on the existing 96 floor. Cost: the lowercase body drops 40 -> 18
+       units, so fr would render at ~45% the linear size of the other ten
+       locales and likely needs a per-locale sheet size. Restore
+       `seyes-agrandi` the day that lands, and the carreaux with it — they
+       are square at 4 interlignes, so they are downstream of the unit, not
+       independent of it. */
+    fr: { system: 'fr-interlignes', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'faint' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }] },
     it: { system: 'rigatura-prima', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }] },
     es: { system: 'doble-raya', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'strong' }, { y: 84, kind: 'solid', tone: 'strong' }] },
     pt: { system: 'pauta-numerada-1-2-3', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }], band: { from: 44, to: 84 } },
     nl: { system: 'nl-blokschrift-liniatuur', zones: [{ y: 14, kind: 'dashed', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'dashed', tone: 'faint' }] },
-    sv: { system: 'stodlinjerat', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'faint' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }] },
-    da: { system: 'skrivehus', zones: [{ y: 14, kind: 'dashed', tone: 'faint' }, { y: 44, kind: 'dashed', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'dashed', tone: 'faint' }] },
-    no: { system: 'skrivehus', zones: [{ y: 14, kind: 'dashed', tone: 'faint' }, { y: 44, kind: 'dashed', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'dashed', tone: 'faint' }] },
+    /* sv — the x-height line was `faint`, IDENTICAL to the ascender and
+       descender bounds, so the one line the system is NAMED for was not
+       visibly drawn. Every other locale with a solid x-height line ranks
+       it above the bounds (de/it/nl mid, es strong); sv was the only row
+       where it was not. `mid` is the only rung that can mean "distinct
+       from the bounds, subordinate to the baseline", which is what a
+       stödlinje is. Tone only — NOT dashed: six ensembles independently
+       reported a dashed midline as an Anglo convention their country does
+       not print, and sv is one of the four all-solid locales. No band:
+       `.ls-band` is coral, the same hue as the child's ink, and the
+       palette exists to keep the guide out of the ink's way. */
+    sv: { system: 'stodlinjerat', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }] },
+    /* da — skrivehuset. The NAME was right and the geometry had never been
+       ruled: it was byte-identical to the neutral default, dashes and all.
+       Corroborated outside this file — the shipped Danish landing copy
+       already sells "et skrivehus med kælder, stue og loft".
+       loftet (y44) goes DASHED -> SOLID, and that is the load-bearing
+       change: in the skrivehus the loft is a named storey boundary, not a
+       hint. `a` must reach the loft exactly as it must stand on the gulv,
+       and a dashed ceiling over a solid floor teaches an asymmetry the
+       metaphor does not have. `mid` rather than `strong` because the
+       asymmetry that IS real is the other one — you stand on a floor, you
+       reach for a ceiling. The outer walls go solid too: the house is
+       drawn as a building, and two solid plus two dotted is not one
+       figure. No band — a shaded storey would exist on screen and vanish
+       on the paid printout, because Chrome ships background graphics off. */
+    da: { system: 'skrivehus', zones: [{ y: 14, kind: 'solid', tone: 'faint' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'solid', tone: 'faint' }] },
+    /* no — UNRULED, and now it says so. It carried `system:'skrivehus'`
+       over zones byte-identical to the neutral default: a name asserts
+       that a locale WAS ruled, which is this field's only job, since
+       nothing ever reads it. `skrivehus` is also Danish-coded — the
+       Norwegian term is `bokstavhus` (loft / stue / kjeller) — so the
+       entry was Denmark's, inherited rather than ruled.
+       The Norwegian panel had high confidence in the NAME and only medium
+       in the GEOMETRY, and refused to let the first carry the second:
+       that inference is exactly what produced this entry. So the honest
+       state is the neutral default, unnamed.
+       ⚠ Do NOT copy da's zones here. Separately administered curricula
+       (LK20 vs Fælles Mål), different publishers, different paper;
+       orthographic proximity is not evidence about stationery. `no` may
+       only leave '3-zone' on a NORWEGIAN source. When someone rules it,
+       the system name is `bokstavhus`, never `skrivehus`. */
+    no: { system: '3-zone', zones: [{ y: 14, kind: 'dashed', tone: 'faint' }, { y: 44, kind: 'dashed', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'dashed', tone: 'faint' }] },
     fi: { system: 'viivasto-4', zones: [{ y: 14, kind: 'solid', tone: 'mid' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'mid' }, { y: 96, kind: 'solid', tone: 'mid' }], band: { from: 44, to: 84 } },
     'default': {
       system: '3-zone',
@@ -779,7 +853,7 @@ var LetterStudio = {
     var go = api.el('button', 'ls-wordgo');
     go.type = 'button';
     go.textContent = '▸';
-    go.setAttribute('aria-label', api.t('a11yWord'));
+    go.setAttribute('aria-label', api.t('a11yWordGo'));
     /* ⚠ NOT LIVE OVER AN EMPTY BOX. A control that takes an answer to a
        question nobody has asked is the defect draw-bag, number-sieve,
        measurement-bench and estimation-jar all shipped: the handler
@@ -1017,7 +1091,7 @@ var LetterStudio = {
 
     var wd = api.el('button', 'ls-chip' + (this.wordOpen ? ' ls-chipon' : ''));
     wd.type = 'button';
-    wd.setAttribute('aria-label', api.t('a11yWord'));
+    wd.setAttribute('aria-label', api.t('a11yWordOpen'));
     wd.setAttribute('aria-expanded', this.wordOpen ? 'true' : 'false');
     wd.textContent = '✎';
     wd.addEventListener('click', function () { self.wordOpen = !self.wordOpen; self.render(); });

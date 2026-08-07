@@ -59,10 +59,19 @@
        the spine. 8's three arcs all meet at (50,50) with the pen moving
        right through the waist on every pass.
 
-     ⚠ THE BARRED SEVEN IS A REAL DEFECT FOR TEN OF ELEVEN LOCALES — a
-       German or French seven without its bar reads as a ONE to a
-       seven-year-old. It is not applied here because the bar is a
-       per-locale decision; see `barFor()` below. */
+     ⚠ THE BARRED SEVEN IS PER-LOCALE AND IS NOT A MAJORITY. This comment
+       used to say "a real defect for TEN OF ELEVEN locales", which was the
+       same negation `barFor` used to encode and is wrong: Finland writes
+       the flagged 1 AND an unbarred 7. Five locales are ruled barred, two
+       ruled plain, four unruled and defaulting to plain. See `barFor()`.
+
+     ⚠ AND `1` IS STILL HARD-CODED CONTINENTAL. Its ~21-unit diagonal entry
+       flag is right for fi/de/fr and wrong for `en`, where US manuscript
+       teaches a bare vertical — so the table currently hands English a
+       correct 7 and an incorrect 1, which is exactly the pair the bar
+       exists to tell apart. Fixing it needs a per-digit variant table
+       rather than a second special case beside the seven; 4 (open top) and
+       9 (straight leg) are candidates too. NOT done here. */
   var GLYPHS = {
     '0': [arc(50, 50, 21, 34, 300, -60, 18)],
 
@@ -95,11 +104,44 @@
     '9': [arc(48, 36, 19, 20, 300, -60, 14), line(67, 36, 60, 84, 5)]
   };
 
-  /* The crossbar ten of the eleven locales teach. Returned separately so
-     a consumer applies it per locale rather than the table carrying one
-     nationality's seven for everybody. */
+  /* ⭐ THE CROSSBAR IS A NAMED SET, NOT A NEGATION.
+     This used to read `lang !== 'en'`, which is not a ruling — it is one
+     decision about English and ten assumptions about everybody else. The
+     Finnish panel refuted it directly: Finnish alkuopetus teaches and
+     prints an UNBARRED seven, and Finland is the counter-example that
+     kills the tempting shortcut, because Finnish DOES write the flagged 1
+     (see the `1` glyph above) and still does not bar the 7. The mechanism
+     explains where the bar came from; it cannot tell you what a country
+     settled on.
+
+     ⚠ AND THE BAR IS A SEPARATE STROKE, so it changes the stroke COUNT.
+     `letter-studio._buildPips` sizes the pip row from `g.length` — so
+     under the old negation a Finnish child was shown TWO pips for 7 and
+     told the seven is a two-stroke figure. Adding the bar for any locale
+     means that locale genuinely teaches it as a second pen-lift.
+
+     BARRED / PLAIN are the ruled sets. UNRULED locales default to PLAIN
+     deliberately: an unbarred seven is legible everywhere, while a bar in
+     a country that does not teach it is actively wrong. Every locale must
+     appear in exactly one list — `assertSevenCoverage` makes a locale in
+     none of them a build failure, so the next locale added cannot inherit
+     a decision nobody made. */
+  var SEVEN_BARRED = ['de', 'fr', 'it', 'es', 'pt'];   /* conventional; not panel-ruled */
+  var SEVEN_PLAIN  = ['en', 'fi'];                     /* fi ruled by its native panel  */
+  var SEVEN_UNRULED = ['nl', 'sv', 'da', 'no'];        /* ask before moving these       */
+  var ALL_LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+
+  function assertSevenCoverage() {
+    var missing = [], i, l;
+    for (i = 0; i < ALL_LOCALES.length; i++) {
+      l = ALL_LOCALES[i];
+      if (SEVEN_BARRED.indexOf(l) < 0 && SEVEN_PLAIN.indexOf(l) < 0 && SEVEN_UNRULED.indexOf(l) < 0) missing.push(l);
+    }
+    return missing;
+  }
+
   function barFor(lang) {
-    return (lang && lang !== 'en') ? [line(38, 50, 62, 50, 2)] : [];
+    return (lang && SEVEN_BARRED.indexOf(lang) >= 0) ? [line(38, 50, 62, 50, 2)] : [];
   }
   function glyphFor(d, lang) {
     var g = GLYPHS[String(d)];
@@ -174,7 +216,9 @@
   }
 
   global.NumberTraceCore = {
-    GLYPHS: GLYPHS, arc: arc, line: line, barFor: barFor, glyphFor: glyphFor, TOL: TOL,
+    GLYPHS: GLYPHS, arc: arc, line: line, barFor: barFor, glyphFor: glyphFor,
+    SEVEN_BARRED: SEVEN_BARRED, SEVEN_PLAIN: SEVEN_PLAIN, SEVEN_UNRULED: SEVEN_UNRULED,
+    assertSevenCoverage: assertSevenCoverage, TOL: TOL,
     glyphOf: glyphOf, numStrokes: numStrokes, startOf: startOf,
     newState: newState, traceScore: traceScore, attemptStroke: attemptStroke, isComplete: isComplete,
     snapshot: snapshot, facts: facts, audit: audit,

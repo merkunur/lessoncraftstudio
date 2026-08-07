@@ -260,6 +260,32 @@ function run(poison) {
        (who.length ? '  ' + who.join(' ') : ''), cheated === 0);
   }
 
+  {
+    /* ⭐ THE CLAIM THAT ACTUALLY MATTERS, stated directly rather than
+       inferred from the stopping-short rows. "0% is drawn for the child"
+       would be false -- END_SLACK leaves a little, by design. What must
+       be true is that whatever is left is INVISIBLE: smaller than the
+       5.4-unit ink, so no child can see a difference between the letter
+       they finished and the letter on the sheet. Before the rebuild the
+       shortfall reached 18 units, which is 3.3 pen widths. */
+    const INK = 5.4;
+    let worst = 0, who = '', over = 0;
+    for (const s of traceable) {
+      const st = STC.newTrace([s.st]), lane = st.lanes[0];
+      const f = STC.flatten(s.st);
+      let acc = 0, doneAt = lane.total;
+      for (let i = 0; i < f.length; i++) {
+        if (i) acc += Math.hypot(f[i].x - f[i - 1].x, f[i].y - f[i - 1].y);
+        if (STC.sample(st, f[i]).done) { doneAt = acc; break; }
+      }
+      const left = lane.total - doneAt;
+      if (left > INK) over++;
+      if (left > worst) { worst = left; who = s.id; }
+    }
+    ok(`what the tool finishes for the child is never visible: worst ${worst.toFixed(2)}u = ${(worst / INK).toFixed(2)} pen widths (${who}), ${over} strokes over one pen width`,
+       over === 0 && worst <= INK);
+  }
+
   head('D  cheats — every one must be refused');
   {
     let n = 0, who = [];

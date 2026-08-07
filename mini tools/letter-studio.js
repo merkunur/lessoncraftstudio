@@ -606,6 +606,8 @@ var LetterStudio = {
     var roster = this.rosterFor(this._loadMC(), this._classId, this.premium);
     if (this.premium) {
       if (roster.length) {
+        var rl = api.el('p', 'ls-rosterlead'); rl.textContent = api.t('namesPick');
+        box.appendChild(rl);
         var grid = api.el('div', 'ls-names');
         for (var i = 0; i < roster.length; i++) {
           (function (s) {
@@ -917,6 +919,22 @@ var LetterStudio = {
     this._svg = sv;
     this._wireTrace(sv, ch);
     wrap.appendChild(sv);
+
+    /* ⚠ REPLAY. Moving "Show me" out of the dock was right — two coral
+       pills on the success screen gave a child scanning for the big
+       orange button a coin-flip between advancing and replaying — but I
+       removed the control and did not put it back anywhere, so a teacher
+       had no way to run the stroke order again and `a11yDemo` sat
+       authored in eleven locales and wired to nothing. It is a replay
+       affordance, so it lives ON the sheet, small, in the corner the
+       letter never occupies. */
+    var self = this;
+    var rep = this.api.el('button', 'ls-replay');
+    rep.type = 'button';
+    rep.textContent = '▶';
+    rep.setAttribute('aria-label', this.api.t('a11yDemo'));
+    rep.addEventListener('click', function (e) { e.stopPropagation(); self._demo(); });
+    wrap.appendChild(rep);
     return wrap;
   },
 
@@ -1310,6 +1328,11 @@ function injectLetterStudioCSS() {
     + '.ls-arrow{fill:rgba(20,107,94,.72);}'
 
     /* ---- pips + dock ---- */
+    + '.ls-sheet{position:relative;}'
+    + '.ls-replay{position:absolute;right:8px;bottom:8px;min-width:44px;min-height:44px;'
+    + 'font:600 16px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:rgba(255,253,247,.92);'
+    + 'border:2px solid rgba(20,107,94,.28);border-radius:12px;cursor:pointer;padding:0;}'
+    + '.ls-rosterlead{font:700 13px/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;text-align:center;}'
     + '.ls-pips{display:flex;gap:6px;align-items:center;min-height:10px;}'
     + '.ls-pip{width:9px;height:9px;border-radius:50%;background:rgba(20,107,94,.20);}'
     + '.ls-pip.ls-pipnow{background:#1F8A55;transform:scale(1.25);}'

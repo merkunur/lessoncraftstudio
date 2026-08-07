@@ -2622,18 +2622,18 @@
       /* the language bar */
       + '.hlb-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center;width:100%;}'
       + '.hlb-room{display:flex;align-items:baseline;gap:6px;}'
-      + '.hlb-roomlbl{font:400 13px Nunito,system-ui,sans-serif;color:#6B6558;}'
+      + '.hlb-roomlbl{font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;}'
       + '.hlb-roomval{font:600 18px "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E;}'
       + '.hlb-chip{min-height:44px;padding:8px 15px;border-radius:999px;border:1.5px solid rgba(20,107,94,.3);'
       +   'background:#FFFDF7;color:#3C7C72;font:400 14px Nunito,system-ui,sans-serif;cursor:pointer;}'
       + '.hlb-chip:hover{background:#F3EADA;}'
       + '.hlb-chip.hlb-on{background:#146B5E;border-color:#146B5E;color:#FFFDF7;}'
       + '.hlb-chip[disabled]{cursor:default;opacity:1;border-style:dashed;}'
-      + '.hlb-note{flex-basis:100%;font:400 13px Nunito,system-ui,sans-serif;color:#6B6558;text-align:center;max-width:56ch;margin:0 auto;}'
+      + '.hlb-note{flex-basis:100%;font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;text-align:center;max-width:56ch;margin:0 auto;}'
 
       + '.hlb-chooser{flex-basis:100%;display:flex;flex-direction:column;align-items:center;gap:8px;'
       +   'padding:12px;border-radius:16px;background:#FFFDF7;border:2px solid rgba(20,107,94,.18);}'
-      + '.hlb-hint{font:400 13px Nunito,system-ui,sans-serif;color:#3C7C72;text-align:center;max-width:52ch;}'
+      + '.hlb-hint{font:400 14px Nunito,system-ui,sans-serif;color:#3C7C72;text-align:center;max-width:52ch;}'
       + '.hlb-langgrid{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;}'
       + '.hlb-lang{min-height:44px;padding:9px 15px;border-radius:12px;border:2px solid rgba(20,107,94,.3);'
       +   'background:#FBF3E4;color:#146B5E;font:400 15px Nunito,system-ui,sans-serif;cursor:pointer;}'
@@ -2664,7 +2664,20 @@
       +   'padding-bottom:10px;border-bottom:2px solid rgba(20,107,94,.18);}'
       + '.hlb-board{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;width:100%;}'
 
-      + '.hlb-card{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;'
+      /* ⚠⚠ `min-width:0` IS LOAD-BEARING AND IT IS WHY THE CORE RAIL WAS
+         CLIPPED ON A PHONE. A grid item defaults to `min-width:auto`,
+         i.e. min-CONTENT — so a track holding the word "understand"
+         refuses to shrink below that word, the four fixed columns of
+         the rail overflow 360px, and the last two of the eight cards
+         the child needs most are cut off the right edge. Every gate
+         passed: there is no horizontal document overflow (the card
+         clips it), the cells are all above the tap floor, and nothing
+         is "off screen" by the measures anyone was taking. I found it
+         by reading the render.
+         The BOARD never showed it because it drops to three columns;
+         the RAIL is fixed at four so the eight core cards stay in the
+         same eight places, which is the entire point of a core. */
+      + '.hlb-card{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;'
       +   'min-height:104px;padding:10px 7px;border-radius:16px;border:2px solid rgba(20,107,94,.22);'
       +   'background:#FFFDF7;cursor:pointer;font:inherit;text-align:center;'
       +   'transition:transform .12s ease,box-shadow .12s ease;}'
@@ -2686,7 +2699,13 @@
       + '.hlb-icon{width:40px;height:40px;flex:0 0 auto;}'
       /* ⚠ ONE TEXT CLASS FOR BOTH LANGUAGES: identical size, weight and
          colour, so neither can become the secondary one. */
-      + '.hlb-text{font:400 14px/1.25 Nunito,system-ui,sans-serif;color:#146B5E;}'
+      /* ⚠ `overflow-wrap:anywhere` — the companion to `min-width:0` on
+         the card. Letting the track shrink is only half the fix: an
+         unbreakable word ("understand", and every German compound this
+         board will meet) then pushes past the rounded edge instead.
+         Both are needed, and only the render shows it. */
+      + '.hlb-text{font:400 14px/1.25 Nunito,system-ui,sans-serif;color:#146B5E;'
+      +   'overflow-wrap:anywhere;hyphens:auto;}'
 
       /* ⚠ THE STEPS ARE CONTAINER WIDTHS. 4x3 holds from 560 to 1179,
          so the 704px embed and a 1024 standalone are THE SAME BOARD —
@@ -2714,7 +2733,7 @@
       + '}'
 
       + '.hlb-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px 14px;width:100%;}'
-      + '.hlb-privacy{flex-basis:100%;font:400 12px Nunito,system-ui,sans-serif;color:#6B6558;text-align:center;}'
+      + '.hlb-privacy{flex-basis:100%;font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;text-align:center;}'
 
       /* ⚠ absolute, NEVER fixed: a fixed panel cannot make a
          content-driven iframe grow, so it would be cut off in the embed
@@ -2730,7 +2749,7 @@
       +   'border:2px solid #146B5E;background:#FFFDF7;color:#146B5E;'
       +   'font:600 17px Nunito,system-ui,sans-serif;cursor:pointer;}'
       + '.hlb-bigmine{border-color:#F2784B;color:#C2562F;}'
-      + '.hlb-bignote,.hlb-bighint{font:400 13px Nunito,system-ui,sans-serif;color:#6B6558;max-width:44ch;}'
+      + '.hlb-bignote,.hlb-bighint{font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;max-width:44ch;}'
 
       /* the adult surface REPLACES the child's board rather than
          appearing under it — see the note beside the class toggle. */
@@ -2742,7 +2761,7 @@
       + '.hlb-desk.hlb-open{display:flex;flex-direction:column;gap:10px;width:100%;max-width:640px;'
       +   'padding:16px;border-radius:18px;background:#FFFDF7;border:2px solid rgba(20,107,94,.2);}'
       + '.hlb-desktitle{margin:0;font:700 19px "Baloo 2",Nunito,sans-serif;color:#146B5E;}'
-      + '.hlb-deskhint,.hlb-deskwhy{margin:0;font:400 13px Nunito,system-ui,sans-serif;color:#6B6558;}'
+      + '.hlb-deskhint,.hlb-deskwhy{margin:0;font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;}'
       + '.hlb-deskrow{font:600 14px Nunito,system-ui,sans-serif;color:#3C7C72;margin-top:4px;}'
       + '.hlb-starters{display:flex;flex-wrap:wrap;gap:6px;}'
       + '.hlb-starter{min-height:44px;padding:8px 13px;border-radius:12px;border:1.5px solid rgba(20,107,94,.3);'
@@ -2751,7 +2770,7 @@
       + '.hlb-input{width:100%;min-height:48px;padding:10px 12px;border-radius:12px;box-sizing:border-box;'
       +   'border:2px solid rgba(20,107,94,.3);background:#FFFDF7;color:#146B5E;'
       +   'font:400 16px Nunito,system-ui,sans-serif;}'
-      + '.hlb-counter{font:400 12px Nunito,system-ui,sans-serif;color:#6B6558;min-height:16px;text-align:right;}'
+      + '.hlb-counter{font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;min-height:18px;text-align:right;}'
       + '.hlb-iconrow{display:flex;flex-wrap:wrap;gap:8px;}'
       + '.hlb-icongrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(56px,1fr));gap:8px;'
       +   'max-height:320px;overflow-y:auto;padding:6px;border-radius:12px;background:#FBF3E4;}'
@@ -2778,7 +2797,7 @@
       + '@media (forced-colors:active){.hlb-locked{border-style:dashed;}}'
       + '.hlb-notice{padding:9px 12px;border-radius:12px;background:#FBE6DA;'
       +   'border:1px solid rgba(242,120,75,.45);font:400 14px Nunito,system-ui,sans-serif;color:#8A3B1B;}'
-      + '.hlb-kept{font:400 13px Nunito,system-ui,sans-serif;color:#6B6558;}'
+      + '.hlb-kept{font:400 14px Nunito,system-ui,sans-serif;color:#6B6558;}'
       + '.hlb-minelist{display:flex;flex-direction:column;gap:6px;}'
       + '.hlb-minerow{display:flex;align-items:center;gap:8px;padding:6px 8px;border-radius:10px;background:#FBF3E4;}'
       + '.hlb-minicon{width:28px;height:28px;flex:0 0 auto;}'
@@ -2797,6 +2816,17 @@
          iframe that is a feedback loop, the same family as the vh ban. */
       + 'body.hlb-page{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}'
       + 'body.hlb-page .lcs-stage{position:relative;}'
+      /* ⚠ NARROW ONLY. On a phone the shell header puts an eight-letter
+         title beside four control buttons and the title broke MID-WORD
+         — "Say / It / Boar / d". The v2 build stacked the header at
+         EVERY width to avoid this, which costs vertical space on a
+         projector, where it is scarcest. A max-width query is the right
+         tool here: this is shell chrome outside the board's container,
+         and unlike the board it does not live inside an iframe whose
+         width lies about the viewport. */
+      + '@media (max-width:430px){'
+      +   'body.hlb-page .lcs-header{flex-direction:column;align-items:flex-start;gap:6px;}'
+      + '}'
 
       + '.hlb-sheet{display:none;}'
 

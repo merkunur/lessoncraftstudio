@@ -178,7 +178,14 @@ var LetterStudio = {
      dots 20u apart were MUTUALLY SATISFIABLE — one tap between them
      completed both — so they were not two strokes at all. */
   DOT_TOL: 8,
-  MARK_CEIL: 4.5,     /* nothing may be drawn above this: see _buildSheet */
+  /* ⚠ THE CEILING IS A CENTRELINE, AND THE STROKE HAS WIDTH. The sheet's
+     viewBox starts at y=2 and the guide road is 7 units wide, so a mark
+     centred at 4.5 paints its top edge at 1.0 -- outside the sheet, where
+     `overflow:hidden` cuts it off. Measured: 16 accented CAPITALS were
+     clipped (À Á Â Å È É …), because a capital's cap top is 16 and the
+     mark has to fit above it. The ceiling must clear the top by half the
+     widest stroke: 2 + 3.5 = 5.5, taken to 6 for margin. */
+  MARK_CEIL: 6,
   MARKS: {
     /* grave/acute — the LEAN was already right (grave falls left-to-right,
        acute rises). The PROPORTION was not: at H=16 the grave measured 11.2

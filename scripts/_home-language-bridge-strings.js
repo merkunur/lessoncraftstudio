@@ -264,6 +264,26 @@ const PHRASES = {
    toilet phrase is the defect this whole file exists to end.
    ------------------------------------------------------------------- */
 const REVIEWED = {
+  /* Six three-agent native panels ran 2026-08-07 — the first native read
+     these strings have ever had. Their severity-1 rulings are folded in
+     (see scripts/apply-say-it-panel-corrections.js, which records every
+     change and its reason).
+
+     ⚠ THE FLAGS BELOW STAY FALSE, AND THAT IS DELIBERATE. Every panel
+     that reviewed a locale also filed a second tier of corrections —
+     register softenings, lexicon alignments, a Finnish sentence-starter
+     case problem that wants per-starter EXAMPLES rather than a validator,
+     an operator ruling on Portuguese `obrigado/obrigada` (the language
+     has no gender-neutral thank-you, so the board currently makes every
+     girl say the masculine form). Marking a locale reviewed while its own
+     panel's list is half-applied would be exactly the claim the v2
+     docblock made and could not support.
+
+     ⚠ AND THE FLAG IS NOT WHAT PUTS A LOCALE IN FRONT OF A CHILD. The
+     German panel caught that: `categoriesFor` gates three of five tabs,
+     the core rail is always painted, and the core contains `toilet`.
+     Flipping a flag changes which TABS render, not whether the board is
+     live. Do not mistake it for a kill switch. */
   en: true, de: false, fr: false, it: false, es: false, pt: false,
   nl: false, sv: false, da: false, no: false, fi: false
 };

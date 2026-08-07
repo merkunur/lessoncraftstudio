@@ -60,6 +60,21 @@ const TOOLS = [
      claim is the only part of that sheet that was theirs. The apparatus
      selector is therefore the CLAIM, not the record, because the record
      surviving was never the thing at risk. */
+  /* ⭐ THE APPARATUS SELECTOR IS THE ICON, NOT THE CARD, and that is the
+     whole reason this probe exists. The v2 Say It Board printed two
+     columns of TEXT and zero pictures — measured: not one call to the
+     icon builder in the entire sheet function. The child that object is
+     for cannot read either column, so on paper the tool became the
+     bilingual word list its own header says it refused to be.
+     ⚠ AND THE PROBE RUNS UNPRIMED, i.e. as a FREE visitor, because the
+     other half of the defect was that a free teacher pressing Ctrl+P
+     got a BLANK PAGE: the sheet was built only when entitled while the
+     chrome-hiding print rules were unscoped. The lanyard cards are free
+     now — the board is free because it is a care surface, and the
+     printed card is simply that board on paper for the corridor. */
+  {
+    key: 'home-language-bridge', p: 'hlb', apparatus: '.hlb-p-icon', chrome: '.hlb-foot'
+  },
   {
     key: 'draw-bag', p: 'drb', apparatus: '.drb-guess', chrome: '.drb-foot',
     prime: function () {

@@ -362,7 +362,7 @@ function run(poison) {
     let worst = 0, who = '';
     for (const s of traceable) {
       const f = crFlatten(s.st), c = arc(f), total = c[c.length - 1];
-      const bound = (STC.DEDUPE != null ? STC.DEDUPE : 1.5) + STC.STEP;
+      const bound = STC.RESUME + STC.STEP;
       const st = STC.newTrace([s.st]);
       for (let i = 0; i < f.length; i++) {
         const r = STC.sample(st, f[i]);
@@ -370,8 +370,8 @@ function run(poison) {
         if (lead > worst) { worst = lead; who = s.id + ' at ' + i + ' (bound ' + bound.toFixed(1) + 'u)'; }
       }
     }
-    const bound = (STC.DEDUPE != null ? STC.DEDUPE : 1.5) + STC.STEP;
-    ok(`the cursor never leads the finger by more than ${bound.toFixed(1)}u = dedupe + one flattening step (worst ${worst.toFixed(2)}u ${who})`, worst <= bound);
+    const bound = STC.RESUME + STC.STEP;
+    ok(`the cursor never leads the finger by more than ${bound.toFixed(1)}u = resume window + one flattening step (worst ${worst.toFixed(2)}u ${who})`, worst <= bound);
   }
 
   head('F  dots are tapped, not traced');

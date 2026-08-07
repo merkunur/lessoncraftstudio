@@ -101,7 +101,8 @@
   var END_SLACK = 4;
   var DOT_LEN   = 6;
   var DOT_R     = 7;
-  var DEDUPE    = 1.5;   /* below this a sample is tremor, not travel */
+  var SLACK     = 1.15;  /* the cursor may barely lead the finger; see sample() */
+  var RESUME    = 6;     /* how far ahead a re-entry may rejoin the path   */
 
   function dist(a, b) { var dx = a.x - b.x, dy = a.y - b.y; return Math.sqrt(dx * dx + dy * dy); }
 
@@ -114,27 +115,6 @@
     var t = (wx * vx + wy * vy) / L2;
     t = t < 0 ? 0 : t > 1 ? 1 : t;
     return dist({ x: a.x + t * vx, y: a.y + t * vy }, p);
-  }
-
-  /* ⭐ DID THE SWEEP ACTUALLY PASS OVER THIS POINT?
-     Not "is it near the segment" — near the segment's END is not the
-     same thing, and the difference is the whole defect. A path point 6
-     units further along a straight stroke is 6 units from the segment's
-     endpoint, so a clamped distance passes it through an 8-unit corridor
-     and credits ground the finger never covered. That is how the
-     autocomplete kept coming back: first through LOOK, then through a
-     zero-length sweep after an off-path detour.
-     The honest test is PERPENDICULAR distance with the foot of the
-     projection lying ON the segment. A stationary finger has a
-     zero-length segment and therefore passes over nothing but itself. */
-  function sweptOver(a, b, p, corridor) {
-    var vx = b.x - a.x, vy = b.y - a.y, wx = p.x - a.x, wy = p.y - a.y;
-    var L2 = vx * vx + vy * vy;
-    if (L2 < 1e-9) return dist(a, p) <= STEP;      /* stood still: only here */
-    var t = (wx * vx + wy * vy) / L2;
-    if (t < -0.06 || t > 1.06) return false;       /* the foot is off the sweep */
-    if (t < 0) t = 0; else if (t > 1) t = 1;
-    return dist({ x: a.x + t * vx, y: a.y + t * vy }, p) <= corridor;
   }
 
   /* Catmull-Rom -> cubic Bezier, sampled. IDENTICAL curve to the one the
@@ -252,7 +232,7 @@
      swipe delivers ~6 samples, and `getCoalescedEvents()` recovers more
      on a stuttering device, so this floor never touches an honest child.
      It is deliberately about EVENT COUNT, not speed: speed is allowed. */
-  function minSamples(total) { return Math.max(4, Math.round(total / 18)); }
+  function minSamples(total) { return Math.max(6, Math.round(total / 12)); }
 
   /* ---- the one rule ------------------------------------------------ */
   /* Advance the cursor over every path point the swept segment reached,
@@ -264,75 +244,48 @@
 
     if (L.isDot) {
       if (dist(pt, L.pts[0]) <= DOT_R) {
-        s.u = L.total; s.i = L.pts.length - 1; s.n++; s.last = pt;
+        s.u = L.total; s.i = L.pts.length - 1; s.n++; s.last = pt; s.onPath = true;
         return { on: true, done: true, progress: 1 };
       }
       return { on: false, done: false, progress: 0 };
     }
 
-    /* ⚠ YOU CANNOT SWEEP FROM SOMEWHERE YOU WERE NOT. If the previous
-       sample was off the path, this one starts a fresh sweep from where
-       the finger actually is — otherwise the segment joining an
-       off-path point to a re-entry point is treated as a traced span,
-       and a finger that detours 56 units away and rejoins further along
-       is credited with everything the RETURN LINE happened to pass near.
-       Measured: that credited 19 of 126 strokes, all of them short bars
-       the diagonal return happened to graze. */
-    /* ⚠ TREMOR IS NOT DIRECTION. A finger delivers samples under a unit
-       apart at 60Hz, and a young child's hand jitters by about as much.
-       When the gap between two samples is the same size as the noise, the
-       swept segment POINTS ANYWHERE — and a perpendicular-foot test on a
-       segment aimed sideways rejects the path ahead of it. Measured: an
-       honest trace with +/-1u of tremor failed on Q, X, g and s purely
-       from this. Hold the anchor until the finger has genuinely travelled
-       DEDUPE units, so every segment carries real direction. The dropped
-       samples still count as on-path and still ink — they are just not
-       allowed to steer. */
-    if (s.last && dist(s.last, pt) < DEDUPE && s.onPath) {
-      var stillNear = pointNearPath(L, pt, s.i, s.corridor);
-      if (stillNear) s.n++;
-      return { on: stillNear, done: reached(s, L), progress: progress(s) };
+    /* Where is the finger, and how far off the path? Forward of the
+       cursor only — a global search hands a backwards `o` instant credit
+       because its start and end are the same point. */
+    var fu = fingerU(L, pt, s.i, s.u + Math.max(LOOK, dist(s.last || pt, pt) * SLACK), s.corridor);
+    if (fu.d > s.corridor) { s.last = pt; s.onPath = false; return { on: false, done: reached(s, L), progress: progress(s) }; }
+
+    /* ⭐ THE CURSOR MAY NOT ADVANCE FURTHER THAN THE FINGER TRAVELLED.
+       That single physical rule is what makes autocompletion impossible,
+       and it is all that is needed: a tap travels nothing and earns
+       nothing; a fast drag travels far and earns the span it crossed.
+
+       ⚠ It replaces a swept-segment test that credited a path point only
+       when the segment prev->now passed perpendicular to it. That is
+       correct geometry and wrong physics: a finger delivers samples under
+       a unit apart and a five-year-old's hand wobbles by more than that,
+       so the SEGMENT'S DIRECTION is noise. Measured on a straight
+       downstroke with +/-2u of tremor, path points the finger had plainly
+       passed failed the test and the ink stalled at 1.9% of the letter.
+       Direction cannot be recovered from two adjacent noisy samples; the
+       distance between them can. */
+    var wasOn = s.onPath && s.last;
+    var travel = wasOn ? dist(s.last, pt) : 0;
+    /* Re-entry after leaving the path may only resume NEAR where it left,
+       or a detour out and back rejoins further along for free. */
+    /* ⚠ SLACK MUST BE CLOSE TO 1. At 1.6 the cursor gains 60% on the
+       finger every sample, and over a long tail that accumulated enough
+       to close the gap left by a detour: a finger that stepped off the
+       path and rejoined further along caught up and completed 30 of 97
+       strokes. The cursor TRACKS the finger; it does not outrun it. */
+    var allow = wasOn ? travel * SLACK + 0.2 : RESUME;
+    if (fu.u > s.u) {
+      s.u = Math.min(fu.u, s.u + allow);
+      while (s.i + 1 < L.pts.length && L.cum[s.i + 1] <= s.u) s.i++;
     }
-
-    var from = (s.last && s.onPath) ? s.last : pt;
-    var swept = dist(from, pt);
-    var limit = s.u + swept * 1.6 + LOOK;    /* scan bound, not a progress bound */
-
-    /* ⭐ THE CURSOR MAY NEVER OUTRUN THE FINGER.
-       Everything above is about which points the SWEEP reached; this is
-       about where the finger itself actually is. Without it the corridor
-       silently becomes a FORWARD tolerance for any point collinear with
-       the sweep — a point 6 units further along a straight stroke is 6
-       units from the segment's end, passes an 8-unit corridor, and is
-       credited though the finger never got there. That is the original
-       autocomplete, re-entering through the back door: measured, it let
-       a child stop 6 units short of every one of 124 strokes and still
-       be told they had written it. Cap progress at the finger's own
-       projection and the whole class is gone. */
-    var uFinger = fingerU(L, pt, s.i, limit, s.corridor);
-    if (uFinger < s.u) uFinger = s.u;
-    if (limit > uFinger) limit = uFinger;
-
-    var j = s.i, adv = false;
-
-    while (j + 1 < L.pts.length && L.cum[j + 1] <= limit) {
-      if (!sweptOver(from, pt, L.pts[j + 1], s.corridor)) break;   /* the gap */
-      j++; adv = true;
-    }
-
-    /* On-path means the finger itself is near the path — this is what
-       decides whether the ink appears, independently of whether the
-       cursor moved (a child holding still on the path still inks). */
-    var near = segDist(from, pt, L.pts[s.i]) <= s.corridor ||
-               (j > s.i) ||
-               pointNearPath(L, pt, s.i, s.corridor);
-
-    if (adv) { s.i = j; s.u = L.cum[j]; }
-    if (near) { s.n++; }
-    s.last = pt;
-    s.onPath = near;
-
-    return { on: near, done: reached(s, L), progress: progress(s) };
+    s.n++; s.last = pt; s.onPath = true;
+    return { on: true, done: reached(s, L), progress: progress(s) };
   }
 
   /* Arc position of the path point nearest the FINGER, searched forward
@@ -344,14 +297,7 @@
       d = dist(L.pts[i], pt);
       if (d < bd) { bd = d; best = i; }
     }
-    return best < 0 ? 0 : L.cum[best];
-  }
-
-  /* is the finger within the corridor of the path, near the cursor? */
-  function pointNearPath(L, pt, from, corridor) {
-    var i, lo = Math.max(0, from - 3), hi = Math.min(L.pts.length - 1, from + 3);
-    for (i = lo; i <= hi; i++) if (dist(L.pts[i], pt) <= corridor) return true;
-    return false;
+    return { u: best < 0 ? 0 : L.cum[best], d: bd };
   }
 
   /* ---- pointer up -------------------------------------------------- */
@@ -508,7 +454,7 @@
   }
 
   global.StrokeTraceCore = {
-    CORRIDOR: CORRIDOR, WIDE: WIDE, STEP: STEP,
+    CORRIDOR: CORRIDOR, WIDE: WIDE, STEP: STEP, SLACK: SLACK, RESUME: RESUME,
     END_SLACK: END_SLACK, DOT_LEN: DOT_LEN, DOT_R: DOT_R,
     flatten: flatten, measure: measure, prepare: prepare,
     newTrace: newTrace, sample: sample, endStroke: endStroke,

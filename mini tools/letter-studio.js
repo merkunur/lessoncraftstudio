@@ -896,7 +896,7 @@ var LetterStudio = {
         var priv = api.el('p', 'ls-privacy'); priv.textContent = api.t('privacyLine');
         box.appendChild(priv);
       } else {
-        var n = api.el('p', 'ls-privacy'); n.textContent = api.t('noClass');
+        var n = api.el('p', 'ls-todo'); n.textContent = api.t('noClass');
         box.appendChild(n);
       }
     }
@@ -1724,6 +1724,10 @@ function injectLetterStudioCSS() {
     + 'font:600 16px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:rgba(255,253,247,.92);'
     + 'border:2px solid rgba(20,107,94,.28);border-radius:12px;cursor:pointer;padding:0;}'
     + '.ls-rosterlead{font:700 13px/1.3 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;text-align:center;}'
+    /* ⚠ `noClass` asks the teacher to go and DO something — it wore
+       `.ls-privacy`, the 12px muted style reserved for what she only has
+       to notice. The Dutch panel's point, and it is right. */
+    + '.ls-todo{font:600 13.5px/1.45 Nunito,system-ui,sans-serif;color:#3A3226;text-align:center;margin:0;max-width:44ch;}'
     + '.ls-pips{display:flex;gap:6px;align-items:center;min-height:10px;}'
     + '.ls-pip{width:9px;height:9px;border-radius:50%;background:rgba(20,107,94,.20);}'
     + '.ls-pip.ls-pipnow{background:#1F8A55;transform:scale(1.25);}'
@@ -1790,6 +1794,16 @@ function injectLetterStudioCSS() {
     + '}'
     + '@container ls (min-width:960px){'
     +   '.ls-card{--ls-sheet:min(64cqi,700px);}'
+    +   '.ls-picker{--ls-key:clamp(52px,5.4cqi,64px);}'
+    + '}'
+    /* ⚠ HOLLOW WIDENING. The card grew to 1400px on a 2560 screen while
+       `.ls-key` stayed at its 56px ceiling — the box grew and the
+       instrument did not, which is the shared wide-viewport gate's own
+       name for it. A picker key is what a teacher taps from the front of
+       the room, so it has to grow with the board, and so does the sheet. */
+    + '@container ls (min-width:1200px){'
+    +   '.ls-card{--ls-sheet:min(58cqi,820px);}'
+    +   '.ls-picker{--ls-key:clamp(60px,5cqi,76px);}'
     + '}'
     /* the ONE viewport rule, width-only: let the standalone page use the
        screen it actually has. No vh anywhere — a manipulative has no

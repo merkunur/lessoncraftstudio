@@ -214,13 +214,33 @@ const PROBE = (pfx, exemptSel) => {
      classes of every tool fanned out so far (sbx-box, wdb-cell, ltl-tile,
      rkr-bead, pvl-slot, nte-dot, mm-disc, tf-cell): none matches. */
   const CHROME = /(?:-(?:chip|foot|hint|gate|bar|controls|lock|wrap|scroll)|(?:^|\s)(?:locked|disabled))\b/;
+  /* the visible rect, not the laid-out one — see visibleRect below */
+  const visibleRect = (e) => {
+    const r = e.getBoundingClientRect();
+    const box = { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
+    let n = e.parentElement;
+    while (n && n !== document.body) {
+      const cs = getComputedStyle(n);
+      if (/auto|scroll|hidden/.test(cs.overflowX + cs.overflowY)) {
+        const b = n.getBoundingClientRect();
+        box.left = Math.max(box.left, b.left);
+        box.right = Math.min(box.right, b.right);
+        box.top = Math.max(box.top, b.top);
+        box.bottom = Math.min(box.bottom, b.bottom);
+      }
+      n = n.parentElement;
+    }
+    box.width = box.right - box.left;
+    box.height = box.bottom - box.top;
+    return (box.width > 1 && box.height > 1) ? box : null;
+  };
   let lo = Infinity, hi = -Infinity;
   if (scope) {
     scope.querySelectorAll('*').forEach((e) => {
       const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
       if (CHROME.test(c)) return;
-      const r = e.getBoundingClientRect();
-      if (!r.width) return;
+      const r = visibleRect(e);
+      if (!r || !r.width) return;
       /* An element counts as apparatus if it DRAWS, or if the tool
          deliberately SIZED it with an author max-width — an empty record
          grid is still the instrument's footprint, and measuring only inked

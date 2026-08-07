@@ -658,27 +658,28 @@
   "letter-studio": {
     "slug": "kirjainpaja",
     "name": "Kirjainpaja",
-    "tagline": "Katso, mistä veto alkaa, ja piirrä kirjaimet ja numerot sormella",
+    "tagline": "Iso kirjain suomalaisella viivastolla: kiiltomato näyttää vedot, ja sitten lapsi piirtää itse sormella.",
     "about": [
-      "Kirjainpaja on vapaan harjoittelun työkalu kirjainten kirjoittamiseen esiopetuksessa ja ensimmäisellä luokalla. Iso kirjain piirtyy neljälle apuviivalle samaan tapaan kuin koulun viivastossa, ja lapsi seuraa sitä sormella suoraan älytaululla tai tabletilla. Paja harjoittelee tekstausta eli tikkukirjaimia – sitä kirjoitustapaa, jolla alkuopetuksessa nykyään aloitetaan. Koko aakkosto on ilmainen sekä pienillä että isoilla kirjaimilla, ja mukana ovat myös ä ja ö: ne kirjoitetaan niin kuin ne opetetaan, ensin kirjain ja vasta sitten pisteet.",
-      "Kirjaimen piirtojärjestys on tärkeämpi kuin lopputuloksen siisteys, ja juuri sitä paja harjoittaa. Kiiltomato kävelee vedot ensin oikeassa järjestyksessä ja oikeaan suuntaan, ja vasta sen jälkeen lapsi piirtää itse. Viiva piirtyy vain silloin, kun sormi kulkee polkua pitkin: väärään suuntaan lähtevä veto ei jätä jälkeä, mutta se ei myöskään tuota punaista ruksia eikä virheilmoitusta. Heilahdukset ja epätasainen jälki sallitaan reilusti – vain vetojen järjestys pidetään tiukkana, koska juuri se jää käden muistiin.",
-      "Oma nimi on lapsen ensimmäinen ja tärkein kirjoitettava sana. Premiumissa nimet haetaan luokan omalta listalta Nimitikuista, ne luetaan vain tällä laitteella eivätkä ne poistu siitä, ja samalla avautuvat tulostettavat sivut vihkotyötä varten. Ilmaisversiossa käytössä ovat koko aakkosto, isot ja pienet kirjaimet sekä numerot 0–9. Kaikki toimii selaimessa ilman asennusta ja kirjautumista, eikä pajassa ole ajastinta, pisteitä eikä tasoja – vain rauhallinen tila harjoitella omaan tahtiin."
+      "Kirjainpajassa on kerrallaan yksi iso kirjain, ja se istuu samanlaisella viivastolla kuin luokan omassa vihkossa. Ylälaidan valintarivistä poimitaan yhdellä napautuksella juuri se merkki, jota nyt harjoitellaan: ensin kirjaimet, sitten omana ryhmänään å, ä ja ö ja lopuksi numerot 0–9. Kiiltomato kävelee vedot oikeassa järjestyksessä ja oikeaan suuntaan heti pajan auettua, ja jokaisen vedon alussa kuuluu pehmeä helähdys, joten koko luokka näkee ja kuulee, mistä kynä lähtee liikkeelle. Arkin kulmasta saman esityksen saa käyntiin uudelleen niin monta kertaa kuin luokka haluaa, ja vetojen numerot ja suuntanuolet jäävät kirjaimen päälle koko työskentelyn ajaksi — juuri sitä ei valmiista kirjaimesta seinätaulussa näe.",
+      "Sitten lapsi piirtää sormella, ja viiva syntyy vain siihen kohtaan, jossa sormi on oikeasti käynyt. Paja ei kiirehdi edelle eikä viimeistele kirjainta lapsen puolesta: jos työ jää kesken, kirjain jää kesken. Jos sormi eksyy polulta, jälki jää odottamaan. Ensin nuolet lähtevät liikkeelle, sitten kiiltomato näyttää sen yhden vedon uudelleen ja lopuksi polku levenee hiljaa kerran — punaista ruksia ei tule, eikä pajassa ole pisteitä, tähtiä, tasoja eikä ajastinta. Arkin alla olevat pallot kertovat, montako vetoa on vielä jäljellä, ja yhdellä painalluksella jäljen saa pyyhittyä pois ja aloitettua alusta.",
+      "Viivasto on se kohta, jonka useimmat kirjoitustyökalut tekevät Suomen ulkopuolella väärin. Kirjainpaja piirtää suomalaisen viivaston: neljä yhtä vahvaa viivaa ilman erikseen tummennettua perusviivaa, ja kahden keskimmäisen viivan väli on merkitty kevyesti, koska siihen pienet kirjaimet asettuvat. Myös ä ja ö kirjoitetaan niin kuin ne opetetaan: ensin kirjain kokonaan ja vasta lopuksi pisteet. Kaikki kirjaimet, kaikki numerot ja mikä tahansa itse kirjoitettu sana ovat ilmaisia, kaikilla yhdellätoista kielellä. Opettaja-tilaukseen kuuluvat luokan nimilista ja tulostettava harjoitussivu."
     ],
     "howToUse": [
-      "Heijasta paja luokan älytaululle ja mallinna ensin itse: valitse päivän kirjain, paina Näytä malli ja katsokaa yhdessä, mistä veto alkaa ja mihin suuntaan se kulkee.",
-      "Anna lapsen piirtää sormella suoraan taululle tai tabletille ja muistuta vain vihreästä pisteestä – siitä jokainen veto alkaa.",
-      "Puhukaa apuviivoista samoilla sanoilla kuin vihkossa: mihin kirjain istuu, mihin asti se yltää ylös ja mikä osa menee alimman viivan alle.",
-      "Ota numerot mukaan matematiikan tunnille: numeron muodostaminen harjoitellaan samalla tavalla kuin kirjaimen, ja numerot 0–9 ovat ilmaisia.",
-      "Valitse Premiumissa Nimet ja luokan lista, niin lapsi harjoittelee oman nimensä kirjain kerrallaan; tulostettavalta sivulta saatte saman harjoituksen vihkoon."
+      "Heijasta paja luokan taululle ja anna kiiltomadon kävellä koko kirjain kerran läpi, ennen kuin kukaan koskee tauluun. Arkin kulmasta esityksen saa käyntiin uudelleen niin monta kertaa kuin tarvitaan.",
+      "Napauta ylärivistä päivän kirjain, ä tai ö tai matematiikan tunnin numero. Yksi napautus riittää: mitään ei tarvitse selata läpi eikä vaihtaa erilliseen numerotilaan.",
+      "Kutsu yksi lapsi piirtämään sormella ja muistuta vain vihreästä aloituspisteestä — siitä jokainen veto lähtee. Asetuksista paja sanoo merkin halutessasi ääneen ja leventää polkua pienille käsille.",
+      "Vaihda saman kirjaimen pienen ja ison välillä a/A-parista. Kynäkuvake avaa kentän, johon voit kirjoittaa minkä tahansa sanan: luokka kirjoittaa sen kirjain kerrallaan, ja koko sana pysyy näkyvissä arkin yläpuolella.",
+      "Opettaja-tilauksella samasta kentästä avautuu luokan nimilista Nimitikuista, ja tulostettavalta A4-sivulta saatte mallin piirtojärjestyksineen, tyhjän ruudun nimeä varten ja kuusi harjoitusriviä samalla viivastolla: kahdella riveistä kirjaimet ovat valmiina, kahdella haaleina, yhdellä malli on vain rivin alussa ja viimeinen on kokonaan vapaa."
     ],
     "classroomIdeas": [
-      "Päivän kirjain: katsokaa aamupiirissä yksi kirjain yhdessä, sanokaa sen äänne, etsikää se aapisesta ja jokainen käy vuorollaan piirtämässä sen taululle.",
-      "Nimipaja: jokainen harjoittelee ensin oman nimensä alkukirjaimen ja sitten koko nimen – nimi on lapsen motivoivin harjoiteltava sana.",
-      "Peilikuvan tarkistus: b ja d, p ja q sekä numerot 2 ja 5 kääntyvät helposti väärin päin. Katsokaa malli ensin ja piirtäkää heti perään, niin oikea suunta jää käteen.",
-      "Eriyttäminen ja S2: osa piirtää isoja kirjaimia sormella taululla, osa pieniä kirjaimia tabletilla, ja S2-oppija saa kuunnella kirjaimen niin monta kertaa kuin tarvitsee ennen piirtämistä."
+      "Päivän kirjain aamupiirissä: katsokaa ensin kiiltomato yhdessä, sanokaa kirjaimen äänne ja käykää vuorotellen piirtämässä se taululle — ja heti perään vihkoon, kun muoto on tuoreena.",
+      "Aseta tabletti kirjoitusnurkkaan päivän kirjaimelle, niin se, joka tarvitsee piirtojärjestyksen vielä kerran, kysyy sen kiiltomadolta eikä sinulta.",
+      "Kun b ja d tai numerot 2 ja 5 kääntyvät peilikuvaksi, älä korjaa jälkeä vihkoon: napauta sama merkki tähän ja katsokaa yhdessä, mistä veto lähtee. Aloituskohta korjaa peilikuvia paremmin kuin pyyhkiminen.",
+      "Kaksoiskirjaimet omin käsin: kirjoita kenttään kukka, kuu tai äiti. Pajassa ei ole valmiita kirjainyhdistelmiä, joten pitkä äänne rakentuu kahdesta samasta kirjaimesta — ja juuri se on alkuopetuksen ydinasioita.",
+      "Nimi on lapsen motivoivin harjoiteltava sana: kirjoita se kenttään ja anna lapsen piirtää se kirjain kerrallaan. Opettaja-tilauksella koko luokan nimilista aukeaa samasta paikasta."
     ],
-    "metaTitle": "Kirjainten kirjoittaminen netissä | LessonCraftStudio",
-    "metaDescription": "Ilmainen kirjainpaja alkuopetukseen: katso piirtojärjestys ja piirrä kirjain apuviivoille. Isot ja pienet kirjaimet, ä, ö ja numerot – ei kirjautumista."
+    "metaTitle": "Kirjainten harjoittelu viivastolla | Kirjainpaja",
+    "metaDescription": "Ilmainen kirjainpaja alkuopetukseen: kiiltomato näyttää piirtojärjestyksen, ja lapsi piirtää merkin sormella suomalaiselle viivastolle. Ei pisteitä eikä ruksia."
   },
   "open-number-line": {
     "slug": "piirra-hypyt",

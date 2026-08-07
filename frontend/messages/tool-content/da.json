@@ -680,26 +680,27 @@
   "letter-studio": {
     "slug": "bogstavvaerkstedet",
     "name": "Bogstavværkstedet",
-    "tagline": "Ildfluen viser skrivevejen, og barnet skriver bogstavet med fingeren",
-    "metaTitle": "Skriv bogstaver – trykbogstaver og tal til 0.-1. klasse",
-    "metaDescription": "Gratis skrivetavle til bogstaver: ildfluen viser skrivevejen, og stregen kommer kun med, når barnet følger den. Hele alfabetet med æ, ø og å samt tal.",
+    "tagline": "Ét stort bogstav i skrivehuset: ildfluen viser skrivevejen, og stregen kommer kun dér, hvor fingeren har været.",
+    "metaTitle": "Skriv bogstaver og tal i skrivehuset | Bogstavværkstedet",
+    "metaDescription": "Gratis skrivetavle til 0.-1. klasse: ildfluen viser skrivevejen, og stregen kommer kun dér, hvor fingeren har været. Hele alfabetet med æ, ø og å samt tal.",
     "about": [
-      "Bogstavværkstedet er en skrivetavle til den interaktive tavle og klassens tablets: ét stort bogstav ad gangen, sat ned i et skrivehus med kælder, stue og loft, så barnet kan se, hvor bogstavet begynder, hvor det stopper, og hvad der går ned under skrivelinjen. En ildflue går bogstavets skrivevej igennem én gang med en lille tone for hver streg — og så er det barnets tur, med fingeren direkte på skærmen.",
-      "Stregen kommer kun med, mens fingeren bliver på sporet. Værktøjet er tålmodigt med rystende streger og skæve buer, men det holder fast i rækkefølgen, for det er bevægelsen, der skal sidde fast. Går fingeren udenfor, sker der ingenting — der kommer aldrig et rødt kryds, og der er hverken point eller tidtagning. Når bogstavet står færdigt, siger værkstedet noget venligt og går videre til det næste.",
-      "Hele alfabetet er med i både små og STORE bogstaver — også æ, ø og å — og tallene ligger klar under Tal. Værkstedet skriver trykbogstaver, som man begynder med i børnehaveklassen og 1. klasse; sammenbundet skrift hører til senere og findes ikke her. Alfabetet, tallene og skrivehuset er gratis og kører i browseren uden login og uden installation, mens navneskrivning fra klasselisten og skrivearkene til print hører til Premium."
+      "Bogstavværkstedet sætter ét stort bogstav ned i skrivehuset — kælder, stue og loft, de samme linjer, som klassen har i skrivehæftet. Øverst ligger bogstavrækken: hele alfabetet, æ, ø og å, bogstavgruppen ng og tallene 0-9, adskilt af tynde streger, så grupperne kan skelnes. Ét tryk, og bogstavet står klar — skal I have /m/ i dag, behøver man ikke klikke sig frem foran hele klassen. En ildflue går skrivevejen igennem med en lille tone for hver ny streg, og den løber selv igennem én gang, når værkstedet åbner. Nummer og retningspil bliver liggende på bogstavet, mens barnet skriver, og under arket står der en prik for hver streg, så man kan se, hvor mange der er tilbage. Netop dét kan man ikke aflæse af et færdigt bogstav på en plakat.",
+      "Så skriver barnet bogstavet med fingeren, og stregen kommer kun med dér, hvor fingeren rent faktisk har været. Værkstedet løber aldrig i forvejen og gør aldrig bogstavet færdigt for barnet: stopper man halvvejs, står bogstavet halvt. Smutter fingeren uden for sporet, sker der ingenting — blækket venter. Bliver det ved, sætter pilene sig i bevægelse, derefter går ildfluen lige netop den streg igennem igen, og til sidst bliver sporet stille og roligt en anelse bredere. Der er ikke ét rødt kryds i værktøjet, og hverken point, stjerner eller tidtagning. Bogstavet står færdigt, når barnet har skrevet det færdigt — og det er barnet eller læreren, der trykker videre til det næste. Bogstaver, der er skrevet færdige på enheden, får et lille mærke i bogstavrækken.",
+      "Linjerne er dét, de fleste skriveværktøjer rammer forkert uden for engelsk. En tysk klasse skriver i en firelinjet Lineatur, en spansk mellem de to lige kraftige linjer i doble raya, og en brasiliansk klasse har slet ingen linje for de små bogstavers højde. Bogstavværkstedet tegner den linjering, landet selv bruger — på dansk skrivehuset med kælder, stue og loft, fire ubrudte linjer og ingen stiplet midterlinje, for den er en engelsk konvention, danske skrivehæfter ikke trykker. Værkstedet skriver trykbogstaver, som man begynder med i børnehaveklassen og 1. klasse. Hele alfabetet, æ, ø og å, ng, alle tallene og de ord, du selv taster ind, er gratis — på alle elleve sprog; klassens navne fra Navnepinde og skrivearket til print hører til Lærerabonnementet."
     ],
     "howToUse": [
-      "Vis værkstedet på den interaktive tavle, eller giv børnene det på tablets — bogstavet står klar i skrivehuset.",
-      "Tryk på Vis hvordan, og lad børnene følge ildfluen med øjnene, før nogen tegner: den går bogstavets skrivevej i den rigtige rækkefølge.",
-      "Lad så barnet skrive bogstavet med fingeren fra den grønne prik — stregen kommer med, så længe fingeren bliver på sporet, og der sker ingenting, hvis den smutter udenfor.",
-      "Brug knapperne til at skifte mellem små og STORE bogstaver og til at gå over i Tal, når I øver cifre.",
-      "Vælg Navne, når klassen er oprettet i Navnepinde, så barnet kan skrive sit eget navn bogstav for bogstav — navnene bliver på enheden og sendes ingen steder hen."
+      "Sæt værkstedet på den interaktive tavle, og lad klassen se ildfluen gå bogstavet igennem, før nogen rører skærmen. Den løber selv én gang, når værkstedet åbner, og kan sendes af sted igen med ▶ i hjørnet af arket.",
+      "Tryk på det bogstav, I skal bruge, oppe i rækken: dagens lyd, det bogstav et barn bliver ved at vende om, eller tallet, I øver. Æ, ø og å står lige efter z, ng står for sig selv, og tallene ligger sidst. Med ⌄ folder rækken sig ud, så alle bogstaver og tal kan ses på én gang.",
+      "Lad så et barn skrive bogstavet med fingeren fra den grønne prik. Stregen følger med, så længe fingeren bliver på sporet, og venter roligt, hvis den smutter udenfor. Vil barnet begynde forfra, visker ↺ ud.",
+      "Skift det samme bogstav mellem lille og stort med a/A-parret, og tryk ▸, når klassen skal videre til det næste — ▸ viser altid det bogstav eller tal, der kommer nu. Med ✎ kan du taste et hvilket som helst ord ind, gratis, og klassen skriver det så bogstav for bogstav med hele ordet stående oven over arket.",
+      "Med Lærerabonnementet henter ✎ desuden klassens navne fra Navnepinde — de læses fra denne enhed og sendes ingen steder hen — og du kan printe et A4-skriveark til det bogstav, der står på skærmen: en model med rækkefølgen, et tomt felt til navnet og seks rækker i skrivehuset, hvor bogstavet først skrives oven i, så efter en svag skygge og til sidst helt selv."
     ],
     "classroomIdeas": [
-      "Begynd med forbogstavet i barnets eget navn — det er det bogstav, de fleste børn helst vil kunne skrive først — og tag så resten af navnet, et bogstav ad gangen.",
-      "Tag dagens bogstav på den interaktive tavle om morgenen: ildfluen viser skrivevejen, to-tre børn skriver det på tavlen, og resten skriver det i luften eller på ryggen af den, der sidder foran.",
-      "Tag fat i de bogstaver, der bliver vendt om — b og d, p og q: ildfluen begynder to forskellige steder, og lige netop det er dét, barnet skal nå at mærke, før hånden vænner sig til det modsatte.",
-      "Sæt værkstedet op som skrivestation ved siden af skrivehæftet, og kør det sammen med Magnetbogstaver og Lydbokse: lyt ordet igennem, byg det med bogstavbrikker, og skriv til sidst bogstaverne i hånden."
+      "Begynd med forbogstavet i barnets eget navn — det er det bogstav, de fleste helst vil kunne skrive først — og tag så resten af navnet, et bogstav ad gangen.",
+      "Kør dagens bogstav på tavlen om morgenen: ildfluen først, så to-tre børn oppe at skrive det med fingeren, og resten skriver det i luften eller på ryggen af den, der sidder foran.",
+      "Tag fat i de bogstaver, der bliver vendt om — b og d, p og q. Tryk bogstavet frem og se ildfluen sammen: de to begynder hvert sit sted, og lige dét fanger flere spejlvendinger end en udvisket streg gør.",
+      "Sæt værkstedet op som skrivestation ved siden af skrivehæftet og kør det sammen med Lydbokse og Magnetbogstaver: lyt ordet igennem, byg det med bogstavbrikker, og skriv til sidst bogstaverne i hånden.",
+      "Tast ugens ord ind med ✎ og lad klassen skrive det sammen på tavlen — og print bagefter det bogstav, I arbejder med, som hjemmeark på de samme linjer, børnene har i hæftet."
     ]
   },
   "open-number-line": {

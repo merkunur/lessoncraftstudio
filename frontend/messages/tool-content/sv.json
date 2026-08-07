@@ -680,26 +680,27 @@
   "letter-studio": {
     "slug": "skriva-bokstaver",
     "name": "Bokstavsverkstaden",
-    "tagline": "Forma bokstaven med fingret — lysmasken visar skrivriktningen",
-    "metaTitle": "Skriva bokstäver – gratis bokstavsträning | LessonCraftStudio",
-    "metaDescription": "Gratis bokstavsträning: lysmasken visar skrivriktningen och barnet formar bokstaven med fingret på stödlinjer. Alfabetet med å, ä, ö och siffror 0–9 — utan inloggning.",
+    "tagline": "En stor bokstav på stödlinjer som i skrivhäftet — lysmasken visar vägen, och linjen kommer bara där fingret har varit.",
+    "metaTitle": "Skriva bokstäver på stödlinjer – gratis | LessonCraftStudio",
+    "metaDescription": "Gratis skrivträning: lysmasken visar skrivordningen, sedan formar barnet bokstaven med fingret på svenska stödlinjer. Alfabetet, å ä ö, ng och siffrorna 0–9.",
     "about": [
-      "Bokstavsverkstaden är en skrivyta för de allra första bokstäverna. En stor bokstav står på skrivlinjen, med stödlinjer över och under precis som i skrivhäftet, och när barnet trycker på Visa mig går en lysmask hela vägen genom bokstaven i rätt skrivriktning, med ett mjukt ljud för varje streck. Sedan skriver barnet själv med fingret: linjen ritas bara så länge fingret följer spåret, och den väntar tålmodigt när fingret hamnar utanför. Ordningen på strecken spelar roll, precis som när man skriver för hand — men vinglet gör det inte. Det finns inget rött kryss, ingen poäng och ingen klocka; bokstaven blir helt enkelt till, streck för streck.",
-      "Att forma bokstäver hör till det allra första skrivarbetet i förskoleklass och årskurs 1, där eleverna enligt Lgr22 ska lära sig att skriva för hand och möta sambandet mellan ljud och bokstav. Verkstaden arbetar med textning, alltså tryckbokstäver — den stil svenska barn börjar med. Skrivstil finns inte här och utlovas inte heller. Hela alfabetet finns med, både som små bokstäver och som STORA, med å, ä och ö, och i sifferläget formas 0–9 på samma sätt. På tavlan blir bokstaven stor nog för hela gruppen, på plattan lagom stor för ett finger.",
-      "Hela alfabetet, båda formerna och alla siffror är alltid gratis. Verktyget körs direkt i webbläsaren på surfplattor, telefoner och klassrumsdatorer — inget konto, ingen installation, ingen timer och inga poäng. Med Premium öppnas namnläget, där barnet skriver sitt eget namn bokstav för bokstav utifrån klasslistan i Namnpinnar, tillsammans med utskrivbara blad och sparade inställningar. Namnen läses bara på den egna enheten och skickas aldrig vidare. Tillsammans med Magnetbokstäver blir steget tydligt: där bygger barnet ordet av färdiga bokstäver, här formar det varje bokstav själv."
+      "Bokstavsverkstaden ställer en enda stor bokstav på skrivlinjen, med stödlinjer över och under precis som i skrivhäftet klassen redan skriver i. Överst ligger en rad att bläddra i: först hela alfabetet a–z, sedan å, ä och ö i en egen grupp, därefter ng och sist siffrorna 0–9. Dagens bokstav är ett tryck bort, inte en jakt framför hela gruppen. ng är två bokstäver som gör ett enda ljud, så det formas som två bokstäver i tur och ordning: n först, sedan g. Bokstäver som redan har skrivits får en liten markering i raden, så du ser var klassen är.",
+      "När verktyget öppnas går lysmasken igenom bokstaven en gång av sig själv, med ett mjukt ljud vid varje nytt streck, och samma väg går att se om när som helst. Sedan skriver barnet med fingret, och linjen kommer bara där fingret verkligen har varit: den går aldrig i förväg och skriver aldrig färdigt åt barnet. Slutar man halvvägs är bokstaven halvvägs. Hamnar fingret utanför spåret väntar linjen helt enkelt — inget rött kryss, ingen poäng, ingen klocka och inga stjärnor. Efter några försök börjar pilarna vandra, sedan går lysmasken just det streck som är på tur, och till sist blir spåret en aning bredare. Nummer och pilar ligger kvar på bokstaven medan barnet arbetar, och prickarna under skrivbladet visar hur många streck som är kvar.",
+      "Linjesystemet avgör om en skrivapp går att använda i ett svenskt klassrum, och här ritas det svenska: fyra hela linjer, med skrivlinjen som den mörkaste och stödlinjen tydligt dragen ovanför den. Inga streckade hjälplinjer — den streckade mittlinjen är en engelsk konvention som svenska skrivhäften inte trycker. Varje språk får sitt eget system, draget av lärare i det landet. Hela alfabetet, å, ä och ö, ng, alla siffror och vilket ord du än skriver in är gratis, på alla elva språken. Lärarpaketet lägger till klassens namn från Namnpinnar och ett skrivblad i A4: bokstaven som modell med skrivordningen, en tom ruta för namnet och sex linjerade rader — två att fylla i, två i ljust grått, en med en enda bokstav först och resten tom att skriva av, och en helt tom rad. Namnen läses bara på den egna enheten och lämnar den aldrig."
     ],
     "howToUse": [
-      "Visa bokstaven på storbild i samlingen, eller låt barnen arbeta själva på surfplattor.",
-      "Tryck på Visa mig först — lysmasken går genom bokstaven i rätt skrivriktning, med ett ljud för varje streck.",
-      "Låt barnet skriva efter med fingret; linjen följer med så länge fingret håller sig på spåret.",
-      "Byt mellan små och STORA bokstäver med knappen, och gå över till Siffror när ni formar 0–9.",
-      "Med Premium: välj Namn och låt barnet skriva sitt eget namn bokstav för bokstav, eller skriv ut ett blad att ta med hem."
+      "Visa den på storbild i samlingen. Lysmasken går igenom bokstaven en gång av sig själv när verktyget öppnas — låt gruppen titta färdigt innan någon rör skärmen, och kör den gärna en gång till.",
+      "Tryck fram dagens bokstav i raden överst: ljudet ni arbetar med, bokstaven ett barn skriver spegelvänt, siffran ni håller på med. Å, ä och ö ligger i en egen grupp, ng efter dem och siffrorna sist.",
+      "Låt ett barn skriva efter med fingret, med start vid den gröna pricken. Linjen följer med precis så långt fingret går, och väntar när det hamnar utanför spåret — ingen behöver bli tillsagd.",
+      "Byt mellan liten och stor bokstav med a/A-paret när ni går mellan versaler och gemener. Vill ni ta ett helt ord — veckans ord, ett rim, ett namn — skriver du in det, och gruppen formar det bokstav för bokstav. Det är gratis, hur många ord ni vill.",
+      "Med Lärarpaketet hämtas klassens namn från listan i Namnpinnar, och du kan skriva ut ett A4-blad för bokstaven på skärmen: modell med skrivordningen, tom ruta för namnet och sex rader på samma stödlinjer som på skärmen."
     ],
     "classroomIdeas": [
-      "Dagens bokstav i samlingen: hela gruppen skriver bokstaven i luften medan ett barn formar den på tavlan.",
-      "Skrivstation: barnet formar bokstaven på skärmen först och skriver den sedan i skrivboken — samma skrivriktning båda gångerna.",
-      "Bygg och forma: bygg veckans ord med Magnetbokstäver först och skriv sedan varje bokstav här, en i taget.",
-      "Två vid samma skärm: ett barn trycker på Visa mig och räknar strecken högt, det andra skriver efter med fingret — sedan byter de."
+      "Dagens bokstav i samlingen: lysmasken först, sedan tre barn upp och skriver den med fingret, och direkt därefter samma bokstav i skrivhäftet medan formen sitter kvar.",
+      "Skrivstation på en surfplatta, inställd på veckans bokstav. Barnet som behöver se skrivordningen en gång till frågar lysmasken i stället för dig.",
+      "När ett barn skriver en bokstav spegelvänt: sudda inte i häftet, utan ta fram bokstaven här och titta tillsammans på var strecket börjar. Att se startpunkten löser fler spegelvändningar än ett suddat streck gör.",
+      "Skriv in veckans ord och låt klassen forma det tillsammans på tavlan. Siffrorna ligger sist i samma rad, så 0–9 formas på samma stödlinjer när ni går över till matematiken.",
+      "Med Lärarpaketet: låt barnet skriva sitt eget namn på födelsedagen, bokstav för bokstav, och skicka hem det utskrivna bladet med samma bokstav som klassen just har övat."
     ]
   },
   "open-number-line": {

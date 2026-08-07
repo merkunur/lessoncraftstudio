@@ -680,26 +680,27 @@
   "letter-studio": {
     "slug": "apprendre-a-ecrire-les-lettres",
     "name": "L’atelier des lettres",
-    "tagline": "Le bon tracé, dans le bon ordre : l’enfant regarde, puis écrit du doigt",
+    "tagline": "Une lettre géante sur des lignes d’écriture réglées pour la France : la luciole montre le tracé, puis l’enfant écrit du doigt.",
     "metaTitle": "Apprendre à écrire les lettres – GS CP | LessonCraftStudio",
-    "metaDescription": "Apprendre à écrire les lettres en GS et en CP, gratuitement : l’enfant regarde le tracé, puis suit le chemin du doigt. Capitales, minuscules et chiffres.",
+    "metaDescription": "Tracé guidé des lettres en GS et CP : alphabet, accents, graphèmes ch ou oi an on et chiffres, sur la ligne d’écriture. L’enfant regarde, puis écrit du doigt.",
     "about": [
-      "Former une lettre, ce n’est pas la reconnaître : c’est un geste, avec un point de départ, un sens et un ordre des tracés. L’atelier des lettres montre ce geste avant de le demander. L’enfant appuie sur « Montre-moi », une luciole parcourt la lettre trait par trait, puis il repasse lui-même du doigt : le trait ne s’inscrit que tant qu’il reste sur le chemin. S’il s’en écarte, rien ne le sanctionne — la ligne attend simplement qu’il revienne.",
-      "Tout l’alphabet est là, en capitales d’imprimerie et en minuscules script, avec les lettres accentuées du français — é, è, ê, à, â, î, ô, ù, û et le ç — ainsi que les chiffres de 0 à 9. Les lettres reposent sur des lignes d’écriture inspirées de la réglure Seyès agrandie, celle que l’on utilise en grande section et en début de CP : la ligne d’écriture est marquée, et les interlignes rappellent où montent les hampes et où descendent les jambages. L’écriture cursive n’est pas encore proposée.",
-      "L’outil s’ouvre directement dans le navigateur, sur TBI, tablette ou ordinateur : rien à installer, aucun compte à créer. Pas de score, pas de minuteur, pas de croix rouge — l’enfant recommence autant de fois qu’il le souhaite. L’alphabet complet, les deux écritures et les chiffres sont gratuits ; le tracé des prénoms de la classe et la fiche à imprimer font partie de Premium. Les prénoms proviennent de la liste de classe enregistrée sur l’appareil et n’en sortent jamais."
+      "Une seule lettre, immense, posée sur des lignes d’écriture, à la taille du tableau. Le premier geste, c’est de choisir : la barre du haut déroule tout l’alphabet, puis les lettres accentuées du français — é, è, ê, à, ç —, puis les graphèmes à deux lettres ch, ou, oi, an, on, puis les chiffres de 0 à 9. Un appui suffit. À l’ouverture, la luciole parcourt la lettre tracé après tracé, avec un petit son au départ de chaque tracé : toute la classe voit où le crayon se pose et dans quel sens il part. Les numéros de tracés et les flèches restent sur la lettre pendant que l’enfant travaille, et c’est justement ce qu’une lettre finie affichée au mur ne dira jamais. Un graphème s’écrit lettre après lettre, parce que ch, ce sont deux lettres pour un seul son.",
+      "L’enfant repasse ensuite du doigt, en partant du point vert, et le trait n’apparaît que là où le doigt est réellement passé. Il ne devance jamais l’enfant et ne termine jamais la lettre à sa place : on s’arrête à mi-chemin, la lettre reste à mi-chemin. S’il sort du chemin, l’encre attend, simplement. Rien ne le sanctionne : au bout de plusieurs arrêts, les flèches se remettent à circuler, la luciole refait ce tracé-là, puis le chemin s’élargit une fois, discrètement. Des points sous la feuille disent combien de tracés il reste, et un bouton dans le coin de la feuille rappelle la luciole autant de fois qu’on veut. Aucune croix rouge, aucun score, aucun minuteur, aucune étoile.",
+      "La réglure est ce que la plupart des outils d’écriture ratent dès qu’ils sortent du monde anglophone. Ici, une ligne d’écriture bien marquée, et autour d’elle des lignes plus légères, toutes en trait continu : là où s’arrêtent les petites lettres, là où montent les hampes, là où descendent les jambages. Aucun pointillé — le trait discontinu est une convention anglo-saxonne qu’aucun cahier français n’imprime. Chaque pays a la sienne, réglée par des enseignants de ce pays plutôt que traduite d’une fiche américaine. Les lettres sont en script, capitales et minuscules d’imprimerie ; la cursive n’est pas encore disponible. Toutes les lettres, tous les accents, tous les graphèmes, tous les chiffres et n’importe quel mot que vous tapez sont gratuits, dans les onze langues."
     ],
     "howToUse": [
-      "Choisissez le mode Lettres ou Chiffres, puis basculez entre capitales et minuscules selon ce que travaille votre classe.",
-      "Appuyez sur « Montre-moi » et laissez la luciole parcourir la lettre : faites verbaliser le point de départ, le sens du tracé et le nombre de traits.",
-      "Passez la main à l’enfant : il pose le doigt sur le point vert et suit le chemin, et le trait ne s’inscrit que lorsqu’il est dessus.",
-      "Faites recommencer avec « Retracer » autant de fois qu’il le faut : c’est la répétition du geste, et non la réussite du premier essai, qui installe l’automatisme.",
-      "En Premium, ouvrez le mode Prénoms : l’enfant écrit son prénom lettre après lettre, et vous imprimez la fiche correspondante pour la maison."
+      "Vidéoprojetez la feuille et laissez d’abord passer la luciole : elle parcourt la lettre toute seule à l’ouverture, et le bouton dans le coin de la feuille la relance autant de fois que la classe en a besoin.",
+      "Choisissez le signe dans la barre du haut : la lettre du jour, celle qu’un enfant inverse toujours, un é ou un ç, le graphème du moment (ch, ou, oi, an, on), un chiffre. C’est un appui, pas une chasse.",
+      "Faites monter un enfant : il pose le doigt sur le point vert et suit le chemin. Le trait se dépose derrière son doigt, s’arrête là où il s’arrête, et l’attend s’il s’égare, sans rien signaler devant la classe.",
+      "Passez de la minuscule à la capitale avec le couple a/A, qui montre la même lettre dans les deux écritures. Le bouton crayon ouvre une case où vous tapez le mot que vous voulez : la classe l’écrit lettre après lettre, le mot entier restant affiché au-dessus.",
+      "Avec l’offre Enseignant, cette même case liste les prénoms de votre classe tels qu’ils sont enregistrés dans Bâtonnets de prénoms, et ils ne quittent jamais l’appareil. Un bouton imprime alors une fiche A4 sur la réglure de votre pays : le modèle avec l’ordre des tracés, un cadre pour le prénom, puis six lignes de huit lettres — deux à repasser, deux en tracé estompé, une à copier, une libre."
     ],
     "classroomIdeas": [
-      "En rituel du matin, projetez la lettre du jour au TBI : un élève vient la tracer devant la classe pendant que les autres l’écrivent en l’air.",
-      "En atelier dirigé, faites tracer la lettre du doigt sur l’écran, puis aussitôt sur l’ardoise : le geste passe de l’écran au support papier.",
-      "Utilisez le mode Chiffres pendant les rituels de date et de comptage, pour travailler l’écriture des chiffres sans changer d’outil.",
-      "En Premium, ouvrez le mode Prénoms en début d’année : chaque enfant trace son prénom en capitales, puis la fiche imprimée part à la maison."
+      "En rituel du matin, projetez la lettre du jour : la luciole d’abord, puis deux ou trois élèves qui viennent la tracer au tableau, puis tout le monde sur l’ardoise pendant que le geste est frais.",
+      "Installez l’outil sur une tablette au coin écriture, réglé sur la lettre du jour : l’enfant qui a besoin de revoir l’ordre des tracés le redemande à la luciole plutôt qu’à vous.",
+      "Quand un enfant inverse un b, un d ou un 3, ne corrigez pas sur le cahier : appuyez sur ce signe et regardez la luciole ensemble. Voir où le tracé commence règle bien plus d’inversions qu’un trait gommé.",
+      "Le jour où vous étudiez un graphème, choisissez-le dans la barre — ch, ou, oi, an, on : l’enfant le forme lettre après lettre, puis vous tapez un mot de la semaine qui le contient et la classe l’écrit en entier.",
+      "Avec l’offre Enseignant, faites tracer à chaque enfant son propre prénom le jour de son anniversaire, et repartez avec la fiche imprimée, modèle et ordre des tracés compris."
     ]
   },
   "open-number-line": {

@@ -135,7 +135,7 @@ sbx.window = sbx; vm.createContext(sbx);
 vm.runInContext(fs.readFileSync(path.join(MINI, 'letter-studio.js'), 'utf8'), sbx);
 const T = sbx.LetterStudio;
 
-let PASS = 0, FAIL = 0;
+let PASS = 0, FAIL = 0, PREMIUM = false;
 const bad = (m) => { FAIL++; console.error('  FAIL ' + m); };
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -167,9 +167,25 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
   const page = await browser.newPage();
   await page.setCacheEnabled(false);
+  /* ⚠ SEED THE CLASS STORE. `.ls-privacy` and `.ls-rosterlead` render only
+     for a subscriber WITH a class; without one the tool correctly shows the
+     `.ls-todo` prompt instead. Measured: the poison that dropped the privacy
+     line to 7px SURVIVED, because the element was never on the page in any
+     of the 132 renders. A floor over an absent element is not a floor. */
+  await page.evaluateOnNewDocument(() => {
+    try {
+      localStorage.setItem('accessToken', 'layout-audit');
+      localStorage.setItem('lcs:my-classes:v1', JSON.stringify({
+        v: 1, activeClassId: 'c1',
+        classes: [{ id: 'c1', name: 'Audit', students: [{ id: 's1', name: 'Ida' }, { id: 's2', name: 'Otto' }] }]
+      }));
+    } catch (_) {}
+  });
   await page.setRequestInterception(true);
   page.on('request', (r) => (r.url().includes('/api/auth/me')
-    ? r.respond({ status: 200, contentType: 'application/json', body: JSON.stringify({ user: { subscriptionTier: 'free' }, subscription: null }) })
+    ? r.respond({ status: 200, contentType: 'application/json', body: JSON.stringify(PREMIUM
+        ? { user: { subscriptionTier: 'full' }, subscription: { status: 'active' } }
+        : { user: { subscriptionTier: 'free' }, subscription: null }) })
     : r.continue()));
 
   let worstCtrl = 999, worstKey = 999, worstFont = 999, checked = 0;
@@ -177,6 +193,15 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   for (const loc of LOCALES) {
     for (const w of WIDTHS) {
+     /* ⚠ BOTH TIERS. The FREE render carries the gate line; the PREMIUM
+        render carries the roster chips, the roster heading and the privacy
+        line — and those only exist for a subscriber, so a free-only sweep
+        measures a text set that does not contain them. Measured: the
+        poison that dropped `.ls-privacy` to 7px SURVIVED, because the
+        element was never on the page. A floor over an empty collection is
+        not a floor. */
+     for (const tier of ['free', 'premium']) {
+      PREMIUM = tier === 'premium';
       await page.setViewport({ width: w, height: heightFor(w) });
       await page.goto(`http://127.0.0.1:${PORT}/harness?q=${encodeURIComponent('lang=' + loc + '&embed=1')}`, { waitUntil: 'domcontentloaded' });
       const handle = await page.waitForSelector('#f', { timeout: 15000 });
@@ -184,7 +209,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       await frame.waitForSelector('.ls-svg', { timeout: 15000 });
       await wait(420);
       const box = await handle.boundingBox();
-      const tag = loc + '@' + w;
+      const tag = loc + '@' + w + ' ' + tier;
       if (Math.round(box.width) !== EXPECT[w]) bad(`${tag}: the tool got ${Math.round(box.width)}px, not the ${EXPECT[w]}px the tool page gives it`);
 
       /* drive it into the state that carries the LONGEST strings: the word
@@ -205,14 +230,27 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
           const r = e.getBoundingClientRect();
           return r.width > 0 && r.height > 0;
         };
-        /* ⚠ THE VISIBLE RECT — intersected with every clipping ancestor */
-        const vis = (e) => {
-          let r = e.getBoundingClientRect();
+        /* ⭐⭐ TWO RECTS, AND THE DIFFERENCE BETWEEN THEM IS `hidden`.
+           A SCROLLER (overflow auto|scroll) hides content that is still
+           REACHABLE — scroll and there it is — so a key parked past the
+           picker rail's edge is neither on screen now nor a layout defect.
+           A CLIPPER (overflow:hidden) destroys it: whatever is past the
+           edge is gone and unreachable, which is precisely the defect this
+           gate exists to catch.
+           ⚠ MY FIRST VERSION INTERSECTED BOTH KINDS FOR CONTAINMENT, and
+           three poisons walked straight through: widening the gate line to
+           160% and un-wrapping the dock both push content past the card,
+           the card clips it with `hidden`, and the "visible" rect I was
+           measuring had already had the evidence trimmed off it. A
+           containment check that cannot see past a clip is a containment
+           check that cannot fail. */
+        const clipAncestors = (e, kinds) => {
+          const r = e.getBoundingClientRect();
           let out = { left: r.left, right: r.right, top: r.top, bottom: r.bottom };
           let n = e.parentElement;
           while (n && n !== document.body) {
             const s = getComputedStyle(n);
-            if (/auto|scroll|hidden/.test(s.overflowX + s.overflowY)) {
+            if (kinds.test(s.overflowX + s.overflowY)) {
               const b = n.getBoundingClientRect();
               out.left = Math.max(out.left, b.left); out.right = Math.min(out.right, b.right);
               out.top = Math.max(out.top, b.top); out.bottom = Math.min(out.bottom, b.bottom);
@@ -221,13 +259,65 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
           }
           return (out.right - out.left > 1 && out.bottom - out.top > 1) ? out : null;
         };
+        /* on screen right now — for collisions */
+        const vis = (e) => clipAncestors(e, /auto|scroll|hidden/);
+        /* ⭐⭐ AND A THIRD QUESTION, WHICH THE FIRST TWO CANNOT ASK:
+           IS A CONTROL BEING CLIPPED BY ITS OWN WRAPPER?
+           The poison that set the dock to `flex-wrap:nowrap` SURVIVED both
+           the containment sweep and the 44px floor, and the measurement
+           explains why: nothing escaped the card at all. What happened is
+           that `.ls-case` — a flex item with `overflow:hidden` — was
+           SQUASHED from 92px to 15px, and its two buttons stayed 44x44 in
+           layout while being painted 13px and 0px wide. Every existing
+           instrument was satisfied: the boxes were the right size, inside
+           the card, not overlapping. They were simply not there.
+           So: compare what is REACHABLE (bounded by legitimate scrollers,
+           because a key parked past the rail's edge can be scrolled to)
+           against what is PAINTED (also bounded by `hidden` ancestors).
+           A gap between the two is a control its own container is eating.
+           ⚠ PER AXIS. The picker rail is `overflow-x:auto; overflow-y:hidden`
+           — lumping the axes together made the rail count as a clipper and
+           condemned every key in the CORRECT build. */
+        const axisBox = (e, kinds) => {
+          const r = e.getBoundingClientRect();
+          let o = { l: r.left, r: r.right, t: r.top, b: r.bottom };
+          let n = e.parentElement;
+          while (n && n !== document.body) {
+            const st = getComputedStyle(n), q = n.getBoundingClientRect();
+            if (kinds.test(st.overflowX)) { o.l = Math.max(o.l, q.left); o.r = Math.min(o.r, q.right); }
+            if (kinds.test(st.overflowY)) { o.t = Math.max(o.t, q.top); o.b = Math.min(o.b, q.bottom); }
+            n = n.parentElement;
+          }
+          return { w: Math.max(0, o.r - o.l), h: Math.max(0, o.b - o.t) };
+        };
+        const eaten = [];
+        document.querySelectorAll('button,input').forEach((e) => {
+          if (!shown(e)) return;
+          const r = e.getBoundingClientRect();
+          const reachable = axisBox(e, /auto|scroll/);
+          const painted = axisBox(e, /auto|scroll|hidden/);
+          if (reachable.w < 1 || reachable.h < 1) return;      /* parked in a scroller: legitimate */
+          if (painted.w < reachable.w * 0.85 - 0.5 || painted.h < reachable.h * 0.85 - 0.5)
+            eaten.push((e.className || '') + ' reachable ' + Math.round(reachable.w) + 'x' + Math.round(reachable.h)
+              + ' painted ' + Math.round(painted.w) + 'x' + Math.round(painted.h));
+        });
+        /* where it is LAID OUT, allowing only for legitimate scrollers —
+           for containment */
+        const laid = (e) => clipAncestors(e, /auto|scroll/);
 
         /* containment: the block-level furniture, against THE CARD */
         const outside = [];
-        document.querySelectorAll('.ls-wrap,.ls-picker,.ls-card,.ls-sheet,.ls-dock,.ls-pips,.ls-gateline,.ls-wordpanel,.ls-wordform,.ls-seq,.ls-privacy,.ls-todo,.ls-rosterlead')
+        /* ⚠ THE CONTROLS ARE IN THIS SET TOO. My first version listed only
+           the block-level furniture, and the poison that turned the dock
+           to `flex-wrap:nowrap` SURVIVED: the dock itself stays 100% wide
+           and it is its CHILDREN that push past the card, so a sweep of
+           containers alone cannot see it. Keys are safe to include —
+           `laid()` intersects legitimate scrollers, so a key parked past
+           the rail's edge is clipped to the rail, not reported. */
+        document.querySelectorAll('.ls-wrap,.ls-picker,.ls-card,.ls-sheet,.ls-dock,.ls-pips,.ls-gateline,.ls-wordpanel,.ls-wordform,.ls-seq,.ls-privacy,.ls-todo,.ls-rosterlead,.ls-names,.ls-name,.ls-chip,.ls-primary,.ls-caseb,.ls-more,.ls-replay,.ls-wordgo,.ls-wordinput,.ls-key')
           .forEach((e) => {
             if (!shown(e)) return;
-            const r = vis(e); if (!r) return;
+            const r = laid(e); if (!r) return;
             if (r.right > card.right + 1 || r.left < card.left - 1) outside.push((e.className || e.tagName) + ' ' + Math.round(r.left) + '..' + Math.round(r.right));
           });
 
@@ -271,12 +361,14 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
           .sort((a, b) => b.w - a.w)[0];
 
         return {
-          outside, small, keySmall, clipped, minFont,
+          outside, small, keySmall, clipped, minFont, eaten,
           hits: hits.slice(0, 4), widest,
           minCtrl: ctrlSizes.length ? Math.min(...ctrlSizes) : null,
           minKey: keySizes.length ? Math.min(...keySizes) : null,
           doc: document.documentElement.scrollWidth - document.documentElement.clientWidth,
           gate: document.querySelectorAll('.ls-gateline').length,
+          privacy: document.querySelectorAll('.ls-privacy').length,
+          names: document.querySelectorAll('.ls-name').length,
           keys: document.querySelectorAll('.ls-key').length,
           appH: Math.round(document.querySelector('.lcs-app').getBoundingClientRect().height)
         };
@@ -287,12 +379,21 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
          "nothing collides" perfectly. Assert the collections are populated
          before believing a single verdict about their contents. */
       if (!m.keys || m.keys < 26) bad(`${tag}: only ${m.keys} picker keys — the measurements below would be vacuous`);
-      if (!m.gate) bad(`${tag}: the free-tier gate line did not render, so the longest string was never measured`);
+      /* ⚠ AND THE NON-VACUITY PROOF IS PER TIER. The gate line is a FREE
+         surface and the roster + privacy line are PREMIUM ones; a check
+         that demands the gate line in both reports a defect against a
+         correct subscriber render, which is the ban-too-wide trap wearing
+         a layout hat. Each tier proves its own long strings were on the
+         page before any verdict about them is believed. */
+      if (!PREMIUM && !m.gate) bad(`${tag}: the free-tier gate line did not render, so the longest string was never measured`);
+      if (PREMIUM && !m.privacy) bad(`${tag}: the privacy line did not render, so the premium text floor was vacuous`);
+      if (PREMIUM && !m.names) bad(`${tag}: no roster chips rendered, so the premium layout was never measured`);
       if (m.minCtrl === null) bad(`${tag}: no controls found at all`);
 
       if (m.outside.length) bad(`${tag}: outside THE CARD — ${m.outside.join(', ')}`);
       if (m.small.length) bad(`${tag}: control under the 44px floor — ${m.small.slice(0, 3).join(', ')}`);
       if (m.keySmall.length) bad(`${tag}: picker key under the 34px floor — ${m.keySmall.slice(0, 3).join(', ')}`);
+      if (m.eaten.length) bad(`${tag}: a control is CLIPPED BY ITS OWN CONTAINER — ${m.eaten.slice(0, 3).join(', ')}`);
       if (m.clipped.length) bad(`${tag}: clipped label(s) — "${m.clipped.join('", "')}"`);
       if (m.minFont < 12) bad(`${tag}: text at ${m.minFont}px, under the 12px legibility floor`);
       if (m.hits.length) bad(`${tag}: rendered things COLLIDE — ${m.hits.join(' | ')}`);
@@ -303,9 +404,10 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       worstFont = Math.min(worstFont, m.minFont);
       if (m.widest && (!longest[loc] || m.widest.w > longest[loc].w)) longest[loc] = m.widest;
       checked++; PASS++;
+     }
     }
     const L = longest[loc];
-    console.log(`  ${loc}  ${WIDTHS.length} widths ok   ruling ${T.rulingFor(loc).system.padEnd(24)} widest control: "${(L ? L.t : '?').slice(0, 44)}" (${L ? L.w : 0}px)`);
+    console.log(`  ${loc}  ${WIDTHS.length} widths x 2 tiers ok   ruling ${T.rulingFor(loc).system.padEnd(24)} widest control: "${(L ? L.t : '?').slice(0, 44)}" (${L ? L.w : 0}px)`);
   }
 
   await browser.close();

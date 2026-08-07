@@ -457,6 +457,52 @@ function run(poisoned) {
   }
 
   /* ---------------------------------------------------------------- */
+  head('D2  the circumflex is a CORNER, not a breve');
+  /* ⚠ THE MUTATION HARNESS FOUND THIS HOLE. Deleting the doubled apex
+     from the circumflex SURVIVED every assertion in §D: the mark is still
+     one stroke, still above the letter, still appended after an unchanged
+     body. Only the SHAPE changes — and it changes into a different letter,
+     because with a single apex point the Catmull-Rom's control vectors
+     there are horizontal and â renders as ă.
+     ⚠ AND NOT BY A TURN-ANGLE THRESHOLD. Measured, the worst correct
+     circumflex turns 33.4° and the worst breve 29.7° — a 3.7° gap, and
+     the tilde sits at 31.3° right between them. A cutoff there would be
+     tuned to its own data and would condemn a correct mark the moment
+     anyone re-shapes one. The structural fact is exact and needs no
+     number: a corner is where the topmost point is attained TWICE. */
+  {
+    let tested = 0, blunt = [];
+    for (const ch of Object.keys(T.COMPOSE)) {
+      if (T.COMPOSE[ch][1] !== 'circumflex') continue;
+      tested++;
+      const g = CORE.GLYPHS[ch], mark = g[g.length - 1];
+      const top = Math.min.apply(null, mark.map(p => p.y));
+      const atTop = mark.filter(p => Math.abs(p.y - top) < 0.6).length;
+      if (atTop < 2) blunt.push(ch + ' (' + atTop + ' apex point)');
+    }
+    check(`every circumflex pins its apex with two points, so it draws a corner and not a breve${blunt.length ? ' — ' + blunt.join(', ') : ''}`, blunt.length === 0);
+    check(`the circumflex check ran on ${tested} composites`, tested >= 8);
+    /* the other marks are single-apex by construction, so the rule above
+       is deliberately scoped to circumflex and is NOT a general shape ban */
+    let single = 0;
+    for (const ch of Object.keys(T.COMPOSE)) {
+      const m = T.COMPOSE[ch][1];
+      if (m === 'circumflex' || m === 'diaeresis') continue;
+      const g = CORE.GLYPHS[ch], mark = g[g.length - 1];
+      const top = Math.min.apply(null, mark.map(p => p.y));
+      if (mark.filter(p => Math.abs(p.y - top) < 0.6).length === 1) single++;
+    }
+    /* ⚠ NOT `single >= 30`, which is what I wrote first and which failed a
+       CORRECT tool at 28 — a number I liked the look of rather than one I
+       had measured. What this check is for is proving the apex rule above
+       is genuinely SCOPED to the circumflex and is not a shape ban that
+       would condemn every other mark; any non-zero count shows that, and
+       the exact figure is reported rather than asserted so a re-shaped
+       mark does not fail a gate it has nothing to do with. */
+    check(`and it is scoped: ${single} non-circumflex marks legitimately have a single apex`, single > 0);
+  }
+
+  /* ---------------------------------------------------------------- */
   head('E  the diaeresis is TWO strokes, under the judge that ships');
   {
     let tested = 0;
@@ -668,6 +714,70 @@ function run(poisoned) {
   }
 
   /* ---------------------------------------------------------------- */
+  head('G2  the corridor the child actually gets');
+  /* ⚠ TWO MORE HOLES THE MUTATION HARNESS FOUND. Dropping the corridor
+     option from newTrace, and never relaxing after repeated stalls, both
+     SURVIVED every gate: §G proved the judge and the renderer share a
+     glyph, and nothing anywhere proved the ACCESSIBILITY setting reaches
+     the judge or that the no-shame escalation happens. Both are settings
+     a teacher turns on for a child who needs them. */
+  {
+    T.core = CORE; T.numCore = NUM; T.tracer = STC;
+    T.api = { lang: 'en', settings: { wide: false, voice: false, arrows: true }, announce() {}, sound() {}, t: (k) => k, el: (t, c) => makeEl(t, c), stage: makeEl('div', '') };
+    T.tray = null; T.seq = null; T.upper = false; T.index = 0; T._store = { v: 1 }; T._timers = [];
+
+    T.api.settings.wide = false; T._reset();
+    check(`the default corridor reaches the judge (${T.trace && T.trace.corridor} = CORRIDOR ${STC.CORRIDOR})`, !!T.trace && T.trace.corridor === STC.CORRIDOR);
+    T.api.settings.wide = true; T._reset();
+    check(`the "wider path for small hands" setting reaches the judge (${T.trace && T.trace.corridor} = WIDE ${STC.WIDE})`, !!T.trace && T.trace.corridor === STC.WIDE);
+    T.api.settings.wide = false; T._reset();
+
+    /* the escalation: repeated stalls must widen the corridor, silently */
+    const ch = T._current();
+    const before = T.trace.corridor;
+    for (let i = 0; i < 6; i++) { T.cur = []; T._endStroke(ch); }
+    check(`repeated stalls widen the corridor rather than deliver a verdict (${before} -> ${T.trace.corridor})`,
+      T.trace.corridor > before);
+    check('and the escalation never narrows it', T.trace.corridor >= STC.CORRIDOR);
+    T._reset();
+  }
+
+  /* ---------------------------------------------------------------- */
+  head('G3  the per-locale writing guide, against an INDEPENDENT expectation');
+  /* ⭐⭐ THE ORACLE MUST NOT READ THE TABLE IT IS CHECKING. The locale
+     smoke asserts `drawn lines === rulingFor(loc).zones.length`, and both
+     sides of that read RULING — so deleting a zone from the German
+     ruling moves both together and it stays green. Measured: that poison
+     SURVIVED the whole suite.
+     These numbers are facts about each country's school paper, not a copy
+     of our code: German Lineatur 1 is four lines with a coloured
+     mid-band, Spanish doble raya is three, Dutch blokschrift draws two
+     solid and two dashed. A native panel re-ruling a locale SHOULD have
+     to change this line as well — that is the review, not an obstacle. */
+  {
+    const EXPECTED = {
+      de: { zones: 4, solid: 4, band: true },   fr: { zones: 4, solid: 4, band: false },
+      it: { zones: 4, solid: 4, band: false },  es: { zones: 3, solid: 3, band: false },
+      pt: { zones: 3, solid: 3, band: true },   nl: { zones: 4, solid: 2, band: false },
+      sv: { zones: 4, solid: 4, band: false },  da: { zones: 4, solid: 4, band: false },
+      no: { zones: 4, solid: 1, band: false },  fi: { zones: 4, solid: 4, band: true },
+      en: { zones: 4, solid: 1, band: false }
+    };
+    for (const loc of LOCALES) {
+      const want = EXPECTED[loc];
+      if (!want) { check(`${loc} has an independent ruling expectation`, false); continue; }
+      const got = T.rulingFor(loc);
+      const solid = got.zones.filter(z => z.kind === 'solid').length;
+      check(`${loc}: ${got.system} draws ${want.zones} lines (${want.solid} solid)${want.band ? ' + a tint band' : ''}`,
+        got.zones.length === want.zones && solid === want.solid && !!got.band === want.band);
+      /* every zone must sit inside the sheet's own viewBox */
+      check(`${loc}: every ruled line is inside the sheet (0 2 100 98)`, got.zones.every(z => z.y >= 2 && z.y <= 100));
+    }
+    check('the eleven locales do not all share one ruling',
+      new Set(LOCALES.map(l => T.rulingFor(l).system)).size >= 8);
+  }
+
+  /* ---------------------------------------------------------------- */
   head('H  ß has no single-character capital');
   check(`upperOf('ß') is 'ß', not 'SS' (got ${JSON.stringify(T.upperOf('ß'))})`, T.upperOf('ß') === 'ß');
   check("hasCapital('ß') is false", T.hasCapital('ß') === false);
@@ -740,7 +850,15 @@ function run(poisoned) {
        ASCII and fine, and `\bpisteet\b` is fine — the trap is any ban whose
        EDGE character is non-ASCII. Finnish is the one that bites here, so
        it uses an explicit non-letter lookaround. */
-    const SCORE_RE = /(?<!\p{L})(score|scores|streak|poäng|poeng|punkte|punteggio|puntuación|pontuação|pisteet|badge|reward|countdown)(?!\p{L})/iu;
+    /* ⚠ THE PLURALS ARE LISTED, NOT WILDCARDED. The mutation harness fed
+       "Verzamel punten en badges met Premium" into the Dutch gate line and
+       it SURVIVED: the ban carried `badge`, the trailing lookaround
+       correctly refused the partial word, and `badges` walked through. That
+       is the recorded `\baste\w*` shape — a ban that misses the form a
+       native actually writes. The fix is the explicit case endings, never
+       a `\w*` tail, because widening `puntu\w*` would then condemn
+       perfectly ordinary Spanish. */
+    const SCORE_RE = /(?<!\p{L})(score|scores|streak|streaks|poäng|poeng|punkte|punkten|punteggio|punteggi|puntuación|puntuaciones|pontuação|pontuações|pisteet|pisteitä|badge|badges|reward|rewards|countdown|countdowns)(?!\p{L})/iu;
     const ph = (s) => (s.match(/\{[a-zA-Z]+\}/g) || []).sort().join(',');
     let parity = 0;
     for (const key of enKeys) {

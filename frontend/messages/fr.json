@@ -2244,11 +2244,12 @@
     "collections": {
       "heading": "Mes collections",
       "viewAll": "View all ({count})",
-      "cardDeckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
+      "cardDeckCount": "{count, plural, =0 {Aucun deck} =1 {1 deck} other {# decks}}",
       "empty": {
         "title": "No collections yet",
         "body": "Save and organize decks into collections — by class, by unit, by week."
-      }
+      },
+      "cardEmptyCta": "Ajouter des decks"
     },
     "recentActivity": {
       "heading": "Recent activity",
@@ -2322,7 +2323,8 @@
       "sortViews": "Les plus vues",
       "seeAll": "Tout voir ({count})",
       "noMatchTitle": "Aucun résultat",
-      "noMatchBody": "Essayez un autre mot ou effacez la recherche."
+      "noMatchBody": "Essayez un autre mot ou effacez la recherche.",
+      "rowActions": "Plus d'actions"
     },
     "dialog": {
       "cancel": "Annuler",

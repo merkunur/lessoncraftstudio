@@ -1855,7 +1855,8 @@
       "empty": {
         "title": "Nog geen verzamelingen",
         "body": "Bewaar en organiseer decks in verzamelingen — per klas, per eenheid, per week."
-      }
+      },
+      "cardEmptyCta": "Decks toevoegen"
     },
     "recentActivity": {
       "heading": "Recente activiteit",
@@ -1929,7 +1930,8 @@
       "sortViews": "Meest bekeken",
       "seeAll": "Alles bekijken ({count})",
       "noMatchTitle": "Geen resultaten",
-      "noMatchBody": "Probeer een ander woord of wis de zoekopdracht."
+      "noMatchBody": "Probeer een ander woord of wis de zoekopdracht.",
+      "rowActions": "Meer acties"
     },
     "dialog": {
       "cancel": "Annuleren",

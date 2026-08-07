@@ -6,9 +6,11 @@ import ActivityShareModal from '@/components/activities/ActivityShareModal';
 import ConfirmDialog from '@/components/ui/ConfirmDialog';
 import PromptDialog from '@/components/ui/PromptDialog';
 import ClientPagination from '@/components/ui/ClientPagination';
-import WorkspaceSection, { WorkspaceSectionMessage } from '../WorkspaceSection';
+import WorkspaceSection, { WorkspaceSectionMessage, QuotaMeter } from '../WorkspaceSection';
 import WorkspaceListToolbar from '../WorkspaceListToolbar';
 import WorkspaceEmptyState from '../WorkspaceEmptyState';
+import WorkspaceRow, { ROW_LIST, MetaChip, MetaDot } from '../WorkspaceRow';
+import RowActionsMenu from '../RowActionsMenu';
 import { usePagedList } from '../usePagedList';
 import { filterAndSort } from '../listUtils';
 import { PAGE_SIZE, OVERVIEW_PREVIEW, type SortKey } from '../constants';
@@ -118,7 +120,13 @@ export default function HostedWorksheetsSection({ locale, slice, variant, onSeeA
         id="ws-hosted"
         title={tHosted('title')}
         meter={
-          quota ? t('quotaLabel', { count: quota.count, max: quota.maxCount }) : undefined
+          quota ? (
+            <QuotaMeter
+              label={t('quotaLabel', { count: quota.count, max: quota.maxCount })}
+              count={quota.count}
+              max={quota.maxCount}
+            />
+          ) : undefined
         }
         variant={variant}
         totalCount={rows.length}
@@ -148,56 +156,69 @@ export default function HostedWorksheetsSection({ locale, slice, variant, onSeeA
               <button
                 type="button"
                 onClick={() => setQuery('')}
-                className="inline-flex min-h-[44px] items-center justify-center rounded-2xl bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
+                className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
               >
                 {tList('clearSearch')}
               </button>
             }
           />
         ) : (
-          <ul className="space-y-3">
+          <ul className={ROW_LIST}>
             {shown.map((row) => (
-              <li
+              <WorkspaceRow
                 key={row.id}
-                /* flat, not .actcat-card: the row itself is not clickable (only
-                   its buttons are), so the card's hover-lift would be a false
-                   affordance. */
-                className="actcat-card-flat flex flex-wrap items-center gap-3 rounded-2xl px-4 py-3"
-              >
-                {/* basis-full on phones: with the three action buttons holding
-                    their width, `flex-1 min-w-0` alone let the title shrink to
-                    "Additi…". Taking the whole first line forces the buttons to
-                    wrap underneath instead. */}
-                <div className="min-w-0 basis-full sm:basis-0 sm:flex-1">
-                  <p className="truncate font-lcsDisplay font-bold text-lcs-teal">{row.title}</p>
-                  <p className="font-lcsBody text-xs text-lcs-teal/60">
-                    {row.appId} · {tHosted('views', { count: row.viewCount })}
-                  </p>
-                </div>
-                <div className="flex shrink-0 flex-wrap items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={() => setShareRow(row)}
-                    className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-teal px-4 py-1.5 font-lcsBody text-sm font-semibold text-lcs-cream transition-colors hover:bg-lcs-teal-deep"
-                  >
-                    {tHosted('share')}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => { setRenameRow(row); setDialogError(null); }}
-                    className="inline-flex min-h-[44px] items-center rounded-full border border-lcs-teal/25 px-3 py-1 font-lcsBody text-sm font-semibold text-lcs-teal/80 transition-colors hover:border-lcs-teal hover:text-lcs-teal"
-                  >
-                    {tHosted('rename')}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setDeleteRow(row)}
-                    className="inline-flex min-h-[44px] items-center rounded-full border border-terracotta-400 px-3 py-1 font-lcsBody text-sm font-semibold text-terracotta-500 transition-colors hover:bg-terracotta-500 hover:text-white"
-                  >
-                    {tHosted('delete')}
-                  </button>
-                </div>
-              </li>
+                title={row.title}
+                meta={
+                  <>
+                    <MetaChip>{row.appId}</MetaChip>
+                    <span className="tabular-nums">
+                      {tHosted('views', { count: row.viewCount })}
+                    </span>
+                    <MetaDot />
+                    {/* updatedAt was already on the wire and thrown away. It is
+                        the single most useful column a teacher has here. */}
+                    <span className="tabular-nums">
+                      {new Date(row.updatedAt).toLocaleDateString(locale, {
+                        day: 'numeric',
+                        month: 'short',
+                      })}
+                    </span>
+                  </>
+                }
+                actions={
+                  <>
+                    {/* Share is the only FILLED control in the row — the whole
+                        point of the hierarchy. h-11 keeps the 44px touch target
+                        on phones; md:h-9 gives desktop the density a list wants. */}
+                    <button
+                      type="button"
+                      onClick={() => setShareRow(row)}
+                      className="inline-flex h-11 items-center justify-center rounded-full bg-lcs-teal px-4 font-lcsBody text-[0.8125rem] font-bold tracking-[0.01em] text-[#FFFDF8] transition-colors hover:bg-lcs-teal-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9"
+                    >
+                      {tHosted('share')}
+                    </button>
+                    <RowActionsMenu
+                      label={tList('rowActions')}
+                      actions={[
+                        {
+                          key: 'rename',
+                          label: tHosted('rename'),
+                          onSelect: () => {
+                            setRenameRow(row);
+                            setDialogError(null);
+                          },
+                        },
+                        {
+                          key: 'delete',
+                          label: tHosted('delete'),
+                          destructive: true,
+                          onSelect: () => setDeleteRow(row),
+                        },
+                      ]}
+                    />
+                  </>
+                }
+              />
             ))}
           </ul>
         )}

@@ -28,7 +28,11 @@ export interface ClientPaginationProps {
 const NUMERIC_WINDOW = 5;
 
 const BTN =
-  'min-h-[44px] min-w-[44px] px-3 py-1.5 rounded-full font-lcsBody text-sm font-semibold transition-colors';
+  'min-h-[44px] min-w-[44px] px-3 py-1.5 rounded-full font-lcsBody text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8]';
+
+/* Ink ramp — this control renders only inside the workspace panel (#FFFDF8),
+   so teal is reserved for the current page and everything else is ink. */
+const QUIET = 'text-[#5E706A] hover:text-[#14322D]';
 
 export default function ClientPagination({
   page,
@@ -63,28 +67,32 @@ export default function ClientPagination({
         type="button"
         onClick={() => onPageChange(page - 1)}
         disabled={page <= 1}
-        className={`${BTN} text-lcs-teal/80 hover:text-lcs-teal disabled:cursor-not-allowed disabled:opacity-40`}
+        className={`${BTN} ${QUIET} disabled:cursor-not-allowed disabled:text-[#9AA8A3]`}
       >
         ← {t('previous')}
       </button>
 
-      <div className="hidden items-center gap-1 rounded-full bg-lcs-teal/8 p-0.5 sm:inline-flex">
+      <div className="hidden items-center gap-1 rounded-full bg-[#14322D]/[0.05] p-0.5 sm:inline-flex">
         {showFirst && (
           <>
-            <button type="button" onClick={() => onPageChange(1)} className={`${BTN} text-lcs-teal/80 hover:text-lcs-teal`}>
+            <button type="button" onClick={() => onPageChange(1)} className={`${BTN} ${QUIET} tabular-nums`}>
               1
             </button>
-            {showFirstEllipsis && <span className="px-1 text-lcs-teal/50">…</span>}
+            {showFirstEllipsis && <span className="px-1 text-[#9AA8A3]">…</span>}
           </>
         )}
 
         {pages.map((p) =>
           p === page ? (
-            <span key={p} aria-current="page" className={`${BTN} inline-flex items-center justify-center bg-lcs-teal text-lcs-cream`}>
+            <span
+              key={p}
+              aria-current="page"
+              className={`${BTN} inline-flex items-center justify-center bg-[#FFFDF8] tabular-nums text-[#14322D] shadow-[0_1px_2px_rgba(20,50,45,0.10)]`}
+            >
               {p}
             </span>
           ) : (
-            <button key={p} type="button" onClick={() => onPageChange(p)} className={`${BTN} text-lcs-teal/80 hover:text-lcs-teal`}>
+            <button key={p} type="button" onClick={() => onPageChange(p)} className={`${BTN} ${QUIET} tabular-nums`}>
               {p}
             </button>
           )
@@ -92,8 +100,8 @@ export default function ClientPagination({
 
         {showLast && (
           <>
-            {showLastEllipsis && <span className="px-1 text-lcs-teal/50">…</span>}
-            <button type="button" onClick={() => onPageChange(pageCount)} className={`${BTN} text-lcs-teal/80 hover:text-lcs-teal`}>
+            {showLastEllipsis && <span className="px-1 text-[#9AA8A3]">…</span>}
+            <button type="button" onClick={() => onPageChange(pageCount)} className={`${BTN} ${QUIET} tabular-nums`}>
               {pageCount}
             </button>
           </>
@@ -103,7 +111,7 @@ export default function ClientPagination({
       {/* Numbered pages collapse on narrow viewports; the localized
           "Page X of Y" carries the state there, and stays available to screen
           readers at every width. */}
-      <span className="px-2 font-lcsBody text-sm font-semibold text-lcs-teal/70 sm:sr-only">
+      <span className="px-2 font-lcsBody text-sm font-semibold tabular-nums text-[#5E706A] sm:sr-only">
         {t('pageOf', { current: page, total: pageCount })}
       </span>
 
@@ -111,7 +119,7 @@ export default function ClientPagination({
         type="button"
         onClick={() => onPageChange(page + 1)}
         disabled={page >= pageCount}
-        className={`${BTN} text-lcs-teal/80 hover:text-lcs-teal disabled:cursor-not-allowed disabled:opacity-40`}
+        className={`${BTN} ${QUIET} disabled:cursor-not-allowed disabled:text-[#9AA8A3]`}
       >
         {t('next')} →
       </button>

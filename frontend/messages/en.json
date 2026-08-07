@@ -3702,7 +3702,8 @@
       "empty": {
         "title": "No collections yet",
         "body": "Save and organize decks into collections — by class, by unit, by week."
-      }
+      },
+      "cardEmptyCta": "Add decks"
     },
     "recentActivity": {
       "heading": "Recent activity",
@@ -3776,7 +3777,8 @@
       "sortViews": "Most viewed",
       "seeAll": "See all ({count})",
       "noMatchTitle": "Nothing matches that search",
-      "noMatchBody": "Try a different word, or clear the search."
+      "noMatchBody": "Try a different word, or clear the search.",
+      "rowActions": "More actions"
     },
     "dialog": {
       "cancel": "Cancel",

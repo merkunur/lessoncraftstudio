@@ -109,27 +109,33 @@ export default function FavoritesSection({ locale, slice, variant, onSeeAll }: P
             <button
               type="button"
               onClick={() => setQuery('')}
-              className="inline-flex min-h-[44px] items-center justify-center rounded-2xl bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
+              className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
             >
               {tList('clearSearch')}
             </button>
           }
         />
       ) : (
-        <ul className="grid gap-2 sm:grid-cols-2">
+        /* Two columns of ruled lines, not cards — same idiom as the worksheet
+           rows so the whole panel keeps one rhythm. The full-bleed negative
+           margin can't apply here (a 2-col grid would tear at the gutter), so
+           these are bordered inside the section padding. */
+        /* Every cell carries its own bottom rule and the list carries the top
+           one. `divide-y` is WRONG on a 2-col grid — it borders every child but
+           the first in DOM order, so the top-right cell would be underlined on
+           the first visual row. */
+        <ul className="grid border-t border-[#14322D]/[0.08] sm:grid-cols-2 sm:gap-x-6">
           {shown.map((f) => (
             <li
               key={f.deckId}
-              /* flat: the row mixes a link and a remove button, so a whole-row
-                 hover-lift would misreport what is clickable. */
-              className="actcat-card-flat flex items-center gap-3 rounded-2xl px-4 py-2.5"
+              className="flex items-center gap-2 border-b border-[#14322D]/[0.08] py-1"
             >
               {/* nginx-served deck page → plain <a> per the §15.7 routing contract */}
               <a
                 href={f.url}
                 /* min-h-[44px] + flex so the hit area fills the row height —
                    as a bare inline link it was only 20px tall. */
-                className="flex min-h-[44px] min-w-0 flex-1 items-center truncate font-lcsBody text-sm font-semibold text-lcs-teal hover:text-lcs-coral-deep hover:underline"
+                className="flex min-h-[44px] min-w-0 flex-1 items-center truncate font-lcsBody text-sm font-semibold text-[#14322D] underline-offset-4 transition-colors hover:text-lcs-teal hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8]"
               >
                 {deckTitleFor(f.title, locale)}
               </a>
@@ -138,7 +144,7 @@ export default function FavoritesSection({ locale, slice, variant, onSeeAll }: P
                 onClick={() => remove(f.deckId)}
                 disabled={pending === f.deckId}
                 aria-label={t('remove')}
-                className="inline-flex min-h-[44px] min-w-[44px] shrink-0 items-center justify-center text-lg leading-none text-lcs-coral transition-colors hover:text-lcs-coral-deep disabled:opacity-50"
+                className="inline-flex min-h-[44px] min-w-[44px] shrink-0 items-center justify-center rounded-full text-lg leading-none text-lcs-coral transition-colors hover:bg-[#14322D]/[0.06] hover:text-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] disabled:text-[#9AA8A3]"
               >
                 ♥
               </button>

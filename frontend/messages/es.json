@@ -3377,7 +3377,8 @@
       "empty": {
         "title": "Aún no hay colecciones",
         "body": "Guarde y organice los decks en colecciones — por clase, por unidad, por semana."
-      }
+      },
+      "cardEmptyCta": "Añadir decks"
     },
     "recentActivity": {
       "heading": "Actividad reciente",
@@ -3451,7 +3452,8 @@
       "sortViews": "Más vistas",
       "seeAll": "Ver todo ({count})",
       "noMatchTitle": "Sin resultados",
-      "noMatchBody": "Prueba otra palabra o borra la búsqueda."
+      "noMatchBody": "Prueba otra palabra o borra la búsqueda.",
+      "rowActions": "Más acciones"
     },
     "dialog": {
       "cancel": "Cancelar",

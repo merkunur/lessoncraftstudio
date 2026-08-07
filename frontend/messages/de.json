@@ -3506,7 +3506,8 @@
       "empty": {
         "title": "Noch keine Sammlungen",
         "body": "Decks in Sammlungen ablegen und organisieren — nach Klasse, nach Einheit, nach Woche."
-      }
+      },
+      "cardEmptyCta": "Decks hinzufügen"
     },
     "recentActivity": {
       "heading": "Letzte Aktivitäten",
@@ -3580,7 +3581,8 @@
       "sortViews": "Meist aufgerufen",
       "seeAll": "Alle ansehen ({count})",
       "noMatchTitle": "Keine Treffer",
-      "noMatchBody": "Versuche ein anderes Wort oder setze die Suche zurück."
+      "noMatchBody": "Versuche ein anderes Wort oder setze die Suche zurück.",
+      "rowActions": "Weitere Aktionen"
     },
     "dialog": {
       "cancel": "Abbrechen",

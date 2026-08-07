@@ -12,10 +12,18 @@
 
   <!-- Shell, then this tool. Absolute /mini-tools/ paths so embeds and
        cross-context loads resolve identically. No core import and NO data
-       file: the twelve phrases and the twelve icons are inline, and the
-       gate fails the build if this tool ever fetches pww-index — the
-       bilingual word list belongs inside Picture Word Wall, whose
-       compose(loc, card, plural) already takes locale as an argument. -->
+       file: the 68 phrases and the 72 icons are INLINE, deliberately, and
+       the gate pins the tool to exactly one fetch (auth). A child on a
+       school tablet with no network still has a voice, which is worth
+       more than the ~30KB it costs — and it is why the repertoire did
+       not move to a fetched -sets.json like every other v4 tool's.
+       The gate also fails the build if this tool ever fetches pww-index:
+       the bilingual word list belongs inside Picture Word Wall, whose
+       compose(loc, card, plural) already takes locale as an argument.
+       ⚠ BUMP THE ?v=N ON EVERY .js CHANGE (§A.13.42). It is a FIXED url,
+       so Cloudflare caches that exact key — this rebuild shipped six
+       commits behind a stale one, with the origin correct the whole
+       time and live-verify reporting the cached bytes. -->
   <script src="/mini-tools/lcs-shell.js?v=5"></script>
   <script src="/mini-tools/home-language-bridge.js?v=4"></script>
   <script>

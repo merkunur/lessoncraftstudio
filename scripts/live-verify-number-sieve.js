@@ -64,7 +64,14 @@ const get = (url) => new Promise((resolve) => {
   console.log('\n[§1 the eleven localised landings]');
   for (const loc of LOCALES) {
     const e = C[loc];
-    const r = await get(`${BASE}/${loc}/tools/${e.slug}`);
+    /* ⚠ CACHE-BUSTED ON PURPOSE. The tool pages carry
+       `Cache-Control: public, max-age=300`, so for five minutes after a
+       deploy the edge still holds the previous copy and this gate would
+       report eleven failures against a build that is perfectly correct —
+       I hit exactly that and checked the origin before filing it. The
+       query string makes this measure WHAT THE DEPLOY PRODUCED; the edge
+       catches up on its own within the TTL (§15.8). */
+    const r = await get(`${BASE}/${loc}/tools/${e.slug}?lv=${Date.now()}`);
     is(r.status === 200, `[${loc}] /${loc}/tools/${e.slug} returns 200 (got ${r.status})`);
     if (r.status !== 200) continue;
     is(r.body.indexOf(e.name) > -1, `[${loc}] the page carries its own name ("${e.name}")`);

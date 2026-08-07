@@ -247,8 +247,22 @@ var LetterStudio = {
        the file. For the rebuilt `o` it runs (25,89)->(75,39), 43.8 degrees
        against the bowl's own box diagonal of 45, so it tracks the letter. Its
        one defect was an asymmetric extension (+4/-4 in x but +2/-4 in y).
-       It keeps the FULL stroke width: the slash of ø is part of the letter. */
-    stroke:     function (b) { return [[{ x: b.x0 - 5, y: b.base + 5 }, { x: b.x1 + 5, y: b.top - 5 }]]; },
+       It keeps the FULL stroke width: the slash of ø is part of the letter.
+       ⚠ AND IT IS SAMPLED. Two points spanning the whole bowl was the largest
+       checkpoint gap in the entire table — 96 units on Ø, against a rule of 15
+       — so under the checkpoint judge a child could touch the two ends and be
+       credited with the slash. The live tracer flattens for itself and does
+       not care, but `traceScore` reads these points directly. Sampling a
+       straight cannot change how it LOOKS (Catmull-Rom is exact on collinear
+       points); it only stops the stroke being two taps. */
+    stroke:     function (b) {
+      var x0 = b.x0 - 5, y0 = b.base + 5, x1 = b.x1 + 5, y1 = b.top - 5,
+          n = Math.max(2, Math.ceil(Math.sqrt((x1 - x0) * (x1 - x0) + (y1 - y0) * (y1 - y0)) / 12)),
+          p = [], i;
+      for (i = 0; i <= n; i++) p.push({ x: Math.round((x0 + (x1 - x0) * i / n) * 10) / 10,
+                                        y: Math.round((y0 + (y1 - y0) * i / n) * 10) / 10 });
+      return [p];
+    },
     /* ç: a hook BELOW the baseline. Direction and depth were right; the shape
        was a smooth quarter-turn rather than a hook that curls back up, which
        five points give it.
@@ -1020,7 +1034,8 @@ var LetterStudio = {
        not say which way, nor which stroke comes first — and on a round
        letter it is compatible with both directions. */
     if (this.api.settings.arrows && !formed) {
-      for (i = 0; i < g.length; i++) this._annotate(sv, g[i], i, i === done);
+      var spots = this._numberSpots(g);
+      for (i = 0; i < g.length; i++) this._annotate(sv, g[i], i, i === done, spots[i]);
     }
 
     if (this.trace && !formed && g[done]) {
@@ -1053,8 +1068,59 @@ var LetterStudio = {
     return wrap;
   },
 
+  /* ⭐ THE STROKE NUMBERS MUST BE LAID OUT TOGETHER, NOT ONE AT A TIME.
+     Two rules each failed alone, in opposite ways. Offsetting each
+     numeral perpendicular to its own stroke put a's two side by side
+     above the bowl reading "2 1" — the right labels in the wrong order,
+     which is worse than none. Radiating them from the letter's centre
+     fixed a, and then collapsed E, F, A, N and M to ZERO separation,
+     because those strokes START AT THE SAME POINT and a radial offset
+     from one shared origin is one offset.
+     No per-numeral rule can work: separation is a property of the SET.
+     So seed them radially and then push the set apart, which is the only
+     formulation that has no counter-example in either glyph table. */
+  _numberSpots: function (g) {
+    var bb = this.bboxOf(g), cx = bb.cx, cy = (bb.top + bb.base) / 2;
+    var spots = [], i, j, k;
+    for (i = 0; i < g.length; i++) {
+      var f = this.tracer.flatten(g[i]), a = f[0];
+      var ox = a.x - cx, oy = a.y - cy, om = Math.hypot(ox, oy);
+      if (om < 1) { ox = 0; oy = -1; om = 1; }
+      /* tie-break shared origins by the stroke's own heading, so two
+         strokes leaving one corner still separate */
+      var b = f[Math.min(3, f.length - 1)];
+      var hx = b.x - a.x, hy = b.y - a.y, hm = Math.hypot(hx, hy) || 1;
+      spots.push({ x: a.x + (ox / om) * 9 - (hx / hm) * 3, y: a.y + (oy / om) * 9 - (hy / hm) * 3 });
+    }
+    var MIN = 11;
+    for (k = 0; k < 40; k++) {
+      var moved = false;
+      for (i = 0; i < spots.length; i++) for (j = i + 1; j < spots.length; j++) {
+        var dx = spots[j].x - spots[i].x, dy = spots[j].y - spots[i].y;
+        var d = Math.hypot(dx, dy);
+        if (d >= MIN) continue;
+        if (d < 0.01) { dx = 1; dy = 0; d = 1; }
+        var push = (MIN - d) / 2 + 0.1;
+        spots[i].x -= (dx / d) * push; spots[i].y -= (dy / d) * push;
+        spots[j].x += (dx / d) * push; spots[j].y += (dy / d) * push;
+        moved = true;
+      }
+      /* ⚠ CLAMP INSIDE THE LOOP. Clamping after it undoes the separation
+         it just achieved: seven glyphs came back to 8.2-8.4u because the
+         push sent a numeral off the sheet and the clamp shoved it into
+         its neighbour. Keeping them in the box is a constraint the
+         separation has to satisfy, not a correction applied to it. */
+      for (i = 0; i < spots.length; i++) {
+        spots[i].x = Math.max(6, Math.min(94, spots[i].x));
+        spots[i].y = Math.max(9, Math.min(96, spots[i].y));
+      }
+      if (!moved) break;
+    }
+    return spots;
+  },
+
   /* the stroke's number at its start, and two arrowheads along it */
-  _annotate: function (sv, stroke, idx, isNext) {
+  _annotate: function (sv, stroke, idx, isNext, spot) {
     var NS = 'http://www.w3.org/2000/svg';
     var flat = this.tracer.flatten(stroke);
     if (flat.length < 2) return;
@@ -1065,14 +1131,15 @@ var LetterStudio = {
        green dot on every letter whose first stroke runs vertically. Push
        it BACK along the incoming tangent as well as sideways, and flip
        the side if that would leave the sheet. */
+    /* ⚠ PUSH THE NUMBER OUTWARD FROM THE LETTER'S CENTRE, not sideways
+       from its own stroke. A perpendicular offset put a's two numerals
+       side by side above the bowl reading "2 1" left to right — the
+       right labels in the wrong order, which is worse than none. Radiating
+       from the centroid separates them by construction, because two
+       strokes that start in different places point in different
+       directions from the middle. */
     var t = document.createElementNS(NS, 'text');
-    var a = flat[0], b = flat[Math.min(3, flat.length - 1)];
-    var tx = b.x - a.x, ty = b.y - a.y, tm = Math.hypot(tx, ty) || 1;
-    var nx = -ty / tm, ny = tx / tm;
-    var px = a.x + nx * 8.5 - (tx / tm) * 5.5;
-    var py = a.y + ny * 8.5 - (ty / tm) * 5.5;
-    if (px < 5 || px > 95) { px = a.x - nx * 8.5 - (tx / tm) * 5.5; py = a.y - ny * 8.5 - (ty / tm) * 5.5; }
-    if (py < 7) py = a.y + 9;
+    var px = spot.x, py = spot.y;
     t.setAttribute('x', px.toFixed(2));
     t.setAttribute('y', (py + 2.2).toFixed(2));
     t.setAttribute('class', 'ls-num' + cls);
@@ -1285,12 +1352,13 @@ var LetterStudio = {
     sv.setAttribute('viewBox', '0 2 100 98');
     sv.setAttribute('class', 'ls-psvg');
     this._printRuling(sv);
+    var pspots = this._numberSpots(g);
     for (var i = 0; i < g.length; i++) {
       var p = document.createElementNS(NS, 'path');
       p.setAttribute('d', this._d(g[i]));
       p.setAttribute('class', 'ls-phair' + (this._isDot(g[i]) ? ' ls-dot' : ''));
       sv.appendChild(p);
-      this._annotate(sv, g[i], i, true);
+      this._annotate(sv, g[i], i, true, pspots[i]);
     }
     box.appendChild(sv);
     return box;

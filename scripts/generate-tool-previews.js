@@ -122,6 +122,29 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ LETTER STUDIO AT REST IS A PALE UNTRACED LETTER, and the whole
+     story of this tool is a firefly walking the stroke order and then a
+     child writing the letter themselves. The card it replaces showed an
+     `a` with no ink, no numerals and no arrows on it -- the one thing
+     the tool does not do. Put it mid-trace: the first stroke written in
+     the child's own coral, the second still waiting with its number and
+     its travelling arrows, and the green dot sitting where the pen
+     starts next. That is the argument, in one frame.
+     ⚠ Driven through the MODEL, not by faking DOM: the tracer refuses
+     anything a finger did not sweep, so the seed walks the flattened
+     first stroke exactly as a hand would. A seed that cannot be reached
+     by a real child is a lie on the hub. */
+  'letter-studio': [
+    { js: "var T=window.LetterStudio,S=window.StrokeTraceCore;"
+        + "var keys=T.keys(),i;for(i=0;i<keys.length;i++)if(keys[i].g==='a'){T.index=i;break;}"
+        + "T.seq=null;T.seqAt=0;T._reset();"
+        + "var g=T._glyph('a');"
+        + "var flat=S.flatten(g[0]);"
+        + "for(i=0;i<flat.length;i++)S.sample(T.trace,flat[i]);"
+        + "S.endStroke(T.trace);"
+        + "T.drawn=[flat];T.render();" },
+    { wait: 260 }
+  ],
   /* ⭐ CALENDAR WALL AT REST IS A PLAIN MONTH, and the marks are the
      entire reason it was rebuilt — so an unseeded card sells the one
      thing the tool already did. Worse, the card it replaces was shot on
@@ -478,6 +501,7 @@ const VIEWPORT = {
      the zones go side by side and the bag sits beside the record, which is
      the landscape instrument it actually is. */
   'draw-bag': { width: 1040, height: 660 },
+  'letter-studio': { width: 760, height: 640 },
   /* ⚠ MEASURED AT SIX WIDTHS, NOT GUESSED. The rebuild hides the word until
      it is clapped, so this card must be SEEDED (see SEEDS) — and a seeded
      clap card is a portrait column: 720x696 at the default, aspect 0.967,

@@ -61,11 +61,52 @@ const is = (c, m) => { if (c) { pass++; console.log('    ok   ' + m); } else { f
       is(m.core === 8, `the core rail holds 8 — got ${m.core}`);
       is(m.tabs >= 2, `category tabs present — got ${m.tabs}`);
 
-      /* ⭐ DRIVE THE MAIN CONTROL. Tap a card; the board must answer. */
-      await frame.click('[data-fk="card-help"]');
-      await new Promise((r) => setTimeout(r, 200));
-      const said = await frame.evaluate(() => document.querySelectorAll('.hlb-said').length);
-      is(said === 1, 'tapping a card lifts it — the board answers');
+      /* ⭐ DRIVE THE MAIN CONTROL. Tap a card; the board must answer.
+         ⚠ CLICK THE ELEMENT HANDLE, NOT A FRAME SELECTOR. `frame.click`
+         resolves the selector in the frame but dispatches the click at
+         PAGE coordinates — and this frame is an iframe scrolled down
+         inside the tool page, so the pointer landed on whatever was at
+         those coordinates in the parent document. It reported a clean
+         miss as a dead control in nine locales, while a direct probe
+         showed the tap working perfectly. A wrong measurement that
+         looks exactly like a defect is the worst kind, and this is the
+         second time in this build I nearly filed one. */
+      /* ⚠ NO SILENT NO-OP. `if (el) el.click()` swallows a missing
+         element and the very next assertion then reports a dead control
+         — a scripted interaction must fail loudly when it does not
+         happen. And the card to tap is READ OFF THE BOARD rather than
+         named: `card-help` is an English id, and on a board whose whole
+         subject is other languages, hard-coding one is how a probe ends
+         up measuring nothing in ten locales. */
+      const tapped = await frame.evaluate(() => {
+        const el = document.querySelector('.hlb-rail .hlb-card');
+        if (!el) throw new Error('no core card to tap');
+        const id = el.getAttribute('data-id');
+        el.click();
+        return id;
+      });
+      await new Promise((r) => setTimeout(r, 250));
+      /* ⚠⚠ THE ANSWER IS "THE BOARD RESPONDED", NOT "THE CARD LIFTED",
+         and getting that wrong nearly had me file a defect against
+         correct behaviour for the third time in this build.
+         This checker's machine has an ENGLISH voice and no others. So in
+         `en` the card lifts and speaks — and in the other ten
+         `_canSpeak(room)` is false, Show-big is FORCED ON, and a tap
+         correctly opens the large view INSTEAD of lifting. That is the
+         tool's headline invention working exactly as designed: with no
+         voice, showing is the only channel left, so the apparatus
+         reconfigures rather than printing an apology.
+         An assertion that demands one specific response condemns the
+         other, correct one. Assert the CONSEQUENCE, and report which
+         arm ran so the difference stays visible rather than averaged. */
+      const r2 = await frame.evaluate(() => ({
+        lifted: document.querySelectorAll('.hlb-said').length,
+        big: !!document.querySelector('.hlb-big.hlb-open'),
+        forced: !!window.HomeLanguageBridge._forcedBig
+      }));
+      is(r2.lifted === 1 || r2.big,
+        `tapping "${tapped}" is answered — ${r2.big ? 'shown large (no voice for this language on this device)' : 'lifted and spoken'}`);
+      if (r2.big) is(r2.forced, 'and it was shown large because the device has no voice, not by accident');
 
       /* switch category: the twelve change and the eight do not */
       const before = await frame.evaluate(() =>

@@ -10,22 +10,28 @@
   <!-- The shell mounts the whole tool into this element. -->
   <div id="lcs-root"></div>
 
-  <!-- Shell, then the two already-gate-proven trace cores, then this tool —
-       the same three-part pattern every core-consuming page uses (see
-       penny-alphabet-trace-activity.html). Letter Studio owns NO glyph table:
-       it registers its composed graphemes (ä å ø ñ ç … æ ß) into the core's
-       own GLYPHS map, so the core's solver gauntlet covers them too and the
-       digits are not copied a third time. -->
+  <!-- Shell, then the glyph tables, then the TRACER, then this tool.
+       Letter Studio owns no glyph table: it registers its composed
+       graphemes (ä å ø ñ ç … æ ß) into alphabet-trace-core's own GLYPHS
+       map, so the digits are not copied a third time.
+
+       ⚠ stroke-trace-core.js is the judge, and it takes STROKES rather
+       than a letter key. That is not a style preference: the previous
+       build rendered digits from number-trace-core and asked
+       alphabet-trace-core to judge the same key, which it did not have,
+       so all ten digits were scored against a lowercase "l". Handing the
+       judge the array the renderer is drawing makes that impossible. -->
   <script src="/mini-tools/lcs-shell.js?v=5"></script>
-  <script src="/mini-tools/alphabet-trace-core.js?v=2"></script>
-  <script src="/mini-tools/number-trace-core.js?v=1"></script>
-  <script src="/mini-tools/letter-studio.js?v=7"></script>
+  <script src="/mini-tools/alphabet-trace-core.js?v=3"></script>
+  <script src="/mini-tools/number-trace-core.js?v=2"></script>
+  <script src="/mini-tools/stroke-trace-core.js?v=1"></script>
+  <script src="/mini-tools/letter-studio.js?v=8"></script>
   <script>
     // URL params the shell understands:
     //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
     //   ?embed=1        — trim chrome for iframe embedding
     //   ?embed=compact  — also drop the title, for tightly-cropped iframes
-    // Tool-specific deep link: ?mode=letters|numbers|names
+    // Tool-specific deep link: ?mode=letters|word|names
     //   ?mode=names is REFUSED for a free visitor and is never applied
     //   optimistically while entitlement is in flight, so a roster name
     //   cannot flash into the DOM during the race.

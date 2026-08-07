@@ -501,7 +501,11 @@ const VIEWPORT = {
      the zones go side by side and the bag sits beside the record, which is
      the landscape instrument it actually is. */
   'draw-bag': { width: 1040, height: 660 },
-  'letter-studio': { width: 760, height: 640 },
+  /* ⚠ ABOVE 0.85 ASPECT THE GENERATOR CROPS, AND REPORTS "ok" EITHER WAY.
+     760x640 produced a 720x821 card with the letter cut off at the
+     bottom — the recorded --fit=auto trap. Wider and shorter keeps the
+     whole sheet in frame. Measure the CARD, not the generator's verdict. */
+  'letter-studio': { width: 1460, height: 900 },
   /* ⚠ MEASURED AT SIX WIDTHS, NOT GUESSED. The rebuild hides the word until
      it is clapped, so this card must be SEEDED (see SEEDS) — and a seeded
      clap card is a portrait column: 720x696 at the default, aspect 0.967,

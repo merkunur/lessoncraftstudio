@@ -1184,7 +1184,12 @@ var LetterStudio = {
     var sv = document.createElementNS(NS, 'svg');
     sv.setAttribute('viewBox', '0 2 ' + (100 * COPIES) + ' 98');
     sv.setAttribute('class', 'ls-psvg ls-prowsvg');
-    sv.setAttribute('preserveAspectRatio', 'none');
+    /* ⚠ NOT preserveAspectRatio="none". Stretching eight 100x98 cells to
+       fill a 186mm row squashes every letter horizontally — the child
+       copies a shape narrower than the one they will be marked on. Fit
+       to HEIGHT and leave the remainder as margin; a row is 8.45:1 and
+       eight cells are 8.16:1, so the loss is a few millimetres. */
+    sv.setAttribute('preserveAspectRatio', 'xMinYMid meet');
 
     /* the ruling runs the whole row, unbroken, in the locale's own system */
     var ruling = this.rulingFor(api.lang);

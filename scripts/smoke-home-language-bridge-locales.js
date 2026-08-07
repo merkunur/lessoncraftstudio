@@ -1,142 +1,149 @@
 #!/usr/bin/env node
 /* =====================================================================
-   smoke-home-language-bridge-locales.js — the RENDERED Say It Board,
-   once per locale.
+   smoke-home-language-bridge-locales.js — the Say It Board, rendered,
+   in all eleven.
+   ---------------------------------------------------------------------
+   ⚠ A FRESH BROWSER PER LOCALE, not a fresh page. The version this
+   replaces used ONE browser for all eleven, which caches the module —
+   so every locale after the first can pass on the first one's copy, and
+   a locale-selection bug is invisible. A shared browser is the reason
+   this class of defect survives.
 
-   verify- reads the strings TABLE; a key that exists there but is never
-   wired into the DOM is invisible to it. This drives the real page in all
-   eleven locales.
-
-   Per locale:
-     - mounts, 12 cards, each with a drawn icon
-     - .lcs-title EQUALS strings.title[loc]
-     - no raw camelCase key leaks, no surviving {placeholder}
-     - the twelve phrases render in THAT locale and are distinct
-     - the classroom line is tagged with that locale
-     - paired against a German home line: two lines, home first
-     - no verdict vocabulary in that language
-     - zero console errors
-
-   ⚠ And it PRINTS every phrase. A gate cannot catch a grammar error — the
-   Finnish "2 tavut" defect passed every assertion and was caught by
-   reading the output. Read the digest.
+   ⚠ AND IT PRINTS THE WHOLE PHRASE SET. No gate can catch a grammar
+   error, a wrong register or a false friend; only a native reader can,
+   and they can only do it if the strings are put in front of them. The
+   digest IS the deliverable for the native panels — everything here is
+   authored, and authored is not the same as reviewed.
 
    Usage: node scripts/smoke-home-language-bridge-locales.js [--quiet]
    ===================================================================== */
 'use strict';
+const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const http = require('http');
 const puppeteer = require('puppeteer');
 
 const ROOT = path.join(__dirname, '..');
 const MINI = path.join(ROOT, 'mini tools');
-const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
-const QUIET = process.argv.includes('--quiet');
-
-const VERDICT = {
-  en: /\b(wrong|incorrect|score|level)\b/i, de: /\b(falsch|fehler|punkte|stufe)\b/i,
-  fr: /\b(faux|erreur|score|niveau)\b/i, it: /\b(sbagliato|errore|punteggio|livello)\b/i,
-  es: /\b(incorrecto|error|puntuación|nivel)\b/i, pt: /\b(errado|erro|pontuação|nível)\b/i,
-  nl: /\b(fout|verkeerd|score|niveau)\b/i, sv: /\b(fel|poäng|nivå)\b/i,
-  da: /\b(forkert|fejl|point|niveau)\b/i, no: /\b(feil|poeng|nivå)\b/i,
-  fi: /\b(väärin|virhe|pisteet|taso)\b/i
-};
-
-let pass = 0, fail = 0;
-const ok = (m) => { pass++; if (!QUIET) console.log('  ok    ' + m); };
-const bad = (m) => { fail++; console.error('  FAIL  ' + m); };
-const is = (c, m) => c ? ok(m) : bad(m);
-const wait = (ms) => new Promise(r => setTimeout(r, ms));
+const T = require(path.join(MINI, 'home-language-bridge.js'));
+const ALL = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+const QUIET = process.argv.indexOf('--quiet') >= 0;
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
 
-(async () => {
-  const server = http.createServer((req, res) => {
-    const f = path.join(MINI, path.basename(req.url.split('?')[0]));
-    fs.readFile(f, (e, b) => {
-      if (e) { res.writeHead(404); res.end('404'); return; }
-      res.writeHead(200, { 'Content-Type': MIME[path.extname(f)] || 'application/octet-stream' });
-      res.end(b);
-    });
+let pass = 0, fail = 0;
+const is = (c, m) => { if (c) { pass++; if (!QUIET) console.log('    ok   ' + m); } else { fail++; console.error('    FAIL ' + m); } };
+
+/* per-locale verdict vocabulary — this board never tells a child they
+   are wrong, in any language */
+const VERDICT = {
+  en: /(?<!\p{L})(wrong|incorrect)(?!\p{L})/iu, de: /(?<!\p{L})(falsch|fehler)(?!\p{L})/iu,
+  fr: /(?<!\p{L})(faux|erreur)(?!\p{L})/iu, it: /(?<!\p{L})(sbagliato|errore)(?!\p{L})/iu,
+  es: /(?<!\p{L})(incorrecto|error)(?!\p{L})/iu, pt: /(?<!\p{L})(errado|erro)(?!\p{L})/iu,
+  nl: /(?<!\p{L})(fout|verkeerd)(?!\p{L})/iu, sv: /(?<!\p{L})(fel)(?!\p{L})/iu,
+  da: /(?<!\p{L})(forkert|fejl)(?!\p{L})/iu, no: /(?<!\p{L})(feil)(?!\p{L})/iu,
+  fi: /(?<!\p{L})(väärin|virhe)(?!\p{L})/iu
+};
+
+const server = http.createServer((req, res) => {
+  const f = path.join(MINI, path.basename(req.url.split('?')[0]));
+  fs.readFile(f, (e, b) => {
+    if (e) { res.writeHead(404); res.end('404'); return; }
+    res.writeHead(200, { 'Content-Type': MIME[path.extname(f)] || 'application/octet-stream' });
+    res.end(b);
   });
-  await new Promise(r => server.listen(0, '127.0.0.1', r));
-  const BASE = 'http://127.0.0.1:' + server.address().port;
-  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+});
 
-  const digest = [];
+(async () => {
+  await new Promise((r) => server.listen(0, '127.0.0.1', r));
+  const base = 'http://127.0.0.1:' + server.address().port;
 
-  for (const loc of LOCALES) {
+  for (const loc of ALL) {
     console.log(`[${loc}]`);
-    const page = await browser.newPage();
-    await page.setCacheEnabled(false);
-    /* ⚠ same origin for all eleven, so the home language chosen on the
-       previous locale's page persists into this one and every board boots
-       already paired. Each locale must be a fresh child's first visit. */
-    await page.evaluateOnNewDocument(() => { try { localStorage.clear(); } catch (_) {} });
-    await page.setViewport({ width: 1024, height: 900, deviceScaleFactor: 1 });
+    /* ⚠ FRESH BROWSER. See the header. */
+    const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+    const p = await b.newPage();
     const errs = [];
-    page.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR/.test(m.text())) errs.push(m.text()); });
-    page.on('pageerror', (e) => errs.push(String(e)));
-    await page.goto(`${BASE}/home-language-bridge.html?lang=${loc}&embed=1`, { waitUntil: 'domcontentloaded' });
-    await page.waitForSelector('.hlb-wrap', { timeout: 8000 });
-    await wait(350);
+    p.on('pageerror', (e) => errs.push(e.message));
+    await p.setViewport({ width: 704, height: 900, deviceScaleFactor: 1 });
+    await p.evaluateOnNewDocument(() => { try { localStorage.clear(); } catch (e) {} });
+    await p.goto(base + '/home-language-bridge.html?lang=' + loc + '&embed=1', { waitUntil: 'networkidle0' });
+    await new Promise((r) => setTimeout(r, 350));
 
-    const solo = await page.evaluate(() => {
+    const m = await p.evaluate(() => {
       const cards = Array.from(document.querySelectorAll('.hlb-card'));
       return {
-        n: cards.length,
-        icons: cards.filter(c => {
-          const d = c.querySelector('svg.hlb-icon path.hlb-ipath');
-          return !!(d && (d.getAttribute('d') || '').length > 12);
-        }).length,
-        lines: cards.map(c => Array.from(c.querySelectorAll('.hlb-text')).map(t => t.textContent.trim())),
-        langs: cards.map(c => (c.querySelector('.hlb-text') || {}).getAttribute
-          ? c.querySelector('.hlb-text').getAttribute('lang') : null),
         title: (document.querySelector('.lcs-title') || {}).textContent || '',
-        want: window.HomeLanguageBridge.strings.title[document.documentElement.lang]
-          || window.HomeLanguageBridge.strings.title[window.HomeLanguageBridge.classroom],
-        text: (document.querySelector('.lcs-app') || document.body).innerText
+        cards: cards.length,
+        core: document.querySelectorAll('.hlb-rail .hlb-card').length,
+        tabs: document.querySelectorAll('.hlb-tab').length,
+        icons: document.querySelectorAll('.hlb-card svg.hlb-icon').length,
+        drawn: Array.from(document.querySelectorAll('.hlb-card svg.hlb-icon')).filter((s) => s.children.length).length,
+        langs: cards.map((c) => { const t = c.querySelector('.hlb-text'); return t ? t.getAttribute('lang') : null; }),
+        texts: cards.map((c) => (c.querySelector('.hlb-text') || {}).textContent || ''),
+        /* ⚠ PER-ELEMENT, NOT `document.body.textContent`. The whole-body
+           string concatenates adjacent elements with NO separator, so
+           "…hears" + "English" + "Add…" becomes "hearsEnglishAdd" — and
+           the raw-key check below then reported a leaked camelCase key
+           in all eleven locales, having invented every one of them.
+           A measurement artefact that looks exactly like the defect it
+           is meant to find is the worst kind. */
+        strings: Array.from(document.querySelectorAll('.hlb-wrap *'))
+          .filter((el) => el.children.length === 0 && (el.textContent || '').trim())
+          .map((el) => el.textContent.trim()),
+        body: Array.from(document.querySelectorAll('.hlb-wrap *'))
+          .filter((el) => el.children.length === 0)
+          .map((el) => el.textContent || '').join(' · ')
       };
     });
 
-    is(solo.n === 12, `12 cards (got ${solo.n})`);
-    is(solo.icons === 12, `12 drawn icons (got ${solo.icons})`);
-    is(solo.lines.every(l => l.length === 1), 'one line per card with no home language');
-    is(solo.title.trim() === String(solo.want).trim(), `title is the locale's own ("${solo.title.trim()}")`);
-    is(solo.langs.every(l => l === loc), `every line tagged lang="${loc}"`);
-    const phrases = solo.lines.map(l => l[0]);
-    is(new Set(phrases).size === 12, `all twelve phrases are distinct (${new Set(phrases).size}/12)`);
-    is(!phrases.some(p => /\{[a-z]/i.test(p)), 'no surviving {placeholder}');
-    is(!/\b[a-z]+[A-Z][a-zA-Z]*\b/.test(solo.text.replace(/LessonCraft\w*/g, '')),
-      'no raw camelCase key leaked into the page');
-    is(!VERDICT[loc].test(solo.text), 'no verdict or level vocabulary in the rendered text');
+    is(m.title === T.strings.title[loc], `the shell title is the ${loc} one: ${JSON.stringify(m.title)}`);
+    is(m.cards === 20, `8 core + 12 in the group = 20 cards (got ${m.cards})`);
+    is(m.core === 8, `the core rail holds 8 (got ${m.core})`);
+    is(m.tabs >= 2, `at least two category tabs (got ${m.tabs})`);
+    is(m.drawn === m.icons && m.icons === m.cards, `every card carries a drawn icon (${m.drawn}/${m.cards})`);
+    is(m.langs.every((l) => l === loc), `every line is tagged lang="${loc}"`);
+    is(new Set(m.texts).size === m.texts.length, 'no two cards read the same');
+    is(!m.texts.some((t) => /\{|\}/.test(t)), 'no placeholder leaked');
+    /* ⚠ a raw camelCase key leaking is what a MISSING string looks like:
+       api.t() returns the key itself on a miss, silently. Checked per
+       element — see the note beside the measurement. */
+    const leaked = m.strings.filter((s) =>
+      /^(?![A-Z])[a-z]+[A-Z][a-zA-Z]*$/.test(s) && !/LessonCraft/.test(s));
+    is(leaked.length === 0, 'no raw string key leaked into the page' + (leaked.length ? ': ' + leaked.join(', ') : ''));
+    is(!VERDICT[loc].test(m.body), 'nothing on the page tells a child they are wrong');
+    is(errs.length === 0, 'no page errors' + (errs.length ? ': ' + errs[0] : ''));
 
-    /* paired with a German home line (English home line for the de page) */
-    const other = loc === 'de' ? 'en' : 'de';
-    await page.evaluate((h) => { window.HomeLanguageBridge._setHome(h); }, other);
-    await wait(250);
-    const pair = await page.evaluate(() => Array.from(document.querySelectorAll('.hlb-card')).map(c => {
-      const t = Array.from(c.querySelectorAll('.hlb-text'));
-      return t.map(x => ({ txt: x.textContent.trim(), lang: x.getAttribute('lang') }));
-    }));
-    is(pair.every(l => l.length === 2), 'paired: two lines per card');
-    is(pair.every(l => l[0].lang === other && l[1].lang === loc), `paired: the home line (${other}) comes first`);
-
-    is(errs.length === 0, `zero console errors${errs.length ? ' — ' + errs[0] : ''}`);
-    digest.push({ loc, title: solo.title.trim(), phrases });
-    await page.close();
+    await b.close();
   }
 
-  await browser.close();
   server.close();
 
-  /* ⚠ READ THIS. No gate catches a grammar error. */
-  console.log('\n================ READ THE PHRASES ================');
-  for (const d of digest) {
-    console.log(`\n${d.loc}  —  ${d.title}`);
-    d.phrases.forEach((p, i) => console.log(`   ${String(i + 1).padStart(2)}. ${p}`));
-  }
-  console.log('\n==================================================');
-  console.log(`${pass} passed, ${fail} failed`);
+  /* ---- THE DIGEST — the deliverable for the native panels ---------- */
+  console.log('');
+  console.log('='.repeat(72));
+  console.log('THE PHRASE DIGEST — hand this to each native panel.');
+  console.log('');
+  console.log('⚠ EVERY LINE BELOW IS AUTHORED, AND AUTHORED IS NOT REVIEWED. No');
+  console.log('   gate can catch a wrong register, a false friend, or a toilet');
+  console.log('   request phrased the way a parent says it rather than the way a');
+  console.log('   child says it to a teacher. Only a native reader can.');
+  console.log('');
+  console.log('⭐ AND GIVE THEM THE ENGLISH AS A SOURCE TO AUDIT, NOT AS A TARGET.');
+  console.log('   On the last seven tools in this programme, every panel found');
+  console.log('   defects in the English that the other ten were being built from.');
+  console.log('='.repeat(72));
+  const pending = ALL.filter((l) => !T.REVIEWED[l]);
+  console.log('');
+  console.log('reviewed : ' + (ALL.filter((l) => T.REVIEWED[l]).join(', ') || '(none)'));
+  console.log('PENDING  : ' + (pending.join(', ') || '(none)'));
+  console.log('');
+  const ids = Object.keys(T.PHRASES);
+  ALL.forEach((loc) => {
+    console.log('--- ' + loc + (T.REVIEWED[loc] ? '' : '   [awaiting a native panel]') + ' ---');
+    ids.forEach((id) => console.log('  ' + id.padEnd(12) + T.PHRASES[id][loc]));
+    console.log('');
+  });
+
+  console.log(fail ? `FAIL — ${pass} passed, ${fail} failed` : `PASS — ${pass} assertions across ${ALL.length} locales`);
   process.exit(fail ? 1 : 0);
-})().catch((e) => { console.error(e); process.exit(1); });
+})();

@@ -5,13 +5,14 @@
    DOM. The child traces every numeral 0–9 in stroke order. 0 lines to ANY
    protected core + lcs-shell.{js,css}.
 
-   GLYPHS: the 10 digit glyphs 0–9 are COPIED VERBATIM from the operator-approved
-   numeral-trace-core.js GLYPHS — dense points lying ON a smooth standard print
-   numeral, so the activity renders them as a Catmull-Rom spline (a professional,
-   traceable numeral) and the SAME points are the ordered trace checkpoints
-   (lenient TOL — wobble fine, STRICT on order). Copied (not imported) so the
-   verify harness loads this core standalone. The TRACE ENGINE is the proven
-   Penny alphabet-trace engine, for digits.
+   GLYPHS: the 10 digit glyphs 0–9 are CONSTRUCTED from arcs and lines
+   (2026-08 type-panel rebuild). They were previously copied verbatim from
+   numeral-trace-core.js as hand-typed point lists, and that is precisely
+   how nine of the ten came to disagree with the baseline the writing
+   guide draws at y=84: `4` and `7` hung four units below it, `5` floated
+   two above, and only `2` sat on the line. Metrics you construct can be
+   stated; metrics you type drift. See the GLYPHS block for the three
+   letterform rulings (two-stroke 9, cuspless 6 and 8, the barred seven).
 
    GATE (verify-number-trace-core.js): an in-order on-path ORACLE traces every
    numeral (100%); a SCRIBBLER (garbage path) and an OUT-OF-ORDER tap both fail.
@@ -19,20 +20,92 @@
 (function (global) {
   'use strict';
 
-  /* === digit glyphs 0–9 — verbatim from numeral-trace-core.js (normalized 0..100,
-     EN print, K-handwriting stroke order/direction) === */
+  /* ---- geometry helpers, same vocabulary as alphabet-trace-core.js ----
+     The digits used to be hand-typed point lists copied verbatim from
+     numeral-trace-core.js. That is why NINE OF THE TEN disagreed with the
+     baseline the writing guide draws at y=84 — `4` and `7` hung four
+     units below it, `5` floated two above, and only `2` sat on the line.
+     On a tool whose whole subject is "the numeral rests on the line",
+     that was the one thing that had to be exact. Built from arcs and
+     lines, the metrics are stated rather than typed. */
+  function rnd(v) { return Math.round(v * 10) / 10; }
+  function arc(cx, cy, rx, ry, d0, d1, n) {
+    var pts = [], i, t;
+    for (i = 0; i <= n; i++) { t = (d0 + (d1 - d0) * i / n) * Math.PI / 180; pts.push({ x: rnd(cx + rx * Math.cos(t)), y: rnd(cy + ry * Math.sin(t)) }); }
+    return pts;
+  }
+  function line(x0, y0, x1, y1, n) {
+    n = n || 3; var pts = [], i;
+    for (i = 0; i <= n; i++) pts.push({ x: rnd(x0 + (x1 - x0) * i / n), y: rnd(y0 + (y1 - y0) * i / n) });
+    return pts;
+  }
+  function pl() { var a = []; for (var i = 0; i < arguments.length; i += 2) a.push({ x: arguments[i], y: arguments[i + 1] }); return a; }
+
+  /* === digit glyphs 0-9 (normalized 0..100; cap top 16, baseline 84) ===
+     Ruled by the three-expert type panel. Two things to know:
+
+     ⚠ `9` IS TWO STROKES — bowl, then tail. One stroke cannot leave a
+       closed bowl without reversing direction on itself, and the shipped
+       one-stroke 9 did exactly that: a 180 degree tangent reversal inside
+       a single stroke, which renders as a spike and which no finger can
+       trace, because at the reversal the path runs backwards through
+       space while running forwards through arc length. This is the
+       Zaner-Bloser form: circle, then straight down.
+
+     ⚠ `6` and `8` are deliberately ONE stroke with NO cusp. 6's spine is
+       the upper-left quadrant of a large ellipse arriving at (28,66)
+       travelling straight down, and its bowl leaves (28,66) travelling
+       straight down too — C1-smooth, with the bowl's seam buried under
+       the spine. 8's three arcs all meet at (50,50) with the pen moving
+       right through the waist on every pass.
+
+     ⚠ THE BARRED SEVEN IS A REAL DEFECT FOR TEN OF ELEVEN LOCALES — a
+       German or French seven without its bar reads as a ONE to a
+       seven-year-old. It is not applied here because the bar is a
+       per-locale decision; see `barFor()` below. */
   var GLYPHS = {
-    '0': [[{ x: 50, y: 14 }, { x: 34, y: 22 }, { x: 28, y: 40 }, { x: 28, y: 60 }, { x: 36, y: 80 }, { x: 50, y: 86 }, { x: 64, y: 80 }, { x: 72, y: 60 }, { x: 72, y: 40 }, { x: 66, y: 22 }, { x: 50, y: 14 }]],
-    '1': [[{ x: 36, y: 30 }, { x: 50, y: 16 }, { x: 50, y: 52 }, { x: 50, y: 86 }]],
-    '2': [[{ x: 30, y: 30 }, { x: 44, y: 16 }, { x: 60, y: 18 }, { x: 68, y: 34 }, { x: 54, y: 52 }, { x: 36, y: 70 }, { x: 28, y: 84 }, { x: 50, y: 84 }, { x: 72, y: 84 }]],
-    '3': [[{ x: 30, y: 24 }, { x: 48, y: 14 }, { x: 66, y: 26 }, { x: 50, y: 48 }, { x: 68, y: 60 }, { x: 68, y: 76 }, { x: 48, y: 86 }, { x: 28, y: 78 }]],
-    '4': [[{ x: 58, y: 14 }, { x: 40, y: 40 }, { x: 24, y: 62 }, { x: 50, y: 62 }, { x: 78, y: 62 }], [{ x: 64, y: 14 }, { x: 64, y: 50 }, { x: 64, y: 88 }]],
-    '5': [[{ x: 66, y: 16 }, { x: 36, y: 16 }, { x: 34, y: 32 }, { x: 34, y: 48 }, { x: 54, y: 46 }, { x: 70, y: 60 }, { x: 60, y: 82 }, { x: 34, y: 80 }]],
-    '6': [[{ x: 66, y: 18 }, { x: 46, y: 16 }, { x: 32, y: 38 }, { x: 28, y: 62 }, { x: 32, y: 80 }, { x: 48, y: 86 }, { x: 64, y: 80 }, { x: 68, y: 64 }, { x: 56, y: 52 }, { x: 38, y: 54 }, { x: 28, y: 62 }]],
-    '7': [[{ x: 26, y: 16 }, { x: 50, y: 16 }, { x: 76, y: 16 }, { x: 56, y: 52 }, { x: 44, y: 88 }]],
-    '8': [[{ x: 50, y: 16 }, { x: 34, y: 24 }, { x: 34, y: 42 }, { x: 50, y: 50 }, { x: 66, y: 60 }, { x: 66, y: 76 }, { x: 50, y: 86 }, { x: 34, y: 76 }, { x: 34, y: 60 }, { x: 50, y: 50 }, { x: 66, y: 42 }, { x: 66, y: 24 }, { x: 50, y: 16 }]],
-    '9': [[{ x: 66, y: 38 }, { x: 52, y: 16 }, { x: 34, y: 24 }, { x: 30, y: 42 }, { x: 46, y: 54 }, { x: 64, y: 50 }, { x: 68, y: 34 }, { x: 66, y: 60 }, { x: 58, y: 86 }]]
+    '0': [arc(50, 50, 21, 34, 300, -60, 18)],
+
+    '1': [line(34, 30, 50, 16, 2).concat(pl(50, 16))
+                                 .concat(line(50, 16, 50, 84, 7).slice(1))],
+
+    '2': [arc(50, 34, 20, 18, 200, 380, 10)
+          .concat(line(68.8, 40.2, 28, 84, 5).slice(1))
+          .concat(pl(28, 84))
+          .concat(line(28, 84, 72, 84, 4).slice(1))],
+
+    '3': [arc(46, 32, 18, 16, 200, 400, 10).concat(arc(46, 66, 22, 18, 290, 510, 11))],
+
+    '4': [line(54, 16, 26, 62, 5).concat(pl(26, 62))
+                                 .concat(line(26, 62, 78, 62, 5).slice(1)),
+          line(64, 16, 64, 84, 7)],
+
+    '5': [line(34, 16, 34, 48, 3).concat(arc(48, 64, 22, 20, 231, 510, 14).slice(1)),
+          line(34, 16, 68, 16, 3)],
+
+    '6': [arc(66, 66, 38, 50, 275, 180, 9).concat(arc(48, 66, 20, 18, 180, -180, 14).slice(1))],
+
+    '7': [line(26, 16, 74, 16, 4).concat(pl(74, 16))
+                                 .concat(line(74, 16, 46, 84, 6).slice(1))],
+
+    '8': [arc(50, 33, 17, 17, 270, 90, 7)
+          .concat(arc(50, 67, 19, 17, 270, 630, 14).slice(1))
+          .concat(arc(50, 33, 17, 17, 90, -90, 7).slice(1))],
+
+    '9': [arc(48, 36, 19, 20, 300, -60, 14), line(67, 36, 60, 84, 5)]
   };
+
+  /* The crossbar ten of the eleven locales teach. Returned separately so
+     a consumer applies it per locale rather than the table carrying one
+     nationality's seven for everybody. */
+  function barFor(lang) {
+    return (lang && lang !== 'en') ? [line(38, 50, 62, 50, 2)] : [];
+  }
+  function glyphFor(d, lang) {
+    var g = GLYPHS[String(d)];
+    if (!g) return GLYPHS['0'];
+    return (String(d) === '7') ? g.concat(barFor(lang)) : g;
+  }
   var TOL = 18;     /* checkpoint hit tolerance (normalized) — lenient on precision, strict on order */
 
   function glyphOf(d) { return GLYPHS[String(d)] || GLYPHS['0']; }
@@ -101,7 +174,7 @@
   }
 
   global.NumberTraceCore = {
-    GLYPHS: GLYPHS, TOL: TOL,
+    GLYPHS: GLYPHS, arc: arc, line: line, barFor: barFor, glyphFor: glyphFor, TOL: TOL,
     glyphOf: glyphOf, numStrokes: numStrokes, startOf: startOf,
     newState: newState, traceScore: traceScore, attemptStroke: attemptStroke, isComplete: isComplete,
     snapshot: snapshot, facts: facts, audit: audit,

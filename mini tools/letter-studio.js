@@ -180,30 +180,91 @@ var LetterStudio = {
   DOT_TOL: 8,
   MARK_CEIL: 4.5,     /* nothing may be drawn above this: see _buildSheet */
   MARKS: {
-    grave:      function (b, H) { return [[{ x: b.cx - 4, y: b.top - H }, { x: b.cx + 3, y: b.top - H * 0.45 }]]; },
-    acute:      function (b, H) { return [[{ x: b.cx - 3, y: b.top - H * 0.45 }, { x: b.cx + 4, y: b.top - H }]]; },
+    /* grave/acute — the LEAN was already right (grave falls left-to-right,
+       acute rises). The PROPORTION was not: at H=16 the grave measured 11.2
+       units long against a 7-wide stroke, and a 1.6:1 mark is a lozenge, not
+       an accent. Longer, and pitched across more of the band. */
+    grave:      function (b, H) { return [[{ x: b.cx - 5, y: b.top - H }, { x: b.cx + 4, y: b.top - H * 0.55 }]]; },
+    acute:      function (b, H) { return [[{ x: b.cx - 4, y: b.top - H * 0.55 }, { x: b.cx + 5, y: b.top - H }]]; },
     /* ⚠ FOUR points, not three. With three, the Catmull-Rom's control
        vectors at the apex are horizontal and the circumflex renders as a
-       BREVE — â drew ă. Doubling the apex pins the corner. */
-    circumflex: function (b, H) { return [[{ x: b.cx - 6, y: b.top - H * 0.4 }, { x: b.cx, y: b.top - H }, { x: b.cx + 0.4, y: b.top - H }, { x: b.cx + 6, y: b.top - H * 0.4 }]]; },
+       BREVE — â drew ă. Doubling the apex pins the corner. (The 0.4 offset
+       rather than an exact repeat keeps every segment non-degenerate, which
+       the tracer's swept-segment test prefers.) Legs widened to ±7 and
+       dropped to 0.55 of the band so it reads as a caret at sheet size. */
+    circumflex: function (b, H) { return [[{ x: b.cx - 7, y: b.top - H * 0.55 }, { x: b.cx, y: b.top - H }, { x: b.cx + 0.4, y: b.top - H }, { x: b.cx + 7, y: b.top - H * 0.55 }]]; },
+    /* diaeresis — the dots keep the full width and their round caps; what
+       changes is that the SEPARATION now tracks the letter instead of being a
+       fixed 10, which on `ï` (base bbox width ZERO — a bare stem) planted them
+       20 units apart, far outside the letter. They are also centred on y now
+       rather than hanging below it.
+       ⚠ THE FLOOR IS 9, AND DOT_TOL IS WHAT SETS IT — not taste. Two dots 2d
+       apart are separate strokes only while DOT_TOL < d; otherwise one tap
+       BETWEEN them satisfies both and the umlaut is not two strokes for a
+       child either. The panel's floor of 6 puts that tap 6 units from each,
+       inside DOT_TOL=8, and G6b catches it. 9 is the tightest this permits. */
     diaeresis:  function (b, H) {
-      var y = b.top - H * 0.65, d = 10;
-      return [[{ x: b.cx - d, y: y }, { x: b.cx - d, y: y + 2 }],
-              [{ x: b.cx + d, y: y }, { x: b.cx + d, y: y + 2 }]];
+      var y = b.top - H * 0.70,
+          d = Math.max(9, Math.min(11, (b.x1 - b.x0) * 0.26));
+      return [[{ x: b.cx - d, y: y - 0.75 }, { x: b.cx - d, y: y + 0.75 }],
+              [{ x: b.cx + d, y: y - 0.75 }, { x: b.cx + d, y: y + 0.75 }]];
     },
+    /* tilde — ONE oscillation, terminals passing through mid-height. The old
+       four points ran y+3, y-2, y+3, y-2: low, high, low, high, TERMINATING AT
+       THE EXTREMES. That is two oscillations cut flat at the turns, and it
+       read as a squiggle rather than a tilde. Width tracks the letter. */
     tilde:      function (b, H) {
-      var y = b.top - H * 0.6;
-      return [[{ x: b.cx - 9, y: y + 3 }, { x: b.cx - 3, y: y - 2 }, { x: b.cx + 3, y: y + 3 }, { x: b.cx + 9, y: y - 2 }]];
+      var y = b.top - H * 0.70, a = H * 0.20,
+          w = Math.max(8, Math.min(11, (b.x1 - b.x0) * 0.26));
+      return [[{ x: b.cx - w,        y: y + a * 0.7 },
+               { x: b.cx - w * 0.55, y: y - a },
+               { x: b.cx,            y: y },
+               { x: b.cx + w * 0.55, y: y + a },
+               { x: b.cx + w,        y: y - a * 0.7 }]];
     },
+    /* ring — circular and counter-clockwise, both already right. What was
+       wrong was SIZE and PLACEMENT: r = min(5, H*0.34) gave a lowercase ring
+       25% of the x-height against an uppercase one only 13% of the cap
+       height — half the size it should be relative to its own letter — and at
+       cy = top - H*0.55 the lowercase ring's ink ran to 43.7 against the a's
+       ink top of 40.5, a 3.2-unit COLLISION.
+       ⚠ The floor is r + MARK_CEIL, not the panel's r + 3: its clearance
+       table assumes a .ls-mark class at stroke-width 4.5, which is NOT part of
+       this change — every mark still paints at .ls-road's 7. At r+3 an Å ring
+       centres at y=7 and paints to y=-0.5, off the top of the sheet. */
     ring:       function (b, H) {
-      var r = Math.min(5, H * 0.34), cy = b.top - H * 0.55, p = [], i, t;
-      for (i = 0; i <= 12; i++) { t = (270 - 360 * i / 12) * Math.PI / 180; p.push({ x: Math.round((b.cx + r * Math.cos(t)) * 10) / 10, y: Math.round((cy + r * Math.sin(t)) * 10) / 10 }); }
+      var CEIL = (this && this.MARK_CEIL) || 4.5;
+      var r  = Math.max(4, Math.min(6, H * 0.32)),
+          cy = Math.max(r + CEIL, b.top - r - 7), p = [], i, t;
+      for (i = 0; i <= 12; i++) {
+        t = (300 - 360 * i / 12) * Math.PI / 180;
+        p.push({ x: Math.round((b.cx + r * Math.cos(t)) * 10) / 10,
+                 y: Math.round((cy   + r * Math.sin(t)) * 10) / 10 });
+      }
       return [p];
     },
-    /* ø: a stroke THROUGH the bowl, not above it */
-    stroke:     function (b) { return [[{ x: b.x0 - 4, y: b.base + 2 }, { x: b.x1 + 4, y: b.top - 4 }]]; },
-    /* ç: a hook BELOW the baseline, hanging off the letter */
-    cedilla:    function (b) { return [[{ x: b.cx, y: b.base - 1 }, { x: b.cx + 1, y: b.base + 6 }, { x: b.cx - 6, y: b.base + 9 }]]; }
+    /* ø: a stroke THROUGH the bowl, not above it — the best-judged mark in
+       the file. For the rebuilt `o` it runs (25,89)->(75,39), 43.8 degrees
+       against the bowl's own box diagonal of 45, so it tracks the letter. Its
+       one defect was an asymmetric extension (+4/-4 in x but +2/-4 in y).
+       It keeps the FULL stroke width: the slash of ø is part of the letter. */
+    stroke:     function (b) { return [[{ x: b.x0 - 5, y: b.base + 5 }, { x: b.x1 + 5, y: b.top - 5 }]]; },
+    /* ç: a hook BELOW the baseline. Direction and depth were right; the shape
+       was a smooth quarter-turn rather than a hook that curls back up, which
+       five points give it.
+       It hangs from `footX` — the x of the letter's LOWEST point — not from
+       the bbox centre. The panel condemned the centre anchor on `c` (bbox cx
+       45 against a foot at x=50); the rebuilt `c` happens to make those equal,
+       but `C` still measures cx 44.3 against a foot at 50, so the defect
+       outlives the letter it was reported on. The foot closes it for both. */
+    cedilla:    function (b) {
+      var x = (typeof b.footX === 'number' ? b.footX : b.cx), y = b.base;
+      return [[{ x: x,       y: y - 1 },
+               { x: x + 1.5, y: y + 4 },
+               { x: x - 1,   y: y + 8 },
+               { x: x - 6,   y: y + 8.5 },
+               { x: x - 8,   y: y + 5 }]];
+    }
   },
 
   COMPOSE: {
@@ -229,28 +290,73 @@ var LetterStudio = {
      never a stem plus a dot plus an acute. */
   DOTTED: { i: 1, j: 1 },
 
-  NOVEL: {
-    'æ': [[{ x: 46, y: 50 }, { x: 36, y: 45 }, { x: 28, y: 52 }, { x: 27, y: 66 }, { x: 34, y: 80 }, { x: 46, y: 80 }, { x: 48, y: 70 }],
-          [{ x: 48, y: 46 }, { x: 48, y: 84 }],
-          [{ x: 50, y: 66 }, { x: 72, y: 66 }, { x: 72, y: 54 }, { x: 60, y: 46 }, { x: 50, y: 54 }, { x: 49, y: 66 }, { x: 56, y: 80 }, { x: 70, y: 82 }, { x: 74, y: 74 }]],
-    'Æ': [[{ x: 52, y: 16 }, { x: 34, y: 84 }],
-          [{ x: 52, y: 16 }, { x: 52, y: 84 }],
-          [{ x: 40, y: 56 }, { x: 52, y: 56 }],
-          [{ x: 52, y: 16 }, { x: 72, y: 16 }],
-          [{ x: 52, y: 50 }, { x: 68, y: 50 }],
-          [{ x: 52, y: 84 }, { x: 72, y: 84 }]],
-    'ß': [[{ x: 34, y: 96 }, { x: 34, y: 60 }, { x: 34, y: 30 }, { x: 42, y: 22 }, { x: 54, y: 24 }, { x: 58, y: 34 }, { x: 50, y: 46 }, { x: 42, y: 52 }],
-          [{ x: 42, y: 52 }, { x: 56, y: 54 }, { x: 64, y: 64 }, { x: 60, y: 78 }, { x: 46, y: 82 }, { x: 38, y: 78 }]]
-  },
+  /* The three authored letterforms, rebuilt to the same ruling as the 52.
+     Written with the SAME two helpers alphabet-trace-core builds its glyphs
+     from, privately, because this object literal is evaluated before any core
+     is guaranteed loaded — a hand-typed point list is what let the old æ ship
+     a 21-unit a-bowl beside a 25-unit e-bowl and a 38-unit stem carrying TWO
+     checkpoints. */
+  NOVEL: (function () {
+    function rnd(v) { return Math.round(v * 10) / 10; }
+    function arc(cx, cy, rx, ry, d0, d1, n) {
+      var pts = [], i, t;
+      for (i = 0; i <= n; i++) { t = (d0 + (d1 - d0) * i / n) * Math.PI / 180; pts.push({ x: rnd(cx + rx * Math.cos(t)), y: rnd(cy + ry * Math.sin(t)) }); }
+      return pts;
+    }
+    function line(x0, y0, x1, y1, n) {
+      var pts = [], i;
+      for (i = 0; i <= n; i++) pts.push({ x: rnd(x0 + (x1 - x0) * i / n), y: rnd(y0 + (y1 - y0) * i / n) });
+      return pts;
+    }
+    return {
+      /* æ — a-bowl (rx 15, tangent to the shared stem) + shared stem + an e at
+         o-less-4. The old one crushed both halves into 47 units for a ligature
+         of two letters that are 32 and 36 standing alone, and its a-bowl
+         bottomed at 80 while its own stem ran to 84. Now 18..82, both halves
+         on 44 and 84. */
+      'æ': [arc(33, 64, 15, 20, 300, -60, 12),
+            line(48, 44, 48, 84, 4),
+            line(48, 64, 82, 64, 3).concat(arc(65, 64, 17, 20, 0, -300, 10).slice(1))],
 
+      /* Æ — ONE bar height for both halves. The real defect was that the A's
+         crossbar sat at y=56 and the E's middle arm at y=50: two near-parallel
+         bars six units apart, which reads as a mistake because it is one. The
+         E half was also 20 units wide against a standalone E's 35. Now 22..78,
+         and the left diagonal passes x=32.6 at y=54, so the crossbar at 32
+         lands flush with its outer edge. */
+      'Æ': [line(46, 16, 22, 84, 5),
+            line(46, 16, 46, 84, 5),
+            line(32, 54, 46, 54, 2),
+            line(46, 16, 78, 16, 3),
+            line(46, 54, 74, 54, 3),
+            line(46, 84, 78, 84, 3)],
+
+      /* ß — STEM-FIRST, consistent with b/h/k. The old stroke 1 started at
+         (34,96), the LOWEST point of the glyph, and travelled up: defensible
+         as the long-s motion, but it was the only glyph in the file that began
+         at its own floor, and the green start dot appearing down at the
+         descender line reads as an error. The waist also sat at y=52, 20% down
+         the x-height, where it belongs near 56; the lower bowl bottomed at 82.
+         Stroke 3 starts 2 units from stroke 2's terminus — inside one stroke
+         width, so they merge. */
+      'ß': [line(30, 22, 30, 96, 8),
+            arc(44, 37, 14, 19, 180, 450, 9),
+            arc(46, 70, 16, 14, 270, 500, 10)]
+    };
+  }()),
+
+  /* `footX` is the x of the letter's LOWEST point — where a cedilla hangs
+     from. It is NOT the bbox centre: on `C` the centre is 44.3 while the
+     foot is 50, so a centre-anchored hook dangles 5.7 units off the letter. */
   bboxOf: function (strokes) {
-    var x0 = Infinity, x1 = -Infinity, top = Infinity, base = -Infinity, i, j, p;
+    var x0 = Infinity, x1 = -Infinity, top = Infinity, base = -Infinity, footX = 0, i, j, p;
     for (i = 0; i < strokes.length; i++) for (j = 0; j < strokes[i].length; j++) {
       p = strokes[i][j];
       if (p.x < x0) x0 = p.x; if (p.x > x1) x1 = p.x;
-      if (p.y < top) top = p.y; if (p.y > base) base = p.y;
+      if (p.y < top) top = p.y;
+      if (p.y > base) { base = p.y; footX = p.x; }
     }
-    return { x0: x0, x1: x1, top: top, base: base, cx: (x0 + x1) / 2 };
+    return { x0: x0, x1: x1, top: top, base: base, cx: (x0 + x1) / 2, footX: footX };
   },
 
   compose: function (baseStrokes, baseChar, markName) {
@@ -259,9 +365,18 @@ var LetterStudio = {
     var mark = this.MARKS[markName];
     if (!mark) return null;
     var bb = this.bboxOf(body);
-    /* the band actually available above the letter, never off the sheet */
-    var H = Math.max(6, Math.min(16, bb.top - this.MARK_CEIL));
-    var strokes = mark(bb, H);
+    /* The band actually available above the letter, never off the sheet.
+       ⚠ TWO DIFFERENT CONSTRAINTS BIND AT THE TWO CASES, and only one of
+       them is a choice. Over LOWERCASE (base top 44) there is room to spare,
+       so the ceiling is the panel's ruling of 20 — the old 16 is what made
+       the accents read as lozenges. Over a CAP (base top 16) nothing is
+       chosen at all: MARK_CEIL is subtracted and the band comes out at 11.5,
+       so the mark's apex lands exactly on the ceiling. The panel's listing
+       said 12, which would put it at y=4.0 and breach that ceiling by half a
+       unit; MARK_CEIL is the shipped invariant and wins. */
+    var H = Math.max(8, Math.min(20, bb.top - this.MARK_CEIL));
+    /* .call so a mark can read MARK_CEIL rather than re-hardcoding it */
+    var strokes = mark.call(this, bb, H);
     if (markName === 'diaeresis') for (var i = 0; i < strokes.length; i++) strokes[i].tol = this.DOT_TOL;
     return body.concat(strokes);
   },
@@ -1267,7 +1382,7 @@ function injectLetterStudioCSS() {
        that was ever true. */
     + '.ls-wrap{container-type:inline-size;container-name:ls;'
     + 'display:flex;flex-direction:column;align-items:center;gap:12px;width:100%;'
-    + '--ls-key:clamp(40px,7.6cqi,54px);--ls-sheet:min(96cqi,440px);}'
+    + '--ls-key:clamp(44px,7.6cqi,54px);--ls-sheet:min(96cqi,440px);}'
 
     /* ---- picker ---- */
     + '.ls-picker{position:relative;width:100%;display:flex;align-items:flex-start;gap:6px;}'
@@ -1388,7 +1503,7 @@ function injectLetterStudioCSS() {
        704vp->670 (the embed, forever), 1366vp standalone->1268. */
     + '@container ls (min-width:380px){'
     +   '.ls-card{--ls-sheet:min(92cqi,470px);padding:16px 14px 14px;}'
-    +   '.ls-picker{--ls-key:clamp(42px,7.6cqi,54px);}'
+    +   '.ls-picker{--ls-key:clamp(44px,7.6cqi,54px);}'
     + '}'
     + '@container ls (min-width:600px){'
     +   '.ls-card{--ls-sheet:min(80cqi,560px);padding:20px 18px 16px;border-radius:24px;}'

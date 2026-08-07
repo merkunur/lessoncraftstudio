@@ -243,6 +243,7 @@ if (BRIEF) {
 console.log('[checking the source of truth]');
 checkTable('strings', SOT.STRINGS, false);
 checkTable('starter', SOT.STARTER_TEXT, false);
+checkTable('example', SOT.STARTER_EG, false);
 checkTable('phrase', SOT.PHRASES, true);
 
 if (ERRORS) {
@@ -250,7 +251,7 @@ if (ERRORS) {
   console.error(`REFUSED — ${ERRORS} problem(s). Nothing was written.`);
   process.exit(1);
 }
-console.log(`  ok (${Object.keys(SOT.STRINGS).length} strings, ${Object.keys(SOT.STARTER_TEXT).length} starters, ${Object.keys(SOT.PHRASES).length} phrases x ${ALL.length} locales)`);
+console.log(`  ok (${Object.keys(SOT.STRINGS).length} strings, ${Object.keys(SOT.STARTER_TEXT).length} starters + examples, ${Object.keys(SOT.PHRASES).length} phrases x ${ALL.length} locales)`);
 
 /* ---------------------------------------------------------------------
    Emit. ONE PHYSICAL LINE PER KEY — the house convention, and what lets
@@ -279,7 +280,7 @@ let wrote = 0;
    success having written one table out of four — the "a sync that
    silently matches nothing is worse than no sync, because it looks like
    agreement" defect. */
-[['PHRASES', SOT.PHRASES], ['STRINGS', SOT.STRINGS], ['STARTER_TEXT', SOT.STARTER_TEXT]]
+[['PHRASES', SOT.PHRASES], ['STRINGS', SOT.STRINGS], ['STARTER_TEXT', SOT.STARTER_TEXT], ['STARTER_EG', SOT.STARTER_EG]]
   .forEach(([name, table]) => {
     const block = emit(name, table, 2);
     const marker = new RegExp('  /\\* __HLB_' +

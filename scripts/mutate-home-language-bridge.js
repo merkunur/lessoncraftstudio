@@ -101,7 +101,16 @@ const MUTATIONS = [
 
   /* ---- ⭐ the muted tablet ---------------------------------------- */
   ['a tap stops changing the board, so a muted tablet does nothing at all',
-   "el.classList.add('hlb-said');", "", /H10 a tap adds no visible state/],
+   "      this._said = { id: card.id,", "      this._notSaid = { id: card.id,", /H10 a tap records no visible state/],
+
+  /* ⭐ THE ONE PRODUCTION FOUND AND LOCAL TESTING COULD NOT. Real Chrome
+     loads voices asynchronously; the repaint that fires when they land
+     rebuilt every card and threw away the confirmation a child was at
+     that moment looking at. It failed in nine locales out of eleven and
+     passed locally every time. */
+  ['a repaint stops re-applying the lift, so any voice load wipes it',
+   "      this._applySaid();\n      this._save();", "      this._save();",
+   /H10 _paint does not re-apply the lift/],
 
   ['the tap no longer reaches the live region',
    'if (text) this.api.announce(text);', '', /H10 a tap does not reach the live region/],

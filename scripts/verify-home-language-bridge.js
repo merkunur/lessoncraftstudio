@@ -297,10 +297,22 @@ console.log('[stance]');
 (function () {
   var tap = (SRC_NC.match(/_tapCard: function[\s\S]*?\n    \},/) || [''])[0];
   if (!tap) { err('H10 could not find the tap handler'); return; }
-  if (!/classList\.add\('hlb-said'\)/.test(tap)) err('H10 a tap adds no visible state');
+  if (!/this\._said\s*=\s*\{/.test(tap)) err('H10 a tap records no visible state');
   if (!/announce\(/.test(tap)) err('H10 a tap does not reach the live region');
   if (!/\.hlb-card\.hlb-said\{/.test(SRC.replace(/\s/g, ''))) err('H10 the said state has no styling — it would be invisible');
-  console.log('  H10 a tap changes the board even on a muted tablet');
+  /* ⚠⚠ AND IT MUST SURVIVE A REPAINT. This half of the check was added
+     after PRODUCTION found what local testing could not: real Chrome
+     loads voices asynchronously, `voiceschanged` fires, the repaint it
+     triggers rebuilt every card, and the confirmation a child was
+     looking at vanished — in nine locales out of eleven, intermittently.
+     Any repaint would do it. So the state lives in the model and every
+     paint re-applies it. */
+  var applied = (SRC_NC.match(/_applySaid: function[\s\S]*?\n    \},/) || [''])[0];
+  if (!applied) err('H10 there is no _applySaid — the lift lives only in the DOM and the next paint deletes it');
+  else if (!/classList\.add\('hlb-said'\)/.test(applied)) err('H10 _applySaid does not apply the class');
+  var paint = (SRC_NC.match(/_paint: function[\s\S]*?\n    \},/) || [''])[0];
+  if (!/_applySaid\(\)/.test(paint)) err('H10 _paint does not re-apply the lift — a repaint would wipe it');
+  console.log('  H10 a tap changes the board even on a muted tablet, and survives a repaint');
 }());
 
 /* ---------- ⭐ H11 THE DIGNITY CARDS ARE SHOWN, NOT SAID ---------- */

@@ -1831,6 +1831,8 @@
          And hiding the child's board while an adult types is the point
          anyway: the board a child picks up is never mid-edit. */
       this._wrap.classList.toggle('hlb-desking', !!this.desk);
+      /* ⚠ AFTER the cards are rebuilt — see the note in _tapCard. */
+      this._applySaid();
       this._save();
       this._focusRestore(fk);
     },
@@ -2052,17 +2054,42 @@
          mark. ⚠ The duration is an ESTIMATE: LCSAudio swallows the
          utterance handle and returns nothing, and this tool writes zero
          lines to protected core. The gate asserts the lift appears and
-         clears, never that it matches the audio. */
-      var all = this._wrap.querySelectorAll('.hlb-said');
-      for (var i = 0; i < all.length; i++) all[i].classList.remove('hlb-said');
-      el.classList.add('hlb-said');
-      var ms = said ? MODEL.speakMs(text) : 1200;
-      this._after(ms, function () { el.classList.remove('hlb-said'); });
+         clears, never that it matches the audio.
+
+         ⚠⚠ THE LIFT LIVES IN THE MODEL, NOT ONLY IN THE DOM, AND
+         PRODUCTION IS WHERE I FOUND OUT WHY. Locally the class was set
+         straight on the element and it worked every time. On the live
+         site it failed in nine locales out of eleven, intermittently —
+         because real Chrome loads its voices ASYNCHRONOUSLY, the
+         `voiceschanged` listener fires, and the repaint it triggers
+         rebuilt every card and threw away the confirmation a child was
+         at that moment looking at. Any repaint would have done it: an
+         entitlement resolving, a settings toggle, a resize.
+         Transient view state that only exists in the DOM is state that
+         the next paint silently deletes. */
+      this._said = { id: card.id, until: Date.now() + (said ? MODEL.speakMs(text) : 1200) };
+      this._applySaid();
+      var self2 = this;
+      this._after(this._said.until - Date.now(), function () {
+        self2._said = null;
+        self2._applySaid();
+      });
 
       /* a card we cannot say in the language asked for is shown instead
          — never silent AND still. */
       if (!said && !this.api.settings.voice) return;
       if (!said) { this.lifted = card; this._paint(); }
+    },
+
+    /* re-applied on EVERY paint, from `this._said`, so a repaint cannot
+       lose it. Idempotent: it clears whatever was lifted before. */
+    _applySaid: function () {
+      if (!this._wrap) return;
+      var all = this._wrap.querySelectorAll('.hlb-said');
+      for (var i = 0; i < all.length; i++) all[i].classList.remove('hlb-said');
+      if (!this._said || Date.now() >= this._said.until) { this._said = null; return; }
+      var el = this._wrap.querySelector('.hlb-card[data-id="' + this._said.id + '"]');
+      if (el) el.classList.add('hlb-said');
     },
 
     _paintFoot: function () {

@@ -95,6 +95,18 @@ const srv = http.createServer((q, r) => {
     });
     await wait(650);
 
+    /* ⭐ THE GUARD. Everything below measures the painted-mirrored-FOLDED
+       sheet. If any of the three did not land, this run is measuring a
+       different object and must fail loudly rather than pass quietly. */
+    const reached = await p.evaluate(() => ({
+      painted: document.querySelectorAll('.fsh-cell[class*="fsh-c"]').length,
+      folded: !!document.querySelector('.fsh-folded'),
+      legend: !!document.querySelector('.fsh-legend')
+    }));
+    is(reached.folded, `[${loc}] the sheet really is folded — the state this audit exists to measure`);
+    is(reached.legend, `[${loc}] the legend really is on screen (it carries the wordiest strings)`);
+    if (!reached.folded || !reached.legend) { await p.close(); continue; }
+
     for (const [w, h] of V) {
       await p.setViewport({ width: w, height: h });
       await wait(420);

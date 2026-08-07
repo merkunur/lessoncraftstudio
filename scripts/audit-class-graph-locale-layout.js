@@ -85,6 +85,22 @@ const srv = http.createServer((q, r) => {
     });
     await wait(350);
 
+    /* ⭐ THE GUARD. Non-vacuity first: the votes and the reveal are the
+       state this audit exists to measure, and a silent click that did
+       not land would otherwise be measured as a pass. */
+    const reached = await p.evaluate(() => ({
+      stamps: document.querySelectorAll('.cgr-stamp').length,
+      /* ⚠ THE CHIP'S OWN PRESSED CLASS WAS TOO LOOSE — .cgr-on matches
+         ANY pressed chip, including the mode chip, so my first guard
+         passed on a poisoned build. The counts are ABSENT from the DOM
+         until the reveal (the tool's numeral-curtain comment says so
+         explicitly), which makes .cgr-count the honest marker. */
+      revealed: document.querySelectorAll('.cgr-count').length > 0
+    }));
+    is(reached.stamps >= 5, `[${loc}] the votes really went in (${reached.stamps} stamps)`);
+    is(reached.revealed, `[${loc}] the numbers really are revealed — the counts take their own row`);
+    if (!reached.revealed || reached.stamps < 5) { await p.close(); continue; }
+
     for (const [w, h] of V) {
       await p.setViewport({ width: w, height: h });
       await wait(420);

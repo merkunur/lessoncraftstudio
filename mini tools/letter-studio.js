@@ -85,34 +85,55 @@ var LetterStudio = {
      travelling arrows, the guide fading out when the letter is done). */
   strings: {
     title:        {en:'Letter Studio',de:'Buchstabenwerkstatt',fr:'L’atelier des lettres',it:'La bottega delle lettere',es:'Trazo a trazo',pt:'A oficina das letras',nl:'Het letterhuisje',sv:'Bokstavsverkstaden',da:'Bogstavværkstedet',no:'Skriveverkstedet',fi:'Kirjainpaja'},
-    instruction:  {en:'Watch the firefly, then trace the letter with your finger.',de:'Schau zuerst dem Glühwürmchen zu, dann fahre den Buchstaben mit dem Finger nach.',fr:'Regarde la luciole, puis suis le chemin du doigt.',it:'Guarda la lucciola, poi ripassa la lettera con il dito.',es:'Mira la luciérnaga y luego traza la letra con el dedo.',pt:'Olhe o vaga-lume e depois trace a letra com o dedo.',nl:'Kijk naar het vuurvliegje. Trek de letter daarna na met je vinger.',sv:'Titta på lysmasken och skriv sedan bokstaven med fingret.',da:'Se, hvor ildfluen flyver, og skriv så bogstavet med fingeren.',no:'Se på ildflua først, og skriv så bokstaven med fingeren.',fi:'Katso kiiltomatoa ja piirrä sitten kirjain sormella.'},
+    instruction:  {en:'Watch the firefly walk the strokes, then trace them with your finger.',de:'Schau dem Glühwürmchen zu und fahre den Buchstaben dann mit dem Finger nach.',fr:'Regarde la luciole, puis suis le tracé avec ton doigt.',it:'Lettere e numeri sulla rigatura di prima: la lucciola mostra i tratti, poi si ripassa con il dito.',es:'Mira la luciérnaga y luego traza la letra con el dedo, entre las dos rayas.',pt:'Veja o vaga-lume fazer o caminho e depois faça o mesmo com o dedo.',nl:'Kijk hoe het vuurvliegje schrijft en trek de letter daarna na met je vinger.',sv:'Titta på lysmasken, och skriv sedan bokstaven med fingret.',da:'Se, hvor ildfluen flyver, og skriv så bogstavet i skrivehuset med fingeren.',no:'Se hvor ildflua flyr, og skriv etter med fingeren.',fi:'Katso ensin kiiltomatoa ja piirrä sitten sama jälki sormella.'},
 
-    /* screen-reader labels for controls that carry a glyph or an icon */
-    a11ySheet:    {en:'Tracing sheet. Trace the letter {g} with your finger, starting at the green dot.',de:'Schreibblatt. Fahre den Buchstaben {g} mit dem Finger nach, beginne am grünen Punkt.',fr:'Feuille d’écriture. Suis la lettre {g} du doigt en partant du point vert.',it:'Foglio di scrittura. Ripassa la lettera {g} con il dito partendo dal punto verde.',es:'Hoja de trazo. Traza la letra {g} con el dedo empezando en el punto verde.',pt:'Folha de traçado. Trace a letra {g} com o dedo começando no ponto verde.',nl:'Schrijfblad. Trek de letter {g} na met je vinger, begin bij de groene stip.',sv:'Skrivblad. Skriv bokstaven {g} med fingret och börja vid den gröna pricken.',da:'Skriveark. Skriv bogstavet {g} med fingeren, og start ved den grønne prik.',no:'Skriveark. Skriv bokstaven {g} med fingeren, og start på den grønne prikken.',fi:'Kirjoitusarkki. Piirrä kirjain {g} sormella vihreästä pisteestä alkaen.'},
-    a11yPicker:   {en:'Choose a letter or a number',de:'Buchstaben oder Zahl wählen',fr:'Choisir une lettre ou un chiffre',it:'Scegli una lettera o un numero',es:'Elegir una letra o un número',pt:'Escolher uma letra ou um número',nl:'Kies een letter of een cijfer',sv:'Välj en bokstav eller en siffra',da:'Vælg et bogstav eller et tal',no:'Velg en bokstav eller et tall',fi:'Valitse kirjain tai numero'},
-    a11yMore:     {en:'Show every letter',de:'Alle Buchstaben zeigen',fr:'Afficher toutes les lettres',it:'Mostra tutte le lettere',es:'Mostrar todas las letras',pt:'Mostrar todas as letras',nl:'Alle letters tonen',sv:'Visa alla bokstäver',da:'Vis alle bogstaver',no:'Vis alle bokstavene',fi:'Näytä kaikki kirjaimet'},
-    a11yDemo:     {en:'Show me how',de:'Zeig mir wie',fr:'Montre-moi',it:'Fammi vedere',es:'Muéstrame cómo',pt:'Me mostra como',nl:'Doe het voor',sv:'Visa hur',da:'Vis hvordan',no:'Vis meg hvordan',fi:'Näytä malli'},
-    a11yUndo:     {en:'Start this letter again',de:'Diesen Buchstaben neu beginnen',fr:'Recommencer cette lettre',it:'Ricomincia questa lettera',es:'Empezar esta letra de nuevo',pt:'Recomeçar esta letra',nl:'Deze letter opnieuw',sv:'Börja om med bokstaven',da:'Start bogstavet forfra',no:'Start bokstaven på nytt',fi:'Aloita kirjain alusta'},
-    a11yNext:     {en:'Next: {g}',de:'Weiter: {g}',fr:'Ensuite : {g}',it:'Avanti: {g}',es:'Siguiente: {g}',pt:'A seguir: {g}',nl:'Volgende: {g}',sv:'Nästa: {g}',da:'Næste: {g}',no:'Neste: {g}',fi:'Seuraava: {g}'},
-    a11yCase:     {en:'Small or capital',de:'Klein oder groß',fr:'Minuscule ou majuscule',it:'Minuscola o maiuscola',es:'Minúscula o mayúscula',pt:'Minúscula ou maiúscula',nl:'Klein of hoofdletter',sv:'Liten eller stor',da:'Lille eller stort',no:'Liten eller stor',fi:'Pieni vai iso'},
-    a11yPrint:    {en:'Printable sheet',de:'Druckvorlage',fr:'Fiche à imprimer',it:'Scheda da stampare',es:'Ficha para imprimir',pt:'Ficha para imprimir',nl:'Werkblad printen',sv:'Skriv ut skrivblad',da:'Skriveark til print',no:'Ark til utskrift',fi:'Tulostettava sivu'},
-    a11yDone:     {en:'You wrote {g}.',de:'Du hast {g} geschrieben.',fr:'Tu as écrit {g}.',it:'Hai scritto {g}.',es:'Escribiste {g}.',pt:'Você escreveu {g}.',nl:'Je hebt {g} geschreven.',sv:'Du skrev {g}.',da:'Du skrev {g}.',no:'Du skrev {g}.',fi:'Kirjoitit {g}.'},
+    /* Screen-reader labels for controls that carry a glyph or an icon.
+       ⭐ GLYPH-NEUTRAL BY RULE. The picker’s third band is the digits 0-9
+       (`bands()`), and `_buildSheet` labels the sheet with whatever
+       `_current()` returns — so any label saying "letter" tells a child
+       tracing a 7 that 7 is a letter. Ten native panels found that in the
+       English independently. Only `a11yCase` may say "letter": `_buildDock`
+       suppresses that control for digits (`!this.isDigit(ch)`). */
+    a11ySheet:    {en:'Tracing sheet. Trace {g} with your finger, starting at the green dot.',de:'Schreibblatt. Fahre {g} mit dem Finger nach, beginne am grünen Punkt.',fr:'Page d’écriture. Suis le tracé de {g} avec ton doigt, en partant du point vert.',it:'Foglio di scrittura. Ripassa {g} con il dito, partendo dal punto verde.',es:'Hoja de doble raya. Traza {g} con el dedo, empezando en el punto verde.',pt:'Pauta de traçado. Trace {g} com o dedo, começando no ponto verde.',nl:'Schrijfblad. Trek {g} na met je vinger, begin bij de groene stip.',sv:'Skrivblad. Skriv {g} med fingret och börja vid den gröna pricken.',da:'Skrivehuset. Skriv {g} med fingeren, og start ved den grønne prik.',no:'Skriveark. Skriv {g} med fingeren, og start på den grønne prikken.',fi:'Kirjoitusarkki. Piirrä {g} sormella vihreästä aloituspisteestä alkaen.'},
+    a11yPicker:   {en:'Choose a letter or a number',de:'Buchstaben und Zahlen auswählen',fr:'Choisir une lettre ou un chiffre',it:'Scegli una lettera o un numero',es:'Letras y números',pt:'Escolher uma letra ou um número',nl:'Kies een letter of een cijfer',sv:'Välj en bokstav eller en siffra',da:'Vælg et bogstav eller et tal',no:'Velg en bokstav eller et tall',fi:'Valitse kirjain tai numero'},
+    a11yMore:     {en:'Show every letter and number',de:'Alle Buchstaben und Zahlen zeigen',fr:'Afficher toutes les lettres et les chiffres',it:'Mostra tutte le lettere e i numeri',es:'Todas las letras y los números',pt:'Todas as letras e os números',nl:'Alle letters en cijfers tonen',sv:'Visa alla bokstäver och siffror',da:'Alle bogstaver og alle tal',no:'Vis alle bokstavene og tallene',fi:'Näytä kaikki kirjaimet ja numerot'},
+    a11yDemo:     {en:'Show the strokes again',de:'Noch einmal vormachen',fr:'Revoir le tracé',it:'Rivedi i tratti',es:'Ver otra vez cómo se traza',pt:'Ver o traçado de novo',nl:'Doe het nog eens voor',sv:'Visa vägen en gång till',da:'Vis vejen igen',no:'Vis veien om igjen',fi:'Näytä kirjoitusjärjestys uudelleen'},
+    a11yUndo:     {en:'Rub this out and start again',de:'Wegwischen und noch einmal schreiben',fr:'Effacer et recommencer',it:'Ricomincia questo segno',es:'Borrar lo trazado y empezar otra vez',pt:'Começar este traçado de novo',nl:'Wissen en opnieuw beginnen',sv:'Sudda och börja om',da:'Start forfra på det her',no:'Visk ut og begynn på nytt',fi:'Pyyhi ja aloita alusta'},
+    a11yNext:     {en:'Next: {g}',de:'Weiter: {g}',fr:'Ensuite : {g}',it:'Avanti: {g}',es:'Siguiente: {g}',pt:'A seguir: {g}',nl:'Volgende: {g}',sv:'Nästa: {g}',da:'Videre til {g}',no:'Neste: {g}',fi:'Seuraava: {g}'},
+    a11yCase:     {en:'Small letter or capital letter',de:'Kleinbuchstabe oder Großbuchstabe',fr:'Minuscule ou majuscule',it:'Minuscola o maiuscola',es:'Minúscula o mayúscula',pt:'Minúscula ou maiúscula',nl:'Kleine letter of hoofdletter',sv:'Liten eller stor bokstav',da:'Lille eller stort bogstav',no:'Liten eller stor bokstav',fi:'Pieni tai iso kirjain'},
+    a11yPrint:    {en:'Print a practice sheet',de:'Arbeitsblatt drucken',fr:'Fiche à imprimer',it:'Stampa la scheda',es:'Imprimir la ficha',pt:'Imprimir a atividade de traçado',nl:'Werkblad printen',sv:'Skriv ut ett skrivblad',da:'Print et skriveark',no:'Skriv ut skriveark',fi:'Tulosta harjoitussivu'},
+    a11yDone:     {en:'You wrote {g}.',de:'Du hast {g} geschrieben.',fr:'Tu as écrit {g}.',it:'Hai scritto {g}.',es:'Escribiste {g}.',pt:'Você escreveu {g}.',nl:'Je hebt {g} geschreven.',sv:'Du skrev {g}.',da:'Du skrev {g}.',no:'Du skrev {g}.',fi:'{g} on valmis.'},
 
     /* names — premium chrome, and the PII honesty line */
     namesPick:    {en:'Whose name shall we write?',de:'Wessen Namen schreiben wir?',fr:'Quel prénom écrit-on ?',it:'Quale nome scriviamo?',es:'¿Qué nombre escribimos?',pt:'Qual nome vamos escrever?',nl:'Van wie schrijven we de naam?',sv:'Vems namn ska vi skriva?',da:'Hvis navn skal vi skrive?',no:'Hvilket navn skal vi skrive?',fi:'Kenen nimen kirjoitamme?'},
-    privacyLine:  {en:'Names come from your class list on this device and never leave it.',de:'Die Namen stammen aus Ihrer Klassenliste auf diesem Gerät und verlassen es nie.',fr:'Les prénoms viennent de votre liste de classe sur cet appareil et n’en sortent jamais.',it:'I nomi arrivano dall’elenco della classe salvato su questo dispositivo e non escono mai da qui.',es:'Los nombres vienen de tu lista del grupo en este dispositivo y nunca salen de aquí.',pt:'Os nomes vêm da lista da sua turma neste aparelho e nunca saem dele.',nl:'De namen komen uit je klassenlijst op dit apparaat en blijven daar.',sv:'Namnen hämtas från klasslistan på den här enheten och skickas aldrig vidare.',da:'Navnene kommer fra din klasseliste og bliver på denne enhed.',no:'Navnene kommer fra klasselista på denne enheten og blir aldri sendt videre.',fi:'Nimet tulevat tämän laitteen luokkalistalta eivätkä poistu siitä koskaan.'},
-    noClass:      {en:'Add a class in Name Sticks first — this studio reads the same list.',de:'Legen Sie zuerst in den Namensstäbchen eine Klasse an – diese Werkstatt liest dieselbe Liste.',fr:'Créez d’abord une classe dans les Bâtonnets de prénoms : cet atelier lit la même liste.',it:'Crea prima una classe in Bastoncini dei nomi: questa bottega legge lo stesso elenco.',es:'Crea primero un grupo en Palitos con nombre: aquí se lee esa misma lista.',pt:'Primeiro, crie uma turma em Palitos de nomes — esta oficina lê a mesma lista.',nl:'Maak eerst een klas aan in Beurtenstokjes — het letterhuisje leest dezelfde lijst.',sv:'Skapa först en klass i Namnpinnar — den här verkstaden läser samma lista.',da:'Opret først en klasse i Navnepinde — dette værksted læser den samme liste.',no:'Lag først en klasse i Navnepinner – dette verkstedet leser den samme lista.',fi:'Luo ensin luokka Nimitikuissa – tämä paja käyttää samaa listaa.'},
-    a11yWord:     {en:'Type a word to trace',de:'Wort zum Nachfahren eingeben',fr:'Écris un mot à tracer',it:'Scrivi una parola da ripassare',es:'Escribe una palabra para trazar',pt:'Escreva uma palavra para traçar',nl:'Typ een woord om na te trekken',sv:'Skriv ett ord att skriva av',da:'Skriv et ord, der skal skrives',no:'Skriv et ord som skal skrives',fi:'Kirjoita jäljennettävä sana'},
+    privacyLine:  {en:'Names come from your class list on this device and never leave it.',de:'Die Namen stammen aus Ihrer Klassenliste auf diesem Gerät und verlassen es nie.',fr:'Les prénoms viennent de votre liste de classe : ils restent sur cet appareil.',it:'I nomi arrivano dall’elenco della classe salvato su questo dispositivo e non escono mai da qui.',es:'Los nombres salen de tu lista en este dispositivo: aquí solo se leen y nunca se envían a ningún lado.',pt:'Os nomes vêm da lista da sua turma, que fica neste aparelho e nunca sai dele.',nl:'De namen komen uit je klassenlijst op dit apparaat en gaan nergens heen.',sv:'Namnen kommer från klasslistan på den här enheten och lämnar den aldrig.',da:'Navnene kommer fra din klasseliste og bliver på denne enhed.',no:'Navnene hentes fra klasselista på denne enheten og blir aldri sendt videre.',fi:'Nimet luetaan tämän laitteen luokkalistalta eivätkä ne lähde laitteesta.'},
+    /* ⚠ `rosterFor` returns [] for a class whose `students` array is empty,
+       and `_settle` falls back to `classes[0].id` — so this line is ALSO
+       shown to a teacher who has a class and has not typed the names yet.
+       It must be true in both states; it used to say only "add a class". */
+    noClass:      {en:'Add a class and its names in Name Sticks — this studio reads the same list.',de:'Legen Sie in den Namensstäbchen zuerst eine Klasse mit Namen an – hier wird dieselbe Liste gelesen.',fr:'Créez d’abord une classe dans Bâtonnets de prénoms : cet atelier lit la même liste.',it:'I nomi si aggiungono in Bastoncini dei nomi: qui si legge lo stesso elenco.',es:'Primero crea un grupo en Palitos con nombre: aquí se lee esa misma lista.',pt:'Crie primeiro uma turma em Palitos de nomes — esta oficina lê a mesma lista.',nl:'Maak eerst een klas aan in Beurtenstokjes — het letterhuisje leest dezelfde lijst.',sv:'Skapa först en klass i Namnpinnar — Bokstavsverkstaden läser samma lista.',da:'Opret først en klasse i Navnepinde — værkstedet læser den samme liste.',no:'Lag først en klasse i Navnepinner – Skriveverkstedet leser den samme lista.',fi:'Lisää luokka ja oppilaiden nimet Nimitikuissa – tämä paja lukee samaa listaa.'},
 
-    /* the gate. INLINE — never a scrim with a price projected in front
-       of 25 children. */
-    gateNames:    {en:'Class names and the printable sheets are part of Premium. Every letter, every number and any word you type stay free.',de:'Klassennamen und die Druckvorlagen gehören zu Premium. Alle Buchstaben, alle Zahlen und jedes selbst eingetippte Wort bleiben kostenlos.',fr:'Les prénoms de la classe et les fiches à imprimer font partie de Premium. Toutes les lettres, tous les chiffres et n’importe quel mot que vous tapez restent gratuits.',it:'I nomi della classe e le schede da stampare fanno parte di Premium. Tutte le lettere, tutti i numeri e qualsiasi parola scritta da voi restano gratis.',es:'Los nombres del grupo y las fichas para imprimir son parte de Premium. Todas las letras, todos los números y cualquier palabra que escribas siguen siendo gratis.',pt:'Os nomes da turma e as fichas para imprimir fazem parte do Premium. Todas as letras, todos os números e qualquer palavra que você escrever continuam gratuitos.',nl:'Klassennamen en de printbladen horen bij Premium. Alle letters, alle cijfers en elk woord dat je zelf typt blijven gratis.',sv:'Klassens namn och utskriftsarken ingår i Premium. Alla bokstäver, alla siffror och vilket ord du än skriver är fortsatt gratis.',da:'Klassens navne og skrivearkene til print hører til Premium. Alle bogstaver, alle tal og ethvert ord, du selv skriver, er stadig gratis.',no:'Navnene i klassen og arkene til utskrift hører til Premium. Alle bokstaver, alle tall og alle ord du selv skriver, er fortsatt gratis.',fi:'Luokan nimet ja tulostettavat arkit kuuluvat Premiumiin. Kaikki kirjaimet, kaikki numerot ja itse kirjoittamasi sanat pysyvät ilmaisina.'},
-    unlock:       {en:'See Premium',de:'Premium ansehen',fr:'Voir Premium',it:'Scopri Premium',es:'Ver Premium',pt:'Ver o Premium',nl:'Bekijk Premium',sv:'Se Premium',da:'Se Premium',no:'Se Premium',fi:'Tutustu Premiumiin'},
+    /* ⚠ ONE LABEL, THREE CONTROLS — reported by all ten native panels.
+       `a11yWord` is the aria-label of the text input, of the ▸ button that
+       SUBMITS, and of the ✎ chip that OPENS the panel, so a screen-reader
+       user hears "type a word to trace" on two controls that do neither.
+       No wording can be correct on all three; closing it needs two more
+       keys (`a11yWordOpen`, `a11yWordGo`) and is held pending that call. */
+    a11yWord:     {en:'Type a word to trace',de:'Wort zum Nachfahren eingeben',fr:'Écrire un mot à tracer',it:'Scrivi una parola da ripassare',es:'Escribe una palabra para trazar',pt:'Digite uma palavra para traçar',nl:'Typ een woord om na te trekken',sv:'Skriv ett ord att öva på',da:'Skriv et ord',no:'Ordet klassen skal øve på',fi:'Kirjoita harjoiteltava sana'},
+
+    /* The gate. INLINE — never a scrim with a price projected in front of
+       25 children. ⭐ THE PLAN IS CALLED "Teacher", NOT "Premium": the word
+       Premium appears ZERO times in the English message catalogue, and
+       `pricingPage.tier.name` is Teacher / Lehrkraft / Enseignant /
+       Insegnante / Docente / Professor / Leerkracht / Lärare / Lærer /
+       Lærer / Opettaja — which is the page this link opens. */
+    gateNames:    {en:'Class names and the printable sheet are part of the Teacher plan. Every letter, every number and any word you type stay free.',de:'Die Namen aus Ihrer Klassenliste und die Arbeitsblätter zum Ausdrucken gehören zum Lehrer-Paket. Alle Buchstaben, alle Zahlen und jedes Wort, das Sie eintippen, bleiben kostenlos.',fr:'Les prénoms de la classe et la fiche à imprimer font partie de l’offre Enseignant. Toutes les lettres, tous les chiffres et les mots que vous tapez restent gratuits.',it:'I nomi della classe e le schede da stampare fanno parte del piano Insegnante. Tutte le lettere, tutti i numeri e ogni parola che scrivi restano sempre gratis.',es:'Los nombres del grupo y las fichas para imprimir vienen con el plan Docente. Todas las letras, todos los números y cualquier palabra que escribas siguen siendo gratis.',pt:'Os nomes da turma e a atividade para imprimir fazem parte do plano Professor. Todas as letras, todos os números e qualquer palavra que você digitar continuam gratuitos.',nl:'De namen uit je klassenlijst en het werkblad om te printen horen bij het Leerkracht-pakket. Alle letters, alle cijfers en elk woord dat je zelf typt blijven gratis.',sv:'Klassens namn och skrivbladet att skriva ut ingår i Lärarpaketet. Alla bokstäver, alla siffror och vilket ord du än skriver är gratis.',da:'Klassens navne og skrivearket til print hører til Lærerabonnementet. Alle bogstaver, alle tal og de ord, du selv skriver, er gratis.',no:'Navnene i klassen og arkene til utskrift hører til Lærerabonnementet. Alle bokstavene, alle tallene og alle ord du skriver inn selv, er alltid gratis.',fi:'Luokan nimet ja tulostettavat harjoitussivut kuuluvat Opettaja-tilaukseen. Kaikki kirjaimet ja numerot sekä itse kirjoittamasi sanat ovat aina ilmaisia.'},
+    unlock:       {en:'See the Teacher plan',de:'Lehrer-Paket ansehen',fr:'Voir l’offre Enseignant',it:'Scopri il piano Insegnante',es:'Ver plan Docente',pt:'Ver o plano Professor',nl:'Bekijk het Leerkracht-pakket',sv:'Se Lärarpaketet',da:'Se Lærerabonnementet',no:'Se Lærerabonnementet',fi:'Katso Opettaja-tilaus'},
 
     /* settings */
-    setVoice:     {en:'Say the letter',de:'Buchstaben und Zahlen vorlesen',fr:'Dire à voix haute',it:'Pronuncia il nome della lettera',es:'Decir la letra',pt:'Dizer a letra',nl:'Letter hardop zeggen',sv:'Säg bokstaven',da:'Sig bogstavet',no:'Si navnet på bokstaven',fi:'Sano ääneen'},
-    setArrows:    {en:'Show stroke numbers and arrows',de:'Strichfolge mit Zahlen und Pfeilen zeigen',fr:'Afficher les numéros et les flèches',it:'Mostra numeri e frecce dei tratti',es:'Mostrar números y flechas de los trazos',pt:'Mostrar números e setas dos traços',nl:'Cijfers en pijlen bij de streken tonen',sv:'Visa siffror och pilar för dragen',da:'Vis tal og pile for stregerne',no:'Vis tall og piler for strekene',fi:'Näytä vetojen numerot ja nuolet'},
-    setWide:      {en:'Wider path for small hands',de:'Breitere Spur für kleine Hände',fr:'Chemin plus large pour les petites mains',it:'Percorso più largo per le mani piccole',es:'Camino más ancho para manos pequeñas',pt:'Caminho mais largo para mãos pequenas',nl:'Breder pad voor kleine handen',sv:'Bredare spår för små händer',da:'Bredere spor til små hænder',no:'Bredere spor for små hender',fi:'Leveämpi polku pienille käsille'}
+    setVoice:     {en:'Say the letter or number',de:'Buchstaben und Zahlen laut sagen',fr:'Prononcer la lettre ou le chiffre',it:'Pronuncia lettere e numeri',es:'Decir la letra o el número',pt:'Falar a letra ou o número em voz alta',nl:'Letter of cijfer hardop zeggen',sv:'Säg bokstaven eller siffran',da:'Sig bogstavet og tallet højt',no:'Si bokstaven eller tallet',fi:'Sano kirjain tai numero ääneen'},
+    setArrows:    {en:'Show stroke numbers and arrows',de:'Reihenfolge und Schreibrichtung zeigen',fr:'Afficher les numéros et le sens des tracés',it:'Mostra numeri e frecce dei tratti',es:'Mostrar el número y la dirección de cada trazo',pt:'Mostrar a ordem e o sentido dos traços',nl:'Nummers en pijlen bij elke haal',sv:'Visa skrivordningen med pilar och nummer',da:'Vis rækkefølge og retning på stregerne',no:'Vis nummer og piler på strekene',fi:'Näytä kynänvetojen numerot ja suuntanuolet'},
+    setWide:      {en:'Wider path for small hands',de:'Breitere Spur für kleine Hände',fr:'Élargir le chemin à suivre',it:'Percorso più largo per le mani ancora incerte',es:'Camino más ancho para las manos que empiezan',pt:'Caminho mais largo para mãos pequenas',nl:'Bredere baan voor kleine handen',sv:'Bredare spår för små händer',da:'Bredere spor til små hænder',no:'Bredere spor for små hender',fi:'Leveämpi polku pienille käsille'}
   },
 
   MC_KEY: 'lcs:my-classes:v1',       /* READ ONLY. getItem only, ever. */
@@ -433,6 +454,10 @@ var LetterStudio = {
     var u = ch.toUpperCase();
     return u.length === 1 ? u : ch;
   },
+  /* ⚠ NOT DEAD. I deleted this as unreferenced and the gate threw: it is
+     consumed by scripts/verify-letter-studio.js, which had wired it while
+     I was reading. "Unreferenced" is a measurement across the WHOLE repo
+     at the moment you delete, not across one file at some earlier moment. */
   hasCapital: function (ch) { return this.upperOf(ch) !== ch; },
 
   /* THE STRUCTURAL GATE — a free visitor gets no roster, ever. */
@@ -540,15 +565,34 @@ var LetterStudio = {
   },
 
   /* the locale's own letter inventory, split into the picker's bands */
+  /* ⚠ A DIGRAPH IS A LETTER SEQUENCE, NOT A DROPPED KEY. `bands()` used to
+     filter `g.length !== 1` and silently discard every one: Dutch lost
+     FOURTEEN graphemes including `ij`, Spanish `ch ll rr qu`, Portuguese
+     six, French five. The Spanish and Dutch panels each called it the
+     highest-impact defect in the file for their language — and the code
+     already condemns exactly this pattern one function away, for ß:
+     "vanishing a key the tray declares is worse". `sequenceOf` exists for
+     this and was wired only to typed words. A digraph key now sets the
+     sequence, so the child forms each letter in turn, which is also the
+     right pedagogy: `ij` is two letters that make one sound. */
   bands: function () {
-    var base = [], own = [], i, g, seen = {};
+    var base = [], own = [], multi = [], i, g, seen = {};
     var az = 'abcdefghijklmnopqrstuvwxyz';
     if (this.tray) {
       for (i = 0; i < this.tray.length; i++) {
         g = this.tray[i].g;
-        if (!g || g.length !== 1) continue;
+        if (!g) continue;
         var shown = this.upper ? this.upperOf(g) : g;
         if (seen[shown]) continue;
+        if (g.length > 1) {
+          /* only offer it if every letter in it is drawable */
+          var ok = true, parts = this.sequenceOf(shown);
+          for (var q = 0; q < parts.length; q++) if (!this._drawable(parts[q])) { ok = false; break; }
+          if (!ok) continue;
+          seen[shown] = 1;
+          multi.push({ g: shown, src: g, kind: 'digraph', seq: true });
+          continue;
+        }
         seen[shown] = 1;
         (az.indexOf(g) >= 0 ? base : own).push({ g: shown, src: g, kind: this.tray[i].kind });
       }
@@ -557,13 +601,14 @@ var LetterStudio = {
       base.push({ g: this.upper ? az.charAt(i).toUpperCase() : az.charAt(i), src: az.charAt(i), kind: 'aeiou'.indexOf(az.charAt(i)) >= 0 ? 'vowel' : 'consonant' });
     var digits = [];
     for (i = 0; i <= 9; i++) digits.push({ g: String(i), src: String(i), kind: 'digit' });
-    return [base, own, digits];
+    return [base, own, multi, digits];
   },
 
   /* every pickable glyph, flat, in picker order */
   keys: function () {
-    var b = this.bands();
-    return b[0].concat(b[1]).concat(b[2]);
+    var b = this.bands(), out = [], i;
+    for (i = 0; i < b.length; i++) out = out.concat(b[i]);
+    return out;
   },
 
   isDigit: function (ch) { return ch >= '0' && ch <= '9'; },
@@ -589,9 +634,22 @@ var LetterStudio = {
     if (!k.length) return null;
     return k[((this.index % k.length) + k.length) % k.length].g;
   },
+  /* ⚠ THE PRIMARY MUST NEVER SWITCH ITSELF OFF. It used to return null on
+     the last letter of a word or a name, which disabled the one permanent
+     control — and `_next()`'s exit branch, the only thing that clears the
+     sequence, is reachable ONLY from that button. A child who finished
+     writing her own name was stranded on it, inside the paid feature,
+     with nothing but the picker to escape. Found by five language panels
+     reading the model rather than the copy.
+     The honest answer is that the button always shows where it will go:
+     at the end of a sequence that is the letter the picker is resting on,
+     and the word strip disappearing is what signals the word is done. */
   _nextGlyph: function () {
-    if (this.seq) return this.seq[this.seqAt + 1] || null;
     var k = this.keys();
+    if (this.seq) {
+      if (this.seqAt + 1 < this.seq.length) return this.seq[this.seqAt + 1];
+      return k.length ? k[((this.index % k.length) + k.length) % k.length].g : null;
+    }
     if (!k.length) return null;
     return k[((this.index + 1) % k.length + k.length) % k.length].g;
   },
@@ -649,17 +707,13 @@ var LetterStudio = {
     this.drawn = [];
     this.cur = [];
     this.stalls = 0;
+    this._forceArrows = false;
     this._demoing = false;
   },
 
   _after: function (ms, fn) { var id = setTimeout(fn, ms); this._timers.push(id); return id; },
   _clearTimers: function () { for (var i = 0; i < this._timers.length; i++) clearTimeout(this._timers[i]); this._timers = []; },
 
-  _say: function (text) {
-    this.api.announce(text);
-    if (!this.api.settings.voice) return;
-    try { LCSAudio.speak({ type: 'ui', text: text, lang: this.api.lang, rate: 0.95 }); } catch (_) {}
-  },
   _sayGlyph: function (ch) {
     if (!this.api.settings.voice) return;
     try { LCSAudio.speak({ type: this.isDigit(ch) ? 'number' : 'word', text: ch, lang: this.api.lang, rate: 0.9 }); } catch (_) {}
@@ -726,6 +780,13 @@ var LetterStudio = {
     go.type = 'button';
     go.textContent = '▸';
     go.setAttribute('aria-label', api.t('a11yWord'));
+    /* ⚠ NOT LIVE OVER AN EMPTY BOX. A control that takes an answer to a
+       question nobody has asked is the defect draw-bag, number-sieve,
+       measurement-bench and estimation-jar all shipped: the handler
+       returned early on empty input, so the button was pressable and
+       inert. Gate it on the MODEL — is there a word — and let it come
+       alive the moment there is one. */
+    var sync = function () { go.disabled = !(inp.value || '').trim(); };
     var submit = function () {
       var v = (inp.value || '').trim();
       if (!v) return;
@@ -733,7 +794,9 @@ var LetterStudio = {
       self._setSequence(v);
     };
     go.addEventListener('click', submit);
+    inp.addEventListener('input', sync);
     inp.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); submit(); } });
+    sync();
     form.appendChild(inp); form.appendChild(go);
     box.appendChild(form);
 
@@ -788,7 +851,7 @@ var LetterStudio = {
           k.setAttribute('aria-label', item.g);
           if (item.g === cur) { k.classList.add('ls-cur'); k.setAttribute('aria-current', 'true'); }
           if (self._store.done && self._store.done[item.g]) k.classList.add('ls-did');
-          if (!self._drawable(item.g)) {
+          if (!item.seq && !self._drawable(item.g)) {
             /* ß has no single-character capital. Show it, disabled, at
                full ink — vanishing a key the tray declares is worse. */
             k.disabled = true;
@@ -797,8 +860,9 @@ var LetterStudio = {
             k.addEventListener('click', function () {
               var keys = self.keys();
               for (var n = 0; n < keys.length; n++) if (keys[n].g === item.g) { self.index = n; break; }
-              self.seq = null; self.seqAt = 0;
               self.pickerOpen = false;
+              if (item.seq) { self._setSequence(item.g); return; }   /* a digraph is written letter by letter */
+              self.seq = null; self.seqAt = 0;
               self._reset(); self.render();
               self._demo();
             });
@@ -846,7 +910,11 @@ var LetterStudio = {
     var self = this, api = this.api;
     var box = api.el('div', 'ls-card');
     var ch = this._current();
-    if (!ch || !this.core || !this.tracer) { box.appendChild(api.el('div', 'ls-loading')); return box; }
+    /* ⚠ AND THE GLYPH MUST EXIST. `_buildSheet` reads `g.length`
+       unguarded, so any key the index can land on but the table cannot
+       draw threw and blanked the tool. German's capital ß is the live
+       case. Fall back rather than crash. */
+    if (!ch || !this.core || !this.tracer || !this._glyph(ch)) { box.appendChild(api.el('div', 'ls-loading')); return box; }
 
     if (this.seq) {
       var strip = api.el('div', 'ls-seq');
@@ -930,6 +998,13 @@ var LetterStudio = {
           b.type = 'button'; b.textContent = pair[0];
           b.setAttribute('aria-label', pair[0]);
           b.setAttribute('aria-pressed', self.upper === pair[1] ? 'true' : 'false');
+          /* ⚠ THE SELECTED HALF OF A PAIR IS NOT A CONTROL, and leaving it
+             pressable is the recorded Syllable Splitter defect: the click
+             handler returned early, so it looked exactly like a button and
+             did nothing at all. `disabled` says so honestly — and
+             `.ls-caseb:disabled` keeps it at FULL contrast, because it is
+             the active one, not an unavailable one. */
+          b.disabled = self.upper === pair[1];
           b.addEventListener('click', function () {
             if (self.upper === pair[1]) return;
             self.upper = pair[1]; self._reset(); self.render();
@@ -1023,8 +1098,17 @@ var LetterStudio = {
       dp.setAttribute('class', 'ls-ink' + (g[i] && this._isDot(g[i]) ? ' ls-dot' : ''));
       sv.appendChild(dp);
     }
+    /* ⚠ AND THE IN-PROGRESS STROKE MUST BE REDRAWN, not just remembered.
+       The tracer keeps its cursor through a mid-stroke lift — that is the
+       whole of fix 6 in this file's header — but `_endStroke` calls
+       `render()`, which rebuilt this path EMPTY. So the model kept the
+       child's work and the picture threw it away: a four-year-old who
+       lifted to re-grip watched their line vanish and was then judged as
+       though it were still there. Keeping `this.cur` on screen is what
+       makes the promise true. */
     this._curPath = document.createElementNS(NS, 'path');
     this._curPath.setAttribute('class', 'ls-ink ls-ink-live');
+    if (this.cur && this.cur.length) this._curPath.setAttribute('d', this._d(this.cur));
     sv.appendChild(this._curPath);
 
     /* THE HAIRLINE — thin, high contrast, drawn LAST so the exact path
@@ -1040,7 +1124,7 @@ var LetterStudio = {
     /* stroke numbers + direction arrows. A green dot says WHERE; it does
        not say which way, nor which stroke comes first — and on a round
        letter it is compatible with both directions. */
-    if (this.api.settings.arrows && !formed) {
+    if ((this.api.settings.arrows || this._forceArrows) && !formed) {
       var spots = this._numberSpots(g);
       for (i = 0; i < g.length; i++) this._annotate(sv, g[i], i, i === done, spots[i]);
     }
@@ -1267,9 +1351,14 @@ var LetterStudio = {
          repeated stalls the arrows travel, then the firefly runs this one
          stroke, then the corridor silently widens. Never a red mark. */
       this.stalls++;
-      if (this.stalls === 2 && this.api.settings.arrows) { /* the arrows are already shown */ }
+      /* ⚠ The first rung used to be an EMPTY BLOCK with a comment, gated
+         on a setting the teacher can switch off -- the header promised
+         three rungs and the first did nothing. Show the arrows for this
+         one stroke regardless of the setting, then run the firefly, then
+         widen the corridor ONCE. */
+      if (this.stalls === 2) this._forceArrows = true;
       if (this.stalls === 3) { this.render(); this._demo(true); return; }
-      if (this.stalls >= 4 && this.tracer.relax) this.tracer.relax(this.trace);
+      if (this.stalls === 4 && this.tracer.relax) this.tracer.relax(this.trace);
     }
     if (res === 'formed') {
       this._markDone(ch);
@@ -1384,15 +1473,39 @@ var LetterStudio = {
       p.setAttribute('d', this._d(g[i]));
       p.setAttribute('class', 'ls-phair' + (this._isDot(g[i]) ? ' ls-dot' : ''));
       sv.appendChild(p);
-      this._annotate(sv, g[i], i, true, pspots[i]);
+      /* the screen path gates these on settings.arrows; hard-coding them
+         here meant a teacher who turned the arrows off still printed them */
+      if (this.api.settings.arrows) this._annotate(sv, g[i], i, true, pspots[i]);
     }
     box.appendChild(sv);
     return box;
   },
 
+  /* ⚠ THE PRINTED RULING MUST CARRY THE BAND. German Kontrastlineatur,
+     Dutch romphoogte and the Brazilian pauta shade the zone the small
+     letters live in, and both native ensembles called it the most
+     recognisable feature of their own paper. The print path read only
+     `ruling.zones`, so the PAID Brazilian worksheet printed with the
+     letter body unbounded -- and pt has a band and NO line at y=44, so
+     there was nothing at all marking the x-height. Line art, so it is an
+     outlined box rather than a fill: Chrome ships background graphics
+     off by default and a grey fill would vanish. */
+  _printBand: function (sv, x0, x1) {
+    var ruling = this.rulingFor(this.api.lang);
+    if (!ruling.band) return;
+    var NS = 'http://www.w3.org/2000/svg';
+    var r = document.createElementNS(NS, 'rect');
+    r.setAttribute('x', String(x0)); r.setAttribute('width', String(x1 - x0));
+    r.setAttribute('y', String(ruling.band.from));
+    r.setAttribute('height', String(ruling.band.to - ruling.band.from));
+    r.setAttribute('class', 'ls-pband');
+    sv.appendChild(r);
+  },
+
   _printRuling: function (sv) {
     var NS = 'http://www.w3.org/2000/svg';
     var ruling = this.rulingFor(this.api.lang);
+    this._printBand(sv, 0, 100);
     for (var z = 0; z < ruling.zones.length; z++) {
       var zn = ruling.zones[z];
       var ln = document.createElementNS(NS, 'line');
@@ -1420,6 +1533,7 @@ var LetterStudio = {
 
     /* the ruling runs the whole row, unbroken, in the locale's own system */
     var ruling = this.rulingFor(api.lang);
+    this._printBand(sv, 0, 100 * COPIES);
     for (var z = 0; z < ruling.zones.length; z++) {
       var zn = ruling.zones[z];
       var ln = document.createElementNS(NS, 'line');
@@ -1456,11 +1570,6 @@ var LetterStudio = {
     if (this._wrap) this.render();
   }
 };
-
-/* the greeting demo runs once, because `strings.instruction` is
-   display:none in every embed and the tool page always embeds — the
-   firefly IS the instruction, and it is the one this tool already owns. */
-function self_demo(t) { try { t._demo(); } catch (_) {} }
 
 function injectLetterStudioCSS() {
   if (document.getElementById('ls-style')) return;
@@ -1509,7 +1618,6 @@ function injectLetterStudioCSS() {
     + '.ls-card{position:relative;width:100%;background:#FFFDF7;'
     + 'border-radius:20px;box-shadow:0 6px 22px rgba(20,107,94,.10),0 1px 3px rgba(0,0,0,.06);'
     + 'padding:14px 12px 12px;display:flex;flex-direction:column;align-items:center;gap:10px;box-sizing:border-box;}'
-    + '.ls-lead{font:600 clamp(15px,3.4cqi,19px)/1.4 Nunito,system-ui,sans-serif;color:#146B5E;text-align:center;margin:0;}'
     + '.ls-sheet{width:var(--ls-sheet);aspect-ratio:100/98;background:#FFFEFB;'
     + 'border:2px solid rgba(20,107,94,.18);border-radius:14px;overflow:hidden;}'
     + '.ls-svg{width:100%;height:100%;display:block;touch-action:none;cursor:crosshair;}'
@@ -1561,6 +1669,9 @@ function injectLetterStudioCSS() {
     + '.ls-caseb{min-width:44px;min-height:44px;font:700 19px/1 Nunito,system-ui,sans-serif;'
     + 'color:#146B5E;background:#FFFDF7;border:none;cursor:pointer;padding:0 10px;}'
     + '.ls-caseb.ls-on{background:#146B5E;color:#FFFDF7;}'
+    /* the selected half is `disabled` because it is ACTIVE, not because it
+       is unavailable — so it keeps full contrast and the normal cursor */
+    + '.ls-caseb:disabled{opacity:1;cursor:default;}'
 
     /* ---- the word / name strip ---- */
     + '.ls-seq{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;align-items:baseline;}'
@@ -1649,6 +1760,7 @@ function injectLetterStudioPrintCSS() {
     + '.ls-prule-faint{stroke:#999;}'
     + '.ls-prule-mid{stroke:#666;}'
     + '.ls-prule-strong{stroke:#222;stroke-width:.9;}'
+    + '.ls-pband{fill:none;stroke:#bbb;stroke-width:.4;stroke-dasharray:1.5 2;vector-effect:non-scaling-stroke;}'
     + '.ls-pdash{stroke-dasharray:2 3;}'
     + '.ls-phair{fill:none;stroke:#111;stroke-width:1.8;stroke-linecap:butt;stroke-linejoin:round;'
     + 'vector-effect:non-scaling-stroke;}'

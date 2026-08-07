@@ -24,20 +24,23 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
   const { user, loading: authLoading } = useAuth();
 
   if (authLoading) {
-    return <p className="font-lcsBody text-sm text-lcs-teal/60">{t('loading')}</p>;
+    return <p className="font-lcsBody text-sm text-[#5E706A]">{t('loading')}</p>;
   }
 
+  // Both gates render on the DESK, with no panel behind them — there is no
+  // working surface to show yet. The focus-ring offset is therefore the desk
+  // color, not the sheet color used everywhere inside the panel.
   if (!user) {
     return (
       <div className="max-w-2xl py-4">
-        <h1 className="mb-3 font-lcsDisplay text-3xl font-extrabold text-lcs-teal">
+        <h1 className="mb-2.5 font-lcsDisplay text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#14322D] md:text-[2rem]">
           {t('gate.signInPromptTitle')}
         </h1>
-        <span aria-hidden="true" className="mb-4 block h-1.5 w-16 rounded-full bg-lcs-coral" />
-        <p className="mb-7 font-lcsBody text-lcs-teal/80">{t('gate.signInPromptBody')}</p>
+        <span aria-hidden="true" className="mb-3.5 block h-1.5 w-14 rounded-full bg-lcs-coral" />
+        <p className="mb-7 font-lcsBody text-[#3D4F49]">{t('gate.signInPromptBody')}</p>
         <Link
           href={`/${locale}/auth/signin`}
-          className="inline-flex min-h-[44px] items-center rounded-2xl bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
+          className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#E7E1D2]"
         >
           {t('gate.signInCta')}
         </Link>
@@ -48,15 +51,15 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
   if (!isLcsSubscriptionActive(user)) {
     return (
       <div className="max-w-2xl py-4">
-        <h1 className="mb-3 font-lcsDisplay text-3xl font-extrabold text-lcs-teal">
+        <h1 className="mb-2.5 font-lcsDisplay text-[1.75rem] font-extrabold leading-[1.15] tracking-[-0.02em] text-[#14322D] md:text-[2rem]">
           {t('gate.subscriberTitle')}
         </h1>
-        <span aria-hidden="true" className="mb-4 block h-1.5 w-16 rounded-full bg-lcs-coral" />
-        <p className="mb-7 font-lcsBody text-lcs-teal/80">{t('gate.subscriberBody')}</p>
+        <span aria-hidden="true" className="mb-3.5 block h-1.5 w-14 rounded-full bg-lcs-coral" />
+        <p className="mb-7 font-lcsBody text-[#3D4F49]">{t('gate.subscriberBody')}</p>
         {PRICING_PUBLIC && (
           <Link
             href={`/${locale}/pricing`}
-            className="inline-flex min-h-[44px] items-center rounded-2xl bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
+            className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#E7E1D2]"
           >
             {t('gate.subscriberCta')}
           </Link>

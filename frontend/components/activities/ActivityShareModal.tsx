@@ -11,6 +11,20 @@ import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useTranslations } from 'next-intl';
 
+/**
+ * Palette note (2026-08-07): this modal was the last surface still wearing the
+ * pre-Direction-A editorial skin — Fraunges `font-display`, `text-ink-900`,
+ * `border-cream-300`, and Tailwind's STOCK `teal-700` #0F766E, which is not the
+ * brand teal #146B5E. Both callers (the activity page and the workspace) are
+ * Direction A surfaces, so clicking Share opened a modal in a visibly different
+ * design language from the page behind it. This is a palette/typography change
+ * only — no behavior, no props, no copy.
+ */
+const MODAL_FOCUS =
+  'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8]';
+
+const SECONDARY = `${MODAL_FOCUS} rounded-full border border-lcs-teal px-4 py-1.5 font-lcsBody text-sm font-bold text-lcs-teal transition-colors hover:bg-lcs-teal hover:text-[#FFFDF8]`;
+
 export interface ActivityShare {
   title: string;
   url: string;
@@ -90,28 +104,31 @@ export default function ActivityShareModal({
       onClick={onClose}
     >
       <div
-        className="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 md:p-8 text-center"
+        className="w-full max-w-md rounded-2xl bg-[#FFFDF8] p-6 text-center shadow-xl md:p-8"
         onClick={(e) => e.stopPropagation()}
       >
-        <h3 id="activity-share-title" className="font-display text-xl font-semibold text-ink-900 mb-1">
+        <h3
+          id="activity-share-title"
+          className="mb-1 font-lcsDisplay text-xl font-bold tracking-[-0.01em] text-[#14322D]"
+        >
           {share.title}
         </h3>
-        <p className="text-sm text-ink-500 mb-5">{intro}</p>
+        <p className="mb-5 font-lcsBody text-sm text-[#5E706A]">{intro}</p>
 
         <img
           src={share.qrUrl}
           alt={qrAlt}
           width={220}
           height={220}
-          className="mx-auto rounded-xl border border-cream-300 bg-white p-2"
+          className="mx-auto rounded-xl border border-[#14322D]/10 bg-[#FFFDF8] p-2"
         />
 
-        <div className="mt-5 flex items-center gap-2 rounded-lg border border-cream-300 bg-cream-50 p-2">
+        <div className="mt-5 flex items-center gap-2 rounded-xl border border-[#14322D]/10 bg-[#F5F1E6] p-2">
           <input
             readOnly
             value={share.url}
             onFocus={(e) => e.currentTarget.select()}
-            className="min-w-0 flex-1 bg-transparent px-2 text-sm text-ink-700 outline-none"
+            className="min-w-0 flex-1 bg-transparent px-2 font-lcsBody text-sm text-[#3D4F49] outline-none"
             aria-label={linkLabel}
           />
           <button
@@ -119,7 +136,7 @@ export default function ActivityShareModal({
             onClick={() => {
               try { navigator.clipboard.writeText(share.url); setCopied(true); setTimeout(() => setCopied(false), 1800); } catch { /* no-op */ }
             }}
-            className="shrink-0 rounded-md bg-teal-700 px-3 py-1.5 text-sm font-semibold text-white hover:bg-teal-800 transition"
+            className={`${MODAL_FOCUS} shrink-0 rounded-full bg-lcs-teal px-3 py-1.5 font-lcsBody text-sm font-bold text-[#FFFDF8] transition-colors hover:bg-lcs-teal-deep`}
           >
             {copied ? copiedLabel : copyLabel}
           </button>
@@ -130,7 +147,7 @@ export default function ActivityShareModal({
             href={share.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-teal-700 px-4 py-1.5 text-sm font-semibold text-teal-800 hover:bg-teal-700 hover:text-white transition"
+            className={SECONDARY}
           >
             {openLabel}
           </a>
@@ -138,16 +155,16 @@ export default function ActivityShareModal({
             href={share.qrUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-teal-700 px-4 py-1.5 text-sm font-semibold text-teal-800 hover:bg-teal-700 hover:text-white transition"
+            className={SECONDARY}
           >
             {downloadQrLabel}
           </a>
         </div>
 
-        <p className="mt-5 text-xs text-ink-500">{noteLabel}</p>
+        <p className="mt-5 font-lcsBody text-xs text-[#5E706A]">{noteLabel}</p>
         {workspaceHref && (
-          <p className="mt-3 text-xs text-ink-500">
-            <a href={workspaceHref} className="text-teal-700 font-semibold hover:underline">
+          <p className="mt-3 font-lcsBody text-xs text-[#5E706A]">
+            <a href={workspaceHref} className="font-bold text-lcs-teal hover:underline">
               {t('savedToWorkspace')}
             </a>
           </p>
@@ -155,7 +172,7 @@ export default function ActivityShareModal({
         <button
           type="button"
           onClick={onClose}
-          className="mt-4 text-sm text-ink-500 hover:text-ink-800 underline"
+          className="mt-4 font-lcsBody text-sm text-[#5E706A] underline underline-offset-4 transition-colors hover:text-[#14322D]"
         >
           {closeLabel}
         </button>

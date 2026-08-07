@@ -27,15 +27,22 @@ export default function WorkspaceEmptyState({
   variant = 'card',
 }: WorkspaceEmptyStateProps) {
   return (
+    // A WELL, not a raised card: it sits inside the sheet, so it recedes.
+    // py-12 came down to py-10 — an empty region does not need to be the tallest
+    // thing on the page.
     <div
       className={
         variant === 'card'
-          ? 'actcat-card-flat rounded-3xl px-4 py-12 text-center'
-          : 'px-4 py-10 text-center'
+          ? 'rounded-2xl border border-[#14322D]/10 bg-[#F5F1E6] px-6 py-10 text-center'
+          : 'px-4 py-8 text-center'
       }
     >
-      <h3 className="mb-2 font-lcsDisplay text-lg font-bold text-lcs-teal">{title}</h3>
-      <p className="mx-auto mb-6 max-w-md font-lcsBody text-sm text-lcs-teal/70">{body}</p>
+      <h3 className="mb-2 font-lcsDisplay text-[0.9375rem] font-bold tracking-[-0.005em] text-[#14322D]">
+        {title}
+      </h3>
+      <p className="mx-auto mb-6 max-w-sm font-lcsBody text-[0.8125rem] leading-relaxed text-[#3D4F49]">
+        {body}
+      </p>
       {action}
     </div>
   );

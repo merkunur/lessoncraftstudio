@@ -6,9 +6,11 @@ import ActivityShareModal from '@/components/activities/ActivityShareModal';
 import ConfirmDialog from '@/components/ui/ConfirmDialog';
 import PromptDialog from '@/components/ui/PromptDialog';
 import ClientPagination from '@/components/ui/ClientPagination';
-import WorkspaceSection, { WorkspaceSectionMessage } from '../WorkspaceSection';
+import WorkspaceSection, { WorkspaceSectionMessage, QuotaMeter } from '../WorkspaceSection';
 import WorkspaceListToolbar from '../WorkspaceListToolbar';
 import WorkspaceEmptyState from '../WorkspaceEmptyState';
+import WorkspaceRow, { ROW_LIST, MetaChip, MetaDot } from '../WorkspaceRow';
+import RowActionsMenu from '../RowActionsMenu';
 import { usePagedList } from '../usePagedList';
 import { filterAndSort } from '../listUtils';
 import { PAGE_SIZE, OVERVIEW_PREVIEW, type SortKey } from '../constants';
@@ -113,7 +115,15 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
       <WorkspaceSection
         id="ws-shared"
         title={tShared('title')}
-        meter={limit ? t('quotaLabel', { count: limit.count, max: limit.maxCount }) : undefined}
+        meter={
+          limit ? (
+            <QuotaMeter
+              label={t('quotaLabel', { count: limit.count, max: limit.maxCount })}
+              count={limit.count}
+              max={limit.maxCount}
+            />
+          ) : undefined
+        }
         variant={variant}
         totalCount={rows.length}
         onSeeAll={onSeeAll}
@@ -142,51 +152,64 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
               <button
                 type="button"
                 onClick={() => setQuery('')}
-                className="inline-flex min-h-[44px] items-center justify-center rounded-2xl bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
+                className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
               >
                 {tList('clearSearch')}
               </button>
             }
           />
         ) : (
-          <ul className="space-y-3">
+          <ul className={ROW_LIST}>
             {shown.map((row) => (
-              <li
+              <WorkspaceRow
                 key={row.id}
-                /* flat, not .actcat-card — see HostedWorksheetsSection. */
-                className="actcat-card-flat flex flex-wrap items-center gap-3 rounded-2xl px-4 py-3"
-              >
-                {/* basis-full on phones — see HostedWorksheetsSection. */}
-                <div className="min-w-0 basis-full sm:basis-0 sm:flex-1">
-                  <p className="truncate font-lcsDisplay font-bold text-lcs-teal">{row.title}</p>
-                  <p className="font-lcsBody text-xs text-lcs-teal/60">
-                    {row.locale.toUpperCase()} · {tShared('views', { count: row.viewCount })}
-                  </p>
-                </div>
-                <div className="flex shrink-0 flex-wrap items-center gap-2">
-                  <button
-                    type="button"
-                    onClick={() => setShareRow(row)}
-                    className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-teal px-4 py-1.5 font-lcsBody text-sm font-semibold text-lcs-cream transition-colors hover:bg-lcs-teal-deep"
-                  >
-                    {tShared('share')}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => { setRenameRow(row); setDialogError(null); }}
-                    className="inline-flex min-h-[44px] items-center rounded-full border border-lcs-teal/25 px-3 py-1 font-lcsBody text-sm font-semibold text-lcs-teal/80 transition-colors hover:border-lcs-teal hover:text-lcs-teal"
-                  >
-                    {tShared('rename')}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setDeleteRow(row)}
-                    className="inline-flex min-h-[44px] items-center rounded-full border border-terracotta-400 px-3 py-1 font-lcsBody text-sm font-semibold text-terracotta-500 transition-colors hover:bg-terracotta-500 hover:text-white"
-                  >
-                    {tShared('delete')}
-                  </button>
-                </div>
-              </li>
+                title={row.title}
+                meta={
+                  <>
+                    <MetaChip>{row.locale.toUpperCase()}</MetaChip>
+                    <span className="tabular-nums">
+                      {tShared('views', { count: row.viewCount })}
+                    </span>
+                    <MetaDot />
+                    <span className="tabular-nums">
+                      {new Date(row.updatedAt).toLocaleDateString(locale, {
+                        day: 'numeric',
+                        month: 'short',
+                      })}
+                    </span>
+                  </>
+                }
+                actions={
+                  <>
+                    <button
+                      type="button"
+                      onClick={() => setShareRow(row)}
+                      className="inline-flex h-11 items-center justify-center rounded-full bg-lcs-teal px-4 font-lcsBody text-[0.8125rem] font-bold tracking-[0.01em] text-[#FFFDF8] transition-colors hover:bg-lcs-teal-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9"
+                    >
+                      {tShared('share')}
+                    </button>
+                    <RowActionsMenu
+                      label={tList('rowActions')}
+                      actions={[
+                        {
+                          key: 'rename',
+                          label: tShared('rename'),
+                          onSelect: () => {
+                            setRenameRow(row);
+                            setDialogError(null);
+                          },
+                        },
+                        {
+                          key: 'delete',
+                          label: tShared('delete'),
+                          destructive: true,
+                          onSelect: () => setDeleteRow(row),
+                        },
+                      ]}
+                    />
+                  </>
+                }
+              />
             ))}
           </ul>
         )}

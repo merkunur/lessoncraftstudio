@@ -46,35 +46,48 @@ export default function WorkspaceListToolbar({
     <div className="mb-5 space-y-3">
       {searchable && (
         <div className="relative">
+          {/* A well that becomes paper when focused — the focus state is a
+              surface change, so it needs no ring on top of the border shift. */}
           <input
             type="search"
             value={query}
             onChange={(e) => onQueryChange(e.target.value)}
             placeholder={t('searchPlaceholder')}
             aria-label={t('searchLabel')}
-            className="min-h-[44px] w-full rounded-2xl border border-lcs-teal/20 bg-white px-4 py-2 font-lcsBody text-sm text-lcs-teal outline-none transition-colors placeholder:text-lcs-teal/40 focus:border-lcs-coral md:max-w-sm"
+            className="min-h-[44px] w-full rounded-xl border border-[#14322D]/10 bg-[#F5F1E6] px-3.5 py-2 font-lcsBody text-sm text-[#14322D] outline-none transition-colors placeholder:text-[#9AA8A3] focus:border-lcs-coral focus:bg-[#FFFDF8] md:max-w-xs"
           />
         </div>
       )}
 
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="font-lcsBody text-sm font-semibold text-lcs-teal/70">
+        <p className="font-lcsBody text-[0.6875rem] font-bold uppercase tracking-[0.1em] text-[#5E706A]">
           {t('showing', { from, to, total })}
         </p>
 
-        <div className="flex items-center gap-2">
-          <span className="font-lcsBody text-xs font-bold uppercase tracking-[0.12em] text-lcs-teal/55">
+        <div className="flex min-w-0 items-center gap-2">
+          <span className="shrink-0 whitespace-nowrap font-lcsBody text-[0.6875rem] font-bold uppercase tracking-[0.1em] text-[#5E706A]">
             {tSort('heading')}
           </span>
-          <div className="inline-flex rounded-full bg-lcs-teal/8 p-0.5">
+          {/* A TRUE segmented control: a light raised thumb on a dark track.
+              The old active state was a solid teal fill, which is far too much
+              weight for a view toggle and spent the "you are here" color on
+              something that is not navigation. */}
+          {/* Scrolls rather than wraps. At 360px the four options do not fit,
+              and letting them wrap broke "A to Z" across three lines inside its
+              own pill — the same reason the tab strip scrolls. */}
+          <div className="flex min-w-0 max-w-full overflow-x-auto rounded-full bg-[#14322D]/[0.05] p-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {sortOptions.map((opt) => (
               <button
                 key={opt}
                 type="button"
                 onClick={() => onSortChange(opt)}
                 aria-current={sort === opt ? 'true' : undefined}
-                className={`inline-flex min-h-[44px] items-center rounded-full px-3.5 py-1 font-lcsBody text-sm font-semibold transition-colors ${
-                  sort === opt ? 'bg-lcs-teal text-lcs-cream' : 'text-lcs-teal/80 hover:text-lcs-teal'
+                /* h-11 below md: a 36px control is a mouse target, not a
+                   finger one. Desktop keeps the 36px list density. */
+                className={`inline-flex h-11 shrink-0 items-center whitespace-nowrap rounded-full px-3 font-lcsBody text-[0.8125rem] font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9 ${
+                  sort === opt
+                    ? 'bg-[#FFFDF8] text-[#14322D] shadow-[0_1px_2px_rgba(20,50,45,0.10)]'
+                    : 'text-[#5E706A] hover:text-[#14322D]'
                 }`}
               >
                 {sortLabel(opt)}

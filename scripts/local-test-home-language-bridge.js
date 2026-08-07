@@ -135,8 +135,20 @@ const server = http.createServer((req, res) => {
   });
   await p.click('[data-fk="showboard"]');
   await new Promise((r) => setTimeout(r, 200));
-  is(await p.evaluate(() => !!document.querySelector('.hlb-big.hlb-open')),
-     'the FOURTH phrase still goes on the board — authoring and using are free');
+  /* ⚠⚠ THIS ASSERTION USED TO CHECK FOR THE BIG VIEW, and it passed on a
+     button whose label was FALSE IN ELEVEN LANGUAGES. "Put it on the
+     board" set a one-shot hold-up overlay that the next tap discarded;
+     the phrase never reached the board, while `gateKeep` sold the free
+     tier on "writing them and using them is always free". TWO native
+     panels found it independently by reading the model rather than the
+     copy — and my test had been asserting the defect.
+     It now checks the thing the label claims. */
+  const onBoard = await p.evaluate(() => {
+    const board = document.querySelector('.hlb-board');
+    return board ? board.querySelectorAll('.hlb-card.hlb-mine').length : 0;
+  });
+  is(onBoard >= 1,
+     `the FOURTH phrase is ON THE BOARD, not just previewed — authoring and using are free (${onBoard} own card(s))`);
 
   console.log('');
   console.log('[print]');

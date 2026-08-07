@@ -109,11 +109,33 @@ const BANS = [
    'I will be good', 'I want to try'],
 
   /* naming another child, spoken aloud by a device, is an allegation */
-  ['bullying, which has a threshold and a procedure', W('bullying|mobbing|harcèlement|acoso|bullismo|pesten|mobbning|mobbeting|kiusaaminen'),
-   'Someone is bullying me', 'Someone is being unkind to me'],
+  /* ⚠⚠ INFLECTED FORMS AND VERBS, NOT DICTIONARY NOUNS. The Nordic
+     panel found this table policing the TRANSLATION rather than the
+     language: Norwegian `uhell` was absent, Swedish `olycka` and
+     `missöde` were absent entirely, Danish is `mobning` not `mobbing`
+     — and every bullying entry was a NOUN while the sentence a native
+     actually writes uses the VERB (`Någon mobbar mig`, `Nogen mobber
+     mig`, `Joku kiusaa minua`), so all three sailed through.
+     The bans were written in English and translated, which is the
+     ``-is-ASCII-only trap in a new dress: a citation form is
+     inflection-only. */
+  /* ⚠ `\\w` — DOUBLED, because this is a JS STRING passed to the RegExp
+     constructor, and a single `\w` inside a single-quoted literal is
+     just the letter w. The first version of this fix shipped `mobbw*`
+     and the self-test caught it as BORN DEAD, which is the whole reason
+     every ban carries a must-fire example. */
+  ['bullying, which has a threshold and a procedure',
+   W('bullying|bullied|mobb\\w*|mobn\\w*|harcèlement|harcel\\w*|acoso|acosa\\w*|bullismo|pesten|pest\\w*|kiusaa\\w*'),
+   'Nogen mobber mig', 'Someone is being mean to me'],
 
-  ['a blame word on a body card', W('accident|unfall|accidente|incidente|ongelukje|uheld|vahinko'),
-   'I had an accident', 'I need dry clothes']
+  ['a blame word on a body card',
+   W('accident|unfall|accidente|incidente|ongelukje|uheld|uhell|olyck\\w*|missöde|vahinko|vahingo\\w*'),
+   'Jeg har hatt et uhell', 'I need dry clothes'],
+
+  /* ⚠ the Finnish a teacher actually says, not a calque of "sit down" */
+  ['an adult-voice command, in the forms a native writes',
+   W('ole hiljaa|olkaa hiljaa|istukaa|vær stille|var tyst|vær stille|wees stil'),
+   'Ole hiljaa', 'Tarvitsen apua']
 ];
 
 function selfTest() {
@@ -156,7 +178,13 @@ const IDENTICAL_OK = {
   yes:        ['de', 'nl', 'sv', 'da'],   /* "Ja" in all four */
   no:         ['it', 'es', 'nl'],         /* Italian, Spanish and Dutch all write "No" */
   hello:      ['de', 'nl'],               /* "Hallo" */
-  stop:       ['nl', 'da'],               /* "Stop" */
+  stop:       ['nl', 'da', 'fr'],         /* "Stop" — and fr joined the list
+                                             on the panel's ruling: French
+                                             schools say "Stop !", it is
+                                             register-neutral where the
+                                             tutoiement of "Arrête" is not,
+                                             and it is understood by every
+                                             child in the room. */
   sorry:      ['nl'],                     /* Dutch has borrowed it wholesale */
   iconRecent: ['nl'],                     /* Dutch UI convention really is "Recent" */
   printName:  ['de'],                     /* "Name" is German for name */

@@ -65,18 +65,36 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     /* the busiest resting state this tool has: the densest field, a
        marker down, and the gate line showing */
     await page.evaluate(() => {
-      const bar = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
-      if (bar[2]) bar[2].click();
+      /* the gate line first: cycling the library is what raises it now */
+      const T = window.NumberSieve;
+      if (T) { T.premiumKnown = true; T.premium = false; }
+      const lib = document.querySelector('[data-fk="chip:lib"]');
+      if (lib) { for (let i = 0; i < 12; i++) lib.click(); }
     });
-    await wait(260);
+    await wait(200);
+    await page.evaluate(() => {
+      /* then the densest field — name the control, do not count siblings */
+      const b = document.querySelector('[data-fk="chip:f120"]');
+      if (b) b.click();
+    });
+    await wait(300);
     await page.evaluate(() => { const c = document.querySelector('.nsv-cell[data-n="7"]'); if (c) c.click(); });
     await wait(160);
-    await page.evaluate(() => {
-      const f = Array.from(document.querySelectorAll('.nsv-foot .nsv-chip'));
-      const pr = f[f.length - 1];
-      if (pr) pr.click();
-    });
-    await wait(240);
+
+
+    /* ⭐ THE GUARD. Everything below measures the DENSEST board. If it
+       is not on screen this run is measuring a different object and
+       must fail loudly rather than pass quietly. */
+    const onScreen = await page.evaluate(() => document.querySelectorAll('.nsv-cell').length);
+    is(onScreen === 120, `[${loc}] the densest field really is on screen (${onScreen} cells)`);
+    if (onScreen !== 120) { await page.close(); continue; }
+    /* and the states this audit claims to be measuring really were
+       entered: a marker parked, and the gate line showing */
+    const primed = await page.evaluate(() => ({
+      marked: document.querySelectorAll('.nsv-cell.nsv-marked').length,
+      gate: (() => { const g = document.querySelector('.nsv-gate'); return g ? getComputedStyle(g).display !== 'none' : false; })()
+    }));
+    is(primed.marked > 0, `[${loc}] a marker really is parked (${primed.marked})`);
 
     for (const [w, h] of VIEWPORTS) {
       await page.setViewport({ width: w, height: h });

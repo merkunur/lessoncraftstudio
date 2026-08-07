@@ -77,7 +77,7 @@ const ALL_TOOLS = ['class-graph', 'number-balance', 'pattern-bench', 'sorting-ho
      never covered it. This gate is the ONLY instrument that can see a
      consequence-free control, and it is what caught the numeral strip on #39
      whose entire effect in 1067 lines was its own highlight class. */
-  'letter-studio'];
+  'letter-studio', 'number-sieve'];
 
 function prefixOf(tool) {
   const f = path.join(MINI, tool + '.js');

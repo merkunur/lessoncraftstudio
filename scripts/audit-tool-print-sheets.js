@@ -190,6 +190,12 @@ const TOOLS = [
     }
   },
   { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' },
+  {
+    /* the CHILD sheet, which is free — a blank field and the empty
+       numbered boxes a child copies each card face into. No prime: if
+       this needs premium to exist, that is the defect. */
+    key: 'number-sieve', p: 'nsv', apparatus: '.nsv-page', chrome: '.nsv-foot'
+  },
   /* the three found printing the whole web page, now with sheets */
   /* ⚠ arrow-strip NOW PRINTS A PURPOSE-BUILT PLANNING SHEET, and it is
      DOUBLE-LOCKED. The apparatus on paper is `.arw-pmat` — the line-art

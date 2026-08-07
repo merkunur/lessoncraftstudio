@@ -122,6 +122,17 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  'number-sieve': [
+    { sel: '[data-fk="chip:f100"]', wait: 320 },
+    { sel: '.nsv-cell[data-n="7"]', wait: 90 },
+    { sel: '.nsv-cell[data-n="23"]', wait: 90 },
+    { sel: '.nsv-cell[data-n="58"]', wait: 120 },
+    /* turn every dealt card, leaving the three candidates face up and
+       the question on the hint line — the moment the tool exists for */
+    { sel: '.nsv-card.nsv-next', times: 1, wait: 300 },
+    { sel: '.nsv-card.nsv-next', times: 1, wait: 300 },
+    { sel: '.nsv-card.nsv-next', times: 1, wait: 400 }
+  ],
   /* ⭐ LETTER STUDIO AT REST IS A PALE UNTRACED LETTER, and the whole
      story of this tool is a firefly walking the stroke order and then a
      child writing the letter themselves. The card it replaces showed an

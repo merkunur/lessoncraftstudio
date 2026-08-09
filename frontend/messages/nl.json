@@ -873,11 +873,11 @@
     },
     "gate": {
       "subscriberTitle": "Dit onderdeel hoort bij het LessonCraftStudio-abonnement",
-      "subscriberBody": "Collecties en werkruimte-tools zijn functies voor abonnees. Al het andere op LessonCraftStudio — werkbladen, activiteiten en printables — blijft gratis.",
+      "subscriberBody": "Verzamelingen en werkruimte-tools zijn functies voor abonnees. Al het andere op LessonCraftStudio — werkbladen, activiteiten en printables — blijft gratis.",
       "subscriberCta": "Bekijk abonnementen",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Meld u aan om verder te gaan",
+      "signInPromptBody": "Voor dit onderdeel is een account nodig. Aanmelden is gratis en kost maar een momentje.",
+      "signInCta": "Gratis aanmelden"
     },
     "addAffordance": {
       "label": "Toevoegen aan verzameling",
@@ -1832,7 +1832,7 @@
     },
     "metadata": {
       "title": "Uw werkruimte",
-      "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+      "description": "Uw werkruimte: verzamelingen, recente activiteit en de tools om uw lessen georganiseerd te houden, alles op één plek."
     },
     "header": {
       "title": "Werkruimte",
@@ -1840,11 +1840,11 @@
     },
     "gate": {
       "subscriberTitle": "Dit onderdeel hoort bij het LessonCraftStudio-abonnement",
-      "subscriberBody": "Collecties en werkruimte-tools zijn functies voor abonnees. Al het andere op LessonCraftStudio — werkbladen, activiteiten en printables — blijft gratis.",
+      "subscriberBody": "Verzamelingen en werkruimte-tools zijn functies voor abonnees. Al het andere op LessonCraftStudio — werkbladen, activiteiten en printables — blijft gratis.",
       "subscriberCta": "Bekijk abonnementen",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Meld u aan om verder te gaan",
+      "signInPromptBody": "Voor dit onderdeel is een account nodig. Aanmelden is gratis en kost maar een momentje.",
+      "signInCta": "Gratis aanmelden"
     },
     "loading": "Laden…",
     "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
@@ -1886,7 +1886,7 @@
       "renamePrompt": "Nieuwe naam",
       "delete": "Verwijderen",
       "deleteConfirm": "Dit werkblad verwijderen? De link werkt dan niet meer.",
-      "views": "{count} weergaven",
+      "views": "{count, plural, =1 {1 weergave} other {# weergaven}}",
       "share": "Delen",
       "shareIntro": "Deel dit werkblad met je klas.",
       "qrAlt": "QR-code voor dit werkblad",
@@ -1899,7 +1899,7 @@
     "sharedActivities": {
       "title": "Mijn gedeelde activiteiten",
       "empty": "Activiteiten die je met je klas deelt verschijnen hier.",
-      "views": "{count} weergaven",
+      "views": "{count, plural, =1 {1 speelbeurt} other {# speelbeurten}}",
       "share": "Delen",
       "rename": "Hernoemen",
       "renamePrompt": "Nieuwe naam",
@@ -1970,7 +1970,7 @@
       "pickerCancel": "Annuleren",
       "errorGeneric": "Verzamelingen konden niet worden geladen. Probeer het opnieuw."
     },
-    "packUpsell": "Themapakketten zijn een functie van het Teacher-plan.",
+    "packUpsell": "Themapakketten horen bij het Leerkracht-abonnement.",
     "packTooMany": "Pakketten zijn beperkt tot {max} werkbladen.",
     "packDone": "Pakket met {count} PDF’s gedownload."
   },

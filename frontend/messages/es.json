@@ -888,9 +888,9 @@
       "subscriberTitle": "Esta sección forma parte de la suscripción de LessonCraftStudio",
       "subscriberBody": "Las colecciones y las herramientas del espacio de trabajo son funciones para suscriptores. Todo lo demás en LessonCraftStudio — hojas de trabajo, actividades e imprimibles — sigue siendo gratis.",
       "subscriberCta": "Ver planes",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Necesitas una cuenta para continuar",
+      "signInPromptBody": "Para usar esta función necesitas una cuenta. Registrarte es gratis y lleva solo un momento.",
+      "signInCta": "Únete gratis"
     },
     "addAffordance": {
       "label": "Añadir a la colección",
@@ -3354,7 +3354,7 @@
     },
     "metadata": {
       "title": "Su espacio de trabajo",
-      "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+      "description": "Su espacio de trabajo: colecciones, actividad reciente y las herramientas para organizar sus clases, todo en un solo lugar."
     },
     "header": {
       "title": "Espacio de trabajo",
@@ -3364,9 +3364,9 @@
       "subscriberTitle": "Esta sección forma parte de la suscripción de LessonCraftStudio",
       "subscriberBody": "Las colecciones y las herramientas del espacio de trabajo son funciones para suscriptores. Todo lo demás en LessonCraftStudio — hojas de trabajo, actividades e imprimibles — sigue siendo gratis.",
       "subscriberCta": "Ver planes",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Necesitas una cuenta para continuar",
+      "signInPromptBody": "Para usar esta función necesitas una cuenta. Registrarte es gratis y lleva solo un momento.",
+      "signInCta": "Únete gratis"
     },
     "loading": "Cargando…",
     "errorGeneric": "Algo salió mal. Por favor, inténtelo de nuevo.",
@@ -3408,7 +3408,7 @@
       "renamePrompt": "Nuevo nombre",
       "delete": "Eliminar",
       "deleteConfirm": "¿Eliminar esta ficha? Su enlace dejará de funcionar.",
-      "views": "{count} visitas",
+      "views": "{count, plural, =1 {1 visita} other {# visitas}}",
       "share": "Compartir",
       "shareIntro": "Comparte esta ficha con tu clase.",
       "qrAlt": "Código QR de esta ficha",
@@ -3421,7 +3421,7 @@
     "sharedActivities": {
       "title": "Mis actividades compartidas",
       "empty": "Las actividades que compartas con tu clase aparecerán aquí.",
-      "views": "{count} visitas",
+      "views": "{count, plural, =1 {1 jugada} other {# jugadas}}",
       "share": "Compartir",
       "rename": "Renombrar",
       "renamePrompt": "Nuevo nombre",
@@ -3492,7 +3492,7 @@
       "pickerCancel": "Cancelar",
       "errorGeneric": "No se pudieron cargar las colecciones. Por favor, inténtelo de nuevo."
     },
-    "packUpsell": "Los paquetes de tema son una función del plan Teacher.",
+    "packUpsell": "Los paquetes temáticos forman parte del plan Docente.",
     "packTooMany": "Los paquetes se limitan a {max} fichas.",
     "packDone": "Paquete con {count} PDF descargado."
   },

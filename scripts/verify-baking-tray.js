@@ -164,6 +164,46 @@ for (let R = 1; R <= MAXD; R++) {
 }
 
 isLoud(states > 3000, `censused ${states} legal states across 100 trays (${cracked} of them cracked)`);
+
+/* ⭐⭐ AND THE CENSUS MUST REACH THE OTHER CEILING, because it CERTIFIED
+   the worst defect in the build by never going there. `rotate`, `crack`
+   and `push` rebuilt the state without passing the ceiling, so with the
+   11-and-12 setting on a 12x7 tray of EIGHTY-FOUR buns turned into
+   SEVENTY — conservation, the tool's only claim, false in exactly the
+   configuration the setting sells. This gate enumerated 1..10 and never
+   built a tray the bug could reach, while asserting L1 118,000 times.
+   A census is only exhaustive over the space you let it see. */
+console.log('\n[the census again, at the 11-and-12 ceiling]');
+{
+  let big = 0, broke = 0, worst = '';
+  for (let R = 1; R <= 12; R++) {
+    for (let C = 1; C <= 12; C++) {
+      const s0 = T.newState(R, C, T.MAX12);
+      if (s0.rows !== R || s0.cols !== C) { broke++; worst = `${R}x${C} was clamped to ${s0.rows}x${s0.cols}`; continue; }
+      const seen = new Set([key(s0)]);
+      const q = [s0];
+      while (q.length) {
+        const s = q.shift(); big++;
+        if (T.count(s) !== R * C || T.area(s) !== R * C) {
+          broke++; worst = `${key(s)} holds ${T.area(s)}, not ${R * C}`;
+        }
+        const r1 = T.rotate(s);
+        if (r1 && T.count(r1) !== R * C) { broke++; worst = `${key(s)} turned into ${T.count(r1)}`; }
+        for (const axis of ['row', 'col']) {
+          for (let k = 1; k <= T.seamCount(s, axis); k++) {
+            const nx = T.crack(s, axis, k);
+            if (!nx) continue;
+            if (T.count(nx) !== R * C) { broke++; worst = `${key(s)} broke into ${T.count(nx)}`; }
+            if (!seen.has(key(nx))) { seen.add(key(nx)); q.push(nx); }
+          }
+        }
+      }
+    }
+  }
+  isLoud(broke === 0,
+    `⭐⭐ ${big} states censused at the 12 ceiling, and the count survives EVERY turn and EVERY break` +
+    (broke ? ` — ${broke} failures, e.g. ${worst}` : ''));
+}
 isLoud(perTray['10x10'] === 91, `a 10x10 tray has exactly ${perTray['10x10']} states — the closed form says 91`);
 isLoud(perTray['1x1'] === 1, 'a 1x1 tray has exactly one state and no seam at all');
 
@@ -369,6 +409,14 @@ console.log('\n[the gap can never hold a numeral — structural, not tuned]');
 console.log('\n[§23.2 — the apparatus carries numerals and material, nothing else]');
 {
   const keys = Object.keys(T.strings);
+  /* ⚠⚠ ACROSS EVERY LOCALE, NOT JUST ENGLISH. TOTAL, ADVICE and the
+     count-noun check all read `.en` and nothing else, so a total, a
+     verdict or a bare "1 rader" could ship in ten languages entirely
+     untested — and the count-noun check is the one that exists BECAUSE
+     of the bug the plural bracket was invented for. */
+  const LOCS = ['en','de','fr','it','es','pt','nl','sv','da','no','fi'];
+  const each = function (fn) { var bad = []; LOCS.forEach(function (l) { keys.forEach(function (k) { var v = T.strings[k][l]; if (v && fn(String(v))) bad.push(l + '.' + k); }); }); return bad; };
+
   const en = keys.map((k) => String(T.strings[k].en || ''));
   const blob = en.join(' ');
 
@@ -427,7 +475,7 @@ console.log('\n[§23.2 — the apparatus carries numerals and material, nothing 
      that it does not grade — and two children disagreeing about where
      to break is the content, which an opinion would delete. */
   const ADVICE = w('best|better|should|correct|right way|recommend(?:ed)?|try again|well done|good choice');
-  const advising = keys.filter((k) => ADVICE.test(String(T.strings[k].en || '')));
+  const advising = each((v) => ADVICE.test(v));
   isLoud(advising.length === 0,
     `⭐ NO STRING RECOMMENDS, APPROVES OR CORRECTS ANYTHING${advising.length ? ' — ' + advising.join(', ') : ''}`);
   isLoud(ADVICE.test('This is the best place to break.') && ADVICE.test('Well done!'),
@@ -443,7 +491,8 @@ console.log('\n[§23.2 — the apparatus carries numerals and material, nothing 
      defect is the same one `\b` causes in Finnish — a boundary that
      cannot see the character class it is standing next to. */
   const TOTAL = require('./_baking-tray-bans.js').TOTAL;
-  isLoud(!TOTAL.test(blob), 'NO TOTAL in any string — "7 rows of 6", never "42"');
+  const totals = each((v) => TOTAL.test(v));
+  isLoud(totals.length === 0, 'NO TOTAL in any string, IN ANY LOCALE — "7 rows of 6", never "42"' + (totals.length ? ' — ' + totals.join(', ') : ''));
   isLoud(TOTAL.test('that makes 42 buns'), 'poison: the total ban FIRES');
   isLoud(!TOTAL.test('there are 421 of them'), '⚠ poison: and does NOT fire inside a longer numeral');
 
@@ -471,10 +520,10 @@ console.log('\n[§23.2 — the apparatus carries numerals and material, nothing 
      moment the seam is 1 — which is the tool's own headline derivation
      (seven into six and one). Every count that governs a noun must carry
      a [x|one|many] bracket. */
-  const BARE = keys.filter((k) => {
-    const v = String(T.strings[k].en || '');
-    return /\{[a-z]\}\s+rows?\b/.test(v);
-  });
+  /* the row-noun of every locale, so the check runs where the bug can
+     actually land rather than only where English happens to show it */
+  const ROWNOUN = 'rows?|Reihen?|rang[ée]es?|righe|riga|filas?|fileiras?|rijen?|rader|rad|r[æa]kker|rekk|riv[ei]';
+  const BARE = each((v) => new RegExp('\\{[a-z]\\}\\s+(?:' + ROWNOUN + ')(?![\\p{L}])', 'u').test(v));
   isLoud(BARE.length === 0,
     `no string pairs a count with a bare noun` + (BARE.length ? ` — ${BARE.join(', ')} would render "1 rows"` : ''));
 

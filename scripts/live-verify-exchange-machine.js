@@ -317,6 +317,50 @@ const NUMWORD_BAN = w([
     is(laneCount >= 2, `vacuity guard: the addition stage has ${laneCount} lanes`);
   }
 
+  /* ---- 6b. ⭐⭐ CONTAINMENT, ON PRODUCTION -------------------------
+     THIS GATE ONCE PASSED 108 ASSERTIONS AGAINST A STALE DEPLOY. The
+     geometry fix was on the origin and Cloudflare was still serving the
+     previous bytes under the same `?v=1` key for an hour — and nothing
+     here noticed, because every assertion above tests the MODEL, and
+     the model was never wrong. Conservation, the lock, the carry and the
+     solved record are all identical in the broken build.
+     So the production gate now also measures the PICTURE: drive the ones
+     lane to its measured maximum of eighteen and require every counter
+     to be inside its own lane and on the paper. This is simultaneously
+     the containment check and a deployed-bytes check — it can only pass
+     on the fixed geometry. */
+  console.log('\n[containment — and whether the bytes I wrote are the bytes being served]');
+  {
+    const occ = await page.evaluate(() => {
+      const T = window.ExchangeMachine;
+      T.st = T.borrow(T.newState('sub', 48, 23, 'decompose'), 1);
+      T._paint();
+      return T.st.col[0];
+    });
+    await wait(300);
+    is(occ === 18, `vacuity guard: the ones lane holds ${occ} — the measured maximum`);
+    const spill = await page.evaluate(() => {
+      const T = window.ExchangeMachine;
+      const svg = document.querySelector('.exm-svg'), vb = svg.viewBox.baseVal;
+      const lanes = T._lanes(), L = T._lane(), bad = [];
+      const nodes = Array.from(svg.querySelectorAll('.exm-disc, .exm-ghost'));
+      nodes.forEach((c) => {
+        const x = Number(c.getAttribute('cx')), y = Number(c.getAttribute('cy')), r = Number(c.getAttribute('r'));
+        let ok = false;
+        for (let k = 0; k < lanes; k++) {
+          const x0 = T._laneX(k);
+          if (x - r >= x0 - 0.5 && x + r <= x0 + L + 0.5) ok = true;
+        }
+        if (!ok) bad.push(`x=${x.toFixed(1)} is in no lane`);
+        if (y - r < 0 || y + r > vb.height || x - r < 0 || x + r > vb.width) bad.push(`x=${x.toFixed(1)},y=${y.toFixed(1)} is off the paper`);
+      });
+      return { n: nodes.length, bad: bad };
+    });
+    is(spill.n >= 18, `vacuity guard: ${spill.n} counters and rings are drawn on production`);
+    is(spill.bad.length === 0,
+      `⭐⭐ every counter is inside its own column, live` + (spill.bad.length ? ` — ${spill.bad.length} are not: ${spill.bad[0]}` : ''));
+  }
+
   /* ---- 7. what it refuses to be ------------------------------------ */
   console.log('\n[the refusals]');
   const refuse = await page.evaluate(() => ({

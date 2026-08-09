@@ -1248,6 +1248,31 @@
     "metaTitle": "A Máquina de Trocas – vai um e troca na conta armada",
     "metaDescription": "Ferramenta gratuita para a turma toda: toque uma coluna, um sai, dez chegam à direita e a marca da caneta aparece no mesmo instante. Dos 6 aos 9 anos."
   },
+  "baking-tray": {
+    "slug": "assadeira-de-paezinhos-tabuada-anos-iniciais",
+    "name": "A assadeira de pãezinhos",
+    "tagline": "7 fileiras de 6 se quebram em 5 fileiras de 6 e 2 fileiras de 6 — a conta difícil sai de duas que a turma já sabe de cor.",
+    "about": [
+      "Uma assadeira de pãezinhos assados grudados, em fileiras, de tal jeito que a marca onde dois pãezinhos se encontram é uma marca por onde a assadeira quebra. 7 fileiras de 6 é uma conta difícil. Quebre depois da quinta fileira e ela vira 5 fileiras de 6 e 2 fileiras de 6 — duas contas que quase toda a turma já tem na ponta da língua. Nada entrou e nada saiu: 7 × 6 = 42 continua 42, só que agora lido em dois pedaços no lugar de um.",
+      "Girar a assadeira de lado é o outro movimento, e ele não é o truque de que a ordem dos fatores não altera o produto — nesta plataforma existe uma atividade que ensina, de propósito, que 3 grupos de 4 e 4 grupos de 3 são situações diferentes, e ela está certa. Aqui girar é uma jogada a serviço da quebra: o que muda é quais marcas ficam ao alcance. Se do 7 não sai nada de útil, gire a assadeira e quebre o 6.",
+      "A assadeira nunca mostra o total, nunca escreve a conta e nunca diz se a quebra foi boa. Onde quebrar é justamente o que a turma está ali para discutir, e um instrumento com opinião sobre isso encerraria a discussão antes de ela começar. Quem escreve 7 × 6 = 5 × 6 + 2 × 6 no quadro é você, do jeito que se escreve na escola brasileira — a ferramenta segura o material parado e deixa a escrita com a professora. Não há cronômetro, não há pontuação e nada é marcado como certo ou errado."
+    ],
+    "howToUse": [
+      "Deixe a assadeira projetada antes de a turma entrar. Pergunte pela forma, não pelo total: quantas fileiras, e quantos pãezinhos em cada fileira?",
+      "Pergunte se alguém já sabe essa de cabeça. Quase sempre ninguém sabe — e dizer em voz alta que você também não sabe essa de cor vale mais do que parece.",
+      "Pergunte onde quebrar para que OS DOIS pedaços sejam contas que a turma já sabe. Quebre onde eles disserem, inclusive quando disserem um lugar esquisito.",
+      "Encoste os pedaços de volta e pergunte se sumiu algum pãozinho. Depois quebre em OUTRO lugar. Duas quebras diferentes da mesma assadeira em um minuto é a aula inteira — este é o movimento que sustenta tudo.",
+      "Agora escreva no quadro, você mesma, do jeito que a sua turma escreve: 7 × 6 = 5 × 6 + 2 × 6 = 30 + 12 = 42. A assadeira não escreve de propósito, porque a notação é da sala e não do aparelho.",
+      "Gire a assadeira quando as quebras que aparecem não ajudarem, e deixe a turma ver os mesmos pãezinhos lidos do outro jeito."
+    ],
+    "classroomIdeas": [
+      "Quebre a mesma assadeira de dois jeitos na mesma rodada e deixe as duas escritas no quadro, uma embaixo da outra. Não se trata de qual é melhor: uma assadeira só dá mais de um par de contas, e é isso que a turma precisa ver.",
+      "Comece por uma assadeira de quebra fácil — o 10 ou o 5 — antes de chegar perto dos 7 e dos 8. A marca do quinto pãozinho vem mais funda justamente por isso, e você pode desligá-la quando a aula for de dobros.",
+      "Use ao contrário nos quadrados: gire uma de 6 fileiras de 6 e deixe a turma ver que não acontece nada. Isso é um resultado, e vale dar nome a ele."
+    ],
+    "metaTitle": "A assadeira de pãezinhos — tabuada difícil, anos iniciais",
+    "metaDescription": "Quebre 7 fileiras de 6 em 5 e 2 fileiras de 6: a tabuada difícil sai de duas que a turma já sabe. Ferramenta gratuita para a lousa digital, anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

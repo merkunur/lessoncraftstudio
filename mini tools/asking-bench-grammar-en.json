@@ -1,0 +1,416 @@
+{
+  "locale": "en",
+  "_doc": [
+    "AUTHORED GRAMMAR TABLE for the Asking Bench (tool #36). Every surface",
+    "string a child can ever see is IN THIS FILE, verbatim. The tool never",
+    "concatenates a morpheme and never inflects anything — gate M-CLOSURE",
+    "proves it. So a mistake here is a mistake on a classroom board, and",
+    "the only defences are this file being small enough to proofread and",
+    "the native panel that authored it.",
+    "",
+    "RESTRICTIONS, each one gated, each disarming a class of wrongness:",
+    "  * NOMINATIVE ONLY. The noun is always the subject and never moves.",
+    "  * 3rd-person NOUN subjects only (no pronouns) — disarms *am I*.",
+    "  * no separable verbs, no negation.",
+    "",
+    "ENGLISH IS THE INTERESTING ONE and it is why the tool works: the",
+    "transformation depends on WHICH VERB the child picked. `is` fronts",
+    "with nothing arriving; a lexical present needs a *do* that was never",
+    "there AND reshapes the verb; a past needs *did* AND sends the verb",
+    "back to its base; a modal just fronts. Four structurally different",
+    "answers from one lever."
+  ],
+  "registers": [
+    {
+      "id": "plain",
+      "labelKey": "regPlain"
+    }
+  ],
+  "frames": [
+    {
+      "id": "S-V",
+      "slots": [
+        "subject",
+        "verb"
+      ],
+      "verbClasses": [
+        "lexPres",
+        "lexPast"
+      ]
+    },
+    {
+      "id": "S-be-ADJ",
+      "slots": [
+        "subject",
+        "verb",
+        "adj"
+      ],
+      "verbClasses": [
+        "beSg"
+      ]
+    },
+    {
+      "id": "S-V-OBJ",
+      "slots": [
+        "subject",
+        "verb",
+        "obj"
+      ],
+      "verbClasses": [
+        "lexPres",
+        "lexPast"
+      ]
+    },
+    {
+      "id": "S-modal-V",
+      "slots": [
+        "subject",
+        "verb",
+        "mainVerb"
+      ],
+      "verbClasses": [
+        "modal"
+      ]
+    }
+  ],
+  "nouns": [
+    {
+      "key": "dog",
+      "subjSg": "The dog"
+    },
+    {
+      "key": "cat",
+      "subjSg": "The cat"
+    },
+    {
+      "key": "bird",
+      "subjSg": "The bird"
+    },
+    {
+      "key": "frog",
+      "subjSg": "The frog"
+    },
+    {
+      "key": "horse",
+      "subjSg": "The horse"
+    },
+    {
+      "key": "fish",
+      "subjSg": "The fish"
+    },
+    {
+      "key": "bear",
+      "subjSg": "The bear"
+    },
+    {
+      "key": "duck",
+      "subjSg": "The duck"
+    },
+    {
+      "key": "mouse",
+      "subjSg": "The mouse"
+    },
+    {
+      "key": "rabbit",
+      "subjSg": "The rabbit"
+    },
+    {
+      "key": "bus",
+      "subjSg": "The bus"
+    },
+    {
+      "key": "train",
+      "subjSg": "The train"
+    },
+    {
+      "key": "boat",
+      "subjSg": "The boat"
+    },
+    {
+      "key": "car",
+      "subjSg": "The car"
+    },
+    {
+      "key": "ball",
+      "subjSg": "The ball"
+    },
+    {
+      "key": "apple",
+      "subjSg": "The apple"
+    },
+    {
+      "key": "sun",
+      "subjSg": "The sun"
+    },
+    {
+      "key": "moon",
+      "subjSg": "The moon"
+    },
+    {
+      "key": "baby",
+      "subjSg": "The baby"
+    },
+    {
+      "key": "teacher",
+      "subjSg": "The teacher"
+    }
+  ],
+  "verbs": [
+    {
+      "id": "runs",
+      "class": "lexPres",
+      "finite": "runs",
+      "base": "run",
+      "helper": "Does"
+    },
+    {
+      "id": "sleeps",
+      "class": "lexPres",
+      "finite": "sleeps",
+      "base": "sleep",
+      "helper": "Does"
+    },
+    {
+      "id": "jumps",
+      "class": "lexPres",
+      "finite": "jumps",
+      "base": "jump",
+      "helper": "Does"
+    },
+    {
+      "id": "sings",
+      "class": "lexPres",
+      "finite": "sings",
+      "base": "sing",
+      "helper": "Does"
+    },
+    {
+      "id": "ran",
+      "class": "lexPast",
+      "finite": "ran",
+      "base": "run",
+      "helper": "Did"
+    },
+    {
+      "id": "slept",
+      "class": "lexPast",
+      "finite": "slept",
+      "base": "sleep",
+      "helper": "Did"
+    },
+    {
+      "id": "sang",
+      "class": "lexPast",
+      "finite": "sang",
+      "base": "sing",
+      "helper": "Did"
+    },
+    {
+      "id": "is",
+      "class": "beSg",
+      "finite": "is",
+      "front": "Is"
+    },
+    {
+      "id": "was",
+      "class": "beSg",
+      "finite": "was",
+      "front": "Was"
+    },
+    {
+      "id": "can",
+      "class": "modal",
+      "finite": "can",
+      "front": "Can"
+    },
+    {
+      "id": "will",
+      "class": "modal",
+      "finite": "will",
+      "front": "Will"
+    }
+  ],
+  "adjs": [
+    {
+      "key": "big",
+      "form": "big"
+    },
+    {
+      "key": "small",
+      "form": "small"
+    },
+    {
+      "key": "happy",
+      "form": "happy"
+    },
+    {
+      "key": "fast",
+      "form": "fast"
+    }
+  ],
+  "objs": [
+    {
+      "key": "ball",
+      "form": "the ball"
+    },
+    {
+      "key": "apple",
+      "form": "the apple"
+    },
+    {
+      "key": "song",
+      "form": "a song"
+    }
+  ],
+  "_recipeDoc": [
+    "A recipe is a LIST OF OPS over a closed vocabulary. The four claim",
+    "descriptors are DERIVED from these ops and never authored twice:",
+    "  front   -> 'a word jumps to the front'",
+    "  insert  -> 'a new word comes in'",
+    "  reshape -> 'a word changes its shape'",
+    "  suffix  -> 'a word changes its shape' (fi -ko, sv/da/no none)",
+    "  wrap    -> the end mark; NEVER a claim (every asking gets one, so",
+    "             it would light on every case and say nothing)",
+    "  (no front/insert/reshape/suffix at all) -> 'nothing moves'",
+    "",
+    "`capFront` names the token whose capitalisation moves to the front of",
+    "the asking; the base form is authored on the token itself, so this is",
+    "a SELECTION, never a string operation."
+  ],
+  "recipes": {
+    "S-V|lexPres|plain": {
+      "ops": [
+        {
+          "op": "insert",
+          "slot": "helper",
+          "at": 0
+        },
+        {
+          "op": "reshape",
+          "slot": "verb",
+          "to": "base"
+        }
+      ],
+      "wrap": "?",
+      "capFront": "helper",
+      "decap": "subject"
+    },
+    "S-V|lexPast|plain": {
+      "ops": [
+        {
+          "op": "insert",
+          "slot": "helper",
+          "at": 0
+        },
+        {
+          "op": "reshape",
+          "slot": "verb",
+          "to": "base"
+        }
+      ],
+      "wrap": "?",
+      "capFront": "helper",
+      "decap": "subject"
+    },
+    "S-be-ADJ|beSg|plain": {
+      "ops": [
+        {
+          "op": "front",
+          "slot": "verb",
+          "to": "front"
+        }
+      ],
+      "wrap": "?",
+      "capFront": "verb",
+      "decap": "subject"
+    },
+    "S-V-OBJ|lexPres|plain": {
+      "ops": [
+        {
+          "op": "insert",
+          "slot": "helper",
+          "at": 0
+        },
+        {
+          "op": "reshape",
+          "slot": "verb",
+          "to": "base"
+        }
+      ],
+      "wrap": "?",
+      "capFront": "helper",
+      "decap": "subject"
+    },
+    "S-V-OBJ|lexPast|plain": {
+      "ops": [
+        {
+          "op": "insert",
+          "slot": "helper",
+          "at": 0
+        },
+        {
+          "op": "reshape",
+          "slot": "verb",
+          "to": "base"
+        }
+      ],
+      "wrap": "?",
+      "capFront": "helper",
+      "decap": "subject"
+    },
+    "S-modal-V|modal|plain": {
+      "ops": [
+        {
+          "op": "front",
+          "slot": "verb",
+          "to": "front"
+        }
+      ],
+      "wrap": "?",
+      "capFront": "verb",
+      "decap": "subject"
+    }
+  },
+  "decap": {
+    "The dog": "the dog",
+    "The cat": "the cat",
+    "The bird": "the bird",
+    "The frog": "the frog",
+    "The horse": "the horse",
+    "The fish": "the fish",
+    "The bear": "the bear",
+    "The duck": "the duck",
+    "The mouse": "the mouse",
+    "The rabbit": "the rabbit",
+    "The bus": "the bus",
+    "The train": "the train",
+    "The boat": "the boat",
+    "The car": "the car",
+    "The ball": "the ball",
+    "The apple": "the apple",
+    "The sun": "the sun",
+    "The moon": "the moon",
+    "The baby": "the baby",
+    "The teacher": "the teacher"
+  },
+  "tellEnd": ".",
+  "_notes": "en authored by the builder as the pilot table; the other ten come from their own native panels and are NOT translations of this. Deliberately excluded: pronoun subjects (would need *am I*), separable/phrasal verbs (*The dog runs away* splits in de and is a different lesson), negation, and the whole wh-question family (owned outright by wren-question-window L.K.1.d). A MODAL LIVES IN ITS OWN FRAME because it needs a main verb after it — the first draft let S-V admit a modal and rendered \"The dog can.\", which is not a sentence. No gate can know that; the frame has to make it unreachable, and M-WELLFORMED now asserts the pairing. `be` is present only in the S-be-ADJ frame because *The dog is the ball* is nonsense — the frame's verbClass list is what keeps that unreachable.",
+  "mains": [
+    {
+      "key": "run",
+      "form": "run"
+    },
+    {
+      "key": "sleep",
+      "form": "sleep"
+    },
+    {
+      "key": "jump",
+      "form": "jump"
+    },
+    {
+      "key": "sing",
+      "form": "sing"
+    }
+  ]
+}

@@ -1227,6 +1227,31 @@
     "metaTitle": "Vaihtokone – muistinumero ja lainaaminen allekkain",
     "metaDescription": "Maksuton koko luokan väline: kosketa saraketta, yksi lähtee putkesta, kymmenen saapuu oikealle ja muistinumero kirjoittuu samalla hetkellä. 6-9-vuotiaille."
   },
+  "baking-tray": {
+    "slug": "kertolasku-kertotaulu-pullapelti-alkuopetus",
+    "name": "Pullapelti",
+    "tagline": "Pellillinen pullia, jonka luokka katkaisee saumasta — vaikea kertolasku syntyy kahdesta helposta.",
+    "about": [
+      "Pullapelti on taulunäytöllä yksi ainoa esine: pellillinen pullia, jotka on paistettu kiinni toisiinsa siisteihin riveihin. Rivien määrää ja rivin pituutta säädetään yhdestä kymmeneen, ja kohta, jossa kaksi pullaa koskettaa toisiaan, on sauma — juuri siitä pellin voi katkaista. Yksi katkaisu tekee pellistä kaksi palaa, jotka jäävät vierekkäin pöydälle, ja palat työnnetään takaisin kiinni yhdellä napautuksella. Katkaisuja tehdään enintään kaksi, joten paloja on korkeintaan kolme. Pullat pysyvät koko ajan tallella.",
+      "Koko väline on olemassa yhtä asiaa varten: vaikean kertolaskun johtamista helpoista. Toisluokkalainen osaa kakkoset, viitoset ja kympit, mutta 7 · 6 ei ole vielä kenenkään päässä valmiina. Kun pelti katkaistaan viidennen rivin jälkeen, esiin tulee kaksi apulaskua, jotka luokka jo osaa — 5 · 6 ja 2 · 6 — ja ne ovat samat pullat. Sitten opettaja kirjoittaa taululle 5 · 6 = 30, 2 · 6 = 12 ja 7 · 6 = 42. Pelti itse ei kirjoita mitään: siinä ei näy kertomerkkiä, yhtäsuuruusmerkkiä eikä yhteismäärää missään, ei edes ruudunlukijan lukemassa tekstissä. Se on tarkoituksellista, sillä yhdessätoista maassa merkintätapa ei ole sama.",
+      "Kääntäminen ei väitä, että 3 · 4 ja 4 · 3 olisivat sama tilanne. Kolme neljän ryhmää ja neljä kolmen ryhmää ovat eri asioita, ja toinen tämän alustan työkalu opettaa juuri sen eron. Kääntäminen on täällä alisteinen, strateginen liike: se vaihtaa sen, mitkä saumat ovat tarjolla. Jos seitsemästä ei irtoa mitään järkevää, käännä pelti ja katkaise kuutosen puolelta. Ei ajastinta, ei pisteitä, ei kehuja eikä korjauksia, eikä pelti koskaan ehdota, mistä saumasta kannattaisi katkaista. Kaksi lasta, jotka ovat eri mieltä katkaisukohdasta, ovat täsmälleen se sisältö, jota varten väline on tehty."
+    ],
+    "howToUse": [
+      "Laita pelti näkyviin jo ennen kuin luokka tulee sisään, ja kysy ensimmäiseksi muotoa, älä määrää: montako riviä, montako pullaa yhdessä rivissä?",
+      "Kysy, tietääkö joku tämän laskun suoraan ulkoa. Jos et itsekään tiedä, sano se ääneen. 7 · 6 ei ole valmiina toisluokkalaisen päässä eikä useinkaan opettajankaan, ja juuri se myönnetty tyhjä kohta on tunnin lähtöpiste.",
+      "Kysy, mistä saumasta pelti katkaistaan niin, että kumpikin pala on luokalle tuttu — ja katkaise sieltä, mistä luokka sanoo, myös silloin kun kohta on hankala.",
+      "Työnnä palat takaisin kiinni ja kysy, katosiko yhtään pullaa. Katkaise sitten TOISESTA saumasta: sama pelti, eri apulaskut. Tämä on tunnin kantava liike.",
+      "Kirjoita lasku taululle itse. Pelti ei kirjoita sitä, koska merkintätapa on maakohtainen: suomalaisessa luokassa 5 · 6 = 30, 2 · 6 = 12 ja 7 · 6 = 42. Anna luokan sanoa lasku ääneen ennen kuin kirjoitat sen.",
+      "Käännä pelti, kun tarjolla olevat saumat eivät auta. Seitsemän ei hajoa mukavasti, mutta käännön jälkeen katkaisukohdat ovat kuutosen puolella: samat pullat, uudet saumat."
+    ],
+    "classroomIdeas": [
+      "Neljä tapaa, ei yhtä oikeaa: anna pareille sama pelti ja pyydä jokaista paria etsimään oma katkaisukohtansa. Kirjatkaa taululle kaikki löydetyt tavat rinnakkain — vastaus pysyy samana.",
+      "Kaksi katkaisua, kolme palaa: ottakaa 8 riviä, joissa kussakin on 8, ja katkaiskaa se kolmeksi tutuksi palaksi. Kysykää sitten, oliko kolmas pala tarpeen — usein kaksi riittää, ja juuri sen huomaaminen on tunnin sisältö.",
+      "OPS 2014 rakentaa kertolaskun 1.–2. luokalla konkreettisten välineiden varaan, ja siksi pelti ei näytä vastausta. Lopettakaa oikeilla pullilla — paistakaa pellillinen kiinni toisiinsa ja repikää se auki juuri siitä saumasta, jonka luokka taululla valitsi."
+    ],
+    "metaTitle": "Pullapelti — vaikea kertotaulu helpoista | Ilmainen",
+    "metaDescription": "Ilmainen kertolaskutyökalu taululle: pellillinen pullia riveissä, jonka luokka katkaisee saumasta. 7 · 6 hajoaa apulaskuiksi 5 · 6 ja 2 · 6. Ei kirjautumista."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

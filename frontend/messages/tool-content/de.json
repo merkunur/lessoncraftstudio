@@ -1250,6 +1250,31 @@
     "metaTitle": "Die Tauschsäulen – Übertrag und Entbündeln, Klasse 2-4",
     "metaDescription": "Kostenloses Werkzeug für Übertrag und Entbündeln: Tippe eine Säule an, eines geht, zehn kommen rechts an – und der Strich steht im selben Moment. Klasse 2-4."
   },
+  "baking-tray": {
+    "slug": "broetchenblech",
+    "name": "Das Brötchenblech",
+    "tagline": "7 × 6 ist keine Kernaufgabe – 5 × 6 und 2 × 6 sind es, und genau an dieser Rille bricht das Blech auseinander.",
+    "about": [
+      "Auf dem Blech liegen die Brötchen aneinandergebacken: 7 Reihen zu je 6, ein einziges zusammenhängendes Stück, und jede Rille zwischen zwei Brötchen ist eine Stelle, an der es auseinandergehen kann. Mehr als drei Bewegungen gibt es nicht – das Blech drehen, an einer Rille auseinanderbrechen, die Teile wieder zusammenschieben. Die Anzahl ändert sich dabei nie: Die 42 Brötchen liegen nach dem Brechen genauso auf dem Tisch wie vorher, nur in zwei Teilen.",
+      "Damit wird das Ableiten sichtbar, das im Einmaleins die eigentliche Arbeit ist. 7 × 6 gehört zu den Aufgaben, die kaum ein Kind auswendig weiß; 5 × 6 und 2 × 6 sind Kernaufgaben, die es längst besitzt. Bricht das Blech nach der fünften Reihe, liegen beide Kernaufgaben nebeneinander auf dem Tisch, und die schwere Aufgabe ist keine neue mehr, sondern die Summe zweier bekannter. Höchstens zwei Brüche sind möglich, also höchstens drei Teile – danach wäre es kein Ableiten mehr, sondern Zählen.",
+      "Das Drehen ist hier kein Beweis, dass 3 × 4 und 4 × 3 dasselbe wären: 3 Gruppen zu 4 und 4 Gruppen zu 3 sind verschiedene Situationen, und dafür gibt es auf dieser Plattform eine eigene Aufgabe. Gedreht wird aus einem einzigen Grund – die Vierteldrehung ändert, welche Rillen zur Verfügung stehen. Notiert wird nichts: kein Rechenzeichen, keine Gesamtzahl, nicht einmal in der Vorlesefunktion. Den Satz „7 × 6 = 5 × 6 + 2 × 6\" schreibt die Lehrkraft an die Tafel, in der Schreibweise, die an eurer Schule gilt. Das Gerät bewertet nichts, korrigiert nichts, misst keine Zeit und schlägt auch keine Bruchstelle vor – wo gebrochen wird, ist die Frage, um die es geht."
+    ],
+    "howToUse": [
+      "Lass das Blech schon an der Wand stehen, bevor die Klasse hereinkommt, und frage nicht nach der Gesamtzahl, sondern nach der Form: Wie viele Reihen sind das, und wie viele Brötchen liegen in jeder Reihe?",
+      "Frage, wer diese Aufgabe sofort weiß – und sag dazu, dass du 7 × 6 auch nicht auswendig kannst. Damit ist das Ableiten kein Notbehelf für die Kinder, die es nicht wissen, sondern das Verfahren für alle.",
+      "Frage, wo man so auseinanderbrechen kann, dass beide Teile Aufgaben sind, die die Klasse schon kann, und brich genau dort, wo die Kinder es sagen – auch dann, wenn 4 Reihen und 3 Reihen herauskommen. Zwei unbequeme Teile sind das beste Argument für die fünfte Rille, und dieses Argument gehört den Kindern.",
+      "Schiebe die Teile wieder zusammen und frage, ob dabei ein Brötchen verloren gegangen ist. Dann brich an einer anderen Rille auseinander. Dass dieselben Brötchen zwei verschiedene Zerlegungen tragen, ohne dass eines dazukommt oder fehlt, ist der tragende Moment der Stunde – und der einzige, der zweimal gebraucht wird.",
+      "Schreib die Aufgabe jetzt selbst an die Tafel, so wie es in eurem Schulbuch steht: 7 × 6 = 5 × 6 + 2 × 6. Das Blech notiert bewusst nichts, weil kein Rechenzeichen in allen Sprachen gleich gelesen wird – die Schreibweise kommt von dir und bleibt an der Tafel stehen, wenn das Blech längst wieder ganz ist.",
+      "Gibt keine Rille etwas her, dann dreh das Blech: Aus 7 Reihen zu je 6 werden 6 Reihen zu je 7, und jetzt lässt sich die 6 in 5 und 1 zerlegen. Gedreht wird nur am ganzen Blech, also vorher zusammenschieben – auch das ist eine Aussage über das Material und keine Sperre."
+    ],
+    "classroomIdeas": [
+      "Klasse 2, eine Woche lang fünf Minuten: Jeden Tag ein anderes Blech, gebrochen immer nach der fünften Reihe. Die Klasse liest beide Teile vor, die Tafel sammelt die Sätze untereinander. Am Freitag steht dort die 5er-Reihe als Werkzeug für sieben verschiedene Aufgaben – und nicht als siebte Zeile einer Tabelle.",
+      "Klasse 3, Partnerarbeit am selben Blech: Zwei Kinder brechen dasselbe 8 × 7-Blech an verschiedenen Rillen und schreiben ihre beiden Aufgaben auf. Beide rechnen aus, was zusammenkommt. Dass 5 × 7 + 3 × 7 und 4 × 7 + 4 × 7 dieselbe Zahl ergeben, ist kein Zufall, den man glauben muss, sondern liegt vor beiden auf dem Tisch.",
+      "Klasse 3, rückwärts: Schreib 5 × 6 und 1 × 6 an die Tafel und lass die Kinder das Blech dazu bauen, bevor sie es brechen. Danach dasselbe mit einem Quadrat – 6 Reihen zu je 6, gedreht, und es ändert sich nichts. Genau dieser Fall zeigt, wozu das Drehen sonst gut ist, weil er der einzige ist, in dem es nichts bringt."
+    ],
+    "metaTitle": "Das Brötchenblech – Einmaleins ableiten, Klasse 2 und 3",
+    "metaDescription": "Kostenloses Werkzeug zum Ableiten im Einmaleins: Ein Blech Brötchen bricht an einer Rille auseinander, und aus 7 × 6 werden 5 × 6 und 2 × 6. Klasse 2 und 3."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

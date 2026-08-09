@@ -1247,6 +1247,31 @@
     "metaTitle": "La máquina de los cambios – sumas y restas llevando",
     "metaDescription": "Herramienta gratuita para toda la clase: toca una columna, uno la deja, diez llegan a la derecha y la cifra se escribe en ese mismo instante. De 6 a 9 años."
   },
+  "baking-tray": {
+    "slug": "bandeja-de-panecillos-tablas-de-multiplicar-primaria",
+    "name": "La bandeja de panecillos",
+    "tagline": "Una bandeja de panecillos horneados pegados: separa siete filas de seis en cinco filas de seis y dos filas de seis, y la tabla difícil se apoya en dos que la clase ya se sabe.",
+    "about": [
+      "Los panecillos de esta bandeja se han horneado pegados, así que la línea donde se tocan dos panecillos es una línea que se puede separar. Siete filas de seis es de las difíciles. Separa los panecillos debajo de la quinta fila y quedan cinco filas de seis y dos filas de seis: dos cosas que casi toda la clase ya se sabe. No se ha añadido ni quitado nada — los mismos panecillos se leen ahora en dos trozos en lugar de en uno. Es 7 × 6 = 30 + 12 = 42 convertido en material, antes de ser una cuenta.",
+      "Girar la bandeja un cuarto de giro es el otro movimiento, y no es el truco de que da igual el orden de los números. Esta herramienta no dice en ningún momento que 3 × 4 y 4 × 3 sean la misma cosa: tres grupos de cuatro y cuatro grupos de tres son dos situaciones distintas, y otra actividad de esta misma plataforma se dedica precisamente a que no se confundan. El giro va de otra cosa y es estratégico: cambia qué líneas hay disponibles para separar. Si del siete no sale nada útil, gira la bandeja y separa el seis.",
+      "La bandeja no enseña nunca el total, no escribe ninguna operación y no opina sobre si la separación ha sido buena. Dónde separarla es justo lo que la clase ha venido a discutir, y una herramienta con opinión sobre eso cerraría la discusión antes de empezarla. Tampoco hay cronómetro, ni puntuación, ni corrección: la frase se escribe en la pizarra y la escribes tú, con la convención que use tu clase. Se abre en el navegador, sin instalar nada y sin cuenta. La bandeja entera —los tres movimientos y de una a diez filas— es gratis para siempre; la hoja para imprimir y las bandejas de once y de doce van con el plan Docente."
+    ],
+    "howToUse": [
+      "Ten la bandeja proyectada antes de que entren los niños. Pregunta por la forma, no por el total: cuántas filas hay y cuántos panecillos hay en cada fila.",
+      "Pregunta si alguien se sabe esta de memoria. Normalmente no se la sabe nadie, y decir en voz alta que tú tampoco vale más de lo que parece.",
+      "Pregunta dónde separarla para que los DOS trozos sean de las que la clase ya se sabe, y sepárala donde ellos digan, también cuando digan un sitio incómodo.",
+      "Junta los trozos y pregunta si se ha perdido algún panecillo. Después sepárala en otro sitio. Dos separaciones distintas de la misma bandeja en un minuto: esa es la idea entera.",
+      "Ahora escribe tú la frase en la pizarra, tal y como la escriba tu clase: 7 × 6 = 5 × 6 + 2 × 6. La bandeja no lo hace, y no lo hace a propósito: sujeta el material quieto mientras la escritura sigue siendo tuya.",
+      "Gira la bandeja cuando las separaciones que ofrece no sirvan, y deja que la clase vea los mismos panecillos leídos del otro lado."
+    ],
+    "classroomIdeas": [
+      "Separad la misma bandeja de dos maneras distintas en una sola sesión y dejad las dos escritas en la pizarra. No va de cuál es mejor: va de que una bandeja da más de una manera de apoyarse.",
+      "Empieza con una bandeja cuya separación se ve venir —un diez, o un cinco— antes de acercarte a los sietes y los ochos. La línea del cinco viene marcada más honda justo por eso.",
+      "Del revés, para los cuadrados: gira una de seis filas de seis y deja que la clase vea que no pasa absolutamente nada. Eso también es un resultado, y merece que alguien lo diga en voz alta."
+    ],
+    "metaTitle": "La bandeja de panecillos — las tablas difíciles, en dos trozos",
+    "metaDescription": "Una bandeja de panecillos pegados para las tablas: separa 7 filas de 6 en 5 filas de 6 y 2 filas de 6. Sin total, sin cronómetro y sin nota. Gratis, 2.º y 3.º."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

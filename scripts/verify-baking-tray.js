@@ -530,6 +530,39 @@ console.log('\n[§23.2 — the apparatus carries numerals and material, nothing 
   isLoud(en.every((v) => v.length > 0), `all ${keys.length} authored keys carry English`);
 }
 
+/* ⭐⭐ THE PLURAL BRACKET'S TWO UNDOCUMENTED CAPABILITIES, PINNED.
+   Two panels depend on behaviour nothing tested, and a refactor of
+   `_fmt` would break a locale silently:
+     · SWEDISH puts a PLACEHOLDER INSIDE a bracket form —
+       `[r|rad med {c}|rader med {c} i varje]` — the only way to get both
+       "1 rad med 6" and "7 rader med 6 i varje" right, since *i varje*
+       is nonsense for one row and dropping it makes the plural
+       ambiguous. It works because brackets resolve BEFORE interpolation.
+     · FINNISH needs the marker on a NON-NOUN (the relative pronoun
+       agrees with the counted head: `jossa` / `joissa kussakin`) and
+       needs the SAME variable marked TWICE in one string. Without
+       either, Finnish ships "1 rivi, joissa kussakin on 6" — the "1
+       rows" bug reborn, on the same string, from the same mechanism.
+   ⚠ And the second slot is NOT a plural: `riviä` is the PARTITIVE
+   SINGULAR, and the real Finnish plural `rivit` is ungrammatical after
+   a numeral. Anyone who "corrects" it ships the bug. */
+console.log('\n[the plural bracket — the capabilities two locales depend on]');
+{
+  const b = Object.create(T);
+  b.api = { t: () => 'x {r} [r|rad med {c}|rader med {c} i varje]' };
+  isLoud(b._fmt('x', { r: 1, c: 6 }) === 'x 1 rad med 6',
+    '⭐ a PLACEHOLDER inside a bracket form resolves (Swedish depends on it)');
+  isLoud(b._fmt('x', { r: 7, c: 6 }) === 'x 7 rader med 6 i varje',
+    '...and so does the many-form');
+  b.api = { t: () => '{r} [r|rivi|riviä], [r|jossa|joissa kussakin] on {c}' };
+  isLoud(b._fmt('x', { r: 1, c: 6 }) === '1 rivi, jossa on 6',
+    '⭐ the marker works on a NON-NOUN — the Finnish relative pronoun agrees with the counted head');
+  isLoud(b._fmt('x', { r: 7, c: 6 }) === '7 riviä, joissa kussakin on 6',
+    '⭐ and the SAME variable may be marked TWICE in one string');
+  b.api = { t: () => '[a|one|many] and [a|one|many]' };
+  isLoud(b._fmt('x', { a: 1 }) === 'one and one', '...twice, even adjacently');
+}
+
 console.log('\n[the labels state their consequence before they are pressed]');
 {
   const s = T.newState(7, 6);

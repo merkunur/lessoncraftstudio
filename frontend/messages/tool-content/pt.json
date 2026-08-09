@@ -1224,6 +1224,30 @@
     "metaTitle": "O Mapa das Alturas — de frente e de lado, anos iniciais",
     "metaDescription": "Nove quadradinhos com números de altura levantam um prédio, e embaixo ele aparece visto de frente e visto de lado. Ferramenta gratuita de geometria para a lousa digital, anos iniciais."
   },
+  "exchange-machine": {
+    "slug": "maquina-de-trocas",
+    "name": "A Máquina de Trocas",
+    "tagline": "O vai um e a troca são a mesma máquina, funcionando nos dois sentidos.",
+    "about": [
+      "Uma conta armada sobre papel quadriculado, em que cada coluna continua para baixo em um tubo com aquilo que a ordem realmente tem. Toque em uma coluna que tenha o que dar: um sai dela e chega como dez no tubo à direita. A marca da caneta é escrita no mesmo instante, de modo que a escrita e o movimento não viram duas aulas separadas.",
+      "A troca é o ponto mais temido do ano, porque a criança recebe o algoritmo como uma sequência de marcas arbitrárias a decorar na ordem certa. Aqui o segundo número já está desenhado nos tubos em contornos vazios, e a falta aparece antes de qualquer toque. Cinco contornos vazios pairando sobre uma coluna vazia respondem sozinhos a “por que eu quebraria uma dezena?”",
+      "Uma coluna vazia se recusa a dar: em 204 − 137 é preciso trocar primeiro uma centena, e é essa recusa que ensina. Nada é marcado como certo ou errado – sem pontuação, sem cronômetro, sem estrelinhas – e o material simplesmente não consegue fazer o impossível. Na BNCC as trocas no quadro de valor de lugar já aparecem no 2.º ano, enquanto o algoritmo escrito é formalizado no 3.º ano, então a máquina serve aos dois momentos."
+    ],
+    "howToUse": [
+      "Projete uma conta armada e leiam os tubos junto com a turma antes que alguém toque na tela.",
+      "Pergunte onde está faltando: os contornos vazios pairando sobre uma coluna vazia mostram isso sozinhos.",
+      "Toque na coluna que tem o que dar e observem a marca ser escrita no exato instante da troca.",
+      "Toque de novo para devolver tudo ao lugar e deixe a turma ver a mesma máquina andando ao contrário.",
+      "Ajuste a escrita e o método aos do material que sua turma usa e entregue depois a tela para uma criança conduzir."
+    ],
+    "classroomIdeas": [
+      "Comece com 204 − 137 e deixe a turma tocar primeiro nas dezenas: a recusa transforma “o que a gente troca primeiro?” em pergunta das crianças.",
+      "Arme os mesmos algarismos como adição e logo em seguida como subtração, para que o vai um e a troca apareçam como um único movimento nos dois sentidos.",
+      "Cubra a conta escrita, peça que leiam apenas os tubos e depois descubra, ligando cada marca ao movimento que a causou."
+    ],
+    "metaTitle": "A Máquina de Trocas – vai um e troca na conta armada",
+    "metaDescription": "Ferramenta gratuita para a turma toda: toque uma coluna, um sai, dez chegam à direita e a marca da caneta aparece no mesmo instante. Dos 6 aos 9 anos."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

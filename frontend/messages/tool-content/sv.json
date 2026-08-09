@@ -1225,6 +1225,30 @@
     "metaTitle": "Byggritningen – bygga efter ritning, åk 1–3",
     "metaDescription": "Nio siffror på byggritningen, bredvid står byggnaden – framifrån och från sidan. Bygga efter ritning för lågstadiet, gratis på tavlan."
   },
+  "exchange-machine": {
+    "slug": "vaxlingsmaskinen",
+    "name": "Växlingsmaskinen",
+    "tagline": "Minnessiffran och växlingen är samma maskin, åt två håll.",
+    "about": [
+      "En uppställning på rutat papper, där varje kolumn fortsätter neråt i ett rör med det som kolumnen faktiskt har. Tryck på en kolumn som har något att ge: en lämnar röret och kommer fram som tio i röret till höger. Pennstrecket skrivs i samma ögonblick, så skrivsättet och rörelsen blir aldrig två skilda lektioner.",
+      "Växlingen är årets mest fruktade moment, eftersom eleverna möter den som en rad godtyckliga tecken som ska minnas i rätt ordning. Här ligger det andra talet redan i rören, ritat som tomma konturer, så bristen syns innan någon rör skärmen. Fem tomma konturer som hänger över en tom kolumn svarar själva på frågan ”varför skulle jag någonsin växla ett tiotal?”",
+      "En tom kolumn vägrar ge ifrån sig – i 204 − 137 måste hundratalet växlas först, och just den vägran är lektionen. Ingenting bedöms som rätt eller fel: ingen poäng, ingen klocka, inga stjärnor, och materialet kan helt enkelt inte göra något omöjligt. Uppställningen skrivs först i årskurs 2 och 3, men växlingen och positionssystemet övas långt tidigare, så maskinen bär hela vägen dit."
+    ],
+    "howToUse": [
+      "Visa en uppställning och läs rören tillsammans med klassen innan någon trycker.",
+      "Fråga var det inte räcker – de tomma konturerna över en tom kolumn visar det av sig själva.",
+      "Tryck på kolumnen som har något att ge och se minnessiffran skrivas i samma ögonblick som växlingen sker.",
+      "Tryck en gång till så att allt går tillbaka, och låt klassen se samma maskin gå åt andra hållet.",
+      "Ställ in skrivsätt och metod efter det klassen använder och lämna sedan skärmen vidare till en elev."
+    ],
+    "classroomIdeas": [
+      "Börja med 204 − 137 och låt klassen trycka på tiotalen först: vägran gör ”vad måste vi växla först?” till elevernas egen fråga.",
+      "Ställ upp samma siffror först som addition och direkt efteråt som subtraktion, så syns minnessiffran och växlingen som en enda rörelse åt två håll.",
+      "Täck över uppställningen, låt eleverna läsa bara rören och koppla sedan varje penndrag till den rörelse som gjorde det."
+    ],
+    "metaTitle": "Växlingsmaskinen – minnessiffra och växling, åk 1-3",
+    "metaDescription": "Gratis verktyg för hela klassen: tryck på en kolumn, en lämnar röret, tio kommer fram till höger och minnessiffran skrivs i samma ögonblick. För åk 1-3."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

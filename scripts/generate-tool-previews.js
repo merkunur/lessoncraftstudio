@@ -122,6 +122,22 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ THE EXCHANGE MACHINE AT REST IS A SUM THAT HAS NOT HAPPENED YET.
+     The card has to show the ARGUMENT, not the setup: on 42 - 17 the
+     ones column holds two with seven outlines over it, which is a
+     shortage nobody has done anything about. So the seed performs the
+     borrow — index 1 is the tens column by construction — and the shot
+     lands on the moment the tool exists for: the tens struck through,
+     the small carried digit written, and fourteen sitting in a ones
+     column whose brim is at ten. Every one of those is a real control
+     driven by a real click, so the pose is a state a child could reach.
+     ⚠ Measured, not guessed: the stage renders 452x496 (aspect 0.91),
+     which is PAST the 0.85 line where --fit=auto top-crops — and the
+     top of this stage is the written sum, i.e. the payload. Generated
+     with --fit=contain so the sum survives. */
+  'exchange-machine': [
+    { sel: '.exm-hit:not(.exm-slot)', nth: 1, wait: 420 }
+  ],
   'number-sieve': [
     { sel: '[data-fk="chip:f100"]', wait: 320 },
     { sel: '.nsv-cell[data-n="7"]', wait: 90 },

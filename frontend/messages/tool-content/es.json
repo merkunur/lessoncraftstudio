@@ -1223,6 +1223,30 @@
     "metaTitle": "Nueve casillas, un edificio — geometría espacial y construcciones, 1.º y 2.º",
     "metaDescription": "Nueve números dicen lo alto que sube cada parte de un edificio; cambia la cuadrícula y el edificio la sigue. Herramienta gratuita para la pizarra digital."
   },
+  "exchange-machine": {
+    "slug": "maquina-de-los-cambios",
+    "name": "La máquina de los cambios",
+    "tagline": "Llevar y cambiar son la misma máquina, funcionando en los dos sentidos.",
+    "about": [
+      "Una operación en vertical sobre papel cuadriculado, en la que cada columna continúa hacia abajo en un tubo con lo que esa columna tiene de verdad. Toca una columna que tenga algo que dar: uno la abandona y llega convertido en diez al tubo de su derecha. La cifra se escribe en ese mismo instante, así que la escritura y el movimiento dejan de ser dos lecciones distintas.",
+      "Llevar es el asunto más temido del curso, porque el niño lo recibe como una serie de signos arbitrarios que hay que recordar en el orden correcto. Aquí el segundo número ya está dibujado en los tubos con siluetas vacías, de modo que la falta se ve antes de tocar nada. Cinco siluetas vacías colgando sobre una columna vacía contestan solas a «¿por qué iba yo a romper una decena?»",
+      "Una columna vacía se niega a dar: para 204 − 137 hay que cambiar primero una centena, y esa negativa es la lección. Nada se marca nunca como bien o mal – sin puntuación, sin cronómetro, sin estrellas – y el material sencillamente no puede hacer algo imposible. La suma llevando aparece entre 1.º y 2.º de Primaria y la resta llevando en 2.º y 3.º, de manera que la máquina acompaña varios cursos."
+    ],
+    "howToUse": [
+      "Proyecta una operación en vertical y leed juntos los tubos antes de que nadie toque la pantalla.",
+      "Pregunta a la clase dónde no llega: las siluetas vacías suspendidas sobre una columna vacía lo enseñan solas.",
+      "Toca la columna que tenga algo que dar y observad cómo la cifra se escribe justo en el momento del cambio.",
+      "Vuelve a tocar para devolverlo todo a su sitio y que la clase vea la misma máquina funcionando al revés.",
+      "Ajusta la escritura y el método a los de tu aula – por descomposición o por compensación – y pasa después la pantalla a un niño."
+    ],
+    "classroomIdeas": [
+      "Empieza por 204 − 137 y deja que la clase toque primero las decenas: la negativa convierte «¿qué cambiamos primero?» en pregunta suya y no tuya.",
+      "Coloca las mismas cifras primero como suma y justo después como resta, para que llevar y cambiar se vean como un solo movimiento en dos sentidos.",
+      "Tapa la operación escrita, haz leer solo los tubos y destápala después para emparejar cada cifra con el movimiento que la provocó."
+    ],
+    "metaTitle": "La máquina de los cambios – sumas y restas llevando",
+    "metaDescription": "Herramienta gratuita para toda la clase: toca una columna, uno la deja, diez llegan a la derecha y la cifra se escribe en ese mismo instante. De 6 a 9 años."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -1203,6 +1203,30 @@
     "metaTitle": "Talo lukuina – rakentaminen ohjeen mukaan, alkuopetus",
     "metaDescription": "Yhdeksän ruutua ja luku jokaisessa, ja talo nousee viereen. Käännä neljänneskierros ja katso, miltä se näyttää edestä ja sivulta. Ilmainen alkuopetukseen."
   },
+  "exchange-machine": {
+    "slug": "vaihtokone",
+    "name": "Vaihtokone",
+    "tagline": "Muistinumero ja purkaminen ovat sama kone kumpaankin suuntaan.",
+    "about": [
+      "Allekkainlasku on ruutupaperilla, ja jokainen sarake jatkuu alaspäin putkeksi, jossa on se, mitä sarakkeella todella on. Kosketa saraketta, jolla on annettavaa: yksi lähtee putkesta ja saapuu kymmenenä oikealla olevaan putkeen. Kynänjälki kirjoittuu samalla hetkellä, joten merkintätapa ja liike eivät jää kahdeksi erilliseksi oppitunniksi.",
+      "Vaihtaminen on lukuvuoden pelätyin aihe, koska lapsi kohtaa sen sarjana mielivaltaisia merkkejä, jotka pitää muistaa oikeassa järjestyksessä. Täällä toinen luku on jo putkissa tyhjinä ääriviivoina, joten vajaus näkyy ennen kuin kukaan koskee näyttöön. Viisi tyhjää ääriviivaa tyhjän sarakkeen yllä vastaa itse kysymykseen ”miksi minun pitäisi koskaan purkaa kymmentä?”",
+      "Tyhjä sarake kieltäytyy antamasta – laskussa 204 − 137 sadat on purettava ensin, ja juuri se kieltäytyminen on oppitunti. Mitään ei koskaan merkitä oikeaksi tai vääräksi: ei pisteitä, ei kelloa, ei tähtiä, eikä materiaali yksinkertaisesti pysty mahdottomaan. Allekkain laskeminen alkaa Suomessa vasta 2. luokalla, mutta vaihtaminen ja paikka-arvo ovat esillä jo ensimmäisestä luokasta, joten kone kantaa koko matkan."
+    ],
+    "howToUse": [
+      "Näytä allekkainlasku ja lukekaa putket yhdessä, ennen kuin kukaan koskee näyttöön.",
+      "Kysy, mistä ei riitä – tyhjän sarakkeen yllä roikkuvat tyhjät ääriviivat näyttävät sen itsestään.",
+      "Kosketa saraketta, jolla on annettavaa, ja katsokaa, miten muistinumero kirjoittuu juuri vaihdon hetkellä.",
+      "Kosketa uudelleen, niin kaikki palaa paikoilleen ja luokka näkee saman koneen kulkevan toiseen suuntaan.",
+      "Aseta merkintätapa ja menetelmä samaksi kuin luokkanne oppikirjassa ja anna kosketusvuoro sitten oppilaalle."
+    ],
+    "classroomIdeas": [
+      "Aloita laskusta 204 − 137 ja anna luokan koskettaa ensin kymmeniä: kieltäytyminen tekee kysymyksestä ”mikä puretaan ensin?” oppilaiden oman.",
+      "Laske samat numerot ensin yhteenlaskuna ja heti perään vähennyslaskuna, jolloin muistinumero ja purkaminen näkyvät yhtenä liikkeenä kumpaankin suuntaan.",
+      "Peitä kirjoitettu lasku, anna oppilaiden lukea pelkät putket ja yhdistä sitten jokainen merkintä siihen liikkeeseen, joka sen aiheutti."
+    ],
+    "metaTitle": "Vaihtokone – muistinumero ja lainaaminen allekkain",
+    "metaDescription": "Maksuton koko luokan väline: kosketa saraketta, yksi lähtee putkesta, kymmenen saapuu oikealle ja muistinumero kirjoittuu samalla hetkellä. 6-9-vuotiaille."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

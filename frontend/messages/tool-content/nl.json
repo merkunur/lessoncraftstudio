@@ -1226,6 +1226,30 @@
     "metaTitle": "De bouwplaat – bouwen naar bouwplaat, groep 3/4",
     "metaDescription": "Negen getallen op de bouwplaat, ernaast het bouwwerk – van voren en van opzij. Bouwen naar bouwplaat voor groep 3/4, gratis op het digibord."
   },
+  "exchange-machine": {
+    "slug": "wisselmachine",
+    "name": "De Wisselmachine",
+    "tagline": "Onthouden en wisselen zijn één machine, die twee kanten op draait.",
+    "about": [
+      "Een som onder elkaar op ruitjespapier, waarbij elke kolom naar beneden doorloopt in een buis met wat die kolom werkelijk heeft. Tik op een kolom die iets kan afstaan: er gaat er één weg en er komen er tien aan in de buis ernaast. Het onthoudcijfer verschijnt op datzelfde moment, zodat schrijfwijze en beweging niet twee losse lessen blijven.",
+      "Wisselen is het meest gevreesde onderdeel van het jaar, omdat kinderen het tegenkomen als een rij willekeurige tekens die in de goede volgorde onthouden moeten worden. Hier staat het tweede getal al in de buizen, getekend als lege omtrekken, zodat het tekort te zien is voordat er iets gebeurt. Vijf lege omtrekken boven een lege kolom beantwoorden zelf de vraag ‘waarom zou ik ooit een tiental wisselen?’",
+      "Een lege kolom weigert af te staan: voor 204 − 137 moet eerst een honderdtal gewisseld worden, en juist die weigering is de les. Er wordt nooit iets goed- of afgekeurd – geen punten, geen klok, geen sterren – en het materiaal kan iets onmogelijks eenvoudigweg niet doen. Cijferend optellen en aftrekken komt in Nederland pas in groep 5 en 6; het wisselen zelf speelt al vanaf groep 4, dus de machine is eerder bruikbaar dan het algoritme zelf."
+    ],
+    "howToUse": [
+      "Zet een som onder elkaar op het bord en lees eerst samen de buizen voordat er iemand tikt.",
+      "Vraag waar het tekort zit: de lege omtrekken boven een lege kolom laten het vanzelf zien.",
+      "Tik op de kolom die iets kan afstaan en kijk hoe het onthoudcijfer precies tijdens de wissel wordt geschreven.",
+      "Tik nog een keer om alles terug te zetten, zodat de klas dezelfde machine de andere kant op ziet draaien.",
+      "Zet de schrijfwijze en de methode op die van jullie rekenmethode en geef het tikken daarna aan een kind."
+    ],
+    "classroomIdeas": [
+      "Begin met 204 − 137 en laat de klas eerst op de tientallen tikken: de weigering maakt ‘wat wisselen we eerst?’ tot hun eigen vraag.",
+      "Zet dezelfde cijfers vlak na elkaar als plussom en als minsom, zodat onthouden en wisselen als één beweging in twee richtingen te zien zijn.",
+      "Dek de opgeschreven som af, laat alleen de buizen lezen en koppel daarna elk cijfer aan de beweging die het veroorzaakte."
+    ],
+    "metaTitle": "De Wisselmachine – onthouden en wisselen, groep 4-6",
+    "metaDescription": "Gratis klassikaal hulpmiddel: tik op een kolom, er gaat er één weg, er komen er tien naast aan en het onthoudcijfer verschijnt op hetzelfde moment. Groep 4-6."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

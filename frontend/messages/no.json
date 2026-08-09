@@ -2092,114 +2092,114 @@
     "kindergarten__summer": "Sommeren før skolestart er gull verdt – og disse nesten 40 sommeroppgavene for skolestartere (5–7 år) gjør det lett å holde tall og bokstaver varme gjennom ferien. Barna teller iskremer og vannmeloner, løser små plusstykker, sorterer, fortsetter mønstre og leker med bokstavene i sommerens ord. Et par ark i uka er nok, og det skal kjennes som lek, ikke lekser. Skriv ut gratis som PDF med fasit før ferieturen, eller la barnet løse oppgavene i nettleseren – uten konto og uten app."
   },
   "bulk": {
-    "toggleSelect": "Select",
-    "toggleDone": "Done",
-    "toolbarAria": "Bulk selection actions",
-    "selectionCount": "{count, plural, =1 {1 deck selected} other {# decks selected}}",
-    "checkboxAria": "Select {title}",
+    "toggleSelect": "Velg",
+    "toggleDone": "Ferdig",
+    "toolbarAria": "Handlinger for valgte deck",
+    "selectionCount": "{count, plural, =1 {1 deck valgt} other {# deck valgt}}",
+    "checkboxAria": "Velg {title}",
     "action": {
-      "addToCollection": "Add to collection",
-      "removeFromCollection": "Remove",
-      "shareLinks": "Share links",
-      "cancel": "Cancel",
+      "addToCollection": "Legg til i samling",
+      "removeFromCollection": "Fjern",
+      "shareLinks": "Del lenker",
+      "cancel": "Avbryt",
       "downloadPack": "Last ned som ZIP-pakke"
     },
-    "addedConfirmation": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}",
-    "removedConfirmation": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}",
-    "errorGeneric": "Something went wrong. Please try again.",
+    "addedConfirmation": "{count, plural, =1 {La til 1 deck i {collectionName}} other {La til # deck i {collectionName}}}",
+    "removedConfirmation": "{count, plural, =1 {Fjernet 1 deck} other {Fjernet # deck}}",
+    "errorGeneric": "Noe gikk galt. Prøv igjen.",
     "addToCollectionPicker": {
-      "pickerTitle": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}",
-      "pickerLoading": "Loading collections…",
-      "pickerEmpty": "You don't have any collections yet. Create one first.",
-      "pickerCreate": "+ New collection",
-      "pickerCancel": "Cancel",
-      "errorGeneric": "Could not load collections. Please try again."
+      "pickerTitle": "{count, plural, =1 {Legg til 1 deck i en samling} other {Legg til # deck i en samling}}",
+      "pickerLoading": "Laster samlinger…",
+      "pickerEmpty": "Du har ingen samlinger ennå. Opprett en først.",
+      "pickerCreate": "+ Ny samling",
+      "pickerCancel": "Avbryt",
+      "errorGeneric": "Kunne ikke laste samlingene. Prøv igjen."
     },
-    "packUpsell": "Temapakker er en funksjon i Teacher-planen.",
+    "packUpsell": "Temapakker er en del av Lærerabonnementet.",
     "packTooMany": "Pakker er begrenset til {max} arbeidsark.",
     "packDone": "Pakke med {count} PDF-er lastet ned."
   },
   "collections": {
     "meta": {
-      "title": "Your collections",
-      "description": "Save and organize decks into collections — by class, by unit, by week."
+      "title": "Samlingene dine",
+      "description": "Lagre og organiser deck i samlinger — etter klasse, etter emne, etter uke."
     },
     "list": {
-      "title": "Your collections",
-      "loading": "Loading…",
-      "newCollection": "+ New collection",
-      "emptyStateTitle": "No collections yet",
-      "emptyStateBody": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start.",
-      "deckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
-      "errorGeneric": "Something went wrong. Please try again."
+      "title": "Mine samlinger",
+      "loading": "Laster…",
+      "newCollection": "+ Ny samling",
+      "emptyStateTitle": "Ingen samlinger ennå",
+      "emptyStateBody": "Lagre og organiser deck i samlinger — etter klasse, etter emne, etter uke. Trykk + Ny samling for å komme i gang.",
+      "deckCount": "{count, plural, =0 {Ingen deck} =1 {1 deck} other {# deck}}",
+      "errorGeneric": "Noe gikk galt. Prøv igjen."
     },
     "create": {
-      "title": "New collection",
-      "nameLabel": "Name",
-      "namePlaceholder": "e.g. Spring vocabulary",
-      "descriptionLabel": "Description (optional)",
-      "submit": "Create",
-      "cancel": "Cancel",
-      "submitting": "Creating…",
-      "errorRequired": "Please enter a name.",
-      "errorGeneric": "Could not create the collection. Please try again."
+      "title": "Ny samling",
+      "nameLabel": "Navn",
+      "namePlaceholder": "f.eks. Vårord",
+      "descriptionLabel": "Beskrivelse (valgfritt)",
+      "submit": "Opprett",
+      "cancel": "Avbryt",
+      "submitting": "Oppretter…",
+      "errorRequired": "Skriv inn et navn.",
+      "errorGeneric": "Kunne ikke opprette samlingen. Prøv igjen."
     },
     "detail": {
       "metaTitle": "{name}",
-      "back": "← All collections",
-      "renameCta": "Rename",
-      "renameTitle": "Rename collection",
-      "renameSubmit": "Save",
-      "renameCancel": "Cancel",
-      "renameSubmitting": "Saving…",
-      "deleteCta": "Delete collection",
-      "deleteConfirmTitle": "Delete this collection?",
-      "deleteConfirmBody": "Decks won't be removed from the catalog.",
-      "deleteConfirmCta": "Delete",
-      "deleteCancel": "Cancel",
-      "deleteSubmitting": "Deleting…",
-      "removeDeck": "Remove",
-      "removeDeckConfirm": "Remove this deck from the collection?",
-      "playOnline": "Play online",
-      "pdf": "Print PDF",
-      "emptyTitle": "No decks in this collection yet",
-      "emptyBody": "Browse the catalog and click \"Add to collection\" on any deck card.",
-      "errorGeneric": "Something went wrong. Please try again."
+      "back": "← Alle samlinger",
+      "renameCta": "Gi nytt navn",
+      "renameTitle": "Gi samlingen nytt navn",
+      "renameSubmit": "Lagre",
+      "renameCancel": "Avbryt",
+      "renameSubmitting": "Lagrer…",
+      "deleteCta": "Slett samlingen",
+      "deleteConfirmTitle": "Slette denne samlingen?",
+      "deleteConfirmBody": "Ingen deck blir fjernet fra katalogen.",
+      "deleteConfirmCta": "Slett",
+      "deleteCancel": "Avbryt",
+      "deleteSubmitting": "Sletter…",
+      "removeDeck": "Fjern",
+      "removeDeckConfirm": "Fjerne dette decket fra samlingen?",
+      "playOnline": "Spill online",
+      "pdf": "Skriv ut PDF",
+      "emptyTitle": "Ingen deck i denne samlingen ennå",
+      "emptyBody": "Bla i katalogen og trykk «Legg til i samling» på et hvilket som helst deck.",
+      "errorGeneric": "Noe gikk galt. Prøv igjen."
     },
     "gate": {
       "subscriberTitle": "Dette området er en del av LessonCraftStudio-abonnementet",
       "subscriberBody": "Samlinger og verktøyene i arbeidsområdet er abonnentfunksjoner. Alt annet på LessonCraftStudio — oppgaveark, aktiviteter og utskriftsmateriell — forblir gratis.",
       "subscriberCta": "Se abonnementer",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Krever innlogging",
+      "signInPromptBody": "Du må ha en gratis konto for å bruke dette. Det tar bare et øyeblikk.",
+      "signInCta": "Bli med gratis"
     },
     "addAffordance": {
-      "label": "Add to collection",
-      "pickerTitle": "Add to a collection",
-      "pickerLoading": "Loading collections…",
-      "pickerEmpty": "You don't have any collections yet. Create one first.",
-      "pickerCreate": "+ New collection",
-      "pickerCancel": "Cancel",
-      "added": "Added to {collectionName}",
-      "alreadyIn": "Already in this collection",
-      "errorGeneric": "Could not add. Please try again."
+      "label": "Legg til i samling",
+      "pickerTitle": "Legg til i en samling",
+      "pickerLoading": "Laster samlinger…",
+      "pickerEmpty": "Du har ingen samlinger ennå. Opprett en først.",
+      "pickerCreate": "+ Ny samling",
+      "pickerCancel": "Avbryt",
+      "added": "Lagt til i {collectionName}",
+      "alreadyIn": "Allerede i denne samlingen",
+      "errorGeneric": "Kunne ikke legges til. Prøv igjen."
     }
   },
   "share": {
-    "label": "Share link",
-    "singleDeckTitle": "Share this deck",
-    "singleDeckBody": "Anyone with this link can play the deck. The link doesn't expire.",
-    "generating": "Generating link…",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copyAll": "Copy all",
-    "copiedAll": "Copied all!",
-    "close": "Close",
-    "errorGeneric": "Could not generate the link. Please try again.",
-    "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
-    "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
-    "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+    "label": "Del lenke",
+    "singleDeckTitle": "Del dette decket",
+    "singleDeckBody": "Alle som har lenken, kan spille decket. Lenken slutter ikke å virke.",
+    "generating": "Lager lenke…",
+    "copy": "Kopier",
+    "copied": "Kopiert!",
+    "copyAll": "Kopier alle",
+    "copiedAll": "Alle kopiert!",
+    "close": "Lukk",
+    "errorGeneric": "Kunne ikke lage lenken. Prøv igjen.",
+    "errorClipboard": "Fikk ikke tilgang til utklippstavlen. Merk lenken og kopier den manuelt.",
+    "bulkResultsTitle": "{count, plural, =1 {1 delingslenke} other {# delingslenker}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 deck ble hoppet over (ikke publisert)} other {# deck ble hoppet over (ikke publisert)}}"
   },
   "workspace": {
     "billing": {
@@ -2208,50 +2208,50 @@
       "manage": "Administrer betaling"
     },
     "metadata": {
-      "title": "Your workspace",
-      "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+      "title": "Arbeidsområdet mitt",
+      "description": "Arbeidsområdet ditt — samlinger, siste aktivitet og verktøyene som holder orden på undervisningen."
     },
     "header": {
-      "title": "Workspace",
-      "welcomeLine": "Your collections and recent activity, all in one place."
+      "title": "Arbeidsområdet mitt",
+      "welcomeLine": "Samlingene dine og siste aktivitet — alt på ett sted."
     },
     "gate": {
       "subscriberTitle": "Dette området er en del av LessonCraftStudio-abonnementet",
       "subscriberBody": "Samlinger og verktøyene i arbeidsområdet er abonnentfunksjoner. Alt annet på LessonCraftStudio — oppgaveark, aktiviteter og utskriftsmateriell — forblir gratis.",
       "subscriberCta": "Se abonnementer",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Krever innlogging",
+      "signInPromptBody": "Du må ha en gratis konto for å bruke dette. Det tar bare et øyeblikk.",
+      "signInCta": "Bli med gratis"
     },
-    "loading": "Loading…",
-    "errorGeneric": "Something went wrong. Please try again.",
+    "loading": "Laster…",
+    "errorGeneric": "Noe gikk galt. Prøv igjen.",
     "collections": {
       "heading": "Mine samlinger",
-      "viewAll": "View all ({count})",
+      "viewAll": "Se alle ({count})",
       "cardDeckCount": "{count, plural, =0 {Ingen deck} =1 {1 deck} other {# deck}}",
       "empty": {
-        "title": "No collections yet",
-        "body": "Save and organize decks into collections — by class, by unit, by week."
+        "title": "Ingen samlinger ennå",
+        "body": "Lagre og organiser deck i samlinger — etter klasse, etter emne, etter uke."
       },
       "cardEmptyCta": "Legg til deck"
     },
     "recentActivity": {
-      "heading": "Recent activity",
+      "heading": "Siste aktivitet",
       "empty": {
-        "title": "Nothing here yet",
-        "body": "Activity will appear here as you collect, organize, and share decks."
+        "title": "Ingenting her ennå",
+        "body": "Det du samler, organiserer og deler, dukker opp her."
       },
       "activityType": {
-        "collected": "Added {deckTitle} to {collectionName}",
-        "modified": "Updated {collectionName}",
-        "shared": "Shared {deckTitle}"
+        "collected": "La til {deckTitle} i {collectionName}",
+        "modified": "Oppdaterte {collectionName}",
+        "shared": "Delte {deckTitle}"
       },
       "relativeTime": {
-        "justNow": "just now",
-        "minutesAgo": "{count, plural, =1 {1 minute ago} other {# minutes ago}}",
-        "hoursAgo": "{count, plural, =1 {1 hour ago} other {# hours ago}}",
-        "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
-        "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        "justNow": "akkurat nå",
+        "minutesAgo": "{count, plural, =1 {for 1 minutt siden} other {for # minutter siden}}",
+        "hoursAgo": "{count, plural, =1 {for 1 time siden} other {for # timer siden}}",
+        "daysAgo": "{count, plural, =1 {for 1 dag siden} other {for # dager siden}}",
+        "weeksAgo": "{count, plural, =1 {for 1 uke siden} other {for # uker siden}}"
       }
     },
     "hosted": {
@@ -2263,7 +2263,7 @@
       "renamePrompt": "Nytt navn",
       "delete": "Slett",
       "deleteConfirm": "Slette dette arbeidsarket? Lenken slutter å virke.",
-      "views": "{count} visninger",
+      "views": "{count, plural, =1 {1 visning} other {# visninger}}",
       "share": "Del",
       "shareIntro": "Del dette arbeidsarket med klassen din.",
       "qrAlt": "QR-kode for dette arbeidsarket",
@@ -2276,7 +2276,7 @@
     "sharedActivities": {
       "title": "Mine delte aktiviteter",
       "empty": "Aktiviteter du deler med klassen vises her.",
-      "views": "{count} visninger",
+      "views": "{count, plural, =1 {spilt 1 gang} other {spilt # ganger}}",
       "share": "Del",
       "rename": "Gi nytt navn",
       "renamePrompt": "Nytt navn",

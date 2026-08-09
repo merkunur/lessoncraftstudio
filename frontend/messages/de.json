@@ -3483,7 +3483,7 @@
     },
     "metadata": {
       "title": "Ihr Arbeitsbereich",
-      "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+      "description": "Ihr Arbeitsbereich: Sammlungen, letzte Aktivitäten und alle Werkzeuge, mit denen Sie den Überblick über Ihren Unterricht behalten — alles an einem Ort."
     },
     "header": {
       "title": "Arbeitsbereich",
@@ -3537,7 +3537,7 @@
       "renamePrompt": "Neuer Name",
       "delete": "Löschen",
       "deleteConfirm": "Dieses Arbeitsblatt löschen? Der Link funktioniert dann nicht mehr.",
-      "views": "{count} Aufrufe",
+      "views": "{count, plural, =1 {1 Aufruf} other {# Aufrufe}}",
       "share": "Teilen",
       "shareIntro": "Teile dieses Arbeitsblatt mit deiner Klasse.",
       "qrAlt": "QR-Code für dieses Arbeitsblatt",
@@ -3550,7 +3550,7 @@
     "sharedActivities": {
       "title": "Von mir geteilte Aktivitäten",
       "empty": "Hier erscheinen Aktivitäten, die du mit deiner Klasse teilst.",
-      "views": "{count} Aufrufe",
+      "views": "{count, plural, =1 {1 Runde} other {# Runden}}",
       "share": "Teilen",
       "rename": "Umbenennen",
       "renamePrompt": "Neuer Name",
@@ -3621,7 +3621,7 @@
       "pickerCancel": "Abbrechen",
       "errorGeneric": "Sammlungen konnten nicht geladen werden. Bitte versuchen Sie es erneut."
     },
-    "packUpsell": "Themen-Pakete sind eine Funktion des Teacher-Plans.",
+    "packUpsell": "Themen-Pakete gehören zum Lehrkraft-Abo.",
     "packTooMany": "Pakete sind auf {max} Arbeitsblätter begrenzt.",
     "packDone": "Paket mit {count} PDFs heruntergeladen."
   },

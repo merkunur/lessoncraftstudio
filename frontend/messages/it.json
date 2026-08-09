@@ -3609,114 +3609,114 @@
     "kindergarten__spring": "Una raccolta di circa 40 schede di primavera per l'ultimo anno della scuola dell'infanzia (5-7 anni): con fiori, farfalle e germogli i bambini contano, provano le prime addizioni, classificano le immagini della natura che si risveglia, completano ritmi e sequenze e abbinano figure uguali. Ogni esercizio si spiega da solo con le immagini, ideale dopo un'uscita in giardino o come attività tranquilla al tavolo. Ogni scheda si scarica come PDF gratis da stampare con le soluzioni, oppure si gioca online nel browser, senza registrazione: pronta per la sezione o per casa."
   },
   "bulk": {
-    "toggleSelect": "Select",
-    "toggleDone": "Done",
-    "toolbarAria": "Bulk selection actions",
-    "selectionCount": "{count, plural, =1 {1 deck selected} other {# decks selected}}",
-    "checkboxAria": "Select {title}",
+    "toggleSelect": "Seleziona",
+    "toggleDone": "Fine",
+    "toolbarAria": "Azioni sulla selezione",
+    "selectionCount": "{count, plural, =1 {1 scheda selezionata} other {# schede selezionate}}",
+    "checkboxAria": "Seleziona {title}",
     "action": {
-      "addToCollection": "Add to collection",
-      "removeFromCollection": "Remove",
-      "shareLinks": "Share links",
-      "cancel": "Cancel",
+      "addToCollection": "Aggiungi alla raccolta",
+      "removeFromCollection": "Rimuovi",
+      "shareLinks": "Condividi i link",
+      "cancel": "Annulla",
       "downloadPack": "Scarica come pacchetto ZIP"
     },
-    "addedConfirmation": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}",
-    "removedConfirmation": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}",
-    "errorGeneric": "Something went wrong. Please try again.",
+    "addedConfirmation": "{count, plural, =1 {1 scheda aggiunta a {collectionName}} other {# schede aggiunte a {collectionName}}}",
+    "removedConfirmation": "{count, plural, =1 {1 scheda rimossa} other {# schede rimosse}}",
+    "errorGeneric": "Qualcosa non ha funzionato. Riprova.",
     "addToCollectionPicker": {
-      "pickerTitle": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}",
-      "pickerLoading": "Loading collections…",
-      "pickerEmpty": "You don't have any collections yet. Create one first.",
-      "pickerCreate": "+ New collection",
-      "pickerCancel": "Cancel",
-      "errorGeneric": "Could not load collections. Please try again."
+      "pickerTitle": "{count, plural, =1 {Aggiungi 1 scheda a una raccolta} other {Aggiungi # schede a una raccolta}}",
+      "pickerLoading": "Caricamento delle raccolte…",
+      "pickerEmpty": "Non hai ancora nessuna raccolta. Creane una per iniziare.",
+      "pickerCreate": "+ Nuova raccolta",
+      "pickerCancel": "Annulla",
+      "errorGeneric": "Impossibile caricare le raccolte. Riprova."
     },
-    "packUpsell": "I pacchetti tema sono una funzione del piano Teacher.",
+    "packUpsell": "I pacchetti tema sono una funzione del piano Insegnante.",
     "packTooMany": "I pacchetti sono limitati a {max} schede.",
     "packDone": "Pacchetto con {count} PDF scaricato."
   },
   "collections": {
     "meta": {
-      "title": "Your collections",
-      "description": "Save and organize decks into collections — by class, by unit, by week."
+      "title": "Le mie raccolte",
+      "description": "Salva le schede e organizzale in raccolte — per classe, per unità didattica, per settimana."
     },
     "list": {
-      "title": "Your collections",
-      "loading": "Loading…",
-      "newCollection": "+ New collection",
-      "emptyStateTitle": "No collections yet",
-      "emptyStateBody": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start.",
-      "deckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
-      "errorGeneric": "Something went wrong. Please try again."
+      "title": "Le mie raccolte",
+      "loading": "Caricamento…",
+      "newCollection": "+ Nuova raccolta",
+      "emptyStateTitle": "Ancora nessuna raccolta",
+      "emptyStateBody": "Salva le schede e organizzale in raccolte — per classe, per unità didattica, per settimana. Tocca «+ Nuova raccolta» per iniziare.",
+      "deckCount": "{count, plural, =0 {Nessuna scheda} =1 {1 scheda} other {# schede}}",
+      "errorGeneric": "Qualcosa non ha funzionato. Riprova."
     },
     "create": {
-      "title": "New collection",
-      "nameLabel": "Name",
-      "namePlaceholder": "e.g. Spring vocabulary",
-      "descriptionLabel": "Description (optional)",
-      "submit": "Create",
-      "cancel": "Cancel",
-      "submitting": "Creating…",
-      "errorRequired": "Please enter a name.",
-      "errorGeneric": "Could not create the collection. Please try again."
+      "title": "Nuova raccolta",
+      "nameLabel": "Nome",
+      "namePlaceholder": "es. Parole della primavera",
+      "descriptionLabel": "Descrizione (facoltativa)",
+      "submit": "Crea",
+      "cancel": "Annulla",
+      "submitting": "Creazione…",
+      "errorRequired": "Inserisci un nome.",
+      "errorGeneric": "Impossibile creare la raccolta. Riprova."
     },
     "detail": {
       "metaTitle": "{name}",
-      "back": "← All collections",
-      "renameCta": "Rename",
-      "renameTitle": "Rename collection",
-      "renameSubmit": "Save",
-      "renameCancel": "Cancel",
-      "renameSubmitting": "Saving…",
-      "deleteCta": "Delete collection",
-      "deleteConfirmTitle": "Delete this collection?",
-      "deleteConfirmBody": "Decks won't be removed from the catalog.",
-      "deleteConfirmCta": "Delete",
-      "deleteCancel": "Cancel",
-      "deleteSubmitting": "Deleting…",
-      "removeDeck": "Remove",
-      "removeDeckConfirm": "Remove this deck from the collection?",
-      "playOnline": "Play online",
-      "pdf": "Print PDF",
-      "emptyTitle": "No decks in this collection yet",
-      "emptyBody": "Browse the catalog and click \"Add to collection\" on any deck card.",
-      "errorGeneric": "Something went wrong. Please try again."
+      "back": "← Tutte le raccolte",
+      "renameCta": "Rinomina",
+      "renameTitle": "Rinomina raccolta",
+      "renameSubmit": "Salva",
+      "renameCancel": "Annulla",
+      "renameSubmitting": "Salvataggio…",
+      "deleteCta": "Elimina raccolta",
+      "deleteConfirmTitle": "Eliminare questa raccolta?",
+      "deleteConfirmBody": "Le schede resteranno nel catalogo.",
+      "deleteConfirmCta": "Elimina",
+      "deleteCancel": "Annulla",
+      "deleteSubmitting": "Eliminazione…",
+      "removeDeck": "Rimuovi",
+      "removeDeckConfirm": "Rimuovere questa scheda dalla raccolta?",
+      "playOnline": "Gioca online",
+      "pdf": "Stampa PDF",
+      "emptyTitle": "Ancora nessuna scheda in questa raccolta",
+      "emptyBody": "Sfoglia il catalogo e tocca «Aggiungi alla raccolta» su una scheda qualsiasi.",
+      "errorGeneric": "Qualcosa non ha funzionato. Riprova."
     },
     "gate": {
       "subscriberTitle": "Quest'area fa parte dell'abbonamento LessonCraftStudio",
       "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono funzioni per abbonati. Tutto il resto su LessonCraftStudio — schede, attività e materiali da stampare — resta gratuito.",
       "subscriberCta": "Vedi i piani",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Serve l'accesso",
+      "signInPromptBody": "Per usare questa funzione serve un account gratuito. Ci vuole un attimo.",
+      "signInCta": "Registrati gratis"
     },
     "addAffordance": {
-      "label": "Add to collection",
-      "pickerTitle": "Add to a collection",
-      "pickerLoading": "Loading collections…",
-      "pickerEmpty": "You don't have any collections yet. Create one first.",
-      "pickerCreate": "+ New collection",
-      "pickerCancel": "Cancel",
-      "added": "Added to {collectionName}",
-      "alreadyIn": "Already in this collection",
-      "errorGeneric": "Could not add. Please try again."
+      "label": "Aggiungi alla raccolta",
+      "pickerTitle": "Aggiungi a una raccolta",
+      "pickerLoading": "Caricamento delle raccolte…",
+      "pickerEmpty": "Non hai ancora nessuna raccolta. Creane una per iniziare.",
+      "pickerCreate": "+ Nuova raccolta",
+      "pickerCancel": "Annulla",
+      "added": "Aggiunta a {collectionName}",
+      "alreadyIn": "È già in questa raccolta",
+      "errorGeneric": "Impossibile aggiungere. Riprova."
     }
   },
   "share": {
-    "label": "Share link",
-    "singleDeckTitle": "Share this deck",
-    "singleDeckBody": "Anyone with this link can play the deck. The link doesn't expire.",
-    "generating": "Generating link…",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copyAll": "Copy all",
-    "copiedAll": "Copied all!",
-    "close": "Close",
-    "errorGeneric": "Could not generate the link. Please try again.",
-    "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
-    "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
-    "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+    "label": "Condividi link",
+    "singleDeckTitle": "Condividi questa scheda",
+    "singleDeckBody": "Chi ha questo link può giocare con la scheda. Il link non scade.",
+    "generating": "Creazione del link…",
+    "copy": "Copia",
+    "copied": "Copiato!",
+    "copyAll": "Copia tutti",
+    "copiedAll": "Copiati tutti!",
+    "close": "Chiudi",
+    "errorGeneric": "Impossibile creare il link. Riprova.",
+    "errorClipboard": "Impossibile accedere agli appunti. Seleziona il link e copialo a mano.",
+    "bulkResultsTitle": "{count, plural, =1 {1 link di condivisione} other {# link di condivisione}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 scheda saltata (non pubblicata)} other {# schede saltate (non pubblicate)}}"
   },
   "workspace": {
     "billing": {
@@ -3725,50 +3725,50 @@
       "manage": "Gestisci fatturazione"
     },
     "metadata": {
-      "title": "Your workspace",
-      "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+      "title": "La mia area di lavoro",
+      "description": "Raccolte, attività recente e strumenti per tenere in ordine il tuo materiale didattico."
     },
     "header": {
-      "title": "Workspace",
-      "welcomeLine": "Your collections and recent activity, all in one place."
+      "title": "La mia area di lavoro",
+      "welcomeLine": "Le mie raccolte e la mia attività recente, tutto in un posto solo."
     },
     "gate": {
       "subscriberTitle": "Quest'area fa parte dell'abbonamento LessonCraftStudio",
       "subscriberBody": "Le raccolte e gli strumenti dell'area di lavoro sono funzioni per abbonati. Tutto il resto su LessonCraftStudio — schede, attività e materiali da stampare — resta gratuito.",
       "subscriberCta": "Vedi i piani",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Serve l'accesso",
+      "signInPromptBody": "Per usare questa funzione serve un account gratuito. Ci vuole un attimo.",
+      "signInCta": "Registrati gratis"
     },
-    "loading": "Loading…",
-    "errorGeneric": "Something went wrong. Please try again.",
+    "loading": "Caricamento…",
+    "errorGeneric": "Qualcosa non ha funzionato. Riprova.",
     "collections": {
       "heading": "Le mie raccolte",
-      "viewAll": "View all ({count})",
-      "cardDeckCount": "{count, plural, =0 {Nessun deck} =1 {1 deck} other {# deck}}",
+      "viewAll": "Vedi tutto ({count})",
+      "cardDeckCount": "{count, plural, =0 {Nessuna scheda} =1 {1 scheda} other {# schede}}",
       "empty": {
-        "title": "No collections yet",
-        "body": "Save and organize decks into collections — by class, by unit, by week."
+        "title": "Ancora nessuna raccolta",
+        "body": "Salva le schede e organizzale in raccolte — per classe, per unità didattica, per settimana."
       },
-      "cardEmptyCta": "Aggiungi deck"
+      "cardEmptyCta": "Aggiungi schede"
     },
     "recentActivity": {
-      "heading": "Recent activity",
+      "heading": "Attività recente",
       "empty": {
-        "title": "Nothing here yet",
-        "body": "Activity will appear here as you collect, organize, and share decks."
+        "title": "Qui non c'è ancora niente",
+        "body": "Qui comparirà quello che fai man mano che salvi, organizzi e condividi le schede."
       },
       "activityType": {
-        "collected": "Added {deckTitle} to {collectionName}",
-        "modified": "Updated {collectionName}",
-        "shared": "Shared {deckTitle}"
+        "collected": "Hai aggiunto {deckTitle} a {collectionName}",
+        "modified": "Hai aggiornato {collectionName}",
+        "shared": "Hai condiviso {deckTitle}"
       },
       "relativeTime": {
-        "justNow": "just now",
-        "minutesAgo": "{count, plural, =1 {1 minute ago} other {# minutes ago}}",
-        "hoursAgo": "{count, plural, =1 {1 hour ago} other {# hours ago}}",
-        "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
-        "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        "justNow": "poco fa",
+        "minutesAgo": "{count, plural, =1 {1 minuto fa} other {# minuti fa}}",
+        "hoursAgo": "{count, plural, =1 {1 ora fa} other {# ore fa}}",
+        "daysAgo": "{count, plural, =1 {1 giorno fa} other {# giorni fa}}",
+        "weeksAgo": "{count, plural, =1 {1 settimana fa} other {# settimane fa}}"
       }
     },
     "hosted": {
@@ -3780,7 +3780,7 @@
       "renamePrompt": "Nuovo nome",
       "delete": "Elimina",
       "deleteConfirm": "Eliminare questa scheda? Il suo link smetterà di funzionare.",
-      "views": "{count} visualizzazioni",
+      "views": "{count, plural, =1 {1 visualizzazione} other {# visualizzazioni}}",
       "share": "Condividi",
       "shareIntro": "Condividi questa scheda con la tua classe.",
       "qrAlt": "Codice QR di questa scheda",
@@ -3793,7 +3793,7 @@
     "sharedActivities": {
       "title": "Le mie attività condivise",
       "empty": "Le attività condivise con la tua classe appariranno qui.",
-      "views": "{count} visualizzazioni",
+      "views": "{count, plural, =1 {1 giocata} other {# giocate}}",
       "share": "Condividi",
       "rename": "Rinomina",
       "renamePrompt": "Nuovo nome",
@@ -3814,7 +3814,7 @@
       "activities": "Attività",
       "collections": "Raccolte",
       "favorites": "Preferiti",
-      "ariaLabel": "Sezioni dello spazio di lavoro"
+      "ariaLabel": "Sezioni dell'area di lavoro"
     },
     "list": {
       "showing": "Mostrati {from}–{to} di {total}",

@@ -2077,114 +2077,114 @@
     "kindergarten__summer": "Kesätehtävät eskarilaisille kokoavat lähes neljäkymmentä ilmaista tehtävää 5–7-vuotiaille – juuri sopivia eskarin viimeisille viikoille ja koulua edeltävään kesään. Jäätelöitä lasketaan, rantatavaroita lajitellaan, kesäsarjoja jatketaan ja kesäsanojen kirjaimia tunnistellaan. Pieni tehtävähetki silloin tällöin pitää eskarivuoden taidot vireässä ja tekee elokuun koulunaloituksesta pehmeämmän. Tulosta mökkireissulle valmis nippu vastauksineen tai anna lapsen tehdä tehtäviä suoraan selaimessa – ilmaiseksi ja ilman tiliä. Lyhyet tehtävät sopivat loma-arjen lomaan ilman läksyjen makua."
   },
   "bulk": {
-    "toggleSelect": "Select",
-    "toggleDone": "Done",
-    "toolbarAria": "Bulk selection actions",
-    "selectionCount": "{count, plural, =1 {1 deck selected} other {# decks selected}}",
-    "checkboxAria": "Select {title}",
+    "toggleSelect": "Valitse",
+    "toggleDone": "Valmis",
+    "toolbarAria": "Monivalinnan toiminnot",
+    "selectionCount": "{count, plural, =1 {1 tehtäväarkki valittu} other {# tehtäväarkkia valittu}}",
+    "checkboxAria": "Valitse ”{title}”",
     "action": {
-      "addToCollection": "Add to collection",
-      "removeFromCollection": "Remove",
-      "shareLinks": "Share links",
-      "cancel": "Cancel",
+      "addToCollection": "Lisää kokoelmaan",
+      "removeFromCollection": "Poista",
+      "shareLinks": "Jaa linkit",
+      "cancel": "Peruuta",
       "downloadPack": "Lataa ZIP-pakettina"
     },
-    "addedConfirmation": "{count, plural, =1 {Added 1 deck to {collectionName}} other {Added # decks to {collectionName}}}",
-    "removedConfirmation": "{count, plural, =1 {Removed 1 deck} other {Removed # decks}}",
-    "errorGeneric": "Something went wrong. Please try again.",
+    "addedConfirmation": "{count, plural, =1 {Lisätty 1 tehtäväarkki kokoelmaan ”{collectionName}”} other {Lisätty # tehtäväarkkia kokoelmaan ”{collectionName}”}}",
+    "removedConfirmation": "{count, plural, =1 {Poistettu 1 tehtäväarkki} other {Poistettu # tehtäväarkkia}}",
+    "errorGeneric": "Jokin meni pieleen. Yritä uudelleen.",
     "addToCollectionPicker": {
-      "pickerTitle": "{count, plural, =1 {Add 1 deck to a collection} other {Add # decks to a collection}}",
-      "pickerLoading": "Loading collections…",
-      "pickerEmpty": "You don't have any collections yet. Create one first.",
-      "pickerCreate": "+ New collection",
-      "pickerCancel": "Cancel",
-      "errorGeneric": "Could not load collections. Please try again."
+      "pickerTitle": "{count, plural, =1 {Lisää 1 tehtäväarkki kokoelmaan} other {Lisää # tehtäväarkkia kokoelmaan}}",
+      "pickerLoading": "Ladataan kokoelmia…",
+      "pickerEmpty": "Sinulla ei ole vielä yhtään kokoelmaa. Luo ensin kokoelma.",
+      "pickerCreate": "+ Uusi kokoelma",
+      "pickerCancel": "Peruuta",
+      "errorGeneric": "Kokoelmien lataus epäonnistui. Yritä uudelleen."
     },
-    "packUpsell": "Teemapaketit ovat Teacher-tilauksen ominaisuus.",
+    "packUpsell": "Teemapaketit kuuluvat Opettaja-tilaukseen.",
     "packTooMany": "Paketit on rajattu {max} tehtävään.",
     "packDone": "Paketti ({count} PDF:ää) ladattu."
   },
   "collections": {
     "meta": {
-      "title": "Your collections",
-      "description": "Save and organize decks into collections — by class, by unit, by week."
+      "title": "Omat kokoelmat",
+      "description": "Tallenna ja järjestä tehtäväarkkeja kokoelmiin — luokan, jakson tai viikon mukaan."
     },
     "list": {
-      "title": "Your collections",
-      "loading": "Loading…",
-      "newCollection": "+ New collection",
-      "emptyStateTitle": "No collections yet",
-      "emptyStateBody": "Save and organize decks into collections — by class, by unit, by week. Click + New collection to start.",
-      "deckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
-      "errorGeneric": "Something went wrong. Please try again."
+      "title": "Omat kokoelmat",
+      "loading": "Ladataan…",
+      "newCollection": "+ Uusi kokoelma",
+      "emptyStateTitle": "Ei vielä kokoelmia",
+      "emptyStateBody": "Tallenna ja järjestä tehtäväarkkeja kokoelmiin — luokan, jakson tai viikon mukaan. Aloita napauttamalla ”+ Uusi kokoelma”.",
+      "deckCount": "{count, plural, =0 {Ei tehtäväarkkeja} =1 {1 tehtäväarkki} other {# tehtäväarkkia}}",
+      "errorGeneric": "Jokin meni pieleen. Yritä uudelleen."
     },
     "create": {
-      "title": "New collection",
-      "nameLabel": "Name",
-      "namePlaceholder": "e.g. Spring vocabulary",
-      "descriptionLabel": "Description (optional)",
-      "submit": "Create",
-      "cancel": "Cancel",
-      "submitting": "Creating…",
-      "errorRequired": "Please enter a name.",
-      "errorGeneric": "Could not create the collection. Please try again."
+      "title": "Uusi kokoelma",
+      "nameLabel": "Nimi",
+      "namePlaceholder": "esim. Kevään sanasto",
+      "descriptionLabel": "Kuvaus (valinnainen)",
+      "submit": "Luo",
+      "cancel": "Peruuta",
+      "submitting": "Luodaan…",
+      "errorRequired": "Anna nimi.",
+      "errorGeneric": "Kokoelman luonti epäonnistui. Yritä uudelleen."
     },
     "detail": {
       "metaTitle": "{name}",
-      "back": "← All collections",
-      "renameCta": "Rename",
-      "renameTitle": "Rename collection",
-      "renameSubmit": "Save",
-      "renameCancel": "Cancel",
-      "renameSubmitting": "Saving…",
-      "deleteCta": "Delete collection",
-      "deleteConfirmTitle": "Delete this collection?",
-      "deleteConfirmBody": "Decks won't be removed from the catalog.",
-      "deleteConfirmCta": "Delete",
-      "deleteCancel": "Cancel",
-      "deleteSubmitting": "Deleting…",
-      "removeDeck": "Remove",
-      "removeDeckConfirm": "Remove this deck from the collection?",
-      "playOnline": "Play online",
-      "pdf": "Print PDF",
-      "emptyTitle": "No decks in this collection yet",
-      "emptyBody": "Browse the catalog and click \"Add to collection\" on any deck card.",
-      "errorGeneric": "Something went wrong. Please try again."
+      "back": "← Kaikki kokoelmat",
+      "renameCta": "Nimeä uudelleen",
+      "renameTitle": "Nimeä kokoelma uudelleen",
+      "renameSubmit": "Tallenna",
+      "renameCancel": "Peruuta",
+      "renameSubmitting": "Tallennetaan…",
+      "deleteCta": "Poista kokoelma",
+      "deleteConfirmTitle": "Poistetaanko tämä kokoelma?",
+      "deleteConfirmBody": "Tehtäväarkit eivät poistu katalogista.",
+      "deleteConfirmCta": "Poista",
+      "deleteCancel": "Peruuta",
+      "deleteSubmitting": "Poistetaan…",
+      "removeDeck": "Poista",
+      "removeDeckConfirm": "Poistetaanko tämä tehtäväarkki kokoelmasta?",
+      "playOnline": "Pelaa verkossa",
+      "pdf": "Tulosta PDF",
+      "emptyTitle": "Tässä kokoelmassa ei ole vielä tehtäväarkkeja",
+      "emptyBody": "Selaa katalogia ja napauta minkä tahansa tehtäväarkin kohdalla ”Lisää kokoelmaan”.",
+      "errorGeneric": "Jokin meni pieleen. Yritä uudelleen."
     },
     "gate": {
       "subscriberTitle": "Tämä osio kuuluu LessonCraftStudio-tilaukseen",
       "subscriberBody": "Kokoelmat ja työtilan työkalut ovat tilaajien ominaisuuksia. Kaikki muu LessonCraftStudiossa — tehtävät, aktiviteetit ja tulostettavat materiaalit — pysyy ilmaisena.",
       "subscriberCta": "Katso tilausvaihtoehdot",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Kirjautuminen vaaditaan",
+      "signInPromptBody": "Tämä ominaisuus vaatii ilmaisen tilin. Rekisteröityminen vie vain hetken.",
+      "signInCta": "Liity ilmaiseksi"
     },
     "addAffordance": {
-      "label": "Add to collection",
-      "pickerTitle": "Add to a collection",
-      "pickerLoading": "Loading collections…",
-      "pickerEmpty": "You don't have any collections yet. Create one first.",
-      "pickerCreate": "+ New collection",
-      "pickerCancel": "Cancel",
-      "added": "Added to {collectionName}",
-      "alreadyIn": "Already in this collection",
-      "errorGeneric": "Could not add. Please try again."
+      "label": "Lisää kokoelmaan",
+      "pickerTitle": "Valitse kokoelma",
+      "pickerLoading": "Ladataan kokoelmia…",
+      "pickerEmpty": "Sinulla ei ole vielä yhtään kokoelmaa. Luo ensin kokoelma.",
+      "pickerCreate": "+ Uusi kokoelma",
+      "pickerCancel": "Peruuta",
+      "added": "Lisätty kokoelmaan ”{collectionName}”",
+      "alreadyIn": "Jo tässä kokoelmassa",
+      "errorGeneric": "Lisääminen epäonnistui. Yritä uudelleen."
     }
   },
   "share": {
-    "label": "Share link",
-    "singleDeckTitle": "Share this deck",
-    "singleDeckBody": "Anyone with this link can play the deck. The link doesn't expire.",
-    "generating": "Generating link…",
-    "copy": "Copy",
-    "copied": "Copied!",
-    "copyAll": "Copy all",
-    "copiedAll": "Copied all!",
-    "close": "Close",
-    "errorGeneric": "Could not generate the link. Please try again.",
-    "errorClipboard": "Could not access clipboard. Select the link and copy manually.",
-    "bulkResultsTitle": "{count, plural, =1 {1 share link} other {# share links}}",
-    "bulkResultsSkipped": "{count, plural, =1 {1 deck was skipped (not published)} other {# decks were skipped (not published)}}"
+    "label": "Jaa linkki",
+    "singleDeckTitle": "Jaa tämä tehtäväarkki",
+    "singleDeckBody": "Kuka tahansa linkin saanut voi pelata tehtäväarkin. Linkki ei vanhene.",
+    "generating": "Luodaan linkkiä…",
+    "copy": "Kopioi",
+    "copied": "Kopioitu!",
+    "copyAll": "Kopioi kaikki",
+    "copiedAll": "Kaikki kopioitu!",
+    "close": "Sulje",
+    "errorGeneric": "Linkin luonti epäonnistui. Yritä uudelleen.",
+    "errorClipboard": "Leikepöytää ei voitu käyttää. Valitse linkki ja kopioi se itse.",
+    "bulkResultsTitle": "{count, plural, =1 {1 jakolinkki} other {# jakolinkkiä}}",
+    "bulkResultsSkipped": "{count, plural, =1 {1 tehtäväarkki ohitettiin (ei julkaistu)} other {# tehtäväarkkia ohitettiin (ei julkaistu)}}"
   },
   "workspace": {
     "billing": {
@@ -2193,50 +2193,50 @@
       "manage": "Hallinnoi laskutusta"
     },
     "metadata": {
-      "title": "Your workspace",
-      "description": "Your workspace — collections, recent activity, and the tools to keep teaching organized."
+      "title": "Oma työtila",
+      "description": "Oma työtila — kokoelmat, viimeaikainen toiminta ja työkalut, joilla pidät opetusmateriaalisi järjestyksessä."
     },
     "header": {
-      "title": "Workspace",
-      "welcomeLine": "Your collections and recent activity, all in one place."
+      "title": "Oma työtila",
+      "welcomeLine": "Kokoelmasi ja viimeaikainen toiminta, kaikki samassa paikassa."
     },
     "gate": {
       "subscriberTitle": "Tämä osio kuuluu LessonCraftStudio-tilaukseen",
       "subscriberBody": "Kokoelmat ja työtilan työkalut ovat tilaajien ominaisuuksia. Kaikki muu LessonCraftStudiossa — tehtävät, aktiviteetit ja tulostettavat materiaalit — pysyy ilmaisena.",
       "subscriberCta": "Katso tilausvaihtoehdot",
-      "signInPromptTitle": "Sign-in required",
-      "signInPromptBody": "Free sign-up needed to access this feature. Takes a moment.",
-      "signInCta": "Join for free"
+      "signInPromptTitle": "Kirjautuminen vaaditaan",
+      "signInPromptBody": "Tämä ominaisuus vaatii ilmaisen tilin. Rekisteröityminen vie vain hetken.",
+      "signInCta": "Liity ilmaiseksi"
     },
-    "loading": "Loading…",
-    "errorGeneric": "Something went wrong. Please try again.",
+    "loading": "Ladataan…",
+    "errorGeneric": "Jokin meni pieleen. Yritä uudelleen.",
     "collections": {
       "heading": "Omat kokoelmat",
-      "viewAll": "View all ({count})",
-      "cardDeckCount": "{count, plural, =0 {Ei deckejä} =1 {1 deck} other {# deckiä}}",
+      "viewAll": "Näytä kaikki ({count})",
+      "cardDeckCount": "{count, plural, =0 {Ei tehtäväarkkeja} =1 {1 tehtäväarkki} other {# tehtäväarkkia}}",
       "empty": {
-        "title": "No collections yet",
-        "body": "Save and organize decks into collections — by class, by unit, by week."
+        "title": "Ei vielä kokoelmia",
+        "body": "Tallenna ja järjestä tehtäväarkkeja kokoelmiin — luokan, jakson tai viikon mukaan."
       },
-      "cardEmptyCta": "Lisää deckejä"
+      "cardEmptyCta": "Lisää tehtäväarkkeja"
     },
     "recentActivity": {
-      "heading": "Recent activity",
+      "heading": "Viimeaikainen toiminta",
       "empty": {
-        "title": "Nothing here yet",
-        "body": "Activity will appear here as you collect, organize, and share decks."
+        "title": "Ei vielä toimintaa",
+        "body": "Toiminta näkyy täällä, kun kokoat, järjestät ja jaat tehtäväarkkeja."
       },
       "activityType": {
-        "collected": "Added {deckTitle} to {collectionName}",
-        "modified": "Updated {collectionName}",
-        "shared": "Shared {deckTitle}"
+        "collected": "Lisättiin ”{deckTitle}” kokoelmaan ”{collectionName}”",
+        "modified": "Päivitettiin kokoelma ”{collectionName}”",
+        "shared": "Jaettiin ”{deckTitle}”"
       },
       "relativeTime": {
-        "justNow": "just now",
-        "minutesAgo": "{count, plural, =1 {1 minute ago} other {# minutes ago}}",
-        "hoursAgo": "{count, plural, =1 {1 hour ago} other {# hours ago}}",
-        "daysAgo": "{count, plural, =1 {1 day ago} other {# days ago}}",
-        "weeksAgo": "{count, plural, =1 {1 week ago} other {# weeks ago}}"
+        "justNow": "juuri nyt",
+        "minutesAgo": "{count, plural, =1 {1 minuutti sitten} other {# minuuttia sitten}}",
+        "hoursAgo": "{count, plural, =1 {1 tunti sitten} other {# tuntia sitten}}",
+        "daysAgo": "{count, plural, =1 {1 päivä sitten} other {# päivää sitten}}",
+        "weeksAgo": "{count, plural, =1 {1 viikko sitten} other {# viikkoa sitten}}"
       }
     },
     "hosted": {
@@ -2248,7 +2248,7 @@
       "renamePrompt": "Uusi nimi",
       "delete": "Poista",
       "deleteConfirm": "Poistetaanko tämä tehtävä? Sen linkki lakkaa toimimasta.",
-      "views": "{count} katselua",
+      "views": "{count, plural, =1 {1 katselu} other {# katselua}}",
       "share": "Jaa",
       "shareIntro": "Jaa tämä tehtävä luokallesi.",
       "qrAlt": "Tämän tehtävän QR-koodi",
@@ -2261,7 +2261,7 @@
     "sharedActivities": {
       "title": "Jakamani tehtävät",
       "empty": "Luokan kanssa jakamasi tehtävät näkyvät täällä.",
-      "views": "{count} katselua",
+      "views": "{count, plural, =1 {1 pelikerta} other {# pelikertaa}}",
       "share": "Jaa",
       "rename": "Nimeä uudelleen",
       "renamePrompt": "Uusi nimi",

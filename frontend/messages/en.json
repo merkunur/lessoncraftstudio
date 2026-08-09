@@ -3733,7 +3733,7 @@
       "renamePrompt": "New name",
       "delete": "Delete",
       "deleteConfirm": "Delete this worksheet? Its link will stop working.",
-      "views": "{count} views",
+      "views": "{count, plural, =1 {1 view} other {# views}}",
       "share": "Share",
       "shareIntro": "Share this worksheet with your class.",
       "qrAlt": "QR code for this worksheet",
@@ -3746,7 +3746,7 @@
     "sharedActivities": {
       "title": "Activities I've shared",
       "empty": "Activities you share with your class appear here.",
-      "views": "{count} plays",
+      "views": "{count, plural, =1 {1 play} other {# plays}}",
       "share": "Share",
       "rename": "Rename",
       "renamePrompt": "New name",

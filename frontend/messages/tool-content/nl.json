@@ -1250,6 +1250,31 @@
     "metaTitle": "De Wisselmachine – onthouden en wisselen, groep 4-6",
     "metaDescription": "Gratis klassikaal hulpmiddel: tik op een kolom, er gaat er één weg, er komen er tien naast aan en het onthoudcijfer verschijnt op hetzelfde moment. Groep 4-6."
   },
+  "baking-tray": {
+    "slug": "breekbrood-moeilijke-tafels-handig-rekenen-groep-4-5",
+    "name": "Het breekbrood",
+    "tagline": "Zeven rijen van zes breekt in vijf rijen van zes en twee rijen van zes — dezelfde broodjes, twee tafels die de klas al kent.",
+    "about": [
+      "Op het digibord ligt een breekbrood: bolletjes die tegen elkaar aan gebakken zijn, in rijen, zodat de lijn waar twee broodjes elkaar raken een lijn is waarlangs je kunt breken. Zeven rijen van zes is voor de meeste kinderen nog een moeilijke. Breek het brood bij de naad na de vijfde rij en er liggen vijf rijen van zes en twee rijen van zes — 5 × 6 = 30 en 2 × 6 = 12, dus 42. Er is niets bijgekomen en niets afgegaan: precies dezelfde 42 broodjes worden alleen als twee stukken gelezen in plaats van als één. Dat is de hele beweging, en het is de beweging waarmee elke Nederlandse methode de moeilijke tafels aanpakt.",
+      "De tweede zet is een kwartslag, en die is niet wat u denkt. Dit hulpmiddel beweert nadrukkelijk níét dat 3 × 4 en 4 × 3 \"hetzelfde\" zijn — op dit platform staat een activiteit die juist laat zien dat 3 groepjes van 4 iets anders is dan 4 groepjes van 3, en dat klopt. Draaien is een strategische zet: het verandert wélke naden er zijn om bij te breken. Levert de zeven niets bruikbaars op, draai het brood dan en breek de zes. Bij een vierkant brood gebeurt er bij het draaien niets, en ook dat is een uitkomst die het waard is om te benoemen.",
+      "Het brood zegt nooit hoeveel het er bij elkaar zijn, schrijft nooit een som op en zegt nooit of een plek een handige plek was. Geen timer, geen punten, niets wordt nagekeken — waar je breekt is precies de vraag waar de klas het over oneens mag zijn, en een hulpmiddel met een mening daarover zou dat gesprek beëindigen voordat het begint. Het notatiewerk blijft van u: u schrijft de som op het bord zoals uw klas hem schrijft. Het sluit aan bij het domein Getallen en bewerkingen van de SLO-kerndoelen en hoort in de dagelijkse rekenstart in groep 4 en 5."
+    ],
+    "howToUse": [
+      "Zet het brood op het digibord vóórdat de kinderen binnenkomen. Vraag naar de vórm, niet naar het totaal: hoeveel rijen, en hoeveel in elke rij? Laat de klas het hardop lezen — \"zeven rijen van zes\" — en schrijf nog niets op.",
+      "Vraag wie deze zo weet. Meestal weet niemand hem zo, en dat hardop vaststellen is meer waard dan het klinkt. Zeg erbij dat u hem zelf ook niet zomaar uit uw hoofd doet.",
+      "Vraag waar u moet breken zodat u aan allebei de stukken genoeg hebt aan wat de klas al kent. Breek dan waar ze het zeggen — ook als ze een onhandige naad kiezen. Twee kinderen die het oneens zijn over de naad is precies de inhoud van deze les.",
+      "Duw de stukken weer tegen elkaar en vraag of er broodjes verdwenen zijn. Breek daarna ergens ánders. Dit is de zet waar het om draait: twee verschillende breuken van hetzelfde brood binnen één minuut laten zien dat het aantal niet aan de naad hangt.",
+      "Nu schrijft u het op het bord, in de schrijfwijze van uw klas: 7 × 6 = 5 × 6 + 2 × 6 = 30 + 12 = 42. Het brood doet dat met opzet niet — het houdt het materiaal stil terwijl de notatie van u blijft.",
+      "Draai het brood wanneer de naden die er liggen niets opleveren. Zeven rijen van zes wordt zes rijen van zeven, dezelfde broodjes andersom gelezen, met andere naden om bij te breken."
+    ],
+    "classroomIdeas": [
+      "Breek één brood in dezelfde les op twee verschillende naden en zet beide uitkomsten naast elkaar op het bord. De vraag is niet welke de beste is, maar dat één brood meer dan één paar tafelsommen oplevert — en dat het aantal broodjes bij allebei hetzelfde blijft.",
+      "Begin in groep 4 met een brood waarvan de naad voor de hand ligt: bij de tafel van 10 of de tafel van 5. De vijfde naad ligt dieper ingesneden dan de andere, precies daarvoor. Ga pas naar de zevens en achten als de klas de zet zelf voorstelt.",
+      "Zet een brood van zes rijen van zes neer en laat de klas voorspellen wat er gebeurt als het gedraaid wordt. Draai het dan, en laat ze zien dat er niets verandert. Laat een kind onder woorden brengen waaróm niet, en schrijf die zin op het bord."
+    ],
+    "metaTitle": "Het breekbrood — een moeilijke tafel breken, groep 4/5",
+    "metaDescription": "Breek zeven rijen van zes in vijf rijen van zes en twee rijen van zes — dezelfde broodjes, twee tafels die de klas al kent. Gratis digibordtool, groep 4/5."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

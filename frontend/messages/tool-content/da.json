@@ -1249,6 +1249,31 @@
     "metaTitle": "Vekslemaskinen – mente og veksling, 1.-3. klasse",
     "metaDescription": "Gratis værktøj til hele klassen: tryk på en kolonne, én forlader røret, ti ankommer til højre, og menten skrives i præcis samme øjeblik. Til 1.-3. klasse."
   },
+  "baking-tray": {
+    "slug": "bagepladen-svaere-gangestykker-indskoling",
+    "name": "Bagepladen",
+    "tagline": "En plade boller, der er bagt sammen: klassen knækker den ét sted, siger begge stykker højt og henter 7 · 6 ud af 5 · 6 og 2 · 6 — pladen selv skriver hverken tegn eller facit.",
+    "about": [
+      "Bagepladen er én plade boller, bagt så tæt at de sidder sammen. Der er ingen løse brikker at tælle: pladen er ét stykke, og de revner, hvor to boller mødes, er de steder, den kan knækkes. Klassen peger på et sted, pladen knækker dér, og de to stykker bliver liggende side om side, så begge kan læses på én gang. Der er kun tre ting at gøre: knække, skubbe sammen igen og dreje pladen en kvart omdrejning. Antallet af boller ændrer sig aldrig — heller ikke når pladen er knækket to steder.",
+      "Pointen er at hente et svært stykke ud af to lette. De fleste i 2. og 3. klasse kan 5-tabellen og 2-tabellen længe før de kan 7 · 6, og knækkes en plade med 7 rækker efter række 5, ligger 5 · 6 og 2 · 6 pludselig ved siden af hinanden: 30 og 12, og dermed 42. Barnet regner ikke på et facit, det ser, hvor facit kommer fra, og opdager samtidig, at det samme antal boller kan læses på flere måder uden at blive til flere eller færre. Det ligger helt i tråd med arbejdet med tal og algebra i Fælles Mål for indskolingen.",
+      "Pladen skriver ikke regnestykket. Der kommer aldrig et gangetegn, et lighedstegn eller et facit på skærmen, for der findes ikke én læsning af 7 · 6, der er rigtig i alle de lande, værktøjet bruges i — derfor er det læreren, der skriver sætningen på tavlen i den form, klassen bruger. Der er ingen tid, der løber, ingen point, ingen mærker for rigtigt og forkert, og værktøjet foreslår aldrig, hvor der skal knækkes: to børn, der er uenige om stedet, er ikke en fejl, der skal rettes, men selve timen. Og at dreje pladen er ikke en påstand om, at 7 rækker med 6 er det samme som 6 rækker med 7. Det er et strategisk træk: det giver nogle andre revner at vælge imellem."
+    ],
+    "howToUse": [
+      "Sæt pladen på tavlen, før klassen kommer ind, og spørg om formen, ikke om antallet: hvor mange rækker, og hvor mange boller i rækken?",
+      "Spørg, om nogen kan det stykke med det samme — og sig det ligeud, hvis du heller ikke selv kan det udenad. Det er ikke en prøve, det er et fælles problem.",
+      "Spørg, hvor pladen skal knækkes, så I kan begge stykker i forvejen, og knæk dér, hvor de siger — også når stedet er upraktisk. Det er deres forslag, der bliver prøvet af, ikke dit.",
+      "Skub stykkerne sammen igen, spørg om der forsvandt nogen boller undervejs, og knæk så et helt andet sted. Det er dét træk, hele værktøjet er bygget for: samme plade, samme antal boller, nyt sted at knække.",
+      "Skriv selv regnestykket på tavlen — pladen gør det med vilje ikke. Klassen siger stykkerne højt, og du skriver dem op i den form, I bruger i klassen.",
+      "Drej pladen en kvart omdrejning, når de revner, der er, ikke fører nogen vegne: så er det rækkerne den anden vej, der kan knækkes."
+    ],
+    "classroomIdeas": [
+      "Lad to børn være uenige med vilje: den ene knækker efter række 5, den anden efter række 3. Skriv begge veje op under hinanden på tavlen, og lad klassen se, at de ender samme sted, selvom vejen dertil var forskellig.",
+      "Tag en plade, ingen kan udenad — 7 rækker med 8 boller — og lad klassen finde et knæk, hvor de kan begge stykker. Drej bagefter pladen, og lad dem finde ud af, hvilke andre revner der nu er at vælge imellem.",
+      "Med Lærerabonnementet følger arket til print: først den hele plade, derefter den samme plade igen, knækket ved hver af de revner, der er, med en skrivelinje under hver, så børnene selv skriver sætningen i hæftet."
+    ],
+    "metaTitle": "Bagepladen — svære gangestykker på tavlen | gratis værktøj",
+    "metaDescription": "En plade boller bagt sammen på tavlen: klassen knækker den ét sted, siger begge stykker højt og finder 7 · 6 i 5 · 6 og 2 · 6. Antallet ændrer sig aldrig."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

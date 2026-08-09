@@ -1248,6 +1248,31 @@
     "metaTitle": "La macchina dei cambi – riporto e prestito in colonna",
     "metaDescription": "Strumento gratuito per tutta la classe: tocca una colonna, uno la lascia, dieci arrivano a destra e il riporto si scrive nello stesso istante. Dai 7 ai 9 anni."
   },
+  "baking-tray": {
+    "slug": "teglia-dei-panini",
+    "name": "La teglia dei panini",
+    "tagline": "Una teglia sola: la tabellina difficile si spezza in due che la classe sa già.",
+    "about": [
+      "Una teglia di panini al latte, cotti attaccati in righe: la linea dove due panini si toccano è una linea lungo cui si può spezzare. 7 righe da 6 è una tabellina che in seconda quasi nessuno ha ancora in testa. Spezzate la teglia dopo la quinta riga e diventa 5 righe da 6 e 2 righe da 6 — 5 × 6 = 30 e 2 × 6 = 12, due risultati che la classe ha già. Non è stato aggiunto niente e non è stato tolto niente: sono gli stessi identici panini, letti come due pezzi invece che come uno solo.",
+      "Girare la teglia di un quarto di giro è l’altra mossa, e non è un trucco sull’ordine dei numeri. Su questa piattaforma c’è un’attività che insegna, giustamente, che 3 gruppi da 4 e 4 gruppi da 3 non sono la stessa situazione. Qui girare serve a un’altra cosa: cambia quali linee ci sono da spezzare. Se sul 7 non si trova un punto utile, si gira la teglia e si spezza il 6.",
+      "La teglia non mostra mai un totale, non scrive mai l’operazione e non dice mai se avete spezzato nel punto giusto. Dove spezzare è esattamente la domanda su cui la classe è lì a discutere, e uno strumento con un’opinione chiuderebbe la discussione prima ancora che cominci. Nessun timer, nessun punteggio, nessun «bravo»: il gessetto resta in mano all’insegnante, che scrive alla lavagna nella forma in cui si scrive in quella classe."
+    ],
+    "howToUse": [
+      "Teglia già sullo schermo quando i bambini entrano. Chiedete la forma, non il totale: quante righe, e quanti panini in ogni riga?",
+      "Chiedete se qualcuno la sa già a memoria. Di solito no — e dirlo ad alta voce, anche da insegnante, vale più di quanto sembri.",
+      "Chiedete dove spezzare in modo che tutti e due i pezzi siano tabelline che la classe sa già, poi spezzate dove dicono loro, anche quando indicano un punto scomodo.",
+      "Rimettete insieme i pezzi e chiedete se si è perso qualche panino. Poi spezzate in un altro punto. Due spezzature diverse della stessa teglia nel giro di un minuto: l’idea è tutta qui.",
+      "Adesso scrivete voi alla lavagna, nella forma in cui la scrive la vostra classe: 7 × 6 = 5 × 6 + 2 × 6. La teglia non lo fa apposta — tiene ferma la materia e lascia a voi la scrittura.",
+      "Girate la teglia quando i punti disponibili non aiutano, e lasciate che la classe veda gli stessi panini letti dall’altro verso."
+    ],
+    "classroomIdeas": [
+      "Spezzate la stessa teglia in due modi diversi nella stessa lezione e lasciate tutti e due alla lavagna. Non conta quale sia il migliore: conta che una teglia sola dia più di una coppia di tabelline.",
+      "Partite da una teglia con il punto ovvio — un 10 o un 5 — molto prima di avvicinarvi al 7 e all’8. Il solco della quinta riga è più profondo proprio per questo, e si toglie dalle impostazioni quando state lavorando sui doppi.",
+      "Usatela al contrario con i numeri quadrati: girate una teglia di 6 righe da 6 e lasciate che la classe veda che non succede assolutamente niente. Anche questo è un risultato, e vale la pena dargli un nome."
+    ],
+    "metaTitle": "La teglia dei panini — spezzare una tabellina difficile",
+    "metaDescription": "Una teglia di panini per la LIM: 7 righe da 6 si spezza in 5 righe da 6 e 2 righe da 6, due tabelline che la classe sa già. Senza timer né punteggio, gratuita."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -1248,6 +1248,31 @@
     "metaTitle": "La machine à échanger – retenue et cassage, CE1-CM1",
     "metaDescription": "Outil gratuit pour toute la classe : touchez une colonne, un la quitte, dix arrivent à droite, et la retenue s'écrit au même instant. Du CP au CM1. Sans note."
   },
+  "baking-tray": {
+    "slug": "plaque-de-brioches",
+    "name": "La plaque de brioches",
+    "tagline": "Une plaque, deux résultats connus : la table difficile se casse en deux tables faciles.",
+    "about": [
+      "Les brioches cuisent en rangées, soudées les unes aux autres : là où deux brioches se touchent, il y a un creux, et un creux est une ligne où l’on peut casser. 7 × 6, personne ne le sait par cœur en CE2. On casse la plaque après la cinquième rangée et il reste 5 rangées de 6 et 2 rangées de 6 — deux résultats que la classe possède déjà. Rien n’a été ajouté, rien n’a été retiré : ce sont les mêmes brioches, lues en deux morceaux au lieu d’un seul. C’est la distributivité, avant qu’elle porte ce nom : 7 × 6 = 5 × 6 + 2 × 6.",
+      "Tourner la plaque d’un quart de tour est le second geste, et ce n’est pas une astuce sur l’ordre des nombres : la plaque ne dit jamais que 3 × 4 et 4 × 3, « c’est pareil ». Tourner change les creux disponibles. Quand rien d’utile ne se détache du 7, on tourne et on casse le 6. Le geste est subordonné au premier : on tourne pour ouvrir d’autres cassures, pas pour retourner le résultat.",
+      "La plaque n’affiche aucun total, n’écrit aucune opération et ne dit jamais si la cassure était la bonne. Pas de minuteur, pas de points, aucune correction. Où casser, c’est précisément la question dont la classe est venue discuter, et un outil qui aurait un avis là-dessus mettrait fin au débat avant qu’il commence. L’écriture chiffrée reste au tableau, de la main de l’enseignant, dans la convention de sa classe. L’outil est gratuit ; seule la fiche à imprimer fait partie de l’offre Enseignant."
+    ],
+    "howToUse": [
+      "Projetez la plaque avant l’entrée des élèves. Demandez la forme, jamais le total : combien de rangées, et combien de brioches dans chaque rangée ?",
+      "Demandez si quelqu’un connaît celui-là tout de suite. En général personne, et dire à voix haute que vous non plus vaut plus qu’il n’y paraît.",
+      "Demandez dans quel creux casser pour que LES DEUX morceaux soient des résultats déjà connus — puis cassez là où la classe le dit, y compris quand l’endroit est peu commode.",
+      "Remettez les morceaux ensemble et demandez s’il manque des brioches. Puis cassez ailleurs. Deux cassures différentes de la même plaque en une minute : c’est là que tout se joue.",
+      "Écrivez-le vous-même au tableau, comme votre classe l’écrit : 7 × 6 = 5 × 6 + 2 × 6. La plaque s’y refuse volontairement — elle tient le matériel immobile, l’écriture reste la vôtre.",
+      "Tournez la plaque quand les cassures possibles n’aident pas, et laissez la classe relire les mêmes brioches dans l’autre sens."
+    ],
+    "classroomIdeas": [
+      "Cassez la même plaque de deux manières dans la même séance et affichez les deux au tableau. La question n’est pas laquelle est la meilleure : c’est qu’une seule plaque donne plusieurs paires de résultats connus.",
+      "Commencez par une plaque dont la cassure saute aux yeux — un 10, un 5 — bien avant d’approcher les tables de 7 et de 8. Le cinquième creux est dessiné plus profond exactement pour cela, et se désactive dans les réglages le jour où vous travaillez les doubles.",
+      "Prenez-le à l’envers avec les carrés : tournez une plaque de 6 rangées de 6 et laissez la classe constater qu’il ne se passe rien. C’est un résultat, il mérite d’être nommé — puis cassez-la en 5 rangées de 6 et 1 rangée de 6."
+    ],
+    "metaTitle": "La plaque de brioches : casser une table difficile en deux",
+    "metaDescription": "Outil gratuit pour la classe : la plaque de brioches casse 7 rangées de 6 en 5 rangées de 6 et 2 rangées de 6. Aucun total affiché. CE1-CE2, sans compte."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

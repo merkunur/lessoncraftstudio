@@ -122,6 +122,20 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ THE TRAY AT REST IS A QUESTION NOBODY HAS ANSWERED. The card has
+     to show the ARGUMENT: 7 x 6 broken at the fifth line into 5 x 6 and
+     2 x 6, with the 7 SPLIT into a 5 and a 2 on the left rail and the 6
+     DUPLICATED on the right — the whole product in one still.
+     ⚠ Seeded through a real seam BUTTON, not the tray: the pointer path
+     resolves to the nearest seam from clientX/clientY, and a synthetic
+     .click() carries neither. The keyboard pads exist for exactly this
+     kind of driver.
+     ⚠ And generate with --fit=contain: the stage is near-square, past
+     the 0.85 line where --fit=auto top-crops, and the top of this stage
+     is the numeral rail, i.e. the payload. */
+  'baking-tray': [
+    { sel: '.btr-comb-row .btr-pad', nth: 4, wait: 720 }
+  ],
   /* ⭐ THE EXCHANGE MACHINE AT REST IS A SUM THAT HAS NOT HAPPENED YET.
      The card has to show the ARGUMENT, not the setup: on 42 - 17 the
      ones column holds two with seven outlines over it, which is a

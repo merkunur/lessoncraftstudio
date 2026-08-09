@@ -1249,6 +1249,31 @@
     "metaTitle": "Vekslingsmaskinen – mente og veksling, 2.-5. trinn",
     "metaDescription": "Gratis verktøy for hele klassen: trykk på en kolonne, én forlater røret, ti kommer fram til høyre, og menten skrives i nøyaktig samme øyeblikk. 2.-5. trinn."
   },
+  "baking-tray": {
+    "slug": "gangestykker-fra-kjente-fakta-multiplikasjon-2-3-trinn",
+    "name": "Bolleplata",
+    "tagline": "Bollene er stekt inntil hverandre, så plata er én ting – og der to boller møtes, går det ei linje klassen kan bryte langs, slik at 7 rader med 6 blir til 5 rader med 6 og 2 rader med 6 uten at én eneste bolle forsvinner.",
+    "about": [
+      "På skjermen ligger ei plate med boller som er stekt inntil hverandre, så de har vokst sammen til én ting. Der to boller møtes, går det ei brytelinje, og den kan brytes. Bryt under rad 5 på ei plate med 7 rader med 6 boller, og du står igjen med 5 rader med 6 og 2 rader med 6, liggende ved siden av hverandre på samme plate. Ingen boller er borte. Mer er det ikke: høyst to brytelinjer, tre biter, og alltid like mange boller som før.",
+      "Plata skriver ingenting. Det står aldri 7 × 6 = 42 på skjermen, og det står ikke noe tall for hvor mange boller det er til sammen heller – verktøyet sier «7 rader med 6», og der stopper det. Grunnen er enkel: ingen måte å lese «7 × 6» på er riktig i alle de elleve landene verktøyet brukes i, og det er læreren som skal skrive setningen på tavla, i den skrivemåten klassen din faktisk bruker. Bolleplata er materialet under setningen, ikke setningen.",
+      "Å snu plata er et strategisk trekk, ikke en påstand om at 3 rader med 4 og 4 rader med 3 er det samme. Verktøyet sier ikke det – en annen aktivitet her lærer barna nettopp at 3 grupper med 4 og 4 grupper med 3 er to forskjellige situasjoner, og det er riktig. Du snur fordi det gir deg andre brytelinjer: får du ingenting fornuftig ut av sjutallet, snur du og bryter sekseren i stedet. Det er ingen tid som løper, ingen poeng og ingenting som blir rettet – verktøyet vurderer ingenting, og to elever som er uenige om hvor plata skal brytes, er nettopp innholdet i timen. Arbeidet ligger i LK20 under tall og algebra på 2. og 3. trinn."
+    ],
+    "howToUse": [
+      "La plata stå på storskjermen før klassen kommer inn, og be om formen, ikke svaret: «Hvor mange rader? Hvor mange boller i hver rad?» Ingen skal regne ennå.",
+      "Spør om noen kan denne fra før. Si det høyt hvis du selv ikke husker 7 rader med 6 – det er nettopp derfor plata ligger der, og klassen skal se at det er greit.",
+      "Spør hvor plata skal brytes, slik at klassen kjenner begge bitene fra før. Bryt der de sier, også når forslaget er upraktisk. Bitene blir liggende ved siden av hverandre og kan leses hver for seg.",
+      "Skyv bitene sammen igjen, spør om det forsvant noen boller – og bryt så et helt annet sted. Dette er trekket alt hviler på: samme plate, andre biter, like mange boller.",
+      "Nå skriver du regnestykket på tavla, i den skrivemåten klassen din bruker: 7 × 6 = 5 × 6 + 2 × 6 = 42, eller slik dere pleier å sette det opp. Plata skriver det aldri selv – det er med vilje, og det er din jobb.",
+      "Snu plata når brytelinjene du har, ikke hjelper. Får du ingenting ut av 7 rader, snur du og bryter sekseren i stedet – samme boller, lest den andre veien."
+    ],
+    "classroomIdeas": [
+      "Kjør den samme plata to økter etter hverandre: første økt bryter dere bare på tvers, andre økt bare inni radene. La klassen si hva som ble lettest, og hvorfor.",
+      "La to elever foreslå hvert sitt brudd på 7 rader med 6. Gjennomfør begge, og la klassen sammenligne de to veiene fram til det samme tallet – uten at du sier hvilken som var best.",
+      "Ta ei plate ingen kan fra før, for eksempel 8 rader med 7, og be om et brudd der begge bitene står i gangetabellene barna allerede har jobbet med: 5 rader med 7 og 3 rader med 7."
+    ],
+    "metaTitle": "Gangestykker fra kjente fakta – 2.-3. trinn | Bolleplata",
+    "metaDescription": "Gratis verktøy for tavla: bollene er stekt sammen, klassen bestemmer hvor plata skal brytes, og 7 rader med 6 kommer ut av 5 rader med 6 og 2 rader med 6."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

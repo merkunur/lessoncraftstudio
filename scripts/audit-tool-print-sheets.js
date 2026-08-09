@@ -54,6 +54,14 @@ const PORT = 5540;
 
 /* every tool that offers a Print chip must appear here */
 const TOOLS = [
+  /* ⭐ THE EXCHANGE MACHINE'S SHEET IS PREMIUM AND IS BUILT ON DEMAND —
+     _buildSheet() only fills .exm-sheetprint after the entitlement check
+     passes, so for a free visitor the node exists and is EMPTY. That is
+     the honest gate: the chip being dimmed is not gating the feature,
+     and Ctrl+P must not reach a paid worksheet. The probe forces
+     premium, clicks the chip, and then asserts the sheet has real
+     children AND that the apparatus is hidden under print. */
+  { key: 'exchange-machine', p: 'exm', apparatus: '.exm-sheetprint', chrome: '.exm-foot' },
   /* ⭐ LETTER STUDIO WAS "HAS A BLOCK, NO PROBE" — which is exactly why the
      window.print()-with-no-sheet defect caught twice elsewhere was still
      live in it. Its sheet is PREMIUM-ONLY and built as real DOM, so the

@@ -1226,6 +1226,30 @@
     "metaTitle": "Neun Zahlen, ein Gebäude – Bauen nach Bauplan, Grundschule",
     "metaDescription": "Neun Zahlen im Bauplan, daneben das Gebäude – von vorn und von der Seite. Bauen nach Bauplan für die Grundschule, kostenlos am Whiteboard."
   },
+  "exchange-machine": {
+    "slug": "tauschsaeulen",
+    "name": "Die Tauschsäulen",
+    "tagline": "Übertrag und Entbündeln sind eine einzige Maschine – in zwei Richtungen.",
+    "about": [
+      "Eine untereinander geschriebene Aufgabe steht auf Karopapier, und jede Säule läuft nach unten in einer Röhre weiter, in der liegt, was diese Stelle wirklich hat. Tippt man auf eine Säule, die etwas abgeben kann, verlässt eines die Röhre und kommt rechts daneben als zehn an. Im selben Moment steht der Strich auf dem Papier, sodass Notation und Bewegung nicht zwei getrennte Lektionen bleiben.",
+      "Der Zehnerübergang ist das Thema, vor dem im Schuljahr am meisten Respekt herrscht, weil Kinder ihn als Reihe willkürlicher Zeichen erleben. Hier steht die zweite Zahl bereits als leere Umrisse in den Röhren, sodass der Mangel sichtbar ist, bevor überhaupt jemand tippt. Fünf leere Umrisse über einer leeren Stelle sind die vollständige Antwort auf die Frage „Warum sollte ich je entbündeln?“",
+      "Eine leere Stelle gibt nichts her: Für 204 − 137 müssen erst die Hunderter entbündelt werden, und genau diese Weigerung ist der Lerninhalt. Nichts wird als richtig oder falsch bewertet – keine Punkte, keine Zeit, keine Sterne –, und das Material kann Unmögliches schlicht nicht tun. Die schriftlichen Verfahren stehen in Klasse 3 auf dem Plan, der Zehnerübergang aber schon in Klasse 1 und 2, sodass die Maschine den ganzen Weg dorthin mitträgt."
+    ],
+    "howToUse": [
+      "Schreibe eine Aufgabe an die Tafel und lest zuerst gemeinsam die Röhren, bevor jemand tippt.",
+      "Lasst die Klasse zeigen, wo es nicht reicht – die leeren Umrisse über einer leeren Stelle zeigen es von selbst.",
+      "Tippe die Säule an, die etwas abgeben kann, und beobachtet, wie der Übertrag genau im Moment des Tauschs geschrieben wird.",
+      "Tippe noch einmal, um alles zurückzuholen, damit die Klasse dieselbe Maschine rückwärts laufen sieht.",
+      "Stelle Schreibweise und Verfahren auf euer Schulbuch um – Entbündeln oder Ergänzen – und gib das Tippen dann an ein Kind weiter."
+    ],
+    "classroomIdeas": [
+      "Beginnt mit 204 − 137 und lasst die Klasse zuerst die Zehner antippen: Die Weigerung macht „Was müssen wir zuerst entbündeln?“ zur Frage der Kinder.",
+      "Rechnet dieselben Ziffern direkt nacheinander als Plus- und als Minusaufgabe, damit Übertrag und Entbündeln als eine Bewegung in zwei Richtungen erscheinen.",
+      "Deckt die geschriebene Aufgabe ab, lasst nur die Röhren lesen und ordnet danach jedem Strich die Bewegung zu, die ihn ausgelöst hat."
+    ],
+    "metaTitle": "Die Tauschsäulen – Übertrag und Entbündeln, Klasse 2-4",
+    "metaDescription": "Kostenloses Werkzeug für Übertrag und Entbündeln: Tippe eine Säule an, eines geht, zehn kommen rechts an – und der Strich steht im selben Moment. Klasse 2-4."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

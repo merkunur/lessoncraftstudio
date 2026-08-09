@@ -1224,6 +1224,30 @@
     "metaTitle": "Neuf nombres, une maquette — construire d'après un plan, CP et CE1",
     "metaDescription": "Un plan de neuf cases, un nombre par case : la hauteur à cet endroit. La maquette suit, et un quart de tour change le point de vue. Outil gratuit au TBI, du GS au CE1."
   },
+  "exchange-machine": {
+    "slug": "machine-a-echanger",
+    "name": "La machine à échanger",
+    "tagline": "La retenue et le cassage : une seule machine, dans les deux sens.",
+    "about": [
+      "Une opération posée sur du papier quadrillé, et chaque colonne se prolonge vers le bas en un tube contenant ce que cette colonne possède réellement. Touchez une colonne qui a de quoi donner : un la quitte et arrive à dix dans le tube de droite. Le trait s'écrit au même instant, si bien que l'écriture et le mouvement ne sont plus deux leçons séparées.",
+      "La retenue reste le passage le plus redouté de l'année, parce que les élèves la rencontrent comme une suite de signes arbitraires à retenir dans le bon ordre. Ici le second nombre est déjà dessiné dans les tubes, en contours vides, et le manque se voit avant même qu'on touche l'écran. Cinq contours vides suspendus au-dessus d'une colonne vide répondent à eux seuls à « pourquoi casser une dizaine ? »",
+      "Une colonne vide refuse de donner : pour 204 − 137 il faut d'abord casser une centaine, et ce refus est précisément la leçon. Rien n'est jamais noté juste ou faux – ni score, ni chronomètre, ni étoile – et le matériel ne peut tout simplement pas faire l'impossible. L'addition posée s'installe dès le CP et le CE1, la soustraction posée au CE1 et au CE2, donc la machine accompagne plusieurs années plutôt qu'une seule séance."
+    ],
+    "howToUse": [
+      "Affichez une opération posée et faites lire les tubes à la classe avant que quiconque ne touche l'écran.",
+      "Demandez où ça ne suffit pas : les contours vides suspendus au-dessus d'une colonne vide le montrent.",
+      "Touchez la colonne qui a de quoi donner et regardez la retenue s'écrire exactement au moment de l'échange.",
+      "Touchez de nouveau pour tout remettre en place, afin que la classe voie la même machine tourner dans l'autre sens.",
+      "Réglez l'écriture et la méthode sur celles de votre classe – par cassage ou par compensation – puis confiez l'écran à un élève."
+    ],
+    "classroomIdeas": [
+      "Commencez par 204 − 137 et laissez la classe toucher d'abord les dizaines : le refus transforme « qu'est-ce qu'on casse en premier ? » en question des élèves.",
+      "Posez les mêmes chiffres en addition puis, dans la foulée, en soustraction, pour que la retenue et le cassage apparaissent comme un même geste dans les deux sens.",
+      "Masquez l'opération écrite, faites lire les tubes seuls, puis découvrez et associez chaque trait au mouvement qui l'a provoqué."
+    ],
+    "metaTitle": "La machine à échanger – retenue et cassage, CE1-CM1",
+    "metaDescription": "Outil gratuit pour toute la classe : touchez une colonne, un la quitte, dix arrivent à droite, et la retenue s'écrit au même instant. Du CP au CM1. Sans note."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

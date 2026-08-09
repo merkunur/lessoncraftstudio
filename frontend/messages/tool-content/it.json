@@ -1224,6 +1224,30 @@
     "metaTitle": "La mappa del palazzo — dall'alto e di fronte, prima e seconda",
     "metaDescription": "Nove numeri visti dall'alto dicono quanto è alto il palazzo in ogni posto: cambi il numero e il palazzo cambia. Sotto, di fronte e di lato. Strumento gratuito per la LIM, prima e seconda."
   },
+  "exchange-machine": {
+    "slug": "macchina-dei-cambi",
+    "name": "La macchina dei cambi",
+    "tagline": "Riporto e prestito sono la stessa macchina, che gira nei due sensi.",
+    "about": [
+      "Un'operazione in colonna su carta a quadretti, dove ogni colonna prosegue verso il basso in un tubo che contiene ciò che quella colonna possiede davvero. Tocca una colonna che ha qualcosa da dare: uno la lascia e arriva in dieci nel tubo alla sua destra. Il segno di penna compare nello stesso istante, così la scrittura e il movimento non restano due lezioni separate.",
+      "Il cambio è il punto più temuto dell'anno, perché i bambini lo incontrano come una sequenza di segni arbitrari da ricordare nell'ordine giusto. Qui il secondo numero è già disegnato nei tubi come sagome vuote, e la mancanza si vede prima ancora di toccare qualcosa. Cinque sagome vuote sospese su una colonna vuota rispondono da sole alla domanda «perché mai dovrei rompere una decina?»",
+      "Una colonna vuota si rifiuta di dare: per 204 − 137 bisogna prima cambiare un centinaio, e quel rifiuto è la lezione. Niente viene mai segnato come giusto o sbagliato – nessun punteggio, nessun tempo, nessuna stellina – e il materiale semplicemente non può fare una cosa impossibile. L'addizione in colonna con il riporto arriva in seconda e la sottrazione con il prestito tra seconda e terza, quindi lo strumento copre più di un anno."
+    ],
+    "howToUse": [
+      "Proietta un'operazione in colonna e leggete insieme i tubi prima che qualcuno tocchi lo schermo.",
+      "Chiedi alla classe dove non basta: le sagome vuote sospese su una colonna vuota lo mostrano da sole.",
+      "Tocca la colonna che ha qualcosa da dare e osservate il riporto scriversi nell'istante esatto del cambio.",
+      "Tocca ancora per rimettere tutto a posto, così la classe vede la stessa macchina andare al contrario.",
+      "Imposta la scrittura e il metodo su quelli del vostro libro – prestito o compensazione – e poi passa lo schermo a un bambino."
+    ],
+    "classroomIdeas": [
+      "Parti da 204 − 137 e lascia che la classe tocchi prima le decine: il rifiuto trasforma «che cosa cambiamo per primo?» in una domanda dei bambini.",
+      "Metti in colonna le stesse cifre prima come addizione e subito dopo come sottrazione, così riporto e prestito si vedono come un unico movimento nei due sensi.",
+      "Copri l'operazione scritta, fai leggere soltanto i tubi, poi scoprila e collega ogni segno al movimento che lo ha prodotto."
+    ],
+    "metaTitle": "La macchina dei cambi – riporto e prestito in colonna",
+    "metaDescription": "Strumento gratuito per tutta la classe: tocca una colonna, uno la lascia, dieci arrivano a destra e il riporto si scrive nello stesso istante. Dai 7 ai 9 anni."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

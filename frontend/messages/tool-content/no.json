@@ -1225,6 +1225,30 @@
     "metaTitle": "Byggetegningen – bygge etter byggetegning på småtrinnet",
     "metaDescription": "Gratis digitalt verktøy til 1.–2. trinn: ni ruter med tall blir til et byggverk du kan vri på, og to flate omriss som nesten aldri bestemmer byggverket alene."
   },
+  "exchange-machine": {
+    "slug": "vekslingsmaskinen",
+    "name": "Vekslingsmaskinen",
+    "tagline": "Menten og vekslingen er én og samme maskin, som går begge veier.",
+    "about": [
+      "Et oppstilt regnestykke på rutete papir, der hver kolonne fortsetter nedover i et rør med det kolonnen faktisk har. Trykk på en kolonne som har noe å gi: én forlater røret og kommer fram som ti i røret ved siden av. Pennestreken skrives i samme øyeblikk, slik at skrivemåten og bevegelsen aldri blir to atskilte leksjoner.",
+      "Vekslingen er det mest fryktede emnet i året, fordi elevene møter den som en rekke vilkårlige tegn som skal huskes i riktig rekkefølge. Her ligger det andre tallet allerede i rørene, tegnet som tomme omriss, så mangelen er synlig før noen rører skærmen. Fem tomme omriss som henger over en tom kolonne, svarer selv på «hvorfor skulle jeg noen gang veksle?»",
+      "En tom kolonne nekter å gi fra seg – i 204 − 137 må hundrerplassen veksles først, og nettopp den nektelsen er leksjonen. Ingenting blir noen gang merket som riktig eller galt: ingen poeng, ingen klokke, ingen stjerner, og materialet kan rett og slett ikke gjøre noe umulig. Den oppstilte algoritmen kommer i Norge først på 4. og 5. trinn, mens veksling og plassverdi øves lenge før det, så maskinen dekker begge deler."
+    ],
+    "howToUse": [
+      "Vis et oppstilt regnestykke, og les rørene sammen med klassen før noen trykker.",
+      "Spør hvor det ikke strekker til – de tomme omrissene over en tom kolonne viser det av seg selv.",
+      "Trykk på kolonnen som har noe å gi, og se menten bli skrevet i samme øyeblikk som vekslingen skjer.",
+      "Trykk én gang til så alt går tilbake, og la klassen se den samme maskinen gå motsatt vei.",
+      "Still inn skrivemåte og metode etter det klassen bruker, og la deretter en elev overta trykkingen."
+    ],
+    "classroomIdeas": [
+      "Start med 204 − 137 og la klassen trykke på tierplassen først: nektelsen gjør «hva må vi veksle først?» til elevenes eget spørsmål.",
+      "Sett opp de samme sifrene først som pluss og rett etterpå som minus, slik at menten og vekslingen ses som én bevegelse begge veier.",
+      "Dekk til det skrevne stykket, la elevene lese bare rørene, og koble etterpå hver strek til bevegelsen som laget den."
+    ],
+    "metaTitle": "Vekslingsmaskinen – mente og veksling, 2.-5. trinn",
+    "metaDescription": "Gratis verktøy for hele klassen: trykk på en kolonne, én forlater røret, ti kommer fram til høyre, og menten skrives i nøyaktig samme øyeblikk. 2.-5. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

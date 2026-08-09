@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "freeCount": 7,
+  "_note": "Twenty-five sums. The FREE SEVEN are chosen by measurement, not by taste: between them they reach every claim the tool's header makes, so no part of the argument sits behind the paywall. 1 (48-23) needs NO exchange at all - the first rung of the didactic sequence, and the only record that lets the tool ask whether there is enough there; without it that hint was a genuinely dead string, which the locale smoke digest found and no assertion did. 2 and 3 are one borrow, twice, so it reads as a method rather than a trick. 4 puts a zero in the ones and still needs no cascade. 5 is the payload - the tens are empty, so the hundreds must be broken first, which is Brown & VanLehn's reliable impasse and the highest-information problem in the domain. 6 and 7 run the same latch the other way: one carry, then a cascading one. THE BORROW IS FREE ON PURPOSE - paywalling it would leave a free tier that demonstrates addition, and addition is not the topic teachers dread. The paid eighteen are depth: more of every shape, wider three-digit spreads, and the across-zero family that four separate documented bugs all fire on.",
+  "sets": [
+    { "op": "sub", "a": 48, "b": 23 },
+    { "op": "sub", "a": 42, "b": 17 },
+    { "op": "sub", "a": 63, "b": 28 },
+    { "op": "sub", "a": 50, "b": 24 },
+    { "op": "sub", "a": 204, "b": 137 },
+    { "op": "add", "a": 38, "b": 25 },
+    { "op": "add", "a": 96, "b": 47 },
+
+    { "op": "sub", "a": 35, "b": 18 },
+    { "op": "sub", "a": 71, "b": 46 },
+    { "op": "sub", "a": 84, "b": 29 },
+    { "op": "sub", "a": 90, "b": 37 },
+    { "op": "sub", "a": 302, "b": 158 },
+    { "op": "sub", "a": 405, "b": 269 },
+    { "op": "sub", "a": 600, "b": 245 },
+    { "op": "sub", "a": 731, "b": 486 },
+    { "op": "sub", "a": 523, "b": 176 },
+    { "op": "sub", "a": 810, "b": 293 },
+    { "op": "add", "a": 47, "b": 36 },
+    { "op": "add", "a": 58, "b": 27 },
+    { "op": "add", "a": 65, "b": 19 },
+    { "op": "add", "a": 148, "b": 76 },
+    { "op": "add", "a": 267, "b": 155 },
+    { "op": "add", "a": 389, "b": 246 },
+    { "op": "add", "a": 476, "b": 358 },
+    { "op": "add", "a": 195, "b": 88 }
+  ]
+}

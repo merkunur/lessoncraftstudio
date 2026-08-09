@@ -1231,6 +1231,30 @@
     "metaTitle": "The Blueprint — build from a plan, Grade 1-2 spatial reasoning",
     "metaDescription": "Nine numbers on a blueprint, the building beside it, and the same building from the front and the side. Free whiteboard tool for Grade 1-2."
   },
+  "exchange-machine": {
+    "slug": "exchange-machine",
+    "name": "The Exchange Machine",
+    "tagline": "Carrying and borrowing are one machine, running in both directions.",
+    "about": [
+      "A vertical sum sits on squared paper, and every column carries on downwards into a tube holding what that column actually has. Tap a column that has something to give: one leaves it and arrives as ten in the tube to its right. The pen mark is written in that same instant, so the mark and the movement are never two separate lessons.",
+      "Regrouping is the most dreaded fortnight of the year, because children meet it as a set of arbitrary marks to be remembered in the right order. Here the second number is already drawn into the tubes as empty outlines, so the shortage is visible before anyone touches anything. Five empty outlines hanging over an empty column are the whole answer to “why would I ever break a ten?”",
+      "An empty column refuses to give — to do 204 − 137 the hundreds must be broken first, and that refusal is the lesson. Nothing is ever marked right or wrong: no score, no timer, no stars, and the material simply cannot do an impossible thing. Written column work grows through Grade 2 and Grade 3 and is only named as the standard algorithm in Grade 4, so the machine is useful across all three years rather than for one week."
+    ],
+    "howToUse": [
+      "Put a sum on the board and read the tubes together before anyone taps anything.",
+      "Ask the class where the shortage is, and let the empty outlines over an empty column answer for you.",
+      "Tap the column that has something to give, and watch the mark appear at the very moment the exchange happens.",
+      "Tap the same column again to send it back, so the class sees one machine running the other way.",
+      "Set the notation and the method to the ones your class writes, then hand the tapping over to a child."
+    ],
+    "classroomIdeas": [
+      "Open with 204 − 137 and let the class try the tens first; the refusal turns “what do we break first?” into their question rather than yours.",
+      "Run the same digits as an addition and then straight away as a subtraction, so carrying and breaking are seen as one movement going two ways.",
+      "Cover the written sum, let the class read only the tubes, then uncover it and match every pen mark to the movement that caused it."
+    ],
+    "metaTitle": "The Exchange Machine — Carrying and Borrowing",
+    "metaDescription": "A free whole-class machine for regrouping: tap a column and one leaves it, ten arrive next door, and the written mark appears in the same instant. Ages 6-9."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

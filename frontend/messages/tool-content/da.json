@@ -1225,6 +1225,30 @@
     "metaTitle": "Byggeplanen – byg efter byggeplan, rumlige figurer, 1.–3. kl.",
     "metaDescription": "Ni felter, et tal i hvert: tallet siger, hvor højt der bygges. Modellen står ved siden af — og to modeller kan se ens ud forfra og fra siden. Gratis til tavlen."
   },
+  "exchange-machine": {
+    "slug": "vekslemaskinen",
+    "name": "Vekslemaskinen",
+    "tagline": "Menten og vekslingen er den samme maskine, der kører begge veje.",
+    "about": [
+      "Et opstillet regnestykke på ternet papir, hvor hver kolonne fortsætter nedad i et rør med det, kolonnen faktisk har. Tryk på en kolonne, der har noget at give: én forlader røret og ankommer som ti i røret ved siden af. Pennestregen skrives i samme øjeblik, så skrivemåden og bevægelsen aldrig bliver to adskilte lektioner.",
+      "Vekslingen er årets mest frygtede emne, fordi eleverne møder den som en række vilkårlige tegn, der skal huskes i den rigtige rækkefølge. Her ligger det andet tal allerede i rørene, tegnet som tomme omrids, så manglen kan ses, før nogen rører skærmen. Fem tomme omrids, der hænger over en tom kolonne, svarer selv på »hvorfor skulle jeg nogensinde veksle?«",
+      "En tom kolonne nægter at give – i 204 − 137 skal hundredpladsen veksles først, og netop den afvisning er lektionen. Intet bliver nogensinde markeret som rigtigt eller forkert: ingen point, intet ur, ingen stjerner, og materialet kan simpelthen ikke gøre noget umuligt. De skriftlige regnemetoder står typisk på skemaet i 2. og 3. klasse, mens veksling og positionssystem øves tidligere, så maskinen dækker begge dele."
+    ],
+    "howToUse": [
+      "Vis et opstillet regnestykke, og læs rørene sammen med klassen, før nogen trykker.",
+      "Spørg, hvor der mangler noget – de tomme omrids over en tom kolonne viser det af sig selv.",
+      "Tryk på den kolonne, der har noget at give, og se menten blive skrevet i selve det øjeblik, vekslingen sker.",
+      "Tryk igen, så alt går tilbage, og lad klassen se den samme maskine køre den anden vej.",
+      "Indstil skrivemåde og metode efter jeres materiale, og giv derefter skærmen videre til en elev."
+    ],
+    "classroomIdeas": [
+      "Start med 204 − 137, og lad klassen trykke på tierpladsen først: afvisningen gør »hvad skal vi veksle først?« til elevernes eget spørgsmål.",
+      "Stil de samme cifre op som plus og lige bagefter som minus, så menten og vekslingen ses som én bevægelse, der kører begge veje.",
+      "Dæk det skrevne stykke til, lad eleverne kun læse rørene, og forbind bagefter hver streg med den bevægelse, der skabte den."
+    ],
+    "metaTitle": "Vekslemaskinen – mente og veksling, 1.-3. klasse",
+    "metaDescription": "Gratis værktøj til hele klassen: tryk på en kolonne, én forlader røret, ti ankommer til højre, og menten skrives i præcis samme øjeblik. Til 1.-3. klasse."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

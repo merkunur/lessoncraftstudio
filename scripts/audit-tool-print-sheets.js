@@ -62,6 +62,30 @@ const TOOLS = [
      premium, clicks the chip, and then asserts the sheet has real
      children AND that the apparatus is hidden under print. */
   { key: 'exchange-machine', p: 'exm', apparatus: '.exm-sheetprint', chrome: '.exm-foot' },
+  /* ⭐ THE BAKING TRAY'S SHEET IS PREMIUM AND BUILT ON DEMAND, the same
+     shape as the exchange machine: `_buildSheet()` runs only after the
+     entitlement check passes, so for a free visitor there is no
+     `.btr-printsheet` node at all. Gating the CHIP is not gating the
+     FEATURE — Ctrl+P reached the paid worksheet on #16 and on the
+     shipped build of letter-studio — so the probe forces premium, clicks
+     the chip, and then asserts the sheet has real children AND that the
+     apparatus is hidden under print. */
+  { key: 'baking-tray', p: 'btr', apparatus: '.btr-printsheet', chrome: '.btr-foot',
+    /* ⚠ THE SHARED PREMIUM-FORCING CANNOT FIND THIS TOOL, and the reason
+       is a design decision rather than an omission. The generic finder
+       requires `v.STORE_KEY` — and this tool has NO STORAGE AT ALL, on
+       purpose: it must never remember anything across reloads, because
+       the teacher opening it cold in front of 25 children has to get the
+       same first screen every time. Without a prime, `inst` came back
+       undefined, premium was never set, the chip opened the sales card
+       instead of printing, and the probe reported the sheet "missing" —
+       a gate measuring a free visitor and calling it a defect. */
+    prime: function () {
+      var T = window.BakingTray;
+      if (!T) return;
+      T.premium = true;
+      if (T._paint) T._paint();
+    } },
   /* ⭐ LETTER STUDIO WAS "HAS A BLOCK, NO PROBE" — which is exactly why the
      window.print()-with-no-sheet defect caught twice elsewhere was still
      live in it. Its sheet is PREMIUM-ONLY and built as real DOM, so the

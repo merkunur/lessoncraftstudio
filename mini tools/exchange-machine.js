@@ -174,7 +174,23 @@
   var Y_RULE = 144;
   var Y_ANS = 192;
   var Y_FOOT = 214;           /* the Übertrag row, BELOW the rule        */
-  var Y_BRIM = 242;
+  /* ⭐⭐ THE OVER-TEN BAND, and it is reserved, not improvised. The
+     first shipped build sent counters past ten SIDEWAYS — `i >= BASE`
+     added U*2.4 to x — which put them outside the tube, outside the
+     tint and, at 360px, half off the paper. In THIS tool x IS place
+     value: a counter drawn to the right of the ones column is drawn
+     where a lower place would be, so that shift contradicted the one
+     claim the whole product rests on. No gate could see it. Every gate
+     measured one box against a floor or checked the model; not one
+     asked whether a counter is inside its own lane. I found it by
+     reading the 360 render, which is why that step is in the
+     definition of done and is not a formality.
+     MEASURED, not assumed: the true maximum in one lane is EIGHTEEN
+     (`195 + 88` reaches 9+8+carry in the tens; `48 - 23` reaches it in
+     one gratuitous tap), so the band holds FOUR rows of two and the
+     geometry reserves the room for them. */
+  var OVER_ROWS = 4;
+  var Y_BRIM = 308;
   var Y_FLOOR = Y_BRIM + TUBE;
   var VH = Y_FLOOR + 14;
 
@@ -602,7 +618,18 @@
     /* a two-lane sum is inherently narrow, so its lanes are wider —
        otherwise the sheet is a tall ribbon and the height cap shrinks
        the material back below legibility */
-    _lane: function () { return this._lanes() >= 3 ? 88 : 104; },
+    /* ⚠ THE LANE WIDENED WITH THE OVER-TEN BAND, AND THAT IS THE POINT.
+       Reserving four rows above the brim costs 66 units of height, and
+       this file's own header records what height costs: the first draft
+       drove the aspect to 1.2, the height cap then rendered the sheet at
+       half the card's width, and the discs came out at 9px. MEASURED at
+       a 660px card — today 708px tall at aspect 1.07; taller alone 839px
+       at 1.27 (worse than the 1.2 that caused it); taller AND wider
+       670px at 1.01. So the band is paid for in width, and the render
+       comes out shorter than the one it replaces.
+       Wide columns are also simply CORRECT here: this is a sum on
+       squared paper, one digit to a square. */
+    _lane: function () { return this._lanes() >= 3 ? 112 : 128; },
     _opW: function () { return this._lane() * 0.5; },
     _laneX: function (k) {
       var w = this._lanes(), L = this._lane();
@@ -610,11 +637,12 @@
     },
     _laneCX: function (k) { return this._laneX(k) + this._lane() / 2; },
     _vbW: function () { return OX * 2 + this._opW() + this._lanes() * this._lane(); },
-    /* a ten is a 2x5 block, filled bottom-up, two to a row */
-    _discY: function (i) { return Y_FLOOR - U * 0.5 - Math.floor((i % this.BASE) / 2) * U; },
-    _discX: function (cx, i) {
-      return cx + (((i % this.BASE) % 2) ? U * 0.5 : -U * 0.5) + (i >= this.BASE ? U * 2.4 : 0);
-    },
+    /* A ten is a 2x5 block, filled bottom-up, two to a row — and it just
+       KEEPS GOING past ten, straight up the column, past the brim into
+       the over-ten band. One formula, no branch on `i >= BASE`: the
+       branch is what sent counters sideways out of their own place. */
+    _discY: function (i) { return Y_FLOOR - U * 0.5 - Math.floor(i / 2) * U; },
+    _discX: function (cx, i) { return cx + ((i % 2) ? U * 0.5 : -U * 0.5); },
 
     /* ================= DOM ============================================ */
 
@@ -827,9 +855,17 @@
 
       /* the tube carries the faint per-lane tint. THE DISC NEVER DOES:
          material whose appearance tracks its value lets a child avoid
-         ever looking at the column. */
+         ever looking at the column.
+         ⭐ AND THE TINT RUNS THROUGH THE OVER-TEN BAND, NOT ONLY THE
+         TUBE. Reserving four rows above the brim bought a correct
+         worst case and, at rest, a tall EMPTY strip between the answer
+         line and the tube — honest and unreadable, which is this
+         programme's recorded #39 lesson exactly. The band is real
+         apparatus, so it is drawn as apparatus: one continuous vessel,
+         solid to the brim and provisional above it. */
+      var bandTop = Y_BRIM - U * (OVER_ROWS + 0.2);
       svg.appendChild(this._svgEl('rect', {
-        x: cx - halfW, y: Y_BRIM, width: halfW * 2, height: TUBE,
+        x: cx - halfW, y: bandTop, width: halfW * 2, height: Y_FLOOR - bandTop,
         'class': 'exm-tint exm-tint' + k
       }));
 
@@ -841,9 +877,15 @@
         'class': cls
       }));
       /* above the brim the walls go dashed: the region past ten is drawn
-         as provisional, and that is the whole "too many" argument */
-      svg.appendChild(this._svgEl('line', { x1: cx - halfW, y1: Y_BRIM, x2: cx - halfW, y2: Y_BRIM - U * 1.6, 'class': cls + ' is-over' }));
-      svg.appendChild(this._svgEl('line', { x1: cx + halfW, y1: Y_BRIM, x2: cx + halfW, y2: Y_BRIM - U * 1.6, 'class': cls + ' is-over' }));
+         as provisional, and that is the whole "too many" argument.
+         ⚠ THE DASH MUST ENCLOSE THE BAND IT DESCRIBES. It used to stop
+         at 1.6 units while counters past ten were being drawn sideways
+         outside the tube entirely — the wall described a region nothing
+         was ever put in. It now spans the full four rows the over-ten
+         band reserves, so a counter above the brim is visibly still in
+         this column, on provisional ground. */
+      svg.appendChild(this._svgEl('line', { x1: cx - halfW, y1: Y_BRIM, x2: cx - halfW, y2: bandTop, 'class': cls + ' is-over' }));
+      svg.appendChild(this._svgEl('line', { x1: cx + halfW, y1: Y_BRIM, x2: cx + halfW, y2: bandTop, 'class': cls + ' is-over' }));
       svg.appendChild(this._svgEl('line', { x1: cx - halfW - 5, y1: Y_BRIM, x2: cx + halfW + 5, y2: Y_BRIM, 'class': 'exm-brim' }));
 
       /* the material. THE FIVE LINE, not a tick: a filled row is two, a

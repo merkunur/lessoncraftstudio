@@ -245,6 +245,60 @@ const countDiscs = (p) => p.$$eval('.exm-disc', (n) => n.length).catch(() => 0);
     await p.close();
   }
 
+  /* =====================================================================
+     ⭐⭐ EVERY COUNTER INSIDE ITS OWN LANE, AT EVERY OCCUPANCY.
+     The shipped build sent counters past ten SIDEWAYS, so on 42 − 17
+     the eleventh and twelfth ones sat outside the tube, outside the
+     tint, and at 360px half off the paper. Every gate in this suite was
+     green: they each measured ONE box against a FLOOR, and not one
+     asked whether a drawn thing is where it claims to be. A human
+     reading the 360 render found it.
+     In this tool x IS place value, so this is not a cosmetic check —
+     a counter drawn right of the ones column is drawn in a place that
+     does not exist. Driven to the MEASURED maximum (eighteen in one
+     lane), not to the resting state.
+     ===================================================================== */
+  console.log('\n— CONTAINMENT: every counter in its own place —');
+  {
+    const { p } = await open(b, 1024, 900);
+    /* drive the ones lane to its worst case: break a ten on a record
+       that does not need it, which is one tap away on the free shelf */
+    const occupancy = await p.evaluate(() => {
+      const T = window.ExchangeMachine;
+      T.st = T.borrow(T.newState('sub', 48, 23, 'decompose'), 1);
+      T._paint();
+      return T.st.col.slice();
+    });
+    await new Promise((r) => setTimeout(r, 260));
+    is(occupancy[0] === 18, `vacuity guard: the ones lane really holds ${occupancy[0]} — the measured maximum`);
+
+    const spill = await p.evaluate(() => {
+      const T = window.ExchangeMachine;
+      const svg = document.querySelector('.exm-svg');
+      const vb = svg.viewBox.baseVal;
+      const lanes = T._lanes(), L = T._lane();
+      const out = [];
+      const discs = Array.from(svg.querySelectorAll('.exm-disc, .exm-ghost'));
+      discs.forEach((c) => {
+        const x = Number(c.getAttribute('cx')), y = Number(c.getAttribute('cy')), r = Number(c.getAttribute('r'));
+        /* which lane does this x belong to? */
+        let inLane = -1;
+        for (let k = 0; k < lanes; k++) {
+          const x0 = T._laneX(k);
+          if (x - r >= x0 - 0.5 && x + r <= x0 + L + 0.5) inLane = k;
+        }
+        if (inLane < 0) out.push(`x=${x.toFixed(1)} belongs to no lane`);
+        if (y - r < 0 || y + r > vb.height) out.push(`y=${y.toFixed(1)} is off the paper (height ${vb.height})`);
+        if (x - r < 0 || x + r > vb.width) out.push(`x=${x.toFixed(1)} is off the paper (width ${vb.width})`);
+      });
+      return { count: discs.length, out: out };
+    });
+    is(spill.count >= 18, `vacuity guard: ${spill.count} counters and rings are actually drawn`);
+    is(spill.out.length === 0,
+      `⭐⭐ every counter sits inside its own column and on the paper` + (spill.out.length ? ` — ${spill.out.length} do not: ${spill.out[0]}` : ''));
+    await p.close();
+  }
+
   console.log('\n— THE PAYWALL: never gate the first affordance —');
   {
     const { p } = await open(b, 1024, 900);

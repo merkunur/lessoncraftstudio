@@ -75,8 +75,21 @@ const M = [
 
   /* ---- L3 ISOMETRY: the geometry IS the conservation guarantee --------- */
   ['⭐⭐ the rotation stops swapping the dimensions',
-    'return this._st({ rows: st.cols, cols: st.rows, q: st.q + 1, axis: null, cuts: [] });',
-    'return this._st({ rows: st.rows, cols: st.cols, q: st.q + 1, axis: null, cuts: [] });'],
+    'return this._st({ hi: st.hi, rows: st.cols, cols: st.rows, q: st.q + 1, axis: null, cuts: [] });',
+    'return this._st({ hi: st.hi, rows: st.rows, cols: st.cols, q: st.q + 1, axis: null, cuts: [] });'],
+  /* ⭐⭐ THE CEILING DROPPED BY A MUTATOR — the worst defect this build
+     had. With the 11-and-12 setting on, a 12x7 tray of eighty-four buns
+     turned into seventy, because rotate/crack/push rebuilt the state
+     without carrying `hi`. The census certified it for a hundred
+     thousand assertions by never enumerating a tray above ten. */
+  ['⭐⭐ the turn drops the tray\'s ceiling, so a 12-row tray silently loses two rows and fourteen buns',
+    'return this._st({ hi: st.hi, rows: st.cols, cols: st.rows, q: st.q + 1, axis: null, cuts: [] });',
+    'return this._st({ rows: st.cols, cols: st.rows, q: st.q + 1, axis: null, cuts: [] });'],
+  ['the break drops the ceiling the same way',
+    'return this._st({ hi: st.hi, rows: st.rows, cols: st.cols, q: st.q, axis: axis, cuts: cuts });',
+    'return this._st({ rows: st.rows, cols: st.cols, q: st.q, axis: axis, cuts: cuts });'],
+  ['the ceiling stops travelling on the state at all',
+    'hi: hi,\n        rows: this._dim(o.rows, hi, 7),', 'rows: this._dim(o.rows, hi, 7),'],
   ['⭐⭐ THE PITCH STOPS BEING SYMMETRIC IN R AND C — so a quarter turn would resize every bun mid-flight, which is a Piagetian conservation failure induced by a layout optimisation',
     'return this.trayBox(st) / (Math.max(st.rows, st.cols) + SLACK);',
     'return this.trayBox(st) / (st.rows + SLACK);'],

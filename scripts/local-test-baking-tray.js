@@ -204,6 +204,36 @@ async function pressSeam(p, axis, k, why) {
     is(turned.domes === 42, `...and not one bun was added or lost (${turned.domes})`);
     is(turned.pitch === before.pitch, `⭐⭐ THE BUN IS EXACTLY THE SAME SIZE AFTER THE TURN (${turned.pitch.toFixed(2)}) — a mid-rotation rescale is a conservation failure induced by a layout optimisation`);
 
+    /* ⭐⭐ AND THE TURN MUST RUN THE RIGHT WAY ROUND. Every assertion
+       above measures the END state, and the first build's turn SNAPPED
+       into its post-turn layout, spun a quarter turn AWAY from it, and
+       snapped back — all of them still passed. The model advances
+       immediately, so frame one must draw the turned grid at MINUS
+       ninety, i.e. in the orientation the class was already looking at. */
+    {
+      await p.evaluate(() => { const T = window.BakingTray; T.st = T.newState(7, 6); T._paint(); });
+      await wait(150);
+      const angles = await p.evaluate(() => new Promise((res) => {
+        const T = window.BakingTray, seen = [];
+        const grab = () => {
+          const g = document.querySelector('.btr-tray');
+          const tr = g && g.getAttribute('transform');
+          const m = tr && /rotate\(([-\d.]+)/.exec(tr);
+          seen.push(m ? Number(m[1]) : 0);
+        };
+        document.querySelector('.btr-turn').click();
+        const id = setInterval(grab, 40);
+        setTimeout(() => { clearInterval(id); res(seen); }, 520);
+      }));
+      const first = angles.length ? angles[0] : NaN;
+      const last = angles.length ? angles[angles.length - 1] : NaN;
+      is(angles.length >= 4, `vacuity guard: the turn was sampled ${angles.length} times mid-flight`);
+      is(first < -45, `⭐⭐ THE TURN STARTS AT ${first.toFixed(0)}° — the turned grid drawn in its PRE-turn orientation, so frame one is what the class was already looking at`);
+      is(last > first, `…and travels forward to ${last.toFixed(0)}°, never away from where it lands`);
+      is(angles.every((a) => a <= 0.5), 'and never overshoots past zero');
+      await wait(400);
+    }
+
     /* the refusals, visible on the controls */
     await p.evaluate(() => { const T = window.BakingTray; T.st = T.crack(T.st, 'row', 3); T._paint(); });
     await wait(200);

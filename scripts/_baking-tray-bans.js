@@ -42,9 +42,23 @@ const OP_WORDS = {
   nl: 'keer|maal|samen',
   fr: 'fois|égale|égalent|font|en tout',
   it: 'volte|uguale|in tutto',
-  es: 'veces|igual|en total',
-  pt: 'vezes|igual|ao todo',
-  sv: 'gånger|lika|sammanlagt',
+  /* ⭐ NOT bare `por` and NOT bare `son`. The first list banned both, and
+     a Spanish panel pointed out that `por` is the commonest preposition
+     this tool needs ("separar por la línea", "¿por dónde?") and `son` is
+     simply "are" — so the ban condemned ordinary Spanish and the panel
+     had to write around it at a real cost to the prose. Worse, my
+     counter-poison only ever exercised German and Italian, so nothing
+     caught it. `son iguales` is the operator; `son` is not. */
+  es: 'veces|es igual|son iguales|en total',
+  pt: 'vezes|é igual|são iguais|ao todo',
+  /* ⭐ `lika med`, NOT bare `lika`. Swedish for "equals" is *är lika
+     MED*; bare `lika` fires on "det är lika många bullar som förut" —
+     the exact CONSERVATION sentence this apparatus exists to make, so
+     the ban forbade the tool's own message and the Swedish panel had to
+     write around a live gate to say the true thing. Danish `er lig` and
+     Norwegian `er lik` are right; Swedish is the one that needs the
+     preposition. */
+  sv: 'gånger|lika med|sammanlagt',
   da: 'gange|lig|i alt',
   no: 'ganger|lik|til sammen',
   fi: 'kertaa|yhteensä'
@@ -91,6 +105,27 @@ function poison() {
   must(word(OP_WORDS.fi).test('seitsemän kertaa kuusi'), 'Finnish "kertaa"');
   must(word(OP_WORDS.sv).test('sju gånger sex'), 'Swedish "gånger"');
   mustNot(word(OP_WORDS.sv).test('Vänd på plåten'), 'ordinary Swedish');
+
+  /* ⚠⚠ AND EVERY LOCALE GETS A MUST-PASS CASE, not just German and
+     Italian. The Spanish ban condemned `por` and bare `son` — the
+     commonest preposition this tool needs and the verb "are" — and
+     nothing caught it, because the counter-poison exercised two
+     languages out of eleven. A ban tested in the language where it
+     happens to work is a ban that has not been tested. */
+  must(word(OP_WORDS.es).test('cinco es igual a cinco'), 'Spanish "es igual"');
+  mustNot(word(OP_WORDS.es).test('Separar por la línea de arriba, ¿por dónde?'),
+    '⚠⚠ Spanish "por" — the PREPOSITION this tool needs most');
+  mustNot(word(OP_WORDS.es).test('Los mismos bollos, ahora son dos trozos'), '⚠⚠ Spanish "son" — simply "are"');
+  must(word(OP_WORDS.pt).test('cinco é igual a cinco'), 'Portuguese "é igual"');
+  mustNot(word(OP_WORDS.pt).test('Separar pela linha de cima'), '⚠ ordinary Portuguese');
+  mustNot(word(OP_WORDS.fr).test('Casser la plaque dans un creux profond'),
+    '⚠ French "profond" — the ban must not reach inside a word');
+  mustNot(word(OP_WORDS.it).test('Leggi ogni pezzo'), '⚠ ordinary Italian');
+  mustNot(word(OP_WORDS.nl).test('Breek de plaat bij de groef'), '⚠ ordinary Dutch');
+  mustNot(word(OP_WORDS.da).test('Bræk pladen ved rillen'), '⚠ ordinary Danish');
+  mustNot(word(OP_WORDS.no).test('Brekk platen ved rillen'), '⚠ ordinary Norwegian');
+  mustNot(word(OP_WORDS.fi).test('Katso uraa ja kerro mistä murrat'), '⚠ ordinary Finnish');
+  mustNot(word(OP_WORDS.en).test('Break after row 5: 5 rows above.'), '⚠ ordinary English');
 
   must(TOTAL.test('that makes 42 buns'), 'the total ban on "42"');
   mustNot(TOTAL.test('there are 421 of them'), '⚠ "42" inside a longer numeral');

@@ -254,8 +254,8 @@
                                  default. */
     MAX12: 12,
 
-    newState: function (rows, cols) {
-      return this._st({ rows: rows, cols: cols });
+    newState: function (rows, cols, max) {
+      return this._st({ rows: rows, cols: cols }, max);
     },
 
     /* TOTAL. Every field type-checked and clamped HERE AND NOWHERE
@@ -263,8 +263,21 @@
        null, 0, NaN and a string all have to survive this. */
     _st: function (s, max) {
       var o = (s && typeof s === 'object') ? s : {};
-      var hi = (max === this.MAX12) ? this.MAX12 : this.MAX;
+      /* ⭐⭐ THE CEILING TRAVELS ON THE STATE, and this is the fix for the
+         worst defect in the build. `rotate`, `crack` and `push` all
+         rebuilt the state through `_st` WITHOUT passing `max`, so the
+         ceiling fell back to 10 and `_dim` silently clamped the
+         dimension away: with the 11-and-12 setting on, a 12 x 7 tray of
+         EIGHTY-FOUR buns became 7 x 10 = SEVENTY on a turn, and 10 x 7
+         on a break. "The count never changes" — the tool's only claim —
+         was false in exactly the configuration its second setting sells.
+         And the census GATE CERTIFIED IT, because it enumerated 1..10
+         and never built a tray the bug could reach. Carrying `hi` on the
+         state means no mutator can drop it by forgetting an argument. */
+      var hi = (max === this.MAX12 || max === this.MAX) ? max
+        : (o.hi === this.MAX12 ? this.MAX12 : this.MAX);
       var out = {
+        hi: hi,
         rows: this._dim(o.rows, hi, 7),
         cols: this._dim(o.cols, hi, 6),
         q: this._q(o.q),
@@ -343,7 +356,7 @@
 
     rotate: function (st) {
       if (!this.canRotate(st)) return null;
-      return this._st({ rows: st.cols, cols: st.rows, q: st.q + 1, axis: null, cuts: [] });
+      return this._st({ hi: st.hi, rows: st.cols, cols: st.rows, q: st.q + 1, axis: null, cuts: [] });
     },
 
     seamCount: function (st, axis) {
@@ -369,7 +382,7 @@
       if (!this.canCrack(st, axis, k)) return null;
       var cuts = st.cuts.slice();
       cuts.push(k);
-      return this._st({ rows: st.rows, cols: st.cols, q: st.q, axis: axis, cuts: cuts });
+      return this._st({ hi: st.hi, rows: st.rows, cols: st.cols, q: st.q, axis: axis, cuts: cuts });
     },
 
     canPush: function (st, k) {
@@ -383,7 +396,7 @@
       if (!this.canPush(st, k)) return null;
       var cuts = [], i;
       for (i = 0; i < st.cuts.length; i++) if (st.cuts[i] !== k) cuts.push(st.cuts[i]);
-      return this._st({ rows: st.rows, cols: st.cols, q: st.q, axis: cuts.length ? st.axis : null, cuts: cuts });
+      return this._st({ hi: st.hi, rows: st.rows, cols: st.cols, q: st.q, axis: cuts.length ? st.axis : null, cuts: cuts });
     },
 
     /* ⭐ THE STEPPERS ARE DEAD WHILE CRACKED, and this is a ruling, not
@@ -398,7 +411,7 @@
       var hi = (max === this.MAX12) ? this.MAX12 : this.MAX;
       var r = this._dim(rows, hi, st.rows), c = this._dim(cols, hi, st.cols);
       if (r === st.rows && c === st.cols) return null;   /* a no-op is a refusal */
-      return this._st({ rows: r, cols: c, q: 0, axis: null, cuts: [] }, max);
+      return this._st({ hi: st.hi, rows: r, cols: c, q: 0, axis: null, cuts: [] }, max);
     },
 
     /* ---- layout, derived from the model alone ----------------------- */
@@ -617,9 +630,23 @@
     _stepper: function (parent, which) {
       var self = this, api = this.api;
       var box = api.el('div', 'btr-step btr-step-' + which);
-      var minus = api.el('button', 'btr-sbtn'); minus.type = 'button'; minus.textContent = '−';
+      /* ⭐⭐ CHEVRONS, NOT `+` AND `−`. The steppers rendered a literal
+         PLUS SIGN, permanently, in all eleven locales — in the one tool
+         whose absolute rule is that no operator may appear on the
+         apparatus. It sat in the footer between the two numerals of the
+         array, and NO STRING AUDIT COULD EVER HAVE REACHED IT: it is
+         drawn by the code, not authored, so it survived every ban, every
+         poison case and eleven native reviews of the strings. A French
+         panel reading the SOURCE found it.
+         A chevron says fewer/more without saying an operation. */
+      var chev = function (up) {
+        return '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor"'
+          + ' stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+          + (up ? '<path d="M6 15l6-6 6 6"/>' : '<path d="M6 9l6 6 6-6"/>') + '</svg>';
+      };
+      var minus = api.el('button', 'btr-sbtn'); minus.type = 'button'; minus.innerHTML = chev(false);
       var out = api.el('output', 'btr-sval');
-      var plus = api.el('button', 'btr-sbtn'); plus.type = 'button'; plus.textContent = '+';
+      var plus = api.el('button', 'btr-sbtn'); plus.type = 'button'; plus.innerHTML = chev(true);
       minus.addEventListener('click', function () { self._step(which, -1); });
       plus.addEventListener('click', function () { self._step(which, 1); });
       /* ⚠ THE FIDGET'S MAIN VECTOR IS A HELD KEY, NOT TWENTY TAPS. */
@@ -645,6 +672,11 @@
       this.st = n;
       this._lockUntil = this._now() + 300;
       this.api.sound(d > 0 ? 520 : 430);
+      /* ⚠ A RESIZE USED TO ANNOUNCE NOTHING. Every other move calls
+         announce; this one repainted silently, so a screen-reader user
+         who changed the tray was never told what the tray had become —
+         and the stepper labels are static, so nothing else said it. */
+      this.api.announce(this._sceneText());
       this._paint();
       var self = this;
       setTimeout(function () { self._paint(); }, 310);
@@ -821,7 +853,17 @@
 
       var P = this.pitch(st), GUT = this.gutter(st), BOX = this.trayBox(st);
       var pieces = this.pieces(st), sp = this.spans(st);
-      var rot = (this._anim && this._anim.kind === 'rotate') ? ease(this._anim.t) : 0;
+      /* ⭐⭐ THE TURN RUNS FROM MINUS NINETY TO ZERO, AND THE FIRST BUILD
+         RAN IT BACKWARDS. `_run` advances the model IMMEDIATELY, so by
+         the first frame the grid is already the TURNED one; interpolating
+         0 -> +90 then snapped the tray into its post-turn layout, spun it
+         a quarter turn AWAY from that, and snapped back. Starting at -90
+         means frame one draws the turned grid in the ORIENTATION IT HAD
+         BEFORE — pixel-identical to what the class was looking at — and
+         the animation carries it to where it now is.
+         Invisible to every gate I had written, because they all measured
+         the END state; an Italian panel found it by reading the model. */
+      var rot = (this._anim && this._anim.kind === 'rotate') ? (ease(this._anim.t) - 1) : 0;
 
       /* total drawn size, gaps included */
       var gapsTotal = 0;
@@ -861,7 +903,7 @@
       }));
 
       var g = this._svgEl('g', { 'class': 'btr-tray' });
-      if (rot > 0) g.setAttribute('transform', 'rotate(' + (90 * rot).toFixed(3) + ' ' + CX.toFixed(2) + ' ' + CY.toFixed(2) + ')');
+      if (rot) g.setAttribute('transform', 'rotate(' + (90 * rot).toFixed(3) + ' ' + CX.toFixed(2) + ' ' + CY.toFixed(2) + ')');
       svg.appendChild(g);
 
       /* the bake-shadow: the memory of the whole. It NEVER splits, and
@@ -1073,7 +1115,7 @@
       var self = this;
       var put = function (x, y, val) {
         var gg = self._svgEl('g');
-        if (rot > 0) gg.setAttribute('transform', 'rotate(' + (-90 * rot).toFixed(3) + ' ' + x.toFixed(2) + ' ' + y.toFixed(2) + ')');
+        if (rot) gg.setAttribute('transform', 'rotate(' + (-90 * rot).toFixed(3) + ' ' + x.toFixed(2) + ' ' + y.toFixed(2) + ')');
         var t = self._svgEl('text', {
           x: x.toFixed(2), y: y.toFixed(2), dy: '0.35em',
           'class': 'btr-num', 'font-size': size.toFixed(1),
@@ -1380,10 +1422,28 @@
        "the same tray broken six ways". A sheet may be short; it may not
        be padded and mis-sold. The whole tray leads (it is the thing being
        derived from) and every other cell is a DIFFERENT break. */
+    /* ⭐⭐ AND THE FIVE-LINE COMES FIRST, because the sheet used to walk
+       k = 1, 2, 3 upward — so a SEVEN-row tray printed breaks after rows
+       1, 2 and 3 and NEVER after row 5. The paper omitted the lesson:
+       five-and-two is the derivation the entire product is built around
+       and the one the fifth line is drawn deeper to support. A page of
+       breaks that cannot show the break the tool exists for is worse
+       than no page.
+       So each axis offers its fifth line first, then its tenth, then the
+       middle, then the rest — every one a real break, none repeated. */
     _printCuts: function () {
-      var st = this.st, out = [{ axis: null, k: 0 }], k;
-      for (k = 1; k < st.rows && out.length < 4; k++) out.push({ axis: 'row', k: k });
-      for (k = 1; k < st.cols && out.length < 6; k++) out.push({ axis: 'col', k: k });
+      var st = this.st, out = [{ axis: null, k: 0 }];
+      var pick = function (axis, lim, room) {
+        var order = [5, 10, Math.round(lim / 2), 2, 3, 1, 4, 6, 7, 8, 9], seen = {}, i, k;
+        for (i = 0; i < order.length && room > 0; i++) {
+          k = order[i];
+          if (k < 1 || k > lim - 1 || seen[k]) continue;
+          seen[k] = 1; room--;
+          out.push({ axis: axis, k: k });
+        }
+      };
+      pick('row', st.rows, 3);
+      pick('col', st.cols, 2);
       return out;
     },
 
@@ -1410,8 +1470,14 @@
 
     _sheetSvg: function (cut) {
       var st = this.st;
-      var s = cut.axis ? this.crack(this.newState(st.rows, st.cols), cut.axis, cut.k) : this.newState(st.rows, st.cols);
-      if (!s) s = this.newState(st.rows, st.cols);
+      /* ⚠ THE CEILING TRAVELS ONTO THE PAPER TOO. This rebuilt the tray
+         with no ceiling, so with the 11-and-12 setting on the PAID sheet
+         printed ten buns beside a numeral reading twelve — the same
+         dropped-argument defect as the mutators, in the one artefact a
+         teacher pays for. */
+      var hi = st.hi;
+      var s = cut.axis ? this.crack(this.newState(st.rows, st.cols, hi), cut.axis, cut.k) : this.newState(st.rows, st.cols, hi);
+      if (!s) s = this.newState(st.rows, st.cols, hi);
       var P = 40, G = P * GAP_F, pieces = this.pieces(s), sp = this.spans(s), i, pc, shift;
       /* ⚠ THE SHEET OBEYS THE SETTING TOO. The five-groove was hardcoded
          here, so the teacher who switched it OFF for a doubling lesson —

@@ -1,509 +1,402 @@
-# Premium Tools v5 — the final twenty
+# Premium Tools v5 — the final twenty, rebuilt
 
-**Ideas only. Nothing is designed here.** Read, cut, reorder — then we design one per session.
+**Ideas only. Nothing is designed here.**
+#20 THE MISSING QUESTION survives from the first draft. The other nineteen are new.
 
 ---
 
-## Context — why this document exists
+## What went wrong the first time, and the rule that replaces it
 
-The platform ships **47 live tools**, ~204 activities, 240 printable types and 33 generator apps. The
-v4 catalog (§23) has shipped nine of its twenty and has **eleven approved-but-unbuilt slots left**.
-The operator's brief: find **20 NEW tool ideas** for the **final batch**, at a **higher bar** than
-everything already shipped — instruments that solve a real K-3 teaching problem, make a genuinely
-hard or laborious teaching task easy, and are exciting enough to compete with the established giants.
+The rejected nineteen were number pyramids, sliced arrays, sliding combs, stars round a circle, a
+Galton board, gears. Mathematically elegant **objects that model mathematics**. They came out that
+way because I optimised against our own §23 "ruling 5" — *if the thing the tool teaches cannot be
+verified, it is not designed* — which selects for things with tidy theorems, and things with tidy
+theorems are maths, not teaching.
 
-Two shipped tools were named as the standard (**learning-clock**, **money-mat**) and two as the
-failure (**say-it-board**, **feelings-check-in**).
+**THE MISSING QUESTION survived because it is a TEACHING MOVE turned into apparatus.** It withholds
+the question, it attacks the hardest thing to teach, and it generates the material a teacher cannot
+generate. That is the DNA, and it is now the only entry criterion:
 
-### What actually separates them — measured, not guessed
+> **Each tool is a great teaching move — or a dreaded topic — turned into wordless front-of-room
+> apparatus, doing the one thing the teacher physically cannot do in the moment.**
 
-I had the four files read side by side. The diagnosis is structural, not a matter of taste:
+Three tests, all of which must pass:
+1. **Name the teacher's sentence.** *"I can never…"* / *"It takes me all evening to…"* If you cannot
+   write that sentence, it is a maths object and it dies.
+2. **Name what a child DOES in the first ten seconds** — shout, point, vote, object. Six-year-olds do
+   not warm up. If the answer is "consider" or "discuss", it is meta.
+3. **A whiteboard and a marker must not be able to do it.**
 
-| | learning-clock / money-mat | say-it-board / feelings-check-in |
+⚠ **One doctrine has to change, and the operator has already changed it.** §23 ruling 5 kills
+THE MISSING QUESTION — it is the Pin Board, which `premium-tools-v4.md:676` cut by name as *"the
+largest market hole found anywhere… cut only because its gate proves the tool is honest, not that it
+teaches — noticing has no ground truth."* The same file says it is **"first to reinstate if that
+ruling ever relaxes."** By keeping THE MISSING QUESTION the operator relaxed it. The working
+replacement: **a tool must be honest about what it knows** — not everything worth teaching has a
+theorem. (MEMORY.md's own standing rule applies: *a doc is not a fact, least of all one we wrote
+ourselves.*)
+
+**And one refusal needs splitting, not scrapping.** "No verdict" exists so no child is ever marked
+wrong in front of the room. It must stay. It does **not** mean the tool may never know the truth
+about an artefact **it authored itself** — when the tool injects the bug, it knows where the bug is.
+That distinction is what makes half this batch legal, and it costs a child nothing.
+
+## How these were chosen
+
+Three panels in parallel, then adjudicated:
+- **A teacher panel** (Y2 teacher of 26, an instructional coach, a curriculum lead) scored 19
+  candidates on *solves a real problem · makes teaching easier · makes it more effective · fun ·
+  would I use it weekly*, killed seven, and proposed ten of their own.
+- **A repo fence audit** across all five surfaces.
+- **An evidence check** on every instructional move, specifically asking whether it holds at ages
+  5-9 — because most instructional research is done on teenagers.
+
+The evidence pass reordered everything, and it is the reason this batch is ranked the way it is.
+
+### ⚠ The honesty ladder — three tiers, and we say which
+
+| Tier | Moves | Wording |
 |---|---|---|
-| Ground truth | a theorem over a named domain (`V4 signed delta` over **129,600** pairs; **DP proof over the full legal price set**) | none — the gates prove *hygiene* and *privacy*, not correctness |
-| Refusal | the gearing makes an impossible hand pair unreachable; the purse **only offers coins that still fit the gap** | nothing can be wrong, so nothing can be refused, so nothing can be discovered |
-| A numeral moves | the idiom bubble + honey arc; the running total pill | no number anywhere |
-| Repertoire | **generated** — 720 times × 11 locales from rules; currency × band × item × proved prices | **five feelings, forever**; ~72 hand-authored cards × 11 = ~790 strings |
-| The verb | rotate-under-gearing; compose a multiset | tap-to-select-one-of-N |
-| Who is teaching | the teacher teaches **from** it | the class emotes **at** it |
-| What the subscription buys | five distinct depths (finer steps, practice, elapsed, saves, print) | a text-entry quota / a name list |
+| **Evidence-based at ages 5-9** | concreteness fading · retrieval + expanding intervals · spacing for generalisation · number-line magnitude → arithmetic learning · blocks↔written-method linking · explaining **another person's** reasoning | may claim an effect |
+| **Research-based, evidence from older learners** | worked examples + fading · comparing two methods · erroneous examples · interleaving · self-explanation | say so explicitly |
+| **Practitioner-developed** | hinge questions · low-floor-high-ceiling · information-gap · protégé effect at K-3 · productive failure | the same honest category we already use for WODB, Splat!, Esti-Mysteries, Notice-and-Wonder |
 
-**One line:** the good ones are *instruments with a provable physics and a generated repertoire, where
-the child's hand changes a number and the material refuses a lie*. The bad ones are **soundboards**.
-
-Across all 47 shipped tools the split is **26 good / 12 borderline / 9 bad** — and **8 of the 9 bad
-are language tools**, which is why §23.1 bans them. **This batch therefore contains zero language
-tools** (reasoning in the Rejected section).
-
-### The six bars every idea below had to clear
-
-1. A real physical **verb** (not tap-to-select).
-2. A **numeral** that changes because of the hand.
-3. The material **refuses** a wrong state — wordlessly, no verdict, no red X.
-4. A **theorem over a named finite domain** a gate can prove exhaustively.
-5. A **machine-generable** repertoire (hundreds), not a hand-authored list.
-6. A named repeatable **routine** with a second move that costs the child something they committed
-   to — and it ends in **argument**, not silence.
-
-Plus the operator's own bar: **it must do something a teacher cannot practically prepare or
-improvise with paper, card and real classroom objects.**
-
-### How these twenty were chosen
-
-26 candidates were put in front of three independent panels run in parallel — a K-3 didactics expert
-(scored all 26 on six axes, killed 3 outright, folded 4, and proposed 10 of its own), a repo fence
-auditor (checked every candidate against all five surfaces including the eleven unbuilt v4 slots,
-plus a noun census in six languages), and a competitive analyst (prior-art checked every idea against
-Polypad, PhET, Toy Theater, Gynzy, ICT Games, NCTM, Mathsframe, Topmarks, SolveMe, Math Learning
-Center, and killed 15 as already free elsewhere).
-
-**Only four candidates survived all three panels.** The rest of this list is what survived the merge
-plus what the panels produced. Every entry below carries its **fence status** honestly — including
-the ones that will have to fight at build time.
-
-### The thesis that emerged
-
-The strongest ideas here share one shape:
-
-> **The instrument shows the structure that only appears when you do something ALL the ways, or very
-> many times — which is precisely what a class cannot do by hand.**
-
-All the ways (combinatorics), all the cases (the pyramid run backwards), all the positions (common
-multiples), five hundred trials in eight seconds (the pins), every rectangle of perimeter 24. This is
-the operator's "make a complex teaching task easier" stated as an engineering property, and it is
-also the thing no competitor's *widget* can do, because a widget has no domain.
+**Two numbers never to repeat:** Black & Wiliam's 0.4-0.7 for formative assessment (Kingston & Nash
+put it at **0.20**), and the CRA meta-analysis Tau-BC of 0.996 as if it were a Cohen's *d*.
 
 ---
 
-# THE TWENTY
+# THE NINETEEN
 
-Ranked. **F:** = fence status. **∎** = the theorem.
+**T** = evidence tier. **F** = fence.
 
-## A · Number, structure and pattern (8)
+## Tier 1 · Direct causal evidence at ages 5-9, and apparatus is genuinely required (6)
 
-### 1. THE PYRAMID · *Zahlenmauer, made operative*
-A wall of stones, each the sum of the two below it. **The invention: drag one base stone and fifteen
-numbers cascade — and the wall runs BACKWARDS,** fixing the top and letting the machine prove, over
-the whole base domain, that exactly one base fits, or that seventeen do. The class discovers the
-middle stone counts double (top = a + 3b + 3c + d) without anyone saying "coefficient".
-**Routine:** "Move one stone." Predict the top before releasing; then move a *different* stone by the
-same amount and explain why the top moved further.
-**∎** for every masking pattern, uniqueness of the completion decided exhaustively over the full base
-domain. **Repertoire:** number range × row count × masking pattern — tens of thousands, difficulty
-graded by *provable* solution count, not by "bigger numbers".
-**F: VIRGIN mechanism.** Nothing on any surface propagates a sum upward through a lattice. Every
-German Zahlenmauer site is an *exercise generator* — fill the blank, green tick, next. The operative
-version does not exist digitally anywhere. ⚠ Name: `wall` is owned by `calendar-wall` and
-`picture-word-wall` in EN, DE, NL, SV, DA and NO — hence *Pyramid*, shipping the native name per
-locale (*Zahlenmauer*, *Rekenmuur*), which is the whole point.
-**Paid:** the graded wall library, missing-stone patterns, operative series, saved class sets, and
-the print sheet in the local layout — the single most-printed item in German Klasse 1-2.
+### 1. THE LOCKSTEP — the written method and the blocks, welded
+*Working title. `column` is #43's noun in all eleven locales.*
 
-### 2. THE QUARTERS · *Malkreuz — the distributive law as physics*
-A rectangular dot array. Drag one horizontal and one vertical cut line; four sub-arrays appear, each
-with its own product numeral. **The invention: the four products churn wildly while the TOTAL numeral
-physically cannot move.**
-**Routine:** "Cut it kindly" — find the cut that makes 7×8 easy. Second move: someone else's cut
-gives a different pair of easy numbers and the same total. Argument guaranteed.
-**∎** ∀ m,n ≤ 20, ∀ cuts i,j: ij + i(n−j) + (m−i)j + (m−i)(n−j) = mn — **144,400 states, exhaustive.**
-**F: PARTIAL — ship the CUT, never the build.** `array-core.js` owns building an R×C array;
-`G3-313-area-model`, `G3-301`, `G3-314`, `G2-211/212` own counting and commutativity. Nothing anywhere
-cuts an array and asserts the four-part invariant. Prior art is **one GeoGebra applet** plus PIKAS
-PDFs. *Halbschriftliche Multiplikation* via Malkreuz is examinable Klasse 3 content across DE/AT/CH
-and structurally absent from every Anglo product.
-**Paid:** the sequenced cut library (the "nice numbers" progression), recording sheets matching the
-PIKAS/mahiko convention, saved arrays.
+> *"Regrouping. I write the little 1 above the tens and I can physically see half the room decide
+> that maths is a set of arbitrary marks. It is the topic I dread most in the year."*
 
-### 3. THE COMBS · *two perforated strips, slid over each other*
-Two strips, one punched every 3, one every 4. Slide one over the other; where holes line up, light
-comes through. **The invention — SUPERIMPOSITION, a verb no tool on this platform has: the answer is
-made by the layout, not computed.** Common multiples appear as the only lit positions, and the class
-watches the pattern of light repeat.
-**Routine:** "Which numbers do we say when we count in 3s **and** in 4s?" Second move: predict the
-next lit hole before sliding.
-**∎** lit positions = multiples of lcm(a,b), exhaustive over a,b ≤ 12 × positions ≤ 144. A comb of
-period 1 lights everything; two combs of coprime period agree only at ab.
-**F: VIRGIN verb.** `choral-counting` owns counting aloud and skip-counting on a grid; nothing
-overlays two periodic structures. Consumes the didactics panel's "Two Bands" idea in a better
-apparatus.
-**Paid:** the comb library (including 3-comb sets), the position-question deck, saved sets, print.
+Every mark you write moves a block, **in the same instant, in the same place**. Ten ones visibly
+shatter out of a ten at the exact moment the digit is crossed out. **The invention: the two notations
+are one object, and the layout is your country's** — where the carry digit goes differs across
+DE/FR/NL, and a Dutch teacher whose tool writes it in the wrong place closes it forever.
+**T: evidence-based, in band.** Fuson & Briars (1990, *JRME*), **grades 1-2**: blocks and numerals
+recorded step for step — 6 of 8 classes (N=169) reached meaningful multi-digit addition; 3 classes
+(N=75) meaningful subtraction. Brown & VanLehn's repair theory explains *why* it breaks: children hit
+an impasse (canonically **a zero in the minuend**) and invent a stable, rational, wrong patch. The
+bugs are not slips.
+⚠ **Design constraint the evidence forces:** co-temporal and **co-located**. A split screen with a
+lag re-creates the very dual-representation problem it is meant to cure — so my own "two columns"
+framing was wrong.
+**F: the only large virgin payload in the whole batch.** The written column algorithm exists on
+**none** of the four surfaces; `REFERENCE APPS/addition.html`'s own analysis lists vertical format as
+a non-capability. Subtract `place-value-regroup-core.js` (bundling alone) and A4 Carry Wheels (the
+carry alone); what is left — **the lock, plus the national layout** — is unowned.
 
-### 4. THE RING · *counting, wrapped round a circle*
-Twelve marks in a circle. Step round by 3 and join each landing to the last: a triangle. Step by 5:
-a twelve-pointed star. Step by 4: a square, closing after three moves. **The invention: skip-counting
-is bent into a closed loop, so the thing that is usually an endless line becomes a SHAPE — and the
-shape is different for every step.** Steps that share a factor with the ring close early and never
-visit every mark; steps that do not, visit all of them.
-**Routine:** "Will this one come home before it has touched every mark?" Commit, then step.
-**∎** the orbit of step s in ℤₙ has length n/gcd(n,s); it visits every mark iff gcd(n,s)=1 —
-exhaustive over n ≤ 24 × s < n. Also: step s and step n−s draw the identical figure traced backwards.
-**F: PARTIAL.** `star-stitcher.connect-sequence.k-cc-a-2` joins dots in counting order on a plane;
-`choral-counting` owns the chart and the chant. The **wrap** — counting that returns to its start —
-is unowned everywhere, and "times-table circles" is a known UK routine with no tool at all.
-**Paid:** ring sizes beyond 12, the two-ring comparison, the printable string-art card.
+### 2. THE FADE — the manoeuvre a human hand cannot perform
+> *"They can do it with the cubes. Take the cubes away and they are back to nothing. I have never
+> known how to get them across that gap, and I cannot slowly dissolve a tray of Numicon."*
 
-### 5. THE PEEPHOLE · *a window over a hidden chart*
-The hundred chart is face down. Drag a plus-shaped or L-shaped window over it; only the cells under
-the holes show. Say where you are. **The invention: the chart's WIDTH is a control.** Set it to 7 and
-it is a calendar; set it to 9 and the multiples of 9 stand in a column. "Down is +10" quietly becomes
-"down is +w", and the rule the children thought they knew dissolves.
-**Routine:** "Where am I?" Second move: change the width and run the same window again.
-**∎** for an interior cell c on a width-w chart the window shows {c−w, c−1, c, c+1, c+w}; any fragment
-of ≥2 cells determines its position uniquely — exhaustive over 100 positions × window shapes ×
-w ∈ [3..12].
-**F: PARTIAL, and it is the OTHER HALF of an approved slot.** v4's unbuilt **A7 Hundred Field** is
-*paint the numbers then reflow the grid*; this is *hide the chart and deduce from a fragment*. They
-are complementary and should not both be built as written — see the v4 remainder ruling below.
-**Paid:** the window library (shapes, widths, edge and corner cases), saved boards, print.
+One control carries a problem from objects → picture → symbol **mid-solution, without stopping**, so
+the child finishes symbolically without noticing they crossed.
+**T: the strongest item in the batch, and the evidence is in band.** Ching & Wu (2019), **140
+kindergartners**, inversion: fading beat both concrete-only and abstract-only on transfer and on the
+delayed post-test. Fyfe, McNeil & Borjas (2015), **grades 2-3**, equivalence: benefited transfer, and
+unusually **benefited low- and high-prior-knowledge children alike.**
+⚠ **Two constraints, both non-obvious.** The material must be **perceptually BLAND** — McNeil's
+*Should you show me the money?* found 5th graders made *more* errors with rich play money, and
+Petersen & McNeil found richness hurts precisely when a child already has a real-world script for the
+object. **No cute counting bears.** And the fade's benefit shows on **transfer and delayed** measures,
+often not on immediate performance — so do not judge it, or instrument it, on in-session accuracy.
+**F: partial.** `missing-part-core.js` ships banded `modelState:'countable'|'confirmOnly'|'faded'` in
+the activity layer; `letter-studio` fades handwriting forward. No instrument fades. ⚠ It must be an
+apparatus, not a dimmer — a bare fade with no material is the "generic slow-reveal runtime" §23.7
+already refused.
 
-### 6. SIX WAYS · *one quantity, six notations, five of them hidden*
-Scattered dots · a ten-frame · a die face · a tally · fingers · the numeral. **All six are bound and
-bidirectionally editable — change any one and the other five move.** But five of the six start
-**covered**, and the class predicts before the reveal. Without that mask this is the soundboard with
-a coat of paint; with it, it is the daily five-minute opener.
-**Routine:** "It is seven here. What will it look like there?" Second move: change it from a
-*different* panel and watch the numeral you were staring at move on its own.
-**∎** the six render functions are mutually consistent bijections on [0..20]; 30 input/ask pairs × 21
-values, exhaustive.
-**F: PARTIAL, non-place-value only.** `place-value-lab` already binds three displays (blocks /
-numeral / number word) and owns that trio; `number-talk-easel` owns the flash-behind-a-curtain and
-the 11-locale representation vocabulary — inherit its names by citation, never re-name `Würfelbild`.
-The remainder is **simultaneity across six NON-base-ten notations, edited from any end**, which
-nobody ships: Polypad, Gynzy and Toy Theater each ship these as *separate objects*.
-**Highest frequency item in the batch, and the most shareable six seconds of video.** EdWeek names
-"representation transfer" as the hardest thing in Grade 1.
-**Paid:** the flash-sequence repertoire (quick images, subitising routines, 0-10 → 0-20 → teens),
-saved class routines, matching cards printed from the same set.
+### 3. THE COLD START — the thing no teacher sustains by hand
+*Working title; `cold` and `start` are both taken.*
 
-### 7. THE CHUTE · *a machine with a rule it will not tell you*
-Drop a number in the top; a different one comes out the bottom. The class works out what the machine
-does. **The invention: the machine can prove which inputs would actually settle the question** — it
-knows when two rules are still alive and refuses to be pinned down by a lazy guess.
-**Routine:** "Give it a number that would tell us something." Second move: name a number and predict
-the output *before* dropping it.
-**∎** over a finite rule set, the pairs that disambiguate any two rules are computable; a rule is
-determined by ≤k inputs, exhaustive per rule family.
-**F: PARTIAL.** `sorting-hoops` owns hidden-rule deduction over **attributes**; this is over
-**numbers**, which is unowned. Polypad and Math Playground ship function machines, but as free-play
-canvas tiles with the rule visible — none hides the rule or reasons about disambiguation.
-**Paid:** the rule library graded by arity and by how many inputs it takes to pin down, saved
-machines, print.
+> *"I know I should go back to what we did three weeks ago. I never do, because building it means
+> opening my planning and remembering, and it is 8:40 and someone is crying."*
 
-### 8. THE STAIRCASE · *growing patterns, and the leap to term twenty*
-Build term 1, term 2, term 3. Then jump straight to term 20 — **the instrument refuses to build the
-intervening ones**, so counting on is unaffordable and the class has to find the rule that gets there
-in one move. The figure is built from real tiles and it counts itself.
-**Routine:** "How many for step 20?" Commit, then build it and count.
-**∎** term(n) = a + (n−1)d for linear families and the closed forms for the square/triangular
-families, checked against a physical tile count over n ≤ 50 × the generated family set.
-**F: PARTIAL.** `pattern-bench` owns **repeating** patterns (the unit of repeat, in three costumes);
-`K-053` and `G3-326/327` are printables. Growing patterns are a different object — term-to-term
-versus position-to-term is the hinge into algebra, and patterning is the strongest single predictor
-of later algebraic competence.
-**Paid:** the family library (linear, square, triangular, two-dimensional), saved patterns, print.
+A wordless three-minute opener built from what **this class** actually did weeks ago. No score, no
+timer, no marks — the operator's ban is already the correct design.
+**T: evidence-based, and it goes *below* your band.** Fritz et al. (2007), **preschoolers**:
+expanding retrieval doubled recall, **d = 1.9** over elaboration. Káldi et al. (2025, *Child
+Development*), **5-6 year olds**: the effect is present at preschool age. Vlach & Sandhofer (2012),
+**5-7 year olds**: spaced beat massed on **generalisation**.
+⚠ **The boundary condition that differs from adults:** young children need **successful** retrieval.
+Káldi found a benefit only above a sufficient practice success rate — the adult "desirable
+difficulty" logic does **not** port down. Expanding intervals, success-gated, back off on failure,
+and the lag scaled to the age rather than inherited from an adult algorithm.
+**F: partial, and it is D1 Morning Board's sibling.** It needs the server-side setup store §23
+already calls *"the honest prerequisite for selling paid depth + record, and the #1 unbuilt shared
+piece"* — confirmed: `api/prisma/schema.prisma` has four models and none of them holds tool state.
+**The panel scored this the highest weekly use on the board. It is daily.**
 
-## B · The language of number — the eleven-locale moat (2)
+### 4. WHERE DOES IT GO? — the whole class's drift, made visible
+> *"'Is 71 nearer 20 or nearer 90?' gets silence. And number-line sense predicts everything
+> downstream."*
 
-### 9. THE TWO ORDERS · *what you write, and what you say*
-One quantity. Two traces run over the same numeral: the order it is **written** and the order it is
-**said**. German and Dutch and Danish say the units first — *fünfundzwanzig*, *vierenzestig* — so the
-right-hand digit lights before the left while the numeral sits still. French takes a detour through
-4×20+10. Danish *halvtreds* is two-and-a-half twenties. Portuguese is perfectly regular, and stands
-as the control the other ten are compared against. **The invention: two locales side by side, on the
-same number, at the same time.**
-**Routine:** "Write what you hear." Then: "Now watch the Portuguese one."
-**∎** the utterance-order function verified against a per-locale table for all n ∈ [1..999] × 11
-locales; the written order is invariant across all eleven while the said order is not.
-**F: CONTESTED — the most fence-exposed idea here, and the most defensible if it survives.**
-`place-value-lab` already ships `PV_WORD_SPANS`, gate-verified byte-equal for 0-999 × 11, and already
-tints German *vierundzwanzig* so the 4 is visibly said first. The remainder is the **cross-locale
-side-by-side**, the **digit-reversal trap** (51 written for 15), and the dictation direction. If the
-remainder is judged too thin this becomes a `place-value-lab` premium mode — but it should not simply
-be dropped.
-**Why it matters:** ~50% of German first-graders' transcoding errors are inversion-related, and
-inversion errors at the end of Grade 1 predict poorer **carrying** at the end of Grade 3.
-[Zwanzigeins](https://zwanzigeins.jetzt/) has campaigned on this for years and its only artefact is a
-research dictation app. **No Anglo company will ever build this.**
+An empty line, 0 at one end, 100 at the other. Numbers fly in to be placed. The true position is
+revealed — and **every previous placement the class has made stays on screen**, so the room sees its
+own drift: everyone crams 60-90 into the last inch.
+**T: evidence-based and CAUSAL, in band.** Booth & Siegler (2008, *Child Development*), **first
+graders, mean age 7.2**: presenting addends and sums as positions on a 0-100 line **improved learning
+of the answers to arithmetic problems** — magnitude representation predicted arithmetic learning after
+controlling for prior knowledge, short-term memory and attainment.
+**F: partial.** `number-line` and `open-number-line` own the line; `track-repair-core` owns continuous
+placement with an ε tolerance. The remainder is the **accumulated class record and the true-position
+reveal** — placement as a whole-class instrument rather than a single child's task.
 
-### 10. THE OTHER TEN · *the land where they count in fives*
-A place-value mat where **ten loose ones will not enter the tens column** — you must bundle them
-first, and the bundle snaps together in your hand; to subtract you must physically unbundle before
-you can take. Then the control that changes everything: **the bundle size is not ten.** Set it to
-five, or four, or two, and run the same number again.
-**Routine:** "Make it legal in the fewest moves." Second move: do the same number in base five and
-argue about which took fewer.
-**∎** base-b representation uniqueness over all n ≤ 9999 and all non-normalised chip configurations;
-the normalising path length is determined. Exhaustive over the finite chip domain.
-**F: CONTESTED.** `place-value-lab` owns bundle/unbundle and the three linked displays;
-`bundle-machine-core` owns ×10 composition. The remainder is **the base as a variable** and the
-**enforced** bundling constraint — with real Dienes blocks a child can leave ten unit cubes sitting
-in the tens column and nobody notices. Freudenthal's and Dienes' own argument is that ten only
-becomes visible as a *choice* once you have counted in something else.
+### 5. THE LONG PATH — the hour that closed a gap
+> *"The children who arrive without number sense never catch up, and I have nothing that moves them
+> in the time I have."*
 
-## C · Space (2)
+A giant linear 1-10 path across the front of the room. Move along it, and the count is spoken from
+**your current position**, not restarted from one.
+**T: evidence-based, in band, and the result is extraordinary.** Ramani & Siegler: four 15-20 minute
+sessions of a **linear** 1-10 numerical board game improved low-income preschoolers on magnitude
+comparison, number-line estimation, counting and numeral identification, holding at **9 weeks** — and
+experiment 2 **eliminated the SES gap in estimation proficiency in about an hour of play.**
+⚠ **Linearity is the active ingredient — the circular board did nothing.** And the
+count-on-from-where-you-are verbalisation has to be *enforced*, which is exactly what a teacher with
+26 children cannot do.
+**F: partial** — subtract `number-line` (the ruled instrument) and `arrow-strip` (movement by a plan).
+The remainder is the enforced count-on and the linear-vs-circular contrast.
 
-### 11. TWO NUMBERS · *(3,5) is not (5,3)*
-A grid where a place is named by an ordered pair. Swap the two numbers and you land somewhere else —
-somewhere that is always the mirror of where you were, across the diagonal. **The invention: the pair
-is a single object with an order, and the order is visible as a reflection.**
-**Routine:** "Say where the treasure is." Second move: swap your two numbers and say where you have
-gone.
-**∎** the pair→cell map is a bijection; swap is the reflection about the main diagonal, and its fixed
-points are exactly the cells (k,k) — exhaustive over all grids to 10×10.
-**F: PARTIAL.** `arrow-strip` owns *movement across* a mat by a plan; `parking-tower.place-by-relation`
-owns positional language. Nothing on any surface names a place by an ordered pair.
-**Mandated at Grade 3 in Norwegian LK20** — *"experiment with and explain positions in the coordinate
-system"* — two full grade bands earlier than CCSS, which puts it at Grade 5. A CCSS-first competitor's
-standards map has no pin here.
+### 6. THE HAND — the one gesture that works
+> *"I wave at the board and hope."*
 
-### 12. THE CUPS · *it fits, or it does not*
-A shelf of cups. Nest them. **The invention: the refusal is total and needs no words — a wider cup
-simply will not go inside a narrower one, and the material never says why.** Then the conflict that
-makes it a lesson: a tall thin cup and a short wide one, where the taller cup is the smaller cup.
-**Routine:** "Put them in order without pouring anything." Second move: fill them and find out.
-**∎** nesting is possible iff the ordering by diameter is total and consistent with the ordering by
-height; the generator produces sets where the height order and the volume order **disagree**, and
-proves the disagreement. Exhaustive over the generated cup sets.
-**F: PARTIAL, and inside a strand §23.7 marks CLOSED (capacity / weight / non-standard length).**
-`nesting-pots.seriate.k-cc-c-7` and `measurement-bench` are the incumbents. ⚠ **This is the most
-fence-exposed entry in the batch — cut it first if twenty is too many.** The argument for keeping it
-is that the payload is *transitivity and conflicting orderings*, i.e. logic, not measurement, and
-that **nest** is a virgin verb on a platform where nothing fits inside anything.
+A large, paced, spatially-anchored hand on screen models the exact movement — sweeping under each
+side of an equation — and the class copies it in the air, in time.
+**T: evidence-based, grades 3-4.** Cook & Goldin-Meadow: children taught mathematical equivalence
+with a specific instructed hand movement learned in a way that lasted **longer**, and — the decisive
+detail — **only that gesture, not other hand movements, produced success on generalisation problems.**
+**F: VIRGIN.** Nothing on any surface cues a movement. Wordless by definition, physical, and every
+child participates without a device. **The cheapest instrument in the batch to build and the only one
+where the children move their bodies.**
 
-## D · Data, chance and combinatorics (4)
+## Tier 2 · The great teaching moves, with the constraints the evidence forces (6)
 
-### 13. ALL THE WAYS · *the tree, the table, and the things themselves*
-Three tops and two bottoms. The tree grows branch by branch; it collapses into a table; the leaves
-resolve into a row of six little outfits. **The invention: redraw the same tree with the attributes
-in a different order and the shape changes completely while the leaf COUNT refuses to.** That is the
-multiplication principle discovered rather than stated.
-**Routine:** "Have we got them all?" Second move: start from the other attribute and count again.
-**∎** leaves = ∏ branch factors; the leaf set equals the Cartesian product; cardinality is invariant
-under attribute order — exhaustive over all factor tuples with product ≤ 60.
-**F: PARTIAL — a product, where C4 is a partition.** v4's unbuilt **C4 Splitting Key** draws a tree
-too, but its leaves *sum* to the heap; these *multiply*. Same picture, different theorem — expect to
-litigate it, and see the remainder ruling below.
-**Why it matters:** Kombinatorik is mandated in **KMK** (with tree diagrams and tables named
-explicitly), in **Lgr22** (*kombinatoriska situationer*), and in **BNCC EF03MA25** (*identify ALL
-possible outcomes*). **CCSS puts tree diagrams in Grade 7.** The nearest prior art is CK-12's outfits
-tree, filed under Math 7. Nothing at K-3, nothing multilingual.
-**Paid:** the localised context library (Brazilian *lanche*, German Eisdiele, Dutch broodjes),
-tree→table export, saved setups.
+### 7. SOMEBODY ELSE'S WORK — *the teacher panel's #1, at 24 of 25*
+> *"I want to put a wrong answer up and pull it apart, but I cannot use Amir's book — he would never
+> write anything again. So I invent one at 10pm, and mine is always too obviously wrong. Real
+> children's mistakes are neat and confident and look right."*
 
-### 14. THE PINS · *five hundred falls in eight seconds*
-Balls drop through a field of pins; each pin sends a ball left or right; the balls pile up in the
-slots below. **The invention: the middle fills because MORE PATHS LEAD THERE, and each ball's own
-route is drawn as it falls, so the pile is explained rather than asserted.** Ask for one ball, or a
-hundred, or five hundred.
-**Routine:** "Which slot will win?" Commit before the first ball. Second move: run it again and see
-whether the same slot wins.
-**∎** the number of paths to slot k after n rows is C(n,k) — the pyramid of #1, standing on its head —
-and the empirical distribution converges to it; exhaustive path enumeration for n ≤ 10 against a
-seeded run. **No unseeded randomness**: every fall is a pure function of (rig, seed, index), so Oslo
-and Lisbon see the identical run.
-**F: PARTIAL — the strongest constraint is our own tool.** `draw-bag` owns chance and carries two
-permanent refusals this must respect: *no frequency numeral, ever* and *no stacking by kind on the
-record*. The pins survive because the payload is **path counting**, not frequency: the pile is a
-consequence of a visible tree, and the tool need never print a number for it.
-**The best six seconds of video in the whole batch,** and the only entry that ties combinatorics,
-chance and the pyramid into one object.
+A plausible finished piece of work from a named imaginary child, with exactly **one** deliberate bug.
+The class hunts it. **The invention: plausibility at volume.** Generating wrong work that survives
+four minutes of argument is the hardest prep job there is, and the tool knows where the bug is
+because it put it there.
+**T: research-based, evidence from older learners — and it carries a real reversal.** Durkin &
+Rittle-Johnson (2012), **grades 4-5**: comparing correct *and* incorrect examples beat correct-only,
+including on reducing misconceptions. But **Große & Renkl: learners with NO prior knowledge learned
+significantly more from correct examples only** — and a K-3 child meeting a concept for the first
+time *is* that group.
+⚠ **Four design constraints, non-negotiable:** correct content **first**, errors second · the error
+**attributed to a named other** (Durkin & Rittle-Johnson 2016 on epistemic trust — children track who
+was wrong) · the error location **highlightable** as an adaptive scaffold (it helped low-prior-
+knowledge children significantly and did nothing for the rest) · the task is **detect → explain →
+correct**, and it must **end on the corrected version**, never leaving the wrong one last on screen.
+The panel's own design note: the imaginary child needs a **name and a face and must come back weekly**
+with the same characteristic weakness. Children will adopt them. That is the product.
+**F: partial.** `tildy-core.js`, `fix-it-core.js`, `mending-fences-core.js` and `numbers-court` all
+show a wrong thing — **all four in the activity layer, single-child and graded. Zero of the 47
+instruments do.**
 
-### 15. EVERY PAIR · *the whole sample space, before the first trial*
-Two devices. Every one of their combined outcomes is on the table **before anything is rolled** — all
-thirty-six pairs, face up. Each trial lights its own cell. **The invention: the outcome space is the
-apparatus, not a result.** Seven is common because six cells say seven; twelve is rare because one
-does.
-**Routine:** "Choose a total to stand behind." Second move: after ten trials, change your mind and
-defend the change.
-**∎** |{(a,b) : a+b = s}| = 6 − |7 − s|, summing to 36 — a 36-state exhaustive domain; and the same
-identity for any pair of devices with any face sets.
-**F: PARTIAL — ship the sample space, DROP the histogram.** The histogram is `draw-bag`'s refusal 2
-and `class-graph`'s territory. Free two-dice simulators exist (LearnMathClass, InventiveHQ) but they
-are adult-register calculators that show the *result*; none puts the sample space up first, which is
-the entire pedagogy. ⚠ Two-dice sums are usually taught later — pitch this at *possible outcomes*
-(BNCC EF03MA25) rather than at distribution, and it sits correctly in Grade 2-3.
+### 8. THE PUPPET WHO GETS IT WRONG — the same mechanism, at five
+> *"They will correct a puppet with a passion they will never spend on a worksheet."*
 
-### 16. ONE STANDS FOR · *the data holds still and the picture changes*
-A finished pictogram. Drag the key: one icon = 1, then 2, then 5, then 10. **The invention: the
-numbers do not move and the picture becomes unrecognisable** — and half-icons appear exactly when the
-key does not divide the values.
-**Routine:** "Choose a key that fits in eight icons." That is estimation and divisibility in one hand
-movement. Second move: choose a key that makes no half-icons, and say how you knew.
-**∎** Σ(icons × k) = Σ values, invariant over all k; k produces no half-icon iff k divides gcd(values)
-— exhaustive over generated data sets.
-**F: PARTIAL, and previously rejected once.** §23.7's rejected list names *"Pictograph key"* as
-occupied; the occupying artefacts are `G2-238` and `G3-333` (printables that ask a child to *read* a
-scaled pictograph) and `class-graph` (which owns 1:1 and children-generate-the-data). The remainder
-is **the draggable key** — nobody, in any product checked, lets the scale move while the data is
-locked. Thin wedge over a crowded field; keep only if the gcd payload is built.
-**Paid:** the survey bank and the display-poster print — wall displays are a universal primary
-obligation and the print is what converts.
+A character does the maths in front of the class and makes **exactly the error this class made
+yesterday**. The children teach it.
+**T: the protégé-effect literature is ages 10-14 and does not reach down — but there is a better
+citation, and it is squarely in band.** Siegler (1995, *Cognitive Psychology*), **5-year-olds**,
+number conservation, three conditions: feedback only · feedback + explain your own reasoning ·
+**feedback + explain the experimenter's reasoning**. Explaining *the other party's* reasoning produced
+**considerably more learning than either of the others.** That is the mechanism, at age five, and it
+is the real foundation for both this and #7.
+⚠ A character who is wrong too often triggers the epistemic-trust problem. And the protégé effect is
+substantially a *motivation* effect — corrected trivially, you get effort without learning.
+**F: partial.** ~130 activity decks carry characters; **none of the 47 instruments does.** What we do
+not own is the endless supply of exactly the right error in eleven languages without TTS. Build the
+error engine, not the puppet. **Split by age from #7: puppet 5-7, marked work 7-9.**
 
-## E · The world, verifiably (2)
+### 9. THE BOUNDARY — thirty edge cases in ninety seconds
+> *"Every triangle I draw points up. Every square sits flat. Then they meet a tilted square, call it
+> a diamond, and I caused it myself."*
 
-### 17. COGS · *the only thing here a non-teacher would share*
-Mesh two to five toothed wheels and turn one. The others turn — some faster, some slower, and **every
-other one turns the wrong way.** **The invention: a gear train a child can build, at a child's
-register, where the arithmetic is integer tooth counts and nothing is a formula.**
-**Routine:** "Make the red one turn twice as fast." Second move: "now make it turn the *other* way as
-well."
-**∎** ω₂/ω₁ = −t₁/t₂ along the train; the sign alternates, so wheel k turns the same way as wheel 1
-iff k is odd — exhaustive over all trains to 5 wheels from a fixed tooth-count set.
-**F: PARTIAL, and it forces a decision about A4.** v4's unbuilt **A4 Carry Wheels** claims *geared
-wheels* for the place-value carry; `learning-clock` already ships a live 1:12 gearing. Cogs is a
-different payload — ratio and direction parity, not a decimal odometer — but the two should not both
-be built. See the remainder ruling.
-**Prior art is a genuine hole:** every free gear simulator (NovaSolver, MechSimulator, PhysSandbox) is
-an engineering calculator talking about module and pitch circle diameter. The one child-appropriate
-version, EduMedia's *Gears sketch*, is behind a paid subscription. PhET has nothing.
-**Paid:** the challenge repertoire, saved rigs, and **printable cut-out cardboard gears the children
-assemble** — the most coveted paper artefact in the batch.
+A stream of examples and near-miss non-examples at the very edge of a concept — the triangle rotated
+continuously through 360°, morphed from equilateral to needle-thin, then one with a curved side.
+Thumbs up, thumbs down, at speed, out loud.
+**T: mixed, and worth stating precisely.** Variation theory itself has **no defensible effect size** —
+do not attach one. The citable part is Gersten et al. (2009, *RER*), a meta-analysis of 42 RCT/QED
+maths interventions that coded *"attention to the range and sequence of examples"* as a component with
+a significant mean effect. The misconception is documented in band: Clements, Swaminathan, Hannibal &
+Sarama (1999, *JRME*), **3-6 year olds** — children identify shapes by resemblance to a prototype (a
+triangle is "a roof") and reject tilted, obtuse and flipped figures.
+⚠ **The failure mode is the tool itself:** an unbalanced example set **manufactures** the prototype.
+Vary one irrelevant attribute at a time against an invariant background, and make the non-examples
+*near* misses — a triangle against a circle teaches nothing.
+**F: partial.** `curate-wing-core.js` is this for shapes, explicitly naming the diamond misconception —
+but as a graded single-child activity. The evidence check calls this *"the single move where the
+apparatus advantage is largest."* Generalise off shapes: is 0 even, is that a half, is 11 a teen.
 
-### 18. WEEK BY WEEK · *the instrument that remembers across the term*
-A plant, a beanstalk, a shadow at noon, the days in school. Measure it once a week; the instrument
-keeps every previous measurement, draws the change, and asks the class to predict next week before
-revealing it. **The invention: nothing else on this platform remembers for longer than a lesson.**
-**Routine:** "How much this week?" Second move: predict next week, in writing, and come back to it.
-**∎** the difference column is the first difference of the record; a straight-line prediction is
-computable and the tool scores the *class's committed* prediction against the measurement, never
-against a child. Exhaustive over generated record shapes.
-**F: VIRGIN, with an honest dependency.** Nothing spans sessions. ⚠ Saved setups today are
-`localStorage` — per browser, wiped by a cache clear — and §23 already names a server-side setup store
-as *"the honest prerequisite for selling paid depth + record, and the #1 unbuilt shared piece"*. **This
-tool is the argument for building it**, and it makes the subscription genuinely sticky. Constraint
-inherited from `feelings-check-in`: it holds the class's measurements and **never a record about a
-child**.
+### 10. TWO WAYS AT ONCE — the inside of two heads
+> *"Mia counts on from three every single time and it is killing her. I say 'try bridging through ten'
+> and she nods and carries on, because she has never seen what that looks like. And I have one mouth."*
 
-## F · Two more (2)
+One problem, two methods, running **simultaneously and slowly**, side by side. Not a race — *"they both
+get there. Look how differently."*
+**T: research-based, from older learners, with a hard prerequisite.** Rittle-Johnson, Star & Durkin
+(2009): students who had **not** attempted a strategy at pretest learned **more from sequential study
+than from comparison** — novices were "overwhelmed." The moderator was **prior knowledge of one of the
+specific methods shown, not general attainment**, so it cannot be gated on high attainers.
+⚠ Therefore: this is a **consolidation** instrument, never an introduction. Both methods simultaneously
+visible (sequential presentation destroys the effect), same problem, explicit *what is the same / what
+is different* prompts. Slowing the pace is the documented remedy for novices, and it is expensive.
+**F: partial, and pick a different content anchor.** §23.7 records make-ten as *"the densest square
+inch on the platform"* and `ten-frame` refusal 17 bans a bridging animation outright. The comparison
+mechanic is unowned; the make-ten example is not.
 
-### 19. THE RATTLE · *a total you cannot break*
-A closed two-chamber box with a fixed number of beads inside. Shake it. The split changes; the total
-cannot. **The invention: the child does NOT author the split — chance does — and every split that
-appears is stamped permanently on a strip, so the question becomes "have we found them all?"** Cover
-one chamber and the same box is a missing-addend machine.
-**Routine:** "Hunt the split we have not seen." Second move: cover a chamber and say what is under it.
-**∎** n beads admit exactly ⌊n/2⌋+1 unordered splits; the strip is complete iff all are stamped; the
-shake is seeded, so the run is reproducible in every classroom.
-**F: PARTIAL, thin remainder — rank it last of the number tools.** Decomposition is quadruply owned:
-`part-whole-frame` (*"the whole never changes… conservation is UNREPRESENTABLE"*), six number-bond
-activity rows, `chuffer.rail-decompose`, and `lids`. What is left is **the record of every
-decomposition, produced by a split nobody chose**. ⚠ The honest objection: a real Schüttelbox costs
-€4 and a teacher can shake it. Build this only if the record strip and the covered chamber are both in.
+### 11. THE VANISHING EXAMPLE — the scaffold retreats
+> *"I model one, then I set thirty, and the drop between them is a cliff."*
 
-### 20. THE MISSING QUESTION · *the picture stops before anyone asks anything*
-A wordless situation plays and freezes: five birds on a wire, two lifting off. No question appears.
-**The invention: the withhold is the QUESTION itself** — the class argues about what this picture can
-be asked, discovers it can be asked several things, and only then writes a number sentence.
-**Routine:** "What could we ask?" Second move: "what could we *not* ask?"
-**∎** every generated situation instantiates exactly one of the classic problem structures
-(join / separate / part-part-whole / compare × unknown in each position), and the set of questions the
-picture can answer is computable and complete — exhaustive over the generated situation space.
-**F: PARTIAL.** `ten-frame.solve-the-story` and `vet-diagnosis.word-problems` present word problems;
-nothing withholds the question. Word problems are named in every teacher survey as the hardest thing
-in Grade 1 *because they are multimodal* — and a wordless situation removes the reading load without
-removing the mathematics, which is exactly the eleven-language advantage. Teachers cannot generate
-all the problem structures by hand; the tool can, and can prove it covered them.
+A fully worked example; then the same kind with the last step blank; then the last two.
+**T: research-based, from older learners — the mechanism is a novice mechanism, so extrapolation is
+reasonable, but say so.** The design finding that matters is Renkl, Atkinson & Große (2004): *which*
+step is faded barely matters, but **learners learn most about the principle that was faded.** So
+**fading is a targeting mechanism, not a difficulty slider** — fade the step you want learned.
+⚠ Expertise reversal is happening **inside one class at one moment**: the same worked step helps one
+child and loads another. And a K-3 child cannot read a multi-step written solution, so the example
+must be **enacted or animated, never printed**.
+**F: virgin, but a dependent of #1** — the platform has no written multi-step method to fade yet.
+⚠ The panel's verdict: *"this is the dullest thing we are still keeping — a worksheet on a wall."*
+Ship it only with a costume: the steps physically lift off and fly away, and the class shouts the
+missing one back.
+
+### 12. THE MISSING QUESTION — kept
+A wordless situation plays and freezes: five birds on a wire, two lifting off. **No question appears.**
+The class argues about what this picture can be asked, finds it can be asked several things, and only
+then writes a number sentence.
+**T: practitioner-developed** (Notice-and-Wonder / numberless word problems have no efficacy study —
+say so). **F: it is the Pin Board, cut by ruling 5 and reinstated by the operator's own choice.**
+⚠ The panel's one addition: **the questions the class generated must survive the lesson**, or it
+evaporates. That capture is the print hook and the subscription.
+
+## Tier 3 · Dreaded topics, where the apparatus is the whole point (7)
+
+### 13. THE STORY THAT MATCHES — where word problems actually break
+> *"They can compute it and then meet it in a story and go blank. And 'how many more' — half my class
+> thinks that is addition, forever."*
+`12 − 5` sits still while **three wordless ten-second films** play. Only one of them is that sentence:
+one is take-away, one is difference, one is a distractor. I cannot animate three situations.
+**F: partial** — `ten-frame.solve-the-story` and `vet-diagnosis` present word problems; nothing makes a
+sentence compete for its meaning. **#12's sibling, and probably the second-strongest idea in Tier 3.**
+
+### 14. THE HIDDEN CHANGE — the problems nobody sets
+> *"I never set change-unknown problems because writing them is a nightmare, so my class thinks maths
+> always runs left to right."*
+Five things. A screen comes down. Something happens behind it. Nine things. **What happened in the
+dark?** Detective energy, ages 5 to 9 by changing the numbers.
+**F: partial** — `lids` and `part-whole-frame` hide *quantities*; nothing hides an **action**.
+
+### 15. THAT'S NOT FAIR! — outrage as an engine
+> *"Every half I have ever drawn was a fair half, so my class believes 'half' means 'one of two
+> pieces'."*
+The cake is cut into two wildly unequal pieces and the screen calmly labels the small one ½. A room of
+six-year-olds loses its mind — which is the loudest, cheapest and most reliable engagement mechanism
+in primary school, aimed at the exact misconception. Extends to thirds, quarters, and *halves need not
+be the same shape*.
+**F: partial** — `fraction-kitchen` owns cutting and sharing and treats an off-centre cut as physics
+rather than a verdict. The remainder is the **deadpan false label**, which is a different move.
+
+### 16. THE HOUR HAND ALONE — remove the other hand
+> *"They can read 3:47 and have no idea it is nearly four. We taught the minute hand first, and I
+> cannot take a hand off the classroom clock."*
+A clock with **the minute hand removed**. Roughly what time is it? Then the day runs alongside — light,
+dark, breakfast, playtime.
+**F: possibly a `learning-clock` mode rather than a tool** — but the teaching point is genuinely
+different (the hour hand carries nearly all the information) and time is the topic teachers name as
+their most dreaded after regrouping. Tiny idea, real effect.
+
+### 17. THE SCATTER — make counting in ones fail honestly
+> *"Nayla will count 24 counters in ones, every time, forever, and she is not going to stop while
+> counting in ones still works."*
+Objects appear scattered and **drifting** — too many and too mobile to count one at a time. The only
+way through is to group. You cannot make counters move on a table.
+**F: partial, adjacent to the unbuilt A3 Counting Tray** (scoop a heap into containers). A3's payload
+is regrouping; this one's is *making the old method fail without an adult saying so*. Subtract and ship
+the remainder, or fold it into A3.
+
+### 18. THE SLOW REVEAL — permission to change your mind
+> *"Their first guess is a hill they die on. I cannot teach 'revise your estimate' because I have no
+> way to feed evidence in slowly — I cover things with a sheet of paper, badly."*
+A picture uncovers gradually, and the class shouts an estimate at every stage **and is allowed to
+change it**. The revision is the payload, not the reveal.
+**T: careful.** Computational-estimation teaching is thin — four decades of reviews calling their own
+field unsatisfactory, and one finding that practice alone ≈ practice plus instruction. The strong
+evidence is in **magnitude** estimation, which is #4. Pitch this on the revision habit, not on accuracy.
+**F: partial** — `estimation-jar` owns the committed prior and the no-ranking doctrine; §23.7 refuses a
+generic slow-reveal runtime. **The permission to revise is the only defensible remainder.**
+
+### 19. THE SHRINKING TABLE — the mountain that collapses
+> *"They look at the hundred facts and their faces close before we start."*
+The whole times-table grid, and the class crosses off what it already knows: ×1, ×10, ×2, ×5 — then
+the commutative twins fold away — until about twenty genuinely hard facts remain.
+**F: mechanic virgin** (no table square anywhere on four surfaces) **but the noun is dead in nine of
+eleven locales** — de `Tafel` / nl `tafel` / sv `tavla` / da-no `tavle` are the blackboard noun already
+owned by five tools, nl `de tafels` *are* the times tables, and es `tabla` / fr `table de
+multiplication` / it `tavola pitagorica` / pt `tabuada` all collide.
+⚠ Keep the crossing-off **per session and anonymous** — "what we already know", persisted, is a record
+of class attainment and collides with the no-record doctrine. Panel's honest note: *a magnificent
+lesson, used twice a year.* Ranked last for that reason, not for quality.
 
 ---
 
-# What was killed, and why — so nobody re-proposes it
+# Cut, with the reason — so none of these comes back
 
-**Beaten by a free, well-funded, heavily translated incumbent.** Every slot spent fighting one of
-these is a slot not spent on something nobody will ever contest.
-
-| Idea | Killed by |
+| Idea | Why it died |
 |---|---|
-| Cube nets that fold up | **Polypad** ships fold/unfold on all 3D solids, plus NCTM Cube Nets, EduMedia, OSP Singapore. Also a Year 5-6 investigation. |
-| Pentominoes / same-under-rotation | **Polypad** ships pentominoes as snapping, rotating first-class tiles with published lessons. Also: §23.7 already rejected "The Turn/Flip Table". |
-| Float / sink with variable mass and volume | **PhET Density** and **PhET Buoyancy** do exactly this, free, in dozens of languages. Also inside the §23.7 closed corpus-science strand. |
-| A circuit board | **PhET Circuit Construction Kit** — and it is a puzzle with a solution, so it fails gate 5 twice over. |
-| A free-angle mirror line | **Mathsframe ITP Symmetry** is precisely the spec, free, and a generation of UK teachers already knows it. Our own `folding-sheet` owns the generative half; free-angle belongs there as a mode. |
-| Adjustable sector spinner | The most saturated slot found anywhere: NCTM, Shodor, three separate Toy Theater spinners, Gynzy, Polypad, NRICH. |
-| Area vs perimeter explorer | Toy Theater, Shodor, PhET Area Builder — **and it is v4's own approved B5 Reshape**. |
-| Hanging mobile / balance puzzles | **SolveMe Mobiles**: free, 200 puzzles, a builder, a community, an iOS app, already in EN/ES/FR/DE. |
-| Zoomable number line | Maths is Fun, GeoGebra, Web Sketchpad — and it is a Grade 3+ decimals tool. |
-| Gattegno tens chart | ICT Games ships it free *with* a number-word toggle; Mathsbot ships it free. Only the multilingual saying-order engine survives — as **#9**. |
-| Counting stick | Topmarks ships it; and it is also a metre stick, the cheapest apparatus in education. |
-| Fractions on a number line | Math Learning Center, Mathsbot, Brainingcamp, SplashLearn, Polypad — and `G3-317` plus `fraction-kitchen`'s *meaning-before-notation* ruling. |
-| Day length across the year | The astronomy is already claimed by v4's approved **C2 Shadow Yard** (declination to under a minute × 11 latitudes). Ship it as a C2 mode. |
-
-**Occupied on our own surfaces.** Conservation-of-number two rows (`bead-string-core` states
-*"the NUMBER OUTLIVES the ARRANGEMENT"* verbatim) · dot plot / class line plot (`estimation-jar`
-already built a real one, stacked by value, anonymous dots) · sorting tree by yes/no questions
-(= approved **C4 Splitting Key**) · non-standard-unit measuring (`measurement-bench` + `unit-handle`)
-· live class data capture (`class-graph`) · occlusion of a known quantity (`lids`, `part-whole-frame`,
-`number-talk-easel`) · structured estimation and reveal (`estimation-jar`) · build-and-view Baupläne
-(`build-plan`, shipped as #44) · localised money and till (`money-mat`) · a broken/sliding ruler
-(`ruler`) · fair sharing with a remainder (`lids` + approved **A6 Grouping Dial**) · angle with
-stretchable arms (approved **B6 Hinge**) · geared demonstration clock (`learning-clock`).
-
-**Ruled out by category.**
-- **A wordless "certain / likely / unlikely / impossible" ladder.** There is no theorem — the boundary
-  between *likely* and *unlikely* is a linguistic convention, not a fact over a domain. `draw-bag`
-  permanently refused it (*"NO LIKELIHOOD WORD in any of eleven languages"*). Ship the BNCC four-term
-  and KMK three-term coverage as a **mode** of an existing chance tool, not a slot.
-- **Rhythm and pattern-in-time.** Genuinely virgin and genuinely delightful — but it would depend on
-  hearing, and `LCSAudio` never calls `getVoices()`, so six of eleven locales get silence. The
-  no-audio law kills it.
-- **ZERO LANGUAGE TOOLS, deliberately.** §23.1 bans them; 8 of the 9 tools bucketed as the bad pattern
-  are language tools; and the biggest un-built literacy artefacts (sound walls, Making Words, word
-  ladders, word sorts) are either asset-blocked, already free from UFLI and Toy Theater, or 100%
-  authored language on the stage — the exact shape of the two tools the operator rejected.
+| **THE FORK** (hinge question — one item, four responses, each wrong one naming a misconception) | The teacher panel loved it (23/25); the evidence killed it. **No controlled trial of hinge questions exists.** The parent construct is overclaimed 3× (Kingston & Nash: **0.20**, not 0.4-0.7), the EEF's learner-response-system RCT found **no impact on attainment**, there is **zero K-3 evidence**, and a five-year-old cannot read four written options. Our own doctrine also forbids telling a teacher what the class believes (`heart-words.js:1526` — *"the same reasoning that forbids telling a child he is right forbids telling a teacher the split is right"*). |
+| **THREE DOORS** (one picture, three depths) | Commercially the most obvious thing on the list and **there is no efficacy evidence for low-floor-high-ceiling at all** — every source is a blog or a publisher. The panel's verdict is also right: it is **a dial that belongs on every tool**, not one icon among 47. Ship it as a dial. |
+| **THE STUBBORN MACHINE** (the class's rule obeyed until a counterexample kills it) | **Productive failure is contraindicated at 5-9.** Kapur: it "requires a certain amount of prior knowledge"; Loibl & Rummel: the benefit "does not usually transfer to students younger than the typical age group." The panel called it an epistemology lesson, not a Tuesday. |
+| **TWO HALVES** (each partner sees half; neither can answer alone) | Structurally broken — **one projector cannot show two children different things**, and two at the board means twenty-four spectators. Evidence is absent in primary maths (the construct is from language teaching; EEF Dialogic Teaching gave **maths its smallest gain, +1 month**). Alive only as a printed half, which is the paid tier. |
+| **IS THAT SENSIBLE?** | I can write "8 + 7 = 52" on the board in four seconds. **No prep is removed.** Fold into #7 as an answer-only mode. |
+| **THE ANSWER FIRST** ("it's 12 — what was the question?") | Four words on a whiteboard, zero prep, and the "checks 26 attempts instantly" claim **does not survive contact with a room that has no pupil devices**. The rescue — *map what nobody tried*, so the gaps glow — belongs to #12. |
+| **THE FREEZE FRAME** | A specification, not an apparatus. Every animated tool should already stop before the payoff. Also owned: the unbuilt A4's withhold is literally *"what the tens wheel is about to do."* |
+| **ONE THING CHANGED** (variation chains) | The name is the diagnosis — an idea *about* teaching; children experience nothing. It is **the engine underneath #9**, not a shelf item. |
+| **BOTH OF THEM ARE RIGHT** | For six-year-olds this produces a room that now believes maths has no answers, and it needs language the screen is not allowed to have. Its one good idea (two people measured the same table and got 3 and 47) is **already shipped as `unit-handle` #40**. |
+| **THE SPLAT** (`8 + ? = 12`, blobs covering a known total) | The teacher panel's top new idea — and **occupied three ways**: `part-whole-frame` ships three cloths free, `rekenrek` owns *"How many are hiding?"* by name, and v4's Splat Mat already shipped as **`#39 The Lids`**. |
+| **THE WRONG RULER** (paperclips 47, hands 9, boot 3) | **Shipped as `#40 unit-handle`** — *"Stretch the unit on one tape and its number climbs while the object has not moved."* Same thesis, already live. |
+| **THE CHAMELEON NUMBER / SIX WAYS** (six linked representations) | The teacher panel proposed it independently, which is a real signal — but the operator rejected it in the last batch. Not re-proposed. |
 
 ---
 
-# The v4 remainder — a decision this batch forces
+# What this batch needs that does not exist yet
 
-Eleven v4 slots are approved and unbuilt. Twenty new ideas plus eleven old ones is thirty-one more
-tools, which is not a "final batch". Three of the eleven now overlap something better above:
+- **The server-side setup store.** #3 and #12's capture both need it; `api/prisma/schema.prisma` has
+  four models and none holds tool state, so today's "saved setups" are `localStorage` — per browser,
+  wiped by a cache clear. §23 already names this the **#1 unbuilt shared piece** and calls it *"the
+  honest prerequisite for selling paid depth + record."* **Build it for #3.**
+- **A misconception library per topic** — the shared asset under #7, #8 and #9, and the thing that
+  makes all three machine-generable rather than hand-authored. This is the batch's real moat: it is
+  the same shape as `learning-clock`'s 11-locale idiom engine, and it is what the subscription sells.
+- **Names.** Sixteen of the nouns above are already another tool's identity in English, and `table`,
+  `frame`, `column`, `question`, `half`, `start`, `chain` and `work` collide in four or five of
+  DE/SV/DA/NO/NL as well. All titles here are working titles; expect every native panel to rename.
 
-| v4 slot | Recommendation |
-|---|---|
-| **A4 Carry Wheels** | **Supersede with #17 Cogs.** The carry mechanic overlaps `place-value-lab`'s bundling; Cogs takes the same virgin gearing verb somewhere nobody else has been. |
-| **A7 Hundred Field** | **Merge with #5 The Peephole** — paint-and-reflow and hide-and-deduce are two halves of one instrument, and the variable width belongs to both. |
-| **C4 Splitting Key** | **Keep, and hold the line against #13 All the Ways** — partition versus product. If only one is built, build **All the Ways**: it is curriculum-mandated in three markets, C4 is corpus-blocked behind `object-attributes.json`, and §23.7 already suggests C4 may just be a Sorting Hoops mode. |
-| A3 · A6 · B5 · B6 · C2 · C3 · C5 · D1 | Unaffected. **D1 Morning Board still builds last** — and #18 Week by Week is its natural sibling, since both need the server-side setup store. |
+# Recommended order
 
----
+**First four — prove the batch.** #1 THE LOCKSTEP (the dreaded topic, the only large virgin payload,
+the best in-band evidence) · #7 SOMEBODY ELSE'S WORK (the panel's highest score) · #2 THE FADE (the
+strongest evidence) · #13 THE STORY THAT MATCHES (#12's sibling, and #12 is what the operator kept).
 
-# Recommended build order
+**Then:** #8 puppet · #3 cold start *(build the store with it)* · #4 where does it go · #14 hidden
+change · #9 boundary · #15 that's not fair · #6 the hand · #10 two ways · #5 long path · #16 hour hand
+· #17 scatter · #18 slow reveal · #11 vanishing example · #19 shrinking table.
 
-**Wave A — prove the batch (4).** #1 Pyramid · #2 Quarters · #13 All the Ways · #6 Six Ways.
-Two DACH flagships, one Brazil/Nordic flagship, one daily driver. Every one of them prints, and print
-is what converts.
-
-**Wave B — the structure that only appears in bulk (4).** #3 Combs · #4 Ring · #5 Peephole · #14 Pins.
-The batch thesis, shipped as a set. #14 is the marketing asset.
-
-**Wave C — the moat (4).** #9 Two Orders · #10 Other Ten · #11 Two Numbers · #17 Cogs.
-The four a CCSS-first competitor structurally cannot ship.
-
-**Wave D — reasoning and data (4).** #7 Chute · #8 Staircase · #15 Every Pair · #16 One Stands For.
-
-**Wave E — the long tail and the platform bet (4).** #12 Cups · #19 Rattle · #20 Missing Question ·
-#18 Week by Week (last — it needs the server-side setup store, which is worth building for it).
-
-**Three heroes for marketing:** #17 Cogs (shareable to non-teachers), #6 Six Ways (used every
-morning — renewals are won on daily use, not on admiration), #1 Pyramid (culturally explosive in DACH).
-
----
-
-# Standing warnings for whoever designs these
-
-- **The noun census is nearly exhausted.** Of the twenty-one nouns in the original working titles,
-  **sixteen were already another tool's identity in English** and **seven collide in four or five of
-  DE/SV/DA/NO/NL as well**: *wall · box · field · ladder · line · grid · tree · key · stack · tank ·
-  wheel · face · stick · mirror · row · room*. Only *cog, spinner, net, circuit, mobile* survived a
-  first pass, and *mobile* and *net* each fail in at least one target language. **A colliding noun is
-  a collision even when the geometry differs.**
-- **Drop the "The X" pattern.** Definite articles are gendered in DE/FR/PT/IT/ES and suffixed in
-  DA/SV/NO; "The Key" becomes *Der Schlüssel / A Chave / De Sleutel* and loses all crispness. Every
-  native panel renames the tool anyway — plan for it.
-- **Every gate spec written above is a PROPOSAL, not a proof.** Four of v4's catalog gate specs did
-  not survive contact with the code. Re-derive the domain at build time, always.
-- **The honest test has still not been run.** §23 set it at wave-1 close: *does anyone pay for
-  DEPTH?* — the free→paid conversion on the shipped tools, and the fraction of paying sessions that
-  open a **second** repertoire entry. Waves 2 and 3 were built without it. Before committing to
-  twenty more repertoire-heavy instruments, run it: it is the single most important input to how many
-  of these should carry a 200-item library.
+**The two loudest, for marketing:** #8 the puppet getting it wrong, and #7 catching another child's
+mistake. The teacher panel was blunt that these are the only two that will make a class of six-year-
+olds shout at the screen — everything else is quieter than it looks on paper.

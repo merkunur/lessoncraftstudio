@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Baking Tray — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #46 — THE BAKING TRAY. A tray of tear-and-share buns baked
+       touching each other, so the seam between two buns is a gridline.
+       Turn it and the same buns read the other way; break it along one
+       seam and 7 rows of 6 become 5 rows of 6 and 2 rows of 6. The count
+       never changes. It loads NO ART and NO AUDIO: one scalloped path,
+       a field of circles and two numerals are the whole stage, so
+       nothing here can 404 into silence or into a blank frame. -->
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/baking-tray.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(BakingTray, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

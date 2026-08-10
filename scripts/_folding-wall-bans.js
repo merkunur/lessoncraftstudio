@@ -1,11 +1,11 @@
 /* =====================================================================
-   _times-shelf-bans.js — TOOL #47's content bans, their exemptions AND
+   _folding-wall-bans.js — TOOL #47's content bans, their exemptions AND
    their both-directions poison, in ONE file.
 
    ⚠ THE SAME RULE IN TWO FILES GETS HALF-FIXED. #44 shipped a French
    exemption into `apply-` while `verify-` kept its own copy and went on
-   condemning the same correct sentence. So `apply-times-shelf-locales`
-   and `verify-times-shelf` both import THIS, and the poison runs here.
+   condemning the same correct sentence. So `apply-folding-wall-locales`
+   and `verify-folding-wall` both import THIS, and the poison runs here.
 
    ⚠ EVERY BAN IS POISONED IN BOTH DIRECTIONS — a MUST-FIRE string and a
    MUST-PASS string, per locale. A ban tested only on English is tested
@@ -54,24 +54,29 @@ const OP_EXEMPT_KEYS = ['opGlyph'];
    FORMS with their inflections spelled out — never a stem, because a
    stem is how a ban becomes too wide. */
 const MOTION = {
-  en: ['fold', 'folds', 'folded', 'folding', 'crease', 'creases', 'mirror', 'mirrors',
-       'mirrored', 'twin', 'twins', 'hinge', 'hinged', 'flip', 'flips', 'reflect', 'reflects'],
-  de: ['falten', 'faltet', 'gefaltet', 'Falte', 'Falz', 'Knick', 'knicken',
-       'Spiegel', 'spiegeln', 'gespiegelt', 'Zwilling', 'Zwillinge', 'Scharnier', 'klappen'],
-  /* ⚠ `plier`/`pli` sit inside `multiplier`/`multiplication`. The
-     Unicode boundary is what keeps this safe — see the poison. */
-  fr: ['plier', 'plie', 'plié', 'pliage', 'pli', 'miroir', 'miroirs', 'refléter',
-       'jumeau', 'jumeaux', 'charnière', 'rabattre'],
-  it: ['piegare', 'piega', 'piegato', 'specchio', 'specchiare', 'gemello', 'gemelli', 'cerniera'],
-  es: ['plegar', 'pliegue', 'doblez', 'espejo', 'reflejar', 'gemelo', 'gemelos', 'bisagra'],
-  /* ⚠ pt has NO fold-word ban on purpose: `dobrar` is also "to double",
-     which is the x2 family — the tool's own content. */
-  pt: ['espelho', 'espelhar', 'gêmeo', 'gêmeos', 'gemeo', 'dobradiça'],
-  nl: ['vouwen', 'vouw', 'gevouwen', 'plooi', 'spiegel', 'spiegelen', 'tweeling', 'scharnier'],
-  sv: ['vika', 'viker', 'vikt', 'veck', 'spegel', 'spegla', 'tvilling', 'gångjärn'],
-  da: ['folde', 'folder', 'foldet', 'fold', 'spejl', 'spejle', 'tvilling', 'hængsel'],
-  no: ['brette', 'bretter', 'brettet', 'brett', 'speil', 'speile', 'tvilling', 'hengsel'],
-  fi: ['taittaa', 'taitto', 'taite', 'peili', 'peilata', 'kaksonen', 'sarana']
+  en: ['crease', 'creases', 'mirror', 'mirrors', 'mirrored', 'twin', 'twins', 'hinge', 'hinged'],
+  de: ['Falte', 'Falz', 'Knick', 'Spiegel', 'spiegeln', 'gespiegelt', 'Spiegelbild',
+       'Zwilling', 'Zwillinge', 'Scharnier'],
+  /* ⚠ the fold VERB is ours now, but `pli` and `pliage` as NOUNS are
+     folding-sheet's named part — and `multiplication` still contains
+     `pli`, which is what the Unicode boundary is for. */
+  fr: ['pli', 'pliage', 'miroir', 'miroirs', 'reflet', 'refléter', 'symétrie', 'symétrique',
+       'jumeau', 'jumeaux', 'jumelle', 'jumelles', 'charnière'],
+  /* ⚠ it drops `piega` entirely: the noun and the imperative of the verb
+     are the SAME WORD, so a whole-word ban would condemn `Piega la
+     parete` — the tool's own central button. The Italian panel measured
+     that it would have failed 8 of its 38 strings. */
+  it: ['specchio', 'specchiare', 'simmetria', 'gemello', 'gemelli', 'gemella', 'gemelle', 'cerniera'],
+  es: ['doblez', 'pliegue', 'espejo', 'reflejo', 'simetría', 'gemelo', 'gemelos',
+       'gemela', 'gemelas', 'bisagra'],
+  pt: ['vinco', 'espelho', 'espelhar', 'simetria', 'gêmeo', 'gêmeos', 'gêmea', 'gêmeas',
+       'gemeo', 'dobradiça'],
+  nl: ['plooi', 'spiegel', 'spiegelen', 'spiegelbeeld', 'spiegelsom', 'symmetrie',
+       'tweeling', 'scharnier'],
+  sv: ['veck', 'spegel', 'spegla', 'spegelbild', 'symmetri', 'tvilling', 'gångjärn'],
+  da: ['fals', 'spejl', 'spejle', 'spejlbillede', 'symmetri', 'tvilling', 'hængsel'],
+  no: ['fals', 'speil', 'speile', 'speilbilde', 'symmetri', 'tvilling', 'hengsel'],
+  fi: ['peili', 'peilata', 'peilikuva', 'symmetria', 'symmetrinen', 'kaksonen', 'sarana']
 };
 
 /* ---- the K-2 ceiling: no square-number NAME on the apparatus ------ */
@@ -126,18 +131,11 @@ const COMPETE = {
    the list, with their homographs stated below. */
 const MOTION_PREFIX = {
   de: ['Spiegel', 'Zwilling', 'Scharnier'],
-  nl: ['spiegel', 'tweeling', 'scharnier', 'vouw'],
+  nl: ['spiegel', 'tweeling', 'scharnier'],
   sv: ['spegel', 'tvilling', 'gångjärn'],
-  /* ⚠ `fold`/`brett` ARE on the prefix list despite being homographs,
-     and that is a stated over-breadth, not a hidden one: without them a
-     compound name (`Foldehylden`, `Brettehylla`) walks straight through,
-     and protecting a shipped sibling tool's identity outranks the loss
-     of da `folder` (a leaflet) and no `brett` (a tray). Both have easy
-     native replacements — `brochure`, `skuff` — and both are recorded
-     as MUST-FIRE poison so nobody later 'fixes' them. */
-  da: ['spejl', 'tvilling', 'hængsel', 'fold'],
-  no: ['speil', 'tvilling', 'hengsel', 'brett'],
-  fi: ['peili', 'kaksonen', 'sarana', 'taitto']
+  da: ['spejl', 'tvilling', 'hængsel'],
+  no: ['speil', 'tvilling', 'hengsel'],
+  fi: ['peili', 'kaksonen', 'sarana']
 };
 
 function word(s) {
@@ -229,7 +227,8 @@ function checkStrings(strings, loc) {
    correct regex. */
 const POISON = [
   /* MUST FIRE */
-  { loc: 'en', key: 'title', v: 'Fold the twin onto its partner', fire: true, why: 'the fence: fold + twin' },
+  { loc: 'en', key: 'title', v: 'Fold the twin onto its partner', fire: true, why: '⭐ FOLD is now ours; this must still fire, and only on TWIN' },
+  { loc: 'en', key: 'title', v: 'The Folding Wall', fire: false, why: '⭐⭐ the tool own-name must pass — it did not, before the correction' },
   { loc: 'en', key: 'restoreBtn', v: 'Put it all back — 21 left', fire: true, why: 'a count reached a label' },
   { loc: 'de', key: 'title', v: 'Das Spiegelregal', fire: true, why: 'the fence: Spiegel' },
   { loc: 'de', key: 'sheetTitle', v: 'Quadratzahlen', fire: true, why: 'the K-2 ceiling on the apparatus' },
@@ -243,7 +242,8 @@ const POISON = [
   { loc: 'no', key: 'sheetNote', v: 'Vent to timer', fire: false, why: '⭐ timer = HOURS in Norwegian, not a stopwatch' },
   { loc: 'it', key: 'sheetNote', v: 'La tavola è un quadrato', fire: false, why: '⭐ quadrato = the SHAPE, and every card is one' },
   { loc: 'es', key: 'sheetNote', v: 'Cada carta es un cuadrado', fire: false, why: '⭐ cuadrado = the SHAPE' },
-  { loc: 'fr', key: 'title', v: 'Plier la carte', fire: true, why: 'the fence: plier' },
+  { loc: 'fr', key: 'title', v: 'Plier la carte', fire: false, why: 'the fold verb belongs to this tool now' },
+  { loc: 'fr', key: 'title', v: 'Le miroir des tables', fire: true, why: 'a folding-sheet named part stays fenced' },
   { loc: 'nl', key: 'gateBody', v: 'Haal je tafeldiploma', fire: true, why: 'the named enemy' },
   { loc: 'sv', key: 'gateBody', v: 'Samla poäng varje dag', fire: true, why: 'competition language' },
   { loc: 'fi', key: 'title', v: 'Peilihylly', fire: true, why: 'the fence: peili' },
@@ -254,6 +254,10 @@ const POISON = [
   { loc: 'de', key: 'title', v: 'Das Spiegelregal', fire: true, why: '⭐ a COMPOUND on the fence root' },
   { loc: 'fi', key: 'title', v: 'Peilihylly', fire: true, why: '⭐ a COMPOUND on the fence root' },
   { loc: 'sv', key: 'title', v: 'Spegelhyllan', fire: true, why: '⭐ a COMPOUND on the fence root' },
+  { loc: 'sv', key: 'title', v: 'Vikväggen', fire: false, why: '⭐ the fold compound is this tool own name' },
+  { loc: 'da', key: 'title', v: 'Foldevæggen', fire: false, why: '⭐ the fold compound is this tool own name' },
+  { loc: 'no', key: 'title', v: 'Brettemuren', fire: false, why: '⭐ the fold compound is this tool own name' },
+  { loc: 'fi', key: 'title', v: 'Kertotaulusermi', fire: false, why: '⭐ this tool own name' },
   { loc: 'no', key: 'title', v: 'Speilhylla', fire: true, why: '⭐ a COMPOUND on the fence root' },
   { loc: 'da', key: 'title', v: 'Spejlhylden', fire: true, why: '⭐ a COMPOUND on the fence root' },
   { loc: 'nl', key: 'title', v: 'De Spiegelplank', fire: true, why: '⭐ a COMPOUND on the fence root' },
@@ -271,13 +275,24 @@ const POISON = [
   /* ⭐ AND THE THREE THE PREFIX BAN MUST NOT CONDEMN — the reason
      `vika`, `fold` and `brett` are whole-word only. */
   { loc: 'sv', key: 'sheetNote', v: 'Läraren eller en vikarie kan använda hyllan.', fire: false, why: '⭐ vikarie = a substitute teacher, not "fold"' },
-  /* ⚠ RE-SORTED BY WHAT THE BAN MUST DO. Both of these are correct
-     native prose AND homographs of the fence word, and the ban cannot
-     tell them apart. The fence wins and the over-breadth is stated:
-     write `brochure` / `skuff` instead. Sorting them as must-pass would
-     have forced a loosened regex, which is how the fence dies. */
-  { loc: 'da', key: 'sheetNote', v: 'Der ligger en folder ved siden af.', fire: true, why: '⚠ folder is a homograph — the fence wins, use `brochure`' },
-  { loc: 'no', key: 'sheetNote', v: 'Som et brettspill på bordet.', fire: true, why: '⚠ brett is a homograph — the fence wins, use `spill`' },
+  /* ⭐⭐ RE-SORTED A SECOND TIME, AND THIS TIME BECAUSE THE DESIGN
+     CHANGED UNDER THEM. These two were MUST-FIRE only to justify a
+     prefix over-breadth on the fold root — a compromise that existed
+     because the tool was forbidden to fold. The tool folds now, the
+     over-breadth is gone with its reason, and both are ordinary correct
+     native prose again. ⚠ The Danish panel caught this by RUNNING the
+     file: it measured 39 hits across 19 of its 38 keys, every one on
+     the fold family, and refused to ship against it. A poison row can
+     outlive the rule it was written for. */
+  { loc: 'da', key: 'sheetNote', v: 'Der ligger en folder ved siden af.', fire: false, why: '⭐ folder = a leaflet, and the fold root is no longer banned' },
+  { loc: 'no', key: 'sheetNote', v: 'Som et brettspill på bordet.', fire: false, why: '⭐ brettspill = a board game, and the fold root is no longer banned' },
+  { loc: 'da', key: 'famAway', v: 'Fold {k}-rækken og {k}-kolonnen væk', fire: false, why: '⭐ the fold verb is THIS TOOL OWN and must pass' },
+  { loc: 'no', key: 'famAway', v: 'Brett bort rad {k} og kolonne {k}', fire: false, why: '⭐ the fold verb belongs to this tool' },
+  { loc: 'fi', key: 'famAway', v: 'Taita pois rivi {k} ja sarake {k}', fire: false, why: '⭐ the fold verb belongs to this tool' },
+  { loc: 'it', key: 'stackBtn', v: 'Piega la parete lungo la diagonale', fire: false, why: '⭐ the noun and the imperative are the SAME WORD in Italian' },
+  { loc: 'sv', key: 'famAway', v: 'Vik ihop rad {k} och kolumn {k}', fire: false, why: '⭐ the fold verb belongs to this tool' },
+  { loc: 'da', key: 'sheetNote', v: 'Se spejlet på væggen', fire: true, why: 'a folding-sheet named part stays fenced' },
+  { loc: 'no', key: 'sheetNote', v: 'To tvillinger', fire: true, why: 'the doctrinal ban — the cards are not twins' },
   { loc: 'opGlyph-exempt', key: 'opGlyph', v: '·', fire: false, why: 'the one operator exemption, print-only' }
 ];
 

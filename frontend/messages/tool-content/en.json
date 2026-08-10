@@ -1280,9 +1280,18 @@
     "metaTitle": "The Baking Tray — Breaking a Hard Times Table Fact in Two",
     "metaDescription": "A free whole-class tray of buns for multiplication: break seven rows of six into five rows and two rows, two facts the class already knows. No total, no timer, no score. Ages 7-9."
   },
-  "times-shelf": {
-    "slug": "times-shelf-multiplication-square",
-    "name": "The Times Shelf",
+  "labels": {
+    "about": "About this tool",
+    "howToUse": "How to use it in class",
+    "classroomIdeas": "Classroom ideas",
+    "relatedActivities": "Activities that use this tool",
+    "otherLanguages": "Available in other languages",
+    "openFullScreen": "Open full screen",
+    "toolsBreadcrumb": "Tools"
+  },
+  "folding-wall": {
+    "slug": "folding-wall-multiplication-square",
+    "name": "The Folding Wall",
     "tagline": "A hundred cards on a shelf. Put away the tables the class owned before multiplication was taught, and twenty-one are left to learn.",
     "about": [
       "The Times Shelf is the whole multiplication square, standing on the classroom screen as a hundred cream cards in a deep teal shelf. A card shows only its product — 21, never 7 and 3 — and the two factors live on the edges, the row numerals down the left and the column numerals across the top. There is no multiplication sign anywhere on the apparatus and not one word of text. Press a card and every other card holding that same number lights up, along with its own two edge numerals.",
@@ -1304,14 +1313,5 @@
     ],
     "metaTitle": "The Times Shelf — the multiplication square, down to 21",
     "metaDescription": "A hundred cards for the whiteboard. The class puts away the tables it already owned — 1, 2, 5, 10 — and finds only twenty-one facts left to learn. Free."
-  },
-  "labels": {
-    "about": "About this tool",
-    "howToUse": "How to use it in class",
-    "classroomIdeas": "Classroom ideas",
-    "relatedActivities": "Activities that use this tool",
-    "otherLanguages": "Available in other languages",
-    "openFullScreen": "Open full screen",
-    "toolsBreadcrumb": "Tools"
   }
 }

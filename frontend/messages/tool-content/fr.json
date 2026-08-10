@@ -1273,9 +1273,18 @@
     "metaTitle": "La plaque de brioches : casser une table difficile en deux",
     "metaDescription": "Outil gratuit pour la classe : la plaque de brioches casse 7 rangées de 6 en 5 rangées de 6 et 2 rangées de 6. Aucun total affiché. CE1-CE2, sans compte."
   },
-  "times-shelf": {
+  "labels": {
+    "about": "À propos de cet outil",
+    "howToUse": "Comment l'utiliser en classe",
+    "classroomIdeas": "Idées pour la classe",
+    "relatedActivities": "Activités qui utilisent cet outil",
+    "otherLanguages": "Disponible dans d'autres langues",
+    "openFullScreen": "Ouvrir en plein écran",
+    "toolsBreadcrumb": "Outils"
+  },
+  "folding-wall": {
     "slug": "tables-de-multiplication-table-de-pythagore-ce2",
-    "name": "Le casier des tables",
+    "name": "Le paravent des tables",
     "tagline": "Cent cartes à projeter ; une fois rangé ce que la classe connaît déjà, il en reste vingt et une.",
     "about": [
       "Cent cartes dans un casier. Chaque carte ne montre que son résultat, jamais l’opération : les deux facteurs sont sur les bords — les lignes à gauche, les colonnes en haut — et c’est à l’enfant de les lire. On range d’abord la ligne 1 et la colonne 1, puis celles du 2, du 5 et du 10 : quatre familles que la classe possédait avant même qu’on lui parle de multiplication. Le 1 ne change rien, le 2 ce sont les doubles qui viennent de l’addition, le 5 se compte de 5 en 5 comme sur l’horloge, le 10 c’est la numération. À chaque fois le casier se referme, les cartes qui restent grandissent, et ce qui reste est un carré que la classe lit à l’œil : cent, puis quatre-vingt-un, soixante-quatre, quarante-neuf, trente-six.",
@@ -1297,14 +1306,5 @@
     ],
     "metaTitle": "Table de Pythagore interactive — tables de multiplication CE2",
     "metaDescription": "Cent cartes à projeter. La classe range les tables qu’elle connaît déjà — 1, 2, 5, 10 — et découvre qu’il ne reste que vingt et un résultats à apprendre."
-  },
-  "labels": {
-    "about": "À propos de cet outil",
-    "howToUse": "Comment l'utiliser en classe",
-    "classroomIdeas": "Idées pour la classe",
-    "relatedActivities": "Activités qui utilisent cet outil",
-    "otherLanguages": "Disponible dans d'autres langues",
-    "openFullScreen": "Ouvrir en plein écran",
-    "toolsBreadcrumb": "Outils"
   }
 }

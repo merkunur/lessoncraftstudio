@@ -146,7 +146,7 @@ const SEEDS = {
      ⚠ Driven through REAL buttons, by index — the pointer path resolves
      from clientX/clientY and reaching a control by its English text is
      how #44 matched "Another BLUEPRINT" with a /print/i probe. */
-  'times-shelf': [
+  'folding-wall': [
     { sel: '.tsh-b-fam', nth: 0, wait: 680 },
     { sel: '.tsh-b-fam', nth: 3, wait: 680 },
     { sel: '.tsh-b-fam', nth: 1, wait: 680 },

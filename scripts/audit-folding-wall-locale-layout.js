@@ -1,5 +1,5 @@
 /* =====================================================================
-   audit-times-shelf-locale-layout.js — TOOL #47, 11 locales x 6 widths.
+   audit-folding-wall-locale-layout.js — TOOL #47, 11 locales x 6 widths.
 
    The stage renders ZERO words, so the only locale-sensitive surface is
    the shell chrome and the ledge. That is precisely why this gate is
@@ -27,7 +27,7 @@ const CASES = [
 const srv = http.createServer((rq, rs) => {
   let f = rq.url.split('?')[0].replace('/mini-tools/', '');
   while (f.charAt(0) === '/') f = f.slice(1);
-  if (!f) f = 'times-shelf.html';
+  if (!f) f = 'folding-wall.html';
   const fp = path.join(ROOT, f);
   if (!fs.existsSync(fp)) { rs.writeHead(404); rs.end('x'); return; }
   const t = f.endsWith('.js') ? 'application/javascript' : f.endsWith('.css') ? 'text/css' : 'text/html';
@@ -49,7 +49,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       const errs = [];
       p.on('pageerror', (e) => errs.push(String(e)));
       await p.setViewport({ width: C.w, height: C.h, deviceScaleFactor: 1 });
-      await p.goto(`http://127.0.0.1:${PORT}/mini-tools/times-shelf.html?lang=${loc}`, { waitUntil: 'load' });
+      await p.goto(`http://127.0.0.1:${PORT}/mini-tools/folding-wall.html?lang=${loc}`, { waitUntil: 'load' });
       await p.waitForSelector('.tsh-wrap', { timeout: 12000 });
       await wait(220);
 
@@ -109,6 +109,6 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   srv.close();
   await b.close();
   console.log(`\nlowest rendered edge across all 66 cells: ${worstBottom.toFixed(0)}px (${worstTag})`);
-  console.log(`audit-times-shelf-locale-layout: ${PASS} passed, ${FAIL} failed`);
+  console.log(`audit-folding-wall-locale-layout: ${PASS} passed, ${FAIL} failed`);
   process.exit(FAIL ? 1 : 0);
 })();

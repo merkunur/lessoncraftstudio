@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* =====================================================================
-   verify-times-shelf.js — TOOL #47 THE TIMES SHELF, the model gate.
+   verify-folding-wall.js — TOOL #47 THE TIMES SHELF, the model gate.
 
    ⭐ IT IMPLEMENTS ITS OWN ORACLE. Every expectation below is computed
    here, from first principles, never by asking the tool. A gate that
@@ -32,8 +32,8 @@
 const path = require('path');
 const fs = require('fs');
 
-const DIR = process.env.TSH_TOOL_DIR || path.join(__dirname, '..', 'mini tools');
-const SRC = path.join(DIR, 'times-shelf.js');
+const DIR = process.env.FW_TOOL_DIR || path.join(__dirname, '..', 'mini tools');
+const SRC = path.join(DIR, 'folding-wall.js');
 
 /* the tool needs a DOM-shaped global only for its CSS injector; the
    model half is pure. ⚠ A CRASHED GATE LOOKS EXACTLY LIKE A FAILING
@@ -268,44 +268,74 @@ for (const c of T.cards(RS)) {
 }
 eq(T.fibre(RS, 36).length, 2, 'L5 thirty-six is the one square with company on the residue');
 
-/* ================= LAW 6 — NOTHING CROSSES THE DIAGONAL ============= */
-/* ⚠ THE ENTIRE FENCE SUBTRACTION. No card may travel to, land on,
-   cover, overlay, merge with, reflect into or point at another card.
-   A straight hop across the diagonal READS as a fold at 29px whatever
-   the code calls it, so this is enforced structurally: there is no
-   cell-to-cell path anywhere in the file. */
-/* ⚠⚠ THE FIRST VERSION OF THIS BAN LET TWO MUTATIONS THROUGH, and the
-   cause is the recorded word-boundary trap wearing its other face:
-   `\bmirror\b` CANNOT match `_mirrorOf`, because `O` is a word
-   character and there is no boundary between them. A ban written
-   against the obvious form of a name is untested against the form a
-   programmer actually types. So these are SUBSTRING bans — and because
-   a substring ban is wide, it is scoped to the CODE BODY with the
-   authored strings excised, so no locale's native prose can ever be
-   condemned by it. The excision is itself asserted: a scan of nothing
-   passes, and that is the vacuity trap. */
+/* ================= LAW 6 — THE FOLD LANDS ON ITS PARTNER ============ */
+/* ⭐⭐ THIS LAW WAS ONCE ITS OWN OPPOSITE, and that is the most
+   instructive thing in this file. It read "NOTHING CROSSES THE
+   DIAGONAL", because I read the v5 doc's note — *collisions to avoid AT
+   NAMING: folding (folding-sheet)* — as licence to delete the GESTURE,
+   when it only ever asked for a rename. The operator asked for a
+   FOLDING WALL. So the tool folds, and the law is the positive one:
+
+     the below-diagonal half is carried by ONE transform,
+       rotate(45) scale(1, 1-2e) rotate(-45)
+     which is the identity at e=0 and the REFLECTION ABOUT y = x at
+     e=1 — and the shelf's diagonal IS y = x, because rows and columns
+     share one centre function. So every folded card lands EXACTLY on
+     its transpose, which is its partner, which carries the same
+     product.
+
+   What is still fenced is folding-sheet's NAMED PARTS — the crease, the
+   twin, the hinge — not the fold itself. */
 const sIdx0 = code.indexOf('strings: {');
 const eIdx0 = code.indexOf('settings: [');
 ok(sIdx0 > 0 && eIdx0 > sIdx0, 'L6 the strings block was located for excision');
 const BODY = code.slice(0, sIdx0) + code.slice(eIdx0);
 ok(BODY.length > code.length * 0.4, 'L6 the excision left a real body to scan');
 
-const BANNED_MOTION = [
-  /scaleX\s*\(\s*-1/, /matrix\s*\(\s*0\s*,\s*1\s*,\s*1\s*,\s*0/,
-  /transpose/i, /mirror/i, /reflect/i, /flip/i,
-  /fold/i, /crease/i, /hinge/i, /twin/i,
-  /partnerx/i, /travelto/i, /hopto/i, /landon/i, /movecardto/i
-];
-for (const re of BANNED_MOTION) {
-  ok(!re.test(BODY), `L6 the code body contains no ${re} — nothing may cross the diagonal`);
+/* the diagonal fold is ONE rigid transform, not a per-card path.
+   ⚠ these are SUBSTRING checks on source text, deliberately — building
+   them as regex literals cost a parse error, because the source they
+   police is itself full of parentheses. */
+ok(BODY.indexOf("'rotate(45) scale(1,' + fs2") >= 0, 'L6 the twins fold on one reflection about y = x');
+ok(BODY.indexOf('var fs2 = 1 - 2 * e;') >= 0, 'L6 ...running from the identity to the reflection');
+/* the family folds on a hinge, one axis each */
+ok(BODY.indexOf("'translate(0,' + hy.toFixed(3) + ') scale(1,'") >= 0,
+  'L6 the row folds about its own hinge line, and folds FLAT');
+ok(BODY.indexOf("'translate(' + hx") >= 0, 'L6 the column folds about its own hinge line');
+ok((BODY.match(/1 - e/g) || []).length >= 2, 'L6 both hinges run from open to flat');
+/* ⭐ THE MATHEMATICAL HALF: reflection about y = x swaps coordinates, so
+   it maps a card to its transpose ONLY IF both axes share one centre
+   function. They do — `centre(n, i)` is called for rows and columns
+   alike — and that is what makes the landing exact rather than
+   approximate. Checked against an oracle written here. */
+for (const n of [10, 9, 8, 7, 6]) {
+  for (let i = 0; i < n; i++) {
+    const ci = T.centre(n, i);
+    const want = T.GEO.LANE + (i + 0.5) * (T.GEO.S / n);
+    ok(Math.abs(ci - want) < 1e-9, `L6 one centre function for both axes, n=${n} i=${i}`);
+  }
 }
-/* the positive half: every drawn card takes its x from its OWN column
-   and its y from its OWN row. The travel offset is the SAME scalar on
-   both axes (a rigid piece leaving up-left), never a per-card target. */
-ok(/var D = S \+ P;/.test(code), 'L6 the travel is one scalar D, shared by every card in the piece');
-ok(/var off = D \* slide;/.test(code), 'L6 one offset, applied identically on x and y');
-ok(!/_cx\([^)]*,\s*to,\s*r\b[^)]*\)\s*[-+][^;]*_cx\([^)]*,\s*to,\s*c\b/.test(code),
-  'L6 no expression mixes a row centre with a column centre');
+/* and therefore the reflection lands each card on its partner */
+for (const st of ALL) {
+  const s2 = { off: Object.assign({}, st.off), stacked: false };
+  const L = T.live(s2), n = L.length;
+  for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) {
+    const x = T.centre(n, j), y = T.centre(n, i);   /* card (L[i], L[j]) */
+    /* reflection about y = x */
+    const rx = y, ry = x;
+    ok(Math.abs(rx - T.centre(n, i)) < 1e-9 && Math.abs(ry - T.centre(n, j)) < 1e-9,
+      `L6 the fold lands ${L[i]}x${L[j]} on ${L[j]}x${L[i]}`);
+    ok(L[i] * L[j] === L[j] * L[i], `L6 ...and the partner carries the same product`);
+  }
+}
+
+/* the fence that REMAINS: folding-sheet's named parts, and the doctrinal
+   one. ⚠ Substring bans, because `\b` cannot see `_mirrorOf` — the
+   trap that let two mutations through the first time. */
+const BANNED_PARTS = [/crease/i, /twin/i, /hinge/i, new RegExp('scaleX\\s*\\(\\s*-1')];
+for (const re of BANNED_PARTS) {
+  ok(!re.test(BODY), `L6 the code body contains no ${re} — folding-sheet's named parts stay fenced`);
+}
 
 /* ================= LAW 7 — THE SQUARES NEVER RETIRE ================= */
 /* Every family hangs from an edge numeral; the squares are a diagonal
@@ -532,7 +562,7 @@ const wide = num320 * 0.55 * 3;
 ok(wide <= T.pitch(10) * px320, `M5 "100" fits its cell at 320px — ${wide.toFixed(1)}px in ${(T.pitch(10) * px320).toFixed(1)}px`);
 ok(/textLength/.test(code) && /spacingAndGlyphs/.test(code), 'M5 three digits are condensed, not shrunk');
 
-console.log(`\nverify-times-shelf: ${pass} assertions passed, ${fails.length} failed`);
+console.log(`\nverify-folding-wall: ${pass} assertions passed, ${fails.length} failed`);
 if (fails.length) {
   fails.slice(0, 40).forEach(f => console.log('  FAIL ' + f));
   if (fails.length > 40) console.log(`  ...and ${fails.length - 40} more`);

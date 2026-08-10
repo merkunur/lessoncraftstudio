@@ -1274,9 +1274,18 @@
     "metaTitle": "Gangestykker fra kjente fakta – 2.-3. trinn | Bolleplata",
     "metaDescription": "Gratis verktøy for tavla: bollene er stekt sammen, klassen bestemmer hvor plata skal brytes, og 7 rader med 6 kommer ut av 5 rader med 6 og 2 rader med 6."
   },
-  "times-shelf": {
+  "labels": {
+    "about": "Om dette verktøyet",
+    "howToUse": "Slik bruker du det i klassen",
+    "classroomIdeas": "Ideer til klasserommet",
+    "relatedActivities": "Aktiviteter som bruker dette verktøyet",
+    "otherLanguages": "Tilgjengelig på andre språk",
+    "openFullScreen": "Åpne fullskjerm",
+    "toolsBreadcrumb": "Verktøy"
+  },
+  "folding-wall": {
     "slug": "gangetabellen-multiplikasjon-3-4-trinn",
-    "name": "Tabellreolen",
+    "name": "Brettemuren",
     "tagline": "Hundre kort står framme i reolen – og når klassen har lagt bort det den kunne fra før, og alt som allerede står på den andre siden av diagonalen, er det bare 21 kort igjen å lære.",
     "about": [
       "Tabellreolen er hele den lille gangetabellen satt opp som hundre kort i en dyp reol. På hvert kort står bare svaret: 21, ikke 7 og 3. De to faktorene står langs kanten – radene nedover til venstre, kolonnene bortover øverst – så barnet må lese seg fram til hvor tallet hører hjemme. Det står ikke ett eneste ord på selve reolen, og ikke noe gangetegn heller. Trykker du på et kort, lyser hvert kort som holder det samme tallet, sammen med de to kanttallene til kortet du trykket på. Trykk på 12, og fire kort svarer. Trykk på 36, og tre. Trykk på 49, og bare ett.",
@@ -1298,14 +1307,5 @@
     ],
     "metaTitle": "Gangetabellen – hundre kort blir 21 | Tabellreolen",
     "metaDescription": "Gratis verktøy for tavla: hele gangetabellen som hundre kort. Klassen legger bort 1-, 2-, 5- og 10-gangen, og til slutt står bare 21 kort igjen. 3.–4. trinn."
-  },
-  "labels": {
-    "about": "Om dette verktøyet",
-    "howToUse": "Slik bruker du det i klassen",
-    "classroomIdeas": "Ideer til klasserommet",
-    "relatedActivities": "Aktiviteter som bruker dette verktøyet",
-    "otherLanguages": "Tilgjengelig på andre språk",
-    "openFullScreen": "Åpne fullskjerm",
-    "toolsBreadcrumb": "Verktøy"
   }
 }

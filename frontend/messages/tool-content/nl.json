@@ -1275,9 +1275,18 @@
     "metaTitle": "Het breekbrood — een moeilijke tafel breken, groep 4/5",
     "metaDescription": "Breek zeven rijen van zes in vijf rijen van zes en twee rijen van zes — dezelfde broodjes, twee tafels die de klas al kent. Gratis digibordtool, groep 4/5."
   },
-  "times-shelf": {
-    "slug": "tafelkast-tafels-leren-automatiseren-groep-4-5",
-    "name": "De Tafelkast",
+  "labels": {
+    "about": "Over dit hulpmiddel",
+    "howToUse": "Zo gebruik je het in de klas",
+    "classroomIdeas": "Ideeën voor in de klas",
+    "relatedActivities": "Activiteiten die dit hulpmiddel gebruiken",
+    "otherLanguages": "Beschikbaar in andere talen",
+    "openFullScreen": "Volledig scherm openen",
+    "toolsBreadcrumb": "Hulpmiddelen"
+  },
+  "folding-wall": {
+    "slug": "tafelluik-tafels-leren-automatiseren-groep-4-5",
+    "name": "Het Tafelluik",
     "tagline": "Honderd kaarten in de kast: de klas zet de steunsommen weg die ze al kent, en houdt 21 keersommen over — precies de lijst die er nog geleerd moet worden.",
     "about": [
       "In de Tafelkast staan honderd kaarten, in tien rijen en tien kolommen. Op een kaart staat alleen de uitkomst — 21, niet 7 en 3; de twee getallen waar die uitkomst bij hoort, staan langs de rand. Vier knoppen zetten telkens één rij én de bijbehorende kolom weg: de 1, de 2, de 5 en de 10. Na elke knop schuift de kast dicht en worden de overgebleven kaarten groter — van honderd naar 81, naar 64, naar 49, naar 36, achter in de klas nog leesbaar. Een vijfde knop zet daarna elke kaart onder de diagonaal weg, omdat datzelfde getal aan de andere kant al staat; op de kaart die blijft, liggen dan twee kaarten. Er blijven er 21 over.",
@@ -1299,14 +1308,5 @@
     ],
     "metaTitle": "De Tafelkast — welke tafelsommen moet je écht leren? groep 4-5",
     "metaDescription": "Zet op het digibord de steunsommen 1, 2, 5 en 10 weg en leg de omkeersommen op elkaar: van 100 kaarten blijven er 21 over — de tafellijst die de klas zelf maakt."
-  },
-  "labels": {
-    "about": "Over dit hulpmiddel",
-    "howToUse": "Zo gebruik je het in de klas",
-    "classroomIdeas": "Ideeën voor in de klas",
-    "relatedActivities": "Activiteiten die dit hulpmiddel gebruiken",
-    "otherLanguages": "Beschikbaar in andere talen",
-    "openFullScreen": "Volledig scherm openen",
-    "toolsBreadcrumb": "Hulpmiddelen"
   }
 }

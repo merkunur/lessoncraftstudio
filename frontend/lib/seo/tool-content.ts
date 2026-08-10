@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet', 'number-sieve', 'arrow-strip', 'draw-bag', 'lids', 'unit-handle', 'unroll-tape', 'comparison-planks', 'cold-line', 'build-plan', 'exchange-machine', 'baking-tray', 'times-shelf'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet', 'number-sieve', 'arrow-strip', 'draw-bag', 'lids', 'unit-handle', 'unroll-tape', 'comparison-planks', 'cold-line', 'build-plan', 'exchange-machine', 'baking-tray', 'folding-wall'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -71,7 +71,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'build-plan': '/mini-tools/build-plan.html',
   'exchange-machine': '/mini-tools/exchange-machine.html',
   'baking-tray': '/mini-tools/baking-tray.html',
-  'times-shelf': '/mini-tools/times-shelf.html',
+  'folding-wall': '/mini-tools/folding-wall.html',
 };
 
 /**
@@ -133,7 +133,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'build-plan': 'build-plan',
   'exchange-machine': 'exchange-machine',
   'baking-tray': 'baking-tray',
-  'times-shelf': 'times-shelf',
+  'folding-wall': 'folding-wall',
 };
 
 /**
@@ -267,7 +267,7 @@ interface ToolContentFile {
   'build-plan'?: ToolEntry;
   'exchange-machine'?: ToolEntry;
   'baking-tray'?: ToolEntry;
-  'times-shelf'?: ToolEntry;
+  'folding-wall'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

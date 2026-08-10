@@ -1273,9 +1273,18 @@
     "metaTitle": "La teglia dei panini — spezzare una tabellina difficile",
     "metaDescription": "Una teglia di panini per la LIM: 7 righe da 6 si spezza in 5 righe da 6 e 2 righe da 6, due tabelline che la classe sa già. Senza timer né punteggio, gratuita."
   },
-  "times-shelf": {
-    "slug": "scaffale-delle-tabelline-tavola-pitagorica",
-    "name": "Lo scaffale delle tabelline",
+  "labels": {
+    "about": "Informazioni su questo strumento",
+    "howToUse": "Come usarlo in classe",
+    "classroomIdeas": "Idee per la classe",
+    "relatedActivities": "Attività che usano questo strumento",
+    "otherLanguages": "Disponibile in altre lingue",
+    "openFullScreen": "Apri a schermo intero",
+    "toolsBreadcrumb": "Strumenti"
+  },
+  "folding-wall": {
+    "slug": "parete-delle-tabelline-tavola-pitagorica",
+    "name": "La parete delle tabelline",
     "tagline": "Cento carte alla lavagna: la classe mette da parte quello che sa già e scopre che le moltiplicazioni da imparare davvero sono ventuno.",
     "about": [
       "Lo scaffale delle tabelline è una tavola pitagorica per la LIM: cento carte color panna dentro uno scaffale verde. Ogni carta mostra soltanto il suo risultato — il 21, il 48, il 63 — mentre i due fattori restano sui bordi, i numeri delle righe a sinistra e quelli delle colonne in alto. Sull’oggetto non c’è nessun segno di moltiplicazione e non c’è una sola parola scritta: si tocca una carta e si accendono tutte quelle che tengono lo stesso numero, insieme ai due numeri di bordo che le appartengono. Tocca il 12 e rispondono in quattro; tocca il 36 e rispondono in tre; tocca il 49 e risponde da solo.",
@@ -1297,14 +1306,5 @@
     ],
     "metaTitle": "Tavola pitagorica: 21 moltiplicazioni da imparare",
     "metaDescription": "Cento carte alla lavagna: la classe mette da parte l’1, il 2, il 5, il 10 e le carte sotto la diagonale. Restano 21 moltiplicazioni. Strumento gratuito per la LIM."
-  },
-  "labels": {
-    "about": "Informazioni su questo strumento",
-    "howToUse": "Come usarlo in classe",
-    "classroomIdeas": "Idee per la classe",
-    "relatedActivities": "Attività che usano questo strumento",
-    "otherLanguages": "Disponibile in altre lingue",
-    "openFullScreen": "Apri a schermo intero",
-    "toolsBreadcrumb": "Strumenti"
   }
 }

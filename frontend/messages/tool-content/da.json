@@ -1274,9 +1274,18 @@
     "metaTitle": "Bagepladen — svære gangestykker på tavlen | gratis værktøj",
     "metaDescription": "En plade boller bagt sammen på tavlen: klassen knækker den ét sted, siger begge stykker højt og finder 7 · 6 i 5 · 6 og 2 · 6. Antallet ændrer sig aldrig."
   },
-  "times-shelf": {
-    "slug": "tabelreolen-den-lille-tabel",
-    "name": "Tabelreolen",
+  "labels": {
+    "about": "Om dette redskab",
+    "howToUse": "Sådan bruger du det i klassen",
+    "classroomIdeas": "Idéer til klassen",
+    "relatedActivities": "Aktiviteter, der bruger dette redskab",
+    "otherLanguages": "Findes på andre sprog",
+    "openFullScreen": "Åbn fuld skærm",
+    "toolsBreadcrumb": "Redskaber"
+  },
+  "folding-wall": {
+    "slug": "foldevaeggen-den-lille-tabel",
+    "name": "Foldevæggen",
     "tagline": "Hundrede fliser i en reol: klassen lægger det væk, den kan i forvejen, og opdager, at den lille tabel i virkeligheden er 21 stykker at lære — ikke hundrede.",
     "about": [
       "Tabelreolen er hele den lille tabel sat op på klassens skærm: hundrede cremefarvede fliser i en dyb reol. En flise viser kun sit tal — der står 21, ikke 7 og 3 — og de to tal, den kommer af, står ude i kanten, øverst og til venstre. Der er ikke ét gangetegn og ikke ét eneste ord på selve apparatet. Fire knapper lægger 1, 2, 5 og 10 væk, rækken og kolonnen på én gang, og bagefter lukker reolen sig sammen, så de fliser, der er tilbage, bliver større. Hundrede bliver til 81, til 64, til 49 og til 36 — og det, klassen ser blive mindre, er ikke en score, det er arbejdet, der er tilbage.",
@@ -1298,14 +1307,5 @@
     ],
     "metaTitle": "Tabelreolen — den lille tabel på tavlen | gratis værktøj",
     "metaDescription": "Hundrede fliser på klassens skærm. Læg 1, 2, 5 og 10 væk, og se den lille tabel skrumpe til 21 gangestykker, klassen selv skal lære. Uden login, på alle enheder."
-  },
-  "labels": {
-    "about": "Om dette redskab",
-    "howToUse": "Sådan bruger du det i klassen",
-    "classroomIdeas": "Idéer til klassen",
-    "relatedActivities": "Aktiviteter, der bruger dette redskab",
-    "otherLanguages": "Findes på andre sprog",
-    "openFullScreen": "Åbn fuld skærm",
-    "toolsBreadcrumb": "Redskaber"
   }
 }

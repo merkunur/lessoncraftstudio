@@ -1274,9 +1274,18 @@
     "metaTitle": "Bullplåten – bryt isär en plåt bullar, multiplikation åk 2-3",
     "metaDescription": "Gratis verktyg för hela klassen: en plåt bullar som sitter ihop. Bryt isär 7 rader i 5 och 2, skjut ihop igen — lika många bullar hela tiden. Åk 2-3, Lgr22."
   },
-  "times-shelf": {
-    "slug": "multiplikationstabellen-tabellhyllan",
-    "name": "Tabellhyllan",
+  "labels": {
+    "about": "Om det här verktyget",
+    "howToUse": "Så använder du det i klassen",
+    "classroomIdeas": "Idéer för klassrummet",
+    "relatedActivities": "Aktiviteter som använder det här verktyget",
+    "otherLanguages": "Finns på andra språk",
+    "openFullScreen": "Öppna i helskärm",
+    "toolsBreadcrumb": "Verktyg"
+  },
+  "folding-wall": {
+    "slug": "multiplikationstabellen-vikvaggen",
+    "name": "Vikväggen",
     "tagline": "Hundra kort i en hylla. Lägg undan de tabeller klassen ägde redan innan multiplikationen började — kvar står 21 uppgifter att faktiskt lära sig.",
     "about": [
       "Hundra gräddvita kort står i en djupgrön hylla, tio rader och tio kolumner. Ett kort visar bara sitt eget tal — 21, aldrig 7 gånger 3. Faktorerna står på kanterna, radernas tal till vänster och kolumnernas överst, och på själva hyllan finns inte ett enda ord och inte ett enda räknetecken. Fyra knappar — 1, 2, 5 och 10 — lägger undan varsitt kors: raden och kolumnen samtidigt. Hyllan sluter sig, korten som är kvar växer, och hundra blir 81, 64, 49 och till slut 36. Knapparna går åt båda hållen, så allt går att lägga tillbaka.",
@@ -1298,14 +1307,5 @@
     ],
     "metaTitle": "Tabellhyllan – multiplikationstabellen som krymper, åk 2-3",
     "metaDescription": "Gratis verktyg för hela klassen: hundra kort i en hylla. Lägg undan 1, 2, 5 och 10 och korten under diagonalen — kvar står 21 uppgifter att lära sig. Åk 2-3, Lgr22."
-  },
-  "labels": {
-    "about": "Om det här verktyget",
-    "howToUse": "Så använder du det i klassen",
-    "classroomIdeas": "Idéer för klassrummet",
-    "relatedActivities": "Aktiviteter som använder det här verktyget",
-    "otherLanguages": "Finns på andra språk",
-    "openFullScreen": "Öppna i helskärm",
-    "toolsBreadcrumb": "Verktyg"
   }
 }

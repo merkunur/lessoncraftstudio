@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /* =====================================================================
-   apply-times-shelf-locales.js — writes the eleven native panels' work
-   into `mini tools/times-shelf.js`, and REFUSES to write anything that
+   apply-folding-wall-locales.js — writes the eleven native panels' work
+   into `mini tools/folding-wall.js`, and REFUSES to write anything that
    breaks a content ban.
 
    Idempotent: a second run reports every key as already current.
 
    ⚠ THE BANS, THEIR EXEMPTIONS AND THEIR POISON LIVE IN ONE FILE —
-   `_times-shelf-bans.js` — imported by this AND by `verify-`. #44
+   `_folding-wall-bans.js` — imported by this AND by `verify-`. #44
    shipped a French exemption into `apply-` while `verify-` kept its own
    copy and went on condemning the same correct sentence.
 
@@ -17,16 +17,16 @@
    the moment the block was re-laid-out for eleven locales instead of
    eight).
 
-   Run:  node scripts/apply-times-shelf-locales.js [--dry-run]
+   Run:  node scripts/apply-folding-wall-locales.js [--dry-run]
    ===================================================================== */
 'use strict';
 
 const fs = require('fs');
 const path = require('path');
-const BANS = require('./_times-shelf-bans.js');
-const SOT = require('./_times-shelf-strings.js');
+const BANS = require('./_folding-wall-bans.js');
+const SOT = require('./_folding-wall-strings.js');
 
-const TOOL = path.join(__dirname, '..', 'mini tools', 'times-shelf.js');
+const TOOL = path.join(__dirname, '..', 'mini tools', 'folding-wall.js');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const DRY = process.argv.indexOf('--dry-run') > -1;
 
@@ -125,4 +125,4 @@ if (DRY) {
   process.exit(0);
 }
 fs.writeFileSync(TOOL, next, 'utf8');
-console.log(`\nwrote ${KEYS.length} keys x ${LOCALES.length} locales into mini tools/times-shelf.js`);
+console.log(`\nwrote ${KEYS.length} keys x ${LOCALES.length} locales into mini tools/folding-wall.js`);

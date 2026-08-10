@@ -79,7 +79,15 @@
    is `rivets-number-forge`'s, and its French `bille` is Danish for
    BEETLE, which is `arrow-strip`'s character in every Scandinavian
    string. FREE, and used here: THE SLOPES · THE DIPS · THE RIDGE ·
-   THE STONE.
+   THE BOULDER. ⚠ It was THE STONE until a native panel measured that
+   the stone is TAKEN IN TEN OF ELEVEN — unroll-tape ships shapePebble
+   as a rendered object in all of them, and ten-stones is a live activity
+   about a number line you hop along, which is this tool own domain. It
+   survived my fence because that fence was run in ENGLISH, where pebble
+   and stone feel like different words. boulder measures 0 against stone
+   100 and rock 92, and it is the register the ten locales independently
+   chose anyway (Brocken, kampesten, stenbumling, lohkare, kei are all
+   boulder-words), so the eleven are now one instrument.
 
    ⚠ NO WORDS ON THE APPARATUS (§23.2). The ground carries numerals at
    the dips and nothing else. Legible with the sound off.
@@ -197,22 +205,22 @@
 
     strings: {
       title: { en: 'The Rounding Hill' },
-      instruction: { en: 'Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where neither side is lower, it will not fall on its own, and what the number is FOR decides which way it goes.' },
+      instruction: { en: 'Set the boulder down and let go. It settles into the nearest dip — unless it lands on the ridge, where neither side is lower, it will not roll on its own, and what the number is FOR decides which way it goes.' },
 
       ariaGround: { en: 'Ground with a dip at each end and a ridge in the middle.' },
-      ariaStone: { en: 'the stone, at {n}' },
-      ariaStoneRest: { en: 'the stone, {n}, resting in the {d} dip' },
+      ariaStone: { en: 'the boulder, at {n}' },
+      ariaStoneRest: { en: 'the boulder, {n}, resting in the {d} dip' },
       ariaRidge: { en: 'the ridge, halfway between the two dips' },
-      ariaTilt: { en: 'the way this class has settled the ridge' },
+      ariaTilt: { en: 'the ridge, settled by this class towards {d}' },
 
       setSpan: { en: 'Which ground' },
       spanTens: { en: 'between two tens' },
       spanHundreds: { en: 'between two hundreds' },
 
-      lessBig: { en: 'Move the stone a long way left' },
-      lessOne: { en: 'Move the stone a little left' },
-      moreOne: { en: 'Move the stone a little right' },
-      moreBig: { en: 'Move the stone a long way right' },
+      lessBig: { en: 'Move the boulder a long way left' },
+      lessOne: { en: 'Move the boulder a little left' },
+      moreOne: { en: 'Move the boulder a little right' },
+      moreBig: { en: 'Move the boulder a long way right' },
       letGo: { en: 'Let go' },
       tiltDown: { en: 'Settle the ridge towards the lower dip' },
       tiltUp: { en: 'Settle the ridge towards the higher dip' },
@@ -225,27 +233,27 @@
          makes the decision recur, and it is a curriculum objective in one
          of the eleven rather than an invention of ours. */
       clearTilt: { en: 'The number is for something else now — level the ridge again' },
-      again: { en: 'Another stone' },
+      again: { en: 'Another boulder' },
 
       saidSet: { en: '{n}' },
       saidSettled: { en: '{n} settles into {d}.' },
-      saidTeeter: { en: '{n} is on the ridge. Neither side is lower, so the stone will not fall on its own. What are these numbers for — and which way should that settle it?' },
+      saidTeeter: { en: '{n} is on the ridge. Neither side is lower, so the boulder will not roll on its own. What are these numbers for — and which way should that settle it?' },
       saidTiltSet: { en: 'This class has settled the ridge towards {d}, for what these numbers are being used for. Every tie goes that way until that changes.' },
-      saidTiltClear: { en: 'The ridge is level again. What are these numbers for now? The stone will teeter until the class settles it again.' },
-      saidAlready: { en: 'The stone is already at rest. Set down another one.' },
+      saidTiltClear: { en: 'The ridge is level again. What are these numbers for now? The boulder will teeter until the class settles it again.' },
+      saidAlready: { en: 'The boulder is already at rest. Set down another one.' },
       saidAlreadyLevel: { en: 'The ridge is already level.' },
       saidAlreadySet: { en: 'The ridge is already settled that way.' },
-      saidTiltClearOff: { en: 'The ridge is level again. The next stone that lands on it will teeter.' },
+      saidTiltClearOff: { en: 'The ridge is level again. The next boulder that lands on it will teeter.' },
       saidEdge: { en: 'The ground stops at {n}.' },
 
       gateTitle: { en: 'The paper ground' },
-      gateBody: { en: 'The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall.' },
+      gateBody: { en: 'The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real pebble on the ridge and see that it truly does not roll.' },
       gateCta: { en: 'See the Teacher plan' },
       gateClose: { en: 'Not now' },
 
       printBtn: { en: 'Print the paper ground' },
       sheetTitle: { en: 'Paper ground to cut out and fold' },
-      sheetNote: { en: 'Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point.' }
+      sheetNote: { en: 'Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put something small anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point.' }
     },
 
     settings: [
@@ -693,7 +701,13 @@
       this._ridgeEl.style.transitionDuration = this._dur(GEO.T_TILT) + 'ms';
       this._ridgeEl.style.transform = 'translateX(-50%) rotate(' + (s.tilt * GEO.TILT_DEG) + 'deg)';
       this._ridgeEl.classList.toggle('is-set', s.tilt !== 0);
-      this._ridgeEl.setAttribute('aria-label', api.t(s.tilt === 0 ? 'ariaRidge' : 'ariaTilt'));
+      /* ⚠ IT CARRIED NO DIRECTION. A sighted child sees which way the
+         ridge leans; a screen-reader child got only "the way this class
+         has settled the ridge", which is the one thing they cannot see.
+         No string could repair it — the code passed no parameters. */
+      this._ridgeEl.setAttribute('aria-label', s.tilt === 0
+        ? api.t('ariaRidge')
+        : this._fmt(api.t('ariaTilt'), { d: s.tilt > 0 ? s.hi : s.lo }));
 
       if (this._svgEl) this._svgEl.setAttribute('aria-label', api.t('ariaGround'));
       this._marks[0].textContent = String(s.lo);

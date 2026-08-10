@@ -1385,6 +1385,28 @@
       "Découpe le contour et plie sur les pointillés pour que le terrain tienne debout. Écris les deux nombres ronds dans les cuvettes. Pose un vrai caillou n'importe où sur une pente : il descend dans une cuvette. Pose-le sur la crête : il reste. C'est tout l'intérêt."
     ]
   },
+  "pair-gate": {
+    "name": "L’arche",
+    "slug": "nombres-pairs-et-impairs-par-appariement-cp-ce1",
+    "tagline": "L arche laisse passer exactement deux de front — et celui qui reste ne se distingue en rien. Seule la place vide à côté de lui se voit.",
+    "metaTitle": "Pairs et impairs : passer deux de front, CP-CE1",
+    "metaDescription": "Dites d abord si tout le monde passera, puis appelez-les deux de front. Deux défilés qui laissent chacun quelqu un forment ensemble un rang complet.",
+    "about": [
+      "L’arche laisse passer exactement ce nombre-là de front. Dites d’abord si tout le monde passera, puis appelez-les en avant, autant à la fois, et voyez.",
+      "Le défilé qui attend, l’arche, et la cour au-delà.",
+      "Toute l’arche est libre — chaque largeur, chaque appel, le refus et le seuil. L’Abonnement Enseignant ajoute le défilé en papier à découper et à aligner sur la table, pour qu’un enfant fasse passer les marcheurs sous une arche qu’il a découpée lui-même."
+    ],
+    "howToUse": [
+      "Quelqu’un restera debout. La classe dit que quelqu’un restera debout. La barrière est levée.",
+      "Appeler les suivants en avant. 1 restent debout : 17 ne tombe pas juste à 2 de front. L’arche ne prend que des complets, jamais des entamés.",
+      "Les mettre tous les deux sur le seuil. Tous les deux sur le seuil — et le seuil est complet, donc il passe. 1 et 1 ensemble remplissent l’arche exactement."
+    ],
+    "classroomIdeas": [
+      "1 restent debout, places vides à côté : 1",
+      "Faire venir le second défilé. Un second défilé de 13. Lui aussi laisse 1 debout.",
+      "Découpe les marcheurs et l’arche. Aligne les marcheurs les uns derrière les autres et fais-les passer, autant de front à chaque fois. Quand il n’en reste pas assez pour remplir l’arche, laisse-les debout et dessine les places vides à côté — ces places vides sont ce que le nombre te dit."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

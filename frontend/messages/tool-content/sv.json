@@ -1386,6 +1386,28 @@
       "Klipp längs kanten och vik på de streckade linjerna så att marken står upp. Skriv de två runda talen i groparna. Lägg en riktig stenbumling var som helst på en sluttning – den rullar ner i en grop. Lägg den på krönet – den ligger kvar, och det är hela poängen."
     ]
   },
+  "pair-gate": {
+    "name": "Valvet",
+    "slug": "jamna-och-udda-tal-genom-parbildning-lagstadiet",
+    "tagline": "Valvet släpper igenom precis två i bredd — och den som blir stående ritas likadant som alla andra. Bara den tomma platsen bredvid syns.",
+    "metaTitle": "Jämnt och udda: två i bredd genom valvet, lågstadiet",
+    "metaDescription": "Säg först om alla kommer igenom och ropa dem sedan två i bredd. Två parader som var för sig lämnar en kvar bildar tillsammans en hel rad.",
+    "about": [
+      "Valvet släpper igenom precis så många i bredd. Säg först om alla kommer igenom, ropa dem sedan fram, så många åt gången, och se efter.",
+      "Paraden som väntar, valvet och gården bakom.",
+      "Hela valvet är gratis: varje bredd, varje rop, vägran och tröskeln. Lärarplanen lägger till pappersparaden att klippa ut och ställa upp på bordet, så att ett barn kan skicka marscherarna genom ett valv som det klippt själv."
+    ],
+    "howToUse": [
+      "Någon blir stående. Klassen säger att någon blir stående. Bommen är uppe.",
+      "Ropa fram de nästa. 1 blir stående: 17 går inte jämnt upp i 2 i bredd. Valvet tar bara fulla, aldrig påbörjade.",
+      "Ställ båda på tröskeln. Båda på tröskeln — och tröskeln är full, så den får gå igenom. 1 och 1 tillsammans fyller valvet precis."
+    ],
+    "classroomIdeas": [
+      "1 blir stående, tomma platser bredvid: 1",
+      "Hämta den andra paraden. En andra parad på 13. Även den lämnar 1 stående.",
+      "Klipp ut marscherarna och valvet. Ställ upp marscherarna efter varandra och skicka igenom dem, så många i bredd åt gången. När det blir för få kvar för att fylla valvet, låt dem stå och rita de tomma platserna bredvid — de tomma platserna är det som talet säger dig."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

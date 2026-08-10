@@ -122,6 +122,15 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #53 AT REST IS A QUEUE AND A CLOSED BAR, which says nothing.
+     The card must carry the moment the tool exists for: ranks through,
+     one marcher left standing, and THE EMPTY PLACE beside them — the
+     mark that distinguishes left-over from wrong. Seeded by predicting
+     and then marching to the standstill. */
+  'pair-gate': [
+    { sel: '.pgt-b-no', wait: 500 },
+    { sel: '.pgt-b-call', times: 9, wait: 300 }
+  ],
   /* ⭐ #52 AT REST IS A BOULDER ON A SLOPE, WHICH LOOKS LIKE ANY OTHER
      APPARATUS. The card must carry the moment the tool exists for: the
      boulder ON THE RIDGE, teetering, with the ground level under it and
@@ -577,6 +586,9 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* tall and narrow: the parade stacks, so this one runs the other way
+     from its neighbours and must stay under the 0.85 aspect */
+  'pair-gate': { width: 1120, height: 720 },
   /* wide and short: the ground plus one control row, under the 0.85
      aspect where --fit=auto TOP-CROPS and still reports "ok" */
   'rounding-hill': { width: 1040, height: 620 },

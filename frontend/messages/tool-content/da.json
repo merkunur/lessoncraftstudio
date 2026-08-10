@@ -1386,6 +1386,28 @@
       "Klip langs kanten og fold på de stiplede linjer, så terrænet står op. Skriv de to runde tal i fordybningerne. Læg en rigtig kampesten et vilkårligt sted på en skråning – den ruller ned i en fordybning. Læg den på højderyggen – den bliver liggende, og det er hele pointen."
     ]
   },
+  "pair-gate": {
+    "name": "Hvælvingen",
+    "slug": "lige-og-ulige-tal-gennem-parvis-indskoling",
+    "tagline": "Hvælvingen lukker præcis to ved siden af hinanden igennem — og den, der bliver stående, ser ud som alle andre. Kun den tomme plads ved siden af.",
+    "metaTitle": "Lige og ulige: to ad gangen gennem hvælvingen, indskolingen",
+    "metaDescription": "Sig først, om alle kommer igennem, og kald dem så frem to ad gangen. To optog, der hver efterlader én, danner sammen en hel række.",
+    "about": [
+      "Hvælvingen lukker præcis så mange igennem ved siden af hinanden. Sig først, om alle kommer igennem, kald dem så frem, så mange ad gangen, og se efter.",
+      "Optoget der venter, hvælvingen og gården bagved.",
+      "Hele hvælvingen er gratis: hver bredde, hvert kald, afvisningen og tærsklen. Lærerabonnementet lægger papiroptoget til, som klippes ud og stilles op på bordet, så et barn kan sende de marcherende gennem en hvælving, det selv har klippet."
+    ],
+    "howToUse": [
+      "Nogen bliver stående. Klassen siger, at nogen bliver stående. Bommen er oppe.",
+      "Kald de næste frem. 1 bliver stående: 17 går ikke op i 2 ved siden af hinanden. Hvælvingen tager kun fulde, aldrig halve.",
+      "Stil dem begge på tærsklen. Dem begge på tærsklen — og tærsklen er fuld, så den må komme igennem. 1 og 1 tilsammen fylder hvælvingen præcis."
+    ],
+    "classroomIdeas": [
+      "1 bliver stående, tomme pladser ved siden af: 1",
+      "Hent det andet optog. Et andet optog på 13. Det efterlader også 1 stående.",
+      "Klip de marcherende og hvælvingen ud. Stil de marcherende op efter hinanden og send dem igennem, så mange ved siden af hinanden ad gangen. Når der er for få tilbage til at fylde hvælvingen, så lad dem stå og tegn de tomme pladser ved siden af — de tomme pladser er det, tallet fortæller dig."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

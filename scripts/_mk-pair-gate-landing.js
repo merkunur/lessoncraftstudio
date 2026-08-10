@@ -15,66 +15,66 @@ const LOC = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const s = (k, l) => (S[k] && (S[k][l] || S[k].en)) || '';
 
 const HEAD = {
-  en: { slug: 'pair-gate-round-to-the-nearest-ten',
-    tagline: 'Let go and it runs downhill into the nearest ten — until it lands on the ridge, where the ground is level and nothing happens at all.',
-    metaTitle: 'The Rounding Hill — rounding to the nearest ten, Grade 2 and 3',
-    metaDescription: 'Free whiteboard tool: 47 runs downhill into 50 because that is what nearest means. On 45 the stone will not fall, and the class decides which way the ridge tips.' },
-  de: { slug: 'runden-auf-zehner-am-huegel-grundschule',
-    tagline: 'Loslassen, und der Stein rollt in den nächsten Zehner — bis er genau auf dem Grat liegt, wo der Boden eben ist.',
-    metaTitle: 'Runden auf Zehner: der Hügel, Klasse 2 und 3',
-    metaDescription: '47 rollt zur 50, weil das nächste eben die 50 ist. Auf der 45 fällt der Stein nicht von selbst — die Klasse entscheidet, wohin der Grat kippt.' },
-  fr: { slug: 'arrondir-a-la-dizaine-la-butte-cycle-2',
-    tagline: 'Lâchez la pierre : elle descend vers la dizaine la plus proche — sauf sur la crête, où le sol est plat.',
-    metaTitle: 'Arrondir à la dizaine : la butte, cycle 2 et 3',
-    metaDescription: '47 descend vers 50, parce que c est cela, le plus proche. Sur 45 la pierre ne tombe pas toute seule : la classe décide de quel côté penche la crête.' },
-  es: { slug: 'redondear-a-la-decena-la-loma-primaria',
-    tagline: 'Suelta la piedra y baja hacia la decena más cercana — salvo en la cresta, donde el suelo está llano.',
-    metaTitle: 'Redondear a la decena: la loma, Primaria',
-    metaDescription: '47 baja a 50, porque eso es lo más cercano. En 45 la piedra no cae sola: la clase decide hacia dónde se inclina la cresta.' },
-  pt: { slug: 'arredondar-para-a-dezena-a-colina-anos-iniciais',
-    tagline: 'Solte a pedra e ela desce para a dezena mais próxima — menos na crista, onde o chão está plano.',
-    metaTitle: 'Arredondar para a dezena: a colina, anos iniciais',
-    metaDescription: '47 desce para 50, porque é isso o mais próximo. Em 45 a pedra não cai sozinha: a turma decide para que lado a crista pende.' },
-  it: { slug: 'arrotondare-alla-decina-la-collina-primaria',
-    tagline: 'Lascia la pietra e scende verso la decina più vicina — tranne sul crinale, dove il terreno è piano.',
-    metaTitle: 'Arrotondare alla decina: la collina, primaria',
-    metaDescription: '47 scende a 50, perché è quello il più vicino. Su 45 la pietra non cade da sola: la classe decide da che parte pende il crinale.' },
-  nl: { slug: 'afronden-op-tientallen-de-heuvel-groep-4-5',
-    tagline: 'Laat de steen los en hij rolt naar het dichtstbijzijnde tiental — behalve op de kam, waar de grond vlak is.',
-    metaTitle: 'Afronden op tientallen: de heuvel, groep 4 en 5',
-    metaDescription: '47 rolt naar 50, want dat is het dichtstbij. Op 45 valt de steen niet vanzelf: de klas beslist welke kant de kam op helt.' },
-  sv: { slug: 'avrunda-till-tiotal-kullen-lagstadiet',
-    tagline: 'Släpp stenen och den rullar ner i närmaste tiotal — utom på krönet, där marken är plan.',
-    metaTitle: 'Avrunda till tiotal: kullen, lågstadiet',
-    metaDescription: '47 rullar till 50, för det är närmast. På 45 faller stenen inte av sig själv: klassen bestämmer åt vilket håll krönet lutar.' },
-  da: { slug: 'afrunding-til-tiere-bakken-indskoling',
-    tagline: 'Slip stenen, og den triller ned i den nærmeste tier — undtagen på kammen, hvor jorden er flad.',
-    metaTitle: 'Afrunding til tiere: bakken, indskolingen',
-    metaDescription: '47 triller til 50, for det er nærmest. På 45 falder stenen ikke af sig selv: klassen bestemmer, hvilken vej kammen hælder.' },
-  no: { slug: 'avrunding-til-tiere-bakken-smatrinnet',
-    tagline: 'Slipp steinen, og den triller ned i nærmeste tier — bortsett fra på kammen, der bakken er flat.',
-    metaTitle: 'Avrunding til tiere: bakken, småtrinnet',
-    metaDescription: '47 triller til 50, for det er nærmest. På 45 faller steinen ikke av seg selv: klassen bestemmer hvilken vei kammen heller.' },
-  fi: { slug: 'pyoristaminen-kymmeniin-kumpu-alkuopetus',
-    tagline: 'Päästä kivi irti, ja se vierii lähimpään kymmeneen — paitsi harjalla, jossa maa on tasainen.',
-    metaTitle: 'Pyöristäminen kymmeniin: kumpu, alkuopetus',
-    metaDescription: '47 vierii viiteenkymmeneen, koska se on lähin. Luvussa 45 kivi ei putoa itsestään: luokka päättää, kummalle puolelle harja kallistuu.' }
+  en: { slug: 'pair-gate-odd-and-even-by-pairing-counters',
+    tagline: 'The archway takes exactly two abreast — and whoever is left standing is drawn no differently from anybody else. Only the empty place beside them is.',
+    metaTitle: 'The Pair Gate — odd and even by pairing, Grade 1 and 2',
+    metaDescription: 'Free whiteboard tool: predict whether everybody gets through, then call them forward two abreast. Two parades that each leave one behind make a full rank together.' },
+  de: { slug: 'gerade-und-ungerade-zahlen-durch-paare-grundschule',
+    tagline: 'Der Rundbogen lässt genau zwei nebeneinander durch — und wer stehen bleibt, sieht aus wie alle anderen. Nur der leere Platz daneben nicht.',
+    metaTitle: 'Gerade und ungerade: paarweise durch den Rundbogen, Klasse 1 und 2',
+    metaDescription: 'Sagt erst, ob alle durchkommen, und ruft sie dann paarweise vor. Zwei Umzüge, bei denen je einer stehen bleibt, ergeben zusammen eine volle Reihe.' },
+  fr: { slug: 'nombres-pairs-et-impairs-par-appariement-cp-ce1',
+    tagline: 'L arche laisse passer exactement deux de front — et celui qui reste ne se distingue en rien. Seule la place vide à côté de lui se voit.',
+    metaTitle: 'Pairs et impairs : passer deux de front, CP-CE1',
+    metaDescription: 'Dites d abord si tout le monde passera, puis appelez-les deux de front. Deux défilés qui laissent chacun quelqu un forment ensemble un rang complet.' },
+  es: { slug: 'numeros-pares-e-impares-emparejando-primaria',
+    tagline: 'El pórtico deja pasar exactamente dos a la vez, y quien se queda no se dibuja distinto. Solo se ve el hueco vacío a su lado.',
+    metaTitle: 'Pares e impares: pasar de dos en dos, Primaria',
+    metaDescription: 'Decid primero si pasarán todos y luego llamadlos de dos en dos. Dos desfiles que dejan a uno cada uno forman juntos una fila completa.' },
+  pt: { slug: 'numeros-pares-e-impares-formando-duplas-anos-iniciais',
+    tagline: 'O pórtico deixa passar exatamente dois lado a lado — e quem fica não é desenhado de outro jeito. Só o lugar vazio ao lado dele.',
+    metaTitle: 'Pares e ímpares: passar dois lado a lado, anos iniciais',
+    metaDescription: 'Digam primeiro se todos vão passar e depois chamem de dois em dois. Dois desfiles que deixam um cada um formam juntos uma fila cheia.' },
+  it: { slug: 'numeri-pari-e-dispari-a-coppie-scuola-primaria',
+    tagline: 'L arcata lascia passare esattamente due affiancati — e chi resta non è disegnato in modo diverso. Si vede solo il posto vuoto accanto.',
+    metaTitle: 'Pari e dispari: passare due affiancati, primaria',
+    metaDescription: 'Dite prima se passeranno tutti, poi chiamateli due affiancati. Due sfilate che lasciano uno ciascuna formano insieme una fila intera.' },
+  nl: { slug: 'even-en-oneven-getallen-door-paren-groep-3-4',
+    tagline: 'De doorgang laat er precies twee naast elkaar door — en wie blijft staan ziet er hetzelfde uit als alle anderen. Alleen de lege plek ernaast niet.',
+    metaTitle: 'Even en oneven: twee naast elkaar, groep 3 en 4',
+    metaDescription: 'Zeg eerst of iedereen erdoor komt en roep ze dan twee naast elkaar. Twee optochten die er elk één laten staan vormen samen een volle rij.' },
+  sv: { slug: 'jamna-och-udda-tal-genom-parbildning-lagstadiet',
+    tagline: 'Valvet släpper igenom precis två i bredd — och den som blir stående ritas likadant som alla andra. Bara den tomma platsen bredvid syns.',
+    metaTitle: 'Jämnt och udda: två i bredd genom valvet, lågstadiet',
+    metaDescription: 'Säg först om alla kommer igenom och ropa dem sedan två i bredd. Två parader som var för sig lämnar en kvar bildar tillsammans en hel rad.' },
+  da: { slug: 'lige-og-ulige-tal-gennem-parvis-indskoling',
+    tagline: 'Hvælvingen lukker præcis to ved siden af hinanden igennem — og den, der bliver stående, ser ud som alle andre. Kun den tomme plads ved siden af.',
+    metaTitle: 'Lige og ulige: to ad gangen gennem hvælvingen, indskolingen',
+    metaDescription: 'Sig først, om alle kommer igennem, og kald dem så frem to ad gangen. To optog, der hver efterlader én, danner sammen en hel række.' },
+  no: { slug: 'partall-og-oddetall-gjennom-parvis-smatrinnet',
+    tagline: 'Hvelvingen slipper gjennom nøyaktig to ved siden av hverandre — og den som blir stående, ser ut som alle andre. Bare den tomme plassen ved siden av.',
+    metaTitle: 'Partall og oddetall: to om gangen gjennom hvelvingen, småtrinnet',
+    metaDescription: 'Si først om alle kommer gjennom, og rop dem så fram to om gangen. To opptog som hver etterlater én, danner sammen en hel rekke.' },
+  fi: { slug: 'parilliset-ja-parittomat-luvut-parittamalla-alkuopetus',
+    tagline: 'Holvista mahtuu tasan kaksi rinnakkain — eikä seisomaan jäänyt näytä muista poikkeavalta. Vain viereinen tyhjä paikka näkyy.',
+    metaTitle: 'Parilliset ja parittomat: kaksi rinnakkain holvista, alkuopetus',
+    metaDescription: 'Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten kaksi rinnakkain. Kaksi kulkuetta, joista kummastakin jää yksi, muodostavat yhdessä täyden rivin.' }
 };
 const EN_ABOUT = [
-  'The ground has a dip at each of two round numbers — 40 and 50 — and a ridge exactly halfway between them, at 45. A numbered stone is set down anywhere on it. Let go, and it runs downhill into whichever dip it is nearer: 47 goes to 50, because that is what nearest MEANS, and there is nothing at all to decide about it.',
-  'And then there is the ridge. On 45 the ground under the stone is level. It does not roll one way after a moment. It does not pick. It teeters, and it goes on teetering, because a machine that quietly chose would be pretending there was a right answer where there is not one. Rounding a half really is a rule somebody made up, and this is the apparatus that admits it.',
-  'So the class settles it. Once they choose which way a ridge tips, the ridge is drawn leaning that way from then on, and every later tie follows it — the rule the room made, visible on the ground itself, with no words written anywhere. Take the lean away and the stone goes back to teetering, because the rule leaving must take its consequence with it. Nothing is scored, nothing is timed, and nothing is marked right or wrong.'
+  'A parade of marchers, an archway wide enough for exactly two of them, and a yard on the far side. Before anybody moves, the class has to say whether everybody will get through — and only then does the bar lift. That order is the whole design: the first thing that happens is a judgement, not an animation.',
+  'Then the ranks are called forward, one at a time. When fewer than two are left, the archway simply refuses. It goes on refusing, and nothing anywhere calls the child wrong. What is left standing is drawn exactly like every other marcher — identical circle, identical colour — because being left over is not being wrong. What IS drawn is the empty place beside them, and that empty place is the whole of what the number is telling you.',
+  'Then a second parade arrives that also leaves somebody behind, and both of them step onto the sill — a plate exactly as wide as the archway. A full plate is a rank, and a rank goes through. At two abreast that always happens, which is odd plus odd making even. At three abreast it sometimes does not, and the tool says so rather than pretending — which is what makes two special rather than merely typical.'
 ];
 const EN_HOW = [
-  'Read the ground before the first stone: two dips with a round number in each, a ridge between them, and nothing else on it.',
-  'Put the stone somewhere on a slope and ask the class which dip it will run to BEFORE you let go. The slope, not the digit, is the reason.',
-  'Then put one exactly on the ridge and let go. Say nothing and let it teeter. The silence is the lesson.',
-  'Settle the ridge together, and point out that from now on the ground itself remembers what this class decided.'
+  'Take the vote before anything moves. The bar will not lift until the class has committed, and the commitment is the lesson.',
+  'Call the ranks forward yourself and let the class count them through. Stop the moment the archway refuses and say nothing.',
+  'Point at the empty place, not at the marcher standing beside it. The marcher has done nothing unusual; the gap is the news.',
+  'Bring the second parade and put both left-behinds on the sill. Ask whether the sill is a rank before you find out.'
 ];
 const EN_IDEAS = [
-  'A two-minute routine: three stones, and for each one the class says which dip BEFORE it is let go. Only the last one is a tie.',
-  'Ask why 44 and 46 are easy and 45 is not, and refuse to answer. The ground has already answered.',
-  'Switch to hundreds and set a stone on 450. The ground looks identical, which is the point: the ridge is always the five in the middle.'
+  'A two-minute routine: three parades, three votes, and the vote said out loud before a single rank is called.',
+  'Run a parade of twelve and a parade of thirteen back to back at the same width, and ask what the archway did differently. It did nothing differently — that is the point.',
+  'Widen the archway to three and try the same theorem. Two left-behinds sometimes make a rank now and sometimes do not, which is the best argument for why two is the interesting one.'
 ];
 const out = {};
 LOC.forEach(function (l) {
@@ -82,11 +82,13 @@ LOC.forEach(function (l) {
   out[l] = Object.assign({ name: s('title', l) }, h, l === 'en'
     ? { about: EN_ABOUT, howToUse: EN_HOW, classroomIdeas: EN_IDEAS }
     : {
-      about: [s('instruction', l), s('ariaGround', l), s('gateBody', l)],
-      howToUse: [s('letGo', l) + '. ' + s('saidSettled', l).replace('{n}', '47').replace('{d}', '50'),
-        s('saidTeeter', l).replace('{n}', '45'),
-        s('tiltUp', l) + '. ' + s('saidTiltSet', l).replace('{d}', '50')],
-      classroomIdeas: [s('saidTiltClear', l), s('ariaRidge', l), s('sheetNote', l)]
+      about: [s('instruction', l), s('ariaYard', l), s('gateBody', l)],
+      howToUse: [s('predNo', l) + '. ' + s('saidPredNo', l),
+        s('call', l) + '. ' + s('saidStand', l).replace('{s}','1').replace('{n}','17').replace('{k}','2'),
+        s('sill', l) + '. ' + s('saidSill', l).replace('{a}','1').replace('{b}','1')],
+      classroomIdeas: [s('ariaStand', l).replace('{n}','1').replace('{e}','1'),
+        s('second', l) + '. ' + s('saidSecond', l).replace('{n}','13').replace('{s}','1'),
+        s('sheetNote', l)]
     });
 });
 

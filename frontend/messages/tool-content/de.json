@@ -1387,6 +1387,28 @@
       "Schneidet am Rand entlang und faltet an den gestrichelten Linien, damit das Gelände steht. Schreibt die beiden runden Zahlen in die Mulden. Legt einen echten Brocken irgendwo auf einen Abhang – er rollt in eine Mulde; legt ihn auf den Grat, bleibt er liegen. Genau darum geht es."
     ]
   },
+  "pair-gate": {
+    "name": "Der Rundbogen",
+    "slug": "gerade-und-ungerade-zahlen-durch-paare-grundschule",
+    "tagline": "Der Rundbogen lässt genau zwei nebeneinander durch — und wer stehen bleibt, sieht aus wie alle anderen. Nur der leere Platz daneben nicht.",
+    "metaTitle": "Gerade und ungerade: paarweise durch den Rundbogen, Klasse 1 und 2",
+    "metaDescription": "Sagt erst, ob alle durchkommen, und ruft sie dann paarweise vor. Zwei Umzüge, bei denen je einer stehen bleibt, ergeben zusammen eine volle Reihe.",
+    "about": [
+      "Der Rundbogen lässt genau so viele nebeneinander durch. Sagt zuerst, ob alle durchkommen, und ruft sie dann nach vorn — immer so viele auf einmal — und seht nach.",
+      "Der wartende Umzug, der Rundbogen und der Hof dahinter.",
+      "Der ganze Rundbogen ist frei — jede Breite, jeder Aufruf, die Verweigerung und der Sims. Das Lehrkraft-Abo legt den Umzug aus Papier dazu: zum Ausschneiden und Aufstellen auf dem Tisch, damit ein Kind die Marschierenden durch einen selbst geschnittenen Rundbogen schicken kann."
+    ],
+    "howToUse": [
+      "Jemand bleibt stehen. Die Klasse sagt: Jemand bleibt stehen. Die Schranke ist oben.",
+      "Die Nächsten nach vorn rufen. 1 bleiben stehen: 17 lässt sich nicht restlos zu 2 nebeneinander aufteilen. Der Rundbogen nimmt nur volle, nie angefangene.",
+      "Beide auf den Sims stellen. Beide auf dem Sims — und der Sims ist voll, also darf er hindurch. 1 und 1 zusammen füllen den Rundbogen genau."
+    ],
+    "classroomIdeas": [
+      "1 bleiben stehen, leere Plätze daneben: 1",
+      "Den zweiten Umzug holen. Ein zweiter Umzug mit 13. Auch dort bleiben 1 stehen.",
+      "Schneide die Marschierenden und den Rundbogen aus. Stell die Marschierenden hintereinander auf und schick sie hindurch, immer so viele nebeneinander. Wenn zu wenige da sind, um den Rundbogen zu füllen, lass sie stehen und male die leeren Plätze daneben — diese leeren Plätze sind das, was die Zahl dir sagt."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

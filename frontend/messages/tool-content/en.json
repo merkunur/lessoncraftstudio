@@ -1395,6 +1395,29 @@
       "Switch to hundreds and set a stone on 450. The ground looks identical, which is the point: the ridge is always the five in the middle."
     ]
   },
+  "pair-gate": {
+    "name": "The Pair Gate",
+    "slug": "pair-gate-odd-and-even-by-pairing-counters",
+    "tagline": "The archway takes exactly two abreast — and whoever is left standing is drawn no differently from anybody else. Only the empty place beside them is.",
+    "metaTitle": "The Pair Gate — odd and even by pairing, Grade 1 and 2",
+    "metaDescription": "Free whiteboard tool: predict whether everybody gets through, then call them forward two abreast. Two parades that each leave one behind make a full rank together.",
+    "about": [
+      "A parade of marchers, an archway wide enough for exactly two of them, and a yard on the far side. Before anybody moves, the class has to say whether everybody will get through — and only then does the bar lift. That order is the whole design: the first thing that happens is a judgement, not an animation.",
+      "Then the ranks are called forward, one at a time. When fewer than two are left, the archway simply refuses. It goes on refusing, and nothing anywhere calls the child wrong. What is left standing is drawn exactly like every other marcher — identical circle, identical colour — because being left over is not being wrong. What IS drawn is the empty place beside them, and that empty place is the whole of what the number is telling you.",
+      "Then a second parade arrives that also leaves somebody behind, and both of them step onto the sill — a plate exactly as wide as the archway. A full plate is a rank, and a rank goes through. At two abreast that always happens, which is odd plus odd making even. At three abreast it sometimes does not, and the tool says so rather than pretending — which is what makes two special rather than merely typical."
+    ],
+    "howToUse": [
+      "Take the vote before anything moves. The bar will not lift until the class has committed, and the commitment is the lesson.",
+      "Call the ranks forward yourself and let the class count them through. Stop the moment the archway refuses and say nothing.",
+      "Point at the empty place, not at the marcher standing beside it. The marcher has done nothing unusual; the gap is the news.",
+      "Bring the second parade and put both left-behinds on the sill. Ask whether the sill is a rank before you find out."
+    ],
+    "classroomIdeas": [
+      "A two-minute routine: three parades, three votes, and the vote said out loud before a single rank is called.",
+      "Run a parade of twelve and a parade of thirteen back to back at the same width, and ask what the archway did differently. It did nothing differently — that is the point.",
+      "Widen the archway to three and try the same theorem. Two left-behinds sometimes make a rank now and sometimes do not, which is the best argument for why two is the interesting one."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -1364,6 +1364,28 @@
       "Leikkaa ääriviivaa pitkin ja taita katkoviivoista, niin maasto seisoo pystyssä. Kirjoita kuoppiin kaksi tasalukua. Aseta oikea lohkare mihin tahansa kohtaan rinnettä – se vierii kuoppaan. Aseta se harjanteelle – se jää siihen, ja siinä on koko juju."
     ]
   },
+  "pair-gate": {
+    "name": "Holvi",
+    "slug": "parilliset-ja-parittomat-luvut-parittamalla-alkuopetus",
+    "tagline": "Holvista mahtuu tasan kaksi rinnakkain — eikä seisomaan jäänyt näytä muista poikkeavalta. Vain viereinen tyhjä paikka näkyy.",
+    "metaTitle": "Parilliset ja parittomat: kaksi rinnakkain holvista, alkuopetus",
+    "metaDescription": "Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten kaksi rinnakkain. Kaksi kulkuetta, joista kummastakin jää yksi, muodostavat yhdessä täyden rivin.",
+    "about": [
+      "Holvista mahtuu kerralla juuri näin monta rinnakkain. Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten eteen, näin monta kerrallaan, ja katsokaa.",
+      "Odottava kulkue, holvi ja piha sen takana.",
+      "Koko holvi on ilmainen: jokainen leveys, jokainen kutsu, torjuminen ja kynnys. Opettajatilaus tuo lisäksi paperikulkueen, jonka voi leikata irti ja asettaa pöydälle, niin lapsi voi kuljettaa marssijat itse leikkaamansa holvin läpi."
+    ],
+    "howToUse": [
+      "Joku jää seisomaan. Luokka sanoo, että joku jää seisomaan. Puomi on ylhäällä.",
+      "Kutsu seuraavat eteen. 1 jää seisomaan: marssijoita on 17, eikä se jakaudu tasan. Holvista pääsee vain täydet 2 rinnakkain.",
+      "Aseta molemmat kynnykselle. Molemmat kynnyksellä — ja kynnys on täysi, joten se pääsee läpi. 1 ja 1 yhdessä täyttävät holvin tarkalleen."
+    ],
+    "classroomIdeas": [
+      "1 jää seisomaan, vieressä 1 tyhjää paikkaa",
+      "Hae toinen kulkue. Toinen kulkue, 13 marssijaa. Siitäkin jää 1 seisomaan.",
+      "Leikkaa marssijat ja holvi irti. Aseta marssijat peräkkäin ja kuljeta heidät läpi, näin monta rinnakkain kerrallaan. Kun jäljellä on liian vähän täyttämään holvia, jätä heidät seisomaan ja piirrä tyhjät paikat heidän viereensä — nuo tyhjät paikat kertovat, mitä luku sanoo."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

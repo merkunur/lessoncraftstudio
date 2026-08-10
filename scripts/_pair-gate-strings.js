@@ -2,7 +2,7 @@
    TOOL #53 — THE PAIR GATE · the ten non-English string sets
    =====================================================================
    Rebuilt per locale by a native panel, never translated. The key set was
-   read DYNAMICALLY off `require('mini tools/pair-gate.js').strings` (36
+   read DYNAMICALLY off `require('mini tools/pair-gate.js').strings` (38
    keys) and every placeholder set is asserted equal to the English —
    see `scripts/_pair-gate-verify-strings.js`.
 
@@ -55,6 +55,8 @@
    - any noun for the one left behind. Ten locales use a RELATIVE CLAUSE
      throughout — "die, die stehen geblieben sind" / "ceux qui sont restés"
      / "de som blev stående" / "ne, jotka jäivät seisomaan". Never a noun.
+     ⚠ This binds hardest on `saidNoSecond`, whose English reads "two lots
+     of LEFT-BEHINDS"; all ten carry that as a clause instead.
    - the row word, per the standing fence: `Reihe`(253) `rangée`(84)
      `fila`(149 es) `rij`(163) `rad`(178) `række`(235) `rekke`(99)
      `rivi`(141). ⭐ This has a consequence: THERE IS NO NOUN FOR A RANK IN
@@ -73,6 +75,13 @@
      ROUND ("der zweite Durchgang"). `Rundbogen` instead.
    - es `la arcada` (0 hits, so free): rejected anyway — *dar arcadas* is to
      retch. `el pórtico` instead. pt `arcada` likewise (dental arch).
+   - fr `par` as a PREPOSITION ("ne se répartit pas par {k} de front").
+     ⭐ This is the ban-too-wide trap and it is recorded rather than patched
+     away: `par` there is ordinary correct French and the regex condemning it
+     is technically over-broad. It was REWORDED ("ne tombe pas juste à {k} de
+     front") instead of loosening the pattern, because in THIS tool the word
+     sits one letter from *pair* = EVEN, which is the answer the apparatus
+     exists to withhold. Fix the content, never the gauge.
    - `Leiste`(14 de) is `unroll-tape`'s rail; `balk`(14 nl) is
      `number-balance`'s beam; `barra`/`barre` (90+/93) are the bar charts.
      The lifting bar is therefore the BOOM word — Schranke/barrière/barrera/
@@ -88,38 +97,40 @@
    and karnevalsoptog every Danish child has walked in; Norwegian
    `opptoget` is the 17. mai one — the warmest word available in each.
 
-   ⚠ FINNISH TAKES THE CASE THE SENTENCE NEEDS, never the nominative:
-   `holvista pääsee` (elative) · `kynnykselle` (allative) · `kynnyksellä`
-   (adessive) · `{n}:stä` (elative on a numeral placeholder) · `{n} marssijaa`
-   (partitive after a numeral) · `Opettajatilaus` inflected where the verb
-   demands it.
+   ⚠ FINNISH TAKES THE CASE THE SENTENCE NEEDS, never the nominative.
+   Three slots were rebuilt AROUND the case rather than forcing the case
+   into the slot, because no fixed suffix serves the whole value range:
+   - `{n}:stä` is wrong — the elative follows vowel harmony (7:stä but
+     12:sta, 8:sta but 9:stä), so {n} sits as a nominative predicate.
+   - `{r} kutsulla` is wrong — the adessive needs *kolmella kutsulla*, and a
+     bare numeral does not agree with an inflected noun. Nominative tally.
+   - `{k}:ta` is wrong — 2:ta / 3:a / 4:ää / 5:ttä. {k} sits as a nominative
+     subject of `mahtuu`.
+   ⭐ Finnish is also the ONE locale where `ariaStand` can keep its natural
+   shape (see below): the partitive singular after a numeral is correct at
+   1 as well as at 4, so `{e} tyhjää paikkaa` is right for every value.
 
    ---------------------------------------------------------------------
-   ⚠⚠ THREE STRINGS DELIBERATELY DIVERGE FROM THE ENGLISH, BECAUSE THE
-   ENGLISH IS FALSE AT STATES THE MODEL REACHES. Reported in full to the
-   operator; summarised here so nobody "fixes" the divergence back.
-   - `saidSillShort` — THE NEW STRING IS FALSE. Its closing sentence, "Two
-     left-behinds only ever make a full rank when the archway takes two",
-     is refuted by the model in 237 reachable states: at k=3 two left-behinds
-     fill in 98 of them (1+2 and 2+1), at k=4 in 75, at k=5 in 64. Worse,
-     those are exactly the states where the OTHER branch, `saidSill`, fires
-     — so a class at three abreast can hear "only when the archway takes
-     two" and then watch it happen one parade later. The true statement,
-     which the ten carry, is that at TWO abreast it fills EVERY time, and at
-     any wider archway only sometimes. (`saidSill` itself is now sound: the
-     call site branches on `sillFull()`, so the ten follow it faithfully.)
-   - `saidStand`. EN says "{s} left standing, because {n} does not fill a
-     rank of {k}", and it is announced with s=0 on a divisible parade
-     ("0 left standing, because 12 does not fill a rank of 2"). The ten put
-     the reason on the archway rather than on divisibility — "{s} of {n} stay
-     standing, because the archway only lets {k} abreast through, and only
-     full" — which is true at s=0 and at s>0 alike.
-   - `saidNoSill`. EN describes the ONLY branch of `toSill()` that is
-     unreachable (a+b===0, 0 reachable states, because `bringSecond` already
-     guarantees a>0). Every refusal a child can actually cause is either "no
-     second parade yet" or "already on the sill". The ten name those two.
-   `saidBusy` is likewise rewritten: EN talks about changing the width, but
-   its only call site is the PREDICTION refusal. See the report.
+   ⚠⚠ WHAT STILL DIVERGES FROM THE ENGLISH, AND WHY. Summarised here so
+   nobody "fixes" the divergence back.
+   - `ariaStand` — THE ENGLISH IS WRONG IN THE TOOL'S MOST COMMON STATE.
+     `{e}` is k−s, which is 1 whenever the archway takes two, and two IS the
+     default width — so the default configuration renders "1 left standing,
+     with 1 empty placeS beside them", every time. Nine of the ten locales
+     force the same agreement (de "1 leere Plätze", sv "1 tomma platser",
+     nl "1 lege plekken" …), so all nine use a TALLY form instead —
+     "leere Plätze daneben: {e}" — which is correct at every value of {e}
+     and reads naturally as a screen-reader label. Finnish alone keeps the
+     natural phrase, because its partitive is right at 1 too.
+   - `saidStand` — the s=0 hedge is now OUT, as instructed: with the `clear`
+     branch in place I measured 55 reachable `saidStand` refusals and ZERO
+     of them at s=0, so the ten now carry the sharper and previously
+     unavailable reason — "{n} does not divide evenly into {k} abreast" —
+     rather than the weaker "the archway only takes full ones".
+   - `saidSillShort` — the ten follow the corrected English. For the record,
+     the sentence it replaced ("only ever … when the archway takes two") was
+     refuted in 237 reachable states: two left-behinds fill at k=3 in 98 of
+     them, at k=4 in 75, at k=5 in 64.
    ---------------------------------------------------------------------
 
    PAID PLAN NAME verified against `frontend/messages/<loc>.json`
@@ -141,7 +152,9 @@ module.exports = {
     ariaYard: 'Der wartende Umzug, der Rundbogen und der Hof dahinter.',
     ariaWaiting: '{n} warten noch',
     ariaThrough: '{n} durch, {r} mal nebeneinander',
-    ariaStand: '{n} bleiben stehen, daneben die leeren Plätze',
+    /* ⚠ tally form: "{e} leere Plätze" would read "1 leere Plätze" at the
+       default width, which is where this label fires most often. */
+    ariaStand: '{n} bleiben stehen, leere Plätze daneben: {e}',
     ariaSill: 'der Sims, so breit wie der Rundbogen',
 
     setN: 'Wie viele nebeneinander',
@@ -149,7 +162,6 @@ module.exports = {
     n3: 'drei',
     n4: 'vier',
     n5: 'fünf',
-    setSize: 'Wie viele marschieren',
 
     predYes: 'Alle kommen durch',
     predNo: 'Jemand bleibt stehen',
@@ -162,13 +174,15 @@ module.exports = {
     saidPredNo: 'Die Klasse sagt: Jemand bleibt stehen. Die Schranke ist oben.',
     saidRank: '{n} durch, {w} warten noch.',
     saidClear: 'Alle {n} sind durch — {r} mal {k} nebeneinander. Niemand ist stehen geblieben.',
-    saidStand: '{s} von {n} bleiben stehen, denn der Rundbogen lässt nur volle {k} nebeneinander durch.',
+    saidAllThrough: 'Alle sind schon durch. Fang einen neuen Umzug an.',
+    saidStand: '{s} bleiben stehen: {n} lässt sich nicht restlos zu {k} nebeneinander aufteilen. Der Rundbogen nimmt nur volle, nie angefangene.',
     saidSecond: 'Ein zweiter Umzug mit {n}. Auch dort bleiben {s} stehen.',
     saidSill: 'Beide auf dem Sims — und der Sims ist voll, also darf er hindurch. {a} und {b} zusammen füllen den Rundbogen genau.',
-    saidSillShort: '{a} und {b} auf dem Sims sind {c} — und {c} füllt {k} nebeneinander immer noch nicht. Nur wenn der Rundbogen zwei nimmt, geht es jedes Mal auf.',
+    saidSillShort: '{a} und {b} auf dem Sims sind {c} — und {c} füllt {k} nebeneinander immer noch nicht, also warten auch sie. Bei zwei nebeneinander geht es jedes Mal auf; bei einem breiteren Rundbogen nur manchmal.',
     saidBarDown: 'Sagt zuerst, was ihr glaubt. Dann geht die Schranke hoch.',
-    saidNoSill: 'Auf den Sims kommen nur die, die stehen geblieben sind, und sie stellen sich nur einmal hin. Hol zuerst den zweiten Umzug.',
-    saidBusy: 'Die Klasse hat sich schon festgelegt. Für eine neue Vorhersage braucht ihr einen neuen Umzug.',
+    saidNoSecond: 'Hol zuerst den zweiten Umzug — auf den Sims kommen die, die aus beiden Umzügen stehen geblieben sind.',
+    saidOnSill: 'Sie stehen schon auf dem Sims.',
+    saidBusy: 'Die Klasse hat sich schon festgelegt. Ruft sie nach vorn und findet es heraus.',
 
     gateTitle: 'Der Umzug aus Papier',
     gateBody: 'Der ganze Rundbogen ist frei — jede Breite, jeder Aufruf, die Verweigerung und der Sims. Das Lehrkraft-Abo legt den Umzug aus Papier dazu: zum Ausschneiden und Aufstellen auf dem Tisch, damit ein Kind die Marschierenden durch einen selbst geschnittenen Rundbogen schicken kann.',
@@ -188,7 +202,7 @@ module.exports = {
     ariaYard: 'Le défilé qui attend, l’arche, et la cour au-delà.',
     ariaWaiting: '{n} attendent encore',
     ariaThrough: '{n} passés, en {r} appels',
-    ariaStand: '{n} restent debout, avec les places vides à côté',
+    ariaStand: '{n} restent debout, places vides à côté : {e}',
     ariaSill: 'le seuil, aussi large que l’arche',
 
     setN: 'Combien de front',
@@ -196,7 +210,6 @@ module.exports = {
     n3: 'trois',
     n4: 'quatre',
     n5: 'cinq',
-    setSize: 'Combien défilent',
 
     predYes: 'Tout le monde passera',
     predNo: 'Quelqu’un restera debout',
@@ -209,13 +222,15 @@ module.exports = {
     saidPredNo: 'La classe dit que quelqu’un restera debout. La barrière est levée.',
     saidRank: '{n} passés, {w} attendent encore.',
     saidClear: 'Les {n} sont tous passés — {r} fois {k} de front. Personne n’est resté debout.',
-    saidStand: '{s} sur {n} restent debout, car l’arche ne laisse passer que {k} de front, et au complet.',
+    saidAllThrough: 'Tout le monde est déjà passé. Commence un nouveau défilé.',
+    saidStand: '{s} restent debout : {n} ne tombe pas juste à {k} de front. L’arche ne prend que des complets, jamais des entamés.',
     saidSecond: 'Un second défilé de {n}. Lui aussi laisse {s} debout.',
     saidSill: 'Tous les deux sur le seuil — et le seuil est complet, donc il passe. {a} et {b} ensemble remplissent l’arche exactement.',
-    saidSillShort: '{a} et {b} sur le seuil font {c} — et {c} ne remplit toujours pas {k} de front. Ce n’est que lorsque l’arche en prend deux que cela tombe juste à chaque fois.',
+    saidSillShort: '{a} et {b} sur le seuil font {c} — et {c} ne remplit toujours pas {k} de front, alors eux aussi attendent. À deux de front, cela tombe juste à chaque fois ; sous une arche plus large, seulement parfois.',
     saidBarDown: 'Dites d’abord ce que vous pensez. La barrière se lève ensuite.',
-    saidNoSill: 'Seuls ceux qui sont restés debout montent sur le seuil, et ils n’y montent qu’une fois. Faites d’abord venir le second défilé.',
-    saidBusy: 'La classe s’est déjà prononcée. Il faut un nouveau défilé pour une nouvelle prédiction.',
+    saidNoSecond: 'Fais d’abord venir le second défilé — le seuil est pour ceux qui sont restés debout dans les deux défilés.',
+    saidOnSill: 'Ils sont déjà sur le seuil.',
+    saidBusy: 'La classe s’est déjà prononcée. Appelez-les en avant et voyez.',
 
     gateTitle: 'Le défilé en papier',
     gateBody: 'Toute l’arche est libre — chaque largeur, chaque appel, le refus et le seuil. L’Abonnement Enseignant ajoute le défilé en papier à découper et à aligner sur la table, pour qu’un enfant fasse passer les marcheurs sous une arche qu’il a découpée lui-même.',
@@ -235,7 +250,7 @@ module.exports = {
     ariaYard: 'El desfile esperando, el pórtico y el patio del otro lado.',
     ariaWaiting: '{n} siguen esperando',
     ariaThrough: '{n} han pasado, en {r} llamadas',
-    ariaStand: '{n} se quedan de pie, con los lugares vacíos al lado',
+    ariaStand: '{n} se quedan de pie, lugares vacíos al lado: {e}',
     ariaSill: 'el umbral, tan ancho como el pórtico',
 
     setN: 'Cuántos juntos',
@@ -243,7 +258,6 @@ module.exports = {
     n3: 'tres',
     n4: 'cuatro',
     n5: 'cinco',
-    setSize: 'Cuántos desfilan',
 
     predYes: 'Pasarán todos',
     predNo: 'Alguien se quedará de pie',
@@ -256,13 +270,15 @@ module.exports = {
     saidPredNo: 'La clase dice que alguien se quedará de pie. La barrera está levantada.',
     saidRank: '{n} han pasado, {w} siguen esperando.',
     saidClear: 'Los {n} pasaron todos — {r} veces {k} juntos. Nadie se quedó de pie.',
-    saidStand: '{s} de {n} se quedan de pie, porque el pórtico solo deja pasar a {k} juntos, y completos.',
+    saidAllThrough: 'Ya pasaron todos. Empieza un desfile nuevo.',
+    saidStand: '{s} se quedan de pie: {n} no se reparte exactamente en {k} juntos. El pórtico solo acepta completos, nunca a medias.',
     saidSecond: 'Un segundo desfile de {n}. También deja a {s} de pie.',
     saidSill: 'Los dos en el umbral — y el umbral está lleno, así que pasa. {a} y {b} juntos llenan el pórtico exactamente.',
-    saidSillShort: '{a} y {b} en el umbral son {c} — y {c} sigue sin llenar {k} juntos. Solo cuando el pórtico deja pasar a dos sale justo todas las veces.',
+    saidSillShort: '{a} y {b} en el umbral son {c} — y {c} sigue sin llenar {k} juntos, así que ellos también esperan. Con dos juntos sale justo todas las veces; con un pórtico más ancho, solo a veces.',
     saidBarDown: 'Digan primero lo que creen. Después se levanta la barrera.',
-    saidNoSill: 'Al umbral solo suben los que se quedaron de pie, y suben una sola vez. Trae primero el segundo desfile.',
-    saidBusy: 'La clase ya se ha decidido. Hace falta un desfile nuevo para volver a predecir.',
+    saidNoSecond: 'Trae primero el segundo desfile: al umbral suben los que se quedaron de pie en los dos desfiles.',
+    saidOnSill: 'Ya están en el umbral.',
+    saidBusy: 'La clase ya ha dicho lo que cree. Llámenlos hacia delante y compruébenlo.',
 
     gateTitle: 'El desfile de papel',
     gateBody: 'Todo el pórtico es gratis: cada anchura, cada llamada, el rechazo y el umbral. El Plan Docente añade el desfile de papel para recortar y alinear sobre la mesa, para que un niño haga pasar a los desfilantes por un pórtico recortado por él mismo.',
@@ -282,7 +298,7 @@ module.exports = {
     ariaYard: 'O desfile esperando, o pórtico e o pátio do outro lado.',
     ariaWaiting: '{n} ainda esperando',
     ariaThrough: '{n} passaram, em {r} chamadas',
-    ariaStand: '{n} ficam de pé, com os lugares vazios ao lado',
+    ariaStand: '{n} ficam de pé, lugares vazios ao lado: {e}',
     ariaSill: 'a soleira, tão larga quanto o pórtico',
 
     setN: 'Quantos lado a lado',
@@ -290,7 +306,6 @@ module.exports = {
     n3: 'três',
     n4: 'quatro',
     n5: 'cinco',
-    setSize: 'Quantos estão desfilando',
 
     predYes: 'Todos vão passar',
     predNo: 'Alguém vai ficar de pé',
@@ -303,13 +318,15 @@ module.exports = {
     saidPredNo: 'A turma diz que alguém vai ficar de pé. A barreira está levantada.',
     saidRank: '{n} passaram, {w} ainda esperando.',
     saidClear: 'Os {n} passaram todos — {r} vezes {k} lado a lado. Ninguém ficou de pé.',
-    saidStand: '{s} de {n} ficam de pé, porque o pórtico só deixa passar {k} lado a lado, e completos.',
+    saidAllThrough: 'Todos já passaram. Comece um desfile novo.',
+    saidStand: '{s} ficam de pé: {n} não se divide exatamente em {k} lado a lado. O pórtico só aceita completos, nunca pela metade.',
     saidSecond: 'Um segundo desfile de {n}. Ele também deixa {s} de pé.',
     saidSill: 'Os dois na soleira — e a soleira está cheia, então passa. {a} e {b} juntos enchem o pórtico exatamente.',
-    saidSillShort: '{a} e {b} na soleira dão {c} — e {c} ainda não enche {k} lado a lado. Só quando o pórtico deixa passar dois é que dá certo todas as vezes.',
+    saidSillShort: '{a} e {b} na soleira dão {c} — e {c} ainda não enche {k} lado a lado, então eles também esperam. Com dois lado a lado dá certo todas as vezes; com um pórtico mais largo, só às vezes.',
     saidBarDown: 'Digam primeiro o que vocês acham. Depois a barreira sobe.',
-    saidNoSill: 'Só sobem na soleira os que ficaram de pé, e sobem uma vez só. Traga primeiro o segundo desfile.',
-    saidBusy: 'A turma já se decidiu. É preciso um desfile novo para prever de novo.',
+    saidNoSecond: 'Traga primeiro o segundo desfile — na soleira sobem os que ficaram de pé nos dois desfiles.',
+    saidOnSill: 'Eles já estão na soleira.',
+    saidBusy: 'A turma já disse o que acha. Chamem-nos para a frente e confiram.',
 
     gateTitle: 'O desfile de papel',
     gateBody: 'O pórtico inteiro é gratuito: cada largura, cada chamada, a recusa e a soleira. O Plano Professor acrescenta o desfile de papel para recortar e alinhar sobre a mesa, para que a criança faça os desfilantes passarem por um pórtico recortado por ela mesma.',
@@ -329,7 +346,7 @@ module.exports = {
     ariaYard: 'La sfilata che aspetta, l’arcata e il cortile oltre.',
     ariaWaiting: '{n} aspettano ancora',
     ariaThrough: '{n} passati, in {r} chiamate',
-    ariaStand: '{n} restano in piedi, con accanto gli spazi vuoti',
+    ariaStand: '{n} restano in piedi, spazi vuoti accanto: {e}',
     ariaSill: 'la soglia, larga quanto l’arcata',
 
     setN: 'Quanti affiancati',
@@ -337,7 +354,6 @@ module.exports = {
     n3: 'tre',
     n4: 'quattro',
     n5: 'cinque',
-    setSize: 'Quanti sfilano',
 
     predYes: 'Passeranno tutti',
     predNo: 'Qualcuno resterà in piedi',
@@ -350,13 +366,15 @@ module.exports = {
     saidPredNo: 'La classe dice che qualcuno resterà in piedi. La sbarra è alzata.',
     saidRank: '{n} passati, {w} aspettano ancora.',
     saidClear: 'Tutti e {n} sono passati — {r} volte {k} affiancati. Nessuno è rimasto in piedi.',
-    saidStand: '{s} su {n} restano in piedi, perché l’arcata lascia passare solo {k} affiancati, e al completo.',
+    saidAllThrough: 'Sono già passati tutti. Comincia una nuova sfilata.',
+    saidStand: '{s} restano in piedi: {n} non si divide esattamente in {k} affiancati. L’arcata accetta solo chi è al completo, mai chi è a metà.',
     saidSecond: 'Una seconda sfilata di {n}. Anche questa lascia {s} in piedi.',
     saidSill: 'Tutti e due sulla soglia — e la soglia è piena, quindi passa. {a} e {b} insieme riempiono l’arcata esattamente.',
-    saidSillShort: '{a} e {b} sulla soglia fanno {c} — e {c} non riempie ancora {k} affiancati. Solo quando l’arcata ne prende due torna ogni volta.',
+    saidSillShort: '{a} e {b} sulla soglia fanno {c} — e {c} non riempie ancora {k} affiancati, quindi aspettano anche loro. Con due affiancati torna ogni volta; sotto un’arcata più larga, solo a volte.',
     saidBarDown: 'Dite prima che cosa pensate. Poi la sbarra si alza.',
-    saidNoSill: 'Sulla soglia salgono solo quelli rimasti in piedi, e ci salgono una volta sola. Fai arrivare prima la seconda sfilata.',
-    saidBusy: 'La classe si è già espressa. Per una nuova previsione serve una nuova sfilata.',
+    saidNoSecond: 'Fai arrivare prima la seconda sfilata — sulla soglia salgono quelli rimasti in piedi nelle due sfilate.',
+    saidOnSill: 'Sono già sulla soglia.',
+    saidBusy: 'La classe si è già espressa. Chiamateli avanti e vedete.',
 
     gateTitle: 'La sfilata di carta',
     gateBody: 'Tutta l’arcata è gratuita: ogni larghezza, ogni chiamata, il rifiuto e la soglia. Il Piano Insegnante aggiunge la sfilata di carta da ritagliare e allineare sul tavolo, così un bambino può far passare i marciatori sotto un’arcata ritagliata da lui.',
@@ -376,7 +394,7 @@ module.exports = {
     ariaYard: 'De optocht die wacht, de doorgang en het plein erachter.',
     ariaWaiting: '{n} wachten nog',
     ariaThrough: '{n} erdoor, in {r} keer',
-    ariaStand: '{n} blijven staan, met de lege plekken ernaast',
+    ariaStand: '{n} blijven staan, lege plekken ernaast: {e}',
     ariaSill: 'de drempel, zo breed als de doorgang',
 
     setN: 'Hoeveel naast elkaar',
@@ -384,7 +402,6 @@ module.exports = {
     n3: 'drie',
     n4: 'vier',
     n5: 'vijf',
-    setSize: 'Hoeveel er meelopen',
 
     predYes: 'Iedereen komt erdoor',
     predNo: 'Er blijft iemand staan',
@@ -397,13 +414,15 @@ module.exports = {
     saidPredNo: 'De klas zegt dat er iemand blijft staan. De slagboom staat omhoog.',
     saidRank: '{n} erdoor, {w} wachten nog.',
     saidClear: 'Alle {n} zijn erdoor — {r} keer {k} naast elkaar. Niemand bleef staan.',
-    saidStand: '{s} van de {n} blijven staan, want de doorgang laat er alleen {k} naast elkaar door, en dan nog vol ook.',
+    saidAllThrough: 'Iedereen is er al door. Begin een nieuwe optocht.',
+    saidStand: '{s} blijven staan: {n} gaat niet precies op in {k} naast elkaar. De doorgang neemt alleen volle, nooit halve.',
     saidSecond: 'Een tweede optocht van {n}. Daar blijven er ook {s} staan.',
     saidSill: 'Allebei op de drempel — en de drempel is vol, dus die mag erdoor. {a} en {b} samen vullen de doorgang precies.',
-    saidSillShort: '{a} en {b} op de drempel zijn {c} — en {c} vult {k} naast elkaar nog steeds niet. Alleen als de doorgang er twee neemt, klopt het elke keer.',
+    saidSillShort: '{a} en {b} op de drempel zijn {c} — en {c} vult {k} naast elkaar nog steeds niet, dus zij wachten ook. Bij twee naast elkaar klopt het elke keer; bij een bredere doorgang alleen soms.',
     saidBarDown: 'Zeg eerst wat je denkt. Daarna gaat de slagboom omhoog.',
-    saidNoSill: 'Op de drempel komen alleen wie is blijven staan, en ze gaan er maar één keer op. Haal eerst de tweede optocht.',
-    saidBusy: 'De klas heeft zich al uitgesproken. Voor een nieuwe voorspelling heb je een nieuwe optocht nodig.',
+    saidNoSecond: 'Haal eerst de tweede optocht — op de drempel komen wie in allebei de optochten is blijven staan.',
+    saidOnSill: 'Ze staan al op de drempel.',
+    saidBusy: 'De klas heeft zich al uitgesproken. Roep ze naar voren en kijk wat er gebeurt.',
 
     gateTitle: 'De papieren optocht',
     gateBody: 'De hele doorgang is gratis: elke breedte, elke oproep, de weigering en de drempel. Het Leerkracht-abonnement voegt de papieren optocht toe om uit te knippen en op tafel te zetten, zodat een kind de lopers door een zelfgeknipte doorgang kan sturen.',
@@ -423,7 +442,7 @@ module.exports = {
     ariaYard: 'Paraden som väntar, valvet och gården bakom.',
     ariaWaiting: '{n} väntar fortfarande',
     ariaThrough: '{n} igenom, på {r} rop',
-    ariaStand: '{n} blir stående, med de tomma platserna bredvid',
+    ariaStand: '{n} blir stående, tomma platser bredvid: {e}',
     ariaSill: 'tröskeln, lika bred som valvet',
 
     setN: 'Hur många i bredd',
@@ -431,7 +450,6 @@ module.exports = {
     n3: 'tre',
     n4: 'fyra',
     n5: 'fem',
-    setSize: 'Hur många som marscherar',
 
     predYes: 'Alla kommer igenom',
     predNo: 'Någon blir stående',
@@ -444,13 +462,15 @@ module.exports = {
     saidPredNo: 'Klassen säger att någon blir stående. Bommen är uppe.',
     saidRank: '{n} igenom, {w} väntar fortfarande.',
     saidClear: 'Alla {n} kom igenom — {r} gånger {k} i bredd. Ingen blev stående.',
-    saidStand: '{s} av {n} blir stående, för valvet släpper bara igenom {k} i bredd, och då fulla.',
+    saidAllThrough: 'Alla har redan kommit igenom. Börja en ny parad.',
+    saidStand: '{s} blir stående: {n} går inte jämnt upp i {k} i bredd. Valvet tar bara fulla, aldrig påbörjade.',
     saidSecond: 'En andra parad på {n}. Även den lämnar {s} stående.',
     saidSill: 'Båda på tröskeln — och tröskeln är full, så den får gå igenom. {a} och {b} tillsammans fyller valvet precis.',
-    saidSillShort: '{a} och {b} på tröskeln blir {c} — och {c} fyller fortfarande inte {k} i bredd. Bara när valvet tar två går det jämnt ut varje gång.',
+    saidSillShort: '{a} och {b} på tröskeln blir {c} — och {c} fyller fortfarande inte {k} i bredd, så de får också vänta. Med två i bredd går det jämnt ut varje gång; med ett bredare valv bara ibland.',
     saidBarDown: 'Säg först vad ni tror. Sedan går bommen upp.',
-    saidNoSill: 'På tröskeln ställer sig bara de som blev stående, och de ställer sig bara en gång. Hämta den andra paraden först.',
-    saidBusy: 'Klassen har redan sagt sitt. Det behövs en ny parad för en ny gissning.',
+    saidNoSecond: 'Hämta den andra paraden först — på tröskeln ställer sig de som blev stående i båda paraderna.',
+    saidOnSill: 'De står redan på tröskeln.',
+    saidBusy: 'Klassen har redan sagt sitt. Ropa fram dem och se efter.',
 
     gateTitle: 'Pappersparaden',
     gateBody: 'Hela valvet är gratis: varje bredd, varje rop, vägran och tröskeln. Lärarplanen lägger till pappersparaden att klippa ut och ställa upp på bordet, så att ett barn kan skicka marscherarna genom ett valv som det klippt själv.',
@@ -470,7 +490,7 @@ module.exports = {
     ariaYard: 'Optoget der venter, hvælvingen og gården bagved.',
     ariaWaiting: '{n} venter stadig',
     ariaThrough: '{n} igennem, på {r} kald',
-    ariaStand: '{n} bliver stående, med de tomme pladser ved siden af',
+    ariaStand: '{n} bliver stående, tomme pladser ved siden af: {e}',
     ariaSill: 'tærsklen, lige så bred som hvælvingen',
 
     setN: 'Hvor mange ved siden af hinanden',
@@ -478,7 +498,6 @@ module.exports = {
     n3: 'tre',
     n4: 'fire',
     n5: 'fem',
-    setSize: 'Hvor mange der marcherer',
 
     predYes: 'Alle kommer igennem',
     predNo: 'Nogen bliver stående',
@@ -491,13 +510,15 @@ module.exports = {
     saidPredNo: 'Klassen siger, at nogen bliver stående. Bommen er oppe.',
     saidRank: '{n} igennem, {w} venter stadig.',
     saidClear: 'Alle {n} kom igennem — {r} gange {k} ved siden af hinanden. Ingen blev stående.',
-    saidStand: '{s} ud af {n} bliver stående, for hvælvingen lukker kun {k} igennem ved siden af hinanden — hverken flere eller færre.',
+    saidAllThrough: 'Alle er allerede kommet igennem. Start et nyt optog.',
+    saidStand: '{s} bliver stående: {n} går ikke op i {k} ved siden af hinanden. Hvælvingen tager kun fulde, aldrig halve.',
     saidSecond: 'Et andet optog på {n}. Det efterlader også {s} stående.',
     saidSill: 'Dem begge på tærsklen — og tærsklen er fuld, så den må komme igennem. {a} og {b} tilsammen fylder hvælvingen præcis.',
-    saidSillShort: '{a} og {b} på tærsklen bliver {c} — og {c} fylder stadig ikke {k} ved siden af hinanden. Kun når hvælvingen tager to, går det op hver gang.',
+    saidSillShort: '{a} og {b} på tærsklen bliver {c} — og {c} fylder stadig ikke {k} ved siden af hinanden, så de venter også. Med to ved siden af hinanden går det op hver gang; med en bredere hvælving kun nogle gange.',
     saidBarDown: 'Sig først, hvad I tror. Så går bommen op.',
-    saidNoSill: 'På tærsklen stiller kun dem, der blev stående, sig op, og de stiller sig kun én gang. Hent først det andet optog.',
-    saidBusy: 'Klassen har allerede sagt sit. Der skal et nyt optog til, før I kan gætte igen.',
+    saidNoSecond: 'Hent først det andet optog — på tærsklen stiller dem, der blev stående i begge optog, sig op.',
+    saidOnSill: 'De står allerede på tærsklen.',
+    saidBusy: 'Klassen har allerede sagt sit. Kald dem frem, og se efter.',
 
     gateTitle: 'Papiroptoget',
     gateBody: 'Hele hvælvingen er gratis: hver bredde, hvert kald, afvisningen og tærsklen. Lærerabonnementet lægger papiroptoget til, som klippes ud og stilles op på bordet, så et barn kan sende de marcherende gennem en hvælving, det selv har klippet.',
@@ -517,7 +538,7 @@ module.exports = {
     ariaYard: 'Opptoget som venter, hvelvingen og gården bak.',
     ariaWaiting: '{n} venter fortsatt',
     ariaThrough: '{n} gjennom, på {r} rop',
-    ariaStand: '{n} blir stående, med de tomme plassene ved siden av',
+    ariaStand: '{n} blir stående, tomme plasser ved siden av: {e}',
     ariaSill: 'terskelen, like bred som hvelvingen',
 
     setN: 'Hvor mange ved siden av hverandre',
@@ -525,7 +546,6 @@ module.exports = {
     n3: 'tre',
     n4: 'fire',
     n5: 'fem',
-    setSize: 'Hvor mange som marsjerer',
 
     predYes: 'Alle kommer gjennom',
     predNo: 'Noen blir stående',
@@ -538,13 +558,15 @@ module.exports = {
     saidPredNo: 'Klassen sier at noen blir stående. Bommen er oppe.',
     saidRank: '{n} gjennom, {w} venter fortsatt.',
     saidClear: 'Alle {n} kom gjennom — {r} ganger {k} ved siden av hverandre. Ingen ble stående.',
-    saidStand: '{s} av {n} blir stående, for hvelvingen slipper bare gjennom {k} ved siden av hverandre — verken flere eller færre.',
+    saidAllThrough: 'Alle har allerede kommet gjennom. Start et nytt opptog.',
+    saidStand: '{s} blir stående: {n} går ikke opp i {k} ved siden av hverandre. Hvelvingen tar bare fulle, aldri halve.',
     saidSecond: 'Et andre opptog på {n}. Det lar også {s} bli stående.',
     saidSill: 'Begge på terskelen — og terskelen er full, så den får gå gjennom. {a} og {b} til sammen fyller hvelvingen nøyaktig.',
-    saidSillShort: '{a} og {b} på terskelen blir {c} — og {c} fyller fortsatt ikke {k} ved siden av hverandre. Bare når hvelvingen tar to, går det opp hver gang.',
+    saidSillShort: '{a} og {b} på terskelen blir {c} — og {c} fyller fortsatt ikke {k} ved siden av hverandre, så de venter også. Med to ved siden av hverandre går det opp hver gang; med en bredere hvelving bare noen ganger.',
     saidBarDown: 'Si først hva dere tror. Så går bommen opp.',
-    saidNoSill: 'På terskelen stiller bare de som ble stående seg opp, og de stiller seg bare én gang. Hent det andre opptoget først.',
-    saidBusy: 'Klassen har allerede sagt sitt. Det trengs et nytt opptog for å gjette på nytt.',
+    saidNoSecond: 'Hent det andre opptoget først — på terskelen stiller de som ble stående i begge opptogene seg opp.',
+    saidOnSill: 'De står allerede på terskelen.',
+    saidBusy: 'Klassen har allerede sagt sitt. Rop dem fram og se etter.',
 
     gateTitle: 'Papiropptoget',
     gateBody: 'Hele hvelvingen er gratis: hver bredde, hvert rop, avvisningen og terskelen. Lærerabonnementet legger til papiropptoget som klippes ut og stilles opp på bordet, slik at et barn kan sende de marsjerende gjennom en hvelving det har klippet selv.',
@@ -567,7 +589,10 @@ module.exports = {
        bare numeral in front of an inflected noun does not agree. Nominative
        tally instead, which is correct for every value of {r}. */
     ariaThrough: '{n} läpi, kutsuja {r}',
-    ariaStand: '{n} jää seisomaan, vieressä tyhjät paikat',
+    /* ⭐ Finnish is the one locale that keeps the natural phrase here: the
+       partitive singular after a numeral is correct at 1 as well as at 4,
+       so this reads right at every {e}, unlike the English. */
+    ariaStand: '{n} jää seisomaan, vieressä {e} tyhjää paikkaa',
     ariaSill: 'kynnys, yhtä leveä kuin holvi',
 
     setN: 'Montako rinnakkain',
@@ -575,7 +600,6 @@ module.exports = {
     n3: 'kolme',
     n4: 'neljä',
     n5: 'viisi',
-    setSize: 'Montako marssii',
 
     predYes: 'Kaikki pääsevät läpi',
     predNo: 'Joku jää seisomaan',
@@ -588,21 +612,19 @@ module.exports = {
     saidPredNo: 'Luokka sanoo, että joku jää seisomaan. Puomi on ylhäällä.',
     saidRank: '{n} läpi, {w} odottaa vielä.',
     saidClear: 'Kaikki {n} pääsivät läpi — {r} kertaa {k} rinnakkain. Kukaan ei jäänyt seisomaan.',
-    /* ⚠ NOT `{n}:stä` — the elative suffix follows vowel harmony, so it is
-       7:stä but 12:sta, 8:sta but 9:stä. No fixed suffix is right for the
-       whole range 3..20. {n} therefore sits as the nominative predicate of
-       `on`, which is correct for every value. */
-    saidStand: '{s} jää seisomaan, vaikka marssijoita on {n}, sillä holvista pääsee vain täydet {k} rinnakkain.',
+    saidAllThrough: 'Kaikki ovat jo päässeet läpi. Aloita uusi kulkue.',
+    /* ⚠ {n} stays a nominative predicate of `on` — an elative `{n}:stä`
+       would be 7:stä but 12:sta, and no fixed suffix serves 3..20. */
+    saidStand: '{s} jää seisomaan: marssijoita on {n}, eikä se jakaudu tasan. Holvista pääsee vain täydet {k} rinnakkain.',
     saidSecond: 'Toinen kulkue, {n} marssijaa. Siitäkin jää {s} seisomaan.',
     saidSill: 'Molemmat kynnyksellä — ja kynnys on täysi, joten se pääsee läpi. {a} ja {b} yhdessä täyttävät holvin tarkalleen.',
     /* ⚠ {k} stays NOMINATIVE as the subject of `mahtuu` — a partitive slot
-       would need 2:ta / 3:a / 4:ää / 5:ttä, and no single suffix serves all
-       four values. The sentence was rebuilt around the case, not the case
-       forced into the sentence. */
-    saidSillShort: '{a} ja {b} kynnyksellä ovat {c} — eikä {c} täytä holvia, johon mahtuu {k} rinnakkain. Vain silloin kun holvista mahtuu kaksi, se osuu tasan joka kerta.',
+       would need 2:ta / 3:a / 4:ää / 5:ttä. */
+    saidSillShort: '{a} ja {b} kynnyksellä ovat {c} — eikä {c} täytä holvia, johon mahtuu {k} rinnakkain, joten hekin jäävät odottamaan. Kun rinnakkain mahtuu kaksi, se osuu tasan joka kerta; leveämmässä holvissa vain joskus.',
     saidBarDown: 'Sanokaa ensin, mitä uskotte. Sitten puomi nousee.',
-    saidNoSill: 'Kynnykselle asettuvat vain ne, jotka jäivät seisomaan, ja he asettuvat sille vain kerran. Hae ensin toinen kulkue.',
-    saidBusy: 'Luokka on jo sanonut sanottavansa. Uutta arvausta varten tarvitaan uusi kulkue.',
+    saidNoSecond: 'Hae ensin toinen kulkue — kynnykselle asettuvat ne, jotka jäivät seisomaan kummastakin kulkueesta.',
+    saidOnSill: 'He seisovat jo kynnyksellä.',
+    saidBusy: 'Luokka on jo sanonut sanottavansa. Kutsu heidät eteen ja katso.',
 
     gateTitle: 'Paperikulkue',
     gateBody: 'Koko holvi on ilmainen: jokainen leveys, jokainen kutsu, torjuminen ja kynnys. Opettajatilaus tuo lisäksi paperikulkueen, jonka voi leikata irti ja asettaa pöydälle, niin lapsi voi kuljettaa marssijat itse leikkaamansa holvin läpi.',

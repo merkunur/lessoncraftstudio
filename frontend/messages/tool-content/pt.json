@@ -1385,6 +1385,28 @@
       "Recorte pelo contorno e dobre nas linhas pontilhadas para o terreno ficar em pé. Escreva os dois números redondos nas covas. Coloque um seixo de verdade em qualquer ponto de uma ladeira e ele desce até uma cova; coloque sobre a crista e ele fica lá, que é justamente a questão."
     ]
   },
+  "pair-gate": {
+    "name": "O pórtico",
+    "slug": "numeros-pares-e-impares-formando-duplas-anos-iniciais",
+    "tagline": "O pórtico deixa passar exatamente dois lado a lado — e quem fica não é desenhado de outro jeito. Só o lugar vazio ao lado dele.",
+    "metaTitle": "Pares e ímpares: passar dois lado a lado, anos iniciais",
+    "metaDescription": "Digam primeiro se todos vão passar e depois chamem de dois em dois. Dois desfiles que deixam um cada um formam juntos uma fila cheia.",
+    "about": [
+      "O pórtico deixa passar exatamente esta quantidade lado a lado. Digam primeiro se todos vão passar e depois chamem-nos para a frente, tantos por vez, e confiram.",
+      "O desfile esperando, o pórtico e o pátio do outro lado.",
+      "O pórtico inteiro é gratuito: cada largura, cada chamada, a recusa e a soleira. O Plano Professor acrescenta o desfile de papel para recortar e alinhar sobre a mesa, para que a criança faça os desfilantes passarem por um pórtico recortado por ela mesma."
+    ],
+    "howToUse": [
+      "Alguém vai ficar de pé. A turma diz que alguém vai ficar de pé. A barreira está levantada.",
+      "Chamar os próximos. 1 ficam de pé: 17 não se divide exatamente em 2 lado a lado. O pórtico só aceita completos, nunca pela metade.",
+      "Colocar os dois na soleira. Os dois na soleira — e a soleira está cheia, então passa. 1 e 1 juntos enchem o pórtico exatamente."
+    ],
+    "classroomIdeas": [
+      "1 ficam de pé, lugares vazios ao lado: 1",
+      "Trazer o segundo desfile. Um segundo desfile de 13. Ele também deixa 1 de pé.",
+      "Recorte os desfilantes e o pórtico. Coloque-os um atrás do outro e faça-os passar, tantos lado a lado por vez. Quando sobrarem poucos demais para encher o pórtico, deixe-os de pé e desenhe os lugares vazios ao lado deles — esses lugares vazios são o que o número está dizendo."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

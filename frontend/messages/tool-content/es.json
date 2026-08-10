@@ -1384,6 +1384,28 @@
       "Recorta por el contorno y pliega por las líneas de puntos para que el terreno se sostenga. Escribe los dos números redondos en las hondonadas. Pon un guijarro de verdad en cualquier punto de una ladera y bajará a una hondonada; ponlo sobre la cresta y se quedará ahí, que es de lo que se trata."
     ]
   },
+  "pair-gate": {
+    "name": "El pórtico",
+    "slug": "numeros-pares-e-impares-emparejando-primaria",
+    "tagline": "El pórtico deja pasar exactamente dos a la vez, y quien se queda no se dibuja distinto. Solo se ve el hueco vacío a su lado.",
+    "metaTitle": "Pares e impares: pasar de dos en dos, Primaria",
+    "metaDescription": "Decid primero si pasarán todos y luego llamadlos de dos en dos. Dos desfiles que dejan a uno cada uno forman juntos una fila completa.",
+    "about": [
+      "El pórtico deja pasar exactamente a esta cantidad juntos. Digan primero si pasarán todos y luego llámenlos hacia delante, tantos cada vez, y compruébenlo.",
+      "El desfile esperando, el pórtico y el patio del otro lado.",
+      "Todo el pórtico es gratis: cada anchura, cada llamada, el rechazo y el umbral. El Plan Docente añade el desfile de papel para recortar y alinear sobre la mesa, para que un niño haga pasar a los desfilantes por un pórtico recortado por él mismo."
+    ],
+    "howToUse": [
+      "Alguien se quedará de pie. La clase dice que alguien se quedará de pie. La barrera está levantada.",
+      "Llamar a los siguientes. 1 se quedan de pie: 17 no se reparte exactamente en 2 juntos. El pórtico solo acepta completos, nunca a medias.",
+      "Poner a los dos en el umbral. Los dos en el umbral — y el umbral está lleno, así que pasa. 1 y 1 juntos llenan el pórtico exactamente."
+    ],
+    "classroomIdeas": [
+      "1 se quedan de pie, lugares vacíos al lado: 1",
+      "Traer el segundo desfile. Un segundo desfile de 13. También deja a 1 de pie.",
+      "Recorta a los desfilantes y el pórtico. Colócalos uno detrás de otro y hazlos pasar, tantos juntos cada vez. Cuando queden muy pocos para llenar el pórtico, déjalos de pie y dibuja los lugares vacíos a su lado: esos lugares vacíos son lo que el número te está diciendo."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

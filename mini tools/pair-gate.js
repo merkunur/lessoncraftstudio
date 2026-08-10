@@ -131,40 +131,408 @@
     id: 'pair-gate',
 
     strings: {
-      title: { en: 'The Pair Gate' },
-      instruction: { en: 'The archway takes exactly this many abreast. Say first whether everybody will get through, then call them forward a rank at a time and find out.' },
+      title: {
+        en: 'The Pair Gate',
+        de: 'Der Rundbogen',
+        fr: 'L’arche',
+        es: 'El pórtico',
+        pt: 'O pórtico',
+        it: 'L’arcata',
+        nl: 'De doorgang',
+        sv: 'Valvet',
+        da: 'Hvælvingen',
+        no: 'Hvelvingen',
+        fi: 'Holvi'
+      },
+      instruction: {
+        en: 'The archway takes exactly this many abreast. Say first whether everybody will get through, then call them forward a rank at a time and find out.',
+        de: 'Der Rundbogen lässt genau so viele nebeneinander durch. Sagt zuerst, ob alle durchkommen, und ruft sie dann nach vorn — immer so viele auf einmal — und seht nach.',
+        fr: 'L’arche laisse passer exactement ce nombre-là de front. Dites d’abord si tout le monde passera, puis appelez-les en avant, autant à la fois, et voyez.',
+        es: 'El pórtico deja pasar exactamente a esta cantidad juntos. Digan primero si pasarán todos y luego llámenlos hacia delante, tantos cada vez, y compruébenlo.',
+        pt: 'O pórtico deixa passar exatamente esta quantidade lado a lado. Digam primeiro se todos vão passar e depois chamem-nos para a frente, tantos por vez, e confiram.',
+        it: 'L’arcata lascia passare esattamente questo numero di persone affiancate. Dite prima se passeranno tutti, poi chiamateli avanti, tanti alla volta, e vedete.',
+        nl: 'De doorgang laat er precies zoveel naast elkaar door. Zeg eerst of iedereen erdoor komt, roep ze dan naar voren, steeds zoveel tegelijk, en kijk wat er gebeurt.',
+        sv: 'Valvet släpper igenom precis så många i bredd. Säg först om alla kommer igenom, ropa dem sedan fram, så många åt gången, och se efter.',
+        da: 'Hvælvingen lukker præcis så mange igennem ved siden af hinanden. Sig først, om alle kommer igennem, kald dem så frem, så mange ad gangen, og se efter.',
+        no: 'Hvelvingen slipper gjennom nøyaktig så mange ved siden av hverandre. Si først om alle kommer gjennom, rop dem så fram, så mange om gangen, og se etter.',
+        fi: 'Holvista mahtuu kerralla juuri näin monta rinnakkain. Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten eteen, näin monta kerrallaan, ja katsokaa.'
+      },
 
-      ariaYard: { en: 'The parade waiting, the archway, and the yard beyond it.' },
-      ariaWaiting: { en: '{n} still waiting' },
-      ariaThrough: { en: '{n} through, in {r} ranks' },
-      ariaStand: { en: '{n} left standing, with {e} empty places beside them' },
-      ariaSill: { en: 'the sill, as wide as the archway' },
+      ariaYard: {
 
-      setN: { en: 'How many abreast' },
-      n2: { en: 'two' },
-      n3: { en: 'three' },
-      n4: { en: 'four' },
-      n5: { en: 'five' },
+        en: 'The parade waiting, the archway, and the yard beyond it.',
 
-      predYes: { en: 'Everybody will get through' },
-      predNo: { en: 'Somebody will be left standing' },
-      call: { en: 'Call the next rank forward' },
-      second: { en: 'Bring the second parade' },
-      sill: { en: 'Put them both on the sill' },
-      again: { en: 'A new parade' },
+        de: 'Der wartende Umzug, der Rundbogen und der Hof dahinter.',
 
-      saidPredYes: { en: 'The class says everybody gets through. The bar is up.' },
-      saidPredNo: { en: 'The class says somebody will be left standing. The bar is up.' },
-      saidRank: { en: '{n} through, {w} still waiting.' },
-      saidClear: { en: 'All {n} went through, in {r} ranks of {k}. Nobody was left standing.' },
+        fr: 'Le défilé qui attend, l’arche, et la cour au-delà.',
+
+        es: 'El desfile esperando, el pórtico y el patio del otro lado.',
+
+        pt: 'O desfile esperando, o pórtico e o pátio do outro lado.',
+
+        it: 'La sfilata che aspetta, l’arcata e il cortile oltre.',
+
+        nl: 'De optocht die wacht, de doorgang en het plein erachter.',
+
+        sv: 'Paraden som väntar, valvet och gården bakom.',
+
+        da: 'Optoget der venter, hvælvingen og gården bagved.',
+
+        no: 'Opptoget som venter, hvelvingen og gården bak.',
+
+        fi: 'Odottava kulkue, holvi ja piha sen takana.'
+
+      },
+      ariaWaiting: {
+        en: '{n} still waiting',
+        de: '{n} warten noch',
+        fr: '{n} attendent encore',
+        es: '{n} siguen esperando',
+        pt: '{n} ainda esperando',
+        it: '{n} aspettano ancora',
+        nl: '{n} wachten nog',
+        sv: '{n} väntar fortfarande',
+        da: '{n} venter stadig',
+        no: '{n} venter fortsatt',
+        fi: '{n} odottaa vielä'
+      },
+      ariaThrough: {
+        en: '{n} through, in {r} ranks',
+        de: '{n} durch, {r} mal nebeneinander',
+        fr: '{n} passés, en {r} appels',
+        es: '{n} han pasado, en {r} llamadas',
+        pt: '{n} passaram, em {r} chamadas',
+        it: '{n} passati, in {r} chiamate',
+        nl: '{n} erdoor, in {r} keer',
+        sv: '{n} igenom, på {r} rop',
+        da: '{n} igennem, på {r} kald',
+        no: '{n} gjennom, på {r} rop',
+        fi: '{n} läpi, kutsuja {r}'
+      },
+      /* ⚠⚠ A TALLY, NOT A PHRASE — and this is the THIRD generation of
+         the same defect in this tool. '{e} empty places' renders '1 empty
+         placeS' at two abreast, which is the DEFAULT width, so the
+         commonest state read wrong. Nine locales force the same
+         agreement (de '1 leere Plätze', sv '1 tomma platser'), so all
+         nine use this shape; Finnish alone keeps the natural phrase,
+         because its partitive singular after a numeral is right at 1 as
+         well as at 4. */
+      ariaStand: {
+        en: '{n} left standing. Empty places beside them: {e}',
+        de: '{n} bleiben stehen, leere Plätze daneben: {e}',
+        fr: '{n} restent debout, places vides à côté : {e}',
+        es: '{n} se quedan de pie, lugares vacíos al lado: {e}',
+        pt: '{n} ficam de pé, lugares vazios ao lado: {e}',
+        it: '{n} restano in piedi, spazi vuoti accanto: {e}',
+        nl: '{n} blijven staan, lege plekken ernaast: {e}',
+        sv: '{n} blir stående, tomma platser bredvid: {e}',
+        da: '{n} bliver stående, tomme pladser ved siden af: {e}',
+        no: '{n} blir stående, tomme plasser ved siden av: {e}',
+        fi: '{n} jää seisomaan, vieressä {e} tyhjää paikkaa'
+      },
+      ariaSill: {
+        en: 'the sill, as wide as the archway',
+        de: 'der Sims, so breit wie der Rundbogen',
+        fr: 'le seuil, aussi large que l’arche',
+        es: 'el umbral, tan ancho como el pórtico',
+        pt: 'a soleira, tão larga quanto o pórtico',
+        it: 'la soglia, larga quanto l’arcata',
+        nl: 'de drempel, zo breed als de doorgang',
+        sv: 'tröskeln, lika bred som valvet',
+        da: 'tærsklen, lige så bred som hvælvingen',
+        no: 'terskelen, like bred som hvelvingen',
+        fi: 'kynnys, yhtä leveä kuin holvi'
+      },
+
+      setN: {
+
+        en: 'How many abreast',
+
+        de: 'Wie viele nebeneinander',
+
+        fr: 'Combien de front',
+
+        es: 'Cuántos juntos',
+
+        pt: 'Quantos lado a lado',
+
+        it: 'Quanti affiancati',
+
+        nl: 'Hoeveel naast elkaar',
+
+        sv: 'Hur många i bredd',
+
+        da: 'Hvor mange ved siden af hinanden',
+
+        no: 'Hvor mange ved siden av hverandre',
+
+        fi: 'Montako rinnakkain'
+
+      },
+      n2: {
+        en: 'two',
+        de: 'zwei',
+        fr: 'deux',
+        es: 'dos',
+        pt: 'dois',
+        it: 'due',
+        nl: 'twee',
+        sv: 'två',
+        da: 'to',
+        no: 'to',
+        fi: 'kaksi'
+      },
+      n3: {
+        en: 'three',
+        de: 'drei',
+        fr: 'trois',
+        es: 'tres',
+        pt: 'três',
+        it: 'tre',
+        nl: 'drie',
+        sv: 'tre',
+        da: 'tre',
+        no: 'tre',
+        fi: 'kolme'
+      },
+      n4: {
+        en: 'four',
+        de: 'vier',
+        fr: 'quatre',
+        es: 'cuatro',
+        pt: 'quatro',
+        it: 'quattro',
+        nl: 'vier',
+        sv: 'fyra',
+        da: 'fire',
+        no: 'fire',
+        fi: 'neljä'
+      },
+      n5: {
+        en: 'five',
+        de: 'fünf',
+        fr: 'cinq',
+        es: 'cinco',
+        pt: 'cinco',
+        it: 'cinque',
+        nl: 'vijf',
+        sv: 'fem',
+        da: 'fem',
+        no: 'fem',
+        fi: 'viisi'
+      },
+
+      predYes: {
+
+        en: 'Everybody will get through',
+
+        de: 'Alle kommen durch',
+
+        fr: 'Tout le monde passera',
+
+        es: 'Pasarán todos',
+
+        pt: 'Todos vão passar',
+
+        it: 'Passeranno tutti',
+
+        nl: 'Iedereen komt erdoor',
+
+        sv: 'Alla kommer igenom',
+
+        da: 'Alle kommer igennem',
+
+        no: 'Alle kommer gjennom',
+
+        fi: 'Kaikki pääsevät läpi'
+
+      },
+      predNo: {
+        en: 'Somebody will be left standing',
+        de: 'Jemand bleibt stehen',
+        fr: 'Quelqu’un restera debout',
+        es: 'Alguien se quedará de pie',
+        pt: 'Alguém vai ficar de pé',
+        it: 'Qualcuno resterà in piedi',
+        nl: 'Er blijft iemand staan',
+        sv: 'Någon blir stående',
+        da: 'Nogen bliver stående',
+        no: 'Noen blir stående',
+        fi: 'Joku jää seisomaan'
+      },
+      call: {
+        en: 'Call the next rank forward',
+        de: 'Die Nächsten nach vorn rufen',
+        fr: 'Appeler les suivants en avant',
+        es: 'Llamar a los siguientes',
+        pt: 'Chamar os próximos',
+        it: 'Chiamare avanti i prossimi',
+        nl: 'De volgenden naar voren roepen',
+        sv: 'Ropa fram de nästa',
+        da: 'Kald de næste frem',
+        no: 'Rop fram de neste',
+        fi: 'Kutsu seuraavat eteen'
+      },
+      second: {
+        en: 'Bring the second parade',
+        de: 'Den zweiten Umzug holen',
+        fr: 'Faire venir le second défilé',
+        es: 'Traer el segundo desfile',
+        pt: 'Trazer o segundo desfile',
+        it: 'Far arrivare la seconda sfilata',
+        nl: 'De tweede optocht halen',
+        sv: 'Hämta den andra paraden',
+        da: 'Hent det andet optog',
+        no: 'Hent det andre opptoget',
+        fi: 'Hae toinen kulkue'
+      },
+      sill: {
+        en: 'Put them both on the sill',
+        de: 'Beide auf den Sims stellen',
+        fr: 'Les mettre tous les deux sur le seuil',
+        es: 'Poner a los dos en el umbral',
+        pt: 'Colocar os dois na soleira',
+        it: 'Metterli tutti e due sulla soglia',
+        nl: 'Ze allebei op de drempel zetten',
+        sv: 'Ställ båda på tröskeln',
+        da: 'Stil dem begge på tærsklen',
+        no: 'Sett dem begge på terskelen',
+        fi: 'Aseta molemmat kynnykselle'
+      },
+      again: {
+        en: 'A new parade',
+        de: 'Ein neuer Umzug',
+        fr: 'Un nouveau défilé',
+        es: 'Un desfile nuevo',
+        pt: 'Um desfile novo',
+        it: 'Una nuova sfilata',
+        nl: 'Een nieuwe optocht',
+        sv: 'En ny parad',
+        da: 'Et nyt optog',
+        no: 'Et nytt opptog',
+        fi: 'Uusi kulkue'
+      },
+
+      saidPredYes: {
+
+        en: 'The class says everybody gets through. The bar is up.',
+
+        de: 'Die Klasse sagt: Alle kommen durch. Die Schranke ist oben.',
+
+        fr: 'La classe dit que tout le monde passera. La barrière est levée.',
+
+        es: 'La clase dice que pasarán todos. La barrera está levantada.',
+
+        pt: 'A turma diz que todos vão passar. A barreira está levantada.',
+
+        it: 'La classe dice che passeranno tutti. La sbarra è alzata.',
+
+        nl: 'De klas zegt dat iedereen erdoor komt. De slagboom staat omhoog.',
+
+        sv: 'Klassen säger att alla kommer igenom. Bommen är uppe.',
+
+        da: 'Klassen siger, at alle kommer igennem. Bommen er oppe.',
+
+        no: 'Klassen sier at alle kommer gjennom. Bommen er oppe.',
+
+        fi: 'Luokka sanoo, että kaikki pääsevät läpi. Puomi on ylhäällä.'
+
+      },
+      saidPredNo: {
+        en: 'The class says somebody will be left standing. The bar is up.',
+        de: 'Die Klasse sagt: Jemand bleibt stehen. Die Schranke ist oben.',
+        fr: 'La classe dit que quelqu’un restera debout. La barrière est levée.',
+        es: 'La clase dice que alguien se quedará de pie. La barrera está levantada.',
+        pt: 'A turma diz que alguém vai ficar de pé. A barreira está levantada.',
+        it: 'La classe dice che qualcuno resterà in piedi. La sbarra è alzata.',
+        nl: 'De klas zegt dat er iemand blijft staan. De slagboom staat omhoog.',
+        sv: 'Klassen säger att någon blir stående. Bommen är uppe.',
+        da: 'Klassen siger, at nogen bliver stående. Bommen er oppe.',
+        no: 'Klassen sier at noen blir stående. Bommen er oppe.',
+        fi: 'Luokka sanoo, että joku jää seisomaan. Puomi on ylhäällä.'
+      },
+      saidRank: {
+        en: '{n} through, {w} still waiting.',
+        de: '{n} durch, {w} warten noch.',
+        fr: '{n} passés, {w} attendent encore.',
+        es: '{n} han pasado, {w} siguen esperando.',
+        pt: '{n} passaram, {w} ainda esperando.',
+        it: '{n} passati, {w} aspettano ancora.',
+        nl: '{n} erdoor, {w} wachten nog.',
+        sv: '{n} igenom, {w} väntar fortfarande.',
+        da: '{n} igennem, {w} venter stadig.',
+        no: '{n} gjennom, {w} venter fortsatt.',
+        fi: '{n} läpi, {w} odottaa vielä.'
+      },
+      saidClear: {
+        en: 'All {n} went through, in {r} ranks of {k}. Nobody was left standing.',
+        de: 'Alle {n} sind durch — {r} mal {k} nebeneinander. Niemand ist stehen geblieben.',
+        fr: 'Les {n} sont tous passés — {r} fois {k} de front. Personne n’est resté debout.',
+        es: 'Los {n} pasaron todos — {r} veces {k} juntos. Nadie se quedó de pie.',
+        pt: 'Os {n} passaram todos — {r} vezes {k} lado a lado. Ninguém ficou de pé.',
+        it: 'Tutti e {n} sono passati — {r} volte {k} affiancati. Nessuno è rimasto in piedi.',
+        nl: 'Alle {n} zijn erdoor — {r} keer {k} naast elkaar. Niemand bleef staan.',
+        sv: 'Alla {n} kom igenom — {r} gånger {k} i bredd. Ingen blev stående.',
+        da: 'Alle {n} kom igennem — {r} gange {k} ved siden af hinanden. Ingen blev stående.',
+        no: 'Alle {n} kom gjennom — {r} ganger {k} ved siden av hverandre. Ingen ble stående.',
+        fi: 'Kaikki {n} pääsivät läpi — {r} kertaa {k} rinnakkain. Kukaan ei jäänyt seisomaan.'
+      },
       /* ⚠ pressing on after a parade that CLEARED used to announce
          saidStand with s=0 — "0 left standing, because 12 does not fill
          a rank of 2" — which contradicts itself, since 12 fills ranks of
          two perfectly. */
-      saidAllThrough: { en: 'Everybody is already through. Start a new parade.' },
-      saidStand: { en: '{s} left standing, because {n} does not fill a rank of {k}. The archway will not take a part-rank.' },
-      saidSecond: { en: 'A second parade of {n}. It leaves {s} standing too.' },
-      saidSill: { en: 'Both of them on the sill — and the sill is a full rank, so it goes through. {a} and {b} together made a number that fills the archway exactly.' },
+      saidAllThrough: {
+        en: 'Everybody is already through. Start a new parade.',
+        de: 'Alle sind schon durch. Fang einen neuen Umzug an.',
+        fr: 'Tout le monde est déjà passé. Commence un nouveau défilé.',
+        es: 'Ya pasaron todos. Empieza un desfile nuevo.',
+        pt: 'Todos já passaram. Comece um desfile novo.',
+        it: 'Sono già passati tutti. Comincia una nuova sfilata.',
+        nl: 'Iedereen is er al door. Begin een nieuwe optocht.',
+        sv: 'Alla har redan kommit igenom. Börja en ny parad.',
+        da: 'Alle er allerede kommet igennem. Start et nyt optog.',
+        no: 'Alle har allerede kommet gjennom. Start et nytt opptog.',
+        fi: 'Kaikki ovat jo päässeet läpi. Aloita uusi kulkue.'
+      },
+      saidStand: {
+        en: '{s} left standing, because {n} does not fill a rank of {k}. The archway will not take a part-rank.',
+        de: '{s} bleiben stehen: {n} lässt sich nicht restlos zu {k} nebeneinander aufteilen. Der Rundbogen nimmt nur volle, nie angefangene.',
+        fr: '{s} restent debout : {n} ne tombe pas juste à {k} de front. L’arche ne prend que des complets, jamais des entamés.',
+        es: '{s} se quedan de pie: {n} no se reparte exactamente en {k} juntos. El pórtico solo acepta completos, nunca a medias.',
+        pt: '{s} ficam de pé: {n} não se divide exatamente em {k} lado a lado. O pórtico só aceita completos, nunca pela metade.',
+        it: '{s} restano in piedi: {n} non si divide esattamente in {k} affiancati. L’arcata accetta solo chi è al completo, mai chi è a metà.',
+        nl: '{s} blijven staan: {n} gaat niet precies op in {k} naast elkaar. De doorgang neemt alleen volle, nooit halve.',
+        sv: '{s} blir stående: {n} går inte jämnt upp i {k} i bredd. Valvet tar bara fulla, aldrig påbörjade.',
+        da: '{s} bliver stående: {n} går ikke op i {k} ved siden af hinanden. Hvælvingen tager kun fulde, aldrig halve.',
+        no: '{s} blir stående: {n} går ikke opp i {k} ved siden av hverandre. Hvelvingen tar bare fulle, aldri halve.',
+        fi: '{s} jää seisomaan: marssijoita on {n}, eikä se jakaudu tasan. Holvista pääsee vain täydet {k} rinnakkain.'
+      },
+      saidSecond: {
+        en: 'A second parade of {n}. It leaves {s} standing too.',
+        de: 'Ein zweiter Umzug mit {n}. Auch dort bleiben {s} stehen.',
+        fr: 'Un second défilé de {n}. Lui aussi laisse {s} debout.',
+        es: 'Un segundo desfile de {n}. También deja a {s} de pie.',
+        pt: 'Um segundo desfile de {n}. Ele também deixa {s} de pé.',
+        it: 'Una seconda sfilata di {n}. Anche questa lascia {s} in piedi.',
+        nl: 'Een tweede optocht van {n}. Daar blijven er ook {s} staan.',
+        sv: 'En andra parad på {n}. Även den lämnar {s} stående.',
+        da: 'Et andet optog på {n}. Det efterlader også {s} stående.',
+        no: 'Et andre opptog på {n}. Det lar også {s} bli stående.',
+        fi: 'Toinen kulkue, {n} marssijaa. Siitäkin jää {s} seisomaan.'
+      },
+      saidSill: {
+        en: 'Both of them on the sill — and the sill is a full rank, so it goes through. {a} and {b} together made a number that fills the archway exactly.',
+        de: 'Beide auf dem Sims — und der Sims ist voll, also darf er hindurch. {a} und {b} zusammen füllen den Rundbogen genau.',
+        fr: 'Tous les deux sur le seuil — et le seuil est complet, donc il passe. {a} et {b} ensemble remplissent l’arche exactement.',
+        es: 'Los dos en el umbral — y el umbral está lleno, así que pasa. {a} y {b} juntos llenan el pórtico exactamente.',
+        pt: 'Os dois na soleira — e a soleira está cheia, então passa. {a} e {b} juntos enchem o pórtico exatamente.',
+        it: 'Tutti e due sulla soglia — e la soglia è piena, quindi passa. {a} e {b} insieme riempiono l’arcata esattamente.',
+        nl: 'Allebei op de drempel — en de drempel is vol, dus die mag erdoor. {a} en {b} samen vullen de doorgang precies.',
+        sv: 'Båda på tröskeln — och tröskeln är full, så den får gå igenom. {a} och {b} tillsammans fyller valvet precis.',
+        da: 'Dem begge på tærsklen — og tærsklen er fuld, så den må komme igennem. {a} og {b} tilsammen fylder hvælvingen præcis.',
+        no: 'Begge på terskelen — og terskelen er full, så den får gå gjennom. {a} og {b} til sammen fyller hvelvingen nøyaktig.',
+        fi: 'Molemmat kynnyksellä — ja kynnys on täysi, joten se pääsee läpi. {a} ja {b} yhdessä täyttävät holvin tarkalleen.'
+      },
       /* ⭐⭐ AND SOMETIMES IT DOES NOT FILL, WHICH IS THE BETTER LESSON.
          At an archway two abreast, two leftovers ALWAYS make a rank —
          that is odd + odd = even. At three abreast, two leftovers of two
@@ -173,24 +541,192 @@
          in a case where sillFull() is false: the model knew and the
          sentence lied. The refusal to pretend is what makes the two-case
          special rather than merely typical. */
-      saidSillShort: { en: '{a} and {b} on the sill make {c} — and {c} still does not fill a rank of {k}, so they wait too. At two abreast two left-behinds always make a rank; at wider archways only sometimes.' },
-      saidBarDown: { en: 'Say first what the class thinks will happen. The bar goes up when you have.' },
+      saidSillShort: {
+        en: '{a} and {b} on the sill make {c} — and {c} still does not fill a rank of {k}, so they wait too. At two abreast two left-behinds always make a rank; at wider archways only sometimes.',
+        de: '{a} und {b} auf dem Sims sind {c} — und {c} füllt {k} nebeneinander immer noch nicht, also warten auch sie. Bei zwei nebeneinander geht es jedes Mal auf; bei einem breiteren Rundbogen nur manchmal.',
+        fr: '{a} et {b} sur le seuil font {c} — et {c} ne remplit toujours pas {k} de front, alors eux aussi attendent. À deux de front, cela tombe juste à chaque fois ; sous une arche plus large, seulement parfois.',
+        es: '{a} y {b} en el umbral son {c} — y {c} sigue sin llenar {k} juntos, así que ellos también esperan. Con dos juntos sale justo todas las veces; con un pórtico más ancho, solo a veces.',
+        pt: '{a} e {b} na soleira dão {c} — e {c} ainda não enche {k} lado a lado, então eles também esperam. Com dois lado a lado dá certo todas as vezes; com um pórtico mais largo, só às vezes.',
+        it: '{a} e {b} sulla soglia fanno {c} — e {c} non riempie ancora {k} affiancati, quindi aspettano anche loro. Con due affiancati torna ogni volta; sotto un’arcata più larga, solo a volte.',
+        nl: '{a} en {b} op de drempel zijn {c} — en {c} vult {k} naast elkaar nog steeds niet, dus zij wachten ook. Bij twee naast elkaar klopt het elke keer; bij een bredere doorgang alleen soms.',
+        sv: '{a} och {b} på tröskeln blir {c} — och {c} fyller fortfarande inte {k} i bredd, så de får också vänta. Med två i bredd går det jämnt ut varje gång; med ett bredare valv bara ibland.',
+        da: '{a} og {b} på tærsklen bliver {c} — og {c} fylder stadig ikke {k} ved siden af hinanden, så de venter også. Med to ved siden af hinanden går det op hver gang; med en bredere hvælving kun nogle gange.',
+        no: '{a} og {b} på terskelen blir {c} — og {c} fyller fortsatt ikke {k} ved siden av hverandre, så de venter også. Med to ved siden av hverandre går det opp hver gang; med en bredere hvelving bare noen ganger.',
+        fi: '{a} ja {b} kynnyksellä ovat {c} — eikä {c} täytä holvia, johon mahtuu {k} rinnakkain, joten hekin jäävät odottamaan. Kun rinnakkain mahtuu kaksi, se osuu tasan joka kerta; leveämmässä holvissa vain joskus.'
+      },
+      saidBarDown: {
+        en: 'Say first what the class thinks will happen. The bar goes up when you have.',
+        de: 'Sagt zuerst, was ihr glaubt. Dann geht die Schranke hoch.',
+        fr: 'Dites d’abord ce que vous pensez. La barrière se lève ensuite.',
+        es: 'Digan primero lo que creen. Después se levanta la barrera.',
+        pt: 'Digam primeiro o que vocês acham. Depois a barreira sobe.',
+        it: 'Dite prima che cosa pensate. Poi la sbarra si alza.',
+        nl: 'Zeg eerst wat je denkt. Daarna gaat de slagboom omhoog.',
+        sv: 'Säg först vad ni tror. Sedan går bommen upp.',
+        da: 'Sig først, hvad I tror. Så går bommen op.',
+        no: 'Si først hva dere tror. Så går bommen opp.',
+        fi: 'Sanokaa ensin, mitä uskotte. Sitten puomi nousee.'
+      },
       /* ⚠ the old text named `a+b===0`, which is reachable in ZERO
          states because bringSecond already guarantees somebody is
          standing. These two are the refusals a child can actually
          cause. */
-      saidNoSecond: { en: 'Bring the second parade first — the sill is for two lots of left-behinds.' },
-      saidOnSill: { en: 'They are already on the sill.' },
-      saidBusy: { en: 'The class has already said what it thinks. Call them forward and find out.' },
+      saidNoSecond: {
+        en: 'Bring the second parade first — the sill is for two lots of left-behinds.',
+        de: 'Hol zuerst den zweiten Umzug — auf den Sims kommen die, die aus beiden Umzügen stehen geblieben sind.',
+        fr: 'Fais d’abord venir le second défilé — le seuil est pour ceux qui sont restés debout dans les deux défilés.',
+        es: 'Trae primero el segundo desfile: al umbral suben los que se quedaron de pie en los dos desfiles.',
+        pt: 'Traga primeiro o segundo desfile — na soleira sobem os que ficaram de pé nos dois desfiles.',
+        it: 'Fai arrivare prima la seconda sfilata — sulla soglia salgono quelli rimasti in piedi nelle due sfilate.',
+        nl: 'Haal eerst de tweede optocht — op de drempel komen wie in allebei de optochten is blijven staan.',
+        sv: 'Hämta den andra paraden först — på tröskeln ställer sig de som blev stående i båda paraderna.',
+        da: 'Hent først det andet optog — på tærsklen stiller dem, der blev stående i begge optog, sig op.',
+        no: 'Hent det andre opptoget først — på terskelen stiller de som ble stående i begge opptogene seg opp.',
+        fi: 'Hae ensin toinen kulkue — kynnykselle asettuvat ne, jotka jäivät seisomaan kummastakin kulkueesta.'
+      },
+      saidOnSill: {
+        en: 'They are already on the sill.',
+        de: 'Sie stehen schon auf dem Sims.',
+        fr: 'Ils sont déjà sur le seuil.',
+        es: 'Ya están en el umbral.',
+        pt: 'Eles já estão na soleira.',
+        it: 'Sono già sulla soglia.',
+        nl: 'Ze staan al op de drempel.',
+        sv: 'De står redan på tröskeln.',
+        da: 'De står allerede på tærsklen.',
+        no: 'De står allerede på terskelen.',
+        fi: 'He seisovat jo kynnyksellä.'
+      },
+      saidBusy: {
+        en: 'The class has already said what it thinks. Call them forward and find out.',
+        de: 'Die Klasse hat sich schon festgelegt. Ruft sie nach vorn und findet es heraus.',
+        fr: 'La classe s’est déjà prononcée. Appelez-les en avant et voyez.',
+        es: 'La clase ya ha dicho lo que cree. Llámenlos hacia delante y compruébenlo.',
+        pt: 'A turma já disse o que acha. Chamem-nos para a frente e confiram.',
+        it: 'La classe si è già espressa. Chiamateli avanti e vedete.',
+        nl: 'De klas heeft zich al uitgesproken. Roep ze naar voren en kijk wat er gebeurt.',
+        sv: 'Klassen har redan sagt sitt. Ropa fram dem och se efter.',
+        da: 'Klassen har allerede sagt sit. Kald dem frem, og se efter.',
+        no: 'Klassen har allerede sagt sitt. Rop dem fram og se etter.',
+        fi: 'Luokka on jo sanonut sanottavansa. Kutsu heidät eteen ja katso.'
+      },
 
-      gateTitle: { en: 'The paper parade' },
-      gateBody: { en: 'The whole apparatus is free — every width, every rank, the refusal and the sill. A Teacher plan adds the paper parade to cut out and line up on a desk, so a child can walk the marchers through an archway they cut themselves.' },
-      gateCta: { en: 'See the Teacher plan' },
-      gateClose: { en: 'Not now' },
+      gateTitle: {
 
-      printBtn: { en: 'Print the paper parade' },
-      sheetTitle: { en: 'Paper parade to cut out' },
-      sheetNote: { en: 'Cut out the marchers and the archway. Line the marchers up and send them through in ranks. When too few are left to fill the archway, leave them standing and draw the empty place beside them — that empty place is what the number is telling you.' }
+        en: 'The paper parade',
+
+        de: 'Der Umzug aus Papier',
+
+        fr: 'Le défilé en papier',
+
+        es: 'El desfile de papel',
+
+        pt: 'O desfile de papel',
+
+        it: 'La sfilata di carta',
+
+        nl: 'De papieren optocht',
+
+        sv: 'Pappersparaden',
+
+        da: 'Papiroptoget',
+
+        no: 'Papiropptoget',
+
+        fi: 'Paperikulkue'
+
+      },
+      gateBody: {
+        en: 'The whole apparatus is free — every width, every rank, the refusal and the sill. A Teacher plan adds the paper parade to cut out and line up on a desk, so a child can walk the marchers through an archway they cut themselves.',
+        de: 'Der ganze Rundbogen ist frei — jede Breite, jeder Aufruf, die Verweigerung und der Sims. Das Lehrkraft-Abo legt den Umzug aus Papier dazu: zum Ausschneiden und Aufstellen auf dem Tisch, damit ein Kind die Marschierenden durch einen selbst geschnittenen Rundbogen schicken kann.',
+        fr: 'Toute l’arche est libre — chaque largeur, chaque appel, le refus et le seuil. L’Abonnement Enseignant ajoute le défilé en papier à découper et à aligner sur la table, pour qu’un enfant fasse passer les marcheurs sous une arche qu’il a découpée lui-même.',
+        es: 'Todo el pórtico es gratis: cada anchura, cada llamada, el rechazo y el umbral. El Plan Docente añade el desfile de papel para recortar y alinear sobre la mesa, para que un niño haga pasar a los desfilantes por un pórtico recortado por él mismo.',
+        pt: 'O pórtico inteiro é gratuito: cada largura, cada chamada, a recusa e a soleira. O Plano Professor acrescenta o desfile de papel para recortar e alinhar sobre a mesa, para que a criança faça os desfilantes passarem por um pórtico recortado por ela mesma.',
+        it: 'Tutta l’arcata è gratuita: ogni larghezza, ogni chiamata, il rifiuto e la soglia. Il Piano Insegnante aggiunge la sfilata di carta da ritagliare e allineare sul tavolo, così un bambino può far passare i marciatori sotto un’arcata ritagliata da lui.',
+        nl: 'De hele doorgang is gratis: elke breedte, elke oproep, de weigering en de drempel. Het Leerkracht-abonnement voegt de papieren optocht toe om uit te knippen en op tafel te zetten, zodat een kind de lopers door een zelfgeknipte doorgang kan sturen.',
+        sv: 'Hela valvet är gratis: varje bredd, varje rop, vägran och tröskeln. Lärarplanen lägger till pappersparaden att klippa ut och ställa upp på bordet, så att ett barn kan skicka marscherarna genom ett valv som det klippt själv.',
+        da: 'Hele hvælvingen er gratis: hver bredde, hvert kald, afvisningen og tærsklen. Lærerabonnementet lægger papiroptoget til, som klippes ud og stilles op på bordet, så et barn kan sende de marcherende gennem en hvælving, det selv har klippet.',
+        no: 'Hele hvelvingen er gratis: hver bredde, hvert rop, avvisningen og terskelen. Lærerabonnementet legger til papiropptoget som klippes ut og stilles opp på bordet, slik at et barn kan sende de marsjerende gjennom en hvelving det har klippet selv.',
+        fi: 'Koko holvi on ilmainen: jokainen leveys, jokainen kutsu, torjuminen ja kynnys. Opettajatilaus tuo lisäksi paperikulkueen, jonka voi leikata irti ja asettaa pöydälle, niin lapsi voi kuljettaa marssijat itse leikkaamansa holvin läpi.'
+      },
+      gateCta: {
+        en: 'See the Teacher plan',
+        de: 'Lehrkraft-Abo ansehen',
+        fr: 'Voir l’Abonnement Enseignant',
+        es: 'Ver el Plan Docente',
+        pt: 'Ver o Plano Professor',
+        it: 'Vedi il Piano Insegnante',
+        nl: 'Bekijk het Leerkracht-abonnement',
+        sv: 'Se Lärarplanen',
+        da: 'Se Lærerabonnementet',
+        no: 'Se Lærerabonnementet',
+        fi: 'Katso Opettajatilaus'
+      },
+      gateClose: {
+        en: 'Not now',
+        de: 'Jetzt nicht',
+        fr: 'Pas maintenant',
+        es: 'Ahora no',
+        pt: 'Agora não',
+        it: 'Non ora',
+        nl: 'Nu niet',
+        sv: 'Inte nu',
+        da: 'Ikke nu',
+        no: 'Ikke nå',
+        fi: 'Ei nyt'
+      },
+
+      printBtn: {
+
+        en: 'Print the paper parade',
+
+        de: 'Den Umzug aus Papier drucken',
+
+        fr: 'Imprimer le défilé en papier',
+
+        es: 'Imprimir el desfile de papel',
+
+        pt: 'Imprimir o desfile de papel',
+
+        it: 'Stampa la sfilata di carta',
+
+        nl: 'De papieren optocht afdrukken',
+
+        sv: 'Skriv ut pappersparaden',
+
+        da: 'Udskriv papiroptoget',
+
+        no: 'Skriv ut papiropptoget',
+
+        fi: 'Tulosta paperikulkue'
+
+      },
+      sheetTitle: {
+        en: 'Paper parade to cut out',
+        de: 'Umzug aus Papier zum Ausschneiden',
+        fr: 'Défilé en papier à découper',
+        es: 'Desfile de papel para recortar',
+        pt: 'Desfile de papel para recortar',
+        it: 'Sfilata di carta da ritagliare',
+        nl: 'Papieren optocht om uit te knippen',
+        sv: 'Pappersparad att klippa ut',
+        da: 'Papiroptog til at klippe ud',
+        no: 'Papiropptog til å klippe ut',
+        fi: 'Paperikulkue leikattavaksi'
+      },
+      sheetNote: {
+        en: 'Cut out the marchers and the archway. Line the marchers up and send them through in ranks. When too few are left to fill the archway, leave them standing and draw the empty place beside them — that empty place is what the number is telling you.',
+        de: 'Schneide die Marschierenden und den Rundbogen aus. Stell die Marschierenden hintereinander auf und schick sie hindurch, immer so viele nebeneinander. Wenn zu wenige da sind, um den Rundbogen zu füllen, lass sie stehen und male die leeren Plätze daneben — diese leeren Plätze sind das, was die Zahl dir sagt.',
+        fr: 'Découpe les marcheurs et l’arche. Aligne les marcheurs les uns derrière les autres et fais-les passer, autant de front à chaque fois. Quand il n’en reste pas assez pour remplir l’arche, laisse-les debout et dessine les places vides à côté — ces places vides sont ce que le nombre te dit.',
+        es: 'Recorta a los desfilantes y el pórtico. Colócalos uno detrás de otro y hazlos pasar, tantos juntos cada vez. Cuando queden muy pocos para llenar el pórtico, déjalos de pie y dibuja los lugares vacíos a su lado: esos lugares vacíos son lo que el número te está diciendo.',
+        pt: 'Recorte os desfilantes e o pórtico. Coloque-os um atrás do outro e faça-os passar, tantos lado a lado por vez. Quando sobrarem poucos demais para encher o pórtico, deixe-os de pé e desenhe os lugares vazios ao lado deles — esses lugares vazios são o que o número está dizendo.',
+        it: 'Ritaglia i marciatori e l’arcata. Mettili uno dietro l’altro e falli passare, tanti affiancati per volta. Quando ne restano troppo pochi per riempire l’arcata, lasciali in piedi e disegna accanto gli spazi vuoti: quegli spazi vuoti sono ciò che il numero ti sta dicendo.',
+        nl: 'Knip de lopers en de doorgang uit. Zet de lopers achter elkaar en stuur ze erdoor, steeds zoveel naast elkaar. Als er te weinig zijn om de doorgang te vullen, laat ze dan staan en teken de lege plekken ernaast — die lege plekken zijn wat het getal je vertelt.',
+        sv: 'Klipp ut marscherarna och valvet. Ställ upp marscherarna efter varandra och skicka igenom dem, så många i bredd åt gången. När det blir för få kvar för att fylla valvet, låt dem stå och rita de tomma platserna bredvid — de tomma platserna är det som talet säger dig.',
+        da: 'Klip de marcherende og hvælvingen ud. Stil de marcherende op efter hinanden og send dem igennem, så mange ved siden af hinanden ad gangen. Når der er for få tilbage til at fylde hvælvingen, så lad dem stå og tegn de tomme pladser ved siden af — de tomme pladser er det, tallet fortæller dig.',
+        no: 'Klipp ut de marsjerende og hvelvingen. Still de marsjerende opp etter hverandre og send dem gjennom, så mange ved siden av hverandre om gangen. Når det er for få igjen til å fylle hvelvingen, la dem bli stående og tegn de tomme plassene ved siden av — de tomme plassene er det tallet forteller deg.',
+        fi: 'Leikkaa marssijat ja holvi irti. Aseta marssijat peräkkäin ja kuljeta heidät läpi, näin monta rinnakkain kerrallaan. Kun jäljellä on liian vähän täyttämään holvia, jätä heidät seisomaan ja piirrä tyhjät paikat heidän viereensä — nuo tyhjät paikat kertovat, mitä luku sanoo.'
+      }
     },
 
     settings: [

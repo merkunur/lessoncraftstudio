@@ -1320,6 +1320,28 @@
       "Skriv nummeret på hver dør. Én korridor er fylt ut så dere kommer i gang."
     ]
   },
+  "number-drum": {
+    "name": "Tallringen",
+    "slug": "tallringen-tierovergang-smatrinnet",
+    "tagline": "På en ring står 0 rett under 9 — det viser aldri en rekke som tar slutt.",
+    "metaTitle": "Tallringen: over tieren, småtrinnet",
+    "metaDescription": "Vri enerringen forbi 9-tallet, så griper en tann tak i tierringen og drar den med. Stopp halvveis og spør om det står 29 eller 30.",
+    "about": [
+      "Vri den høyre ringen. Når 9-tallet kommer rundt til 0, griper en tann tak i ringen ved siden av og drar den med.",
+      "To ringer med siffer i en ramme. Den høyre ringen teller enere, og den venstre teller tiere.",
+      "Alle tre ringene er gratis, og det er hver eneste dreining også. Med Lærer-abonnementet får du i tillegg papirringene til å klippe ut og rulle sammen, slik at hvert barn holder det samme apparatet i hendene og selv lar den ene ringen gripe tak i den neste."
+    ],
+    "howToUse": [
+      "Vri framover. Vri et halvt hakk framover.",
+      "Vri sakte. mellom 29 og 30?",
+      "Vri tierringen framover."
+    ],
+    "classroomIdeas": [
+      "Ringene går ikke lenger enn 99.",
+      "40. Begge ringene vred seg.",
+      "Klipp ut hver lange remse, rull den sammen til en ring og fest de to endene. Hold to ringer ved siden av hverandre og vri den høyre: hver gang 9-tallet kommer rundt til 0, vrir du den venstre ett hakk fram."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

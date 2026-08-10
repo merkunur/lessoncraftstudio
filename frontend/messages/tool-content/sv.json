@@ -1320,6 +1320,28 @@
       "Skriv numret på varje dörr. En korridor är ifylld så att ni kommer igång."
     ]
   },
+  "number-drum": {
+    "name": "Talringen",
+    "slug": "talringen-tiotalsovergang-lagstadiet",
+    "tagline": "På en ring står 0 rakt under 9 — det syns aldrig på en rad som tar slut.",
+    "metaTitle": "Talringen: över tiotalet, lågstadiet",
+    "metaDescription": "Vrid entalsringen förbi sin 9 så hakar en tand i tiotalsringen och drar med den. Stanna halvvägs och fråga om det står 29 eller 30.",
+    "about": [
+      "Vrid den högra ringen. När dess 9 går runt till 0 hakar en tand i ringen bredvid och drar med den.",
+      "Två ringar med siffror i en ram. Den högra ringen räknar ental och den vänstra tiotal.",
+      "Alla tre ringarna är gratis, och varje vridning också. Med Lärarabonnemanget får du dessutom pappersringarna att klippa ut och rulla ihop, så att varje barn håller samma sak i händerna och själv låter en ring haka i nästa."
+    ],
+    "howToUse": [
+      "Vrid framåt. Vrid ett halvt hack framåt.",
+      "Vrid långsamt. mellan 29 och 30?",
+      "Vrid tiotalsringen framåt."
+    ],
+    "classroomIdeas": [
+      "Ringarna går inte längre än 99.",
+      "40. Båda ringarna vred sig.",
+      "Klipp ut varje lång remsa, rulla ihop den till en ring och fäst ihop ändarna. Håll två ringar bredvid varandra och vrid den högra: varje gång dess 9 går runt till 0 vrider du den vänstra ett steg."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

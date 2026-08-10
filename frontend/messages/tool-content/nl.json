@@ -1321,6 +1321,28 @@
       "Schrijf op elke deur het nummer. Eén gang is al ingevuld om te beginnen."
     ]
   },
+  "number-drum": {
+    "name": "De getallenring",
+    "slug": "getallenring-tientallen-en-eenheden-groep-3",
+    "tagline": "Op een ring staat de 0 recht onder de 9 — dat is precies wat een rij die ophoudt niet laat zien.",
+    "metaTitle": "De getallenring: over het tiental heen, groep 3 en 4",
+    "metaDescription": "Draai de ring van de eenheden voorbij de 9 en een tand pakt de ring van de tientallen mee. Stop halverwege en vraag of er 29 of 30 staat.",
+    "about": [
+      "Draai de rechterring. Als zijn 9 doordraait naar de 0, pakt een tand de ring ernaast en neemt die mee.",
+      "Twee ringen met cijfers in een kader. De rechterring telt de eenheden, de linkerring de tientallen.",
+      "Alle drie de ringen zijn gratis, en elke draai ook. Met het Leerkracht-abonnement komen daar de papieren ringen bij om uit te knippen en op te rollen, zodat elk kind hetzelfde apparaat in handen heeft en zelf de ene ring in de volgende laat pakken."
+    ],
+    "howToUse": [
+      "Vooruit draaien. Een halve stap vooruit draaien.",
+      "Langzaam draaien. tussen 29 en 30?",
+      "De ring van de tientallen vooruit draaien."
+    ],
+    "classroomIdeas": [
+      "Verder dan 99 draaien de ringen niet.",
+      "40. Allebei de ringen zijn gedraaid.",
+      "Knip elke lange strook uit, draai hem op tot een ring en plak de twee uiteinden aan elkaar. Houd twee ringen naast elkaar en draai de rechter: telkens als zijn 9 doordraait naar de 0, draai je de linker één verder."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

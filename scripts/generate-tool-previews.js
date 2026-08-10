@@ -122,6 +122,21 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #50 AT REST IS 00, WHICH IS FLAT AND SAYS NOTHING. Turned to 9
+     the ones ring reads 8 · 9 · 0 — the 0 drawn directly UNDER the 9,
+     which is the entire claim of the tool and the one thing no flip
+     clock and no hundred chart can show. The tooth is at the bar in the
+     same frame.
+     ⚠ A SETTLED state on purpose: the mid-catch frame is more striking
+     and it is a 90ms transient, so a card shot there is a timing
+     lottery. Choose the stable frame that still carries the thesis. */
+  'number-drum': [
+    { sel: '.ndr-b-fwd', wait: 330 }, { sel: '.ndr-b-fwd', wait: 330 },
+    { sel: '.ndr-b-fwd', wait: 330 }, { sel: '.ndr-b-fwd', wait: 330 },
+    { sel: '.ndr-b-fwd', wait: 330 }, { sel: '.ndr-b-fwd', wait: 330 },
+    { sel: '.ndr-b-fwd', wait: 330 }, { sel: '.ndr-b-fwd', wait: 330 },
+    { sel: '.ndr-b-fwd', wait: 400 }
+  ],
   /* ⭐ #49 AT REST IS ROOM 0 WITH NOTHING HAPPENING. The card has to
      carry the thesis: the walker pressed against the end wall at room
      9, the wall lit, one corridor readable and ninety doors dark. That
@@ -543,6 +558,9 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* the frame plus one button row; kept well under the 0.85 aspect
+     where --fit=auto TOP-CROPS and still reports "ok" */
+  'number-drum': { width: 1000, height: 720 },
   /* ⚠ #49: arena (1:1) plus the ledge row runs past the 0.85 aspect
      where --fit=auto TOP-CROPS and still reports "ok" — which on #48
      cropped the payload out of the card twice. Wider keeps it under. */

@@ -172,40 +172,448 @@
        counter, tape, column or roller: every one of those is another
        tool's part. */
     strings: {
-      title: { en: 'The Number Drum' },
-      instruction: { en: 'Turn the ring on the right. When its 9 comes round to the 0, a tooth catches the ring beside it and drags that one round too.' },
+      title: {
+        en: 'The Number Drum',
+        de: 'Der Zahlenring',
+        fr: 'L’anneau des nombres',
+        es: 'El anillo de los números',
+        pt: 'O anel dos números',
+        it: 'L’anello dei numeri',
+        nl: 'De getallenring',
+        sv: 'Talringen',
+        da: 'Talringen',
+        no: 'Tallringen',
+        fi: 'Lukurengas'
+      },
+      instruction: {
+        en: 'Turn the ring on the right. When its 9 comes round to the 0, a tooth catches the ring beside it and drags that one round too.',
+        de: 'Dreh den rechten Ring. Wenn seine 9 zur 0 weiterrückt, greift ein Zahn in den Ring daneben und nimmt ihn mit.',
+        fr: 'Fais tourner l’anneau de droite. Quand son 9 arrive sur le 0, une dent accroche l’anneau voisin et l’entraîne avec elle.',
+        es: 'Gira el anillo de la derecha. Cuando su 9 pasa al 0, un diente engancha el anillo de al lado y lo arrastra con él.',
+        pt: 'Gire o anel da direita. Quando o 9 dele passa para o 0, um dente engata no anel ao lado e leva esse anel junto.',
+        it: 'Gira l’anello di destra. Quando il suo 9 passa allo 0, un dente aggancia l’anello accanto e se lo porta dietro.',
+        nl: 'Draai de rechterring. Als zijn 9 doordraait naar de 0, pakt een tand de ring ernaast en neemt die mee.',
+        sv: 'Vrid den högra ringen. När dess 9 går runt till 0 hakar en tand i ringen bredvid och drar med den.',
+        da: 'Drej den højre ring. Når dens 9 kommer rundt til 0, griber en tand fat i ringen ved siden af og trækker den med.',
+        no: 'Vri den høyre ringen. Når 9-tallet kommer rundt til 0, griper en tann tak i ringen ved siden av og drar den med.',
+        fi: 'Pyöritä oikeanpuoleista rengasta. Kun sen 9 kiertyy nollaan, hammas tarttuu viereiseen renkaaseen ja vetää sen mukanaan.'
+      },
 
-      ariaFrame: { en: 'Two rings of numerals in a frame. The right ring counts ones, the left ring counts tens.' },
-      ariaOnes: { en: 'ones ring' },
-      ariaTens: { en: 'tens ring' },
-      ariaHund: { en: 'hundreds ring' },
+      ariaFrame: {
 
-      setTop: { en: 'How far it counts' },
-      top99: { en: 'up to 99' },
-      top999: { en: 'up to 999' },
+        en: 'Two rings of numerals in a frame. The right ring counts ones, the left ring counts tens.',
 
-      fwd: { en: 'Turn forward' },
-      back: { en: 'Turn back' },
-      fwdHalf: { en: 'Turn forward half a notch' },
-      backHalf: { en: 'Turn back half a notch' },
-      up10: { en: 'Turn the tens ring forward' },
-      down10: { en: 'Turn the tens ring back' },
-      slow: { en: 'Slow turning' },
+        de: 'Zwei Zahlenringe in einem Rahmen. Der rechte Ring zählt die Einer, der linke die Zehner.',
 
-      saidAt: { en: '{n}' },
-      saidBetween: { en: 'between {a} and {b}' },
-      saidCarry: { en: '{n}. Both rings turned.' },
-      saidTopEnd: { en: 'The rings will not go past {n}.' },
-      saidZeroEnd: { en: 'The rings will not go below zero.' },
+        fr: 'Deux anneaux de chiffres dans un cadre. L’anneau de droite compte les unités, celui de gauche les dizaines.',
 
-      gateTitle: { en: 'The paper rings' },
-      gateBody: { en: 'All three rings are free, and so is every turn of them. A Teacher plan adds the paper rings to cut out and roll, so each child can hold the same apparatus in their hands and catch one ring on the next themselves.' },
-      gateCta: { en: 'See the Teacher plan' },
-      gateClose: { en: 'Not now' },
+        es: 'Dos anillos de cifras en un marco. El anillo de la derecha cuenta las unidades y el de la izquierda las decenas.',
 
-      printBtn: { en: 'Print the paper rings' },
-      sheetTitle: { en: 'Paper rings to cut out and roll' },
-      sheetNote: { en: 'Cut out each long strip, curl it round into a ring and stick the two ends together. Hold two rings side by side and turn the right one: every time its 9 comes round to its 0, turn the left one on by one.' }
+        pt: 'Dois anéis de algarismos numa moldura. O anel da direita conta as unidades e o da esquerda conta as dezenas.',
+
+        it: 'Due anelli di cifre in una cornice. L’anello di destra conta le unità, quello di sinistra le decine.',
+
+        nl: 'Twee ringen met cijfers in een kader. De rechterring telt de eenheden, de linkerring de tientallen.',
+
+        sv: 'Två ringar med siffror i en ram. Den högra ringen räknar ental och den vänstra tiotal.',
+
+        da: 'To ringe med tal i en ramme. Den højre ring tæller enere, og den venstre tæller tiere.',
+
+        no: 'To ringer med siffer i en ramme. Den høyre ringen teller enere, og den venstre teller tiere.',
+
+        fi: 'Kaksi numerorengasta kehyksessä. Oikea rengas laskee ykkösiä ja vasen kymmeniä.'
+
+      },
+      ariaOnes: {
+        en: 'ones ring',
+        de: 'Einerring',
+        fr: 'anneau des unités',
+        es: 'anillo de las unidades',
+        pt: 'anel das unidades',
+        it: 'anello delle unità',
+        nl: 'ring van de eenheden',
+        sv: 'entalsringen',
+        da: 'enerringen',
+        no: 'enerringen',
+        fi: 'ykkösrengas'
+      },
+      ariaTens: {
+        en: 'tens ring',
+        de: 'Zehnerring',
+        fr: 'anneau des dizaines',
+        es: 'anillo de las decenas',
+        pt: 'anel das dezenas',
+        it: 'anello delle decine',
+        nl: 'ring van de tientallen',
+        sv: 'tiotalsringen',
+        da: 'tierringen',
+        no: 'tierringen',
+        fi: 'kymmenrengas'
+      },
+      ariaHund: {
+        en: 'hundreds ring',
+        de: 'Hunderterring',
+        fr: 'anneau des centaines',
+        es: 'anillo de las centenas',
+        pt: 'anel das centenas',
+        it: 'anello delle centinaia',
+        nl: 'ring van de honderdtallen',
+        sv: 'hundratalsringen',
+        da: 'hundredringen',
+        no: 'hundrerringen',
+        fi: 'sadasrengas'
+      },
+
+      setTop: {
+
+        en: 'How far it counts',
+
+        de: 'Wie weit gezählt wird',
+
+        fr: 'Jusqu’où on compte',
+
+        es: 'Hasta dónde cuenta',
+
+        pt: 'Até onde conta',
+
+        it: 'Fino a quanto conta',
+
+        nl: 'Tot hoever hij telt',
+
+        sv: 'Hur långt den räknar',
+
+        da: 'Hvor langt den tæller',
+
+        no: 'Hvor langt den teller',
+
+        fi: 'Kuinka pitkälle lasketaan'
+
+      },
+      top99: {
+        en: 'up to 99',
+        de: 'bis 99',
+        fr: 'jusqu’à 99',
+        es: 'hasta 99',
+        pt: 'até 99',
+        it: 'fino a 99',
+        nl: 'tot 99',
+        sv: 'upp till 99',
+        da: 'op til 99',
+        no: 'opp til 99',
+        fi: 'yhdeksäänkymmeneenyhdeksään asti'
+      },
+      top999: {
+        en: 'up to 999',
+        de: 'bis 999',
+        fr: 'jusqu’à 999',
+        es: 'hasta 999',
+        pt: 'até 999',
+        it: 'fino a 999',
+        nl: 'tot 999',
+        sv: 'upp till 999',
+        da: 'op til 999',
+        no: 'opp til 999',
+        fi: 'yhdeksäänsataanyhdeksäänkymmeneenyhdeksään asti'
+      },
+
+      fwd: {
+
+        en: 'Turn forward',
+
+        de: 'Vorwärts drehen',
+
+        fr: 'Tourner en avant',
+
+        es: 'Girar hacia adelante',
+
+        pt: 'Girar para a frente',
+
+        it: 'Girare in avanti',
+
+        nl: 'Vooruit draaien',
+
+        sv: 'Vrid framåt',
+
+        da: 'Drej fremad',
+
+        no: 'Vri framover',
+
+        fi: 'Pyöritä eteenpäin'
+
+      },
+      back: {
+        en: 'Turn back',
+        de: 'Zurückdrehen',
+        fr: 'Tourner en arrière',
+        es: 'Girar hacia atrás',
+        pt: 'Girar para trás',
+        it: 'Girare indietro',
+        nl: 'Terugdraaien',
+        sv: 'Vrid tillbaka',
+        da: 'Drej tilbage',
+        no: 'Vri tilbake',
+        fi: 'Pyöritä taaksepäin'
+      },
+      fwdHalf: {
+        en: 'Turn forward half a notch',
+        de: 'Einen halben Schritt vorwärts drehen',
+        fr: 'Tourner d’un demi-cran en avant',
+        es: 'Girar medio paso hacia adelante',
+        pt: 'Girar meio passo para a frente',
+        it: 'Girare avanti di mezzo scatto',
+        nl: 'Een halve stap vooruit draaien',
+        sv: 'Vrid ett halvt hack framåt',
+        da: 'Drej et halvt hak fremad',
+        no: 'Vri et halvt hakk framover',
+        fi: 'Pyöritä puoli pykälää eteenpäin'
+      },
+      backHalf: {
+        en: 'Turn back half a notch',
+        de: 'Einen halben Schritt zurückdrehen',
+        fr: 'Tourner d’un demi-cran en arrière',
+        es: 'Girar medio paso hacia atrás',
+        pt: 'Girar meio passo para trás',
+        it: 'Girare indietro di mezzo scatto',
+        nl: 'Een halve stap terugdraaien',
+        sv: 'Vrid ett halvt hack tillbaka',
+        da: 'Drej et halvt hak tilbage',
+        no: 'Vri et halvt hakk tilbake',
+        fi: 'Pyöritä puoli pykälää taaksepäin'
+      },
+      up10: {
+        en: 'Turn the tens ring forward',
+        de: 'Den Zehnerring vorwärts drehen',
+        fr: 'Tourner l’anneau des dizaines en avant',
+        es: 'Girar el anillo de las decenas hacia adelante',
+        pt: 'Girar o anel das dezenas para a frente',
+        it: 'Girare in avanti l’anello delle decine',
+        nl: 'De ring van de tientallen vooruit draaien',
+        sv: 'Vrid tiotalsringen framåt',
+        da: 'Drej tierringen fremad',
+        no: 'Vri tierringen framover',
+        fi: 'Pyöritä kymmenrengasta eteenpäin'
+      },
+      down10: {
+        en: 'Turn the tens ring back',
+        de: 'Den Zehnerring zurückdrehen',
+        fr: 'Tourner l’anneau des dizaines en arrière',
+        es: 'Girar el anillo de las decenas hacia atrás',
+        pt: 'Girar o anel das dezenas para trás',
+        it: 'Girare indietro l’anello delle decine',
+        nl: 'De ring van de tientallen terugdraaien',
+        sv: 'Vrid tiotalsringen tillbaka',
+        da: 'Drej tierringen tilbage',
+        no: 'Vri tierringen tilbake',
+        fi: 'Pyöritä kymmenrengasta taaksepäin'
+      },
+      slow: {
+        en: 'Slow turning',
+        de: 'Langsam drehen',
+        fr: 'Tourner lentement',
+        es: 'Girar despacio',
+        pt: 'Girar devagar',
+        it: 'Girare piano',
+        nl: 'Langzaam draaien',
+        sv: 'Vrid långsamt',
+        da: 'Drej langsomt',
+        no: 'Vri sakte',
+        fi: 'Pyöritä hitaasti'
+      },
+
+      saidAt: {
+
+        en: '{n}',
+
+        de: '{n}',
+
+        fr: '{n}',
+
+        es: '{n}',
+
+        pt: '{n}',
+
+        it: '{n}',
+
+        nl: '{n}',
+
+        sv: '{n}',
+
+        da: '{n}',
+
+        no: '{n}',
+
+        fi: '{n}'
+
+      },
+      saidBetween: {
+        en: 'between {a} and {b}',
+        de: 'zwischen {a} und {b}',
+        fr: 'entre {a} et {b}',
+        es: 'entre {a} y {b}',
+        pt: 'entre {a} e {b}',
+        it: 'tra {a} e {b}',
+        nl: 'tussen {a} en {b}',
+        sv: 'mellan {a} och {b}',
+        da: 'mellem {a} og {b}',
+        no: 'mellom {a} og {b}',
+        fi: '{a}:n ja {b}:n välissä'
+      },
+      saidCarry: {
+        en: '{n}. Both rings turned.',
+        de: '{n}. Beide Ringe haben sich gedreht.',
+        fr: '{n}. Les deux anneaux ont tourné.',
+        es: '{n}. Han girado los dos anillos.',
+        pt: '{n}. Os dois anéis giraram.',
+        it: '{n}. Hanno girato tutti e due gli anelli.',
+        nl: '{n}. Allebei de ringen zijn gedraaid.',
+        sv: '{n}. Båda ringarna vred sig.',
+        da: '{n}. Begge ringe drejede.',
+        no: '{n}. Begge ringene vred seg.',
+        fi: '{n}. Molemmat renkaat pyörähtivät.'
+      },
+      saidTopEnd: {
+        en: 'The rings will not go past {n}.',
+        de: 'Weiter als {n} drehen die Ringe nicht.',
+        fr: 'Les anneaux ne vont pas plus loin que {n}.',
+        es: 'Los anillos no pasan de {n}.',
+        pt: 'Os anéis não passam de {n}.',
+        it: 'Gli anelli non vanno oltre {n}.',
+        nl: 'Verder dan {n} draaien de ringen niet.',
+        sv: 'Ringarna går inte längre än {n}.',
+        da: 'Ringene går ikke længere end {n}.',
+        no: 'Ringene går ikke lenger enn {n}.',
+        fi: 'Renkaat eivät mene lukua {n} pidemmälle.'
+      },
+      saidZeroEnd: {
+        en: 'The rings will not go below zero.',
+        de: 'Unter null drehen die Ringe nicht.',
+        fr: 'Les anneaux ne descendent pas en dessous de zéro.',
+        es: 'Los anillos no bajan de cero.',
+        pt: 'Os anéis não descem abaixo de zero.',
+        it: 'Gli anelli non scendono sotto lo zero.',
+        nl: 'Onder nul draaien de ringen niet.',
+        sv: 'Ringarna går inte under noll.',
+        da: 'Ringene går ikke under nul.',
+        no: 'Ringene går ikke under null.',
+        fi: 'Renkaat eivät mene nollan alle.'
+      },
+
+      gateTitle: {
+
+        en: 'The paper rings',
+
+        de: 'Die Ringe aus Papier',
+
+        fr: 'Les anneaux en papier',
+
+        es: 'Los anillos de papel',
+
+        pt: 'Os anéis de papel',
+
+        it: 'Gli anelli di carta',
+
+        nl: 'De ringen van papier',
+
+        sv: 'Ringarna av papper',
+
+        da: 'Ringene af papir',
+
+        no: 'Ringene av papir',
+
+        fi: 'Paperiset renkaat'
+
+      },
+      gateBody: {
+        en: 'All three rings are free, and so is every turn of them. A Teacher plan adds the paper rings to cut out and roll, so each child can hold the same apparatus in their hands and catch one ring on the next themselves.',
+        de: 'Alle drei Ringe sind kostenlos, und jede Drehung auch. Mit dem Lehrkraft-Abo kommen die Ringe zum Ausschneiden und Zusammenkleben dazu, damit jedes Kind dasselbe Gerät in den Händen hat und selbst einen Ring in den nächsten greifen lässt.',
+        fr: 'Les trois anneaux sont gratuits, et chaque tour aussi. L’abonnement Enseignant ajoute les anneaux en papier à découper et à rouler, pour que chaque enfant tienne le même appareil et fasse lui-même accrocher un anneau sur le suivant.',
+        es: 'Los tres anillos son gratis, y cada giro también. El plan Docente añade los anillos de papel para recortar y enrollar, para que cada niño tenga el mismo aparato en las manos y enganche un anillo en el siguiente por sí mismo.',
+        pt: 'Os três anéis são gratuitos, e cada giro também. O plano Professor acrescenta os anéis de papel para recortar e enrolar, para que cada criança tenha o mesmo aparelho nas mãos e faça um anel engatar no seguinte.',
+        it: 'Tutti e tre gli anelli sono gratuiti, e lo è anche ogni giro. Il piano Insegnante aggiunge gli anelli di carta da ritagliare e arrotolare, così ogni bambino tiene in mano lo stesso apparecchio e fa agganciare da solo un anello a quello dopo.',
+        nl: 'Alle drie de ringen zijn gratis, en elke draai ook. Met het Leerkracht-abonnement komen daar de papieren ringen bij om uit te knippen en op te rollen, zodat elk kind hetzelfde apparaat in handen heeft en zelf de ene ring in de volgende laat pakken.',
+        sv: 'Alla tre ringarna är gratis, och varje vridning också. Med Lärarabonnemanget får du dessutom pappersringarna att klippa ut och rulla ihop, så att varje barn håller samma sak i händerna och själv låter en ring haka i nästa.',
+        da: 'Alle tre ringe er gratis, og det er hver eneste drejning også. Med Lærer-abonnementet får du desuden papirringene til at klippe ud og rulle sammen, så hvert barn har det samme apparat i hænderne og selv lader den ene ring gribe fat i den næste.',
+        no: 'Alle tre ringene er gratis, og det er hver eneste dreining også. Med Lærer-abonnementet får du i tillegg papirringene til å klippe ut og rulle sammen, slik at hvert barn holder det samme apparatet i hendene og selv lar den ene ringen gripe tak i den neste.',
+        fi: 'Kaikki kolme rengasta ovat maksuttomia, ja niin on jokainen pyöräytyskin. Opettajatilaus tuo lisäksi paperiset renkaat, jotka leikataan irti ja rullataan kokoon, niin jokaisella lapsella on sama laite käsissään ja hän saa itse tarttua yhdellä renkaalla seuraavaan.'
+      },
+      gateCta: {
+        en: 'See the Teacher plan',
+        de: 'Zum Lehrkraft-Abo',
+        fr: 'Découvrir l’abonnement Enseignant',
+        es: 'Conoce el plan Docente',
+        pt: 'Conheça o plano Professor',
+        it: 'Scopri il piano Insegnante',
+        nl: 'Bekijk het Leerkracht-abonnement',
+        sv: 'Se Lärarabonnemanget',
+        da: 'Se Lærer-abonnementet',
+        no: 'Se Lærer-abonnementet',
+        fi: 'Tutustu Opettajatilaukseen'
+      },
+      gateClose: {
+        en: 'Not now',
+        de: 'Jetzt nicht',
+        fr: 'Pas maintenant',
+        es: 'Ahora no',
+        pt: 'Agora não',
+        it: 'Non ora',
+        nl: 'Nu niet',
+        sv: 'Inte nu',
+        da: 'Ikke nu',
+        no: 'Ikke nå',
+        fi: 'Ei nyt'
+      },
+
+      printBtn: {
+
+        en: 'Print the paper rings',
+
+        de: 'Die Ringe zum Ausschneiden drucken',
+
+        fr: 'Imprimer les anneaux en papier',
+
+        es: 'Imprimir los anillos de papel',
+
+        pt: 'Imprimir os anéis de papel',
+
+        it: 'Stampa gli anelli di carta',
+
+        nl: 'De papieren ringen afdrukken',
+
+        sv: 'Skriv ut pappersringarna',
+
+        da: 'Print papirringene',
+
+        no: 'Skriv ut papirringene',
+
+        fi: 'Tulosta paperiset renkaat'
+
+      },
+      sheetTitle: {
+        en: 'Paper rings to cut out and roll',
+        de: 'Ringe zum Ausschneiden und Zusammenkleben',
+        fr: 'Anneaux à découper et à rouler',
+        es: 'Anillos para recortar y enrollar',
+        pt: 'Anéis para recortar e enrolar',
+        it: 'Anelli da ritagliare e arrotolare',
+        nl: 'Ringen om uit te knippen en op te rollen',
+        sv: 'Ringar att klippa ut och rulla ihop',
+        da: 'Ringe til at klippe ud og rulle sammen',
+        no: 'Ringer å klippe ut og rulle sammen',
+        fi: 'Renkaat leikattavaksi ja rullattavaksi'
+      },
+      sheetNote: {
+        en: 'Cut out each long strip, curl it round into a ring and stick the two ends together. Hold two rings side by side and turn the right one: every time its 9 comes round to its 0, turn the left one on by one.',
+        de: 'Schneide jeden langen Streifen aus, roll ihn zu einem Ring und klebe die Enden zusammen. Halte zwei Ringe nebeneinander und dreh den rechten: Immer wenn seine 9 zur 0 weiterrückt, drehst du den linken um eins weiter.',
+        fr: 'Découpe chaque longue pièce de papier, roule-la en anneau et colle les deux bouts. Tiens deux anneaux côte à côte et fais tourner celui de droite : chaque fois que son 9 arrive sur le 0, avance celui de gauche d’un cran.',
+        es: 'Recorta cada tira larga, enróllala hasta formar un anillo y pega los dos extremos. Pon dos anillos juntos y gira el de la derecha: cada vez que su 9 pase al 0, adelanta el de la izquierda una posición.',
+        pt: 'Recorte cada tira comprida, enrole até formar um anel e cole as duas pontas. Ponha dois anéis lado a lado e gire o da direita: sempre que o 9 dele passar para o 0, avance o da esquerda uma casa.',
+        it: 'Ritaglia ogni striscia lunga, arrotolala fino a formare un anello e incolla le due estremità. Tieni due anelli affiancati e gira quello di destra: ogni volta che il suo 9 passa allo 0, fai avanzare di uno quello di sinistra.',
+        nl: 'Knip elke lange strook uit, draai hem op tot een ring en plak de twee uiteinden aan elkaar. Houd twee ringen naast elkaar en draai de rechter: telkens als zijn 9 doordraait naar de 0, draai je de linker één verder.',
+        sv: 'Klipp ut varje lång remsa, rulla ihop den till en ring och fäst ihop ändarna. Håll två ringar bredvid varandra och vrid den högra: varje gång dess 9 går runt till 0 vrider du den vänstra ett steg.',
+        da: 'Klip hver lang strimmel ud, rul den sammen til en ring og sæt de to ender sammen. Hold to ringe ved siden af hinanden og drej den højre: hver gang dens 9 kommer rundt til 0, drejer du den venstre et hak frem.',
+        no: 'Klipp ut hver lange remse, rull den sammen til en ring og fest de to endene. Hold to ringer ved siden av hverandre og vri den høyre: hver gang 9-tallet kommer rundt til 0, vrir du den venstre ett hakk fram.',
+        fi: 'Leikkaa irti jokainen pitkä suikale, rullaa se renkaaksi ja kiinnitä päät yhteen. Pidä kahta rengasta vierekkäin ja pyöritä oikeanpuoleista: aina kun sen 9 kiertyy nollaan, pyöräytä vasenta yhden pykälän eteenpäin.'
+      }
     },
 
     settings: [

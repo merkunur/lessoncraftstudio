@@ -1319,6 +1319,28 @@
       "Scrivi il numero su ogni porta. Un corridoio è già completo, per cominciare."
     ]
   },
+  "number-drum": {
+    "name": "L’anello dei numeri",
+    "slug": "anello-dei-numeri-cambio-decina-scuola-primaria",
+    "tagline": "Sull’anello lo 0 è disegnato proprio sotto il 9, e dopo trentanove non può venire «trentadieci».",
+    "metaTitle": "L’anello dei numeri: il cambio di decina, primaria",
+    "metaDescription": "Gira l’anello delle unità oltre il 9 e un dente aggancia quello delle decine. Fermati a metà e chiedi se c’è scritto 29 o 30.",
+    "about": [
+      "Gira l’anello di destra. Quando il suo 9 passa allo 0, un dente aggancia l’anello accanto e se lo porta dietro.",
+      "Due anelli di cifre in una cornice. L’anello di destra conta le unità, quello di sinistra le decine.",
+      "Tutti e tre gli anelli sono gratuiti, e lo è anche ogni giro. Il piano Insegnante aggiunge gli anelli di carta da ritagliare e arrotolare, così ogni bambino tiene in mano lo stesso apparecchio e fa agganciare da solo un anello a quello dopo."
+    ],
+    "howToUse": [
+      "Girare in avanti. Girare avanti di mezzo scatto.",
+      "Girare piano. tra 29 e 30?",
+      "Girare in avanti l’anello delle decine."
+    ],
+    "classroomIdeas": [
+      "Gli anelli non vanno oltre 99.",
+      "40. Hanno girato tutti e due gli anelli.",
+      "Ritaglia ogni striscia lunga, arrotolala fino a formare un anello e incolla le due estremità. Tieni due anelli affiancati e gira quello di destra: ogni volta che il suo 9 passa allo 0, fai avanzare di uno quello di sinistra."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

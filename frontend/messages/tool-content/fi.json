@@ -1298,6 +1298,28 @@
       "Kirjoita numero jokaiseen oveen. Yksi käytävä on täytetty valmiiksi alkuun."
     ]
   },
+  "number-drum": {
+    "name": "Lukurengas",
+    "slug": "lukurengas-kymmenylitys-alkuopetus",
+    "tagline": "Renkaassa 0 on piirretty suoraan 9:n alle — sitä ei näy rivissä, joka loppuu.",
+    "metaTitle": "Lukurengas: kymmenylitys, alkuopetus",
+    "metaDescription": "Pyöritä ykkösrengasta yli sen yhdeksän, niin hammas tarttuu kymmenrenkaaseen ja vetää sen mukanaan. Pysähdy puoliväliin ja kysy, lukeeko siinä 29 vai 30.",
+    "about": [
+      "Pyöritä oikeanpuoleista rengasta. Kun sen 9 kiertyy nollaan, hammas tarttuu viereiseen renkaaseen ja vetää sen mukanaan.",
+      "Kaksi numerorengasta kehyksessä. Oikea rengas laskee ykkösiä ja vasen kymmeniä.",
+      "Kaikki kolme rengasta ovat maksuttomia, ja niin on jokainen pyöräytyskin. Opettajatilaus tuo lisäksi paperiset renkaat, jotka leikataan irti ja rullataan kokoon, niin jokaisella lapsella on sama laite käsissään ja hän saa itse tarttua yhdellä renkaalla seuraavaan."
+    ],
+    "howToUse": [
+      "Pyöritä eteenpäin. Pyöritä puoli pykälää eteenpäin.",
+      "Pyöritä hitaasti. 29:n ja 30:n välissä?",
+      "Pyöritä kymmenrengasta eteenpäin."
+    ],
+    "classroomIdeas": [
+      "Renkaat eivät mene lukua 99 pidemmälle.",
+      "40. Molemmat renkaat pyörähtivät.",
+      "Leikkaa irti jokainen pitkä suikale, rullaa se renkaaksi ja kiinnitä päät yhteen. Pidä kahta rengasta vierekkäin ja pyöritä oikeanpuoleista: aina kun sen 9 kiertyy nollaan, pyöräytä vasenta yhden pykälän eteenpäin."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

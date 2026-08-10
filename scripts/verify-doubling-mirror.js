@@ -38,7 +38,7 @@ const eq = (a, b, m) => ok(a === b, m + ' — got ' + JSON.stringify(a) + ', exp
 
 /* L0 — constants first */
 const NEEDED = ['CAP', 'ROW', 'T_CLOSE', 'T_OPEN', 'T_PLACE', 'T_REFUSE', 'T_BEAT',
-  'RM_F', 'RM_FLOOR', 'SND_PLACE', 'SND_CLOSE', 'SND_OPEN', 'SND_SIDE', 'SND_REFUSE', 'SND_DEBOUNCE'];
+  'RM_F', 'RM_FLOOR', 'SND_PLACE', 'SND_CLOSE', 'SND_OPEN', 'SND_SIDE', 'SND_REFUSE', 'T_SND_DEBOUNCE'];
 ok(NEEDED.length >= 13, 'L0 non-vacuity: the constant list is implausibly short');
 NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k + ' missing'));
 
@@ -112,6 +112,14 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
      totals in [2, 2*CAP] are 3, 5, ... 2*CAP-1, which is CAP-1 of them,
      and asserting a number I liked rather than one I derived is the
      recorded #52 defect. */
+  /* @@ CAP - 1, AND I BROKE THIS ONCE BY 'FIXING' IT. The odd totals in
+     [2, 2*CAP] are 3, 5, ... 2*CAP-1, which is CAP-1 of them for ANY
+     cap. When the cap changed from 20 to 9 I replaced the derivation
+     with CAP because the two numbers had coincided under the old
+     value - which is the invented-threshold defect arriving by the
+     back door, as a REGRESSION of a correct derivation rather than as
+     a fresh guess. The gate caught it immediately, which is the point
+     of asserting a derived count rather than a remembered one. */
   eq(odds, G.CAP - 1, 'L2 non-vacuity: odd totals walked');
   console.log('  ' + evens + ' even totals split cleanly; ' + odds + ' odd totals each resolved BOTH ways');
 }

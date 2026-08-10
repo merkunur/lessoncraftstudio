@@ -1272,6 +1272,31 @@
     "metaTitle": "La bandeja de panecillos — las tablas difíciles, en dos trozos",
     "metaDescription": "Una bandeja de panecillos pegados para las tablas: separa 7 filas de 6 en 5 filas de 6 y 2 filas de 6. Sin total, sin cronómetro y sin nota. Gratis, 2.º y 3.º."
   },
+  "times-shelf": {
+    "slug": "tabla-pitagorica-tablas-del-1-al-10-primaria",
+    "name": "La repisa de las tablas",
+    "tagline": "Cien cartas en una repisa: la clase retira la fila y la columna del 1, del 2, del 5 y del 10, la repisa se cierra sola y las cartas crecen — y lo que de verdad falta por aprender cabe en veintiuna.",
+    "about": [
+      "Cien cartas acomodadas en una repisa. Cada carta enseña un solo número —el resultado— y los dos factores viven en el borde: las filas por la izquierda, las columnas por arriba. No hay ningún signo de por medio ni una sola palabra sobre la repisa. Cuatro botones retiran, cada uno, la fila y la columna completas del 1, del 2, del 5 y del 10; la repisa se cierra sola y las cartas que quedan crecen, así que lo que sobra se ve mejor desde el fondo del salón que lo que había al empezar. Y lo que queda, cada vez, es un cuadrado perfecto de cartas.",
+      "El 1, el 2, el 5 y el 10 se retiran por una razón, no por costumbre: la clase ya era dueña de los cuatro antes de que alguien dijera «multiplicar». El 1 no cambia nada, el 2 son los dobles que ya venían de la suma, el 5 se contó de cinco en cinco en el reloj y en las manos, y el 10 es el sistema de valor posicional. Después queda un movimiento más: retirar todas las cartas de debajo de la diagonal, porque ese número ya está parado del otro lado. Ojo con lo que eso significa y con lo que no. Tres platos de cuatro siguen sin ser cuatro platos de tres —son dos situaciones distintas, y hay otra actividad de esta misma plataforma dedicada justo a que no se confundan—, pero las dos llegan a doce, y el doce solo hay que aprendérselo una vez. Lo que se retira aquí es la lista, nunca la ley y nunca la situación. Los cuadrados no se retiran nunca, y no porque nosotros lo hayamos decidido: cuelgan de la diagonal y no tienen pareja del otro lado, así que la repisa ni siquiera puede ofrecer el movimiento.",
+      "No hay cronómetro, ni puntuación, ni racha, ni diploma: el enemigo que tiene nombre es el examen de tablas contra reloj, no la manera de enseñar de nadie. Tampoco existe ningún estudio que demuestre que esta repisa en particular mejore nada, y no vamos a decir que sí; lo que sí es defendible es que pone en material una estrategia de hechos derivados que los planes de estudio de primaria ya piden —apoyarse en lo que ya se sabe para llegar a lo que no—, y que el número final lo saca la clase y no la máquina. Se abre en el navegador, sin instalar nada y sin cuenta. La repisa completa —los cuatro retiros, el movimiento de la diagonal y regresar todo— es gratis para siempre; la hoja para imprimir con la lista de estudio va con el plan Docente."
+    ],
+    "howToUse": [
+      "Proyecta la repisa entera antes de empezar y no digas todavía cuántas cartas hay. Pregunta primero qué tan grande se ve el trabajo que tienen enfrente; deja que alguien diga «muchísimas».",
+      "Retira la fila y la columna del 1 delante de todos y pregunta por qué esa no contaba. Alguien lo va a decir con sus palabras: porque el 1 no cambia nada. Sigue con el 2, con el 5 y con el 10, y que ellos digan la razón de cada uno antes de que tú toques el botón.",
+      "Detente ahí. La repisa se ve chiquita comparada con la de hace un minuto, y esa comparación es la clase entera. Pregunta cuántas cartas creen que quedan, y déjalos contarlas; ese conteo es de ellos, la repisa no lo hace.",
+      "Haz el último movimiento —retirar todo lo de debajo de la diagonal— solo cuando alguien haya notado por su cuenta que hay dos cartas con el mismo número. Ese es el momento exacto; llegar antes se lo quita.",
+      "Cierra sin celebrar nada. Que alguien copie en su cuaderno lo que quedó parado: esa es su lista del año, y la hicieron ellos."
+    ],
+    "classroomIdeas": [
+      "Vuelve a abrirla una vez al mes con todo puesto y retira las cuatro familias otra vez, sin explicar nada. La segunda vez la clase lo hace sola y en menos de un minuto; ahí se ve qué tanto se quedó.",
+      "Toca una carta cualquiera y deja que el salón busque las demás que traen ese mismo número antes de que se prendan solas. El 12 aparece varias veces, el 49 no aparece en ningún otro lado, y esa diferencia da para una conversación entera.",
+      "Un día empieza al revés: abre desde los ajustes con el 1, el 2, el 5 y el 10 ya retirados y que la clase adivine cuáles faltan y por qué se habrán ido.",
+      "Deja quietos los cuadrados y pregunta por qué esos no se pueden retirar. Que ellos descubran que no tienen pareja del otro lado vale mucho más que cualquier explicación tuya."
+    ],
+    "metaTitle": "La repisa de las tablas — la tabla pitagórica del 1 al 10",
+    "metaDescription": "Una tabla pitagórica de cien cartas para proyectar: retira el 1, el 2, el 5 y el 10, luego lo de debajo de la diagonal, y quedan 21 multiplicaciones por aprender. Gratis, primaria."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

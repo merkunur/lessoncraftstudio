@@ -1273,6 +1273,31 @@
     "metaTitle": "La plaque de brioches : casser une table difficile en deux",
     "metaDescription": "Outil gratuit pour la classe : la plaque de brioches casse 7 rangées de 6 en 5 rangées de 6 et 2 rangées de 6. Aucun total affiché. CE1-CE2, sans compte."
   },
+  "times-shelf": {
+    "slug": "tables-de-multiplication-table-de-pythagore-ce2",
+    "name": "Le casier des tables",
+    "tagline": "Cent cartes à projeter ; une fois rangé ce que la classe connaît déjà, il en reste vingt et une.",
+    "about": [
+      "Cent cartes dans un casier. Chaque carte ne montre que son résultat, jamais l’opération : les deux facteurs sont sur les bords — les lignes à gauche, les colonnes en haut — et c’est à l’enfant de les lire. On range d’abord la ligne 1 et la colonne 1, puis celles du 2, du 5 et du 10 : quatre familles que la classe possédait avant même qu’on lui parle de multiplication. Le 1 ne change rien, le 2 ce sont les doubles qui viennent de l’addition, le 5 se compte de 5 en 5 comme sur l’horloge, le 10 c’est la numération. À chaque fois le casier se referme, les cartes qui restent grandissent, et ce qui reste est un carré que la classe lit à l’œil : cent, puis quatre-vingt-un, soixante-quatre, quarante-neuf, trente-six.",
+      "Le dernier geste range toutes les cartes situées sous la diagonale, parce que leur nombre est déjà là, de l’autre côté. Il en reste vingt et une. Attention à ce que le casier dit et à ce qu’il ne dit pas : trois assiettes de quatre, ce n’est toujours pas quatre assiettes de trois — les deux situations restent différentes et un problème ne se résout pas dans l’autre sens. Mais les deux font douze, et douze ne s’apprend qu’une seule fois. C’est la liste qui raccourcit, jamais le sens de l’opération. Les carrés — 3 × 3, 4 × 4, 6 × 6, 7 × 7, 8 × 8, 9 × 9 — ne partent jamais : personne ne les attend de l’autre côté, et le casier ne peut même pas proposer le geste.",
+      "Les programmes officiels du cycle 2 demandent que les élèves mémorisent les tables et élaborent des stratégies de calcul en s’appuyant sur les propriétés des opérations, dont la commutativité ; d’autres pays en ont fait un objet d’enseignement à part entière — les Kernaufgaben allemandes, les steunsommen néerlandais. Le casier met ce travail sous les yeux de la classe au lieu de le décrire. Aucune étude d’efficacité n’existe sur cet appareil et nous n’en revendiquons aucune : ce qu’il fait, c’est instancier une stratégie de faits dérivés que ces programmes prescrivent déjà. Aucun chronomètre, aucun score, aucun niveau — ce à quoi il s’oppose, c’est l’interrogation de tables chronométrée. L’outil est gratuit ; seule la fiche à imprimer fait partie de l’offre Enseignant."
+    ],
+    "howToUse": [
+      "Projetez le casier plein avant l’entrée des élèves et laissez-le en l’état un moment. Demandez ce que montre une carte, et où sont passés les deux nombres qu’on multiplie.",
+      "Rangez la ligne 1 et la colonne 1, et demandez pourquoi personne n’a besoin de les apprendre. Puis le 2 : ce sont les doubles, la classe les tenait déjà de l’addition. Puis le 5, puis le 10.",
+      "À chaque rangement, arrêtez-vous. Le casier se referme et il reste un carré : faites-le lire — combien de lignes, combien de colonnes — avant de continuer.",
+      "Appuyez sur une carte : toutes celles qui portent le même nombre s’allument, et les deux nombres du bord aussi. Faites-le sur 12, puis sur 36, puis sur 49, et laissez la classe expliquer pourquoi le nombre de cartes allumées n’est pas toujours le même.",
+      "Le dernier geste range tout ce qui est sous la diagonale. Demandez d’abord si on a le droit, et écoutez la réponse avant d’appuyer. Puis faites compter ce qui reste : c’est la liste de l’année, et c’est la classe qui l’a faite."
+    ],
+    "classroomIdeas": [
+      "Le rituel de la semaine : rouvrez le casier plein le lundi et refaites les quatre rangements en une minute, sans commentaire. Ce qui reste rétrécit sous les yeux de la classe à chaque fois, et l’affaire devient tenable.",
+      "Après le dernier rangement, faites recopier ce qui reste sur le cahier, une carte par ligne. Ce n’est pas une liste que vous donnez, c’est une liste qu’ils ont obtenue — la différence s’entend dans la classe.",
+      "Prenez une seule carte qui reste et faites-en un problème à deux versions : trois paniers de huit, huit paniers de trois. Les deux histoires ne se ressemblent pas ; le résultat, si. C’est exactement ce que le casier vient de ranger, et rien d’autre.",
+      "Consacrez une séance aux carrés : ce sont les seules cartes que le casier refuse de ranger. Demandez pourquoi — la réponse est sur les bords, pas dans le résultat."
+    ],
+    "metaTitle": "Table de Pythagore interactive — tables de multiplication CE2",
+    "metaDescription": "Cent cartes à projeter. La classe range les tables qu’elle connaît déjà — 1, 2, 5, 10 — et découvre qu’il ne reste que vingt et un résultats à apprendre."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

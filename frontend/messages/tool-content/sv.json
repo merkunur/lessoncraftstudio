@@ -1274,6 +1274,31 @@
     "metaTitle": "Bullplåten – bryt isär en plåt bullar, multiplikation åk 2-3",
     "metaDescription": "Gratis verktyg för hela klassen: en plåt bullar som sitter ihop. Bryt isär 7 rader i 5 och 2, skjut ihop igen — lika många bullar hela tiden. Åk 2-3, Lgr22."
   },
+  "times-shelf": {
+    "slug": "multiplikationstabellen-tabellhyllan",
+    "name": "Tabellhyllan",
+    "tagline": "Hundra kort i en hylla. Lägg undan de tabeller klassen ägde redan innan multiplikationen började — kvar står 21 uppgifter att faktiskt lära sig.",
+    "about": [
+      "Hundra gräddvita kort står i en djupgrön hylla, tio rader och tio kolumner. Ett kort visar bara sitt eget tal — 21, aldrig 7 gånger 3. Faktorerna står på kanterna, radernas tal till vänster och kolumnernas överst, och på själva hyllan finns inte ett enda ord och inte ett enda räknetecken. Fyra knappar — 1, 2, 5 och 10 — lägger undan varsitt kors: raden och kolumnen samtidigt. Hyllan sluter sig, korten som är kvar växer, och hundra blir 81, 64, 49 och till slut 36. Knapparna går åt båda hållen, så allt går att lägga tillbaka.",
+      "De fyra tabellerna får gå för att klassen ägde dem innan multiplikationen ens var påbörjad: ettan är att talet är sig självt, tvåan är dubblorna från additionen, femman är en hoppräkning som redan gjorts på klockan och på fingrarna, och tian är hela positionssystemet. Sedan finns ett femte drag, som bara går att göra när de fyra är undanlagda: varje kort under diagonalen läggs undan, eftersom dess tal redan står kvar på andra sidan. Kvar står 21 kort. Och 3 tallrikar med 4 är fortfarande inte 4 tallrikar med 3 — men båda blir tolv, och tolv behöver bara läras in en gång. Talen 9, 16, 36, 49, 64 och 81 blir aldrig undanlagda: de ligger på diagonalen och har ingen partner att luta sig mot.",
+      "Verktyget ställer inga frågor, rättar ingenting och skriver aldrig ut hur många kort som står kvar — den summan är precis det klassen är där för att komma fram till själv. Det finns ingen klocka, ingen poäng och inget diplom. Det tabellförhör på tid som många vuxna minns från sin egen skolgång är just det den här hyllan vill göra onödigt, genom att göra listan kortare i stället för att göra den snabbare. Lgr22, matematik åk 1–3: de fyra räknesättens egenskaper och samband. Något effektbevis för just den här apparaten finns inte — det som går att säga är att den gör ett härledningsarbete synligt som läroplanen redan efterfrågar."
+    ],
+    "howToUse": [
+      "Låt hela hyllan stå framme på projektorn innan lektionen börjar, och fråga vad klassen ser — inte hur många kort det är.",
+      "Fråga vilka tabeller ni faktiskt redan kan, och lägg undan dem i den ordning klassen säger. Ordningen spelar ingen roll och verktyget bråkar aldrig om den.",
+      "Tryck på ett kort på den fulla hyllan och se vilka andra som tänds: 12 lyser på fyra ställen, 36 på tre och 49 bara på sitt eget — det står på diagonalen och har ingen partner.",
+      "När 1, 2, 5 och 10 är undanlagda blir det femte draget möjligt: lägg undan varje kort under diagonalen, och låt klassen räkna själv hur många som står kvar.",
+      "Lägg tillbaka allt och gör om det på nästa lektion. Det är samma hylla varje gång, och att den går att göra om är hela poängen."
+    ],
+    "classroomIdeas": [
+      "Låt eleverna rösta om vilken tabell som ska bort först, och lägg undan den de säger. Att det blir lika många kort kvar oavsett i vilken ordning ni gör det är något de kan upptäcka själva — säg det inte i förväg.",
+      "Åk 3, Lgr22 – de fyra räknesättens samband: låt klassen leta upp alla kort som visar 24 och skriva upp var de står. Att 24 finns på fyra ställen medan 49 finns på ett enda är hela lektionen.",
+      "Skriv ut hyllan precis som klassen lämnade den och sätt upp den på väggen. Under bilden står varje uppgift som är kvar, skriven en enda gång — det är klassens egen lista, inte lärarens.",
+      "Låt två elever turas om: den ena pekar på ett kort, den andra säger var samma tal finns någon annanstans på hyllan. Talen på diagonalen är den intressanta fällan — där finns det ingen annanstans."
+    ],
+    "metaTitle": "Tabellhyllan – multiplikationstabellen som krymper, åk 2-3",
+    "metaDescription": "Gratis verktyg för hela klassen: hundra kort i en hylla. Lägg undan 1, 2, 5 och 10 och korten under diagonalen — kvar står 21 uppgifter att lära sig. Åk 2-3, Lgr22."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -1273,6 +1273,31 @@
     "metaTitle": "A assadeira de pãezinhos — tabuada difícil, anos iniciais",
     "metaDescription": "Quebre 7 fileiras de 6 em 5 e 2 fileiras de 6: a tabuada difícil sai de duas que a turma já sabe. Ferramenta gratuita para a lousa digital, anos iniciais."
   },
+  "times-shelf": {
+    "slug": "estante-da-tabuada-anos-iniciais",
+    "name": "A estante da tabuada",
+    "tagline": "Cem plaquinhas na estante: a turma recolhe o 1, o 2, o 5 e o 10, empilha o que se repete — e sobram 21 contas para o ano inteiro.",
+    "about": [
+      "Na tela, cem plaquinhas cor de creme numa estante verde-escura. Cada plaquinha mostra só o resultado — o 21, o 48, o 63 —, e os dois fatores ficam nas bordas: as linhas descem pela esquerda, as colunas atravessam por cima. Não há sinal de vezes na estante, nem uma palavra sequer, e nada acontece sozinho: quem decide o que sai é a turma.",
+      "Quatro botões recolhem o 1, o 2, o 5 e o 10 — a linha e a coluna de cada um, juntas. Não é atalho nem generosidade: a turma já era dona desses quatro antes de ouvir falar em multiplicação. O 1 não muda nada, o 2 é o dobro que veio da adição, o 5 é a contagem de cinco em cinco do relógio e das mãos, o 10 é o próprio sistema de numeração. A cada botão a estante se fecha e as plaquinhas que sobram crescem — cem, 81, 64, 49, 36. Depois, um quinto botão recolhe tudo o que está abaixo da diagonal, porque aquele número já está de pé do outro lado, e cada plaquinha que fica passa a segurar outra embaixo. Sobram 21. As plaquinhas da diagonal nunca saem: elas não têm par.",
+      "Três pratos de quatro continuam não sendo quatro pratos de três — a situação é outra, e a estante nunca diz o contrário. O que ela diz é que os dois dão doze, e que o doze só precisa ser guardado de cor uma vez. É a propriedade comutativa usada como vantagem de cálculo, que a BNCC pede quando fala em construir os fatos básicos da multiplicação para o cálculo mental e em usar as propriedades das operações como estratégia. Isto não é uma sabatina de tabuada contra o relógio: não há tempo, nem pontuação, nem acerto e erro. E não existe estudo de eficácia desta estante — o que existe é uma estratégia de fatos derivados que os currículos já prescrevem, aqui virada aparelho de sala."
+    ],
+    "howToUse": [
+      "Projete a estante cheia e deixe a turma olhar antes de tocar em qualquer coisa. Pergunte quantas dessas cem a gente teria mesmo que decorar.",
+      "Toque no 1. A linha e a coluna do 1 saem juntas e a estante se fecha, com as plaquinhas restantes maiores. Pergunte por que ninguém sentiu falta delas.",
+      "Faça o mesmo com o 2, o 5 e o 10, um de cada vez, sempre com a mesma pergunta antes: o que a gente já sabia sobre esse aqui, antes da multiplicação?",
+      "Com os quatro recolhidos, toque em empilhar. Tudo o que está abaixo da diagonal sai, e cada plaquinha que fica passa a segurar outra embaixo — a mesma resposta, guardada uma vez só.",
+      "Toque em qualquer plaquinha e todas as outras que têm aquele mesmo número acendem junto, com os números das bordas. Toque no 36 e pergunte à turma quantas responderam, e por quê."
+    ],
+    "classroomIdeas": [
+      "Rotina de início de ano: monte a estante uma vez com a turma inteira e deixe o resultado no mural. Durante o ano, quando alguém disser que não sabe a tabuada, volte à lista — é ela que a turma precisa, e não as cem.",
+      "Antes de recolher cada família, faça a pergunta que importa: por que a gente já sabia essa? O 5 costuma render a melhor conversa, porque a turma lembra sozinha do relógio e dos dedos.",
+      "As plaquinhas da diagonal nunca saem. Não aponte isso: espere alguém perceber que elas ficaram numa linha reta e deixe a criança explicar por que aquelas não têm par do outro lado.",
+      "Com o plano Professor, imprima a estante do jeito que ela ficou e a lista embaixo. Cada criança copia a própria lista no caderno — foi a turma que fez, e é dela."
+    ],
+    "metaTitle": "A estante da tabuada — sobram 21 contas, não cem",
+    "metaDescription": "Ferramenta gratuita para a lousa: a turma recolhe da tabuada tudo o que já sabia antes da multiplicação e descobre que sobram só 21 contas para guardar de cor."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

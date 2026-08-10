@@ -1275,6 +1275,31 @@
     "metaTitle": "Het breekbrood — een moeilijke tafel breken, groep 4/5",
     "metaDescription": "Breek zeven rijen van zes in vijf rijen van zes en twee rijen van zes — dezelfde broodjes, twee tafels die de klas al kent. Gratis digibordtool, groep 4/5."
   },
+  "times-shelf": {
+    "slug": "tafelkast-tafels-leren-automatiseren-groep-4-5",
+    "name": "De Tafelkast",
+    "tagline": "Honderd kaarten in de kast: de klas zet de steunsommen weg die ze al kent, en houdt 21 keersommen over — precies de lijst die er nog geleerd moet worden.",
+    "about": [
+      "In de Tafelkast staan honderd kaarten, in tien rijen en tien kolommen. Op een kaart staat alleen de uitkomst — 21, niet 7 en 3; de twee getallen waar die uitkomst bij hoort, staan langs de rand. Vier knoppen zetten telkens één rij én de bijbehorende kolom weg: de 1, de 2, de 5 en de 10. Na elke knop schuift de kast dicht en worden de overgebleven kaarten groter — van honderd naar 81, naar 64, naar 49, naar 36, achter in de klas nog leesbaar. Een vijfde knop zet daarna elke kaart onder de diagonaal weg, omdat datzelfde getal aan de andere kant al staat; op de kaart die blijft, liggen dan twee kaarten. Er blijven er 21 over.",
+      "Wat dit hulpmiddel doet, doet u al. De steunsommen 1, 2, 5 en 10 staan in elke Nederlandse rekenmethode vooraan, en dat je bij een keersom de twee getallen mag omkeren, weet de klas uit groep 4. De Tafelkast beweert dus niet dat er minder te leren valt dan u dacht — ze maakt zichtbaar wélke sommen het zijn, allemaal tegelijk, op één beeld waar vijfentwintig kinderen naar kunnen wijzen. En ze houdt daarbij het onderscheid overeind dat ertoe doet: drie borden met vier is nog steeds niet vier borden met drie. Alleen de uitkomst hoeft maar één keer onthouden te worden. De zes kaarten op de diagonaal — de kwadraten — kunnen daarom nooit weg: die hebben geen omkeersom, en dat ontdekken kinderen zelf.",
+      "De winst zit in het overzicht, niet in de snelheid. Er komt geen tempotoets bij; er komt een lijst bij, en die lijst heeft de klas zelf gemaakt door te kiezen wat er weg mocht. Er bestaat geen onderzoek dat een effect van dít apparaat aantoont. Wat het wél doet, is de afleidingsstrategie uitvoeren die de SLO-kerndoelen en elke Nederlandse rekenlijn al vragen — steunsommen eerst, de rest daarvan afleiden — en die strategie voor het eerst als één voorwerp op het digibord zetten."
+    ],
+    "howToUse": [
+      "Begin bij de volle kast. Laat de klas eerst kijken: honderd kaarten, en op elke kaart alleen een uitkomst. Vraag welke daarvan ze zó al weet.",
+      "Tik op een willekeurige kaart: elke kaart met datzelfde getal licht op, en de twee getallen langs de rand lichten mee. Op de volle kast antwoorden er bij 12 vier, bij 36 drie, en bij 49 maar één. Vraag waarom dat verschilt.",
+      "Zet nu de 1, de 2, de 5 en de 10 weg, één knop tegelijk. Laat vóór elke knop voorspellen hoeveel kaarten er weggaan. De kast schuift dicht en wat overblijft, wordt groter.",
+      "Als die vier weg zijn, gaat de vijfde knop open: elke kaart onder de diagonaal gaat weg, omdat dat getal aan de andere kant al staat. Kijk samen wat er blijft staan — en waarom de kaarten op de diagonaal niet mee konden.",
+      "Druk af wat er overblijft: de kast zoals hij er nu bij staat, met daaronder elke keersom één keer opgeschreven. Dat afdrukken zit in het Leerkracht-pakket; alles daarvóór is gratis."
+    ],
+    "classroomIdeas": [
+      "Voorspellen vóór elke knop. Schrijf op het bord hoeveel kaarten er volgens de klas weggaan, en tel na afloop na. De reeks 19, 17, 15, 13 komt vanzelf ter sprake, en dat gesprek is meer waard dan het getal.",
+      "Vraag na het wegzetten van de vier: welke kaarten staan er nog schuin door de kast heen, en waarom kunnen díé nooit weg? De zes kwadraten hebben geen partner aan de andere kant — kinderen komen daar zelf op, en dan hebben ze het echt begrepen.",
+      "Zet één kaart centraal in de kring. Tik hem aan, laat zien waar hetzelfde getal nog meer staat, en laat de klas de twee sommen naast elkaar vertellen: waar gaat de ene over, en waar de andere?",
+      "Zet de kast op ‘beginnen met 1, 2, 5 en 10 al weggezet’ voor de dagelijkse start: zes rijen, zes kolommen, en elke ochtend één kaart om samen over te praten. Neem de afdruk mee naar het volgende blok en streep samen door wat inmiddels vastzit."
+    ],
+    "metaTitle": "De Tafelkast — welke tafelsommen moet je écht leren? groep 4-5",
+    "metaDescription": "Zet op het digibord de steunsommen 1, 2, 5 en 10 weg en leg de omkeersommen op elkaar: van 100 kaarten blijven er 21 over — de tafellijst die de klas zelf maakt."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

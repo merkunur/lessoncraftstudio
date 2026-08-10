@@ -1428,6 +1428,30 @@
       "Recorten las dos alas y marquen bien la línea del medio para que se cierren. Pongan chapas en un ala, digan cuál será el doble, cierren la otra ala encima y pongan otras tantas. Cuéntenlas todas: la bisagra no fabrica ni una chapa, la ponen ustedes."
     ]
   },
+  "missing-question": {
+    "name": "Falta la pregunta",
+    "slug": "descomponer-numeros-y-formular-preguntas-primaria",
+    "tagline": "Ha pasado algo y todavía nadie ha preguntado nada. La persiana es la pregunta, y el sitio donde se baja es cuál.",
+    "metaTitle": "Descomponer números y formular la pregunta — Primaria",
+    "metaDescription": "Herramienta gratuita para la pizarra: una repisa, el aire y un total. Bajen una persiana y la clase decide qué preguntar; bajen las dos y caben varias respuestas.",
+    "about": [
+      "Una repisa con marcas encima, el aire por encima con más marcas, y un número que dice cuántas había en total. Nada más. Ni una frase, ni un dibujo de lo que pasó, ni una pregunta: la pregunta la va a fabricar la clase. Las marcas de la repisa y las del aire están dibujadas exactamente igual, así que la herramienta nunca regala el reparto por el que pregunta.",
+      "La persiana es la pregunta. Bajada sobre la repisa, pregunta cuántas se quedaron; bajada sobre el aire, cuántas se fueron; ninguna de las dos frases se escribe nunca. Bajen las dos y deja de ser una pregunta con una sola respuesta: solo queda el total, y le siguen encajando varias parejas distintas. Eso es descomponer un número de más de una manera, visto en lugar de contado.",
+      "La lista enumera; nunca compara. Muestra lo que todavía encaja con lo que se ve. No corrige la respuesta de ningún niño, no lleva la cuenta de cuántas parejas se han encontrado y no califica ninguna pregunta como la mejor. No hay puntos ni reloj. Esta rutina está basada en la investigación, no en la evidencia: formular preguntas propias está ampliamente descrito en la literatura, y no afirmamos ningún efecto medido.",
+      "Aquí todo es gratis: cada escena nueva, las dos persianas y la lista de posibilidades. El plan Docente añade la hoja para imprimir — la repisa y las marcas tal como acaba de verlas la clase, con renglones para las preguntas y las operaciones que les corresponden."
+    ],
+    "howToUse": [
+      "Repartan una escena y no digan nada. Primero se mira: todavía nadie ha preguntado nada.",
+      "Recojan las preguntas antes de bajar nada: «¿Qué se podría preguntar aquí?». Todas valen y ninguna se corrige.",
+      "Bajen una persiana sobre la parte que la clase quiere averiguar. Ahora hay un número que encontrar, y el total y lo visible son toda la información.",
+      "Bajen las dos persianas y vuelvan a hacer la misma pregunta. Ahora encaja más de una pareja, y la lista las mostrará todas cuando termine la discusión."
+    ],
+    "classroomIdeas": [
+      "Dos minutos de rutina: una escena, tres preguntas de la clase y la persiana bajada sobre la que más quieran resolver.",
+      "Con las dos persianas bajadas, acepten una pareja de la clase y pregunten si habría servido otra. Abran la lista solo cuando alguien haya encontrado la segunda.",
+      "Repartan dos veces el mismo total con distinto reparto en la repisa. El número no cambia y todo lo demás sí: por eso el total por sí solo no dice qué pasó."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

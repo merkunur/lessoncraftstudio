@@ -122,6 +122,26 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #55 AT REST IS A ROW OF IDENTICAL DOTS AND A NUMERAL — which is
+     the tool's opening frame and looks like any other counting board.
+     The card must carry the moment the tool exists for: BOTH shutters
+     down, so the numeral is all that is left, and the list of every
+     pair that still fits open beneath it. That list IS the claim —
+     one total, several decompositions — and it is the one thing no
+     sibling on the shelf shows. Seeded by closing both and asking.
+     ⚠ GENERATE THIS ONE WITH `--fit=contain`. Measured: the seeded stage
+     is 720x643 — aspect 0.893, past the 0.85 line — so `--fit=auto`
+     reports "ok" and TOP-CROPS the always-visible paid-sheet panel
+     through the middle of a sentence. A VIEWPORT override does NOT fix
+     it: this tool caps its own stage at 720px, so a 1040-wide viewport
+     still measured 720x652, i.e. very slightly WORSE. Contain letterboxes
+     and nothing is cut. Read the .webp after any change here — the log
+     says ok either way. */
+  'missing-question': [
+    { sel: '.mqu-b-ledge', wait: 320 },
+    { sel: '.mqu-b-air', wait: 320 },
+    { sel: '.mqu-b-tally', wait: 700 }
+  ],
   /* ⭐ #54 AT REST IS A HALF-EMPTY TRAY, which says nothing. The card
      must carry the moment the tool exists for: BOTH leaves full with the
      same count, and the odd one waiting below with no partner — the

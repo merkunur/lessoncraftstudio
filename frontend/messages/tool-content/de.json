@@ -1431,6 +1431,30 @@
       "Schneidet die beiden Flügel aus und ritzt die Mittellinie an, damit sie sich zuklappen lassen. Legt Scheiben auf einen Flügel, sagt, wie viel das Doppelte sein wird, klappt den anderen Flügel darüber und legt noch einmal genauso viele hin. Zählt alle: Das Scharnier macht keine einzige Scheibe — das macht ihr."
     ]
   },
+  "missing-question": {
+    "name": "Was ist hier passiert?",
+    "slug": "zahlen-zerlegen-und-fragen-finden-klasse-1",
+    "tagline": "Hier ist etwas passiert, und gefragt hat noch niemand etwas. Der Fensterladen ist die Frage — und wo er zugeht, ist, was gefragt wird.",
+    "metaTitle": "Zahlen zerlegen und eigene Fragen finden — Klasse 1",
+    "metaDescription": "Kostenloses Tafelwerkzeug: ein Geländer, die Luft darüber und eine Zahl. Schließt einen Fensterladen — und die Klasse entscheidet selbst, was hier gefragt wird.",
+    "about": [
+      "Ein Geländer mit Plättchen darauf, darüber die Luft mit weiteren Plättchen, und eine Zahl, die sagt, wie viele es zusammen waren. Mehr nicht. Kein Satz, kein Bild von dem, was passiert ist, und keine Frage — denn die Frage soll die Klasse selbst finden. Die Plättchen auf dem Geländer und die in der Luft sehen genau gleich aus; das Werkzeug verrät die Aufteilung also nicht, nach der es fragt.",
+      "Der Fensterladen ist die Frage. Über dem Geländer gefragt heißt: Wie viele sind geblieben? Über der Luft: Wie viele sind weg? Ausgeschrieben wird keiner der beiden Sätze. Schließt beide, und aus der Frage mit einer Antwort wird etwas anderes: Übrig bleibt nur die Zahl im Ganzen, und dazu passen mehrere verschiedene Paare. Das ist das Zerlegen einer Zahl auf mehr als eine Weise — sichtbar statt erklärt.",
+      "Die Liste zählt nur auf; sie vergleicht nie. Sie zeigt, was zu dem passt, was noch zu sehen ist. Sie prüft keine Antwort eines Kindes, zählt nicht mit, wie viele Paare schon gefunden wurden, und bewertet keine Frage als die bessere. Nichts wird bepunktet, nichts läuft gegen die Uhr. Diese Routine ist forschungsgestützt, nicht evidenzbasiert: Das Finden eigener Fragen ist in der Forschungsliteratur breit beschrieben — eine Wirkungsaussage machen wir nicht.",
+      "Alles hier ist kostenlos: jede neue Situation, beide Fensterläden und die Liste der Möglichkeiten. Das Lehrkraft-Abo bringt zusätzlich das Blatt zum Ausdrucken — mit dem Geländer und den Plättchen, wie die Klasse sie gerade gesehen hat, und mit Linien für die Fragen und die passenden Rechnungen."
+    ],
+    "howToUse": [
+      "Eine Situation austeilen und erst einmal nichts sagen. Zuerst wird nur geschaut — gefragt hat noch niemand etwas.",
+      "Die Fragen der Klasse einsammeln, bevor irgendetwas geschlossen wird: „Was könnte man hier fragen?“ Jede Frage zählt, keine wird bewertet.",
+      "Einen Fensterladen über den Teil schließen, über den die Klasse nachdenken will. Jetzt gibt es eine Zahl herauszufinden — die Gesamtzahl und das Sichtbare sind alles, was man hat.",
+      "Beide Fensterläden schließen und dieselbe Frage noch einmal stellen. Nun passt mehr als ein Paar, und die Liste zeigt am Ende alle."
+    ],
+    "classroomIdeas": [
+      "Zwei Minuten als feste Routine: eine Situation, drei Fragen aus der Klasse, und dann der Fensterladen über der Frage, die alle am meisten klären wollen.",
+      "Beide Fensterläden schließen, ein Paar aus der Klasse annehmen und fragen, ob auch ein anderes Paar gepasst hätte. Die Liste erst öffnen, wenn jemand ein zweites gefunden hat.",
+      "Dieselbe Gesamtzahl zweimal austeilen, mit unterschiedlich vielen Plättchen auf dem Geländer. Die Zahl bleibt gleich, alles andere ändert sich — genau deshalb sagt die Zahl allein nicht, was passiert ist."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

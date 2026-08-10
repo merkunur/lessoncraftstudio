@@ -1408,6 +1408,30 @@
       "Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette."
     ]
   },
+  "missing-question": {
+    "name": "Mitä kysyisit?",
+    "slug": "lukujen-hajottaminen-ja-kysymyksen-keksiminen-alkuopetus",
+    "tagline": "Jotain on tapahtunut, eikä kukaan ole vielä kysynyt mitään. Luukku on kysymys — ja se, minkä päälle sen sulkee, kertoo minkä.",
+    "metaTitle": "Lukujen hajottaminen ja oman kysymyksen keksiminen",
+    "metaDescription": "Maksuton taulutyökalu: hylly, sen yläpuolinen ilma ja kokonaismäärä. Sulje luukku, niin luokka valitsee kysymyksen; sulje molemmat, ja moni pari sopii yhä.",
+    "about": [
+      "Hylly, jolla on merkkejä, sen yläpuolella ilmaa ja siinä lisää merkkejä, ja luku, joka kertoo kuinka monta niitä oli kaikkiaan. Ei muuta. Ei lausetta, ei kuvaa tapahtuneesta eikä kysymystä — sillä kysymyksen tekee luokka itse. Hyllyn merkit ja ilmassa olevat merkit on piirretty täsmälleen samanlaisiksi, joten työkalu ei koskaan paljasta sitä jakoa, jota se kysyy.",
+      "Luukku on kysymys. Hyllyn päällä se kysyy, kuinka moni jäi; ilman päällä, kuinka moni lähti — kumpaakaan lausetta ei kirjoiteta koskaan näkyviin. Sulkekaa molemmat, eikä se ole enää kysymys, jolla on yksi vastaus: jäljelle jää vain kokonaismäärä, ja siihen sopii yhä useampi eri pari. Se on luvun hajottamista useammalla kuin yhdellä tavalla — nähtynä eikä kerrottuna.",
+      "Luettelo luettelee; se ei vertaa koskaan. Se näyttää sen, mikä sopii yhä siihen, mitä on näkyvissä. Se ei tarkista yhdenkään lapsen vastausta, ei laske montako paria on jo löytynyt eikä pidä mitään kysymystä parempana kuin toista. Ei pisteitä, ei kelloa. Tämä rutiini on tutkimukseen perustuva, ei näyttöön perustuva: omien kysymysten keksiminen on laajasti kuvattu tutkimuskirjallisuudessa, emmekä väitä mitään mitatusta vaikutuksesta.",
+      "Täällä kaikki on maksutonta: jokainen uusi tilanne, molemmat luukut ja luettelo vaihtoehdoista. Opettajatilaus tuo lisäksi tulostettavan paperipohjan — hyllyn ja merkit juuri sellaisina kuin luokka ne näki, ja viivat kysymyksille ja niihin kuuluville laskuille."
+    ],
+    "howToUse": [
+      "Ottakaa tilanne esiin älkääkä sanoko mitään. Ensin katsotaan: kukaan ei ole vielä kysynyt mitään.",
+      "Kerätkää luokan kysymykset ennen kuin mitään suljetaan: ”Mitä tästä voisi kysyä?” Jokainen kysymys kelpaa eikä yhtäkään korjata.",
+      "Sulkekaa luukku sen osan päälle, jota luokka haluaa pohtia. Nyt on yksi luku selvitettävänä, ja kokonaismäärä sekä näkyvissä oleva osa ovat kaikki, mitä on.",
+      "Sulkekaa molemmat luukut ja esittäkää sama kysymys uudelleen. Nyt sopivia pareja on useampi, ja luettelo näyttää ne kaikki, kun keskustelu on käyty."
+    ],
+    "classroomIdeas": [
+      "Kahden minuutin rutiini: yksi tilanne, kolme luokan kysymystä ja luukku sen päälle, jonka he haluavat eniten ratkaista.",
+      "Sulkekaa molemmat luukut, ottakaa vastaan yksi luokan ehdottama pari ja kysykää, olisiko jokin toinen pari myös sopinut. Avatkaa luettelo vasta, kun joku on löytänyt toisen.",
+      "Antakaa sama kokonaismäärä kahdesti niin, että merkit jakautuvat eri tavalla. Luku pysyy samana ja kaikki muu muuttuu — juuri siksi luku yksin ei kerro, mitä tapahtui."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

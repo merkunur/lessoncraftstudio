@@ -98,10 +98,10 @@ const MUTATIONS = [
   ['a motion constant stops being read', 'total: this._dur(GEO.T_WALK)', 'total: this._dur(220)'],
 
   /* --- strings ----------------------------------------------------- */
-  ['an owned noun reaches the copy', "en: 'Take the stairs'", "en: 'Take the stairs to the next floor'"],
+  ['an owned noun reaches the copy', "en: 'Take the stairs up to the first door", "en: 'Take the stairs to the next floor, up to the first door"],
   ['an operator glyph reaches the copy', "en: 'Room {n}.'", "en: 'Room {n} = here.'"],
-  ['a string is emptied', "en: 'Take the stairs'", "en: ''"],
-  ['the refusal scolds', "saidWallEnd:  { en: 'The corridor ends here.", "saidWallEnd:  { en: 'Wrong = the corridor ends here."]
+  ['a string is emptied', "en: 'Take the stairs up to the first door of the next corridor'", "en: ''"],
+  ['the refusal scolds', "saidWallEnd:  { en: 'The corridor ends here.", "saidWallEnd:  { en: 'Wrong. The corridor = ends here."]
 ];
 
 function run(dir) {

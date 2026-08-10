@@ -54,7 +54,7 @@ const srv = http.createServer((rq, rs) => {
     /* walk to the end of corridor 0, then meet the wall */
     for (let i = 0; i < 9; i++) {
       await p.evaluate(() => document.querySelector('.nhl-b-right').click());
-      await new Promise(r => setTimeout(r, 60));
+      await new Promise(r => setTimeout(r, 320));
     }
     const atEnd = await p.evaluate(() => ({ room: window.NumberHotel.st.room }));
     await p.screenshot({ path: path.join(OUT, `at-end-${c.w}.png`) });

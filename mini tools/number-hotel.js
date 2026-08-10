@@ -259,10 +259,11 @@
       /* the stairs are the ONE conditional control, and even then they
          are aria-disabled rather than disabled: focusable, and they
          state their requirement out loud. */
-      stairsBtn:    { en: 'Take the stairs' },
       stairsUpAt:   { en: 'Take the stairs up to the first door of the next corridor' },
       stairsDownAt: { en: 'Take the stairs down to the last door of the corridor below' },
-      stairsOff:    { en: 'Take the stairs — there are stairs only at the two ends of a corridor, and this room is in the middle of one.' },
+      /* ⚠ "this room is in the middle of one" was FALSE at rooms 0 and
+         99, which are ends. This wording is true everywhere. */
+      stairsOff:    { en: 'Take the stairs — there are stairs only at the two ends of a corridor, and none leads away from this room.' },
 
       printBtn:     { en: 'Print the hotel sheet' },
       printLocked:  { en: 'Print the hotel sheet — this one needs a Teacher plan.' },
@@ -276,8 +277,18 @@
       /* ⭐ THE REFUSAL IS THE BUILDING ANSWERING, NOT A CORRECTION. It
          never says "no" and never says "wrong" — it states a fact about
          the corridor, and the stairs are named as the way on. */
-      saidWallEnd:  { en: 'The corridor ends here. There is no door after room {n} — the stairs are the way on.' },
-      saidWallStart:{ en: 'The corridor starts here. There is no door before room {n} — the stairs are the way back.' },
+      /* ⚠⚠ THIS SENTENCE WAS FALSE AT EXACTLY TWO ROOMS, AND THE TOOL
+         OPENS ONE TAP AWAY FROM ONE OF THEM. At room 99 canWalkRight
+         and canStairs are BOTH false, and at room 0 so are canWalkLeft
+         and canStairs — yet the refusal promised "the stairs are the
+         way on". `newState()` starts at room 0. Found by a native panel
+         reading the model, not the copy.
+         The fix is to state a GENERAL FACT about the hotel rather than
+         a promise about here: it is true at all 100 rooms that the only
+         way between corridors is the stairs, including where no
+         staircase leads anywhere. */
+      saidWallEnd:  { en: 'The corridor ends here. There is no door after room {n} — from one corridor to the next, the only way is the stairs.' },
+      saidWallStart:{ en: 'The corridor starts here. There is no door before room {n} — from one corridor to the next, the only way is the stairs.' },
       /* ⚠ A refusal that never says nothing moved leaves a screen-reader
          user unable to tell whether they travelled. */
       saidTop:      { en: 'This is the highest corridor in the hotel. The elevator stays where it is.' },
@@ -600,7 +611,11 @@
     },
 
     _paintShaft: function (svg, st, here, anim) {
-      var g = this._svg('g', { class: 'nhl-shaft' });
+      /* ⚠⚠ shaftLabel WAS A DEAD STRING — the only name for the
+         elevator's indicator, i.e. the tool's central claim (the
+         indicator IS the tens digit), had no accessible name at all. */
+      var g = this._svg('g', { class: 'nhl-shaft', role: 'img' });
+      g.setAttribute('aria-label', this._fmt(this.api.t('shaftLabel'), { c: here }));
       g.appendChild(this._svg('rect', {
         x: GEO.SHAFT_X, y: 0, width: GEO.SHAFT_W, height: GEO.VB_H, class: 'nhl-shaft-bed'
       }));
@@ -662,7 +677,16 @@
           var x = this.roomX(d);
           var dw = GEO.ROOM_W * GEO.DOOR_F, dh = GEO.CORR_H * GEO.DOOR_H;
           var dx = x + (GEO.ROOM_W - dw) / 2, dy = y + (GEO.CORR_H - dh) / 2;
+          /* ⚠⚠ THE WALK AND THE STAIRS ANIMATED NOTHING. `_paint`
+             branched on anim.kind only for 'ride' and 'refuse', so
+             kind:'walk' and kind:'stairs' reached `_run` and rendered
+             a FREEZE followed by a jump — and the docblock calls the
+             stairs leg "THAT LEG IS THE CARRY". The carry was
+             invisible. The marker now travels for both. */
           var isHere = (room === st.room);
+          if (anim && (anim.kind === 'walk' || anim.kind === 'stairs')) {
+            isHere = (room === anim.from);
+          }
           g.appendChild(this._svg('rect', {
             x: dx, y: dy, width: dw, height: dh, rx: 4,
             class: 'nhl-door' + (lit ? ' is-lit' : '') + (isHere ? ' is-here' : '')
@@ -689,6 +713,20 @@
             g.appendChild(t);
           }
         }
+      }
+      /* the traveller in flight: a walk slides one pitch, the stairs
+         climb AND run the whole width back — the long leg is the carry,
+         and it has to be seen to be the point. */
+      if (anim && (anim.kind === 'walk' || anim.kind === 'stairs') && anim.from != null) {
+        var fx = this.roomX(anim.from % ROOMS) + GEO.ROOM_W / 2;
+        var fy = this.corrY(Math.floor(anim.from / ROOMS)) + GEO.CORR_H / 2;
+        var tx = this.roomX(anim.to % ROOMS) + GEO.ROOM_W / 2;
+        var ty = this.corrY(Math.floor(anim.to / ROOMS)) + GEO.CORR_H / 2;
+        var e = anim.t;
+        g.appendChild(this._svg('circle', {
+          cx: fx + (tx - fx) * e, cy: fy + (ty - fy) * e,
+          r: GEO.ROOM_W * 0.16, class: 'nhl-trav'
+        }));
       }
       svg.appendChild(g);
     },
@@ -739,7 +777,7 @@
 
       if (res.kind === 'stairs') {
         this._snd(GEO.SND_RIDE);
-        this._run({ kind: 'stairs', total: this._dur(GEO.T_RIDE) }, function () {
+        this._run({ kind: 'stairs', from: st.room, to: res.st.room, total: this._dur(GEO.T_RIDE) }, function () {
           self.st = res.st;
           api.announce(self._fmt(api.t(res.up ? 'saidStairsUp' : 'saidStairsDn'), { n: res.st.room }));
           self._paint();
@@ -1001,6 +1039,7 @@
       + '.nhl-wall{fill:#FBF3E4;opacity:.22;}'
       + '.nhl-wall.is-here{opacity:.40;}'
       + '.nhl-wall.is-lit{fill:#F2784B;opacity:1;}'
+      + '.nhl-trav{fill:#F2784B;stroke:#A34122;stroke-width:4;}'
 
       + '.nhl-pads{position:absolute;inset:0;pointer-events:none;}'
       + '.nhl-pad{position:absolute;margin:0;padding:0;border:0;background:transparent;'

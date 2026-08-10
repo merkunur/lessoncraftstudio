@@ -1430,6 +1430,30 @@
       "Klip de to fløje ud, og rids midterlinjen, så de kan lukkes. Læg skiver på den ene fløj, sig hvad det dobbelte bliver, klap den anden fløj henover, og læg lige så mange igen. Tæl dem alle sammen: hængslet laver ikke en eneste skive — det gør I."
     ]
   },
+  "missing-question": {
+    "name": "Gemmegardinet",
+    "slug": "dele-tal-op-og-finde-spoergsmaalet-indskoling",
+    "tagline": "Der er sket noget, og ingen har spurgt om noget endnu. Gardinet er spørgsmålet — og der, hvor I lukker det, er hvilket.",
+    "metaTitle": "Dele tal op og finde spørgsmålet — indskolingen",
+    "metaDescription": "Gratis tavleværktøj: en afsats, luften ovenover og et antal. Luk ét gardin, så vælger klassen spørgsmålet; luk begge, og flere svar kan stadig passe.",
+    "about": [
+      "En afsats med prikker på, luften ovenover med flere prikker, og et tal, der siger, hvor mange der var i alt. Ikke andet. Ingen sætning, intet billede af det, der skete, og intet spørgsmål — for spørgsmålet er det, klassen selv skal lave. Prikkerne på afsatsen og prikkerne i luften er tegnet præcis ens, så værktøjet røber aldrig den opdeling, det spørger om.",
+      "Gardinet er spørgsmålet. Lukket for afsatsen spørger det, hvor mange der blev, lukket for luften, hvor mange der forsvandt — og ingen af sætningerne bliver nogensinde skrevet. Luk begge, og det er ikke længere et spørgsmål med ét svar: tilbage er kun antallet, og flere forskellige par passer stadig til det. Det er at dele et tal op på mere end én måde, set i stedet for fortalt.",
+      "Listen remser op; den sammenligner aldrig. Den viser det, der stadig passer med det, man kan se. Den retter ikke noget barns svar, tæller ikke, hvor mange par der er fundet, og kalder ikke ét spørgsmål bedre end et andet. Ingen point, intet ur. Denne rutine er forskningsbaseret, ikke evidensbaseret: at stille sine egne spørgsmål er grundigt beskrevet i litteraturen, og vi påstår ingen målt effekt.",
+      "Alt her er gratis: hver ny situation, begge gardiner og listen over muligheder. Lærerabonnementet lægger arket til at printe oveni — afsatsen og prikkerne, som klassen lige har set dem, med linjer til spørgsmålene og de regnestykker, der hører til."
+    ],
+    "howToUse": [
+      "Hent en situation frem, og sig ikke noget. Først kigger man: ingen har spurgt om noget endnu.",
+      "Saml klassens spørgsmål, før der lukkes noget: „Hvad kunne man spørge om her?“ Alle spørgsmål tæller, og ingen bliver rettet.",
+      "Luk ét gardin for den del, klassen vil undre sig over. Nu er der ét tal at finde, og antallet plus det, der stadig kan ses, er alt, man har.",
+      "Luk begge gardiner, og stil det samme spørgsmål igen. Nu passer mere end ét par, og listen viser dem alle, når klassen er færdig med at snakke."
+    ],
+    "classroomIdeas": [
+      "To minutter som fast rutine: én situation, tre spørgsmål fra klassen, og gardinet lukket for det, de helst vil have afklaret.",
+      "Luk begge gardiner, tag imod ét par fra klassen, og spørg, om et andet par også ville have passet. Åbn først listen, når nogen har fundet det andet.",
+      "Tag det samme antal to gange med prikkerne fordelt forskelligt. Tallet er det samme, og alt andet er nyt — derfor kan tallet alene ikke fortælle, hvad der skete."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

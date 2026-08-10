@@ -1429,6 +1429,30 @@
       "Recorte as duas abas e marque bem a linha do meio para elas fecharem. Ponha pastilhas numa aba, diga quanto vai dar o dobro, feche a outra aba por cima e ponha a mesma quantidade. Conte todas: a dobradiça não faz nenhuma pastilha — quem faz é você."
     ]
   },
+  "missing-question": {
+    "name": "A pergunta que ninguém fez",
+    "slug": "decompor-numeros-e-formular-perguntas-anos-iniciais",
+    "tagline": "Aconteceu alguma coisa e ninguém perguntou nada ainda. A persiana é a pergunta — e o lugar onde ela fecha diz qual é.",
+    "metaTitle": "Decompor números e formular a pergunta — anos iniciais",
+    "metaDescription": "Ferramenta gratuita de lousa: um parapeito, o ar acima e um total. Feche uma persiana e a turma decide o que perguntar; feche as duas e várias respostas cabem.",
+    "about": [
+      "Um parapeito com marcas em cima, o ar acima dele com mais marcas, e um número dizendo quantas havia ao todo. Nada além disso. Nenhuma frase, nenhum desenho do que aconteceu e nenhuma pergunta — porque a pergunta é o que a turma vai construir. As marcas do parapeito e as do ar são desenhadas exatamente iguais, então a ferramenta nunca entrega a separação sobre a qual ela pergunta.",
+      "A persiana é a pergunta. Fechada sobre o parapeito, ela pergunta quantas ficaram; fechada sobre o ar, quantas foram embora; nenhuma dessas frases aparece escrita. Feche as duas e deixa de ser uma pergunta com uma resposta só: sobra o total, e vários pares diferentes ainda cabem nele. Isso é decompor um número de mais de um jeito, mostrado em vez de explicado.",
+      "A lista enumera; ela nunca compara. Mostra o que ainda combina com o que dá para ver. Não corrige a resposta de nenhuma criança, não conta quantos pares já foram achados e não classifica nenhuma pergunta como a melhor. Não há pontuação nem cronômetro. Esta rotina é baseada em pesquisa, não em evidências de eficácia: formular as próprias perguntas é amplamente descrito na literatura, e não afirmamos nenhum efeito medido.",
+      "Aqui tudo é gratuito: cada situação nova, as duas persianas e a lista de possibilidades. O plano Professor acrescenta a folha para imprimir — o parapeito e as marcas do jeito que a turma acabou de ver, com linhas para as perguntas e as sentenças matemáticas correspondentes."
+    ],
+    "howToUse": [
+      "Dê uma situação e não diga nada. Primeiro se olha: ninguém perguntou nada ainda.",
+      "Recolha as perguntas antes de fechar qualquer coisa: “O que dá para perguntar aqui?”. Toda pergunta vale e nenhuma é corrigida.",
+      "Feche uma persiana sobre a parte que a turma quer descobrir. Agora há um número a achar, e o total mais o que está à vista são tudo o que se tem.",
+      "Feche as duas persianas e faça a mesma pergunta de novo. Agora mais de um par serve, e a lista mostra todos quando a conversa terminar."
+    ],
+    "classroomIdeas": [
+      "Dois minutos de rotina: uma situação, três perguntas da turma e a persiana fechada sobre a que eles mais querem resolver.",
+      "Com as duas persianas fechadas, aceite um par da turma e pergunte se outro par também serviria. Só abra a lista depois que alguém achar o segundo.",
+      "Dê duas vezes o mesmo total com repartições diferentes no parapeito. O número não muda e todo o resto muda — é por isso que o total sozinho não diz o que aconteceu."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

@@ -1429,6 +1429,30 @@
       "Découpez les deux battants et marquez bien la ligne du milieu pour qu’ils se referment. Posez des disques sur un battant, dites ce que fera le double, rabattez l’autre battant et posez-en autant. Comptez-les tous : la charnière ne fabrique aucun disque, c’est vous qui le faites."
     ]
   },
+  "missing-question": {
+    "name": "Que peut-on demander ?",
+    "slug": "decomposer-les-nombres-et-poser-la-question-cp",
+    "tagline": "Il s’est passé quelque chose, et personne n’a encore rien demandé. Le volet, c’est la question — et l’endroit où on le ferme, c’est laquelle.",
+    "metaTitle": "Décomposer les nombres et poser la question — CP-CE1",
+    "metaDescription": "Outil de tableau gratuit : un rebord, l’air au-dessus et un total. Fermez un volet, la classe choisit la question ; fermez les deux, plusieurs réponses tiennent.",
+    "about": [
+      "Un rebord avec des ronds posés dessus, l’air au-dessus avec d’autres ronds, et un nombre qui dit combien il y en avait en tout. Rien d’autre. Aucune phrase, aucune image de ce qui s’est passé, aucune question — parce que la question, c’est la classe qui va la fabriquer. Les ronds du rebord et ceux de l’air sont dessinés exactement pareil : l’outil ne donne donc jamais le partage sur lequel il interroge.",
+      "Le volet, c’est la question. Posé sur le rebord, il demande combien sont restés ; posé sur l’air, combien sont partis ; ni l’une ni l’autre de ces phrases n’est jamais écrite. Fermez les deux et ce n’est plus une question à une seule réponse : il ne reste que le total, et plusieurs couples différents lui vont encore. C’est décomposer un nombre de plusieurs façons, montré plutôt que raconté.",
+      "La liste énumère, elle ne compare jamais. Elle montre ce qui reste compatible avec ce que l’on voit encore. Elle ne vérifie la réponse d’aucun enfant, ne compte pas combien de couples ont déjà été trouvés et ne classe aucune question comme meilleure. Rien n’est noté, rien n’est chronométré. Cette routine est fondée sur la recherche, mais pas sur des preuves d’efficacité : formuler ses propres questions est largement décrit dans la littérature, et nous n’avançons aucun effet mesuré.",
+      "Tout est gratuit ici : chaque nouvelle situation, les deux volets et la liste des possibles. L’abonnement Enseignant ajoute la fiche à imprimer — le rebord et les ronds tels que la classe vient de les voir, avec des lignes réglées pour écrire les questions posées et les calculs qui vont avec."
+    ],
+    "howToUse": [
+      "Distribuez une situation et ne dites rien. On regarde d’abord : personne n’a encore rien demandé.",
+      "Recueillez les questions avant de fermer quoi que ce soit : « Qu’est-ce qu’on pourrait demander ici ? » Toutes les questions comptent, aucune n’est corrigée.",
+      "Fermez un volet sur la partie que la classe veut chercher. Il y a maintenant un nombre à trouver, et le total avec ce qui reste visible sont toute la preuve disponible.",
+      "Fermez les deux volets et reposez la même question. Cette fois plusieurs couples conviennent, et la liste les montrera tous quand la discussion sera finie."
+    ],
+    "classroomIdeas": [
+      "Deux minutes en rituel : une situation, trois questions prises dans la classe, et le volet fermé sur celle qu’ils veulent le plus trancher.",
+      "Les deux volets fermés, prenez un couple proposé par la classe et demandez si un autre couple aurait aussi convenu. N’ouvrez la liste qu’une fois qu’un deuxième a été trouvé.",
+      "Distribuez deux fois le même total avec les ronds répartis autrement. Le nombre ne change pas, tout le reste change — voilà pourquoi le total seul ne dit pas ce qui s’est passé."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

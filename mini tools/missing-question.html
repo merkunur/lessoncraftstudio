@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Missing Question — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #55 - THE MISSING QUESTION. No question ever appears on the
+       apparatus, which is the title honoured literally. Something has
+       happened on the ledge; the class decides what could be asked, and
+       asks it by CLOSING A SHUTTER over the part they want to wonder
+       about. One shutter hides a number and there is one answer. Both
+       shutters hide two INDEPENDENT numbers, so there is no answer -
+       there is a set of pairs, and the tally lists every one that is
+       still consistent with what can be seen. It never checks anybody's
+       answer against anything. It loads NO ART and NO AUDIO beyond the
+       shell's own pop. -->
+
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/missing-question.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(MissingQuestion, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

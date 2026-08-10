@@ -230,7 +230,11 @@
        tower, storey, level or skyline. */
     strings: {
       title:        { en: 'The Number Hotel' },
-      instruction:  { en: 'Every room is a number. Walking takes you one door along the corridor. The lift takes you one corridor up, and you can only read the doors on the corridor you are standing in.' },
+      /* ⚠ The only explanatory string omitted the stairs AND that the
+         corridor ends — the carry is the reason this tool exists, and
+         all five panels flagged it. It also still said "lift" while
+         every button said "elevator". */
+      instruction:  { en: 'Every room is a number. One step takes you to the next door along the corridor. The elevator takes you one corridor up, and you can only read the doors on the corridor you are standing in. The corridor ends — from there the stairs carry on.' },
 
       setStart:     { en: 'Where the walker starts' },
       startZero:    { en: 'At the very first room' },
@@ -274,17 +278,26 @@
          the corridor, and the stairs are named as the way on. */
       saidWallEnd:  { en: 'The corridor ends here. There is no door after room {n} — the stairs are the way on.' },
       saidWallStart:{ en: 'The corridor starts here. There is no door before room {n} — the stairs are the way back.' },
-      saidTop:      { en: 'This is the highest corridor in the hotel.' },
-      saidBottom:   { en: 'This is the lowest corridor in the hotel.' },
+      /* ⚠ A refusal that never says nothing moved leaves a screen-reader
+         user unable to tell whether they travelled. */
+      saidTop:      { en: 'This is the highest corridor in the hotel. The elevator stays where it is.' },
+      saidBottom:   { en: 'This is the lowest corridor in the hotel. The elevator stays where it is.' },
       saidRideUp:   { en: 'Going up one corridor. The doors up there cannot be read until we arrive.' },
       saidRideDown: { en: 'Going down one corridor. The doors down there cannot be read until we arrive.' },
       saidStairsUp: { en: 'Up the stairs and all the way back along the new corridor, to room {n}.' },
       saidStairsDn: { en: 'Down the stairs and all the way along to the far end, to room {n}.' },
-      saidArrive:   { en: 'Room {n}.' },
+      /* ⚠⚠ THIS WAS BYTE-IDENTICAL TO saidWalk, so arriving by elevator
+         or stairs sounded exactly like one step — and the arrival is
+         the one moment the dark corridor becomes readable, which is the
+         tool's central idea. It had no voice. */
+      saidArrive:   { en: 'Room {n}. Now this corridor can be read.' },
       readState:    { en: 'Corridor {c}. Room {n}. The doors on every other corridor cannot be read from here.' },
 
       gateTitle:    { en: 'The hotel sheet' },
-      gateBody:     { en: 'A paper hotel with every door blank, so the class can write the rooms in themselves.' },
+      /* ⚠⚠ THIS CONTRADICTED sheetNote. The gate sold "every door blank";
+         the sheet says one corridor is filled in — and _buildSheet really
+         does fill one. Two strings, two different pieces of paper. */
+      gateBody:     { en: 'A paper hotel with the doors left empty, so the class writes the room numbers in themselves. One corridor is filled in to start them off.' },
       gateCta:      { en: 'See the Teacher plan' },
       gateClose:    { en: 'Close' },
 

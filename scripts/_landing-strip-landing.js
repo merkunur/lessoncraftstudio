@@ -27,223 +27,223 @@ module.exports = {
     ]
   },
   "de": {
-    "name": "The Landing Strip",
+    "name": "Die drei Pfosten",
     "slug": "zahlen-einschaetzen-naeher-an-0-50-oder-100-grundschule",
     "tagline": "Drei Pfosten auf einem leeren Feld — und in einem Zehner stehen dieselben drei wieder da.",
     "metaTitle": "Zahlen einschätzen: näher an 0, 50 oder 100? Klasse 1 und 2",
     "metaDescription": "Eine Zahl erscheint, die Klasse sagt, welchem Pfosten sie am nächsten ist, und legt sie dann ab. Öffne den Zehner, und dieselbe Frage kommt wieder.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Eine Zahl kommt. Sagt, welchem Pfosten sie am nächsten ist, und legt sie erst dann hin — dann seht ihr, wo sie wirklich wohnt.",
+      "An jedem Ende eine Mauer, dazwischen drei Pfosten: einer an jedem Ende, einer in der Mitte.",
+      "Alles hier ist kostenlos — beide Tiefen, alle drei Pfosten, jedes Hinlegen und das Neueinteilen. Das Lehrkraft-Abo bringt zusätzlich die Papiervorlagen zum Selbsteinteilen und Aufhängen, damit im Klassenzimmer die ganze Woche eine mitläuft."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Am nächsten beim mittleren Pfosten. Am nächsten beim rechten Pfosten.",
+      "Hierhin legen. Sie wohnt bei 80. Ihr habt sie auf 60 gelegt.",
+      "Den Zehner aufmachen, in dem sie wohnt. Jetzt geht es von 80 bis 90. Die drei Pfosten sind wieder da."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. Welchem Pfosten ist sie am nächsten?",
+      "Zurück zum Ganzen. Zurück zum Ganzen, 0 bis 100.",
+      "Jede leere Vorlage hat an beiden Enden eine Mauer und drei Pfosten. Tragt die beiden Endzahlen ein, hängt sie im Klassenzimmer auf und lasst die Klasse die ganze Woche Zahlen dazulegen. Die nächste teilt ihr als einen einzelnen Zehner ein, um darin weiterzumachen."
     ]
   },
   "fr": {
-    "name": "The Landing Strip",
+    "name": "Les trois piquets",
     "slug": "estimer-un-nombre-plus-pres-de-0-50-ou-100-cp-ce1",
     "tagline": "Trois repères sur une bande nue — et quand on ouvre une dizaine, les trois mêmes repères sont là.",
     "metaTitle": "Plus près de 0, de 50 ou de 100 ? Estimer un nombre, CP-CE1",
     "metaDescription": "Un nombre arrive, la classe dit de quel repère il est le plus proche, puis le pose. Ouvrez la dizaine où il habite et la même question revient.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Un nombre arrive. Dites de quel piquet il est le plus près, et posez-le seulement après — vous verrez alors où il habite vraiment.",
+      "Un butoir à chaque bout et trois piquets : un à chaque bout, un au milieu.",
+      "Tout est gratuit ici — les deux profondeurs, les trois piquets, chaque pose et la nouvelle graduation. L’abonnement Enseignant ajoute les modèles en papier à graduer soi-même et à afficher dans la classe, pour en garder un en cours toute la semaine."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Le plus près du piquet du milieu. Le plus près du piquet de droite.",
+      "Le poser ici. Il habite au 80. Vous l’avez posé au 60.",
+      "Ouvrir la dizaine où il habite. Ça va maintenant de 80 à 90. Les trois piquets sont de retour."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. De quel piquet est-il le plus près ?",
+      "Revenir à l’ensemble. Retour à l’ensemble, de 0 à 100.",
+      "Chaque modèle vierge a un butoir à chaque bout et trois piquets. Écrivez les deux nombres des bouts, affichez-le dans la classe et laissez la classe y ajouter des nombres toute la semaine. Graduez le suivant comme une seule dizaine pour continuer à l’intérieur."
     ]
   },
   "es": {
-    "name": "The Landing Strip",
+    "name": "Los tres postes",
     "slug": "estimar-numeros-mas-cerca-de-0-50-o-100-primaria",
     "tagline": "Tres postes en una franja vacía, y al abrir una decena están otra vez los tres.",
     "metaTitle": "¿Más cerca de 0, de 50 o de 100? Estimar números en Primaria",
     "metaDescription": "Aparece un número, la clase dice a qué poste está más cerca y luego lo coloca. Abre la decena donde vive y vuelve la misma pregunta.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Llega un número. Digan de qué poste está más cerca y solo entonces colóquenlo — así verán dónde vive de verdad.",
+      "Un tope en cada extremo y tres postes: uno en cada extremo y uno en el medio.",
+      "Aquí todo es gratis: las dos profundidades, los tres postes, cada colocación y la nueva graduación. El plan Docente añade las plantillas de papel para graduarlas ustedes mismos y colgarlas en el aula, y así tener una funcionando toda la semana."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Más cerca del poste del medio. Más cerca del poste de la derecha.",
+      "Dejarlo aquí. Vive en el 80. Ustedes lo dejaron en el 60.",
+      "Abrir la decena donde vive. Ahora va de 80 a 90. Los tres postes están de vuelta."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. ¿De qué poste está más cerca?",
+      "Volver al conjunto. De vuelta al conjunto, de 0 a 100.",
+      "Cada plantilla en blanco tiene un tope en cada extremo y tres postes. Escriban los dos números de los extremos, cuélguenla en el aula y dejen que la clase le agregue números toda la semana. Gradúen la siguiente como una sola decena para continuar dentro de ella."
     ]
   },
   "pt": {
-    "name": "The Landing Strip",
+    "name": "Os três postes",
     "slug": "estimar-numeros-mais-perto-de-0-50-ou-100-anos-iniciais",
     "tagline": "Três postes numa faixa vazia — e ao abrir uma dezena os três estão lá de novo.",
     "metaTitle": "Mais perto de 0, de 50 ou de 100? Estimar números, anos iniciais",
     "metaDescription": "Um número aparece, a turma diz de que poste está mais perto e então o coloca. Abra a dezena onde ele mora e a mesma pergunta volta.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Chega um número. Digam de qual poste ele está mais perto e só então coloquem — aí vocês veem onde ele mora de verdade.",
+      "Um muro em cada ponta e três postes: um em cada ponta e um no meio.",
+      "Aqui tudo é grátis — as duas profundidades, os três postes, cada colocação e a nova graduação. O plano Professor traz ainda os modelos de papel para vocês mesmos graduarem e pendurarem na sala, para deixar um funcionando a semana toda."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Mais perto do poste do meio. Mais perto do poste da direita.",
+      "Deixar aqui. Ele mora no 80. Vocês colocaram no 60.",
+      "Abrir a dezena onde ele mora. Agora vai de 80 a 90. Os três postes voltaram."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. De qual poste ele está mais perto?",
+      "Voltar para o todo. De volta ao todo, de 0 a 100.",
+      "Cada modelo em branco tem um muro em cada ponta e três postes. Escrevam os dois números das pontas, pendurem na sala e deixem a turma acrescentar números a semana toda. Graduem o próximo como uma dezena só, para continuar dentro dela."
     ]
   },
   "it": {
-    "name": "The Landing Strip",
+    "name": "I tre paletti",
     "slug": "stimare-i-numeri-piu-vicino-a-0-50-o-100-primaria",
     "tagline": "Tre pali su una fascia vuota, e aprendo una decina i tre pali ci sono di nuovo.",
     "metaTitle": "Più vicino a 0, a 50 o a 100? Stimare i numeri, primaria",
     "metaDescription": "Arriva un numero, la classe dice a quale palo è più vicino e poi lo mette giù. Apri la decina in cui abita e torna la stessa domanda.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Arriva un numero. Dite a quale paletto è più vicino e solo dopo posatelo — così vedrete dove abita davvero.",
+      "Una sponda a ogni estremità e tre paletti: uno a ogni estremità e uno al centro.",
+      "Qui è tutto gratuito: entrambe le profondità, i tre paletti, ogni posa e la nuova graduazione. Il piano Insegnante aggiunge i modelli di carta da graduare voi stessi e appendere in aula, così ne resta uno in corso per tutta la settimana."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Più vicino al paletto in mezzo. Più vicino al paletto di destra.",
+      "Posarlo qui. Abita al 80. Voi l’avete posato al 60.",
+      "Aprire la decina in cui abita. Adesso va da 80 a 90. I tre paletti sono di nuovo qui."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. A quale paletto è più vicino?",
+      "Tornare all’insieme. Di nuovo all’insieme, da 0 a 100.",
+      "Ogni modello vuoto ha una sponda a entrambe le estremità e tre paletti. Scrivete i due numeri delle estremità, appendetelo in aula e lasciate che la classe ci aggiunga numeri per tutta la settimana. Graduate il successivo come una sola decina, per continuare al suo interno."
     ]
   },
   "nl": {
-    "name": "The Landing Strip",
+    "name": "De drie palen",
     "slug": "getallen-schatten-dichter-bij-0-50-of-100-groep-3-4",
     "tagline": "Drie palen op een lege baan — en in een tiental staan dezelfde drie er weer.",
     "metaTitle": "Dichter bij 0, 50 of 100? Getallen schatten, groep 3 en 4",
     "metaDescription": "Er komt een getal, de klas zegt bij welke paal het het dichtst staat en legt het dan neer. Open het tiental waar het woont en dezelfde vraag komt terug.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Er komt een getal. Zeg bij welke paal het het dichtst staat en leg het pas daarna neer — dan zie je waar het echt woont.",
+      "Aan elk uiteinde een stootblok en drie palen: één aan elk uiteinde en één in het midden.",
+      "Alles hier is gratis — beide dieptes, alle drie de palen, elke plaatsing en het opnieuw indelen. Het Leerkracht-abonnement voegt de papieren sjablonen toe om zelf in te delen en in de klas op te hangen, zodat er de hele week één loopt."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Het dichtst bij de middelste paal. Het dichtst bij de rechterpaal.",
+      "Hier neerleggen. Het woont op 80. Jullie legden het op 60.",
+      "Het tiental openmaken waar het in woont. Nu loopt het van 80 tot 90. De drie palen zijn er weer."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. Bij welke paal staat het het dichtst?",
+      "Terug naar het geheel. Terug naar het geheel, 0 tot 100.",
+      "Elk leeg sjabloon heeft aan beide uiteinden een stootblok en drie palen. Schrijf de twee getallen van de uiteinden erbij, hang het in de klas op en laat de klas er de hele week getallen bij zetten. Deel het volgende in als één tiental om daarbinnen verder te gaan."
     ]
   },
   "sv": {
-    "name": "The Landing Strip",
+    "name": "De tre stolparna",
     "slug": "uppskatta-tal-narmare-0-50-eller-100-lagstadiet",
     "tagline": "Tre stolpar på ett tomt fält — och öppnar man ett tiotal står samma tre där igen.",
     "metaTitle": "Närmare 0, 50 eller 100? Uppskatta tal, lågstadiet",
     "metaDescription": "Ett tal dyker upp, klassen säger vilken stolpe det är närmast och lägger sedan ner det. Öppna tiotalet där det bor så kommer samma fråga tillbaka.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Ett tal dyker upp. Säg vilken stolpe det är närmast, och lägg det först då — sedan ser ni var det egentligen bor.",
+      "En stoppkloss i varje ände och tre stolpar: en i varje ände och en i mitten.",
+      "Allt här är gratis — båda djupen, alla tre stolparna, varje placering och den nya indelningen. Lärarplanen lägger till pappersmallarna som ni delar in själva och sätter upp i klassrummet, så att en får stå kvar hela veckan."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Närmast stolpen i mitten. Närmast stolpen till höger.",
+      "Lägg det här. Det bor på 80. Ni la det på 60.",
+      "Öppna tiotalet där det bor. Nu går det från 80 till 90. De tre stolparna är tillbaka."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. Vilken stolpe är det närmast?",
+      "Tillbaka till det hela. Tillbaka till det hela, 0 till 100.",
+      "Varje tom mall har en stoppkloss i båda ändarna och tre stolpar. Skriv in de två talen i ändarna, sätt upp den i klassrummet och låt klassen lägga till tal hela veckan. Dela in nästa som ett enda tiotal för att fortsätta inuti det."
     ]
   },
   "da": {
-    "name": "The Landing Strip",
+    "name": "De tre stolper",
     "slug": "vurder-tal-taettere-paa-0-50-eller-100-indskoling",
     "tagline": "Tre stolper på et tomt felt — og åbner man en tier, står de samme tre der igen.",
     "metaTitle": "Tættere på 0, 50 eller 100? Vurder tal, indskolingen",
     "metaDescription": "Et tal dukker op, klassen siger, hvilken stolpe det er tættest på, og lægger det så ned. Åbn tieren, hvor det bor, og det samme spørgsmål vender tilbage.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Der kommer et tal. Sig, hvilken stolpe det er nærmest, og læg det først derefter — så ser I, hvor det i virkeligheden bor.",
+      "En stopklods i hver ende og tre stolper: en i hver ende og en i midten.",
+      "Alt her er gratis — begge dybder, alle tre stolper, hver placering og den nye inddeling. Lærerabonnementet giver desuden papirskabelonerne, som I selv deler ind og hænger op i klassen, så en kan blive hængende hele ugen."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Nærmest stolpen i midten. Nærmest stolpen til højre.",
+      "Læg det her. Det bor på 80. I lagde det på 60.",
+      "Åbn tieren, det bor i. Nu går det fra 80 til 90. De tre stolper er tilbage."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. Hvilken stolpe er det nærmest?",
+      "Tilbage til det hele. Tilbage til det hele, 0 til 100.",
+      "Hver tom skabelon har en stopklods i begge ender og tre stolper. Skriv de to tal i enderne, hæng den op i klassen, og lad klassen føje tal til hele ugen. Del den næste ind som én enkelt tier for at fortsætte inde i den."
     ]
   },
   "no": {
-    "name": "The Landing Strip",
+    "name": "De tre pålene",
     "slug": "anslaa-tall-naermere-0-50-eller-100-smatrinnet",
     "tagline": "Tre stolper på et tomt felt — og åpner du en tier, står de samme tre der igjen.",
     "metaTitle": "Nærmere 0, 50 eller 100? Anslå tall, småtrinnet",
     "metaDescription": "Et tall dukker opp, klassen sier hvilken stolpe det er nærmest, og legger det så ned. Åpne tieren der det bor, og det samme spørsmålet kommer igjen.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Det kommer et tall. Si hvilken påle det er nærmest, og legg det først da — så ser dere hvor det egentlig bor.",
+      "En stoppkloss i hver ende og tre påler: en i hver ende og en i midten.",
+      "Alt her er gratis — begge dybdene, alle tre pålene, hver plassering og den nye inndelingen. Lærerabonnementet gir i tillegg papirmalene som dere deler inn selv og henger opp i klasserommet, slik at en kan bli hengende hele uka."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Nærmest pålen i midten. Nærmest pålen til høyre.",
+      "Legg det her. Det bor på 80. Dere la det på 60.",
+      "Åpne tieren det bor i. Nå går det fra 80 til 90. De tre pålene er tilbake."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. Hvilken påle er det nærmest?",
+      "Tilbake til det hele. Tilbake til det hele, 0 til 100.",
+      "Hver tomme mal har en stoppkloss i begge ender og tre påler. Skriv inn de to tallene i endene, heng den opp i klasserommet, og la klassen legge til tall hele uka. Del inn den neste som én enkelt tier for å fortsette inne i den."
     ]
   },
   "fi": {
-    "name": "The Landing Strip",
+    "name": "Kolme tolppaa",
     "slug": "lukujen-arviointi-lahempana-nollaa-viittakymmenta-vai-sataa-alkuopetus",
     "tagline": "Kolme tolppaa tyhjällä kentällä — ja kun avaa yhden kymmenen, samat kolme ovat taas siinä.",
     "metaTitle": "Lähempänä nollaa, viittäkymmentä vai sataa? Lukujen arviointi",
     "metaDescription": "Luku ilmestyy, luokka sanoo mitä tolppaa se on lähinnä ja asettaa sen sitten paikalleen. Avaa kymmen, jossa se asuu, ja sama kysymys palaa.",
     "about": [
-      "A number appears. Say which post it is nearest to, then put it on the strip — and see where it really lives.",
-      "A strip with a wall at each end and three posts on it: one at each end and one in the middle.",
-      "The whole apparatus is free — both depths, all three posts, every placement and the re-rule. A Teacher plan adds the paper strips to rule up and pin along the wall, so the class can keep one running all week."
+      "Luku ilmestyy. Sanokaa, minkä tolpan lähellä se on, ja asettakaa se vasta sitten — sitten näette, missä se oikeasti asuu.",
+      "Molemmissa päissä muuri ja kolme tolppaa: yksi kummassakin päässä ja yksi keskellä.",
+      "Täällä kaikki on maksutonta — molemmat tasot, kaikki kolme tolppaa, jokainen asettaminen ja uudelleenjako. Opettajatilaus tuo lisäksi paperipohjat, jotka jaatte itse ja ripustatte luokkaan, niin yksi saa olla esillä koko viikon."
     ],
     "howToUse": [
-      "Nearest the post in the middle. Nearest the post on the right.",
-      "Put it here. It lives at 80. You put it at 60.",
-      "Open up the ten it lives in. The strip now runs from 80 to 90. The three posts are back."
+      "Lähinnä keskimmäistä tolppaa. Lähinnä oikeanpuoleista tolppaa.",
+      "Aseta tähän. Se asuu kohdassa 80. Te asetitte sen kohtaan 60.",
+      "Avaa kymmen, jossa se asuu. Nyt tässä ovat luvut 80–90. Kolme tolppaa on taas paikoillaan."
     ],
     "classroomIdeas": [
-      "71. Which post is it nearest to?",
-      "Go back out to the whole strip. Back to the whole strip, 0 to 100.",
-      "Each blank strip has a wall at both ends and three posts. Write the two end numbers in, put it up along the wall, and let the class add numbers to it all week. Rule the next one up as a single ten to carry on inside it."
+      "71. Minkä tolpan lähellä se on?",
+      "Takaisin kokonaisuuteen. Takaisin kokonaisuuteen, luvut 0–100.",
+      "Jokaisessa tyhjässä pohjassa on muuri molemmissa päissä ja kolme tolppaa. Kirjoittakaa päiden luvut, ripustakaa pohja luokkaan ja antakaa luokan lisätä siihen lukuja koko viikon. Jakakaa seuraava yhdeksi ainoaksi kymmeneksi, niin voitte jatkaa sen sisällä."
     ]
   }
 };

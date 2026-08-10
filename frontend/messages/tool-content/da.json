@@ -1342,6 +1342,28 @@
       "Klip hver lang strimmel ud, rul den sammen til en ring og sæt de to ender sammen. Hold to ringe ved siden af hinanden og drej den højre: hver gang dens 9 kommer rundt til 0, drejer du den venstre et hak frem."
     ]
   },
+  "landing-strip": {
+    "name": "De tre stolper",
+    "slug": "vurder-tal-taettere-paa-0-50-eller-100-indskoling",
+    "tagline": "Tre stolper på et tomt felt — og åbner man en tier, står de samme tre der igen.",
+    "metaTitle": "Tættere på 0, 50 eller 100? Vurder tal, indskolingen",
+    "metaDescription": "Et tal dukker op, klassen siger, hvilken stolpe det er tættest på, og lægger det så ned. Åbn tieren, hvor det bor, og det samme spørgsmål vender tilbage.",
+    "about": [
+      "Der kommer et tal. Sig, hvilken stolpe det er nærmest, og læg det først derefter — så ser I, hvor det i virkeligheden bor.",
+      "En stopklods i hver ende og tre stolper: en i hver ende og en i midten.",
+      "Alt her er gratis — begge dybder, alle tre stolper, hver placering og den nye inddeling. Lærerabonnementet giver desuden papirskabelonerne, som I selv deler ind og hænger op i klassen, så en kan blive hængende hele ugen."
+    ],
+    "howToUse": [
+      "Nærmest stolpen i midten. Nærmest stolpen til højre.",
+      "Læg det her. Det bor på 80. I lagde det på 60.",
+      "Åbn tieren, det bor i. Nu går det fra 80 til 90. De tre stolper er tilbage."
+    ],
+    "classroomIdeas": [
+      "71. Hvilken stolpe er det nærmest?",
+      "Tilbage til det hele. Tilbage til det hele, 0 til 100.",
+      "Hver tom skabelon har en stopklods i begge ender og tre stolper. Skriv de to tal i enderne, hæng den op i klassen, og lad klassen føje tal til hele ugen. Del den næste ind som én enkelt tier for at fortsætte inde i den."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

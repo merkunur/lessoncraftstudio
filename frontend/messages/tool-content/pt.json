@@ -1341,6 +1341,28 @@
       "Recorte cada tira comprida, enrole até formar um anel e cole as duas pontas. Ponha dois anéis lado a lado e gire o da direita: sempre que o 9 dele passar para o 0, avance o da esquerda uma casa."
     ]
   },
+  "landing-strip": {
+    "name": "Os três postes",
+    "slug": "estimar-numeros-mais-perto-de-0-50-ou-100-anos-iniciais",
+    "tagline": "Três postes numa faixa vazia — e ao abrir uma dezena os três estão lá de novo.",
+    "metaTitle": "Mais perto de 0, de 50 ou de 100? Estimar números, anos iniciais",
+    "metaDescription": "Um número aparece, a turma diz de que poste está mais perto e então o coloca. Abra a dezena onde ele mora e a mesma pergunta volta.",
+    "about": [
+      "Chega um número. Digam de qual poste ele está mais perto e só então coloquem — aí vocês veem onde ele mora de verdade.",
+      "Um muro em cada ponta e três postes: um em cada ponta e um no meio.",
+      "Aqui tudo é grátis — as duas profundidades, os três postes, cada colocação e a nova graduação. O plano Professor traz ainda os modelos de papel para vocês mesmos graduarem e pendurarem na sala, para deixar um funcionando a semana toda."
+    ],
+    "howToUse": [
+      "Mais perto do poste do meio. Mais perto do poste da direita.",
+      "Deixar aqui. Ele mora no 80. Vocês colocaram no 60.",
+      "Abrir a dezena onde ele mora. Agora vai de 80 a 90. Os três postes voltaram."
+    ],
+    "classroomIdeas": [
+      "71. De qual poste ele está mais perto?",
+      "Voltar para o todo. De volta ao todo, de 0 a 100.",
+      "Cada modelo em branco tem um muro em cada ponta e três postes. Escrevam os dois números das pontas, pendurem na sala e deixem a turma acrescentar números a semana toda. Graduem o próximo como uma dezena só, para continuar dentro dela."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

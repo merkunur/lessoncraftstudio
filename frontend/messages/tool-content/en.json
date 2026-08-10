@@ -1349,6 +1349,29 @@
       "Take it up to 99 and turn once. Two teeth catch, one after the other, and three rings move on one turn."
     ]
   },
+  "landing-strip": {
+    "name": "The Landing Strip",
+    "slug": "landing-strip-nearer-0-50-or-100-number-sense",
+    "tagline": "Three posts on a bare strip — and after you open up a ten, the same three posts are there again.",
+    "metaTitle": "The Landing Strip — is it nearer 0, 50 or 100? K to Grade 2",
+    "metaDescription": "Free whiteboard tool: a number appears, the class says which post it is nearest to, then puts it on the strip. Open up the ten it lives in and the same question comes back.",
+    "about": [
+      "The strip is bare. There is a wall at each end and three posts on it — one at each end and one in the middle — and nothing else at all. No ticks, no marks, no numbers along it. A number appears above the strip, and before anybody may put it anywhere, the class has to say which of the three posts it is nearest to.",
+      "That question first is the whole design. Asking a child to place 71 on an empty strip asks for a precision their finger cannot express and their reasoning has not got yet; asking whether 71 is nearer 0, nearer 50 or nearer 100 asks for the judgement that actually does the work. Only once the class has committed does the strip let them slide the number along it and put it down. Then the true place appears below.",
+      "Then the strip re-rules itself into the ten the number lives in, and the same three posts are back — 80, 85 and 90 — so the same question is asked again one level down. Nothing is scored, nothing is timed, nothing is ever marked right or wrong, and the tool keeps no record of how far off anybody was. It counts only which post the class chose."
+    ],
+    "howToUse": [
+      "Read the strip together before the first number: two walls, three posts, and nothing in between. Ask what the middle post must be if the ends are 0 and 100.",
+      "When the number appears, take a vote on the three posts before anyone touches the strip. The vote is the lesson; the placing is the check.",
+      "Slide the number along and put it down where the class agreed. Wait — the strip pauses before it answers, so say out loud where you think it will land.",
+      "Open up the ten it lives in. The three posts come back. Ask the same question again and let the class notice it is the same question."
+    ],
+    "classroomIdeas": [
+      "A two-minute routine: three numbers, three votes, no placing at all. Just \"nearer 0, nearer 50, or nearer 100?\" and why.",
+      "Save the hard ones for the vote: 25 and 75 split a class down the middle, and that argument is worth more than ten easy rounds.",
+      "Open up a ten and ask which post 47 would be nearest to if this little strip were the whole world. Then go back out and ask again."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

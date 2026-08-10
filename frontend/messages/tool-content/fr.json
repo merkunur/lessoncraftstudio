@@ -1341,6 +1341,28 @@
       "Découpe chaque longue pièce de papier, roule-la en anneau et colle les deux bouts. Tiens deux anneaux côte à côte et fais tourner celui de droite : chaque fois que son 9 arrive sur le 0, avance celui de gauche d’un cran."
     ]
   },
+  "landing-strip": {
+    "name": "Les trois piquets",
+    "slug": "estimer-un-nombre-plus-pres-de-0-50-ou-100-cp-ce1",
+    "tagline": "Trois repères sur une bande nue — et quand on ouvre une dizaine, les trois mêmes repères sont là.",
+    "metaTitle": "Plus près de 0, de 50 ou de 100 ? Estimer un nombre, CP-CE1",
+    "metaDescription": "Un nombre arrive, la classe dit de quel repère il est le plus proche, puis le pose. Ouvrez la dizaine où il habite et la même question revient.",
+    "about": [
+      "Un nombre arrive. Dites de quel piquet il est le plus près, et posez-le seulement après — vous verrez alors où il habite vraiment.",
+      "Un butoir à chaque bout et trois piquets : un à chaque bout, un au milieu.",
+      "Tout est gratuit ici — les deux profondeurs, les trois piquets, chaque pose et la nouvelle graduation. L’abonnement Enseignant ajoute les modèles en papier à graduer soi-même et à afficher dans la classe, pour en garder un en cours toute la semaine."
+    ],
+    "howToUse": [
+      "Le plus près du piquet du milieu. Le plus près du piquet de droite.",
+      "Le poser ici. Il habite au 80. Vous l’avez posé au 60.",
+      "Ouvrir la dizaine où il habite. Ça va maintenant de 80 à 90. Les trois piquets sont de retour."
+    ],
+    "classroomIdeas": [
+      "71. De quel piquet est-il le plus près ?",
+      "Revenir à l’ensemble. Retour à l’ensemble, de 0 à 100.",
+      "Chaque modèle vierge a un butoir à chaque bout et trois piquets. Écrivez les deux nombres des bouts, affichez-le dans la classe et laissez la classe y ajouter des nombres toute la semaine. Graduez le suivant comme une seule dizaine pour continuer à l’intérieur."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

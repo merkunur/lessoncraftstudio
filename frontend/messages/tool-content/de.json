@@ -1343,6 +1343,28 @@
       "Schneide jeden langen Streifen aus, roll ihn zu einem Ring und klebe die Enden zusammen. Halte zwei Ringe nebeneinander und dreh den rechten: Immer wenn seine 9 zur 0 weiterrückt, drehst du den linken um eins weiter."
     ]
   },
+  "landing-strip": {
+    "name": "Die drei Pfosten",
+    "slug": "zahlen-einschaetzen-naeher-an-0-50-oder-100-grundschule",
+    "tagline": "Drei Pfosten auf einem leeren Feld — und in einem Zehner stehen dieselben drei wieder da.",
+    "metaTitle": "Zahlen einschätzen: näher an 0, 50 oder 100? Klasse 1 und 2",
+    "metaDescription": "Eine Zahl erscheint, die Klasse sagt, welchem Pfosten sie am nächsten ist, und legt sie dann ab. Öffne den Zehner, und dieselbe Frage kommt wieder.",
+    "about": [
+      "Eine Zahl kommt. Sagt, welchem Pfosten sie am nächsten ist, und legt sie erst dann hin — dann seht ihr, wo sie wirklich wohnt.",
+      "An jedem Ende eine Mauer, dazwischen drei Pfosten: einer an jedem Ende, einer in der Mitte.",
+      "Alles hier ist kostenlos — beide Tiefen, alle drei Pfosten, jedes Hinlegen und das Neueinteilen. Das Lehrkraft-Abo bringt zusätzlich die Papiervorlagen zum Selbsteinteilen und Aufhängen, damit im Klassenzimmer die ganze Woche eine mitläuft."
+    ],
+    "howToUse": [
+      "Am nächsten beim mittleren Pfosten. Am nächsten beim rechten Pfosten.",
+      "Hierhin legen. Sie wohnt bei 80. Ihr habt sie auf 60 gelegt.",
+      "Den Zehner aufmachen, in dem sie wohnt. Jetzt geht es von 80 bis 90. Die drei Pfosten sind wieder da."
+    ],
+    "classroomIdeas": [
+      "71. Welchem Pfosten ist sie am nächsten?",
+      "Zurück zum Ganzen. Zurück zum Ganzen, 0 bis 100.",
+      "Jede leere Vorlage hat an beiden Enden eine Mauer und drei Pfosten. Tragt die beiden Endzahlen ein, hängt sie im Klassenzimmer auf und lasst die Klasse die ganze Woche Zahlen dazulegen. Die nächste teilt ihr als einen einzelnen Zehner ein, um darin weiterzumachen."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

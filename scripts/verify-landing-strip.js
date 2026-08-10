@@ -35,9 +35,15 @@ const eq = (a, b, m) => ok(a === b, m + ' — got ' + JSON.stringify(a) + ', exp
 /* ---- the ORACLE, written from the apparatus as described ----------
    three posts: one at each end and one in the middle, at EVERY depth. */
 const oPost = (lo, hi, i) => lo + (hi - lo) * (i / 2);
+/* ⚠ THE MIDDLE IS TRIED FIRST, because the stated rule is that a tie
+   goes to the middle. The first version of this oracle iterated 0,1,2
+   and so encoded the SAME defect the tool had — which is why it passed
+   16,626 assertions over a model whose 25 went to the low post. A gate
+   whose oracle shares the code’s misconception proves nothing.
+   Derived from the rule, verified against the two quarter points below. */
 const oNearest = (lo, hi, v) => {
   let best = 1, bd = Infinity;
-  for (let i = 0; i < 3; i++) {
+  for (const i of [1, 0, 2]) {
     const d = Math.abs(v - oPost(lo, hi, i));
     if (d < bd - 1e-9) { bd = d; best = i; }
   }
@@ -85,6 +91,10 @@ eq(G.POSTS, 3, 'L0 there are three posts');
   /* ⭐ the catalog's own question, named explicitly */
   const st = T.arrive(T.newState('100'), 71);
   eq(T.nearestPost(st, 71), 1, 'L2 ⭐ 71 is nearest the MIDDLE post, not the top one');
+  /* ⭐ THE TWO QUARTER POINTS, named because they are exactly tied and
+     the deal favours them. A tie goes to the MIDDLE, both sides. */
+  eq(T.nearestPost(st, 25), 1, 'L2 ⭐ 25 is a tie and must go to the MIDDLE post');
+  eq(T.nearestPost(st, 75), 1, 'L2 ⭐ 75 is a tie and must go to the MIDDLE post');
 }
 
 /* ================================================================== */
@@ -220,6 +230,54 @@ eq(G.POSTS, 3, 'L0 there are three posts');
     st.trace.forEach(v => ok(Number.isInteger(v) && v >= 0, 'L7 a trace entry is not a plain count'));
   }
   eq(st.trace.length, G.POSTS, 'L7 the trace has one entry per post and nothing else');
+}
+
+/* ================================================================== */
+/* ⭐ L7b — THE TRACE CAP MUST PRESERVE THE SHAPE, not empty a column.
+   Subtracting the overflow from tr[0] first made 26 EVEN choices read
+   [3, 9, 8]: a 3x understatement, always on the same column, and that
+   column is the low-number end. The shape is the only thing this trace
+   is for, so a cap that destroys it destroys the feature. */
+{
+  let st = T.arrive(T.newState("100"), 50);
+  for (let i = 0; i < 26; i++) { st = T.commit(T.choosePost(st, i % G.POSTS)); st = T.arrive(st, 50); }
+  const tr = st.trace, tot = tr[0] + tr[1] + tr[2];
+  ok(tot <= G.TRACE_MAX, "L7b the cap did not hold (" + tot + ")");
+  const lo = Math.min.apply(null, tr), hi = Math.max.apply(null, tr);
+  ok(hi - lo <= 2, "L7b ⚠⚠ 26 EVEN choices produced " + JSON.stringify(tr) +
+    " — the cap is eating one column and the trace no longer shows the shape");
+  /* and a genuinely lopsided run must still READ as lopsided */
+  let sk = T.arrive(T.newState("100"), 50);
+  for (let i = 0; i < 30; i++) { sk = T.commit(T.choosePost(sk, i % 5 === 0 ? 0 : 2)); sk = T.arrive(sk, 50); }
+  ok(sk.trace[2] > sk.trace[0], "L7b a lopsided run did not read as lopsided: " + JSON.stringify(sk.trace));
+}
+
+/* ⭐ L7c — COMING BACK OUT MUST NOT RESURRECT A COMMITTED STATE.
+   back() guarded only on depth, so commit -> rerule -> back returned
+   phase "shown" with post and guess BOTH null: the truth wedge drawn
+   while nobody had committed to anything, in two presses. The docblock
+   claimed that state was unreachable and it was not. */
+{
+  let bad = 0, checked = 0;
+  for (let n = 1; n < 100; n++) {
+    const done = T.commit(T.choosePost(T.arrive(T.newState("100"), n), 1));
+    const out = T.back(T.rerule(done));
+    checked++;
+    if (out && out.phase === "shown" && (out.post === null || out.guess === null)) bad++;
+  }
+  ok(checked >= 90, "L7c non-vacuity: only " + checked + " round trips");
+  eq(bad, 0, "L7c ⚠⚠ commit->rerule->back resurrected a shown state with nothing committed");
+  /* every reachable state: shown implies BOTH a post and a guess */
+  const seen = [];
+  let st = T.arrive(T.newState("100"), 47);
+  [st, T.choosePost(st, 0), T.commit(T.choosePost(st, 0)),
+   T.rerule(T.commit(T.choosePost(st, 0))),
+   T.back(T.rerule(T.commit(T.choosePost(st, 0))))].forEach(function (x) { if (x) seen.push(x); });
+  ok(seen.length === 5, "L7c non-vacuity: only " + seen.length + " states walked");
+  seen.forEach(function (x, i) {
+    if (x.phase === "shown") ok(x.post !== null && x.guess !== null,
+      "L7c ⚠ state " + i + " is shown but nothing was committed");
+  });
 }
 
 /* ================================================================== */

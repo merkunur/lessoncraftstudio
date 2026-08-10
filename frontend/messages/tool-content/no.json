@@ -1342,6 +1342,28 @@
       "Klipp ut hver lange remse, rull den sammen til en ring og fest de to endene. Hold to ringer ved siden av hverandre og vri den høyre: hver gang 9-tallet kommer rundt til 0, vrir du den venstre ett hakk fram."
     ]
   },
+  "landing-strip": {
+    "name": "De tre pålene",
+    "slug": "anslaa-tall-naermere-0-50-eller-100-smatrinnet",
+    "tagline": "Tre stolper på et tomt felt — og åpner du en tier, står de samme tre der igjen.",
+    "metaTitle": "Nærmere 0, 50 eller 100? Anslå tall, småtrinnet",
+    "metaDescription": "Et tall dukker opp, klassen sier hvilken stolpe det er nærmest, og legger det så ned. Åpne tieren der det bor, og det samme spørsmålet kommer igjen.",
+    "about": [
+      "Det kommer et tall. Si hvilken påle det er nærmest, og legg det først da — så ser dere hvor det egentlig bor.",
+      "En stoppkloss i hver ende og tre påler: en i hver ende og en i midten.",
+      "Alt her er gratis — begge dybdene, alle tre pålene, hver plassering og den nye inndelingen. Lærerabonnementet gir i tillegg papirmalene som dere deler inn selv og henger opp i klasserommet, slik at en kan bli hengende hele uka."
+    ],
+    "howToUse": [
+      "Nærmest pålen i midten. Nærmest pålen til høyre.",
+      "Legg det her. Det bor på 80. Dere la det på 60.",
+      "Åpne tieren det bor i. Nå går det fra 80 til 90. De tre pålene er tilbake."
+    ],
+    "classroomIdeas": [
+      "71. Hvilken påle er det nærmest?",
+      "Tilbake til det hele. Tilbake til det hele, 0 til 100.",
+      "Hver tomme mal har en stoppkloss i begge ender og tre påler. Skriv inn de to tallene i endene, heng den opp i klasserommet, og la klassen legge til tall hele uka. Del inn den neste som én enkelt tier for å fortsette inne i den."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

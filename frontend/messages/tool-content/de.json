@@ -1365,6 +1365,28 @@
       "Jede leere Vorlage hat an beiden Enden eine Mauer und drei Pfosten. Tragt die beiden Endzahlen ein, hängt sie im Klassenzimmer auf und lasst die Klasse die ganze Woche Zahlen dazulegen. Die nächste teilt ihr als einen einzelnen Zehner ein, um darin weiterzumachen."
     ]
   },
+  "rounding-hill": {
+    "name": "Der Rundungshügel",
+    "slug": "runden-auf-zehner-am-huegel-grundschule",
+    "tagline": "Loslassen, und der Stein rollt in den nächsten Zehner — bis er genau auf dem Grat liegt, wo der Boden eben ist.",
+    "metaTitle": "Runden auf Zehner: der Hügel, Klasse 2 und 3",
+    "metaDescription": "47 rollt zur 50, weil das nächste eben die 50 ist. Auf der 45 fällt der Stein nicht von selbst — die Klasse entscheidet, wohin der Grat kippt.",
+    "about": [
+      "Setzt den Brocken auf das Gelände und lasst ihn los. Er rollt in die nächste Mulde – außer er kommt auf dem Grat zu liegen: dort ist keine Seite tiefer, von allein rollt er nicht weiter, und wozu die Zahl gebraucht wird, entscheidet, wohin er geht.",
+      "Gelände mit je einer Mulde an beiden Enden und einem Grat in der Mitte.",
+      "Das ganze Gerät ist kostenlos – jeder Abhang, das Wackeln und das Neigen des Grats. Das Lehrkraft-Abo ergänzt das Gelände aus Papier zum Ausschneiden und Falten: Es steht auf dem Tisch, und ein Kind kann einen echten Brocken auf den Grat legen und sehen, dass er wirklich liegen bleibt."
+    ],
+    "howToUse": [
+      "Loslassen. 47 rollt in die Mulde 50.",
+      "45 liegt auf dem Grat. Keine Seite ist tiefer, also rollt der Brocken von allein nicht weiter. Wozu braucht ihr diese Zahlen – und wohin soll das den Grat neigen?",
+      "Den Grat zur oberen Mulde neigen. Die Klasse hat den Grat in Richtung 50 geneigt – dafür, wozu diese Zahlen gerade gebraucht werden. Jeder Brocken, der genau auf dem Grat landet, geht dorthin, bis sich das ändert."
+    ],
+    "classroomIdeas": [
+      "Der Grat steht wieder gerade. Wozu werden diese Zahlen jetzt gebraucht? Der Brocken wackelt, bis die Klasse den Grat neu neigt.",
+      "der Grat, genau in der Mitte zwischen den beiden Mulden",
+      "Schneidet am Rand entlang und faltet an den gestrichelten Linien, damit das Gelände steht. Schreibt die beiden runden Zahlen in die Mulden. Legt einen echten Brocken irgendwo auf einen Abhang – er rollt in eine Mulde; legt ihn auf den Grat, bleibt er liegen. Genau darum geht es."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -1363,6 +1363,28 @@
       "Chaque modèle vierge a un butoir à chaque bout et trois piquets. Écrivez les deux nombres des bouts, affichez-le dans la classe et laissez la classe y ajouter des nombres toute la semaine. Graduez le suivant comme une seule dizaine pour continuer à l’intérieur."
     ]
   },
+  "rounding-hill": {
+    "name": "La colline des arrondis",
+    "slug": "arrondir-a-la-dizaine-la-butte-cycle-2",
+    "tagline": "Lâchez la pierre : elle descend vers la dizaine la plus proche — sauf sur la crête, où le sol est plat.",
+    "metaTitle": "Arrondir à la dizaine : la butte, cycle 2 et 3",
+    "metaDescription": "47 descend vers 50, parce que c est cela, le plus proche. Sur 45 la pierre ne tombe pas toute seule : la classe décide de quel côté penche la crête.",
+    "about": [
+      "Pose le caillou sur le terrain et lâche-le. Il descend dans la cuvette la plus proche – sauf s'il s'arrête sur la crête : là, aucun côté n'est plus bas, il ne tombe pas tout seul, et c'est l'usage qu'on fait du nombre qui décide de quel côté il va.",
+      "Terrain avec une cuvette à chaque bout et une crête au milieu.",
+      "Tout l'appareil est gratuit : chaque pente, l'hésitation et le réglage de la crête. L'Abonnement Enseignant ajoute le terrain en papier à découper et à plier, qui tient debout sur une table : un enfant peut poser un vrai caillou sur la crête et voir qu'il ne tombe vraiment pas."
+    ],
+    "howToUse": [
+      "Lâcher. 47 descend dans la cuvette 50.",
+      "45 est sur la crête. Aucun côté n'est plus bas, donc le caillou ne tombe pas tout seul. À quoi servent ces nombres – et de quel côté cela doit-il faire pencher la crête ?",
+      "Faire pencher la crête vers la cuvette du haut. La classe a fait pencher la crête vers 50, pour l'usage qu'on fait de ces nombres. Chaque caillou qui s'arrête pile sur la crête ira de ce côté jusqu'à ce que cela change."
+    ],
+    "classroomIdeas": [
+      "La crête est de nouveau droite. À quoi servent ces nombres maintenant ? Le caillou hésite jusqu'à ce que la classe la règle de nouveau.",
+      "la crête, à mi-chemin entre les deux cuvettes",
+      "Découpe le contour et plie sur les pointillés pour que le terrain tienne debout. Écris les deux nombres ronds dans les cuvettes. Pose un vrai caillou n'importe où sur une pente : il descend dans une cuvette. Pose-le sur la crête : il reste. C'est tout l'intérêt."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

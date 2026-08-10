@@ -1362,6 +1362,28 @@
       "Cada plantilla en blanco tiene un tope en cada extremo y tres postes. Escriban los dos números de los extremos, cuélguenla en el aula y dejen que la clase le agregue números toda la semana. Gradúen la siguiente como una sola decena para continuar dentro de ella."
     ]
   },
+  "rounding-hill": {
+    "name": "La colina del redondeo",
+    "slug": "redondear-a-la-decena-la-loma-primaria",
+    "tagline": "Suelta la piedra y baja hacia la decena más cercana — salvo en la cresta, donde el suelo está llano.",
+    "metaTitle": "Redondear a la decena: la loma, Primaria",
+    "metaDescription": "47 baja a 50, porque eso es lo más cercano. En 45 la piedra no cae sola: la clase decide hacia dónde se inclina la cresta.",
+    "about": [
+      "Coloca el guijarro en el terreno y suéltalo. Baja rodando hasta la hondonada más cercana, salvo que quede sobre la cresta: allí ningún lado está más bajo, no cae solo, y es para qué sirve el número lo que decide hacia dónde va.",
+      "Terreno con una hondonada en cada extremo y una cresta en el medio.",
+      "Todo el aparato es gratuito: cada ladera, el balanceo y la inclinación de la cresta. El Plan Docente añade el terreno de papel para recortar y plegar, que se sostiene sobre la mesa: un niño puede poner un guijarro de verdad sobre la cresta y ver que de verdad no cae."
+    ],
+    "howToUse": [
+      "Soltar. 47 baja hasta la hondonada 50.",
+      "45 está sobre la cresta. Ningún lado está más bajo, así que el guijarro no cae solo. ¿Para qué sirven estos números y hacia dónde debe inclinar eso la cresta?",
+      "Inclinar la cresta hacia la hondonada de arriba. La clase ha inclinado la cresta hacia 50, para lo que se están usando estos números. Cada guijarro que quede justo sobre la cresta irá hacia ese lado hasta que eso cambie."
+    ],
+    "classroomIdeas": [
+      "La cresta vuelve a estar recta. ¿Para qué sirven ahora estos números? El guijarro se balanceará hasta que la clase vuelva a inclinarla.",
+      "la cresta, a mitad de camino entre las dos hondonadas",
+      "Recorta por el contorno y pliega por las líneas de puntos para que el terreno se sostenga. Escribe los dos números redondos en las hondonadas. Pon un guijarro de verdad en cualquier punto de una ladera y bajará a una hondonada; ponlo sobre la cresta y se quedará ahí, que es de lo que se trata."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -424,7 +424,7 @@ module.exports = {
     ariaStone: 'stenbumlingen med talet {n}',
     ariaStoneRest: 'stenbumlingen med talet {n}, ligger i gropen {d}',
     ariaRidge: 'krönet, mitt emellan de två groparna',
-    ariaTilt: 'krönet, lutat åt det håll klassen har bestämt',
+    ariaTilt: 'krönet, lutat av klassen mot {d}',
 
     setSpan: 'Vilken mark',
     spanTens: 'mellan två tiotal',
@@ -469,7 +469,7 @@ module.exports = {
     ariaStone: 'kampestenen med tallet {n}',
     ariaStoneRest: 'kampestenen med tallet {n}, ligger i fordybningen {d}',
     ariaRidge: 'højderyggen, midt mellem de to fordybninger',
-    ariaTilt: 'højderyggen, som hælder den vej klassen har bestemt',
+    ariaTilt: 'højderyggen, som klassen har hældt mod {d}',
 
     setSpan: 'Hvilket terræn',
     spanTens: 'mellem to tiere',
@@ -514,7 +514,7 @@ module.exports = {
     ariaStone: 'kampesteinen med tallet {n}',
     ariaStoneRest: 'kampesteinen med tallet {n}, ligger i gropa {d}',
     ariaRidge: 'høyderyggen, midt mellom de to gropene',
-    ariaTilt: 'høyderyggen, som heller den veien klassen har bestemt',
+    ariaTilt: 'høyderyggen, som klassen har helt mot {d}',
 
     setSpan: 'Hvilket terreng',
     spanTens: 'mellom to tiere',
@@ -559,7 +559,7 @@ module.exports = {
     ariaStone: 'lohkare, jossa lukee {n}',
     ariaStoneRest: 'lohkare, jossa lukee {n}, lepää kuopassa {d}',
     ariaRidge: 'harjanne, tasan kahden kuopan puolivälissä',
-    ariaTilt: 'harjanne, joka kallistuu luokan päättämään suuntaan',
+    ariaTilt: 'harjanne, jonka luokka on kallistanut lukua {d} kohti',
 
     setSpan: 'Mikä maasto',
     spanTens: 'kahden kymmenen välissä',

@@ -1342,6 +1342,28 @@
       "Jokaisessa tyhjässä pohjassa on muuri molemmissa päissä ja kolme tolppaa. Kirjoittakaa päiden luvut, ripustakaa pohja luokkaan ja antakaa luokan lisätä siihen lukuja koko viikon. Jakakaa seuraava yhdeksi ainoaksi kymmeneksi, niin voitte jatkaa sen sisällä."
     ]
   },
+  "rounding-hill": {
+    "name": "Pyöristysmäki",
+    "slug": "pyoristaminen-kymmeniin-kumpu-alkuopetus",
+    "tagline": "Päästä kivi irti, ja se vierii lähimpään kymmeneen — paitsi harjalla, jossa maa on tasainen.",
+    "metaTitle": "Pyöristäminen kymmeniin: kumpu, alkuopetus",
+    "metaDescription": "47 vierii viiteenkymmeneen, koska se on lähin. Luvussa 45 kivi ei putoa itsestään: luokka päättää, kummalle puolelle harja kallistuu.",
+    "about": [
+      "Aseta lohkare maastoon ja päästä irti. Se vierii lähimpään kuoppaan – paitsi jos se jää harjanteelle: siellä kumpikaan puoli ei ole alempana, lohkare ei lähde itsestään liikkeelle, ja se, mihin lukua tarvitaan, ratkaisee kumpaan suuntaan se menee.",
+      "Maasto, jonka kummassakin päässä on kuoppa ja keskellä harjanne.",
+      "Koko laite on ilmainen – jokainen rinne, huojunta ja harjanteen kallistaminen. Opettajatilaus lisää paperisen maaston, jonka voi leikata ja taittaa pystyyn pöydälle: lapsi voi asettaa oikean lohkareen harjanteelle ja nähdä, ettei se todellakaan lähde liikkeelle."
+    ],
+    "howToUse": [
+      "Päästä irti. 47 vierii kuoppaan 50.",
+      "45 on harjanteella. Kumpikaan puoli ei ole alempana, joten lohkare ei lähde itsestään liikkeelle. Mihin näitä lukuja tarvitaan – ja kumpaan suuntaan sen pitäisi kallistaa harjanne?",
+      "Kallista harjanne ylempää kuoppaa kohti. Luokka on kallistanut harjanteen lukua 50 kohti sen mukaan, mihin näitä lukuja nyt tarvitaan. Jokainen lohkare, joka jää tarkalleen harjanteelle, menee sinne, kunnes se muuttuu."
+    ],
+    "classroomIdeas": [
+      "Harjanne on taas tasainen. Mihin näitä lukuja nyt tarvitaan? Lohkare huojuu, kunnes luokka kallistaa harjanteen uudelleen.",
+      "harjanne, tasan kahden kuopan puolivälissä",
+      "Leikkaa ääriviivaa pitkin ja taita katkoviivoista, niin maasto seisoo pystyssä. Kirjoita kuoppiin kaksi tasalukua. Aseta oikea lohkare mihin tahansa kohtaan rinnettä – se vierii kuoppaan. Aseta se harjanteelle – se jää siihen, ja siinä on koko juju."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

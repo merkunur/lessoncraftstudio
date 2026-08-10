@@ -122,6 +122,15 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #52 AT REST IS A BOULDER ON A SLOPE, WHICH LOOKS LIKE ANY OTHER
+     APPARATUS. The card must carry the moment the tool exists for: the
+     boulder ON THE RIDGE, teetering, with the ground level under it and
+     the machine visibly stopped. Seeded by putting one on the ridge and
+     letting go, held past the settle so the teeter is the frame. */
+  'rounding-hill': [
+    { sel: '.rnh-b-rb', wait: 300 }, { sel: '.rnh-b-l1', wait: 260 },
+    { sel: '.rnh-b-l1', wait: 260 }, { sel: '.rnh-b-go', wait: 1200 }
+  ],
   /* ⭐ #51 AT REST IS AN EMPTY STRIP AND A NUMBER, WHICH SAYS NOTHING.
      The card has to carry the thesis, and the thesis is the moment the
      truth is out: the plaque where the class put it, the wedge where the
@@ -568,6 +577,9 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* wide and short: the ground plus one control row, under the 0.85
+     aspect where --fit=auto TOP-CROPS and still reports "ok" */
+  'rounding-hill': { width: 1040, height: 620 },
   /* wide and short: the strip plus one control row, well under the 0.85
      aspect where --fit=auto TOP-CROPS and still reports "ok" */
   'landing-strip': { width: 1040, height: 640 },

@@ -1364,6 +1364,28 @@
       "Varje tom mall har en stoppkloss i båda ändarna och tre stolpar. Skriv in de två talen i ändarna, sätt upp den i klassrummet och låt klassen lägga till tal hela veckan. Dela in nästa som ett enda tiotal för att fortsätta inuti det."
     ]
   },
+  "rounding-hill": {
+    "name": "Avrundningskullen",
+    "slug": "avrunda-till-tiotal-kullen-lagstadiet",
+    "tagline": "Släpp stenen och den rullar ner i närmaste tiotal — utom på krönet, där marken är plan.",
+    "metaTitle": "Avrunda till tiotal: kullen, lågstadiet",
+    "metaDescription": "47 rullar till 50, för det är närmast. På 45 faller stenen inte av sig själv: klassen bestämmer åt vilket håll krönet lutar.",
+    "about": [
+      "Sätt ner stenbumlingen på marken och släpp. Den rullar ner i närmaste grop – om den inte hamnar på krönet: där är ingen sida lägre, den rullar inte av sig själv, och vad talet ska användas till avgör åt vilket håll den går.",
+      "Mark med en grop i vardera änden och ett krön i mitten.",
+      "Hela apparaten är gratis – varje sluttning, vacklandet och att luta krönet. Lärarplanen lägger till marken i papper att klippa ut och vika, så att den står på bordet och ett barn kan lägga en riktig stenbumling på krönet och se att den verkligen ligger kvar."
+    ],
+    "howToUse": [
+      "Släpp. 47 rullar ner i gropen 50.",
+      "45 ligger på krönet. Ingen sida är lägre, så stenbumlingen rullar inte av sig själv. Vad ska de här talen användas till – och åt vilket håll ska det luta krönet?",
+      "Luta krönet mot den högre gropen. Klassen har lutat krönet mot 50, för det som de här talen används till nu. Varje stenbumling som hamnar precis på krönet går åt det hållet tills det ändras."
+    ],
+    "classroomIdeas": [
+      "Krönet är rakt igen. Vad ska de här talen användas till nu? Stenbumlingen vacklar tills klassen lutar krönet på nytt.",
+      "krönet, mitt emellan de två groparna",
+      "Klipp längs kanten och vik på de streckade linjerna så att marken står upp. Skriv de två runda talen i groparna. Lägg en riktig stenbumling var som helst på en sluttning – den rullar ner i en grop. Lägg den på krönet – den ligger kvar, och det är hela poängen."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

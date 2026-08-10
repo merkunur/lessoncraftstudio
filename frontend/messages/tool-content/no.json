@@ -1364,6 +1364,28 @@
       "Hver tomme mal har en stoppkloss i begge ender og tre påler. Skriv inn de to tallene i endene, heng den opp i klasserommet, og la klassen legge til tall hele uka. Del inn den neste som én enkelt tier for å fortsette inne i den."
     ]
   },
+  "rounding-hill": {
+    "name": "Avrundingskollen",
+    "slug": "avrunding-til-tiere-bakken-smatrinnet",
+    "tagline": "Slipp steinen, og den triller ned i nærmeste tier — bortsett fra på kammen, der bakken er flat.",
+    "metaTitle": "Avrunding til tiere: bakken, småtrinnet",
+    "metaDescription": "47 triller til 50, for det er nærmest. På 45 faller steinen ikke av seg selv: klassen bestemmer hvilken vei kammen heller.",
+    "about": [
+      "Sett kampesteinen ned på terrenget og slipp. Den triller ned i den nærmeste gropa — med mindre den blir liggende på høyderyggen: der er ingen side lavere, den faller ikke av seg selv, og hva tallet skal brukes til avgjør hvilken vei den går.",
+      "Terreng med ei grop i hver ende og en høyderygg i midten.",
+      "Hele apparatet er gratis – hver skråning, vaklingen og det å helle høyderyggen. Lærerabonnementet legger til papirterrenget til å klippe ut og brette, så det står på pulten, og et barn kan legge en ekte kampestein på høyderyggen og se at den virkelig blir liggende."
+    ],
+    "howToUse": [
+      "Slipp. 47 triller ned i gropa 50.",
+      "45 ligger på høyderyggen. Ingen side er lavere, så kampesteinen faller ikke av seg selv. Hva skal disse tallene brukes til — og hvilken vei skal det helle høyderyggen?",
+      "Hell høyderyggen mot den høyere gropa. Klassen har helt høyderyggen mot 50, ut fra hva disse tallene brukes til nå. Hver kampestein som havner nøyaktig på høyderyggen, går den veien til det endrer seg."
+    ],
+    "classroomIdeas": [
+      "Høyderyggen er rett igjen. Hva skal disse tallene brukes til nå? Kampesteinen vakler til klassen heller den på nytt.",
+      "høyderyggen, midt mellom de to gropene",
+      "Klipp langs kanten og brett på de stiplede linjene, så terrenget står. Skriv de to runde tallene i gropene. Legg en ekte kampestein hvor som helst i en skråning – den triller ned i ei grop. Legg den på høyderyggen – den blir liggende, og det er hele poenget."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

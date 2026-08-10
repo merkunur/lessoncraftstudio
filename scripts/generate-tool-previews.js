@@ -122,6 +122,16 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #51 AT REST IS AN EMPTY STRIP AND A NUMBER, WHICH SAYS NOTHING.
+     The card has to carry the thesis, and the thesis is the moment the
+     truth is out: the plaque where the class put it, the wedge where the
+     number actually lives, and the gap between them. Seeded to choose
+     the middle post, nudge, and commit — then held PAST the 900ms beat
+     so the wedge is on screen and settled. */
+  'landing-strip': [
+    { sel: '.lds-b-p1', wait: 420 }, { sel: '.lds-b-r10', wait: 320 },
+    { sel: '.lds-b-r10', wait: 320 }, { sel: '.lds-b-place', wait: 1700 }
+  ],
   /* ⭐ #50 AT REST IS 00, WHICH IS FLAT AND SAYS NOTHING. Turned to 9
      the ones ring reads 8 · 9 · 0 — the 0 drawn directly UNDER the 9,
      which is the entire claim of the tool and the one thing no flip
@@ -558,6 +568,9 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* wide and short: the strip plus one control row, well under the 0.85
+     aspect where --fit=auto TOP-CROPS and still reports "ok" */
+  'landing-strip': { width: 1040, height: 640 },
   /* the frame plus one button row; kept well under the 0.85 aspect
      where --fit=auto TOP-CROPS and still reports "ok" */
   'number-drum': { width: 1000, height: 720 },

@@ -1386,6 +1386,28 @@
       "Leikkaa marssijat ja holvi irti. Aseta marssijat peräkkäin ja kuljeta heidät läpi, näin monta rinnakkain kerrallaan. Kun jäljellä on liian vähän täyttämään holvia, jätä heidät seisomaan ja piirrä tyhjät paikat heidän viereensä — nuo tyhjät paikat kertovat, mitä luku sanoo."
     ]
   },
+  "doubling-mirror": {
+    "name": "The Doubling Mirror",
+    "slug": "kaksinkertaistaminen-ja-puolittaminen-nappuloilla-alkuopetus",
+    "tagline": "Sulje sarana, ja toiselle puoliskolle tulee yhtä monta OIKEAA nappulaa — niihin kaikkiin voi koskea.",
+    "metaTitle": "Kaksinkertaistaminen ja puolittaminen nappuloilla, alkuopetus",
+    "metaDescription": "Sanokaa ensin, mikä on kaksinkertainen määrä, ja sulkekaa sitten alusta ja laskekaa. Yhdeksän avautuu viideksi ja neljäksi, koska ylimääräisen on mentävä jonnekin.",
+    "about": [
+      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
+      "A tray with two leaves and a hinge between them.",
+      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+    ],
+    "howToUse": [
+      "Put another counter on the near leaf 6 on the near leaf.",
+      "Close the hinge 6 and 6 on the tray. 12 altogether.",
+      "Open the hinge 12 opens into 6 and 6."
+    ],
+    "classroomIdeas": [
+      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
+      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
+      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

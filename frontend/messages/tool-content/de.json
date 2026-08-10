@@ -1409,6 +1409,28 @@
       "Schneide die Marschierenden und den Rundbogen aus. Stell die Marschierenden hintereinander auf und schick sie hindurch, immer so viele nebeneinander. Wenn zu wenige da sind, um den Rundbogen zu füllen, lass sie stehen und male die leeren Plätze daneben — diese leeren Plätze sind das, was die Zahl dir sagt."
     ]
   },
+  "doubling-mirror": {
+    "name": "The Doubling Mirror",
+    "slug": "verdoppeln-und-halbieren-mit-plaettchen-grundschule",
+    "tagline": "Klappe zu — und auf der anderen Seite liegen genauso viele ECHTE Plättchen, die man alle anfassen kann.",
+    "metaTitle": "Verdoppeln und Halbieren mit Plättchen, Klasse 1 und 2",
+    "metaDescription": "Sagt zuerst, was das Doppelte ist, und klappt dann zu. Neun teilt sich in fünf und vier, denn das eine muss irgendwohin.",
+    "about": [
+      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
+      "A tray with two leaves and a hinge between them.",
+      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+    ],
+    "howToUse": [
+      "Put another counter on the near leaf 6 on the near leaf.",
+      "Close the hinge 6 and 6 on the tray. 12 altogether.",
+      "Open the hinge 12 opens into 6 and 6."
+    ],
+    "classroomIdeas": [
+      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
+      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
+      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

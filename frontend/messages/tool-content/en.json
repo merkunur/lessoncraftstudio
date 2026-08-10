@@ -1418,6 +1418,29 @@
       "Widen the archway to three and try the same theorem. Two left-behinds sometimes make a rank now and sometimes do not, which is the best argument for why two is the interesting one."
     ]
   },
+  "doubling-mirror": {
+    "name": "The Doubling Mirror",
+    "slug": "doubling-mirror-doubles-and-halves-with-counters",
+    "tagline": "Close the hinge and the far leaf gets the same number of REAL counters — you can touch every one of them.",
+    "metaTitle": "The Doubling Mirror — doubles and halves, Grade 1 and 2",
+    "metaDescription": "Free whiteboard tool: say what the double will be, then close the tray and count. Nine opens into five and four, because the odd one has to go somewhere.",
+    "about": [
+      "It is not a mirror, and that is the point. A mirror doubles an appearance, not a quantity — a child who counts twelve in front of one has counted six things and six reflections, and the reflections are reversed and are not there. So this is a tray with two leaves and a hinge between them, and everything on it is a real counter you can touch once.",
+      "Put counters on the near leaf and say what the double will be before anything moves. Then close the hinge: the far leaf receives the same number again, and the class can count all of them, one at a time, and find they were right. Open the hinge and it comes apart into two equal leaves.",
+      "And an odd total does not stall. Nine will not open into two equal leaves, so one counter has no partner — and the class decides which leaf it goes on. Nine becomes five and four. That is a double and one more, which is the whole of the near-double idea, arrived at by watching rather than by being told. Nothing is scored, nothing is timed, and nothing is ever marked right or wrong."
+    ],
+    "howToUse": [
+      "Set out a few counters and take the class vote on the double BEFORE you close anything. The saying-first is the lesson; the closing is the check.",
+      "Close the hinge and count the whole tray together, touching each counter once. There is nothing to take on trust.",
+      "Open a tray that will not split evenly and say nothing. Somebody will notice that one counter has nowhere to go.",
+      "Let the class choose the odd one a leaf, then read what the tray says: five and four, a double and one more."
+    ],
+    "classroomIdeas": [
+      "A two-minute routine: three trays, three votes said out loud, and the count afterwards to settle each one.",
+      "Do eight and then nine back to back. Ask what the tray did differently — it did nothing differently, which is what odd means.",
+      "Start from a full tray and open it instead. Halving is the same hinge running the other way, and the class can see that it is."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

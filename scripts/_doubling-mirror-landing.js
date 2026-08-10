@@ -27,223 +27,223 @@ module.exports = {
     ]
   },
   "de": {
-    "name": "The Doubling Mirror",
+    "name": "Das Scharnier",
     "slug": "verdoppeln-und-halbieren-mit-plaettchen-grundschule",
     "tagline": "Klappe zu — und auf der anderen Seite liegen genauso viele ECHTE Plättchen, die man alle anfassen kann.",
     "metaTitle": "Verdoppeln und Halbieren mit Plättchen, Klasse 1 und 2",
     "metaDescription": "Sagt zuerst, was das Doppelte ist, und klappt dann zu. Neun teilt sich in fünf und vier, denn das eine muss irgendwohin.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Legt Scheiben auf den nahen Flügel und sagt, wie viel das Doppelte sein wird. Dann schließt das Scharnier — der ferne Flügel bekommt noch einmal genauso viele, und ihr könnt jede einzelne zählen.",
+      "Zwei Flügel mit einem Scharnier dazwischen.",
+      "Das ganze Scharnier ist kostenlos — jedes Zählen, das Schließen und das Öffnen. Mit dem Lehrkraft-Abo kommt der Bastelbogen dazu: zwei Flügel zum Ausschneiden, damit ein Kind echte Scheiben auf beide legen und selbst zuklappen kann."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Eine Scheibe mehr auf den nahen Flügel legen Auf dem nahen Flügel: 6.",
+      "Das Scharnier schließen 6 und 6 auf den Flügeln. 12 zusammen.",
+      "Das Scharnier öffnen 12 wird wieder zu 6 und 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 lässt sich nicht auf zwei gleiche Flügel verteilen. Eine Scheibe hat keinen Partner — auf welchen Flügel soll die Klasse sie legen?",
+      "9 wird zu 5 und 4. Die Scheibe ohne Partner liegt auf Flügel 1 — das ist ein Doppeltes und eins mehr.",
+      "Schneidet die beiden Flügel aus und ritzt die Mittellinie an, damit sie sich zuklappen lassen. Legt Scheiben auf einen Flügel, sagt, wie viel das Doppelte sein wird, klappt den anderen Flügel darüber und legt noch einmal genauso viele hin. Zählt alle: Das Scharnier macht keine einzige Scheibe — das macht ihr."
     ]
   },
   "fr": {
-    "name": "The Doubling Mirror",
+    "name": "La charnière",
     "slug": "doubles-et-moities-avec-des-jetons-cp-ce1",
     "tagline": "Referme la charnière et l’autre volet reçoit autant de VRAIS jetons — on peut les toucher tous.",
     "metaTitle": "Doubles et moitiés avec des jetons, CP-CE1",
     "metaDescription": "Dites d’abord quel sera le double, puis refermez le plateau et comptez. Neuf s’ouvre en cinq et quatre, parce que celui qui reste doit aller quelque part.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Posez des disques sur le battant proche et dites ce que fera le double. Fermez ensuite la charnière : le battant opposé en reçoit autant, et vous pouvez les compter tous, un par un.",
+      "Deux battants reliés par une charnière.",
+      "Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Poser un disque de plus sur le battant proche Sur le battant proche : 6.",
+      "Fermer la charnière 6 et 6 sur les battants. 12 en tout.",
+      "Ouvrir la charnière 12 redevient 6 et 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 ne se partage pas en deux battants égaux. Un disque n’a pas de partenaire — à quel battant la classe le donne-t-elle ?",
+      "9 redevient 5 et 4. Le disque sans partenaire est sur le battant 1 : c’est un double et un de plus.",
+      "Découpez les deux battants et marquez bien la ligne du milieu pour qu’ils se referment. Posez des disques sur un battant, dites ce que fera le double, rabattez l’autre battant et posez-en autant. Comptez-les tous : la charnière ne fabrique aucun disque, c’est vous qui le faites."
     ]
   },
   "es": {
-    "name": "The Doubling Mirror",
+    "name": "La bisagra",
     "slug": "dobles-y-mitades-con-fichas-primaria",
     "tagline": "Cierra la bisagra y la otra hoja recibe la misma cantidad de fichas DE VERDAD, y se pueden tocar todas.",
     "metaTitle": "Dobles y mitades con fichas, Primaria",
     "metaDescription": "Decid primero cuál será el doble y luego cerrad la bandeja y contad. Nueve se abre en cinco y cuatro, porque la que sobra tiene que ir a algún sitio.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Pongan chapas en el ala cercana y digan cuál será el doble. Luego cierren la bisagra: el ala lejana recibe otras tantas, y pueden contarlas todas, una por una.",
+      "Dos alas unidas por una bisagra.",
+      "Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Poner otra chapa en el ala cercana En el ala cercana: 6.",
+      "Cerrar la bisagra 6 y 6 en las alas. 12 en total.",
+      "Abrir la bisagra 12 vuelve a ser 6 y 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 no se reparte en dos alas iguales. Una chapa se queda sin pareja: ¿a qué ala se la da la clase?",
+      "9 vuelve a ser 5 y 4. La chapa sin pareja está en el ala 1: es el doble y una más.",
+      "Recorten las dos alas y marquen bien la línea del medio para que se cierren. Pongan chapas en un ala, digan cuál será el doble, cierren la otra ala encima y pongan otras tantas. Cuéntenlas todas: la bisagra no fabrica ni una chapa, la ponen ustedes."
     ]
   },
   "pt": {
-    "name": "The Doubling Mirror",
+    "name": "A dobradiça",
     "slug": "dobro-e-metade-com-fichas-anos-iniciais",
     "tagline": "Feche a dobradiça e a outra aba recebe a mesma quantidade de fichas DE VERDADE — dá para tocar em todas.",
     "metaTitle": "Dobro e metade com fichas, anos iniciais",
     "metaDescription": "Digam primeiro qual vai ser o dobro e depois fechem a bandeja e contem. Nove abre em cinco e quatro, porque a que sobra precisa ir para algum lado.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Ponha pastilhas na aba da frente e diga quanto vai dar o dobro. Depois feche a dobradiça: a aba de trás recebe a mesma quantidade, e dá para contar cada uma delas.",
+      "Duas abas ligadas por uma dobradiça.",
+      "A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Pôr mais uma pastilha na aba da frente Na aba da frente: 6.",
+      "Fechar a dobradiça 6 e 6 nas abas. 12 ao todo.",
+      "Abrir a dobradiça 12 volta a ser 6 e 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 não se reparte em duas abas iguais. Uma pastilha ficou sem par — para qual aba a turma vai dá-la?",
+      "9 volta a ser 5 e 4. A pastilha sem par está na aba 1: é o dobro e mais uma.",
+      "Recorte as duas abas e marque bem a linha do meio para elas fecharem. Ponha pastilhas numa aba, diga quanto vai dar o dobro, feche a outra aba por cima e ponha a mesma quantidade. Conte todas: a dobradiça não faz nenhuma pastilha — quem faz é você."
     ]
   },
   "it": {
-    "name": "The Doubling Mirror",
+    "name": "La cerniera",
     "slug": "doppio-e-meta-con-i-gettoni-scuola-primaria",
     "tagline": "Chiudi la cerniera e l’altra anta riceve altrettanti gettoni VERI: si possono toccare tutti.",
     "metaTitle": "Doppio e metà con i gettoni, scuola primaria",
     "metaDescription": "Dite prima quale sarà il doppio, poi chiudete il vassoio e contate. Nove si apre in cinque e quattro, perché quello che avanza deve andare da qualche parte.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Mettete dei dischi sull’anta vicina e dite quanto farà il doppio. Poi chiudete la cerniera: l’anta lontana ne riceve altrettanti, e potete contarli tutti, uno per uno.",
+      "Due ante unite da una cerniera.",
+      "Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Mettere un altro disco sull’anta vicina Sull’anta vicina: 6.",
+      "Chiudere la cerniera 6 e 6 sulle ante. 12 in tutto.",
+      "Aprire la cerniera 12 torna a essere 6 e 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 non si divide in due ante uguali. Un disco resta senza compagno: a quale anta lo dà la classe?",
+      "9 torna a essere 5 e 4. Il disco senza compagno è sull’anta 1: è un doppio e uno in più.",
+      "Ritagliate le due ante e incidete bene la linea di mezzo perché si chiudano. Mettete dei dischi su un’anta, dite quanto farà il doppio, chiudete l’altra anta sopra e mettetene altrettanti. Contateli tutti: la cerniera non fabbrica nemmeno un disco, lo fate voi."
     ]
   },
   "nl": {
-    "name": "The Doubling Mirror",
+    "name": "Het scharnier",
     "slug": "verdubbelen-en-halveren-met-fiches-groep-3-4",
     "tagline": "Klap het scharnier dicht en de andere klep krijgt evenveel ECHTE fiches — je kunt ze allemaal aanraken.",
     "metaTitle": "Verdubbelen en halveren met fiches, groep 3 en 4",
     "metaDescription": "Zeg eerst wat het dubbele wordt en klap dan de bak dicht en tel. Negen gaat open in vijf en vier, want die ene moet ergens heen.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Leg schijven op de klep aan jouw kant en zeg wat het dubbele wordt. Sluit dan het scharnier: de klep aan de overkant krijgt er net zo veel bij, en je kunt ze allemaal stuk voor stuk tellen.",
+      "Twee kleppen met een scharnier ertussen.",
+      "Het hele scharnier is gratis: elk tellen, het sluiten en het openen. Bij het Leerkracht-abonnement komt het papieren scharnier om uit te knippen, zodat een kind echte schijven op allebei de kleppen kan leggen en het zelf kan dichtdoen."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Nog een schijf op de klep aan jouw kant leggen Op de klep aan jouw kant: 6.",
+      "Het scharnier sluiten 6 en 6 op de kleppen. 12 bij elkaar.",
+      "Het scharnier openen 12 wordt weer 6 en 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 gaat niet in twee gelijke kleppen. Eén schijf heeft geen maatje — aan welke klep geeft de klas hem?",
+      "9 wordt 5 en 4. De schijf zonder maatje ligt op klep 1: dit is een dubbele en nog eentje.",
+      "Knip de twee kleppen uit en druk de middellijn goed aan, zodat ze dichtgaan. Leg schijven op één klep, zeg wat het dubbele wordt, doe de andere klep erover en leg er net zo veel bij. Tel ze allemaal: het scharnier maakt geen enkele schijf, dat doe jij."
     ]
   },
   "sv": {
-    "name": "The Doubling Mirror",
+    "name": "Gångjärnet",
     "slug": "dubbelt-och-halften-med-brickor-lagstadiet",
     "tagline": "Fäll ihop gångjärnet och den andra halvan får lika många RIKTIGA brickor — alla går att ta i.",
     "metaTitle": "Dubbelt och hälften med brickor, lågstadiet",
     "metaDescription": "Säg först vad dubbelt blir och fäll sedan ihop brickan och räkna. Nio öppnas till fem och fyra, för den som blir över måste hamna någonstans.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Lägg skivor på den närmaste klaffen och säg vad dubbelt så många blir. Stäng sedan gångjärnet: den bortre klaffen får lika många till, och ni kan räkna varenda en.",
+      "Två klaffar med ett gångjärn emellan.",
+      "Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Lägg en skiva till på den närmaste klaffen På den närmaste klaffen: 6.",
+      "Stäng gångjärnet 6 och 6 på klaffarna. 12 tillsammans.",
+      "Öppna gångjärnet 12 blir 6 och 6 igen."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 går inte jämnt upp på två klaffar. En skiva blir utan par — vilken klaff ska klassen ge den till?",
+      "9 blir 5 och 4. Skivan utan par ligger på klaff 1 — det är dubbelt och en till.",
+      "Klipp ut de två klaffarna och ritsa mittlinjen så att de går att stänga. Lägg skivor på den ena klaffen, säg vad dubbelt så många blir, fäll den andra klaffen över och lägg lika många till. Räkna alla: gångjärnet gör inte en enda skiva — det gör ni."
     ]
   },
   "da": {
-    "name": "The Doubling Mirror",
+    "name": "Hængslet",
     "slug": "det-dobbelte-og-halvdelen-med-brikker-indskoling",
     "tagline": "Luk hængslet, og den anden klap får lige så mange RIGTIGE brikker — man kan røre ved dem alle.",
     "metaTitle": "Det dobbelte og halvdelen med brikker, indskolingen",
     "metaDescription": "Sig først, hvad det dobbelte bliver, og luk så bakken og tæl. Ni åbner sig til fem og fire, for den ene, der bliver tilovers, skal jo et sted hen.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Læg skiver på den nærmeste fløj og sig, hvad det dobbelte bliver. Luk så hængslet: den fjerneste fløj får lige så mange igen, og I kan tælle hver eneste en.",
+      "To fløje med et hængsel imellem.",
+      "Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Læg en skive mere på den nærmeste fløj På den nærmeste fløj: 6.",
+      "Luk hængslet 6 og 6 på fløjene. 12 i alt.",
+      "Åbn hængslet 12 bliver til 6 og 6 igen."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 går ikke op i to lige store fløje. En skive er uden makker — hvilken fløj skal klassen give den til?",
+      "9 bliver til 5 og 4. Skiven uden makker ligger på fløj 1 — det er et dobbelt og en mere.",
+      "Klip de to fløje ud, og rids midterlinjen, så de kan lukkes. Læg skiver på den ene fløj, sig hvad det dobbelte bliver, klap den anden fløj henover, og læg lige så mange igen. Tæl dem alle sammen: hængslet laver ikke en eneste skive — det gør I."
     ]
   },
   "no": {
-    "name": "The Doubling Mirror",
+    "name": "Hengslet",
     "slug": "det-dobbelte-og-halvparten-med-brikker-smatrinnet",
     "tagline": "Lukk hengselet, og den andre klaffen får like mange EKTE brikker — du kan ta på alle sammen.",
     "metaTitle": "Det dobbelte og halvparten med brikker, småtrinnet",
     "metaDescription": "Si først hva det dobbelte blir, og lukk så brettet og tell. Ni åpner seg til fem og fire, for den ene som blir til overs må jo et sted.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Legg skiver på den nærmeste klaffen og si hva det dobbelte blir. Lukk så hengslet: den borterste klaffen får like mange til, og dere kan telle hver eneste en.",
+      "To klaffer med et hengsel imellom.",
+      "Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Legg en skive til på den nærmeste klaffen På den nærmeste klaffen: 6.",
+      "Lukk hengslet 6 og 6 på klaffene. 12 til sammen.",
+      "Åpne hengslet 12 blir 6 og 6 igjen."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 går ikke opp i to like klaffer. En skive er uten make — hvilken klaff skal klassen gi den til?",
+      "9 blir 5 og 4. Skiven uten make ligger på klaff 1 — det er et dobbelt og en til.",
+      "Klipp ut de to klaffene og riss opp midtlinjen, så de lar seg lukke. Legg skiver på den ene klaffen, si hva det dobbelte blir, legg den andre klaffen over og legg like mange til. Tell dem alle: hengslet lager ikke en eneste skive — det gjør dere."
     ]
   },
   "fi": {
-    "name": "The Doubling Mirror",
+    "name": "Sarana",
     "slug": "kaksinkertaistaminen-ja-puolittaminen-nappuloilla-alkuopetus",
     "tagline": "Sulje sarana, ja toiselle puoliskolle tulee yhtä monta OIKEAA nappulaa — niihin kaikkiin voi koskea.",
     "metaTitle": "Kaksinkertaistaminen ja puolittaminen nappuloilla, alkuopetus",
     "metaDescription": "Sanokaa ensin, mikä on kaksinkertainen määrä, ja sulkekaa sitten alusta ja laskekaa. Yhdeksän avautuu viideksi ja neljäksi, koska ylimääräisen on mentävä jonnekin.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Asettakaa kiekkoja lähemmälle siivelle ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sitten sarana: kauempi siipi saa yhtä monta lisää, ja jokaisen voi laskea yksitellen.",
+      "Kaksi siipeä ja niiden välissä sarana.",
+      "Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Aseta vielä yksi kiekko lähemmälle siivelle Lähemmällä siivellä: 6.",
+      "Sulje sarana Siivillä 6 ja 6. Yhteensä 12.",
+      "Avaa sarana 12 jakautuu taas: 6 ja 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 ei jakaudu kahdelle yhtä suurelle siivelle. Yksi kiekko jäi ilman paria — kummalle siivelle luokka antaa sen?",
+      "9 jakautuu näin: 5 ja 4. Ilman paria jäänyt kiekko on siivellä 1 — se on kaksinkertainen määrä ja yksi lisää.",
+      "Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette."
     ]
   }
 };

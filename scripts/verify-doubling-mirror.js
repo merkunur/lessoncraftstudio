@@ -60,7 +60,18 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
     eq(T.far(c), n, 'L1 ⭐ the far leaf is not the same count as the near, at n=' + n);
     eq(T.total(c), 2 * n, 'L1 ⭐ the closed tray does not carry the double, at n=' + n);
     ok(T.close(c) === null, 'L1 the tray closed twice at n=' + n);
-    ok(T.place(c, 1) === null, 'L1 a counter was added to a closed tray at n=' + n);
+    /* @@ ADDING TO A CLOSED TRAY IS NOW THE ODD ONE, and this assertion
+       used to say the opposite. It encoded the behaviour that made the
+       headline unreachable, which is the oracle sharing the code's
+       misconception - and it failed the moment the code was fixed,
+       which is exactly what a gate is for. */
+    const plus = T.place(c, 1);
+    ok(plus !== null, 'L1 one more could not be added to a closed tray at n=' + n);
+    if (plus) {
+      eq(plus.odd, 0, 'L1 the extra counter is not waiting at n=' + n);
+      eq(T.total(plus), 2 * n + 1, 'L1 the tray does not carry an ODD total at n=' + n);
+      ok(T.place(plus, 1) === null, 'L1 a SECOND outsider was accepted at n=' + n);
+    }
     closed++;
   }
   eq(seen, G.CAP + 1, 'L1 non-vacuity: near-counts walked');
@@ -122,6 +133,74 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
      of asserting a derived count rather than a remembered one. */
   eq(odds, G.CAP - 1, 'L2 non-vacuity: odd totals walked');
   console.log('  ' + evens + ' even totals split cleanly; ' + odds + ' odd totals each resolved BOTH ways');
+}
+
+/* ================================================================== */
+/* @@@ L2b - REACHABILITY. WALK ONLY WHAT THE BUTTONS CAN REACH.
+   This is the assertion that was missing, and its absence let the tool's
+   headline invention ship UNREACHABLE under 626 assertions and 16 pixel
+   checks. Both earlier gates called open(st, 9) with an explicit total -
+   a path no control invokes - so both proved the MODEL correct and
+   neither proved the TOOL could get there. That is "a gate you help past
+   is not a gate", and I wrote the help myself.
+
+   Every state below is produced ONLY by the moves a control calls:
+   place(+-1), close(), open() with no argument, giveSide(). */
+{
+  const seen = {}, queue = [];
+  const key = st => st.near + '|' + st.closed + '|' + st.odd + '|' + st.opened;
+  ['few', 'ten'].forEach(function (start) {
+    const s0 = T.newState(start);
+    seen[key(s0)] = s0; queue.push(s0);
+  });
+  let guard = 0;
+  while (queue.length && guard++ < 4000) {
+    const st = queue.shift();
+    [T.place(st, 1), T.place(st, -1), T.close(st), T.open(st),
+     T.giveSide(st, -1), T.giveSide(st, 1)].forEach(function (n) {
+      if (!n) return;
+      const k = key(n);
+      if (seen[k]) return;
+      seen[k] = n; queue.push(n);
+    });
+  }
+  const states = Object.keys(seen).map(k => seen[k]);
+  ok(guard < 4000, 'L2b the reachable walk did not terminate');
+  ok(states.length > 30, 'L2b non-vacuity: only ' + states.length + ' reachable states');
+
+  /* @@@ THE HEADLINE MUST BE REACHABLE BY BUTTONS ALONE. */
+  const odd = states.filter(x => x.odd === 0);
+  ok(odd.length > 0,
+    'L2b NO REACHABLE STATE LEAVES A COUNTER WAITING - the odd case, which is the whole headline, cannot be got to by pressing buttons');
+  const sided = states.filter(x => x.odd === -1 || x.odd === 1);
+  ok(sided.length > 0, 'L2b @@@ the odd one can never be given a leaf from any reachable state');
+  const openedOdd = states.filter(x => x.odd !== null && x.opened !== null);
+  ok(openedOdd.length > 0, 'L2b @@@ an ODD tray can never be opened from any reachable state');
+
+  /* and the specific sentence the catalog sells */
+  let six = T.newState('few');
+  while (six.near < 6) six = T.place(six, 1);
+  const thirteen = T.place(T.close(six), 1);
+  ok(thirteen !== null, 'L2b one more could not be added to a closed tray');
+  eq(T.total(thirteen), 13, 'L2b six doubled plus one is not thirteen');
+  const split = T.open(thirteen);
+  ok(split !== null && T.waiting(split), 'L2b thirteen did not open into a waiting odd one');
+  const far = T.giveSide(split, 1);
+  eq(T.nearShown(far) + '+' + T.far(far), '6+7', 'L2b @@@ "double six and the one who would not fit" does not produce 6 and 7');
+
+  /* @@ OPENING MUST HAVE A CONSEQUENCE. It returned closed:true, so
+     nothing in the DOM moved - the #39 consequence-free-control class,
+     which the shared liveness gate scores GREEN because the control acts. */
+  const closedStates = states.filter(x => x.closed && x.opened === null);
+  ok(closedStates.length > 0, 'L2b non-vacuity: no closed state reached');
+  closedStates.forEach(function (x) {
+    const o = T.open(x);
+    if (!o) return;
+    ok(o.closed === false, 'L2b @@ opening left the tray CLOSED - the control has no consequence');
+    ok(o.opened !== null, 'L2b opening did not record that the tray was taken apart');
+  });
+  console.log('  ' + states.length + ' states reachable by button alone; ' +
+    odd.length + ' leave one waiting, ' + sided.length + ' resolve it');
 }
 
 /* L3 — placing, and honest refusals at both ends */

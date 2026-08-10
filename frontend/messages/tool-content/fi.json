@@ -1320,6 +1320,28 @@
       "Leikkaa irti jokainen pitkä suikale, rullaa se renkaaksi ja kiinnitä päät yhteen. Pidä kahta rengasta vierekkäin ja pyöritä oikeanpuoleista: aina kun sen 9 kiertyy nollaan, pyöräytä vasenta yhden pykälän eteenpäin."
     ]
   },
+  "landing-strip": {
+    "name": "Kolme tolppaa",
+    "slug": "lukujen-arviointi-lahempana-nollaa-viittakymmenta-vai-sataa-alkuopetus",
+    "tagline": "Kolme tolppaa tyhjällä kentällä — ja kun avaa yhden kymmenen, samat kolme ovat taas siinä.",
+    "metaTitle": "Lähempänä nollaa, viittäkymmentä vai sataa? Lukujen arviointi",
+    "metaDescription": "Luku ilmestyy, luokka sanoo mitä tolppaa se on lähinnä ja asettaa sen sitten paikalleen. Avaa kymmen, jossa se asuu, ja sama kysymys palaa.",
+    "about": [
+      "Luku ilmestyy. Sanokaa, minkä tolpan lähellä se on, ja asettakaa se vasta sitten — sitten näette, missä se oikeasti asuu.",
+      "Molemmissa päissä muuri ja kolme tolppaa: yksi kummassakin päässä ja yksi keskellä.",
+      "Täällä kaikki on maksutonta — molemmat tasot, kaikki kolme tolppaa, jokainen asettaminen ja uudelleenjako. Opettajatilaus tuo lisäksi paperipohjat, jotka jaatte itse ja ripustatte luokkaan, niin yksi saa olla esillä koko viikon."
+    ],
+    "howToUse": [
+      "Lähinnä keskimmäistä tolppaa. Lähinnä oikeanpuoleista tolppaa.",
+      "Aseta tähän. Se asuu kohdassa 80. Te asetitte sen kohtaan 60.",
+      "Avaa kymmen, jossa se asuu. Nyt tässä ovat luvut 80–90. Kolme tolppaa on taas paikoillaan."
+    ],
+    "classroomIdeas": [
+      "71. Minkä tolpan lähellä se on?",
+      "Takaisin kokonaisuuteen. Takaisin kokonaisuuteen, luvut 0–100.",
+      "Jokaisessa tyhjässä pohjassa on muuri molemmissa päissä ja kolme tolppaa. Kirjoittakaa päiden luvut, ripustakaa pohja luokkaan ja antakaa luokan lisätä siihen lukuja koko viikon. Jakakaa seuraava yhdeksi ainoaksi kymmeneksi, niin voitte jatkaa sen sisällä."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

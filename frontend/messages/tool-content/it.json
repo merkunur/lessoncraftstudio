@@ -1341,6 +1341,28 @@
       "Ritaglia ogni striscia lunga, arrotolala fino a formare un anello e incolla le due estremità. Tieni due anelli affiancati e gira quello di destra: ogni volta che il suo 9 passa allo 0, fai avanzare di uno quello di sinistra."
     ]
   },
+  "landing-strip": {
+    "name": "I tre paletti",
+    "slug": "stimare-i-numeri-piu-vicino-a-0-50-o-100-primaria",
+    "tagline": "Tre pali su una fascia vuota, e aprendo una decina i tre pali ci sono di nuovo.",
+    "metaTitle": "Più vicino a 0, a 50 o a 100? Stimare i numeri, primaria",
+    "metaDescription": "Arriva un numero, la classe dice a quale palo è più vicino e poi lo mette giù. Apri la decina in cui abita e torna la stessa domanda.",
+    "about": [
+      "Arriva un numero. Dite a quale paletto è più vicino e solo dopo posatelo — così vedrete dove abita davvero.",
+      "Una sponda a ogni estremità e tre paletti: uno a ogni estremità e uno al centro.",
+      "Qui è tutto gratuito: entrambe le profondità, i tre paletti, ogni posa e la nuova graduazione. Il piano Insegnante aggiunge i modelli di carta da graduare voi stessi e appendere in aula, così ne resta uno in corso per tutta la settimana."
+    ],
+    "howToUse": [
+      "Più vicino al paletto in mezzo. Più vicino al paletto di destra.",
+      "Posarlo qui. Abita al 80. Voi l’avete posato al 60.",
+      "Aprire la decina in cui abita. Adesso va da 80 a 90. I tre paletti sono di nuovo qui."
+    ],
+    "classroomIdeas": [
+      "71. A quale paletto è più vicino?",
+      "Tornare all’insieme. Di nuovo all’insieme, da 0 a 100.",
+      "Ogni modello vuoto ha una sponda a entrambe le estremità e tre paletti. Scrivete i due numeri delle estremità, appendetelo in aula e lasciate che la classe ci aggiunga numeri per tutta la settimana. Graduate il successivo come una sola decina, per continuare al suo interno."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

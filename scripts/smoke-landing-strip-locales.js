@@ -82,6 +82,10 @@ const srv = http.createServer((rq, rs) => {
        drawer, and take the paid sheet. */
     await p.evaluate(() => document.querySelector('.lds-b-rerule').click());
     await new Promise(r => setTimeout(r, 900));
+    /* ⚠ press the re-rule AGAIN while already inside a ten: it must
+       refuse, and that refusal is the only path to saidNoRerule. */
+    await p.evaluate(() => document.querySelector('.lds-b-rerule').click());
+    await new Promise(r => setTimeout(r, 300));
     await p.evaluate(() => document.querySelector('.lds-b-p0').click());
     await new Promise(r => setTimeout(r, 300));
     await p.evaluate(() => document.querySelector('.lds-b-l1').click());   /* refuse at the low end */

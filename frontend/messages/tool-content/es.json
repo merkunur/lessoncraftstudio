@@ -1340,6 +1340,28 @@
       "Recorta cada tira larga, enróllala hasta formar un anillo y pega los dos extremos. Pon dos anillos juntos y gira el de la derecha: cada vez que su 9 pase al 0, adelanta el de la izquierda una posición."
     ]
   },
+  "landing-strip": {
+    "name": "Los tres postes",
+    "slug": "estimar-numeros-mas-cerca-de-0-50-o-100-primaria",
+    "tagline": "Tres postes en una franja vacía, y al abrir una decena están otra vez los tres.",
+    "metaTitle": "¿Más cerca de 0, de 50 o de 100? Estimar números en Primaria",
+    "metaDescription": "Aparece un número, la clase dice a qué poste está más cerca y luego lo coloca. Abre la decena donde vive y vuelve la misma pregunta.",
+    "about": [
+      "Llega un número. Digan de qué poste está más cerca y solo entonces colóquenlo — así verán dónde vive de verdad.",
+      "Un tope en cada extremo y tres postes: uno en cada extremo y uno en el medio.",
+      "Aquí todo es gratis: las dos profundidades, los tres postes, cada colocación y la nueva graduación. El plan Docente añade las plantillas de papel para graduarlas ustedes mismos y colgarlas en el aula, y así tener una funcionando toda la semana."
+    ],
+    "howToUse": [
+      "Más cerca del poste del medio. Más cerca del poste de la derecha.",
+      "Dejarlo aquí. Vive en el 80. Ustedes lo dejaron en el 60.",
+      "Abrir la decena donde vive. Ahora va de 80 a 90. Los tres postes están de vuelta."
+    ],
+    "classroomIdeas": [
+      "71. ¿De qué poste está más cerca?",
+      "Volver al conjunto. De vuelta al conjunto, de 0 a 100.",
+      "Cada plantilla en blanco tiene un tope en cada extremo y tres postes. Escriban los dos números de los extremos, cuélguenla en el aula y dejen que la clase le agregue números toda la semana. Gradúen la siguiente como una sola decena para continuar dentro de ella."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

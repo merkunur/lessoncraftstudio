@@ -1342,6 +1342,28 @@
       "Klipp ut varje lång remsa, rulla ihop den till en ring och fäst ihop ändarna. Håll två ringar bredvid varandra och vrid den högra: varje gång dess 9 går runt till 0 vrider du den vänstra ett steg."
     ]
   },
+  "landing-strip": {
+    "name": "De tre stolparna",
+    "slug": "uppskatta-tal-narmare-0-50-eller-100-lagstadiet",
+    "tagline": "Tre stolpar på ett tomt fält — och öppnar man ett tiotal står samma tre där igen.",
+    "metaTitle": "Närmare 0, 50 eller 100? Uppskatta tal, lågstadiet",
+    "metaDescription": "Ett tal dyker upp, klassen säger vilken stolpe det är närmast och lägger sedan ner det. Öppna tiotalet där det bor så kommer samma fråga tillbaka.",
+    "about": [
+      "Ett tal dyker upp. Säg vilken stolpe det är närmast, och lägg det först då — sedan ser ni var det egentligen bor.",
+      "En stoppkloss i varje ände och tre stolpar: en i varje ände och en i mitten.",
+      "Allt här är gratis — båda djupen, alla tre stolparna, varje placering och den nya indelningen. Lärarplanen lägger till pappersmallarna som ni delar in själva och sätter upp i klassrummet, så att en får stå kvar hela veckan."
+    ],
+    "howToUse": [
+      "Närmast stolpen i mitten. Närmast stolpen till höger.",
+      "Lägg det här. Det bor på 80. Ni la det på 60.",
+      "Öppna tiotalet där det bor. Nu går det från 80 till 90. De tre stolparna är tillbaka."
+    ],
+    "classroomIdeas": [
+      "71. Vilken stolpe är det närmast?",
+      "Tillbaka till det hela. Tillbaka till det hela, 0 till 100.",
+      "Varje tom mall har en stoppkloss i båda ändarna och tre stolpar. Skriv in de två talen i ändarna, sätt upp den i klassrummet och låt klassen lägga till tal hela veckan. Dela in nästa som ett enda tiotal för att fortsätta inuti det."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

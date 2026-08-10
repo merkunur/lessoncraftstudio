@@ -1407,25 +1407,25 @@
     ]
   },
   "doubling-mirror": {
-    "name": "The Doubling Mirror",
+    "name": "La bisagra",
     "slug": "dobles-y-mitades-con-fichas-primaria",
     "tagline": "Cierra la bisagra y la otra hoja recibe la misma cantidad de fichas DE VERDAD, y se pueden tocar todas.",
     "metaTitle": "Dobles y mitades con fichas, Primaria",
     "metaDescription": "Decid primero cuál será el doble y luego cerrad la bandeja y contad. Nueve se abre en cinco y cuatro, porque la que sobra tiene que ir a algún sitio.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Pongan el ala cercana en un número y digan cuál será el doble. Cierren la bisagra: el ala lejana recibe otras tantas. Después añadan una chapa más y ábranla — así se ve el doble y una más.",
+      "Dos alas unidas por una bisagra.",
+      "Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar y marcar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Poner otra chapa en el ala cercana En el ala cercana: 6.",
+      "Cerrar la bisagra 6 y 6 en las alas. 12 en total.",
+      "Abrir la bisagra 12 vuelve a ser 6 y 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 no se reparte en dos alas iguales. Una chapa se queda sin pareja: ¿a qué ala se la da la clase?",
+      "9 vuelve a ser 5 y 4. La chapa sin pareja está en el ala 1: es el doble y una más.",
+      "Recorten las dos alas y marquen bien la línea del medio para que se cierren. Pongan chapas en un ala, digan cuál será el doble, cierren la otra ala encima y pongan otras tantas. Cuéntenlas todas: la bisagra no fabrica ni una chapa, la ponen ustedes."
     ]
   },
   "labels": {

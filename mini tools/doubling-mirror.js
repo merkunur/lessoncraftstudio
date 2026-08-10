@@ -1018,8 +1018,14 @@
       this._btn.more.classList.toggle('is-off', !this.place(null, 1));
       this._btn.close.classList.toggle('is-off', !this.close(null));
       this._btn.open.classList.toggle('is-off', !this.open(null));
-      this._btn.low.classList.toggle('is-off', !wait);
-      this._btn.high.classList.toggle('is-off', !wait);
+      /* ⚠⚠ GATED ON THE MOVE, NOT ON THE FLAG. These read `!wait`, which
+         is true the instant the odd counter lands on a CLOSED tray — so
+         the buttons LOOKED live while the model refused them, which is a
+         control that appears available and does nothing. Fixing the model
+         and leaving the paint on a different predicate is two expressions
+         for one law, and only the live page showed it. */
+      this._btn.low.classList.toggle('is-off', !this.giveSide(null, -1));
+      this._btn.high.classList.toggle('is-off', !this.giveSide(null, 1));
       this._btn.print.classList.toggle('is-paid', !!this.premium);
     },
 

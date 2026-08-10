@@ -33,9 +33,9 @@ module.exports = {
     "metaTitle": "Verdoppeln und Halbieren mit Plättchen, Klasse 1 und 2",
     "metaDescription": "Sagt zuerst, was das Doppelte ist, und klappt dann zu. Neun teilt sich in fünf und vier, denn das eine muss irgendwohin.",
     "about": [
-      "Legt Scheiben auf den nahen Flügel und sagt, wie viel das Doppelte sein wird. Dann schließt das Scharnier — der ferne Flügel bekommt noch einmal genauso viele, und ihr könnt jede einzelne zählen.",
+      "Stellt den nahen Flügel auf eine Zahl ein und sagt, wie viel das Doppelte sein wird. Schließt das Scharnier — der ferne Flügel bekommt noch einmal genauso viele. Legt dann eine Scheibe mehr dazu und öffnet es: So sieht ein Doppeltes und eins mehr aus.",
       "Zwei Flügel mit einem Scharnier dazwischen.",
-      "Das ganze Scharnier ist kostenlos — jedes Zählen, das Schließen und das Öffnen. Mit dem Lehrkraft-Abo kommt der Bastelbogen dazu: zwei Flügel zum Ausschneiden, damit ein Kind echte Scheiben auf beide legen und selbst zuklappen kann."
+      "Das ganze Scharnier ist kostenlos — jedes Zählen, das Schließen und das Öffnen. Mit dem Lehrkraft-Abo kommt der Bastelbogen dazu: Flügel zum Ausschneiden und Anritzen, damit ein Kind echte Scheiben auf beide legen und das Scharnier selbst zuklappen kann."
     ],
     "howToUse": [
       "Eine Scheibe mehr auf den nahen Flügel legen Auf dem nahen Flügel: 6.",
@@ -44,7 +44,7 @@ module.exports = {
     ],
     "classroomIdeas": [
       "9 lässt sich nicht auf zwei gleiche Flügel verteilen. Eine Scheibe hat keinen Partner — auf welchen Flügel soll die Klasse sie legen?",
-      "9 wird zu 5 und 4. Die Scheibe ohne Partner liegt auf Flügel 1 — das ist ein Doppeltes und eins mehr.",
+      "9 wird zu 5 und 4. Die Scheibe ohne Partner liegt auf dem 1 Flügel — das ist ein Doppeltes und eins mehr.",
       "Schneidet die beiden Flügel aus und ritzt die Mittellinie an, damit sie sich zuklappen lassen. Legt Scheiben auf einen Flügel, sagt, wie viel das Doppelte sein wird, klappt den anderen Flügel darüber und legt noch einmal genauso viele hin. Zählt alle: Das Scharnier macht keine einzige Scheibe — das macht ihr."
     ]
   },
@@ -55,9 +55,9 @@ module.exports = {
     "metaTitle": "Doubles et moitiés avec des jetons, CP-CE1",
     "metaDescription": "Dites d’abord quel sera le double, puis refermez le plateau et comptez. Neuf s’ouvre en cinq et quatre, parce que celui qui reste doit aller quelque part.",
     "about": [
-      "Posez des disques sur le battant proche et dites ce que fera le double. Fermez ensuite la charnière : le battant opposé en reçoit autant, et vous pouvez les compter tous, un par un.",
+      "Réglez le battant proche sur un nombre et dites ce que fera le double. Fermez la charnière : le battant opposé en reçoit autant. Ajoutez ensuite un disque de plus et ouvrez — voilà à quoi ressemble un double et un de plus.",
       "Deux battants reliés par une charnière.",
-      "Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains."
+      "Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper et à marquer, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains."
     ],
     "howToUse": [
       "Poser un disque de plus sur le battant proche Sur le battant proche : 6.",
@@ -77,9 +77,9 @@ module.exports = {
     "metaTitle": "Dobles y mitades con fichas, Primaria",
     "metaDescription": "Decid primero cuál será el doble y luego cerrad la bandeja y contad. Nueve se abre en cinco y cuatro, porque la que sobra tiene que ir a algún sitio.",
     "about": [
-      "Pongan chapas en el ala cercana y digan cuál será el doble. Luego cierren la bisagra: el ala lejana recibe otras tantas, y pueden contarlas todas, una por una.",
+      "Pongan el ala cercana en un número y digan cuál será el doble. Cierren la bisagra: el ala lejana recibe otras tantas. Después añadan una chapa más y ábranla — así se ve el doble y una más.",
       "Dos alas unidas por una bisagra.",
-      "Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos."
+      "Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar y marcar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos."
     ],
     "howToUse": [
       "Poner otra chapa en el ala cercana En el ala cercana: 6.",
@@ -99,9 +99,9 @@ module.exports = {
     "metaTitle": "Dobro e metade com fichas, anos iniciais",
     "metaDescription": "Digam primeiro qual vai ser o dobro e depois fechem a bandeja e contem. Nove abre em cinco e quatro, porque a que sobra precisa ir para algum lado.",
     "about": [
-      "Ponha pastilhas na aba da frente e diga quanto vai dar o dobro. Depois feche a dobradiça: a aba de trás recebe a mesma quantidade, e dá para contar cada uma delas.",
+      "Coloque a aba da frente num número e diga quanto vai dar o dobro. Feche a dobradiça: a aba de trás recebe a mesma quantidade. Depois ponha mais uma pastilha e abra — é assim que fica o dobro e mais uma.",
       "Duas abas ligadas por uma dobradiça.",
-      "A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos."
+      "A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar e marcar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos."
     ],
     "howToUse": [
       "Pôr mais uma pastilha na aba da frente Na aba da frente: 6.",
@@ -121,9 +121,9 @@ module.exports = {
     "metaTitle": "Doppio e metà con i gettoni, scuola primaria",
     "metaDescription": "Dite prima quale sarà il doppio, poi chiudete il vassoio e contate. Nove si apre in cinque e quattro, perché quello che avanza deve andare da qualche parte.",
     "about": [
-      "Mettete dei dischi sull’anta vicina e dite quanto farà il doppio. Poi chiudete la cerniera: l’anta lontana ne riceve altrettanti, e potete contarli tutti, uno per uno.",
+      "Portate l’anta vicina a un numero e dite quanto farà il doppio. Chiudete la cerniera: l’anta lontana ne riceve altrettanti. Poi aggiungete un disco in più e aprite — ecco com’è fatto un doppio e uno in più.",
       "Due ante unite da una cerniera.",
-      "Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani."
+      "Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare e incidere, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani."
     ],
     "howToUse": [
       "Mettere un altro disco sull’anta vicina Sull’anta vicina: 6.",
@@ -143,9 +143,9 @@ module.exports = {
     "metaTitle": "Verdubbelen en halveren met fiches, groep 3 en 4",
     "metaDescription": "Zeg eerst wat het dubbele wordt en klap dan de bak dicht en tel. Negen gaat open in vijf en vier, want die ene moet ergens heen.",
     "about": [
-      "Leg schijven op de klep aan jouw kant en zeg wat het dubbele wordt. Sluit dan het scharnier: de klep aan de overkant krijgt er net zo veel bij, en je kunt ze allemaal stuk voor stuk tellen.",
+      "Zet de klep aan jouw kant op een getal en zeg wat het dubbele wordt. Sluit het scharnier: de klep aan de overkant krijgt er net zo veel bij. Leg er daarna nog één schijf bij en open het — zo ziet een dubbele en nog eentje eruit.",
       "Twee kleppen met een scharnier ertussen.",
-      "Het hele scharnier is gratis: elk tellen, het sluiten en het openen. Bij het Leerkracht-abonnement komt het papieren scharnier om uit te knippen, zodat een kind echte schijven op allebei de kleppen kan leggen en het zelf kan dichtdoen."
+      "Het hele scharnier is gratis: elk tellen, het sluiten en het openen. Bij het Leerkracht-abonnement komt het papieren scharnier om uit te knippen en aan te drukken, zodat een kind echte schijven op allebei de kleppen kan leggen en het zelf kan dichtdoen."
     ],
     "howToUse": [
       "Nog een schijf op de klep aan jouw kant leggen Op de klep aan jouw kant: 6.",
@@ -154,7 +154,7 @@ module.exports = {
     ],
     "classroomIdeas": [
       "9 gaat niet in twee gelijke kleppen. Eén schijf heeft geen maatje — aan welke klep geeft de klas hem?",
-      "9 wordt 5 en 4. De schijf zonder maatje ligt op klep 1: dit is een dubbele en nog eentje.",
+      "9 wordt 5 en 4. De schijf zonder maatje ligt op de klep 1: dit is een dubbele en nog eentje.",
       "Knip de twee kleppen uit en druk de middellijn goed aan, zodat ze dichtgaan. Leg schijven op één klep, zeg wat het dubbele wordt, doe de andere klep erover en leg er net zo veel bij. Tel ze allemaal: het scharnier maakt geen enkele schijf, dat doe jij."
     ]
   },
@@ -165,9 +165,9 @@ module.exports = {
     "metaTitle": "Dubbelt och hälften med brickor, lågstadiet",
     "metaDescription": "Säg först vad dubbelt blir och fäll sedan ihop brickan och räkna. Nio öppnas till fem och fyra, för den som blir över måste hamna någonstans.",
     "about": [
-      "Lägg skivor på den närmaste klaffen och säg vad dubbelt så många blir. Stäng sedan gångjärnet: den bortre klaffen får lika många till, och ni kan räkna varenda en.",
+      "Ställ in den närmaste klaffen på ett tal och säg vad dubbelt så många blir. Stäng gångjärnet: den bortre klaffen får lika många till. Lägg sedan dit en skiva till och öppna — så ser dubbelt och en till ut.",
       "Två klaffar med ett gångjärn emellan.",
-      "Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer."
+      "Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut och ritsa, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer."
     ],
     "howToUse": [
       "Lägg en skiva till på den närmaste klaffen På den närmaste klaffen: 6.",
@@ -176,7 +176,7 @@ module.exports = {
     ],
     "classroomIdeas": [
       "9 går inte jämnt upp på två klaffar. En skiva blir utan par — vilken klaff ska klassen ge den till?",
-      "9 blir 5 och 4. Skivan utan par ligger på klaff 1 — det är dubbelt och en till.",
+      "9 blir 5 och 4. Skivan utan par ligger på den 1 klaffen — det är dubbelt och en till.",
       "Klipp ut de två klaffarna och ritsa mittlinjen så att de går att stänga. Lägg skivor på den ena klaffen, säg vad dubbelt så många blir, fäll den andra klaffen över och lägg lika många till. Räkna alla: gångjärnet gör inte en enda skiva — det gör ni."
     ]
   },
@@ -187,9 +187,9 @@ module.exports = {
     "metaTitle": "Det dobbelte og halvdelen med brikker, indskolingen",
     "metaDescription": "Sig først, hvad det dobbelte bliver, og luk så bakken og tæl. Ni åbner sig til fem og fire, for den ene, der bliver tilovers, skal jo et sted hen.",
     "about": [
-      "Læg skiver på den nærmeste fløj og sig, hvad det dobbelte bliver. Luk så hængslet: den fjerneste fløj får lige så mange igen, og I kan tælle hver eneste en.",
+      "Sæt den nærmeste fløj til et tal, og sig hvad det dobbelte bliver. Luk hængslet: den fjerneste fløj får lige så mange igen. Læg så en skive mere på, og åbn det — sådan ser et dobbelt og en mere ud.",
       "To fløje med et hængsel imellem.",
-      "Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder."
+      "Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud og ridser, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder."
     ],
     "howToUse": [
       "Læg en skive mere på den nærmeste fløj På den nærmeste fløj: 6.",
@@ -198,7 +198,7 @@ module.exports = {
     ],
     "classroomIdeas": [
       "9 går ikke op i to lige store fløje. En skive er uden makker — hvilken fløj skal klassen give den til?",
-      "9 bliver til 5 og 4. Skiven uden makker ligger på fløj 1 — det er et dobbelt og en mere.",
+      "9 bliver til 5 og 4. Skiven uden makker ligger på den 1 fløj — det er et dobbelt og en mere.",
       "Klip de to fløje ud, og rids midterlinjen, så de kan lukkes. Læg skiver på den ene fløj, sig hvad det dobbelte bliver, klap den anden fløj henover, og læg lige så mange igen. Tæl dem alle sammen: hængslet laver ikke en eneste skive — det gør I."
     ]
   },
@@ -209,9 +209,9 @@ module.exports = {
     "metaTitle": "Det dobbelte og halvparten med brikker, småtrinnet",
     "metaDescription": "Si først hva det dobbelte blir, og lukk så brettet og tell. Ni åpner seg til fem og fire, for den ene som blir til overs må jo et sted.",
     "about": [
-      "Legg skiver på den nærmeste klaffen og si hva det dobbelte blir. Lukk så hengslet: den borterste klaffen får like mange til, og dere kan telle hver eneste en.",
+      "Still den nærmeste klaffen på et tall, og si hva det dobbelte blir. Lukk hengslet: den borterste klaffen får like mange til. Legg så på en skive til og åpne — slik ser et dobbelt og en til ut.",
       "To klaffer med et hengsel imellom.",
-      "Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender."
+      "Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut og risser opp, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender."
     ],
     "howToUse": [
       "Legg en skive til på den nærmeste klaffen På den nærmeste klaffen: 6.",
@@ -220,7 +220,7 @@ module.exports = {
     ],
     "classroomIdeas": [
       "9 går ikke opp i to like klaffer. En skive er uten make — hvilken klaff skal klassen gi den til?",
-      "9 blir 5 og 4. Skiven uten make ligger på klaff 1 — det er et dobbelt og en til.",
+      "9 blir 5 og 4. Skiven uten make ligger på den 1 klaffen — det er et dobbelt og en til.",
       "Klipp ut de to klaffene og riss opp midtlinjen, så de lar seg lukke. Legg skiver på den ene klaffen, si hva det dobbelte blir, legg den andre klaffen over og legg like mange til. Tell dem alle: hengslet lager ikke en eneste skive — det gjør dere."
     ]
   },
@@ -231,9 +231,9 @@ module.exports = {
     "metaTitle": "Kaksinkertaistaminen ja puolittaminen nappuloilla, alkuopetus",
     "metaDescription": "Sanokaa ensin, mikä on kaksinkertainen määrä, ja sulkekaa sitten alusta ja laskekaa. Yhdeksän avautuu viideksi ja neljäksi, koska ylimääräisen on mentävä jonnekin.",
     "about": [
-      "Asettakaa kiekkoja lähemmälle siivelle ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sitten sarana: kauempi siipi saa yhtä monta lisää, ja jokaisen voi laskea yksitellen.",
+      "Asettakaa lähemmälle siivelle jokin määrä ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sarana: kauempi siipi saa yhtä monta lisää. Lisätkää sitten yksi kiekko ja avatkaa — noin näyttää kaksinkertainen määrä ja yksi lisää.",
       "Kaksi siipeä ja niiden välissä sarana.",
-      "Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin."
+      "Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti ja uurratte, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin."
     ],
     "howToUse": [
       "Aseta vielä yksi kiekko lähemmälle siivelle Lähemmällä siivellä: 6.",
@@ -242,7 +242,7 @@ module.exports = {
     ],
     "classroomIdeas": [
       "9 ei jakaudu kahdelle yhtä suurelle siivelle. Yksi kiekko jäi ilman paria — kummalle siivelle luokka antaa sen?",
-      "9 jakautuu näin: 5 ja 4. Ilman paria jäänyt kiekko on siivellä 1 — se on kaksinkertainen määrä ja yksi lisää.",
+      "9 jakautuu näin: 5 ja 4. Ilman paria jäänyt kiekko on 1 siivellä — se on kaksinkertainen määrä ja yksi lisää.",
       "Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette."
     ]
   }

@@ -1409,25 +1409,25 @@
     ]
   },
   "doubling-mirror": {
-    "name": "The Doubling Mirror",
+    "name": "Gångjärnet",
     "slug": "dubbelt-och-halften-med-brickor-lagstadiet",
     "tagline": "Fäll ihop gångjärnet och den andra halvan får lika många RIKTIGA brickor — alla går att ta i.",
     "metaTitle": "Dubbelt och hälften med brickor, lågstadiet",
     "metaDescription": "Säg först vad dubbelt blir och fäll sedan ihop brickan och räkna. Nio öppnas till fem och fyra, för den som blir över måste hamna någonstans.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Ställ in den närmaste klaffen på ett tal och säg vad dubbelt så många blir. Stäng gångjärnet: den bortre klaffen får lika många till. Lägg sedan dit en skiva till och öppna — så ser dubbelt och en till ut.",
+      "Två klaffar med ett gångjärn emellan.",
+      "Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut och ritsa, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Lägg en skiva till på den närmaste klaffen På den närmaste klaffen: 6.",
+      "Stäng gångjärnet 6 och 6 på klaffarna. 12 tillsammans.",
+      "Öppna gångjärnet 12 blir 6 och 6 igen."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 går inte jämnt upp på två klaffar. En skiva blir utan par — vilken klaff ska klassen ge den till?",
+      "9 blir 5 och 4. Skivan utan par ligger på den 1 klaffen — det är dubbelt och en till.",
+      "Klipp ut de två klaffarna och ritsa mittlinjen så att de går att stänga. Lägg skivor på den ena klaffen, säg vad dubbelt så många blir, fäll den andra klaffen över och lägg lika många till. Räkna alla: gångjärnet gör inte en enda skiva — det gör ni."
     ]
   },
   "labels": {

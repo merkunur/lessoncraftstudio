@@ -129,7 +129,12 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
   /* ⚠ and the teeter must be a LOOP in the drawing, not a timeout —
      a wobble that ended by itself would mean the machine decided */
   const src = fs.readFileSync(SRC, 'utf8').replace(/\r\n/g, '\n');
-  ok(/is-teeter\{animation:[^}]*infinite/.test(src),
+  /* ⚠ TEST THE PROPERTY, NOT THE RULE'S DECLARATION ORDER. Written first
+     as `is-teeter{animation:`, it condemned a correct tool the moment a
+     transform-origin was added ahead of the animation — the assertion was
+     really about the order of declarations, which is not what it claims
+     to check and not what matters. */
+  ok(/is-teeter\{[^}]*animation:[^};]*infinite/.test(src),
     'L2 ⚠⚠ the teeter is not an infinite animation — it resolves itself, which is the one thing forbidden');
   ok(!/setTimeout\([^)]*T_TEETER/.test(src), 'L2 ⚠⚠ the teeter is on a timeout');
 }
@@ -211,6 +216,47 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
   ok(refusedPhase > 0, 'L4 non-vacuity: no phase refusal exercised');
 }
 
+/* ================================================================== */
+/* @@ L4b - THE STORED ANSWER MUST AGREE WITH THE LAW THAT PRODUCED IT.
+   This is the assertion the first version of this gate did not have. It
+   interrogated settleOf - the law - and never the stored `rest`, so
+   oracle and subject were the SAME EXPRESSION and could not disagree.
+   An art panel swept the space by hand and found 4 contradictions in 132
+   states: tilt -1 sitting beside a stone resting in the HIGH dip,
+   reachable in two presses. Exactly #51's defect in a new dress.
+   Every reachable state is swept here, and the count is reported. */
+{
+  let seen = 0, bad = 0, settledSeen = 0;
+  ['tens', 'hundreds'].forEach(function (span) {
+    const base = T.newState(span);
+    for (let v = base.lo; v <= base.hi; v++) {
+      [-1, 0, 1].forEach(function (t0) {
+        [-1, 0, 1].forEach(function (t1) {
+          let st = T.again(base, v);
+          if (!st) return;
+          if (t0 !== 0) { const x = T.setTilt(st, t0); if (x) st = x; }
+          const r = T.release(st); if (r) st = r;
+          if (t1 !== st.tilt) { const y = T.setTilt(st, t1); if (y) st = y; }
+          seen++;
+          if (st.phase === 'settled') {
+            settledSeen++;
+            if (st.rest !== T.settleOf(st, st.at)) {
+              bad++;
+              if (bad <= 3) fails.push('L4b @@ stored rest ' + st.rest + ' contradicts the law ('
+                + T.settleOf(st, st.at) + ') at ' + st.at + ' with tilt ' + st.tilt);
+            }
+          } else {
+            ok(st.rest === null, 'L4b a stone that is not settled has a resting dip');
+          }
+        });
+      });
+    }
+  });
+  ok(seen >= 1000, 'L4b non-vacuity: only ' + seen + ' states swept');
+  ok(settledSeen > 0, 'L4b non-vacuity: no settled state was ever reached');
+  eq(bad, 0, 'L4b @@ contradictions between the stored answer and the law');
+}
+
 /* L5 — every named constant reaches a call site */
 {
   const src = fs.readFileSync(SRC, 'utf8').replace(/\r\n/g, '\n');
@@ -221,6 +267,46 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
     const uses = (body.match(new RegExp('GEO\\.' + k + '\\b', 'g')) || []).length;
     ok(uses >= 1, 'L5 ⚠ GEO.' + k + ' is DEAD — declared, documented and never read');
   });
+}
+
+/* @@ L5b - THE TWO FIXES THE ART PANEL BOUGHT MUST STAY BOUGHT.
+   Both of these mutations SURVIVED the first version of this gate. A
+   fix with no law behind it is a fix with a half-life. */
+{
+  /* ⚠ split/join, not a regex literal: a `\r\n` written through a
+     generator collapses to a REAL newline and breaks the pattern it sits
+     in — the recorded escape trap, walked into again. */
+  const src = fs.readFileSync(SRC, 'utf8').split(String.fromCharCode(13, 10)).join('\n');
+  /* (a) the teeter duration must be reachable by _dur(). Baked into the
+     stylesheet at injectCSS() it was the ONE motion path deaf to reduced
+     motion, and it is the path the whole lesson lives in. */
+  ok(/animation:rnh-teeter var\(--rnh-teet\)/.test(src),
+    'L5b @@ the teeter duration is hard-coded in the stylesheet - _dur() cannot reach it');
+  ok(/setProperty\('--rnh-teet', this\._dur\(GEO\.T_TEETER\)/.test(src),
+    'L5b @@ the teeter duration is not being set from _dur()');
+  /* (b) the ground and the stone must come from ONE expression. They
+     were `250 - h*190` and `h*63% + 6px` - two expressions, a fixed px
+     inside a percentage layout, and 63 against the true 63.33 agreeing
+     by coincidence. It shipped the stone buried to 61% of its diameter. */
+  ok(/groundY: function/.test(src) && /groundUp: function/.test(src),
+    'L5b the shared ground expression is gone');
+  ok(/this\.groundY\(s, v\)/.test(src), 'L5b the path no longer samples the shared expression');
+  ok(/this\.groundUp\(s, shown\)/.test(src), 'L5b @@ the stone is no longer placed on the shared ground line');
+  ok(!/heightAt\(s, shown\) \* 63/.test(src), 'L5b the old second expression is back');
+  /* and the two must agree numerically at every sampled point */
+  let checked = 0;
+  ['tens', 'hundreds'].forEach(function (span) {
+    const st = T.newState(span);
+    for (let v = st.lo; v <= st.hi; v++) {
+      const y = T.groundY(st, v), up = T.groundUp(st, v);
+      ok(Math.abs((G.VB_H - y) / G.VB_H - up) < 1e-9, 'L5b groundY and groundUp disagree at ' + v);
+      ok(up >= 0 && up <= 1, 'L5b the ground line left the arena at ' + v);
+      checked++;
+    }
+  });
+  ok(checked >= 110, 'L5b non-vacuity: only ' + checked + ' points compared');
+  eq(T.groundY(T.newState('tens'), 40), G.G_BASE, 'L5b a dip is not at the base line');
+  eq(T.groundY(T.newState('tens'), 45), G.G_BASE - G.G_RISE, 'L5b the ridge is not at the top line');
 }
 
 /* L6 — strings are per-locale objects and no part is named after

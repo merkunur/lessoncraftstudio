@@ -36,7 +36,7 @@ const srv = http.createServer((rq, rs) => {
    renderer|s convention (#44 shipped a mirrored profile that way), so
    this asks where each drawn thing actually IS relative to the ground. */
 const READ = () => {
-  const ar = document.querySelector(".rnh-arena"); if (!ar) return null;
+  const ar = document.querySelector(".rnh-field") || document.querySelector(".rnh-arena"); if (!ar) return null;
   const ab = ar.getBoundingClientRect();
   const fx = el => el ? +(((el.getBoundingClientRect().left + el.getBoundingClientRect().width/2) - ab.left)/ab.width).toFixed(3) : null;
   const st = document.querySelector(".rnh-stone");
@@ -86,6 +86,8 @@ const READ = () => {
     if (!near(settled.stoneX, 1, 0.03)) fails.push(c.w + ": ⭐ 47 did not run to the high dip — it is at " + settled.stoneX);
     if (!settled.rest) fails.push(c.w + ": the settled stone is not drawn at rest");
     if (settled.teeter) fails.push(c.w + ": a stone on a slope is teetering");
+    const cardFit = await p.evaluate(() => { const c=document.querySelector(".rnh-card").getBoundingClientRect(), s=document.querySelector(".rnh-stone").getBoundingClientRect(); return s.left >= c.left - 0.5 && s.right <= c.right + 0.5; });
+    if (!cardFit) fails.push(c.w + ": ⚠ the settled stone hangs outside the CARD");
     if (settled.stoneBottom > 0.35) fails.push(c.w + ": the settled stone is not down in the dip (" + settled.stoneBottom + ")");
     await p.screenshot({ path: path.join(OUT, "settled-" + c.w + ".png") });
 
@@ -109,7 +111,11 @@ const READ = () => {
 
     /* the class settles the ridge: it leans, and the stone goes */
     await p.evaluate(() => document.querySelector(".rnh-b-tu").click());
-    await new Promise(r => setTimeout(r, 900));
+    /* @@ PAST THE BEAT AND THE SETTLE. The ridge leans first and the stone
+       follows T_BEAT (700ms) later, then takes T_SETTLE (620ms) to fall -
+       so a 900ms sample catches the stone still on the ridge and reports a
+       correct tool as broken. */
+    await new Promise(r => setTimeout(r, 1800));
     const tilted = await p.evaluate(READ);
     checks++;
     if (!tilted.ridgeSet) fails.push(c.w + ": ⭐ the ridge does not show that the class settled it");

@@ -1,0 +1,1047 @@
+/* =====================================================================
+   TOOL #49 — THE NUMBER HOTEL   (number-hotel.js)
+   ---------------------------------------------------------------------
+   Free-play teacher instrument (no `tasks` — the shell renders zero
+   activity chrome). v5 catalog entry #5, one of that batch's three
+   named heroes. PREV = 'counting-cups'.
+
+   THE CORRIDOR · THE ELEVATOR · THE STAIRS. Three named parts, and
+   nothing else in this tool gets a noun. (A room is what a corridor is
+   made of, not a fourth part.)
+
+   ⚠⚠ THE INTERACTION PANEL FOUND A BUG IN THE MODEL AS FIRST WRITTEN,
+   AND FIXING IT PRODUCED THE BEST THING IN THE TOOL.
+       49 --elevator--> 59.  NOT 50.
+   The elevator preserves the door position, so it CANNOT be the escape
+   from the dead end: escaping the dead end is exactly the move that
+   changes the ones digit (9->0) AND the tens digit together, while the
+   elevator's whole job is to leave the ones alone. The first draft
+   welded two different moves onto one part. The catalog said
+   "stairwell" and this build read it as the lift.
+   ⭐ THE STAIRS EXIST ONLY AT A CORRIDOR'S END, AND THEY GO UP *AND ALL
+   THE WAY BACK* TO DOOR 0. That across-leg is the longest single motion
+   in the tool and traverses the whole width of the hotel — AND THAT LEG
+   IS THE CARRY. A child watching 49 -> 50 sees that one step of
+   counting costs a journey back to the start of a new corridor, which
+   is precisely what 9 -> 0 costs.
+   So +1 is ALWAYS room+1 — but sometimes it is a walk and sometimes it
+   is a climb, and WHICH ONE depends on where you are standing. That is
+   the lesson, stated as a fact about the building.
+
+   THE PROMISE: the hundred chart's row break stops being a printing
+   convention and becomes a WALL — and the wall is the reason a digit
+   changes.
+
+   =====================================================================
+   ⚠⚠ THE FENCE CAME BACK THE MOST OCCUPIED IN THE PROGRAMME, AND AN
+   ADVERSARIAL SWEEP CONCLUDED "the remainder is one visual assertion,
+   not a tool". A four-person pedagogy panel then ruled DO NOT BUILD,
+   3-1. Both verdicts are on the record and both were partly right.
+   What is already owned, verified with citations:
+     - a 10-wide field of 1-100: `number-sieve.js:190` (a structural
+       refusal, not a setting) and `choral-counting.js:102`;
+     - this tool's own thesis, in prose, inside a shipped tool —
+       `number-sieve.js:676-679`: "On a ten-column field a tens digit IS
+       a row, and that geometry is the single cleanest place-value
+       demonstration in the tool";
+     - +10 as one keystroke up a row: `number-sieve.js:1633`;
+     - "ones repeat, TENS CLIMB" with Tint-the-tens shipped in eleven
+       locales, free tier: `choral-counting.js:9-11,61-62`;
+     - "a ten-jump never moves the ones" as a MACHINE-GATED invariant:
+       `jump-tens-core.js:38`;
+     - "the number after 39", shipped: `track-repair-activities.json:12`;
+     - a multi-storey building with floor slabs and a skyline:
+       `parking-tower-activity.js:4-8,166`, and `build-plan.js:77`
+       FORMALLY DECLARES it owns tower, building, skyline, floor, level;
+     - a grid of numerals that IS a building: `build-plan.js:8-9`;
+     - a building with named storeys, in eleven locales, in LITERACY:
+       `letter-studio.js:220-236` (the Danish skrivehus);
+     - and the SAME DREAD, claimed hours earlier by `counting-cups.js`.
+
+   ⭐ THE ONE THING NOTHING OWNS, and it is the join rather than either
+   half. The numbered field WRAPS SILENTLY — `number-sieve._fieldKey`
+   guards only `next < 1 || next > max`, a bound on the whole field and
+   not on a row, so ArrowRight at 10 lands on 11 with no event at all.
+   The blank mat REFUSES TO WRAP but means nothing by it —
+   `arrow-strip.js:427`: "A BLOCKED MOVE LEAVES THE POSE UNCHANGED. It
+   never bounces and it never wraps... 'It is up against the side' is a
+   state of the mat, not an error." Nobody refuses to wrap ON A NUMBERED
+   FIELD and makes the refusal the lesson. Here the wall is not the edge
+   of the apparatus. It is the reason the tens digit changes.
+
+   ⚠ A PANEL SAYING "BUILD SOMETHING ELSE" IS NOT AUTHORITY TO BUILD
+   SOMETHING ELSE. That is #47's failure in an expert's coat: there a
+   fence argument talked this build out of the commissioned gesture, a
+   differently-named tool shipped, and the operator had to correct it.
+   Redefining the deliverable is the operator's call. The concern is
+   recorded here; the tool is built.
+
+   ⭐⭐ BUT THE PANEL'S REAL OBJECTION WAS RIGHT, AND IT CHANGED THE
+   DESIGN: "there is no decision — the child taps, the token goes where
+   the rule says, fully predictable from repetition two." As pitched
+   that is true, and it would have shipped a demonstration.
+   THE REPAIR: THE ROOMS ARE ONLY NUMBERED ON THE CORRIDOR YOU ARE
+   STANDING IN. It is physically true of a hotel — you cannot read door
+   numbers from the far end of a building — and it fixes everything at
+   once:
+     - the lift lands you on a BLANK corridor, so the class must SAY the
+       room before the doors light. That is the decision, and it is
+       1.NBT.C.5 as a spoken prediction rather than a tap;
+     - the dead end becomes the child's own discovery instead of a wall
+       somebody drew: walking 47, 48, 49 — there simply IS no next door;
+     - the routine gets its silence, between "where will we be?" and the
+       doors lighting;
+     - and it cannot be mistaken for a flat colouring surface at any
+       size, because YOU CANNOT SEE THE WHOLE CHART AT ONCE.
+
+   ⚠ AND IT IS NOT `number-talk-easel`'s CURTAIN, which was read rather
+   than assumed (`number-talk-easel.js:5-20`): that is a ~3-second TIMED
+   FLASH for subitizing, hiding a QUANTITY to force structure-seeing,
+   with press-and-hold and a re-flash of an identical seed. This hides
+   the DERIVABLE, not the glanceable, and has NO flash, NO timer and NO
+   reveal clock. The blankness is structural, not staged.
+
+   ⚠ THE TOOL GRADES NOTHING. The class says the number aloud, the doors
+   light, and nobody is marked right or wrong. `jump-tens-core` owns the
+   graded +-10 and keeps it.
+
+   =====================================================================
+   ⚠⚠ THE CATALOG SPEC WAS INTERNALLY INCONSISTENT, AND FIXING IT IS THE
+   DESIGN. The pitch says "rooms 1-100" and, two sentences later, "you
+   cannot walk from 49 to 50". Those cannot both be true: with floors of
+   41-50, rooms 49 and 50 are on the SAME floor and the corridor walks
+   straight between them. The dead end does not exist in a 1-100
+   building.
+   So the hotel is ROOMS 0-99 ON TEN CORRIDORS 0-9 — and that is not a
+   patch, it is the thesis arriving:
+     THE CORRIDOR NUMBER IS THE TENS DIGIT, exactly and always. Every
+     room on corridor 4 is a forty-something. "The lift ticks the tens
+     digit as you rise" becomes literally true rather than metaphorical,
+     because the lift's indicator and the tens digit ARE THE SAME
+     NUMERAL.
+   On a 1-100 building it is false: corridor 1 would hold nine rooms
+   with tens digit 0 and one with tens digit 1, and the corridor number
+   would name nothing.
+   ⚠ NO 1-100 TOGGLE. A setting that lets a teacher put the tool into
+   the state where its own thesis is false is the recorded #46 defect
+   (the comb that had to be removed because the tray itself was the
+   control).
+   ⭐ A third argument arrived from the render side: on 0-99 the largest
+   numeral is 99 — TWO DIGITS. `folding-wall` needs textLength +
+   lengthAdjust for its single `100`; that whole condensation mechanism
+   is unnecessary here and one class of render defect cannot occur.
+
+   =====================================================================
+   ⚠ EVERY STRUCTURAL NOUN IS OWNED, SO EVERY ONE IS RENAMED. Forbidden
+   in this tool, in code and in copy: floor, building, tower, storey,
+   level, skyline (all `build-plan.js:77` / `letter-studio.js:224`),
+   grid, row, column, line, frame, cell, board, stack, shelf. The
+   vertical stack of corridors is just "the hotel"; the lift's indicator
+   names the corridor. ⚠ "lift" is a DRAG VERB in sixteen shipped tools,
+   so no aria-label may use it as a verb here — it is only ever the
+   noun, and the acts are "ride up" and "ride down".
+
+   ⚠ NOT IN v1: the second tower / hundreds skyline. It is triple-owned
+   (exchange-machine, counting-cups, place-value-lab), it is a fourth
+   named part, and it is a whole second geometry with its own viewport
+   arithmetic.
+   ⚠ NEVER: a place-value tint. `choral-counting` owns "Tint the ones /
+   Tint the tens" in eleven locales, and `number-sieve:92` independently
+   refuses it on the grounds that a clue must darken whole cells rather
+   than parts of a numeral.
+
+   =====================================================================
+   THE MEASURED ARITHMETIC.
+   M1  At a 320px viewport the arena is 296px (measured on #47/#48).
+       The shaft costs 110 of 1000 viewBox units, leaving 880 for ten
+       rooms: a pitch of 88u = 26.0px, and a numeral at 0.60 x pitch =
+       15.6px, clear of the 14px legibility floor.
+   M2  A ROOM IS THEREFORE NEVER ITS OWN TAP TARGET: 26.0px against a
+       34px canvas floor. The house answer is ONE pointer region
+       resolving to whatever is under the finger, with invisible
+       pointer-events:none buttons beneath for keyboard, AT and the
+       liveness gate, as ONE roving-tabindex group rather than a hundred
+       tab stops. ⚠ The pad layer must not eat the pointer (#46 shipped
+       an inset:0 container that made a tool undriveable by pointer
+       while every model assertion passed).
+   M3  The four ledge chips carry the movement, and THEY are the tap
+       targets, at the 44px chrome floor. The apparatus is read, not
+       poked — which is also why a hundred blank doors cost nothing.
+   ===================================================================== */
+(function () {
+  'use strict';
+
+  /* ================= geometry ========================================
+     ⚠ EXPOSED so the gate reads the real constants instead of carrying
+     its own copy of the number it is checking (#44). The LAWS are
+     re-derived in the gate; only these measurements are shared. */
+  var GEO = {
+    VB_W: 1000, VB_H: 1000,
+
+    SHAFT_X: 0, SHAFT_W: 110,      /* the lift shaft, on the left */
+    MARGIN: 10,
+    ROOMS: 10, CORRIDORS: 10,
+
+    /* a room's box, in viewBox units */
+    ROOM_W: 88,                    /* (1000 - 110 - 10) / 10 */
+    CORR_H: 98,                    /* (1000 - 20) / 10 */
+
+    DOOR_F: 0.80,                  /* door width as a fraction of ROOM_W */
+    DOOR_H: 0.78,                  /* door height as a fraction of CORR_H */
+    NUM_F: 0.60,                   /* numeral size as a fraction of ROOM_W */
+    KNOB_F: 0.055,                 /* the door handle */
+
+    /* ⭐ THE MINIMUM-FEATURE LAW: nothing smaller than 0.05 x ROOM_W.
+       At a 296px arena that is 1.3px. A hundred doors at a repeating
+       pitch will moire on a 1.25-DPR projector if any feature falls
+       under it, and a sibling tool measured that a stroke-width:1
+       hairline at this size shimmers while two filled shapes antialias
+       identically at every scale. */
+    MIN_FEATURE: 0.05,
+
+    /* the wall at the end of a corridor */
+    WALL_W: 0.16,                  /* as a fraction of ROOM_W */
+
+    /* motion, ms. ⚠ Reduced motion COMPRESSES, never skips — the
+       movement IS the lesson. */
+    T_WALK: 260,
+    T_REFUSE: 220,                 /* the walk that does not happen */
+    T_RIDE: 620,                   /* one corridor, and it TRAVELS */
+    RM_F: 0.28,
+    RM_FLOOR: 90,
+
+    SND_WALK: 660,
+    SND_RIDE: 880,
+    SND_WALL: 440,
+    SND_DEBOUNCE: 220
+  };
+
+  var ROOMS = GEO.ROOMS;              /* 10 rooms per corridor */
+  var CORRIDORS = GEO.CORRIDORS;      /* 10 corridors, numbered 0..9 */
+  var MAX_ROOM = ROOMS * CORRIDORS - 1;   /* 99 */
+
+  var NumberHotel = {
+
+    id: 'number-hotel',
+
+    /* ================= strings ======================================
+       Authored English, handed to every native panel as a SOURCE TO
+       AUDIT rather than a target. ⚠ No string may say floor, building,
+       tower, storey, level or skyline. */
+    strings: {
+      title:        { en: 'The Number Hotel' },
+      instruction:  { en: 'Every room is a number. Walking takes you one door along the corridor. The lift takes you one corridor up, and you can only read the doors on the corridor you are standing in.' },
+
+      setStart:     { en: 'Where the walker starts' },
+      startZero:    { en: 'At the very first room' },
+      startMid:     { en: 'Somewhere in the middle' },
+
+      /* ⚠⚠ THE FOUR DIRECTIONAL CHIPS ARE NEVER DISABLED, and that is a
+         ruling, not an oversight. Greying out "walk on" at room 49
+         DELETES THE LESSON: the wall has to be MET. A child who cannot
+         press the button never discovers that the corridor ends, and
+         the whole tool becomes a demonstration again. So these have no
+         *Off label — they have a REFUSAL, announced by the building. */
+      walkRight:    { en: 'Walk on to the next door' },
+      walkLeft:     { en: 'Walk back to the door before' },
+      liftUp:       { en: 'Take the elevator up one corridor' },
+      liftDown:     { en: 'Take the elevator down one corridor' },
+      /* ⚠ ENGLISH SAYS "ELEVATOR", NOT "LIFT". `lift` is a DRAG VERB in
+         sixteen shipped tools ("lift the piece", "lifted counters"), so
+         an aria-label saying "the lift" reads ambiguously against all
+         of their copy. Other locales are free to use their own ordinary
+         word — this collision is English-only. */
+
+      /* the stairs are the ONE conditional control, and even then they
+         are aria-disabled rather than disabled: focusable, and they
+         state their requirement out loud. */
+      stairsBtn:    { en: 'Take the stairs' },
+      stairsUpAt:   { en: 'Take the stairs up to the first door of the next corridor' },
+      stairsDownAt: { en: 'Take the stairs down to the last door of the corridor below' },
+      stairsOff:    { en: 'Take the stairs — there are stairs only at the two ends of a corridor, and this room is in the middle of one.' },
+
+      printBtn:     { en: 'Print the hotel sheet' },
+      printLocked:  { en: 'Print the hotel sheet — this one needs a Teacher plan.' },
+
+      roomPad:      { en: 'Room {n}, on this corridor.' },
+      roomPadDark:  { en: 'A door on another corridor. Its number cannot be read from here.' },
+      roomHere:     { en: 'Room {n}. This is where we are standing.' },
+      shaftLabel:   { en: 'The elevator. Its indicator reads {c}, and that is the corridor it is standing on.' },
+
+      saidWalk:     { en: 'Room {n}.' },
+      /* ⭐ THE REFUSAL IS THE BUILDING ANSWERING, NOT A CORRECTION. It
+         never says "no" and never says "wrong" — it states a fact about
+         the corridor, and the stairs are named as the way on. */
+      saidWallEnd:  { en: 'The corridor ends here. There is no door after room {n} — the stairs are the way on.' },
+      saidWallStart:{ en: 'The corridor starts here. There is no door before room {n} — the stairs are the way back.' },
+      saidTop:      { en: 'This is the highest corridor in the hotel.' },
+      saidBottom:   { en: 'This is the lowest corridor in the hotel.' },
+      saidRideUp:   { en: 'Going up one corridor. The doors up there cannot be read until we arrive.' },
+      saidRideDown: { en: 'Going down one corridor. The doors down there cannot be read until we arrive.' },
+      saidStairsUp: { en: 'Up the stairs and all the way back along the new corridor, to room {n}.' },
+      saidStairsDn: { en: 'Down the stairs and all the way along to the far end, to room {n}.' },
+      saidArrive:   { en: 'Room {n}.' },
+      readState:    { en: 'Corridor {c}. Room {n}. The doors on every other corridor cannot be read from here.' },
+
+      gateTitle:    { en: 'The hotel sheet' },
+      gateBody:     { en: 'A paper hotel with every door blank, so the class can write the rooms in themselves.' },
+      gateCta:      { en: 'See the Teacher plan' },
+      gateClose:    { en: 'Close' },
+
+      sheetTitle:   { en: 'Our hotel' },
+      sheetNote:    { en: 'Write the number on every door. One corridor is filled in to start you off.' }
+    },
+
+    /* ⚠ EXACTLY ONE SETTING, and it is a START STATE, not memory.
+       ⚠ THERE IS NO 1-100 TOGGLE. A setting that lets a teacher put the
+       tool into the state where its own thesis is false is the #46
+       defect. */
+    settings: [
+      { key: 'start', type: 'choice', labelKey: 'setStart', options: [
+        { value: 'zero', labelKey: 'startZero' },
+        { value: 'mid',  labelKey: 'startMid' }
+      ] }
+    ],
+    defaults: { start: 'zero' },
+
+    premium: false,
+    GEO: GEO,
+
+    /* ================= the model ====================================
+       Pure, DOM-free, finite and small: 100 rooms x 4 moves = 400
+       transitions, so the gate enumerates the whole space rather than
+       sampling it.
+
+       ⚠ WRONG STATES ARE UNREACHABLE BECAUSE THE MODEL CANNOT EXPRESS
+       THEM: `room` is a single integer in 0..99, so there is no way to
+       be in two rooms, on no corridor, or between corridors. */
+
+    /* ⚠ TOTAL. Must survive null, 0, NaN, a string and an array.
+       #39 shipped `st || newState()`, which passes 0 and hands [] to
+       .length. */
+    _st: function (st) {
+      var o = (st && typeof st === 'object' && !Array.isArray(st)) ? st : {};
+      var room = (typeof o.room === 'number' && isFinite(o.room)) ? Math.floor(o.room) : 0;
+      if (room < 0) room = 0;
+      if (room > MAX_ROOM) room = MAX_ROOM;
+      var visited = Array.isArray(o.visited) ? o.visited : [];
+      return { room: room, visited: visited };
+    },
+
+    /* ⭐ THE CORRIDOR NUMBER IS THE TENS DIGIT. Not "corresponds to" —
+       IS. This one line is the whole tool's claim, and the gate proves
+       it for all 100 rooms against its own independently derived
+       arithmetic. */
+    corridorOf: function (room) { return Math.floor(this._st({ room: room }).room / ROOMS); },
+    doorOf:     function (room) { return this._st({ room: room }).room % ROOMS; },
+
+    /* ---- what each move is allowed to do -----------------------------
+       ⚠ THE REFUSALS ARE THE TOOL. A blocked move leaves the state
+       IDENTICAL — it never bounces, never wraps, and never nudges.
+       Wrapping is what every other numbered field does silently, and it
+       is precisely the thing this tool exists to refuse:
+       `arrow-strip.js:427` — "a beetle does not leave one edge and
+       appear at the other". */
+    canWalkRight: function (st) { return this.doorOf(this._st(st).room) < ROOMS - 1; },
+    canWalkLeft:  function (st) { return this.doorOf(this._st(st).room) > 0; },
+    canRideUp:    function (st) { return this.corridorOf(this._st(st).room) < CORRIDORS - 1; },
+    canRideDown:  function (st) { return this.corridorOf(this._st(st).room) > 0; },
+
+    /* ⭐ THE STAIRS: the ONLY move that changes both digits at once, and
+       the only one that exists at just two places on a corridor.
+       At the last door they climb to the FIRST door of the next
+       corridor; at the first door they descend to the LAST door of the
+       one below. Everywhere else there are no stairs to take. */
+    canStairs: function (st) {
+      st = this._st(st);
+      var d = this.doorOf(st.room), c = this.corridorOf(st.room);
+      if (d === ROOMS - 1) return c < CORRIDORS - 1;
+      if (d === 0) return c > 0;
+      return false;
+    },
+
+    /* ⚠ EVERY MUTATOR RETURNS null ON REFUSAL, NEVER A CLAMP. */
+    walkRight: function (st) {
+      st = this._st(st);
+      if (!this.canWalkRight(st)) return null;
+      return { st: this._go(st, st.room + 1), kind: 'walk' };
+    },
+    walkLeft: function (st) {
+      st = this._st(st);
+      if (!this.canWalkLeft(st)) return null;
+      return { st: this._go(st, st.room - 1), kind: 'walk' };
+    },
+    rideUp: function (st) {
+      st = this._st(st);
+      if (!this.canRideUp(st)) return null;
+      return { st: this._go(st, st.room + ROOMS), kind: 'ride' };
+    },
+    rideDown: function (st) {
+      st = this._st(st);
+      if (!this.canRideDown(st)) return null;
+      return { st: this._go(st, st.room - ROOMS), kind: 'ride' };
+    },
+    stairs: function (st) {
+      st = this._st(st);
+      if (!this.canStairs(st)) return null;
+      var d = this.doorOf(st.room);
+      var to = (d === ROOMS - 1) ? st.room + 1 : st.room - 1;
+      return { st: this._go(st, to), kind: 'stairs', up: d === ROOMS - 1 };
+    },
+
+    _go: function (st, room) {
+      var v = st.visited.slice();
+      v[room] = true;
+      return { room: room, visited: v };
+    },
+
+    /* ⭐ THE READABILITY RULE, and it is the whole repair to "there is
+       no decision": A DOOR'S NUMBER IS READABLE ONLY FROM ITS OWN
+       CORRIDOR. The lift therefore lands the class somewhere they must
+       NAME before they can read it. */
+    canRead: function (st, room) {
+      st = this._st(st);
+      return this.corridorOf(room) === this.corridorOf(st.room);
+    },
+
+    newState: function (start) {
+      var room = 0;
+      if (start === 'mid') room = 44;
+      var v = [];
+      v[room] = true;
+      return { room: room, visited: v };
+    },
+
+    /* ================= lifecycle ===================================== */
+
+    init: function (api) {
+      this.api = api;
+      document.body.classList.add('nhl-wide');
+      /* ⚠⚠ THE SCROLL ESCAPE. The shell pins overflow:hidden on BOTH
+         html and body (`lcs-shell.css:54`), so on a standalone phone
+         there is no iframe to grow into and scrollY is stuck at 0 —
+         #47 measured a control row beginning at y=558 in a 568px window
+         and PHYSICALLY UNREACHABLE.
+         ⚠ TWO RULES. `html,body.x{...}` is a selector LIST whose html
+         half applies unconditionally, which makes the class decorative
+         and its mutation unkillable (#22's trap). */
+      document.documentElement.classList.add('nhl-scroll');
+      document.body.classList.add('nhl-scroll');
+
+      this._anim = null;
+      this._lastSound = 0;
+      this._reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+      this.st = this.newState(api.settings.start);
+      this._checkEntitlement();
+      this._bindPrint();
+    },
+
+    /* ⚠ reset() MUST EXIST or the shell's button is dead on every path
+       (#43). It survives embed and embed=compact. */
+    reset: function () {
+      this._anim = null;
+      this.st = this.newState(this.api.settings.start);
+      this.render();
+    },
+
+    onSettings: function () { this.reset(); },
+
+    _dur: function (ms) {
+      if (!this._reduced) return ms;
+      return Math.max(GEO.RM_FLOOR, Math.round(ms * GEO.RM_F));
+    },
+
+    _snd: function (freq) {
+      var now = Date.now();
+      if (now - this._lastSound < GEO.SND_DEBOUNCE) return;
+      this._lastSound = now;
+      if (this.api && this.api.sound) this.api.sound(freq);
+    },
+
+    _fmt: function (s, vals) {
+      return String(s).replace(/\{(\w+)\}/g, function (m, k) {
+        return (vals && vals[k] != null) ? String(vals[k]) : m;
+      });
+    },
+
+    render: function () { this._build(); this._paint(); },
+
+    /* ---- geometry helpers, shared by the screen AND the print sheet
+       so there is never a second copy of the arithmetic -------------- */
+    roomX: function (door) { return GEO.SHAFT_W + door * GEO.ROOM_W; },
+    /* ⭐ corridor 0 is at the BOTTOM. A building requires it and a chart
+       does not — which is exactly the difference this tool is making. */
+    corrY: function (corr) { return GEO.MARGIN + (CORRIDORS - 1 - corr) * GEO.CORR_H; },
+
+    _svg: function (tag, attrs) {
+      var n = document.createElementNS('http://www.w3.org/2000/svg', tag);
+      if (attrs) for (var k in attrs) if (attrs.hasOwnProperty(k)) n.setAttribute(k, attrs[k]);
+      return n;
+    },
+
+    /* ================= DOM ========================================== */
+    _build: function () {
+      var api = this.api, self = this;
+      if (this._wrap && this._wrap.parentNode) return;
+
+      var wrap = api.el('div', 'nhl-wrap');
+      this._wrap = wrap;
+      var card = api.el('div', 'nhl-card');
+      var arena = api.el('div', 'nhl-arena');
+      this._arena = arena;
+
+      var svg = this._svg('svg', {
+        viewBox: '0 0 ' + GEO.VB_W + ' ' + GEO.VB_H, class: 'nhl-svg', role: 'img'
+      });
+      this._svgRoot = svg;
+      arena.appendChild(svg);
+
+      var pads = api.el('div', 'nhl-pads');
+      this._pads = pads;
+      arena.appendChild(pads);
+      card.appendChild(arena);
+
+      var ledge = api.el('div', 'nhl-ledge');
+      this._btnLeft  = this._chip(ledge, 'nhl-b-left',  this._gArrow('left'),  function () { self._do('walkLeft'); });
+      this._btnRight = this._chip(ledge, 'nhl-b-right', this._gArrow('right'), function () { self._do('walkRight'); });
+      this._btnStair = this._chip(ledge, 'nhl-b-stair', this._gStairs(),       function () { self._do('stairs'); });
+      this._btnUp    = this._chip(ledge, 'nhl-b-up',    this._gLift('up'),     function () { self._do('rideUp'); });
+      this._btnDown  = this._chip(ledge, 'nhl-b-down',  this._gLift('down'),   function () { self._do('rideDown'); });
+      this._btnPrint = this._chip(ledge, 'nhl-b-print', this._gPrint(), function () {
+        if (!self.premium) { self._showGate(); return; }
+        self._buildSheet(); window.print();
+      });
+      card.appendChild(ledge);
+      wrap.appendChild(card);
+      api.stage.appendChild(wrap);
+
+      /* ⚠ THE SHEET IS A SIBLING OF THE WRAP, NEVER A CHILD — the print
+         block sets `.nhl-wrap{display:none}` and a hidden parent kills
+         the whole subtree, so a sheet built inside it measures 0mm on
+         paper while every assertion stays green (#40, #41, #46, #47). */
+      this._sheet = api.el('div', 'nhl-sheet');
+      api.stage.appendChild(this._sheet);
+
+      this._bindKeys();
+    },
+
+    _chip: function (parent, cls, glyph, fn) {
+      var b = this.api.el('button', 'nhl-btn ' + cls);
+      b.type = 'button';
+      b.innerHTML = glyph;
+      /* ⚠ A SYNTHETIC .click() NEVER FIRES pointerdown, and the shared
+         liveness gate drives controls that way — #41 scored DEAD on all
+         nine paths because its only handler was a pointer one. */
+      b.addEventListener('click', fn);
+      parent.appendChild(b);
+      return b;
+    },
+
+    /* ⚠ NO OPERATOR GLYPH ANYWHERE, INCLUDING ONE DRAWN BY CODE (#46
+       shipped a literal "+" into eleven locales because the stepper
+       DREW it, surviving every string ban). These are arrows, a stair
+       profile and a car. */
+    _gArrow: function (dir) {
+      var d = dir === 'left' ? 'M15 5 L8 12 L15 19' : 'M9 5 L16 12 L9 19';
+      return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="' + d
+        + '" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    },
+    _gLift: function (dir) {
+      var a = dir === 'up' ? 'M12 18 V6 M7 11 L12 6 L17 11' : 'M12 6 V18 M7 13 L12 18 L17 13';
+      return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+        + '<rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>'
+        + '<path d="' + a + '" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    },
+    _gStairs: function () {
+      return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+        + '<path d="M3 20 h5 v-4 h5 v-4 h5 v-4 h3" fill="none" stroke="currentColor" '
+        + 'stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+    },
+    _gPrint: function () {
+      return '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+        + '<path d="M7 9V4h10v5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>'
+        + '<rect x="4" y="9" width="16" height="7" rx="1.6" fill="none" stroke="currentColor" stroke-width="2.2"/>'
+        + '<rect x="7" y="15" width="10" height="5" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>';
+    },
+
+    /* ================= paint ======================================== */
+    _paint: function () {
+      var svg = this._svgRoot;
+      if (!svg) return;
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      var st = this.st, api = this.api;
+      var here = this.corridorOf(st.room);
+      var anim = this._anim;
+
+      /* the hotel's own body */
+      svg.appendChild(this._svg('rect', {
+        x: 0, y: 0, width: GEO.VB_W, height: GEO.VB_H, rx: 14, class: 'nhl-body'
+      }));
+
+      this._paintShaft(svg, st, here, anim);
+      this._paintCorridors(svg, st, here, anim);
+
+      svg.setAttribute('aria-label', this._fmt(api.t('readState'), { c: here, n: st.room }));
+      this._syncChips();
+      this._syncPads(st, here);
+    },
+
+    _paintShaft: function (svg, st, here, anim) {
+      var g = this._svg('g', { class: 'nhl-shaft' });
+      g.appendChild(this._svg('rect', {
+        x: GEO.SHAFT_X, y: 0, width: GEO.SHAFT_W, height: GEO.VB_H, class: 'nhl-shaft-bed'
+      }));
+      /* the car, on the corridor it serves */
+      var carC = here;
+      if (anim && anim.kind === 'ride') carC = anim.from + (anim.to - anim.from) * anim.t;
+      var cy = this.corrY(carC) + GEO.CORR_H * 0.5;
+      var ch = GEO.CORR_H * 0.72, cw = GEO.SHAFT_W * 0.62;
+      g.appendChild(this._svg('rect', {
+        x: GEO.SHAFT_W * 0.19, y: cy - ch / 2, width: cw, height: ch,
+        rx: 6, class: 'nhl-car'
+      }));
+      /* ⭐ THE INDICATOR IS THE TENS DIGIT. Not "shows" it — IS it. It
+         is drawn in the same ink and the same weight as a room numeral,
+         because they are the same numeral.
+         ⚠ NO PLACE-VALUE TINT — `choral-counting` owns "Tint the tens"
+         in eleven locales and `number-sieve:92` independently refuses
+         the same thing. */
+      var ind = this._svg('text', {
+        x: GEO.SHAFT_W * 0.5, y: cy, 'text-anchor': 'middle',
+        'dominant-baseline': 'central', class: 'nhl-ind',
+        'font-size': GEO.ROOM_W * GEO.NUM_F
+      });
+      ind.appendChild(document.createTextNode(String(Math.round(carC))));
+      g.appendChild(ind);
+      svg.appendChild(g);
+    },
+
+    _paintCorridors: function (svg, st, here, anim) {
+      var g = this._svg('g', { class: 'nhl-corrs' });
+      var c, d, i;
+      for (c = 0; c < CORRIDORS; c++) {
+        var y = this.corrY(c);
+        var lit = (c === here);
+        /* the corridor's own floor line */
+        g.appendChild(this._svg('rect', {
+          x: GEO.SHAFT_W, y: y, width: GEO.ROOM_W * ROOMS, height: GEO.CORR_H,
+          class: 'nhl-corr' + (lit ? ' is-here' : '')
+        }));
+
+        /* ⭐⭐ THE END WALLS. Visible AT REST at 40% opacity, so the
+           explanation is on screen BEFORE a child ever presses into
+           them — the refusal then confirms something already seen
+           rather than springing a surprise. */
+        var wpx = GEO.ROOM_W * GEO.WALL_W;
+        g.appendChild(this._svg('rect', {
+          x: GEO.SHAFT_W - wpx * 0.5, y: y, width: wpx, height: GEO.CORR_H,
+          class: 'nhl-wall' + (lit ? ' is-here' : '')
+            + (lit && anim && anim.kind === 'refuse' && anim.side === 'left' ? ' is-lit' : '')
+        }));
+        g.appendChild(this._svg('rect', {
+          x: GEO.SHAFT_W + GEO.ROOM_W * ROOMS - wpx * 0.5, y: y, width: wpx, height: GEO.CORR_H,
+          class: 'nhl-wall' + (lit ? ' is-here' : '')
+            + (lit && anim && anim.kind === 'refuse' && anim.side === 'right' ? ' is-lit' : '')
+        }));
+
+        for (d = 0; d < ROOMS; d++) {
+          var room = c * ROOMS + d;
+          var x = this.roomX(d);
+          var dw = GEO.ROOM_W * GEO.DOOR_F, dh = GEO.CORR_H * GEO.DOOR_H;
+          var dx = x + (GEO.ROOM_W - dw) / 2, dy = y + (GEO.CORR_H - dh) / 2;
+          var isHere = (room === st.room);
+          g.appendChild(this._svg('rect', {
+            x: dx, y: dy, width: dw, height: dh, rx: 4,
+            class: 'nhl-door' + (lit ? ' is-lit' : '') + (isHere ? ' is-here' : '')
+              + (st.visited[room] && !lit ? ' is-seen' : '')
+          }));
+          /* the handle — the one thing that makes a rectangle a door */
+          g.appendChild(this._svg('circle', {
+            cx: dx + dw * 0.84, cy: dy + dh * 0.5, r: GEO.ROOM_W * GEO.KNOB_F,
+            class: 'nhl-knob' + (lit ? ' is-lit' : '')
+          }));
+
+          /* ⭐⭐ THE READABILITY RULE, RENDERED: a numeral exists ONLY on
+             the corridor we are standing on. This is the decision the
+             pedagogy panel said the tool lacked — the elevator lands the
+             class somewhere they must NAME before they can read it. */
+          if (lit) {
+            var t = this._svg('text', {
+              x: dx + dw * 0.44, y: dy + dh * 0.5, 'text-anchor': 'middle',
+              'dominant-baseline': 'central',
+              class: 'nhl-num' + (isHere ? ' is-here' : ''),
+              'font-size': GEO.ROOM_W * GEO.NUM_F
+            });
+            t.appendChild(document.createTextNode(String(room)));
+            g.appendChild(t);
+          }
+        }
+      }
+      svg.appendChild(g);
+    },
+
+    /* ================= motion =======================================
+       ⭐ ONE INTERPOLATOR, one rAF loop, one `t`. A completion callback
+       would show cause between two objects instead of one object
+       changing.
+       ⭐ THE STAIRS AND THE ELEVATOR TAKE THE SAME TIME TO WITHIN 20ms,
+       and that is deliberate: the difference between the two moves is
+       THE SHAPE OF THE PATH, never the cost. A first draft had the
+       stairs slower, which would have taught that +1 is more work than
+       +10. */
+    _run: function (spec, done) {
+      var self = this, t0 = null, total = spec.total;
+      this._anim = spec;
+      spec.t = 0;
+      function frame(ts) {
+        if (t0 === null) t0 = ts;
+        var el = ts - t0;
+        spec.t = Math.min(1, el / total);
+        self._paint();
+        if (el < total) window.requestAnimationFrame(frame);
+        else { self._anim = null; if (done) done(); self._paint(); }
+      }
+      window.requestAnimationFrame(frame);
+    },
+
+    /* ================= acts ========================================= */
+    _do: function (move) {
+      if (this._anim) return;
+      var api = this.api, self = this, st = this.st;
+      var res = this[move] ? this[move](st) : null;
+
+      if (!res) { this._refuse(move); return; }
+
+      if (res.kind === 'ride') {
+        var from = this.corridorOf(st.room), to = this.corridorOf(res.st.room);
+        this._snd(GEO.SND_RIDE);
+        api.announce(api.t(to > from ? 'saidRideUp' : 'saidRideDown'));
+        this._run({ kind: 'ride', from: from, to: to, total: this._dur(GEO.T_RIDE) }, function () {
+          self.st = res.st;
+          api.announce(self._fmt(api.t('saidArrive'), { n: res.st.room }));
+          self._paint();
+        });
+        return;
+      }
+
+      if (res.kind === 'stairs') {
+        this._snd(GEO.SND_RIDE);
+        this._run({ kind: 'stairs', total: this._dur(GEO.T_RIDE) }, function () {
+          self.st = res.st;
+          api.announce(self._fmt(api.t(res.up ? 'saidStairsUp' : 'saidStairsDn'), { n: res.st.room }));
+          self._paint();
+        });
+        return;
+      }
+
+      /* ⚠ T_WALK USED TO BE DECLARED AND NEVER READ. The art panel found
+         that `exchange-machine.js:197-203` ships FIVE motion constants
+         that no call site reaches — a ceremony documented and never
+         implemented, made to look shipped by the named-constants
+         convention. This file had three of its own, and a gate now
+         proves every one reaches a call site (verify L11). */
+      this._snd(GEO.SND_WALK);
+      var from = st.room;
+      this._run({ kind: 'walk', from: from, to: res.st.room, total: this._dur(GEO.T_WALK) }, function () {
+        self.st = res.st;
+        api.announce(self._fmt(api.t('saidWalk'), { n: res.st.room }));
+        self._paint();
+      });
+    },
+
+    /* ⭐⭐ THE BUILDING ANSWERS, NOT THE TRAVELLER. The guest does not
+       move at all: the end wall of the corridor lights, holds and
+       fades. NO BOUNCE and NO RECOIL — those are bounces in costume,
+       and `arrow-strip.js:427` is explicit that a blocked move leaves
+       the pose unchanged, because "it is up against the side" is a
+       state of the mat, not an error.
+       ⚠ And the announcement never says "no" or "wrong". It states a
+       fact about the corridor and names the stairs as the way on. */
+    _refuse: function (move) {
+      var api = this.api, self = this, st = this.st;
+      var n = st.room, msg, side = null;
+      if (move === 'walkRight') { side = 'right'; msg = this._fmt(api.t('saidWallEnd'), { n: n }); }
+      else if (move === 'walkLeft') { side = 'left'; msg = this._fmt(api.t('saidWallStart'), { n: n }); }
+      else if (move === 'rideUp') { msg = api.t('saidTop'); }
+      else if (move === 'rideDown') { msg = api.t('saidBottom'); }
+      else { msg = api.t('stairsOff'); }
+      this._snd(GEO.SND_WALL);
+      api.announce(msg);
+      if (!side) { return; }
+      this._run({ kind: 'refuse', side: side, total: this._dur(GEO.T_REFUSE) });
+    },
+
+    /* ================= chips ======================================== */
+    _syncChips: function () {
+      var api = this.api, st = this.st;
+      /* ⚠ THE FOUR DIRECTIONAL CHIPS ARE NEVER DISABLED. The wall has to
+         be MET; a child who cannot press the button never discovers the
+         corridor ends. */
+      this._btnLeft.setAttribute('aria-label', api.t('walkLeft'));
+      this._btnRight.setAttribute('aria-label', api.t('walkRight'));
+      this._btnUp.setAttribute('aria-label', api.t('liftUp'));
+      this._btnDown.setAttribute('aria-label', api.t('liftDown'));
+
+      /* the stairs are the one conditional control, and even then they
+         are aria-disabled: focusable, and they state their requirement */
+      var can = this.canStairs(st), d = this.doorOf(st.room);
+      this._btnStair.setAttribute('aria-disabled', can ? 'false' : 'true');
+      this._btnStair.className = 'nhl-btn nhl-b-stair' + (can ? '' : ' is-off');
+      this._btnStair.setAttribute('aria-label',
+        can ? api.t(d === ROOMS - 1 ? 'stairsUpAt' : 'stairsDownAt') : api.t('stairsOff'));
+
+      this._btnPrint.setAttribute('aria-label', api.t(this.premium ? 'printBtn' : 'printLocked'));
+      this._btnPrint.className = 'nhl-btn nhl-b-print' + (this.premium ? ' is-paid' : '');
+    },
+
+    /* ================= keyboard / AT =================================
+       ⚠ ONE ROVING-TABINDEX GROUP, NOT A HUNDRED TAB STOPS. A screen-
+       reader user tabbing through a hundred doors is reading a chart
+       aloud, which is the thing this tool exists to replace.
+       ⚠ The pad layer is pointer-events:none — #46 shipped an inset:0
+       container that made a tool undriveable by pointer while every
+       model assertion passed. */
+    _syncPads: function (st, here) {
+      var pads = this._pads, api = this.api, self = this;
+      if (!pads) return;
+      if (pads.childNodes.length !== ROOMS * CORRIDORS) {
+        while (pads.firstChild) pads.removeChild(pads.firstChild);
+        for (var c = 0; c < CORRIDORS; c++) {
+          for (var d = 0; d < ROOMS; d++) {
+            (function (room) {
+              var b = api.el('button', 'nhl-pad');
+              b.type = 'button';
+              b.setAttribute('data-room', String(room));
+              b.style.left = (100 * self.roomX(room % ROOMS) / GEO.VB_W) + '%';
+              b.style.top = (100 * self.corrY(Math.floor(room / ROOMS)) / GEO.VB_H) + '%';
+              b.style.width = (100 * GEO.ROOM_W / GEO.VB_W) + '%';
+              b.style.height = (100 * GEO.CORR_H / GEO.VB_H) + '%';
+              pads.appendChild(b);
+            }(c * ROOMS + d));
+          }
+        }
+      }
+      for (var i = 0; i < pads.childNodes.length; i++) {
+        var pad = pads.childNodes[i];
+        if (!pad.setAttribute) continue;
+        var room = parseInt(pad.getAttribute('data-room'), 10);
+        var readable = this.canRead(st, room);
+        pad.tabIndex = (room === st.room) ? 0 : -1;
+        pad.setAttribute('aria-label', room === st.room
+          ? this._fmt(api.t('roomHere'), { n: room })
+          : (readable ? this._fmt(api.t('roomPad'), { n: room }) : api.t('roomPadDark')));
+      }
+    },
+
+    _bindKeys: function () {
+      var self = this;
+      if (!this._pads) return;
+      this._pads.addEventListener('keydown', function (e) {
+        var map = { ArrowRight: 'walkRight', ArrowLeft: 'walkLeft', ArrowUp: 'rideUp', ArrowDown: 'rideDown' };
+        if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); self._do('stairs'); return; }
+        if (!map[e.key]) return;
+        e.preventDefault();
+        self._do(map[e.key]);
+        var cur = self._pads.querySelector('.nhl-pad[data-room="' + self.st.room + '"]');
+        if (cur && cur.focus) cur.focus();
+      });
+    },
+
+    /* ================= paywall + entitlement ======================== */
+    _showGate: function () {
+      var api = this.api;
+      if (this._gate) { this._gate.classList.add('is-on'); return; }
+      var g = api.el('div', 'nhl-gate is-on');
+      var box = api.el('div', 'nhl-gate-box');
+      var h = api.el('h2', 'nhl-gate-h'); h.textContent = api.t('gateTitle');
+      var p = api.el('p', 'nhl-gate-p'); p.textContent = api.t('gateBody');
+      var a = api.el('a', 'nhl-gate-cta');
+      a.href = '/' + (api.lang || 'en') + '/pricing';
+      a.textContent = api.t('gateCta');
+      var c = api.el('button', 'nhl-gate-x');
+      c.type = 'button'; c.textContent = api.t('gateClose');
+      c.addEventListener('click', function () { g.classList.remove('is-on'); });
+      box.appendChild(h); box.appendChild(p); box.appendChild(a); box.appendChild(c);
+      g.appendChild(box); this._wrap.appendChild(g); this._gate = g;
+    },
+
+    /* ⚠ UNKNOWN ENTITLEMENT IS PESSIMISTIC — free-tier-locked, never
+       optimistically unlocked, and offline degrades to the free tier. */
+    _checkEntitlement: function () {
+      var self = this;
+      try {
+        if (typeof fetch !== 'function') return;
+        fetch('/api/entitlement', { credentials: 'include' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (j) {
+            if (!j) return;
+            var tier = j.tier || (j.entitlement && j.entitlement.tier);
+            if (!tier) return;
+            self.premium = tier !== 'free';
+            if (self._wrap) self._syncChips();
+          })['catch'](function () {});
+      } catch (e) { /* free tier */ }
+    },
+
+    /* ================= print ========================================
+       ⭐ THE PAPER HOTEL HAS EVERY DOOR BLANK BUT ONE CORRIDOR, so the
+       class writes the rooms in themselves. Ink inverts: the screen
+       fills, the paper outlines. */
+    _bindPrint: function () {
+      var self = this;
+      if (typeof window.addEventListener !== 'function') return;
+      window.addEventListener('beforeprint', function () { if (self.premium) self._buildSheet(); });
+      window.addEventListener('afterprint', function () { document.body.classList.remove('nhl-printing'); });
+    },
+
+    _buildSheet: function () {
+      var api = this.api, sheet = this._sheet;
+      if (!sheet) return;
+      while (sheet.firstChild) sheet.removeChild(sheet.firstChild);
+      var h = api.el('h2', 'nhl-sheet-h'); h.textContent = api.t('sheetTitle');
+      var n = api.el('p', 'nhl-sheet-note'); n.textContent = api.t('sheetNote');
+      sheet.appendChild(h); sheet.appendChild(n);
+
+      var svg = this._svg('svg', { viewBox: '0 0 1000 1000', class: 'nhl-sheet-svg' });
+      var given = this.corridorOf(this.st.room);
+      for (var c = 0; c < CORRIDORS; c++) {
+        var y = this.corrY(c);
+        for (var d = 0; d < ROOMS; d++) {
+          var x = this.roomX(d), room = c * ROOMS + d;
+          var dw = GEO.ROOM_W * GEO.DOOR_F, dh = GEO.CORR_H * GEO.DOOR_H;
+          svg.appendChild(this._svg('rect', {
+            x: x + (GEO.ROOM_W - dw) / 2, y: y + (GEO.CORR_H - dh) / 2,
+            width: dw, height: dh, rx: 4, class: 'nhl-p-door'
+          }));
+          if (c === given) {
+            var t = this._svg('text', {
+              x: x + GEO.ROOM_W / 2, y: y + GEO.CORR_H / 2, 'text-anchor': 'middle',
+              'dominant-baseline': 'central', class: 'nhl-p-num',
+              'font-size': GEO.ROOM_W * GEO.NUM_F
+            });
+            t.appendChild(document.createTextNode(String(room)));
+            svg.appendChild(t);
+          }
+        }
+      }
+      svg.appendChild(this._svg('rect', {
+        x: 2, y: 2, width: GEO.SHAFT_W, height: 996, class: 'nhl-p-shaft'
+      }));
+      sheet.appendChild(svg);
+      document.body.classList.add('nhl-printing');
+    }
+  };
+
+  /* ================= CSS ==========================================
+     Two hues and no third. ⚠ NO GREEN AND NO RED IN THE PALETTE, so no
+     colour is available to encode correctness even by accident — and
+     this tool refuses nothing as an error, it only states facts about
+     the building.
+     ⚠ INK NEVER APPEARS ON TEAL (2.22:1). ⚠ BARE CORAL NEVER CARRIES A
+     FINE MARK (2.52:1 on cream). */
+  function injectCSS() {
+    if (document.querySelector('style[data-nhl]')) return;
+    var css = ''
+      /* ⚠ TWO RULES, never `html,body.nhl-scroll{...}` — that is a
+         selector LIST whose html half applies unconditionally, which
+         makes the class decorative and its mutation unkillable (#22). */
+      + 'html.nhl-scroll{overflow-y:auto;height:auto;min-height:100%;}'
+      + 'body.nhl-scroll{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}'
+
+      + '.nhl-wrap{display:flex;flex-direction:column;align-items:center;width:100%;}'
+      + '.nhl-card{width:100%;max-width:600px;background:#FBF3E4;border:1.5px solid #E7DCC8;'
+      + 'border-radius:18px;padding:10px 10px 8px;box-sizing:border-box;'
+      + 'box-shadow:0 1px 0 #E7DCC8,0 10px 24px rgba(20,107,94,.10);}'
+
+      /* ⚠ WIDTH-CAPPED INSIDE HEIGHT QUERIES, NEVER A max-height on an
+         aspect-ratio box — that letterboxes the SVG while the
+         %-positioned pads stay bound to the box (#43). */
+      + '.nhl-arena{position:relative;width:100%;max-width:560px;margin:0 auto;aspect-ratio:1/1;}'
+      + '@media (max-height:780px){.nhl-arena{max-width:460px;}}'
+      + '@media (max-height:660px){.nhl-arena{max-width:380px;}}'
+      + '@media (max-height:560px){.nhl-arena{max-width:300px;}}'
+      + '@media (min-width:1367px) and (min-height:820px){.nhl-arena{max-width:640px;}}'
+      + '@media (min-width:1800px) and (min-height:1000px){.nhl-arena{max-width:780px;}}'
+      + '.nhl-svg{display:block;width:100%;height:100%;}'
+
+      + '.nhl-body{fill:#146B5E;}'
+      + '.nhl-shaft-bed{fill:#0D4E44;}'
+      + '.nhl-car{fill:#FBF3E4;stroke:#E7DCC8;stroke-width:2;}'
+      + '.nhl-ind{fill:#2A2A35;font-family:"Baloo 2",system-ui,sans-serif;font-weight:700;}'
+
+      /* an unlit corridor is the building seen from outside: you can
+         make out that there are doors, and nothing more */
+      + '.nhl-corr{fill:#0D4E44;}'
+      + '.nhl-corr.is-here{fill:#F6EAD3;}'
+      + '.nhl-door{fill:#125F54;}'
+      + '.nhl-door.is-seen{fill:#17705F;}'
+      + '.nhl-door.is-lit{fill:#FBF3E4;stroke:#E7DCC8;stroke-width:1.5;}'
+      + '.nhl-door.is-here{fill:#F2784B;stroke:#A34122;stroke-width:2.5;}'
+      + '.nhl-knob{fill:#0A3F38;}'
+      + '.nhl-knob.is-lit{fill:#DCCBA8;}'
+      + '.nhl-num{fill:#2A2A35;font-family:"Baloo 2",system-ui,sans-serif;font-weight:600;}'
+      + '.nhl-num.is-here{fill:#FBF3E4;font-weight:700;}'
+
+      /* ⭐⭐ THE END WALL. Visible AT REST so the explanation is on
+         screen before a child ever presses into it; it lights when the
+         corridor answers. */
+      + '.nhl-wall{fill:#FBF3E4;opacity:.22;}'
+      + '.nhl-wall.is-here{opacity:.40;}'
+      + '.nhl-wall.is-lit{fill:#F2784B;opacity:1;}'
+
+      + '.nhl-pads{position:absolute;inset:0;pointer-events:none;}'
+      + '.nhl-pad{position:absolute;margin:0;padding:0;border:0;background:transparent;'
+      + 'opacity:0;pointer-events:none;cursor:default;}'
+      + '.nhl-pad:focus-visible{opacity:1;outline:3px solid #1E8FD4;outline-offset:-3px;border-radius:6px;}'
+
+      + '.nhl-ledge{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;'
+      + 'gap:8px;margin-top:8px;}'
+      + '.nhl-btn{display:inline-flex;align-items:center;justify-content:center;'
+      + 'width:48px;height:48px;min-width:48px;border-radius:12px;border:1.5px solid #146B5E;'
+      + 'background:#FBF3E4;color:#146B5E;cursor:pointer;padding:0;}'
+      + '.nhl-btn svg{width:24px;height:24px;}'
+      + '.nhl-btn:focus-visible{outline:3px solid #1E8FD4;outline-offset:2px;}'
+      + '.nhl-b-stair.is-off{opacity:.42;}'
+      + '.nhl-b-print{border-style:dashed;margin-left:10px;}'
+      + '.nhl-b-print.is-paid{border-style:solid;}'
+
+      + '.nhl-gate{position:absolute;inset:0;display:none;align-items:center;justify-content:center;'
+      + 'background:rgba(42,42,53,.42);border-radius:18px;padding:12px;}'
+      + '.nhl-gate.is-on{display:flex;}'
+      + '.nhl-gate-box{background:#FBF3E4;border:1.5px solid #146B5E;border-radius:16px;'
+      + 'padding:16px;max-width:340px;text-align:center;}'
+      + '.nhl-gate-h{font-family:"Baloo 2",system-ui,sans-serif;font-size:19px;color:#146B5E;margin:0 0 6px;}'
+      + '.nhl-gate-p{font-family:Nunito,system-ui,sans-serif;font-size:14px;color:#2A2A35;margin:0 0 12px;line-height:1.45;}'
+      + '.nhl-gate-cta{display:inline-block;background:#146B5E;color:#FBF3E4;text-decoration:none;'
+      + 'padding:10px 16px;border-radius:10px;font-family:Nunito,system-ui,sans-serif;font-weight:700;'
+      + 'min-height:44px;box-sizing:border-box;}'
+      + '.nhl-gate-x{display:block;margin:10px auto 0;background:none;border:0;color:#146B5E;'
+      + 'font-family:Nunito,system-ui,sans-serif;font-size:14px;cursor:pointer;min-height:44px;}'
+
+      + '.nhl-sheet{display:none;}'
+      /* ⚠ SCOPED to a class the sheet itself adds — an unscoped
+         @media print block prints a BLANK PAGE for everybody who
+         presses Ctrl+P (#40, #41, #47). */
+      + '@media print{'
+      + 'body.nhl-printing *{visibility:hidden;}'
+      + 'body.nhl-printing .nhl-sheet,body.nhl-printing .nhl-sheet *{visibility:visible;}'
+      + 'body.nhl-printing .nhl-wrap{display:none !important;}'
+      + 'body.nhl-printing .nhl-sheet{display:block !important;position:static;width:100%;margin:0;padding:0;}'
+      + '.nhl-sheet-h{margin:0 0 2mm;font-family:"Baloo 2",system-ui,sans-serif;font-size:16pt;color:#000;}'
+      + '.nhl-sheet-note{margin:0 0 4mm;font-family:Nunito,system-ui,sans-serif;font-size:9pt;color:#000;}'
+      + '.nhl-sheet-svg{display:block;width:170mm;height:auto;margin:0 auto;}'
+      + '.nhl-p-door{fill:none;stroke:#000;stroke-width:3;}'
+      + '.nhl-p-shaft{fill:none;stroke:#000;stroke-width:3;}'
+      + '.nhl-p-num{fill:#000;font-family:"Baloo 2",system-ui,sans-serif;font-weight:700;}'
+      + '@page{margin:15mm;}'
+      + '}';
+    var s = document.createElement('style');
+    s.setAttribute('data-nhl', '1');
+    s.appendChild(document.createTextNode(css));
+    document.head.appendChild(s);
+  }
+  if (typeof document !== 'undefined' && document.head) injectCSS();
+
+  if (typeof window !== 'undefined') window.NumberHotel = NumberHotel;
+  if (typeof module !== 'undefined' && module.exports) module.exports = NumberHotel;
+}());

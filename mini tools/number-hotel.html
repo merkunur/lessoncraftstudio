@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Number Hotel — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #49 — THE NUMBER HOTEL. Every room is a number, 0 to 99, on
+       ten corridors numbered 0 to 9 — so the corridor number IS the tens
+       digit. Walking takes you one door along. The elevator takes you one
+       corridor up and leaves the door position alone. And the corridor
+       ENDS: there is no door after room 49, so the stairs must carry you
+       up and all the way back to the first door of the next corridor —
+       that journey is the carry. You can only read the doors on the
+       corridor you are standing in, so the elevator lands the class
+       somewhere they must name before they can read it. It loads NO ART
+       and NO AUDIO beyond the shell's own pop. -->
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/number-hotel.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(NumberHotel, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -1407,6 +1407,28 @@
       "Découpe les marcheurs et l’arche. Aligne les marcheurs les uns derrière les autres et fais-les passer, autant de front à chaque fois. Quand il n’en reste pas assez pour remplir l’arche, laisse-les debout et dessine les places vides à côté — ces places vides sont ce que le nombre te dit."
     ]
   },
+  "doubling-mirror": {
+    "name": "The Doubling Mirror",
+    "slug": "doubles-et-moities-avec-des-jetons-cp-ce1",
+    "tagline": "Referme la charnière et l’autre volet reçoit autant de VRAIS jetons — on peut les toucher tous.",
+    "metaTitle": "Doubles et moitiés avec des jetons, CP-CE1",
+    "metaDescription": "Dites d’abord quel sera le double, puis refermez le plateau et comptez. Neuf s’ouvre en cinq et quatre, parce que celui qui reste doit aller quelque part.",
+    "about": [
+      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
+      "A tray with two leaves and a hinge between them.",
+      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+    ],
+    "howToUse": [
+      "Put another counter on the near leaf 6 on the near leaf.",
+      "Close the hinge 6 and 6 on the tray. 12 altogether.",
+      "Open the hinge 12 opens into 6 and 6."
+    ],
+    "classroomIdeas": [
+      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
+      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
+      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

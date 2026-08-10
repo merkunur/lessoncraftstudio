@@ -122,6 +122,15 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #54 AT REST IS A HALF-EMPTY TRAY, which says nothing. The card
+     must carry the moment the tool exists for: BOTH leaves full with the
+     same count, and the odd one waiting below with no partner — the
+     double AND the one who would not fit, in one frame. */
+  'doubling-mirror': [
+    { sel: '.dbm-b-more', times: 3, wait: 200 },
+    { sel: '.dbm-b-close', wait: 1200 },
+    { sel: '.dbm-b-more', wait: 500 }
+  ],
   /* ⭐ #53 AT REST IS A QUEUE AND A CLOSED BAR, which says nothing.
      The card must carry the moment the tool exists for: ranks through,
      one marcher left standing, and THE EMPTY PLACE beside them — the
@@ -586,6 +595,9 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* two leaves side by side plus the odd one under them; wide and short,
+     under the 0.85 aspect where --fit=auto TOP-CROPS */
+  'doubling-mirror': { width: 1080, height: 640 },
   /* tall and narrow: the parade stacks, so this one runs the other way
      from its neighbours and must stay under the 0.85 aspect */
   'pair-gate': { width: 1120, height: 720 },

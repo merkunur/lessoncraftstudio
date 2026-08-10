@@ -1408,6 +1408,28 @@
       "Klipp ut marscherarna och valvet. Ställ upp marscherarna efter varandra och skicka igenom dem, så många i bredd åt gången. När det blir för få kvar för att fylla valvet, låt dem stå och rita de tomma platserna bredvid — de tomma platserna är det som talet säger dig."
     ]
   },
+  "doubling-mirror": {
+    "name": "The Doubling Mirror",
+    "slug": "dubbelt-och-halften-med-brickor-lagstadiet",
+    "tagline": "Fäll ihop gångjärnet och den andra halvan får lika många RIKTIGA brickor — alla går att ta i.",
+    "metaTitle": "Dubbelt och hälften med brickor, lågstadiet",
+    "metaDescription": "Säg först vad dubbelt blir och fäll sedan ihop brickan och räkna. Nio öppnas till fem och fyra, för den som blir över måste hamna någonstans.",
+    "about": [
+      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
+      "A tray with two leaves and a hinge between them.",
+      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+    ],
+    "howToUse": [
+      "Put another counter on the near leaf 6 on the near leaf.",
+      "Close the hinge 6 and 6 on the tray. 12 altogether.",
+      "Open the hinge 12 opens into 6 and 6."
+    ],
+    "classroomIdeas": [
+      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
+      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
+      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -131,48 +131,540 @@
     id: 'doubling-mirror',
 
     strings: {
-      title: { en: 'The Doubling Mirror' },
-      instruction: { en: 'Set the near leaf to a number and say what the double will be. Close the hinge and the far leaf gets the same number again — then add one more and open it, and see what a double and one more looks like.' },
+      title: {
+        en: 'The Doubling Mirror',
+        de: 'Das Scharnier',
+        fr: 'La charnière',
+        es: 'La bisagra',
+        pt: 'A dobradiça',
+        it: 'La cerniera',
+        nl: 'Het scharnier',
+        sv: 'Gångjärnet',
+        da: 'Hængslet',
+        no: 'Hengslet',
+        fi: 'Sarana'
+      },
+      instruction: {
+        en: 'Set the near leaf to a number and say what the double will be. Close the hinge and the far leaf gets the same number again — then add one more and open it, and see what a double and one more looks like.',
+        de: 'Legt Scheiben auf den nahen Flügel und sagt, wie viel das Doppelte sein wird. Dann schließt das Scharnier — der ferne Flügel bekommt noch einmal genauso viele, und ihr könnt jede einzelne zählen.',
+        fr: 'Posez des disques sur le battant proche et dites ce que fera le double. Fermez ensuite la charnière : le battant opposé en reçoit autant, et vous pouvez les compter tous, un par un.',
+        es: 'Pongan chapas en el ala cercana y digan cuál será el doble. Luego cierren la bisagra: el ala lejana recibe otras tantas, y pueden contarlas todas, una por una.',
+        pt: 'Ponha pastilhas na aba da frente e diga quanto vai dar o dobro. Depois feche a dobradiça: a aba de trás recebe a mesma quantidade, e dá para contar cada uma delas.',
+        it: 'Mettete dei dischi sull’anta vicina e dite quanto farà il doppio. Poi chiudete la cerniera: l’anta lontana ne riceve altrettanti, e potete contarli tutti, uno per uno.',
+        nl: 'Leg schijven op de klep aan jouw kant en zeg wat het dubbele wordt. Sluit dan het scharnier: de klep aan de overkant krijgt er net zo veel bij, en je kunt ze allemaal stuk voor stuk tellen.',
+        sv: 'Lägg skivor på den närmaste klaffen och säg vad dubbelt så många blir. Stäng sedan gångjärnet: den bortre klaffen får lika många till, och ni kan räkna varenda en.',
+        da: 'Læg skiver på den nærmeste fløj og sig, hvad det dobbelte bliver. Luk så hængslet: den fjerneste fløj får lige så mange igen, og I kan tælle hver eneste en.',
+        no: 'Legg skiver på den nærmeste klaffen og si hva det dobbelte blir. Lukk så hengslet: den borterste klaffen får like mange til, og dere kan telle hver eneste en.',
+        fi: 'Asettakaa kiekkoja lähemmälle siivelle ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sitten sarana: kauempi siipi saa yhtä monta lisää, ja jokaisen voi laskea yksitellen.'
+      },
 
-      ariaTray: { en: 'A tray with two leaves and a hinge between them.' },
-      ariaNear: { en: 'the near leaf, {n}' },
-      ariaFar: { en: 'the far leaf, {n}' },
-      ariaOdd: { en: 'one counter with no partner, waiting for a side' },
+      ariaTray: {
 
-      setStart: { en: 'What the tray starts with' },
-      startSmall: { en: 'three to start' },
-      startTen: { en: 'seven to start' },
+        en: 'A tray with two leaves and a hinge between them.',
 
-      addOne: { en: 'Put another counter on the near leaf' },
-      takeOne: { en: 'Take a counter off the near leaf' },
-      close: { en: 'Close the hinge' },
-      open: { en: 'Open the hinge' },
-      sideLow: { en: 'Give the odd one to the near leaf' },
-      sideHigh: { en: 'Give the odd one to the far leaf' },
-      again: { en: 'Start again' },
+        de: 'Zwei Flügel mit einem Scharnier dazwischen.',
 
-      saidPlace: { en: '{n} on the near leaf.' },
-      saidClosed: { en: '{n} and {n} on the tray. {d} altogether.' },
-      saidOpened: { en: '{t} opens into {a} and {a}.' },
-      saidOddWaiting: { en: '{t} will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?' },
-      saidOddPlaced: { en: '{t} opens into {a} and {b}. The odd one went to the {s} leaf, so this is a double and one more.' },
-      saidEmpty: { en: 'There is nothing on the tray yet.' },
-      saidFull: { en: 'The near leaf holds {n}, and that is as many as it holds.' },
+        fr: 'Deux battants reliés par une charnière.',
+
+        es: 'Dos alas unidas por una bisagra.',
+
+        pt: 'Duas abas ligadas por uma dobradiça.',
+
+        it: 'Due ante unite da una cerniera.',
+
+        nl: 'Twee kleppen met een scharnier ertussen.',
+
+        sv: 'Två klaffar med ett gångjärn emellan.',
+
+        da: 'To fløje med et hængsel imellem.',
+
+        no: 'To klaffer med et hengsel imellom.',
+
+        fi: 'Kaksi siipeä ja niiden välissä sarana.'
+
+      },
+      ariaNear: {
+        en: 'the near leaf, {n}',
+        de: 'der nahe Flügel, {n}',
+        fr: 'le battant proche, {n}',
+        es: 'el ala cercana, {n}',
+        pt: 'a aba da frente, {n}',
+        it: 'l’anta vicina, {n}',
+        nl: 'de klep aan jouw kant, {n}',
+        sv: 'den närmaste klaffen, {n}',
+        da: 'den nærmeste fløj, {n}',
+        no: 'den nærmeste klaffen, {n}',
+        fi: 'lähempi siipi, {n}'
+      },
+      ariaFar: {
+        en: 'the far leaf, {n}',
+        de: 'der ferne Flügel, {n}',
+        fr: 'le battant opposé, {n}',
+        es: 'el ala lejana, {n}',
+        pt: 'a aba de trás, {n}',
+        it: 'l’anta lontana, {n}',
+        nl: 'de klep aan de overkant, {n}',
+        sv: 'den bortre klaffen, {n}',
+        da: 'den fjerneste fløj, {n}',
+        no: 'den borterste klaffen, {n}',
+        fi: 'kauempi siipi, {n}'
+      },
+      ariaOdd: {
+        en: 'one counter with no partner, waiting for a side',
+        de: 'eine Scheibe ohne Partner, sie wartet auf einen Flügel',
+        fr: 'un disque sans partenaire, qui attend un battant',
+        es: 'una chapa sin pareja, esperando un ala',
+        pt: 'uma pastilha sem par, à espera de uma aba',
+        it: 'un disco senza compagno, in attesa di un’anta',
+        nl: 'een schijf zonder maatje, die op een klep wacht',
+        sv: 'en skiva utan par som väntar på en klaff',
+        da: 'en skive uden makker, der venter på en fløj',
+        no: 'en skive uten make som venter på en klaff',
+        fi: 'yksi kiekko ilman paria, odottamassa siipeä'
+      },
+
+      setStart: {
+
+        en: 'What the tray starts with',
+
+        de: 'Womit das Scharnier anfängt',
+
+        fr: 'Ce que la charnière a au départ',
+
+        es: 'Con qué empieza la bisagra',
+
+        pt: 'Com o que a dobradiça começa',
+
+        it: 'Come comincia la cerniera',
+
+        nl: 'Waarmee het scharnier begint',
+
+        sv: 'Vad gångjärnet börjar med',
+
+        da: 'Hvad hængslet begynder med',
+
+        no: 'Hva hengslet begynner med',
+
+        fi: 'Mistä sarana aloittaa'
+
+      },
+      startSmall: {
+        en: 'three to start',
+        de: 'mit drei Scheiben',
+        fr: 'trois disques',
+        es: 'tres chapas',
+        pt: 'três pastilhas',
+        it: 'tre dischi',
+        nl: 'drie schijven',
+        sv: 'tre skivor',
+        da: 'tre skiver',
+        no: 'tre skiver',
+        fi: 'kolme kiekkoa'
+      },
+      startTen: {
+        en: 'seven to start',
+        de: 'mit sieben Scheiben',
+        fr: 'sept disques',
+        es: 'siete chapas',
+        pt: 'sete pastilhas',
+        it: 'sette dischi',
+        nl: 'zeven schijven',
+        sv: 'sju skivor',
+        da: 'syv skiver',
+        no: 'sju skiver',
+        fi: 'seitsemän kiekkoa'
+      },
+
+      addOne: {
+
+        en: 'Put another counter on the near leaf',
+
+        de: 'Eine Scheibe mehr auf den nahen Flügel legen',
+
+        fr: 'Poser un disque de plus sur le battant proche',
+
+        es: 'Poner otra chapa en el ala cercana',
+
+        pt: 'Pôr mais uma pastilha na aba da frente',
+
+        it: 'Mettere un altro disco sull’anta vicina',
+
+        nl: 'Nog een schijf op de klep aan jouw kant leggen',
+
+        sv: 'Lägg en skiva till på den närmaste klaffen',
+
+        da: 'Læg en skive mere på den nærmeste fløj',
+
+        no: 'Legg en skive til på den nærmeste klaffen',
+
+        fi: 'Aseta vielä yksi kiekko lähemmälle siivelle'
+
+      },
+      takeOne: {
+        en: 'Take a counter off the near leaf',
+        de: 'Eine Scheibe vom nahen Flügel nehmen',
+        fr: 'Retirer un disque du battant proche',
+        es: 'Quitar una chapa del ala cercana',
+        pt: 'Tirar uma pastilha da aba da frente',
+        it: 'Togliere un disco dall’anta vicina',
+        nl: 'Een schijf van de klep aan jouw kant halen',
+        sv: 'Ta bort en skiva från den närmaste klaffen',
+        da: 'Tag en skive af den nærmeste fløj',
+        no: 'Ta en skive av den nærmeste klaffen',
+        fi: 'Ota yksi kiekko pois lähemmältä siiveltä'
+      },
+      close: {
+        en: 'Close the hinge',
+        de: 'Das Scharnier schließen',
+        fr: 'Fermer la charnière',
+        es: 'Cerrar la bisagra',
+        pt: 'Fechar a dobradiça',
+        it: 'Chiudere la cerniera',
+        nl: 'Het scharnier sluiten',
+        sv: 'Stäng gångjärnet',
+        da: 'Luk hængslet',
+        no: 'Lukk hengslet',
+        fi: 'Sulje sarana'
+      },
+      open: {
+        en: 'Open the hinge',
+        de: 'Das Scharnier öffnen',
+        fr: 'Ouvrir la charnière',
+        es: 'Abrir la bisagra',
+        pt: 'Abrir a dobradiça',
+        it: 'Aprire la cerniera',
+        nl: 'Het scharnier openen',
+        sv: 'Öppna gångjärnet',
+        da: 'Åbn hængslet',
+        no: 'Åpne hengslet',
+        fi: 'Avaa sarana'
+      },
+      sideLow: {
+        en: 'Give the odd one to the near leaf',
+        de: 'Die Scheibe ohne Partner auf den nahen Flügel legen',
+        fr: 'Donner le disque sans partenaire au battant proche',
+        es: 'Dar la chapa sin pareja al ala cercana',
+        pt: 'Dar a pastilha sem par à aba da frente',
+        it: 'Dare il disco senza compagno all’anta vicina',
+        nl: 'De schijf zonder maatje aan de klep aan jouw kant geven',
+        sv: 'Ge skivan utan par till den närmaste klaffen',
+        da: 'Giv skiven uden makker til den nærmeste fløj',
+        no: 'Gi skiven uten make til den nærmeste klaffen',
+        fi: 'Anna ilman paria jäänyt kiekko lähemmälle siivelle'
+      },
+      sideHigh: {
+        en: 'Give the odd one to the far leaf',
+        de: 'Die Scheibe ohne Partner auf den fernen Flügel legen',
+        fr: 'Donner le disque sans partenaire au battant opposé',
+        es: 'Dar la chapa sin pareja al ala lejana',
+        pt: 'Dar a pastilha sem par à aba de trás',
+        it: 'Dare il disco senza compagno all’anta lontana',
+        nl: 'De schijf zonder maatje aan de klep aan de overkant geven',
+        sv: 'Ge skivan utan par till den bortre klaffen',
+        da: 'Giv skiven uden makker til den fjerneste fløj',
+        no: 'Gi skiven uten make til den borterste klaffen',
+        fi: 'Anna ilman paria jäänyt kiekko kauemmalle siivelle'
+      },
+      again: {
+        en: 'Start again',
+        de: 'Von vorn anfangen',
+        fr: 'Tout recommencer',
+        es: 'Empezar de nuevo',
+        pt: 'Começar de novo',
+        it: 'Ricominciare',
+        nl: 'Opnieuw beginnen',
+        sv: 'Börja om',
+        da: 'Begynd forfra',
+        no: 'Begynn på nytt',
+        fi: 'Aloita alusta'
+      },
+
+      saidPlace: {
+
+        en: '{n} on the near leaf.',
+
+        de: 'Auf dem nahen Flügel: {n}.',
+
+        fr: 'Sur le battant proche : {n}.',
+
+        es: 'En el ala cercana: {n}.',
+
+        pt: 'Na aba da frente: {n}.',
+
+        it: 'Sull’anta vicina: {n}.',
+
+        nl: 'Op de klep aan jouw kant: {n}.',
+
+        sv: 'På den närmaste klaffen: {n}.',
+
+        da: 'På den nærmeste fløj: {n}.',
+
+        no: 'På den nærmeste klaffen: {n}.',
+
+        fi: 'Lähemmällä siivellä: {n}.'
+
+      },
+      saidClosed: {
+        en: '{n} and {n} on the tray. {d} altogether.',
+        de: '{n} und {n} auf den Flügeln. {d} zusammen.',
+        fr: '{n} et {n} sur les battants. {d} en tout.',
+        es: '{n} y {n} en las alas. {d} en total.',
+        pt: '{n} e {n} nas abas. {d} ao todo.',
+        it: '{n} e {n} sulle ante. {d} in tutto.',
+        nl: '{n} en {n} op de kleppen. {d} bij elkaar.',
+        sv: '{n} och {n} på klaffarna. {d} tillsammans.',
+        da: '{n} og {n} på fløjene. {d} i alt.',
+        no: '{n} og {n} på klaffene. {d} til sammen.',
+        fi: 'Siivillä {n} ja {n}. Yhteensä {d}.'
+      },
+      saidOpened: {
+        en: '{t} opens into {a} and {a}.',
+        de: '{t} wird wieder zu {a} und {a}.',
+        fr: '{t} redevient {a} et {a}.',
+        es: '{t} vuelve a ser {a} y {a}.',
+        pt: '{t} volta a ser {a} e {a}.',
+        it: '{t} torna a essere {a} e {a}.',
+        nl: '{t} wordt weer {a} en {a}.',
+        sv: '{t} blir {a} och {a} igen.',
+        da: '{t} bliver til {a} og {a} igen.',
+        no: '{t} blir {a} og {a} igjen.',
+        fi: '{t} jakautuu taas: {a} ja {a}.'
+      },
+      saidOddWaiting: {
+        en: '{t} will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?',
+        de: '{t} lässt sich nicht auf zwei gleiche Flügel verteilen. Eine Scheibe hat keinen Partner — auf welchen Flügel soll die Klasse sie legen?',
+        fr: '{t} ne se partage pas en deux battants égaux. Un disque n’a pas de partenaire — à quel battant la classe le donne-t-elle ?',
+        es: '{t} no se reparte en dos alas iguales. Una chapa se queda sin pareja: ¿a qué ala se la da la clase?',
+        pt: '{t} não se reparte em duas abas iguais. Uma pastilha ficou sem par — para qual aba a turma vai dá-la?',
+        it: '{t} non si divide in due ante uguali. Un disco resta senza compagno: a quale anta lo dà la classe?',
+        nl: '{t} gaat niet in twee gelijke kleppen. Eén schijf heeft geen maatje — aan welke klep geeft de klas hem?',
+        sv: '{t} går inte jämnt upp på två klaffar. En skiva blir utan par — vilken klaff ska klassen ge den till?',
+        da: '{t} går ikke op i to lige store fløje. En skive er uden makker — hvilken fløj skal klassen give den til?',
+        no: '{t} går ikke opp i to like klaffer. En skive er uten make — hvilken klaff skal klassen gi den til?',
+        fi: '{t} ei jakaudu kahdelle yhtä suurelle siivelle. Yksi kiekko jäi ilman paria — kummalle siivelle luokka antaa sen?'
+      },
+      saidOddPlaced: {
+        en: '{t} opens into {a} and {b}. The odd one went to the {s} leaf, so this is a double and one more.',
+        de: '{t} wird zu {a} und {b}. Die Scheibe ohne Partner liegt auf Flügel {s} — das ist ein Doppeltes und eins mehr.',
+        fr: '{t} redevient {a} et {b}. Le disque sans partenaire est sur le battant {s} : c’est un double et un de plus.',
+        es: '{t} vuelve a ser {a} y {b}. La chapa sin pareja está en el ala {s}: es el doble y una más.',
+        pt: '{t} volta a ser {a} e {b}. A pastilha sem par está na aba {s}: é o dobro e mais uma.',
+        it: '{t} torna a essere {a} e {b}. Il disco senza compagno è sull’anta {s}: è un doppio e uno in più.',
+        nl: '{t} wordt {a} en {b}. De schijf zonder maatje ligt op klep {s}: dit is een dubbele en nog eentje.',
+        sv: '{t} blir {a} och {b}. Skivan utan par ligger på klaff {s} — det är dubbelt och en till.',
+        da: '{t} bliver til {a} og {b}. Skiven uden makker ligger på fløj {s} — det er et dobbelt og en mere.',
+        no: '{t} blir {a} og {b}. Skiven uten make ligger på klaff {s} — det er et dobbelt og en til.',
+        fi: '{t} jakautuu näin: {a} ja {b}. Ilman paria jäänyt kiekko on siivellä {s} — se on kaksinkertainen määrä ja yksi lisää.'
+      },
+      saidEmpty: {
+        en: 'There is nothing on the tray yet.',
+        de: 'Auf dem nahen Flügel liegt noch nichts.',
+        fr: 'Il n’y a encore rien sur le battant proche.',
+        es: 'Todavía no hay nada en el ala cercana.',
+        pt: 'Ainda não há nada na aba da frente.',
+        it: 'Sull’anta vicina non c’è ancora niente.',
+        nl: 'Er ligt nog niets op de klep aan jouw kant.',
+        sv: 'Det ligger ingenting på den närmaste klaffen än.',
+        da: 'Der ligger ikke noget på den nærmeste fløj endnu.',
+        no: 'Det ligger ingenting på den nærmeste klaffen ennå.',
+        fi: 'Lähemmällä siivellä ei ole vielä mitään.'
+      },
+      saidFull: {
+        en: 'The near leaf holds {n}, and that is as many as it holds.',
+        de: 'Auf dem nahen Flügel liegen {n}, und mehr passen nicht darauf.',
+        fr: 'Le battant proche en porte {n}, et il n’en tient pas davantage.',
+        es: 'El ala cercana lleva {n}, y ya no caben más.',
+        pt: 'A aba da frente tem {n}, e não cabem mais.',
+        it: 'L’anta vicina ne porta {n}, e più di così non ce ne stanno.',
+        nl: 'Op de klep aan jouw kant liggen er {n}, en meer passen er niet op.',
+        sv: 'Den närmaste klaffen bär {n}, och fler får inte plats.',
+        da: 'Den nærmeste fløj bærer {n}, og der er ikke plads til flere.',
+        no: 'Den nærmeste klaffen bærer {n}, og det er ikke plass til flere.',
+        fi: 'Lähemmällä siivellä on {n}, eikä enempää mahdu.'
+      },
       /* ⚠ 'side' now has a branch; this is what it says. */
-      saidNoOdd: { en: 'There is no odd counter waiting for a leaf.' },
-      sideNameNear: { en: 'near' },
-      sideNameFar: { en: 'far' },
-      saidAlreadyClosed: { en: 'The hinge is already closed. Open it to take the tray apart again.' },
-      saidAlreadyOpen: { en: 'The hinge is already open.' },
+      saidNoOdd: {
+        en: 'There is no odd counter waiting for a leaf.',
+        de: 'Es wartet keine Scheibe auf einen Flügel.',
+        fr: 'Aucun disque n’attend un battant.',
+        es: 'No hay ninguna chapa esperando un ala.',
+        pt: 'Não há nenhuma pastilha à espera de uma aba.',
+        it: 'Non c’è nessun disco in attesa di un’anta.',
+        nl: 'Er wacht geen schijf op een klep.',
+        sv: 'Det är ingen skiva som väntar på en klaff.',
+        da: 'Der er ingen skive, der venter på en fløj.',
+        no: 'Det er ingen skive som venter på en klaff.',
+        fi: 'Yksikään kiekko ei odota siipeä.'
+      },
+      sideNameNear: {
+        en: 'near',
+        de: 'nahen',
+        fr: 'proche',
+        es: 'cercana',
+        pt: 'da frente',
+        it: 'vicina',
+        nl: 'aan jouw kant',
+        sv: 'närmaste',
+        da: 'nærmeste',
+        no: 'nærmeste',
+        fi: 'lähemmällä'
+      },
+      sideNameFar: {
+        en: 'far',
+        de: 'fernen',
+        fr: 'opposé',
+        es: 'lejana',
+        pt: 'de trás',
+        it: 'lontana',
+        nl: 'aan de overkant',
+        sv: 'bortre',
+        da: 'fjerneste',
+        no: 'borterste',
+        fi: 'kauemmalla'
+      },
+      saidAlreadyClosed: {
+        en: 'The hinge is already closed. Open it to take the tray apart again.',
+        de: 'Das Scharnier ist schon geschlossen. Öffnet es, um die Flügel wieder auseinanderzunehmen.',
+        fr: 'La charnière est déjà fermée. Ouvrez-la pour séparer les battants.',
+        es: 'La bisagra ya está cerrada. Ábranla para separar las alas otra vez.',
+        pt: 'A dobradiça já está fechada. Abra para separar as abas outra vez.',
+        it: 'La cerniera è già chiusa. Apritela per separare di nuovo le ante.',
+        nl: 'Het scharnier is al gesloten. Open het om de kleppen weer los te maken.',
+        sv: 'Gångjärnet är redan stängt. Öppna det för att skilja klaffarna åt igen.',
+        da: 'Hængslet er allerede lukket. Åbn det for at skille fløjene ad igen.',
+        no: 'Hengslet er allerede lukket. Åpne det for å skille klaffene fra hverandre igjen.',
+        fi: 'Sarana on jo kiinni. Avaa se, niin siivet erkanevat taas.'
+      },
+      saidAlreadyOpen: {
+        en: 'The hinge is already open.',
+        de: 'Das Scharnier ist schon offen.',
+        fr: 'La charnière est déjà ouverte.',
+        es: 'La bisagra ya está abierta.',
+        pt: 'A dobradiça já está aberta.',
+        it: 'La cerniera è già aperta.',
+        nl: 'Het scharnier is al open.',
+        sv: 'Gångjärnet är redan öppet.',
+        da: 'Hængslet er allerede åbent.',
+        no: 'Hengslet er allerede åpent.',
+        fi: 'Sarana on jo auki.'
+      },
 
-      gateTitle: { en: 'The paper tray' },
-      gateBody: { en: 'The whole apparatus is free — every count, the closing and the opening. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves.' },
-      gateCta: { en: 'See the Teacher plan' },
-      gateClose: { en: 'Not now' },
+      gateTitle: {
 
-      printBtn: { en: 'Print the paper tray' },
-      sheetTitle: { en: 'Paper trays to cut out and hinge' },
-      sheetNote: { en: 'Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do.' }
+        en: 'The paper tray',
+
+        de: 'Der Bastelbogen',
+
+        fr: 'La charnière en papier',
+
+        es: 'La bisagra de papel',
+
+        pt: 'A dobradiça de papel',
+
+        it: 'La cerniera di carta',
+
+        nl: 'Het papieren scharnier',
+
+        sv: 'Pappersgångjärnet',
+
+        da: 'Papirhængslet',
+
+        no: 'Papirhengslet',
+
+        fi: 'Paperisarana'
+
+      },
+      gateBody: {
+        en: 'The whole apparatus is free — every count, the closing and the opening. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves.',
+        de: 'Das ganze Scharnier ist kostenlos — jedes Zählen, das Schließen und das Öffnen. Mit dem Lehrkraft-Abo kommt der Bastelbogen dazu: zwei Flügel zum Ausschneiden, damit ein Kind echte Scheiben auf beide legen und selbst zuklappen kann.',
+        fr: 'Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains.',
+        es: 'Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos.',
+        pt: 'A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos.',
+        it: 'Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani.',
+        nl: 'Het hele scharnier is gratis: elk tellen, het sluiten en het openen. Bij het Leerkracht-abonnement komt het papieren scharnier om uit te knippen, zodat een kind echte schijven op allebei de kleppen kan leggen en het zelf kan dichtdoen.',
+        sv: 'Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer.',
+        da: 'Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder.',
+        no: 'Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender.',
+        fi: 'Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin.'
+      },
+      gateCta: {
+        en: 'See the Teacher plan',
+        de: 'Das Lehrkraft-Abo ansehen',
+        fr: 'Voir l’Abonnement Enseignant',
+        es: 'Ver el Plan Docente',
+        pt: 'Ver o Plano Professor',
+        it: 'Scopri il Piano Insegnante',
+        nl: 'Bekijk het Leerkracht-abonnement',
+        sv: 'Se Lärarplanen',
+        da: 'Se Lærerabonnementet',
+        no: 'Se Lærerabonnementet',
+        fi: 'Tutustu Opettajatilaukseen'
+      },
+      gateClose: {
+        en: 'Not now',
+        de: 'Jetzt nicht',
+        fr: 'Pas maintenant',
+        es: 'Ahora no',
+        pt: 'Agora não',
+        it: 'Non ora',
+        nl: 'Nu niet',
+        sv: 'Inte nu',
+        da: 'Ikke nu',
+        no: 'Ikke nå',
+        fi: 'Ei nyt'
+      },
+
+      printBtn: {
+
+        en: 'Print the paper tray',
+
+        de: 'Den Bastelbogen drucken',
+
+        fr: 'Imprimer la charnière en papier',
+
+        es: 'Imprimir la bisagra de papel',
+
+        pt: 'Imprimir a dobradiça de papel',
+
+        it: 'Stampare la cerniera di carta',
+
+        nl: 'Het papieren scharnier afdrukken',
+
+        sv: 'Skriv ut pappersgångjärnet',
+
+        da: 'Print papirhængslet',
+
+        no: 'Skriv ut papirhengslet',
+
+        fi: 'Tulosta paperisarana'
+
+      },
+      sheetTitle: {
+        en: 'Paper trays to cut out and hinge',
+        de: 'Bastelbogen zum Ausschneiden',
+        fr: 'Charnière en papier à découper',
+        es: 'Bisagra de papel para recortar',
+        pt: 'Dobradiça de papel para recortar',
+        it: 'Cerniera di carta da ritagliare',
+        nl: 'Papieren scharnier om uit te knippen',
+        sv: 'Pappersgångjärn att klippa ut',
+        da: 'Papirhængsel til at klippe ud',
+        no: 'Papirhengsel til å klippe ut',
+        fi: 'Paperisarana leikattavaksi'
+      },
+      sheetNote: {
+        en: 'Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do.',
+        de: 'Schneidet die beiden Flügel aus und ritzt die Mittellinie an, damit sie sich zuklappen lassen. Legt Scheiben auf einen Flügel, sagt, wie viel das Doppelte sein wird, klappt den anderen Flügel darüber und legt noch einmal genauso viele hin. Zählt alle: Das Scharnier macht keine einzige Scheibe — das macht ihr.',
+        fr: 'Découpez les deux battants et marquez bien la ligne du milieu pour qu’ils se referment. Posez des disques sur un battant, dites ce que fera le double, rabattez l’autre battant et posez-en autant. Comptez-les tous : la charnière ne fabrique aucun disque, c’est vous qui le faites.',
+        es: 'Recorten las dos alas y marquen bien la línea del medio para que se cierren. Pongan chapas en un ala, digan cuál será el doble, cierren la otra ala encima y pongan otras tantas. Cuéntenlas todas: la bisagra no fabrica ni una chapa, la ponen ustedes.',
+        pt: 'Recorte as duas abas e marque bem a linha do meio para elas fecharem. Ponha pastilhas numa aba, diga quanto vai dar o dobro, feche a outra aba por cima e ponha a mesma quantidade. Conte todas: a dobradiça não faz nenhuma pastilha — quem faz é você.',
+        it: 'Ritagliate le due ante e incidete bene la linea di mezzo perché si chiudano. Mettete dei dischi su un’anta, dite quanto farà il doppio, chiudete l’altra anta sopra e mettetene altrettanti. Contateli tutti: la cerniera non fabbrica nemmeno un disco, lo fate voi.',
+        nl: 'Knip de twee kleppen uit en druk de middellijn goed aan, zodat ze dichtgaan. Leg schijven op één klep, zeg wat het dubbele wordt, doe de andere klep erover en leg er net zo veel bij. Tel ze allemaal: het scharnier maakt geen enkele schijf, dat doe jij.',
+        sv: 'Klipp ut de två klaffarna och ritsa mittlinjen så att de går att stänga. Lägg skivor på den ena klaffen, säg vad dubbelt så många blir, fäll den andra klaffen över och lägg lika många till. Räkna alla: gångjärnet gör inte en enda skiva — det gör ni.',
+        da: 'Klip de to fløje ud, og rids midterlinjen, så de kan lukkes. Læg skiver på den ene fløj, sig hvad det dobbelte bliver, klap den anden fløj henover, og læg lige så mange igen. Tæl dem alle sammen: hængslet laver ikke en eneste skive — det gør I.',
+        no: 'Klipp ut de to klaffene og riss opp midtlinjen, så de lar seg lukke. Legg skiver på den ene klaffen, si hva det dobbelte blir, legg den andre klaffen over og legg like mange til. Tell dem alle: hengslet lager ikke en eneste skive — det gjør dere.',
+        fi: 'Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette.'
+      }
     },
 
     settings: [

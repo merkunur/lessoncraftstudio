@@ -69,54 +69,69 @@ const srv = http.createServer((rq, rs) => {
     await p.goto(`http://127.0.0.1:${PORT}/mini-tools/doubling-mirror.html?lang=${L}`, { waitUntil: 'domcontentloaded' });
     await new Promise(r => setTimeout(r, 450));
 
-    /* drive every control so every branch's strings get asked for */
-    /* @@ DRIVE THE STATES, never exempt a key. Every refusal string here
-       lives behind a state a lazy driver never enters. */
-    await p.evaluate(() => document.querySelector('.dbm-b-call').click());   /* bar DOWN */
+    /* DRIVE THE STATES BY BUTTON. Every refusal string lives behind a
+       state a lazy driver never enters — and on this tool an entire
+       BRANCH was unreachable until it was fixed, which two gates missed
+       because they reached the model directly. Nothing here uses
+       page.evaluate to set state. */
+    await p.evaluate(() => document.querySelector('.dbm-b-open').click());   /* already open */
     await new Promise(r => setTimeout(r, 250));
-    await p.evaluate(() => document.querySelector('.dbm-b-sill').click());   /* no second parade yet */
+    await p.evaluate(() => document.querySelector('.dbm-b-low').click());   /* no odd one waiting */
     await new Promise(r => setTimeout(r, 250));
-    await p.evaluate(() => document.querySelector('.dbm-b-no').click());
-    await new Promise(r => setTimeout(r, 400));
-    await p.evaluate(() => document.querySelector('.dbm-b-yes').click());    /* predicted twice */
-    await new Promise(r => setTimeout(r, 250));
-    for (let i = 0; i < 12; i++) {
-      await p.evaluate(() => document.querySelector('.dbm-b-call').click());
-      await new Promise(r => setTimeout(r, 170));
-    }
-    await p.evaluate(() => document.querySelector('.dbm-b-call').click());   /* part-rank refused */
-    await new Promise(r => setTimeout(r, 250));
-    await p.evaluate(() => document.querySelector('.dbm-b-second').click());
-    await new Promise(r => setTimeout(r, 450));
-    await p.evaluate(() => document.querySelector('.dbm-b-sill').click());
-    await new Promise(r => setTimeout(r, 1300));
-    await p.evaluate(() => document.querySelector('.dbm-b-sill').click());   /* already on the sill */
-    await new Promise(r => setTimeout(r, 250));
-    /* a parade that CLEARS, so saidAllThrough is reached */
-    await p.evaluate(() => { const T = window.DoublingMirror; T.st = T.predict(T.newState('2', 12), true); T.render(); });
-    for (let i = 0; i < 7; i++) {
-      await p.evaluate(() => document.querySelector('.dbm-b-call').click());
+    for (let i = 0; i < 3; i++) {
+      await p.evaluate(() => document.querySelector('.dbm-b-more').click());
       await new Promise(r => setTimeout(r, 150));
     }
+    await p.evaluate(() => document.querySelector('.dbm-b-less').click());
+    await new Promise(r => setTimeout(r, 200));
+    await p.evaluate(() => document.querySelector('.dbm-b-close').click());   /* past the beat */
+    await new Promise(r => setTimeout(r, 1100));
+    await p.evaluate(() => document.querySelector('.dbm-b-close').click());   /* already closed */
     await new Promise(r => setTimeout(r, 250));
-    /* a WIDE archway where the sill does NOT fill, so saidSillShort is reached */
-    await p.evaluate(() => { const T = window.DoublingMirror; let st = T.predict(T.newState('3', 8), false);
-      while (T.sendRank(st)) st = T.sendRank(st); T.st = T.bringSecond(st, 8); T.render(); });
-    await p.evaluate(() => document.querySelector('.dbm-b-sill').click());
-    await new Promise(r => setTimeout(r, 1300));
+    /* the branch that was DEAD: one more on a CLOSED tray, then open */
+    await p.evaluate(() => document.querySelector('.dbm-b-more').click());   /* the odd one */
+    await new Promise(r => setTimeout(r, 300));
+    await p.evaluate(() => document.querySelector('.dbm-b-more').click());   /* a SECOND outsider is refused */
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.dbm-b-open').click());
+    await new Promise(r => setTimeout(r, 700));
+    await p.evaluate(() => document.querySelector('.dbm-b-high').click());   /* the odd one gets the far leaf */
+    await new Promise(r => setTimeout(r, 500));
+    await p.evaluate(() => document.querySelector('.dbm-b-again').click());
+    await new Promise(r => setTimeout(r, 300));
+    await p.evaluate(() => document.querySelector('.dbm-b-close').click());
+    await new Promise(r => setTimeout(r, 900));
+    await p.evaluate(() => document.querySelector('.dbm-b-open').click());   /* an EVEN split */
+    await new Promise(r => setTimeout(r, 600));
+    await p.evaluate(() => document.querySelector('.dbm-b-again').click());
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.dbm-b-close').click());
+    await new Promise(r => setTimeout(r, 900));
+    await p.evaluate(() => document.querySelector('.dbm-b-more').click());
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.dbm-b-open').click());
+    await new Promise(r => setTimeout(r, 700));
+    await p.evaluate(() => document.querySelector('.dbm-b-low').click());   /* the odd one gets the near leaf */
+    await new Promise(r => setTimeout(r, 400));
+    await p.evaluate(() => document.querySelector('.dbm-b-again').click());
+    await new Promise(r => setTimeout(r, 250));
+    /* empty it, so saidEmpty is reached */
+    for (let i = 0; i < 5; i++) {
+      await p.evaluate(() => document.querySelector('.dbm-b-less').click());
+      await new Promise(r => setTimeout(r, 130));
+    }
+    /* fill it to CAP, so saidFull is reached */
+    for (let i = 0; i < 11; i++) {
+      await p.evaluate(() => document.querySelector('.dbm-b-more').click());
+      await new Promise(r => setTimeout(r, 110));
+    }
     await p.evaluate(() => { const g = document.querySelector('.lcs-btn-settings, [aria-label*="etting"], .lcs-settings-btn'); if (g) g.click(); });
     await new Promise(r => setTimeout(r, 260));
     await p.evaluate(() => { const T = window.DoublingMirror; T.premium = true; T._paint(); });
-    await p.evaluate(() => document.querySelector('.dbm-b-print').click());
+    await p.evaluate(() => document.querySelector('.dbm-b-print').click());   /* the paid sheet */
     await new Promise(r => setTimeout(r, 250));
     await p.evaluate(() => { const T = window.DoublingMirror; T.premium = false; T._paint(); T._gate(); });
     await new Promise(r => setTimeout(r, 200));
-    await p.evaluate(() => document.querySelector('.dbm-b-again').click());
-    await new Promise(r => setTimeout(r, 300));
-    /* @@ and the OTHER prediction, on a fresh parade — the driver had
-       only ever said no, so the yes branch read as dead. */
-    await p.evaluate(() => document.querySelector('.dbm-b-yes').click());
-    await new Promise(r => setTimeout(r, 400));
 
     const got = await p.evaluate(() => ({
       asked: Object.keys(window.__asked || {}),

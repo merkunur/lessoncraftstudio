@@ -1407,6 +1407,28 @@
       "Ritaglia i marciatori e l’arcata. Mettili uno dietro l’altro e falli passare, tanti affiancati per volta. Quando ne restano troppo pochi per riempire l’arcata, lasciali in piedi e disegna accanto gli spazi vuoti: quegli spazi vuoti sono ciò che il numero ti sta dicendo."
     ]
   },
+  "doubling-mirror": {
+    "name": "The Doubling Mirror",
+    "slug": "doppio-e-meta-con-i-gettoni-scuola-primaria",
+    "tagline": "Chiudi la cerniera e l’altra anta riceve altrettanti gettoni VERI: si possono toccare tutti.",
+    "metaTitle": "Doppio e metà con i gettoni, scuola primaria",
+    "metaDescription": "Dite prima quale sarà il doppio, poi chiudete il vassoio e contate. Nove si apre in cinque e quattro, perché quello che avanza deve andare da qualche parte.",
+    "about": [
+      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
+      "A tray with two leaves and a hinge between them.",
+      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+    ],
+    "howToUse": [
+      "Put another counter on the near leaf 6 on the near leaf.",
+      "Close the hinge 6 and 6 on the tray. 12 altogether.",
+      "Open the hinge 12 opens into 6 and 6."
+    ],
+    "classroomIdeas": [
+      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
+      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
+      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

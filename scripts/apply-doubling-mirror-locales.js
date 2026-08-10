@@ -94,7 +94,7 @@ const EXEMPT = {};   /* none yet — every exemption must be an auditable
 
 LOCALES.forEach(function (L) {
   (BAN[L] || []).forEach(function (b) {
-    const re = b[1](b[0]);
+    const re = (b[1] === 'stem' ? stem : word)(b[0]);
     KEYS.forEach(function (k) {
       if (!LOC[L] || !LOC[L][k]) return;
       if ((EXEMPT[k] || []).indexOf(b[0]) >= 0) return;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Landing Strip — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #52 — THE ROUNDING HILL. The number strip bent into slopes:
+       a dip at each of two consecutive round numbers and a ridge exactly
+       halfway between. A numbered stone is set down and let go — 47 runs
+       downhill into 50, because that is what nearest MEANS and there is
+       nothing to decide. But on the ridge at 45 the ground is level and
+       the stone WILL NOT FALL: the apparatus stops and waits for the room.
+       Once the class settles which way a ridge tips, the ridge is drawn
+       tilted from then on and every later tie obeys it, with no word
+       written anywhere. Three shipped surfaces on this platform give
+       three different answers to "what happens at exactly 45", and one
+       refuses to have the conversation — which is why this tool hands the
+       choice to the class instead of hard-coding a fourth. It loads NO
+       ART and NO AUDIO beyond the shell's own pop. -->
+
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/rounding-hill.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(RoundingHill, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -326,9 +326,23 @@ const clickSel = async (p, sel) => {
        `height:100%` pinned, the document never grows, scrollY stays 0,
        and every control below the fold is gone. Two shipped siblings
        still ship the inert form. So: scroll as far as the page will go,
-       then measure whether the LOWEST control has come into view. */
+       then measure whether the LOWEST control has come into view.
+
+       ⚠⚠ AND IT MUST BE A REAL SCROLL, NOT `window.scrollTo`. This
+       assertion USED to call scrollTo inside evaluate(), and it could
+       not fail on either single-rule removal — poisoned both ways, both
+       PASSED. `scrollTo` moves an `overflow:hidden` root
+       PROGRAMMATICALLY; `overflow:hidden` blocks the CHILD'S SWIPE, not
+       a script. So with the html rule alone removed, a child on a
+       320x568 phone genuinely could not reach the Print button in a
+       1150px app and this check scrolled there anyway and passed. It
+       measured SCRIPT reachability while its own docblock claimed USER
+       reachability - the #22 class, still uncaught, by the very
+       assertion written for it. `mouse.wheel` is a real input event and
+       obeys overflow. */
+    for (let i = 0; i < 40; i++) await p.mouse.wheel({ deltaY: 400 });
+    await new Promise(r => setTimeout(r, 120));
     const reach = await p.evaluate(() => {
-      window.scrollTo(0, 999999);
       const sy = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
       let low = 0, name = '';
       [].slice.call(document.querySelectorAll('.mqu-btn')).forEach(function (e) {

@@ -81,11 +81,23 @@
   'use strict';
 
   var GEO = {
-    /* ⚠ THE CAP IS ARITHMETIC. Twenty on a leaf is forty on the tray,
-       and forty counters at a 320px card are already at the legibility
-       floor the `counting-cups` build measured. Doubles beyond twenty
-       are also outside the band this tool claims. */
-    CAP: 20,
+    /* ⚠⚠ CAP = 9, AND IT IS DERIVED RATHER THAN CHOSEN. The art panel
+       measured every input: the widest real viewport is 704px (the tool
+       page pins the iframe at max-w-3xl less padding, at 1440/1920/2560
+       alike); the narrowest usable is 296px; the minimum honest disc
+       with no interior feature is 12px, certified by counting-cups' own
+       minimum-feature law; and the gap is 0.22d, eleven times the
+       house's certified separation. A row of 2a discs then measures
+       d*(2.44a + 0.03), so nine fits 296px with 10.8% margin and TEN
+       FITS WITH 1.0% — rejected on margin, not on arithmetic, because
+       3px of slack at the worst viewport is not a shippable number.
+       ⭐ And nine is PRINCIPLED, not merely fitted: it gives doubles
+       1+1 through 9+9, near-doubles to 9+10, and every odd count for the
+       no-halving case — the complete within-20 doubles family except
+       10+10, which `folding-wall.js:134` already retired by its own
+       argument: x10 is the place-value system, not a fact. Nobody needs
+       a mirror for it. */
+    CAP: 9,
     /* a leaf lays its counters out in rows of five, because five is the
        grouping every other tool on this shelf already uses */
     ROW: 5,
@@ -107,7 +119,11 @@
     SND_OPEN: 620,
     SND_SIDE: 880,
     SND_REFUSE: 300,
-    SND_DEBOUNCE: 160
+    /* ⚠ T_, NOT SND_. Every other SND_* here is a FREQUENCY and this
+       one is MILLISECONDS — two units under one prefix, distinguishable
+       only at the call site. `pair-gate.js:121` and `rounding-hill.js:194`
+       both ship that defect and are filed; this tool does not repeat it. */
+    T_SND_DEBOUNCE: 160
   };
 
   var DoublingMirror = {
@@ -239,13 +255,25 @@
       return { near: half, closed: true, odd: 0, opened: t };
     },
 
-    /* the class gives the odd one a leaf. dir -1 near, +1 far. */
+    /* ⭐⭐ THE ODD ONE GETS A LEAF, AND ONLY EVER ONE OF THEM. dir -1
+       near, +1 far.
+       ⚠ THE APPARATUS CAN EXPRESS n+n AND n+(n+1) AND NOTHING ELSE, and
+       that is the art panel's best finding: it came out of the
+       constraint rather than out of taste. A second outsider is REFUSED,
+       so the material itself forbids the off-family sums — which is
+       §23.2's "the material pushes back" stated as a fact about the
+       furniture rather than as a rule about the child. */
     giveSide: function (st, dir) {
       var s = this._st(st);
       if (s.odd !== 0) return null;
       if (dir !== -1 && dir !== 1) return null;
       return { near: s.near, closed: true, odd: dir, opened: s.opened };
     },
+
+    /* how many counters are standing outside the pair-up. NEVER more
+       than one, by construction: `odd` is a single token, so "two left
+       over" is not a state this model can hold. */
+    outside: function (st) { return this._st(st).odd === null ? 0 : 1; },
 
     /* ================= life cycle =================================== */
 
@@ -274,7 +302,7 @@
 
     _snd: function (f, force) {
       var now = Date.now();
-      if (!force && now - this._lastSound < GEO.SND_DEBOUNCE) return;
+      if (!force && now - this._lastSound < GEO.T_SND_DEBOUNCE) return;
       this._lastSound = now;
       if (this.api && this.api.sound) this.api.sound(f);
     },
@@ -563,8 +591,14 @@
       + 'font-family:"Baloo 2",system-ui,sans-serif;font-size:19px;font-weight:600;line-height:1;}'
       /* ⚠ the focus ring is DOUBLED: a panel measured #1E8FD4 on the
          working surface at 2.97:1, under the 3:1 non-text floor. */
-      + '.dbm-btn:focus-visible{outline:3px solid #1E8FD4;outline-offset:2px;'
-      + 'box-shadow:0 0 0 6px #0D4E44;}'
+      /* ⚠ THE PLATFORM FOCUS COLOUR FAILS ITS OWN FLOOR. Two panels now
+         measure #1E8FD4 on the working surface at 2.97:1, under the 3:1
+         non-text minimum, and it is almost certainly repo-wide across
+         fifty tools. Deep teal carries the contrast at 8.05:1 and the
+         cream offset is what separates it from the teal furniture. A
+         focus ring nobody can see is not a focus ring. */
+      + '.dbm-btn:focus-visible{outline:3px solid #0D4E44;outline-offset:2px;'
+      + 'box-shadow:0 0 0 5px #FBF3E4;}'
       + '.dbm-btn.is-off{opacity:.42;}'
       + '.dbm-b-print{border-style:dashed;margin-left:10px;}'
       + '.dbm-b-print.is-paid{border-style:solid;}'

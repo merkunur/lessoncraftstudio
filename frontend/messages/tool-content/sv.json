@@ -1297,6 +1297,29 @@
     "metaTitle": "Tioaskarna – bunta i tiotal och ental, åk 1–2",
     "metaDescription": "Brickorna är för många för att räknas en och en. Klassen skopar upp tio i taget, askarna stänger sig själva och rutorna gissar aldrig. Åk 1–2 i Lgr22."
   },
+  "number-hotel": {
+    "name": "Talhotellet",
+    "slug": "talhotellet-tiotal-och-ental-upp-till-100-lagstadiet",
+    "tagline": "Hundra rum, tio korridorer — korridorens siffra ar tiotalet.",
+    "metaTitle": "Talhotellet: tiotal och ental upp till 100",
+    "metaDescription": "Hundra rum, tio korridorer: korridorens siffra ar tiotalet. Se varfor 49 till 50 kraver trappan.",
+    "about": [
+      "Varje rum är ett tal. Ett steg tar dig till nästa dörr i korridoren. Hissen tar dig en korridor uppåt och lämnar dig vid samma dörr, och du kan bara läsa dörrarna i den korridor du står i. Korridoren tar slut — där fortsätter trappan.",
+      "Här tar korridoren slut. Efter rum 49 finns ingen dörr — från en korridor till nästa kommer man bara via trappan.",
+      "Ett hotell på papper med tomma dörrar, så att klassen skriver in rummen själva. En korridor är ifylld som start."
+    ],
+    "howToUse": [
+      "Var gästen börjar",
+      "Gå vidare till nästa dörr",
+      "Ta hissen en korridor uppåt — samma dörr",
+      "Ta trappan upp till första dörren i nästa korridor"
+    ],
+    "classroomIdeas": [
+      "Vi åker upp en korridor. Dörren är densamma, men dörrarna där uppe går inte att läsa förrän vi är framme.",
+      "Upp för trappan och hela nya korridoren tillbaka, till rum 50.",
+      "Skriv numret på varje dörr. En korridor är ifylld så att ni kommer igång."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -122,6 +122,19 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #49 AT REST IS ROOM 0 WITH NOTHING HAPPENING. The card has to
+     carry the thesis: the walker pressed against the end wall at room
+     9, the wall lit, one corridor readable and ninety doors dark. That
+     single frame is the dead end, the lit corridor and the elevator
+     indicator all at once, and it cannot be mistaken for a flat
+     hundred chart because you cannot see the whole chart. */
+  'number-hotel': [
+    { sel: '.nhl-b-right', wait: 320 }, { sel: '.nhl-b-right', wait: 320 },
+    { sel: '.nhl-b-right', wait: 320 }, { sel: '.nhl-b-right', wait: 320 },
+    { sel: '.nhl-b-right', wait: 320 }, { sel: '.nhl-b-right', wait: 320 },
+    { sel: '.nhl-b-right', wait: 320 }, { sel: '.nhl-b-right', wait: 320 },
+    { sel: '.nhl-b-right', wait: 320 }, { sel: '.nhl-b-right', wait: 260 }
+  ],
   /* ⭐ #48 SHOWS THE MECHANISM, NOT THE SPILL. A card of 199 undisturbed
      chips renders at ~7px each on the 480x360 gallery tile — stipple,
      and indistinguishable from the Estimation Jar's own card, which is
@@ -530,6 +543,10 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* ⚠ #49: arena (1:1) plus the ledge row runs past the 0.85 aspect
+     where --fit=auto TOP-CROPS and still reports "ok" — which on #48
+     cropped the payload out of the card twice. Wider keeps it under. */
+  'number-hotel': { width: 1000, height: 780 },
   /* ⚠ #48: at the DEFAULT width the stage measures ~720x600, aspect
      0.833 — only twelve pixels under the 0.85 line where --fit=auto
      TOP-CROPS and still reports "ok". Twelve pixels is not margin.

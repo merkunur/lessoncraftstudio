@@ -1296,6 +1296,29 @@
     "metaTitle": "Grouper par dix au CP — les barquettes de dix",
     "metaDescription": "Trop de jetons pour les compter un à un : on ramasse, la barquette se ferme au dixième, et l'écran n'annonce rien tant qu'une dizaine peut se faire."
   },
+  "number-hotel": {
+    "name": "L’hôtel des cent chambres",
+    "slug": "nombres-jusqu-a-100-passage-a-la-dizaine-cp",
+    "tagline": "Cent chambres, dix galeries, et au bout de chaque galerie un escalier qui remonte et ramene tout au debut de la suivante.",
+    "metaTitle": "L hotel des cent chambres — les nombres jusqu a 100, CP",
+    "metaDescription": "Dix galeries de dix chambres. L ascenseur ajoute dix sans changer de porte, l escalier fait passer a la dizaine. Outil gratuit au TBI, cycle 2.",
+    "about": [
+      "Chaque chambre est un nombre. On marche d’une porte à la suivante le long de la galerie. L’ascenseur monte ou descend d’une galerie et s’arrête toujours devant la même porte. Au bout de la galerie, il n’y a plus de porte, et ce sont les escaliers qui mènent plus loin. On ne lit les numéros que sur la galerie où l’on se tient.",
+      "La galerie s’arrête ici. Il n’y a pas de porte après la chambre 49 — d’une galerie à l’autre, on ne passe que par les escaliers.",
+      "Un hôtel de papier où une seule galerie est déjà remplie, toutes les autres portes attendant d’être numérotées par la classe."
+    ],
+    "howToUse": [
+      "Où l’on commence",
+      "Avancer jusqu’à la porte suivante",
+      "Prendre l’ascenseur, une galerie plus haut — la même porte",
+      "Prendre les escaliers jusqu’à la première porte de la galerie du dessus"
+    ],
+    "classroomIdeas": [
+      "On monte d’une galerie. La porte reste la même, mais là-haut les numéros ne se liront qu’en arrivant.",
+      "Les escaliers, puis tout le chemin en sens inverse le long de la nouvelle galerie, jusqu’à la chambre 50.",
+      "Écris le numéro sur chaque porte. Une galerie est déjà remplie, pour te donner le départ."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

@@ -1296,6 +1296,29 @@
     "metaTitle": "I secchielli da dieci — valore posizionale in prima",
     "metaDescription": "Troppi gettoni per contarli a uno a uno: la classe li raccoglie dieci alla volta e il numero si scrive da sé. Per la LIM, senza timer né punteggio."
   },
+  "number-hotel": {
+    "name": "L’albergo dei cento numeri",
+    "slug": "albergo-dei-numeri-fino-a-100-decine-e-unita",
+    "tagline": "Cento camere su dieci corridoi: un passo cambia le unita, l ascensore cambia la decina.",
+    "metaTitle": "L albergo dei cento numeri: decine e unita fino a 100",
+    "metaDescription": "Cento camere su dieci corridoi. Un passo cambia le unita, l ascensore cambia la decina, le scale sono il riporto.",
+    "about": [
+      "Ogni camera è un numero. Un passo ti porta avanti di una porta, l’ascensore ti porta su o giù di un corridoio intero e ti lascia davanti alla stessa porta, e le scale ci sono soltanto alle due estremità. I numeri si leggono solo sul corridoio dove siamo.",
+      "Qui il corridoio finisce. Dopo la camera 49 non c’è nessun’altra porta: da un corridoio all’altro si passa soltanto per le scale.",
+      "Un albergo di carta con le porte da riempire: un corridoio è già scritto come esempio, tutti gli altri li completa la classe."
+    ],
+    "howToUse": [
+      "Da dove partiamo",
+      "Vai avanti di una porta",
+      "Sali di un corridoio con l’ascensore — la stessa porta",
+      "Sali le scale fino alla prima porta del corridoio di sopra"
+    ],
+    "classroomIdeas": [
+      "Saliamo di un corridoio. Restiamo davanti alla stessa porta, ma i numeri lassù si leggeranno solo quando saremo arrivati.",
+      "Su per le scale e poi tutto indietro lungo il corridoio nuovo, fino alla camera 50.",
+      "Scrivi il numero su ogni porta. Un corridoio è già completo, per cominciare."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

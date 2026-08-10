@@ -1296,6 +1296,29 @@
     "metaTitle": "Agrupamento e valor posicional: os potinhos de dez",
     "metaDescription": "Contar uma coleção grande sem contar de um em um: a turma recolhe as fichas em potinhos de dez, empilha dez potinhos e lê centenas, dezenas e unidades."
   },
+  "number-hotel": {
+    "name": "O Hotel dos Números",
+    "slug": "hotel-dos-numeros-dezenas-e-unidades-anos-iniciais",
+    "tagline": "Nao existe porta depois do quarto 49: a escada sobe e devolve a turma ao comeco de outro corredor.",
+    "metaTitle": "O Hotel dos Numeros — dezenas e unidades, anos iniciais",
+    "metaDescription": "Ferramenta gratuita para a lousa: cada corredor e uma dezena, de 0 a 99. Depois do quarto 49 nao existe porta.",
+    "about": [
+      "Cada quarto é um número. Um passo leva uma porta adiante no corredor; o elevador leva um corredor para cima ou para baixo e nunca muda a porta. Quando o corredor acaba, quem continua é a escada. E só dá para ler os números do corredor em que a turma está.",
+      "O corredor termina aqui. Depois do quarto 49 não existe porta — de um corredor para o outro, só pela escada.",
+      "Um hotel no papel com um corredor já preenchido e as outras portas em branco, para a turma escrever os números que faltam."
+    ],
+    "howToUse": [
+      "Por onde começar",
+      "Dar um passo até a próxima porta",
+      "Subir um corredor de elevador — a mesma porta",
+      "Subir pela escada até a primeira porta do corredor de cima"
+    ],
+    "classroomIdeas": [
+      "Subindo um corredor. A porta é a mesma, mas só dá para ler os números de lá quando a gente chegar.",
+      "Escada acima e depois o corredor novo inteiro de volta, até o quarto 50.",
+      "Um corredor já está preenchido. Escreva o número nas outras portas."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

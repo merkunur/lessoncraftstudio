@@ -1275,6 +1275,29 @@
     "metaTitle": "Het breekbrood — een moeilijke tafel breken, groep 4/5",
     "metaDescription": "Breek zeven rijen van zes in vijf rijen van zes en twee rijen van zes — dezelfde broodjes, twee tafels die de klas al kent. Gratis digibordtool, groep 4/5."
   },
+  "counting-cups": {
+    "slug": "tienkokers-tientallen-en-eenheden-groep-3-4",
+    "name": "De Tienkokers",
+    "tagline": "Veel te veel om te tellen — dus schep je het bij tien tegelijk op.",
+    "about": [
+      "Er ligt een berg fiches op de mat, veel te veel om één voor één te tellen. Tik op de mat en er verschijnt een schep die precies oppakt wat er onder zit — nooit een afgesproken aantal, gewoon wat daar toevallig ligt. Die fiches vallen in een koker, en zodra de tiende erin valt gaat de koker vanzelf dicht: tien is tien, daar hoeft niemand over te stemmen.",
+      "Het bijzondere zit in wat het scherm níét doet. De uitlezing heeft drie vakjes en vult ze pas als ze zeker zijn: zolang er nog een tiental van de mat te halen valt, blijven de eenheden een vraagteken staan. Tien volle kokers schuiven in elkaar tot één stapel, en die stapel is honderd.",
+      "Haal je er één fiche af terwijl de mat leeg is, dan gaat er een koker open: lenen is hier geen regel maar iets wat je ziet gebeuren. Geen timer, geen score, geen goed of fout — en de omkering in onze telwoorden laten we bewust aan het Getallenlab."
+    ],
+    "howToUse": [
+      "Kies hoeveel er op de mat komt en laat de klas eerst kijken: kunnen we dit tellen? Het antwoord is nee, en dat is precies het startpunt.",
+      "Laat een kind zelf kiezen waar het schept. Een dicht stuk levert veel in één keer op, een leeg hoekje niets — dat verschil is het gesprek waard.",
+      "Wijs op de uitlezing zodra de eerste koker dichtgaat: waarom staat er al een tiental, maar nog een vraagteken bij de eenheden?",
+      "Werk door tot de mat leeg is en de drie cijfers tegelijk op hun plaats vallen. Vraag pas dán hoeveel het er waren."
+    ],
+    "classroomIdeas": [
+      "Schatten vooraf: laat de klas eerst roepen hoeveel het er zijn, schrijf de schattingen op het bord en vergelijk pas aan het eind. Wie dacht in tienen, zat dichtbij.",
+      "Voorspel de laatste koker: als er nog een handvol op de mat ligt, vraag dan of die nog vol wordt. De vraagtekens in de uitlezing stellen die vraag al voor je.",
+      "Haal er één af van een lege mat en laat de klas zien hoe een koker opengaat. Doe daarna dezelfde beweging op papier met een som onder elkaar."
+    ],
+    "metaTitle": "De Tienkokers – tientallen maken, groep 3-5",
+    "metaDescription": "Gratis digibordmateriaal: te veel fiches om te tellen, dus schep je ze bij tien tegelijk in kokers. Tientallen en positiewaarde, groep 3-5."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

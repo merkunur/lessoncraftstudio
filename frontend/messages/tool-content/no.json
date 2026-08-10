@@ -1274,6 +1274,29 @@
     "metaTitle": "Gangestykker fra kjente fakta – 2.-3. trinn | Bolleplata",
     "metaDescription": "Gratis verktøy for tavla: bollene er stekt sammen, klassen bestemmer hvor plata skal brytes, og 7 rader med 6 kommer ut av 5 rader med 6 og 2 rader med 6."
   },
+  "counting-cups": {
+    "slug": "telle-store-mengder-ti-om-gangen-plassverdi",
+    "name": "Ti om gangen",
+    "tagline": "Alt for mange til å telle én og én — så klassen øser ti om gangen, og tallet leser seg selv til slutt.",
+    "about": [
+      "På matta ligger det altfor mange brikker til at noen kan telle dem én og én. Trykker du på matta, kommer det fram en rund munn under fingeren som løfter det som tilfeldigvis ligger der — aldri et bestemt antall — og legger det ned i ei eske ved kanten. Eska rommer ti, og den lukker seg selv i det tiende brikka lander. Ti lukkede esker går inn i hverandre og blir én stabel, og stabelen er hundre.",
+      "Det som gjør verktøyet til noe annet enn en telleøvelse, er avlesningen: tre felt som nekter å gjette. Enerplassen står som spørsmålstegn så lenge det fortsatt kan bli en tier til, og i det øyeblikket det ikke kan det lenger, faller alle tre på plass samtidig.",
+      "Å ta bort én når matta er bar, bryter opp ei lukket eske — det er lånet, gjort med hendene i stedet for med en regel. Det finnes ingen poeng, ingen klokke og ingen retting: barnet velger selv hvor det vil øse."
+    ],
+    "howToUse": [
+      "Sett mengden på matta og vis den på storskjerm. Spør klassen hvor mange de tror det er — og la spørsmålet stå ubesvart.",
+      "La en elev trykke der han eller hun vil på matta. Se hva som blir løftet: det er aldri det samme antallet to ganger.",
+      "Stopp ved hver eske som lukker seg, og les avlesningen høyt sammen. Spør hvorfor enerplassen fortsatt står som spørsmålstegn.",
+      "Hold på til matta ikke kan gi fra seg ti til. Da faller alle tre plassene på plass samtidig — og det er klassen som har gjort arbeidet."
+    ],
+    "classroomIdeas": [
+      "Sikt bevisst: la ett barn øse midt i den tetteste haugen og et annet ute i kanten. Samme antall trykk, helt ulikt resultat — hvorfor?",
+      "Dagens tall i samlinga: kjør én matte hver morgen i to uker, og la klassen merke selv at de begynner å se tiere før eskene lukker seg.",
+      "Lånet med hendene: tøm matta helt, og trykk så «Ta bort en». Ei eske brytes opp foran øynene på dem."
+    ],
+    "metaTitle": "Ti om gangen – tiergrupper og plassverdi, 1.–3. trinn",
+    "metaDescription": "Gratis verktøy for storskjermen: altfor mange brikker til å telle én og én. Klassen øser ti om gangen ned i esker, og tallet leser seg selv. 1.–3. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

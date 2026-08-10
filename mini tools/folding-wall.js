@@ -11,29 +11,37 @@
    THE PROMISE: the hundred are really thirty-six, and the thirty-six
    are really TWENTY-ONE.
 
-   ⚠⚠ THIS IS NOT "THE FOLDING WALL" AND IT DOES NOT FOLD.
-   The v5 entry proposed folding each commutative twin onto its partner
-   across the diagonal. A four-surface fence came back the most occupied
-   in the programme and per §23.3 the rule is SUBTRACT, never negotiate:
-     - `folding-sheet.js` owns THE FOLD · THE CREASE · THE MIRROR and
-       THE TWIN. Its invention #3 IS a shipped diagonal involution
-       ("every cell has exactly one partner, and the partner of the
-       partner is you") with a real DOM reflection matrix. The proposal's
-       headline move is that, re-skinned onto a number grid.
-     - `number-sieve.js` already ships "tap once, a whole column of a
-       10-wide grid goes dark, simultaneously".
-     - the v5 doc's OWN naming note bans *folding* and *wall*.
-     - and a second folding apparatus (The Fold-and-Cut) was already
-       REJECTED from the v4 catalog for being too near folding-sheet.
-   So: no fold, no crease, no mirror, no twin, no hinge — not in a name,
-   not in a motion, and not in a dashed 45-degree line.
+   ⚠⚠ HISTORICAL WARNING — THIS HEADER ONCE SAID THE OPPOSITE OF THE CODE.
+   Until 2026-08-10 the block here read "THIS IS NOT THE FOLDING WALL AND
+   IT DOES NOT FOLD", and declared a build gate that NOTHING CROSSES THE
+   DIAGONAL. Both were wrong, and they were wrong in the most dangerous
+   possible way: they described a tool that had already been rebuilt.
+   THE TOOL FOLDS. See `_paint()` — `rotate(45) scale(1,1-2e) rotate(-45)`
+   is the identity at e=0 and the reflection about y = x at e=1, and the
+   shelf's diagonal IS y = x, so every folded card lands exactly on its
+   transpose, which carries the same product. `verify-folding-wall.js`
+   law 6 is now its own former opposite: it proves THE FOLD LANDS ON ITS
+   PARTNER.
+   How the error happened, recorded because it is cheap to repeat: the
+   v5 doc's naming note ("collisions to avoid AT NAMING: folding
+   (folding-sheet)") was read as licence to delete the GESTURE. It asked
+   for a RENAME. Three expert panels were then briefed on that invented
+   constraint and designed around a ban that did not exist. The operator
+   caught it and the fold went in.
+   ⚠ THE STANDING RULE: A NAMING NOTE IS NOT A DESIGN BAN. A note about
+   names governs names; a note about mechanics governs mechanics. If a
+   subtraction would remove the thing the commission is NAMED AFTER, that
+   is not a subtraction — it is a different commission, and it is the
+   operator's call, not ours.
 
-   ⭐⭐ THE ONE BUILD GATE — NOTHING CROSSES THE DIAGONAL.
-   No card may travel to, land on, cover, overlay, merge with, reflect
-   into or point at another card. Ever. A straight hop across the
-   diagonal READS as a fold at 29px whatever the code calls it. This is
-   enforced structurally: there is no cell-to-cell path anywhere in this
-   file, and `verify-folding-wall.js` law 6 asserts it.
+   ⭐ THE FENCE IS STILL REAL, and it is why the MOTION had to be
+   differentiated rather than removed. `folding-sheet.js` owns THE FOLD ·
+   THE CREASE · THE MIRROR · THE TWIN, and its invention #3 is a shipped
+   diagonal involution. `number-sieve.js` owns column-extinction on a
+   10-wide grid. So this tool folds a WALL OF PRODUCTS on ONE rigid
+   reflection (never a crease, never a dashed 45-degree guide, never a
+   per-card mirror), and the locale names went to the FOLDING SCREEN —
+   paravent / biombo / sermi / vikvagg — which is a different object.
 
    ⭐ THE DOCTRINAL RULING (pedagogy panel, unanimous). Two propositions
    had been collapsed into one:

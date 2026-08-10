@@ -1275,6 +1275,29 @@
     "metaTitle": "Das Brötchenblech – Einmaleins ableiten, Klasse 2 und 3",
     "metaDescription": "Kostenloses Werkzeug zum Ableiten im Einmaleins: Ein Blech Brötchen bricht an einer Rille auseinander, und aus 7 × 6 werden 5 × 6 und 2 × 6. Klasse 2 und 3."
   },
+  "counting-cups": {
+    "slug": "zehnerdosen",
+    "name": "Die Zehnerdosen",
+    "tagline": "Zu viele zum Zählen — bis die Zehner in den Dosen stehen.",
+    "about": [
+      "Auf dem Teppich liegen viel zu viele Plättchen, um sie einzeln zu zählen — genau der Moment, in dem Kinder anfangen und sich bei dreißig verzählen.",
+      "Ein Fingertipp schöpft auf, was gerade darunterliegt: mal drei, mal sieben, nie eine feste Zahl. Die Dose füllt sich, und bei zehn schließt sie sich von selbst.",
+      "Die Anzeige über dem Teppich rät nicht. Sie zeigt so lange Fragezeichen, wie noch ein Zehner entstehen könnte, und erst wenn keiner mehr möglich ist, steht die Zahl da — gebaut, nicht geraten."
+    ],
+    "howToUse": [
+      "Wählt zusammen, wie viel auf dem Teppich liegen soll: eine Handvoll, ein Haufen oder ein ganzer Berg.",
+      "Ein Kind tippt irgendwo auf den Teppich. Fragt vorher: Wie viele holen wir wohl? Die Klasse sieht sofort, dass niemand das vorher weiß.",
+      "Sammelt weiter, bis sich eine Dose schließt. Zehn Dosen rutschen zu einem Turm zusammen — das ist die Hundert.",
+      "Erst wenn der Teppich leer ist, steht die Zahl vollständig da. Lest sie gemeinsam vor und zeigt dabei auf die Dosen, die dazugehören."
+    ],
+    "classroomIdeas": [
+      "Schätzen vor dem Schöpfen: Alle zeigen mit den Fingern, wie viele Dosen es am Ende wohl werden. Nachher vergleichen — ohne richtig und falsch, nur schauen, wer nah dran war.",
+      "Zwei Kinder schöpfen abwechselnd an ganz verschiedenen Stellen. Am Ende steht dieselbe Zahl da: Der Weg ist frei, das Ergebnis nicht.",
+      "Nehmt bei leerem Teppich ein Plättchen weg. Eine volle Dose muss aufgehen — das ist genau das Bündel, das beim schriftlichen Rechnen entbündelt wird, nur zum Anfassen."
+    ],
+    "metaTitle": "Zehnerdosen: Bündeln und Stellenwert bis 100",
+    "metaDescription": "Viel zu viele Plättchen zum Einzelnzählen: schöpfen, in Zehnerdosen füllen, bündeln. Zahlenraum bis 100, Klasse 1 und 2 — kostenloses Werkzeug."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

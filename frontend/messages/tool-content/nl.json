@@ -1365,6 +1365,28 @@
       "Elk leeg sjabloon heeft aan beide uiteinden een stootblok en drie palen. Schrijf de twee getallen van de uiteinden erbij, hang het in de klas op en laat de klas er de hele week getallen bij zetten. Deel het volgende in als één tiental om daarbinnen verder te gaan."
     ]
   },
+  "rounding-hill": {
+    "name": "De afrondingsheuvel",
+    "slug": "afronden-op-tientallen-de-heuvel-groep-4-5",
+    "tagline": "Laat de steen los en hij rolt naar het dichtstbijzijnde tiental — behalve op de kam, waar de grond vlak is.",
+    "metaTitle": "Afronden op tientallen: de heuvel, groep 4 en 5",
+    "metaDescription": "47 rolt naar 50, want dat is het dichtstbij. Op 45 valt de steen niet vanzelf: de klas beslist welke kant de kam op helt.",
+    "about": [
+      "Zet de kei op de grond en laat los. Hij rolt naar de dichtstbijzijnde kuil — tenzij hij op de bult blijft liggen: daar is geen kant lager, hij valt niet vanzelf, en waar het getal vóór dient bepaalt welke kant hij op gaat.",
+      "Grond met aan elk uiteinde een kuil en een bult in het midden.",
+      "Het hele apparaat is gratis: elke helling, het wiebelen en het instellen van de bult. Het Leerkracht-abonnement voegt de papieren grond toe om uit te knippen en te vouwen, zodat hij op tafel blijft staan en een kind een echte kei op de bult kan leggen en ziet dat hij er echt niet af valt."
+    ],
+    "howToUse": [
+      "Loslaten. 47 rolt in kuil 50.",
+      "45 ligt op de bult. Geen kant is lager, dus de kei valt niet vanzelf. Waar dienen deze getallen voor — en naar welke kant moet dat de bult laten hellen?",
+      "De bult naar de bovenste kuil laten hellen. De klas heeft de bult naar 50 laten hellen, voor waar deze getallen nu voor dienen. Elke kei die precies op de bult belandt, gaat die kant op tot dat verandert."
+    ],
+    "classroomIdeas": [
+      "De bult staat weer recht. Waar dienen deze getallen nu voor? De kei wiebelt tot de klas hem opnieuw laat hellen.",
+      "de bult, precies tussen de twee kuilen in",
+      "Knip langs de rand en vouw op de stippellijnen, zodat de grond blijft staan. Schrijf de twee ronde getallen in de kuilen. Leg een echte kei ergens op een helling: hij rolt naar een kuil. Leg hem op de bult: hij blijft liggen — en daar gaat het om."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

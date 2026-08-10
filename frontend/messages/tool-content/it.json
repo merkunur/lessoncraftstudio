@@ -1363,6 +1363,28 @@
       "Ogni modello vuoto ha una sponda a entrambe le estremità e tre paletti. Scrivete i due numeri delle estremità, appendetelo in aula e lasciate che la classe ci aggiunga numeri per tutta la settimana. Graduate il successivo come una sola decina, per continuare al suo interno."
     ]
   },
+  "rounding-hill": {
+    "name": "La collina dell'arrotondamento",
+    "slug": "arrotondare-alla-decina-la-collina-primaria",
+    "tagline": "Lascia la pietra e scende verso la decina più vicina — tranne sul crinale, dove il terreno è piano.",
+    "metaTitle": "Arrotondare alla decina: la collina, primaria",
+    "metaDescription": "47 scende a 50, perché è quello il più vicino. Su 45 la pietra non cade da sola: la classe decide da che parte pende il crinale.",
+    "about": [
+      "Appoggia il ciottolo sul terreno e lascialo andare. Scende nella conca più vicina, a meno che non si fermi sulla cresta: lì nessun lato è più basso, non cade da solo, ed è a che cosa serve il numero a decidere da che parte va.",
+      "Terreno con una conca a ogni estremità e una cresta nel mezzo.",
+      "Tutto l'apparecchio è gratuito: ogni pendio, l'oscillazione e l'inclinazione della cresta. Il Piano Insegnante aggiunge il terreno di carta da ritagliare e piegare, che sta in piedi sul banco: un bambino può posare un ciottolo vero sulla cresta e vedere che davvero non cade."
+    ],
+    "howToUse": [
+      "Lascia andare. 47 scende nella conca 50.",
+      "45 è sulla cresta. Nessun lato è più basso, quindi il ciottolo non cade da solo. A che cosa servono questi numeri — e da che parte deve far pendere la cresta?",
+      "Inclina la cresta verso la conca più alta. La classe ha inclinato la cresta verso 50, per ciò a cui servono ora questi numeri. Ogni ciottolo che si ferma esattamente sulla cresta andrà da quella parte finché non cambia."
+    ],
+    "classroomIdeas": [
+      "La cresta è di nuovo dritta. A che cosa servono ora questi numeri? Il ciottolo oscilla finché la classe non la inclina di nuovo.",
+      "la cresta, a metà strada tra le due conche",
+      "Ritaglia lungo il contorno e piega sulle linee tratteggiate, così il terreno sta in piedi. Scrivi i due numeri tondi nelle conche. Posa un ciottolo vero in un punto qualsiasi di un pendio e scenderà in una conca; posalo sulla cresta e resterà lì, ed è tutto qui."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

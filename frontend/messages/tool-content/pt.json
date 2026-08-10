@@ -1363,6 +1363,28 @@
       "Cada modelo em branco tem um muro em cada ponta e três postes. Escrevam os dois números das pontas, pendurem na sala e deixem a turma acrescentar números a semana toda. Graduem o próximo como uma dezena só, para continuar dentro dela."
     ]
   },
+  "rounding-hill": {
+    "name": "A colina do arredondamento",
+    "slug": "arredondar-para-a-dezena-a-colina-anos-iniciais",
+    "tagline": "Solte a pedra e ela desce para a dezena mais próxima — menos na crista, onde o chão está plano.",
+    "metaTitle": "Arredondar para a dezena: a colina, anos iniciais",
+    "metaDescription": "47 desce para 50, porque é isso o mais próximo. Em 45 a pedra não cai sozinha: a turma decide para que lado a crista pende.",
+    "about": [
+      "Apoie o seixo no terreno e solte. Ele desce até a cova mais próxima — a não ser que pare sobre a crista: ali nenhum lado está mais baixo, ele não cai sozinho, e é para que serve o número que decide para que lado ele vai.",
+      "Terreno com uma cova em cada ponta e uma crista no meio.",
+      "O aparelho inteiro é gratuito: cada ladeira, o balanço e a inclinação da crista. O Plano Professor acrescenta o terreno de papel para recortar e dobrar, que fica em pé na mesa: a criança pode colocar um seixo de verdade sobre a crista e ver que ele realmente não cai."
+    ],
+    "howToUse": [
+      "Soltar. 47 desce até a cova 50.",
+      "45 está sobre a crista. Nenhum lado está mais baixo, então o seixo não cai sozinho. Para que servem estes números — e para que lado isso deve inclinar a crista?",
+      "Inclinar a crista para a cova de cima. A turma inclinou a crista para 50, pelo que estes números estão servindo agora. Cada seixo que parar bem sobre a crista vai para esse lado até isso mudar."
+    ],
+    "classroomIdeas": [
+      "A crista está reta de novo. Para que servem estes números agora? O seixo fica balançando até a turma inclinar de novo.",
+      "a crista, na metade do caminho entre as duas covas",
+      "Recorte pelo contorno e dobre nas linhas pontilhadas para o terreno ficar em pé. Escreva os dois números redondos nas covas. Coloque um seixo de verdade em qualquer ponto de uma ladeira e ele desce até uma cova; coloque sobre a crista e ele fica lá, que é justamente a questão."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

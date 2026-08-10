@@ -90,6 +90,29 @@ const srv = http.createServer((rq, rs) => {
     await new Promise(r => setTimeout(r, 500));
     await p.evaluate(() => document.querySelector('.rnh-b-td').click());
     await new Promise(r => setTimeout(r, 400));
+    /* @@ the three no-op / off-ridge branches, each reachable only from a
+       state a lazy driver never enters */
+    await p.evaluate(() => document.querySelector('.rnh-b-tc').click());   /* clear when ALREADY level */
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.rnh-b-td').click());
+    await new Promise(r => setTimeout(r, 300));
+    await p.evaluate(() => document.querySelector('.rnh-b-td').click());   /* set to the SAME direction */
+    await new Promise(r => setTimeout(r, 250));
+    /* clear while the boulder is OFF the ridge: the other clear branch */
+    await p.evaluate(() => { const T = window.RoundingHill; T.st = T.again(T.st, T.st.lo + T.step()); T.render(); });
+    await p.evaluate(() => document.querySelector('.rnh-b-go').click());
+    await new Promise(r => setTimeout(r, 900));
+    await p.evaluate(() => document.querySelector('.rnh-b-tc').click());
+    await new Promise(r => setTimeout(r, 400));
+    /* @@ FORCE THE STATE, then press. Chaining clicks and hoping the tilt
+       lands where the branch needs it is how two of these read as dead:
+       the driver has to KNOW the state it is testing. */
+    await p.evaluate(() => { const T = window.RoundingHill; T.st = { unit: T.st.unit, lo: T.st.lo, hi: T.st.hi, at: T.ridge(T.st), phase: 'held', rest: null, tilt: 0 }; T.render(); });
+    await p.evaluate(() => document.querySelector('.rnh-b-tc').click());   /* level when ALREADY level */
+    await new Promise(r => setTimeout(r, 300));
+    await p.evaluate(() => { const T = window.RoundingHill; T.st = { unit: T.st.unit, lo: T.st.lo, hi: T.st.hi, at: T.st.lo + T.step(), phase: 'settled', rest: T.st.lo, tilt: 1 }; T.render(); });
+    await p.evaluate(() => document.querySelector('.rnh-b-tc').click());   /* clear while OFF the ridge */
+    await new Promise(r => setTimeout(r, 400));
     await p.evaluate(() => document.querySelector('.rnh-b-again').click());
     await new Promise(r => setTimeout(r, 400));
     await p.evaluate(() => { const T = window.RoundingHill; T.st = T.again(T.st, T.st.lo); T.render(); });

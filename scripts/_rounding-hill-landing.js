@@ -27,223 +27,223 @@ module.exports = {
     ]
   },
   "de": {
-    "name": "The Rounding Hill",
+    "name": "Der Rundungshügel",
     "slug": "runden-auf-zehner-am-huegel-grundschule",
     "tagline": "Loslassen, und der Stein rollt in den nächsten Zehner — bis er genau auf dem Grat liegt, wo der Boden eben ist.",
     "metaTitle": "Runden auf Zehner: der Hügel, Klasse 2 und 3",
     "metaDescription": "47 rollt zur 50, weil das nächste eben die 50 ist. Auf der 45 fällt der Stein nicht von selbst — die Klasse entscheidet, wohin der Grat kippt.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Setzt den Brocken auf das Gelände und lasst ihn los. Er rollt in die nächste Mulde – außer er kommt auf dem Grat zu liegen: dort ist keine Seite tiefer, von allein rollt er nicht weiter, und wozu die Zahl gebraucht wird, entscheidet, wohin er geht.",
+      "Gelände mit je einer Mulde an beiden Enden und einem Grat in der Mitte.",
+      "Das ganze Gerät ist kostenlos – jeder Abhang, das Wackeln und das Neigen des Grats. Das Lehrkraft-Abo ergänzt das Gelände aus Papier zum Ausschneiden und Falten: Es steht auf dem Tisch, und ein Kind kann einen echten Brocken auf den Grat legen und sehen, dass er wirklich liegen bleibt."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Loslassen. 47 rollt in die Mulde 50.",
+      "45 liegt auf dem Grat. Keine Seite ist tiefer, also rollt der Brocken von allein nicht weiter. Wozu braucht ihr diese Zahlen – und wohin soll das den Grat neigen?",
+      "Den Grat zur oberen Mulde neigen. Die Klasse hat den Grat in Richtung 50 geneigt – dafür, wozu diese Zahlen gerade gebraucht werden. Jeder Brocken, der genau auf dem Grat landet, geht dorthin, bis sich das ändert."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "Der Grat steht wieder gerade. Wozu werden diese Zahlen jetzt gebraucht? Der Brocken wackelt, bis die Klasse den Grat neu neigt.",
+      "der Grat, genau in der Mitte zwischen den beiden Mulden",
+      "Schneidet am Rand entlang und faltet an den gestrichelten Linien, damit das Gelände steht. Schreibt die beiden runden Zahlen in die Mulden. Legt einen echten Brocken irgendwo auf einen Abhang – er rollt in eine Mulde; legt ihn auf den Grat, bleibt er liegen. Genau darum geht es."
     ]
   },
   "fr": {
-    "name": "The Rounding Hill",
+    "name": "La colline des arrondis",
     "slug": "arrondir-a-la-dizaine-la-butte-cycle-2",
     "tagline": "Lâchez la pierre : elle descend vers la dizaine la plus proche — sauf sur la crête, où le sol est plat.",
     "metaTitle": "Arrondir à la dizaine : la butte, cycle 2 et 3",
     "metaDescription": "47 descend vers 50, parce que c est cela, le plus proche. Sur 45 la pierre ne tombe pas toute seule : la classe décide de quel côté penche la crête.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Pose le caillou sur le terrain et lâche-le. Il descend dans la cuvette la plus proche – sauf s'il s'arrête sur la crête : là, aucun côté n'est plus bas, il ne tombe pas tout seul, et c'est l'usage qu'on fait du nombre qui décide de quel côté il va.",
+      "Terrain avec une cuvette à chaque bout et une crête au milieu.",
+      "Tout l'appareil est gratuit : chaque pente, l'hésitation et le réglage de la crête. L'Abonnement Enseignant ajoute le terrain en papier à découper et à plier, qui tient debout sur une table : un enfant peut poser un vrai caillou sur la crête et voir qu'il ne tombe vraiment pas."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Lâcher. 47 descend dans la cuvette 50.",
+      "45 est sur la crête. Aucun côté n'est plus bas, donc le caillou ne tombe pas tout seul. À quoi servent ces nombres – et de quel côté cela doit-il faire pencher la crête ?",
+      "Faire pencher la crête vers la cuvette du haut. La classe a fait pencher la crête vers 50, pour l'usage qu'on fait de ces nombres. Chaque caillou qui s'arrête pile sur la crête ira de ce côté jusqu'à ce que cela change."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "La crête est de nouveau droite. À quoi servent ces nombres maintenant ? Le caillou hésite jusqu'à ce que la classe la règle de nouveau.",
+      "la crête, à mi-chemin entre les deux cuvettes",
+      "Découpe le contour et plie sur les pointillés pour que le terrain tienne debout. Écris les deux nombres ronds dans les cuvettes. Pose un vrai caillou n'importe où sur une pente : il descend dans une cuvette. Pose-le sur la crête : il reste. C'est tout l'intérêt."
     ]
   },
   "es": {
-    "name": "The Rounding Hill",
+    "name": "La colina del redondeo",
     "slug": "redondear-a-la-decena-la-loma-primaria",
     "tagline": "Suelta la piedra y baja hacia la decena más cercana — salvo en la cresta, donde el suelo está llano.",
     "metaTitle": "Redondear a la decena: la loma, Primaria",
     "metaDescription": "47 baja a 50, porque eso es lo más cercano. En 45 la piedra no cae sola: la clase decide hacia dónde se inclina la cresta.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Coloca el guijarro en el terreno y suéltalo. Baja rodando hasta la hondonada más cercana, salvo que quede sobre la cresta: allí ningún lado está más bajo, no cae solo, y es para qué sirve el número lo que decide hacia dónde va.",
+      "Terreno con una hondonada en cada extremo y una cresta en el medio.",
+      "Todo el aparato es gratuito: cada ladera, el balanceo y la inclinación de la cresta. El Plan Docente añade el terreno de papel para recortar y plegar, que se sostiene sobre la mesa: un niño puede poner un guijarro de verdad sobre la cresta y ver que de verdad no cae."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Soltar. 47 baja hasta la hondonada 50.",
+      "45 está sobre la cresta. Ningún lado está más bajo, así que el guijarro no cae solo. ¿Para qué sirven estos números y hacia dónde debe inclinar eso la cresta?",
+      "Inclinar la cresta hacia la hondonada de arriba. La clase ha inclinado la cresta hacia 50, para lo que se están usando estos números. Cada guijarro que quede justo sobre la cresta irá hacia ese lado hasta que eso cambie."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "La cresta vuelve a estar recta. ¿Para qué sirven ahora estos números? El guijarro se balanceará hasta que la clase vuelva a inclinarla.",
+      "la cresta, a mitad de camino entre las dos hondonadas",
+      "Recorta por el contorno y pliega por las líneas de puntos para que el terreno se sostenga. Escribe los dos números redondos en las hondonadas. Pon un guijarro de verdad en cualquier punto de una ladera y bajará a una hondonada; ponlo sobre la cresta y se quedará ahí, que es de lo que se trata."
     ]
   },
   "pt": {
-    "name": "The Rounding Hill",
+    "name": "A colina do arredondamento",
     "slug": "arredondar-para-a-dezena-a-colina-anos-iniciais",
     "tagline": "Solte a pedra e ela desce para a dezena mais próxima — menos na crista, onde o chão está plano.",
     "metaTitle": "Arredondar para a dezena: a colina, anos iniciais",
     "metaDescription": "47 desce para 50, porque é isso o mais próximo. Em 45 a pedra não cai sozinha: a turma decide para que lado a crista pende.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Apoie o seixo no terreno e solte. Ele desce até a cova mais próxima — a não ser que pare sobre a crista: ali nenhum lado está mais baixo, ele não cai sozinho, e é para que serve o número que decide para que lado ele vai.",
+      "Terreno com uma cova em cada ponta e uma crista no meio.",
+      "O aparelho inteiro é gratuito: cada ladeira, o balanço e a inclinação da crista. O Plano Professor acrescenta o terreno de papel para recortar e dobrar, que fica em pé na mesa: a criança pode colocar um seixo de verdade sobre a crista e ver que ele realmente não cai."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Soltar. 47 desce até a cova 50.",
+      "45 está sobre a crista. Nenhum lado está mais baixo, então o seixo não cai sozinho. Para que servem estes números — e para que lado isso deve inclinar a crista?",
+      "Inclinar a crista para a cova de cima. A turma inclinou a crista para 50, pelo que estes números estão servindo agora. Cada seixo que parar bem sobre a crista vai para esse lado até isso mudar."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "A crista está reta de novo. Para que servem estes números agora? O seixo fica balançando até a turma inclinar de novo.",
+      "a crista, na metade do caminho entre as duas covas",
+      "Recorte pelo contorno e dobre nas linhas pontilhadas para o terreno ficar em pé. Escreva os dois números redondos nas covas. Coloque um seixo de verdade em qualquer ponto de uma ladeira e ele desce até uma cova; coloque sobre a crista e ele fica lá, que é justamente a questão."
     ]
   },
   "it": {
-    "name": "The Rounding Hill",
+    "name": "La collina dell'arrotondamento",
     "slug": "arrotondare-alla-decina-la-collina-primaria",
     "tagline": "Lascia la pietra e scende verso la decina più vicina — tranne sul crinale, dove il terreno è piano.",
     "metaTitle": "Arrotondare alla decina: la collina, primaria",
     "metaDescription": "47 scende a 50, perché è quello il più vicino. Su 45 la pietra non cade da sola: la classe decide da che parte pende il crinale.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Appoggia il ciottolo sul terreno e lascialo andare. Scende nella conca più vicina, a meno che non si fermi sulla cresta: lì nessun lato è più basso, non cade da solo, ed è a che cosa serve il numero a decidere da che parte va.",
+      "Terreno con una conca a ogni estremità e una cresta nel mezzo.",
+      "Tutto l'apparecchio è gratuito: ogni pendio, l'oscillazione e l'inclinazione della cresta. Il Piano Insegnante aggiunge il terreno di carta da ritagliare e piegare, che sta in piedi sul banco: un bambino può posare un ciottolo vero sulla cresta e vedere che davvero non cade."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Lascia andare. 47 scende nella conca 50.",
+      "45 è sulla cresta. Nessun lato è più basso, quindi il ciottolo non cade da solo. A che cosa servono questi numeri — e da che parte deve far pendere la cresta?",
+      "Inclina la cresta verso la conca più alta. La classe ha inclinato la cresta verso 50, per ciò a cui servono ora questi numeri. Ogni ciottolo che si ferma esattamente sulla cresta andrà da quella parte finché non cambia."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "La cresta è di nuovo dritta. A che cosa servono ora questi numeri? Il ciottolo oscilla finché la classe non la inclina di nuovo.",
+      "la cresta, a metà strada tra le due conche",
+      "Ritaglia lungo il contorno e piega sulle linee tratteggiate, così il terreno sta in piedi. Scrivi i due numeri tondi nelle conche. Posa un ciottolo vero in un punto qualsiasi di un pendio e scenderà in una conca; posalo sulla cresta e resterà lì, ed è tutto qui."
     ]
   },
   "nl": {
-    "name": "The Rounding Hill",
+    "name": "De afrondingsheuvel",
     "slug": "afronden-op-tientallen-de-heuvel-groep-4-5",
     "tagline": "Laat de steen los en hij rolt naar het dichtstbijzijnde tiental — behalve op de kam, waar de grond vlak is.",
     "metaTitle": "Afronden op tientallen: de heuvel, groep 4 en 5",
     "metaDescription": "47 rolt naar 50, want dat is het dichtstbij. Op 45 valt de steen niet vanzelf: de klas beslist welke kant de kam op helt.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Zet de kei op de grond en laat los. Hij rolt naar de dichtstbijzijnde kuil — tenzij hij op de bult blijft liggen: daar is geen kant lager, hij valt niet vanzelf, en waar het getal vóór dient bepaalt welke kant hij op gaat.",
+      "Grond met aan elk uiteinde een kuil en een bult in het midden.",
+      "Het hele apparaat is gratis: elke helling, het wiebelen en het instellen van de bult. Het Leerkracht-abonnement voegt de papieren grond toe om uit te knippen en te vouwen, zodat hij op tafel blijft staan en een kind een echte kei op de bult kan leggen en ziet dat hij er echt niet af valt."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Loslaten. 47 rolt in kuil 50.",
+      "45 ligt op de bult. Geen kant is lager, dus de kei valt niet vanzelf. Waar dienen deze getallen voor — en naar welke kant moet dat de bult laten hellen?",
+      "De bult naar de bovenste kuil laten hellen. De klas heeft de bult naar 50 laten hellen, voor waar deze getallen nu voor dienen. Elke kei die precies op de bult belandt, gaat die kant op tot dat verandert."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "De bult staat weer recht. Waar dienen deze getallen nu voor? De kei wiebelt tot de klas hem opnieuw laat hellen.",
+      "de bult, precies tussen de twee kuilen in",
+      "Knip langs de rand en vouw op de stippellijnen, zodat de grond blijft staan. Schrijf de twee ronde getallen in de kuilen. Leg een echte kei ergens op een helling: hij rolt naar een kuil. Leg hem op de bult: hij blijft liggen — en daar gaat het om."
     ]
   },
   "sv": {
-    "name": "The Rounding Hill",
+    "name": "Avrundningskullen",
     "slug": "avrunda-till-tiotal-kullen-lagstadiet",
     "tagline": "Släpp stenen och den rullar ner i närmaste tiotal — utom på krönet, där marken är plan.",
     "metaTitle": "Avrunda till tiotal: kullen, lågstadiet",
     "metaDescription": "47 rullar till 50, för det är närmast. På 45 faller stenen inte av sig själv: klassen bestämmer åt vilket håll krönet lutar.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Sätt ner stenbumlingen på marken och släpp. Den rullar ner i närmaste grop – om den inte hamnar på krönet: där är ingen sida lägre, den rullar inte av sig själv, och vad talet ska användas till avgör åt vilket håll den går.",
+      "Mark med en grop i vardera änden och ett krön i mitten.",
+      "Hela apparaten är gratis – varje sluttning, vacklandet och att luta krönet. Lärarplanen lägger till marken i papper att klippa ut och vika, så att den står på bordet och ett barn kan lägga en riktig stenbumling på krönet och se att den verkligen ligger kvar."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Släpp. 47 rullar ner i gropen 50.",
+      "45 ligger på krönet. Ingen sida är lägre, så stenbumlingen rullar inte av sig själv. Vad ska de här talen användas till – och åt vilket håll ska det luta krönet?",
+      "Luta krönet mot den högre gropen. Klassen har lutat krönet mot 50, för det som de här talen används till nu. Varje stenbumling som hamnar precis på krönet går åt det hållet tills det ändras."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "Krönet är rakt igen. Vad ska de här talen användas till nu? Stenbumlingen vacklar tills klassen lutar krönet på nytt.",
+      "krönet, mitt emellan de två groparna",
+      "Klipp längs kanten och vik på de streckade linjerna så att marken står upp. Skriv de två runda talen i groparna. Lägg en riktig stenbumling var som helst på en sluttning – den rullar ner i en grop. Lägg den på krönet – den ligger kvar, och det är hela poängen."
     ]
   },
   "da": {
-    "name": "The Rounding Hill",
+    "name": "Afrundingshøjen",
     "slug": "afrunding-til-tiere-bakken-indskoling",
     "tagline": "Slip stenen, og den triller ned i den nærmeste tier — undtagen på kammen, hvor jorden er flad.",
     "metaTitle": "Afrunding til tiere: bakken, indskolingen",
     "metaDescription": "47 triller til 50, for det er nærmest. På 45 falder stenen ikke af sig selv: klassen bestemmer, hvilken vej kammen hælder.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Sæt kampestenen på terrænet og slip. Den ruller ned i den nærmeste fordybning — medmindre den bliver liggende på højderyggen: dér er ingen side lavere, den falder ikke af sig selv, og hvad tallet skal bruges til afgør, hvilken vej den går.",
+      "Terræn med en fordybning i hver ende og en højderyg i midten.",
+      "Hele apparatet er gratis – hver skråning, vaklen og det at hælde højderyggen. Lærerabonnementet tilføjer papirterrænet til at klippe ud og folde, så det står på bordet, og et barn kan lægge en rigtig kampesten på højderyggen og se, at den virkelig bliver liggende."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Slip. 47 ruller ned i fordybningen 50.",
+      "45 ligger på højderyggen. Ingen side er lavere, så kampestenen falder ikke af sig selv. Hvad skal de her tal bruges til — og hvilken vej skal det hælde højderyggen?",
+      "Hæld højderyggen mod den højere fordybning. Klassen har hældt højderyggen mod 50, ud fra hvad de her tal bruges til nu. Hver kampesten, der lander præcis på højderyggen, går den vej, indtil det ændrer sig."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "Højderyggen er rank igen. Hvad skal de her tal bruges til nu? Kampestenen vakler, indtil klassen hælder den på ny.",
+      "højderyggen, midt mellem de to fordybninger",
+      "Klip langs kanten og fold på de stiplede linjer, så terrænet står op. Skriv de to runde tal i fordybningerne. Læg en rigtig kampesten et vilkårligt sted på en skråning – den ruller ned i en fordybning. Læg den på højderyggen – den bliver liggende, og det er hele pointen."
     ]
   },
   "no": {
-    "name": "The Rounding Hill",
+    "name": "Avrundingskollen",
     "slug": "avrunding-til-tiere-bakken-smatrinnet",
     "tagline": "Slipp steinen, og den triller ned i nærmeste tier — bortsett fra på kammen, der bakken er flat.",
     "metaTitle": "Avrunding til tiere: bakken, småtrinnet",
     "metaDescription": "47 triller til 50, for det er nærmest. På 45 faller steinen ikke av seg selv: klassen bestemmer hvilken vei kammen heller.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Sett kampesteinen ned på terrenget og slipp. Den triller ned i den nærmeste gropa — med mindre den blir liggende på høyderyggen: der er ingen side lavere, den faller ikke av seg selv, og hva tallet skal brukes til avgjør hvilken vei den går.",
+      "Terreng med ei grop i hver ende og en høyderygg i midten.",
+      "Hele apparatet er gratis – hver skråning, vaklingen og det å helle høyderyggen. Lærerabonnementet legger til papirterrenget til å klippe ut og brette, så det står på pulten, og et barn kan legge en ekte kampestein på høyderyggen og se at den virkelig blir liggende."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Slipp. 47 triller ned i gropa 50.",
+      "45 ligger på høyderyggen. Ingen side er lavere, så kampesteinen faller ikke av seg selv. Hva skal disse tallene brukes til — og hvilken vei skal det helle høyderyggen?",
+      "Hell høyderyggen mot den høyere gropa. Klassen har helt høyderyggen mot 50, ut fra hva disse tallene brukes til nå. Hver kampestein som havner nøyaktig på høyderyggen, går den veien til det endrer seg."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "Høyderyggen er rett igjen. Hva skal disse tallene brukes til nå? Kampesteinen vakler til klassen heller den på nytt.",
+      "høyderyggen, midt mellom de to gropene",
+      "Klipp langs kanten og brett på de stiplede linjene, så terrenget står. Skriv de to runde tallene i gropene. Legg en ekte kampestein hvor som helst i en skråning – den triller ned i ei grop. Legg den på høyderyggen – den blir liggende, og det er hele poenget."
     ]
   },
   "fi": {
-    "name": "The Rounding Hill",
+    "name": "Pyöristysmäki",
     "slug": "pyoristaminen-kymmeniin-kumpu-alkuopetus",
     "tagline": "Päästä kivi irti, ja se vierii lähimpään kymmeneen — paitsi harjalla, jossa maa on tasainen.",
     "metaTitle": "Pyöristäminen kymmeniin: kumpu, alkuopetus",
     "metaDescription": "47 vierii viiteenkymmeneen, koska se on lähin. Luvussa 45 kivi ei putoa itsestään: luokka päättää, kummalle puolelle harja kallistuu.",
     "about": [
-      "Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.",
-      "Ground with a dip at each end and a ridge in the middle.",
-      "The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real counter on the ridge and see that it truly does not fall."
+      "Aseta lohkare maastoon ja päästä irti. Se vierii lähimpään kuoppaan – paitsi jos se jää harjanteelle: siellä kumpikaan puoli ei ole alempana, lohkare ei lähde itsestään liikkeelle, ja se, mihin lukua tarvitaan, ratkaisee kumpaan suuntaan se menee.",
+      "Maasto, jonka kummassakin päässä on kuoppa ja keskellä harjanne.",
+      "Koko laite on ilmainen – jokainen rinne, huojunta ja harjanteen kallistaminen. Opettajatilaus lisää paperisen maaston, jonka voi leikata ja taittaa pystyyn pöydälle: lapsi voi asettaa oikean lohkareen harjanteelle ja nähdä, ettei se todellakaan lähde liikkeelle."
     ],
     "howToUse": [
-      "Let go. 47 settles into 50.",
-      "45 is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?",
-      "Settle the ridge towards the higher dip. This class has settled the ridge towards 50. From now on the stone goes that way every time it lands on a ridge."
+      "Päästä irti. 47 vierii kuoppaan 50.",
+      "45 on harjanteella. Kumpikaan puoli ei ole alempana, joten lohkare ei lähde itsestään liikkeelle. Mihin näitä lukuja tarvitaan – ja kumpaan suuntaan sen pitäisi kallistaa harjanne?",
+      "Kallista harjanne ylempää kuoppaa kohti. Luokka on kallistanut harjanteen lukua 50 kohti sen mukaan, mihin näitä lukuja nyt tarvitaan. Jokainen lohkare, joka jää tarkalleen harjanteelle, menee sinne, kunnes se muuttuu."
     ],
     "classroomIdeas": [
-      "The ridge is level again. The stone will teeter until somebody settles it.",
-      "the ridge, halfway between the two dips",
-      "Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put a counter anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point."
+      "Harjanne on taas tasainen. Mihin näitä lukuja nyt tarvitaan? Lohkare huojuu, kunnes luokka kallistaa harjanteen uudelleen.",
+      "harjanne, tasan kahden kuopan puolivälissä",
+      "Leikkaa ääriviivaa pitkin ja taita katkoviivoista, niin maasto seisoo pystyssä. Kirjoita kuoppiin kaksi tasalukua. Aseta oikea lohkare mihin tahansa kohtaan rinnettä – se vierii kuoppaan. Aseta se harjanteelle – se jää siihen, ja siinä on koko juju."
     ]
   }
 };

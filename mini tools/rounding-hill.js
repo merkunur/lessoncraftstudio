@@ -204,26 +204,266 @@
     id: 'rounding-hill',
 
     strings: {
-      title: { en: 'The Rounding Hill' },
-      instruction: { en: 'Set the boulder down and let go. It settles into the nearest dip — unless it lands on the ridge, where neither side is lower, it will not roll on its own, and what the number is FOR decides which way it goes.' },
+      title: {
+        en: 'The Rounding Hill',
+        de: 'Der Rundungshügel',
+        fr: 'La colline des arrondis',
+        es: 'La colina del redondeo',
+        pt: 'A colina do arredondamento',
+        it: 'La collina dell\'arrotondamento',
+        nl: 'De afrondingsheuvel',
+        sv: 'Avrundningskullen',
+        da: 'Afrundingshøjen',
+        no: 'Avrundingskollen',
+        fi: 'Pyöristysmäki'
+      },
+      instruction: {
+        en: 'Set the boulder down and let go. It settles into the nearest dip — unless it lands on the ridge, where neither side is lower, it will not roll on its own, and what the number is FOR decides which way it goes.',
+        de: 'Setzt den Brocken auf das Gelände und lasst ihn los. Er rollt in die nächste Mulde – außer er kommt auf dem Grat zu liegen: dort ist keine Seite tiefer, von allein rollt er nicht weiter, und wozu die Zahl gebraucht wird, entscheidet, wohin er geht.',
+        fr: 'Pose le caillou sur le terrain et lâche-le. Il descend dans la cuvette la plus proche – sauf s\'il s\'arrête sur la crête : là, aucun côté n\'est plus bas, il ne tombe pas tout seul, et c\'est l\'usage qu\'on fait du nombre qui décide de quel côté il va.',
+        es: 'Coloca el guijarro en el terreno y suéltalo. Baja rodando hasta la hondonada más cercana, salvo que quede sobre la cresta: allí ningún lado está más bajo, no cae solo, y es para qué sirve el número lo que decide hacia dónde va.',
+        pt: 'Apoie o seixo no terreno e solte. Ele desce até a cova mais próxima — a não ser que pare sobre a crista: ali nenhum lado está mais baixo, ele não cai sozinho, e é para que serve o número que decide para que lado ele vai.',
+        it: 'Appoggia il ciottolo sul terreno e lascialo andare. Scende nella conca più vicina, a meno che non si fermi sulla cresta: lì nessun lato è più basso, non cade da solo, ed è a che cosa serve il numero a decidere da che parte va.',
+        nl: 'Zet de kei op de grond en laat los. Hij rolt naar de dichtstbijzijnde kuil — tenzij hij op de bult blijft liggen: daar is geen kant lager, hij valt niet vanzelf, en waar het getal vóór dient bepaalt welke kant hij op gaat.',
+        sv: 'Sätt ner stenbumlingen på marken och släpp. Den rullar ner i närmaste grop – om den inte hamnar på krönet: där är ingen sida lägre, den rullar inte av sig själv, och vad talet ska användas till avgör åt vilket håll den går.',
+        da: 'Sæt kampestenen på terrænet og slip. Den ruller ned i den nærmeste fordybning — medmindre den bliver liggende på højderyggen: dér er ingen side lavere, den falder ikke af sig selv, og hvad tallet skal bruges til afgør, hvilken vej den går.',
+        no: 'Sett kampesteinen ned på terrenget og slipp. Den triller ned i den nærmeste gropa — med mindre den blir liggende på høyderyggen: der er ingen side lavere, den faller ikke av seg selv, og hva tallet skal brukes til avgjør hvilken vei den går.',
+        fi: 'Aseta lohkare maastoon ja päästä irti. Se vierii lähimpään kuoppaan – paitsi jos se jää harjanteelle: siellä kumpikaan puoli ei ole alempana, lohkare ei lähde itsestään liikkeelle, ja se, mihin lukua tarvitaan, ratkaisee kumpaan suuntaan se menee.'
+      },
 
-      ariaGround: { en: 'Ground with a dip at each end and a ridge in the middle.' },
-      ariaStone: { en: 'the boulder, at {n}' },
-      ariaStoneRest: { en: 'the boulder, {n}, resting in the {d} dip' },
-      ariaRidge: { en: 'the ridge, halfway between the two dips' },
-      ariaTilt: { en: 'the ridge, settled by this class towards {d}' },
+      ariaGround: {
 
-      setSpan: { en: 'Which ground' },
-      spanTens: { en: 'between two tens' },
-      spanHundreds: { en: 'between two hundreds' },
+        en: 'Ground with a dip at each end and a ridge in the middle.',
 
-      lessBig: { en: 'Move the boulder a long way left' },
-      lessOne: { en: 'Move the boulder a little left' },
-      moreOne: { en: 'Move the boulder a little right' },
-      moreBig: { en: 'Move the boulder a long way right' },
-      letGo: { en: 'Let go' },
-      tiltDown: { en: 'Settle the ridge towards the lower dip' },
-      tiltUp: { en: 'Settle the ridge towards the higher dip' },
+        de: 'Gelände mit je einer Mulde an beiden Enden und einem Grat in der Mitte.',
+
+        fr: 'Terrain avec une cuvette à chaque bout et une crête au milieu.',
+
+        es: 'Terreno con una hondonada en cada extremo y una cresta en el medio.',
+
+        pt: 'Terreno com uma cova em cada ponta e uma crista no meio.',
+
+        it: 'Terreno con una conca a ogni estremità e una cresta nel mezzo.',
+
+        nl: 'Grond met aan elk uiteinde een kuil en een bult in het midden.',
+
+        sv: 'Mark med en grop i vardera änden och ett krön i mitten.',
+
+        da: 'Terræn med en fordybning i hver ende og en højderyg i midten.',
+
+        no: 'Terreng med ei grop i hver ende og en høyderygg i midten.',
+
+        fi: 'Maasto, jonka kummassakin päässä on kuoppa ja keskellä harjanne.'
+
+      },
+      ariaStone: {
+        en: 'the boulder, at {n}',
+        de: 'der Brocken mit der Zahl {n}',
+        fr: 'le caillou portant le nombre {n}',
+        es: 'el guijarro con el número {n}',
+        pt: 'o seixo com o número {n}',
+        it: 'il ciottolo con il numero {n}',
+        nl: 'de kei met het getal {n}',
+        sv: 'stenbumlingen med talet {n}',
+        da: 'kampestenen med tallet {n}',
+        no: 'kampesteinen med tallet {n}',
+        fi: 'lohkare, jossa lukee {n}'
+      },
+      ariaStoneRest: {
+        en: 'the boulder, {n}, resting in the {d} dip',
+        de: 'der Brocken mit der Zahl {n}, liegt in der Mulde {d}',
+        fr: 'le caillou portant le nombre {n}, posé dans la cuvette {d}',
+        es: 'el guijarro con el número {n}, parado en la hondonada {d}',
+        pt: 'o seixo com o número {n}, parado na cova {d}',
+        it: 'il ciottolo con il numero {n}, fermo nella conca {d}',
+        nl: 'de kei met het getal {n}, in kuil {d}',
+        sv: 'stenbumlingen med talet {n}, ligger i gropen {d}',
+        da: 'kampestenen med tallet {n}, ligger i fordybningen {d}',
+        no: 'kampesteinen med tallet {n}, ligger i gropa {d}',
+        fi: 'lohkare, jossa lukee {n}, lepää kuopassa {d}'
+      },
+      ariaRidge: {
+        en: 'the ridge, halfway between the two dips',
+        de: 'der Grat, genau in der Mitte zwischen den beiden Mulden',
+        fr: 'la crête, à mi-chemin entre les deux cuvettes',
+        es: 'la cresta, a mitad de camino entre las dos hondonadas',
+        pt: 'a crista, na metade do caminho entre as duas covas',
+        it: 'la cresta, a metà strada tra le due conche',
+        nl: 'de bult, precies tussen de twee kuilen in',
+        sv: 'krönet, mitt emellan de två groparna',
+        da: 'højderyggen, midt mellem de to fordybninger',
+        no: 'høyderyggen, midt mellom de to gropene',
+        fi: 'harjanne, tasan kahden kuopan puolivälissä'
+      },
+      ariaTilt: {
+        en: 'the ridge, settled by this class towards {d}',
+        de: 'der Grat, von der Klasse in Richtung {d} geneigt',
+        fr: 'la crête, penchée par la classe vers {d}',
+        es: 'la cresta, inclinada por la clase hacia {d}',
+        pt: 'a crista, inclinada pela turma para {d}',
+        it: 'la cresta, inclinata dalla classe verso {d}',
+        nl: 'de bult, door de klas naar {d} gekanteld',
+        sv: 'krönet, lutat av klassen mot {d}',
+        da: 'højderyggen, som klassen har hældt mod {d}',
+        no: 'høyderyggen, som klassen har helt mot {d}',
+        fi: 'harjanne, jonka luokka on kallistanut lukua {d} kohti'
+      },
+
+      setSpan: {
+
+        en: 'Which ground',
+
+        de: 'Welches Gelände',
+
+        fr: 'Quel terrain',
+
+        es: 'Qué terreno',
+
+        pt: 'Qual terreno',
+
+        it: 'Quale terreno',
+
+        nl: 'Welke grond',
+
+        sv: 'Vilken mark',
+
+        da: 'Hvilket terræn',
+
+        no: 'Hvilket terreng',
+
+        fi: 'Mikä maasto'
+
+      },
+      spanTens: {
+        en: 'between two tens',
+        de: 'zwischen zwei Zehnern',
+        fr: 'entre deux dizaines',
+        es: 'entre dos decenas',
+        pt: 'entre duas dezenas',
+        it: 'tra due decine',
+        nl: 'tussen twee tientallen',
+        sv: 'mellan två tiotal',
+        da: 'mellem to tiere',
+        no: 'mellom to tiere',
+        fi: 'kahden kymmenen välissä'
+      },
+      spanHundreds: {
+        en: 'between two hundreds',
+        de: 'zwischen zwei Hundertern',
+        fr: 'entre deux centaines',
+        es: 'entre dos centenas',
+        pt: 'entre duas centenas',
+        it: 'tra due centinaia',
+        nl: 'tussen twee honderdtallen',
+        sv: 'mellan två hundratal',
+        da: 'mellem to hundreder',
+        no: 'mellom to hundrere',
+        fi: 'kahden sadan välissä'
+      },
+
+      lessBig: {
+
+        en: 'Move the boulder a long way left',
+
+        de: 'Den Brocken weit nach links schieben',
+
+        fr: 'Déplacer le caillou loin vers la gauche',
+
+        es: 'Mover el guijarro mucho hacia la izquierda',
+
+        pt: 'Mover o seixo bem para a esquerda',
+
+        it: 'Sposta il ciottolo molto a sinistra',
+
+        nl: 'De kei ver naar links schuiven',
+
+        sv: 'Flytta stenbumlingen långt åt vänster',
+
+        da: 'Flyt kampestenen langt til venstre',
+
+        no: 'Flytt kampesteinen langt til venstre',
+
+        fi: 'Siirrä lohkaretta paljon vasemmalle'
+
+      },
+      lessOne: {
+        en: 'Move the boulder a little left',
+        de: 'Den Brocken ein Stück nach links schieben',
+        fr: 'Déplacer le caillou un peu vers la gauche',
+        es: 'Mover el guijarro un poco hacia la izquierda',
+        pt: 'Mover o seixo um pouco para a esquerda',
+        it: 'Sposta il ciottolo un poco a sinistra',
+        nl: 'De kei een beetje naar links schuiven',
+        sv: 'Flytta stenbumlingen lite åt vänster',
+        da: 'Flyt kampestenen lidt til venstre',
+        no: 'Flytt kampesteinen litt til venstre',
+        fi: 'Siirrä lohkaretta vähän vasemmalle'
+      },
+      moreOne: {
+        en: 'Move the boulder a little right',
+        de: 'Den Brocken ein Stück nach rechts schieben',
+        fr: 'Déplacer le caillou un peu vers la droite',
+        es: 'Mover el guijarro un poco hacia la derecha',
+        pt: 'Mover o seixo um pouco para a direita',
+        it: 'Sposta il ciottolo un poco a destra',
+        nl: 'De kei een beetje naar rechts schuiven',
+        sv: 'Flytta stenbumlingen lite åt höger',
+        da: 'Flyt kampestenen lidt til højre',
+        no: 'Flytt kampesteinen litt til høyre',
+        fi: 'Siirrä lohkaretta vähän oikealle'
+      },
+      moreBig: {
+        en: 'Move the boulder a long way right',
+        de: 'Den Brocken weit nach rechts schieben',
+        fr: 'Déplacer le caillou loin vers la droite',
+        es: 'Mover el guijarro mucho hacia la derecha',
+        pt: 'Mover o seixo bem para a direita',
+        it: 'Sposta il ciottolo molto a destra',
+        nl: 'De kei ver naar rechts schuiven',
+        sv: 'Flytta stenbumlingen långt åt höger',
+        da: 'Flyt kampestenen langt til højre',
+        no: 'Flytt kampesteinen langt til høyre',
+        fi: 'Siirrä lohkaretta paljon oikealle'
+      },
+      letGo: {
+        en: 'Let go',
+        de: 'Loslassen',
+        fr: 'Lâcher',
+        es: 'Soltar',
+        pt: 'Soltar',
+        it: 'Lascia andare',
+        nl: 'Loslaten',
+        sv: 'Släpp',
+        da: 'Slip',
+        no: 'Slipp',
+        fi: 'Päästä irti'
+      },
+      tiltDown: {
+        en: 'Settle the ridge towards the lower dip',
+        de: 'Den Grat zur unteren Mulde neigen',
+        fr: 'Faire pencher la crête vers la cuvette du bas',
+        es: 'Inclinar la cresta hacia la hondonada de abajo',
+        pt: 'Inclinar a crista para a cova de baixo',
+        it: 'Inclina la cresta verso la conca più bassa',
+        nl: 'De bult naar de onderste kuil laten hellen',
+        sv: 'Luta krönet mot den lägre gropen',
+        da: 'Hæld højderyggen mod den lavere fordybning',
+        no: 'Hell høyderyggen mot den lavere gropa',
+        fi: 'Kallista harjanne alempaa kuoppaa kohti'
+      },
+      tiltUp: {
+        en: 'Settle the ridge towards the higher dip',
+        de: 'Den Grat zur oberen Mulde neigen',
+        fr: 'Faire pencher la crête vers la cuvette du haut',
+        es: 'Inclinar la cresta hacia la hondonada de arriba',
+        pt: 'Inclinar a crista para a cova de cima',
+        it: 'Inclina la cresta verso la conca più alta',
+        nl: 'De bult naar de bovenste kuil laten hellen',
+        sv: 'Luta krönet mot den högre gropen',
+        da: 'Hæld højderyggen mod den højere fordybning',
+        no: 'Hell høyderyggen mot den høyere gropa',
+        fi: 'Kallista harjanne ylempää kuoppaa kohti'
+      },
       /* ⭐⭐ NOT AN UNDO — A REASON. Framed as an undo, this control was
          pressed once and never again, so the tool held exactly ONE
          decision in its whole life and became a demonstration on day two.
@@ -232,28 +472,292 @@
          purpose changes, the ridge must be settled again. That is what
          makes the decision recur, and it is a curriculum objective in one
          of the eleven rather than an invention of ours. */
-      clearTilt: { en: 'The number is for something else now — level the ridge again' },
-      again: { en: 'Another boulder' },
+      clearTilt: {
+        en: 'The number is for something else now — level the ridge again',
+        de: 'Die Zahl wird jetzt für etwas anderes gebraucht – den Grat wieder gerade stellen',
+        fr: 'Le nombre sert à autre chose maintenant – remettre la crête droite',
+        es: 'Ahora el número sirve para otra cosa: dejar la cresta recta otra vez',
+        pt: 'Agora o número serve para outra coisa — deixar a crista reta de novo',
+        it: 'Ora il numero serve per altro – rimetti la cresta dritta',
+        nl: 'Het getal dient nu voor iets anders — de bult weer recht zetten',
+        sv: 'Talet ska användas till något annat nu – räta upp krönet igen',
+        da: 'Tallet skal bruges til noget andet nu – ret højderyggen op igen',
+        no: 'Tallet skal brukes til noe annet nå – rett opp høyderyggen igjen',
+        fi: 'Lukua tarvitaan nyt johonkin muuhun – suorista harjanne taas tasaiseksi'
+      },
+      again: {
+        en: 'Another boulder',
+        de: 'Neuer Brocken',
+        fr: 'Un autre caillou',
+        es: 'Otro guijarro',
+        pt: 'Outro seixo',
+        it: 'Un altro ciottolo',
+        nl: 'Nog een kei',
+        sv: 'En ny stenbumling',
+        da: 'En ny kampesten',
+        no: 'En ny kampestein',
+        fi: 'Uusi lohkare'
+      },
 
-      saidSet: { en: '{n}' },
-      saidSettled: { en: '{n} settles into {d}.' },
-      saidTeeter: { en: '{n} is on the ridge. Neither side is lower, so the boulder will not roll on its own. What are these numbers for — and which way should that settle it?' },
-      saidTiltSet: { en: 'This class has settled the ridge towards {d}, for what these numbers are being used for. Every tie goes that way until that changes.' },
-      saidTiltClear: { en: 'The ridge is level again. What are these numbers for now? The boulder will teeter until the class settles it again.' },
-      saidAlready: { en: 'The boulder is already at rest. Set down another one.' },
-      saidAlreadyLevel: { en: 'The ridge is already level.' },
-      saidAlreadySet: { en: 'The ridge is already settled that way.' },
-      saidTiltClearOff: { en: 'The ridge is level again. The next boulder that lands on it will teeter.' },
-      saidEdge: { en: 'The ground stops at {n}.' },
+      saidSet: {
 
-      gateTitle: { en: 'The paper ground' },
-      gateBody: { en: 'The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real pebble on the ridge and see that it truly does not roll.' },
-      gateCta: { en: 'See the Teacher plan' },
-      gateClose: { en: 'Not now' },
+        en: '{n}',
 
-      printBtn: { en: 'Print the paper ground' },
-      sheetTitle: { en: 'Paper ground to cut out and fold' },
-      sheetNote: { en: 'Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put something small anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point.' }
+        de: '{n}',
+
+        fr: '{n}',
+
+        es: '{n}',
+
+        pt: '{n}',
+
+        it: '{n}',
+
+        nl: '{n}',
+
+        sv: '{n}',
+
+        da: '{n}',
+
+        no: '{n}',
+
+        fi: '{n}'
+
+      },
+      saidSettled: {
+        en: '{n} settles into {d}.',
+        de: '{n} rollt in die Mulde {d}.',
+        fr: '{n} descend dans la cuvette {d}.',
+        es: '{n} baja hasta la hondonada {d}.',
+        pt: '{n} desce até a cova {d}.',
+        it: '{n} scende nella conca {d}.',
+        nl: '{n} rolt in kuil {d}.',
+        sv: '{n} rullar ner i gropen {d}.',
+        da: '{n} ruller ned i fordybningen {d}.',
+        no: '{n} triller ned i gropa {d}.',
+        fi: '{n} vierii kuoppaan {d}.'
+      },
+      saidTeeter: {
+        en: '{n} is on the ridge. Neither side is lower, so the boulder will not roll on its own. What are these numbers for — and which way should that settle it?',
+        de: '{n} liegt auf dem Grat. Keine Seite ist tiefer, also rollt der Brocken von allein nicht weiter. Wozu braucht ihr diese Zahlen – und wohin soll das den Grat neigen?',
+        fr: '{n} est sur la crête. Aucun côté n\'est plus bas, donc le caillou ne tombe pas tout seul. À quoi servent ces nombres – et de quel côté cela doit-il faire pencher la crête ?',
+        es: '{n} está sobre la cresta. Ningún lado está más bajo, así que el guijarro no cae solo. ¿Para qué sirven estos números y hacia dónde debe inclinar eso la cresta?',
+        pt: '{n} está sobre a crista. Nenhum lado está mais baixo, então o seixo não cai sozinho. Para que servem estes números — e para que lado isso deve inclinar a crista?',
+        it: '{n} è sulla cresta. Nessun lato è più basso, quindi il ciottolo non cade da solo. A che cosa servono questi numeri — e da che parte deve far pendere la cresta?',
+        nl: '{n} ligt op de bult. Geen kant is lager, dus de kei valt niet vanzelf. Waar dienen deze getallen voor — en naar welke kant moet dat de bult laten hellen?',
+        sv: '{n} ligger på krönet. Ingen sida är lägre, så stenbumlingen rullar inte av sig själv. Vad ska de här talen användas till – och åt vilket håll ska det luta krönet?',
+        da: '{n} ligger på højderyggen. Ingen side er lavere, så kampestenen falder ikke af sig selv. Hvad skal de her tal bruges til — og hvilken vej skal det hælde højderyggen?',
+        no: '{n} ligger på høyderyggen. Ingen side er lavere, så kampesteinen faller ikke av seg selv. Hva skal disse tallene brukes til — og hvilken vei skal det helle høyderyggen?',
+        fi: '{n} on harjanteella. Kumpikaan puoli ei ole alempana, joten lohkare ei lähde itsestään liikkeelle. Mihin näitä lukuja tarvitaan – ja kumpaan suuntaan sen pitäisi kallistaa harjanne?'
+      },
+      saidTiltSet: {
+        en: 'This class has settled the ridge towards {d}, for what these numbers are being used for. Every tie goes that way until that changes.',
+        de: 'Die Klasse hat den Grat in Richtung {d} geneigt – dafür, wozu diese Zahlen gerade gebraucht werden. Jeder Brocken, der genau auf dem Grat landet, geht dorthin, bis sich das ändert.',
+        fr: 'La classe a fait pencher la crête vers {d}, pour l\'usage qu\'on fait de ces nombres. Chaque caillou qui s\'arrête pile sur la crête ira de ce côté jusqu\'à ce que cela change.',
+        es: 'La clase ha inclinado la cresta hacia {d}, para lo que se están usando estos números. Cada guijarro que quede justo sobre la cresta irá hacia ese lado hasta que eso cambie.',
+        pt: 'A turma inclinou a crista para {d}, pelo que estes números estão servindo agora. Cada seixo que parar bem sobre a crista vai para esse lado até isso mudar.',
+        it: 'La classe ha inclinato la cresta verso {d}, per ciò a cui servono ora questi numeri. Ogni ciottolo che si ferma esattamente sulla cresta andrà da quella parte finché non cambia.',
+        nl: 'De klas heeft de bult naar {d} laten hellen, voor waar deze getallen nu voor dienen. Elke kei die precies op de bult belandt, gaat die kant op tot dat verandert.',
+        sv: 'Klassen har lutat krönet mot {d}, för det som de här talen används till nu. Varje stenbumling som hamnar precis på krönet går åt det hållet tills det ändras.',
+        da: 'Klassen har hældt højderyggen mod {d}, ud fra hvad de her tal bruges til nu. Hver kampesten, der lander præcis på højderyggen, går den vej, indtil det ændrer sig.',
+        no: 'Klassen har helt høyderyggen mot {d}, ut fra hva disse tallene brukes til nå. Hver kampestein som havner nøyaktig på høyderyggen, går den veien til det endrer seg.',
+        fi: 'Luokka on kallistanut harjanteen lukua {d} kohti sen mukaan, mihin näitä lukuja nyt tarvitaan. Jokainen lohkare, joka jää tarkalleen harjanteelle, menee sinne, kunnes se muuttuu.'
+      },
+      saidTiltClear: {
+        en: 'The ridge is level again. What are these numbers for now? The boulder will teeter until the class settles it again.',
+        de: 'Der Grat steht wieder gerade. Wozu werden diese Zahlen jetzt gebraucht? Der Brocken wackelt, bis die Klasse den Grat neu neigt.',
+        fr: 'La crête est de nouveau droite. À quoi servent ces nombres maintenant ? Le caillou hésite jusqu\'à ce que la classe la règle de nouveau.',
+        es: 'La cresta vuelve a estar recta. ¿Para qué sirven ahora estos números? El guijarro se balanceará hasta que la clase vuelva a inclinarla.',
+        pt: 'A crista está reta de novo. Para que servem estes números agora? O seixo fica balançando até a turma inclinar de novo.',
+        it: 'La cresta è di nuovo dritta. A che cosa servono ora questi numeri? Il ciottolo oscilla finché la classe non la inclina di nuovo.',
+        nl: 'De bult staat weer recht. Waar dienen deze getallen nu voor? De kei wiebelt tot de klas hem opnieuw laat hellen.',
+        sv: 'Krönet är rakt igen. Vad ska de här talen användas till nu? Stenbumlingen vacklar tills klassen lutar krönet på nytt.',
+        da: 'Højderyggen er rank igen. Hvad skal de her tal bruges til nu? Kampestenen vakler, indtil klassen hælder den på ny.',
+        no: 'Høyderyggen er rett igjen. Hva skal disse tallene brukes til nå? Kampesteinen vakler til klassen heller den på nytt.',
+        fi: 'Harjanne on taas tasainen. Mihin näitä lukuja nyt tarvitaan? Lohkare huojuu, kunnes luokka kallistaa harjanteen uudelleen.'
+      },
+      saidAlready: {
+        en: 'The boulder is already at rest. Set down another one.',
+        de: 'Das ändert hier nichts. Legt einen neuen Brocken hin.',
+        fr: 'Cela ne change rien ici. Pose un nouveau caillou.',
+        es: 'Esto no cambia nada. Coloca un guijarro nuevo.',
+        pt: 'Isso não muda nada aqui. Apoie um seixo novo.',
+        it: 'Questo non cambia nulla. Appoggia un nuovo ciottolo.',
+        nl: 'Dit verandert hier niets. Zet een nieuwe kei neer.',
+        sv: 'Det här ändrar ingenting. Sätt ner en ny stenbumling.',
+        da: 'Det ændrer ikke noget her. Sæt en ny kampesten ned.',
+        no: 'Dette endrer ingenting her. Sett ned en ny kampestein.',
+        fi: 'Tämä ei muuta tässä mitään. Aseta uusi lohkare maastoon.'
+      },
+      saidAlreadyLevel: {
+        en: 'The ridge is already level.',
+        de: 'Der Grat steht schon gerade.',
+        fr: 'La crête est déjà droite.',
+        es: 'La cresta ya está recta.',
+        pt: 'A crista já está reta.',
+        it: 'La cresta è già dritta.',
+        nl: 'De bult staat al recht.',
+        sv: 'Krönet är redan rakt.',
+        da: 'Højderyggen er allerede rank.',
+        no: 'Høyderyggen er allerede rett.',
+        fi: 'Harjanne on jo tasainen.'
+      },
+      saidAlreadySet: {
+        en: 'The ridge is already settled that way.',
+        de: 'Der Grat ist schon in diese Richtung geneigt.',
+        fr: 'La crête penche déjà de ce côté.',
+        es: 'La cresta ya está inclinada hacia ese lado.',
+        pt: 'A crista já está inclinada para esse lado.',
+        it: 'La cresta pende già da quella parte.',
+        nl: 'De bult helt al naar die kant.',
+        sv: 'Krönet lutar redan åt det hållet.',
+        da: 'Højderyggen hælder allerede den vej.',
+        no: 'Høyderyggen heller allerede den veien.',
+        fi: 'Harjanne kallistuu jo siihen suuntaan.'
+      },
+      saidTiltClearOff: {
+        en: 'The ridge is level again. The next boulder that lands on it will teeter.',
+        de: 'Der Grat steht wieder gerade. Der nächste Brocken, der darauf landet, wackelt.',
+        fr: 'La crête est de nouveau droite. Le prochain caillou qui s\'y arrêtera hésitera.',
+        es: 'La cresta vuelve a estar recta. El próximo guijarro que quede sobre ella se balanceará.',
+        pt: 'A crista está reta de novo. O próximo seixo que parar sobre ela vai ficar balançando.',
+        it: 'La cresta è di nuovo dritta. Il prossimo ciottolo che si fermerà lì oscillerà.',
+        nl: 'De bult staat weer recht. De volgende kei die erop belandt, gaat wiebelen.',
+        sv: 'Krönet är rakt igen. Nästa stenbumling som hamnar där kommer att vackla.',
+        da: 'Højderyggen er rank igen. Den næste kampesten, der lander på den, vakler.',
+        no: 'Høyderyggen er rett igjen. Den neste kampesteinen som havner der, vakler.',
+        fi: 'Harjanne on taas tasainen. Seuraava harjanteelle jäävä lohkare huojuu.'
+      },
+      saidEdge: {
+        en: 'The ground stops at {n}.',
+        de: 'Das Gelände endet bei {n}.',
+        fr: 'Le terrain s\'arrête à {n}.',
+        es: 'El terreno termina en {n}.',
+        pt: 'O terreno termina em {n}.',
+        it: 'Il terreno finisce a {n}.',
+        nl: 'De grond houdt op bij {n}.',
+        sv: 'Marken tar slut vid {n}.',
+        da: 'Terrænet stopper ved {n}.',
+        no: 'Terrenget slutter ved {n}.',
+        fi: 'Maasto loppuu lukuun {n}.'
+      },
+
+      gateTitle: {
+
+        en: 'The paper ground',
+
+        de: 'Das Gelände aus Papier',
+
+        fr: 'Le terrain en papier',
+
+        es: 'El terreno de papel',
+
+        pt: 'O terreno de papel',
+
+        it: 'Il terreno di carta',
+
+        nl: 'De papieren grond',
+
+        sv: 'Marken i papper',
+
+        da: 'Papirterrænet',
+
+        no: 'Papirterrenget',
+
+        fi: 'Paperinen maasto'
+
+      },
+      gateBody: {
+        en: 'The whole apparatus is free — every slope, the teeter, and settling the ridge. A Teacher plan adds the paper ground to cut out and fold, so it stands up on a desk and a child can put a real pebble on the ridge and see that it truly does not roll.',
+        de: 'Das ganze Gerät ist kostenlos – jeder Abhang, das Wackeln und das Neigen des Grats. Das Lehrkraft-Abo ergänzt das Gelände aus Papier zum Ausschneiden und Falten: Es steht auf dem Tisch, und ein Kind kann einen echten Brocken auf den Grat legen und sehen, dass er wirklich liegen bleibt.',
+        fr: 'Tout l\'appareil est gratuit : chaque pente, l\'hésitation et le réglage de la crête. L\'Abonnement Enseignant ajoute le terrain en papier à découper et à plier, qui tient debout sur une table : un enfant peut poser un vrai caillou sur la crête et voir qu\'il ne tombe vraiment pas.',
+        es: 'Todo el aparato es gratuito: cada ladera, el balanceo y la inclinación de la cresta. El Plan Docente añade el terreno de papel para recortar y plegar, que se sostiene sobre la mesa: un niño puede poner un guijarro de verdad sobre la cresta y ver que de verdad no cae.',
+        pt: 'O aparelho inteiro é gratuito: cada ladeira, o balanço e a inclinação da crista. O Plano Professor acrescenta o terreno de papel para recortar e dobrar, que fica em pé na mesa: a criança pode colocar um seixo de verdade sobre a crista e ver que ele realmente não cai.',
+        it: 'Tutto l\'apparecchio è gratuito: ogni pendio, l\'oscillazione e l\'inclinazione della cresta. Il Piano Insegnante aggiunge il terreno di carta da ritagliare e piegare, che sta in piedi sul banco: un bambino può posare un ciottolo vero sulla cresta e vedere che davvero non cade.',
+        nl: 'Het hele apparaat is gratis: elke helling, het wiebelen en het instellen van de bult. Het Leerkracht-abonnement voegt de papieren grond toe om uit te knippen en te vouwen, zodat hij op tafel blijft staan en een kind een echte kei op de bult kan leggen en ziet dat hij er echt niet af valt.',
+        sv: 'Hela apparaten är gratis – varje sluttning, vacklandet och att luta krönet. Lärarplanen lägger till marken i papper att klippa ut och vika, så att den står på bordet och ett barn kan lägga en riktig stenbumling på krönet och se att den verkligen ligger kvar.',
+        da: 'Hele apparatet er gratis – hver skråning, vaklen og det at hælde højderyggen. Lærerabonnementet tilføjer papirterrænet til at klippe ud og folde, så det står på bordet, og et barn kan lægge en rigtig kampesten på højderyggen og se, at den virkelig bliver liggende.',
+        no: 'Hele apparatet er gratis – hver skråning, vaklingen og det å helle høyderyggen. Lærerabonnementet legger til papirterrenget til å klippe ut og brette, så det står på pulten, og et barn kan legge en ekte kampestein på høyderyggen og se at den virkelig blir liggende.',
+        fi: 'Koko laite on ilmainen – jokainen rinne, huojunta ja harjanteen kallistaminen. Opettajatilaus lisää paperisen maaston, jonka voi leikata ja taittaa pystyyn pöydälle: lapsi voi asettaa oikean lohkareen harjanteelle ja nähdä, ettei se todellakaan lähde liikkeelle.'
+      },
+      gateCta: {
+        en: 'See the Teacher plan',
+        de: 'Das Lehrkraft-Abo ansehen',
+        fr: 'Découvrir l\'Abonnement Enseignant',
+        es: 'Ver el Plan Docente',
+        pt: 'Conhecer o Plano Professor',
+        it: 'Scopri il Piano Insegnante',
+        nl: 'Bekijk het Leerkracht-abonnement',
+        sv: 'Läs om Lärarplanen',
+        da: 'Se Lærerabonnementet',
+        no: 'Se Lærerabonnementet',
+        fi: 'Tutustu Opettajatilaukseen'
+      },
+      gateClose: {
+        en: 'Not now',
+        de: 'Jetzt nicht',
+        fr: 'Pas maintenant',
+        es: 'Ahora no',
+        pt: 'Agora não',
+        it: 'Non ora',
+        nl: 'Nu niet',
+        sv: 'Inte nu',
+        da: 'Ikke nu',
+        no: 'Ikke nå',
+        fi: 'Ei nyt'
+      },
+
+      printBtn: {
+
+        en: 'Print the paper ground',
+
+        de: 'Gelände aus Papier drucken',
+
+        fr: 'Imprimer le terrain en papier',
+
+        es: 'Imprimir el terreno de papel',
+
+        pt: 'Imprimir o terreno de papel',
+
+        it: 'Stampa il terreno di carta',
+
+        nl: 'Papieren grond afdrukken',
+
+        sv: 'Skriv ut marken i papper',
+
+        da: 'Udskriv papirterrænet',
+
+        no: 'Skriv ut papirterrenget',
+
+        fi: 'Tulosta paperinen maasto'
+
+      },
+      sheetTitle: {
+        en: 'Paper ground to cut out and fold',
+        de: 'Gelände aus Papier zum Ausschneiden und Falten',
+        fr: 'Terrain en papier à découper et à plier',
+        es: 'Terreno de papel para recortar y plegar',
+        pt: 'Terreno de papel para recortar e dobrar',
+        it: 'Terreno di carta da ritagliare e piegare',
+        nl: 'Papieren grond om uit te knippen en te vouwen',
+        sv: 'Mark i papper att klippa ut och vika',
+        da: 'Papirterræn til at klippe ud og folde',
+        no: 'Papirterreng til å klippe ut og brette',
+        fi: 'Paperinen maasto leikattavaksi ja taitettavaksi'
+      },
+      sheetNote: {
+        en: 'Cut along the outline and fold on the dotted lines so the ground stands up. Write the two round numbers in the dips. Put something small anywhere on a slope and it runs down to a dip; put it on the ridge and it stays, which is the whole point.',
+        de: 'Schneidet am Rand entlang und faltet an den gestrichelten Linien, damit das Gelände steht. Schreibt die beiden runden Zahlen in die Mulden. Legt einen echten Brocken irgendwo auf einen Abhang – er rollt in eine Mulde; legt ihn auf den Grat, bleibt er liegen. Genau darum geht es.',
+        fr: 'Découpe le contour et plie sur les pointillés pour que le terrain tienne debout. Écris les deux nombres ronds dans les cuvettes. Pose un vrai caillou n\'importe où sur une pente : il descend dans une cuvette. Pose-le sur la crête : il reste. C\'est tout l\'intérêt.',
+        es: 'Recorta por el contorno y pliega por las líneas de puntos para que el terreno se sostenga. Escribe los dos números redondos en las hondonadas. Pon un guijarro de verdad en cualquier punto de una ladera y bajará a una hondonada; ponlo sobre la cresta y se quedará ahí, que es de lo que se trata.',
+        pt: 'Recorte pelo contorno e dobre nas linhas pontilhadas para o terreno ficar em pé. Escreva os dois números redondos nas covas. Coloque um seixo de verdade em qualquer ponto de uma ladeira e ele desce até uma cova; coloque sobre a crista e ele fica lá, que é justamente a questão.',
+        it: 'Ritaglia lungo il contorno e piega sulle linee tratteggiate, così il terreno sta in piedi. Scrivi i due numeri tondi nelle conche. Posa un ciottolo vero in un punto qualsiasi di un pendio e scenderà in una conca; posalo sulla cresta e resterà lì, ed è tutto qui.',
+        nl: 'Knip langs de rand en vouw op de stippellijnen, zodat de grond blijft staan. Schrijf de twee ronde getallen in de kuilen. Leg een echte kei ergens op een helling: hij rolt naar een kuil. Leg hem op de bult: hij blijft liggen — en daar gaat het om.',
+        sv: 'Klipp längs kanten och vik på de streckade linjerna så att marken står upp. Skriv de två runda talen i groparna. Lägg en riktig stenbumling var som helst på en sluttning – den rullar ner i en grop. Lägg den på krönet – den ligger kvar, och det är hela poängen.',
+        da: 'Klip langs kanten og fold på de stiplede linjer, så terrænet står op. Skriv de to runde tal i fordybningerne. Læg en rigtig kampesten et vilkårligt sted på en skråning – den ruller ned i en fordybning. Læg den på højderyggen – den bliver liggende, og det er hele pointen.',
+        no: 'Klipp langs kanten og brett på de stiplede linjene, så terrenget står. Skriv de to runde tallene i gropene. Legg en ekte kampestein hvor som helst i en skråning – den triller ned i ei grop. Legg den på høyderyggen – den blir liggende, og det er hele poenget.',
+        fi: 'Leikkaa ääriviivaa pitkin ja taita katkoviivoista, niin maasto seisoo pystyssä. Kirjoita kuoppiin kaksi tasalukua. Aseta oikea lohkare mihin tahansa kohtaan rinnettä – se vierii kuoppaan. Aseta se harjanteelle – se jää siihen, ja siinä on koko juju.'
+      }
     },
 
     settings: [

@@ -1364,6 +1364,28 @@
       "Hver tom skabelon har en stopklods i begge ender og tre stolper. Skriv de to tal i enderne, hæng den op i klassen, og lad klassen føje tal til hele ugen. Del den næste ind som én enkelt tier for at fortsætte inde i den."
     ]
   },
+  "rounding-hill": {
+    "name": "Afrundingshøjen",
+    "slug": "afrunding-til-tiere-bakken-indskoling",
+    "tagline": "Slip stenen, og den triller ned i den nærmeste tier — undtagen på kammen, hvor jorden er flad.",
+    "metaTitle": "Afrunding til tiere: bakken, indskolingen",
+    "metaDescription": "47 triller til 50, for det er nærmest. På 45 falder stenen ikke af sig selv: klassen bestemmer, hvilken vej kammen hælder.",
+    "about": [
+      "Sæt kampestenen på terrænet og slip. Den ruller ned i den nærmeste fordybning — medmindre den bliver liggende på højderyggen: dér er ingen side lavere, den falder ikke af sig selv, og hvad tallet skal bruges til afgør, hvilken vej den går.",
+      "Terræn med en fordybning i hver ende og en højderyg i midten.",
+      "Hele apparatet er gratis – hver skråning, vaklen og det at hælde højderyggen. Lærerabonnementet tilføjer papirterrænet til at klippe ud og folde, så det står på bordet, og et barn kan lægge en rigtig kampesten på højderyggen og se, at den virkelig bliver liggende."
+    ],
+    "howToUse": [
+      "Slip. 47 ruller ned i fordybningen 50.",
+      "45 ligger på højderyggen. Ingen side er lavere, så kampestenen falder ikke af sig selv. Hvad skal de her tal bruges til — og hvilken vej skal det hælde højderyggen?",
+      "Hæld højderyggen mod den højere fordybning. Klassen har hældt højderyggen mod 50, ud fra hvad de her tal bruges til nu. Hver kampesten, der lander præcis på højderyggen, går den vej, indtil det ændrer sig."
+    ],
+    "classroomIdeas": [
+      "Højderyggen er rank igen. Hvad skal de her tal bruges til nu? Kampestenen vakler, indtil klassen hælder den på ny.",
+      "højderyggen, midt mellem de to fordybninger",
+      "Klip langs kanten og fold på de stiplede linjer, så terrænet står op. Skriv de to runde tal i fordybningerne. Læg en rigtig kampesten et vilkårligt sted på en skråning – den ruller ned i en fordybning. Læg den på højderyggen – den bliver liggende, og det er hele pointen."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

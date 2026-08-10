@@ -104,8 +104,26 @@
        simulation is unverifiable, non-reproducible, and would make a
        screenshot and a gate see different things. The stone's position
        at time t is a pure function, so the gate enumerates it. */
+    /* ⚠⚠ THE GROUND AND THE STONE SHARE THESE. The stone was placed by
+       `h * 63% + 6px` while the ground was drawn at `250 - h * 190` in a
+       300-tall viewBox — two expressions, a fixed px inside a percentage
+       layout, and 63 against the true 63.33 agreeing by coincidence. It
+       shipped the stone BURIED to 61% of its diameter. Measured by the
+       art panel; #43's two-circles defect in a third dress. */
+    VB_H: 300,
+    G_BASE: 250,               /* the y of a dip, in viewBox units */
+    G_RISE: 190,               /* how much higher the ridge is */
+
     T_SETTLE: 620,
     T_ARRIVE: 340,
+    /* ⚠ A STONE ACCELERATES. The house ease is an ease-OUT, right for a
+       UI element arriving and wrong for something falling, so the fall
+       — and only the fall — uses an ease-IN. */
+    E_ROLL: 'cubic-bezier(.55,.02,.6,1)',
+    /* ⚠⚠ NOT THROUGH _dur(). The class must see the ridge lean and THEN
+       the stone go, or the rule and its consequence read as one physical
+       event and the tool has taught that the ground decided. */
+    T_BEAT: 700,
     /* ⚠⚠ THE TEETER NEVER ENDS ON ITS OWN. It is a loop, not a timeout:
        a wobble that resolves after N milliseconds would mean the machine
        decided, which is the one thing this apparatus exists NOT to do. */
@@ -239,6 +257,17 @@
       return 1 - Math.abs(v - r) / half;
     },
 
+    /* ⭐ ONE EXPRESSION FOR WHERE THE GROUND IS. The path samples it and
+       the stone sits on it, so a stone can never be drawn under the
+       hillside it is standing on. Returns the viewBox y. */
+    groundY: function (st, v) {
+      return GEO.G_BASE - this.heightAt(st, v) * GEO.G_RISE;
+    },
+    /* the same line as a fraction UP FROM THE BOTTOM of the arena */
+    groundUp: function (st, v) {
+      return (GEO.VB_H - this.groundY(st, v)) / GEO.VB_H;
+    },
+
     frac: function (st, v) {
       var s = this._st(st);
       return (v - s.lo) / (s.hi - s.lo);
@@ -278,6 +307,14 @@
       if (dir === s.tilt) return null;
       var n = { unit: s.unit, lo: s.lo, hi: s.hi, at: s.at, phase: s.phase, rest: s.rest, tilt: dir };
       if (s.phase === 'teeter' && dir !== 0) { n.phase = 'settled'; n.rest = dir > 0 ? s.hi : s.lo; }
+      /* ⚠⚠ AND FLIPPING AN ALREADY-SET RULE MUST MOVE THE STONE WITH
+         IT. Without this branch the apparatus could hold tilt:-1 while
+         the stone rested in the HIGH dip — a stored answer contradicting
+         the law that produced it, reachable in two presses, and invisible
+         to 908 assertions because the gate asked settleOf (the law) and
+         never the stored rest. Oracle and subject were the same
+         expression, which is #51's defect verbatim. */
+      if (s.phase === 'settled' && dir !== 0 && this.onRidge(s, s.at)) { n.rest = dir > 0 ? s.hi : s.lo; }
       /* ⚠ and un-settling the ridge puts a stone that was resolved BY
          the rule back on the ridge — the rule going away must take its
          consequence with it, or the apparatus would be claiming the
@@ -374,6 +411,14 @@
       var card = api.el('div', 'rnh-card');
       var arena = api.el('div', 'rnh-arena');
       this._arena = arena;
+      /* ⚠ THE FIELD IS INSET BY HALF A STONE. The dips are at 0% and 100%
+         of the ground, and a stone centred there hangs half outside the
+         arena — measured at the 50 dip. Insetting the field rather than
+         clamping the stone keeps ONE coordinate space for the ground and
+         everything standing on it. */
+      var field = api.el('div', 'rnh-field');
+      this._field = field;
+      arena.appendChild(field);
 
       /* the ground, drawn from the SAME height function the model uses,
          so the picture cannot disagree with the law */
@@ -385,15 +430,15 @@
       this._ground = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       this._ground.setAttribute('class', 'rnh-ground');
       svg.appendChild(this._ground);
-      arena.appendChild(svg);
+      field.appendChild(svg);
 
       this._ridgeEl = api.el('div', 'rnh-ridge');
       this._ridgeEl.setAttribute('aria-label', api.t('ariaRidge'));
-      arena.appendChild(this._ridgeEl);
+      field.appendChild(this._ridgeEl);
 
       this._stone = api.el('button', 'rnh-stone');
       this._stone.type = 'button';
-      arena.appendChild(this._stone);
+      field.appendChild(this._stone);
 
       this._marks = [api.el('div', 'rnh-mark rnh-mark-a'), api.el('div', 'rnh-mark rnh-mark-b')];
       arena.appendChild(this._marks[0]);
@@ -467,8 +512,30 @@
 
     _tilt: function (dir) {
       var api = this.api;
+      var self = this;
       var next = this.setTilt(null, dir);
       if (!next) { this._refuse('tilt'); return; }
+      /* ⭐ THE BEAT. When the class's decision is what moves the stone, the
+         ridge leans FIRST and the stone follows a moment later — otherwise
+         the rule and its consequence read as ONE physical event and the
+         apparatus has quietly taught that the ground decided.
+         ⚠ The lean is applied to the real state at once; only the
+         RESOLUTION waits, so nothing is ever drawn that the model does not
+         hold. ⚠ And the wait is not passed through _dur(): a wait is not
+         movement. */
+      if (this.st.phase === 'teeter' && next.phase === 'settled') {
+        this.st = { unit: next.unit, lo: next.lo, hi: next.hi, at: next.at,
+          phase: 'teeter', rest: null, tilt: next.tilt };
+        this._paint(GEO.T_TILT);
+        this._snd(GEO.SND_TILT);
+        window.setTimeout(function () {
+          self.st = next;
+          self._paint(GEO.T_SETTLE);
+          self._snd(GEO.SND_SETTLE, true);
+          self.api.announce(self._fmt(self.api.t('saidSettled'), { n: next.at, d: next.rest }));
+        }, GEO.T_BEAT);
+        return;
+      }
       this.st = next;
       this._paint(GEO.T_TILT);
       this._snd(GEO.SND_TILT);
@@ -500,6 +567,11 @@
 
     _paint: function (dur) {
       var api = this.api, s = this.st;
+      /* ⚠⚠ THE TEETER WAS BAKED INTO THE STYLESHEET AT injectCSS(), so
+         _dur() could never reach it — the ONE motion path deaf to reduced
+         motion was the one the whole lesson lives in. It is a custom
+         property now, set from _dur() like every other duration. */
+      if (this._wrap) this._wrap.style.setProperty('--rnh-teet', this._dur(GEO.T_TEETER) + 'ms');
       var d = this._dur(dur || GEO.T_ARRIVE);
 
       /* the ground path, sampled from heightAt — the SAME function the
@@ -508,14 +580,17 @@
       var pts = [], i, N = 80;
       for (i = 0; i <= N; i++) {
         var v = s.lo + (s.hi - s.lo) * (i / N);
-        pts.push((i / N * 1000).toFixed(1) + ',' + (250 - this.heightAt(s, v) * 190).toFixed(1));
+        pts.push((i / N * 1000).toFixed(1) + ',' + this.groundY(s, v).toFixed(1));
       }
-      this._ground.setAttribute('d', 'M0,300 L' + pts.join(' L') + ' L1000,300 Z');
+      this._ground.setAttribute('d', 'M0,' + GEO.VB_H + ' L' + pts.join(' L') + ' L1000,' + GEO.VB_H + ' Z');
 
       var shown = (s.phase === 'settled' && s.rest !== null) ? s.rest : s.at;
       this._stone.style.transitionDuration = d + 'ms';
       this._stone.style.left = (this.frac(s, shown) * 100) + '%';
-      this._stone.style.bottom = 'calc(' + (this.heightAt(s, shown) * 63) + '% + var(--rnh-lift))';
+      /* ⚠ SITS ON the ground line, from the same function that drew it */
+      this._stone.style.bottom = (this.groundUp(s, shown) * 100).toFixed(2) + '%';
+      this._stone.style.transitionTimingFunction =
+        (s.phase === 'settled' ? GEO.E_ROLL : 'cubic-bezier(.34,.06,.2,1)');
       this._stone.textContent = String(s.at);
       this._stone.setAttribute('aria-label', this._fmt(api.t('ariaStone'), { n: s.at }));
       this._stone.classList.toggle('is-teeter', s.phase === 'teeter');
@@ -628,22 +703,33 @@
       + '.rnh-wrap{position:relative;display:flex;flex-direction:column;align-items:center;width:100%;}'
       + '.rnh-card{container-type:inline-size;width:100%;max-width:880px;box-sizing:border-box;'
       + 'background-color:#F6EAD3;border:1.5px solid #E7DCC8;border-radius:18px;'
-      + 'padding:clamp(14px,3cqw,30px);--rnh-st:clamp(38px,7cqw,64px);--rnh-lift:6px;}'
+      + 'padding:clamp(14px,3cqw,30px);--rnh-st:clamp(38px,7cqw,64px);}'
 
       + '.rnh-arena{position:relative;width:100%;aspect-ratio:1000/300;}'
-      + '.rnh-arena.is-refuse .rnh-svg .rnh-ground{fill:#EBD9BC;}'
+      + '.rnh-field{position:absolute;top:0;bottom:0;left:calc(var(--rnh-st)/2);right:calc(var(--rnh-st)/2);}'
+      /* ⚠ the refusal signal was 1.08:1 — invisible. The outline carries
+         it instead, at coral's shadow, 5.28:1. */
+      + '.rnh-arena.is-refuse .rnh-ground{stroke:#A34122;stroke-width:5;}'
       + '.rnh-svg{position:absolute;inset:0;width:100%;height:100%;display:block;}'
-      + '.rnh-ground{fill:#EFE2C9;stroke:#146B5E;stroke-width:3;vector-effect:non-scaling-stroke;}'
+      /* ⚠ #EFE2C9 and #EBD9BC were NOT in the locked palette. */
+      + '.rnh-ground{fill:#F6EAD3;stroke:#146B5E;stroke-width:3;vector-effect:non-scaling-stroke;}'
 
       /* the ridge: level until the class settles it, then it LEANS, and
          that lean is the only record of the rule anywhere on screen */
-      + '.rnh-ridge{position:absolute;left:50%;top:12%;width:5px;height:20%;'
+      /* ⚠ it pivoted 12% INSIDE the hillside; the foot now sits on the
+         crest, so the lean is about the point the stone rests on */
+      + '.rnh-ridge{position:absolute;left:50%;top:20%;width:5px;height:17%;'
       + 'transform:translateX(-50%);transform-origin:50% 100%;border-radius:3px;'
-      + 'background-color:#E7DCC8;'
+      /* ⚠⚠ IT WAS 1.06:1 AGAINST THE HILLSIDE — the one thing this tool is
+         about, invisible until the class had already acted on it. Teal is
+         5.78:1 on the working surface. */
+      + 'background-color:#146B5E;'
       + 'transition-property:transform,background-color;transition-timing-function:cubic-bezier(.34,.06,.2,1);}'
       + '.rnh-ridge.is-set{background-color:#F2784B;box-shadow:0 0 0 1.5px #A34122;}'
 
-      + '.rnh-stone{position:absolute;transform:translateX(-50%);'
+      /* ⚠ translateY(50%) would centre the stone ON the ground line, i.e.
+         half buried. It stands on it. */
+      + '.rnh-stone{position:absolute;transform:translateX(-50%);margin-bottom:2px;'
       + 'min-width:var(--rnh-st);height:var(--rnh-st);padding:0 6px;border-radius:50%;'
       + 'border:2.5px solid #146B5E;background-color:#FBF3E4;color:#0E5147;cursor:pointer;'
       + 'font-family:"Baloo 2",system-ui,sans-serif;font-weight:700;'
@@ -653,7 +739,12 @@
       + '.rnh-stone.is-rest{border-color:#0D4E44;border-width:3.5px;}'
       /* ⚠⚠ THE TEETER IS AN INFINITE LOOP, NOT A TIMEOUT. A wobble that
          ended by itself would mean the machine decided. */
-      + '.rnh-stone.is-teeter{animation:rnh-teeter ' + GEO.T_TEETER + 'ms ease-in-out infinite;}'
+      /* ⚠⚠ transform-origin AT THE FOOT. Rotating a CIRCLE about its own
+         centre moves not one pixel of its outline — only the numeral
+         turned, so the teeter was invisible as motion. Pivoting at the
+         contact point makes it rock. */
+      + '.rnh-stone.is-teeter{transform-origin:50% 100%;'
+      + 'animation:rnh-teeter var(--rnh-teet) ease-in-out infinite;}'
       + '@keyframes rnh-teeter{0%,100%{transform:translateX(-50%) rotate(-' + GEO.TEETER_DEG + 'deg);}'
       + '50%{transform:translateX(-50%) rotate(' + GEO.TEETER_DEG + 'deg);}}'
 

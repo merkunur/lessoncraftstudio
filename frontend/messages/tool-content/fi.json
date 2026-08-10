@@ -1387,25 +1387,25 @@
     ]
   },
   "doubling-mirror": {
-    "name": "The Doubling Mirror",
+    "name": "Sarana",
     "slug": "kaksinkertaistaminen-ja-puolittaminen-nappuloilla-alkuopetus",
     "tagline": "Sulje sarana, ja toiselle puoliskolle tulee yhtä monta OIKEAA nappulaa — niihin kaikkiin voi koskea.",
     "metaTitle": "Kaksinkertaistaminen ja puolittaminen nappuloilla, alkuopetus",
     "metaDescription": "Sanokaa ensin, mikä on kaksinkertainen määrä, ja sulkekaa sitten alusta ja laskekaa. Yhdeksän avautuu viideksi ja neljäksi, koska ylimääräisen on mentävä jonnekin.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Asettakaa lähemmälle siivelle jokin määrä ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sarana: kauempi siipi saa yhtä monta lisää. Lisätkää sitten yksi kiekko ja avatkaa — noin näyttää kaksinkertainen määrä ja yksi lisää.",
+      "Kaksi siipeä ja niiden välissä sarana.",
+      "Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti ja uurratte, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Aseta vielä yksi kiekko lähemmälle siivelle Lähemmällä siivellä: 6.",
+      "Sulje sarana Siivillä 6 ja 6. Yhteensä 12.",
+      "Avaa sarana 12 jakautuu taas: 6 ja 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 ei jakaudu kahdelle yhtä suurelle siivelle. Yksi kiekko jäi ilman paria — kummalle siivelle luokka antaa sen?",
+      "9 jakautuu näin: 5 ja 4. Ilman paria jäänyt kiekko on 1 siivellä — se on kaksinkertainen määrä ja yksi lisää.",
+      "Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette."
     ]
   },
   "labels": {

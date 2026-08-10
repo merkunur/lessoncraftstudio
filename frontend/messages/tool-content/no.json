@@ -1409,25 +1409,25 @@
     ]
   },
   "doubling-mirror": {
-    "name": "The Doubling Mirror",
+    "name": "Hengslet",
     "slug": "det-dobbelte-og-halvparten-med-brikker-smatrinnet",
     "tagline": "Lukk hengselet, og den andre klaffen får like mange EKTE brikker — du kan ta på alle sammen.",
     "metaTitle": "Det dobbelte og halvparten med brikker, småtrinnet",
     "metaDescription": "Si først hva det dobbelte blir, og lukk så brettet og tell. Ni åpner seg til fem og fire, for den ene som blir til overs må jo et sted.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Still den nærmeste klaffen på et tall, og si hva det dobbelte blir. Lukk hengslet: den borterste klaffen får like mange til. Legg så på en skive til og åpne — slik ser et dobbelt og en til ut.",
+      "To klaffer med et hengsel imellom.",
+      "Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut og risser opp, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Legg en skive til på den nærmeste klaffen På den nærmeste klaffen: 6.",
+      "Lukk hengslet 6 og 6 på klaffene. 12 til sammen.",
+      "Åpne hengslet 12 blir 6 og 6 igjen."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 går ikke opp i to like klaffer. En skive er uten make — hvilken klaff skal klassen gi den til?",
+      "9 blir 5 og 4. Skiven uten make ligger på den 1 klaffen — det er et dobbelt og en til.",
+      "Klipp ut de to klaffene og riss opp midtlinjen, så de lar seg lukke. Legg skiver på den ene klaffen, si hva det dobbelte blir, legg den andre klaffen over og legg like mange til. Tell dem alle: hengslet lager ikke en eneste skive — det gjør dere."
     ]
   },
   "labels": {

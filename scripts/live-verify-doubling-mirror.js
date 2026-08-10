@@ -33,8 +33,8 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
     ok(live.replace(/\r\n/g, '\n') === local.replace(/\r\n/g, '\n'),
       '0 ⚠⚠ the DEPLOYED bytes differ from the local file — a stale deploy');
     /* something only true of this build */
-    ok(live.indexOf('T_SILL') > 0, '0 the deployed build has no T_SILL');
-    ok(live.indexOf('Der Rundbogen') > 0, '0 the deployed build has no German strings');
+    ok(live.indexOf('T_BEAT') > 0, '0 the deployed build has no T_BEAT');
+    ok(live.indexOf('Das Scharnier') > 0, '0 the deployed build has no German strings');
     await p.close();
   }
 
@@ -63,54 +63,45 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
     await p.goto(BASE + "/mini-tools/doubling-mirror.html?lang=en&cb=" + Date.now(), { waitUntil: "domcontentloaded" });
     await new Promise(r => setTimeout(r, 1100));
     const read = () => {
-      const bar = document.querySelector(".dbm-bar"), arch = document.querySelector(".dbm-arch");
-      const yard = document.querySelector(".dbm-yard"), wait = document.querySelector(".dbm-wait");
-      const sill = document.querySelector(".dbm-sill");
-      return {
-        through: yard ? yard.querySelectorAll(".dbm-m").length : -1,
-        waiting: wait ? wait.querySelectorAll(".dbm-m").length : -1,
-        seats: wait ? wait.querySelectorAll(".dbm-seat").length : -1,
-        barUp: bar ? bar.className.indexOf("is-up") >= 0 : null,
-        archW: arch ? +arch.getBoundingClientRect().width.toFixed(1) : null,
-        sillOn: sill ? sill.querySelectorAll(".dbm-m").length : -1,
-        sillFull: sill ? sill.className.indexOf("is-full") >= 0 : null,
-        sillW: sill && sill.style.display !== "none" ? +sill.getBoundingClientRect().width.toFixed(1) : null
-      };
+      const tray = document.querySelector(".dbm-tray"); if (!tray) return null;
+      const near = document.querySelector(".dbm-near"), far = document.querySelector(".dbm-far");
+      const odd = document.querySelector(".dbm-odd");
+      return { near: near.querySelectorAll(".dbm-c").length,
+        far: far.querySelectorAll(".dbm-c").length,
+        odd: odd.querySelectorAll(".dbm-c").length,
+        oddShown: odd.style.visibility !== "hidden",
+        closed: tray.className.indexOf("is-closed") >= 0,
+        lowOff: (document.querySelector(".dbm-b-low").className.indexOf("is-off") >= 0) };
     };
     const o = await p.evaluate(read);
-    ok(!!o && o.waiting > 0, "2 the parade did not render on production");
-    ok(o && !o.barUp, "2 ** the bar is UP before anybody predicted - the tool is a cutscene");
-    /* a rank must NOT go through with the bar down */
-    await p.evaluate(() => document.querySelector(".dbm-b-call").click());
-    await new Promise(r => setTimeout(r, 350));
-    const held = await p.evaluate(read);
-    ok(held.through === 0, "2 ** a rank went through with the bar DOWN on production");
-    /* predict, then march to the standstill */
-    await p.evaluate(() => document.querySelector(".dbm-b-no").click());
-    await new Promise(r => setTimeout(r, 600));
-    const pr = await p.evaluate(read);
-    ok(!!pr.barUp, "2 * the bar did not lift after the prediction");
-    for (let i = 0; i < 14; i++) {
-      await p.evaluate(() => document.querySelector(".dbm-b-call").click());
-      await new Promise(r => setTimeout(r, 190));
-    }
-    const done = await p.evaluate(read);
-    ok(done.through + done.waiting === o.waiting, "2 through+waiting != the parade");
-    ok(done.waiting < 2, "2 ** a full rank was left standing (" + done.waiting + ")");
-    /* * the leftover is not marked - the EMPTY SEAT beside it is */
-    if (done.waiting > 0) ok(done.seats >= 1, "2 ** somebody is standing and no empty seat is drawn");
-    /* the theorem, and the sill must match the archway - that IS the proof */
-    if (done.waiting > 0) {
-      await p.evaluate(() => document.querySelector(".dbm-b-second").click());
-      await new Promise(r => setTimeout(r, 500));
-      await p.evaluate(() => document.querySelector(".dbm-b-sill").click());
-      await new Promise(r => setTimeout(r, 1700));
-      const sl = await p.evaluate(read);
-      ok(sl.sillOn >= 2, "2 * the sill holds " + sl.sillOn);
-      ok(!!sl.sillFull, "2 ** two left-behinds at two abreast did NOT make a full rank");
-      ok(sl.sillW !== null && Math.abs(sl.sillW - sl.archW) <= 14,
-        "2 ** the sill is " + sl.sillW + "px and the archway " + sl.archW + "px - the proof depends on them matching");
-    }
+    ok(!!o, "2 the tray did not render on production");
+    ok(o && !o.closed, "2 the tray starts closed");
+    /* ** DRIVEN BY BUTTON THROUGHOUT - on this tool an entire branch was
+       unreachable and two gates missed it by reaching the model directly */
+    await p.evaluate(() => document.querySelector(".dbm-b-close").click());
+    await new Promise(r => setTimeout(r, 1200));
+    const c = await p.evaluate(read);
+    ok(c.far === c.near && c.far > 0, "2 ** the far leaf holds " + c.far + " and the near " + c.near);
+    ok(c.closed, "2 the tray is not drawn closed");
+    /* the branch that was DEAD: one more on a closed tray */
+    await p.evaluate(() => document.querySelector(".dbm-b-more").click());
+    await new Promise(r => setTimeout(r, 500));
+    const plus = await p.evaluate(read);
+    ok(plus.oddShown && plus.odd === 1, "2 *** one more on a CLOSED tray did not produce the odd counter");
+    /* ** N1: the side control must NOT be live before anything opened */
+    ok(plus.lowOff, "2 *** the side control is LIVE before anything was opened - the announcement leaks a raw placeholder");
+    await p.evaluate(() => document.querySelector(".dbm-b-open").click());
+    await new Promise(r => setTimeout(r, 900));
+    const op = await p.evaluate(read);
+    ok(!op.closed, "2 ** opening left the tray CLOSED - the control has no consequence");
+    ok(!op.lowOff, "2 the side control is still off after opening");
+    ok(op.oddShown, "2 the odd counter vanished on opening");
+    await p.evaluate(() => document.querySelector(".dbm-b-high").click());
+    await new Promise(r => setTimeout(r, 700));
+    const sd = await p.evaluate(read);
+    ok(!sd.oddShown, "2 *** still waiting after the class chose a side - the apparatus stalled");
+    ok(Math.abs(sd.near - sd.far) === 1, "2 the leaves differ by " + Math.abs(sd.near - sd.far));
+    ok(sd.far === sd.near + 1, "2 the odd one went to the wrong leaf");
     await p.close();
   }
 

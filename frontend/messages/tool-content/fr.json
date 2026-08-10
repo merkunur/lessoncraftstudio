@@ -1408,25 +1408,25 @@
     ]
   },
   "doubling-mirror": {
-    "name": "The Doubling Mirror",
+    "name": "La charnière",
     "slug": "doubles-et-moities-avec-des-jetons-cp-ce1",
     "tagline": "Referme la charnière et l’autre volet reçoit autant de VRAIS jetons — on peut les toucher tous.",
     "metaTitle": "Doubles et moitiés avec des jetons, CP-CE1",
     "metaDescription": "Dites d’abord quel sera le double, puis refermez le plateau et comptez. Neuf s’ouvre en cinq et quatre, parce que celui qui reste doit aller quelque part.",
     "about": [
-      "Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.",
-      "A tray with two leaves and a hinge between them.",
-      "The whole apparatus is free — every count, the closing, the opening and the odd one's side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves."
+      "Réglez le battant proche sur un nombre et dites ce que fera le double. Fermez la charnière : le battant opposé en reçoit autant. Ajoutez ensuite un disque de plus et ouvrez — voilà à quoi ressemble un double et un de plus.",
+      "Deux battants reliés par une charnière.",
+      "Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper et à marquer, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains."
     ],
     "howToUse": [
-      "Put another counter on the near leaf 6 on the near leaf.",
-      "Close the hinge 6 and 6 on the tray. 12 altogether.",
-      "Open the hinge 12 opens into 6 and 6."
+      "Poser un disque de plus sur le battant proche Sur le battant proche : 6.",
+      "Fermer la charnière 6 et 6 sur les battants. 12 en tout.",
+      "Ouvrir la charnière 12 redevient 6 et 6."
     ],
     "classroomIdeas": [
-      "9 will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?",
-      "9 opens into 5 and 4. The odd one went to the 1 leaf, so this is a double and one more.",
-      "Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do."
+      "9 ne se partage pas en deux battants égaux. Un disque n’a pas de partenaire — à quel battant la classe le donne-t-elle ?",
+      "9 redevient 5 et 4. Le disque sans partenaire est sur le battant 1 : c’est un double et un de plus.",
+      "Découpez les deux battants et marquez bien la ligne du milieu pour qu’ils se referment. Posez des disques sur un battant, dites ce que fera le double, rabattez l’autre battant et posez-en autant. Comptez-les tous : la charnière ne fabrique aucun disque, c’est vous qui le faites."
     ]
   },
   "labels": {

@@ -82,7 +82,7 @@ function wr(f, s) { fs.writeFileSync(path.join(R, f), s); }
   const m = s.match(/const TOOL_WRAPPER_VERSION = '([\d.]+)'/);
   if (registered && m && m[1] === '7.83') {
     s = s.replace(`const TOOL_WRAPPER_VERSION = '${m[1]}'`, `const TOOL_WRAPPER_VERSION = '7.84'`);
-    wr(f, s); step(`TOOL_WRAPPER_VERSION ${m[1]} → 7.83`, true);
+    wr(f, s); step(`TOOL_WRAPPER_VERSION ${m[1]} → 7.84`, true);  /* ⚠ #40: the log must report the value ACTUALLY WRITTEN */
   } else step(`TOOL_WRAPPER_VERSION (${m ? m[1] : '?'})`, false);
 }
 

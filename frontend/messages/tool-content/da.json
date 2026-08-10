@@ -1297,6 +1297,29 @@
     "metaTitle": "Tælleæskerne – tiere og enere, 1.-3. klasse",
     "metaDescription": "Gratis værktøj til klassen: alt for mange brikker til at tælle ét ad gangen. Øs dem op ti ad gangen i æsker, og se tallet vokse frem. Til 1.-3. klasse."
   },
+  "number-hotel": {
+    "name": "Talhotellet",
+    "slug": "talhotellet-tiere-og-enere-op-til-100-indskoling",
+    "tagline": "Hundrede vaerelser, ti korridorer — korridoren fortaeller tieren.",
+    "metaTitle": "Talhotellet: tiere og enere op til 100",
+    "metaDescription": "Hundrede vaerelser, ti korridorer: korridoren er tieren. Se hvorfor 49 til 50 kraever trappen.",
+    "about": [
+      "Hvert værelse er et tal. Et skridt fører dig til næste dør i korridoren. Elevatoren fører dig én korridor op og sætter dig af ved den samme dør, og du kan kun læse dørene i den korridor, du står i. Korridoren slutter — dér fortsætter trappen.",
+      "Her slutter korridoren. Efter værelse 49 er der ingen dør — fra én korridor til den næste kommer man kun ad trappen.",
+      "Et hotel på papir med tomme døre, så klassen selv skriver værelserne ind. Én korridor er udfyldt som start."
+    ],
+    "howToUse": [
+      "Hvor gæsten begynder",
+      "Gå videre til næste dør",
+      "Tag elevatoren én korridor op — den samme dør",
+      "Tag trappen op til den første dør i næste korridor"
+    ],
+    "classroomIdeas": [
+      "Vi kører én korridor op. Døren er den samme, men dørene deroppe kan først læses, når vi er fremme.",
+      "Op ad trappen og hele den nye korridor tilbage, til værelse 50.",
+      "Skriv nummeret på hver dør. Én korridor er udfyldt, så I kommer i gang."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

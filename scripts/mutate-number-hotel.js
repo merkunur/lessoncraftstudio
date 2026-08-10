@@ -101,7 +101,12 @@ const MUTATIONS = [
   ['an owned noun reaches the copy', "en: 'Take the stairs up to the first door", "en: 'Take the stairs to the next floor, up to the first door"],
   ['an operator glyph reaches the copy', "en: 'Room {n}.'", "en: 'Room {n} = here.'"],
   ['a string is emptied', "en: 'Take the stairs up to the first door of the next corridor'", "en: ''"],
-  ['the refusal scolds', "saidWallEnd:  { en: 'The corridor ends here.", "saidWallEnd:  { en: 'Wrong. The corridor = ends here."]
+  /* ⚠ SELF-ANCHORED on the sentence itself, not on the key plus its
+     object shape. The first version encoded `saidWallEnd:  { en:` and
+     went blind the moment `apply-` rewrote the block for eleven
+     locales — the recorded half-life trap, caught here because the
+     harness THROWS on a missing needle instead of skipping it. */
+  ['the refusal scolds', "en: 'The corridor ends here.", "en: 'Wrong. The corridor = ends here."],
 ];
 
 function run(dir) {

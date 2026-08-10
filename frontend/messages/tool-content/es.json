@@ -1295,6 +1295,29 @@
     "metaTitle": "Los botes de diez — agrupar de diez en diez | Primaria",
     "metaDescription": "Instrumento gratuito para la pizarra digital: la clase recoge fichas de diez en diez, cada bote se cierra al llegar a diez y diez botes hacen cien."
   },
+  "number-hotel": {
+    "name": "El hotel de los números",
+    "slug": "numeros-hasta-el-100-contar-de-diez-en-diez-primaria",
+    "tagline": "Cien habitaciones en diez pasillos: el ascensor cambia de pasillo sin tocar la puerta, y al final del pasillo ya no hay mas puertas.",
+    "metaTitle": "El hotel de los numeros: contar hasta el 100 en Primaria",
+    "metaDescription": "Herramienta gratuita para la pizarra digital: cien habitaciones en diez pasillos, y al final del pasillo ya no hay puertas.",
+    "about": [
+      "Cada habitación es un número. Al caminar avanzamos una puerta por el pasillo. El ascensor nos sube o nos baja un pasillo entero y siempre nos deja en la misma puerta, y las escaleras están solo en los dos extremos. Solo podemos leer las puertas del pasillo en el que estamos.",
+      "El pasillo se acaba aquí. Después de la habitación 49 no hay ninguna puerta más: de un pasillo a otro solo se pasa por las escaleras.",
+      "Un hotel en papel con las puertas en blanco y un solo pasillo ya escrito para arrancar, para que la clase escriba a mano todas las demás habitaciones."
+    ],
+    "howToUse": [
+      "Dónde empezamos",
+      "Caminar hasta la siguiente puerta",
+      "Subir un pasillo en el ascensor — la misma puerta",
+      "Subir por las escaleras hasta la primera puerta del pasillo de arriba"
+    ],
+    "classroomIdeas": [
+      "Subimos un pasillo. La puerta es la misma, pero las de arriba no se pueden leer hasta llegar.",
+      "Escaleras arriba y de vuelta por todo el pasillo nuevo, hasta la habitación 50.",
+      "Escribe el número en cada puerta. Un pasillo ya está escrito para empezar."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

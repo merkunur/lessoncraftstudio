@@ -1297,6 +1297,29 @@
     "metaTitle": "Ti om gangen – tiergrupper og plassverdi, 1.–3. trinn",
     "metaDescription": "Gratis verktøy for storskjermen: altfor mange brikker til å telle én og én. Klassen øser ti om gangen ned i esker, og tallet leser seg selv. 1.–3. trinn."
   },
+  "number-hotel": {
+    "name": "Tallhotellet",
+    "slug": "tallhotellet-tiere-og-enere-opp-til-100-smatrinnet",
+    "tagline": "Hundre rom, ti korridorer — korridoren roper tieren.",
+    "metaTitle": "Tallhotellet: tiere og enere opp til 100",
+    "metaDescription": "Hundre rom, ti korridorer: korridoren er tieren. Se hvorfor 49 til 50 krever trappa.",
+    "about": [
+      "Hvert rom er et tall. Ett steg tar deg til neste dør i korridoren. Heisen tar deg én korridor opp og setter deg av ved den samme døra, og du kan bare lese dørene i den korridoren du står i. Korridoren tar slutt — der fortsetter trappa.",
+      "Her tar korridoren slutt. Etter rom 49 er det ingen dør — fra én korridor til den neste kommer man bare opp trappa.",
+      "Et hotell på papir med tomme dører, så klassen skriver inn rommene selv. Én korridor er fylt ut som start."
+    ],
+    "howToUse": [
+      "Der gjesten starter",
+      "Gå videre til neste dør",
+      "Ta heisen én korridor opp — den samme døra",
+      "Ta trappa opp til den første døra i neste korridor"
+    ],
+    "classroomIdeas": [
+      "Vi kjører én korridor opp. Døra er den samme, men dørene der oppe kan ikke leses før vi er framme.",
+      "Opp trappa og hele den nye korridoren tilbake, til rom 50.",
+      "Skriv nummeret på hver dør. Én korridor er fylt ut så dere kommer i gang."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

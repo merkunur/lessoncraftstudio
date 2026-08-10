@@ -1298,6 +1298,29 @@
     "metaTitle": "Zehnerdosen: Bündeln und Stellenwert bis 100",
     "metaDescription": "Viel zu viele Plättchen zum Einzelnzählen: schöpfen, in Zehnerdosen füllen, bündeln. Zahlenraum bis 100, Klasse 1 und 2 — kostenloses Werkzeug."
   },
+  "number-hotel": {
+    "name": "Das Zahlenhotel",
+    "slug": "zehneruebergang-zahlenraum-bis-100-grundschule",
+    "tagline": "Der Flur endet bei 49 — und genau deshalb springt die Zehnerziffer.",
+    "metaTitle": "Das Zahlenhotel: Zehneruebergang im Zahlenraum bis 100",
+    "metaDescription": "Jedes Zimmer eine Zahl, jeder Flur eine Zehnerziffer. Am Ende des Flurs geht es nur ueber die Treppe weiter. Klasse 1 und 2.",
+    "about": [
+      "Jedes Zimmer ist eine Zahl. Ein Schritt bringt uns eine Tür weiter den Flur entlang, der Fahrstuhl einen Flur höher oder tiefer, ohne die Tür zu wechseln, und die Treppe gibt es nur an den beiden Enden eines Flurs. Lesen können wir nur die Türen auf dem Flur, auf dem wir gerade stehen.",
+      "Hier endet der Flur. Nach Zimmer 49 kommt keine Tür mehr — von einem Flur zum nächsten geht es nur über die Treppe.",
+      "Ein Hotel auf Papier: Ein Flur ist schon ausgefüllt, alle anderen Türen sind leer, und die Klasse schreibt die Zimmernummern selbst hinein."
+    ],
+    "howToUse": [
+      "Wo wir starten",
+      "Einen Schritt weiter zur nächsten Tür",
+      "Mit dem Fahrstuhl einen Flur höher — dieselbe Tür",
+      "Die Treppe hinauf zur ersten Tür des nächsten Flurs"
+    ],
+    "classroomIdeas": [
+      "Wir fahren einen Flur höher. Die Tür bleibt dieselbe, aber die Türen dort oben können wir erst lesen, wenn wir angekommen sind.",
+      "Die Treppe hinauf und dann den ganzen neuen Flur zurück bis zur ersten Tür: Zimmer 50.",
+      "Schreibt auf jede Tür die Zahl. Ein Flur ist schon ausgefüllt."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

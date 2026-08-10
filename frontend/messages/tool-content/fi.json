@@ -1275,6 +1275,29 @@
     "metaTitle": "Kymppirasiat – kymmenet ja sadat näkyviksi | Ilmainen",
     "metaDescription": "Maksuton väline koko luokalle: kauho liian iso kasa rasioihin, jotka sulkeutuvat itsestään kymmenen kohdalla. Näyttö ei arvaa lukua ennen aikojaan."
   },
+  "number-hotel": {
+    "name": "Lukuhotelli",
+    "slug": "lukuhotelli-kymmenet-ja-ykkoset-sataan-asti-alkuopetus",
+    "tagline": "Sata huonetta, kymmenen kaytavaa — kaytava kertoo kymmenluvun.",
+    "metaTitle": "Lukuhotelli: kymmenet ja ykkoset sataan asti",
+    "metaDescription": "Sata huonetta, kymmenen kaytavaa: kaytavan numero on kymmenluku. Huomaa, miksi 49:sta 50:een on portaat.",
+    "about": [
+      "Jokainen huone on luku. Yksi askel vie käytävällä seuraavalle ovelle. Hissi vie yhden käytävän ylöspäin ja jättää saman oven kohdalle, ja ovien numerot näkyvät vain sillä käytävällä, jolla seisot. Käytävä loppuu — siitä eteenpäin mennään portaita.",
+      "Käytävä loppuu tähän. Huoneen 49 jälkeen ei ole enää ovea — käytävältä toiselle pääsee vain portaita.",
+      "Paperinen hotelli, jonka ovet ovat tyhjiä, niin luokka kirjoittaa huoneiden numerot itse. Yksi käytävä on täytetty valmiiksi."
+    ],
+    "howToUse": [
+      "Mistä vieras aloittaa",
+      "Kävele seuraavalle ovelle",
+      "Hissillä yksi käytävä ylöspäin — sama ovi",
+      "Mene portaita ylös seuraavan käytävän ensimmäiselle ovelle"
+    ],
+    "classroomIdeas": [
+      "Noustaan yksi käytävä ylöspäin. Ovi on sama, mutta ylempien ovien numerot näkyvät vasta perillä.",
+      "Portaita ylös ja koko uusi käytävä takaisin alkuun: huone 50.",
+      "Kirjoita numero jokaiseen oveen. Yksi käytävä on täytetty valmiiksi alkuun."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

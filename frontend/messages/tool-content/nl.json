@@ -1298,6 +1298,29 @@
     "metaTitle": "De Tienkokers – tientallen maken, groep 3-5",
     "metaDescription": "Gratis digibordmateriaal: te veel fiches om te tellen, dus schep je ze bij tien tegelijk in kokers. Tientallen en positiewaarde, groep 3-5."
   },
+  "number-hotel": {
+    "name": "Het Getallenhotel",
+    "slug": "getallenhotel-tientallen-en-eenheden-tot-100-groep-4",
+    "tagline": "Honderd kamers, tien gangen — de gang verklapt het tiental.",
+    "metaTitle": "Getallenhotel: tientallen en eenheden tot 100",
+    "metaDescription": "Honderd kamers, tien gangen: de gang is het tiental. Ontdek waarom 49 naar 50 via de trap gaat.",
+    "about": [
+      "Elke kamer is een getal. Eén stap brengt je naar de volgende deur in de gang. De lift brengt je één gang hoger en laat de deur op zijn plek, en je kunt alleen de deuren lezen van de gang waarin je staat. Aan het eind van de gang houdt het op — daar gaat de trap verder.",
+      "Hier houdt de gang op. Na kamer 49 komt geen deur meer — van de ene gang naar de andere gaat het alleen via de trap.",
+      "Een hotel op papier met lege deuren, zodat de klas de kamernummers zelf invult. Eén gang is al ingevuld als voorbeeld."
+    ],
+    "howToUse": [
+      "Waar de gast begint",
+      "Eén deur verder lopen",
+      "Met de lift één gang omhoog — dezelfde deur",
+      "Met de trap omhoog, naar de eerste deur van de volgende gang"
+    ],
+    "classroomIdeas": [
+      "We gaan één gang omhoog. De deur blijft dezelfde, maar de deuren daarboven kun je pas lezen als we er zijn.",
+      "De trap op en dan de hele nieuwe gang terug, tot kamer 50.",
+      "Schrijf op elke deur het nummer. Eén gang is al ingevuld om te beginnen."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

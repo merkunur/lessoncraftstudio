@@ -229,16 +229,76 @@
        AUDIT rather than a target. ⚠ No string may say floor, building,
        tower, storey, level or skyline. */
     strings: {
-      title:        { en: 'The Number Hotel' },
+      title:        {
+        en: 'The Number Hotel',
+        de: 'Das Zahlenhotel',
+        fr: 'L’hôtel des cent chambres',
+        es: 'El hotel de los números',
+        pt: 'O Hotel dos Números',
+        it: 'L’albergo dei cento numeri',
+        nl: 'Het Getallenhotel',
+        sv: 'Talhotellet',
+        da: 'Talhotellet',
+        no: 'Tallhotellet',
+        fi: 'Lukuhotelli'
+      },
       /* ⚠ The only explanatory string omitted the stairs AND that the
          corridor ends — the carry is the reason this tool exists, and
          all five panels flagged it. It also still said "lift" while
          every button said "elevator". */
-      instruction:  { en: 'Every room is a number. One step takes you to the next door along the corridor. The elevator takes you one corridor up, and you can only read the doors on the corridor you are standing in. The corridor ends — from there the stairs carry on.' },
+      instruction:  {
+        en: 'Every room is a number. One step takes you to the next door along the corridor. The elevator takes you one corridor up, and you can only read the doors on the corridor you are standing in. The corridor ends — from there the stairs carry on.',
+        de: 'Jedes Zimmer ist eine Zahl. Ein Schritt bringt uns eine Tür weiter den Flur entlang, der Fahrstuhl einen Flur höher oder tiefer, ohne die Tür zu wechseln, und die Treppe gibt es nur an den beiden Enden eines Flurs. Lesen können wir nur die Türen auf dem Flur, auf dem wir gerade stehen.',
+        fr: 'Chaque chambre est un nombre. On marche d’une porte à la suivante le long de la galerie. L’ascenseur monte ou descend d’une galerie et s’arrête toujours devant la même porte. Au bout de la galerie, il n’y a plus de porte, et ce sont les escaliers qui mènent plus loin. On ne lit les numéros que sur la galerie où l’on se tient.',
+        es: 'Cada habitación es un número. Al caminar avanzamos una puerta por el pasillo. El ascensor nos sube o nos baja un pasillo entero y siempre nos deja en la misma puerta, y las escaleras están solo en los dos extremos. Solo podemos leer las puertas del pasillo en el que estamos.',
+        pt: 'Cada quarto é um número. Um passo leva uma porta adiante no corredor; o elevador leva um corredor para cima ou para baixo e nunca muda a porta. Quando o corredor acaba, quem continua é a escada. E só dá para ler os números do corredor em que a turma está.',
+        it: 'Ogni camera è un numero. Un passo ti porta avanti di una porta, l’ascensore ti porta su o giù di un corridoio intero e ti lascia davanti alla stessa porta, e le scale ci sono soltanto alle due estremità. I numeri si leggono solo sul corridoio dove siamo.',
+        nl: 'Elke kamer is een getal. Eén stap brengt je naar de volgende deur in de gang. De lift brengt je één gang hoger en laat de deur op zijn plek, en je kunt alleen de deuren lezen van de gang waarin je staat. Aan het eind van de gang houdt het op — daar gaat de trap verder.',
+        sv: 'Varje rum är ett tal. Ett steg tar dig till nästa dörr i korridoren. Hissen tar dig en korridor uppåt och lämnar dig vid samma dörr, och du kan bara läsa dörrarna i den korridor du står i. Korridoren tar slut — där fortsätter trappan.',
+        da: 'Hvert værelse er et tal. Et skridt fører dig til næste dør i korridoren. Elevatoren fører dig én korridor op og sætter dig af ved den samme dør, og du kan kun læse dørene i den korridor, du står i. Korridoren slutter — dér fortsætter trappen.',
+        no: 'Hvert rom er et tall. Ett steg tar deg til neste dør i korridoren. Heisen tar deg én korridor opp og setter deg av ved den samme døra, og du kan bare lese dørene i den korridoren du står i. Korridoren tar slutt — der fortsetter trappa.',
+        fi: 'Jokainen huone on luku. Yksi askel vie käytävällä seuraavalle ovelle. Hissi vie yhden käytävän ylöspäin ja jättää saman oven kohdalle, ja ovien numerot näkyvät vain sillä käytävällä, jolla seisot. Käytävä loppuu — siitä eteenpäin mennään portaita.'
+      },
 
-      setStart:     { en: 'Where the walker starts' },
-      startZero:    { en: 'At the very first room' },
-      startMid:     { en: 'Somewhere in the middle' },
+      setStart:     {
+        en: 'Where the walker starts',
+        de: 'Wo wir starten',
+        fr: 'Où l’on commence',
+        es: 'Dónde empezamos',
+        pt: 'Por onde começar',
+        it: 'Da dove partiamo',
+        nl: 'Waar de gast begint',
+        sv: 'Var gästen börjar',
+        da: 'Hvor gæsten begynder',
+        no: 'Der gjesten starter',
+        fi: 'Mistä vieras aloittaa'
+      },
+      startZero:    {
+        en: 'At the very first room',
+        de: 'Im allerersten Zimmer',
+        fr: 'À la toute première chambre de l’hôtel',
+        es: 'En la primera habitación de todas',
+        pt: 'No primeiro quarto de todos',
+        it: 'Dalla primissima camera dell’albergo',
+        nl: 'Bij de allereerste kamer',
+        sv: 'Vid allra första rummet',
+        da: 'Ved det allerførste værelse',
+        no: 'Ved det aller første rommet',
+        fi: 'Aivan ensimmäisestä huoneesta'
+      },
+      startMid:     {
+        en: 'Somewhere in the middle',
+        de: 'Mitten im Hotel',
+        fr: 'Au milieu de l’hôtel',
+        es: 'En mitad del hotel',
+        pt: 'Bem no meio do hotel',
+        it: 'Nel mezzo dell’albergo',
+        nl: 'Midden in het hotel',
+        sv: 'Mitt i hotellet',
+        da: 'Midt i hotellet',
+        no: 'Midt i hotellet',
+        fi: 'Keskeltä hotellia'
+      },
 
       /* ⚠⚠ THE FOUR DIRECTIONAL CHIPS ARE NEVER DISABLED, and that is a
          ruling, not an oversight. Greying out "walk on" at room 49
@@ -246,10 +306,58 @@
          press the button never discovers that the corridor ends, and
          the whole tool becomes a demonstration again. So these have no
          *Off label — they have a REFUSAL, announced by the building. */
-      walkRight:    { en: 'Walk on to the next door' },
-      walkLeft:     { en: 'Walk back to the door before' },
-      liftUp:       { en: 'Take the elevator up one corridor' },
-      liftDown:     { en: 'Take the elevator down one corridor' },
+      walkRight:    {
+        en: 'Walk on to the next door',
+        de: 'Einen Schritt weiter zur nächsten Tür',
+        fr: 'Avancer jusqu’à la porte suivante',
+        es: 'Caminar hasta la siguiente puerta',
+        pt: 'Dar um passo até a próxima porta',
+        it: 'Vai avanti di una porta',
+        nl: 'Eén deur verder lopen',
+        sv: 'Gå vidare till nästa dörr',
+        da: 'Gå videre til næste dør',
+        no: 'Gå videre til neste dør',
+        fi: 'Kävele seuraavalle ovelle'
+      },
+      walkLeft:     {
+        en: 'Walk back to the door before',
+        de: 'Einen Schritt zurück zur Tür davor',
+        fr: 'Revenir à la porte précédente',
+        es: 'Volver hasta la puerta anterior',
+        pt: 'Dar um passo de volta, até a porta anterior',
+        it: 'Torna indietro di una porta',
+        nl: 'Eén deur terug lopen',
+        sv: 'Gå tillbaka till dörren innan',
+        da: 'Gå tilbage til døren før',
+        no: 'Gå tilbake til døra før',
+        fi: 'Kävele takaisin edelliselle ovelle'
+      },
+      liftUp:       {
+        en: 'Take the elevator up one corridor',
+        de: 'Mit dem Fahrstuhl einen Flur höher — dieselbe Tür',
+        fr: 'Prendre l’ascenseur, une galerie plus haut — la même porte',
+        es: 'Subir un pasillo en el ascensor — la misma puerta',
+        pt: 'Subir um corredor de elevador — a mesma porta',
+        it: 'Sali di un corridoio con l’ascensore — la stessa porta',
+        nl: 'Met de lift één gang omhoog — dezelfde deur',
+        sv: 'Ta hissen en korridor uppåt — samma dörr',
+        da: 'Tag elevatoren én korridor op — den samme dør',
+        no: 'Ta heisen én korridor opp — den samme døra',
+        fi: 'Hissillä yksi käytävä ylöspäin — sama ovi'
+      },
+      liftDown:     {
+        en: 'Take the elevator down one corridor',
+        de: 'Mit dem Fahrstuhl einen Flur tiefer — dieselbe Tür',
+        fr: 'Prendre l’ascenseur, une galerie plus bas — la même porte',
+        es: 'Bajar un pasillo en el ascensor — la misma puerta',
+        pt: 'Descer um corredor de elevador — a mesma porta',
+        it: 'Scendi di un corridoio con l’ascensore — la stessa porta',
+        nl: 'Met de lift één gang omlaag — dezelfde deur',
+        sv: 'Ta hissen en korridor nedåt — samma dörr',
+        da: 'Tag elevatoren én korridor ned — den samme dør',
+        no: 'Ta heisen én korridor ned — den samme døra',
+        fi: 'Hissillä yksi käytävä alaspäin — sama ovi'
+      },
       /* ⚠ ENGLISH SAYS "ELEVATOR", NOT "LIFT". `lift` is a DRAG VERB in
          sixteen shipped tools ("lift the piece", "lifted counters"), so
          an aria-label saying "the lift" reads ambiguously against all
@@ -259,21 +367,141 @@
       /* the stairs are the ONE conditional control, and even then they
          are aria-disabled rather than disabled: focusable, and they
          state their requirement out loud. */
-      stairsUpAt:   { en: 'Take the stairs up to the first door of the next corridor' },
-      stairsDownAt: { en: 'Take the stairs down to the last door of the corridor below' },
+      stairsUpAt:   {
+        en: 'Take the stairs up to the first door of the next corridor',
+        de: 'Die Treppe hinauf zur ersten Tür des nächsten Flurs',
+        fr: 'Prendre les escaliers jusqu’à la première porte de la galerie du dessus',
+        es: 'Subir por las escaleras hasta la primera puerta del pasillo de arriba',
+        pt: 'Subir pela escada até a primeira porta do corredor de cima',
+        it: 'Sali le scale fino alla prima porta del corridoio di sopra',
+        nl: 'Met de trap omhoog, naar de eerste deur van de volgende gang',
+        sv: 'Ta trappan upp till första dörren i nästa korridor',
+        da: 'Tag trappen op til den første dør i næste korridor',
+        no: 'Ta trappa opp til den første døra i neste korridor',
+        fi: 'Mene portaita ylös seuraavan käytävän ensimmäiselle ovelle'
+      },
+      stairsDownAt: {
+        en: 'Take the stairs down to the last door of the corridor below',
+        de: 'Die Treppe hinunter zur letzten Tür des Flurs darunter',
+        fr: 'Prendre les escaliers jusqu’à la dernière porte de la galerie du dessous',
+        es: 'Bajar por las escaleras hasta la última puerta del pasillo de abajo',
+        pt: 'Descer pela escada até a última porta do corredor de baixo',
+        it: 'Scendi le scale fino all’ultima porta del corridoio di sotto',
+        nl: 'Met de trap omlaag, naar de laatste deur van de gang eronder',
+        sv: 'Ta trappan ner till sista dörren i korridoren under',
+        da: 'Tag trappen ned til den sidste dør i korridoren nedenunder',
+        no: 'Ta trappa ned til den siste døra i korridoren under',
+        fi: 'Mene portaita alas alemman käytävän viimeiselle ovelle'
+      },
       /* ⚠ "this room is in the middle of one" was FALSE at rooms 0 and
          99, which are ends. This wording is true everywhere. */
-      stairsOff:    { en: 'Take the stairs — there are stairs only at the two ends of a corridor, and none leads away from this room.' },
+      stairsOff:    {
+        en: 'Take the stairs — there are stairs only at the two ends of a corridor, and none leads away from this room.',
+        de: 'Die Treppe nehmen — Treppen gibt es nur an den beiden Enden eines Flurs, und von hier aus führt keine weg.',
+        fr: 'Prendre les escaliers — il y a des escaliers seulement aux deux bouts d’une galerie, et d’ici on ne peut pas les rejoindre.',
+        es: 'Ir por las escaleras: las escaleras están solo en los dos extremos de cada pasillo, y de esta habitación no sale ninguna.',
+        pt: 'Ir pela escada — só existe escada nas duas pontas de um corredor, e deste quarto não sai nenhuma.',
+        it: 'Prendi le scale — le scale ci sono soltanto alle due estremità del corridoio, e da questa camera non ne parte nessuna.',
+        nl: 'De trap — een trap is er alleen aan de twee uiteinden van een gang, en vanaf hier gaat er geen weg.',
+        sv: 'Ta trappan — trappor finns bara i korridorens två ändar, och härifrån leder ingen bort.',
+        da: 'Tag trappen — der er kun trapper i korridorens to ender, og herfra fører ingen væk.',
+        no: 'Ta trappa — det er bare trapper i de to endene av en korridor, og herfra fører ingen bort.',
+        fi: 'Portaat — portaita on vain käytävän molemmissa päissä, eikä täältä lähde yhtään.'
+      },
 
-      printBtn:     { en: 'Print the hotel sheet' },
-      printLocked:  { en: 'Print the hotel sheet — this one needs a Teacher plan.' },
+      printBtn:     {
+        en: 'Print the hotel sheet',
+        de: 'Das Hotelblatt ausdrucken',
+        fr: 'Imprimer la feuille de l’hôtel',
+        es: 'Imprimir la hoja del hotel',
+        pt: 'Imprimir a folha do hotel',
+        it: 'Stampa il foglio dell’albergo',
+        nl: 'Het hotelblad afdrukken',
+        sv: 'Skriv ut hotellbladet',
+        da: 'Udskriv hotelarket',
+        no: 'Skriv ut hotellarket',
+        fi: 'Tulosta hotellipohja'
+      },
+      printLocked:  {
+        en: 'Print the hotel sheet — this one needs a Teacher plan.',
+        de: 'Das Hotelblatt ausdrucken — dafür braucht es das Lehrkraft-Abo.',
+        fr: 'Imprimer la feuille de l’hôtel — il faut un abonnement Enseignant.',
+        es: 'Imprimir la hoja del hotel: esta hoja va con el plan Docente.',
+        pt: 'Imprimir a folha do hotel — esta precisa do plano Professor.',
+        it: 'Stampa il foglio dell’albergo — per questo serve il piano Insegnante.',
+        nl: 'Het hotelblad afdrukken — hiervoor is een Leerkracht-abonnement nodig.',
+        sv: 'Skriv ut hotellbladet — det kräver en Lärarprenumeration.',
+        da: 'Udskriv hotelarket — det kræver et Lærerabonnement.',
+        no: 'Skriv ut hotellarket — det krever et Lærerabonnement.',
+        fi: 'Tulosta hotellipohja — tähän tarvitaan Opettajatilaus.'
+      },
 
-      roomPad:      { en: 'Room {n}, on this corridor.' },
-      roomPadDark:  { en: 'A door on another corridor. Its number cannot be read from here.' },
-      roomHere:     { en: 'Room {n}. This is where we are standing.' },
-      shaftLabel:   { en: 'The elevator. Its indicator reads {c}, and that is the corridor it is standing on.' },
+      roomPad:      {
+        en: 'Room {n}, on this corridor.',
+        de: 'Zimmer {n}, auf diesem Flur.',
+        fr: 'Chambre {n}, sur cette galerie.',
+        es: 'Habitación {n}, en este pasillo.',
+        pt: 'Quarto {n}, neste corredor.',
+        it: 'Camera {n}, in questo corridoio.',
+        nl: 'Kamer {n}, in deze gang.',
+        sv: 'Rum {n}, i den här korridoren.',
+        da: 'Værelse {n}, i denne korridor.',
+        no: 'Rom {n}, i denne korridoren.',
+        fi: 'Huone {n}, tällä käytävällä.'
+      },
+      roomPadDark:  {
+        en: 'A door on another corridor. Its number cannot be read from here.',
+        de: 'Eine Tür auf einem anderen Flur. Ihre Nummer ist von hier aus nicht zu lesen.',
+        fr: 'Une porte sur une autre galerie. D’ici, son numéro ne se lit pas.',
+        es: 'Una puerta de otro pasillo. Su número no se puede leer desde aquí.',
+        pt: 'Uma porta de outro corredor. Daqui não dá para ler o número dela.',
+        it: 'Una porta di un altro corridoio. Da qui il suo numero non si legge.',
+        nl: 'Een deur in een andere gang. Dit nummer is hiervandaan niet te lezen.',
+        sv: 'En dörr i en annan korridor. Numret går inte att läsa härifrån.',
+        da: 'En dør i en anden korridor. Nummeret kan ikke læses herfra.',
+        no: 'Ei dør i en annen korridor. Nummeret kan ikke leses herfra.',
+        fi: 'Ovi toisella käytävällä. Sen numero ei näy tänne.'
+      },
+      roomHere:     {
+        en: 'Room {n}. This is where we are standing.',
+        de: 'Zimmer {n}. Hier stehen wir.',
+        fr: 'Chambre {n}. C’est ici que nous sommes.',
+        es: 'Habitación {n}. Aquí estamos.',
+        pt: 'Quarto {n}. É aqui que a gente está.',
+        it: 'Camera {n}. È qui che siamo.',
+        nl: 'Kamer {n}. Hier staan we.',
+        sv: 'Rum {n}. Här står vi.',
+        da: 'Værelse {n}. Her står vi.',
+        no: 'Rom {n}. Her står vi.',
+        fi: 'Huone {n}. Tässä me seisomme.'
+      },
+      shaftLabel:   {
+        en: 'The elevator. Its indicator reads {c}, and that is the corridor it is standing on.',
+        de: 'Der Fahrstuhl. Seine Anzeige zeigt {c}, und das ist der Flur, auf dem er steht.',
+        fr: 'L’ascenseur. Son cadran indique {c}, et c’est la galerie devant laquelle il est arrêté.',
+        es: 'El ascensor. Su indicador marca {c}, que es el pasillo en el que está parado.',
+        pt: 'O elevador. O número aceso nele é {c}, o corredor em que ele está parado.',
+        it: 'L’ascensore. Il suo indicatore segna {c}, cioè il corridoio dove si trova adesso.',
+        nl: 'De lift. De teller staat op {c}, en dat is de gang waar de lift nu is.',
+        sv: 'Hissen. Visaren står på {c}, och det är korridoren hissen står i.',
+        da: 'Elevatoren. Viseren står på {c}, og det er den korridor, elevatoren står i.',
+        no: 'Heisen. Viseren står på {c}, og det er korridoren heisen står i.',
+        fi: 'Hissi. Näytössä lukee {c}, ja sillä käytävällä hissi on.'
+      },
 
-      saidWalk:     { en: 'Room {n}.' },
+      saidWalk:     {
+        en: 'Room {n}.',
+        de: 'Zimmer {n}.',
+        fr: 'Chambre {n}.',
+        es: 'Habitación {n}.',
+        pt: 'Quarto {n}.',
+        it: 'Camera {n}.',
+        nl: 'Kamer {n}.',
+        sv: 'Rum {n}.',
+        da: 'Værelse {n}.',
+        no: 'Rom {n}.',
+        fi: 'Huone {n}.'
+      },
       /* ⭐ THE REFUSAL IS THE BUILDING ANSWERING, NOT A CORRECTION. It
          never says "no" and never says "wrong" — it states a fact about
          the corridor, and the stairs are named as the way on. */
@@ -287,33 +515,225 @@
          a promise about here: it is true at all 100 rooms that the only
          way between corridors is the stairs, including where no
          staircase leads anywhere. */
-      saidWallEnd:  { en: 'The corridor ends here. There is no door after room {n} — from one corridor to the next, the only way is the stairs.' },
-      saidWallStart:{ en: 'The corridor starts here. There is no door before room {n} — from one corridor to the next, the only way is the stairs.' },
+      saidWallEnd:  {
+        en: 'The corridor ends here. There is no door after room {n} — from one corridor to the next, the only way is the stairs.',
+        de: 'Hier endet der Flur. Nach Zimmer {n} kommt keine Tür mehr — von einem Flur zum nächsten geht es nur über die Treppe.',
+        fr: 'La galerie s’arrête ici. Il n’y a pas de porte après la chambre {n} — d’une galerie à l’autre, on ne passe que par les escaliers.',
+        es: 'El pasillo se acaba aquí. Después de la habitación {n} no hay ninguna puerta más: de un pasillo a otro solo se pasa por las escaleras.',
+        pt: 'O corredor termina aqui. Depois do quarto {n} não existe porta — de um corredor para o outro, só pela escada.',
+        it: 'Qui il corridoio finisce. Dopo la camera {n} non c’è nessun’altra porta: da un corridoio all’altro si passa soltanto per le scale.',
+        nl: 'Hier houdt de gang op. Na kamer {n} komt geen deur meer — van de ene gang naar de andere gaat het alleen via de trap.',
+        sv: 'Här tar korridoren slut. Efter rum {n} finns ingen dörr — från en korridor till nästa kommer man bara via trappan.',
+        da: 'Her slutter korridoren. Efter værelse {n} er der ingen dør — fra én korridor til den næste kommer man kun ad trappen.',
+        no: 'Her tar korridoren slutt. Etter rom {n} er det ingen dør — fra én korridor til den neste kommer man bare opp trappa.',
+        fi: 'Käytävä loppuu tähän. Huoneen {n} jälkeen ei ole enää ovea — käytävältä toiselle pääsee vain portaita.'
+      },
+      saidWallStart:{
+        en: 'The corridor starts here. There is no door before room {n} — from one corridor to the next, the only way is the stairs.',
+        de: 'Hier beginnt der Flur. Vor Zimmer {n} gibt es keine Tür — von einem Flur zum nächsten geht es nur über die Treppe.',
+        fr: 'La galerie commence ici. Il n’y a pas de porte avant la chambre {n} — d’une galerie à l’autre, on ne passe que par les escaliers.',
+        es: 'El pasillo empieza aquí. Antes de la habitación {n} no hay ninguna puerta: de un pasillo a otro solo se pasa por las escaleras.',
+        pt: 'O corredor começa aqui. Antes do quarto {n} não existe porta — de um corredor para o outro, só pela escada.',
+        it: 'Qui il corridoio comincia. Prima della camera {n} non c’è nessuna porta: da un corridoio all’altro si passa soltanto per le scale.',
+        nl: 'Hier begint de gang. Vóór kamer {n} komt geen deur — van de ene gang naar de andere gaat het alleen via de trap.',
+        sv: 'Här börjar korridoren. Före rum {n} finns ingen dörr — från en korridor till nästa kommer man bara via trappan.',
+        da: 'Her begynder korridoren. Før værelse {n} er der ingen dør — fra én korridor til den næste kommer man kun ad trappen.',
+        no: 'Her begynner korridoren. Før rom {n} er det ingen dør — fra én korridor til den neste kommer man bare opp trappa.',
+        fi: 'Käytävä alkaa tästä. Ennen huonetta {n} ei ole ovea — käytävältä toiselle pääsee vain portaita.'
+      },
       /* ⚠ A refusal that never says nothing moved leaves a screen-reader
          user unable to tell whether they travelled. */
-      saidTop:      { en: 'This is the highest corridor in the hotel. The elevator stays where it is.' },
-      saidBottom:   { en: 'This is the lowest corridor in the hotel. The elevator stays where it is.' },
-      saidRideUp:   { en: 'Going up one corridor. The doors up there cannot be read until we arrive.' },
-      saidRideDown: { en: 'Going down one corridor. The doors down there cannot be read until we arrive.' },
-      saidStairsUp: { en: 'Up the stairs and all the way back along the new corridor, to room {n}.' },
-      saidStairsDn: { en: 'Down the stairs and all the way along to the far end, to room {n}.' },
+      saidTop:      {
+        en: 'This is the highest corridor in the hotel. The elevator stays where it is.',
+        de: 'Das ist der oberste Flur im Hotel. Der Fahrstuhl bleibt, wo er ist.',
+        fr: 'C’est la galerie la plus haute de l’hôtel. L’ascenseur reste où il est.',
+        es: 'Este es el pasillo más alto del hotel. El ascensor se queda donde está.',
+        pt: 'Este é o corredor mais alto do hotel. O elevador fica onde está.',
+        it: 'Questo è il corridoio più in alto dell’albergo. L’ascensore resta dov’è.',
+        nl: 'Dit is de hoogste gang van het hotel. De lift blijft staan.',
+        sv: 'Det här är hotellets översta korridor. Hissen står kvar.',
+        da: 'Det er hotellets øverste korridor. Elevatoren bliver stående.',
+        no: 'Dette er den øverste korridoren i hotellet. Heisen blir stående.',
+        fi: 'Tämä on hotellin ylin käytävä. Hissi jää paikalleen.'
+      },
+      saidBottom:   {
+        en: 'This is the lowest corridor in the hotel. The elevator stays where it is.',
+        de: 'Das ist der unterste Flur im Hotel. Der Fahrstuhl bleibt, wo er ist.',
+        fr: 'C’est la galerie la plus basse de l’hôtel. L’ascenseur reste où il est.',
+        es: 'Este es el pasillo más bajo del hotel. El ascensor se queda donde está.',
+        pt: 'Este é o corredor mais baixo do hotel. O elevador fica onde está.',
+        it: 'Questo è il corridoio più in basso dell’albergo. L’ascensore resta dov’è.',
+        nl: 'Dit is de laagste gang van het hotel. De lift blijft staan.',
+        sv: 'Det här är hotellets nedersta korridor. Hissen står kvar.',
+        da: 'Det er hotellets nederste korridor. Elevatoren bliver stående.',
+        no: 'Dette er den nederste korridoren i hotellet. Heisen blir stående.',
+        fi: 'Tämä on hotellin alin käytävä. Hissi jää paikalleen.'
+      },
+      saidRideUp:   {
+        en: 'Going up one corridor. The doors up there cannot be read until we arrive.',
+        de: 'Wir fahren einen Flur höher. Die Tür bleibt dieselbe, aber die Türen dort oben können wir erst lesen, wenn wir angekommen sind.',
+        fr: 'On monte d’une galerie. La porte reste la même, mais là-haut les numéros ne se liront qu’en arrivant.',
+        es: 'Subimos un pasillo. La puerta es la misma, pero las de arriba no se pueden leer hasta llegar.',
+        pt: 'Subindo um corredor. A porta é a mesma, mas só dá para ler os números de lá quando a gente chegar.',
+        it: 'Saliamo di un corridoio. Restiamo davanti alla stessa porta, ma i numeri lassù si leggeranno solo quando saremo arrivati.',
+        nl: 'We gaan één gang omhoog. De deur blijft dezelfde, maar de deuren daarboven kun je pas lezen als we er zijn.',
+        sv: 'Vi åker upp en korridor. Dörren är densamma, men dörrarna där uppe går inte att läsa förrän vi är framme.',
+        da: 'Vi kører én korridor op. Døren er den samme, men dørene deroppe kan først læses, når vi er fremme.',
+        no: 'Vi kjører én korridor opp. Døra er den samme, men dørene der oppe kan ikke leses før vi er framme.',
+        fi: 'Noustaan yksi käytävä ylöspäin. Ovi on sama, mutta ylempien ovien numerot näkyvät vasta perillä.'
+      },
+      saidRideDown: {
+        en: 'Going down one corridor. The doors down there cannot be read until we arrive.',
+        de: 'Wir fahren einen Flur tiefer. Die Tür bleibt dieselbe, aber die Türen dort unten können wir erst lesen, wenn wir angekommen sind.',
+        fr: 'On descend d’une galerie. La porte reste la même, mais en bas les numéros ne se liront qu’en arrivant.',
+        es: 'Bajamos un pasillo. La puerta es la misma, pero las de abajo no se pueden leer hasta llegar.',
+        pt: 'Descendo um corredor. A porta é a mesma, mas só dá para ler os números de lá quando a gente chegar.',
+        it: 'Scendiamo di un corridoio. Restiamo davanti alla stessa porta, ma i numeri laggiù si leggeranno solo quando saremo arrivati.',
+        nl: 'We gaan één gang omlaag. De deur blijft dezelfde, maar de deuren daarbeneden kun je pas lezen als we er zijn.',
+        sv: 'Vi åker ner en korridor. Dörren är densamma, men dörrarna där nere går inte att läsa förrän vi är framme.',
+        da: 'Vi kører én korridor ned. Døren er den samme, men dørene dernede kan først læses, når vi er fremme.',
+        no: 'Vi kjører én korridor ned. Døra er den samme, men dørene der nede kan ikke leses før vi er framme.',
+        fi: 'Laskeudutaan yksi käytävä alaspäin. Ovi on sama, mutta alempien ovien numerot näkyvät vasta perillä.'
+      },
+      saidStairsUp: {
+        en: 'Up the stairs and all the way back along the new corridor, to room {n}.',
+        de: 'Die Treppe hinauf und dann den ganzen neuen Flur zurück bis zur ersten Tür: Zimmer {n}.',
+        fr: 'Les escaliers, puis tout le chemin en sens inverse le long de la nouvelle galerie, jusqu’à la chambre {n}.',
+        es: 'Escaleras arriba y de vuelta por todo el pasillo nuevo, hasta la habitación {n}.',
+        pt: 'Escada acima e depois o corredor novo inteiro de volta, até o quarto {n}.',
+        it: 'Su per le scale e poi tutto indietro lungo il corridoio nuovo, fino alla camera {n}.',
+        nl: 'De trap op en dan de hele nieuwe gang terug, tot kamer {n}.',
+        sv: 'Upp för trappan och hela nya korridoren tillbaka, till rum {n}.',
+        da: 'Op ad trappen og hele den nye korridor tilbage, til værelse {n}.',
+        no: 'Opp trappa og hele den nye korridoren tilbake, til rom {n}.',
+        fi: 'Portaita ylös ja koko uusi käytävä takaisin alkuun: huone {n}.'
+      },
+      saidStairsDn: {
+        en: 'Down the stairs and all the way along to the far end, to room {n}.',
+        de: 'Die Treppe hinunter und dann den ganzen Flur entlang bis ans andere Ende: Zimmer {n}.',
+        fr: 'Les escaliers, puis tout le chemin le long de la galerie du dessous, jusqu’à sa dernière porte, la chambre {n}.',
+        es: 'Escaleras abajo y por todo el pasillo hasta el otro extremo, la habitación {n}.',
+        pt: 'Escada abaixo e depois o corredor inteiro até a outra ponta, no quarto {n}.',
+        it: 'Giù per le scale e poi tutto avanti fino in fondo, alla camera {n}.',
+        nl: 'De trap af en dan de hele gang door tot het eind, tot kamer {n}.',
+        sv: 'Ner för trappan och hela korridoren bort till andra änden, till rum {n}.',
+        da: 'Ned ad trappen og hele korridoren hen til den anden ende, til værelse {n}.',
+        no: 'Ned trappa og hele korridoren bort til den andre enden, til rom {n}.',
+        fi: 'Portaita alas ja koko käytävä toiseen päähän: huone {n}.'
+      },
       /* ⚠⚠ THIS WAS BYTE-IDENTICAL TO saidWalk, so arriving by elevator
          or stairs sounded exactly like one step — and the arrival is
          the one moment the dark corridor becomes readable, which is the
          tool's central idea. It had no voice. */
-      saidArrive:   { en: 'Room {n}. Now this corridor can be read.' },
-      readState:    { en: 'Corridor {c}. Room {n}. The doors on every other corridor cannot be read from here.' },
+      saidArrive:   {
+        en: 'Room {n}. Now this corridor can be read.',
+        de: 'Zimmer {n}. Jetzt können wir diesen Flur lesen.',
+        fr: 'Chambre {n}. Maintenant, cette galerie se lit.',
+        es: 'Habitación {n}. Ahora ya se pueden leer las puertas de este pasillo.',
+        pt: 'Quarto {n}. Agora dá para ler os números deste corredor.',
+        it: 'Camera {n}. Adesso questo corridoio si può leggere.',
+        nl: 'Kamer {n}. Nu is deze gang te lezen.',
+        sv: 'Rum {n}. Nu går den här korridoren att läsa.',
+        da: 'Værelse {n}. Nu kan denne korridor læses.',
+        no: 'Rom {n}. Nå kan denne korridoren leses.',
+        fi: 'Huone {n}. Nyt tämän käytävän numerot näkyvät.'
+      },
+      readState:    {
+        en: 'Corridor {c}. Room {n}. The doors on every other corridor cannot be read from here.',
+        de: 'Flur {c}. Zimmer {n}. Die Türen auf allen anderen Fluren sind von hier aus nicht zu lesen.',
+        fr: 'Galerie {c}. Chambre {n}. D’ici, les portes des autres galeries ne se lisent pas.',
+        es: 'Pasillo {c}. Habitación {n}. Las puertas de los demás pasillos no se pueden leer desde aquí.',
+        pt: 'Corredor {c}. Quarto {n}. Daqui não dá para ler os números dos outros corredores.',
+        it: 'Corridoio {c}. Camera {n}. Da qui i numeri degli altri corridoi non si leggono.',
+        nl: 'Gang {c}. Kamer {n}. De deuren van alle andere gangen zijn hiervandaan niet te lezen.',
+        sv: 'Korridor {c}. Rum {n}. Dörrarna i alla andra korridorer går inte att läsa härifrån.',
+        da: 'Korridor {c}. Værelse {n}. Dørene i alle andre korridorer kan ikke læses herfra.',
+        no: 'Korridor {c}. Rom {n}. Dørene i alle andre korridorer kan ikke leses herfra.',
+        fi: 'Käytävä {c}. Huone {n}. Muiden käytävien ovet eivät näy tänne.'
+      },
 
-      gateTitle:    { en: 'The hotel sheet' },
+      gateTitle:    {
+        en: 'The hotel sheet',
+        de: 'Das Hotelblatt',
+        fr: 'La feuille de l’hôtel',
+        es: 'La hoja del hotel',
+        pt: 'A folha do hotel',
+        it: 'Il foglio dell’albergo',
+        nl: 'Het hotelblad',
+        sv: 'Hotellbladet',
+        da: 'Hotelarket',
+        no: 'Hotellarket',
+        fi: 'Hotellipohja'
+      },
       /* ⚠⚠ THIS CONTRADICTED sheetNote. The gate sold "every door blank";
          the sheet says one corridor is filled in — and _buildSheet really
          does fill one. Two strings, two different pieces of paper. */
-      gateBody:     { en: 'A paper hotel with the doors left empty, so the class writes the room numbers in themselves. One corridor is filled in to start them off.' },
-      gateCta:      { en: 'See the Teacher plan' },
-      gateClose:    { en: 'Close' },
+      gateBody:     {
+        en: 'A paper hotel with the doors left empty, so the class writes the room numbers in themselves. One corridor is filled in to start them off.',
+        de: 'Ein Hotel auf Papier: Ein Flur ist schon ausgefüllt, alle anderen Türen sind leer, und die Klasse schreibt die Zimmernummern selbst hinein.',
+        fr: 'Un hôtel de papier où une seule galerie est déjà remplie, toutes les autres portes attendant d’être numérotées par la classe.',
+        es: 'Un hotel en papel con las puertas en blanco y un solo pasillo ya escrito para arrancar, para que la clase escriba a mano todas las demás habitaciones.',
+        pt: 'Um hotel no papel com um corredor já preenchido e as outras portas em branco, para a turma escrever os números que faltam.',
+        it: 'Un albergo di carta con le porte da riempire: un corridoio è già scritto come esempio, tutti gli altri li completa la classe.',
+        nl: 'Een hotel op papier met lege deuren, zodat de klas de kamernummers zelf invult. Eén gang is al ingevuld als voorbeeld.',
+        sv: 'Ett hotell på papper med tomma dörrar, så att klassen skriver in rummen själva. En korridor är ifylld som start.',
+        da: 'Et hotel på papir med tomme døre, så klassen selv skriver værelserne ind. Én korridor er udfyldt som start.',
+        no: 'Et hotell på papir med tomme dører, så klassen skriver inn rommene selv. Én korridor er fylt ut som start.',
+        fi: 'Paperinen hotelli, jonka ovet ovat tyhjiä, niin luokka kirjoittaa huoneiden numerot itse. Yksi käytävä on täytetty valmiiksi.'
+      },
+      gateCta:      {
+        en: 'See the Teacher plan',
+        de: 'Das Lehrkraft-Abo ansehen',
+        fr: 'Voir l’abonnement Enseignant',
+        es: 'Ver el plan Docente',
+        pt: 'Conhecer o plano Professor',
+        it: 'Scopri il piano Insegnante',
+        nl: 'Bekijk het Leerkracht-abonnement',
+        sv: 'Se Lärarprenumerationen',
+        da: 'Se Lærerabonnementet',
+        no: 'Se Lærerabonnementet',
+        fi: 'Tutustu Opettajatilaukseen'
+      },
+      gateClose:    {
+        en: 'Close',
+        de: 'Schließen',
+        fr: 'Fermer',
+        es: 'Cerrar',
+        pt: 'Fechar',
+        it: 'Chiudi',
+        nl: 'Sluiten',
+        sv: 'Stäng',
+        da: 'Luk',
+        no: 'Lukk',
+        fi: 'Sulje'
+      },
 
-      sheetTitle:   { en: 'Our hotel' },
-      sheetNote:    { en: 'Write the number on every door. One corridor is filled in to start you off.' }
+      sheetTitle:   {
+        en: 'Our hotel',
+        de: 'Unser Hotel',
+        fr: 'Notre hôtel',
+        es: 'Nuestro hotel',
+        pt: 'Nosso hotel',
+        it: 'Il nostro albergo',
+        nl: 'Ons hotel',
+        sv: 'Vårt hotell',
+        da: 'Vores hotel',
+        no: 'Hotellet vårt',
+        fi: 'Meidän hotelli'
+      },
+      sheetNote:    {
+        en: 'Write the number on every door. One corridor is filled in to start you off.',
+        de: 'Schreibt auf jede Tür die Zahl. Ein Flur ist schon ausgefüllt.',
+        fr: 'Écris le numéro sur chaque porte. Une galerie est déjà remplie, pour te donner le départ.',
+        es: 'Escribe el número en cada puerta. Un pasillo ya está escrito para empezar.',
+        pt: 'Um corredor já está preenchido. Escreva o número nas outras portas.',
+        it: 'Scrivi il numero su ogni porta. Un corridoio è già completo, per cominciare.',
+        nl: 'Schrijf op elke deur het nummer. Eén gang is al ingevuld om te beginnen.',
+        sv: 'Skriv numret på varje dörr. En korridor är ifylld så att ni kommer igång.',
+        da: 'Skriv nummeret på hver dør. Én korridor er udfyldt, så I kommer i gang.',
+        no: 'Skriv nummeret på hver dør. Én korridor er fylt ut så dere kommer i gang.',
+        fi: 'Kirjoita numero jokaiseen oveen. Yksi käytävä on täytetty valmiiksi alkuun.'
+      }
     },
 
     /* ⚠ EXACTLY ONE SETTING, and it is a START STATE, not memory.

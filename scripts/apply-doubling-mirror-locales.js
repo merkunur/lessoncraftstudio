@@ -73,17 +73,18 @@ LOCALES.forEach(function (L) {
    the product name is the operator's; the localised titles name the
    ring, so nothing is exempt here.                                   */
 const BAN = {
-  de: [['Streifen', stem], ['Bahn', stem], ['Leiste', stem], ['Spalte', stem], ['Strahl', stem]],
-  fr: [['piste', word], ['couloir', word], ['bande', word], ['rail', word], ['colonne', word]],
-  es: [['pista', word], ['franja', word], ['cinta', word], ['carril', word], ['columna', word]],
-  pt: [['pista', word], ['trilha', word], ['fita', word], ['carril', word], ['coluna', word]],
-  it: [['pista', word], ['striscia', word], ['nastro', word], ['binario', word], ['colonna', word]],
-  nl: [['baan', stem], ['strook', stem], ['weg', word], ['spoor', stem], ['kolom', stem]],
-  sv: [['spår', stem], ['remsa', stem], ['bana', stem], ['kolumn', stem], ['band', stem]],
-  da: [['spor', stem], ['strimmel', stem], ['bane', stem], ['kolonne', stem], ['bånd', stem]],
-  no: [['spor', stem], ['remse', stem], ['bane', stem], ['kolonne', stem], ['bånd', stem]],
-  fi: [['rata', stem], ['kaista', stem], ['nauha', stem], ['sarake', stem], ['jana', stem]]
+  de: [['Spiegel', 'stem'], ['Falte', 'stem'], ['Zwilling', 'stem'], ['Glas', 'stem'], ['Blatt', 'stem']],
+  fr: [['miroir', 'word'], ['reflet', 'word'], ['pli', 'word'], ['jumeau', 'word'], ['feuille', 'word']],
+  es: [['espejo', 'word'], ['reflejo', 'word'], ['doblez', 'word'], ['gemelo', 'word'], ['hoja', 'word']],
+  pt: [['espelho', 'word'], ['reflexo', 'word'], ['dobra', 'word'], ['gemeo', 'word'], ['folha', 'word']],
+  it: [['specchio', 'word'], ['riflesso', 'word'], ['piega', 'word'], ['gemello', 'word'], ['pane', 'word']],
+  nl: [['spiegel', 'stem'], ['vouw', 'stem'], ['tweeling', 'stem'], ['glas', 'stem'], ['blad', 'stem']],
+  sv: [['spegel', 'stem'], ['spegl', 'stem'], ['vik', 'stem'], ['tvilling', 'stem'], ['glass', 'stem']],
+  da: [['spejl', 'stem'], ['fold', 'stem'], ['tvilling', 'stem'], ['glas', 'stem']],
+  no: [['speil', 'stem'], ['brett', 'stem'], ['tvilling', 'stem'], ['glass', 'stem']],
+  fi: [['peili', 'stem'], ['taite', 'stem'], ['kaksonen', 'stem'], ['lasi', 'stem']]
 };
+
 /* ⚠ AUDITABLE EXEMPTIONS, with a reason each — never a loosened ban.
    `Streifen`/`strimmel`/`remsa`/`remse`/`suikale` name the PAPER a
    child cuts out on the printed sheet, which is a piece of paper and

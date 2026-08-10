@@ -35,25 +35,23 @@ const srv = http.createServer((rq, rs) => {
 /* Read the apparatus in PIXELS. The oracle must not share the
    renderer's convention (#44 shipped a mirrored profile that way). */
 const READ = () => {
-  const ar = document.querySelector(".dbm-arena"); if (!ar) return null;
-  const arch = document.querySelector(".dbm-arch"), bar = document.querySelector(".dbm-bar");
-  const yard = document.querySelector(".dbm-yard"), wait = document.querySelector(".dbm-wait");
-  const sill = document.querySelector(".dbm-sill");
-  const ab = arch ? arch.getBoundingClientRect() : null;
-  const m = document.querySelector(".dbm-m");
+  const tray = document.querySelector(".dbm-tray"); if (!tray) return null;
+  const near = document.querySelector(".dbm-near"), far = document.querySelector(".dbm-far");
+  const odd = document.querySelector(".dbm-odd"), hinge = document.querySelector(".dbm-hinge");
+  const nb = near.getBoundingClientRect(), fb = far.getBoundingClientRect();
+  const d = document.querySelector(".dbm-c");
   return {
-    through: yard ? yard.querySelectorAll(".dbm-m").length : -1,
-    waiting: wait ? wait.querySelectorAll(".dbm-m").length : -1,
-    seats: wait ? wait.querySelectorAll(".dbm-seat").length : -1,
-    yardRanks: yard ? yard.querySelectorAll(".dbm-rank").length : -1,
-    barUp: bar ? bar.className.indexOf("is-up") >= 0 : null,
-    barY: bar ? +bar.getBoundingClientRect().top.toFixed(1) : null,
-    archW: ab ? +ab.width.toFixed(1) : null,
-    marcherW: m ? +m.getBoundingClientRect().width.toFixed(1) : null,
-    sillShown: sill ? sill.style.display !== "none" : null,
-    sillFull: sill ? sill.className.indexOf("is-full") >= 0 : null,
-    sillOn: sill ? sill.querySelectorAll(".dbm-m").length : -1,
-    sillW: sill && sill.style.display !== "none" ? +sill.getBoundingClientRect().width.toFixed(1) : null
+    near: near.querySelectorAll(".dbm-c").length,
+    far: far.querySelectorAll(".dbm-c").length,
+    odd: odd.querySelectorAll(".dbm-c").length,
+    oddShown: odd.style.visibility !== "hidden",
+    farShown: far.style.visibility !== "hidden",
+    closed: tray.className.indexOf("is-closed") >= 0,
+    discW: d ? +d.getBoundingClientRect().width.toFixed(1) : null,
+    /* the two leaves must be drawn IDENTICALLY - nothing about a counter
+       ever says which leaf it is on */
+    sameH: Math.abs(nb.height - fb.height) < 1.5,
+    hingeW: hinge ? +hinge.getBoundingClientRect().width.toFixed(1) : null
   };
 };
 
@@ -71,75 +69,48 @@ const READ = () => {
     await new Promise(r => setTimeout(r, 500));
 
     const open = await p.evaluate(READ);
-    if (!open) { fails.push(c.w + ": NO ARENA RENDERED"); await p.close(); continue; }
+    if (!open) { fails.push(c.w + ": NO TRAY RENDERED"); await p.close(); continue; }
     checks++;
-    if (open.barUp) fails.push(c.w + ": ** the bar is UP before anybody predicted - the tool is a cutscene");
-    if (open.through !== 0) fails.push(c.w + ": " + open.through + " already through at the start");
-    if (open.waiting < 3) fails.push(c.w + ": only " + open.waiting + " marchers waiting");
-    if (open.marcherW < 12) fails.push(c.w + ": marchers are " + open.marcherW + "px - illegible");
-    await p.screenshot({ path: path.join(OUT, "start-" + c.w + ".png") });
+    if (open.closed) fails.push(c.w + ": the tray starts closed");
+    if (open.farShown) fails.push(c.w + ": ** the far leaf is showing counters before the hinge closed");
+    if (open.near < 1) fails.push(c.w + ": the near leaf is empty at rest");
+    if (open.discW < 12) fails.push(c.w + ": discs are " + open.discW + "px - under the 12px honest floor");
+    await p.screenshot({ path: path.join(OUT, "open-" + c.w + ".png") });
 
-    /* the bar must not lift for a rank call, only for a prediction */
-    await p.evaluate(() => document.querySelector(".dbm-b-call").click());
-    await new Promise(r => setTimeout(r, 300));
-    const held = await p.evaluate(READ);
+    /* close: the far leaf must receive the SAME number of REAL counters */
+    await p.evaluate(() => document.querySelector(".dbm-b-close").click());
+    await new Promise(r => setTimeout(r, 900));
+    const cl = await p.evaluate(READ);
     checks++;
-    if (held.barUp) fails.push(c.w + ": ** calling a rank lifted the bar");
-    if (held.through !== 0) fails.push(c.w + ": ** a rank went through with the bar down");
+    if (cl.far !== cl.near) fails.push(c.w + ": ** far " + cl.far + " != near " + cl.near);
+    if (cl.far !== open.near) fails.push(c.w + ": the far leaf holds " + cl.far + ", the near leaf had " + open.near);
+    if (!cl.closed) fails.push(c.w + ": the tray is not drawn closed");
+    if (!cl.sameH) fails.push(c.w + ": ** the two leaves are drawn differently - a counter must never say which leaf it is on");
+    await p.screenshot({ path: path.join(OUT, "closed-" + c.w + ".png") });
 
-    await p.evaluate(() => document.querySelector(".dbm-b-no").click());
+    /* ** the ODD case must NOT stall: nine opens to a waiting one, and
+       either side resolves it */
+    await p.evaluate(() => { const T = window.DoublingMirror; T.st = T.open(T.st, 9); T.render(); });
+    await new Promise(r => setTimeout(r, 500));
+    const od = await p.evaluate(READ);
+    checks++;
+    if (!od.oddShown || od.odd !== 1) fails.push(c.w + ": ** nine did not leave exactly one waiting (odd=" + od.odd + ")");
+    if (od.near !== 4 || od.far !== 4) fails.push(c.w + ": nine split into " + od.near + " and " + od.far + ", expected 4 and 4");
+    await p.screenshot({ path: path.join(OUT, "odd-" + c.w + ".png") });
+
+    await p.evaluate(() => document.querySelector(".dbm-b-low").click());
     await new Promise(r => setTimeout(r, 600));
-    const pred = await p.evaluate(READ);
+    const sd = await p.evaluate(READ);
     checks++;
-    if (!pred.barUp) fails.push(c.w + ": * the bar did not lift after the prediction");
-    if (pred.barY >= held.barY) fails.push(c.w + ": the bar did not physically MOVE (" + held.barY + " -> " + pred.barY + ")");
+    if (sd.oddShown) fails.push(c.w + ": ** still waiting after the class chose a side - the apparatus stalled");
+    if (sd.near + sd.far !== 9) fails.push(c.w + ": ** the tray now holds " + (sd.near + sd.far) + ", not nine");
+    if (Math.abs(sd.near - sd.far) !== 1) fails.push(c.w + ": the leaves differ by " + Math.abs(sd.near - sd.far));
+    if (sd.near !== 5) fails.push(c.w + ": the odd one went to the wrong leaf (near=" + sd.near + ")");
+    await p.screenshot({ path: path.join(OUT, "sided-" + c.w + ".png") });
 
-    /* march to a standstill */
-    let guard = 0;
-    while (guard++ < 25) {
-      const moved = await p.evaluate(() => {
-        const b = document.querySelector(".dbm-b-call");
-        const before = document.querySelectorAll(".dbm-yard .dbm-m").length;
-        b.click();
-        return before;
-      });
-      await new Promise(r => setTimeout(r, 260));
-      const now = await p.evaluate(() => document.querySelectorAll(".dbm-yard .dbm-m").length);
-      if (now === moved) break;
-    }
-    const done = await p.evaluate(READ);
-    checks++;
-    if (done.through + done.waiting !== open.waiting)
-      fails.push(c.w + ": through+waiting " + (done.through + done.waiting) + " != the parade " + open.waiting);
-    if (done.waiting >= 2) fails.push(c.w + ": ** a full rank was left standing (" + done.waiting + ")");
-    /* * the leftover is not marked - the EMPTY SEAT beside it is drawn */
-    if (done.waiting > 0 && done.seats < 1)
-      fails.push(c.w + ": ** somebody is left standing and NO empty seat is drawn");
-    if (done.waiting === 0 && done.seats !== 0)
-      fails.push(c.w + ": an empty seat is drawn with nobody standing");
-    await p.screenshot({ path: path.join(OUT, "stand-" + c.w + ".png") });
-
-    /* the theorem */
-    if (done.waiting > 0) {
-      await p.evaluate(() => document.querySelector(".dbm-b-second").click());
-      await new Promise(r => setTimeout(r, 500));
-      await p.evaluate(() => document.querySelector(".dbm-b-sill").click());
-      await new Promise(r => setTimeout(r, 1600));
-      const sill = await p.evaluate(READ);
-      checks++;
-      if (!sill.sillShown) fails.push(c.w + ": * the sill never appeared");
-      if (sill.sillOn < 2) fails.push(c.w + ": the sill holds " + sill.sillOn);
-      /* ** the sill must be as wide as the archway - that IS the proof */
-      if (sill.sillW && Math.abs(sill.sillW - sill.archW) > 14)
-        fails.push(c.w + ": ** the sill is " + sill.sillW + "px and the archway " + sill.archW + "px - the proof depends on them matching");
-      await p.screenshot({ path: path.join(OUT, "sill-" + c.w + ".png") });
-      console.log("[" + c.w + "] parade=" + open.waiting + " -> through=" + done.through +
-        " standing=" + done.waiting + " seats=" + done.seats +
-        " | sill=" + sill.sillOn + " full=" + sill.sillFull +
-        " widths " + sill.sillW + "/" + sill.archW);
-    } else {
-      console.log("[" + c.w + "] parade=" + open.waiting + " cleared exactly, no leftover");
-    }
+    console.log("[" + c.w + "] " + open.near + " -> closed " + cl.near + "+" + cl.far +
+      " | nine -> " + od.near + "+" + od.far + " and one waiting -> " + sd.near + "+" + sd.far +
+      " | disc " + open.discW + "px");
     await p.close();
   }
 

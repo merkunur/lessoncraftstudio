@@ -33,8 +33,8 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
     ok(live.replace(/\r\n/g, '\n') === local.replace(/\r\n/g, '\n'),
       '0 ⚠⚠ the DEPLOYED bytes differ from the local file — a stale deploy');
     /* something only true of this build */
-    ok(live.indexOf('T_TEETER') > 0, '0 the deployed build has no T_TEETER');
-    ok(live.indexOf('Der Rundungsh') > 0, '0 the deployed build has no German strings');
+    ok(live.indexOf('T_SILL') > 0, '0 the deployed build has no T_SILL');
+    ok(live.indexOf('Der Rundbogen') > 0, '0 the deployed build has no German strings');
     await p.close();
   }
 
@@ -63,52 +63,54 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
     await p.goto(BASE + "/mini-tools/pair-gate.html?lang=en&cb=" + Date.now(), { waitUntil: "domcontentloaded" });
     await new Promise(r => setTimeout(r, 1100));
     const read = () => {
-      const ar = document.querySelector(".pgt-field") || document.querySelector(".pgt-arena");
-      if (!ar) return null;
-      const ab = ar.getBoundingClientRect();
-      const fx = e => e ? +(((e.getBoundingClientRect().left + e.getBoundingClientRect().width/2) - ab.left)/ab.width).toFixed(3) : null;
-      const st = document.querySelector(".pgt-stone"), rg = document.querySelector(".pgt-ridge");
-      return { x: fx(st), txt: st ? st.textContent : null,
-        teeter: st ? st.className.indexOf("is-teeter") >= 0 : null,
-        rest: st ? st.className.indexOf("is-rest") >= 0 : null,
-        ridgeSet: rg ? rg.className.indexOf("is-set") >= 0 : null,
-        marks: [].slice.call(document.querySelectorAll(".pgt-mark")).map(e => e.textContent),
-        groundD: (document.querySelector(".pgt-ground") || {}).getAttribute
-          ? document.querySelector(".pgt-ground").getAttribute("d").length : 0 };
+      const bar = document.querySelector(".pgt-bar"), arch = document.querySelector(".pgt-arch");
+      const yard = document.querySelector(".pgt-yard"), wait = document.querySelector(".pgt-wait");
+      const sill = document.querySelector(".pgt-sill");
+      return {
+        through: yard ? yard.querySelectorAll(".pgt-m").length : -1,
+        waiting: wait ? wait.querySelectorAll(".pgt-m").length : -1,
+        seats: wait ? wait.querySelectorAll(".pgt-seat").length : -1,
+        barUp: bar ? bar.className.indexOf("is-up") >= 0 : null,
+        archW: arch ? +arch.getBoundingClientRect().width.toFixed(1) : null,
+        sillOn: sill ? sill.querySelectorAll(".pgt-m").length : -1,
+        sillFull: sill ? sill.className.indexOf("is-full") >= 0 : null,
+        sillW: sill && sill.style.display !== "none" ? +sill.getBoundingClientRect().width.toFixed(1) : null
+      };
     };
     const o = await p.evaluate(read);
-    ok(!!o, "2 the ground did not render on production");
-    if (o) {
-      ok(o.marks.join("/") === "40/50", "2 the dips read " + o.marks.join("/"));
-      ok(o.groundD > 200, "2 the ground path is " + o.groundD + " chars - it did not draw");
-      ok(!o.ridgeSet, "2 the ridge ships already settled");
-      ok(o.txt === "47", "2 the boulder reads " + o.txt);
+    ok(!!o && o.waiting > 0, "2 the parade did not render on production");
+    ok(o && !o.barUp, "2 ** the bar is UP before anybody predicted - the tool is a cutscene");
+    /* a rank must NOT go through with the bar down */
+    await p.evaluate(() => document.querySelector(".pgt-b-call").click());
+    await new Promise(r => setTimeout(r, 350));
+    const held = await p.evaluate(read);
+    ok(held.through === 0, "2 ** a rank went through with the bar DOWN on production");
+    /* predict, then march to the standstill */
+    await p.evaluate(() => document.querySelector(".pgt-b-no").click());
+    await new Promise(r => setTimeout(r, 600));
+    const pr = await p.evaluate(read);
+    ok(!!pr.barUp, "2 * the bar did not lift after the prediction");
+    for (let i = 0; i < 14; i++) {
+      await p.evaluate(() => document.querySelector(".pgt-b-call").click());
+      await new Promise(r => setTimeout(r, 190));
     }
-    /* let go on a slope: 47 must run downhill to 50 */
-    await p.evaluate(() => document.querySelector(".pgt-b-go").click());
-    await new Promise(r => setTimeout(r, 1000));
-    const s1 = await p.evaluate(read);
-    ok(s1.x !== null && Math.abs(s1.x - 1) < 0.04, "2 * 47 did not run to the high dip - it is at " + s1.x);
-    ok(!!s1.rest, "2 the settled boulder is not drawn at rest");
-    ok(!s1.teeter, "2 a boulder on a slope is teetering");
-    /* on the ridge it must teeter, and STILL be teetering later */
-    await p.evaluate(() => { const T = window.PairGate; T.st = T.again(T.st, T.ridge(T.st)); T.render(); });
-    await new Promise(r => setTimeout(r, 300));
-    await p.evaluate(() => document.querySelector(".pgt-b-go").click());
-    await new Promise(r => setTimeout(r, 1200));
-    const t1 = await p.evaluate(read);
-    ok(!!t1.teeter, "2 ** the boulder on the ridge is NOT teetering on production");
-    ok(!t1.rest, "2 ** the machine resolved the tie on its own");
-    await new Promise(r => setTimeout(r, 2500));
-    const t2 = await p.evaluate(read);
-    ok(!!t2.teeter && !t2.rest, "2 ** the teeter resolved itself after waiting");
-    /* the class settles the ridge: it leans and the boulder goes */
-    await p.evaluate(() => document.querySelector(".pgt-b-tu").click());
-    await new Promise(r => setTimeout(r, 2000));
-    const t3 = await p.evaluate(read);
-    ok(!!t3.ridgeSet, "2 * the ridge does not show that the class settled it");
-    ok(t3.x !== null && Math.abs(t3.x - 1) < 0.04, "2 * the settled ridge did not send the boulder to the high dip");
-    ok(!t3.teeter, "2 still teetering after the class decided");
+    const done = await p.evaluate(read);
+    ok(done.through + done.waiting === o.waiting, "2 through+waiting != the parade");
+    ok(done.waiting < 2, "2 ** a full rank was left standing (" + done.waiting + ")");
+    /* * the leftover is not marked - the EMPTY SEAT beside it is */
+    if (done.waiting > 0) ok(done.seats >= 1, "2 ** somebody is standing and no empty seat is drawn");
+    /* the theorem, and the sill must match the archway - that IS the proof */
+    if (done.waiting > 0) {
+      await p.evaluate(() => document.querySelector(".pgt-b-second").click());
+      await new Promise(r => setTimeout(r, 500));
+      await p.evaluate(() => document.querySelector(".pgt-b-sill").click());
+      await new Promise(r => setTimeout(r, 1700));
+      const sl = await p.evaluate(read);
+      ok(sl.sillOn >= 2, "2 * the sill holds " + sl.sillOn);
+      ok(!!sl.sillFull, "2 ** two left-behinds at two abreast did NOT make a full rank");
+      ok(sl.sillW !== null && Math.abs(sl.sillW - sl.archW) <= 14,
+        "2 ** the sill is " + sl.sillW + "px and the archway " + sl.archW + "px - the proof depends on them matching");
+    }
     await p.close();
   }
 

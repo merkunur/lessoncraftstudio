@@ -533,7 +533,7 @@ module.exports = {
     sideNameNear: 'närmaste',
     sideNameFar: 'bortre',
     title: 'Gångjärnet',
-    instruction: 'Lägg skivor på den närmaste klaffen och säg vad dubbelt så många blir. Stäng sedan gångjärnet: den bortre klaffen får lika många till, och ni kan räkna varenda en.',
+    instruction: 'Ställ in den närmaste klaffen på ett tal och säg vad dubbelt så många blir. Stäng gångjärnet: den bortre klaffen får lika många till. Lägg sedan dit en skiva till och öppna — så ser dubbelt och en till ut.',
 
     ariaTray: 'Två klaffar med ett gångjärn emellan.',
     ariaNear: 'den närmaste klaffen, {n}',
@@ -556,19 +556,22 @@ module.exports = {
     saidClosed: '{n} och {n} på klaffarna. {d} tillsammans.',
     saidOpened: '{t} blir {a} och {a} igen.',
     saidOddWaiting: '{t} går inte jämnt upp på två klaffar. En skiva blir utan par — vilken klaff ska klassen ge den till?',
-    saidOddPlaced: '{t} blir {a} och {b}. Skivan utan par ligger på klaff {s} — det är dubbelt och en till.',
+    saidOddPlaced: '{t} blir {a} och {b}. Skivan utan par ligger på den {s} klaffen — det är dubbelt och en till.',
     saidEmpty: 'Det ligger ingenting på den närmaste klaffen än.',
     saidFull: 'Den närmaste klaffen bär {n}, och fler får inte plats.',
+    saidNoOdd: 'Det finns ingen skiva utan par som väntar på en klaff.',
+    sideNameNear: 'närmaste',
+    sideNameFar: 'bortre',
     saidAlreadyClosed: 'Gångjärnet är redan stängt. Öppna det för att skilja klaffarna åt igen.',
     saidAlreadyOpen: 'Gångjärnet är redan öppet.',
 
     gateTitle: 'Pappersgångjärnet',
-    gateBody: 'Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer.',
+    gateBody: 'Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut och ritsa, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer.',
     gateCta: 'Se Lärarplanen',
     gateClose: 'Inte nu',
 
     printBtn: 'Skriv ut pappersgångjärnet',
-    sheetTitle: 'Pappersgångjärn att klippa ut',
+    sheetTitle: 'Pappersgångjärn att klippa ut och ritsa',
     sheetNote: 'Klipp ut de två klaffarna och ritsa mittlinjen så att de går att stänga. Lägg skivor på den ena klaffen, säg vad dubbelt så många blir, fäll den andra klaffen över och lägg lika många till. Räkna alla: gångjärnet gör inte en enda skiva — det gör ni.'
   },
 
@@ -578,7 +581,7 @@ module.exports = {
     sideNameNear: 'nærmeste',
     sideNameFar: 'fjerneste',
     title: 'Hængslet',
-    instruction: 'Læg skiver på den nærmeste fløj og sig, hvad det dobbelte bliver. Luk så hængslet: den fjerneste fløj får lige så mange igen, og I kan tælle hver eneste en.',
+    instruction: 'Sæt den nærmeste fløj til et tal, og sig hvad det dobbelte bliver. Luk hængslet: den fjerneste fløj får lige så mange igen. Læg så en skive mere på, og åbn det — sådan ser et dobbelt og en mere ud.',
 
     ariaTray: 'To fløje med et hængsel imellem.',
     ariaNear: 'den nærmeste fløj, {n}',
@@ -601,19 +604,22 @@ module.exports = {
     saidClosed: '{n} og {n} på fløjene. {d} i alt.',
     saidOpened: '{t} bliver til {a} og {a} igen.',
     saidOddWaiting: '{t} går ikke op i to lige store fløje. En skive er uden makker — hvilken fløj skal klassen give den til?',
-    saidOddPlaced: '{t} bliver til {a} og {b}. Skiven uden makker ligger på fløj {s} — det er et dobbelt og en mere.',
+    saidOddPlaced: '{t} bliver til {a} og {b}. Skiven uden makker ligger på den {s} fløj — det er et dobbelt og en mere.',
     saidEmpty: 'Der ligger ikke noget på den nærmeste fløj endnu.',
     saidFull: 'Den nærmeste fløj bærer {n}, og der er ikke plads til flere.',
+    saidNoOdd: 'Der er ingen skive uden makker, der venter på en fløj.',
+    sideNameNear: 'nærmeste',
+    sideNameFar: 'fjerneste',
     saidAlreadyClosed: 'Hængslet er allerede lukket. Åbn det for at skille fløjene ad igen.',
     saidAlreadyOpen: 'Hængslet er allerede åbent.',
 
     gateTitle: 'Papirhængslet',
-    gateBody: 'Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder.',
+    gateBody: 'Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud og ridser, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder.',
     gateCta: 'Se Lærerabonnementet',
     gateClose: 'Ikke nu',
 
     printBtn: 'Print papirhængslet',
-    sheetTitle: 'Papirhængsel til at klippe ud',
+    sheetTitle: 'Papirhængsler til at klippe ud og ridse',
     sheetNote: 'Klip de to fløje ud, og rids midterlinjen, så de kan lukkes. Læg skiver på den ene fløj, sig hvad det dobbelte bliver, klap den anden fløj henover, og læg lige så mange igen. Tæl dem alle sammen: hængslet laver ikke en eneste skive — det gør I.'
   },
 
@@ -623,7 +629,7 @@ module.exports = {
     sideNameNear: 'nærmeste',
     sideNameFar: 'borterste',
     title: 'Hengslet',
-    instruction: 'Legg skiver på den nærmeste klaffen og si hva det dobbelte blir. Lukk så hengslet: den borterste klaffen får like mange til, og dere kan telle hver eneste en.',
+    instruction: 'Still den nærmeste klaffen på et tall, og si hva det dobbelte blir. Lukk hengslet: den borterste klaffen får like mange til. Legg så på en skive til og åpne — slik ser et dobbelt og en til ut.',
 
     ariaTray: 'To klaffer med et hengsel imellom.',
     ariaNear: 'den nærmeste klaffen, {n}',
@@ -646,19 +652,22 @@ module.exports = {
     saidClosed: '{n} og {n} på klaffene. {d} til sammen.',
     saidOpened: '{t} blir {a} og {a} igjen.',
     saidOddWaiting: '{t} går ikke opp i to like klaffer. En skive er uten make — hvilken klaff skal klassen gi den til?',
-    saidOddPlaced: '{t} blir {a} og {b}. Skiven uten make ligger på klaff {s} — det er et dobbelt og en til.',
+    saidOddPlaced: '{t} blir {a} og {b}. Skiven uten make ligger på den {s} klaffen — det er et dobbelt og en til.',
     saidEmpty: 'Det ligger ingenting på den nærmeste klaffen ennå.',
     saidFull: 'Den nærmeste klaffen bærer {n}, og det er ikke plass til flere.',
+    saidNoOdd: 'Det er ingen skive uten make som venter på en klaff.',
+    sideNameNear: 'nærmeste',
+    sideNameFar: 'borterste',
     saidAlreadyClosed: 'Hengslet er allerede lukket. Åpne det for å skille klaffene fra hverandre igjen.',
     saidAlreadyOpen: 'Hengslet er allerede åpent.',
 
     gateTitle: 'Papirhengslet',
-    gateBody: 'Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender.',
+    gateBody: 'Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut og risser opp, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender.',
     gateCta: 'Se Lærerabonnementet',
     gateClose: 'Ikke nå',
 
     printBtn: 'Skriv ut papirhengslet',
-    sheetTitle: 'Papirhengsel til å klippe ut',
+    sheetTitle: 'Papirhengsler til å klippe ut og risse opp',
     sheetNote: 'Klipp ut de to klaffene og riss opp midtlinjen, så de lar seg lukke. Legg skiver på den ene klaffen, si hva det dobbelte blir, legg den andre klaffen over og legg like mange til. Tell dem alle: hengslet lager ikke en eneste skive — det gjør dere.'
   },
 
@@ -668,7 +677,7 @@ module.exports = {
     sideNameNear: 'lähemmällä',
     sideNameFar: 'kauemmalla',
     title: 'Sarana',
-    instruction: 'Asettakaa kiekkoja lähemmälle siivelle ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sitten sarana: kauempi siipi saa yhtä monta lisää, ja jokaisen voi laskea yksitellen.',
+    instruction: 'Asettakaa lähemmälle siivelle jokin määrä ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sarana: kauempi siipi saa yhtä monta lisää. Lisätkää sitten yksi kiekko ja avatkaa — noin näyttää kaksinkertainen määrä ja yksi lisää.',
 
     ariaTray: 'Kaksi siipeä ja niiden välissä sarana.',
     ariaNear: 'lähempi siipi, {n}',
@@ -691,19 +700,22 @@ module.exports = {
     saidClosed: 'Siivillä {n} ja {n}. Yhteensä {d}.',
     saidOpened: '{t} jakautuu taas: {a} ja {a}.',
     saidOddWaiting: '{t} ei jakaudu kahdelle yhtä suurelle siivelle. Yksi kiekko jäi ilman paria — kummalle siivelle luokka antaa sen?',
-    saidOddPlaced: '{t} jakautuu näin: {a} ja {b}. Ilman paria jäänyt kiekko on siivellä {s} — se on kaksinkertainen määrä ja yksi lisää.',
+    saidOddPlaced: '{t} jakautuu näin: {a} ja {b}. Ilman paria jäänyt kiekko on {s} siivellä — se on kaksinkertainen määrä ja yksi lisää.',
     saidEmpty: 'Lähemmällä siivellä ei ole vielä mitään.',
     saidFull: 'Lähemmällä siivellä on {n}, eikä enempää mahdu.',
+    saidNoOdd: 'Yksikään kiekko ei ole jäänyt ilman paria.',
+    sideNameNear: 'lähemmällä',
+    sideNameFar: 'kauemmalla',
     saidAlreadyClosed: 'Sarana on jo kiinni. Avaa se, niin siivet erkanevat taas.',
     saidAlreadyOpen: 'Sarana on jo auki.',
 
     gateTitle: 'Paperisarana',
-    gateBody: 'Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin.',
+    gateBody: 'Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti ja uurratte, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin.',
     gateCta: 'Tutustu Opettajatilaukseen',
     gateClose: 'Ei nyt',
 
     printBtn: 'Tulosta paperisarana',
-    sheetTitle: 'Paperisarana leikattavaksi',
+    sheetTitle: 'Paperisaranoita leikattavaksi ja uurrettavaksi',
     sheetNote: 'Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette.'
   }
 };

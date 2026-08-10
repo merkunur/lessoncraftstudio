@@ -146,16 +146,16 @@
       },
       instruction: {
         en: 'Set the near leaf to a number and say what the double will be. Close the hinge and the far leaf gets the same number again — then add one more and open it, and see what a double and one more looks like.',
-        de: 'Legt Scheiben auf den nahen Flügel und sagt, wie viel das Doppelte sein wird. Dann schließt das Scharnier — der ferne Flügel bekommt noch einmal genauso viele, und ihr könnt jede einzelne zählen.',
-        fr: 'Posez des disques sur le battant proche et dites ce que fera le double. Fermez ensuite la charnière : le battant opposé en reçoit autant, et vous pouvez les compter tous, un par un.',
-        es: 'Pongan chapas en el ala cercana y digan cuál será el doble. Luego cierren la bisagra: el ala lejana recibe otras tantas, y pueden contarlas todas, una por una.',
-        pt: 'Ponha pastilhas na aba da frente e diga quanto vai dar o dobro. Depois feche a dobradiça: a aba de trás recebe a mesma quantidade, e dá para contar cada uma delas.',
-        it: 'Mettete dei dischi sull’anta vicina e dite quanto farà il doppio. Poi chiudete la cerniera: l’anta lontana ne riceve altrettanti, e potete contarli tutti, uno per uno.',
-        nl: 'Leg schijven op de klep aan jouw kant en zeg wat het dubbele wordt. Sluit dan het scharnier: de klep aan de overkant krijgt er net zo veel bij, en je kunt ze allemaal stuk voor stuk tellen.',
-        sv: 'Lägg skivor på den närmaste klaffen och säg vad dubbelt så många blir. Stäng sedan gångjärnet: den bortre klaffen får lika många till, och ni kan räkna varenda en.',
-        da: 'Læg skiver på den nærmeste fløj og sig, hvad det dobbelte bliver. Luk så hængslet: den fjerneste fløj får lige så mange igen, og I kan tælle hver eneste en.',
-        no: 'Legg skiver på den nærmeste klaffen og si hva det dobbelte blir. Lukk så hengslet: den borterste klaffen får like mange til, og dere kan telle hver eneste en.',
-        fi: 'Asettakaa kiekkoja lähemmälle siivelle ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sitten sarana: kauempi siipi saa yhtä monta lisää, ja jokaisen voi laskea yksitellen.'
+        de: 'Stellt den nahen Flügel auf eine Zahl ein und sagt, wie viel das Doppelte sein wird. Schließt das Scharnier — der ferne Flügel bekommt noch einmal genauso viele. Legt dann eine Scheibe mehr dazu und öffnet es: So sieht ein Doppeltes und eins mehr aus.',
+        fr: 'Réglez le battant proche sur un nombre et dites ce que fera le double. Fermez la charnière : le battant opposé en reçoit autant. Ajoutez ensuite un disque de plus et ouvrez — voilà à quoi ressemble un double et un de plus.',
+        es: 'Pongan el ala cercana en un número y digan cuál será el doble. Cierren la bisagra: el ala lejana recibe otras tantas. Después añadan una chapa más y ábranla — así se ve el doble y una más.',
+        pt: 'Coloque a aba da frente num número e diga quanto vai dar o dobro. Feche a dobradiça: a aba de trás recebe a mesma quantidade. Depois ponha mais uma pastilha e abra — é assim que fica o dobro e mais uma.',
+        it: 'Portate l’anta vicina a un numero e dite quanto farà il doppio. Chiudete la cerniera: l’anta lontana ne riceve altrettanti. Poi aggiungete un disco in più e aprite — ecco com’è fatto un doppio e uno in più.',
+        nl: 'Zet de klep aan jouw kant op een getal en zeg wat het dubbele wordt. Sluit het scharnier: de klep aan de overkant krijgt er net zo veel bij. Leg er daarna nog één schijf bij en open het — zo ziet een dubbele en nog eentje eruit.',
+        sv: 'Ställ in den närmaste klaffen på ett tal och säg vad dubbelt så många blir. Stäng gångjärnet: den bortre klaffen får lika många till. Lägg sedan dit en skiva till och öppna — så ser dubbelt och en till ut.',
+        da: 'Sæt den nærmeste fløj til et tal, og sig hvad det dobbelte bliver. Luk hængslet: den fjerneste fløj får lige så mange igen. Læg så en skive mere på, og åbn det — sådan ser et dobbelt og en mere ud.',
+        no: 'Still den nærmeste klaffen på et tall, og si hva det dobbelte blir. Lukk hengslet: den borterste klaffen får like mange til. Legg så på en skive til og åpne — slik ser et dobbelt og en til ut.',
+        fi: 'Asettakaa lähemmälle siivelle jokin määrä ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sarana: kauempi siipi saa yhtä monta lisää. Lisätkää sitten yksi kiekko ja avatkaa — noin näyttää kaksinkertainen määrä ja yksi lisää.'
       },
 
       ariaTray: {
@@ -445,16 +445,16 @@
       },
       saidOddPlaced: {
         en: '{t} opens into {a} and {b}. The odd one went to the {s} leaf, so this is a double and one more.',
-        de: '{t} wird zu {a} und {b}. Die Scheibe ohne Partner liegt auf Flügel {s} — das ist ein Doppeltes und eins mehr.',
+        de: '{t} wird zu {a} und {b}. Die Scheibe ohne Partner liegt auf dem {s} Flügel — das ist ein Doppeltes und eins mehr.',
         fr: '{t} redevient {a} et {b}. Le disque sans partenaire est sur le battant {s} : c’est un double et un de plus.',
         es: '{t} vuelve a ser {a} y {b}. La chapa sin pareja está en el ala {s}: es el doble y una más.',
         pt: '{t} volta a ser {a} e {b}. A pastilha sem par está na aba {s}: é o dobro e mais uma.',
         it: '{t} torna a essere {a} e {b}. Il disco senza compagno è sull’anta {s}: è un doppio e uno in più.',
-        nl: '{t} wordt {a} en {b}. De schijf zonder maatje ligt op klep {s}: dit is een dubbele en nog eentje.',
-        sv: '{t} blir {a} och {b}. Skivan utan par ligger på klaff {s} — det är dubbelt och en till.',
-        da: '{t} bliver til {a} og {b}. Skiven uden makker ligger på fløj {s} — det er et dobbelt og en mere.',
-        no: '{t} blir {a} og {b}. Skiven uten make ligger på klaff {s} — det er et dobbelt og en til.',
-        fi: '{t} jakautuu näin: {a} ja {b}. Ilman paria jäänyt kiekko on siivellä {s} — se on kaksinkertainen määrä ja yksi lisää.'
+        nl: '{t} wordt {a} en {b}. De schijf zonder maatje ligt op de klep {s}: dit is een dubbele en nog eentje.',
+        sv: '{t} blir {a} och {b}. Skivan utan par ligger på den {s} klaffen — det är dubbelt och en till.',
+        da: '{t} bliver til {a} og {b}. Skiven uden makker ligger på den {s} fløj — det er et dobbelt og en mere.',
+        no: '{t} blir {a} og {b}. Skiven uten make ligger på den {s} klaffen — det er et dobbelt og en til.',
+        fi: '{t} jakautuu näin: {a} ja {b}. Ilman paria jäänyt kiekko on {s} siivellä — se on kaksinkertainen määrä ja yksi lisää.'
       },
       saidEmpty: {
         en: 'There is nothing on the tray yet.',
@@ -485,16 +485,16 @@
       /* ⚠ 'side' now has a branch; this is what it says. */
       saidNoOdd: {
         en: 'There is no odd counter waiting for a leaf.',
-        de: 'Es wartet keine Scheibe auf einen Flügel.',
-        fr: 'Aucun disque n’attend un battant.',
-        es: 'No hay ninguna chapa esperando un ala.',
-        pt: 'Não há nenhuma pastilha à espera de uma aba.',
-        it: 'Non c’è nessun disco in attesa di un’anta.',
-        nl: 'Er wacht geen schijf op een klep.',
-        sv: 'Det är ingen skiva som väntar på en klaff.',
-        da: 'Der er ingen skive, der venter på en fløj.',
-        no: 'Det er ingen skive som venter på en klaff.',
-        fi: 'Yksikään kiekko ei odota siipeä.'
+        de: 'Es wartet keine Scheibe ohne Partner auf einen Flügel.',
+        fr: 'Aucun disque sans partenaire n’attend de battant.',
+        es: 'No hay ninguna chapa sin pareja esperando un ala.',
+        pt: 'Não há nenhuma pastilha sem par à espera de uma aba.',
+        it: 'Non c’è nessun disco senza compagno in attesa di un’anta.',
+        nl: 'Er wacht geen schijf zonder maatje op een klep.',
+        sv: 'Det finns ingen skiva utan par som väntar på en klaff.',
+        da: 'Der er ingen skive uden makker, der venter på en fløj.',
+        no: 'Det er ingen skive uten make som venter på en klaff.',
+        fi: 'Yksikään kiekko ei ole jäänyt ilman paria.'
       },
       sideNameNear: {
         en: 'near',
@@ -576,16 +576,16 @@
       },
       gateBody: {
         en: 'The whole apparatus is free — every count, the closing and the opening. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves.',
-        de: 'Das ganze Scharnier ist kostenlos — jedes Zählen, das Schließen und das Öffnen. Mit dem Lehrkraft-Abo kommt der Bastelbogen dazu: zwei Flügel zum Ausschneiden, damit ein Kind echte Scheiben auf beide legen und selbst zuklappen kann.',
-        fr: 'Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains.',
-        es: 'Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos.',
-        pt: 'A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos.',
-        it: 'Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani.',
-        nl: 'Het hele scharnier is gratis: elk tellen, het sluiten en het openen. Bij het Leerkracht-abonnement komt het papieren scharnier om uit te knippen, zodat een kind echte schijven op allebei de kleppen kan leggen en het zelf kan dichtdoen.',
-        sv: 'Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer.',
-        da: 'Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder.',
-        no: 'Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender.',
-        fi: 'Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin.'
+        de: 'Das ganze Scharnier ist kostenlos — jedes Zählen, das Schließen und das Öffnen. Mit dem Lehrkraft-Abo kommt der Bastelbogen dazu: Flügel zum Ausschneiden und Anritzen, damit ein Kind echte Scheiben auf beide legen und das Scharnier selbst zuklappen kann.',
+        fr: 'Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper et à marquer, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains.',
+        es: 'Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar y marcar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos.',
+        pt: 'A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar e marcar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos.',
+        it: 'Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare e incidere, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani.',
+        nl: 'Het hele scharnier is gratis: elk tellen, het sluiten en het openen. Bij het Leerkracht-abonnement komt het papieren scharnier om uit te knippen en aan te drukken, zodat een kind echte schijven op allebei de kleppen kan leggen en het zelf kan dichtdoen.',
+        sv: 'Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut och ritsa, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer.',
+        da: 'Hele hængslet er gratis — hver optælling, lukningen og åbningen. Lærerabonnementet lægger papirhængslet oveni, som I klipper ud og ridser, så et barn kan lægge rigtige skiver på begge fløje og lukke det med sine egne hænder.',
+        no: 'Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut og risser opp, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender.',
+        fi: 'Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti ja uurratte, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin.'
       },
       gateCta: {
         en: 'See the Teacher plan',
@@ -641,16 +641,16 @@
       },
       sheetTitle: {
         en: 'Paper trays to cut out and hinge',
-        de: 'Bastelbogen zum Ausschneiden',
-        fr: 'Charnière en papier à découper',
-        es: 'Bisagra de papel para recortar',
-        pt: 'Dobradiça de papel para recortar',
-        it: 'Cerniera di carta da ritagliare',
-        nl: 'Papieren scharnier om uit te knippen',
-        sv: 'Pappersgångjärn att klippa ut',
-        da: 'Papirhængsel til at klippe ud',
-        no: 'Papirhengsel til å klippe ut',
-        fi: 'Paperisarana leikattavaksi'
+        de: 'Bastelbögen zum Ausschneiden und Anritzen',
+        fr: 'Charnières en papier à découper et à marquer',
+        es: 'Bisagras de papel para recortar y marcar',
+        pt: 'Dobradiças de papel para recortar e marcar',
+        it: 'Cerniere di carta da ritagliare e incidere',
+        nl: 'Papieren scharnieren om uit te knippen',
+        sv: 'Pappersgångjärn att klippa ut och ritsa',
+        da: 'Papirhængsler til at klippe ud og ridse',
+        no: 'Papirhengsler til å klippe ut og risse opp',
+        fi: 'Paperisaranoita leikattavaksi ja uurrettavaksi'
       },
       sheetNote: {
         en: 'Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do.',
@@ -765,7 +765,13 @@
       var t = total == null ? this.total(s) : total;
       if (!s.closed && total == null) return null;
       if (s.opened !== null && total == null) return null;   /* already open */
-      if (t < 2 || t > GEO.CAP * 2) return null;
+      /* ⚠ THE TWO CAPS MUST AGREE. place() admits CAP*2+1 (the double
+         plus the odd one) while this refused anything over CAP*2, so a
+         tray of nineteen could be BUILT and never OPENED — and pressing
+         open then announced "the hinge is already open" on a closed
+         tray. They disagreed by exactly one, which is the whole point
+         of the odd counter. */
+      if (t < 2 || t > GEO.CAP * 2 + 1) return null;
       var half = Math.floor(t / 2);
       /* ⚠⚠ closed:false. It returned TRUE, so "open the hinge" did not
          open the hinge and nothing in the DOM changed — a control that
@@ -788,7 +794,19 @@
       var s = this._st(st);
       if (s.odd !== 0) return null;
       if (dir !== -1 && dir !== 1) return null;
-      return { near: s.near, closed: true, odd: dir, opened: s.opened };
+      /* ⚠⚠ THE QUESTION MUST EXIST BEFORE THE ANSWER IS LIVE. The side
+         buttons were gated on `waiting` alone, which is true the moment
+         the odd counter lands on a CLOSED tray — before anything has been
+         opened. On that path `opened` is null, so the announcement leaked
+         a raw {t} token AND claimed the tray had opened while it was
+         shut: "{t} opens into 7 and 6". Measured on 18 of 34 firings.
+         ⭐ This is the recorded #39 shape — draw-bag, number-sieve,
+         measurement-bench and estimation-jar all guard the REVEAL and
+         leave the PREDICTION live over an empty apparatus — and gating it
+         in the MODEL is what makes the leak unreachable rather than
+         merely unlikely. */
+      if (s.opened === null) return null;
+      return { near: s.near, closed: s.closed, odd: dir, opened: s.opened };
     },
 
     /* how many counters are standing outside the pair-up. NEVER more

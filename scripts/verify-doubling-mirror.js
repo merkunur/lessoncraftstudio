@@ -203,6 +203,63 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
     odd.length + ' leave one waiting, ' + sided.length + ' resolve it');
 }
 
+/* @@@ L2c - NO ANSWER IS LIVE BEFORE ITS QUESTION EXISTS, AND NO CAP MAY
+   DISAGREE WITH ANOTHER. Both of these were CREATED by the L2b fix and
+   found by a native panel re-driving the repaired model - which is why a
+   repair is not finished when the thing it repaired starts working. */
+{
+  const seen = {}, queue = [];
+  const key = st => st.near + '|' + st.closed + '|' + st.odd + '|' + st.opened;
+  ['few', 'ten'].forEach(function (start) {
+    const s0 = T.newState(start); seen[key(s0)] = s0; queue.push(s0);
+  });
+  let guard = 0;
+  while (queue.length && guard++ < 4000) {
+    const st = queue.shift();
+    [T.place(st, 1), T.place(st, -1), T.close(st), T.open(st),
+     T.giveSide(st, -1), T.giveSide(st, 1)].forEach(function (n) {
+      if (!n) return; const k = key(n); if (seen[k]) return; seen[k] = n; queue.push(n);
+    });
+  }
+  const states = Object.keys(seen).map(k => seen[k]);
+  ok(states.length > 30, 'L2c non-vacuity: only ' + states.length + ' states');
+
+  /* @@ every state where a side can be given must ALREADY have been
+     opened - otherwise the announcement carries a null `opened` straight
+     into _fmt as a raw {t} token AND claims the tray opened while shut. */
+  let livePremature = 0, sideable = 0;
+  states.forEach(function (x) {
+    const g = T.giveSide(x, 1);
+    if (!g) return;
+    sideable++;
+    if (x.opened === null) livePremature++;
+    ok(g.opened !== null, 'L2c a side was given from a state with no opened total');
+  });
+  ok(sideable > 0, 'L2c non-vacuity: no state could give a side');
+  eq(livePremature, 0, 'L2c @@@ the side control is live before anything has been opened - the announcement leaks a raw {t}');
+
+  /* @@ THE CAPS MUST AGREE. Anything place() can build, open() must take. */
+  let unopenable = 0, built = 0;
+  states.forEach(function (x) {
+    if (!x.closed || x.opened !== null) return;
+    built++;
+    const t = T.total(x);
+    if (T.open(x) === null && t >= 2) unopenable++;
+  });
+  ok(built > 0, 'L2c non-vacuity: no closed tray reached');
+  eq(unopenable, 0, 'L2c @@@ a tray can be BUILT that open() refuses - the two caps disagree');
+  eq(GEO_MAXT(), G.CAP * 2 + 1, 'L2c the open ceiling is not the build ceiling');
+  function GEO_MAXT() {
+    /* derived: the largest total place() can reach is the double plus
+       the one outsider, so open() must accept exactly that. */
+    let x = T.newState('few');
+    while (T.place(x, 1)) x = T.place(x, 1);
+    let c = T.close(x);
+    const p = T.place(c, 1);
+    return T.total(p || c);
+  }
+}
+
 /* L3 — placing, and honest refusals at both ends */
 {
   let refused = 0, moved = 0;

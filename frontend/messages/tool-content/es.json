@@ -1318,6 +1318,28 @@
       "Escribe el número en cada puerta. Un pasillo ya está escrito para empezar."
     ]
   },
+  "number-drum": {
+    "name": "El anillo de los números",
+    "slug": "anillo-de-los-numeros-decenas-y-unidades-primaria",
+    "tagline": "En un anillo el 0 está dibujado justo debajo del 9, y por eso después del treinta y nueve no viene «treinta y diez».",
+    "metaTitle": "El anillo de los números: pasar de decena, Primaria",
+    "metaDescription": "Gira el anillo de las unidades más allá del 9 y un diente engancha el de las decenas. Párate a medio camino y pregunta si pone 29 o 30.",
+    "about": [
+      "Gira el anillo de la derecha. Cuando su 9 pasa al 0, un diente engancha el anillo de al lado y lo arrastra con él.",
+      "Dos anillos de cifras en un marco. El anillo de la derecha cuenta las unidades y el de la izquierda las decenas.",
+      "Los tres anillos son gratis, y cada giro también. El plan Docente añade los anillos de papel para recortar y enrollar, para que cada niño tenga el mismo aparato en las manos y enganche un anillo en el siguiente por sí mismo."
+    ],
+    "howToUse": [
+      "Girar hacia adelante. Girar medio paso hacia adelante.",
+      "Girar despacio. entre 29 y 30?",
+      "Girar el anillo de las decenas hacia adelante."
+    ],
+    "classroomIdeas": [
+      "Los anillos no pasan de 99.",
+      "40. Han girado los dos anillos.",
+      "Recorta cada tira larga, enróllala hasta formar un anillo y pega los dos extremos. Pon dos anillos juntos y gira el de la derecha: cada vez que su 9 pase al 0, adelanta el de la izquierda una posición."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

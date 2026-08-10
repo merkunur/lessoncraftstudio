@@ -1319,6 +1319,28 @@
       "Um corredor já está preenchido. Escreva o número nas outras portas."
     ]
   },
+  "number-drum": {
+    "name": "O anel dos números",
+    "slug": "anel-dos-numeros-dezenas-e-unidades-anos-iniciais",
+    "tagline": "No anel o 0 fica desenhado logo abaixo do 9 — é isso que falta numa fila que termina.",
+    "metaTitle": "O anel dos números: mudar de dezena, anos iniciais",
+    "metaDescription": "Gire o anel das unidades para além do 9 e um dente engata no anel das dezenas. Pare no meio do caminho e pergunte se está 29 ou 30.",
+    "about": [
+      "Gire o anel da direita. Quando o 9 dele passa para o 0, um dente engata no anel ao lado e leva esse anel junto.",
+      "Dois anéis de algarismos numa moldura. O anel da direita conta as unidades e o da esquerda conta as dezenas.",
+      "Os três anéis são gratuitos, e cada giro também. O plano Professor acrescenta os anéis de papel para recortar e enrolar, para que cada criança tenha o mesmo aparelho nas mãos e faça um anel engatar no seguinte."
+    ],
+    "howToUse": [
+      "Girar para a frente. Girar meio passo para a frente.",
+      "Girar devagar. entre 29 e 30?",
+      "Girar o anel das dezenas para a frente."
+    ],
+    "classroomIdeas": [
+      "Os anéis não passam de 99.",
+      "40. Os dois anéis giraram.",
+      "Recorte cada tira comprida, enrole até formar um anel e cole as duas pontas. Ponha dois anéis lado a lado e gire o da direita: sempre que o 9 dele passar para o 0, avance o da esquerda uma casa."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

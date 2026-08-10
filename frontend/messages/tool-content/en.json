@@ -1326,6 +1326,29 @@
       "Before taking a single step, ask where room 40 will be and let the class commit. Then walk until you meet the wall."
     ]
   },
+  "number-drum": {
+    "name": "The Number Drum",
+    "slug": "number-drum-ones-and-tens-rolling-to-100",
+    "tagline": "Two rings of numerals — and the only place on this site where the 0 is drawn directly under the 9.",
+    "metaTitle": "The Number Drum — crossing the tens, K to Grade 2",
+    "metaDescription": "Free whiteboard tool: turn the ones ring past its 9 and a tooth catches the tens ring and drags it round. Stop it half way and ask whether it says 29 or 30.",
+    "about": [
+      "Two rings of numerals stand side by side in a frame, and the frame shows three numerals of each: the one above, the one at the window, and the one below. That is the whole idea. On a ring the 0 sits directly under the 9, so a child can see at rest — without turning anything — that the ones come back round.",
+      "Turn the ones ring past its 9 and a tooth on that ring catches the ring beside it and drags it round too. Nothing is corrected, because nothing wrong can be reached: the rings are worked out from one position, so a ring that says 9 next to a ring that says 3 in a 29 is not a state this apparatus can be put into.",
+      "There is no readout anywhere. The rings are the number. In slow turning the crank moves half a notch, which parks the apparatus mid-catch — twenty-nine hanging on the edge of thirty — and there the question of what it says is genuinely open, which is what the class argues about. Nothing is scored, nothing is timed, and nothing is ever marked right or wrong."
+    ],
+    "howToUse": [
+      "Show it at rest and read the three numerals of the ones ring together. Ask what is underneath the 9, before anything moves.",
+      "Turn forward one at a time up to 9, then once more, and let the class watch the tooth reach the bar before either ring moves.",
+      "Switch to slow turning and stop on the catch. Ask the class to commit: is that 29 or 30? Then finish the turn.",
+      "Turn the tens ring on its own and ask why the ones ring did not move at all."
+    ],
+    "classroomIdeas": [
+      "A two-minute routine: park it on any number and ask how many more turns before the tens ring has to move. The answer is what is left to the next ten.",
+      "Run it backwards from 40 and ask what the ones ring does at 40 to 39 — it goes the other way round, and the tens ring surrenders with it.",
+      "Take it up to 99 and turn once. Two teeth catch, one after the other, and three rings move on one turn."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

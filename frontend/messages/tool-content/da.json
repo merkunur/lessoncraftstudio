@@ -1320,6 +1320,28 @@
       "Skriv nummeret på hver dør. Én korridor er udfyldt, så I kommer i gang."
     ]
   },
+  "number-drum": {
+    "name": "Talringen",
+    "slug": "talringen-tiereovergang-indskoling",
+    "tagline": "På en ring står 0 lige under 9 — det kan en række der stopper aldrig vise.",
+    "metaTitle": "Talringen: over tieren, indskolingen",
+    "metaDescription": "Drej enerringen forbi sit 9-tal, så griber en tand fat i tierringen og trækker den med. Stop halvvejs og spørg, om der står 29 eller 30.",
+    "about": [
+      "Drej den højre ring. Når dens 9 kommer rundt til 0, griber en tand fat i ringen ved siden af og trækker den med.",
+      "To ringe med tal i en ramme. Den højre ring tæller enere, og den venstre tæller tiere.",
+      "Alle tre ringe er gratis, og det er hver eneste drejning også. Med Lærer-abonnementet får du desuden papirringene til at klippe ud og rulle sammen, så hvert barn har det samme apparat i hænderne og selv lader den ene ring gribe fat i den næste."
+    ],
+    "howToUse": [
+      "Drej fremad. Drej et halvt hak fremad.",
+      "Drej langsomt. mellem 29 og 30?",
+      "Drej tierringen fremad."
+    ],
+    "classroomIdeas": [
+      "Ringene går ikke længere end 99.",
+      "40. Begge ringe drejede.",
+      "Klip hver lang strimmel ud, rul den sammen til en ring og sæt de to ender sammen. Hold to ringe ved siden af hinanden og drej den højre: hver gang dens 9 kommer rundt til 0, drejer du den venstre et hak frem."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

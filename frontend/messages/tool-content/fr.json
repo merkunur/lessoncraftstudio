@@ -1319,6 +1319,28 @@
       "Écris le numéro sur chaque porte. Une galerie est déjà remplie, pour te donner le départ."
     ]
   },
+  "number-drum": {
+    "name": "L’anneau des nombres",
+    "slug": "anneau-des-nombres-passage-a-la-dizaine-cp",
+    "tagline": "Sur un anneau, le 0 est dessiné juste sous le 9 — et c’est toute la différence avec une bande qui s’arrête.",
+    "metaTitle": "L’anneau des nombres — le passage à la dizaine, CP",
+    "metaDescription": "Fais tourner l’anneau des unités au-delà du 9 : une dent accroche l’anneau des dizaines et l’entraîne. Arrête-toi à mi-chemin et demande si c’est 29 ou 30.",
+    "about": [
+      "Fais tourner l’anneau de droite. Quand son 9 arrive sur le 0, une dent accroche l’anneau voisin et l’entraîne avec elle.",
+      "Deux anneaux de chiffres dans un cadre. L’anneau de droite compte les unités, celui de gauche les dizaines.",
+      "Les trois anneaux sont gratuits, et chaque tour aussi. L’abonnement Enseignant ajoute les anneaux en papier à découper et à rouler, pour que chaque enfant tienne le même appareil et fasse lui-même accrocher un anneau sur le suivant."
+    ],
+    "howToUse": [
+      "Tourner en avant. Tourner d’un demi-cran en avant.",
+      "Tourner lentement. entre 29 et 30?",
+      "Tourner l’anneau des dizaines en avant."
+    ],
+    "classroomIdeas": [
+      "Les anneaux ne vont pas plus loin que 99.",
+      "40. Les deux anneaux ont tourné.",
+      "Découpe chaque longue pièce de papier, roule-la en anneau et colle les deux bouts. Tiens deux anneaux côte à côte et fais tourner celui de droite : chaque fois que son 9 arrive sur le 0, avance celui de gauche d’un cran."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

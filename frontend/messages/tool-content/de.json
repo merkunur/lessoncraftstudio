@@ -1321,6 +1321,28 @@
       "Schreibt auf jede Tür die Zahl. Ein Flur ist schon ausgefüllt."
     ]
   },
+  "number-drum": {
+    "name": "Der Zahlenring",
+    "slug": "zahlenring-zehner-und-einer-bis-100-grundschule",
+    "tagline": "Unter der 9 steht die 0 — deshalb kommt nach neununddreißig nicht „dreißigzehn“.",
+    "metaTitle": "Der Zahlenring: Zehnerübergang bis 100 und bis 999",
+    "metaDescription": "Dreh den Einerring über die 9 hinaus, und ein Zahn nimmt den Zehnerring mit. Halte mittendrin an und frag die Klasse, ob da 29 oder 30 steht. Klasse 1 und 2.",
+    "about": [
+      "Dreh den rechten Ring. Wenn seine 9 zur 0 weiterrückt, greift ein Zahn in den Ring daneben und nimmt ihn mit.",
+      "Zwei Zahlenringe in einem Rahmen. Der rechte Ring zählt die Einer, der linke die Zehner.",
+      "Alle drei Ringe sind kostenlos, und jede Drehung auch. Mit dem Lehrkraft-Abo kommen die Ringe zum Ausschneiden und Zusammenkleben dazu, damit jedes Kind dasselbe Gerät in den Händen hat und selbst einen Ring in den nächsten greifen lässt."
+    ],
+    "howToUse": [
+      "Vorwärts drehen. Einen halben Schritt vorwärts drehen.",
+      "Langsam drehen. zwischen 29 und 30?",
+      "Den Zehnerring vorwärts drehen."
+    ],
+    "classroomIdeas": [
+      "Weiter als 99 drehen die Ringe nicht.",
+      "40. Beide Ringe haben sich gedreht.",
+      "Schneide jeden langen Streifen aus, roll ihn zu einem Ring und klebe die Enden zusammen. Halte zwei Ringe nebeneinander und dreh den rechten: Immer wenn seine 9 zur 0 weiterrückt, drehst du den linken um eins weiter."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

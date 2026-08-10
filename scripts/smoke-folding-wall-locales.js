@@ -1,5 +1,5 @@
 /* =====================================================================
-   smoke-times-shelf-locales.js — TOOL #47 in all eleven locales, with a
+   smoke-folding-wall-locales.js — TOOL #47 in all eleven locales, with a
    REACHABILITY RECORDER.
 
    ⚠ "THE STRING EXISTS" IS NOT "THE STRING IS REACHED", AND A SOURCE
@@ -42,7 +42,7 @@ const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi
 const srv = http.createServer((rq, rs) => {
   let f = rq.url.split('?')[0].replace('/mini-tools/', '');
   while (f.charAt(0) === '/') f = f.slice(1);
-  if (!f) f = 'times-shelf.html';
+  if (!f) f = 'folding-wall.html';
   const fp = path.join(ROOT, f);
   if (!fs.existsSync(fp)) { rs.writeHead(404); rs.end('x'); return; }
   const t = f.endsWith('.js') ? 'application/javascript' : f.endsWith('.css') ? 'text/css' : 'text/html';
@@ -56,7 +56,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 const RECORDER = `(function () {
   var real = null;
   window.__asked = {};
-  Object.defineProperty(window, 'TimesShelf', {
+  Object.defineProperty(window, 'FoldingWall', {
     configurable: true,
     get: function () { return real; },
     set: function (v) {
@@ -92,7 +92,7 @@ const RECORDER = `(function () {
     });
     await p.evaluateOnNewDocument(RECORDER);
     await p.setViewport({ width: 768, height: 1024 });
-    await p.goto(`http://127.0.0.1:${PORT}/mini-tools/times-shelf.html?lang=${loc}`, { waitUntil: 'load' });
+    await p.goto(`http://127.0.0.1:${PORT}/mini-tools/folding-wall.html?lang=${loc}`, { waitUntil: 'load' });
     await p.waitForSelector('.tsh-wrap', { timeout: 12000 });
     await wait(300);
 
@@ -100,7 +100,7 @@ const RECORDER = `(function () {
     /* every branch that owns a string has to be entered, or the key it
        owns scores "never asked" for a reason that is not a defect */
     await p.evaluate(() => {
-      const T = window.TimesShelf;
+      const T = window.FoldingWall;
       const press = (sel, n) => { const b = document.querySelectorAll(sel)[n || 0]; if (b && !b.disabled) b.click(); };
       /* virgin: restore is disabled, stack is disabled */
       T._relabelPads();
@@ -158,8 +158,8 @@ const RECORDER = `(function () {
 
     const got = await p.evaluate(() => ({
       asked: window.__asked,
-      keys: Object.keys(window.TimesShelf.strings),
-      lang: window.TimesShelf.api.lang,
+      keys: Object.keys(window.FoldingWall.strings),
+      lang: window.FoldingWall.api.lang,
       /* the rendered chrome, so a locale that fails to select is loud */
       title: (document.querySelector('.lcs-title') || {}).textContent || '',
       labels: Array.prototype.map.call(document.querySelectorAll('.tsh-btn'), (n) => n.getAttribute('aria-label')),
@@ -195,6 +195,6 @@ const RECORDER = `(function () {
   is(uniq.size >= 9, `the eleven titles are genuinely distinct — ${uniq.size} unique`);
 
   srv.close();
-  console.log(`\nsmoke-times-shelf-locales: ${PASS} passed, ${FAIL} failed`);
+  console.log(`\nsmoke-folding-wall-locales: ${PASS} passed, ${FAIL} failed`);
   process.exit(FAIL ? 1 : 0);
 })();

@@ -1,11 +1,11 @@
 /* =====================================================================
-   _times-shelf-content.js — TOOL #47's landing copy, 11 locales x the
+   _folding-wall-content.js — TOOL #47's landing copy, 11 locales x the
    EIGHT required `ToolEntry` fields.
 
    ⚠ EIGHT. #42 shipped FIVE and failed the static export of all eleven
    landing pages — after its register script (which checked three) and
    `preflight-tool-registration` (whose landing check asserted only a
-   `.slug`) had both reported success. `register-times-shelf.js` reads
+   `.slug`) had both reported success. `register-folding-wall.js` reads
    the field list off the interface and refuses to run if it parses
    implausibly few.
 
@@ -31,11 +31,11 @@
 
 module.exports = {
   en: {
-    slug: "times-shelf-multiplication-square",
-    name: "The Times Shelf",
+    slug: "folding-wall-multiplication-square",
+    name: "The Folding Wall",
     tagline: "A hundred cards on a shelf. Put away the tables the class owned before multiplication was taught, and twenty-one are left to learn.",
     about: [
-      "The Times Shelf is the whole multiplication square, standing on the classroom screen as a hundred cream cards in a deep teal shelf. A card shows only its product — 21, never 7 and 3 — and the two factors live on the edges, the row numerals down the left and the column numerals across the top. There is no multiplication sign anywhere on the apparatus and not one word of text. Press a card and every other card holding that same number lights up, along with its own two edge numerals.",
+      "The Folding Wall is the whole multiplication square, standing on the classroom screen as a hundred cream cards in a deep teal shelf. A card shows only its product — 21, never 7 and 3 — and the two factors live on the edges, the row numerals down the left and the column numerals across the top. There is no multiplication sign anywhere on the apparatus and not one word of text. Press a card and every other card holding that same number lights up, along with its own two edge numerals.",
       "Four buttons put away the 1, the 2, the 5 and the 10 — the row and the column together, because no two languages name a table by the same factor. They go not because they are unimportant but because the class owned all four before multiplication was taught: one changes nothing, two is doubling carried over from addition, five is a skip-count already done on the clock and on fingers, and ten is the place-value system. After each press the shelf closes up and the surviving cards grow, so a hundred becomes 81, then 64, then 49, then 36 — and every one of those is a square the class can read off the shape.",
       "Then one more move: every card below the diagonal can be put away, because its number is already standing on the other side, and the cards that keep those numbers visibly hold two. Twenty-one are left. What the shelf says and what it refuses to say both matter here — three plates of four is still not four plates of three, and this platform ships a separate activity whose whole job is that distinction. But both come to twelve, and twelve only has to be remembered once. It is the list that gets shorter, never the law and never the situation. The six squares on the diagonal never leave: they have no partner on the other side, and the apparatus cannot offer the move. There is no timer, no score and no diploma anywhere in it, and there is no efficacy study for this apparatus — what is defensible is that it instantiates a derived-fact strategy that national curricula already prescribe."
     ],
@@ -52,13 +52,13 @@ module.exports = {
       "Copy the residue into exercise books. It is not a list you handed out; it is a list they obtained, and the difference is audible in the room.",
       "Take one surviving card and make it a word problem twice over: three baskets of eight, eight baskets of three. The two stories do not resemble each other; the answer does. That is exactly what the shelf just put away, and nothing more."
     ],
-    metaTitle: "The Times Shelf — the multiplication square, down to 21",
+    metaTitle: "The Folding Wall — the multiplication square, down to 21",
     metaDescription: "A hundred cards for the whiteboard. The class puts away the tables it already owned — 1, 2, 5, 10 — and finds only twenty-one facts left to learn. Free."
   },
 
   de: {
     slug: "einmaleinstafel-kernaufgaben-grundschule",
-    name: "Der Setzkasten",
+    name: "Die Klappwand",
     tagline: "Hundert Kärtchen, und die Klasse räumt weg, was sie längst kann – am Ende stehen 21 Aufgaben da, und mehr waren es nie.",
     about: [
       "Der Setzkasten ist eine Einmaleinstafel für den Klassenbildschirm: hundert cremefarbene Kärtchen in einem dunkelgrünen Kasten. Auf jedem Kärtchen steht nur sein Ergebnis, nie die Aufgabe – die beiden Faktoren stehen am linken und am oberen Rand, und ein Malzeichen kommt auf dem Gerät überhaupt nicht vor. Vier Tasten räumen je eine Zeile samt ihrer Spalte weg. Danach rückt der Kasten zusammen und die übrigen Kärtchen werden größer, bis man sie von der letzten Bank aus lesen kann. Jede Taste ist ein Schalter: Alles lässt sich mit demselben Tipp zurückstellen.",
@@ -84,7 +84,7 @@ module.exports = {
 
   fr: {
     slug: "tables-de-multiplication-table-de-pythagore-ce2",
-    name: "Le casier des tables",
+    name: "Le paravent des tables",
     tagline: "Cent cartes à projeter ; une fois rangé ce que la classe connaît déjà, il en reste vingt et une.",
     about: [
       "Cent cartes dans un casier. Chaque carte ne montre que son résultat, jamais l’opération : les deux facteurs sont sur les bords — les lignes à gauche, les colonnes en haut — et c’est à l’enfant de les lire. On range d’abord la ligne 1 et la colonne 1, puis celles du 2, du 5 et du 10 : quatre familles que la classe possédait avant même qu’on lui parle de multiplication. Le 1 ne change rien, le 2 ce sont les doubles qui viennent de l’addition, le 5 se compte de 5 en 5 comme sur l’horloge, le 10 c’est la numération. À chaque fois le casier se referme, les cartes qui restent grandissent, et ce qui reste est un carré que la classe lit à l’œil : cent, puis quatre-vingt-un, soixante-quatre, quarante-neuf, trente-six.",
@@ -110,7 +110,7 @@ module.exports = {
 
   es: {
     slug: "tabla-pitagorica-tablas-del-1-al-10-primaria",
-    name: "La repisa de las tablas",
+    name: "El biombo de las tablas",
     tagline: "Cien cartas en una repisa: la clase retira la fila y la columna del 1, del 2, del 5 y del 10, la repisa se cierra sola y las cartas crecen — y lo que de verdad falta por aprender cabe en veintiuna.",
     about: [
       "Cien cartas acomodadas en una repisa. Cada carta enseña un solo número —el resultado— y los dos factores viven en el borde: las filas por la izquierda, las columnas por arriba. No hay ningún signo de por medio ni una sola palabra sobre la repisa. Cuatro botones retiran, cada uno, la fila y la columna completas del 1, del 2, del 5 y del 10; la repisa se cierra sola y las cartas que quedan crecen, así que lo que sobra se ve mejor desde el fondo del salón que lo que había al empezar. Y lo que queda, cada vez, es un cuadrado perfecto de cartas.",
@@ -135,8 +135,8 @@ module.exports = {
   },
 
   pt: {
-    slug: "estante-da-tabuada-anos-iniciais",
-    name: "A estante da tabuada",
+    slug: "parede-da-tabuada-anos-iniciais",
+    name: "A parede que se fecha",
     tagline: "Cem plaquinhas na estante: a turma recolhe o 1, o 2, o 5 e o 10, empilha o que se repete — e sobram 21 contas para o ano inteiro.",
     about: [
       "Na tela, cem plaquinhas cor de creme numa estante verde-escura. Cada plaquinha mostra só o resultado — o 21, o 48, o 63 —, e os dois fatores ficam nas bordas: as linhas descem pela esquerda, as colunas atravessam por cima. Não há sinal de vezes na estante, nem uma palavra sequer, e nada acontece sozinho: quem decide o que sai é a turma.",
@@ -161,8 +161,8 @@ module.exports = {
   },
 
   it: {
-    slug: "scaffale-delle-tabelline-tavola-pitagorica",
-    name: "Lo scaffale delle tabelline",
+    slug: "parete-delle-tabelline-tavola-pitagorica",
+    name: "La parete delle tabelline",
     tagline: "Cento carte alla lavagna: la classe mette da parte quello che sa già e scopre che le moltiplicazioni da imparare davvero sono ventuno.",
     about: [
       "Lo scaffale delle tabelline è una tavola pitagorica per la LIM: cento carte color panna dentro uno scaffale verde. Ogni carta mostra soltanto il suo risultato — il 21, il 48, il 63 — mentre i due fattori restano sui bordi, i numeri delle righe a sinistra e quelli delle colonne in alto. Sull’oggetto non c’è nessun segno di moltiplicazione e non c’è una sola parola scritta: si tocca una carta e si accendono tutte quelle che tengono lo stesso numero, insieme ai due numeri di bordo che le appartengono. Tocca il 12 e rispondono in quattro; tocca il 36 e rispondono in tre; tocca il 49 e risponde da solo.",
@@ -187,8 +187,8 @@ module.exports = {
   },
 
   nl: {
-    slug: "tafelkast-tafels-leren-automatiseren-groep-4-5",
-    name: "De Tafelkast",
+    slug: "tafelluik-tafels-leren-automatiseren-groep-4-5",
+    name: "Het Tafelluik",
     tagline: "Honderd kaarten in de kast: de klas zet de steunsommen weg die ze al kent, en houdt 21 keersommen over — precies de lijst die er nog geleerd moet worden.",
     about: [
       "In de Tafelkast staan honderd kaarten, in tien rijen en tien kolommen. Op een kaart staat alleen de uitkomst — 21, niet 7 en 3; de twee getallen waar die uitkomst bij hoort, staan langs de rand. Vier knoppen zetten telkens één rij én de bijbehorende kolom weg: de 1, de 2, de 5 en de 10. Na elke knop schuift de kast dicht en worden de overgebleven kaarten groter — van honderd naar 81, naar 64, naar 49, naar 36, achter in de klas nog leesbaar. Een vijfde knop zet daarna elke kaart onder de diagonaal weg, omdat datzelfde getal aan de andere kant al staat; op de kaart die blijft, liggen dan twee kaarten. Er blijven er 21 over.",
@@ -213,8 +213,8 @@ module.exports = {
   },
 
   sv: {
-    slug: "multiplikationstabellen-tabellhyllan",
-    name: "Tabellhyllan",
+    slug: "multiplikationstabellen-vikvaggen",
+    name: "Vikväggen",
     tagline: "Hundra kort i en hylla. Lägg undan de tabeller klassen ägde redan innan multiplikationen började — kvar står 21 uppgifter att faktiskt lära sig.",
     about: [
       "Hundra gräddvita kort står i en djupgrön hylla, tio rader och tio kolumner. Ett kort visar bara sitt eget tal — 21, aldrig 7 gånger 3. Faktorerna står på kanterna, radernas tal till vänster och kolumnernas överst, och på själva hyllan finns inte ett enda ord och inte ett enda räknetecken. Fyra knappar — 1, 2, 5 och 10 — lägger undan varsitt kors: raden och kolumnen samtidigt. Hyllan sluter sig, korten som är kvar växer, och hundra blir 81, 64, 49 och till slut 36. Knapparna går åt båda hållen, så allt går att lägga tillbaka.",
@@ -239,8 +239,8 @@ module.exports = {
   },
 
   da: {
-    slug: "tabelreolen-den-lille-tabel",
-    name: "Tabelreolen",
+    slug: "foldevaeggen-den-lille-tabel",
+    name: "Foldevæggen",
     tagline: "Hundrede fliser i en reol: klassen lægger det væk, den kan i forvejen, og opdager, at den lille tabel i virkeligheden er 21 stykker at lære — ikke hundrede.",
     about: [
       "Tabelreolen er hele den lille tabel sat op på klassens skærm: hundrede cremefarvede fliser i en dyb reol. En flise viser kun sit tal — der står 21, ikke 7 og 3 — og de to tal, den kommer af, står ude i kanten, øverst og til venstre. Der er ikke ét gangetegn og ikke ét eneste ord på selve apparatet. Fire knapper lægger 1, 2, 5 og 10 væk, rækken og kolonnen på én gang, og bagefter lukker reolen sig sammen, så de fliser, der er tilbage, bliver større. Hundrede bliver til 81, til 64, til 49 og til 36 — og det, klassen ser blive mindre, er ikke en score, det er arbejdet, der er tilbage.",
@@ -266,7 +266,7 @@ module.exports = {
 
   no: {
     slug: "gangetabellen-multiplikasjon-3-4-trinn",
-    name: "Tabellreolen",
+    name: "Brettemuren",
     tagline: "Hundre kort står framme i reolen – og når klassen har lagt bort det den kunne fra før, og alt som allerede står på den andre siden av diagonalen, er det bare 21 kort igjen å lære.",
     about: [
       "Tabellreolen er hele den lille gangetabellen satt opp som hundre kort i en dyp reol. På hvert kort står bare svaret: 21, ikke 7 og 3. De to faktorene står langs kanten – radene nedover til venstre, kolonnene bortover øverst – så barnet må lese seg fram til hvor tallet hører hjemme. Det står ikke ett eneste ord på selve reolen, og ikke noe gangetegn heller. Trykker du på et kort, lyser hvert kort som holder det samme tallet, sammen med de to kanttallene til kortet du trykket på. Trykk på 12, og fire kort svarer. Trykk på 36, og tre. Trykk på 49, og bare ett.",
@@ -291,8 +291,8 @@ module.exports = {
   },
 
   fi: {
-    slug: "kertotaulun-opettelu-kortisto",
-    name: "Kertotaulukortisto",
+    slug: "kertotaulun-opettelu-sermi",
+    name: "Kertotaulusermi",
     tagline: "Kortisto, josta luokka panee sivuun kaikki jo osaamansa kertotaulut — ja näkee omin silmin, kuinka vähän on enää opeteltavaa.",
     about: [
       "Kertotaulukortisto on yksi ainoa esine luokan seinälle heijastettavaksi: syvänvihreä kortisto, jossa on kymmenen riviä ja kymmenen saraketta kermanvärisiä kortteja. Kortissa näkyy vain tulo. Tekijät ovat reunoilla — rivien luvut vasemmassa laidassa, sarakkeiden luvut ylälaidassa — eikä kortistossa ole yhtään kertomerkkiä eikä yhtään sanaa. Neljä painiketta panee sivuun ykkösen, kakkosen, viitosen ja kympin, aina koko rivin ja koko sarakkeen yhdellä kertaa. Kortisto sulkeutuu umpeen jokaisen painalluksen jälkeen ja jäljelle jääneet kortit kasvavat isommiksi, niin että ne näkyvät luokan takariviin asti.",

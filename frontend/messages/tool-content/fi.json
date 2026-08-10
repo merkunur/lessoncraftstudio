@@ -1252,9 +1252,18 @@
     "metaTitle": "Pullapelti — vaikea kertotaulu helpoista | Ilmainen",
     "metaDescription": "Ilmainen kertolaskutyökalu taululle: pellillinen pullia riveissä, jonka luokka katkaisee saumasta. 7 · 6 hajoaa apulaskuiksi 5 · 6 ja 2 · 6. Ei kirjautumista."
   },
-  "times-shelf": {
-    "slug": "kertotaulun-opettelu-kortisto",
-    "name": "Kertotaulukortisto",
+  "labels": {
+    "about": "Tietoa tästä työkalusta",
+    "howToUse": "Näin käytät sitä luokassa",
+    "classroomIdeas": "Ideoita luokkaan",
+    "relatedActivities": "Tätä työkalua käyttävät tehtävät",
+    "otherLanguages": "Saatavilla muilla kielillä",
+    "openFullScreen": "Avaa koko näyttöön",
+    "toolsBreadcrumb": "Työkalut"
+  },
+  "folding-wall": {
+    "slug": "kertotaulun-opettelu-sermi",
+    "name": "Kertotaulusermi",
     "tagline": "Kortisto, josta luokka panee sivuun kaikki jo osaamansa kertotaulut — ja näkee omin silmin, kuinka vähän on enää opeteltavaa.",
     "about": [
       "Kertotaulukortisto on yksi ainoa esine luokan seinälle heijastettavaksi: syvänvihreä kortisto, jossa on kymmenen riviä ja kymmenen saraketta kermanvärisiä kortteja. Kortissa näkyy vain tulo. Tekijät ovat reunoilla — rivien luvut vasemmassa laidassa, sarakkeiden luvut ylälaidassa — eikä kortistossa ole yhtään kertomerkkiä eikä yhtään sanaa. Neljä painiketta panee sivuun ykkösen, kakkosen, viitosen ja kympin, aina koko rivin ja koko sarakkeen yhdellä kertaa. Kortisto sulkeutuu umpeen jokaisen painalluksen jälkeen ja jäljelle jääneet kortit kasvavat isommiksi, niin että ne näkyvät luokan takariviin asti.",
@@ -1276,14 +1285,5 @@
     ],
     "metaTitle": "Kertotaulun opettelu: kortisto, josta jää 21 laskua",
     "metaDescription": "Pankaa sivuun ykkösen, kakkosen, viitosen ja kympin taulut, pinotkaa loput — ja nähkää, että kertotaulusta jää opeteltavaksi vain 21 laskua. Ei ajanottoa."
-  },
-  "labels": {
-    "about": "Tietoa tästä työkalusta",
-    "howToUse": "Näin käytät sitä luokassa",
-    "classroomIdeas": "Ideoita luokkaan",
-    "relatedActivities": "Tätä työkalua käyttävät tehtävät",
-    "otherLanguages": "Saatavilla muilla kielillä",
-    "openFullScreen": "Avaa koko näyttöön",
-    "toolsBreadcrumb": "Työkalut"
   }
 }

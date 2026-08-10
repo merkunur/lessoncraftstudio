@@ -1273,9 +1273,18 @@
     "metaTitle": "A assadeira de pãezinhos — tabuada difícil, anos iniciais",
     "metaDescription": "Quebre 7 fileiras de 6 em 5 e 2 fileiras de 6: a tabuada difícil sai de duas que a turma já sabe. Ferramenta gratuita para a lousa digital, anos iniciais."
   },
-  "times-shelf": {
-    "slug": "estante-da-tabuada-anos-iniciais",
-    "name": "A estante da tabuada",
+  "labels": {
+    "about": "Sobre esta ferramenta",
+    "howToUse": "Como usar em sala de aula",
+    "classroomIdeas": "Ideias para a sala de aula",
+    "relatedActivities": "Atividades que usam esta ferramenta",
+    "otherLanguages": "Disponível em outros idiomas",
+    "openFullScreen": "Abrir em tela cheia",
+    "toolsBreadcrumb": "Ferramentas"
+  },
+  "folding-wall": {
+    "slug": "parede-da-tabuada-anos-iniciais",
+    "name": "A parede que se fecha",
     "tagline": "Cem plaquinhas na estante: a turma recolhe o 1, o 2, o 5 e o 10, empilha o que se repete — e sobram 21 contas para o ano inteiro.",
     "about": [
       "Na tela, cem plaquinhas cor de creme numa estante verde-escura. Cada plaquinha mostra só o resultado — o 21, o 48, o 63 —, e os dois fatores ficam nas bordas: as linhas descem pela esquerda, as colunas atravessam por cima. Não há sinal de vezes na estante, nem uma palavra sequer, e nada acontece sozinho: quem decide o que sai é a turma.",
@@ -1297,14 +1306,5 @@
     ],
     "metaTitle": "A estante da tabuada — sobram 21 contas, não cem",
     "metaDescription": "Ferramenta gratuita para a lousa: a turma recolhe da tabuada tudo o que já sabia antes da multiplicação e descobre que sobram só 21 contas para guardar de cor."
-  },
-  "labels": {
-    "about": "Sobre esta ferramenta",
-    "howToUse": "Como usar em sala de aula",
-    "classroomIdeas": "Ideias para a sala de aula",
-    "relatedActivities": "Atividades que usam esta ferramenta",
-    "otherLanguages": "Disponível em outros idiomas",
-    "openFullScreen": "Abrir em tela cheia",
-    "toolsBreadcrumb": "Ferramentas"
   }
 }

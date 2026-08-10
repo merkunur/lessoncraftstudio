@@ -1,7 +1,7 @@
 /* =====================================================================
-   register-times-shelf.js — wire TOOL #47 into the site
+   register-folding-wall.js — wire TOOL #47 into the site
    ---------------------------------------------------------------------
-   Run:  node scripts/register-times-shelf.js [--dry-run]
+   Run:  node scripts/register-folding-wall.js [--dry-run]
 
    ⚠ A tool is not shippable until `frontend/config/live-tool-slugs.ts`
    carries its key — miss that and all eleven locales return 410, because
@@ -34,9 +34,9 @@ const fs = require('fs');
 const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
-const KEY = 'times-shelf';
+const KEY = 'folding-wall';
 const PREV = 'baking-tray';    /* the key this one is inserted after — #46 */
-const E = require('./_times-shelf-content.js');
+const E = require('./_folding-wall-content.js');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const DRY = process.argv.indexOf('--dry-run') > -1;
 
@@ -69,7 +69,7 @@ if (REQUIRED.length < 6) die(`only ${REQUIRED.length} fields parsed off ToolEntr
 console.log(`  guard: ToolEntry requires ${REQUIRED.length} fields — ${REQUIRED.join(', ')}`);
 LOCALES.forEach((l) => {
   const e = E[l];
-  if (!e) die(`_times-shelf-content.js has no entry for "${l}"`);
+  if (!e) die(`_folding-wall-content.js has no entry for "${l}"`);
   const missing = REQUIRED.filter((k) => {
     const v = e[k];
     if (Array.isArray(v)) return v.length === 0 || v.some((x) => typeof x !== 'string' || !x.trim());

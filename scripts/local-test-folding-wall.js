@@ -1,6 +1,6 @@
 /* =====================================================================
-   local-test-times-shelf.js — TOOL #47 in a real browser.
-   Run:  node scripts/local-test-times-shelf.js
+   local-test-folding-wall.js — TOOL #47 in a real browser.
+   Run:  node scripts/local-test-folding-wall.js
 
    Serves `mini tools/` locally and drives the tool with REAL POINTER
    EVENTS. Nothing is stubbed and nothing is deployed.
@@ -49,7 +49,7 @@ const CASES = [
 const srv = http.createServer((rq, rs) => {
   let f = rq.url.split('?')[0].replace('/mini-tools/', '');
   while (f.charAt(0) === '/') f = f.slice(1);
-  if (!f) f = 'times-shelf.html';
+  if (!f) f = 'folding-wall.html';
   const fp = path.join(ROOT, f);
   if (!fs.existsSync(fp)) { rs.writeHead(404); rs.end('x'); return; }
   const t = f.endsWith('.js') ? 'application/javascript' : f.endsWith('.json') ? 'application/json'
@@ -73,7 +73,7 @@ async function open(b, w, h) {
     errs.push(t);
   });
   await p.setViewport({ width: w, height: h, deviceScaleFactor: 1 });
-  await p.goto(`http://127.0.0.1:${PORT}/mini-tools/times-shelf.html?lang=en&embed=1`, { waitUntil: 'load' });
+  await p.goto(`http://127.0.0.1:${PORT}/mini-tools/folding-wall.html?lang=en&embed=1`, { waitUntil: 'load' });
   await p.waitForSelector('.tsh-wrap', { timeout: 12000 });
   await wait(320);
   return { p, errs };
@@ -104,7 +104,7 @@ async function pressBtn(p, sel, nth, why) {
 /* press a card at a grid coordinate, with a REAL pointer */
 async function pressCard(p, r, c) {
   const pt = await p.evaluate((r, c) => {
-    const T = window.TimesShelf, L = T.live(T.st), n = L.length;
+    const T = window.FoldingWall, L = T.live(T.st), n = L.length;
     const ir = L.indexOf(r), ic = L.indexOf(c);
     if (ir < 0 || ic < 0) return null;
     const G = T.GEO;
@@ -159,7 +159,7 @@ function oracleCards(off, stacked) {
          .tsh-p are the same object. That pairing is what makes check 1
          possible — and it is exactly the shared convention that has to
          be broken by measuring in PIXELS, which is what we do below. */
-      const T = window.TimesShelf, L = T.live(T.st), n = L.length, G = T.GEO;
+      const T = window.FoldingWall, L = T.live(T.st), n = L.length, G = T.GEO;
       const ar = document.querySelector('.tsh-arena').getBoundingClientRect();
       const read = [];
       document.querySelectorAll('.tsh-p').forEach((t) => {
@@ -297,7 +297,7 @@ function oracleCards(off, stacked) {
   const { p, errs } = await open(b, 768, 1024);
 
   const state = () => p.evaluate(() => {
-    const T = window.TimesShelf;
+    const T = window.FoldingWall;
     return {
       live: T.live(T.st), cards: T.cards(T.st).length, seats: T.seats(T.st).length,
       stacked: T.st.stacked,
@@ -443,9 +443,9 @@ function oracleCards(off, stacked) {
   /* every family button reachable by keyboard AND by synthetic click */
   const synth = await p.evaluate(() => {
     const n = document.querySelectorAll('.tsh-b-fam')[1];
-    const was = window.TimesShelf.cards(window.TimesShelf.st).length;
+    const was = window.FoldingWall.cards(window.FoldingWall.st).length;
     n.click();
-    return { was, now: window.TimesShelf.cards(window.TimesShelf.st).length };
+    return { was, now: window.FoldingWall.cards(window.FoldingWall.st).length };
   });
   is(synth.now === synth.was - 19, `a synthetic .click() drives the tool (${synth.was} -> ${synth.now})`);
 
@@ -455,7 +455,7 @@ function oracleCards(off, stacked) {
   /* =============== the print sheet ================================ */
   const { p: pp } = await open(b, 1024, 900);
   const sheet = await pp.evaluate(() => {
-    const T = window.TimesShelf;
+    const T = window.FoldingWall;
     T.premium = true;
     for (const k of [1, 2, 5, 10]) T.st = T.putAway(T.st, k);
     T.st = T.stack(T.st);
@@ -488,6 +488,6 @@ function oracleCards(off, stacked) {
 
   await b.close();
   srv.close();
-  console.log(`\nlocal-test-times-shelf: ${PASS} passed, ${FAIL} failed`);
+  console.log(`\nlocal-test-folding-wall: ${PASS} passed, ${FAIL} failed`);
   process.exit(FAIL ? 1 : 0);
 })();

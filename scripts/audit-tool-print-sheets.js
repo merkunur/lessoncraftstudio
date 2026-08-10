@@ -92,7 +92,7 @@ const TOOLS = [
      print block sets `.tsh-wrap{display:none}` and a hidden parent
      kills the whole subtree, so a sheet built inside it would measure
      0px tall on paper with every assertion green. */
-  { key: 'times-shelf', p: 'tsh', apparatus: '.tsh-sheet', chrome: '.tsh-ledge',
+  { key: 'folding-wall', p: 'tsh', apparatus: '.tsh-sheet', chrome: '.tsh-ledge',
     /* ⚠ AND THE SHEET IS BUILT ON DEMAND, so the prime has to call it —
        otherwise this measures an empty container and reports the
        apparatus missing. It is also what adds `tsh-printing`, the class
@@ -101,7 +101,7 @@ const TOOLS = [
        BLANK PAGE. Put the shelf into its residue state first, so the
        sheet the gate measures is the one a class would actually print. */
     prime: function () {
-      var T = window.TimesShelf;
+      var T = window.FoldingWall;
       if (!T) return;
       T.premium = true;
       var k, F = [1, 2, 5, 10];

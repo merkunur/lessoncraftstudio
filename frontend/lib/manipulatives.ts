@@ -2148,8 +2148,8 @@ export const MANIPULATIVES: Manipulative[] = [
     },
   },
   {
-    id: "times-shelf",
-    mini_tool_url: "/mini-tools/times-shelf.html",
+    id: "folding-wall",
+    mini_tool_url: "/mini-tools/folding-wall.html",
     title: {
       en: "The Times Shelf",
       de: "Der Setzkasten",

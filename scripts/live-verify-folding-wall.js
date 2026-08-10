@@ -1,6 +1,6 @@
 /* =====================================================================
-   live-verify-times-shelf.js — TOOL #47 on PRODUCTION, 11 locales.
-   Run:  node scripts/live-verify-times-shelf.js
+   live-verify-folding-wall.js — TOOL #47 on PRODUCTION, 11 locales.
+   Run:  node scripts/live-verify-folding-wall.js
 
    ⚠⚠ IT IS ALSO THE DEPLOYED-BYTES CHECK. #45 passed 108 assertions
    against a STALE DEPLOY, because every assertion tested the model and
@@ -21,7 +21,7 @@
 'use strict';
 const puppeteer = require('puppeteer');
 
-const BASE = 'https://www.lessoncraftstudio.com/mini-tools/times-shelf.html';
+const BASE = 'https://www.lessoncraftstudio.com/mini-tools/folding-wall.html';
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 
 let PASS = 0, FAIL = 0;
@@ -55,9 +55,9 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       scrollEscape: document.documentElement.classList.contains('tsh-scroll'),
       printLabel: (document.querySelector('.tsh-b-print') || {}).getAttribute
         ? document.querySelector('.tsh-b-print').getAttribute('aria-label') : '',
-      keys: Object.keys(window.TimesShelf.strings).length,
-      hasDouble: !!window.TimesShelf.strings.saidCardDouble,
-      hasLocked: !!window.TimesShelf.strings.printLocked,
+      keys: Object.keys(window.FoldingWall.strings).length,
+      hasDouble: !!window.FoldingWall.strings.saidCardDouble,
+      hasLocked: !!window.FoldingWall.strings.printLocked,
       cards: document.querySelectorAll('.tsh-card').length
     }));
     is(marks.scrollEscape, `[${loc}] documentElement carries the scroll escape`);
@@ -71,8 +71,8 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
        anonymous visitor on production is free-tier, so the label must
        be this locale's `printLocked`, never its `printBtn`. */
     const want = await p.evaluate((l) => ({
-      locked: window.TimesShelf.strings.printLocked[l],
-      open: window.TimesShelf.strings.printBtn[l]
+      locked: window.FoldingWall.strings.printLocked[l],
+      open: window.FoldingWall.strings.printBtn[l]
     }), loc);
     is(marks.printLabel === want.locked,
       `[${loc}] ⭐ the print chip states its own refusal — got "${marks.printLabel}"`);
@@ -94,13 +94,13 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     };
 
     is(await drive('.tsh-b-fam', 0), `[${loc}] the first family chip is live`);
-    const after1 = await p.evaluate(() => window.TimesShelf.cards(window.TimesShelf.st).length);
+    const after1 = await p.evaluate(() => window.FoldingWall.cards(window.FoldingWall.st).length);
     is(after1 === 81, `[${loc}] the cross took 19 — ${after1} left`);
 
     for (const i of [1, 2, 3]) await drive('.tsh-b-fam', i);
     const res = await p.evaluate(() => ({
-      cards: window.TimesShelf.cards(window.TimesShelf.st).length,
-      live: window.TimesShelf.live(window.TimesShelf.st).join(',')
+      cards: window.FoldingWall.cards(window.FoldingWall.st).length,
+      live: window.FoldingWall.live(window.FoldingWall.st).join(',')
     }));
     is(res.cards === 36 && res.live === '3,4,6,7,8,9', `[${loc}] residue 36 on {3,4,6,7,8,9} — ${res.cards} / ${res.live}`);
 
@@ -112,7 +112,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       /* ⭐ THE MARKER THAT CANNOT BE TRUE OF THE OLD BUILD */
       pressed: Array.prototype.map.call(document.querySelectorAll('.tsh-b-fam'),
         (n) => n.getAttribute('aria-pressed')).join(','),
-      double: window.TimesShelf._lookText({ kind: 'card', r: 3, c: 7, p: 21, key: 'k3_7' })
+      double: window.FoldingWall._lookText({ kind: 'card', r: 3, c: 7, p: 21, key: 'k3_7' })
     }));
     is(stacked.cards === 21, `[${loc}] ⭐ TWENTY-ONE cards — got ${stacked.cards}`);
     is(stacked.seconds === 15, `[${loc}] fifteen cards visibly hold two — got ${stacked.seconds}`);
@@ -128,6 +128,6 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   }
 
   await b.close();
-  console.log(`\nlive-verify-times-shelf: ${PASS} passed, ${FAIL} failed`);
+  console.log(`\nlive-verify-folding-wall: ${PASS} passed, ${FAIL} failed`);
   process.exit(FAIL ? 1 : 0);
 })();

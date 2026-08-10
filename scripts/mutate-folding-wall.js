@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* =====================================================================
-   mutate-times-shelf.js — does `verify-times-shelf.js` actually CATCH
+   mutate-folding-wall.js — does `verify-folding-wall.js` actually CATCH
    anything, or is it a very long way of writing `true`?
 
    ⚠ THE CONTROL RUN IS NOT OPTIONAL. #46 reported "every mutation
@@ -28,8 +28,8 @@ const os = require('os');
 const path = require('path');
 const { execFileSync } = require('child_process');
 
-const SRC = path.join(__dirname, '..', 'mini tools', 'times-shelf.js');
-const VERIFY = path.join(__dirname, 'verify-times-shelf.js');
+const SRC = path.join(__dirname, '..', 'mini tools', 'folding-wall.js');
+const VERIFY = path.join(__dirname, 'verify-folding-wall.js');
 const ORIGINAL = fs.readFileSync(SRC, 'utf8').replace(/\r\n/g, '\n');
 
 /* [ name, find, replace ] — `find` must occur EXACTLY ONCE. */
@@ -96,16 +96,21 @@ const MUTATIONS = [
     'if (all[i].p === p) out.push(all[i]);',
     'if (all[i].p === p && out.length < 2) out.push(all[i]);'],
 
-  /* ---- law 6: nothing crosses the diagonal ---- */
-  ['⚠ no cell-to-cell path may enter this file (mirror)',
-    '    _wasStanding: function (a, r, c) {',
-    '    _mirrorOf: function (r, c) { return { r: c, c: r }; },\n    _wasStanding: function (a, r, c) {'],
-  ['⚠ no cell-to-cell path may enter this file (transpose)',
-    '    _wasStanding: function (a, r, c) {',
-    '    _transposeSeat: function (r, c) { return c + "x" + r; },\n    _wasStanding: function (a, r, c) {'],
-  ['the travel is ONE shared scalar, not a per-card target',
-    'var off = D * slide;',
-    'var off = D * slide * 0.5;'],
+  /* ---- law 6: THE FOLD LANDS ON ITS PARTNER ---- */
+  /* ⭐ THESE THREE USED TO BAN A CELL-TO-CELL PATH OUTRIGHT, because I had
+     over-applied the fence and deleted the fold. The tool folds now, so a
+     reflection is LEGITIMATE — what must not change is that it is ONE
+     RIGID TRANSFORM carrying the whole piece. A per-card path is not a
+     fold, whatever it is called. */
+  ["the twins fold on ONE reflection, running to exactly -1",
+    "var fs2 = 1 - 2 * e;",
+    "var fs2 = 1 - 1.4 * e;"],
+  ["the fold transform is the reflection about y = x",
+    "var foldDiag = 'rotate(45) scale(1,",
+    "var foldDiag = 'rotate(40) scale(1,"],
+  ["the row hinges on its own edge",
+    "translate(0,' + hy.toFixed(3) + ') scale(1,",
+    "translate(0,' + hy.toFixed(3) + ') scale(2,"],
 
   /* ---- law 7: the squares ---- */
   ['stacking removes no diagonal card',
@@ -134,8 +139,8 @@ const MUTATIONS = [
 
   /* ---- law 9: no count anywhere ---- */
   ['⚠ no count may reach a label — not even in the title of a button',
-    "en: 'Put it all back'",
-    "en: 'Put it all back — 21 left to learn'"],
+    "en: 'Fold it all back open'",
+    "en: 'Fold it all back open — 21 left to learn'"],
   ['no count may reach an announcement',
     "en: 'Everything is back. Rows and columns: {list}.'",
     "en: 'Everything is back. 21 to learn. Rows and columns: {list}.'"],
@@ -217,7 +222,7 @@ const MUTATIONS = [
 function runVerify(dir) {
   try {
     execFileSync(process.execPath, [VERIFY], {
-      env: Object.assign({}, process.env, { TSH_TOOL_DIR: dir }),
+      env: Object.assign({}, process.env, { FW_TOOL_DIR: dir }),
       stdio: 'pipe',
       timeout: 30000
     });
@@ -230,7 +235,7 @@ function runVerify(dir) {
 const tmpRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'tsh-mut-'));
 function writeTool(body) {
   const dir = fs.mkdtempSync(path.join(tmpRoot, 'v-'));
-  fs.writeFileSync(path.join(dir, 'times-shelf.js'), body, 'utf8');
+  fs.writeFileSync(path.join(dir, 'folding-wall.js'), body, 'utf8');
   return dir;
 }
 
@@ -261,7 +266,7 @@ MUTATIONS.forEach(([name, find, repl], i) => {
   else killed++;
 });
 
-console.log(`mutate-times-shelf: ${killed}/${MUTATIONS.length} killed, ` +
+console.log(`mutate-folding-wall: ${killed}/${MUTATIONS.length} killed, ` +
   `${survivors.length} survived, ${faults.length} harness faults`);
 faults.forEach(f => console.log('  HARNESS FAULT ' + f));
 survivors.forEach(s => console.log('  SURVIVED ' + s));

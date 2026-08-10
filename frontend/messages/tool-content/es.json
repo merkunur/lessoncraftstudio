@@ -1272,9 +1272,18 @@
     "metaTitle": "La bandeja de panecillos — las tablas difíciles, en dos trozos",
     "metaDescription": "Una bandeja de panecillos pegados para las tablas: separa 7 filas de 6 en 5 filas de 6 y 2 filas de 6. Sin total, sin cronómetro y sin nota. Gratis, 2.º y 3.º."
   },
-  "times-shelf": {
+  "labels": {
+    "about": "Acerca de esta herramienta",
+    "howToUse": "Cómo usarla en clase",
+    "classroomIdeas": "Ideas para el aula",
+    "relatedActivities": "Actividades que usan esta herramienta",
+    "otherLanguages": "Disponible en otros idiomas",
+    "openFullScreen": "Abrir en pantalla completa",
+    "toolsBreadcrumb": "Herramientas"
+  },
+  "folding-wall": {
     "slug": "tabla-pitagorica-tablas-del-1-al-10-primaria",
-    "name": "La repisa de las tablas",
+    "name": "El biombo de las tablas",
     "tagline": "Cien cartas en una repisa: la clase retira la fila y la columna del 1, del 2, del 5 y del 10, la repisa se cierra sola y las cartas crecen — y lo que de verdad falta por aprender cabe en veintiuna.",
     "about": [
       "Cien cartas acomodadas en una repisa. Cada carta enseña un solo número —el resultado— y los dos factores viven en el borde: las filas por la izquierda, las columnas por arriba. No hay ningún signo de por medio ni una sola palabra sobre la repisa. Cuatro botones retiran, cada uno, la fila y la columna completas del 1, del 2, del 5 y del 10; la repisa se cierra sola y las cartas que quedan crecen, así que lo que sobra se ve mejor desde el fondo del salón que lo que había al empezar. Y lo que queda, cada vez, es un cuadrado perfecto de cartas.",
@@ -1296,14 +1305,5 @@
     ],
     "metaTitle": "La repisa de las tablas — la tabla pitagórica del 1 al 10",
     "metaDescription": "Una tabla pitagórica de cien cartas para proyectar: retira el 1, el 2, el 5 y el 10, luego lo de debajo de la diagonal, y quedan 21 multiplicaciones por aprender. Gratis, primaria."
-  },
-  "labels": {
-    "about": "Acerca de esta herramienta",
-    "howToUse": "Cómo usarla en clase",
-    "classroomIdeas": "Ideas para el aula",
-    "relatedActivities": "Actividades que usan esta herramienta",
-    "otherLanguages": "Disponible en otros idiomas",
-    "openFullScreen": "Abrir en pantalla completa",
-    "toolsBreadcrumb": "Herramientas"
   }
 }

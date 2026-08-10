@@ -197,10 +197,11 @@
 
     strings: {
       title: { en: 'The Rounding Hill' },
-      instruction: { en: 'Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level, it will not fall on its own, and what the number is FOR decides which way it goes.' },
+      instruction: { en: 'Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where neither side is lower, it will not fall on its own, and what the number is FOR decides which way it goes.' },
 
       ariaGround: { en: 'Ground with a dip at each end and a ridge in the middle.' },
       ariaStone: { en: 'the stone, at {n}' },
+      ariaStoneRest: { en: 'the stone, {n}, resting in the {d} dip' },
       ariaRidge: { en: 'the ridge, halfway between the two dips' },
       ariaTilt: { en: 'the way this class has settled the ridge' },
 
@@ -228,10 +229,13 @@
 
       saidSet: { en: '{n}' },
       saidSettled: { en: '{n} settles into {d}.' },
-      saidTeeter: { en: '{n} is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?' },
+      saidTeeter: { en: '{n} is on the ridge. Neither side is lower, so the stone will not fall on its own. What are these numbers for — and which way should that settle it?' },
       saidTiltSet: { en: 'This class has settled the ridge towards {d}, for what these numbers are being used for. Every tie goes that way until that changes.' },
       saidTiltClear: { en: 'The ridge is level again. What are these numbers for now? The stone will teeter until the class settles it again.' },
       saidAlready: { en: 'The stone is already at rest. Set down another one.' },
+      saidAlreadyLevel: { en: 'The ridge is already level.' },
+      saidAlreadySet: { en: 'The ridge is already settled that way.' },
+      saidTiltClearOff: { en: 'The ridge is level again. The next stone that lands on it will teeter.' },
       saidEdge: { en: 'The ground stops at {n}.' },
 
       gateTitle: { en: 'The paper ground' },
@@ -425,13 +429,23 @@
        so it must not be a rarity a class meets once a term — but a
        ground where every stone teetered would teach that rounding is
        always a choice, which is the opposite of true. */
+    /* ⚠ EVERY DEALT STONE MUST BE ON THE MOVE GRID. On the hundreds
+       ground the nudge is 10 but the deal picked any integer, so from
+       437 the ridge at 450 could not be reached by ANY sequence of
+       presses — the tool's one lesson, unreachable, in half its
+       configurations. Found by a native panel driving the model. */
+    _snap: function (v) {
+      var st = this.step(), s = this.st;
+      return s.lo + Math.round((v - s.lo) / st) * st;
+    },
+
     _deal: function () {
       var s = this.st, r = this.ridge(s), v;
       if (this._rand(4) === 0) { v = r; }
       else {
         do { v = s.lo + this._rand(s.hi - s.lo + 1); } while (v === r || v === s.lo || v === s.hi);
       }
-      var next = this.again(s, v);
+      var next = this.again(s, this._snap(v));
       if (next) this.st = next;
     },
 
@@ -484,6 +498,10 @@
       this._svg = svg;
       this._ground = document.createElementNS('http://www.w3.org/2000/svg', 'path');
       this._ground.setAttribute('class', 'rnh-ground');
+      /* ⚠ this was a DEAD STRING — authored in eleven locales and never
+         referenced, so the ground itself had no accessible name. */
+      svg.setAttribute('role', 'img');
+      this._svgEl = svg;
       svg.appendChild(this._ground);
       field.appendChild(svg);
 
@@ -513,10 +531,16 @@
       this._btn.again = this._mk(bar, 'rnh-b-again', '↻', 'again');
       this._btn.print = this._mk(bar, 'rnh-b-print', '⎙', 'printBtn');
 
-      this._btn.lb.addEventListener('click', function () { self._move(self.move(null, -self.bigStep()), 'low'); });
-      this._btn.l1.addEventListener('click', function () { self._move(self.move(null, -self.step()), 'low'); });
-      this._btn.r1.addEventListener('click', function () { self._move(self.move(null, self.step()), 'high'); });
-      this._btn.rb.addEventListener('click', function () { self._move(self.move(null, self.bigStep()), 'high'); });
+      /* ⚠ THE REASON IS COMPUTED, NOT ASSUMED. Passing 'low'/'high'
+         unconditionally announced an EDGE for every refusal, including
+         the commonest one — nudging a stone that has already settled —
+         so a resting 47 was told "the ground stops at 40". A refusal
+         must name what actually stopped it. */
+      var why = function (d) { return self.st.phase !== 'held' ? 'rest' : (d < 0 ? 'low' : 'high'); };
+      this._btn.lb.addEventListener('click', function () { self._move(self.move(null, -self.bigStep()), why(-1)); });
+      this._btn.l1.addEventListener('click', function () { self._move(self.move(null, -self.step()), why(-1)); });
+      this._btn.r1.addEventListener('click', function () { self._move(self.move(null, self.step()), why(1)); });
+      this._btn.rb.addEventListener('click', function () { self._move(self.move(null, self.bigStep()), why(1)); });
       this._btn.go.addEventListener('click', function () { self._release(); });
       this._btn.td.addEventListener('click', function () { self._tilt(-1); });
       this._btn.tu.addEventListener('click', function () { self._tilt(1); });
@@ -553,7 +577,7 @@
     _release: function () {
       var api = this.api;
       var next = this.release(null);
-      if (!next) { this._refuse('rest'); return; }
+      if (!next) { this._refuse(this.st.phase === 'teeter' ? 'teeter' : 'rest'); return; }
       this.st = next;
       this._paint(GEO.T_SETTLE);
       if (next.phase === 'teeter') {
@@ -595,7 +619,7 @@
       this._paint(GEO.T_TILT);
       this._snd(GEO.SND_TILT);
       api.announce(dir === 0
-        ? api.t('saidTiltClear')
+        ? api.t(this.onRidge(next, next.at) ? 'saidTiltClear' : 'saidTiltClearOff')
         : this._fmt(api.t('saidTiltSet'), { d: dir > 0 ? next.hi : next.lo }));
     },
 
@@ -615,6 +639,14 @@
       }
       if (why === 'low') { api.announce(this._fmt(api.t('saidEdge'), { n: s.lo })); return; }
       if (why === 'high') { api.announce(this._fmt(api.t('saidEdge'), { n: s.hi })); return; }
+      /* ⚠ letting go of a stone that is ALREADY teetering is the press a
+         child makes most, because the apparatus has visibly stopped — and
+         it was answered with "already at rest", the exact opposite of
+         what is on screen, at the one moment the tool is about. */
+      if (why === 'teeter') { api.announce(this._fmt(api.t('saidTeeter'), { n: s.at })); return; }
+      /* ⚠ and a no-op press on the ridge control is about the RIDGE, not
+         about the stone. */
+      if (why === 'tilt') { api.announce(api.t(s.tilt === 0 ? 'saidAlreadyLevel' : 'saidAlreadySet')); return; }
       api.announce(api.t('saidAlready'));
     },
 
@@ -647,7 +679,12 @@
       this._stone.style.transitionTimingFunction =
         (s.phase === 'settled' ? GEO.E_ROLL : 'cubic-bezier(.34,.06,.2,1)');
       this._stone.textContent = String(s.at);
-      this._stone.setAttribute('aria-label', this._fmt(api.t('ariaStone'), { n: s.at }));
+      /* ⚠ it announced s.at while the stone is DRAWN at s.rest — a 47
+         resting in the 50 dip said "at 47". The label now describes
+         where the thing actually is, which is what a label is for. */
+      this._stone.setAttribute('aria-label', this._fmt(
+        api.t(s.phase === 'settled' ? 'ariaStoneRest' : 'ariaStone'),
+        { n: s.at, d: s.rest }));
       this._stone.classList.toggle('is-teeter', s.phase === 'teeter');
       this._stone.classList.toggle('is-rest', s.phase === 'settled');
 
@@ -658,6 +695,7 @@
       this._ridgeEl.classList.toggle('is-set', s.tilt !== 0);
       this._ridgeEl.setAttribute('aria-label', api.t(s.tilt === 0 ? 'ariaRidge' : 'ariaTilt'));
 
+      if (this._svgEl) this._svgEl.setAttribute('aria-label', api.t('ariaGround'));
       this._marks[0].textContent = String(s.lo);
       this._marks[1].textContent = String(s.hi);
 

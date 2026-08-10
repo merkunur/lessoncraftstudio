@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Landing Strip — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #51 — THE LANDING STRIP. A bare strip with a wall at each end
+       and three posts on it: one at each end and one in the middle. A
+       number appears; the class says which post it is NEAREST to, and
+       only then puts it on the strip; the true place is shown. Then the
+       strip re-rules itself into the ten the number lives in — and the
+       same three posts are there again, at 70, 75 and 80. The question
+       recurs, which is what a child can check; the axis merely changing
+       is what a randomised trial found does not transfer. There is no
+       accuracy ghost: the trace records only WHICH POST was chosen,
+       because an accuracy gradient is banned by name in a sibling tool's
+       gate, in eleven locales. It loads NO ART and NO AUDIO beyond the
+       shell's own pop. -->
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/landing-strip.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(LandingStrip, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

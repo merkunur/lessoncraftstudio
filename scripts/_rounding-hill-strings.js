@@ -1,0 +1,525 @@
+/* =====================================================================
+   TOOL #52 — THE ROUNDING HILL — the ten non-English string sets
+   =====================================================================
+   Rebuilt per locale by a native panel, never translated. Same 32 keys,
+   same {n} / {d} placeholders in every set.
+
+   ⚠⚠ THE FENCE OVERTURNED THE DOCBLOCK'S OWN CLAIM. `rounding-hill.js`
+   declares "FREE, and used here: THE SLOPES · THE DIPS · THE RIDGE ·
+   THE STONE". Measured against the shipped lexicon, THE STONE IS TAKEN
+   IN TEN OF ELEVEN LANGUAGES:
+     - `unroll-tape.js` (#41) `shapePebble` — a RENDERED OBJECT named in
+       all 11: de Kieselstein · fr Galet · es "Piedra de río" ·
+       pt Pedrinha · it Sasso · nl Kiezelsteen · sv Småsten ·
+       da Rullesten · no Småstein · fi Pikkukivi.
+     - `ten-stones-*` — a live activity (en/de/fr/es) whose SUBJECT is a
+       number line you hop along, i.e. this tool's own domain. It owns
+       en "the golden Ten Stone", de Stein/Steine, es piedra/piedras.
+       (Its French escapes: it uses *nénuphar*, lily pads.)
+     - `choice-board-activity.js` glosses `rock` in all 11: der Stein,
+       une pierre, la piedra, il sasso, de steen, a pedra, stenen,
+       en sten, en stein, kivi.
+   So each locale below takes its OWN free heavy-thing noun. They are
+   unrelated words, not one word respelled ten times.
+
+   PART NOUNS — every one measured 0-hit unless noted.
+   loc  SLOPE        DIP            RIDGE          STONE           GROUND
+   de   Abhang       Mulde          Grat           Brocken         Gelände
+   fr   pente        cuvette        crête          caillou         terrain
+   es   ladera       hondonada      cresta         guijarro        terreno
+   pt   ladeira      cova           crista         seixo           terreno
+   it   pendio       conca          cresta         ciottolo        terreno
+   nl   helling      kuil           bult           kei             grond
+   sv   sluttning    grop           krön           stenbumling     mark
+   da   skråning     fordybning     højderyg       kampesten       terræn
+   no   skråning     grop           høyderygg      kampestein      terreng
+   fi   rinne        kuoppa         harjanne       lohkare         maasto
+
+   WHY NOT THE OBVIOUS WORD — the obvious one was taken nine times:
+   - de `Hang` matches a LIVE DUTCH IMPERATIVE (`nl:'Hang dit op...'`),
+     the cross-locale homograph class. → `Abhang`.
+   - de `Kamm` and nl/da `kam` are the shipped picture-word for a COMB
+     (pww-index-de/-da, blending-board-deck-nl, sound-boxes-bank-de).
+     nl `rug` is the picture-word for a BACK / the English word *rug*
+     (58 hits). → de `Grat`, nl `bult`, da/no `høyderyg(g)`.
+   - fr `creux` is used ELEVEN TIMES by the sibling tool `baking-tray`.
+     → `cuvette`. fr `côte` collides with the idiom "côte à côte" (30).
+   - es `cuesta` is the verb "it costs" all over `coin-stall`, `money-core`
+     and `money-mat` — unusable on a maths platform. → `ladera`.
+     es `roca` is the pww-index picture-word for rock. → `guijarro`.
+   - ⭐ sv `klippa` and da `klippe` mean TO CUT, and they are already in
+     shipped print copy ("att rita, klippa och lägga ovanpå" /
+     "at tegne, klippe og lægge oven på"). This tool's own sheet says
+     *cut along the outline* — the stone and the scissors would have been
+     the same word IN THE SAME STRING. → `stenbumling` / `kampesten`.
+   - ⭐ da/no `bakke`/`bakken` is the TRAY in `money-core` and
+     `fraction-kitchen` ("Fyld bakken"). → `skråning`, and NOT
+     "Afrundingsbakken" for the product name.
+   - ⭐ no `søkk` was rejected on its DEFINITE form: `søkket` is also the
+     definite of `søkke`, a fishing SINKER — a heavy thing that drops, in
+     a tool whose whole subject is a heavy thing that drops. → `grop`.
+     (This is the `bana`/`banan` check, and it fired.)
+   - fi `harja` is the pww-index picture-word for a BRUSH. → `harjanne`.
+     fi `kivi` is taken (Pikkukivi + letter-tiles-fi). → `lohkare`.
+   - nl `blok`, sv `block` are place-value blocks. `kula/kule` are the
+     rekenrek beads and `Murmel/bille` the forbidden marbles.
+
+   PRODUCT NAMES — the English name is the operator's and stays.
+   de Der Rundungshügel · fr La colline des arrondis ·
+   es La colina del redondeo · pt A colina do arredondamento ·
+   it La collina dell'arrotondamento · nl De afrondingsheuvel ·
+   sv Avrundningskullen · da Afrundingshøjen · no Avrundingskollen ·
+   fi Pyöristysmäki.
+   ⭐ `Avrundingshaugen` was REJECTED: `counting-cups` (#48) ships
+   `no:'En haug'` as the name of its spilled PILE. → `kolle`, a rounded
+   knoll, 0 hits. (`hög`/`dynge`/`kasa` are that tool's sv/da/fi words —
+   none is used here either.) The hill words that survived — Hügel,
+   colline, colina, collina, heuvel, kulle, høj, mäki — appear only as
+   story scenery ("eine Pizza den Hügel hinauf") or as phonics decoding
+   words, never as an apparatus part.
+
+   TENS / HUNDREDS are the platform's OWN shipped place-value lexicon
+   (place-value-core.js + the verify-script names), not invented:
+   Zehner/Hunderter · dizaines/centaines · decenas/centenas ·
+   dezenas/centenas · decine/centinaia · tientallen/honderdtallen ·
+   tiotal/hundratal · tiere/hundreder · tiere/hundrere · kymmenet/sadat.
+
+   PAID PLAN — read from `frontend/messages/<loc>.json` `planTag`, verbatim,
+   all ten verified: Lehrkraft-Abo · Abonnement Enseignant · Plan Docente ·
+   Plano Professor · Piano Insegnante · Leerkracht-abonnement ·
+   Lärarplanen · Lærerabonnementet · Lærerabonnementet · Opettajatilaus.
+
+   FOUR ENGLISH DEFECTS REPAIRED IN THESE SETS (the model was driven in
+   node to confirm each; the two that need CODE are reported, not papered
+   over):
+   1. `instruction` claimed a ridge stone never falls. Once the class has
+      set a tilt, `settleOf` resolves it immediately — so every set here
+      says "...until the class has settled which way the ridge leans".
+   2. `saidTiltClear` claimed "the stone will teeter". Clearing the tilt
+      re-teeters a stone ONLY if it is on the ridge; a settled 47 stays
+      settled. Every set here speaks about the stones to COME.
+   3. `saidAlready` ("The stone is already at rest") fires on THREE
+      refusals, including releasing a TEETERING stone — which is exactly
+      not at rest — and a no-op tilt press, which is not about the stone
+      at all. Every set here is worded to be true in all three.
+   4. `ariaStone` "the stone, at {n}" reads as a position, but {n} is the
+      stone's NUMBER and after settling the stone is DRAWN in the dip
+      while still reading 47. Every set here says "marked {n}".
+   Also: the ridge is drawn as a tent apex by `heightAt`, so "the ground
+   is level here" is not what the picture shows. These sets say "neither
+   side is lower", which is true of both the picture and the model.
+   ===================================================================== */
+'use strict';
+
+module.exports = {
+
+  de: {
+    title: 'Der Rundungshügel',
+    instruction: 'Setzt den Brocken auf das Gelände und lasst ihn los. Er rollt in die nächste Mulde – außer er kommt auf dem Grat zu liegen: dort ist keine Seite tiefer, und von allein rollt er nicht weiter. Dann entscheidet die Klasse, wohin der Grat sich neigt.',
+
+    ariaGround: 'Gelände mit je einer Mulde an beiden Enden und einem Grat in der Mitte.',
+    ariaStone: 'der Brocken mit der Zahl {n}',
+    ariaRidge: 'der Grat, genau in der Mitte zwischen den beiden Mulden',
+    ariaTilt: 'der Grat, geneigt so, wie die Klasse es festgelegt hat',
+
+    setSpan: 'Welches Gelände',
+    spanTens: 'zwischen zwei Zehnern',
+    spanHundreds: 'zwischen zwei Hundertern',
+
+    lessBig: 'Den Brocken weit nach links schieben',
+    lessOne: 'Den Brocken ein Stück nach links schieben',
+    moreOne: 'Den Brocken ein Stück nach rechts schieben',
+    moreBig: 'Den Brocken weit nach rechts schieben',
+    letGo: 'Loslassen',
+    tiltDown: 'Den Grat zur unteren Mulde neigen',
+    tiltUp: 'Den Grat zur oberen Mulde neigen',
+    clearTilt: 'Den Grat wieder gerade stellen',
+    again: 'Neuer Brocken',
+
+    saidSet: '{n}',
+    saidSettled: '{n} rollt in die Mulde {d}.',
+    saidTeeter: '{n} liegt auf dem Grat. Keine Seite ist tiefer, also rollt der Brocken von allein nicht weiter. Wohin soll die Klasse ihn neigen?',
+    saidTiltSet: 'Die Klasse hat den Grat in Richtung {d} geneigt. Ab jetzt rollt der Brocken jedes Mal dorthin, wenn er auf dem Grat landet.',
+    saidTiltClear: 'Der Grat steht wieder gerade. Ab jetzt wackelt jeder Brocken, der darauf landet, bis die Klasse sich entscheidet.',
+    saidAlready: 'Das ändert hier nichts. Legt einen neuen Brocken hin.',
+    saidEdge: 'Das Gelände endet bei {n}.',
+
+    gateTitle: 'Das Gelände aus Papier',
+    gateBody: 'Das ganze Gerät ist kostenlos – jeder Abhang, das Wackeln und das Neigen des Grats. Das Lehrkraft-Abo ergänzt das Gelände aus Papier zum Ausschneiden und Falten: Es steht auf dem Tisch, und ein Kind kann einen echten Brocken auf den Grat legen und sehen, dass er wirklich liegen bleibt.',
+    gateCta: 'Das Lehrkraft-Abo ansehen',
+    gateClose: 'Jetzt nicht',
+
+    printBtn: 'Gelände aus Papier drucken',
+    sheetTitle: 'Gelände aus Papier zum Ausschneiden und Falten',
+    sheetNote: 'Schneidet am Rand entlang und faltet an den gestrichelten Linien, damit das Gelände steht. Schreibt die beiden runden Zahlen in die Mulden. Legt einen echten Brocken irgendwo auf einen Abhang – er rollt in eine Mulde; legt ihn auf den Grat, bleibt er liegen. Genau darum geht es.'
+  },
+
+  fr: {
+    title: 'La colline des arrondis',
+    instruction: "Pose le caillou sur le terrain et lâche-le. Il descend dans la cuvette la plus proche – sauf s'il s'arrête sur la crête : là, aucun côté n'est plus bas et il ne tombe pas tout seul. C'est alors à la classe de décider de quel côté la crête penche.",
+
+    ariaGround: 'Terrain avec une cuvette à chaque bout et une crête au milieu.',
+    ariaStone: 'le caillou portant le nombre {n}',
+    ariaRidge: 'la crête, à mi-chemin entre les deux cuvettes',
+    ariaTilt: 'la crête, penchée du côté choisi par la classe',
+
+    setSpan: 'Quel terrain',
+    spanTens: 'entre deux dizaines',
+    spanHundreds: 'entre deux centaines',
+
+    lessBig: 'Déplacer le caillou loin vers la gauche',
+    lessOne: 'Déplacer le caillou un peu vers la gauche',
+    moreOne: 'Déplacer le caillou un peu vers la droite',
+    moreBig: 'Déplacer le caillou loin vers la droite',
+    letGo: 'Lâcher',
+    tiltDown: 'Faire pencher la crête vers la cuvette du bas',
+    tiltUp: 'Faire pencher la crête vers la cuvette du haut',
+    clearTilt: 'Remettre la crête droite',
+    again: 'Un autre caillou',
+
+    saidSet: '{n}',
+    saidSettled: '{n} descend dans la cuvette {d}.',
+    saidTeeter: "{n} est sur la crête. Aucun côté n'est plus bas, donc le caillou ne tombe pas tout seul. De quel côté la classe le fait-elle pencher ?",
+    saidTiltSet: "La classe a fait pencher la crête vers {d}. Désormais, le caillou ira de ce côté chaque fois qu'il s'arrêtera sur la crête.",
+    saidTiltClear: "La crête est de nouveau droite. Désormais, un caillou qui s'y arrête hésite jusqu'à ce que la classe décide.",
+    saidAlready: 'Cela ne change rien ici. Pose un nouveau caillou.',
+    saidEdge: "Le terrain s'arrête à {n}.",
+
+    gateTitle: 'Le terrain en papier',
+    gateBody: "Tout l'appareil est gratuit : chaque pente, l'hésitation et le réglage de la crête. L'Abonnement Enseignant ajoute le terrain en papier à découper et à plier, qui tient debout sur une table : un enfant peut poser un vrai caillou sur la crête et voir qu'il ne tombe vraiment pas.",
+    gateCta: "Découvrir l'Abonnement Enseignant",
+    gateClose: 'Pas maintenant',
+
+    printBtn: 'Imprimer le terrain en papier',
+    sheetTitle: 'Terrain en papier à découper et à plier',
+    sheetNote: "Découpe le contour et plie sur les pointillés pour que le terrain tienne debout. Écris les deux nombres ronds dans les cuvettes. Pose un vrai caillou n'importe où sur une pente : il descend dans une cuvette. Pose-le sur la crête : il reste. C'est tout l'intérêt."
+  },
+
+  es: {
+    title: 'La colina del redondeo',
+    instruction: 'Coloca el guijarro en el terreno y suéltalo. Baja rodando hasta la hondonada más cercana, salvo que quede sobre la cresta: allí ningún lado está más bajo y no cae solo. Entonces la clase decide hacia dónde se inclina la cresta.',
+
+    ariaGround: 'Terreno con una hondonada en cada extremo y una cresta en el medio.',
+    ariaStone: 'el guijarro con el número {n}',
+    ariaRidge: 'la cresta, a mitad de camino entre las dos hondonadas',
+    ariaTilt: 'la cresta, inclinada hacia donde la clase ha decidido',
+
+    setSpan: 'Qué terreno',
+    spanTens: 'entre dos decenas',
+    spanHundreds: 'entre dos centenas',
+
+    lessBig: 'Mover el guijarro mucho hacia la izquierda',
+    lessOne: 'Mover el guijarro un poco hacia la izquierda',
+    moreOne: 'Mover el guijarro un poco hacia la derecha',
+    moreBig: 'Mover el guijarro mucho hacia la derecha',
+    letGo: 'Soltar',
+    tiltDown: 'Inclinar la cresta hacia la hondonada de abajo',
+    tiltUp: 'Inclinar la cresta hacia la hondonada de arriba',
+    clearTilt: 'Dejar la cresta recta otra vez',
+    again: 'Otro guijarro',
+
+    saidSet: '{n}',
+    saidSettled: '{n} baja hasta la hondonada {d}.',
+    saidTeeter: '{n} está sobre la cresta. Ningún lado está más bajo, así que el guijarro no cae solo. ¿Hacia dónde lo inclina la clase?',
+    saidTiltSet: 'La clase ha inclinado la cresta hacia {d}. A partir de ahora el guijarro irá hacia ese lado siempre que quede sobre la cresta.',
+    saidTiltClear: 'La cresta vuelve a estar recta. A partir de ahora, un guijarro que quede sobre ella se balanceará hasta que la clase decida.',
+    saidAlready: 'Esto no cambia nada. Coloca un guijarro nuevo.',
+    saidEdge: 'El terreno termina en {n}.',
+
+    gateTitle: 'El terreno de papel',
+    gateBody: 'Todo el aparato es gratuito: cada ladera, el balanceo y la inclinación de la cresta. El Plan Docente añade el terreno de papel para recortar y plegar, que se sostiene sobre la mesa: un niño puede poner un guijarro de verdad sobre la cresta y ver que de verdad no cae.',
+    gateCta: 'Ver el Plan Docente',
+    gateClose: 'Ahora no',
+
+    printBtn: 'Imprimir el terreno de papel',
+    sheetTitle: 'Terreno de papel para recortar y plegar',
+    sheetNote: 'Recorta por el contorno y pliega por las líneas de puntos para que el terreno se sostenga. Escribe los dos números redondos en las hondonadas. Pon un guijarro de verdad en cualquier punto de una ladera y bajará a una hondonada; ponlo sobre la cresta y se quedará ahí, que es de lo que se trata.'
+  },
+
+  pt: {
+    title: 'A colina do arredondamento',
+    instruction: 'Apoie o seixo no terreno e solte. Ele desce até a cova mais próxima — a não ser que pare sobre a crista: ali nenhum lado está mais baixo e ele não cai sozinho. Aí a turma decide para que lado a crista se inclina.',
+
+    ariaGround: 'Terreno com uma cova em cada ponta e uma crista no meio.',
+    ariaStone: 'o seixo com o número {n}',
+    ariaRidge: 'a crista, na metade do caminho entre as duas covas',
+    ariaTilt: 'a crista, inclinada para o lado que a turma escolheu',
+
+    setSpan: 'Qual terreno',
+    spanTens: 'entre duas dezenas',
+    spanHundreds: 'entre duas centenas',
+
+    lessBig: 'Mover o seixo bem para a esquerda',
+    lessOne: 'Mover o seixo um pouco para a esquerda',
+    moreOne: 'Mover o seixo um pouco para a direita',
+    moreBig: 'Mover o seixo bem para a direita',
+    letGo: 'Soltar',
+    tiltDown: 'Inclinar a crista para a cova de baixo',
+    tiltUp: 'Inclinar a crista para a cova de cima',
+    clearTilt: 'Deixar a crista reta de novo',
+    again: 'Outro seixo',
+
+    saidSet: '{n}',
+    saidSettled: '{n} desce até a cova {d}.',
+    saidTeeter: '{n} está sobre a crista. Nenhum lado está mais baixo, então o seixo não cai sozinho. Para que lado a turma vai incliná-lo?',
+    saidTiltSet: 'A turma inclinou a crista para {d}. Daqui em diante o seixo vai para esse lado sempre que parar sobre a crista.',
+    saidTiltClear: 'A crista está reta de novo. Daqui em diante, um seixo que parar sobre ela fica balançando até a turma decidir.',
+    saidAlready: 'Isso não muda nada aqui. Apoie um seixo novo.',
+    saidEdge: 'O terreno termina em {n}.',
+
+    gateTitle: 'O terreno de papel',
+    gateBody: 'O aparelho inteiro é gratuito: cada ladeira, o balanço e a inclinação da crista. O Plano Professor acrescenta o terreno de papel para recortar e dobrar, que fica em pé na mesa: a criança pode colocar um seixo de verdade sobre a crista e ver que ele realmente não cai.',
+    gateCta: 'Conhecer o Plano Professor',
+    gateClose: 'Agora não',
+
+    printBtn: 'Imprimir o terreno de papel',
+    sheetTitle: 'Terreno de papel para recortar e dobrar',
+    sheetNote: 'Recorte pelo contorno e dobre nas linhas pontilhadas para o terreno ficar em pé. Escreva os dois números redondos nas covas. Coloque um seixo de verdade em qualquer ponto de uma ladeira e ele desce até uma cova; coloque sobre a crista e ele fica lá, que é justamente a questão.'
+  },
+
+  it: {
+    title: "La collina dell'arrotondamento",
+    instruction: 'Appoggia il ciottolo sul terreno e lascialo andare. Scende nella conca più vicina, a meno che non si fermi sulla cresta: lì nessun lato è più basso e non cade da solo. Allora è la classe a decidere da che parte pende la cresta.',
+
+    ariaGround: 'Terreno con una conca a ogni estremità e una cresta nel mezzo.',
+    ariaStone: 'il ciottolo con il numero {n}',
+    ariaRidge: 'la cresta, a metà strada tra le due conche',
+    ariaTilt: 'la cresta, inclinata dalla parte scelta dalla classe',
+
+    setSpan: 'Quale terreno',
+    spanTens: 'tra due decine',
+    spanHundreds: 'tra due centinaia',
+
+    lessBig: 'Sposta il ciottolo molto a sinistra',
+    lessOne: 'Sposta il ciottolo un poco a sinistra',
+    moreOne: 'Sposta il ciottolo un poco a destra',
+    moreBig: 'Sposta il ciottolo molto a destra',
+    letGo: 'Lascia andare',
+    tiltDown: 'Inclina la cresta verso la conca più bassa',
+    tiltUp: 'Inclina la cresta verso la conca più alta',
+    clearTilt: 'Rimetti la cresta dritta',
+    again: 'Un altro ciottolo',
+
+    saidSet: '{n}',
+    saidSettled: '{n} scende nella conca {d}.',
+    saidTeeter: '{n} è sulla cresta. Nessun lato è più basso, quindi il ciottolo non cade da solo. Da che parte lo fa pendere la classe?',
+    saidTiltSet: "La classe ha inclinato la cresta verso {d}. D'ora in poi il ciottolo andrà da quella parte ogni volta che si ferma sulla cresta.",
+    saidTiltClear: "La cresta è di nuovo dritta. D'ora in poi un ciottolo che si ferma lì oscilla finché la classe non decide.",
+    saidAlready: 'Questo non cambia nulla. Appoggia un nuovo ciottolo.',
+    saidEdge: 'Il terreno finisce a {n}.',
+
+    gateTitle: 'Il terreno di carta',
+    gateBody: "Tutto l'apparecchio è gratuito: ogni pendio, l'oscillazione e l'inclinazione della cresta. Il Piano Insegnante aggiunge il terreno di carta da ritagliare e piegare, che sta in piedi sul banco: un bambino può posare un ciottolo vero sulla cresta e vedere che davvero non cade.",
+    gateCta: 'Scopri il Piano Insegnante',
+    gateClose: 'Non ora',
+
+    printBtn: 'Stampa il terreno di carta',
+    sheetTitle: 'Terreno di carta da ritagliare e piegare',
+    sheetNote: 'Ritaglia lungo il contorno e piega sulle linee tratteggiate, così il terreno sta in piedi. Scrivi i due numeri tondi nelle conche. Posa un ciottolo vero in un punto qualsiasi di un pendio e scenderà in una conca; posalo sulla cresta e resterà lì, ed è tutto qui.'
+  },
+
+  nl: {
+    title: 'De afrondingsheuvel',
+    instruction: 'Zet de kei op de grond en laat los. Hij rolt naar de dichtstbijzijnde kuil — tenzij hij op de bult blijft liggen: daar is geen kant lager en hij valt niet vanzelf. Dan bepaalt de klas naar welke kant de bult helt.',
+
+    ariaGround: 'Grond met aan elk uiteinde een kuil en een bult in het midden.',
+    ariaStone: 'de kei met het getal {n}',
+    ariaRidge: 'de bult, precies tussen de twee kuilen in',
+    ariaTilt: 'de bult, gekanteld naar de kant die de klas gekozen heeft',
+
+    setSpan: 'Welke grond',
+    spanTens: 'tussen twee tientallen',
+    spanHundreds: 'tussen twee honderdtallen',
+
+    lessBig: 'De kei ver naar links schuiven',
+    lessOne: 'De kei een beetje naar links schuiven',
+    moreOne: 'De kei een beetje naar rechts schuiven',
+    moreBig: 'De kei ver naar rechts schuiven',
+    letGo: 'Loslaten',
+    tiltDown: 'De bult naar de onderste kuil laten hellen',
+    tiltUp: 'De bult naar de bovenste kuil laten hellen',
+    clearTilt: 'De bult weer recht zetten',
+    again: 'Nog een kei',
+
+    saidSet: '{n}',
+    saidSettled: '{n} rolt in kuil {d}.',
+    saidTeeter: '{n} ligt op de bult. Geen kant is lager, dus de kei valt niet vanzelf. Naar welke kant laat de klas hem hellen?',
+    saidTiltSet: 'De klas heeft de bult naar {d} laten hellen. Vanaf nu gaat de kei die kant op, elke keer dat hij op de bult belandt.',
+    saidTiltClear: 'De bult staat weer recht. Vanaf nu wiebelt een kei die erop belandt, tot de klas beslist.',
+    saidAlready: 'Dit verandert hier niets. Zet een nieuwe kei neer.',
+    saidEdge: 'De grond houdt op bij {n}.',
+
+    gateTitle: 'De papieren grond',
+    gateBody: 'Het hele apparaat is gratis: elke helling, het wiebelen en het instellen van de bult. Het Leerkracht-abonnement voegt de papieren grond toe om uit te knippen en te vouwen, zodat hij op tafel blijft staan en een kind een echte kei op de bult kan leggen en ziet dat hij er echt niet af valt.',
+    gateCta: 'Bekijk het Leerkracht-abonnement',
+    gateClose: 'Nu niet',
+
+    printBtn: 'Papieren grond afdrukken',
+    sheetTitle: 'Papieren grond om uit te knippen en te vouwen',
+    sheetNote: 'Knip langs de rand en vouw op de stippellijnen, zodat de grond blijft staan. Schrijf de twee ronde getallen in de kuilen. Leg een echte kei ergens op een helling: hij rolt naar een kuil. Leg hem op de bult: hij blijft liggen — en daar gaat het om.'
+  },
+
+  sv: {
+    title: 'Avrundningskullen',
+    instruction: 'Sätt ner stenbumlingen på marken och släpp. Den rullar ner i närmaste grop – om den inte hamnar på krönet: där är ingen sida lägre, och den rullar inte av sig själv. Då bestämmer klassen åt vilket håll krönet lutar.',
+
+    ariaGround: 'Mark med en grop i vardera änden och ett krön i mitten.',
+    ariaStone: 'stenbumlingen med talet {n}',
+    ariaRidge: 'krönet, mitt emellan de två groparna',
+    ariaTilt: 'krönet, lutat åt det håll klassen har bestämt',
+
+    setSpan: 'Vilken mark',
+    spanTens: 'mellan två tiotal',
+    spanHundreds: 'mellan två hundratal',
+
+    lessBig: 'Flytta stenbumlingen långt åt vänster',
+    lessOne: 'Flytta stenbumlingen lite åt vänster',
+    moreOne: 'Flytta stenbumlingen lite åt höger',
+    moreBig: 'Flytta stenbumlingen långt åt höger',
+    letGo: 'Släpp',
+    tiltDown: 'Luta krönet mot den lägre gropen',
+    tiltUp: 'Luta krönet mot den högre gropen',
+    clearTilt: 'Räta upp krönet igen',
+    again: 'En ny stenbumling',
+
+    saidSet: '{n}',
+    saidSettled: '{n} rullar ner i gropen {d}.',
+    saidTeeter: '{n} ligger på krönet. Ingen sida är lägre, så stenbumlingen rullar inte av sig själv. Åt vilket håll ska klassen luta den?',
+    saidTiltSet: 'Klassen har lutat krönet mot {d}. Från och med nu går stenbumlingen åt det hållet varje gång den hamnar på krönet.',
+    saidTiltClear: 'Krönet är rakt igen. Från och med nu vacklar en stenbumling som hamnar där tills klassen bestämmer.',
+    saidAlready: 'Det här ändrar ingenting. Sätt ner en ny stenbumling.',
+    saidEdge: 'Marken tar slut vid {n}.',
+
+    gateTitle: 'Marken i papper',
+    gateBody: 'Hela apparaten är gratis – varje sluttning, vacklandet och att luta krönet. Lärarplanen lägger till marken i papper att klippa ut och vika, så att den står på bordet och ett barn kan lägga en riktig stenbumling på krönet och se att den verkligen ligger kvar.',
+    gateCta: 'Läs om Lärarplanen',
+    gateClose: 'Inte nu',
+
+    printBtn: 'Skriv ut marken i papper',
+    sheetTitle: 'Mark i papper att klippa ut och vika',
+    sheetNote: 'Klipp längs kanten och vik på de streckade linjerna så att marken står upp. Skriv de två runda talen i groparna. Lägg en riktig stenbumling var som helst på en sluttning – den rullar ner i en grop. Lägg den på krönet – den ligger kvar, och det är hela poängen.'
+  },
+
+  da: {
+    title: 'Afrundingshøjen',
+    instruction: 'Sæt kampestenen på terrænet og slip. Den ruller ned i den nærmeste fordybning — medmindre den bliver liggende på højderyggen: dér er ingen side lavere, og den falder ikke af sig selv. Så bestemmer klassen, hvilken vej højderyggen hælder.',
+
+    ariaGround: 'Terræn med en fordybning i hver ende og en højderyg i midten.',
+    ariaStone: 'kampestenen med tallet {n}',
+    ariaRidge: 'højderyggen, midt mellem de to fordybninger',
+    ariaTilt: 'højderyggen, som hælder den vej klassen har bestemt',
+
+    setSpan: 'Hvilket terræn',
+    spanTens: 'mellem to tiere',
+    spanHundreds: 'mellem to hundreder',
+
+    lessBig: 'Flyt kampestenen langt til venstre',
+    lessOne: 'Flyt kampestenen lidt til venstre',
+    moreOne: 'Flyt kampestenen lidt til højre',
+    moreBig: 'Flyt kampestenen langt til højre',
+    letGo: 'Slip',
+    tiltDown: 'Hæld højderyggen mod den lavere fordybning',
+    tiltUp: 'Hæld højderyggen mod den højere fordybning',
+    clearTilt: 'Ret højderyggen op igen',
+    again: 'En ny kampesten',
+
+    saidSet: '{n}',
+    saidSettled: '{n} ruller ned i fordybningen {d}.',
+    saidTeeter: '{n} ligger på højderyggen. Ingen side er lavere, så kampestenen falder ikke af sig selv. Hvilken vej skal klassen hælde den?',
+    saidTiltSet: 'Klassen har hældt højderyggen mod {d}. Fra nu af går kampestenen den vej, hver gang den lander på højderyggen.',
+    saidTiltClear: 'Højderyggen er rank igen. Fra nu af vakler en kampesten, der lander på den, indtil klassen bestemmer.',
+    saidAlready: 'Det ændrer ikke noget her. Sæt en ny kampesten ned.',
+    saidEdge: 'Terrænet stopper ved {n}.',
+
+    gateTitle: 'Papirterrænet',
+    gateBody: 'Hele apparatet er gratis – hver skråning, vaklen og det at hælde højderyggen. Lærerabonnementet tilføjer papirterrænet til at klippe ud og folde, så det står på bordet, og et barn kan lægge en rigtig kampesten på højderyggen og se, at den virkelig bliver liggende.',
+    gateCta: 'Se Lærerabonnementet',
+    gateClose: 'Ikke nu',
+
+    printBtn: 'Udskriv papirterrænet',
+    sheetTitle: 'Papirterræn til at klippe ud og folde',
+    sheetNote: 'Klip langs kanten og fold på de stiplede linjer, så terrænet står op. Skriv de to runde tal i fordybningerne. Læg en rigtig kampesten et vilkårligt sted på en skråning – den ruller ned i en fordybning. Læg den på højderyggen – den bliver liggende, og det er hele pointen.'
+  },
+
+  no: {
+    title: 'Avrundingskollen',
+    instruction: 'Sett kampesteinen ned på terrenget og slipp. Den triller ned i den nærmeste gropa — med mindre den blir liggende på høyderyggen: der er ingen side lavere, og den faller ikke av seg selv. Da bestemmer klassen hvilken vei høyderyggen heller.',
+
+    ariaGround: 'Terreng med ei grop i hver ende og en høyderygg i midten.',
+    ariaStone: 'kampesteinen med tallet {n}',
+    ariaRidge: 'høyderyggen, midt mellom de to gropene',
+    ariaTilt: 'høyderyggen, som heller den veien klassen har bestemt',
+
+    setSpan: 'Hvilket terreng',
+    spanTens: 'mellom to tiere',
+    spanHundreds: 'mellom to hundrere',
+
+    lessBig: 'Flytt kampesteinen langt til venstre',
+    lessOne: 'Flytt kampesteinen litt til venstre',
+    moreOne: 'Flytt kampesteinen litt til høyre',
+    moreBig: 'Flytt kampesteinen langt til høyre',
+    letGo: 'Slipp',
+    tiltDown: 'Hell høyderyggen mot den lavere gropa',
+    tiltUp: 'Hell høyderyggen mot den høyere gropa',
+    clearTilt: 'Rett opp høyderyggen igjen',
+    again: 'En ny kampestein',
+
+    saidSet: '{n}',
+    saidSettled: '{n} triller ned i gropa {d}.',
+    saidTeeter: '{n} ligger på høyderyggen. Ingen side er lavere, så kampesteinen faller ikke av seg selv. Hvilken vei skal klassen helle den?',
+    saidTiltSet: 'Klassen har helt høyderyggen mot {d}. Fra nå av går kampesteinen den veien hver gang den havner på høyderyggen.',
+    saidTiltClear: 'Høyderyggen er rett igjen. Fra nå av vakler en kampestein som havner der, til klassen bestemmer.',
+    saidAlready: 'Dette endrer ingenting her. Sett ned en ny kampestein.',
+    saidEdge: 'Terrenget slutter ved {n}.',
+
+    gateTitle: 'Papirterrenget',
+    gateBody: 'Hele apparatet er gratis – hver skråning, vaklingen og det å helle høyderyggen. Lærerabonnementet legger til papirterrenget til å klippe ut og brette, så det står på pulten, og et barn kan legge en ekte kampestein på høyderyggen og se at den virkelig blir liggende.',
+    gateCta: 'Se Lærerabonnementet',
+    gateClose: 'Ikke nå',
+
+    printBtn: 'Skriv ut papirterrenget',
+    sheetTitle: 'Papirterreng til å klippe ut og brette',
+    sheetNote: 'Klipp langs kanten og brett på de stiplede linjene, så terrenget står. Skriv de to runde tallene i gropene. Legg en ekte kampestein hvor som helst i en skråning – den triller ned i ei grop. Legg den på høyderyggen – den blir liggende, og det er hele poenget.'
+  },
+
+  fi: {
+    title: 'Pyöristysmäki',
+    instruction: 'Aseta lohkare maastoon ja päästä irti. Se vierii lähimpään kuoppaan – paitsi jos se jää harjanteelle: siellä kumpikaan puoli ei ole alempana, eikä lohkare lähde itsestään liikkeelle. Silloin luokka päättää, kummalle puolelle harjanne kallistuu.',
+
+    ariaGround: 'Maasto, jonka kummassakin päässä on kuoppa ja keskellä harjanne.',
+    ariaStone: 'lohkare, jossa lukee {n}',
+    ariaRidge: 'harjanne, tasan kahden kuopan puolivälissä',
+    ariaTilt: 'harjanne, joka kallistuu luokan päättämään suuntaan',
+
+    setSpan: 'Mikä maasto',
+    spanTens: 'kahden kymmenen välissä',
+    spanHundreds: 'kahden sadan välissä',
+
+    lessBig: 'Siirrä lohkaretta paljon vasemmalle',
+    lessOne: 'Siirrä lohkaretta vähän vasemmalle',
+    moreOne: 'Siirrä lohkaretta vähän oikealle',
+    moreBig: 'Siirrä lohkaretta paljon oikealle',
+    letGo: 'Päästä irti',
+    tiltDown: 'Kallista harjanne alempaa kuoppaa kohti',
+    tiltUp: 'Kallista harjanne ylempää kuoppaa kohti',
+    clearTilt: 'Suorista harjanne taas tasaiseksi',
+    again: 'Uusi lohkare',
+
+    saidSet: '{n}',
+    saidSettled: '{n} vierii kuoppaan {d}.',
+    saidTeeter: '{n} on harjanteella. Kumpikaan puoli ei ole alempana, joten lohkare ei lähde itsestään liikkeelle. Kummalle puolelle luokka sen kallistaa?',
+    saidTiltSet: 'Luokka on kallistanut harjanteen lukua {d} kohti. Tästä lähtien lohkare menee aina sinne, kun se jää harjanteelle.',
+    saidTiltClear: 'Harjanne on taas tasainen. Tästä lähtien harjanteelle jäävä lohkare huojuu, kunnes luokka päättää suunnan.',
+    saidAlready: 'Tämä ei muuta tässä mitään. Aseta uusi lohkare maastoon.',
+    saidEdge: 'Maasto loppuu lukuun {n}.',
+
+    gateTitle: 'Paperinen maasto',
+    gateBody: 'Koko laite on ilmainen – jokainen rinne, huojunta ja harjanteen kallistaminen. Opettajatilaus lisää paperisen maaston, jonka voi leikata ja taittaa pystyyn pöydälle: lapsi voi asettaa oikean lohkareen harjanteelle ja nähdä, ettei se todellakaan lähde liikkeelle.',
+    gateCta: 'Tutustu Opettajatilaukseen',
+    gateClose: 'Ei nyt',
+
+    printBtn: 'Tulosta paperinen maasto',
+    sheetTitle: 'Paperinen maasto leikattavaksi ja taitettavaksi',
+    sheetNote: 'Leikkaa ääriviivaa pitkin ja taita katkoviivoista, niin maasto seisoo pystyssä. Kirjoita kuoppiin kaksi tasalukua. Aseta oikea lohkare mihin tahansa kohtaan rinnettä – se vierii kuoppaan. Aseta se harjanteelle – se jää siihen, ja siinä on koko juju.'
+  }
+};

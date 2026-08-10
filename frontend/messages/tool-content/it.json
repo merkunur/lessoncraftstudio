@@ -1273,6 +1273,29 @@
     "metaTitle": "La teglia dei panini — spezzare una tabellina difficile",
     "metaDescription": "Una teglia di panini per la LIM: 7 righe da 6 si spezza in 5 righe da 6 e 2 righe da 6, due tabelline che la classe sa già. Senza timer né punteggio, gratuita."
   },
+  "counting-cups": {
+    "slug": "secchielli-da-dieci-valore-posizionale",
+    "name": "I secchielli da dieci",
+    "tagline": "Troppi gettoni per contarli a uno a uno: si raccolgono dieci alla volta, e il numero non si sbilancia finché si può ancora fare un secchiello.",
+    "about": [
+      "Una tovaglia coperta di gettoni: a volte una manciata, a volte una montagna. Contarli a uno a uno è proprio la strada che non vogliamo, ed è per questo che ce ne sono così tanti. Il bambino appoggia il dito dove vuole e si porta via quello che c’era sotto: mai un numero deciso dallo strumento. Quando nel secchiello arriva il decimo gettone, il secchiello si chiude da solo.",
+      "Il numero in alto ha tre posti e non se ne inventa nessuno. Le cifre compaiono via via che i secchielli si chiudono, ma il posto delle unità resta con il punto interrogativo finché sulla tovaglia c’è ancora abbastanza per fare un altro secchiello: solo quando quel dieci non è più possibile le tre cifre si posano tutte insieme.",
+      "I due tasti aggiungono e tolgono un gettone alla volta. Togliere quando la tovaglia è vuota apre un secchiello chiuso e ne rovescia fuori i dieci: il prestito non viene spiegato, viene fatto vedere. Nessun punteggio, nessun tempo, nessun «bravo»."
+    ],
+    "howToUse": [
+      "Proiettate la tovaglia già piena e chiedete solo: sono tanti o pochi? Fate scommettere la classe ad alta voce prima di toccare qualsiasi cosa.",
+      "Chiamate un bambino alla LIM e lasciategli scegliere il punto. Chiedete alla classe di guardare il secchiello, non la tovaglia: quanti posti restano ancora liberi?",
+      "Quando il primo secchiello si chiude, fermatevi. Chiedete perché si è chiuso da solo e chi ha deciso di fermarsi a dieci.",
+      "Alla fine leggete insieme il numero: centinaia, decine, unità. Poi togliete un gettone dalla tovaglia vuota e lasciate che vedano un secchiello aprirsi da solo."
+    ],
+    "classroomIdeas": [
+      "Fate due prese diverse sulla stessa tovaglia in due giorni diversi e fate notare che il numero finale è identico. Quanti gettoni si prendono per volta non cambia quanti sono.",
+      "Coprite il numero in alto con un foglio e chiedete la stima quando i secchielli sono già in fila ma la tovaglia non è ancora finita. Poi scoprite.",
+      "Fermatevi sulla torre. Dieci secchielli spariscono e ne resta uno solo: chiedete quanti gettoni sono e non accontentatevi di «cento», fatevi dire perché."
+    ],
+    "metaTitle": "I secchielli da dieci — valore posizionale in prima",
+    "metaDescription": "Troppi gettoni per contarli a uno a uno: la classe li raccoglie dieci alla volta e il numero si scrive da sé. Per la LIM, senza timer né punteggio."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -1273,6 +1273,29 @@
     "metaTitle": "La plaque de brioches : casser une table difficile en deux",
     "metaDescription": "Outil gratuit pour la classe : la plaque de brioches casse 7 rangées de 6 en 5 rangées de 6 et 2 rangées de 6. Aucun total affiché. CE1-CE2, sans compte."
   },
+  "counting-cups": {
+    "slug": "groupement-par-dix-cp",
+    "name": "Les barquettes de dix",
+    "tagline": "Bien trop de jetons pour les compter un à un : on en ramasse une pleine main, la barquette se ferme toute seule au dixième — et l'écran refuse d'annoncer le total tant qu'une dizaine peut encore se faire.",
+    "about": [
+      "Sur la nappe, des jetons renversés en vrac : bien trop pour être comptés un à un, et c'est précisément le problème. Appuyez à un endroit de la nappe : ce qui se trouve sous le doigt part dans la barquette posée sur le côté. Personne ne sait à l'avance combien de jetons partent — ni vous, ni la classe. Au dixième, la barquette se ferme d'elle-même : la dizaine n'a pas été décrétée, elle s'est faite.",
+      "Au-dessus de la nappe, trois cases attendent, et elles refusent de deviner. Tant qu'il reste de quoi faire une dizaine de plus, l'écran ne dit rien du total. Il n'annonce que lorsqu'il ne peut plus rien se passer. C'est ce silence qui fait parler la classe : combien y en a-t-il, à votre avis ?",
+      "Deux boutons ajoutent ou enlèvent un seul jeton. Enlever un jeton quand la nappe est vide oblige une barquette fermée à s'ouvrir : le cassage de la dizaine se voit avant d'être une technique écrite. Rien n'est noté juste ou faux, il n'y a ni score, ni chronomètre, ni correction."
+    ],
+    "howToUse": [
+      "Choisissez ce qu'il y a sur la nappe — une pleine main, un tas, un déluge — puis projetez sans rien annoncer, et laissez la classe constater qu'on ne peut pas compter cela un à un.",
+      "Faites désigner un endroit de la nappe par un élève, appuyez, et regardez ensemble ce qui part dans la barquette.",
+      "Au dixième jeton, laissez la barquette se fermer toute seule et faites dire la phrase à voix haute : dix jetons font une dizaine.",
+      "Quand l'écran finit par annoncer les centaines, les dizaines et les unités, faites relire l'ensemble en montrant les piles, les barquettes et les jetons restés sur la nappe."
+    ],
+    "classroomIdeas": [
+      "Le pari du ramassage : avant chaque appui, la classe annonce si la barquette va se fermer ce coup-ci ou non. On appuie, on regarde, on ne corrige personne.",
+      "Deux chemins, un même nombre : refaites la même nappe deux fois, une fois en ramassant au hasard, une fois en visant les endroits les plus fournis. Le nombre final est le même, le nombre d'appuis ne l'est pas.",
+      "Le cassage avant la technique : mettez toutes les barquettes en place, puis n'enlevez que des jetons un par un. Au moment où une barquette s'ouvre, arrêtez-vous."
+    ],
+    "metaTitle": "Grouper par dix au CP — les barquettes de dix",
+    "metaDescription": "Trop de jetons pour les compter un à un : on ramasse, la barquette se ferme au dixième, et l'écran n'annonce rien tant qu'une dizaine peut se faire."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

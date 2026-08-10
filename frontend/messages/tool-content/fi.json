@@ -1252,6 +1252,29 @@
     "metaTitle": "Pullapelti — vaikea kertotaulu helpoista | Ilmainen",
     "metaDescription": "Ilmainen kertolaskutyökalu taululle: pellillinen pullia riveissä, jonka luokka katkaisee saumasta. 7 · 6 hajoaa apulaskuiksi 5 · 6 ja 2 · 6. Ei kirjautumista."
   },
+  "counting-cups": {
+    "slug": "kymmenjarjestelma-paikka-arvo-kymppirasiat-alkuopetus",
+    "name": "Kymppirasiat",
+    "tagline": "Liian iso kasa laskettavaksi — kauho se rasioihin, ja kymmenet syntyvät itsestään.",
+    "about": [
+      "Pöydälle kaadetaan nappuloita niin paljon, ettei niitä voi laskea yksi kerrallaan — juuri se on koko idea. Lapsi painaa pöytää mistä kohtaa haluaa, kauha nostaa sen, mitä sormen alla sattuu olemaan, eikä koskaan valmiiksi kymmentä. Rasia laskee itse ja napsahtaa kiinni kymmenennen nappulan kohdalla, joten kymmenen ei ole ohje vaan tapahtuma.",
+      "Näyttö on kolme paikkaa: sadat, kymmenet ja ykköset. Se kieltäytyy arvaamasta. Ykkösten paikalla lukee \"ei vielä tietoa\" niin kauan kuin pöydältä voisi vielä syntyä yksi kymmenen — ja sillä hetkellä, kun ei voisi, kaikki kolme asettuvat yhtä aikaa.",
+      "Kun kymmenen rasiaa on hyllyssä, ne asettuvat sisäkkäin yhdeksi torniksi, ja torni on sata. Vähennysnappi tekee saman toisin päin: tyhjältä pöydältä ei voi ottaa mitään, joten rasia avataan ja sen kymmenen nappulaa palaavat pöydälle."
+    ],
+    "howToUse": [
+      "Heijasta Kymppirasiat taululle ja valitse, kuinka paljon pöydälle kaadetaan: kourallinen, kasa vai valtava kasa. Kysykää ensin ääneen, voisiko tämän laskea yksitellen.",
+      "Anna lapsen painaa pöytää itse valitsemastaan kohdasta. Katsokaa yhdessä, montako nappulaa kauha sattui nostamaan — se on eri luku joka kerta.",
+      "Pysähtykää sillä hetkellä, kun rasia napsahtaa kiinni, ja lukekaa näyttö ääneen. Kysy, miksi ykkösten paikka on yhä tyhjä, vaikka pöydällä on nappuloita.",
+      "Kauhokaa loppuun asti ja katsokaa, kuinka kaikki kolme paikkaa asettuvat samalla hetkellä. Painakaa lopuksi vähennysnappia tyhjällä pöydällä."
+    ],
+    "classroomIdeas": [
+      "Arvaus ennen kauhomista: kaada valtava kasa ja pyydä luokkaa arvaamaan, montako rasiaa siitä tulee. Kirjatkaa arviot taululle ennen ensimmäistä painallusta.",
+      "Miksi näyttö vaikenee? Pysäyttäkää työ silloin, kun ykkösten paikalla lukee \"ei vielä tietoa\", ja pyytäkää perusteluja.",
+      "Sama määrä, eri reitti: antakaa kahden lapsen kauhoa sama kasa aivan eri kohdista ja eri suuruisina nostoina. Verratkaa lopputuloksia."
+    ],
+    "metaTitle": "Kymppirasiat – kymmenet ja sadat näkyviksi | Ilmainen",
+    "metaDescription": "Maksuton väline koko luokalle: kauho liian iso kasa rasioihin, jotka sulkeutuvat itsestään kymmenen kohdalla. Näyttö ei arvaa lukua ennen aikojaan."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

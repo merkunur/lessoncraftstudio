@@ -1280,6 +1280,29 @@
     "metaTitle": "The Baking Tray — Breaking a Hard Times Table Fact in Two",
     "metaDescription": "A free whole-class tray of buns for multiplication: break seven rows of six into five rows and two rows, two facts the class already knows. No total, no timer, no score. Ages 7-9."
   },
+  "counting-cups": {
+    "slug": "counting-cups-grouping-tens-place-value",
+    "name": "The Counting Cups",
+    "tagline": "Too many to be worth counting one at a time — so the class scoops them ten at a time, and the number builds itself.",
+    "about": [
+      "Chips lie scattered across a mat, deliberately far too many to count one by one. Press the mat anywhere and a round scoop lifts whatever happens to be under your finger — never an agreed number — into a cup at the edge. A cup holds ten and shuts itself the moment the tenth chip lands, so nobody has to decide when a ten is a ten.",
+      "The readout above the mat has three places and refuses to guess. Digits appear as cups close, but the ones place stays a question mark for as long as another ten could still be made — and the instant it cannot, all three settle together. The number arrives because the material stopped changing, not because a machine knew it.",
+      "Ten closed cups nest into one stack, and that stack is a hundred. Two buttons add or take away a single chip, and taking one from a bare mat breaks a closed cup open — the borrow, done with hands long before it is a written rule. No score, no timer, nothing marked right or wrong: the child chooses where to scoop and the tool never corrects them."
+    ],
+    "howToUse": [
+      "Choose the size of the heap and project it before anyone touches the board. Ask how many there are, and let the question stand — nobody in the room knows, including you.",
+      "Let a child press wherever they like. The scoop takes what is there, so the haul is different every time, and where to aim is the whole decision.",
+      "Stop the first time a cup shuts itself and ask why it stopped at ten. Then look at the readout: why is the ones place still a question mark?",
+      "Work until the mat cannot give another ten and the three digits settle together. Only then read the number aloud, pointing at the cups it came from."
+    ],
+    "classroomIdeas": [
+      "Guess first: everyone writes a guess before the first press, and the guesses come out only once the digits have settled. Nobody wins — the point is who thought in tens.",
+      "Two children, one heap: one takes big scoops from the thick middle, the other small ones from the edge. Different number of presses, same number at the end.",
+      "Empty the mat, then press take-one-away and watch a closed cup break open. Ask what just happened before anyone is allowed to say the word \"borrow\"."
+    ],
+    "metaTitle": "The Counting Cups — grouping in tens, K to Grade 2",
+    "metaDescription": "Free whiteboard tool: far too many chips to count one at a time, so the class scoops them into cups of ten and the number builds itself."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

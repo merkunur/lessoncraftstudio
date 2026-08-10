@@ -1272,6 +1272,29 @@
     "metaTitle": "La bandeja de panecillos — las tablas difíciles, en dos trozos",
     "metaDescription": "Una bandeja de panecillos pegados para las tablas: separa 7 filas de 6 en 5 filas de 6 y 2 filas de 6. Sin total, sin cronómetro y sin nota. Gratis, 2.º y 3.º."
   },
+  "counting-cups": {
+    "slug": "botes-de-diez-agrupar-decenas-valor-posicional",
+    "name": "Los botes de diez",
+    "tagline": "Un montón de fichas imposible de contar una a una: la clase las recoge de diez en diez, cada bote se cierra solo al llegar a diez y el visor se niega a adivinar.",
+    "about": [
+      "Sobre la mesa caen muchas fichas: demasiadas para contarlas una a una, que es justo el problema. Al tocar la mesa aparece una boca redonda que recoge lo que haya debajo — nunca una cantidad fija — y lo lleva a un bote. En cada bote caben diez, y el bote se cierra solo en cuanto entra la décima ficha.",
+      "Los botes cerrados se quedan en el estante, y diez botes se encajan en una torre que vale cien. Encima de la mesa hay un visor de tres casillas que no adivina: mientras todavía pueda formarse otro diez, las unidades siguen siendo un interrogante. Cuando ya no cabe otro diez, las tres cifras se colocan a la vez.",
+      "Dos botones ponen o quitan una sola ficha. Quitar una cuando la mesa está pelada obliga a abrir un bote cerrado: sus diez fichas vuelven a la mesa y de ahí se retira una. No hay puntuación, ni cronómetro, ni respuestas buenas o malas."
+    ],
+    "howToUse": [
+      "Elige cuántas fichas caen sobre la mesa y proyéctalas para toda la clase. Antes de tocar nada, pregunta cuántas parecen: nadie lo sabe, y ése es el punto de partida.",
+      "Un alumno toca la mesa y recoge lo que haya bajo el dedo. Al llegar a diez, el bote se cierra solo: parad ahí la primera vez.",
+      "Mirad el visor mientras trabajáis: las unidades siguen con interrogante mientras aún quepa otro diez. Preguntad por qué el instrumento no se atreve a decir el número todavía.",
+      "Cuando la mesa quede vacía, leed las tres cifras juntos. Después, con los botones, quitad una ficha y ved abrirse un bote cerrado."
+    ],
+    "classroomIdeas": [
+      "Recogida a ciegas: antes de empezar, cada niño escribe en su pizarra cuántas fichas cree que hay. Al final se comparan las estimaciones con las tres cifras.",
+      "El mismo montón, dos caminos: dos alumnos recogen la misma cantidad tocando sitios distintos de la mesa. Salen los mismos botes y la misma cifra.",
+      "La torre del jueves: dejad el instrumento con una cantidad grande y recoged un poco cada día hasta armar la torre de cien."
+    ],
+    "metaTitle": "Los botes de diez — agrupar de diez en diez | Primaria",
+    "metaDescription": "Instrumento gratuito para la pizarra digital: la clase recoge fichas de diez en diez, cada bote se cierra al llegar a diez y diez botes hacen cien."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Counting Cups — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #48 — THE COUNTING CUPS. A spill far too big to count in
+       ones. Press the mat and a scoop lifts WHAT IS UNDER ITS MOUTH —
+       never a fixed ten — into a cup, and the cup closes itself at ten.
+       Ten cups nest into one stack, and that stack is a hundred. The
+       readout refuses to guess: it shows only what the child has MADE,
+       and every digit settles the instant no further ten can be made.
+       It loads NO ART and NO AUDIO beyond the shell's own pop, so
+       nothing here can 404 into silence or a blank frame. -->
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/counting-cups.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(CountingCups, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -122,6 +122,20 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #48 SHOWS THE MECHANISM, NOT THE SPILL. A card of 199 undisturbed
+     chips renders at ~7px each on the 480x360 gallery tile — stipple,
+     and indistinguishable from the Estimation Jar's own card, which is
+     the one outcome fatal to this tool. So the frame carries four
+     claims at once: too many (the mat), a container that holds exactly
+     ten (the open cup part-filled), a place they go (closed cups on the
+     shelf), and a display that will not guess (the ones still `?`). */
+  'counting-cups': [
+    { sel: '.ccp-pad-mat', nth: 4, wait: 1400 },
+    { sel: '.ccp-pad-mat', nth: 0, wait: 1400 },
+    { sel: '.ccp-pad-mat', nth: 8, wait: 1400 },
+    { sel: '.ccp-pad-mat', nth: 2, wait: 1400 },
+    { sel: '.ccp-pad-mat', nth: 6, wait: 1400 }
+  ],
   /* ⭐ THE TRAY AT REST IS A QUESTION NOBODY HAS ANSWERED. The card has
      to show the ARGUMENT: 7 x 6 broken at the fifth line into 5 x 6 and
      2 x 6, with the 7 SPLIT into a 5 and a 2 on the left rail and the 6
@@ -516,6 +530,11 @@ const SEEDS = {
 
 /* per-tool viewport override; every tool without an entry keeps 720x640 */
 const VIEWPORT = {
+  /* ⚠ #48: at the DEFAULT width the stage measures ~720x600, aspect
+     0.833 — only twelve pixels under the 0.85 line where --fit=auto
+     TOP-CROPS and still reports "ok". Twelve pixels is not margin.
+     760 wide puts the stage at ~0.789 with 46px of headroom. */
+  'counting-cups': { width: 760, height: 640 },
   /* a month grid plus the readouts row is tall; at the default width the
      card goes past the 0.85 aspect where --fit=auto TOP-CROPS, which is
      how the previous card lost its bottom row. Wider keeps it under. */

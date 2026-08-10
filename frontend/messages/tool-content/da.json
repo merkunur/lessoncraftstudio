@@ -1274,6 +1274,29 @@
     "metaTitle": "Bagepladen — svære gangestykker på tavlen | gratis værktøj",
     "metaDescription": "En plade boller bagt sammen på tavlen: klassen knækker den ét sted, siger begge stykker højt og finder 7 · 6 i 5 · 6 og 2 · 6. Antallet ændrer sig aldrig."
   },
+  "counting-cups": {
+    "slug": "taelleaeskerne",
+    "name": "Tælleæskerne",
+    "tagline": "Alt for mange til at tælle ét ad gangen — så øs dem op ti ad gangen.",
+    "about": [
+      "På bordet ligger der langt flere brikker, end nogen kan tælle ét ad gangen. Tryk på bordet, og der åbner sig en mund, som løfter præcis det, der lå under fingeren — aldrig et fast antal — op i en æske ved kanten. Æsken rummer ti, og den lukker sig selv i samme øjeblik den tiende brik lander. Ti lukkede æsker sætter sig sammen til ét tårn, og tårnet er hundrede.",
+      "Aflæsningen står med tre tomme pladser og nægter at gætte. Cifrene dukker op, efterhånden som æskerne lukker, og enerpladsen bliver ved med at være tom, så længe der kan blive én tier mere — først når det ikke længere kan lade sig gøre, falder alle tre på plads på én gang.",
+      "Netop på dansk er det arbejdet værd. I fireogtredive siges 4-tallet først, selvom det står sidst — her bygges tierne først og enerne til sidst, tro mod det, hænderne gør. Der er ingen point, intet stopur og intet rigtigt eller forkert."
+    ],
+    "howToUse": [
+      "Vælg, hvor meget der skal ligge på bordet, og vis det på den interaktive tavle, før nogen trykker — spørg klassen, om det overhovedet kan tælles ét ad gangen.",
+      "Lad et barn trykke rundt på bordet. Hver gang æsken bliver fuld, lukker den sig selv, og en ny åbner.",
+      "Kig på aflæsningen undervejs: hvorfor står enerpladsen stadig tom? Spørgsmålet er hele lektionen.",
+      "Brug de to knapper til at lægge én brik til eller tage én væk. Når der ikke er flere løse brikker, må en lukket æske brydes op."
+    ],
+    "classroomIdeas": [
+      "Gæt først: lad klassen skrive et bud, før der øses. Sammenlign til sidst — buddet er tænkning, ikke et facit.",
+      "Den tavse omgang: øs hele bordet op uden at sige et ord, og lad børnene bagefter forklare, hvorfor de tre cifre først faldt på plads til allersidst.",
+      "Bryd en æske op med vilje: tag brikker væk, til en lukket æske må åbnes, og lad børnene sætte ord på, hvad der lige skete."
+    ],
+    "metaTitle": "Tælleæskerne – tiere og enere, 1.-3. klasse",
+    "metaDescription": "Gratis værktøj til klassen: alt for mange brikker til at tælle ét ad gangen. Øs dem op ti ad gangen i æsker, og se tallet vokse frem. Til 1.-3. klasse."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

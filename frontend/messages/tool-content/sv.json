@@ -1274,6 +1274,29 @@
     "metaTitle": "Bullplåten – bryt isär en plåt bullar, multiplikation åk 2-3",
     "metaDescription": "Gratis verktyg för hela klassen: en plåt bullar som sitter ihop. Bryt isär 7 rader i 5 och 2, skjut ihop igen — lika många bullar hela tiden. Åk 2-3, Lgr22."
   },
+  "counting-cups": {
+    "slug": "bunta-i-tiotal-rakna-stora-antal-lagstadiet",
+    "name": "Tioaskarna",
+    "tagline": "Fler brickor än någon orkar räkna en och en. Klassen skopar upp dem tio i taget, askarna stänger sig själva, och rutorna säger ingenting förrän ingen tia till går att göra.",
+    "about": [
+      "Brickorna ligger utspridda över bordet, alldeles för många för att räknas en och en. Klassen trycker där den vill, skopan tar upp det som råkar ligga just där, och när den tionde brickan landar stänger asken sig själv.",
+      "Tio stängda askar blir ett torn, och tornet är hundra. Nere vid kanten står tre rutor som vägrar gissa: entalet står kvar som ett frågetecken så länge ytterligare en tia kan bildas, och först när den inte kan det faller alla tre på plats samtidigt.",
+      "Det är positionssystemet sett bakifrån — talet växer fram ur bordet i stället för att skrivas upp på tavlan, och läraren behöver aldrig säga om det blev rätt."
+    ],
+    "howToUse": [
+      "Välj hur stor högen ska vara — en handfull, en hög eller ett helt berg — och låt klassen säga vad de tror innan någon börjar.",
+      "Låt barnen turas om att trycka på bordet. Skopan tar det som ligger just där, varken mer eller mindre, och asken stänger sig själv vid tio.",
+      "Stanna vid rutorna och fråga varför entalet fortfarande är ett frågetecken. Svaret är att det ligger brickor kvar som skulle kunna bli en tia till.",
+      "Ta bort en bricka när bordet är tomt och låt klassen se en stängd ask öppna sig igen. Där ser de vad det innebär att låna."
+    ],
+    "classroomIdeas": [
+      "Gissa först: varje barn skriver sin gissning på en lapp innan första trycket, och lapparna plockas fram när rutorna har fallit på plats.",
+      "Två barn, samma hög: den ena skopar med små tryck i kanten, den andra med stora tryck mitt i. Det tar olika många tryck och blir lika många askar.",
+      "Stanna vid frågetecknet. Låt klassen argumentera för vad entalet kommer att bli innan sista tian görs klar, skriv förslagen på tavlan och jämför sedan."
+    ],
+    "metaTitle": "Tioaskarna – bunta i tiotal och ental, åk 1–2",
+    "metaDescription": "Brickorna är för många för att räknas en och en. Klassen skopar upp tio i taget, askarna stänger sig själva och rutorna gissar aldrig. Åk 1–2 i Lgr22."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

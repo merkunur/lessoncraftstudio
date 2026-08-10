@@ -1273,6 +1273,29 @@
     "metaTitle": "A assadeira de pãezinhos — tabuada difícil, anos iniciais",
     "metaDescription": "Quebre 7 fileiras de 6 em 5 e 2 fileiras de 6: a tabuada difícil sai de duas que a turma já sabe. Ferramenta gratuita para a lousa digital, anos iniciais."
   },
+  "counting-cups": {
+    "slug": "potinhos-de-dez-agrupamento-e-valor-posicional",
+    "name": "Os potinhos de dez",
+    "tagline": "Fichas demais para contar uma a uma: a concha recolhe um pouco de cada vez, o potinho fecha sozinho no décimo — e o visor se recusa a dizer o total.",
+    "about": [
+      "Na tela há um tabuleiro com fichas espalhadas — muitas, de propósito. Aperte o tabuleiro onde quiser e uma concha redonda se abre embaixo do dedo, levando para o potinho o que estiver ali: nunca uma quantidade combinada, sempre o que der. O potinho guarda dez e fecha sozinho quando a décima ficha entra.",
+      "O que faz esta ferramenta é o visor de três casas, que começa com três interrogações e se recusa a chutar. As casas vão aparecendo conforme os potinhos fecham, mas a casa das unidades continua interrogada enquanto ainda for possível fazer mais uma dezena — e as três só se acomodam juntas no instante em que não dá mais.",
+      "Dois botões colocam ou tiram uma ficha só. Tirar uma ficha de um tabuleiro vazio abre um potinho fechado: é a troca do empréstimo acontecendo por necessidade, e não porque alguém mandou. Não há pontuação, não há cronômetro e nada é marcado como certo ou errado."
+    ],
+    "howToUse": [
+      "Escolha quanto derramar no tabuleiro e projete antes de a turma entrar. Pergunte quantas fichas há — e deixe os palpites no ar, sem confirmar nenhum.",
+      "Chame uma criança para apertar o tabuleiro onde ela quiser. Repita com outras crianças e não interfira na escolha do lugar.",
+      "Quando um potinho fechar, aponte o visor: uma casa apareceu e a das unidades continua interrogada. Pergunte por que o visor ainda não sabe.",
+      "Recolha até não dar mais para fazer uma dezena e deixe as três casas se acomodarem juntas. Só então escreva o número no quadro."
+    ],
+    "classroomIdeas": [
+      "Rode a mesma quantidade duas vezes, recolhendo em ordens diferentes do tabuleiro, e deixe as duas rodadas no quadro. O caminho muda, o número final não.",
+      "Pare com o tabuleiro quase vazio e pergunte se já dá para dizer o total. Enquanto sobrar ficha suficiente para mais uma dezena, a resposta honesta é a mesma do visor.",
+      "Tire uma ficha de um tabuleiro vazio, na frente de todos, e deixe um potinho se abrir sozinho. Pergunte por que foi preciso abrir."
+    ],
+    "metaTitle": "Agrupamento e valor posicional: os potinhos de dez",
+    "metaDescription": "Contar uma coleção grande sem contar de um em um: a turma recolhe as fichas em potinhos de dez, empilha dez potinhos e lê centenas, dezenas e unidades."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

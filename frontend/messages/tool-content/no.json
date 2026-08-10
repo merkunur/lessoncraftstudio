@@ -1386,6 +1386,28 @@
       "Klipp langs kanten og brett på de stiplede linjene, så terrenget står. Skriv de to runde tallene i gropene. Legg en ekte kampestein hvor som helst i en skråning – den triller ned i ei grop. Legg den på høyderyggen – den blir liggende, og det er hele poenget."
     ]
   },
+  "pair-gate": {
+    "name": "Hvelvingen",
+    "slug": "partall-og-oddetall-gjennom-parvis-smatrinnet",
+    "tagline": "Hvelvingen slipper gjennom nøyaktig to ved siden av hverandre — og den som blir stående, ser ut som alle andre. Bare den tomme plassen ved siden av.",
+    "metaTitle": "Partall og oddetall: to om gangen gjennom hvelvingen, småtrinnet",
+    "metaDescription": "Si først om alle kommer gjennom, og rop dem så fram to om gangen. To opptog som hver etterlater én, danner sammen en hel rekke.",
+    "about": [
+      "Hvelvingen slipper gjennom nøyaktig så mange ved siden av hverandre. Si først om alle kommer gjennom, rop dem så fram, så mange om gangen, og se etter.",
+      "Opptoget som venter, hvelvingen og gården bak.",
+      "Hele hvelvingen er gratis: hver bredde, hvert rop, avvisningen og terskelen. Lærerabonnementet legger til papiropptoget som klippes ut og stilles opp på bordet, slik at et barn kan sende de marsjerende gjennom en hvelving det har klippet selv."
+    ],
+    "howToUse": [
+      "Noen blir stående. Klassen sier at noen blir stående. Bommen er oppe.",
+      "Rop fram de neste. 1 blir stående: 17 går ikke opp i 2 ved siden av hverandre. Hvelvingen tar bare fulle, aldri halve.",
+      "Sett dem begge på terskelen. Begge på terskelen — og terskelen er full, så den får gå gjennom. 1 og 1 til sammen fyller hvelvingen nøyaktig."
+    ],
+    "classroomIdeas": [
+      "1 blir stående, tomme plasser ved siden av: 1",
+      "Hent det andre opptoget. Et andre opptog på 13. Det lar også 1 bli stående.",
+      "Klipp ut de marsjerende og hvelvingen. Still de marsjerende opp etter hverandre og send dem gjennom, så mange ved siden av hverandre om gangen. Når det er for få igjen til å fylle hvelvingen, la dem bli stående og tegn de tomme plassene ved siden av — de tomme plassene er det tallet forteller deg."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

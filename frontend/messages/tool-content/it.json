@@ -1385,6 +1385,28 @@
       "Ritaglia lungo il contorno e piega sulle linee tratteggiate, così il terreno sta in piedi. Scrivi i due numeri tondi nelle conche. Posa un ciottolo vero in un punto qualsiasi di un pendio e scenderà in una conca; posalo sulla cresta e resterà lì, ed è tutto qui."
     ]
   },
+  "pair-gate": {
+    "name": "L’arcata",
+    "slug": "numeri-pari-e-dispari-a-coppie-scuola-primaria",
+    "tagline": "L arcata lascia passare esattamente due affiancati — e chi resta non è disegnato in modo diverso. Si vede solo il posto vuoto accanto.",
+    "metaTitle": "Pari e dispari: passare due affiancati, primaria",
+    "metaDescription": "Dite prima se passeranno tutti, poi chiamateli due affiancati. Due sfilate che lasciano uno ciascuna formano insieme una fila intera.",
+    "about": [
+      "L’arcata lascia passare esattamente questo numero di persone affiancate. Dite prima se passeranno tutti, poi chiamateli avanti, tanti alla volta, e vedete.",
+      "La sfilata che aspetta, l’arcata e il cortile oltre.",
+      "Tutta l’arcata è gratuita: ogni larghezza, ogni chiamata, il rifiuto e la soglia. Il Piano Insegnante aggiunge la sfilata di carta da ritagliare e allineare sul tavolo, così un bambino può far passare i marciatori sotto un’arcata ritagliata da lui."
+    ],
+    "howToUse": [
+      "Qualcuno resterà in piedi. La classe dice che qualcuno resterà in piedi. La sbarra è alzata.",
+      "Chiamare avanti i prossimi. 1 restano in piedi: 17 non si divide esattamente in 2 affiancati. L’arcata accetta solo chi è al completo, mai chi è a metà.",
+      "Metterli tutti e due sulla soglia. Tutti e due sulla soglia — e la soglia è piena, quindi passa. 1 e 1 insieme riempiono l’arcata esattamente."
+    ],
+    "classroomIdeas": [
+      "1 restano in piedi, spazi vuoti accanto: 1",
+      "Far arrivare la seconda sfilata. Una seconda sfilata di 13. Anche questa lascia 1 in piedi.",
+      "Ritaglia i marciatori e l’arcata. Mettili uno dietro l’altro e falli passare, tanti affiancati per volta. Quando ne restano troppo pochi per riempire l’arcata, lasciali in piedi e disegna accanto gli spazi vuoti: quegli spazi vuoti sono ciò che il numero ti sta dicendo."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -70,57 +70,40 @@ const srv = http.createServer((rq, rs) => {
     await new Promise(r => setTimeout(r, 450));
 
     /* drive every control so every branch's strings get asked for */
-    for (const sel of ['.pgt-b-r1', '.pgt-b-lb', '.pgt-b-l1', '.pgt-b-go']) {
-      const hit = await p.evaluate(x => { const n = document.querySelector(x); if (!n) return false; n.click(); return true; }, sel);
-      if (!hit) fails.push(L + ': control ' + sel + ' is absent');
-      await new Promise(r => setTimeout(r, 260));
+    /* @@ DRIVE THE STATES, never exempt a key. Every refusal string here
+       lives behind a state a lazy driver never enters. */
+    await p.evaluate(() => document.querySelector('.pgt-b-call').click());   /* bar DOWN */
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.pgt-b-sill').click());   /* no second parade yet */
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.pgt-b-no').click());
+    await new Promise(r => setTimeout(r, 400));
+    await p.evaluate(() => document.querySelector('.pgt-b-yes').click());    /* predicted twice */
+    await new Promise(r => setTimeout(r, 250));
+    for (let i = 0; i < 12; i++) {
+      await p.evaluate(() => document.querySelector('.pgt-b-call').click());
+      await new Promise(r => setTimeout(r, 170));
     }
-    /* ⭐ DRIVE THE STATES, never exempt a key (#50/#51). Every string
-       here lives behind a state a lazy driver never enters: the teeter,
-       the class setting the rule, un-setting it, both edge refusals,
-       the already-at-rest refusal, the settings drawer and the sheet. */
-    await p.evaluate(() => document.querySelector('.pgt-b-go').click());  /* already at rest */
+    await p.evaluate(() => document.querySelector('.pgt-b-call').click());   /* part-rank refused */
     await new Promise(r => setTimeout(r, 250));
-    await p.evaluate(() => { const T = window.PairGate; T.st = T.again(T.st, T.ridge(T.st)); T.render(); });
-    await p.evaluate(() => document.querySelector('.pgt-b-go').click());  /* the teeter */
-    await new Promise(r => setTimeout(r, 500));
-    await p.evaluate(() => document.querySelector('.pgt-b-tu').click());  /* the class decides */
-    await new Promise(r => setTimeout(r, 600));
-    await p.evaluate(() => document.querySelector('.pgt-b-tc').click());  /* and un-decides */
-    await new Promise(r => setTimeout(r, 500));
-    await p.evaluate(() => document.querySelector('.pgt-b-td').click());
-    await new Promise(r => setTimeout(r, 400));
-    /* @@ the three no-op / off-ridge branches, each reachable only from a
-       state a lazy driver never enters */
-    await p.evaluate(() => document.querySelector('.pgt-b-tc').click());   /* clear when ALREADY level */
+    await p.evaluate(() => document.querySelector('.pgt-b-second').click());
+    await new Promise(r => setTimeout(r, 450));
+    await p.evaluate(() => document.querySelector('.pgt-b-sill').click());
+    await new Promise(r => setTimeout(r, 1300));
+    await p.evaluate(() => document.querySelector('.pgt-b-sill').click());   /* already on the sill */
     await new Promise(r => setTimeout(r, 250));
-    await p.evaluate(() => document.querySelector('.pgt-b-td').click());
-    await new Promise(r => setTimeout(r, 300));
-    await p.evaluate(() => document.querySelector('.pgt-b-td').click());   /* set to the SAME direction */
+    /* a parade that CLEARS, so saidAllThrough is reached */
+    await p.evaluate(() => { const T = window.PairGate; T.st = T.predict(T.newState('2', 12), true); T.render(); });
+    for (let i = 0; i < 7; i++) {
+      await p.evaluate(() => document.querySelector('.pgt-b-call').click());
+      await new Promise(r => setTimeout(r, 150));
+    }
     await new Promise(r => setTimeout(r, 250));
-    /* clear while the boulder is OFF the ridge: the other clear branch */
-    await p.evaluate(() => { const T = window.PairGate; T.st = T.again(T.st, T.st.lo + T.step()); T.render(); });
-    await p.evaluate(() => document.querySelector('.pgt-b-go').click());
-    await new Promise(r => setTimeout(r, 900));
-    await p.evaluate(() => document.querySelector('.pgt-b-tc').click());
-    await new Promise(r => setTimeout(r, 400));
-    /* @@ FORCE THE STATE, then press. Chaining clicks and hoping the tilt
-       lands where the branch needs it is how two of these read as dead:
-       the driver has to KNOW the state it is testing. */
-    await p.evaluate(() => { const T = window.PairGate; T.st = { unit: T.st.unit, lo: T.st.lo, hi: T.st.hi, at: T.ridge(T.st), phase: 'held', rest: null, tilt: 0 }; T.render(); });
-    await p.evaluate(() => document.querySelector('.pgt-b-tc').click());   /* level when ALREADY level */
-    await new Promise(r => setTimeout(r, 300));
-    await p.evaluate(() => { const T = window.PairGate; T.st = { unit: T.st.unit, lo: T.st.lo, hi: T.st.hi, at: T.st.lo + T.step(), phase: 'settled', rest: T.st.lo, tilt: 1 }; T.render(); });
-    await p.evaluate(() => document.querySelector('.pgt-b-tc').click());   /* clear while OFF the ridge */
-    await new Promise(r => setTimeout(r, 400));
-    await p.evaluate(() => document.querySelector('.pgt-b-again').click());
-    await new Promise(r => setTimeout(r, 400));
-    await p.evaluate(() => { const T = window.PairGate; T.st = T.again(T.st, T.st.lo); T.render(); });
-    await p.evaluate(() => document.querySelector('.pgt-b-l1').click());  /* refuse at the low dip */
-    await new Promise(r => setTimeout(r, 250));
-    await p.evaluate(() => { const T = window.PairGate; T.st = T.again(T.st, T.st.hi); T.render(); });
-    await p.evaluate(() => document.querySelector('.pgt-b-r1').click());  /* refuse at the high dip */
-    await new Promise(r => setTimeout(r, 250));
+    /* a WIDE archway where the sill does NOT fill, so saidSillShort is reached */
+    await p.evaluate(() => { const T = window.PairGate; let st = T.predict(T.newState('3', 8), false);
+      while (T.sendRank(st)) st = T.sendRank(st); T.st = T.bringSecond(st, 8); T.render(); });
+    await p.evaluate(() => document.querySelector('.pgt-b-sill').click());
+    await new Promise(r => setTimeout(r, 1300));
     await p.evaluate(() => { const g = document.querySelector('.lcs-btn-settings, [aria-label*="etting"], .lcs-settings-btn'); if (g) g.click(); });
     await new Promise(r => setTimeout(r, 260));
     await p.evaluate(() => { const T = window.PairGate; T.premium = true; T._paint(); });
@@ -128,6 +111,13 @@ const srv = http.createServer((rq, rs) => {
     await new Promise(r => setTimeout(r, 250));
     await p.evaluate(() => { const T = window.PairGate; T.premium = false; T._paint(); T._gate(); });
     await new Promise(r => setTimeout(r, 200));
+    await p.evaluate(() => document.querySelector('.pgt-b-again').click());
+    await new Promise(r => setTimeout(r, 300));
+    /* @@ and the OTHER prediction, on a fresh parade — the driver had
+       only ever said no, so the yes branch read as dead. */
+    await p.evaluate(() => document.querySelector('.pgt-b-yes').click());
+    await new Promise(r => setTimeout(r, 400));
+
     const got = await p.evaluate(() => ({
       asked: Object.keys(window.__asked || {}),
       title: (document.querySelector('.lcs-title') || {}).textContent || '',

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Number Drum — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #50 — THE NUMBER DRUM. Two rings of numerals in a frame. Turn
+       the right-hand ring and the numerals come round; turn it past its
+       9 and a tooth catches the ring beside it and drags that one round
+       too. Every other numbered field on this platform STOPS at 9 — the
+       hotel's corridor ends in a wall, the sieve's row ends, the choral
+       column ends — so on all of them 9 to 0 is a break. On a ring it is
+       a neighbour: the numeral below the 9 is the 0, visibly, at rest.
+       That is what a child who says "forty-ten" has not yet learnt.
+       In slow turning the crank moves a half notch, so the class can
+       park the apparatus mid-catch and argue about whether it says 29 or
+       30 — and it has no readout at all, because mid-turn the number is
+       genuinely not yet decided. It loads NO ART and NO AUDIO beyond the
+       shell's own pop. -->
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/number-drum.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(NumberDrum, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

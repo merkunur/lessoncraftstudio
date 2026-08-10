@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Landing Strip — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #54 - THE DOUBLING MIRROR. It is NOT a mirror, and that is
+       the ruling: a mirror doubles an APPEARANCE, not a quantity, and a
+       child who counts twelve in front of one has counted six objects and
+       six appearances. So this is a hinged TRAY. Counters sit on the near
+       leaf, the class says what the double will be, and closing the hinge
+       puts the same number of REAL counters on the far leaf - every one
+       of them touchable and countable once. Opening splits it back. And
+       an odd total does not stall: one counter has no partner, and the
+       class chooses which leaf it goes on, so nine opens to five and
+       four. It loads NO ART and NO AUDIO beyond the shell's own pop. -->
+
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/doubling-mirror.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(DoublingMirror, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

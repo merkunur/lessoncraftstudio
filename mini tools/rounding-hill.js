@@ -49,13 +49,25 @@
    pretend otherwise and hands the choice to the room.
 
    ⚠⚠ THE CATALOG'S PAID SUPERPOWER IS FALSE AND IS DELETED. It promised
-   "the country's convention arrives as a visible puff of wind". But
-   `halfway-harbors-core.js:24` ships `roundHalfUp` to four locales with
-   NO PER-LOCALE BRANCH ANYWHERE IN THE FILE: the tie is already
-   adjudicated locale-INVARIANT. Selling a difference that does not exist
-   is the `choral-counting` defect from #50 in a new dress. What replaces
-   it is not a nation's rule but THE ROOM'S — which is honest, is the
-   same in all eleven locales, and needs no words.
+   "the country's convention arrives as a visible puff of wind". All
+   ELEVEN locales teach round-half-UP; not one primary source in eleven
+   languages teaches half-to-even.
+   ⚠ AND THE FIRST VERSION OF THIS DOCBLOCK JUSTIFIED THAT BADLY. It
+   argued from `halfway-harbors-core.js:24` shipping `roundHalfUp` with no
+   per-locale branch — which is evidence about OUR OWN CODE, not about
+   eleven countries, and had the platform happened to be wrong it would
+   have laundered our bug into a curriculum claim. The pedagogy panel
+   checked the countries. The real finding is stronger and is measured on
+   the ministry documents themselves: EVERY ONE OF THE ELEVEN NATIONAL
+   CURRICULA IS SILENT ON THE TIE. Spain RD 157/2022, 119 pages,
+   `redonde*` = 0. Italy's Indicazioni nazionali, `arrotond*` = 0. France
+   cycle 2+3, `arrondi` = 0. Norway LK20: no competence aim. Finland POPS
+   2014, ~500 pages: twice, both as ESTIMATION. England teaches midpoints
+   and never resolves the tie. The 5-up rule is textbook convention
+   everywhere and law NOWHERE.
+   ⭐ That is this tool's real warrant: handing the tie to the room is not
+   a graceful retreat from a false claim, it is THE ONLY DESIGN THAT IS
+   CURRICULARLY ACCURATE IN ALL ELEVEN MARKETS AT ONCE.
    (`wind` is also `calendar-wall`'s shipped 11-locale weather icon.)
 
    ⚠ EVERY NOUN IN THE PITCH IS OWNED. `valley` is `track-repair`'s
@@ -75,6 +87,41 @@
    ⚠ NO BUCKET POUR. `class-graph` owns record-becomes-bar outright and
    `draw-bag` already deleted its own version. A second one would be the
    third.
+
+   ⚖️ THE PEDAGOGY PANEL RULED BUILD-WITH-CHANGES, 2-1, and its refuse-
+   list is binding. The three most easily broken:
+   - ⚠⚠ NEVER ASSERT "5 GOES UP" AS FACT, in any locale, on the apparatus
+     or in landing copy or on the paid sheet. It has no curricular
+     standing in any of the eleven, and in pt-BR it is actively
+     contested: ABNT NBR 5891 and IBGE Resolucao 886/66 both specify
+     round-half-to-EVEN, Brasil Escola teaches 1,365 -> 1,36 (which
+     half-up would make 1,37), and Mundo Educacao misquotes IBGE into
+     round-half-DOWN. THREE rules circulate in Brazilian school content.
+   - ⚠⚠ NEVER USE THE WORD "ARBITRARY" (or willkuerlich / arbitraire /
+     equivalents) in child-facing copy. Seven-year-olds hear it as
+     "doesn't matter", which is one step from "any answer is fine" - the
+     exact misconception that makes rounding untrustworthy later. SHOW
+     it; do not name it. The apparatus argues; the words do not.
+   - ⚠ NO DECIMALS, EVER. Germany places them at Klasse 5/6, so primary
+     rounding is whole tens and hundreds only.
+   Also binding: no tilt may ever ship as a DEFAULT (level is the honest
+   opening state); no accuracy trace, ghost or trend (verify-estimation-
+   jar P14); no curricular-alignment claim in pt at all, since BNCC puts
+   rounding at EF06MA12, 6th year, age ~11; and THE CLASS CAN NEVER BE
+   WRONG ABOUT THE TILT - a purpose can be right, a room cannot.
+
+   🔻 AND ITS DISSENT IS RECORDED RATHER THAN ANSWERED. The practising
+   teacher on the panel voted DO NOT BUILD: "the fence came back nothing
+   survives, in those words, and I think the fence was right and we
+   talked ourselves past it... Landing Strip shipped HOURS before this
+   one and already has a post at 45. The honest move is not a fourth
+   apparatus - it is to fold the teeter into Landing Strip, whose middle
+   post is already the ridge. The strongest evidence in this whole review
+   - the platform's own three surfaces disagreeing three ways about 45 -
+   is an argument for RECONCILING them, and we have used it as an
+   argument for adding a fourth."
+   ⚠ That is a live and unresolved question about this tool's existence,
+   and it belongs to the operator, not to me or to a panel.
 
    FREE   the whole apparatus: every slope, every ridge, the teeter, and
           setting the rule.
@@ -150,7 +197,7 @@
 
     strings: {
       title: { en: 'The Rounding Hill' },
-      instruction: { en: 'Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level and it will not fall on its own.' },
+      instruction: { en: 'Set the stone down and let go. It settles into the nearest dip — unless it lands on the ridge, where the ground is level, it will not fall on its own, and what the number is FOR decides which way it goes.' },
 
       ariaGround: { en: 'Ground with a dip at each end and a ridge in the middle.' },
       ariaStone: { en: 'the stone, at {n}' },
@@ -168,14 +215,22 @@
       letGo: { en: 'Let go' },
       tiltDown: { en: 'Settle the ridge towards the lower dip' },
       tiltUp: { en: 'Settle the ridge towards the higher dip' },
-      clearTilt: { en: 'Unsettle the ridge and leave it level again' },
+      /* ⭐⭐ NOT AN UNDO — A REASON. Framed as an undo, this control was
+         pressed once and never again, so the tool held exactly ONE
+         decision in its whole life and became a demonstration on day two.
+         SLO kerndoel 28, a binding Dutch objective, says the CONTEXT
+         decides whether rounding up or down is wanted — so when the
+         purpose changes, the ridge must be settled again. That is what
+         makes the decision recur, and it is a curriculum objective in one
+         of the eleven rather than an invention of ours. */
+      clearTilt: { en: 'The number is for something else now — level the ridge again' },
       again: { en: 'Another stone' },
 
       saidSet: { en: '{n}' },
       saidSettled: { en: '{n} settles into {d}.' },
       saidTeeter: { en: '{n} is on the ridge. The ground is level here, so the stone will not fall on its own. Which way should this class settle it?' },
-      saidTiltSet: { en: 'This class has settled the ridge towards {d}. From now on the stone goes that way every time it lands on a ridge.' },
-      saidTiltClear: { en: 'The ridge is level again. The stone will teeter until somebody settles it.' },
+      saidTiltSet: { en: 'This class has settled the ridge towards {d}, for what these numbers are being used for. Every tie goes that way until that changes.' },
+      saidTiltClear: { en: 'The ridge is level again. What are these numbers for now? The stone will teeter until the class settles it again.' },
       saidAlready: { en: 'The stone is already at rest. Set down another one.' },
       saidEdge: { en: 'The ground stops at {n}.' },
 

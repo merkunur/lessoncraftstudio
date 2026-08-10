@@ -330,6 +330,27 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
   ok(ban('valley').test('down in the valley'), 'L6 poison: the ban failed to fire');
   ok(!ban('ball').test('ballot'), 'L6 poison: the ban fired inside another word');
   ok(!ban('wind').test('window'), 'L6 poison: the ban fired inside "window"');
+  /* ⚠⚠ NEVER THE WORD "ARBITRARY" IN CHILD-FACING COPY, and never a
+     decimal. A seven-year-old hears "arbitrary" as "doesn't matter",
+     which is one step from "any answer is fine" — the exact
+     misconception that makes rounding untrustworthy later. The apparatus
+     shows it; the words must not name it. And Germany places decimals at
+     Klasse 5/6, so primary rounding is whole tens and hundreds only.
+     Both are the pedagogy panel's refuse-list, items 4 and 7. */
+  const FORBIDDEN_IDEAS = ['arbitrary', 'decimal'];
+  all.forEach(function (k) {
+    FORBIDDEN_IDEAS.forEach(function (w) {
+      ok(!ban(w).test(T.strings[k].en),
+        'L6 the refuse-list forbids "' + w + '" in child-facing copy, and `' + k + '` uses it');
+    });
+  });
+  ok(ban('arbitrary').test('an arbitrary rule'), 'L6 poison: the refuse-list ban failed to fire');
+  ok(!ban('arbitrary').test('arbitrariness'), 'L6 poison: the ban fired across a boundary it should respect');
+  /* ⚠ AND NO TILT MAY EVER SHIP AS A DEFAULT — level is the honest
+     opening state, because the class has not decided yet. */
+  ['tens', 'hundreds'].forEach(function (sp) {
+    eq(T.newState(sp).tilt, 0, 'L6 the ridge ships already settled on ' + sp + ' — the class must decide');
+  });
   eq(T.strings.title.en, 'The Rounding Hill', 'L6 the product name is the operator\'s');
 }
 

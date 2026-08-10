@@ -1,8 +1,41 @@
 /* =====================================================================
    TOOL #52 — THE ROUNDING HILL — the ten non-English string sets
    =====================================================================
-   Rebuilt per locale by a native panel, never translated. Same 32 keys,
+   Rebuilt per locale by a native panel, never translated. Same 36 keys,
    same {n} / {d} placeholders in every set.
+
+   ⭐ ROUND 2 (36 keys). Four keys were added to carry the audit fixes, and
+   FIVE existing strings changed underneath these sets — only three were
+   flagged to me; I found the other two by diffing every key against the
+   tool rather than trusting the list:
+     - `saidTiltSet` gained the PURPOSE clause ("for what these numbers are
+       being used for … until that changes") — NOT flagged.
+     - `saidTiltClear` gained "What are these numbers for now?" AND was
+       RE-SCOPED: `_tilt` now dispatches
+       `onRidge(next, next.at) ? 'saidTiltClear' : 'saidTiltClearOff'`
+       (:554), so `saidTiltClear` is now the ON-RIDGE branch and must speak
+       about THE CURRENT stone, while `saidTiltClearOff` must not claim the
+       current stone does anything. Placing these by NAME instead of by
+       dispatch would have put the wrong sentence in each. NOT flagged.
+   Verified fixed in code: `ariaGround` is finally wired (:698);
+   `why()` at :539 passes 'rest' when the stone is at rest, so `saidEdge`
+   no longer fires away from the edge; `_release` refuses with 'teeter'
+   (:580) so a teetering stone is no longer told it is at rest; `_refuse`
+   splits `saidAlreadyLevel`/`saidAlreadySet` (:81 of that fn);
+   `ariaStoneRest` is used exactly when `phase === 'settled'` (:686).
+   ⚠ STILL OPEN (was never in the six): `ariaTilt` carries no direction —
+   sighted users see which way the ridge leans, screen-reader users do not,
+   and the code passes it no params, so no string can fix it.
+
+   ⭐ THE ENGLISH PART-NOUN — RECOMMENDATION: **THE BOULDER**.
+   Measured over `mini tools` + `tool-content`: boulder **0**, cobble 0,
+   nugget 0 — against stone 100, rock 92, slab 26, chunk 25, pebble 19,
+   lump 4. `boulder` is not merely free, it is the register the ten locales
+   already landed on independently — Brocken (chunk of rock), kampesten,
+   kampestein, stenbumling, lohkare and kei are all boulder-words, not
+   pebble-words. Renaming the English part to THE BOULDER makes the eleven
+   one instrument instead of leaving English the only member colliding with
+   a live activity. The product name "The Rounding Hill" is untouched.
 
    ⚠⚠ THE FENCE OVERTURNED THE DOCBLOCK'S OWN CLAIM. `rounding-hill.js`
    declares "FREE, and used here: THE SLOPES · THE DIPS · THE RIDGE ·
@@ -115,12 +148,13 @@ module.exports = {
 
   de: {
     title: 'Der Rundungshügel',
-    instruction: 'Setzt den Brocken auf das Gelände und lasst ihn los. Er rollt in die nächste Mulde – außer er kommt auf dem Grat zu liegen: dort ist keine Seite tiefer, und von allein rollt er nicht weiter. Dann entscheidet die Klasse, wohin der Grat sich neigt.',
+    instruction: 'Setzt den Brocken auf das Gelände und lasst ihn los. Er rollt in die nächste Mulde – außer er kommt auf dem Grat zu liegen: dort ist keine Seite tiefer, von allein rollt er nicht weiter, und wozu die Zahl gebraucht wird, entscheidet, wohin er geht.',
 
     ariaGround: 'Gelände mit je einer Mulde an beiden Enden und einem Grat in der Mitte.',
     ariaStone: 'der Brocken mit der Zahl {n}',
+    ariaStoneRest: 'der Brocken mit der Zahl {n}, liegt in der Mulde {d}',
     ariaRidge: 'der Grat, genau in der Mitte zwischen den beiden Mulden',
-    ariaTilt: 'der Grat, geneigt so, wie die Klasse es festgelegt hat',
+    ariaTilt: 'der Grat, von der Klasse in Richtung {d} geneigt',
 
     setSpan: 'Welches Gelände',
     spanTens: 'zwischen zwei Zehnern',
@@ -133,15 +167,18 @@ module.exports = {
     letGo: 'Loslassen',
     tiltDown: 'Den Grat zur unteren Mulde neigen',
     tiltUp: 'Den Grat zur oberen Mulde neigen',
-    clearTilt: 'Den Grat wieder gerade stellen',
+    clearTilt: 'Die Zahl wird jetzt für etwas anderes gebraucht – den Grat wieder gerade stellen',
     again: 'Neuer Brocken',
 
     saidSet: '{n}',
     saidSettled: '{n} rollt in die Mulde {d}.',
-    saidTeeter: '{n} liegt auf dem Grat. Keine Seite ist tiefer, also rollt der Brocken von allein nicht weiter. Wohin soll die Klasse ihn neigen?',
-    saidTiltSet: 'Die Klasse hat den Grat in Richtung {d} geneigt. Ab jetzt rollt der Brocken jedes Mal dorthin, wenn er auf dem Grat landet.',
-    saidTiltClear: 'Der Grat steht wieder gerade. Ab jetzt wackelt jeder Brocken, der darauf landet, bis die Klasse sich entscheidet.',
+    saidTeeter: '{n} liegt auf dem Grat. Keine Seite ist tiefer, also rollt der Brocken von allein nicht weiter. Wozu braucht ihr diese Zahlen – und wohin soll das den Grat neigen?',
+    saidTiltSet: 'Die Klasse hat den Grat in Richtung {d} geneigt – dafür, wozu diese Zahlen gerade gebraucht werden. Jeder Brocken, der genau auf dem Grat landet, geht dorthin, bis sich das ändert.',
+    saidTiltClear: 'Der Grat steht wieder gerade. Wozu werden diese Zahlen jetzt gebraucht? Der Brocken wackelt, bis die Klasse den Grat neu neigt.',
     saidAlready: 'Das ändert hier nichts. Legt einen neuen Brocken hin.',
+    saidAlreadyLevel: 'Der Grat steht schon gerade.',
+    saidAlreadySet: 'Der Grat ist schon in diese Richtung geneigt.',
+    saidTiltClearOff: 'Der Grat steht wieder gerade. Der nächste Brocken, der darauf landet, wackelt.',
     saidEdge: 'Das Gelände endet bei {n}.',
 
     gateTitle: 'Das Gelände aus Papier',
@@ -156,12 +193,13 @@ module.exports = {
 
   fr: {
     title: 'La colline des arrondis',
-    instruction: "Pose le caillou sur le terrain et lâche-le. Il descend dans la cuvette la plus proche – sauf s'il s'arrête sur la crête : là, aucun côté n'est plus bas et il ne tombe pas tout seul. C'est alors à la classe de décider de quel côté la crête penche.",
+    instruction: "Pose le caillou sur le terrain et lâche-le. Il descend dans la cuvette la plus proche – sauf s'il s'arrête sur la crête : là, aucun côté n'est plus bas, il ne tombe pas tout seul, et c'est l'usage qu'on fait du nombre qui décide de quel côté il va.",
 
     ariaGround: 'Terrain avec une cuvette à chaque bout et une crête au milieu.',
     ariaStone: 'le caillou portant le nombre {n}',
+    ariaStoneRest: 'le caillou portant le nombre {n}, posé dans la cuvette {d}',
     ariaRidge: 'la crête, à mi-chemin entre les deux cuvettes',
-    ariaTilt: 'la crête, penchée du côté choisi par la classe',
+    ariaTilt: 'la crête, penchée par la classe vers {d}',
 
     setSpan: 'Quel terrain',
     spanTens: 'entre deux dizaines',
@@ -174,15 +212,18 @@ module.exports = {
     letGo: 'Lâcher',
     tiltDown: 'Faire pencher la crête vers la cuvette du bas',
     tiltUp: 'Faire pencher la crête vers la cuvette du haut',
-    clearTilt: 'Remettre la crête droite',
+    clearTilt: "Le nombre sert à autre chose maintenant – remettre la crête droite",
     again: 'Un autre caillou',
 
     saidSet: '{n}',
     saidSettled: '{n} descend dans la cuvette {d}.',
-    saidTeeter: "{n} est sur la crête. Aucun côté n'est plus bas, donc le caillou ne tombe pas tout seul. De quel côté la classe le fait-elle pencher ?",
-    saidTiltSet: "La classe a fait pencher la crête vers {d}. Désormais, le caillou ira de ce côté chaque fois qu'il s'arrêtera sur la crête.",
-    saidTiltClear: "La crête est de nouveau droite. Désormais, un caillou qui s'y arrête hésite jusqu'à ce que la classe décide.",
+    saidTeeter: "{n} est sur la crête. Aucun côté n'est plus bas, donc le caillou ne tombe pas tout seul. À quoi servent ces nombres – et de quel côté cela doit-il faire pencher la crête ?",
+    saidTiltSet: "La classe a fait pencher la crête vers {d}, pour l'usage qu'on fait de ces nombres. Chaque caillou qui s'arrête pile sur la crête ira de ce côté jusqu'à ce que cela change.",
+    saidTiltClear: "La crête est de nouveau droite. À quoi servent ces nombres maintenant ? Le caillou hésite jusqu'à ce que la classe la règle de nouveau.",
     saidAlready: 'Cela ne change rien ici. Pose un nouveau caillou.',
+    saidAlreadyLevel: 'La crête est déjà droite.',
+    saidAlreadySet: 'La crête penche déjà de ce côté.',
+    saidTiltClearOff: "La crête est de nouveau droite. Le prochain caillou qui s'y arrêtera hésitera.",
     saidEdge: "Le terrain s'arrête à {n}.",
 
     gateTitle: 'Le terrain en papier',
@@ -197,12 +238,13 @@ module.exports = {
 
   es: {
     title: 'La colina del redondeo',
-    instruction: 'Coloca el guijarro en el terreno y suéltalo. Baja rodando hasta la hondonada más cercana, salvo que quede sobre la cresta: allí ningún lado está más bajo y no cae solo. Entonces la clase decide hacia dónde se inclina la cresta.',
+    instruction: 'Coloca el guijarro en el terreno y suéltalo. Baja rodando hasta la hondonada más cercana, salvo que quede sobre la cresta: allí ningún lado está más bajo, no cae solo, y es para qué sirve el número lo que decide hacia dónde va.',
 
     ariaGround: 'Terreno con una hondonada en cada extremo y una cresta en el medio.',
     ariaStone: 'el guijarro con el número {n}',
+    ariaStoneRest: 'el guijarro con el número {n}, parado en la hondonada {d}',
     ariaRidge: 'la cresta, a mitad de camino entre las dos hondonadas',
-    ariaTilt: 'la cresta, inclinada hacia donde la clase ha decidido',
+    ariaTilt: 'la cresta, inclinada por la clase hacia {d}',
 
     setSpan: 'Qué terreno',
     spanTens: 'entre dos decenas',
@@ -215,15 +257,18 @@ module.exports = {
     letGo: 'Soltar',
     tiltDown: 'Inclinar la cresta hacia la hondonada de abajo',
     tiltUp: 'Inclinar la cresta hacia la hondonada de arriba',
-    clearTilt: 'Dejar la cresta recta otra vez',
+    clearTilt: 'Ahora el número sirve para otra cosa: dejar la cresta recta otra vez',
     again: 'Otro guijarro',
 
     saidSet: '{n}',
     saidSettled: '{n} baja hasta la hondonada {d}.',
-    saidTeeter: '{n} está sobre la cresta. Ningún lado está más bajo, así que el guijarro no cae solo. ¿Hacia dónde lo inclina la clase?',
-    saidTiltSet: 'La clase ha inclinado la cresta hacia {d}. A partir de ahora el guijarro irá hacia ese lado siempre que quede sobre la cresta.',
-    saidTiltClear: 'La cresta vuelve a estar recta. A partir de ahora, un guijarro que quede sobre ella se balanceará hasta que la clase decida.',
+    saidTeeter: '{n} está sobre la cresta. Ningún lado está más bajo, así que el guijarro no cae solo. ¿Para qué sirven estos números y hacia dónde debe inclinar eso la cresta?',
+    saidTiltSet: 'La clase ha inclinado la cresta hacia {d}, para lo que se están usando estos números. Cada guijarro que quede justo sobre la cresta irá hacia ese lado hasta que eso cambie.',
+    saidTiltClear: 'La cresta vuelve a estar recta. ¿Para qué sirven ahora estos números? El guijarro se balanceará hasta que la clase vuelva a inclinarla.',
     saidAlready: 'Esto no cambia nada. Coloca un guijarro nuevo.',
+    saidAlreadyLevel: 'La cresta ya está recta.',
+    saidAlreadySet: 'La cresta ya está inclinada hacia ese lado.',
+    saidTiltClearOff: 'La cresta vuelve a estar recta. El próximo guijarro que quede sobre ella se balanceará.',
     saidEdge: 'El terreno termina en {n}.',
 
     gateTitle: 'El terreno de papel',
@@ -238,12 +283,13 @@ module.exports = {
 
   pt: {
     title: 'A colina do arredondamento',
-    instruction: 'Apoie o seixo no terreno e solte. Ele desce até a cova mais próxima — a não ser que pare sobre a crista: ali nenhum lado está mais baixo e ele não cai sozinho. Aí a turma decide para que lado a crista se inclina.',
+    instruction: 'Apoie o seixo no terreno e solte. Ele desce até a cova mais próxima — a não ser que pare sobre a crista: ali nenhum lado está mais baixo, ele não cai sozinho, e é para que serve o número que decide para que lado ele vai.',
 
     ariaGround: 'Terreno com uma cova em cada ponta e uma crista no meio.',
     ariaStone: 'o seixo com o número {n}',
+    ariaStoneRest: 'o seixo com o número {n}, parado na cova {d}',
     ariaRidge: 'a crista, na metade do caminho entre as duas covas',
-    ariaTilt: 'a crista, inclinada para o lado que a turma escolheu',
+    ariaTilt: 'a crista, inclinada pela turma para {d}',
 
     setSpan: 'Qual terreno',
     spanTens: 'entre duas dezenas',
@@ -256,15 +302,18 @@ module.exports = {
     letGo: 'Soltar',
     tiltDown: 'Inclinar a crista para a cova de baixo',
     tiltUp: 'Inclinar a crista para a cova de cima',
-    clearTilt: 'Deixar a crista reta de novo',
+    clearTilt: 'Agora o número serve para outra coisa — deixar a crista reta de novo',
     again: 'Outro seixo',
 
     saidSet: '{n}',
     saidSettled: '{n} desce até a cova {d}.',
-    saidTeeter: '{n} está sobre a crista. Nenhum lado está mais baixo, então o seixo não cai sozinho. Para que lado a turma vai incliná-lo?',
-    saidTiltSet: 'A turma inclinou a crista para {d}. Daqui em diante o seixo vai para esse lado sempre que parar sobre a crista.',
-    saidTiltClear: 'A crista está reta de novo. Daqui em diante, um seixo que parar sobre ela fica balançando até a turma decidir.',
+    saidTeeter: '{n} está sobre a crista. Nenhum lado está mais baixo, então o seixo não cai sozinho. Para que servem estes números — e para que lado isso deve inclinar a crista?',
+    saidTiltSet: 'A turma inclinou a crista para {d}, pelo que estes números estão servindo agora. Cada seixo que parar bem sobre a crista vai para esse lado até isso mudar.',
+    saidTiltClear: 'A crista está reta de novo. Para que servem estes números agora? O seixo fica balançando até a turma inclinar de novo.',
     saidAlready: 'Isso não muda nada aqui. Apoie um seixo novo.',
+    saidAlreadyLevel: 'A crista já está reta.',
+    saidAlreadySet: 'A crista já está inclinada para esse lado.',
+    saidTiltClearOff: 'A crista está reta de novo. O próximo seixo que parar sobre ela vai ficar balançando.',
     saidEdge: 'O terreno termina em {n}.',
 
     gateTitle: 'O terreno de papel',
@@ -279,12 +328,13 @@ module.exports = {
 
   it: {
     title: "La collina dell'arrotondamento",
-    instruction: 'Appoggia il ciottolo sul terreno e lascialo andare. Scende nella conca più vicina, a meno che non si fermi sulla cresta: lì nessun lato è più basso e non cade da solo. Allora è la classe a decidere da che parte pende la cresta.',
+    instruction: 'Appoggia il ciottolo sul terreno e lascialo andare. Scende nella conca più vicina, a meno che non si fermi sulla cresta: lì nessun lato è più basso, non cade da solo, ed è a che cosa serve il numero a decidere da che parte va.',
 
     ariaGround: 'Terreno con una conca a ogni estremità e una cresta nel mezzo.',
     ariaStone: 'il ciottolo con il numero {n}',
+    ariaStoneRest: 'il ciottolo con il numero {n}, fermo nella conca {d}',
     ariaRidge: 'la cresta, a metà strada tra le due conche',
-    ariaTilt: 'la cresta, inclinata dalla parte scelta dalla classe',
+    ariaTilt: 'la cresta, inclinata dalla classe verso {d}',
 
     setSpan: 'Quale terreno',
     spanTens: 'tra due decine',
@@ -297,15 +347,18 @@ module.exports = {
     letGo: 'Lascia andare',
     tiltDown: 'Inclina la cresta verso la conca più bassa',
     tiltUp: 'Inclina la cresta verso la conca più alta',
-    clearTilt: 'Rimetti la cresta dritta',
+    clearTilt: 'Ora il numero serve per altro – rimetti la cresta dritta',
     again: 'Un altro ciottolo',
 
     saidSet: '{n}',
     saidSettled: '{n} scende nella conca {d}.',
-    saidTeeter: '{n} è sulla cresta. Nessun lato è più basso, quindi il ciottolo non cade da solo. Da che parte lo fa pendere la classe?',
-    saidTiltSet: "La classe ha inclinato la cresta verso {d}. D'ora in poi il ciottolo andrà da quella parte ogni volta che si ferma sulla cresta.",
-    saidTiltClear: "La cresta è di nuovo dritta. D'ora in poi un ciottolo che si ferma lì oscilla finché la classe non decide.",
+    saidTeeter: '{n} è sulla cresta. Nessun lato è più basso, quindi il ciottolo non cade da solo. A che cosa servono questi numeri — e da che parte deve far pendere la cresta?',
+    saidTiltSet: "La classe ha inclinato la cresta verso {d}, per ciò a cui servono ora questi numeri. Ogni ciottolo che si ferma esattamente sulla cresta andrà da quella parte finché non cambia.",
+    saidTiltClear: "La cresta è di nuovo dritta. A che cosa servono ora questi numeri? Il ciottolo oscilla finché la classe non la inclina di nuovo.",
     saidAlready: 'Questo non cambia nulla. Appoggia un nuovo ciottolo.',
+    saidAlreadyLevel: 'La cresta è già dritta.',
+    saidAlreadySet: 'La cresta pende già da quella parte.',
+    saidTiltClearOff: 'La cresta è di nuovo dritta. Il prossimo ciottolo che si fermerà lì oscillerà.',
     saidEdge: 'Il terreno finisce a {n}.',
 
     gateTitle: 'Il terreno di carta',
@@ -320,12 +373,13 @@ module.exports = {
 
   nl: {
     title: 'De afrondingsheuvel',
-    instruction: 'Zet de kei op de grond en laat los. Hij rolt naar de dichtstbijzijnde kuil — tenzij hij op de bult blijft liggen: daar is geen kant lager en hij valt niet vanzelf. Dan bepaalt de klas naar welke kant de bult helt.',
+    instruction: 'Zet de kei op de grond en laat los. Hij rolt naar de dichtstbijzijnde kuil — tenzij hij op de bult blijft liggen: daar is geen kant lager, hij valt niet vanzelf, en waar het getal vóór dient bepaalt welke kant hij op gaat.',
 
     ariaGround: 'Grond met aan elk uiteinde een kuil en een bult in het midden.',
     ariaStone: 'de kei met het getal {n}',
+    ariaStoneRest: 'de kei met het getal {n}, in kuil {d}',
     ariaRidge: 'de bult, precies tussen de twee kuilen in',
-    ariaTilt: 'de bult, gekanteld naar de kant die de klas gekozen heeft',
+    ariaTilt: 'de bult, door de klas naar {d} gekanteld',
 
     setSpan: 'Welke grond',
     spanTens: 'tussen twee tientallen',
@@ -338,15 +392,18 @@ module.exports = {
     letGo: 'Loslaten',
     tiltDown: 'De bult naar de onderste kuil laten hellen',
     tiltUp: 'De bult naar de bovenste kuil laten hellen',
-    clearTilt: 'De bult weer recht zetten',
+    clearTilt: 'Het getal dient nu voor iets anders — de bult weer recht zetten',
     again: 'Nog een kei',
 
     saidSet: '{n}',
     saidSettled: '{n} rolt in kuil {d}.',
-    saidTeeter: '{n} ligt op de bult. Geen kant is lager, dus de kei valt niet vanzelf. Naar welke kant laat de klas hem hellen?',
-    saidTiltSet: 'De klas heeft de bult naar {d} laten hellen. Vanaf nu gaat de kei die kant op, elke keer dat hij op de bult belandt.',
-    saidTiltClear: 'De bult staat weer recht. Vanaf nu wiebelt een kei die erop belandt, tot de klas beslist.',
+    saidTeeter: '{n} ligt op de bult. Geen kant is lager, dus de kei valt niet vanzelf. Waar dienen deze getallen voor — en naar welke kant moet dat de bult laten hellen?',
+    saidTiltSet: 'De klas heeft de bult naar {d} laten hellen, voor waar deze getallen nu voor dienen. Elke kei die precies op de bult belandt, gaat die kant op tot dat verandert.',
+    saidTiltClear: 'De bult staat weer recht. Waar dienen deze getallen nu voor? De kei wiebelt tot de klas hem opnieuw laat hellen.',
     saidAlready: 'Dit verandert hier niets. Zet een nieuwe kei neer.',
+    saidAlreadyLevel: 'De bult staat al recht.',
+    saidAlreadySet: 'De bult helt al naar die kant.',
+    saidTiltClearOff: 'De bult staat weer recht. De volgende kei die erop belandt, gaat wiebelen.',
     saidEdge: 'De grond houdt op bij {n}.',
 
     gateTitle: 'De papieren grond',
@@ -361,10 +418,11 @@ module.exports = {
 
   sv: {
     title: 'Avrundningskullen',
-    instruction: 'Sätt ner stenbumlingen på marken och släpp. Den rullar ner i närmaste grop – om den inte hamnar på krönet: där är ingen sida lägre, och den rullar inte av sig själv. Då bestämmer klassen åt vilket håll krönet lutar.',
+    instruction: 'Sätt ner stenbumlingen på marken och släpp. Den rullar ner i närmaste grop – om den inte hamnar på krönet: där är ingen sida lägre, den rullar inte av sig själv, och vad talet ska användas till avgör åt vilket håll den går.',
 
     ariaGround: 'Mark med en grop i vardera änden och ett krön i mitten.',
     ariaStone: 'stenbumlingen med talet {n}',
+    ariaStoneRest: 'stenbumlingen med talet {n}, ligger i gropen {d}',
     ariaRidge: 'krönet, mitt emellan de två groparna',
     ariaTilt: 'krönet, lutat åt det håll klassen har bestämt',
 
@@ -379,15 +437,18 @@ module.exports = {
     letGo: 'Släpp',
     tiltDown: 'Luta krönet mot den lägre gropen',
     tiltUp: 'Luta krönet mot den högre gropen',
-    clearTilt: 'Räta upp krönet igen',
+    clearTilt: 'Talet ska användas till något annat nu – räta upp krönet igen',
     again: 'En ny stenbumling',
 
     saidSet: '{n}',
     saidSettled: '{n} rullar ner i gropen {d}.',
-    saidTeeter: '{n} ligger på krönet. Ingen sida är lägre, så stenbumlingen rullar inte av sig själv. Åt vilket håll ska klassen luta den?',
-    saidTiltSet: 'Klassen har lutat krönet mot {d}. Från och med nu går stenbumlingen åt det hållet varje gång den hamnar på krönet.',
-    saidTiltClear: 'Krönet är rakt igen. Från och med nu vacklar en stenbumling som hamnar där tills klassen bestämmer.',
+    saidTeeter: '{n} ligger på krönet. Ingen sida är lägre, så stenbumlingen rullar inte av sig själv. Vad ska de här talen användas till – och åt vilket håll ska det luta krönet?',
+    saidTiltSet: 'Klassen har lutat krönet mot {d}, för det som de här talen används till nu. Varje stenbumling som hamnar precis på krönet går åt det hållet tills det ändras.',
+    saidTiltClear: 'Krönet är rakt igen. Vad ska de här talen användas till nu? Stenbumlingen vacklar tills klassen lutar krönet på nytt.',
     saidAlready: 'Det här ändrar ingenting. Sätt ner en ny stenbumling.',
+    saidAlreadyLevel: 'Krönet är redan rakt.',
+    saidAlreadySet: 'Krönet lutar redan åt det hållet.',
+    saidTiltClearOff: 'Krönet är rakt igen. Nästa stenbumling som hamnar där kommer att vackla.',
     saidEdge: 'Marken tar slut vid {n}.',
 
     gateTitle: 'Marken i papper',
@@ -402,10 +463,11 @@ module.exports = {
 
   da: {
     title: 'Afrundingshøjen',
-    instruction: 'Sæt kampestenen på terrænet og slip. Den ruller ned i den nærmeste fordybning — medmindre den bliver liggende på højderyggen: dér er ingen side lavere, og den falder ikke af sig selv. Så bestemmer klassen, hvilken vej højderyggen hælder.',
+    instruction: 'Sæt kampestenen på terrænet og slip. Den ruller ned i den nærmeste fordybning — medmindre den bliver liggende på højderyggen: dér er ingen side lavere, den falder ikke af sig selv, og hvad tallet skal bruges til afgør, hvilken vej den går.',
 
     ariaGround: 'Terræn med en fordybning i hver ende og en højderyg i midten.',
     ariaStone: 'kampestenen med tallet {n}',
+    ariaStoneRest: 'kampestenen med tallet {n}, ligger i fordybningen {d}',
     ariaRidge: 'højderyggen, midt mellem de to fordybninger',
     ariaTilt: 'højderyggen, som hælder den vej klassen har bestemt',
 
@@ -420,15 +482,18 @@ module.exports = {
     letGo: 'Slip',
     tiltDown: 'Hæld højderyggen mod den lavere fordybning',
     tiltUp: 'Hæld højderyggen mod den højere fordybning',
-    clearTilt: 'Ret højderyggen op igen',
+    clearTilt: 'Tallet skal bruges til noget andet nu – ret højderyggen op igen',
     again: 'En ny kampesten',
 
     saidSet: '{n}',
     saidSettled: '{n} ruller ned i fordybningen {d}.',
-    saidTeeter: '{n} ligger på højderyggen. Ingen side er lavere, så kampestenen falder ikke af sig selv. Hvilken vej skal klassen hælde den?',
-    saidTiltSet: 'Klassen har hældt højderyggen mod {d}. Fra nu af går kampestenen den vej, hver gang den lander på højderyggen.',
-    saidTiltClear: 'Højderyggen er rank igen. Fra nu af vakler en kampesten, der lander på den, indtil klassen bestemmer.',
+    saidTeeter: '{n} ligger på højderyggen. Ingen side er lavere, så kampestenen falder ikke af sig selv. Hvad skal de her tal bruges til — og hvilken vej skal det hælde højderyggen?',
+    saidTiltSet: 'Klassen har hældt højderyggen mod {d}, ud fra hvad de her tal bruges til nu. Hver kampesten, der lander præcis på højderyggen, går den vej, indtil det ændrer sig.',
+    saidTiltClear: 'Højderyggen er rank igen. Hvad skal de her tal bruges til nu? Kampestenen vakler, indtil klassen hælder den på ny.',
     saidAlready: 'Det ændrer ikke noget her. Sæt en ny kampesten ned.',
+    saidAlreadyLevel: 'Højderyggen er allerede rank.',
+    saidAlreadySet: 'Højderyggen hælder allerede den vej.',
+    saidTiltClearOff: 'Højderyggen er rank igen. Den næste kampesten, der lander på den, vakler.',
     saidEdge: 'Terrænet stopper ved {n}.',
 
     gateTitle: 'Papirterrænet',
@@ -443,10 +508,11 @@ module.exports = {
 
   no: {
     title: 'Avrundingskollen',
-    instruction: 'Sett kampesteinen ned på terrenget og slipp. Den triller ned i den nærmeste gropa — med mindre den blir liggende på høyderyggen: der er ingen side lavere, og den faller ikke av seg selv. Da bestemmer klassen hvilken vei høyderyggen heller.',
+    instruction: 'Sett kampesteinen ned på terrenget og slipp. Den triller ned i den nærmeste gropa — med mindre den blir liggende på høyderyggen: der er ingen side lavere, den faller ikke av seg selv, og hva tallet skal brukes til avgjør hvilken vei den går.',
 
     ariaGround: 'Terreng med ei grop i hver ende og en høyderygg i midten.',
     ariaStone: 'kampesteinen med tallet {n}',
+    ariaStoneRest: 'kampesteinen med tallet {n}, ligger i gropa {d}',
     ariaRidge: 'høyderyggen, midt mellom de to gropene',
     ariaTilt: 'høyderyggen, som heller den veien klassen har bestemt',
 
@@ -461,15 +527,18 @@ module.exports = {
     letGo: 'Slipp',
     tiltDown: 'Hell høyderyggen mot den lavere gropa',
     tiltUp: 'Hell høyderyggen mot den høyere gropa',
-    clearTilt: 'Rett opp høyderyggen igjen',
+    clearTilt: 'Tallet skal brukes til noe annet nå – rett opp høyderyggen igjen',
     again: 'En ny kampestein',
 
     saidSet: '{n}',
     saidSettled: '{n} triller ned i gropa {d}.',
-    saidTeeter: '{n} ligger på høyderyggen. Ingen side er lavere, så kampesteinen faller ikke av seg selv. Hvilken vei skal klassen helle den?',
-    saidTiltSet: 'Klassen har helt høyderyggen mot {d}. Fra nå av går kampesteinen den veien hver gang den havner på høyderyggen.',
-    saidTiltClear: 'Høyderyggen er rett igjen. Fra nå av vakler en kampestein som havner der, til klassen bestemmer.',
+    saidTeeter: '{n} ligger på høyderyggen. Ingen side er lavere, så kampesteinen faller ikke av seg selv. Hva skal disse tallene brukes til — og hvilken vei skal det helle høyderyggen?',
+    saidTiltSet: 'Klassen har helt høyderyggen mot {d}, ut fra hva disse tallene brukes til nå. Hver kampestein som havner nøyaktig på høyderyggen, går den veien til det endrer seg.',
+    saidTiltClear: 'Høyderyggen er rett igjen. Hva skal disse tallene brukes til nå? Kampesteinen vakler til klassen heller den på nytt.',
     saidAlready: 'Dette endrer ingenting her. Sett ned en ny kampestein.',
+    saidAlreadyLevel: 'Høyderyggen er allerede rett.',
+    saidAlreadySet: 'Høyderyggen heller allerede den veien.',
+    saidTiltClearOff: 'Høyderyggen er rett igjen. Den neste kampesteinen som havner der, vakler.',
     saidEdge: 'Terrenget slutter ved {n}.',
 
     gateTitle: 'Papirterrenget',
@@ -484,10 +553,11 @@ module.exports = {
 
   fi: {
     title: 'Pyöristysmäki',
-    instruction: 'Aseta lohkare maastoon ja päästä irti. Se vierii lähimpään kuoppaan – paitsi jos se jää harjanteelle: siellä kumpikaan puoli ei ole alempana, eikä lohkare lähde itsestään liikkeelle. Silloin luokka päättää, kummalle puolelle harjanne kallistuu.',
+    instruction: 'Aseta lohkare maastoon ja päästä irti. Se vierii lähimpään kuoppaan – paitsi jos se jää harjanteelle: siellä kumpikaan puoli ei ole alempana, lohkare ei lähde itsestään liikkeelle, ja se, mihin lukua tarvitaan, ratkaisee kumpaan suuntaan se menee.',
 
     ariaGround: 'Maasto, jonka kummassakin päässä on kuoppa ja keskellä harjanne.',
     ariaStone: 'lohkare, jossa lukee {n}',
+    ariaStoneRest: 'lohkare, jossa lukee {n}, lepää kuopassa {d}',
     ariaRidge: 'harjanne, tasan kahden kuopan puolivälissä',
     ariaTilt: 'harjanne, joka kallistuu luokan päättämään suuntaan',
 
@@ -502,15 +572,18 @@ module.exports = {
     letGo: 'Päästä irti',
     tiltDown: 'Kallista harjanne alempaa kuoppaa kohti',
     tiltUp: 'Kallista harjanne ylempää kuoppaa kohti',
-    clearTilt: 'Suorista harjanne taas tasaiseksi',
+    clearTilt: 'Lukua tarvitaan nyt johonkin muuhun – suorista harjanne taas tasaiseksi',
     again: 'Uusi lohkare',
 
     saidSet: '{n}',
     saidSettled: '{n} vierii kuoppaan {d}.',
-    saidTeeter: '{n} on harjanteella. Kumpikaan puoli ei ole alempana, joten lohkare ei lähde itsestään liikkeelle. Kummalle puolelle luokka sen kallistaa?',
-    saidTiltSet: 'Luokka on kallistanut harjanteen lukua {d} kohti. Tästä lähtien lohkare menee aina sinne, kun se jää harjanteelle.',
-    saidTiltClear: 'Harjanne on taas tasainen. Tästä lähtien harjanteelle jäävä lohkare huojuu, kunnes luokka päättää suunnan.',
+    saidTeeter: '{n} on harjanteella. Kumpikaan puoli ei ole alempana, joten lohkare ei lähde itsestään liikkeelle. Mihin näitä lukuja tarvitaan – ja kumpaan suuntaan sen pitäisi kallistaa harjanne?',
+    saidTiltSet: 'Luokka on kallistanut harjanteen lukua {d} kohti sen mukaan, mihin näitä lukuja nyt tarvitaan. Jokainen lohkare, joka jää tarkalleen harjanteelle, menee sinne, kunnes se muuttuu.',
+    saidTiltClear: 'Harjanne on taas tasainen. Mihin näitä lukuja nyt tarvitaan? Lohkare huojuu, kunnes luokka kallistaa harjanteen uudelleen.',
     saidAlready: 'Tämä ei muuta tässä mitään. Aseta uusi lohkare maastoon.',
+    saidAlreadyLevel: 'Harjanne on jo tasainen.',
+    saidAlreadySet: 'Harjanne kallistuu jo siihen suuntaan.',
+    saidTiltClearOff: 'Harjanne on taas tasainen. Seuraava harjanteelle jäävä lohkare huojuu.',
     saidEdge: 'Maasto loppuu lukuun {n}.',
 
     gateTitle: 'Paperinen maasto',

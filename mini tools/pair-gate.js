@@ -137,7 +137,7 @@
       ariaYard: { en: 'The parade waiting, the archway, and the yard beyond it.' },
       ariaWaiting: { en: '{n} still waiting' },
       ariaThrough: { en: '{n} through, in {r} ranks' },
-      ariaStand: { en: '{n} left standing, with an empty place beside them' },
+      ariaStand: { en: '{n} left standing, with {e} empty places beside them' },
       ariaSill: { en: 'the sill, as wide as the archway' },
 
       setN: { en: 'How many abreast' },
@@ -145,7 +145,6 @@
       n3: { en: 'three' },
       n4: { en: 'four' },
       n5: { en: 'five' },
-      setSize: { en: 'How many are marching' },
 
       predYes: { en: 'Everybody will get through' },
       predNo: { en: 'Somebody will be left standing' },
@@ -158,6 +157,11 @@
       saidPredNo: { en: 'The class says somebody will be left standing. The bar is up.' },
       saidRank: { en: '{n} through, {w} still waiting.' },
       saidClear: { en: 'All {n} went through, in {r} ranks of {k}. Nobody was left standing.' },
+      /* ⚠ pressing on after a parade that CLEARED used to announce
+         saidStand with s=0 — "0 left standing, because 12 does not fill
+         a rank of 2" — which contradicts itself, since 12 fills ranks of
+         two perfectly. */
+      saidAllThrough: { en: 'Everybody is already through. Start a new parade.' },
       saidStand: { en: '{s} left standing, because {n} does not fill a rank of {k}. The archway will not take a part-rank.' },
       saidSecond: { en: 'A second parade of {n}. It leaves {s} standing too.' },
       saidSill: { en: 'Both of them on the sill — and the sill is a full rank, so it goes through. {a} and {b} together made a number that fills the archway exactly.' },
@@ -169,10 +173,15 @@
          in a case where sillFull() is false: the model knew and the
          sentence lied. The refusal to pretend is what makes the two-case
          special rather than merely typical. */
-      saidSillShort: { en: '{a} and {b} on the sill make {c} — and {c} still does not fill a rank of {k}. Two left-behinds only ever make a full rank when the archway takes two.' },
+      saidSillShort: { en: '{a} and {b} on the sill make {c} — and {c} still does not fill a rank of {k}, so they wait too. At two abreast two left-behinds always make a rank; at wider archways only sometimes.' },
       saidBarDown: { en: 'Say first what the class thinks will happen. The bar goes up when you have.' },
-      saidNoSill: { en: 'The sill only takes those left standing, and there are none.' },
-      saidBusy: { en: 'The archway is in use. Start a new parade to change how many go abreast.' },
+      /* ⚠ the old text named `a+b===0`, which is reachable in ZERO
+         states because bringSecond already guarantees somebody is
+         standing. These two are the refusals a child can actually
+         cause. */
+      saidNoSecond: { en: 'Bring the second parade first — the sill is for two lots of left-behinds.' },
+      saidOnSill: { en: 'They are already on the sill.' },
+      saidBusy: { en: 'The class has already said what it thinks. Call them forward and find out.' },
 
       gateTitle: { en: 'The paper parade' },
       gateBody: { en: 'The whole apparatus is free — every width, every rank, the refusal and the sill. A Teacher plan adds the paper parade to cut out and line up on a desk, so a child can walk the marchers through an archway they cut themselves.' },
@@ -181,7 +190,7 @@
 
       printBtn: { en: 'Print the paper parade' },
       sheetTitle: { en: 'Paper parade to cut out' },
-      sheetNote: { en: 'Cut out the marchers and the archway strip. Line the marchers up and send them through in ranks. When too few are left to fill the archway, leave them standing and draw the empty place beside them — that empty place is what the number is telling you.' }
+      sheetNote: { en: 'Cut out the marchers and the archway. Line the marchers up and send them through in ranks. When too few are left to fill the archway, leave them standing and draw the empty place beside them — that empty place is what the number is telling you.' }
     },
 
     settings: [
@@ -282,16 +291,16 @@
       return s.onSill > 0 && s.onSill % s.k === 0;
     },
 
-    /* ⚠ THE WIDTH CANNOT CHANGE MID-PARADE. Reflowing marchers who have
-       already gone through as pairs into ranks of three would be a lie
-       about what happened. */
-    setWidth: function (st, k) {
-      var s = this._st(st);
-      if (!(k >= GEO.MIN_N && k <= GEO.MAX_N)) return null;
-      if (k === s.k) return null;
-      if (s.ranks > 0 || s.pred !== null) return null;
-      return { k: k, total: s.total, ranks: 0, pred: null, second: null, onSill: 0 };
-    },
+    /* ⚠⚠ THERE IS NO setWidth, AND THAT IS THE FIX. One shipped here
+       with the docblock's proudest guard in it — "the width cannot
+       change mid-parade, reflowing marchers who already went through as
+       pairs into ranks of three would be a lie about what happened" —
+       and it had ZERO CALL SITES, so the invariant it announced was
+       never in force. The real width path is the settings chip, which
+       goes through onSettings() -> reset() and starts a fresh parade, so
+       a part-marched parade can never be re-flowed: the guarantee is
+       structural, not conditional. A guard that looks shipped and never
+       runs is worse than no guard, because the docblock cites it. */
 
     /* ================= life cycle =================================== */
 
@@ -434,7 +443,11 @@
     _call: function () {
       var api = this.api;
       var next = this.sendRank(null);
-      if (!next) { this._refuse(this.st.pred === null ? 'bar' : 'stand'); return; }
+      if (!next) {
+        this._refuse(this.st.pred === null ? 'bar'
+          : (this.standing(this.st) === 0 ? 'clear' : 'stand'));
+        return;
+      }
       this.st = next;
       this._paint(GEO.T_RANK);
       this._snd(GEO.SND_THROUGH);
@@ -463,7 +476,7 @@
     _sillMove: function () {
       var api = this.api, self = this;
       var next = this.toSill(null);
-      if (!next) { this._refuse('sill'); return; }
+      if (!next) { this._refuse(this.st.onSill > 0 ? 'onsill' : 'nosecond'); return; }
       var a = this.standing(this.st), b = this.secondStanding(this.st);
       this.st = next;
       this._paint(GEO.T_RANK);
@@ -488,7 +501,9 @@
         window.setTimeout(function () { a.classList.remove('is-refuse'); }, self._dur(GEO.T_REFUSE));
       }
       if (why === 'bar') { api.announce(api.t('saidBarDown')); return; }
-      if (why === 'sill') { api.announce(api.t('saidNoSill')); return; }
+      if (why === 'nosecond') { api.announce(api.t('saidNoSecond')); return; }
+      if (why === 'onsill') { api.announce(api.t('saidOnSill')); return; }
+      if (why === 'clear') { api.announce(api.t('saidAllThrough')); return; }
       if (why === 'pred') { api.announce(api.t('saidBusy')); return; }
       var s = this.st;
       api.announce(this._fmt(api.t('saidStand'), { s: this.standing(s), n: s.total, k: s.k }));
@@ -533,7 +548,7 @@
       this._row(this._wait, wait, s.k, { seats: this.done(s) });
       this._yard.setAttribute('aria-label', this._fmt(api.t('ariaThrough'), { n: thru, r: s.ranks }));
       this._wait.setAttribute('aria-label', this.done(s) && this.standing(s)
-        ? this._fmt(api.t('ariaStand'), { n: this.standing(s) })
+        ? this._fmt(api.t('ariaStand'), { n: this.standing(s), e: s.k - this.standing(s) })
         : this._fmt(api.t('ariaWaiting'), { n: wait }));
 
       this._sec.style.display = s.second === null ? 'none' : '';

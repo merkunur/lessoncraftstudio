@@ -1274,6 +1274,31 @@
     "metaTitle": "Bagepladen — svære gangestykker på tavlen | gratis værktøj",
     "metaDescription": "En plade boller bagt sammen på tavlen: klassen knækker den ét sted, siger begge stykker højt og finder 7 · 6 i 5 · 6 og 2 · 6. Antallet ændrer sig aldrig."
   },
+  "times-shelf": {
+    "slug": "tabelreolen-den-lille-tabel",
+    "name": "Tabelreolen",
+    "tagline": "Hundrede fliser i en reol: klassen lægger det væk, den kan i forvejen, og opdager, at den lille tabel i virkeligheden er 21 stykker at lære — ikke hundrede.",
+    "about": [
+      "Tabelreolen er hele den lille tabel sat op på klassens skærm: hundrede cremefarvede fliser i en dyb reol. En flise viser kun sit tal — der står 21, ikke 7 og 3 — og de to tal, den kommer af, står ude i kanten, øverst og til venstre. Der er ikke ét gangetegn og ikke ét eneste ord på selve apparatet. Fire knapper lægger 1, 2, 5 og 10 væk, rækken og kolonnen på én gang, og bagefter lukker reolen sig sammen, så de fliser, der er tilbage, bliver større. Hundrede bliver til 81, til 64, til 49 og til 36 — og det, klassen ser blive mindre, er ikke en score, det er arbejdet, der er tilbage.",
+      "De fire ryger ud, fordi klassen ejede dem, længe før multiplikation blev nævnt: 1 laver ingenting, 2 er fordobling hentet direkte fra plus, 5 er en tælleremse fra uret og fingrene, og 10 er selve titalssystemet. Ingen af dem er et gangestykke, man skal lære udenad. Så kommer det sidste træk: alle fliser under diagonalen lægges væk, fordi deres tal allerede står på den anden side, og 21 fliser bliver stående. Tre tallerkener med fire er stadig ikke fire tallerkener med tre — men begge giver 12, og 12 skal kun huskes én gang. Det er præcis det træk, tyskerne kalder Kernaufgaben og hollænderne steunsommen, og det ligger i tråd med arbejdet med regnestrategier og hovedregning under Tal og algebra i Fælles Mål. Tallene på diagonalen — 3 gange 3, 4 gange 4, 6 gange 6, 7 gange 7, 8 gange 8 og 9 gange 9 — bliver aldrig lagt væk: de har ingen makker på den anden side, og reolen kan slet ikke tilbyde trækket.",
+      "Hele apparatet er gratis og bliver ved med at være det: alle hundrede fliser, de fire knapper begge veje, det sidste træk, at sætte det hele tilbage, og at trykke på en flise og se hvert andet sted, det samme tal står. Lærerabonnementet lægger arket til print oveni: reolen præcis, som klassen forlod den, og under den hvert stykke, der stadig står tilbage, skrevet én gang hver. Der bliver ikke målt noget her — ingen tid der løber, ingen point, ingen karakter og ingen mærker for rigtigt og forkert. Det, værktøjet er bygget imod, er tabeltesten på tid, ikke tabellerne."
+    ],
+    "howToUse": [
+      "Sæt reolen op på tavlen med alle hundrede fliser, før klassen kommer ind, og spørg ikke om noget endnu. Lad dem se den hele — det er dét, de tror, de skal lære.",
+      "Spørg, hvilke tabeller klassen kan i forvejen, og lad dem selv sige 1, 2, 5 og 10. Tryk så på knapperne én ad gangen, og lad dem se reolen lukke sig sammen og fliserne blive større for hver gang.",
+      "Tæl aldrig fliserne for dem. Spørg i stedet, hvor mange rækker og hvor mange kolonner der er tilbage — og lad klassen selv regne ud, hvor mange fliser det bliver. Det er timens egentlige stykke.",
+      "Tryk på det sidste træk, når alle fire er væk, og lad der gå et øjeblik, før du forklarer noget. Spørg, hvorfor de fliser under diagonalen godt måtte lægges væk. Svaret står på den anden side af reolen, og klassen kan se det.",
+      "Tryk på en flise, og se hvert andet sted, det samme tal står. På den hele reol svarer fire fliser på 12, tre på 36 og kun én på 49 — spørg klassen, hvorfor 49 står alene."
+    ],
+    "classroomIdeas": [
+      "Dagens ene spørgsmål: tryk på ét tal, og lad klassen finde alle de steder, det står, før nogen siger noget højt. Lad dem selv opdage, at nogle tal står fire steder og andre kun ét.",
+      "Skriv de seks tal, der bliver stående ude i kanten — 3, 4, 6, 7, 8 og 9 — op på tavlen, og spørg, hvilke gangestykker klassen så mangler at lære. Reolen har allerede svaret; de skal bare læse det af den.",
+      "Fliserne på diagonalen bliver aldrig lagt væk. Når et barn opdager det, så lad spørgsmålet stå til klassen i stedet for at svare: 6 gange 6 har ingen makker på den anden side, og det kan de se på reolen selv.",
+      "Med Lærerabonnementet følger arket til print: reolen, som klassen forlod den, og listen under den. Lad børnene skrive den af i hæftet. Det er deres liste for året — og de har selv lavet den."
+    ],
+    "metaTitle": "Tabelreolen — den lille tabel på tavlen | gratis værktøj",
+    "metaDescription": "Hundrede fliser på klassens skærm. Læg 1, 2, 5 og 10 væk, og se den lille tabel skrumpe til 21 gangestykker, klassen selv skal lære. Uden login, på alle enheder."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

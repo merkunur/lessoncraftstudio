@@ -86,6 +86,30 @@ const TOOLS = [
       T.premium = true;
       if (T._paint) T._paint();
     } },
+  /* TOOL #47. Same shape and the same reason for the prime: this tool
+     also has NO STORAGE AT ALL, deliberately, so the shared premium
+     finder cannot see it. Its sheet is a SIBLING of the wrap — the
+     print block sets `.tsh-wrap{display:none}` and a hidden parent
+     kills the whole subtree, so a sheet built inside it would measure
+     0px tall on paper with every assertion green. */
+  { key: 'times-shelf', p: 'tsh', apparatus: '.tsh-sheet', chrome: '.tsh-ledge',
+    /* ⚠ AND THE SHEET IS BUILT ON DEMAND, so the prime has to call it —
+       otherwise this measures an empty container and reports the
+       apparatus missing. It is also what adds `tsh-printing`, the class
+       the whole @media print block is scoped to: unscoped, the rules
+       fired for everybody and a browser-initiated Ctrl+P printed a
+       BLANK PAGE. Put the shelf into its residue state first, so the
+       sheet the gate measures is the one a class would actually print. */
+    prime: function () {
+      var T = window.TimesShelf;
+      if (!T) return;
+      T.premium = true;
+      var k, F = [1, 2, 5, 10];
+      for (k = 0; k < F.length; k++) T.st = T.putAway(T.st, F[k]) || T.st;
+      T.st = T.stack(T.st) || T.st;
+      if (T._paint) T._paint();
+      if (T._buildSheet) T._buildSheet();
+    } },
   /* ⭐ LETTER STUDIO WAS "HAS A BLOCK, NO PROBE" — which is exactly why the
      window.print()-with-no-sheet defect caught twice elsewhere was still
      live in it. Its sheet is PREMIUM-ONLY and built as real DOM, so the

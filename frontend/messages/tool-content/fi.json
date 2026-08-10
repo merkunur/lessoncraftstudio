@@ -1252,6 +1252,31 @@
     "metaTitle": "Pullapelti — vaikea kertotaulu helpoista | Ilmainen",
     "metaDescription": "Ilmainen kertolaskutyökalu taululle: pellillinen pullia riveissä, jonka luokka katkaisee saumasta. 7 · 6 hajoaa apulaskuiksi 5 · 6 ja 2 · 6. Ei kirjautumista."
   },
+  "times-shelf": {
+    "slug": "kertotaulun-opettelu-kortisto",
+    "name": "Kertotaulukortisto",
+    "tagline": "Kortisto, josta luokka panee sivuun kaikki jo osaamansa kertotaulut — ja näkee omin silmin, kuinka vähän on enää opeteltavaa.",
+    "about": [
+      "Kertotaulukortisto on yksi ainoa esine luokan seinälle heijastettavaksi: syvänvihreä kortisto, jossa on kymmenen riviä ja kymmenen saraketta kermanvärisiä kortteja. Kortissa näkyy vain tulo. Tekijät ovat reunoilla — rivien luvut vasemmassa laidassa, sarakkeiden luvut ylälaidassa — eikä kortistossa ole yhtään kertomerkkiä eikä yhtään sanaa. Neljä painiketta panee sivuun ykkösen, kakkosen, viitosen ja kympin, aina koko rivin ja koko sarakkeen yhdellä kertaa. Kortisto sulkeutuu umpeen jokaisen painalluksen jälkeen ja jäljelle jääneet kortit kasvavat isommiksi, niin että ne näkyvät luokan takariviin asti.",
+      "Nämä neljä lähtevät sivuun siksi, että luokka omisti ne jo ennen kuin kertolaskua opetettiin: ykkönen ei muuta lukua miksikään, kakkonen on yhteenlaskusta tuttu tuplaus, viitosen luokka on laskenut kellotaulusta ja sormista, ja kymppi on paikkajärjestelmä. Kun ne on pantu sivuun ja kortisto vielä pinotaan lävistäjältä, jäljelle jää 21 laskua. Lävistäjän neliöt eivät lähde koskaan, koska niillä ei ole paria — sitä ei kerrota kenellekään, vaan luokka huomaa sen itse. Kortiston voi purkaa ja koota uudestaan niin monta kertaa kuin haluaa, joten sama huomio kestää kokonaisen lukuvuoden.",
+      "Kortisto panee sivuun listan, ei lakia eikä tilannetta. Se ei väitä, että kolme kertaa neljä ja neljä kertaa kolme olisivat sama kysymys tai sama kuva: kolme lautasellista neljää ei ole neljä lautasellista kolmea. Ne tulevat vain samaan lukuun, ja se luku tarvitsee muistaa vain kerran. Juuri tästä laskustrategiasta on kyse, kun OPS 2014 puhuu vuosiluokkien 3–6 sisällöissä kertotaulujen varmentamisesta ja laskustrategioiden käytöstä. Väline ei ole tutkimuksella mitattu opetusmenetelmä eikä lupaa oppimistuloksia — se tekee näkyväksi ja käteen otettavaksi sen työtavan, jota opetussuunnitelma jo edellyttää."
+    ],
+    "howToUse": [
+      "Heijasta kortisto luokan eteen ja anna lasten katsoa sitä hetki ääneti. Kortissa näkyy vain tulo, tekijät ovat reunoilla — kysy, mistä kortin luku oikein tulee.",
+      "Napauta vuorotellen ykköstä, kakkosta, viitosta ja kymppiä. Kysy joka kerta ennen painallusta: montako korttia tämä vie? Painallus vie koko rivin ja koko sarakkeen, kortisto sulkeutuu umpeen ja jäljelle jääneet kortit kasvavat.",
+      "Kun neljä taulua on sivussa, pinoamispainike vapautuu. Se panee sivuun kaikki lävistäjän alapuoliset kortit, koska sama luku seisoo jo toisella puolella. Sano tässä kohtaa ääneen myös se, mitä pinoaminen ei tarkoita: kolme lautasellista neljää ei ole sama asia kuin neljä lautasellista kolmea.",
+      "Napauta yksittäistä korttia, niin kaikki saman luvun kortit syttyvät kerralla — ja kortin omat reunaluvut sen mukana. Kaksitoista syttyy neljästä paikasta, kolmekymmentäkuusi kolmesta, neljäkymmentäyhdeksän yhdestä. Tästä alkaa tunnin paras keskustelu.",
+      "Lopuksi ota kaikki takaisin. Huomenna aloitetaan taas täydestä kortistosta — ja luokka muistaa jo, mitkä lähtevät ensimmäisinä."
+    ],
+    "classroomIdeas": [
+      "Ennustuskierros: ennen jokaista painallusta luokka arvaa, montako korttia lähtee. Oikeat vastaukset ovat 19, 17, 15 ja 13, ja kolmannen jälkeen joku huomaa säännön ilman että sitä kerrotaan.",
+      "Lävistäjälle jäävät kortit eivät lähde koskaan sivuun, koska niillä ei ole paria. Älä sano syytä — pyydä luokkaa selittämään, miksi juuri ne jäivät jäljelle.",
+      "Vuoden lista vihkoon: kun kortisto on riisuttu, tulosta jäljelle jääneet laskut ja anna jokaisen kirjoittaa ne omaan vihkoonsa. Se on koko vuoden urakka, ja luokka teki listan itse. Tulostus kuuluu Opettaja-tilaukseen.",
+      "Lyhyt aloitus: asetuksista kortiston voi avata niin, että ykkönen, kakkonen, viitonen ja kymppi ovat valmiiksi sivussa. Silloin tunti alkaa suoraan siitä, mitä on oikeasti vielä opeteltavana."
+    ],
+    "metaTitle": "Kertotaulun opettelu: kortisto, josta jää 21 laskua",
+    "metaDescription": "Pankaa sivuun ykkösen, kakkosen, viitosen ja kympin taulut, pinotkaa loput — ja nähkää, että kertotaulusta jää opeteltavaksi vain 21 laskua. Ei ajanottoa."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

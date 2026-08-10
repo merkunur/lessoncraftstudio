@@ -1273,6 +1273,31 @@
     "metaTitle": "La teglia dei panini — spezzare una tabellina difficile",
     "metaDescription": "Una teglia di panini per la LIM: 7 righe da 6 si spezza in 5 righe da 6 e 2 righe da 6, due tabelline che la classe sa già. Senza timer né punteggio, gratuita."
   },
+  "times-shelf": {
+    "slug": "scaffale-delle-tabelline-tavola-pitagorica",
+    "name": "Lo scaffale delle tabelline",
+    "tagline": "Cento carte alla lavagna: la classe mette da parte quello che sa già e scopre che le moltiplicazioni da imparare davvero sono ventuno.",
+    "about": [
+      "Lo scaffale delle tabelline è una tavola pitagorica per la LIM: cento carte color panna dentro uno scaffale verde. Ogni carta mostra soltanto il suo risultato — il 21, il 48, il 63 — mentre i due fattori restano sui bordi, i numeri delle righe a sinistra e quelli delle colonne in alto. Sull’oggetto non c’è nessun segno di moltiplicazione e non c’è una sola parola scritta: si tocca una carta e si accendono tutte quelle che tengono lo stesso numero, insieme ai due numeri di bordo che le appartengono. Tocca il 12 e rispondono in quattro; tocca il 36 e rispondono in tre; tocca il 49 e risponde da solo.",
+      "Quattro pulsanti — 1, 2, 5, 10 — mettono da parte una famiglia alla volta, la riga e la colonna insieme. Non sono quattro tabelline qualsiasi: l’uno non cambia niente, il due è il doppio che i bambini si portano dietro dall’addizione, il cinque è una conta a salti già fatta sull’orologio e sulle dita, il dieci è il modo in cui scriviamo i numeri. La classe possedeva tutte e quattro prima che la moltiplicazione le fosse insegnata. A ogni pulsante lo scaffale si richiude e le carte rimaste diventano più grandi: da 100 a 81, poi 64, poi 49, poi 36 — e ogni volta quello che resta è un quadrato che si vede a occhio dal fondo dell’aula.",
+      "L’ultimo pulsante mette da parte tutte le carte sotto la diagonale, perché quel numero è già in piedi dall’altra parte, e le carte rimaste ne tengono due ciascuna: restano ventuno moltiplicazioni. Conta molto come lo si dice in classe: tre piatti da quattro non sono quattro piatti da tre, e la domanda non è la stessa domanda — ma il risultato è dodici tutte e due le volte, e il dodici va tenuto a mente una volta sola. I quadrati — tre per tre, quattro per quattro, sei per sei, sette per sette, otto per otto, nove per nove — non se ne vanno mai, perché dall’altra parte non hanno nessun compagno: è l’oggetto stesso che non può offrire quella mossa. Le Indicazioni nazionali chiedono di conoscere con sicurezza le tabelline fino al dieci e di servirsi delle proprietà delle operazioni: qui la proprietà commutativa non è una regola da ripetere, è la ragione per cui l’elenco si accorcia sotto gli occhi della classe. Non promettiamo risultati e su questo oggetto non esistono studi: quello che possiamo dire è che rende visibile una strategia che i programmi già chiedono."
+    ],
+    "howToUse": [
+      "Proietta lo scaffale al completo e lascia che qualcuno tocchi una carta: si accendono tutte quelle che tengono lo stesso numero.",
+      "Chiedi quale tabellina la classe sa già senza pensarci, poi metti da parte quella riga e quella colonna insieme e guardate lo scaffale richiudersi.",
+      "Prima di premere il pulsante seguente, fate dire ad alta voce quante carte se ne andranno; poi premetelo e verificate insieme.",
+      "Quando l’1, il 2, il 5 e il 10 sono da parte, metti da parte le carte sotto la diagonale e chiedi perché si può fare: la risposta è che quel numero sta già in piedi dall’altra parte.",
+      "Rimetti tutto e ricomincia la settimana dopo: l’oggetto non ricorda niente, e la conversazione si può rifare da capo."
+    ],
+    "classroomIdeas": [
+      "Fate copiare sul quaderno l’elenco che è rimasto e appendetelo in classe: è l’elenco che la classe si è costruita da sé, non quello del libro.",
+      "Toccate il 12 e contate quante carte rispondono, poi il 36, poi il 49 che risponde da solo — e chiedete che cosa hanno di diverso il 36 e il 49.",
+      "Le Indicazioni nazionali mettono le tabelline fino al dieci tra i traguardi di fine terza: qui i bambini non le ripetono, decidono quali devono davvero tenere a mente e perché possono lasciar perdere le altre.",
+      "Tenete lo scaffale aperto per tutto l’anno e ripartite ogni volta dalle cento carte: il punto non è arrivare in fondo in fretta, è che ogni bambino sappia dire perché una carta se ne può andare."
+    ],
+    "metaTitle": "Tavola pitagorica: 21 moltiplicazioni da imparare",
+    "metaDescription": "Cento carte alla lavagna: la classe mette da parte l’1, il 2, il 5, il 10 e le carte sotto la diagonale. Restano 21 moltiplicazioni. Strumento gratuito per la LIM."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

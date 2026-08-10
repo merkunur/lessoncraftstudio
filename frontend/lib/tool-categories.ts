@@ -82,6 +82,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'build-plan': 'measurement',
   'exchange-machine': 'number',
   'baking-tray': 'number',
+  'times-shelf': 'number',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

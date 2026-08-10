@@ -1274,6 +1274,31 @@
     "metaTitle": "Gangestykker fra kjente fakta – 2.-3. trinn | Bolleplata",
     "metaDescription": "Gratis verktøy for tavla: bollene er stekt sammen, klassen bestemmer hvor plata skal brytes, og 7 rader med 6 kommer ut av 5 rader med 6 og 2 rader med 6."
   },
+  "times-shelf": {
+    "slug": "gangetabellen-multiplikasjon-3-4-trinn",
+    "name": "Tabellreolen",
+    "tagline": "Hundre kort står framme i reolen – og når klassen har lagt bort det den kunne fra før, og alt som allerede står på den andre siden av diagonalen, er det bare 21 kort igjen å lære.",
+    "about": [
+      "Tabellreolen er hele den lille gangetabellen satt opp som hundre kort i en dyp reol. På hvert kort står bare svaret: 21, ikke 7 og 3. De to faktorene står langs kanten – radene nedover til venstre, kolonnene bortover øverst – så barnet må lese seg fram til hvor tallet hører hjemme. Det står ikke ett eneste ord på selve reolen, og ikke noe gangetegn heller. Trykker du på et kort, lyser hvert kort som holder det samme tallet, sammen med de to kanttallene til kortet du trykket på. Trykk på 12, og fire kort svarer. Trykk på 36, og tre. Trykk på 49, og bare ett.",
+      "Fire knapper legger bort 1-gangen, 2-gangen, 5-gangen og 10-gangen – hele raden og hele kolonnen på én gang. Ikke fordi de er uviktige, men fordi klassen eide dem lenge før multiplikasjon ble undervist: 1 gjør ingenting, 2 er dobling hentet rett fra addisjon, 5 er telling i femmere fra klokka og fingrene, og 10 er plassverdisystemet. Ingen av de fire er egentlig et gangefakta. For hver knapp lukker reolen seg, kortene som står igjen blir større, og det som blir liggende er alltid en firkantet blokk: hundre, så 81, så 64, så 49, så 36. Klassen kan lese tallet rett av formen, uten at verktøyet noen gang skriver det.",
+      "Så kommer det siste trekket: alt som står under diagonalen kan legges bort, fordi tallet allerede står på den andre siden, og kortet som blir igjen, holder da to kort. Her er verktøyet nøye med hva det sier. Det påstår ikke at 3 tallerkener med 4 og 4 tallerkener med 3 er det samme – det er de ikke, og en annen aktivitet her lærer barna nettopp den forskjellen. Det sier bare at begge blir tolv, og at tolv bare trenger å huskes én gang. De seks tallene på diagonalen – 3 ganger 3, 4 ganger 4, 6 ganger 6, 7 ganger 7, 8 ganger 8 og 9 ganger 9 – blir aldri lagt bort, for de har ingen makker på den andre siden; apparatet kan rett og slett ikke tilby det trekket. Strategien er verken ny eller vår: tyske Kernaufgaben og nederlandske steunsommen bygger på nøyaktig den, og LK20 ber elevene bruke ulike strategier i multiplikasjon framfor å pugge hele tabellen. Vi lover ingen effekt – det finnes ingen studie av akkurat dette apparatet. Det er ingen klokke, ingen poeng og ingen prøve i verktøyet. Samtalen er din."
+    ],
+    "howToUse": [
+      "La reolen stå på storskjermen med alle hundre kortene framme før klassen kommer inn, og la dem se på den en stund før noen sier noe. Det er denne de gruer seg til, og det er verdt å si høyt.",
+      "Spør hvilke tabeller klassen kan fra før. Legg bort 1-gangen først, og la dem se raden og kolonnen forsvinne samtidig mens reolen lukker seg og kortene som er igjen blir større.",
+      "Ta 2-gangen, 5-gangen og 10-gangen etter tur, og stopp mellom hver. La noen gjette hva som står igjen før du trykker – formen er alltid en firkantet blokk, så gjetningen kan sjekkes med øynene.",
+      "Trykk på et kort og la klassen finne de andre kortene som lyser. Trykk på 12, og fire lyser. Trykk på 49, og bare ett. Spør hvorfor noen tall står mange steder og andre bare ett.",
+      "Legg til slutt bort alt under diagonalen, og si det høyt: 3 tallerkener med 4 er fortsatt ikke 4 tallerkener med 3 – men begge blir tolv, og tolv trenger bare å huskes én gang. Legg alt tilbake når dere er ferdige; reolen husker ingenting til neste time, og det er med vilje."
+    ],
+    "classroomIdeas": [
+      "Gjett før du trykker: la klassen si hvor mange kort de tror blir liggende igjen etter neste knapp, og sammenlign med blokka som faktisk står der etterpå. Ingen fasit fra skjermen – dere teller sammen.",
+      "Kortene uten makker: når alt under diagonalen er lagt bort, la parene finne de kortene som fortsatt står alene, og forklare hvorfor det ble akkurat de seks. Dette er samtalen om tallene på diagonalen, lenge før notasjonen kommer.",
+      "Skriv av lista: hver elev skriver av det som står igjen, i kladdeboka. Det er lista for året, og de har laget den selv – det er en helt annen følelse enn å få den utdelt.",
+      "Bygg videre fra det dere kan: gi hvert par to eller tre av kortene som står igjen, og be dem finne en vei fram til svaret fra noe de kan fra før – for eksempel 6 ganger 7 som 5 ganger 7 og én sjuer til."
+    ],
+    "metaTitle": "Gangetabellen – hundre kort blir 21 | Tabellreolen",
+    "metaDescription": "Gratis verktøy for tavla: hele gangetabellen som hundre kort. Klassen legger bort 1-, 2-, 5- og 10-gangen, og til slutt står bare 21 kort igjen. 3.–4. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

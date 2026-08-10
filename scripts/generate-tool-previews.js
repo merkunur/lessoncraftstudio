@@ -136,6 +136,23 @@ const SEEDS = {
   'baking-tray': [
     { sel: '.btr-comb-row .btr-pad', nth: 4, wait: 720 }
   ],
+  /* ⭐ THE TIMES SHELF AT REST IS A HUNDRED CARDS, WHICH SELLS THE DREAD
+     AND NOT THE PRODUCT. The card has to show the RESIDUE: five real
+     presses — the four families, then STACK — leave twenty-one large
+     cards, fifteen empty seats below the diagonal, and every off-
+     diagonal card visibly holding TWO. That single frame is the whole
+     argument, and the six squares standing alone on the diagonal are
+     the part a teacher recognises from across a shelf listing.
+     ⚠ Driven through REAL buttons, by index — the pointer path resolves
+     from clientX/clientY and reaching a control by its English text is
+     how #44 matched "Another BLUEPRINT" with a /print/i probe. */
+  'times-shelf': [
+    { sel: '.tsh-b-fam', nth: 0, wait: 680 },
+    { sel: '.tsh-b-fam', nth: 3, wait: 680 },
+    { sel: '.tsh-b-fam', nth: 1, wait: 680 },
+    { sel: '.tsh-b-fam', nth: 2, wait: 680 },
+    { sel: '.tsh-b-stack', nth: 0, wait: 760 }
+  ],
   /* ⭐ THE EXCHANGE MACHINE AT REST IS A SUM THAT HAS NOT HAPPENED YET.
      The card has to show the ARGUMENT, not the setup: on 42 - 17 the
      ones column holds two with seven outlines over it, which is a

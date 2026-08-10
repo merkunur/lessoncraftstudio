@@ -1280,6 +1280,31 @@
     "metaTitle": "The Baking Tray — Breaking a Hard Times Table Fact in Two",
     "metaDescription": "A free whole-class tray of buns for multiplication: break seven rows of six into five rows and two rows, two facts the class already knows. No total, no timer, no score. Ages 7-9."
   },
+  "times-shelf": {
+    "slug": "times-shelf-multiplication-square",
+    "name": "The Times Shelf",
+    "tagline": "A hundred cards on a shelf. Put away the tables the class owned before multiplication was taught, and twenty-one are left to learn.",
+    "about": [
+      "The Times Shelf is the whole multiplication square, standing on the classroom screen as a hundred cream cards in a deep teal shelf. A card shows only its product — 21, never 7 and 3 — and the two factors live on the edges, the row numerals down the left and the column numerals across the top. There is no multiplication sign anywhere on the apparatus and not one word of text. Press a card and every other card holding that same number lights up, along with its own two edge numerals.",
+      "Four buttons put away the 1, the 2, the 5 and the 10 — the row and the column together, because no two languages name a table by the same factor. They go not because they are unimportant but because the class owned all four before multiplication was taught: one changes nothing, two is doubling carried over from addition, five is a skip-count already done on the clock and on fingers, and ten is the place-value system. After each press the shelf closes up and the surviving cards grow, so a hundred becomes 81, then 64, then 49, then 36 — and every one of those is a square the class can read off the shape.",
+      "Then one more move: every card below the diagonal can be put away, because its number is already standing on the other side, and the cards that keep those numbers visibly hold two. Twenty-one are left. What the shelf says and what it refuses to say both matter here — three plates of four is still not four plates of three, and this platform ships a separate activity whose whole job is that distinction. But both come to twelve, and twelve only has to be remembered once. It is the list that gets shorter, never the law and never the situation. The six squares on the diagonal never leave: they have no partner on the other side, and the apparatus cannot offer the move. There is no timer, no score and no diploma anywhere in it, and there is no efficacy study for this apparatus — what is defensible is that it instantiates a derived-fact strategy that national curricula already prescribe."
+    ],
+    "howToUse": [
+      "Put the full shelf up before the lesson starts and say nothing for ten seconds. The crowding is the content; do not apologise for it.",
+      "Ask which of these the class already knows without stopping to think. Somebody will say the ones. Put them away — and ask what just happened to the shelf.",
+      "Do the tens, the twos and the fives in whatever order the class calls them. Before each press, ask the question that matters: does everyone in this room own that one? If a hand goes down, do not press.",
+      "Press a single card and watch every other card holding that number light up. On the full shelf twelve answers from four places, thirty-six from three, and forty-nine only from itself.",
+      "When all four are away, put away everything below the diagonal — and let the class count what is left before you say it. That is their list for the year, and they made it."
+    ],
+    "classroomIdeas": [
+      "Predict before each press: how many cards will this one take? The answers run 19, 17, 15 and 13, two fewer every time, and working out why is a better lesson than the number.",
+      "Ask why the six cards on the diagonal can never be put away. They have no partner on the other side — children see it on the shelf long before anyone needs the words for it.",
+      "Copy the residue into exercise books. It is not a list you handed out; it is a list they obtained, and the difference is audible in the room.",
+      "Take one surviving card and make it a word problem twice over: three baskets of eight, eight baskets of three. The two stories do not resemble each other; the answer does. That is exactly what the shelf just put away, and nothing more."
+    ],
+    "metaTitle": "The Times Shelf — the multiplication square, down to 21",
+    "metaDescription": "A hundred cards for the whiteboard. The class puts away the tables it already owned — 1, 2, 5, 10 — and finds only twenty-one facts left to learn. Free."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

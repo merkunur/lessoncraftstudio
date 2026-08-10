@@ -1275,6 +1275,31 @@
     "metaTitle": "Das Brötchenblech – Einmaleins ableiten, Klasse 2 und 3",
     "metaDescription": "Kostenloses Werkzeug zum Ableiten im Einmaleins: Ein Blech Brötchen bricht an einer Rille auseinander, und aus 7 × 6 werden 5 × 6 und 2 × 6. Klasse 2 und 3."
   },
+  "times-shelf": {
+    "slug": "einmaleinstafel-kernaufgaben-grundschule",
+    "name": "Der Setzkasten",
+    "tagline": "Hundert Kärtchen, und die Klasse räumt weg, was sie längst kann – am Ende stehen 21 Aufgaben da, und mehr waren es nie.",
+    "about": [
+      "Der Setzkasten ist eine Einmaleinstafel für den Klassenbildschirm: hundert cremefarbene Kärtchen in einem dunkelgrünen Kasten. Auf jedem Kärtchen steht nur sein Ergebnis, nie die Aufgabe – die beiden Faktoren stehen am linken und am oberen Rand, und ein Malzeichen kommt auf dem Gerät überhaupt nicht vor. Vier Tasten räumen je eine Zeile samt ihrer Spalte weg. Danach rückt der Kasten zusammen und die übrigen Kärtchen werden größer, bis man sie von der letzten Bank aus lesen kann. Jede Taste ist ein Schalter: Alles lässt sich mit demselben Tipp zurückstellen.",
+      "Weggeräumt wird nicht, was unwichtig ist, sondern was die Klasse schon vor dem Einmaleins besaß: Die 1 ändert nichts, die 2 ist das Verdoppeln aus der Addition, die 5 ist eine Zählreihe von der Uhr und von den Fingern, die 10 ist das Stellenwertsystem. Sind alle vier weg, lässt sich zusätzlich jedes Kärtchen unterhalb der Diagonale wegräumen, weil seine Zahl auf der anderen Seite schon steht – die Tauschaufgabe als Rechenvorteil, wie der Lehrplan sie unter den Ableitungsstrategien vorsieht. Wichtig dabei, und das Gerät behauptet nie etwas anderes: Drei Teller mit je vier Stück bleiben etwas anderes als vier Teller mit je drei Stück. Nur das Ergebnis ist dasselbe, und dieses Ergebnis muss man sich nur einmal merken. Die sechs Kärtchen auf der Diagonale bleiben immer stehen – sie haben keinen Partner, und der Kasten kann ihnen die Bewegung gar nicht erst anbieten.",
+      "Der ganze Setzkasten ist kostenlos: alle vier Familien, das Wegräumen unterhalb der Diagonale, das Zurückstellen und die Zahlensuche, bei der ein Tipp auf ein Kärtchen jedes andere mit derselben Zahl mitleuchten lässt. Zum Lehrkraft-Abo gehört die Lernliste auf Papier – ein Blatt mit dem Kasten in seinem aktuellen Zustand und darunter jede Aufgabe, die noch steht, jede nur einmal, gesetzt mit dem Malpunkt, den deutsche Schulen schreiben. Für dieses Gerät gibt es keine Wirksamkeitsstudie, und wir behaupten keine. Belegen lässt sich etwas anderes: Es macht eine Ableitungsstrategie sichtbar, die im Lehrplan ohnehin steht."
+    ],
+    "howToUse": [
+      "Öffnen Sie den Setzkasten am Beamer oder Whiteboard. Hundert Kärtchen stehen da, jedes mit seinem Ergebnis. Fragen Sie zuerst, wie viele davon die Klasse Ihrer Meinung nach wirklich auswendig lernen muss, und schreiben Sie die Schätzungen auf.",
+      "Tippen Sie nacheinander auf 1, 2, 5 und 10. Vor jedem Tipp leuchtet die Zeile mit ihrer Spalte auf, sodass die Klasse vorhersagen kann, was gleich verschwindet. Fragen Sie jedes Mal nach: Warum darf diese Familie weg?",
+      "Sind alle vier weg, tippen Sie auf die Taste mit den zwei versetzten Kärtchen. Jedes Kärtchen unterhalb der Diagonale wird weggeräumt, und die Kärtchen, deren Partner gegangen ist, tragen von da an sichtbar zwei. Lassen Sie die Klasse zählen, was übrig bleibt, bevor Sie es aussprechen.",
+      "Tippen Sie auf ein einzelnes Kärtchen: Jedes andere mit derselben Zahl leuchtet mit, dazu die beiden Randzahlen. Auf dem vollen Setzkasten findet die 12 vier Plätze, die 36 drei, die 49 nur sich selbst – das ist die kürzeste Begründung dafür, warum die Diagonale stehen bleibt.",
+      "Alles zurückstellen, und morgen wieder von vorn. Der Setzkasten merkt sich nichts, und das ist Absicht: Die Klasse soll den Weg jedes Mal selbst gehen."
+    ],
+    "classroomIdeas": [
+      "Schätzen vor dem Wegräumen: Bevor eine Familie verschwindet, stimmt die Klasse ab, wie viele Kärtchen es treffen wird. Die Antworten sind 19, 17, 15 und 13 – jedes Mal zwei weniger. Warum das so sein muss, finden die Kinder meist selbst heraus, und dann haben sie nebenbei erklärt, warum sich Zeile und Spalte in genau einem Kärtchen treffen.",
+      "Die Diagonale erklären lassen: Räumen Sie alle vier Familien weg und fragen Sie, warum sich ausgerechnet diese sechs Kärtchen nicht zu zweit legen lassen. Die Kinder sehen es am Gerät, lange bevor jemand das Wort Quadratzahlen braucht – das kommt erst in Klasse 5.",
+      "Die Lernliste als Jahresvertrag: Am Ende steht der Rest da. Lassen Sie die Kinder abschreiben, was übrig ist: „Das ist eure Liste für dieses Jahr, und ihr habt sie selbst gemacht.“ Mit dem Lehrkraft-Abo gibt es dasselbe Blatt gedruckt, mit dem Kasten obendrauf.",
+      "Gegen den Zeitdruck: Ein Kind, das vor der vollen Einmaleinstafel kapituliert, kapituliert nicht vor einundzwanzig Aufgaben. Räumen Sie den Kasten gemeinsam leer und lassen Sie ihn den Vormittag über stehen – der Rest ist dann nicht die Ansage der Lehrkraft, sondern das Ergebnis der Klasse."
+    ],
+    "metaTitle": "Der Setzkasten – Einmaleinstafel ausräumen, Klasse 2 und 3",
+    "metaDescription": "Kostenloses Werkzeug für die Einmaleinstafel: Die Klasse räumt weg, was sie längst kann – 1, 2, 5, 10 und alles unterhalb der Diagonale. Übrig: 21 Aufgaben."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Landing Strip — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #53 - THE PAIR GATE. A parade, an archway exactly N marchers
+       wide, and a yard beyond it. The class PREDICTS whether everybody
+       gets through - and only then does the bar lift, which is what
+       stops this being a cutscene. Ranks are called one at a time, and
+       when fewer than N remain the archway REFUSES, for ever, without
+       ever calling anybody wrong. What is left standing is drawn exactly
+       like every other marcher; what IS drawn is the empty seat beside
+       it. Then a second parade arrives and both leftovers step onto the
+       sill - a plate exactly as wide as the archway - and a full plate is
+       a rank. At two abreast that ALWAYS fills, which is odd + odd =
+       even; at three abreast it sometimes does not, which is why two is
+       special rather than merely typical. It loads NO ART and NO AUDIO
+       beyond the shell's own pop. -->
+
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/pair-gate.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(PairGate, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -85,13 +85,6 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
         eq(T.waiting(st), T.standing(st), 'L1 at a standstill, waiting IS what is standing');
         if (T.standing(st) === 0) cleared++; else leftSome++;
 
-        /* ⚠ the width cannot change mid-parade: reflowing marchers who
-           already went through as pairs into ranks of three is a lie
-           about what happened. */
-        if (n > 0) {
-          const other = k === G.MIN_N ? G.MIN_N + 1 : G.MIN_N;
-          ok(T.setWidth(st, other) === null, 'L1 ⚠ the width changed mid-parade at k=' + k);
-        }
       });
     }
   }
@@ -208,6 +201,16 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
   eq(T.strings.title.en, 'The Pair Gate', 'L5 the product name is the operator\'s');
   /* ⭐ the honest-sill string must exist and must name the width */
   ok(!!T.strings.saidSillShort, 'L5 ⭐ there is no string for a sill that does NOT fill');
+  /* ⚠⚠ AND THE SHORT-SILL STRING MUST NOT CLAIM WIDER ARCHWAYS NEVER
+     FILL. The first version said 'only ever when the archway takes two',
+     which a native panel refuted in 237 reachable states — and it fires
+     in exactly those states, so a class could hear it and then watch it
+     be wrong one parade later. */
+  ok(!/only ever/i.test(T.strings.saidSillShort.en),
+    'L5 ⚠⚠ the short-sill string claims wider archways NEVER fill — refuted in 237 reachable states');
+  ok(/sometimes/i.test(T.strings.saidSillShort.en),
+    'L5 the short-sill string does not say that wider archways fill SOMETIMES');
+  ok(T.setWidth === undefined, 'L5 setWidth is back — it had zero call sites and announced an invariant it never enforced');
   ok(/\{k\}/.test(T.strings.saidSillShort.en), 'L5 the short-sill string does not name the archway width');
 }
 

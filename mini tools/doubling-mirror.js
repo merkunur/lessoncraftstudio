@@ -132,7 +132,7 @@
 
     strings: {
       title: { en: 'The Doubling Mirror' },
-      instruction: { en: 'Put counters on the near leaf and say what the double will be. Then close the hinge — the far leaf gets the same number again, and you can count every one of them.' },
+      instruction: { en: 'Set the near leaf to a number and say what the double will be. Close the hinge and the far leaf gets the same number again — then add one more and open it, and see what a double and one more looks like.' },
 
       ariaTray: { en: 'A tray with two leaves and a hinge between them.' },
       ariaNear: { en: 'the near leaf, {n}' },
@@ -140,8 +140,8 @@
       ariaOdd: { en: 'one counter with no partner, waiting for a side' },
 
       setStart: { en: 'What the tray starts with' },
-      startSmall: { en: 'a few counters' },
-      startTen: { en: 'up to ten' },
+      startSmall: { en: 'three to start' },
+      startTen: { en: 'seven to start' },
 
       addOne: { en: 'Put another counter on the near leaf' },
       takeOne: { en: 'Take a counter off the near leaf' },
@@ -149,7 +149,7 @@
       open: { en: 'Open the hinge' },
       sideLow: { en: 'Give the odd one to the near leaf' },
       sideHigh: { en: 'Give the odd one to the far leaf' },
-      again: { en: 'Clear the tray' },
+      again: { en: 'Start again' },
 
       saidPlace: { en: '{n} on the near leaf.' },
       saidClosed: { en: '{n} and {n} on the tray. {d} altogether.' },
@@ -157,17 +157,21 @@
       saidOddWaiting: { en: '{t} will not open into two equal leaves. One counter has no partner — which leaf should this class give it to?' },
       saidOddPlaced: { en: '{t} opens into {a} and {b}. The odd one went to the {s} leaf, so this is a double and one more.' },
       saidEmpty: { en: 'There is nothing on the tray yet.' },
-      saidFull: { en: 'The near leaf holds {n}, and that is as many as it takes.' },
+      saidFull: { en: 'The near leaf holds {n}, and that is as many as it holds.' },
+      /* ⚠ 'side' now has a branch; this is what it says. */
+      saidNoOdd: { en: 'There is no odd counter waiting for a leaf.' },
+      sideNameNear: { en: 'near' },
+      sideNameFar: { en: 'far' },
       saidAlreadyClosed: { en: 'The hinge is already closed. Open it to take the tray apart again.' },
       saidAlreadyOpen: { en: 'The hinge is already open.' },
 
       gateTitle: { en: 'The paper tray' },
-      gateBody: { en: 'The whole apparatus is free — every count, the closing, the opening and the odd one\'s side. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves.' },
+      gateBody: { en: 'The whole apparatus is free — every count, the closing and the opening. A Teacher plan adds the paper tray to cut out and hinge, so a child can lay real counters on both leaves and bend it shut themselves.' },
       gateCta: { en: 'See the Teacher plan' },
       gateClose: { en: 'Not now' },
 
       printBtn: { en: 'Print the paper tray' },
-      sheetTitle: { en: 'Paper tray to cut out and hinge' },
+      sheetTitle: { en: 'Paper trays to cut out and hinge' },
       sheetNote: { en: 'Cut out the tray and score along the middle so it bends. Lay counters on one leaf, say what the double will be, then bend the other leaf over and lay the same number again. Count them all — the tray never makes a counter, you do.' }
     },
 
@@ -208,18 +212,20 @@
        disagree with the near one. */
     far: function (st) {
       var s = this._st(st);
-      if (!s.closed) return 0;
-      if (s.odd === null) return s.near;
+      /* an OPENED tray still has counters on both leaves — `opened`
+         records that it was taken apart rather than never closed. */
+      if (!s.closed && s.opened === null) return 0;
+      if (s.odd === null || s.odd === 0) return s.near;
       return s.near + (s.odd > 0 ? 1 : 0);
     },
     nearShown: function (st) {
       var s = this._st(st);
-      return s.near + (s.closed && s.odd !== null && s.odd < 0 ? 1 : 0);
+      return s.near + (s.odd !== null && s.odd < 0 ? 1 : 0);
     },
     total: function (st) {
       var s = this._st(st);
-      if (!s.closed) return s.near;
-      return this.nearShown(s) + this.far(s);
+      if (!s.closed && s.opened === null) return s.near;
+      return this.nearShown(s) + this.far(s) + (s.odd === 0 ? 1 : 0);
     },
     /* is there an odd counter still waiting for a side? */
     waiting: function (st) { return this._st(st).odd === 0; },
@@ -228,7 +234,24 @@
 
     place: function (st, d) {
       var s = this._st(st);
-      if (s.closed) return null;
+      /* ⭐⭐ ON A CLOSED TRAY, ONE MORE COUNTER IS THE ODD ONE — and this
+         is the path that was missing. Without it close() only ever made
+         an even total, open() never saw an odd one, and the tool's
+         entire headline (nine opens to five and four) was UNREACHABLE:
+         five authored strings and two controls dead, in a build whose
+         626-assertion gate and 16 pixel checks both passed — because
+         both reached the model directly instead of pressing a button.
+         ⚠ And it holds exactly ONE, so the tray says n+n and n+(n+1)
+         and nothing else. */
+      if (s.closed) {
+        if (d > 0) {
+          if (s.odd !== null) return null;
+          if (this.total(s) + 1 > GEO.CAP * 2 + 1) return null;
+          return { near: s.near, closed: true, odd: 0, opened: null };
+        }
+        if (s.odd === null) return null;
+        return { near: s.near, closed: true, odd: null, opened: null };
+      }
       var n = s.near + d;
       if (n < 0 || n > GEO.CAP) return null;
       return { near: n, closed: false, odd: null, opened: null };
@@ -249,10 +272,16 @@
       var s = this._st(st);
       var t = total == null ? this.total(s) : total;
       if (!s.closed && total == null) return null;
+      if (s.opened !== null && total == null) return null;   /* already open */
       if (t < 2 || t > GEO.CAP * 2) return null;
       var half = Math.floor(t / 2);
-      if (t % 2 === 0) return { near: half, closed: true, odd: null, opened: t };
-      return { near: half, closed: true, odd: 0, opened: t };
+      /* ⚠⚠ closed:false. It returned TRUE, so "open the hinge" did not
+         open the hinge and nothing in the DOM changed — a control that
+         acts and has no consequence, which the shared liveness gate
+         scores green because it only asks whether the DOM changed AT
+         ALL. An opened tray shows both leaves side by side. */
+      if (t % 2 === 0) return { near: half, closed: false, odd: null, opened: t };
+      return { near: half, closed: false, odd: 0, opened: t };
     },
 
     /* ⭐⭐ THE ODD ONE GETS A LEAF, AND ONLY EVER ONE OF THEM. dir -1
@@ -325,7 +354,6 @@
       this._wrap = wrap;
       var card = api.el('div', 'dbm-card');
       var tray = api.el('div', 'dbm-tray');
-      tray.setAttribute('role', 'img');
       this._tray = tray;
 
       this._nearEl = api.el('div', 'dbm-leaf dbm-near');
@@ -422,7 +450,7 @@
       this._snd(GEO.SND_SIDE);
       api.announce(this._fmt(api.t('saidOddPlaced'), {
         t: next.opened, a: this.nearShown(next), b: this.far(next),
-        s: dir < 0 ? '1' : '2'
+        s: api.t(dir < 0 ? 'sideNameNear' : 'sideNameFar')
       }));
     },
 
@@ -436,7 +464,11 @@
       if (why === 'full') { api.announce(this._fmt(api.t('saidFull'), { n: GEO.CAP })); return; }
       if (why === 'empty') { api.announce(api.t('saidEmpty')); return; }
       if (why === 'closed') { api.announce(api.t('saidAlreadyClosed')); return; }
-      if (why === 'open') { api.announce(api.t(s.closed ? 'saidEmpty' : 'saidAlreadyOpen')); return; }
+      if (why === 'open') { api.announce(api.t('saidAlreadyOpen')); return; }
+      /* ⚠ 'side' had NO branch and fell through to the default, so
+         pressing a side button on a closed tray announced "the hinge is
+         already open" — false, and reachable. */
+      if (why === 'side') { api.announce(api.t('saidNoOdd')); return; }
       api.announce(api.t('saidAlreadyOpen'));
     },
 

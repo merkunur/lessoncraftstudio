@@ -1413,23 +1413,25 @@
   "doubling-mirror": {
     "name": "La cerniera",
     "slug": "doppio-e-meta-con-i-gettoni-scuola-primaria",
-    "tagline": "Chiudi la cerniera e l’altra anta riceve altrettanti gettoni VERI: si possono toccare tutti.",
+    "tagline": "Dite quanto farà il doppio, chiudete la cerniera e contate i dischi mentre arrivano. Poi apritela: gli stessi dischi si dividono di nuovo in due — una cerniera sola, nei due sensi.",
     "metaTitle": "Doppio e metà con i gettoni, scuola primaria",
-    "metaDescription": "Dite prima quale sarà il doppio, poi chiudete il vassoio e contate. Nove si apre in cinque e quattro, perché quello che avanza deve andare da qualche parte.",
+    "metaDescription": "Strumento gratuito per la LIM: dite quanto farà il doppio, chiudete e contate i gettoni. Aprite, e il tutto si divide in due: tredici lascia uno senza compagno.",
     "about": [
-      "Portate l’anta vicina a un numero e dite quanto farà il doppio. Chiudete la cerniera: l’anta lontana ne riceve altrettanti. Poi aggiungete un disco in più e aprite — ecco com’è fatto un doppio e uno in più.",
-      "Due ante unite da una cerniera.",
-      "Tutta la cerniera è gratuita: ogni conteggio, la chiusura e l’apertura. Il Piano Insegnante aggiunge la cerniera di carta da ritagliare e incidere, così un bambino può mettere dischi veri su tutte e due le ante e chiuderla con le sue mani."
+      "Raddoppiare un’apparenza non è raddoppiare una quantità, ed è proprio questo il punto. Un bambino che ne conta dodici dove ce ne sono sei ha contato sei cose vere e sei cose che non ci sono, per giunta girate al contrario. Per questo qui ci sono soltanto due ante, una cerniera in mezzo e dischi veri: ognuno si prende in mano e si conta una volta sola.",
+      "Chiusa, la cerniera tiene tutto insieme; aperta, lo tiene diviso in due. Mettete dei dischi sull’anta vicina, dite quanto farà il doppio prima che si muova qualcosa, e chiudetela: l’anta lontana ne riceve altrettanti, posati uno alla volta, così la classe li conta mentre arrivano. Poi apritela, e tutto quello che c’è dentro si divide di nuovo in due. È la stessa cerniera che gira dall’altra parte, sugli stessi identici dischi, ed è la metà del lavoro che quasi nessuna classe arriva a vedere.",
+      "E un numero che non si divide in due parti uguali non blocca niente. Un disco resta senza nessuno di fronte, e decide la classe che cosa farne: darlo all’anta vicina, e allora nove è quattro e quattro e uno in più; oppure trovargli un compagno, e allora nove era un doppio a cui mancava uno. Sono vere tutte e due, e i bambini vorranno cose diverse. Non ci sono punteggi, non c’è tempo che scorre, e niente viene mai segnato come giusto o sbagliato."
     ],
     "howToUse": [
-      "Mettere un altro disco sull’anta vicina Sull’anta vicina: 6.",
-      "Chiudere la cerniera 6 e 6 sulle ante. 12 in tutto.",
-      "Aprire la cerniera 12 torna a essere 6 e 6."
+      "Sistemate l’anta vicina e fate dire il numero a tutta la classe prima che si chiuda niente. La lezione è nel dirlo prima; la chiusura serve solo a controllare.",
+      "Chiudete la cerniera e contate ad alta voce i dischi mentre arrivano sull’anta lontana, uno alla volta. Non c’è niente da prendere per buono.",
+      "Aprite la cerniera e chiedete quanti ne avrà un’anta: un numero solo se si divide in parti uguali, due se un’anta finirà con uno in più. È la metà più difficile del fatto, e quella che quasi nessuna classe esercita.",
+      "Quando un disco resta senza compagno, chiedete alla classe: lo diamo all’anta vicina, o gli andiamo a prendere un compagno? Provate la prima risposta, poi richiudete e riaprite per rimettere insieme lo stesso numero di prima, e provate la seconda. Confrontate quello che si legge sulle ante."
     ],
     "classroomIdeas": [
-      "9 non si divide in due ante uguali. Un disco resta senza compagno: a quale anta lo dà la classe?",
-      "9 torna a essere 5 e 4. Il disco senza compagno è sull’anta 1: è un doppio e uno in più.",
-      "Ritagliate le due ante e incidete bene la linea di mezzo perché si chiudano. Mettete dei dischi su un’anta, dite quanto farà il doppio, chiudete l’altra anta sopra e mettetene altrettanti. Contateli tutti: la cerniera non fabbrica nemmeno un disco, lo fate voi."
+      "Cominciate dalla parte del dimezzare: chiudete la cerniera, portatela con i pulsanti al numero che volete e poi apritela. Dimezzare è la stessa cerniera che gira dall’altra parte, e la classe lo può vedere.",
+      "Una routine da due minuti: tre cerniere, tre numeri detti ad alta voce, e il conteggio dopo, che mette d’accordo tutti.",
+      "Fate otto e poi nove, uno dopo l’altro. Chiedete che cosa ha fatto di diverso la cerniera: non ha fatto niente di diverso, ed è esattamente questo il punto.",
+      "Chiedete tutte e due le risposte per lo stesso disco avanzato: prima datelo all’anta vicina, poi rimettete insieme il nove e trovategli un compagno. Un nove è un doppio e uno in più; l’altro è un doppio a cui mancava uno. Sono due modi di dire lo stesso nove, anche se dopo il secondo sulle ante di dischi ce ne sono dieci."
     ]
   },
   "missing-question": {

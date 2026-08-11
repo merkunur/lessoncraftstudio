@@ -1414,23 +1414,25 @@
   "doubling-mirror": {
     "name": "Hengslet",
     "slug": "det-dobbelte-og-halvparten-med-brikker-smatrinnet",
-    "tagline": "Lukk hengselet, og den andre klaffen får like mange EKTE brikker — du kan ta på alle sammen.",
+    "tagline": "Si hva det dobbelte blir, lukk hengslet og tell skivene mens de lander. Åpne det så, og de samme skivene deles ut på to klaffer igjen — ett hengsel, begge veier.",
     "metaTitle": "Det dobbelte og halvparten med brikker, småtrinnet",
-    "metaDescription": "Si først hva det dobbelte blir, og lukk så brettet og tell. Ni åpner seg til fem og fire, for den ene som blir til overs må jo et sted.",
+    "metaDescription": "Gratis verktøy til tavla: si hva det dobbelte blir, lukk hengslet og tell skivene. Åpne det, så deles alt i to igjen — og tretten lar én skive stå uten make.",
     "about": [
-      "Still den nærmeste klaffen på et tall, og si hva det dobbelte blir. Lukk hengslet: den borterste klaffen får like mange til. Legg så på en skive til og åpne — slik ser et dobbelt og en til ut.",
-      "To klaffer med et hengsel imellom.",
-      "Hele hengslet er gratis — hver opptelling, lukkingen og åpningen. Lærerabonnementet legger til papirhengslet som dere klipper ut og risser opp, slik at et barn kan legge ekte skiver på begge klaffene og lukke det med sine egne hender."
+      "Her dobles ikke noe som bare ser dobbelt ut. Hengslet har to klaffer, og når det lukkes, får den borterste klaffen like mange ekte skiver som den nærmeste — lagt ned én om gangen, mens klassen teller dem inn. Alt som ligger der, kan tas på og telles nøyaktig én gang. Det er hele poenget: et barn som teller tolv, har talt tolv ting, ikke seks ting og seks som bare synes å være der. Derfor er dette to klaffer, et hengsel imellom og skiver av papp — ingenting som later som.",
+      "Et lukket hengsel er det hele; et åpent hengsel er to deler. Legg skiver på den nærmeste klaffen, si hva det dobbelte blir før noe beveger seg, og lukk hengslet: den borterste klaffen får like mange til, lagt ned én om gangen, så klassen rekker å telle dem inn. Åpne det så, og alt sammen deles ut på de to klaffene. Å finne halvparten er det samme hengslet som går den andre veien, med akkurat de samme skivene — og det er den halvdelen de færreste klasser får se.",
+      "Og et tall som ikke går helt opp i to klaffer, stopper ingenting. Én skive blir stående uten make, og klassen bestemmer hva som skal skje med den: gi den til den nærmeste klaffen, så er ni fire og fire og én til; eller hent en make til den, så viser det seg at ni var et dobbelt som manglet én. Begge deler er sant, og barna vil ville hver sin. Ingenting telles som poeng, ingenting tas på tid, og ingenting blir noen gang merket som riktig eller galt."
     ],
     "howToUse": [
-      "Legg en skive til på den nærmeste klaffen På den nærmeste klaffen: 6.",
-      "Lukk hengslet 6 og 6 på klaffene. 12 til sammen.",
-      "Åpne hengslet 12 blir 6 og 6 igjen."
+      "Still den nærmeste klaffen, og la klassen si tallet før noe lukkes. Det å si det først er selve undervisningen; lukkingen er bare prøven.",
+      "Lukk hengslet og tell skivene høyt mens de lander på den borterste klaffen, én om gangen. Ingenting må tas på tro.",
+      "Åpne hengslet og spør hvor mange den ene klaffen får — ett tall hvis det går opp, to tall hvis det ikke gjør det. Det er den vanskeligste halvdelen av regnestykket, og den de færreste klasser øver på.",
+      "Når én skive blir stående uten make, spør klassen: skal den få plass på den nærmeste klaffen, eller skal vi hente en make til den? Ta ett svar om gangen, bygg opp det samme tallet på nytt før dere prøver det andre, og sammenlign hva hengslet viser hver gang."
     ],
     "classroomIdeas": [
-      "9 går ikke opp i to like klaffer. En skive er uten make — hvilken klaff skal klassen gi den til?",
-      "9 blir 5 og 4. Skiven uten make ligger på den 1 klaffen — det er et dobbelt og en til.",
-      "Klipp ut de to klaffene og riss opp midtlinjen, så de lar seg lukke. Legg skiver på den ene klaffen, si hva det dobbelte blir, legg den andre klaffen over og legg like mange til. Tell dem alle: hengslet lager ikke en eneste skive — det gjør dere."
+      "Begynn med halvparten, i tre steg: lukk hengslet om en liten nærmeste klaff, trykk deg oppover til det tallet dere vil ha, og åpne det først da. Å finne halvparten er det samme hengslet som går den andre veien, og klassen får se at det er det.",
+      "En rutine på to minutter: tre runder, tre tall sagt høyt, og opptellingen etterpå som avgjør hver av dem.",
+      "Ta åtte og så ni rett etter hverandre. Spør hva hengslet gjorde annerledes — det gjorde ingenting annerledes, og nettopp det er poenget.",
+      "Be om begge svarene på den samme skiven uten make: gi den til den nærmeste klaffen, og bygg så tallet opp på nytt og hent den en make i stedet. Begge sier noe sant om ni — ni er fire og fire og én til, og ni var et dobbelt som manglet én. Men si høyt at når maken er hentet, ligger det ti på hengslet, ikke ni; da slipper klassen å lete etter motsetningen på egen hånd."
     ]
   },
   "missing-question": {

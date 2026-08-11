@@ -208,13 +208,37 @@ const SEEDS = {
     { sel: '.mqu-b-tally', wait: 700 }
   ],
   /* ⭐ #54 AT REST IS A HALF-EMPTY TRAY, which says nothing. The card
-     must carry the moment the tool exists for: BOTH leaves full with the
-     same count, and the odd one waiting below with no partner — the
-     double AND the one who would not fit, in one frame. */
+     must carry the moment the tool exists for: BOTH leaves holding the
+     same count, and the odd one waiting on the spine pad with no
+     partner — the double AND the one who would not fit, in one frame.
+     ⚠⚠ THE CHROME-DRIVEN VERSION OF THIS SEED WENT STALE AGAINST THE
+     REBUILD and nobody noticed, because a seed that does nothing
+     photographs the rest state and looks exactly like a seed that
+     worked. It clicked Close with no numeral committed, which the
+     rebuilt tool REFUSES (`saidPredictFirst`), so the tray never shut
+     and the card showed a half-empty tray anyway.
+     ⚠ SO IT IS SEEDED THROUGH THE MODEL, and built by the tool's OWN
+     moves rather than assigned: every step checks its result and THROWS,
+     so an illegal frame is unphotographable by construction and a
+     future model change breaks the build instead of the card.
+     ⚠ AND THE COUNT IS 11, NOT THE 9 THIS COMMENT FIRST CLAIMED.
+     `newState` opens on a near leaf of 3, so +1 +1 gives 5, closing
+     gives 10 and the ninth-counter step makes 11 — which opens to 5
+     and 5 with one on the pad. The odd-one assertion passed either way
+     because 11 is odd, so the comment was false and the gate could not
+     see it. Read the render, then write the comment. */
   'doubling-mirror': [
-    { sel: '.dbm-b-more', times: 3, wait: 200 },
-    { sel: '.dbm-b-close', wait: 1200 },
-    { sel: '.dbm-b-more', wait: 500 }
+    { js: `(function(){
+        var T = window.DoublingMirror;
+        if (!T) throw new Error('no DoublingMirror global');
+        var s = T.newState('twenty', 'off');
+        for (var i = 0; i < 2; i++) { var n = T.place(s, 1); if (!n) throw new Error('place refused'); s = n; }
+        var c = T.close(s); if (!c) throw new Error('close refused');
+        var d = T.place(c, 1); if (!d) throw new Error('the shut tray refused a ninth');
+        var o = T.open(d); if (!o) throw new Error('open refused');
+        if (o.odd !== 1) throw new Error('the seeded total left no counter without a partner');
+        T.st = o; T._paint();
+      })()`, wait: 700 }
   ],
   /* ⭐ #53 AT REST IS AN EMPTY ROAD AND A CLOSED BOOM, which says
      nothing. The card must carry the moment the tool exists for: the
@@ -774,6 +798,7 @@ const VIEWPORT = {
      five pixels: the shell caps this app's width, so a wider viewport is
      a no-op here. The entry was removed rather than left in place with a
      comment claiming an effect it does not have. */
+
 };
 
 async function runSeed(page, key) {

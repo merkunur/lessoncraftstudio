@@ -1413,23 +1413,25 @@
   "doubling-mirror": {
     "name": "A dobradiça",
     "slug": "dobro-e-metade-com-fichas-anos-iniciais",
-    "tagline": "Feche a dobradiça e a outra aba recebe a mesma quantidade de fichas DE VERDADE — dá para tocar em todas.",
+    "tagline": "Diga quanto vai dar o dobro, feche a dobradiça e conte as pastilhas chegando uma a uma. Depois abra: as mesmas pastilhas se repartem outra vez em duas abas — a mesma dobradiça, nos dois sentidos.",
     "metaTitle": "Dobro e metade com fichas, anos iniciais",
-    "metaDescription": "Digam primeiro qual vai ser o dobro e depois fechem a bandeja e contem. Nove abre em cinco e quatro, porque a que sobra precisa ir para algum lado.",
+    "metaDescription": "Ferramenta gratuita para a lousa: diga quanto vai dar o dobro, feche a dobradiça e conte. Abra e tudo se reparte de novo — e 13 deixa uma pastilha sem par.",
     "about": [
-      "Coloque a aba da frente num número e diga quanto vai dar o dobro. Feche a dobradiça: a aba de trás recebe a mesma quantidade. Depois ponha mais uma pastilha e abra — é assim que fica o dobro e mais uma.",
-      "Duas abas ligadas por uma dobradiça.",
-      "A dobradiça inteira é gratuita: cada contagem, o fechar e o abrir. O Plano Professor acrescenta a dobradiça de papel para recortar e marcar, para uma criança pôr pastilhas de verdade nas duas abas e fechá-la com as próprias mãos."
+      "Aqui nada aparece duas vezes, e é justamente esse o ponto. Uma quantidade que só parece estar ali não pode ser tocada nem contada uma a uma: a criança conta doze, mas seis dessas doze não estão lá. Por isso o material é uma dobradiça de duas abas, e tudo o que está sobre ela é uma pastilha de verdade, que a turma toca e conta uma vez só.",
+      "A dobradiça fechada é o todo; aberta, são duas partes. Ponha pastilhas na aba da frente, peça à turma quanto vai dar o dobro antes de qualquer coisa se mexer e feche a dobradiça: a aba de trás recebe a mesma quantidade, uma pastilha de cada vez, para a turma contar cada uma chegando. Depois abra, e tudo se reparte outra vez em duas abas. É a mesma dobradiça funcionando no sentido contrário, com as mesmíssimas pastilhas — e essa é a metade que quase nenhuma turma chega a ver.",
+      "E um total que não se reparte certinho não trava nada. Uma pastilha fica sem ninguém do outro lado, e a turma decide o que fazer com ela: ela entra na aba da frente, e 9 é 4 e 4 e mais uma; ou a turma busca um par para ela, e aí se descobre que faltava só uma pastilha para 9 ser um dobro. As duas coisas são verdade, e crianças diferentes vão querer coisas diferentes. Nada é pontuado, nada é cronometrado e nada é marcado como certo ou errado."
     ],
     "howToUse": [
-      "Pôr mais uma pastilha na aba da frente Na aba da frente: 6.",
-      "Fechar a dobradiça 6 e 6 nas abas. 12 ao todo.",
-      "Abrir a dobradiça 12 volta a ser 6 e 6."
+      "Monte a aba da frente e recolha a resposta da turma antes de a dobradiça se mexer. Dizer primeiro é a aula; fechar é só a conferência.",
+      "Feche a dobradiça e conte em voz alta as pastilhas caindo na aba de trás, uma de cada vez. Não sobra nada para aceitar sem ver.",
+      "Abra a dobradiça e pergunte quanto vai ficar em uma aba — um número, se repartir certinho; dois, se uma aba acabar com uma a mais. Essa é a metade mais difícil do fato, e a que quase nunca se pratica.",
+      "Quando sobrar uma pastilha sem par, pergunte à turma: ela entra na aba da frente, ou a gente busca um par para ela? Para ouvir as duas respostas você precisa refazer o total entre uma e outra — vale a pena, é aí que a turma compara o que a dobradiça passa a mostrar."
     ],
     "classroomIdeas": [
-      "9 não se reparte em duas abas iguais. Uma pastilha ficou sem par — para qual aba a turma vai dá-la?",
-      "9 volta a ser 5 e 4. A pastilha sem par está na aba 1: é o dobro e mais uma.",
-      "Recorte as duas abas e marque bem a linha do meio para elas fecharem. Ponha pastilhas numa aba, diga quanto vai dar o dobro, feche a outra aba por cima e ponha a mesma quantidade. Conte todas: a dobradiça não faz nenhuma pastilha — quem faz é você."
+      "Dê a volta e comece pela metade: feche uma aba da frente pequena, vá subindo a dobradiça fechada de uma em uma pastilha até o número que você quer e só então abra. É a mesma dobradiça no sentido contrário, e a turma vê isso acontecendo.",
+      "Uma rotina de dois minutos: três dobradiças, três números ditos em voz alta e a contagem depois para resolver cada um.",
+      "Faça 8 e depois 9, um atrás do outro. Pergunte o que a dobradiça fez de diferente — ela não fez nada de diferente, e é exatamente esse o ponto.",
+      "Peça as duas respostas para a mesma sobra: primeiro a pastilha entra na aba da frente; depois refaça o total e deixe a turma buscar um par para ela. As duas falam do 9 — 9 é 4 e 4 e mais uma, e 9 é 5 e 5 menos uma. Diga em voz alta que, depois de buscar o par, quem contar a dobradiça vai contar 10: quem mudou foi a dobradiça, não o 9."
     ]
   },
   "missing-question": {

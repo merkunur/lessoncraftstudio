@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Gap — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #56 - THE GAP, commissioned as "THE CURTAIN". It is not called
+       that because the curtain, the hem and the footprints are all
+       already shipped parts of number-talk-easel and lids, and `curtain`
+       is lost as a part-name in all eleven locales.
+
+       Count the marks on the ground. The gap covers them - and during the
+       gap the marks are NOT BUILT AT ALL, so there is nothing in the DOM
+       to leak. The ground itself carries the only evidence: ONE pulse
+       travelling the baseline, inward or outward, fixed amplitude, one
+       iteration. It proves THAT something happened and WHICH DIRECTION,
+       and it is identical for every magnitude. The gap lifts on a
+       different count, and the class works out what happened.
+
+       A child states a theory by tapping a numeral, and the apparatus
+       acts it out. The landing count and the witnessed count are drawn
+       the same way on the same ground - nothing is marked, nothing is
+       green or red, and no comparison is computed anywhere in the render
+       path. It loads NO ART and NO AUDIO beyond the shell's own pop. -->
+
+  <script src="/mini-tools/lcs-shell.js?v=5"></script>
+  <script src="/mini-tools/the-gap.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(TheGap, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

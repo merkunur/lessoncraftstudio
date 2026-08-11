@@ -1453,6 +1453,30 @@
       "Proponete due volte lo stesso totale con i pallini divisi in modo diverso. Il numero non cambia e tutto il resto sì: ecco perché il totale da solo non dice che cosa è successo."
     ]
   },
+  "the-gap": {
+    "name": "Il frattempo",
+    "slug": "il-frattempo-che-cosa-e-cambiato-mentre-non-si-vedeva-classe-1",
+    "tagline": "Contate i sassi sulla riva. Nel frattempo non si vede niente, e alla fine sono un altro numero: resta da capire che cosa è successo.",
+    "metaTitle": "Il frattempo — che cosa è successo mentre non si vedeva, classe 1",
+    "metaDescription": "Strumento gratuito per la LIM: sassi sulla riva, un frattempo in cui non si vede nulla e un altro conteggio alla fine. La riva dice solo se qualcosa è entrato o uscito, mai quanto.",
+    "about": [
+      "Una riva con dei sassi sopra e un numero che la classe conta ad alta voce insieme. Poi arriva il frattempo: i sassi non sono nascosti dietro qualcosa — finché dura, non vengono disegnati affatto, quindi non c’è niente da sbirciare. Resta la riva, e su di essa corre una sola onda, verso l’interno o verso l’esterno. Quell’onda dice che è successo qualcosa e in che direzione. È identica per un sasso e per sei: la quantità non la lascia mai trapelare.",
+      "Quando il frattempo è passato, si conta di nuovo. L’inizio si sa, la fine si sa, e quello che nessuno ha visto è proprio quanto è cambiato. È la domanda che i quaderni non fanno quasi mai: in tre libri di prima su quattro esaminati negli anni Ottanta non compariva nemmeno una volta. È più difficile della solita domanda sul risultato, e di quella difficoltà vale la pena parlare in classe invece di correggerla.",
+      "Un bambino dice la sua idea toccando un numero. Lo strumento la mette in scena e arriva dove arriva — sulla stessa riva, dello stesso colore e della stessa grandezza. Nessun confronto viene calcolato da nessuna parte: niente diventa verde, niente diventa rosso, nessuna frase dice sbagliato. Il bambino vede che due numeri non sono uguali e riparte da lì. Non ci sono punti né cronometro. Questa routine si basa sulla ricerca ma non su prove di efficacia: descriviamo quello che lo strumento fa e non dichiariamo nessun effetto misurato.",
+      "Qui è tutto gratuito: ogni riva nuova, ogni frattempo e tutte le prove che la classe vuole fare. Il piano Insegnante aggiunge la scheda da stampare, con la riva prima e dopo esattamente come l’ha vista la classe e le righe per le operazioni che ha scritto."
+    ],
+    "howToUse": [
+      "Distribuite una riva e contate insieme ad alta voce. Niente va a tempo: contare può durare quanto serve.",
+      "Fate partire il frattempo. Chiedete alla classe di guardare la riva: è l’unica cosa che resta e mostra una cosa sola — è entrato qualcosa, oppure è uscito qualcosa.",
+      "Quando è passato, contate di nuovo e scrivete i due numeri bene in vista. Poi arriva la domanda vera: quanti, mentre non si vedeva?",
+      "Prendete l’idea di un bambino e toccate quel numero. Lo strumento parte dal primo conteggio e arriva dove porta quell’idea. Se arriva altrove rispetto a quanto ha contato la classe, non è un errore ma un’informazione — chiedete che cosa vi dice."
+    ],
+    "classroomIdeas": [
+      "Due minuti al giorno: una riva, un frattempo e un’operazione scritta alla lavagna. L’operazione è l’obiettivo, contare è la strada.",
+      "Raccogliete tre idee diverse e scrivetele tutte prima di toccare qualsiasi cosa. Poi mettetele in scena una dopo l’altra e guardate dove arriva ciascuna.",
+      "Usate due volte lo stesso conteggio di partenza: una volta entra qualcosa, una volta esce. L’unica differenza è l’onda, e vale la pena chiedere che cosa ha visto davvero la classe."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

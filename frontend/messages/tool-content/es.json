@@ -1452,6 +1452,30 @@
       "Repartan dos veces el mismo total con distinto reparto en la repisa. El número no cambia y todo lo demás sí: por eso el total por sí solo no dice qué pasó."
     ]
   },
+  "the-gap": {
+    "name": "El parpadeo",
+    "slug": "el-parpadeo-que-paso-mientras-nadie-miraba-1-primaria",
+    "tagline": "Cuenten las marcas del suelo. En el parpadeo no se ve nada, y al final el número es otro: falta averiguar qué pasó mientras nadie miraba.",
+    "metaTitle": "El parpadeo — qué pasó mientras nadie miraba, 1.º de primaria",
+    "metaDescription": "Herramienta gratuita para la pizarra: marcas en el suelo, un parpadeo que las quita de la vista y otro recuento al final. El suelo solo dice si algo entró o salió, nunca cuánto.",
+    "about": [
+      "Un suelo con marcas encima y un número que la clase cuenta en voz alta. Luego llega el parpadeo: las marcas no quedan escondidas detrás de nada — mientras dura, sencillamente no se dibujan, así que no hay nada que espiar. Lo único que queda es el suelo, y por él recorre un solo pulso, hacia dentro o hacia fuera. Ese pulso dice que ha pasado algo y hacia dónde. Es idéntico para una marca que para seis: la cantidad no la deja escapar nunca.",
+      "Cuando el parpadeo termina, se vuelve a contar. El principio se sabe, el final se sabe, y lo que nadie ha visto es justo el tamaño del cambio. Es la pregunta que los cuadernos casi nunca traen: en tres de cada cuatro libros de primer curso estudiados en los años ochenta no aparecía ni una sola vez. Es más difícil que la pregunta habitual por el resultado, y esa dificultad merece una conversación en clase antes que una corrección.",
+      "Un niño dice su idea tocando un número. La herramienta la representa y llega adonde llega — sobre el mismo suelo, del mismo color y del mismo tamaño. No se calcula ninguna comparación en ningún sitio: nada se vuelve verde, nada se vuelve rojo, ninguna frase dice mal. El niño ve que dos números no son el mismo y sigue desde ahí. No hay puntos ni reloj. Esta rutina está basada en la investigación, no en pruebas de eficacia: describimos lo que hace la herramienta y no afirmamos ningún efecto medido.",
+      "Aquí todo es gratis: cada suelo nuevo, cada parpadeo y todas las ideas que la clase quiera probar. El plan Docente añade la hoja impresa, con el suelo antes y después tal como la clase acaba de verlo y renglones para las operaciones que escribieron."
+    ],
+    "howToUse": [
+      "Reparte un suelo y cuéntenlo juntos en voz alta. Nada corre contra el reloj: contar puede llevar el tiempo que haga falta.",
+      "Haz que pase el parpadeo. Pide a la clase que mire el suelo: es lo único que se queda, y solo enseña una cosa — entró algo, o salió algo.",
+      "Al terminar, vuelvan a contar y escribe los dos números donde todos los vean. Después llega la pregunta de verdad: ¿cuántas, mientras no mirábamos?",
+      "Toma la idea de un niño y toca ese número. La herramienta parte del primer recuento y llega adonde esa idea la lleve. Si llega a otro sitio que el que contó la clase, no es un error sino un dato — pregunta qué os dice."
+    ],
+    "classroomIdeas": [
+      "Dos minutos al día: un suelo, un parpadeo y una operación en la pizarra. La operación es la meta; contar es el camino.",
+      "Recoge tres ideas distintas y escríbelas todas antes de tocar nada. Después represéntalas una tras otra y que la clase mire adónde llega cada una.",
+      "Usa el mismo recuento inicial dos veces: una con algo que entra y otra con algo que sale. Lo único distinto es el pulso, y conviene preguntar qué vio la clase exactamente."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

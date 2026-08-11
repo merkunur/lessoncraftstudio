@@ -1454,6 +1454,30 @@
       "Ta det samme antallet to ganger med prikkene fordelt ulikt. Tallet er det samme og alt annet er nytt — derfor kan tallet alene ikke fortelle hva som skjedde."
     ]
   },
+  "the-gap": {
+    "name": "Øyeblikket vi ikke ser",
+    "slug": "oyeblikket-hva-skjedde-mens-dere-ikke-sa-det-1-trinn",
+    "tagline": "Tell punktene på bakken. I øyeblikket er det ingenting å se, og etterpå er det et annet antall — så gjenstår det å finne ut hva som skjedde.",
+    "metaTitle": "Øyeblikket vi ikke ser — hva skjedde mens dere ikke så? 1. trinn",
+    "metaDescription": "Gratis tavleverktøy: punkt på bakken, et øyeblikk der ingenting er å se, og et annet antall etterpå. Bakken viser bare om noe kom eller gikk — aldri hvor mye.",
+    "about": [
+      "En bakke med punkt på og et antall klassen teller høyt sammen. Så kommer øyeblikket: punktene gjemmer seg ikke bak noe — så lenge det varer, blir de ikke tegnet i det hele tatt, så det er ingenting å kikke på. Igjen står bakken selv, og over den går én eneste bølge, innover eller utover. Bølgen sier at noe har skjedd, og hvilken vei. Den ser helt lik ut for ett punkt og for seks: mengden røper den aldri.",
+      "Når øyeblikket er over, teller dere på nytt. Begynnelsen vet dere, slutten vet dere, og det ingen har sett, er nettopp hvor stor endringen var. Det er spørsmålet arbeidsbøker nesten aldri stiller: i tre av fire undersøkte førsteklassebøker fra 1980-tallet fantes det ikke én eneste gang. Det er vanskeligere enn det vanlige spørsmålet etter svaret, og den vanskeligheten er verdt en samtale i klassen framfor en retting.",
+      "Et barn sier forslaget sitt ved å trykke på et tall. Verktøyet spiller det ut og lander der det lander — på den samme bakken, i den samme fargen og i den samme størrelsen. Ingen sammenligning blir regnet ut noe sted: ingenting blir grønt, ingenting blir rødt, og ingen setning sier feil. Barnet ser at to tall ikke er like, og går videre derfra. Det finnes verken poeng eller klokke. Denne rutinen er forskningsnær, men ikke evidensbasert: vi beskriver hva verktøyet gjør, og hevder ingen målt effekt.",
+      "Alt her er gratis: hver ny bakke, hvert øyeblikk og så mange forslag klassen vil prøve. Lærerabonnementet gir i tillegg det utskrivbare arket med bakken før og etter, slik klassen nettopp så den, og linjer til regnestykkene dere skrev."
+    ],
+    "howToUse": [
+      "Del ut en bakke, og tell høyt sammen. Ingenting går på tid — tellingen får ta den tida den trenger.",
+      "Start øyeblikket. Be klassen se på bakken: den er det eneste som blir igjen, og den viser bare én ting — noe kom inn, eller noe gikk ut.",
+      "Tell på nytt etterpå, og skriv opp begge tallene godt synlig. Så kommer det egentlige spørsmålet: hvor mange, mens vi ikke kunne se?",
+      "Ta imot et forslag fra et barn, og trykk på tallet. Verktøyet går ut fra den første tellingen og lander der forslaget fører. Lander det et annet sted enn klassen telte, er det ingen feil, men en opplysning — spør hva den forteller dere."
+    ],
+    "classroomIdeas": [
+      "To minutter hver dag: én bakke, ett øyeblikk og ett regnestykke på tavla. Regnestykket er målet, tellingen er veien dit.",
+      "Samle tre ulike forslag, og skriv opp alle før noe blir trykket. Spill dem så ut ett om gangen, og se hvor hvert av dem lander.",
+      "Bruk det samme starttallet to ganger: én gang kommer det noe inn, én gang går det noe ut. Det eneste som skiller, er bølgen — og det er verdt å spørre hva klassen faktisk så."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

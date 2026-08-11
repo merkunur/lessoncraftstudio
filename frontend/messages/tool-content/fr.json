@@ -1453,6 +1453,30 @@
       "Distribuez deux fois le même total avec les ronds répartis autrement. Le nombre ne change pas, tout le reste change — voilà pourquoi le total seul ne dit pas ce qui s’est passé."
     ]
   },
+  "the-gap": {
+    "name": "L’Éclipse",
+    "slug": "l-eclipse-chercher-ce-qui-a-change-cp",
+    "tagline": "Comptez les billes sur le sol. Pendant l’éclipse on ne voit plus rien, et après il n’y en a plus le même nombre — reste à trouver ce qui s’est passé.",
+    "metaTitle": "L’Éclipse — chercher ce qui a changé pendant qu’on ne voyait rien, CP",
+    "metaDescription": "Outil de tableau gratuit : des billes sur le sol, une éclipse qui les fait disparaître et un autre compte à la fin. Le sol dit seulement si quelque chose est entré ou sorti, jamais combien.",
+    "about": [
+      "Un sol avec des billes dessus et un nombre que la classe compte à voix haute. Puis l’éclipse : les billes ne sont pas cachées derrière quelque chose — tant qu’elle dure, elles ne sont pas dessinées du tout, il n’y a donc rien à scruter. Il ne reste que le sol, et une seule onde le parcourt, vers l’intérieur ou vers l’extérieur. Elle dit qu’il s’est passé quelque chose et dans quel sens. Elle est exactement la même pour une bille que pour six : la quantité, elle ne la laisse jamais échapper.",
+      "Quand l’éclipse est finie, on recompte. Le départ est connu, l’arrivée est connue, et ce que personne n’a vu, c’est justement la taille du changement. C’est la question que les fichiers ne posent presque jamais : dans trois manuels de première année sur quatre étudiés dans les années 1980, elle n’apparaissait pas une seule fois. Elle est plus difficile que la question habituelle sur le résultat, et cette difficulté mérite une discussion en classe plutôt qu’une correction.",
+      "Un enfant propose une idée en touchant un nombre. L’outil la joue et arrive là où elle mène — sur le même sol, de la même couleur, à la même taille. Aucune comparaison n’est calculée nulle part : rien ne devient vert, rien ne devient rouge, aucune phrase ne dit faux. L’enfant voit que deux nombres ne sont pas les mêmes et repart de là. Il n’y a ni points ni chronomètre. Cette routine s’appuie sur la recherche sans être validée par des preuves d’efficacité : nous décrivons ce que fait l’outil et n’annonçons aucun effet mesuré.",
+      "Tout est gratuit ici : chaque nouveau sol, chaque éclipse et autant d’essais que la classe veut. L’abonnement Enseignant ajoute la fiche imprimée, qui reprend le sol avant et après tel que la classe vient de le voir, avec des lignes réglées pour les calculs qu’elle a écrits."
+    ],
+    "howToUse": [
+      "Distribuez un sol et comptez ensemble à voix haute. Rien n’est chronométré : le comptage prend le temps qu’il faut.",
+      "Lancez l’éclipse. Demandez à la classe de regarder le sol : c’est la seule chose qui reste, et il ne montre qu’une chose — quelque chose est entré, ou quelque chose est sorti.",
+      "Quand c’est fini, recomptez et écrivez les deux nombres bien en vue. Puis posez la vraie question : combien, pendant qu’on ne voyait rien ?",
+      "Prenez l’idée d’un enfant et touchez ce nombre. L’outil part du premier compte et arrive là où cette idée le mène. S’il n’arrive pas là où la classe a compté, ce n’est pas une faute mais un renseignement — demandez ce qu’il vous apprend."
+    ],
+    "classroomIdeas": [
+      "Deux minutes par jour : un sol, une éclipse, un calcul écrit au tableau. Le calcul est le but, le comptage est le chemin.",
+      "Récoltez trois idées différentes et écrivez-les toutes avant de toucher quoi que ce soit. Jouez-les ensuite l’une après l’autre et regardez où chacune arrive.",
+      "Reprenez le même nombre de départ deux fois : une fois quelque chose entre, une fois quelque chose sort. Seule l’onde change, et il vaut la peine de demander ce que la classe a vraiment vu."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

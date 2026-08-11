@@ -1454,6 +1454,30 @@
       "Tag det samme antal to gange med prikkerne fordelt forskelligt. Tallet er det samme, og alt andet er nyt — derfor kan tallet alene ikke fortælle, hvad der skete."
     ]
   },
+  "the-gap": {
+    "name": "Mellemtiden",
+    "slug": "mellemtiden-hvad-skete-der-imens-1-klasse",
+    "tagline": "Tæl kastanjerne på jorden. I mellemtiden er der ikke noget at se, og bagefter er der et andet antal — så mangler I bare at finde ud af, hvad der skete.",
+    "metaTitle": "Mellemtiden — hvad skete der, mens I ikke kunne se det? 1. klasse",
+    "metaDescription": "Gratis tavleværktøj: kastanjer på jorden, en mellemtid hvor intet kan ses, og et andet antal bagefter. Jorden viser kun, om der kom noget ind eller gik noget ud — aldrig hvor meget.",
+    "about": [
+      "En jord med kastanjer på og et antal, som klassen tæller højt sammen. Så kommer mellemtiden: kastanjerne gemmer sig ikke bag noget — så længe den varer, bliver de slet ikke tegnet, så der er ingenting at kigge efter. Tilbage er jorden selv, og hen over den løber én eneste bølge, indad eller udad. Bølgen siger, at der er sket noget, og hvilken vej. Den ser præcis ens ud ved én kastanje og ved seks: mængden røber den aldrig.",
+      "Når mellemtiden er forbi, tæller I igen. Begyndelsen kender I, slutningen kender I, og det, ingen har set, er netop, hvor stor ændringen var. Det er det spørgsmål, opgavehæfter næsten aldrig stiller: i tre ud af fire undersøgte 1.-klassesbøger fra 1980'erne optrådte det ikke en eneste gang. Det er sværere end det sædvanlige spørgsmål om resultatet, og den sværhed er en snak i klassen værd frem for en rettelse.",
+      "Et barn siger sit forslag ved at trykke på et tal. Værktøjet spiller det igennem og lander, hvor det lander — på den samme jord, i den samme farve og i den samme størrelse. Der bliver ikke regnet nogen sammenligning ud nogen steder: intet bliver grønt, intet bliver rødt, og ingen sætning siger forkert. Barnet ser, at to tal ikke er ens, og går videre derfra. Der er hverken point eller ur. Rutinen her er forskningsnær, men ikke evidensbaseret: vi beskriver, hvad værktøjet gør, og påstår ingen målt effekt.",
+      "Alt her er gratis: hver ny jord, hver mellemtid og lige så mange forslag, som klassen har lyst til. Lærerabonnementet giver desuden det printede ark med jorden før og efter, præcis som klassen lige har set den, og linjer til de regnestykker, klassen skrev."
+    ],
+    "howToUse": [
+      "Del en jord ud, og tæl højt sammen. Der er ikke noget ur — tællingen må tage den tid, den tager.",
+      "Lad mellemtiden gå. Bed klassen kigge på jorden: den er det eneste, der bliver tilbage, og den viser kun én ting — der kom noget ind, eller der gik noget ud.",
+      "Tæl igen bagefter, og skriv begge tal op, så alle kan se dem. Så kommer det rigtige spørgsmål: hvor mange, mens vi ikke kunne se det?",
+      "Tag et forslag fra et barn, og tryk på tallet. Værktøjet går ud fra den første tælling og lander der, hvor forslaget fører hen. Lander det et andet sted, end klassen talte, er det ikke en fejl, men en oplysning — spørg, hvad den fortæller jer."
+    ],
+    "classroomIdeas": [
+      "To minutter hver dag: én jord, én mellemtid og ét regnestykke på tavlen. Regnestykket er målet, tællingen er vejen derhen.",
+      "Saml tre forskellige forslag, og skriv dem alle op, før der bliver trykket på noget. Spil dem så igennem ét ad gangen, og se, hvor hvert af dem lander.",
+      "Brug det samme starttal to gange: én gang kommer der noget ind, én gang går der noget ud. Det eneste, der er forskelligt, er bølgen — og det er værd at spørge, hvad klassen faktisk så."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

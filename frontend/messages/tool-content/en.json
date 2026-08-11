@@ -1465,6 +1465,30 @@
       "Deal the same total twice with the marks split differently. The numeral does not change and everything else does — which is the whole of why the total alone cannot tell you what happened."
     ]
   },
+  "the-gap": {
+    "name": "The Gap",
+    "slug": "the-gap-what-changed-while-you-could-not-see-grade-1",
+    "tagline": "Count what is on the ground. The gap covers it for a moment, and when it lifts the count is different — the class works out what happened while nobody could see.",
+    "metaTitle": "The Gap — what changed while you could not see, Grade 1",
+    "metaDescription": "Free whiteboard tool: marks on the ground, a gap that takes them out of sight, and a different count when it lifts. The ground shows only whether something came or went, never how much.",
+    "about": [
+      "A ground with marks on it, and a number the class counts out loud together. Then the gap: the marks are not hidden behind anything — while the gap lasts they are not drawn at all, so there is nothing on the screen to peer at. What is left is the ground itself, and one single pulse travels along it, inward or outward. That pulse says that something happened and which way it went. It looks exactly the same for one mark as for six, so the amount never leaks.",
+      "When the gap lifts, count again. The start is known, the finish is known, and the one thing nobody saw is the size of the change. That is the question worksheets almost never ask: in three of four grade-1 textbooks examined in the 1980s it did not appear a single time. It is harder than the usual question about the result, and that difficulty is worth a conversation in class rather than a correction.",
+      "A child states a theory by tapping a number. The apparatus acts it out and lands where it lands — on the same ground, in the same colour, at the same size. No comparison is computed anywhere: nothing turns green, nothing turns red, and no sentence says wrong. The child sees that two numbers are not the same and carries on from there. There are no points and no clock. This routine is research-based, not evidence-based: we describe what the apparatus does and claim no measured effect for it.",
+      "Everything here is free — every new ground, every gap, and as many tries as the class wants. The Teacher plan adds the printable sheet, which carries the ground before and after exactly as the class just watched it, with ruled lines for the number sentences they wrote."
+    ],
+    "howToUse": [
+      "Deal a ground and count it together, out loud. Nothing runs against a clock — the counting may take as long as it takes.",
+      "Send it through the gap. Ask the class to watch the ground: it is the only thing that stays, and it shows one thing only — something came in, or something went out.",
+      "When the gap lifts, count again and write both numbers where everyone can see them. Then comes the real question: how many, while we could not see?",
+      "Take a theory from a child and tap that number in. The apparatus starts from the first count and lands wherever the theory leads. If it lands somewhere other than the class counted, that is not a mistake but a piece of information — ask what it tells you."
+    ],
+    "classroomIdeas": [
+      "Two minutes a day: one ground, one gap, one number sentence on the board. The sentence is the goal; counting is the way there.",
+      "Collect three different theories and write them all up before anything is tapped. Then act them out one at a time and watch where each one lands.",
+      "Use the same starting count twice — once with something coming in, once with something going out. The only difference is the pulse, and it is worth asking what the class actually saw."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

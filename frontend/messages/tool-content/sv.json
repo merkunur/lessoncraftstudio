@@ -1454,6 +1454,30 @@
       "Ta samma antal två gånger med prickarna fördelade olika. Talet är detsamma och allt annat är nytt — därför kan antalet ensamt inte berätta vad som hände."
     ]
   },
+  "the-gap": {
+    "name": "Ögonblicket",
+    "slug": "ogonblicket-vad-hande-medan-ni-inte-sag-arskurs-1",
+    "tagline": "Räkna prickarna på golvet. Under ögonblicket syns ingenting, och efteråt är de ett annat antal — kvar står frågan vad som hände.",
+    "metaTitle": "Ögonblicket — vad hände medan ni inte såg? Årskurs 1",
+    "metaDescription": "Gratis tavelverktyg: prickar på golvet, ett ögonblick då ingenting syns och ett annat antal efteråt. Golvet visar bara om något kom eller gick, aldrig hur många.",
+    "about": [
+      "Ett golv med prickar på och ett antal som klassen räknar högt tillsammans. Sedan kommer ögonblicket: prickarna gömmer sig inte bakom någonting — så länge det pågår ritas de inte alls, så det finns ingenting att kika på. Kvar finns golvet, och över det går en enda våg, inåt eller utåt. Vågen säger att något har hänt och åt vilket håll. Den ser likadan ut för en prick som för sex: antalet avslöjar den aldrig.",
+      "När ögonblicket är över räknar ni igen. Början vet ni, slutet vet ni, och det ingen har sett är just hur stor förändringen var. Det är frågan som arbetsböcker nästan aldrig ställer: i tre av fyra granskade förstaklassböcker från 1980-talet fanns den inte en enda gång. Den är svårare än den vanliga frågan efter svaret, och den svårigheten är värd ett samtal i klassen i stället för en rättning.",
+      "Ett barn säger sitt förslag genom att trycka på ett tal. Verktyget spelar upp det och hamnar där det hamnar — på samma golv, i samma färg, i samma storlek. Ingen jämförelse räknas ut någonstans: ingenting blir grönt, ingenting blir rött, ingen mening säger fel. Barnet ser att två tal inte är samma och går vidare därifrån. Det finns inga poäng och ingen klocka. Den här rutinen är forskningsnära men inte evidensbaserad: vi beskriver vad verktyget gör och påstår ingen uppmätt effekt.",
+      "Allt här är gratis: varje nytt golv, varje ögonblick och hur många förslag klassen vill. Lärarplanen lägger till arbetsbladet som visar golvet före och efter precis som klassen såg det, med linjerade rader för de likheter ni skrev."
+    ],
+    "howToUse": [
+      "Dela ut ett golv och räkna högt tillsammans. Ingenting går på tid — räknandet får ta den tid det tar.",
+      "Låt ögonblicket gå. Be klassen titta på golvet: det är det enda som är kvar, och det visar bara en sak — något kom in, eller något gick ut.",
+      "Räkna igen efteråt och skriv upp båda talen så att alla ser dem. Sedan kommer den riktiga frågan: hur många, medan vi inte kunde se?",
+      "Ta ett förslag från ett barn och tryck på talet. Verktyget utgår från den första räkningen och hamnar där förslaget leder. Hamnar det någon annanstans än klassen räknade är det inget fel utan en upplysning — fråga vad den säger er."
+    ],
+    "classroomIdeas": [
+      "Två minuter varje dag: ett golv, ett ögonblick och en likhet på tavlan. Likheten är målet, räknandet är vägen dit.",
+      "Samla in tre olika förslag och skriv upp alla innan något trycks. Spela sedan upp dem ett i taget och se var vart och ett hamnar.",
+      "Använd samma startantal två gånger: en gång kommer något in, en gång går något ut. Det enda som skiljer är vågen, och det är värt att fråga vad klassen faktiskt såg."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

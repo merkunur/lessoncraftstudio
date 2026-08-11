@@ -1432,6 +1432,30 @@
       "Antakaa sama kokonaismäärä kahdesti niin, että merkit jakautuvat eri tavalla. Luku pysyy samana ja kaikki muu muuttuu — juuri siksi luku yksin ei kerro, mitä tapahtui."
     ]
   },
+  "the-gap": {
+    "name": "Väliaika",
+    "slug": "valiaika-mita-tapahtui-kun-kukaan-ei-nahnyt-1-luokka",
+    "tagline": "Laskekaa, kuinka monta merkkiä maassa on. Väliajalla ei näy mitään, ja sen jälkeen niitä on eri määrä — jäljelle jää kysymys, mitä tapahtui.",
+    "metaTitle": "Väliaika — mitä tapahtui, kun kukaan ei nähnyt? 1. luokka",
+    "metaDescription": "Maksuton taulutyökalu: merkkejä maassa, väliaika jonka aikana ei näy mitään, ja eri määrä sen jälkeen. Maa näyttää vain, tuliko vai lähtikö jotakin — ei koskaan kuinka paljon.",
+    "about": [
+      "Maa, jossa on merkkejä, ja luku, jonka luokka laskee yhdessä ääneen. Sitten alkaa väliaika: merkit eivät piiloudu minkään taakse — väliajan ajan niitä ei piirretä lainkaan, joten mitään ei ole kurkistettavana. Jäljelle jää maa itse, ja sen yli kulkee yksi ainoa aalto, sisäänpäin tai ulospäin. Aalto kertoo, että jotakin tapahtui ja mihin suuntaan. Se näyttää täsmälleen samalta yhdellä merkillä ja kuudella: määrää se ei paljasta koskaan.",
+      "Kun väliaika on ohi, lasketaan uudelleen. Alku tiedetään, loppu tiedetään, ja se mitä kukaan ei nähnyt, on juuri muutoksen suuruus. Tätä kysymystä tehtäväkirjat eivät juuri koskaan esitä: kolmessa neljästä 1980-luvulla tutkitusta ensimmäisen luokan oppikirjasta sitä ei ollut kertaakaan. Se on vaikeampi kuin tavallinen kysymys tuloksesta, ja siitä vaikeudesta kannattaa keskustella luokassa sen sijaan, että se korjattaisiin.",
+      "Lapsi kertoo ehdotuksensa koskettamalla lukua. Väline toteuttaa ehdotuksen ja päätyy siihen mihin päätyy — samaan maahan, samalla värillä ja samankokoisena. Missään ei lasketa vertailua: mikään ei muutu vihreäksi eikä punaiseksi, eikä yksikään lause sano väärin. Lapsi näkee, että kaksi lukua eivät ole sama, ja jatkaa siitä. Pisteitä ei ole eikä kelloa. Tämä rutiini nojaa tutkimukseen mutta ei vaikuttavuusnäyttöön: kuvaamme sen, mitä väline tekee, emmekä väitä mitattua vaikutusta.",
+      "Täällä kaikki on maksutonta: jokainen uusi maa, jokainen väliaika ja niin monta ehdotusta kuin luokka haluaa. Opettajatilaus tuo lisäksi tulostettavan paperipohjan, jossa on maa ennen ja jälkeen juuri sellaisena kuin luokka sen näki, ja viivat niille laskuille, jotka luokka kirjoitti."
+    ],
+    "howToUse": [
+      "Jaa maa ja laskekaa yhdessä ääneen. Mikään ei käy kelloa vastaan — laskeminen saa kestää niin kauan kuin se kestää.",
+      "Aloita väliaika. Pyydä luokkaa katsomaan maata: se on ainoa mikä jää, ja se näyttää vain yhden asian — jotakin tuli lisää, tai jotakin lähti pois.",
+      "Laskekaa sen jälkeen uudelleen ja kirjoita molemmat luvut kaikkien nähtäville. Sitten tulee varsinainen kysymys: kuinka monta, silloin kun emme nähneet?",
+      "Ota vastaan lapsen ehdotus ja kosketa sitä lukua. Väline lähtee ensimmäisestä laskusta ja päätyy sinne mihin ehdotus vie. Jos se päätyy muualle kuin mihin luokka laski, se ei ole virhe vaan tieto — kysykää, mitä se kertoo."
+    ],
+    "classroomIdeas": [
+      "Kaksi minuuttia päivässä: yksi maa, yksi väliaika ja yksi lasku taululle. Lasku on tavoite, laskeminen on tie sinne.",
+      "Kerätkää kolme erilaista ehdotusta ja kirjoittakaa ne kaikki ylös, ennen kuin mitään kosketetaan. Toteuttakaa ne sitten yksi kerrallaan ja katsokaa, mihin kukin päätyy.",
+      "Käyttäkää samaa aloitusmäärää kahdesti: kerran jotakin tulee lisää, kerran jotakin lähtee pois. Ainoa ero on aalto — ja kannattaa kysyä, mitä luokka todella näki."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

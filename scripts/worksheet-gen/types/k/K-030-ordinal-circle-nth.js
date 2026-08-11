@@ -9,6 +9,27 @@ const { cardGrid } = require('../../templates/layouts/card-grid.js');
 const { labelSafeNouns } = require('../../image-cache/resolve.js');
 const { fileUri } = require('../../image-cache/resolve.js');
 
+/* ⭐ THE ORDINAL INDICATOR IS LOCALE-SPECIFIC, and a bare numeral is
+   CARDINAL — the wrong quantity for this worksheet. English is the only
+   one of the eleven that is suppletive rather than a fixed mark, and it
+   is irregular exactly at 1-3, which is the range this sheet lives in. */
+const ORDINAL_MARK = {
+  de: n => n + '.', da: n => n + '.', no: n => n + '.', fi: n => n + '.',
+  fr: n => n + 'e', nl: n => n + 'e',
+  sv: n => n + ':e',
+  es: n => n + '.\u00BA',
+  pt: n => n + '\u00BA', it: n => n + '\u00BA',
+  en: n => n + (n % 100 >= 11 && n % 100 <= 13 ? 'th'
+        : n % 10 === 1 ? 'st' : n % 10 === 2 ? 'nd' : n % 10 === 3 ? 'rd' : 'th')
+};
+function ordinalMark(n, locale) {
+  const f = ORDINAL_MARK[String(locale || 'en').slice(0, 2)];
+  /* ⚠ falls back to ENGLISH, never to the German full stop that was
+     hard-coded here — a wrong default should look wrong in the locale
+     that owns the fallback, not silently correct in one of eleven. */
+  return (f || ORDINAL_MARK.en)(n);
+}
+
 const ARROW_SVG =
   '<svg width="34" height="34" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">' +
   '<path d="M4 17h20M16 8l9 9-9 9" fill="none" stroke="#F2784B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
@@ -32,7 +53,10 @@ module.exports = {
     },
   },
 
-  build({ theme, difficulty }, ctx) {
+  /* ⚠ `locale` was already being passed by render-instance.js:22 and
+     dropped here. The badge is the one glyph in this worksheet that
+     carries the mathematics, so it must be localised. */
+  build({ theme, difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
     const nouns = rng.sample(labelSafeNouns(theme), d.rows);
@@ -50,7 +74,7 @@ module.exports = {
         `<div class="ws-card-stage" style="padding:6px 10px;gap:16px" data-lcs-ordinal="${ordinal}" data-lcs-rowlen="${d.rowLen}">` +
         `<span style="flex:0 0 auto;display:flex;align-items:center;gap:8px">` +
         `<span style="display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;` +
-        `background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:22px">${ordinal}.</span>` +
+        `background:#146B5E;color:#FFFFFF;font-family:'Baloo 2';font-weight:700;font-size:22px">${ordinalMark(ordinal, locale)}</span>` +
         `${ARROW_SVG}</span>` +
         `<span style="flex:1 1 auto;display:flex;align-items:center;justify-content:space-evenly;min-width:0">${icons.join('')}</span>` +
         `</div>`

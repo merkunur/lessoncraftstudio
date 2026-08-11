@@ -793,7 +793,11 @@
         '.que-gate-b{margin:0 0 8px;font-family:Nunito,system-ui,sans-serif;font-size:14px;color:#7A6A55;line-height:1.45}',
         '.que-gate-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:10px;background:#146B5E;color:#FBF3E4;font-family:Nunito,system-ui,sans-serif;font-size:14px;text-decoration:none}',
         '.que-sheet{display:none}',
-        '@media print{.lcs-shell,.que-wrap{display:none !important}',
+        /* ⚠⚠ `.lcs-shell` IS NOT A CLASS — see the note in `the-gap.js`.
+           The shell emits `.lcs-header` / `.lcs-controls`; this rule
+           matched nothing, so the header, title, instruction and the
+           four chrome buttons printed on every sheet. */
+        '@media print{.lcs-header,.lcs-controls,.que-wrap{display:none !important}',
         '.que-sheet{display:block !important;padding:0}',
         '.que-sh-h{font-family:"Baloo 2",system-ui,sans-serif;font-size:19pt;color:#000;margin:0 0 10pt}',
         '.que-sh-frame{border:1pt solid #000;border-radius:6pt;padding:8pt;margin:0 0 10pt}',

@@ -1367,23 +1367,26 @@
   "pair-gate": {
     "name": "Holvi",
     "slug": "parilliset-ja-parittomat-luvut-parittamalla-alkuopetus",
-    "tagline": "Holvista mahtuu tasan kaksi rinnakkain — eikä seisomaan jäänyt näytä muista poikkeavalta. Vain viereinen tyhjä paikka näkyy.",
+    "tagline": "Valitkaa kulkue ja sanokaa, kuinka moni jää seisomaan — kutsukaa heidät sitten läpi, näin monta rinnakkain. Seisomaan jäänyt ei näytä muista poikkeavalta; vain viereinen tyhjä paikka näkyy.",
     "metaTitle": "Parilliset ja parittomat: kaksi rinnakkain holvista, alkuopetus",
-    "metaDescription": "Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten kaksi rinnakkain. Kaksi kulkuetta, joista kummastakin jää yksi, muodostavat yhdessä täyden rivin.",
+    "metaDescription": "Ilmainen taulutyökalu: valitkaa kulkue, sanokaa, moniko jää seisomaan, ja kutsukaa kaksi rinnakkain läpi. Kaksi jäännöstä voi täyttää holvin — kokeilkaa myös parillisia.",
     "about": [
-      "Holvista mahtuu kerralla juuri näin monta rinnakkain. Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten eteen, näin monta kerrallaan, ja katsokaa.",
-      "Odottava kulkue, holvi ja piha sen takana.",
-      "Koko holvi on ilmainen: jokainen leveys, jokainen kutsu, torjuminen ja kynnys. Opettajatilaus tuo lisäksi paperikulkueen, jonka voi leikata irti ja asettaa pöydälle, niin lapsi voi kuljettaa marssijat itse leikkaamansa holvin läpi."
+      "Marssijoiden kulkue, muurissa holvi, josta mahtuu tasan kaksi rinnakkain, ja piha muurin toisella puolen. Luokka valitsee kulkueen luvuista 1–20 ja sanoo sitten luvun — kuinka moni jää seisomaan — ja vasta sen jälkeen puomi nousee. Juuri tuo järjestys on koko työkalun idea: ensimmäisenä tapahtuu arvio, ja arvio on luku, jonka lapsi voi laskea — ei kolikonheitto.",
+      "Sitten marssijat kutsutaan eteen, näin monta kerrallaan, ja läpipäässeiden määrä kasvaa matkalla — 2, 4, 6, 8 — kahden välein luetteleminen käy näkyväksi. Kun jäljellä on vähemmän kuin kaksi, holvi yksinkertaisesti kieltäytyy. Mikään ei sano lapselle, että hän on väärässä: seisomaan jäänyt piirretään täsmälleen samanlaisena kuin jokainen muu marssija, ja piirretyksi tulee tyhjä paikka hänen vieressään. Pysähdyksen hetkellä piha näyttää kaksi tasan yhtä suurta saraketta lukuineen — kolmetoista on kuusi ja kuusi ja yksi lisää — parillisuuden idea, jonka laite näyttää itse, ilman ainuttakaan laskumerkkiä.",
+      "Sitten luokka valitsee toisen kulkueen — minkä kokoisen tahansa, myös parillisen, ja juuri se on tarkoitus. Jos siitäkin jää joku seisomaan, molemmat seisomaan jääneet astuvat kynnykselle, levylle, joka on tasan holvin levyinen — ja kun kynnys on täysi, se pääsee läpi: pariton ja pariton tekevät yhdessä parillisen, mekanismina katsottuna. Jos toinen kulkue marssii puhtaasti läpi, kynnykselle ei jää mitään vietävää, ja työkalu sanoo sen suoraan. Säännön voi siis panna kokeeseen ja nähdä sen raukeavan — juuri se tekee siitä säännön."
     ],
     "howToUse": [
-      "Joku jää seisomaan. Luokka sanoo, että joku jää seisomaan. Puomi on ylhäällä.",
-      "Kutsu seuraavat eteen. 1 jää seisomaan: marssijoita on 17, eikä se jakaudu tasan. Holvista pääsee vain täydet 2 rinnakkain.",
-      "Aseta molemmat kynnykselle. Molemmat kynnyksellä — ja kynnys on täysi, joten se pääsee läpi. 1 ja 1 yhdessä täyttävät holvin tarkalleen."
+      "Aloittakaa kysymyksestä, ei animaatiosta. Yksi lapsi valitsee kulkueen luvuista 1–20, ja luokka painaa yhden lukunapin pohjaan ennen kuin mikään liikkuu.",
+      "Kutsu marssijat eteen itse, näin monta kerrallaan, ja anna luokan lukea kasvava lukumäärä ääneen. Pysähdy heti, kun holvi kieltäytyy — äläkä sano mitään.",
+      "Osoita tyhjää paikkaa, älä sen viereistä marssijaa. Lue sitten näkymä ääneen ilman laskumerkkejä: kolmetoista on kuusi ja kuusi ja yksi lisää.",
+      "Sääntöpäivänä pyytäkää toinen kulkue, josta MYÖS jää yksi seisomaan. Sanokaa taas luku, katsokaa, kun kulkue marssii sisään itsekseen, ja kysykää sitten: ne kaksi, jotka jäivät — täyttävätkö he yhdessä holvin? Sanokaa vielä yksi luku, ennen kuin kynnys yrittää.",
+      "Antakaa kerran viikossa jonkun lapsen tuoda tahallaan parillinen toinen kulkue, ja katsokaa, miten koe raukeaa rehellisesti — kynnys jää tyhjäksi, ja juuri se on se opetus."
     ],
     "classroomIdeas": [
-      "1 jää seisomaan, vieressä 1 tyhjää paikkaa",
-      "Hae toinen kulkue. Toinen kulkue, 13 marssijaa. Siitäkin jää 1 seisomaan.",
-      "Leikkaa marssijat ja holvi irti. Aseta marssijat peräkkäin ja kuljeta heidät läpi, näin monta rinnakkain kerrallaan. Kun jäljellä on liian vähän täyttämään holvia, jätä heidät seisomaan ja piirrä tyhjät paikat heidän viereensä — nuo tyhjät paikat kertovat, mitä luku sanoo."
+      "Kahden minuutin päivärutiini: kolme kulkuetta, kolme painettua lukunappia, ja ennuste sanotaan ääneen ennen kuin ketään on kutsuttu eteen.",
+      "Kuljettakaa peräkkäin kahdentoista ja kolmentoista marssijan kulkueet samanlevyisestä holvista ja kysykää, mitä holvi teki toisin. Ei mitään — juuri siitä on kyse.",
+      "Leventäkää holvi kolmeen rinnakkain ja antakaa käänteinen tehtävä: etsikää kulkue, josta jää seisomaan tasan kaksi. Lukunapit tekevät siitä etsimistä, eivät arvaamista.",
+      "Haastetta kahdeksanvuotiaille: kun rinnakkain mahtuu kolme, kaksi seisomaan jäänyttä joukkoa täyttää holvin yhdessä vain joskus. Kysykää, mitkä kaksi kulkuetta yhdessä onnistuvat ja miksi — kynnys tuomaroi jokaisen väitteen."
     ]
   },
   "doubling-mirror": {

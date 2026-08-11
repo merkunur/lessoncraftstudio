@@ -1389,23 +1389,26 @@
   "pair-gate": {
     "name": "Hvælvingen",
     "slug": "lige-og-ulige-tal-gennem-parvis-indskoling",
-    "tagline": "Hvælvingen lukker præcis to ved siden af hinanden igennem — og den, der bliver stående, ser ud som alle andre. Kun den tomme plads ved siden af.",
+    "tagline": "Vælg optoget, sig hvor mange der bliver stående — og kald dem så igennem, to ved siden af hinanden. Den, der bliver stående, tegnes som alle andre; kun den tomme plads ved siden af er anderledes.",
     "metaTitle": "Lige og ulige: to ad gangen gennem hvælvingen, indskolingen",
-    "metaDescription": "Sig først, om alle kommer igennem, og kald dem så frem to ad gangen. To optog, der hver efterlader én, danner sammen en hel række.",
+    "metaDescription": "Vælg optoget, sig hvor mange der bliver stående, og kald dem frem to ad gangen. To optog, der hver efterlader én, danner en hel række — prøv også med lige tal.",
     "about": [
-      "Hvælvingen lukker præcis så mange igennem ved siden af hinanden. Sig først, om alle kommer igennem, kald dem så frem, så mange ad gangen, og se efter.",
-      "Optoget der venter, hvælvingen og gården bagved.",
-      "Hele hvælvingen er gratis: hver bredde, hvert kald, afvisningen og tærsklen. Lærerabonnementet lægger papiroptoget til, som klippes ud og stilles op på bordet, så et barn kan sende de marcherende gennem en hvælving, det selv har klippet."
+      "Et optog af marcherende, en hvælving i en mur, hvor præcis to kan gå igennem ved siden af hinanden, og en gård på den anden side. Klassen vælger optoget på en stribe med tallene 1–20 og lægger sig så fast på ét tal — hvor mange der bliver stående — og først dérefter går bommen op. Den rækkefølge er hele idéen: det første, der sker, er en vurdering, og vurderingen er nu et tal, et barn selv kan regne ud, ikke en mønt, der slås plat eller krone om.",
+      "Så kaldes rækkerne frem, én ad gangen, og tallet vokser undervejs — 2, 4, 6, 8 — at tælle med 2'ere, gjort synligt. Når der er færre end to tilbage, siger hvælvingen simpelthen nej. Ingenting siger, at nogen er forkert: den, der bliver stående, tegnes præcis som alle de andre marcherende, og det, der bliver tegnet, er den tomme plads ved siden af. Ved stilstanden viser gården sine to lige store søjler med deres tal — tretten er seks og seks og én til — og dér står idéen om lige og ulige, vist af selve redskabet, uden at der nogensinde skrives et regnetegn.",
+      "Så vælger klassen et andet optog — så stort, den vil, også med et lige antal, og det er netop pointen. Bliver der også dér én stående, træder de to sammen op på tærsklen, en plade præcis lige så bred som hvælvingen, og en fuld plade er en række: ulige plus ulige bliver lige, set som et maskineri, man kan følge med øjnene. Marcherer det andet optog rent igennem, er der ingen anden at stille på tærsklen, og det siger værktøjet ligeud — reglen kan sættes på prøve og ses slå fejl, og netop dét gør den til en regel."
     ],
     "howToUse": [
-      "Nogen bliver stående. Klassen siger, at nogen bliver stående. Bommen er oppe.",
-      "Kald de næste frem. 1 bliver stående: 17 går ikke op i 2 ved siden af hinanden. Hvælvingen tager kun fulde, aldrig halve.",
-      "Stil dem begge på tærsklen. Dem begge på tærsklen — og tærsklen er fuld, så den må komme igennem. 1 og 1 tilsammen fylder hvælvingen præcis."
+      "Begynd med spørgsmålet, ikke med bevægelsen. Et barn vælger optoget på talstriben, og klassen lægger sig fast på ét tal, før noget som helst flytter sig.",
+      "Kald selv rækkerne frem, og lad klassen læse tallet, mens det vokser. Stands i samme øjeblik, hvælvingen siger nej — og sig ingenting.",
+      "Peg på den tomme plads, ikke på den marcherende ved siden af. Læs så billedet højt uden regnetegn: tretten er seks og seks og én til.",
+      "På de store dage: bed om et andet optog, der også efterlader én stående. Lad klassen lægge sig fast igen, se optoget marchere ind af sig selv, og spørg så: de to, der blev stående — danner de tilsammen en hel række? Ét tal til, før tærsklen prøver.",
+      "Én gang om ugen: lad et barn med vilje vælge et andet optog med et lige antal, og se forsøget fuse ærligt ud — tærsklen står tom, og netop dét er lektionen."
     ],
     "classroomIdeas": [
-      "1 bliver stående, tomme pladser ved siden af: 1",
-      "Hent det andet optog. Et andet optog på 13. Det efterlader også 1 stående.",
-      "Klip de marcherende og hvælvingen ud. Stil de marcherende op efter hinanden og send dem igennem, så mange ved siden af hinanden ad gangen. Når der er for få tilbage til at fylde hvælvingen, så lad dem stå og tegn de tomme pladser ved siden af — de tomme pladser er det, tallet fortæller dig."
+      "En daglig rutine på to minutter: tre optog, tre tal lagt fast, og forudsigelsen sagt højt, før en eneste række kaldes frem.",
+      "Kør et optog på tolv og et optog på tretten lige efter hinanden i samme bredde, og spørg, hvad hvælvingen gjorde anderledes. Den gjorde ingenting anderledes — og det er netop pointen.",
+      "Gør hvælvingen tre bred, og stil den omvendte opgave: find et optog, hvor netop to bliver stående. Talstriben gør det til en søgen, ikke et gæt.",
+      "En udfordring til de otteårige: med tre ved siden af hinanden danner to tiloversblevne flokke kun nogle gange en hel række. Spørg, hvilke optog der passer sammen, og hvorfor — tærsklen afgør hver eneste påstand."
     ]
   },
   "doubling-mirror": {

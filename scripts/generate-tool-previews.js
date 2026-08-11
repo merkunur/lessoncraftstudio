@@ -216,14 +216,17 @@ const SEEDS = {
     { sel: '.dbm-b-close', wait: 1200 },
     { sel: '.dbm-b-more', wait: 500 }
   ],
-  /* ⭐ #53 AT REST IS A QUEUE AND A CLOSED BAR, which says nothing.
-     The card must carry the moment the tool exists for: ranks through,
-     one marcher left standing, and THE EMPTY PLACE beside them — the
-     mark that distinguishes left-over from wrong. Seeded by predicting
-     and then marching to the standstill. */
+  /* ⭐ #53 AT REST IS AN EMPTY ROAD AND A CLOSED BOOM, which says
+     nothing. The card must carry the moment the tool exists for: the
+     courtyard's two equal columns with their counts, one marcher left
+     standing, and THE EMPTY PLACE beside them. The 2026-08-11 rebuild
+     made the parade CHOSEN, so the seed chooses 13 (6 ranks + 1), then
+     commits 1 on the numeral chip, then marches to the standstill —
+     the fly beat runs T_RANK, so each call waits it out. */
   'pair-gate': [
+    { sel: '.pgt-b-size-13', wait: 400 },
     { sel: '.pgt-b-no', wait: 500 },
-    { sel: '.pgt-b-call', times: 9, wait: 300 }
+    { sel: '.pgt-b-call', times: 7, wait: 750 }
   ],
   /* ⭐ #52 AT REST IS A BOULDER ON A SLOPE, WHICH LOOKS LIKE ANY OTHER
      APPARATUS. The card must carry the moment the tool exists for: the

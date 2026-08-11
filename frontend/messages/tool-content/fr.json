@@ -1388,23 +1388,26 @@
   "pair-gate": {
     "name": "L’arche",
     "slug": "nombres-pairs-et-impairs-par-appariement-cp-ce1",
-    "tagline": "L arche laisse passer exactement deux de front — et celui qui reste ne se distingue en rien. Seule la place vide à côté de lui se voit.",
+    "tagline": "Choisissez le défilé, dites combien resteront debout — puis appelez-les, deux de front. Celui qui reste debout est dessiné comme tous les autres ; seule la place vide à côté de lui se voit.",
     "metaTitle": "Pairs et impairs : passer deux de front, CP-CE1",
-    "metaDescription": "Dites d abord si tout le monde passera, puis appelez-les deux de front. Deux défilés qui laissent chacun quelqu un forment ensemble un rang complet.",
+    "metaDescription": "Gratuit : choisissez le défilé, dites combien resteront debout, appelez deux de front. Deux défilés laissant chacun quelqu’un remplissent l’arche — pairs compris.",
     "about": [
-      "L’arche laisse passer exactement ce nombre-là de front. Dites d’abord si tout le monde passera, puis appelez-les en avant, autant à la fois, et voyez.",
-      "Le défilé qui attend, l’arche, et la cour au-delà.",
-      "Toute l’arche est libre — chaque largeur, chaque appel, le refus et le seuil. L’Abonnement Enseignant ajoute le défilé en papier à découper et à aligner sur la table, pour qu’un enfant fasse passer les marcheurs sous une arche qu’il a découpée lui-même."
+      "Un défilé de marcheurs, une arche percée dans un mur — juste assez large pour deux d’entre eux — et une cour de l’autre côté. La classe choisit le défilé — n’importe quel nombre de 1 à 20 — puis s’engage sur un nombre : combien resteront debout. Et alors seulement la barrière se lève. Cet ordre est tout le principe : la première chose qui arrive est un jugement, et ce jugement est désormais un nombre qu’un enfant peut calculer, pas une pièce qu’on lance.",
+      "Puis on appelle les marcheurs en avant, autant à la fois, et le compte grandit en chemin — 2, 4, 6, 8 : le comptage de deux en deux devient visible. Quand il en reste moins que la largeur, l’arche refuse, tout simplement. Rien ne dit à l’enfant qu’il a tort : celui qui reste debout est dessiné exactement comme tous les autres marcheurs, et ce qui est dessiné, c’est la place vide à côté de lui. À l’arrêt, la cour montre ses deux colonnes égales avec leurs comptes — treize, c’est six et six et un de plus — l’idée du nombre pair que l’appareil montre lui-même, sans jamais écrire un symbole.",
+      "Puis la classe choisit un second défilé — la taille qu’elle veut, nombres pairs compris, et c’est exprès. S’il laisse lui aussi quelqu’un debout, les deux restés debout montent sur le seuil, aussi large que l’arche — et un seuil complet passe comme les autres : impair plus impair fait pair, observé comme un mécanisme. Si le second défilé passe tout entier, il n’y a rien à porter sur le seuil, et l’outil le dit. Le théorème peut être mis à l’épreuve et échouer sous vos yeux — c’est ce qui en fait un théorème."
     ],
     "howToUse": [
-      "Quelqu’un restera debout. La classe dit que quelqu’un restera debout. La barrière est levée.",
-      "Appeler les suivants en avant. 1 restent debout : 17 ne tombe pas juste à 2 de front. L’arche ne prend que des complets, jamais des entamés.",
-      "Les mettre tous les deux sur le seuil. Tous les deux sur le seuil — et le seuil est complet, donc il passe. 1 et 1 ensemble remplissent l’arche exactement."
+      "Ouvrez sur la question, pas sur l’animation. Un enfant choisit le défilé sur les nombres de 1 à 20, et la classe s’engage sur un nombre avant que rien ne bouge.",
+      "Appelez vous-même les marcheurs en avant et laissez la classe lire le compte qui grandit. Arrêtez-vous au moment où l’arche refuse, et ne dites rien.",
+      "Montrez la place vide, pas le marcheur à côté d’elle. Puis lisez le tableau à voix haute, sans symboles : treize, c’est six et six et un de plus.",
+      "Les jours de théorème, demandez un second défilé qui laissera lui aussi quelqu’un debout. Engagez-vous encore, regardez-le entrer tout seul, puis demandez : les deux qui sont restés — ensemble, rempliront-ils l’arche ? Un dernier engagement avant que le seuil n’essaie.",
+      "Chaque semaine, laissez un enfant amener exprès un second défilé pair et regardez l’expérience tomber à plat, honnêtement — le seuil reste vide, et c’est la leçon."
     ],
     "classroomIdeas": [
-      "1 restent debout, places vides à côté : 1",
-      "Faire venir le second défilé. Un second défilé de 13. Lui aussi laisse 1 debout.",
-      "Découpe les marcheurs et l’arche. Aligne les marcheurs les uns derrière les autres et fais-les passer, autant de front à chaque fois. Quand il n’en reste pas assez pour remplir l’arche, laisse-les debout et dessine les places vides à côté — ces places vides sont ce que le nombre te dit."
+      "Un rituel de deux minutes chaque matin : trois défilés, trois nombres annoncés, et la prédiction dite à voix haute avant le premier appel.",
+      "Faites passer un défilé de douze puis un défilé de treize, à la même largeur, et demandez ce que l’arche a fait de différent. Elle n’a rien fait de différent — c’est justement la leçon.",
+      "Élargissez l’arche à trois de front et lancez le défi inverse : trouver un défilé qui laisse exactement deux debout. Les nombres de 1 à 20 en font une recherche, pas un hasard.",
+      "Pour les enfants de huit ans : à trois de front, deux groupes restés debout ne remplissent l’arche que parfois. Demandez quels défilés marchent ensemble, et pourquoi — le seuil arbitrera chaque réponse."
     ]
   },
   "doubling-mirror": {

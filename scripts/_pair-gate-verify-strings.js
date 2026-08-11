@@ -17,7 +17,15 @@ var KEYS = Object.keys(TOOL.strings);
 if (KEYS.length < 20) { console.log('ABORT: read only ' + KEYS.length + ' keys off the tool'); process.exit(1); }
 console.log('read ' + KEYS.length + ' keys dynamically off mini tools/pair-gate.js\n');
 
-function ph(s) { var m = String(s).match(/\{\w+\}/g) || []; return m.slice().sort().join(''); }
+/* ⚠ a SET, not a multiset — es `de {k} en {k}` repeats a token
+   legitimately (the tool's _fmt replaces every occurrence), and the
+   multiset form condemned that correct Spanish. The synthetic-defect
+   poison below still fires: a MISSING placeholder changes the set. */
+function ph(s) {
+  var m = String(s).match(/\{\w+\}/g) || [], seen = {}, out = [];
+  m.forEach(function (t) { if (!seen[t]) { seen[t] = 1; out.push(t); } });
+  return out.sort().join('');
+}
 
 /* the ban list. `re` must fire, `pass` must NOT — both asserted below. */
 var BANS = [

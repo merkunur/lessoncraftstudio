@@ -77,40 +77,55 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
         sillW: sill && sill.style.display !== "none" ? +sill.getBoundingClientRect().width.toFixed(1) : null
       };
     };
+    const click = sel => p.evaluate(s => { const e = document.querySelector(s); if (e) e.click(); return !!e; }, sel);
+    /* the rebuilt tool opens on an EMPTY road — the class chooses */
     const o = await p.evaluate(read);
-    ok(!!o && o.waiting > 0, "2 the parade did not render on production");
+    ok(!!o && o.waiting === 0 && o.through === 0, "2 the road is not empty at rest");
     ok(o && !o.barUp, "2 ** the bar is UP before anybody predicted - the tool is a cutscene");
+    ok(await click(".pgt-b-size-9"), "2 the numeral strip is missing");
+    await new Promise(r => setTimeout(r, 350));
+    const chosen = await p.evaluate(read);
+    ok(chosen.waiting === 9, "2 chose 9, " + chosen.waiting + " assembled");
     /* a rank must NOT go through with the bar down */
-    await p.evaluate(() => document.querySelector(".pgt-b-call").click());
+    await click(".pgt-b-call");
     await new Promise(r => setTimeout(r, 350));
     const held = await p.evaluate(read);
     ok(held.through === 0, "2 ** a rank went through with the bar DOWN on production");
-    /* predict, then march to the standstill */
-    await p.evaluate(() => document.querySelector(".pgt-b-no").click());
+    /* commit a numeral, then march to the standstill */
+    await click(".pgt-b-no");
     await new Promise(r => setTimeout(r, 600));
     const pr = await p.evaluate(read);
-    ok(!!pr.barUp, "2 * the bar did not lift after the prediction");
-    for (let i = 0; i < 14; i++) {
-      await p.evaluate(() => document.querySelector(".pgt-b-call").click());
-      await new Promise(r => setTimeout(r, 190));
+    ok(!!pr.barUp, "2 * the bar did not lift after the commit");
+    for (let i = 0; i < 6; i++) {
+      await click(".pgt-b-call");
+      await new Promise(r => setTimeout(r, 800));
     }
     const done = await p.evaluate(read);
-    ok(done.through + done.waiting === o.waiting, "2 through+waiting != the parade");
-    ok(done.waiting < 2, "2 ** a full rank was left standing (" + done.waiting + ")");
+    ok(done.through + done.waiting === 9, "2 through+waiting != the parade");
+    ok(done.waiting === 1, "2 ** 9 in twos should leave exactly 1 (" + done.waiting + ")");
     /* * the leftover is not marked - the EMPTY SEAT beside it is */
-    if (done.waiting > 0) ok(done.seats >= 1, "2 ** somebody is standing and no empty seat is drawn");
-    /* the theorem, and the sill must match the archway - that IS the proof */
-    if (done.waiting > 0) {
-      await p.evaluate(() => document.querySelector(".pgt-b-second").click());
-      await new Promise(r => setTimeout(r, 500));
-      await p.evaluate(() => document.querySelector(".pgt-b-sill").click());
-      await new Promise(r => setTimeout(r, 1700));
-      const sl = await p.evaluate(read);
-      ok(sl.sillOn >= 2, "2 * the sill holds " + sl.sillOn);
-      ok(!!sl.sillFull, "2 ** two left-behinds at two abreast did NOT make a full rank");
-      ok(sl.sillW !== null && Math.abs(sl.sillW - sl.archW) <= 14,
-        "2 ** the sill is " + sl.sillW + "px and the archway " + sl.archW + "px - the proof depends on them matching");
-    }
+    ok(done.seats === 1, "2 ** somebody is standing and no empty seat is drawn");
+    /* the theorem: choose the second parade, commit, bring it in,
+       commit the sill claim, load the plate */
+    ok(await click(".pgt-b-size-7"), "2 the strip did not re-arm for the second parade");
+    await new Promise(r => setTimeout(r, 350));
+    await click(".pgt-b-no");
+    await new Promise(r => setTimeout(r, 350));
+    await click(".pgt-b-second");
+    await new Promise(r => setTimeout(r, 3600));
+    await click(".pgt-b-yes");
+    await new Promise(r => setTimeout(r, 350));
+    await click(".pgt-b-sill");
+    await new Promise(r => setTimeout(r, 700));
+    const sl = await p.evaluate(read);
+    ok(sl.sillOn === 2, "2 * the sill holds " + sl.sillOn);
+    ok(!!sl.sillFull, "2 ** two left at two abreast did NOT make a full plate");
+    ok(sl.sillW !== null && Math.abs(sl.sillW - sl.archW) <= 14,
+      "2 ** the sill is " + sl.sillW + "px and the archway " + sl.archW + "px - the proof depends on them matching");
+    /* Beat B: the full plate takes the same march every rank gets */
+    await new Promise(r => setTimeout(r, 2100));
+    const after = await p.evaluate(read);
+    ok(after.through === 16, "2 ** after the sill passes the yard holds " + after.through + ", not 16");
     await p.close();
   }
 

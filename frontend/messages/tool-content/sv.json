@@ -1389,23 +1389,26 @@
   "pair-gate": {
     "name": "Valvet",
     "slug": "jamna-och-udda-tal-genom-parbildning-lagstadiet",
-    "tagline": "Valvet släpper igenom precis två i bredd — och den som blir stående ritas likadant som alla andra. Bara den tomma platsen bredvid syns.",
+    "tagline": "Välj paraden, säg hur många som blir stående — och ropa dem sedan igenom två i bredd. Den som blir stående ritas likadant som alla andra; bara den tomma platsen bredvid syns.",
     "metaTitle": "Jämnt och udda: två i bredd genom valvet, lågstadiet",
-    "metaDescription": "Säg först om alla kommer igenom och ropa dem sedan två i bredd. Två parader som var för sig lämnar en kvar bildar tillsammans en hel rad.",
+    "metaDescription": "Välj paraden, säg hur många som blir stående, ropa fram dem två i bredd. Två parader som båda lämnar en stående fyller tillsammans valvet — prova även jämna tal.",
     "about": [
-      "Valvet släpper igenom precis så många i bredd. Säg först om alla kommer igenom, ropa dem sedan fram, så många åt gången, och se efter.",
-      "Paraden som väntar, valvet och gården bakom.",
-      "Hela valvet är gratis: varje bredd, varje rop, vägran och tröskeln. Lärarplanen lägger till pappersparaden att klippa ut och ställa upp på bordet, så att ett barn kan skicka marscherarna genom ett valv som det klippt själv."
+      "En parad av marscherare, ett valv i muren som är precis lagom brett för två av dem, och en gård på andra sidan. Klassen väljer paraden bland talen 1 till 20 och säger sedan ett tal — hur många som blir stående — och först då går bommen upp. Den ordningen är hela tanken: det första som händer är ett ställningstagande, och det är ett tal som ett barn kan räkna ut, inte en slant att singla.",
+      "Sedan ropas de fram, två i bredd åt gången, och talet växer medan de går — 2, 4, 6, 8 — att räkna i steg om två blir någonting man ser. När färre än två är kvar säger valvet helt enkelt nej. Ingenting säger att barnet gjort fel: den som blir stående ritas precis som varje annan marscherare, och det som ritas är den tomma platsen bredvid. När allt stannat visar gården dem två och två, lika många på varje sida, med talen intill — tretton är sex och sex och en till — tanken bakom jämna tal, visad av själva apparaten utan att något räknetecken skrivs.",
+      "Sedan väljer klassen en andra parad — hur stor som helst, jämna tal också, och det är just meningen. Lämnar även den någon stående kliver de som blev stående i båda paraderna upp på tröskeln, en platta precis lika bred som valvet, och en full tröskel fyller valvet: udda plus udda blev jämnt, sett som ett maskineri. Marscherar den andra paraden rakt igenom finns det ingen att ställa på tröskeln, och verktyget säger det rakt ut — regeln går att sätta på prov på riktigt, och det är just det som gör den till en regel."
     ],
     "howToUse": [
-      "Någon blir stående. Klassen säger att någon blir stående. Bommen är uppe.",
-      "Ropa fram de nästa. 1 blir stående: 17 går inte jämnt upp i 2 i bredd. Valvet tar bara fulla, aldrig påbörjade.",
-      "Ställ båda på tröskeln. Båda på tröskeln — och tröskeln är full, så den får gå igenom. 1 och 1 tillsammans fyller valvet precis."
+      "Börja med frågan, inte med rörelsen. Ett barn väljer paraden bland talen 1 till 20, och klassen trycker på ett tal — hur många som blir stående — innan någonting alls rör sig.",
+      "Ropa fram dem själv, två i bredd åt gången, och låt klassen läsa talet som växer. Stanna i samma ögonblick som valvet säger nej — och säg ingenting.",
+      "Peka på den tomma platsen, inte på marscheraren bredvid. Läs sedan bilden högt utan räknetecken: tretton är sex och sex och en till.",
+      "På regeldagar: be om en andra parad som även den lämnar en stående. Säg ett tal igen, se den marschera in av sig själv, och fråga sedan: de två som blev stående — fyller de valvet tillsammans? Säg vad ni tror en gång till innan tröskeln får försöka.",
+      "En gång i veckan: låt ett barn med flit välja en jämn andra parad och se försöket rinna ut i sanden helt ärligt — tröskeln står tom, och just det är lärdomen."
     ],
     "classroomIdeas": [
-      "1 blir stående, tomma platser bredvid: 1",
-      "Hämta den andra paraden. En andra parad på 13. Även den lämnar 1 stående.",
-      "Klipp ut marscherarna och valvet. Ställ upp marscherarna efter varandra och skicka igenom dem, så många i bredd åt gången. När det blir för få kvar för att fylla valvet, låt dem stå och rita de tomma platserna bredvid — de tomma platserna är det som talet säger dig."
+      "En daglig rutin på två minuter: tre parader, tre tal som klassen bestämt sig för, och gissningen sagd högt innan en enda marscherare ropas fram.",
+      "Kör en parad på tolv och en på tretton direkt efter varandra, med samma bredd, och fråga vad valvet gjorde annorlunda. Det gjorde ingenting annorlunda — det är just poängen.",
+      "Bredda valvet till tre och vänd på uppgiften: hitta en parad som lämnar precis två stående. Talen 1 till 20 gör det till ett letande, inte en gissning.",
+      "En utmaning för åttaåringarna: med tre i bredd fyller de som blev stående bara ibland valvet tillsammans. Fråga vilka två parader som fungerar ihop och varför — tröskeln avgör varje påstående."
     ]
   },
   "doubling-mirror": {

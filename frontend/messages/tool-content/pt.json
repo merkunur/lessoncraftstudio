@@ -1388,23 +1388,26 @@
   "pair-gate": {
     "name": "O pórtico",
     "slug": "numeros-pares-e-impares-formando-duplas-anos-iniciais",
-    "tagline": "O pórtico deixa passar exatamente dois lado a lado — e quem fica não é desenhado de outro jeito. Só o lugar vazio ao lado dele.",
+    "tagline": "Escolham o desfile, digam quantos vão ficar de pé — e depois chamem todos, de dois em dois. Quem fica de pé não é desenhado de outro jeito; só o lugar vazio ao lado dele aparece.",
     "metaTitle": "Pares e ímpares: passar dois lado a lado, anos iniciais",
-    "metaDescription": "Digam primeiro se todos vão passar e depois chamem de dois em dois. Dois desfiles que deixam um cada um formam juntos uma fila cheia.",
+    "metaDescription": "Lousa gratuita: escolham o desfile, digam quantos ficam de pé, chamem de dois em dois. Dois desfiles que deixam um cada um enchem uma leva — testem até com pares.",
     "about": [
-      "O pórtico deixa passar exatamente esta quantidade lado a lado. Digam primeiro se todos vão passar e depois chamem-nos para a frente, tantos por vez, e confiram.",
-      "O desfile esperando, o pórtico e o pátio do outro lado.",
-      "O pórtico inteiro é gratuito: cada largura, cada chamada, a recusa e a soleira. O Plano Professor acrescenta o desfile de papel para recortar e alinhar sobre a mesa, para que a criança faça os desfilantes passarem por um pórtico recortado por ela mesma."
+      "Um desfile de desfilantes, um pórtico aberto num muro por onde cabem exatamente dois lado a lado, e um pátio do outro lado. A turma escolhe o desfile numa tira de números e depois diz um número — quantos vão ficar de pé — e só então a barreira sobe. Essa ordem é o projeto inteiro: a primeira coisa que acontece é um julgamento, e agora o julgamento é um número que dá para calcular, não uma moeda para jogar.",
+      "Depois as levas são chamadas para a frente, uma de cada vez, e a contagem cresce junto — 2, 4, 6, 8 — o contar de dois em dois ficando visível. Quando sobram menos de dois, o pórtico simplesmente recusa. Nada chama a criança de errada: quem fica de pé é desenhado exatamente como qualquer outro desfilante, e o que É desenhado é o lugar vazio ao lado. Na parada, o pátio mostra as duas colunas iguais com suas contagens — treze é seis e seis e mais um — a ideia de número par mostrada pelo próprio aparelho, sem nenhum símbolo escrito.",
+      "Depois a turma escolhe um segundo desfile — do tamanho que quiser, números pares incluídos, e o ponto é justamente esse. Se ele também deixar alguém de pé, os dois que ficaram sobem na soleira, uma placa exatamente tão larga quanto o pórtico — e soleira cheia é leva completa: ímpar mais ímpar virando par, visto funcionando como um mecanismo. Se o segundo desfile passar inteiro, não sobra nada para levar à soleira, e a ferramenta diz isso — o teorema pode ser testado e pode falhar diante da turma, e é isso que faz dele um teorema."
     ],
     "howToUse": [
-      "Alguém vai ficar de pé. A turma diz que alguém vai ficar de pé. A barreira está levantada.",
-      "Chamar os próximos. 1 ficam de pé: 17 não se divide exatamente em 2 lado a lado. O pórtico só aceita completos, nunca pela metade.",
-      "Colocar os dois na soleira. Os dois na soleira — e a soleira está cheia, então passa. 1 e 1 juntos enchem o pórtico exatamente."
+      "Comecem pela pergunta, não pela animação. Uma criança escolhe o desfile na tira de números, e a turma escolhe sua ficha de número antes de qualquer coisa se mexer.",
+      "Chame você as levas para a frente e deixe a turma ler a contagem crescendo. Pare no instante em que o pórtico recusar — e não diga nada.",
+      "Aponte para o lugar vazio, não para o desfilante ao lado dele. Depois leia o quadro em voz alta, sem símbolos: treze é seis e seis e mais um.",
+      "Em dia de teorema, peçam um segundo desfile que TAMBÉM deixe um de pé. Digam o número de novo, vejam o desfile entrar sozinho e perguntem: os dois que ficaram — juntos, eles enchem uma leva? Digam mais um número antes de a soleira tentar.",
+      "Uma vez por semana, deixe uma criança trazer de propósito um segundo desfile com número par e vejam a experiência falhar com honestidade — a soleira fica vazia, e a lição é exatamente essa."
     ],
     "classroomIdeas": [
-      "1 ficam de pé, lugares vazios ao lado: 1",
-      "Trazer o segundo desfile. Um segundo desfile de 13. Ele também deixa 1 de pé.",
-      "Recorte os desfilantes e o pórtico. Coloque-os um atrás do outro e faça-os passar, tantos lado a lado por vez. Quando sobrarem poucos demais para encher o pórtico, deixe-os de pé e desenhe os lugares vazios ao lado deles — esses lugares vazios são o que o número está dizendo."
+      "Uma rotina diária de dois minutos: três desfiles, três números escolhidos, e a previsão dita em voz alta antes de qualquer leva ser chamada.",
+      "Rodem um desfile de doze e um de treze, um atrás do outro, na mesma largura, e perguntem o que o pórtico fez de diferente. Ele não fez nada de diferente — o ponto é esse.",
+      "Alarguem o pórtico para três e proponham o desafio ao contrário: encontrar um desfile que deixe exatamente dois de pé. Com a tira de números, isso vira uma busca, não um chute.",
+      "Um desafio a mais para as crianças de oito anos: com três lado a lado, dois grupos que ficaram de pé só às vezes enchem uma leva. Perguntem quais combinações de desfiles funcionam e por quê — a soleira confere cada palpite."
     ]
   },
   "doubling-mirror": {

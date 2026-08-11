@@ -1453,6 +1453,30 @@
       "Dê duas vezes o mesmo total com repartições diferentes no parapeito. O número não muda e todo o resto muda — é por isso que o total sozinho não diz o que aconteceu."
     ]
   },
+  "the-gap": {
+    "name": "O que aconteceu no intervalo",
+    "slug": "o-intervalo-o-que-aconteceu-enquanto-ninguem-via-1-ano",
+    "tagline": "Contem as bolinhas no chão. No intervalo não dá para ver nada, e no fim o número é outro: falta descobrir o que aconteceu enquanto ninguém via.",
+    "metaTitle": "O que aconteceu no intervalo — quanto mudou sem ninguém ver, 1.º ano",
+    "metaDescription": "Ferramenta gratuita de lousa: bolinhas no chão, um intervalo que as tira da vista e outra contagem no fim. O chão só mostra se algo entrou ou saiu, nunca quanto.",
+    "about": [
+      "Um chão com bolinhas em cima e um número que a turma conta em voz alta. Depois vem o intervalo: as bolinhas não ficam escondidas atrás de nada — enquanto ele dura, elas simplesmente não são desenhadas, então não há o que espiar. Sobra o próprio chão, e por ele passa um único pulso, para dentro ou para fora. Esse pulso diz que aconteceu alguma coisa e para que lado. Ele é igualzinho para uma bolinha e para seis: a quantidade ele nunca entrega.",
+      "Quando o intervalo acaba, conta-se de novo. O começo se sabe, o fim se sabe, e o que ninguém viu é justamente o tamanho da mudança. É a pergunta que os cadernos quase nunca trazem: em três de quatro livros de 1.º ano examinados nos anos 1980 ela não apareceu nenhuma vez. É mais difícil que a pergunta comum pelo resultado, e essa dificuldade merece uma conversa na aula em vez de uma correção.",
+      "Uma criança diz a ideia dela tocando um número. A ferramenta representa a ideia e chega aonde chega — no mesmo chão, na mesma cor e no mesmo tamanho. Nenhuma comparação é calculada em lugar nenhum: nada fica verde, nada fica vermelho, nenhuma frase diz errado. A criança vê que dois números não são iguais e segue dali. Não há pontos nem relógio. Esta rotina é baseada em pesquisa, mas não em provas de eficácia: descrevemos o que a ferramenta faz e não afirmamos nenhum efeito medido.",
+      "Aqui tudo é grátis: cada chão novo, cada intervalo e quantas tentativas a turma quiser. O plano Professor acrescenta a folha impressa, com o chão antes e depois exatamente como a turma acabou de ver, e linhas pautadas para as sentenças matemáticas que ela escreveu."
+    ],
+    "howToUse": [
+      "Distribua um chão e contem juntos em voz alta. Nada é cronometrado: contar pode levar o tempo que precisar.",
+      "Comece o intervalo. Peça que a turma olhe para o chão: é a única coisa que fica, e ele mostra só uma coisa — entrou alguma coisa, ou saiu alguma coisa.",
+      "Quando acabar, contem de novo e escreva os dois números à vista de todos. Aí vem a pergunta de verdade: quantas, enquanto ninguém via?",
+      "Pegue a ideia de uma criança e toque nesse número. A ferramenta parte da primeira contagem e chega aonde essa ideia leva. Se chegar a outro lugar do que a turma contou, não é erro e sim informação — pergunte o que ela diz a vocês."
+    ],
+    "classroomIdeas": [
+      "Dois minutos por dia: um chão, um intervalo e uma conta na lousa. A conta é o objetivo; contar é o caminho.",
+      "Recolha três ideias diferentes e escreva todas antes de tocar em qualquer coisa. Depois represente uma por uma e deixe a turma ver aonde cada uma chega.",
+      "Use a mesma contagem inicial duas vezes: uma com algo entrando e outra com algo saindo. A única diferença é o pulso, e vale perguntar o que a turma viu de fato."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

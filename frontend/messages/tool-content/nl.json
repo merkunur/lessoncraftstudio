@@ -1455,6 +1455,30 @@
       "Geef twee keer hetzelfde totaal met de stippen anders verdeeld. Het getal blijft gelijk en al het andere verandert — daarom zegt het totaal alleen niet wat er gebeurd is."
     ]
   },
+  "the-gap": {
+    "name": "De tussentijd",
+    "slug": "de-tussentijd-wat-is-er-veranderd-terwijl-je-niet-keek-groep-3",
+    "tagline": "Tel de knikkers op de stoep. In de tussentijd zie je even niets, en daarna zijn het er andere — uitzoeken wat er gebeurd is.",
+    "metaTitle": "De tussentijd — wat veranderde er terwijl je niet keek? Groep 3",
+    "metaDescription": "Gratis digibordtool: knikkers op de stoep, een tussentijd waarin je niets ziet en daarna een ander aantal. De stoep laat alleen zien of er iets bij kwam of weg ging, nooit hoeveel.",
+    "about": [
+      "Een stoep met knikkers erop en een aantal dat de klas samen hardop telt. Dan komt de tussentijd: de knikkers zitten niet ergens achter verstopt — zolang die loopt, worden ze helemaal niet getekend, dus er valt niets te spieken. Wat overblijft is de stoep zelf, en daar loopt één golf overheen, naar binnen of naar buiten. Die golf zegt dat er iets gebeurd is en welke kant op. Bij één knikker ziet hij er precies zo uit als bij zes: het aantal verraadt hij nooit.",
+      "Als de tussentijd voorbij is, tel je opnieuw. Het begin weet je, het eind weet je, en wat niemand gezien heeft is juist hoe groot de verandering was. Dat is de vraag die op werkbladen bijna nooit staat: in drie van de vier onderzochte eersteklasboeken uit de jaren tachtig kwam hij geen enkele keer voor. Hij is lastiger dan de gewone vraag naar de uitkomst, en dat lastige is een gesprek in de klas waard in plaats van een verbetering.",
+      "Een kind zegt zijn idee door een getal aan te tikken. De tool speelt het na en komt uit waar het uitkomt — op dezelfde stoep, in dezelfde kleur, even groot. Nergens wordt iets vergeleken: niets wordt groen, niets wordt rood, geen enkele zin zegt fout. Het kind ziet dat twee getallen niet hetzelfde zijn en gaat vanaf daar verder. Er zijn geen punten en er loopt geen klok. Deze routine is gebaseerd op onderzoek, maar niet op bewezen effect: we beschrijven wat de tool doet en claimen geen gemeten resultaat.",
+      "Alles hier is gratis: elke nieuwe stoep, elke tussentijd en zoveel ideeën als de klas wil. Het Leerkracht-abonnement voegt het afdrukbare blad toe, met de stoep ervoor en erna precies zoals de klas hem net zag, en lijnen voor de sommen die erbij bedacht zijn."
+    ],
+    "howToUse": [
+      "Deel een stoep uit en tel samen hardop. Er loopt geen klok: tellen mag zo lang duren als nodig is.",
+      "Laat de tussentijd lopen. Vraag de klas naar de stoep te kijken: dat is het enige wat blijft, en hij laat maar één ding zien — er is iets bij gekomen, of er is iets weg gegaan.",
+      "Tel daarna opnieuw en schrijf beide getallen goed zichtbaar op. Dan komt de echte vraag: hoeveel, terwijl we niet konden kijken?",
+      "Neem het idee van een kind en tik dat getal aan. De tool begint bij het eerste aantal en komt uit waar dat idee heen leidt. Komt hij ergens anders uit dan de klas telde, dan is dat geen fout maar informatie — vraag wat het jullie vertelt."
+    ],
+    "classroomIdeas": [
+      "Twee minuten per dag: één stoep, één tussentijd, één som op het bord. De som is het doel, tellen is de weg ernaartoe.",
+      "Verzamel drie verschillende ideeën en schrijf ze allemaal op voordat er iets aangetikt wordt. Speel ze daarna één voor één na en kijk waar elk idee uitkomt.",
+      "Neem hetzelfde beginaantal twee keer: één keer komt er iets bij, één keer gaat er iets weg. Alleen de golf verschilt, en het is de moeite waard te vragen wat de klas precies zag."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

@@ -91,6 +91,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'pair-gate': 'number',
   'doubling-mirror': 'number',
   'missing-question': 'number',
+  'the-gap': 'number',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

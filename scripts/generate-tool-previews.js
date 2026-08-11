@@ -698,6 +698,14 @@ const VIEWPORT = {
      nothing cropped. Read the .webp after any change here; the log says ok
      either way. */
   'syllable-splitter': { width: 1440, height: 900 },
+  /* ⚠ #56 TAKES NO OVERRIDE, AND THAT IS A MEASUREMENT, NOT AN OMISSION.
+     At the default 720x640 the app renders 720x554 — aspect 0.769, under
+     the 0.85 line, so `--fit=auto` letterboxes and crops nothing (read
+     off the .webp, not off the log). A 1040x620 override was tried to
+     shrink the locked panel's share of the frame and changed the card by
+     five pixels: the shell caps this app's width, so a wider viewport is
+     a no-op here. The entry was removed rather than left in place with a
+     comment claiming an effect it does not have. */
 };
 
 async function runSeed(page, key) {

@@ -1455,6 +1455,30 @@
       "Dieselbe Gesamtzahl zweimal austeilen, mit unterschiedlich vielen Plättchen auf dem Geländer. Die Zahl bleibt gleich, alles andere ändert sich — genau deshalb sagt die Zahl allein nicht, was passiert ist."
     ]
   },
+  "the-gap": {
+    "name": "Die Zwischenzeit",
+    "slug": "die-zwischenzeit-was-ist-dazwischen-passiert-klasse-1",
+    "tagline": "Zählt, was auf dem Boden liegt. In der Zwischenzeit ist nichts zu sehen, und danach sind es andere — herauszufinden ist, was dazwischen passiert ist.",
+    "metaTitle": "Die Zwischenzeit — was ist passiert, während ihr nichts saht? Klasse 1",
+    "metaDescription": "Kostenloses Tafelwerkzeug: Kiesel auf dem Boden, eine Zwischenzeit, in der nichts zu sehen ist, und danach eine andere Anzahl. Der Boden verrät nur die Richtung, nie wie viel.",
+    "about": [
+      "Ein Boden mit Kieseln darauf und eine Anzahl, die die Klasse gemeinsam laut zählt. Dann kommt die Zwischenzeit: Die Kiesel sind nicht hinter etwas versteckt — solange sie läuft, werden sie gar nicht gezeichnet, es gibt also nichts, worauf man schielen könnte. Übrig bleibt der Boden selbst, und über ihn läuft ein einziger Impuls, nach innen oder nach außen. Er sagt, dass etwas passiert ist und in welche Richtung. Bei einem Kiesel sieht er genauso aus wie bei sechs — die Menge verrät er nie.",
+      "Ist die Zwischenzeit vorbei, wird noch einmal gezählt. Der Anfang ist bekannt, das Ende ist bekannt, und unbekannt bleibt genau das, was niemand gesehen hat: wie groß die Veränderung war. Diese Frage stellen Arbeitshefte fast nie — in drei von vier untersuchten Erstklassbüchern der 1980er-Jahre kam sie kein einziges Mal vor. Sie ist schwerer als die übliche Frage nach dem Ergebnis, und dieses Schwerersein ist ein Gespräch in der Klasse wert und keine Korrektur.",
+      "Ein Kind sagt seine Vermutung, indem es eine Zahl antippt. Das Werkzeug spielt sie durch und landet, wo es eben landet — auf demselben Boden, in derselben Farbe, in derselben Größe. Verglichen wird nirgends: nichts wird grün, nichts wird rot, kein Satz sagt falsch. Das Kind sieht, dass zwei Zahlen nicht gleich sind, und macht von dort aus weiter. Es gibt keine Punkte und keine Uhr. Diese Routine ist forschungsgestützt, nicht evidenzbasiert: Wir beschreiben, was das Werkzeug tut, und behaupten keine gemessene Wirkung.",
+      "Alles hier ist kostenlos: jeder neue Boden, jede Zwischenzeit und so viele Versuche, wie die Klasse mag. Das Lehrkraft-Abo bringt zusätzlich das Blatt zum Ausdrucken — der Boden vorher und nachher, genau so, wie die Klasse ihn gerade gesehen hat, und Linien für die Rechnungen, die dabei entstanden sind."
+    ],
+    "howToUse": [
+      "Einen Boden austeilen und gemeinsam laut zählen. Nichts läuft gegen die Uhr — das Zählen darf so lange dauern, wie es dauert.",
+      "Die Zwischenzeit starten. Sagt der Klasse, sie soll auf den Boden schauen: Er ist das Einzige, was bleibt, und er zeigt nur eines — es ist etwas dazugekommen, oder es ist etwas weggegangen.",
+      "Danach noch einmal zählen und beide Zahlen gut sichtbar aufschreiben. Dann kommt die eigentliche Frage: Wie viele waren es, während wir nichts sehen konnten?",
+      "Eine Vermutung aus der Klasse annehmen und die Zahl antippen. Das Werkzeug beginnt bei der ersten Anzahl und landet dort, wohin die Vermutung führt. Landet es woanders als die Klasse gezählt hat, ist das kein Fehler, sondern eine Information — fragt, was sie euch sagt."
+    ],
+    "classroomIdeas": [
+      "Zwei Minuten am Tag: ein Boden, eine Zwischenzeit, eine Rechnung an der Tafel. Die Rechnung ist das Ziel, das Zählen der Weg dorthin.",
+      "Erst drei verschiedene Vermutungen einsammeln und alle anschreiben, bevor irgendetwas angetippt wird. Danach eine nach der anderen durchspielen und zuschauen, wo jede landet.",
+      "Dieselbe Anfangszahl zweimal nehmen — einmal kommt etwas dazu, einmal geht etwas weg. Der Unterschied liegt allein im Impuls, und es lohnt sich zu fragen, was die Klasse tatsächlich gesehen hat."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

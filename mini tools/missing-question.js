@@ -257,7 +257,17 @@
     T_OUT: 140,
     T_STEP: 260,
     T_DRAW: 340,
-    T_SWAP: 380,
+    /* ⚠ T_SWAP (380ms) WAS REMOVED HERE, AND THIS NOTE IS THE AUDIT
+       TRAIL RATHER THAN AN APOLOGY. It was declared, emitted as
+       `--mqu-swap`, and used as the transition duration for `transform`
+       on `.mqu-niche` — where NO RULE EVER SETS `transform`. The niches
+       move between arrangements by changing `grid-area`, which does not
+       transition, and `render()` rebuilds the DOM on a settings change
+       anyway, so the swap was always a hard cut. A constant nobody reads
+       is a law with nothing behind it — the exact defect this file's own
+       header condemns in the build it replaces, committed by the
+       replacement. Found by the Swedish panel. If the swap is ever to
+       animate, the constant comes back WITH the code that reads it. */
     T_REFUSE: 200,
     RM_F: 0.28,
     RM_FLOOR: 90,
@@ -316,17 +326,30 @@
         en: 'Something is happening, and nobody has asked you anything yet. Start with three empty places and no numbers at all, and let the class decide what could be asked. Then tell them one thing at a time — how the places are related, then one number, then another — and watch what is still missing.'
       },
 
-      /* ---- group legends: the column IS the ladder ---- */
-      legSetup: { en: 'Before the class arrives' },
+      /* ---- group legends: the column IS the ladder.
+         ⚠ `legSetup` used to read "Before the class arrives", which is
+         wrong about the moment it lights: stage 0 IS the opening of the
+         routine, with the class in the room and nothing said yet. That
+         is the whole premise, and the legend denied it.
+         ⚠ `legAsk` used to read "The question", but it labels the two
+         controls that SETTLE the question — the question itself is
+         already standing at stage 3. ---- */
+      legSetup: { en: 'Set up the situation' },
       legTell:  { en: 'Tell them one thing' },
-      legAsk:   { en: 'The question' },
+      legAsk:   { en: 'Settle the question' },
       legPaper: { en: 'On paper' },
 
       /* ---- the acts. ⚠ EVERY LABEL NAMES ITS CONSEQUENCE. A teacher
          must never press an unlabelled forward control in front of a
          class, so there is no "Next" anywhere in this file. ---- */
+      /* ⚠⚠ `unlink` USED TO READ "Hide how they go together", and it hid
+         its own biggest consequence: `link(st,false)` also clears every
+         told quantity and the count. Pressing it wipes everything the
+         class has been told — the label must say so, because this file's
+         own law is that every label names its consequence. It also used
+         the covering verb the whole fence exists to escape. */
       link:    { en: 'Show how they go together' },
-      unlink:  { en: 'Hide how they go together' },
+      unlink:  { en: 'Start over — this clears every number told' },
       tell0:   { en: 'Tell them the round one' },
       tell1:   { en: 'Tell them the square one' },
       tell2:   { en: 'Tell them the pointed one' },
@@ -334,9 +357,13 @@
       untell1: { en: 'Take the square one back' },
       untell2: { en: 'Take the pointed one back' },
       count:   { en: 'Count what is missing' },
-      uncount: { en: 'Hide it again' },
+      /* ⚠ not "hide" — nothing in this tool is ever hidden. The counters
+         are taken back off the strip. */
+      uncount: { en: 'Take the count back off' },
       recount: { en: 'Count it again' },
-      deal:    { en: 'Something else is happening' },
+      /* ⚠ it also resets which niche is the question, and every label in
+         this file names its consequence */
+      deal:    { en: 'Start again with a new situation' },
       print:   { en: 'Print the sheet' },
 
       /* ---- setup ---- */
@@ -344,31 +371,75 @@
       askAt0:    { en: 'the round one' },
       askAt1:    { en: 'the square one' },
       askAt2:    { en: 'the pointed one' },
-      totalUp:   { en: 'One more altogether' },
-      totalDown: { en: 'One fewer altogether' },
+      /* ⚠⚠ NOT "altogether" — that is FALSE in the compare arrangement.
+         `SUM_AT.compare = 0`, and niche 0 there is the BIGGER AMOUNT,
+         not a total; a comparison has no "altogether". What is being
+         stepped is the largest of the three in all three families
+         (result / whole / bigger), so that is what the label says. */
+      /* ⚠ it also clears every number already told — `setTotal` acquired
+         that behaviour and had to acquire the label with it, exactly as
+         `unlink` and `deal` did */
+      totalUp:   { en: 'Largest amount one more — clears what was told' },
+      totalDown: { en: 'Largest amount one fewer — clears what was told' },
 
       /* ---- the say line ---- */
       sayDealt:  { en: 'Three places and no numbers. Nobody has asked anything yet.' },
-      sayLinked: { en: 'Now they can see how the three go together — still no numbers.' },
-      sayTold:   { en: 'One more thing is known. What can the class work out now?' },
-      sayAsk:    { en: 'Everything that is going to be said has been said. What is missing?' },
+      /* ⚠ a STATE, not an event: "now they can see" is also spoken when
+         the ladder walks backwards, where they could already see it */
+      sayLinked: { en: 'How the three go together is on the board — and still no numbers.' },
+      /* ⚠ `sayTold` used to ask "What can the class work out now?" at
+         stage 2 — where one fact and a relation are known and NOTHING
+         can yet be worked out. It asked for something that does not
+         exist. The teacher's real line at that moment is the one the
+         header quotes. */
+      /* ⚠ A STATE, NOT AN EVENT. `_sayForStage` derives from the stage
+         alone, so an event sentence ("one more thing is known") fires at
+         the exact moment a teacher presses "take the round one back" and
+         one thing became UNknown. A state description is true in both
+         directions. */
+      sayTold:   { en: 'One of the two has been said. What do we know — and what do we still not?' },
+      /* ⚠ a STATE, not a promise about the future. It used to say
+         "everything that is GOING TO BE said has been said", which the
+         tool cannot promise — the setup controls stay live. */
+      sayAsk:    { en: 'Both numbers have been said. What is missing?' },
       sayCount:  { en: 'Count them together.' },
-      sayShape:  { en: 'The same two things, arranged a different way.' },
+      /* ⚠ this fires on an ARRANGEMENT CHANGE, which is invention 2: the
+         same two facts, laid out differently, give a different answer. */
+      sayShape:  { en: 'The same two things, arranged a different way. Does the answer change?' },
+      /* ⚠ the honest alternative when the two told numbers cannot both
+         be legal in the new arrangement. Losing a fact is honest;
+         rewriting one under the class's eyes is not. */
+      sayShapeCleared: { en: 'Those two numbers cannot both fit this arrangement, so the situation starts again.' },
 
       /* ---- refusals, one per reason ---- */
       saidNothingLinked: { en: 'Show how the three go together first — otherwise there is nothing to work out from.' },
-      saidNothingTold:   { en: 'Nothing has been said yet, so there is nothing missing.' },
+      /* ⚠⚠ NOT "nothing is missing". At stage zero EVERYTHING is
+         missing — that is the entire routine, and the refusal was
+         denying the tool's own premise. What is absent is anything to
+         work it out FROM. Four native panels filed this independently. */
+      saidNothingTold:   { en: 'Nothing has been said yet, so there is nothing to work it out from.' },
+      /* ⚠ ITS OWN STRING. `_recount` used to borrow `saidNothingTold`,
+         so a teacher who had told both facts and taken the count back
+         was told "nothing has been said yet" — false about the very
+         state it fired in. */
+      saidNotCounted:    { en: 'Nothing has been counted out yet, so there is nothing to count again.' },
       saidStillMissing:  { en: 'One of the two is still unsaid. Tell them that one first.' },
       saidThatIsTheAsk:  { en: 'That is the one they have to work out, so it cannot be told.' },
-      saidAtCeiling:     { en: 'That is as many as this setting allows.' },
-      saidAtFloor:       { en: 'Any fewer and every question has the same answer.' },
+      saidAtCeiling:     { en: 'That is as far as this number range goes.' },
+      /* ⚠ NOT "every question" — that overclaims in front of teachers.
+         `legal()` rejects the frame because the two PARTS coincide; a
+         question about the whole still has its own answer. */
+      saidAtFloor:       { en: 'Any fewer and the two parts would be the same number.' },
       saidLocked:        { en: 'The printed sheet is part of a Teacher plan.' },
 
       /* ---- aria. ⚠ THE MARKS ARE NOT TAP TARGETS and the niches are
          the places the child looks, so aria carries the whole frame on
          every state change — an aria-label change on an unfocused group
          is announced by nobody. ---- */
-      ariaStand:   { en: 'Three places. {told} of them have been said. {rest}' },
+      /* ⚠ "{told} of them have been said" renders "1 of them HAVE been
+         said" at the commonest value. Restructured so no count sits in
+         front of a verb that has to agree with it. */
+      ariaStand:   { en: 'Three places. Said so far: {told}. {rest}' },
       ariaNothing: { en: 'Nothing has been said yet.' },
       ariaLinked:  { en: 'They are shown going together.' },
       ariaAsking:  { en: 'One place is still to be worked out.' },
@@ -383,16 +454,29 @@
       setShape:     { en: 'How the three go together' },
       shapeChange:  { en: 'one thing happened' },
       shapeBracket: { en: 'two make one' },
-      shapeCompare: { en: 'side by side' },
+      /* ⚠ NOT "side by side" — the CSS STACKS these two, at grid-area
+         1/1 and 3/1, in the same column. Name the relation, not a
+         geometry the tool does not draw. */
+      shapeCompare: { en: 'one has more than the other' },
       setBand:      { en: 'How far the numbers go' },
       bandTen:      { en: 'up to ten' },
       bandTwenty:   { en: 'up to twenty' },
 
       /* ---- paid sheet ---- */
-      sheetTitle: { en: 'The same three places, and room to write what you asked' },
-      sheetHint:  { en: 'One line for each question the class asked, and the number sentence that goes with it.' },
+      sheetTitle: { en: 'The same three places, and room to write what the class asked' },
+      /* ⚠⚠ IT USED TO COMMISSION THE ONE THING THE REFUSE-LIST FORBIDS.
+         The header bans any arithmetic sentence from being rendered, and
+         the sheet then asked the child to write one — the tool refusing
+         with one hand what it requisitions with the other. And it is the
+         wrong ask besides: this routine's product is the QUESTION. */
+      /* ⚠ SIX, because six is what `_buildSheet` draws. "One line for
+         each question" promised a variable the sheet does not have. */
+      sheetHint:  { en: 'Six lines, one for each question the class asked. Write the questions, not the answers.' },
       lockedTitle: { en: 'The sheet is part of a Teacher plan' },
-      lockedBody:  { en: 'The whole apparatus is free — every arrangement, every reveal, and counting out what was missing. A Teacher plan adds the printed sheet, which carries the three places exactly as the class just saw them, with ruled lines for the questions they asked.' }
+      /* ⚠ NOT "every reveal". A reveal presupposes a cover, and the
+         covering verb is the one this tool's whole fence exists to
+         escape — the paid copy was naming the dead design. */
+      lockedBody:  { en: 'The whole apparatus is free — every arrangement, every fact you tell them, and counting out what was missing. A Teacher plan adds the printed sheet, which carries the three places exactly as the class just saw them, with ruled lines for the questions they asked.' }
     },
 
     settings: [
@@ -463,9 +547,22 @@
       }
       /* ⚠ `all` is never empty: w=3 gives (3,1) and (3,2) at every cap. */
       var f = all[(pick == null ? Math.floor(Math.random() * all.length) : pick) % all.length];
+      /* ⚠⚠ THE CAP LIVES ON THE STATE, AND THAT IS A BUG FIX, NOT A
+         STYLE CHOICE. `legal()` checks the floor, integrality,
+         positivity and the equal-parts case — it never consulted the
+         BAND, and `setShape` re-derives `w` from the carried told
+         values, so switching arrangement could produce a total far above
+         the configured cap. MEASURED over the whole ten-band: 138 such
+         results, worst `change -> compare` giving w=19 — and because the
+         lattice is (correctly) sized from the band, THE CLASS WOULD
+         COUNT TEN WELLS WHILE THE TOOL ANNOUNCED NINETEEN. The band
+         silently stopped governing the moment a teacher changed family.
+         Found by the Swedish panel; carrying the cap on the state makes
+         it reachable from every move instead. */
       return {
         shape: SHAPES.indexOf(shape) >= 0 ? shape : 'bracket',
         w: f.w, p: f.p,
+        cap: cap,
         ask: SUM_AT[SHAPES.indexOf(shape) >= 0 ? shape : 'bracket'],
         linked: false, told: [false, false, false], counted: false
       };
@@ -474,6 +571,10 @@
     _st: function (st) { return st || this.st; },
     _copy: function (s) {
       return { shape: s.shape, w: s.w, p: s.p, ask: s.ask,
+        /* ⚠ a state constructed by a gate may omit it; fall back to the
+           wider band so the fallback can never be the thing that hides a
+           breach */
+        cap: (s.cap != null) ? s.cap : GEO.BANDS.twenty,
         linked: s.linked, told: [s.told[0], s.told[1], s.told[2]], counted: s.counted };
     },
 
@@ -550,26 +651,82 @@
       return n;
     },
 
-    /* ⭐ INVENTION 2. The told slips STAY in their niches; only the
-       arrangement and the linkage change — and the answer is different.
-       ⚠ `counted` MUST clear: carrying a resolved count across an
-       arrangement change would render a false situation, and this tool's
-       one non-negotiable is that it never asserts something untrue. */
+    /* ⭐⭐ INVENTION 2, AND IT WAS BROKEN — THE TOLD NUMERALS REWROTE
+       THEMSELVES. This used to carry `told` across by POSITION while
+       `values()` re-derived every niche from `SUM_AT[shape]`, so the
+       slips kept their places and CHANGED THEIR NUMBERS in front of the
+       class. Measured on the shipped code:
+
+         bracket w=7 p=3   niches [3, 4, 7]   told 0,1 show 3 and 4
+         -> change         niches [3, 7, 4]   the told 4 became a 7
+         -> compare        niches [7, 3, 4]   both told slips changed
+
+       Three native panels found it independently by reading the model,
+       and the French panel found the worst case in it: in bracket ->
+       change the new answer (4) is the number that was sitting in niche
+       1 a second earlier — THE TOOL SHOWS THE CLASS THE ANSWER AND THEN
+       ASKS FOR IT. `sayShape` was announcing "the same two things" over
+       a frame where that was false, which is the one thing this file
+       says it never does.
+
+       So the told VALUES are preserved and `w`/`p` are re-derived to
+       satisfy the new arrangement's invariant. ⚠ That is not always
+       possible — the same two numbers cannot always be legal in a
+       different role — and when it is not, the told slips are CLEARED
+       rather than rewritten. Losing a fact is honest; changing one
+       under the class's eyes is not.
+
+       ⚠ `counted` always clears: a resolved count is about the old
+       arrangement. */
     setShape: function (st, shape) {
-      var s = this._st(st);
+      var s = this._st(st), i;
       if (SHAPES.indexOf(shape) < 0) return null;
       if (shape === s.shape) return null;
+
       var n = this._copy(s);
       n.shape = shape;
       n.counted = false;
-      /* the question follows the family's third quantity unless the
-         teacher had already moved it somewhere still tellable */
-      if (n.told[n.ask]) n.told[n.ask] = false;
+
+      var old = this.values(s), s2 = SUM_AT[shape], other = [];
+      for (i = 0; i < 3; i++) if (i !== s2) other.push(i);
+
+      /* what the class has already been shown, and must keep seeing */
+      var v = [null, null, null];
+      for (i = 0; i < 3; i++) if (i !== s.ask && s.told[i]) v[i] = old[i];
+
+      var w, p;
+      if (v[s2] != null && v[other[0]] != null) { w = v[s2]; p = v[other[0]]; }
+      else if (v[s2] != null && v[other[1]] != null) { w = v[s2]; p = w - v[other[1]]; }
+      else if (v[other[0]] != null && v[other[1]] != null) { w = v[other[0]] + v[other[1]]; p = v[other[0]]; }
+      else if (v[s2] != null) { w = v[s2]; p = (s.p < w) ? s.p : w - 1; }
+      else if (v[other[0]] != null) { p = v[other[0]]; w = (s.w > p) ? s.w : p + 1; }
+      else if (v[other[1]] != null) { w = s.w; p = w - v[other[1]]; }
+      else { w = s.w; p = s.p; }
+
+      /* ⚠⚠ THE CAP IS PART OF LEGALITY HERE. A carried pair can sum well
+         past the band the teacher chose — see the note on `newState`. */
+      if (!this.legal(w, p) || w > n.cap) {
+        n.told = [false, false, false];
+        return n;
+      }
+      n.w = w; n.p = p;
       return n;
     },
 
+    /* did an arrangement change manage to carry the told facts across?
+       ⚠ the say-line must not claim "the same two things" when it could
+       not keep them. */
+    carried: function (before, after) {
+      return this.toldCount(after) === this.toldCount(before);
+    },
+
+    /* ⚠ THE CAP COMES FROM THE STATE, not from an argument a caller can
+       forget. `band` is still accepted so existing call sites read
+       naturally, but the state's own cap is authoritative — a move that
+       can be told the wrong ceiling is a move with no ceiling. */
     setTotal: function (st, w, band) {
-      var s = this._st(st), cap = this.cap(band);
+      var s = this._st(st);
+      var cap = (s.cap != null) ? s.cap : this.cap(band);
       if (w > cap) return null;
       if (w < GEO.FLOOR) return null;
       /* keep the split legal: nudge p until it is */
@@ -578,6 +735,14 @@
       if (!this.legal(w, p)) return null;
       var n = this._copy(s);
       n.w = w; n.p = p; n.counted = false;
+      /* ⚠⚠ THE SAME DISEASE `setShape` HAD. Changing the total
+         necessarily changes at least one niche's value, so carrying
+         `told` across would rewrite a slip the class has already been
+         shown — measured by the French panel: `setTotal(8)` turned a
+         told 4 into a told 5 under the class's eyes. This is a SETUP
+         control, used before anything is said; if it is reached later,
+         losing the told facts is the honest outcome. */
+      n.told = [false, false, false];
       return n;
     },
 
@@ -615,12 +780,45 @@
     /* ⚠ NARROWING THE BAND IS A NEW QUESTION TOO — `part-whole-frame.js:738`
        records this exactly. A band change must clamp and clear, never
        leave an out-of-band total on screen. */
+    /* ⚠⚠ THE SHAPE CHANGE HAD NO VOICE, AND THE STRING WRITTEN FOR IT
+       WAS UNREACHABLE. `sayShape` was only reached from `_sayForStage`'s
+       `stageOf() === null` branch — and an exhaustive walk over all 147
+       button-reachable states finds ZERO of them, because every move
+       that could strand the ladder also clears what stranded it. That is
+       the recorded `hintMark` class: a string authored for eleven panels
+       to translate, wired to a state that cannot happen. Found by the
+       German panel reading the model, not by any gate.
+       ⚠ The say must be PENDING, not spoken here: the shell calls
+       `render()` after `onSettings`, and `_build` replaces the say-line
+       node, so anything said now is wiped a moment later. */
     onSettings: function (key, val) {
       if (key === 'shape') {
+        /* ⚠ A NO-OP PRESS MUST BE A NO-OP. `setShape` returns null when
+           the arrangement is unchanged, and this used to fall straight
+           through to `newState` — so re-selecting the arrangement the
+           class was already looking at DEALT A NEW RANDOM FRAME and
+           wiped the lesson. Found by the French panel. */
+        if (val === this.st.shape) return;
+        var before = this.st;
         var n = this.setShape(null, val);
-        if (n) { this.st = n; return; }
+        if (n) {
+          this.st = n;
+          /* ⚠ the say must match what actually happened: the invention
+             only holds when the told facts survived the change. */
+          this._pendingSay = this.carried(before, n) ? 'sayShape' : 'sayShapeCleared';
+          return;
+        }
       }
+      /* ⚠⚠ THIS BRANCH USED TO BE AN EMPTY `if` THAT FELL STRAIGHT
+         THROUGH, wearing a comment saying "nothing to do" while the very
+         next line dealt a new random frame. Re-selecting the band the
+         class was already on wiped the lesson. The `shape` twin was
+         guarded in the same pass and this one was not — a comment that
+         asserts the opposite of the code beneath it. Found by the
+         Spanish panel. */
+      if (key === 'band' && this.st.cap === this.cap(val)) return;
       this.st = this.newState(this.api.settings.shape, this.api.settings.band);
+      this._pendingSay = 'sayDealt';
     },
 
     _dur: function (ms) {
@@ -782,6 +980,15 @@
       this._btn.totalDown = this._mkBtn(this._g.setup, 'mqu-b-tdown', 'totalDown', this._icoTotal(-1));
       this._btn.totalUp = this._mkBtn(this._g.setup, 'mqu-b-tup', 'totalUp', this._icoTotal(1));
       this._btn.deal = this._mkBtn(this._g.setup, 'mqu-b-deal', 'deal', this._icoDeal());
+      /* ⚠ `askAt` WAS AUTHORED AND RENDERED NOWHERE. Only `askAt0/1/2`
+         were ever read, so the bare key was the `hintMark` class a second
+         time in one file — eleven panels would have translated a string
+         with no state behind it. It is the heading these three buttons
+         always needed. */
+      var askLeg = document.createElement('span');
+      askLeg.className = 'mqu-sub';
+      askLeg.textContent = this.api.t('askAt');
+      this._g.setup.appendChild(askLeg);
       this._askBtn = [];
       for (i = 0; i < 3; i++) this._mkAskBtn(this._g.setup, i);
 
@@ -831,7 +1038,14 @@
          whole direct-manipulation path was dead to keyboard and to
          assistive tech. Every act reachable on the apparatus is also
          reachable from the column, and vice versa. */
-      n.addEventListener('click', function () { self._act('tell', i); });
+      /* ⚠⚠ THE SHAKE MUST LAND ON THE CONTROL THAT WAS PRESSED, and the
+         apparatus path did not obey the law written above `_refuse`.
+         Tapping the question niche ON THE STAND routed the refusal to
+         `_btn['tell'+i]` — a button in the control column, somewhere
+         else on the card — so the one path this rebuild is proudest of
+         was the one path with no local feedback. `_act` now carries the
+         element that was actually pressed. Found by the Finnish panel. */
+      n.addEventListener('click', function () { self._act('tell', i, n); });
       this._niche[i] = n;
 
       var face = document.createElement('span');
@@ -995,8 +1209,9 @@
 
     /* ---- the acts. Each consults its own move and refuses visibly. */
 
-    _act: function (kind, arg) {
+    _act: function (kind, arg, pressed) {
       var n = null, why = null, s = this.st;
+      this._pressed = pressed || null;
       if (kind === 'link') { n = this.link(null); why = 'link'; }
       else if (kind === 'tell') {
         n = this.tell(null, arg);
@@ -1035,8 +1250,13 @@
       return sb >= sa;
     },
 
+    /* ⚠ ITS OWN REFUSAL, NOT `saidNothingTold`. This used to borrow that
+       string, so a teacher who had told both facts and taken the count
+       back was told "nothing has been said yet" — a refusal asserting
+       something plainly false about the state it fired in. The German
+       panel found it by reading the state, not the copy. */
     _recount: function () {
-      if (!this.st.counted) { this._refuse('recount', 'saidNothingTold'); return; }
+      if (!this.st.counted) { this._refuse('recount', 'saidNotCounted'); return; }
       var self = this;
       var off = this.count(null, false);
       if (!off) { this._refuse('recount'); return; }
@@ -1064,19 +1284,44 @@
     },
 
     _total: function (d) {
-      var n = this.setTotal(null, this.st.w + d, this.api.settings.band);
+      var want = this.st.w + d;
+      var n = this.setTotal(null, want, this.api.settings.band);
       if (!n) {
-        this._refuse(d > 0 ? 'totalUp' : 'totalDown', d > 0 ? 'saidAtCeiling' : 'saidAtFloor');
+        /* ⚠ THE REASON IS CHOSEN BY THE REASON, NOT BY THE DIRECTION.
+           This used to pick the message from the sign of `d`, so any
+           refusal while stepping up was reported as "that is as far as
+           this number range goes" even when the real cause was
+           something else. Found by the Swedish panel. */
+        var why = (want > this.st.cap) ? 'saidAtCeiling'
+          : (want < GEO.FLOOR) ? 'saidAtFloor' : 'saidAtFloor';
+        this._refuse(d > 0 ? 'totalUp' : 'totalDown', why);
         return;
       }
       this._dir = 'fwd';
       this.st = n;
       this._snd(GEO.SND_TELL);
       this._paint();
+      /* ⚠ IT USED TO BE THE ONE ACT WITH NO VOICE. `setTotal` can drop
+         the ladder from stage 4 back to 0 — clearing the told facts and
+         taking the counters off — and a screen-reader user was told
+         nothing at all about it. */
+      this._sayForStage();
     },
 
+    /* ⚠ A DEAL THAT REPEATS THE FRAME IS A CONSEQUENCE-FREE CONTROL.
+       `newState` picks uniformly and does not exclude the frame already
+       on the stand; at the ten band that pool is small enough for a
+       press to change nothing visible, and a class watching a press do
+       nothing reads the tool as broken. Found by the Finnish panel.
+       ⚠ Bounded retries, not a `while` — a gate that hangs is a gate
+       that survived. */
     _deal: function () {
-      this.st = this.deal(null, this.api.settings.shape, this.api.settings.band);
+      var prev = this.st, next = null, i;
+      for (i = 0; i < 12; i++) {
+        next = this.deal(null, this.api.settings.shape, this.api.settings.band);
+        if (!prev || next.w !== prev.w || next.p !== prev.p) break;
+      }
+      this.st = next;
       this._dir = 'fwd';
       this._snd(GEO.SND_DEAL);
       this._paint();
@@ -1087,8 +1332,9 @@
        actually be able to animate — the shipped build declared a
        transform with no transition anywhere in the file. */
     _refuse: function (why, sayKey) {
-      var self = this, t = this._btn[why] || (why && why.indexOf('ask') === 0
+      var self = this, t = this._pressed || this._btn[why] || (why && why.indexOf('ask') === 0
         ? this._askBtn[Number(why.slice(3))] : null);
+      this._pressed = null;
       this._snd(GEO.SND_REFUSE, true);
       if (t) {
         t.classList.remove('is-refuse');
@@ -1108,6 +1354,11 @@
       if (this._sayEl) this._sayEl.textContent = msg;
     },
 
+    /* ⚠ NO `else` BRANCH. `stageOf()` returns null only for a state the
+       buttons cannot reach — the function is TOTAL because a gate drives
+       it directly, but there is no button path to it, so a string
+       written for that branch would be dead by construction. Measured:
+       0 of 147 button-reachable states read as off-path. */
     _sayForStage: function () {
       var st = this.stageOf(this.st);
       if (st === 0) this._say(this.api.t('sayDealt'));
@@ -1115,13 +1366,15 @@
       else if (st === 2) this._say(this.api.t('sayTold'));
       else if (st === 3) this._say(this.api.t('sayAsk'));
       else if (st === 4) this._say(this.api.t('sayCount'));
-      else this._say(this.api.t('sayShape'));
     },
 
     _paint: function () {
       var s = this.st, api = this.api, t = api.t.bind(api), i;
       var vals = this.values(s), stage = this.stageOf(s);
-      var cap = this.cap(api.settings.band);
+      /* ⚠ the STATE's cap, not the settings' — they can disagree for one
+         paint after a band change, and the lattice must never draw a
+         different ceiling from the one the model is enforcing */
+      var cap = s.cap;
 
       this._stand.setAttribute('data-shape', s.shape);
       this._stand.setAttribute('data-linked', s.linked ? '1' : '0');
@@ -1169,7 +1422,15 @@
         this._off(b, !this.tell(null, i));
         b.querySelector('.mqu-label').textContent = s.told[i] ? t('untell' + i) : t('tell' + i);
         b.setAttribute('aria-pressed', String(!!s.told[i]));
-        this._off(this._askBtn[i], !this.setAsk(null, i));
+        /* ⚠⚠ THE CHOSEN ONE MUST NOT BE THE FADED ONE. `setAsk` returns
+           null for the niche that is ALREADY the question, so gating on
+           the move dimmed the ACTIVE choice to .42 while `aria-pressed`
+           painted it solid teal — the same control shouting and
+           whispering at once, and the recorded "the selected tab is not
+           a control" defect. Between stages 1 and 2 these three buttons
+           are the ONLY legible record of which niche is the question,
+           so the active one has to be the readable one. */
+        this._off(this._askBtn[i], s.ask !== i && !this.setAsk(null, i));
         this._askBtn[i].setAttribute('aria-pressed', String(s.ask === i));
       }
       this._off(this._btn.count, !this.count(null));
@@ -1183,13 +1444,32 @@
          under the teacher's finger mid-lesson — `doubling-mirror.js:2000`
          records a class's tray being wiped exactly that way. Control
          positions must be identical at every stage. */
-      this._here(this._g.setup, stage === 0);
-      this._here(this._g.tell, stage === 1 || stage === 2);
+      /* ⚠⚠ THE RAIL AND THE RECOMMENDATION MUST POINT AT THE SAME GROUP.
+         `setup` used to carry the rail at stage 0 while `is-now` sat on
+         `link`, which lives in the `tell` group — the teal left-border
+         saying "work here" and the teal ring saying "press that, one
+         group down". The rail follows the ladder; `setup` is
+         preparation, available at every stage and never "where you
+         are". Found by the Dutch panel. */
+      this._here(this._g.setup, false);
+      this._here(this._g.tell, stage === 0 || stage === 1 || stage === 2);
       this._here(this._g.ask, stage === 3 || stage === 4);
       this._here(this._g.paper, false);
 
       /* the counting strip: the stamp follows the question, the wells
          follow the BAND, and only OCCUPANCY follows the value */
+      /* ⚠⚠ THE STRIP NAMED THE QUESTION IN THE FIRST FRAME. The stamp was
+         written from `s.ask` unconditionally and drawn at `opacity:.45`
+         — visible — so before anything was linked or told the apparatus
+         had already announced which niche the class would be asked
+         about. Stage zero's whole job is for the CLASS to decide what
+         could be asked, and the stand had answered for them. Found by
+         the Portuguese panel; it is a leak no numeral-check would catch,
+         because it leaks the QUESTION rather than the answer.
+         ⚠ It is hidden by OPACITY, not by display: the strip's height
+         must not change between stages. */
+      var qExists = !!(s.linked && this.toldCount(s) === 2);
+      this._strip.setAttribute('data-q', qExists ? '1' : '0');
       this._strip.setAttribute('data-on', s.counted ? '1' : '0');
       if (this._stripStamp._i !== s.ask) {
         this._stripStamp.innerHTML = '';
@@ -1211,6 +1491,8 @@
       this._now(null);
       if (stage === 0) this._now(this._btn.link);
       else if (stage === 3) this._now(this._btn.count);
+
+      if (this._pendingSay) { this._say(t(this._pendingSay)); this._pendingSay = null; }
 
       var told = this.toldCount(s);
       var rest = stage === 4 ? this._fmt(t('ariaCounted'), { n: vals[s.ask] })
@@ -1302,14 +1584,42 @@
          with no entitlement check, so the browser's own print command
          handed the paid sheet to every non-subscriber while the copy
          sold it. */
+      /* ⚠⚠ THE CLASS GOES ON BOTH BRANCHES, AND THE FREE BRANCH IS WHY.
+         This listener used to `return` for a non-subscriber without
+         adding `mqu-printing` — and every print rule is scoped to that
+         class, so NOTHING was suppressed and the browser printed the
+         whole page: shell header, title, instruction, the card, the
+         control column and the paywall box. That is the recorded
+         #40/#41 defect verbatim, introduced BY the scoping fix that was
+         meant to prevent it, and found by the Finnish panel reading the
+         two branches against the CSS. A free visitor gets the chrome
+         suppressed and a short sheet saying why, never a blank page and
+         never the paid frame. */
       window.addEventListener('beforeprint', function () {
-        if (!self.premium) { if (self._sheet) self._sheet.innerHTML = ''; return; }
-        self._buildSheet();
+        if (!self.premium) self._buildLockedSheet();
+        else self._buildSheet();
         document.body.classList.add('mqu-printing');
       });
       window.addEventListener('afterprint', function () {
         document.body.classList.remove('mqu-printing');
       });
+    },
+
+    /* what a non-subscriber's Ctrl+P puts on paper: the reason, and
+       nothing of the frame. ⚠ It must NOT carry the three places — that
+       is the paid deliverable. */
+    _buildLockedSheet: function () {
+      if (!this._sheet) return;
+      var t = this.api.t.bind(this.api);
+      this._sheet.innerHTML = '';
+      var h = document.createElement('h2');
+      h.className = 'mqu-sh-h';
+      h.textContent = t('lockedTitle');
+      var p = document.createElement('p');
+      p.className = 'mqu-sh-hint';
+      p.textContent = t('lockedBody');
+      this._sheet.appendChild(h);
+      this._sheet.appendChild(p);
     },
 
     _print: function () {
@@ -1424,7 +1734,7 @@
         '--mqu-rows:1;',
         '--mqu-in:' + GEO.T_IN + 'ms;--mqu-out:' + GEO.T_OUT + 'ms;',
         '--mqu-step:' + GEO.T_STEP + 'ms;--mqu-draw:' + GEO.T_DRAW + 'ms;',
-        '--mqu-swap:' + GEO.T_SWAP + 'ms;--mqu-refuse:' + GEO.T_REFUSE + 'ms;',
+        '--mqu-refuse:' + GEO.T_REFUSE + 'ms;',
         '--mqu-ez-in:cubic-bezier(.2,.8,.2,1);',
         '--mqu-ez-out:cubic-bezier(.5,0,.9,.3)}',
 
@@ -1483,7 +1793,7 @@
         'font:inherit;color:inherit;text-align:inherit;',
         'box-shadow:inset 0 2px 4px rgba(120,100,64,.20),inset 0 -1px 0 rgba(255,255,255,.5);',
         'transition:border-color var(--mqu-in) var(--mqu-ez-in),',
-        'border-width var(--mqu-in),transform var(--mqu-swap) var(--mqu-ez-in)}',
+        'border-width var(--mqu-in)}',
         '.mqu-face{position:relative;min-width:0;min-height:0}',
         '.mqu-plate{display:flex;align-items:center;justify-content:center;',
         'height:calc(var(--mqu-sh) * 0.26)}',
@@ -1566,7 +1876,11 @@
         'padding:calc(var(--mqu-s) * 0.05) calc(var(--mqu-s) * 0.07);',
         'border-radius:calc(var(--mqu-s) * 0.08);background-color:#FBF3E4;',
         'border:1.5px solid #E7DCC8}',
-        '.mqu-count-stamp{flex:none;display:flex;opacity:.45;transition:opacity 160ms linear}',
+        /* ⚠ INVISIBLE UNTIL THE QUESTION EXISTS — see `_paint`. Opacity,
+           never display: the strip's height is identical at every stage,
+           so nothing grows under the class's eyes. */
+        '.mqu-count-stamp{flex:none;display:flex;opacity:0;transition:opacity 160ms linear}',
+        '.mqu-count[data-q="1"] .mqu-count-stamp{opacity:.5}',
         '.mqu-count[data-on="1"] .mqu-count-stamp{opacity:1}',
         '.mqu-count-stamp .mqu-stampsvg{width:calc(var(--mqu-stamp) * 1.15);',
         'height:calc(var(--mqu-stamp) * 1.15)}',
@@ -1620,6 +1934,8 @@
         '.mqu-g.is-here{border-left-color:#146B5E}',
         '.mqu-leg{flex:none;width:100%;font-family:Nunito,system-ui,sans-serif;',
         'font-size:13px;font-weight:700;color:#2A2A35}',
+        '.mqu-sub{flex:none;width:100%;font-family:Nunito,system-ui,sans-serif;',
+        'font-size:12px;font-weight:600;color:#7A6A55;margin-top:2px}',
 
         '.mqu-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;',
         'padding:9px 15px;box-sizing:border-box;border-radius:12px;cursor:pointer;',
@@ -1661,7 +1977,9 @@
         /* ⚠ the shipped build declared this transform with NO transition
            anywhere in the file, so the tool's only "motion" was an
            instantaneous 3px offset. */
-        '.mqu-btn.is-refuse{animation:mqu-refuse var(--mqu-refuse) steps(4,end) 1}',
+        /* ⚠ the NICHE shakes too — the apparatus is a control, and a
+           refusal has to land where the finger went */
+        '.mqu-btn.is-refuse,.mqu-niche.is-refuse{animation:mqu-refuse var(--mqu-refuse) steps(4,end) 1}',
         '@keyframes mqu-refuse{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}',
         '50%{transform:translateX(3px)}75%{transform:translateX(-2px)}}',
 
@@ -1699,8 +2017,7 @@
         '.mqu-card{--mqu-in:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_IN * GEO.RM_F)) + 'ms;',
         '--mqu-out:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_OUT * GEO.RM_F)) + 'ms;',
         '--mqu-step:0ms;',
-        '--mqu-draw:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_DRAW * GEO.RM_F)) + 'ms;',
-        '--mqu-swap:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_SWAP * GEO.RM_F)) + 'ms}',
+        '--mqu-draw:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_DRAW * GEO.RM_F)) + 'ms}',
         '.mqu-ct{transition-delay:0s}',
         '.mqu-link path{transition:none;stroke-dashoffset:0}',
         '}',

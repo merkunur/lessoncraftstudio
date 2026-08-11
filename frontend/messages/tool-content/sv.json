@@ -1436,27 +1436,27 @@
     ]
   },
   "missing-question": {
-    "name": "Vad kan vi fråga?",
+    "name": "Fickbrädet",
     "slug": "dela-upp-tal-och-hitta-fragan-lagstadiet",
-    "tagline": "Något har hänt, och ingen har frågat något än. Luckan är frågan — och var ni stänger den är vilken.",
-    "metaTitle": "Dela upp tal och hitta frågan — lågstadiet",
-    "metaDescription": "Gratis tavelverktyg: en avsats, luften ovanför och ett antal. Stäng en lucka så väljer klassen frågan; stäng båda och flera svar är fortfarande möjliga.",
+    "tagline": "Tre tomma fickor och inga tal alls. Först bestämmer klassen vad man skulle kunna fråga.",
+    "metaTitle": "Textuppgifter utan tal — hitta frågan, lågstadiet",
+    "metaDescription": "Gratis tavelverktyg: tre tomma fickor, inga tal. Klassen bestämmer först vad man kan fråga. Sedan sägs en sak i taget — den ficka som är kvar blir frågan.",
     "about": [
-      "En avsats med prickar på, luften ovanför med fler prickar, och ett tal som säger hur många det var sammanlagt. Inget mer. Ingen mening, ingen bild av vad som hände och ingen fråga — för frågan är det klassen ska göra själv. Prickarna på avsatsen och prickarna i luften är ritade exakt likadant, så verktyget avslöjar aldrig den uppdelning det frågar om.",
-      "Luckan är frågan. Stängd över avsatsen frågar den hur många som blev kvar, stängd över luften hur många som försvann — och ingen av meningarna skrivs någonsin ut. Stäng båda, och det är inte längre en fråga med ett enda svar: kvar finns bara antalet, och flera olika par stämmer fortfarande med det. Det är att dela upp ett tal på mer än ett sätt, sett i stället för berättat.",
-      "Listan räknar upp; den jämför aldrig. Den visar det som fortfarande stämmer med det som syns. Den rättar inget barns svar, håller inte räkningen på hur många par som hittats och rangordnar ingen fråga som bättre. Inga poäng, ingen tid. Den här rutinen är forskningsbaserad, inte evidensbaserad: att formulera egna frågor är väl beskrivet i forskningslitteraturen, och vi påstår ingenting om någon uppmätt effekt.",
-      "Allt här är gratis: varje ny situation, båda luckorna och listan med möjligheter. Lärarplanen lägger till arbetsbladet att skriva ut — avsatsen och prickarna precis som klassen nyss såg dem, med linjerade rader för frågorna och talen som hör till."
+      "Tre tomma fickor på ett fickbräde, och ingenting mer. Inga tal, ingen berättelse och ingen fråga — för frågan är det klassen som ska komma på själv. Först när klassen har sagt vad man skulle kunna fråga här börjar läraren säga något.",
+      "Sedan säger läraren en sak i taget: först hur de tre fickorna hör ihop, sedan ett tal, sedan ett till. Varje tryck lägger till en sak; ingenting försvinner och ingenting byts ut. Den ficka som fortfarande är osagd blir frågan, och nedanför brädet räknar klassen fram det som saknas, en i taget och högt tillsammans.",
+      "Samma tre fickor kan ordnas på tre sätt: något hände, två tillsammans, eller en har fler än den andra. Byter man sätt står samma två tal kvar i sina fickor — men det som saknas är ett annat tal. Två fakta räcker inte för att veta vad som frågas, och det syns på brädet i stället för att förklaras. Det ligger nära Lgr22:s problemlösning och taluppfattning för lågstadiet, i talområdet upp till tio eller tjugo.",
+      "Verktyget rättar ingen fråga och rangordnar ingen som bättre — det finns inga poäng och ingen tid. Rutinen är forskningsbaserad, inte evidensbaserad: att låta klassen formulera frågan innan talen kommer är väl beskrivet i litteraturen, och vi påstår ingenting om någon uppmätt effekt. Hela fickbrädet är gratis — varje sätt att ordna fickorna, varje sak ni säger och att räkna fram det som saknades. Lärarplanen lägger till arbetsbladet att skriva ut."
     ],
     "howToUse": [
-      "Ta fram en situation och säg ingenting. Först tittar man: ingen har frågat något än.",
-      "Samla in klassens frågor innan något stängs: ”Vad skulle man kunna fråga här?” Alla frågor duger och ingen rättas.",
-      "Stäng en lucka över den del klassen vill fundera på. Nu finns ett tal att komma fram till, och antalet plus det som syns är allt man har.",
-      "Stäng båda luckorna och ställ samma fråga igen. Nu passar mer än ett par, och listan visar alla när klassen har pratat färdigt."
+      "Ta fram en helt ny situation och säg ingenting. Tre tomma fickor, inga tal: fråga klassen vad man skulle kunna fråga här. Alla förslag duger, och inget rättas.",
+      "Tryck på Visa hur de hör ihop. Nu syns det på fickbrädet hur de tre hänger ihop — och fortfarande finns inga tal.",
+      "Säg den runda, den fyrkantiga eller den spetsiga, ett tal i taget. Fråga efter varje: vad vet vi nu, och vad vet vi fortfarande inte?",
+      "När båda talen är sagda är den sista fickan frågan. Tryck på Räkna det som saknas och räkna fram svaret tillsammans, en i taget."
     ],
     "classroomIdeas": [
-      "Två minuter som rutin: en situation, tre frågor från klassen och luckan stängd över den de helst vill reda ut.",
-      "Stäng båda luckorna, ta emot ett par från klassen och fråga om något annat par också hade fungerat. Öppna listan först när någon hittat ett andra.",
-      "Ta samma antal två gånger med prickarna fördelade olika. Talet är detsamma och allt annat är nytt — därför kan antalet ensamt inte berätta vad som hände."
+      "Två minuter som rutin: en ny situation, tre frågor från klassen, och sedan ett tal i taget tills bara en ficka är osagd.",
+      "Säg båda talen och byt sedan sätt att ordna fickorna, utan att säga något nytt. Samma två tal står kvar — fråga klassen om svaret blir detsamma innan ni räknar fram det.",
+      "Låt ett barn välja vilken ficka klassen ska räkna ut, och säg de andra två. Samma situation ger tre olika frågor beroende på vilken som lämnas osagd."
     ]
   },
   "the-gap": {

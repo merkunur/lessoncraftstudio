@@ -1435,27 +1435,27 @@
     ]
   },
   "missing-question": {
-    "name": "A pergunta que ninguém fez",
+    "name": "Os três nichos",
     "slug": "decompor-numeros-e-formular-perguntas-anos-iniciais",
-    "tagline": "Aconteceu alguma coisa e ninguém perguntou nada ainda. A persiana é a pergunta — e o lugar onde ela fecha diz qual é.",
-    "metaTitle": "Decompor números e formular a pergunta — anos iniciais",
-    "metaDescription": "Ferramenta gratuita de lousa: um parapeito, o ar acima e um total. Feche uma persiana e a turma decide o que perguntar; feche as duas e várias respostas cabem.",
+    "tagline": "Três nichos vazios, nenhum número e ninguém perguntou nada ainda: a primeira coisa que a turma faz é decidir o que dá para perguntar.",
+    "metaTitle": "Decompor números e formular perguntas — anos iniciais",
+    "metaDescription": "Ferramenta gratuita de lousa: três nichos vazios e nenhum número. A turma decide o que dá para perguntar, você diz um fato por vez e ela conta o que falta.",
     "about": [
-      "Um parapeito com marcas em cima, o ar acima dele com mais marcas, e um número dizendo quantas havia ao todo. Nada além disso. Nenhuma frase, nenhum desenho do que aconteceu e nenhuma pergunta — porque a pergunta é o que a turma vai construir. As marcas do parapeito e as do ar são desenhadas exatamente iguais, então a ferramenta nunca entrega a separação sobre a qual ela pergunta.",
-      "A persiana é a pergunta. Fechada sobre o parapeito, ela pergunta quantas ficaram; fechada sobre o ar, quantas foram embora; nenhuma dessas frases aparece escrita. Feche as duas e deixa de ser uma pergunta com uma resposta só: sobra o total, e vários pares diferentes ainda cabem nele. Isso é decompor um número de mais de um jeito, mostrado em vez de explicado.",
-      "A lista enumera; ela nunca compara. Mostra o que ainda combina com o que dá para ver. Não corrige a resposta de nenhuma criança, não conta quantos pares já foram achados e não classifica nenhuma pergunta como a melhor. Não há pontuação nem cronômetro. Esta rotina é baseada em pesquisa, não em evidências de eficácia: formular as próprias perguntas é amplamente descrito na literatura, e não afirmamos nenhum efeito medido.",
-      "Aqui tudo é gratuito: cada situação nova, as duas persianas e a lista de possibilidades. O plano Professor acrescenta a folha para imprimir — o parapeito e as marcas do jeito que a turma acabou de ver, com linhas para as perguntas e as sentenças matemáticas correspondentes."
+      "Três nichos vazios num suporte, e nada mais. Nenhum número, nenhuma frase, nenhum desenho da situação. Cada nicho traz um carimbo — um redondo, um quadrado e um pontudo — para você apontar sem precisar dar nome a nada: “o redondo é a Rosa”. No começo não há o que responder, e é essa a intenção: a única tarefa da turma é decidir o que dá para perguntar.",
+      "A partir daí, cada toque acrescenta um fato — só um. Primeiro você mostra como os três se ligam; depois diz um número; depois o outro. O nicho que continua sem número é a pergunta, e ela só fica de pé quando tudo o que ia ser dito já foi dito. A resposta não existe em lugar nenhum antes disso: a turma conta ela em voz alta, uma ficha de cada vez, embaixo do suporte.",
+      "Os mesmos três nichos aparecem em três arrumações: aconteceu alguma coisa, dois formam um só, e um tem mais do que o outro. São as três relações que a BNCC pede nos anos iniciais para as ideias de juntar, tirar e comparar. Com os dois números já ditos, trocar a arrumação deixa a mesma situação com outra pergunta — e outro número para contar.",
+      "A ferramenta não corrige nenhuma criança, não classifica nenhuma pergunta como a melhor e não conta quantas apareceram. Não há pontuação, cronômetro nem sequência de acertos. Esta rotina é baseada em pesquisa, não em evidências de eficácia: pedir a pergunta antes de dar os números é amplamente descrito na literatura, e não afirmamos nenhum efeito medido. O aparelho inteiro é gratuito — as três arrumações, cada fato dito e a contagem do que estava faltando. O plano Professor acrescenta a folha impressa, com os três nichos do jeito que a turma acabou de ver e linhas pautadas para as perguntas que ela fez."
     ],
     "howToUse": [
-      "Dê uma situação e não diga nada. Primeiro se olha: ninguém perguntou nada ainda.",
-      "Recolha as perguntas antes de fechar qualquer coisa: “O que dá para perguntar aqui?”. Toda pergunta vale e nenhuma é corrigida.",
-      "Feche uma persiana sobre a parte que a turma quer descobrir. Agora há um número a achar, e o total mais o que está à vista são tudo o que se tem.",
-      "Feche as duas persianas e faça a mesma pergunta de novo. Agora mais de um par serve, e a lista mostra todos quando a conversa terminar."
+      "Deixe os três nichos vazios na frente da turma e não diga nada. A primeira pergunta é sua: “O que dá para perguntar aqui?”. Toda pergunta vale e nenhuma é corrigida.",
+      "Mostre como os três se ligam. Ainda não há número nenhum, mas agora dá para ver de que jeito os três se relacionam — e as perguntas da turma ficam mais afiadas.",
+      "Diga um número. Depois o outro. Entre um e outro, faça sempre a mesma pergunta: “O que a gente já sabe — e o que ainda não?”.",
+      "Com os dois números ditos, o nicho que sobrou é a pergunta. Contem juntos, uma ficha de cada vez, embaixo do suporte: só aí o número aparece."
     ],
     "classroomIdeas": [
-      "Dois minutos de rotina: uma situação, três perguntas da turma e a persiana fechada sobre a que eles mais querem resolver.",
-      "Com as duas persianas fechadas, aceite um par da turma e pergunte se outro par também serviria. Só abra a lista depois que alguém achar o segundo.",
-      "Dê duas vezes o mesmo total com repartições diferentes no parapeito. O número não muda e todo o resto muda — é por isso que o total sozinho não diz o que aconteceu."
+      "Rotina de dois minutos: três nichos vazios, três perguntas da turma anotadas no caderno e só então o primeiro número. A lista de perguntas é o produto da aula.",
+      "Com os dois números já ditos, troque a arrumação antes de contar. Peça para a turma dizer se agora vai faltar um número maior ou menor, e só depois contem.",
+      "Escolha antes da aula qual nicho vai ser a pergunta. O mesmo par de números com a pergunta no redondo, no quadrado ou no pontudo rende três aulas diferentes."
     ]
   },
   "the-gap": {

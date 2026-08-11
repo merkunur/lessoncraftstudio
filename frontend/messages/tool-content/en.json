@@ -1446,27 +1446,27 @@
   },
   "missing-question": {
     "name": "The Missing Question",
-    "slug": "missing-question-decompose-numbers-kindergarten",
-    "tagline": "Something has happened, and nobody has asked you anything yet. Closing a shutter is how a question gets asked — and where you close it is which question it was.",
-    "metaTitle": "The Missing Question — decomposing numbers, K and Grade 1",
-    "metaDescription": "Free whiteboard tool: a ledge, the air above it, and one total. Close a shutter and the class decides what to ask. Close both and several answers still fit.",
+    "tagline": "Three empty places and no numbers at all — before anything is said, the class decides what could be asked.",
+    "metaTitle": "The Missing Question — numberless word problems, K-2",
+    "metaDescription": "Free whiteboard instrument: three empty places, no numbers. The class decides what could be asked, then you tell them one thing at a time.",
     "about": [
-      "A ledge with marks on it, the air above it with more marks in it, and a numeral saying how many there were in all. Nothing else. No sentence, no picture of what happened, and no question — because the question is the thing the class is going to make. The marks on the ledge and the marks in the air are drawn identically, so the tool never hands over the partition it is asking about.",
-      "The shutter is how a question gets asked. Put it over the ledge and you have asked how many stayed; put it over the air and you have asked how many went; neither sentence is ever written down. Close both and it stops being a question with one answer: the total is all that is left, and several different pairs still fit it. That is decomposing a number in more than one way, on screen rather than described.",
-      "The list of pairs enumerates; it never compares. It shows what is still consistent with what can be seen. It never checks a child's answer against anything, never counts how many pairs have been found, and never ranks one question above another. Nothing is scored and nothing is timed. This routine is research-based, not evidence-based: problem posing is widely described in the research literature, and we claim no measured effect for it.",
-      "Everything here is free — every new frame, both shutters, and the list of what still fits. The Teacher plan adds the printable sheet: the ledge and the marks exactly as the class just saw them, with ruled lines for the questions they asked and the number sentences that go with them."
+      "Three empty places on a stand, and nothing else. No numbers, no sentence, no picture of what happened — and no question, because the question is the thing the class is going to make. At the start nothing has been said, so there is nothing yet to answer, and that is the point: the only job at the opening of the routine is to decide what could be asked.",
+      "From there each press adds exactly one fact. First how the three places go together — a linkage is drawn, and still not a single number. Then one number. Then the other. The apparatus only ever gains; nothing is covered and nothing is taken away, so between presses the class can say what it knows and what it still does not.",
+      "The place left unsaid is the question. Once both other numbers have been told, the class counts the missing amount out loud on a strip below the stand — one counter at a time, into a row of wells whose size never changes. The answer arrives because the class counted it, never because the tool printed it.",
+      "The same three places sit in three relations: something happened, two make one, or one has more than the other. Change the arrangement and the two told numbers stay where they still fit — and the answer is different. Nothing here is scored, timed or ranked, and no question a child asks is ever judged. This routine is research-based, not evidence-based. The whole apparatus is free; a Teacher plan adds the printed sheet."
     ],
     "howToUse": [
-      "Deal a frame and say nothing at all. The first job is looking, and nobody has been asked anything yet.",
-      "Take the questions before you close anything. \"What could we ask here?\" — every question the class produces counts, and none of them is marked.",
-      "Close one shutter over whichever part the class chose to wonder about. Now there is a single number to work out, and the total plus what stays visible is the whole of the evidence.",
-      "Close both shutters and ask the same question again. This time more than one pair fits, and the list will show them all once the class has finished arguing."
+      "Set up the situation before the lesson: choose how the three go together, how far the numbers reach, and which place the class will have to work out. Then show the empty stand and say what is happening — without a single number.",
+      "Take the questions first. \"Nobody has asked you anything — what could we ask?\" Every question counts and none is marked. This is half the routine, and it only works while nothing is known.",
+      "Show how the three go together, then tell them one number. Stop there and ask the two questions that matter: what do we know now, and what do we still not? Then tell them the second number — now the question has one answer.",
+      "Count what is missing together, out loud, as the counters arrive one at a time. Then keep the same two numbers and change the arrangement: ask whether the answer changes."
     ],
     "classroomIdeas": [
-      "A two-minute routine: one frame, three questions taken from the class, and the shutter closed over whichever one they most want settled.",
-      "With both shutters closed, take one pair from the class and ask whether any other pair would also have worked. Open the list only after somebody has found a second one.",
-      "Deal the same total twice with the marks split differently. The numeral does not change and everything else does — which is the whole of why the total alone cannot tell you what happened."
-    ]
+      "A three-minute opener: one empty stand, three questions from the class, and only then the first number.",
+      "With one number told, ask the hard question — what do we know, and what do we still not? That is the moment a fact becomes distinguishable from an answer.",
+      "Tell the same story through all three arrangements. The two told numbers stay put and the missing one changes, so the class discovers that the answer depends on how the three are related, not only on the numbers."
+    ],
+    "slug": "missing-question-decompose-numbers-kindergarten"
   },
   "the-gap": {
     "name": "The Gap",

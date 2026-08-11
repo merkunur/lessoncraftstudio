@@ -1414,27 +1414,27 @@
     ]
   },
   "missing-question": {
-    "name": "Mitä kysyisit?",
+    "name": "Kolme paikkaa",
     "slug": "lukujen-hajottaminen-ja-kysymyksen-keksiminen-alkuopetus",
-    "tagline": "Jotain on tapahtunut, eikä kukaan ole vielä kysynyt mitään. Luukku on kysymys — ja se, minkä päälle sen sulkee, kertoo minkä.",
-    "metaTitle": "Lukujen hajottaminen ja oman kysymyksen keksiminen",
-    "metaDescription": "Maksuton taulutyökalu: hylly, sen yläpuolinen ilma ja kokonaismäärä. Sulje luukku, niin luokka valitsee kysymyksen; sulje molemmat, ja moni pari sopii yhä.",
+    "tagline": "Kolme tyhjää paikkaa, ei yhtään lukua – ja luokan ainoa tehtävä on päättää, mitä tästä voisi kysyä.",
+    "metaTitle": "Sanallinen tehtävä ilman lukuja – kysymyksen keksiminen",
+    "metaDescription": "Maksuton alkuopetuksen väline: kolme tyhjää paikkaa eikä yhtään lukua. Luokka päättää, mitä voisi kysyä. Sanokaa yksi asia kerrallaan ja laskekaa puuttuva.",
     "about": [
-      "Hylly, jolla on merkkejä, sen yläpuolella ilmaa ja siinä lisää merkkejä, ja luku, joka kertoo kuinka monta niitä oli kaikkiaan. Ei muuta. Ei lausetta, ei kuvaa tapahtuneesta eikä kysymystä — sillä kysymyksen tekee luokka itse. Hyllyn merkit ja ilmassa olevat merkit on piirretty täsmälleen samanlaisiksi, joten työkalu ei koskaan paljasta sitä jakoa, jota se kysyy.",
-      "Luukku on kysymys. Hyllyn päällä se kysyy, kuinka moni jäi; ilman päällä, kuinka moni lähti — kumpaakaan lausetta ei kirjoiteta koskaan näkyviin. Sulkekaa molemmat, eikä se ole enää kysymys, jolla on yksi vastaus: jäljelle jää vain kokonaismäärä, ja siihen sopii yhä useampi eri pari. Se on luvun hajottamista useammalla kuin yhdellä tavalla — nähtynä eikä kerrottuna.",
-      "Luettelo luettelee; se ei vertaa koskaan. Se näyttää sen, mikä sopii yhä siihen, mitä on näkyvissä. Se ei tarkista yhdenkään lapsen vastausta, ei laske montako paria on jo löytynyt eikä pidä mitään kysymystä parempana kuin toista. Ei pisteitä, ei kelloa. Tämä rutiini on tutkimukseen perustuva, ei näyttöön perustuva: omien kysymysten keksiminen on laajasti kuvattu tutkimuskirjallisuudessa, emmekä väitä mitään mitatusta vaikutuksesta.",
-      "Täällä kaikki on maksutonta: jokainen uusi tilanne, molemmat luukut ja luettelo vaihtoehdoista. Opettajatilaus tuo lisäksi tulostettavan paperipohjan — hyllyn ja merkit juuri sellaisina kuin luokka ne näki, ja viivat kysymyksille ja niihin kuuluville laskuille."
+      "Kolme tyhjää paikkaa, eikä yhtään lukua missään. Alussa kukaan ei ole vielä sanonut mitään, joten luokan ainoa tehtävä on päättää, mitä tästä voisi kysyä. Yhtäkään kysymystä ei arvioida eikä korjata: väline ei tunne oikeaa kysymystä eikä pidä yhtä kysymystä toista parempana.",
+      "Mitään ei oteta pois näkyvistä. Alussa näkyvillä ei yksinkertaisesti vielä ole mitään, ja jokainen painallus lisää yhden asian: ensin sen, miten kolme paikkaa kuuluu yhteen, sitten yhden luvun ja lopuksi toisen. Se paikka, jota ei sanota, on kysymys — ja lopuksi luokka laskee puuttuvan määrän yksi kerrallaan paikkojen alta.",
+      "Sama tilanne voidaan asetella kolmella tavalla: jotakin tapahtui, kahdesta tulee yksi, tai toisella on enemmän kuin toisella. Samat kaksi sanottua lukua antavat eri asettelussa eri vastauksen, ja juuri siinä on keskustelun paikka. Sisältöalue on OPS 2014:n S2 Luvut ja laskutoimitukset, vuosiluokat 1–2. Ei pisteitä, ei kelloa, ei suoritusmerkintöjä.",
+      "Tämä rutiini on tutkimukseen perustuva, ei näyttöön perustuva: omien kysymysten keksimistä on kuvattu laajasti, emmekä väitä mitään mitatusta vaikutuksesta. Koko väline on maksuton — jokainen asettelu, jokainen luokalle sanottu asia ja puuttuvan määrän laskeminen. Opettajatilaus tuo lisäksi tulostettavan paperiarkin, jossa on samat kolme paikkaa kuin luokka juuri näki, ja kuusi viivaa luokan kysymyksiä varten."
     ],
     "howToUse": [
-      "Ottakaa tilanne esiin älkääkä sanoko mitään. Ensin katsotaan: kukaan ei ole vielä kysynyt mitään.",
-      "Kerätkää luokan kysymykset ennen kuin mitään suljetaan: ”Mitä tästä voisi kysyä?” Jokainen kysymys kelpaa eikä yhtäkään korjata.",
-      "Sulkekaa luukku sen osan päälle, jota luokka haluaa pohtia. Nyt on yksi luku selvitettävänä, ja kokonaismäärä sekä näkyvissä oleva osa ovat kaikki, mitä on.",
-      "Sulkekaa molemmat luukut ja esittäkää sama kysymys uudelleen. Nyt sopivia pareja on useampi, ja luettelo näyttää ne kaikki, kun keskustelu on käyty."
+      "Ottakaa tilanne esiin älkääkä sanoko vielä mitään. Kolme tyhjää paikkaa, ei yhtään lukua. Kysykää luokalta: mitä tästä voisi kysyä? Ottakaa vastaan jokainen kysymys sellaisena kuin se sanotaan.",
+      "Painakaa Näytä, miten ne kuuluvat yhteen. Nyt näkyy, miten kolme paikkaa liittyy toisiinsa — lukuja ei vielä ole. Kysykää uudelleen: mitä nyt voisi kysyä?",
+      "Sanokaa yksi luku: Sano ympyrän luku, Sano neliön luku tai Sano kolmion luku. Nyt tiedetään yksi asia. Kysykää: mitä tiedämme — ja mitä emme vielä tiedä?",
+      "Sanokaa toinen luku. Se paikka, jota ei sanottu, on nyt kysymys. Painakaa Laske, paljonko puuttuu, ja laskekaa määrä ääneen yhdessä."
     ],
     "classroomIdeas": [
-      "Kahden minuutin rutiini: yksi tilanne, kolme luokan kysymystä ja luukku sen päälle, jonka he haluavat eniten ratkaista.",
-      "Sulkekaa molemmat luukut, ottakaa vastaan yksi luokan ehdottama pari ja kysykää, olisiko jokin toinen pari myös sopinut. Avatkaa luettelo vasta, kun joku on löytänyt toisen.",
-      "Antakaa sama kokonaismäärä kahdesti niin, että merkit jakautuvat eri tavalla. Luku pysyy samana ja kaikki muu muuttuu — juuri siksi luku yksin ei kerro, mitä tapahtui."
+      "Kahden minuutin aloitusrutiini: yksi tilanne, kolme luokan kysymystä taululle, ja vasta sitten ensimmäinen luku. Kysymykset kirjataan sellaisina kuin ne sanotaan.",
+      "Vaihtakaa Paikkojen asettelu vasta, kun molemmat luvut on jo sanottu. Kysykää ensin luokalta, muuttuuko vastaus — ja katsokaa vasta sitten. Samat kaksi lukua, eri asettelu, eri vastaus.",
+      "Antakaa luokan valita Pääteltävä paikka ennen kuin mitään on sanottu. Sama tilanne kysyy aivan eri asiaa sen mukaan, mikä paikka jätetään sanomatta."
     ]
   },
   "the-gap": {

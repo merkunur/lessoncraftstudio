@@ -1436,27 +1436,27 @@
     ]
   },
   "missing-question": {
-    "name": "Spørsmålet som mangler",
+    "name": "Stativet",
     "slug": "dele-opp-tall-og-finne-sporsmalet-smatrinnet",
-    "tagline": "Noe har skjedd, og ingen har spurt om noe ennå. Luka er spørsmålet — og der dere lukker den, er hvilket.",
-    "metaTitle": "Dele opp tall og finne spørsmålet — småtrinnet",
-    "metaDescription": "Gratis tavleverktøy: et gjerde, lufta over og et antall. Lukk ei luke, så velger klassen spørsmålet; lukk begge, og flere svar kan fortsatt stemme.",
+    "tagline": "Tre tomme plasser og ingen tall — det eneste klassen skal gjøre først, er å finne ut hva vi kan spørre om.",
+    "metaTitle": "Finn spørsmålet – regnefortelling uten tall, 1.–2. trinn",
+    "metaDescription": "Gratis verktøy for hele klassen: tre tomme plasser og ingen tall. Klassen finner ut hva vi kan spørre om, og du sier én ting om gangen. Tre oppsett, LK20.",
     "about": [
-      "Et gjerde med prikker på, lufta over med flere prikker, og et tall som sier hvor mange det var i alt. Ikke noe mer. Ingen setning, ingen tegning av det som skjedde, og ikke noe spørsmål — for spørsmålet er det klassen skal lage selv. Prikkene på gjerdet og prikkene i lufta er tegnet helt like, så verktøyet røper aldri den fordelingen det spør om.",
-      "Luka er spørsmålet. Lukket over gjerdet spør den hvor mange som ble igjen, lukket over lufta hvor mange som dro — og ingen av setningene blir noen gang skrevet. Lukk begge, og det er ikke lenger et spørsmål med ett svar: igjen står bare antallet, og flere ulike par stemmer fortsatt med det. Det er å dele opp et tall på mer enn én måte, sett i stedet for fortalt.",
-      "Lista ramser opp; den sammenligner aldri. Den viser det som fortsatt stemmer med det man ser. Den retter ingen barns svar, teller ikke hvor mange par som er funnet, og rangerer ingen spørsmål som bedre. Ingen poeng, ingen tid. Denne rutinen er forskningsbasert, ikke evidensbasert: å stille egne spørsmål er godt beskrevet i litteraturen, og vi påstår ingen målt effekt.",
-      "Alt her er gratis: hver ny situasjon, begge lukene og lista over muligheter. Lærerabonnementet legger til arbeidsarket til utskrift — gjerdet og prikkene slik klassen nettopp så dem, med linjer til spørsmålene og regnestykkene som hører til."
+      "Et stativ med tre tomme plasser. Ingenting mer. Ingen tall, ingen tegning av det som skjedde, og ingen oppgave — for spørsmålet er det klassen skal lage selv. Der andre verktøy starter med en situasjon og spør om den, starter dette med at ingenting er sagt ennå.",
+      "Du sier én ting om gangen, og hver ting blir stående. Først hvordan de tre plassene henger sammen — fortsatt uten tall. Så det ene tallet. Så det andre. Plassen som fremdeles er usagt, er spørsmålet: den får et spørsmålstegn først når begge de andre er sagt, aldri før. Til slutt telles den opp på raden under stativet, én brikke om gangen, mens klassen teller høyt sammen. Ingenting blir noen gang tatt bort for å settes tilbake — det bygger seg opp.",
+      "De samme tre plassene kan settes opp på tre måter: noe skjedde, to blir ett, og den ene har flere enn den andre. Bytter du oppsett, blir tallene som allerede er sagt stående når de kan det — og da er det et annet tall som mangler, av de samme to opplysningene. Passer de to tallene ikke i det nye oppsettet, sier verktøyet fra og situasjonen begynner på nytt, i stedet for å skrive tallene om i det stille.",
+      "Ingen spørsmål blir rettet, rangert eller sammenlignet med noe fasitspørsmål, og ingen barns svar blir vurdert. Ingen poeng, ingen tid, ingen rekke. Rutinen hører hjemme i arbeidet med tall og regning på 1.–2. trinn i LK20, og den er forskningsbasert, ikke evidensbasert: å la elevene stille spørsmålene selv er godt beskrevet i faglitteraturen, og vi påstår ingen målt effekt. Hele apparatet er gratis — alle tre oppsettene, hver ting du sier, og det å telle opp den som manglet. Lærerabonnementet legger til arket til utskrift, med de tre plassene slik klassen nettopp så dem og linjer å skrive spørsmålene på."
     ],
     "howToUse": [
-      "Hent fram en situasjon og si ingenting. Først ser man: ingen har spurt om noe ennå.",
-      "Samle inn spørsmålene før noe lukkes: «Hva kan vi spørre om her?» Alle spørsmål teller, og ingen blir rettet.",
-      "Lukk ei luke over den delen klassen vil lure på. Nå er det ett tall å finne, og antallet pluss det som fortsatt synes er alt man har.",
-      "Lukk begge lukene og still det samme spørsmålet igjen. Nå passer mer enn ett par, og lista viser alle når klassen er ferdig med å diskutere."
+      "Sett opp situasjonen før timen, og start med å si ingenting. Tre tomme plasser, ingen tall. Spør klassen: «Hva kan vi spørre om her?» Ta imot alle forslag — ingen blir rettet, og du trenger ikke velge noe av dem.",
+      "Trykk «Vis hvordan de tre henger sammen». Nå ser klassen hvordan plassene hører sammen, men fortsatt står det ikke et eneste tall. Spør på nytt: er det andre spørsmål vi kan stille nå?",
+      "Si det ene tallet — «Si tallet på den runde», «den firkantede» eller «den spisse». Still klassens egen kontrollspørsmål: hva vet vi nå, og hva vet vi fremdeles ikke? Med bare det ene tallet er det ingenting å regne ut ennå, og det er selve poenget.",
+      "Si det andre tallet. Nå står spørsmålstegnet på den siste plassen, og alt som skal sies, er sagt. Trykk «Tell opp det som mangler» og la klassen telle brikkene høyt sammen på raden under."
     ],
     "classroomIdeas": [
-      "To minutter som fast rutine: én situasjon, tre spørsmål fra klassen, og luka lukket over det de helst vil finne ut av.",
-      "Lukk begge lukene, ta imot ett par fra klassen og spør om et annet par også ville ha passet. Åpne lista først når noen har funnet det andre.",
-      "Ta det samme antallet to ganger med prikkene fordelt ulikt. Tallet er det samme og alt annet er nytt — derfor kan tallet alene ikke fortelle hva som skjedde."
+      "To minutter som fast rutine ved dagens start: hent fram én situasjon, samle tre spørsmål fra klassen mens stativet fortsatt er tomt, og si først da det første tallet. Spørsmålene er timens arbeid, ikke oppvarmingen til det.",
+      "Når begge tallene er sagt, spør klassen om svaret blir et annet dersom de samme to tallene settes opp på en ny måte. La dem si hva de tror, og bytt så oppsett. De samme to opplysningene, et annet tall som mangler.",
+      "La klassen velge hvilken plass de skal finne ut, før du sier noe som helst. Samme situasjon, samme to opplysninger — men et annet spørsmål, og et annet svar. Skriv ut arket og la parene skrive ned spørsmålene sine, ikke svarene."
     ]
   },
   "the-gap": {

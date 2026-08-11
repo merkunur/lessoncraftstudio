@@ -1435,27 +1435,27 @@
     ]
   },
   "missing-question": {
-    "name": "Que peut-on demander ?",
+    "name": "Le Présentoir",
     "slug": "decomposer-les-nombres-et-poser-la-question-cp",
-    "tagline": "Il s’est passé quelque chose, et personne n’a encore rien demandé. Le volet, c’est la question — et l’endroit où on le ferme, c’est laquelle.",
-    "metaTitle": "Décomposer les nombres et poser la question — CP-CE1",
-    "metaDescription": "Outil de tableau gratuit : un rebord, l’air au-dessus et un total. Fermez un volet, la classe choisit la question ; fermez les deux, plusieurs réponses tiennent.",
+    "tagline": "Trois alvéoles vides, aucun nombre dit — et la classe cherche d’abord ce qu’on pourrait bien demander.",
+    "metaTitle": "Le Présentoir : problèmes sans nombres au CP et au CE1",
+    "metaDescription": "Trois alvéoles vides, aucun nombre : la classe décide d’abord ce qu’on pourrait demander. Ajoutez un fait par appui, puis comptez ensemble ce qui manque.",
     "about": [
-      "Un rebord avec des ronds posés dessus, l’air au-dessus avec d’autres ronds, et un nombre qui dit combien il y en avait en tout. Rien d’autre. Aucune phrase, aucune image de ce qui s’est passé, aucune question — parce que la question, c’est la classe qui va la fabriquer. Les ronds du rebord et ceux de l’air sont dessinés exactement pareil : l’outil ne donne donc jamais le partage sur lequel il interroge.",
-      "Le volet, c’est la question. Posé sur le rebord, il demande combien sont restés ; posé sur l’air, combien sont partis ; ni l’une ni l’autre de ces phrases n’est jamais écrite. Fermez les deux et ce n’est plus une question à une seule réponse : il ne reste que le total, et plusieurs couples différents lui vont encore. C’est décomposer un nombre de plusieurs façons, montré plutôt que raconté.",
-      "La liste énumère, elle ne compare jamais. Elle montre ce qui reste compatible avec ce que l’on voit encore. Elle ne vérifie la réponse d’aucun enfant, ne compte pas combien de couples ont déjà été trouvés et ne classe aucune question comme meilleure. Rien n’est noté, rien n’est chronométré. Cette routine est fondée sur la recherche, mais pas sur des preuves d’efficacité : formuler ses propres questions est largement décrit dans la littérature, et nous n’avançons aucun effet mesuré.",
-      "Tout est gratuit ici : chaque nouvelle situation, les deux volets et la liste des possibles. L’abonnement Enseignant ajoute la fiche à imprimer — le rebord et les ronds tels que la classe vient de les voir, avec des lignes réglées pour écrire les questions posées et les calculs qui vont avec."
+      "Le Présentoir, c’est trois alvéoles vides et rien d’autre. Au démarrage, personne n’a encore rien dit : aucun nombre nulle part, aucune consigne. Le seul travail de la classe, à ce moment-là, c’est de décider ce qu’on pourrait demander. Aucune question n’est jugée, et c’est précisément ce qui rend ce premier temps possible.",
+      "Ensuite, vous ajoutez un fait par appui, et un seul. D’abord comment les trois alvéoles vont ensemble : le lien se dessine, toujours sans le moindre nombre. Puis un nombre. Puis un autre. L’appareil ne fait qu’accumuler — rien ne s’efface tout seul — et entre chaque appui la classe redit ce qu’elle sait et ce qu’elle ne sait toujours pas.",
+      "L’alvéole restée muette est la question. Quand les deux autres nombres ont été dits, la classe compte ce qui manque, un par un et à voix haute, sur une rangée en bas du présentoir dont la taille ne change jamais. Pas de chronomètre, pas de score, pas de bonne réponse affichée d’avance : le nombre arrive parce que la classe l’a compté.",
+      "Trois dispositions rangent les mêmes trois alvéoles dans trois relations différentes — il s’est passé quelque chose, les deux font le tout, l’un en a plus que l’autre — et les mêmes deux nombres n’y donnent pas la même réponse. Tout l’appareil est gratuit ; l’abonnement Enseignant ajoute la fiche à imprimer. La démarche s’appuie sur les travaux de recherche en didactique des problèmes et sur les programmes officiels du cycle 2 ; elle n’a pas fait l’objet d’étude d’efficacité contrôlée."
     ],
     "howToUse": [
-      "Distribuez une situation et ne dites rien. On regarde d’abord : personne n’a encore rien demandé.",
-      "Recueillez les questions avant de fermer quoi que ce soit : « Qu’est-ce qu’on pourrait demander ici ? » Toutes les questions comptent, aucune n’est corrigée.",
-      "Fermez un volet sur la partie que la classe veut chercher. Il y a maintenant un nombre à trouver, et le total avec ce qui reste visible sont toute la preuve disponible.",
-      "Fermez les deux volets et reposez la même question. Cette fois plusieurs couples conviennent, et la liste les montrera tous quand la discussion sera finie."
+      "Avant la séance, choisissez la disposition, jusqu’où vont les nombres, et l’alvéole que la classe devra trouver. Affichez le présentoir vide et demandez simplement : qu’est-ce qu’on pourrait demander ?",
+      "Appuyez sur « Montrer comment les trois vont ensemble ». Le lien apparaît entre les trois alvéoles — et il n’y a toujours aucun nombre. Laissez la classe reformuler ce qui a changé.",
+      "Annoncez un nombre, puis l’autre, un appui à la fois. Après chaque appui, posez les deux mêmes questions : que sait-on maintenant, et que ne sait-on pas encore ?",
+      "Appuyez sur « Compter ce qui manque ». La réponse s’installe un élément à la fois en bas du présentoir : comptez-la avec la classe, à voix haute, jusqu’au bout."
     ],
     "classroomIdeas": [
-      "Deux minutes en rituel : une situation, trois questions prises dans la classe, et le volet fermé sur celle qu’ils veulent le plus trancher.",
-      "Les deux volets fermés, prenez un couple proposé par la classe et demandez si un autre couple aurait aussi convenu. N’ouvrez la liste qu’une fois qu’un deuxième a été trouvé.",
-      "Distribuez deux fois le même total avec les ronds répartis autrement. Le nombre ne change pas, tout le reste change — voilà pourquoi le total seul ne dit pas ce qui s’est passé."
+      "En rituel de début de séance : le présentoir ne change pas, l’histoire change chaque jour. C’est vous qui portez le contexte à l’oral — l’appareil, lui, ne porte que les quantités et la structure, ce qui permet de refaire la routine toute l’année sans lasser.",
+      "Gardez les deux mêmes nombres et changez de disposition : « Est-ce que la réponse change ? » La classe découvre que la même paire de nombres ne répond pas à la même question selon la façon dont les trois alvéoles sont reliées.",
+      "Avec l’abonnement Enseignant, imprimez la fiche à la fin de la séance : elle reprend les trois alvéoles exactement comme la classe vient de les voir, avec six lignes réglées. Chacun y écrit les questions qu’on aurait pu poser — les questions, pas les réponses."
     ]
   },
   "the-gap": {

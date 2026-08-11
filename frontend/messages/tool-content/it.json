@@ -1435,27 +1435,27 @@
     ]
   },
   "missing-question": {
-    "name": "La domanda che manca",
+    "name": "Le tre nicchie",
     "slug": "scomporre-i-numeri-e-inventare-la-domanda-primaria",
-    "tagline": "È successo qualcosa e nessuno ha ancora chiesto niente. La tapparella è la domanda, e il punto in cui la abbassate dice quale.",
+    "tagline": "Sta succedendo qualcosa e nessuno ha ancora chiesto niente. Tre nicchie vuote, e la classe decide che cosa si potrebbe chiedere.",
     "metaTitle": "Scomporre i numeri e inventare la domanda — primaria",
-    "metaDescription": "Strumento gratuito per la LIM: una mensola, l’aria sopra e un totale. La domanda la sceglie la classe, e con due tapparelle abbassate restano più risposte possibili.",
+    "metaDescription": "Strumento gratuito per la LIM: tre nicchie vuote e nessun numero. Si aggiunge una cosa alla volta, e la nicchia rimasta senza numero è la domanda.",
     "about": [
-      "Una mensola con dei pallini sopra, l’aria sopra la mensola con altri pallini, e un numero che dice quanti erano in tutto. Nient’altro. Nessuna frase, nessun disegno di quello che è successo e nessuna domanda — perché la domanda la costruisce la classe. I pallini sulla mensola e quelli in aria sono disegnati esattamente uguali, così lo strumento non regala mai la divisione su cui sta interrogando.",
-      "La tapparella è la domanda. Abbassata sulla mensola chiede quanti sono rimasti; abbassata in aria, quanti se ne sono andati; nessuna delle due frasi viene mai scritta. Abbassatele tutte e due e non è più una domanda con una sola risposta: resta solo il totale, e più coppie diverse continuano ad andargli bene. Questo è scomporre un numero in più modi, visto invece che raccontato.",
-      "L’elenco enumera; non confronta mai. Mostra quello che è ancora compatibile con ciò che si vede. Non controlla la risposta di nessun bambino, non tiene il conto di quante coppie sono state trovate e non giudica una domanda migliore di un’altra. Niente punteggi, niente tempo. Questa routine è basata sulla ricerca, non su prove di efficacia: inventare domande proprie è ampiamente descritto in letteratura, e non dichiariamo alcun effetto misurato.",
-      "Qui è tutto gratuito: ogni nuova situazione, tutte e due le tapparelle e l’elenco delle coppie. Il piano Insegnante aggiunge la scheda da stampare — la mensola e i pallini come la classe li ha appena visti, con le righe per scrivere le domande e le operazioni corrispondenti."
+      "Tre nicchie vuote, e nient’altro. Nessun numero, nessuna frase, nessun disegno di quello che sta succedendo — perché all’inizio non è ancora stato detto niente, e l’unico compito della classe è decidere che cosa si potrebbe chiedere. Ogni nicchia porta il suo segno impresso — quella rotonda, quella quadrata, quella appuntita — così un insegnante può indicarne una senza usare una sola parola, in qualunque lingua.",
+      "Poi si aggiunge una cosa alla volta, e soltanto si aggiunge: prima il legame, cioè come stanno insieme le tre nicchie; poi un numero; poi l’altro. A ogni passo si rifà la stessa domanda — che cosa sappiamo adesso, e che cosa ancora no? La nicchia rimasta senza numero è la domanda, e alla fine quello che manca si conta insieme, uno alla volta, sulla striscia in basso.",
+      "Le stesse tre nicchie stanno insieme in tre modi: è successo qualcosa, due che si uniscono, una ne ha più dell’altra. Sono le situazioni che le Indicazioni nazionali chiedono di far incontrare ai bambini fin dai primi anni della primaria, e qui si passa dall’una all’altra senza cambiare strumento: le stesse tre nicchie, sistemate in un altro modo, e una risposta che può non essere più la stessa.",
+      "Nessuna domanda della classe viene mai corretta, confrontata o giudicata: lo strumento non tiene punteggi, non misura il tempo e non registra niente di quello che i bambini dicono. Questa routine è basata sulla ricerca, non su prove di efficacia, e non dichiariamo alcun effetto misurato. Qui è tutto gratuito: tutte e tre le sistemazioni, ogni numero detto e il conteggio di quello che mancava. Il piano Insegnante aggiunge la scheda da stampare, che riporta le tre nicchie esattamente come le ha viste la classe, con le righe su cui scrivere le domande."
     ],
     "howToUse": [
-      "Fate comparire una situazione e non dite niente. Prima si guarda: nessuno ha ancora chiesto nulla.",
-      "Raccogliete le domande prima di abbassare qualsiasi cosa: «Che cosa si potrebbe chiedere qui?». Ogni domanda vale e nessuna viene corretta.",
-      "Abbassate una tapparella sulla parte su cui la classe vuole ragionare. Adesso c’è un numero da trovare, e il totale con quello che resta in vista sono tutti gli indizi.",
-      "Abbassate tutte e due le tapparelle e rifate la stessa domanda. Ora va bene più di una coppia, e l’elenco le mostrerà tutte alla fine della discussione."
+      "Aprite con tre nicchie vuote e non dite niente. Non è ancora stata fatta nessuna domanda: prima si guarda.",
+      "Raccogliete quello che la classe vorrebbe chiedere. Ogni domanda vale, nessuna viene corretta e per ora nessuna viene risolta.",
+      "Mostrate il legame — come stanno insieme le tre nicchie — e chiedete che cosa si riesce a ricavare adesso. Ancora nessun numero: cambia soltanto quello che si può dire.",
+      "Dite un numero, poi l’altro, fermandovi ogni volta a sentire la classe. Quando è stato detto tutto, contate insieme quello che manca sulla striscia in basso."
     ],
     "classroomIdeas": [
-      "Due minuti di rito: una situazione, tre domande prese dalla classe e la tapparella abbassata su quella che vogliono chiarire di più.",
-      "Con tutte e due le tapparelle abbassate, accettate una coppia proposta dalla classe e chiedete se ne sarebbe andata bene un’altra. Aprite l’elenco solo dopo che qualcuno ha trovato la seconda.",
-      "Proponete due volte lo stesso totale con i pallini divisi in modo diverso. Il numero non cambia e tutto il resto sì: ecco perché il totale da solo non dice che cosa è successo."
+      "Rito dei due minuti: tre nicchie vuote, tre domande prese dalla classe e poi un solo numero. Basta quello per far cambiare idea a metà dei bambini.",
+      "Arrivati in fondo, cambiate sistemazione senza aggiungere altro. Le stesse tre nicchie stanno insieme in un altro modo: la risposta è ancora quella? Fateglielo dire prima di contare.",
+      "Scegliete voi quale nicchia devono ricavare — quella rotonda, quella quadrata o quella appuntita — e riproponete la stessa situazione due giorni di fila cambiando solo quella. È lo stesso disegno, ed è un’altra domanda."
     ]
   },
   "the-gap": {

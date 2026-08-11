@@ -23,8 +23,33 @@ const { svgRoot, el, roundedRect, line } = require('../../primitives/_svg.js');
 const tokens = require('../../primitives/_tokens.js');
 
 // mirror-line counts for the shapes-theme art (hand-curated; circle skipped — "endless")
-const SYMMETRY_COUNT = { square: 4, rectangle: 2, triangle: 3, diamond: 2, oval: 2, pentagon: 5, hexagon: 6, heart: 1, star: 5, trapezoid: 1 };
-const QUAD_CLASS = { square: 'square', rectangle: 'rectangle', diamond: 'other', trapezoid: 'other', parallelogram: 'other' };
+const SYMMETRY_COUNT = { square: 4, rectangle: 2, triangle: 3, diamond: 4, oval: 2, pentagon: 5, hexagon: 6, heart: 1, star: 5, trapezoid: 1 };
+/* ⚠ diamond is 'square' because the shipped artwork IS a square
+   rotated 45 degrees. A tilted square sorted to SQUARE is the
+   lesson, not a leniency. */
+const QUAD_CLASS = { square: 'square', rectangle: 'rectangle', diamond: 'square', trapezoid: 'other', parallelogram: 'other' };
+
+/* ⚠⚠ A CROSS-TABLE INVARIANT, because passing the tables into the
+   verifier stops them DRIFTING but cannot detect a table that is simply
+   WRONG — the rendered DOM is built from the same table the gate reads,
+   so they agree by construction. This is the one independent statement
+   available without measuring the bitmap: a square has 4 mirror lines
+   and a non-square rectangle has exactly 2. It fires the moment someone
+   changes one of these keys and not the other, which is precisely how
+   `diamond` came to be classed 'other' while carrying 2.
+   ⭐ The only TRUE oracle is the artwork itself — `shapes/diamond.png`
+   measures w/h 0.9993 with its vertices at the bbox midpoints, i.e. a
+   square rotated 45°. A build-time assertion that measures the asset and
+   checks it against these tables is the durable fix and is FILED, not
+   built here. */
+Object.keys(QUAD_CLASS).forEach((k) => {
+  if (!(k in SYMMETRY_COUNT)) return;
+  const want = QUAD_CLASS[k] === 'square' ? 4 : QUAD_CLASS[k] === 'rectangle' ? 2 : null;
+  if (want !== null && SYMMETRY_COUNT[k] !== want) {
+    throw new Error('geometry-tasks: ' + k + ' is classed ' + QUAD_CLASS[k] +
+      ' but carries ' + SYMMETRY_COUNT[k] + ' mirror lines (expected ' + want + ')');
+  }
+});
 
 function flipMask(m) {
   const out = new Array(m.length);
@@ -286,7 +311,10 @@ function makeGeometryType(cfg) {
 
     async verify(page) {
       const m = mode, f = facet;
-      return page.evaluate(({ mode, facet }) => {
+      /* ⚠⚠ SY and QC are PASSED IN, never re-declared. They used to be
+   hard-coded copies inside this browser context, so the gate carried
+   whatever misconception the code carried and could not fail. */
+      return page.evaluate(({ mode, facet, SY, QC }) => {
         const fails = [];
         const SIDES = { circle: 0, oval: 0, triangle: 3, square: 4, rectangle: 4, diamond: 4, trapezoid: 4, parallelogram: 4, pentagon: 5, hexagon: 6, heptagon: 7, octogon: 8 };
         const SOLIDS = {
@@ -354,7 +382,7 @@ function makeGeometryType(cfg) {
             });
           });
         } else if (mode === 'classify-quads') {
-          const cls = { square: 'square', rectangle: 'rectangle', diamond: 'other', trapezoid: 'other', parallelogram: 'other' };
+          const cls = QC;
           document.querySelectorAll('[data-lcs-item]').forEach((it) => {
             if (cls[it.dataset.lcsItem] !== it.dataset.lcsClass) fails.push(`${it.dataset.lcsItem}: class wrong`);
           });
@@ -368,7 +396,6 @@ function makeGeometryType(cfg) {
             });
           });
         } else if (mode === 'symmetry-count') {
-          const SY = { square: 4, rectangle: 2, triangle: 3, diamond: 2, oval: 2, pentagon: 5, hexagon: 6, heart: 1, star: 5, trapezoid: 1 };
           document.querySelectorAll('[data-lcs-shape]').forEach((c) => {
             const k = c.dataset.lcsShape;
             if (SY[k] !== +c.dataset.lcsSymn) fails.push(`${k}: symmetry fact wrong`);
@@ -376,7 +403,7 @@ function makeGeometryType(cfg) {
           });
         }
         return fails;
-      }, { mode: m, facet: f });
+      }, { mode: m, facet: f, SY: SYMMETRY_COUNT, QC: QUAD_CLASS });
     },
   };
 }

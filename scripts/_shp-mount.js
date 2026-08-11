@@ -14,5 +14,5 @@ srv.listen(5901,async()=>{
  console.log('pageerrors:',errs.length?errs:'none');
  console.log('marks='+r.marks,'buttons='+r.btns,'numerals='+r.nums);
  console.log('say:',JSON.stringify(r.say));
- await p.screenshot({path:'docs/audit-results/the-gap-mount.png',fullPage:true});
+ await p.screenshot({path:'docs/audit-results/shape-stretcher-mount.png',fullPage:true});
  await b.close();srv.close();});

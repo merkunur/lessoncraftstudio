@@ -1477,6 +1477,30 @@
       "Use a mesma contagem inicial duas vezes: uma com algo entrando e outra com algo saindo. A única diferença é o pulso, e vale perguntar o que a turma viu de fato."
     ]
   },
+  "shape-stretcher": {
+    "name": "A Figura que Entorta",
+    "slug": "a-figura-que-entorta-girar-nao-muda-nada-entortar-muda-1-ano",
+    "tagline": "Girem a figura o quanto quiserem: nenhuma marquinha aparece nem some. Entortem, e uma marquinha solta — inclinar e enviesar se parecem, e só um dos dois devolve uma figura diferente.",
+    "metaTitle": "A Figura que Entorta — girar não muda nada, entortar muda, 1.º ano",
+    "metaDescription": "Ferramenta de lousa gratuita: uma figura no painel, duas marquinhas — todos os lados do mesmo tamanho e cantos retos — e três controles: alongar, entortar e girar. Girar nunca solta uma marquinha. Entortar solta. Deixem uma figura ao lado e ficam com as duas à vista.",
+    "about": [
+      "Um painel com uma figura em cima e duas marquinhas presas nela: uma diz que todos os lados têm o mesmo tamanho, a outra que os cantos são retos. Três controles movem a figura — alongar, entortar, girar — e as marquinhas respondem. Girar é o controle que nunca muda nada, e não tem nenhum encaixe, porque um encaixe marca o ponto em que atravessar solta uma marquinha e nesse controle esse ponto não existe. O aparelho diz isso pelo próprio formato, antes de alguém encostar nele.",
+      "Entortar é outra história. Entortem o bastante e a marquinha dos cantos retos solta: sobra uma figura com quatro lados iguais que já não é um quadrado. É para essa distinção que o painel foi feito: inclinar e enviesar deixam os dois o quadrado torto, e só um deles custa alguma coisa. Em outros lugares deste site a figura chega já torta ou alongada e a turma decide em que caixa ela vai; aqui é a turma que faz a mudança e vê a fronteira sendo atravessada.",
+      "Que um quadrado torto seja reconhecido com mais dificuldade do que um em pé já foi observado em crianças de trinta meses, muito antes de qualquer escolarização: não é a sala de aula que produz isso, e ninguém mostrou o que produz. Ao deixar uma figura ao lado, ela fica no painel junto da que está na mão, então duas figuras são comparadas lado a lado em vez de lembradas uma depois da outra. Nada é marcado como certo ou errado: uma marquinha informa uma propriedade e volta exatamente com a mesma intensidade com que saiu, mesma cor, mesmo percurso. Não há pontos nem relógio. Esta rotina é baseada em pesquisa, não em evidência de eficácia: descrevemos o que o aparelho faz e não afirmamos nenhum efeito medido.",
+      "Aqui tudo é grátis — todas as figuras, girar, alongar e entortar, as marquinhas e a figura que fica ao lado. O plano Professor traz ainda a folha impressa, que leva o painel do jeito que a turma deixou e linhas pautadas para escrever."
+    ],
+    "howToUse": [
+      "Peguem uma figura e girem, uma volta inteira se alguém pedir. Perguntem o que aconteceu com as marquinhas. Nada — e esse controle não tem encaixes, então o aparelho já disse antes de vocês.",
+      "Agora peguem o controle de entortar e andem devagar. Parem no instante em que uma marquinha soltar e perguntem o que ainda é verdade nessa figura e o que deixou de ser.",
+      "Deixem essa figura ao lado e tragam a outra de volta até a marquinha aparecer outra vez. Agora as duas estão lado a lado no mesmo painel, e é disso que se trata: são comparadas, não lembradas uma depois da outra.",
+      "Deem uma tarefa à turma: fazer todas as marquinhas segurarem ao mesmo tempo. Depois uma mais difícil: soltar exatamente uma, e só uma."
+    ],
+    "classroomIdeas": [
+      "Dois minutos para começar a aula: uma figura girada uma volta inteira e depois entortada até uma marquinha soltar. Uma frase na lousa sobre o que mudou e o que não mudou.",
+      "Peçam uma previsão antes de mexer no controle — esta aqui vai perder uma marquinha? — e escrevam todas as previsões antes de qualquer coisa acontecer.",
+      "Mudem o painel para três lados. No aparelho inteiro existem exatamente dois ajustes que colocam um canto reto numa figura de três lados, e achá-los é uma caçada de verdade."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

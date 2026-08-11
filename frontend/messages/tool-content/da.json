@@ -1478,6 +1478,30 @@
       "Brug det samme starttal to gange: én gang kommer der noget ind, én gang går der noget ud. Det eneste, der er forskelligt, er bølgen — og det er værd at spørge, hvad klassen faktisk så."
     ]
   },
+  "shape-stretcher": {
+    "name": "Stadig den samme figur?",
+    "slug": "stadig-den-samme-figur-at-dreje-aendrer-ingenting-1-klasse",
+    "tagline": "Drej figuren, så meget I vil — drejningen laver ingenting om. Læn den, og en markering slipper: at vippe og at forskyde ligner hinanden, og kun det ene efterlader jer en anden figur.",
+    "metaTitle": "Stadig den samme figur? — at dreje ændrer ingenting, 1. klasse",
+    "metaDescription": "Gratis tavleværktøj: én figur på fladen, to markeringer — alle sider lige lange, og rette hjørner — og tre baner: lang og kort, læn, drej. At dreje slipper aldrig en markering. Det gør det at læne. Lad en figur blive stående ved siden af, så I kan se to på én gang.",
+    "about": [
+      "En flade med en figur på og to markeringer, der sidder på figuren: den ene siger, at alle sider er lige lange, den anden at hjørnerne er rette. Tre baner flytter figuren — lang og kort, læn, drej — og markeringerne svarer. At dreje er den bane, der aldrig laver noget om, og drejeknappen har slet ingen hak, for et hak markerer det sted, hvor en overskridelse får en markering til at slippe, og på den knap findes det sted ikke. Apparatet siger det med sin egen opbygning, før nogen rører ved det.",
+      "At læne er en helt anden sag. Læn langt nok, og markeringen for de rette hjørner slipper: tilbage står en figur med fire lige lange sider, som ikke længere er et kvadrat. Det er den forskel, fladen er bygget til: at vippe og at forskyde får begge kvadratet til at stå skævt, og kun det ene koster noget. Andre steder her kommer figuren allerede vippet eller strakt, og klassen afgør, hvilken kasse den hører til i; her er det klassen, der udfører ændringen og ser grænsen blive krydset.",
+      "At et skævt kvadrat genkendes dårligere end et opretstående, er observeret hos børn på tredive måneder, altså længe før al skolegang: det opstår ikke i klasseværelset, og ingen har vist, hvad det skyldes. Lader I en figur blive stående, står den på fladen ved siden af den, I arbejder med, så to figurer sammenlignes side om side i stedet for at blive husket den ene efter den anden. Intet markeres som rigtigt eller forkert: en markering melder en egenskab og kommer tilbage præcis lige så højlydt, som den forsvandt — samme farve, samme vej. Der er ingen point og intet ur. Denne rutine er forskningsbaseret, men ikke evidensbaseret: vi beskriver, hvad apparatet gør, og hævder ingen målt effekt.",
+      "Hele apparatet er gratis — alle figurer, alt hvad I kan gøre ved dem, markeringerne og figuren, der bliver stående ved siden af. Lærerabonnementet giver desuden udskriften, som viser fladen, sådan som klassen forlod den, med linjer til at skrive på."
+    ],
+    "howToUse": [
+      "Hent en figur frem, og drej den — gerne en hel omgang. Spørg, hvad markeringerne gør. Ingenting — og den knap har ingen hak, så apparatet siger det allerede, før I gør.",
+      "Tag nu banen, der læner figuren, og bevæg den langsomt. Stop i samme øjeblik en markering slipper, og spørg, hvad der stadig er sandt om denne figur, og hvad der er holdt op med at være det.",
+      "Lad den figur blive stående, og før den anden tilbage, indtil markeringen sidder igen. Nu står de side om side på samme flade, og det er hele pointen: de sammenlignes, de huskes ikke den ene efter den anden.",
+      "Giv klassen en opgave: få alle markeringer til at sidde på én gang. Derefter en sværere — få præcis én til at slippe, og kun én."
+    ],
+    "classroomIdeas": [
+      "To minutter til at åbne timen: en figur drejet en hel omgang og derefter lænet, indtil en markering slipper. Én sætning på tavlen om, hvad der ændrede sig, og hvad der ikke gjorde.",
+      "Tag et gæt, før banen bevæges — mister denne her en markering? — og skriv alle gæt op, før der sker noget som helst.",
+      "Stil fladen om til tre sider. I hele apparatet er der præcis to indstillinger, der lægger et ret hjørne i en tresidet figur, og at finde dem er en rigtig jagt."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

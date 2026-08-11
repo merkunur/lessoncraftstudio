@@ -122,6 +122,48 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  /* ⭐ #57 AT REST IS A RANDOM SHAPE AT A RANDOM LEAN — the tool deals
+     `newState()` off Math.random on every mount, so an unseeded card is
+     not merely dull, it is a DIFFERENT PICTURE EVERY RUN and cannot be
+     reviewed. It must carry the tool's most startling true frame: a
+     needle-thin rhombus wearing FOUR TICK MARKS and leaning hard over —
+     every side the same length, and visibly not a square. That is the
+     whole claim in one picture, and no sibling shows it.
+     ⚠ SEEDED BY DATA, NEVER BY ENGLISH TEXT (the #44 defect, where
+     /print/i matched "Another BLUEPRINT"): the state goes in through the
+     tool object, so no label, locale or DOM re-order can move it.
+     k = 0 → a = b, all four sides equal, the tick tag holds.
+     theta = 18 → the minimum of the skew ladder, the thinnest legal
+       rhombus; for n = 4 `cornerRight` is `theta === 90`, so the square
+       tag is off and no little square is drawn. Verified against the
+       model, not eyeballed.
+     rot = 42 → leaning, and NOT one of the poses the tool ever opens on
+       being outside newState's 22..68 band, so the card cannot be
+       confused with a rest frame.
+     ⚠⚠ THE TWO HALVES OF THE BRIEFED FRAME ARE IN TENSION, AND THE
+     MEASUREMENT SAYS SO. The card was asked for with "the rail showing
+     two tracks with a notch and one without". Driven and measured:
+     detentsFor len = [0] (1 notch node), skew = [90] (1 node), turn = []
+     (0 nodes) — so the MODEL is exactly that. But four tick marks
+     require k = 0, k = 0 IS the stretch detent, and the grip at
+     390..412px covers its own notch at 400..402px: `occluded: true`.
+     One notch is therefore VISIBLE, not two. The headline (a needle-thin
+     rhombus wearing four ticks) wins over the notch count, and this is
+     recorded rather than papered over — nudging k off 0 to expose the
+     notch would cost the four ticks, which is the whole picture.
+     ⚠ GENERATE THIS ONE WITH `--fit=contain`. Measured: the seeded stage
+     is 720x895 — aspect 1.243, far past the 0.85 line — so `--fit=auto`
+     reports "ok" and TOP-CROPS the turn track, the buttons and the paid
+     panel clean off the bottom, i.e. it cuts away the one track that
+     carries the theorem. A wider VIEWPORT does NOT help: `.shp-wrap` is
+     `max-width:660px` in a single column with no side-by-side
+     breakpoint, so a wider frame only adds background and shrinks the
+     apparatus (the #56 no-op finding). Contain letterboxes and nothing
+     is cut. Read the .webp after any change here — the log says ok
+     either way. */
+  'shape-stretcher': [
+    { js: "if(!window.ShapeStretcher||!ShapeStretcher._paint)throw new Error('ShapeStretcher not mounted');ShapeStretcher.st={n:4,k:0,theta:18,rot:42,kept:null};ShapeStretcher._paint();", wait: 700 }
+  ],
   /* ⭐ #55 AT REST IS A ROW OF IDENTICAL DOTS AND A NUMERAL — which is
      the tool's opening frame and looks like any other counting board.
      The card must carry the moment the tool exists for: BOTH shutters

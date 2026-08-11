@@ -92,6 +92,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'doubling-mirror': 'number',
   'missing-question': 'number',
   'the-gap': 'number',
+  'shape-stretcher': 'measurement',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

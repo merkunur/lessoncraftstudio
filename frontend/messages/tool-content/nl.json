@@ -1479,6 +1479,30 @@
       "Neem hetzelfde beginaantal twee keer: één keer komt er iets bij, één keer gaat er iets weg. Alleen de golf verschilt, en het is de moeite waard te vragen wat de klas precies zag."
     ]
   },
+  "shape-stretcher": {
+    "name": "De vormrekker",
+    "slug": "vormrekker-draaien-verandert-niets-scheeftrekken-wel-groep-3",
+    "tagline": "Draai de vorm zo ver je wilt: aan de labels verandert er niets. Trek hem scheef en er laat een label los — kantelen en scheeftrekken lijken op elkaar, en maar één van de twee levert je een andere vorm op.",
+    "metaTitle": "De vormrekker — draaien verandert niets, scheeftrekken wel, groep 3",
+    "metaDescription": "Gratis digibordgereedschap: één vorm op het paneel, twee labels — alle zijden even lang, en rechte hoeken — en drie banen: rekken, scheeftrekken, draaien. Draaien laat nooit een label los. Scheeftrekken wel. Zet er een vorm naast en je hebt ze allebei tegelijk in beeld.",
+    "about": [
+      "Een paneel met een vorm erop en twee labels die aan de vorm hangen: het ene zegt dat alle zijden even lang zijn, het andere dat de hoeken recht zijn. Drie banen bewegen de vorm — rekken, scheeftrekken, draaien — en de labels antwoorden. Draaien is de baan waarbij er aan de labels niets verandert, en de draaiknop heeft helemaal geen inkepingen, want een inkeping markeert de plek waar het overschrijden een label loslaat, en op die knop bestaat die plek niet. Het apparaat zegt dat met zijn eigen bouw, voordat iemand het aanraakt.",
+      "Scheeftrekken is iets heel anders. Trek ver genoeg en het label voor de rechte hoeken laat los: wat overblijft is een vorm met vier even lange zijden die geen vierkant meer is. Voor dat onderscheid is het paneel gebouwd: kantelen en scheeftrekken laten allebei een vierkant schuin staan, en maar één van de twee kost je iets. Elders op deze site komt een vorm al gekanteld of uitgerekt binnen en beslist de klas in welk bakje hij hoort; hier voert de klas de verandering zelf uit en ziet ze de grens overgaan.",
+      "Dat een schuin vierkant minder makkelijk herkend wordt dan een rechtop staand, is al waargenomen bij kinderen van dertig maanden, dus ruim voor enige scholing: het ontstaat niet in de klas, en niemand heeft aangetoond waardoor het wél ontstaat. Zet er een vorm naast, dan blijft die op het paneel staan naast die in je hand, zodat twee vormen naast elkaar vergeleken worden in plaats van na elkaar onthouden. Er wordt niets goed of fout gerekend: een label meldt een eigenschap en komt precies even hard terug als het weggegaan is — zelfde kleur, zelfde afstand. Er zijn geen punten en geen klok. Deze routine is op onderzoek gebaseerd, niet op bewezen effect: we beschrijven wat het apparaat doet en claimen geen gemeten effect.",
+      "Het hele apparaat is gratis: elke vorm, alle drie de banen, de labels en de vorm die ernaast staat. Met het Leerkracht-abonnement komt daar het blad bij om af te drukken, met wat er op het paneel stond en lijnen om op te schrijven."
+    ],
+    "howToUse": [
+      "Pak een vorm en draai hem, gerust een hele slag. Vraag wat de labels doen. Niets — en die knop heeft geen inkepingen, dus het apparaat zegt het al voordat jij het zegt.",
+      "Pak nu de baan voor scheeftrekken en beweeg langzaam. Stop op het moment dat er een label loslaat en vraag wat er van deze vorm nog waar is en wat niet meer.",
+      "Laat die vorm staan en breng de andere terug tot het label er weer op zit. Nu staan ze naast elkaar op hetzelfde paneel, en daar gaat het om: ze worden vergeleken, niet na elkaar onthouden.",
+      "Geef de klas een opdracht: laat alle labels tegelijk vastzitten. Daarna een moeilijkere: laat er precies één loslaten, en maar één."
+    ],
+    "classroomIdeas": [
+      "Twee minuten om de les te openen: één vorm een hele slag ronddraaien en daarna scheeftrekken tot er een label loslaat. Één zin op het bord over wat er veranderd is en wat niet.",
+      "Vraag een voorspelling voordat de baan beweegt — verliest deze een label? — en schrijf alle voorspellingen op voordat er iets gebeurt.",
+      "Zet het paneel op drie zijden. In het hele apparaat zijn er precies twee standen die een rechte hoek in een driezijdige vorm leggen, en die vinden is een echte speurtocht."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

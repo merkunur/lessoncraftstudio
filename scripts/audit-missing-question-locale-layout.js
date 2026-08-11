@@ -100,6 +100,28 @@ const MEASURE = () => {
   const wells = [].slice.call(document.querySelectorAll('.mqu-well')).map(R);
   const btns = [].slice.call(document.querySelectorAll('.mqu-btn')).map(R);
 
+  /* ⚠⚠ A CONTROL ON THE APPARATUS. `.mqu-btn` is the COLUMN's class;
+     the two size steppers are `.mqu-icon`, and nothing here or anywhere
+     else measured them against the niches. They shipped absolutely
+     positioned over niche 1 at EVERY width — 1,411px² at 704, and on a
+     phone the pair closed around the niche's own numeral so the slip
+     read `− 1 +`. I read that off a render; the throwaway check I wrote
+     to confirm it selected `.mqu-size .mqu-btn`, matched NOTHING, and
+     reported "no overlap at any of the six widths".
+     ⚠ Hence `steppers`/`parts` are RETURNED and asserted non-empty
+     below: a cross-overlap of two empty lists is always clean. */
+  const steppers = [].slice.call(document.querySelectorAll('.mqu-icon')).map(R);
+  const parts = [].slice.call(document.querySelectorAll(
+    '.mqu-niche, .mqu-slip, .mqu-ask, .mqu-count')).map(R);
+  const crossOverlaps = [];
+  steppers.forEach((s, si) => parts.forEach((n, ni) => {
+    const a = Math.max(0, Math.min(s.r, n.r) - Math.max(s.x, n.x))
+      * Math.max(0, Math.min(s.b, n.b) - Math.max(s.y, n.y));
+    if (a > 1 && crossOverlaps.length < 3) {
+      crossOverlaps.push('control' + si + '/part' + ni + '=' + Math.round(a) + 'px2');
+    }
+  }));
+
   /* a raw key leak: our keys are camelCase with no space */
   const text = (document.querySelector('.mqu-wrap') || {}).innerText || '';
   const rawKey = /(^|\s)(legSetup|legTell|legAsk|legPaper|sayDealt|sayLinked|sayTold|sayAsk|sayCount|sayShape|sayShapeCleared|askAt\d?|tell\d|untell\d|saidAt\w+|said\w+|aria\w+|shape\w+|band\w+|setShape|setBand|sheetTitle|sheetHint|lockedTitle|lockedBody|totalUp|totalDown|uncount|recount|unlink)(\s|$)/.test(text);
@@ -112,6 +134,9 @@ const MEASURE = () => {
     btns: btns.length,
     minTapH: btns.length ? Math.min.apply(null, btns.map(b => b.h)) : null,
     btnOverlaps: pairsOverlap(btns).slice(0, 3),
+    steppers: steppers.length,
+    parts: parts.length,
+    crossOverlaps: crossOverlaps,
     standH: (() => { const s = document.querySelector('.mqu-stand'); return s ? +s.getBoundingClientRect().height.toFixed(1) : null; })(),
     rawKey: rawKey
   };
@@ -173,6 +198,15 @@ const MEASURE = () => {
           if (m.outside && m.outside.length) why.push('outside the card: ' + m.outside.join(','));
           if (m.wellOverlaps && m.wellOverlaps.length) why.push('wells OVERLAP: ' + JSON.stringify(m.wellOverlaps));
           if (m.btnOverlaps && m.btnOverlaps.length) why.push('buttons OVERLAP: ' + JSON.stringify(m.btnOverlaps));
+          /* non-vacuity FIRST — otherwise the next line is two empty
+             lists agreeing with each other */
+          if (m.steppers !== 2) why.push('expected 2 size steppers, measured ' + m.steppers
+            + ' — the collision check below is VACUOUS');
+          if (!m.parts || m.parts < 7) why.push('expected the niches, slips, asks and the counting '
+            + 'strip, measured ' + m.parts + ' — the collision check below is VACUOUS');
+          if (m.crossOverlaps && m.crossOverlaps.length) {
+            why.push('⚠⚠ A CONTROL SITS ON THE APPARATUS: ' + JSON.stringify(m.crossOverlaps));
+          }
           if (m.minWell != null && m.minWell < WELL_FLOOR) why.push('well ' + m.minWell.toFixed(1) + 'px < ' + WELL_FLOOR);
           if (m.minTapH != null && m.minTapH < TAP_FLOOR) why.push('control ' + m.minTapH.toFixed(1) + 'px < ' + TAP_FLOOR);
           if (m.rawKey) why.push('RAW I18N KEY leaked into the rendered text');

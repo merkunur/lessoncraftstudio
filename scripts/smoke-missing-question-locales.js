@@ -162,29 +162,60 @@ async function click(p, sel, why) {
       { waitUntil: 'domcontentloaded' });
     await new Promise(r => setTimeout(r, 500));
 
-    /* ⚠ THE REFUSAL FIRST: the tally with nothing hidden. `saidNoTally`
-       lives ONLY behind this branch, and a lazy driver never enters it. */
-    await click(p, '.mqu-b-tally', L);
-    /* one shutter -> ariaLedgeShut + tallyOne */
-    await click(p, '.mqu-b-ledge', L);
-    await click(p, '.mqu-b-tally', L);
-    await click(p, '.mqu-b-tally', L);                    /* put it away  */
-    await click(p, '.mqu-b-ledge', L);                    /* back to rest */
-    /* the other single -> ariaAirShut */
-    await click(p, '.mqu-b-air', L);
-    await click(p, '.mqu-b-tally', L);
-    /* both -> ariaBothShut + tallyMany + hideTally */
-    await click(p, '.mqu-b-ledge', L);
-    await new Promise(r => setTimeout(r, 200));
-    /* the shutters themselves are tap targets too */
-    await click(p, '.mqu-shut-ledge', L);
-    await click(p, '.mqu-shut-air', L);
-    /* the places */
-    await click(p, '.mqu-ledge', L);
-    await click(p, '.mqu-air', L);
-    await click(p, '.mqu-shut-air', L);
-    await click(p, '.mqu-shut-ledge', L);
-    /* the deal -> saidDealt */
+    /* ⚠⚠ REWRITTEN. This drove `.mqu-b-tally`, `.mqu-b-ledge`,
+       `.mqu-b-air`, `.mqu-shut-*`, `.mqu-ledge` and `.mqu-air` — SIX
+       controls the tool no longer has, from the ledge-and-air model this
+       build replaced. The clicks silently hit nothing, and the gate went
+       on reporting eleven green locales over a page it never touched. A
+       selector table is code, and it rots with the code it points at.
+
+       ⚠ THE REFUSALS FIRST. Several strings live ONLY behind a refused
+       move, and a driver that walks the happy path never enters them.
+       Counting with nothing said, re-counting with nothing counted, and
+       telling the niche that IS the question are all refusals. */
+    await click(p, '.mqu-b-count', L);                    /* nothing said yet   */
+    await click(p, '.mqu-b-recount', L);                  /* nothing counted    */
+    /* telling with no relation drawn -> saidNothingLinked, which lives
+       ONLY here; the happy path links first and never sees it */
+    await click(p, '.mqu-b-t0', L);
+
+    /* the setup steppers -> saidTotal, and the two ends of the band */
+    await click(p, '.mqu-b-tup', L);
+    await click(p, '.mqu-b-tdown', L);
+    for (let k = 0; k < 22; k++) await click(p, '.mqu-b-tup', L);   /* -> saidAtCeiling */
+    for (let k = 0; k < 22; k++) await click(p, '.mqu-b-tdown', L); /* -> saidAtFloor   */
+
+    /* the ladder: link -> tell -> tell -> count, then back down it */
+    await click(p, '.mqu-b-link', L);                     /* sayLinked, unlink  */
+    /* telling the asked-for niche must refuse; one of these three IS it */
+    await click(p, '.mqu-b-t0', L);
+    /* ⚠ counting with exactly ONE fact said -> saidStillMissing. The
+       question is not yet determined, and this is the only branch that
+       says so. */
+    await click(p, '.mqu-b-count', L);
+    await click(p, '.mqu-b-t1', L);
+    await click(p, '.mqu-b-t2', L);                       /* sayTold, sayAsk    */
+    await click(p, '.mqu-b-count', L);                    /* sayCount, uncount  */
+    await click(p, '.mqu-b-recount', L);                  /* the re-count       */
+    await new Promise(r => setTimeout(r, 400));
+
+    /* ⚠ the stepper AFTER the telling has started -> saidTellingStarted,
+       which exists nowhere else */
+    await click(p, '.mqu-b-tup', L);
+
+    /* the apparatus is a control too — every act reachable in the column
+       must be reachable on the stand, or the two paths have drifted */
+    await click(p, '.mqu-niche[data-i="0"]', L);
+    await click(p, '.mqu-niche[data-i="1"]', L);
+    await click(p, '.mqu-niche[data-i="2"]', L);
+
+    /* walk it back down: uncount, untell, unlink -> the untell* labels */
+    await click(p, '.mqu-b-count', L);
+    await click(p, '.mqu-b-t0', L);
+    await click(p, '.mqu-b-t1', L);
+    await click(p, '.mqu-b-t2', L);
+    await click(p, '.mqu-b-link', L);
+    /* the deal -> sayDealt */
     await click(p, '.mqu-b-deal', L);
     /* the locked print -> the refusal, with the gate copy on screen */
     await click(p, '.mqu-b-print', L);
@@ -192,14 +223,70 @@ async function click(p, sel, why) {
     await click(p, '.lcs-ctrl', L);
     await new Promise(r => setTimeout(r, 250));
     const chips = await p.$$('.lcs-chip');
-    ok(chips.length >= 2, L + ': the settings drawer offered ' + chips.length + ' chips — the range setting is not rendered');
-    if (chips.length >= 2) {
-      const cb = await chips[chips.length - 1].boundingBox();
+    /* three arrangements + two bands + three question positions */
+    ok(chips.length === 8, L + ': the settings drawer offered ' + chips.length
+      + ' chips, expected 8 (3 arrangements, 2 bands, 3 question positions)');
+    /* ⚠ EVERY chip is pressed, not just the last one. `sayShape` and
+       `sayShapeCleared` live only behind an ARRANGEMENT change, and the
+       niche-2 label `untell2` is unreachable while niche 2 IS the
+       question — which it is by default, because the opening arrangement
+       is `bracket` and its total sits there. Pressing one chip reached
+       none of the three. */
+    for (const c of chips) {
+      const cb = await c.boundingBox();
       if (cb) await p.mouse.click(cb.x + cb.width / 2, cb.y + cb.height / 2);
-      await new Promise(r => setTimeout(r, 300));
+      await new Promise(r => setTimeout(r, 140));
+    }
+    /* finish on a question position that is NOT niche 2, so niche 2 is
+       tellable and can then be untold */
+    if (chips[5]) {
+      const cb5 = await chips[5].boundingBox();
+      if (cb5) await p.mouse.click(cb5.x + cb5.width / 2, cb5.y + cb5.height / 2);
+      await new Promise(r => setTimeout(r, 200));
     }
     const scrim = await p.$('.lcs-drawer-scrim');
     if (scrim) { const sb = await scrim.boundingBox(); if (sb) await p.mouse.click(sb.x + 6, sb.y + 6); }
+    await new Promise(r => setTimeout(r, 250));
+
+    /* ⚠ AND WALK THE LADDER ONCE MORE, now that the question has moved
+       off niche 2. `untellN` is the label a niche's own button wears
+       while that niche is told, so each of the three is only reachable
+       from a state where that niche is BOTH tellable and told — three
+       different settings, not three clicks. */
+    await click(p, '.mqu-b-link', L);
+    await click(p, '.mqu-b-t1', L);
+    await click(p, '.mqu-b-t2', L);
+    await new Promise(r => setTimeout(r, 200));
+    await click(p, '.mqu-b-t2', L);                       /* -> untell2 */
+    await click(p, '.mqu-b-t1', L);
+
+    /* ⚠⚠ `sayShapeCleared` — the message for an arrangement change that
+       COULD NOT keep the facts. Reaching it by dealing and hoping is
+       flaky (roughly half of deals recombine legally, and each locale
+       deals afresh), so it is FORCED instead: step the total down to the
+       floor, where w=3 and p=1. With the question on niche 0 and the
+       parts told under `compare`, niche 1 holds 1 and niche 2 holds 2 —
+       and re-deriving those into `change` demands a total of 1 with a
+       part of −1. That is illegal by construction, in every locale, on
+       every run, so the facts must be cleared and the tool must say so.
+       ⚠ The steppers refuse once anything is linked, so the relation is
+       withdrawn first. */
+    await click(p, '.mqu-b-link', L);                     /* unlink -> stage 0 */
+    for (let k = 0; k < 25; k++) await click(p, '.mqu-b-tdown', L);
+    await click(p, '.mqu-b-link', L);
+    await click(p, '.mqu-b-t1', L);
+    await click(p, '.mqu-b-t2', L);
+    await new Promise(r => setTimeout(r, 200));
+    await click(p, '.lcs-ctrl', L);
+    await new Promise(r => setTimeout(r, 250));
+    const shapeChips = await p.$$('.lcs-chip');
+    if (shapeChips[0]) {
+      const sc = await shapeChips[0].boundingBox();
+      if (sc) await p.mouse.click(sc.x + sc.width / 2, sc.y + sc.height / 2);
+      await new Promise(r => setTimeout(r, 300));
+    }
+    const scrim2 = await p.$('.lcs-drawer-scrim');
+    if (scrim2) { const s2b = await scrim2.boundingBox(); if (s2b) await p.mouse.click(s2b.x + 6, s2b.y + 6); }
     await new Promise(r => setTimeout(r, 250));
 
     const got = await p.evaluate(() => ({
@@ -210,9 +297,15 @@ async function click(p, sel, why) {
       texts: [].slice.call(document.querySelectorAll(
         '.mqu-btn .mqu-label, .mqu-say, .mqu-gate p, .lcs-title, .lcs-instruction, .lcs-field label, .lcs-chip'))
         .map(e => (e.textContent || '').trim()).filter(Boolean),
-      stageAria: (document.querySelector('.mqu-stage') || {}).getAttribute
-        ? document.querySelector('.mqu-stage').getAttribute('aria-label') : '',
-      listAria: document.querySelector('.mqu-list').getAttribute('aria-label') || '',
+      /* ⚠ `.mqu-stage` and `.mqu-list` are gone with the old apparatus.
+         The aria now lives on the STAND (the whole situation) and on the
+         counting STRIP (what has been counted out). Reading a missing
+         node here threw and took the whole run down — which is at least
+         louder than the six clicks that silently hit nothing. */
+      stageAria: (document.querySelector('.mqu-stand') || {}).getAttribute
+        ? document.querySelector('.mqu-stand').getAttribute('aria-label') : '',
+      listAria: (document.querySelector('.mqu-count') || {}).getAttribute
+        ? (document.querySelector('.mqu-count').getAttribute('aria-label') || '') : '',
       lang: document.documentElement.lang
     }));
     ok(got.asked.length > 0, L + ': ⚠⚠ the recorder saw NOTHING — it failed to attach, and every reachability result here is void');
@@ -267,7 +360,7 @@ async function click(p, sel, why) {
       sheetH: (document.querySelector('.mqu-sh-h') || {}).textContent || '',
       sheetHint: (document.querySelector('.mqu-sh-hint') || {}).textContent || '',
       lines: document.querySelectorAll('.mqu-sh-line').length,
-      sheetMarks: document.querySelectorAll('.mqu-sheet .mqu-mark').length
+      sheetMarks: document.querySelectorAll('.mqu-sheet .mqu-sh-niche').length
     }));
     ok(paid.printed === 1, L + ': ⚠ a teacher pressed Print and window.print() was called ' + paid.printed + ' times');
     ok(!paid.gateOn, L + ': ⚠ the paid gate is STILL shown to a teacher — the tool sells them what they own');

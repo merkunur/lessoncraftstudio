@@ -79,10 +79,17 @@ const ALL_TOOLS = ['class-graph', 'number-balance', 'pattern-bench', 'sorting-ho
      whose entire effect in 1067 lines was its own highlight class. */
   'letter-studio', 'number-sieve'];
 
+/* ⚠ TWO SHAPES, because a tool that builds its wrap the other way was
+   not merely unmeasured — it EXITED 2, and an unrunnable gate on a
+   shelf of ~60 tools looks exactly like a gate nobody needed to run.
+   `missing-question` uses `document.createElement` + `.className`,
+   which is ordinary DOM and not a deviation from anything. */
 function prefixOf(tool) {
   const f = path.join(MINI, tool + '.js');
   if (!fs.existsSync(f)) return null;
-  const m = /api\.el\(['"]div['"],\s*['"]([a-z]+)-wrap['"]\)/.exec(fs.readFileSync(f, 'utf8'));
+  const src = fs.readFileSync(f, 'utf8');
+  const m = /api\.el\(['"]div['"],\s*['"]([a-z]+)-wrap['"]\)/.exec(src)
+    || /\.className\s*=\s*['"]([a-z]+)-wrap['"]/.exec(src);
   return m ? m[1] : null;
 }
 

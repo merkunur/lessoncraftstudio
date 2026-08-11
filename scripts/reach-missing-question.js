@@ -139,9 +139,19 @@ const SHELL_CONSUMED = {
   await click('.mqu-b-recount');            /* recount */
   await sleep(600);
 
-  /* the ceiling and the floor */
+  /* the ceiling and the floor.
+     ⚠ FROM A CLEAN FRAME. The size steppers now REFUSE once anything is
+     linked or told, so running this leg on the state the ladder walk
+     left behind produced `saidTellingStarted` every time and
+     `saidAtCeiling` was never reached — the gate correctly reported a
+     dead string that was in fact live, because the drive could not get
+     to it. */
+  await click('.mqu-b-deal');
   for (let i = 0; i < 30; i++) await click('.mqu-b-tup');    /* -> saidAtCeiling */
   for (let i = 0; i < 30; i++) await click('.mqu-b-tdown');  /* -> saidAtFloor */
+  await click('.mqu-b-link');
+  await click('.mqu-b-tup');                                 /* -> saidTellingStarted */
+  await click('.mqu-b-link');
 
   /* the paywall, both states.
      ⚠ `window.print()` opens a modal the headless browser never
@@ -194,7 +204,14 @@ const SHELL_CONSUMED = {
      stand, made every `tell` refuse, and left 0 told — so the switch
      carried trivially and the clearing branch was never entered. The
      drive must READ the state, not assume it. */
+  /* ⚠ START FROM A KNOWN STATE, using a real control. This leg kept
+     inheriting whatever the previous legs had left — a linked stand, a
+     half-told frame — and every "fix" that assumed a state was wrong
+     again one control later. `deal` is the tool's own way of saying
+     "everything unsaid", so press it and proceed from there. */
+  await click('.mqu-b-deal');
   await setShape('change');
+  await click('.mqu-b-deal');
   for (let i = 0; i < 30; i++) await click('.mqu-b-tdown');
   const ensureLinked = async () => {
     const on = await p.evaluate(() => !!window.MissingQuestion.st.linked);
@@ -204,7 +221,15 @@ const SHELL_CONSUMED = {
   };
   await ensureLinked();
   const a1 = await ask();
-  for (const j of [0, 1, 2]) if (j !== a1) await click('.mqu-b-t' + j);
+  /* ⚠ `tell` IS A TOGGLE TOO. A blind click on a niche an earlier leg
+     already told turns it OFF — the same trap as `link`, one control
+     along, and it left the drive at told=1 so the clearing branch was
+     never entered. Read the state before every click. */
+  for (const j of [0, 1, 2]) {
+    if (j === a1) continue;
+    const on = await p.evaluate(i => !!window.MissingQuestion.st.told[i], j);
+    if (!on) await click('.mqu-b-t' + j);
+  }
   const toldNow = await p.evaluate(() => window.MissingQuestion.toldCount(window.MissingQuestion.st));
   if (toldNow !== 2) throw new Error('drive failed to tell both facts (told=' + toldNow + ')');
   await setShape('bracket');

@@ -71,9 +71,15 @@ const POISONS = [
     'if (!this.legal(w, p) || w > n.cap) {\n        n.told = [false, false, false];\n        return n;\n      }',
     'if (false) { n.told = [false, false, false]; }'],
 
-  ['setTotal rewrites a told numeral', 'L4b',
-    "         losing the told facts is the honest outcome. */\n      n.told = [false, false, false];\n      return n;",
-    "         losing the told facts is the honest outcome. */\n      return n;"],
+  /* ⚠ RE-AIMED. This used to poison the `told` wipe inside `setTotal`;
+     that line is gone, because the move now REFUSES once the telling has
+     started rather than destroying and warning. The needle went dead and
+     the harness reported it as a FAULT — which is the whole reason a
+     missing needle is not a skip. The invariant to poison is now the
+     guard itself. */
+  ['setTotal is allowed after the telling has started', 'L4b',
+    'if (this.toldCount(s) > 0 || s.linked) return null;',
+    'if (false) return null;'],
 
   ['the enumerator comes back', 'L5',
     '    _st: function (st) { return st || this.st; },',

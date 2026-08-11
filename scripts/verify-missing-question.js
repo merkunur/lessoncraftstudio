@@ -120,6 +120,13 @@ ok(!T.tasks,
   ok(accepted < checked, 'L1 non-vacuity: everything was accepted — it is not a predicate');
 
   ok(T.legal(5, 2.5) === false, 'L1 a fractional frame was accepted');
+  /* ⚠ (5, 2.5) is refused by the EQUAL-PARTS clause, not the integer
+     guard, so it proved nothing about integrality — the mutation that
+     deletes that guard survived this assertion. These are the cases
+     where only the guard can refuse. */
+  ok(T.legal(5.5, 2) === false, 'L1 ⭐ a fractional TOTAL was accepted');
+  ok(T.legal(7, 2.5) === false, 'L1 ⭐ a fractional PART was accepted');
+  ok(T.legal(6.25, 1.5) === false, 'L1 both fractional and accepted');
   ok(T.legal(4, 2) === false, 'L1 ⭐ equal parts accepted — every question about that frame has the same answer');
 })();
 
@@ -326,25 +333,45 @@ ok(!T.tasks,
      necessarily changes at least one niche's value, so it must either
      leave every told slip alone or clear them — never keep a slip told
      while its number changes underneath. */
-  let m = 0, tRewrote = 0;
+  /* ⚠⚠ THE INVARIANT GOT STRONGER, SO THIS LAW DID. `setTotal` used to
+     CLEAR `told`, and this walked linked/told states to prove it never
+     rewrote one. It now REFUSES outright once the telling has started —
+     prevention instead of warning, which is what let the two longest
+     labels in the file be deleted. So the law is two-sided now: where it
+     is allowed it must never rewrite, and where telling has begun it
+     must not be allowed at all.
+     ⚠ The gate caught its own staleness by walking ZERO states. That is
+     the non-vacuity check earning its place — without it this would have
+     reported PASS on a law it was no longer testing. */
+  let m = 0, tRewrote = 0, allowedWhenStarted = 0;
   for (const sh of T.SHAPES) {
     for (let w = G.FLOOR + 1; w <= 14; w++) {
       for (let p = 1; p < w; p++) {
         if (!T.legal(w, p)) continue;
         for (const d of [1, -1]) {
-          const s = { shape: sh, w, p, ask: T.SUM_AT[sh], linked: true, told: [true, true, true], counted: false };
-          s.told[s.ask] = false;
-          const before = T.values(s);
-          const after = T.setTotal(s, w + d, 'twenty');
-          if (!after) continue;
-          m++;
-          const av = T.values(after);
-          const kept = [0, 1, 2].every(i => (i === after.ask) || !after.told[i] || av[i] === before[i]);
-          if (!kept) tRewrote++;
+          /* (a) the SETUP state — nothing linked, nothing told */
+          const clean = { shape: sh, w, p, cap: 20, ask: T.SUM_AT[sh], linked: false, told: [false, false, false], counted: false };
+          const before = T.values(clean);
+          const after = T.setTotal(clean, w + d, 'twenty');
+          if (after) {
+            m++;
+            const av = T.values(after);
+            const kept = [0, 1, 2].every(i => !after.told[i] || av[i] === before[i]);
+            if (!kept) tRewrote++;
+            ok(T.legal(after.w, after.p), 'L4b setTotal produced an illegal frame ' + after.w + '/' + after.p);
+          }
+          /* (b) once anything is linked or told it must REFUSE */
+          const linked = { shape: sh, w, p, cap: 20, ask: T.SUM_AT[sh], linked: true, told: [false, false, false], counted: false };
+          if (T.setTotal(linked, w + d, 'twenty') !== null) allowedWhenStarted++;
+          const told = { shape: sh, w, p, cap: 20, ask: T.SUM_AT[sh], linked: true, told: [true, true, true], counted: false };
+          told.told[told.ask] = false;
+          if (T.setTotal(told, w + d, 'twenty') !== null) allowedWhenStarted++;
         }
       }
     }
   }
+  ok(allowedWhenStarted === 0,
+    'L4b ⭐⭐ setTotal was ALLOWED on ' + allowedWhenStarted + ' states where the telling had already begun — it would wipe the lesson, which is exactly what refusing replaced');
   /* ⚠⚠ THE BAND MUST KEEP GOVERNING ACROSS AN ARRANGEMENT CHANGE.
      `legal()` checks the floor, integrality, positivity and equal parts
      — it never consulted the CAP, and `setShape` re-derives `w` from the
@@ -382,7 +409,7 @@ ok(!T.tasks,
   ok(esc === 0,
     'L4b ⭐⭐ ' + esc + ' arrangement changes escaped the configured band — the class would count the wrong number of wells while the tool announced a different total');
 
-  ok(m > 60, 'L4b non-vacuity: only ' + m + ' total changes walked');
+  ok(m > 60, 'L4b non-vacuity: only ' + m + ' setup-state total changes walked');
   ok(tRewrote === 0,
     'L4b ⭐⭐ setTotal REWROTE a told numeral on ' + tRewrote + ' of ' + m + ' changes — the same defect as setShape, in the other move');
 
@@ -522,6 +549,193 @@ ok(!T.tasks,
     }
   }
   ok(n >= 500, 'L8 non-vacuity: only ' + n + ' deals walked');
+})();
+
+
+/* ================================================================== */
+/* L9 — THE MOVE CONTRACTS.
+   ⚠⚠ EVERY ASSERTION HERE WAS BOUGHT BY A SURVIVING MUTATION. The
+   rewritten `mutate-` harness ran 50 mutations against the gate as it
+   stood and TWENTY SURVIVED — the gate proved `legal`, `values`, the
+   invariant and the ladder thoroughly, and never once checked what a
+   move CLEARS, what it REFUSES as a no-op, or whether it leaves the
+   state it was handed alone. Laws are cheap to write about the
+   interesting function and easy to forget about the boring ones.
+
+   ⚠ Six of the twenty were EQUIVALENT MUTANTS and are recorded rather
+   than chased — an equivalent mutant is a fact about the code, not a
+   gap in the gate, and hunting one is how a suite acquires assertions
+   that cannot fail:
+     · `legal`'s floor clause is unreachable given FLOOR=3, because the
+       equal-parts clause already refuses every w<3 (w=2 has only p=1,
+       and 1 === 2-1). It is defensive, not load-bearing.
+     · `told[ask]` is false in every reachable state (`tell` refuses the
+       asked-for slot, `setAsk` clears it), so `toldCount`'s and
+       `setShape`'s guards against it cannot be observed.
+     · `setTotal`'s post-loop legality check cannot fire — for any
+       w >= 3 the descent to p=1 is always legal.
+     · `setTotal`'s `p = Math.min(s.p, w-1)` is a shortcut; the descent
+       loop reaches the same p without it.
+     · `setTotal`'s `counted = false` is dead, because the move now
+       refuses outright once anything is linked or told — the header
+       says so, and this proves it.
+   ================================================================== */
+(function () {
+  const S = () => T.newState('bracket', 'ten', 3);
+  const snap = s => JSON.stringify(s);
+
+  /* --- (a) a no-op is a REFUSAL, not a silent rewrite -------------- */
+  const s0 = S();
+  eq(T.link(s0, false), null, 'L9 link(false) on an unlinked state did not refuse');
+  eq(T.setShape(s0, s0.shape), null, 'L9 setShape to the current arrangement did not refuse');
+  eq(T.setAsk(s0, s0.ask), null, 'L9 setAsk to the current question did not refuse');
+  eq(T.count(s0, false), null, 'L9 count(false) on an uncounted state did not refuse');
+
+  const sL = T.link(s0, true);
+  ok(!!sL, 'L9 could not link a fresh state');
+  eq(T.link(sL, true), null, 'L9 link(true) on a linked state did not refuse');
+  const tellable = [0, 1, 2].filter(i => i !== sL.ask);
+  eq(T.tell(sL, tellable[0], false), null, 'L9 untelling an untold slot did not refuse');
+
+  /* a slot that does not exist is not a slot. Without this, dropping the
+     index guard leaves `told[5] = true` sitting on the state — harmless
+     today only because `toldCount` happens to loop i<3, which is a
+     coincidence and not a contract. */
+  [3, 5, -1, 1.5, null, undefined, '1'].forEach(i =>
+    eq(T.tell(sL, i, true), null, 'L9 ⭐ tell accepted a slot that does not exist: ' + String(i)));
+  [3, -1, 1.5].forEach(i =>
+    eq(T.setAsk(sL, i), null, 'L9 setAsk accepted a slot that does not exist: ' + String(i)));
+
+  /* --- (b) count is refused until BOTH facts are said -------------- */
+  eq(T.count(sL, true), null, 'L9 ⭐ the answer could be counted with nothing said');
+  const sT1 = T.tell(sL, tellable[0], true);
+  ok(!!sT1, 'L9 could not tell the first slot');
+  eq(T.count(sT1, true), null,
+    'L9 ⭐ the answer could be counted after ONE fact — the tool would be answering '
+    + 'a question that is not yet determined');
+  const sT2 = T.tell(sT1, tellable[1], true);
+  ok(!!sT2, 'L9 could not tell the second slot');
+  const sC = T.count(sT2, true);
+  ok(!!sC && sC.counted === true, 'L9 could not count once both facts were said');
+  eq(T.count(sC, true), null, 'L9 counting an already-counted state did not refuse');
+
+  /* --- (c) taking a fact back takes the count with it -------------- */
+  const sUntell = T.tell(sC, tellable[0], false);
+  ok(!!sUntell, 'L9 could not take a fact back');
+  eq(sUntell.counted, false,
+    'L9 ⭐ a fact was taken back and the COUNT SURVIVED — the class is left looking at '
+    + 'an answer to a question that is no longer determined');
+
+  const sUnlink = T.link(sC, false);
+  ok(!!sUnlink, 'L9 could not unlink a counted state');
+  eq(sUnlink.counted, false, 'L9 the relation was withdrawn and the count survived');
+  ok(sUnlink.told.every(x => !x), 'L9 the relation was withdrawn and the facts survived');
+
+  /* --- (d) moving the question clears what it lands on ------------- */
+  const moved = T.setAsk(sC, tellable[0]);
+  ok(!!moved, 'L9 could not move the question onto a told slot');
+  eq(moved.told[tellable[0]], false,
+    'L9 ⭐ THE NEW QUESTION ARRIVED ALREADY ANSWERED — its slot kept the numeral '
+    + 'the class had already been shown');
+  eq(moved.counted, false, 'L9 moving the question kept the old count');
+
+  /* --- (e) `carried` must not claim what it did not keep ----------- */
+  ok(T.carried(sT2, sT2) === true, 'L9 poison: carried() denied an identity pair');
+  ok(T.carried(sT2, sL) === false,
+    'L9 ⭐ carried() claimed the facts survived a transition that DROPPED both — '
+    + 'the say-line would announce "the same two things" over a frame where it is false');
+  ok(T.carried(sT2, sT1) === false, 'L9 carried() claimed two facts survived where one did');
+
+  /* --- (f) setTotal is bounded at BOTH ends ------------------------ */
+  eq(T.setTotal(s0, G.FLOOR - 1, 'ten'), null, 'L9 setTotal fell through the floor');
+  eq(T.setTotal(s0, 0, 'ten'), null, 'L9 setTotal accepted zero');
+  eq(T.setTotal(s0, -4, 'ten'), null, 'L9 setTotal accepted a negative total');
+  ok(!!T.setTotal(s0, G.FLOOR + 1, 'ten'),
+    'L9 poison: setTotal refused a total plainly inside the band');
+
+  /* --- (g) the band's ceiling reaches the state, and stays there --- */
+  ['ten', 'twenty'].forEach(band => {
+    const s = T.newState('bracket', band, 5);
+    eq(s.cap, T.cap(band),
+      'L9 ⭐ a fresh ' + band + ' state carries cap ' + s.cap + ', not the band\'s '
+      + T.cap(band) + ' — every later move would read the wrong ceiling');
+    const after = T.link(s, true);
+    eq(after.cap, s.cap,
+      'L9 ⭐ the ceiling was LOST crossing a move (' + s.cap + ' -> ' + after.cap
+      + ') — the band silently stops governing');
+    const after2 = T.tell(after, [0, 1, 2].filter(i => i !== after.ask)[0], true);
+    eq(after2.cap, s.cap, 'L9 the ceiling was lost crossing a second move');
+  });
+
+  /* --- (h) ⭐⭐ AN ACCEPTED MOVE MUST NOT TOUCH WHAT IT WAS HANDED.
+     The gate already proved this for REFUSED moves. It never proved it
+     for accepted ones, and a single aliased array in `_copy` — `told:
+     s.told` instead of a fresh triple — makes every move in the file
+     mutate its caller's state while returning a correct-looking new
+     one. Nothing else in the suite could see it. ---------------------- */
+  let walked = 0;
+  ['change', 'bracket', 'compare'].forEach(shape => {
+    ['ten', 'twenty'].forEach(band => {
+      for (let pick = 0; pick < 6; pick++) {
+        const base = T.newState(shape, band, pick);
+        const others = [0, 1, 2].filter(i => i !== base.ask);
+        const moves = [
+          ['link', st => T.link(st, true)],
+          ['tell', st => T.tell(T.link(st, true), others[0], true)],
+          ['count', st => {
+            const a = T.tell(T.tell(T.link(st, true), others[0], true), others[1], true);
+            return a && T.count(a, true);
+          }],
+          ['setAsk', st => T.setAsk(st, others[0])],
+          ['setShape', st => T.setShape(st, shape === 'bracket' ? 'change' : 'bracket')],
+          ['setTotal', st => T.setTotal(st, st.w + 1, band)],
+          ['deal', st => T.deal(st, shape, band, pick + 1)]
+        ];
+        moves.forEach(([name, f]) => {
+          const before = snap(base);
+          const out = f(base);
+          walked++;
+          ok(snap(base) === before,
+            'L9 ⭐⭐ ' + name + ' MUTATED THE STATE IT WAS GIVEN (' + shape + '/' + band
+            + '/' + pick + ') — ' + before + ' became ' + snap(base));
+          if (out) {
+            ok(out !== base, 'L9 ' + name + ' returned the same object it was handed');
+            ok(out.told !== base.told,
+              'L9 ⭐ ' + name + ' returned a state SHARING the told array with its input');
+          }
+        });
+      }
+    });
+  });
+  ok(walked >= 250, 'L9 non-vacuity: only ' + walked + ' accepted-move immutability walks');
+
+  /* --- (i) stageOf over states the moves cannot reach --------------
+     ⚠ `stageOf` returns null for "off the rehearsed path", and that
+     branch exists precisely FOR states the ladder cannot produce. So it
+     is driven over constructed combinations, not only reachable ones —
+     otherwise `if (s.counted) return 4` is indistinguishable from the
+     real thing, which is exactly the mutation that survived. */
+  const base = T.newState('bracket', 'ten', 3);
+  const others = [0, 1, 2].filter(i => i !== base.ask);
+  let combos = 0;
+  [false, true].forEach(linked => {
+    [0, 1, 2].forEach(nTold => {
+      [false, true].forEach(counted => {
+        const s = JSON.parse(JSON.stringify(base));
+        s.linked = linked; s.counted = counted;
+        s.told = [false, false, false];
+        for (let k = 0; k < nTold; k++) s.told[others[k]] = true;
+        const want = counted ? ((linked && nTold === 2) ? 4 : null)
+          : (!linked ? (nTold === 0 ? 0 : null)
+            : (nTold === 0 ? 1 : nTold === 1 ? 2 : 3));
+        combos++;
+        eq(T.stageOf(s), want,
+          'L9 stageOf(linked=' + linked + ', told=' + nTold + ', counted=' + counted
+          + ') = ' + T.stageOf(s) + ', expected ' + want);
+      });
+    });
+  });
+  eq(combos, 12, 'L9 non-vacuity: the stage grid did not cover the 12 combinations it claims');
 })();
 
 /* ================================================================== */

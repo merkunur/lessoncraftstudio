@@ -436,7 +436,7 @@
         fi: 'Näytä, miten ne kuuluvat yhteen'
       },
       unlink:  {
-        en: 'Clear the drawing and every number told',
+        en: 'Take it all back',
         de: 'Von vorn anfangen – alles Verratene fällt weg',
         fr: 'Tout reprendre — cela efface tous les nombres dits',
         es: 'Borrar el dibujo y los números dichos',
@@ -658,7 +658,7 @@
          that behaviour and had to acquire the label with it, exactly as
          `unlink` and `deal` did */
       totalUp:   {
-        en: 'One more in the largest amount — clears what was told',
+        en: 'A bigger number to work with',
         de: 'Größte Menge: eins mehr – alles Verratene fällt weg',
         fr: 'Un de plus dans le plus grand nombre — efface ce qui a été dit',
         es: 'El número mayor: uno más — se borra lo dicho',
@@ -671,7 +671,7 @@
         fi: 'Suurin luku: yksi lisää — luvut häviävät'
       },
       totalDown: {
-        en: 'One fewer in the largest amount — clears what was told',
+        en: 'A smaller number to work with',
         de: 'Größte Menge: eins weniger – alles Verratene fällt weg',
         fr: 'Un de moins dans le plus grand nombre — efface ce qui a été dit',
         es: 'El número mayor: uno menos — se borra lo dicho',
@@ -685,6 +685,44 @@
       },
 
       /* ---- the say line ---- */
+      /* ⚠⚠ THE STEPPERS WERE A CONSEQUENCE-FREE CONTROL, AND NO GATE ON
+         THE SHELF CAN SEE ONE. `audit-tool-control-liveness` asks "did
+         the DOM change?", and a stepper that only re-runs `_off()` on
+         itself changes the DOM — so it scores live. It was found by
+         writing a gate that asks what each control changes ELSEWHERE.
+
+         The bug: at stage zero every slip is empty by law (the answer
+         must not exist in the DOM), the lattice is sized from the BAND
+         and not the value, and `_sayForStage()` returns the same fixed
+         `sayDealt` sentence either way. So a teacher pressed `+` at the
+         front of a room and the screen did not move.
+
+         The fix is this string, and it is deliberately the say-line
+         rather than a numeral parked on the stand: a persistent readout
+         would sit on screen through the whole ladder, and when the
+         asked-for niche IS the total (`SUM_AT[shape] === ask`) that is
+         the answer, printed. Spoken once during setup it is the
+         teacher's own voice, in the channel the tool already speaks in,
+         and it reaches a screen-reader user — who was told nothing at
+         all before. ⚠ The honest limit, on record: a teacher who wants
+         the total itself to be the unknown should press DEAL rather than
+         step to it, because stepping names it out loud. */
+      saidTotal: {
+        en: 'Working with {n}.',
+        de: 'Wir arbeiten mit {n}.',
+        fr: 'On travaille avec {n}.',
+        es: 'Trabajamos con {n}.',
+        pt: 'Trabalhamos com {n}.',
+        it: 'Lavoriamo con {n}.',
+        nl: 'We werken met {n}.',
+        sv: 'Vi jobbar med {n}.',
+        da: 'Vi arbejder med {n}.',
+        no: 'Vi jobber med {n}.',
+        /* ⚠ the adessive rides on the NOUN (`luvulla`), so `{n}` stays a
+           bare nominative cardinal and never has to inflect */
+        fi: 'Työskennellään luvulla {n}.'
+      },
+
       sayDealt:  {
         en: 'Three places and no numbers. Nobody has asked anything yet.',
         de: 'Drei leere Nischen, keine einzige Zahl. Gefragt hat noch niemand etwas.',
@@ -884,6 +922,15 @@
         no: 'Så langt går dette tallområdet.',
         fi: 'Pidemmälle tämä lukualue ei yllä.'
       },
+      /* ⚠ THE REFUSAL THAT REPLACED A WARNING LABEL. Setting up the
+         numbers is a before-the-lesson move, so once the telling has
+         begun it simply will not go, and says why. Preventing the
+         destruction beat warning about it: the warning label ran to 53
+         characters and was the single biggest contributor to a control
+         column that MEASURED 51% of the card against the apparatus's
+         27%. A front-of-room instrument whose apparatus is the smaller
+         half is a form, not an instrument. */
+      saidTellingStarted: { en: 'The telling has already started. Take it all back first, or start a new situation.' },
       /* ⚠ NOT "every question" — that overclaims in front of teachers.
          `legal()` rejects the frame because the two PARTS coincide; a
          question about the whole still has its own answer. */
@@ -1226,10 +1273,19 @@
         { value: 'compare', labelKey: 'shapeCompare' } ] },
       { key: 'band', type: 'choice', labelKey: 'setBand', options: [
         { value: 'ten', labelKey: 'bandTen' },
-        { value: 'twenty', labelKey: 'bandTwenty' } ] }
+        { value: 'twenty', labelKey: 'bandTwenty' } ] },
+      /* ⚠ WHICH NICHE IS THE QUESTION IS A SETUP DECISION, so it belongs
+         where a teacher sets up rather than in the column they drive
+         with the class watching. It also gains something by being a
+         setting: it now PERSISTS across a new deal, so "today we are
+         solving for the whole" survives pressing the deal button. */
+      { key: 'ask', type: 'choice', labelKey: 'askAt', options: [
+        { value: '0', labelKey: 'askAt0' },
+        { value: '1', labelKey: 'askAt1' },
+        { value: '2', labelKey: 'askAt2' } ] }
     ],
 
-    defaults: { shape: 'bracket', band: 'ten' },
+    defaults: { shape: 'bracket', band: 'ten', ask: '2' },
 
     premium: false,
 
@@ -1464,8 +1520,23 @@
        forget. `band` is still accepted so existing call sites read
        naturally, but the state's own cap is authoritative — a move that
        can be told the wrong ceiling is a move with no ceiling. */
+    /* ⚠⚠ IT REFUSES ONCE THE TELLING HAS STARTED, AND THAT REPLACED A
+       WARNING LABEL. This move used to clear every told fact, so the
+       panels rightly demanded the button say so — and the honest label
+       ("One fewer in the largest amount — clears what was told") was 53
+       characters, wrapped to two lines, and was the single biggest
+       contributor to a control column that MEASURED 51% of the card
+       against the apparatus's 27%. A front-of-room instrument whose
+       apparatus is the smaller half is a form.
+
+       Preventing the destruction is better than warning about it: this
+       is a SETUP control, used before anything is said, so after the
+       first fact it simply refuses and says why. The label then needs
+       no warning at all, and the two longest strings in the file are
+       gone. */
     setTotal: function (st, w, band) {
       var s = this._st(st);
+      if (this.toldCount(s) > 0 || s.linked) return null;
       var cap = (s.cap != null) ? s.cap : this.cap(band);
       if (w > cap) return null;
       if (w < GEO.FLOOR) return null;
@@ -1475,14 +1546,14 @@
       if (!this.legal(w, p)) return null;
       var n = this._copy(s);
       n.w = w; n.p = p; n.counted = false;
-      /* ⚠⚠ THE SAME DISEASE `setShape` HAD. Changing the total
-         necessarily changes at least one niche's value, so carrying
-         `told` across would rewrite a slip the class has already been
-         shown — measured by the French panel: `setTotal(8)` turned a
-         told 4 into a told 5 under the class's eyes. This is a SETUP
-         control, used before anything is said; if it is reached later,
-         losing the told facts is the honest outcome. */
-      n.told = [false, false, false];
+      /* ⚠ NOTHING TO CLEAR. This used to wipe `told`, because changing
+         the total necessarily changes at least one niche's value and
+         carrying the flags across would rewrite a slip the class had
+         already been shown (measured by the French panel: `setTotal(8)`
+         turned a told 4 into a told 5). The guard above now refuses the
+         move entirely once anything is told, so `told` is already
+         all-false here and the wipe was a line that could not fire.
+         The L4b gate still proves no told numeral is ever rewritten. */
       return n;
     },
 
@@ -1532,6 +1603,11 @@
        `render()` after `onSettings`, and `_build` replaces the say-line
        node, so anything said now is wiped a moment later. */
     onSettings: function (key, val) {
+      if (key === 'ask') {
+        var a = this.setAsk(null, Number(val));
+        if (a) { this.st = a; this._pendingSay = 'sayDealt'; }
+        return;
+      }
       if (key === 'shape') {
         /* ⚠ A NO-OP PRESS MUST BE A NO-OP. `setShape` returns null when
            the arrangement is unchanged, and this used to fall straight
@@ -1610,6 +1686,16 @@
       this._card = card;
       wrap.appendChild(card);
 
+      /* ⚠ DECLARED BEFORE THE APPARATUS, because the size steppers now
+         live ON the stand and are registered here like any other
+         control. Leaving this at its old place — just above the control
+         column — meant `this._btn` was undefined when the stand was
+         built, and the tool threw on the first line of the first paint
+         and rendered NOTHING. That is the recorded `api.root` failure
+         mode in a new dress, and the density measurement caught it only
+         because it reported 0 buttons rather than "clean". */
+      this._btn = {};
+
       /* ---- THE STAND ---- */
       var stand = document.createElement('div');
       stand.className = 'mqu-stand';
@@ -1625,6 +1711,34 @@
       this._shoulder.className = 'mqu-shoulder';
       this._shoulder.setAttribute('aria-hidden', 'true');
       stand.appendChild(this._shoulder);
+
+      /* ⚠ THE SIZE STEPPERS LIVE ON THE STAND, not in the column. They
+         change the quantities, so they belong beside the quantities —
+         and icon-only they cost two 44px squares instead of two
+         two-line sentences. The full sentence survives as the
+         accessible name and the tooltip, so nothing is lost to a
+         screen-reader user or to a teacher who hovers. */
+      var size = document.createElement('div');
+      size.className = 'mqu-size';
+      this._btn.totalDown = this._mkIconBtn(size, 'mqu-b-tdown', 'totalDown', this._icoTotal(-1));
+      this._btn.totalUp = this._mkIconBtn(size, 'mqu-b-tup', 'totalUp', this._icoTotal(1));
+      /* ⚠⚠ NOT ON THE STAND. These were `position:absolute; top/right`
+         inside it, which parked them permanently ON TOP OF A NICHE —
+         MEASURED at 1,411px² and 1,028px² of overlap at 704, and worse
+         at every narrower width, in every arrangement. On a phone the
+         two buttons closed around the niche's own numeral so the slip
+         read `− 1 +`.
+
+         ⚠ It survived because the check written to catch it was VACUOUS:
+         it selected `.mqu-size .mqu-btn`, and these are built by
+         `_mkIconBtn`, whose class is `mqu-icon`. Two empty NodeLists
+         compared equal and the run reported "no overlap at any of the
+         six widths". Assert the collection is non-empty BEFORE asserting
+         anything about its contents.
+
+         The fix is structural rather than a nudged coordinate: in normal
+         flow, directly beneath the stand, two boxes CANNOT overlap. */
+      card.appendChild(size);
 
       /* the linkage: ONE svg, three groups, LITERAL coordinates.
          s=100, sh=60, hop=30, gap=11 -> 322 x 150.
@@ -1714,23 +1828,29 @@
       card.appendChild(col);
 
       this._g = {};
-      this._btn = {};
+      /* ⚠ `this._btn` is declared ABOVE the apparatus now — re-declaring
+         it here would silently drop the two size steppers off the
+         registry, so `_paint` could never gate them and `_refuse` could
+         never shake them. A second initialisation of a registry is a
+         quiet unregister, and nothing would have thrown. */
 
+      /* ⚠⚠ THE SETUP GROUP LOST FIVE CONTROLS, AND THAT IS THE SINGLE
+         BIGGEST CHANGE IN THIS PASS. MEASURED on the shipped build at
+         704px: the apparatus was 27% of the card and the control column
+         was 51% — thirteen buttons, average label 25 characters, three
+         of them wrapping to two lines. A front-of-room instrument whose
+         apparatus is the smaller half is a form, not an instrument.
+
+         So the two things that are BEFORE-the-lesson concerns left the
+         column: the three ask-pickers became a `choice` in the settings
+         drawer (where `shape` and `band` already live and where a
+         teacher sets up), and the total steppers moved ONTO THE STAND —
+         icon-only, beside the quantities they change, with the full
+         sentence as their accessible name rather than as 53 visible
+         characters. What is left in the column is only what a teacher
+         presses WITH the class in front of them. */
       this._g.setup = this._mkGroup(col, 'mqu-g-setup', 'legSetup');
-      this._btn.totalDown = this._mkBtn(this._g.setup, 'mqu-b-tdown', 'totalDown', this._icoTotal(-1));
-      this._btn.totalUp = this._mkBtn(this._g.setup, 'mqu-b-tup', 'totalUp', this._icoTotal(1));
       this._btn.deal = this._mkBtn(this._g.setup, 'mqu-b-deal', 'deal', this._icoDeal());
-      /* ⚠ `askAt` WAS AUTHORED AND RENDERED NOWHERE. Only `askAt0/1/2`
-         were ever read, so the bare key was the `hintMark` class a second
-         time in one file — eleven panels would have translated a string
-         with no state behind it. It is the heading these three buttons
-         always needed. */
-      var askLeg = document.createElement('span');
-      askLeg.className = 'mqu-sub';
-      askLeg.textContent = this.api.t('askAt');
-      this._g.setup.appendChild(askLeg);
-      this._askBtn = [];
-      for (i = 0; i < 3; i++) this._mkAskBtn(this._g.setup, i);
 
       this._g.tell = this._mkGroup(col, 'mqu-g-tell', 'legTell');
       this._btn.link = this._mkBtn(this._g.tell, 'mqu-b-link', 'link', this._icoLink());
@@ -1866,19 +1986,21 @@
       return b;
     },
 
-    _mkAskBtn: function (parent, i) {
-      var self = this;
+    /* ⚠ ICON-ONLY, AND THE LABEL IS NOT LOST — it becomes the accessible
+       name and the tooltip. A control whose whole meaning is "one more"
+       does not need a sentence on its face at every viewport for the
+       rest of the lesson; a control that DESTROYS something does, which
+       is why `setTotal` now refuses instead of destroying. */
+    _mkIconBtn: function (parent, cls, key, icon) {
       var b = document.createElement('button');
       b.type = 'button';
-      b.className = 'mqu-btn mqu-b-ask mqu-b-ask' + i;
-      b.appendChild(this._stamp(i));
-      var t = document.createElement('span');
-      t.className = 'mqu-label';
-      t.textContent = this.api.t('askAt' + i);
-      b.appendChild(t);
-      b.addEventListener('click', function () { self._setAsk(i); });
+      b.className = 'mqu-icon ' + cls;
+      b.appendChild(icon);
+      var name = this.api.t(key);
+      b.setAttribute('aria-label', name);
+      b.title = name;
+      b._key = key;
       parent.appendChild(b);
-      this._askBtn[i] = b;
       return b;
     },
 
@@ -2013,15 +2135,11 @@
       }, this._dur(GEO.T_OUT) + 20);
     },
 
-    _setAsk: function (i) {
-      var n = this.setAsk(null, i);
-      if (!n) { this._refuse('ask' + i); return; }
-      this._dir = 'fwd';
-      this.st = n;
-      this._snd(GEO.SND_ASK);
-      this._paint();
-      this._sayForStage();
-    },
+    /* ⚠ `_setAsk` IS GONE WITH THE THREE COLUMN BUTTONS IT SERVED. The
+       choice is now a settings `choice` and arrives through
+       `onSettings`, which calls the model move directly. A handler for
+       controls that no longer exist is the dead-code class this file's
+       own header condemns. */
 
     _total: function (d) {
       var want = this.st.w + d;
@@ -2032,8 +2150,9 @@
            refusal while stepping up was reported as "that is as far as
            this number range goes" even when the real cause was
            something else. Found by the Swedish panel. */
-        var why = (want > this.st.cap) ? 'saidAtCeiling'
-          : (want < GEO.FLOOR) ? 'saidAtFloor' : 'saidAtFloor';
+        var why = (this.toldCount(this.st) > 0 || this.st.linked) ? 'saidTellingStarted'
+          : (want > this.st.cap) ? 'saidAtCeiling'
+            : 'saidAtFloor';
         this._refuse(d > 0 ? 'totalUp' : 'totalDown', why);
         return;
       }
@@ -2041,11 +2160,13 @@
       this.st = n;
       this._snd(GEO.SND_TELL);
       this._paint();
-      /* ⚠ IT USED TO BE THE ONE ACT WITH NO VOICE. `setTotal` can drop
-         the ladder from stage 4 back to 0 — clearing the told facts and
-         taking the counters off — and a screen-reader user was told
-         nothing at all about it. */
-      this._sayForStage();
+      /* ⚠ IT USED TO BE THE ONE ACT WITH NO VOICE, and then it had the
+         WRONG voice: `_sayForStage()` here is always stage 0, so it read
+         back the same fixed sentence on every press and the control was
+         consequence-free on screen. `setTotal` refuses once the telling
+         has started, so a successful step is stage 0 BY CONSTRUCTION —
+         the number is safe to name here and nowhere else. */
+      this._say(this._fmt(this.api.t('saidTotal'), { n: n.w }));
     },
 
     /* ⚠ A DEAL THAT REPEATS THE FRAME IS A CONSEQUENCE-FREE CONTROL.
@@ -2061,6 +2182,15 @@
         next = this.deal(null, this.api.settings.shape, this.api.settings.band);
         if (!prev || next.w !== prev.w || next.p !== prev.p) break;
       }
+      /* ⚠ THE CHOSEN QUESTION SURVIVES A DEAL. `newState` defaults `ask`
+         to the family's third quantity, which silently undid a teacher's
+         setup — a defect three panels flagged about the old `deal`
+         label. Now that the choice is a SETTING, re-apply it. */
+      var want = Number(this.api.settings.ask);
+      if (want === 0 || want === 1 || want === 2) {
+        var withAsk = this.setAsk(next, want);
+        if (withAsk) next = withAsk;
+      }
       this.st = next;
       this._dir = 'fwd';
       this._snd(GEO.SND_DEAL);
@@ -2072,8 +2202,7 @@
        actually be able to animate — the shipped build declared a
        transform with no transition anywhere in the file. */
     _refuse: function (why, sayKey) {
-      var self = this, t = this._pressed || this._btn[why] || (why && why.indexOf('ask') === 0
-        ? this._askBtn[Number(why.slice(3))] : null);
+      var self = this, t = this._pressed || this._btn[why] || null;
       this._pressed = null;
       this._snd(GEO.SND_REFUSE, true);
       if (t) {
@@ -2162,21 +2291,14 @@
         this._off(b, !this.tell(null, i));
         b.querySelector('.mqu-label').textContent = s.told[i] ? t('untell' + i) : t('tell' + i);
         b.setAttribute('aria-pressed', String(!!s.told[i]));
-        /* ⚠⚠ THE CHOSEN ONE MUST NOT BE THE FADED ONE. `setAsk` returns
-           null for the niche that is ALREADY the question, so gating on
-           the move dimmed the ACTIVE choice to .42 while `aria-pressed`
-           painted it solid teal — the same control shouting and
-           whispering at once, and the recorded "the selected tab is not
-           a control" defect. Between stages 1 and 2 these three buttons
-           are the ONLY legible record of which niche is the question,
-           so the active one has to be the readable one. */
-        this._off(this._askBtn[i], s.ask !== i && !this.setAsk(null, i));
-        this._askBtn[i].setAttribute('aria-pressed', String(s.ask === i));
       }
       this._off(this._btn.count, !this.count(null));
       this._btn.count.querySelector('.mqu-label').textContent = s.counted ? t('uncount') : t('count');
       this._btn.count.setAttribute('aria-pressed', String(!!s.counted));
       this._off(this._btn.recount, !s.counted);
+      /* ⚠ still gated on the MOVE, not on a flag — they now refuse once
+         the telling has started, and a control must never look live
+         while the model refuses it */
       this._off(this._btn.totalUp, !this.setTotal(null, s.w + 1, api.settings.band));
       this._off(this._btn.totalDown, !this.setTotal(null, s.w - 1, api.settings.band));
 
@@ -2463,7 +2585,15 @@
         'border-radius:clamp(14px,2.2cqi,22px);',
         'background-color:#F6EAD3;border:1.5px solid #E7DCC8;',
         'box-shadow:0 1px 0 #E7DCC8,0 10px 24px rgba(20,107,94,.10);',
-        '--mqu-s:clamp(74px,23cqi,204px);',
+        /* ⚠⚠ RAISED FROM 23cqi. `--mqu-s` being the ONLY clamp is what
+           makes it the one legitimate size knob — every other length is
+           a fixed ratio of it, so the whole grid follows. MEASURED: at
+           23cqi the apparatus occupied ~78cqi of the card and was 27% of
+           its height against a control column at 51%. Three columns at
+           27cqi = 81, two gaps at 0.11×27 ≈ 5.9, padding 2×0.09×27 ≈ 4.9
+           → ~92cqi, inside 100 with margin. +17% linear, +37% area.
+           ⚠ The ceiling is about 29cqi; 27 keeps room. */
+        '--mqu-s:clamp(84px,27cqi,232px);',
         '--mqu-sh:calc(var(--mqu-s) * 0.6);',
         '--mqu-hop:calc(var(--mqu-sh) * 0.5);',
         '--mqu-gap:calc(var(--mqu-s) * 0.11);',
@@ -2482,10 +2612,33 @@
         '.mqu-stand{position:relative;display:grid;justify-content:center;',
         'grid-template-columns:repeat(3,var(--mqu-s));',
         'grid-template-rows:var(--mqu-sh) var(--mqu-hop) var(--mqu-sh);',
+        /* ⚠⚠ A BOARD, NOT A TINT — and this is the whole diagnosis of why
+           the shipped build read as a diagram. The apparatus lived in a
+           SIX-POINT band of lightness: card #F6EAD3, stand #F3E8D2,
+           niche #EDE0C6, slip #FFFCF5 — four creams. Nothing was dark,
+           so nothing was LIT, so nothing had a top and a bottom. That is
+           the entire difference between a made object and a drawing, and
+           no border-radius fixes it. The fix is a three-tone recession:
+           board darker than card, niche darker than board, slip lighter
+           than everything, roughly 1.5:1 at each boundary — a MATERIAL
+           step, not a semantic one, which is why 1.5 and not 4.5.
+           ⚠ The grain angles and alphas are lifted from `lids.js:2072`
+           so the two instruments are visibly the same workshop.
+           ⚠ TWO shadows and they are two different facts: `0 Npx 0` is
+           the board's THICKNESS, the soft one after it is its DISTANCE
+           from the card. */
         'column-gap:var(--mqu-gap);padding:calc(var(--mqu-s) * 0.09);',
-        'border-radius:calc(var(--mqu-s) * 0.11);background-color:#F3E8D2;',
-        'background-image:linear-gradient(180deg,#F7EEDC 0%,#F1E4CB 100%);',
-        'border:1px solid #E0D3B8;box-shadow:inset 0 1px 0 rgba(255,255,255,.65)}',
+        'border-radius:calc(var(--mqu-s) * 0.11);background-color:#D9BF93;',
+        'background-image:',
+        'radial-gradient(130% 80% at 50% -14%,rgba(255,255,255,.50) 0%,rgba(255,255,255,0) 34%),',
+        'repeating-linear-gradient(58deg,rgba(93,72,45,.030) 0 1px,rgba(93,72,45,0) 1px 5px),',
+        'repeating-linear-gradient(-31deg,rgba(255,255,255,.038) 0 1px,rgba(255,255,255,0) 1px 7px),',
+        'linear-gradient(178deg,#E4CDA6 0%,#D9BF93 46%,#C9AC7C 100%);',
+        'border:1px solid #BC9F72;',
+        'box-shadow:inset 0 1px 0 rgba(255,255,255,.55),',
+        'inset 0 min(-1px,calc(var(--mqu-s) * -0.012)) 0 rgba(93,72,45,.20),',
+        '0 max(2px,calc(var(--mqu-s) * 0.014)) 0 #C0A277,',
+        '0 max(6px,calc(var(--mqu-s) * 0.05)) max(14px,calc(var(--mqu-s) * 0.11)) rgba(58,32,14,.20)}',
 
         /* the shoulder — absolutely placed in the stand's own padding
            strip, so it costs ZERO layout and cannot shift a boundary.
@@ -2527,19 +2680,46 @@
         '.mqu-niche{position:relative;z-index:1;box-sizing:border-box;',
         'width:var(--mqu-s);height:var(--mqu-sh);',
         'display:grid;grid-template-rows:1fr auto;',
+        /* ⚠⚠ A RECESS, NOT A BOX. In the shipped renders you could not
+           see where the niche ended and the board began — only the white
+           slip floating. The object the class stares at for four stages
+           did not exist on screen. It is dark under the top lip where
+           the material occludes it and LIGHTER at the floor where light
+           lands; the border is no longer a line but the chamfered LIP,
+           which is why it is lighter than the board and why the teal
+           `marked` state reads as the lip lighting up. The outer bottom
+           highlight is what makes the eye read "cut IN" rather than
+           "drawn on". */
         'padding:calc(var(--mqu-s) * 0.045);',
-        'border-radius:calc(var(--mqu-s) * 0.075);background-color:#EDE0C6;',
-        'border:var(--mqu-rim) solid #DCCDAF;cursor:pointer;',
+        'border-radius:calc(var(--mqu-s) * 0.075);background-color:#B99C6E;',
+        'background-image:',
+        'linear-gradient(178deg,#A98C5E 0%,#B99C6E 38%,#CDB184 100%),',
+        'repeating-linear-gradient(58deg,rgba(70,52,28,.030) 0 1px,rgba(70,52,28,0) 1px 5px);',
+        'border:var(--mqu-rim) solid #E3CBA0;cursor:pointer;',
         'font:inherit;color:inherit;text-align:inherit;',
-        'box-shadow:inset 0 2px 4px rgba(120,100,64,.20),inset 0 -1px 0 rgba(255,255,255,.5);',
+        'box-shadow:',
+        'inset 0 max(2px,calc(var(--mqu-s) * 0.018)) max(4px,calc(var(--mqu-s) * 0.035)) rgba(58,40,16,.42),',
+        'inset 0 min(-1px,calc(var(--mqu-s) * -0.008)) 0 rgba(255,255,255,.30),',
+        '0 1px 0 rgba(255,255,255,.42);',
         'transition:border-color var(--mqu-in) var(--mqu-ez-in),',
         'border-width var(--mqu-in)}',
-        '.mqu-face{position:relative;min-width:0;min-height:0}',
-        '.mqu-plate{display:flex;align-items:center;justify-content:center;',
-        'height:calc(var(--mqu-sh) * 0.26)}',
+        /* the landing halo — a SEPARATE layer, because animating the
+           niche's own box-shadow would replace the recess and flatten it
+           mid-animation */
+        '.mqu-niche::after{content:"";position:absolute;inset:calc(var(--mqu-rim) * -1);',
+        'border-radius:calc(var(--mqu-s) * 0.078);pointer-events:none;z-index:0}',
+        /* ⚠ z-index on these three is PAINT ORDER, not layout: without it
+           the new pseudo-elements paint over the slip and the glyph.
+           Nothing here enters flow, so no box moves and the 396-cell
+           gate is untouched. */
+        '.mqu-face{position:relative;z-index:1;min-width:0;min-height:0}',
+        '.mqu-plate{position:relative;z-index:1;display:flex;align-items:center;',
+        'justify-content:center;height:calc(var(--mqu-sh) * 0.26)}',
         '.mqu-stampsvg{display:block;width:var(--mqu-stamp);height:var(--mqu-stamp)}',
-        '.mqu-stamp-hi{fill:#FCF6E8;stroke:none}',
-        '.mqu-stamp-fc{fill:#E6D8BC;stroke:#CBB894;stroke-width:1;stroke-linejoin:round}',
+        /* still struck from the STAND'S OWN MATERIAL — a NAME, never a
+           quantity and never structure. Only the material changed. */
+        '.mqu-stamp-hi{fill:#E9D2A8;stroke:none}',
+        '.mqu-stamp-fc{fill:#A88C5D;stroke:#8A7047;stroke-width:1;stroke-linejoin:round}',
 
         /* ONE grid, THREE arrangements. Niche 2 is the third quantity in
            every family, and in every family it is set apart by position. */
@@ -2568,15 +2748,35 @@
            appear at exactly one moment. ---- */
         '.mqu-slip{position:absolute;inset:0;box-sizing:border-box;display:flex;',
         'align-items:center;justify-content:center;',
-        'border-radius:calc(var(--mqu-s) * 0.045);background-color:#FFFCF5;',
-        'border:1px solid #C9B896;box-shadow:0 2px 5px rgba(70,55,25,.16);',
+        /* ⚠ PAPER, NOT WHITE. Warm stock with a lit top face and its own
+           underside, and the shadow is part of the MOTION: wide and soft
+           while it is still being held, tight and dark once it is in
+           contact. It is a TRANSITION, not an animation, so undo
+           reverses it for free and `data-dir="back"` already governs the
+           duration. Ink on the new stock measures 13.3:1. */
+        'border-radius:calc(var(--mqu-s) * 0.045);background-color:#FDF7EA;',
+        'background-image:linear-gradient(177deg,#FFFCF3 0%,#FDF7EA 54%,#F5EAD4 100%);',
+        'border:1px solid #D9C39A;',
+        'box-shadow:inset 0 1px 0 rgba(255,255,255,.90),',
+        '0 max(7px,calc(var(--mqu-s) * 0.055)) max(16px,calc(var(--mqu-s) * 0.13)) rgba(58,32,14,.34);',
         'font-family:"Baloo 2","Trebuchet MS",system-ui,sans-serif;font-weight:700;',
         'font-size:var(--mqu-num);line-height:1;font-variant-numeric:tabular-nums;',
         'color:#2A2A35;transform:translateY(18%) scale(.94);opacity:0;',
         'transition:transform var(--mqu-in) var(--mqu-ez-in),',
-        'opacity var(--mqu-in) var(--mqu-ez-in)}',
+        'opacity var(--mqu-in) var(--mqu-ez-in),',
+        'box-shadow var(--mqu-in) var(--mqu-ez-in)}',
         '.mqu-niche[data-state="filled"] .mqu-slip,',
-        '.mqu-niche[data-state="between"] .mqu-slip{transform:none;opacity:1}',
+        '.mqu-niche[data-state="between"] .mqu-slip{transform:none;opacity:1;',
+        'box-shadow:inset 0 1px 0 rgba(255,255,255,.90),',
+        'inset 0 min(-1px,calc(var(--mqu-s) * -0.006)) 0 rgba(120,95,55,.16),',
+        '0 max(1px,calc(var(--mqu-s) * 0.008)) 0 rgba(90,68,38,.26),',
+        '0 max(3px,calc(var(--mqu-s) * 0.024)) max(7px,calc(var(--mqu-s) * 0.055)) rgba(58,32,14,.26)}',
+        /* the contact puff on the niche floor — entirely OUTSIDE the
+           slip's box, so there is nothing to darken */
+        '.mqu-slip::after{content:"";position:absolute;z-index:-1;left:6%;right:6%;',
+        'bottom:calc(var(--mqu-s) * -0.012);height:calc(var(--mqu-s) * 0.030);',
+        'border-radius:50%;opacity:0;pointer-events:none;',
+        'background-image:radial-gradient(50% 60% at 50% 50%,rgba(58,32,14,.42) 0%,rgba(58,32,14,0) 72%)}',
         /* the third quantity differs by KIND, never by hue — the two
            members are visually identical in every respect */
         '.mqu-niche[data-state="between"] .mqu-slip{',
@@ -2585,15 +2785,45 @@
         /* ---- THE QUESTION. It does not go away — it FILLS. ---- */
         '.mqu-ask{position:absolute;inset:0;box-sizing:border-box;display:flex;',
         'align-items:center;justify-content:center;',
-        'border-radius:calc(var(--mqu-s) * 0.045);background-color:#FFFFFF;',
+        /* ⚠⚠ AN OPENING, NOT A FORM FIELD. White fill with a dashed
+           border is the visual language of "required field" — it was the
+           tool's own subject rendered as validation state, and the
+           weakest element in the frame.
+           ⚠⚠ AND THE TEAL BORDER MUST SIT ON A LIT LIP, NOT ON THE DARK.
+           #146B5E on the hole (#6E5738) measures 1.07:1 and disappears,
+           taking the load-bearing dashed→solid `resolved` signal with
+           it. On the lip (#E8D3AC) it is 4.40:1. That is why the
+           darkness is an inset ::before and not this element's own
+           background. */
+        'border-radius:calc(var(--mqu-s) * 0.045);background-color:#E8D3AC;',
+        'background-image:linear-gradient(178deg,#F0DEBC 0%,#E8D3AC 60%,#DCC69A 100%);',
         'border:calc(var(--mqu-rim) * 1.8) dashed #146B5E;opacity:0;transform:scale(.96);',
+        'box-shadow:0 1px 0 rgba(255,255,255,.55);',
         'transition:opacity 160ms var(--mqu-ez-in) 60ms,transform 200ms var(--mqu-ez-in),',
         'border-style 0s linear var(--mqu-in)}',
+        /* THE HOLE: heavy occlusion under the top edge, light falling to
+           the floor, a faint warm bounce off the bottom lip */
+        '.mqu-ask::before{content:"";position:absolute;pointer-events:none;',
+        'inset:calc(var(--mqu-s) * 0.028);border-radius:calc(var(--mqu-s) * 0.030);',
+        'background-color:#6E5738;',
+        'background-image:linear-gradient(180deg,#5B472C 0%,#6E5738 42%,#8A6E48 100%);',
+        'box-shadow:inset 0 max(3px,calc(var(--mqu-s) * 0.030)) max(6px,calc(var(--mqu-s) * 0.055)) rgba(24,14,4,.62),',
+        'inset 0 min(-1px,calc(var(--mqu-s) * -0.008)) 0 rgba(255,225,180,.18)}',
         '.mqu-niche[data-state="ask"] .mqu-ask,',
         '.mqu-niche[data-state="resolved"] .mqu-ask{opacity:1;transform:none}',
+        /* settled: the edge becomes definite AND light reaches the floor.
+           ⚠ the lightening is CAPPED so the cream glyph stays ≥3.7:1 at
+           the very bottom of the gradient and 4.7:1 where it sits. */
         '.mqu-niche[data-state="resolved"] .mqu-ask{border-style:solid}',
-        '.mqu-qm{font-family:"Baloo 2","Trebuchet MS",system-ui,sans-serif;font-weight:700;',
-        'font-size:var(--mqu-num);line-height:1;color:#0D4E44}',
+        '.mqu-niche[data-state="resolved"] .mqu-ask::before{',
+        'background-image:linear-gradient(180deg,#6B5334 0%,#7E653F 42%,#94794F 100%);',
+        'box-shadow:inset 0 max(2px,calc(var(--mqu-s) * 0.020)) max(5px,calc(var(--mqu-s) * 0.045)) rgba(24,14,4,.44),',
+        'inset 0 min(-1px,calc(var(--mqu-s) * -0.008)) 0 rgba(255,232,192,.26)}',
+        /* the glyph is LIT and sits IN the hole, casting onto its floor */
+        '.mqu-qm{position:relative;z-index:1;',
+        'font-family:"Baloo 2","Trebuchet MS",system-ui,sans-serif;font-weight:700;',
+        'font-size:var(--mqu-num);line-height:1;color:#FBF3E4;',
+        'text-shadow:0 max(1px,calc(var(--mqu-s) * 0.006)) 0 rgba(20,12,2,.55)}',
 
         /* ⭐ THE COUNTING STRIP. Under the stand, not inside a niche —
            MEASURED: a niche gives 47.3px of lattice room at the real
@@ -2614,8 +2844,18 @@
         '.mqu-count{display:flex;align-items:center;justify-content:center;',
         'gap:calc(var(--mqu-s) * 0.10);width:100%;max-width:880px;box-sizing:border-box;',
         'padding:calc(var(--mqu-s) * 0.05) calc(var(--mqu-s) * 0.07);',
-        'border-radius:calc(var(--mqu-s) * 0.08);background-color:#FBF3E4;',
-        'border:1.5px solid #E7DCC8}',
+        /* the TRAY: same workshop as the board, one step lighter so the
+           counters carry. Same grain angle, same edge-then-shadow. */
+        'border-radius:calc(var(--mqu-s) * 0.08);background-color:#E7D3AC;',
+        'background-image:',
+        'radial-gradient(120% 90% at 50% -20%,rgba(255,255,255,.46) 0%,rgba(255,255,255,0) 38%),',
+        'repeating-linear-gradient(58deg,rgba(93,72,45,.026) 0 1px,rgba(93,72,45,0) 1px 5px),',
+        'linear-gradient(178deg,#F0E0C0 0%,#E7D3AC 50%,#D9C29A 100%);',
+        'border:1px solid #C6A97D;',
+        'box-shadow:inset 0 1px 0 rgba(255,255,255,.62),',
+        'inset 0 max(2px,calc(var(--mqu-s) * 0.016)) max(5px,calc(var(--mqu-s) * 0.04)) rgba(70,50,22,.16),',
+        '0 max(2px,calc(var(--mqu-s) * 0.012)) 0 #CFB489,',
+        '0 max(5px,calc(var(--mqu-s) * 0.035)) max(12px,calc(var(--mqu-s) * 0.09)) rgba(58,32,14,.16)}',
         /* ⚠ INVISIBLE UNTIL THE QUESTION EXISTS — see `_paint`. Opacity,
            never display: the strip's height is identical at every stage,
            so nothing grows under the class's eyes. */
@@ -2638,17 +2878,42 @@
         'grid-template-rows:repeat(var(--mqu-rows,1),var(--mqu-well));',
         'gap:calc(var(--mqu-well) * 0.44);align-content:center;justify-content:center}',
         '.mqu-well:nth-child(10n+6){justify-self:end}',
+        /* ⚠ AN EMPTY WELL IS A DRILLED SOCKET, NOT AN ABSENCE — and this
+           is where most of the "warmth before the end" comes from. The
+           strip is a warm object from stage ZERO, four stages before any
+           counter lands. Before this, the first three stages of the
+           routine had nothing warm on screen at all.
+           ⚠ border-box and unchanged, so the ≥12px well floor the layout
+           gate measures is untouched by the thinner rim. */
         '.mqu-well{position:relative;width:var(--mqu-well);height:var(--mqu-well);',
-        'box-sizing:border-box;border-radius:50%;border:1.5px solid #DCCDAF}',
+        'box-sizing:border-box;border-radius:50%;border:1px solid #C9AE83;',
+        'background-color:#E0CCA6;',
+        'background-image:linear-gradient(180deg,#D2BB90 0%,#E0CCA6 62%,#EDDCBB 100%);',
+        'box-shadow:inset 0 max(1px,calc(var(--mqu-well) * .10)) max(2px,calc(var(--mqu-well) * .18)) rgba(70,50,22,.38),',
+        '0 1px 0 rgba(255,255,255,.55)}',
         /* the 3-layer coral counter — the ring is the contrast carrier
            and is never dropped; bare coral on cream is not authorised */
+        /* the house 3-stop + specular (lids.js:2129) and an OVERSHOOT
+           easing, so a counter SEATS into its socket instead of fading
+           in. ⚠ the #A34122 inner ring is untouched — it is the
+           authorised contrast carrier and measures 4.31:1 on the new
+           tray. */
         '.mqu-ct{position:absolute;inset:0;border-radius:50%;background-color:#F2784B;',
-        'background-image:radial-gradient(circle at 34% 30%,#F79062 0%,#F2784B 46%,#E2673C 100%);',
-        'box-shadow:inset 0 0 0 max(1.2px,calc(var(--mqu-well) * .16)) #A34122;',
+        'background-image:',
+        'radial-gradient(46% 38% at 34% 26%,rgba(255,255,255,.42) 0%,rgba(255,255,255,0) 70%),',
+        'linear-gradient(177deg,#FF9A70 0%,#F2784B 46%,#DE6A3C 100%);',
+        'box-shadow:inset 0 0 0 max(1.2px,calc(var(--mqu-well) * .16)) #A34122,',
+        '0 max(1px,calc(var(--mqu-well) * .06)) max(2px,calc(var(--mqu-well) * .12)) rgba(90,32,10,.34);',
         'transform:translateY(-38%) scale(.86);opacity:0;',
-        'transition:transform 160ms var(--mqu-ez-in),opacity 160ms var(--mqu-ez-in);',
+        'transition:transform 190ms cubic-bezier(.22,1.35,.36,1),',
+        'opacity 150ms var(--mqu-ez-in);',
         'transition-delay:calc(var(--mqu-i,0) * var(--mqu-step))}',
         '.mqu-ct.is-on{transform:none;opacity:1}',
+        /* the seat ring, inheriting the same stagger so counting LOOKS
+           counted rather than revealed */
+        '.mqu-ct::after{content:"";position:absolute;inset:0;border-radius:50%;',
+        'border:max(1.2px,calc(var(--mqu-well) * .10)) solid rgba(163,65,34,.75);',
+        'opacity:0;pointer-events:none}',
 
         /* ---- going BACK reads differently: same axis reversed, brisk,
            and ACCELERATING away. A thing that slows as it lands has
@@ -2657,8 +2922,12 @@
         '.mqu-stand[data-dir="back"] .mqu-slip,',
         '.mqu-stand[data-dir="back"] .mqu-ask{transition-duration:var(--mqu-out);',
         'transition-timing-function:var(--mqu-ez-out);transition-delay:0s}',
+        /* ⚠ UNDO MUST NOT BOUNCE OUTWARD. The counter's arrival now uses
+           an overshoot curve; leaving it in place on the back path would
+           make a taken-back counter spring away from its socket. */
         '.mqu-stand[data-dir="back"] .mqu-ct{transition-delay:0s;',
-        'transition-duration:var(--mqu-out)}',
+        'transition-duration:var(--mqu-out);',
+        'transition-timing-function:var(--mqu-ez-out)}',
         '.mqu-stand[data-dir="back"] .mqu-link path{transition-duration:var(--mqu-out);',
         'transition-timing-function:var(--mqu-ez-out)}',
 
@@ -2674,8 +2943,31 @@
         '.mqu-g.is-here{border-left-color:#146B5E}',
         '.mqu-leg{flex:none;width:100%;font-family:Nunito,system-ui,sans-serif;',
         'font-size:13px;font-weight:700;color:#2A2A35}',
-        '.mqu-sub{flex:none;width:100%;font-family:Nunito,system-ui,sans-serif;',
-        'font-size:12px;font-weight:600;color:#7A6A55;margin-top:2px}',
+        /* ⚠ `.mqu-sub` WAS DELETED WITH THE SUB-LEGEND IT STYLED. `askAt`
+           is now the settings-drawer field label, so the rule had
+           nothing to select — dead CSS is the same defect as a dead
+           constant, one layer down. */
+
+        /* the size steppers, on the stand's own top-right — icon-only,
+           44px, and out of the control column entirely */
+        /* in FLOW, right-aligned under the stand — see the note at the
+           append site. Absolute positioning put them on a niche at every
+           width the tool has. */
+        '.mqu-size{display:flex;gap:8px;justify-content:flex-end;',
+        'width:100%;margin:calc(var(--mqu-s) * 0.05) 0 calc(var(--mqu-s) * 0.02) 0}',
+        '.mqu-icon{display:inline-flex;align-items:center;justify-content:center;',
+        'width:44px;height:44px;padding:0;box-sizing:border-box;border-radius:11px;cursor:pointer;',
+        'border:1.5px solid #E0D3B8;background-color:#FBF3E4;',
+        'background-image:linear-gradient(180deg,#FDF8EE 0%,#F6EAD3 100%);',
+        'box-shadow:0 2px 0 #E1D4BC;touch-action:manipulation;',
+        'transition:transform .12s var(--mqu-ez-in),box-shadow .12s,background-color .15s}',
+        '.mqu-icon .mqu-i{width:20px;height:20px}',
+        '.mqu-icon:hover{background-color:#FDF8EE;transform:translateY(-1px);box-shadow:0 3px 0 #E1D4BC}',
+        '.mqu-icon:active{transform:translateY(1px);box-shadow:0 0 0 #E1D4BC}',
+        '.mqu-icon:focus-visible{outline:3px solid #0D4E44;outline-offset:2px;box-shadow:0 0 0 5px #FBF3E4}',
+        '.mqu-icon.is-off{opacity:.38;box-shadow:none;transform:none}',
+        '.mqu-icon.is-off:hover{transform:none;box-shadow:none;background-color:#FBF3E4}',
+        '.mqu-icon.is-refuse{animation:mqu-refuse var(--mqu-refuse) steps(4,end) 1}',
 
         '.mqu-btn{display:inline-flex;align-items:center;gap:8px;min-height:44px;',
         'padding:9px 15px;box-sizing:border-box;border-radius:12px;cursor:pointer;',
@@ -2723,6 +3015,43 @@
         '@keyframes mqu-refuse{0%,100%{transform:translateX(0)}25%{transform:translateX(-3px)}',
         '50%{transform:translateX(3px)}75%{transform:translateX(-2px)}}',
 
+        /* ---- FOUR EVENT ANIMATIONS. ⚠ THE DIVISION OF LABOUR IS THE
+           POINT: in a tool whose whole doctrine is that every act is
+           undoable, TRANSITIONS REVERSE AND ANIMATIONS DO NOT. So every
+           reversible material fact — the slip landing, the counter
+           seating — stays on a transition, where `data-dir="back"`
+           already governs it. Animations are reserved for events that
+           genuinely happen once, and each is triggered by a STATE
+           selector, needs zero JS, and self-cleans on undo because the
+           rule simply stops applying.
+           ⚠ A fifth, `mqu-breathe` — a slow pulse on the unanswered `?` —
+           was considered and REFUSED: a persistent animation nags,
+           competes with the teacher's voice at the front of a room, and
+           turns a question the class is thinking about into a
+           notification badge. ---- */
+        '@keyframes mqu-land{0%{box-shadow:0 0 0 0 rgba(20,107,94,.50)}',
+        '100%{box-shadow:0 0 0 max(8px,calc(var(--mqu-s) * 0.07)) rgba(20,107,94,0)}}',
+        '@keyframes mqu-open{0%{transform:scaleY(.12);opacity:.25}',
+        '55%{opacity:1}100%{transform:scaleY(1);opacity:1}}',
+        '@keyframes mqu-ring{0%{opacity:.85;transform:scale(.72)}',
+        '100%{opacity:0;transform:scale(1.55)}}',
+        '@keyframes mqu-place{0%{opacity:0;transform:scaleX(.55)}',
+        '40%{opacity:.55}100%{opacity:0;transform:scaleX(1.15)}}',
+
+        /* the linkage ARRIVED — all three fire together at link time,
+           which is exactly what "these three belong together" means */
+        '.mqu-niche[data-state="marked"]::after{animation:mqu-land 420ms cubic-bezier(.22,.61,.20,1) 1}',
+        /* a question is an OPENING THAT WAS MADE, not a mark printed —
+           the tool's subject gets the best motion in the file */
+        '.mqu-niche[data-state="ask"] .mqu-ask::before{animation:mqu-open 300ms cubic-bezier(.22,.72,.24,1) 1}',
+        /* each counter SEATS, carrying the existing stagger so counting
+           looks counted rather than revealed */
+        '.mqu-ct.is-on::after{animation:mqu-ring 260ms cubic-bezier(.22,.61,.20,1) 1;',
+        'animation-delay:calc(var(--mqu-i,0) * var(--mqu-step))}',
+        /* the fact was PUT there by someone */
+        '.mqu-niche[data-state="filled"] .mqu-slip::after,',
+        '.mqu-niche[data-state="between"] .mqu-slip::after{animation:mqu-place 320ms cubic-bezier(.22,.72,.24,1) 1}',
+
         '.mqu-gate{display:none;width:100%;max-width:880px;box-sizing:border-box;',
         'background-color:#FBF3E4;border:1.5px dashed #E7DCC8;border-radius:14px;padding:13px 15px}',
         '.mqu-gate.is-on{display:block}',
@@ -2758,8 +3087,16 @@
         '--mqu-out:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_OUT * GEO.RM_F)) + 'ms;',
         '--mqu-step:0ms;',
         '--mqu-draw:' + Math.max(GEO.RM_FLOOR, Math.round(GEO.T_DRAW * GEO.RM_F)) + 'ms}',
-        '.mqu-ct{transition-delay:0s}',
+        '.mqu-ct{transition-delay:0s;transition-timing-function:var(--mqu-ez-in)}',
         '.mqu-link path{transition:none;stroke-dashoffset:0}',
+        /* ⚠ DECORATION GOES; THE ONE ANIMATION THAT CARRIES MEANING IS
+           COMPRESSED, NOT DELETED — the opening still opens, briefly.
+           And the counter's overshoot is motion, so it returns to the
+           plain in-curve above. */
+        '.mqu-niche[data-state="marked"]::after,.mqu-ct.is-on::after,',
+        '.mqu-niche[data-state="filled"] .mqu-slip::after,',
+        '.mqu-niche[data-state="between"] .mqu-slip::after{animation:none}',
+        '.mqu-niche[data-state="ask"] .mqu-ask::before{animation:mqu-open 110ms linear 1}',
         '}',
 
         '.mqu-sheet{display:none}',

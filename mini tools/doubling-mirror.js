@@ -1265,9 +1265,16 @@
     },
 
     reset: function () {
+      /* ⚠⚠ EVERY OTHER HANDLER GUARDS ON `_busy` AND THESE TWO DID NOT,
+         so during the 520ms fold the only live controls were the paywall
+         and the one that throws the lesson away. */
+      if (this._busy) return;
       this._stopMotion();
       this.st = this.newState(this.api.settings.reach, this.api.settings.predict);
       this._chipSig = '';
+      /* ⚠ `_say` fires from the MOVES and never from `render`, so a reset
+         left the previous session's sentence under a fresh tray. */
+      if (this._sayEl) this._sayEl.textContent = '';
       this.render();
     },
     onSettings: function () { this.reset(); },
@@ -1420,10 +1427,18 @@
       this._oddEl = api.el('div', 'dbm-odd');
       pad.appendChild(this._oddEl);
       hinge.appendChild(pad);
+      /* ⚠⚠ THE TOTAL LIVED IN THE HINGE, AND THE HINGE IS
+         `overflow:hidden` AT 0.22 OF THE MODULE. Measured at 704: a 46px
+         numeral inside a 10px barrel, CLIPPED BY 37 — so the one number
+         this tool exists to produce was invisible, while `textContent`
+         read "8" and my own probe asserted exactly that. The
+         invisible-far-leaf defect from this file's own header, one
+         element over, certified by the gate written to catch it.
+         It now hangs on the TRAY, which clips nothing. */
       var tot = api.el('span', 'dbm-num dbm-num-total');
       this._totEl = tot;
-      hinge.appendChild(tot);
       tray.appendChild(hinge);
+      tray.appendChild(tot);
 
       /* the near leaf is the LOWER slab, nearer the class */
       this._nearEl = this._mkLeaf('dbm-near');
@@ -1826,51 +1841,69 @@
        counter on every paint, so every counter teleported and no
        transition could ever fire. Here: append the missing, remove the
        surplus from the tail, and NEVER touch a counter that stays. */
+    /* ⭐⭐ TEN PERSISTENT PLACES, NOT A BUILT LIST OF COUNTERS.
+       `_sync` used to append and remove `.dbm-row` divs, which is why a
+       6th counter floated centred under a row of five and why the bed
+       looked empty at rest. Now the lattice is built ONCE and this only
+       puts a counter into a place or takes it out — so a counter that
+       stays is never touched (every transition in the tool depends on
+       that), and every place a counter COULD occupy is visible whether
+       or not one does.
+       ⚠ THE FAR LEAF FILLS FROM THE SPINE OUTWARD. Its rows are taken
+       bottom-first, so place k on each leaf is the same distance from
+       the hinge — the correspondence the paper tray already claims and
+       the screen never drew. */
+    _cells: function (leaf) {
+      var bed = leaf._bed, i, c;
+      if (!bed._cells) {
+        bed._cells = [];
+        for (i = 0; i < GEO.ROW * 2; i++) {
+          c = this.api.el('div', 'dbm-cell');
+          bed.appendChild(c);
+          bed._cells.push(c);
+        }
+      }
+      return bed._cells;
+    },
+    /* the order a leaf fills its places in */
+    _order: function (leaf) {
+      var far = leaf.className.indexOf('dbm-far') >= 0, out = [], i;
+      for (i = 0; i < GEO.ROW; i++) out.push(far ? GEO.ROW + i : i);
+      for (i = 0; i < GEO.ROW; i++) out.push(far ? i : GEO.ROW + i);
+      return out;
+    },
     _sync: function (leaf, n, k, dealFrom) {
-      var api = this.api, bed = leaf._bed, i;
-      var have = bed.querySelectorAll('.dbm-c').length;
-      if (have > n) {
-        var kill = have - n;
-        for (i = 0; i < kill; i++) {
-          var rows = bed.querySelectorAll('.dbm-row');
-          var lastRow = rows[rows.length - 1];
-          if (!lastRow) break;
-          lastRow.removeChild(lastRow.lastChild);
-          if (!lastRow.firstChild) bed.removeChild(lastRow);
-        }
-        have = n;
-      }
-      for (i = have; i < n; i++) {
-        var rows2 = bed.querySelectorAll('.dbm-row');
-        var row = rows2[rows2.length - 1];
-        if (!row || row.querySelectorAll('.dbm-c').length >= GEO.ROW) {
-          row = api.el('div', 'dbm-row');
-          bed.appendChild(row);
-        }
-        var c = api.el('span', 'dbm-c');
-        if (dealFrom) {
-          /* two computed styles of ONE element: it really transitions */
-          c.classList.add('is-arriving');
-          c.style.transitionDelay = (this._dur(GEO.T_DEAL_STEP) * (i - dealFrom.from)) + 'ms';
-          row.appendChild(c);
-          (function (el) {
-            window.requestAnimationFrame(function () {
-              window.requestAnimationFrame(function () { el.classList.remove('is-arriving'); });
-            });
-          }(c));
+      var api = this.api, cells = this._cells(leaf), order = this._order(leaf), i, idx, cell, c;
+      for (i = 0; i < order.length; i++) {
+        idx = order[i];
+        cell = cells[idx];
+        c = cell.firstChild;
+        if (i < n) {
+          if (!c) {
+            c = api.el('span', 'dbm-c');
+            if (dealFrom && i >= dealFrom.from) {
+              /* two computed styles of ONE element: it really transitions */
+              c.classList.add('is-arriving');
+              c.style.transitionDelay = (this._dur(GEO.T_DEAL_STEP) * (i - dealFrom.from)) + 'ms';
+              cell.appendChild(c);
+              (function (el) {
+                window.requestAnimationFrame(function () {
+                  window.requestAnimationFrame(function () { el.classList.remove('is-arriving'); });
+                });
+              }(c));
+            } else {
+              cell.appendChild(c);
+            }
+          }
+          cell.classList.add('is-full');
         } else {
-          row.appendChild(c);
+          if (c) cell.removeChild(c);
+          cell.classList.remove('is-full');
         }
       }
-      /* the seat marks the odd one's empty place — never the counter */
-      var seats = bed.querySelectorAll('.dbm-seat'), j;
-      for (j = 0; j < seats.length; j++) seats[j].parentNode.removeChild(seats[j]);
-      if (k) {
-        var rows3 = bed.querySelectorAll('.dbm-row');
-        var r2 = rows3[rows3.length - 1];
-        if (!r2 || r2.childNodes.length >= GEO.ROW) { r2 = api.el('div', 'dbm-row'); bed.appendChild(r2); }
-        r2.appendChild(api.el('span', 'dbm-seat'));
-      }
+      /* `k` is retained for the call sites: every empty place is now a
+         seat by construction, so there is nothing extra to draw. */
+      if (k) { /* the lattice already shows it */ }
     },
 
     _paint: function (mode) {
@@ -1964,7 +1997,17 @@
         this._buildChips(mode2, this.predValues(s));
         this._legPred.textContent = api.t(mode2 === 'split' ? 'predSplitAsk' : 'predAsk');
       }
-      this._gPred.style.display = (s.ask && (mode2 || s.claim.length)) ? '' : 'none';
+      /* ⚠⚠ THE WORST DEFECT IN THIS TOOL, AND IT WAS `display:none`.
+         The prediction group is the TALLEST in the strip (~139px) and
+         `_open` repaints IMMEDIATELY, before the 520ms fold — so the
+         strip collapsed while the teacher's finger was still on the
+         glass. "Open the hinge" sat at y~852; after the collapse "Start
+         again" sits at y~857, overlapping 39 of its 44 pixels. A teacher
+         who taps twice because the first tap "didn't take" — universal
+         on a classroom whiteboard — WIPED THE TRAY in front of the
+         class. The comment eight lines below declares this strip never
+         uses display:none; it was false in the same function. */
+      this._gPred.classList.toggle('is-hidden', !(s.ask && (mode2 || s.claim.length)));
       if (this._predChips) {
         for (i = 0; i < this._predChips.length; i++) {
           var ch = this._predChips[i];
@@ -2066,6 +2109,7 @@
     },
 
     _print: function () {
+      if (this._busy) return;
       if (!this.premium) { this._gate(); return; }
       this._buildSheet();
       document.body.classList.add('dbm-printing');
@@ -2190,7 +2234,11 @@
       + '.dbm-card{container-type:inline-size;width:100%;max-width:880px;box-sizing:border-box;'
       + 'background-color:#F6EAD3;border:1.5px solid #E7DCC8;border-radius:18px;'
       + 'box-shadow:0 1px 0 #E7DCC8,0 10px 24px rgba(20,107,94,.10);'
-      + 'padding:clamp(12px,2.6cqw,26px);--dbm-c:clamp(19px,7.0cqw,54px);'
+      + 'padding:clamp(12px,2.6cqw,26px);'
+      /* ⭐ 34px IS THE CANVAS-CELL FLOOR AND AT 360 THE OLD CLAMP GAVE
+         22.4px — the viewport that can least afford small counters got
+         the smallest. The minimum closes it structurally. */
+      + '--dbm-c:clamp(34px,10.6cqw,66px);'
       + '--dbm-fold:' + GEO.FOLD_DEG + 'deg;--dbm-chan:' + GEO.CHAN_OPEN + ';}'
 
       + '.dbm-stage{display:flex;align-items:center;justify-content:center;width:100%;'
@@ -2200,7 +2248,11 @@
 
       /* --- a leaf: face, walls as children, a lip with a mouth ----- */
       + '.dbm-leaf{position:relative;box-sizing:border-box;'
-      + 'width:calc(var(--dbm-c) * 6.64 + var(--dbm-c) * 3.8);height:' + M(3.3) + ';'
+      /* ⚠⚠ 9.0c, AND THE HINGE AND PLINTH MUST FOLLOW. The first attempt
+         moved the LEAF alone and left the hinge and plinth on the old
+         10.44c formula, so they overhung the card and the tray broke.
+         Three rules span the tray; all three change together or none. */
+      + 'width:calc(var(--dbm-c) * 9.0);height:' + M(3.3) + ';'
       + 'background-color:#FBF3E4;}'
       + '.dbm-far{transform-origin:50% 100%;transform:rotateX(var(--dbm-fold));}'
       + '.dbm-wall{position:absolute;background-color:#146B5E;}'
@@ -2214,12 +2266,29 @@
       + '.dbm-near .dbm-lip{bottom:0;}'
       /* ⭐ the mouth is a BREAK IN THE SILHOUETTE, never a darker patch
          inside an unbroken bar — every counter enters and leaves here */
-      + '.dbm-mouth{width:' + M(1.5) + ';height:100%;background-color:#0A3F38;}'
-      + '.dbm-bed{position:absolute;left:' + M(1.9) + ';right:' + M(1.9) + ';'
+      + '.dbm-mouth{width:' + M(1.5) + ';height:100%;background-color:#F6EAD3;}'
+      /* ⭐⭐ A FIXED 5x2 LATTICE OF PLACES, ALWAYS DRAWN. The bed held only
+         the counters that existed, so a resting tray was ~2% ink in a
+         field of cream — the emptiness the operator saw — and a 6th
+         counter floated centred under a row of five, aligned to no column,
+         destroying the five-structure the whole shelf uses. Ten dashed
+         places at 4.73:1 give every count a visible five-structure AND a
+         visible remainder, and they turn "one counter has no partner"
+         into a PICTURE rather than a sentence — the empty place opposite
+         the odd one is simply there, on a tool whose first law is that it
+         must be legible with the sound off.
+         ⚠ Cell k sits the same distance from the spine on both leaves,
+         which is the exact property `_buildSheet` already claims for the
+         paper tray — so screen and paper draw the same correspondence. */
+      + '.dbm-bed{position:absolute;left:' + M(1.9) + ';right:' + M(0.4) + ';'
       + 'top:' + M(0.44) + ';bottom:' + M(0.44) + ';'
-      + 'display:flex;flex-direction:column;align-items:center;justify-content:center;'
-      + 'gap:' + M(0.26) + ';}'
-      + '.dbm-far .dbm-bed{flex-direction:column-reverse;}'
+      + 'display:grid;grid-template-columns:repeat(5,var(--dbm-c));'
+      + 'grid-template-rows:repeat(2,var(--dbm-c));gap:' + M(0.18) + ';'
+      + 'align-content:center;justify-content:center;}'
+      + '.dbm-cell{width:var(--dbm-c);height:var(--dbm-c);'
+      + 'background:' + seatURI('#7A6A55') + ' center/100% no-repeat;'
+      + 'display:flex;align-items:center;justify-content:center;}'
+      + '.dbm-cell.is-full{background:none;}'
       + '.dbm-plate{position:absolute;left:0;width:' + M(1.9) + ';top:' + M(0.44) + ';bottom:' + M(0.44) + ';'
       + 'display:flex;align-items:center;justify-content:center;'
       + 'border-right:1px solid #E7DCC8;}'
@@ -2243,7 +2312,7 @@
       + 'background:' + seatURI('#7A6A55') + ' center/100% no-repeat;}'
 
       /* --- the hinge: a real barrel ------------------------------- */
-      + '.dbm-hinge{position:relative;width:calc(var(--dbm-c) * 6.64 + var(--dbm-c) * 3.8);'
+      + '.dbm-hinge{position:relative;width:calc(var(--dbm-c) * 9.0);'
       + 'height:calc(var(--dbm-c) * var(--dbm-chan));background-color:#0D4E44;'
       + 'border-radius:' + M(0.1) + ';overflow:hidden;flex:none;}'
       + '.dbm-pin{position:absolute;left:0;right:0;top:50%;height:' + M(0.16) + ';'
@@ -2261,10 +2330,17 @@
       + 'background-color:#FBF3E4;box-shadow:inset 0 0 0 ' + M(0.08) + ' #146B5E;'
       + 'display:flex;align-items:center;justify-content:center;}'
       + '.dbm-odd{display:flex;align-items:center;justify-content:center;}'
-      + '.dbm-num-total{position:absolute;left:' + M(0.5) + ';top:50%;transform:translateY(-50%);'
-      + 'color:#FBF3E4;}'
+      /* ⚠ IN THE NEAR LEAF'S PLATE, NOT THE TRAY'S CENTRE — centring it
+         on the tray put it astride the hinge seam. A leaf numeral counts
+         the bed it sits on, and when the tray is shut the whole is what
+         that bed holds, so the total belongs exactly where the near
+         leaf's own numeral would be. */
+      + '.dbm-num-total{position:absolute;left:0;top:50%;width:' + M(1.9) + ';'
+      + 'height:50%;display:none;align-items:center;justify-content:center;'
+      + 'color:#0E5147;font-size:' + M(1.7) + ';z-index:3;}'
+      + '.dbm-tray.is-closed .dbm-num-total{display:flex;}'
 
-      + '.dbm-plinth{width:calc(var(--dbm-c) * 6.64 + var(--dbm-c) * 3.8);height:' + M(0.3) + ';'
+      + '.dbm-plinth{width:calc(var(--dbm-c) * 9.0);height:' + M(0.3) + ';'
       + 'background-color:#0D4E44;border-radius:0 0 ' + M(0.1) + ' ' + M(0.1) + ';flex:none;}'
 
       /* --- numerals ----------------------------------------------- */
@@ -2281,6 +2357,7 @@
       + 'min-height:2.6em;margin:10px 0 0;line-height:1.3;}'
       + '.dbm-ctl{display:flex;flex-direction:column;gap:10px;width:100%;max-width:860px;'
       + 'box-sizing:border-box;margin-top:6px;}'
+      + '.dbm-g.is-hidden{visibility:hidden;pointer-events:none;}'
       + '.dbm-g{display:flex;flex-wrap:wrap;align-items:center;gap:8px;'
       + 'padding-left:12px;border-left:4px solid transparent;}'
       + '.dbm-g.is-here{border-left-color:#146B5E;}'
@@ -2318,7 +2395,7 @@
       + '.dbm-b-print.is-paid{border-style:solid;}'
 
       + '.dbm-gate{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;'
-      + 'background-color:rgba(42,42,53,.42);border-radius:18px;padding:12px;z-index:9;}'
+      + 'background-color:rgba(14,81,71,.72);border-radius:18px;padding:12px;z-index:9;}'
       + '.dbm-gate-box{background-color:#FBF3E4;border:1.5px solid #146B5E;border-radius:16px;'
       + 'padding:16px;max-width:340px;text-align:center;}'
       + '.dbm-gate-h{font-family:"Baloo 2",system-ui,sans-serif;font-size:19px;color:#146B5E;margin:0 0 6px;}'

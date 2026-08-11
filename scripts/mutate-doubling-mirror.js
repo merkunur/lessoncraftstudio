@@ -234,8 +234,22 @@ const MUTATIONS = [
     "        this._farEl.style.visibility = s.shut ? '' : 'hidden';\n        this._nearEl.removeAttribute('aria-hidden');"],
   ['_sync becomes _fill: every counter is destroyed and rebuilt each paint',
     '_sync: function (leaf, n, k, dealFrom) {', '_fill: function (leaf, n, k, dealFrom) {'],
-  ['the paint clones counters instead of moving them',
-    "var c = api.el('span', 'dbm-c');", "var c = api.el('span', 'dbm-c').cloneNode(true);"],
+  /* ⚠ THE NEEDLE MOVED WITH THE LATTICE REWRITE. `_sync` no longer
+     builds rows of counters; it puts one into a persistent place, so the
+     construction sits inside the `if (!c)` branch. Re-anchored rather
+     than dropped — a needle that stops matching shrinks the total while
+     the run still says "every mutation killed". */
+  /* ⭐⭐ MOVED TO `probe-doubling-mirror.js` (P10), WHICH IS WHERE IT
+     CAN BE OBSERVED. "A counter that stays put must never be rebuilt" is
+     a property of NODE IDENTITY in the DOM, and this harness runs the
+     MODEL gate, which binds no port and opens no browser — so it is
+     structurally blind to it, and the mutation survived for a reason
+     that is not a hole. The probe tags every counter, repaints twice
+     without changing the count, and requires the same nodes to still be
+     there. Leaving it here would have left a permanent survivor that
+     means nothing, which is how a suite learns to be ignored.
+     ⚠ It took two attempts to make it observable at all: clearing the
+     cell before appending only ran where the cell was ALREADY empty. */
   ['the refusal recolours a LEAF — a verdict on the child\'s material',
     "+ '.dbm-tray.is-refuse .dbm-knuckle{background-color:#A34122;}'",
     "+ '.dbm-tray.is-refuse .dbm-leaf{border-color:#A34122;}'"],

@@ -202,6 +202,31 @@ const REALLY_VISIBLE = `(el) => {
     ok(bothVis.length >= 6 && bothVis.every(Boolean),
       'P5 ⚠⚠ a counter is not really visible on the opened tray');
 
+    /* --- ⭐⭐ A COUNTER THAT STAYS PUT MUST NEVER BE REBUILT ------
+       Every transition in this tool depends on it: a re-created node
+       teleports instead of moving. A mutation dropping the `if (!c)`
+       guard — so each paint rebuilds every counter — SURVIVED the whole
+       suite, which means the law had no test at all. Node identity is
+       the only honest way to ask: tag them, repaint without changing
+       the count, and require the same nodes to still be there. */
+    const kept = await page.evaluate(async () => {
+      const T = window.DoublingMirror;
+      const tag = () => { let i = 0;
+        document.querySelectorAll('.dbm-c').forEach(c => { c.dataset.probe = 'p' + (i++); }); };
+      tag();
+      const before = Array.from(document.querySelectorAll('.dbm-c')).map(c => c.dataset.probe);
+      T._paint(); T._paint();
+      await new Promise(r => setTimeout(r, 120));
+      const after = Array.from(document.querySelectorAll('.dbm-c')).map(c => c.dataset.probe || '(new)');
+      return { before: before, after: after };
+    });
+    ok(kept.before.length > 0, 'P10 non-vacuity: no counters were tagged');
+    ok(kept.after.length === kept.before.length &&
+       kept.after.every((t, i) => t === kept.before[i]),
+      'P10 ⚠⚠ a repaint REBUILT counters that had not moved (' +
+      kept.after.filter(t => t === '(new)').length + ' new nodes) — a rebuilt node ' +
+      'teleports instead of transitioning, and every motion in this tool depends on it');
+
     /* --- the viewport sweep, measured against the CARD ------------ */
     for (const w of WIDTHS) {
       await page.setViewport({ width: w, height: 900 });

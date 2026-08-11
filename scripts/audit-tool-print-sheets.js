@@ -70,6 +70,31 @@ const TOOLS = [
      shipped build of letter-studio — so the probe forces premium, clicks
      the chip, and then asserts the sheet has real children AND that the
      apparatus is hidden under print. */
+  /* TOOL #55, REBUILT 2026-08-11 — and it had NEVER BEEN PROBED. It sat
+     in the "has a block but no entry" bucket this file reports every
+     run, which is exactly the hiding place the header warns about, and
+     what it was hiding was real: the block targeted `.lcs-shell`, WHICH
+     IS NOT A CLASS (it occurs once in lcs-shell.css, on line 2, in the
+     comment naming the file), so the shell header, the tool title, the
+     instruction and the four chrome buttons reached the paper on every
+     sheet. Three siblings inherited the same typo from one ancestor.
+     ⚠ AND THE FIX INTRODUCED THE #40/#41 DEFECT while removing another:
+     scoping the block to `body.mqu-printing` without adding that class
+     on the FREE branch of `beforeprint` meant nothing was suppressed and
+     Ctrl+P printed the whole page. Both are fixed; this entry is what
+     stops either coming back.
+     ⚠ Its sheet is premium and built on demand, so the prime forces the
+     tier and calls the builder — without it this measures a free
+     visitor's page and reports the apparatus missing. */
+  { key: 'missing-question', p: 'mqu', apparatus: '.mqu-sh-stand', chrome: '.mqu-col',
+    prime: function () {
+      var T = window.MissingQuestion;
+      if (!T) return;
+      T.premium = true;
+      if (T._gate) T._gate();
+      if (T._buildSheet) T._buildSheet();
+      document.body.classList.add('mqu-printing');
+    } },
   { key: 'baking-tray', p: 'btr', apparatus: '.btr-printsheet', chrome: '.btr-foot',
     /* ⚠ THE SHARED PREMIUM-FORCING CANNOT FIND THIS TOOL, and the reason
        is a design decision rather than an omission. The generic finder

@@ -1434,27 +1434,27 @@
     ]
   },
   "missing-question": {
-    "name": "Falta la pregunta",
+    "name": "El atril",
     "slug": "descomponer-numeros-y-formular-preguntas-primaria",
-    "tagline": "Ha pasado algo y todavía nadie ha preguntado nada. La persiana es la pregunta, y el sitio donde se baja es cuál.",
-    "metaTitle": "Descomponer números y formular la pregunta — Primaria",
-    "metaDescription": "Herramienta gratuita para la pizarra: una repisa, el aire y un total. Bajen una persiana y la clase decide qué preguntar; bajen las dos y caben varias respuestas.",
+    "tagline": "Tres sitios vacíos y ningún número: antes de que se diga nada, la clase decide qué se podría preguntar.",
+    "metaTitle": "El atril: descomponer números y formular preguntas · Primaria",
+    "metaDescription": "Instrumento gratuito para proyectar en clase: tres sitios vacíos en un atril. Vayan diciendo una cosa cada vez y la clase decide qué se puede preguntar.",
     "about": [
-      "Una repisa con marcas encima, el aire por encima con más marcas, y un número que dice cuántas había en total. Nada más. Ni una frase, ni un dibujo de lo que pasó, ni una pregunta: la pregunta la va a fabricar la clase. Las marcas de la repisa y las del aire están dibujadas exactamente igual, así que la herramienta nunca regala el reparto por el que pregunta.",
-      "La persiana es la pregunta. Bajada sobre la repisa, pregunta cuántas se quedaron; bajada sobre el aire, cuántas se fueron; ninguna de las dos frases se escribe nunca. Bajen las dos y deja de ser una pregunta con una sola respuesta: solo queda el total, y le siguen encajando varias parejas distintas. Eso es descomponer un número de más de una manera, visto en lugar de contado.",
-      "La lista enumera; nunca compara. Muestra lo que todavía encaja con lo que se ve. No corrige la respuesta de ningún niño, no lleva la cuenta de cuántas parejas se han encontrado y no califica ninguna pregunta como la mejor. No hay puntos ni reloj. Esta rutina está basada en la investigación, no en la evidencia: formular preguntas propias está ampliamente descrito en la literatura, y no afirmamos ningún efecto medido.",
-      "Aquí todo es gratis: cada escena nueva, las dos persianas y la lista de posibilidades. El plan Docente añade la hoja para imprimir — la repisa y las marcas tal como acaba de verlas la clase, con renglones para las preguntas y las operaciones que les corresponden."
+      "Tres sitios vacíos en un atril, y nada más. Ningún número, ninguna frase, ningún dibujo de lo que está pasando: la historia la ponen ustedes en voz alta y el atril solo sostiene las cantidades. Al principio no se ha dicho nada, así que todavía no hay nada que responder — y esa es exactamente la primera tarea de la clase: decidir qué se podría preguntar.",
+      "A partir de ahí, cada vez que pulsan se añade una sola cosa. Primero se dibuja cómo se relacionan los tres sitios; después un número; después el otro. El atril empieza vacío y solo va recibiendo lo que ustedes le dicen, así que la clase ve el momento exacto en que la pregunta pasó a tener una única respuesta. El sitio que queda sin decir es la pregunta, y las fichas de lo que falta van apareciendo debajo, de una en una, para contarlas en voz alta.",
+      "Los mismos tres sitios se pueden relacionar de tres maneras: pasó algo, dos hacen uno, o uno tiene más que el otro. Cambien la manera y los dos números dichos siguen ahí, pero lo que falta es otro. Es el mismo material dicho de otra forma, y da otra respuesta: eso es lo que convierte el atril en una conversación y no en un ejercicio.",
+      "Aquí no hay puntos, ni reloj, ni rachas, y ninguna pregunta de la clase se corrige ni se señala como la mejor; el atril nunca compara nada con lo que dice un niño. Esta rutina está basada en la investigación, no en la evidencia: trabajar una situación sin números antes de resolverla está ampliamente descrito en la literatura, y no afirmamos ningún efecto medido. Encaja con lo que piden los planes de estudio del primer ciclo sobre sumar, restar y comparar cantidades. Todo el instrumento es gratis: las tres maneras de relacionarlos, cada cosa que les digan y contar lo que faltaba. El plan Docente añade la hoja impresa, que lleva los tres sitios tal como los acaba de ver la clase, con renglones para las preguntas que hicieron."
     ],
     "howToUse": [
-      "Repartan una escena y no digan nada. Primero se mira: todavía nadie ha preguntado nada.",
-      "Recojan las preguntas antes de bajar nada: «¿Qué se podría preguntar aquí?». Todas valen y ninguna se corrige.",
-      "Bajen una persiana sobre la parte que la clase quiere averiguar. Ahora hay un número que encontrar, y el total y lo visible son toda la información.",
-      "Bajen las dos persianas y vuelvan a hacer la misma pregunta. Ahora encaja más de una pareja, y la lista las mostrará todas cuando termine la discusión."
+      "Elijan la manera de relacionar los tres sitios y cuál de ellos tendrá que averiguar la clase. Después cuenten en voz alta lo que está pasando, sin decir todavía ningún número.",
+      "Pregunten con el atril vacío: «¿Qué se podría preguntar aquí?». Recojan todo lo que salga y no corrijan nada. Ese momento es la mitad de la rutina.",
+      "Dibujen cómo se relacionan los tres y digan un número. Paren ahí y pregunten qué sabemos ya y qué no sabemos todavía. Después digan el otro número: ahora la pregunta tiene una sola respuesta.",
+      "Cuenten juntos lo que falta, mientras las fichas van apareciendo de una en una debajo del atril. Si quieren seguir, cambien la manera de relacionarlos con esos mismos dos números y vuelvan a preguntar."
     ],
     "classroomIdeas": [
-      "Dos minutos de rutina: una escena, tres preguntas de la clase y la persiana bajada sobre la que más quieran resolver.",
-      "Con las dos persianas bajadas, acepten una pareja de la clase y pregunten si habría servido otra. Abran la lista solo cuando alguien haya encontrado la segunda.",
-      "Repartan dos veces el mismo total con distinto reparto en la repisa. El número no cambia y todo lo demás sí: por eso el total por sí solo no dice qué pasó."
+      "Rutina de tres minutos para abrir la clase: un atril vacío, tres preguntas de los niños y solo entonces el primer número.",
+      "Con un solo número dicho, hagan la pregunta difícil: «¿qué sabemos ya, y qué no sabemos todavía?». Es el momento en que un dato se distingue de una respuesta.",
+      "Cuenten la misma historia con las tres maneras de relacionar los tres sitios. Los dos números dichos se quedan igual y lo que falta cambia: la respuesta depende de cómo se relacionan, no solo de los números."
     ]
   },
   "the-gap": {

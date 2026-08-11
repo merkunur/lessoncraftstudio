@@ -202,10 +202,28 @@ const SEEDS = {
      still measured 720x652, i.e. very slightly WORSE. Contain letterboxes
      and nothing is cut. Read the .webp after any change here — the log
      says ok either way. */
+  /* ⭐⭐ #55 AT REST IS THREE EMPTY PLACES, which is the honest opening
+     frame and says nothing at all on a 400px card. The card must carry
+     the moment the tool exists for: the linkage drawn, BOTH knowns on
+     their slips, and the third place standing open as the question.
+
+     ⚠⚠ ALL THREE OLD SELECTORS ARE GONE. `.mqu-b-ledge`, `.mqu-b-air`
+     and `.mqu-b-tally` belonged to the retired covering build. A seed
+     that clicks nothing photographs the REST STATE and the generator
+     still logs `ok` — the recorded #54 stale-seed defect, which is why
+     this note names the selectors rather than trusting them.
+
+     ⚠ Driven by BUTTON, not by the model: `.mqu-b-link` then the two
+     tellable places. Which places those are depends on the arrangement
+     (`SUM_AT` puts the question on a different niche per family), so the
+     seed presses BOTH `mqu-b-t0` and `mqu-b-t1` and lets the one that is
+     the question refuse harmlessly — the refusal is visible for 200ms
+     and gone long before the shot. */
   'missing-question': [
-    { sel: '.mqu-b-ledge', wait: 320 },
-    { sel: '.mqu-b-air', wait: 320 },
-    { sel: '.mqu-b-tally', wait: 700 }
+    { sel: '.mqu-b-link', wait: 420 },
+    { sel: '.mqu-b-t0', wait: 300 },
+    { sel: '.mqu-b-t1', wait: 300 },
+    { sel: '.mqu-b-t2', wait: 700 }
   ],
   /* ⭐ #54 AT REST IS A HALF-EMPTY TRAY, which says nothing. The card
      must carry the moment the tool exists for: BOTH leaves holding the

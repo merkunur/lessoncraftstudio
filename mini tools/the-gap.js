@@ -1484,7 +1484,21 @@
         '.crt-sheet{display:none}',
         /* ⚠ scoped to print. lcs-shell.css ships no @media print block at
            all, so a real worksheet MUST reset the shell. */
-        '@media print{.lcs-shell,.crt-wrap{display:none !important}',
+        /* ⚠⚠ `.lcs-shell` IS NOT A CLASS. It appears once in the whole
+           stylesheet — on line 2, in the comment naming the file. The
+           shell emits `.lcs-app`, `.lcs-header`, `.lcs-title`,
+           `.lcs-instruction`, `.lcs-controls`, `.lcs-stage`. So this
+           rule hid only the wrap, and the shell header, the tool title,
+           the instruction line and the four chrome buttons REACHED THE
+           PAPER on every sheet. Four tools shipped the same typo from
+           one ancestor: this one, `missing-question`, `shape-stretcher`
+           and `the-queue`.
+           ⚠ Still UNSCOPED, unlike the `body.<ns>-printing` form eight
+           other tools use — a free visitor pressing Ctrl+P gets a blank
+           page rather than a sheet. That is the lower-severity half and
+           it is left for this tool's own next touch, because scoping it
+           means moving its print flow, which is not verified here. */
+        '@media print{.lcs-header,.lcs-controls,.crt-wrap{display:none !important}',
         '.crt-sheet{display:block !important;padding:0}',
         '.crt-sh-h{font-family:"Baloo 2",system-ui,sans-serif;font-size:19pt;color:#000;margin:0 0 10pt}',
         '.crt-sh-frame{border:1pt solid #000;border-radius:6pt;padding:10pt;margin:0 0 10pt}',

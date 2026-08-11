@@ -1,120 +1,119 @@
 /* =====================================================================
-   TOOL #53 — THE PAIR GATE
+   TOOL #53 — THE PAIR GATE  (rebuilt 2026-08-11, the transformation)
    =====================================================================
-   A parade of marchers, an archway wide enough for exactly N of them,
-   and a yard on the far side. The class predicts whether everybody will
-   get through; only then does the bar lift. Ranks are called one at a
-   time, and when fewer than N are left, THE ARCHWAY REFUSES. What is
-   left standing is not marked in any way — instead the EMPTY SEAT beside
-   it is drawn, which is the whole difference between "left over" and
-   "wrong".
+   A parade of marchers, an archway in a real wall exactly N of them
+   wide, and a courtyard on the far side. The class CHOOSES the parade
+   from a numeral strip, COMMITS a numeral — how many will be left
+   standing — and only then does the boom lift. Ranks are called one at
+   a time; when fewer than N remain, THE ARCHWAY REFUSES, for ever,
+   and what is drawn beside whoever is left standing is THE EMPTY SEAT,
+   never a mark on the marcher.
 
-   ⭐⭐ THEN THE THEOREM. A second parade arrives from below. Both
-   leftovers step onto THE SILL — a plate exactly as wide as the archway
-   and as every rank plate, drawn from the first frame. A full plate is a
-   rank, and a rank goes through. Odd + odd = even, and the child watched
-   the reason rather than the result.
+   ⭐⭐ THE 2026-08-11 REBUILD ANSWERS THE RECORDED OBJECTIONS INSTEAD
+   OF RESTATING THEM (premium-tools-v4.md:678; operator-ordered):
+   - GATE 4 said "parity has no degrees of freedom; nothing the child
+     chooses changes the answer." That was TRUE OF THIS FILE: the
+     parade size was held by a random number generator. Now the class
+     chooses N from a 1-20 numeral strip, the inverse problem ("find a
+     parade that leaves exactly 2 at three abreast") exists, and the
+     prediction is a NUMERAL 0..k-1 — a falsifiable computed claim,
+     not a coin flip. Strachota 2023's structure-based definition
+     ("odd means one is left when you pair") is the literal question
+     the chips ask.
+   - ⭐⭐ THE THEOREM WAS RIGGED AND IS NOW HONEST. The old second
+     parade was silently nudged so it always left a remainder — an
+     unfalsifiable theorem. The second parade is now CHOSEN, any
+     number, multiples of k included; a child who brings 8 to a
+     2-abreast archway watches it march clean through and finds
+     NOTHING to put on the sill. Odd+odd=even is only an argument
+     because odd+even can now be tried and seen to fail.
+   - GATE 1 (apparatus shipped 3x): the moat is the GRAMMAR, not the
+     pairing. ten-frame pairs / K-016 / lids all display a pairing
+     after the fact; only here does the class commit a numeral claim
+     about the remainder BEFORE the structure reveals it, then watch
+     two remainders recombine into a rank. Choose -> commit -> reveal,
+     three times per run: parade, second parade, sill.
 
-   ⚖️ THE FENCE RETURNED "NOTHING SURVIVES", AND SO DID THE v4 REJECTED
-   LIST TWO YEARS EARLIER. Both are recorded here rather than answered.
-   `docs/claude-md/premium-tools-v4.md:678` already refused this idea by
-   name — "The Pairing Rail … odd/even is a UNIT, NOT A YEAR (gate 2),
-   and the repertoire tops out around 30" — and the fence found the
-   shelf-life objection was the LESSER one:
-   - ⭐⭐ `lids.js` (#39) IS the N-abreast gate with a different skin.
-     MIN_LIDS 2, MAX_LIDS 4, `Math.floor(s.n / k)`, and its own docblock:
-     "THE REMAINDER IS HONEST… it stays on the table and is the most
-     interesting thing on it." My escape from the rejection was built.
-   - ⭐ Printable K-016 already ships the pairing WITH the visible loner
-     in eleven languages — "two-column pairing layout makes the leftover
-     visible", `data-lcs-leftover="1"`. So the pitch's claim that
-     "nothing anywhere animates the pairing" is FALSE on two surfaces and
-     true only of the word "animates".
-   - `compare-balance-core` owns child-made 1:1 pairing whose leftover IS
-     the answer; 2.OA.C.3 is choice-board's, in eleven locales.
-   ⚠ #47's rule binds: redefining the deliverable is the operator's call.
-   The objections are on the record and the tool is built around what
-   they actually showed.
-
-   ⚠⚠ AND THE PRODUCT NAME IS BROKEN TWICE, WHICH IS WHY NO PART IS
-   NAMED FOR IT.
-   - `gate` is this platform's PAYWALL WORD: fifty-one tools ship
-     `gateTitle`/`gateBody`/`gateCta` string keys. A part called the gate
-     would be named after the thing that sells the subscription.
-   - ⭐⭐ `pair` LITERALLY MEANS "EVEN" IN FRENCH — `choice-board-
-     activity.js:142` ships "Ce nombre est-il pair ou impair ?" — and es
-     `par`, pt `par`, it `pari` the same. The product name is the ANSWER,
-     in four of the eleven languages, in a tool whose question is
-     odd-or-even. The English product name is the operator's and stays;
-     every locale names the apparatus for the archway instead, and no
-     part is called a pair or a gate in any language.
-   Also taken: `counter` (lids, all 11), `leftover` (lids' hintLeftover
-   ×11), `file` (arrow-strip's FRENCH NAME), `door` (number-hotel),
-   `queue`/`rank`/`line-up` (all mean ROW in the Romance and Germanic
-   banks). PARTS: THE ARCHWAY · THE PARADE · THE MARCHERS · THE SILL.
+   ⚠⚠ THE PRODUCT NAME IS BROKEN TWICE, WHICH IS WHY NO PART IS NAMED
+   FOR IT. `gate` is this platform's PAYWALL WORD (fifty-one tools ship
+   gateTitle/gateBody/gateCta), and ⭐⭐ `pair` LITERALLY MEANS "EVEN"
+   in fr/es/pt (`pair`/`par`) and it (`pari`) — the product name is the
+   ANSWER in four of eleven languages. The English product name is the
+   operator's and stays; every locale names the apparatus for the
+   archway; no part is called a pair or a gate in any language. Also
+   taken: `counter` (lids), `leftover` (lids), `file` (arrow-strip's
+   FRENCH NAME), `door` (number-hotel), `queue`/`rank`/`line-up` (mean
+   ROW in the Romance/Germanic banks).
+   PARTS: THE ARCHWAY - THE PARADE - THE MARCHERS - THE SILL.
 
    ⚠⚠ "LONER" MEASURED FREE IN ALL ELEVEN AND IS STILL FORBIDDEN.
-   Naming the part delivers the verdict the drawing exists to remove. A
-   marcher left standing is byte-identical to every other marcher; what
-   is drawn is THE EMPTY SEAT BESIDE IT, dashed, in muted `#7A6A55` at
-   4.38:1. There is no red and no green in this palette, deliberately —
-   so nothing about being left over may look like being wrong.
+   Naming the part delivers the verdict the drawing exists to remove.
+   A marcher left standing is byte-identical to every other marcher;
+   what is drawn is THE EMPTY SEAT BESIDE IT, dashed #7A6A55. There is
+   no red and no green in this palette, deliberately — nothing about
+   being left over may look like being wrong. The committed prediction
+   chip stays pressed as the record of the claim and is NEVER marked
+   right or wrong; the tableau reveals, the room compares.
 
-   ⚠ THE CUTSCENE IS KILLED STRUCTURALLY, not by adding a button.
-   The bar is DOWN until the class commits a prediction, so the first
-   thing that happens is a judgement rather than an animation; the child
-   then calls ONE RANK AT A TIME; and nothing is ever dragged (#41's
-   flag scored DEAD on all nine liveness paths, and dragging would also
-   collide with `compare-balance-core`'s dragged pairing).
-   ⭐ The prediction control would otherwise be #39's consequence-free
-   furniture — a control whose only output is its own highlight. Its
-   consequence is in ANOTHER element: the bar lifts.
+   ⚠ THE CUTSCENE STAYS KILLED STRUCTURALLY. The boom is down until a
+   numeral is committed; ranks are called one at a time by hand; the
+   second parade auto-marches ONLY behind its own committed prediction
+   (first parade by action, second by anticipation — the progression
+   is the pedagogy); nothing is ever dragged.
 
-   ⚠ AND THE ART PANEL FOUND TWO DEFECTS WIDER THAN THIS TOOL, recorded
-   here because they are worth more than this file:
-   - ⭐⭐ `#1E8FD4` on the working surface `#F6EAD3` measures 2.97:1 — the
-     palette's own FOCUS colour fails the 3:1 non-text floor on the
-     palette's own working surface, almost certainly repo-wide.
-   - ⭐ `K-016-odd-or-even-pairs.js:63` draws its leftover in 2.5px
-     dashed `#F2784B` = 2.52:1. The one mark carrying that sheet's whole
-     point is the least visible thing on it.
-   - `#E7DCC8` is 1.23:1 on cream and can never be a load-bearing
-     boundary in any tool.
+   ⭐ NUMERAL REVEAL DISCIPLINE (the visible abstraction): k lives on
+   the keystone always (the apparatus's own rule); N appears when
+   chosen (a given, not an answer); the running through-count appears
+   with the FIRST rank, never before (skip-counting made visible);
+   the per-column counts and the standing count appear ONLY at
+   standstill — at k=2, N=13 the tableau reads 13 -> columns 6 6 ->
+   1 beside one dashed seat: CCSS 2.OA.C.3's two equal addends shown
+   by the apparatus itself, with no operator glyph ever drawn.
 
-   FREE   the whole apparatus: every width, every rank, the refusal, and
-          the sill.
-   PAID   the paper parade to cut out and line up.
+   ⚠ ART LAWS BOUGHT ELSEWHERE AND HONOURED HERE: marchers are the
+   house chip (coral body in its #A34122 ring — coral is 2.3-2.5:1
+   bare and NEVER appears without the ring); ink never on teal; the
+   sheen is resolution-gated; no gradients on apparatus; the refusal
+   is the BUILDING answering (the wall thuds, the reveals light coral)
+   never the traveller; a lifted boom stays opacity 1 (a boom that
+   fades has stopped being a boom); the sill's full-plate recolour
+   grey->teal states STRUCTURE ("this plate is now a rank"), and the
+   plate then takes the byte-identical rank march every rank gets —
+   no flourish, because production values can deliver a verdict and
+   that counts as delivering a verdict.
+
+   ⚠ THE MARCH IS A PERSISTENT-NODE FLY (the #58 measured trap: a
+   re-appended node teleports under a CSS transition; this file moves
+   the REAL row node under one rAF interpolator, so re-parenting is
+   legal). All k marchers of a rank arrive in the SAME frame — one
+   arrival of k things is a GROUPING; k arrivals at k times would be
+   a count, and a rank is one thing.
+
+   FREE   the whole apparatus: every width, every parade, the refusal,
+          the theorem, the sill.
+   PAID   the paper parade: a standable archway, twenty marchers, the
+          fold-to-width plate and the yard mat, to cut out and run the
+          same routine at a desk.
    ===================================================================== */
 (function () {
   'use strict';
 
   var GEO = {
-    /* ⚠ CAP IS ARITHMETIC, NOT TASTE. The art panel derived it: at a
-       row pitch of 82 and a column pitch of 112 in a 1000x1180 field,
-       twenty marchers are 18.4px across with a 5.9px row gap at a 320px
-       card, and an eleventh row breaks the thumbnail's aspect. The 34px
-       canvas floor is a TAP floor and does not bind here, because
-       marchers are not tap targets (the #48 ruling).
-       ⚠⚠ AND THE FIVE viewBox CONSTANTS THAT DERIVED IT ARE NOT KEPT.
-       I declared ROW_PITCH, COL_PITCH, MARCHER, VB_W and VB_H from the
-       panel's spec and then built the apparatus in CSS flex rather than
-       SVG, so nothing ever read them. That is precisely the
-       `exchange-machine` ceremony — five constants no call site reaches,
-       made to look shipped by the named-constants convention — and the
-       dead-constant law caught all five. The DERIVATION belongs in this
-       comment; only the number that is used belongs in the object. */
+    /* CAP=20 is curriculum arithmetic: CCSS 2.OA.C.3 caps the parity
+       repertoire at 20 in the standard's own text. */
     CAP: 20,
     MIN_N: 2,
     MAX_N: 5,
 
-    /* motion, ms. ⚠ Reduced motion COMPRESSES, never skips. */
+    /* motion, ms. Reduced motion COMPRESSES, never skips — except the
+       T_SILL hold, which is a wait, not movement. */
     T_RANK: 420,
     T_BAR: 380,
     T_REFUSE: 200,
-    /* ⚠⚠ THE SILL BEAT does NOT pass through _dur(): a wait is not
-       movement, and the class must see two leftovers standing on one
-       plate BEFORE it becomes a rank, or the theorem reads as a trick. */
     T_SILL: 800,
+    T_THUD: 90,
+    T_RECOLOR: 200,
+    T_STEP2: 300,
     RM_F: 0.28,
     RM_FLOOR: 90,
 
@@ -123,7 +122,9 @@
     SND_BAR: 520,
     SND_SILL: 880,
     SND_REFUSE: 300,
-    SND_DEBOUNCE: 160
+    /* ⚠ T_, not SND_ — every other SND_* is a FREQUENCY and this one
+       is milliseconds (#58 named this file for shipping it wrong). */
+    T_SND_DEBOUNCE: 160
   };
 
   var PairGate = {
@@ -145,52 +146,40 @@
         fi: 'Holvi'
       },
       instruction: {
-        en: 'The archway takes exactly this many abreast. Say first whether everybody will get through, then call them forward a rank at a time and find out.',
-        de: 'Der Rundbogen lässt genau so viele nebeneinander durch. Sagt zuerst, ob alle durchkommen, und ruft sie dann nach vorn — immer so viele auf einmal — und seht nach.',
-        fr: 'L’arche laisse passer exactement ce nombre-là de front. Dites d’abord si tout le monde passera, puis appelez-les en avant, autant à la fois, et voyez.',
-        es: 'El pórtico deja pasar exactamente a esta cantidad juntos. Digan primero si pasarán todos y luego llámenlos hacia delante, tantos cada vez, y compruébenlo.',
-        pt: 'O pórtico deixa passar exatamente esta quantidade lado a lado. Digam primeiro se todos vão passar e depois chamem-nos para a frente, tantos por vez, e confiram.',
-        it: 'L’arcata lascia passare esattamente questo numero di persone affiancate. Dite prima se passeranno tutti, poi chiamateli avanti, tanti alla volta, e vedete.',
-        nl: 'De doorgang laat er precies zoveel naast elkaar door. Zeg eerst of iedereen erdoor komt, roep ze dan naar voren, steeds zoveel tegelijk, en kijk wat er gebeurt.',
-        sv: 'Valvet släpper igenom precis så många i bredd. Säg först om alla kommer igenom, ropa dem sedan fram, så många åt gången, och se efter.',
-        da: 'Hvælvingen lukker præcis så mange igennem ved siden af hinanden. Sig først, om alle kommer igennem, kald dem så frem, så mange ad gangen, og se efter.',
-        no: 'Hvelvingen slipper gjennom nøyaktig så mange ved siden av hverandre. Si først om alle kommer gjennom, rop dem så fram, så mange om gangen, og se etter.',
-        fi: 'Holvista mahtuu kerralla juuri näin monta rinnakkain. Sanokaa ensin, pääsevätkö kaikki läpi, ja kutsukaa heidät sitten eteen, näin monta kerrallaan, ja katsokaa.'
+        en: 'Choose the parade, say how many will be left standing, then call them forward a rank at a time and find out.',
+        de: 'Wählt den Umzug und sagt, wie viele stehen bleiben werden. Dann ruft sie nach vorn — immer so viele auf einmal — und seht nach.',
+        fr: 'Choisissez le défilé, dites combien resteront debout, puis appelez-les en avant, autant à la fois, et voyez.',
+        es: 'Elijan el desfile, digan cuántos se quedarán de pie y luego llámenlos hacia delante — tantos juntos cada vez — y compruébenlo.',
+        pt: 'Escolham o desfile, digam quantos vão ficar de pé e depois chamem-nos para a frente, uma leva de cada vez, e confiram.',
+        it: 'Scegliete la sfilata, dite quanti resteranno in piedi, poi chiamateli avanti, tanti affiancati per volta, e vedete.',
+        nl: 'Kies de optocht, zeg hoeveel er blijven staan, roep ze dan naar voren, steeds zoveel tegelijk, en kijk wat er gebeurt.',
+        sv: 'Välj paraden och säg hur många som blir stående. Ropa dem sedan fram, så många i bredd åt gången, och se efter.',
+        da: 'Vælg optoget, sig hvor mange der bliver stående, kald dem så frem, så mange ad gangen, og se efter.',
+        no: 'Velg opptoget, si hvor mange som blir stående, rop dem så fram, så mange om gangen, og se etter.',
+        fi: 'Valitkaa kulkue, sanokaa, kuinka moni jää seisomaan, ja kutsukaa heidät sitten eteen, näin monta kerrallaan, ja katsokaa, miten käy.'
       },
 
       ariaYard: {
-
         en: 'The parade waiting, the archway, and the yard beyond it.',
-
         de: 'Der wartende Umzug, der Rundbogen und der Hof dahinter.',
-
         fr: 'Le défilé qui attend, l’arche, et la cour au-delà.',
-
         es: 'El desfile esperando, el pórtico y el patio del otro lado.',
-
         pt: 'O desfile esperando, o pórtico e o pátio do outro lado.',
-
         it: 'La sfilata che aspetta, l’arcata e il cortile oltre.',
-
         nl: 'De optocht die wacht, de doorgang en het plein erachter.',
-
         sv: 'Paraden som väntar, valvet och gården bakom.',
-
         da: 'Optoget der venter, hvælvingen og gården bagved.',
-
         no: 'Opptoget som venter, hvelvingen og gården bak.',
-
         fi: 'Odottava kulkue, holvi ja piha sen takana.'
-
       },
       ariaWaiting: {
         en: '{n} still waiting',
-        de: '{n} warten noch',
-        fr: '{n} attendent encore',
-        es: '{n} siguen esperando',
+        de: 'Noch wartend: {n}',
+        fr: 'encore en attente : {n}',
+        es: 'En espera: {n}',
         pt: '{n} ainda esperando',
-        it: '{n} aspettano ancora',
-        nl: '{n} wachten nog',
+        it: 'In attesa: {n}',
+        nl: 'Wachten nog: {n}',
         sv: '{n} väntar fortfarande',
         da: '{n} venter stadig',
         no: '{n} venter fortsatt',
@@ -199,36 +188,35 @@
       ariaThrough: {
         en: '{n} through, in {r} ranks',
         de: '{n} durch, {r} mal nebeneinander',
-        fr: '{n} passés, en {r} appels',
-        es: '{n} han pasado, en {r} llamadas',
-        pt: '{n} passaram, em {r} chamadas',
-        it: '{n} passati, in {r} chiamate',
+        fr: 'passés : {n}, appels : {r}',
+        es: 'Al patio: {n}, llamadas: {r}',
+        pt: '{n} passaram, chamadas: {r}',
+        it: 'Passati: {n}, chiamate: {r}',
         nl: '{n} erdoor, in {r} keer',
         sv: '{n} igenom, på {r} rop',
         da: '{n} igennem, på {r} kald',
         no: '{n} gjennom, på {r} rop',
         fi: '{n} läpi, kutsuja {r}'
       },
-      /* ⚠⚠ A TALLY, NOT A PHRASE — and this is the THIRD generation of
-         the same defect in this tool. '{e} empty places' renders '1 empty
-         placeS' at two abreast, which is the DEFAULT width, so the
-         commonest state read wrong. Nine locales force the same
-         agreement (de '1 leere Plätze', sv '1 tomma platser'), so all
-         nine use this shape; Finnish alone keeps the natural phrase,
-         because its partitive singular after a numeral is right at 1 as
-         well as at 4. */
+      /* ⚠ A TALLY, NOT A PHRASE — '{e} empty places' renders '1 empty
+         placeS' at two abreast, the DEFAULT width. ⚠⚠ The old note
+         claimed Finnish partitive was "right at 1 as well as at 4" —
+         the Finnish panel REFUTED it (after the numeral 1 Finnish
+         takes the NOMINATIVE), so all ten locales now ride the tally
+         shape. A grammar claim about a locale is a measurement, and
+         only that locale's native can take it. */
       ariaStand: {
         en: '{n} left standing. Empty places beside them: {e}',
-        de: '{n} bleiben stehen, leere Plätze daneben: {e}',
-        fr: '{n} restent debout, places vides à côté : {e}',
-        es: '{n} se quedan de pie, lugares vacíos al lado: {e}',
-        pt: '{n} ficam de pé, lugares vazios ao lado: {e}',
-        it: '{n} restano in piedi, spazi vuoti accanto: {e}',
-        nl: '{n} blijven staan, lege plekken ernaast: {e}',
+        de: 'Stehen geblieben: {n}, leere Plätze daneben: {e}',
+        fr: 'Il en reste {n} debout, places vides à côté : {e}',
+        es: 'De pie: {n}, lugares vacíos al lado: {e}',
+        pt: 'De pé: {n}. Lugares vazios ao lado: {e}',
+        it: 'In piedi: {n}, spazi vuoti accanto: {e}',
+        nl: 'Blijven staan: {n}, lege plekken ernaast: {e}',
         sv: '{n} blir stående, tomma platser bredvid: {e}',
         da: '{n} bliver stående, tomme pladser ved siden af: {e}',
         no: '{n} blir stående, tomme plasser ved siden av: {e}',
-        fi: '{n} jää seisomaan, vieressä {e} tyhjää paikkaa'
+        fi: '{n} jää seisomaan, tyhjiä paikkoja vieressä: {e}'
       },
       ariaSill: {
         en: 'the sill, as wide as the archway',
@@ -245,120 +233,100 @@
       },
 
       setN: {
-
         en: 'How many abreast',
-
         de: 'Wie viele nebeneinander',
-
         fr: 'Combien de front',
-
         es: 'Cuántos juntos',
-
         pt: 'Quantos lado a lado',
-
         it: 'Quanti affiancati',
-
         nl: 'Hoeveel naast elkaar',
-
         sv: 'Hur många i bredd',
-
         da: 'Hvor mange ved siden af hinanden',
-
         no: 'Hvor mange ved siden av hverandre',
-
         fi: 'Montako rinnakkain'
-
       },
       n2: {
-        en: 'two',
-        de: 'zwei',
-        fr: 'deux',
-        es: 'dos',
-        pt: 'dois',
-        it: 'due',
-        nl: 'twee',
-        sv: 'två',
-        da: 'to',
-        no: 'to',
-        fi: 'kaksi'
+        en: 'two', de: 'zwei', fr: 'deux', es: 'dos', pt: 'dois',
+        it: 'due', nl: 'twee', sv: 'två', da: 'to', no: 'to', fi: 'kaksi'
       },
       n3: {
-        en: 'three',
-        de: 'drei',
-        fr: 'trois',
-        es: 'tres',
-        pt: 'três',
-        it: 'tre',
-        nl: 'drie',
-        sv: 'tre',
-        da: 'tre',
-        no: 'tre',
-        fi: 'kolme'
+        en: 'three', de: 'drei', fr: 'trois', es: 'tres', pt: 'três',
+        it: 'tre', nl: 'drie', sv: 'tre', da: 'tre', no: 'tre', fi: 'kolme'
       },
       n4: {
-        en: 'four',
-        de: 'vier',
-        fr: 'quatre',
-        es: 'cuatro',
-        pt: 'quatro',
-        it: 'quattro',
-        nl: 'vier',
-        sv: 'fyra',
-        da: 'fire',
-        no: 'fire',
-        fi: 'neljä'
+        en: 'four', de: 'vier', fr: 'quatre', es: 'cuatro', pt: 'quatro',
+        it: 'quattro', nl: 'vier', sv: 'fyra', da: 'fire', no: 'fire', fi: 'neljä'
       },
       n5: {
-        en: 'five',
-        de: 'fünf',
-        fr: 'cinq',
-        es: 'cinco',
-        pt: 'cinco',
-        it: 'cinque',
-        nl: 'vijf',
-        sv: 'fem',
-        da: 'fem',
-        no: 'fem',
-        fi: 'viisi'
+        en: 'five', de: 'fünf', fr: 'cinq', es: 'cinco', pt: 'cinco',
+        it: 'cinque', nl: 'vijf', sv: 'fem', da: 'fem', no: 'fem', fi: 'viisi'
       },
 
+      /* ---- the act strip ------------------------------------------ */
+      sizeAsk: {
+        en: 'Choose the parade',
+        de: 'Wählt den Umzug',
+        fr: 'Choisissez le défilé',
+        es: 'Elijan el desfile',
+        pt: 'Escolham o desfile',
+        it: 'Scegliete la sfilata',
+        nl: 'Kies de optocht',
+        sv: 'Välj paraden',
+        da: 'Vælg optoget',
+        no: 'Velg opptoget',
+        fi: 'Valitkaa kulkue'
+      },
+      sizeChip: {
+        en: 'A parade of {n}',
+        de: 'Ein Umzug mit {n}',
+        fr: 'Un défilé de {n}',
+        es: 'Un desfile de {n}',
+        pt: 'Um desfile de {n}',
+        it: 'Una sfilata di {n}',
+        nl: 'Een optocht van {n}',
+        sv: 'En parad på {n}',
+        da: 'Et optog på {n}',
+        no: 'Et opptog på {n}',
+        fi: '{n} marssijan kulkue'
+      },
+      predAsk: {
+        en: 'How many will be left standing?',
+        de: 'Wie viele werden stehen bleiben?',
+        fr: 'Combien resteront debout ?',
+        es: '¿Cuántos se quedarán de pie?',
+        pt: 'Quantos vão ficar de pé?',
+        it: 'Quanti resteranno in piedi?',
+        nl: 'Hoeveel blijven er staan?',
+        sv: 'Hur många blir stående?',
+        da: 'Hvor mange bliver stående?',
+        no: 'Hvor mange blir stående?',
+        fi: 'Kuinka moni jää seisomaan?'
+      },
+      predChip: {
+        en: '{s} left standing',
+        de: 'Stehen bleiben: {s}',
+        fr: 'Il en restera {s} debout',
+        es: '{s} de pie',
+        pt: '{s} de pé',
+        it: '{s} in piedi',
+        nl: 'Blijven staan: {s}',
+        sv: '{s} blir stående',
+        da: '{s} bliver stående',
+        no: '{s} blir stående',
+        fi: '{s} jää seisomaan'
+      },
       predYes: {
-
         en: 'Everybody will get through',
-
         de: 'Alle kommen durch',
-
         fr: 'Tout le monde passera',
-
         es: 'Pasarán todos',
-
         pt: 'Todos vão passar',
-
         it: 'Passeranno tutti',
-
         nl: 'Iedereen komt erdoor',
-
         sv: 'Alla kommer igenom',
-
         da: 'Alle kommer igennem',
-
         no: 'Alle kommer gjennom',
-
         fi: 'Kaikki pääsevät läpi'
-
-      },
-      predNo: {
-        en: 'Somebody will be left standing',
-        de: 'Jemand bleibt stehen',
-        fr: 'Quelqu’un restera debout',
-        es: 'Alguien se quedará de pie',
-        pt: 'Alguém vai ficar de pé',
-        it: 'Qualcuno resterà in piedi',
-        nl: 'Er blijft iemand staan',
-        sv: 'Någon blir stående',
-        da: 'Nogen bliver stående',
-        no: 'Noen blir stående',
-        fi: 'Joku jää seisomaan'
       },
       call: {
         en: 'Call the next rank forward',
@@ -413,52 +381,93 @@
         fi: 'Uusi kulkue'
       },
 
-      saidPredYes: {
-
-        en: 'The class says everybody gets through. The bar is up.',
-
-        de: 'Die Klasse sagt: Alle kommen durch. Die Schranke ist oben.',
-
-        fr: 'La classe dit que tout le monde passera. La barrière est levée.',
-
-        es: 'La clase dice que pasarán todos. La barrera está levantada.',
-
-        pt: 'A turma diz que todos vão passar. A barreira está levantada.',
-
-        it: 'La classe dice che passeranno tutti. La sbarra è alzata.',
-
-        nl: 'De klas zegt dat iedereen erdoor komt. De slagboom staat omhoog.',
-
-        sv: 'Klassen säger att alla kommer igenom. Bommen är uppe.',
-
-        da: 'Klassen siger, at alle kommer igennem. Bommen er oppe.',
-
-        no: 'Klassen sier at alle kommer gjennom. Bommen er oppe.',
-
-        fi: 'Luokka sanoo, että kaikki pääsevät läpi. Puomi on ylhäällä.'
-
+      /* ---- announcements (mirrored on the visible say-line) -------- */
+      saidParade: {
+        en: '{n} in the parade. How many will be left standing?',
+        de: '{n} im Umzug. Wie viele werden stehen bleiben?',
+        fr: '{n} dans le défilé. Combien resteront debout ?',
+        es: 'Un desfile de {n}. ¿Cuántos se quedarán de pie?',
+        pt: '{n} no desfile. Quantos vão ficar de pé?',
+        it: '{n} nella sfilata. Quanti resteranno in piedi?',
+        nl: '{n} in de optocht. Hoeveel blijven er staan?',
+        sv: '{n} i paraden. Hur många blir stående?',
+        da: '{n} i optoget. Hvor mange bliver stående?',
+        no: '{n} i opptoget. Hvor mange blir stående?',
+        fi: 'Marssijoita on {n}. Kuinka moni jää seisomaan?'
       },
-      saidPredNo: {
-        en: 'The class says somebody will be left standing. The bar is up.',
-        de: 'Die Klasse sagt: Jemand bleibt stehen. Die Schranke ist oben.',
-        fr: 'La classe dit que quelqu’un restera debout. La barrière est levée.',
-        es: 'La clase dice que alguien se quedará de pie. La barrera está levantada.',
-        pt: 'A turma diz que alguém vai ficar de pé. A barreira está levantada.',
-        it: 'La classe dice che qualcuno resterà in piedi. La sbarra è alzata.',
-        nl: 'De klas zegt dat er iemand blijft staan. De slagboom staat omhoog.',
-        sv: 'Klassen säger att någon blir stående. Bommen är uppe.',
-        da: 'Klassen siger, at nogen bliver stående. Bommen er oppe.',
-        no: 'Klassen sier at noen blir stående. Bommen er oppe.',
-        fi: 'Luokka sanoo, että joku jää seisomaan. Puomi on ylhäällä.'
+      saidChooseFirst: {
+        en: 'Choose the parade first — tap a number.',
+        de: 'Wählt zuerst den Umzug — tippt auf eine Zahl.',
+        fr: 'Choisissez d’abord le défilé — touchez un nombre.',
+        es: 'Elijan primero el desfile: toquen un número.',
+        pt: 'Escolham o desfile primeiro — toquem em um número.',
+        it: 'Prima scegliete la sfilata: toccate un numero.',
+        nl: 'Kies eerst de optocht — tik op een getal.',
+        sv: 'Välj paraden först — tryck på ett tal.',
+        da: 'Vælg først optoget — tryk på et tal.',
+        no: 'Velg opptoget først — trykk på et tall.',
+        fi: 'Valitkaa ensin kulkue — napauttakaa lukua.'
+      },
+      saidPredYes: {
+        en: 'The class says everybody gets through. The bar is up.',
+        de: 'Die Klasse sagt: Alle kommen durch. Die Schranke ist oben.',
+        fr: 'La classe dit que tout le monde passera. La barrière est levée.',
+        es: 'La clase dice que pasarán todos. La barrera está levantada.',
+        pt: 'A turma diz que todos vão passar. A barreira está levantada.',
+        it: 'La classe dice che passeranno tutti. La sbarra è alzata.',
+        nl: 'De klas zegt dat iedereen erdoor komt. De slagboom staat omhoog.',
+        sv: 'Klassen säger att alla kommer igenom. Bommen är uppe.',
+        da: 'Klassen siger, at alle kommer igennem. Bommen er oppe.',
+        no: 'Klassen sier at alle kommer gjennom. Bommen er oppe.',
+        fi: 'Luokka sanoo, että kaikki pääsevät läpi. Puomi on ylhäällä.'
+      },
+      saidPredN: {
+        en: 'The class says {s} will be left standing. The bar is up.',
+        de: 'Die Klasse sagt, wie viele stehen bleiben werden: {s}. Die Schranke ist oben.',
+        fr: 'La classe dit qu’il en restera {s} debout. La barrière est levée.',
+        es: 'La clase dice: {s} de pie. La barrera está levantada.',
+        pt: 'A turma diz: {s} de pé. A barreira está levantada.',
+        it: 'La classe dice: {s} in piedi. La sbarra è alzata.',
+        nl: 'De klas zegt hoeveel er blijven staan: {s}. De slagboom staat omhoog.',
+        sv: 'Klassen säger att {s} blir stående. Bommen är uppe.',
+        da: 'Klassen siger, at {s} bliver stående. Bommen er oppe.',
+        no: 'Klassen sier at {s} blir stående. Bommen er oppe.',
+        fi: 'Luokka sanoo, että {s} jää seisomaan. Puomi on ylhäällä.'
+      },
+      saidPred2: {
+        en: 'The class says {s} will be left standing. Bring them in.',
+        de: 'Die Klasse sagt, wie viele stehen bleiben werden: {s}. Lasst sie einziehen.',
+        fr: 'La classe dit qu’il en restera {s} debout. Faites venir le second défilé.',
+        es: 'La clase dice: {s} de pie. Adelante el segundo desfile.',
+        pt: 'A turma diz: {s} de pé. Podem entrar.',
+        it: 'La classe dice: {s} in piedi. Fateli arrivare.',
+        nl: 'De klas zegt hoeveel er blijven staan: {s}. Laat ze maar komen.',
+        sv: 'Klassen säger att {s} blir stående. Låt dem marschera in.',
+        da: 'Klassen siger, at {s} bliver stående. Lad dem komme ind.',
+        no: 'Klassen sier at {s} blir stående. Nå kommer de inn.',
+        fi: 'Luokka sanoo, että {s} jää seisomaan. Toinen kulkue saa tulla.'
+      },
+      saidPredSill: {
+        en: 'The class has said. Put them both on the sill.',
+        de: 'Die Klasse hat sich festgelegt. Stellt beide auf den Sims.',
+        fr: 'La classe s’est prononcée. Mettez-les tous les deux sur le seuil.',
+        es: 'La clase ya ha dicho. Pongan a los dos en el umbral.',
+        pt: 'A turma já disse. Coloquem os dois na soleira.',
+        it: 'La classe si è espressa. Metteteli tutti e due sulla soglia.',
+        nl: 'De klas heeft zich uitgesproken. Zet ze allebei op de drempel.',
+        sv: 'Klassen har sagt sitt. Ställ båda på tröskeln.',
+        da: 'Klassen har sagt sit. Stil dem begge på tærsklen.',
+        no: 'Klassen har sagt sitt. Sett dem begge på terskelen.',
+        fi: 'Luokka on sanonut sanottavansa. Aseta molemmat kynnykselle.'
       },
       saidRank: {
         en: '{n} through, {w} still waiting.',
-        de: '{n} durch, {w} warten noch.',
+        de: '{n} durch, noch wartend: {w}.',
         fr: '{n} passés, {w} attendent encore.',
-        es: '{n} han pasado, {w} siguen esperando.',
+        es: 'Al patio: {n}. En espera: {w}.',
         pt: '{n} passaram, {w} ainda esperando.',
-        it: '{n} passati, {w} aspettano ancora.',
-        nl: '{n} erdoor, {w} wachten nog.',
+        it: '{n} passati, {w} in attesa.',
+        nl: '{n} erdoor, wachten nog: {w}.',
         sv: '{n} igenom, {w} väntar fortfarande.',
         da: '{n} igennem, {w} venter stadig.',
         no: '{n} gjennom, {w} venter fortsatt.',
@@ -468,19 +477,15 @@
         en: 'All {n} went through, in {r} ranks of {k}. Nobody was left standing.',
         de: 'Alle {n} sind durch — {r} mal {k} nebeneinander. Niemand ist stehen geblieben.',
         fr: 'Les {n} sont tous passés — {r} fois {k} de front. Personne n’est resté debout.',
-        es: 'Los {n} pasaron todos — {r} veces {k} juntos. Nadie se quedó de pie.',
-        pt: 'Os {n} passaram todos — {r} vezes {k} lado a lado. Ninguém ficou de pé.',
-        it: 'Tutti e {n} sono passati — {r} volte {k} affiancati. Nessuno è rimasto in piedi.',
+        es: 'El desfile de {n} pasó entero — de {k} en {k}, llamadas: {r}. Nadie se quedó de pie.',
+        pt: 'Os {n} passaram todos — {k} lado a lado a cada chamada, {r} ao todo. Ninguém ficou de pé.',
+        it: 'Tutti e {n} sono passati — {k} affiancati per volta, chiamate: {r}. Nessuno è rimasto in piedi.',
         nl: 'Alle {n} zijn erdoor — {r} keer {k} naast elkaar. Niemand bleef staan.',
-        sv: 'Alla {n} kom igenom — {r} gånger {k} i bredd. Ingen blev stående.',
-        da: 'Alle {n} kom igennem — {r} gange {k} ved siden af hinanden. Ingen blev stående.',
-        no: 'Alle {n} kom gjennom — {r} ganger {k} ved siden av hverandre. Ingen ble stående.',
+        sv: 'Hela paraden på {n} kom igenom — {r} rop med {k} i bredd. Ingen blev stående.',
+        da: 'Alle {n} kom igennem, {k} ved siden af hinanden — på {r} kald. Ingen blev stående.',
+        no: 'Alle {n} kom gjennom — {r} rop med {k} ved siden av hverandre. Ingen ble stående.',
         fi: 'Kaikki {n} pääsivät läpi — {r} kertaa {k} rinnakkain. Kukaan ei jäänyt seisomaan.'
       },
-      /* ⚠ pressing on after a parade that CLEARED used to announce
-         saidStand with s=0 — "0 left standing, because 12 does not fill
-         a rank of 2" — which contradicts itself, since 12 fills ranks of
-         two perfectly. */
       saidAllThrough: {
         en: 'Everybody is already through. Start a new parade.',
         de: 'Alle sind schon durch. Fang einen neuen Umzug an.',
@@ -496,29 +501,75 @@
       },
       saidStand: {
         en: '{s} left standing, because {n} does not fill a rank of {k}. The archway will not take a part-rank.',
-        de: '{s} bleiben stehen: {n} lässt sich nicht restlos zu {k} nebeneinander aufteilen. Der Rundbogen nimmt nur volle, nie angefangene.',
-        fr: '{s} restent debout : {n} ne tombe pas juste à {k} de front. L’arche ne prend que des complets, jamais des entamés.',
-        es: '{s} se quedan de pie: {n} no se reparte exactamente en {k} juntos. El pórtico solo acepta completos, nunca a medias.',
-        pt: '{s} ficam de pé: {n} não se divide exatamente em {k} lado a lado. O pórtico só aceita completos, nunca pela metade.',
-        it: '{s} restano in piedi: {n} non si divide esattamente in {k} affiancati. L’arcata accetta solo chi è al completo, mai chi è a metà.',
-        nl: '{s} blijven staan: {n} gaat niet precies op in {k} naast elkaar. De doorgang neemt alleen volle, nooit halve.',
+        de: 'Stehen geblieben: {s} — {n} lässt sich nicht restlos zu {k} nebeneinander aufteilen. Der Rundbogen nimmt nur volle, nie angefangene.',
+        fr: 'Il en reste {s} debout : {n} ne tombe pas juste à {k} de front. L’arche ne prend que des complets, jamais des entamés.',
+        es: 'De pie: {s}. {n} no se reparte exactamente en {k} juntos. El pórtico solo acepta completos, nunca a medias.',
+        pt: '{s} de pé: {n} não se divide exatamente em {k} lado a lado. O pórtico só aceita completos, nunca pela metade.',
+        it: 'In piedi: {s}. {n} non si divide esattamente in {k} affiancati. L’arcata accetta solo chi è al completo, mai chi è a metà.',
+        nl: 'Blijven staan: {s} — {n} gaat niet precies op in {k} naast elkaar. De doorgang neemt alleen volle, nooit halve.',
         sv: '{s} blir stående: {n} går inte jämnt upp i {k} i bredd. Valvet tar bara fulla, aldrig påbörjade.',
-        da: '{s} bliver stående: {n} går ikke op i {k} ved siden af hinanden. Hvælvingen tager kun fulde, aldrig halve.',
-        no: '{s} blir stående: {n} går ikke opp i {k} ved siden av hverandre. Hvelvingen tar bare fulle, aldri halve.',
+        da: '{s} bliver stående: {n} kan ikke deles ligeligt i {k} ved siden af hinanden. Hvælvingen tager kun fulde, aldrig halve.',
+        no: '{s} blir stående: {n} lar seg ikke dele i {k} ved siden av hverandre. Hvelvingen tar bare fulle, aldri halve.',
         fi: '{s} jää seisomaan: marssijoita on {n}, eikä se jakaudu tasan. Holvista pääsee vain täydet {k} rinnakkain.'
+      },
+      saidMarchOn: {
+        en: 'The first parade is still marching. Call the next rank forward.',
+        de: 'Der erste Umzug ist noch unterwegs. Ruft die Nächsten nach vorn.',
+        fr: 'Le premier défilé marche encore. Appelez les suivants en avant.',
+        es: 'El primer desfile todavía está pasando. Llamen a los siguientes.',
+        pt: 'O primeiro desfile ainda está passando. Chamem os próximos para a frente.',
+        it: 'La prima sfilata sta ancora sfilando. Chiamate avanti i prossimi.',
+        nl: 'De eerste optocht loopt nog. Roep de volgenden naar voren.',
+        sv: 'Den första paraden marscherar fortfarande. Ropa fram de nästa.',
+        da: 'Det første optog marcherer stadig. Kald de næste frem.',
+        no: 'Det første opptoget marsjerer fortsatt. Rop fram de neste.',
+        fi: 'Ensimmäinen kulkue marssii vielä. Kutsu seuraavat eteen.'
+      },
+      saidSecondHere: {
+        en: 'The second parade is already here.',
+        de: 'Der zweite Umzug ist schon da.',
+        fr: 'Le second défilé est déjà là.',
+        es: 'El segundo desfile ya está aquí.',
+        pt: 'O segundo desfile já está aqui.',
+        it: 'La seconda sfilata è già qui.',
+        nl: 'De tweede optocht is er al.',
+        sv: 'Den andra paraden är redan här.',
+        da: 'Det andet optog er her allerede.',
+        no: 'Det andre opptoget er her allerede.',
+        fi: 'Toinen kulkue on jo täällä.'
       },
       saidSecond: {
         en: 'A second parade of {n}. It leaves {s} standing too.',
-        de: 'Ein zweiter Umzug mit {n}. Auch dort bleiben {s} stehen.',
-        fr: 'Un second défilé de {n}. Lui aussi laisse {s} debout.',
+        de: 'Ein zweiter Umzug mit {n}. Auch dort stehen geblieben: {s}.',
+        fr: 'Un second défilé de {n}. Lui aussi en laisse {s} debout.',
         es: 'Un segundo desfile de {n}. También deja a {s} de pie.',
         pt: 'Um segundo desfile de {n}. Ele também deixa {s} de pé.',
         it: 'Una seconda sfilata di {n}. Anche questa lascia {s} in piedi.',
-        nl: 'Een tweede optocht van {n}. Daar blijven er ook {s} staan.',
+        nl: 'Een tweede optocht van {n}. Ook daar blijven staan: {s}.',
         sv: 'En andra parad på {n}. Även den lämnar {s} stående.',
         da: 'Et andet optog på {n}. Det efterlader også {s} stående.',
         no: 'Et andre opptog på {n}. Det lar også {s} bli stående.',
-        fi: 'Toinen kulkue, {n} marssijaa. Siitäkin jää {s} seisomaan.'
+        fi: 'Toinen kulkue — marssijoita on {n}. Siitäkin jää {s} seisomaan.'
+      },
+      /* ⭐ THE FIZZLE — the theorem tested and honestly failing to arm.
+         The old tool could not reach this sentence, because the second
+         parade was rigged to always leave a remainder. */
+      /* ⚠ "nothing to bring" was FALSE — the first parade's remainder
+         still stands in the yard, and three native panels caught the
+         sentence erasing exactly the child the design refuses to
+         erase. Nothing NEW arrives; the one still standing stays. */
+      saidSecondClear: {
+        en: 'The second parade of {n} went through with nobody left standing — so no one new arrives for the sill.',
+        de: 'Der zweite Umzug mit {n} ist restlos durchgekommen — niemand ist stehen geblieben, und für den Sims bleibt nichts.',
+        fr: 'Le second défilé de {n} est passé tout entier, sans laisser personne debout — il n’y a rien à porter sur le seuil.',
+        es: 'El segundo desfile de {n} pasó entero, sin nadie de pie: no hay nada que llevar al umbral.',
+        pt: 'O segundo desfile de {n} passou inteiro, sem ninguém de pé — não sobrou nada para levar à soleira.',
+        it: 'La seconda sfilata di {n} è passata tutta — nessuno è rimasto in piedi, e non c’è niente da portare sulla soglia.',
+        nl: 'De tweede optocht van {n} is er helemaal doorheen en niemand bleef staan — er komt dus niets bij voor de drempel.',
+        sv: 'Den andra paraden på {n} gick igenom utan att någon blev stående — det finns ingen att ställa på tröskeln.',
+        da: 'Det andet optog på {n} gik igennem, uden at nogen blev stående — der er ingen anden at stille på tærsklen.',
+        no: 'Det andre opptoget på {n} kom gjennom uten at noen ble stående — det er ingenting å sette på terskelen.',
+        fi: 'Toinen kulkue pääsi läpi kokonaan — marssijoita oli {n}, eikä kukaan jäänyt seisomaan. Kynnykselle ei ole mitään vietävää.'
       },
       saidSill: {
         en: 'Both of them on the sill — and the sill is a full rank, so it goes through. {a} and {b} together made a number that fills the archway exactly.',
@@ -534,23 +585,22 @@
         fi: 'Molemmat kynnyksellä — ja kynnys on täysi, joten se pääsee läpi. {a} ja {b} yhdessä täyttävät holvin tarkalleen.'
       },
       /* ⭐⭐ AND SOMETIMES IT DOES NOT FILL, WHICH IS THE BETTER LESSON.
-         At an archway two abreast, two leftovers ALWAYS make a rank —
-         that is odd + odd = even. At three abreast, two leftovers of two
-         make four, and four does not fill a rank of three. Hand-driving
-         the model found saidSill claiming "fills the archway exactly"
-         in a case where sillFull() is false: the model knew and the
-         sentence lied. The refusal to pretend is what makes the two-case
-         special rather than merely typical. */
+         At two abreast two left-behinds always make a rank; at wider
+         archways only sometimes. The refusal to pretend is what makes
+         two special rather than merely typical.
+         ⚠ "does not FILL" alone was FALSE at the reachable overshoot
+         (k=3, 2+2=4 — the plate holds MORE than a rank and still may
+         not pass); two panels caught it. The claim is exactness. */
       saidSillShort: {
-        en: '{a} and {b} on the sill make {c} — and {c} still does not fill a rank of {k}, so they wait too. At two abreast two left-behinds always make a rank; at wider archways only sometimes.',
+        en: '{a} and {b} on the sill make {c} — and {c} does not fill ranks of {k} exactly, so they wait too. At two abreast two left-behinds always make a rank; at wider archways only sometimes.',
         de: '{a} und {b} auf dem Sims sind {c} — und {c} füllt {k} nebeneinander immer noch nicht, also warten auch sie. Bei zwei nebeneinander geht es jedes Mal auf; bei einem breiteren Rundbogen nur manchmal.',
         fr: '{a} et {b} sur le seuil font {c} — et {c} ne remplit toujours pas {k} de front, alors eux aussi attendent. À deux de front, cela tombe juste à chaque fois ; sous une arche plus large, seulement parfois.',
         es: '{a} y {b} en el umbral son {c} — y {c} sigue sin llenar {k} juntos, así que ellos también esperan. Con dos juntos sale justo todas las veces; con un pórtico más ancho, solo a veces.',
-        pt: '{a} e {b} na soleira dão {c} — e {c} ainda não enche {k} lado a lado, então eles também esperam. Com dois lado a lado dá certo todas as vezes; com um pórtico mais largo, só às vezes.',
+        pt: '{a} e {b} na soleira dão {c} — e {c} não fecha certinho em {k} lado a lado, então ainda fica gente de pé. Com dois lado a lado dá certo todas as vezes; com um pórtico mais largo, só às vezes.',
         it: '{a} e {b} sulla soglia fanno {c} — e {c} non riempie ancora {k} affiancati, quindi aspettano anche loro. Con due affiancati torna ogni volta; sotto un’arcata più larga, solo a volte.',
         nl: '{a} en {b} op de drempel zijn {c} — en {c} vult {k} naast elkaar nog steeds niet, dus zij wachten ook. Bij twee naast elkaar klopt het elke keer; bij een bredere doorgang alleen soms.',
         sv: '{a} och {b} på tröskeln blir {c} — och {c} fyller fortfarande inte {k} i bredd, så de får också vänta. Med två i bredd går det jämnt ut varje gång; med ett bredare valv bara ibland.',
-        da: '{a} og {b} på tærsklen bliver {c} — og {c} fylder stadig ikke {k} ved siden af hinanden, så de venter også. Med to ved siden af hinanden går det op hver gang; med en bredere hvælving kun nogle gange.',
+        da: '{a} og {b} på tærsklen bliver {c} — og {c} passer stadig ikke præcis til {k} ved siden af hinanden, så de venter også. Med to ved siden af hinanden går det op hver gang; med en bredere hvælving kun nogle gange.',
         no: '{a} og {b} på terskelen blir {c} — og {c} fyller fortsatt ikke {k} ved siden av hverandre, så de venter også. Med to ved siden av hverandre går det opp hver gang; med en bredere hvelving bare noen ganger.',
         fi: '{a} ja {b} kynnyksellä ovat {c} — eikä {c} täytä holvia, johon mahtuu {k} rinnakkain, joten hekin jäävät odottamaan. Kun rinnakkain mahtuu kaksi, se osuu tasan joka kerta; leveämmässä holvissa vain joskus.'
       },
@@ -567,10 +617,6 @@
         no: 'Si først hva dere tror. Så går bommen opp.',
         fi: 'Sanokaa ensin, mitä uskotte. Sitten puomi nousee.'
       },
-      /* ⚠ the old text named `a+b===0`, which is reachable in ZERO
-         states because bringSecond already guarantees somebody is
-         standing. These two are the refusals a child can actually
-         cause. */
       saidNoSecond: {
         en: 'Bring the second parade first — the sill is for two lots of left-behinds.',
         de: 'Hol zuerst den zweiten Umzug — auf den Sims kommen die, die aus beiden Umzügen stehen geblieben sind.',
@@ -611,30 +657,19 @@
         fi: 'Luokka on jo sanonut sanottavansa. Kutsu heidät eteen ja katso.'
       },
 
+      /* ---- the paywall + the paper parade -------------------------- */
       gateTitle: {
-
         en: 'The paper parade',
-
         de: 'Der Umzug aus Papier',
-
         fr: 'Le défilé en papier',
-
         es: 'El desfile de papel',
-
         pt: 'O desfile de papel',
-
         it: 'La sfilata di carta',
-
         nl: 'De papieren optocht',
-
         sv: 'Pappersparaden',
-
         da: 'Papiroptoget',
-
         no: 'Papiropptoget',
-
         fi: 'Paperikulkue'
-
       },
       gateBody: {
         en: 'The whole apparatus is free — every width, every rank, the refusal and the sill. A Teacher plan adds the paper parade to cut out and line up on a desk, so a child can walk the marchers through an archway they cut themselves.',
@@ -675,31 +710,31 @@
         no: 'Ikke nå',
         fi: 'Ei nyt'
       },
-
       printBtn: {
-
         en: 'Print the paper parade',
-
         de: 'Den Umzug aus Papier drucken',
-
         fr: 'Imprimer le défilé en papier',
-
         es: 'Imprimir el desfile de papel',
-
         pt: 'Imprimir o desfile de papel',
-
         it: 'Stampa la sfilata di carta',
-
         nl: 'De papieren optocht afdrukken',
-
         sv: 'Skriv ut pappersparaden',
-
         da: 'Udskriv papiroptoget',
-
         no: 'Skriv ut papiropptoget',
-
         fi: 'Tulosta paperikulkue'
-
+      },
+      printAsk: {
+        en: 'The paper parade — see the Teacher plan',
+        de: 'Der Umzug aus Papier — Lehrkraft-Abo ansehen',
+        fr: 'Le défilé en papier — voir l’Abonnement Enseignant',
+        es: 'El desfile de papel — ver el Plan Docente',
+        pt: 'O desfile de papel — ver o Plano Professor',
+        it: 'La sfilata di carta — vedi il Piano Insegnante',
+        nl: 'De papieren optocht — bekijk het Leerkracht-abonnement',
+        sv: 'Pappersparaden — se Lärarplanen',
+        da: 'Papiroptoget — se Lærerabonnementet',
+        no: 'Papiropptoget — se Lærerabonnementet',
+        fi: 'Paperikulkue — katso Opettajatilaus'
       },
       sheetTitle: {
         en: 'Paper parade to cut out',
@@ -714,18 +749,21 @@
         no: 'Papiropptog til å klippe ut',
         fi: 'Paperikulkue leikattavaksi'
       },
+      /* ⚠ no fourth part name on paper: the folding strip IS the sill,
+         and "standing archway" collided with "left standing" — the
+         tool's one load-bearing word (both native-panel findings). */
       sheetNote: {
-        en: 'Cut out the marchers and the archway. Line the marchers up and send them through in ranks. When too few are left to fill the archway, leave them standing and draw the empty place beside them — that empty place is what the number is telling you.',
-        de: 'Schneide die Marschierenden und den Rundbogen aus. Stell die Marschierenden hintereinander auf und schick sie hindurch, immer so viele nebeneinander. Wenn zu wenige da sind, um den Rundbogen zu füllen, lass sie stehen und male die leeren Plätze daneben — diese leeren Plätze sind das, was die Zahl dir sagt.',
-        fr: 'Découpe les marcheurs et l’arche. Aligne les marcheurs les uns derrière les autres et fais-les passer, autant de front à chaque fois. Quand il n’en reste pas assez pour remplir l’arche, laisse-les debout et dessine les places vides à côté — ces places vides sont ce que le nombre te dit.',
-        es: 'Recorta a los desfilantes y el pórtico. Colócalos uno detrás de otro y hazlos pasar, tantos juntos cada vez. Cuando queden muy pocos para llenar el pórtico, déjalos de pie y dibuja los lugares vacíos a su lado: esos lugares vacíos son lo que el número te está diciendo.',
-        pt: 'Recorte os desfilantes e o pórtico. Coloque-os um atrás do outro e faça-os passar, tantos lado a lado por vez. Quando sobrarem poucos demais para encher o pórtico, deixe-os de pé e desenhe os lugares vazios ao lado deles — esses lugares vazios são o que o número está dizendo.',
-        it: 'Ritaglia i marciatori e l’arcata. Mettili uno dietro l’altro e falli passare, tanti affiancati per volta. Quando ne restano troppo pochi per riempire l’arcata, lasciali in piedi e disegna accanto gli spazi vuoti: quegli spazi vuoti sono ciò che il numero ti sta dicendo.',
-        nl: 'Knip de lopers en de doorgang uit. Zet de lopers achter elkaar en stuur ze erdoor, steeds zoveel naast elkaar. Als er te weinig zijn om de doorgang te vullen, laat ze dan staan en teken de lege plekken ernaast — die lege plekken zijn wat het getal je vertelt.',
-        sv: 'Klipp ut marscherarna och valvet. Ställ upp marscherarna efter varandra och skicka igenom dem, så många i bredd åt gången. När det blir för få kvar för att fylla valvet, låt dem stå och rita de tomma platserna bredvid — de tomma platserna är det som talet säger dig.',
-        da: 'Klip de marcherende og hvælvingen ud. Stil de marcherende op efter hinanden og send dem igennem, så mange ved siden af hinanden ad gangen. Når der er for få tilbage til at fylde hvælvingen, så lad dem stå og tegn de tomme pladser ved siden af — de tomme pladser er det, tallet fortæller dig.',
-        no: 'Klipp ut de marsjerende og hvelvingen. Still de marsjerende opp etter hverandre og send dem gjennom, så mange ved siden av hverandre om gangen. Når det er for få igjen til å fylle hvelvingen, la dem bli stående og tegn de tomme plassene ved siden av — de tomme plassene er det tallet forteller deg.',
-        fi: 'Leikkaa marssijat ja holvi irti. Aseta marssijat peräkkäin ja kuljeta heidät läpi, näin monta rinnakkain kerrallaan. Kun jäljellä on liian vähän täyttämään holvia, jätä heidät seisomaan ja piirrä tyhjät paikat heidän viereensä — nuo tyhjät paikat kertovat, mitä luku sanoo.'
+        en: 'Cut out the marchers and the archway that stands up, and fold the sill to your archway’s width. Choose a parade, circle how many you think will be left standing, then send them through, so many abreast at a time. When too few are left to fill the archway, never cross anyone out — draw the empty place beside them instead. That empty place is what the number is telling you.',
+        de: 'Schneide die Marschierenden und den Rundbogen zum Hinstellen aus und falte den Sims genau auf die Breite deines Rundbogens. Wähle einen Umzug und kreise zuerst ein, wie viele wohl stehen bleiben werden. Dann schick sie hindurch — immer so viele nebeneinander. Wer durch ist, wird auf dem Hof abgelegt — jeder in einen gestrichelten Platz, damit du die Zahl wachsen siehst. Wenn zu wenige übrig sind, um den Rundbogen zu füllen, streiche niemanden durch — male stattdessen den leeren Platz daneben. Dieser leere Platz ist das, was die Zahl dir sagt.',
+        fr: 'Découpe les marcheurs et l’arche — ses rabats la font tenir debout — puis plie le seuil à la largeur de ton arche. Choisis un défilé, entoure combien resteront debout à ton avis, puis fais-les passer, autant de front à chaque fois. À mesure qu’ils passent, pose les marcheurs sur la cour — les quinze places en pointillés — et regarde les colonnes se remplir. Quand il n’en reste pas assez pour remplir l’arche, ne raye jamais personne — dessine plutôt la place vide à côté. Cette place vide est ce que le nombre te dit.',
+        es: 'Recorta a los desfilantes y el pórtico que se pone de pie, y dobla el umbral a la anchura de tu pórtico. Elige un desfile, rodea cuántos crees que se quedarán de pie y luego hazlos pasar, tantos juntos cada vez. El tapete del patio trae quince asientos punteados — de tres en tres, cinco tandas: ve colocando en ellos a los desfilantes que ya han pasado, tanda a tanda. Cuando queden muy pocos para llenar el pórtico, no taches a nadie: dibuja el lugar vacío a su lado. Ese lugar vacío es lo que el número te está diciendo.',
+        pt: 'Recorte os desfilantes e o pórtico de armar, e dobre a soleira na largura do seu pórtico. Escolha um desfile, faça um círculo em quantos você acha que vão ficar de pé e depois faça-os passar, uma leva de cada vez. Quem passa se deita no tapete do pátio — lugares tracejados, três lado a lado em cinco levas — e assim a contagem fica à vista sobre a mesa. Quando sobrarem poucos demais para encher o pórtico, não risque ninguém — desenhe o lugar vazio ao lado de quem ficou. Esse lugar vazio é o que o número está dizendo.',
+        it: 'Ritaglia i marciatori e l’arcata da mettere in piedi, e piega la soglia alla larghezza della tua arcata. Scegli una sfilata, cerchia quanti secondo te resteranno in piedi, poi falli passare, tanti affiancati per volta. Man mano che passano, appoggia i marciatori sul tappeto del cortile, dentro i posti tratteggiati — tre affiancati, per cinque chiamate. Quando ne restano troppo pochi per riempire l’arcata, non cancellare mai nessuno: disegna invece il posto vuoto accanto. Quel posto vuoto è ciò che il numero ti sta dicendo.',
+        nl: 'Knip de lopers uit en zet de doorgang rechtop met de vouwflappen. Vouw de drempel tot hij precies zo breed is als jouw doorgang. Kies een optocht, omcirkel eerst hoeveel er volgens jou blijven staan, en stuur ze er dan doorheen, steeds zoveel naast elkaar. Wie erdoor is, leg je op de pleinmat: voor elke loper een eigen plek met stippellijn, netjes naast elkaar. Zijn er te weinig over om de doorgang te vullen? Streep dan nooit iemand door — teken de lege plek ernaast. Die lege plek is wat het getal je vertelt.',
+        sv: 'Klipp ut marscherarna och valvet, och vik flikarna bakåt så att valvet står av sig självt. Vik tröskeln så att den blir lika bred som ert valv. Välj en parad, ringa in hur många ni tror blir stående, och skicka sedan igenom dem, så många i bredd åt gången. Lägg dem som kommit igenom på gårdsmattans streckade platser allteftersom de passerar — så syns det på bordet hur talet växer. När det blir för få kvar för att fylla valvet, stryk aldrig över någon — rita den tomma platsen bredvid i stället. Den tomma platsen är det som talet säger dig.',
+        da: 'Klip de marcherende ud og hvælvingen, der kan stilles op, og fold tærsklen, så den er lige så bred som din hvælving. Gårdmåtten er gården på papir: tre gange fem stiplede pladser, hvor du lægger de marcherende, efterhånden som de kommer igennem. Vælg et optog, sæt ring om, hvor mange du tror, der bliver stående, og send dem så igennem, så mange ved siden af hinanden ad gangen. Når der er for få tilbage til at fylde hvælvingen, så streg aldrig nogen ud — tegn i stedet den tomme plads ved siden af dem. Den tomme plads er det, tallet fortæller dig.',
+        no: 'Klipp ut de marsjerende og hvelvingen, og brett klaffene bakover så hvelvingen kan stå på bordet. Brett terskelplaten så den blir like bred som hvelvingen din, og legg gårdsmatten bak hvelvingen — de marsjerende legges på de stiplede plassene etter hvert som de kommer gjennom. Velg et opptog, sett ring rundt hvor mange du tror blir stående, og send dem så gjennom, så mange ved siden av hverandre om gangen. Når det er for få igjen til å fylle hvelvingen, stryk aldri ut noen — tegn heller den tomme plassen ved siden av. Den tomme plassen er det tallet forteller deg.',
+        fi: 'Leikkaa irti marssijat ja pystyyn taittuva holvi, ja taita kynnys holvisi levyiseksi. Valitse kulkue, ympyröi, kuinka monen arvelet jäävän seisomaan, ja kuljeta heidät sitten läpi, näin monta rinnakkain kerrallaan. Läpi päässeet asetetaan pihalle — painetulle alustalle, jossa katkoviivapaikkoja on kolme rinnakkain ja viisi peräkkäin — kukin omalle paikalleen sitä mukaa kuin kulkue etenee. Kun jäljellä on liian vähän täyttämään holvia, älä koskaan yliviivaa ketään — piirrä sen sijaan tyhjä paikka hänen viereensä. Se tyhjä paikka kertoo, mitä luku sanoo.'
       }
     },
 
@@ -742,146 +780,241 @@
 
     /* ================= the model ====================================
        ⚠ WRONG STATES ARE UNREACHABLE BECAUSE THE MODEL CANNOT EXPRESS
-       THEM: `through` is derived from `ranks`, never stored beside it,
-       so "seven through in three ranks of two" is not a state any
-       sequence of presses can produce.
-       ⚠ EVERY MUTATOR RETURNS null ON REFUSAL, NEVER A CLAMP. */
+       THEM: `through` is derived from `ranks`, never stored beside it.
+       ⚠ EVERY MUTATOR RETURNS null ON REFUSAL, NEVER A CLAMP.
+       ⚠ total === 0 means NO PARADE YET — the choose phase is a real
+       state, not a UI trick, so the gate can walk it. */
 
     newState: function (n, total) {
       var k = Math.max(GEO.MIN_N, Math.min(GEO.MAX_N, parseInt(n, 10) || 2));
-      var t = Math.max(1, Math.min(GEO.CAP, total || 7));
+      var t = Math.max(0, Math.min(GEO.CAP, total || 0));
       return {
         k: k, total: t, ranks: 0,
-        pred: null,            /* null | true | false — the class's call */
-        second: null,          /* the second parade's total, once brought */
-        onSill: 0              /* how many leftovers are standing on the sill */
+        pred: null,            /* null | 0..k-1 — the committed standing count */
+        second: null,          /* the second parade's total, once chosen */
+        ranks2: 0,
+        pred2: null,           /* the second parade's committed standing count */
+        sillPred: null,        /* the sill commit: 0 or a+b */
+        onSill: 0,
+        sillGone: false        /* the full plate has passed through */
       };
     },
 
     _st: function (st) { return st || this.st; },
+    _copy: function (s) {
+      return { k: s.k, total: s.total, ranks: s.ranks, pred: s.pred,
+        second: s.second, ranks2: s.ranks2, pred2: s.pred2,
+        sillPred: s.sillPred, onSill: s.onSill, sillGone: s.sillGone };
+    },
 
-    /* everything below is DERIVED from ranks, so nothing can disagree */
+    /* everything below is DERIVED, so nothing can disagree */
     through: function (st) { var s = this._st(st); return s.ranks * s.k; },
     waiting: function (st) { var s = this._st(st); return s.total - this.through(s); },
-    /* how many will be left standing when the parade can go no further */
     standing: function (st) { var s = this._st(st); return s.total % s.k; },
-    done: function (st) { return this.waiting(st) < this._st(st).k; },
+    done: function (st) { var s = this._st(st); return s.total > 0 && this.waiting(s) < s.k; },
     fullRanks: function (st) { var s = this._st(st); return Math.floor(s.total / s.k); },
+
+    through2: function (st) { var s = this._st(st); return s.ranks2 * s.k; },
+    waiting2: function (st) { var s = this._st(st); return s.second === null ? 0 : s.second - this.through2(s); },
+    standing2: function (st) { var s = this._st(st); return s.second === null ? 0 : s.second % s.k; },
+    done2: function (st) { var s = this._st(st); return s.second !== null && this.waiting2(s) < s.k; },
+
+    /* everybody who has passed the archway, sill included */
+    yardCount: function (st) {
+      var s = this._st(st);
+      var y = this.through(s) + this.through2(s);
+      if (s.sillGone) y += this.standing(s) + this.standing2(s);
+      return y;
+    },
+    yardRanks: function (st) {
+      var s = this._st(st);
+      return s.ranks + s.ranks2 + (s.sillGone ? 1 : 0);
+    },
 
     /* ---- the moves ------------------------------------------------ */
 
-    /* ⭐ THE PREDICTION IS THE GATE-CONDITION. The bar is down until the
-       class commits, so the first thing that happens is a judgement and
-       not an animation. And this control is not furniture: its
-       consequence is in ANOTHER element — the bar lifts. */
-    predict: function (st, yes) {
+    /* the class CHOOSES the parade — the degrees of freedom live here.
+       Re-choosing is allowed until the class commits; a committed
+       parade can never be resized (structural, not conditional). */
+    setTotal: function (st, t) {
       var s = this._st(st);
       if (s.pred !== null) return null;
-      if (yes !== true && yes !== false) return null;
-      return { k: s.k, total: s.total, ranks: 0, pred: yes, second: s.second, onSill: s.onSill };
+      if (typeof t !== 'number' || t % 1 !== 0) return null;
+      if (t < 1 || t > GEO.CAP) return null;
+      var n = this._copy(s);
+      n.total = t; n.ranks = 0;
+      return n;
+    },
+
+    /* ⭐ THE PREDICTION IS A NUMERAL, 0..k-1 — a falsifiable computed
+       claim, not a coin flip. The boom is down until it is committed,
+       so the first thing that happens is a judgement. Its consequence
+       is in ANOTHER element: the bar lifts.
+       ⚠ A BOOLEAN IS REFUSED — the old binary shape is dead. */
+    predict: function (st, n) {
+      var s = this._st(st);
+      if (s.total <= 0) return null;
+      if (s.pred !== null) return null;
+      if (typeof n !== 'number' || n % 1 !== 0) return null;
+      if (n < 0 || n >= s.k) return null;
+      var x = this._copy(s);
+      x.pred = n;
+      return x;
     },
 
     barUp: function (st) { return this._st(st).pred !== null; },
 
-    /* call the next rank. ⚠ THE ARCHWAY REFUSES a part-rank — that
+    /* call the next rank. THE ARCHWAY REFUSES a part-rank — that
        refusal IS the lesson, and the child may press for ever without
        anything calling them wrong. */
     sendRank: function (st) {
       var s = this._st(st);
       if (s.pred === null) return null;
       if (this.waiting(s) < s.k) return null;
-      return { k: s.k, total: s.total, ranks: s.ranks + 1, pred: s.pred, second: s.second, onSill: s.onSill };
+      var x = this._copy(s);
+      x.ranks = s.ranks + 1;
+      return x;
     },
 
-    /* the second parade, only once the first has gone as far as it can
-       and has actually left somebody standing */
-    bringSecond: function (st, total) {
+    /* ⭐⭐ the second parade is CHOSEN, and it may be ANY number —
+       multiples of k included. Dimming them would display the parity
+       answer key, and refusing them would rig the theorem (the old
+       defect). Re-choosable until its own prediction is committed. */
+    setSecond: function (st, t) {
       var s = this._st(st);
       if (!this.done(s)) return null;
       if (this.standing(s) === 0) return null;
-      if (s.second !== null) return null;
-      var t = Math.max(1, Math.min(GEO.CAP, total));
-      if (t % s.k === 0) return null;          /* it must leave one too */
-      return { k: s.k, total: s.total, ranks: s.ranks, pred: s.pred, second: t, onSill: 0 };
+      if (s.pred2 !== null) return null;
+      if (typeof t !== 'number' || t % 1 !== 0) return null;
+      if (t < 1 || t > GEO.CAP) return null;
+      var x = this._copy(s);
+      x.second = t; x.ranks2 = 0;
+      return x;
     },
 
-    secondStanding: function (st) {
-      var s = this._st(st);
-      return s.second === null ? 0 : s.second % s.k;
-    },
-
-    /* ⭐⭐ THE SILL. Both leftovers step onto one plate, and the plate is
-       exactly as wide as the archway. A full plate is a rank. */
-    toSill: function (st) {
+    predict2: function (st, n) {
       var s = this._st(st);
       if (s.second === null) return null;
-      if (s.onSill !== 0) return null;
-      var a = this.standing(s), b = this.secondStanding(s);
-      if (a + b === 0) return null;
-      return { k: s.k, total: s.total, ranks: s.ranks, pred: s.pred, second: s.second, onSill: a + b };
+      if (s.pred2 !== null) return null;
+      if (typeof n !== 'number' || n % 1 !== 0) return null;
+      if (n < 0 || n >= s.k) return null;
+      var x = this._copy(s);
+      x.pred2 = n;
+      return x;
     },
 
-    /* does what is on the sill fill the archway exactly? */
+    sendRank2: function (st) {
+      var s = this._st(st);
+      if (s.pred2 === null) return null;
+      if (this.waiting2(s) < s.k) return null;
+      var x = this._copy(s);
+      x.ranks2 = s.ranks2 + 1;
+      return x;
+    },
+
+    /* the sill's own commit: either nobody is left after it tries (0)
+       or all of them are (a+b). Requires BOTH parades to have left
+       somebody — a fizzled second parade leaves nothing to combine. */
+    predictSill: function (st, n) {
+      var s = this._st(st);
+      if (!this.done2(s)) return null;
+      if (this.standing(s) === 0 || this.standing2(s) === 0) return null;
+      if (s.sillPred !== null) return null;
+      if (s.onSill > 0 || s.sillGone) return null;
+      var ab = this.standing(s) + this.standing2(s);
+      if (n !== 0 && n !== ab) return null;
+      var x = this._copy(s);
+      x.sillPred = n;
+      return x;
+    },
+
+    /* ⭐⭐ THE SILL. Both leftovers step onto one plate, and the plate
+       is exactly as wide as the archway. A full plate is a rank. */
+    toSill: function (st) {
+      var s = this._st(st);
+      if (s.sillPred === null) return null;
+      if (s.onSill !== 0 || s.sillGone) return null;
+      var a = this.standing(s), b = this.standing2(s);
+      if (a + b === 0) return null;
+      var x = this._copy(s);
+      x.onSill = a + b;
+      return x;
+    },
+
     sillFull: function (st) {
       var s = this._st(st);
       return s.onSill > 0 && s.onSill % s.k === 0;
     },
 
-    /* ⚠⚠ THERE IS NO setWidth, AND THAT IS THE FIX. One shipped here
-       with the docblock's proudest guard in it — "the width cannot
-       change mid-parade, reflowing marchers who already went through as
-       pairs into ranks of three would be a lie about what happened" —
-       and it had ZERO CALL SITES, so the invariant it announced was
-       never in force. The real width path is the settings chip, which
-       goes through onSettings() -> reset() and starts a fresh parade, so
-       a part-marched parade can never be re-flowed: the guarantee is
-       structural, not conditional. A guard that looks shipped and never
-       runs is worse than no guard, because the docblock cites it. */
+    /* a full plate is a rank, and a rank goes through */
+    sillThrough: function (st) {
+      var s = this._st(st);
+      if (!this.sillFull(s)) return null;
+      var x = this._copy(s);
+      x.onSill = 0; x.sillGone = true;
+      return x;
+    },
+
+    /* ⚠⚠ THERE IS NO setWidth AND NO bringSecond. setWidth once
+       shipped with zero call sites announcing an invariant it never
+       enforced; bringSecond refused multiples of k, which RIGGED the
+       theorem. The width path is the settings chip -> reset(); the
+       second parade path is setSecond, which refuses nothing but
+       nonsense. */
 
     /* ================= life cycle =================================== */
 
     init: function (api) {
       this.api = api;
       document.body.classList.add('pgt-wide');
-      /* ⚠⚠ THE SCROLL ESCAPE. ⚠ `html,body.x{}` is a selector LIST whose
-         html half applies unconditionally, which makes the class
-         decorative and its mutation unkillable — two adds, one rule
-         each. */
+      /* ⚠ THE SCROLL ESCAPE, FULL FORM — `overflow-y:auto` alone is
+         inert against the shell's html,body{height:100%}; a control
+         row at y=558 in a 568px window is physically unreachable. */
       document.documentElement.classList.add('pgt-scroll');
       document.body.classList.add('pgt-scroll');
 
       this._lastSound = 0;
       this._seed = 11;
+      this._flying = false;
+      this._autoTimer = null;
+      this._sillTimer = null;
+      this._raf = null;
+      this._chipSig = '';
       this._reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-      this.st = this.newState(api.settings.n, this._pick(api.settings.n));
+      this.st = this.newState(api.settings.n, 0);
       this._checkEntitlement();
       this._bindPrint();
     },
 
     reset: function () {
-      this.st = this.newState(this.api.settings.n, this._pick(this.api.settings.n));
+      this._stopMotion();
+      this.st = this.newState(this.api.settings.n, 0);
       this.render();
     },
 
     onSettings: function () { this.reset(); },
 
-    /* ⚠ not Math.random: the gate, the probe and the classroom must see
-       the same parades, and a screenshot must be reproducible. */
+    _stopMotion: function () {
+      if (this._raf) { window.cancelAnimationFrame(this._raf); this._raf = null; }
+      if (this._autoTimer) { window.clearTimeout(this._autoTimer); this._autoTimer = null; }
+      if (this._sillTimer) { window.clearTimeout(this._sillTimer); this._sillTimer = null; }
+      if (this._fly) { while (this._fly.firstChild) this._fly.removeChild(this._fly.firstChild); }
+      this._flying = false;
+      this._auto = false;
+    },
+
+    /* ⚠ not Math.random: the gate, the probe and the classroom must
+       see the same parades, and a screenshot must be reproducible. */
     _rand: function (n) {
       this._seed = (this._seed * 1103515245 + 12345) & 0x7fffffff;
       return this._seed % n;
     },
 
-    /* ⭐ TWO PARADES IN THREE LEAVE SOMEBODY STANDING. A parade that
-       always came out even would teach that the archway always works;
-       one that never did would teach the opposite. */
-    _pick: function (n) {
-      var k = Math.max(GEO.MIN_N, Math.min(GEO.MAX_N, parseInt(n, 10) || 2));
-      var lo = k + 1, hi = GEO.CAP;
-      var v = lo + this._rand(hi - lo + 1);
-      if (this._rand(3) === 0 && v % k !== 0) v = v - (v % k);   /* an even one */
-      if (v < lo) v = lo;
-      return v;
+    /* the surprise parade — uniform, 3..CAP. ⚠ The old engineered
+       one-third-even distribution is gone: it taught the probability
+       behaviour of the apparatus, not the structure of numbers. */
+    _pick: function () {
+      return 3 + this._rand(GEO.CAP - 2);
     },
 
     _dur: function (ms) {
@@ -891,7 +1024,7 @@
 
     _snd: function (f, force) {
       var now = Date.now();
-      if (!force && now - this._lastSound < GEO.SND_DEBOUNCE) return;
+      if (!force && now - this._lastSound < GEO.T_SND_DEBOUNCE) return;
       this._lastSound = now;
       if (this.api && this.api.sound) this.api.sound(f);
     },
@@ -902,147 +1035,584 @@
       });
     },
 
+    /* ⭐ every announcement is ALSO shown to sighted eyes on the
+       say-line — the teaching sentences were AT-only for a year.
+       api.announce stays the single AT channel (the say-line is
+       aria-hidden), so nothing is spoken twice. */
+    _say: function (msg) {
+      this.api.announce(msg);
+      if (this._sayEl) this._sayEl.textContent = msg;
+    },
+
     render: function () { this._build(); this._paint(); },
 
     /* ================= DOM ========================================== */
 
+    _svgNS: 'http://www.w3.org/2000/svg',
+    _svgEl: function (tag, attrs) {
+      var el = document.createElementNS(this._svgNS, tag), k;
+      for (k in attrs) if (attrs.hasOwnProperty(k)) el.setAttribute(k, String(attrs[k]));
+      return el;
+    },
+    /* a 26x26 miniature of the apparatus for a button glyph — wall
+       #146B5E, bar #0D4E44, marcher coral-in-ring, seat dashed grey.
+       ⚠ never an operator glyph, drawn or typed. */
+    _mini: function (parts) {
+      var svg = this._svgEl('svg', { viewBox: '0 0 26 26', width: 24, height: 24, 'aria-hidden': 'true', focusable: 'false' });
+      var i, p, el;
+      for (i = 0; i < parts.length; i++) {
+        p = parts[i];
+        if (p.t === 'wall') el = this._svgEl('rect', { x: p.x, y: p.y, width: p.w, height: p.h, rx: 1, fill: '#146B5E' });
+        else if (p.t === 'bar') el = this._svgEl('rect', { x: p.x, y: p.y, width: p.w, height: p.h, rx: 1.25, fill: '#0D4E44' });
+        else if (p.t === 'road') el = this._svgEl('rect', { x: p.x, y: p.y, width: p.w, height: p.h, fill: '#FBF3E4', stroke: '#E7DCC8', 'stroke-width': 1 });
+        else if (p.t === 'plate') el = this._svgEl('rect', { x: p.x, y: p.y, width: p.w, height: p.h, rx: 2, fill: '#FBF3E4', stroke: '#7A6A55', 'stroke-width': 1.8 });
+        else if (p.t === 'lip') el = this._svgEl('rect', { x: p.x, y: p.y, width: p.w, height: p.h, fill: '#7A6A55' });
+        else if (p.t === 'm') el = this._svgEl('circle', { cx: p.x, cy: p.y, r: 2.6, fill: '#F2784B', stroke: '#A34122', 'stroke-width': 1.2 });
+        else if (p.t === 'seat') el = this._svgEl('circle', { cx: p.x, cy: p.y, r: 2.6, fill: 'none', stroke: '#7A6A55', 'stroke-width': 1.5, 'stroke-dasharray': '2.1 2.1' });
+        else continue;
+        svg.appendChild(el);
+      }
+      return svg;
+    },
+
+    /* a labeled action button: miniature (or text glyph) + VISIBLE
+       localized label. The seven cryptic glyphs are gone. */
+    _mkBtn: function (parent, cls, key, mini, glyph) {
+      var b = this.api.el('button', 'pgt-btn ' + cls);
+      b.type = 'button';
+      if (mini) {
+        var g = this.api.el('span', 'pgt-gly');
+        g.setAttribute('aria-hidden', 'true');
+        g.appendChild(mini);
+        b.appendChild(g);
+      } else if (glyph) {
+        var g2 = this.api.el('span', 'pgt-gly pgt-gly-t');
+        g2.setAttribute('aria-hidden', 'true');
+        g2.textContent = glyph;
+        b.appendChild(g2);
+      }
+      var t = this.api.el('span', 'pgt-lab');
+      t.textContent = this.api.t(key);
+      b.appendChild(t);
+      b.setAttribute('aria-label', this.api.t(key));
+      parent.appendChild(b);
+      return b;
+    },
+
+    _mkGroup: function (parent, cls, legendKey) {
+      var g = this.api.el('div', 'pgt-g ' + cls);
+      if (legendKey) {
+        var l = this.api.el('span', 'pgt-leg');
+        l.textContent = this.api.t(legendKey);
+        g.appendChild(l);
+      }
+      parent.appendChild(g);
+      return g;
+    },
+
     _build: function () {
-      var api = this.api, self = this;
+      var api = this.api, self = this, i;
       if (this._wrap && this._wrap.parentNode) return;
 
       var wrap = api.el('div', 'pgt-wrap');
       this._wrap = wrap;
       var card = api.el('div', 'pgt-card');
+      this._card = card;
       var arena = api.el('div', 'pgt-arena');
       this._arena = arena;
       arena.setAttribute('role', 'img');
 
-      this._yard = api.el('div', 'pgt-yard');       /* through, beyond the arch */
-      this._arch = api.el('div', 'pgt-arch');
+      /* --- the courtyard beyond ---------------------------------- */
+      var far = api.el('div', 'pgt-far');
+      this._far = far;
+      this._numThru = api.el('span', 'pgt-num pgt-num-thru');
+      far.appendChild(this._numThru);
+      this._yard = api.el('div', 'pgt-yard');
+      far.appendChild(this._yard);
+      this._files = api.el('div', 'pgt-files');
+      far.appendChild(this._files);
+      arena.appendChild(far);
+
+      /* --- the wall and the archway ------------------------------ */
+      var wallrow = api.el('div', 'pgt-wallrow');
+      this._wallrow = wallrow;
+      var wingL = api.el('div', 'pgt-wing');
+      wingL.appendChild(api.el('div', 'pgt-course'));
+      var arch = api.el('div', 'pgt-arch');
+      this._arch = arch;
+      var open = api.el('div', 'pgt-open');
+      arch.appendChild(open);
+      var jambL = api.el('div', 'pgt-jamb pgt-jamb-l');
+      var jambR = api.el('div', 'pgt-jamb pgt-jamb-r');
+      arch.appendChild(jambL);
+      arch.appendChild(jambR);
       this._bar = api.el('div', 'pgt-bar');
-      this._arch.appendChild(this._bar);
-      this._wait = api.el('div', 'pgt-wait');       /* still waiting */
+      arch.appendChild(this._bar);
+      var wingR = api.el('div', 'pgt-wing');
+      wingR.appendChild(api.el('div', 'pgt-course'));
+      var head = api.el('div', 'pgt-head');
+      this._key = api.el('div', 'pgt-key');
+      wallrow.appendChild(wingL);
+      wallrow.appendChild(arch);
+      wallrow.appendChild(wingR);
+      wallrow.appendChild(head);
+      wallrow.appendChild(this._key);
+      arena.appendChild(wallrow);
+
+      /* --- the road: sill, first parade, second parade ----------- */
+      var near = api.el('div', 'pgt-near');
+      this._near = near;
+      this._numSill = api.el('span', 'pgt-num pgt-num-sill');
+      near.appendChild(this._numSill);
       this._sill = api.el('div', 'pgt-sill');
-      this._sec = api.el('div', 'pgt-sec');         /* the second parade */
+      near.appendChild(this._sill);
+      var waitzone = api.el('div', 'pgt-waitzone');
+      this._numN = api.el('span', 'pgt-num pgt-num-n');
+      waitzone.appendChild(this._numN);
+      this._wait = api.el('div', 'pgt-wait');
+      waitzone.appendChild(this._wait);
+      this._numStand = api.el('span', 'pgt-num pgt-num-stand');
+      waitzone.appendChild(this._numStand);
+      near.appendChild(waitzone);
+      var seczone = api.el('div', 'pgt-seczone');
+      this._sec = api.el('div', 'pgt-sec');
+      seczone.appendChild(this._sec);
+      this._numStand2 = api.el('span', 'pgt-num pgt-num-stand2');
+      seczone.appendChild(this._numStand2);
+      near.appendChild(seczone);
+      arena.appendChild(near);
 
-      arena.appendChild(this._yard);
-      arena.appendChild(this._arch);
-      arena.appendChild(this._wait);
-      arena.appendChild(this._sill);
-      arena.appendChild(this._sec);
+      /* --- the fly layer (persistent-node march) ----------------- */
+      this._fly = api.el('div', 'pgt-fly');
+      arena.appendChild(this._fly);
+
       card.appendChild(arena);
+      wrap.appendChild(card);
 
-      var bar = api.el('div', 'pgt-ctl');
+      /* --- the say-line: the announce channel, visible ----------- */
+      this._sayEl = api.el('p', 'pgt-say');
+      this._sayEl.setAttribute('aria-hidden', 'true');
+      wrap.appendChild(this._sayEl);
+
+      /* --- the act strip ----------------------------------------- */
+      var ctl = api.el('div', 'pgt-ctl');
       this._btn = {};
-      this._btn.yes = this._mk(bar, 'pgt-b-yes', '✓', 'predYes');
-      this._btn.no = this._mk(bar, 'pgt-b-no', '◦', 'predNo');
-      this._btn.call = this._mk(bar, 'pgt-b-call', '▸', 'call');
-      this._btn.second = this._mk(bar, 'pgt-b-second', '⇤', 'second');
-      this._btn.sill = this._mk(bar, 'pgt-b-sill', '▭', 'sill');
-      this._btn.again = this._mk(bar, 'pgt-b-again', '↻', 'again');
-      this._btn.print = this._mk(bar, 'pgt-b-print', '⎙', 'printBtn');
 
-      this._btn.yes.addEventListener('click', function () { self._predict(true); });
-      this._btn.no.addEventListener('click', function () { self._predict(false); });
+      this._gSize = this._mkGroup(ctl, 'pgt-g-size', 'sizeAsk');
+      var strip = api.el('div', 'pgt-strip');
+      this._strip = strip;
+      this._sizeChips = [];
+      for (i = 1; i <= GEO.CAP; i++) {
+        (function (n) {
+          var c = api.el('button', 'pgt-btn pgt-b-size pgt-b-size-' + n);
+          c.type = 'button';
+          c.textContent = String(n);
+          c.setAttribute('aria-label', self._fmt(api.t('sizeChip'), { n: n }));
+          c.addEventListener('click', function () { self._onSize(n); });
+          strip.appendChild(c);
+          self._sizeChips.push(c);
+        }(i));
+      }
+      this._gSize.appendChild(strip);
+
+      this._gPred = this._mkGroup(ctl, 'pgt-g-pred', 'predAsk');
+      this._chips = api.el('div', 'pgt-chips');
+      this._gPred.appendChild(this._chips);
+
+      this._gMarch = this._mkGroup(ctl, 'pgt-g-march', null);
+      this._btn.call = this._mkBtn(this._gMarch, 'pgt-b-call', 'call', this._mini([
+        { t: 'wall', x: 0, y: 12, w: 7, h: 9 }, { t: 'wall', x: 19, y: 12, w: 7, h: 9 },
+        { t: 'bar', x: 8, y: 9, w: 10, h: 2.5 },
+        { t: 'm', x: 10, y: 17 }, { t: 'm', x: 16, y: 17 }
+      ]));
+
+      this._gTheorem = this._mkGroup(ctl, 'pgt-g-theorem', null);
+      this._btn.second = this._mkBtn(this._gTheorem, 'pgt-b-second', 'second', this._mini([
+        { t: 'road', x: 10, y: 2, w: 6, h: 22 },
+        { t: 'm', x: 13, y: 21 }, { t: 'm', x: 13, y: 14.6 }
+      ]));
+      this._btn.sill = this._mkBtn(this._gTheorem, 'pgt-b-sill', 'sill', this._mini([
+        { t: 'plate', x: 3, y: 10, w: 20, h: 9 },
+        { t: 'lip', x: 4.5, y: 19, w: 17, h: 2 },
+        { t: 'm', x: 9, y: 14.5 }, { t: 'seat', x: 17, y: 14.5 }
+      ]));
+
+      this._gHouse = this._mkGroup(ctl, 'pgt-g-house', null);
+      this._btn.again = this._mkBtn(this._gHouse, 'pgt-b-again', 'again', null, '↻');
+      this._btn.print = this._mkBtn(this._gHouse, 'pgt-b-print', 'printBtn', null, '⎙');
+
       this._btn.call.addEventListener('click', function () { self._call(); });
       this._btn.second.addEventListener('click', function () { self._second(); });
       this._btn.sill.addEventListener('click', function () { self._sillMove(); });
-      this._btn.again.addEventListener('click', function () { self.reset(); });
+      this._btn.again.addEventListener('click', function () { self._again(); });
       this._btn.print.addEventListener('click', function () { self._print(); });
 
-      wrap.appendChild(card);
-      wrap.appendChild(bar);
-      this._sheet = api.el('div', 'pgt-sheet');
-      wrap.appendChild(this._sheet);
+      wrap.appendChild(ctl);
       api.stage.appendChild(wrap);
+
+      /* ⚠ the sheet is a SIBLING of the wrap — a hidden parent kills
+         the whole subtree and measures 0mm on paper. */
+      this._sheet = api.el('div', 'pgt-sheet');
+      api.stage.appendChild(this._sheet);
     },
 
-    _mk: function (parent, cls, glyph, key) {
-      var b = this.api.el('button', 'pgt-btn ' + cls);
-      b.type = 'button';
-      b.textContent = glyph;
-      b.setAttribute('aria-label', this.api.t(key));
-      b.title = this.api.t(key);
-      parent.appendChild(b);
-      return b;
+    /* the prediction chips rebuild when the question changes:
+       0..k-1 for a parade, {0, a+b} for the sill. */
+    _buildChips: function (mode, k, ab) {
+      var api = this.api, self = this, host = this._chips, i;
+      var sig = mode + ':' + k + ':' + ab;
+      if (sig === this._chipSig) return;
+      this._chipSig = sig;
+      while (host.firstChild) host.removeChild(host.firstChild);
+      this._predChips = [];
+      var values = [];
+      if (mode === 'sill') { values = [0, ab]; }
+      else { for (i = 0; i < k; i++) values.push(i); }
+      for (i = 0; i < values.length; i++) {
+        (function (v, idx) {
+          var cls = 'pgt-btn pgt-b-pred';
+          if (mode !== 'sill' && v === 0) cls += ' pgt-b-yes';
+          if (mode !== 'sill' && v === 1) cls += ' pgt-b-no';
+          if (mode !== 'sill' && v >= 2) cls += ' pgt-b-pred' + v;
+          if (mode === 'sill') cls += (v === 0 ? ' pgt-b-yes' : ' pgt-b-predsill');
+          var c = api.el('button', cls);
+          c.type = 'button';
+          var num = api.el('span', 'pgt-num-chip');
+          num.textContent = String(v);
+          c.appendChild(num);
+          /* the miniature outcome: v marchers left standing beside
+             (k-v) dashed seats — chip 0 is a full rank. The chip IS
+             the end-state photograph, so a non-reader can pick. */
+          var mini = api.el('span', 'pgt-pmini');
+          var j;
+          for (j = 0; j < Math.min(k, 5); j++) {
+            if (v === 0 || j < v) mini.appendChild(api.el('span', 'pgt-pmini-m'));
+            else mini.appendChild(api.el('span', 'pgt-pmini-s'));
+          }
+          c.appendChild(mini);
+          c.setAttribute('aria-label', v === 0 ? api.t('predYes') : self._fmt(api.t('predChip'), { s: v }));
+          c.setAttribute('aria-pressed', 'false');
+          c.addEventListener('click', function () { self._onPred(v); });
+          host.appendChild(c);
+          self._predChips.push({ el: c, v: v });
+        }(values[i], i));
+      }
     },
 
-    _predict: function (yes) {
-      var next = this.predict(null, yes);
-      if (!next) { this._refuse('pred'); return; }
-      this.st = next;
-      this._paint(GEO.T_BAR);
-      this._snd(GEO.SND_BAR);
-      this.api.announce(this.api.t(yes ? 'saidPredYes' : 'saidPredNo'));
+    /* ---- moves wired to chrome ------------------------------------ */
+
+    _onSize: function (n) {
+      if (this._flying) return;
+      var s = this.st;
+      var first = this.setTotal(null, n);
+      if (first) {
+        this.st = first;
+        this._paint(GEO.T_BAR);
+        this._snd(GEO.SND_CALL);
+        this._say(this._fmt(this.api.t('saidParade'), { n: n }));
+        return;
+      }
+      var two = this.setSecond(null, n);
+      if (two) {
+        this.st = two;
+        this._paint(GEO.T_BAR);
+        this._snd(GEO.SND_CALL);
+        this._say(this._fmt(this.api.t('saidParade'), { n: n }));
+        return;
+      }
+      if (!this.done(s)) { this._refuse('marchon'); return; }
+      if (this.standing(s) === 0) { this._refuse('clear'); return; }
+      if (s.pred2 !== null) { this._refuse('secondhere'); return; }
+      this._refuse('pred');
+    },
+
+    _onPred: function (v) {
+      if (this._flying) return;
+      var s = this.st, next;
+      next = this.predict(null, v);
+      if (next) {
+        this.st = next;
+        this._paint(GEO.T_BAR);
+        this._snd(GEO.SND_BAR);
+        this._say(v === 0 ? this.api.t('saidPredYes') : this._fmt(this.api.t('saidPredN'), { s: v }));
+        return;
+      }
+      next = this.predict2(null, v);
+      if (next) {
+        this.st = next;
+        this._paint(GEO.T_BAR);
+        this._snd(GEO.SND_BAR);
+        this._say(this._fmt(this.api.t('saidPred2'), { s: v }));
+        return;
+      }
+      next = this.predictSill(null, v);
+      if (next) {
+        this.st = next;
+        this._paint(GEO.T_BAR);
+        this._snd(GEO.SND_BAR);
+        this._say(this.api.t('saidPredSill'));
+        return;
+      }
+      if (s.total === 0) { this._refuse('choosefirst'); return; }
+      this._refuse('pred');
     },
 
     _call: function () {
-      var api = this.api;
+      if (this._flying) return;
+      var api = this.api, self = this, s = this.st;
       var next = this.sendRank(null);
       if (!next) {
-        this._refuse(this.st.pred === null ? 'bar'
-          : (this.standing(this.st) === 0 ? 'clear' : 'stand'));
+        if (s.total === 0) { this._refuse('choosefirst'); return; }
+        if (s.pred === null) { this._refuse('bar'); return; }
+        this._refuse(this.standing(s) === 0 ? 'clear' : 'stand');
         return;
       }
-      this.st = next;
-      this._paint(GEO.T_RANK);
-      this._snd(GEO.SND_THROUGH);
-      if (this.done(next)) {
-        var s = this.standing(next);
-        api.announce(s === 0
-          ? this._fmt(api.t('saidClear'), { n: next.total, r: next.ranks, k: next.k })
-          : this._fmt(api.t('saidStand'), { s: s, n: next.total, k: next.k }));
-      } else {
-        api.announce(this._fmt(api.t('saidRank'), { n: this.through(next), w: this.waiting(next) }));
-      }
+      this._flyRankFrom(this._wait, next, function () {
+        if (self.done(null)) {
+          var st = self.standing(null);
+          self._say(st === 0
+            ? self._fmt(api.t('saidClear'), { n: self.st.total, r: self.st.ranks, k: self.st.k })
+            : self._fmt(api.t('saidStand'), { s: st, n: self.st.total, k: self.st.k }));
+        } else {
+          self._say(self._fmt(api.t('saidRank'), { n: self.through(null), w: self.waiting(null) }));
+        }
+      });
     },
 
+    /* the second parade marches BEHIND ITS OWN COMMITTED PREDICTION —
+       first parade by action, second by anticipation. */
     _second: function () {
-      var api = this.api;
-      var t = this._pick(String(this.st.k));
-      if (t % this.st.k === 0) t = t + 1 > GEO.CAP ? t - 1 : t + 1;
-      var next = this.bringSecond(null, t);
-      if (!next) { this._refuse('second'); return; }
-      this.st = next;
-      this._paint(GEO.T_RANK);
-      this._snd(GEO.SND_CALL);
-      api.announce(this._fmt(api.t('saidSecond'), { n: next.second, s: this.secondStanding(next) }));
+      if (this._flying || this._auto) return;
+      var api = this.api, self = this, s = this.st;
+      if (s.pred2 === null || !this.sendRank2(null)) {
+        if (s.total === 0) { this._refuse('choosefirst'); return; }
+        if (!this.done(s)) { this._refuse('marchon'); return; }
+        if (this.standing(s) === 0) { this._refuse('clear'); return; }
+        if (s.second === null) { this._refuse('choosefirst'); return; }
+        if (s.pred2 === null) { this._refuse('bar'); return; }
+        if (this.done2(s)) { this._refuse('secondhere'); return; }
+        this._refuse('pred');
+        return;
+      }
+      this._auto = true;
+      var step = function () {
+        var next = self.sendRank2(null);
+        if (!next) {
+          self._auto = false;
+          var b = self.standing2(null);
+          self._paint();
+          self._say(b > 0
+            ? self._fmt(api.t('saidSecond'), { n: self.st.second, s: b })
+            : self._fmt(api.t('saidSecondClear'), { n: self.st.second }));
+          return;
+        }
+        self._flyRankFrom(self._sec, next, function () {
+          self._autoTimer = window.setTimeout(step, self._dur(GEO.T_STEP2));
+        });
+      };
+      step();
     },
 
     _sillMove: function () {
-      var api = this.api, self = this;
+      if (this._flying) return;
+      var api = this.api, self = this, s = this.st;
       var next = this.toSill(null);
-      if (!next) { this._refuse(this.st.onSill > 0 ? 'onsill' : 'nosecond'); return; }
-      var a = this.standing(this.st), b = this.secondStanding(this.st);
+      if (!next) {
+        if (s.onSill > 0) { this._refuse('onsill'); return; }
+        if (s.sillGone) { this._refuse('clear'); return; }
+        if (s.second === null) { this._refuse('nosecond'); return; }
+        if (!this.done2(s)) { this._refuse('marchon'); return; }
+        if (this.standing2(s) === 0) { this._refuse('secondclear'); return; }
+        if (s.sillPred === null) { this._refuse('bar'); return; }
+        this._refuse('nosecond');
+        return;
+      }
+      var a = this.standing(s), b = this.standing2(s);
       this.st = next;
-      this._paint(GEO.T_RANK);
       this._snd(GEO.SND_SILL);
-      /* ⭐ THE BEAT. The class must see two leftovers standing on ONE
-         plate before it becomes a rank, or the theorem reads as a trick.
-         ⚠ Not through _dur(): a wait is not movement. */
-      window.setTimeout(function () {
-        self._paint(GEO.T_RANK);
-        self._snd(GEO.SND_THROUGH, true);
-        api.announce(self.sillFull(self.st)
-          ? self._fmt(api.t('saidSill'), { a: a, b: b })
-          : self._fmt(api.t('saidSillShort'), { a: a, b: b, c: a + b, k: self.st.k }));
-      }, GEO.T_SILL);
+      this._flyToSill(function () {
+        /* ⚠ THE BEAT. The class must see two leftovers standing on
+           ONE plate before it becomes a rank, or the theorem reads as
+           a trick. Not through _dur(): a wait is not movement. */
+        self._sillTimer = window.setTimeout(function () {
+          if (self.sillFull(null)) {
+            self._sill.classList.add('is-rank');
+            self._sillTimer = window.setTimeout(function () {
+              var after = self.sillThrough(null);
+              if (!after) return;
+              self.st = after;
+              self._flySillThrough(function () {
+                self._sill.classList.remove('is-rank');
+                self._paint();
+                self._snd(GEO.SND_THROUGH, true);
+                self._say(self._fmt(api.t('saidSill'), { a: a, b: b }));
+              });
+            }, self._dur(GEO.T_RECOLOR) + 60);
+          } else {
+            self._say(self._fmt(api.t('saidSillShort'), { a: a, b: b, c: a + b, k: self.st.k }));
+          }
+        }, GEO.T_SILL);
+      });
+    },
+
+    _again: function () {
+      if (this._flying) return;
+      this._stopMotion();
+      var t = this._pick();
+      this.st = this.newState(this.api.settings.n, t);
+      this._chipSig = '';
+      this._paint(GEO.T_BAR);
+      this._snd(GEO.SND_CALL);
+      this._say(this._fmt(this.api.t('saidParade'), { n: t }));
     },
 
     _refuse: function (why) {
       var api = this.api, self = this, a = this._arena;
-      this._snd(GEO.SND_REFUSE);
+      this._snd(GEO.SND_REFUSE, true);
       if (a) {
         a.classList.add('is-refuse');
-        window.setTimeout(function () { a.classList.remove('is-refuse'); }, self._dur(GEO.T_REFUSE));
+        if (why === 'bar') this._bar.classList.add('is-hold');
+        if (why === 'stand') this._wait.classList.add('is-point');
+        window.setTimeout(function () {
+          a.classList.remove('is-refuse');
+          self._bar.classList.remove('is-hold');
+          self._wait.classList.remove('is-point');
+        }, self._dur(GEO.T_REFUSE));
       }
-      if (why === 'bar') { api.announce(api.t('saidBarDown')); return; }
-      if (why === 'nosecond') { api.announce(api.t('saidNoSecond')); return; }
-      if (why === 'onsill') { api.announce(api.t('saidOnSill')); return; }
-      if (why === 'clear') { api.announce(api.t('saidAllThrough')); return; }
-      if (why === 'pred') { api.announce(api.t('saidBusy')); return; }
+      if (why === 'bar') { this._say(api.t('saidBarDown')); return; }
+      if (why === 'choosefirst') { this._say(api.t('saidChooseFirst')); return; }
+      if (why === 'marchon') { this._say(api.t('saidMarchOn')); return; }
+      if (why === 'secondhere') { this._say(api.t('saidSecondHere')); return; }
+      if (why === 'secondclear') { this._say(this._fmt(api.t('saidSecondClear'), { n: this.st.second })); return; }
+      if (why === 'nosecond') { this._say(api.t('saidNoSecond')); return; }
+      if (why === 'onsill') { this._say(api.t('saidOnSill')); return; }
+      if (why === 'clear') { this._say(api.t('saidAllThrough')); return; }
+      if (why === 'pred') { this._say(api.t('saidBusy')); return; }
       var s = this.st;
-      api.announce(this._fmt(api.t('saidStand'), { s: this.standing(s), n: s.total, k: s.k }));
+      this._say(this._fmt(api.t('saidStand'), { s: this.standing(s), n: s.total, k: s.k }));
+    },
+
+    /* ---- the fly engine (persistent nodes, one interpolator) ------- */
+
+    _ease: function (t) {
+      return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    },
+
+    /* move real marcher nodes from measured start rects to measured
+       destination rects under ONE rAF interpolator; every item
+       arrives in the SAME frame — a rank is one thing. */
+    _flyNodes: function (items, dur, crossY, done, startSnd) {
+      var self = this, i;
+      if (!items.length) { if (done) done(); return; }
+      this._flying = true;
+      var arenaRect = this._arena.getBoundingClientRect();
+      var flies = [];
+      for (i = 0; i < items.length; i++) {
+        var it = items[i];
+        var holder = this.api.el('div', 'pgt-flyer');
+        holder.style.left = (it.from.left - arenaRect.left) + 'px';
+        holder.style.top = (it.from.top - arenaRect.top) + 'px';
+        holder.appendChild(it.node);
+        this._fly.appendChild(holder);
+        flies.push({
+          el: holder,
+          dx: it.to.left - it.from.left,
+          dy: it.to.top - it.from.top,
+          y0: it.from.top - arenaRect.top
+        });
+      }
+      var t0 = null, crossed = false;
+      var frame = function (ts) {
+        if (t0 === null) t0 = ts;
+        var t = Math.min(1, (ts - t0) / dur);
+        var e = self._ease(t), j;
+        for (j = 0; j < flies.length; j++) {
+          flies[j].el.style.transform = 'translate(' + (flies[j].dx * e) + 'px,' + (flies[j].dy * e) + 'px)';
+        }
+        if (!crossed && crossY !== null && flies[0].y0 + flies[0].dy * e < crossY) {
+          crossed = true;
+          self._snd(GEO.SND_THROUGH, true);
+        }
+        if (t < 1) { self._raf = window.requestAnimationFrame(frame); return; }
+        self._raf = null;
+        while (self._fly.firstChild) self._fly.removeChild(self._fly.firstChild);
+        self._flying = false;
+        if (done) done();
+      };
+      if (startSnd) this._snd(startSnd, true);
+      this._raf = window.requestAnimationFrame(frame);
+    },
+
+    /* one rank leaves `host` (wait or sec) and lands in the yard */
+    _flyRankFrom: function (host, nextState, done) {
+      var self = this;
+      var srcRow = host.firstChild;
+      if (!srcRow) { this.st = nextState; this._paint(GEO.T_RANK); if (done) done(); return; }
+      var srcMs = srcRow.querySelectorAll('.pgt-m');
+      var froms = [], i;
+      for (i = 0; i < srcMs.length; i++) froms.push(srcMs[i].getBoundingClientRect());
+      this.st = nextState;
+      this._paint(GEO.T_RANK);
+      var destRow = this._yard.lastChild;
+      if (!destRow) { if (done) done(); return; }
+      var destMs = destRow.querySelectorAll('.pgt-m');
+      destRow.style.visibility = 'hidden';
+      var items = [];
+      for (i = 0; i < destMs.length && i < srcMs.length; i++) {
+        items.push({ node: srcMs[i], from: froms[i], to: destMs[i].getBoundingClientRect() });
+      }
+      var arenaRect = this._arena.getBoundingClientRect();
+      var wallRect = this._wallrow.getBoundingClientRect();
+      this._flyNodes(items, this._dur(GEO.T_RANK), wallRect.bottom - arenaRect.top, function () {
+        destRow.style.visibility = '';
+        if (done) done();
+      }, GEO.SND_CALL);
+    },
+
+    /* both leftovers step onto the plate, same frame */
+    _flyToSill: function (done) {
+      var self = this, i;
+      var srcA = this._wait.querySelectorAll('.pgt-m');
+      var srcB = this._sec.querySelectorAll('.pgt-m');
+      var froms = [], nodes = [];
+      for (i = 0; i < srcA.length; i++) { nodes.push(srcA[i]); froms.push(srcA[i].getBoundingClientRect()); }
+      for (i = 0; i < srcB.length; i++) { nodes.push(srcB[i]); froms.push(srcB[i].getBoundingClientRect()); }
+      this._paint(GEO.T_RANK);
+      var dest = this._sill.querySelectorAll('.pgt-m');
+      var items = [];
+      for (i = 0; i < dest.length && i < nodes.length; i++) {
+        dest[i].style.visibility = 'hidden';
+        items.push({ node: nodes[i], from: froms[i], to: dest[i].getBoundingClientRect() });
+      }
+      this._flyNodes(items, this._dur(GEO.T_RANK), null, function () {
+        var d = self._sill.querySelectorAll('.pgt-m'), j;
+        for (j = 0; j < d.length; j++) d[j].style.visibility = '';
+        if (done) done();
+      }, null);
+    },
+
+    /* the full plate takes the byte-identical rank march every rank
+       gets — no flourish; production values can deliver a verdict. */
+    _flySillThrough: function (done) {
+      var self = this, i;
+      var srcMs = this._sill.querySelectorAll('.pgt-m');
+      var froms = [], nodes = [];
+      for (i = 0; i < srcMs.length; i++) { nodes.push(srcMs[i]); froms.push(srcMs[i].getBoundingClientRect()); }
+      this._paint(GEO.T_RANK);
+      var destRow = this._yard.lastChild;
+      if (!destRow) { if (done) done(); return; }
+      var destMs = destRow.querySelectorAll('.pgt-m');
+      destRow.style.visibility = 'hidden';
+      var items = [];
+      for (i = 0; i < destMs.length && i < nodes.length; i++) {
+        items.push({ node: nodes[i], from: froms[i], to: destMs[i].getBoundingClientRect() });
+      }
+      var arenaRect = this._arena.getBoundingClientRect();
+      var wallRect = this._wallrow.getBoundingClientRect();
+      this._flyNodes(items, this._dur(GEO.T_RANK), wallRect.bottom - arenaRect.top, function () {
+        destRow.style.visibility = '';
+        if (done) done();
+      }, null);
     },
 
     /* ---- painting -------------------------------------------------- */
@@ -1059,10 +1629,8 @@
             row.appendChild(api.el('span', 'pgt-m'));
           } else if (opts && opts.seats) {
             /* ⭐⭐ THE EMPTY SEAT. The marcher left standing is drawn
-               byte-identically to every other marcher; what is drawn is
-               the PLACE BESIDE IT that nobody filled. Differentiating
-               the marcher itself would be the verdict delivered by
-               shape, in a palette that deliberately has no red. */
+               byte-identically to every other marcher; what is drawn
+               is the PLACE BESIDE IT that nobody filled. */
             row.appendChild(api.el('span', 'pgt-seat'));
           }
         }
@@ -1075,21 +1643,39 @@
       var d = this._dur(dur || GEO.T_RANK);
       this._arena.style.setProperty('--pgt-t', d + 'ms');
       this._arena.setAttribute('aria-label', api.t('ariaYard'));
-      this._arch.style.setProperty('--pgt-k', String(s.k));
+      this._card.style.setProperty('--pgt-k', String(s.k));
+      this._key.textContent = String(s.k);
 
-      var thru = this.through(s), wait = this.waiting(s);
-      this._row(this._yard, thru, s.k, null);
-      /* the waiting parade shows the empty seats only on its last,
-         short rank — which is exactly where the leftover lives */
-      this._row(this._wait, wait, s.k, { seats: this.done(s) });
-      this._yard.setAttribute('aria-label', this._fmt(api.t('ariaThrough'), { n: thru, r: s.ranks }));
-      this._wait.setAttribute('aria-label', this.done(s) && this.standing(s)
-        ? this._fmt(api.t('ariaStand'), { n: this.standing(s), e: s.k - this.standing(s) })
-        : this._fmt(api.t('ariaWaiting'), { n: wait }));
+      var a = this.standing(s), b = this.standing2(s);
+      var afterSill = s.onSill > 0 || s.sillGone;
+      var yardN = this.yardCount(s);
 
-      this._sec.style.display = s.second === null ? 'none' : '';
-      if (s.second !== null) this._row(this._sec, this.secondStanding(s), s.k, { seats: true });
+      /* the yard: full ranks through, tight files */
+      this._row(this._yard, yardN, s.k, null);
+      this._yard.setAttribute('aria-label', this._fmt(api.t('ariaThrough'), { n: yardN, r: this.yardRanks(s) }));
 
+      /* the waiting parade; its leftover leaves for the sill later */
+      var waitShown = this.waiting(s) - (afterSill ? a : 0);
+      if (waitShown < 0) waitShown = 0;
+      var standNow = this.done(s) && s.pred !== null && !afterSill;
+      this._row(this._wait, waitShown, s.k, { seats: standNow && a > 0 });
+      this._wait.setAttribute('aria-label', standNow && a > 0
+        ? this._fmt(api.t('ariaStand'), { n: a, e: s.k - a })
+        : this._fmt(api.t('ariaWaiting'), { n: waitShown }));
+
+      /* the second parade */
+      var secShown = s.second === null ? 0 : this.waiting2(s) - (afterSill ? b : 0);
+      if (secShown < 0) secShown = 0;
+      var stand2Now = this.done2(s) && !afterSill;
+      this._sec.parentNode.style.display = s.second === null ? 'none' : '';
+      if (s.second !== null) {
+        this._row(this._sec, secShown, s.k, { seats: stand2Now && b > 0 });
+        this._sec.setAttribute('aria-label', stand2Now && b > 0
+          ? this._fmt(api.t('ariaStand'), { n: b, e: s.k - b })
+          : this._fmt(api.t('ariaWaiting'), { n: secShown }));
+      }
+
+      /* the sill */
       this._sill.style.display = s.onSill === 0 ? 'none' : '';
       if (s.onSill > 0) {
         this._row(this._sill, s.onSill, s.k, { seats: !this.sillFull(s) });
@@ -1097,15 +1683,78 @@
       }
       this._sill.classList.toggle('is-full', this.sillFull(s));
 
+      /* numerals — the reveal discipline */
+      this._numThru.textContent = yardN > 0 ? String(yardN) : '';
+      this._numN.textContent = (s.total > 0 && s.ranks === 0 && s.ranks2 === 0 && !(s.pred !== null && this.done(s)))
+        ? String(s.total) : '';
+      this._numStand.textContent = (standNow && a > 0) ? String(a) : '';
+      this._numStand2.textContent = (stand2Now && b > 0) ? String(b) : '';
+      this._numSill.textContent = s.onSill > 0 ? String(s.onSill) : '';
+      /* the per-column counts, only at standstill */
+      while (this._files.firstChild) this._files.removeChild(this._files.firstChild);
+      if (s.pred !== null && this.done(s) && yardN > 0) {
+        var perFile = this.yardRanks(s), i;
+        for (i = 0; i < s.k; i++) {
+          var f = api.el('span', 'pgt-file');
+          f.textContent = String(perFile);
+          this._files.appendChild(f);
+        }
+      }
+
+      /* the boom */
       this._bar.classList.toggle('is-up', this.barUp(s));
-      this._btn.yes.classList.toggle('is-off', s.pred !== null);
-      this._btn.no.classList.toggle('is-off', s.pred !== null);
-      this._btn.yes.setAttribute('aria-pressed', s.pred === true ? 'true' : 'false');
-      this._btn.no.setAttribute('aria-pressed', s.pred === false ? 'true' : 'false');
-      this._btn.call.classList.toggle('is-off', !this.sendRank(null));
-      this._btn.second.classList.toggle('is-off', !this.bringSecond(null, s.k + 1));
-      this._btn.sill.classList.toggle('is-off', !this.toSill(null));
+
+      /* ---- the act strip: rails, dimming and prominence are all
+         derived from the MOVES, never from a flag ----------------- */
+      var canSize = !!(this.setTotal(null, 1) || this.setSecond(null, 1));
+      var ab = a + b;
+      var predMode = null;
+      if (this.predict(null, 0) || this.predict2(null, 0)) predMode = 'k';
+      else if (this.predictSill(null, 0)) predMode = 'sill';
+      var canCall = !!this.sendRank(null);
+      var canSecond = s.pred2 !== null && !!this.sendRank2(null);
+      var canSill = !!this.toSill(null);
+
+      /* the sill chips stay visible while the sill question is live,
+         so the committed chip remains the on-record claim */
+      var chipMode = (predMode === 'sill' || (s.sillPred !== null && !s.sillGone)) ? 'sill' : 'k';
+      this._buildChips(chipMode, s.k, ab);
+
+      var j;
+      for (j = 0; j < this._sizeChips.length; j++) {
+        this._sizeChips[j].classList.toggle('is-off', !canSize);
+      }
+      for (j = 0; j < this._predChips.length; j++) {
+        var chip = this._predChips[j];
+        chip.el.classList.toggle('is-off', predMode === null);
+        var pressed = false;
+        if (chipMode === 'sill') pressed = (s.sillPred !== null && chip.v === s.sillPred);
+        else if (s.second !== null && s.pred2 !== null) pressed = (chip.v === s.pred2);
+        else if (s.pred !== null) pressed = (chip.v === s.pred);
+        chip.el.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+      }
+
+      this._btn.call.classList.toggle('is-off', !canCall);
+      this._btn.second.classList.toggle('is-off', !canSecond);
+      this._btn.sill.classList.toggle('is-off', !canSill);
+
+      this._gSize.classList.toggle('is-here', canSize);
+      this._gPred.classList.toggle('is-here', predMode !== null);
+      this._gMarch.classList.toggle('is-here', canCall);
+      this._gTheorem.classList.toggle('is-here', canSecond || canSill);
+      var anyNow = canSize || predMode !== null || canCall || canSecond || canSill;
+      this._gHouse.classList.toggle('is-here', !anyNow);
+
+      this._btn.call.classList.toggle('is-now', canCall);
+      this._btn.second.classList.toggle('is-now', canSecond);
+      this._btn.sill.classList.toggle('is-now', canSill);
+      this._btn.again.classList.toggle('is-now', !anyNow);
+
+      /* the print chip states its requirement */
       this._btn.print.classList.toggle('is-paid', !!this.premium);
+      var pk = this.premium ? 'printBtn' : 'printAsk';
+      this._btn.print.querySelector('.pgt-lab').textContent = api.t(pk);
+      this._btn.print.setAttribute('aria-label', api.t(pk));
     },
 
     /* ================= entitlement ================================== */
@@ -1165,74 +1814,289 @@
       window.print();
     },
 
+    /* the desk mat: a standable archway, twenty marchers, the
+       fold-to-width plate, the yard mat, and the prediction row —
+       the same choose -> commit -> march -> empty-seat grammar,
+       plus the one thing the whiteboard never does: recording. */
     _buildSheet: function () {
-      var api = this.api, i;
-      var s = this._sheet;
-      while (s.firstChild) s.removeChild(s.firstChild);
+      var api = this.api, self = this, s = this.st, i;
+      var host = this._sheet;
+      while (host.firstChild) host.removeChild(host.firstChild);
       var h = api.el('h2', 'pgt-sheet-h'); h.textContent = api.t('sheetTitle');
-      var n = api.el('p', 'pgt-sheet-note'); n.textContent = api.t('sheetNote');
-      s.appendChild(h); s.appendChild(n);
-      for (i = 0; i < GEO.CAP; i++) s.appendChild(api.el('span', 'pgt-p-m'));
-      var arch = api.el('div', 'pgt-p-arch');
-      s.appendChild(arch);
+      var note = api.el('p', 'pgt-sheet-note'); note.textContent = api.t('sheetNote');
+      host.appendChild(h); host.appendChild(note);
+
+      function svg(w, hh, vw, vh) {
+        var el = self._svgEl('svg', { viewBox: '0 0 ' + vw + ' ' + vh });
+        el.setAttribute('class', 'pgt-p-svg');
+        el.style.width = w + 'mm';
+        el.style.height = hh + 'mm';
+        return el;
+      }
+      function line(p, x1, y1, x2, y2, dash) {
+        var l = self._svgEl('line', { x1: x1, y1: y1, x2: x2, y2: y2, stroke: '#000', 'stroke-width': 0.35 });
+        if (dash) l.setAttribute('stroke-dasharray', dash);
+        p.appendChild(l);
+      }
+      function rect(p, x, y, w, hh, opts) {
+        var r = self._svgEl('rect', { x: x, y: y, width: w, height: hh, fill: 'none', stroke: '#000', 'stroke-width': (opts && opts.sw) || 0.35 });
+        if (opts && opts.rx) r.setAttribute('rx', opts.rx);
+        if (opts && opts.dash) r.setAttribute('stroke-dasharray', opts.dash);
+        p.appendChild(r);
+      }
+      function circle(p, cx, cy, r, dash) {
+        var c = self._svgEl('circle', { cx: cx, cy: cy, r: r, fill: 'none', stroke: '#000', 'stroke-width': 0.35 });
+        if (dash) c.setAttribute('stroke-dasharray', dash);
+        p.appendChild(c);
+      }
+      function text(p, x, y, str, size) {
+        var t = self._svgEl('text', { x: x, y: y, 'font-family': "'Baloo 2',sans-serif", 'font-size': size || 4, fill: '#000', 'text-anchor': 'middle' });
+        t.textContent = str;
+        p.appendChild(t);
+      }
+
+      /* 1 — the standable archway (fold the flaps back and it stands) */
+      var arch = svg(160, 82, 160, 82);
+      rect(arch, 0, 20, 160, 34);                       /* wall band */
+      rect(arch, 52, 20, 56, 34, { sw: 0.6 });          /* the opening */
+      line(arch, 55, 20, 55, 54); line(arch, 105, 20, 105, 54);   /* jambs */
+      line(arch, 0, 31, 52, 31); line(arch, 0, 42, 52, 42);       /* coursing L */
+      line(arch, 108, 31, 160, 31); line(arch, 108, 42, 160, 42); /* coursing R */
+      var crest = this._svgEl('path', { d: 'M 46 20 A 34 16 0 0 1 114 20', fill: 'none', stroke: '#000', 'stroke-width': 0.6 });
+      arch.appendChild(crest);
+      var key = this._svgEl('path', { d: 'M 75.5 4 L 84.5 4 L 83.25 14 L 76.75 14 Z', fill: 'none', stroke: '#000', 'stroke-width': 0.5 });
+      arch.appendChild(key);                            /* keystone — teacher writes k */
+      line(arch, 0, 54, 52, 54, '3 1.5'); line(arch, 108, 54, 160, 54, '3 1.5'); /* fold lines */
+      rect(arch, 0, 54, 52, 22); rect(arch, 108, 54, 52, 22);     /* base flaps */
+      text(arch, 26, 68, '✂', 6); text(arch, 134, 68, '✂', 6);
+      host.appendChild(arch);
+
+      /* 2 — twenty marchers on a dashed cut grid (K-2 scissors cut squares) */
+      var band = svg(170, 36, 170, 36);
+      for (i = 0; i < GEO.CAP; i++) {
+        var cx = 8.5 + (i % 10) * 17, cy = 9 + Math.floor(i / 10) * 17;
+        rect(band, cx - 8.5, cy - 8.5, 17, 17, { dash: '2 1.2' });
+        circle(band, cx, cy, 7);
+        circle(band, cx, cy + 0.4, 5.6);
+      }
+      host.appendChild(band);
+
+      /* 3 — the fold-to-width plate: five seats, fold to your archway */
+      var plate = svg(92, 26, 92, 26);
+      rect(plate, 1, 5, 88, 20, { rx: 2, sw: 0.6 });
+      for (i = 0; i < 5; i++) {
+        circle(plate, 10 + i * 17.2, 15, 7, '2.5 1.5');
+        if (i >= 1 && i <= 3) line(plate, 18.6 + i * 17.2, 5, 18.6 + i * 17.2, 25, '2 1.2');
+        if (i >= 1) text(plate, 10 + i * 17.2, 3.6, String(i + 1), 3.4);
+      }
+      host.appendChild(plate);
+
+      /* 4 — the prediction row: circle a numeral BEFORE placing */
+      var pr = svg(92, 14, 92, 14);
+      for (i = 0; i < s.k; i++) {
+        rect(pr, 2 + i * 14, 2, 11, 11, { rx: 1.5 });
+        text(pr, 7.5 + i * 14, 10, String(i), 5.5);
+      }
+      host.appendChild(pr);
+
+      /* 5 — the yard mat: ranks to lay the cut-out marchers into */
+      var mat = svg(96, 60, 96, 60);
+      rect(mat, 1, 1, 94, 58, { rx: 4, sw: 0.6 });
+      for (i = 0; i < 15; i++) {
+        circle(mat, 13 + (i % 5) * 17.2, 13 + Math.floor(i / 5) * 17.2, 7, '2.5 1.5');
+      }
+      host.appendChild(mat);
     }
   };
 
   function injectCSS() {
+    function M(x) { return 'calc(var(--pgt-m) * ' + x + ')'; }
+    var AW = 'var(--pgt-aw)';
+    function seatURI(color) {
+      return 'url("data:image/svg+xml,' + encodeURIComponent(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">' +
+        '<circle cx="50" cy="50" r="46" fill="none" stroke="' + color + '" stroke-width="6" ' +
+        'stroke-linecap="round" stroke-dasharray="12.04 12.04"/></svg>') + '")';
+    }
     var css = ''
-      + 'html.pgt-scroll{overflow-y:auto;}'
-      + 'body.pgt-scroll{overflow-y:auto;}'
+      /* ⚠ THE SCROLL ESCAPE, FULL FORM. `html,body.x{}` is a selector
+         LIST whose html half applies unconditionally; and overflow
+         alone is inert against the shell's height:100%. */
+      + 'html.pgt-scroll{overflow-y:auto;height:auto;min-height:100%;}'
+      + 'body.pgt-scroll{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}'
 
       + '.pgt-wrap{position:relative;display:flex;flex-direction:column;align-items:center;width:100%;}'
       + '.pgt-card{container-type:inline-size;width:100%;max-width:860px;box-sizing:border-box;'
       + 'background-color:#F6EAD3;border:1.5px solid #E7DCC8;border-radius:18px;'
-      + 'padding:clamp(12px,2.6cqw,26px);--pgt-m:clamp(15px,3.4cqw,34px);--pgt-t:420ms;}'
+      + 'box-shadow:0 1px 0 #E7DCC8,0 10px 24px rgba(20,107,94,.10);'
+      + 'padding:clamp(12px,2.6cqw,26px);--pgt-m:clamp(15px,3.4cqw,34px);--pgt-t:420ms;'
+      + '--pgt-aw:calc(var(--pgt-k,2) * var(--pgt-m) + (var(--pgt-k,2) - 1) * var(--pgt-m) * .3 + var(--pgt-m) * .7);}'
 
-      + '.pgt-arena{position:relative;display:flex;flex-direction:column;align-items:center;'
-      + 'gap:calc(var(--pgt-m) * .34);}'
-      + '.pgt-arena.is-refuse .pgt-arch{border-color:#A34122;}'
+      + '.pgt-arena{position:relative;display:flex;flex-direction:column;align-items:center;}'
 
-      + '.pgt-yard,.pgt-wait,.pgt-sec,.pgt-sill{display:flex;flex-direction:column;'
-      + 'align-items:center;gap:calc(var(--pgt-m) * .26);min-height:calc(var(--pgt-m) * .3);}'
-      + '.pgt-rank{display:flex;gap:calc(var(--pgt-m) * .3);}'
-      + '.pgt-m{width:var(--pgt-m);height:var(--pgt-m);border-radius:50%;'
-      + 'background-color:#146B5E;flex:none;}'
-      /* ⭐⭐ THE EMPTY SEAT — dashed, muted, 4.38:1. NOT the marcher. */
-      + '.pgt-seat{width:var(--pgt-m);height:var(--pgt-m);border-radius:50%;flex:none;'
-      + 'border:2px dashed #7A6A55;box-sizing:border-box;}'
+      /* --- the courtyard beyond the wall --------------------------- */
+      + '.pgt-far{position:relative;z-index:0;width:calc(' + AW + ' + ' + M(3.2) + ');'
+      + 'min-height:' + M(2.2) + ';box-sizing:border-box;'
+      + 'background-color:#FBF3E4;border:1.5px solid #E7DCC8;border-bottom:0;'
+      + 'border-radius:14px 14px 0 0;padding:' + M(0.5) + ' ' + M(0.5) + ' ' + M(0.9) + ';'
+      /* tucks BEHIND the wall band: the wallrow's own top margin (for
+         the crest) must be fully re-absorbed or a cream gap opens —
+         measured 5px of daylight on the first render */
+      + 'margin-bottom:' + M(-1.05) + ';display:flex;flex-direction:column;align-items:center;}'
+      + '.pgt-yard{display:flex;flex-direction:column;align-items:center;gap:' + M(0.16) + ';}'
+      + '.pgt-files{display:flex;gap:' + M(0.3) + ';margin-top:' + M(0.16) + ';}'
+      /* ⚠ floored like the keystone — 0.55m alone measured ~8px at 360 */
+      + '.pgt-file{width:var(--pgt-m);text-align:center;'
+      + 'font-family:"Baloo 2",system-ui,sans-serif;font-weight:700;color:#0E5147;'
+      + 'font-size:max(12px,' + M(0.55) + ');line-height:1.1;}'
 
-      /* the archway: its opening is exactly k marchers wide */
-      + '.pgt-arch{position:relative;width:calc(var(--pgt-k) * var(--pgt-m) '
-      + '+ (var(--pgt-k) - 1) * var(--pgt-m) * .3 + var(--pgt-m) * .7);'
-      + 'height:calc(var(--pgt-m) * 1.15);border:3px solid #146B5E;border-bottom:0;'
-      + 'border-radius:calc(var(--pgt-m) * .6) calc(var(--pgt-m) * .6) 0 0;}'
-      + '.pgt-bar{position:absolute;left:-3px;right:-3px;bottom:0;height:calc(var(--pgt-m) * .22);'
-      + 'background-color:#0D4E44;border-radius:3px;'
-      + 'transition-property:transform,opacity;transition-duration:var(--pgt-t);'
+      /* --- the wall row: wings, opening, jambs, boom, crest -------- */
+      + '.pgt-wallrow{position:relative;z-index:auto;display:flex;align-items:flex-end;'
+      + 'width:100%;height:' + M(2.1) + ';margin-top:' + M(0.95) + ';'
+      + 'transition:transform ' + GEO.T_THUD + 'ms ease-out;}'
+      + '.pgt-wing{position:relative;z-index:2;flex:1;height:' + M(2.1) + ';background-color:#146B5E;}'
+      + '.pgt-wing::before,.pgt-wing::after{content:"";position:absolute;left:0;right:0;height:2px;'
+      + 'background-color:#0D4E44;opacity:.55;}'
+      + '.pgt-wing::before{top:' + M(0.68) + ';}'
+      + '.pgt-wing::after{top:' + M(1.36) + ';}'
+      + '.pgt-course{position:absolute;left:0;right:0;bottom:0;height:' + M(0.24) + ';background-color:#0D4E44;}'
+      + '.pgt-arch{position:relative;width:' + AW + ';height:' + M(2.1) + ';flex:none;}'
+      + '.pgt-open{position:absolute;inset:0;z-index:2;background-color:#FBF3E4;}'
+      + '.pgt-jamb{position:absolute;top:0;bottom:0;width:' + M(0.14) + ';z-index:4;background-color:#0D4E44;}'
+      + '.pgt-jamb-l{left:0;}'
+      + '.pgt-jamb-r{right:0;}'
+      + '.pgt-head{position:absolute;left:50%;transform:translateX(-50%);bottom:' + M(2.1) + ';z-index:4;'
+      + 'width:calc(' + AW + ' + ' + M(0.6) + ');height:' + M(0.95) + ';'
+      + 'background-color:#146B5E;border-radius:999px 999px 0 0;}'
+      /* ⚠ the keystone numeral measured 9px on the first render —
+         a floor rides the module so the width stays legible always */
+      + '.pgt-key{position:absolute;left:50%;transform:translateX(-50%);bottom:' + M(2.2) + ';z-index:5;'
+      + 'width:max(18px,' + M(0.8) + ');height:max(20px,' + M(0.85) + ');background-color:#0D4E44;'
+      + 'clip-path:polygon(14% 0,86% 0,100% 100%,0 100%);'
+      + 'display:flex;align-items:center;justify-content:center;'
+      + 'font-family:"Baloo 2",system-ui,sans-serif;font-weight:700;color:#FBF3E4;'
+      + 'font-size:max(12px,' + M(0.5) + ');padding-top:' + M(0.06) + ';box-sizing:border-box;}'
+
+      /* the boom: a two-tone plate resting on the jambs. ⚠ a lifted
+         boom stays opacity 1 — it is still solid and will come back.
+         ⚠ 0.34m at the slot's foot measured as a 7px sliver that read
+         as wall coursing — the boom now sits at chest height, thick
+         enough to BLOCK. */
+      + '.pgt-bar{position:absolute;left:0;right:0;bottom:' + M(0.8) + ';height:' + M(0.46) + ';z-index:4;'
+      + 'background-color:#0D4E44;border-radius:' + M(0.17) + ';'
+      + 'transition-property:transform;transition-duration:var(--pgt-t);'
       + 'transition-timing-function:cubic-bezier(.34,.06,.2,1);}'
-      + '.pgt-bar.is-up{transform:translateY(calc(var(--pgt-m) * -.95));opacity:.25;}'
+      + '.pgt-bar::after{content:"";position:absolute;top:' + M(0.06) + ';left:' + M(0.12) + ';right:' + M(0.12) + ';'
+      + 'height:' + M(0.1) + ';background-color:#146B5E;border-radius:2px;}'
+      + '.pgt-bar.is-up{transform:translateY(' + M(-0.84) + ');}'
+      + '.pgt-bar.is-hold{background-color:#A34122;}'
 
-      /* the sill: a plate exactly as wide as the archway */
-      + '.pgt-sill{padding:calc(var(--pgt-m) * .16);border-radius:8px;'
-      + 'border:2px solid #7A6A55;}'
-      + '.pgt-sill.is-full{border-color:#146B5E;border-width:3px;}'
+      /* --- the road below ------------------------------------------ */
+      /* the road holds some length even before a parade is chosen —
+         at rest it measured a 10px stub and the scene read as a wall
+         floating in cream */
+      + '.pgt-near{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;'
+      + 'width:100%;margin-top:' + M(0.3) + ';padding-bottom:' + M(0.2) + ';min-height:' + M(2.6) + ';}'
+      + '.pgt-near::before{content:"";position:absolute;z-index:-1;left:50%;transform:translateX(-50%);'
+      + 'width:' + AW + ';top:' + M(-2.4) + ';bottom:0;background-color:#FBF3E4;'
+      + 'box-shadow:inset 1.5px 0 0 #E7DCC8,inset -1.5px 0 0 #E7DCC8;}'
+      + '.pgt-waitzone,.pgt-seczone{position:relative;display:flex;flex-direction:column;align-items:center;'
+      + 'min-height:' + M(0.3) + ';}'
+      + '.pgt-wait,.pgt-sec{display:flex;flex-direction:column;align-items:center;gap:' + M(0.34) + ';'
+      + 'min-height:' + M(0.3) + ';}'
+      + '.pgt-seczone{margin-top:' + M(0.9) + ';}'
+      + '.pgt-rank{display:flex;gap:' + M(0.3) + ';}'
 
-      + '.pgt-ctl{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;'
-      + 'gap:8px;margin-top:12px;}'
-      + '.pgt-btn{display:inline-flex;align-items:center;justify-content:center;'
-      + 'min-width:52px;height:48px;padding:0 10px;border-radius:12px;'
-      + 'border:1.5px solid #146B5E;background-color:#FBF3E4;color:#146B5E;cursor:pointer;'
-      + 'font-family:"Baloo 2",system-ui,sans-serif;font-size:19px;font-weight:600;line-height:1;}'
-      /* ⚠ THE FOCUS RING IS DOUBLED. The art panel measured the palette's
-         own focus colour #1E8FD4 at 2.97:1 on the working surface —
-         under the 3:1 non-text floor, on the palette's own surface, and
-         almost certainly repo-wide. A deep-teal outer ring carries the
-         contrast while the blue stays the recognisable focus colour. */
+      /* --- the marcher: the house chip ----------------------------- */
+      + '.pgt-m{position:relative;width:var(--pgt-m);height:var(--pgt-m);border-radius:50%;'
+      + 'background-color:#A34122;flex:none;}'
+      + '.pgt-m::before{content:"";position:absolute;left:' + M(0.1) + ';top:' + M(0.13) + ';'
+      + 'width:' + M(0.8) + ';height:' + M(0.8) + ';border-radius:50%;background-color:#F2784B;}'
+      + '.pgt-m::after{content:"";display:none;position:absolute;left:' + M(0.22) + ';top:' + M(0.28) + ';'
+      + 'width:' + M(0.38) + ';height:' + M(0.2) + ';border-radius:50%;background-color:#FFFFFF;opacity:.2;}'
+      + '@container (min-width:768px){.pgt-m::after{display:block;}}'
+
+      /* ⭐⭐ THE EMPTY SEAT — an evenly dashed place, not a thing. */
+      + '.pgt-seat{width:var(--pgt-m);height:var(--pgt-m);flex:none;'
+      + 'background:' + seatURI('#7A6A55') + ' center/100% no-repeat;}'
+      + '.pgt-wait.is-point .pgt-seat{background-image:' + seatURI('#A34122') + ';}'
+
+      /* --- the sill: a plate exactly as wide as the archway -------- */
+      + '.pgt-sill{position:relative;width:' + AW + ';box-sizing:border-box;'
+      + 'display:flex;flex-direction:column;align-items:center;justify-content:center;'
+      + 'min-height:' + M(1.32) + ';padding:' + M(0.16) + ';margin-bottom:' + M(0.6) + ';'
+      + 'background-color:#FBF3E4;border-radius:' + M(0.24) + ';'
+      + 'box-shadow:inset 0 0 0 2.5px #7A6A55;'
+      + 'transition:box-shadow ' + GEO.T_RECOLOR + 'ms linear;}'
+      + '.pgt-sill::after{content:"";position:absolute;left:' + M(0.12) + ';right:' + M(0.12) + ';'
+      + 'bottom:' + M(-0.2) + ';height:' + M(0.2) + ';background-color:#7A6A55;'
+      + 'border-radius:0 0 ' + M(0.18) + ' ' + M(0.18) + ';'
+      + 'transition:background-color ' + GEO.T_RECOLOR + 'ms linear;}'
+      + '.pgt-sill.is-full.is-rank{box-shadow:inset 0 0 0 3px #146B5E;}'
+      + '.pgt-sill.is-full.is-rank::after{background-color:#0D4E44;}'
+
+      /* --- numerals on stage --------------------------------------- */
+      + '.pgt-num{position:absolute;font-family:"Baloo 2",system-ui,sans-serif;font-weight:700;'
+      + 'color:#0E5147;font-size:clamp(16px,4cqw,24px);line-height:1;}'
+      + '.pgt-num-thru{top:' + M(0.25) + ';right:' + M(0.35) + ';position:absolute;}'
+      + '.pgt-num-n{left:calc(50% - ' + AW + ' / 2 - ' + M(1.3) + ');top:0;}'
+      + '.pgt-num-stand{right:calc(50% - ' + AW + ' / 2 - ' + M(1.3) + ');bottom:0;}'
+      + '.pgt-num-stand2{right:calc(50% - ' + AW + ' / 2 - ' + M(1.3) + ');bottom:0;}'
+      + '.pgt-num-sill{top:' + M(-0.75) + ';left:calc(50% + ' + AW + ' / 2 + ' + M(0.3) + ');}'
+
+      /* --- the fly layer ------------------------------------------- */
+      + '.pgt-fly{position:absolute;inset:0;z-index:3;pointer-events:none;}'
+      + '.pgt-flyer{position:absolute;display:flex;gap:' + M(0.3) + ';will-change:transform;}'
+
+      /* --- the refusal: the building answers ----------------------- */
+      + '.pgt-arena.is-refuse .pgt-wallrow{transform:translateY(3px);}'
+      + '.pgt-arena.is-refuse .pgt-jamb{background-color:#F2784B;box-shadow:inset 0 0 0 1.5px #A34122;}'
+
+      /* --- the act strip ------------------------------------------- */
+      + '.pgt-say{width:100%;max-width:860px;box-sizing:border-box;text-align:center;'
+      + 'font-family:Nunito,system-ui,sans-serif;font-size:15px;color:#2A2A35;'
+      + 'min-height:2.6em;margin:10px 0 0;line-height:1.3;}'
+      + '.pgt-ctl{display:flex;flex-direction:column;gap:10px;width:100%;max-width:860px;'
+      + 'box-sizing:border-box;margin-top:6px;}'
+      + '.pgt-g{display:flex;flex-wrap:wrap;align-items:center;gap:8px;'
+      + 'padding-left:12px;border-left:4px solid transparent;}'
+      + '.pgt-g.is-here{border-left-color:#146B5E;}'
+      + '.pgt-leg{flex:none;width:100%;font-family:Nunito,system-ui,sans-serif;font-size:13px;'
+      + 'font-weight:700;color:#2A2A35;}'
+      + '.pgt-strip{display:flex;flex-wrap:wrap;gap:6px;}'
+      + '.pgt-chips{display:flex;flex-wrap:wrap;gap:8px;}'
+
+      + '.pgt-btn{display:inline-flex;align-items:center;gap:7px;min-height:44px;'
+      + 'padding:9px 14px;border-radius:11px;border:1px solid #E7DCC8;'
+      + 'background-color:#FBF3E4;color:#2A2A35;cursor:pointer;'
+      + 'font-family:Nunito,system-ui,sans-serif;font-size:15px;line-height:1.25;'
+      + 'max-width:280px;text-align:start;box-sizing:border-box;}'
+      + '.pgt-gly{display:inline-flex;flex:none;}'
+      + '.pgt-gly-t{font-size:17px;line-height:1;color:#146B5E;}'
+      + '.pgt-lab{white-space:normal;}'
+      /* ⚠ THE FOCUS RING IS DOUBLED: #1E8FD4 is 2.97:1 on the working
+         surface, under the 3:1 floor — the deep-teal outer ring
+         carries the contrast while the blue stays recognisable. */
       + '.pgt-btn:focus-visible{outline:3px solid #1E8FD4;outline-offset:2px;'
       + 'box-shadow:0 0 0 6px #0D4E44;}'
       + '.pgt-btn.is-off{opacity:.42;}'
+      + '.pgt-btn.is-now{border:2px solid #146B5E;padding:8px 13px;font-weight:700;}'
       + '.pgt-btn[aria-pressed="true"]{background-color:#146B5E;color:#FBF3E4;}'
-      + '.pgt-b-print{border-style:dashed;margin-left:10px;}'
+
+      + '.pgt-b-size{min-width:44px;justify-content:center;padding:9px 8px;'
+      + 'font-family:"Baloo 2",system-ui,sans-serif;font-size:18px;font-weight:600;}'
+      + '.pgt-b-pred,.pgt-b-predsill{flex-direction:column;gap:4px;min-width:56px;justify-content:center;'
+      + 'padding:7px 10px;}'
+      + '.pgt-num-chip{font-family:"Baloo 2",system-ui,sans-serif;font-size:21px;font-weight:600;'
+      + 'line-height:1;color:#2A2A35;}'
+      + '.pgt-pmini{display:flex;gap:2px;}'
+      + '.pgt-pmini-m{width:8px;height:8px;border-radius:50%;background-color:#F2784B;'
+      + 'box-shadow:inset 0 0 0 1.5px #A34122;}'
+      + '.pgt-pmini-s{width:8px;height:8px;border-radius:50%;border:1.5px dashed #7A6A55;box-sizing:border-box;}'
+      + '.pgt-b-pred[aria-pressed="true"] .pgt-num-chip{color:#FBF3E4;}'
+      + '.pgt-b-predsill[aria-pressed="true"] .pgt-num-chip{color:#FBF3E4;}'
+
+      + '.pgt-b-print{border-style:dashed;}'
       + '.pgt-b-print.is-paid{border-style:solid;}'
 
       + '.pgt-gate{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;'
@@ -1251,14 +2115,11 @@
       + '@media print{'
       + 'body.pgt-printing *{visibility:hidden;}'
       + 'body.pgt-printing .pgt-sheet,body.pgt-printing .pgt-sheet *{visibility:visible;}'
-      + 'body.pgt-printing .pgt-wrap>.pgt-card,body.pgt-printing .pgt-ctl{display:none !important;}'
+      + 'body.pgt-printing .pgt-wrap{display:none !important;}'
       + 'body.pgt-printing .pgt-sheet{display:block !important;position:static;width:100%;margin:0;padding:0;}'
       + '.pgt-sheet-h{margin:0 0 2mm;font-family:"Baloo 2",system-ui,sans-serif;font-size:16pt;color:#000;}'
-      + '.pgt-sheet-note{margin:0 0 6mm;font-family:Nunito,system-ui,sans-serif;font-size:9pt;color:#000;}'
-      + '.pgt-p-m{display:inline-block;width:14mm;height:14mm;border-radius:50%;'
-      + 'border:1pt solid #000;margin:0 3mm 3mm 0;}'
-      + '.pgt-p-arch{width:80mm;height:30mm;border:1.5pt solid #000;border-bottom:0;'
-      + 'border-radius:12mm 12mm 0 0;margin:8mm 0 0;}'
+      + '.pgt-sheet-note{margin:0 0 4mm;font-family:Nunito,system-ui,sans-serif;font-size:9pt;color:#000;line-height:1.4;}'
+      + '.pgt-p-svg{display:block;margin:0 0 4mm;}'
       + '@page{margin:15mm;}'
       + '}';
     var s = document.createElement('style');

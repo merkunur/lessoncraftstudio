@@ -1387,23 +1387,26 @@
   "pair-gate": {
     "name": "El pórtico",
     "slug": "numeros-pares-e-impares-emparejando-primaria",
-    "tagline": "El pórtico deja pasar exactamente dos a la vez, y quien se queda no se dibuja distinto. Solo se ve el hueco vacío a su lado.",
+    "tagline": "Elijan el desfile, digan cuántos se quedarán de pie y llámenlos de dos en dos: quien se queda no se dibuja distinto de nadie, solo se ve el lugar vacío a su lado.",
     "metaTitle": "Pares e impares: pasar de dos en dos, Primaria",
-    "metaDescription": "Decid primero si pasarán todos y luego llamadlos de dos en dos. Dos desfiles que dejan a uno cada uno forman juntos una fila completa.",
+    "metaDescription": "Pizarra gratuita: elijan el desfile, digan cuántos quedarán de pie y llámenlos de dos en dos. Dos desfiles que dejan a uno hacen una fila entera; prueben con pares.",
     "about": [
-      "El pórtico deja pasar exactamente a esta cantidad juntos. Digan primero si pasarán todos y luego llámenlos hacia delante, tantos cada vez, y compruébenlo.",
-      "El desfile esperando, el pórtico y el patio del otro lado.",
-      "Todo el pórtico es gratis: cada anchura, cada llamada, el rechazo y el umbral. El Plan Docente añade el desfile de papel para recortar y alinear sobre la mesa, para que un niño haga pasar a los desfilantes por un pórtico recortado por él mismo."
+      "Un desfile de desfilantes, un pórtico en un muro por el que caben exactamente dos juntos y un patio al otro lado. La clase elige el desfile en una tira de números, después se compromete con una cifra — cuántos se quedarán de pie — y solo entonces se levanta la barrera. Ese orden es todo el diseño: lo primero que ocurre es un juicio, y el juicio es un número que un niño puede calcular, no una moneda al aire.",
+      "Después se llama a los desfilantes hacia delante, tantos juntos cada vez, y la cuenta crece con ellos — 2, 4, 6, 8 —: contar de dos en dos, hecho visible. Cuando quedan menos de dos, el pórtico sencillamente se niega. Nada llama al niño equivocado: quien se queda de pie se dibuja exactamente igual que cualquier otro desfilante, y lo que sí se dibuja es el lugar vacío a su lado. En la parada final, el patio muestra sus dos columnas iguales con sus cuentas — trece es seis y seis y uno más —: la idea del número par mostrada por el propio aparato, sin escribir ni un símbolo.",
+      "Después la clase elige un segundo desfile — del tamaño que quiera, pares incluidos, y ahí está la gracia. Si también deja a alguien de pie, los dos que quedaron suben al umbral, una placa tan ancha como el pórtico, y una placa llena es una fila que pasa: impar más impar hecho par, visto como mecanismo. Si el segundo desfile pasa entero, no hay nada que llevar al umbral, y la herramienta lo dice. El teorema se puede poner a prueba y verlo fallar — eso es justo lo que lo hace teorema."
     ],
     "howToUse": [
-      "Alguien se quedará de pie. La clase dice que alguien se quedará de pie. La barrera está levantada.",
-      "Llamar a los siguientes. 1 se quedan de pie: 17 no se reparte exactamente en 2 juntos. El pórtico solo acepta completos, nunca a medias.",
-      "Poner a los dos en el umbral. Los dos en el umbral — y el umbral está lleno, así que pasa. 1 y 1 juntos llenan el pórtico exactamente."
+      "Abran con la pregunta, no con la animación. Un niño elige el desfile en la tira de números y la clase se compromete con una ficha antes de que nada se mueva.",
+      "Llamen ustedes mismos a cada tanda y dejen que la clase lea la cuenta que crece. Paren en el momento en que el pórtico se niegue — y no digan nada.",
+      "Señalen el lugar vacío, no al desfilante que tiene al lado. Después lean el cuadro en voz alta, sin símbolos: trece es seis y seis y uno más.",
+      "Los días de teorema, pidan un segundo desfile que también deje a uno de pie. Comprométanse otra vez, mírenlo entrar solo y pregunten: los dos que quedaron, ¿juntos llenan una fila? Comprométanse una vez más antes de que el umbral lo intente.",
+      "Una vez por semana, dejen que un niño traiga a propósito un segundo desfile par y miren cómo el experimento se apaga honradamente: el umbral se queda vacío, y esa es la lección."
     ],
     "classroomIdeas": [
-      "1 se quedan de pie, lugares vacíos al lado: 1",
-      "Traer el segundo desfile. Un segundo desfile de 13. También deja a 1 de pie.",
-      "Recorta a los desfilantes y el pórtico. Colócalos uno detrás de otro y hazlos pasar, tantos juntos cada vez. Cuando queden muy pocos para llenar el pórtico, déjalos de pie y dibuja los lugares vacíos a su lado: esos lugares vacíos son lo que el número te está diciendo."
+      "Una rutina diaria de dos minutos: tres desfiles, tres números comprometidos y la predicción dicha en voz alta antes de llamar a nadie.",
+      "Pasen un desfile de doce y uno de trece, seguidos, con la misma anchura, y pregunten qué hizo el pórtico de diferente. No hizo nada diferente: esa es la cuestión.",
+      "Ensanchen el pórtico a tres y planteen el reto inverso: encontrar un desfile que deje exactamente a dos de pie. La tira lo convierte en una búsqueda, no en una adivinanza.",
+      "Un desafío para los de ocho años: con tres juntos, dos grupos que quedaron de pie solo a veces llenan una fila. Pregunten qué dos desfiles funcionan y por qué — el umbral arbitrará cada respuesta."
     ]
   },
   "doubling-mirror": {

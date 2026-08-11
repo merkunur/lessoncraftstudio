@@ -1390,23 +1390,26 @@
   "pair-gate": {
     "name": "De doorgang",
     "slug": "even-en-oneven-getallen-door-paren-groep-3-4",
-    "tagline": "De doorgang laat er precies twee naast elkaar door — en wie blijft staan ziet er hetzelfde uit als alle anderen. Alleen de lege plek ernaast niet.",
+    "tagline": "Kies de optocht, zeg hoeveel er blijven staan — en roep ze dan twee naast elkaar naar voren. Wie blijft staan ziet er hetzelfde uit als alle anderen; alleen de lege plek ernaast niet.",
     "metaTitle": "Even en oneven: twee naast elkaar, groep 3 en 4",
-    "metaDescription": "Zeg eerst of iedereen erdoor komt en roep ze dan twee naast elkaar. Twee optochten die er elk één laten staan vormen samen een volle rij.",
+    "metaDescription": "Gratis digibordtool: kies de optocht, zeg hoeveel er blijven staan, roep ze twee naast elkaar. Twee optochten die elk één laten staan vullen samen de doorgang.",
     "about": [
-      "De doorgang laat er precies zoveel naast elkaar door. Zeg eerst of iedereen erdoor komt, roep ze dan naar voren, steeds zoveel tegelijk, en kijk wat er gebeurt.",
-      "De optocht die wacht, de doorgang en het plein erachter.",
-      "De hele doorgang is gratis: elke breedte, elke oproep, de weigering en de drempel. Het Leerkracht-abonnement voegt de papieren optocht toe om uit te knippen en op tafel te zetten, zodat een kind de lopers door een zelfgeknipte doorgang kan sturen."
+      "Een optocht van lopers, een doorgang in de muur waar er precies twee tegelijk doorheen kunnen, en een plein aan de andere kant. De klas kiest de optocht op de getallenstrook en legt dan een getal vast — hoeveel er blijven staan — en pas daarna gaat de slagboom omhoog. Die volgorde is het hele ontwerp: het eerste wat er gebeurt is een voorspelling, en die voorspelling is nu een getal dat een kind kan uitrekenen, geen muntje dat je opgooit.",
+      "Daarna roep je ze naar voren, steeds twee tegelijk, en de teller groeit mee — 2, 4, 6, 8 — tellen met sprongen, maar dan zichtbaar. Als er minder dan twee over zijn, weigert de doorgang. Meer niet. Niets noemt het kind fout: wie blijft staan wordt precies zo getekend als elke andere loper, en wat wél getekend wordt, is de lege plek ernaast. Bij stilstand laat het plein zijn twee even lange rijen zien, met de aantallen erbij — dertien is zes en zes en nog één — het idee achter even getallen, getoond door het apparaat zelf, zonder dat er ooit een symbool wordt geschreven.",
+      "Daarna kiest de klas een tweede optocht — zo groot als ze zelf wil, ook een even aantal, en juist dat is het punt. Blijft daar ook iemand staan, dan stappen ze allebei op de drempel, die precies zo breed is als de doorgang. Een volle drempel mag erdoor: oneven plus oneven wordt even, niet als regel op het bord, maar als iets wat je ziet gebeuren. Loopt de tweede optocht er helemaal doorheen, dan komt er niets bij voor de drempel — en dat zegt de tool er eerlijk bij. Je kunt de stelling dus uitproberen en zien dat het soms niet lukt, en juist daardoor is het een stelling."
     ],
     "howToUse": [
-      "Er blijft iemand staan. De klas zegt dat er iemand blijft staan. De slagboom staat omhoog.",
-      "De volgenden naar voren roepen. 1 blijven staan: 17 gaat niet precies op in 2 naast elkaar. De doorgang neemt alleen volle, nooit halve.",
-      "Ze allebei op de drempel zetten. Allebei op de drempel — en de drempel is vol, dus die mag erdoor. 1 en 1 samen vullen de doorgang precies."
+      "Begin met de vraag, niet met het bewegen. Een kind kiest de optocht op de getallenstrook, en de klas legt één getal vast voordat er ook maar iets beweegt.",
+      "Roep ze zelf naar voren en laat de klas de groeiende teller hardop meelezen. Stop zodra de doorgang weigert — en zeg zelf niets.",
+      "Wijs naar de lege plek, niet naar de loper ernaast. Lees dan hardop voor wat er staat, zonder symbolen: dertien is zes en zes en nog één.",
+      "Wil je de stelling laten zien, vraag dan om een tweede optocht waar óók iemand blijft staan. Leg opnieuw een getal vast, kijk hoe die optocht vanzelf binnenkomt, en vraag dan: die twee die bleven staan — vullen ze samen de doorgang? Laat de klas nog één keer kiezen voordat de drempel het probeert.",
+      "Laat eens per week een kind expres een even tweede optocht kiezen en kijk hoe de proef eerlijk misloopt: de drempel blijft leeg — en juist dat is de les."
     ],
     "classroomIdeas": [
-      "1 blijven staan, lege plekken ernaast: 1",
-      "De tweede optocht halen. Een tweede optocht van 13. Daar blijven er ook 1 staan.",
-      "Knip de lopers en de doorgang uit. Zet de lopers achter elkaar en stuur ze erdoor, steeds zoveel naast elkaar. Als er te weinig zijn om de doorgang te vullen, laat ze dan staan en teken de lege plekken ernaast — die lege plekken zijn wat het getal je vertelt."
+      "Een vaste routine van twee minuten: drie optochten, drie vastgelegde getallen, en de voorspelling hardop gezegd voordat er ook maar iemand naar voren komt.",
+      "Laat een optocht van twaalf en een optocht van dertien vlak na elkaar door dezelfde doorgang gaan en vraag wat de doorgang anders deed. Niets — en dat is precies het punt.",
+      "Maak de doorgang drie breed en draai de vraag om: zoek een optocht waarbij er precies twee blijven staan. Met de getallenstrook wordt dat zoeken, geen gokken.",
+      "Iets voor de achtjarigen: bij drie naast elkaar vullen de twee groepjes die bleven staan samen maar soms de doorgang. Vraag welke twee optochten het wél doen en waarom — de drempel beslist over elke bewering."
     ]
   },
   "doubling-mirror": {

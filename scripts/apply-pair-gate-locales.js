@@ -58,7 +58,10 @@ LOCALES.forEach(function (L) {
 });
 
 /* ---- 3. placeholder parity -------------------------------------- */
-const ph = s => (String(s).match(/\{\w+\}/g) || []).sort().join(',');
+/* ⚠ a SET, not a multiset — es `de {k} en {k}` repeats a token
+   legitimately, and _fmt replaces every occurrence. A MISSING token
+   still changes the set, so the parity poison keeps firing. */
+const ph = s => Array.from(new Set(String(s).match(/\{\w+\}/g) || [])).sort().join(',');
 LOCALES.forEach(function (L) {
   KEYS.forEach(function (k) {
     if (!LOC[L] || !LOC[L][k]) return;

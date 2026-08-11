@@ -1389,23 +1389,26 @@
   "pair-gate": {
     "name": "Hvelvingen",
     "slug": "partall-og-oddetall-gjennom-parvis-smatrinnet",
-    "tagline": "Hvelvingen slipper gjennom nøyaktig to ved siden av hverandre — og den som blir stående, ser ut som alle andre. Bare den tomme plassen ved siden av.",
+    "tagline": "Velg opptoget, si hvor mange som blir stående — og rop dem så gjennom, to ved siden av hverandre. Den som blir stående, ser ut som alle andre; det er bare den tomme plassen ved siden av som synes.",
     "metaTitle": "Partall og oddetall: to om gangen gjennom hvelvingen, småtrinnet",
-    "metaDescription": "Si først om alle kommer gjennom, og rop dem så fram to om gangen. To opptog som hver etterlater én, danner sammen en hel rekke.",
+    "metaDescription": "Velg opptoget, si hvor mange som blir stående, og rop dem fram to og to — gratis på tavla. To opptog som etterlater én hver, kan fylle hvelvingen. Prøv partall også.",
     "about": [
-      "Hvelvingen slipper gjennom nøyaktig så mange ved siden av hverandre. Si først om alle kommer gjennom, rop dem så fram, så mange om gangen, og se etter.",
-      "Opptoget som venter, hvelvingen og gården bak.",
-      "Hele hvelvingen er gratis: hver bredde, hvert rop, avvisningen og terskelen. Lærerabonnementet legger til papiropptoget som klippes ut og stilles opp på bordet, slik at et barn kan sende de marsjerende gjennom en hvelving det har klippet selv."
+      "Et opptog av marsjerende, en hvelving i en mur med plass til nøyaktig to av dem, og en gård på den andre siden. Klassen velger opptoget fra en tallstripe og sier så et tall — hvor mange som blir stående — og først da går bommen opp. Den rekkefølgen er hele poenget: det første som skjer, er en vurdering, og vurderingen er nå et tall et barn kan regne seg fram til, ikke en mynt som kastes.",
+      "Så ropes de fram, så mange om gangen, og tellingen vokser underveis — 2, 4, 6, 8 — å telle to og to, gjort synlig. Når det er færre enn to igjen, nekter hvelvingen: den tar bare fulle, aldri halve. Ingenting kaller barnet feil: den som blir stående, tegnes akkurat som alle de andre marsjerende, og det som faktisk tegnes, er den tomme plassen ved siden av. Når alt står stille, viser gården de to like kolonnene med tallene sine — tretten er seks og seks og én til — partall og oddetall, som læreplanen setter som mål etter 2. trinn, vist av selve apparatet, uten at et eneste regnetegn skrives.",
+      "Så velger klassen et andre opptog — så stort de vil, partall er også lov, og det er nettopp poenget. Blir noen stående der også, stiller de som ble stående i begge opptogene, seg på terskelen — en plate nøyaktig like bred som hvelvingen — og er terskelen full, får den gå gjennom: oddetall pluss oddetall blir partall, sett som et maskineri. Marsjerer det andre opptoget rett gjennom, er det ingenting å sette på terskelen, og verktøyet sier det rett ut — regelen kan settes på prøve og av og til slå feil, og det er nettopp det som gjør den til en regel."
     ],
     "howToUse": [
-      "Noen blir stående. Klassen sier at noen blir stående. Bommen er oppe.",
-      "Rop fram de neste. 1 blir stående: 17 går ikke opp i 2 ved siden av hverandre. Hvelvingen tar bare fulle, aldri halve.",
-      "Sett dem begge på terskelen. Begge på terskelen — og terskelen er full, så den får gå gjennom. 1 og 1 til sammen fyller hvelvingen nøyaktig."
+      "Begynn med spørsmålet, ikke med bevegelsen. Et barn velger opptoget fra tallstripen, og klassen trykker inn ett tall — og står for det — før noe som helst rører seg.",
+      "Rop dem fram selv, så mange om gangen, og la klassen lese tellingen som vokser. Stopp i det øyeblikket hvelvingen nekter — og si ingenting.",
+      "Pek på den tomme plassen, ikke på den som står ved siden av. Les så bildet høyt uten regnetegn: tretten er seks og seks og én til.",
+      "På regeldager: be om et andre opptog som OGSÅ lar én bli stående. Si et tall igjen, se opptoget marsjere inn av seg selv, og spør så: de to som ble stående — fyller de hvelvingen sammen? Si hva dere tror én gang til før terskelen prøver hvelvingen.",
+      "Én gang i uka: la et barn velge et partall som andre opptog med vilje, og se forsøket ærlig renne ut i ingenting — terskelen blir stående tom, og akkurat det er lærdommen."
     ],
     "classroomIdeas": [
-      "1 blir stående, tomme plasser ved siden av: 1",
-      "Hent det andre opptoget. Et andre opptog på 13. Det lar også 1 bli stående.",
-      "Klipp ut de marsjerende og hvelvingen. Still de marsjerende opp etter hverandre og send dem gjennom, så mange ved siden av hverandre om gangen. Når det er for få igjen til å fylle hvelvingen, la dem bli stående og tegn de tomme plassene ved siden av — de tomme plassene er det tallet forteller deg."
+      "En daglig rutine på to minutter: tre opptog, tre tall klassen står for, og det dere tror, sagt høyt før noen i det hele tatt ropes fram.",
+      "Kjør et opptog på tolv og et på tretten rett etter hverandre, med samme bredde, og spør hva hvelvingen gjorde annerledes. Den gjorde ingenting annerledes — det er hele poenget.",
+      "Gjør hvelvingen tre bred og snu oppgaven: finn et opptog som lar nøyaktig to bli stående. Tallstripen gjør det til en leting, ikke en gjetning.",
+      "En utfordring for åtteåringene: med tre ved siden av hverandre er det bare noen ganger at de som ble stående i to opptog, fyller hvelvingen sammen. Spør hvilke to opptog som passer sammen, og hvorfor — terskelen dømmer hver eneste påstand."
     ]
   },
   "doubling-mirror": {

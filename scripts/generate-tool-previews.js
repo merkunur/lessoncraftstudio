@@ -164,6 +164,29 @@ const SEEDS = {
   'shape-stretcher': [
     { js: "if(!window.ShapeStretcher||!ShapeStretcher._paint)throw new Error('ShapeStretcher not mounted');ShapeStretcher.st={n:4,k:0,theta:18,rot:42,kept:null};ShapeStretcher._paint();", wait: 700 }
   ],
+  /* ⭐⭐ #58 AT REST HAS ITS THESIS INVISIBLE, AND IS ALSO A DIFFERENT
+     PICTURE EVERY RUN. `newState()` shuffles the four forms off
+     Math.random on every mount, so an unseeded card cannot be reviewed
+     twice; and worse, `end` is null at rest by DESIGN (invention #1 —
+     neither end is home), which means `_paint` sets the walker to
+     `display:none`. The rest frame is therefore a bar with four shapes
+     on it and no instrument in sight: the one tool on the shelf whose
+     card would show none of what it does.
+     The seed puts it mid-routine: a FIXED permutation (triangle, disc,
+     cross, square — so the four silhouettes read as four distinct
+     things), an end chosen, and two steps taken. `landedIndex` is then
+     `k - 1 = 1`, so the disc wears the `is-landed` ring and the walker
+     sits under it. An end has been picked and a landing has happened —
+     which is the entire claim.
+     ⚠ SEEDED BY DATA THROUGH THE TOOL OBJECT, never by clicking a
+     labelled control (the #44 defect, where /print/i matched "Another
+     BLUEPRINT"): no label, locale or DOM re-order can move this frame.
+     ⚠ It THROWS on a missing global rather than continuing quietly — a
+     seed that silently did nothing photographs the rest state, which
+     here is exactly the useless picture the seed exists to avoid. */
+  'the-queue': [
+    { js: "if(!window.TheQueue||!window.TheQueue._paint)throw new Error('TheQueue not mounted');TheQueue.st={members:[2,0,3,1],end:'a',k:2};TheQueue.render();", wait: 700 }
+  ],
   /* ⭐ #55 AT REST IS A ROW OF IDENTICAL DOTS AND A NUMERAL — which is
      the tool's opening frame and looks like any other counting board.
      The card must carry the moment the tool exists for: BOTH shutters

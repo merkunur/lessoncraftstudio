@@ -1503,6 +1503,31 @@
       "Zet het paneel op drie zijden. In het hele apparaat zijn er precies twee standen die een rechte hoek in een driezijdige vorm leggen, en die vinden is een echte speurtocht."
     ]
   },
+  "the-queue": {
+    "slug": "het-perron",
+    "name": "Het perron",
+    "tagline": "Tel er drie vanaf de ene kant en dan drie vanaf de andere. Niemand is verschoven — waarom is het dan iemand anders?",
+    "about": [
+      "Op een perron staan vier vormen te wachten. Kies een kant, stap langs het perron en kijk bij wie je uitkomt. Kies daarna de andere kant en stap even vaak. Er is niemand verschoven op het perron, en toch kom je bijna altijd bij iemand anders uit.",
+      "Meer is het niet. Een kind dat heeft leren tellen langs een rij hoort «de derde» vaak als een naam die het ding draagt, net zoals het zijn kleur draagt. Dat is het niet: het is een mededeling over waar je bent begonnen met tellen. Het perron laat dat zien zonder erover te discussiëren, want tussen de twee tellingen door zie je dat er niemand wordt aangeraakt.",
+      "Er is geen voorkant. De aanwijzer blijft naast het perron staan zolang er geen kant is gekozen, en geen van beide knoppen is de echte: een standaardkant zou stilletjes beweren dat één richting de juiste is, en dat is precies de misvatting.",
+      "De vormen dragen geen letters, geen cijfers en geen rangorde. Alle vier zijn op dezelfde oppervlakte berekend en staan op dezelfde lijn, zodat niets in het materiaal «welke?» beantwoordt voordat de klas dat doet."
+    ],
+    "howToUse": [
+      "Zet hem op het digibord en laat de klas er drie tellen vanaf de linkerkant. Laat ze zeggen bij wie ze uitkomen voordat je iets indrukt.",
+      "Nu drie vanaf de andere kant. En dan de vraag waar het om gaat: is er iemand verschoven?",
+      "Laat er iemand weggaan en tel opnieuw vanaf dezelfde kant. Vanaf de andere kant verandert er niets — dat is het waard om hardop te zeggen.",
+      "Zet hem op drie wachtenden. Bij een oneven aantal is er een plek waar beide kanten hetzelfde opleveren, en die vinden is het mooiste moment van het apparaat."
+    ],
+    "classroomIdeas": [
+      "Zet vier kinderen vooraan in de rij en doe hetzelfde met hen voordat je het apparaat opent. Het scherm bevestigt daarna waar de klas het al over had.",
+      "Vraag een kind te zeggen wie het moet halen zonder te wijzen: het zegt «de derde», en moet er dan bij zeggen de derde vanaf waar.",
+      "Twee minuten om een les over rangtelwoorden te openen, en laat hem daarna gewoon staan terwijl de klas werkt.",
+      "Druk het blad af en laat ze in tweetallen per regel één telling opschrijven: vanaf welke kant ze begonnen en bij wie ze uitkwamen. Het blad hoort bij het Leerkracht-abonnement; het perron zelf — beide kanten, de aanwijzer — is voor iedereen gratis."
+    ],
+    "metaTitle": "Het perron — rangtelwoorden in groep 3 en 4 | LessonCraftStudio",
+    "metaDescription": "Gratis klasapparaat voor rangtelwoorden. Tel vanaf de ene kant van het perron en dan vanaf de andere: er verschuift niemand en toch verandert het antwoord. Werkt op digibord en tablet, zonder account."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

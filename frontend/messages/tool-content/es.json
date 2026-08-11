@@ -1500,6 +1500,31 @@
       "Cambien la lámina a tres lados. En todo el aparato hay exactamente dos ajustes que meten una esquina recta en una figura de tres lados, y encontrarlos es una búsqueda de verdad."
     ]
   },
+  "the-queue": {
+    "slug": "el-anden",
+    "name": "El andén",
+    "tagline": "Cuenta tres desde un lado y luego tres desde el otro. No se ha movido nadie, ¿por qué es otro?",
+    "about": [
+      "En un andén esperan cuatro figuras. Elige un lado, avanza con el puntero y mira en quién te quedas. Después elige el otro lado y avanza exactamente las mismas veces. Del andén no se ha movido nadie y, aun así, casi siempre te quedas en otro.",
+      "Ese es todo el aparato. Un niño que ha aprendido a contar a lo largo de una fila suele oír «el tercero» como un nombre que la cosa lleva puesto, igual que lleva su color. No lo es: es un dato sobre desde dónde empezaste a contar. El andén lo enseña sin discutirlo, porque entre las dos cuentas se ve que nadie ha tocado nada.",
+      "No hay principio de fila. El puntero se queda fuera del andén mientras no haya un lado elegido, y ninguno de los dos botones es el bueno: un lado por defecto afirmaría en voz baja que una dirección es la de verdad, que es justo el error.",
+      "Las figuras no llevan letras, ni números, ni orden. Las cuatro están calculadas con la misma superficie y apoyadas en la misma línea, para que nada del material conteste «¿cuál?» antes que la clase."
+    ],
+    "howToUse": [
+      "Proyéctalo y pide a la clase que avance tres desde el lado izquierdo. Que digan en quién se han quedado antes de que pulses nada.",
+      "Ahora tres desde el otro lado. Y luego la pregunta que importa: ¿se ha movido alguien?",
+      "Deja que se vaya uno y vuelve a contar desde el mismo lado. Desde el otro lado no cambia nada, y eso merece decirse en alto.",
+      "Cambia a tres esperando. Con un número impar hay un sitio en el que los dos lados dan lo mismo, y encontrarlo es el mejor momento del aparato."
+    ],
+    "classroomIdeas": [
+      "Pon a cuatro niños en fila delante de la clase y haz lo mismo con ellos antes de abrir la herramienta. La pantalla confirma después lo que la clase ya ha discutido.",
+      "Pide a un niño que diga a quién hay que ir a buscar sin señalar: dirá «el tercero», y tendrá que añadir el tercero desde dónde.",
+      "Dos minutos para empezar una sesión sobre los ordinales y luego se queda puesto mientras la clase trabaja.",
+      "Imprime la hoja y que anoten por parejas una cuenta en cada línea: desde qué lado empezaron y en quién se quedaron. La hoja es parte del plan Docente; el andén en sí — los dos lados, el puntero — es gratis para todo el mundo."
+    ],
+    "metaTitle": "El andén — los números ordinales en Infantil y Primaria | LessonCraftStudio",
+    "metaDescription": "Herramienta de aula gratuita para los números ordinales. Cuenta desde un lado del andén y luego desde el otro: no se mueve nadie y la respuesta cambia. Funciona en pizarra digital y tableta, sin cuenta."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

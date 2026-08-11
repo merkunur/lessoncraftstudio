@@ -1501,6 +1501,31 @@
       "Porta il riquadro a tre lati. In tutto l'apparecchio ci sono esattamente due regolazioni che mettono un angolo retto in una figura a tre lati, e trovarle è una caccia vera."
     ]
   },
+  "the-queue": {
+    "slug": "la-pedana-da-tutte-e-due-le-parti",
+    "name": "La pedana da tutte e due le parti",
+    "tagline": "Conta tre da una parte, poi tre dall'altra. Non si è spostato nessuno: perché è un altro?",
+    "about": [
+      "Sulla pedana aspettano quattro figure. Scegli una parte, cammina e guarda su chi ti fermi. Poi scegli l'altra parte e cammina altrettante volte. Sulla pedana non si è spostato nessuno e, nonostante questo, quasi sempre ti fermi su un altro.",
+      "Lo strumento è tutto qui. Un bambino che ha imparato a contare lungo una fila sente spesso «il terzo» come un nome che la cosa si porta addosso, come si porta il suo colore. Non lo è: è un'informazione su dove hai cominciato a contare. La pedana lo fa vedere senza doverlo sostenere, perché fra i due conteggi si vede benissimo che nessuno viene toccato.",
+      "Non c'è una testa della fila. Chi cammina resta giù dalla pedana finché non è scelta una parte, e nessuno dei due pulsanti è quello giusto: una parte predefinita direbbe sottovoce che un verso è quello vero, che è proprio l'errore.",
+      "Le figure non hanno lettere, né numeri, né una classifica. Tutte e quattro sono calcolate sulla stessa area e appoggiate sulla stessa linea, così niente nel materiale risponde «quale?» prima della classe."
+    ],
+    "howToUse": [
+      "Proiettala e chiedi alla classe di camminare di tre partendo dalla parte di sinistra. Fatti dire su chi si sono fermati prima di premere qualsiasi cosa.",
+      "Adesso tre dall'altra parte. E poi la domanda che conta: si è spostato qualcuno?",
+      "Fai andare via uno e riconta dalla stessa parte. Dall'altra parte non cambia niente, e vale la pena dirlo ad alta voce.",
+      "Passa a tre che aspettano. Con un numero dispari c'è un posto in cui tutte e due le parti danno la stessa risposta, e trovarlo è il momento migliore dell'apparecchio."
+    ],
+    "classroomIdeas": [
+      "Metti in fila quattro bambini davanti alla classe e fai la stessa cosa con loro prima di aprire lo strumento. Lo schermo poi conferma quello su cui la classe ha già discusso.",
+      "Chiedi a un bambino di dire chi andare a chiamare senza indicare: dirà «il terzo», e dovrà aggiungere il terzo a partire da dove.",
+      "Due minuti per aprire una lezione sui numeri ordinali, poi lascialo sullo schermo mentre la classe lavora.",
+      "Stampa la scheda e falla compilare a coppie, un conteggio per riga: da che parte sono partiti e su chi si sono fermati. La scheda fa parte del Piano Insegnante; la pedana in sé — tutte e due le parti, chi cammina — è gratuita per tutti."
+    ],
+    "metaTitle": "La pedana da tutte e due le parti — i numeri ordinali in classe 1ª-2ª | LessonCraftStudio",
+    "metaDescription": "Strumento di classe gratuito per i numeri ordinali. Conta da una parte della pedana e poi dall'altra: non si sposta nessuno e la risposta cambia. Funziona su LIM e tablet, senza account."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

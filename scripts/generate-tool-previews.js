@@ -213,17 +213,23 @@ const SEEDS = {
      still logs `ok` — the recorded #54 stale-seed defect, which is why
      this note names the selectors rather than trusting them.
 
-     ⚠ Driven by BUTTON, not by the model: `.mqu-b-link` then the two
-     tellable places. Which places those are depends on the arrangement
-     (`SUM_AT` puts the question on a different niche per family), so the
-     seed presses BOTH `mqu-b-t0` and `mqu-b-t1` and lets the one that is
-     the question refuse harmlessly — the refusal is visible for 200ms
-     and gone long before the shot. */
+     ⚠⚠ AND IT MUST NOT END ON A REFUSAL. The first version pressed all
+     three tell buttons and let the one that is the question refuse
+     "harmlessly" — but the say-line KEEPS the refusal, so the card
+     shipped reading "That is the one they have to work out, so it
+     cannot be told." A card captioned with the tool declining to do
+     something is the worst possible first impression, and I only saw it
+     because the house rule is to READ THE WEBP: the log says `ok`
+     either way.
+     ⚠ The default arrangement is `bracket`, where `SUM_AT` puts the
+     question on niche 2 — so telling 0 and 1 tells both knowns and
+     nothing refuses. The card lands on the moment the tool exists for:
+     both facts said, the third place standing open as the question, and
+     the say-line asking "What is missing?" */
   'missing-question': [
     { sel: '.mqu-b-link', wait: 420 },
-    { sel: '.mqu-b-t0', wait: 300 },
-    { sel: '.mqu-b-t1', wait: 300 },
-    { sel: '.mqu-b-t2', wait: 700 }
+    { sel: '.mqu-b-t0', wait: 320 },
+    { sel: '.mqu-b-t1', wait: 700 }
   ],
   /* ⭐ #54 AT REST IS A HALF-EMPTY TRAY, which says nothing. The card
      must carry the moment the tool exists for: BOTH leaves holding the

@@ -26,7 +26,31 @@ const tokens = require('../../primitives/_tokens.js');
 const SYMMETRY_COUNT = { square: 4, rectangle: 2, triangle: 3, diamond: 4, oval: 2, pentagon: 5, hexagon: 6, heart: 1, star: 5, trapezoid: 1 };
 /* ⚠ diamond is 'square' because the shipped artwork IS a square
    rotated 45 degrees. A tilted square sorted to SQUARE is the
-   lesson, not a leniency. */
+   lesson, not a leniency.
+
+   ⚠⚠ THIS IS AN INTERIM FIX AND IT POINTS THE OPPOSITE WAY TO THE
+   INTENT. A later panel measured the asset at 90.0 / 90.06 / 89.94 /
+   90.0 degrees with sides within 0.21%, and — the part I did not know
+   when I changed these keys — **TEN OF ELEVEN LOCALES CALL THIS SHAPE
+   *RHOMBUS*.** So the ORIGINAL values (2 mirror lines, class 'other')
+   were correct FOR A RHOMBUS, and the defect was never in this table:
+   it is in the BITMAP, which was drawn as a square.
+
+   These keys were changed anyway, because with the square art shipping
+   they stopped a child who answers 4 from being marked wrong TODAY.
+   ⭐ THE DURABLE FIX IS TO REDRAW `image library/shapes/diamond.png`
+   AS A GENUINELY NON-SQUARE RHOMBUS (the `draw-bag.js:917` precedent
+   put it at w/h 0.70) — ONE PNG repairs the K.G.A.2 activity in eleven
+   locales, both printable answer keys, and all ten labels.
+   ⚠⚠ WHEN THAT ART LANDS, REVERT THESE TWO KEYS TO `2` AND `'other'`
+   AND DELETE THIS NOTE. Leaving them would then teach that a rhombus
+   is a square, which is the same defect with its sign flipped.
+
+   ⚠ Two more consumers inherit the same assumption and are NOT fixed
+   here: `choice-board.shape-id.k-g-a-2` lists `diamond` as a shape
+   distinct from `square` under a standard whose own text reads
+   "regardless of their orientations", and `pip-museum.curate-wing`
+   ships the OPPOSITE claim in its public copy. */
 const QUAD_CLASS = { square: 'square', rectangle: 'rectangle', diamond: 'square', trapezoid: 'other', parallelogram: 'other' };
 
 /* ⚠⚠ A CROSS-TABLE INVARIANT, because passing the tables into the

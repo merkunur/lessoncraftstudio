@@ -1412,23 +1412,25 @@
   "doubling-mirror": {
     "name": "La bisagra",
     "slug": "dobles-y-mitades-con-fichas-primaria",
-    "tagline": "Cierra la bisagra y la otra hoja recibe la misma cantidad de fichas DE VERDAD, y se pueden tocar todas.",
+    "tagline": "Digan el doble, cierren la bisagra y cuenten las chapas según van cayendo. Ábranla después y esas mismas chapas se reparten en dos: una sola bisagra, en los dos sentidos.",
     "metaTitle": "Dobles y mitades con fichas, Primaria",
-    "metaDescription": "Decid primero cuál será el doble y luego cerrad la bandeja y contad. Nueve se abre en cinco y cuatro, porque la que sobra tiene que ir a algún sitio.",
+    "metaDescription": "Herramienta gratis para pizarra: digan el doble, cierren la bisagra y cuenten. Al abrirla todo se reparte otra vez, y con trece una chapa se queda sin pareja.",
     "about": [
-      "Pongan el ala cercana en un número y digan cuál será el doble. Cierren la bisagra: el ala lejana recibe otras tantas. Después añadan una chapa más y ábranla — así se ve el doble y una más.",
-      "Dos alas unidas por una bisagra.",
-      "Toda la bisagra es gratuita: cada recuento, el cierre y la apertura. El Plan Docente añade la bisagra de papel para recortar y marcar, de modo que un niño pueda poner chapas de verdad en las dos alas y cerrarla con sus propias manos."
+      "Aquí no se copia nada: se cuenta. Un dibujo de doce no es doce, y quien cree ver doce donde hay seis ha contado seis cosas y seis copias que no puede tocar. Por eso esto es una bisagra con dos alas, y todo lo que hay encima es una chapa de verdad, que se toca una vez y se cuenta una vez.",
+      "Con la bisagra cerrada está el todo; con la bisagra abierta están las dos partes. Pongan chapas en el ala cercana, digan cuál será el doble antes de que se mueva nada y cierren: el ala lejana recibe otras tantas, una a una, para que la clase pueda contarlas según van cayendo. Después ábranla, y todo lo que lleva dentro se reparte en dos. Es la misma bisagra al revés, con las mismas chapas, y esa es justo la mitad que casi ninguna clase llega a ver.",
+      "Y un total que no se reparte del todo no bloquea nada. Una chapa se queda sin nadie enfrente, y la clase decide qué hacer con ella: dársela al ala cercana, y entonces nueve es cuatro y cuatro y una más; o buscarle una pareja, y entonces resulta que a nueve le faltaba una para ser el doble. Las dos cosas son ciertas, y a unos niños les convencerá una y a otros la otra. No se puntúa, no se cronometra y nunca se marca nada como bien o mal."
     ],
     "howToUse": [
-      "Poner otra chapa en el ala cercana En el ala cercana: 6.",
-      "Cerrar la bisagra 6 y 6 en las alas. 12 en total.",
-      "Abrir la bisagra 12 vuelve a ser 6 y 6."
+      "Pongan el ala cercana y recojan la respuesta de la clase antes de que se cierre nada. Decirlo primero es la lección; cerrar la bisagra es la comprobación.",
+      "Cierren la bisagra y cuenten en voz alta las chapas según van cayendo en el ala lejana, una a una. No hay que fiarse de nada: se ven todas.",
+      "Abran la bisagra y pregunten cuánto va a llevar un ala: un número si se reparte por igual, y dos si un ala va a acabar llevando una más. Esa es la mitad difícil del hecho numérico, y la que casi ninguna clase llega a practicar.",
+      "Cuando una chapa se quede sin pareja, pregunten a la clase: ¿pasa al ala cercana o le buscamos una pareja? Prueben una respuesta, vuelvan a montar el mismo número y prueben la otra; después comparen lo que lleva la bisagra en cada caso."
     ],
     "classroomIdeas": [
-      "9 no se reparte en dos alas iguales. Una chapa se queda sin pareja: ¿a qué ala se la da la clase?",
-      "9 vuelve a ser 5 y 4. La chapa sin pareja está en el ala 1: es el doble y una más.",
-      "Recorten las dos alas y marquen bien la línea del medio para que se cierren. Pongan chapas en un ala, digan cuál será el doble, cierren la otra ala encima y pongan otras tantas. Cuéntenlas todas: la bisagra no fabrica ni una chapa, la ponen ustedes."
+      "Para empezar por la mitad, monten la bisagra llena en tres pasos: cierren con pocas chapas en el ala cercana, suban el total de una en una con la bisagra ya cerrada y ábranla entonces. Hallar la mitad es la misma bisagra al revés, y la clase lo ve con sus propios ojos.",
+      "Rutina de dos minutos: tres bisagras, tres números dichos en voz alta y, después, el recuento que resuelve cada uno.",
+      "Hagan el ocho y, justo después, el nueve. Pregunten qué hizo la bisagra de otra manera: no hizo nada de otra manera, y eso es exactamente lo que hay que ver.",
+      "Pidan las dos respuestas para la misma chapa que sobra: primero dársela al ala cercana; luego vuelvan a montar el mismo número y búsquenle una pareja. Las dos hablan del nueve: nueve es cuatro y cuatro y una más, y a nueve le faltaba una para ser el doble. Pero cuenten la bisagra después de buscarle la pareja, porque ahora lleva diez; ese salto es justo la conversación que hay que tener."
     ]
   },
   "missing-question": {

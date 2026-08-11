@@ -1423,24 +1423,25 @@
   "doubling-mirror": {
     "name": "The Doubling Mirror",
     "slug": "doubling-mirror-doubles-and-halves-with-counters",
-    "tagline": "Close the hinge and the far leaf gets the same number of REAL counters — you can touch every one of them.",
+    "tagline": "Say the double, close the tray and count the counters as they land. Then open it, and the same counters share back out into two — one tray, both ways round.",
     "metaTitle": "The Doubling Mirror — doubles and halves, Grade 1 and 2",
-    "metaDescription": "Free whiteboard tool: say what the double will be, then close the tray and count. Nine opens into five and four, because the odd one has to go somewhere.",
+    "metaDescription": "Free whiteboard tool: say what the double will be, then close the tray and count. Open it and the whole shares back out — and nine leaves one with no partner.",
     "about": [
-      "It is not a mirror, and that is the point. A mirror doubles an appearance, not a quantity — a child who counts twelve in front of one has counted six things and six reflections, and the reflections are reversed and are not there. So this is a tray with two leaves and a hinge between them, and everything on it is a real counter you can touch once.",
-      "Put counters on the near leaf and say what the double will be before anything moves. Then close the hinge: the far leaf receives the same number again, and the class can count all of them, one at a time, and find they were right. Open the hinge and it comes apart into two equal leaves.",
-      "And an odd total does not stall. Nine will not open into two equal leaves, so one counter has no partner — and the class decides which leaf it goes on. Nine becomes five and four. That is a double and one more, which is the whole of the near-double idea, arrived at by watching rather than by being told. Nothing is scored, nothing is timed, and nothing is ever marked right or wrong."
+      "An appearance that has doubled is not a quantity that has doubled, and that is the whole point of this tray. A child who counts twelve where six things are standing has counted six things twice, and the second six cannot be touched. So everything here is a real counter: the far leaf does not show you a copy, it receives its own counters, laid down one at a time, and the class counts every one of them in.",
+      "A shut tray is the whole; an open tray is two parts. Put counters on the near leaf, say what the double will be before anything moves, and close the hinge — the far leaf receives the same number again, one at a time, so the room can count them as they arrive. Then open it, and the whole tray shares back out into two. It is the same hinge running the other way, on the very same counters, and that is the half most classes never get to watch.",
+      "And a total that will not share out completely does not stall. One counter is left with nobody across from it, and the class decides what to do about it: give it the near leaf, and nine is four and four and one more; or fetch it a partner, and nine turns out to have been a double one short — and once that partner arrives, the tray holds ten. Both are true about nine, and children will want different ones. Nothing is scored, nothing is timed, and nothing is ever marked right or wrong."
     ],
     "howToUse": [
-      "Set out a few counters and take the class vote on the double BEFORE you close anything. The saying-first is the lesson; the closing is the check.",
-      "Close the hinge and count the whole tray together, touching each counter once. There is nothing to take on trust.",
-      "Open a tray that will not split evenly and say nothing. Somebody will notice that one counter has nowhere to go.",
-      "Let the class choose the odd one a leaf, then read what the tray says: five and four, a double and one more."
+      "Set the near leaf and take the vote before anything shuts. The saying-first is the lesson; the closing is the check.",
+      "Close the hinge and count the counters aloud as they land on the far leaf, one at a time. There is nothing to take on trust.",
+      "Open the tray and ask what one leaf will hold — one number if it shares out evenly, two if the two leaves will not match. That is the harder half of the fact, and the half most classes never practise.",
+      "When one counter is left with no partner, ask the room: does it join the near leaf, or do we fetch it a partner? Take one answer, read what the tray says, then build the same total again to try the other — settling the leftover uses it up, so it has to come back before the second answer can be tried."
     ],
     "classroomIdeas": [
-      "A two-minute routine: three trays, three votes said out loud, and the count afterwards to settle each one.",
-      "Do eight and then nine back to back. Ask what the tray did differently — it did nothing differently, which is what odd means.",
-      "Start from a full tray and open it instead. Halving is the same hinge running the other way, and the class can see that it is."
+      "Begin at the halving end. Close the hinge on a small near leaf, walk the shut tray up one counter at a time to the number you want, and only then open it. Halving is the same hinge running the other way, and the class can watch it be.",
+      "A two-minute routine: three trays, three numbers said out loud, and the count afterwards to settle each one.",
+      "Do eight and then nine back to back. Ask what the tray did differently — it did nothing differently, and that is exactly the point.",
+      "Ask for both answers to the same leftover. Give it the near leaf: the tray reads five and four, and nine is a double and one more. Then build nine again and fetch it a partner instead: nine was a double one short — but count the tray afterwards, because it now holds ten. Both sentences are about nine; only one of them leaves nine on the leaves."
     ]
   },
   "missing-question": {

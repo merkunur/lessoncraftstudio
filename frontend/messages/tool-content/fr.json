@@ -1413,23 +1413,25 @@
   "doubling-mirror": {
     "name": "La charnière",
     "slug": "doubles-et-moities-avec-des-jetons-cp-ce1",
-    "tagline": "Referme la charnière et l’autre volet reçoit autant de VRAIS jetons — on peut les toucher tous.",
+    "tagline": "Annoncez le double, refermez la charnière et comptez les disques à mesure qu’ils arrivent. Ouvrez-la ensuite : les mêmes disques se repartagent en deux — un seul appareil, dans les deux sens.",
     "metaTitle": "Doubles et moitiés avec des jetons, CP-CE1",
-    "metaDescription": "Dites d’abord quel sera le double, puis refermez le plateau et comptez. Neuf s’ouvre en cinq et quatre, parce que celui qui reste doit aller quelque part.",
+    "metaDescription": "Outil gratuit au TBI : annoncez le double, refermez la charnière et comptez. Ouvrez-la, le tout se repartage — et treize laisse un disque sans partenaire.",
     "about": [
-      "Réglez le battant proche sur un nombre et dites ce que fera le double. Fermez la charnière : le battant opposé en reçoit autant. Ajoutez ensuite un disque de plus et ouvrez — voilà à quoi ressemble un double et un de plus.",
-      "Deux battants reliés par une charnière.",
-      "Toute la charnière est gratuite : chaque comptage, la fermeture et l’ouverture. L’Abonnement Enseignant y ajoute la charnière en papier à découper et à marquer, pour qu’un enfant pose de vrais disques sur les deux battants et la referme de ses mains."
+      "Ce n’est pas une apparence doublée, et c’est tout l’enjeu. Une surface qui renvoie l’apparence des choses ne double pas une quantité : l’enfant qui en compte douze devant elle n’a touché que six objets, et les six autres sont inversés et ne sont nulle part. Ici, il y a deux battants et une charnière entre eux, et tout ce qui se trouve dessus est un vrai disque, qu’on peut toucher et compter une seule fois.",
+      "Charnière fermée, c’est le tout ; charnière ouverte, ce sont deux parts. Posez des disques sur le battant proche, dites ce que fera le double avant que rien ne bouge, puis fermez : le battant opposé reçoit le même nombre de disques, posés un par un, pour que la classe les compte à mesure qu’ils arrivent. Ouvrez ensuite, et le tout se repartage en deux. C’est la même charnière qui travaille dans l’autre sens, sur les mêmes disques, et c’est la moitié du travail que la plupart des classes ne voient jamais.",
+      "Et un total qui ne se partage pas entièrement ne bloque rien. Les deux battants en portent autant, et il reste un disque sans personne en face de lui — c’est la classe qui décide : on le donne au battant proche, et neuf, c’est quatre et quatre et encore un ; ou on lui cherche un partenaire, et il manquait un disque à neuf pour faire un double. Les deux sont vrais, et les enfants ne choisiront pas tous la même chose. Rien n’est noté, rien n’est chronométré, et rien n’est jamais marqué juste ou faux."
     ],
     "howToUse": [
-      "Poser un disque de plus sur le battant proche Sur le battant proche : 6.",
-      "Fermer la charnière 6 et 6 sur les battants. 12 en tout.",
-      "Ouvrir la charnière 12 redevient 6 et 6."
+      "Réglez le battant proche, puis faites voter la classe avant que quoi que ce soit ne se referme. C’est l’annonce qui est la leçon ; la fermeture n’est que la vérification.",
+      "Fermez la charnière et comptez les disques à voix haute à mesure qu’ils arrivent sur le battant opposé, un par un. Il n’y a rien à croire sur parole.",
+      "Ouvrez la charnière et demandez ce qu’un battant va porter : un seul nombre si le partage tombe juste, deux si un battant se retrouve avec un de plus. C’est la partie la plus difficile du fait, et celle que la plupart des classes ne travaillent jamais.",
+      "Quand un disque reste sans partenaire, posez la question à toute la classe : est-ce qu’il rejoint le battant proche, ou est-ce qu’on lui cherche un partenaire ? Prenez la première réponse, lisez ce que la charnière affiche, puis refaites le total et prenez la seconde — c’est en reconstruisant le tout entre les deux qu’on voit ce qui les sépare."
     ],
     "classroomIdeas": [
-      "9 ne se partage pas en deux battants égaux. Un disque n’a pas de partenaire — à quel battant la classe le donne-t-elle ?",
-      "9 redevient 5 et 4. Le disque sans partenaire est sur le battant 1 : c’est un double et un de plus.",
-      "Découpez les deux battants et marquez bien la ligne du milieu pour qu’ils se referment. Posez des disques sur un battant, dites ce que fera le double, rabattez l’autre battant et posez-en autant. Comptez-les tous : la charnière ne fabrique aucun disque, c’est vous qui le faites."
+      "Pour partir d’une charnière déjà pleine : fermez-la sur un petit nombre, faites-la monter en posant des disques un à un sur la charnière fermée, puis ouvrez-la. Prendre la moitié, c’est la même charnière qui travaille dans l’autre sens, et la classe le voit.",
+      "Un rituel de deux minutes : trois charnières, trois nombres annoncés à voix haute, et le comptage ensuite pour trancher à chaque fois.",
+      "Faites huit, puis neuf, l’un après l’autre. Demandez ce que la charnière a fait de différent : elle n’a rien fait de différent, et c’est exactement là qu’est la leçon.",
+      "Demandez les deux réponses pour le même disque en trop. On le donne au battant proche : la charnière porte toujours neuf, quatre et quatre et encore un. On lui cherche un partenaire : il manquait un disque à neuf pour faire un double — et là, comptez avec la classe, la charnière en porte dix. Les deux disent quelque chose de vrai sur neuf, mais un disque est arrivé, et ça se compte."
     ]
   },
   "missing-question": {

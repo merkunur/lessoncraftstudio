@@ -1414,23 +1414,25 @@
   "doubling-mirror": {
     "name": "Gångjärnet",
     "slug": "dubbelt-och-halften-med-brickor-lagstadiet",
-    "tagline": "Fäll ihop gångjärnet och den andra halvan får lika många RIKTIGA brickor — alla går att ta i.",
+    "tagline": "Säg vad dubbelt blir, stäng gångjärnet och räkna skivorna medan de landar. Öppna det sedan, så delas samma skivor upp på två klaffar igen — ett gångjärn, åt båda hållen.",
     "metaTitle": "Dubbelt och hälften med brickor, lågstadiet",
-    "metaDescription": "Säg först vad dubbelt blir och fäll sedan ihop brickan och räkna. Nio öppnas till fem och fyra, för den som blir över måste hamna någonstans.",
+    "metaDescription": "Gratis tavelverktyg: säg vad dubbelt blir, stäng gångjärnet och räkna. Öppna det, så delas allt upp på två klaffar — och tretton lämnar en skiva utan par.",
     "about": [
-      "Ställ in den närmaste klaffen på ett tal och säg vad dubbelt så många blir. Stäng gångjärnet: den bortre klaffen får lika många till. Lägg sedan dit en skiva till och öppna — så ser dubbelt och en till ut.",
-      "Två klaffar med ett gångjärn emellan.",
-      "Hela gångjärnet är gratis — varje räkning, stängningen och öppningen. Lärarplanen lägger till pappersgångjärnet att klippa ut och ritsa, så att ett barn kan lägga riktiga skivor på båda klaffarna och stänga det med egna händer."
+      "Det här är ingenting som bara syns, och det är hela poängen. Ett barn som räknar tolv framför en blank yta har räknat sex saker två gånger — och andra gången fanns de inte där, och de låg dessutom åt fel håll. Därför är det här två klaffar med ett gångjärn emellan, och allt som ligger på dem är riktiga skivor som går att ta i, en gång var.",
+      "Ett stängt gångjärn är hela mängden; ett öppet gångjärn är två delar. Lägg skivor på den närmaste klaffen, säg vad dubbelt så många blir innan något rör sig, och stäng gångjärnet — den bortre klaffen får lika många till, en i taget, så att klassen hinner räkna med. Öppna det sedan, så delas allt upp på två klaffar igen. Det är samma gångjärn åt andra hållet, med precis samma skivor, och det är den delen som de flesta klasser aldrig får se.",
+      "Och ett tal som inte går att dela lika stannar aldrig upp. En skiva blir kvar utan någon mitt emot sig, och klassen bestämmer vad som ska hända med den: ge den till den närmaste klaffen, så visar klaffarna fem och fyra och nio är dubbelt och en till; eller hämta en parkompis åt den, så visar det sig att nio saknade en enda skiva för att bli dubbelt — och då ligger det tio i gångjärnet, vilket är värt att räkna om högt. Båda är sanna om nio, och olika barn kommer att vilja olika. Ingenting poängsätts, ingenting tas på tid, och ingenting märks någonsin som rätt eller fel."
     ],
     "howToUse": [
-      "Lägg en skiva till på den närmaste klaffen På den närmaste klaffen: 6.",
-      "Stäng gångjärnet 6 och 6 på klaffarna. 12 tillsammans.",
-      "Öppna gångjärnet 12 blir 6 och 6 igen."
+      "Ställ in den närmaste klaffen och låt klassen säga sitt innan något stängs. Att säga först är lektionen; stängningen är kontrollen.",
+      "Stäng gångjärnet och räkna skivorna högt medan de landar på den bortre klaffen, en i taget. Ingenting behöver tas på förtroende.",
+      "Öppna gångjärnet och fråga vad en klaff kommer att bära — ett tal om det går att dela lika, två tal om det inte gör det. Det är den svårare delen av samma sak, och den som de flesta klasser aldrig hinner öva.",
+      "När en skiva blir utan par, fråga klassen: ska den läggas på den närmaste klaffen, eller ska vi hämta en parkompis åt den? Ta emot båda svaren, men bygg upp samma tal på nytt mellan dem — när den första frågan är avgjord finns den överblivna skivan inte kvar att välja på."
     ],
     "classroomIdeas": [
-      "9 går inte jämnt upp på två klaffar. En skiva blir utan par — vilken klaff ska klassen ge den till?",
-      "9 blir 5 och 4. Skivan utan par ligger på den 1 klaffen — det är dubbelt och en till.",
-      "Klipp ut de två klaffarna och ritsa mittlinjen så att de går att stänga. Lägg skivor på den ena klaffen, säg vad dubbelt så många blir, fäll den andra klaffen över och lägg lika många till. Räkna alla: gångjärnet gör inte en enda skiva — det gör ni."
+      "Att börja i andra änden går, men det tar tre steg: lägg några få skivor på den närmaste klaffen, stäng gångjärnet, fyll sedan på det stängda gångjärnet tills det håller det tal ni vill ha — och öppna först då. Hälften är samma gångjärn åt andra hållet, och klassen kan se att det är det.",
+      "En tvåminutersrutin: tre gångjärn, tre tal sagda högt, och räkningen efteråt som avgör vart och ett.",
+      "Gör åtta och sedan nio direkt efter varandra. Fråga vad gångjärnet gjorde annorlunda — det gjorde ingenting annorlunda, och det är precis det som är poängen.",
+      "Be om båda svaren på samma överblivna skiva. Ge den till den närmaste klaffen: klaffarna visar fem och fyra, och nio är dubbelt och en till. Bygg sedan upp nio igen och hämta en parkompis åt den i stället: nio saknade en enda skiva för att bli dubbelt — men räkna om efteråt, för nu ligger det tio i gångjärnet. Båda meningarna handlar om nio; bara den ena lämnar nio kvar på klaffarna."
     ]
   },
   "missing-question": {

@@ -1392,23 +1392,25 @@
   "doubling-mirror": {
     "name": "Sarana",
     "slug": "kaksinkertaistaminen-ja-puolittaminen-nappuloilla-alkuopetus",
-    "tagline": "Sulje sarana, ja toiselle puoliskolle tulee yhtä monta OIKEAA nappulaa — niihin kaikkiin voi koskea.",
+    "tagline": "Sanokaa kaksinkertainen määrä, sulkekaa sarana ja laskekaa kiekot, kun ne asettuvat paikoilleen. Avatkaa se sitten, niin samat kiekot jakautuvat takaisin kahdelle siivelle — yksi sarana, molempiin suuntiin.",
     "metaTitle": "Kaksinkertaistaminen ja puolittaminen nappuloilla, alkuopetus",
-    "metaDescription": "Sanokaa ensin, mikä on kaksinkertainen määrä, ja sulkekaa sitten alusta ja laskekaa. Yhdeksän avautuu viideksi ja neljäksi, koska ylimääräisen on mentävä jonnekin.",
+    "metaDescription": "Ilmainen taulutyökalu: sanokaa kaksinkertainen määrä, sulkekaa sarana ja laskekaa. Avatkaa, niin määrä jakautuu takaisin — kolmestatoista jää yksi ilman paria.",
     "about": [
-      "Asettakaa lähemmälle siivelle jokin määrä ja sanokaa, paljonko kaksinkertainen määrä on. Sulkekaa sarana: kauempi siipi saa yhtä monta lisää. Lisätkää sitten yksi kiekko ja avatkaa — noin näyttää kaksinkertainen määrä ja yksi lisää.",
-      "Kaksi siipeä ja niiden välissä sarana.",
-      "Koko sarana on ilmainen — jokainen laskeminen, sulkeminen ja avaaminen. Opettajatilaus tuo lisäksi paperisaranan, jonka leikkaatte irti ja uurratte, niin lapsi voi asettaa oikeita kiekkoja kummallekin siivelle ja sulkea sen omin käsin."
+      "Kaksinkertainen määrä on määrä, ei vaikutelma. Jos kuusi esinettä näyttäisi äkkiä kahdeltatoista, laskettuna olisi kuusi esinettä ja kuusi pelkkää näkymää — eikä näkymään voi koskea. Siksi tässä on kaksi siipeä ja niiden välissä sarana, ja jokainen kiekko niiden päällä on oikea kiekko, jonka voi koskettaa ja laskea kerran.",
+      "Kiinni oleva sarana on kokonaisuus, auki oleva sarana on kaksi osaa. Asettakaa kiekkoja lähemmälle siivelle, sanokaa ennen kuin mikään liikkuu, paljonko kaksinkertainen määrä on, ja sulkekaa sarana: kauempi siipi saa yhtä monta lisää, yksi kerrallaan, niin että luokka ehtii laskea ne mukaan. Avatkaa sitten sarana, niin koko määrä jakautuu takaisin kahdelle siivelle. Se on sama sarana toiseen suuntaan ja aivan samat kiekot — ja juuri sitä puolta useimmat luokat eivät koskaan pääse katsomaan.",
+      "Määrä, joka ei jakaudu tasan, ei pysäytä mitään. Yksi kiekko jää ilman paria, ja luokka päättää, mitä sille tehdään: annetaan se lähemmälle siivelle, jolloin yhdeksän on neljä ja neljä ja yksi lisää; tai haetaan sille pari, jolloin yhdeksän oli yhtä vaille kaksinkertainen määrä ja saranassa on sen jälkeen kymmenen. Molemmat pitävät paikkansa, ja lapset haluavat eri vaihtoehtoja. Mitään ei pisteytetä, mitään ei kellota, eikä mitään merkitä oikeaksi tai vääräksi."
     ],
     "howToUse": [
-      "Aseta vielä yksi kiekko lähemmälle siivelle Lähemmällä siivellä: 6.",
-      "Sulje sarana Siivillä 6 ja 6. Yhteensä 12.",
-      "Avaa sarana 12 jakautuu taas: 6 ja 6."
+      "Asettakaa kiekot lähemmälle siivelle ja ottakaa luku luokalta ennen kuin mikään sulkeutuu. Etukäteen sanominen on tässä pääasia — sulkeminen vain tarkistaa sen.",
+      "Sulkekaa sarana ja laskekaa kiekot ääneen, kun ne asettuvat kauemmalle siivelle yksi kerrallaan. Mitään ei tarvitse uskoa sanaan.",
+      "Avatkaa sarana ja kysykää, paljonko yhdelle siivelle tulee: yksi luku, jos määrä jakautuu tasan, ja kaksi lukua, jos toiselle siivelle jää yksi enemmän. Tämä on laskun vaikeampi puoli ja se, jota useimmat luokat eivät harjoittele.",
+      "Kun yksi kiekko jää ilman paria, kysykää luokalta: meneekö se lähemmälle siivelle vai haetaanko sille pari? Ottakaa molemmat vastaukset: sulkekaa sarana ensimmäisen jälkeen ja avatkaa se uudelleen, niin sama kiekko jää taas ilman paria ja toisen vastauksen pääsee kokeilemaan."
     ],
     "classroomIdeas": [
-      "9 ei jakaudu kahdelle yhtä suurelle siivelle. Yksi kiekko jäi ilman paria — kummalle siivelle luokka antaa sen?",
-      "9 jakautuu näin: 5 ja 4. Ilman paria jäänyt kiekko on 1 siivellä — se on kaksinkertainen määrä ja yksi lisää.",
-      "Leikatkaa molemmat siivet irti ja uurtakaa keskiviiva, jotta ne menevät kiinni. Asettakaa kiekkoja toiselle siivelle, sanokaa paljonko kaksinkertainen määrä on, kääntäkää toinen siipi päälle ja asettakaa yhtä monta lisää. Laskekaa kaikki: sarana ei tee yhtäkään kiekkoa — te teette."
+      "Sulkekaa sarana pienestä määrästä, kasvattakaa suljettua saranaa yksi kiekko kerrallaan ja avatkaa se vasta sitten. Puolittaminen on sama sarana toiseen suuntaan, ja luokka näkee sen itse.",
+      "Kahden minuutin rutiini: kolme eri määrää, kolme ääneen sanottua lukua ja lopuksi laskeminen, joka ratkaisee jokaisen.",
+      "Tehkää kahdeksan ja heti perään yhdeksän. Kysykää, mitä sarana teki toisin — se ei tehnyt mitään toisin, ja juuri se on tässä tärkeintä.",
+      "Pyytäkää samaan ylijäävään kiekkoon kaksi vastausta: ensin se lähemmälle siivelle, sitten sille pari. Ensimmäisessä yhdeksän on neljä ja neljä ja yksi lisää. Toisessa yhdeksän oli yhtä vaille kaksinkertainen määrä — ja kun pari saapuu, saranassa on kymmenen. Laskekaa se ääneen, ettei kukaan jää sitä ihmettelemään."
     ]
   },
   "missing-question": {

@@ -1503,6 +1503,31 @@
       "Die Platte auf drei Seiten umstellen. Genau zwei Einstellungen im ganzen Gerät bringen einen rechten Winkel in eine dreiseitige Form, und sie zu finden ist eine echte Suche."
     ]
   },
+  "the-queue": {
+    "slug": "der-bahnsteig",
+    "name": "Der Bahnsteig",
+    "tagline": "Zählt drei von einem Ende, dann drei vom anderen. Niemand hat sich bewegt — warum ist es jemand anderes?",
+    "about": [
+      "Auf einem Bahnsteig warten vier Formen. Wählt ein Ende, geht Schritt für Schritt weiter und schaut, bei wem ihr ankommt. Nehmt dann das andere Ende und geht genauso oft. Auf dem Bahnsteig hat sich nichts bewegt, und trotzdem kommt ihr meist bei jemand anderem an.",
+      "Mehr ist es nicht — und mehr braucht es nicht. Ein Kind, das gelernt hat, eine Reihe entlang zu zählen, hört \"der Dritte\" oft als Namen, den die Sache trägt, so wie sie ihre Farbe trägt. Das ist sie nicht: Es ist eine Auskunft darüber, wo ihr zu zählen angefangen habt. Der Bahnsteig zeigt das, ohne es zu behaupten, weil zwischen den beiden Zählungen sichtbar nichts angefasst wird.",
+      "Es gibt keinen Anfang. Die Zählmarke steht neben dem Bahnsteig, bis ein Ende gewählt ist, und keine der beiden Tasten ist die richtige — ein voreingestelltes Ende würde stillschweigend behaupten, eine Richtung sei die echte, und genau das ist der Denkfehler.",
+      "Die Formen tragen keine Buchstaben, keine Zahlen und keine Rangfolge. Alle vier sind auf dieselbe Fläche gerechnet und stehen auf derselben Linie, damit nichts im Material die Frage \"welcher denn?\" beantwortet, bevor die Klasse es tut."
+    ],
+    "howToUse": [
+      "An die Wand werfen und die Klasse vom linken Ende drei weiterzählen lassen. Fragt, bei wem sie angekommen sind, bevor ihr etwas drückt.",
+      "Jetzt drei vom anderen Ende. Und dann die Frage, um die es geht: Hat sich jemand bewegt?",
+      "Lasst einen weggehen und zählt vom selben Ende noch einmal. Vom anderen Ende aus ändert sich nichts — das lohnt sich, laut zu sagen.",
+      "Stellt auf drei Wartende um. Bei einer ungeraden Anzahl gibt es eine Stelle, an der beide Enden dasselbe ergeben, und die zu finden ist der schönste Moment, den das Gerät hat."
+    ],
+    "classroomIdeas": [
+      "Stellt vier Kinder vorne auf und macht dasselbe mit ihnen, bevor ihr das Gerät öffnet. Der Bildschirm bestätigt dann, worüber die Klasse schon gestritten hat.",
+      "Ein Kind soll sagen, wen es holen soll, ohne zu zeigen — es greift zu \"der Dritte\" und muss dann dazusagen: der Dritte von wo aus.",
+      "Zwei Minuten zum Einstieg in eine Stunde über Ordnungszahlen, danach einfach stehen lassen, während die Klasse arbeitet.",
+      "Blatt ausdrucken und die Kinder zu zweit pro Zeile eine Zählung eintragen lassen: von welchem Ende — und bei wem sie angekommen sind. Das Blatt gehört zum Lehrkraft-Abo; der Bahnsteig selbst — jede Aufstellung, beide Enden, die Zählmarke — ist für alle kostenlos."
+    ],
+    "metaTitle": "Der Bahnsteig — Ordnungszahlen anschaulich, Klasse 1-2 | LessonCraftStudio",
+    "metaDescription": "Kostenloses Unterrichtsgerät für Ordnungszahlen. Von einem Ende zählen, dann vom anderen: Niemand bewegt sich, und trotzdem ändert sich die Antwort. Läuft auf Beamer und Tablet, ohne Anmeldung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

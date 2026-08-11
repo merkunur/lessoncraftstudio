@@ -1502,6 +1502,31 @@
       "Still flata om til tre sider. I hele apparatet finnes det nøyaktig to innstillinger som legger et rett hjørne i en tresidig figur, og å finne dem er en ekte jakt."
     ]
   },
+  "the-queue": {
+    "slug": "perrongen",
+    "name": "Perrongen",
+    "tagline": "Tell tre fra den ene enden og så tre fra den andre. Ingen har flyttet seg — hvorfor er det en annen?",
+    "about": [
+      "Fire figurer står og venter på en perrong. Velg en ende, gå bortover ett steg av gangen, og se hvem du lander på. Velg så den andre enden og gå like mange steg. Ingen på perrongen har flyttet seg, og likevel lander du nesten alltid på en annen.",
+      "Det er hele instrumentet. Et barn som har lært å telle langs en rekke, hører ofte «den tredje» som et navn tingen bærer, på samme måte som den bærer fargen sin. Det er det ikke: det er en opplysning om hvor du begynte å telle. Perrongen viser det uten å argumentere for det, for mellom de to tellingene ser man at ingen blir rørt.",
+      "Det finnes ingen forside. Vandreren står utenfor perrongen til en ende er valgt, og ingen av de to knappene er den riktige — en forhåndsvalgt ende ville stille påstå at én retning er den ekte, og det er nettopp misforståelsen.",
+      "Figurene bærer verken bokstaver, tall eller rangering. Alle fire er regnet ut til samme areal og står på samme linje, slik at ingenting i materialet svarer «hvilken?» før klassen gjør det."
+    ],
+    "howToUse": [
+      "Sett den opp på tavla og la klassen telle tre fra den venstre enden. La dem si hvem de lander på før dere trykker på noe.",
+      "Nå tre fra den andre enden. Og så spørsmålet det handler om: har noen flyttet seg?",
+      "La én gå sin vei og tell på nytt fra den samme enden. Fra den andre enden endrer ingenting seg — det er verdt å si høyt.",
+      "Bytt til tre som venter. Med et oddetall finnes det et sted der begge endene gir samme svar, og å finne det er apparatets beste øyeblikk."
+    ],
+    "classroomIdeas": [
+      "Still fire barn på rekke foran i klassen og gjør det samme med dem før dere åpner verktøyet. Skjermen bekrefter etterpå det klassen allerede har kranglet om.",
+      "Be et barn si hvem som skal hentes uten å peke — det sier «den tredje», og må så legge til: den tredje talt fra hvor.",
+      "To minutter for å åpne en time om ordenstall, og la den så bli stående mens klassen jobber.",
+      "Skriv ut arket og la dem to og to skrive én telling per linje: hvilken ende de startet fra, og hvem de landet på. Arket hører til Lærerabonnementet; selve perrongen — begge endene, vandreren — er gratis for alle."
+    ],
+    "metaTitle": "Perrongen — ordenstall på 1. og 2. trinn | LessonCraftStudio",
+    "metaDescription": "Gratis klasseromsverktøy for ordenstall. Tell fra den ene enden av perrongen og så fra den andre: ingen flytter seg, men svaret endrer seg. Virker på projektor og nettbrett, uten konto."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

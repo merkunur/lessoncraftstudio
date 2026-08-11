@@ -1513,6 +1513,31 @@
       "Switch the pane to three sides. Exactly two settings in the whole apparatus put a square corner into a three-sided shape, and finding them is a real hunt."
     ]
   },
+  "the-queue": {
+    "slug": "the-queue",
+    "name": "The Queue",
+    "tagline": "Count three from one end, then three from the other. Nobody moved — so why is it somebody else?",
+    "about": [
+      "Four shapes stand on a platform. Choose an end, step along, and see who you land on. Then choose the other end and take exactly the same number of steps. Nothing on the platform has moved, and yet the answer is usually a different one.",
+      "That is the whole instrument. A child who has learned to count \"one, two, three\" along a row often hears \"third\" as a name the object carries, the way its colour is a name it carries. It is not: it is a report about where you started counting. The platform makes the point without arguing it, because the shapes are visibly untouched between the two counts.",
+      "There is no front. The walker waits off the platform until an end is chosen, and neither button is the real one — a default end would quietly assert that one direction is the true direction, which is the misconception itself.",
+      "The shapes carry no letters, no numbers and no ranking. All four are drawn to the same area and stand on the same line, so nothing in the material answers \"which one\" before the class does."
+    ],
+    "howToUse": [
+      "Put it on the board and ask the class to count three along from the left-hand end. Ask who they landed on before you press anything.",
+      "Now count three from the other end. Ask the question that matters: did anybody move?",
+      "Let one leave the platform and count again from the same end. The far end's answers do not budge — that is worth noticing out loud.",
+      "Switch to three waiting. With an odd number there is a place where both ends give the same answer, and finding it is the best moment the tool has."
+    ],
+    "classroomIdeas": [
+      "Line up four children at the front of the room and run the same routine on them before you open the tool. The screen then confirms what the class already argued about.",
+      "Ask a child to describe who to fetch without pointing — they will reach for \"third\", and then have to say third from where.",
+      "Use it for two minutes at the start of a lesson on ordinal words, then leave it on screen while the class works.",
+      "Print the sheet and let pairs record one count per line: which end they started from, and who they finished on. The printed sheet comes with a Teacher plan; the apparatus itself — every platform, both ends, the walker — is free for everyone."
+    ],
+    "metaTitle": "The Queue — ordinal position teaching tool for K-2 | LessonCraftStudio",
+    "metaDescription": "A free classroom tool for teaching ordinal position. Count from one end of the platform, then the other: nobody moves, but the answer changes. Works on any board or tablet, no account needed."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

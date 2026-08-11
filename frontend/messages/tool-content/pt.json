@@ -1501,6 +1501,31 @@
       "Mudem o painel para três lados. No aparelho inteiro existem exatamente dois ajustes que colocam um canto reto numa figura de três lados, e achá-los é uma caçada de verdade."
     ]
   },
+  "the-queue": {
+    "slug": "a-calcada-de-ponta-a-ponta",
+    "name": "A calçada de ponta a ponta",
+    "tagline": "Conte três de uma ponta e depois três da outra. Ninguém saiu do lugar — então por que é outra pessoa?",
+    "about": [
+      "Quatro formas estão esperando numa calçada. Escolha uma ponta, ande com o andarilho e veja em quem você parou. Depois escolha a outra ponta e ande a mesma quantidade de passos. Ninguém saiu do lugar na calçada e, mesmo assim, quase sempre é outra pessoa.",
+      "É só isso — e é o bastante. Uma criança que aprendeu a contar ao longo de uma fila costuma ouvir «o terceiro» como um nome que a coisa carrega, do mesmo jeito que carrega a cor dela. Não é: é uma informação sobre de onde você começou a contar. A calçada mostra isso sem precisar argumentar, porque entre as duas contagens dá para ver que ninguém encostou em nada.",
+      "Não existe começo de fila. O andarilho fica fora da calçada enquanto nenhuma ponta for escolhida, e nenhum dos dois botões é o certo: uma ponta padrão afirmaria em silêncio que um sentido é o verdadeiro, que é exatamente o engano.",
+      "As formas não têm letra, nem número, nem classificação. As quatro são calculadas com a mesma área e apoiadas na mesma linha, para que nada no material responda «qual?» antes da turma."
+    ],
+    "howToUse": [
+      "Projete e peça para a turma andar três a partir da ponta da esquerda. Deixe que digam em quem pararam antes de você apertar qualquer coisa.",
+      "Agora três a partir da outra ponta. E então a pergunta que interessa: alguém saiu do lugar?",
+      "Deixe alguém ir embora e conte de novo pela mesma ponta. Pela outra ponta nada muda — vale dizer isso em voz alta.",
+      "Mude para três esperando. Com um número ímpar existe um lugar em que as duas pontas dão a mesma resposta, e achar esse lugar é o melhor momento do aparelho."
+    ],
+    "classroomIdeas": [
+      "Coloque quatro crianças em fila na frente da turma e faça o mesmo com elas antes de abrir a ferramenta. A tela depois confirma o que a turma já discutiu.",
+      "Peça para uma criança dizer quem ela quer chamar sem apontar: ela vai falar «o terceiro», e vai ter que completar: o terceiro a partir de onde.",
+      "Dois minutos para abrir uma aula sobre números ordinais, e depois é só deixar na tela enquanto a turma trabalha.",
+      "Imprima a folha e peça que anotem em dupla uma contagem por linha: de que ponta começaram e em quem pararam. A folha faz parte do plano Professor; a calçada em si — as duas pontas, o andarilho — é grátis para todo mundo."
+    ],
+    "metaTitle": "A calçada de ponta a ponta — números ordinais nos anos iniciais | LessonCraftStudio",
+    "metaDescription": "Ferramenta de sala gratuita para números ordinais. Conte de uma ponta da calçada e depois da outra: ninguém sai do lugar e a resposta muda. Funciona no projetor e no tablet, sem precisar de conta."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

@@ -1501,6 +1501,31 @@
       "Passez la vitre à trois côtés. Dans tout l’appareil, exactement deux réglages mettent un angle droit dans une forme à trois côtés, et les trouver est une vraie chasse."
     ]
   },
+  "the-queue": {
+    "slug": "le-quai-des-deux-bouts",
+    "name": "Le quai des deux bouts",
+    "tagline": "Comptez trois depuis un bout, puis trois depuis l’autre. Personne n’a bougé — alors pourquoi est-ce quelqu’un d’autre ?",
+    "about": [
+      "Quatre formes attendent sur un quai. Choisissez un bout, faites avancer le marcheur pas à pas, et regardez sur qui il s’arrête. Repartez ensuite de l’autre bout et faites exactement le même nombre de pas. Rien n’a bougé sur le quai, et pourtant ce n’est presque jamais le même.",
+      "C’est tout l’instrument. Un enfant qui a appris à compter le long d’une rangée entend souvent « le troisième » comme un nom que la chose porte, au même titre que sa couleur. Ce n’en est pas un : c’est une information sur l’endroit d’où l’on a commencé à compter. Le quai le montre sans le démontrer, puisque entre les deux comptages on voit bien que personne n’est touché.",
+      "Il n’y a pas de tête de file. Le marcheur reste à côté du quai tant qu’aucun bout n’est choisi, et aucun des deux boutons n’est le bon — un bout par défaut affirmerait discrètement qu’un sens est le vrai sens, ce qui est exactement l’erreur.",
+      "Les formes ne portent ni lettre, ni chiffre, ni classement. Les quatre sont calculées à la même surface et posées sur la même ligne, pour que rien dans la matière ne réponde « lequel ? » avant la classe."
+    ],
+    "howToUse": [
+      "Projetez-le et demandez à la classe d’avancer de trois depuis le bout de gauche. Faites-leur dire sur qui ils tombent avant d’appuyer sur quoi que ce soit.",
+      "Maintenant trois depuis l’autre bout. Puis la question qui compte : est-ce que quelqu’un a bougé ?",
+      "Faites partir quelqu’un et recomptez depuis le même bout. Depuis l’autre bout, rien ne change — cela vaut la peine d’être dit à voix haute.",
+      "Passez à trois qui attendent. Avec un nombre impair, il existe une place où les deux bouts donnent la même réponse, et la trouver est le meilleur moment de l’appareil."
+    ],
+    "classroomIdeas": [
+      "Alignez quatre enfants devant la classe et faites la même chose avec eux avant d’ouvrir l’outil. L’écran confirme ensuite ce dont la classe a déjà discuté.",
+      "Demandez à un enfant de dire qui aller chercher sans montrer du doigt : il dira « le troisième », et devra préciser le troisième à partir d’où.",
+      "Deux minutes pour lancer une séance sur les nombres ordinaux, puis laissez-le affiché pendant que la classe travaille.",
+      "Imprimez la fiche et faites noter à deux, une ligne par comptage : de quel bout ils sont partis, et sur qui ils se sont arrêtés. La fiche fait partie de l’abonnement Enseignant ; le quai lui-même — les deux bouts, le marcheur — est gratuit pour tout le monde."
+    ],
+    "metaTitle": "Le quai des deux bouts — les nombres ordinaux au cycle 2 | LessonCraftStudio",
+    "metaDescription": "Outil de classe gratuit pour les nombres ordinaux. Comptez d’un bout du quai, puis de l’autre : personne ne bouge, et la réponse change. Fonctionne au vidéoprojecteur et sur tablette, sans compte."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

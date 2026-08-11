@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet', 'number-sieve', 'arrow-strip', 'draw-bag', 'lids', 'unit-handle', 'unroll-tape', 'comparison-planks', 'cold-line', 'build-plan', 'exchange-machine', 'baking-tray', 'folding-wall', 'counting-cups', 'number-hotel', 'number-drum', 'landing-strip', 'rounding-hill', 'pair-gate', 'doubling-mirror', 'missing-question', 'the-gap', 'shape-stretcher'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet', 'number-sieve', 'arrow-strip', 'draw-bag', 'lids', 'unit-handle', 'unroll-tape', 'comparison-planks', 'cold-line', 'build-plan', 'exchange-machine', 'baking-tray', 'folding-wall', 'counting-cups', 'number-hotel', 'number-drum', 'landing-strip', 'rounding-hill', 'pair-gate', 'doubling-mirror', 'missing-question', 'the-gap', 'shape-stretcher', 'the-queue'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -82,6 +82,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'missing-question': '/mini-tools/missing-question.html',
   'the-gap': '/mini-tools/the-gap.html',
   'shape-stretcher': '/mini-tools/shape-stretcher.html',
+  'the-queue': '/mini-tools/the-queue.html',
 };
 
 /**
@@ -154,6 +155,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'missing-question': 'missing-question',
   'the-gap': 'the-gap',
   'shape-stretcher': 'shape-stretcher',
+  'the-queue': 'the-queue',
 };
 
 /**
@@ -298,6 +300,7 @@ interface ToolContentFile {
   'missing-question'?: ToolEntry;
   'the-gap'?: ToolEntry;
   'shape-stretcher'?: ToolEntry;
+  'the-queue'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

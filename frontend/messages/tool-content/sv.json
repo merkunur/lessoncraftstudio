@@ -1502,6 +1502,31 @@
       "Ställ om fönstret till tre sidor. I hela apparaten finns exakt två inställningar som lägger ett rätt hörn i en tresidig figur, och att hitta dem är en riktig jakt."
     ]
   },
+  "the-queue": {
+    "slug": "perrongen",
+    "name": "Perrongen",
+    "tagline": "Räkna tre från den ena änden och sedan tre från den andra. Ingen har flyttat sig — varför är det någon annan?",
+    "about": [
+      "Fyra figurer står på en perrong. Välj en ände, gå ett kliv i taget och se vem ni hamnar på. Välj sedan andra änden och gå lika många kliv. Ingen på perrongen har flyttat sig, och ändå hamnar ni nästan alltid på någon annan.",
+      "Det är hela apparaten. Ett barn som har lärt sig räkna längs en rad hör ofta «den tredje» som ett namn saken bär, på samma sätt som den bär sin färg. Det är det inte: det är en uppgift om var ni började räkna. Perrongen visar det utan att argumentera för det, eftersom man mellan de två räkningarna ser att ingen rörs.",
+      "Det finns ingen framsida. Vandraren står bredvid perrongen tills en ände är vald, och ingen av de två knapparna är den rätta — en förvald ände skulle tyst påstå att ett håll är det riktiga, vilket är just missuppfattningen.",
+      "Figurerna bär varken bokstäver, siffror eller rangordning. Alla fyra är uträknade på samma yta och står på samma linje, så att ingenting i materialet svarar «vilken?» innan klassen gör det."
+    ],
+    "howToUse": [
+      "Sätt upp den på tavlan och låt klassen gå tre kliv från den vänstra änden. Låt dem säga vem de hamnar på innan ni trycker på något.",
+      "Nu tre kliv från andra änden. Och sedan frågan det handlar om: har någon flyttat sig?",
+      "Låt någon gå härifrån och räkna om från samma ände. Från andra hållet ändras ingenting — det är värt att säga högt.",
+      "Ställ om till tre som står. Med ett udda antal finns det ett ställe där båda ändarna ger samma svar, och att hitta det är apparatens finaste ögonblick."
+    ],
+    "classroomIdeas": [
+      "Ställ fyra barn på rad längst fram och gör samma sak med dem innan ni öppnar verktyget. Skärmen bekräftar sedan det klassen redan har tvistat om.",
+      "Be ett barn säga vem som ska hämtas utan att peka — det säger «den tredje», och måste sedan lägga till: den tredje räknat varifrån.",
+      "Två minuter för att inleda en lektion om ordningstal, och låt den sedan stå kvar medan klassen arbetar.",
+      "Skriv ut arbetsbladet och låt dem två och två skriva en räkning per rad: vilken ände de började i och vem de hamnade på. Arbetsbladet ingår i Lärarplanen; själva perrongen — båda ändarna, vandraren — är gratis för alla."
+    ],
+    "metaTitle": "Perrongen — ordningstal i förskoleklass och åk 1 | LessonCraftStudio",
+    "metaDescription": "Gratis klassrumsverktyg för ordningstal. Räkna från den ena änden av perrongen och sedan från den andra: ingen flyttar sig, men svaret ändras. Fungerar på projektor och surfplatta, utan konto."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

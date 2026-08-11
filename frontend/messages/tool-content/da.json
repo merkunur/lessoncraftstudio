@@ -1502,6 +1502,31 @@
       "Stil fladen om til tre sider. I hele apparatet er der præcis to indstillinger, der lægger et ret hjørne i en tresidet figur, og at finde dem er en rigtig jagt."
     ]
   },
+  "the-queue": {
+    "slug": "tael-fra-begge-ender",
+    "name": "Tæl fra begge ender",
+    "tagline": "Tæl tre fra den ene ende og så tre fra den anden. Ingen har rørt sig — hvorfor er det så en anden?",
+    "about": [
+      "Fire figurer står på en venteplads. Vælg en ende, flyt pegepinden ét skridt ad gangen, og se hvem I lander på. Vælg så den anden ende, og flyt lige så mange skridt. Ingen på ventepladsen har rørt sig, og alligevel lander I næsten altid på en anden.",
+      "Det er hele instrumentet. Et barn, der har lært at tælle langs en række, hører ofte «den tredje» som et navn, tingen bærer, på samme måde som den bærer sin farve. Det er det ikke: det er en oplysning om, hvor I begyndte at tælle. Ventepladsen viser det uden at argumentere for det, for mellem de to tællinger kan man se, at ingen bliver rørt.",
+      "Der er ingen forende. Pegepinden bliver stående ved siden af ventepladsen, indtil en ende er valgt, og ingen af de to knapper er den rigtige — en forvalgt ende ville stiltiende påstå, at én retning er den ægte, og det er netop misforståelsen.",
+      "Figurerne bærer hverken bogstaver, tal eller rangorden. Alle fire er regnet ud til samme areal og står på samme linje, så intet i materialet svarer «hvilken?», før klassen gør det."
+    ],
+    "howToUse": [
+      "Sæt den op på tavlen, og lad klassen tælle tre fra den venstre ende. Lad dem sige, hvem de lander på, før I trykker på noget.",
+      "Nu tre fra den anden ende. Og så det spørgsmål, det handler om: har nogen rørt sig?",
+      "Lad én gå sin vej, og tæl igen fra den samme ende. Fra den anden ende ændrer der sig ingenting — det er værd at sige højt.",
+      "Skift til tre, der venter. Med et ulige antal er der et sted, hvor begge ender giver det samme svar, og at finde det er apparatets bedste øjeblik."
+    ],
+    "classroomIdeas": [
+      "Stil fire børn på række forrest i klassen, og gør det samme med dem, før I åbner værktøjet. Skærmen bekræfter bagefter det, klassen allerede har diskuteret.",
+      "Bed et barn sige, hvem der skal hentes, uden at pege — det siger «den tredje» og må så tilføje: den tredje talt hvorfra.",
+      "To minutter til at åbne en time om ordenstal, og lad den så blive stående, mens klassen arbejder.",
+      "Udskriv arket, og lad dem to og to skrive én tælling per linje: hvilken ende de begyndte i, og hvem de landede på. Arket hører til Lærerabonnementet; selve ventepladsen — begge ender, pegepinden — er gratis for alle."
+    ],
+    "metaTitle": "Tæl fra begge ender — ordenstal i børnehaveklassen og 1. klasse | LessonCraftStudio",
+    "metaDescription": "Gratis klasseværktøj til ordenstal. Tæl fra den ene ende af ventepladsen og så fra den anden: ingen rører sig, men svaret ændrer sig. Virker på projektor og tablet, uden konto."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

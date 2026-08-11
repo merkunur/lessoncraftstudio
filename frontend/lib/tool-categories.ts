@@ -93,6 +93,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'missing-question': 'number',
   'the-gap': 'number',
   'shape-stretcher': 'measurement',
+  'the-queue': 'number',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

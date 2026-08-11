@@ -317,13 +317,35 @@
        shipped ones name the dead covering (Fensterladen, persiana,
        tapparella, luifel, lucka, gardin, luke, luukku). */
     strings: {
-      title: { en: 'The Missing Question' },
+      title: {
+        en: 'The Missing Question',
+        de: 'Die drei Nischen',
+        fr: 'Le Présentoir',
+        es: 'El atril',
+        pt: 'Os três nichos',
+        it: 'Le tre nicchie',
+        nl: 'De nissen',
+        sv: 'Fickbrädet',
+        da: 'Stativet',
+        no: 'Stativet',
+        fi: 'Kolme paikkaa'
+      },
 
       /* ⚠ NOT RENDERED ON THE TOOLS PAGE — see the header. Authored for
          the standalone surface and for the accessible name the shell
          builds; it may not carry anything the routine depends on. */
       instruction: {
-        en: 'Something is happening, and nobody has asked you anything yet. Start with three empty places and no numbers at all, and let the class decide what could be asked. Then tell them one thing at a time — how the places are related, then one number, then another — and watch what is still missing.'
+        en: 'Something is happening, and nobody has asked you anything yet. Start with three empty places and no numbers at all, and let the class decide what could be asked. Then tell them one thing at a time — how the places are related, then one number, then another — and watch what is still missing.',
+        de: 'Etwas passiert – aber gefragt hat noch niemand etwas. Sie beginnen mit drei leeren Nischen und ganz ohne Zahlen, und die Klasse überlegt, was man hier überhaupt fragen könnte. Dann sagen Sie eine Sache nach der anderen: erst, wie die drei zusammengehören, dann eine Zahl, dann noch eine – und die Klasse sieht, was immer noch fehlt.',
+        fr: 'Il se passe quelque chose, et personne ne vous a encore posé de question. On commence avec trois alvéoles vides et aucun nombre : c’est à la classe de dire ce qu’on pourrait demander. Ensuite, dites-leur une seule chose à la fois — comment les trois vont ensemble, puis un nombre, puis un autre — et regardez ce qui manque encore.',
+        es: 'Está pasando algo y todavía nadie les ha preguntado nada. Empiecen con tres sitios vacíos y ningún número, y dejen que la clase decida qué se podría preguntar. Después vayan diciéndoles una cosa cada vez —cómo se relacionan los tres, luego un número, luego otro— y miren qué sigue faltando.',
+        pt: 'Está acontecendo alguma coisa, e ninguém perguntou nada ainda. Comece com três nichos vazios e nenhum número, e deixe a turma decidir o que dá para perguntar. Depois diga uma coisa de cada vez — primeiro como os três se ligam, depois um número, depois outro — e vejam o que ainda está faltando.',
+        it: 'Sta succedendo qualcosa, e alla classe non è ancora stata fatta nessuna domanda. Si parte da tre nicchie vuote e nessun numero: per ora la classe deve solo decidere che cosa si potrebbe chiedere. Poi dite una cosa alla volta — prima come stanno insieme le tre nicchie, poi un numero, poi l’altro — e guardate che cosa continua a mancare.',
+        nl: 'Er gebeurt iets, en niemand heeft nog iets gevraagd. Je begint met drie lege nissen en geen enkel getal, en de klas bedenkt zelf wat je zou kunnen vragen. Vertel daarna één ding tegelijk — eerst hoe de drie bij elkaar horen, dan één getal, dan nog één — en kijk wat er dan nog ontbreekt.',
+        sv: 'Något händer, och ingen har frågat er något än. Börja med tre tomma fickor och inga tal alls, och låt klassen bestämma vad man skulle kunna fråga. Säg sedan en sak i taget — hur fickorna hör ihop, sedan ett tal, sedan ett till — och se efter vad som fortfarande saknas.',
+        da: 'Der sker noget, og der er endnu ikke stillet et eneste spørgsmål. Begynd med tre tomme pladser og slet ingen tal, og lad klassen selv finde ud af, hvad man kunne spørge om. Fortæl dem så én ting ad gangen — først hvordan de tre hænger sammen, så det ene tal, så det andet — og se, hvad der stadig mangler.',
+        no: 'Noe har skjedd, og ingen har spurt klassen om noe ennå. Start med tre tomme plasser og ingen tall i det hele tatt, og la klassen finne ut hva vi kan spørre om. Si så én ting om gangen — først hvordan de tre henger sammen, så det ene tallet, så det andre — og se hva som fremdeles mangler.',
+        fi: 'Jotakin on tapahtumassa, eikä kukaan ole vielä kysynyt teiltä mitään. Aloittakaa kolmesta tyhjästä paikasta ilman yhtäkään lukua ja antakaa luokan päättää, mitä tästä voisi kysyä. Sanokaa sitten yksi asia kerrallaan — ensin se, miten paikat kuuluvat yhteen, sitten yksi luku ja lopuksi toinen — ja katsokaa yhdessä, mikä on yhä puuttumassa.'
       },
 
       /* ---- group legends: the column IS the ladder.
@@ -334,10 +356,58 @@
          ⚠ `legAsk` used to read "The question", but it labels the two
          controls that SETTLE the question — the question itself is
          already standing at stage 3. ---- */
-      legSetup: { en: 'Set up the situation' },
-      legTell:  { en: 'Tell them one thing' },
-      legAsk:   { en: 'Settle the question' },
-      legPaper: { en: 'On paper' },
+      legSetup: {
+        en: 'Set up the situation',
+        de: 'Die Lage einrichten',
+        fr: 'Préparer la situation',
+        es: 'Preparar la situación',
+        pt: 'Montar a situação',
+        it: 'Prepara la situazione',
+        nl: 'Zet de situatie klaar',
+        sv: 'Bygg upp situationen',
+        da: 'Stil situationen op',
+        no: 'Sett opp situasjonen',
+        fi: 'Rakenna tilanne'
+      },
+      legTell:  {
+        en: 'Tell them one thing',
+        de: 'Eine Sache sagen',
+        fr: 'Dire une chose à la fois',
+        es: 'Decirles una cosa cada vez',
+        pt: 'Dizer uma coisa',
+        it: 'Dite una cosa alla volta',
+        nl: 'Vertel één ding tegelijk',
+        sv: 'Säg en sak i taget',
+        da: 'Fortæl dem én ting',
+        no: 'Si én ting om gangen',
+        fi: 'Sano yksi asia'
+      },
+      legAsk:   {
+        en: 'Settle the question',
+        de: 'Die Frage klären',
+        fr: 'Répondre à la question',
+        es: 'Resolver lo que falta',
+        pt: 'Resolver a pergunta',
+        it: 'Ricava quello che manca',
+        nl: 'Uittellen wat ontbreekt',
+        sv: 'Klara ut frågan',
+        da: 'Find ud af det, der mangler',
+        no: 'Finn ut det som mangler',
+        fi: 'Ratkaise kysymys'
+      },
+      legPaper: {
+        en: 'On paper',
+        de: 'Auf Papier',
+        fr: 'Sur papier',
+        es: 'En papel',
+        pt: 'No papel',
+        it: 'Su carta',
+        nl: 'Op papier',
+        sv: 'På papper',
+        da: 'På papir',
+        no: 'På papir',
+        fi: 'Paperilla'
+      },
 
       /* ---- the acts. ⚠ EVERY LABEL NAMES ITS CONSEQUENCE. A teacher
          must never press an unlabelled forward control in front of a
@@ -348,29 +418,237 @@
          class has been told — the label must say so, because this file's
          own law is that every label names its consequence. It also used
          the covering verb the whole fence exists to escape. */
-      link:    { en: 'Show how they go together' },
-      unlink:  { en: 'Start over — this clears every number told' },
-      tell0:   { en: 'Tell them the round one' },
-      tell1:   { en: 'Tell them the square one' },
-      tell2:   { en: 'Tell them the pointed one' },
-      untell0: { en: 'Take the round one back' },
-      untell1: { en: 'Take the square one back' },
-      untell2: { en: 'Take the pointed one back' },
-      count:   { en: 'Count what is missing' },
+      /* ⚠ NOT "start over" — `deal` is the start-over, and two adjacent
+         controls both opening with "Start" is unreadable mid-lesson.
+         `link(off)` keeps the total, the split and the chosen question;
+         it clears the drawing and the told numbers, so it says that. */
+      link:    {
+        en: 'Show how they go together',
+        de: 'Zeigen, wie die drei zusammengehören',
+        fr: 'Montrer comment les trois vont ensemble',
+        es: 'Dibujar cómo se relacionan',
+        pt: 'Mostrar como os três se ligam',
+        it: 'Mostra il legame fra le tre',
+        nl: 'Laat zien hoe ze bij elkaar horen',
+        sv: 'Visa hur de hör ihop',
+        da: 'Vis, hvordan de hænger sammen',
+        no: 'Vis hvordan de tre henger sammen',
+        fi: 'Näytä, miten ne kuuluvat yhteen'
+      },
+      unlink:  {
+        en: 'Clear the drawing and every number told',
+        de: 'Von vorn anfangen – alles Verratene fällt weg',
+        fr: 'Tout reprendre — cela efface tous les nombres dits',
+        es: 'Borrar el dibujo y los números dichos',
+        pt: 'Recomeçar — apaga todos os números ditos',
+        it: 'Ricomincia: toglie ogni numero detto',
+        nl: 'Opnieuw beginnen — alle getallen gaan weg',
+        sv: 'Börja om — alla tal som sagts försvinner',
+        da: 'Forfra — tallene tages tilbage',
+        no: 'Fjern tegningen og alle tall som er sagt',
+        fi: 'Pyyhi piirros ja luvut pois'
+      },
+      tell0:   {
+        en: 'Tell them the round one',
+        de: 'Die runde Nische verraten',
+        fr: 'Dire le nombre de l’alvéole ronde',
+        es: 'Decir el número del sitio redondo',
+        pt: 'Dizer o número do redondo',
+        it: 'Di’ loro quella rotonda',
+        nl: 'Zeg het getal in de ronde nis',
+        sv: 'Säg den runda',
+        da: 'Fortæl dem den runde',
+        no: 'Si tallet på den runde',
+        fi: 'Sano ympyrän luku'
+      },
+      tell1:   {
+        en: 'Tell them the square one',
+        de: 'Die viereckige Nische verraten',
+        fr: 'Dire le nombre de l’alvéole carrée',
+        es: 'Decir el número del sitio cuadrado',
+        pt: 'Dizer o número do quadrado',
+        it: 'Di’ loro quella quadrata',
+        nl: 'Zeg het getal in de vierkante nis',
+        sv: 'Säg den fyrkantiga',
+        da: 'Fortæl dem den firkantede',
+        no: 'Si tallet på den firkantede',
+        fi: 'Sano neliön luku'
+      },
+      tell2:   {
+        en: 'Tell them the pointed one',
+        de: 'Die spitze Nische verraten',
+        fr: 'Dire le nombre de l’alvéole pointue',
+        es: 'Decir el número del sitio puntiagudo',
+        pt: 'Dizer o número do pontudo',
+        it: 'Di’ loro quella appuntita',
+        nl: 'Zeg het getal in de puntige nis',
+        sv: 'Säg den spetsiga',
+        da: 'Fortæl dem den trekantede',
+        no: 'Si tallet på den spisse',
+        fi: 'Sano kolmion luku'
+      },
+      untell0: {
+        en: 'Take the round one back',
+        de: 'Die runde Nische zurücknehmen',
+        fr: 'Reprendre le nombre de l’alvéole ronde',
+        es: 'Quitar el número del sitio redondo',
+        pt: 'Tirar o número do redondo',
+        it: 'Riprendi quella rotonda',
+        nl: 'Haal het getal uit de ronde nis',
+        sv: 'Ta tillbaka den runda',
+        da: 'Tag den runde tilbage',
+        no: 'Ta tilbake den runde',
+        fi: 'Ota ympyrän luku takaisin'
+      },
+      untell1: {
+        en: 'Take the square one back',
+        de: 'Die viereckige Nische zurücknehmen',
+        fr: 'Reprendre le nombre de l’alvéole carrée',
+        es: 'Quitar el número del sitio cuadrado',
+        pt: 'Tirar o número do quadrado',
+        it: 'Riprendi quella quadrata',
+        nl: 'Haal het getal uit de vierkante nis',
+        sv: 'Ta tillbaka den fyrkantiga',
+        da: 'Tag den firkantede tilbage',
+        no: 'Ta tilbake den firkantede',
+        fi: 'Ota neliön luku takaisin'
+      },
+      untell2: {
+        en: 'Take the pointed one back',
+        de: 'Die spitze Nische zurücknehmen',
+        fr: 'Reprendre le nombre de l’alvéole pointue',
+        es: 'Quitar el número del sitio puntiagudo',
+        pt: 'Tirar o número do pontudo',
+        it: 'Riprendi quella appuntita',
+        nl: 'Haal het getal uit de puntige nis',
+        sv: 'Ta tillbaka den spetsiga',
+        da: 'Tag den trekantede tilbage',
+        no: 'Ta tilbake den spisse',
+        fi: 'Ota kolmion luku takaisin'
+      },
+      count:   {
+        en: 'Count what is missing',
+        de: 'Abzählen, was fehlt',
+        fr: 'Compter ce qui manque',
+        es: 'Contar lo que falta',
+        pt: 'Contar o que falta',
+        it: 'Conta quello che manca',
+        nl: 'Tel uit wat er ontbreekt',
+        sv: 'Räkna det som saknas',
+        da: 'Tæl det, der mangler',
+        no: 'Tell opp det som mangler',
+        fi: 'Laske, paljonko puuttuu'
+      },
       /* ⚠ not "hide" — nothing in this tool is ever hidden. The counters
          are taken back off the strip. */
-      uncount: { en: 'Take the count back off' },
-      recount: { en: 'Count it again' },
+      uncount: {
+        en: 'Take the count back',
+        de: 'Das Abgezählte zurücknehmen',
+        fr: 'Reprendre le comptage',
+        es: 'Quitar las fichas contadas',
+        pt: 'Tirar as fichas',
+        it: 'Riprendi il conteggio',
+        nl: 'Haal de telling weer weg',
+        sv: 'Ta bort räkningen igen',
+        da: 'Tag optællingen væk igen',
+        no: 'Ta opptellingen tilbake',
+        fi: 'Ota laskettu määrä takaisin'
+      },
+      recount: {
+        en: 'Count it again',
+        de: 'Noch einmal abzählen',
+        fr: 'Recompter',
+        es: 'Contarlas otra vez',
+        pt: 'Contar de novo',
+        it: 'Conta un’altra volta',
+        nl: 'Tel het nog een keer',
+        sv: 'Räkna en gång till',
+        da: 'Tæl det igen',
+        no: 'Tell opp én gang til',
+        fi: 'Laske uudelleen'
+      },
       /* ⚠ it also resets which niche is the question, and every label in
          this file names its consequence */
-      deal:    { en: 'Start again with a new situation' },
-      print:   { en: 'Print the sheet' },
+      deal:    {
+        en: 'Start again with a new situation',
+        de: 'Neu anfangen mit einer anderen Lage',
+        fr: 'Recommencer avec une autre situation',
+        es: 'Empezar de nuevo con otra situación',
+        pt: 'Começar de novo com outra situação',
+        it: 'Un’altra situazione, da capo',
+        nl: 'Een nieuwe situatie klaarzetten',
+        sv: 'En helt ny situation',
+        da: 'Begynd med en ny situation',
+        no: 'Start på nytt med en ny situasjon',
+        fi: 'Aloita uudesta tilanteesta'
+      },
+      print:   {
+        en: 'Print the sheet',
+        de: 'Das Blatt drucken',
+        fr: 'Imprimer la fiche',
+        es: 'Imprimir la hoja',
+        pt: 'Imprimir a folha',
+        it: 'Stampa la scheda',
+        nl: 'Print het blad',
+        sv: 'Skriv ut arbetsbladet',
+        da: 'Print arket',
+        no: 'Skriv ut arket',
+        fi: 'Tulosta paperiarkki'
+      },
 
       /* ---- setup ---- */
-      askAt:     { en: 'Which one they have to work out' },
-      askAt0:    { en: 'the round one' },
-      askAt1:    { en: 'the square one' },
-      askAt2:    { en: 'the pointed one' },
+      askAt:     {
+        en: 'Which one they have to work out',
+        de: 'Was die Klasse herausfinden soll',
+        fr: 'Ce que la classe doit trouver',
+        es: 'Cuál tienen que averiguar',
+        pt: 'Qual deles a turma vai descobrir',
+        it: 'Quale nicchia devono ricavare',
+        nl: 'Welke nis de klas moet uitrekenen',
+        sv: 'Vilken de ska räkna ut',
+        da: 'Den, de selv skal finde ud af',
+        no: 'Den klassen skal finne ut',
+        fi: 'Pääteltävä paikka'
+      },
+      askAt0:    {
+        en: 'the round one',
+        de: 'die runde',
+        fr: 'l’alvéole ronde',
+        es: 'el sitio redondo',
+        pt: 'o redondo',
+        it: 'quella rotonda',
+        nl: 'de ronde nis',
+        sv: 'den runda',
+        da: 'den runde',
+        no: 'den runde',
+        fi: 'ympyrä'
+      },
+      askAt1:    {
+        en: 'the square one',
+        de: 'die viereckige',
+        fr: 'l’alvéole carrée',
+        es: 'el sitio cuadrado',
+        pt: 'o quadrado',
+        it: 'quella quadrata',
+        nl: 'de vierkante nis',
+        sv: 'den fyrkantiga',
+        da: 'den firkantede',
+        no: 'den firkantede',
+        fi: 'neliö'
+      },
+      askAt2:    {
+        en: 'the pointed one',
+        de: 'die spitze',
+        fr: 'l’alvéole pointue',
+        es: 'el sitio puntiagudo',
+        pt: 'o pontudo',
+        it: 'quella appuntita',
+        nl: 'de puntige nis',
+        sv: 'den spetsiga',
+        da: 'den trekantede',
+        no: 'den spisse',
+        fi: 'kolmio'
+      },
       /* ⚠⚠ NOT "altogether" — that is FALSE in the compare arrangement.
          `SUM_AT.compare = 0`, and niche 0 there is the BIGGER AMOUNT,
          not a total; a comparison has no "altogether". What is being
@@ -379,14 +657,62 @@
       /* ⚠ it also clears every number already told — `setTotal` acquired
          that behaviour and had to acquire the label with it, exactly as
          `unlink` and `deal` did */
-      totalUp:   { en: 'Largest amount one more — clears what was told' },
-      totalDown: { en: 'Largest amount one fewer — clears what was told' },
+      totalUp:   {
+        en: 'One more in the largest amount — clears what was told',
+        de: 'Größte Menge: eins mehr – alles Verratene fällt weg',
+        fr: 'Un de plus dans le plus grand nombre — efface ce qui a été dit',
+        es: 'El número mayor: uno más — se borra lo dicho',
+        pt: 'Maior quantidade: um a mais — apaga o que foi dito',
+        it: 'Il numero più grande: uno in più — toglie i numeri detti',
+        nl: 'Grootste getal één meer — wat gezegd is, gaat weg',
+        sv: 'Största talet ett mer — allt som sagts försvinner',
+        da: 'Ét mere i det største tal — tallene ryddes',
+        no: 'Én mer i det største tallet — fjerner det som er sagt',
+        fi: 'Suurin luku: yksi lisää — luvut häviävät'
+      },
+      totalDown: {
+        en: 'One fewer in the largest amount — clears what was told',
+        de: 'Größte Menge: eins weniger – alles Verratene fällt weg',
+        fr: 'Un de moins dans le plus grand nombre — efface ce qui a été dit',
+        es: 'El número mayor: uno menos — se borra lo dicho',
+        pt: 'Maior quantidade: um a menos — apaga o que foi dito',
+        it: 'Il numero più grande: uno in meno — toglie i numeri detti',
+        nl: 'Grootste getal één minder — wat gezegd is, gaat weg',
+        sv: 'Största talet ett mindre — allt som sagts försvinner',
+        da: 'Ét mindre i det største tal — tallene ryddes',
+        no: 'Én mindre i det største tallet — fjerner det som er sagt',
+        fi: 'Suurin luku: yksi vähemmän — luvut häviävät'
+      },
 
       /* ---- the say line ---- */
-      sayDealt:  { en: 'Three places and no numbers. Nobody has asked anything yet.' },
+      sayDealt:  {
+        en: 'Three places and no numbers. Nobody has asked anything yet.',
+        de: 'Drei leere Nischen, keine einzige Zahl. Gefragt hat noch niemand etwas.',
+        fr: 'Trois alvéoles, aucun nombre. Personne n’a encore rien demandé.',
+        es: 'Tres sitios y ningún número. Todavía nadie ha preguntado nada.',
+        pt: 'Três nichos e nenhum número. Ninguém perguntou nada ainda.',
+        it: 'Tre nicchie e nessun numero. Nessuno ha ancora chiesto niente.',
+        nl: 'Drie nissen en geen enkel getal. Er is nog niets gevraagd.',
+        sv: 'Tre tomma fickor och inga tal. Ingen har frågat något än.',
+        da: 'Tre pladser og ingen tal. Der er ikke spurgt om noget endnu.',
+        no: 'Tre plasser og ingen tall. Ingen har spurt om noe ennå.',
+        fi: 'Kolme tyhjää paikkaa, ei yhtään lukua. Kukaan ei ole vielä kysynyt mitään.'
+      },
       /* ⚠ a STATE, not an event: "now they can see" is also spoken when
          the ladder walks backwards, where they could already see it */
-      sayLinked: { en: 'How the three go together is on the board — and still no numbers.' },
+      sayLinked: {
+        en: 'How the three go together is on the board — and still no numbers.',
+        de: 'Wie die drei zusammengehören, steht jetzt da – Zahlen gibt es immer noch keine.',
+        fr: 'On voit comment les trois vont ensemble — et toujours aucun nombre.',
+        es: 'Ya está a la vista cómo se relacionan los tres, y todavía no hay ningún número.',
+        pt: 'Já dá para ver como os três se ligam — e ainda nenhum número.',
+        it: 'Come stanno insieme le tre è lì da vedere — e ancora nessun numero.',
+        nl: 'Nu staat er hoe de drie bij elkaar horen — en nog steeds geen getallen.',
+        sv: 'Nu syns det på fickbrädet hur de tre hör ihop — och fortfarande inga tal.',
+        da: 'Nu kan man se på stativet, hvordan de tre hænger sammen — og stadig ingen tal.',
+        no: 'Nå ser klassen hvordan de tre henger sammen — fortsatt ingen tall.',
+        fi: 'Paikkojen yhteys on piirretty näkyviin — lukuja ei vielä ole.'
+      },
       /* ⚠ `sayTold` used to ask "What can the class work out now?" at
          stage 2 — where one fact and a relation are known and NOTHING
          can yet be worked out. It asked for something that does not
@@ -397,40 +723,202 @@
          the exact moment a teacher presses "take the round one back" and
          one thing became UNknown. A state description is true in both
          directions. */
-      sayTold:   { en: 'One of the two has been said. What do we know — and what do we still not?' },
+      sayTold:   {
+        en: 'One of the two has been said. What do we know — and what do we still not?',
+        de: 'Eine der beiden Zahlen ist verraten. Was wissen wir – und was noch nicht?',
+        fr: 'Un des deux nombres a été dit. Que sait-on maintenant — et que ne sait-on pas encore ?',
+        es: 'Ya se ha dicho uno de los dos. ¿Qué sabemos ya, y qué no sabemos todavía?',
+        pt: 'Uma das duas já foi dita. O que a gente já sabe — e o que ainda não?',
+        it: 'Uno dei due è stato detto. Che cosa sappiamo adesso — e che cosa ancora no?',
+        nl: 'Eén van de twee is gezegd. Wat weten we — en wat nog niet?',
+        sv: 'En av de två är sagd. Vad vet vi nu — och vad vet vi fortfarande inte?',
+        da: 'Den ene af de to er sagt. Hvad ved vi nu — og hvad ved vi stadig ikke?',
+        no: 'Det ene av de to er sagt. Hva vet dere nå — og hva vet dere fortsatt ikke?',
+        fi: 'Toinen kahdesta luvusta on sanottu. Mitä tiedämme — ja mitä emme vielä tiedä?'
+      },
       /* ⚠ a STATE, not a promise about the future. It used to say
          "everything that is GOING TO BE said has been said", which the
          tool cannot promise — the setup controls stay live. */
-      sayAsk:    { en: 'Both numbers have been said. What is missing?' },
-      sayCount:  { en: 'Count them together.' },
+      sayAsk:    {
+        en: 'Both numbers have been said. What is missing?',
+        de: 'Beide Zahlen sind verraten. Was fehlt jetzt noch?',
+        fr: 'Les deux nombres ont été dits. Qu’est-ce qui manque ?',
+        es: 'Ya se han dicho los dos números. ¿Qué falta?',
+        pt: 'Os dois números já foram ditos. O que está faltando?',
+        it: 'Tutti e due i numeri sono stati detti. Che cosa manca?',
+        nl: 'Beide getallen zijn gezegd. Wat ontbreekt er?',
+        sv: 'Båda talen är sagda. Vad är det som saknas?',
+        da: 'Begge tal er sagt. Hvad mangler der så?',
+        no: 'Begge tallene er sagt. Hva er det som mangler?',
+        fi: 'Molemmat luvut on sanottu. Mikä puuttuu?'
+      },
+      sayCount:  {
+        en: 'Count them together.',
+        de: 'Zählt gemeinsam ab.',
+        fr: 'Comptons ensemble.',
+        es: 'Contemos juntos.',
+        pt: 'Vamos contar juntos.',
+        it: 'Adesso contiamoli tutti.',
+        nl: 'Tel samen mee.',
+        sv: 'Räkna dem tillsammans.',
+        da: 'Tæl dem sammen.',
+        no: 'Tell dem sammen.',
+        fi: 'Laskekaa yhdessä.'
+      },
       /* ⚠ this fires on an ARRANGEMENT CHANGE, which is invention 2: the
          same two facts, laid out differently, give a different answer. */
-      sayShape:  { en: 'The same two things, arranged a different way. Does the answer change?' },
+      sayShape:  {
+        en: 'The same two things, arranged a different way. Does the answer change?',
+        de: 'Dieselben zwei Angaben, anders angeordnet. Ändert sich die Antwort?',
+        fr: 'Les deux mêmes nombres, rangés autrement. Est-ce que la réponse change ?',
+        es: 'Las mismas dos cosas, relacionadas de otra manera. ¿Cambia la respuesta?',
+        pt: 'Os mesmos dois números, arrumados de outro jeito. Será que a resposta muda?',
+        it: 'Le stesse due cose, sistemate in un altro modo. La risposta cambia?',
+        nl: 'Dezelfde twee getallen, anders neergezet. Verandert het antwoord?',
+        sv: 'Samma två saker, ordnade på ett annat sätt. Ändras svaret?',
+        da: 'De samme to tal, stillet op på en anden måde. Ændrer svaret sig?',
+        no: 'De samme to tallene, satt opp på en annen måte. Blir svaret et annet?',
+        fi: 'Samat kaksi lukua, eri asettelussa. Muuttuuko vastaus?'
+      },
       /* ⚠ the honest alternative when the two told numbers cannot both
          be legal in the new arrangement. Losing a fact is honest;
          rewriting one under the class's eyes is not. */
-      sayShapeCleared: { en: 'Those two numbers cannot both fit this arrangement, so the situation starts again.' },
+      sayShapeCleared: {
+        en: 'Those two numbers cannot both fit this arrangement, so the situation starts again.',
+        de: 'Diese beiden Zahlen passen in dieser Anordnung nicht zusammen – die Lage beginnt neu.',
+        fr: 'Ces deux nombres ne peuvent pas aller ensemble dans cette disposition : la situation repart de zéro.',
+        es: 'Esos dos números no caben los dos en esta nueva relación, así que la situación empieza de nuevo.',
+        pt: 'Esses dois números não cabem juntos deste jeito, então a situação começa de novo.',
+        it: 'Quei due numeri non possono stare tutti e due in questa sistemazione, così la situazione ricomincia.',
+        nl: 'Deze twee getallen passen niet allebei in deze ordening; de situatie begint opnieuw.',
+        sv: 'De två talen kan inte båda stämma i den här ordningen, så situationen börjar om.',
+        da: 'De to tal kan ikke begge passe, når de tre står sådan, så situationen begynder forfra.',
+        no: 'De to tallene passer ikke i dette oppsettet, så situasjonen begynner på nytt.',
+        fi: 'Nämä kaksi lukua eivät sovi tähän asetteluun, joten tilanne alkaa alusta.'
+      },
 
       /* ---- refusals, one per reason ---- */
-      saidNothingLinked: { en: 'Show how the three go together first — otherwise there is nothing to work out from.' },
+      saidNothingLinked: {
+        en: 'Show how the three go together first — otherwise there is nothing to work out from.',
+        de: 'Zeigen Sie zuerst, wie die drei zusammengehören – sonst fehlt die Grundlage.',
+        fr: 'Montrez d’abord comment les trois vont ensemble, sinon il n’y a rien pour raisonner.',
+        es: 'Primero hay que dibujar cómo se relacionan; si no, no hay de dónde sacar nada.',
+        pt: 'Mostre primeiro como os três se ligam — sem isso não dá para descobrir nada.',
+        it: 'Prima mostra come stanno insieme, altrimenti non c’è da dove partire.',
+        nl: 'Laat eerst zien hoe de drie bij elkaar horen. Anders valt er niets uit te halen.',
+        sv: 'Visa först hur de tre hör ihop — annars finns det inget att utgå från.',
+        da: 'Vis først, hvordan de tre hænger sammen — ellers er der ikke noget at gå ud fra.',
+        no: 'Vis først hvordan de tre henger sammen — ellers er det ingenting å regne ut fra.',
+        fi: 'Näytä ensin, miten paikat kuuluvat yhteen — muuten ei ole mistä päätellä.'
+      },
       /* ⚠⚠ NOT "nothing is missing". At stage zero EVERYTHING is
          missing — that is the entire routine, and the refusal was
          denying the tool's own premise. What is absent is anything to
          work it out FROM. Four native panels filed this independently. */
-      saidNothingTold:   { en: 'Nothing has been said yet, so there is nothing to work it out from.' },
+      saidNothingTold:   {
+        en: 'Nothing has been said yet, so there is nothing to work it out from.',
+        de: 'Es ist noch nichts gesagt – es gibt also nichts, woraus man schließen kann.',
+        fr: 'Rien n’a encore été dit : il n’y a rien pour le trouver.',
+        es: 'Todavía no se ha dicho ningún número, así que no hay con qué averiguarlo.',
+        pt: 'Ninguém disse nada ainda — não tem nenhum número para a turma se basear.',
+        it: 'Non è ancora stato detto niente: non c’è da dove ricavarlo.',
+        nl: 'Er is nog niets gezegd, dus is er niets om het mee uit te rekenen.',
+        sv: 'Inget är sagt än, så det går inte att räkna ut något.',
+        da: 'Der er ikke sagt noget endnu, så der er ikke noget at regne det ud fra.',
+        no: 'Ingenting er sagt ennå, så det er ingenting å regne det ut fra.',
+        fi: 'Mitään ei ole vielä sanottu, joten ei ole mistä päätellä.'
+      },
       /* ⚠ ITS OWN STRING. `_recount` used to borrow `saidNothingTold`,
          so a teacher who had told both facts and taken the count back
          was told "nothing has been said yet" — false about the very
          state it fired in. */
-      saidNotCounted:    { en: 'Nothing has been counted out yet, so there is nothing to count again.' },
-      saidStillMissing:  { en: 'One of the two is still unsaid. Tell them that one first.' },
-      saidThatIsTheAsk:  { en: 'That is the one they have to work out, so it cannot be told.' },
-      saidAtCeiling:     { en: 'That is as far as this number range goes.' },
+      saidNotCounted:    {
+        en: 'Nothing has been counted out yet, so there is nothing to count again.',
+        de: 'Es ist noch nichts abgezählt – also gibt es auch nichts noch einmal abzuzählen.',
+        fr: 'Rien n’a encore été compté, il n’y a donc rien à recompter.',
+        es: 'Todavía no se ha contado nada, así que no hay nada que volver a contar.',
+        pt: 'Ainda não foi contado nada, então não tem o que contar de novo.',
+        it: 'Non è ancora stato contato niente: non c’è niente da contare un’altra volta.',
+        nl: 'Er is nog niets uitgeteld, dus valt er niets opnieuw te tellen.',
+        sv: 'Ingenting är uträknat än, så det finns inget att räkna en gång till.',
+        da: 'Der er ikke talt noget op endnu, så der er ikke noget at tælle igen.',
+        no: 'Ingenting er talt opp ennå, så det er ingenting å telle en gang til.',
+        fi: 'Mitään ei ole vielä laskettu, joten ei ole mitä laskea uudelleen.'
+      },
+      saidStillMissing:  {
+        en: 'One of the two is still unsaid. Tell them that one first.',
+        de: 'Eine der beiden Angaben fehlt noch. Sagen Sie die zuerst.',
+        fr: 'Un des deux n’a pas encore été dit. Dites d’abord celui-là.',
+        es: 'Falta decir uno de los dos. Digan ese primero.',
+        pt: 'Ainda falta dizer uma das duas. Diga essa primeiro.',
+        it: 'Uno dei due non è ancora stato detto. Comincia da quello.',
+        nl: 'Eén van de twee is nog niet gezegd. Vertel die eerst.',
+        sv: 'En av de två är inte sagd än. Säg den först.',
+        da: 'Den ene af de to er der stadig ikke. Fortæl dem den først.',
+        no: 'Det ene av de to er fortsatt usagt. Si det først.',
+        fi: 'Toinen kahdesta luvusta on vielä sanomatta. Sano se ensin.'
+      },
+      saidThatIsTheAsk:  {
+        en: 'That is the one they have to work out, so it cannot be told.',
+        de: 'Das ist die Nische, die die Klasse herausfinden soll – die kann nicht verraten werden.',
+        fr: 'C’est celle que la classe doit trouver : on ne peut pas la dire.',
+        es: 'Ese es el que tienen que averiguar, así que no se puede decir.',
+        pt: 'Esse é o que a turma vai descobrir, então ele não pode ser dito.',
+        it: 'Quella è la nicchia da ricavare: non si può dire.',
+        nl: 'Dat is juist de nis die de klas moet uitrekenen; die kun je niet vertellen.',
+        sv: 'Den ska de räkna ut själva, så den kan inte sägas.',
+        da: 'Den skal de selv finde ud af, så den kan ikke fortælles.',
+        no: 'Den skal klassen finne ut selv, så den kan ikke sies.',
+        fi: 'Tämän paikan luku pitää päätellä, joten sitä ei sanota.'
+      },
+      saidAtCeiling:     {
+        en: 'That is as far as this number range goes.',
+        de: 'Weiter geht dieser Zahlenraum nicht.',
+        fr: 'C’est aussi loin que vont les nombres choisis.',
+        es: 'Hasta ahí llegan los números de este ajuste.',
+        pt: 'É até aqui que os números vão neste ajuste.',
+        it: 'Più in là questi numeri non arrivano.',
+        nl: 'Verder gaat dit getalbereik niet.',
+        sv: 'Så långt räcker det här talområdet.',
+        da: 'Længere går tallene ikke med den indstilling.',
+        no: 'Så langt går dette tallområdet.',
+        fi: 'Pidemmälle tämä lukualue ei yllä.'
+      },
       /* ⚠ NOT "every question" — that overclaims in front of teachers.
          `legal()` rejects the frame because the two PARTS coincide; a
          question about the whole still has its own answer. */
-      saidAtFloor:       { en: 'Any fewer and the two parts would be the same number.' },
-      saidLocked:        { en: 'The printed sheet is part of a Teacher plan.' },
+      /* ⚠⚠ NOT "the two parts" EITHER — that is family-specific in
+         exactly the way "altogether" was. In `compare` the other two
+         niches are the smaller amount and the DIFFERENCE, which are not
+         parts of anything. "The other two" is true in all three
+         arrangements. Caught by the German panel on the second pass,
+         after it had already caught the first version of this mistake. */
+      saidAtFloor:       {
+        en: 'Any fewer and the other two would be the same number.',
+        de: 'Weniger geht nicht – dann wären die beiden anderen gleich groß.',
+        fr: 'En dessous, les deux autres seraient le même nombre.',
+        es: 'Si baja más, los otros dos serían el mismo número.',
+        pt: 'Menos que isso e os outros dois ficariam com o mesmo número.',
+        it: 'Più piccolo di così, e le altre due sarebbero lo stesso numero.',
+        nl: 'Bij minder zouden de twee getallen gelijk zijn.',
+        sv: 'Färre än så och de två andra blir samma tal.',
+        da: 'Bliver det mindre, bliver de to andre tal ens.',
+        no: 'Blir det færre, blir de to andre det samme tallet.',
+        fi: 'Tätä pienemmällä luvulla molemmat muut olisivat yhtä suuria.'
+      },
+      saidLocked:        {
+        en: 'The printed sheet is part of a Teacher plan.',
+        de: 'Das Blatt zum Drucken gehört zum Lehrkraft-Abo.',
+        fr: 'La fiche à imprimer fait partie de l’abonnement Enseignant.',
+        es: 'La hoja para imprimir forma parte del plan Docente.',
+        pt: 'A folha impressa faz parte do plano Professor.',
+        it: 'La scheda da stampare fa parte del piano Insegnante.',
+        nl: 'Het printblad hoort bij het Leerkracht-abonnement.',
+        sv: 'Arbetsbladet ingår i Lärarplanen.',
+        da: 'Arket hører til Lærerabonnementet.',
+        no: 'Arket til utskrift hører til Lærerabonnementet.',
+        fi: 'Tulostettava paperiarkki kuuluu Opettajatilaukseen.'
+      },
 
       /* ---- aria. ⚠ THE MARKS ARE NOT TAP TARGETS and the niches are
          the places the child looks, so aria carries the whole frame on
@@ -439,31 +927,247 @@
       /* ⚠ "{told} of them have been said" renders "1 of them HAVE been
          said" at the commonest value. Restructured so no count sits in
          front of a verb that has to agree with it. */
-      ariaStand:   { en: 'Three places. Said so far: {told}. {rest}' },
-      ariaNothing: { en: 'Nothing has been said yet.' },
-      ariaLinked:  { en: 'They are shown going together.' },
-      ariaAsking:  { en: 'One place is still to be worked out.' },
-      ariaCounted: { en: 'The missing one has been counted out: {n}.' },
-      ariaNiche0:  { en: 'The round place' },
-      ariaNiche1:  { en: 'The square place' },
-      ariaNiche2:  { en: 'The pointed place' },
-      ariaEmpty:   { en: 'nothing said' },
-      ariaAsk:     { en: 'to be worked out' },
+      ariaStand:   {
+        en: 'Three places. Said so far: {told}. {rest}',
+        de: 'Drei Nischen. Bisher verraten: {told}. {rest}',
+        fr: 'Trois alvéoles. Déjà dites : {told}. {rest}',
+        es: 'Tres sitios. Dichos hasta ahora: {told}. {rest}',
+        pt: 'Três nichos. Números já ditos: {told}. {rest}',
+        it: 'Tre nicchie. Detti finora: {told}. {rest}',
+        nl: 'Drie nissen. Al gezegd: {told}. {rest}',
+        sv: 'Tre fickor. Sagt hittills: {told}. {rest}',
+        da: 'Tre pladser. Sagt indtil nu: {told}. {rest}',
+        no: 'Tre plasser. Sagt så langt: {told}. {rest}',
+        fi: 'Kolme paikkaa. Sanottuja lukuja: {told}. {rest}'
+      },
+      ariaNothing: {
+        en: 'Nothing has been said yet.',
+        de: 'Es ist noch nichts gesagt.',
+        fr: 'Rien n’a encore été dit.',
+        es: 'Todavía no se ha dicho nada.',
+        pt: 'Ninguém disse nada ainda.',
+        it: 'Non è ancora stato detto niente.',
+        nl: 'Er is nog niets gezegd.',
+        sv: 'Inget är sagt än.',
+        da: 'Der er ikke sagt noget endnu.',
+        no: 'Ingenting er sagt ennå.',
+        fi: 'Mitään ei ole vielä sanottu.'
+      },
+      ariaLinked:  {
+        en: 'They are shown going together.',
+        de: 'Es ist gezeigt, wie die drei zusammengehören.',
+        fr: 'On voit comment les trois vont ensemble.',
+        es: 'Se ve cómo se relacionan los tres.',
+        pt: 'Está mostrando como os três se ligam.',
+        it: 'Si vede come stanno insieme.',
+        nl: 'Je ziet hoe ze bij elkaar horen.',
+        sv: 'Det syns hur de hör ihop.',
+        da: 'Det er vist, hvordan de hænger sammen.',
+        no: 'Det vises hvordan de henger sammen.',
+        fi: 'Paikkojen yhteys on näkyvissä.'
+      },
+      ariaAsking:  {
+        en: 'One place is still to be worked out.',
+        de: 'Eine Nische muss die Klasse noch herausfinden.',
+        fr: 'Il reste une alvéole à trouver.',
+        es: 'Queda un sitio por averiguar.',
+        pt: 'Falta um nicho para a turma descobrir.',
+        it: 'Una nicchia è ancora da ricavare.',
+        nl: 'Eén nis moet nog uitgerekend worden.',
+        sv: 'En ficka ska fortfarande räknas ut.',
+        da: 'Én plads skal klassen selv finde ud af.',
+        no: 'Én plass skal fortsatt finnes ut.',
+        fi: 'Yhden paikan luku on vielä pääteltävä.'
+      },
+      ariaCounted: {
+        en: 'The missing one has been counted out: {n}.',
+        de: 'Die fehlende Menge ist abgezählt: {n}.',
+        fr: 'L’alvéole qui manquait a été comptée : {n}.',
+        es: 'Lo que faltaba, ya contado: {n}.',
+        pt: 'O que faltava foi contado: {n}.',
+        it: 'La nicchia che mancava è stata contata: {n}.',
+        nl: 'De ontbrekende nis is uitgeteld: {n}.',
+        sv: 'Det som saknades har räknats fram: {n}.',
+        da: 'Den, der manglede, er talt op: {n}.',
+        no: 'Den som manglet, er talt opp: {n}.',
+        fi: 'Puuttuva määrä on laskettu: {n}.'
+      },
+      ariaNiche0:  {
+        en: 'The round place',
+        de: 'Die runde Nische',
+        fr: 'L’alvéole ronde',
+        es: 'El sitio redondo',
+        pt: 'O nicho redondo',
+        it: 'La nicchia rotonda',
+        nl: 'De ronde nis',
+        sv: 'Den runda fickan',
+        da: 'Den runde plads',
+        no: 'Den runde plassen',
+        fi: 'Ympyrän paikka'
+      },
+      ariaNiche1:  {
+        en: 'The square place',
+        de: 'Die viereckige Nische',
+        fr: 'L’alvéole carrée',
+        es: 'El sitio cuadrado',
+        pt: 'O nicho quadrado',
+        it: 'La nicchia quadrata',
+        nl: 'De vierkante nis',
+        sv: 'Den fyrkantiga fickan',
+        da: 'Den firkantede plads',
+        no: 'Den firkantede plassen',
+        fi: 'Neliön paikka'
+      },
+      ariaNiche2:  {
+        en: 'The pointed place',
+        de: 'Die spitze Nische',
+        fr: 'L’alvéole pointue',
+        es: 'El sitio puntiagudo',
+        pt: 'O nicho pontudo',
+        it: 'La nicchia appuntita',
+        nl: 'De puntige nis',
+        sv: 'Den spetsiga fickan',
+        da: 'Den trekantede plads',
+        no: 'Den spisse plassen',
+        fi: 'Kolmion paikka'
+      },
+      ariaEmpty:   {
+        en: 'nothing said',
+        de: 'noch nichts gesagt',
+        fr: 'rien n’a été dit',
+        es: 'sin decir',
+        pt: 'nada dito',
+        it: 'ancora niente',
+        nl: 'nog niets gezegd',
+        sv: 'inget sagt',
+        da: 'der er ikke sagt noget',
+        no: 'ingenting sagt',
+        fi: 'ei sanottu'
+      },
+      ariaAsk:     {
+        en: 'to be worked out',
+        de: 'herauszufinden',
+        fr: 'à trouver',
+        es: 'por averiguar',
+        pt: 'a descobrir',
+        it: 'da ricavare',
+        nl: 'nog uit te rekenen',
+        sv: 'ska räknas ut',
+        da: 'den skal klassen selv finde ud af',
+        no: 'skal finnes ut',
+        fi: 'pääteltävä'
+      },
 
       /* ---- settings ---- */
-      setShape:     { en: 'How the three go together' },
-      shapeChange:  { en: 'one thing happened' },
-      shapeBracket: { en: 'two make one' },
+      setShape:     {
+        en: 'How the three go together',
+        de: 'Wie die drei zusammengehören',
+        fr: 'Comment les trois vont ensemble',
+        es: 'Cómo se relacionan los tres',
+        pt: 'Como os três se ligam',
+        it: 'Come stanno insieme le tre',
+        nl: 'Hoe de drie bij elkaar horen',
+        sv: 'Hur de tre hör ihop',
+        da: 'Hvordan de tre hænger sammen',
+        no: 'Hvordan de tre hører sammen',
+        fi: 'Paikkojen asettelu'
+      },
+      shapeChange:  {
+        en: 'one thing happened',
+        de: 'etwas ist passiert',
+        fr: 'il s’est passé quelque chose',
+        es: 'pasó algo',
+        pt: 'aconteceu alguma coisa',
+        it: 'è successo qualcosa',
+        nl: 'er gebeurde iets',
+        sv: 'något hände',
+        da: 'der skete noget',
+        no: 'noe skjedde',
+        fi: 'jotakin tapahtui'
+      },
+      shapeBracket: {
+        en: 'two make one',
+        de: 'zwei Teile, ein Ganzes',
+        fr: 'les deux font le tout',
+        es: 'dos hacen uno',
+        pt: 'dois formam um só',
+        it: 'due che si uniscono',
+        nl: 'twee maken samen één',
+        sv: 'två tillsammans',
+        da: 'to bliver til ét',
+        no: 'to blir ett',
+        fi: 'kahdesta tulee yksi'
+      },
       /* ⚠ NOT "side by side" — the CSS STACKS these two, at grid-area
          1/1 and 3/1, in the same column. Name the relation, not a
          geometry the tool does not draw. */
-      shapeCompare: { en: 'one has more than the other' },
-      setBand:      { en: 'How far the numbers go' },
-      bandTen:      { en: 'up to ten' },
-      bandTwenty:   { en: 'up to twenty' },
+      shapeCompare: {
+        en: 'one has more than the other',
+        de: 'die eine hat mehr als die andere',
+        fr: 'l’un en a plus que l’autre',
+        es: 'uno tiene más que el otro',
+        pt: 'um tem mais do que o outro',
+        it: 'una ne ha più dell’altra',
+        nl: 'de een heeft er meer dan de ander',
+        sv: 'en har fler än den andra',
+        da: 'den ene har flere end den anden',
+        no: 'den ene har flere enn den andre',
+        fi: 'toisella on enemmän kuin toisella'
+      },
+      setBand:      {
+        en: 'How far the numbers go',
+        de: 'Wie weit die Zahlen gehen',
+        fr: 'Jusqu’où vont les nombres',
+        es: 'Hasta dónde llegan los números',
+        pt: 'Até onde vão os números',
+        it: 'Fin dove arrivano i numeri',
+        nl: 'Hoe ver de getallen gaan',
+        sv: 'Hur långt talen går',
+        da: 'Hvor store tallene bliver',
+        no: 'Hvor langt tallene går',
+        fi: 'Kuinka suuria luvut ovat'
+      },
+      bandTen:      {
+        en: 'up to ten',
+        de: 'bis zehn',
+        fr: 'jusqu’à dix',
+        es: 'hasta diez',
+        pt: 'até dez',
+        it: 'fino a dieci',
+        nl: 'tot tien',
+        sv: 'upp till tio',
+        da: 'op til ti',
+        no: 'opp til ti',
+        fi: 'enintään kymmenen'
+      },
+      bandTwenty:   {
+        en: 'up to twenty',
+        de: 'bis zwanzig',
+        fr: 'jusqu’à vingt',
+        es: 'hasta veinte',
+        pt: 'até vinte',
+        it: 'fino a venti',
+        nl: 'tot twintig',
+        sv: 'upp till tjugo',
+        da: 'op til tyve',
+        no: 'opp til tjue',
+        fi: 'enintään kaksikymmentä'
+      },
 
       /* ---- paid sheet ---- */
-      sheetTitle: { en: 'The same three places, and room to write what the class asked' },
+      sheetTitle: {
+        en: 'The same three places, and room to write what the class asked',
+        de: 'Dieselben drei Nischen – und Platz für die Fragen der Klasse',
+        fr: 'Les mêmes trois alvéoles, et de la place pour écrire ce que la classe a demandé',
+        es: 'Los mismos tres sitios, con espacio para escribir lo que preguntó la clase',
+        pt: 'Os mesmos três nichos, com espaço para escrever o que a turma perguntou',
+        it: 'Le stesse tre nicchie, con lo spazio per scrivere quello che ha chiesto la classe',
+        nl: 'Dezelfde drie nissen, met ruimte om de vragen op te schrijven',
+        sv: 'Samma tre fickor, och plats att skriva klassens frågor',
+        da: 'De samme tre pladser, og linjer til at skrive, hvad klassen spurgte om',
+        no: 'De samme tre plassene, og linjer til å skrive det klassen spurte om',
+        fi: 'Samat kolme paikkaa ja tilaa kirjoittaa, mitä luokka kysyi'
+      },
       /* ⚠⚠ IT USED TO COMMISSION THE ONE THING THE REFUSE-LIST FORBIDS.
          The header bans any arithmetic sentence from being rendered, and
          the sheet then asked the child to write one — the tool refusing
@@ -471,12 +1175,48 @@
          wrong ask besides: this routine's product is the QUESTION. */
       /* ⚠ SIX, because six is what `_buildSheet` draws. "One line for
          each question" promised a variable the sheet does not have. */
-      sheetHint:  { en: 'Six lines, one for each question the class asked. Write the questions, not the answers.' },
-      lockedTitle: { en: 'The sheet is part of a Teacher plan' },
+      sheetHint:  {
+        en: 'Six lines, one for each question the class asked. Write the questions, not the answers.',
+        de: 'Sechs Zeilen, für jede Frage der Klasse eine. Schreibt die Fragen auf, nicht die Antworten.',
+        fr: 'Six lignes, une pour chaque question posée par la classe. Écrivez les questions, pas les réponses.',
+        es: 'Seis renglones, uno para cada pregunta que hizo la clase. Escriban las preguntas, no las respuestas.',
+        pt: 'Seis linhas, uma para cada pergunta que a turma fez. Escrevam as perguntas, não as respostas.',
+        it: 'Sei righe, una per ogni domanda della classe. Scrivete le domande, non le risposte.',
+        nl: 'Zes regels, één voor elke vraag die de klas stelde. Schrijf de vragen op, niet de antwoorden.',
+        sv: 'Sex rader, en för varje fråga klassen ställde. Skriv frågorna, inte svaren.',
+        da: 'Seks linjer, én til hvert spørgsmål, klassen stillede. Skriv spørgsmålene, ikke svarene.',
+        no: 'Seks linjer, én for hvert spørsmål klassen stilte. Skriv spørsmålene, ikke svarene.',
+        fi: 'Kuusi riviä, yksi jokaista luokan kysymystä kohden. Kirjoittakaa kysymykset — ei vastauksia.'
+      },
+      lockedTitle: {
+        en: 'The sheet is part of a Teacher plan',
+        de: 'Das Blatt gehört zum Lehrkraft-Abo',
+        fr: 'La fiche à imprimer fait partie de l’abonnement Enseignant',
+        es: 'La hoja forma parte del plan Docente',
+        pt: 'A folha faz parte do plano Professor',
+        it: 'La scheda fa parte del piano Insegnante',
+        nl: 'Het printblad hoort bij het Leerkracht-abonnement',
+        sv: 'Arbetsbladet ingår i Lärarplanen',
+        da: 'Arket hører til Lærerabonnementet',
+        no: 'Arket hører til Lærerabonnementet',
+        fi: 'Tulostettava paperiarkki kuuluu Opettajatilaukseen'
+      },
       /* ⚠ NOT "every reveal". A reveal presupposes a cover, and the
          covering verb is the one this tool's whole fence exists to
          escape — the paid copy was naming the dead design. */
-      lockedBody:  { en: 'The whole apparatus is free — every arrangement, every fact you tell them, and counting out what was missing. A Teacher plan adds the printed sheet, which carries the three places exactly as the class just saw them, with ruled lines for the questions they asked.' }
+      lockedBody:  {
+        en: 'The whole apparatus is free — every arrangement, every fact you tell them, and counting out what was missing. A Teacher plan adds the printed sheet, which carries the three places exactly as the class just saw them, with ruled lines for the questions they asked.',
+        de: 'Die Nischen selbst sind kostenlos – jede Anordnung, jede Sache, die Sie verraten, und das Abzählen der fehlenden Menge. Das Lehrkraft-Abo bringt zusätzlich das Blatt zum Drucken: darauf stehen die drei Nischen genau so, wie die Klasse sie eben gesehen hat, mit Linien für ihre Fragen.',
+        fr: 'Tout le présentoir est gratuit : chaque disposition, chaque chose que vous leur annoncez, et le comptage de ce qui manquait. L’abonnement Enseignant ajoute la fiche à imprimer, qui reprend les trois alvéoles exactement comme la classe vient de les voir, avec des lignes réglées pour écrire ses questions.',
+        es: 'Todo el instrumento es gratis: las tres maneras de relacionarlos, cada cosa que les digan y contar lo que faltaba. El plan Docente añade la hoja impresa, que lleva los tres sitios tal como los acaba de ver la clase, con renglones para las preguntas que hicieron.',
+        pt: 'O aparelho inteiro é gratuito: as três arrumações, cada coisa que você disser para a turma e a contagem do que estava faltando. O plano Professor acrescenta a folha impressa, com os três nichos exatamente como a turma acabou de ver e linhas pautadas para as perguntas que ela fez.',
+        it: 'Lo strumento è gratuito tutto intero: ogni sistemazione, ogni cosa che dite alla classe e il conteggio di quello che mancava. Il piano Insegnante aggiunge la scheda da stampare, che riporta le tre nicchie esattamente come le ha viste la classe, con le righe su cui scrivere le domande.',
+        nl: 'Het hele apparaat is gratis — elke ordening, elk ding dat je vertelt en het uittellen van wat ontbrak. Het Leerkracht-abonnement voegt het printblad toe: daarop staan de drie nissen precies zoals de klas ze net zag, met lijnen voor de vragen die de klas stelde.',
+        sv: 'Hela fickbrädet är gratis — varje sätt att ordna fickorna, varje sak ni säger till klassen och att räkna fram det som saknades. Lärarplanen lägger till arbetsbladet, som visar de tre fickorna precis som klassen såg dem, med linjerade rader för frågorna klassen ställde.',
+        da: 'Hele apparatet er gratis — hver eneste måde, de tre kan stå på, hver eneste ting, I fortæller dem, og det at tælle op, hvad der manglede. Lærerabonnementet giver desuden det printede ark med de tre pladser, præcis som klassen lige har set dem, og med linjer til de spørgsmål, klassen selv stillede.',
+        no: 'Hele apparatet er gratis: alle oppsettene, hver ting dere sier til klassen, og det å telle opp den som manglet. Lærerabonnementet legger til arket til utskrift, med de tre plassene slik klassen nettopp så dem, og linjer å skrive spørsmålene på.',
+        fi: 'Koko väline on maksuton — jokainen asettelu, jokainen luokalle sanottu asia ja puuttuvan määrän laskeminen. Opettajatilaus tuo lisäksi tulostettavan paperiarkin, jossa on samat kolme paikkaa kuin luokka juuri näki, ja viivat luokan kysymyksiä varten.'
+      }
     },
 
     settings: [

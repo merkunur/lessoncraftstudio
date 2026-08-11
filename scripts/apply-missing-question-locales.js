@@ -48,9 +48,21 @@ const TOOL = path.join(process.env.MISSING_QUESTION_TOOL_DIR || path.join(__dirn
   'missing-question.js');
 const STRINGS = process.env.MISSING_QUESTION_STRINGS || path.join(__dirname, '_missing-question-strings.js');
 /* the ten panel files, if they are still where the panels left them */
-const PANEL_DIR = process.env.MQ_PANEL_DIR || path.join(
-  process.env.LOCALAPPDATA || require('os').tmpdir(), 'Temp', 'claude',
-  'C--Users-rkgen-lessoncraftstudio', '7ff223ef-444e-43b7-9051-4d8be79c24fc', 'scratchpad');
+/* ⚠⚠ THE CROSS-CHECK IS OFF BY DEFAULT NOW, AND THAT IS A CORRECTION.
+   This used to default to a HARD-CODED SESSION SCRATCHPAD
+   (`…/7ff223ef-444e-43b7-9051-4d8be79c24fc/scratchpad`) holding the
+   panel files of the PREVIOUS BUILD — the one with a ledge, the air and
+   two shutters. That tool is gone; its panels wrote about an apparatus
+   that no longer exists. After the 2026-08-11 rebuild the check fired on
+   every key those dead panels never had, reporting `panel: undefined`
+   as DRIFT and failing a rewrite that had landed perfectly.
+
+   A cross-check against a stale source is worse than no cross-check: it
+   fails correct work and, if the two ever happened to agree, it would
+   certify the wrong thing. The consolidation file is the source of
+   record; point MQ_PANEL_DIR at a directory of `mq-<loc>.js` files
+   explicitly if a fresh panel set is on disk to compare against. */
+const PANEL_DIR = process.env.MQ_PANEL_DIR || '';
 
 const LOCALES = ['de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 

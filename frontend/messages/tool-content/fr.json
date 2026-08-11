@@ -1477,6 +1477,30 @@
       "Reprenez le même nombre de départ deux fois : une fois quelque chose entre, une fois quelque chose sort. Seule l’onde change, et il vaut la peine de demander ce que la classe a vraiment vu."
     ]
   },
+  "shape-stretcher": {
+    "name": "L’Étire-forme",
+    "slug": "etire-forme-tourner-ne-change-rien-pencher-oui-cp",
+    "tagline": "Tournez la forme autant que vous voulez : aucun témoin ne s’en va. Penchez-la et un témoin lâche — l’inclinaison et le cisaillement se ressemblent, et un seul des deux vous laisse une autre forme.",
+    "metaTitle": "L’Étire-forme — tourner ne change rien, pencher si, CP",
+    "metaDescription": "Outil de tableau gratuit : une forme sur la vitre, deux témoins — tous les côtés de la même longueur, et des angles droits — et trois mouvements : étirer, pencher, tourner. Tourner ne détache jamais rien. Gardez une forme à côté et vous en avez deux sous les yeux.",
+    "about": [
+      "Une vitre avec une forme dessus et deux témoins accrochés à la forme : l’un dit que tous les côtés ont la même longueur, l’autre que les angles sont droits. Trois mouvements déplacent la forme — l’étirer, la pencher, la tourner — et les témoins répondent. Tourner est le mouvement qui ne change jamais rien, et le cadran de rotation ne porte aucun cran, parce qu’un cran marque l’endroit où le franchir fait lâcher un témoin, et sur ce cadran cet endroit n’existe pas. L’appareil le dit par sa propre construction, avant que quiconque y touche.",
+      "Pencher est une tout autre affaire. Penchez assez loin et le témoin des angles droits lâche : il reste une forme à quatre côtés de même longueur qui n’est plus un carré. C’est pour cette distinction que la vitre est faite : l’inclinaison et le cisaillement font tous deux basculer un carré, et un seul des deux vous coûte quelque chose. Ailleurs sur ce site, une forme arrive déjà inclinée ou étirée et la classe décide dans quelle boîte la ranger ; ici c’est la classe qui fait le changement et qui regarde la frontière se franchir.",
+      "Qu’un carré penché soit moins bien reconnu qu’un carré droit a été observé chez des enfants de trente mois, donc bien avant toute scolarisation : ce n’est pas la classe qui le fabrique, et personne n’a montré ce qui le fabrique. Gardez une forme et elle reste sur la vitre à côté de celle que vous tenez : on compare deux formes côte à côte au lieu de s’en souvenir l’une après l’autre. Rien n’est marqué juste ou faux : un témoin signale une propriété et revient exactement aussi fort qu’il est parti, même couleur, même trajet. Il n’y a ni points ni chronomètre. Cette routine est fondée sur la recherche, sans preuve d’efficacité : nous décrivons ce que fait l’appareil et ne revendiquons aucun effet mesuré.",
+      "Tout l’appareil est gratuit : chaque forme, les trois mouvements, les témoins et la forme gardée. L’abonnement Enseignant ajoute la fiche imprimée, qui reprend la vitre telle que la classe l’a laissée, avec des lignes pour écrire."
+    ],
+    "howToUse": [
+      "Prenez une forme et tournez-la, un tour complet si on vous le demande. Demandez ce qui est arrivé aux témoins. Rien — et ce cadran n’a aucun cran, l’appareil le dit donc avant vous.",
+      "Prenez maintenant le mouvement « pencher » et avancez lentement. Arrêtez-vous à l’instant où un témoin lâche, et demandez ce qui reste vrai de cette forme et ce qui a cessé de l’être.",
+      "Gardez cette forme, puis ramenez l’autre en arrière jusqu’à ce que le témoin revienne. Les deux sont maintenant côte à côte sur la même vitre, et c’est tout l’enjeu : on les compare, on ne les mémorise pas l’une après l’autre.",
+      "Donnez une consigne à la classe : faire tenir tous les témoins en même temps. Puis une plus difficile — en faire lâcher exactement un, et un seul."
+    ],
+    "classroomIdeas": [
+      "Deux minutes en début de séance : une forme tournée d’un tour complet, puis penchée jusqu’à ce qu’un témoin lâche. Une phrase au tableau sur ce qui a changé et ce qui n’a pas changé.",
+      "Recueillez une prédiction avant de bouger — celle-ci va-t-elle perdre un témoin ? — et écrivez toutes les prédictions avant que quoi que ce soit ne se passe.",
+      "Passez la vitre à trois côtés. Dans tout l’appareil, exactement deux réglages mettent un angle droit dans une forme à trois côtés, et les trouver est une vraie chasse."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

@@ -1477,6 +1477,30 @@
       "Usate due volte lo stesso conteggio di partenza: una volta entra qualcosa, una volta esce. L’unica differenza è l’onda, e vale la pena chiedere che cosa ha visto davvero la classe."
     ]
   },
+  "shape-stretcher": {
+    "name": "Allunga e inclina la figura",
+    "slug": "allunga-e-inclina-la-figura-ruotare-non-cambia-niente-classe-prima",
+    "tagline": "Gira la figura quanto vuoi: non se ne va niente. Inclinala e una targhetta si stacca — inclinare e deformare si somigliano, e solo uno dei due ti lascia in mano un'altra figura.",
+    "metaTitle": "Allunga e inclina la figura — ruotare non cambia niente, classe prima",
+    "metaDescription": "Strumento da lavagna gratuito: una figura nel riquadro, due targhette — tutti i lati uguali e angoli retti — e tre comandi: allunga, inclina, gira. Girare non stacca mai una targhetta. Inclinare sì. Tieni una figura da parte e le vedi tutte e due insieme.",
+    "about": [
+      "Un riquadro con dentro una figura e due targhette appese alla figura: una dice che tutti i lati sono uguali, l'altra che gli angoli sono retti. Tre comandi muovono la figura — allunga, inclina, gira — e le targhette rispondono. Girare è il comando che non cambia mai niente, e non ha nessuno scatto, perché uno scatto segna il punto in cui attraversare fa staccare una targhetta e su quel comando quel punto non c'è. L'apparecchio lo dice con la sua stessa struttura, prima che qualcuno lo tocchi.",
+      "Inclinare è tutt'altra faccenda. Inclina abbastanza e la targhetta degli angoli retti si stacca: resta una figura con quattro lati uguali che non è più un quadrato. È per questa distinzione che il riquadro è stato costruito: inclinare e deformare fanno pendere il quadrato tutti e due, e solo uno dei due costa qualcosa. Altrove su questo sito la figura arriva già inclinata o allungata e la classe decide in che scatola metterla; qui è la classe a fare il cambiamento e a vedere il confine venire attraversato.",
+      "Che un quadrato inclinato venga riconosciuto meno facilmente di uno dritto è stato osservato in bambini di trenta mesi, quindi molto prima di qualsiasi scolarizzazione: non è la classe a produrlo, e nessuno ha mostrato che cosa lo produca. Se tieni una figura da parte, resta nel riquadro accanto a quella che hai in mano, così due figure si confrontano fianco a fianco invece di ricordarle una dopo l'altra. Niente viene segnato giusto o sbagliato: una targhetta segnala una proprietà e torna esattamente con la stessa forza con cui se n'era andata, stesso colore, stesso percorso. Non ci sono punti né orologio. Questa routine è basata sulla ricerca, non su prove di efficacia: descriviamo che cosa fa l'apparecchio e non rivendichiamo nessun effetto misurato.",
+      "Lo strumento è gratuito tutto intero: ogni figura, allungare, inclinare e girare, le targhette e la figura tenuta da parte. Con il piano Insegnante c'è anche la scheda da stampare, con quello che la classe ha lasciato nel riquadro e le righe per scrivere."
+    ],
+    "howToUse": [
+      "Prendi una figura e girala, anche un giro intero se te lo chiedono. Chiedi che cosa è successo alle targhette. Niente — e quel comando non ha scatti, quindi l'apparecchio lo dice prima di te.",
+      "Ora prendi il comando per inclinare e muovilo piano. Fermati nell'istante in cui una targhetta si stacca e chiedi che cosa è ancora vero di questa figura e che cosa ha smesso di esserlo.",
+      "Tieni quella figura da parte, poi riporta indietro l'altra finché la targhetta non torna. Adesso le due stanno fianco a fianco nello stesso riquadro, ed è tutto qui: si confrontano, non si ricordano una dopo l'altra.",
+      "Dai un compito alla classe: far tenere tutte le targhette insieme. Poi uno più difficile: farne staccare esattamente una, e una soltanto."
+    ],
+    "classroomIdeas": [
+      "Due minuti per aprire la lezione: una figura girata di un giro intero, poi inclinata finché una targhetta non si stacca. Una frase alla lavagna su che cosa è cambiato e che cosa no.",
+      "Raccogli una previsione prima di muovere il comando — questa perderà una targhetta? — e scrivetele tutte prima che succeda qualsiasi cosa.",
+      "Porta il riquadro a tre lati. In tutto l'apparecchio ci sono esattamente due regolazioni che mettono un angolo retto in una figura a tre lati, e trovarle è una caccia vera."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -6,11 +6,11 @@ const srv=http.createServer((q,s)=>{let f=path.join(ROOT,q.url.split('?')[0].rep
 srv.listen(5901,async()=>{
  const b=await pup.launch({headless:'new',args:['--no-sandbox']});const p=await b.newPage();
  await p.setViewport({width:768,height:900});const errs=[];p.on('pageerror',e=>errs.push(String(e)));
- await p.goto('http://localhost:5901/the-gap.html',{waitUntil:'networkidle2'});
+ await p.goto('http://localhost:5901/shape-stretcher.html',{waitUntil:'networkidle2'});
  await new Promise(r=>setTimeout(r,700));
- const r=await p.evaluate(()=>({errs:0,marks:document.querySelectorAll('.crt-mark').length,
-   btns:document.querySelectorAll('.crt-btn').length,nums:document.querySelectorAll('.crt-num').length,
-   say:(document.querySelector('.crt-say')||{}).textContent,html:document.body.innerText.slice(0,90)}));
+ const r=await p.evaluate(()=>({errs:0,marks:document.querySelectorAll('.shp-tag').length,
+   btns:document.querySelectorAll('.shp-btn').length,nums:document.querySelectorAll('.shp-notch').length,
+   say:(document.querySelector('.shp-say')||{}).textContent,html:document.body.innerText.slice(0,90)}));
  console.log('pageerrors:',errs.length?errs:'none');
  console.log('marks='+r.marks,'buttons='+r.btns,'numerals='+r.nums);
  console.log('say:',JSON.stringify(r.say));

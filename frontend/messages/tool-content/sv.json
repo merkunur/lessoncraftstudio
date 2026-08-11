@@ -1478,6 +1478,30 @@
       "Använd samma startantal två gånger: en gång kommer något in, en gång går något ut. Det enda som skiljer är vågen, och det är värt att fråga vad klassen faktiskt såg."
     ]
   },
+  "shape-stretcher": {
+    "name": "Figursträckaren",
+    "slug": "figurstrackaren-att-snurra-andrar-ingenting-att-vinkla-gor-det-ak-1",
+    "tagline": "Snurra figuren hur mycket ni vill — ingenting lossnar. Vinkla den och en markering lossnar: att luta och att skeva ser likadant ut, och bara det ena lämnar er en annan figur.",
+    "metaTitle": "Figursträckaren — att snurra ändrar ingenting, att vinkla gör det, åk 1",
+    "metaDescription": "Gratis tavelverktyg: en figur i fönstret, två markeringar — alla sidor lika långa, och räta hörn — och tre reglage: sträck, vinkla, snurra. Att snurra lossar aldrig en markering. Att vinkla gör det. Låt en figur stå kvar bredvid, så syns båda samtidigt.",
+    "about": [
+      "Ett fönster med en figur i och två markeringar som sitter på figuren: den ena säger att alla sidor är lika långa, den andra att hörnen är räta. Tre reglage flyttar figuren — sträck, vinkla, snurra — och markeringarna svarar. Att snurra är det reglage som aldrig ändrar någonting, och det har inga hack alls, för ett hack markerar stället där ett överskridande får en markering att lossna, och på det reglaget finns inget sådant ställe. Apparaten säger det med sin egen uppbyggnad, innan någon har rört den.",
+      "Att vinkla är en helt annan sak. Vinkla tillräckligt långt och markeringen för de räta hörnen lossnar: kvar står en figur med fyra lika långa sidor som inte längre är en kvadrat. Det är för den skillnaden fönstret är byggt: att luta och att skeva får båda kvadraten att stå snett, och bara det ena kostar något. På andra ställen här kommer figuren redan lutad eller sträckt och klassen avgör vilken låda den hör hemma i; här är det klassen som gör förändringen och ser gränsen passeras.",
+      "Att en lutande kvadrat känns igen sämre än en upprätt har observerats hos barn på trettio månader, alltså långt före all skolgång: det uppstår inte i klassrummet, och ingen har visat vad det beror på. Låter ni en figur stå kvar står den bredvid den ni håller på med, så att två figurer jämförs sida vid sida i stället för att minnas den ena efter den andra. Ingenting markeras som rätt eller fel: en markering rapporterar en egenskap och kommer tillbaka precis lika högljutt som den försvann — samma färg, samma väg. Det finns inga poäng och ingen klocka. Den här rutinen är forskningsbaserad, men inte evidensbaserad: vi beskriver vad apparaten gör och hävdar ingen uppmätt effekt.",
+      "Hela apparaten är gratis — alla figurer, alla tre reglagen, markeringarna och att låta en figur stå kvar bredvid. Lärarplanen lägger till arbetsbladet, som visar det klassen lämnade kvar i fönstret och linjer att skriva på."
+    ],
+    "howToUse": [
+      "Ta fram en figur och snurra den, gärna ett helt varv. Fråga vad som hände med markeringarna. Ingenting — och det reglaget har inga hack, så apparaten säger det redan innan ni gör det.",
+      "Ta nu reglaget för att vinkla och rör det långsamt. Stanna i samma stund som en markering lossnar och fråga vad som fortfarande är sant om den här figuren och vad som har slutat vara sant.",
+      "Låt den figuren stå kvar och för tillbaka den andra tills markeringen sitter på igen. Nu står de sida vid sida i samma fönster, och det är hela poängen: de jämförs, de minns inte den ena efter den andra.",
+      "Ge klassen en uppgift: få alla markeringar att sitta kvar samtidigt. Sedan en svårare — få exakt en att lossna, och bara en."
+    ],
+    "classroomIdeas": [
+      "Två minuter för att öppna lektionen: en figur snurrad ett helt varv och sedan vinklad tills en markering lossnar. En mening på tavlan om vad som ändrades och vad som inte gjorde det.",
+      "Ta en gissning innan reglaget rörs — tappar den här en markering? — och skriv upp alla gissningar innan något händer.",
+      "Ställ om fönstret till tre sidor. I hela apparaten finns exakt två inställningar som lägger ett rätt hörn i en tresidig figur, och att hitta dem är en riktig jakt."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

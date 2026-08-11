@@ -1489,6 +1489,30 @@
       "Use the same starting count twice — once with something coming in, once with something going out. The only difference is the pulse, and it is worth asking what the class actually saw."
     ]
   },
+  "shape-stretcher": {
+    "name": "The Shape Stretcher",
+    "slug": "shape-stretcher-turning-changes-nothing-leaning-does-grade-1",
+    "tagline": "Turn a shape as far round as you like and nothing lets go. Lean it and a tag does — a tilt and a skew look alike, and only one of them hands you a different shape.",
+    "metaTitle": "The Shape Stretcher — turning changes nothing, leaning does, Grade 1",
+    "metaDescription": "Free whiteboard tool: one shape on a pane, two tags — every side the same length, and square corners — and three tracks. Turning never lets a tag go. Leaning does. Keep a shape beside the one in your hand and hold both at once.",
+    "about": [
+      "A pane with a shape on it and two tags hanging from the shape: one says every side is the same length, the other says the corners are square. Three tracks move the shape — stretch it, lean it, turn it — and the tags answer. Turning is the track that never changes anything, and the turn dial carries no notches at all, because a notch marks a place where crossing lets a tag go and on that dial there is no such place. The apparatus says so in its own furniture, before anyone touches it.",
+      "Leaning is a different business. Lean far enough and the tag for square corners lets go, and what is left is a shape with four sides all the same length that is no longer a square. That is the distinction the pane is built for: a tilt and a skew both make a square lean over, and only one of them costs you anything. Elsewhere on this site a shape arrives already tilted or stretched and the class decides which bin it belongs in; here the class performs the change itself and watches the boundary being crossed.",
+      "That a leaning square is recognised less readily than an upright one has been observed in children as young as thirty months, before any schooling at all, so it is not something a classroom produces — and no one has shown what does produce it. Keep a shape and it stands on the pane beside the one under your hand, so two shapes are compared side by side rather than remembered one after the other. Nothing is marked right or wrong: a tag reports a property and comes back on exactly as loudly as it went off, in the same colour, over the same distance. There are no points and no clock. This routine is research-based, not evidence-based — we describe what the apparatus does and claim no measured effect for it.",
+      "Everything on the pane is free: both shapes, all three tracks, the tags, the kept shape and as many new shapes as the class wants. The Teacher plan adds the printed sheet, which carries the shapes the class left on the pane and ruled lines to write on."
+    ],
+    "howToUse": [
+      "Deal a shape and turn it, right round if anyone asks for it. Ask what happened to the tags. Nothing did — and there are no notches on that dial, which is the apparatus saying as much before you say it.",
+      "Now take the lean track and move it slowly. Stop the moment a tag lets go, and ask what is still true about this shape and what has stopped being true.",
+      "Keep that shape, then move the other one back until the tag comes on again. The two now stand side by side on the same pane, which is the whole point: they are compared, not remembered one after the other.",
+      "Set the class a task: make every tag hold at once. Then a harder one — break exactly one tag, and only one."
+    ],
+    "classroomIdeas": [
+      "Two minutes to open a lesson: one shape turned right round, then leaned until something lets go. One sentence on the board about what changed and what did not.",
+      "Take a prediction before the track moves — will this one lose a tag? — and write every prediction up before anything happens.",
+      "Switch the pane to three sides. Exactly two settings in the whole apparatus put a square corner into a three-sided shape, and finding them is a real hunt."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

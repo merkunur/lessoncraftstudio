@@ -1478,6 +1478,30 @@
       "Bruk det samme starttallet to ganger: én gang kommer det noe inn, én gang går det noe ut. Det eneste som skiller, er bølgen — og det er verdt å spørre hva klassen faktisk så."
     ]
   },
+  "shape-stretcher": {
+    "name": "Figuren som blir skjev",
+    "slug": "figuren-som-blir-skjev-a-dreie-endrer-ingenting-1-trinn",
+    "tagline": "Drei figuren så mye du vil — ingenting slipper. Gjør den skjev, og et merke slipper: å vippe og å forskyve ser like ut, og bare det ene gir deg en annen figur.",
+    "metaTitle": "Figuren som blir skjev — å dreie endrer ingenting, 1. trinn",
+    "metaDescription": "Gratis tavleverktøy: én figur på flata, to merker — alle sider like lange, og rette hjørner — og tre baner: strekk, skjev, drei. Å dreie slipper aldri et merke. Å gjøre den skjev gjør det. Behold én figur på flata, så ser dere begge samtidig.",
+    "about": [
+      "En flate med en figur på og to merker som henger i figuren: det ene sier at alle sidene er like lange, det andre at hjørnene er rette. Tre baner flytter figuren — strekk, skjev, drei — og merkene svarer. Å dreie er banen som aldri endrer noe, og dreieknappen har ingen hakk i det hele tatt, for et hakk markerer stedet der en kryssing får et merke til å slippe, og på den knappen finnes ikke det stedet. Apparatet sier det med sin egen oppbygning, før noen har rørt det.",
+      "Å gjøre figuren skjev er en helt annen sak. Gjør den skjev nok, og merket for de rette hjørnene slipper: igjen står en figur med fire like lange sider som ikke lenger er et kvadrat. Det er for den forskjellen flata er bygd: å vippe og å forskyve får begge kvadratet til å stå skjevt, og bare det ene koster noe. Andre steder her kommer figuren allerede vippet eller strukket, og klassen avgjør hvilken kasse den hører hjemme i; her er det klassen som gjør endringen og ser grensen bli krysset.",
+      "At et skjevt kvadrat kjennes igjen dårligere enn et som står rett opp, er observert hos barn på tretti måneder, altså lenge før all skolegang: det oppstår ikke i klasserommet, og ingen har vist hva det kommer av. Beholder dere en figur, blir den stående på flata ved siden av den dere holder på med, slik at to figurer sammenlignes side om side i stedet for å huskes én etter én. Ingenting merkes som riktig eller galt: et merke melder en egenskap og kommer tilbake nøyaktig like høylytt som det forsvant — samme farge, samme vei. Det finnes ingen poeng og ingen klokke. Denne rutinen er forskningsbasert, men ikke evidensbasert: vi beskriver hva apparatet gjør, og hevder ingen målt effekt.",
+      "Hele apparatet er gratis: figurene, alle tre — strekk, skjev og drei — merkene og figuren du beholder. Lærerabonnementet legger til arket til utskrift, med flata slik klassen forlot den og linjer å skrive på."
+    ],
+    "howToUse": [
+      "Hent en figur og drei den, gjerne en hel runde. Spør hva som skjedde med merkene. Ingenting — og den knappen har ingen hakk, så apparatet sier det allerede før dere gjør det.",
+      "Ta nå banen som gjør figuren skjev, og beveg den sakte. Stopp i det samme et merke slipper, og spør hva som fremdeles er sant om denne figuren, og hva som har sluttet å være det.",
+      "Behold den figuren, og før den andre tilbake til merket holder igjen. Nå står de side om side på samme flate, og det er hele poenget: de sammenlignes, de huskes ikke én etter én.",
+      "Gi klassen en oppgave: få alle merkene til å holde samtidig. Deretter en vanskeligere — få nøyaktig ett til å slippe, og bare ett."
+    ],
+    "classroomIdeas": [
+      "To minutter til å åpne timen: en figur dreid en hel runde og deretter gjort skjev til et merke slipper. Én setning på tavla om hva som endret seg, og hva som ikke gjorde det.",
+      "Ta en gjetning før banen beveges — mister denne et merke? — og skriv opp alle gjetningene før noe som helst skjer.",
+      "Still flata om til tre sider. I hele apparatet finnes det nøyaktig to innstillinger som legger et rett hjørne i en tresidig figur, og å finne dem er en ekte jakt."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

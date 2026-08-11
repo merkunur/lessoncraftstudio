@@ -1476,6 +1476,30 @@
       "Usa el mismo recuento inicial dos veces: una con algo que entra y otra con algo que sale. Lo único distinto es el pulso, y conviene preguntar qué vio la clase exactamente."
     ]
   },
+  "shape-stretcher": {
+    "name": "La figura de goma",
+    "slug": "la-figura-de-goma-girar-no-cambia-nada-inclinar-si-primaria-1",
+    "tagline": "Giren la figura todo lo que quieran: no se suelta nada. Inclínenla y una marca se suelta — ladear y sesgar se parecen, y solo uno de los dos les deja otra figura.",
+    "metaTitle": "La figura de goma — girar no cambia nada, inclinar sí, 1.º de primaria",
+    "metaDescription": "Herramienta de pizarra gratuita: una figura en la lámina, dos marcas — lados iguales y esquinas rectas — y tres mandos: estirar, inclinar y girar. Girar no suelta nunca una marca. Inclinar sí. Dejen una figura al lado y verán las dos a la vez.",
+    "about": [
+      "Una lámina con una figura encima y dos marcas puestas en ella: una dice que todos los lados miden lo mismo, la otra que las esquinas son rectas. Tres mandos mueven la figura — estirarla, inclinarla, girarla — y las marcas responden. Girar es el mando que nunca cambia nada, y no lleva ninguna muesca, porque una muesca señala el punto en el que cruzar suelta una marca y en ese mando ese punto no existe. El aparato lo dice con su propia forma, antes de que nadie lo toque.",
+      "Inclinar es otra cosa. Inclinen lo suficiente y se suelta la marca de las esquinas rectas: queda una figura con cuatro lados iguales que ya no es un cuadrado. Para esa distinción está hecha la lámina: ladear y sesgar dejan los dos el cuadrado torcido, y solo uno de ellos cuesta algo. En otras partes de este sitio la figura llega ya ladeada o estirada y la clase decide en qué caja va; aquí es la clase la que hace el cambio y ve cómo se cruza la frontera.",
+      "Que un cuadrado torcido se reconozca peor que uno derecho se ha observado en niños de treinta meses, mucho antes de cualquier escolarización: no lo produce el aula, y nadie ha demostrado qué lo produce. Al dejar una figura al lado, se queda en la lámina junto a la que tienen en la mano, de modo que se comparan dos figuras lado a lado en vez de recordarlas una detrás de otra. Nada se marca como bien ni como mal: una marca informa de una propiedad y vuelve exactamente con la misma fuerza con la que se fue, mismo color, mismo recorrido. No hay puntos ni reloj. Esta rutina está basada en la investigación, no en evidencia de eficacia: describimos lo que hace el aparato y no afirmamos ningún efecto medido.",
+      "Todo el aparato es gratis: cualquier figura, estirarla, inclinarla y girarla, las marcas y la figura que dejan al lado. El plan Docente añade la hoja impresa, con lo que la clase dejó en la lámina y líneas para escribir."
+    ],
+    "howToUse": [
+      "Tomen una figura y gírenla, una vuelta entera si alguien lo pide. Pregunten qué les ha pasado a las marcas. Nada — y ese mando no tiene muescas, así que el aparato ya lo dice antes que ustedes.",
+      "Ahora tomen el mando de inclinar y muévanlo despacio. Paren justo cuando se suelte una marca y pregunten qué sigue siendo verdad de esta figura y qué ha dejado de serlo.",
+      "Dejen esa figura al lado y devuelvan la otra hasta que la marca se ponga otra vez. Ahora las dos están una junto a la otra en la misma lámina, y de eso se trata: se comparan, no se recuerdan una detrás de otra.",
+      "Pónganle una tarea a la clase: que todas las marcas se sostengan a la vez. Después una más difícil: soltar exactamente una, y solo una."
+    ],
+    "classroomIdeas": [
+      "Dos minutos para empezar la clase: una figura girada una vuelta entera y luego inclinada hasta que se suelte una marca. Una frase en la pizarra sobre qué cambió y qué no.",
+      "Pidan una predicción antes de mover el mando — ¿esta perderá una marca? — y escríbanlas todas antes de que ocurra nada.",
+      "Cambien la lámina a tres lados. En todo el aparato hay exactamente dos ajustes que meten una esquina recta en una figura de tres lados, y encontrarlos es una búsqueda de verdad."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

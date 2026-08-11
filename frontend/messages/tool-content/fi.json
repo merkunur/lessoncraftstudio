@@ -1456,6 +1456,30 @@
       "Käyttäkää samaa aloitusmäärää kahdesti: kerran jotakin tulee lisää, kerran jotakin lähtee pois. Ainoa ero on aalto — ja kannattaa kysyä, mitä luokka todella näki."
     ]
   },
+  "shape-stretcher": {
+    "name": "Muodonmuuttaja",
+    "slug": "muodonmuuttaja-kiertaminen-ei-muuta-mitaan-vinouttaminen-muuttaa-1-luokka",
+    "tagline": "Kierrä muotoa niin paljon kuin haluat: muoto pysyy samana. Vinouta sitä, ja lipuke irtoaa — kallistaminen ja vääntäminen näyttävät samalta, ja vain toinen niistä jättää käteen toisen muodon.",
+    "metaTitle": "Muodonmuuttaja — kiertäminen ei muuta mitään, vinouttaminen muuttaa, 1. luokka",
+    "metaDescription": "Ilmainen taulutyökalu: yksi muoto pinnalla, kaksi lipuketta — kaikki sivut yhtä pitkät ja suorat kulmat — ja kolme säädintä: litistä, vinouta, kierrä. Kiertäminen ei irrota lipuketta koskaan. Vinouttaminen irrottaa. Jätä yksi muoto viereen, niin näet kaksi kerralla.",
+    "about": [
+      "Pinta, jolla on yksi muoto, ja kaksi lipuketta kiinni muodossa: toinen sanoo, että kaikki sivut ovat yhtä pitkät, toinen että kulmat ovat suoria. Kolme säädintä liikuttaa muotoa — litistä, vinouta, kierrä — ja lipukkeet vastaavat. Kiertäminen on se säädin, joka ei muuta koskaan mitään, eikä siinä ole yhtään lovea, sillä lovi merkitsee kohtaa, jossa ylittäminen irrottaa lipukkeen, ja siinä säätimessä sellaista kohtaa ei ole. Laite sanoo tämän omalla rakenteellaan, ennen kuin kukaan koskee siihen.",
+      "Vinouttaminen on aivan toinen asia. Vinouta tarpeeksi, ja suorien kulmien lipuke irtoaa: jäljelle jää muoto, jossa on neljä yhtä pitkää sivua mutta joka ei ole enää neliö. Juuri tätä eroa varten pinta on rakennettu: kallistaminen ja vääntäminen saavat molemmat neliön nojalleen, ja vain toinen niistä maksaa jotakin. Muualla tällä sivustolla muoto saapuu jo kallistettuna tai litistettynä ja luokka päättää, mihin laatikkoon se kuuluu; täällä luokka tekee muutoksen itse ja näkee rajan ylittyvän.",
+      "Se, että nojallaan oleva neliö tunnistetaan huonommin kuin pystyssä oleva, on havaittu jo kolmenkymmenen kuukauden ikäisillä lapsilla, siis kauan ennen mitään koulunkäyntiä: se ei synny luokkahuoneessa, eikä kukaan ole osoittanut, mistä se syntyy. Kun jätät muodon viereen, se jää pinnalle kädessä olevan viereen, jolloin kahta muotoa verrataan vierekkäin sen sijaan, että ne muistettaisiin peräkkäin. Mitään ei merkitä oikeaksi tai vääräksi: lipuke kertoo ominaisuuden ja palaa täsmälleen yhtä äänekkäästi kuin se lähti — sama väri, sama matka. Pisteitä ei ole eikä kelloa. Tämä rutiini on tutkimukseen perustuva, ei vaikuttavuusnäyttöön perustuva: kuvaamme, mitä laite tekee, emmekä väitä sillä olevan mitattua vaikutusta.",
+      "Koko väline on ilmainen: kaikki muodot, kaikki kolme säädintä, lipukkeet ja viereen jätetty muoto. Opettajatilaus lisää tulostettavan arkin, jossa näkyvät pinnalle jätetyt muodot ja rivit kirjoittamista varten."
+    ],
+    "howToUse": [
+      "Ota muoto esiin ja kierrä sitä, vaikka kokonainen kierros. Kysy, mitä lipukkeille tapahtui. Ei mitään — eikä siinä säätimessä ole loveja, joten laite sanoo sen jo ennen sinua.",
+      "Ota nyt vinouttamisen säädin ja liikuta sitä hitaasti. Pysähdy sillä hetkellä, kun lipuke irtoaa, ja kysy, mikä tästä muodosta on yhä totta ja mikä on lakannut olemasta.",
+      "Jätä tuo muoto viereen ja vie toinen takaisin, kunnes lipuke pitää jälleen. Nyt ne ovat vierekkäin samalla pinnalla, ja siitä on kyse: niitä verrataan, ei muisteta peräkkäin.",
+      "Anna luokalle tehtävä: saa kaikki lipukkeet pitämään yhtä aikaa. Sitten vaikeampi — irrota täsmälleen yksi, ja vain yksi."
+    ],
+    "classroomIdeas": [
+      "Kaksi minuuttia tunnin aluksi: yksi muoto kierretään kokonainen kierros ja vinoutetaan sitten, kunnes lipuke irtoaa. Yksi lause taululle siitä, mikä muuttui ja mikä ei.",
+      "Ota arvaus ennen kuin säädintä liikutetaan — irtoaako tästä lipuke? — ja kirjoita kaikki arvaukset näkyviin ennen kuin mitään tapahtuu.",
+      "Vaihda pinta kolmisivuiseksi. Koko laitteessa on täsmälleen kaksi asetusta, jotka tuovat suoran kulman kolmisivuiseen muotoon, ja niiden löytäminen on aitoa etsintää."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

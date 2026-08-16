@@ -121,6 +121,14 @@ const srv = http.createServer((rq, rs) => {
     await p.evaluate(() => { const T = window.RoundingHill; T.st = T.again(T.st, T.st.hi); T.render(); });
     await p.evaluate(() => document.querySelector('.rnh-b-r1').click());  /* refuse at the high dip */
     await new Promise(r => setTimeout(r, 250));
+    /* ⭐ THE GROUND-SHIFT ARROWS. Force the TOP edge, press UP (refused →
+       the saidGroundEdge announcement, a branch a lazy driver never
+       enters), then press DOWN for a real shift. */
+    await p.evaluate(() => { const T = window.RoundingHill; T.st = { unit: T.st.unit, lo: T.st.unit * 9, hi: T.st.unit * 10, at: T.st.unit * 9, phase: 'held', rest: null, tilt: 0 }; T.render(); });
+    await p.evaluate(() => document.querySelector('.rnh-b-gu').click());  /* refused at the top */
+    await new Promise(r => setTimeout(r, 250));
+    await p.evaluate(() => document.querySelector('.rnh-b-gd').click());  /* a real shift down */
+    await new Promise(r => setTimeout(r, 300));
     await p.evaluate(() => { const g = document.querySelector('.lcs-btn-settings, [aria-label*="etting"], .lcs-settings-btn'); if (g) g.click(); });
     await new Promise(r => setTimeout(r, 260));
     await p.evaluate(() => { const T = window.RoundingHill; T.premium = true; T._paint(); });

@@ -1,8 +1,10 @@
 /* =====================================================================
    TOOL #52 — THE ROUNDING HILL — the ten non-English string sets
    =====================================================================
-   Rebuilt per locale by a native panel, never translated. Same 36 keys,
-   same {n} / {d} placeholders in every set.
+   Rebuilt per locale by a native panel, never translated. Same 39 keys
+   (36 + the three "shift the ground" keys groundLower / groundHigher /
+   saidGroundEdge added when the teacher-adjustable range shipped), same
+   {n} / {d} placeholders in every set (the three new keys carry none).
 
    ⭐ ROUND 2 (36 keys). Four keys were added to carry the audit fixes, and
    FIVE existing strings changed underneath these sets — only three were
@@ -169,6 +171,8 @@ module.exports = {
     tiltUp: 'Den Grat zur oberen Mulde neigen',
     clearTilt: 'Die Zahl wird jetzt für etwas anderes gebraucht – den Grat wieder gerade stellen',
     again: 'Neuer Brocken',
+    groundLower: 'Den ganzen Hügel zu kleineren Zahlen schieben',
+    groundHigher: 'Den ganzen Hügel zu größeren Zahlen schieben',
 
     saidSet: '{n}',
     saidSettled: '{n} rollt in die Mulde {d}.',
@@ -180,6 +184,7 @@ module.exports = {
     saidAlreadySet: 'Der Grat ist schon in diese Richtung geneigt.',
     saidTiltClearOff: 'Der Grat steht wieder gerade. Der nächste Brocken, der darauf landet, wackelt.',
     saidEdge: 'Das Gelände endet bei {n}.',
+    saidGroundEdge: 'Weiter reicht das Gelände nicht.',
 
     gateTitle: 'Das Gelände aus Papier',
     gateBody: 'Das ganze Gerät ist kostenlos – jeder Abhang, das Wackeln und das Neigen des Grats. Das Lehrkraft-Abo ergänzt das Gelände aus Papier zum Ausschneiden und Falten: Es steht auf dem Tisch, und ein Kind kann einen echten Brocken auf den Grat legen und sehen, dass er wirklich liegen bleibt.',
@@ -214,6 +219,8 @@ module.exports = {
     tiltUp: 'Faire pencher la crête vers la cuvette du haut',
     clearTilt: "Le nombre sert à autre chose maintenant – remettre la crête droite",
     again: 'Un autre caillou',
+    groundLower: 'Déplacer toute la colline vers des nombres plus petits',
+    groundHigher: 'Déplacer toute la colline vers des nombres plus grands',
 
     saidSet: '{n}',
     saidSettled: '{n} descend dans la cuvette {d}.',
@@ -225,6 +232,7 @@ module.exports = {
     saidAlreadySet: 'La crête penche déjà de ce côté.',
     saidTiltClearOff: "La crête est de nouveau droite. Le prochain caillou qui s'y arrêtera hésitera.",
     saidEdge: "Le terrain s'arrête à {n}.",
+    saidGroundEdge: 'Le terrain ne va pas plus loin.',
 
     gateTitle: 'Le terrain en papier',
     gateBody: "Tout l'appareil est gratuit : chaque pente, l'hésitation et le réglage de la crête. L'Abonnement Enseignant ajoute le terrain en papier à découper et à plier, qui tient debout sur une table : un enfant peut poser un vrai caillou sur la crête et voir qu'il ne tombe vraiment pas.",
@@ -259,6 +267,8 @@ module.exports = {
     tiltUp: 'Inclinar la cresta hacia la hondonada de arriba',
     clearTilt: 'Ahora el número sirve para otra cosa: dejar la cresta recta otra vez',
     again: 'Otro guijarro',
+    groundLower: 'Mover toda la colina hacia números más bajos',
+    groundHigher: 'Mover toda la colina hacia números más altos',
 
     saidSet: '{n}',
     saidSettled: '{n} baja hasta la hondonada {d}.',
@@ -270,6 +280,7 @@ module.exports = {
     saidAlreadySet: 'La cresta ya está inclinada hacia ese lado.',
     saidTiltClearOff: 'La cresta vuelve a estar recta. El próximo guijarro que quede sobre ella se balanceará.',
     saidEdge: 'El terreno termina en {n}.',
+    saidGroundEdge: 'El terreno no llega más lejos.',
 
     gateTitle: 'El terreno de papel',
     gateBody: 'Todo el aparato es gratuito: cada ladera, el balanceo y la inclinación de la cresta. El Plan Docente añade el terreno de papel para recortar y plegar, que se sostiene sobre la mesa: un niño puede poner un guijarro de verdad sobre la cresta y ver que de verdad no cae.',
@@ -304,6 +315,8 @@ module.exports = {
     tiltUp: 'Inclinar a crista para a cova de cima',
     clearTilt: 'Agora o número serve para outra coisa — deixar a crista reta de novo',
     again: 'Outro seixo',
+    groundLower: 'Mover a colina inteira para números menores',
+    groundHigher: 'Mover a colina inteira para números maiores',
 
     saidSet: '{n}',
     saidSettled: '{n} desce até a cova {d}.',
@@ -315,6 +328,7 @@ module.exports = {
     saidAlreadySet: 'A crista já está inclinada para esse lado.',
     saidTiltClearOff: 'A crista está reta de novo. O próximo seixo que parar sobre ela vai ficar balançando.',
     saidEdge: 'O terreno termina em {n}.',
+    saidGroundEdge: 'O terreno não vai mais longe.',
 
     gateTitle: 'O terreno de papel',
     gateBody: 'O aparelho inteiro é gratuito: cada ladeira, o balanço e a inclinação da crista. O Plano Professor acrescenta o terreno de papel para recortar e dobrar, que fica em pé na mesa: a criança pode colocar um seixo de verdade sobre a crista e ver que ele realmente não cai.',
@@ -349,6 +363,8 @@ module.exports = {
     tiltUp: 'Inclina la cresta verso la conca più alta',
     clearTilt: 'Ora il numero serve per altro – rimetti la cresta dritta',
     again: 'Un altro ciottolo',
+    groundLower: 'Sposta tutta la collina verso numeri più piccoli',
+    groundHigher: 'Sposta tutta la collina verso numeri più grandi',
 
     saidSet: '{n}',
     saidSettled: '{n} scende nella conca {d}.',
@@ -360,6 +376,7 @@ module.exports = {
     saidAlreadySet: 'La cresta pende già da quella parte.',
     saidTiltClearOff: 'La cresta è di nuovo dritta. Il prossimo ciottolo che si fermerà lì oscillerà.',
     saidEdge: 'Il terreno finisce a {n}.',
+    saidGroundEdge: 'Il terreno non va oltre.',
 
     gateTitle: 'Il terreno di carta',
     gateBody: "Tutto l'apparecchio è gratuito: ogni pendio, l'oscillazione e l'inclinazione della cresta. Il Piano Insegnante aggiunge il terreno di carta da ritagliare e piegare, che sta in piedi sul banco: un bambino può posare un ciottolo vero sulla cresta e vedere che davvero non cade.",
@@ -394,6 +411,8 @@ module.exports = {
     tiltUp: 'De bult naar de bovenste kuil laten hellen',
     clearTilt: 'Het getal dient nu voor iets anders — de bult weer recht zetten',
     again: 'Nog een kei',
+    groundLower: 'De hele heuvel naar lagere getallen schuiven',
+    groundHigher: 'De hele heuvel naar hogere getallen schuiven',
 
     saidSet: '{n}',
     saidSettled: '{n} rolt in kuil {d}.',
@@ -405,6 +424,7 @@ module.exports = {
     saidAlreadySet: 'De bult helt al naar die kant.',
     saidTiltClearOff: 'De bult staat weer recht. De volgende kei die erop belandt, gaat wiebelen.',
     saidEdge: 'De grond houdt op bij {n}.',
+    saidGroundEdge: 'Verder reikt de grond niet.',
 
     gateTitle: 'De papieren grond',
     gateBody: 'Het hele apparaat is gratis: elke helling, het wiebelen en het instellen van de bult. Het Leerkracht-abonnement voegt de papieren grond toe om uit te knippen en te vouwen, zodat hij op tafel blijft staan en een kind een echte kei op de bult kan leggen en ziet dat hij er echt niet af valt.',
@@ -439,6 +459,8 @@ module.exports = {
     tiltUp: 'Luta krönet mot den högre gropen',
     clearTilt: 'Talet ska användas till något annat nu – räta upp krönet igen',
     again: 'En ny stenbumling',
+    groundLower: 'Flytta hela kullen till lägre tal',
+    groundHigher: 'Flytta hela kullen till högre tal',
 
     saidSet: '{n}',
     saidSettled: '{n} rullar ner i gropen {d}.',
@@ -450,6 +472,7 @@ module.exports = {
     saidAlreadySet: 'Krönet lutar redan åt det hållet.',
     saidTiltClearOff: 'Krönet är rakt igen. Nästa stenbumling som hamnar där kommer att vackla.',
     saidEdge: 'Marken tar slut vid {n}.',
+    saidGroundEdge: 'Längre än så når inte marken.',
 
     gateTitle: 'Marken i papper',
     gateBody: 'Hela apparaten är gratis – varje sluttning, vacklandet och att luta krönet. Lärarplanen lägger till marken i papper att klippa ut och vika, så att den står på bordet och ett barn kan lägga en riktig stenbumling på krönet och se att den verkligen ligger kvar.',
@@ -484,6 +507,8 @@ module.exports = {
     tiltUp: 'Hæld højderyggen mod den højere fordybning',
     clearTilt: 'Tallet skal bruges til noget andet nu – ret højderyggen op igen',
     again: 'En ny kampesten',
+    groundLower: 'Flyt hele højen til lavere tal',
+    groundHigher: 'Flyt hele højen til højere tal',
 
     saidSet: '{n}',
     saidSettled: '{n} ruller ned i fordybningen {d}.',
@@ -495,6 +520,7 @@ module.exports = {
     saidAlreadySet: 'Højderyggen hælder allerede den vej.',
     saidTiltClearOff: 'Højderyggen er rank igen. Den næste kampesten, der lander på den, vakler.',
     saidEdge: 'Terrænet stopper ved {n}.',
+    saidGroundEdge: 'Længere når terrænet ikke.',
 
     gateTitle: 'Papirterrænet',
     gateBody: 'Hele apparatet er gratis – hver skråning, vaklen og det at hælde højderyggen. Lærerabonnementet tilføjer papirterrænet til at klippe ud og folde, så det står på bordet, og et barn kan lægge en rigtig kampesten på højderyggen og se, at den virkelig bliver liggende.',
@@ -529,6 +555,8 @@ module.exports = {
     tiltUp: 'Hell høyderyggen mot den høyere gropa',
     clearTilt: 'Tallet skal brukes til noe annet nå – rett opp høyderyggen igjen',
     again: 'En ny kampestein',
+    groundLower: 'Flytt hele kollen til lavere tall',
+    groundHigher: 'Flytt hele kollen til høyere tall',
 
     saidSet: '{n}',
     saidSettled: '{n} triller ned i gropa {d}.',
@@ -540,6 +568,7 @@ module.exports = {
     saidAlreadySet: 'Høyderyggen heller allerede den veien.',
     saidTiltClearOff: 'Høyderyggen er rett igjen. Den neste kampesteinen som havner der, vakler.',
     saidEdge: 'Terrenget slutter ved {n}.',
+    saidGroundEdge: 'Lenger når ikke terrenget.',
 
     gateTitle: 'Papirterrenget',
     gateBody: 'Hele apparatet er gratis – hver skråning, vaklingen og det å helle høyderyggen. Lærerabonnementet legger til papirterrenget til å klippe ut og brette, så det står på pulten, og et barn kan legge en ekte kampestein på høyderyggen og se at den virkelig blir liggende.',
@@ -574,6 +603,8 @@ module.exports = {
     tiltUp: 'Kallista harjanne ylempää kuoppaa kohti',
     clearTilt: 'Lukua tarvitaan nyt johonkin muuhun – suorista harjanne taas tasaiseksi',
     again: 'Uusi lohkare',
+    groundLower: 'Siirrä koko mäki pienempiin lukuihin',
+    groundHigher: 'Siirrä koko mäki suurempiin lukuihin',
 
     saidSet: '{n}',
     saidSettled: '{n} vierii kuoppaan {d}.',
@@ -585,6 +616,7 @@ module.exports = {
     saidAlreadySet: 'Harjanne kallistuu jo siihen suuntaan.',
     saidTiltClearOff: 'Harjanne on taas tasainen. Seuraava harjanteelle jäävä lohkare huojuu.',
     saidEdge: 'Maasto loppuu lukuun {n}.',
+    saidGroundEdge: 'Pidemmälle maasto ei ulotu.',
 
     gateTitle: 'Paperinen maasto',
     gateBody: 'Koko laite on ilmainen – jokainen rinne, huojunta ja harjanteen kallistaminen. Opettajatilaus lisää paperisen maaston, jonka voi leikata ja taittaa pystyyn pöydälle: lapsi voi asettaa oikean lohkareen harjanteelle ja nähdä, ettei se todellakaan lähde liikkeelle.',

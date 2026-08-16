@@ -499,6 +499,34 @@
         fi: 'Uusi lohkare'
       },
 
+      groundLower: {
+        en: 'Shift the whole hill to lower numbers',
+        de: 'Den ganzen Hügel zu kleineren Zahlen schieben',
+        fr: 'Déplacer toute la colline vers des nombres plus petits',
+        es: 'Mover toda la colina hacia números más bajos',
+        pt: 'Mover a colina inteira para números menores',
+        it: 'Sposta tutta la collina verso numeri più piccoli',
+        nl: 'De hele heuvel naar lagere getallen schuiven',
+        sv: 'Flytta hela kullen till lägre tal',
+        da: 'Flyt hele højen til lavere tal',
+        no: 'Flytt hele kollen til lavere tall',
+        fi: 'Siirrä koko mäki pienempiin lukuihin'
+      },
+
+      groundHigher: {
+        en: 'Shift the whole hill to higher numbers',
+        de: 'Den ganzen Hügel zu größeren Zahlen schieben',
+        fr: 'Déplacer toute la colline vers des nombres plus grands',
+        es: 'Mover toda la colina hacia números más altos',
+        pt: 'Mover a colina inteira para números maiores',
+        it: 'Sposta tutta la collina verso numeri più grandi',
+        nl: 'De hele heuvel naar hogere getallen schuiven',
+        sv: 'Flytta hela kullen till högre tal',
+        da: 'Flyt hele højen til højere tal',
+        no: 'Flytt hele kollen til høyere tall',
+        fi: 'Siirrä koko mäki suurempiin lukuihin'
+      },
+
       saidSet: {
 
         en: '{n}',
@@ -640,6 +668,20 @@
         da: 'Terrænet stopper ved {n}.',
         no: 'Terrenget slutter ved {n}.',
         fi: 'Maasto loppuu lukuun {n}.'
+      },
+
+      saidGroundEdge: {
+        en: 'This is as far as the ground goes.',
+        de: 'Weiter reicht das Gelände nicht.',
+        fr: 'Le terrain ne va pas plus loin.',
+        es: 'El terreno no llega más lejos.',
+        pt: 'O terreno não vai mais longe.',
+        it: 'Il terreno non va oltre.',
+        nl: 'Verder reikt de grond niet.',
+        sv: 'Längre än så når inte marken.',
+        da: 'Længere når terrænet ikke.',
+        no: 'Lenger når ikke terrenget.',
+        fi: 'Pidemmälle maasto ei ulotu.'
       },
 
       gateTitle: {
@@ -901,6 +943,26 @@
       return { unit: s.unit, lo: s.lo, hi: s.hi, at: v, phase: 'held', rest: null, tilt: s.tilt };
     },
 
+    /* ⭐ THE TEACHER SHIFTS THE WHOLE GROUND to the next / previous pair
+       of round numbers. dir is -1/+1; the two dips, the ridge and the
+       move grid all slide by one unit. Returns a fresh HELD boulder on
+       the new ground so nothing stale (a rest, a teeter) ever carries
+       across. The class's rule is KEPT — it is about what the numbers
+       are FOR, not about which ground. ⚠ null past the bounds, NEVER a
+       clamp — the ground stops, it does not pile up at the edge. */
+    shiftGround: function (st, dir) {
+      var s = this._st(st);
+      if (dir !== -1 && dir !== 1) return null;
+      var lo = s.lo + dir * s.unit;
+      if (lo < s.unit || lo > s.unit * 9) return null;
+      return {
+        unit: s.unit, lo: lo, hi: lo + s.unit,
+        at: lo + Math.round(s.unit * 0.7),   /* the 70% start, like newState */
+        phase: 'held', rest: null,
+        tilt: s.tilt
+      };
+    },
+
     /* ================= life cycle =================================== */
 
     init: function (api) {
@@ -1041,6 +1103,8 @@
       this._btn.tu = this._mk(bar, 'rnh-b-tu', '↘', 'tiltUp');
       this._btn.tc = this._mk(bar, 'rnh-b-tc', '—', 'clearTilt');
       this._btn.again = this._mk(bar, 'rnh-b-again', '↻', 'again');
+      this._btn.gd = this._mk(bar, 'rnh-b-gd', '⏮', 'groundLower');
+      this._btn.gu = this._mk(bar, 'rnh-b-gu', '⏭', 'groundHigher');
       this._btn.print = this._mk(bar, 'rnh-b-print', '⎙', 'printBtn');
 
       /* ⚠ THE REASON IS COMPUTED, NOT ASSUMED. Passing 'low'/'high'
@@ -1058,6 +1122,8 @@
       this._btn.tu.addEventListener('click', function () { self._tilt(1); });
       this._btn.tc.addEventListener('click', function () { self._tilt(0); });
       this._btn.again.addEventListener('click', function () { self._again(); });
+      this._btn.gd.addEventListener('click', function () { self._shift(-1); });
+      this._btn.gu.addEventListener('click', function () { self._shift(1); });
       this._btn.print.addEventListener('click', function () { self._print(); });
       this._stone.addEventListener('click', function () { if (self.st.phase === 'held') self._release(); });
 
@@ -1142,6 +1208,20 @@
       this.api.announce(this._fmt(this.api.t('saidSet'), { n: this.st.at }));
     },
 
+    /* the teacher nudges the whole hill to the next / previous pair. On a
+       refusal at the bounds it names THE GROUND (not the stone), otherwise
+       it commits the shifted ground and deals a fresh seeded boulder on
+       it — so no stale rest / teeter can survive a shift. */
+    _shift: function (dir) {
+      var next = this.shiftGround(null, dir);
+      if (!next) { this._refuse('groundEdge'); return; }
+      this.st = next;
+      this._deal();
+      this._paint(GEO.T_ARRIVE);
+      this._snd(GEO.SND_SET);
+      this.api.announce(this._fmt(this.api.t('saidSet'), { n: this.st.at }));
+    },
+
     _refuse: function (why) {
       var api = this.api, self = this, a = this._arena, s = this.st;
       this._snd(GEO.SND_REFUSE);
@@ -1159,6 +1239,9 @@
       /* ⚠ and a no-op press on the ridge control is about the RIDGE, not
          about the stone. */
       if (why === 'tilt') { api.announce(api.t(s.tilt === 0 ? 'saidAlreadyLevel' : 'saidAlreadySet')); return; }
+      /* ⚠ the ground ran out — this refusal is about the GROUND's reach,
+         not the stone, so it names how far the ground goes. */
+      if (why === 'groundEdge') { api.announce(api.t('saidGroundEdge')); return; }
       api.announce(api.t('saidAlready'));
     },
 
@@ -1225,6 +1308,8 @@
       this._btn.td.classList.toggle('is-on', s.tilt === -1);
       this._btn.tu.classList.toggle('is-on', s.tilt === 1);
       this._btn.tc.classList.toggle('is-off', s.tilt === 0);
+      this._btn.gd.classList.toggle('is-off', !this.shiftGround(null, -1));
+      this._btn.gu.classList.toggle('is-off', !this.shiftGround(null, 1));
       this._btn.print.classList.toggle('is-paid', !!this.premium);
     },
 
@@ -1373,6 +1458,7 @@
       + '.rnh-btn:focus-visible{outline:3px solid #1E8FD4;outline-offset:2px;}'
       + '.rnh-btn.is-off{opacity:.42;}'
       + '.rnh-btn.is-on{background-color:#146B5E;color:#FBF3E4;}'
+      + '.rnh-b-gd{margin-left:10px;}'
       + '.rnh-b-print{border-style:dashed;margin-left:10px;}'
       + '.rnh-b-print.is-paid{border-style:solid;}'
 

@@ -59,7 +59,7 @@ const READ = () => {
   const fails = [];
   let checks = 0;
 
-  for (const c of [{ w: 360, h: 800 }, { w: 704, h: 900 }, { w: 768, h: 1024 }, { w: 1024, h: 900 }]) {
+  for (const c of [{ w: 320, h: 800 }, { w: 360, h: 800 }, { w: 412, h: 900 }, { w: 704, h: 900 }, { w: 768, h: 1024 }, { w: 1024, h: 900 }]) {
     const p = await b.newPage();
     p.on('pageerror', e => fails.push(`${c.w}: page error ${e.message}`));
     await p.setViewport({ width: c.w, height: c.h });
@@ -76,6 +76,23 @@ const READ = () => {
     if (open.groundD < 200) fails.push(c.w + ": the ground path is " + open.groundD + " chars — it did not draw");
     if (open.stoneTxt !== "47") fails.push(c.w + ": the stone reads " + open.stoneTxt);
     if (!near(open.stoneX, 0.7, 0.03)) fails.push(c.w + ": the stone at 47 is drawn at " + open.stoneX);
+
+    /* ⚠ THE 12-BUTTON BAR — now carrying the two ground-shift arrows —
+       must stay tappable and must not run off the width at ANY viewport.
+       The bar is flex-wrap, so overflow is measured against the window,
+       and every button against the 44px tap floor. */
+    const bar = await p.evaluate(() => {
+      const btns = [].slice.call(document.querySelectorAll('.rnh-btn'));
+      const small = btns.filter(b => { const r = b.getBoundingClientRect(); return r.width < 44 || r.height < 44; }).length;
+      const spill = btns.filter(b => { const r = b.getBoundingClientRect(); return r.right > window.innerWidth + 0.5 || r.left < -0.5; }).length;
+      return { n: btns.length, small: small, spill: spill,
+        hasGd: !!document.querySelector('.rnh-b-gd'), hasGu: !!document.querySelector('.rnh-b-gu') };
+    });
+    checks++;
+    if (!bar.hasGd || !bar.hasGu) fails.push(c.w + ": ⚠ the ground-shift arrows are missing from the bar");
+    if (bar.n < 12) fails.push(c.w + ": only " + bar.n + " bar buttons — expected 12 (two new ground arrows)");
+    if (bar.small) fails.push(c.w + ": ⚠ " + bar.small + " bar button(s) below the 44px tap floor");
+    if (bar.spill) fails.push(c.w + ": ⚠ " + bar.spill + " bar button(s) run off the viewport width");
     await p.screenshot({ path: path.join(OUT, "held-" + c.w + ".png") });
 
     /* let go on a SLOPE: it must run downhill to 50, i.e. to the right */
@@ -128,6 +145,21 @@ const READ = () => {
     if (!near(tilted.stoneX, 1, 0.03)) fails.push(c.w + ": the settled ridge did not send the stone to the high dip");
     if (tilted.teeter) fails.push(c.w + ": still teetering after the class decided");
     await p.screenshot({ path: path.join(OUT, "tilted-" + c.w + ".png") });
+
+    /* ⭐ THE NEW CONTROL: the ground-shift arrows move the WHOLE hill to
+       the next / previous pair, and the dip numerals must follow live —
+       measured from the rendered `.rnh-mark` text, not from the model. */
+    await p.evaluate(() => document.querySelector(".rnh-b-gu").click());
+    await new Promise(r => setTimeout(r, 400));
+    const gUp = await p.evaluate(READ);
+    checks++;
+    if (gUp.marks.join("/") !== "50/60") fails.push(c.w + ": ⭐ shifting the ground up did not move the dips to 50/60 — got " + gUp.marks.join("/"));
+    await p.evaluate(() => document.querySelector(".rnh-b-gd").click());
+    await new Promise(r => setTimeout(r, 400));
+    const gDn = await p.evaluate(READ);
+    checks++;
+    if (gDn.marks.join("/") !== "40/50") fails.push(c.w + ": ⭐ shifting the ground back down did not return the dips to 40/50 — got " + gDn.marks.join("/"));
+    await p.screenshot({ path: path.join(OUT, "shifted-" + c.w + ".png") });
 
     console.log("[" + c.w + "] dips=" + open.marks.join("-") + " ridge@" + open.ridgeX +
       " | 47 held@" + open.stoneX + " -> settled@" + settled.stoneX +

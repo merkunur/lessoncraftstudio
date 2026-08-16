@@ -354,5 +354,80 @@ NEEDED.forEach(k => ok(typeof G[k] === 'number' && isFinite(G[k]), 'L0 GEO.' + k
   eq(T.strings.title.en, 'The Rounding Hill', 'L6 the product name is the operator\'s');
 }
 
+/* ================================================================== */
+/* ⭐ L7 — THE TEACHER SHIFTS THE WHOLE GROUND, and it stays a rounding
+   machine on every pair it lands on. shiftGround walks `lo` by one unit,
+   refuses (null, NEVER a clamp) past the bounds, keeps the class's rule,
+   and — the one that matters — keeps the ridge on the move grid of the
+   NEW ground, so the tool's single lesson (the tie) is never stranded
+   out of reach of the move presses. Nine grounds per span, all named. */
+{
+  let groundsSeen = 0;
+  ['tens', 'hundreds'].forEach(function (span) {
+    const base = T.newState(span);
+    const unit = base.unit;
+
+    /* walks by exactly one unit, both ways; hi follows; unit unchanged */
+    const up = T.shiftGround(base, 1);
+    ok(up !== null, 'L7 shiftGround(+1) refused mid-range on ' + span);
+    eq(up.lo, base.lo + unit, 'L7 +1 did not step lo by one unit on ' + span);
+    eq(up.hi, up.lo + unit, 'L7 the two dips are not one unit apart after a shift on ' + span);
+    eq(up.unit, unit, 'L7 the shift changed the unit on ' + span);
+    const dn = T.shiftGround(base, -1);
+    ok(dn !== null, 'L7 shiftGround(-1) refused mid-range on ' + span);
+    eq(dn.lo, base.lo - unit, 'L7 -1 did not step lo down by one unit on ' + span);
+
+    /* a fresh HELD boulder, so nothing stale (a rest, a teeter) carries */
+    eq(up.phase, 'held', 'L7 a shifted ground is not held on ' + span);
+    eq(up.rest, null, 'L7 a shifted ground carried a resting dip on ' + span);
+    eq(up.at, up.lo + Math.round(unit * 0.7), 'L7 the shifted boulder is not at the 70% start on ' + span);
+
+    /* purity: the input state is untouched (a clone, never a mutation) */
+    eq(base.lo, unit * 4, 'L7 ⚠ shiftGround mutated its input on ' + span);
+
+    /* dir guard: only -1 / +1 are moves — everything else is a refusal */
+    [0, 2, -2, null].forEach(d =>
+      ok(T.shiftGround(base, d) === null, 'L7 shiftGround accepted an out-of-range dir ' + d + ' on ' + span));
+
+    /* the class's rule is kept across a shift — it is about what the
+       numbers are FOR, not about which ground */
+    [-1, 1].forEach(function (dir) {
+      const tilted = T.setTilt(base, dir);
+      ok(tilted !== null, 'L7 setup: setTilt(' + dir + ') refused on ' + span);
+      eq(T.shiftGround(tilted, 1).tilt, dir, 'L7 ⭐ the class rule was lost when the ground shifted on ' + span);
+    });
+
+    /* the whole chain: walk to the low edge, confirm the ground STOPS
+       (null, not a clamp), then step up to the high edge — EXACTLY nine
+       grounds, each one a rounding machine on the move grid */
+    let g = base;
+    while (true) { const x = T.shiftGround(g, -1); if (!x) break; g = x; }
+    ok(T.shiftGround(g, -1) === null, 'L7 ⚠ the ground did not stop going down on ' + span + ' — it clamped');
+    eq(g.lo, unit, 'L7 the low edge is not at one unit on ' + span);
+
+    let chain = 1, prevLo = g.lo;
+    for (;;) {
+      const step = T.step(g);
+      /* ⭐⭐ THE ONE THAT MATTERS: the ridge and the boulder both land on
+         the move grid, so the ridge (the whole lesson) can be reached by
+         presses and _snap stays valid on THIS ground */
+      eq((T.ridge(g) - g.lo) % step, 0, 'L7 ⭐⭐ the ridge is off the move grid on ' + g.lo + '-' + g.hi);
+      eq((g.at - g.lo) % step, 0, 'L7 the boulder is off the move grid on ' + g.lo + '-' + g.hi);
+      eq(g.lo % unit, 0, 'L7 a dip is not a round number on ' + g.lo + '-' + g.hi);
+      eq(g.hi - g.lo, unit, 'L7 the two dips are not one unit apart on ' + g.lo + '-' + g.hi);
+      eq(T.ridge(g), (g.lo + g.hi) / 2, 'L7 the ridge is not halfway on ' + g.lo + '-' + g.hi);
+      groundsSeen++;
+      const x = T.shiftGround(g, 1);
+      if (!x) break;
+      eq(x.lo, prevLo + unit, 'L7 the walk up skipped a ground on ' + span);
+      prevLo = x.lo; g = x; chain++;
+    }
+    ok(T.shiftGround(g, 1) === null, 'L7 ⚠ the ground did not stop going up on ' + span + ' — it clamped');
+    eq(g.lo, unit * 9, 'L7 the high edge is not at nine units on ' + span);
+    eq(chain, 9, 'L7 ⭐ non-vacuity: expected exactly nine grounds on ' + span + ', walked ' + chain);
+  });
+  eq(groundsSeen, 18, 'L7 non-vacuity: expected 18 grounds across both spans, saw ' + groundsSeen);
+}
+
 console.log('\n' + (fails.length ? 'FAIL' : 'PASS') + '  ' + pass + ' assertions, ' + fails.length + ' failures');
 if (fails.length) { fails.slice(0, 30).forEach(f => console.log('  ✗ ' + f)); process.exit(1); }

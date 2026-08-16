@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "ten-stones.add-sub-within-20.1-oa-c-6": {
+      "about": [
+        "Lily é uma rã que atravessa a lagoa aos pulos por uma reta numérica de 0 a 20, e ela tem um truque esperto para pulos grandes. Sempre que precisa somar ou subtrair passando do dez, Lily pula primeiro até a pedra dourada do dez, descansa ali um instante e só então dá o resto do pulo. Para calcular 8 + 6, por exemplo, ela pula 8 + 2 = 10, pousa na pedra dourada e completa com 10 + 4 = 14.",
+        "Nesta atividade a criança pratica formar o dez e passar pelo dez para somar, e também voltar até o dez para subtrair (como em 13 − 4, que vira 13 − 3 = 10 e depois 10 − 1 = 9). No caminho, ela descobre os quase-dobros, aprende a começar pela parcela maior e reconhece a família de fatos, percebendo que 8 + 6 = 14 anda junto com 14 − 6 = 8. É uma habilidade de 2º ano trabalhada de forma concreta na reta numérica.",
+        "A atividade é totalmente grátis e interativa, sem cronômetro, sem pontos e sem competição: ninguém corre contra o relógio nem contra ninguém. Assim a criança tem calma para pensar na estratégia, errar, tentar de novo e entender o porquê de cada pulo. Essa proposta de cálculo com compreensão dialoga com a BNCC, que valoriza os fatos fundamentais e as estratégias de cálculo na unidade temática Números."
+      ],
+      "practices": [
+        "Formar o dez e achar o parceiro do dez de qualquer número (quanto falta para chegar a 10).",
+        "Calcular passando pelo dez ao somar e voltando até o dez ao subtrair, dentro do campo até 20.",
+        "Usar quase-dobros e escolher a ordem das parcelas, começando pela parcela maior.",
+        "Reconhecer a família de fatos e decidir quando é preciso passar pelo dez para calcular."
+      ],
+      "howToPlay": [
+        "Leia a conta que a Lily precisa resolver na reta numérica de 0 a 20.",
+        "Ajude a Lily a pular primeiro até a pedra dourada do dez e depois dar o resto do pulo (na subtração, os pulos voltam até o dez).",
+        "Você pode tentar quantas vezes quiser, com toda a calma: não há tempo, não há pontos, não há competição."
+      ],
+      "learningGoals": [
+        "Compreender a estratégia de passar pelo dez para somar e subtrair até 20.",
+        "Encontrar os parceiros do dez com segurança e calcular atravessando o dez, tanto somando quanto subtraindo.",
+        "Usar estratégias de cálculo (ordem das parcelas, quase-dobros e família de fatos) com compreensão, em vez de contar de um em um — um objetivo de fluência nos fatos fundamentais do 2º ano."
+      ]
+    },
     "clock-digital.read-hour.1-md-b-3": {
       "about": [
         "Sprocket, o galo, dá o primeiro passo na leitura das horas com as crianças: reconhecer a hora em ponto. A cada rodada aparece um relógio de ponteiros marcando uma hora exata, como são três horas em ponto, e a criança toca a hora digital que corresponde.",

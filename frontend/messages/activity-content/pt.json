@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "numbers-court.judge-balance.1-oa-d-7": {
+      "about": [
+        "A juíza Tess é uma tartaruga tranquila que comanda o tribunal dos números, e o seu instrumento de trabalho é uma grande balança. Diante dela desfilam afirmações matemáticas que precisam de um veredito: 3 + 7 = 7 + 3 é verdadeira, porque os dois lados têm a mesma quantidade e a balança fica em equilíbrio. Já 10 = 7 + 2 é falsa, porque um lado tem mais do que o outro e a balança pende.",
+        "No tribunal, a criança dá o veredito de cada sentença — verdadeira ou falsa — e depois mostra na balança qual lado pesa mais, provando a sua decisão. Quando a sentença é falsa, ela ainda pode consertá-la, colocando o número que falta para que os dois lados fiquem iguais e em equilíbrio. Aqui o sinal de igual não quer dizer \"o resultado que vem depois\": ele significa que os dois lados têm a mesma quantidade.",
+        "A atividade é grátis, interativa e sem pressão: não há cronômetro, não há pontos e não há competição — é um jogo calmo de raciocínio, no ritmo de cada criança. Ao brincar de julgar igualdades, ela dá os primeiros passos do pensamento algébrico e prepara o terreno para a matemática dos próximos anos. O foco está na unidade de Álgebra da BNCC, com a ideia de igualdade e o significado do sinal de igual, no nível do 3º ano do Ensino Fundamental."
+      ],
+      "practices": [
+        "Julgar se uma sentença matemática é verdadeira ou falsa.",
+        "Entender o sinal de igual como equilíbrio: os dois lados têm a mesma quantidade.",
+        "Mostrar na balança qual lado pesa mais quando a sentença é falsa.",
+        "Equilibrar uma sentença falsa, colocando o número que falta para que os dois lados fiquem iguais."
+      ],
+      "howToPlay": [
+        "Leia a afirmação da testemunha com calma e observe a balança dos dois lados.",
+        "Dê o seu veredito — verdadeira ou falsa — e depois mostre na balança para provar a sua decisão.",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos: é só pensar com tranquilidade."
+      ],
+      "learningGoals": [
+        "Compreender o sinal de igual de forma relacional — os dois lados iguais, em equilíbrio — e não como \"o resultado que vem depois\".",
+        "Julgar sentenças verdadeiras e falsas com segurança e explicar o porquê.",
+        "Dar os primeiros passos do pensamento algébrico com a ideia de igualdade, um objetivo do 3º ano."
+      ]
+    },
     "ten-stones.add-sub-within-20.1-oa-c-6": {
       "about": [
         "Lily é uma rã que atravessa a lagoa aos pulos por uma reta numérica de 0 a 20, e ela tem um truque esperto para pulos grandes. Sempre que precisa somar ou subtrair passando do dez, Lily pula primeiro até a pedra dourada do dez, descansa ali um instante e só então dá o resto do pulo. Para calcular 8 + 6, por exemplo, ela pula 8 + 2 = 10, pousa na pedra dourada e completa com 10 + 4 = 14.",

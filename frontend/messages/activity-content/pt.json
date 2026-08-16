@@ -192,6 +192,52 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Sprocket, o galo, dá o primeiro passo na leitura das horas com as crianças: reconhecer a hora em ponto. A cada rodada aparece um relógio de ponteiros marcando uma hora exata, como são três horas em ponto, e a criança toca a hora digital que corresponde.",
+        "A atividade fica só nas horas em ponto para que o aprendizado seja claro e sem pressa. Ao observar para onde aponta o ponteiro pequeno — o das horas — enquanto o ponteiro grande está no 12, a criança forma uma ideia firme de como o relógio funciona antes de chegar aos minutos.",
+        "Pensada para o 3º ano do ensino fundamental (por volta dos 8 anos), esta prática apoia a unidade temática Grandezas e medidas da BNCC, em que se aprende a ler e registrar medidas de tempo usando relógios de ponteiros e digitais."
+      ],
+      "practices": [
+        "Reconhecer a hora em ponto num relógio de ponteiros, por exemplo cinco horas em ponto ou nove horas em ponto.",
+        "Observar o ponteiro pequeno (o das horas) para saber que horas são quando o ponteiro grande aponta para o 12.",
+        "Relacionar o relógio de ponteiros com a hora digital correspondente (por exemplo, 7:00) e escolher a opção certa.",
+        "Dizer as horas em voz alta como se fala no Brasil: é uma hora em ponto, são duas horas em ponto, são oito horas em ponto."
+      ],
+      "howToPlay": [
+        "Sprocket mostra um relógio de ponteiros marcando uma hora exata; repare para onde aponta o ponteiro pequeno.",
+        "Toque na hora digital que combina com o relógio, por exemplo 3:00 para são três horas em ponto.",
+        "Se acertar, Sprocket comemora com você; se não, dá para tentar de novo com calma, sem cronômetro e sem pontuação."
+      ],
+      "learningGoals": [
+        "Ler e dizer a hora em ponto num relógio de ponteiros com segurança.",
+        "Distinguir a função do ponteiro pequeno (as horas) e do ponteiro grande (os minutos) quando ele aponta para o 12.",
+        "Ligar o relógio de ponteiros à sua forma digital como primeiro passo para medir o tempo."
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Sprocket, o galo, leva as crianças ao próximo passo na leitura do relógio: além da hora em ponto, agora elas reconhecem a meia hora. O relógio de ponteiros pode marcar são três horas em ponto ou são três e meia, e a criança toca a hora digital que corresponde.",
+        "Aqui já não basta olhar um ponteiro só: é preciso ler os dois. Quando o ponteiro grande aponta para o 12 é hora em ponto; quando aponta para o 6 é e meia. Assim a criança entende que o ponteiro grande marca os minutos e que meia hora vale trinta minutos.",
+        "Voltada para o 3º ano do ensino fundamental (por volta dos 8 anos), esta prática fortalece a unidade temática Grandezas e medidas da BNCC: ler e registrar horários em relógios de ponteiros e digitais, distinguindo 3:00 de 3:30."
+      ],
+      "practices": [
+        "Diferenciar a hora em ponto da meia hora num relógio de ponteiros, por exemplo quatro horas em ponto e quatro e meia.",
+        "Ler os dois ponteiros ao mesmo tempo: o pequeno para as horas e o grande para saber se é em ponto (12) ou e meia (6).",
+        "Relacionar o relógio de ponteiros com a hora digital, distinguindo 3:00 de 3:30.",
+        "Dizer as horas como se fala no Brasil: são três horas em ponto e são três e meia, somando meia hora à hora em curso (lembrando: é uma hora, é uma e meia)."
+      ],
+      "howToPlay": [
+        "Sprocket mostra um relógio de ponteiros que pode estar em ponto ou na meia hora; observe os dois ponteiros com atenção.",
+        "Repare no ponteiro grande: se aponta para o 12 é em ponto e se aponta para o 6 é e meia; depois toque na hora digital certa, como 3:00 ou 3:30.",
+        "Sprocket comemora seus acertos e deixa você tentar de novo com tranquilidade, sem cronômetro e sem pontuação."
+      ],
+      "learningGoals": [
+        "Ler e dizer a hora em ponto e a meia hora num relógio de ponteiros.",
+        "Interpretar juntos o ponteiro pequeno e o grande para localizar tanto a hora quanto os minutos.",
+        "Compreender que meia hora equivale ao ponteiro grande no 6 e expressar isso como são três e meia ao medir o tempo."
+      ]
+    },
     "graph-it.bar-graph.2-md-d-10": {
       "about": [
         "Pip, o esquilo, passou o dia no bosque juntando folhas, bagas, bolotas, pinhas e cogumelos, e anotou cada achado em uma tabela de contagem. Aqui a criança ajuda Pip a transformar essa contagem em um gráfico de barras, subindo cada coluna de uma unidade por vez até ela combinar com tudo o que o esquilo encontrou.",

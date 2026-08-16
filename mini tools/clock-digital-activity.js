@@ -67,6 +67,20 @@
       hintMinute: 'Cuenta las rayitas: cada una es un minuto.',
       srMatchBody: ' {t}. Los relojes muestran: {cs}.',
       srReadBody: ' El reloj marca la hora. {t}. Las opciones son: {ds}.'
+    },
+    /* pt-BR — native ensemble. "relógio de ponteiros"; ponteiro pequeno (horas) / grande (minutos).
+       Só horas + meia hora no #8; hintFive/hintMinute só disparam nas variantes de 2º/3º (en+fr). */
+    pt: {
+      q: 'Que horas são?',
+      qMatch: 'Qual relógio marca esta hora?',
+      win: 'Isso! {t}.',
+      hint: 'Veja para onde aponta o ponteiro curto — essa é a hora.',
+      hintMatch: 'Encontre o relógio cujos ponteiros marcam esta hora.',
+      hintMin: 'Leia os dois ponteiros — o ponteiro grande indica os minutos.',
+      hintFive: 'Conte de 5 em 5 ao redor do relógio — o ponteiro grande indica os minutos.',
+      hintMinute: 'Conte os risquinhos — cada um é um minuto.',
+      srMatchBody: ' {t}. Os relógios mostram: {cs}.',
+      srReadBody: ' O relógio marca a hora. {t}. As opções são: {ds}.'
     }
   };
   var LANG = 'en';
@@ -107,6 +121,18 @@
       if (mm === 30) return 'halb ' + wrapH(hh + 1);
       if (mm === 15) return 'Viertel nach ' + hh;
       if (mm === 45) return 'Viertel vor ' + wrapH(hh + 1);
+      return Core.digitalStr(t);
+    }
+    /* pt-BR — native ensemble. Romance "hora em curso + meia" (3:30 = "são três e meia"; NUNCA o
+       "halb" germânico). Concordância: é (1) vs são (2+); cardinais FEMININOS uma/duas (hora/horas).
+       12:00 = "São doze horas" (não meio-dia — mostrador de 12h sem AM/PM). :45 = "quinze para as". */
+    if (LANG === 'pt') {
+      var HRS = ['', 'uma', 'duas', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze'];
+      var one = (hh === 1), verbo = one ? 'É' : 'São', hp = HRS[hh];
+      if (mm === 0) return one ? 'É uma hora' : verbo + ' ' + hp + ' horas';
+      if (mm === 30) return one ? 'É uma e meia' : verbo + ' ' + hp + ' e meia';
+      if (mm === 15) return one ? 'É uma e quinze' : verbo + ' ' + hp + ' e quinze';
+      if (mm === 45) { var nx = (hh === 12) ? 1 : hh + 1; return nx === 1 ? 'É quinze para a uma' : 'São quinze para as ' + HRS[nx]; }
       return Core.digitalStr(t);
     }
     if (mm === 0) return hh + " o'clock";
@@ -166,8 +192,8 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket' },
-      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.' },
       q: { en: '{q}' }
     },
 

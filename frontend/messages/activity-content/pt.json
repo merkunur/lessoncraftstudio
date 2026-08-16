@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "A Tessa faz mosaicos e precisa da sua ajuda na oficina: cada mosaico é montado com quadradinhos iguais, e a Tessa mostra de quantos quadradinhos ela precisa. Entre três mosaicos desenhados, a criança toca naquele que é feito com o MESMO NÚMERO de quadradinhos — ou seja, o que tem a mesma área. O detalhe esperto é este: um dos mosaicos parece maior por fora, mas tem quadradinhos a menos, então o que vale é CONTAR os quadradinhos, e não se guiar pelo tamanho.",
+        "Brincando, a criança pratica contar quantos quadradinhos formam cada figura e entende que a área é a quantidade de quadradinhos que cobrem o mosaico, não o quanto ele parece grande. Aos poucos, ela aprende a comparar os mosaicos pela quantidade de quadradinhos e a não se enganar quando um contorno maior esconde uma área menor.",
+        "O ateliê de mosaicos da Tessa é uma atividade grátis e interativa, sem cronômetro, sem pontos e sem competição — dá para tentar quantas vezes quiser, no ritmo de cada um. A proposta segue a BNCC, na unidade temática Grandezas e medidas do 3º ano, trabalhando a área por ladrilhamento (contagem de quadradinhos, sem fórmula) de um jeito calmo e concreto."
+      ],
+      "practices": [
+        "Contar quantos quadradinhos formam cada mosaico.",
+        "Comparar os mosaicos pela quantidade de quadradinhos.",
+        "Entender que a área é a quantidade de quadradinhos que cobrem a figura.",
+        "Não se enganar pelo contorno maior — contar os quadradinhos em vez de olhar o tamanho."
+      ],
+      "howToPlay": [
+        "Veja de quantos quadradinhos a Tessa precisa para o mosaico.",
+        "Conte os quadradinhos de cada mosaico e toque no que tem a mesma quantidade.",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos."
+      ],
+      "learningGoals": [
+        "Compreender a área como a quantidade de quadradinhos que cobrem uma figura.",
+        "Medir e comparar áreas contando quadradinhos (ladrilhamento, sem fórmula).",
+        "Perceber que o tamanho aparente pode enganar — a área se conta —, um objetivo de Grandezas e medidas do 3º ano."
+      ]
+    },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
         "O Palmo é uma lagarta-mede-palmos que adora comparar comprimentos: ele mostra duas barras na tela, cada uma com um objeto e o seu comprimento em centímetros (cm). Por exemplo, uma fita de 8 cm e uma corda de 5 cm — a criança percebe que a fita tem 3 cm a mais que a corda. Assim, medir e comparar comprimentos vira uma brincadeira tranquila e cheia de descobertas.",

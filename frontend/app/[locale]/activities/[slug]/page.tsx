@@ -69,9 +69,9 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'clock-digital.read-quarter-hour.2-md-c-7': { fr: '3' },               // FR CE2 — « moins le quart » (référence à l'heure suivante) = attendu CE2, un cran au-dessus des demi-heures CE1; en Grade 2 unchanged
   'clock-digital.read-five-minute.2-md-c-7': { fr: '3' },                // FR CE2 — lire l'heure de 5 en 5 = repère CE2 (la granularité fixe le niveau, lecture digitale « 3 h 20 »); en Grade 2 unchanged
   'clock-digital.match-clocks.2-md-c-7': { fr: '3' },                    // FR CE2 — associer numérique↔aiguilles : l'attendu est fixé par la granularité de lecture (« moins le quart », 5 min), pas par le sens; cohérent avec read-quarter/five-minute CE2; en Grade 2 unchanged
-  'place-value-regroup.subtract-decompose.2-nbt-b-7': { de: '3', fr: '3', es: '3' },        // bis-1000 subtraction (borrow) → DE Klasse 3 / FR CE2 / ES 3er grado (grade_3; el canje = contenido de 3º en México)
-  'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3', fr: '3', es: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3 / FR CE2 / ES 3er grado (grade_3)
-  'place-value-regroup.subtract-decompose-hundred.2-nbt-b-7': { de: '3', fr: '3', es: '3' },// bis-1000 borrow across zero → DE Klasse 3 / FR CE2 / ES 3er grado (grade_3)
+  'place-value-regroup.subtract-decompose.2-nbt-b-7': { de: '3', fr: '3', es: '3', pt: '3' },        // bis-1000 subtraction (borrow) → DE Klasse 3 / FR CE2 / ES 3er grado / PT 3º ano (grade_3; o algoritmo convencional com reagrupamento/desagrupamento é EF03MA05/06 — 3º ano na BNCC, não o intervalo numérico)
+  'place-value-regroup.add-compose-hundred.2-nbt-b-7': { de: '3', fr: '3', es: '3', pt: '3' },       // bis-1000 add (carry to hundreds) → DE Klasse 3 / FR CE2 / ES 3er grado / PT 3º ano (grade_3)
+  'place-value-regroup.subtract-decompose-hundred.2-nbt-b-7': { de: '3', fr: '3', es: '3', pt: '3' },// bis-1000 borrow across zero → DE Klasse 3 / FR CE2 / ES 3er grado / PT 3º ano (grade_3)
   'pond-juice.pour-measure.3-md-a-2': { de: '2', fr: '2', es: '2' },      // Hohlmaße/Liter (whole-l 0-10, no ml) → DE Klasse 2 (ml/Umrechnung = Klasse 3); FR CE1 (le litre introduced CE1, mL/conversions = cycle 3); MX 2.º (el litro se introduce en 2.º; ml/conversiones = 3.º-4.º); en Grade 3 unchanged
   'bundle-bot.bundle-machine.1-nbt-b-2-a': { de: '2' },                   // two-digit Stellenwert (20-49, multiple tens) → DE Klasse 2 (Klasse 1 = ZR bis 20)
   'tense.past-present-future.l-1-1-e': { de: '2', fr: '2', es: '2' },     // Zeitformen 3-way contrast + werden-future → DE Klasse 2 (Klasse 1 = nur Gegenwart); FR CE1 (présent seul = CP, la conjugaison systématique imparfait+futur simple = attendu CE1). MX 2.º: el contraste sistemático presente/pretérito/futuro CON futuro = reflexión sobre la lengua de 2.º (en 1.º el verbo se usa de forma incidental); espeja de/fr
@@ -533,7 +533,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.347';
+  const ACTIVITY_WRAPPER_VERSION = '9.348';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

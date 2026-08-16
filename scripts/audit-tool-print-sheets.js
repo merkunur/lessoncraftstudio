@@ -86,6 +86,27 @@ const TOOLS = [
      ⚠ Its sheet is premium and built on demand, so the prime forces the
      tier and calls the builder — without it this measures a free
      visitor's page and reports the apparatus missing. */
+  /* ⭐ THE GAP sat in the "has a block but no probe" bucket for its whole
+     first life, which this file's own header calls the hiding place
+     where real print defects live — and it had one: the block was
+     UNSCOPED, so a free visitor pressing Ctrl+P got `.crt-wrap` hidden
+     and an empty sheet, i.e. a blank page. It is scoped on
+     `body.crt-printing` now, and the sheet must be driven into phase
+     `after` before it is worth printing: `_buildSheet` deliberately
+     prints ONE band before the gap has lifted, because printing `m`
+     early would put the answer on the paper and on the projector. */
+  { key: 'the-gap', p: 'crt', apparatus: '.crt-sheet', chrome: '.crt-row',
+    prime: function () {
+      var T = window.TheGap;
+      if (!T) return;
+      T.premium = true;
+      /* a scene the class has already watched — both bands, no answer withheld */
+      T.st = { n: 5, k: 4, m: 9, phase: 'after', tried: null };
+      if (T._gate) T._gate();
+      if (T._paint) T._paint();
+      if (T._buildSheet) T._buildSheet();
+      document.body.classList.add('crt-printing');
+    } },
   { key: 'missing-question', p: 'mqu', apparatus: '.mqu-sh-stand', chrome: '.mqu-col',
     prime: function () {
       var T = window.MissingQuestion;

@@ -181,9 +181,28 @@ const askedIn = p => p.evaluate(() => Object.keys(window.__asked || {}));
       } else { fails.push(L + ': the rail is empty after the gap lifted'); checks++; }
       const a = await askedIn(p);
       bothSeen = a.indexOf('ariaCameIn') >= 0 && a.indexOf('ariaWentOut') >= 0;
-      if (!bothSeen) await click(p, '.crt-b-again', L); /* saidDealt */
+      /* ⚠⚠ `again` KEEPS THE START and re-deals only the change — that
+         is the whole division of labour with the teacher's grips. At an
+         extreme start only ONE direction is legal (nothing can be added
+         to a full shelf), so a loop that presses only `again` can sit
+         forever on a start where the other branch cannot exist, and then
+         report it unreachable. It moves the start too, the way a teacher
+         does. */
+      if (!bothSeen) {
+        await click(p, '.crt-b-again', L);              /* saidDealt      */
+        await click(p, rounds % 2 ? '.crt-grip-down' : '.crt-grip-up', L);
+      }
     }
     ok(bothSeen, L + ': ⭐ after ' + rounds + ' scenes the ground never announced BOTH directions — one of the two branches is unreachable');
+
+    /* ⚠⚠ AND THE REFUSAL AT THE END OF THE START RANGE IS DRIVEN, not
+       assumed. `saidSetEnd` is authored in eleven locales and fires only
+       when a teacher steps the start past the last one available — a
+       branch no other driver in this file reaches, so the string
+       recorder correctly reported it DEAD. Pressing one grip past the
+       end is the whole branch. */
+    for (let g = 0; g < 20; g++) await click(p, '.crt-grip-down', L);
+    await click(p, '.crt-grip-down', L);
     await click(p, '.crt-b-again', L);
 
     /* the settings drawer -> rangeLabel + rangeTen + rangeSixteen */
@@ -289,7 +308,12 @@ const askedIn = p => p.evaluate(() => Object.keys(window.__asked || {}));
       sheetHint: (document.querySelector('.crt-sh-hint') || {}).textContent || '',
       lines: document.querySelectorAll('.crt-sh-line').length,
       bands: document.querySelectorAll('.crt-sh-band').length,
-      sheetMarks: document.querySelectorAll('.crt-sheet .crt-mark').length
+      /* ⚠ THE SHEET'S DOT HAS ITS OWN CLASS NOW. It used to reuse the
+         screen's `.crt-mark` and override it under print; the rebuild
+         gives the paper `.crt-sh-dot` — the screen FILLS, the paper
+         OUTLINES — so a selector on the screen class matched nothing and
+         reported an empty sheet in all eleven locales. */
+      sheetMarks: document.querySelectorAll('.crt-sheet .crt-sh-dot').length
     }));
     ok(paid.printed === 2, L + ': ⚠ a teacher pressed Print twice and window.print() was called ' + paid.printed + ' times');
     ok(!paid.gateOn, L + ': ⚠ the paid gate is STILL shown to a teacher — the tool sells them what they own');

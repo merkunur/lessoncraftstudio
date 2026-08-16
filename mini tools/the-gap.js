@@ -4,11 +4,138 @@
    Free-play teacher instrument (no `tasks` — the shell renders zero
    activity chrome). v5 catalog, entry 12, commissioned as "THE CURTAIN".
 
-   THE GROUND · THE MARKS · THE GAP. Three named parts, nothing else.
+   THE GROUND · THE MARKS · THE GAP. That is what the class sees and what
+   every user-facing string names. (In the DOM those parts are `crt-shelf`,
+   the `crt-mark`s standing on it, and the two `crt-board`s that travel in
+   to FORM the gap — engineering names for the same three things.)
 
    THE ROUTINE:
-     "Five. Watch the ground."                 ... the gap ...
+     "Five. Watch the ground."                 ... the gap closes ...
      "Nine. What happened while we couldn't see?"
+
+   ---------------------------------------------------------------------
+   REBUILT 2026-08-11. WHAT WAS WRONG, MEASURED RATHER THAN ASSERTED.
+   ---------------------------------------------------------------------
+   The operator's verdict was that this was not a premium teaching tool:
+   no teaching problem solved efficiently, no professional or
+   child-friendly visual design. Both halves were correct, and the cause
+   is in the history above: commissioned as a rich apparatus, it was cut
+   down by three separate and individually reasonable rulings — the fence
+   took the imagery, an art panel took the ducks on a contrast
+   measurement, the pedagogy panel struck the claims — and what shipped
+   was the defensive skeleton left over. The commission's killer
+   mechanic was never built.
+
+   ⭐⭐ THE TEACHER COULD NOT AIM IT, AND THAT IS THE HEADLINE. `newState`
+   deals uniformly from 57 legal scenes at "up to ten" and 183 at "up to
+   sixteen", so a teacher wanting one particular situation had to press
+   again FORTY times for even odds, or a hundred and twenty-seven at
+   sixteen. Nobody plans a lesson that way. The grips fix it, and they
+   restore a routine the copy has advertised in eleven locales and the
+   tool could never perform (`classroomIdeas[2]`: the same start twice,
+   once arriving and once leaving) — which is now exactly the division of
+   labour: THE GRIPS SET THE START, `again` RE-DEALS WHAT HAPPENS TO IT.
+
+   ⚠ AND THE DEAL WAS DIRECTION-BIASED. 21 joining scenes against 36
+   separating at the default cap — 63% take-away — because `legal()`
+   needs `n >= 3` and `m >= 1`, so adding headroom shrinks as the start
+   grows. Nobody had noticed; the counts are printed by the gate.
+
+   ⭐⭐ THE EVIDENCE FAILED THE CONTRAST FLOOR IT WAS BUILT TO RESPECT.
+   The pulse was `#F2784B` on `#F6EAD3`: 2.33:1, under the 3:1 non-text
+   floor, on the one object carrying the whole meaning of the routine.
+   `the-queue.js:429` had already measured exactly that and moved to
+   coral's shadow `#A34122` at 5.28:1; this file contained `A34122` zero
+   times. The marker is now two-tone — cream against the boards it
+   crosses (3.71-5.95:1), coral in the cut track (4.25:1), `#A34122` rim
+   tying both — and 144x52px at projector size against an 8px stub.
+
+   ⚠ AND IT HAD NO RESPONSIVE DESIGN AT ALL: exactly two `@media`
+   occurrences and both were `@media print`. `lcs-shell.css:125-130`
+   widens the card to 1800px at >=1800px while `.crt-wrap` capped the
+   apparatus at 660px with 34px counters, so the projector this
+   instrument exists for showed a narrow column in a wide card.
+
+   ---------------------------------------------------------------------
+   THE BOARDS, AND WHY THE OLD GAP READ AS A BROKEN SCREEN
+   ---------------------------------------------------------------------
+   The old gap flipped the STAGE'S OWN BACKGROUND to `#0D4E44` and
+   inverted the shelf's polarity. That is the grammar of a dropped
+   signal, not of an event. Two painted boards now TRAVEL IN from the
+   frame edges and meet: they arrive by moving, they are brown so
+   nothing the class was already looking at changes value, and they are
+   joinery with bevels, plank seams and a cast shadow. No handles — the
+   boards are driven by the teacher's control, and an affordance nobody
+   may use is a lie.
+   ⚠ `shutter` is dead (`missing-question.js:32` records it as the
+   REJECTED #55 mechanic; `ten-frame.js:172` names it in a prohibition);
+   `gate`, `wall`, `sheet`, `easel`, `awning` are all taken. `boards` is
+   free.
+
+   ⚠⚠ THE COUNTERS STAY IN THE DOM WHILE THE BOARDS TRAVEL, and `st`
+   flips to `gap` only when they are fully met — at which instant the
+   shelf empties with NO VISIBLE CHANGE. The class watches them be
+   covered instead of watching them vanish. This costs ZERO MODEL LINES:
+   one existing assignment moved inside the first timeout, and
+   `shown()` returning 0 during the gap — the load-bearing line in the
+   file — is untouched.
+
+   ---------------------------------------------------------------------
+   THREE DEFECTS THE GATES COULD NOT SEE, FOUND BY READING
+   ---------------------------------------------------------------------
+   ⭐⭐ THE BLIND CHILD WAS NEVER TOLD WHICH WAY THE CHANGE WENT. The
+   direction reached assistive tech only as an `aria-label` on a
+   NON-FOCUSED `role="img"`, which announces nothing in JAWS, NVDA or
+   VoiceOver — it is browse-mode content. `api.announce` was called in
+   exactly two places in the whole file and never for the direction. The
+   long, careful, much-commented gating written after ten panels caught a
+   380ms leak had built a CORRECT AND COMPLETELY SILENT channel, and a
+   carefully-timed announcement nobody hears is worse than the leak it
+   replaced. It now fires on the line after the marker starts moving, and
+   `verify` L6b drives it BY BUTTON and asserts it lands 0-40ms after —
+   never before, which would be the mirror defect.
+
+   ⭐⭐ UNDER REDUCED MOTION THE EVIDENCE TONE WAS SILENTLY DROPPED, for
+   exactly the users most likely to depend on it: `_dur(T_FALL)`
+   compresses to 106ms and `_snd` debounces at 160ms, so the call
+   returned before reaching `api.sound`. The lift tone at 280ms survived,
+   which is why nothing looked broken. It is `force`d now.
+
+   ⭐⭐ AND `_clearTimers` CLEANED A PHANTOM. It read `this._wave`, which
+   the rebuild renamed to `_marker` — the only reference in the file, a
+   read with no write anywhere, so it was permanently undefined and the
+   line did nothing. `_tPulse` is the only other thing that removes
+   `is-on`, and `_clearTimers` cancels it, so abandoning a run mid-pulse
+   left the marker OPAQUE and still carrying a direction into the next
+   scene: an answer leak in the one phase the model never surrenders the
+   sign. → GREP EVERY RENAMED FIELD FOR A WRITE SITE.
+
+   ---------------------------------------------------------------------
+   THE HEADER'S OWN LAW, BROKEN BY THE HEADER'S OWN FILE
+   ---------------------------------------------------------------------
+   ⚠⚠ Invention 3 below says this tool "must draw a before and an after
+   at once". IT DID NOT — `shown()` returns `n` OR `m`, never both, so
+   the class had to hold the first count in working memory across the
+   gap, while THE PRINTED SHEET drew both bands. The paper was more
+   faithful to the design than the screen. The readout now holds three
+   fixed cells, before · after · your theory, and the witnessed start
+   persists THROUGH the gap because the class counted it aloud and
+   removing a fact they already hold would be dishonest.
+
+   ⚠⚠ AND THE ACCESSIBLE NAME ON THE RAIL WAS `t('test') + ' ' + k`, the
+   exact label-plus-number concatenation this file bans — all ten native
+   panels found it independently. In Finnish `kokeilla` governs the
+   partitive, so the phrase needs *viittä* where a digit can only supply
+   *viisi*. The whole phrase now names the rail once as a group and each
+   key is a bare numeral, which is grammatically inert in all eleven.
+
+   ⚠ ONE FALSE CITATION IN THIS HEADER, CORRECTED. It claimed "#55's own
+   free floor IS `5 + ? = 9` (`missing-question.js:609`)". Line 609 is a
+   locale string map, and `missing-question.js:149` refuses equations BY
+   NAME: "No equals sign and no arithmetic sentence, ever rendered." The
+   claim is backwards, and it had already propagated into a fresh fence
+   ruling before anyone read the bytes. A DOC IS NOT A FACT, LEAST OF ALL
+   ONE WE WROTE OURSELVES.
 
    ---------------------------------------------------------------------
    IT IS NOT CALLED THE CURTAIN, AND THAT IS MEASURED, NOT TASTE
@@ -264,6 +391,22 @@
    ---------------------------------------------------------------------
    THE REFUSE-LIST, BINDING
    ---------------------------------------------------------------------
+   ⭐ ADDED BY THE REBUILD, EACH BOUGHT BY A REAL DEFECT:
+   No `--u` that reads `n`, `m` or `k` — a unit that moved with the count
+   would broadcast both the direction and the magnitude across the gap;
+   it is a function of container width and `cap` ONLY, and `cap` is a
+   public setting the teacher chose. No per-counter entrance animation in
+   any phase ever — a stagger makes the reveal's duration proportional to
+   `n`, which is a real leak of the kind that ships. No operator glyph
+   drawn on any control (the grips are chevrons: a `+` meaning ADD
+   belongs to the arithmetic and would sit inches from one that does not
+   — the recorded `baking-tray` defect, invisible to every string audit
+   because nobody authors a glyph drawn by code). No accessible name
+   built by concatenating a label with a number. No coral on any control:
+   coral is the EVIDENCE, so a refusal rings BROWN — "not now", never
+   "wrong". No unscoped `@media print` — an unscoped block hands a free
+   visitor pressing Ctrl+P a blank page.
+
    Nothing marked right or wrong. No colour encodes correctness — and
    ⚠ `#146B5E` on `#0D4E44` measures 1.50:1, invisible, which is why the
    gate asserts MARK COUNT === 0 during the gap rather than trusting a
@@ -324,10 +467,23 @@
                    the control. A fixed 800ms wait would have been a
                    second, worse implementation of a law the pacing
                    already keeps. */
+    /* ⚠⚠ T_FALL WAS A LIE AND IS NOW TRUE. Nothing fell: the marks were
+       removed instantly at the phase switch and this constant was only
+       the delay before the pulse. The header prosecutes T_STEP and
+       T_LOOK for exactly that and DELETES them, so this one survived on
+       a technicality — it reached a call site while naming a motion that
+       did not exist. It now times the BOARDS TRAVELLING SHUT, which is a
+       real movement of a real object, and the name is honest. */
     T_FALL: 380,
     T_PULSE: 620,
     T_LIFT: 380,
     T_REFUSE: 200,
+    /* the boards land with weight — a 110ms settle on the shelf */
+    T_SETTLE: 110,
+    /* a theory numeral inks in rather than appearing */
+    T_INK: 160,
+    /* secondary-button hover rise */
+    T_HOVER: 120,
     RM_F: 0.28,
     RM_FLOOR: 90,
 
@@ -381,17 +537,17 @@
 
       /* controls */
       again: {
-        en: 'Make something else happen',
-        de: 'Etwas anderes passieren lassen',
-        fr: 'Recommencer autrement',
-        es: 'Empezar con otras marcas',
-        pt: 'Fazer acontecer outra coisa',
-        it: 'Cambia situazione',
-        nl: 'Iets anders laten gebeuren',
-        sv: 'Låt något annat hända',
-        da: 'Lad noget andet ske',
-        no: 'La noe annet skje',
-        fi: 'Uusi näytös'
+        en: 'Another change',
+        de: 'Neue Veränderung',
+        fr: 'Autre changement',
+        es: 'Otro cambio',
+        pt: 'Outra mudança',
+        it: 'Altro cambiamento',
+        nl: 'Andere verandering',
+        sv: 'Ny förändring',
+        da: 'Ny forandring',
+        no: 'Ny endring',
+        fi: 'Uusi muutos'
       },
       run: {
         en: 'Show the gap',
@@ -671,17 +827,70 @@
       },
       /* ⚠ you count what is ON the ground, not the ground. */
       saidDealt: {
-        en: 'A new one. Count what is on the ground before you start it.',
-        de: 'Etwas Neues liegt da. Zählt erst die Kiesel, bevor es losgeht.',
-        fr: 'On recommence. Comptez les billes sur le sol avant de lancer l’éclipse.',
-        es: 'Otras marcas. Cuéntenlas antes de que pase el parpadeo.',
-        pt: 'Tudo de novo. Contem o que está no chão antes de começar o intervalo.',
-        it: 'Ecco un’altra situazione. Contate i sassi prima di far partire il frattempo.',
-        nl: 'Er gebeurt iets anders. Tel eerst de knikkers op de stoep.',
-        sv: 'Nya prickar. Räkna dem innan ni låter ögonblicket gå.',
-        da: 'Nu er der noget andet på vej. Tæl kastanjerne på jorden, før I går i gang.',
-        no: 'Noe nytt. Tell punktene på bakken før dere starter øyeblikket.',
-        fi: 'Uusi näytös. Laskekaa ensin, mitä maassa on.'
+        en: 'The same marks are on the ground. This time something different happens to them.',
+        de: 'Auf dem Boden liegen dieselben Kiesel wie vorher. Diesmal passiert etwas anderes mit ihnen.',
+        fr: 'Sur le sol, il y a les mêmes billes qu’avant. Cette fois, il va leur arriver autre chose.',
+        es: 'En el suelo están las mismas marcas de antes. Esta vez les va a pasar otra cosa.',
+        pt: 'No chão estão as mesmas bolinhas de antes. Desta vez vai acontecer outra coisa com elas.',
+        it: 'Sulla riva ci sono gli stessi sassi di prima. Questa volta succede qualcosa di diverso.',
+        nl: 'Op de stoep liggen dezelfde knikkers als daarnet. Deze keer gebeurt er iets anders mee.',
+        sv: 'Det ligger lika många prickar som förut på golvet. Den här gången händer det något annat med dem.',
+        da: 'Der ligger de samme kastanjer som før på jorden. Denne gang sker der noget andet med dem.',
+        no: 'Det ligger like mange punkt på bakken som før. Denne gangen skjer det noe annet med dem.',
+        fi: 'Maassa on yhtä monta merkkiä kuin äsken. Tällä kertaa niille tapahtuu jotakin muuta.'
+      },
+
+      /* ⭐ THE TEACHER'S GRIPS. Each accessible name is its OWN WHOLE
+         PHRASE — never a label concatenated with a number, which is the
+         construction recorded as having broken Finnish case-marking on a
+         sibling tool and caught by three separate ensembles. */
+      /* ⚠ MY OWN BRIEF, VIOLATED IN MY OWN DRAFT. I told the panels that
+         every accessible name here must be a whole phrase that stands
+         alone, and then wrote "Start with more" — which is the same
+         not-a-whole-phrase defect one step earlier. The panel caught it
+         and named the counters. */
+      setStartUp: {
+        en: 'Start with more counters',
+        de: 'Mit mehr Kieseln beginnen',
+        fr: 'Commencer avec plus de billes',
+        es: 'Empezar con más marcas',
+        pt: 'Começar com mais bolinhas',
+        it: 'Comincia con più sassi',
+        nl: 'Met meer knikkers beginnen',
+        sv: 'Börja med fler prickar',
+        da: 'Start med flere kastanjer',
+        no: 'Start med flere punkt',
+        fi: 'Aloita useammalla merkillä'
+      },
+      setStartDown: {
+        en: 'Start with fewer counters',
+        de: 'Mit weniger Kieseln beginnen',
+        fr: 'Commencer avec moins de billes',
+        es: 'Empezar con menos marcas',
+        pt: 'Começar com menos bolinhas',
+        it: 'Comincia con meno sassi',
+        nl: 'Met minder knikkers beginnen',
+        sv: 'Börja med färre prickar',
+        da: 'Start med færre kastanjer',
+        no: 'Start med færre punkt',
+        fi: 'Aloita harvemmalla merkillä'
+      },
+      /* ⚠ ONE STRING FOR BOTH ENDS, deliberately: `_step` fires
+         `_refuse('set', el)` from either grip, so this sentence has to
+         be true at the ceiling AND at the floor. Every panel wrote it
+         direction-agnostic for that reason. */
+      saidSetEnd: {
+        en: 'The starting count stops here.',
+        de: 'Weiter geht die Anfangszahl nicht.',
+        fr: 'Le nombre de départ ne va pas plus loin.',
+        es: 'Hasta aquí llega el número de partida.',
+        pt: 'O número inicial vai até aqui.',
+        it: 'Il numero di partenza non va oltre.',
+        nl: 'Verder gaat het beginaantal niet.',
+        sv: 'Det finns inget mer att välja åt det hållet.',
+        da: 'Længere kan startantallet ikke sættes.',
+        no: 'Her stopper starttallene.',
+        fi: 'Aloitusmäärät loppuvat tähän.'
       },
 
       /* settings */
@@ -855,6 +1064,53 @@
       return { n: s.n, k: s.k, m: s.m, phase: 'before', tried: null };
     },
 
+    /* ⭐⭐ EVERY LEGAL SCENE THAT STARTS AT `n`. This is what makes the
+       instrument AUTHORABLE, and the number it replaces is the measured
+       indictment of the old build: `newState` deals uniformly from 57
+       scenes at "up to ten" and 183 at "up to sixteen", so a teacher who
+       wanted one particular situation — a start of five that becomes
+       nine — had to press `again` FORTY times for even odds, or a
+       hundred and twenty-seven at sixteen. In practice nobody plans a
+       lesson with that; they accept what the dice give. The tool's own
+       landing copy proposes "use the same starting count twice, once
+       with something coming in and once with something going out" as a
+       classroom idea, and the tool provided no way to do it.
+       ⚠ AUTHORSHIP NARROWS THE DEAL, IT NEVER WIDENS IT. This filters
+       `scenes()`, so `legal()` is untouched and a scene the model refuses
+       stays unreachable — the teacher cannot stage an illegal situation
+       any more than the child can. */
+    scenesStartingAt: function (cap, n) {
+      return this.scenes(cap).filter(function (s) { return s.n === n; });
+    },
+
+    /* the starts a teacher can actually choose at this cap, in order */
+    startsAvailable: function (cap) {
+      var seen = {}, out = [];
+      this.scenes(cap).forEach(function (s) { if (!seen[s.n]) { seen[s.n] = 1; out.push(s.n); } });
+      return out.sort(function (a, b) { return a - b; });
+    },
+
+    /* ⚠ null is the single refusal channel here too: a step past either
+       end of the available starts returns null and the paint draws the
+       grip refused, so a live control can never sit over a dead move. */
+    setStart: function (st, range, step) {
+      var s = this._st(st);
+      if (s.phase !== 'before') return null;
+      var cap = this.cap(range), starts = this.startsAvailable(cap);
+      var i = starts.indexOf(s.n);
+      if (i < 0) return null;
+      var j = i + step;
+      if (j < 0 || j >= starts.length) return null;
+      var pool = this.scenesStartingAt(cap, starts[j]);
+      if (!pool.length) return null;
+      /* keep the direction the teacher was already showing where that is
+         possible, so stepping the start does not silently flip a join
+         into a separation mid-lesson */
+      var want = pool.filter(function (x) { return (x.k > 0) === (s.k > 0); });
+      var pick = (want.length ? want : pool)[0];
+      return { n: pick.n, k: pick.k, m: pick.m, phase: 'before', tried: null };
+    },
+
     _st: function (st) { return st || this.st; },
 
     /* ⭐⭐ THE SIGN IS THE ONLY THING THE GROUND MAY EXPOSE. It is derived
@@ -968,8 +1224,18 @@
       if (this._tFall) { window.clearTimeout(this._tFall); this._tFall = null; }
       if (this._tPulse) { window.clearTimeout(this._tPulse); this._tPulse = null; }
       this._busy = false;
-      this._pulsed = false;
-      if (this._wave) this._wave.classList.remove('is-on');
+      /* ⚠⚠ THIS NAMED `_wave`, WHICH THE REBUILD RENAMED TO `_marker`,
+         AND IT WAS THE ONLY REFERENCE IN THE FILE — a read with no
+         assignment anywhere, so it was permanently undefined and this
+         line did nothing. `_tPulse` is the only other thing that removes
+         `is-on`, and `_clearTimers` cancels it, so abandoning a run
+         mid-pulse (a settings change, a reset) left the marker OPAQUE
+         and still carrying a direction into the next scene. That is an
+         answer leak in the one phase the model never surrenders the
+         sign, and no gate could see it because the flag it depended on
+         read as ordinary falsy. Found by a native panel reading the
+         model. → grep every renamed field for a WRITE site. */
+      if (this._marker) this._marker.classList.remove('is-on');
     },
 
     onSettings: function () { this.reset(); },
@@ -996,6 +1262,14 @@
 
     /* ================= DOM ========================================== */
 
+    /* ⭐ THE APPARATUS IS THE BOARDS. Two painted boards travel in from
+       the two frame edges and meet over a shelf. The stage's own colour
+       never changes — a DIFFERENT MATERIAL arrives and covers part of
+       it, which is why this cannot read as a rendering fault the way the
+       old full-stage colour flip did. It arrives by travelling, it is
+       brown rather than teal, and it has thickness. No handles: the
+       boards are driven by the teacher's control, and an affordance
+       nobody may use is a lie. */
     _build: function () {
       /* ⚠⚠ api.STAGE, NOT api.root. #55 read `api.root`, which the shell
          does not put on its frozen api, and threw on the first line of
@@ -1009,31 +1283,96 @@
       var wrap = document.createElement('div');
       wrap.className = 'crt-wrap';
       root.appendChild(wrap);
+      this._wrap = wrap;
 
-      this._stage = document.createElement('div');
-      this._stage.className = 'crt-stage';
-      wrap.appendChild(this._stage);
+      /* ⭐⭐ EVERY DRAWN DURATION IS WRITTEN HERE FROM THE NAMED CONSTANT,
+         so the named number and the drawn number are ONE number by
+         construction. The old build baked `_dur(T_PULSE)` into a cached
+         stylesheet at first paint, so a teacher who turned reduced
+         motion on mid-lesson got a JS timeline at one duration and a CSS
+         animation at another — the exact desynchronisation the old
+         comment claimed to have closed, closed only for the mount-time
+         value. Setting properties per build cannot drift. */
+      this._writeVars();
 
+      var stage = document.createElement('div');
+      stage.className = 'crt-stage';
+      wrap.appendChild(stage);
+      this._stage = stage;
+
+      /* the band the counters stand in */
       this._marks = document.createElement('div');
-      this._marks.className = 'crt-marks';
-      this._stage.appendChild(this._marks);
+      this._marks.className = 'crt-band';
+      stage.appendChild(this._marks);
 
-      this._ground = document.createElement('div');
-      this._ground.className = 'crt-ground';
-      this._stage.appendChild(this._ground);
+      /* the shelf. Its cut track exists in EVERY phase, empty — so when
+         the marker runs it reads as "something moved along the track",
+         not as "a bar appeared from nowhere". */
+      this._shelf = document.createElement('div');
+      this._shelf.className = 'crt-shelf';
+      stage.appendChild(this._shelf);
 
-      /* the evidence lives on the GROUND, not among the marks */
-      this._wave = document.createElement('div');
-      this._wave.className = 'crt-wave';
-      this._ground.appendChild(this._wave);
+      /* ⭐ the five-ticks: three rules at 5 | 10 | 15, FIXED, never a
+         function of `n`, so a row of 12 reads as "two ticks and two
+         more" without a word. This is the second representation the
+         instrument was missing, and it is what makes the routine's own
+         first step — "count the ground" — possible at a glance. */
+      this._buildTicks();
 
-      this._counts = document.createElement('div');
-      this._counts.className = 'crt-counts';
-      wrap.appendChild(this._counts);
+      var floor = document.createElement('div');
+      floor.className = 'crt-floor';
+      stage.appendChild(floor);
 
-      this._say = document.createElement('p');
-      this._say.className = 'crt-say';
-      wrap.appendChild(this._say);
+      this._boardL = document.createElement('div');
+      this._boardL.className = 'crt-board crt-board-l';
+      this._boardL.setAttribute('aria-hidden', 'true');
+      stage.appendChild(this._boardL);
+
+      this._boardR = document.createElement('div');
+      this._boardR.className = 'crt-board crt-board-r';
+      this._boardR.setAttribute('aria-hidden', 'true');
+      stage.appendChild(this._boardR);
+
+      /* ⚠ THE MARKER IS CREATED ONCE AND ONLY ITS CLASSES TOGGLE. It is
+         never removed and re-appended (the `the-queue.js:408` lesson), so
+         no `n`-dependent DOM churn can ever creep into the evidence
+         path. */
+      this._marker = this._buildMarker();
+      stage.appendChild(this._marker);
+
+      /* the readout: three fixed cells, before · after · your theory.
+         ⚠⚠ THE CELLS AND THE GRIPS ARE BUILT ONCE AND MUTATED IN PLACE.
+         The old rail rebuilt every key on every paint, so pressing one
+         destroyed the node you pressed and dropped keyboard focus to
+         `<body>` — the user had to tab back from the top of the
+         document. Anything focusable in this tool is now created once. */
+      this._read = document.createElement('div');
+      this._read.className = 'crt-read';
+      wrap.appendChild(this._read);
+
+      this._cell = [];
+      var ci;
+      for (ci = 0; ci < 3; ci++) {
+        var cell = document.createElement('div');
+        cell.className = 'crt-cell';
+        this._read.appendChild(cell);
+        this._cell.push(cell);
+      }
+
+      /* ⭐⭐ THE TEACHER'S CONTROL, AND IT SITS ON THE NUMBER IT SETS.
+         Chevrons, never `+` and `−`: a real `+` meaning ADD belongs to
+         the arithmetic this instrument is about, and drawing one on a
+         grip inches away would be the recorded `baking-tray` defect —
+         an operator glyph drawn by code, invisible to every string audit
+         and to every native panel because nobody authored it. */
+      this._set = document.createElement('div');
+      this._set.className = 'crt-set';
+      this._grip = {};
+      this._grip.up = this._grip_(this._set, 'up', 'setStartUp');
+      this._grip.down = this._grip_(this._set, 'down', 'setStartDown');
+      this._cell[0].appendChild(this._set);
+      this._grip.up.addEventListener('click', function () { self._step(1, self._grip.up); });
+      this._grip.down.addEventListener('click', function () { self._step(-1, self._grip.down); });
 
       this._rail = document.createElement('div');
       this._rail.className = 'crt-rail';
@@ -1043,11 +1382,25 @@
       row.className = 'crt-row';
       wrap.appendChild(row);
 
+      /* ⚠⚠ ICONS, NOT UNICODE TEXT. The old chrome drew `◑ ↺ ↻ ⎙`: `↺`
+         and `↻` are MIRROR IMAGES of one another at 17px and sat
+         adjacent while meaning two different things, and `U+2399` has
+         patchy font coverage — it rendered as an ambiguous round mark
+         rather than a printer in the shipped screenshot. Hand-built SVG
+         on the shell's own 24-grid removes both problems, and it also
+         dissolves an eleven-locale layout problem: the label "Make
+         something else happen" is 30 characters in German and could not
+         fit one row in any language. */
+      /* ⚠ THE STRING KEY IS THE LAST ARGUMENT, ALWAYS. `verify` finds the
+         call sites with `/_mk\([^)]*?'(\w+)'\)/`, so a trailing
+         `true` for "this one is primary" made `run`'s key invisible to
+         the scan — and the scan's own non-vacuity check caught it. The
+         primary styling is a class like any other. */
       this._btn = {};
-      this._btn.run = this._mk(row, 'crt-b-run', '◑', 'run');
-      this._btn.clear = this._mk(row, 'crt-b-clear', '↺', 'clear');
-      this._btn.again = this._mk(row, 'crt-b-again', '↻', 'again');
-      this._btn.print = this._mk(row, 'crt-b-print', '⎙', 'print');
+      this._btn.run = this._mk(row, 'crt-b-run is-primary', 'run', 'run');
+      this._btn.clear = this._mk(row, 'crt-b-clear', 'clear', 'clear');
+      this._btn.again = this._mk(row, 'crt-b-again', 'again', 'again');
+      this._btn.print = this._mk(row, 'crt-b-print', 'print', 'print');
 
       this._btn.run.addEventListener('click', function () { self._run(); });
       this._btn.clear.addEventListener('click', function () { self._clear(); });
@@ -1058,6 +1411,10 @@
       this._gateHost.className = 'crt-gate';
       wrap.appendChild(this._gateHost);
 
+      /* ⚠⚠ THE SHEET IS A SIBLING OF THE WRAP, NEVER A CHILD — the print
+         block sets `.crt-wrap{display:none}` and a hidden parent kills
+         the whole subtree, so a sheet built inside it measures 0mm on
+         paper while every assertion stays green. */
       this._sheet = document.createElement('div');
       this._sheet.className = 'crt-sheet';
       root.appendChild(this._sheet);
@@ -1065,18 +1422,184 @@
       this._gate();
     },
 
-    _mk: function (parent, cls, glyph, key) {
+    /* ⭐ The ticks stand at the GROUP BOUNDARIES — after 5, after 10,
+       after 15 — and their positions are computed from `--u`, `--g1`,
+       `--g2` and `--inset` only.
+       ⚠ THE COUNT OF TICKS IS A FUNCTION OF `cap`, NEVER OF `n`, `m` OR
+       `k`. `cap` comes from the `range` SETTING, which the teacher chose
+       and which is public, so it discloses nothing; a tick that appeared
+       or moved with the count would hand over the magnitude. A boundary
+       beyond `cap` is not drawn because nothing can ever stand there —
+       at "up to ten" that is two ticks, at "up to sixteen" three. */
+    _buildTicks: function () {
+      var cap = this.cap(this.api.settings.range), i, x, tick;
+      var group = 'calc(5 * var(--u) + 4 * var(--g1))';
+      for (i = 1; i * 5 < cap; i++) {
+        x = 'calc(var(--inset) + ' + i + ' * ' + group +
+            ' + ' + (i - 0.5) + ' * var(--g2))';
+        tick = document.createElement('span');
+        tick.className = 'crt-tick';
+        tick.setAttribute('aria-hidden', 'true');
+        tick.style.left = x;
+        this._shelf.appendChild(tick);
+      }
+    },
+
+    /* ⭐⭐ THE SIZE LAW, AND IT HAS TWO TERMS, NOT ONE. `--u` is a function
+       of container width AND `cap` — I shipped only the first term and
+       the projector showed why: at "up to ten" the row can never be
+       longer than 13.02u, so a fixed 4.0cqw (derived for the 21.06u that
+       a cap of sixteen needs) left a 1160px shelf carrying three
+       counters in one corner.
+         row width in u = C + (C - groups)*g1 + (groups - 1)*g2 + inset
+       and the unit is solved so the row occupies 87.4% of the container
+       at EVERY cap — the same constant margin the CAP comment accepted.
+       ⚠ `cap` comes from the `range` SETTING, which the teacher chose and
+       which is public. It is NOT `n`, `m` or `k`, and it must never
+       become them: a unit that moved with the count would broadcast both
+       the direction and the magnitude of the change across the gap. */
+    _rowUnits: function (cap) {
+      var groups = Math.ceil(cap / 5);
+      return cap + (cap - groups) * 0.20 + (groups - 1) * 0.62 + 0.8;
+    },
+
+    _writeVars: function () {
+      if (!this._wrap) return;
+      this._wrap.style.setProperty('--rowu',
+        String(this._rowUnits(this.cap(this.api.settings.range))));
+      this._writeDurations();
+    },
+
+    _writeDurations: function () {
+      if (!this._wrap) return;
+      var s = this._wrap.style, self = this;
+      var put = function (name, ms) { s.setProperty(name, self._dur(ms) + 'ms'); };
+      put('--t-fall', GEO.T_FALL);
+      put('--t-lift', GEO.T_LIFT);
+      put('--t-pulse', GEO.T_PULSE);
+      put('--t-refuse', GEO.T_REFUSE);
+      put('--t-settle', GEO.T_SETTLE);
+      put('--t-ink', GEO.T_INK);
+      put('--t-hover', GEO.T_HOVER);
+    },
+
+    _svg: function (vb, cls) {
+      var s = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      s.setAttribute('viewBox', vb);
+      s.setAttribute('aria-hidden', 'true');
+      s.setAttribute('focusable', 'false');
+      if (cls) s.setAttribute('class', cls);
+      return s;
+    },
+
+    _path: function (d, attrs) {
+      var p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      p.setAttribute('d', d);
+      var k;
+      for (k in attrs) if (attrs.hasOwnProperty(k)) p.setAttribute(k, attrs[k]);
+      return p;
+    },
+
+    /* ⭐ THE EVIDENCE. An 8px stub at 2.33:1 was not evidence — it was
+       the least visible thing on a stage whose whole meaning it carried.
+       This is a two-tone arrow: its upper half is cream against the
+       brown boards it crosses (3.71–5.95:1) and its lower half is coral
+       inside the dark cut track (4.25:1), tied by an `#A34122` rim
+       (5.28:1 on cream). Two tones because there are two grounds. At
+       projector size it is 144×52px.
+       ⚠ Nothing here is a function of magnitude: width, height, colour,
+       easing, duration and iteration-count are all constant, and the
+       ONLY thing that varies is `scaleX(±1)` plus which keyframe runs —
+       which is `sign(k)`, precisely the fact the instrument intends to
+       disclose. */
+    _buildMarker: function () {
+      var s = this._svg('0 0 320 115', 'crt-marker');
+      var defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+      var g = document.createElementNS('http://www.w3.org/2000/svg', 'linearGradient');
+      g.setAttribute('id', 'crt-mkr');
+      g.setAttribute('x1', '0'); g.setAttribute('y1', '0');
+      g.setAttribute('x2', '0'); g.setAttribute('y2', '1');
+      var stops = [['0', '#FBF3E4'], ['0.56', '#FBF3E4'], ['0.56', '#F2784B'], ['1', '#DF6435']];
+      stops.forEach(function (st) {
+        var e = document.createElementNS('http://www.w3.org/2000/svg', 'stop');
+        e.setAttribute('offset', st[0]);
+        e.setAttribute('stop-color', st[1]);
+        g.appendChild(e);
+      });
+      defs.appendChild(g);
+      s.appendChild(defs);
+      s.appendChild(this._path(
+        'M6 0 H232 L318 57.5 L232 115 H6 A6 6 0 0 1 0 109 V6 A6 6 0 0 1 6 0 Z',
+        { fill: 'url(#crt-mkr)', stroke: '#A34122', 'stroke-width': '2',
+          'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke' }));
+      return s;
+    },
+
+    ICONS: {
+      /* two things closing on the middle */
+      run: ['M3 12 H10', 'M7 8.5 L10.5 12 L7 15.5', 'M21 12 H14', 'M17 8.5 L13.5 12 L17 15.5', 'M12 3.5 V20.5'],
+      /* undo — an arc with its head at the arc's start */
+      clear: ['M19.8 13.6 A8 8 0 1 1 12 4', 'M8.4 6.6 L12 4 L14.4 7.6'],
+      /* a different arrangement — a shuffle, distinct from undo at a glance */
+      again: ['M3.5 7 H8 L16 17 H20.5', 'M3.5 17 H8 L16 7 H20.5',
+        'M17.8 4.6 L20.6 7 L17.8 9.4', 'M17.8 14.6 L20.6 17 L17.8 19.4'],
+      print: ['M7.5 9 V3.5 H16.5 V9', 'M5 9 H19 A2 2 0 0 1 21 11 V16 H17 M7 16 H3 V11 A2 2 0 0 1 5 9',
+        'M7 13.5 H17 V20.5 H7 Z']
+    },
+
+    _icon: function (key) {
+      var s = this._svg('0 0 24 24', 'crt-icon'), self = this;
+      s.setAttribute('fill', 'none');
+      s.setAttribute('stroke', 'currentColor');
+      s.setAttribute('stroke-width', '2');
+      s.setAttribute('stroke-linecap', 'round');
+      s.setAttribute('stroke-linejoin', 'round');
+      (this.ICONS[key] || []).forEach(function (d) { s.appendChild(self._path(d, {})); });
+      return s;
+    },
+
+    /* a chevron grip. Its accessible name is its OWN WHOLE PHRASE, never
+       a label concatenated with a number — that construction is recorded
+       as having broken Finnish case-marking on a sibling tool, caught by
+       three ensembles. */
+    _grip_: function (parent, dir, key) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'crt-grip crt-grip-' + dir;
+      var s = this._svg('0 0 24 24', 'crt-chev');
+      s.setAttribute('fill', 'none');
+      s.setAttribute('stroke', 'currentColor');
+      s.setAttribute('stroke-width', '2.6');
+      s.setAttribute('stroke-linecap', 'round');
+      s.setAttribute('stroke-linejoin', 'round');
+      s.appendChild(this._path(dir === 'up' ? 'M5 15 L12 8 L19 15' : 'M5 9 L12 16 L19 9', {}));
+      b.appendChild(s);
+      b.setAttribute('aria-label', this.api.t(key));
+      b._key = key;
+      parent.appendChild(b);
+      return b;
+    },
+
+    _step: function (delta, el) {
+      var n1 = this.setStart(null, this.api.settings.range, delta);
+      if (!n1) { this._refuse('set', el); return; }
+      this._clearTimers();
+      this._shut = false;
+      this.st = n1;
+      this._snd(GEO.SND_STEP);
+      this._paint();
+      this.api.announce(this._fmt(this.api.t('sayBefore'), { n: n1.n }));
+    },
+
+    _mk: function (parent, cls, iconKey, key) {
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'crt-btn ' + cls;
-      var g = document.createElement('span');
-      g.className = 'crt-glyph';
-      g.setAttribute('aria-hidden', 'true');
-      g.textContent = glyph;
+      b.appendChild(this._icon(iconKey));
       var t = document.createElement('span');
       t.className = 'crt-label';
       t.textContent = this.api.t(key);
-      b.appendChild(g); b.appendChild(t);
+      b.appendChild(t);
       b._key = key;
       parent.appendChild(b);
       return b;
@@ -1089,87 +1612,133 @@
       /* ⚠⚠ THE PAINT DRAWS THIS CONTROL `is-off` WHILE THE RUN IS IN
          FLIGHT, AND WITHOUT THIS LINE IT STILL ACTED — a control that
          LOOKS refused and is not is the recorded #55 defect with its
-         sign flipped, and here it let a second press SKIP THE GAP
-         (mid-flight `advance()` returns the `after` state, which is not
-         null, so the guard below waved it through). `saidMidRun` — "Wait
-         for the gap to lift." — is authored for exactly this branch and
-         was unreachable in it. `_again` has carried the same guard all
-         along, which is what makes this an omission rather than a
-         judgement call. */
-      /* ⚠ `busy`, not `run` — the message this reaches is "Wait for the
-         gap to lift", which is TRUE only here. */
+         sign flipped, and here it let a second press SKIP THE GAP. */
       if (this._busy) { this._refuse('busy', this._btn.run); return; }
       n1 = this.advance(null);
-      /* ⚠⚠ IN PHASE `after` THERE IS NOTHING TRUE TO SAY — the gap HAS
-         lifted, so `saidMidRun` was a lie, and `is-off` is opacity only,
-         so the click landed and told it. `_paint` sets `disabled` on this
-         exact condition, which makes the branch below unreachable; it
-         stays as a silent guard rather than as a false announcement. */
       if (!n1) return;
       this._busy = true;
-      this._pulsed = false;
-      this.st = n1;                       /* -> gap */
-      this._snd(GEO.SND_FALL);
+
+      /* ⭐⭐ THE ONE BEHAVIOUR CHANGE, AND IT COSTS ZERO MODEL LINES.
+         The old build flipped `st` to `gap` at t=0, so the counters
+         popped out of existence while the covering had not yet arrived.
+         Now the boards begin travelling at t=0 with the counters STILL
+         IN THE DOM AND STILL VISIBLE — the class is watching them be
+         covered — and `st` flips only at t=T_FALL, when the boards are
+         fully met and emptying the shelf produces no visual change at
+         all. `advance`, `shown`, `sign`, `rail` and `lands` are
+         untouched. */
+      this._shut = true;
       this._paint();
-      /* ⚠ the handles are STORED. `_clearTimers()` is the only exit. */
+      this._snd(GEO.SND_FALL);
+
       this._tFall = window.setTimeout(function () {
         self._tFall = null;
-        /* the pulse travels while nothing is countable */
-        self._wave.classList.add('is-on');
-        /* ⚠ THE FLAG THE PAINT READS. Without this line `_pulsed` is
-           permanently undefined and the direction never reaches a
-           screen-reader user during the gap at all. */
-        self._pulsed = true;
+        self.st = n1;                        /* -> gap, marks leave the DOM */
+        self._shelf.classList.add('is-settle');
+        window.setTimeout(function () {
+          if (self._shelf) self._shelf.classList.remove('is-settle');
+        }, self._dur(GEO.T_SETTLE));
+
+        /* the marker travels while nothing is countable */
+        self._marker.classList.add('is-on');
+        /* ⚠ THE FLAG THE PAINT READS — a never-written flag reads as
+           ordinary falsy, which is how this shipped half-applied once. */
         self._paint();
-        self._snd(GEO.SND_STEP);
+
+        /* ⚠⚠ `force`. MEASURED: `_dur(T_FALL)` compresses to 106ms under
+           reduced motion and `_snd` debounces at 160ms, so this call
+           returned before reaching `api.sound` and THE EVIDENCE TONE WAS
+           SILENTLY DROPPED — for exactly the users most likely to be
+           relying on it. The lift tone at 280ms survived, which is why
+           nothing looked broken. */
+        self._snd(GEO.SND_STEP, true);
+
+        /* ⚠⚠ AND THE DIRECTION IS SPOKEN HERE, ON THE LINE AFTER THE
+           MARKER STARTS. The old build set an `aria-label` on a
+           `role="img"` the user was not focused on, which announces
+           NOTHING in JAWS, NVDA or VoiceOver — it is browse-mode content.
+           So the sighted class saw the evidence and the blind child got
+           it only by navigating onto that element, after everything else
+           on the page. A carefully-timed announcement that is never
+           spoken is worse than the leak it replaced. `announce` is the
+           shell's one live region, and firing it HERE rather than in
+           `_paint` keeps the two channels within one frame of each
+           other — and never in the other order. */
+        self.api.announce(self.api.t(self.sign(self.st) > 0 ? 'ariaCameIn' : 'ariaWentOut'));
+
         self._tPulse = window.setTimeout(function () {
           self._tPulse = null;
-          self._wave.classList.remove('is-on');
-          var n2 = self.advance(null);
-          if (n2) self.st = n2;           /* -> after */
+          self._marker.classList.remove('is-on');
+          self.st = self.advance(null) || self.st;   /* -> after */
+          /* the new count is built behind the still-closed boards, then
+             the boards part. The parting IS the reveal — there is no
+             per-counter entrance animation, in any phase, ever, because
+             a stagger would make the reveal's duration proportional to
+             `n`, and that is a real leak of the kind that ships. */
+          self._paint();
+          self._shut = false;
+          self._paint();
           self._busy = false;
           self._snd(GEO.SND_LIFT);
-          self._paint();
         }, self._dur(GEO.T_PULSE));
       }, self._dur(GEO.T_FALL));
     },
 
-    /* ⚠ the rail key that was pressed travels with the call, so a refusal
-       shakes THAT key. It used to shake the RUN button and say nothing. */
     _try: function (k, el) {
-      var n = this.tryK(null, k);
-      if (!n) { this._refuse('try', el); return; }
-      this.st = n;
+      var n1 = this.tryK(null, k);
+      if (!n1) { this._refuse('try', el); return; }
+      this.st = n1;
+      this._snd(GEO.SND_STEP);
+      this._paint();
+      this.api.announce(this._fmt(this.api.t('ariaTry'), {
+        k: Math.abs(k), n: this.st.n, r: this.lands(this.st), m: this.st.m
+      }));
+    },
+
+    _clear: function () {
+      var n1 = this.clearTry(null);
+      if (!n1) { this._refuse('clear'); return; }
+      this.st = n1;
       this._snd(GEO.SND_STEP);
       this._paint();
     },
 
-    _clear: function () {
-      var n = this.clearTry(null);
-      if (!n) { this._refuse('clear'); return; }
-      this.st = n;
-      this._snd(GEO.SND_LIFT);
-      this._paint();
-    },
-
+    /* ⭐⭐ IT RE-DEALS THE CHANGE AND KEEPS THE START, AND THAT IS THE
+       WHOLE DIVISION OF LABOUR: the grips set the start, this re-deals
+       what happens to it. A native panel caught the alternative as a
+       defect — a plain re-deal silently discards the number the teacher
+       just set, with a label that does not warn them, one press after
+       they set it.
+       ⭐ It is also the one classroom routine the tool has advertised in
+       eleven locales and could never perform: `classroomIdeas[2]` says
+       "use the same starting count twice — once with something coming
+       in, once with something going out", which was impossible while
+       every press re-rolled the start as well. */
     _again: function () {
       if (this._busy) { this._refuse('busy', this._btn.again); return; }
-      this._pulsed = false;
-      this.st = this.newState(this.api.settings.range);
-      this._snd(GEO.SND_FALL);
+      this._clearTimers();
+      this._shut = false;
+      var cap = this.cap(this.api.settings.range);
+      var pool = this.scenesStartingAt(cap, this.st.n);
+      /* ⚠ prefer a change the class has not just watched, so a second
+         press is never a no-op; fall back to the whole pool, and to a
+         fresh deal only if this start has somehow no scenes at all. */
+      var k0 = this.st.k;
+      var fresh = pool.filter(function (x) { return x.k !== k0; });
+      var use = fresh.length ? fresh : pool;
+      if (!use.length) {
+        this.st = this.newState(this.api.settings.range);
+      } else {
+        var pick = use[Math.floor(Math.random() * use.length)];
+        this.st = { n: pick.n, k: pick.k, m: pick.m, phase: 'before', tried: null };
+      }
       this._paint();
       this.api.announce(this.api.t('saidDealt'));
     },
 
-    /* ⚠⚠ ONE CHANNEL, THREE THINGS IT HAS TO GET RIGHT: the message must
-       be TRUE in the phase it fires in, the shake must land on the control
-       the hand pressed, and every authored refusal must be REACHABLE. The
-       old two-branch form failed all three at once — `try` matched neither
-       branch, so a refused try announced NOTHING and shook the RUN button,
-       and `print` was never refused at all. */
     _refuse: function (why, el) {
       var self = this;
-      var MSG = { busy: 'saidMidRun', clear: 'saidNoTry', print: 'saidLocked', 'try': 'saidTryOff' };
+      var MSG = { busy: 'saidMidRun', clear: 'saidNoTry', print: 'saidLocked', 'try': 'saidTryOff', set: 'saidSetEnd' };
       var msg = MSG[why];
       var t = el || this._btn[why] || null;
       this._snd(GEO.SND_REFUSE, true);
@@ -1180,14 +1749,61 @@
       if (msg) this.api.announce(this.api.t(msg));
     },
 
+    /* ⭐⭐ GROUPS OF FIVE, LEFT-ALIGNED FROM A FIXED START, ALWAYS ONE
+       ROW. The old build was a uniform wrapping flex row of up to
+       sixteen identical dots, which actively fought the routine's own
+       first step — "count the ground". Left-aligned rather than centred
+       so the row's left edge never moves and 7 -> 12 reads as a
+       LENGTHENING as well as a re-count; centring would slide both ends
+       and destroy that reading.
+       ⚠ Grouping is by POSITION only. Every counter stays byte-identical
+       to its siblings, because any distinguishing feature would let a
+       child count the different-looking ones and hand the answer over. */
     _fill: function (host, n) {
       host.innerHTML = '';
-      for (var i = 0; i < n; i++) {
+      if (!n) return;
+      var i, grp = null;
+      for (i = 0; i < n; i++) {
+        if (i % 5 === 0) {
+          grp = document.createElement('span');
+          grp.className = 'crt-grp';
+          host.appendChild(grp);
+        }
         var m = document.createElement('span');
         m.className = 'crt-mark';
         m.setAttribute('aria-hidden', 'true');
-        host.appendChild(m);
+        grp.appendChild(m);
       }
+    },
+
+    /* three fixed slots so nothing jumps when 9 becomes 16. An empty
+       slot is not blank — it draws a dotted baseline, so the
+       composition never collapses and the empty slot INVITES the
+       number. No words. */
+    /* ⚠⚠ AND THE SLOT CARRIES A SENTENCE, NOT A BARE NUMERAL. Deleting
+       `.crt-say` orphaned `sayBefore`, `sayAfter` and `sayLands` — three
+       strings authored in eleven locales that nothing called any more,
+       which is the dead-string class this house keeps shipping. They do
+       the work they were always best at here: a screen-reader user hears
+       "Before the gap: 7" instead of the digit 7 with no idea which of
+       three numerals it is. That is also the sighted readout's own
+       problem answered on the one channel that can carry words at all —
+       the apparatus itself stays wordless. */
+    _slot: function (val, kind, labelKey) {
+      var e = document.createElement('span');
+      if (val === null) {
+        e.className = 'crt-num crt-num-empty';
+        e.setAttribute('aria-hidden', 'true');
+        return e;
+      }
+      e.className = 'crt-num' + (kind ? ' ' + kind : '');
+      e.textContent = String(val);
+      if (labelKey) {
+        e.setAttribute('role', 'img');
+        e.setAttribute('aria-label', this._fmt(this.api.t(labelKey),
+          { n: val, m: val, r: val }));
+      }
+      return e;
     },
 
     _paint: function () {
@@ -1197,65 +1813,78 @@
          creates nothing. There is no hidden node to inspect, so the
          non-leak is a fact about the DOM rather than about a colour. */
       this._fill(this._marks, this.shown(s));
-      this._stage.classList.toggle('is-gap', s.phase === 'gap');
-      this._wave.classList.toggle('is-out', this.sign(s) < 0);
 
-      /* the two counts, drawn identically, on one ground */
-      this._counts.innerHTML = '';
-      var add = function (val, cls) {
-        var e = document.createElement('span');
-        e.className = 'crt-num' + (cls ? ' ' + cls : '');
-        e.textContent = String(val);
-        self._counts.appendChild(e);
-      };
-      if (s.phase === 'before') add(s.n);
-      else if (s.phase === 'after') {
-        add(s.n); add(s.m);
-        /* ⚠ NOT "the same way" — `.crt-num.is-try` outlines it, and the
-           rule comment below says so. It differs in KIND AND NEVER IN
-           HUE: same colour, same size, same ground, so the outline says
-           WHICH ONE IS YOURS and never which one is right. No comparison
-           is computed here; `lands()` is a sum, not a verdict. */
-        if (s.tried !== null) add(this.lands(s), 'is-try');
-      }
+      /* the boards are shut while a run is in flight OR while the model
+         is in the gap; the two agree everywhere except the 380ms of
+         travel, which is the whole point of separating them. */
+      this._stage.classList.toggle('is-shut', !!this._shut || s.phase === 'gap');
+      this._marker.classList.toggle('is-out', this.sign(s) < 0);
+
+      /* the readout: before · after · your theory. `n` persists through
+         the gap because the class watched it — it is a witnessed fact
+         and removing it would be dishonest. Nothing about `m` exists
+         before it is seen. */
+      /* ⚠ the CELLS persist; only the numeral inside each is replaced, so
+         the grips keep their identity and their focus across every
+         paint. */
+      var vals = [
+        [s.n, null, 'sayBefore'],
+        [s.phase === 'after' ? s.m : null, null, 'sayAfter'],
+        [(s.phase === 'after' && s.tried !== null) ? this.lands(s) : null, 'is-try', 'sayLands']
+      ];
+      this._cell.forEach(function (cell, i) {
+        var old = cell.querySelector('.crt-num');
+        if (old) cell.removeChild(old);
+        cell.insertBefore(self._slot(vals[i][0], vals[i][1], vals[i][2]), cell.firstChild);
+      });
+
+      /* ⭐ the teacher's grips are live only where the move is: in phase
+         `before`, and only while there is a further start to step to. */
+      var up = this.setStart(null, api.settings.range, 1);
+      var dn = this.setStart(null, api.settings.range, -1);
+      this._set.classList.toggle('is-on', s.phase === 'before' && !this._busy);
+      this._grip.up.classList.toggle('is-off', !up);
+      this._grip.up.setAttribute('aria-disabled', String(!up));
+      this._grip.down.classList.toggle('is-off', !dn);
+      this._grip.down.setAttribute('aria-disabled', String(!dn));
 
       /* the rail of magnitudes — only once there is a question */
       this._rail.innerHTML = '';
       this._rail.classList.toggle('is-on', s.phase === 'after');
+      this._rail.setAttribute('role', 'group');
+      this._rail.setAttribute('aria-label', t('test'));
       if (s.phase === 'after') {
         this.rail(s, api.settings.range).forEach(function (k) {
           var b = document.createElement('button');
           b.type = 'button';
           b.className = 'crt-k' + (s.tried === k ? ' is-on' : '');
           b.textContent = String(Math.abs(k));
-          b.setAttribute('aria-label', self._fmt(t('test'), {}) + ' ' + Math.abs(k));
+          /* ⚠⚠ THIS WAS `t('test') + ' ' + Math.abs(k)` — the exact
+             label-plus-number concatenation this file bans 970 lines
+             above, and all ten native panels found it independently. In
+             Finnish `kokeilla` governs the partitive, so the phrase
+             needs *viittä* where a digit can only supply *viisi*. The
+             whole phrase now names the RAIL once, as a group, and each
+             key's accessible name is the bare numeral — which is
+             grammatically inert in every one of the eleven. */
+          b.setAttribute('aria-label', String(Math.abs(k)));
           b.addEventListener('click', function () { self._try(k, b); });
           self._rail.appendChild(b);
         });
       }
 
       /* ⚠⚠ GATE THE PAINT ON THE MOVE, NOT ON A FLAG — #55's controls
-         looked live while the model refused them, and only the live page
-         could show it. */
+         looked live while the model refused them. */
       var runDead = !this.advance(null);
       this._btn.run.classList.toggle('is-off', runDead || !!this._busy);
-      /* ⚠⚠ `is-off` IS OPACITY ONLY, SO THE CLICK LANDED. `disabled` goes
-         exactly where there is nothing TRUE to say — phase `after`. While
-         `_busy` the control stays live on purpose: there the message IS
-         true, and disabling it would make `saidMidRun` a dead string. */
       this._btn.run.disabled = runDead;
       this._btn.clear.classList.toggle('is-off', !this.clearTry(null));
       this._btn.again.classList.toggle('is-off', !!this._busy);
-      /* ⚠⚠ PRINT WAS THE ONLY CONTROL NEVER GATED HERE, which breaks the
-         law stated verbatim at the head of the moves block above. It is
-         drawn off for a free user but stays CLICKABLE, because the whole
-         point of the paywall refusal is that it gets to say why. */
-      this._btn.print.classList.toggle('is-off', !this.premium);
-
-      if (s.phase === 'before') this._say.textContent = this._fmt(t('sayBefore'), { n: s.n });
-      else if (s.phase === 'gap') this._say.textContent = '';
-      else if (s.tried !== null) this._say.textContent = this._fmt(t('sayLands'), { r: this.lands(s) });
-      else this._say.textContent = this._fmt(t('sayAfter'), { m: s.m });
+      /* the lock lives on the ONE control it governs, not across the
+         page. It stays clickable, because the whole point of the
+         paywall refusal is that it gets to say why. */
+      this._btn.print.classList.toggle('is-locked', !this.premium);
+      this._btn.print.setAttribute('aria-disabled', String(!this.premium));
 
       var key, v = { n: s.n, m: s.m, k: Math.abs(s.tried || 0), r: this.lands(s) };
       if (s.phase === 'before') key = 'ariaStart';
@@ -1264,33 +1893,6 @@
       else key = 'ariaEnd';
       this._stage.setAttribute('role', 'group');
       this._stage.setAttribute('aria-label', this._fmt(t(key), v));
-      /* ⚠⚠ THE DIRECTION IS THE EVIDENCE, AND IT LEAKED. This was set
-         UNCONDITIONALLY, so a screen-reader user was told which way the
-         change went AT MOUNT, in phase `before` — before the pulse the
-         sighted class has to wait for. 10 of 10 panels found it.
-         ⚠ AND `_ground` is a bare div: ARIA forbids naming a `generic`
-         element, so the string may have reached nobody at all. The role
-         lands in the SAME edit, or the fix converts a silent leak into an
-         audible one. */
-      /* ⚠⚠ AND IT IS GATED ON THE PULSE HAVING STARTED, NOT ON THE PHASE.
-         The first fix guarded phase `before` only — but `_run` flips to
-         `gap` and paints IMMEDIATELY, while the pulse does not begin
-         until T_FALL (380ms) later. So a screen-reader user was told the
-         direction 380ms before the sighted class saw anything: the same
-         leak the fix was for, moved earlier in time rather than closed.
-         Found by the Norwegian panel, which reported it as "code, not
-         copy" while answering a question about wording. `_pulsed` is set
-         beside `_wave.classList.add('is-on')`, so the two channels carry
-         the evidence at the same instant by construction. */
-      if (s.phase === 'before' || (s.phase === 'gap' && !this._pulsed)) {
-        this._ground.removeAttribute('aria-label');
-        this._ground.removeAttribute('role');
-        this._ground.setAttribute('aria-hidden', 'true');
-      } else {
-        this._ground.removeAttribute('aria-hidden');
-        this._ground.setAttribute('role', 'img');
-        this._ground.setAttribute('aria-label', t(this.sign(s) > 0 ? 'ariaCameIn' : 'ariaWentOut'));
-      }
     },
 
     /* ================= ENTITLEMENT + PRINT ========================== */
@@ -1313,29 +1915,50 @@
       } catch (e) { this.premium = false; }
     },
 
+    /* ⭐⭐ A FOOTNOTE, NOT A CARD. The old panel was a permanently open
+       55-word block that took roughly a quarter of the page — and forty
+       per cent of the catalogue thumbnail, which is this tool's shop
+       window — on an instrument that is free apart from one sheet. The
+       lock belongs on the control it governs. Pressing a locked Print
+       expands this; nothing else does. */
     _gate: function () {
       if (!this._gateHost) return;
       var t = this.api.t.bind(this.api), self = this;
       this._gateHost.innerHTML = '';
+      this._gateHost.classList.remove('is-open');
       if (this.premium) { this._gateHost.classList.remove('is-on'); return; }
       this._gateHost.classList.add('is-on');
+
+      /* the collapsed footnote is the SHORT sentence; the fuller one
+         appears only when a locked Print is pressed. Both keys stay
+         alive and each says the thing its length suits. */
       var h = document.createElement('p');
       h.className = 'crt-gate-h';
       h.textContent = t('lockedTitle');
+
       var b = document.createElement('p');
       b.className = 'crt-gate-b';
       b.textContent = t('lockedBody');
-      /* ⚠ MEASURED 0 CTA HERE. A panel that names what a plan buys and
-         offers no way to reach it is a dead end wearing a price tag. */
+
       var a = document.createElement('a');
       a.className = 'crt-gate-cta';
-      a.href = '/pricing';
+      /* ⚠ THE LINK USED TO NAVIGATE THE IFRAME AND DROP THE LOCALE — a
+         bare `/pricing` with no target replaced the instrument with a
+         pricing page inside a 704px frame. */
+      a.href = '/' + this.api.lang + '/pricing?from=tool-the-gap';
+      a.target = '_top';
+      a.rel = 'noopener';
       a.textContent = t('gateCta');
+
       var c = document.createElement('button');
       c.type = 'button';
       c.className = 'crt-gate-x';
       c.textContent = t('gateClose');
-      c.addEventListener('click', function () { self._gateHost.classList.remove('is-on'); });
+      c.addEventListener('click', function () {
+        self._gateHost.classList.remove('is-open');
+        self._gateDismissed = true;
+      });
+
       this._gateHost.appendChild(h);
       this._gateHost.appendChild(b);
       this._gateHost.appendChild(a);
@@ -1345,22 +1968,26 @@
     _bindPrint: function () {
       var self = this;
       if (typeof window.addEventListener !== 'function') return;
-      /* ⚠⚠ Ctrl+P IS A PRINT PATH TOO. #55 shipped a `beforeprint`
-         listener that built the paid sheet with no entitlement check, so
-         the browser's own print command handed it to every non-subscriber
-         while the copy sold it. The guard belongs on the SHEET. */
+      /* ⚠⚠ Ctrl+P IS A PRINT PATH TOO — gating the CHIP is not gating the
+         FEATURE. */
       window.addEventListener('beforeprint', function () {
         if (!self.premium) { if (self._sheet) self._sheet.innerHTML = ''; return; }
         self._buildSheet();
+        document.body.classList.add('crt-printing');
+      });
+      window.addEventListener('afterprint', function () {
+        document.body.classList.remove('crt-printing');
       });
     },
 
     _print: function () {
-      /* ⚠⚠ THIS SAID `run`, so the paywall refusal shook the RUN button
-         and spoke `saidMidRun` — "Wait for the gap to lift" — at a free
-         user standing in phase `before` with nothing in flight. */
-      if (!this.premium) { this._refuse('print'); return; }
+      if (!this.premium) {
+        this._refuse('print', this._btn.print);
+        if (this._gateHost) this._gateHost.classList.add('is-open');
+        return;
+      }
       this._buildSheet();
+      document.body.classList.add('crt-printing');
       window.print();
     },
 
@@ -1375,20 +2002,17 @@
 
       var frame = document.createElement('div');
       frame.className = 'crt-sh-frame';
-      /* ⚠⚠ THE PAID SHEET PRINTED THE ANSWER. There was no phase guard
-         here and `beforeprint` checks only the TIER, so a subscriber
-         pressing Print or Ctrl+P during `before` or during the gap put
-         `m` on the paper and on the projector before the class had
-         watched anything. `m` is BUILT ONLY IN PHASE `after` — the other
-         phases get the before-band and the ruled lines, which is exactly
-         what a teacher setting up wants and carries no answer. */
+      /* ⚠⚠ THE PAID SHEET PRINTED THE ANSWER. `m` is BUILT ONLY IN PHASE
+         `after` — the other phases get the before-band and the ruled
+         lines, which is exactly what a teacher setting up wants and
+         carries no answer. */
       var bands = (s.phase === 'after') ? [s.n, s.m] : [s.n];
       bands.forEach(function (cnt) {
         var band = document.createElement('div');
         band.className = 'crt-sh-band';
         for (i = 0; i < cnt; i++) {
           var d = document.createElement('span');
-          d.className = 'crt-mark';
+          d.className = 'crt-sh-dot';
           band.appendChild(d);
         }
         var line = document.createElement('div');
@@ -1421,92 +2045,272 @@
       if (document.getElementById('crt-css')) return;
       var st = document.createElement('style');
       st.id = 'crt-css';
-      /* ⚠⚠ THE DRAWN DURATION AND THE NAMED ONE ARE ONE NUMBER. Both of
-         these shipped hard-coded — `.25s` for a lift the constants call
-         380ms, and `.62s` for a pulse the JS waits `_dur(T_PULSE)` for.
-         The second was worse than duplication: under reduced motion the
-         JS compressed to ~174ms while the CSS kept animating for 620,
-         so the pulse was still crossing the ground after the gap had
-         lifted — "reduced motion COMPRESSES, never skips" was true of
-         half the mechanism. */
-      var lift = (GEO.T_LIFT / 1000) + 's';
-      var pulse = (this._dur(GEO.T_PULSE) / 1000) + 's';
+      /* ⚠⚠ NO DURATION IS WRITTEN HERE. Every one is a custom property
+         set by `_writeDurations()` from the named GEO constant, so the
+         drawn duration and the named one are structurally one number and
+         reduced motion can never desynchronise them. The old build baked
+         `_dur(T_PULSE)` into this cached string at first paint. */
       st.textContent = [
         /* ⚠⚠ TWO SEPARATE RULES. `html.x,body.x{}` is a selector LIST
            whose html half applies unconditionally, which makes the class
            decorative and its mutation unkillable. And the COMPLETE house
-           form needs height:auto + min-height:100% — `overflow-y:auto`
-           alone is present-and-inert against the shell's height:100%. */
+           form needs height:auto + min-height:100%. */
         'html.crt-scroll{overflow-y:auto;height:auto;min-height:100%}',
-        'body.crt-scroll{overflow-y:auto;height:auto;min-height:100%}',
-        '.crt-wrap{--crt-d:clamp(12px,4.4vw,34px);display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:660px;margin:0 auto;padding:8px 10px 14px}',
-        '.crt-stage{position:relative;width:100%;background:#F6EAD3;border:1px solid #E7DCC8;border-radius:14px;padding:16px 12px 0;transition:background ' + lift + '}',
-        '.crt-stage.is-gap{background:#0D4E44}',
-        '.crt-marks{display:flex;flex-wrap:wrap;justify-content:center;align-content:flex-end;gap:calc(var(--crt-d) * 0.22);min-height:calc(var(--crt-d) * 2.4)}',
-        '.crt-mark{width:var(--crt-d);height:var(--crt-d);border-radius:50%;background:#0E5147;flex:0 0 auto}',
-        '.crt-ground{position:relative;height:8px;border-radius:4px;background:#146B5E;margin-top:10px;overflow:hidden}',
-        '.crt-stage.is-gap .crt-ground{background:#F6EAD3}',
-        /* ⭐ the evidence: ONE pulse, FIXED amplitude, ONE iteration —
-           identical for every magnitude, which is what makes the
-           non-leak measurable rather than hoped for. */
-        '.crt-wave{position:absolute;top:0;bottom:0;width:22%;border-radius:4px;background:#F2784B;left:-24%;opacity:0}',
-        '.crt-wave.is-on{animation:crt-in ' + pulse + ' linear 1;opacity:1}',
-        '.crt-wave.is-out.is-on{animation:crt-out ' + pulse + ' linear 1}',
-        '@keyframes crt-in{from{left:-24%}to{left:102%}}',
-        '@keyframes crt-out{from{left:102%}to{left:-24%}}',
-        '.crt-counts{display:flex;gap:14px;align-items:baseline;min-height:1.1em}',
-        '.crt-num{font-family:"Baloo 2",system-ui,sans-serif;font-size:clamp(28px,7vw,46px);color:#0E5147;line-height:1}',
-        /* ⚠ the try differs in KIND, not in HUE — a coral/teal pair reads
-           as wrong/right to a six-year-old. Same colour, outlined. */
-        '.crt-num.is-try{color:#0E5147;-webkit-text-stroke:1px #0E5147;background:#FBF3E4;border:1px dashed #7A6A55;border-radius:8px;padding:0 8px}',
-        '.crt-say{font-family:Nunito,system-ui,sans-serif;font-size:15px;color:#2A2A35;text-align:center;margin:0;min-height:1.2em}',
-        '.crt-rail{display:none;flex-wrap:wrap;justify-content:center;gap:6px;width:100%}',
+        'body.crt-scroll{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%}',
+
+        /* ---- shell -------------------------------------------------- */
+        /* ⚠ 880px, not 660. The old cap was the narrow standard and is
+           why the stage read as a letterbox: `lcs-shell.css` widens the
+           card to 1240px at >=1367px and 1800px at >=1800px, and a
+           660px column inside an 1800px card is what a classroom
+           projector was actually showing. */
+        '.crt-wrap{container-type:inline-size;--num:clamp(30px,calc(var(--u,30px) * 1.25),76px);' +
+          'display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;' +
+          'max-width:880px;margin:0 auto;padding:8px 10px 14px;box-sizing:border-box}',
+
+        /* ---- the stage: a room, not a page -------------------------- */
+        /* ⚠ `--u` IS A FUNCTION OF CONTAINER WIDTH AND CAP ONLY. It may
+           NEVER read n, m or k: counters that changed size across the
+           gap would broadcast both the direction and the magnitude of
+           the change. This is the single most dangerous line here. */
+        /* ⚠⚠ THE `--rowu` FALLBACK LIVES ON THE WRAP, NOT ON THE STAGE,
+           AND THAT IS NOT A TIDINESS CHOICE. `_writeVars()` writes the
+           real value onto `.crt-wrap`; a custom property declared on the
+           STAGE would be set on the element itself and therefore beat
+           the value inherited from its own parent, so the JS number
+           could never apply. Measured with it on the stage: `--rowu`
+           read 13.02 at every viewport even at "up to sixteen", and the
+           widest row overflowed the frame by 88-271px everywhere. The
+           declaration has to sit on the same element the script writes,
+           or the default silently shadows the authority. */
+        '.crt-stage{--u:clamp(12px,3.7vw,44px);' +
+          '--u:clamp(12px,calc(87.4cqw / var(--rowu,13.02)),44px);' +
+          '--shelf:max(11px,calc(var(--u) * 0.34));--g1:calc(var(--u) * 0.20);' +
+          '--g2:calc(var(--u) * 0.62);--inset:calc(var(--u) * 0.8);' +
+          'position:relative;overflow:hidden;width:100%;box-sizing:border-box;' +
+          'border:1px solid #E7DCC8;border-radius:16px;padding:calc(var(--u) * 0.5) 0 0;' +
+          'background:linear-gradient(180deg,#F1E4CB 0%,#F8EEDA 62%,#F6EAD3 100%);' +
+          'box-shadow:inset 0 1px 0 rgba(255,255,255,.80),0 1px 2px rgba(30,20,10,.06)}',
+
+        /* the band the counters stand in */
+        '.crt-band{position:relative;z-index:1;display:flex;align-items:flex-end;' +
+          'padding-left:var(--inset);gap:var(--g2);min-height:calc(var(--u) * 2.6);' +
+          'margin-bottom:-1px}',
+        '.crt-grp{display:flex;align-items:flex-end;gap:var(--g1)}',
+
+        /* ---- the counter: the element IS the edge, ::before is the fill */
+        '.crt-mark{position:relative;display:block;flex:0 0 auto;padding:0;' +
+          'width:var(--u);height:var(--u);border-radius:50%;' +
+          '--lit:#2E7266;--fill:#146B5E;--shade:#0E5147;--edge:#0A3F37;' +
+          '--bw:2px;--hl:.36;--lift:0 2px 3px rgba(30,20,10,.22);' +
+          'background:var(--edge);filter:drop-shadow(var(--lift))}',
+        '.crt-mark::before{content:"";position:absolute;inset:var(--bw);border-radius:50%;' +
+          'background:radial-gradient(120% 100% at 50% 12%,rgba(255,255,255,var(--hl)) 0%,rgba(255,255,255,0) 46%),' +
+          'linear-gradient(180deg,var(--lit) 0%,var(--fill) 58%,var(--shade) 100%);' +
+          'box-shadow:inset 0 1px 0 rgba(255,255,255,.34),inset 0 -2px 0 rgba(0,0,0,.13)}',
+
+        /* ---- the shelf, and the track the marker runs in ------------- */
+        '.crt-shelf{position:relative;z-index:2;height:var(--shelf);width:100%;' +
+          'background:linear-gradient(180deg,#2E7266 0 2px,#146B5E 2px 62%,#0E5147 62% 100%);' +
+          'border-bottom:1.5px solid #0A3F37;box-shadow:0 4px 8px -3px rgba(30,20,10,.30)}',
+        /* the track exists in EVERY phase, empty — so the marker reads as
+           "something moved along the track", never "a bar appeared" */
+        '.crt-shelf::before{content:"";position:absolute;left:0;right:0;' +
+          'top:calc(var(--shelf) * 0.30);height:calc(var(--shelf) * 0.52);background:#0A3F37;' +
+          'box-shadow:inset 0 1px 2px rgba(0,0,0,.55),inset 0 -1px 0 rgba(255,255,255,.10)}',
+        '.crt-shelf.is-settle{animation:crt-settle var(--t-settle,110ms) ease-out 1}',
+        '@keyframes crt-settle{0%{transform:translateY(0)}45%{transform:translateY(1px)}100%{transform:translateY(0)}}',
+
+        /* ---- the five-ticks: at the group boundaries, a function of
+           `cap` and never of the count. They rise out of the shelf's top
+           face into the band, so a row of 12 reads as "two ticks and two
+           more" without a word. */
+        '.crt-tick{position:absolute;bottom:calc(var(--shelf) * 0.40);width:2px;' +
+          'height:calc(var(--shelf) * 1.35);background:rgba(10,63,55,.55);' +
+          'pointer-events:none;z-index:2}',
+
+        '.crt-floor{position:relative;z-index:3;height:calc(var(--u) * 0.70);background:#EFE0C4;' +
+          'box-shadow:inset 0 3px 6px -3px rgba(30,20,10,.28)}',
+
+        /* ---- THE BOARDS --------------------------------------------- */
+        /* they overlap 4% at the seam, so no sub-pixel rounding can ever
+           open a crack down the middle */
+        '.crt-board{position:absolute;z-index:4;top:0;width:52%;' +
+          'height:calc(var(--u) * 3.1 + 2px);' +
+          'background:linear-gradient(90deg,rgba(255,255,255,.22) 0 1.5px,rgba(255,255,255,0) 1.5px),' +
+          'repeating-linear-gradient(90deg,rgba(0,0,0,.16) 0 1px,rgba(255,255,255,.10) 1px 2px,' +
+          'rgba(0,0,0,0) 2px calc(var(--u) * 1.6)),' +
+          'linear-gradient(180deg,#8C7B63 0%,#7A6A55 42%,#6A5B48 100%);' +
+          'box-shadow:inset 0 2px 0 rgba(255,255,255,.28),inset 0 -3px 0 rgba(0,0,0,.22),' +
+          '0 5px 12px -3px rgba(30,20,10,.45)}',
+        '.crt-board-l{left:0;border-right:3px solid #5A4C3C;border-radius:0 4px 4px 0;' +
+          'transform:translateX(-102%);transition:transform var(--t-lift,380ms) cubic-bezier(.4,0,.2,1)}',
+        '.crt-board-r{right:0;border-left:3px solid #5A4C3C;border-radius:4px 0 0 4px;' +
+          'transform:translateX(102%);transition:transform var(--t-lift,380ms) cubic-bezier(.4,0,.2,1)}',
+        /* closing decelerates into the meeting — a board that is pushed
+           shut arrives and stops; opening starts under control */
+        '.crt-stage.is-shut .crt-board-l,.crt-stage.is-shut .crt-board-r{transform:translateX(0);' +
+          'transition:transform var(--t-fall,380ms) cubic-bezier(.22,.68,.24,1)}',
+
+        /* ---- THE MARKER: crosses in FRONT of the closed boards -------- */
+        /* ⚠ THE MARKER RIDES IN THE SHELF, NOT ABOVE IT. Anchoring it to
+           the track's own bottom edge (`0.70u + 0.18 * shelf`) floated it
+           clear of the plinth, because the track is only `0.18u` deep
+           while the marker is `1.15u` tall — a ratio the spec's "lower
+           44% sits inside the track" cannot survive. Sitting it on the
+           floor line puts roughly a third of its body over the shelf, so
+           it reads as travelling ALONG the plinth rather than hovering
+           over it, which is the whole reason the track is cut. */
+        '.crt-marker{position:absolute;z-index:5;pointer-events:none;' +
+          'bottom:calc(var(--u) * 0.70);' +
+          'width:calc(var(--u) * 3.2);height:calc(var(--u) * 1.15);left:-24%;opacity:0;' +
+          'filter:drop-shadow(0 2px 3px rgba(30,20,10,.38))}',
+        '.crt-marker.is-on{opacity:1;animation:crt-in var(--t-pulse,620ms) linear 1}',
+        '.crt-marker.is-out{transform:scaleX(-1)}',
+        '.crt-marker.is-out.is-on{animation:crt-out var(--t-pulse,620ms) linear 1}',
+        '@keyframes crt-in{from{left:-24%}to{left:104%}}',
+        '@keyframes crt-out{from{left:104%}to{left:-24%}}',
+
+        /* ---- the readout: three fixed slots -------------------------- */
+        '.crt-read{display:grid;grid-template-columns:1fr 1fr 1fr;align-items:end;' +
+          'justify-items:center;gap:clamp(10px,2.4vw,28px);width:100%;' +
+          'min-height:calc(var(--num) * 1.5)}',
+        /* ⚠ `flex-end`, NOT `center`. The three numerals must sit on ONE
+           baseline — they differ in KIND and in nothing else, and a
+           numeral riding higher than its neighbours reads as a different
+           KIND of thing. Cell 1 is taller than the other two because it
+           carries the grip stack (which keeps its space even when
+           hidden, so nothing moves when it goes live), and centring the
+           numeral inside that taller box lifted the witnessed start ~25px
+           above the other two. Measured in the German render. */
+        '.crt-cell{display:flex;align-items:flex-end;gap:8px}',
+        /* ⭐ the teacher's grips are visually SUBORDINATE to the numeral
+           they set — a teacher sets the start once and the class looks
+           at the material, not at the controls. They reserve their space
+           at all times so nothing on the row moves when they go live. */
+        '.crt-set{display:flex;flex-direction:column;gap:4px;visibility:hidden}',
+        '.crt-set.is-on{visibility:visible}',
+        '.crt-grip{display:flex;align-items:center;justify-content:center;' +
+          'width:44px;height:44px;padding:0;border-radius:9px;cursor:pointer;' +
+          'border:1.5px solid #7A6A55;background:#FBF3E4;color:#146B5E;' +
+          'box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 1px 2px rgba(30,20,10,.10)}',
+        '.crt-grip.is-off{opacity:.42;box-shadow:none;cursor:default}',
+        '.crt-grip.is-refuse{animation:crt-shake var(--t-refuse,200ms) ease-in-out 1;' +
+          'box-shadow:0 0 0 3px rgba(122,106,85,.45)}',
+        '.crt-grip:focus-visible{outline:3px solid #0D4E44;outline-offset:3px}',
+        '.crt-chev{width:20px;height:20px}',
+        '.crt-num{font-family:"Baloo 2",Nunito,system-ui,sans-serif;font-weight:700;' +
+          'font-size:var(--num);line-height:1;color:#0E5147;font-variant-numeric:tabular-nums;' +
+          'min-width:2ch;text-align:center}',
+        /* ⚠ SOLID INK vs HOLLOW INK. Kind, never hue: both are #0E5147,
+           both the same size, both on one baseline. A coral/teal pair
+           would be a verdict delivered by the palette. */
+        '.crt-num.is-try{color:#0E5147;color:transparent;-webkit-text-stroke:2.5px #0E5147;' +
+          'background:#FBF3E4;border:2px dashed #7A6A55;border-radius:10px;padding:2px 10px;' +
+          'animation:crt-ink var(--t-ink,160ms) cubic-bezier(.2,.8,.2,1) 1}',
+        '@keyframes crt-ink{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}',
+        /* an empty slot is not blank — it invites the number */
+        '.crt-num-empty{display:inline-block;width:1.4ch;height:0;' +
+          'border-bottom:2px dotted #7A6A55;margin-bottom:calc(var(--num) * 0.12)}',
+
+        /* ---- the rail ------------------------------------------------ */
+        '.crt-rail{display:none;flex-wrap:wrap;justify-content:center;gap:8px;width:100%}',
         '.crt-rail.is-on{display:flex}',
-        '.crt-k{min-width:44px;min-height:44px;border-radius:10px;border:1px solid #E7DCC8;background:#FBF3E4;color:#0E5147;font-family:"Baloo 2",system-ui,sans-serif;font-size:17px;cursor:pointer}',
-        '.crt-k.is-on{background:#146B5E;color:#FBF3E4}',
-        '.crt-k:focus-visible,.crt-btn:focus-visible{outline:3px solid #0D4E44;outline-offset:2px}',
-        '.crt-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;width:100%}',
-        '.crt-btn{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:9px 14px;border-radius:11px;border:1px solid #E7DCC8;background:#FBF3E4;color:#2A2A35;font-family:Nunito,system-ui,sans-serif;font-size:15px;cursor:pointer}',
-        '.crt-btn.is-off{opacity:.45;cursor:default}',
-        '.crt-btn.is-refuse{transform:translateX(-3px)}',
-        /* ⚠ a refused TRY shakes the rail key that was pressed, so the
-           shake needs a rule on `.crt-k` too — it had none. */
-        '.crt-k.is-refuse{transform:translateX(-3px)}',
-        '.crt-btn:disabled{opacity:.45;cursor:default}',
-        '.crt-glyph{font-size:17px;line-height:1}',
-        '.crt-gate{display:none;width:100%;background:#FBF3E4;border:1px dashed #E7DCC8;border-radius:12px;padding:12px 14px}',
+        '.crt-k{min-width:52px;min-height:52px;border-radius:12px;border:1.5px solid #7A6A55;' +
+          'background:#FBF3E4;color:#0E5147;font-family:"Baloo 2",system-ui,sans-serif;' +
+          'font-weight:700;font-size:20px;cursor:pointer;' +
+          'box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 1px 2px rgba(30,20,10,.10)}',
+        /* a SELECTION, not a verdict — it differs in depth as well as fill */
+        '.crt-k.is-on{background:#146B5E;color:#FBF3E4;' +
+          'box-shadow:inset 0 2px 0 rgba(255,255,255,.22),inset 0 -2px 0 rgba(0,0,0,.18)}',
+        '.crt-k.is-refuse{animation:crt-shake var(--t-refuse,200ms) ease-in-out 1}',
+
+        /* ---- chrome -------------------------------------------------- */
+        '.crt-row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;' +
+          'gap:10px;width:100%}',
+        '.crt-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;' +
+          'position:relative;min-height:48px;min-width:48px;padding:0 14px;border-radius:12px;' +
+          'font-family:Nunito,system-ui,sans-serif;font-size:15px;cursor:pointer;' +
+          'background:#FBF3E4;color:#2A2A35;border:1.5px solid #7A6A55;' +
+          'box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 1px 2px rgba(30,20,10,.10);' +
+          'transition:transform var(--t-hover,120ms) ease-out}',
+        '.crt-btn:hover:not(.is-off):not(:disabled){transform:translateY(-1px)}',
+        '.crt-btn.is-primary{background:#146B5E;color:#FBF3E4;border:1px solid #0E5147;' +
+          'box-shadow:0 2px 0 #0E5147,0 3px 6px rgba(30,20,10,.18)}',
+        '.crt-btn.is-primary:active{transform:translateY(2px);box-shadow:0 0 0 #0E5147}',
+        '.crt-icon{width:22px;height:22px;flex:0 0 auto}',
+        /* ⚠ disabled loses its SHADOW — it stops looking pressable, which
+           is a difference in KIND and not only in value */
+        '.crt-btn.is-off,.crt-btn:disabled{opacity:.42;box-shadow:none;cursor:default;transform:none}',
+        /* ⚠ a BROWN ring, never coral: coral is the evidence, and a
+           refusal is "not now", not "wrong" */
+        '.crt-btn.is-refuse{animation:crt-shake var(--t-refuse,200ms) ease-in-out 1;' +
+          'box-shadow:0 0 0 3px rgba(122,106,85,.45)}',
+        '@keyframes crt-shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}' +
+          '75%{transform:translateX(4px)}}',
+        '.crt-k:focus-visible,.crt-btn:focus-visible{outline:3px solid #0D4E44;outline-offset:3px}',
+        '.crt-label{white-space:nowrap}',
+        /* the lock lives on the one control it governs */
+        '.crt-btn.is-locked::after{content:"";position:absolute;top:5px;right:6px;width:9px;height:11px;' +
+          'border-radius:2px;background:#7A6A55;box-shadow:0 -4px 0 -1.5px transparent,' +
+          'inset 0 0 0 10px #7A6A55}',
+        '.crt-btn.is-locked::before{content:"";position:absolute;top:2px;right:8.5px;width:5px;height:5px;' +
+          'border:1.5px solid #7A6A55;border-bottom:0;border-radius:3px 3px 0 0}',
+
+        /* ---- the paywall: a footnote, not a card --------------------- */
+        '.crt-gate{display:none;width:100%;text-align:center}',
         '.crt-gate.is-on{display:block}',
-        '.crt-gate-h{margin:0 0 5px;font-family:"Baloo 2",system-ui,sans-serif;font-size:16px;color:#0D4E44}',
-        '.crt-gate-b{margin:0 0 10px;font-family:Nunito,system-ui,sans-serif;font-size:14px;color:#7A6A55;line-height:1.45}',
-        '.crt-gate-cta{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border-radius:11px;background:#146B5E;color:#FBF3E4;font-family:Nunito,system-ui,sans-serif;font-size:15px;text-decoration:none}',
-        '.crt-gate-x{min-height:44px;margin-left:8px;padding:0 12px;border:0;background:none;color:#7A6A55;font-family:Nunito,system-ui,sans-serif;font-size:14px;cursor:pointer;text-decoration:underline}',
+        '.crt-gate-h{margin:0 0 4px;font-family:Nunito,system-ui,sans-serif;font-size:13px;color:#7A6A55}',
+        '.crt-gate-b{margin:0 0 6px;font-family:Nunito,system-ui,sans-serif;font-size:13px;' +
+          'color:#7A6A55;line-height:1.45;max-height:0;overflow:hidden;opacity:0;' +
+          'transition:max-height 240ms cubic-bezier(.2,.8,.2,1),opacity 240ms ease-out}',
+        '.crt-gate.is-open .crt-gate-b{max-height:8em;opacity:1}',
+        '.crt-gate-cta{display:inline-block;font-family:Nunito,system-ui,sans-serif;font-size:13px;' +
+          'color:#146B5E;text-decoration:underline;padding:6px 4px}',
+        '.crt-gate.is-open .crt-gate-cta{display:inline-flex;align-items:center;min-height:44px;' +
+          'padding:0 16px;border-radius:11px;background:#146B5E;color:#FBF3E4;text-decoration:none;' +
+          'font-size:15px}',
+        '.crt-gate-x{display:none;min-height:44px;margin-left:8px;padding:0 12px;border:0;' +
+          'background:none;color:#7A6A55;font-family:Nunito,system-ui,sans-serif;font-size:14px;' +
+          'cursor:pointer;text-decoration:underline}',
+        '.crt-gate.is-open .crt-gate-x{display:inline-block}',
         '.crt-gate-cta:focus-visible,.crt-gate-x:focus-visible{outline:3px solid #0D4E44;outline-offset:2px}',
+
+        /* ---- reflow -------------------------------------------------- */
+        '@media (max-width:400px){.crt-mark{--bw:1px;--hl:0;--lift:0 1px 1px rgba(30,20,10,.18)}}',
+        '@media (max-width:340px){.crt-wrap{padding-left:0;padding-right:0}' +
+          '.crt-stage{--g1:calc(var(--u) * 0.22);--g2:calc(var(--u) * 0.22);--inset:0}}',
+        '@media (min-width:560px){.crt-b-print{margin-inline-start:auto}}',
+        /* ⚠ the wide tier the tool never had. It shipped with exactly two
+           @media occurrences and both were @media print. */
+        '@media (min-width:1367px){.crt-wrap{max-width:1180px}' +
+          '.crt-stage{--u:clamp(12px,calc(87.4cqw / var(--rowu,13.02)),64px)}' +
+          '.crt-mark{--bw:2.5px;--hl:.42;--lift:0 3px 5px rgba(30,20,10,.24)}' +
+          '.crt-btn{min-height:52px}.crt-icon{width:24px;height:24px}}',
+
+        /* ---- the sheet ----------------------------------------------- */
         '.crt-sheet{display:none}',
-        /* ⚠ scoped to print. lcs-shell.css ships no @media print block at
-           all, so a real worksheet MUST reset the shell. */
-        /* ⚠⚠ `.lcs-shell` IS NOT A CLASS. It appears once in the whole
-           stylesheet — on line 2, in the comment naming the file. The
-           shell emits `.lcs-app`, `.lcs-header`, `.lcs-title`,
-           `.lcs-instruction`, `.lcs-controls`, `.lcs-stage`. So this
-           rule hid only the wrap, and the shell header, the tool title,
-           the instruction line and the four chrome buttons REACHED THE
-           PAPER on every sheet. Four tools shipped the same typo from
-           one ancestor: this one, `missing-question`, `shape-stretcher`
-           and `the-queue`.
-           ⚠ Still UNSCOPED, unlike the `body.<ns>-printing` form eight
-           other tools use — a free visitor pressing Ctrl+P gets a blank
-           page rather than a sheet. That is the lower-severity half and
-           it is left for this tool's own next touch, because scoping it
-           means moving its print flow, which is not verified here. */
-        '@media print{.lcs-header,.lcs-controls,.crt-wrap{display:none !important}',
-        '.crt-sheet{display:block !important;padding:0}',
+        /* ⚠⚠ SCOPED to a class the print flow itself adds. The old block
+           was UNSCOPED, so a free visitor pressing Ctrl+P got `.crt-wrap`
+           hidden and an empty sheet — A BLANK PAGE. The file's own
+           comment conceded this and deferred it. And it hid
+           `.lcs-header,.lcs-controls` only, so `.lcs-app`'s card surface,
+           radius and shadow still printed around the sheet. */
+        '@media print{body.crt-printing .lcs-header,body.crt-printing .lcs-controls,' +
+          'body.crt-printing .crt-wrap{display:none !important}',
+        'body.crt-printing .lcs-app,body.crt-printing .lcs-stage{background:none !important;' +
+          'box-shadow:none !important;border:0 !important;padding:0 !important;margin:0 !important;' +
+          'max-width:none !important}',
+        'body.crt-printing .crt-sheet{display:block !important;padding:0}',
         '.crt-sh-h{font-family:"Baloo 2",system-ui,sans-serif;font-size:19pt;color:#000;margin:0 0 10pt}',
         '.crt-sh-frame{border:1pt solid #000;border-radius:6pt;padding:10pt;margin:0 0 10pt}',
         '.crt-sh-band{display:flex;flex-wrap:wrap;gap:4pt;min-height:24pt;align-items:flex-end}',
         '.crt-sh-ground{height:2pt;background:#000;margin:4pt 0 12pt}',
-        '.crt-sh-frame .crt-mark{width:11pt;height:11pt;background:#000}',
+        /* the screen fills, the paper outlines */
+        '.crt-sh-dot{width:11pt;height:11pt;border-radius:50%;border:1pt solid #000;display:block}',
         '.crt-sh-hint{font-family:Nunito,system-ui,sans-serif;font-size:10pt;margin:0 0 8pt}',
-        '.crt-sh-line{border-bottom:0.75pt solid #000;height:26pt}}'
+        '.crt-sh-line{border-bottom:0.75pt solid #000;height:26pt}',
+        '@page{margin:15mm}}'
       ].join('');
       document.head.appendChild(st);
     }

@@ -25,29 +25,40 @@ const wait = ms => new Promise(r => setTimeout(r, ms));
     ok(n >= 3, lang + ': only ' + n + ' marks at rest');
     ok(n <= 16, lang + ': ' + n + ' marks exceeds CAP');
 
-    /* the marks rest ON the ground, not under it */
+    /* the marks rest ON the shelf, not under it (the rebuild renamed the
+       baseline crt-ground -> crt-shelf) */
     const geo = await p.evaluate(() => {
       const m = [].slice.call(document.querySelectorAll('.crt-mark'));
-      const g = document.querySelector('.crt-ground').getBoundingClientRect();
+      const g = document.querySelector('.crt-shelf').getBoundingClientRect();
       return { low: Math.max.apply(null, m.map(x => x.getBoundingClientRect().bottom)), gTop: g.top };
     });
-    ok(geo.low <= geo.gTop + 2, lang + ': marks hang BELOW the ground');
+    ok(geo.low <= geo.gTop + 2, lang + ': marks hang BELOW the shelf');
+
+    /* the direction is announced through the shell's ONE polite live
+       region (`api.announce`), NOT an aria-label on a non-focused node —
+       the whole point of the rebuild's a11y fix — so read it THERE. At
+       rest it holds the deal announcement, never a direction. */
+    const liveSel = '.lcs-sr-only[aria-live="polite"]';
+    const before = await p.$eval(liveSel, e => (e.textContent || '').trim());
 
     /* ⭐⭐ THE HEADLINE, BY BUTTON. During the gap the marks must not
-       merely be hidden — they must NOT EXIST. */
+       merely be hidden — they must NOT EXIST. Timing (measured from the
+       source): the rebuild keeps the marks in the DOM until T_FALL=380ms
+       — the class watches them be covered — then removes them AND speaks
+       the direction; the run completes at T_FALL+T_PULSE=1000ms. Read
+       during the gap: past 380ms, well before 1000ms. */
     await p.click('.crt-b-run');
-    await wait(320);
+    await wait(600);
     const during = await p.$$eval('.crt-mark', e => e.length);
     ok(during === 0, lang + ': ' + during + ' marks still in the DOM during the gap');
-    const groundLbl = await p.$eval('.crt-ground', e => e.getAttribute('aria-label') || '');
-    ok(groundLbl === '', lang + ': the direction leaked before the pulse — "' + groundLbl + '"');
+    const midLive = await p.$eval(liveSel, e => (e.textContent || '').trim());
+    ok(midLive.length > 0 && midLive !== before,
+       lang + ': no direction reached the live region during the gap ("' + before + '" -> "' + midLive + '")');
 
-    await wait(1400);   /* past T_FALL + T_PULSE */
+    await wait(640);   /* now past T_FALL + T_PULSE = 1000ms */
     const after = await p.$$eval('.crt-mark', e => e.length);
     ok(after >= 1 && after <= 16, lang + ': ' + after + ' marks after the gap');
     ok(after !== n, lang + ': the count did not change across the gap (' + n + ' → ' + after + ')');
-    const dir = await p.$eval('.crt-ground', e => e.getAttribute('aria-label') || '');
-    ok(dir.length > 3, lang + ': no direction announced after the pulse');
 
     /* the rail exists only once there is a question, and every key is
        a real magnitude the model will accept */

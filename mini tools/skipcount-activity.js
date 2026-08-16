@@ -80,6 +80,21 @@
       srWhich: 'Una serie de conteo: {shown}. ¿De cuánto es cada brinco? Opciones: {choices}.',
       srFillFwd: 'Contando de {step} en {step}: {shown}. ¿Qué número falta? Opciones: {choices}.',
       srFillBack: 'Contando de {step} en {step} hacia atrás: {shown}. ¿Qué número falta? Opciones: {choices}.'
+    },
+    /* pt-BR — native ensemble (linguista + pedagoga do 2º ano, BNCC). "pulo" = o salto do
+       sapo (narrativa); "contar de {step} em {step}" = o termo matemático (NUNCA o calco
+       "contar por 5"). Contagem regressiva = "para trás". Só dígitos, sem números por extenso. */
+    pt: {
+      win: 'Isso! {note}',
+      winFill: '{a} vem em seguida na contagem!',
+      winFillMid: '{a} completa a sequência!',
+      winStep: 'cada pulo é +{a}!',
+      nFill: 'Conte os pulos com o Hopper: continue somando {s}.',
+      nStep: 'Veja quanto cada número cresce.',
+      srBlank: 'espaço vazio',
+      srWhich: 'Uma sequência de contagem: {shown}. De quanto é cada pulo? Opções: {choices}.',
+      srFillFwd: 'Contando de {step} em {step}: {shown}. Qual número está faltando? Opções: {choices}.',
+      srFillBack: 'Contando de {step} em {step} para trás: {shown}. Qual número está faltando? Opções: {choices}.'
     }
   };
   function txt(k, a) {
@@ -123,11 +138,11 @@
   var SkipCountActivity = {
     id: 'skipcount-activity',
     strings: {
-      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge', fr: 'Les bonds de Hopper sur les nénuphars', es: 'Los brincos de Hopper' },
-      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!', fr: "Aide Hopper la grenouille à compter par bonds à travers l'étang !", es: '¡Ayuda a Hopper la rana a contar saltando por el estanque!' },
-      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?', fr: 'Compte de {step} en {step}. Quel nombre manque ?', es: 'Cuenta de {step} en {step}. ¿Qué número falta?' },
-      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?', fr: 'Compte de {step} en {step} en reculant. Quel nombre manque ?', es: 'Cuenta de {step} en {step} hacia atrás. ¿Qué número falta?' },
-      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?', fr: 'De combien Hopper avance-t-il à chaque bond ?', es: '¿De cuánto es cada brinco?' }
+      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge', fr: 'Les bonds de Hopper sur les nénuphars', es: 'Los brincos de Hopper', pt: 'Os pulos do Hopper' },
+      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!', fr: "Aide Hopper la grenouille à compter par bonds à travers l'étang !", es: '¡Ayuda a Hopper la rana a contar saltando por el estanque!', pt: 'Ajude o sapo Hopper a contar pulando pela lagoa!' },
+      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?', fr: 'Compte de {step} en {step}. Quel nombre manque ?', es: 'Cuenta de {step} en {step}. ¿Qué número falta?', pt: 'Conte de {step} em {step}. Qual número está faltando?' },
+      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?', fr: 'Compte de {step} en {step} en reculant. Quel nombre manque ?', es: 'Cuenta de {step} en {step} hacia atrás. ¿Qué número falta?', pt: 'Conte de {step} em {step} para trás. Qual número está faltando?' },
+      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?', fr: 'De combien Hopper avance-t-il à chaque bond ?', es: '¿De cuánto es cada brinco?', pt: 'De quanto é cada pulo?' }
     },
 
     init: function (api) {

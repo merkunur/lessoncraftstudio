@@ -192,6 +192,30 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Pip, o esquilo, passou o dia no bosque juntando folhas, bagas, bolotas, pinhas e cogumelos, e anotou cada achado em uma tabela de contagem. Aqui a criança ajuda Pip a transformar essa contagem em um gráfico de barras, subindo cada coluna de uma unidade por vez até ela combinar com tudo o que o esquilo encontrou.",
+        "A ideia central é que os dados se coletam, se representam e se leem: primeiro se conta, depois se constrói o gráfico e, por fim, ele é interpretado. Com as barras à vista, a criança compara categorias — quantas folhas a mais que bagas —, junta as categorias para descobrir quantas há no total e decide se uma afirmação é verdadeira ou falsa, tudo sem pressa por contar rápido.",
+        "Esta é a primeira atividade de dados da plataforma e trabalha a unidade temática Probabilidade e estatística da BNCC no 2º ano: ler uma tabela de contagem e construir e interpretar um gráfico de colunas é uma das bases do letramento matemático nos anos iniciais do ensino fundamental."
+      ],
+      "practices": [
+        "Construir um gráfico de barras a partir de uma tabela de contagem, uma unidade de cada vez",
+        "Ler o gráfico e comparar as quantidades: quantos a mais e quantos a menos entre as categorias",
+        "Juntar categorias para descobrir quantos há no total",
+        "Relacionar a tabela de contagem com o gráfico correto e decidir se uma afirmação sobre os dados é verdadeira ou falsa",
+        "Interpretar os dados representados para responder a perguntas simples"
+      ],
+      "howToPlay": [
+        "Observe a tabela de contagem de Pip e toque em cada coluna para subi-la, colocando uma unidade para cada achado até o gráfico de barras ficar completo.",
+        "Quando o gráfico estiver pronto, responda às perguntas: quantas folhas a mais que bagas, quantos cogumelos no total ou se a afirmação é verdadeira ou falsa.",
+        "Se algo não bater, use «Desfazer» para tirar a última unidade e ajustar a coluna: aqui se aprende explorando, sem pressa e sem pontuação."
+      ],
+      "learningGoals": [
+        "Representar dados organizando as informações de uma contagem em um gráfico de barras claro",
+        "Interpretar o gráfico para comparar categorias e calcular totais",
+        "Desenvolver o trabalho com a unidade temática Probabilidade e estatística da BNCC, lendo tabelas e gráficos com confiança no 2º ano"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Tuck, o hamster, encara uma conta teimosa: em 342 − 5 há só 2 unidades, mas ele precisa tirar 5. É aí que ele aprende a desagrupar uma dezena — troca uma barrinha de dez por 10 cubinhos soltos para que as unidades enfim deem conta.",

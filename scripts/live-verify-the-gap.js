@@ -72,9 +72,20 @@ const wait = ms => new Promise(r => setTimeout(r, ms));
     ok(nums.length === 3, lang + ': ' + nums.length + ' numerals after a try (want 3)');
     ok(nums.every(t => /^\d+$/.test(t)), lang + ': a numeral is not a number — ' + nums.join(','));
 
-    /* nothing may encode correctness */
-    const colours = await p.$$eval('.crt-num', e => e.map(x => getComputedStyle(x).color));
-    ok(new Set(colours).size === 1, lang + ': the numerals differ in COLOUR — ' + colours.join(' | '));
+    /* NOTHING MAY ENCODE CORRECTNESS BY HUE. The child's theory numeral is
+       `.crt-num.is-try` — it differs in KIND (dashed outline + text-stroke)
+       to say "this one is YOURS", but the load-bearing no-verdict invariant
+       is that it NEVER differs in HUE: both are #0E5147, one solid and one
+       outlined. So compare the effective INK — the fill, or the text-stroke
+       colour when the fill is the outline's transparent — never raw `color`
+       (which reads the outline as rgba(0,0,0,0) and condemns a correct
+       readout). Empty spacer slots are excluded. */
+    const inks = await p.$$eval('.crt-num:not(.crt-num-empty)', e => e.map(x => {
+      const s = getComputedStyle(x);
+      const transparent = s.color === 'transparent' || s.color === 'rgba(0, 0, 0, 0)';
+      return transparent ? (s.webkitTextStrokeColor || s.color) : s.color;
+    }));
+    ok(new Set(inks).size === 1, lang + ': the numerals differ in HUE — ' + inks.join(' | '));
 
     /* chrome floor, and the locale actually renders */
     const small = await p.$$eval('.crt-btn, .crt-k', e => e.filter(x => x.getBoundingClientRect().height < 44).length);

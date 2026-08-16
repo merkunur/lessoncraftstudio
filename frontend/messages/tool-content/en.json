@@ -1518,28 +1518,28 @@
   },
   "the-queue": {
     "slug": "the-queue",
-    "name": "The Queue",
-    "tagline": "Count three from one end, then three from the other. Nobody moved — so why is it somebody else?",
+    "name": "The Counting Line",
+    "tagline": "Count a line of characters from one end, then the other. Everyone gets a different number, but how many is always the same.",
     "about": [
-      "Four shapes stand on a platform. Choose an end, step along, and see who you land on. Then choose the other end and take exactly the same number of steps. Nothing on the platform has moved, and yet the answer is usually a different one.",
-      "That is the whole instrument. A child who has learned to count \"one, two, three\" along a row often hears \"third\" as a name the object carries, the way its colour is a name it carries. It is not: it is a report about where you started counting. The platform makes the point without arguing it, because the shapes are visibly untouched between the two counts.",
-      "There is no front. The walker waits off the platform until an end is chosen, and neither button is the real one — a default end would quietly assert that one direction is the true direction, which is the misconception itself.",
-      "The shapes carry no letters, no numbers and no ranking. All four are drawn to the same area and stand on the same line, so nothing in the material answers \"which one\" before the class does."
+      "A row of friendly characters stands on a shelf. Choose an end and slide the counting hand along; as it passes each one, that character wears the running number — one, two, three, four. The last number it reaches is how many there are.",
+      "Now count the same line from the other end. Nobody has moved, yet each character now wears a different number — and the total underneath the line is exactly the same. That is the idea the instrument exists to make visible: the last number tells how many, and it does not depend on which end you started counting from.",
+      "The number a character wears is a report about how far you have counted, not a name the character carries. Count back from the other end and watch a still character change its number: it is the clearest way to show a young counter that \"three\" is not who you are, it is how far we got.",
+      "There is no front. The hand waits off the shelf until an end is chosen, and neither end is the real one. On a line of five there is a character in the middle who wears the same number from both ends — finding it, and asking why only that one does, is the best moment the tool has."
     ],
     "howToUse": [
-      "Put it on the board and ask the class to count three along from the left-hand end. Ask who they landed on before you press anything.",
-      "Now count three from the other end. Ask the question that matters: did anybody move?",
-      "Let one leave the platform and count again from the same end. The far end's answers do not budge — that is worth noticing out loud.",
-      "Switch to three waiting. With an odd number there is a place where both ends give the same answer, and finding it is the best moment the tool has."
+      "Put it on the board, choose an end, and slide the hand along while the class counts aloud. Stop at the far end and ask: how many? The last number is the answer.",
+      "Clear it, choose the OTHER end, and count again. Ask the question that matters: did anybody move? Is it still the same how-many?",
+      "Point at one character and ask what number it wore the first time, and what it wears now. Same character, didn't move — a different number, and the total stayed the same.",
+      "On a line of five, find the character in the middle that gets the same number from both ends, and ask the class why only that one does."
     ],
     "classroomIdeas": [
-      "Line up four children at the front of the room and run the same routine on them before you open the tool. The screen then confirms what the class already argued about.",
-      "Ask a child to describe who to fetch without pointing — they will reach for \"third\", and then have to say third from where.",
-      "Use it for two minutes at the start of a lesson on ordinal words, then leave it on screen while the class works.",
-      "Print the sheet and let pairs record one count per line: which end they started from, and who they finished on. The printed sheet comes with a Teacher plan; the apparatus itself — every platform, both ends, the walker — is free for everyone."
+      "Stand five children in a line at the front and run the routine on them before you open the tool — count from one end, then the other — so the screen confirms what the class just argued about.",
+      "Use it to settle the everyday muddle between \"the third one\" (which one) and \"three\" (how many): the running number on a character and the total underneath the line are two different things.",
+      "With a Teacher plan, let one more join the line or one leave, and count on or count back from the number you already had.",
+      "Print the sheet and let pairs record one count per line: which end they started from, and how many. The printed sheet and the join-and-leave counting come with a Teacher plan; the whole apparatus — every line, both ends, sliding the hand, and counting from either way — is free for everyone."
     ],
-    "metaTitle": "The Queue — ordinal position teaching tool for K-2 | LessonCraftStudio",
-    "metaDescription": "A free classroom tool for teaching ordinal position. Count from one end of the platform, then the other: nobody moves, but the answer changes. Works on any board or tablet, no account needed."
+    "metaTitle": "The Counting Line — count a line from both ends | LessonCraftStudio",
+    "metaDescription": "A free K-2 classroom counting tool. Slide the hand to count a line of characters; the last number tells how many. Count from the other end and everyone gets a different number, but how many stays the same. Any board or tablet, no account."
   },
   "labels": {
     "about": "About this tool",

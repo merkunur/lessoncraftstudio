@@ -1508,29 +1508,29 @@
     ]
   },
   "the-queue": {
-    "slug": "perrongen",
-    "name": "Perrongen",
-    "tagline": "Räkna tre från den ena änden och sedan tre från den andra. Ingen har flyttat sig — varför är det någon annan?",
+    "slug": "the-queue",
+    "name": "Räkneraden",
+    "tagline": "Räkna en rad med figurer från ena änden, sedan från den andra. Var och en får ett annat tal, men hur många är alltid detsamma.",
     "about": [
-      "Fyra figurer står på en perrong. Välj en ände, gå ett kliv i taget och se vem ni hamnar på. Välj sedan andra änden och gå lika många kliv. Ingen på perrongen har flyttat sig, och ändå hamnar ni nästan alltid på någon annan.",
-      "Det är hela apparaten. Ett barn som har lärt sig räkna längs en rad hör ofta «den tredje» som ett namn saken bär, på samma sätt som den bär sin färg. Det är det inte: det är en uppgift om var ni började räkna. Perrongen visar det utan att argumentera för det, eftersom man mellan de två räkningarna ser att ingen rörs.",
-      "Det finns ingen framsida. Vandraren står bredvid perrongen tills en ände är vald, och ingen av de två knapparna är den rätta — en förvald ände skulle tyst påstå att ett håll är det riktiga, vilket är just missuppfattningen.",
-      "Figurerna bär varken bokstäver, siffror eller rangordning. Alla fyra är uträknade på samma yta och står på samma linje, så att ingenting i materialet svarar «vilken?» innan klassen gör det."
+      "En rad med glada figurer står på en hylla. Välj en ände och dra räknehanden längs raden — när den passerar varje figur får den sitt löpande tal: ett, två, tre, fyra. Sista talet den når är hur många det är.",
+      "Räkna nu samma rad från den andra änden. Ingen har flyttat sig, ändå bär varje figur nu ett annat tal — och summan under raden är exakt densamma. Det är just det som verktyget vill göra synligt: sista talet säger hur många, och det beror inte på vilken ände du började räkna från.",
+      "Talet en figur bär berättar hur långt du har räknat, det är inget namn figuren heter. Räkna bakåt från den andra änden och se en figur som står stilla byta tal: det är det tydligaste sättet att visa en liten räknare att \"tre\" inte är den man är, utan hur långt vi kom.",
+      "Det finns ingen framsida. Handen väntar utanför hyllan tills en ände är vald, och ingen ände är den rätta. På en rad med fem finns en figur i mitten som får samma tal från båda ändarna — att hitta den, och fråga varför bara den gör det, är stundens bästa fråga."
     ],
     "howToUse": [
-      "Sätt upp den på tavlan och låt klassen gå tre kliv från den vänstra änden. Låt dem säga vem de hamnar på innan ni trycker på något.",
-      "Nu tre kliv från andra änden. Och sedan frågan det handlar om: har någon flyttat sig?",
-      "Låt någon gå härifrån och räkna om från samma ände. Från andra hållet ändras ingenting — det är värt att säga högt.",
-      "Ställ om till tre som står. Med ett udda antal finns det ett ställe där båda ändarna ger samma svar, och att hitta det är apparatens finaste ögonblick."
+      "Sätt upp den på tavlan, välj en ände och dra handen längs raden medan klassen räknar högt. Stanna vid andra änden och fråga: hur många? Sista talet är svaret.",
+      "Rensa, välj den ANDRA änden och räkna igen. Ställ den fråga som betyder något: flyttade någon på sig? Är det fortfarande lika många?",
+      "Peka på en figur och fråga vilket tal den bar första gången och vilket den bär nu. Samma figur, som inte flyttat sig — ett annat tal, och summan är densamma.",
+      "På en rad med fem, hitta figuren i mitten som får samma tal från båda ändarna, och fråga klassen varför bara den gör det."
     ],
     "classroomIdeas": [
-      "Ställ fyra barn på rad längst fram och gör samma sak med dem innan ni öppnar verktyget. Skärmen bekräftar sedan det klassen redan har tvistat om.",
-      "Be ett barn säga vem som ska hämtas utan att peka — det säger «den tredje», och måste sedan lägga till: den tredje räknat varifrån.",
-      "Två minuter för att inleda en lektion om ordningstal, och låt den sedan stå kvar medan klassen arbetar.",
-      "Skriv ut arbetsbladet och låt dem två och två skriva en räkning per rad: vilken ände de började i och vem de hamnade på. Arbetsbladet ingår i Lärarplanen; själva perrongen — båda ändarna, vandraren — är gratis för alla."
+      "Ställ fem barn på rad längst fram och kör rutinen på dem innan du öppnar verktyget — räkna från ena änden, sedan från den andra — så bekräftar skärmen det klassen just diskuterat.",
+      "Använd den för att reda ut vardagsblandningen mellan \"den tredje\" (vilken) och \"tre\" (hur många): det löpande talet på en figur och summan under raden är två olika saker.",
+      "Med Lärarplanen kan en till komma till raden eller en gå, så räknar ni vidare eller bakåt från det tal ni redan hade.",
+      "Skriv ut bladet och låt par anteckna en räkning per rad: från vilken ände de började och hur många. Det utskrivbara bladet och komma-och-gå-räkningen ingår i Lärarplanen; hela apparaten — varje rad, båda ändarna, att dra handen och att räkna från vilket håll som helst — är gratis för alla."
     ],
-    "metaTitle": "Perrongen — ordningstal i förskoleklass och åk 1 | LessonCraftStudio",
-    "metaDescription": "Gratis klassrumsverktyg för ordningstal. Räkna från den ena änden av perrongen och sedan från den andra: ingen flyttar sig, men svaret ändras. Fungerar på projektor och surfplatta, utan konto."
+    "metaTitle": "Räkneraden — räkna raden från båda ändarna | LessonCraftStudio",
+    "metaDescription": "Ett gratis räkneverktyg för förskola och åk 1. Dra handen och räkna raden — sista talet säger hur många. Räkna från båda ändarna: var och en får ett annat tal, men hur många är detsamma. Går att skriva ut."
   },
   "labels": {
     "about": "Om det här verktyget",

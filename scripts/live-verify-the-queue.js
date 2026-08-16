@@ -1,87 +1,73 @@
-/* LIVE verification of TOOL #58 on production.
-   ⚠⚠ It DRIVES THE APPARATUS BY BUTTON and identifies the landed member
-   by its DRAWN FORM, not by an index — so no shared convention between
-   the tool and this gate can satisfy it by accident. */
+/* LIVE verification of TOOL #58 (Counting rebuild) on production.
+   Drives the apparatus with real input (end button + rail keyboard) and
+   MEASURES the render — never "it mounts". Reads the landed friend by its
+   badge number, so no shared index convention can satisfy it by accident.
+   Run: node scripts/live-verify-the-queue.js
+   Env: QUE_LIVE_URL overrides the base (defaults to production). */
 'use strict';
 const puppeteer = require('puppeteer');
-const URL_ = 'https://www.lessoncraftstudio.com/mini-tools/the-queue.html';
+const URL_ = process.env.QUE_LIVE_URL || 'https://www.lessoncraftstudio.com/mini-tools/the-queue.html';
+const LOCALES = process.env.QUE_LIVE_LOCALES ? process.env.QUE_LIVE_LOCALES.split(',') : ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 let pass = 0; const fails = [];
 const ok = (c, m) => { if (c) pass++; else fails.push(m); };
 const wait = ms => new Promise(r => setTimeout(r, ms));
 
-/* the drawn signature of the landed member: circle / rect / 3-point /
-   12-point polygon. Reading the SHAPE means the gate never has to agree
-   with the tool about what index anything sits at. */
-const landedSig = p => p.evaluate(() => {
-  const e = document.querySelector('.que-member.is-landed');
-  if (!e) return null;
-  const t = e.tagName.toLowerCase();
-  if (t === 'circle') return 'disc';
-  if (t === 'rect') return 'square';
-  const n = (e.getAttribute('points') || '').trim().split(/\s+/).length;
-  return n === 3 ? 'triangle' : n === 12 ? 'cross' : 'unknown:' + n;
-});
+async function badges(p) {
+  return p.$eval('.que-svg', svg => {
+    const vb = svg.viewBox.baseVal, r = svg.getBoundingClientRect(), out = [];
+    svg.querySelectorAll('.que-badge text').forEach(t => { const bb = t.getBBox(); out.push({ cx: r.x + ((bb.x + bb.width / 2) / vb.width) * r.width, num: t.textContent }); });
+    return out.sort((a, b) => a.cx - b.cx);
+  });
+}
+async function total(p) { return p.$eval('.que-svg', svg => { const t = svg.querySelector('.que-total text'); return t ? t.textContent : null; }).catch(() => null); }
 
 (async () => {
   const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-  for (const lang of ['en', 'de', 'fi']) {
+  for (const lang of LOCALES) {
     const p = await b.newPage();
     await p.setViewport({ width: 768, height: 950 });
     const errs = []; p.on('pageerror', e => errs.push(String(e)));
-    await p.goto(URL_ + '?lang=' + lang, { waitUntil: 'networkidle2', timeout: 60000 });
-    await wait(900);
-    ok(errs.length === 0, lang + ': page errors — ' + errs.join(' | '));
+    try {
+      await p.goto(URL_ + '?lang=' + lang, { waitUntil: 'networkidle2', timeout: 60000 });
+      await wait(900);
+      ok(errs.length === 0, lang + ': page errors — ' + errs.join(' | '));
 
-    /* NON-VACUITY FIRST */
-    const n = await p.$$eval('.que-member', e => e.length);
-    ok(n >= 3 && n <= 4, lang + ': ' + n + ' members drawn');
-    ok(await p.$$eval('.que-btn', e => e.length) >= 6, lang + ': controls missing');
+      // non-vacuity + no default end
+      const nF = await p.$$eval('.que-body', e => e.length);
+      ok(nF >= 4 && nF <= 5, lang + ': ' + nF + ' friends drawn');
+      ok(await p.$eval('.que-hand', e => getComputedStyle(e).display === 'none'), lang + ': hand VISIBLE at rest — a default end');
+      ok((await badges(p)).length === 0, lang + ': a badge stands at rest');
 
-    /* ⭐⭐ NO DEFAULT END — the walker is off the platform until an end
-       is chosen, and that absence IS the thesis. */
-    /* ⚠ VISIBILITY, NOT EXISTENCE. The walker is a PERSISTENT node that
-       is hidden, never removed — removing it is precisely what cancels
-       the transition (measured: 1 distinct position when re-inserted,
-       19 when left in place). My first version counted elements and
-       failed a CORRECT tool in all three locales. */
-    ok(await p.$eval('.que-walker', e => getComputedStyle(e).display === 'none'),
-      lang + ': the walker is VISIBLE before any end was chosen — the tool has a default end');
-    ok(await landedSig(p) === null, lang + ': something is already landed at rest');
+      // NO WORDS on the stage — every svg text is a numeral
+      const st = await p.$$eval('.que-svg text', ts => ts.map(t => t.textContent.trim()));
+      ok(st.every(s => /^\d+$/.test(s)), lang + ': non-numeral text on the stage: ' + JSON.stringify(st));
 
-    /* ⭐⭐ THE REVERSAL, BY BUTTON, IDENTIFIED BY DRAWN FORM */
-    await p.click('.que-b-enda'); await wait(200);
-    for (let i = 0; i < 3; i++) { await p.click('.que-b-step'); await wait(340); }
-    const fromA = await landedSig(p);
-    ok(fromA && !/^unknown/.test(fromA), lang + ': nothing landed counting from one end');
-    ok(await p.$eval('.que-walker', e => getComputedStyle(e).display !== 'none'),
-      lang + ': the walker is still hidden after stepping');
+      // count fully from end A via the rail keyboard
+      await p.click('.que-b-enda'); await wait(150);
+      await p.focus('.que-rail'); await p.keyboard.press('End'); await wait(500);
+      const bA = await badges(p), tA = await total(p);
+      ok(bA.length === nF && tA === String(nF), lang + ': full sweep from A → ' + nF + ' badges + total ' + tA);
+      const numsA = bA.map(x => x.num).join('');
 
-    await p.click('.que-b-endb'); await wait(200);
-    for (let i = 0; i < 3; i++) { await p.click('.que-b-step'); await wait(340); }
-    const fromB = await landedSig(p);
-    ok(fromB && !/^unknown/.test(fromB), lang + ': nothing landed counting from the other end');
+      // reverse: count fully from end B → SAME total, different order
+      await p.click('.que-b-endb'); await wait(150);
+      await p.focus('.que-rail'); await p.keyboard.press('End'); await wait(500);
+      const bB = await badges(p), tB = await total(p);
+      ok(tB === String(nF), lang + ': the total is invariant from the other end (' + tA + ' vs ' + tB + ')');
+      const numsB = bB.map(x => x.num).join('');
+      ok(numsA !== numsB, lang + ': the numbers reverse from the other end (' + numsA + ' vs ' + numsB + ')');
+      ok(numsA[0] !== numsB[0], lang + ': the same leftmost friend wears a different number each end');
 
-    /* at n=4 the same count from opposite ends CANNOT coincide */
-    if (n === 4) ok(fromA !== fromB,
-      lang + ': the same count from both ends landed on the SAME form (' + fromA + ') — the thesis is false on production');
+      // tap floors
+      const small = await p.$$eval('.que-btn', bs => bs.filter(x => { const r = x.getBoundingClientRect(); return r.height < 44 || r.width < 44; }).length);
+      ok(small === 0, lang + ': ' + small + ' sub-44px controls');
 
-    /* §23.2 measured in the DOM: no text anywhere on the apparatus */
-    ok(await p.$$eval('.que-svg text, .que-svg tspan', e => e.length) === 0,
-      lang + ': the apparatus is printing text');
-
-    /* chrome floor; nothing on the platform is a tap target */
-    const small = await p.$$eval('.que-btn', e => e.filter(x => x.getBoundingClientRect().height < 44).length);
-    ok(small === 0, lang + ': ' + small + ' control(s) under the 44px floor');
-
-    /* the locale renders and no raw key escapes */
-    const body = await p.evaluate(() => document.body.innerText);
-    ok(!/\b(sayPickEnd|instruction|lockedBody|ariaPlatform|sheetHint)\b/.test(body),
-      lang + ': a raw string KEY reached the page');
-    if (lang !== 'en') ok(!/The Queue/.test(body), lang + ': English leaked into ' + lang);
-
+      // no raw en leak in a non-en locale title
+      if (lang !== 'en') { const title = await p.$eval('.lcs-title', e => e.textContent.trim()); ok(title !== 'The Counting Line' && title.length > 0, lang + ': title looks like an English leak (' + title + ')'); }
+    } catch (e) { fails.push(lang + ': EXCEPTION ' + (e && e.message || e)); }
     await p.close();
   }
   await b.close();
-  console.log(fails.length ? 'FAIL\n  ' + fails.join('\n  ') : 'PASS ' + pass + ' live assertions, 0 failures');
-  process.exit(fails.length ? 1 : 0);
+  if (fails.length) { console.log(fails.length + ' FAIL (' + pass + ' passed):'); fails.forEach(f => console.log('  ✗ ' + f)); process.exit(1); }
+  console.log('ALL PASS — ' + pass + ' live assertions across ' + LOCALES.length + ' locales on ' + URL_);
 })();

@@ -184,8 +184,17 @@ const SEEDS = {
      ⚠ It THROWS on a missing global rather than continuing quietly — a
      seed that silently did nothing photographs the rest state, which
      here is exactly the useless picture the seed exists to avoid. */
+  /* ⭐ #58 (COUNTING rebuild) AT REST IS A ROW OF FRIENDS AND NO NUMBERS —
+     the honest opening frame, before an end is chosen, says nothing about
+     what the tool does. The card must carry the moment the tool exists for:
+     an end CHOSEN and the line fully counted, so the running numerals 1..5
+     sit on the friends, the whole-line total pill shows underneath, and the
+     coral hand stands on the last one. A fixed distinct 5-friend permutation
+     (never Math.random, or the card is unreviewable). ⚠ READ THE .webp after
+     any change — a seed that set state on a stale model would photograph the
+     rest frame and the generator still logs ok. */
   'the-queue': [
-    { js: "if(!window.TheQueue||!window.TheQueue._paint)throw new Error('TheQueue not mounted');TheQueue.st={members:[2,0,3,1],end:'a',k:2};TheQueue.render();", wait: 700 }
+    { js: "if(!window.TheQueue||!window.TheQueue._paint)throw new Error('TheQueue not mounted');TheQueue.premium=false;TheQueue.st={members:[3,1,4,0,5],end:'a',k:5};TheQueue.render();", wait: 700 }
   ],
   /* ⭐ #55 AT REST IS A ROW OF IDENTICAL DOTS AND A NUMERAL — which is
      the tool's opening frame and looks like any other counting board.

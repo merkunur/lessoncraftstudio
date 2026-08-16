@@ -1507,29 +1507,29 @@
     ]
   },
   "the-queue": {
-    "slug": "la-pedana-da-tutte-e-due-le-parti",
-    "name": "La pedana da tutte e due le parti",
-    "tagline": "Conta tre da una parte, poi tre dall'altra. Non si è spostato nessuno: perché è un altro?",
+    "slug": "the-queue",
+    "name": "La fila da contare",
+    "tagline": "Conta una fila di personaggi da una parte, poi dall'altra: ognuno riceve un numero diverso, ma quanti sono è sempre lo stesso.",
     "about": [
-      "Sulla pedana aspettano quattro figure. Scegli una parte, cammina e guarda su chi ti fermi. Poi scegli l'altra parte e cammina altrettante volte. Sulla pedana non si è spostato nessuno e, nonostante questo, quasi sempre ti fermi su un altro.",
-      "Lo strumento è tutto qui. Un bambino che ha imparato a contare lungo una fila sente spesso «il terzo» come un nome che la cosa si porta addosso, come si porta il suo colore. Non lo è: è un'informazione su dove hai cominciato a contare. La pedana lo fa vedere senza doverlo sostenere, perché fra i due conteggi si vede benissimo che nessuno viene toccato.",
-      "Non c'è una testa della fila. Chi cammina resta giù dalla pedana finché non è scelta una parte, e nessuno dei due pulsanti è quello giusto: una parte predefinita direbbe sottovoce che un verso è quello vero, che è proprio l'errore.",
-      "Le figure non hanno lettere, né numeri, né una classifica. Tutte e quattro sono calcolate sulla stessa area e appoggiate sulla stessa linea, così niente nel materiale risponde «quale?» prima della classe."
+      "Una fila di personaggi simpatici sta su una mensola. Scegli una parte e fai scorrere la mano che conta: ogni personaggio che tocca indossa il numero del conteggio — uno, due, tre, quattro. L'ultimo numero a cui arriva dice quanti sono.",
+      "Ora conta la stessa fila dall'altra parte. Nessuno si è mosso, eppure ciascuno indossa adesso un numero diverso — e il totale sotto la fila è esattamente lo stesso. È proprio l'idea che lo strumento vuole rendere visibile: l'ultimo numero dice quanti sono, e non dipende dalla parte da cui hai cominciato a contare.",
+      "Il numero che un personaggio porta racconta fin dove hai contato, non è un nome che si porta addosso. Conta a ritroso dall'altra parte e guarda un personaggio fermo cambiare numero: è il modo più chiaro per mostrare a chi impara a contare che «tre» non è chi sei, è fin dove siamo arrivati.",
+      "Non c'è un davanti. La mano resta fuori dalla mensola finché non si sceglie una parte, e nessuna delle due è quella vera. In una fila di cinque c'è un personaggio in mezzo che indossa lo stesso numero da tutte e due le parti — trovarlo, e chiedersi perché solo lui, è il momento più bello dello strumento."
     ],
     "howToUse": [
-      "Proiettala e chiedi alla classe di camminare di tre partendo dalla parte di sinistra. Fatti dire su chi si sono fermati prima di premere qualsiasi cosa.",
-      "Adesso tre dall'altra parte. E poi la domanda che conta: si è spostato qualcuno?",
-      "Fai andare via uno e riconta dalla stessa parte. Dall'altra parte non cambia niente, e vale la pena dirlo ad alta voce.",
-      "Passa a tre che aspettano. Con un numero dispari c'è un posto in cui tutte e due le parti danno la stessa risposta, e trovarlo è il momento migliore dell'apparecchio."
+      "Mettila alla lavagna, scegli una parte e fai scorrere la mano mentre la classe conta ad alta voce. Fermati all'estremità e chiedi: quanti sono? L'ultimo numero è la risposta.",
+      "Ricomincia, scegli l'ALTRA parte e conta di nuovo. Fai la domanda che conta: si è mosso qualcuno? Sono sempre gli stessi quanti?",
+      "Indica un personaggio e chiedi che numero portava la prima volta e quale porta adesso. Stesso personaggio, non si è mosso — numero diverso, e il totale è rimasto uguale.",
+      "In una fila di cinque, trova il personaggio in mezzo che riceve lo stesso numero da tutte e due le parti, e chiedi alla classe perché capita solo a lui."
     ],
     "classroomIdeas": [
-      "Metti in fila quattro bambini davanti alla classe e fai la stessa cosa con loro prima di aprire lo strumento. Lo schermo poi conferma quello su cui la classe ha già discusso.",
-      "Chiedi a un bambino di dire chi andare a chiamare senza indicare: dirà «il terzo», e dovrà aggiungere il terzo a partire da dove.",
-      "Due minuti per aprire una lezione sui numeri ordinali, poi lascialo sullo schermo mentre la classe lavora.",
-      "Stampa la scheda e falla compilare a coppie, un conteggio per riga: da che parte sono partiti e su chi si sono fermati. La scheda fa parte del Piano Insegnante; la pedana in sé — tutte e due le parti, chi cammina — è gratuita per tutti."
+      "Metti cinque bambini in fila davanti alla classe e fai la stessa cosa con loro prima di aprire lo strumento — conta da una parte, poi dall'altra — così lo schermo conferma ciò su cui la classe ha appena discusso.",
+      "Usala per chiarire la confusione di tutti i giorni tra «il terzo» (quale) e «tre» (quanti): il numero su un personaggio e il totale sotto la fila sono due cose diverse.",
+      "Con il Piano Insegnante, fai arrivare uno in più o andar via uno, e conta avanti o indietro a partire dal numero che avevi già.",
+      "Stampa la scheda e lascia che le coppie annotino un conteggio per riga: da che parte hanno cominciato e quanti erano. La scheda da stampare e il contare con chi arriva e chi se ne va fanno parte del Piano Insegnante; tutto l'apparecchio — ogni fila, tutte e due le parti, la mano che scorre e il conteggio da entrambi i lati — è gratuito per tutti."
     ],
-    "metaTitle": "La pedana da tutte e due le parti — i numeri ordinali in classe 1ª-2ª | LessonCraftStudio",
-    "metaDescription": "Strumento di classe gratuito per i numeri ordinali. Conta da una parte della pedana e poi dall'altra: non si sposta nessuno e la risposta cambia. Funziona su LIM e tablet, senza account."
+    "metaTitle": "La fila da contare — da tutte e due le parti | LessonCraftStudio",
+    "metaDescription": "Strumento gratis per contare in classe: fai scorrere la mano su una fila e l'ultimo numero dice quanti sono. Conta da tutte e due le parti e stampa la scheda."
   },
   "labels": {
     "about": "Informazioni su questo strumento",

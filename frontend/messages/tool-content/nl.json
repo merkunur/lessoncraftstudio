@@ -1509,29 +1509,29 @@
     ]
   },
   "the-queue": {
-    "slug": "het-perron",
-    "name": "Het perron",
-    "tagline": "Tel er drie vanaf de ene kant en dan drie vanaf de andere. Niemand is verschoven — waarom is het dan iemand anders?",
+    "slug": "the-queue",
+    "name": "De telrij",
+    "tagline": "Tel een rij vriendjes vanaf de ene kant en dan vanaf de andere. Ieder krijgt een ander getal, maar hoeveel het er zijn blijft altijd hetzelfde.",
     "about": [
-      "Op een perron staan vier vormen te wachten. Kies een kant, stap langs het perron en kijk bij wie je uitkomt. Kies daarna de andere kant en stap even vaak. Er is niemand verschoven op het perron, en toch kom je bijna altijd bij iemand anders uit.",
-      "Meer is het niet. Een kind dat heeft leren tellen langs een rij hoort «de derde» vaak als een naam die het ding draagt, net zoals het zijn kleur draagt. Dat is het niet: het is een mededeling over waar je bent begonnen met tellen. Het perron laat dat zien zonder erover te discussiëren, want tussen de twee tellingen door zie je dat er niemand wordt aangeraakt.",
-      "Er is geen voorkant. De aanwijzer blijft naast het perron staan zolang er geen kant is gekozen, en geen van beide knoppen is de echte: een standaardkant zou stilletjes beweren dat één richting de juiste is, en dat is precies de misvatting.",
-      "De vormen dragen geen letters, geen cijfers en geen rangorde. Alle vier zijn op dezelfde oppervlakte berekend en staan op dezelfde lijn, zodat niets in het materiaal «welke?» beantwoordt voordat de klas dat doet."
+      "Een rij vrolijke vriendjes staat op een plank. Kies een kant en schuif de telhand langs de rij; elk vriendje dat de hand passeert draagt het lopende getal — een, twee, drie, vier. Het laatste getal waar de hand komt, zegt hoeveel het er zijn.",
+      "Tel nu dezelfde rij vanaf de andere kant. Niemand is verschoven, toch draagt ieder vriendje nu een ander getal — en het totaal onder de rij is precies hetzelfde. Dat is het idee waarvoor het apparaat bestaat: het laatste getal vertelt hoeveel, en dat hangt niet af van welke kant je met tellen begint.",
+      "Het getal dat een vriendje draagt, vertelt hoe ver je hebt geteld — het is geen naam die het vriendje draagt. Tel terug vanaf de andere kant en kijk hoe een stilstaand vriendje een ander getal krijgt: zo zie je het duidelijkst dat \"drie\" niet is wie je bent, maar hoe ver we zijn gekomen.",
+      "Er is geen voorkant. De hand wacht naast de plank tot je een kant kiest, en geen van beide kanten is de echte. In een rij van vijf is er een vriendje in het midden dat van beide kanten hetzelfde getal draagt — dat vinden, en vragen waarom alleen dat ene, is het mooiste moment van de tool."
     ],
     "howToUse": [
-      "Zet hem op het digibord en laat de klas er drie tellen vanaf de linkerkant. Laat ze zeggen bij wie ze uitkomen voordat je iets indrukt.",
-      "Nu drie vanaf de andere kant. En dan de vraag waar het om gaat: is er iemand verschoven?",
-      "Laat er iemand weggaan en tel opnieuw vanaf dezelfde kant. Vanaf de andere kant verandert er niets — dat is het waard om hardop te zeggen.",
-      "Zet hem op drie wachtenden. Bij een oneven aantal is er een plek waar beide kanten hetzelfde opleveren, en die vinden is het mooiste moment van het apparaat."
+      "Zet hem op het bord, kies een kant en schuif de hand langs de rij terwijl de klas hardop meetelt. Stop aan het andere eind en vraag: hoeveel? Het laatste getal is het antwoord.",
+      "Maak leeg, kies de ANDERE kant en tel opnieuw. Stel de vraag die telt: is er iemand verschoven? Zijn het er nog steeds evenveel?",
+      "Wijs één vriendje aan en vraag welk getal het de eerste keer droeg, en welk getal nu. Hetzelfde vriendje, niet verschoven — een ander getal, en het totaal bleef gelijk.",
+      "Zoek in een rij van vijf het vriendje in het midden dat van beide kanten hetzelfde getal krijgt, en vraag de klas waarom alleen dat ene."
     ],
     "classroomIdeas": [
-      "Zet vier kinderen vooraan in de rij en doe hetzelfde met hen voordat je het apparaat opent. Het scherm bevestigt daarna waar de klas het al over had.",
-      "Vraag een kind te zeggen wie het moet halen zonder te wijzen: het zegt «de derde», en moet er dan bij zeggen de derde vanaf waar.",
-      "Twee minuten om een les over rangtelwoorden te openen, en laat hem daarna gewoon staan terwijl de klas werkt.",
-      "Druk het blad af en laat ze in tweetallen per regel één telling opschrijven: vanaf welke kant ze begonnen en bij wie ze uitkwamen. Het blad hoort bij het Leerkracht-abonnement; het perron zelf — beide kanten, de aanwijzer — is voor iedereen gratis."
+      "Zet vijf kinderen vooraan op een rij en doe de routine met hen vóór je de tool opent — tel vanaf de ene kant en dan vanaf de andere — zodat het scherm bevestigt waar de klas net over redeneerde.",
+      "Gebruik hem om het dagelijkse verschil te verhelderen tussen \"het derde\" (welke) en \"drie\" (hoeveel): het lopende getal op een vriendje en het totaal onder de rij zijn twee verschillende dingen.",
+      "Met een Leerkracht-abonnement laat je er één bij komen of één weggaan, en tel je door of terug vanaf het getal dat je al had.",
+      "Druk het blad af en laat tweetallen per regel één telling noteren: vanaf welke kant ze begonnen, en hoeveel. Het afgedrukte blad en het erbij-komen-en-weggaan-tellen horen bij een Leerkracht-abonnement; het hele apparaat — elke rij, beide kanten, de hand schuiven en tellen vanaf welke kant je ook wilt — is gratis voor iedereen."
     ],
-    "metaTitle": "Het perron — rangtelwoorden in groep 3 en 4 | LessonCraftStudio",
-    "metaDescription": "Gratis klasapparaat voor rangtelwoorden. Tel vanaf de ene kant van het perron en dan vanaf de andere: er verschuift niemand en toch verandert het antwoord. Werkt op digibord en tablet, zonder account."
+    "metaTitle": "De telrij — een rij tellen vanaf beide kanten | LessonCraftStudio",
+    "metaDescription": "Gratis telhulp voor de klas. Schuif de hand langs een rij vriendjes; het laatste getal zegt hoeveel. Tel vanaf de andere kant: ieder krijgt een ander getal, hoeveel blijft gelijk. Afdrukken kan. Elk bord of tablet, zonder account."
   },
   "labels": {
     "about": "Over dit hulpmiddel",

@@ -192,6 +192,30 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Mim, a raposa que forja luz, monta figuras com peças brilhantes. A criança escolhe uma peça — um triângulo ou um losango —, gira e encaixa a peça dentro de uma lanterna vazia até preenchê-la por completo, sem deixar buracos nem sobrepor as peças.",
+        "Aqui aparece uma ideia importante da geometria: uma figura pode ser montada com peças menores, e a mesma figura pode ser construída de várias maneiras. Um hexágono, por exemplo, pode ser formado por triângulos ou por losangos, e depois essas mesmas peças podem ser recombinadas para criar uma figura nova — uma montagem de figuras no estilo tangram, tão presente nas turmas dos anos iniciais.",
+        "A brincadeira desenvolve a Geometria no 1º ano: ao montar e explorar figuras planas como o triângulo, o telhado (trapézio) e o hexágono, a criança fortalece a percepção geométrica de um jeito tranquilo, sem pressa e sem notas, apoiando o reconhecimento de figuras conforme a unidade temática Geometria da BNCC."
+      ],
+      "practices": [
+        "Montar figuras planas maiores juntando triângulos e losangos",
+        "Reconhecer o triângulo e o losango",
+        "Girar e encaixar as peças sem deixar buracos nem sobrepô-las",
+        "Perceber que uma mesma figura pode ser montada de várias maneiras",
+        "Explorar figuras como o hexágono e o telhado (trapézio)"
+      ],
+      "howToPlay": [
+        "Escolha uma peça brilhante ao lado: um triângulo ou um losango.",
+        "Gire a peça para encaixá-la e coloque-a dentro da lanterna vazia.",
+        "Continue juntando peças até preencher toda a figura, sem buracos nem peças sobrepostas."
+      ],
+      "learningGoals": [
+        "Compreender que figuras maiores podem ser montadas com figuras menores — e desmontadas de novo.",
+        "Desenvolver a percepção geométrica ao girar e encaixar peças dentro de um contorno.",
+        "Explorar a Geometria montando e recompondo figuras planas, no estilo tangram, em linha com a unidade temática Geometria da BNCC."
+      ]
+    },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
         "O sapo Hopper adora atravessar o lago saltando sobre as vitórias-régias numeradas — e cada pulo dele avança sempre a mesma quantidade. Contando de 5 em 5, de 10 em 10 ou de 100 em 100, a criança acompanha os saltos e descobre qual número está faltando na fileira de folhas.",

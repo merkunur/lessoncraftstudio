@@ -192,6 +192,30 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Tuck, o hamster, organiza o material dourado em colunas de valor posicional: as dezenas de um lado e as unidades do outro. Quando você resolve uma soma como 27 + 5, vê as unidades se juntando e decide o que fazer quando elas já passam de dez.",
+        "A ideia central é simples e poderosa: quando se juntam mais de dez unidades, agrupamos 10 unidades para formar uma dezena. Esse passo concreto — trocar 10 cubinhos por uma barrinha de dez, o famoso “vai um” — é exatamente o que acontece antes de reservar o número na conta armada, e ajuda a criança a compreender o valor posicional em vez de decorar um truque.",
+        "Foi pensada para acompanhar o trabalho da sala de aula e de casa nos anos iniciais do ensino fundamental, seguindo a BNCC na unidade temática Números: fortalece o sentido numérico e a compreensão de unidades e dezenas no 2º ano, construindo a ponte para o algoritmo convencional da adição."
+      ],
+      "practices": [
+        "Somar com reagrupamento até 100, quando as unidades passam de dez",
+        "Agrupar 10 unidades para formar uma dezena com o material dourado",
+        "Compreender o valor posicional, distinguindo unidades e dezenas",
+        "Usar o material dourado para representar os números de forma concreta",
+        "Ler e escrever o total da soma"
+      ],
+      "howToPlay": [
+        "Observe as barrinhas e os cubinhos que o Tuck coloca em cada coluna e conte quantas unidades há do lado das unidades.",
+        "Quando as unidades passarem de dez, agrupe 10 unidades para formar uma dezena e leve a nova barrinha para a coluna das dezenas — é o “vai um”.",
+        "Digite o total e confirme sua resposta; o Tuck acompanha cada tentativa com calma, sem pressa e sem notas."
+      ],
+      "learningGoals": [
+        "Compreender a soma com reagrupamento como o ato de formar uma dezena, e não como uma regra decorada.",
+        "Consolidar o valor posicional ao mover unidades e dezenas entre suas colunas com o material dourado.",
+        "Desenvolver o sentido numérico esperado no 2º ano, preparando o caminho para a conta armada com reagrupamento."
+      ]
+    },
     "shapeforge.compose.1-g-a-2": {
       "about": [
         "Mim, a raposa que forja luz, monta figuras com peças brilhantes. A criança escolhe uma peça — um triângulo ou um losango —, gira e encaixa a peça dentro de uma lanterna vazia até preenchê-la por completo, sem deixar buracos nem sobrepor as peças.",

@@ -16,6 +16,20 @@
 
   var Core = global.PlaceValueRegroupCore;
 
+  /* Activity-layer narrow-viewport trim (0-core; the core owns `.pvr-maketen`).
+     The pt button "Desagrupar uma centena" (break-hundred) is one char longer than
+     the es/en labels and wraps at 320px → +9px cut-off. Higher-specificity @media
+     (`.pvr-bar .pvr-maketen`) nudges the regroup button at ≤340px so it stays on one
+     line. Locale-neutral: en/de/es/fr all pass at 320 already; a smaller button only
+     helps them (tap-target min-height:44 is preserved). §A.13.62 layout-fix, not a
+     threshold change. */
+  if (typeof document !== 'undefined' && !document.getElementById('pvr-narrow-trim')) {
+    var _pvrTrim = document.createElement('style');
+    _pvrTrim.id = 'pvr-narrow-trim';
+    _pvrTrim.textContent = '@media (max-width:340px){.pvr-bar .pvr-maketen{padding:9px 11px;font-size:.8rem;line-height:1;}}';
+    (document.head || document.documentElement).appendChild(_pvrTrim);
+  }
+
   /* canonical pool: 8 GENUINELY DIFFERENT compose-a-ten sums (ones(a)+b ≥ 10,
      a+b ≤ 99) — distinct sums + varied ones, every round composes one ten. */
   var DEMO_ROUNDS = [

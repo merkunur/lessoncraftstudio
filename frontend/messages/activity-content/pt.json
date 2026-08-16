@@ -192,6 +192,75 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Tuck, o hamster, encara uma conta teimosa: em 342 − 5 há só 2 unidades, mas ele precisa tirar 5. É aí que ele aprende a desagrupar uma dezena — troca uma barrinha de dez por 10 cubinhos soltos para que as unidades enfim deem conta.",
+        "Esta atividade trabalha a subtração com reagrupamento, um dos aprendizados centrais da unidade temática Números da BNCC nos anos iniciais, aqui no 3º ano do ensino fundamental.",
+        "Como o material dourado aparece e se movimenta na tela, a criança entende de onde vem aquele dez que parece surgir do nada: não é um truque decorado, é uma troca justa de 1 dezena por 10 unidades — o mesmo movimento que sustenta a conta armada."
+      ],
+      "practices": [
+        "Perceber quando é preciso reagrupar: se as unidades de cima são menos que as de baixo, é hora de desagrupar uma dezena antes de subtrair.",
+        "Tocar em «Desagrupar uma dezena» para trocar 1 barrinha de dez por 10 cubinhos e ver as unidades passarem de 2 para 12.",
+        "Tirar a quantidade indicada das unidades já reagrupadas e conferir o que sobra em cada coluna: unidades, dezenas e centenas.",
+        "Escrever o resultado da subtração e verificar se ele bate com o material dourado que ficou na mesa do Tuck."
+      ],
+      "howToPlay": [
+        "Leia a subtração que aparece no alto, como 342 − 5, e observe o material dourado do Tuck: placas de cem, barrinhas de dez e cubinhos.",
+        "Toque em «Desagrupar uma dezena» para transformar 1 dezena em 10 unidades; veja o material e o número de cada coluna mudarem.",
+        "Tire as unidades pedidas e digite a resposta; o Tuck comemora com calma quando a subtração com reagrupamento fica certa, sem pressa e sem notas."
+      ],
+      "learningGoals": [
+        "Compreender o reagrupamento na subtração: desagrupar uma dezena para ter unidades suficientes sem alterar o valor total do número.",
+        "Ligar o material dourado ao algoritmo da conta armada, fortalecendo o sentido numérico.",
+        "Subtrair com segurança em números de três algarismos, um aprendizado esperado no 3º ano segundo a BNCC."
+      ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tuck, o hamster, soma 160 + 50 e se depara com 11 dezenas — e onze dezenas já não cabem na coluna delas. A saída é agrupar uma centena: ele junta 10 barrinhas de dez e as troca por uma placa de cem.",
+        "Este é o lado da soma com reagrupamento em que o «vai um» segue para as centenas, um conteúdo da unidade temática Números da BNCC para o 3º ano dos anos iniciais.",
+        "Ao agrupar dez dezenas em uma centena diante dos olhos da criança, fica claro por que se reserva um algarismo na coluna seguinte da conta armada: é uma troca justa com o material dourado, e não uma regra para decorar."
+      ],
+      "practices": [
+        "Somar as dezenas e perceber quando elas chegam a dez ou mais: esse é o sinal para reagrupar em direção às centenas.",
+        "Tocar em «Agrupar uma centena» para trocar 10 barrinhas de dez por 1 placa de cem e ver o número se reorganizar.",
+        "Reconhecer o valor posicional: quantas centenas, dezenas e unidades sobram depois de formar a nova centena.",
+        "Escrever o total da soma e conferir se ele corresponde ao material dourado sobre a mesa do Tuck."
+      ],
+      "howToPlay": [
+        "Observe a soma no alto, como 160 + 50, e olhe as dezenas do Tuck representadas por barrinhas de dez.",
+        "Toque em «Agrupar uma centena» quando juntar 10 dezenas para trocá-las por uma placa de cem; o número se reorganiza sozinho.",
+        "Digite o total; o Tuck comemora quando a soma com reagrupamento para as centenas fica bem resolvida, sem pressa e sem notas."
+      ],
+      "learningGoals": [
+        "Entender que reagrupar na soma é trocar 10 dezenas por 1 centena sem mudar a quantidade total.",
+        "Conectar o uso do material dourado à ideia do «vai um» no algoritmo da conta armada.",
+        "Somar com números de até três algarismos compondo centenas, fortalecendo o sentido numérico esperado no 3º ano pela BNCC."
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tuck, o hamster, olha para 302 − 5 e não encontra nenhuma dezena para desagrupar: a coluna das dezenas está zerada. Então ele faz uma dupla troca — primeiro desagrupa 1 centena em 10 dezenas e, em seguida, desagrupa 1 dezena em 10 unidades.",
+        "É a subtração com reagrupamento mais desafiadora do 3º ano, a que aparece quando há um zero no meio da conta, e faz parte da unidade temática Números da BNCC nos anos iniciais.",
+        "Ver as duas trocas passo a passo com o material dourado — uma centena que vira dez dezenas e uma dezena que vira dez unidades — evita o erro clássico de subtrair de trás para a frente quando aparece um zero no caminho da conta armada."
+      ],
+      "practices": [
+        "Identificar o caso especial: faltam unidades e também não há dezenas para desagrupar, porque estão zeradas.",
+        "Tocar em «Desagrupar uma centena» para trocar 1 placa de cem por 10 barrinhas de dez e preencher a coluna das dezenas.",
+        "Tocar em «Desagrupar uma dezena» para transformar uma dessas dezenas em 10 unidades e, enfim, conseguir tirar.",
+        "Tirar a quantidade pedida, revisar centenas, dezenas e unidades e escrever o resultado da subtração."
+      ],
+      "howToPlay": [
+        "Leia uma subtração com um zero no meio, como 302 − 5, e repare que o Tuck não tem barrinhas de dez para desagrupar.",
+        "Toque em «Desagrupar uma centena» e depois em «Desagrupar uma dezena»: cada troca reorganiza o material dourado e os números de cada coluna.",
+        "Tire as unidades e digite a resposta; o Tuck comemora quando a dupla reagrupação fica certa, sem pressa e sem notas."
+      ],
+      "learningGoals": [
+        "Resolver subtrações com reagrupamento encadeando duas trocas seguidas com o material dourado.",
+        "Consolidar o valor posicional ao mover quantidades entre centenas, dezenas e unidades sem mudar o número.",
+        "Subtrair com segurança em números de até três algarismos, um aprendizado esperado no 3º ano segundo a BNCC."
+      ]
+    },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
         "Tuck, o hamster, organiza o material dourado em colunas de valor posicional: as dezenas de um lado e as unidades do outro. Quando você resolve uma soma como 27 + 5, vê as unidades se juntando e decide o que fazer quando elas já passam de dez.",

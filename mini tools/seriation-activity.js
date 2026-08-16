@@ -41,7 +41,10 @@
     de: { red: 'Rot', blue: 'Blau', green: 'Grün', yellow: 'Gelb', purple: 'Lila', orange: 'Orange' },
     fr: { red: 'Rouge', blue: 'Bleu', green: 'Vert', yellow: 'Jaune', purple: 'Violet', orange: 'Orange' },
     /* es-MX — native ensemble: Morado (not púrpura), Naranja (not anaranjado) for ages 6–7. */
-    es: { red: 'Rojo', blue: 'Azul', green: 'Verde', yellow: 'Amarillo', purple: 'Morado', orange: 'Naranja' }
+    es: { red: 'Rojo', blue: 'Azul', green: 'Verde', yellow: 'Amarillo', purple: 'Morado', orange: 'Naranja' },
+    /* pt-BR — native ensemble: colors in the FEMININE to agree with the trailing feminine noun in
+       srItem "Fita {label}" (Vermelha/Amarela/Roxa inflect; Azul/Verde/Laranja invariable). */
+    pt: { red: 'Vermelha', blue: 'Azul', green: 'Verde', yellow: 'Amarela', purple: 'Roxa', orange: 'Laranja' }
   };
   function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
 
@@ -123,6 +126,25 @@
       relLonger: 'más largo que el cordón',
       relShorter: 'más corto que el cordón',
       relEqual: 'igual de largo que el cordón'
+    },
+    /* pt-BR — native ensemble (linguista + pedagoga do 1º ano, BNCC). "o barbante" (referência NÃO
+       convencional — NÃO régua/cinta métrica, que são unidades padronizadas de 2º ano); objeto = "a
+       fita" (fem.). Tudo ancorado em "fita" → concordância feminina estável (mais comprida/curta).
+       srItem em dois-pontos (Fita {label}: {rel}); cores no feminino em COLOR_L. "Toque na" (você). */
+    pt: {
+      qLongest: 'Toque na fita MAIS COMPRIDA.',
+      qShortest: 'Toque na fita MAIS CURTA.',
+      qSamecord: 'Qual fita é tão comprida quanto o barbante?',
+      win: 'Isso! {note}', winNote: 'Você comparou os comprimentos!',
+      nLongest: 'A fita mais comprida passa de todas as outras. Olhe de novo!',
+      nShortest: 'A fita mais curta termina antes de todas. Olhe de novo!',
+      nSamecord: 'Ache a fita que termina bem na linha do barbante. Olhe de novo!',
+      cord: 'o barbante',
+      srRef: 'O barbante é a medida para comparar.',
+      srItem: 'Fita {label}: {rel}',
+      relLonger: 'mais comprida que o barbante',
+      relShorter: 'mais curta que o barbante',
+      relEqual: 'tão comprida quanto o barbante'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -146,8 +168,8 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano' },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly' },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!' },
       q: { en: '{q}' }
     },
 

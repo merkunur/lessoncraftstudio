@@ -35,6 +35,7 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
     /* something only true of this build */
     ok(live.indexOf('T_TEETER') > 0, '0 the deployed build has no T_TEETER');
     ok(live.indexOf('Der Rundungsh') > 0, '0 the deployed build has no German strings');
+    ok(live.indexOf('shiftGround') > 0, '0 the deployed build has no shiftGround — the range-shift arrows are not live');
     await p.close();
   }
 
@@ -109,6 +110,16 @@ const ok = (c, m) => { if (c) pass++; else fails.push(m); };
     ok(!!t3.ridgeSet, "2 * the ridge does not show that the class settled it");
     ok(t3.x !== null && Math.abs(t3.x - 1) < 0.04, "2 * the settled ridge did not send the boulder to the high dip");
     ok(!t3.teeter, "2 still teetering after the class decided");
+    /* ⭐ the ground-shift arrows move the WHOLE hill to the next / previous
+       pair, and the dip numerals must follow live on production */
+    await p.evaluate(() => document.querySelector(".rnh-b-gu").click());
+    await new Promise(r => setTimeout(r, 500));
+    const g1 = await p.evaluate(read);
+    ok(g1.marks.join("/") === "50/60", "2 * shifting the ground up did not move the dips to 50/60 - got " + g1.marks.join("/"));
+    await p.evaluate(() => document.querySelector(".rnh-b-gd").click());
+    await new Promise(r => setTimeout(r, 500));
+    const g2 = await p.evaluate(read);
+    ok(g2.marks.join("/") === "40/50", "2 * shifting the ground back down did not return the dips to 40/50 - got " + g2.marks.join("/"));
     await p.close();
   }
 

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "O Palmo é uma lagarta-mede-palmos que adora comparar comprimentos: ele mostra duas barras na tela, cada uma com um objeto e o seu comprimento em centímetros (cm). Por exemplo, uma fita de 8 cm e uma corda de 5 cm — a criança percebe que a fita tem 3 cm a mais que a corda. Assim, medir e comparar comprimentos vira uma brincadeira tranquila e cheia de descobertas.",
+        "A criança lê os dois comprimentos em cm e descobre quanto o objeto mais comprido tem a mais — a diferença de comprimento — tirando o menor do maior. É só digitar esse número. Desse jeito, ela completa o caminho de medir e comparar comprimentos, entendendo o que significa um objeto ser mais comprido que o outro.",
+        "Esta é uma atividade grátis e interativa, sem cronômetro, sem pontos e sem competição — só o prazer calmo de medir e pensar. A proposta acompanha a BNCC, na unidade temática Grandezas e medidas do 2º ano, trabalhando comprimento, centímetros e diferença de comprimento no ritmo de cada criança."
+      ],
+      "practices": [
+        "Ler o comprimento de dois objetos em centímetros (cm)",
+        "Comparar os objetos e descobrir qual é o mais comprido",
+        "Achar a diferença de comprimento tirando o menor do maior",
+        "Entender a diferença como \"quantos centímetros a mais\""
+      ],
+      "howToPlay": [
+        "Leia os dois comprimentos mostrados nas barras, em centímetros (cm)",
+        "Descubra quanto o objeto mais comprido tem a mais e digite esse número",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+      ],
+      "learningGoals": [
+        "Medir e comparar comprimentos em centímetros",
+        "Achar a diferença de comprimento entre dois objetos",
+        "Compreender \"quanto a mais\" como uma subtração, tirando o menor do maior — objetivo de 2º ano da unidade Grandezas e medidas"
+      ]
+    },
     "comparison-creek.river-steer.k-cc-c-7": {
       "about": [
         "O capitão Quill é um patinho corajoso que desce um rio cheio de bifurcações na sua balsa. Em cada bifurcação, o rio se abre em dois braços, e a criança toca no braço do rio que carrega o número certo — o maior, o menor ou o que tem mais. Por exemplo, entre 7 e 6, o maior é o 7, então é por ali que a balsa segue. E tem uma pegadinha esperta: um número desenhado bem grande nem sempre é o maior número, porque o que vale é o valor do número, não o tamanho em que ele está escrito.",

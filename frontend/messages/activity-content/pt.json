@@ -192,6 +192,33 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "O sapo Hopper adora atravessar o lago saltando sobre as vitórias-régias numeradas — e cada pulo dele avança sempre a mesma quantidade. Contando de 5 em 5, de 10 em 10 ou de 100 em 100, a criança acompanha os saltos e descobre qual número está faltando na fileira de folhas.",
+        "As sequências vão para frente e para trás, sempre até 1000. Em algumas rodadas, a criança toca no número que completa a série; em outras, precisa perceber o tamanho de cada pulo, ou seja, o passo constante que se repete a cada salto do Hopper.",
+        "Contar de X em X é uma habilidade prevista para o 2º ano do ensino fundamental na unidade temática Álgebra (sequências e regularidades) da BNCC. Reconhecer o padrão que se repete numa sequência ajuda a criança a pensar de forma organizada sobre os números.",
+        "Além de ser uma brincadeira, contar de 5 em 5, de 10 em 10 e de 100 em 100 prepara o caminho para a multiplicação e fortalece a compreensão do valor posicional — a criança começa a enxergar grupos iguais e a perceber como as unidades, dezenas e centenas se organizam."
+      ],
+      "practices": [
+        "Contar de 5 em 5, de 10 em 10 e de 100 em 100, para frente e para trás, até 1000.",
+        "Completar sequências numéricas identificando o elemento que está faltando.",
+        "Descobrir e nomear o passo constante (o tamanho do pulo) de uma sequência.",
+        "Reconhecer regularidades e padrões que se repetem numa série de números.",
+        "Perceber a ligação entre a contagem em grupos iguais e as ideias de multiplicação e valor posicional."
+      ],
+      "howToPlay": [
+        "Observe a fileira de vitórias-régias e veja de quanto em quanto o Hopper está pulando.",
+        "Descubra qual número está faltando na sequência — ou de que tamanho é cada pulo.",
+        "Toque na folha com a resposta certa para ajudar o Hopper a continuar atravessando o lago.",
+        "Se quiser, siga a contagem em voz alta junto com a criança, para frente e depois para trás."
+      ],
+      "learningGoals": [
+        "Contar de 5 em 5, de 10 em 10 e de 100 em 100 com segurança, nos dois sentidos, até 1000.",
+        "Identificar o número ausente e o passo constante de uma sequência recursiva.",
+        "Descrever o padrão que se repete e antecipar o próximo número da série.",
+        "Construir a base para a multiplicação e para a compreensão do valor posicional a partir da contagem em grupos iguais."
+      ]
+    },
     "lay-units.measure.1-md-a-2": {
       "about": [
         "Inchie é uma lagartinha curiosa que adora explorar o jardim medindo tudo o que encontra. Para descobrir o comprimento de cada objeto, ela chama seus ajudantes — pecinhas pequenas e todas do mesmo tamanho — e os coloca lado a lado ao longo do caminho.",

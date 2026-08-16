@@ -106,19 +106,22 @@
       "en": "skip-counting-by-5-10-100",
       "de": "in-schritten-zaehlen-5-10-100",
       "fr": "compter-de-5-en-5-10-et-100",
-      "es": "contar-de-5-en-5-10-y-100-segundo-primaria"
+      "es": "contar-de-5-en-5-10-y-100-segundo-primaria",
+      "pt": "contar-de-5-em-5-10-e-100-2-ano"
     },
     "page_title": {
       "en": "Hopper's Lily Hops — Skip-Counting by 5s, 10s & 100s (Grade 2)",
       "de": "Zahlenfolgen fortsetzen – in Schritten zählen (Klasse 2)",
       "fr": "Suite de nombres CE1 – exercice en ligne gratuit",
-      "es": "Los brincos de Hopper — Contar de 5 en 5, 10 en 10 y 100 en 100 (2º de primaria)"
+      "es": "Los brincos de Hopper — Contar de 5 en 5, 10 en 10 y 100 en 100 (2º de primaria)",
+      "pt": "Os pulos de Hopper — Contar de 5 em 5, de 10 em 10 e de 100 em 100 (2º ano)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: help Hopper the frog skip-count across the pond. Read the numbered lily pads, follow the +5, +10, or +100 hops, and tap the number that goes on the empty pad — counting forward and backward by 5s, 10s, and 100s within 1000. A clear, picture-first way to practice skip-counting. Common Core 2.NBT.A.2.",
       "de": "Zahlenfolgen fortsetzen in Klasse 2: in Schritten von 5, 10 und 100 zählen – mit Hoppers Seerosen-Sprüngen. Kostenlos online, ohne Anmeldung.",
       "fr": "Exercice en ligne sur les suites de nombres : compter de 5 en 5, de 10 en 10 et de 100 en 100. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratuita para 2º de primaria: ayuda a Hopper la rana a contar de 5 en 5, de 10 en 10 y de 100 en 100, hacia adelante y hacia atrás hasta 1000. Completa la serie o descubre el tamaño de cada brinco, según los planes y programas de estudio de la SEP."
+      "es": "Actividad interactiva y gratuita para 2º de primaria: ayuda a Hopper la rana a contar de 5 en 5, de 10 en 10 y de 100 en 100, hacia adelante y hacia atrás hasta 1000. Completa la serie o descubre el tamaño de cada brinco, según los planes y programas de estudio de la SEP.",
+      "pt": "Atividade interativa e gratuita para o 2º ano: ajude o sapo Hopper a contar de 5 em 5, de 10 em 10 e de 100 em 100, para frente e para trás, até 1000. A criança completa a sequência ou descobre o tamanho de cada pulo. Alinhada ao 2º ano do ensino fundamental na unidade temática Álgebra (sequências e regularidades) da BNCC, online e sem cadastro."
     },
     "kid_prompt_template": "skipcount"
   }

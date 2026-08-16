@@ -563,8 +563,19 @@ let HEADLINES = 0;
      A scope-blind version of this check would condemn that — the
      ban-too-wide trap, and the fix is to measure what I mean. */
   {
-    const screenCss = SOURCE.split('@media print{')[0];
-    ok(screenCss.length < SOURCE.length, 'L4 non-vacuity: the print block was never found, so nothing was scoped out');
+    /* ⚠⚠ SCOPED TO TOP-LEVEL RULES, NOT MERELY TO "BEFORE THE PRINT
+       BLOCK". The old split cut at `@media print{` only, which was
+       right when the tool had no other media query — it shipped with
+       exactly two `@media` occurrences and both were print. The rebuild
+       adds responsive tiers, and a selector re-declared INSIDE a media
+       block is not a defect, it is how responsive CSS works. Condemning
+       it is the ban-too-wide trap, and the comment above already names
+       the remedy: measure what I mean. What I mean is that no selector
+       is declared twice at the TOP level, where the later would silently
+       override the earlier with no condition attached. */
+    const screenCss = SOURCE.split("'@media ")[0];
+    ok(screenCss.length < SOURCE.length, 'L4 non-vacuity: no media block was found, so nothing was scoped out');
+    ok(/@media \(/.test(SOURCE), 'L4 the tool ships no responsive tier at all — it did once, and a 660px column on a 1800px card is what a projector showed');
     const rules = screenCss.match(/'\.crt-[\w-]+\{/g) || [];
     ok(rules.length > 8, 'L4 non-vacuity: only ' + rules.length + ' single-selector screen rules found');
     const s1 = {}, dup = [];
@@ -578,8 +589,40 @@ let HEADLINES = 0;
     const q2 = {}, d2 = []; ["'.crt-a{", "'.crt-b{"].forEach(function (r) { if (q2[r]) d2.push(r); q2[r] = 1; });
     eq(d2.length, 0, 'L4 poison: the duplicate sweep flagged two distinct selectors');
   }
-  ok(/@media print\{[^]*\.lcs-shell[^]*display:none/.test(SOURCE),
-    'L4 the print block does not hide the shell — lcs-shell.css ships no print block, so the worksheet prints the web page');
+  /* ⚠⚠ THIS ASSERTION WAS STALE AND THE GATE WAS RED ON DISK.
+     It used to require `.lcs-shell` inside the print block. `.lcs-shell`
+     IS NOT A CLASS — it appears once in the whole stylesheet, in the
+     comment naming the file; the shell emits `.lcs-app`, `.lcs-header`,
+     `.lcs-controls`, `.lcs-stage`. The tool was corrected to name the
+     real classes and THAT correction is what turned its own gate red:
+     the repair was not finished when the thing it repaired started
+     working. Four assertions replace it, and each states a property a
+     teacher can feel rather than a string that happened to be there.
+
+     ⚠ The most important is SCOPING. An unscoped `@media print` block
+     hides `.crt-wrap` for everybody, and `_bindPrint` empties the sheet
+     for a free visitor — so a free teacher pressing Ctrl+P got hidden
+     chrome and an empty sheet, i.e. A BLANK PAGE. The file's own comment
+     conceded that and deferred it. */
+  {
+    const pb = (SOURCE.match(/@media print\{[\s\S]*?\n      \]\.join/) || [''])[0];
+    ok(pb.length > 200, 'L4 non-vacuity: the print block was not found (' + pb.length + ' chars)');
+    ok(/body\.crt-printing/.test(pb),
+      'L4 ⭐⭐ the print block is UNSCOPED — a free visitor pressing Ctrl+P gets a blank page');
+    ok(/body\.crt-printing[^\n]*\.crt-wrap\{display:none/.test(pb),
+      'L4 the print block does not hide the apparatus, so the screen prints on top of the sheet');
+    ok(/\.lcs-header/.test(pb) && /\.lcs-controls/.test(pb),
+      'L4 the print block does not hide the shell chrome — the tool title and the four chrome buttons reach the paper');
+    ok(/\.lcs-app/.test(pb),
+      'L4 the print block does not neutralise the shell card, so its surface, radius and shadow print around the sheet');
+    ok(/body\.crt-printing \.crt-sheet\{display:block/.test(pb),
+      'L4 the print block never reveals the sheet');
+    /* poison, both directions */
+    ok(!/body\.crt-printing/.test('@media print{.crt-wrap{display:none !important}'),
+      'L4 poison: the scoping check passed an unscoped block');
+    ok(/body\.crt-printing/.test('@media print{body.crt-printing .crt-wrap{display:none}'),
+      'L4 poison: the scoping check failed a correctly scoped block');
+  }
 
   /* ⭐⭐ NO COMPARISON IS COMPUTED IN THE RENDER PATH. `lands()` is a sum;
      the landing and the witnessed count are drawn the same way on the
@@ -772,9 +815,11 @@ const srv = http.createServer((rq, rs) => {
       const T = window.TheGap;
       if (!T || typeof T._paint !== 'function') return { err: 'the tool is not on window, or has no paint' };
       const stage = document.querySelector('.crt-stage');
-      const marksHost = document.querySelector('.crt-marks');
-      const ground = document.querySelector('.crt-ground');
-      const wave = document.querySelector('.crt-wave');
+      /* the rebuild renamed the parts: the band the counters stand in,
+         the shelf they stand on, and the marker that crosses it. */
+      const marksHost = document.querySelector('.crt-band');
+      const ground = document.querySelector('.crt-shelf');
+      const wave = document.querySelector('.crt-marker');
       if (!stage || !marksHost || !ground || !wave) return { err: 'a named part is missing from the DOM' };
       const PROPS = ['backgroundColor', 'color', 'opacity', 'visibility', 'display', 'borderRadius', 'height', 'width'];
       const styleOf = function (e) {
@@ -844,7 +889,7 @@ const srv = http.createServer((rq, rs) => {
         'L6 ⚠⚠ non-vacuity: THE EVIDENCE SUBTREE IS EMPTY — this comparison would pass on a tool that draws nothing at all');
       ok(recs.every(r => r.style && r.style.length > 100), 'L6 non-vacuity: the computed-style channel is empty');
       ok(recs.every(r => r.aria && r.aria.replace(/\s*\|\|\s*/, '').length > 20), 'L6 non-vacuity: the aria channel is empty');
-      ok(recs.every(r => /crt-wave/.test(r.subtree) && /crt-ground/.test(r.subtree)), 'L6 non-vacuity: the ground and the pulse are not in the subtree');
+      ok(recs.every(r => /crt-marker/.test(r.subtree) && /crt-shelf/.test(r.subtree)), 'L6 non-vacuity: the shelf and the marker are not in the subtree');
       ok(recs.some(r => r.k > 0) && recs.some(r => r.k < 0), 'L6 non-vacuity: only one direction was fingerprinted');
 
       /* ---- ⚠⚠ NOTHING IS BUILT ------------------------------------ */
@@ -920,9 +965,104 @@ const srv = http.createServer((rq, rs) => {
       const A = groups['+'][0].r, B = groups['-'][0].r;
       const chan = { subtree: A.subtree !== B.subtree, style: A.style !== B.style, motion: A.motion !== B.motion, aria: A.aria !== B.aria };
       ok(chan.motion, 'L6 ⭐ the two directions run the SAME animation — the pulse does not carry the direction');
-      ok(chan.aria, 'L6 ⚠ the two directions announce the SAME thing — a screen-reader user gets the gap and no evidence at all');
+      /* ⚠⚠ THIS ASSERTION USED TO READ THE GROUND'S `aria-label`, AND IT
+         WAS MEASURING A CHANNEL THAT SPOKE TO NOBODY. Changing the
+         accessible name of a NON-FOCUSED `role="img"` announces nothing
+         in JAWS, NVDA or VoiceOver — it is browse-mode content, reached
+         only if the user happens to navigate onto it, which is after
+         everything else on the page. So the old build's carefully-gated
+         direction was correct, silent, and green here.
+         The direction now goes through `api.announce`, the shell's one
+         live region — which a paint-only fingerprint can NEVER see,
+         because it fires from `_run`'s timer. That is this file's own L2b
+         law ("the gate must reach these states BY BUTTON") applying to
+         the gate itself, so the assertion moves to the button-driven
+         block below rather than being weakened here. */
+      ok(!chan.aria || chan.aria, 'L6 aria fingerprint recorded (direction is asserted by button in L6b)');
       console.log('  L6: ' + recs.length + ' scenes fingerprinted; direction carried by ' +
         Object.keys(chan).filter(k => chan[k]).join(' + ') + '; 0 marks in the DOM during the gap');
+    }
+
+    /* ================= L6b — THE EVIDENCE REACHES A BLIND USER =======
+       ⭐⭐ DRIVEN BY BUTTON, BECAUSE A PAINT CANNOT REACH IT. The direction
+       is spoken through `api.announce`, which writes the shell's single
+       polite live region (`lcs-shell.js:475-497`), and it fires from
+       `_run`'s T_FALL timer. Nothing in the paint-only fingerprint above
+       can observe it, which is precisely why the old build's silent
+       channel stayed green for a whole ship.
+       This asserts three things a teacher would care about: the
+       direction IS spoken; the two directions speak DIFFERENT sentences;
+       and it is spoken AFTER the marker starts moving, never before —
+       the mirror defect, where the blind child is told what is about to
+       happen before the class sees it. */
+    {
+      const p2 = await b.newPage();
+      const seen = [];
+      p2.on('pageerror', e => fails.push('L6b page error: ' + e.message));
+      await p2.goto('http://127.0.0.1:' + PORT + '/mini-tools/the-gap.html?lang=en', { waitUntil: 'domcontentloaded' });
+      await p2.waitForSelector('.crt-wrap', { timeout: 10000 });
+
+      const runs = [];
+      for (let i = 0; i < 14 && runs.length < 8; i++) {
+        const r = await p2.evaluate(async function () {
+          const T = window.TheGap;
+          const live = document.querySelector('.lcs-sr-only');
+          if (!live) return { err: 'the shell live region was not found' };
+          const said = [];
+          const t0 = performance.now();
+          let tMarker = -1;
+          const mo = new MutationObserver(function () {
+            const txt = (live.textContent || '').trim();
+            if (txt) said.push({ t: performance.now() - t0, txt: txt });
+          });
+          mo.observe(live, { childList: true, characterData: true, subtree: true });
+          const marker = document.querySelector('.crt-marker');
+          const mo2 = new MutationObserver(function () {
+            if (tMarker < 0 && marker.classList.contains('is-on')) tMarker = performance.now() - t0;
+          });
+          mo2.observe(marker, { attributes: true, attributeFilter: ['class'] });
+          const sign = T.st.k > 0 ? 1 : -1;
+          document.querySelector('.crt-b-run').click();
+          await new Promise(r => setTimeout(r, 1600));
+          mo.disconnect(); mo2.disconnect();
+          return { sign: sign, said: said, tMarker: tMarker };
+        });
+        if (r.err) { fails.push('L6b ' + r.err); break; }
+        runs.push(r);
+        await p2.evaluate(() => document.querySelector('.crt-b-again').click());
+        await new Promise(r => setTimeout(r, 120));
+      }
+
+      ok(runs.length >= 6, 'L6b non-vacuity: only ' + runs.length + ' runs were driven');
+      const withPlus = runs.filter(r => r.sign > 0), withMinus = runs.filter(r => r.sign < 0);
+      ok(withPlus.length > 0 && withMinus.length > 0,
+        'L6b non-vacuity: only one direction was ever dealt across ' + runs.length + ' runs');
+
+      runs.forEach(function (r, i) {
+        ok(r.said.length > 0, 'L6b ⭐⭐ run ' + i + ' SAID NOTHING AT ALL — the blind child gets the gap and no evidence');
+        ok(r.tMarker >= 0, 'L6b non-vacuity: run ' + i + ' never saw the marker start, so the ordering cannot be judged');
+        const dir = r.said.filter(x => /\S/.test(x.txt));
+        ok(dir.length > 0, 'L6b run ' + i + ' produced no non-empty announcement');
+        /* ⚠ NEVER BEFORE THE CLASS SEES IT. A direction announced ahead of
+           the marker is the same leak the old fix was for, moved earlier
+           in time rather than closed. */
+        /* ⚠ GUARDED. The first poison run made this throw instead of
+           fail, and a crashed gate is indistinguishable from a failing
+           one — it reports a stack trace where it should report which
+           property of the tool is wrong. */
+        const first = dir[0] || { t: -1e9 };
+        ok(first.t >= r.tMarker - 40,
+          'L6b ⚠⚠ run ' + i + ' announced the evidence ' + Math.round(r.tMarker - first.t) +
+          'ms BEFORE the marker moved — the blind user is told what the class has not yet seen');
+      });
+
+      const plusTxt = withPlus.length ? withPlus[0].said.map(x => x.txt).join('|') : '';
+      const minusTxt = withMinus.length ? withMinus[0].said.map(x => x.txt).join('|') : '';
+      ok(plusTxt.length > 0 && minusTxt.length > 0, 'L6b non-vacuity: one of the directions recorded no text');
+      ok(plusTxt !== minusTxt,
+        'L6b ⭐⭐ THE TWO DIRECTIONS ANNOUNCE THE SAME SENTENCE — a screen-reader user gets the gap and no evidence at all');
+      console.log('  L6b: ' + runs.length + ' runs driven by button; both directions spoken, distinctly, after the marker moves');
+      await p2.close();
     }
 
     await p.close();

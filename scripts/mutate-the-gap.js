@@ -197,9 +197,18 @@ const MUTATIONS = [
     "'body.crt-scroll{overflow-y:auto;height:auto;min-height:100%}'", "'body.crt-scroll{overflow-y:auto}'"],
   ['the escape class is never added to the document element', "documentElement.classList.add('crt-scroll');", "documentElement.classList.add('crt-nope');"],
   ['a CSS rule is declared twice, the later silently overriding the earlier',
-    "'.crt-say{", "'.crt-num{color:#000}',\n        '.crt-say{"],
-  ['the print sheet stops resetting the shell', '@media print{.lcs-shell,.crt-wrap{display:none !important}',
-    '@media print{.crt-wrap{display:none !important}'],
+    "'.crt-read{", "'.crt-num{color:#000}',\n        '.crt-read{"],
+  /* ⚠⚠ THIS NEEDLE WAS STALE AND THE HARNESS WAS RED ON DISK. It named
+     `.lcs-shell`, which is not a class — the shell emits `.lcs-app`,
+     `.lcs-header`, `.lcs-controls`. The tool was corrected to name the
+     real ones, and a missing needle is a FAULT here rather than a skip,
+     so the very fix that made the tool right is what broke its own
+     harness. The mutation now removes the SCOPING, which is the defect
+     that actually reaches a teacher: an unscoped print block hands a
+     free visitor pressing Ctrl+P a blank page. */
+  ['the print sheet stops being scoped, so a free visitor pressing Ctrl+P gets a blank page',
+    '@media print{body.crt-printing .lcs-header,body.crt-printing .lcs-controls,',
+    '@media print{.lcs-header,.lcs-controls,'],
   ['GEO stops being reachable from a gate', '    GEO: GEO,\n', '\n'],
 
   /* --- the refuse-list, which is a gate and not a note --------------

@@ -80,11 +80,21 @@ const MARK_FLOOR = 12;     /* legibility of a featureless mark — NOT a tap flo
 /* ⚠ THE MARK-TO-GROUND GAP IS READ OUT OF THE TOOL, NOT CHOSEN. It is
    `.crt-ground{...margin-top:Npx}`, and parsing it means this assertion
    tracks the design instead of drifting from it. */
+/* ⚠ THE REBUILD INVERTED THIS RULE, AND THE PARSE HAD TO FOLLOW.
+   The old band sat ABOVE the ground by `.crt-ground{margin-top:Npx}`.
+   The counters now OVERLAP the shelf's top face by
+   `.crt-band{margin-bottom:-1px}`, deliberately, so there is never a
+   hairline of cream between a counter and the plinth it stands on. The
+   quantity this check needs is the same either way — the largest
+   distance the stylesheet permits between the counters' feet and the
+   shelf — so it is still READ OUT OF THE TOOL rather than chosen, and
+   a negative margin reads as zero permitted gap. */
 const GROUND_GAP = (function () {
   const src = fs.readFileSync(path.join(ROOT, 'the-gap.js'), 'utf8');
-  const rule = src.match(/'\.crt-ground\{([^}]*)\}'/);
-  const m = rule && rule[1].match(/margin-top\s*:\s*(\d+)px/);
-  if (!m) { console.log('⚠⚠ could not read the ground margin out of the tool — the standing-on-the-ground check cannot be made'); process.exit(1); }
+  const rule = src.match(/'\.crt-band\{([^}]*)\}'/);
+  const m = rule && rule[1].match(/margin-bottom\s*:\s*(-?\d+)px/);
+  if (!m) { console.log('⚠⚠ could not read the band margin out of the tool — the standing-on-the-shelf check cannot be made'); process.exit(1); }
+  if (Number(m[1]) <= 0) return 0;
   return Number(m[1]);
 })();
 
@@ -123,7 +133,7 @@ const READ = () => {
   const q = s => document.querySelector(s);
 
   const named = {};
-  ['.crt-wrap', '.crt-stage', '.crt-marks', '.crt-ground', '.crt-counts', '.crt-say',
+  ['.crt-wrap', '.crt-stage', '.crt-band', '.crt-shelf', '.crt-read', '.crt-cell',
     '.crt-rail', '.crt-row', '.crt-gate', '.crt-b-run', '.crt-b-clear', '.crt-b-again', '.crt-b-print']
     .forEach(function (s) { const e = q(s); if (e) named[s] = R(e); });
 
@@ -136,9 +146,9 @@ const READ = () => {
      mark. A mark overlapping a mark is the #39 defect (a fixed-px child
      in a percentage layout) and it is invisible to any floor. */
   const collide = [];
-  ['.crt-stage', '.crt-counts', '.crt-say', '.crt-rail', '.crt-row', '.crt-gate']
+  ['.crt-stage', '.crt-read', '.crt-rail', '.crt-row', '.crt-gate']
     .forEach(function (s) { const e = q(s); if (e && e.getBoundingClientRect().height > 0) collide.push({ s: s, r: R(e) }); });
-  ['.crt-marks', '.crt-ground']
+  ['.crt-band', '.crt-shelf']
     .forEach(function (s) { const e = q(s); if (e && e.getBoundingClientRect().height > 0) collide.push({ s: s, r: R(e) }); });
   ['.crt-b-run', '.crt-b-clear', '.crt-b-again', '.crt-b-print']
     .forEach(function (s) { const e = q(s); if (e && e.getBoundingClientRect().height > 0) collide.push({ s: s, r: R(e) }); });
@@ -157,7 +167,7 @@ const READ = () => {
       role: m.getAttribute('role'), cursor: cs.cursor, tag: m.tagName };
   });
 
-  const g = q('.crt-ground');
+  const g = q('.crt-shelf');
   return {
     card: R(card),
     named: named,
@@ -173,11 +183,27 @@ const READ = () => {
     })) : null,
     railOn: (q('.crt-rail').className.indexOf('is-on') >= 0),
     railPressed: [].slice.call(document.querySelectorAll('.crt-k.is-on')).length,
-    isGap: stage.className.indexOf('is-gap') >= 0,
-    isOut: q('.crt-wave').className.indexOf('is-out') >= 0,
-    nums: [].slice.call(document.querySelectorAll('.crt-num')).map(e => e.textContent),
+    isGap: stage.className.indexOf('is-shut') >= 0,
+    /* ⚠ `classList`, NOT `className`. The marker is inline SVG, and an
+       SVGElement's `className` is an SVGAnimatedString rather than a
+       string — `.indexOf` is not a function on it. */
+    isOut: q('.crt-marker').classList.contains('is-out'),
+    /* ⚠ THE EMPTY SLOTS ARE NOT NUMERALS. The readout is three FIXED
+       cells so the composition never collapses and nothing jumps when 9
+       becomes 16; an unfilled cell draws a dotted baseline and carries
+       `.crt-num-empty`. Counting those as numerals would report three
+       readings in every phase and condemn a correct readout. */
+    nums: [].slice.call(document.querySelectorAll('.crt-num:not(.crt-num-empty)')).map(e => e.textContent),
     tryNums: [].slice.call(document.querySelectorAll('.crt-num.is-try')).map(e => e.textContent),
-    say: q('.crt-say').textContent,
+    /* ⚠⚠ `.crt-say` WAS DELETED and my first repoint of this read
+       slot 1, which legitimately keeps showing the start THROUGH the gap
+       — the class watched it, so removing it would be dishonest. What
+       this check is actually for is "does the tool assert anything the
+       class has not yet seen while it cannot see", so it reads the two
+       cells that must be empty during the gap: the after-count and the
+       theory. */
+    say: [].slice.call(document.querySelectorAll('.crt-num:not(.crt-num-empty)'))
+          .slice(1).map(e => e.textContent).join(' '),
     runOff: q('.crt-b-run').className.indexOf('is-off') >= 0,
     clearOff: q('.crt-b-clear').className.indexOf('is-off') >= 0,
     gateOn: !!q('.crt-gate.is-on'),
@@ -392,14 +418,43 @@ async function measureReach(p) {
       st.markBoxes.forEach(function (m, i) { ok(inside(m, st.card, 1.5), tag + ': ⚠ mark[' + i + '] is outside the card ' + when); });
       ok(st.card.r <= v.w + 1.5, tag + ': the card itself overflows the viewport ' + when);
     };
-    const ANC = [['.crt-stage', '.crt-marks'], ['.crt-stage', '.crt-ground'], ['.crt-stage', '.crt-mark'],
-      ['.crt-marks', '.crt-mark'], ['.crt-row', '.crt-b-'], ['.crt-rail', '.crt-k'], ['.crt-counts', '.crt-num']];
+    const ANC = [['.crt-stage', '.crt-band'], ['.crt-stage', '.crt-shelf'], ['.crt-stage', '.crt-mark'],
+      ['.crt-band', '.crt-grp'], ['.crt-grp', '.crt-mark'], ['.crt-band', '.crt-mark'],
+      ['.crt-shelf', '.crt-tick'], ['.crt-stage', '.crt-board'], ['.crt-stage', '.crt-marker'],
+      ['.crt-stage', '.crt-floor'], ['.crt-row', '.crt-b-'], ['.crt-rail', '.crt-k'],
+      ['.crt-read', '.crt-cell'], ['.crt-cell', '.crt-num'], ['.crt-cell', '.crt-set'],
+      ['.crt-set', '.crt-grip'], ['.crt-grip', '.crt-chev'],
+      /* ⚠ the containment check is not transitive — a grandparent pair
+         has to be named too, or `.crt-read` "collides" with the numeral
+         two levels below it. */
+      ['.crt-read', '.crt-num'], ['.crt-read', '.crt-set'], ['.crt-read', '.crt-grip'],
+      ['.crt-read', '.crt-chev'], ['.crt-cell', '.crt-grip'], ['.crt-cell', '.crt-chev'],
+      ['.crt-band', '.crt-grp']];
+
+    /* ⭐⭐ CONTACT IS NOT COLLISION, AND IT IS BOUNDED RATHER THAN
+       EXEMPTED. The counters stand ON the shelf: `.crt-band` carries
+       `margin-bottom:-1px` so there is never a hairline of cream between
+       a counter and the plinth it stands on. That is a deliberate 1px
+       overlap, and blanket-allow-listing the pair would blind this check
+       to a real collision later — a counter sunk halfway into the shelf
+       would read exactly the same as one resting on it. So the pair is
+       allowed to touch and MEASURED for how deep it goes. */
+    const CONTACT = [['.crt-band', '.crt-shelf'], ['.crt-shelf', '.crt-mark'], ['.crt-shelf', '.crt-grp']];
+    const CONTACT_MAX = 2;
+    const vDepth = (a, b) => Math.min(a.b, b.b) - Math.max(a.y, b.y);
     const collideCheck = (st, when) => {
       for (let i = 0; i < st.collide.length; i++) {
         for (let j = i + 1; j < st.collide.length; j++) {
           const A = st.collide[i], B = st.collide[j];
           const anc = (x, y) => ANC.some(pr => x === pr[0] && y.indexOf(pr[1]) === 0);
           if (anc(A.s, B.s) || anc(B.s, A.s)) continue;
+          const con = (x, y) => CONTACT.some(pr => x === pr[0] && y.indexOf(pr[1]) === 0);
+          if (con(A.s, B.s) || con(B.s, A.s)) {
+            ok(vDepth(A.r, B.r) <= CONTACT_MAX,
+              tag + ': ⚠⚠ ' + A.s + ' is SUNK ' + Math.round(vDepth(A.r, B.r)) + 'px into ' + B.s +
+              ' ' + when + ' — the counters rest on the shelf, they do not sink into it');
+            continue;
+          }
           ok(!overlap(A.r, B.r),
             tag + ': ⚠⚠ ' + A.s + ' and ' + B.s + ' OVERLAP ' + when + ' — one is drawn on top of the other');
         }
@@ -439,13 +494,30 @@ async function measureReach(p) {
     ok(sg.isGap, tag + ': ⚠⚠ pressing the run control did not cover the ground');
     ok(sg.marks === 0,
       tag + ': ⚠⚠ ' + sg.marks + ' MARKS ARE IN THE DOM WHILE THE GROUND IS DARK — the non-leak is structural or it is nothing');
-    ok(sg.nums.length === 0, tag + ': ' + sg.nums.length + ' numerals are still readable during the gap');
+    /* ⚠ THE WITNESSED START PERSISTS THROUGH THE GAP, DELIBERATELY. The
+       class counted it aloud before anything happened, so it is a fact
+       they already hold and blanking it would be dishonest — it would
+       also force them to carry it in working memory, which is exactly
+       what the header's third invention says this tool must not do.
+       What must be absent is anything they have NOT seen: the
+       after-count and the theory. `say` reads precisely those two. */
+    ok(sg.nums.length <= 1, tag + ': ' + sg.nums.length + ' numerals are readable during the gap; only the witnessed start may remain');
+    ok(sg.nums.length === 0 || +sg.nums[0] === sg.marksBefore || sg.nums[0] !== '',
+      tag + ': the numeral left standing during the gap is not the witnessed start');
     ok(sg.say === '', tag + ': the tool is still talking during the gap: "' + sg.say + '"');
     ok(sg.rail === 0, tag + ': the rail is live during the gap');
     ok(sg.runOff, tag + ': ⚠ the run control is still LIVE mid-run — it looks refused and is not');
     ok(sg.stageAria.length > 15 && sg.stageAria !== s0.stageAria,
       tag + ': the stage announces the same thing covered as uncovered');
-    ok(sg.groundAria.length > 15, tag + ': ⚠ the ground announces nothing — a screen-reader user gets the gap and no evidence at all');
+    /* ⚠⚠ THIS USED TO READ THE SHELF'S `aria-label`, AND THAT CHANNEL
+       SPOKE TO NOBODY. Changing the accessible name of a NON-FOCUSED
+       element announces nothing in JAWS, NVDA or VoiceOver. The
+       direction now goes through `api.announce` — the shell's one live
+       region — fired on the line after the marker starts moving, and it
+       is asserted by button, with timing, in `verify-the-gap.js` L6b.
+       Asserting it here as well would be measuring a channel this tool
+       deliberately no longer has. */
+    ok(sg.railOn === false, tag + ': the rail is offered during the gap, before there is any question to answer');
     contain(sg, 'during the gap'); collideCheck(sg, 'during the gap');
     if (SHOT.indexOf(v.w) >= 0) await p.screenshot({ path: path.join(OUT, 'gap-' + tag + '.png'), fullPage: true });
 
@@ -530,7 +602,18 @@ async function measureReach(p) {
         collideCheck(d, 'at the top of the band, ' + d.marks + ' marks');
         onGround(d, 'at the top of the band, ' + d.marks + ' marks');
       }
-      await clickSel(p, '.crt-b-again', 120);
+      /* ⚠⚠ THE SWEEP CLIMBS WITH THE GRIPS NOW. It used to press
+         `again` thirty times and rely on the deal re-rolling the START.
+         `again` deliberately KEEPS the start and re-deals only the
+         change — that is the whole division of labour with the
+         teacher's chevrons, and it is what makes "the same start twice,
+         once arriving and once leaving" possible. So a sweep built on
+         `again` can never leave the start it happened to open on, and
+         this gate reported "never exceeded 3 marks" rather than a
+         defect. The top of the band is reached the way a teacher
+         reaches it: by pressing the up grip. */
+      await clickSel(p, '.crt-grip-up', 60);
+      await clickSel(p, '.crt-b-again', 90);
     }
     ok(worst >= 13, tag + ': non-vacuity — 30 deals on the sixteen setting never exceeded ' + worst +
       ' marks; the top of the band was never sampled');

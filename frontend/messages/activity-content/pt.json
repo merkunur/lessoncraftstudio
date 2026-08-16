@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "O capitão Quill é um patinho corajoso que desce um rio cheio de bifurcações na sua balsa. Em cada bifurcação, o rio se abre em dois braços, e a criança toca no braço do rio que carrega o número certo — o maior, o menor ou o que tem mais. Por exemplo, entre 7 e 6, o maior é o 7, então é por ali que a balsa segue. E tem uma pegadinha esperta: um número desenhado bem grande nem sempre é o maior número, porque o que vale é o valor do número, não o tamanho em que ele está escrito.",
+        "Nesta viagem, a criança pratica comparar números escritos de 1 a 10 e descobrir qual é o maior e qual é o menor. Ela também aprende a reconhecer o lado que tem mais, a comparar qual soma é maior, a tocar no sinal de igual quando os dois lados valem a mesma coisa e a achar o número que fica entre dois outros. Aos poucos, ela entende que o valor do número é o que importa de verdade, e não o tamanho da escrita.",
+        "É uma atividade grátis e interativa, sem cronômetro, sem pontos e sem competição — só uma viagem tranquila pelo rio no ritmo de cada pequeno navegador. Cada bifurcação é um convite calmo a observar, comparar e escolher com atenção. Assim, a criança dá os primeiros passos no sentido numérico, dentro da unidade temática Números da BNCC, comparando números e reconhecendo maior, menor e igual de um jeito leve e acolhedor."
+      ],
+      "practices": [
+        "Comparar dois números escritos de 1 a 10 e descobrir qual é o maior e qual é o menor.",
+        "Reconhecer, entre dois braços do rio, qual é o lado que tem mais.",
+        "Entender que o valor do número é que conta, e não o tamanho em que ele está desenhado.",
+        "Achar o número que está entre dois outros e reconhecer quando os dois lados são iguais."
+      ],
+      "howToPlay": [
+        "Leia com calma os dois números que aparecem em cada bifurcação do rio.",
+        "Guie o capitão Quill pelo braço do rio com o número certo (o maior, o menor, o que tem mais…) e depois toque em Verificar.",
+        "Você pode tentar quantas vezes quiser: não tem tempo correndo, não tem pontos, é só aproveitar a viagem."
+      ],
+      "learningGoals": [
+        "Comparar números de 1 a 10 com segurança, reconhecendo maior, menor e igual.",
+        "Compreender que o valor do número importa, e não o tamanho da escrita.",
+        "Dar passos no sentido numérico — mais, menos, entre e somas simples — de um jeito tranquilo."
+      ]
+    },
     "numbers-court.judge-balance.1-oa-d-7": {
       "about": [
         "A juíza Tess é uma tartaruga tranquila que comanda o tribunal dos números, e o seu instrumento de trabalho é uma grande balança. Diante dela desfilam afirmações matemáticas que precisam de um veredito: 3 + 7 = 7 + 3 é verdadeira, porque os dois lados têm a mesma quantidade e a balança fica em equilíbrio. Já 10 = 7 + 2 é falsa, porque um lado tem mais do que o outro e a balança pende.",

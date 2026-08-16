@@ -22,7 +22,7 @@
           "trackSteps": 40,
           "supplyCount": 5,
           "prompt": "Lay helpers along the pencil, then count them.",
-          "promptL10n": { "de": "Leg die Helfer am Bleistift entlang und zähl sie dann.", "fr": "Pose des bâtonnets le long du crayon, puis compte-les.", "es": "Pon ayudantes a lo largo del lápiz y cuéntalos." }
+          "promptL10n": { "de": "Leg die Helfer am Bleistift entlang und zähl sie dann.", "fr": "Pose des bâtonnets le long du crayon, puis compte-les.", "es": "Pon ayudantes a lo largo del lápiz y cuéntalos.", "pt": "Coloque ajudantes ao longo do lápis e conte." }
         },
         {
           "id": "span-leaf",
@@ -35,7 +35,7 @@
           "trackSteps": 32,
           "supplyCount": 4,
           "prompt": "How many helpers long is the leaf?",
-          "promptL10n": { "de": "Wie viele Helfer lang ist das Blatt?", "fr": "Combien de bâtonnets de long fait la feuille ?", "es": "¿Cuántos ayudantes de largo mide la hoja?" }
+          "promptL10n": { "de": "Wie viele Helfer lang ist das Blatt?", "fr": "Combien de bâtonnets de long fait la feuille ?", "es": "¿Cuántos ayudantes de largo mide la hoja?", "pt": "Quantos ajudantes de comprimento tem a folha?" }
         },
         {
           "id": "gaps-ribbon",
@@ -66,7 +66,7 @@
             }
           ],
           "prompt": "A gap snuck in! Scootch them together, then count.",
-          "promptL10n": { "de": "Da ist eine Lücke! Schieb sie zusammen und zähl dann.", "fr": "Un trou s'est glissé ! Rapproche-les, puis compte.", "es": "¡Se coló un huequito! Júntalos y luego cuenta." }
+          "promptL10n": { "de": "Da ist eine Lücke! Schieb sie zusammen und zähl dann.", "fr": "Un trou s'est glissé ! Rapproche-les, puis compte.", "es": "¡Se coló un huequito! Júntalos y luego cuenta.", "pt": "Entrou um buraquinho! Junte eles bem e conte." }
         },
         {
           "id": "overlaps-crayon",
@@ -97,7 +97,7 @@
             }
           ],
           "prompt": "Two helpers are on top — give them room, then count.",
-          "promptL10n": { "de": "Zwei Helfer liegen übereinander – gib ihnen Platz und zähl dann.", "fr": "Deux bâtonnets se chevauchent — laisse-leur de la place, puis compte.", "es": "Dos ayudantes están encimados: dales lugar y cuenta." }
+          "promptL10n": { "de": "Zwei Helfer liegen übereinander – gib ihnen Platz und zähl dann.", "fr": "Deux bâtonnets se chevauchent — laisse-leur de la place, puis compte.", "es": "Dos ayudantes están encimados: dales lugar y cuenta.", "pt": "Dois ajudantes estão em cima um do outro — dê espaço e conte." }
         },
         {
           "id": "samesize-carrot",
@@ -111,7 +111,7 @@
           "supplyCount": 5,
           "decoyWidth": 12,
           "prompt": "Use only the SAME helpers — then count.",
-          "promptL10n": { "de": "Nimm nur die GLEICHEN Helfer – dann zähl.", "fr": "Utilise seulement les MÊMES bâtonnets — puis compte.", "es": "Usa solo los MISMOS ayudantes y luego cuenta." }
+          "promptL10n": { "de": "Nimm nur die GLEICHEN Helfer – dann zähl.", "fr": "Utilise seulement les MÊMES bâtonnets — puis compte.", "es": "Usa solo los MISMOS ayudantes y luego cuenta.", "pt": "Use só os MESMOS ajudantes — e conte." }
         },
         {
           "id": "start-stick",
@@ -130,7 +130,7 @@
             }
           ],
           "prompt": "Start the first helper right at the tip!",
-          "promptL10n": { "de": "Fang mit dem ersten Helfer genau an der Spitze an!", "fr": "Commence le premier bâtonnet pile au bord de la paille !", "es": "¡Empieza el primer ayudante justo en la puntita!" }
+          "promptL10n": { "de": "Fang mit dem ersten Helfer genau an der Spitze an!", "fr": "Commence le premier bâtonnet pile au bord de la paille !", "es": "¡Empieza el primer ayudante justo en la puntita!", "pt": "Comece o primeiro ajudante bem na pontinha!" }
         },
         {
           "id": "judge-ribbon",
@@ -143,7 +143,7 @@
           "trackSteps": 40,
           "supplyCount": 5,
           "prompt": "Which one is measured the right way?",
-          "promptL10n": { "de": "Welches ist richtig gemessen?", "fr": "Lequel est mesuré correctement ?", "es": "¿Cuál está bien medido?" },
+          "promptL10n": { "de": "Welches ist richtig gemessen?", "fr": "Lequel est mesuré correctement ?", "es": "¿Cuál está bien medido?", "pt": "Qual foi medida do jeito certo?" },
           "judgeRows": [
             {
               "helpers": [
@@ -225,7 +225,7 @@
           "trackSteps": 44,
           "supplyCount": 6,
           "prompt": "Lay cubes along the ribbon, then count.",
-          "promptL10n": { "de": "Leg die Würfel am Band entlang und zähl sie dann.", "fr": "Pose des bâtonnets le long du ruban, puis compte-les.", "es": "Pon cubos a lo largo del listón y cuéntalos." }
+          "promptL10n": { "de": "Leg die Würfel am Band entlang und zähl sie dann.", "fr": "Pose des bâtonnets le long du ruban, puis compte-les.", "es": "Pon cubos a lo largo del listón y cuéntalos.", "pt": "Coloque ajudantes ao longo da fita e conte." }
         },
         {
           "id": "gaps-leaf",
@@ -252,7 +252,7 @@
             }
           ],
           "prompt": "Close the gap, then count the clips.",
-          "promptL10n": { "de": "Schließ die Lücke und zähl dann die Büroklammern.", "fr": "Ferme le trou, puis compte les bâtonnets.", "es": "Cierra el hueco y cuenta los clips." }
+          "promptL10n": { "de": "Schließ die Lücke und zähl dann die Büroklammern.", "fr": "Ferme le trou, puis compte les bâtonnets.", "es": "Cierra el hueco y cuenta los clips.", "pt": "Feche o buraquinho e conte os ajudantes." }
         },
         {
           "id": "inverse-leaf",
@@ -268,7 +268,7 @@
             "smallWidth": 4
           },
           "prompt": "Measure the leaf with big helpers, then little ones — what changes?",
-          "promptL10n": { "de": "Miss das Blatt erst mit großen Helfern, dann mit kleinen – was ändert sich?", "fr": "Mesure la feuille avec les grands bâtonnets, puis avec les petits — qu'est-ce qui change ?", "es": "Mide la hoja con ayudantes grandes y luego con pequeños: ¿qué cambia?" }
+          "promptL10n": { "de": "Miss das Blatt erst mit großen Helfern, dann mit kleinen – was ändert sich?", "fr": "Mesure la feuille avec les grands bâtonnets, puis avec les petits — qu'est-ce qui change ?", "es": "Mide la hoja con ayudantes grandes y luego con pequeños: ¿qué cambia?", "pt": "Meça a folha com ajudantes grandes e depois com pequenos — o que muda?" }
         }
       ]
     },
@@ -277,19 +277,22 @@
       "en": "inchies-garden-path",
       "de": "laengen-messen-mit-einheiten",
       "fr": "mesurer-des-longueurs-avec-des-unites",
-      "es": "medir-longitudes-con-unidades"
+      "es": "medir-longitudes-con-unidades",
+      "pt": "medir-comprimentos-com-unidades-2-ano"
     },
     "page_title": {
       "en": "Inchie's Garden Path — Measuring by Laying Units",
       "de": "Inchies Gartenweg – Längen messen durch Auslegen (Klasse 1)",
       "fr": "Le jardin d'Inchie — Mesurer les longueurs en bâtonnets (CP)",
-      "es": "Inchie mide el jardín: longitudes con unidades (1º de primaria)"
+      "es": "Inchie mide el jardín: longitudes con unidades (1º de primaria)",
+      "pt": "O jardim de Inchie — Medir comprimentos com unidades (2º ano)"
     },
     "page_intro": {
       "en": "Help Inchie the inchworm measure the garden! Lay identical helper-worms end to end along each object — no gaps, no overlaps, all the same size — then tap each helper to count how many long it is. A warm Grade 1 measurement game about laying length units and discovering that length is the number of units, aligned to Common Core 1.MD.A.2.",
       "de": "Mit Inchie Längen messen: gleich große Einheiten lückenlos aneinanderlegen und zählen. Kostenlose, interaktive Mathe-Übung für Klasse 1 – Größen und Messen.",
       "fr": "Avec Inchie, mesurer des longueurs en posant des bâtonnets bout à bout et en les comptant. Exercice de maths gratuit et interactif au CP — Grandeurs et mesures.",
-      "es": "Ayuda a Inchie a medir el jardín colocando ayudantes del mismo tamaño, sin huecos ni encimarlos, y cuenta cuántos mide cada objeto: la longitud es el número de unidades. Actividad interactiva y gratuita de 1º de primaria sobre Magnitudes y medida (longitud), alineada a los planes y programas de estudio de la SEP."
+      "es": "Ayuda a Inchie a medir el jardín colocando ayudantes del mismo tamaño, sin huecos ni encimarlos, y cuenta cuántos mide cada objeto: la longitud es el número de unidades. Actividad interactiva y gratuita de 1º de primaria sobre Magnitudes y medida (longitud), alineada a los planes y programas de estudio de la SEP.",
+      "pt": "Ajude Inchie a medir o jardim colocando ajudantes do mesmo tamanho, ponta com ponta, sem folgas nem sobreposições, e conte quantos cabem em cada objeto: o comprimento é o número de unidades. Atividade de matemática interativa, gratuita e online, sem cadastro, de 2º ano sobre Grandezas e medidas (comprimento) com unidades não padronizadas, alinhada à BNCC."
     },
     "kid_prompt_template": "lay-units"
   }

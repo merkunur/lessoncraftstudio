@@ -27,6 +27,7 @@ const GRADE_KEY_MAP: Record<string, string> = {
    grade here. EN + any locale/activity without an entry are unaffected. Sits beside the
    route's other localization maps (EDUCATIONAL_FRAMEWORK_BY_LOCALE, strand-names). */
 const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
+  'lay-units.measure.1-md-a-2': { pt: '2' },                             // PT 2º ano (override do manifest '1'): medir comprimentos iterando UNIDADES não padronizadas ponta a ponta e contá-las é EF02MA16 (2º ano) na BNCC; o 1º ano (EF01MA15) é só comparação direta/indireta (mais comprido/curto), sem unidade nem contagem. Brasil diverge de en/de/es/fr (que mantêm grade 1 / CP porque seus currículos situam a iteração de unidade no 1º ano). en/de/es/fr sem alteração
   'mango-animal-groups.collective-nouns.l-2-1-a': { es: '3' },           // ES 3.º de primaria (override del manifest '2'): los sustantivos colectivos son tema canónico de Español 3.º (NEM Fase 4; el subtipo *colectivo* como clase de palabra se nombra en Fase 4, y cardumen/enjambre/manada es léxico de baja frecuencia) — el escalón MÁS ALTO de la familia vocab es (antónimos 1.º → categorías/matices/sinónimos/contexto 2.º → colectivos 3.º). Diverge HACIA ARRIBA de en/de Grade 2 (rebuild-not-translate); en/de/fr sin cambio (manifest '2')
   'comparison-creek.river-steer.k-cc-c-7': { es: 'PK' },               // Preescolar (chip via GRADE_KEY_MAP['PK']='preschool' → seo.educational_level.preschool es "Preescolar") — pedagogue: comparar numerales 1–10 (mayor/menor/igual) es un aprendizaje de Pensamiento matemático de 3.º de educación preescolar en México (etapa escolar formal, ≠ guardería alemana); "Preescolar" (término SEP) > el "Kínder" coloquial del default K. FIJA EL PRECEDENTE es K-cluster: K escolar-formal → es:'PK'/"Preescolar". en Kindergarten, de/fr sin cambios (US K.CC.C.7)
   'numbers-court.judge-balance.1-oa-d-7': { es: '2' },                   // 2º primaria — la lectura RELACIONAL del signo igual (la misma cantidad de los dos lados; juzgar igualdades verdaderas/falsas como 3+2=2+3) es de 2º en México; 1º usa "=" de forma operacional (resultado). en/de Grade 1, fr CP sin cambios (US 1.OA.D.7 → MX 2º de primaria)
@@ -530,7 +531,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.343';
+  const ACTIVITY_WRAPPER_VERSION = '9.344';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

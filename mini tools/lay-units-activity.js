@@ -41,6 +41,12 @@
     es: {
       count: ['cero', 'uno', 'dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez'],
       win:   ['Cero', 'Un', 'Dos', 'Tres', 'Cuatro', 'Cinco', 'Seis', 'Siete', 'Ocho', 'Nueve', 'Diez']
+    },
+    /* pt-BR — native ensemble. Unit "ajudante" is masculine → win uses "Um"/"Dois" (não uma/duas).
+       count = tap-count register; win = capitalized sentence-start before the noun. */
+    pt: {
+      count: ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'],
+      win:   ['Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
     }
   };
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
@@ -62,30 +68,30 @@
          Unidad = "ayudante" (masc. → concordancia limpia); unidades nombradas cubos/clips en
          los prompts por ronda. Diminutivos cálidos (huequito/juntitos/puntita/igualitos) y tono
          sin puntaje ni reloj; nunca "mal/incorrecto". Inchie se conserva (personaje de catálogo). */
-      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg', fr: "Le chemin du jardin d'Inchie", es: 'El sendero de Inchie' },
+      title: { en: "Inchie's Garden Path", de: 'Inchies Gartenweg', fr: "Le chemin du jardin d'Inchie", es: 'El sendero de Inchie', pt: 'O caminho do jardim de Inchie' },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.', fr: 'Pose les bâtonnets, puis compte-les.', es: 'Pon los ayudantes y cuéntalos.' },
-      add: { en: '+ Add a helper', de: '+ Helfer dazu', fr: '+ Un bâtonnet', es: '+ Otro ayudante' },
-      addBig: { en: '+ Big helper', de: '+ Großer Helfer', fr: '+ Un grand bâtonnet', es: '+ Ayudante grande' },
-      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen', fr: 'Retirer', es: 'Quitar' },
-      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.', fr: 'Compte-les ! Touche chaque bâtonnet.', es: '¡Cuéntalos! Toca cada ayudante.' },
-      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !', es: '¡Pon mis ayudantes puntita con puntita para medirlo!' },
-      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸', fr: 'bâtonnets de long ! 🌸', es: 'ayudantes de largo! 🌸' },
-      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang', fr: 'bâtonnets de long', es: 'ayudantes de largo' },
-      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!', fr: "Un petit trou s'est glissé — rapproche-les !", es: '¡Se coló un huequito! ¡Júntalos bien!' },
-      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!', fr: 'Deux bâtonnets se chevauchent — laisse-leur de la place !', es: '¡Dos ayudantes están encimados! ¡Dales lugar!' },
-      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!', fr: 'Pas encore jusqu\'au bout — ajoute des bâtonnets !', es: '¡Todavía no llegas! ¡Pon más ayudantes!' },
-      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.', fr: 'Ça dépasse le bout — retire-en un.', es: '¡Eso se pasó del final! Quita uno.' },
-      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!', fr: 'Commence le premier bâtonnet pile au bord !', es: '¡Empieza el primer ayudante justo en la puntita!' },
-      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!', fr: 'Seulement les MÊMES bâtonnets — ils doivent être de la même taille !', es: '¡Solo los MISMOS ayudantes! ¡Deben ser igualitos!' },
-      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.', fr: 'Bien serrés, sans trou ! Maintenant, compte-les.', es: '¡Bien juntitos, sin huecos! Ahora cuéntalos.' },
-      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!', fr: 'Plus les bâtonnets sont petits, plus il en faut !', es: 'Ayudantes más pequeños, ¡más necesitas!' },
-      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.', fr: 'Pas de trou, pas de chevauchement, tous de la même taille — puis compte.', es: 'Sin huecos, sin encimar, todos iguales — y ya cuenta.' },
-      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.', fr: 'Compte les GRANDS bâtonnets.', es: 'Cuenta los ayudantes GRANDES.' },
-      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!', fr: 'Maintenant, compte les PETITS bâtonnets !', es: '¡Ahora cuenta los ayudantes PEQUEÑOS!' },
-      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?', fr: 'Regarde bien — même taille, sans trou, rien qui dépasse ?', es: 'Fíjate bien — ¿mismo tamaño, sin huecos, sin que se pase?' },
-      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.', fr: '{n} grands bâtonnets ! Maintenant, les petits.', es: '¡{n} ayudantes grandes! Ahora los pequeños.' },
-      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸', fr: '{a} grands, {b} petits — plus les bâtonnets sont petits, plus il en faut ! 🌸', es: '{a} grandes y {b} pequeños: los más pequeños, ¡más necesitas! 🌸' }
+      prompt: { en: 'Lay the helpers, then count.', de: 'Leg die Helfer aus und zähl sie dann.', fr: 'Pose les bâtonnets, puis compte-les.', es: 'Pon los ayudantes y cuéntalos.', pt: 'Coloque os ajudantes e conte.' },
+      add: { en: '+ Add a helper', de: '+ Helfer dazu', fr: '+ Un bâtonnet', es: '+ Otro ayudante', pt: '+ Outro ajudante' },
+      addBig: { en: '+ Big helper', de: '+ Großer Helfer', fr: '+ Un grand bâtonnet', es: '+ Ayudante grande', pt: '+ Ajudante grande' },
+      nudgeL: { en: '◀' }, nudgeR: { en: '▶' }, take: { en: 'Take back', de: 'Zurücknehmen', fr: 'Retirer', es: 'Quitar', pt: 'Tirar' },
+      count: { en: 'Count them! Tap each helper.', de: 'Zähl sie! Tipp jeden Helfer an.', fr: 'Compte-les ! Touche chaque bâtonnet.', es: '¡Cuéntalos! Toca cada ayudante.', pt: 'Conte! Toque em cada ajudante.' },
+      sayWelcome: { en: 'Lay my helpers nose-to-tail to measure it!', de: 'Leg meine Helfer dicht hintereinander, dann messen wir zusammen!', fr: 'Pose mes bâtonnets bout à bout pour le mesurer !', es: '¡Pon mis ayudantes puntita con puntita para medirlo!', pt: 'Coloque meus ajudantes pontinha com pontinha para medir!' },
+      sayWin: { en: 'helpers long! 🌸', de: 'Helfer lang! 🌸', fr: 'bâtonnets de long ! 🌸', es: 'ayudantes de largo! 🌸', pt: 'ajudantes de comprimento! 🌸' },
+      sayWinSpoken: { en: 'helpers long', de: 'Helfer lang', fr: 'bâtonnets de long', es: 'ayudantes de largo', pt: 'ajudantes de comprimento' },
+      sayGap: { en: 'A little gap snuck in — scootch them together!', de: 'Da hat sich eine Lücke eingeschlichen – schieb sie zusammen!', fr: "Un petit trou s'est glissé — rapproche-les !", es: '¡Se coló un huequito! ¡Júntalos bien!', pt: 'Entrou um buraquinho — junte eles bem!' },
+      sayOverlap: { en: 'Two helpers are on top — give them room!', de: 'Zwei Helfer liegen übereinander – gib ihnen Platz!', fr: 'Deux bâtonnets se chevauchent — laisse-leur de la place !', es: '¡Dos ayudantes están encimados! ¡Dales lugar!', pt: 'Dois ajudantes estão em cima um do outro — dê espaço!' },
+      sayShort: { en: 'Not all the way yet — add more helpers!', de: 'Noch nicht ganz bis zum Ende – leg noch ein paar Helfer dazu!', fr: 'Pas encore jusqu\'au bout — ajoute des bâtonnets !', es: '¡Todavía no llegas! ¡Pon más ayudantes!', pt: 'Ainda não chegou! Coloque mais ajudantes!' },
+      sayOverhang: { en: "That's past the end — take one back.", de: 'Das ragt über das Ende hinaus – nimm einen weg.', fr: 'Ça dépasse le bout — retire-en un.', es: '¡Eso se pasó del final! Quita uno.', pt: 'Isso passou do fim — tire um.' },
+      sayStart: { en: 'Start the first helper right at the tip!', de: 'Fang mit dem ersten Helfer genau an der Spitze an!', fr: 'Commence le premier bâtonnet pile au bord !', es: '¡Empieza el primer ayudante justo en la puntita!', pt: 'Comece o primeiro ajudante bem na pontinha!' },
+      sayMixed: { en: 'Only the SAME helpers — they must match!', de: 'Nur die GLEICHEN Helfer – sie müssen alle gleich groß sein!', fr: 'Seulement les MÊMES bâtonnets — ils doivent être de la même taille !', es: '¡Solo los MISMOS ayudantes! ¡Deben ser igualitos!', pt: 'Só os MESMOS ajudantes — eles têm que ser igualzinhos!' },
+      saySnug: { en: 'All snug, no holes! Now count them.', de: 'Schön lückenlos, keine Lücke! Jetzt zähl sie.', fr: 'Bien serrés, sans trou ! Maintenant, compte-les.', es: '¡Bien juntitos, sin huecos! Ahora cuéntalos.', pt: 'Bem juntinhos, sem buracos! Agora conte.' },
+      sayInverse: { en: 'Smaller helpers, more of them!', de: 'Kleinere Helfer – mehr davon!', fr: 'Plus les bâtonnets sont petits, plus il en faut !', es: 'Ayudantes más pequeños, ¡más necesitas!', pt: 'Ajudantes menores, mais ajudantes você precisa!' },
+      hintCheck: { en: 'No gaps, no overlaps, all the same — then count.', de: 'Keine Lücken, nichts übereinander, alle gleich groß – dann zähl.', fr: 'Pas de trou, pas de chevauchement, tous de la même taille — puis compte.', es: 'Sin huecos, sin encimar, todos iguales — y ya cuenta.', pt: 'Sem buracos, sem montar um no outro, todos iguais — e agora conte.' },
+      countBig: { en: 'Count the BIG helpers.', de: 'Zähl die GROSSEN Helfer.', fr: 'Compte les GRANDS bâtonnets.', es: 'Cuenta los ayudantes GRANDES.', pt: 'Conte os ajudantes GRANDES.' },
+      countLittle: { en: 'Now count the LITTLE helpers!', de: 'Jetzt zähl die KLEINEN Helfer!', fr: 'Maintenant, compte les PETITS bâtonnets !', es: '¡Ahora cuenta los ayudantes PEQUEÑOS!', pt: 'Agora conte os ajudantes PEQUENOS!' },
+      judgeMiss: { en: 'Look closely — same size, no gaps, no overhang?', de: 'Schau genau hin – gleich groß, keine Lücke, nichts steht über?', fr: 'Regarde bien — même taille, sans trou, rien qui dépasse ?', es: 'Fíjate bien — ¿mismo tamaño, sin huecos, sin que se pase?', pt: 'Olhe bem — mesmo tamanho, sem buracos, sem passar do fim?' },
+      invMidA: { en: '{n} big helpers! Now the little ones.', de: '{n} große Helfer! Jetzt die kleinen.', fr: '{n} grands bâtonnets ! Maintenant, les petits.', es: '¡{n} ayudantes grandes! Ahora los pequeños.', pt: '{n} ajudantes grandes! Agora os pequenos.' },
+      invDone: { en: '{a} big, {b} little — smaller helpers, more of them! 🌸', de: '{a} große, {b} kleine – kleinere Helfer, mehr davon! 🌸', fr: '{a} grands, {b} petits — plus les bâtonnets sont petits, plus il en faut ! 🌸', es: '{a} grandes y {b} pequeños: los más pequeños, ¡más necesitas! 🌸', pt: '{a} grandes e {b} pequenos: ajudantes menores, mais ajudantes você precisa! 🌸' }
     },
     defaults: {},
 

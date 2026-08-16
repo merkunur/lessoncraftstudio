@@ -192,6 +192,32 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Inchie é uma lagartinha curiosa que adora explorar o jardim medindo tudo o que encontra. Para descobrir o comprimento de cada objeto, ela chama seus ajudantes — pecinhas pequenas e todas do mesmo tamanho — e os coloca lado a lado ao longo do caminho.",
+        "A criança aprende a medir posicionando os ajudantes ponta com ponta, sem deixar folgas entre eles e sem sobrepor um sobre o outro. Quando a fileira chega ao fim do objeto, é só contar quantos ajudantes foram usados: o comprimento é exatamente o número de unidades.",
+        "Medir com unidades não padronizadas vem antes do uso da régua de propósito. Ao manusear os ajudantes como materiais manipuláveis, a criança entende o que significa medir — cobrir um comprimento com unidades iguais e contá-las — para só depois passar às unidades padronizadas, como o centímetro, e à régua."
+      ],
+      "practices": [
+        "Medir comprimentos de objetos usando unidades não padronizadas do mesmo tamanho.",
+        "Alinhar as unidades ponta com ponta, sem folgas nem sobreposições.",
+        "Contar as unidades para determinar o comprimento total.",
+        "Perceber que, quando a unidade é menor, é preciso mais unidades para medir o mesmo objeto.",
+        "Comparar comprimentos de objetos diferentes pelo número de unidades que cada um mede."
+      ],
+      "howToPlay": [
+        "Escolha um objeto do jardim de Inchie que você quer medir.",
+        "Coloque os ajudantes um após o outro, ponta com ponta, ao longo do objeto — sem espaços vazios e sem deixar um por cima do outro.",
+        "Preencha o objeto inteiro, de uma ponta à outra, com os ajudantes.",
+        "Conte quantos ajudantes você usou: esse número é o comprimento do objeto."
+      ],
+      "learningGoals": [
+        "Compreender que medir é cobrir um comprimento com unidades iguais e contá-las.",
+        "Estimar, medir e comparar comprimentos com unidades não padronizadas.",
+        "Reconhecer que a medida depende do tamanho da unidade escolhida.",
+        "Construir a base para, mais adiante, medir com unidades padronizadas e usar a régua."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly é uma gatinha cheia de charme que trabalha numa lojinha e adora esconder fitas coloridas em prateleiras bem distantes umas das outras. Como as fitas ficam longe, não dá para colocá-las lado a lado — e é aí que entra a brincadeira: a criança usa um barbante como referência para descobrir qual fita é a mais comprida, qual é a mais curta e qual tem o mesmo comprimento do barbante.",

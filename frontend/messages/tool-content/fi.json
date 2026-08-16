@@ -1486,29 +1486,29 @@
     ]
   },
   "the-queue": {
-    "slug": "laiturin-paat",
-    "name": "Laiturin päät",
-    "tagline": "Laske kolme yhdestä päästä ja sitten kolme toisesta. Kukaan ei liikkunut — miksi se on joku muu?",
+    "slug": "the-queue",
+    "name": "Laskurivi",
+    "tagline": "Laske hahmorivi yhdestä päästä, sitten toisesta. Jokainen saa eri luvun, mutta montako heitä on, pysyy aina samana.",
     "about": [
-      "Laiturilla odottaa neljä muotoa. Valitse pää, laske eteenpäin ja katso, kenen kohdalle pysähdyit. Valitse sitten toinen pää ja laske yhtä monta. Kukaan laiturilla ei liikkunut, ja silti pysähdyt melkein aina jonkun toisen kohdalle.",
-      "Siinä on koko laite. Lapsi, joka on oppinut laskemaan rivin läpi, kuulee usein sanan «kolmas» nimenä, jota esine kantaa mukanaan samalla tavalla kuin se kantaa väriään. Se ei ole nimi: se on tieto siitä, mistä aloitit laskemisen. Laituri näyttää tämän ilman että sitä tarvitsee perustella, koska kahden laskennan välissä näkee, ettei kukaan koske mihinkään.",
-      "Etupäätä ei ole. Kulkija seisoo laiturin ulkopuolella, kunnes pää on valittu, eikä kumpikaan painike ole se oikea — valmiiksi valittu pää väittäisi hiljaa, että yksi suunta on se todellinen, ja juuri se on väärinkäsitys.",
-      "Muodoissa ei ole kirjaimia, numeroita eikä paremmuusjärjestystä. Kaikki neljä on laskettu samalle pinta-alalle ja ne seisovat samalla viivalla, jottei mikään materiaalissa vastaa kysymykseen «kumpi?» ennen luokkaa."
+      "Rivi iloisia hahmoja seisoo hyllyllä. Valitse pää ja liu'uta laskevaa kättä rivin yli: jokaisen ohittamansa hahmon kohdalla näkyy juokseva luku — yksi, kaksi, kolme, neljä. Viimeinen luku, johon käsi päätyy, kertoo, montako heitä on.",
+      "Laske nyt sama rivi toisesta päästä. Kukaan ei ole liikkunut, mutta jokainen saa nyt eri luvun — ja rivin alla oleva kokonaismäärä on täsmälleen sama. Juuri tämän väline tekee näkyväksi: viimeinen luku kertoo, montako heitä on, eikä se riipu siitä, kummasta päästä aloitit.",
+      "Hahmon luku kertoo, kuinka pitkälle olet laskenut — se ei ole nimi, jota hahmo kantaa. Laske takaisin toisesta päästä ja katso, kuinka paikallaan pysyvän hahmon luku muuttuu: näin lapsi näkee selvimmin, että \"kolme\" ei kerro, kuka olet, vaan kuinka pitkälle laskettiin.",
+      "Riviä ei aloiteta mistään tietystä päästä. Käsi odottaa hyllyn ulkopuolella, kunnes pää valitaan, eikä kumpikaan pää ole \"oikea\". Viiden hahmon rivissä keskimmäinen saa saman luvun kummastakin päästä — sen löytäminen ja se, miksi juuri se, on välineen paras hetki."
     ],
     "howToUse": [
-      "Heijasta se taululle ja pyydä luokkaa laskemaan kolme vasemmasta päästä. Anna heidän sanoa, kenen kohdalle he pysähtyivät, ennen kuin painat mitään.",
-      "Nyt kolme toisesta päästä. Ja sitten se kysymys, josta on kyse: liikkuiko kukaan?",
-      "Anna yhden lähteä ja laske uudelleen samasta päästä. Toisesta päästä mikään ei muutu — se kannattaa sanoa ääneen.",
-      "Vaihda kolmeen odottajaan. Parittomalla määrällä on paikka, jossa molemmat päät antavat saman vastauksen, ja sen löytäminen on laitteen paras hetki."
+      "Avaa se taululle, valitse pää ja liu'uta kättä samalla, kun luokka laskee ääneen. Pysähdy toiseen päähän ja kysy: montako? Viimeinen luku on vastaus.",
+      "Tyhjennä, valitse TOINEN pää ja laske uudelleen. Kysy tärkein kysymys: liikkuiko kukaan? Onko montako edelleen sama?",
+      "Osoita yhtä hahmoa ja kysy, minkä luvun se sai ensimmäisellä kerralla ja minkä nyt. Sama hahmo, ei liikkunut — eri luku, ja kokonaismäärä pysyi samana.",
+      "Valitse viiden hahmon rivi ja etsi keskimmäinen, joka saa saman luvun kummastakin päästä. Kysy luokalta, miksi juuri se saa saman."
     ],
     "classroomIdeas": [
-      "Aseta neljä lasta riviin luokan eteen ja tee heille sama ennen kuin avaat työkalun. Ruutu vahvistaa sen jälkeen sen, mistä luokka jo kiisteli.",
-      "Pyydä lasta kertomaan, kuka pitää hakea, ilman että hän osoittaa — hän sanoo «kolmas», ja joutuu sitten lisäämään: kolmas mistä päin laskien.",
-      "Kaksi minuuttia järjestyslukuja käsittelevän tunnin aluksi, ja anna sen sitten jäädä näkyviin luokan työskennellessä.",
-      "Tulosta arkki ja anna parien kirjoittaa yksi laskeminen riviä kohti: mistä päästä he aloittivat ja kenen kohdalle he päätyivät. Opettajatilaus tuo mukanaan tulostettavan arkin; itse laituri — molemmat päät ja kulkija — on ilmainen kaikille."
+      "Aseta viisi lasta riviin luokan eteen ja tee sama laskeminen heille ennen välineen avaamista — laske yhdestä päästä, sitten toisesta — niin näyttö vahvistaa sen, mistä luokka juuri väitteli.",
+      "Selkeyttä sillä arjen sekaannus \"kolmas\" (mikä niistä) ja \"kolme\" (montako) välillä: hahmon juokseva luku ja rivin alla oleva kokonaismäärä ovat kaksi eri asiaa.",
+      "Opettajatilauksella anna yhden tulla riviin lisää tai lähteä pois, ja laske eteenpäin tai taaksepäin siitä luvusta, joka teillä jo oli.",
+      "Tulosta arkki ja anna parien kirjata yksi laskeminen riviä kohti: mistä päästä he aloittivat ja montako. Tulostettava arkki sekä tulemisen ja lähtemisen laskeminen kuuluvat Opettajatilaukseen; koko väline — jokainen rivi, molemmat päät, käden liu'uttaminen ja laskeminen kummastakin suunnasta — on kaikille ilmainen."
     ],
-    "metaTitle": "Laiturin päät — järjestysluvut esiopetuksessa ja 1. luokalla | LessonCraftStudio",
-    "metaDescription": "Ilmainen luokkatyökalu järjestyslukujen opettamiseen. Laske laiturin yhdestä päästä ja sitten toisesta: kukaan ei liiku, mutta vastaus muuttuu. Toimii videotykillä ja tabletilla, ilman tiliä."
+    "metaTitle": "Laskurivi — laske rivi molemmista päistä | LessonCraftStudio",
+    "metaDescription": "Ilmainen laskemisen väline luokkaan. Liu'uta kättä ja laske hahmorivi: viimeinen luku kertoo montako. Laske toisesta päästä — jokainen saa eri luvun, mutta montako pysyy samana. Tulosta arkki. Ei tiliä."
   },
   "labels": {
     "about": "Tietoa tästä työkalusta",

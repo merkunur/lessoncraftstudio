@@ -1507,29 +1507,29 @@
     ]
   },
   "the-queue": {
-    "slug": "a-calcada-de-ponta-a-ponta",
-    "name": "A calçada de ponta a ponta",
-    "tagline": "Conte três de uma ponta e depois três da outra. Ninguém saiu do lugar — então por que é outra pessoa?",
+    "slug": "the-queue",
+    "name": "A fila de contar",
+    "tagline": "Conte uma fila de personagens de uma ponta e depois da outra. Cada um recebe um número diferente, mas quantos são é sempre o mesmo.",
     "about": [
-      "Quatro formas estão esperando numa calçada. Escolha uma ponta, ande com o andarilho e veja em quem você parou. Depois escolha a outra ponta e ande a mesma quantidade de passos. Ninguém saiu do lugar na calçada e, mesmo assim, quase sempre é outra pessoa.",
-      "É só isso — e é o bastante. Uma criança que aprendeu a contar ao longo de uma fila costuma ouvir «o terceiro» como um nome que a coisa carrega, do mesmo jeito que carrega a cor dela. Não é: é uma informação sobre de onde você começou a contar. A calçada mostra isso sem precisar argumentar, porque entre as duas contagens dá para ver que ninguém encostou em nada.",
-      "Não existe começo de fila. O andarilho fica fora da calçada enquanto nenhuma ponta for escolhida, e nenhum dos dois botões é o certo: uma ponta padrão afirmaria em silêncio que um sentido é o verdadeiro, que é exatamente o engano.",
-      "As formas não têm letra, nem número, nem classificação. As quatro são calculadas com a mesma área e apoiadas na mesma linha, para que nada no material responda «qual?» antes da turma."
+      "Uma fila de personagens simpáticos fica numa prateleira. Escolha uma ponta e deslize a mão de contar: ao passar por cada um, ele veste o número da contagem — um, dois, três, quatro. O último número que ela alcança é quantos são.",
+      "Agora conte a mesma fila da outra ponta. Ninguém saiu do lugar, mas cada personagem veste um número diferente — e o total embaixo da fila continua exatamente o mesmo. É essa a ideia que o aparelho existe para mostrar: o último número diz quantos são, e não depende da ponta de onde você começou a contar.",
+      "O número que um personagem veste mostra até onde você contou, não é um nome que ele carrega. Conte de volta da outra ponta e veja um personagem parado trocar de número: é o jeito mais claro de mostrar a uma criança que \"três\" não é quem ela é, é até onde a gente chegou.",
+      "Não há começo. A mão espera fora da prateleira até uma ponta ser escolhida, e nenhuma das duas é a ponta certa. Numa fila de cinco, há um personagem no meio que veste o mesmo número dos dois lados — achar esse, e perguntar por que só ele, é o melhor momento da ferramenta."
     ],
     "howToUse": [
-      "Projete e peça para a turma andar três a partir da ponta da esquerda. Deixe que digam em quem pararam antes de você apertar qualquer coisa.",
-      "Agora três a partir da outra ponta. E então a pergunta que interessa: alguém saiu do lugar?",
-      "Deixe alguém ir embora e conte de novo pela mesma ponta. Pela outra ponta nada muda — vale dizer isso em voz alta.",
-      "Mude para três esperando. Com um número ímpar existe um lugar em que as duas pontas dão a mesma resposta, e achar esse lugar é o melhor momento do aparelho."
+      "Coloque na lousa, escolha uma ponta e deslize a mão enquanto a turma conta em voz alta. Pare na outra ponta e pergunte: quantos são? O último número é a resposta.",
+      "Recomece, escolha a OUTRA ponta e conte de novo. Faça a pergunta que importa: alguém saiu do lugar? Continua sendo o mesmo quantos?",
+      "Aponte para um personagem e pergunte que número ele vestiu da primeira vez, e qual veste agora. Mesmo personagem, não saiu do lugar — número diferente, e o total continuou o mesmo.",
+      "Numa fila de cinco, ache o personagem do meio que recebe o mesmo número das duas pontas e pergunte à turma por que só ele."
     ],
     "classroomIdeas": [
-      "Coloque quatro crianças em fila na frente da turma e faça o mesmo com elas antes de abrir a ferramenta. A tela depois confirma o que a turma já discutiu.",
-      "Peça para uma criança dizer quem ela quer chamar sem apontar: ela vai falar «o terceiro», e vai ter que completar: o terceiro a partir de onde.",
-      "Dois minutos para abrir uma aula sobre números ordinais, e depois é só deixar na tela enquanto a turma trabalha.",
-      "Imprima a folha e peça que anotem em dupla uma contagem por linha: de que ponta começaram e em quem pararam. A folha faz parte do plano Professor; a calçada em si — as duas pontas, o andarilho — é grátis para todo mundo."
+      "Coloque cinco crianças em fila na frente da sala e faça a rotina com elas antes de abrir a ferramenta — conte de uma ponta, depois da outra — para a tela confirmar o que a turma acabou de discutir.",
+      "Use para resolver a confusão do dia a dia entre \"o terceiro\" (qual deles) e \"três\" (quantos são): o número na contagem de cada um e o total embaixo da fila são coisas diferentes.",
+      "Com o plano Professor, deixe chegar mais um ou um ir embora, e conte adiante ou para trás a partir do número que a turma já tinha.",
+      "Imprima a folha e deixe as duplas anotarem uma contagem por linha: de que ponta começaram e quantos são. A folha impressa e o contar com um chegando e outro saindo fazem parte do plano Professor; o aparelho inteiro — cada fila, as duas pontas, deslizar a mão e contar dos dois lados — é grátis para todo mundo."
     ],
-    "metaTitle": "A calçada de ponta a ponta — números ordinais nos anos iniciais | LessonCraftStudio",
-    "metaDescription": "Ferramenta de sala gratuita para números ordinais. Conte de uma ponta da calçada e depois da outra: ninguém sai do lugar e a resposta muda. Funciona no projetor e no tablet, sem precisar de conta."
+    "metaTitle": "A fila de contar — conte de uma ponta e da outra | LessonCraftStudio",
+    "metaDescription": "Deslize a mão para contar uma fila de personagens: o último número diz quantos são. Conte das duas pontas — quantos não muda. Grátis e dá para imprimir."
   },
   "labels": {
     "about": "Sobre esta ferramenta",

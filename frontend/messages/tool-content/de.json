@@ -1509,29 +1509,29 @@
     ]
   },
   "the-queue": {
-    "slug": "der-bahnsteig",
-    "name": "Der Bahnsteig",
-    "tagline": "Zählt drei von einem Ende, dann drei vom anderen. Niemand hat sich bewegt — warum ist es jemand anderes?",
+    "slug": "the-queue",
+    "name": "Die Zählreihe",
+    "tagline": "Zähl eine Reihe von Figuren von einem Ende, dann vom anderen. Jeder bekommt eine andere Zahl, aber wie viele es sind, bleibt immer gleich.",
     "about": [
-      "Auf einem Bahnsteig warten vier Formen. Wählt ein Ende, geht Schritt für Schritt weiter und schaut, bei wem ihr ankommt. Nehmt dann das andere Ende und geht genauso oft. Auf dem Bahnsteig hat sich nichts bewegt, und trotzdem kommt ihr meist bei jemand anderem an.",
-      "Mehr ist es nicht — und mehr braucht es nicht. Ein Kind, das gelernt hat, eine Reihe entlang zu zählen, hört \"der Dritte\" oft als Namen, den die Sache trägt, so wie sie ihre Farbe trägt. Das ist sie nicht: Es ist eine Auskunft darüber, wo ihr zu zählen angefangen habt. Der Bahnsteig zeigt das, ohne es zu behaupten, weil zwischen den beiden Zählungen sichtbar nichts angefasst wird.",
-      "Es gibt keinen Anfang. Die Zählmarke steht neben dem Bahnsteig, bis ein Ende gewählt ist, und keine der beiden Tasten ist die richtige — ein voreingestelltes Ende würde stillschweigend behaupten, eine Richtung sei die echte, und genau das ist der Denkfehler.",
-      "Die Formen tragen keine Buchstaben, keine Zahlen und keine Rangfolge. Alle vier sind auf dieselbe Fläche gerechnet und stehen auf derselben Linie, damit nichts im Material die Frage \"welcher denn?\" beantwortet, bevor die Klasse es tut."
+      "Eine Reihe freundlicher Figuren steht auf einem Regal. Wähl ein Ende und schieb die zählende Hand daran entlang: An jeder Figur, die sie erreicht, erscheint die laufende Zahl — eins, zwei, drei, vier. Die letzte Zahl, die sie erreicht, sagt, wie viele es sind.",
+      "Zähl nun dieselbe Reihe vom anderen Ende. Keine Figur hat sich bewegt, und doch trägt jetzt jede eine andere Zahl — und die Gesamtzahl unter der Reihe ist genau dieselbe. Genau das soll das Werkzeug sichtbar machen: Die letzte Zahl sagt, wie viele es sind, und das hängt nicht davon ab, von welchem Ende du zu zählen beginnst.",
+      "Die Zahl an einer Figur sagt, wie weit du gezählt hast — sie ist kein Name, den die Figur trägt. Zähl vom anderen Ende zurück und sieh zu, wie eine stillstehende Figur ihre Zahl ändert: So wird für ein junges Kind am klarsten, dass „drei“ nicht ist, wer du bist, sondern wie weit wir gekommen sind.",
+      "Es gibt keinen Anfang. Die Hand wartet neben dem Regal, bis ein Ende gewählt ist, und kein Ende ist das „richtige“. In einer Fünferreihe steht in der Mitte eine Figur, die von beiden Enden dieselbe Zahl trägt — sie zu finden und zu fragen, warum nur diese eine, ist der schönste Moment, den das Werkzeug bietet."
     ],
     "howToUse": [
-      "An die Wand werfen und die Klasse vom linken Ende drei weiterzählen lassen. Fragt, bei wem sie angekommen sind, bevor ihr etwas drückt.",
-      "Jetzt drei vom anderen Ende. Und dann die Frage, um die es geht: Hat sich jemand bewegt?",
-      "Lasst einen weggehen und zählt vom selben Ende noch einmal. Vom anderen Ende aus ändert sich nichts — das lohnt sich, laut zu sagen.",
-      "Stellt auf drei Wartende um. Bei einer ungeraden Anzahl gibt es eine Stelle, an der beide Enden dasselbe ergeben, und die zu finden ist der schönste Moment, den das Gerät hat."
+      "Zeig es an der Tafel, wähl ein Ende und schieb die Hand entlang, während die Klasse laut mitzählt. Halt am anderen Ende an und frag: Wie viele? Die letzte Zahl ist die Antwort.",
+      "Setz es zurück, wähl das ANDERE Ende und zähl noch einmal. Stell die entscheidende Frage: Hat sich jemand bewegt? Sind es immer noch gleich viele?",
+      "Zeig auf eine Figur und frag, welche Zahl sie beim ersten Mal trug und welche sie jetzt trägt. Dieselbe Figur, nicht bewegt — eine andere Zahl, und die Gesamtzahl bleibt gleich.",
+      "Sucht in einer Fünferreihe die Figur in der Mitte, die von beiden Enden dieselbe Zahl bekommt, und fragt die Klasse, warum nur diese eine."
     ],
     "classroomIdeas": [
-      "Stellt vier Kinder vorne auf und macht dasselbe mit ihnen, bevor ihr das Gerät öffnet. Der Bildschirm bestätigt dann, worüber die Klasse schon gestritten hat.",
-      "Ein Kind soll sagen, wen es holen soll, ohne zu zeigen — es greift zu \"der Dritte\" und muss dann dazusagen: der Dritte von wo aus.",
-      "Zwei Minuten zum Einstieg in eine Stunde über Ordnungszahlen, danach einfach stehen lassen, während die Klasse arbeitet.",
-      "Blatt ausdrucken und die Kinder zu zweit pro Zeile eine Zählung eintragen lassen: von welchem Ende — und bei wem sie angekommen sind. Das Blatt gehört zum Lehrkraft-Abo; der Bahnsteig selbst — jede Aufstellung, beide Enden, die Zählmarke — ist für alle kostenlos."
+      "Stellt fünf Kinder vorne in eine Reihe und macht die Übung mit ihnen, bevor ihr das Werkzeug öffnet — erst von einem Ende, dann vom anderen — damit der Bildschirm bestätigt, worüber die Klasse gerade gestritten hat.",
+      "Nutz es, um den alltäglichen Wirrwarr zwischen „der Dritte“ (welcher) und „drei“ (wie viele) zu klären: Die laufende Zahl an einer Figur und die Gesamtzahl unter der Reihe sind zwei verschiedene Dinge.",
+      "Mit einem Lehrkraft-Abo lass eine Figur dazukommen oder weggehen und zähl von der Zahl, die ihr schon hattet, weiter oder zurück.",
+      "Druckt das Blatt aus und lasst Paare pro Zeile eine Zählung festhalten: von welchem Ende sie begonnen haben und wie viele es waren. Das gedruckte Blatt und das Dazukommen-und-Weggehen gehören zum Lehrkraft-Abo; der ganze Aufbau — jede Reihe, beide Enden, das Schieben der Hand und das Zählen von beiden Seiten — ist für alle kostenlos."
     ],
-    "metaTitle": "Der Bahnsteig — Ordnungszahlen anschaulich, Klasse 1-2 | LessonCraftStudio",
-    "metaDescription": "Kostenloses Unterrichtsgerät für Ordnungszahlen. Von einem Ende zählen, dann vom anderen: Niemand bewegt sich, und trotzdem ändert sich die Antwort. Läuft auf Beamer und Tablet, ohne Anmeldung."
+    "metaTitle": "Zählreihe — von beiden Enden zählen | LessonCraftStudio",
+    "metaDescription": "Kostenloses Zählwerkzeug: Schieb die Hand über eine Figurenreihe — die letzte Zahl sagt, wie viele. Von beiden Enden gezählt: andere Zahlen, gleiches Wie-viele. Zum Ausdrucken."
   },
   "labels": {
     "about": "Über dieses Werkzeug",

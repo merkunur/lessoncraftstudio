@@ -1506,29 +1506,29 @@
     ]
   },
   "the-queue": {
-    "slug": "el-anden",
-    "name": "El andén",
-    "tagline": "Cuenta tres desde un lado y luego tres desde el otro. No se ha movido nadie, ¿por qué es otro?",
+    "slug": "the-queue",
+    "name": "La fila para contar",
+    "tagline": "Cuenta una fila de personajes desde un lado y luego desde el otro. A cada uno le toca un número distinto, pero cuántos hay es siempre lo mismo.",
     "about": [
-      "En un andén esperan cuatro figuras. Elige un lado, avanza con el puntero y mira en quién te quedas. Después elige el otro lado y avanza exactamente las mismas veces. Del andén no se ha movido nadie y, aun así, casi siempre te quedas en otro.",
-      "Ese es todo el aparato. Un niño que ha aprendido a contar a lo largo de una fila suele oír «el tercero» como un nombre que la cosa lleva puesto, igual que lleva su color. No lo es: es un dato sobre desde dónde empezaste a contar. El andén lo enseña sin discutirlo, porque entre las dos cuentas se ve que nadie ha tocado nada.",
-      "No hay principio de fila. El puntero se queda fuera del andén mientras no haya un lado elegido, y ninguno de los dos botones es el bueno: un lado por defecto afirmaría en voz baja que una dirección es la de verdad, que es justo el error.",
-      "Las figuras no llevan letras, ni números, ni orden. Las cuatro están calculadas con la misma superficie y apoyadas en la misma línea, para que nada del material conteste «¿cuál?» antes que la clase."
+      "Una fila de personajes simpáticos espera en una repisa. Elige un lado y desliza la mano de contar: al pasar por cada uno, ese personaje lleva el número de la cuenta —uno, dos, tres, cuatro—. El último número al que llega es cuántos hay.",
+      "Ahora cuenta la misma fila desde el otro lado. Nadie se ha movido y, sin embargo, cada uno lleva ahora un número distinto, y el total de debajo de la fila es exactamente el mismo. Esa es la idea que el aparato existe para mostrar: el último número dice cuántos hay, y no depende del lado desde el que empezaste a contar.",
+      "El número que lleva un personaje dice hasta dónde has contado; no es un nombre que ese personaje tenga. Cuenta hacia atrás desde el otro lado y observa cómo un personaje que no se mueve cambia de número: es la forma más clara de mostrarle a quien empieza a contar que «tres» no es quién eres, es hasta dónde llegamos.",
+      "No hay principio. La mano espera fuera de la repisa hasta que se elige un lado, y ninguno de los dos es el de verdad. En una fila de cinco hay un personaje en el medio al que le toca el mismo número desde los dos lados: encontrarlo, y preguntar por qué solo a ese, es el mejor momento de la herramienta."
     ],
     "howToUse": [
-      "Proyéctalo y pide a la clase que avance tres desde el lado izquierdo. Que digan en quién se han quedado antes de que pulses nada.",
-      "Ahora tres desde el otro lado. Y luego la pregunta que importa: ¿se ha movido alguien?",
-      "Deja que se vaya uno y vuelve a contar desde el mismo lado. Desde el otro lado no cambia nada, y eso merece decirse en alto.",
-      "Cambia a tres esperando. Con un número impar hay un sitio en el que los dos lados dan lo mismo, y encontrarlo es el mejor momento del aparato."
+      "Ponla en la pizarra, elige un lado y desliza la mano mientras la clase cuenta en voz alta. Detente en el otro extremo y pregunta: ¿cuántos hay? El último número es la respuesta.",
+      "Bórrala, elige el OTRO lado y vuelve a contar. Haz la pregunta que importa: ¿se ha movido alguien? ¿Sigue siendo la misma cantidad?",
+      "Señala a un personaje y pregunta qué número llevaba la primera vez y cuál lleva ahora. El mismo personaje, no se movió: un número distinto, y el total se quedó igual.",
+      "En una fila de cinco, busca al personaje del medio al que le toca el mismo número desde los dos lados y pregúntale a la clase por qué solo a ese."
     ],
     "classroomIdeas": [
-      "Pon a cuatro niños en fila delante de la clase y haz lo mismo con ellos antes de abrir la herramienta. La pantalla confirma después lo que la clase ya ha discutido.",
-      "Pide a un niño que diga a quién hay que ir a buscar sin señalar: dirá «el tercero», y tendrá que añadir el tercero desde dónde.",
-      "Dos minutos para empezar una sesión sobre los ordinales y luego se queda puesto mientras la clase trabaja.",
-      "Imprime la hoja y que anoten por parejas una cuenta en cada línea: desde qué lado empezaron y en quién se quedaron. La hoja es parte del plan Docente; el andén en sí — los dos lados, el puntero — es gratis para todo el mundo."
+      "Pon a cinco niños en fila delante de la clase y haz la rutina con ellos antes de abrir la herramienta —cuenta desde un lado y luego desde el otro— para que la pantalla confirme lo que la clase acaba de discutir.",
+      "Úsala para aclarar el lío de todos los días entre «el tercero» (cuál) y «tres» (cuántos): el número que lleva un personaje y el total de debajo de la fila son dos cosas distintas.",
+      "Con el plan Docente, deja que llegue uno más o que se vaya uno, y cuenta hacia adelante o hacia atrás desde el número que ya tenías.",
+      "Imprime la hoja y deja que las parejas anoten una cuenta por línea: desde qué lado empezaron y cuántos había. La hoja impresa y el contar con uno que llega y uno que se va vienen con el plan Docente; todo el aparato —cada fila, los dos lados, deslizar la mano y contar desde cualquiera de los dos— es gratis para todos."
     ],
-    "metaTitle": "El andén — los números ordinales en Infantil y Primaria | LessonCraftStudio",
-    "metaDescription": "Herramienta de aula gratuita para los números ordinales. Cuenta desde un lado del andén y luego desde el otro: no se mueve nadie y la respuesta cambia. Funciona en pizarra digital y tableta, sin cuenta."
+    "metaTitle": "La fila para contar — cuenta desde los dos lados | LessonCraftStudio",
+    "metaDescription": "Herramienta gratis de conteo para clase K-3. Desliza la mano y cuenta la fila: el último número dice cuántos hay. Cuenta desde el otro lado y da igual: imprime, sin cuenta."
   },
   "labels": {
     "about": "Acerca de esta herramienta",

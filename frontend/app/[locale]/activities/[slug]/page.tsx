@@ -81,7 +81,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'vera-verb-match.be-agreement.l-1-1-c': { de: '2', fr: '2', es: '2', pt: '2' },  // reflective Subjekt-Verb-Kongruenz (bin/ist/sind) → DE Klasse 2 (K-1 kids speak it; the grammar task is Klasse 2); FR CE1 (l'accord sujet-verbe / conjuguer être au présent = attendu CE1, réflexif, past CP oral use); ES 2.º (concordancia sujeto-verbo con estar = reflexión metalingüística 2.º NEM; kids speak estoy/está/están at 1.º)
   'hazel-word-bridge.joining-words.l-1-1-g': { de: '3', fr: '3', es: '3', pt: '3' },  // selection-by-meaning across 4 Bindewörter incl. causal „denn" + Pflichtkomma → DE Klasse 3; FR: coordination + car + comma-before-mais/car → CE2; ES 3.º (selección por sentido de 4 nexos incl. causal porque + coma-ante-pero = 3.º NEM Lenguajes)
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3', fr: '3', es: '3', pt: '3' },  // Komma bei Aufzählung = first comma rule, DE Klasse 3; FR: la virgule d'énumération = premier attendu interne → CE2; ES 3.º (la coma en enumeraciones = primera regla de coma; 1.º-2.º solo punto/mayúscula)
-  'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3', es: '3' },        // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2; ES 3.º (pronombres reflexivos como categoría metalingüística = 3.º NEM; uso oral desde preescolar)
+  'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3', es: '3', pt: '3' },        // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2; ES 3.º (pronombres reflexivos como categoría metalingüística = 3.º NEM; uso oral desde preescolar)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3', fr: '3', es: '3' }, // starke Verben Präteritum → DE Klasse 3; FR: passé composé irrégulier (résister à « faisé ») = consolidation CE2; ES 3.º (estudio consciente del pretérito de verbos irregulares + rechazar la sobrerregularización = 3.º NEM; uso oral desde preescolar)
   'roary-roar-meter.shades.l-2-5-b': { de: '3', fr: '3', es: '3' },        // Bedeutungsnuancen → DE Klasse 3; FR: classer des synonymes par intensité = CE2; ES 3.º (graduar matices de significado dentro de un mismo sentido = tarea léxica fina de 3.º NEM; los opuestos claros son 1.º-2.º)
   'wren-question-window.question-words.l-k-1-d': { de: '1', fr: '2', es: '1' },    // Fragewörter = DE Klasse 1 (mechanical K→1); FR: emploi écrit des 6 mots interrogatifs = CE1 attendu (maternelle=oral, CP=déchiffrage) — deliberately one notch above the DE bump; ES: palabras interrogativas = tarea de lengua escrita → 1.º primaria (frontera preescolar→primaria; el niño RECONOCE la tilde, no la produce → no 2.º)
@@ -535,7 +535,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.372';
+  const ACTIVITY_WRAPPER_VERSION = '9.373';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

@@ -24,7 +24,8 @@
     en: { past: 'Before', present: 'Now', future: 'Soon' },
     de: { past: 'Vergangenheit', present: 'Gegenwart', future: 'Zukunft' },
     fr: { past: 'Passé', present: 'Présent', future: 'Futur' },
-    es: { past: 'Pasado', present: 'Presente', future: 'Futuro' }
+    es: { past: 'Pasado', present: 'Presente', future: 'Futuro' },
+    pt: { past: 'Passado', present: 'Presente', future: 'Futuro' }
   };
 
   /* time-window meta: which window each tense lights, its label + glyph */
@@ -67,6 +68,14 @@
       nPast: '«Ayer» ya pasó: elige la palabra del PASADO.',
       nPresent: '«Hoy» está pasando ahora: elige la palabra del PRESENTE.',
       nFuture: '«Mañana» todavía no pasa: elige la palabra del FUTURO.'
+    },
+    pt: {
+      q: '“{tw}, {subj} ___.”  Qual palavra combina?',
+      win: 'Isso! {note}', winNote: 'Essa palavra combina com o tempo!',
+      hear: '🔊 Ouvir',
+      nPast: '“Ontem” já aconteceu — escolha a palavra do passado.',
+      nPresent: '“Agora” está acontecendo — escolha a palavra do presente.',
+      nFuture: '“Amanhã” ainda não aconteceu — escolha a palavra do futuro.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -88,9 +97,9 @@
   var TenseActivity = {
     id: 'tense-activity',
     strings: {
-      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper' },
-      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}' }
+      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper' },
+      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}' }
     },
 
     init: function (api) {
@@ -211,8 +220,10 @@
           ? (round.subject + '. Quelle forme va avec « ' + round.timeWord + ' » ?')
           : LANG === 'es'
           ? (round.timeWord + ', ' + round.subject + '… ¿Qué palabra va aquí?')
+          : LANG === 'pt'
+          ? (round.timeWord + ', ' + round.subject + '… Qual palavra combina? ' + f.present + ', ' + f.past + ' ou ' + f.future + '?')
           : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.9 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -267,6 +278,8 @@
         ? ('Exercice sur les temps du verbe : ' + round.subject + '. Choisis la forme qui va avec « ' + round.timeWord + ' ». Au choix : ' + f.present + ', ' + f.past + ', ' + f.future + '.')
         : LANG === 'es'
         ? ('La ventana «' + ((WIN_LABELS.es && WIN_LABELS.es[round.time]) || w.label) + '» está encendida. ' + round.timeWord + ', ' + round.subject + ' ___. ¿Qué palabra va aquí? Opciones: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        : LANG === 'pt'
+        ? ('Janela do ' + (((WIN_LABELS.pt && WIN_LABELS.pt[round.time]) || w.label) + '').toLowerCase() + ' acesa. ' + round.timeWord + ', ' + round.subject + ', espaço em branco. Opções: ' + f.present + ', ' + f.past + ' ou ' + f.future + '.')
         : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

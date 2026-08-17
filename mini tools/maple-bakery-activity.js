@@ -58,6 +58,15 @@
       nPack: 'Cuenta cuántas cajas quedaron llenas.',
       srShare: '{d} galletas se reparten en partes iguales en {n} platos. ¿Cuántas galletas hay en cada plato? Opciones: {choices}.',
       srPack: '{d} galletas se empacan en cajas de {n} galletas cada una. ¿Cuántas cajas hay? Opciones: {choices}.'
+    },
+    pt: {
+      win: 'Isso! {note}',
+      winShare: '{a} biscoitos em cada prato!',
+      winPack: '{a} caixas cheias!',
+      nShare: 'Conte os biscoitos de UM prato só.',
+      nPack: 'Conte quantas caixas ficaram cheias.',
+      srShare: '{d} biscoitos são repartidos em partes iguais em {n} pratos. Quantos biscoitos há em cada prato? Opções: {choices}.',
+      srPack: '{d} biscoitos são embalados em caixas de {n} biscoitos cada. Quantas caixas há? Opções: {choices}.'
     }
   };
   function txt(k, a) {
@@ -125,10 +134,10 @@
   var MapleBakeryActivity = {
     id: 'maple-bakery-activity',
     strings: {
-      title: { en: "Maple's Bakery", de: 'Maples Bäckerei', fr: 'La boulangerie de Maple', es: 'La panadería de Maple' },
-      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!', fr: 'Aide Maple la souris à partager les biscuits équitablement !', es: '¡Ayuda a Maple, la ratona, a repartir las galletas en partes iguales!' },
-      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?', fr: 'Partage {d} biscuits sur {n} assiettes. Combien sur chaque assiette ?', es: 'Reparte {d} galletas en {n} platos. ¿Cuántas hay en cada plato?' },
-      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?', fr: 'Range {d} biscuits dans des boîtes de {n}. Combien de boîtes ?', es: 'Empaca {d} galletas en cajas de {n}. ¿Cuántas cajas necesitas?' }
+      title: { en: "Maple's Bakery", de: 'Maples Bäckerei', fr: 'La boulangerie de Maple', es: 'La panadería de Maple', pt: 'A padaria da Maple' },
+      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!', fr: 'Aide Maple la souris à partager les biscuits équitablement !', es: '¡Ayuda a Maple, la ratona, a repartir las galletas en partes iguales!', pt: 'Ajude a Maple, a ratinha, a repartir os biscoitos em partes iguais!' },
+      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?', fr: 'Partage {d} biscuits sur {n} assiettes. Combien sur chaque assiette ?', es: 'Reparte {d} galletas en {n} platos. ¿Cuántas hay en cada plato?', pt: 'Reparta {d} biscoitos em {n} pratos. Quantos há em cada prato?' },
+      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?', fr: 'Range {d} biscuits dans des boîtes de {n}. Combien de boîtes ?', es: 'Empaca {d} galletas en cajas de {n}. ¿Cuántas cajas necesitas?', pt: 'Embale {d} biscoitos em caixas de {n}. Quantas caixas você precisa?' }
     },
 
     init: function (api) {

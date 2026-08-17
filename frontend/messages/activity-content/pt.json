@@ -2272,6 +2272,29 @@
         "Saber que a vírgula não vem antes do “e” que encerra a lista.",
         "Ganhar confiança com a pontuação em listas, um dos primeiros usos da vírgula na BNCC (análise linguística, 3º ano)."
       ]
+    },
+    "robin-mirror.reflexive.l-2-1-c": {
+      "about": [
+        "O Robin, um passarinho de peito vermelho, tem um espelho especial — e, como todo espelho, ele mostra a ação voltando para quem a faz. Nesta atividade, o Robin mostra uma frase com uma lacuna, por exemplo “Eu ___ escondo atrás da árvore.”, e a criança escolhe a palavrinha que “volta” para o sujeito: o pronome reflexivo. É só olhar quem faz a ação e tocar no reflexivo que combina com ele.",
+        "São três formas para lembrar: me combina com eu (“Eu me escondo”), se combina com você, ele, ela e a gente (“Você se diverte”), e nos combina com nós (“Nós nos arrumamos para a escola”). O espelho do Robin ajuda a criança a enxergar essa ligação entre o sujeito e o pronome, sempre com frases curtas e do dia a dia, no seu ritmo, sem cronômetro e sem pontos.",
+        "Tem um detalhe curioso que o Robin adora mostrar: “nós” pede nos, mas “a gente” — que também quer dizer nós — pede se, porque “a gente” combina como ele e ela (“A gente se arruma”). Percebendo isso, a criança começa a olhar primeiro para o sujeito e só depois escolher o reflexivo. É um trabalho de análise linguística previsto na BNCC para o 3º ano, feito de um jeito leve e visual."
+      ],
+      "practices": [
+        "Reconhecer os pronomes reflexivos me, se e nos em frases curtas.",
+        "Combinar o pronome reflexivo com o sujeito (eu me, você/ele/ela se, nós nos).",
+        "Perceber que “a gente” pede se, e não nos, mesmo querendo dizer “nós”.",
+        "Usar sempre a próclise natural do Brasil: “eu me escondo”, “você se diverte”."
+      ],
+      "howToPlay": [
+        "O Robin mostra no espelho uma frase com uma lacuna, como “Nós ___ arrumamos para a escola.”.",
+        "A criança olha para o sujeito e toca no pronome reflexivo que “volta” para ele: me, se ou nos.",
+        "O espelho confirma a escolha com carinho, no seu ritmo, sem cronômetro e sem pontos."
+      ],
+      "learningGoals": [
+        "Identificar e usar os pronomes reflexivos me, se e nos.",
+        "Fazer a concordância do reflexivo com o sujeito da frase.",
+        "Diferenciar “nós” (nos) de “a gente” (se) ao escolher o reflexivo."
+      ]
     }
   }
 }

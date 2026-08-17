@@ -2318,6 +2318,29 @@
         "Corrigir nomes próprios escritos com letra minúscula dentro de frases.",
         "Manter os nomes comuns com letra minúscula, percebendo a diferença."
       ]
+    },
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "O Rusty, um robô, tem uma máquina do tempo que pega um verbo de hoje e devolve o mesmo verbo de ontem. Ele mostra uma frase no presente, como “Hoje eu faço um bolo.”, pisca as luzinhas e pergunta baixinho: “E ontem?”. A criança toca na forma certa do passado e vê “faço” virar “fiz” na telinha do Rusty.",
+        "Essa brincadeira trabalha os verbos irregulares no pretérito perfeito, o tempo que a gente usa para contar o que já aconteceu. Nos irregulares, a palavra não ganha só uma terminação: ela muda por dentro. Por isso “fazer” vira “fiz”, “dizer” vira “disse” e “trazer” vira “trouxe”, e não “fazi”, “dizi” ou “trazi”.",
+        "É bem comum a criança tentar “fazi” no lugar de “fiz”, juntando a terminação regular, e está tudo bem: esse errinho aparece de propósito como uma opção, só para ela treinar o olhar e escolher a forma certa. Tudo acontece no seu ritmo, sem cronômetro, sem pontos — só o Rusty, a máquina de ontem e uma frase de cada vez."
+      ],
+      "practices": [
+        "Ler a frase no presente e imaginar como ela fica quando conta o que já passou.",
+        "Reconhecer os verbos irregulares no pretérito perfeito: fazer → fiz, dizer → disse, trazer → trouxe.",
+        "Perceber que a palavra muda por dentro e não é só juntar uma terminação (“fazi” não existe).",
+        "Escolher com calma a forma correta do passado entre as opções que o Rusty oferece."
+      ],
+      "howToPlay": [
+        "O Rusty mostra uma frase no presente, como “Hoje eu digo a verdade.”, e pergunta “E ontem?”.",
+        "A criança lê o verbo e toca na forma certa do passado — por exemplo, “digo” vira “disse”.",
+        "Se tocar em “dizi”, o Rusty mostra com carinho a forma certa e segue para a próxima frase."
+      ],
+      "learningGoals": [
+        "Identificar e usar verbos irregulares no pretérito perfeito ao contar algo que já aconteceu.",
+        "Diferenciar a forma irregular certa (fiz, disse, trouxe) do erro regular comum (fazi, dizi, trazi).",
+        "Ganhar confiança para passar frases do presente para o passado, dentro do eixo de análise linguística da BNCC."
+      ]
     }
   }
 }

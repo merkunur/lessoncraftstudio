@@ -2226,6 +2226,29 @@
         "Aplicar as formas estou, está e estão de acordo com o sujeito da frase.",
         "Ganhar confiança para completar frases observando se o sujeito é um ou vários."
       ]
+    },
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "A Hazel, uma garça de pernas compridas, gosta de construir pontes — mas as pontes dela não são de madeira: são de palavrinhas. Ela mostra uma frase partida em duas metades, com uma lacuna bem no meio, e pergunta qual palavra consegue ligar as duas ideias para que a frase faça sentido. É uma garça paciente, e ela nunca tem pressa.",
+        "Nesta atividade, a criança lê as duas partes da frase e toca em uma de quatro cartas — e, ou, mas, porque — para escolher o conectivo certo. Cada palavrinha faz um trabalho diferente: o e soma e acrescenta (O sol brilha ___ os pássaros cantam → e); o ou oferece uma escolha; o mas mostra um contraste (Eu queria ir ao parque, ___ começou a chover → mas); e o porque dá um motivo (Hoje a gente fica em casa ___ está muito frio → porque). O segredo é sempre o mesmo: ler as duas metades e sentir qual palavra encaixa.",
+        "Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem competição. Ao escolher o conectivo pelo sentido, a criança percebe como as frases se ligam umas às outras — um primeiro passo importante de coesão e de análise linguística, alinhado à BNCC de Língua Portuguesa para o 3º ano."
+      ],
+      "practices": [
+        "Ler as duas partes da frase antes de escolher a palavrinha do meio.",
+        "Reconhecer o que cada conectivo faz: e soma, ou dá uma escolha, mas contrasta, porque explica.",
+        "Escolher o conectivo pelo sentido, não pelo som.",
+        "Perceber como uma frase se liga à outra — a ideia de coesão entre frases."
+      ],
+      "howToPlay": [
+        "A Hazel mostra uma frase com duas partes e uma lacuna no meio.",
+        "Leia as duas metades e pense em como elas se combinam.",
+        "Toque na carta — e, ou, mas ou porque — que faz a frase fazer sentido."
+      ],
+      "learningGoals": [
+        "Escolher entre e, ou, mas e porque de acordo com o sentido da frase.",
+        "Entender que os conectivos ligam ideias: somar, escolher, contrastar ou explicar.",
+        "Ligar duas partes de uma frase de forma coerente, desenvolvendo a coesão."
+      ]
     }
   }
 }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "O esquilo Tally está enchendo suas cestas de bolotas, e cada cesta ganha uma etiqueta com um número de dois algarismos. Ele monta de 2 a 4 cestas por vez — como 23 e 14 — e a criança precisa somar todas e escrever o total. Uma dica boa é juntar primeiro as dezenas (20 + 10 = 30), depois as unidades (3 + 4 = 7) e, por fim, unir tudo: 30 + 7 dá o total 37.",
+        "Aqui a criança pratica somar vários números de dois algarismos usando a estratégia de valor posicional: primeiro as dezenas, depois as unidades e então o total. Todas as somas ficam dentro de 100 e nada exige a conta armada — a ideia é pensar nos números por partes e calcular de cabeça com tranquilidade.",
+        "A atividade é totalmente grátis e interativa, sem cronômetro, sem pontos e sem competição — só o Tally, as cestas e o prazer de somar no próprio ritmo. A proposta acompanha a BNCC na unidade temática Números do 2º ano, valorizando o cálculo mental e a compreensão do valor posicional (dezenas e unidades) de um jeito calmo e acolhedor."
+      ],
+      "practices": [
+        "Somar de 2 a 4 números de dois algarismos e chegar a um único total",
+        "Usar a estratégia de valor posicional: somar primeiro as dezenas e depois as unidades",
+        "Encontrar o total das cestas mantendo-se sempre dentro de 100",
+        "Calcular de cabeça, sem precisar da conta armada"
+      ],
+      "howToPlay": [
+        "Veja os números de dois algarismos nas cestas de bolotas do Tally",
+        "Some primeiro as dezenas, depois as unidades e digite o total",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+      ],
+      "learningGoals": [
+        "Somar vários números de dois algarismos dentro de 100",
+        "Compreender a estratégia de valor posicional, separando dezenas e unidades",
+        "Ganhar segurança no cálculo mental — um objetivo de 2º ano da unidade Números"
+      ]
+    },
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
         "A rã Pippa abriu uma barraquinha de suco e você é quem ajuda a atender os clientes. Cada copo medidor é fosco, então o nível do suco fica escondido até você servir — e do lado dele há uma escala numerada de 0 a 10 litros. Quando um cliente pede mais ou menos 3 litros, a criança serve o suco, vê onde ele chega e LÊ na escala quantos litros são.",

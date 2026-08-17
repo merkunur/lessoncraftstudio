@@ -17,11 +17,11 @@
 
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function squirrelSVG() {
-    return '<svg class="tsq-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tally, das Eichhörnchen' : LANG === 'fr' ? 'Tally l’écureuil' : LANG === 'es' ? 'Tally, la ardilla' : 'Tally the squirrel') + '">' +
+    return '<svg class="tsq-sq-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tally, das Eichhörnchen' : LANG === 'fr' ? 'Tally l’écureuil' : LANG === 'es' ? 'Tally, la ardilla' : LANG === 'pt' ? 'Tally, o esquilo' : 'Tally the squirrel') + '">' +
       '<path d="M30 78 q-16 -6 -14 -26 q2 -14 16 -10 q-10 8 -4 20 q4 8 6 12 Z" fill="#A65B33"/>' +   /* bushy tail */
       '<ellipse cx="52" cy="66" rx="18" ry="17" fill="#C2703F"/>' +                  /* body */
       '<ellipse cx="52" cy="72" rx="11" ry="9" fill="#E8C49C"/>' +                  /* belly */
@@ -44,11 +44,11 @@
     id: 'tally-squirrel-activity',
 
     strings: {
-      title: { en: "Tally the Squirrel", de: 'Tallys Eichelkörbe', fr: 'Les paniers de glands de Tally', es: 'Tally la ardilla' },
-      instruction: { en: 'Tally fills the baskets with acorns. Add them all up and type the total.', de: 'Tally füllt die Körbe mit Eicheln. Zähle alle zusammen und tippe die Summe ein.', fr: 'Tally remplit ses paniers de glands. Additionne-les tous et écris le total.', es: 'Tally llena las canastas con bellotas. Súmalas todas y escribe el total.' },
-      prompt: { en: 'How many acorns in all?', de: 'Wie viele Eicheln sind es zusammen?', fr: 'Combien de glands en tout ?', es: '¿Cuántas bellotas hay en total?' },
-      hint: { en: 'Add the baskets one at a time — tens with tens, ones with ones.', de: 'Zähle erst alle Zehner zusammen, dann alle Einer — und dann beides.', fr: 'Additionne d’abord toutes les dizaines, puis toutes les unités — et enfin rassemble le tout.', es: 'Suma las canastas de una en una: las decenas con las decenas y las unidades con las unidades.' },
-      readAria: { en: 'hear the baskets', de: 'die Körbe anhören', fr: 'écouter les paniers', es: 'escuchar las canastas' }
+      title: { en: "Tally the Squirrel", de: 'Tallys Eichelkörbe', fr: 'Les paniers de glands de Tally', es: 'Tally la ardilla', pt: 'As cestas de bolotas do Tally' },
+      instruction: { en: 'Tally fills the baskets with acorns. Add them all up and type the total.', de: 'Tally füllt die Körbe mit Eicheln. Zähle alle zusammen und tippe die Summe ein.', fr: 'Tally remplit ses paniers de glands. Additionne-les tous et écris le total.', es: 'Tally llena las canastas con bellotas. Súmalas todas y escribe el total.', pt: 'O Tally enche as cestas com bolotas. Some todas e digite o total.' },
+      prompt: { en: 'How many acorns in all?', de: 'Wie viele Eicheln sind es zusammen?', fr: 'Combien de glands en tout ?', es: '¿Cuántas bellotas hay en total?', pt: 'Quantas bolotas no total?' },
+      hint: { en: 'Add the baskets one at a time — tens with tens, ones with ones.', de: 'Zähle erst alle Zehner zusammen, dann alle Einer — und dann beides.', fr: 'Additionne d’abord toutes les dizaines, puis toutes les unités — et enfin rassemble le tout.', es: 'Suma las canastas de una en una: las decenas con las decenas y las unidades con las unidades.', pt: 'Some as cestas uma de cada vez — primeiro as dezenas, depois as unidades, e junte tudo.' },
+      readAria: { en: 'hear the baskets', de: 'die Körbe anhören', fr: 'écouter les paniers', es: 'escuchar las canastas', pt: 'ouvir as cestas' }
     },
     defaults: {},
 
@@ -85,7 +85,7 @@
       root.appendChild(row);
 
       var read = api.el('button', 'tsq-read'); read.type = 'button'; read.setAttribute('aria-label', api.t('readAria'));
-      var sayLine = v.addends.join(LANG === 'es' ? ' más ' : ' plus ') + (LANG === 'de' ? '. Wie viele sind das zusammen?' : LANG === 'fr' ? '. Combien ça fait en tout ?' : LANG === 'es' ? '. ¿Cuántas son en total?' : '. How many in all?');
+      var sayLine = v.addends.join(LANG === 'es' ? ' más ' : LANG === 'pt' ? ' mais ' : ' plus ') + (LANG === 'de' ? '. Wie viele sind das zusammen?' : LANG === 'fr' ? '. Combien ça fait en tout ?' : LANG === 'es' ? '. ¿Cuántas son en total?' : LANG === 'pt' ? '. Quantas são no total?' : '. How many in all?');
       read.innerHTML = '<span class="tsq-read-ic">🔊</span> ' + v.addends.join(' + ') + ' = ?';
       read.addEventListener('click', function () { speak(sayLine); });
       root.appendChild(read);

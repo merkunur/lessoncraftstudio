@@ -2364,6 +2364,29 @@
         "Escolher a palavra mais exata numa gradação de fraca a forte.",
         "Ampliar o vocabulário e enriquecer a fala e a escrita no dia a dia."
       ]
+    },
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "A Ziggy, uma zebra listrada de olhar curioso, adora um jogo bem particular: ela alinha quatro figuras com as palavras embaixo e desconfia que uma delas não é como as outras. Três combinam — pertencem ao mesmo grupo — e uma é o intruso, aquela que não pertence. Ela pisca para a criança e pergunta com calma: o que não pertence aqui? Juntas, elas olham cachorro, gato, porco e maçã, percebem que três são animais e descobrem que a maçã é a intrusa.",
+        "Achar o intruso parece brincadeira, e é, mas por baixo dela a criança faz um trabalho importante de linguagem: ela agrupa palavras por significado, monta categorias na cabeça e nomeia o que aquelas figuras têm em comum. Isso é campo semântico — animais ficam com animais, frutas com frutas, roupas com roupas, veículos com veículos. Quando a criança separa a maçã do grupo dos bichos, ela está organizando o vocabulário e ampliando o jeito de pensar sobre as palavras.",
+        "Aqui não há cronômetro, não há pontos e não há corrida contra ninguém: a criança avança no seu ritmo, sem pressa, e pode olhar as quatro figuras quantas vezes quiser antes de tocar. Se ela tocar na figura errada, a Ziggy continua tranquila e convida a tentar de novo, sem susto. A atividade acompanha a BNCC de Língua Portuguesa no eixo de análise linguística/semiótica, apoiando a ampliação do vocabulário do 1º ano por meio de categorias e campos semânticos."
+      ],
+      "practices": [
+        "Olhar as quatro figuras com atenção antes de decidir.",
+        "Perceber o que três palavras têm em comum e formar a categoria.",
+        "Identificar a figura que não pertence ao grupo — o intruso.",
+        "Ampliar o vocabulário nomeando animais, frutas, roupas e veículos."
+      ],
+      "howToPlay": [
+        "A Ziggy mostra quatro figuras com suas palavras: três combinam e uma é o intruso.",
+        "A criança compara as quatro e descobre quais três pertencem ao mesmo grupo.",
+        "Ela toca na figura que NÃO pertence — como a maçã entre cachorro, gato e porco."
+      ],
+      "learningGoals": [
+        "Reconhecer e nomear categorias por campo semântico (animais, frutas, roupas, veículos).",
+        "Achar o intruso, a palavra que não pertence ao grupo das outras três.",
+        "Ampliar o vocabulário agrupando palavras pelo significado, no seu ritmo."
+      ]
     }
   }
 }

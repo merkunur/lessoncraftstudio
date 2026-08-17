@@ -18,8 +18,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -39,13 +39,13 @@
     id: 'ziggy-odd-one-out-activity',
 
     strings: {
-      title: { en: "Ziggy's Odd One Out", de: 'Ziggys Was-passt-nicht?', fr: 'Ziggy et l’intrus', es: 'Ziggy y el intruso' },
-      prompt: { en: 'Which one does not belong?', de: 'Welches Bild passt nicht?', fr: 'Quelle image ne va pas avec les autres ?', es: '¿Qué imagen no pertenece?' },
-      ziggyIntro: { en: 'Three of these go together — which one is different?', de: 'Hallo, ich bin Ziggy das Zebra! Drei gehören zusammen – eines ist anders.', fr: '🦓 Trois vont ensemble, une est différente. Trouve l’intrus !', es: '¡Hola, soy Ziggy la cebra! Tres van juntas y una es diferente.' },
-      theAsk: { en: "Tap the one that doesn't belong.", de: 'Tippe das Bild an, das nicht dazugehört.', fr: 'Touche l’image qui ne va pas avec les autres.', es: 'Toca la imagen que no pertenece.' },
-      hintPick: { en: 'Three are alike — tap the odd one out!', de: 'Schau dir alle vier an. Welche drei gehören zusammen?', fr: 'Regarde bien les quatre images. Lesquelles vont ensemble ?', es: 'Mira las cuatro. ¿Cuáles tres van juntas?' },
-      hintWrong: { en: "Look again — which three make a group?", de: 'Fast! Drei passen zusammen – eines ist anders. Versuch es noch einmal.', fr: 'Presque ! Trois images vont ensemble, une seule est différente. Regarde encore.', es: '¡Casi! Tres van juntas y una es diferente. Inténtalo otra vez.' },
-      win: { en: 'Yes! That one is different. 🦓', de: 'Super gemacht – du hast es gefunden! 🦓', fr: 'Bravo ! Tu as trouvé l’intrus ! 🦓', es: '¡Muy bien, lo encontraste! 🦓' }
+      title: { en: "Ziggy's Odd One Out", de: 'Ziggys Was-passt-nicht?', fr: 'Ziggy et l’intrus', es: 'Ziggy y el intruso', pt: 'Ziggy e a Diferente' },
+      prompt: { en: 'Which one does not belong?', de: 'Welches Bild passt nicht?', fr: 'Quelle image ne va pas avec les autres ?', es: '¿Qué imagen no pertenece?', pt: 'Qual imagem não pertence?' },
+      ziggyIntro: { en: 'Three of these go together — which one is different?', de: 'Hallo, ich bin Ziggy das Zebra! Drei gehören zusammen – eines ist anders.', fr: '🦓 Trois vont ensemble, une est différente. Trouve l’intrus !', es: '¡Hola, soy Ziggy la cebra! Tres van juntas y una es diferente.', pt: 'Oi! Sou a Ziggy, a zebra. Uma é diferente! 🦓' },
+      theAsk: { en: "Tap the one that doesn't belong.", de: 'Tippe das Bild an, das nicht dazugehört.', fr: 'Touche l’image qui ne va pas avec les autres.', es: 'Toca la imagen que no pertenece.', pt: 'Toque na que não pertence.' },
+      hintPick: { en: 'Three are alike — tap the odd one out!', de: 'Schau dir alle vier an. Welche drei gehören zusammen?', fr: 'Regarde bien les quatre images. Lesquelles vont ensemble ?', es: 'Mira las cuatro. ¿Cuáles tres van juntas?', pt: 'Três são parecidas — toque na diferente!' },
+      hintWrong: { en: "Look again — which three make a group?", de: 'Fast! Drei passen zusammen – eines ist anders. Versuch es noch einmal.', fr: 'Presque ! Trois images vont ensemble, une seule est différente. Regarde encore.', es: '¡Casi! Tres van juntas y una es diferente. Inténtalo otra vez.', pt: 'Quase! Três vão juntas e uma é diferente. Tente de novo.' },
+      win: { en: 'Yes! That one is different. 🦓', de: 'Super gemacht – du hast es gefunden! 🦓', fr: 'Bravo ! Tu as trouvé l’intrus ! 🦓', es: '¡Muy bien, lo encontraste! 🦓', pt: 'Isso! Essa é a diferente. 🦓' }
     },
     defaults: {},
 

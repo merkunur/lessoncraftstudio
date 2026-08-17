@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "O robô Bolt ajuda a criança a montar um número de dois algarismos, de 20 a 49, usando o valor posicional. A criança solta as unidades uma a uma na bandeja, conta até dez e puxa a alavanca para agrupar essas dez unidades em uma dezena. Para formar 23, por exemplo, ela agrupa duas dezenas e deixa três unidades soltas.",
+        "Aqui a criança pratica compor e decompor números em dezenas e unidades, agrupar dez unidades soltas em uma dezena e também desagrupar uma dezena de volta em dez unidades. Tudo acontece com material manipulável, até cerca de 49, para firmar a ideia de valor posicional sem nenhuma conta.",
+        "A atividade é gratuita e interativa, sem cronômetro, sem pontos e sem competição, no ritmo calmo de quem está aprendendo. A proposta segue a BNCC na unidade temática Números do 1º ano, trabalhando o valor posicional e a composição de números em dezenas e unidades por agrupamento."
+      ],
+      "practices": [
+        "Agrupar dez unidades soltas em uma dezena, entendendo que dez unidades formam um grupo de dez.",
+        "Compor números de dois algarismos combinando dezenas e unidades, de 20 a 49.",
+        "Desagrupar uma dezena de volta em dez unidades soltas, o caminho inverso do agrupamento.",
+        "Entender o valor posicional: o que vale a dezena e o que vale a unidade em cada número."
+      ],
+      "howToPlay": [
+        "Solte as unidades uma a uma na bandeja e vá contando até dez.",
+        "Puxe a alavanca para agrupar dez unidades em uma dezena e monte o número pedido.",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos, no seu ritmo."
+      ],
+      "learningGoals": [
+        "Compor e decompor números de até duas ordens, separando dezenas e unidades.",
+        "Compreender o valor posicional por meio do agrupamento de dez unidades em uma dezena.",
+        "Ganhar segurança com números até cerca de 49, um objetivo de 1º ano da unidade Números."
+      ]
+    },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
         "Pim e Bo são dois amigos que enchem seus potes com contas, e às vezes um pote fica mais cheio que o outro. A criança deixa tudo justo descobrindo o número que falta e tocando nele. Por exemplo: o Bo tem 5 contas e o Pim tem 3 — quantas a mais o Pim precisa para igualar? 2.",

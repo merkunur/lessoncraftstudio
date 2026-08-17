@@ -26,7 +26,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -35,22 +35,22 @@
     id: 'hoppers-number-line-activity',
 
     strings: {
-      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl', fr: 'Hopper sur la droite graduée', es: 'La recta numérica de Hopper' },
-      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.', fr: 'Saute jusqu’à la réponse.', es: 'Brinca hasta la respuesta.' },
-      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸', es: '¡Brinca! 🐸' },
-      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Réécouter', es: '🔊 Escuchar otra vez' },
-      fwd: { en: '▶ Forward', de: '▶ Nach vorne', fr: '▶ En avant', es: '▶ Hacia adelante' },
-      back: { en: '◀ Back', de: '◀ Zurück', fr: '◀ En arrière', es: '◀ Hacia atrás' },
-      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?', fr: 'De combien est le saut ?', es: '¿De qué tamaño es el brinco?' },
-      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!', fr: 'Lis le saut et montre-le-moi sur la droite graduée !', es: 'Lee el brinco y muéstramelo en la recta.' },
-      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!', fr: 'Où arrive Hopper ? Tape le nombre !', es: '¿Dónde cae Hopper? ¡Márcalo!' },
-      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷', fr: 'Plouf ! Pile sur le nénuphar. 🪷', es: '¡Plaf! Justo en la flor de loto. 🪷' },
-      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.', fr: 'Hmm, on refait un saut.', es: 'Mmm, vamos a brincar otra vez.' },
-      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.', fr: 'Choisis le départ, la direction et la longueur du saut, puis tape le nombre d’arrivée.', es: 'Elige el inicio, la dirección y el tamaño del brinco; luego marca dónde cae.' },
-      ariaStart: { en: 'start at {v}', de: 'Start bei {v}', fr: 'départ sur {v}', es: 'empieza en {v}' },
-      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}', fr: 'saut de {sz}', es: 'brinca {sz}' },
-      ariaEdit: { en: 'change the hop', de: 'Sprung ändern', fr: 'changer le saut', es: 'cambiar el brinco' },
-      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer', es: 'borrar' }
+      title: { en: "Hopper's Number Line", de: 'Hopper am Zahlenstrahl', fr: 'Hopper sur la droite graduée', es: 'La recta numérica de Hopper', pt: 'A Reta Numérica do Saltão' },
+      prompt: { en: 'Hop to the answer.', de: 'Hüpf zur Lösung.', fr: 'Saute jusqu’à la réponse.', es: 'Brinca hasta la respuesta.', pt: 'Pule até a resposta.' },
+      hop: { en: 'Hop! 🐸', de: 'Hüpf! 🐸', fr: 'Saute ! 🐸', es: '¡Brinca! 🐸', pt: 'Pula! 🐸' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Réécouter', es: '🔊 Escuchar otra vez', pt: '🔊 Ouvir de novo' },
+      fwd: { en: '▶ Forward', de: '▶ Nach vorne', fr: '▶ En avant', es: '▶ Hacia adelante', pt: '▶ Para frente' },
+      back: { en: '◀ Back', de: '◀ Zurück', fr: '◀ En arrière', es: '◀ Hacia atrás', pt: '◀ Para trás' },
+      sizeHint: { en: 'How big is the hop?', de: 'Wie weit geht der Sprung?', fr: 'De combien est le saut ?', es: '¿De qué tamaño es el brinco?', pt: 'De quanto é o pulo?' },
+      sayWelcome: { en: 'Read the hop, then show me on the line!', de: 'Lies den Sprung und zeig ihn mir am Zahlenstrahl!', fr: 'Lis le saut et montre-le-moi sur la droite graduée !', es: 'Lee el brinco y muéstramelo en la recta.', pt: 'Ouça o pulo e mostre na reta!' },
+      sayDial: { en: 'Where does Hopper land? Dial it!', de: 'Wo landet Hopper? Tipp die Zahl ein!', fr: 'Où arrive Hopper ? Tape le nombre !', es: '¿Dónde cae Hopper? ¡Márcalo!', pt: 'Onde o Saltão vai cair? Digite o número!' },
+      sayWin: { en: 'Splash! Right on the lily. 🪷', de: 'Platsch! Genau auf der Seerose. 🪷', fr: 'Plouf ! Pile sur le nénuphar. 🪷', es: '¡Plaf! Justo en la flor de loto. 🪷', pt: 'Tchibum! Bem na vitória-régia. 🪷' },
+      sayWait: { en: "Hmm, let's hop again.", de: 'Hmm, lass uns nochmal hüpfen.', fr: 'Hmm, on refait un saut.', es: 'Mmm, vamos a brincar otra vez.', pt: 'Hmm, vamos pular de novo.' },
+      hintCheck: { en: 'Set the start, the way, and the hop size — then dial the landing.', de: 'Stell den Start, die Richtung und die Sprungweite ein – dann tipp die Landung ein.', fr: 'Choisis le départ, la direction et la longueur du saut, puis tape le nombre d’arrivée.', es: 'Elige el inicio, la dirección y el tamaño del brinco; luego marca dónde cae.', pt: 'Escolha o início, a direção e o tamanho do pulo — depois digite onde ele cai.' },
+      ariaStart: { en: 'start at {v}', de: 'Start bei {v}', fr: 'départ sur {v}', es: 'empieza en {v}', pt: 'começar em {v}' },
+      ariaHop: { en: 'hop {sz}', de: 'Sprung {sz}', fr: 'saut de {sz}', es: 'brinca {sz}', pt: 'pular {sz}' },
+      ariaEdit: { en: 'change the hop', de: 'Sprung ändern', fr: 'changer le saut', es: 'cambiar el brinco', pt: 'mudar o pulo' },
+      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer', es: 'borrar', pt: 'limpar' }
     },
     defaults: {},
 

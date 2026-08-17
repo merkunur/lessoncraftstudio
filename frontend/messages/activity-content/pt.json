@@ -2249,6 +2249,29 @@
         "Entender que os conectivos ligam ideias: somar, escolher, contrastar ou explicar.",
         "Ligar duas partes de uma frase de forma coerente, desenvolvendo a coesão."
       ]
+    },
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "O Cleo, um camaleão que muda de cor conforme o que vai anotar, adora fazer listas: lista de frutas, lista de brinquedos, lista de tudo que ele quer levar no passeio. Só que o Cleo sempre fica em dúvida sobre onde colocar as vírgulas. Por isso ele escreve a mesma frase de lista de três jeitos diferentes e pede uma ajudinha: qual é a versão com as vírgulas no lugar certo?",
+        "Nesta atividade, a criança lê três versões da mesma lista — por exemplo, “Eu levo maçãs, peras e ameixas.” — e toca naquela em que a pontuação está correta. A regra que o Cleo está aprendendo é simples: numa enumeração de três itens, a vírgula separa as coisas da lista, mas não se usa vírgula antes do “e” final. Então “maçãs, peras e ameixas” está certo, e uma vírgula logo antes do “e” estaria errada.",
+        "Comparando as três frases lado a lado, a criança percebe que uma pequena vírgula muda tudo e começa a enxergar o padrão da vírgula em enumeração com os próprios olhos. Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem pressa — é só ler com calma, observar as vírgulas e escolher. Se escolher a versão errada, o Cleo mostra de novo com carinho, sem susto nenhum."
+      ],
+      "practices": [
+        "Reconhecer a vírgula que separa os itens de uma lista de três coisas.",
+        "Perceber que não se usa vírgula antes do “e” que fecha a enumeração.",
+        "Comparar três versões da mesma frase e localizar a pontuação correta.",
+        "Ler com atenção, observando onde cada vírgula aparece na lista."
+      ],
+      "howToPlay": [
+        "O Cleo mostra a mesma lista escrita de três jeitos, com as vírgulas em lugares diferentes.",
+        "Leia as três frases com calma e observe onde estão as vírgulas em cada uma.",
+        "Toque na versão em que as vírgulas estão no lugar certo — sem vírgula antes do “e” final."
+      ],
+      "learningGoals": [
+        "Usar a vírgula para separar os itens de uma enumeração de três coisas.",
+        "Saber que a vírgula não vem antes do “e” que encerra a lista.",
+        "Ganhar confiança com a pontuação em listas, um dos primeiros usos da vírgula na BNCC (análise linguística, 3º ano)."
+      ]
     }
   }
 }

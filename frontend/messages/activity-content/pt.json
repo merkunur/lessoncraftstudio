@@ -2410,6 +2410,29 @@
         "Relacionar cada palavra à informação que ela pede (pessoa, coisa, lugar, tempo, motivo, jeito).",
         "Ganhar confiança para ler e formar perguntas simples de forma autônoma."
       ]
+    },
+    "halfway-harbors.nearest.3-nbt-a-1": {
+      "about": [
+        "A Marina é uma gata que vive no farol e conhece cada corrente desse mar de números. Em cada rodada, um barquinho aparece carregando um número, e a criança precisa levá-lo até o ancoradouro mais próximo: um porto, quando arredondamos para a dezena (como 60 ou 80), ou um farol, quando arredondamos para a centena (como 200 ou 500). A reta numérica mostra o caminho — são 10 rodadas que misturam dezenas, centenas e aquelas travessias especiais do meio.",
+        "O segredo está em olhar a reta numérica com calma: nela dá para VER qual número redondo fica mais perto, e é isso que decide se o barco vai para baixo ou para cima. Quando o número cai exatamente no meio do caminho, a boia do meio entra em cena — e a criança descobre, olhando, que um número bem no centro sempre arredonda para cima. Não é uma regra decorada; é uma ideia que se enxerga na própria reta.",
+        "Tudo acontece direto no navegador, sem cadastro, sem cronômetro e sem pontuação — só a criança, a Marina e o mar tranquilo dos números. O tom é acolhedor e formativo: aqui se aprende explorando, sem pressa e sem medo de errar. A atividade trabalha a unidade temática Números e está alinhada à Base Nacional Comum Curricular (BNCC)."
+      ],
+      "practices": [
+        "Arredondar números para a dezena e para a centena mais próxima.",
+        "Localizar o número na reta numérica e comparar as distâncias até cada porto ou farol.",
+        "Decidir se o número arredonda para baixo ou para cima.",
+        "Encontrar o ponto médio entre dois números redondos."
+      ],
+      "howToPlay": [
+        "Observe o número que o barquinho da Marina está carregando e procure-o na reta numérica.",
+        "Veja qual porto (dezena) ou farol (centena) fica mais perto — e, nas rodadas do meio, toque na boia para conferir o ponto do centro.",
+        "Envie o barco ao ancoradouro certo e siga para a próxima travessia."
+      ],
+      "learningGoals": [
+        "Arredonda números até cerca de 1000 para a dezena e a centena mais próxima.",
+        "Usa a reta numérica para comparar distâncias e justificar sua escolha.",
+        "Compreende por que um número bem no meio arredonda para cima."
+      ]
     }
   }
 }

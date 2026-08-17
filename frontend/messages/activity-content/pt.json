@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pim e Bo são dois amigos que enchem seus potes com contas, e às vezes um pote fica mais cheio que o outro. A criança deixa tudo justo descobrindo o número que falta e tocando nele. Por exemplo: o Bo tem 5 contas e o Pim tem 3 — quantas a mais o Pim precisa para igualar? 2.",
+        "Nesta atividade, a criança pratica encontrar o número que falta em situações concretas, sempre com contas de verdade: completar um pote, comparar dois potes, devolver contas que caíram e descobrir com quantas alguém começou. Todos os números vão até 12, e a ideia por trás de tudo é a justiça entre amigos — deixar os dois com a mesma quantidade.",
+        "O pote justo é grátis e interativo, sem cronômetro, sem pontos e sem competição — a criança pode pensar com calma e tentar quantas vezes quiser. A proposta acompanha a BNCC na unidade de Números do 1º ano, trabalhando o número que falta, o completar e o comparar em situações do dia a dia."
+      ],
+      "practices": [
+        "Encontrar o número que falta para igualar os potes do Pim e do Bo",
+        "Descobrir quantas contas a mais um pote tem que o outro",
+        "Devolver ou tirar contas para os dois amigos ficarem justos",
+        "Achar com quantas contas alguém começou"
+      ],
+      "howToPlay": [
+        "Veja os potes do Pim e do Bo e quantas contas cada um tem",
+        "Descubra o número que falta para ficar justo e toque nele",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+      ],
+      "learningGoals": [
+        "Encontrar o número que falta em situações concretas de adição e subtração",
+        "Compreender os significados de completar, comparar e igualar quantidades",
+        "Ganhar segurança com números até 12 — objetivo de 1º ano da unidade Números"
+      ]
+    },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
         "O esquilo Tally está enchendo suas cestas de bolotas, e cada cesta ganha uma etiqueta com um número de dois algarismos. Ele monta de 2 a 4 cestas por vez — como 23 e 14 — e a criança precisa somar todas e escrever o total. Uma dica boa é juntar primeiro as dezenas (20 + 10 = 30), depois as unidades (3 + 4 = 7) e, por fim, unir tudo: 30 + 7 dá o total 37.",

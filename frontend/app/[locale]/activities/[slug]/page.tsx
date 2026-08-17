@@ -130,6 +130,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'sharing-jar.make-fair.1-oa-d-8': { pt: 'Números' },  // BR: encontrar o NÚMERO QUE FALTA em situações CONCRETAS de adição/subtração (com contas, ≤12, os significados completar/comparar/juntar/retirar) = campo aditivo concreto = unidade temática Números (EF01MA08), NÃO Álgebra. O auto-map manda OA → "Álgebra" (strand-names.ts:51), erro de conteúdo: Álgebra no 1º ano da BNCC é SÓ padrões/sequências (EF01MA09/10), não o número-que-falta concreto. Espelha o #9 ten-stones (Números override) e CONTRASTA o #10 numbers-court (Álgebra, o sinal de igual RELACIONAL abstrato, 3º ano) — o domínio OA dos EUA se divide por conteúdo. en/de/fr/es mantêm o auto-map (es OA→Sentido numérico já é number-sense)
   'ten-stones.add-sub-within-20.1-oa-c-6': { pt: 'Números' },  // BR: o make-a-ten / passar pelo dez é FLUÊNCIA nos fatos fundamentais da adição e subtração = unidade temática Números (EF02MA05), NÃO Álgebra. O auto-map manda OA ("Operations & Algebraic Thinking") → "Álgebra" (strand-names.ts:51), erro de domínio: Álgebra no 2º ano da BNCC é sequências/regularidades/elemento faltante (EF02MA09-11), não cálculo aritmético. Espelha o split do es (ten-stones → "Sentido numérico" / numbers-court → "Número, álgebra y variación"). CCSS 1.OA.C.6 permanece só como âncora de máquina/SEO. en/de/fr/es mantêm o auto-map
   'skipcount.fill.2-nbt-a-2': { pt: 'Álgebra' },  // BR: a BNCC hospeda sequências/regularidades/elementos ausentes na unidade temática Álgebra (pensamento algébrico desde o 1º ano) — completar a sequência (EF02MA11), achar o passo constante (EF02MA10), construir contagens crescentes/decrescentes (EF02MA09) são habilidades de Álgebra, não de Números. O default (Number & Operations in Base Ten → "Números") descreveria mal a atividade para um professor brasileiro. en/de/es/fr mantêm o eixo numérico (seus currículos não separam a álgebra inicial como eixo). CCSS 2.NBT.A.2 permanece só como âncora de máquina/SEO
   'mosaic-menders.area-match.3-md-c-6': { de: 'Raum und Form', es: 'Forma, espacio y medida' },  // DE: Flächeninhalt = Raum und Form in KMK, not Größen und Messen. MX 3.º: el área (superficie) es una magnitud GEOMÉTRICA ligada a figuras → eje "Forma, espacio y medida" (el eje mexicano que fusiona geometría + medida), NO el default "Magnitudes y medida" (reservado para magnitudes puras: longitud/masa/capacidad/tiempo/dinero). FIJA EL PRECEDENTE es geometría-medida (área/perímetro/superficie/figuras → este eje). en/fr fall through. [merged: was a duplicate key with the de-only entry — #20 fold-fix]
@@ -534,7 +535,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.357';
+  const ACTIVITY_WRAPPER_VERSION = '9.358';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

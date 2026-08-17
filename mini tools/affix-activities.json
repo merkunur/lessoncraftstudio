@@ -94,6 +94,28 @@
           { "id": "af-which-peinar", "cog": "which", "root": "peinar", "affix": "un",  "meaning": "lo contrario de peinar", "options": ["un","re","ful"] },
           { "id": "af-which-llenar", "cog": "which", "root": "llenar", "affix": "re",  "meaning": "llenar otra vez",        "options": ["un","re","ful"] },
           { "id": "af-which-ruido",  "cog": "which", "root": "ruido",  "affix": "ful", "meaning": "lleno de ruido",         "options": ["un","re","ful"] }
+        ],
+        "pt": [
+          { "id": "af-desarrumar", "cog": "apply", "word": "desarrumar", "root": "arrumar", "affix": "un",
+            "options": [ {"affix":"un","text":"o contrário de arrumar"}, {"affix":"re","text":"arrumar de novo"}, {"affix":"ful","text":"cheio de arrumar"} ] },
+          { "id": "af-destampar", "cog": "apply", "word": "destampar", "root": "tampar", "affix": "un",
+            "options": [ {"affix":"un","text":"o contrário de tampar"}, {"affix":"re","text":"tampar de novo"}, {"affix":"ful","text":"cheio de tampar"} ] },
+          { "id": "af-desamarrar", "cog": "apply", "word": "desamarrar", "root": "amarrar", "affix": "un",
+            "options": [ {"affix":"un","text":"o contrário de amarrar"}, {"affix":"re","text":"amarrar de novo"}, {"affix":"ful","text":"cheio de amarrar"} ] },
+          { "id": "af-reler", "cog": "apply", "word": "reler", "root": "ler", "affix": "re",
+            "options": [ {"affix":"un","text":"o contrário de ler"}, {"affix":"re","text":"ler de novo"}, {"affix":"ful","text":"cheio de ler"} ] },
+          { "id": "af-repintar", "cog": "apply", "word": "repintar", "root": "pintar", "affix": "re",
+            "options": [ {"affix":"un","text":"o contrário de pintar"}, {"affix":"re","text":"pintar de novo"}, {"affix":"ful","text":"cheio de pintar"} ] },
+          { "id": "af-recarregar", "cog": "apply", "word": "recarregar", "root": "carregar", "affix": "re",
+            "options": [ {"affix":"un","text":"o contrário de carregar"}, {"affix":"re","text":"carregar de novo"}, {"affix":"ful","text":"cheio de carregar"} ] },
+          { "id": "af-medroso", "cog": "apply", "word": "medroso", "root": "medo", "affix": "ful",
+            "options": [ {"affix":"un","text":"o contrário de medo"}, {"affix":"re","text":"medo de novo"}, {"affix":"ful","text":"cheio de medo"} ] },
+          { "id": "af-carinhoso", "cog": "apply", "word": "carinhoso", "root": "carinho", "affix": "ful",
+            "options": [ {"affix":"un","text":"o contrário de carinho"}, {"affix":"re","text":"carinho de novo"}, {"affix":"ful","text":"cheio de carinho"} ] },
+
+          { "id": "af-which-despentear", "cog": "which", "root": "pentear", "affix": "un",  "meaning": "o contrário de pentear", "options": ["un","re","ful"] },
+          { "id": "af-which-reabrir",    "cog": "which", "root": "abrir",   "affix": "re",  "meaning": "abrir de novo",          "options": ["un","re","ful"] },
+          { "id": "af-which-cheiroso",   "cog": "which", "root": "cheiro",  "affix": "ful", "meaning": "cheio de cheiro",        "options": ["un","re","ful"] }
         ]
       }
     },
@@ -101,19 +123,22 @@
       "en": "prefixes-and-suffixes-word-meaning",
       "de": "wortbausteine-vorsilben-nachsilben-klasse-2",
       "fr": "prefixes-suffixes-le-sens-des-mots-ce1",
-      "es": "prefijos-y-sufijos-formacion-de-palabras-2-primaria"
+      "es": "prefijos-y-sufijos-formacion-de-palabras-2-primaria",
+      "pt": "maquina-de-palavras-marigold-prefixos-sufixos-formacao-de-palavras-2-ano"
     },
     "page_title": {
       "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
       "de": "Marigolds Wortmaschine: Vorsilben & Nachsilben – Klasse 2",
       "fr": "Préfixes et suffixes : le sens des mots – CE1",
-      "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)"
+      "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)",
+      "pt": "A Máquina de Palavras da Marigold: prefixos e sufixos"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
       "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2.",
       "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1.",
-      "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva y gratuita de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP)."
+      "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva y gratuita de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "A Marigold, uma toupeira, tem uma máquina que cola prefixos e sufixos às palavras e muda o sentido delas. Formação de palavras para o 2º ano, no seu ritmo."
     },
     "kid_prompt_template": "affix"
   }

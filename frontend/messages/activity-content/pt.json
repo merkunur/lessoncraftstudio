@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "A rã Pippa abriu uma barraquinha de suco e você é quem ajuda a atender os clientes. Cada copo medidor é fosco, então o nível do suco fica escondido até você servir — e do lado dele há uma escala numerada de 0 a 10 litros. Quando um cliente pede mais ou menos 3 litros, a criança serve o suco, vê onde ele chega e LÊ na escala quantos litros são.",
+        "A criança começa estimando quantos litros o cliente quer, serve o suco no copo medidor e LÊ o nível na escala em litros inteiros. Em outras rodadas, ela compara dois copos e descobre qual tem mais suco olhando o NÚMERO na escala, e não a altura do copo — porque é a quantidade de litros que decide, não o tamanho aparente.",
+        "Tudo é grátis e interativo, sem cronômetro, sem pontos e sem competição: a criança pode servir e ler quantas vezes quiser, no ritmo dela. A atividade trabalha, de um jeito calmo, a unidade temática Grandezas e medidas da BNCC — estimar, ler e comparar capacidade em litros —, uma habilidade de 2º ano do Ensino Fundamental."
+      ],
+      "practices": [
+        "Estimar quantos litros o cliente quer antes de servir",
+        "Ler o nível do suco na escala em litros inteiros",
+        "Comparar dois copos pela quantidade de litros (o número), não pela altura",
+        "Entender a capacidade medida em litros"
+      ],
+      "howToPlay": [
+        "Veja quantos litros o cliente pediu (mais ou menos)",
+        "Sirva o suco, veja onde ele chega e toque no número certo da escala",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+      ],
+      "learningGoals": [
+        "Ler e estimar a capacidade em litros",
+        "Comparar capacidades pelo número na escala, não pelo tamanho aparente",
+        "Compreender o litro como unidade de capacidade — objetivo de 2º ano de Grandezas e medidas"
+      ]
+    },
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
         "A Tessa faz mosaicos e precisa da sua ajuda na oficina: cada mosaico é montado com quadradinhos iguais, e a Tessa mostra de quantos quadradinhos ela precisa. Entre três mosaicos desenhados, a criança toca naquele que é feito com o MESMO NÚMERO de quadradinhos — ou seja, o que tem a mesma área. O detalhe esperto é este: um dos mosaicos parece maior por fora, mas tem quadradinhos a menos, então o que vale é CONTAR os quadradinhos, e não se guiar pelo tamanho.",

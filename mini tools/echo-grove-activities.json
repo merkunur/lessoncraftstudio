@@ -74,19 +74,22 @@
       "en": "echo-grove-equal-groups",
       "de": "multiplikation-als-gruppen-einmaleins-klasse-2",
       "fr": "la-multiplication-en-groupes-egaux-ce1",
-      "es": "multiplicacion-grupos-iguales-tablas-de-multiplicar-primaria"
+      "es": "multiplicacion-grupos-iguales-tablas-de-multiplicar-primaria",
+      "pt": "multiplicacao-grupos-iguais-2-ano"
     },
     "page_title": {
       "en": "The Echo Grove — Read Multiplication as Equal Groups (Grade 3)",
       "de": "Einmaleins üben – Multiplikation als Gruppen (Klasse 2)",
       "fr": "Multiplication CE1 – exercice en ligne gratuit",
-      "es": "Multiplicación como grupos iguales con Pim | Tablas de multiplicar"
+      "es": "Multiplicación como grupos iguales con Pim | Tablas de multiplicar",
+      "pt": "Multiplicação como grupos iguais com a Pim | 2º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: read Pim's rune (like 3 × 4) and tap the grove that shows 3 groups of 4 — not the look-alike with the same total but a different grouping. Children interpret a product as equal groups (the first factor = number of groups, the second = the size of each group). Common Core 3.OA.A.1.",
       "de": "Einmaleins üben online: Multiplikation als gleiche Gruppen erkennen – mit Pim der Eule. Kostenlos online, ohne Anmeldung – für Klasse 2.",
       "fr": "Exercice de multiplication CE1 en ligne : lire des groupes égaux et trouver le produit. Gratuit, en ligne, sans inscription.",
-      "es": "Con el búho Pim, tu peque descubre la multiplicación como grupos iguales y da sus primeros pasos en las tablas de multiplicar. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP)."
+      "es": "Con el búho Pim, tu peque descubre la multiplicación como grupos iguales y da sus primeros pasos en las tablas de multiplicar. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "A coruja Pim mostra uma runa mágica, como “3 × 4”, e convida você a tocar o bosque que traz exatamente 3 grupos de 4 frutinhas. Cuidado com o sósia: ele tem o mesmo total, mas os grupos estão arrumados de outro jeito — inclusive o gêmeo “4 × 3”, com 4 grupos de 3. É uma atividade gratuita e interativa para aprender a multiplicação como grupos iguais, pensada para o 2º ano e alinhada à BNCC."
     },
     "kid_prompt_template": "match-the-rune"
   }

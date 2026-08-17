@@ -17,13 +17,14 @@
   var FORMS_DE = ['bin', 'ist', 'sind'];
   var FORMS_FR = ['suis', 'est', 'sont'];
   var FORMS_ES = ['estoy', 'está', 'están'];
-  var FORMS_L10N = { de: FORMS_DE, fr: FORMS_FR, es: FORMS_ES };
+  var FORMS_PT = ['estou', 'está', 'estão'];
+  var FORMS_L10N = { de: FORMS_DE, fr: FORMS_FR, es: FORMS_ES, pt: FORMS_PT };
   function vvmForms() { return FORMS_L10N[LANG] || Core.FORMS; }
   function vvmGrade(round, id) { return vvmForms()[id] === round.correct; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -43,13 +44,13 @@
     id: 'vera-verb-match-activity',
 
     strings: {
-      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt', fr: 'Vera et le verbe être', es: 'Vera y el verbo estar' },
-      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.', fr: 'Touche la bonne forme : suis, est ou sont.', es: 'Toca la forma correcta: estoy, está o están.' },
-      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?', fr: 'Quelle forme va dans la phrase ?', es: '¿Qué forma va en la oración?' },
-      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!', fr: 'je → suis, un seul → est, plusieurs → sont', es: 'Recuerda: «estoy» con yo, «está» con uno, «están» con varios.' },
-      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.', fr: 'Touche d’abord suis, est ou sont.', es: 'Toca primero estoy, está o están.' },
-      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!', fr: 'Regarde le sujet : un seul ou plusieurs ? Essaie encore !', es: 'Mira el sujeto: ¿uno o varios? ¡Inténtalo de nuevo!' },
-      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿', fr: 'Bravo ! Toutes les phrases sont justes. 🌿', es: '¡Muy bien! Todas las oraciones están bien. 🌿' }
+      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt', fr: 'Vera et le verbe être', es: 'Vera y el verbo estar', pt: 'Vera e o verbo estar' },
+      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.', fr: 'Touche la bonne forme : suis, est ou sont.', es: 'Toca la forma correcta: estoy, está o están.', pt: 'Toque na forma certa: estou, está ou estão.' },
+      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?', fr: 'Quelle forme va dans la phrase ?', es: '¿Qué forma va en la oración?', pt: 'Qual forma completa a frase?' },
+      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!', fr: 'je → suis, un seul → est, plusieurs → sont', es: 'Recuerda: «estoy» con yo, «está» con uno, «están» con varios.', pt: 'Lembre: “estou” (eu), “está” (um), “estão” (vários).' },
+      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.', fr: 'Touche d’abord suis, est ou sont.', es: 'Toca primero estoy, está o están.', pt: 'Leia a frase e toque em uma forma!' },
+      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!', fr: 'Regarde le sujet : un seul ou plusieurs ? Essaie encore !', es: 'Mira el sujeto: ¿uno o varios? ¡Inténtalo de nuevo!', pt: 'Olhe o sujeito de novo: um ou vários? Tente outra vez!' },
+      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿', fr: 'Bravo ! Toutes les phrases sont justes. 🌿', es: '¡Muy bien! Todas las oraciones están bien. 🌿', pt: 'Isso! O verbo combina com o sujeito. 🌿' }
     },
     defaults: {},
 

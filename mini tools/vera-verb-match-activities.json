@@ -45,13 +45,23 @@
           { "id": "yo-escuela", "band": 2, "subject": "Yo", "before": "Yo ", "after": " en la escuela.", "correct": "estoy" },
           { "id": "perros-afuera", "band": 3, "subject": "Los perros", "before": "Los perros ", "after": " afuera.", "correct": "están" },
           { "id": "amiga-aqui", "band": 3, "subject": "Mi amiga", "before": "Mi amiga ", "after": " aquí.", "correct": "está" }
+        ],
+        "pt": [
+          { "id": "eu-jardim", "band": 1, "subject": "Eu", "before": "Eu ", "after": " no jardim.", "correct": "estou" },
+          { "id": "cachorro-parque", "band": 1, "subject": "O cachorro", "before": "O cachorro ", "after": " no parque.", "correct": "está" },
+          { "id": "criancas-contentes", "band": 1, "subject": "As crianças", "before": "As crianças ", "after": " contentes.", "correct": "estão" },
+          { "id": "gato-cansado", "band": 2, "subject": "O gato", "before": "O gato ", "after": " cansado.", "correct": "está" },
+          { "id": "passaros-arvore", "band": 2, "subject": "Os pássaros", "before": "Os pássaros ", "after": " na árvore.", "correct": "estão" },
+          { "id": "eu-feliz", "band": 2, "subject": "Eu", "before": "Eu ", "after": " feliz hoje.", "correct": "estou" },
+          { "id": "cachorros-fora", "band": 3, "subject": "Os cachorros", "before": "Os cachorros ", "after": " lá fora.", "correct": "estão" },
+          { "id": "amiga-aqui", "band": 3, "subject": "Minha amiga", "before": "Minha amiga ", "after": " aqui.", "correct": "está" }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "vera-verb-match", "de": "verb-sein-ueben-bin-ist-sind-klasse-2", "fr": "le-verbe-etre-suis-est-sont-ce1", "es": "verbo-estar-estoy-esta-estan-2-primaria" },
-    "page_title": { "en": "Vera's Verb Match — Am, Is, or Are? (Grade 1)", "de": "Veras Verb-Werkstatt – Verb „sein“ üben: bin, ist, sind (Klasse 2)", "fr": "Le verbe être : suis, est, sont (CE1)", "es": "Vera y el verbo estar: estoy, está, están (2.º primaria)" },
-    "page_intro": { "en": "Vera the vole matches every verb to its subject! Use AM with I, IS with one (the dog, she, it), and ARE with many (the dogs, we, they). Read the sentence and tap the verb that fits. A Grade 1 grammar game about matching the verb to a singular or plural subject, aligned to Common Core L.1.1.c.", "de": "Hilf Vera der Wühlmaus, die richtige Form von „sein“ zu finden – übe bin, ist und sind und stimme Subjekt und Verb ab. Kostenlos und interaktiv für Klasse 2.", "fr": "Avec Vera, votre enfant accorde le verbe être avec le sujet : suis, est ou sont. Une activité gratuite et interactive de conjugaison pour le CE1.", "es": "Vera, la ratoncita, ayuda a tu peque de 2.º de primaria a practicar el verbo estar: completa oraciones tocando estoy, está o están. Gratis e interactiva, alineada a los Planes y programas de estudio (SEP)." },
+    "slug": { "en": "vera-verb-match", "de": "verb-sein-ueben-bin-ist-sind-klasse-2", "fr": "le-verbe-etre-suis-est-sont-ce1", "es": "verbo-estar-estoy-esta-estan-2-primaria", "pt": "vera-verbo-estar-estou-esta-estao-concordancia-2-ano" },
+    "page_title": { "en": "Vera's Verb Match — Am, Is, or Are? (Grade 1)", "de": "Veras Verb-Werkstatt – Verb „sein“ üben: bin, ist, sind (Klasse 2)", "fr": "Le verbe être : suis, est, sont (CE1)", "es": "Vera y el verbo estar: estoy, está, están (2.º primaria)", "pt": "Vera e o verbo estar: estou, está, estão (2º ano)" },
+    "page_intro": { "en": "Vera the vole matches every verb to its subject! Use AM with I, IS with one (the dog, she, it), and ARE with many (the dogs, we, they). Read the sentence and tap the verb that fits. A Grade 1 grammar game about matching the verb to a singular or plural subject, aligned to Common Core L.1.1.c.", "de": "Hilf Vera der Wühlmaus, die richtige Form von „sein“ zu finden – übe bin, ist und sind und stimme Subjekt und Verb ab. Kostenlos und interaktiv für Klasse 2.", "fr": "Avec Vera, votre enfant accorde le verbe être avec le sujet : suis, est ou sont. Une activité gratuite et interactive de conjugaison pour le CE1.", "es": "Vera, la ratoncita, ayuda a tu peque de 2.º de primaria a practicar el verbo estar: completa oraciones tocando estoy, está o están. Gratis e interactiva, alineada a los Planes y programas de estudio (SEP).", "pt": "Complete frases com a Vera escolhendo estou, está ou estão. Uma atividade de concordância verbal para o 2º ano: olhe o sujeito e ache a forma certa." },
     "kid_prompt_template": "Tap am, is, or are to match the subject."
   }
 ]

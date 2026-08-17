@@ -2456,6 +2456,29 @@
         "Ver a multiplicação como soma de parcelas iguais.",
         "Perceber que fatores trocados dão o mesmo total com grupos diferentes."
       ]
+    },
+    "maple-bakery.share.3-oa-a-2": {
+      "about": [
+        "A Maple, uma ratinha padeira, abre a padaria e conta com você para deixar tudo dividido em partes iguais. Numa parte das rodadas, ela pede para repartir os biscoitos entre os pratos: você distribui um a um, de forma justa, e toca no número que mostra quantos biscoitos ficam em cada prato. Em outras rodadas, a Maple já sabe que cada caixa leva uma quantidade fixa de biscoitos e quer saber quantas caixas ela consegue encher — você agrupa os biscoitos de tantos em tantos e toca na quantidade de caixas. São dois gestos concretos, sempre com números pequenos e sem sobrar nenhum biscoito.",
+        "Por trás dessas duas brincadeiras estão os dois sentidos da divisão. Repartir nos pratos é a repartição equitativa, a pergunta “quantos em cada prato?”, quando conhecemos o número de grupos e procuramos o tamanho de cada um. Encher as caixas é o agrupamento, ou divisão por medida, a pergunta “quantas caixas se enchem?”, quando conhecemos o tamanho de cada grupo e procuramos quantos grupos cabem. As duas situações são diferentes na história, mas chegam à mesma divisão — e, com biscoitos organizados em fileiras de caixas, a criança percebe que a divisão é a companheira e a operação inversa da multiplicação.",
+        "A atividade é gratuita e interativa, roda direto no navegador, sem instalar nada, sem cadastro, sem cronômetro e sem pontuação. O tom é acolhedor e formativo: a criança pode pensar, tentar e conferir no seu próprio ritmo, sem pressa e sem clima de prova. O conteúdo está alinhado à Base Nacional Comum Curricular (BNCC), dentro da unidade temática Números."
+      ],
+      "practices": [
+        "Repartir uma quantidade em partes iguais entre pratos.",
+        "Distinguir a repartição (quantos em cada grupo) do agrupamento (quantos grupos).",
+        "Resolver divisões simples, com números pequenos e sem resto.",
+        "Tocar a resposta com calma, pensando antes de confirmar."
+      ],
+      "howToPlay": [
+        "Veja o pedido da Maple: repartir os biscoitos nos pratos ou agrupá-los nas caixas.",
+        "Distribua ou agrupe os biscoitos e observe quantos ficam em cada prato ou quantas caixas se enchem.",
+        "Toque no número da resposta para conferir e siga para a próxima rodada."
+      ],
+      "learningGoals": [
+        "Compreende a divisão como repartir em partes iguais e como agrupar em quantidades fixas.",
+        "Resolve divisões simples sem resto e explica o que cada número representa.",
+        "Vive a divisão e a multiplicação como uma dupla relacionada, uma sendo o inverso da outra."
+      ]
     }
   }
 }

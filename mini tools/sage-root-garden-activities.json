@@ -434,6 +434,16 @@
           { "id": "es-sal",   "band": 2, "root": "sal",   "correct": "salero",    "choices": [ { "word": "sartén" }, { "word": "saco" }, { "word": "salero" } ] },
           { "id": "es-reloj", "band": 3, "root": "reloj", "correct": "relojero",  "choices": [ { "word": "relojero" }, { "word": "remolino" }, { "word": "regla" } ] },
           { "id": "es-papel", "band": 3, "root": "papel", "correct": "papelería", "choices": [ { "word": "pastel" }, { "word": "papelería" }, { "word": "pared" } ] }
+        ],
+        "pt": [
+          { "id": "pt-flor",  "band": 1, "root": "flor",  "correct": "florista",   "choices": [ { "word": "florista" }, { "word": "flauta" }, { "word": "flecha" } ] },
+          { "id": "pt-sol",   "band": 1, "root": "sol",   "correct": "solzinho",   "choices": [ { "word": "solzinho" }, { "word": "sopa" }, { "word": "sombra" } ] },
+          { "id": "pt-gato",  "band": 1, "root": "gato",  "correct": "gatinho",    "choices": [ { "word": "gatinho" }, { "word": "gaveta" }, { "word": "garfo" } ] },
+          { "id": "pt-sal",   "band": 2, "root": "sal",   "correct": "saleiro",    "choices": [ { "word": "saleiro" }, { "word": "sala" }, { "word": "sapo" } ] },
+          { "id": "pt-dente", "band": 2, "root": "dente", "correct": "dentista",   "choices": [ { "word": "dentista" }, { "word": "dentro" }, { "word": "dedo" } ] },
+          { "id": "pt-mar",   "band": 2, "root": "mar",   "correct": "marinheiro", "choices": [ { "word": "marinheiro" }, { "word": "martelo" }, { "word": "maçã" } ] },
+          { "id": "pt-pedra", "band": 3, "root": "pedra", "correct": "pedreiro",   "choices": [ { "word": "pedreiro" }, { "word": "pedaço" }, { "word": "peixe" } ] },
+          { "id": "pt-livro", "band": 3, "root": "livro", "correct": "livraria",   "choices": [ { "word": "livraria" }, { "word": "limão" }, { "word": "linha" } ] }
         ]
       }
     },
@@ -442,19 +452,22 @@
       "en": "sage-root-garden",
       "de": "wortfamilien-wortstamm-erkennen-klasse-2",
       "fr": "les-familles-de-mots-le-radical-ce1",
-      "es": "familias-de-palabras-la-raiz-2-primaria"
+      "es": "familias-de-palabras-la-raiz-2-primaria",
+      "pt": "jardim-de-palavras-da-sage-familia-de-palavras-raiz-2-ano"
     },
     "page_title": {
       "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)",
       "de": "Wortfamilien – online üben (Klasse 2)",
       "fr": "Les familles de mots : le radical – exercice en ligne",
-      "es": "Familias de palabras y la raíz: actividad de 2.º primaria"
+      "es": "Familias de palabras y la raíz: actividad de 2.º primaria",
+      "pt": "Jardim de Palavras da Sage: família de palavras (2º ano)"
     },
     "page_intro": {
       "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.",
       "de": "Wortfamilien üben in Sages Wortgarten: verwandte Wörter zum gleichen Wortstamm finden. Für Klasse 2 – kostenlos online, ohne Anmeldung.",
       "fr": "Les familles de mots au CE1 : retrouve le radical et regroupe les mots de la même famille. Gratuit, en ligne, sans inscription.",
-      "es": "Con Sage la tortuga, tu peque encuentra la raíz de una palabra y elige la que crece de la misma familia. Actividad gratis e interactiva de español para 2.º de primaria, alineado a los Planes y programas de estudio (SEP)."
+      "es": "Con Sage la tortuga, tu peque encuentra la raíz de una palabra y elige la que crece de la misma familia. Actividad gratis e interactiva de español para 2.º de primaria, alineado a los Planes y programas de estudio (SEP).",
+      "pt": "No Jardim de Palavras da Sage, uma tartaruga tranquila, a criança do 2º ano lê a raiz e toca na palavra da mesma família — florzinha vem de flor. No seu ritmo."
     },
     "kid_prompt_template": "Tap the word that grows from the root."
   }

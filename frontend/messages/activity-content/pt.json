@@ -2295,6 +2295,29 @@
         "Fazer a concordância do reflexivo com o sujeito da frase.",
         "Diferenciar “nós” (nos) de “a gente” (se) ao escolher o reflexivo."
       ]
+    },
+    "wally-capital-crane.special-names.l-2-2-a": {
+      "about": [
+        "A Wally, uma morsa de bochechas rechonchudas e presas cor de marfim, opera um guindaste amarelo bem no meio da oficina de palavras. Com o gancho, ela pesca uma letrinha minúscula do chão e a ergue no ar, e num giro suave essa letra vira uma bela MAIÚSCULA. É assim que ela ajuda a criança a enxergar quais palavras pedem letra maiúscula: os nomes próprios.",
+        "Nesta atividade, a Wally mostra uma frase em que um nome de pessoa ou de lugar aparece escrito com letra minúscula, como em “Meu amigo se chama pedro.” ou “Nós fomos passear no brasil.”. A criança lê a frase com calma, encontra o nome próprio e toca nele. Aí o guindaste entra em ação: “pedro” sobe e desce como “Pedro”, “brasil” volta como “Brasil”. Nomes comuns como cachorro, jardim e bola continuam com letra minúscula, e a criança percebe a diferença na prática.",
+        "Trabalhando a maiúscula inicial nos nomes próprios, a atividade fortalece a ortografia e a análise linguística previstas na BNCC para o 2º ano. Tudo acontece no seu ritmo, sem cronômetro e sem pontos: é só ler, achar o nome e ver a letra crescer. Cada frase é uma chance tranquila de reparar que os nomes de pessoas e de lugares começam sempre com letra maiúscula, mesmo no meio da frase."
+      ],
+      "practices": [
+        "Reconhecer nomes próprios de pessoas e de lugares dentro de uma frase.",
+        "Aplicar a letra maiúscula inicial nos nomes próprios, mesmo no meio da frase.",
+        "Diferenciar nomes próprios (Pedro, Ana, Brasil, Bahia) de nomes comuns (cachorro, jardim, bola).",
+        "Ler a frase com atenção para localizar a palavra que precisa de correção."
+      ],
+      "howToPlay": [
+        "Leia a frase que a Wally mostra e procure o nome próprio escrito com letra minúscula.",
+        "Toque nesse nome, por exemplo “pedro” ou “brasil”.",
+        "O guindaste levanta a letra e a transforma em maiúscula: “Pedro”, “Brasil”."
+      ],
+      "learningGoals": [
+        "Compreender que nomes de pessoas e de lugares começam com letra maiúscula.",
+        "Corrigir nomes próprios escritos com letra minúscula dentro de frases.",
+        "Manter os nomes comuns com letra minúscula, percebendo a diferença."
+      ]
     }
   }
 }

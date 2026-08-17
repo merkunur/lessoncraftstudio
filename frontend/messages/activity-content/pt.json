@@ -630,6 +630,29 @@
         "Ler frases completas com atenção ao sentido e à concordância dos pronomes."
       ]
     },
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "A Dra. Plume, uma coruja de óculos redondos e voz calminha, atende na sua acolhedora Clínica de Frases. Toda frase que chega até ela vem meio embaralhada — como um pacientinho de pijama torto — e o trabalho da criança é ajudar a deixá-la certinha de novo. A cada rodada aparece só UM errinho para encontrar e consertar, e a frase volta a soar direitinho.",
+        "Os errinhos são os do dia a dia da escrita no 2º ano: a letra maiúscula que faltou no começo, o ponto final que sumiu do fim, o verbo que não combina com quem faz a ação (“o gato come”, não “o gato comem”), a palavra de ação que caiu fora, a ordem das palavras trocada, o sujeito dito duas vezes ou duas ideias grudadas que pedem um ponto para se separar. A criança acha o errinho, faz o conserto e confere: agora a frase está boa.",
+        "É uma prática tranquila de norma da escrita, alinhada à BNCC de Língua Portuguesa, no eixo Análise linguística/semiótica (ortografia, pontuação e construção de frases). Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem competição. Quando a criança tenta um caminho que ainda não deu certo, a Dra. Plume solta uma risadinha gentil e convida a olhar de novo — nada de X vermelho, nada de vergonha."
+      ],
+      "practices": [
+        "Colocar letra maiúscula no começo da frase.",
+        "Fechar a frase com ponto final.",
+        "Fazer o verbo combinar com quem faz a ação (concordância).",
+        "Arrumar a ordem das palavras e separar ideias grudadas com um ponto."
+      ],
+      "howToPlay": [
+        "Leia a frase embaralhada e procure o único errinho escondido nela.",
+        "Toque para consertar: a maiúscula, o ponto, o verbo, a palavra que falta ou a ordem.",
+        "Confira se a frase agora soa certinha — a Dra. Plume comemora com você, sem pressa."
+      ],
+      "learningGoals": [
+        "Reconhecer quando uma frase precisa de maiúscula no começo e ponto no fim.",
+        "Perceber a concordância entre o sujeito e a palavra de ação.",
+        "Deixar a frase clara arrumando a ordem das palavras e separando ideias."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Tuck, o hamster, encara uma conta teimosa: em 342 − 5 há só 2 unidades, mas ele precisa tirar 5. É aí que ele aprende a desagrupar uma dezena — troca uma barrinha de dez por 10 cubinhos soltos para que as unidades enfim deem conta.",

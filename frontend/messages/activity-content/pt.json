@@ -2180,6 +2180,29 @@
         "Entender que um triângulo continua sendo um triângulo quando muda a cor, o tamanho ou a direção.",
         "Construir o raciocínio por características de que classificar e nomear figuras depende."
       ]
+    },
+    "olive-kind-of.category-attribute.l-1-5-b": {
+      "about": [
+        "A Olive, uma coruja de olhos bem grandes, cuida de uma árvore diferente: em cada galho mora um grupo de palavras — Animal, Comida, Veículo, Roupa, Planta e Móvel. Ela mostra uma figura e conta uma pistinha sobre uma característica da coisa, e o seu aluno decide em que galho aquilo pertence. Quando a pista diz “É peludo e late”, o lugar certo é Animal, porque ali mora o cachorro. Quando diz “É amarela e você descasca para comer”, a resposta é Comida, o galho da banana.",
+        "Brincando na árvore da Olive, a criança do 2º ano aprende a classificar e agrupar palavras por categoria — o termo mais geral que reúne várias coisas parecidas. Ela percebe que o carro é um Veículo, que a camiseta é uma Roupa e que a cadeira é um Móvel, e assim organiza o que já conhece em campos semânticos. Esse trabalho de reunir palavras em grupos amplia o vocabulário e ajuda o aluno a entender e nomear o mundo com mais precisão, um dos objetivos da BNCC na ampliação do vocabulário.",
+        "Tudo acontece no ritmo da criança, sem cronômetro, sem pontos e sem competição. Se ela tocar no galho errado, a Olive convida com calma para ler a pista de novo e pensar mais um pouquinho — cada tentativa é uma chance de observar melhor a característica e escolher o grupo certo. É uma atividade tranquila, para explorar, conversar sobre as figuras e ganhar confiança ao classificar palavras."
+      ],
+      "practices": [
+        "Ler a pista sobre uma característica e ligá-la à figura mostrada.",
+        "Classificar cada coisa no seu grupo: Animal, Comida, Veículo, Roupa, Planta ou Móvel.",
+        "Perceber o que as coisas de um mesmo grupo têm em comum.",
+        "Ampliar o vocabulário organizando palavras por categoria (campo semântico)."
+      ],
+      "howToPlay": [
+        "Olhe a figura que a Olive mostra e leia a pista sobre a característica dela.",
+        "Pense a que grupo aquela coisa pertence — por exemplo, o cachorro é um Animal.",
+        "Toque no galho da categoria certa e siga para a próxima figura, no seu ritmo."
+      ],
+      "learningGoals": [
+        "Classificar e agrupar palavras por categoria usando o termo mais geral.",
+        "Reconhecer características que definem cada grupo de coisas.",
+        "Ampliar o vocabulário ao organizar palavras em campos semânticos."
+      ]
     }
   }
 }

@@ -18,8 +18,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -38,14 +38,14 @@
     id: 'olive-kind-of-activity',
 
     strings: {
-      title: { en: "Olive's Kind-Of Tree", de: 'Olives Oberbegriff-Baum', fr: 'L’arbre des catégories d’Olive', es: 'El árbol de categorías de Olive' },
-      prompt: { en: 'What kind of thing is it?', de: 'Was für ein Ding ist das?', fr: 'Quelle sorte de chose est-ce ?', es: '¿Qué tipo de cosa es?' },
-      oliveIntro: { en: 'Read the clue — what KIND of thing is this?', de: 'Lies den Tipp – was für ein Ding ist das?', fr: 'Lis l’indice : quelle sorte de chose est-ce ?', es: 'Lee la pista: ¿qué TIPO de cosa es esta?' },
-      clueLab: { en: 'Clue:', de: 'Tipp:', fr: 'Indice :', es: 'Pista:' },
-      theAsk: { en: 'Tap the group it belongs to.', de: 'Tippe auf die Gruppe, zu der es gehört.', fr: 'Touche la bonne catégorie.', es: 'Toca el grupo al que pertenece.' },
-      hintPick: { en: 'Read the clue, then tap a group!', de: 'Lies den Tipp und tippe dann auf eine Gruppe!', fr: 'Lis l’indice, puis touche une catégorie !', es: 'Lee la pista y luego toca un grupo.' },
-      hintWrong: { en: "Not that group — read the clue once more.", de: 'Nicht diese Gruppe – lies den Tipp noch einmal.', fr: 'Pas cette catégorie… relis bien l’indice.', es: 'Ese grupo no es. Vuelve a leer la pista.' },
-      win: { en: 'Yes! You found its group. 🦉', de: 'Ja! Du hast die richtige Gruppe gefunden. 🦉', fr: 'Bravo ! Tu as trouvé la bonne catégorie. 🦉', es: '¡Sí! Encontraste su grupo. 🦉' }
+      title: { en: "Olive's Kind-Of Tree", de: 'Olives Oberbegriff-Baum', fr: 'L’arbre des catégories d’Olive', es: 'El árbol de categorías de Olive', pt: 'A árvore de categorias da Olive' },
+      prompt: { en: 'What kind of thing is it?', de: 'Was für ein Ding ist das?', fr: 'Quelle sorte de chose est-ce ?', es: '¿Qué tipo de cosa es?', pt: 'Que tipo de coisa é essa?' },
+      oliveIntro: { en: 'Read the clue — what KIND of thing is this?', de: 'Lies den Tipp – was für ein Ding ist das?', fr: 'Lis l’indice : quelle sorte de chose est-ce ?', es: 'Lee la pista: ¿qué TIPO de cosa es esta?', pt: 'Leia a pista: que tipo de coisa é?' },
+      clueLab: { en: 'Clue:', de: 'Tipp:', fr: 'Indice :', es: 'Pista:', pt: 'Pista:' },
+      theAsk: { en: 'Tap the group it belongs to.', de: 'Tippe auf die Gruppe, zu der es gehört.', fr: 'Touche la bonne catégorie.', es: 'Toca el grupo al que pertenece.', pt: 'Toque no grupo a que ela pertence.' },
+      hintPick: { en: 'Read the clue, then tap a group!', de: 'Lies den Tipp und tippe dann auf eine Gruppe!', fr: 'Lis l’indice, puis touche une catégorie !', es: 'Lee la pista y luego toca un grupo.', pt: 'Leia a pista e toque em um grupo!' },
+      hintWrong: { en: "Not that group — read the clue once more.", de: 'Nicht diese Gruppe – lies den Tipp noch einmal.', fr: 'Pas cette catégorie… relis bien l’indice.', es: 'Ese grupo no es. Vuelve a leer la pista.', pt: 'Esse não é o grupo — leia a pista mais uma vez.' },
+      win: { en: 'Yes! You found its group. 🦉', de: 'Ja! Du hast die richtige Gruppe gefunden. 🦉', fr: 'Bravo ! Tu as trouvé la bonne catégorie. 🦉', es: '¡Sí! Encontraste su grupo. 🦉', pt: 'Isso! Você achou o grupo dela. 🦉' }
     },
     defaults: {},
 
@@ -77,7 +77,7 @@
       root.appendChild(row);
 
       var mid = api.el('div', 'okt-mid');
-      var pic = api.el('button', 'okt-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'de' ? (dispWord + ' anhören') : LANG === 'fr' ? ('écouter ' + dispWord) : LANG === 'es' ? ('escuchar ' + dispWord) : ('hear ' + dispWord));
+      var pic = api.el('button', 'okt-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'de' ? (dispWord + ' anhören') : LANG === 'fr' ? ('écouter ' + dispWord) : LANG === 'es' ? ('escuchar ' + dispWord) : LANG === 'pt' ? ('ouvir ' + dispWord) : ('hear ' + dispWord));
       pic.innerHTML = '<img class="okt-img" src="' + imgUrl(v.target) + '" alt="' + esc(dispWord) + '" onerror="this.style.visibility=\'hidden\'"><span class="okt-spk">🔊</span>';
       pic.addEventListener('click', function () { speak(dispWord); });
       mid.appendChild(pic);

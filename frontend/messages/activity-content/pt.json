@@ -492,6 +492,29 @@
         "Dar os primeiros passos na leitura de dados — um objetivo de Probabilidade e estatística do 2º ano, segundo a BNCC"
       ]
     },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "O Saltão, um sapo curioso que adora saltar de folha em folha, mora numa lagoa onde as vitórias-régias formam uma reta numérica flutuante. Cada folha guarda um número, e o Saltão pula sobre elas para somar e subtrair até 100. Nesta atividade, a criança lê uma pequena história de pulo e depois mostra, na própria reta numérica, para onde o sapo vai parar.",
+        "A ideia central é usar a reta numérica como um modelo para representar uma soma ou uma diferença. Em vez de decorar contas, a criança escolhe o ponto de partida, decide a direção (para frente quando é somar, para trás quando é subtrair) e o tamanho do pulo. Assim ela enxerga a operação acontecendo: o resultado é simplesmente a vitória-régia onde o Saltão cai.",
+        "Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem comparação com ninguém. A criança pode tentar, observar onde ele vai parar e ajustar com calma. É um jeito acolhedor de fortalecer o cálculo até 100 e de conectar os números às distâncias percorridas na reta, um apoio importante para o 2º ano dentro da unidade temática Números da BNCC."
+      ],
+      "practices": [
+        "Representa somas e diferenças até 100 usando a reta numérica como modelo.",
+        "Relaciona somar a pular para frente e subtrair a pular para trás.",
+        "Escolhe o ponto de partida e o tamanho do pulo para chegar ao resultado.",
+        "Confere onde o sapo cai e conversa sobre o porquê do resultado."
+      ],
+      "howToPlay": [
+        "Leia a história do pulo e toque na vitória-régia do número de partida.",
+        "Escolha a direção: para frente para somar ou para trás para subtrair, e o tamanho do pulo.",
+        "Veja onde o Saltão vai parar e descubra o número em que ele cai."
+      ],
+      "learningGoals": [
+        "Somar e subtrair até 100 apoiando-se na reta numérica.",
+        "Entender a reta numérica como modelo de uma soma ou de uma diferença.",
+        "Interpretar a direção e o tamanho do pulo para localizar onde ele cai."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Tuck, o hamster, encara uma conta teimosa: em 342 − 5 há só 2 unidades, mas ele precisa tirar 5. É aí que ele aprende a desagrupar uma dezena — troca uma barrinha de dez por 10 cubinhos soltos para que as unidades enfim deem conta.",

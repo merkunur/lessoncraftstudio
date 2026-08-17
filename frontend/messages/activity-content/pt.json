@@ -2433,6 +2433,29 @@
         "Usa a reta numérica para comparar distâncias e justificar sua escolha.",
         "Compreende por que um número bem no meio arredonda para cima."
       ]
+    },
+    "echo-grove.match-the-rune.3-oa-a-1": {
+      "about": [
+        "A coruja Pim adora colecionar runas mágicas. A cada rodada, ela mostra uma runa como “3 × 4” e pede que você encontre, entre os bosques, aquele que guarda exatamente 3 grupos de 4 frutinhas. Os outros bosques são espertos: têm o mesmo total de frutinhas, mas repartidas de outra maneira — 2 grupos de 6, 6 grupos de 2 ou até o gêmeo “4 × 3”, com 4 grupos de 3. Assim, você não vence só contando o total: precisa olhar como as frutinhas estão agrupadas e tocar o bosque certo.",
+        "Ler a runa é o coração da atividade. O primeiro fator diz quantos grupos formar, e o segundo diz o tamanho de cada grupo: em “3 × 4”, são 3 grupos de 4 frutinhas cada. Esse é também o caminho para enxergar a multiplicação como uma soma de parcelas iguais — 3 × 4 é o mesmo que 4 + 4 + 4. Por isso “3 × 4” e “4 × 3” chegam ao mesmo total, embora os grupos fiquem diferentes: em um há 3 grupos de 4, no outro 4 grupos de 3. Com o tempo, a criança percebe sozinha essa propriedade, que mais adiante ela vai conhecer pelo nome de comutatividade.",
+        "Tudo acontece direto no navegador, sem instalação e sem cadastro. A atividade é gratuita, interativa e não tem cronômetro, pontuação nem ranking — ninguém corre contra o relógio. O tom é acolhedor e formativo: quando você toca o bosque de outro agrupamento, a Pim convida a olhar de novo com calma, sem penalizar. O trabalho pertence à unidade temática Números e está alinhado à Base Nacional Comum Curricular (BNCC), apoiando os primeiros passos da multiplicação no 2º ano."
+      ],
+      "practices": [
+        "Ler a runa de multiplicação e traduzir os dois fatores em grupos iguais.",
+        "Reconhecer que o primeiro fator é o número de grupos e o segundo é o tamanho de cada grupo.",
+        "Relacionar a multiplicação à soma de parcelas iguais (3 × 4 = 4 + 4 + 4).",
+        "Distinguir agrupamentos diferentes de mesmo total, inclusive o gêmeo “4 × 3”."
+      ],
+      "howToPlay": [
+        "Leia a runa que a Pim mostra, como “3 × 4”, e pense: quantos grupos e de que tamanho.",
+        "Olhe os bosques e encontre o que tem exatamente esses grupos iguais.",
+        "Toque no bosque certo; se escolher outro agrupamento, a Pim convida você a tentar de novo."
+      ],
+      "learningGoals": [
+        "Compreender a multiplicação como formação de grupos iguais.",
+        "Ver a multiplicação como soma de parcelas iguais.",
+        "Perceber que fatores trocados dão o mesmo total com grupos diferentes."
+      ]
     }
   }
 }

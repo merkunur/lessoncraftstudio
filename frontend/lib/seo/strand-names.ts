@@ -180,6 +180,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     de: 'Wortschatz untersuchen', // Lehrplan vocabulary sub-area (de literacy fan-out; affix/Wortbildung + L.K.5.A category-sorting)
     fr: 'Le lexique', // programmes officiels cycle 2 sous-domaine d'Étude de la langue (fr literacy fan-out — préfixes/suffixes; distinct from the broader "Language"→fr « Étude de la langue »; reused by future fr lexique activities)
     es: 'Ampliación del vocabulario', // SEP/NEM vocabulary-growth sub-area (es literacy fan-out — prefijos/sufijos; distinct from the grammar strand "Language"→es "Reflexión sobre la lengua"; reused by future es vocabulary activities)
+    pt: 'Ampliação do vocabulário', // BNCC LP descriptor within Análise linguística/semiótica (formação de palavras — prefixos/sufixos); DISTINCT from the grammar strand "Language"→pt "Análise linguística/semiótica" (preserves the sibling vocab/grammar split, mirrors es "Ampliación del vocabulario"); pt literacy fan-out — reused by future pt vocabulary activities
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

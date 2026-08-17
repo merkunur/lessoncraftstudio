@@ -2203,6 +2203,29 @@
         "Reconhecer características que definem cada grupo de coisas.",
         "Ampliar o vocabulário ao organizar palavras em campos semânticos."
       ]
+    },
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "A Vera, uma ratinha do campo, tem uma pequena oficina de verbos onde monta frases que estão quase prontas: falta só uma palavrinha para tudo fazer sentido. Em cada frase, ela deixa uma lacuna e oferece três cartas com as formas do verbo estar — estou, está e estão. A criança olha para o sujeito da frase e toca na carta que combina, ajudando a Vera a terminar cada frasezinha.",
+        "A brincadeira trabalha a concordância verbal: o verbo precisa concordar com o sujeito em número e pessoa. Quando o sujeito é eu, a forma é estou (“Eu ___ no jardim” → estou); quando é um só, como o cachorro, a forma é está (“O cachorro ___ no parque” → está); quando são vários, como as crianças, a forma é estão (“As crianças ___ contentes” → estão). Aos poucos, a criança percebe que basta observar o sujeito para escolher a forma certa.",
+        "Tudo acontece no ritmo da criança, sem cronômetro, sem pontos e sem competição. Se ela tocar numa carta que não encaixa, a Vera espera com calma para que ela olhe de novo o sujeito e tente outra vez. É uma atividade de análise linguística alinhada à BNCC, pensada para o 2º ano, que convida a criança a ler, pensar e completar frases com tranquilidade."
+      ],
+      "practices": [
+        "Reconhecer o sujeito da frase e perceber se é eu, um só ou vários.",
+        "Escolher a forma certa do verbo estar: estou, está ou estão.",
+        "Perceber que o verbo concorda com o sujeito em número e pessoa.",
+        "Ler frases curtas com atenção e completar a lacuna com sentido."
+      ],
+      "howToPlay": [
+        "Leia com a Vera a frase curta que tem uma lacuna e observe quem é o sujeito.",
+        "Toque em uma das três cartas: estou, está ou estão.",
+        "Se não encaixar, olhe o sujeito de novo e escolha outra forma, no seu ritmo."
+      ],
+      "learningGoals": [
+        "Compreender a concordância verbal entre o sujeito e o verbo estar.",
+        "Aplicar as formas estou, está e estão de acordo com o sujeito da frase.",
+        "Ganhar confiança para completar frases observando se o sujeito é um ou vários."
+      ]
     }
   }
 }

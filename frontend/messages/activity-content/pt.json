@@ -469,6 +469,29 @@
         "Desenvolver o trabalho com a unidade temática Probabilidade e estatística da BNCC, lendo tabelas e gráficos com confiança no 2º ano"
       ]
     },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "O caranguejo-ermitão Shelly adora medir conchas na beira do mar. Ele mede cada concha em centímetros e marca o comprimento com um X sobre a reta numérica, formando aos poucos um diagrama de frequências. Por exemplo, se três conchas medem 5 cm, aparecem três X em cima do 5 — e é só olhar o diagrama para saber quantas conchas têm cada comprimento.",
+        "Nesta atividade, a criança faz duas coisas. Primeiro ela marca: lê o comprimento de uma concha e toca no número certo da reta numérica para colocar o X no lugar. Depois ela lê o diagrama de frequências para responder — quantas conchas medem um certo comprimento, qual comprimento mais aparece, quantas conchas a mais e quantos centímetros a mais mede a concha mais comprida em relação à mais curta.",
+        "Tudo é grátis e interativo, sem cronômetro, sem pontos e sem competição — a criança pode tentar quantas vezes quiser, no seu ritmo. Assim ela dá os primeiros passos na leitura de dados de um jeito calmo e concreto, trabalhando a unidade de Probabilidade e estatística da BNCC, própria do 2º ano: ler e interpretar informações apresentadas em um diagrama de frequências."
+      ],
+      "practices": [
+        "Marcar o comprimento de uma concha na reta numérica, tocando no número certo para colocar o X",
+        "Contar quantas conchas medem um certo comprimento, lendo o diagrama de frequências",
+        "Achar o comprimento que mais aparece no diagrama",
+        "Comparar os dados: quantas conchas a mais e quantos centímetros a mais mede a concha mais comprida que a mais curta"
+      ],
+      "howToPlay": [
+        "Veja o comprimento da concha e toque no número certo da reta numérica para marcar o X",
+        "Leia o diagrama de frequências e responda tocando no número certo",
+        "Você pode tentar quantas vezes quiser, sem tempo e sem pontos"
+      ],
+      "learningGoals": [
+        "Ler e interpretar dados apresentados em um diagrama de frequências",
+        "Achar o comprimento que mais aparece e comparar quantidades no diagrama",
+        "Dar os primeiros passos na leitura de dados — um objetivo de Probabilidade e estatística do 2º ano, segundo a BNCC"
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Tuck, o hamster, encara uma conta teimosa: em 342 − 5 há só 2 unidades, mas ele precisa tirar 5. É aí que ele aprende a desagrupar uma dezena — troca uma barrinha de dez por 10 cubinhos soltos para que as unidades enfim deem conta.",

@@ -2341,6 +2341,29 @@
         "Diferenciar a forma irregular certa (fiz, disse, trouxe) do erro regular comum (fazi, dizi, trazi).",
         "Ganhar confiança para passar frases do presente para o passado, dentro do eixo de análise linguística da BNCC."
       ]
+    },
+    "roary-roar-meter.shades.l-2-5-b": {
+      "about": [
+        "O Roary, um leão de juba enorme, tem um rugidômetro: um medidor que sobe conforme a FORÇA da palavra. Ele mostra três palavras parecidas — que dizem quase a mesma coisa, mas com intensidades diferentes — e pergunta qual é a mais forte ou a mais fraca. A criança compara as três, toca na palavra certa e vê o ponteiro do rugidômetro subir bem alto ou ficar bem baixinho.",
+        "Palavras próximas quase nunca são idênticas: há uma gradação escondida entre elas. Pense em “sussurrar”, “falar” e “gritar” — todas têm a ver com a voz, mas cada uma marca um volume diferente. O mesmo acontece com “morno”, “quente” e “fervendo”, ou com “fresco”, “frio” e “gelado”. Perceber essa pequena diferença de sentido é o coração desta atividade, um trabalho de ampliação do vocabulário e de nuances de sentido entre sinônimos.",
+        "Escolher a palavra mais exata deixa a fala e a escrita muito mais ricas e claras: quem diz “a sopa está fervendo” comunica algo bem diferente de “a sopa está morna”. Alinhada à BNCC de Língua Portuguesa, no eixo da análise linguística/semiótica, a atividade convida cada criança a explorar essas gradações no seu ritmo, sem cronômetro, sem pontos — só o Roary e o rugidômetro esperando o próximo rugido."
+      ],
+      "practices": [
+        "Comparar três palavras próximas e ordená-las da mais fraca para a mais forte.",
+        "Reconhecer nuances de sentido entre sinônimos (sussurrar, falar, gritar).",
+        "Escolher a palavra mais exata para deixar a fala e a escrita mais ricas.",
+        "Ampliar o vocabulário percebendo pequenas diferenças de intensidade."
+      ],
+      "howToPlay": [
+        "O Roary mostra três palavras parecidas e pergunta qual é a mais forte ou a mais fraca.",
+        "A criança lê as três, pensa na força de cada uma e toca na palavra certa.",
+        "O rugidômetro sobe ou fica baixinho, mostrando a intensidade da palavra escolhida."
+      ],
+      "learningGoals": [
+        "Perceber que palavras próximas têm pequenas diferenças de sentido e de intensidade.",
+        "Escolher a palavra mais exata numa gradação de fraca a forte.",
+        "Ampliar o vocabulário e enriquecer a fala e a escrita no dia a dia."
+      ]
     }
   }
 }

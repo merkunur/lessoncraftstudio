@@ -83,7 +83,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'cleo-packing-list.series-commas.l-1-2-b': { de: '3', fr: '3', es: '3', pt: '3' },  // Komma bei Aufzählung = first comma rule, DE Klasse 3; FR: la virgule d'énumération = premier attendu interne → CE2; ES 3.º (la coma en enumeraciones = primera regla de coma; 1.º-2.º solo punto/mayúscula)
   'robin-mirror.reflexive.l-2-1-c': { de: '3', fr: '3', es: '3', pt: '3' },        // Reflexivpronomen → DE Klasse 3; FR: le pronom réfléchi qui varie avec le sujet = consolidation CE2; ES 3.º (pronombres reflexivos como categoría metalingüística = 3.º NEM; uso oral desde preescolar)
   'rusty-yesterday.irregular-past.l-2-1-d': { de: '3', fr: '3', es: '3', pt: '3' }, // starke Verben Präteritum → DE Klasse 3; FR: passé composé irrégulier (résister à « faisé ») = consolidation CE2; ES 3.º (estudio consciente del pretérito de verbos irregulares + rechazar la sobrerregularización = 3.º NEM; uso oral desde preescolar)
-  'roary-roar-meter.shades.l-2-5-b': { de: '3', fr: '3', es: '3' },        // Bedeutungsnuancen → DE Klasse 3; FR: classer des synonymes par intensité = CE2; ES 3.º (graduar matices de significado dentro de un mismo sentido = tarea léxica fina de 3.º NEM; los opuestos claros son 1.º-2.º)
+  'roary-roar-meter.shades.l-2-5-b': { de: '3', fr: '3', es: '3', pt: '3' },        // Bedeutungsnuancen → DE Klasse 3; FR: classer des synonymes par intensité = CE2; ES 3.º (graduar matices de significado dentro de un mismo sentido = tarea léxica fina de 3.º NEM; los opuestos claros son 1.º-2.º)
   'wren-question-window.question-words.l-k-1-d': { de: '1', fr: '2', es: '1' },    // Fragewörter = DE Klasse 1 (mechanical K→1); FR: emploi écrit des 6 mots interrogatifs = CE1 attendu (maternelle=oral, CP=déchiffrage) — deliberately one notch above the DE bump; ES: palabras interrogativas = tarea de lengua escrita → 1.º primaria (frontera preescolar→primaria; el niño RECONOCE la tilde, no la produce → no 2.º)
   'wordclass.adjective-adverb.l-2-1-e': { fr: '3' },                     // FR CE2: l'adverbe comme classe nommée + le CHOIX fonctionnel adjectif/adverbe = attendu de fin de cycle 2 (l'adjectif seul = CE1); the CCSS-Grade-2→CE1 auto-map under-levels it. en Grade 2 unchanged
   'sunny-side-diner.compound-order.l-k-1-f': { fr: '1' },                // FR CP: produire une phrase complète + coordonner deux groupes avec « et » = charnière oral→écrit CP (au-dessus de la production orale GS, en deçà de l'analyse CE1); native 'K'→« Grande section » too low; en Kindergarten unchanged
@@ -199,7 +199,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'sunny-side-diner.compound-order.l-k-1-f': { fr: 'Langage oral' }, // FR: écouter la commande + la redire en jeu de rôle = production orale → « Langage oral » (composante cycle 2), NOT the grammar Bereich; the child PRODUCES the sentence, doesn't analyse it. en falls through to Language
   'snippy.letter-formation.l-k-1-a': { fr: 'Écriture' }, // FR: former/tracer les lettres = le geste graphique/geste d'écriture → domaine « Écriture » (calque le frère allemand « Schreiben »), NOT « Étude de la langue » (grammaire). en falls through to Language
   'rusty-yesterday.irregular-past.l-2-1-d': { fr: 'La conjugaison' },      // FR: le passé composé = conjugaison, its own named strand at l'école élémentaire (finer than the « Étude de la langue » umbrella; DE stays default « Sprache untersuchen »)
-  'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario' }, // Bedeutungsnuancen = vocabulary work, not grammar; FR: les nuances de sens = le lexique; ES matices de significado = léxico (like #22 affix / #26 sage / #27 olive), NOT "Reflexión sobre la lengua"
+  'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario', pt: 'Ampliação do vocabulário' }, // Bedeutungsnuancen = vocabulary work, not grammar; FR: les nuances de sens = le lexique; ES matices de significado = léxico (like #22 affix / #26 sage / #27 olive), NOT "Reflexión sobre la lengua"
   'ziggy-odd-one-out.category.l-1-5-a': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario' }, // Wortfelder/Kategorien = vocabulary work, not grammar; FR: trouver l'intrus = le lexique; ES categorización/campos semánticos = léxico (like #22/#26/#27/#34), NOT "Reflexión sobre la lengua"
   'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"
   'echo-grove.match-the-rune.3-oa-a-1': { de: 'Zahlen und Operationen' }, // Multiplikation = KMK Leitidee „Zahlen und Operationen"; literal „Rechnen und algebraisches Denken" reads wrong (Sekundarstufe term)
@@ -535,7 +535,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.375';
+  const ACTIVITY_WRAPPER_VERSION = '9.376';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

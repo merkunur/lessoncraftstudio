@@ -434,6 +434,16 @@
           { "id": "poder", "band": 2, "present": "puedo saltar", "correct": "pude", "choices": [ { "word": "pude" }, { "word": "puedo" }, { "word": "podí" } ] },
           { "id": "querer", "band": 3, "present": "quiero un dulce", "correct": "quise", "choices": [ { "word": "quise" }, { "word": "quiero" }, { "word": "querí" } ] },
           { "id": "andar", "band": 3, "present": "ando en bici", "correct": "anduve", "choices": [ { "word": "anduve" }, { "word": "ando" }, { "word": "andé" } ] }
+        ],
+        "pt": [
+          { "id": "fazer", "band": 1, "present": "faço um bolo", "correct": "fiz", "choices": [ { "word": "fiz" }, { "word": "faço" }, { "word": "fazi" } ] },
+          { "id": "dizer", "band": 1, "present": "digo a verdade", "correct": "disse", "choices": [ { "word": "disse" }, { "word": "digo" }, { "word": "dizi" } ] },
+          { "id": "trazer", "band": 1, "present": "trago um presente", "correct": "trouxe", "choices": [ { "word": "trouxe" }, { "word": "trago" }, { "word": "trazi" } ] },
+          { "id": "poder", "band": 2, "present": "posso pular", "correct": "pude", "choices": [ { "word": "pude" }, { "word": "posso" }, { "word": "podi" } ] },
+          { "id": "querer", "band": 2, "present": "quero um doce", "correct": "quis", "choices": [ { "word": "quis" }, { "word": "quero" }, { "word": "queri" } ] },
+          { "id": "saber", "band": 2, "present": "sei a resposta", "correct": "soube", "choices": [ { "word": "soube" }, { "word": "sei" }, { "word": "sabi" } ] },
+          { "id": "estar", "band": 3, "present": "estou feliz", "correct": "estive", "choices": [ { "word": "estive" }, { "word": "estou" }, { "word": "estei" } ] },
+          { "id": "caber", "band": 3, "present": "caibo na caixa", "correct": "coube", "choices": [ { "word": "coube" }, { "word": "caibo" }, { "word": "cabi" } ] }
         ]
       }
     },
@@ -442,19 +452,22 @@
       "en": "rusty-yesterday",
       "de": "unregelmaessige-verben-praeteritum-ueben-klasse-3",
       "fr": "le-passe-compose-verbes-irreguliers-ce2",
-      "es": "preterito-verbos-irregulares-pasado-3-primaria"
+      "es": "preterito-verbos-irregulares-pasado-3-primaria",
+      "pt": "verbos-irregulares-preterito-perfeito-passado-3-ano"
     },
     "page_title": {
       "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)",
       "de": "Zeitformen Klasse 3 – Präteritum online üben",
       "fr": "Conjugaison CE2 : le passé composé – exercice en ligne",
-      "es": "Rusty y la máquina del tiempo: verbos irregulares en pretérito (3.º primaria)"
+      "es": "Rusty y la máquina del tiempo: verbos irregulares en pretérito (3.º primaria)",
+      "pt": "Verbos irregulares no passado com o Rusty | 3º ano"
     },
     "page_intro": {
       "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.",
       "de": "Zeitformen in Klasse 3: unregelmäßige Verben im Präteritum üben mit Rustys Gestern-Maschine. Kostenlos online üben, ohne Anmeldung.",
       "fr": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Gratuit, sans inscription.",
-      "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Gratis e interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP)."
+      "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Gratis e interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP).",
+      "pt": "Com o Rusty e a máquina de ontem, a criança do 3º ano lê a frase no presente e toca na forma certa do passado: verbos irregulares no pretérito perfeito."
     },
     "kid_prompt_template": "Yesterday — which word is right?"
   }

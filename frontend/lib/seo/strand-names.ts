@@ -173,6 +173,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     es: 'Reflexión sobre la lengua', // SEP: componente "Análisis y reflexión sobre la lengua" (Aprendizajes Clave 2017); es literacy fan-out — reused by every es Language/grammar/spelling activity
     nl: 'Taal', // SLO-kerndoelen leergebied Nederlands/taal (nl literacy fan-out)
     fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
+    pt: 'Análise linguística/semiótica', // BNCC Língua Portuguesa eixo (morfologia/ortografia — flexão de número); pt literacy fan-out — reused by every future pt Language activity
   },
   'Vocabulary Acquisition and Use': {
     en: 'Vocabulary Acquisition and Use',

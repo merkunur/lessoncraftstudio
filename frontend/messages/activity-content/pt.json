@@ -515,6 +515,29 @@
         "Interpretar a direção e o tamanho do pulo para localizar onde ele cai."
       ]
     },
+    "plural.irregular.l-2-1-b": {
+      "about": [
+        "A Pérola, a lua serena que mora no lago, gosta de espelhar as palavras na água calma — e quando ela reflete um plural, ele aparece do jeito certo, inteirinho. É essa a brincadeira desta atividade: a criança conhece a Pérola e descobre que, no português, formar o plural nem sempre é só juntar um -s no fim da palavra. Algumas palavras mudam de verdade quando viram plural, e o lago mostra essa mudança com muita calma.",
+        "Aqui as crianças do 2º ano observam palavras que pedem um plural especial. As que terminam em -ão podem virar -ães ou -ões, como pão que vira pães e balão que vira balões. As que terminam em -l trocam o -l por -is, como animal que vira animais, papel que vira papéis e lençol que vira lençóis. E as que terminam em -m ganham -ns, como homem que vira homens. A cada rodada, a Pérola reflete uma palavra no singular e mostra três caminhos possíveis.",
+        "A tarefa é reconhecer o plural correto entre três opções: o certo, o preguiçoso com -s no fim (que está errado) e a palavra sem mudança nenhuma (também errada). Tudo acontece no seu ritmo, sem cronômetro, sem pontos e sem competição — só a criança, a água tranquila e a chance de tentar de novo quando quiser. É uma forma gentil de trabalhar formação do plural, morfologia e ortografia, dentro do eixo Análise linguística/semiótica da BNCC."
+      ],
+      "practices": [
+        "Formar o plural de palavras terminadas em -ão (pão → pães, balão → balões).",
+        "Formar o plural de palavras terminadas em -l (animal → animais, papel → papéis, lençol → lençóis).",
+        "Formar o plural de palavras terminadas em -m (homem → homens).",
+        "Perceber que o plural nem sempre é só juntar -s, evitando a forma preguiçosa e a palavra sem mudança."
+      ],
+      "howToPlay": [
+        "A Pérola reflete uma palavra no singular na água do lago.",
+        "A criança lê a palavra e toca no plural correto entre as três opções.",
+        "Se escolher a forma preguiçosa com -s ou a palavra sem mudança, é só tentar de novo, no seu ritmo, sem pressa."
+      ],
+      "learningGoals": [
+        "Compreender que muitas palavras têm plural especial, e não apenas o acréscimo de -s.",
+        "Aplicar as regras de plural para terminações em -ão, -l e -m com exemplos do dia a dia.",
+        "Ler com atenção e reconhecer a grafia correta do plural, dentro do eixo Análise linguística/semiótica da BNCC."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Tuck, o hamster, encara uma conta teimosa: em 342 − 5 há só 2 unidades, mas ele precisa tirar 5. É aí que ele aprende a desagrupar uma dezena — troca uma barrinha de dez por 10 cubinhos soltos para que as unidades enfim deem conta.",

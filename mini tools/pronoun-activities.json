@@ -271,6 +271,17 @@
           { "id": "es-pos-1", "role": "possessive", "sentence": "Es ___ pelota.",        "es": { "correct": "mi",      "wrong": "me" } },
           { "id": "es-pos-2", "role": "possessive", "sentence": "Aquí está ___ perro.",  "es": { "correct": "tu",      "wrong": "te" } },
           { "id": "es-pos-3", "role": "possessive", "sentence": "Es ___ salón.",         "es": { "correct": "nuestro", "wrong": "nos" } }
+        ],
+        "pt": [
+          { "id": "pt-sub-1", "role": "subject",    "sentence": "___ corro no parque.",        "pt": { "correct": "Eu",    "wrong": "Mim" } },
+          { "id": "pt-sub-2", "role": "subject",    "sentence": "___ pulamos a corda.",         "pt": { "correct": "Nós",   "wrong": "Nos" } },
+          { "id": "pt-sub-3", "role": "subject",    "sentence": "A Lia e ___ pintamos o muro.", "pt": { "correct": "eu",    "wrong": "mim" } },
+          { "id": "pt-obj-1", "role": "object",     "sentence": "O vovô ___ abraça.",           "pt": { "correct": "me",    "wrong": "eu" } },
+          { "id": "pt-obj-2", "role": "object",     "sentence": "A profe ___ chama.",           "pt": { "correct": "te",    "wrong": "tu" } },
+          { "id": "pt-obj-3", "role": "object",     "sentence": "O guia ___ leva pela trilha.", "pt": { "correct": "nos",   "wrong": "nós" } },
+          { "id": "pt-pos-1", "role": "possessive", "sentence": "Esse é ___ chapéu.",           "pt": { "correct": "meu",   "wrong": "mim" } },
+          { "id": "pt-pos-2", "role": "possessive", "sentence": "Esse é ___ lápis.",            "pt": { "correct": "teu",   "wrong": "tu" } },
+          { "id": "pt-pos-3", "role": "possessive", "sentence": "Essa é ___ casa.",             "pt": { "correct": "nossa", "wrong": "nós" } }
         ]
       }
     },
@@ -278,19 +289,22 @@
       "en": "personal-pronouns",
       "de": "personalpronomen-ueben-er-ihn-ich-mich-klasse-3",
       "fr": "les-pronoms-choisir-la-bonne-forme-ce2",
-      "es": "pronombres-personales-para-ninos-3-primaria"
+      "es": "pronombres-personales-para-ninos-3-primaria",
+      "pt": "hattie-chapelaria-pronomes-pessoais-caso-reto-obliquo-3-ano"
     },
     "page_title": {
       "en": "The Borrowed Hat — Personal Pronouns (Grade 1)",
       "de": "Hattie übt Personalpronomen: er/ihn, ich/mich – Klasse 3",
       "fr": "Grammaire CE2 : les pronoms – exercice en ligne",
-      "es": "Pronombres personales para niños: yo, él, me, mi (3.º primaria)"
+      "es": "Pronombres personales para niños: yo, él, me, mi (3.º primaria)",
+      "pt": "A Chapelaria da Hattie: pronomes pessoais no 3º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d.",
       "de": "Bei Hattie im Hutladen das passende Fürwort wählen: er oder ihn, ich oder mich – je nach Satzrolle. Personalpronomen kostenlos und interaktiv üben, Klasse 3.",
       "fr": "Grammaire CE2 en ligne : choisis la bonne forme du pronom dans la phrase, avec correction immédiate. Gratuit, en ligne, sans inscription.",
-      "es": "Con Hattie la liebre y su sombrerería, tu niño lee una oración con un espacio y elige el pronombre personal correcto: quién hace la acción, a quién le pasa o de quién es algo. Actividad gratuita e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP)."
+      "es": "Con Hattie la liebre y su sombrerería, tu niño lee una oración con un espacio y elige el pronombre personal correcto: quién hace la acción, a quién le pasa o de quién es algo. Actividad gratuita e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Ajude a Hattie a escolher o pronome pessoal certo em cada frase. Atividade de 3º ano sobre caso reto, oblíquo e possessivo, no ritmo da criança."
     },
     "kid_prompt_template": "pronoun"
   }

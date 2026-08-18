@@ -3107,6 +3107,29 @@
         "Eu ligo as tarefas do meu dia à hora certa no relógio.",
         "Eu entendo melhor a rotina do meu dia, do amanhecer até a hora de dormir."
       ]
+    },
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "O Vovô Pip esculpe potes de madeira que encaixam um dentro do outro, e em cada pote ele pinta um número. Para guardar tudo direitinho, você empilha os potes do maior número até o menor, um dentro do outro. Assim o bebê Wee Olen fica bem seguro no menor potinho, lá no meio de tudo, enquanto o pato Doot observa cada encaixe com atenção.",
+        "A grande sacada é esta: os potes têm tamanhos diferentes, então você não pode adivinhar pela aparência — precisa ler o número pintado em cada um. A criança compara e ordena números escritos, descobre qual é o maior e qual é o menor e, às vezes, completa uma lacuna na sequência achando o número que está faltando. Numa rodada mais desafiadora, aparecem números maiores, de duas ordens (como 12, 25 ou 40), para ampliar aos poucos o que a criança já sabe.",
+        "A atividade é totalmente gratuita e sem cadastro. Não há cronômetro, pontuação nem competição: é só o tempo tranquilo de brincar, errar sem susto e tentar de novo. Ela foi pensada com um tom calmo e acolhedor e está alinhada à BNCC, na unidade temática \"Números\", do 1º ano."
+      ],
+      "practices": [
+        "Ordenar os potes do maior número para o menor",
+        "Ler o número pintado em cada pote, em vez de adivinhar pelo tamanho",
+        "Comparar números — ver qual é maior e qual é menor, achar o maior e o menor de todos",
+        "Perceber que números iguais ficam lado a lado, sem um caber dentro do outro"
+      ],
+      "howToPlay": [
+        "Olhe os números pintados nos potes e comece sempre pelo MAIOR",
+        "Encaixe em seguida o pote com o próximo número menor, um dentro do outro",
+        "Por último, o bebê Wee Olen vai no menor pote, bem no meio de tudo"
+      ],
+      "learningGoals": [
+        "Eu leio o número pintado no pote em vez de olhar só o tamanho",
+        "Eu coloco os números em ordem, do maior para o menor",
+        "Eu descubro qual número é o maior e qual é o menor"
+      ]
     }
   }
 }

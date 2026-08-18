@@ -3084,6 +3084,29 @@
         "Eu aprendo a ordem correta dos traços para formar cada algarismo.",
         "Eu ganho confiança para escrever os números com capricho sozinho."
       ]
+    },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "O galo Sprocket adora observar o dia inteiro, do primeiro cantar até a hora de dormir. Nesta atividade, ele mostra para você uma coisa que acontece no dia — como tomar café da manhã ou olhar as estrelas — junto com a hora que aparece no relógio. Aí é a sua vez: você decide se aquilo acontece de manhã ou de tarde e à noite.",
+        "A ideia é aprender a distinguir os períodos do dia, separando o que vem antes do meio-dia do que vem depois dele. Ao ligar as tarefas do dia a dia às horas cheias — como acordar às 6 horas ou jantar às 6 da tarde —, a criança vai construindo, aos poucos, uma noção da própria rotina e da passagem do tempo ao longo do dia.",
+        "A atividade é gratuita e não pede cadastro. Não tem tempo correndo, nem pontuação, nem competição: é só brincar com calma, no ritmo de cada criança. Ela está alinhada à BNCC, na unidade temática \"Grandezas e medidas\", ajudando a relacionar os períodos do dia com as horas."
+      ],
+      "practices": [
+        "Distinguir manhã, tarde e noite ao longo do dia",
+        "Relacionar uma tarefa do dia a um período (antes ou depois do meio-dia)",
+        "Ler a hora cheia (em ponto) e situá-la no dia",
+        "Perceber e organizar a própria rotina do dia"
+      ],
+      "howToPlay": [
+        "Leia o que o Sprocket está fazendo e veja a hora no relógio",
+        "Pense: isso é de manhã ou de tarde e à noite?",
+        "Toque no sol (manhã) ou na lua (tarde e noite)"
+      ],
+      "learningGoals": [
+        "Eu sei dizer se uma coisa acontece de manhã ou de tarde e à noite.",
+        "Eu ligo as tarefas do meu dia à hora certa no relógio.",
+        "Eu entendo melhor a rotina do meu dia, do amanhecer até a hora de dormir."
+      ]
     }
   }
 }

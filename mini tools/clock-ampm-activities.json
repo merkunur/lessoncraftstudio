@@ -7,34 +7,37 @@
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "ap-breakfast", "activity": "You eat breakfast.", "activityL10n": { "de": "Du frühstückst.", "fr": "Tu prends le petit-déjeuner.", "es": "Desayunas." }, "time": "7:00", "ampm": "AM" },
-        { "id": "ap-wakeup", "activity": "You wake up.", "activityL10n": { "de": "Du wachst auf.", "fr": "Tu te réveilles.", "es": "Te despiertas." }, "time": "6:00", "ampm": "AM" },
-        { "id": "ap-school", "activity": "School starts.", "activityL10n": { "de": "Die Schule beginnt.", "fr": "L'école commence.", "es": "Entras a la escuela." }, "time": "8:00", "ampm": "AM" },
-        { "id": "ap-sunrise", "activity": "The sun comes up.", "activityL10n": { "de": "Die Sonne geht auf.", "fr": "Le soleil se lève.", "es": "Sale el sol." }, "time": "6:00", "ampm": "AM" },
-        { "id": "ap-dinner", "activity": "You eat dinner.", "activityL10n": { "de": "Du isst zu Abend.", "fr": "Tu prends le dîner.", "es": "Cenas." }, "time": "6:00", "ampm": "PM" },
-        { "id": "ap-sleep", "activity": "You go to sleep.", "activityL10n": { "de": "Du gehst schlafen.", "fr": "Tu vas dormir.", "es": "Te vas a dormir." }, "time": "8:00", "ampm": "PM" },
-        { "id": "ap-stars", "activity": "You look at the stars.", "activityL10n": { "de": "Du schaust die Sterne an.", "fr": "Tu regardes les étoiles.", "es": "Miras las estrellas." }, "time": "9:00", "ampm": "PM" },
-        { "id": "ap-play", "activity": "You play after school.", "activityL10n": { "de": "Du spielst nach der Schule.", "fr": "Tu joues après l'école.", "es": "Juegas después de la escuela." }, "time": "4:00", "ampm": "PM" },
-        { "id": "ap-brush", "activity": "You brush your teeth before bed.", "activityL10n": { "de": "Du putzt vor dem Schlafen die Zähne.", "fr": "Tu te brosses les dents avant de dormir.", "es": "Te lavas los dientes antes de dormir." }, "time": "9:00", "ampm": "PM" }
+        { "id": "ap-breakfast", "activity": "You eat breakfast.", "activityL10n": { "de": "Du frühstückst.", "fr": "Tu prends le petit-déjeuner.", "es": "Desayunas.", "pt": "Você toma café da manhã." }, "time": "7:00", "ampm": "AM" },
+        { "id": "ap-wakeup", "activity": "You wake up.", "activityL10n": { "de": "Du wachst auf.", "fr": "Tu te réveilles.", "es": "Te despiertas.", "pt": "Você acorda." }, "time": "6:00", "ampm": "AM" },
+        { "id": "ap-school", "activity": "School starts.", "activityL10n": { "de": "Die Schule beginnt.", "fr": "L'école commence.", "es": "Entras a la escuela.", "pt": "A escola começa." }, "time": "8:00", "ampm": "AM" },
+        { "id": "ap-sunrise", "activity": "The sun comes up.", "activityL10n": { "de": "Die Sonne geht auf.", "fr": "Le soleil se lève.", "es": "Sale el sol.", "pt": "O sol nasce." }, "time": "6:00", "ampm": "AM" },
+        { "id": "ap-dinner", "activity": "You eat dinner.", "activityL10n": { "de": "Du isst zu Abend.", "fr": "Tu prends le dîner.", "es": "Cenas.", "pt": "Você janta." }, "time": "6:00", "ampm": "PM" },
+        { "id": "ap-sleep", "activity": "You go to sleep.", "activityL10n": { "de": "Du gehst schlafen.", "fr": "Tu vas dormir.", "es": "Te vas a dormir.", "pt": "Você vai dormir." }, "time": "8:00", "ampm": "PM" },
+        { "id": "ap-stars", "activity": "You look at the stars.", "activityL10n": { "de": "Du schaust die Sterne an.", "fr": "Tu regardes les étoiles.", "es": "Miras las estrellas.", "pt": "Você olha as estrelas." }, "time": "9:00", "ampm": "PM" },
+        { "id": "ap-play", "activity": "You play after school.", "activityL10n": { "de": "Du spielst nach der Schule.", "fr": "Tu joues après l'école.", "es": "Juegas después de la escuela.", "pt": "Você brinca depois da aula." }, "time": "4:00", "ampm": "PM" },
+        { "id": "ap-brush", "activity": "You brush your teeth before bed.", "activityL10n": { "de": "Du putzt vor dem Schlafen die Zähne.", "fr": "Tu te brosses les dents avant de dormir.", "es": "Te lavas los dientes antes de dormir.", "pt": "Você escova os dentes antes de dormir." }, "time": "9:00", "ampm": "PM" }
       ]
     },
     "slug": {
       "en": "am-or-pm-morning-or-night",
       "de": "tageszeiten-zuordnen-vormittags-nachmittags-klasse-1",
       "fr": "matin-ou-apres-midi-moments-de-la-journee-cp",
-      "es": "partes-del-dia-manana-tarde-y-noche-primer-grado"
+      "es": "partes-del-dia-manana-tarde-y-noche-primer-grado",
+      "pt": "partes-do-dia-manha-tarde-e-noite-1-ano"
     },
     "page_title": {
       "en": "Sprocket's Clock — A.M. or P.M.? (Grade 2)",
       "de": "Tageszeiten zuordnen – Klasse 1 | Sprockets Uhr",
       "fr": "L'horloge de Sprocket : le matin ou l'après-midi ? (CP)",
-      "es": "Partes del día: mañana, tarde y noche (1.º de primaria)"
+      "es": "Partes del día: mañana, tarde y noche (1.º de primaria)",
+      "pt": "Períodos do Dia com o Sprocket: Manhã ou Tarde? — 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 time activity: decide whether an everyday thing happens in the a.m. (morning) or p.m. (afternoon or evening). Children learn that breakfast is a.m. and dinner is p.m. — using a.m. and p.m. with the time of day. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
       "de": "Tageszeiten zuordnen üben: morgens & vormittags oder nachmittags & abends? Ordne Alltagstätigkeiten der richtigen Tageszeit zu – kostenlos & interaktiv, Klasse 1.",
       "fr": "Un jeu de maths CP, gratuit et interactif : chaque moment de la journée se passe-t-il le matin, ou l'après-midi et le soir ? Ton enfant lit ce qu'il fait — le petit-déjeuner, le dîner, les étoiles — regarde l'heure, puis touche le bon moment de la journée. Il apprend que le petit-déjeuner, c'est le matin et que le dîner, c'est le soir. Sprocket le coq l'encourage. Un jeu tout doux pour se repérer dans la journée.",
-      "es": "Actividad gratis e interactiva: los niños clasifican las actividades del día en mañana, tarde y noche y aprenden a leer la hora, sin registro, alineada a la SEP."
+      "es": "Actividad gratis e interactiva: los niños clasifican las actividades del día en mañana, tarde y noche y aprenden a leer la hora, sin registro, alineada a la SEP.",
+      "pt": "Ajude o galo Sprocket a decidir se cada coisa do dia acontece de manhã ou de tarde e à noite, olhando a hora no relógio. Grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "clock-ampm"
   }

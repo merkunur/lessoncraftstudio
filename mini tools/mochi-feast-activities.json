@@ -66,19 +66,22 @@
       "en": "feed-mochi-counting",
       "de": "genau-so-viele-abzaehlen-menge-herstellen-klasse-1",
       "fr": "compter-nourrir-mochi-le-bon-nombre-gs",
-      "es": "formar-conjuntos-poner-cantidad-exacta-preescolar"
+      "es": "formar-conjuntos-poner-cantidad-exacta-preescolar",
+      "pt": "contar-e-formar-a-quantidade-dando-guloseimas-ao-mochi-1-ano"
     },
     "page_title": {
       "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)",
       "de": "Menge herstellen: genau so viele abzählen – Klasse 1",
       "fr": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)",
-      "es": "Formar conjuntos: pon la cantidad exacta (preescolar)"
+      "es": "Formar conjuntos: pon la cantidad exacta (preescolar)",
+      "pt": "Contar e formar a quantidade certa com o Mochi | Atividade 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5.",
       "de": "Genau so viele abzählen bis 10: Füttere Mochi die richtige Anzahl Häppchen. Kostenlose, interaktive Zählübung für Klasse 1 – jetzt spielen!",
       "fr": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad gratis, interactiva y sin registro: el niño pone las golosinas una por una hasta formar la cantidad exacta que pide Mochi. Para preescolar (SEP)."
+      "es": "Actividad gratis, interactiva y sin registro: el niño pone las golosinas una por una hasta formar la cantidad exacta que pide Mochi. Para preescolar (SEP).",
+      "pt": "Ajude o Mochi: toque no prato e coloque uma guloseima de cada vez na tigela até chegar na quantidade exata pedida, e pare no número certo. Atividade grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "count-out"
   }

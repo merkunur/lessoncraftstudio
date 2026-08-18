@@ -2713,6 +2713,29 @@
         "Eu consigo perceber quando a régua começa no lugar errado e contar os centímetros que a tira cobre.",
         "Eu sei escolher uma régua comprida o bastante para medir a tira inteira."
       ]
+    },
+    "fox-forge.fraction.3-nf-a-1": {
+      "about": [
+        "Na fábrica de chocolate do Pip, cada pedido chega escrito como uma fração: um meio, três quartos, cinco sextos. O Pip, um raposo chocolateiro, conta com você para montar o pedido. Você não lê a fração e pronto — você a constrói: escolhe a peça de chocolate do tamanho certo (a peça que cabe exatamente um terço, um quarto ou um sexto na barra, sem nenhum rótulo para ler) e molda essa mesma peça na barra o número certo de vezes. Quando a barra fica completa, é só entregar o pedido ao Pip.",
+        "Por trás da brincadeira está uma ideia poderosa: a fração a/b é feita de a cópias da peça 1/b. Três quartos são três peças de um quarto, uma ao lado da outra — construído, não decorado. E as partes precisam ser iguais: quando aparece uma forma com pedaços desiguais, ela não representa uma fração de verdade, e a criança aprende a perceber isso. A fábrica também mostra que a mesma fração de um todo maior é mais chocolate (a metade de uma barra grande vale mais que a metade de uma pequena) e que a mesma parte pode ter aparências diferentes — um meio numa barra de chocolate e um meio numa pizza são a mesma quantia, em formatos diferentes.",
+        "A atividade é totalmente grátis, sem cadastro, sem cronômetro, sem pontuação e sem competição — cada criança monta os pedidos no seu próprio ritmo, com tom acolhedor e sem pressa. O conteúdo está alinhado à BNCC, na unidade temática Números, trabalhando as primeiras noções de frações de forma concreta e visual."
+      ],
+      "practices": [
+        "Reconhecer e nomear frações unitárias — um meio, um terço, um quarto — como uma parte de um todo dividido em partes iguais.",
+        "Construir a fração a/b como a cópias da peça 1/b, montando a quantidade peça por peça em vez de apenas ler o símbolo.",
+        "Observar se as partes de um todo são realmente iguais, distinguindo uma fração verdadeira de uma forma com pedaços desiguais.",
+        "Compreender que a mesma fração de um todo maior representa mais chocolate, e que uma mesma parte (como um meio) pode aparecer em formatos diferentes — na barra e na pizza."
+      ],
+      "howToPlay": [
+        "Olhe o pedido do Pip e escolha a peça de chocolate do tamanho certo — a peça que cabe exatamente uma vez em cada parte igual da barra.",
+        "Molde essa peça na barra o número certo de vezes, até a fração ficar completa (três quartos = três peças de um quarto).",
+        "Entregue o pedido pronto ao Pip e siga para o próximo — cada rodada traz uma fração diferente."
+      ],
+      "learningGoals": [
+        "Eu consigo montar uma fração juntando cópias da mesma peça igual, como três peças de um quarto para formar três quartos.",
+        "Eu sei que as partes de uma fração precisam ser iguais, e reconheço quando um pedaço está desigual.",
+        "Eu entendo que a mesma fração de um todo maior é mais chocolate, e que um meio pode aparecer numa barra ou numa pizza sendo a mesma quantia."
+      ]
     }
   }
 }

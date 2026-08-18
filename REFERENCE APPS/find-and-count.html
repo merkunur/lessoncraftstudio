@@ -11,9 +11,10 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Spy Worksheet Generator</title>
-    <script src="js/translations-find-and-count-complete.js?v=runtime-title-1"></script>
+    <script src="js/translations-find-and-count-complete.js?v=runtime-title-2"></script>
     <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
+    <script src="js/lcs-grammar.js?v=1"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
     <script src="js/border-background-sizer.js"></script>
@@ -1155,6 +1156,36 @@
             return translation;
         }
         window.t = t;
+
+        // v19.4.0 — grammar-safe Find-and-Count instruction builder.
+        // Resolves every noun through the verified vocabulary
+        // (IMAGE_VOCABULARY singular/plural/gender) and assembles the
+        // sentence via LCSGrammar (js/lcs-grammar.js). Returns null when ANY
+        // noun cannot be verified — the caller then uses the static generic
+        // fallback instruction. The legacy suffix-guessing pluralizer is
+        // gone from this path (operator mandate 2026-08-18: grammatically
+        // incorrect instructions must be structurally impossible).
+        function lcsBuildFacInstruction(taskType, imageObjects, locale) {
+            if (typeof LCSGrammar === 'undefined' || typeof ImageVocab === 'undefined'
+                || typeof IMAGE_VOCABULARY === 'undefined') return null;
+            const nouns = [];
+            for (const img of (imageObjects || [])) {
+                const key = (img && img.path) ? ImageVocab.keyFromPath(img.path) : null;
+                const entry = key ? IMAGE_VOCABULARY[key] : null;
+                const forms = entry ? entry[locale] : null;
+                if (!forms || !forms[1]) return null;
+                // Non-noun gate: the 2026-07 vocab arc stripped gender codes
+                // from qualities/activities — a de entry WITHOUT a gender
+                // code is not a noun ("Teilweise bewölkt") and must never be
+                // slotted into an instruction in ANY locale.
+                if (!entry.de || !entry.de[2]) return null;
+                nouns.push({ key: key, plural: forms[1], gender: forms[2] || null });
+            }
+            if (!nouns.length) return null;
+            return LCSGrammar.findCountInstruction(locale, taskType, nouns);
+        }
+        // Test seam for the grammar harness (pure; no canvas needed).
+        window.__lcsBuildFacInstruction = lcsBuildFacInstruction;
     </script>
 </head>
 <body>
@@ -3329,14 +3360,14 @@ document.addEventListener("DOMContentLoaded", function() {
         const defaultHeaders = {
             en: { title: 'I Spy', description: 'Count the objects and write the number!' },
             de: { title: 'Ich sehe was', description: 'Z\u00e4hle die Objekte und schreibe die Zahl!' },
-            fr: { title: 'Je vois, je vois', description: 'Compte les objets et \u00e9cris le nombre!' },
-            es: { title: 'Veo Veo', description: '\u00a1Cuenta los objetos y escribe el n\u00famero!' },
-            it: { title: 'Vedo Vedo', description: 'Conta gli oggetti e scrivi il numero!' },
-            pt: { title: 'Vejo, Vejo', description: 'Conta os objetos e escreve o n\u00famero!' },
-            nl: { title: 'Ik zie, ik zie', description: 'Tel de objecten en schrijf het getal!' },
-            sv: { title: 'Jag ser, jag ser', description: 'R\u00e4kna objekten och skriv numret!' },
-            da: { title: 'Jeg ser, jeg ser', description: 'T\u00e6l objekterne og skriv tallet!' },
-            no: { title: 'Jeg ser, jeg ser', description: 'Tell objektene og skriv tallet!' },
+            fr: { title: 'Je vois, je vois', description: 'Compte les objets et \u00e9cris le nombre !' },
+            es: { title: 'Veo, veo', description: '\u00a1Cuenta los objetos y escribe el n\u00famero!' },
+            it: { title: 'Vedo vedo', description: 'Conta gli oggetti e scrivi il numero!' },
+            pt: { title: 'Vejo, Vejo', description: 'Conte os objetos e escreva o n\u00famero!' },
+            nl: { title: 'Ik zie, ik zie', description: 'Tel de voorwerpen en schrijf het getal!' },
+            sv: { title: 'Jag ser, jag ser', description: 'R\u00e4kna f\u00f6rem\u00e5len och skriv antalet!' },
+            da: { title: 'Jeg ser, jeg ser', description: 'T\u00e6l tingene og skriv tallet!' },
+            no: { title: 'Jeg ser, jeg ser', description: 'Tell gjenstandene og skriv tallet!' },
             fi: { title: 'Min\u00e4 n\u00e4en', description: 'Laske esineet ja kirjoita numero!' }
         };
 
@@ -3576,225 +3607,15 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }
 
-        // Pluralization function for grammatically correct questions
-        const pluralize = (word, locale) => {
-            if (!word) return word;
-            const lowerWord = word.toLowerCase();
-
-            // Common irregular plurals across languages (already plural or special)
-            const alreadyPlural = ['scissors', 'glasses', 'pants', 'trousers', 'jeans', 'shorts', 'clothes',
-                                   'sheep', 'fish', 'deer', 'moose', 'bison', 'salmon', 'trout',
-                                   'scissors', 'binoculars', 'pliers', 'tweezers'];
-            if (alreadyPlural.includes(lowerWord)) {
-                return word; // Already plural or invariant
-            }
-
-            if (locale === 'en') {
-                // English irregular plurals
-                const irregulars = {
-                    'child': 'children', 'person': 'people', 'man': 'men', 'woman': 'women',
-                    'tooth': 'teeth', 'foot': 'feet', 'mouse': 'mice', 'goose': 'geese',
-                    'knife': 'knives', 'wife': 'wives', 'life': 'lives', 'leaf': 'leaves',
-                    'wolf': 'wolves', 'half': 'halves', 'loaf': 'loaves', 'shelf': 'shelves',
-                    'calf': 'calves', 'self': 'selves', 'elf': 'elves', 'thief': 'thieves'
-                };
-
-                if (irregulars[lowerWord]) {
-                    return word.charAt(0) === word.charAt(0).toUpperCase() ?
-                           irregulars[lowerWord].charAt(0).toUpperCase() + irregulars[lowerWord].slice(1) :
-                           irregulars[lowerWord];
-                }
-
-                // English regular pluralization rules
-                if (lowerWord.endsWith('y') && !/[aeiou]y$/.test(lowerWord)) {
-                    return word.slice(0, -1) + 'ies'; // baby -> babies
-                }
-                if (lowerWord.endsWith('s') || lowerWord.endsWith('ss') || lowerWord.endsWith('x') ||
-                    lowerWord.endsWith('ch') || lowerWord.endsWith('sh') || lowerWord.endsWith('z')) {
-                    return word + 'es'; // box -> boxes, brush -> brushes
-                }
-                if (lowerWord.endsWith('o') && !/[aeiou]o$/.test(lowerWord)) {
-                    return word + 'es'; // tomato -> tomatoes
-                }
-                return word + 's'; // Default: add 's'
-            }
-
-            if (locale === 'de') {
-                // German: Most nouns add 'n', 'en', 'e', or 's', but we'll use a simple approach
-                // For simplicity, we'll just add 'n' or 's' based on ending
-                if (lowerWord.endsWith('e')) {
-                    return word + 'n'; // Katze -> Katzen
-                }
-                if (lowerWord.endsWith('el') || lowerWord.endsWith('er')) {
-                    return word; // Often unchanged: Löffel -> Löffel
-                }
-                return word + 'e'; // Default: add 'e' (Hund -> Hunde)
-            }
-
-            if (locale === 'fr') {
-                // French: Generally add 's', except for words ending in 'eau', 'au', 'eu' (add 'x')
-                if (lowerWord.endsWith('eau') || lowerWord.endsWith('au') || lowerWord.endsWith('eu')) {
-                    return word + 'x'; // oiseau -> oiseaux
-                }
-                if (lowerWord.endsWith('al')) {
-                    return word.slice(0, -2) + 'aux'; // animal -> animaux
-                }
-                if (lowerWord.endsWith('s') || lowerWord.endsWith('x') || lowerWord.endsWith('z')) {
-                    return word; // Already plural or invariant
-                }
-                return word + 's'; // Default: add 's'
-            }
-
-            if (locale === 'es' || locale === 'pt') {
-                // Spanish & Portuguese: Add 's' or 'es'
-                if (lowerWord.endsWith('z')) {
-                    return word.slice(0, -1) + 'ces'; // pez -> peces, luz -> luces
-                }
-                if (/[aeiou]$/.test(lowerWord)) {
-                    return word + 's'; // gato -> gatos
-                }
-                return word + 'es'; // león -> leones
-            }
-
-            if (locale === 'it') {
-                // Italian: Change ending vowel based on gender
-                if (lowerWord.endsWith('o')) {
-                    return word.slice(0, -1) + 'i'; // gatto -> gatti
-                }
-                if (lowerWord.endsWith('a')) {
-                    return word.slice(0, -1) + 'e'; // casa -> case
-                }
-                if (lowerWord.endsWith('e')) {
-                    return word.slice(0, -1) + 'i'; // cane -> cani
-                }
-                return word + 's'; // Default fallback
-            }
-
-            if (locale === 'nl') {
-                // Dutch: Add 'en' or 's'
-                if (lowerWord.endsWith('e')) {
-                    return word + 'n'; // kat -> katten
-                }
-                return word + 'en'; // hond -> honden
-            }
-
-            if (locale === 'sv' || locale === 'da' || locale === 'no') {
-                // Swedish, Danish, Norwegian: Often add 'er', 'ar', or 'or'
-                // Simplified: add 'er' for most
-                if (lowerWord.endsWith('e')) {
-                    return word + 'r'; // katte -> katter
-                }
-                return word + 'er'; // Default: add 'er'
-            }
-
-            if (locale === 'fi') {
-                // Finnish: Add 't' to nominative plural (simplified)
-                if (lowerWord.endsWith('i')) {
-                    return word + 't'; // kissa -> kissat
-                }
-                return word + 't'; // Default: add 't'
-            }
-
-            // Fallback: add 's' for unhandled cases
-            return word + 's';
-        };
-
-        // Task-specific instruction builder (kept for dynamic instructions)
-        const getTaskInstruction = (type, imageObjects) => {
-            // Extract vocabulary keys and get correct plurals via ImageVocab
-            const keys = imageObjects.map(img => {
-                if (typeof ImageVocab !== 'undefined' && img.path) {
-                    return ImageVocab.keyFromPath(img.path);
-                }
-                return null;
-            });
-            const pluralizedItems = imageObjects.map((img, i) => {
-                const displayName = img.name || img.word;
-                if (typeof ImageVocab !== 'undefined' && keys[i]) {
-                    return ImageVocab.plural(keys[i], currentLocale) || pluralize(displayName, currentLocale);
-                }
-                return pluralize(displayName, currentLocale);
-            });
-            const itemsList = pluralizedItems.join(', ');
-
-            // Get gender-aware quantifier for FR/ES/PT/IT
-            const validKeys = keys.filter(k => k);
-            const q_fr = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'fr') : 'tous les';
-            const q_es = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'es') : 'todos los';
-            const q_pt = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'pt') : 'todos os';
-            const q_it = typeof ImageVocab !== 'undefined' ? ImageVocab.pluralQuantifier(validKeys, 'it') : 'tutti i';
-
-            const instructions = {
-                en: {
-                    circle: `Circle all the ${itemsList}`,
-                    square: `Put a square around all the ${itemsList}`,
-                    cross: `Cross out all the ${itemsList}`,
-                    count: `Count all the ${itemsList}`
-                },
-                de: {
-                    circle: `Kreise alle ${itemsList} ein`,
-                    square: `Zeichne ein Quadrat um alle ${itemsList}`,
-                    cross: `Streiche alle ${itemsList} durch`,
-                    count: `Zähle alle ${itemsList}`
-                },
-                fr: {
-                    circle: `Entoure ${q_fr} ${itemsList}`,
-                    square: `Mets un carré autour de ${q_fr} ${itemsList}`,
-                    cross: `Barre ${q_fr} ${itemsList}`,
-                    count: `Compte ${q_fr} ${itemsList}`
-                },
-                es: {
-                    circle: `Circula ${q_es} ${itemsList}`,
-                    square: `Pon un cuadrado alrededor de ${q_es} ${itemsList}`,
-                    cross: `Tacha ${q_es} ${itemsList}`,
-                    count: `Cuenta ${q_es} ${itemsList}`
-                },
-                pt: {
-                    circle: `Circule ${q_pt} ${itemsList}`,
-                    square: `Coloque um quadrado em volta de ${q_pt} ${itemsList}`,
-                    cross: `Risque ${q_pt} ${itemsList}`,
-                    count: `Conte ${q_pt} ${itemsList}`
-                },
-                it: {
-                    circle: `Cerchia ${q_it} ${itemsList}`,
-                    square: `Metti un quadrato intorno a ${q_it} ${itemsList}`,
-                    cross: `Barra ${q_it} ${itemsList}`,
-                    count: `Conta ${q_it} ${itemsList}`
-                },
-                nl: {
-                    circle: `Omcirkel alle ${itemsList}`,
-                    square: `Zet een vierkant om alle ${itemsList}`,
-                    cross: `Streep alle ${itemsList} door`,
-                    count: `Tel alle ${itemsList}`
-                },
-                sv: {
-                    circle: `Ringa in alla ${itemsList}`,
-                    square: `Sätt en kvadrat runt alla ${itemsList}`,
-                    cross: `Stryk över alla ${itemsList}`,
-                    count: `Räkna alla ${itemsList}`
-                },
-                da: {
-                    circle: `Sæt ring om alle ${itemsList}`,
-                    square: `Sæt en firkant omkring alle ${itemsList}`,
-                    cross: `Streg alle ${itemsList} over`,
-                    count: `Tæl alle ${itemsList}`
-                },
-                no: {
-                    circle: `Sett ring rundt alle ${itemsList}`,
-                    square: `Sett en firkant rundt alle ${itemsList}`,
-                    cross: `Stryk over alle ${itemsList}`,
-                    count: `Tell alle ${itemsList}`
-                },
-                fi: {
-                    circle: `Ympyröi kaikki ${itemsList}`,
-                    square: `Piirrä neliö kaikkien ${itemsList} ympärille`,
-                    cross: `Yliviivaa kaikki ${itemsList}`,
-                    count: `Laske kaikki ${itemsList}`
-                }
-            };
-            const langInstructions = instructions[currentLocale] || instructions.en;
-            return langInstructions[type] || '';
-        };
+        // Task-specific instruction builder — v19.4.0: delegates to the
+        // grammar-safe lcsBuildFacInstruction (head script + js/lcs-grammar.js).
+        // A noun either resolves through the verified vocabulary or the whole
+        // instruction falls back to the static generic line below — the old
+        // pluralize() suffix-guesser and the single-quantifier templates were
+        // REMOVED (title-case leak, tutti i/gli, mixed-gender agreement,
+        // Finnish genitive, list conjunction — all now in LCSGrammar).
+        const getTaskInstruction = (type, imageObjects) =>
+            lcsBuildFacInstruction(type, imageObjects, currentLocale);
 
         // Generate instruction text
         let finalInstructionText;
@@ -3806,7 +3627,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 de: 'Finde alle Bilder, die mit dem Buchstaben {letter} beginnen.',
                 fr: 'Trouve toutes les images qui commencent par la lettre {letter}.',
                 es: 'Encuentra todas las im\u00e1genes que empiezan con la letra {letter}.',
-                pt: 'Encontra todas as imagens que come\u00e7am com a letra {letter}.',
+                pt: 'Encontre todas as imagens que come\u00e7am com a letra {letter}.',
                 it: 'Trova tutte le immagini che iniziano con la lettera {letter}.',
                 nl: 'Zoek alle plaatjes die beginnen met de letter {letter}.',
                 sv: 'Hitta alla bilder som b\u00f6rjar med bokstaven {letter}.',
@@ -3826,22 +3647,31 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 taskTypes[q.type].push(q);
             });
+            // v19.4.0 — ALL-OR-NOTHING: if any task type's nouns cannot be
+            // verified, the whole instruction falls back to the generic
+            // line (silently dropping one task's sentence would print a
+            // worksheet whose instruction no longer matches its tasks).
+            let anyInstructionFailed = false;
             for (const [type, items] of Object.entries(taskTypes)) {
                 const instruction = getTaskInstruction(type, items);
                 if (instruction) {
                     instructionTexts.push(instruction);
+                } else {
+                    anyInstructionFailed = true;
                 }
             }
-            const instructionText = instructionTexts.join('. ') + (instructionTexts.length > 0 ? '.' : '');
+            const instructionText = anyInstructionFailed
+                ? ''
+                : instructionTexts.join('. ') + (instructionTexts.length > 0 ? '.' : '');
             const defaultInstruction = currentLocale === 'de' ? 'Finde die versteckten Objekte im Bild unten:' :
-                                      currentLocale === 'fr' ? 'Trouve les objets cach\u00e9s dans l\'image ci-dessous:' :
+                                      currentLocale === 'fr' ? 'Trouve les objets cach\u00e9s dans l\'image ci-dessous :' :
                                       currentLocale === 'es' ? 'Encuentra los objetos ocultos en la imagen de abajo:' :
                                       currentLocale === 'pt' ? 'Encontre os objetos escondidos na imagem abaixo:' :
                                       currentLocale === 'it' ? 'Trova gli oggetti nascosti nell\'immagine qui sotto:' :
-                                      currentLocale === 'nl' ? 'Vind de verborgen objecten in de afbeelding hieronder:' :
-                                      currentLocale === 'sv' ? 'Hitta de dolda objekten i bilden nedan:' :
-                                      currentLocale === 'da' ? 'Find de skjulte objekter i billedet nedenfor:' :
-                                      currentLocale === 'no' ? 'Finn de skjulte objektene i bildet nedenfor:' :
+                                      currentLocale === 'nl' ? 'Zoek de verborgen voorwerpen in de afbeelding hieronder:' :
+                                      currentLocale === 'sv' ? 'Hitta de dolda föremålen i bilden nedan:' :
+                                      currentLocale === 'da' ? 'Find de skjulte ting i billedet nedenfor:' :
+                                      currentLocale === 'no' ? 'Finn de skjulte gjenstandene i bildet nedenfor:' :
                                       currentLocale === 'fi' ? 'Etsi piilotetut esineet alla olevasta kuvasta:' :
                                       'Find the hidden objects in the picture below:';
             finalInstructionText = instructionText || defaultInstruction;
@@ -4777,18 +4607,16 @@ async function downloadPDF(canvasToExport, filename, opts) {
             doAnother: _rt("runtimeDoAnother", "Do Another"),
             youDidIt: _rt("runtimeYouDidIt", "All correct!"),
             correct: _rt("runtimeCorrect", "correct"),
-            legendTitle: _rt("runtimeLegendTitle", "Find these and count"),
-            howMany: _rt("runtimeHowMany", "How many?"),
-            howManyOf: _rt("runtimeHowManyOf", "How many {word}?"),
-            circleTask: _rt("runtimeCircleTask", "Circle the {word}"),
-            squareTask: _rt("runtimeSquareTask", "Put a square around the {word}"),
-            crossTask: _rt("runtimeCrossTask", "Cross out the {word}"),
-            countTask: _rt("runtimeCountTask", "Count the {word}"),
+            // v19.4.0 — the legendTitle/howManyOf/*Task keys were REMOVED:
+            // they shipped verbatim English into every non-en bundle and the
+            // runtime never consumed them (dead strings). The one live
+            // per-target string ("How many X?") is now BAKED per target
+            // (targets[].ariaHowMany) via LCSGrammar at export time.
             score: _rt("runtimeScore", "{n} of {total} correct"),
             allCorrect: _rt("runtimeAllCorrect", "All correct!")
         };
         return {
-            bundleVersion: '19.3.0',
+            bundleVersion: '19.4.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             appType: 'find-and-count',
@@ -4801,9 +4629,31 @@ async function downloadPDF(canvasToExport, filename, opts) {
             gridRect: gridRect,
             gridDims: { rows: rows, cols: cols, cellSize: cellSize, cellGap: cellGap },
             targets: targets.map(function (t) {
+                // v19.4.0 — bake the localized "How many X?" question at
+                // export time (grammar lives HERE, where the vocabulary +
+                // LCSGrammar exist; the deck runtime only displays it).
+                // Unresolvable noun → localized noun-free "How many?" —
+                // never an English or suffix-guessed form.
+                var vocabKey = null;
+                if (typeof IMAGE_VOCABULARY !== 'undefined') {
+                    if (t.key && IMAGE_VOCABULARY[t.key]) vocabKey = t.key;
+                    else if (t.canonicalKey && IMAGE_VOCABULARY[t.canonicalKey]) vocabKey = t.canonicalKey;
+                }
+                var entryV = vocabKey ? IMAGE_VOCABULARY[vocabKey] : null;
+                // same non-noun gate as lcsBuildFacInstruction (de-gender tell)
+                var forms = (entryV && entryV.de && entryV.de[2]) ? entryV[contentLang] : null;
+                var localizedPlural = (forms && forms[1]) || null;
+                var ariaHowMany = null;
+                if (typeof LCSGrammar !== 'undefined') {
+                    ariaHowMany = (localizedPlural
+                        ? LCSGrammar.howManyQuestion(contentLang, { plural: localizedPlural, gender: (forms && forms[2]) || null })
+                        : null) || LCSGrammar.howManyShort(contentLang);
+                }
                 return {
                     key: t.key,
                     word: t.word,
+                    localizedPlural: localizedPlural,
+                    ariaHowMany: ariaHowMany,
                     theme: t.theme,
                     canonicalKey: t.canonicalKey,
                     path: t.path,
@@ -4913,13 +4763,13 @@ async function downloadPDF(canvasToExport, filename, opts) {
     var INTERACTIVE_RUNTIME_LINES = [
         '(function(){',
         '  "use strict";',
-        '  var STRINGS_ALL = {"en":{"title":"Find and Count","check":"Check Answers","tryAgain":"Try Again","mute":"Mute sounds","unmute":"Turn sounds on","printMyWorksheet":"Print my worksheet","doAnother":"Do Another","youDidIt":"You did it!","correct":"correct","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} of {total} correct","allCorrect":"All correct!"},"de":{"title":"Suchen und Zählen","check":"Antworten prüfen","tryAgain":"Erneut versuchen","mute":"Töne stummschalten","unmute":"Töne einschalten","printMyWorksheet":"Mein Arbeitsblatt drucken","doAnother":"Noch eins","youDidIt":"Geschafft!","correct":"richtig","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} von {total} richtig","allCorrect":"Alles richtig!"},"es":{"title":"Encuentra y Cuenta","check":"Comprobar respuestas","tryAgain":"Intentar de nuevo","mute":"Silenciar sonidos","unmute":"Activar sonidos","printMyWorksheet":"Imprimir mi hoja","doAnother":"Hacer otra","youDidIt":"¡Lo lograste!","correct":"correctas","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} de {total} correctas","allCorrect":"¡Todo correcto!"},"nl":{"title":"Zoeken en Tellen","check":"Antwoorden controleren","tryAgain":"Opnieuw proberen","mute":"Geluid uit","unmute":"Geluid aan","printMyWorksheet":"Mijn werkblad printen","doAnother":"Nog een","youDidIt":"Gelukt!","correct":"goed","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} van {total} goed","allCorrect":"Alles goed!"},"fr":{"title":"Trouve et Compte","check":"Vérifier les réponses","tryAgain":"Réessayer","mute":"Couper le son","unmute":"Activer le son","printMyWorksheet":"Imprimer ma fiche","doAnother":"Faire une autre","youDidIt":"Bravo !","correct":"correct","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} sur {total} correct","allCorrect":"Tout est correct !"},"it":{"title":"Trova e Conta","check":"Controlla risposte","tryAgain":"Riprova","mute":"Silenzia suoni","unmute":"Attiva suoni","printMyWorksheet":"Stampa la mia scheda","doAnother":"Fai un\'altra","youDidIt":"Bravo!","correct":"corretto","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} su {total} corretto","allCorrect":"Tutto corretto!"},"pt":{"title":"Encontre e Conte","check":"Verificar respostas","tryAgain":"Tentar de novo","mute":"Silenciar sons","unmute":"Ativar sons","printMyWorksheet":"Imprimir minha atividade","doAnother":"Fazer outra","youDidIt":"Você conseguiu!","correct":"correto","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} de {total} correto","allCorrect":"Tudo correto!"},"sv":{"title":"Hitta och Räkna","check":"Kontrollera svar","tryAgain":"Försök igen","mute":"Stäng av ljud","unmute":"Slå på ljud","printMyWorksheet":"Skriv ut mitt arbetsblad","doAnother":"Gör en till","youDidIt":"Du klarade det!","correct":"rätt","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} av {total} rätt","allCorrect":"Allt rätt!"},"da":{"title":"Find og Tæl","check":"Kontroller svar","tryAgain":"Prøv igen","mute":"Slå lyd fra","unmute":"Slå lyd til","printMyWorksheet":"Udskriv mit arbejdsark","doAnother":"Lav en til","youDidIt":"Du klarede det!","correct":"rigtigt","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} ud af {total} rigtigt","allCorrect":"Alt rigtigt!"},"no":{"title":"Finn og Tell","check":"Sjekk svar","tryAgain":"Prøv igjen","mute":"Slå av lyd","unmute":"Slå på lyd","printMyWorksheet":"Skriv ut arbeidsarket","doAnother":"Gjør en til","youDidIt":"Du klarte det!","correct":"riktig","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n} av {total} riktig","allCorrect":"Alt riktig!"},"fi":{"title":"Etsi ja Laske","check":"Tarkista vastaukset","tryAgain":"Yritä uudelleen","mute":"Mykistä äänet","unmute":"Avaa äänet","printMyWorksheet":"Tulosta työarkkini","doAnother":"Tee toinen","youDidIt":"Sinä teit sen!","correct":"oikein","legendTitle":"Find these and count","howMany":"How many?","howManyOf":"How many {word}?","circleTask":"Circle the {word}","squareTask":"Put a square around the {word}","crossTask":"Cross out the {word}","countTask":"Count the {word}","score":"{n}/{total} oikein","allCorrect":"Kaikki oikein!"}};',
+        '  var STRINGS_ALL = {"en":{"title":"Find and Count","check":"Check Answers","tryAgain":"Try Again","mute":"Mute sounds","unmute":"Turn sounds on","printMyWorksheet":"Print my worksheet","doAnother":"Do Another","youDidIt":"You did it!","correct":"correct","howMany":"How many?","score":"{n} of {total} correct","allCorrect":"All correct!"},"de":{"title":"Suchen und Zählen","check":"Antworten prüfen","tryAgain":"Erneut versuchen","mute":"Töne stummschalten","unmute":"Töne einschalten","printMyWorksheet":"Mein Arbeitsblatt drucken","doAnother":"Noch eins","youDidIt":"Geschafft!","correct":"richtig","howMany":"Wie viele?","score":"{n} von {total} richtig","allCorrect":"Alles richtig!"},"es":{"title":"Encuentra y cuenta","check":"Comprobar respuestas","tryAgain":"Intentar de nuevo","mute":"Silenciar sonidos","unmute":"Activar sonidos","printMyWorksheet":"Imprimir mi hoja","doAnother":"Hacer otra","youDidIt":"¡Lo lograste!","correct":"correctas","howMany":"¿Cuántos?","score":"{n} de {total} correctas","allCorrect":"¡Todo correcto!"},"nl":{"title":"Zoeken en Tellen","check":"Antwoorden controleren","tryAgain":"Opnieuw proberen","mute":"Geluid uit","unmute":"Geluid aan","printMyWorksheet":"Mijn werkblad printen","doAnother":"Nog een","youDidIt":"Gelukt!","correct":"goed","howMany":"Hoeveel?","score":"{n} van {total} goed","allCorrect":"Allemaal goed!"},"fr":{"title":"Trouve et compte","check":"Vérifier les réponses","tryAgain":"Réessayer","mute":"Couper le son","unmute":"Activer le son","printMyWorksheet":"Imprimer ma fiche","doAnother":"Faire une autre","youDidIt":"Bravo !","correct":"correctes","howMany":"Combien ?","score":"Bonnes réponses : {n} sur {total}","allCorrect":"Tout est correct !"},"it":{"title":"Trova e conta","check":"Controlla le risposte","tryAgain":"Riprova","mute":"Silenzia i suoni","unmute":"Attiva i suoni","printMyWorksheet":"Stampa la mia scheda","doAnother":"Fai un\'altra","youDidIt":"Ce l\'hai fatta!","correct":"corrette","howMany":"Quanti?","score":"{n} su {total} corrette","allCorrect":"Tutto corretto!"},"pt":{"title":"Encontre e Conte","check":"Verificar respostas","tryAgain":"Tentar de novo","mute":"Silenciar sons","unmute":"Ativar sons","printMyWorksheet":"Imprimir minha atividade","doAnother":"Fazer outra","youDidIt":"Você conseguiu!","correct":"corretas","howMany":"Quantos?","score":"{n} de {total} corretas","allCorrect":"Tudo correto!"},"sv":{"title":"Hitta och räkna","check":"Kontrollera svar","tryAgain":"Försök igen","mute":"Stäng av ljud","unmute":"Slå på ljud","printMyWorksheet":"Skriv ut mitt arbetsblad","doAnother":"Gör en till","youDidIt":"Du klarade det!","correct":"rätt","howMany":"Hur många?","score":"{n} av {total} rätt","allCorrect":"Allt rätt!"},"da":{"title":"Find og Tæl","check":"Kontroller svar","tryAgain":"Prøv igen","mute":"Slå lyd fra","unmute":"Slå lyd til","printMyWorksheet":"Udskriv mit arbejdsark","doAnother":"Lav et til","youDidIt":"Du klarede det!","correct":"rigtigt","howMany":"Hvor mange?","score":"{n} ud af {total} rigtigt","allCorrect":"Alt rigtigt!"},"no":{"title":"Finn og tell","check":"Sjekk svar","tryAgain":"Prøv igjen","mute":"Slå av lyd","unmute":"Slå på lyd","printMyWorksheet":"Skriv ut arbeidsarket","doAnother":"Gjør en til","youDidIt":"Du klarte det!","correct":"riktig","howMany":"Hvor mange?","score":"{n} av {total} riktig","allCorrect":"Alt riktig!"},"fi":{"title":"Etsi ja laske","check":"Tarkista vastaukset","tryAgain":"Yritä uudelleen","mute":"Mykistä äänet","unmute":"Laita äänet päälle","printMyWorksheet":"Tulosta tehtäväsivuni","doAnother":"Tee toinen","youDidIt":"Sinä teit sen!","correct":"oikein","howMany":"Kuinka monta?","score":"{n}/{total} oikein","allCorrect":"Kaikki oikein!"}};',
         '  var STRINGS = STRINGS_ALL[((DECK_BUNDLE && DECK_BUNDLE.contentLanguage) || "en").slice(0,2)] || STRINGS_ALL.en;',
         '  function T(k){return STRINGS[k]||STRINGS_ALL.en[k]||k}',
         '  function fmt(s,vars){return s.replace(/\\{(\\w+)\\}/g,function(_,k){return vars[k]==null?"":String(vars[k])})}',
         '',
         '  // Targets: keyed lookups for legend updates and per-cell hit detection.',
-        '  var targets=(DECK_BUNDLE.targets||[]).map(function(t){return {key:t.key,word:t.word,theme:t.theme,canonicalKey:t.canonicalKey,path:t.path,taskType:t.taskType,totalCount:t.totalCount}});',
+        '  var targets=(DECK_BUNDLE.targets||[]).map(function(t){return {key:t.key,word:t.word,ariaHowMany:t.ariaHowMany||null,localizedPlural:t.localizedPlural||null,theme:t.theme,canonicalKey:t.canonicalKey,path:t.path,taskType:t.taskType,totalCount:t.totalCount}});',
         '  var _byKey={};targets.forEach(function(t){_byKey[t.key]=t});',
         '  function byKey(k){return _byKey[k]||null}',
         '',
@@ -5039,7 +4889,10 @@ async function downloadPDF(canvasToExport, filename, opts) {
         '      input.inputMode="numeric";input.autocomplete="off";',
         '      input.className="lcs-input";',
         '      input.setAttribute("data-input-for",slot.key);',
-        '      input.setAttribute("aria-label",fmt(T("howManyOf"),{word:t.word||t.key}));',
+        '      // v19.4.0 — baked localized question (export-time grammar);',
+        '      // fallback is the localized noun-free "How many?" — never an',
+        '      // English template around a raw catalog word.',
+        '      input.setAttribute("aria-label",t.ariaHowMany||T("howMany"));',
         '      input.addEventListener("input",function(){updateCheckButton()});',
         '      input.addEventListener("keydown",function(e){if(e.key==="Enter"&&checkBtn&&!checkBtn.disabled)checkAll();});',
         '      wrap.appendChild(input);',
@@ -5289,41 +5142,40 @@ async function downloadPDF(canvasToExport, filename, opts) {
             ? LCSCatalogExport.buildDeckEndSuggestionsPlaceholder({ locale: lang, title: bundle.title || '' })
             : '';
 
-        // Per-row sr-only — find-and-count. 4 keys per taskType.
-        var srCircleTpl = (typeof t === 'function' && t('srExerciseFindAndCountCircle'))
-            || 'Question {n}: Circle every {word} in the picture.';
-        var srSquareTpl = (typeof t === 'function' && t('srExerciseFindAndCountSquare'))
-            || 'Question {n}: Draw a square around every {word} in the picture.';
-        var srCrossTpl = (typeof t === 'function' && t('srExerciseFindAndCountCross'))
-            || 'Question {n}: Cross out every {word} in the picture.';
-        var srCountTpl = (typeof t === 'function' && t('srExerciseFindAndCountCount'))
-            || 'Question {n}: Count every {word} in the picture and write the total.';
+        // v19.4.0 per-row sr-only — content-locale-direct (§17.8.14, §A.13.46):
+        // rows come from the SAME LCSGrammar instruction engine that prints
+        // the worksheet, with the noun (plural + gender) from the verified
+        // vocabulary in srLang — never per-app t() (uiLocale-bound, was
+        // en/de-only) and never a bare singular under an "every"-template.
+        // Defensive-skip (§17.8.11): unresolvable noun → no row at all.
+        var SR_Q_PREFIX = {
+            en: 'Question {n}:', de: 'Aufgabe {n}:', fr: 'Question {n} :',
+            es: 'Pregunta {n}:', pt: 'Questão {n}:', it: 'Domanda {n}:',
+            nl: 'Vraag {n}:', sv: 'Fråga {n}:', da: 'Spørgsmål {n}:',
+            no: 'Oppgave {n}:', fi: 'Tehtävä {n}:'
+        };
         var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
             || 'Worksheet questions';
         var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
-        function _facWord(target) {
-            if (!target) return '';
-            // target.key is the lowercased cell.word (vocab-stable);
-            // canonicalKey is path-derived and can be null when path
-            // parsing fails. Prefer target.key for ImageVocab lookup.
-            if (target.key && window.ImageVocab) {
-                var name = ImageVocab.singular(target.key, srLang);
-                if (name) return name;
-            }
-            return target.word || target.key || '';
+        function _facNoun(target) {
+            if (!target || typeof IMAGE_VOCABULARY === 'undefined') return null;
+            var entry = (target.key && IMAGE_VOCABULARY[target.key])
+                || (target.canonicalKey && IMAGE_VOCABULARY[target.canonicalKey]) || null;
+            if (!entry || !entry.de || !entry.de[2]) return null; // non-noun gate
+            var forms = entry[srLang];
+            if (!forms || !forms[1]) return null;
+            var key = (target.key && IMAGE_VOCABULARY[target.key]) ? target.key : target.canonicalKey;
+            return { key: key, plural: forms[1], gender: forms[2] || null };
         }
         var targetsForSr = Array.isArray(bundle.targets) ? bundle.targets : [];
         var srRows = targetsForSr.map(function (target, i) {
-            var n = i + 1;
-            var word = _facWord(target);
-            var taskType = (target && target.taskType) || 'circle';
-            var tpl;
-            if (taskType === 'square') tpl = srSquareTpl;
-            else if (taskType === 'cross') tpl = srCrossTpl;
-            else if (taskType === 'count') tpl = srCountTpl;
-            else tpl = srCircleTpl;
-            return tpl.replace('{n}', n).replace('{word}', word);
-        });
+            var noun = _facNoun(target);
+            var inst = (noun && window.LCSGrammar)
+                ? LCSGrammar.findCountInstruction(srLang, (target && target.taskType) || 'circle', [noun])
+                : null;
+            if (!inst) return null;
+            return (SR_Q_PREFIX[srLang] || SR_Q_PREFIX.en).replace('{n}', String(i + 1)) + ' ' + inst + '.';
+        }).filter(function (r) { return r !== null; });
         var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
             ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
             : '';

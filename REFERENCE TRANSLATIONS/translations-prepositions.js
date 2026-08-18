@@ -120,6 +120,7 @@ const translations = {
     "prepositions.msg.searching": "Searching...",
     "prepositions.msg.select.items": "Please select at least {exerciseCount} item images.",
     "prepositions.msg.select.preposition": "Please select at least one preposition.",
+    "prepositions.msg.shape.vocabfiltered": "Some images cannot be used as landmarks in this language and have been replaced with basic shapes.",
     "prepositions.msg.select.theme": "Select a theme to see {type}s.",
     "prepositions.msg.template.error": "Could not load the selected template.",
     "prepositions.msg.worksheet.generated": "Worksheet created!",
@@ -209,7 +210,7 @@ const translations = {
     "endDeckBrowseAll": "Browse all worksheets",
     "srExercisePrepositionsChoice": "Question {n}: Choose the preposition that describes the position of the {item} relative to the {shape}.",
     "srExercisePrepositionsFillIn": "Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}.",
-    "runtimeTitle": "Prepositions Practice"
+    "runtimeTitle": "Preposition Practice"
   },
   "de": {
     "exportToCatalog": "In den Katalog exportieren",
@@ -325,6 +326,7 @@ const translations = {
     "prepositions.msg.searching": "Suche läuft...",
     "prepositions.msg.select.items": "Bitte wählen Sie mindestens {exerciseCount} Bilder aus.",
     "prepositions.msg.select.preposition": "Bitte wählen Sie mindestens eine Präposition aus.",
+    "prepositions.msg.shape.vocabfiltered": "Einige Bilder können in dieser Sprache nicht als Bezugsobjekt verwendet werden und wurden durch Grundformen ersetzt.",
     "prepositions.msg.select.theme": "Wählen Sie ein Thema, um {type} zu sehen.",
     "prepositions.msg.template.error": "Die ausgewählte Vorlage konnte nicht geladen werden.",
     "prepositions.msg.worksheet.generated": "Arbeitsblatt erstellt!",
@@ -411,7 +413,7 @@ const translations = {
     "endDeckBrowseAll": "Alle Arbeitsblätter durchsuchen",
     "srExercisePrepositionsChoice": "Frage {n}: Wähle die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
     "srExercisePrepositionsFillIn": "Frage {n}: Schreibe die Präposition, die die Position der {item} im Verhältnis zur {shape} beschreibt.",
-    "runtimeTitle": "Präpositionen-Übung"
+    "runtimeTitle": "Präpositionsübung"
   },
   "fr": {
     "exportToCatalog": "Exporter vers le catalogue",
@@ -529,6 +531,7 @@ const translations = {
     "prepositions.msg.searching": "Recherche en cours...",
     "prepositions.msg.select.items": "Veuillez sélectionner au moins {exerciseCount} images.",
     "prepositions.msg.select.preposition": "Veuillez sélectionner au moins une préposition.",
+    "prepositions.msg.shape.vocabfiltered": "Certaines images ne peuvent pas servir de repère dans cette langue et ont été remplacées par des formes de base.",
     "prepositions.msg.select.theme": "Sélectionnez un thème pour voir les {type}.",
     "prepositions.msg.template.error": "Impossible de charger le modèle sélectionné.",
     "prepositions.msg.worksheet.generated": "Fiche d'exercices créée !",
@@ -721,6 +724,7 @@ const translations = {
     "prepositions.msg.searching": "Buscando...",
     "prepositions.msg.select.items": "Por favor, selecciona al menos {exerciseCount} imágenes.",
     "prepositions.msg.select.preposition": "Por favor, selecciona al menos una preposición.",
+    "prepositions.msg.shape.vocabfiltered": "Algunas imágenes no se pueden usar como referencia en este idioma y se han sustituido por figuras básicas.",
     "prepositions.msg.select.theme": "Selecciona un tema para ver {type}.",
     "prepositions.msg.template.error": "No se pudo cargar la plantilla seleccionada.",
     "prepositions.msg.worksheet.generated": "¡Ficha de ejercicios creada!",
@@ -795,7 +799,7 @@ const translations = {
     "toolbar.send.backward": "Enviar atrás",
     "upload_custom_images": "Subir imágenes propias",
     "width_px": "Ancho (px):",
-    "runtimeTitle": "Práctica de Preposiciones"
+    "runtimeTitle": "Práctica de preposiciones"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -913,6 +917,7 @@ const translations = {
     "prepositions.msg.searching": "Ricerca in corso...",
     "prepositions.msg.select.items": "Seleziona almeno {exerciseCount} immagini.",
     "prepositions.msg.select.preposition": "Seleziona almeno una preposizione.",
+    "prepositions.msg.shape.vocabfiltered": "Alcune immagini non possono essere usate come riferimento in questa lingua e sono state sostituite con forme di base.",
     "prepositions.msg.select.theme": "Seleziona un tema per visualizzare {type}.",
     "prepositions.msg.template.error": "Impossibile caricare il modello selezionato.",
     "prepositions.msg.worksheet.generated": "Scheda didattica creata!",
@@ -1108,6 +1113,7 @@ const translations = {
     "prepositions.msg.searching": "Pesquisando...",
     "prepositions.msg.select.items": "Por favor, selecione pelo menos {exerciseCount} imagens.",
     "prepositions.msg.select.preposition": "Por favor, selecione pelo menos uma preposição.",
+    "prepositions.msg.shape.vocabfiltered": "Algumas imagens não podem ser usadas como referência neste idioma e foram substituídas por formas básicas.",
     "prepositions.msg.select.theme": "Selecione um tema para ver {type}.",
     "prepositions.msg.template.error": "Não foi possível carregar o modelo selecionado.",
     "prepositions.msg.worksheet.generated": "Ficha de exercícios criada!",
@@ -1185,7 +1191,7 @@ const translations = {
     "toolbar.send.backward": "Enviar para trás",
     "upload_custom_images": "Carregar imagens próprias",
     "width_px": "Largura (px):",
-    "runtimeTitle": "Prática de Preposições"
+    "runtimeTitle": "Prática de preposições"
   },
   "nl": {
     "exportToCatalog": "Naar catalogus exporteren",
@@ -1301,6 +1307,7 @@ const translations = {
     "prepositions.msg.searching": "Zoeken...",
     "prepositions.msg.select.items": "Selecteer alsjeblieft minstens {exerciseCount} afbeeldingen.",
     "prepositions.msg.select.preposition": "Selecteer alsjeblieft minstens één voorzetsel.",
+    "prepositions.msg.shape.vocabfiltered": "Sommige afbeeldingen kunnen in deze taal niet als referentie worden gebruikt en zijn vervangen door basisvormen.",
     "prepositions.msg.select.theme": "Selecteer een thema om {type} te zien.",
     "prepositions.msg.template.error": "Kan het geselecteerde sjabloon niet laden.",
     "prepositions.msg.worksheet.generated": "Werkblad gemaakt!",
@@ -1494,6 +1501,7 @@ const translations = {
     "prepositions.msg.searching": "Söker...",
     "prepositions.msg.select.items": "Välj minst {exerciseCount} bilder.",
     "prepositions.msg.select.preposition": "Välj minst en preposition.",
+    "prepositions.msg.shape.vocabfiltered": "Vissa bilder kan inte användas som referens på det här språket och har ersatts med grundformer.",
     "prepositions.msg.select.theme": "Välj ett tema för att se {type}.",
     "prepositions.msg.template.error": "Kunde inte ladda den valda mallen.",
     "prepositions.msg.worksheet.generated": "Övningsblad skapat!",
@@ -1687,6 +1695,7 @@ const translations = {
     "prepositions.msg.searching": "Søger...",
     "prepositions.msg.select.items": "Vælg venligst mindst {exerciseCount} billeder.",
     "prepositions.msg.select.preposition": "Vælg venligst mindst én præposition.",
+    "prepositions.msg.shape.vocabfiltered": "Nogle billeder kan ikke bruges som reference på dette sprog og er blevet erstattet med enkle figurer.",
     "prepositions.msg.select.theme": "Vælg et tema for at se {type}.",
     "prepositions.msg.template.error": "Kunne ikke indlæse den valgte skabelon.",
     "prepositions.msg.worksheet.generated": "Arbejdsark oprettet!",
@@ -1764,7 +1773,7 @@ const translations = {
     "toolbar.send.backward": "Flyt bagud",
     "upload_custom_images": "Upload egne billeder",
     "width_px": "Bredde (px):",
-    "runtimeTitle": "Præpositionsøvelse"
+    "runtimeTitle": "Øvelse med forholdsord"
   },
   "no": {
     "exportToCatalog": "Eksporter til katalog",
@@ -1878,6 +1887,7 @@ const translations = {
     "prepositions.msg.searching": "Søker...",
     "prepositions.msg.select.items": "Vennligst velg minst {exerciseCount} bilder.",
     "prepositions.msg.select.preposition": "Vennligst velg minst én preposisjon.",
+    "prepositions.msg.shape.vocabfiltered": "Noen bilder kan ikke brukes som referanse på dette språket og er byttet ut med enkle figurer.",
     "prepositions.msg.select.theme": "Velg et tema for å se {type}.",
     "prepositions.msg.template.error": "Kunne ikke laste den valgte malen.",
     "prepositions.msg.worksheet.generated": "Oppgaveark laget!",
@@ -2073,6 +2083,7 @@ const translations = {
     "prepositions.msg.searching": "Haetaan...",
     "prepositions.msg.select.items": "Valitse vähintään {exerciseCount} kuvaa.",
     "prepositions.msg.select.preposition": "Valitse vähintään yksi prepositio.",
+    "prepositions.msg.shape.vocabfiltered": "Joitakin kuvia ei voi käyttää kiintopisteenä tällä kielellä, ja ne on korvattu peruskuvioilla.",
     "prepositions.msg.select.theme": "Valitse teema nähdäksesi {type}.",
     "prepositions.msg.template.error": "Valittua pohjaa ei voitu ladata.",
     "prepositions.msg.worksheet.generated": "Tehtävämoniste luotu!",
@@ -2150,7 +2161,7 @@ const translations = {
     "toolbar.send.backward": "Siirrä taaksepäin",
     "upload_custom_images": "Lataa omia kuvia",
     "width_px": "Leveys (px):",
-    "runtimeTitle": "Prepositioharjoitus"
+    "runtimeTitle": "Sijaintisanaharjoitus"
   },
 };
 

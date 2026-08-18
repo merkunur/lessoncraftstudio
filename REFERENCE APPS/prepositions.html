@@ -11,9 +11,10 @@
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate="prepositions.page.title">Prepositions Worksheet Generator</title>
-    <script src="js/translations-prepositions.js?v=runtime-title-1"></script>
+    <script src="js/translations-prepositions.js?v=runtime-title-2"></script>
     <script src="js/translations-shared.js?v=10"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
+    <script src="js/lcs-grammar.js?v=1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Enhancement scripts for robust integration -->
@@ -1086,8 +1087,10 @@
                 'it': 'tra', 'nl': 'tussen', 'sv': 'mellan', 'da': 'mellem', 'no': 'mellom', 'fi': 'välissä'
             },
             'above': {
-                'en': 'above', 'de': 'über', 'fr': 'au-dessus de', 'es': 'sobre', 'pt': 'acima de',
-                'it': 'sopra', 'nl': 'boven', 'sv': 'ovanför', 'da': 'over', 'no': 'over', 'fi': 'yläpuolella'
+                // v12.4.0: it/es forms disambiguated from 'on top of'
+                // (sopra/encima de) — kept in sync with LCSGrammar.PREP_FORMS.
+                'en': 'above', 'de': 'über', 'fr': 'au-dessus de', 'es': 'por encima de', 'pt': 'acima de',
+                'it': 'al di sopra di', 'nl': 'boven', 'sv': 'ovanför', 'da': 'over', 'no': 'over', 'fi': 'yläpuolella'
             },
             'in front of': {
                 'en': 'in front of', 'de': 'vor', 'fr': 'devant', 'es': 'delante de', 'pt': 'na frente de',
@@ -1095,126 +1098,11 @@
             }
         };
         
-        // --- Exercise text translations ---
-        const EXERCISE_TRANSLATIONS = {
-            'is': {
-                'en': 'is', 'de': 'ist', 'fr': 'est', 'es': 'está', 'pt': 'está',
-                'it': 'è', 'nl': 'is', 'sv': 'är', 'da': 'er', 'no': 'er', 'fi': 'on'
-            }
-        };
-
-        // Gender-aware article lookup for shapes
-        // Returns the correct definite article based on shape gender
-        // Handles: German dative (dem/der), French (le/la/l'), Spanish (el/la), etc.
-        function getShapeArticle(shapeKey, locale, shapeName) {
-            if (locale === 'fi') return ''; // Finnish has no articles
-
-            // Try ImageVocab first (covers default shapes + custom images)
-            if (typeof ImageVocab !== 'undefined') {
-                const article = ImageVocab.defArticle(shapeKey, locale);
-                if (article) {
-                    // French elision: le/la -> l' before vowel or mute h
-                    if (locale === 'fr' && (article === 'le' || article === 'la') && shapeName) {
-                        const firstChar = shapeName.trim().toLowerCase()[0];
-                        if ('aeiouyàâéèêëïîôùûüæœh'.includes(firstChar)) {
-                            return "l'";
-                        }
-                    }
-                    return article;
-                }
-            }
-
-            // Fallback: static articles (no gender awareness)
-            const fallback = {
-                'en': 'the', 'de': 'dem', 'fr': 'le', 'es': 'el', 'pt': 'o',
-                'it': 'il', 'nl': 'de', 'sv': 'den', 'da': 'den', 'no': 'den'
-            };
-            return fallback[locale] || 'the';
-        }
-
-        // German dative contractions: preposition + article -> contraction
-        // in + dem -> im, an + dem -> am, etc.
-        function applyDativeContraction(preposition, article, locale) {
-            if (locale !== 'de') return `${preposition} ${article}`;
-            if (article === 'dem') {
-                if (preposition === 'in') return 'im';
-                if (preposition === 'an') return 'am';
-            }
-            return `${preposition} ${article}`;
-        }
-
-        // --- Shape name translations ---
-        const SHAPE_TRANSLATIONS = {
-            'circle': {
-                'en': 'circle', 'de': 'Kreis', 'fr': 'cercle', 'es': 'círculo', 'pt': 'círculo',
-                'it': 'cerchio', 'nl': 'cirkel', 'sv': 'cirkel', 'da': 'cirkel', 'no': 'sirkel', 'fi': 'ympyrä'
-            },
-            'cube': {
-                'en': 'cube', 'de': 'Würfel', 'fr': 'cube', 'es': 'cubo', 'pt': 'cubo',
-                'it': 'cubo', 'nl': 'kubus', 'sv': 'kub', 'da': 'terning', 'no': 'terning', 'fi': 'kuutio'
-            },
-            'cylinder': {
-                'en': 'cylinder', 'de': 'Zylinder', 'fr': 'cylindre', 'es': 'cilindro', 'pt': 'cilindro',
-                'it': 'cilindro', 'nl': 'cilinder', 'sv': 'cylinder', 'da': 'cylinder', 'no': 'sylinder', 'fi': 'sylinteri'
-            },
-            'heart': {
-                'en': 'heart', 'de': 'Herz', 'fr': 'cœur', 'es': 'corazón', 'pt': 'coração',
-                'it': 'cuore', 'nl': 'hart', 'sv': 'hjärta', 'da': 'hjerte', 'no': 'hjerte', 'fi': 'sydän'
-            },
-            'hexagon': {
-                'en': 'hexagon', 'de': 'Sechseck', 'fr': 'hexagone', 'es': 'hexágono', 'pt': 'hexágono',
-                'it': 'esagono', 'nl': 'zeshoek', 'sv': 'hexagon', 'da': 'sekskant', 'no': 'sekskant', 'fi': 'kuusikulmio'
-            },
-            'square': {
-                'en': 'square', 'de': 'Quadrat', 'fr': 'carré', 'es': 'cuadrado', 'pt': 'quadrado',
-                'it': 'quadrato', 'nl': 'vierkant', 'sv': 'kvadrat', 'da': 'kvadrat', 'no': 'kvadrat', 'fi': 'neliö'
-            },
-            'star': {
-                'en': 'star', 'de': 'Stern', 'fr': 'étoile', 'es': 'estrella', 'pt': 'estrela',
-                'it': 'stella', 'nl': 'ster', 'sv': 'stjärna', 'da': 'stjerne', 'no': 'stjerne', 'fi': 'tähti'
-            },
-            'triangle': {
-                'en': 'triangle', 'de': 'Dreieck', 'fr': 'triangle', 'es': 'triángulo', 'pt': 'triângulo',
-                'it': 'triangolo', 'nl': 'driehoek', 'sv': 'triangel', 'da': 'trekant', 'no': 'trekant', 'fi': 'kolmio'
-            }
-        };
-
-        // --- Plural shape translations ---
-        // Language-specific plural forms for shapes used in "between" exercises
-        const PLURAL_SHAPE_TRANSLATIONS = {
-            'circle': {
-                'en': 'circles', 'de': 'Kreise', 'fr': 'cercles', 'es': 'círculos', 'pt': 'círculos',
-                'it': 'cerchi', 'nl': 'cirkels', 'sv': 'cirklar', 'da': 'cirkler', 'no': 'sirkler', 'fi': 'ympyrät'
-            },
-            'cube': {
-                'en': 'cubes', 'de': 'Würfel', 'fr': 'cubes', 'es': 'cubos', 'pt': 'cubos',
-                'it': 'cubi', 'nl': 'kubussen', 'sv': 'kuber', 'da': 'terninger', 'no': 'terninger', 'fi': 'kuutiot'
-            },
-            'cylinder': {
-                'en': 'cylinders', 'de': 'Zylinder', 'fr': 'cylindres', 'es': 'cilindros', 'pt': 'cilindros',
-                'it': 'cilindri', 'nl': 'cilinders', 'sv': 'cylindrar', 'da': 'cylindre', 'no': 'sylindere', 'fi': 'sylinterit'
-            },
-            'heart': {
-                'en': 'hearts', 'de': 'Herzen', 'fr': 'cœurs', 'es': 'corazones', 'pt': 'corações',
-                'it': 'cuori', 'nl': 'harten', 'sv': 'hjärtan', 'da': 'hjerter', 'no': 'hjerter', 'fi': 'sydämet'
-            },
-            'hexagon': {
-                'en': 'hexagons', 'de': 'Sechsecke', 'fr': 'hexagones', 'es': 'hexágonos', 'pt': 'hexágonos',
-                'it': 'esagoni', 'nl': 'zeshoeken', 'sv': 'hexagoner', 'da': 'sekskanter', 'no': 'sekskanter', 'fi': 'kuusikulmiot'
-            },
-            'square': {
-                'en': 'squares', 'de': 'Quadrate', 'fr': 'carrés', 'es': 'cuadrados', 'pt': 'quadrados',
-                'it': 'quadrati', 'nl': 'vierkanten', 'sv': 'kvadrater', 'da': 'kvadrater', 'no': 'kvadrater', 'fi': 'neliöt'
-            },
-            'star': {
-                'en': 'stars', 'de': 'Sterne', 'fr': 'étoiles', 'es': 'estrellas', 'pt': 'estrelas',
-                'it': 'stelle', 'nl': 'sterren', 'sv': 'stjärnor', 'da': 'stjerner', 'no': 'stjerner', 'fi': 'tähdet'
-            },
-            'triangle': {
-                'en': 'triangles', 'de': 'Dreiecke', 'fr': 'triangles', 'es': 'triángulos', 'pt': 'triângulos',
-                'it': 'triangoli', 'nl': 'driehoeken', 'sv': 'trianglar', 'da': 'trekanter', 'no': 'trekanter', 'fi': 'kolmiot'
-            }
-        };
+        // v12.4.0 — the legacy sentence-grammar layer (EXERCISE_TRANSLATIONS,
+        // getShapeArticle, applyDativeContraction, SHAPE_TRANSLATIONS,
+        // PLURAL_SHAPE_TRANSLATIONS) was REMOVED. All sentence text now comes
+        // from js/lcs-grammar.js (LCSGrammar.prepSentence + SHAPE_NOUNS —
+        // one hand-verified table for noun + gender + Finnish genitive).
 
         // --- Global State ---
         // currentLocale already set globally before this script
@@ -1253,21 +1141,44 @@
         // --- Utility Functions ---
         const shuffleArray = (arr) => [...arr].sort(() => 0.5 - Math.random());
 
-        // Sentence-case helper: German capitalizes nouns, other languages lowercase
-        const sentenceCaseShape = (shapeName, locale) => {
-            if (locale === 'de') return shapeName; // German capitalizes nouns
-            return shapeName.toLowerCase();
-        };
+        // (sentenceCaseShape / pluralizeShape removed in v12.4.0 — casing and
+        // plurals are LCSGrammar's job; see js/lcs-grammar.js.)
 
-        // Language-aware pluralization function for shapes
-        const pluralizeShape = (shapeKeyEnglish, locale) => {
-            if (!shapeKeyEnglish) return '';
-
-            // Look up the plural form in the translations
-            const pluralForm = PLURAL_SHAPE_TRANSLATIONS[shapeKeyEnglish]?.[locale];
-
-            // If found, return it; otherwise fallback to English plural
-            return pluralForm || PLURAL_SHAPE_TRANSLATIONS[shapeKeyEnglish]?.['en'] || `${shapeKeyEnglish}s`;
+        // --- Grammar-safe landmark resolution (js/lcs-grammar.js) ---
+        // A landmark (the shape noun printed in the fill-in sentence) is
+        // usable ONLY when every needed form comes from verified data:
+        // default shapes → LCSGrammar.SHAPE_NOUNS (hand-verified, noun +
+        // gender from ONE table); custom images → IMAGE_VOCABULARY (singular
+        // + plural + gender) and, for Finnish, the audited FI_GENITIVES
+        // table. Returns null otherwise — the caller must refuse/substitute,
+        // NEVER guess a form (operator mandate 2026-08-18: grammatically
+        // incorrect sentences must be structurally impossible).
+        function resolveLandmark(shape, locale) {
+            const loc = locale || currentLocale;
+            if (typeof LCSGrammar === 'undefined' || !shape) return null;
+            if (shape.isDefault) return LCSGrammar.shapeLandmark(shape.name, loc);
+            const key = (shape.path && typeof ImageVocab !== 'undefined')
+                ? ImageVocab.keyFromPath(shape.path) : null;
+            const entry = (key && typeof IMAGE_VOCABULARY !== 'undefined') ? IMAGE_VOCABULARY[key] : null;
+            const forms = entry ? entry[loc] : null;
+            if (!forms || !forms[0] || !forms[1]) return null;
+            // Non-noun gate (vocab arc: qualities/activities carry no de
+            // gender code) — an adjective can never be a landmark.
+            if (!entry.de || !entry.de[2]) return null;
+            const lm = { key: key, singular: forms[0], plural: forms[1], gender: forms[2] || null };
+            if (loc === 'fi') {
+                const g = LCSGrammar.fiGenitive(key);
+                if (!g || !g.gen) return null;
+                lm.fiGen = g.gen;
+                lm.fiPt = !!g.pt;
+            }
+            return lm;
+        }
+        // Test seam for the grammar harness (pure, no canvas needed).
+        window.__lcsResolveLandmark = resolveLandmark;
+        window.__lcsPrepSentence = function (locale, prepKey, shape) {
+            const lm = resolveLandmark(shape, locale);
+            return lm ? LCSGrammar.prepSentence(locale, prepKey, lm) : null;
         };
         
         function getActiveCanvas() {
@@ -1866,13 +1777,13 @@
                 },
                 fr: {
                     title: 'Prépositions',
-                    description: 'Complétez chaque phrase avec la bonne préposition!',
-                    descriptionMultipleChoice: 'Entoure l\'image qui montre la bonne préposition!'
+                    description: 'Complète chaque phrase avec la bonne préposition !',
+                    descriptionMultipleChoice: 'Entoure l\'image qui montre la bonne préposition !'
                 },
                 es: {
                     title: 'Preposiciones',
                     description: '¡Completa cada frase con la preposición correcta!',
-                    descriptionMultipleChoice: '¡Encierra en un círculo la imagen que muestra la preposición correcta!'
+                    descriptionMultipleChoice: '¡Rodea la imagen que muestra la preposición correcta!'
                 },
                 it: {
                     title: 'Preposizioni',
@@ -1887,7 +1798,7 @@
                 nl: {
                     title: 'Voorzetsels',
                     description: 'Voltooi elke zin met het juiste voorzetsel!',
-                    descriptionMultipleChoice: 'Cirkel de afbeelding die het juiste voorzetsel laat zien!'
+                    descriptionMultipleChoice: 'Omcirkel de afbeelding die het juiste voorzetsel laat zien!'
                 },
                 sv: {
                     title: 'Prepositioner',
@@ -1895,9 +1806,9 @@
                     descriptionMultipleChoice: 'Ringa in bilden som visar rätt preposition!'
                 },
                 da: {
-                    title: 'Præpositioner',
-                    description: 'Fuldfør hver sætning med den rigtige præposition!',
-                    descriptionMultipleChoice: 'Sæt ring om billedet, der viser den rigtige præposition!'
+                    title: 'Forholdsord',
+                    description: 'Fuldfør hver sætning med det rigtige forholdsord!',
+                    descriptionMultipleChoice: 'Sæt ring om billedet, der viser det rigtige forholdsord!'
                 },
                 no: {
                     title: 'Preposisjoner',
@@ -1905,9 +1816,12 @@
                     descriptionMultipleChoice: 'Ring inn bildet som viser riktig preposisjon!'
                 },
                 fi: {
-                    title: 'Prepositiot',
-                    description: 'Täydennä jokainen lause oikealla prepositiolla!',
-                    descriptionMultipleChoice: 'Ympyröi kuva, joka näyttää oikean preposition!'
+                    // Finnish expresses these relations with POSTpositions
+                    // (tähden päällä), so the child-facing header says
+                    // "sijaintisana" (location word), not "prepositio".
+                    title: 'Sijaintisanat',
+                    description: 'Täydennä jokainen lause oikealla sijaintisanalla!',
+                    descriptionMultipleChoice: 'Ympyröi kuva, joka näyttää oikean sijaintisanan!'
                 }
             };
 
@@ -3044,6 +2958,17 @@
                 const allAvailable = [...themeImages, ...uploadedImages];
                 if (allAvailable.length > 0) shapesToUse = shuffleArray(allAvailable).slice(0, exerciseCount);
             }
+            // GRAMMAR GUARD (v12.4.0): a landmark noun appears in the printed
+            // sentence, so it must fully resolve through the verified
+            // vocabulary (and the Finnish genitive table). Unresolvable
+            // images (uploads, off-vocab art, missing gender/genitive) are
+            // dropped here and replaced by default shapes below — the
+            // sentence builder never guesses a form.
+            const shapesBefore = shapesToUse.length;
+            shapesToUse = shapesToUse.filter(s => resolveLandmark(s, currentLocale) !== null);
+            if (shapesToUse.length < shapesBefore) {
+                showMessage(t('prepositions.msg.shape.vocabfiltered'), 'info');
+            }
             const defaultShapesPool = shuffleArray(DEFAULT_SHAPES);
             while(shapesToUse.length < exerciseCount) {
                 shapesToUse.push({ isDefault: true, name: defaultShapesPool.pop() || 'circle' });
@@ -3302,69 +3227,30 @@
             const createdGroups = await Promise.all(itemPromises);
             exerciseItems.push(...createdGroups);
             
+            // v12.4.0 — per-locale sentence assembly via LCSGrammar
+            // (js/lcs-grammar.js). ONE builder produces the worksheet blank,
+            // the answer key, and (via assignment.sentenceParts) the deck
+            // runtime's expected answer — the three can no longer disagree.
+            // Landmarks were pre-filtered grammar-safe at generation time;
+            // if one still fails to resolve, the item is SKIPPED with a
+            // console warning rather than ever emitting a guessed form.
             const qaTextParts = [];
             for(let i=0; i < lastGeneratedAssignments.length; i++){
                 const assignment = lastGeneratedAssignments[i];
-                const shapeNameEnglish = assignment.shape.isDefault ? assignment.shape.name : assignment.shape.word;
-
-                // Determine the vocabulary key for this shape
-                const shapeVocabKey = assignment.shape.isDefault
-                    ? shapeNameEnglish  // Default shapes: "circle", "star", etc. match vocab keys
-                    : (assignment.shape.path && typeof ImageVocab !== 'undefined'
-                        ? ImageVocab.keyFromPath(assignment.shape.path)
-                        : null);
-
-                // Translate shape name to current locale
-                const shapeName = assignment.shape.isDefault
-                    ? (SHAPE_TRANSLATIONS[shapeNameEnglish]?.[currentLocale] || shapeNameEnglish)
-                    : (shapeVocabKey && typeof ImageVocab !== 'undefined'
-                        ? sentenceCaseShape(ImageVocab.singular(shapeVocabKey, currentLocale) || shapeNameEnglish, currentLocale)
-                        : shapeNameEnglish);
-                // Get translations for current language
-                const isText = EXERCISE_TRANSLATIONS['is'][currentLocale] || 'is';
-                const prepositionText = PREPOSITION_TRANSLATIONS[assignment.preposition][currentLocale] || assignment.preposition;
-
-                // Get gender-aware article for this shape
-                const theText = shapeVocabKey ? getShapeArticle(shapeVocabKey, currentLocale, shapeName) : '';
-
-                // Build article part (empty for Finnish, handle French l' without trailing space)
-                let articlePart;
-                if (!theText) {
-                    articlePart = '';
-                } else if (theText.endsWith("'")) {
-                    articlePart = theText; // French l' — no space before noun
-                } else {
-                    articlePart = `${theText} `;
-                }
-
-                // Apply German dative contractions (in dem -> im, etc.)
-                const prepArticle = currentLocale === 'de' && articlePart
-                    ? applyDativeContraction(prepositionText, theText, currentLocale)
+                const landmark = resolveLandmark(assignment.shape, currentLocale);
+                const parts = landmark
+                    ? LCSGrammar.prepSentence(currentLocale, assignment.preposition, landmark)
                     : null;
-
-                // Build the text template
-                let textTemplate;
-                if (assignment.preposition === 'between') {
-                    // "between" uses plural shapes, no article
-                    const pluralShape = assignment.shape.isDefault
-                        ? pluralizeShape(shapeNameEnglish, currentLocale)
-                        : (shapeVocabKey && typeof ImageVocab !== 'undefined'
-                            ? sentenceCaseShape(ImageVocab.plural(shapeVocabKey, currentLocale) || pluralizeShape(shapeNameEnglish, currentLocale), currentLocale)
-                            : pluralizeShape(shapeNameEnglish, currentLocale));
-                    textTemplate = isAnswerKey
-                        ? `{img} ${isText} ${prepositionText} ${pluralShape}.`
-                        : `{img} ${isText} __________ ${pluralShape}.`;
-                } else if (prepArticle) {
-                    // German: contracted preposition+article (e.g., "im Stern" instead of "in dem Stern")
-                    textTemplate = isAnswerKey
-                        ? `{img} ${isText} ${prepArticle} ${shapeName}.`
-                        : `{img} ${isText} __________ ${articlePart}${shapeName}.`;
-                } else {
-                    textTemplate = isAnswerKey
-                        ? `{img} ${isText} ${prepositionText} ${articlePart}${shapeName}.`
-                        : `{img} ${isText} __________ ${articlePart}${shapeName}.`;
+                if (!parts) {
+                    console.warn('[prepositions] unresolvable landmark skipped:', assignment.shape);
+                    continue;
                 }
-
+                // Stash for extractDeckBundle_v12 (expected answer + distractors)
+                assignment.landmark = landmark;
+                assignment.sentenceParts = parts;
+                const textTemplate = isAnswerKey
+                    ? `${parts.prefix}${parts.expected}${parts.suffix}`
+                    : `${parts.prefix}__________${parts.suffix}`;
                 qaTextParts.push({image: assignment.item, template: textTemplate});
             }
 
@@ -4230,7 +4116,7 @@
         };
 
         var bundle = {
-            bundleVersion: '12.3.0',
+            bundleVersion: '12.4.0',
             schemaFormat: 'image-references-v2',
             loadingMode: loadingMode,
             appType: 'prepositions',
@@ -4378,13 +4264,20 @@
                 if (!blankRect) return;
                 var assignment = assignments[o.originalIndex];
                 if (!assignment) return;
-                var expected = assignment.preposition;
-                // Localized expected answer: fall back to the English key if
-                // the translation table doesn't have this locale.
-                if (typeof PREPOSITION_TRANSLATIONS !== 'undefined'
-                    && PREPOSITION_TRANSLATIONS[assignment.preposition]
-                    && PREPOSITION_TRANSLATIONS[assignment.preposition][loc]) {
-                    expected = PREPOSITION_TRANSLATIONS[assignment.preposition][loc];
+                // v12.4.0 — the expected answer comes from the SAME
+                // LCSGrammar sentence parts that printed the worksheet blank
+                // (assignment.sentenceParts, stashed by createExerciseItems),
+                // so worksheet ≡ answer key ≡ deck grading by construction.
+                var expected = (assignment.sentenceParts && assignment.sentenceParts.expected) || null;
+                if (!expected) {
+                    // Legacy canvas state (generated pre-v12.4.0): bare
+                    // localized preposition, as before.
+                    expected = assignment.preposition;
+                    if (typeof PREPOSITION_TRANSLATIONS !== 'undefined'
+                        && PREPOSITION_TRANSLATIONS[assignment.preposition]
+                        && PREPOSITION_TRANSLATIONS[assignment.preposition][loc]) {
+                        expected = PREPOSITION_TRANSLATIONS[assignment.preposition][loc];
+                    }
                 }
                 slots.push({
                     problemIndex: o.originalIndex,
@@ -4409,18 +4302,39 @@
                 var assignment = assignments[o.originalIndex];
                 if (!blankRect || !assignment) return;
                 var correctKey = assignment.preposition;
-                var cidx = Math.max(0, PREPOSITIONS.indexOf(correctKey));
-                var pool = [];
-                for (var _k = 1; pool.length < 2 && _k < PREPOSITIONS.length; _k++) {
-                    var cand = PREPOSITIONS[(cidx + _k) % PREPOSITIONS.length];
-                    if (cand !== correctKey && pool.indexOf(cand) < 0) pool.push(cand);
+                var labels;
+                if (assignment.sentenceParts && assignment.landmark && window.LCSGrammar) {
+                    // v12.4.0 — distractor labels rendered by the SAME grammar
+                    // engine in the SAME sentence frame (deterministic order),
+                    // so every option fills the printed blank grammatically.
+                    var correctLabel = assignment.sentenceParts.expected;
+                    var pool2 = LCSGrammar.prepDistractorLabels(
+                        (window.currentLocale || 'en').slice(0, 2), correctKey, assignment.landmark);
+                    var start = pool2.length ? (o.originalIndex % pool2.length) : 0;
+                    var picked = [];
+                    for (var _p = 0; picked.length < 2 && _p < pool2.length; _p++) {
+                        var candL = pool2[(start + _p) % pool2.length];
+                        if (candL !== correctLabel && picked.indexOf(candL) < 0) picked.push(candL);
+                    }
+                    labels = [{ label: correctLabel, isCorrect: true }].concat(
+                        picked.map(function (l) { return { label: l, isCorrect: false }; }));
+                } else {
+                    // Legacy canvas state: rotate through PREPOSITIONS as before.
+                    var cidx = Math.max(0, PREPOSITIONS.indexOf(correctKey));
+                    var pool = [];
+                    for (var _k = 1; pool.length < 2 && _k < PREPOSITIONS.length; _k++) {
+                        var cand = PREPOSITIONS[(cidx + _k) % PREPOSITIONS.length];
+                        if (cand !== correctKey && pool.indexOf(cand) < 0) pool.push(cand);
+                    }
+                    labels = [correctKey].concat(pool).map(function (kk) {
+                        return { label: _locPrep(kk), isCorrect: kk === correctKey };
+                    });
                 }
-                var keys = [correctKey].concat(pool);
-                var rot = keys.length ? (o.originalIndex % keys.length) : 0;   // vary correct's position deterministically
-                keys = keys.slice(rot).concat(keys.slice(0, rot));
+                var rot = labels.length ? (o.originalIndex % labels.length) : 0;   // vary correct's position deterministically
+                labels = labels.slice(rot).concat(labels.slice(0, rot));
                 optionChoices.push({
                     rect: blankRect,
-                    options: keys.map(function (kk) { return { label: _locPrep(kk), isCorrect: kk === correctKey }; })
+                    options: labels
                 });
             });
             bundle.optionChoices = optionChoices;
@@ -4526,7 +4440,7 @@
     var INTERACTIVE_RUNTIME_LINES_v12 = [
         '(function(){',
         '  "use strict";',
-        '  var STRINGS_ALL = {"en":{"title":"Prepositions Practice","checkAnswers":"Check Answers","tryAgain":"Try Again","youDidIt":"You did it!","doAnother":"Do Another","printMyWorksheet":"Print my worksheet","mute":"Mute sounds","unmute":"Turn sounds on","problemNumber":"Problem","correct":"correct","score":"{n} of {total} correct","allCorrect":"All correct!"},"de":{"title":"Präpositionen-Übung","checkAnswers":"Antworten prüfen","tryAgain":"Erneut versuchen","youDidIt":"Geschafft!","doAnother":"Noch eins","printMyWorksheet":"Mein Arbeitsblatt drucken","mute":"Töne stummschalten","unmute":"Töne einschalten","problemNumber":"Problem","correct":"richtig","score":"{n} von {total} richtig","allCorrect":"Alles richtig!"},"es":{"title":"Práctica de Preposiciones","checkAnswers":"Comprobar respuestas","tryAgain":"Intentar de nuevo","youDidIt":"¡Lo lograste!","doAnother":"Hacer otra","printMyWorksheet":"Imprimir mi hoja","mute":"Silenciar sonidos","unmute":"Activar sonidos","problemNumber":"Problem","correct":"correctas","score":"{n} de {total} correctas","allCorrect":"¡Todo correcto!"},"nl":{"title":"Voorzetsels oefenen","checkAnswers":"Antwoorden controleren","tryAgain":"Opnieuw proberen","youDidIt":"Gelukt!","doAnother":"Nog een","printMyWorksheet":"Mijn werkblad printen","mute":"Geluid uit","unmute":"Geluid aan","problemNumber":"Problem","correct":"goed","score":"{n} van {total} goed","allCorrect":"Alles goed!"},"fr":{"title":"Exercices de prépositions","checkAnswers":"Vérifier les réponses","tryAgain":"Réessayer","youDidIt":"Bravo !","doAnother":"Faire une autre","printMyWorksheet":"Imprimer ma fiche","mute":"Couper le son","unmute":"Activer le son","problemNumber":"Problem","correct":"correct","score":"{n} sur {total} correct","allCorrect":"Tout est correct !"},"it":{"title":"Esercizi di preposizioni","checkAnswers":"Controlla risposte","tryAgain":"Riprova","youDidIt":"Bravo!","doAnother":"Fai un\'altra","printMyWorksheet":"Stampa la mia scheda","mute":"Silenzia suoni","unmute":"Attiva suoni","problemNumber":"Problem","correct":"corretto","score":"{n} su {total} corretto","allCorrect":"Tutto corretto!"},"pt":{"title":"Prática de Preposições","checkAnswers":"Verificar respostas","tryAgain":"Tentar de novo","youDidIt":"Você conseguiu!","doAnother":"Fazer outra","printMyWorksheet":"Imprimir minha atividade","mute":"Silenciar sons","unmute":"Ativar sons","problemNumber":"Problem","correct":"correto","score":"{n} de {total} correto","allCorrect":"Tudo correto!"},"sv":{"title":"Prepositionsövning","checkAnswers":"Kontrollera svar","tryAgain":"Försök igen","youDidIt":"Du klarade det!","doAnother":"Gör en till","printMyWorksheet":"Skriv ut mitt arbetsblad","mute":"Stäng av ljud","unmute":"Slå på ljud","problemNumber":"Problem","correct":"rätt","score":"{n} av {total} rätt","allCorrect":"Allt rätt!"},"da":{"title":"Præpositionsøvelse","checkAnswers":"Kontroller svar","tryAgain":"Prøv igen","youDidIt":"Du klarede det!","doAnother":"Lav en til","printMyWorksheet":"Udskriv mit arbejdsark","mute":"Slå lyd fra","unmute":"Slå lyd til","problemNumber":"Problem","correct":"rigtigt","score":"{n} ud af {total} rigtigt","allCorrect":"Alt rigtigt!"},"no":{"title":"Preposisjonsøving","checkAnswers":"Sjekk svar","tryAgain":"Prøv igjen","youDidIt":"Du klarte det!","doAnother":"Gjør en til","printMyWorksheet":"Skriv ut arbeidsarket","mute":"Slå av lyd","unmute":"Slå på lyd","problemNumber":"Problem","correct":"riktig","score":"{n} av {total} riktig","allCorrect":"Alt riktig!"},"fi":{"title":"Prepositioharjoitus","checkAnswers":"Tarkista vastaukset","tryAgain":"Yritä uudelleen","youDidIt":"Sinä teit sen!","doAnother":"Tee toinen","printMyWorksheet":"Tulosta työarkkini","mute":"Mykistä äänet","unmute":"Avaa äänet","problemNumber":"Problem","correct":"oikein","score":"{n}/{total} oikein","allCorrect":"Kaikki oikein!"}};',
+        '  var STRINGS_ALL = {"en":{"title":"Preposition Practice","checkAnswers":"Check Answers","tryAgain":"Try Again","youDidIt":"You did it!","doAnother":"Do Another","printMyWorksheet":"Print my worksheet","mute":"Mute sounds","unmute":"Turn sounds on","problemNumber":"Problem","correct":"correct","score":"{n} of {total} correct","allCorrect":"All correct!"},"de":{"title":"Präpositionsübung","checkAnswers":"Antworten prüfen","tryAgain":"Erneut versuchen","youDidIt":"Geschafft!","doAnother":"Noch eins","printMyWorksheet":"Mein Arbeitsblatt drucken","mute":"Töne stummschalten","unmute":"Töne einschalten","problemNumber":"Aufgabe","correct":"richtig","score":"{n} von {total} richtig","allCorrect":"Alles richtig!"},"es":{"title":"Práctica de preposiciones","checkAnswers":"Comprobar respuestas","tryAgain":"Intentar de nuevo","youDidIt":"¡Lo lograste!","doAnother":"Hacer otra","printMyWorksheet":"Imprimir mi hoja","mute":"Silenciar sonidos","unmute":"Activar sonidos","problemNumber":"Ejercicio","correct":"correctas","score":"{n} de {total} correctas","allCorrect":"¡Todo correcto!"},"nl":{"title":"Voorzetsels oefenen","checkAnswers":"Antwoorden controleren","tryAgain":"Opnieuw proberen","youDidIt":"Gelukt!","doAnother":"Nog een","printMyWorksheet":"Mijn werkblad printen","mute":"Geluid uit","unmute":"Geluid aan","problemNumber":"Opgave","correct":"goed","score":"{n} van {total} goed","allCorrect":"Allemaal goed!"},"fr":{"title":"Exercices de prépositions","checkAnswers":"Vérifier les réponses","tryAgain":"Réessayer","youDidIt":"Bravo !","doAnother":"Faire une autre","printMyWorksheet":"Imprimer ma fiche","mute":"Couper le son","unmute":"Activer le son","problemNumber":"Question","correct":"correctes","score":"Bonnes réponses : {n} sur {total}","allCorrect":"Tout est correct !"},"it":{"title":"Esercizi di preposizioni","checkAnswers":"Controlla le risposte","tryAgain":"Riprova","youDidIt":"Ce l\'hai fatta!","doAnother":"Fai un\'altra","printMyWorksheet":"Stampa la mia scheda","mute":"Silenzia i suoni","unmute":"Attiva i suoni","problemNumber":"Esercizio","correct":"corrette","score":"{n} su {total} corrette","allCorrect":"Tutto corretto!"},"pt":{"title":"Prática de preposições","checkAnswers":"Verificar respostas","tryAgain":"Tentar de novo","youDidIt":"Você conseguiu!","doAnother":"Fazer outra","printMyWorksheet":"Imprimir minha atividade","mute":"Silenciar sons","unmute":"Ativar sons","problemNumber":"Questão","correct":"corretas","score":"{n} de {total} corretas","allCorrect":"Tudo correto!"},"sv":{"title":"Prepositionsövning","checkAnswers":"Kontrollera svar","tryAgain":"Försök igen","youDidIt":"Du klarade det!","doAnother":"Gör en till","printMyWorksheet":"Skriv ut mitt arbetsblad","mute":"Stäng av ljud","unmute":"Slå på ljud","problemNumber":"Uppgift","correct":"rätt","score":"{n} av {total} rätt","allCorrect":"Allt rätt!"},"da":{"title":"Øvelse med forholdsord","checkAnswers":"Kontroller svar","tryAgain":"Prøv igen","youDidIt":"Du klarede det!","doAnother":"Lav et til","printMyWorksheet":"Udskriv mit arbejdsark","mute":"Slå lyd fra","unmute":"Slå lyd til","problemNumber":"Opgave","correct":"rigtigt","score":"{n} ud af {total} rigtigt","allCorrect":"Alt rigtigt!"},"no":{"title":"Preposisjonsøving","checkAnswers":"Sjekk svar","tryAgain":"Prøv igjen","youDidIt":"Du klarte det!","doAnother":"Gjør en til","printMyWorksheet":"Skriv ut arbeidsarket","mute":"Slå av lyd","unmute":"Slå på lyd","problemNumber":"Oppgave","correct":"riktig","score":"{n} av {total} riktig","allCorrect":"Alt riktig!"},"fi":{"title":"Sijaintisanaharjoitus","checkAnswers":"Tarkista vastaukset","tryAgain":"Yritä uudelleen","youDidIt":"Sinä teit sen!","doAnother":"Tee toinen","printMyWorksheet":"Tulosta tehtäväsivuni","mute":"Mykistä äänet","unmute":"Laita äänet päälle","problemNumber":"Tehtävä","correct":"oikein","score":"{n}/{total} oikein","allCorrect":"Kaikki oikein!"}};',
         '  var STRINGS = STRINGS_ALL[((DECK_BUNDLE && DECK_BUNDLE.contentLanguage) || "en").slice(0,2)] || STRINGS_ALL.en;',
         '  function T(k){return STRINGS[k]||STRINGS_ALL.en[k]||k}',
         '',
@@ -4708,7 +4622,9 @@
         '      if(inp&&(!state[i].value||state[i].value.trim().length===0)){inp.focus();if(inp.select)try{inp.select()}catch(e){}return}',
         '    }',
         '  }',
-        '  function normalize(v){return String(v==null?"":v).trim().toLowerCase()}',
+        '  // Diacritic-lenient compare (K-3 kindness): "a cote de" matches',
+        '  // "à côté de"; whitespace collapsed; curly apostrophes folded.',
+        '  function normalize(v){var s=String(v==null?"":v).trim().toLowerCase().replace(/\\s+/g," ").replace(/[\\u2019\\u02BC]/g,"\'");try{s=s.normalize("NFD").replace(/[\\u0300-\\u036f]/g,"")}catch(e){}return s}',
         '',
         '  function wireButtons(){',
         '    checkBtn.addEventListener("click",checkAll);',
@@ -4907,27 +4823,50 @@
         // Per-row sr-only — prepositions. Mode chosen at deck level
         // (multiplechoice vs fill-in). Item + shape names looked up via
         // ImageVocab where the assignment carries an image path.
-        var srChoiceTpl = (typeof t === 'function' && t('srExercisePrepositionsChoice'))
-            || 'Question {n}: Choose the preposition that describes the position of the {item} relative to the {shape}.';
-        var srFillInTpl = (typeof t === 'function' && t('srExercisePrepositionsFillIn'))
-            || 'Question {n}: Write the preposition that describes the position of the {item} relative to the {shape}.';
+        // v12.4.0 sr-only templates — content-locale-direct (§17.8.14, §A.13.46):
+        // keyed on srLang, NEVER per-app t() (uiLocale-bound). The colon
+        // frame ("Picture: X. Shape: Y.") is agreement-free in every locale,
+        // so inserted nouns need no article/gender/case handling. Finnish
+        // says "sana" (word) because its spatial relators are postpositions.
+        var SR_PREP_TPL = {
+            en: { fillIn: 'Question {n}: Write the missing preposition. Picture: {item}. Shape: {shape}.',
+                  choice: 'Question {n}: Choose the correct preposition. Picture: {item}. Shape: {shape}.' },
+            de: { fillIn: 'Aufgabe {n}: Schreibe die fehlende Präposition. Bild: {item}. Form: {shape}.',
+                  choice: 'Aufgabe {n}: Wähle die richtige Präposition. Bild: {item}. Form: {shape}.' },
+            fr: { fillIn: 'Question {n} : Écris la préposition manquante. Image : {item}. Forme : {shape}.',
+                  choice: 'Question {n} : Choisis la bonne préposition. Image : {item}. Forme : {shape}.' },
+            es: { fillIn: 'Pregunta {n}: Escribe la preposición que falta. Imagen: {item}. Figura: {shape}.',
+                  choice: 'Pregunta {n}: Elige la preposición correcta. Imagen: {item}. Figura: {shape}.' },
+            pt: { fillIn: 'Questão {n}: Escreva a preposição que falta. Imagem: {item}. Forma: {shape}.',
+                  choice: 'Questão {n}: Escolha a preposição correta. Imagem: {item}. Forma: {shape}.' },
+            it: { fillIn: 'Domanda {n}: Scrivi la preposizione mancante. Immagine: {item}. Forma: {shape}.',
+                  choice: 'Domanda {n}: Scegli la preposizione corretta. Immagine: {item}. Forma: {shape}.' },
+            nl: { fillIn: 'Vraag {n}: Schrijf het ontbrekende voorzetsel. Afbeelding: {item}. Vorm: {shape}.',
+                  choice: 'Vraag {n}: Kies het juiste voorzetsel. Afbeelding: {item}. Vorm: {shape}.' },
+            sv: { fillIn: 'Fråga {n}: Skriv prepositionen som saknas. Bild: {item}. Form: {shape}.',
+                  choice: 'Fråga {n}: Välj rätt preposition. Bild: {item}. Form: {shape}.' },
+            da: { fillIn: 'Spørgsmål {n}: Skriv det manglende forholdsord. Billede: {item}. Form: {shape}.',
+                  choice: 'Spørgsmål {n}: Vælg det rigtige forholdsord. Billede: {item}. Form: {shape}.' },
+            no: { fillIn: 'Oppgave {n}: Skriv preposisjonen som mangler. Bilde: {item}. Form: {shape}.',
+                  choice: 'Oppgave {n}: Velg riktig preposisjon. Bilde: {item}. Form: {shape}.' },
+            fi: { fillIn: 'Tehtävä {n}: Kirjoita puuttuva sana. Kuva: {item}. Muoto: {shape}.',
+                  choice: 'Tehtävä {n}: Valitse oikea sana. Kuva: {item}. Muoto: {shape}.' }
+        };
         var srExerciseLabel = (typeof t === 'function' && t('srWorksheetQuestions'))
             || 'Worksheet questions';
         var srLang = (bundle.contentLanguage || 'en').slice(0, 2);
+        var srTplSet = SR_PREP_TPL[srLang] || SR_PREP_TPL.en;
         function _prepKeyToName(key) {
-            if (!key || !window.ImageVocab) return key || '';
-            var name = ImageVocab.singular(key, srLang);
-            return name || key;
+            if (!key || !window.ImageVocab) return null;
+            return ImageVocab.singular(key, srLang) || null;
         }
         function _prepShapeLabel(a) {
             if (a && a.shapeKey) return _prepKeyToName(a.shapeKey);
-            if (a && a.shapeDefaultSlug && typeof t === 'function') {
-                var slug = a.shapeDefaultSlug.charAt(0).toUpperCase() + a.shapeDefaultSlug.slice(1);
-                var resolved = t('srShape' + slug);
-                if (resolved && resolved !== ('srShape' + slug)) return resolved;
-                return a.shapeDefaultSlug;
+            if (a && a.shapeDefaultSlug && window.LCSGrammar) {
+                var row = LCSGrammar.SHAPE_NOUNS[a.shapeDefaultSlug];
+                if (row && row[srLang] && row[srLang][0]) return row[srLang][0];
             }
-            return (a && a.shapeDefaultSlug) || '';
+            return null;
         }
         var assignmentsForSr = Array.isArray(bundle.assignments) ? bundle.assignments : [];
         var srMode = (bundle.exerciseMode === 'multiplechoice') ? 'choice' : 'fillIn';
@@ -4935,9 +4874,11 @@
             var n = i + 1;
             var item = _prepKeyToName(a && a.itemKey);
             var shape = _prepShapeLabel(a);
-            var tpl = (srMode === 'choice') ? srChoiceTpl : srFillInTpl;
+            // Defensive-skip (§17.8.11): no verified noun → no degraded row.
+            if (!item || !shape) return null;
+            var tpl = (srMode === 'choice') ? srTplSet.choice : srTplSet.fillIn;
             return tpl.replace('{n}', n).replace('{item}', item).replace('{shape}', shape);
-        });
+        }).filter(function (r) { return r !== null; });
         var srRowsHtml = (window.LCSCatalogExport && LCSCatalogExport.buildSrRows)
             ? LCSCatalogExport.buildSrRows({ label: srExerciseLabel, rows: srRows })
             : '';

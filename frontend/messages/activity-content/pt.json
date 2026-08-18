@@ -2479,6 +2479,29 @@
         "Resolve divisões simples sem resto e explica o que cada número representa.",
         "Vive a divisão e a multiplicação como uma dupla relacionada, uma sendo o inverso da outra."
       ]
+    },
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "O esquilo Flo guarda suas bolotas de um jeito bem caprichado: em um arranjo retangular, com fileiras e colunas certinhas. A criança ajuda o Flo a desenhar uma linha para cortar esse arranjo em montinhos iguais, conta quantas bolotas ficam em um montinho e depois monta a soma de parcelas iguais com os botões de mais e de menos — por exemplo, “4 + 4 + 4 = 12”. Ao longo dos desafios, ela faz montinhos iguais, forma exatamente a quantidade de montinhos pedida, conserta um corte que ficou desigual e constrói uma soma solicitada.",
+        "A grande ideia por trás da brincadeira é a adição de parcelas iguais, ou soma repetida: quando várias parcelas têm o mesmo valor, dá para juntá-las de um jeito organizado. E é justamente o arranjo retangular, bem arrumado, que serve de ponte para a multiplicação — de “4 + 4 + 4” nasce “3 × 4”. Assim, a criança entende por que a multiplicação funciona, em vez de apenas decorar resultados.",
+        "A atividade é gratuita e interativa, roda direto no navegador e não exige cadastro. Não há cronômetro nem pontuação: o clima é tranquilo e formativo, com espaço para experimentar, errar e tentar de novo no ritmo de cada criança. O conteúdo está alinhado à BNCC, dentro da unidade temática Números."
+      ],
+      "practices": [
+        "Organizar bolotas em arranjo retangular, reconhecendo fileiras e colunas.",
+        "Cortar o arranjo em montinhos iguais e contar quantas bolotas há em cada um.",
+        "Montar e ler somas de parcelas iguais, como “5 + 5 = 10”.",
+        "Perceber a ponte entre a adição de parcelas iguais e a multiplicação."
+      ],
+      "howToPlay": [
+        "Observe as bolotas que o Flo organizou em fileiras e colunas.",
+        "Desenhe uma linha para cortar o arranjo em montinhos iguais.",
+        "Use os botões de mais e de menos para montar a soma de parcelas iguais, como “4 + 4 + 4 = 12”."
+      ],
+      "learningGoals": [
+        "Compreender a adição de parcelas iguais a partir de situações concretas.",
+        "Relacionar o arranjo retangular à soma repetida e à multiplicação.",
+        "Ler e escrever somas de parcelas iguais com autonomia."
+      ]
     }
   }
 }

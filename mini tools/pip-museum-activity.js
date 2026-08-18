@@ -41,13 +41,18 @@
      "un {n}" + agreement work universally, no gender-branching; plural just adds -s. */
   var SHAPE_ES = { circle: 'círculo', triangle: 'triángulo', square: 'cuadrado', rectangle: 'rectángulo', hexagon: 'hexágono', rhombus: 'rombo', oval: 'óvalo', mystery: 'Sala de misterio' };
   var SHAPE_ES_PL = { circle: 'círculos', triangle: 'triángulos', square: 'cuadrados', rectangle: 'rectángulos', hexagon: 'hexágonos', rhombus: 'rombos', oval: 'óvalos' };
-  function gname(t) { return LANG === 'es' ? (SHAPE_ES[t] || t) : LANG === 'de' ? (GNAME[t] || t) : LANG === 'fr' ? (SHAPE_FR[t] || t) : (NAME[t] || t); }
-  function gnamePl(t) { return LANG === 'es' ? (SHAPE_ES_PL[t] || SHAPE_ES[t] || t) : LANG === 'de' ? (GNAME_PL[t] || GNAME[t] || t) : LANG === 'fr' ? (SHAPE_FR_PL[t] || SHAPE_FR[t] || t) : ((NAME[t] || t) + 's'); }
+  /* Brazilian Portuguese shape names — ALL masculine (o círculo / o quadrado / o losango),
+     so "um {n}" + "no {n}" work universally, no gender-branching. ⚠ rhombus = LOSANGO,
+     NEVER "rombo" (= hole/breach in pt-BR); do NOT copy the es "rombo". */
+  var SHAPE_PT = { circle: 'círculo', triangle: 'triângulo', square: 'quadrado', rectangle: 'retângulo', hexagon: 'hexágono', rhombus: 'losango', oval: 'oval', mystery: 'Galeria dos Mistérios' };
+  var SHAPE_PT_PL = { circle: 'círculos', triangle: 'triângulos', square: 'quadrados', rectangle: 'retângulos', hexagon: 'hexágonos', rhombus: 'losangos', oval: 'ovais' };
+  function gname(t) { return LANG === 'es' ? (SHAPE_ES[t] || t) : LANG === 'de' ? (GNAME[t] || t) : LANG === 'fr' ? (SHAPE_FR[t] || t) : LANG === 'pt' ? (SHAPE_PT[t] || t) : (NAME[t] || t); }
+  function gnamePl(t) { return LANG === 'es' ? (SHAPE_ES_PL[t] || SHAPE_ES[t] || t) : LANG === 'de' ? (GNAME_PL[t] || GNAME[t] || t) : LANG === 'fr' ? (SHAPE_FR_PL[t] || SHAPE_FR[t] || t) : LANG === 'pt' ? (SHAPE_PT_PL[t] || SHAPE_PT[t] || t) : ((NAME[t] || t) + 's'); }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shapeSVG(geom) {
@@ -71,22 +76,22 @@
     reward: { id: 'pip-museum', label: "Pip's Museum", emoji: '🏛️' },
 
     strings: {
-      title: { en: "Professor Pip's Museum", de: 'Professor Pips Museum', fr: 'Le musée du professeur Pip', es: 'El museo de Pip' },
-      prompt: { en: 'Name each treasure — any way it turns!', de: 'Benenne jeden Schatz — egal, wie er sich dreht!', fr: 'Nomme chaque trésor, même tourné !', es: '¡Nombra cada tesoro, no importa cómo esté girado!' },
-      routeHint: { en: 'What is this? Tap its pedestal to name it.', de: 'Was ist das? Tippe auf den richtigen Sockel.', fr: 'Qu’est-ce que c’est ? Touche le bon socle pour le nommer.', es: '¿Qué es? Toca el pedestal correcto.' },
-      excludeHint: { en: 'Name it — or send it to the Mystery Gallery!', de: 'Benenne es — oder schick es in die Rätsel-Galerie!', fr: 'Nomme-le, ou envoie-le au Mystère !', es: '¡Nómbralo… o mándalo a la sala de misterio!' },
-      fineHint: { en: 'Square or rectangle? Look closely!', de: 'Quadrat oder Rechteck? Schau genau hin!', fr: 'Carré ou rectangle ? Regarde bien !', es: '¿Cuadrado o rectángulo? ¡Míralo bien!' },
-      nameHint: { en: 'Pip wants a {n}! Tap the {n}.', de: 'Pip sucht diese Form: {n}. Tippe darauf!', fr: 'Pip cherche un {n} ! Touche-le !', es: 'Pip quiere esta figura: un {n}. ¡Tócala!' },
-      matchHint: { en: 'Find the TWO {n}s — even if they look different!', de: 'Finde die ZWEI {np} — auch wenn sie anders aussehen!', fr: 'Trouve les DEUX {np} — même s’ils ont l’air différents !', es: 'Encuentra los DOS {np}… ¡aunque se vean distintos!' },
-      confirmHint: { en: 'Pip says it is a {n}. Is that right?', de: 'Pip nennt es {n}. Stimmt das?', fr: 'Pip dit que c’est un {n}. C’est vrai ?', es: 'Pip dice que es un {n}. ¿Es cierto?' },
-      capstoneHint: { en: 'Name every treasure and open the hall!', de: 'Benenne jeden Schatz und öffne den Saal!', fr: 'Nomme chaque trésor et ouvre la salle !', es: '¡Nombra cada tesoro y abre la sala!' },
-      mystery: { en: 'Mystery Gallery', de: 'Rätsel-Galerie', fr: 'Mystère', es: 'Sala de misterio' },
-      agree: { en: 'Yes!', de: 'Ja!', fr: 'Oui !', es: '¡Sí!' },
-      disagree: { en: 'No!', de: 'Nein!', fr: 'Non !', es: '¡No!' },
-      win: { en: 'The hall is open! 🎀', de: 'Der Saal ist offen! 🎀', fr: 'La salle est ouverte ! 🎀', es: '¡La sala ya está abierta! 🎀' },
-      revealTilted: { en: '{n}! Even turned — you knew.', de: '{n}! Auch gedreht — du hast’s gewusst.', fr: '{n} ! Même tourné, tu l’as reconnu.', es: '¡Un {n}! Aunque esté girado, lo supiste.' },
-      misroute: { en: "Hmm — that's a {n}. It goes over here.", de: 'Hmm — {n} gehört dorthin!', fr: 'Hmm — c’est un {n}. Il va par ici.', es: 'Mmm… ¡el {n} va allá!' },
-      hintCheck: { en: 'Name each treasure by its pedestal.', de: 'Benenne jeden Schatz an seinem Sockel.', fr: 'Nomme chaque trésor à son socle.', es: 'Nombra cada tesoro en su pedestal.' }
+      title: { en: "Professor Pip's Museum", de: 'Professor Pips Museum', fr: 'Le musée du professeur Pip', es: 'El museo de Pip', pt: 'O Museu do Professor Pip' },
+      prompt: { en: 'Name each treasure — any way it turns!', de: 'Benenne jeden Schatz — egal, wie er sich dreht!', fr: 'Nomme chaque trésor, même tourné !', es: '¡Nombra cada tesoro, no importa cómo esté girado!', pt: 'Dê o nome de cada tesouro, mesmo girado!' },
+      routeHint: { en: 'What is this? Tap its pedestal to name it.', de: 'Was ist das? Tippe auf den richtigen Sockel.', fr: 'Qu’est-ce que c’est ? Touche le bon socle pour le nommer.', es: '¿Qué es? Toca el pedestal correcto.', pt: 'O que é isto? Toque no pedestal para dar o nome.' },
+      excludeHint: { en: 'Name it — or send it to the Mystery Gallery!', de: 'Benenne es — oder schick es in die Rätsel-Galerie!', fr: 'Nomme-le, ou envoie-le au Mystère !', es: '¡Nómbralo… o mándalo a la sala de misterio!', pt: 'Dê o nome — ou leve aos Mistérios!' },
+      fineHint: { en: 'Square or rectangle? Look closely!', de: 'Quadrat oder Rechteck? Schau genau hin!', fr: 'Carré ou rectangle ? Regarde bien !', es: '¿Cuadrado o rectángulo? ¡Míralo bien!', pt: 'Quadrado ou retângulo? Olhe bem!' },
+      nameHint: { en: 'Pip wants a {n}! Tap the {n}.', de: 'Pip sucht diese Form: {n}. Tippe darauf!', fr: 'Pip cherche un {n} ! Touche-le !', es: 'Pip quiere esta figura: un {n}. ¡Tócala!', pt: 'O Pip quer um {n}! Toque no {n}.' },
+      matchHint: { en: 'Find the TWO {n}s — even if they look different!', de: 'Finde die ZWEI {np} — auch wenn sie anders aussehen!', fr: 'Trouve les DEUX {np} — même s’ils ont l’air différents !', es: 'Encuentra los DOS {np}… ¡aunque se vean distintos!', pt: 'Ache os DOIS {np} — mesmo que pareçam diferentes!' },
+      confirmHint: { en: 'Pip says it is a {n}. Is that right?', de: 'Pip nennt es {n}. Stimmt das?', fr: 'Pip dit que c’est un {n}. C’est vrai ?', es: 'Pip dice que es un {n}. ¿Es cierto?', pt: 'O Pip diz que é um {n}. Isso está certo?' },
+      capstoneHint: { en: 'Name every treasure and open the hall!', de: 'Benenne jeden Schatz und öffne den Saal!', fr: 'Nomme chaque trésor et ouvre la salle !', es: '¡Nombra cada tesoro y abre la sala!', pt: 'Dê o nome de tudo e abra o salão!' },
+      mystery: { en: 'Mystery Gallery', de: 'Rätsel-Galerie', fr: 'Mystère', es: 'Sala de misterio', pt: 'Galeria dos Mistérios' },
+      agree: { en: 'Yes!', de: 'Ja!', fr: 'Oui !', es: '¡Sí!', pt: 'Sim!' },
+      disagree: { en: 'No!', de: 'Nein!', fr: 'Non !', es: '¡No!', pt: 'Não!' },
+      win: { en: 'The hall is open! 🎀', de: 'Der Saal ist offen! 🎀', fr: 'La salle est ouverte ! 🎀', es: '¡La sala ya está abierta! 🎀', pt: 'O salão está aberto! 🎀' },
+      revealTilted: { en: '{n}! Even turned — you knew.', de: '{n}! Auch gedreht — du hast’s gewusst.', fr: '{n} ! Même tourné, tu l’as reconnu.', es: '¡Un {n}! Aunque esté girado, lo supiste.', pt: '{n}! Mesmo girado, você sabia!' },
+      misroute: { en: "Hmm — that's a {n}. It goes over here.", de: 'Hmm — {n} gehört dorthin!', fr: 'Hmm — c’est un {n}. Il va par ici.', es: 'Mmm… ¡el {n} va allá!', pt: 'Hmm — isso é um {n}. Ele vai aqui.' },
+      hintCheck: { en: 'Name each treasure by its pedestal.', de: 'Benenne jeden Schatz an seinem Sockel.', fr: 'Nomme chaque trésor à son socle.', es: 'Nombra cada tesoro en su pedestal.', pt: 'Dê o nome de cada tesouro pelo pedestal.' }
     },
     defaults: {},
 
@@ -138,7 +143,7 @@
       if (this.facet === 'fine-discriminate') return api.t('fineHint');
       if (this.facet === 'capstone') return api.t('capstoneHint');
       if (this.facet === 'name-to-shape') return api.t('nameHint').replace(/\{n\}/g, gname(this.target));
-      if (this.facet === 'match-pair') { var mh = api.t('matchHint'); return (LANG === 'de' || LANG === 'fr' || LANG === 'es') ? mh.replace('{np}', gnamePl(this.matchName)) : mh.replace('{n}', this.matchName); }
+      if (this.facet === 'match-pair') { var mh = api.t('matchHint'); return (LANG === 'de' || LANG === 'fr' || LANG === 'es' || LANG === 'pt') ? mh.replace('{np}', gnamePl(this.matchName)) : mh.replace('{n}', this.matchName); }
       if (this.facet === 'confirm-correct') { var c = this.claims[this.claimIdx]; return api.t('confirmHint').replace('{n}', gname(c ? c.claim : '')); }
       return api.t('routeHint');
     },
@@ -185,15 +190,15 @@
       if (this._spinning) return;
       var self = this, idx = this._activeBeltIdx(); if (idx < 0) return;
       var ex = this.belt[idx], truth = Core.classifyInvariant(ex.geom);
-      speak(type === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : 'Mystery') : gname(type));
+      speak(type === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : LANG === 'pt' ? 'Mistério' : 'Mystery') : gname(type));
       if (truth === type) {
         this._spinning = true; this.msg = null;
         if (this._activeEl) this._activeEl.style.transform = 'rotate(0deg) scale(1)';   // SPIN-TO-UPRIGHT (commit-only)
-        if (type !== 'mystery') { var nm = gname(truth); this.announce(this.api.t('revealTilted').replace('{n}', nm)); setTimeout(function () { speak(LANG === 'es' ? (nm + '! Aunque esté girado, lo supiste.') : LANG === 'de' ? (nm + '! Auch gedreht hast du es gewusst.') : LANG === 'fr' ? (nm + ' ! Même tourné, tu l’as reconnu.') : (nm + '! Even turned, you knew')); }, 180); }
+        if (type !== 'mystery') { var nm = gname(truth); this.announce(this.api.t('revealTilted').replace('{n}', nm)); setTimeout(function () { speak(LANG === 'es' ? (nm + '! Aunque esté girado, lo supiste.') : LANG === 'de' ? (nm + '! Auch gedreht hast du es gewusst.') : LANG === 'fr' ? (nm + ' ! Même tourné, tu l’as reconnu.') : LANG === 'pt' ? (nm + '! Mesmo girado, você sabia.') : (nm + '! Even turned, you knew')); }, 180); }
         this.api.sound && this.api.sound(880);
         setTimeout(function () { self._spinning = false; ex.routed = true; if (self._activeBeltIdx() < 0) self._win(); else self.render(); }, 440);
       } else {
-        var nm2 = truth === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : 'mystery shape') : gname(truth);
+        var nm2 = truth === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : LANG === 'pt' ? 'forma misteriosa' : 'mystery shape') : gname(truth);
         this.msg = this.api.t('misroute').replace('{n}', nm2); this.api.sound && this.api.sound(330);
         ex.geom = Core.genGeometryFor(ex.src.type, Core.reseed(ex.geom.rot * 131 + ex.src.seed), ex.src.assessed);   // RE-SEED on return
         this.announce(this.msg); this.render();
@@ -215,7 +220,7 @@
     _pickNamed: function (i, card) {
       var self = this, c = this.choices[i], truth = Core.classifyInvariant(c.geom);
       if (truth === this.target) { c.routed = true; card.querySelector('.pip-exhibit').style.transform = 'rotate(0deg) scale(1)'; speak(gname(this.target) + '!'); this.api.sound && this.api.sound(880); setTimeout(function () { self._win(); }, 440); }
-      else { this.msg = this.api.t('misroute').replace('{n}', truth === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : 'mystery shape') : gname(truth)); speak(LANG === 'es' ? ('Era un ' + gname(truth)) : LANG === 'de' ? ('Richtig wäre ' + gname(truth)) : LANG === 'fr' ? ('C’est plutôt un ' + gname(truth)) : ("That's a " + truth)); this.api.sound && this.api.sound(330); this.render(); }
+      else { this.msg = this.api.t('misroute').replace('{n}', truth === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : LANG === 'pt' ? 'forma misteriosa' : 'mystery shape') : gname(truth)); speak(LANG === 'es' ? ('Era un ' + gname(truth)) : LANG === 'de' ? ('Richtig wäre ' + gname(truth)) : LANG === 'fr' ? ('C’est plutôt un ' + gname(truth)) : LANG === 'pt' ? ('Isso é um ' + gname(truth)) : ("That's a " + truth)); this.api.sound && this.api.sound(330); this.render(); }
     },
 
     /* ----- match-pair: tap the two same-named exhibits ----- */
@@ -236,8 +241,8 @@
       this.selected.push(i); this.api.sound && this.api.sound(640);
       if (this.selected.length === 2) {
         var ok = this.selected.every(function (j) { return Core.classifyInvariant(self.set[j].geom) === self.matchName; });
-        if (ok) { this.api.sound && this.api.sound(880); speak(LANG === 'es' ? ('¡Los dos son ' + gnamePl(this.matchName) + '!') : LANG === 'de' ? ('Beide sind ' + gnamePl(this.matchName) + '!') : LANG === 'fr' ? ('Ce sont deux ' + gnamePl(this.matchName) + ' !') : ('Both ' + this.matchName + 's!')); setTimeout(function () { self._win(); }, 300); return; }
-        this.msg = (LANG === 'es') ? ('Esos no son los dos ' + gnamePl(this.matchName) + '… ¡mira otra vez!') : (LANG === 'de') ? ('Das sind nicht beide ' + gnamePl(this.matchName) + ' — schau nochmal!') : LANG === 'fr' ? ('Ce ne sont pas deux ' + gnamePl(this.matchName) + ' — regarde encore !') : ("Not both " + this.matchName + "s — look again!"); this.selected = []; this.api.sound && this.api.sound(330);
+        if (ok) { this.api.sound && this.api.sound(880); speak(LANG === 'es' ? ('¡Los dos son ' + gnamePl(this.matchName) + '!') : LANG === 'de' ? ('Beide sind ' + gnamePl(this.matchName) + '!') : LANG === 'fr' ? ('Ce sont deux ' + gnamePl(this.matchName) + ' !') : LANG === 'pt' ? ('Os dois são ' + gnamePl(this.matchName) + '!') : ('Both ' + this.matchName + 's!')); setTimeout(function () { self._win(); }, 300); return; }
+        this.msg = (LANG === 'es') ? ('Esos no son los dos ' + gnamePl(this.matchName) + '… ¡mira otra vez!') : (LANG === 'de') ? ('Das sind nicht beide ' + gnamePl(this.matchName) + ' — schau nochmal!') : LANG === 'fr' ? ('Ce ne sont pas deux ' + gnamePl(this.matchName) + ' — regarde encore !') : LANG === 'pt' ? ('Não são dois ' + gnamePl(this.matchName) + ' — olhe de novo!') : ("Not both " + this.matchName + "s — look again!"); this.selected = []; this.api.sound && this.api.sound(330);
       }
       this.render();
     },
@@ -256,15 +261,15 @@
       var self = this, c = this.claims[this.claimIdx], truth = Core.classifyInvariant(c.geom);
       var claimTrue = (truth === c.claim);
       if (agree === claimTrue) {
-        this.api.sound && this.api.sound(820); speak(truth === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : 'A mystery shape') : gname(truth));
+        this.api.sound && this.api.sound(820); speak(truth === 'mystery' ? (LANG === 'es' ? 'figura misteriosa' : LANG === 'de' ? 'Rätselform' : LANG === 'fr' ? 'forme mystère' : LANG === 'pt' ? 'forma misteriosa' : 'A mystery shape') : gname(truth));
         this.claimIdx++; this.msg = null;
         if (this.claimIdx >= this.claims.length) { setTimeout(function () { self._win(); }, 200); } else this.render();
-      } else { this.msg = (LANG === 'es') ? 'Mira otra vez… ¿qué figura es?' : (LANG === 'de') ? 'Schau nochmal — welche Form ist das?' : LANG === 'fr' ? 'Regarde encore — quelle forme est-ce ?' : "Look again — what shape IS it?"; this.api.sound && this.api.sound(330); this.render(); }
+      } else { this.msg = (LANG === 'es') ? 'Mira otra vez… ¿qué figura es?' : (LANG === 'de') ? 'Schau nochmal — welche Form ist das?' : LANG === 'fr' ? 'Regarde encore — quelle forme est-ce ?' : LANG === 'pt' ? 'Olhe de novo — que forma é essa?' : "Look again — what shape IS it?"; this.api.sound && this.api.sound(330); this.render(); }
     },
 
     _win: function () {
       this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 8);
-      this.api.sound && this.api.sound(920); this.render(); this.announce(this.api.t('win')); speak(LANG === 'es' ? 'La sala ya está abierta.' : LANG === 'de' ? 'Der Saal ist offen.' : LANG === 'fr' ? 'La salle est ouverte.' : 'The hall is open');
+      this.api.sound && this.api.sound(920); this.render(); this.announce(this.api.t('win')); speak(LANG === 'es' ? 'La sala ya está abierta.' : LANG === 'de' ? 'Der Saal ist offen.' : LANG === 'fr' ? 'La salle est ouverte.' : LANG === 'pt' ? 'O salão está aberto.' : 'The hall is open');
     },
     _renderDone: function (root) {
       var api = this.api;
@@ -331,7 +336,7 @@
         + '.pip-ribbon{font-size:clamp(22px,6vw,30px);}'
         + '.pip-pedestal:focus-visible,.pip-choice:focus-visible,.pip-jbtn:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         + '@media (max-height:760px),(max-width:480px){.pip-root{gap:5px;padding:8px;}.pip-pip{width:clamp(36px,8vw,44px);}.pip-bay{width:clamp(100px,28vw,128px);}.pip-pedestal{min-height:60px;}}'
-        + '@media (max-height:640px){.pip-root{gap:4px;}.pip-main{gap:8px;}.pip-bay{width:clamp(92px,24vw,116px);}.pip-pedestal{min-height:58px;padding:5px 8px;}}'
+        + '@media (max-height:640px){.pip-root{gap:2px;padding:5px;}.pip-main{gap:5px;}.pip-pip{width:clamp(30px,6.5vw,38px);}.pip-bay{width:clamp(84px,21vw,104px);}.pip-pedestal{min-height:46px;padding:3px 5px;}.pip-plate{font-size:11px;line-height:1.02;}}'
         + '@media (prefers-reduced-motion: reduce){.pip-exhibit{transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-pipmuseum', ''); tag.textContent = css; document.head.appendChild(tag);
     }

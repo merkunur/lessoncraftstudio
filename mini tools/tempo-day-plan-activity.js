@@ -23,16 +23,21 @@
      so the "durante" card never renders "durante de la…". Paired with the feminine-noun invariant in roundsL10n.es
      ("la <fem>." so "de la" never contracts to "del"), all three cards surface-swap grammatically. */
   var FORMS_ES = ['antes de', 'durante', 'después de'];
-  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : LANG === 'fr' ? FORMS_FR : LANG === 'es' ? FORMS_ES : Core.FORMS)[id] === round.correct; }
+  /* Portuguese (BR): "de" CONTRACTS with the article (de+a=da), so a bare "antes de" card + "a caminhada"
+     would render the ungrammatical "antes de a caminhada". Fix = bake the prep+article contraction into the
+     cards ("antes da"/"durante a"/"depois da") + keep every roundsL10n.pt after-noun FEMININE (bare, no article),
+     so all three cards render grammatically with any feminine head noun (antes da/durante a/depois da caminhada). */
+  var FORMS_PT = ['antes da', 'durante a', 'depois da'];
+  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : LANG === 'fr' ? FORMS_FR : LANG === 'es' ? FORMS_ES : LANG === 'pt' ? FORMS_PT : Core.FORMS)[id] === round.correct; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function turtleSVG() {
-    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : LANG === 'fr' ? 'Tempo la tortue' : LANG === 'es' ? 'Tempo la tortuga' : 'Tempo the turtle') + '">' +
+    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : LANG === 'fr' ? 'Tempo la tortue' : LANG === 'es' ? 'Tempo la tortuga' : LANG === 'pt' ? 'Tempo, a tartaruga' : 'Tempo the turtle') + '">' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="#4E9E5E"/>' +               /* shell */
       '<path d="M48 40 v40 M24 54 l48 12 M24 66 l48 -12" stroke="#377544" stroke-width="3" fill="none"/>' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="none" stroke="#377544" stroke-width="3"/>' +
@@ -46,13 +51,13 @@
     id: 'tempo-day-plan-activity',
 
     strings: {
-      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan', fr: 'La journée de Tempo', es: 'El día de Tempo' },
-      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.', fr: 'Touche avant, pendant ou après pour compléter la phrase.', es: 'Toca antes de, durante o después de para que quede bien en la oración.' },
-      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.', fr: 'Touche le mot de temps qui convient.', es: 'Toca la palabra del tiempo correcta.' },
-      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!', fr: 'Certaines choses arrivent avant, d’autres pendant, et d’autres après !', es: '¡Unas cosas pasan antes, otras mientras y otras después!' },
-      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?', fr: 'Est-ce que ça arrive d’abord, au milieu, ou à la fin ?', es: '¿Pasa primero, al mismo tiempo o al final?' },
-      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?', fr: 'Pense à l’ordre : avant, pendant ou après ?', es: 'Piensa en el orden: ¿antes, durante o después?' },
-      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢', fr: 'Oui ! C’est le bon moment. 🐢', es: '¡Sí! ¡Justo a tiempo! 🐢' }
+      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan', fr: 'La journée de Tempo', es: 'El día de Tempo', pt: 'O dia da Tempo' },
+      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.', fr: 'Touche avant, pendant ou après pour compléter la phrase.', es: 'Toca antes de, durante o después de para que quede bien en la oración.', pt: 'Toque em antes da, durante a ou depois da para completar a frase.' },
+      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.', fr: 'Touche le mot de temps qui convient.', es: 'Toca la palabra del tiempo correcta.', pt: 'Toque na palavra de tempo que combina.' },
+      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!', fr: 'Certaines choses arrivent avant, d’autres pendant, et d’autres après !', es: '¡Unas cosas pasan antes, otras mientras y otras después!', pt: 'Antes, durante ou depois? Tudo tem a sua hora!' },
+      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?', fr: 'Est-ce que ça arrive d’abord, au milieu, ou à la fin ?', es: '¿Pasa primero, al mismo tiempo o al final?', pt: 'Isso acontece primeiro, no meio ou no fim?' },
+      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?', fr: 'Pense à l’ordre : avant, pendant ou après ?', es: 'Piensa en el orden: ¿antes, durante o después?', pt: 'Pense na ordem: antes, durante ou depois?' },
+      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢', fr: 'Oui ! C’est le bon moment. 🐢', es: '¡Sí! ¡Justo a tiempo! 🐢', pt: 'Isso! Bem na hora certa. 🐢' }
     },
     defaults: {},
 
@@ -70,6 +75,7 @@
       if (LANG === 'de') this.view.choices = FORMS_DE.map(function (f, i) { return { id: i, word: f }; });
       else if (LANG === 'fr') this.view.choices = FORMS_FR.map(function (f, i) { return { id: i, word: f }; });
       else if (LANG === 'es') this.view.choices = FORMS_ES.map(function (f, i) { return { id: i, word: f }; });
+      else if (LANG === 'pt') this.view.choices = FORMS_PT.map(function (f, i) { return { id: i, word: f }; });
       this._cards = shuffle(this.view.choices.slice());
     },
 

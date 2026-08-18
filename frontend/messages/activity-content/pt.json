@@ -2663,6 +2663,31 @@
         "Representar situações de medida na fita métrica, mesmo com a incógnita no meio ou no início.",
         "Ganhar confiança para ler, interpretar e explicar problemas de comprimento com as próprias palavras."
       ]
+    },
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "No consultório da raposa veterinária, cada bichinho chega com um “sintoma” diferente — e o sintoma é sempre uma história de números. A criança escuta o caso com calma, coloca os números no diagrama certo e marca com “?” aquilo que ainda é mistério. Quando o modelo fica montado, ela escreve a resposta e o pacientinho sai curado.",
+        "A ideia central não é apenas calcular: é entender e representar o problema antes de responder. Aqui a incógnita pode estar em qualquer lugar da história — no fim, no meio e até no começo (“? + 5 = 12”) —, e também aparecem problemas de comparação, do tipo “quantos a mais?”. Um número distrator entra de propósito na cena, então não dá para adivinhar: a criança precisa realmente modelar a situação para saber o que somar e o que tirar, sempre dentro do campo até 20.",
+        "Tudo é grátis e sem pressa: não há cronômetro, não há pontuação e não há competição — só um jeito acolhedor de pensar, no ritmo de cada criança e sem medo de errar. A atividade usa materiais manipuláveis na tela e está alinhada à BNCC, dentro da unidade temática de Números, no trabalho com problemas de adição e subtração."
+      ],
+      "practices": [
+        "Ler o problema com atenção e identificar o que a história está perguntando.",
+        "Representar a situação com números em um diagrama (mudança, parte-parte-todo ou comparação).",
+        "Somar e subtrair dentro do campo numérico até 20.",
+        "Encontrar o número desconhecido em qualquer posição — no começo, no meio ou no fim.",
+        "Comparar duas quantidades e dizer quantos a mais ou a menos."
+      ],
+      "howToPlay": [
+        "Ouça ou leia com calma a história do pacientinho que chegou ao consultório.",
+        "Coloque os números no diagrama e marque com “?” o valor que ainda é mistério.",
+        "Escreva a resposta e toque em “Diagnosticar” para curar o bichinho."
+      ],
+      "learningGoals": [
+        "Eu consigo ler uma história de números e entender o que ela pede.",
+        "Eu sei montar o problema em um diagrama antes de calcular.",
+        "Eu consigo somar e subtrair até 20 para achar o número que falta.",
+        "Eu consigo comparar duas quantidades e dizer quantos a mais ou a menos."
+      ]
     }
   }
 }

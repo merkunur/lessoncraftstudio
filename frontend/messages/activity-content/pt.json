@@ -2923,6 +2923,29 @@
         "Eu vejo que 14 é uma dezena e 4 unidades",
         "Eu separo a dezena das unidades"
       ]
+    },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "Uma coruja curiosa adora adivinhar quantos docinhos cabem num frasco. O frasco aparece cheinho, você olha e dá o seu palpite: desliza o dedo pela reta numérica e trava um número de quantos acha que tem. E aqui vale uma regrinha gostosa: o seu palpite nunca está errado. Depois o frasco se abre, os docinhos se espalham pela tela, e você toca em cada um, um por um, para descobrir o número de verdade.",
+        "A ideia grande é esta: primeiro a gente estima (conta de olho, mais ou menos) e depois conta para conferir. Estimar não é acertar ou errar, é dar um chute esperto que a contagem vai confirmar. E quando você toca em cada docinho uma única vez, essa contagem responde à pergunta mais importante: quantos são? Não importa se eles estão numa fila, espalhados ou juntinhos em roda — o total é sempre o mesmo, e contar com calma sempre revela.",
+        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — ninguém corre contra o relógio e ninguém perde pontos. Ela é alinhada à BNCC, na unidade temática Números, e ajuda a criança a construir uma base firme para contar e estimar com segurança, no seu próprio ritmo."
+      ],
+      "practices": [
+        "Dar um palpite de quantos docinhos tem no frasco",
+        "Contar um a um para conferir quantos são de verdade",
+        "Comparar o palpite com o número real, sem falar em \"errado\"",
+        "Comparar dois frascos e ver qual tem mais"
+      ],
+      "howToPlay": [
+        "Dê o seu palpite deslizando na reta numérica e trave o número",
+        "O frasco se abre e espalha os docinhos pela tela",
+        "Toque em cada docinho para contar e descobrir quantos são"
+      ],
+      "learningGoals": [
+        "Eu dou um palpite de quantos docinhos tem",
+        "Eu conto um a um para conferir",
+        "Eu vejo se tinha mais ou menos do que eu pensei"
+      ]
     }
   }
 }

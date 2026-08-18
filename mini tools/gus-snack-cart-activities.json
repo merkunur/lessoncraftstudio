@@ -151,6 +151,16 @@
             "story": "Gus hatte 19 Kirschen. Er hat 47 dazugelegt."
           }
         ],
+        "pt": [
+          { "id": "r1", "band": 1, "a": 45, "b": 8, "op": "-", "story": "Gus tinha 45 nozes. Ele vendeu 8." },
+          { "id": "r2", "band": 1, "a": 23, "b": 15, "op": "+", "story": "Gus tinha 23 amoras. Ele colheu mais 15." },
+          { "id": "r3", "band": 2, "a": 60, "b": 25, "op": "-", "story": "Gus tinha 60 sementes. Ele vendeu 25." },
+          { "id": "r4", "band": 2, "a": 34, "b": 9, "op": "+", "story": "Gus tinha 34 bolotas. Ele achou mais 9." },
+          { "id": "r5", "band": 1, "a": 70, "b": 40, "op": "-", "story": "Gus tinha 70 cenouras. Ele deu 40." },
+          { "id": "r6", "band": 3, "a": 27, "b": 36, "op": "+", "story": "Gus tinha 27 maçãs. Ele embalou mais 36." },
+          { "id": "r7", "band": 2, "a": 88, "b": 16, "op": "-", "story": "Gus tinha 88 ameixas. Ele vendeu 16." },
+          { "id": "r8", "band": 3, "a": 19, "b": 47, "op": "+", "story": "Gus tinha 19 cerejas. Ele juntou mais 47." }
+        ],
         "fr": [
           {
             "id": "r1",
@@ -290,19 +300,22 @@
       "en": "gus-snack-cart",
       "de": "plus-und-minus-bis-100-klasse-2",
       "fr": "additionner-et-soustraire-jusqu-a-100-ce1",
-      "es": "sumar-y-restar-hasta-100-problemas-suma-resta-2-primaria"
+      "es": "sumar-y-restar-hasta-100-problemas-suma-resta-2-primaria",
+      "pt": "somar-e-subtrair-ate-100-2-ano"
     },
     "page_title": {
       "en": "Gus's Snack Cart — Add & Subtract Within 100 (Grade 2)",
       "de": "Rechnen bis 100 – online üben (Klasse 2)",
       "fr": "Additions CE1 jusqu'à 100 – exercice en ligne",
-      "es": "El carrito de Gus: sumar y restar hasta 100 (2.º de primaria)"
+      "es": "El carrito de Gus: sumar y restar hasta 100 (2.º de primaria)",
+      "pt": "Somar e subtrair até 100: a conta do Gus | 2º ano"
     },
     "page_intro": {
       "en": "Gus the gopher runs a busy snack cart — he is always restocking and selling! Read each little story, look at the number sentence, and add or subtract within 100 to find the answer. Type it on the keypad. A Grade 2 math game about adding and subtracting two-digit numbers fluently, aligned to Common Core 2.NBT.B.5.",
       "de": "Rechnen bis 100 online üben: Plus und Minus an Gus' Snackwagen für Klasse 2. Kostenlos online, ohne Anmeldung – sofort loslegen.",
       "fr": "Additions CE1 en ligne : additionner et soustraire jusqu'à 100 avec le stand de Gus. Gratuit, en ligne, sans inscription.",
-      "es": "Ayuda a Gus, la ardilla, en su carrito de botanas: tu peque suma y resta hasta 100 con reagrupación, ideal para 2.º de primaria. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP)."
+      "es": "Ayuda a Gus, la ardilla, en su carrito de botanas: tu peque suma y resta hasta 100 con reagrupación, ideal para 2.º de primaria. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "O Gus é um esquilo que cuida de um carrinho de lanches — e a cada rodada ele repõe o estoque ou faz uma venda. Seu filho lê a historinha, monta a conta e digita o resultado, somando e subtraindo até 100, com e sem reagrupamento. Uma atividade de 2º ano alinhada à BNCC, gratuita e interativa, para praticar no ritmo de cada criança."
     },
     "kid_prompt_template": "Add or subtract within 100 and type the answer."
   }

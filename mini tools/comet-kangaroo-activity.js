@@ -21,19 +21,19 @@
 
   var LANG = 'en';
   /* German hop rebuilt from childView's dir+deltaAbs (no core change); the core's hopWord is English */
-  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : LANG === 'fr' ? (v.deltaAbs + (v.dir === 'more' ? ' de plus' : ' de moins')) : LANG === 'es' ? (v.deltaAbs + (v.dir === 'more' ? ' más' : ' menos')) : v.hop; }
+  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : LANG === 'fr' ? (v.deltaAbs + (v.dir === 'more' ? ' de plus' : ' de moins')) : LANG === 'es' ? (v.deltaAbs + (v.dir === 'more' ? ' más' : ' menos')) : LANG === 'pt' ? (v.deltaAbs + (v.dir === 'more' ? ' a mais' : ' a menos')) : v.hop; }
   function ckgQuestion(v, full) {
     var h = ckgHop(v);
-    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : LANG === 'fr' ? ((full ? 'Combien font ' : '') + h + ' que ' + v.start + ' ?') : LANG === 'es' ? ((full ? '¿Cuánto es ' : '') + h + ' que ' + v.start + '?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
+    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : LANG === 'fr' ? ((full ? 'Combien font ' : '') + h + ' que ' + v.start + ' ?') : LANG === 'es' ? ((full ? '¿Cuánto es ' : '') + h + ' que ' + v.start + '?') : LANG === 'pt' ? ((full ? 'Quanto é ' : '') + h + ' que ' + v.start + '?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
   }
 
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function kangarooSVG() {
-    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : LANG === 'fr' ? 'Comète le kangourou' : LANG === 'es' ? 'Cometa el canguro' : 'Comet the kangaroo') + '">' +
+    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : LANG === 'fr' ? 'Comète le kangourou' : LANG === 'es' ? 'Cometa el canguro' : LANG === 'pt' ? 'Cometa, o canguru' : 'Comet the kangaroo') + '">' +
       '<path d="M30 80 q-6 -2 -2 -10 q4 -2 10 2 Z" fill="#B06A38"/>' +              /* tail */
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#C77E45"/>' +                 /* body */
       '<ellipse cx="50" cy="70" rx="12" ry="10" fill="#E6C39B"/>' +                 /* belly */
@@ -50,10 +50,10 @@
     id: 'comet-kangaroo-activity',
 
     strings: {
-      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru', fr: 'Comète le kangourou', es: 'Cometa el canguro' },
-      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.', fr: 'Comète fait un grand bond de 10 ou 100. Trouve où elle atterrit et tape le nombre.', es: 'Cometa da un gran salto de 10 o de 100. Descubre dónde cae y escribe el número.' },
-      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?', fr: 'Combien font {hop} que {start} ?', es: '¿Cuánto es {hop} que {start}?' },
-      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.', fr: 'Seuls les dizaines ou les centaines changent — le chiffre des unités reste le même.', es: 'Solo cambian las decenas o las centenas; las unidades se quedan igual.' }
+      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru', fr: 'Comète le kangourou', es: 'Cometa el canguro', pt: 'Cometa, o canguru' },
+      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.', fr: 'Comète fait un grand bond de 10 ou 100. Trouve où elle atterrit et tape le nombre.', es: 'Cometa da un gran salto de 10 o de 100. Descubre dónde cae y escribe el número.', pt: 'O Cometa dá um grande salto de 10 ou de 100. Descubra onde ele cai e digite o número.' },
+      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?', fr: 'Combien font {hop} que {start} ?', es: '¿Cuánto es {hop} que {start}?', pt: 'Quanto é {hop} que {start}?' },
+      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.', fr: 'Seuls les dizaines ou les centaines changent — le chiffre des unités reste le même.', es: 'Solo cambian las decenas o las centenas; las unidades se quedan igual.', pt: 'Só mudam as dezenas ou as centenas; as unidades ficam iguais.' }
     },
     defaults: {},
 
@@ -89,7 +89,7 @@
       row.appendChild(line);
       root.appendChild(row);
 
-      var read = api.el('button', 'ckg-read'); read.type = 'button'; read.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : LANG === 'fr' ? 'écouter la question' : LANG === 'es' ? 'escuchar la pregunta' : 'hear the question');
+      var read = api.el('button', 'ckg-read'); read.type = 'button'; read.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : LANG === 'fr' ? 'écouter la question' : LANG === 'es' ? 'escuchar la pregunta' : LANG === 'pt' ? 'ouvir a pergunta' : 'hear the question');
       read.innerHTML = '<span class="ckg-read-ic">🔊</span> ' + ckgQuestion(v, false);
       read.addEventListener('click', function () { speak(ckgQuestion(v, true)); });
       root.appendChild(read);
@@ -146,7 +146,7 @@
     return (rounds || []).map(function (round, i) {
       return {
         id: 'comet-kangaroo.round-' + i, band: round.band || 1,
-        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : LANG === 'fr' ? (Math.abs(round.delta) + (round.delta > 0 ? ' de plus' : ' de moins')) : LANG === 'es' ? (Math.abs(round.delta) + (round.delta > 0 ? ' más' : ' menos')) : Core.hopWord(round)), start: round.start },
+        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : LANG === 'fr' ? (Math.abs(round.delta) + (round.delta > 0 ? ' de plus' : ' de moins')) : LANG === 'es' ? (Math.abs(round.delta) + (round.delta > 0 ? ' más' : ' menos')) : LANG === 'pt' ? (Math.abs(round.delta) + (round.delta > 0 ? ' a mais' : ' a menos')) : Core.hopWord(round)), start: round.start },
         answerType: 'number', answerMin: 0, answerMax: 1000,
         setup: function (tool) { tool.setupTask(round); },
         check: function (tool, answer) { return Core.isAnswer(round, answer); },

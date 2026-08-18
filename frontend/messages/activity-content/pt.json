@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Bo é um coelho caprichoso que passa o outono enchendo a despensa para o inverno. Na estante dele, as amoras nunca ficam soltas de qualquer jeito: cada caixa guarda exatamente dez amoras, bem fechadinha, e do lado ficam as amoras avulsas que ainda não completaram uma caixa. É essa ideia simples e aconchegante — uma caixa é uma dezena, ela vale dez — que a criança descobre ajudando o Bo a organizar a despensa, prateleira por prateleira.",
+        "Por trás da brincadeira mora um dos aprendizados mais importantes do 2º ano: ler e representar números de dois algarismos como dezenas e unidades. A criança recebe um número (às vezes um monte de amoras, às vezes só o numeral, às vezes uma pergunta sobre o valor) e precisa escolher a prateleira certa — quantas caixas fechadas, ou seja, quantas dezenas, e quantas amoras soltas, as unidades. Trabalhando com valores até 85, ela vai percebendo, no próprio ritmo, que o algarismo da esquerda conta as caixas e o da direita conta as amoras soltas: é o valor posicional ganhando sentido concreto, com as mãos e com os olhos.",
+        "A atividade é gratuita e interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo. A proposta segue a BNCC na unidade temática Números do 2º ano, quando as crianças começam a compor e decompor quantidades em dezenas e unidades e a compreender o valor posicional de cada algarismo. Tudo acontece num clima calmo e acolhedor, sem pressa e sem cobrança: se algo não sai de primeira, o Bo espera com paciência e a criança tenta de novo, aprendendo com tranquilidade."
+      ],
+      "practices": [
+        "Enxergar cada caixa fechada como uma dezena — um grupo de dez amoras que vale dez.",
+        "Ler números de dois algarismos e dizer quantas dezenas e quantas unidades eles têm.",
+        "Compor e decompor quantidades até 85 juntando caixas (dezenas) e amoras soltas (unidades).",
+        "Reconhecer o valor posicional: o algarismo da esquerda conta as caixas, o da direita conta as amoras soltas."
+      ],
+      "howToPlay": [
+        "Leia o número que aparece na despensa do Bo — pode ser um monte de amoras, um numeral ou uma pergunta sobre o valor.",
+        "Escolha a prateleira com o número certo de caixas (as dezenas) e de amoras soltas (as unidades).",
+        "Lance as amoras para a prateleira escolhida e veja o Bo guardar tudo no lugar certinho."
+      ],
+      "learningGoals": [
+        "Compreender que uma caixa é uma dezena e vale dez amoras.",
+        "Ler e representar números de dois algarismos como dezenas e unidades, com valores até 85.",
+        "Fortalecer a noção de valor posicional de forma concreta e tranquila, no ritmo da criança."
+      ]
+    },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
         "O Gus é um esquilo esperto que abriu um carrinho de lanches e vive repondo o estoque e vendendo nozes, sementes e frutinhas. A cada rodada, a criança entra na história dele para descobrir com quantos itens o Gus ficou — uma forma calma e divertida de treinar as contas do dia a dia.",

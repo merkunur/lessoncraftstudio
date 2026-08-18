@@ -100,7 +100,8 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'friendship-bridge.compare-balance.k-cc-c-6': { de: '1', pt: '1' },     // K compare-sets-by-matching (Mengen vergleichen mehr/weniger/gleich viel) → Klasse 1; en stays Kindergarten (K-cluster pattern). PT 1º ano (BNCC EF01MA03 — "estimar e comparar quantidades de objetos de dois conjuntos por correspondência um a um: tem mais/tem menos/tem a mesma quantidade" = verbatim esta atividade; NÃO EF01MA05 que é comparar numerais escritos = irmão comparison-creek; mirrors de, diverge de fr/es que mantêm K por GS/SEP); strand Números auto (Counting&Cardinality, NO override — NÃO é a armadilha OA)
   'necklace.bead-string.k-cc-b-4': { de: '1', pt: '1' },                  // K count-to-cardinality → Klasse 1 / 1º ano (pt BNCC EF01MA04 contar-coleção→cardinal + EF01MA02 pareamento; invariância folded into EF01MA04; K-cluster→1º); en stays Kindergarten
 
-  'star-stitcher.connect-sequence.k-cc-a-2': { de: '1' },                 // K count-forward-from-N (Weiterzählen ab einer Zahl) → Klasse 1; en stays Kindergarten (K-cluster pattern)
+  'star-stitcher.connect-sequence.k-cc-a-2': { de: '1', pt: '1' },        // K count-forward-from-N → Klasse 1 / 1º ano (pt BNCC EF01MA01 nº como indicador de ordem + EF01MA02 pareamento; sobrecontagem; ≤18 no-place-value keeps it 1º; K-cluster→1º); en stays Kindergarten
+
   'mochi-feast.count-out.k-cc-b-5': { de: '1' },                          // K count-out-N / Menge herstellen (eine vorgegebene Anzahl abzählen) → Klasse 1; en stays Kindergarten (K-cluster pattern)
   'ten-tank.ten-frame-tank.k-nbt-a-1': { de: '1', fr: '1', es: '1' },              // K teen numbers 11-19 as ten+ones (Bündeln) → Klasse 1; en stays Kindergarten (K-cluster pattern). FR CP (operator-ruled): « une dizaine et des unités » structured-tens decomposition of 11-19 = début-CP attendu; native 'K'→GS too low (posy #71: la GS s'arrête vers 30, sans dizaines structurées); CP → « Nombres et calcul » auto-map correct → NO STRAND override. ES 1.º primaria (maestra-decisive #58): unitizar diez→una decena + valor posicional = entrada de primaria (preescolar no tiene decena); alinea los hermanos base-ten es (track-repair/bundle-bot='1'); strand auto «Sentido numérico» → NO es STRAND override
   'wondering-jar.estimate-jar.k-cc-b-5': { de: '1' },                     // K estimate-then-count (Anzahlen schätzen) → Klasse 1; en stays Kindergarten (K-cluster pattern)
@@ -537,7 +538,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.397';
+  const ACTIVITY_WRAPPER_VERSION = '9.398';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

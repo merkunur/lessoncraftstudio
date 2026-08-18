@@ -23,12 +23,13 @@
   var CREATURE_DE = { fox: 'einen Fuchs', owl: 'eine Eule', whale: 'einen Wal', deer: 'ein Reh', bear: 'einen Bären', cat: 'eine Katze', bird: 'einen Vogel' };
   var CREATURE_FR = { fox: 'un renard', owl: 'une chouette', whale: 'une baleine', deer: 'un cerf', bear: 'un ours', cat: 'un chat', bird: 'un oiseau' };
   var CREATURE_ES = { fox: 'un zorro', owl: 'una lechuza', whale: 'una ballena', deer: 'un venado', bear: 'un oso', cat: 'una gata', bird: 'un pájaro' };
+  var CREATURE_PT = { fox: 'uma raposa', owl: 'uma coruja', whale: 'uma baleia', deer: 'um cervo', bear: 'um urso', cat: 'um gato', bird: 'um passarinho' };
   var LANG = 'en';
-  function creaturePhrase(reveal) { return LANG === 'es' ? (CREATURE_ES[reveal] || 'una estrella') : LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : LANG === 'fr' ? (CREATURE_FR[reveal] || 'une étoile') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
+  function creaturePhrase(reveal) { return LANG === 'es' ? (CREATURE_ES[reveal] || 'una estrella') : LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : LANG === 'fr' ? (CREATURE_FR[reveal] || 'une étoile') : LANG === 'pt' ? (CREATURE_PT[reveal] || 'uma estrela') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function svgEl(tag, attrs) { var e = document.createElementNS('http://www.w3.org/2000/svg', tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
 
@@ -37,18 +38,18 @@
     reward: { id: 'night-sky', label: 'Night Sky', emoji: '🌌' },
 
     strings: {
-      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!', fr: 'Réveille les étoiles en comptant', es: '¡Cuenta las estrellas!' },
-      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!', fr: 'Compte pour avancer !', es: '¡Haz que la luciérnaga siga contando!' },
-      countOn: { en: 'Count on', de: 'Weiterzählen', fr: 'Compte encore', es: 'Sigue contando' },
-      wake: { en: 'Wake it!', de: 'Wecken!', fr: 'Réveille !', es: '¡Despierta!' },
-      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!', fr: 'Touche « Compte encore » pour avancer d’une étoile, puis « Réveille ! ».', es: 'Toca «Sigue contando» para que vuele a la siguiente estrella… ¡luego toca «Despierta»!' },
-      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.', fr: 'Touche l’étoile qui brille pour compter à partir de là.', es: 'Toca la estrella que brilla para contar desde ahí.' },
-      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!', fr: 'Touche chaque point pour les compter — c’est là qu’elle commence !', es: 'Toca cada punto y cuenta con él… ¡ahí empieza!' },
-      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.', fr: 'Pas encore — recompte depuis l’étoile allumée.', es: 'Todavía no… cuenta otra vez desde la estrella que brilla.' },
-      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!', fr: 'Tu as réveillé {c} !', es: '¡Despertaste a {c}!' },
-      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.', fr: 'Compte la luciole jusqu’à chaque étoile et réveille-la.', es: 'Lleva a la luciérnaga contando a cada estrella y despiértala.' },
-      startHere: { en: 'Start here', de: 'Hier starten', fr: 'Commence ici', es: 'Empieza aquí' },
-      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!', fr: 'Ça fait {n} — continue à compter !', es: 'Van {n}… ¡sigue contando!' }
+      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!', fr: 'Réveille les étoiles en comptant', es: '¡Cuenta las estrellas!', pt: 'Conte e acorde as estrelas!' },
+      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!', fr: 'Compte pour avancer !', es: '¡Haz que la luciérnaga siga contando!', pt: 'Conte para o vaga-lume avançar!' },
+      countOn: { en: 'Count on', de: 'Weiterzählen', fr: 'Compte encore', es: 'Sigue contando', pt: 'Conte mais' },
+      wake: { en: 'Wake it!', de: 'Wecken!', fr: 'Réveille !', es: '¡Despierta!', pt: 'Acorde!' },
+      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!', fr: 'Touche « Compte encore » pour avancer d’une étoile, puis « Réveille ! ».', es: 'Toca «Sigue contando» para que vuele a la siguiente estrella… ¡luego toca «Despierta»!', pt: 'Toque em Conte mais para ir à próxima estrela. Depois, Acorde!' },
+      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.', fr: 'Touche l’étoile qui brille pour compter à partir de là.', es: 'Toca la estrella que brilla para contar desde ahí.', pt: 'Toque na estrela acesa para começar a contar dali.' },
+      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!', fr: 'Touche chaque point pour les compter — c’est là qu’elle commence !', es: 'Toca cada punto y cuenta con él… ¡ahí empieza!', pt: 'Toque em cada ponto para contá-los — é daí que o vaga-lume começa!' },
+      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.', fr: 'Pas encore — recompte depuis l’étoile allumée.', es: 'Todavía no… cuenta otra vez desde la estrella que brilla.', pt: 'Ainda não — conte de novo a partir da estrela acesa.' },
+      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!', fr: 'Tu as réveillé {c} !', es: '¡Despertaste a {c}!', pt: 'Você acordou {c}!' },
+      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.', fr: 'Compte la luciole jusqu’à chaque étoile et réveille-la.', es: 'Lleva a la luciérnaga contando a cada estrella y despiértala.', pt: 'Conte o vaga-lume até cada estrela e depois Acorde!' },
+      startHere: { en: 'Start here', de: 'Hier starten', fr: 'Commence ici', es: 'Empieza aquí', pt: 'Começar aqui' },
+      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!', fr: 'Ça fait {n} — continue à compter !', es: 'Van {n}… ¡sigue contando!', pt: 'Deu {n} — conte mais!' }
     },
     defaults: {},
 
@@ -235,10 +236,10 @@
         + '.ss-skydot{font-size:clamp(11px,3vw,15px);color:rgba(20,107,94,.25);}.ss-skydot-on{color:' + C.GOLD + ';}'
         + '.ss-beat:focus-visible,.ss-wake:focus-visible,.ss-pip:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         /* short viewports */
-        + '@media (max-height:820px),(max-width:480px){.ss-root{gap:4px;padding:7px;}.ss-hint{-webkit-line-clamp:1;line-clamp:1;}.ss-numeral{font-size:34px;}.ss-beat{min-height:44px;}.ss-wake{min-height:42px;}.ss-creature{font-size:44px;}.ss-sky{display:none;}}'
+        + '@media (max-height:820px),(max-width:480px){.ss-root{gap:4px;padding:7px;}.ss-hint{-webkit-line-clamp:2;line-clamp:2;font-size:12px;}.ss-numeral{font-size:34px;}.ss-beat{min-height:44px;}.ss-wake{min-height:42px;}.ss-creature{font-size:44px;}.ss-sky{display:none;}}'
         + '@media (max-width:767px){.ss-panel{max-width:min(188px,22vh);}}'
-        + '@media (max-width:767px) and (max-height:680px){.ss-panel{max-width:min(156px,20vh);}}'
-        + '@media (max-width:360px){.ss-root{gap:3px;}.ss-main{gap:5px;}.ss-side{gap:6px;}.ss-panel{max-width:min(132px,17vh);}.ss-numeral{font-size:27px;min-width:50px;padding:1px 10px;}.ss-beat{min-height:40px;}.ss-wake{min-height:40px;}}'
+        + '@media (max-width:767px) and (max-height:680px){.ss-panel{max-width:min(150px,18vh);}}'
+        + '@media (max-width:360px){.ss-root{gap:3px;}.ss-main{gap:4px;}.ss-side{gap:5px;}.ss-panel{max-width:min(112px,15vh);}.ss-numeral{font-size:26px;min-width:48px;padding:1px 10px;}.ss-beat{min-height:40px;}.ss-wake{min-height:40px;}}'
         + '@media (prefers-reduced-motion: reduce){.ss-firefly,.ss-beat{animation:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-star-stitcher', ''); tag.textContent = css; document.head.appendChild(tag);
     }

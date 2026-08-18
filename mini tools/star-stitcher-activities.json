@@ -110,19 +110,22 @@
       "en": "count-the-stars-awake",
       "de": "weiterzaehlen-ab-einer-zahl-zahlenreihe-klasse-1",
       "fr": "compter-a-partir-d-un-nombre-reveiller-les-etoiles-gs",
-      "es": "seguir-contando-a-partir-de-un-numero-preescolar"
+      "es": "seguir-contando-a-partir-de-un-numero-preescolar",
+      "pt": "contar-a-partir-de-um-numero-sequencia-com-estrelas-1-ano"
     },
     "page_title": {
       "en": "Count the Stars Awake — Counting On from a Number (Kindergarten)",
       "de": "Weiterzählen ab einer Zahl: Sterne wecken – Klasse 1",
       "fr": "Suite des nombres – compter à partir d'un nombre, en ligne (GS)",
-      "es": "Seguir contando desde un número: conteo ascendente (preescolar)"
+      "es": "Seguir contando desde un número: conteo ascendente (preescolar)",
+      "pt": "Contar a Partir de um Número: Continuar a Contagem com Estrelas — 1º Ano"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting game: a little firefly is stuck — she can only fly where you have already counted. Start at the one lit star and count her FORWARD, one dark star at a time (eight… nine… ten…), waking each star as you go. When the last star lights, the sleeping constellation wakes up. Counting forward from a given number — not always starting at one — is the heart of Common Core K.CC.A.2.",
       "de": "Weiterzählen ab einer Zahl üben: In diesem kostenlosen, interaktiven Spiel für Klasse 1 zählst du vorwärts und weckst Stern für Stern – jetzt loslegen!",
       "fr": "La suite des nombres : compter à partir d'un nombre donné pour réveiller les étoiles une à une. Gratuit, en ligne, sans inscription.",
-      "es": "Juego gratis de conteo: tu peque sigue contando a partir de un número y despierta las estrellas una a una. Interactivo, sin registro, para preescolar (SEP)."
+      "es": "Juego gratis de conteo: tu peque sigue contando a partir de un número y despierta las estrellas una a una. Interactivo, sin registro, para preescolar (SEP).",
+      "pt": "Ajude o vaga-lume a continuar a contagem a partir de uma estrela acesa, acordando o céu noturno número por número. Atividade grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "connect-sequence"
   }

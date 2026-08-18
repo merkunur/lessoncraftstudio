@@ -2854,6 +2854,29 @@
         "Eu sei que a quantidade não muda quando só muda a arrumação das contas.",
         "Eu transformo um número que ouço ou vejo na quantidade certa de contas."
       ]
+    },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "É noite e o céu está cheio de estrelas apagadas. No meio delas, um vaga-lume quer voar — mas ele é teimoso de um jeito bonito: só pousa numa estrela que já foi contada. Uma única estrela já está acesa, mostrando o número onde a contagem começa (às vezes o 7, às vezes outro). A criança toca na tela e o vaga-lume segue contando dali para a frente, uma estrela escura por vez — \"oito… nove… dez…\" —, acendendo cada estrelinha conforme conta. Quando a última acende, uma criatura adormecida do céu (uma raposa, uma coruja, um urso…) desperta: a constelação inteira aparece.",
+        "A grande ideia é simples e poderosa: contar a partir de um número dado, sem recomeçar do 1. Em vez de voltar lá no comecinho toda vez, a criança aprende a continuar a contagem de onde ela já está — a sobrecontagem. Isso é exatamente o que prepara o caminho para somar contando a partir de uma parcela: \"eu já tenho 7, então conto mais — 8, 9, 10\". Ao acender as estrelas em ordem, a criança sente na prática que cada número vem logo depois do outro e que dá para partir de qualquer ponto da sequência.",
+        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — nada de pressa nem de nota, só a criança, o vaga-lume e o céu. Ela está alinhada à BNCC, na unidade temática Números, trabalhando a contagem e a sequência numérica de forma tranquila. E, quase sem perceber, a criança já vai construindo uma base sólida para somar contando a partir de um número."
+      ],
+      "practices": [
+        "Continuar a contagem a partir de um número dado, sem voltar ao 1.",
+        "Dizer a sequência dos números em voz alta — oito, nove, dez.",
+        "Reconhecer onde a contagem começa (a estrela que já está acesa).",
+        "Perceber que cada estrela contada acende e que a criatura acorda quando a última se ilumina."
+      ],
+      "howToPlay": [
+        "Olhe a estrela que já está acesa — é daí que a contagem começa.",
+        "Toque na tela para o vaga-lume continuar contando, uma estrela por vez.",
+        "Vá acordando cada estrela até a última acender e a criatura aparecer."
+      ],
+      "learningGoals": [
+        "Eu continuo a contagem a partir de um número, sem recomeçar do 1.",
+        "Eu digo a sequência dos números em ordem.",
+        "Eu conto mais um, mais um, até chegar no final."
+      ]
     }
   }
 }

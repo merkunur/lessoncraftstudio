@@ -47,6 +47,14 @@
       winBack: '¡Exacto! {start} − {n} min = {end}.',
       hint: 'Empieza en el reloj y cuenta los minutos hacia adelante.',
       hintBack: 'Empieza en el reloj y cuenta los minutos hacia atrás.'
+    },
+    pt: {
+      q: 'Que horas vão ser daqui a {n} minutos?',
+      qBack: 'Que horas eram {n} minutos atrás?',
+      win: 'Isso! {start} + {n} min = {end}.',
+      winBack: 'Isso! {start} − {n} min = {end}.',
+      hint: 'Comece no relógio e conte os minutos para a frente.',
+      hintBack: 'Comece no relógio e conte os minutos para trás.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -79,6 +87,16 @@
       if (mm === 45) { var nh = (hh === 12 ? 1 : hh + 1); return nh + (nh === 1 ? ' heure moins le quart' : ' heures moins le quart'); }
       return Core.digitalStr(t);
     }
+    if (LANG === 'pt') {
+      var HRS_PT = ['', 'uma', 'duas', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze'];
+      var MIN_PT = { 5: 'cinco', 10: 'dez', 20: 'vinte', 25: 'vinte e cinco', 35: 'trinta e cinco', 40: 'quarenta', 50: 'cinquenta', 55: 'cinquenta e cinco' };
+      var nxp = (hh === 12 ? 1 : hh + 1);
+      if (mm === 0) return HRS_PT[hh] + (hh === 1 ? ' hora' : ' horas');
+      if (mm === 30) return HRS_PT[hh] + ' e meia';
+      if (mm === 15) return HRS_PT[hh] + ' e quinze';
+      if (mm === 45) return 'quinze para ' + (nxp === 1 ? 'a uma' : 'as ' + HRS_PT[nxp]);
+      return HRS_PT[hh] + ' e ' + (MIN_PT[mm] || String(mm));
+    }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
     if (mm === 15) return 'quarter past ' + hh;
@@ -87,7 +105,7 @@
   }
 
   function clockSVG(h, m) {
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'es' ? 'carátula del reloj' : LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : 'clock face') });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'es' ? 'carátula del reloj' : LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : LANG === 'pt' ? 'mostrador do relógio' : 'clock face') });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.RIM, 'stroke-width': 3.5 }));
     for (var n = 1; n <= 12; n++) {
       var a = n * 30 * Math.PI / 180;
@@ -123,8 +141,8 @@
   var ClockElapsedActivity = {
     id: 'clock-elapsed-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket' },
-      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O Relógio do Sprocket' },
+      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.', pt: 'Leia a hora inicial e conte os minutos para a frente.' },
       q: { en: '{q}' }
     },
 
@@ -279,6 +297,8 @@
         ? '<p>Die Uhr zeigt ' + spoken(round.start) + '. ' + qText + ' Zur Auswahl stehen: ' + cs + '.</p>'
         : (LANG === 'fr')
         ? '<p>L’horloge indique ' + spoken(round.start) + '. ' + qText + ' Les choix sont : ' + cs + '.</p>'
+        : (LANG === 'pt')
+        ? '<p>O relógio marca ' + spoken(round.start) + '. ' + qText + ' As opções são: ' + cs + '.</p>'
         : '<p>The clock shows ' + spoken(round.start) + '. ' + qText + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

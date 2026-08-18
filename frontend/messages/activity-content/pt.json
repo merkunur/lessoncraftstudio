@@ -2992,6 +2992,52 @@
         "Eu sei que cada caixa cheia vale 10",
         "Eu acho o total contando as caixas"
       ]
+    },
+    "clock-elapsed.what-time.3-md-a-1": {
+      "about": [
+        "Sprocket, o galo mais animado da fazenda, está de olho no relógio — e chama a sua criança para descobrir junto que horas vão ser. Os ponteiros marcam uma hora certinha, e a partir dali começa a brincadeira: ler o relógio, contar os minutos e chegar na resposta sem pressa nenhuma.",
+        "A ideia central desta atividade é contar os minutos para frente. A criança vê que horas são no relógio e, a partir do ponto de partida, avança de minuto em minuto para achar que horas vão ser daqui a um tempinho — por exemplo, \"são 3:00, que horas vão ser daqui a 30 minutos?\". Quando os minutos passam de 60, ela aprende a virar a hora e a continuar contando com tranquilidade, entendendo que passar da hora é só seguir para a próxima marca do relógio.",
+        "É tudo de graça, sem cadastro, sem cronômetro correndo e sem pontuação — ninguém é apressado nem comparado com ninguém. A atividade é alinhada à BNCC, na unidade temática Grandezas e medidas, e foi pensada para a criança explorar o relógio no ritmo dela, errando e tentando de novo quantas vezes quiser."
+      ],
+      "practices": [
+        "Ler que horas são olhando os ponteiros do relógio",
+        "Contar os minutos para frente a partir da hora de início",
+        "Descobrir que horas vão ser daqui a um número de minutos",
+        "Virar a hora com calma quando os minutos passam de 60"
+      ],
+      "howToPlay": [
+        "Olhe o relógio do Sprocket e veja que horas são agora.",
+        "Conte os minutos para frente até o tempo que a atividade pede.",
+        "Toque na resposta para dizer que horas vão ser — e o galo comemora com você."
+      ],
+      "learningGoals": [
+        "Eu consigo ler que horas são no relógio.",
+        "Eu consigo contar os minutos para frente para achar que horas vão ser.",
+        "Eu consigo virar a hora quando os minutos passam de 60."
+      ]
+    },
+    "clock-elapsed.add-subtract.3-md-a-1": {
+      "about": [
+        "O galo Sprocket volta com o relógio na mão e um convite novo: agora dá para andar no tempo nos dois sentidos. Os ponteiros mostram a hora de partida, a criança lê que horas são e escolhe o caminho — ir para frente ou voltar um pouco — sempre com o Sprocket torcendo do lado.",
+        "O coração desta atividade é somar e subtrair minutos. Às vezes a pergunta pede para ir para frente, \"que horas vão ser daqui a 45 minutos?\", e às vezes pede para voltar no tempo, \"que horas eram 20 minutos atrás?\". Nos dois casos a criança conta os minutos com cuidado e, quando precisa, vira a hora — passando para a próxima hora ao somar ou voltando para a hora anterior ao subtrair.",
+        "Nada é cobrado: é de graça, sem cadastro, sem cronômetro e sem pontuação, para a criança pensar no tempo dela. A atividade é alinhada à BNCC, na unidade temática Grandezas e medidas, e cada tentativa é uma chance de entender melhor como os minutos e as horas caminham juntos no relógio."
+      ],
+      "practices": [
+        "Somar minutos para descobrir que horas vão ser daqui a N minutos",
+        "Subtrair minutos para descobrir que horas eram N minutos atrás",
+        "Escolher o caminho certo: para frente ou para trás no tempo",
+        "Virar a hora ao passar de 60 minutos, somando ou subtraindo"
+      ],
+      "howToPlay": [
+        "Veja no relógio do Sprocket que horas são no começo.",
+        "Some ou subtraia os minutos que a atividade pedir — daqui a N minutos ou N minutos atrás.",
+        "Toque na resposta certa e comemore junto com o galo."
+      ],
+      "learningGoals": [
+        "Eu consigo somar minutos e achar que horas vão ser.",
+        "Eu consigo subtrair minutos e achar que horas eram antes.",
+        "Eu consigo virar a hora quando somo ou subtraio e passo de 60 minutos."
+      ]
     }
   }
 }

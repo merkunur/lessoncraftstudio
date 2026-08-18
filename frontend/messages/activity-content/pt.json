@@ -2502,6 +2502,29 @@
         "Relacionar o arranjo retangular à soma repetida e à multiplicação.",
         "Ler e escrever somas de parcelas iguais com autonomia."
       ]
+    },
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "O Cometa é um canguru que adora dar saltos enormes pela reta dos números. A criança vê um número de três algarismos, como “247”, e ao lado um salto: “10 a mais”, “10 a menos”, “100 a mais” ou “100 a menos”. A tarefa é descobrir mentalmente onde o Cometa vai cair e digitar o número novo — sem contar de um em um, só pensando no que muda em cada casa.",
+        "A grande ideia aparece salto após salto: somar ou tirar 10 muda apenas o algarismo das dezenas, e somar ou tirar 100 muda apenas o das centenas — as unidades ficam sempre iguais. Perceber isso é compreender o valor posicional, que é a base de todo o cálculo. Aos poucos, a criança passa a se mover com segurança pelos números até 1000, enxergando cada número como centenas, dezenas e unidades.",
+        "A atividade é gratuita e interativa, funciona direto no navegador e não pede cadastro. Não há cronômetro nem pontuação: o clima é acolhedor e formativo, para a criança pensar com calma, tentar de novo e ganhar confiança no cálculo mental. Feita para o 3º ano e alinhada à BNCC, dentro da unidade temática Números."
+      ],
+      "practices": [
+        "Calcular de cabeça 10 ou 100 a mais e a menos, sem contar de um em um.",
+        "Reconhecer as centenas, dezenas e unidades em números até 1000.",
+        "Entender que cada salto muda só um algarismo, e as unidades ficam iguais.",
+        "Orientar-se com segurança pelos números até 1000."
+      ],
+      "howToPlay": [
+        "Olhe o número que aparece, como “247”, e o salto pedido, como “10 a mais”.",
+        "Calcule mentalmente onde o Cometa cai: pense qual algarismo muda.",
+        "Digite o número novo e confira para onde o Cometa saltou."
+      ],
+      "learningGoals": [
+        "Dominar o cálculo mental de 10 e 100 a mais ou a menos até 1000.",
+        "Compreender o valor posicional de unidades, dezenas e centenas.",
+        "Ganhar segurança para operar com números até 1000 de cabeça."
+      ]
     }
   }
 }

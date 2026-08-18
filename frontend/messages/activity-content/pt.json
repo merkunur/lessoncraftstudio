@@ -2877,6 +2877,29 @@
         "Eu digo a sequência dos números em ordem.",
         "Eu conto mais um, mais um, até chegar no final."
       ]
+    },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "O Mochi está com fome! Esse bolinho fofo pede um número exato de guloseimas — por exemplo, \"Dê 5 morangos ao Mochi!\". Você toca no prato para colocar uma guloseima de cada vez dentro da tigela, uma a uma, e para quando chegar no número certo. Se colocar demais, é só tocar em uma guloseima para tirar de volta.",
+        "A grande ideia aqui é produzir uma coleção com a quantidade pedida: contar um a um até chegar no número e parar. É a outra ponta da contagem — não é só dizer quantas guloseimas tem, é formar a quantidade certa você mesmo. E como não aparece nenhum numeral na tigela, a própria tigela enchendo é a contagem: a criança vê a quantidade crescer e sente onde ela precisa parar.",
+        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — nada de pressa nem de errado na cara da criança, só o Mochi esperando o lanchinho. Ela está alinhada à BNCC, na unidade temática Números, e é uma base tranquila para depois juntar e somar coleções."
+      ],
+      "practices": [
+        "Contar um a um até a quantidade pedida",
+        "Parar no número certo, sem passar",
+        "Tirar uma guloseima quando colocou demais",
+        "Formar uma coleção com um número dado"
+      ],
+      "howToPlay": [
+        "Veja quantas guloseimas o Mochi quer",
+        "Toque no prato para colocar uma de cada vez na tigela",
+        "Pare no número certo e toque em Verificar"
+      ],
+      "learningGoals": [
+        "Eu conto um a um até formar a quantidade pedida",
+        "Eu paro no número certo",
+        "Eu tiro uma quando coloco demais"
+      ]
     }
   }
 }

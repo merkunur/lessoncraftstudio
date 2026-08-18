@@ -13,7 +13,7 @@
   <title data-translate="page.title">Image Subtraction Worksheet Generator</title>
   <!-- Translation Infrastructure - MUST load before other scripts -->
   <script src="js/translations-subtraction.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2236,7 +2236,7 @@
       function addText() {
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
-          const textContent = textInput.value.trim() || 'New Text';
+          const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
           const textObject = new fabric.Textbox(textContent, {
               left: (currentCanvasConfig.width - 250) / 2,
               top: (currentCanvasConfig.height - 100) / 2,
@@ -2514,74 +2514,74 @@
                   descriptionMixed: 'Practice subtraction with mixed exercise types!'
               },
               de: {
-                  title: 'Subtraktion Spaß',
+                  title: 'Spaß mit Subtraktion',
                   descriptionCrossOut: 'Streiche Bilder durch und finde die Antwort!',
                   descriptionImageNumber: 'Zähle die Bilder, ziehe die Zahl ab und schreibe deine Antwort!',
                   descriptionFindSubtrahend: 'Finde die fehlende Zahl, um die Subtraktion zu vervollständigen!',
                   descriptionMixed: 'Übe Subtraktion mit gemischten Aufgabentypen!'
               },
               fr: {
-                  title: 'Soustractions Amusantes',
-                  descriptionCrossOut: 'Barre les images et trouve la réponse!',
-                  descriptionImageNumber: 'Compte les images, soustrais le nombre et écris ta réponse!',
-                  descriptionFindSubtrahend: 'Trouve le nombre manquant pour compléter la soustraction!',
-                  descriptionMixed: 'Pratique la soustraction avec des types d\'exercices mixtes!'
+                  title: 'Soustractions amusantes',
+                  descriptionCrossOut: 'Barre les images et trouve la réponse !',
+                  descriptionImageNumber: 'Compte les images, soustrais le nombre et écris ta réponse !',
+                  descriptionFindSubtrahend: 'Trouve le nombre manquant pour compléter la soustraction !',
+                  descriptionMixed: 'Entraîne-toi à la soustraction avec des exercices variés !'
               },
               es: {
-                  title: 'Restas Divertidas',
+                  title: 'Restas divertidas',
                   descriptionCrossOut: '¡Tacha las imágenes y encuentra la respuesta!',
                   descriptionImageNumber: '¡Cuenta las imágenes, resta el número y escribe tu respuesta!',
                   descriptionFindSubtrahend: '¡Encuentra el número que falta para completar la resta!',
-                  descriptionMixed: '¡Practica la resta con tipos de ejercicios mixtos!'
+                  descriptionMixed: '¡Practica la resta con ejercicios variados!'
               },
               it: {
-                  title: 'Sottrazioni Divertenti',
-                  descriptionCrossOut: 'Cancella le immagini e trova la risposta!',
-                  descriptionImageNumber: 'Conta le immagini, sottrai il numero e scrivi la tua risposta!',
+                  title: 'Sottrazioni divertenti',
+                  descriptionCrossOut: 'Barra le immagini e trova la risposta!',
+                  descriptionImageNumber: 'Conta le immagini, sottrai il numero e scrivi la risposta!',
                   descriptionFindSubtrahend: 'Trova il numero mancante per completare la sottrazione!',
-                  descriptionMixed: 'Pratica la sottrazione con tipi di esercizi misti!'
+                  descriptionMixed: 'Pratica la sottrazione con esercizi misti!'
               },
               pt: {
-                  title: 'Subtrações Divertidas',
-                  descriptionCrossOut: 'Risca as imagens e encontra a resposta!',
-                  descriptionImageNumber: 'Conta as imagens, subtrai o número e escreve a tua resposta!',
-                  descriptionFindSubtrahend: 'Encontra o número em falta para completar a subtração!',
-                  descriptionMixed: 'Pratica a subtração com tipos de exercícios mistos!'
+                  title: 'Subtrações divertidas',
+                  descriptionCrossOut: 'Risque as imagens e encontre a resposta!',
+                  descriptionImageNumber: 'Conte as imagens, subtraia o número e escreva sua resposta!',
+                  descriptionFindSubtrahend: 'Encontre o número que falta para completar a subtração!',
+                  descriptionMixed: 'Pratique a subtração com exercícios variados!'
               },
               nl: {
-                  title: 'Aftrekken is Leuk',
+                  title: 'Aftrekken is leuk',
                   descriptionCrossOut: 'Streep de plaatjes door en vind het antwoord!',
                   descriptionImageNumber: 'Tel de afbeeldingen, trek het getal eraf en schrijf je antwoord!',
                   descriptionFindSubtrahend: 'Vind het ontbrekende getal om de aftrekking te voltooien!',
-                  descriptionMixed: 'Oefen aftrekken met gemengde oefeningstypes!'
+                  descriptionMixed: 'Oefen aftrekken met verschillende soorten sommen!'
               },
               sv: {
-                  title: 'Rolig Subtraktion',
+                  title: 'Rolig subtraktion',
                   descriptionCrossOut: 'Stryk över bilderna och hitta svaret!',
                   descriptionImageNumber: 'Räkna bilderna, dra av talet och skriv ditt svar!',
                   descriptionFindSubtrahend: 'Hitta det saknade talet för att slutföra subtraktionen!',
                   descriptionMixed: 'Öva subtraktion med blandade övningstyper!'
               },
               da: {
-                  title: 'Sjov Subtraktion',
+                  title: 'Sjov subtraktion',
                   descriptionCrossOut: 'Streg billeder ud og find svaret!',
                   descriptionImageNumber: 'Tæl billederne, træk tallet fra og skriv dit svar!',
                   descriptionFindSubtrahend: 'Find det manglende tal for at fuldføre subtraktionen!',
                   descriptionMixed: 'Øv subtraktion med blandede øvelsestyper!'
               },
               no: {
-                  title: 'Moro med Subtraksjon',
+                  title: 'Moro med subtraksjon',
                   descriptionCrossOut: 'Stryk ut bildene og finn svaret!',
                   descriptionImageNumber: 'Tell bildene, trekk fra tallet og skriv svaret ditt!',
                   descriptionFindSubtrahend: 'Finn det manglende tallet for å fullføre subtraksjonen!',
                   descriptionMixed: 'Øv på subtraksjon med blandede øvelsestyper!'
               },
               fi: {
-                  title: 'Hauskaa Vähennyslaskua',
+                  title: 'Hauskaa vähennyslaskua',
                   descriptionCrossOut: 'Yliviivaa kuvat ja etsi vastaus!',
                   descriptionImageNumber: 'Laske kuvat, vähennä luku ja kirjoita vastauksesi!',
-                  descriptionFindSubtrahend: 'Löydä puuttuva luku vähennyslaskun täydentämiseksi!',
-                  descriptionMixed: 'Harjoittele vähennyslaskua sekatyyppisillä tehtävillä!'
+                  descriptionFindSubtrahend: 'Löydä puuttuva luku ja täydennä vähennyslasku!',
+                  descriptionMixed: 'Harjoittele vähennyslaskua erilaisilla tehtävillä!'
               }
           };
 
@@ -3029,8 +3029,8 @@
         let nameDateGroup = worksheetCanvas.getObjects().find(o => o.isNameDateGroup);
         if (includeNameDateCheckbox.checked) {
             if (!nameDateGroup) {
-                const nameTextObj = new fabric.Textbox("Name: _________________________", { fontSize: 18, fontFamily: 'Arial', top: 0, left: 0 });
-                const dateTextObj = new fabric.Textbox("Date: ____________", { fontSize: 18, fontFamily: 'Arial', top: 0, left: nameTextObj.width + 30 });
+                const nameTextObj = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' _________________________';})(), { fontSize: 18, fontFamily: 'Arial', top: 0, left: 0 });
+                const dateTextObj = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________';})(), { fontSize: 18, fontFamily: 'Arial', top: 0, left: nameTextObj.width + 30 });
                 nameDateGroup = new fabric.Group([nameTextObj, dateTextObj], { 
                     left: marginLeft, 
                     top: currentY, 
@@ -5607,74 +5607,74 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                   descriptionMixed: 'Practice subtraction with mixed exercise types!'
               },
               de: {
-                  title: 'Subtraktion Spaß',
+                  title: 'Spaß mit Subtraktion',
                   descriptionCrossOut: 'Streiche Bilder durch und finde die Antwort!',
                   descriptionImageNumber: 'Zähle die Bilder, ziehe die Zahl ab und schreibe deine Antwort!',
                   descriptionFindSubtrahend: 'Finde die fehlende Zahl, um die Subtraktion zu vervollständigen!',
                   descriptionMixed: 'Übe Subtraktion mit gemischten Aufgabentypen!'
               },
               fr: {
-                  title: 'Soustractions Amusantes',
-                  descriptionCrossOut: 'Barre les images et trouve la réponse!',
-                  descriptionImageNumber: 'Compte les images, soustrais le nombre et écris ta réponse!',
-                  descriptionFindSubtrahend: 'Trouve le nombre manquant pour compléter la soustraction!',
-                  descriptionMixed: 'Pratique la soustraction avec des types d\'exercices mixtes!'
+                  title: 'Soustractions amusantes',
+                  descriptionCrossOut: 'Barre les images et trouve la réponse !',
+                  descriptionImageNumber: 'Compte les images, soustrais le nombre et écris ta réponse !',
+                  descriptionFindSubtrahend: 'Trouve le nombre manquant pour compléter la soustraction !',
+                  descriptionMixed: 'Entraîne-toi à la soustraction avec des exercices variés !'
               },
               es: {
-                  title: 'Restas Divertidas',
+                  title: 'Restas divertidas',
                   descriptionCrossOut: '¡Tacha las imágenes y encuentra la respuesta!',
                   descriptionImageNumber: '¡Cuenta las imágenes, resta el número y escribe tu respuesta!',
                   descriptionFindSubtrahend: '¡Encuentra el número que falta para completar la resta!',
-                  descriptionMixed: '¡Practica la resta con tipos de ejercicios mixtos!'
+                  descriptionMixed: '¡Practica la resta con ejercicios variados!'
               },
               it: {
-                  title: 'Sottrazioni Divertenti',
-                  descriptionCrossOut: 'Cancella le immagini e trova la risposta!',
-                  descriptionImageNumber: 'Conta le immagini, sottrai il numero e scrivi la tua risposta!',
+                  title: 'Sottrazioni divertenti',
+                  descriptionCrossOut: 'Barra le immagini e trova la risposta!',
+                  descriptionImageNumber: 'Conta le immagini, sottrai il numero e scrivi la risposta!',
                   descriptionFindSubtrahend: 'Trova il numero mancante per completare la sottrazione!',
-                  descriptionMixed: 'Pratica la sottrazione con tipi di esercizi misti!'
+                  descriptionMixed: 'Pratica la sottrazione con esercizi misti!'
               },
               pt: {
-                  title: 'Subtrações Divertidas',
-                  descriptionCrossOut: 'Risca as imagens e encontra a resposta!',
-                  descriptionImageNumber: 'Conta as imagens, subtrai o número e escreve a tua resposta!',
-                  descriptionFindSubtrahend: 'Encontra o número em falta para completar a subtração!',
-                  descriptionMixed: 'Pratica a subtração com tipos de exercícios mistos!'
+                  title: 'Subtrações divertidas',
+                  descriptionCrossOut: 'Risque as imagens e encontre a resposta!',
+                  descriptionImageNumber: 'Conte as imagens, subtraia o número e escreva sua resposta!',
+                  descriptionFindSubtrahend: 'Encontre o número que falta para completar a subtração!',
+                  descriptionMixed: 'Pratique a subtração com exercícios variados!'
               },
               nl: {
-                  title: 'Aftrekken is Leuk',
+                  title: 'Aftrekken is leuk',
                   descriptionCrossOut: 'Streep de plaatjes door en vind het antwoord!',
                   descriptionImageNumber: 'Tel de afbeeldingen, trek het getal eraf en schrijf je antwoord!',
                   descriptionFindSubtrahend: 'Vind het ontbrekende getal om de aftrekking te voltooien!',
-                  descriptionMixed: 'Oefen aftrekken met gemengde oefeningstypes!'
+                  descriptionMixed: 'Oefen aftrekken met verschillende soorten sommen!'
               },
               sv: {
-                  title: 'Rolig Subtraktion',
+                  title: 'Rolig subtraktion',
                   descriptionCrossOut: 'Stryk över bilderna och hitta svaret!',
                   descriptionImageNumber: 'Räkna bilderna, dra av talet och skriv ditt svar!',
                   descriptionFindSubtrahend: 'Hitta det saknade talet för att slutföra subtraktionen!',
                   descriptionMixed: 'Öva subtraktion med blandade övningstyper!'
               },
               da: {
-                  title: 'Sjov Subtraktion',
+                  title: 'Sjov subtraktion',
                   descriptionCrossOut: 'Streg billeder ud og find svaret!',
                   descriptionImageNumber: 'Tæl billederne, træk tallet fra og skriv dit svar!',
                   descriptionFindSubtrahend: 'Find det manglende tal for at fuldføre subtraktionen!',
                   descriptionMixed: 'Øv subtraktion med blandede øvelsestyper!'
               },
               no: {
-                  title: 'Moro med Subtraksjon',
+                  title: 'Moro med subtraksjon',
                   descriptionCrossOut: 'Stryk ut bildene og finn svaret!',
                   descriptionImageNumber: 'Tell bildene, trekk fra tallet og skriv svaret ditt!',
                   descriptionFindSubtrahend: 'Finn det manglende tallet for å fullføre subtraksjonen!',
                   descriptionMixed: 'Øv på subtraksjon med blandede øvelsestyper!'
               },
               fi: {
-                  title: 'Hauskaa Vähennyslaskua',
+                  title: 'Hauskaa vähennyslaskua',
                   descriptionCrossOut: 'Yliviivaa kuvat ja etsi vastaus!',
                   descriptionImageNumber: 'Laske kuvat, vähennä luku ja kirjoita vastauksesi!',
-                  descriptionFindSubtrahend: 'Löydä puuttuva luku vähennyslaskun täydentämiseksi!',
-                  descriptionMixed: 'Harjoittele vähennyslaskua sekatyyppisillä tehtävillä!'
+                  descriptionFindSubtrahend: 'Löydä puuttuva luku ja täydennä vähennyslasku!',
+                  descriptionMixed: 'Harjoittele vähennyslaskua erilaisilla tehtävillä!'
               }
           };
 

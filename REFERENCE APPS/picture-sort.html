@@ -1421,16 +1421,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
             en: { title: 'Picture Sort', description: 'Sort the pictures into the correct groups!' },
-            de: { title: 'Bilder Sortieren', description: 'Sortiere die Bilder in die richtigen Gruppen!' },
-            fr: { title: 'Tri d\'Images', description: 'Trie les images dans les bons groupes!' },
-            es: { title: 'Clasificación de Imágenes', description: '¡Clasifica las imágenes en los grupos correctos!' },
-            it: { title: 'Classificazione Immagini', description: 'Classifica le immagini nei gruppi corretti!' },
-            pt: { title: 'Classificação de Imagens', description: 'Classifique as imagens nos grupos corretos!' },
-            nl: { title: 'Afbeeldingen Sorteren', description: 'Sorteer de afbeeldingen in de juiste groepen!' },
-            sv: { title: 'Sortera Bilder', description: 'Sortera bilderna i rätt grupper!' },
-            da: { title: 'Sorter Billeder', description: 'Sorter billederne i de rigtige grupper!' },
-            no: { title: 'Sorter Bilder', description: 'Sorter bildene i de riktige gruppene!' },
-            fi: { title: 'Lajittele Kuvat', description: 'Lajittele kuvat oikeisiin ryhmiin!' }
+            de: { title: 'Bilder sortieren', description: 'Sortiere die Bilder in die richtigen Gruppen!' },
+            fr: { title: 'Tri d\'images', description: 'Trie les images dans les bons groupes !' },
+            es: { title: 'Clasificación de imágenes', description: '¡Clasifica las imágenes en los grupos correctos!' },
+            it: { title: 'Classificazione delle immagini', description: 'Classifica le immagini nei gruppi corretti!' },
+            pt: { title: 'Classificação de imagens', description: 'Classifique as imagens nos grupos corretos!' },
+            nl: { title: 'Afbeeldingen sorteren', description: 'Sorteer de afbeeldingen in de juiste groepen!' },
+            sv: { title: 'Sortera bilder', description: 'Sortera bilderna i rätt grupper!' },
+            da: { title: 'Sorter billeder', description: 'Sorter billederne i de rigtige grupper!' },
+            no: { title: 'Sorter bilder', description: 'Sorter bildene i de riktige gruppene!' },
+            fi: { title: 'Lajittele kuvat', description: 'Lajittele kuvat oikeisiin ryhmiin!' }
         };
 
         const locale = currentLocale || 'en';
@@ -1930,7 +1930,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const themes = await fetch(`/api/themes-translated?locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
             imageCache.themes = themes;
             const manualOpt = `<option value="${MANUAL_MODE_VALUE}">${t('picture.sort.manual.selection')}</option>`;
-            const customOpt = `<option value="${CUSTOM_MODE_VALUE}">Custom Words</option>`;
+            const customOpt = `<option value="${CUSTOM_MODE_VALUE}">${t('picture.sort.custom.words')}</option>`;
             leftCategoryThemeSelect.innerHTML = manualOpt + customOpt;
             rightCategoryThemeSelect.innerHTML = manualOpt + customOpt;
 
@@ -2868,7 +2868,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     function handlePageColorChange() { const newColor = pageColorInput.value; if (worksheetCanvas) { worksheetCanvas.backgroundColor = newColor; worksheetCanvas.renderAll(); } if (solutionCanvas) { solutionCanvas.backgroundColor = newColor; solutionCanvas.renderAll(); } }
-    function createFabricNameDateGroup() { const nameText = new fabric.Textbox(t('picture.sort.name.field'), { left: 0, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 250 }); const dateText = new fabric.Textbox(t('picture.sort.date.field'), { left: nameText.width + 30, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 180 }); return new fabric.Group([nameText, dateText], { left: 50, top: currentCanvasConfig.height - 50, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); }
+    function createFabricNameDateGroup() { const nameText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['picture.sort.name.field'])||(T.en&&T.en['picture.sort.name.field'])||t('picture.sort.name.field');})(), { left: 0, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 250 }); const dateText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['picture.sort.date.field'])||(T.en&&T.en['picture.sort.date.field'])||t('picture.sort.date.field');})(), { left: nameText.width + 30, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 180 }); return new fabric.Group([nameText, dateText], { left: 50, top: currentCanvasConfig.height - 50, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); }
 
     // ============================================
     // ZOOM CONTROLS

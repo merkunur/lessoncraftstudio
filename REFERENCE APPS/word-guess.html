@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-word-guess.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js?v=1759320100"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1925,7 +1925,7 @@
         function addText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = ui.textInput.value.trim() || 'New Text';
+            const textContent = ui.textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
@@ -2707,7 +2707,13 @@
             lastGeneratedPuzzles = [];
             for (let i = 0; i < puzzleCount; i++) {
                 const image = puzzleImagePool[i % puzzleImagePool.length];
-                const displayWord = (image.name || image.word).toUpperCase();
+                const _rawWord = image.name || image.word;
+                const _caseSel = document.querySelector('input[name="letterCase"]:checked');
+                // Case decided at the SOURCE: upper->lower round-trips destroy German ss
+                // (Fuss gains a letter), so lowercase derives from the ORIGINAL word.
+                const displayWord = (_caseSel && _caseSel.value === 'lower')
+                    ? _rawWord.toLocaleLowerCase((typeof currentLocale !== 'undefined' && currentLocale) || 'en')
+                    : _rawWord.toUpperCase();
                 const words = displayWord.split(/\s+/).filter(w => w.length > 0);
 
                 const clueIndices = words.map(w => {
@@ -2881,8 +2887,8 @@
             const nameDateHeight = (ui.includeNameDate.checked && !isAnswerKey) ? 50 : 0;
             if (ui.includeNameDate.checked && !isAnswerKey) {
                 const nameDateGroup = new fabric.Group([
-                    new fabric.Textbox("Name: ________________", { left: 0, top: 0, fontSize: 18 }),
-                    new fabric.Textbox("Date: ________", { left: 350, top: 0, fontSize: 18 })
+                    new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ________________';})(), { left: 0, top: 0, fontSize: 18 }),
+                    new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ________';})(), { left: 350, top: 0, fontSize: 18 })
                 ], { left: leftMargin, top: topMargin, selectable: true, hasControls: true, evented: true });
                 canvas.add(nameDateGroup);
             }
@@ -3091,15 +3097,15 @@
             const defaultHeaders = {
                 en: { title: 'Word Guess Challenge', description: 'Look at the picture and guess the word!' },
                 de: { title: 'Wörter-Rätsel', description: 'Schau das Bild an und errate das Wort!' },
-                fr: { title: 'Devine le Mot', description: 'Regarde l\'image et trouve le mot!' },
-                es: { title: 'Adivina la Palabra', description: '¡Mira la imagen y adivina la palabra!' },
-                it: { title: 'Indovina la Parola', description: 'Guarda l\'immagine e indovina la parola!' },
-                pt: { title: 'Adivinha a Palavra', description: 'Olha a imagem e adivinha a palavra!' },
-                nl: { title: 'Raad het Woord', description: 'Kijk naar de plaatje en raad het woord!' },
-                sv: { title: 'Gissa Ordet', description: 'Titta på bilden och gissa ordet!' },
-                da: { title: 'Gæt Ordet', description: 'Se på billedet og gæt ordet!' },
-                no: { title: 'Gjett Ordet', description: 'Se på bildet og gjett ordet!' },
-                fi: { title: 'Arvaa Sana', description: 'Katso kuvaa ja arvaa sana!' }
+                fr: { title: 'Devine le mot', description: 'Regarde l\'image et trouve le mot !' },
+                es: { title: 'Adivina la palabra', description: '¡Mira la imagen y adivina la palabra!' },
+                it: { title: 'Indovina la parola', description: 'Guarda l\'immagine e indovina la parola!' },
+                pt: { title: 'Adivinhe a palavra', description: 'Olhe a imagem e adivinhe a palavra!' },
+                nl: { title: 'Raad het woord', description: 'Kijk naar het plaatje en raad het woord!' },
+                sv: { title: 'Gissa ordet', description: 'Titta på bilden och gissa ordet!' },
+                da: { title: 'Gæt ordet', description: 'Se på billedet og gæt ordet!' },
+                no: { title: 'Gjett ordet', description: 'Se på bildet og gjett ordet!' },
+                fi: { title: 'Arvaa sana', description: 'Katso kuvaa ja arvaa sana!' }
             };
 
             const locale = currentLocale || 'en';

@@ -16,7 +16,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
   <script src="js/translations-code-addition.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
     <script>
     // Ensure translations are loaded
@@ -1454,7 +1454,7 @@
         function getSecretWord() {
             const input = document.getElementById('secretWord');
             // Support all 11 languages with accented characters
-            return input ? input.value.toUpperCase().replace(/[^A-ZÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÃÕØÅ]/g, '') : '';
+            return input ? input.value.toUpperCase().replace(/[^A-ZÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÒÃÕØÅ]/g, '') : '';
         }
 
         // Helper: Find all achievable sums using actual symbol values with repetition allowed
@@ -2014,31 +2014,31 @@
             // Standard mode headers - Code Breaker theme
             const defaultHeaders = {
                 en: { title: 'Code Breaker Addition', description: 'Crack the code! Find the number for each symbol and solve!' },
-                de: { title: 'Code-Knacker Addition', description: 'Knacke den Code! Finde die Zahl für jedes Symbol!' },
-                fr: { title: 'Code Secret Addition', description: 'Casse le code! Trouve le nombre de chaque symbole!' },
-                es: { title: 'Código Secreto Suma', description: '¡Descifra el código! ¡Encuentra el número de cada símbolo!' },
-                it: { title: 'Codice Segreto Addizione', description: 'Decifra il codice! Trova il numero per ogni simbolo!' },
-                pt: { title: 'Código Secreto Adição', description: 'Decifre o código! Encontre o número de cada símbolo!' },
-                nl: { title: 'Geheime Code Optellen', description: 'Kraak de code! Vind het getal van elk symbool!' },
-                sv: { title: 'Hemlig Kod Addition', description: 'Knäck koden! Hitta siffran för varje symbol!' },
-                da: { title: 'Hemmelig Kode Addition', description: 'Knæk koden! Find tallet for hvert symbol!' },
-                no: { title: 'Hemmelig Kode Addisjon', description: 'Knekk koden! Finn tallet for hvert symbol!' },
-                fi: { title: 'Salainen Koodi Yhteenlasku', description: 'Ratkaise koodi! Löydä numero jokaiselle symbolille!' }
+                de: { title: 'Code-Knacker-Addition', description: 'Knacke den Code! Finde die Zahl für jedes Symbol!' },
+                fr: { title: 'Code secret : addition', description: 'Casse le code ! Trouve la valeur de chaque symbole !' },
+                es: { title: 'Código secreto: suma', description: '¡Descifra el código! ¡Encuentra el número de cada símbolo!' },
+                it: { title: 'Addizione in codice segreto', description: 'Decifra il codice! Trova il numero per ogni simbolo!' },
+                pt: { title: 'Adição com código secreto', description: 'Decifre o código! Encontre o número de cada símbolo!' },
+                nl: { title: 'Optellen met geheime code', description: 'Kraak de code! Vind het getal van elk symbool!' },
+                sv: { title: 'Addition med hemlig kod', description: 'Knäck koden! Hitta siffran för varje symbol!' },
+                da: { title: 'Addition med hemmelig kode', description: 'Knæk koden! Find tallet for hvert symbol!' },
+                no: { title: 'Addisjon med hemmelig kode', description: 'Knekk koden! Finn tallet for hvert symbol!' },
+                fi: { title: 'Salaisen koodin yhteenlasku', description: 'Ratkaise koodi! Löydä numero jokaiselle symbolille!' }
             };
 
             // Word Reveal mode headers - Child-friendly secret word theme
             const wordRevealHeaders = {
                 en: { title: 'Secret Word Addition', description: 'Solve each problem to reveal a letter. What is the hidden word?' },
-                de: { title: 'Geheimes Wort Addition', description: 'Löse jede Aufgabe und entdecke einen Buchstaben. Wie lautet das versteckte Wort?' },
-                fr: { title: 'Mot Secret Addition', description: 'Résous chaque problème pour découvrir une lettre. Quel est le mot caché?' },
-                es: { title: 'Palabra Secreta Suma', description: 'Resuelve cada problema para descubrir una letra. ¿Cuál es la palabra oculta?' },
-                it: { title: 'Parola Segreta Addizione', description: 'Risolvi ogni problema per scoprire una lettera. Qual è la parola nascosta?' },
-                pt: { title: 'Palavra Secreta Adição', description: 'Resolva cada problema para descobrir uma letra. Qual é a palavra escondida?' },
-                nl: { title: 'Geheim Woord Optellen', description: 'Los elk probleem op om een letter te ontdekken. Wat is het verborgen woord?' },
-                sv: { title: 'Hemligt Ord Addition', description: 'Lös varje uppgift för att avslöja en bokstav. Vad är det hemliga ordet?' },
-                da: { title: 'Hemmeligt Ord Addition', description: 'Løs hver opgave for at afsløre et bogstav. Hvad er det hemmelige ord?' },
-                no: { title: 'Hemmelig Ord Addisjon', description: 'Løs hver oppgave for å avsløre en bokstav. Hva er det hemmelige ordet?' },
-                fi: { title: 'Salainen Sana Yhteenlasku', description: 'Ratkaise jokainen tehtävä paljastaaksesi kirjaimen. Mikä on piilotettu sana?' }
+                de: { title: 'Geheimwort-Addition', description: 'Löse jede Aufgabe und entdecke einen Buchstaben. Wie lautet das versteckte Wort?' },
+                fr: { title: 'Mot secret : addition', description: 'Résous chaque calcul pour découvrir une lettre. Quel est le mot caché ?' },
+                es: { title: 'Palabra secreta: suma', description: 'Resuelve cada problema para descubrir una letra. ¿Cuál es la palabra oculta?' },
+                it: { title: 'Addizione con parola segreta', description: 'Risolvi ogni problema per scoprire una lettera. Qual è la parola nascosta?' },
+                pt: { title: 'Adição com palavra secreta', description: 'Resolva cada problema para descobrir uma letra. Qual é a palavra escondida?' },
+                nl: { title: 'Optellen met geheim woord', description: 'Los elk probleem op om een letter te ontdekken. Wat is het verborgen woord?' },
+                sv: { title: 'Addition med hemligt ord', description: 'Lös varje uppgift för att avslöja en bokstav. Vad är det hemliga ordet?' },
+                da: { title: 'Addition med hemmeligt ord', description: 'Løs hver opgave for at afsløre et bogstav. Hvad er det hemmelige ord?' },
+                no: { title: 'Addisjon med hemmelig ord', description: 'Løs hver oppgave for å avsløre en bokstav. Hva er det hemmelige ordet?' },
+                fi: { title: 'Salaisen sanan yhteenlasku', description: 'Ratkaise jokainen tehtävä ja paljasta kirjain. Mikä on piilotettu sana?' }
             };
 
             const locale = currentLocale || 'en';
@@ -3775,7 +3775,7 @@
         addTextBtn.addEventListener('click', () => {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = textInput.value.trim() || 'New Text';
+            const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
@@ -5647,7 +5647,7 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
                 var loc = spec.locale || 'en';
                 window.currentLocale = loc; try { currentLocale = loc; } catch (e) {}
                 var theme = spec.theme || (spec.params && spec.params.theme) || 'animals';
-                var word = String(spec.secretWord || (spec.params && spec.params.secretWord) || 'CAT').toUpperCase();
+                var word = String(spec.secretWord || (spec.params && spec.params.secretWord) || (window.ImageVocab && ImageVocab.singular('cat', loc)) || 'CAT').toUpperCase();
                 // Word Reveal mode (default) → per-row letter blanks (slotType:'letter').
                 // spec.mode==='standard' → sum-decode mode (slotType:'sum', multi-digit via the mapper).
                 try { var _wr = document.getElementById('wordRevealMode'); if (_wr) _wr.checked = (spec.mode !== 'standard'); } catch (e) {}
@@ -5710,7 +5710,7 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
             // Support all 11 languages: EN, DE, FR, ES, IT, PT, NL, DA, SV, NO, FI
             // Includes accented characters: ÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÃÕØÅ
             secretWordInput.addEventListener('input', (e) => {
-                e.target.value = e.target.value.toUpperCase().replace(/[^A-ZÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÃÕØÅ]/g, '');
+                e.target.value = e.target.value.toUpperCase().replace(/[^A-ZÄÖÜÀÂÇÉÈÊËÎÏÔÛÙŸŒÆÁÍÓÚÑÌÒÃÕØÅ]/g, '');
             });
         }
 

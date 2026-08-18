@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow">
     <title data-translate="coloringPageDesigner">Coloring Page Designer</title>
     <script src="js/translations-coloring-complete.js?v=de-i18n-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Enhancement scripts for robust integration -->
@@ -1574,7 +1574,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Classroom Helpers
     function addNameField() {
-        const nameText = new fabric.Textbox('Name: ____________________', {
+        const nameText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ____________________';})(), {
             left: 40, top: 30, fontFamily: 'Fredoka', fontSize: Math.min(32, currentCanvasConfig.width / 20),
             // Use actual canvas dimensions, not display dimensions
             fill: '#333', width: currentCanvasConfig.width > 500 ? 400 : currentCanvasConfig.width - 80, padding: 5,
@@ -1618,7 +1618,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Text Tools
     function addText() {
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             // Position - Always centered
             left: (currentCanvasConfig.width - 250) / 2,

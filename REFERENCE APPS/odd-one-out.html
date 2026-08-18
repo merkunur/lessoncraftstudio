@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-odd-one-out.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1825,15 +1825,15 @@
           const defaultHeaders = {
               en: { title: 'Find the Odd One Out', description: 'Circle the picture that is different in each row!' },
               de: { title: 'Finde das Andere', description: 'Kreise das Bild ein, das anders ist!' },
-              fr: { title: 'Trouve l\'Intrus', description: 'Entoure l\'image différente dans chaque rangée!' },
-              es: { title: 'Encuentra el Diferente', description: '¡Rodea la imagen diferente en cada fila!' },
-              it: { title: 'Trova il Diverso', description: 'Cerchia l\'immagine diversa in ogni riga!' },
-              pt: { title: 'Encontra o Diferente', description: 'Circunda a imagem diferente em cada linha!' },
-              nl: { title: 'Vind de Vreemde Eend', description: 'Omcirkel de afbeelding die anders is!' },
-              sv: { title: 'Hitta Udda Fågeln', description: 'Ringa in bilden som är annorlunda!' },
-              da: { title: 'Find den Ulige', description: 'Sæt ring om billedet der er anderledes!' },
-              no: { title: 'Finn den Rare', description: 'Ring rundt bildet som er forskjellig!' },
-              fi: { title: 'Löydä Outo Lintu', description: 'Ympyröi kuva, joka on erilainen!' }
+              fr: { title: 'Trouve l\'intrus', description: 'Entoure l\'image différente dans chaque rangée !' },
+              es: { title: 'Encuentra el diferente', description: '¡Rodea la imagen diferente en cada fila!' },
+              it: { title: 'Trova l\'intruso', description: 'Cerchia l\'immagine diversa in ogni riga!' },
+              pt: { title: 'Encontre o diferente', description: 'Circule a imagem diferente em cada linha!' },
+              nl: { title: 'Vind de vreemde eend', description: 'Omcirkel de afbeelding die anders is!' },
+              sv: { title: 'Hitta den udda fågeln', description: 'Ringa in bilden som är annorlunda!' },
+              da: { title: 'Find det, der ikke passer', description: 'Sæt ring om det billede, der er anderledes!' },
+              no: { title: 'Finn den som er annerledes', description: 'Sett ring rundt bildet som er annerledes!' },
+              fi: { title: 'Löydä erilainen', description: 'Ympyröi kuva, joka on erilainen!' }
           };
 
           const locale = currentLocale || 'en';
@@ -3041,13 +3041,13 @@
                 
                 // Position at top with proper spacing
                 const nameDateText = new fabric.Group([
-                    new fabric.Textbox("Name: ________________", { 
+                    new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ________________';})(), { 
                         fontSize: fontSize, 
                         left: 0, 
                         top: 0,
                         fill: '#333'
                     }),
-                    new fabric.Textbox("Date: ________", { 
+                    new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ________';})(), { 
                         fontSize: fontSize, 
                         left: pageWidth * 0.32, 
                         top: 0,
@@ -3688,7 +3688,7 @@
       const addText = () => {
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
-          const textContent = ui.textInput.value.trim() || 'New Text';
+          const textContent = ui.textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
           const textObject = new fabric.Textbox(textContent, {
               left: (currentCanvasConfig.width - 250) / 2,
               top: (currentCanvasConfig.height - 100) / 2,

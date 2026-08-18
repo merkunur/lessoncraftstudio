@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-more-less.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2970,31 +2970,31 @@
     // --- HEADER & BORDER FUNCTIONS ---
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
-            en: { title: 'More Less', description: 'Compare and choose the right symbol!' },
-            de: { title: 'Mehr Weniger', description: 'Vergleiche und wähle das richtige Symbol!' },
-            fr: { title: 'Plus Moins', description: 'Compare et choisis le bon symbole!' },
-            es: { title: 'Más Menos', description: '¡Compara y elige el símbolo correcto!' },
-            it: { title: 'Più Meno', description: 'Confronta e scegli il simbolo giusto!' },
-            pt: { title: 'Mais Menos', description: 'Compare e escolha o símbolo correto!' },
-            nl: { title: 'Meer Minder', description: 'Vergelijk en kies het juiste symbool!' },
-            sv: { title: 'Mer Mindre', description: 'Jämför och välj rätt symbol!' },
-            da: { title: 'Mere Mindre', description: 'Sammenlign og vælg det rigtige symbol!' },
-            no: { title: 'Mer Mindre', description: 'Sammenlign og velg riktig symbol!' },
-            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa ja valitse oikea symboli!' }
+            en: { title: 'More or Less', description: 'Compare and choose the right symbol!' },
+            de: { title: 'Mehr oder weniger', description: 'Vergleiche und wähle das richtige Symbol!' },
+            fr: { title: 'Plus ou moins', description: 'Compare et choisis le bon symbole !' },
+            es: { title: 'Más o menos', description: '¡Compara y elige el símbolo correcto!' },
+            it: { title: 'Più o meno', description: 'Confronta e scegli il simbolo giusto!' },
+            pt: { title: 'Mais ou menos', description: 'Compare e escolha o símbolo correto!' },
+            nl: { title: 'Meer of minder', description: 'Vergelijk en kies het juiste symbool!' },
+            sv: { title: 'Mer eller mindre', description: 'Jämför och välj rätt symbol!' },
+            da: { title: 'Mere eller mindre', description: 'Sammenlign og vælg det rigtige symbol!' },
+            no: { title: 'Mer eller mindre', description: 'Sammenlign og velg riktig symbol!' },
+            fi: { title: 'Enemmän vai vähemmän', description: 'Vertaa ja valitse oikea symboli!' }
         };
 
         const checkCrossHeaders = {
-            en: { title: 'More Less', description: 'Check the group that is more and cross that is less!' },
-            de: { title: 'Mehr Weniger', description: 'Kreuze die Gruppe an, die mehr hat, und streiche die durch, die weniger hat!' },
-            fr: { title: 'Plus Moins', description: 'Coche le groupe qui a le plus et barre celui qui a le moins !' },
-            es: { title: 'M\u00e1s Menos', description: '\u00a1Marca el grupo que tiene m\u00e1s y tacha el que tiene menos!' },
-            it: { title: 'Pi\u00f9 Meno', description: 'Spunta il gruppo che ha di pi\u00f9 e barra quello che ha di meno!' },
-            pt: { title: 'Mais Menos', description: 'Marca o grupo que tem mais e risca o que tem menos!' },
-            nl: { title: 'Meer Minder', description: 'Vink de groep aan die meer heeft en streep die door die minder heeft!' },
-            sv: { title: 'Mer Mindre', description: 'Bocka av gruppen som har flest och stryk den som har f\u00e4rst!' },
-            da: { title: 'Mere Mindre', description: 'Afkryds gruppen, der har flest, og stryg den, der har f\u00e6rrest!' },
-            no: { title: 'Mer Mindre', description: 'Kryss av gruppen som har flest, og stryk den som har f\u00e6rrest!' },
-            fi: { title: 'Enemm\u00e4n V\u00e4hemm\u00e4n', description: 'Rastita ryhm\u00e4, jossa on enemm\u00e4n, ja yliviivaa se, jossa on v\u00e4hemm\u00e4n!' }
+            en: { title: 'More or Less', description: 'Check the group that has more and cross out the one that has less!' },
+            de: { title: 'Mehr oder weniger', description: 'Kreuze die Gruppe an, die mehr hat, und streiche die durch, die weniger hat!' },
+            fr: { title: 'Plus ou moins', description: 'Coche le groupe qui en a le plus et barre celui qui en a le moins !' },
+            es: { title: 'M\u00e1s o menos', description: '\u00a1Marca el grupo que tiene m\u00e1s y tacha el que tiene menos!' },
+            it: { title: 'Pi\u00f9 o meno', description: 'Spunta il gruppo che ne ha di pi\u00f9 e barra quello che ne ha di meno!' },
+            pt: { title: 'Mais ou menos', description: 'Marque o grupo que tem mais e risque o que tem menos!' },
+            nl: { title: 'Meer of minder', description: 'Vink de groep aan die meer heeft en streep de groep door die minder heeft!' },
+            sv: { title: 'Mer eller mindre', description: 'Bocka av gruppen som har flest och stryk den som har minst!' },
+            da: { title: 'Mere eller mindre', description: 'S\u00e6t kryds ved den gruppe, der har flest, og s\u00e6t streg over den, der har f\u00e6rrest!' },
+            no: { title: 'Mer eller mindre', description: 'Kryss av gruppen som har flest, og stryk den som har f\u00e6rrest!' },
+            fi: { title: 'Enemm\u00e4n vai v\u00e4hemm\u00e4n', description: 'Rastita ryhm\u00e4, jossa on enemm\u00e4n, ja yliviivaa se, jossa on v\u00e4hemm\u00e4n!' }
         };
 
         const locale = currentLocale || 'en';
@@ -3362,13 +3362,13 @@
             const leftMargin = pageWidth * marginRatio;
             const topMargin = pageHeight * 0.05;
 
-            const nameText = new fabric.Text('Name: ____________________', {
+            const nameText = new fabric.Text((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ____________________';})(), {
                 left: leftMargin,
                 top: topMargin,
                 fontSize: 18,
                 fontFamily: 'Arial'
             });
-            const dateText = new fabric.Text('Date: ____________________', {
+            const dateText = new fabric.Text((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________________';})(), {
                 left: pageWidth - leftMargin - 250,
                 top: topMargin,
                 fontSize: 18,
@@ -3937,13 +3937,13 @@
                 const leftMargin = pageWidth * marginRatio;
                 const topMargin = pageHeight * 0.05; // 5% from top
 
-                const nameText = new fabric.Text('Name: ____________________', {
+                const nameText = new fabric.Text((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ____________________';})(), {
                     left: leftMargin,
                     top: topMargin,
                     fontSize: 18,
                     fontFamily: 'Arial'
                 });
-                const dateText = new fabric.Text('Date: ____________________', {
+                const dateText = new fabric.Text((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________________';})(), {
                     left: pageWidth - leftMargin - 250,
                     top: topMargin,
                     fontSize: 18,
@@ -6309,7 +6309,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
         addTextBtn.addEventListener('click', () => {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textObject = new fabric.Textbox(textInput.value.trim() || 'New Text', {
+            const textObject = new fabric.Textbox(textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})(), {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
                 fontSize: 48,

@@ -28,6 +28,9 @@
 
 const SHARED_TRANSLATIONS = {
   "en": {
+    "shared.name.field": "Name:",
+    "shared.date.field": "Date:",
+    "shared.text.default": "New Text",
     "srShapeSquare": "square",
     "srShapeCircle": "circle",
     "srShapeRectPortrait": "tall rectangle",
@@ -137,6 +140,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Worksheet questions"
   },
   "de": {
+    "shared.name.field": "Name:",
+    "shared.date.field": "Datum:",
+    "shared.text.default": "Neuer Text",
     "srShapeSquare": "Quadrat",
     "srShapeCircle": "Kreis",
     "srShapeRectPortrait": "hochkantes Rechteck",
@@ -212,6 +218,9 @@ const SHARED_TRANSLATIONS = {
   // Embed keys only; existing srShare/srShape keys for these locales fall
   // through to en via §17.8.14 srLang-keyed lookup convention.
   "es": {
+    "shared.name.field": "Nombre:",
+    "shared.date.field": "Fecha:",
+    "shared.text.default": "Nuevo texto",
     "embedHeader": "Incrustar esta hoja de trabajo en tu sitio",
     "embedHelper": "Pega esto en el HTML de tu sitio web",
     "embedWidthLabel": "Ancho",
@@ -255,6 +264,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Preguntas de la hoja"
   },
   "nl": {
+    "shared.name.field": "Naam:",
+    "shared.date.field": "Datum:",
+    "shared.text.default": "Nieuwe tekst",
     "embedHeader": "Dit werkblad op je site insluiten",
     "embedHelper": "Plak dit in de HTML van je website",
     "embedWidthLabel": "Breedte",
@@ -298,6 +310,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Werkbladvragen"
   },
   "fr": {
+    "shared.name.field": "Nom :",
+    "shared.date.field": "Date :",
+    "shared.text.default": "Nouveau texte",
     "embedHeader": "Intégrer cette fiche sur votre site",
     "embedHelper": "Collez ceci dans le HTML de votre site web",
     "embedWidthLabel": "Largeur",
@@ -341,6 +356,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Questions de la fiche"
   },
   "it": {
+    "shared.name.field": "Nome:",
+    "shared.date.field": "Data:",
+    "shared.text.default": "Nuovo testo",
     "embedHeader": "Incorpora questa scheda sul tuo sito",
     "embedHelper": "Incolla questo nell'HTML del tuo sito web",
     "embedWidthLabel": "Larghezza",
@@ -384,6 +402,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Domande della scheda"
   },
   "pt": {
+    "shared.name.field": "Nome:",
+    "shared.date.field": "Data:",
+    "shared.text.default": "Novo texto",
     // Brazilian Portuguese canonical per §6 (single 'pt' locale code; BR register).
     "embedHeader": "Incorporar esta atividade no seu site",
     "embedHelper": "Cole isto no HTML do seu site",
@@ -433,6 +454,9 @@ const SHARED_TRANSLATIONS = {
   // Future native-speaker review pass refines these without re-shipping the
   // full Embed Layer-2 commission.
   "sv": {
+    "shared.name.field": "Namn:",
+    "shared.date.field": "Datum:",
+    "shared.text.default": "Ny text",
     "embedHeader": "Bädda in detta arbetsblad på din webbplats",
     "embedHelper": "Klistra in detta i din webbplats HTML",
     "embedWidthLabel": "Bredd",
@@ -479,6 +503,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Arbetsbladsfrågor"
   },
   "da": {
+    "shared.name.field": "Navn:",
+    "shared.date.field": "Dato:",
+    "shared.text.default": "Ny tekst",
     "embedHeader": "Indlejr dette arbejdsark på dit websted",
     "embedHelper": "Indsæt dette i HTML'en på dit websted",
     "embedWidthLabel": "Bredde",
@@ -525,6 +552,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Arbejdsarkets spørgsmål"
   },
   "no": {
+    "shared.name.field": "Navn:",
+    "shared.date.field": "Dato:",
+    "shared.text.default": "Ny tekst",
     // Bokmål canonical per §6 (single 'no' locale code).
     "embedHeader": "Bygg inn dette arbeidsarket på nettstedet ditt",
     "embedHelper": "Lim dette inn i HTML-koden på nettstedet ditt",
@@ -572,6 +602,9 @@ const SHARED_TRANSLATIONS = {
     "srWorksheetQuestions": "Arbeidsarkets spørsmål"
   },
   "fi": {
+    "shared.name.field": "Nimi:",
+    "shared.date.field": "Päivämäärä:",
+    "shared.text.default": "Uusi teksti",
     "embedHeader": "Upota tämä työarkki sivustollesi",
     "embedHelper": "Liitä tämä sivustosi HTML-koodiin",
     "embedWidthLabel": "Leveys",

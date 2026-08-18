@@ -12,7 +12,7 @@
   <title>Math Worksheet Generator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="js/translations-math-worksheet-final.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
@@ -2288,15 +2288,15 @@
           const defaultHeaders = {
               en: { title: 'Math Worksheet', description: 'Count, add, and subtract to solve fun math problems!' },
               de: { title: 'Mathe-Übungsblatt', description: 'Zähle, addiere und subtrahiere, um Matheaufgaben zu lösen!' },
-              fr: { title: 'Feuille de Mathématiques', description: 'Compte, additionne et soustrais pour résoudre les problèmes!' },
-              es: { title: 'Hoja de Matemáticas', description: 'Cuenta, suma y resta para resolver problemas divertidos!' },
-              it: { title: 'Scheda di Matematica', description: 'Conta, somma e sottrai per risolvere i problemi!' },
-              pt: { title: 'Folha de Matemática', description: 'Conta, soma e subtrai para resolver problemas divertidos!' },
-              nl: { title: 'Wiskundeblad', description: 'Tel, tel op en trek af om leuke sommen op te lossen!' },
+              fr: { title: 'Fiche de mathématiques', description: 'Compte, additionne et soustrais pour résoudre les problèmes !' },
+              es: { title: 'Hoja de matemáticas', description: '¡Cuenta, suma y resta para resolver problemas divertidos!' },
+              it: { title: 'Scheda di matematica', description: 'Conta, somma e sottrai per risolvere i problemi!' },
+              pt: { title: 'Folha de matemática', description: 'Conte, some e subtraia para resolver problemas divertidos!' },
+              nl: { title: 'Rekenblad', description: 'Tel, tel op en trek af om leuke sommen op te lossen!' },
               sv: { title: 'Mattetal', description: 'Räkna, addera och subtrahera för att lösa roliga matteproblem!' },
               da: { title: 'Matematikopgave', description: 'Tæl, læg sammen og træk fra for at løse sjove opgaver!' },
               no: { title: 'Matematikkoppgave', description: 'Tell, legg sammen og trekk fra for å løse morsomme oppgaver!' },
-              fi: { title: 'Matematiikkalehti', description: 'Laske, lisää ja vähennä ratkaisemaan hauskoja tehtäviä!' }
+              fi: { title: 'Matematiikkatehtävä', description: 'Laske ja ratkaise hauskoja tehtäviä!' }
           };
 
           const locale = currentLocale || 'en';
@@ -2636,7 +2636,7 @@
       function addText() {
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
-          const textContent = textInput.value.trim() || 'New Text';
+          const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
           const textObject = new fabric.Textbox(textContent, {
               // Position - Always centered
               left: (currentCanvasConfig.width - 250) / 2,

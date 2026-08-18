@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
   <script src="js/translations-pattern-train.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2057,14 +2057,14 @@
     // --- HEADER AND BORDER FUNCTIONS ---
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
-            en: { title: 'Pattern Train', description: 'Complete the pattern on each train wagon!' },
+            en: { title: 'Pattern Train', description: 'Complete the pattern on each train car!' },
             de: { title: 'Musterzug', description: 'Vervollständige das Muster in jedem Waggon!' },
-            fr: { title: 'Train à Motifs', description: 'Complète le motif sur chaque wagon!' },
-            es: { title: 'Tren de Patrones', description: '¡Completa el patrón en cada vagón!' },
-            it: { title: 'Treno dei Modelli', description: 'Completa il modello su ogni vagone!' },
-            pt: { title: 'Comboio de Padrões', description: 'Completa o padrão em cada vagão!' },
-            nl: { title: 'Patroontje', description: 'Maak het patroon in elke wagon compleet!' },
-            sv: { title: 'Mönstert​åget', description: 'Komplettera mönstret på varje vagn!' },
+            fr: { title: 'Train des motifs', description: 'Complète le motif sur chaque wagon !' },
+            es: { title: 'Tren de patrones', description: '¡Completa el patrón en cada vagón!' },
+            it: { title: 'Treno delle sequenze', description: 'Completa la sequenza su ogni vagone!' },
+            pt: { title: 'Trem de padrões', description: 'Complete o padrão em cada vagão!' },
+            nl: { title: 'Patroontrein', description: 'Maak het patroon in elke wagon compleet!' },
+            sv: { title: 'Mönstertåget', description: 'Komplettera mönstret på varje vagn!' },
             da: { title: 'Mønstertoget', description: 'Fuldend mønsteret på hver vogn!' },
             no: { title: 'Mønstertoget', description: 'Fullfør mønsteret på hver vogn!' },
             fi: { title: 'Kuviojuna', description: 'Täydennä kuvio jokaisessa vaunussa!' }
@@ -2898,7 +2898,7 @@
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
 
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             left: (currentCanvasConfig.width - 250) / 2,
             top: (currentCanvasConfig.height - 100) / 2,
@@ -3581,8 +3581,8 @@
             }
 
             if (includeNameDateCheckbox.checked) {
-                const nameText = new fabric.Textbox("Name: ____________________", { left: 0, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 250 });
-                const dateText = new fabric.Textbox("Date: ____________", { left: nameText.width + 30, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 180 });
+                const nameText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ____________________';})(), { left: 0, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 250 });
+                const dateText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________';})(), { left: nameText.width + 30, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 180 });
                 nameDateGroup = new fabric.Group([nameText, dateText], {
                     left: 50, top: 20, selectable: true, hasControls: true, hasBorders: true, objectCaching: false,
                     borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',

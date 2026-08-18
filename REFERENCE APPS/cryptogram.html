@@ -1624,7 +1624,7 @@
                         var imgs = _d.images || _d || [];
                         var key = (spec.vocabKeys && spec.vocabKeys[0]) || null;
                         var m = key ? imgs.filter(function (i) { return (i.word || '').toLowerCase() === key.toLowerCase() || (i.path || '').toLowerCase().indexOf('/' + key.toLowerCase() + '.') >= 0; })[0] : null;
-                        word = String((m && m.word) || (imgs[0] && imgs[0].word) || 'CAT').toUpperCase();
+                        word = String((m && m.word) || (imgs[0] && imgs[0].word) || (window.ImageVocab && ImageVocab.singular('cat', loc)) || 'CAT').toUpperCase();
                     } catch (e) {}
                     phrasesInput.value = word;
                     try {
@@ -2479,13 +2479,13 @@
             const defaultHeaders = {
                 en: { title: 'Picture Cryptogram', description: 'Crack the code using the picture clues!' },
                 de: { title: 'Bilder-Kryptogramm', description: 'Knacke den Code mit den Bildhinweisen!' },
-                fr: { title: 'Cryptogramme en Images', description: 'Déchiffre le code avec les images!' },
-                es: { title: 'Criptograma de Dibujos', description: '¡Descifra el código con las pistas!' },
-                it: { title: 'Crittogramma Illustrato', description: 'Decifra il codice con le immagini!' },
-                pt: { title: 'Criptograma Ilustrado', description: 'Desvenda o código com as imagens!' },
-                nl: { title: 'Plaatjes Cryptogram', description: 'Kraak de code met de plaatjes!' },
+                fr: { title: 'Cryptogramme en images', description: 'Déchiffre le code avec les images !' },
+                es: { title: 'Criptograma de dibujos', description: '¡Descifra el código con las pistas!' },
+                it: { title: 'Crittogramma illustrato', description: 'Decifra il codice con le immagini!' },
+                pt: { title: 'Criptograma ilustrado', description: 'Desvende o código com as imagens!' },
+                nl: { title: 'Plaatjescryptogram', description: 'Kraak de code met de plaatjes!' },
                 sv: { title: 'Bildkryptogram', description: 'Knäck koden med bilderna!' },
-                da: { title: 'Billed-Kryptogram', description: 'Knæk koden med billederne!' },
+                da: { title: 'Billedkryptogram', description: 'Knæk koden med billederne!' },
                 no: { title: 'Bildekryptogram', description: 'Knekk koden med bildene!' },
                 fi: { title: 'Kuvakryptogrammi', description: 'Ratkaise koodi kuvien avulla!' }
             };

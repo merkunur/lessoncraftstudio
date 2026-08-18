@@ -3222,6 +3222,29 @@
         "Eu forjo o número certo, de 0 a 20, para mostrar quantos são.",
         "Eu sei que, quando o pacote está vazio, o número é o zero."
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "Todo dia de manhã, a Mamãe Pata faz a chamada na beira do riacho. Ela olha para a balsa cheia de patinhos e pede um número certinho: \"Preciso de 4 patinhos!\" Aí é a sua vez de ajudar — você conta os patinhos um por um, tira eles da balsa e manda cada um atravessar a água até a Mamãe. Quando a quantidade fica exata, você assina a chamada escrevendo aquele número no barro macio, tracinho por tracinho.",
+        "A ideia é contar exatamente o que foi pedido — nem mais, nem menos — e saber a hora de parar no número certo. Depois, a criança escreve o algarismo de 0 a 9 que diz quantos patinhos foram. E tem um detalhe bonito: até uma manhã bem quietinha, quando nenhum patinho é chamado, também tem um número. Esse número é o zero!",
+        "A atividade é totalmente grátis e não pede cadastro nem login. Não existe cronômetro, pontuação nem competição: cada criança vai no seu ritmo, sem pressa e sem medo de errar. Se contar demais, é só devolver um patinho para a balsa e tentar de novo, com calma. A proposta está alinhada à BNCC, na unidade temática \"Números\"."
+      ],
+      "practices": [
+        "Contar exatamente a quantidade pedida, parando no número certo (nem mais, nem menos).",
+        "Enviar um patinho de cada vez, ligando cada contagem a um patinho de verdade.",
+        "Escrever o algarismo de 0 a 9 que diz quantos patinhos foram enviados.",
+        "Entender que o zero também é um número — uma manhã sem patinhos ainda tem quantidade: nenhuma!"
+      ],
+      "howToPlay": [
+        "A Mamãe Pata pede um número — envie essa quantidade exata de patinhos, um por um, da balsa até ela.",
+        "Escreva o número no barro, tracinho por tracinho, para assinar a chamada.",
+        "Até uma manhã quietinha tem número: quando ninguém é chamado, o número é o zero!"
+      ],
+      "learningGoals": [
+        "Eu conto a quantidade certa de patinhos e sei a hora de parar.",
+        "Eu escrevo o número de 0 a 9 que diz quantos são.",
+        "Eu entendo que o zero também é um número."
+      ]
     }
   }
 }

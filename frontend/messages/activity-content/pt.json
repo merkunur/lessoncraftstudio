@@ -3130,6 +3130,29 @@
         "Eu coloco os números em ordem, do maior para o menor",
         "Eu descubro qual número é o maior e qual é o menor"
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "O Clunk é um robozinho comilão que adora lanches — só que o chip de somar dele trincou e agora ele não consegue mais contar sozinho. Para o Clunk ficar feliz, ele precisa de um número exato de lanchinhos na lancheira, nem mais nem menos. Você toca nos lanches numerados na parede para colocá-los na lancheira até formar o número que o Clunk pediu e, quando achar que acertou, é só alimentar o Clunk para conferir.",
+        "A grande ideia por trás da brincadeira é que um mesmo número pode ser feito de partes diferentes. Depois de montar o total de um jeito, a criança monta o mesmo número de novo, de uma forma totalmente diferente — e aí descobre, com as próprias mãos, que 5 pode ser 4 e 1, mas também 3 e 2. É esse \"faça de um jeito novo\" que está no coração da atividade: ao compor e decompor, a criança percebe que os números são flexíveis e que existe mais de um caminho para chegar ao mesmo lugar.",
+        "A atividade é totalmente gratuita, não pede cadastro nem login e não tem cronômetro, pontuação nem competição — o ritmo é calmo e sem pressão, do jeito que uma criança pequena aprende melhor. Ela é alinhada à BNCC, na unidade temática \"Números\"."
+      ],
+      "practices": [
+        "Compor um número juntando lanches até chegar ao total pedido",
+        "Descobrir várias formas diferentes de fazer o mesmo número",
+        "Completar a parte que falta para chegar ao número do Clunk",
+        "Perceber que um número é feito de partes que se juntam"
+      ],
+      "howToPlay": [
+        "Toque nos lanches para colocá-los na lancheira até formar o número do Clunk",
+        "Alimente o Clunk para conferir se o total está certinho",
+        "Agora faça o mesmo número de um jeito novo, com outras partes"
+      ],
+      "learningGoals": [
+        "Eu consigo montar um número juntando lanches de valores diferentes",
+        "Eu consigo fazer o mesmo número de mais de um jeito",
+        "Eu descubro qual parte falta para completar o número"
+      ]
     }
   }
 }

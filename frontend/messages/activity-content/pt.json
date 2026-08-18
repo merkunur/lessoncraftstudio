@@ -3061,6 +3061,29 @@
         "Eu cubro o espaço sem deixar buraco e sem colocar um quadradinho em cima do outro.",
         "Eu monto um canteiro com o número certo de quadradinhos para chegar na área que eu quero."
       ]
+    },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "O cachorro Digby está aprendendo a escrever os números e quer fazer isso do jeito certo. Nesta atividade, cada algarismo aparece pontilhado, com um pontinho mostrando onde começar. A criança segue os pontos e faz o traçado, um traço de cada vez, do ponto de partida até o fim. Quando o último traço é concluído, o número se completa e o Digby fica feliz — e aí é hora de passar para o próximo, escrevendo assim todos os algarismos de 0 a 9.",
+        "A ideia de aprendizagem é simples e importante: escrever cada número na ordem certa dos traços e na direção correta, formando o algarismo com capricho e sem espelhar. Esse gesto gráfico bem feito é a base de uma escrita de números legível, e traçar os algarismos é uma das primeiras tarefas escritas da alfabetização matemática. Ao repetir o movimento com calma, a mão vai ganhando firmeza e a criança aprende a desenhar cada número com segurança.",
+        "A atividade é totalmente gratuita e não pede cadastro nem login. Não há cronômetro, pontuação nem competição — nada de pressa e nenhuma cobrança: cada criança segue no seu ritmo, no clima tranquilo e acolhedor de quem está só começando. É uma atividade alinhada à BNCC, na unidade temática Números, pensada para o 1º ano."
+      ],
+      "practices": [
+        "Encontrar o ponto de partida e começar cada número a partir dele.",
+        "Fazer o traçado traço por traço, seguindo os pontos na ordem certa.",
+        "Escrever cada algarismo na direção correta, sem espelhar o número.",
+        "Formar todos os algarismos de 0 a 9 de maneira legível e caprichada."
+      ],
+      "howToPlay": [
+        "Olhe o número pontilhado e encontre o pontinho de partida.",
+        "Trace a partir do ponto, um traço de cada vez, seguindo os pontos.",
+        "Quando o último traço termina, o número se completa — siga para o próximo com o Digby."
+      ],
+      "learningGoals": [
+        "Eu escrevo os números de 0 a 9 na direção certa.",
+        "Eu aprendo a ordem correta dos traços para formar cada algarismo.",
+        "Eu ganho confiança para escrever os números com capricho sozinho."
+      ]
     }
   }
 }

@@ -2688,6 +2688,31 @@
         "Eu consigo somar e subtrair até 20 para achar o número que falta.",
         "Eu consigo comparar duas quantidades e dizer quantos a mais ou a menos."
       ]
+    },
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "No ateliê da Tildy, sempre sobram tirinhas de fita, cordão, linha e couro espalhadas pela mesa de costura. Antes de cortar, a Tildy precisa saber o comprimento exato de cada pedaço — e é aí que entra você. Deslize a régua até encostar o 0 bem no começo da tira, toque em “Medir” e leia quantos centímetros a tira alcança na outra ponta. Cada rodada traz um material novo para medir, no ritmo tranquilo de quem trabalha com calma.",
+        "O segredo está em onde a régua começa: o 0 tem que encostar no começo da tira, nunca o 1. Quando a criança alinha pelo número 1, a medida sai um centímetro menor — esse é o erro mais comum ao medir com régua, e aqui ela aprende a reconhecer, entender e evitar esse deslize. Algumas rodadas trazem uma régua “quebrada” que começa no 2: nesse caso, o comprimento é a quantidade de centímetros que a tira cobre, e não o número que aparece na ponta. Em outras, é preciso escolher uma régua comprida o bastante para o material inteiro. Assim a criança entende o que comprimento realmente significa, em vez de apenas copiar um número.",
+        "A atividade é gratuita e sem cadastro, sem cronômetro, sem pontuação e sem competição — cada criança mede no seu tempo, com espaço para tentar de novo sem pressa nem constrangimento. O conteúdo está alinhado à BNCC, dentro da unidade temática Grandezas e medidas, com foco na medição de comprimentos usando a régua e os centímetros como referência."
+      ],
+      "practices": [
+        "Encostar o 0 da régua exatamente no começo da tira antes de medir.",
+        "Ler o comprimento na outra ponta da tira, em centímetros.",
+        "Reconhecer e evitar o erro de começar pelo 1 (a medida que sai um centímetro menor).",
+        "Medir com uma régua “quebrada” ou deslocada, contando os centímetros que a tira cobre.",
+        "Escolher uma régua comprida o suficiente para o material inteiro."
+      ],
+      "howToPlay": [
+        "Deslize a régua até o 0 encostar no começo da tira.",
+        "Toque em “Medir”.",
+        "Veja o número na outra ponta da tira e toque nele para responder."
+      ],
+      "learningGoals": [
+        "Eu consigo encostar o 0 da régua no começo da tira para medir do jeito certo.",
+        "Eu sei ler o comprimento em centímetros na outra ponta da tira.",
+        "Eu consigo perceber quando a régua começa no lugar errado e contar os centímetros que a tira cobre.",
+        "Eu sei escolher uma régua comprida o bastante para medir a tira inteira."
+      ]
     }
   }
 }

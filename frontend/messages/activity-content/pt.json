@@ -3245,6 +3245,29 @@
         "Eu escrevo o número de 0 a 9 que diz quantos são.",
         "Eu entendo que o zero também é um número."
       ]
+    },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "O castor Beto cuida de uma torre de estacionamento cheia de movimento, e ele precisa de uma ajudinha sua! Em cada rodada, uma voz diz uma palavra de posição — em cima, embaixo, ao lado ou entre — e a criança guarda o veículo na vaga certa. Ônibus, van, carro, caminhão e barco vão chegando, e cada um tem o seu lugar em relação a um veículo que já está estacionado na torre.",
+        "Nessa brincadeira, a criança pratica escutar com atenção a palavra de posição e entender que a posição é sempre em relação a um ponto de referência — o veículo que já está parado. Ela aprende que \"em cima\" quer dizer um andar acima daquele veículo, e não simplesmente a vaga mais próxima. Por isso, escutar faz toda a diferença: é preciso pensar onde fica cada coisa no espaço antes de escolher o lugar.",
+        "A atividade é totalmente grátis, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança avança no seu próprio ritmo. Quando um toque não é o certo, um bip suave e uma dica gentil ajudam a criança a tentar de novo, sem X vermelho e sem pressa. Tudo alinhado à BNCC, na unidade temática \"Geometria\" (localização e posição no espaço)."
+      ],
+      "practices": [
+        "Entender as palavras de posição: em cima, embaixo, ao lado e entre.",
+        "Compreender que a posição é sempre em relação a um ponto de referência.",
+        "Escutar a palavra e escolher o lugar certo — não só o mais perto.",
+        "Descrever onde as coisas estão no espaço."
+      ],
+      "howToPlay": [
+        "Escute a palavra de posição: em cima, embaixo, ao lado ou entre.",
+        "Olhe o veículo que já está estacionado — ele é o seu ponto de partida.",
+        "Toque na vaga certa e veja a cidade se acender aos pouquinhos!"
+      ],
+      "learningGoals": [
+        "Eu sei o que quer dizer em cima, embaixo, ao lado e entre.",
+        "Eu escuto a palavra e escolho o lugar certo, não só o mais perto.",
+        "Eu consigo dizer onde uma coisa está em relação a outra."
+      ]
     }
   }
 }

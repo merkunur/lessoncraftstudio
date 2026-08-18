@@ -61,13 +61,25 @@
     boat:  { bare: 'Barco',     def: 'el barco',     art: 'el', noun: 'barco'     }
   };
   var PREP_ES = { above: 'encima', below: 'debajo', 'next-to': 'junto' };
+  /* Portuguese (BR): all three governed preps take the SAME de+article contraction
+     (em cima DE / embaixo DE / ao lado DE → do/da), so — unlike Spanish (next-to→a→al) —
+     there is NO rel-branch in ptFused. « entre » takes the plain def form (entre o ônibus
+     e a van). van = feminine ("a van"); the other four are masculine. */
+  var VEHICLE_PT = {
+    bus:   { bare: 'Ônibus',   def: 'o ônibus',   art: 'o', noun: 'ônibus'   },
+    van:   { bare: 'Van',      def: 'a van',      art: 'a', noun: 'van'      },
+    car:   { bare: 'Carro',    def: 'o carro',    art: 'o', noun: 'carro'    },
+    truck: { bare: 'Caminhão', def: 'o caminhão', art: 'o', noun: 'caminhão' },
+    boat:  { bare: 'Barco',    def: 'o barco',    art: 'o', noun: 'barco'     }
+  };
+  var PREP_PT = { above: 'em cima', below: 'embaixo', 'next-to': 'ao lado' };
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function interp(t, args) { return String(t || '').replace(/\{(\w+)\}/g, function (m, k) { return (k in args) ? args[k] : m; }); }
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.92 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .92; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffledOrder(n, prev) {
@@ -104,7 +116,7 @@
 
   /* Beaver Bramble — SVG PLACEHOLDER (attendant cap + big tail). */
   function brambleSVG() {
-    return '<svg class="pt-bramble-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Benno der Biber' : LANG === 'fr' ? 'Bramble le castor' : LANG === 'es' ? 'Beto el castor' : 'Bramble the beaver') + '">' +
+    return '<svg class="pt-bramble-svg" viewBox="0 0 120 120" role="img" aria-label="' + (LANG === 'de' ? 'Benno der Biber' : LANG === 'fr' ? 'Bramble le castor' : LANG === 'es' ? 'Beto el castor' : LANG === 'pt' ? 'o castor Beto' : 'Bramble the beaver') + '">' +
       '<ellipse cx="60" cy="113" rx="30" ry="6" fill="rgba(0,0,0,.08)"/>' +
       '<path d="M84 96 Q108 92 104 72 Q92 78 84 88 Z" fill="' + C.WOOD + '" stroke="' + C.CORAL2 + '" stroke-width="2"/>' +   /* tail */
       '<path d="M32 64 Q32 36 60 36 Q88 36 88 64 Q88 98 60 100 Q32 98 32 64 Z" fill="' + C.WOOD + '"/>' +
@@ -120,19 +132,19 @@
     id: 'parking-tower-activity',
 
     strings: {
-      title:        { en: "Bramble's Parking Tower", de: 'Bennos Parkturm', fr: 'Le parking à étages de Bramble', es: 'El estacionamiento de Beto' },
-      instruction:  { en: 'Help Bramble park each vehicle in the right spot. Tap Check when it is parked.', de: 'Hilf Benno, jedes Fahrzeug am richtigen Platz zu parken. Tippe auf Prüfen, wenn es geparkt ist.', fr: 'Aide Bramble à garer chaque véhicule au bon endroit. Touche Vérifier quand il est garé.', es: 'Ayuda a Beto a estacionar cada vehículo en su lugar. Toca Comprobar cuando ya esté estacionado.' },
-      promptPlace:  { en: 'Park the {mover} {rel} the {landmark}.', de: 'Parke {mover} {rel} {landmark}.', fr: 'Gare {mover} {rel} {landmark}.', es: 'Estaciona {mover} {rel} {landmark}.' },
-      promptBetween:{ en: 'Park the {mover} between the {lm1} and the {lm2}.', de: 'Parke {mover} zwischen {lm1} und {lm2}.', fr: 'Gare {mover} entre {lm1} et {lm2}.', es: 'Estaciona {mover} entre {lm1} y {lm2}.' },
-      promptReverse:{ en: 'Bramble parked {rel} the {landmark}. Tap his truck.', de: 'Benno hat {rel} {landmark} geparkt. Tippe auf seinen Lastwagen.', fr: 'Bramble s’est garé {rel} {landmark}. Touche son camion.', es: 'Beto estacionó {rel} {landmark}. Toca su tráiler.' },
-      promptTwoTruck:{ en: 'Park the {mover} between your two trucks.', de: 'Parke {mover} zwischen deinen beiden Lastwagen.', fr: 'Gare {mover} entre tes deux camions.', es: 'Estaciona {mover} entre tus dos tráileres.' },
-      reteachAbove: { en: 'Above means one level higher up — try again!', de: 'Über bedeutet eine Ebene höher — versuch es noch einmal!', fr: 'Au-dessus, ça veut dire un étage plus haut — essaie encore !', es: 'Encima quiere decir un piso más arriba… ¡inténtalo otra vez!' },
-      reteachBelow: { en: 'Below means one level lower down — try again!', de: 'Unter bedeutet eine Ebene tiefer — versuch es noch einmal!', fr: 'En dessous, ça veut dire un étage plus bas — essaie encore !', es: 'Debajo quiere decir un piso más abajo… ¡inténtalo otra vez!' },
-      reteachNext:  { en: 'Next to means right beside it, same level — try again!', de: 'Neben bedeutet direkt daneben, auf derselben Ebene — versuch es noch einmal!', fr: 'À côté, ça veut dire juste à côté, au même étage — essaie encore !', es: 'Junto quiere decir en el mismo piso, al lado… ¡inténtalo otra vez!' },
-      reteachBetween:{ en: 'Between means in the middle of the two — try again!', de: 'Zwischen bedeutet in der Mitte zwischen den beiden — versuch es noch einmal!', fr: 'Entre, ça veut dire au milieu des deux — essaie encore !', es: 'Entre quiere decir en medio de los dos… ¡inténtalo otra vez!' },
-      reteach2:     { en: 'That spot is {sib}, not {rel}. Listen again.', de: 'Dieser Platz ist {sib}, nicht {rel}. Hör noch einmal zu.', fr: 'Cette place est {sib}, pas {rel}. Écoute encore.', es: 'Ese lugar está {sib}, no {rel}. Escucha otra vez.' },
-      parked:       { en: 'Yes! Parked just right.', de: 'Ja! Genau richtig geparkt.', fr: 'Oui ! Bien garé.', es: '¡Sí! Quedó justo en su lugar.' },
-      hintCheck:    { en: 'Park the vehicle in the right spot, then tap Check.', de: 'Parke das Fahrzeug am richtigen Platz und tippe dann auf Prüfen.', fr: 'Gare le véhicule au bon endroit, puis touche Vérifier.', es: 'Estaciona el vehículo en el lugar correcto y luego toca Comprobar.' }
+      title:        { en: "Bramble's Parking Tower", de: 'Bennos Parkturm', fr: 'Le parking à étages de Bramble', es: 'El estacionamiento de Beto', pt: 'O estacionamento do Beto' },
+      instruction:  { en: 'Help Bramble park each vehicle in the right spot. Tap Check when it is parked.', de: 'Hilf Benno, jedes Fahrzeug am richtigen Platz zu parken. Tippe auf Prüfen, wenn es geparkt ist.', fr: 'Aide Bramble à garer chaque véhicule au bon endroit. Touche Vérifier quand il est garé.', es: 'Ayuda a Beto a estacionar cada vehículo en su lugar. Toca Comprobar cuando ya esté estacionado.', pt: 'Ajude o castor Beto a estacionar cada veículo no lugar certo. Toque em Verificar quando ele estiver estacionado.' },
+      promptPlace:  { en: 'Park the {mover} {rel} the {landmark}.', de: 'Parke {mover} {rel} {landmark}.', fr: 'Gare {mover} {rel} {landmark}.', es: 'Estaciona {mover} {rel} {landmark}.', pt: 'Estacione {mover} {rel} {landmark}.' },
+      promptBetween:{ en: 'Park the {mover} between the {lm1} and the {lm2}.', de: 'Parke {mover} zwischen {lm1} und {lm2}.', fr: 'Gare {mover} entre {lm1} et {lm2}.', es: 'Estaciona {mover} entre {lm1} y {lm2}.', pt: 'Estacione {mover} entre {lm1} e {lm2}.' },
+      promptReverse:{ en: 'Bramble parked {rel} the {landmark}. Tap his truck.', de: 'Benno hat {rel} {landmark} geparkt. Tippe auf seinen Lastwagen.', fr: 'Bramble s’est garé {rel} {landmark}. Touche son camion.', es: 'Beto estacionó {rel} {landmark}. Toca su tráiler.', pt: 'O Beto estacionou {rel} {landmark}. Toque no caminhão dele.' },
+      promptTwoTruck:{ en: 'Park the {mover} between your two trucks.', de: 'Parke {mover} zwischen deinen beiden Lastwagen.', fr: 'Gare {mover} entre tes deux camions.', es: 'Estaciona {mover} entre tus dos tráileres.', pt: 'Estacione {mover} entre os dois caminhões.' },
+      reteachAbove: { en: 'Above means one level higher up — try again!', de: 'Über bedeutet eine Ebene höher — versuch es noch einmal!', fr: 'Au-dessus, ça veut dire un étage plus haut — essaie encore !', es: 'Encima quiere decir un piso más arriba… ¡inténtalo otra vez!', pt: 'Em cima quer dizer um andar acima… tente de novo!' },
+      reteachBelow: { en: 'Below means one level lower down — try again!', de: 'Unter bedeutet eine Ebene tiefer — versuch es noch einmal!', fr: 'En dessous, ça veut dire un étage plus bas — essaie encore !', es: 'Debajo quiere decir un piso más abajo… ¡inténtalo otra vez!', pt: 'Embaixo quer dizer um andar abaixo… tente de novo!' },
+      reteachNext:  { en: 'Next to means right beside it, same level — try again!', de: 'Neben bedeutet direkt daneben, auf derselben Ebene — versuch es noch einmal!', fr: 'À côté, ça veut dire juste à côté, au même étage — essaie encore !', es: 'Junto quiere decir en el mismo piso, al lado… ¡inténtalo otra vez!', pt: 'Ao lado quer dizer bem do lado, no mesmo andar… tente de novo!' },
+      reteachBetween:{ en: 'Between means in the middle of the two — try again!', de: 'Zwischen bedeutet in der Mitte zwischen den beiden — versuch es noch einmal!', fr: 'Entre, ça veut dire au milieu des deux — essaie encore !', es: 'Entre quiere decir en medio de los dos… ¡inténtalo otra vez!', pt: 'Entre quer dizer no meio dos dois… tente de novo!' },
+      reteach2:     { en: 'That spot is {sib}, not {rel}. Listen again.', de: 'Dieser Platz ist {sib}, nicht {rel}. Hör noch einmal zu.', fr: 'Cette place est {sib}, pas {rel}. Écoute encore.', es: 'Ese lugar está {sib}, no {rel}. Escucha otra vez.', pt: 'Esse lugar está {sib}, não {rel}. Escute de novo.' },
+      parked:       { en: 'Yes! Parked just right.', de: 'Ja! Genau richtig geparkt.', fr: 'Oui ! Bien garé.', es: '¡Sí! Quedó justo en su lugar.', pt: 'Isso! Estacionou certinho.' },
+      hintCheck:    { en: 'Park the vehicle in the right spot, then tap Check.', de: 'Parke das Fahrzeug am richtigen Platz und tippe dann auf Prüfen.', fr: 'Gare le véhicule au bon endroit, puis touche Vérifier.', es: 'Estaciona el vehículo en el lugar correcto y luego toca Comprobar.', pt: 'Estacione o veículo no lugar certo e depois toque em Verificar.' }
     },
 
     defaults: {},
@@ -199,7 +211,7 @@
       for (var lv = s.levels; lv >= 1; lv--) for (var co = 1; co <= s.cols; co++) tower.appendChild(cellEl(co, lv));
 
       /* landmarks (parked, not tappable) */
-      s.landmarks.forEach(function (l) { var c = cellEl(l.col, l.level); c.classList.add('pt-occupied'); var lbl = (LANG === 'de' && VEHICLE_DE[l.label]) ? VEHICLE_DE[l.label].bare : (LANG === 'fr' && VEHICLE_FR[l.label]) ? VEHICLE_FR[l.label].bare : (LANG === 'es' && VEHICLE_ES[l.label]) ? VEHICLE_ES[l.label].bare : l.label; c.innerHTML = '<span class="pt-veh pt-landmark">' + vehicleSVG(l.vehicle) + '</span><span class="pt-label">' + esc(lbl) + '</span>'; tower.appendChild(c); });
+      s.landmarks.forEach(function (l) { var c = cellEl(l.col, l.level); c.classList.add('pt-occupied'); var lbl = (LANG === 'de' && VEHICLE_DE[l.label]) ? VEHICLE_DE[l.label].bare : (LANG === 'fr' && VEHICLE_FR[l.label]) ? VEHICLE_FR[l.label].bare : (LANG === 'es' && VEHICLE_ES[l.label]) ? VEHICLE_ES[l.label].bare : (LANG === 'pt' && VEHICLE_PT[l.label]) ? VEHICLE_PT[l.label].bare : l.label; c.innerHTML = '<span class="pt-veh pt-landmark">' + vehicleSVG(l.vehicle) + '</span><span class="pt-label">' + esc(lbl) + '</span>'; tower.appendChild(c); });
 
       /* candidates — dashed BAYS (place) or TRUCKS (reverse), tappable */
       s.candidates.forEach(function (cd) {
@@ -207,7 +219,7 @@
         c.setAttribute('data-id', cd.id);
         c.style.gridColumn = String(cd.col); c.style.gridRow = String(s.levels - cd.level + 1);
         if (cd.level === 1) c.classList.add('pt-ground');
-        c.setAttribute('aria-label', LANG === 'de' ? (cd.kind === 'truck' ? 'ein Lastwagen' : 'ein leerer Parkplatz') : LANG === 'fr' ? (cd.kind === 'truck' ? 'un camion' : 'une place libre') : LANG === 'es' ? (cd.kind === 'truck' ? 'un tráiler' : 'un lugar vacío para estacionar') : (cd.kind === 'truck' ? 'a truck' : 'an empty parking spot'));
+        c.setAttribute('aria-label', LANG === 'de' ? (cd.kind === 'truck' ? 'ein Lastwagen' : 'ein leerer Parkplatz') : LANG === 'fr' ? (cd.kind === 'truck' ? 'un camion' : 'une place libre') : LANG === 'es' ? (cd.kind === 'truck' ? 'un tráiler' : 'un lugar vacío para estacionar') : LANG === 'pt' ? (cd.kind === 'truck' ? 'um caminhão' : 'uma vaga de estacionamento vazia') : (cd.kind === 'truck' ? 'a truck' : 'an empty parking spot'));
         if (cd.kind === 'truck') c.innerHTML = '<span class="pt-veh">' + vehicleSVG(cd.vehicle) + '</span>';
         else if (self.placed === cd.id && s.mover) c.innerHTML = '<span class="pt-veh pt-parked">' + vehicleSVG(s.mover.vehicle) + '</span>';
         else c.innerHTML = '<span class="pt-bay-mark"></span>';
@@ -341,18 +353,20 @@
   function makeTasks(rounds) {
     return rounds.map(function (round) {
       var s = round.scene;
-      var de = (LANG === 'de'), fr = (LANG === 'fr'), es = (LANG === 'es');
+      var de = (LANG === 'de'), fr = (LANG === 'fr'), es = (LANG === 'es'), pt = (LANG === 'pt');
       var lm = function (id) { var l = s.landmarks.filter(function (x) { return x.id === id; })[0]; return l ? l.label : id; };
       /* es: the landmark AFTER a governed prep, with de+el→del / a+el→al contraction (fem "camioneta" stays "de la"/"a la").
          next-to governs "a" (junto al …); above/below govern "de" (encima/debajo del …). */
       var esFused = function (rel, k) { var v = VEHICLE_ES[k]; if (!v) return k; var toA = (rel === 'next-to'); if (v.art === 'el') return (toA ? 'al ' : 'del ') + v.noun; return (toA ? 'a ' : 'de ') + v.def; };
-      /* landmark after a preposition: de = dative; fr = the de-FUSED form (du bus / de la voiture) for au-dessus/en dessous/à côté */
-      var lmVal = function (id) { var k = lm(id); return es ? esFused(round.relation, k) : de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : fr ? ((VEHICLE_FR[k] && VEHICLE_FR[k].de) || k) : k; };
-      /* landmark inside « entre … et … »: de = dative (same); fr = the plain DEF form (le bus / la voiture); es = the DEF form (el autobús / la camioneta) */
-      var lmDef = function (id) { var k = lm(id); return es ? ((VEHICLE_ES[k] && VEHICLE_ES[k].def) || k) : de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : fr ? ((VEHICLE_FR[k] && VEHICLE_FR[k].def) || k) : k; };
+      /* pt: ALL three governed preps take de+article contraction (do/da) — no rel-branch. */
+      var ptFused = function (k) { var v = VEHICLE_PT[k]; if (!v) return k; return (v.art === 'o' ? 'do ' : 'da ') + v.noun; };
+      /* landmark after a preposition: de = dative; fr = the de-FUSED form (du bus / de la voiture) for au-dessus/en dessous/à côté; pt = the do/da-contracted form */
+      var lmVal = function (id) { var k = lm(id); return pt ? ptFused(k) : es ? esFused(round.relation, k) : de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : fr ? ((VEHICLE_FR[k] && VEHICLE_FR[k].de) || k) : k; };
+      /* landmark inside « entre … et … »: de = dative (same); fr = the plain DEF form (le bus / la voiture); es = the DEF form (el autobús / la camioneta); pt = the DEF form (o ônibus / a van) */
+      var lmDef = function (id) { var k = lm(id); return pt ? ((VEHICLE_PT[k] && VEHICLE_PT[k].def) || k) : es ? ((VEHICLE_ES[k] && VEHICLE_ES[k].def) || k) : de ? ((VEHICLE_DE[k] && VEHICLE_DE[k].dat) || k) : fr ? ((VEHICLE_FR[k] && VEHICLE_FR[k].def) || k) : k; };
       var moverKey = s.mover ? s.mover.vehicle : 'truck';
-      var moverVal = es ? ((VEHICLE_ES[moverKey] && VEHICLE_ES[moverKey].def) || moverKey) : de ? ((VEHICLE_DE[moverKey] && VEHICLE_DE[moverKey].akk) || moverKey) : fr ? ((VEHICLE_FR[moverKey] && VEHICLE_FR[moverKey].def) || moverKey) : (s.mover ? s.mover.label : 'truck');
-      var relVal = es ? (PREP_ES[round.relation] || round.relation) : de ? (PREP_DE[round.relation] || round.relation) : fr ? (PREP_FR[round.relation] || round.relation) : relWord(round.relation);
+      var moverVal = pt ? ((VEHICLE_PT[moverKey] && VEHICLE_PT[moverKey].def) || moverKey) : es ? ((VEHICLE_ES[moverKey] && VEHICLE_ES[moverKey].def) || moverKey) : de ? ((VEHICLE_DE[moverKey] && VEHICLE_DE[moverKey].akk) || moverKey) : fr ? ((VEHICLE_FR[moverKey] && VEHICLE_FR[moverKey].def) || moverKey) : (s.mover ? s.mover.label : 'truck');
+      var relVal = pt ? (PREP_PT[round.relation] || round.relation) : es ? (PREP_ES[round.relation] || round.relation) : de ? (PREP_DE[round.relation] || round.relation) : fr ? (PREP_FR[round.relation] || round.relation) : relWord(round.relation);
       var pk, pa = {};
       if (round.experience === 'between') { pk = 'promptBetween'; pa = { mover: moverVal, lm1: lmDef(round.termRef[0]), lm2: lmDef(round.termRef[1]) }; }
       else if (round.experience === 'reverse') { pk = 'promptReverse'; pa = { rel: relVal, landmark: lmVal(round.termRef[0]) }; }

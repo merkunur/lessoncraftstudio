@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "No Vale do Apito, uma tempestade arrancou os trilhos do trenzinho e espalhou os dormentes numerados pelo caminho. Cada dormente traz um número, e o lugar certo dele está bem ali, na reta numérica que atravessa o vale. A criança sobe no vagonete, lê um dormente de cada vez e recoloca cada peça exatamente onde ela pertence, até a via ficar inteira de novo.",
+        "Por trás da brincadeira está uma ideia central do 1º ano: a reta numérica. A criança conta a partir das estações-âncora, avança de 5 em 5 e de 10 em 10, atravessa as dezenas e passa da casa do cem, colocando os números até 100 no ponto exato. Ela percebe que cada número tem um só lugar na reta e que contar salteado ajuda a chegar mais rápido no destino. Quando os trilhos ficam prontos, um trenzinho que canta passa apitando e entoa a sequência restaurada, do começo ao fim.",
+        "A atividade é gratuita e interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo. A proposta segue a BNCC na unidade temática Números do 1º ano, trabalhando a contagem, a reta numérica e as contagens de 5 em 5 e de 10 em 10 até 100, com um jeitinho calmo e acolhedor, sem pressa e sem medo de errar."
+      ],
+      "practices": [
+        "Localiza números até 100 na reta numérica, colocando cada dormente no ponto exato.",
+        "Conta a partir de uma estação-âncora, avançando um a um ou salteado.",
+        "Faz contagens de 5 em 5 e de 10 em 10, atravessando as dezenas e a casa do cem.",
+        "Percebe a ordem dos números e a distância entre eles ao longo da reta."
+      ],
+      "howToPlay": [
+        "Leia o número escrito no dormente que está no vagonete.",
+        "Coloque o dormente no lugar certo da reta numérica, contando a partir das estações.",
+        "Quando a via estiver pronta, mande o trenzinho passar e ouça a sequência cantada."
+      ],
+      "learningGoals": [
+        "Colocar e ler números até 100 na reta numérica com segurança.",
+        "Contar de 5 em 5 e de 10 em 10 a partir de diferentes pontos de partida.",
+        "Compreender que cada número ocupa um lugar único e ordenado na reta."
+      ]
+    },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
         "O robô Bolt ajuda a criança a montar um número de dois algarismos, de 20 a 49, usando o valor posicional. A criança solta as unidades uma a uma na bandeja, conta até dez e puxa a alavanca para agrupar essas dez unidades em uma dezena. Para formar 23, por exemplo, ela agrupa duas dezenas e deixa três unidades soltas.",

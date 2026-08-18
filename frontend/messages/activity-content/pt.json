@@ -3291,6 +3291,29 @@
         "Eu consigo mover os ponteiros para mostrar uma hora combinada.",
         "Eu sei ligar cada hora a um momento do meu dia."
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "A tartaruga Tempo adora planejar o dia devagarinho, do jeitinho dela. Nesta atividade, ela convida a criança a organizar a rotina junto com ela: acordar, tomar café, escovar os dentes, brincar e descansar. A criança lê uma frasezinha sobre um momento do dia com um espacinho em branco e toca na palavra de tempo que combina — antes, durante ou depois. Por exemplo: \"Nós nos alongamos ___ caminhada.\" e a criança escolhe \"antes da\". Cada frase vira uma pecinha da história do dia da Tempo.",
+        "Enquanto ajuda a Tempo, a criança pratica as palavras que marcam o tempo — antes, durante e depois — e começa a perceber a ordem das coisas no dia: o que vem primeiro, o que acontece no meio e o que fica para o fim. Ao tocar na palavra certa e completar a frase, ela junta a linguagem com a noção de sequência de um jeito concreto e cheio de sentido. É um primeiro passo importante da gramática, que aparece brincando, dentro de uma rotina que a criança já conhece bem. Aos pouquinhos, contar o dia em ordem fica cada vez mais natural.",
+        "A atividade é totalmente gratuita, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança avança no seu ritmo, com todo o tempo do mundo e sem medo de errar. Se a resposta não for a esperada, é só tentar de novo, com carinho e sem pressa. Esta proposta está alinhada à BNCC, no eixo \"Análise linguística/semiótica\" da Língua Portuguesa, para o 1º ano, trabalhando as palavras que marcam a sequência do tempo."
+      ],
+      "practices": [
+        "Entender as palavras de tempo: antes, durante e depois.",
+        "Perceber a ordem das coisas no dia: o que vem primeiro, no meio e no fim.",
+        "Completar a frase com a palavra de tempo certa.",
+        "Contar a rotina do dia em ordem, do começo ao fim."
+      ],
+      "howToPlay": [
+        "Leia a frasezinha da tartaruga Tempo e veja onde está o espaço em branco.",
+        "Toque na palavra de tempo — antes, durante ou depois — que combina com a frase.",
+        "Toque em \"Verificar\" para ver se a palavra encaixou. Pode tentar quantas vezes quiser!"
+      ],
+      "learningGoals": [
+        "Eu sei quando usar antes, durante e depois.",
+        "Eu percebo o que vem primeiro, no meio e no fim do dia.",
+        "Eu completo a frase com a palavra de tempo certa."
+      ]
     }
   }
 }

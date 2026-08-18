@@ -30,8 +30,8 @@
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function candySVG(i, counted) {
@@ -88,34 +88,34 @@
     reward: { id: 'wish-wall', label: 'Wish Wall', emoji: '🫙' },
 
     strings: {
-      title: { en: 'The Wondering Jar', de: 'Eulchens Rätselglas', fr: 'Le bocal mystère de la chouette', es: 'Frasco preguntón' },
-      prompt: { en: 'Guess how many — then count to find out!', de: 'Schätz mal, wie viele – dann zähl nach!', fr: 'Devine combien — puis compte pour découvrir !', es: 'Estima cuántos hay… ¡luego cuéntalos!' },
-      estimateHint: { en: 'How many do you think? Slide your wish, then lock it.', de: 'Wie viele sind es wohl? Schieb deinen Wunsch hin und halt ihn fest.', fr: 'Combien, à ton avis ? Fais glisser ton idée, puis valide-la.', es: '¿Cuántos crees que hay? Desliza tu estimación y déjala lista.' },
-      estimateRefHint: { en: 'This jar had {n}. How many in the new one?', de: 'In diesem Glas waren {n}. Wie viele sind wohl im neuen?', fr: 'Ce bocal en avait {n}. Et dans le nouveau, combien ?', es: 'Este frasco tenía {n}. ¿Cuántos habrá en el nuevo?' },
-      binaryHint: { en: 'More or fewer than {n}? Take a guess!', de: 'Mehr oder weniger als {n}? Schätz mal!', fr: 'Plus ou moins que {n} ? Lance-toi, devine !', es: '¿Más o menos que {n}? ¿Tú qué crees?' },
-      whichHint: { en: 'Which jar has more — A or B?', de: 'In welchem Glas sind mehr – A oder B?', fr: 'Quel bocal en a le plus — A ou B ?', es: '¿Cuál frasco tiene más: A o B?' },
-      countHint: { en: 'Tap each sweet to count them, one by one.', de: 'Tippe jedes Bonbon an und zähl eins nach dem anderen.', fr: 'Touche chaque bonbon pour les compter, un par un.', es: 'Toca cada dulce y cuéntalos uno por uno.' },
-      countAHint: { en: 'Count jar A — tap each sweet.', de: 'Zähl Glas A – tippe jedes Bonbon an.', fr: 'Compte le bocal A — touche chaque bonbon.', es: 'Cuenta el frasco A: toca cada dulce.' },
-      countBHint: { en: 'Now count jar B — tap each sweet.', de: 'Jetzt zähl Glas B – tippe jedes Bonbon an.', fr: 'Maintenant compte le bocal B — touche chaque bonbon.', es: 'Ahora cuenta el frasco B: toca cada dulce.' },
-      compareHint: { en: 'Let\'s see how many there really were!', de: 'Mal sehen, wie viele es wirklich waren!', fr: 'Voyons combien il y en avait vraiment !', es: '¡Vamos a ver cuántos había de verdad!' },
-      lock: { en: 'Lock my wish 🌟', de: 'Mein Wunsch steht 🌟', fr: 'Je valide mon idée 🌟', es: '¡Ya está mi estimación! 🌟' },
-      moreBtn: { en: 'More', de: 'Mehr', fr: 'Plus', es: 'Más' },
-      fewerBtn: { en: 'Fewer', de: 'Weniger', fr: 'Moins', es: 'Menos' },
-      jarABtn: { en: 'Jar A', de: 'Glas A', fr: 'Bocal A', es: 'Frasco A' },
-      jarBBtn: { en: 'Jar B', de: 'Glas B', fr: 'Bocal B', es: 'Frasco B' },
-      wish: { en: 'Wish', de: 'Wunsch', fr: 'Ton idée', es: 'Tu estimación' },
-      counted: { en: 'Counted', de: 'Gezählt', fr: 'Comptés', es: 'Contados' },
-      revealSlider: { en: 'You wondered {g} — it was {a}!', de: 'Dein Wunsch war {g} – es waren {a}!', fr: 'Tu pensais {g} — il y en avait {a} !', es: 'Tu estimación fue {g}… ¡y había {a}!' },
-      dirSame: { en: 'Just what you thought! 🎉', de: 'Genau wie gedacht! 🎉', fr: 'Exactement comme tu pensais ! 🎉', es: '¡Tal como pensabas! 🎉' },
-      dirMore: { en: 'More than you thought — jars surprise us!', de: 'Mehr als gedacht – Gläser überraschen uns!', fr: 'Plus que tu pensais — les bocaux nous surprennent !', es: '¡Más de lo que pensabas! Los frascos nos sorprenden.' },
-      dirFewer: { en: 'Fewer than you thought — now we know!', de: 'Weniger als gedacht – jetzt wissen wir\'s!', fr: 'Moins que tu pensais — maintenant on le sait !', es: '¡Menos de lo que pensabas! Ahora ya lo sabemos.' },
-      revealWhich: { en: 'Jar A had {a}, Jar B had {b}.', de: 'In Glas A waren {a}, in Glas B waren {b}.', fr: 'Le bocal A en avait {a}, le bocal B en avait {b}.', es: 'El frasco A tenía {a} y el frasco B tenía {b}.' },
-      whichMore: { en: 'Jar {j} had more!', de: 'In Glas {j} waren mehr!', fr: 'Le bocal {j} en avait le plus !', es: '¡El frasco {j} tenía más!' },
-      whichSame: { en: 'They had the same — twins!', de: 'Gleich viele – wie Zwillinge!', fr: 'Ils en avaient autant — comme des jumeaux !', es: '¡Iguales, como gemelos!' },
-      win: { en: 'Now we know! 🦉', de: 'Jetzt wissen wir\'s! 🦉', fr: 'Maintenant on le sait ! 🦉', es: '¡Ahora ya lo sabemos! 🦉' },
-      hintCheck: { en: 'Make a wish, count the jar, then see!', de: 'Wünsch dir was, zähl das Glas, dann schau!', fr: 'Devine combien, compte le bocal, puis regarde !', es: 'Haz tu estimación, cuenta el frasco y ¡mira!' },
-      jarN: { en: 'Jar {n}', de: 'Glas {n}', fr: 'Bocal {n}', es: 'Frasco {n}' },
-      vsLabel: { en: 'vs', de: 'gegen', fr: 'contre', es: 'y' }
+      title: { en: 'The Wondering Jar', de: 'Eulchens Rätselglas', fr: 'Le bocal mystère de la chouette', es: 'Frasco preguntón', pt: 'O Frasco dos Palpites' },
+      prompt: { en: 'Guess how many — then count to find out!', de: 'Schätz mal, wie viele – dann zähl nach!', fr: 'Devine combien — puis compte pour découvrir !', es: 'Estima cuántos hay… ¡luego cuéntalos!', pt: 'Dê um palpite — depois conte para descobrir!' },
+      estimateHint: { en: 'How many do you think? Slide your wish, then lock it.', de: 'Wie viele sind es wohl? Schieb deinen Wunsch hin und halt ihn fest.', fr: 'Combien, à ton avis ? Fais glisser ton idée, puis valide-la.', es: '¿Cuántos crees que hay? Desliza tu estimación y déjala lista.', pt: 'Quantos você acha? Deslize seu palpite e trave.' },
+      estimateRefHint: { en: 'This jar had {n}. How many in the new one?', de: 'In diesem Glas waren {n}. Wie viele sind wohl im neuen?', fr: 'Ce bocal en avait {n}. Et dans le nouveau, combien ?', es: 'Este frasco tenía {n}. ¿Cuántos habrá en el nuevo?', pt: 'Este frasco tinha {n}. Quantos tem no novo?' },
+      binaryHint: { en: 'More or fewer than {n}? Take a guess!', de: 'Mehr oder weniger als {n}? Schätz mal!', fr: 'Plus ou moins que {n} ? Lance-toi, devine !', es: '¿Más o menos que {n}? ¿Tú qué crees?', pt: 'Mais ou menos que {n}? Dê um palpite!' },
+      whichHint: { en: 'Which jar has more — A or B?', de: 'In welchem Glas sind mehr – A oder B?', fr: 'Quel bocal en a le plus — A ou B ?', es: '¿Cuál frasco tiene más: A o B?', pt: 'Qual frasco tem mais — A ou B?' },
+      countHint: { en: 'Tap each sweet to count them, one by one.', de: 'Tippe jedes Bonbon an und zähl eins nach dem anderen.', fr: 'Touche chaque bonbon pour les compter, un par un.', es: 'Toca cada dulce y cuéntalos uno por uno.', pt: 'Toque em cada docinho para contar, um por um.' },
+      countAHint: { en: 'Count jar A — tap each sweet.', de: 'Zähl Glas A – tippe jedes Bonbon an.', fr: 'Compte le bocal A — touche chaque bonbon.', es: 'Cuenta el frasco A: toca cada dulce.', pt: 'Conte o frasco A — toque em cada docinho.' },
+      countBHint: { en: 'Now count jar B — tap each sweet.', de: 'Jetzt zähl Glas B – tippe jedes Bonbon an.', fr: 'Maintenant compte le bocal B — touche chaque bonbon.', es: 'Ahora cuenta el frasco B: toca cada dulce.', pt: 'Agora conte o frasco B — toque em cada docinho.' },
+      compareHint: { en: 'Let\'s see how many there really were!', de: 'Mal sehen, wie viele es wirklich waren!', fr: 'Voyons combien il y en avait vraiment !', es: '¡Vamos a ver cuántos había de verdad!', pt: 'Vamos ver quantos tinha de verdade!' },
+      lock: { en: 'Lock my wish 🌟', de: 'Mein Wunsch steht 🌟', fr: 'Je valide mon idée 🌟', es: '¡Ya está mi estimación! 🌟', pt: 'Travar meu palpite 🌟' },
+      moreBtn: { en: 'More', de: 'Mehr', fr: 'Plus', es: 'Más', pt: 'Mais' },
+      fewerBtn: { en: 'Fewer', de: 'Weniger', fr: 'Moins', es: 'Menos', pt: 'Menos' },
+      jarABtn: { en: 'Jar A', de: 'Glas A', fr: 'Bocal A', es: 'Frasco A', pt: 'Frasco A' },
+      jarBBtn: { en: 'Jar B', de: 'Glas B', fr: 'Bocal B', es: 'Frasco B', pt: 'Frasco B' },
+      wish: { en: 'Wish', de: 'Wunsch', fr: 'Ton idée', es: 'Tu estimación', pt: 'Palpite' },
+      counted: { en: 'Counted', de: 'Gezählt', fr: 'Comptés', es: 'Contados', pt: 'Contados' },
+      revealSlider: { en: 'You wondered {g} — it was {a}!', de: 'Dein Wunsch war {g} – es waren {a}!', fr: 'Tu pensais {g} — il y en avait {a} !', es: 'Tu estimación fue {g}… ¡y había {a}!', pt: 'Seu palpite foi {g} — o frasco tinha {a}!' },
+      dirSame: { en: 'Just what you thought! 🎉', de: 'Genau wie gedacht! 🎉', fr: 'Exactement comme tu pensais ! 🎉', es: '¡Tal como pensabas! 🎉', pt: 'Bem o que você pensou! 🎉' },
+      dirMore: { en: 'More than you thought — jars surprise us!', de: 'Mehr als gedacht – Gläser überraschen uns!', fr: 'Plus que tu pensais — les bocaux nous surprennent !', es: '¡Más de lo que pensabas! Los frascos nos sorprenden.', pt: 'Mais do que você pensou — os frascos surpreendem!' },
+      dirFewer: { en: 'Fewer than you thought — now we know!', de: 'Weniger als gedacht – jetzt wissen wir\'s!', fr: 'Moins que tu pensais — maintenant on le sait !', es: '¡Menos de lo que pensabas! Ahora ya lo sabemos.', pt: 'Menos do que você pensou — agora a gente sabe!' },
+      revealWhich: { en: 'Jar A had {a}, Jar B had {b}.', de: 'In Glas A waren {a}, in Glas B waren {b}.', fr: 'Le bocal A en avait {a}, le bocal B en avait {b}.', es: 'El frasco A tenía {a} y el frasco B tenía {b}.', pt: 'O frasco A tinha {a}, o frasco B tinha {b}.' },
+      whichMore: { en: 'Jar {j} had more!', de: 'In Glas {j} waren mehr!', fr: 'Le bocal {j} en avait le plus !', es: '¡El frasco {j} tenía más!', pt: 'O frasco {j} tinha mais!' },
+      whichSame: { en: 'They had the same — twins!', de: 'Gleich viele – wie Zwillinge!', fr: 'Ils en avaient autant — comme des jumeaux !', es: '¡Iguales, como gemelos!', pt: 'Os dois tinham a mesma quantidade — gêmeos!' },
+      win: { en: 'Now we know! 🦉', de: 'Jetzt wissen wir\'s! 🦉', fr: 'Maintenant on le sait ! 🦉', es: '¡Ahora ya lo sabemos! 🦉', pt: 'Agora a gente sabe! 🦉' },
+      hintCheck: { en: 'Make a wish, count the jar, then see!', de: 'Wünsch dir was, zähl das Glas, dann schau!', fr: 'Devine combien, compte le bocal, puis regarde !', es: 'Haz tu estimación, cuenta el frasco y ¡mira!', pt: 'Dê um palpite, conte o frasco e veja!' },
+      jarN: { en: 'Jar {n}', de: 'Glas {n}', fr: 'Bocal {n}', es: 'Frasco {n}', pt: 'Frasco {n}' },
+      vsLabel: { en: 'vs', de: 'gegen', fr: 'contre', es: 'y', pt: '×' }
     },
     defaults: {},
 

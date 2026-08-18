@@ -2969,6 +2969,29 @@
         "Eu acho a casa com o mesmo número",
         "Eu sei que 13 e 31 são diferentes pela posição do algarismo"
       ]
+    },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "A galinha Posy guarda os ovos dela em caixas que têm exatamente 10 ovos cada uma. Em vez de contar ovo por ovo, dá para contar as caixas cheias de 10 em 10 — 10, 20, 30… A criança olha as caixas, conta de dez em dez e toca no total de ovos.",
+        "Contar de 10 em 10 é um jeito rápido e esperto de contar muitos objetos de uma vez. Cada caixa cheia é uma dezena, ou seja, um grupo de dez. Contando as caixas, a criança chega até 100 sem precisar contar um ovo de cada vez — e vai percebendo como os grupos de dez ajudam a contar bem mais depressa.",
+        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — só a criança, a Posy e as caixas de ovos, no ritmo dela. Está alinhada à BNCC, na unidade temática Números, e é uma boa base para contar e começar a agrupar em dezenas."
+      ],
+      "practices": [
+        "Contar de 10 em 10 — 10, 20, 30… até 100",
+        "Entender que cada caixa cheia é uma dezena e vale 10",
+        "Chegar ao total contando as caixas cheias",
+        "Perceber que contar em grupos é mais rápido que contar um por um"
+      ],
+      "howToPlay": [
+        "Veja as caixas cheias de ovos da Posy",
+        "Conte de 10 em 10, uma caixa de cada vez",
+        "Toque no número total de ovos"
+      ],
+      "learningGoals": [
+        "Eu conto de 10 em 10 até 100",
+        "Eu sei que cada caixa cheia vale 10",
+        "Eu acho o total contando as caixas"
+      ]
     }
   }
 }

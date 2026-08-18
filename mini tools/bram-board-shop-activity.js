@@ -26,8 +26,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -36,23 +36,23 @@
     id: 'bram-board-shop-activity',
 
     strings: {
-      title: { en: "Bram's Board Shop", de: 'Brams Bretter-Werkstatt', fr: 'L’atelier de Bram', es: 'El taller de tablas de Bram' },
-      prompt: { en: 'Measure the order.', de: 'Miss die Bestellung aus.', fr: 'Mesure la commande.', es: 'Mide el pedido.' },
-      measure: { en: 'Measure it 📏', de: 'Ausmessen 📏', fr: 'Mesurer 📏', es: 'Medir 📏' },
-      replay: { en: '🔊 Read again', de: '🔊 Noch einmal vorlesen', fr: '🔊 Relire', es: '🔊 Léelo otra vez' },
-      sayWelcome: { en: 'A new order! Show me the lengths.', de: 'Eine neue Bestellung! Zeig mir die Längen.', fr: 'Une nouvelle commande ! Montre-moi les longueurs.', es: '¡Un pedido nuevo! Muéstrame las medidas.' },
-      sayModel: { en: 'Put each length on its piece. One piece is the mystery — mark it.', de: 'Leg jede Länge auf ihr Stück. Ein Stück ist das Rätsel – markiere es.', fr: 'Pose chaque longueur sur son morceau. Un morceau est le mystère — marque-le.', es: 'Pon cada medida en su pieza. Una pieza es el misterio: márcala.' },
-      sayDial: { en: 'Now — how many centimetres? Dial it in!', de: 'Und jetzt – wie viele Zentimeter? Tippe es ein!', fr: 'Et maintenant — combien de centimètres ? Compose la réponse !', es: 'Y ahora, ¿cuántos centímetros? ¡Escríbelo!' },
-      sayWin: { en: 'Measured and cut! Perfect fit. 🪵', de: 'Gemessen und gesägt! Passt genau. 🪵', fr: 'Mesuré et coupé ! Ça tombe pile. 🪵', es: '¡Medido y cortado! Queda justo. 🪵' },
-      sayWait: { en: "Hmm, let's measure again.", de: 'Hmm, lass uns noch einmal messen.', fr: 'Hmm, remesurons ensemble.', es: 'Mmm, midamos otra vez.' },
-      pickTile: { en: 'Now tap the piece where it belongs.', de: 'Tippe nun auf das Stück, wo sie hingehört.', fr: 'Touche maintenant le morceau où elle va.', es: 'Ahora toca la pieza donde va.' },
-      hintCheck: { en: 'Place the lengths, mark the mystery, dial the cm.', de: 'Leg die Längen hin, markiere das Rätsel, tippe die cm ein.', fr: 'Pose les longueurs, marque le mystère, compose les cm.', es: 'Acomoda las medidas, marca el misterio y escribe los cm.' },
-      ariaMystery: { en: 'mystery length', de: 'Rätsel-Länge', fr: 'longueur mystère', es: 'largo misterioso' },
-      ariaHolds: { en: 'holds {n} centimetres', de: 'ist {n} Zentimeter lang', fr: 'mesure {n} centimètres', es: 'mide {n} centímetros' },
-      ariaEmpty: { en: 'empty piece — tap to place a length or mark the mystery', de: 'leeres Stück – tippe, um eine Länge zu platzieren oder das Rätsel zu markieren', fr: 'morceau vide — touche pour poser une longueur ou marquer le mystère', es: 'pieza vacía: toca para poner una medida o marcar el misterio' },
-      ariaTileCm: { en: '{n} centimetres', de: '{n} Zentimeter', fr: '{n} centimètres', es: '{n} centímetros' },
-      ariaRecap: { en: 'your model: {eq} centimetres', de: 'dein Modell: {eq} Zentimeter', fr: 'ton modèle : {eq} centimètres', es: 'tu modelo: {eq} centímetros' },
-      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer', es: 'borrar' }
+      title: { en: "Bram's Board Shop", de: 'Brams Bretter-Werkstatt', fr: 'L’atelier de Bram', es: 'El taller de tablas de Bram', pt: 'A Oficina de Tábuas do Bram' },
+      prompt: { en: 'Measure the order.', de: 'Miss die Bestellung aus.', fr: 'Mesure la commande.', es: 'Mide el pedido.', pt: 'Meça o pedido.' },
+      measure: { en: 'Measure it 📏', de: 'Ausmessen 📏', fr: 'Mesurer 📏', es: 'Medir 📏', pt: 'Medir 📏' },
+      replay: { en: '🔊 Read again', de: '🔊 Noch einmal vorlesen', fr: '🔊 Relire', es: '🔊 Léelo otra vez', pt: '🔊 Ouvir de novo' },
+      sayWelcome: { en: 'A new order! Show me the lengths.', de: 'Eine neue Bestellung! Zeig mir die Längen.', fr: 'Une nouvelle commande ! Montre-moi les longueurs.', es: '¡Un pedido nuevo! Muéstrame las medidas.', pt: 'Um pedido novo! Me mostra as medidas.' },
+      sayModel: { en: 'Put each length on its piece. One piece is the mystery — mark it.', de: 'Leg jede Länge auf ihr Stück. Ein Stück ist das Rätsel – markiere es.', fr: 'Pose chaque longueur sur son morceau. Un morceau est le mystère — marque-le.', es: 'Pon cada medida en su pieza. Una pieza es el misterio: márcala.', pt: 'Coloque cada medida na sua peça. Uma peça é o mistério: marque ela.' },
+      sayDial: { en: 'Now — how many centimetres? Dial it in!', de: 'Und jetzt – wie viele Zentimeter? Tippe es ein!', fr: 'Et maintenant — combien de centimètres ? Compose la réponse !', es: 'Y ahora, ¿cuántos centímetros? ¡Escríbelo!', pt: 'E agora: quantos centímetros? Digite aí!' },
+      sayWin: { en: 'Measured and cut! Perfect fit. 🪵', de: 'Gemessen und gesägt! Passt genau. 🪵', fr: 'Mesuré et coupé ! Ça tombe pile. 🪵', es: '¡Medido y cortado! Queda justo. 🪵', pt: 'Medido e cortado! Ficou perfeito. 🪵' },
+      sayWait: { en: "Hmm, let's measure again.", de: 'Hmm, lass uns noch einmal messen.', fr: 'Hmm, remesurons ensemble.', es: 'Mmm, midamos otra vez.', pt: 'Hmm, vamos medir de novo.' },
+      pickTile: { en: 'Now tap the piece where it belongs.', de: 'Tippe nun auf das Stück, wo sie hingehört.', fr: 'Touche maintenant le morceau où elle va.', es: 'Ahora toca la pieza donde va.', pt: 'Agora toque na peça onde ela vai.' },
+      hintCheck: { en: 'Place the lengths, mark the mystery, dial the cm.', de: 'Leg die Längen hin, markiere das Rätsel, tippe die cm ein.', fr: 'Pose les longueurs, marque le mystère, compose les cm.', es: 'Acomoda las medidas, marca el misterio y escribe los cm.', pt: 'Coloque as medidas, marque o mistério e digite os cm.' },
+      ariaMystery: { en: 'mystery length', de: 'Rätsel-Länge', fr: 'longueur mystère', es: 'largo misterioso', pt: 'comprimento misterioso' },
+      ariaHolds: { en: 'holds {n} centimetres', de: 'ist {n} Zentimeter lang', fr: 'mesure {n} centimètres', es: 'mide {n} centímetros', pt: 'mede {n} centímetros' },
+      ariaEmpty: { en: 'empty piece — tap to place a length or mark the mystery', de: 'leeres Stück – tippe, um eine Länge zu platzieren oder das Rätsel zu markieren', fr: 'morceau vide — touche pour poser une longueur ou marquer le mystère', es: 'pieza vacía: toca para poner una medida o marcar el misterio', pt: 'peça vazia — toque para colocar uma medida ou marcar o mistério' },
+      ariaTileCm: { en: '{n} centimetres', de: '{n} Zentimeter', fr: '{n} centimètres', es: '{n} centímetros', pt: '{n} centímetros' },
+      ariaRecap: { en: 'your model: {eq} centimetres', de: 'dein Modell: {eq} Zentimeter', fr: 'ton modèle : {eq} centimètres', es: 'tu modelo: {eq} centímetros', pt: 'seu modelo: {eq} centímetros' },
+      ariaClear: { en: 'clear', de: 'löschen', fr: 'effacer', es: 'borrar', pt: 'limpar' }
     },
     defaults: {},
 

@@ -2571,6 +2571,29 @@
         "Reconhecer quando usar centímetros e quando usar metros",
         "Desenvolver a percepção de tamanho com objetos do mundo real"
       ]
+    },
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "O castor Bram tem uma marcenaria cheia de tábuas, e cada pedido que chega é uma pequena história de comprimentos. Às vezes é preciso juntar duas tábuas para formar uma maior, às vezes serrar um pedaço de uma tábua comprida, e às vezes comparar duas para descobrir qual é a mais comprida. A criança lê o problema sem pressa, coloca na fita métrica os comprimentos que já conhece, marca o comprimento que falta e depois dá a resposta ao Bram em centímetros.",
+        "A ideia central é que o valor que falta — a incógnita — pode aparecer em qualquer lugar da história: no fim (quanto ficou no total), no meio (quanto foi acrescentado ou tirado) ou até no começo (com quanto tudo começou). Dependendo do pedido, é preciso juntar, tirar ou comparar comprimentos, sempre trabalhando até 100 cm. O importante não é fazer uma conta rápida, e sim entender a situação e representá-la na fita métrica, enxergando o que é conhecido e o que precisa ser descoberto.",
+        "A atividade é gratuita e interativa, funciona direto no navegador e não pede cadastro. Não há cronômetro nem pontuação: a criança pode pensar, testar e tentar de novo no seu próprio ritmo, num clima acolhedor e sem cobrança. A proposta é do 2º ano e está alinhada à Base Nacional Comum Curricular (BNCC), dentro da unidade temática Grandezas e medidas."
+      ],
+      "practices": [
+        "Somar e subtrair comprimentos até 100 cm para resolver problemas do dia a dia.",
+        "Encontrar a incógnita em qualquer posição: no resultado, na mudança ou no início da história.",
+        "Modelar o problema na fita métrica antes de calcular, ligando o número ao comprimento real.",
+        "Comparar dois comprimentos para descobrir qual é o maior e por quanto."
+      ],
+      "howToPlay": [
+        "Leia o pedido do Bram com calma e veja quais comprimentos já são conhecidos.",
+        "Coloque esses comprimentos na fita métrica e marque o comprimento que falta.",
+        "Digite a resposta em centímetros para conferir se ajudou o Bram direitinho."
+      ],
+      "learningGoals": [
+        "Resolver problemas de soma e subtração com comprimentos até 100 cm.",
+        "Representar situações de medida na fita métrica, mesmo com a incógnita no meio ou no início.",
+        "Ganhar confiança para ler, interpretar e explicar problemas de comprimento com as próprias palavras."
+      ]
     }
   }
 }

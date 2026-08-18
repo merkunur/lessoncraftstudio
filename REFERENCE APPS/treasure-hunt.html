@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-treasure-hunt.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1109,28 +1109,32 @@
           startAt: {
               en: "Start at",
               de: "Beginne bei",
-              fr: "Commence à",
+              fr: "Commence en",
               es: "Comienza en",
               pt: "Comece em",
-              it: "Inizia a",
+              it: "Inizia da",
               nl: "Begin bij",
               sv: "Börja vid",
               da: "Start ved",
-              no: "Start ved",
+              no: "Start på",
               fi: "Aloita kohdasta"
           },
-          move: {
-              en: "Move",
-              de: "Gehe",
-              fr: "Déplace",
-              es: "Mueve",
-              pt: "Mova",
-              it: "Muovi",
-              nl: "Ga",
-              sv: "Flytta",
-              da: "Flyt",
-              no: "Flytt",
-              fi: "Liiku"
+          // v32.2.0 — per-locale clue FRAME (word order + verb form are locale-owned;
+          // the old fixed English order `Move {dir} {steps} {unit}` printed e.g.
+          // "Gehe nach Westen 1 Feld." — wrong in 9 locales). {dir} phrases below
+          // already carry their preposition ("nach Norden", "vers le nord", …).
+          moveFrame: {
+              en: "Move {steps} {unit} {dir}.",
+              de: "Gehe {steps} {unit} {dir}.",
+              fr: "Avance de {steps} {unit} {dir}.",
+              es: "Avanza {steps} {unit} {dir}.",
+              pt: "Avance {steps} {unit} {dir}.",
+              it: "Avanza di {steps} {unit} {dir}.",
+              nl: "Ga {steps} {unit} {dir}.",
+              sv: "Gå {steps} {unit} {dir}.",
+              da: "Gå {steps} {unit} {dir}.",
+              no: "Gå {steps} {unit} {dir}.",
+              fi: "Siirry {steps} {unit} {dir}."
           },
           north: {
               en: "north",
@@ -1188,9 +1192,9 @@
               en: "up",
               de: "nach oben",
               fr: "vers le haut",
-              es: "arriba",
+              es: "hacia arriba",
               pt: "para cima",
-              it: "su",
+              it: "verso l\'alto",
               nl: "omhoog",
               sv: "uppåt",
               da: "op",
@@ -1201,9 +1205,9 @@
               en: "down",
               de: "nach unten",
               fr: "vers le bas",
-              es: "abajo",
+              es: "hacia abajo",
               pt: "para baixo",
-              it: "giù",
+              it: "verso il basso",
               nl: "omlaag",
               sv: "nedåt",
               da: "ned",
@@ -1265,7 +1269,7 @@
           whereIsTreasure: {
               en: "Where is the treasure?",
               de: "Wo ist der Schatz?",
-              fr: "Où est le trésor?",
+              fr: "Où est le trésor ?",
               es: "¿Dónde está el tesoro?",
               pt: "Onde está o tesouro?",
               it: "Dov'è il tesoro?",
@@ -1431,10 +1435,10 @@
           const defaultHeaders = {
               en: { title: 'Treasure Hunt', description: 'Follow the clues and find the treasure!' },
               de: { title: 'Schatzsuche', description: 'Folge den Hinweisen und finde den Schatz!' },
-              fr: { title: 'Chasse au Trésor', description: 'Suis les indices et trouve le trésor!' },
-              es: { title: 'Búsqueda del Tesoro', description: '¡Sigue las pistas y encuentra el tesoro!' },
-              it: { title: 'Caccia al Tesoro', description: 'Segui gli indizi e trova il tesoro!' },
-              pt: { title: 'Caça ao Tesouro', description: 'Segue as pistas e encontra o tesouro!' },
+              fr: { title: 'Chasse au trésor', description: 'Suis les indices et trouve le trésor !' },
+              es: { title: 'Búsqueda del tesoro', description: '¡Sigue las pistas y encuentra el tesoro!' },
+              it: { title: 'Caccia al tesoro', description: 'Segui gli indizi e trova il tesoro!' },
+              pt: { title: 'Caça ao tesouro', description: 'Siga as pistas e encontre o tesouro!' },
               nl: { title: 'Schattenjacht', description: 'Volg de aanwijzingen en vind de schat!' },
               sv: { title: 'Skattjakt', description: 'Följ ledtrådarna och hitta skatten!' },
               da: { title: 'Skattejagt', description: 'Følg sporene og find skatten!' },
@@ -2140,7 +2144,7 @@
       addTextBtn.addEventListener('click', () => {
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
-          const textContent = textInput.value.trim() || 'New Text';
+          const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
           const textObject = new fabric.Textbox(textContent, {
               left: (currentCanvasConfig.width - 250) / 2,
               top: (currentCanvasConfig.height - 100) / 2,
@@ -2935,25 +2939,37 @@
       
       // Get translated text
       const startText = t.startAt[locale] || t.startAt.en;
-      const moveText = t.move[locale] || t.move.en;
+      const moveFrame = t.moveFrame[locale] || t.moveFrame.en;
       const squareText = t.square[locale] || t.square.en;
       const squaresText = t.squares[locale] || t.squares.en;
       const treasureText = t.whereIsTreasure[locale] || t.whereIsTreasure.en;
-      
-      // Build instructions
+
+      // Build instructions (v32.2.0: per-locale frame; the sentence keeps its
+      // period before the appended question — the old `.replace('.','')` printed
+      // "…3 Felder Wo ist der Schatz?" run together in every locale).
       const lines = [`${startText} ${String.fromCharCode(65 + startPos.row)}${startPos.col + 1}.`];
-      
+
       moves.forEach((m, i) => {
           const direction = t[m.dir][locale] || t[m.dir].en;
           const unit = m.steps !== 1 ? squaresText : squareText;
-          lines.push(`${moveText} ${direction} ${m.steps} ${unit}.`);
+          lines.push(moveFrame
+              .replace('{steps}', String(m.steps))
+              .replace('{unit}', unit)
+              .replace('{dir}', direction));
       });
+
+      lines[lines.length-1] = lines[lines.length-1] + ' ' + treasureText;
       
-      lines[lines.length-1] = lines[lines.length-1].replace('.', '') + ' ' + treasureText;
-      
-      while(lines.length<5) lines.push('...'); 
+      while(lines.length<5) lines.push('...');
       return lines.slice(0,5);
     }
+    // Pure-seam for the grammar harness (FaC/prepositions __lcsBuild* pattern):
+    // renders clue lines for an explicit locale without touching app state.
+    window.__thClues = function (moves, startPos, locale) {
+        var prev = currentLocale;
+        try { currentLocale = locale || prev; return movesToFiveInstructions(moves, startPos); }
+        finally { currentLocale = prev; }
+    };
     function applyMove(p, d, s) {
       // Handle cardinal directions (north/south/east/west)
       if(d==='north' || d==='up')p.row-=s;
@@ -3588,7 +3604,7 @@
           };
 
           return {
-              bundleVersion: '32.1.0',
+              bundleVersion: '32.2.0',
               schemaFormat: 'image-references-v3',
               appType: 'treasure-hunt',
               createdAt: new Date().toISOString(),

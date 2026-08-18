@@ -29,7 +29,7 @@
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="js/translations-picture-pathway.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2359,23 +2359,28 @@ document.addEventListener("DOMContentLoaded", function() {
   
   function createHeaderGroup(canvas) {
       const defaultHeaders = {
-          en: { title: 'Picture Pathway', description: 'Follow the path from start to finish!' },
-          de: { title: 'Bilderpfad', description: 'Folge dem Weg von Anfang bis Ende!' },
-          fr: { title: 'Chemin d\'Images', description: 'Suis le chemin du début à la fin!' },
-          es: { title: 'Camino de Imágenes', description: '¡Sigue el camino desde el inicio hasta el final!' },
-          it: { title: 'Percorso di Immagini', description: 'Segui il percorso dall\'inizio alla fine!' },
-          pt: { title: 'Caminho de Imagens', description: 'Siga o caminho do início ao fim!' },
-          nl: { title: 'Afbeeldingspad', description: 'Volg het pad van begin tot eind!' },
-          sv: { title: 'Bildstig', description: 'Följ vägen från start till mål!' },
-          da: { title: 'Billedsti', description: 'Følg stien fra start til slut!' },
-          no: { title: 'Bildesti', description: 'Følg stien fra start til slutt!' },
-          fi: { title: 'Kuvapolku', description: 'Seuraa polkua alusta loppuun!' }
+          en: { title: 'Picture Pathway', description: 'Follow the path from start to finish!', descriptionMaze: 'Find your way through the maze!', descriptionChoose: 'Find the path that leads to the finish!' },
+          de: { title: 'Bilderpfad', description: 'Folge dem Weg von Anfang bis Ende!', descriptionMaze: 'Finde den Weg durch das Labyrinth!', descriptionChoose: 'Finde den Weg, der zum Ziel führt!' },
+          fr: { title: 'Chemin d\'images', description: 'Suis le chemin du début à la fin !', descriptionMaze: 'Trouve ton chemin dans le labyrinthe !', descriptionChoose: 'Trouve le chemin qui mène à l\'arrivée !' },
+          es: { title: 'Camino de imágenes', description: '¡Sigue el camino desde el inicio hasta el final!', descriptionMaze: '¡Encuentra el camino a través del laberinto!', descriptionChoose: '¡Encuentra el camino que lleva a la meta!' },
+          it: { title: 'Percorso di immagini', description: 'Segui il percorso dall\'inizio alla fine!', descriptionMaze: 'Trova la strada nel labirinto!', descriptionChoose: 'Trova il percorso che porta al traguardo!' },
+          pt: { title: 'Caminho de imagens', description: 'Siga o caminho do início ao fim!', descriptionMaze: 'Encontre o caminho pelo labirinto!', descriptionChoose: 'Encontre o caminho que leva ao fim!' },
+          nl: { title: 'Afbeeldingspad', description: 'Volg het pad van begin tot eind!', descriptionMaze: 'Vind de weg door het doolhof!', descriptionChoose: 'Vind het pad dat naar het einde leidt!' },
+          sv: { title: 'Bildstig', description: 'Följ vägen från start till mål!', descriptionMaze: 'Hitta vägen genom labyrinten!', descriptionChoose: 'Hitta vägen som leder till målet!' },
+          da: { title: 'Billedsti', description: 'Følg stien fra start til slut!', descriptionMaze: 'Find vej gennem labyrinten!', descriptionChoose: 'Find den sti, der fører til målet!' },
+          no: { title: 'Bildesti', description: 'Følg stien fra start til slutt!', descriptionMaze: 'Finn veien gjennom labyrinten!', descriptionChoose: 'Finn stien som fører til målet!' },
+          fi: { title: 'Kuvapolku', description: 'Seuraa polkua alusta loppuun!', descriptionMaze: 'Etsi tie labyrintin läpi!', descriptionChoose: 'Etsi polku, joka johtaa maaliin!' }
       };
 
       const locale = currentLocale || 'en';
       const defaults = defaultHeaders[locale] || defaultHeaders.en;
       const title = defaults.title;
-      const description = defaults.description;
+      // Per-mode instruction: the generic "follow the path" line is factually wrong
+      // for classic-maze (dead ends) and choose-path (pick the right path).
+      const _ppMode = ((document.getElementById('gameModeSelect') || {}).value) || 'pathway';
+      const description = (_ppMode === 'classic-maze' && defaults.descriptionMaze)
+          || (_ppMode === 'choose-path' && defaults.descriptionChoose)
+          || defaults.description;
 
       // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — cache localized title +
       // instruction on the canvas so extractDeckBundle can include them.
@@ -4055,8 +4060,8 @@ document.addEventListener("DOMContentLoaded", function() {
       // Add name/date field if needed (only for worksheet)
       if (!isAnswerKey && includeNameDateCheckbox.checked) {
           const nameDateGroup = new fabric.Group([
-              new fabric.Textbox(t('picture.pathway.name.field'), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 0, top: 0 }),
-              new fabric.Textbox(t('picture.pathway.date.field'), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 300, top: 0 })
+              new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['picture.pathway.name.field'])||(T.en&&T.en['picture.pathway.name.field'])||t('picture.pathway.name.field');})(), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 0, top: 0 }),
+              new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['picture.pathway.date.field'])||(T.en&&T.en['picture.pathway.date.field'])||t('picture.pathway.date.field');})(), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 300, top: 0 })
           ], {
               left: pageMargin, top: pageMargin, isGeneratedItem: true, originalIndex: 1,
               selectable: true, hasControls: true, hasBorders: true,
@@ -4227,7 +4232,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function addText() {
       const activeCanvas = getActiveCanvas();
       if (!activeCanvas) return;
-      const textContent = textInput.value.trim() || 'New Text';
+      const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
       const textObject = new fabric.Textbox(textContent, {
           left: (currentCanvasConfig.width - 250) / 2,
           top: (currentCanvasConfig.height - 100) / 2,

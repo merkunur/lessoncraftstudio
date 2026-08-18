@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-missing-pieces.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2155,7 +2155,7 @@
         function addText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = textInput.value.trim() || 'New Text';
+            const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
@@ -2684,15 +2684,15 @@
             const defaultHeaders = {
                 en: { title: 'Missing Pieces', description: 'Find and place the missing pieces!' },
                 de: { title: 'Fehlende Teile', description: 'Finde und platziere die fehlenden Teile!' },
-                fr: { title: 'Pièces Manquantes', description: 'Trouve et place les pièces manquantes!' },
-                es: { title: 'Piezas Perdidas', description: '¡Encuentra y coloca las piezas!' },
-                it: { title: 'Pezzi Mancanti', description: 'Trova e posiziona i pezzi mancanti!' },
-                pt: { title: 'Peças em Falta', description: 'Encontra e coloca as peças!' },
-                nl: { title: 'Ontbrekende Stukjes', description: 'Vind en plaats de ontbrekende stukjes!' },
-                sv: { title: 'Saknade Bitar', description: 'Hitta och placera de saknade bitarna!' },
-                da: { title: 'Manglende Dele', description: 'Find og placer de manglende dele!' },
-                no: { title: 'Manglende Deler', description: 'Finn og plasser de manglende delene!' },
-                fi: { title: 'Puuttuvat Palat', description: 'Löydä ja aseta puuttuvat palat!' }
+                fr: { title: 'Pièces manquantes', description: 'Trouve et place les pièces manquantes !' },
+                es: { title: 'Piezas perdidas', description: '¡Encuentra y coloca las piezas!' },
+                it: { title: 'Pezzi mancanti', description: 'Trova e posiziona i pezzi mancanti!' },
+                pt: { title: 'Peças que faltam', description: 'Encontre e coloque as peças!' },
+                nl: { title: 'Ontbrekende stukjes', description: 'Vind en plaats de ontbrekende stukjes!' },
+                sv: { title: 'Saknade bitar', description: 'Hitta och placera de saknade bitarna!' },
+                da: { title: 'Manglende dele', description: 'Find og placer de manglende dele!' },
+                no: { title: 'Manglende deler', description: 'Finn og plasser de manglende delene!' },
+                fi: { title: 'Puuttuvat palat', description: 'Löydä puuttuvat palat ja aseta ne paikoilleen!' }
             };
 
             const locale = currentLocale || 'en';

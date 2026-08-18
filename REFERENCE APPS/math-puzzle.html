@@ -13,7 +13,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-math-puzzle.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js?v=1759320052"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -3222,13 +3222,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const defaultHeaders = {
             en: { title: 'Math Puzzles', description: 'Solve the picture puzzles below!' },
             de: { title: 'Mathe-Rätsel', description: 'Löse die Bilderrätsel!' },
-            fr: { title: 'Casse-Têtes Mathématiques', description: 'Résous les énigmes en images!' },
-            es: { title: 'Rompecabezas Matemáticos', description: '¡Resuelve los acertijos de imágenes!' },
-            it: { title: 'Rompicapi Matematici', description: 'Risolvi i rompicapi con le immagini!' },
-            pt: { title: 'Quebra-Cabeças Matemáticos', description: 'Resolve os quebra-cabeças das imagens!' },
-            nl: { title: 'Wiskundepuzzels', description: 'Los de plaatjespuzzels op!' },
+            fr: { title: 'Casse-têtes mathématiques', description: 'Résous les énigmes en images !' },
+            es: { title: 'Rompecabezas matemáticos', description: '¡Resuelve los acertijos de imágenes!' },
+            it: { title: 'Rompicapi matematici', description: 'Risolvi i rompicapi con le immagini!' },
+            pt: { title: 'Quebra-cabeças matemáticos', description: 'Resolva os quebra-cabeças das imagens!' },
+            nl: { title: 'Rekenpuzzels', description: 'Los de plaatjespuzzels op!' },
             sv: { title: 'Mattepussel', description: 'Lös bildpusslen!' },
-            da: { title: 'Mattepuslespil', description: 'Løs billedpuslespillene!' },
+            da: { title: 'Matematikpuslespil', description: 'Løs billedpuslespillene!' },
             no: { title: 'Mattepuslespill', description: 'Løs bildepuslespillene!' },
             fi: { title: 'Matematiikkapulmat', description: 'Ratkaise kuvapulmat!' }
         };
@@ -3841,7 +3841,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
 
-        const textContent = elements.textInput.value.trim() || "New Text";
+        const textContent = elements.textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             left: (currentCanvasConfig.width - 250) / 2,
             top: (currentCanvasConfig.height - 100) / 2,

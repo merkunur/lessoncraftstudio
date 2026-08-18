@@ -14,7 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations-find-objects.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -2463,7 +2463,7 @@ function updateTranslations() {
         function addTextToCanvas() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = textInput.value.trim() || 'New Text';
+            const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
 
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
@@ -3962,27 +3962,27 @@ function updateTranslations() {
             const defaultHeaders = isOddOneOut ? {
                 en: { title: 'Find the Odd One Out', description: 'Find the images that don\'t have a matching pair!' },
                 de: { title: 'Finde das Unpassende', description: 'Finde die Bilder, die kein passendes Paar haben!' },
-                fr: { title: 'Trouve l\'Intrus', description: 'Trouve les images qui n\'ont pas de paire!' },
-                es: { title: 'Encuentra el Diferente', description: '¡Encuentra las imágenes que no tienen pareja!' },
-                it: { title: 'Trova il Diverso', description: 'Trova le immagini che non hanno una coppia!' },
-                pt: { title: 'Encontra o Diferente', description: 'Encontra as imagens que não têm par!' },
-                nl: { title: 'Vind de Vreemde Eend', description: 'Vind de plaatjes zonder match!' },
-                sv: { title: 'Hitta den Udda', description: 'Hitta bilderna som inte har en match!' },
-                da: { title: 'Find den Ulige', description: 'Find billederne uden match!' },
-                no: { title: 'Finn den Merkelige', description: 'Finn bildene uten match!' },
-                fi: { title: 'Löydä Outo', description: 'Löydä kuvat ilman paria!' }
+                fr: { title: 'Trouve l\'intrus', description: 'Trouve les images qui n\'ont pas de paire !' },
+                es: { title: 'Encuentra el diferente', description: '¡Encuentra las imágenes que no tienen pareja!' },
+                it: { title: 'Trova il diverso', description: 'Trova le immagini che non hanno una coppia!' },
+                pt: { title: 'Encontre o diferente', description: 'Encontre as imagens que não têm par!' },
+                nl: { title: 'Vind de vreemde eend', description: 'Vind de plaatjes zonder maatje!' },
+                sv: { title: 'Hitta den udda', description: 'Hitta bilderna som inte har en match!' },
+                da: { title: 'Find det, der ikke passer', description: 'Find de billeder, der ikke har en makker!' },
+                no: { title: 'Finn det som ikke passer', description: 'Finn bildene som ikke har en make!' },
+                fi: { title: 'Löydä pariton', description: 'Löydä kuvat, joilla ei ole paria!' }
             } : {
                 en: { title: 'Find the Hidden Objects', description: 'Look carefully and find all the hidden pictures!' },
                 de: { title: 'Finde die versteckten Objekte', description: 'Schau genau hin und finde alle versteckten Bilder!' },
-                fr: { title: 'Trouve les Objets Cachés', description: 'Regarde bien et trouve toutes les images cachées!' },
-                es: { title: 'Encuentra los Objetos Ocultos', description: '¡Mira con atención y encuentra todas las imágenes!' },
-                it: { title: 'Trova gli Oggetti Nascosti', description: 'Guarda bene e trova tutte le immagini nascoste!' },
-                pt: { title: 'Encontra os Objetos Escondidos', description: 'Olha bem e encontra todas as imagens escondidas!' },
-                nl: { title: 'Vind de Verborgen Voorwerpen', description: 'Kijk goed en vind alle verborgen plaatjes!' },
-                sv: { title: 'Hitta de Gömda Objekten', description: 'Titta noga och hitta alla gömda bilder!' },
-                da: { title: 'Find de Skjulte Objekter', description: 'Kig nøje og find alle de skjulte billeder!' },
-                no: { title: 'Finn de Skjulte Objektene', description: 'Se nøye og finn alle de skjulte bildene!' },
-                fi: { title: 'Löydä Piilotetut Esineet', description: 'Katso tarkkaan ja löydä kaikki piilotetut kuvat!' }
+                fr: { title: 'Trouve les objets cachés', description: 'Regarde bien et trouve toutes les images cachées !' },
+                es: { title: 'Encuentra los objetos ocultos', description: '¡Mira con atención y encuentra todas las imágenes!' },
+                it: { title: 'Trova gli oggetti nascosti', description: 'Guarda bene e trova tutte le immagini nascoste!' },
+                pt: { title: 'Encontre os objetos escondidos', description: 'Olhe bem e encontre todas as imagens escondidas!' },
+                nl: { title: 'Vind de verborgen voorwerpen', description: 'Kijk goed en vind alle verborgen plaatjes!' },
+                sv: { title: 'Hitta de gömda föremålen', description: 'Titta noga och hitta alla gömda bilder!' },
+                da: { title: 'Find de skjulte ting', description: 'Kig nøje og find alle de skjulte billeder!' },
+                no: { title: 'Finn de skjulte tingene', description: 'Se nøye og finn alle de skjulte bildene!' },
+                fi: { title: 'Löydä piilotetut esineet', description: 'Katso tarkkaan ja löydä kaikki piilotetut kuvat!' }
             };
 
             const locale = currentLocale || 'en';

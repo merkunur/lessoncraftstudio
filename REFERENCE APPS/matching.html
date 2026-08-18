@@ -12,7 +12,7 @@
     <title>MatchUp Maker</title>
     <!-- Load complete professional translations -->
     <script src="js/translations-matchup-maker.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -2135,7 +2135,7 @@
         addTextBtn.addEventListener('click', () => {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = textInput.value.trim() || 'New Text';
+            const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 // Position - Always centered
                 left: (currentCanvasConfig.width - 250) / 2,
@@ -2700,7 +2700,9 @@
                         const randomThemeEntry = themes[Math.floor(Math.random() * themes.length)];
                         // themes[] elements may be either {value, displayName} objects or bare strings (legacy fallback per loadThemes).
                         const randomThemeKey = (randomThemeEntry && typeof randomThemeEntry === 'object') ? randomThemeEntry.value : randomThemeEntry;
-                        chosenThemeName = (randomThemeEntry && typeof randomThemeEntry === 'object' && randomThemeEntry.displayName) ? randomThemeEntry.displayName : String(randomThemeKey);
+                        // No localized displayName -> OMIT the printed heading (null) rather
+                        // than print a raw English/snake_case slug on a localized worksheet.
+                        chosenThemeName = (randomThemeEntry && typeof randomThemeEntry === 'object' && randomThemeEntry.displayName) ? randomThemeEntry.displayName : null;
                         chosenThemeKey = randomThemeKey || null;
                         pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(randomThemeKey)}&locale=${currentLocale}`, `Failed to load random theme "${randomThemeKey}"`);
                     } else if (letterType === 'randomTheme') {
@@ -2719,7 +2721,8 @@
                             const themeKey = themeSet.values().next().value;
                             chosenThemeKey = themeKey || null;
                             const entry = themes.find(en => (en && typeof en === 'object' ? en.value : en) === themeKey);
-                            chosenThemeName = entry ? ((typeof entry === 'object' ? entry.displayName : entry) || themeKey) : themeKey;
+                            // Same slug-guard: no resolvable displayName -> no printed heading.
+                            chosenThemeName = entry && typeof entry === 'object' ? (entry.displayName || null) : null;
                         }
                     }
                     lastChosenThemeName = chosenThemeName;
@@ -3075,16 +3078,16 @@
             // emphasizes drawing lines + the cross-language pairing.
             const defaultHeaders = {
                 en: { title: 'Match Up!',           description: 'Draw lines to connect the matching pairs!',                   mixDescription: 'Draw lines from each picture to the matching {rightLang} word!' },
-                de: { title: 'Paare Finden!',       description: 'Verbinde die zusammenpassenden Paare mit Linien!',             mixDescription: 'Verbinde jedes Bild mit dem passenden Wort auf {rightLang}!' },
-                fr: { title: 'Trouve les Paires!',  description: 'Relie les paires qui vont ensemble!',                          mixDescription: 'Relie chaque image au mot correspondant en {rightLang} !' },
-                es: { title: '¡Encuentra Parejas!', description: '¡Conecta las parejas que coinciden!',                          mixDescription: '¡Conecta cada imagen con la palabra correspondiente en {rightLang}!' },
-                it: { title: 'Trova le Coppie!',    description: 'Collega le coppie che si abbinano!',                            mixDescription: 'Collega ogni immagine alla parola corrispondente in {rightLang}!' },
-                pt: { title: 'Encontre os Pares!',  description: 'Ligue os pares que combinam!',                                  mixDescription: 'Liga cada imagem à palavra correspondente em {rightLang}!' },
-                nl: { title: 'Zoek de Paren!',      description: 'Verbind de passende paren met lijnen!',                         mixDescription: 'Verbind elk plaatje met het bijbehorende woord in het {rightLang}!' },
-                sv: { title: 'Matcha Paren!',       description: 'Dra linjer för att koppla ihop paren!',                         mixDescription: 'Dra linjer från varje bild till det matchande ordet på {rightLang}!' },
-                da: { title: 'Find Parrene!',       description: 'Forbind de matchende par med linjer!',                          mixDescription: 'Forbind hvert billede med det matchende ord på {rightLang}!' },
-                no: { title: 'Finn Parene!',        description: 'Koble sammen de riktige parene!',                               mixDescription: 'Koble hvert bilde til det matchende ordet på {rightLang}!' },
-                fi: { title: 'Yhdistä Parit!',      description: 'Piirrä viivat yhdistääksesi parit!',                            mixDescription: 'Yhdistä jokainen kuva vastaavaan sanaan {rightLang}!' }
+                de: { title: 'Paare finden!',       description: 'Verbinde die zusammenpassenden Paare mit Linien!',             mixDescription: 'Verbinde jedes Bild mit dem passenden Wort auf {rightLang}!' },
+                fr: { title: 'Trouve les paires !',  description: 'Relie les images qui vont ensemble !',                          mixDescription: 'Relie chaque image au mot correspondant en {rightLang} !' },
+                es: { title: '¡Encuentra parejas!', description: '¡Conecta las parejas que coinciden!',                          mixDescription: '¡Conecta cada imagen con la palabra correspondiente en {rightLang}!' },
+                it: { title: 'Trova le coppie!',    description: 'Collega le immagini che si abbinano!',                            mixDescription: 'Collega ogni immagine alla parola corrispondente in {rightLang}!' },
+                pt: { title: 'Encontre os pares!',  description: 'Ligue os pares que combinam!',                                  mixDescription: 'Ligue cada imagem à palavra correspondente em {rightLang}!' },
+                nl: { title: 'Zoek de paren!',      description: 'Verbind de passende paren met lijnen!',                         mixDescription: 'Verbind elk plaatje met het bijbehorende woord in het {rightLang}!' },
+                sv: { title: 'Matcha paren!',       description: 'Dra linjer för att koppla ihop paren!',                         mixDescription: 'Dra linjer från varje bild till det matchande ordet på {rightLang}!' },
+                da: { title: 'Find parrene!',       description: 'Forbind de matchende par med streger!',                          mixDescription: 'Forbind hvert billede med det matchende ord på {rightLang}!' },
+                no: { title: 'Finn parene!',        description: 'Koble sammen de riktige parene!',                               mixDescription: 'Koble hvert bilde til det matchende ordet på {rightLang}!' },
+                fi: { title: 'Yhdistä parit!',      description: 'Piirrä viivat ja yhdistä parit!',                            mixDescription: 'Yhdistä jokainen kuva vastaavaan sanaan {rightLang}!' }
             };
 
             // 11×11 language-name matrix: GRID_LANG_NAMES_IN[clueLocale][gridLocale].

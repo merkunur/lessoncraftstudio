@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/translations-crossword.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -2746,12 +2746,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // "write the words" since the kid fills letters into the grid.
         const defaultHeaders = {
             en: { title: 'Picture Crossword',         description: 'Look at the pictures and fill in the words!',          mixDescription: 'Look at the pictures and write the words in {gridLang}!' },
-            de: { title: 'Bilderkreuzworträtsel',     description: 'Schau die Bilder an und fülle die Wörter aus!',         mixDescription: 'Schau die Bilder an und schreibe die Wörter auf {gridLang}!' },
-            fr: { title: 'Mots Croisés en Images',    description: 'Regarde les images et trouve les mots!',                mixDescription: 'Regarde les images et écris les mots en {gridLang} !' },
-            es: { title: 'Crucigrama con Dibujos',    description: '¡Mira los dibujos y escribe las palabras!',             mixDescription: '¡Mira los dibujos y escribe las palabras en {gridLang}!' },
-            it: { title: 'Cruciverba con Immagini',   description: 'Guarda le immagini e scrivi le parole!',                mixDescription: 'Guarda le immagini e scrivi le parole in {gridLang}!' },
-            pt: { title: 'Palavras Cruzadas',         description: 'Vê as imagens e escreve as palavras!',                  mixDescription: 'Vê as imagens e escreve as palavras em {gridLang}!' },
-            nl: { title: 'Plaatjes Kruiswoord',       description: 'Kijk naar de plaatjes en vul de woorden in!',           mixDescription: 'Kijk naar de plaatjes en schrijf de woorden in het {gridLang}!' },
+            de: { title: 'Bilderkreuzworträtsel',     description: 'Schau die Bilder an und trage die Wörter ein!',         mixDescription: 'Schau die Bilder an und schreibe die Wörter auf {gridLang}!' },
+            fr: { title: 'Mots croisés en images',    description: 'Regarde les images et trouve les mots !',                mixDescription: 'Regarde les images et écris les mots en {gridLang} !' },
+            es: { title: 'Crucigrama con dibujos',    description: '¡Mira los dibujos y escribe las palabras!',             mixDescription: '¡Mira los dibujos y escribe las palabras en {gridLang}!' },
+            it: { title: 'Cruciverba con immagini',   description: 'Guarda le immagini e scrivi le parole!',                mixDescription: 'Guarda le immagini e scrivi le parole in {gridLang}!' },
+            pt: { title: 'Palavras cruzadas',         description: 'Veja as imagens e escreva as palavras!',                  mixDescription: 'Veja as imagens e escreva as palavras em {gridLang}!' },
+            nl: { title: 'Plaatjeskruiswoord',       description: 'Kijk naar de plaatjes en vul de woorden in!',           mixDescription: 'Kijk naar de plaatjes en schrijf de woorden in het {gridLang}!' },
             sv: { title: 'Bildkorsord',               description: 'Titta på bilderna och skriv orden!',                    mixDescription: 'Titta på bilderna och skriv orden på {gridLang}!' },
             da: { title: 'Billedkrydsord',            description: 'Se på billederne og skriv ordene!',                     mixDescription: 'Se på billederne og skriv ordene på {gridLang}!' },
             no: { title: 'Bildekryssord',             description: 'Se på bildene og skriv ordene!',                        mixDescription: 'Se på bildene og skriv ordene på {gridLang}!' },
@@ -3239,7 +3239,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function handleAddText() {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             left: (currentCanvasConfig.width - 250) / 2,
             top: (currentCanvasConfig.height - 100) / 2,

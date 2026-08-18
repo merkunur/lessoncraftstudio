@@ -3386,8 +3386,8 @@
           
           if (data.includeNameDate) {
               const nameDateGroup = new fabric.Group([
-                  new fabric.Textbox("Name: _________________________", { fontSize: 18, left: 0, top: 0 }),
-                  new fabric.Textbox("Date: ____________", { fontSize: 18, left: 350, top: 0 })
+                  new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' _________________________';})(), { fontSize: 18, left: 0, top: 0 }),
+                  new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________';})(), { fontSize: 18, left: 350, top: 0 })
               ], {
                   left: (contentWidth / 2) - (450/2), top: top,
                   ...generatedObjectProps, originalIndex: 'nameDate'
@@ -3602,8 +3602,8 @@
           // Add Name/Date fields if requested
           if (data.includeNameDate) {
               const nameDateGroup = new fabric.Group([
-                  new fabric.Textbox("Name: _________________________", { fontSize: 18, left: 0, top: 0 }),
-                  new fabric.Textbox("Date: ____________", { fontSize: 18, left: 350, top: 0 })
+                  new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' _________________________';})(), { fontSize: 18, left: 0, top: 0 }),
+                  new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________';})(), { fontSize: 18, left: 350, top: 0 })
               ], {
                   left: (contentWidth / 2) - (450/2), top: top,
                   ...generatedObjectProps, originalIndex: 'nameDate'
@@ -4036,30 +4036,30 @@
           // Different headers for each exercise mode
           const shadowMatchHeaders = {
               en: { title: 'Shadow Match', description: 'Match each picture with its shadow!' },
-              de: { title: 'Schatten Zuordnen', description: 'Ordne jedes Bild seinem Schatten zu!' },
-              fr: { title: 'Trouve l\'Ombre', description: 'Associe chaque image à son ombre!' },
-              es: { title: 'Empareja las Sombras', description: '¡Empareja cada imagen con su sombra!' },
-              it: { title: 'Abbina le Ombre', description: 'Abbina ogni immagine alla sua ombra!' },
-              pt: { title: 'Combine as Sombras', description: 'Combine cada imagem com sua sombra!' },
-              nl: { title: 'Schaduw Koppelen', description: 'Koppel elke afbeelding aan zijn schaduw!' },
-              sv: { title: 'Matcha Skuggor', description: 'Matcha varje bild med sin skugga!' },
-              da: { title: 'Match Skygger', description: 'Match hvert billede med sin skygge!' },
-              no: { title: 'Match Skygger', description: 'Match hvert bilde med sin skygge!' },
-              fi: { title: 'Yhdistä Varjot', description: 'Yhdistä jokainen kuva sen varjoon!' }
+              de: { title: 'Schatten zuordnen', description: 'Ordne jedes Bild seinem Schatten zu!' },
+              fr: { title: 'Trouve l\'ombre', description: 'Associe chaque image à son ombre !' },
+              es: { title: 'Empareja las sombras', description: '¡Empareja cada imagen con su sombra!' },
+              it: { title: 'Abbina le ombre', description: 'Abbina ogni immagine alla sua ombra!' },
+              pt: { title: 'Combine as sombras', description: 'Combine cada imagem com sua sombra!' },
+              nl: { title: 'Schaduwen koppelen', description: 'Koppel elke afbeelding aan zijn schaduw!' },
+              sv: { title: 'Matcha skuggor', description: 'Matcha varje bild med sin skugga!' },
+              da: { title: 'Match skygger', description: 'Match hvert billede med sin skygge!' },
+              no: { title: 'Match skygger', description: 'Match hvert bilde med sin skygge!' },
+              fi: { title: 'Yhdistä varjot', description: 'Yhdistä jokainen kuva omaan varjoonsa!' }
           };
 
           const makeItWholeHeaders = {
               en: { title: 'Complete the Pictures', description: 'Match the halves to make whole pictures!' },
               de: { title: 'Vervollständige die Bilder', description: 'Verbinde die Hälften zu ganzen Bildern!' },
-              fr: { title: 'Complète les Images', description: 'Assemble les moitiés pour faire des images complètes!' },
-              es: { title: 'Completa las Imágenes', description: '¡Une las mitades para formar imágenes completas!' },
-              it: { title: 'Completa le Immagini', description: 'Abbina le metà per creare immagini complete!' },
-              pt: { title: 'Complete as Imagens', description: 'Junte as metades para fazer imagens completas!' },
-              nl: { title: 'Maak de Afbeeldingen Compleet', description: 'Koppel de helften om hele afbeeldingen te maken!' },
-              sv: { title: 'Gör Bilderna Hela', description: 'Para ihop halvorna för att göra hela bilder!' },
-              da: { title: 'Gør Billederne Hele', description: 'Match halvdelene for at lave hele billeder!' },
-              no: { title: 'Fullfør Bildene', description: 'Match halvdelene for å lage hele bilder!' },
-              fi: { title: 'Täydennä Kuvat', description: 'Yhdistä puolikkaat kokonaisiksi kuviksi!' }
+              fr: { title: 'Complète les images', description: 'Assemble les moitiés pour former des images complètes !' },
+              es: { title: 'Completa las imágenes', description: '¡Une las mitades para formar imágenes completas!' },
+              it: { title: 'Completa le immagini', description: 'Abbina le metà per creare immagini complete!' },
+              pt: { title: 'Complete as imagens', description: 'Junte as metades para fazer imagens completas!' },
+              nl: { title: 'Maak de afbeeldingen compleet', description: 'Koppel de helften om hele afbeeldingen te maken!' },
+              sv: { title: 'Gör bilderna hela', description: 'Para ihop halvorna för att göra hela bilder!' },
+              da: { title: 'Gør billederne hele', description: 'Match halvdelene for at lave hele billeder!' },
+              no: { title: 'Fullfør bildene', description: 'Match halvdelene for å lage hele bilder!' },
+              fi: { title: 'Täydennä kuvat', description: 'Yhdistä puolikkaat kokonaisiksi kuviksi!' }
           };
 
           // Choose headers based on exercise mode (from parameter or worksheetData)

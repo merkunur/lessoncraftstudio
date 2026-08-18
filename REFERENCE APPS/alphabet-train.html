@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="alphabetTrainWorksheet">Alphabet Train Worksheet App</title>
   <script src="js/translations-alphabet-train-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <!-- Enhancement scripts for robust integration -->
@@ -2432,7 +2432,7 @@
     function addText() {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             // Position - Always centered
             left: (currentCanvasConfig.width - 250) / 2,
@@ -3084,15 +3084,15 @@
         const defaultHeaders = {
             en: { title: 'Alphabet Train', description: 'Connect the letters to build your train!' },
             de: { title: 'Alphabet-Zug', description: 'Verbinde die Buchstaben und baue deinen Zug!' },
-            fr: { title: 'Train de l\'Alphabet', description: 'Relie les lettres pour construire ton train!' },
-            es: { title: 'Tren del Alfabeto', description: '¡Conecta las letras para construir tu tren!' },
-            it: { title: 'Treno dell\'Alfabeto', description: 'Collega le lettere per costruire il tuo treno!' },
-            pt: { title: 'Comboio do Alfabeto', description: 'Liga as letras para construir o teu comboio!' },
+            fr: { title: 'Train de l\'alphabet', description: 'Relie les lettres pour construire ton train !' },
+            es: { title: 'Tren del alfabeto', description: '¡Conecta las letras para construir tu tren!' },
+            it: { title: 'Treno dell\'alfabeto', description: 'Collega le lettere per costruire il tuo treno!' },
+            pt: { title: 'Trem do alfabeto', description: 'Ligue as letras para montar o seu trem!' },
             nl: { title: 'Alfabettrein', description: 'Verbind de letters om je trein te bouwen!' },
             sv: { title: 'Alfabetståg', description: 'Koppla ihop bokstäverna för att bygga ditt tåg!' },
             da: { title: 'Alfabettog', description: 'Forbind bogstaverne for at bygge dit tog!' },
             no: { title: 'Alfabettog', description: 'Koble sammen bokstavene for å bygge toget ditt!' },
-            fi: { title: 'Aakkostjuna', description: 'Yhdistä kirjaimet rakentaaksesi junasi!' }
+            fi: { title: 'Aakkosjuna', description: 'Yhdistä kirjaimet ja rakenna juna!' }
         };
 
         const locale = currentLocale || 'en';
@@ -3667,8 +3667,8 @@
             }
             
             if (includeNameDateCheckbox.checked) {
-                const nameText = new fabric.Textbox("Name: ____________________", { left: 0, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 250 });
-                const dateText = new fabric.Textbox("Date: ____________", { left: nameText.width + 30, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 180 });
+                const nameText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ____________________';})(), { left: 0, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 250 });
+                const dateText = new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ____________';})(), { left: nameText.width + 30, top: 0, fontSize: 16, fontFamily: fontFamilySelect.options[0].value, fill: '#333333', width: 180 });
                 const nameDateGroup = new fabric.Group([nameText, dateText], {
                     left: 50, top: 20, selectable: true, hasControls: true, hasBorders: true,
                     borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',

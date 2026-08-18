@@ -22,7 +22,7 @@
 
     <!-- Enhancement Scripts -->
     <script src="js/translations-drawing-lines.js?v=i18n-parity-2"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
     <script src="js/border-background-sizer.js"></script>
@@ -2169,30 +2169,30 @@ document.addEventListener("DOMContentLoaded", async function() {
         // Multilingual defaults
         const defaultTitles = {
             en: 'Line Drawing Practice',
-            de: 'Linien Zeichnen Üben',
-            fr: 'Pratique de Tracer des Lignes',
-            es: 'Practica de Dibujar Líneas',
-            it: 'Pratica del Disegno di Linee',
-            pt: 'Prática de Desenhar Linhas',
-            nl: 'Lijnen Tekenen Oefenen',
-            sv: 'Ritövning med Linjer',
-            da: 'Linjetegningsøvelse',
-            no: 'Linjetegningøvelse',
-            fi: 'Viivojen Piirtämisharjoitus'
+            de: 'Linien zeichnen üben',
+            fr: 'Je m\'entraîne à tracer des lignes',
+            es: 'Práctica de dibujar líneas',
+            it: 'Traccia le linee',
+            pt: 'Prática de desenhar linhas',
+            nl: 'Lijnen tekenen oefenen',
+            sv: 'Ritövning med linjer',
+            da: 'Stregøvelser',
+            no: 'Linjetegningsøvelse',
+            fi: 'Viivojen piirtämisharjoitus'
         };
 
         const defaultDescriptions = {
-            en: 'Draw lines to connect the matching pictures!',
+            en: 'Trace the lines to connect the pictures!',
             de: 'Zeichne Linien, um die passenden Bilder zu verbinden!',
-            fr: 'Trace des lignes pour relier les images qui vont ensemble!',
+            fr: 'Trace des lignes pour relier les images qui vont ensemble !',
             es: '¡Dibuja líneas para conectar las imágenes que coinciden!',
-            it: 'Disegna linee per collegare le immagini corrispondenti!',
+            it: 'Disegna le linee per collegare le immagini corrispondenti!',
             pt: 'Desenhe linhas para conectar as imagens correspondentes!',
             nl: 'Teken lijnen om de overeenkomende plaatjes te verbinden!',
             sv: 'Rita linjer för att koppla samman matchande bilder!',
-            da: 'Tegn linjer for at forbinde de matchende billeder!',
-            no: 'Tegn linjer for å koble matchende bilder!',
-            fi: 'Piirrä viivoja yhdistääksesi yhteensopivat kuvat!'
+            da: 'Tegn streger for at forbinde de matchende billeder!',
+            no: 'Tegn linjer mellom bildene som hører sammen!',
+            fi: 'Piirrä viivat ja yhdistä yhteensopivat kuvat!'
         };
 
         const title = defaultTitles[currentLang] || defaultTitles.en;
@@ -2605,7 +2605,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     // --- TEXT TOOLS LOGIC ---
     function addTextToCanvas() {
         if (!worksheetCanvas) return;
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             // Position - Always centered
             left: (currentCanvasConfig.width - 250) / 2,

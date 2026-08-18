@@ -11,7 +11,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
   <script src="js/translations-addition-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script>
     // CRITICAL: Set locales IMMEDIATELY after loading translations.js!
@@ -2435,7 +2435,7 @@
       addTextBtn.addEventListener('click', () => {
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
-          const textContent = textInput.value.trim() || 'New Text';
+          const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
           const textObject = new fabric.Textbox(textContent, {
               // Position - Always centered
               left: (currentCanvasConfig.width - 250) / 2,
@@ -3046,7 +3046,7 @@
         const defaultHeaders = {
             en: {
                 title: 'Addition Fun',
-                descriptionImageImage: 'Add the numbers and write your answers!',
+                descriptionImageImage: 'Count the pictures, add them, and write your answer!',
                 descriptionImageNumber: 'Count the images, add the number, and write your answer!',
                 descriptionFindAddend: 'Find the missing number to make the addition correct!',
                 descriptionMixed: 'Practice addition with mixed exercise types!'
@@ -3059,67 +3059,67 @@
                 descriptionMixed: 'Übe Addition mit gemischten Aufgabentypen!'
             },
             fr: {
-                title: 'Addition Amusante',
-                descriptionImageImage: 'Additionne les nombres et écris tes réponses!',
-                descriptionImageNumber: 'Compte les images, ajoute le nombre et écris ta réponse!',
-                descriptionFindAddend: 'Trouve le nombre manquant pour compléter l\'addition!',
-                descriptionMixed: 'Pratique l\'addition avec des types d\'exercices mixtes!'
+                title: 'Addition amusante',
+                descriptionImageImage: 'Additionne les nombres et écris tes réponses !',
+                descriptionImageNumber: 'Compte les images, ajoute le nombre et écris ta réponse !',
+                descriptionFindAddend: 'Trouve le nombre manquant pour compléter l\'addition !',
+                descriptionMixed: 'Entraîne-toi à l\'addition avec des exercices variés !'
             },
             es: {
-                title: 'Suma Divertida',
+                title: 'Suma divertida',
                 descriptionImageImage: '¡Suma los números y escribe tus respuestas!',
                 descriptionImageNumber: '¡Cuenta las imágenes, suma el número y escribe tu respuesta!',
                 descriptionFindAddend: '¡Encuentra el número que falta para completar la suma!',
-                descriptionMixed: '¡Practica la suma con tipos de ejercicios mixtos!'
+                descriptionMixed: '¡Practica la suma con ejercicios variados!'
             },
             it: {
-                title: 'Addizione Divertente',
-                descriptionImageImage: 'Addiziona i numeri e scrivi le tue risposte!',
-                descriptionImageNumber: 'Conta le immagini, aggiungi il numero e scrivi la tua risposta!',
+                title: 'Addizione divertente',
+                descriptionImageImage: 'Addiziona i numeri e scrivi le risposte!',
+                descriptionImageNumber: 'Conta le immagini, aggiungi il numero e scrivi la risposta!',
                 descriptionFindAddend: 'Trova il numero mancante per completare l\'addizione!',
-                descriptionMixed: 'Pratica l\'addizione con tipi di esercizi misti!'
+                descriptionMixed: 'Pratica l\'addizione con esercizi misti!'
             },
             pt: {
-                title: 'Adição Divertida',
-                descriptionImageImage: 'Some os números e escreve as tuas respostas!',
-                descriptionImageNumber: 'Conta as imagens, soma o número e escreve a tua resposta!',
-                descriptionFindAddend: 'Encontra o número em falta para completar a adição!',
-                descriptionMixed: 'Pratica a adição com tipos de exercícios mistos!'
+                title: 'Adição divertida',
+                descriptionImageImage: 'Some os números e escreva suas respostas!',
+                descriptionImageNumber: 'Conte as imagens, some o número e escreva sua resposta!',
+                descriptionFindAddend: 'Encontre o número que falta para completar a adição!',
+                descriptionMixed: 'Pratique a adição com exercícios variados!'
             },
             nl: {
-                title: 'Optellen is Leuk',
+                title: 'Optellen is leuk',
                 descriptionImageImage: 'Tel de getallen op en schrijf je antwoorden!',
                 descriptionImageNumber: 'Tel de afbeeldingen, tel het getal erbij op en schrijf je antwoord!',
                 descriptionFindAddend: 'Vind het ontbrekende getal om de optelling te voltooien!',
-                descriptionMixed: 'Oefen optellen met gemengde oefeningstypes!'
+                descriptionMixed: 'Oefen optellen met verschillende soorten sommen!'
             },
             sv: {
-                title: 'Rolig Addition',
+                title: 'Rolig addition',
                 descriptionImageImage: 'Addera talen och skriv dina svar!',
                 descriptionImageNumber: 'Räkna bilderna, lägg till talet och skriv ditt svar!',
                 descriptionFindAddend: 'Hitta det saknade talet för att slutföra additionen!',
                 descriptionMixed: 'Öva addition med blandade övningstyper!'
             },
             da: {
-                title: 'Sjov Addition',
+                title: 'Sjov addition',
                 descriptionImageImage: 'Læg tallene sammen og skriv dine svar!',
                 descriptionImageNumber: 'Tæl billederne, læg tallet til og skriv dit svar!',
                 descriptionFindAddend: 'Find det manglende tal for at fuldføre additionen!',
                 descriptionMixed: 'Øv addition med blandede øvelsestyper!'
             },
             no: {
-                title: 'Gøy Addisjon',
+                title: 'Gøy med addisjon',
                 descriptionImageImage: 'Legg sammen tallene og skriv svarene dine!',
                 descriptionImageNumber: 'Tell bildene, legg til tallet og skriv svaret ditt!',
                 descriptionFindAddend: 'Finn det manglende tallet for å fullføre addisjonen!',
                 descriptionMixed: 'Øv på addisjon med blandede øvelsestyper!'
             },
             fi: {
-                title: 'Hauska Yhteenlasku',
+                title: 'Hauska yhteenlasku',
                 descriptionImageImage: 'Laske luvut yhteen ja kirjoita vastauksesi!',
                 descriptionImageNumber: 'Laske kuvat, lisää luku ja kirjoita vastauksesi!',
-                descriptionFindAddend: 'Löydä puuttuva luku yhteenlaskun täydentämiseksi!',
-                descriptionMixed: 'Harjoittele yhteenlaskua sekatyyppisillä tehtävillä!'
+                descriptionFindAddend: 'Löydä puuttuva luku ja täydennä yhteenlasku!',
+                descriptionMixed: 'Harjoittele yhteenlaskua erilaisilla tehtävillä!'
             }
         };
 

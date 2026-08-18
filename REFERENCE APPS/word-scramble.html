@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Word Scramble Worksheet</title>
   <script src="js/translations-word-scramble-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -1397,15 +1397,15 @@
             const defaultHeaders = {
                 en: { title: 'Word Scramble', description: 'Unscramble the letters to make words!' },
                 de: { title: 'Buchstabensalat', description: 'Ordne die Buchstaben und finde die Wörter!' },
-                fr: { title: 'Mots Mêlés', description: 'Remets les lettres dans le bon ordre pour faire des mots!' },
-                es: { title: 'Palabras Revueltas', description: '¡Ordena las letras para formar palabras!' },
-                it: { title: 'Lettere Mescolate', description: 'Riordina le lettere per formare le parole!' },
-                pt: { title: 'Letras Embaralhadas', description: 'Organize as letras para formar palavras!' },
+                fr: { title: 'Mots mélangés', description: 'Remets les lettres dans le bon ordre pour former des mots !' },
+                es: { title: 'Palabras revueltas', description: '¡Ordena las letras para formar palabras!' },
+                it: { title: 'Lettere mescolate', description: 'Riordina le lettere per formare le parole!' },
+                pt: { title: 'Letras embaralhadas', description: 'Organize as letras para formar palavras!' },
                 nl: { title: 'Letterzaak', description: 'Zet de letters in de juiste volgorde om woorden te maken!' },
                 sv: { title: 'Bokstavspussel', description: 'Ordna bokstäverna för att bilda ord!' },
                 da: { title: 'Bogstavrod', description: 'Sæt bogstaverne i den rigtige rækkefølge!' },
                 no: { title: 'Bokstavblanding', description: 'Sett bokstavene i riktig rekkefølge for å lage ord!' },
-                fi: { title: 'Kirjainsekoitus', description: 'Järjestä kirjaimet muodostaaksesi sanoja!' }
+                fi: { title: 'Kirjainsekoitus', description: 'Järjestä kirjaimet sanoiksi!' }
             };
 
             const locale = currentLocale || 'en';
@@ -2385,7 +2385,7 @@
         function addText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = ui.textInput.value.trim() || 'New Text';
+            const textContent = ui.textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 // Position - Always centered
                 left: (currentCanvasConfig.width - 250) / 2,
@@ -3123,7 +3123,7 @@
                    sourcePool.push(...currentThemeImages);
                 } else {
                      try {
-                        const res = await fetch(`/api/images?search=`);
+                        const res = await fetch(`/api/images?search=&locale=${currentLocale}`);
                         const data = await res.json();
                         const images = data.images || data || [];
                         sourcePool.push(...images);
@@ -3144,7 +3144,13 @@
             lastGeneratedPuzzles = [];
             for (let i = 0; i < puzzleCount; i++) {
                 const image = puzzleImagePool[i % puzzleImagePool.length];
-                const displayWord = (image.name || image.word).toUpperCase();
+                const _rawWord = image.name || image.word;
+                const _caseSel = document.querySelector('input[name="letterCase"]:checked');
+                // Case decided at the SOURCE: upper->lower round-trips destroy German ss
+                // (Fuss gains a letter), so lowercase derives from the ORIGINAL word.
+                const displayWord = (_caseSel && _caseSel.value === 'lower')
+                    ? _rawWord.toLocaleLowerCase((typeof currentLocale !== 'undefined' && currentLocale) || 'en')
+                    : _rawWord.toUpperCase();
                 const words = displayWord.split(/\s+/).filter(w => w.length > 0);
 
                 const scrambledWords = words.map(w => {
@@ -3307,8 +3313,8 @@
             const nameDateHeight = (ui.includeNameDate.checked && !isAnswerKey) ? 50 : 0;
             if (ui.includeNameDate.checked && !isAnswerKey) {
                 const nameDateGroup = new fabric.Group([
-                    new fabric.Textbox("Name: ________________", { left: 0, top: 0, fontSize: 18 }),
-                    new fabric.Textbox("Date: ________", { left: 350, top: 0, fontSize: 18 })
+                    new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.name.field'])||(T.en&&T.en['shared.name.field'])||'Name:')+' ________________';})(), { left: 0, top: 0, fontSize: 18 }),
+                    new fabric.Textbox((function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return ((T[L]&&T[L]['shared.date.field'])||(T.en&&T.en['shared.date.field'])||'Date:')+' ________';})(), { left: 350, top: 0, fontSize: 18 })
                 ], { left: leftMargin, top: topMargin, selectable: true, hasControls: true, evented: true, isGeneratedItem: false });
                 canvas.add(nameDateGroup);
             }

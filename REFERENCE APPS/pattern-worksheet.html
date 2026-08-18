@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-translate="pattern.worksheet.page.title">Pattern Worksheet Generator</title>
   <script src="js/translations-pattern-worksheet.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
   <script src="js/translations.js"></script>
   <script src="js/bulletproof-loader.js"></script>
@@ -2355,15 +2355,15 @@
         function createHeaderGroup(canvas) {
             const defaultHeaders = {
                 en: { title: 'Pattern Puzzles', description: 'Complete each pattern by finding what comes next!' },
-                de: { title: 'Musterrätsel', description: 'Vervollständige jedes Muster, indem du herausfindest, was als nächstes kommt!' },
-                fr: { title: 'Puzzles de Motifs', description: 'Complète chaque motif en trouvant ce qui vient ensuite!' },
-                es: { title: 'Rompecabezas de Patrones', description: '¡Completa cada patrón encontrando lo que sigue!' },
-                it: { title: 'Puzzle di Schemi', description: 'Completa ogni schema trovando cosa viene dopo!' },
-                pt: { title: 'Quebra-cabeças de Padrões', description: 'Complete cada padrão encontrando o que vem a seguir!' },
+                de: { title: 'Musterrätsel', description: 'Vervollständige jedes Muster, indem du herausfindest, was als Nächstes kommt!' },
+                fr: { title: 'Puzzles de motifs', description: 'Complète chaque motif en trouvant ce qui vient ensuite !' },
+                es: { title: 'Rompecabezas de patrones', description: '¡Completa cada patrón encontrando lo que sigue!' },
+                it: { title: 'Puzzle di sequenze', description: 'Completa ogni sequenza trovando cosa viene dopo!' },
+                pt: { title: 'Quebra-cabeças de padrões', description: 'Complete cada padrão encontrando o que vem a seguir!' },
                 nl: { title: 'Patroonpuzzels', description: 'Voltooi elk patroon door te vinden wat er volgt!' },
                 sv: { title: 'Mönsterpussel', description: 'Slutför varje mönster genom att hitta vad som kommer härnäst!' },
-                da: { title: 'Mønstergåder', description: 'Fuldfør hvert mønster ved at finde, hvad der kommer næste!' },
-                no: { title: 'Mønstergåter', description: 'Fullfør hvert mønster ved å finne hva som kommer neste!' },
+                da: { title: 'Mønstergåder', description: 'Fuldfør hvert mønster ved at finde, hvad der kommer bagefter!' },
+                no: { title: 'Mønstergåter', description: 'Fullfør hvert mønster ved å finne ut hva som kommer etterpå!' },
                 fi: { title: 'Kuviotehtävät', description: 'Täydennä jokainen kuvio löytämällä, mikä tulee seuraavaksi!' }
             };
 
@@ -3898,7 +3898,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf', opts) {
         function addText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = ui.textInput.value.trim() || 'New Text';
+            const textContent = ui.textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,

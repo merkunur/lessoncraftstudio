@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/translations-wordsearch-complete.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js?v=2"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -2678,6 +2678,15 @@ document.addEventListener("DOMContentLoaded", function() {
                         name: clueForm || fallback
                     };
                 }
+                // Single-language path: same ImageVocab routing as mix mode (the
+                // /api/images response is NOT reliably localized — see comment above).
+                // An operator-edited name is an explicit choice and wins over vocab.
+                if (window.ImageVocab && typeof window.ImageVocab.keyFromPath === 'function' && !img.editedName) {
+                    var vk = window.ImageVocab.keyFromPath(img.path || '');
+                    var loc = (typeof currentLocale !== 'undefined' && currentLocale) || 'en';
+                    var vForm = vk ? window.ImageVocab.singular(vk, loc) : null;
+                    if (vForm) return { word: vForm, path: img.path, name: vForm };
+                }
                 return { word: img.word, path: img.path, name: img.name || img.word };
             }),
             rows: parseInt(rowsInput.value),
@@ -2711,10 +2720,13 @@ document.addEventListener("DOMContentLoaded", function() {
             if(allowDiagonal) directions.push({dr: -1, dc: -1}, {dr: -1, dc: 1});
         }
         
-        // Keep only letters (including international characters) and remove spaces/punctuation
-        const wordsToPlace = shuffleArray(wordsConfig.map(w => {
-            return w.word.toUpperCase().replace(/[^A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŸ]/gi, '');
-        }));
+        // Keep only letters (including international characters) and remove spaces/punctuation.
+        // Shared with the word-list display filter so both sides compare the SAME form —
+        // comparing stripped placed words against unstripped config used to DROP every
+        // transformed word (œ / spaces / hyphens) from the printed list while it occupied
+        // the grid. Œ was also missing from the class, mangling fr words (Cœur → CUR).
+        window.__wsStrip = window.__wsStrip || function (w) { return String(w).toUpperCase().replace(/[^A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŸŒ]/gi, ''); };
+        const wordsToPlace = shuffleArray(wordsConfig.map(w => window.__wsStrip(w.word)));
         let colorIndex = 0;
 
         for (const word of wordsToPlace) {
@@ -2772,11 +2784,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const defaultHeaders = {
             en: { title: 'Word Search', description: 'Find and circle the hidden words!', mixDescription: 'Find these words in {gridLang}!' },
             de: { title: 'Wörter suchen', description: 'Finde und kreise die versteckten Wörter ein!', mixDescription: 'Finde diese Wörter auf {gridLang}!' },
-            fr: { title: 'Mots Cachés', description: 'Trouve et entoure les mots cachés!', mixDescription: 'Trouve ces mots en {gridLang} !' },
-            es: { title: 'Sopa de Letras', description: '¡Encuentra y rodea las palabras escondidas!', mixDescription: '¡Encuentra estas palabras en {gridLang}!' },
-            it: { title: 'Cerca Parole', description: 'Trova e cerchia le parole nascoste!', mixDescription: 'Trova queste parole in {gridLang}!' },
-            pt: { title: 'Caça-Palavras', description: 'Encontra e rodeia as palavras escondidas!', mixDescription: 'Encontra estas palavras em {gridLang}!' },
-            nl: { title: 'Woordzoeker', description: 'Vind en cirkel de verborgen woorden!', mixDescription: 'Vind deze woorden in het {gridLang}!' },
+            fr: { title: 'Mots cachés', description: 'Trouve et entoure les mots cachés !', mixDescription: 'Trouve ces mots en {gridLang} !' },
+            es: { title: 'Sopa de letras', description: '¡Encuentra y rodea las palabras escondidas!', mixDescription: '¡Encuentra estas palabras en {gridLang}!' },
+            it: { title: 'Cerca parole', description: 'Trova e cerchia le parole nascoste!', mixDescription: 'Trova queste parole in {gridLang}!' },
+            pt: { title: 'Caça-palavras', description: 'Encontre e circule as palavras escondidas!', mixDescription: 'Encontre estas palavras em {gridLang}!' },
+            nl: { title: 'Woordzoeker', description: 'Vind en omcirkel de verborgen woorden!', mixDescription: 'Vind deze woorden in het {gridLang}!' },
             sv: { title: 'Ordletning', description: 'Hitta och ringa in de dolda orden!', mixDescription: 'Hitta dessa ord på {gridLang}!' },
             da: { title: 'Ordsøgning', description: 'Find og sæt ring om de skjulte ord!', mixDescription: 'Find disse ord på {gridLang}!' },
             no: { title: 'Ordleting', description: 'Finn og ring inn de skjulte ordene!', mixDescription: 'Finn disse ordene på {gridLang}!' },
@@ -3311,7 +3323,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Ensure we only display words that were actually placed in the grid
         const placedWords = placedWordsInfo.map(p => p.word.toUpperCase());
         const wordsToDisplay = settings.wordsConfig.filter(wc => {
-            const wordUpper = wc.word.toUpperCase();
+            // Compare stripped-vs-stripped (placed words are already grid-stripped);
+            // the list still DISPLAYS the original word ("Cœur", "Bow Tie").
+            const wordUpper = window.__wsStrip ? window.__wsStrip(wc.word) : wc.word.toUpperCase();
             return placedWords.includes(wordUpper);
         });
         
@@ -4337,7 +4351,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function handleAddText() {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
         const textObject = new fabric.Textbox(textContent, {
             // Position - Always centered
             left: (currentCanvasConfig.width - 250) / 2,

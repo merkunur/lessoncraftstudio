@@ -14,7 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="js/translations-grid-match.js?v=runtime-title-1"></script>
-    <script src="js/translations-shared.js?v=10"></script>
+    <script src="js/translations-shared.js?v=11"></script>
     <script src="js/image-vocabulary.js?v=3"></script>
     <script src="js/bulletproof-loader.js?v=2"></script>
     <script src="js/unified-language-manager.js?v=2"></script>
@@ -2497,7 +2497,7 @@
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
 
-            const textContent = textInput.value.trim() || 'New Text';
+            const textContent = textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})();
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
@@ -2606,10 +2606,10 @@
             const defaultHeaders = {
                 en: { title: 'Grid Match', description: 'Match the pieces to complete the picture!' },
                 de: { title: 'Raster-Puzzle', description: 'Setze die Teile zusammen und vervollständige das Bild!' },
-                fr: { title: 'Puzzle Grille', description: 'Assemble les pièces pour compléter l\'image!' },
-                es: { title: 'Puzzle de Cuadrícula', description: '¡Junta las piezas para completar la imagen!' },
-                it: { title: 'Puzzle a Griglia', description: 'Metti insieme i pezzi per completare l\'immagine!' },
-                pt: { title: 'Quebra-Cabeça de Grade', description: 'Junte as peças para completar a imagem!' },
+                fr: { title: 'Puzzle en grille', description: 'Assemble les pièces pour compléter l\'image !' },
+                es: { title: 'Puzzle de cuadrícula', description: '¡Junta las piezas para completar la imagen!' },
+                it: { title: 'Puzzle a griglia', description: 'Metti insieme i pezzi per completare l\'immagine!' },
+                pt: { title: 'Quebra-cabeça de grade', description: 'Junte as peças para completar a imagem!' },
                 nl: { title: 'Rasterpuzzel', description: 'Leg de stukjes om de afbeelding compleet te maken!' },
                 sv: { title: 'Rutnätspussel', description: 'Matcha bitarna för att slutföra bilden!' },
                 da: { title: 'Gitterpuslespil', description: 'Sæt brikkerne sammen for at fuldføre billedet!' },

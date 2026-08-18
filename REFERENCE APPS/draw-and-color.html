@@ -2618,21 +2618,28 @@ document.addEventListener("DOMContentLoaded", function() {
         const defaultHeaders = {
             en: { title: 'Draw and Color', description: 'Use your creativity! Draw and color the pictures below!' },
             de: { title: 'Zeichnen und Ausmalen', description: 'Sei kreativ! Zeichne und male die Bilder aus!' },
-            fr: { title: 'Dessine et Colorie', description: 'Sois créatif! Dessine et colorie les images!' },
-            es: { title: 'Dibuja y Colorea', description: '¡Sé creativo! ¡Dibuja y colorea las imágenes!' },
-            it: { title: 'Disegna e Colora', description: 'Sii creativo! Disegna e colora le immagini!' },
-            pt: { title: 'Desenha e Pinta', description: 'Seja criativo! Desenhe e pinte as imagens!' },
-            nl: { title: 'Teken en Kleur', description: 'Wees creatief! Teken en kleur de afbeeldingen!' },
-            sv: { title: 'Rita och Färglägg', description: 'Var kreativ! Rita och färglägg bilderna!' },
-            da: { title: 'Tegn og Farvlæg', description: 'Vær kreativ! Tegn og farvelæg billederne!' },
-            no: { title: 'Tegn og Fargelegg', description: 'Vær kreativ! Tegn og fargelegg bildene!' },
-            fi: { title: 'Piirrä ja Väritä', description: 'Ole luova! Piirrä ja väritä kuvat!' }
+            fr: { title: 'Dessine et colorie', description: 'Sois créatif ! Dessine et colorie les images !' },
+            es: { title: 'Dibuja y colorea', description: '¡Sé creativo! ¡Dibuja y colorea las imágenes!' },
+            it: { title: 'Disegna e colora', description: 'Sii creativo! Disegna e colora le immagini!' },
+            pt: { title: 'Desenhe e pinte', description: 'Seja criativo! Desenhe e pinte as imagens!' },
+            nl: { title: 'Teken en kleur', description: 'Wees creatief! Teken en kleur de afbeeldingen!' },
+            sv: { title: 'Rita och färglägg', description: 'Var kreativ! Rita och färglägg bilderna!' },
+            da: { title: 'Tegn og farvelæg', description: 'Vær kreativ! Tegn og farvelæg billederne!' },
+            no: { title: 'Tegn og fargelegg', description: 'Vær kreativ! Tegn og fargelegg bildene!' },
+            fi: { title: 'Piirrä ja väritä', description: 'Ole luova! Piirrä ja väritä kuvat!' }
         };
 
         const locale = currentLocale || 'en';
         const defaults = defaultHeaders[locale] || defaultHeaders.en;
         const title = defaults.title;
         const description = defaults.description;
+
+        // Cache localized title + instruction for the deck/SEO export
+        // (sibling apps' createHeaderGroup pattern, e.g. addition/grid-match).
+        if (canvas) {
+            canvas.lcsLocalizedTitle = title;
+            canvas.lcsLocalizedInstruction = description;
+        }
 
         // Get current canvas dimensions for responsive design
         const pageWidth = currentCanvasConfig.width;

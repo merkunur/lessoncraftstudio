@@ -36,7 +36,7 @@
   <!-- Enhancement Scripts -->
   <script src="js/translations.js?v=1759320925"></script>
   <script src="js/translations-picture-bingo.js?v=runtime-title-1" onerror="console.error('Failed to load translations-picture-bingo.js')" onload="console.log('translations-picture-bingo.js loaded successfully')"></script>
-  <script src="js/translations-shared.js?v=10"></script>
+  <script src="js/translations-shared.js?v=11"></script>
   <script src="js/image-vocabulary.js?v=3"></script>
 
   <!-- Define translation functions AFTER loading translations -->
@@ -1800,29 +1800,29 @@
           const defaultTitles = {
               en: 'Picture Bingo',
               de: 'Bilder-Bingo',
-              fr: 'Loto des Images',
-              es: 'Bingo de Imágenes',
-              it: 'Bingo delle Immagini',
-              pt: 'Bingo de Imagens',
-              nl: 'Plaatjes Bingo',
-              sv: 'Bild-Bingo',
-              da: 'Billede-Bingo',
-              no: 'Bilde-Bingo',
-              fi: 'Kuva-Bingo'
+              fr: 'Loto des images',
+              es: 'Bingo de imágenes',
+              it: 'Bingo delle immagini',
+              pt: 'Bingo de imagens',
+              nl: 'Plaatjesbingo',
+              sv: 'Bildbingo',
+              da: 'Billedbingo',
+              no: 'Bilde-bingo',
+              fi: 'Kuvabingo'
           };
 
           const defaultDescriptions = {
               en: 'Match the pictures to win!',
               de: 'Finde die passenden Bilder und gewinne!',
-              fr: 'Trouve les images correspondantes pour gagner!',
-              es: '¡Encuentra las imágenes coincidentes para ganar!',
+              fr: 'Trouve les images correspondantes pour gagner !',
+              es: '¡Empareja las imágenes para ganar!',
               it: 'Trova le immagini corrispondenti per vincere!',
               pt: 'Encontre as imagens correspondentes para ganhar!',
               nl: 'Vind de overeenkomende plaatjes en win!',
               sv: 'Matcha bilderna för att vinna!',
               da: 'Match billederne for at vinde!',
               no: 'Match bildene for å vinne!',
-              fi: 'Yhdistä kuvat voittaaksesi!'
+              fi: 'Yhdistä kuvat ja voita!'
           };
 
           const title = defaultTitles[currentLang] || defaultTitles.en;
@@ -2249,7 +2249,7 @@
       function addTextBtnClick() {
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
-          const textObject = new fabric.Textbox(textInput.value.trim() || 'New Text', {
+          const textObject = new fabric.Textbox(textInput.value.trim() || (function(){var L=(typeof currentLocale!=='undefined'&&currentLocale)||'en',T=window.translations||{};return (T[L]&&T[L]['shared.text.default'])||(T.en&&T.en['shared.text.default'])||'New Text';})(), {
               // Position - Always centered
               left: (currentCanvasConfig.width - 250) / 2,
               top: (currentCanvasConfig.height - 100) / 2,

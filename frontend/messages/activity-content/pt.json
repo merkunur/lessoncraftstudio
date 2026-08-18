@@ -2900,6 +2900,29 @@
         "Eu paro no número certo",
         "Eu tiro uma quando coloco demais"
       ]
+    },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "O Dudu é um patinho curioso que adora encher o tanque com bolhas, uma a uma. Você toca no tanque e — plop! — cai mais uma bolha. Quando a décima bolha desce, acontece a mágica: as dez bolhas se juntam e viram UMA dezena, brilhando toda unida. As bolhas que sobram ficam ali do lado, soltinhas: são \"mais algumas unidades\".",
+        "A ideia grande é enxergar os números de 11 a 19 de um jeito novo: cada um é uma dezena e algumas unidades. O 14, por exemplo, é uma dezena e 4 unidades — ou seja, 10 + 4. Brincando com o Dudu, a criança agrupa dez em uma dezena, compõe e decompõe o número, separa a dezena das unidades e compara dois números olhando para as dezenas e as unidades. É a base do valor posicional, começando pelos números de 11 a 19 com material bem concreto, sem regrinha decorada.",
+        "A atividade é de graça, sem cadastro, sem cronômetro e sem pontuação — ninguém compete com ninguém, cada criança vai no seu ritmo. Ela é alinhada à BNCC, na unidade temática Números, e serve de base para a criança entender, mais para a frente, como funcionam as dezenas e as unidades."
+      ],
+      "practices": [
+        "Agrupar dez unidades para formar uma dezena",
+        "Ver um número de 11 a 19 como uma dezena e algumas unidades",
+        "Decompor o número, separando a dezena das unidades",
+        "Comparar dois números olhando para as dezenas e as unidades"
+      ],
+      "howToPlay": [
+        "Toque no tanque para soltar as bolhas, uma a uma",
+        "Quando juntar dez bolhas, elas se agrupam e viram uma dezena",
+        "Complete com as unidades que faltam para formar o número"
+      ],
+      "learningGoals": [
+        "Eu junto dez unidades e formo uma dezena",
+        "Eu vejo que 14 é uma dezena e 4 unidades",
+        "Eu separo a dezena das unidades"
+      ]
     }
   }
 }

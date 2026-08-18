@@ -402,6 +402,104 @@
               "80 m"
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "ant",
+            "band": 1,
+            "object": "uma formiga",
+            "question": "Quanto mede mais ou menos uma formiga?",
+            "answer": "1 cm",
+            "options": [
+              "1 cm",
+              "12 cm",
+              "30 cm"
+            ]
+          },
+          {
+            "id": "door",
+            "band": 1,
+            "object": "uma porta",
+            "question": "Qual é mais ou menos a altura de uma porta?",
+            "answer": "2 m",
+            "options": [
+              "1 m",
+              "2 m",
+              "9 m"
+            ]
+          },
+          {
+            "id": "train",
+            "band": 2,
+            "object": "um trem",
+            "question": "Qual é mais ou menos o comprimento de um trem?",
+            "answer": "200 m",
+            "options": [
+              "3 m",
+              "40 m",
+              "200 m"
+            ]
+          },
+          {
+            "id": "crayon",
+            "band": 1,
+            "object": "um giz de cera",
+            "question": "Quanto mede mais ou menos um giz de cera?",
+            "answer": "9 cm",
+            "options": [
+              "9 cm",
+              "50 cm",
+              "90 cm"
+            ]
+          },
+          {
+            "id": "bus",
+            "band": 2,
+            "object": "um ônibus",
+            "question": "Qual é mais ou menos o comprimento de um ônibus?",
+            "answer": "12 m",
+            "options": [
+              "2 m",
+              "12 m",
+              "90 m"
+            ]
+          },
+          {
+            "id": "building",
+            "band": 3,
+            "object": "um prédio",
+            "question": "Qual é mais ou menos a altura de um prédio?",
+            "answer": "150 m",
+            "options": [
+              "5 m",
+              "40 m",
+              "150 m"
+            ]
+          },
+          {
+            "id": "spoon",
+            "band": 2,
+            "object": "uma colher",
+            "question": "Quanto mede mais ou menos uma colher?",
+            "answer": "15 cm",
+            "options": [
+              "15 cm",
+              "60 cm",
+              "150 cm"
+            ]
+          },
+          {
+            "id": "flagpole",
+            "band": 3,
+            "object": "um mastro de bandeira",
+            "question": "Qual é mais ou menos a altura de um mastro de bandeira?",
+            "answer": "10 m",
+            "options": [
+              "1 m",
+              "10 m",
+              "80 m"
+            ]
+          }
         ]
       }
     },
@@ -410,19 +508,22 @@
       "en": "gauge-good-guess",
       "de": "laengen-schaetzen-cm-und-meter-klasse-2",
       "fr": "estimer-des-longueurs-cm-et-metres-ce1",
-      "es": "estimar-longitudes-cm-y-metros-2-primaria"
+      "es": "estimar-longitudes-cm-y-metros-2-primaria",
+      "pt": "estimar-comprimentos-cm-e-metros-2-ano"
     },
     "page_title": {
       "en": "Gauge's Good Guess — Estimate the Length (Grade 2)",
       "de": "Meter und Zentimeter – Längen schätzen online (Klasse 2)",
       "fr": "Estimer des longueurs en cm et en mètres – La chèvre Gauge | CE1",
-      "es": "Estimar longitudes en cm y metros con Gauge | 2.º primaria"
+      "es": "Estimar longitudes en cm y metros con Gauge | 2.º primaria",
+      "pt": "Estimar comprimentos em cm e metros com Palmira | 2º ano"
     },
     "page_intro": {
       "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3.",
       "de": "Meter und Zentimeter: Längen schätzen und vergleichen mit Ziege Gauge – Klasse 2. Kostenlos online üben, ganz ohne Anmeldung.",
       "fr": "Gauge la chèvre devine les tailles rien qu'en regardant ! Lis la question, imagine la taille réelle de l'objet, et touche l'estimation qui a du sens — en centimètres ou en mètres. Une fourmi mesure à peu près 1 cm, un train près de 200 m ! Un jeu de CE1 pour estimer des longueurs et choisir la bonne unité. Gratuit et interactif.",
-      "es": "Con Gauge, la cabra, tu peque estima longitudes en centímetros y metros: mira un objeto y elige cuánto mide. Actividad de 2.º de primaria, gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP)."
+      "es": "Con Gauge, la cabra, tu peque estima longitudes en centímetros y metros: mira un objeto y elige cuánto mide. Actividad de 2.º de primaria, gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Conheça a Palmira, uma cabra curiosa que adivinha tamanhos só de olhar! Nesta atividade, a criança lê uma pergunta sobre um objeto de verdade, imagina o tamanho real dele e toca a estimativa que faz sentido — em centímetros ou em metros. É uma forma divertida de estimar comprimentos, gratuita e interativa, pensada para o 2º ano e alinhada à BNCC."
     },
     "kid_prompt_template": "Picture the real size, then tap the estimate that makes sense."
   }

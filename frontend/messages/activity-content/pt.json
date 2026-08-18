@@ -2831,6 +2831,29 @@
         "Eu sei dizer mais, menos ou igual olhando para os amiguinhos que sobraram sem par.",
         "Eu sei que o olho engana: uma fileira espalhada pode ter a mesma quantidade de um montinho juntinho."
       ]
+    },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "A raposa quer um colar igualzinho ao da amiga — só que igual no número de contas, não nas cores. Ela olha o colar da amiga, conta as contas uma a uma e descobre quantas são. Depois é a vez da criança: enfiar a mesma quantidade de contas no cordão e fechar o colar, deixando os dois com a mesma quantia, cada um do seu jeito.",
+        "A ideia grande é simples e poderosa: a gente conta justamente para saber quantas são, e o último número dito é quem diz a quantidade — se você contou até seis, são seis. E tem a virada divertida: quando a raposa espalha, esconde ou sacode o colar, dá a impressão de que mudou, mas a quantidade continua a mesma. O olho engana; o número, não. Essa é uma descoberta de verdade para quem está no 1º ano.",
+        "É de graça, sem cadastro, sem cronômetro e sem pontuação — ninguém corre contra o relógio nem ganha nota. A atividade é alinhada à BNCC, na unidade temática Números, e serve de base para a criança contar e comparar quantidades com segurança, no tempo dela."
+      ],
+      "practices": [
+        "Contar cada conta uma única vez, sem pular e sem repetir.",
+        "Entender que o último número dito diz quantas contas são.",
+        "Perceber que a quantidade não muda quando as contas são espalhadas, escondidas ou sacudidas.",
+        "Achar e corrigir um errinho de contagem, como uma conta a mais no cordão."
+      ],
+      "howToPlay": [
+        "Conte as contas do colar da amiga uma a uma.",
+        "Guarde quantas são — o último número que você disse.",
+        "Enfie a mesma quantidade de contas e feche o seu colar."
+      ],
+      "learningGoals": [
+        "Eu conto até 10 e sei dizer quantas são.",
+        "Eu sei que a quantidade não muda quando só muda a arrumação das contas.",
+        "Eu transformo um número que ouço ou vejo na quantidade certa de contas."
+      ]
     }
   }
 }

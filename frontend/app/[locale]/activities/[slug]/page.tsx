@@ -205,7 +205,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen', pt: 'Números' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"; PT: BNCC unidade temática „Números" (arredondamento)
   'echo-grove.match-the-rune.3-oa-a-1': { de: 'Zahlen und Operationen', pt: 'Números' }, // Multiplikation = KMK Leitidee „Zahlen und Operationen"; literal „Rechnen und algebraisches Denken" reads wrong (Sekundarstufe term); PT: BNCC unidade temática „Números" (auto-map → „Álgebra" está errado; Álgebra=padrões no 2º ano)
   'maple-bakery.share.3-oa-a-2': { de: 'Zahlen und Operationen', pt: 'Números' },        // Division = same KMK Leitidee „Zahlen und Operationen" (pairs with multiplication); PT: BNCC unidade temática „Números" (auto-map → „Álgebra" está errado; Álgebra=padrões no 3º ano)
-  'winter-piles.draw-partition.2-oa-c-4': { de: 'Zahlen und Operationen' }, // Punktefeld/wiederholte Addition = foundation of multiplication, same Leitidee
+  'winter-piles.draw-partition.2-oa-c-4': { de: 'Zahlen und Operationen', pt: 'Números' }, // Punktefeld/wiederholte Addition = foundation of multiplication, same Leitidee; PT: BNCC unidade temática „Números" (adição de parcelas iguais, EF02MA07; auto-map → „Álgebra" está errado, Álgebra=padrões no 2º ano)
   'comet-kangaroo.tens-hundreds.2-nbt-b-8': { de: 'Zahlen und Operationen' }, // Stellenwert/Orientierung im Tausenderraum lives inside KMK Leitidee „Zahlen und Operationen" (not the base-ten calque)
   'mending-fences.mend-board.3-md-d-8': { de: 'Raum und Form', es: 'Forma, espacio y medida' },  // Umfang+Fläche = geometric figure property (KMK „Raum und Form"), like the area activity — not the free-measured Längen of „Größen und Messen". ES: el perímetro es una propiedad GEOMÉTRICA de la figura (el contorno) → eje "Forma, espacio y medida" (fusiona geometría+medida), NO el auto "Magnitudes y medida" (reservado a magnitudes puras); espeja mosaic-menders área es
   'track-repair.count-to-120.1-nbt-a-1': { de: 'Zahlen und Operationen' }, // Orientierung am Zahlenstrahl / Zahlvorstellung lives inside KMK Leitidee „Zahlen und Operationen" (not the base-ten calque)
@@ -536,7 +536,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.381';
+  const ACTIVITY_WRAPPER_VERSION = '9.382';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

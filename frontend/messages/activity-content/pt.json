@@ -2736,6 +2736,29 @@
         "Eu sei que as partes de uma fração precisam ser iguais, e reconheço quando um pedaço está desigual.",
         "Eu entendo que a mesma fração de um todo maior é mais chocolate, e que um meio pode aparecer numa barra ou numa pizza sendo a mesma quantia."
       ]
+    },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Na barraquinha de suco de amora do Bramble, o texugo, sempre há dois recipientes lado a lado: um copo alto e fino ao lado de uma tigela baixa e larga, ou uma jarra ao lado de uma xícara. Antes de servir, o Bramble faz uma única pergunta: “Em qual cabe mais suco?” A criança escolhe esquerda, direita ou igual — e então o Bramble despeja o suco para conferir quem acertou.",
+        "A ideia é comparar a capacidade dos recipientes sem usar números e sem medir. O formato engana: um copo alto e fino parece que cabe mais, mas uma tigela baixa e larga pode caber muito mais suco — ou seja, ser alto não quer dizer caber mais. Aqui um palpite errado não é um erro, é uma descoberta: quando o suco é despejado, a criança vê com os próprios olhos o que a aparência escondia.",
+        "A atividade é grátis, sem cadastro, sem cronômetro, sem pontuação e sem precisar contar. Ela está alinhada à BNCC, na unidade temática Grandezas e medidas, trabalhando a comparação de capacidades — um primeiro passo importante antes de, mais adiante, medir com litros e mililitros."
+      ],
+      "practices": [
+        "Prever em qual dos dois recipientes cabe mais suco de amora, olhando apenas o formato deles.",
+        "Conferir o palpite observando o Bramble despejar o suco de um recipiente para o outro.",
+        "Perceber que o formato engana — um recipiente mais alto nem sempre é o que cabe mais.",
+        "Descrever a comparação com as palavras cabe mais, cabe menos e cabe igual."
+      ],
+      "howToPlay": [
+        "Olhe bem os dois recipientes que aparecem lado a lado na barraquinha do Bramble.",
+        "Faça seu palpite: em qual cabe mais suco — no da esquerda, no da direita, ou cabe igual nos dois?",
+        "Assista o Bramble despejar o suco e veja se você acertou."
+      ],
+      "learningGoals": [
+        "Eu consigo comparar a capacidade de dois recipientes sem medir e sem contar.",
+        "Eu sei que um recipiente mais alto nem sempre é o que cabe mais suco.",
+        "Eu consigo dizer em qual recipiente cabe mais, cabe menos ou cabe igual."
+      ]
     }
   }
 }

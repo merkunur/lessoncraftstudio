@@ -2548,6 +2548,29 @@
         "Calcular perímetro e área contando, sem depender de fórmulas.",
         "Entender que dois campos com a mesma área podem precisar de perímetros diferentes."
       ]
+    },
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "A cabra Palmira adora adivinhar tamanhos sem usar régua nenhuma. A criança lê uma pergunta como “Quanto mede mais ou menos uma formiga?” ou “Qual a altura de uma porta?” e toca a melhor de três estimativas, como “1 cm”, “12 cm” ou “2 m”. Antes de responder, vale a pena parar para pensar: qual desses tamanhos faz sentido de verdade?",
+        "A ideia central é construir a noção de tamanho usando pontos de referência familiares — “uma régua tem uns 30 cm”, “uma porta tem uns 2 m” — para estimar comprimentos e alturas sem precisar medir. Ao comparar cada objeto com essas referências, a criança também aprende a distinguir centímetros de metros e a escolher a unidade certa para cada situação.",
+        "A atividade é gratuita, interativa e roda direto no navegador, sem cadastro, sem cronômetro e sem pontuação — o clima é tranquilo e acolhedor, do jeito que a aprendizagem no 2º ano deve ser. Cada resposta é uma chance de pensar e conversar sobre tamanhos, sempre com um retorno gentil. O conteúdo está alinhado à BNCC, dentro da unidade temática Grandezas e medidas."
+      ],
+      "practices": [
+        "Estimar comprimentos e alturas usando pontos de referência do dia a dia",
+        "Escolher a unidade certa: centímetros (cm) para objetos pequenos, metros (m) para os grandes",
+        "Comparar tamanhos reais, como os de uma formiga, um lápis, um trem ou um ônibus",
+        "Pensar antes de responder, ganhando confiança para fazer estimativas"
+      ],
+      "howToPlay": [
+        "Leia a pergunta sobre o objeto e imagine o tamanho real dele.",
+        "Compare com uma referência conhecida — uma régua tem uns 30 cm, uma porta tem uns 2 m.",
+        "Toque a estimativa que faz mais sentido, em cm ou em m."
+      ],
+      "learningGoals": [
+        "Estimar comprimentos e alturas sem medir, usando referências familiares",
+        "Reconhecer quando usar centímetros e quando usar metros",
+        "Desenvolver a percepção de tamanho com objetos do mundo real"
+      ]
     }
   }
 }

@@ -3268,6 +3268,29 @@
         "Eu escuto a palavra e escolho o lugar certo, não só o mais perto.",
         "Eu consigo dizer onde uma coisa está em relação a outra."
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Numa casinha de campo mora a Corujita, uma coruja simpática que tem um relógio de cuco na parede. A cada hora, o cuco espia lá de dentro e canta para avisar que chegou um momento especial do dia dela. Junto com a Corujita, seu pequeno olha os dois ponteiros do relógio para descobrir a hora — em ponto, e quinze, e meia — e liga cada horário a um momento da rotina, como o café da manhã, o almoço ou a hora de dormir.",
+        "Brincando, a criança aprende a ler o ponteiro das horas e o ponteiro dos minutos e a dizer a hora em voz alta: sete em ponto, três e quinze, seis e meia, quinze para as dez. Ela também move os dois ponteiros para acertar uma hora combinada e liga esse horário a um momento do dia da Corujita. Aos poucos, percebe que os dois ponteiros andam juntos, como num relógio de verdade — quando os minutos passam, o ponteiro das horas vai deslizando devagar.",
+        "A atividade é totalmente grátis, sem cadastro e sem login, e não tem cronômetro, pontuação nem competição — cada criança brinca no seu ritmo. Quando ela toca em algo diferente, não aparece nenhum X vermelho: o cuco só dá uma espiadinha e volta para dentro, com calma e carinho. Tudo foi pensado de acordo com a BNCC, na unidade temática \"Grandezas e medidas\", para o 2º ano."
+      ],
+      "practices": [
+        "Ler as horas em um relógio analógico: em ponto, e quinze, e meia e quinze para a próxima hora.",
+        "Mover os dois ponteiros para acertar uma hora combinada.",
+        "Ligar cada hora a um momento do dia, como café da manhã, almoço e hora de dormir.",
+        "Entender que o ponteiro das horas anda junto com o ponteiro dos minutos, como num relógio de verdade."
+      ],
+      "howToPlay": [
+        "Olhe o relógio da Corujita e toque no momento do dia que está acontecendo naquela hora.",
+        "Arraste os dois ponteiros até a hora combinada e acorde o cuco!",
+        "Veja o céu ficar rosa de manhãzinha ou o sol bem alto ao meio-dia e acerte a hora no relógio."
+      ],
+      "learningGoals": [
+        "Eu sei ler as horas no relógio: em ponto, e quinze e e meia.",
+        "Eu consigo mover os ponteiros para mostrar uma hora combinada.",
+        "Eu sei ligar cada hora a um momento do meu dia."
+      ]
     }
   }
 }

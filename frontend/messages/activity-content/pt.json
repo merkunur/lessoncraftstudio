@@ -2759,6 +2759,30 @@
         "Eu sei que um recipiente mais alto nem sempre é o que cabe mais suco.",
         "Eu consigo dizer em qual recipiente cabe mais, cabe menos ou cabe igual."
       ]
+    },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "No museu do Professor Pip, o pinguim, chega uma remessa bagunçada de figuras: umas viraram de cabeça para baixo, outras ficaram pequenininhas ou esticadas, e nenhuma sabe mais onde deve ficar. O Pip conhece um segredo — cada figura tem seu nome e seu pedestal. A criança vira ajudante do museu: olha com calma para cada figura e a leva até o pedestal certo — círculo, triângulo, quadrado, retângulo ou hexágono. As figuras que não combinam com nenhum nome, como um losango que não é quadrado ou um oval, vão para a Galeria dos Mistérios.",
+        "A grande ideia é simples e poderosa: uma figura continua com o mesmo nome não importa como ela esteja girada ou de que tamanho seja. Um quadrado apoiado sobre a ponta ainda é um quadrado — não virou losango! E um losango de verdade, com os lados inclinados, não é um quadrado. Aqui a criança aprende a diferença entre o quadrado e o retângulo e percebe que reconhecer uma figura é muito mais do que só olhar: é saber o nome que ela carrega em qualquer posição.",
+        "A atividade é totalmente grátis, sem relógio, sem pontuação e sem contagem — só o prazer calmo de organizar o museu no ritmo da criança. O conteúdo está alinhado à BNCC, na unidade temática de Geometria, ajudando os pequenos do 1º ano a reconhecer e nomear figuras planas em diferentes posições."
+      ],
+      "practices": [
+        "Nomear figuras geométricas planas: círculo, triângulo, quadrado, retângulo e hexágono.",
+        "Reconhecer uma figura mesmo quando ela está inclinada, virada ou de tamanho diferente.",
+        "Distinguir o quadrado do retângulo, observando o que faz cada um ser o que é.",
+        "Diferenciar um losango de um quadrado, percebendo que a posição não muda o nome.",
+        "Observar as figuras com atenção antes de decidir para qual pedestal cada uma vai."
+      ],
+      "howToPlay": [
+        "Olhe com atenção para cada figura, mesmo que ela esteja inclinada ou pequenininha.",
+        "Leve a figura até o pedestal que tem o nome certo dela — círculo, triângulo, quadrado, retângulo ou hexágono.",
+        "Se uma figura não combina com nenhum nome, leve-a para a Galeria dos Mistérios."
+      ],
+      "learningGoals": [
+        "Eu sei nomear o círculo, o triângulo, o quadrado, o retângulo e o hexágono.",
+        "Eu consigo reconhecer uma figura mesmo quando ela está virada ou de outro tamanho.",
+        "Eu sei diferenciar um quadrado de um retângulo e de um losango."
+      ]
     }
   }
 }

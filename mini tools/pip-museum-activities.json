@@ -294,19 +294,22 @@
       "en": "professor-pips-museum",
       "de": "formen-erkennen-und-benennen-klasse-1",
       "fr": "reconnaitre-et-nommer-les-formes-carre-triangle-cercle-cp",
-      "es": "identificar-figuras-geometricas-circulo-triangulo-cuadrado"
+      "es": "identificar-figuras-geometricas-circulo-triangulo-cuadrado",
+      "pt": "reconhecer-e-nomear-figuras-geometricas-1-ano"
     },
     "page_title": {
       "en": "Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten)",
       "de": "Formen lernen – Kreis, Dreieck & Co. online üben",
       "fr": "Reconnaître les formes – carré, triangle, cercle, en ligne",
-      "es": "Identificar figuras: círculo, triángulo, cuadrado (preescolar)"
+      "es": "Identificar figuras: círculo, triángulo, cuadrado (preescolar)",
+      "pt": "Reconhecer e Nomear Figuras Geométricas — Museu do Professor Pip (1º ano) | BNCC"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten geometry game: Professor Pip the penguin trusts you to NAME every new museum acquisition. Treasures ride up the conveyor tilted, tiny, stretched, or upside-down — and you route each to the pedestal that names it. A square is a square even when it's turned like a diamond! Naming circles, triangles, squares, rectangles, and hexagons no matter how they're turned or sized is the heart of Common Core K.G.A.2.",
       "de": "Formen lernen leicht gemacht: Kreis, Dreieck, Viereck erkennen und benennen – im Formen-Museum mit Pip. Kostenlos online, ohne Anmeldung.",
       "fr": "Reconnaître et nommer les formes au musée de Pip : carré, triangle, cercle et plus encore. Gratuit, en ligne, sans inscription.",
-      "es": "Reconoce y nombra figuras planas —círculo, triángulo, cuadrado— en el museo de Pip. Juego gratis, interactivo, sin registro, alineado a los Planes y programas (SEP). Preescolar."
+      "es": "Reconoce y nombra figuras planas —círculo, triángulo, cuadrado— en el museo de Pip. Juego gratis, interactivo, sin registro, alineado a los Planes y programas (SEP). Preescolar.",
+      "pt": "Reconheça e nomeie figuras planas — círculo, quadrado, triângulo — no museu do Professor Pip! Atividade grátis, sem cadastro, alinhada à BNCC, para o 1º ano."
     },
     "kid_prompt_template": "curate-wing"
   }

@@ -3176,6 +3176,29 @@
         "Eu uso as famílias de fatos e sei que somar e subtrair são o contrário um do outro.",
         "Eu entendo que o sinal de igual quer dizer que os dois lados valem a mesma coisa."
       ]
+    },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "O duende gêmeo juntou uma pilhinha de bolotas e agora quer um \"gêmeo\" para ela. Só que gêmeo, aqui, não é a mesma figura — é a mesma quantidade! Primeiro a criança conta a pilha do duende tocando cada bolota uma vez (um toque, uma bolota, um número) e, depois, monta no próprio prato uma coleção com a mesma quantidade. Quando as duas têm o mesmo número, elas são gêmeas.",
+        "A ideia central é simples e poderosa: \"gêmeo\" quer dizer a mesma quantidade, mesmo que o arranjo seja diferente. A criança conta quantas são e depois separa exatamente aquela quantidade — e percebe que o número não muda com a arrumação. Uma fila, um monte espalhado, um campo espaçado ou até o numeral escrito guardam a mesma quantidade, desde que o número seja o mesmo. É assim que a criança começa a entender que contar é sempre confiável, não importa o formato.",
+        "A atividade é gratuita e não pede cadastro. Não há cronômetro, pontuação nem competição — só um ritmo calmo e acolhedor, em que errar faz parte de aprender e a criança pode tentar quantas vezes quiser. Ela está alinhada à BNCC e trabalha, no 1º ano, a unidade temática \"Números\"."
+      ],
+      "practices": [
+        "Contar uma coleção com cuidado, tocando cada coisa uma única vez.",
+        "Construir você mesmo uma coleção com a mesma quantidade da outra.",
+        "Perceber que a mesma quantidade continua sendo a mesma em outro arranjo.",
+        "Comparar a quantidade entre fila, monte espalhado, campo e numeral escrito."
+      ],
+      "howToPlay": [
+        "Toque nas bolotas do duende, uma por uma, e conte quantas são.",
+        "Faça no seu prato a mesma quantidade — a forma pode ser diferente, só o número precisa bater.",
+        "Quando as duas coleções tiverem a mesma quantidade, vocês dizem juntos: \"Somos gêmeos!\""
+      ],
+      "learningGoals": [
+        "Eu conto uma coleção tocando cada coisa uma vez.",
+        "Eu faço outra coleção com a mesma quantidade.",
+        "Eu sei que a quantidade não muda quando eu arrumo de outro jeito."
+      ]
     }
   }
 }

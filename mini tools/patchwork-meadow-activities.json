@@ -28,19 +28,22 @@
       "en": "sprouts-patchwork-meadow-area",
       "de": "flaeche-auslegen-einheitsquadrate-klasse-3",
       "fr": "aire-recouvrir-un-parterre-de-carreaux-cm1",
-      "es": "medir-el-area-cubriendo-con-cuadros-tercer-grado"
+      "es": "medir-el-area-cubriendo-con-cuadros-tercer-grado",
+      "pt": "medir-area-cobrir-com-quadradinhos-canteiros-4-ano"
     },
     "page_title": {
       "en": "Sprout's Patchwork Meadow — Measure Area by Covering with Unit Squares (Grade 3)",
       "de": "Flächeninhalt durch Auslegen – Klasse 3 | mit Sprout",
       "fr": "Aire : recouvrir un parterre de carreaux de mousse - CM1",
-      "es": "Mide el área cubriendo con cuadros unidad (tercer grado)"
+      "es": "Mide el área cubriendo con cuadros unidad (tercer grado)",
+      "pt": "Medir área com quadradinhos: os canteiros do Sprout — 4º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Sprout the gardener carpet irregular flower beds completely with moss-patch unit squares — no gaps, no overlaps — and the area is the count of squares it takes to cover the space. The beds are L-shapes and staircases, so there is no length to multiply by a width: children measure area the real way, by covering the space with unit squares and counting them. Cover from empty, fix a covering with a gap and an overlap, predict an area, finish a partial bed, and build a bed of an exact size. Common Core 3.MD.C.6 (also 3.MD.C.5).",
       "de": "Miss den Flächeninhalt, indem du Blumenbeete mit Einheitsquadraten auslegst – kostenlos & interaktiv für Klasse 3. Hilf dem Hasen Sprout beim Auslegen!",
       "fr": "Sprout le lapin jardinier recouvre ses parterres de carreaux de mousse : votre enfant compte les carreaux pour trouver l'aire. Une activité gratuite et interactive de CM1, à découvrir dès maintenant !",
-      "es": "Cubre con cuadros los jardines irregulares y cuenta para medir el área: actividad de matemáticas gratis, interactiva y sin registro, alineada al plan de la SEP."
+      "es": "Cubre con cuadros los jardines irregulares y cuenta para medir el área: actividad de matemáticas gratis, interactiva y sin registro, alineada al plan de la SEP.",
+      "pt": "Ajude o coelho Sprout a medir a área dos canteiros cobrindo cada um com quadradinhos de musgo, sem buraco e sem sobrepor. Atividade grátis, sem cadastro. BNCC, 4º ano."
     },
     "kid_prompt_template": "area-cover"
   }

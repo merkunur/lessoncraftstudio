@@ -25,8 +25,8 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US'))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : (LANG === 'pt' ? 'pt-BR' : LANG)), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'pt' ? 'pt-BR' : 'en-US')))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -35,18 +35,18 @@
     id: 'vet-diagnosis-activity',
 
     strings: {
-      title: { en: "Vet's Diagnosis Window", de: 'Beim Tierarzt', fr: 'Chez le vétérinaire', es: 'En el veterinario' },
-      instruction: { en: '', de: '', fr: '', es: '' },
-      prompt: { en: 'Solve the story.', de: 'Rechne die Geschichte aus.', fr: 'Résous l’histoire.', es: 'Resuelve la historia.' },
-      diagnose: { en: 'Diagnose 🩺', de: 'Diagnose 🩺', fr: 'Diagnostiquer 🩺', es: '¡Diagnostica! 🩺' },
-      replay: { en: '🔊 Read again', de: '🔊 Nochmal hören', fr: '🔊 Réécouter', es: '🔊 Escúchalo otra vez' },
-      sayWelcome: { en: 'A patient needs you! Show me what happened.', de: 'Ein Patient braucht dich! Zeig mir, was passiert ist.', fr: 'Un patient a besoin de toi ! Montre-moi ce qui s’est passé.', es: '¡Un paciente te necesita! Muéstrame qué pasó.' },
-      sayModel: { en: 'Put each number where it belongs. One spot is the mystery — mark it.', de: 'Leg jede Zahl an ihren Platz. Ein Platz ist das Rätsel – markier ihn.', fr: 'Mets chaque nombre à sa place. Une place est le mystère — marque-la.', es: 'Pon cada número en su lugar. Un lugar es el misterio: márcalo.' },
-      sayDial: { en: 'Now — how many? Dial it in!', de: 'Und jetzt – wie viele? Tipp es ein!', fr: 'Et maintenant — combien ? Compose le nombre !', es: 'Y ahora, ¿cuántos son? ¡Escríbelo!' },
-      sayWin: { en: 'All better! Thank you! 💚', de: 'Alles wieder gut! Danke! 💚', fr: 'Tout va mieux ! Merci ! 💚', es: '¡Ya está sano! ¡Gracias! 💚' },
-      sayWait: { en: "Hmm, let's look again.", de: 'Hmm, schauen wir nochmal.', fr: 'Hmm, regardons encore.', es: 'Mmm, miremos otra vez.' },
-      pickTile: { en: 'Now tap the spot where it belongs.', de: 'Jetzt tipp den Platz an, wo sie hingehört.', fr: 'Maintenant, touche la place où il va.', es: 'Ahora toca el lugar donde va.' },
-      hintCheck: { en: 'Place the numbers, mark the mystery, dial the answer.', de: 'Leg die Zahlen, markier das Rätsel, tipp die Antwort ein.', fr: 'Place les nombres, marque le mystère, compose la réponse.', es: 'Coloca los números, marca el misterio y escribe la respuesta.' }
+      title: { en: "Vet's Diagnosis Window", de: 'Beim Tierarzt', fr: 'Chez le vétérinaire', es: 'En el veterinario', pt: 'No veterinário' },
+      instruction: { en: '', de: '', fr: '', es: '', pt: '' },
+      prompt: { en: 'Solve the story.', de: 'Rechne die Geschichte aus.', fr: 'Résous l’histoire.', es: 'Resuelve la historia.', pt: 'Resolva a história.' },
+      diagnose: { en: 'Diagnose 🩺', de: 'Diagnose 🩺', fr: 'Diagnostiquer 🩺', es: '¡Diagnostica! 🩺', pt: 'Diagnosticar 🩺' },
+      replay: { en: '🔊 Read again', de: '🔊 Nochmal hören', fr: '🔊 Réécouter', es: '🔊 Escúchalo otra vez', pt: '🔊 Ouvir de novo' },
+      sayWelcome: { en: 'A patient needs you! Show me what happened.', de: 'Ein Patient braucht dich! Zeig mir, was passiert ist.', fr: 'Un patient a besoin de toi ! Montre-moi ce qui s’est passé.', es: '¡Un paciente te necesita! Muéstrame qué pasó.', pt: 'Um paciente precisa de você! Me mostra o que aconteceu.' },
+      sayModel: { en: 'Put each number where it belongs. One spot is the mystery — mark it.', de: 'Leg jede Zahl an ihren Platz. Ein Platz ist das Rätsel – markier ihn.', fr: 'Mets chaque nombre à sa place. Une place est le mystère — marque-la.', es: 'Pon cada número en su lugar. Un lugar es el misterio: márcalo.', pt: 'Coloque cada número no seu lugar. Um lugar é o mistério — marque!' },
+      sayDial: { en: 'Now — how many? Dial it in!', de: 'Und jetzt – wie viele? Tipp es ein!', fr: 'Et maintenant — combien ? Compose le nombre !', es: 'Y ahora, ¿cuántos son? ¡Escríbelo!', pt: 'E agora — quantos são? Escreva!' },
+      sayWin: { en: 'All better! Thank you! 💚', de: 'Alles wieder gut! Danke! 💚', fr: 'Tout va mieux ! Merci ! 💚', es: '¡Ya está sano! ¡Gracias! 💚', pt: 'Tudo curado! Obrigada! 💚' },
+      sayWait: { en: "Hmm, let's look again.", de: 'Hmm, schauen wir nochmal.', fr: 'Hmm, regardons encore.', es: 'Mmm, miremos otra vez.', pt: 'Hmm, vamos olhar de novo.' },
+      pickTile: { en: 'Now tap the spot where it belongs.', de: 'Jetzt tipp den Platz an, wo sie hingehört.', fr: 'Maintenant, touche la place où il va.', es: 'Ahora toca el lugar donde va.', pt: 'Agora toque no lugar certo.' },
+      hintCheck: { en: 'Place the numbers, mark the mystery, dial the answer.', de: 'Leg die Zahlen, markier das Rätsel, tipp die Antwort ein.', fr: 'Place les nombres, marque le mystère, compose la réponse.', es: 'Coloca los números, marca el misterio y escribe la respuesta.', pt: 'Coloque os números, marque o mistério e escreva a resposta.' }
     },
     defaults: {},
 
@@ -161,7 +161,7 @@
         if (b === '?') slot.textContent = '?';
         else if (b) { var t = self._tileById(b); slot.textContent = t ? t.value : ''; }
         else slot.textContent = '';
-        slot.setAttribute('aria-label', b === '?' ? (LANG === 'es' ? 'lugar misterioso' : (LANG === 'de' ? 'Rätselplatz' : (LANG === 'fr' ? 'place mystère' : 'mystery spot'))) : (b ? (LANG === 'es' ? 'contiene ' : (LANG === 'de' ? 'enthält ' : (LANG === 'fr' ? 'contient ' : 'holds '))) + (self._tileById(b) || {}).value : (LANG === 'es' ? 'lugar vacío: toca para colocar un número o marcar el misterio' : (LANG === 'de' ? 'leerer Platz – tippe, um eine Zahl zu legen oder das Rätsel zu markieren' : (LANG === 'fr' ? 'place vide — touche pour poser un nombre ou marquer le mystère' : 'empty spot — tap to place a number or mark the mystery')))));
+        slot.setAttribute('aria-label', b === '?' ? (LANG === 'es' ? 'lugar misterioso' : (LANG === 'de' ? 'Rätselplatz' : (LANG === 'fr' ? 'place mystère' : (LANG === 'pt' ? 'lugar misterioso' : 'mystery spot')))) : (b ? (LANG === 'es' ? 'contiene ' : (LANG === 'de' ? 'enthält ' : (LANG === 'fr' ? 'contient ' : (LANG === 'pt' ? 'contém ' : 'holds ')))) + (self._tileById(b) || {}).value : (LANG === 'es' ? 'lugar vacío: toca para colocar un número o marcar el misterio' : (LANG === 'de' ? 'leerer Platz – tippe, um eine Zahl zu legen oder das Rätsel zu markieren' : (LANG === 'fr' ? 'place vide — touche pour poser un nombre ou marquer le mystère' : (LANG === 'pt' ? 'lugar vazio: toque para colocar um número ou marcar o mistério' : 'empty spot — tap to place a number or mark the mystery'))))));
         if (!self.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
         cell.appendChild(slot);
         if (opGlyph) { var g = api.el('span', 'vd-op'); g.textContent = opGlyph; g.setAttribute('aria-hidden', 'true'); cell.insertBefore(g, cell.firstChild); }
@@ -199,7 +199,7 @@
       var slot = api.el('button', 'vd-slot vd-barslot' + (b === '?' ? ' vd-unknown' : (b ? ' vd-filled' : ' vd-empty')));
       slot.type = 'button'; slot.setAttribute('data-role', role);
       slot.textContent = b === '?' ? '?' : (b ? ((this._tileById(b) || {}).value) : '');
-      slot.setAttribute('aria-label', b === '?' ? (LANG === 'es' ? 'lugar misterioso' : (LANG === 'de' ? 'Rätselplatz' : (LANG === 'fr' ? 'place mystère' : 'mystery spot'))) : (b ? (LANG === 'es' ? 'contiene ' : (LANG === 'de' ? 'enthält ' : (LANG === 'fr' ? 'contient ' : 'holds '))) + ((this._tileById(b) || {}).value) : (LANG === 'es' ? 'lugar vacío' : (LANG === 'de' ? 'leerer Platz' : (LANG === 'fr' ? 'place vide' : 'empty spot')))));
+      slot.setAttribute('aria-label', b === '?' ? (LANG === 'es' ? 'lugar misterioso' : (LANG === 'de' ? 'Rätselplatz' : (LANG === 'fr' ? 'place mystère' : (LANG === 'pt' ? 'lugar misterioso' : 'mystery spot')))) : (b ? (LANG === 'es' ? 'contiene ' : (LANG === 'de' ? 'enthält ' : (LANG === 'fr' ? 'contient ' : (LANG === 'pt' ? 'contém ' : 'holds ')))) + ((this._tileById(b) || {}).value) : (LANG === 'es' ? 'lugar vacío' : (LANG === 'de' ? 'leerer Platz' : (LANG === 'fr' ? 'place vide' : (LANG === 'pt' ? 'lugar vazio' : 'empty spot'))))));
       if (!this.solved) slot.addEventListener('click', function () { self._tapSlot(role); });
       row.appendChild(track); row.appendChild(slot);
       return row;
@@ -217,7 +217,7 @@
         var sel = (self._selected === id);
         var b = api.el('button', 'vd-tile' + (sel ? ' vd-sel' : '')); b.type = 'button'; b.setAttribute('data-id', id);
         b.textContent = t.value;
-        b.setAttribute('aria-label', (LANG === 'es' ? 'número ' : (LANG === 'de' ? 'Zahl ' : (LANG === 'fr' ? 'nombre ' : 'number '))) + t.value);
+        b.setAttribute('aria-label', (LANG === 'es' ? 'número ' : (LANG === 'de' ? 'Zahl ' : (LANG === 'fr' ? 'nombre ' : (LANG === 'pt' ? 'número ' : 'number ')))) + t.value);
         b.addEventListener('click', function () { self._tapTile(id); });
         tray.appendChild(b);
       });
@@ -236,7 +236,7 @@
       if (r.diagram === 'change') eq = val('start') + ' ' + (r.op === 'sub' ? '−' : '+') + ' ' + val('change') + ' = ' + val('result');
       else if (r.diagram === 'bracket') eq = val('partA') + ' + ' + val('partB') + ' = ' + val('whole');
       else eq = val('smaller') + ' + ' + val('difference') + ' = ' + val('bigger');   /* compare: smaller + difference = bigger */
-      var box = api.el('div', 'vd-recap'); box.textContent = eq; box.setAttribute('aria-label', (LANG === 'es' ? 'tu modelo: ' : (LANG === 'de' ? 'dein Modell: ' : (LANG === 'fr' ? 'ton modèle : ' : 'your model: '))) + eq);
+      var box = api.el('div', 'vd-recap'); box.textContent = eq; box.setAttribute('aria-label', (LANG === 'es' ? 'tu modelo: ' : (LANG === 'de' ? 'dein Modell: ' : (LANG === 'fr' ? 'ton modèle : ' : (LANG === 'pt' ? 'seu modelo: ' : 'your model: ')))) + eq);
       parent.appendChild(box);
     },
 

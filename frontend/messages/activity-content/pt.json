@@ -2783,6 +2783,31 @@
         "Eu consigo reconhecer uma figura mesmo quando ela está virada ou de outro tamanho.",
         "Eu sei diferenciar um quadrado de um retângulo e de um losango."
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "No pátio de manobras do trenzinho Chuffer, um carregamento de caixas acaba de chegar e precisa ser separado em dois vagões: o azul e o vermelho. A criança empurra as caixas de um vagão para o outro, diz em voz alta como ficou a divisão — “5 é 2 e 3” — e puxa o engate para registrar aquela forma no caderno de rotas. A cada engate, uma nova maneira de dividir a mesma carga fica anotada.",
+        "A grande ideia é a decomposição: um mesmo número pode ser dividido em duas partes de muitos jeitos diferentes e continua sendo o mesmo número. O 5, por exemplo, é 1 e 4, é 2 e 3, é 0 e 5 — e em todas as formas ele continua valendo 5. É o todo e as partes: o todo (a carga inteira) se abre em partes, e as partes se juntam de volta no todo. A criança procura todas as maneiras possíveis, descobre os “amigos do dez” (as duplas que formam 10) e percebe que 2 e 3 é a mesma coisa que 3 e 2 — só muda a ordem dos vagões, a carga é a mesma.",
+        "A atividade é gratuita, sem cadastro, sem cronômetro e sem pontuação — só a criança, as caixas e o tempo dela para explorar. O conteúdo é alinhado à BNCC, na unidade temática Números, trabalhando a composição e a decomposição de números. Compor e decompor é a base que, mais adiante, sustenta a adição e a subtração com segurança."
+      ],
+      "practices": [
+        "Decompor um número até 10 em duas partes usando materiais manipuláveis (as caixas nos vagões).",
+        "Encontrar todas as formas possíveis de dividir a mesma carga entre o vagão azul e o vermelho.",
+        "Dizer em voz alta cada decomposição: “5 é 2 e 3”.",
+        "Reconhecer que 2 e 3 é o mesmo que 3 e 2 — a ordem muda, o total não.",
+        "Descobrir os amigos do dez, as duplas de partes que compõem o número 10."
+      ],
+      "howToPlay": [
+        "Empurre as caixas entre o vagão azul e o vagão vermelho até dividir a carga do jeito que quiser.",
+        "Diga quantas caixas ficaram em cada vagão e puxe o engate para registrar essa forma.",
+        "Continue procurando: descubra todas as maneiras de separar a mesma carga em duas partes."
+      ],
+      "learningGoals": [
+        "Eu consigo decompor um número até 10 em duas partes.",
+        "Eu sei dizer cada forma em voz alta, como “5 é 2 e 3”.",
+        "Eu consigo encontrar todas as maneiras de dividir a mesma carga.",
+        "Eu sei que o todo continua o mesmo, não importa como eu separo as partes."
+      ]
     }
   }
 }

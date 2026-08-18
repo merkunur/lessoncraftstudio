@@ -631,7 +631,7 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Sélectionne au moins 1 image commençant par la lettre {letter}.",
     "letterSpottingInstruction": "Trouve toutes les images qui commencent par la lettre {letter}.",
     "more": "plus",
-    "runtimeTitle": "Trouve et Compte"
+    "runtimeTitle": "Trouve et compte"
   },
   "es": {
     "exportToCatalog": "Exportar al catálogo",
@@ -829,7 +829,7 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Selecciona al menos 1 imagen que empiece con la letra {letter}.",
     "letterSpottingInstruction": "Encuentra todas las imágenes que empiezan con la letra {letter}.",
     "more": "más",
-    "runtimeTitle": "Encuentra y Cuenta"
+    "runtimeTitle": "Encuentra y cuenta"
   },
   "it": {
     "exportToCatalog": "Esporta nel catalogo",
@@ -1026,7 +1026,7 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Seleziona almeno 1 immagine che inizia con la lettera {letter}.",
     "letterSpottingInstruction": "Trova tutte le immagini che iniziano con la lettera {letter}.",
     "more": "altro",
-    "runtimeTitle": "Trova e Conta"
+    "runtimeTitle": "Trova e conta"
   },
   "pt": {
     "exportToCatalog": "Exportar para o catálogo",
@@ -1620,7 +1620,7 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Välj minst 1 bild som börjar med bokstaven {letter}.",
     "letterSpottingInstruction": "Hitta alla bilder som börjar med bokstaven {letter}.",
     "more": "mer",
-    "runtimeTitle": "Hitta och Räkna"
+    "runtimeTitle": "Hitta och räkna"
   },
   "da": {
     "exportToCatalog": "Eksporter til kataloget",
@@ -2016,7 +2016,7 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Velg minst 1 bilde som begynner med bokstaven {letter}.",
     "letterSpottingInstruction": "Finn alle bildene som begynner med bokstaven {letter}.",
     "more": "mer",
-    "runtimeTitle": "Finn og Tell"
+    "runtimeTitle": "Finn og tell"
   },
   "fi": {
     "exportToCatalog": "Vie katalogiin",
@@ -2214,7 +2214,7 @@ const FIND_AND_COUNT_TRANSLATIONS = {
     "pleaseSelectTargetImage": "Valitse vähintään 1 kuva, joka alkaa kirjaimella {letter}.",
     "letterSpottingInstruction": "Etsi kaikki kuvat, jotka alkavat kirjaimella {letter}.",
     "more": "lisää",
-    "runtimeTitle": "Etsi ja Laske"
+    "runtimeTitle": "Etsi ja laske"
   }
 };
 

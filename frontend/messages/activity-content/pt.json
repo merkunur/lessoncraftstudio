@@ -2946,6 +2946,29 @@
         "Eu conto um a um para conferir",
         "Eu vejo se tinha mais ou menos do que eu pensei"
       ]
+    },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "O Pip, o ratinho carteiro, saiu bem cedinho para entregar as cartas do bairro. Cada carta tem um número escrito no envelope. A criança lê esse número (ou ouve) e toca na casa que tem o número certo para o Pip fazer a entrega. Aí um vizinho feliz — uma coruja, um gato, um sapo — aparece na janela para agradecer.",
+        "A brincadeira ajuda a criança a ler e reconhecer os números escritos de 0 a 20. O número da casa é um jeito de identificar cada uma — funciona como um \"código\", igual ao número da sua casa de verdade. E tem um detalhe importante: prestar atenção na posição do algarismo, porque 13 não é a mesma coisa que 31!",
+        "É de graça, sem cadastro, sem cronômetro e sem pontuação — só o prazer de entregar cada carta no lugar certo. A atividade está alinhada à BNCC, na unidade temática Números, e serve de base para a criança ler e escrever números com segurança."
+      ],
+      "practices": [
+        "Ler o número escrito no envelope",
+        "Reconhecer o mesmo número na casa",
+        "Entregar a carta na casa certa",
+        "Diferenciar números parecidos, como 13 e 31, pela posição do algarismo"
+      ],
+      "howToPlay": [
+        "Veja (ou ouça) o número que está na carta",
+        "Ache a casa que tem o mesmo número",
+        "Toque na casa para o Pip entregar a carta"
+      ],
+      "learningGoals": [
+        "Eu leio o número escrito na carta",
+        "Eu acho a casa com o mesmo número",
+        "Eu sei que 13 e 31 são diferentes pela posição do algarismo"
+      ]
     }
   }
 }

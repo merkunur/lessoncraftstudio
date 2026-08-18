@@ -31,13 +31,15 @@
   var WORDS_DE = { 0: 'null', 1: 'eins', 2: 'zwei', 3: 'drei', 4: 'vier', 5: 'fünf', 6: 'sechs', 7: 'sieben', 8: 'acht', 9: 'neun', 10: 'zehn' };
   var WORDS_FR = { 0: 'zéro', 1: 'un', 2: 'deux', 3: 'trois', 4: 'quatre', 5: 'cinq', 6: 'six', 7: 'sept', 8: 'huit', 9: 'neuf', 10: 'dix' };
   var WORDS_ES = { 0: 'cero', 1: 'uno', 2: 'dos', 3: 'tres', 4: 'cuatro', 5: 'cinco', 6: 'seis', 7: 'siete', 8: 'ocho', 9: 'nueve', 10: 'diez' };
+  /* Brazilian Portuguese — masculine-abstract cardinals (a number is masc: "cinco é mais que três"). */
+  var WORDS_PT = { 0: 'zero', 1: 'um', 2: 'dois', 3: 'três', 4: 'quatro', 5: 'cinco', 6: 'seis', 7: 'sete', 8: 'oito', 9: 'nove', 10: 'dez' };
   var LANG = 'en';
-  function numWord(n) { return (LANG === 'es' ? WORDS_ES : (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : WORDS)))[n]; }
+  function numWord(n) { return (LANG === 'es' ? WORDS_ES : (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : (LANG === 'pt' ? WORDS_PT : WORDS))))[n]; }
 
   function speak(text) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : 'en-US'))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: (LANG === 'es' ? 'es-MX' : (LANG === 'pt' ? 'pt-BR' : LANG)), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'pt' ? 'pt-BR' : 'en-US')))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   /* Big & Bit — round fuzzball CHARACTERS (SVG stub for CA5). Big = teal, Bit = coral. */
@@ -67,40 +69,40 @@
     /* child-facing copy below uses MORE / FEWER / SAME words only — no inequality symbols */
     /* RELATION-WORDS-ONLY:strings */
     strings: {
-      title: { en: 'The Friendship Bridge', de: 'Die Freundschaftsbrücke', fr: 'Le pont de l’amitié', es: 'El puente de la amistad' },
-      instruction: { en: 'Compare two groups — more, fewer, or same.', de: 'Vergleiche zwei Gruppen — mehr, weniger oder gleich viel.', fr: 'Compare deux groupes — plus, moins ou pareil.', es: 'Compara dos grupos: más, menos o la misma cantidad.' },
-      prompt: { en: 'Who has more?', de: 'Wer hat mehr?', fr: 'Qui en a le plus ?', es: '¿Quién tiene más?' },
-      promptMoreQ: { en: 'Who has MORE?', de: 'Wer hat MEHR?', fr: 'Qui en a le PLUS ?', es: '¿Quién tiene MÁS?' },
-      promptFewerQ: { en: 'Who has FEWER?', de: 'Wer hat WENIGER?', fr: 'Qui en a le MOINS ?', es: '¿Quién tiene MENOS?' },
-      promptHowMany: { en: 'How many MORE?', de: 'Wie viele MEHR?', fr: 'Combien de PLUS ?', es: '¿Cuántos MÁS?' },
-      promptMakeEqual: { en: 'Make them the SAME!', de: 'Mach beide GLEICH VIEL!', fr: 'Fais-en AUTANT des deux côtés !', es: '¡Hazlos IGUALES!' },
-      promptBuildEqual: { en: 'Build a matching bunch!', de: 'Bau ein gleich großes Häufchen!', fr: 'Construis un groupe pareil !', es: '¡Arma un montón igual de grande!' },
-      promptPredict: { en: 'Guess: who has more?', de: 'Schätze: Wer hat mehr?', fr: 'Devine : qui en a le plus ?', es: 'Adivina: ¿quién tiene más?' },
-      bigName: { en: 'Big', de: 'Big', fr: 'Big', es: 'Big' },
-      bitName: { en: 'Bit', de: 'Bit', fr: 'Bit', es: 'Bit' },
-      same: { en: 'Same', de: 'Gleich viel', fr: 'Pareil', es: 'Igual' },
-      hintIdle: { en: 'Tap one friend, then a friend on the other side, to make a pair!', de: 'Tippe einen Freund an, dann einen auf der anderen Seite, um ein Paar zu bilden!', fr: 'Touche un ami, puis un ami de l’autre côté, pour faire une paire !', es: '¡Toca un amigo y luego uno del otro lado para hacer una pareja!' },
-      hintPredict: { en: 'No counting yet — what does your eye say?', de: 'Noch nicht zählen — was sagt dein Auge?', fr: 'Pas encore de comptage — que dit ton œil ?', es: 'No cuentes todavía… ¿qué te dicen tus ojos?' },
-      hintCount: { en: 'Tap each friend to count them — then say who has more!', de: 'Tippe jeden Freund an, um zu zählen — dann sag, wer mehr hat!', fr: 'Touche chaque ami pour le compter — puis dis qui en a le plus !', es: 'Toca cada amigo para contar… ¡y di quién tiene más!' },
-      hintBuild: { en: 'Add a friend to the lonely bunch until everyone has a buddy.', de: 'Gib dem einsamen Häufchen Freunde dazu, bis jeder einen Partner hat.', fr: 'Ajoute des amis au petit groupe jusqu’à ce que chacun ait un copain.', es: 'Dale más amigos al montón solito hasta que todos tengan pareja.' },
-      hintHowMany: { en: 'How many friends are left with no buddy?', de: 'Wie viele Freunde haben keinen Partner?', fr: 'Combien d’amis n’ont pas de copain ?', es: '¿Cuántos amigos se quedaron sin pareja?' },
-      hintCheck: { en: 'Pair up the friends, then say MORE, FEWER, or SAME!', de: 'Finde die Partner, dann sag MEHR, WENIGER oder GLEICH VIEL!', fr: 'Forme les paires, puis dis PLUS, MOINS ou PAREIL !', es: 'Encuentra las parejas y luego di MÁS, MENOS o LA MISMA CANTIDAD.' },
-      buddy: { en: 'buddies!', de: 'Partner!', fr: 'copains !', es: '¡Pareja!' },
-      addFriend: { en: 'Add a friend', de: 'Freund dazu', fr: 'Ajouter un ami', es: 'Agregar amigo' },
-      takeBack: { en: 'Undo', de: 'Zurück', fr: 'Annuler', es: 'Quitar' },
-      countTally: { en: '{name}: {n}', de: '{name}: {n}', fr: '{name} : {n}', es: '{name}: {n}' },
-      askHowManyMore: { en: 'How many MORE does {name} have?', de: 'Wie viele MEHR hat {name}?', fr: 'Combien de PLUS a {name} ?', es: '¿Cuántos MÁS tiene {name}?' },
-      revealMore: { en: 'Yes! {big} has MORE — {bigN} is more than {smallN}!', de: 'Ja! {big} hat MEHR — {bigN} ist mehr als {smallN}!', fr: 'Oui ! {big} en a PLUS — {bigN}, c’est plus que {smallN} !', es: '¡Sí! {big} tiene MÁS: ¡{bigN} es más que {smallN}!' },
-      revealFewer: { en: 'Yes! {small} has FEWER — {smallN} is fewer than {bigN}!', de: 'Ja! {small} hat WENIGER — {smallN} ist weniger als {bigN}!', fr: 'Oui ! {small} en a MOINS — {smallN}, c’est moins que {bigN} !', es: '¡Sí! {small} tiene MENOS: ¡{smallN} es menos que {bigN}!' },
-      revealSame: { en: 'They are the SAME — both have {n}! The bunch just looked different.', de: 'Gleich viel! Beide haben {n}. Die Häufchen sahen nur anders aus.', fr: 'C’est PAREIL — les deux en ont {n} ! Le groupe avait juste l’air différent.', es: '¡La misma cantidad! Los dos tienen {n}. Los montones solo se veían diferentes.' },
-      revealHowMany: { en: 'Right! {big} has {d} more — {d} friend(s) with no buddy.', de: 'Richtig! {big} hat {d} mehr — {d} ohne Partner.', fr: 'Bravo ! {big} en a {d} de plus — {d} ami(s) sans copain.', es: '¡Correcto! {big} tiene {d} más: ¡{d} sin pareja!' },
-      revealBust: { en: 'Surprise! The short little bunch had more. ', de: 'Überraschung! Das kleine Häufchen hatte mehr. ', fr: 'Surprise ! C’est le petit groupe qui en avait le plus. ', es: '¡Sorpresa! El montón chiquito en realidad tenía más. ' },
-      reSpread: { en: "Tricky! It LOOKED like more — let's give everyone a buddy and see.", de: 'Knifflig! Das SAH nach mehr aus — geben wir jedem einen Partner und schauen nach!', fr: 'Malin ! On DIRAIT qu’il y en a plus — donnons un copain à chacun pour voir.', es: '¡Tramposo! Eso PARECÍA más… ¡démosle pareja a todos y revisemos!' },
-      reJudge: { en: "Let's pair them up first — then we will know for sure!", de: 'Finde erst die Partner — dann wissen wir es ganz sicher!', fr: 'Formons d’abord les paires — après on saura à coup sûr !', es: 'Primero encuentra las parejas… ¡así lo sabremos seguro!' },
-      reBuild: { en: 'Not the same yet — keep adding until everyone has a buddy.', de: 'Noch nicht gleich viel — leg noch dazu, bis jeder einen Partner hat.', fr: 'Pas encore pareil — continue d’ajouter jusqu’à ce que chacun ait un copain.', es: 'Todavía no son iguales… agrega más hasta que todos tengan pareja.' },
-      reHowMany: { en: 'Count again — how many friends have no buddy?', de: 'Zähl noch mal — wie viele Freunde haben keinen Partner?', fr: 'Compte encore — combien d’amis n’ont pas de copain ?', es: 'Cuenta otra vez: ¿cuántos amigos se quedaron sin pareja?' },
-      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf „Prüfen"! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca «Revisar»! ✓' },
-      guessLead: { en: 'Your guess:', de: 'Deine Schätzung:', fr: 'Ta devinette :', es: 'Tu adivinanza:' }
+      title: { en: 'The Friendship Bridge', de: 'Die Freundschaftsbrücke', fr: 'Le pont de l’amitié', es: 'El puente de la amistad', pt: 'A Ponte da Amizade' },
+      instruction: { en: 'Compare two groups — more, fewer, or same.', de: 'Vergleiche zwei Gruppen — mehr, weniger oder gleich viel.', fr: 'Compare deux groupes — plus, moins ou pareil.', es: 'Compara dos grupos: más, menos o la misma cantidad.', pt: 'Compare dois grupos: mais, menos ou igual.' },
+      prompt: { en: 'Who has more?', de: 'Wer hat mehr?', fr: 'Qui en a le plus ?', es: '¿Quién tiene más?', pt: 'Quem tem mais?' },
+      promptMoreQ: { en: 'Who has MORE?', de: 'Wer hat MEHR?', fr: 'Qui en a le PLUS ?', es: '¿Quién tiene MÁS?', pt: 'Quem tem MAIS?' },
+      promptFewerQ: { en: 'Who has FEWER?', de: 'Wer hat WENIGER?', fr: 'Qui en a le MOINS ?', es: '¿Quién tiene MENOS?', pt: 'Quem tem MENOS?' },
+      promptHowMany: { en: 'How many MORE?', de: 'Wie viele MEHR?', fr: 'Combien de PLUS ?', es: '¿Cuántos MÁS?', pt: 'Quantos a MAIS?' },
+      promptMakeEqual: { en: 'Make them the SAME!', de: 'Mach beide GLEICH VIEL!', fr: 'Fais-en AUTANT des deux côtés !', es: '¡Hazlos IGUALES!', pt: 'Deixe os dois IGUAIS!' },
+      promptBuildEqual: { en: 'Build a matching bunch!', de: 'Bau ein gleich großes Häufchen!', fr: 'Construis un groupe pareil !', es: '¡Arma un montón igual de grande!', pt: 'Monte um montinho igual!' },
+      promptPredict: { en: 'Guess: who has more?', de: 'Schätze: Wer hat mehr?', fr: 'Devine : qui en a le plus ?', es: 'Adivina: ¿quién tiene más?', pt: 'Adivinhe: quem tem mais?' },
+      bigName: { en: 'Big', de: 'Big', fr: 'Big', es: 'Big', pt: 'Big' },
+      bitName: { en: 'Bit', de: 'Bit', fr: 'Bit', es: 'Bit', pt: 'Bit' },
+      same: { en: 'Same', de: 'Gleich viel', fr: 'Pareil', es: 'Igual', pt: 'Igual' },
+      hintIdle: { en: 'Tap one friend, then a friend on the other side, to make a pair!', de: 'Tippe einen Freund an, dann einen auf der anderen Seite, um ein Paar zu bilden!', fr: 'Touche un ami, puis un ami de l’autre côté, pour faire une paire !', es: '¡Toca un amigo y luego uno del otro lado para hacer una pareja!', pt: 'Toque em um amiguinho e depois em um amiguinho do outro lado para formar um par!' },
+      hintPredict: { en: 'No counting yet — what does your eye say?', de: 'Noch nicht zählen — was sagt dein Auge?', fr: 'Pas encore de comptage — que dit ton œil ?', es: 'No cuentes todavía… ¿qué te dicen tus ojos?', pt: 'Ainda não conte — o que o seu olho diz?' },
+      hintCount: { en: 'Tap each friend to count them — then say who has more!', de: 'Tippe jeden Freund an, um zu zählen — dann sag, wer mehr hat!', fr: 'Touche chaque ami pour le compter — puis dis qui en a le plus !', es: 'Toca cada amigo para contar… ¡y di quién tiene más!', pt: 'Toque em cada amiguinho para contar e depois diga quem tem mais!' },
+      hintBuild: { en: 'Add a friend to the lonely bunch until everyone has a buddy.', de: 'Gib dem einsamen Häufchen Freunde dazu, bis jeder einen Partner hat.', fr: 'Ajoute des amis au petit groupe jusqu’à ce que chacun ait un copain.', es: 'Dale más amigos al montón solito hasta que todos tengan pareja.', pt: 'Adicione um amiguinho ao montinho sozinho até todos terem par.' },
+      hintHowMany: { en: 'How many friends are left with no buddy?', de: 'Wie viele Freunde haben keinen Partner?', fr: 'Combien d’amis n’ont pas de copain ?', es: '¿Cuántos amigos se quedaron sin pareja?', pt: 'Quantos amiguinhos ficaram sem par?' },
+      hintCheck: { en: 'Pair up the friends, then say MORE, FEWER, or SAME!', de: 'Finde die Partner, dann sag MEHR, WENIGER oder GLEICH VIEL!', fr: 'Forme les paires, puis dis PLUS, MOINS ou PAREIL !', es: 'Encuentra las parejas y luego di MÁS, MENOS o LA MISMA CANTIDAD.', pt: 'Forme os pares e depois diga MAIS, MENOS ou IGUAL!' },
+      buddy: { en: 'buddies!', de: 'Partner!', fr: 'copains !', es: '¡Pareja!', pt: 'pares!' },
+      addFriend: { en: 'Add a friend', de: 'Freund dazu', fr: 'Ajouter un ami', es: 'Agregar amigo', pt: 'Adicionar amiguinho' },
+      takeBack: { en: 'Undo', de: 'Zurück', fr: 'Annuler', es: 'Quitar', pt: 'Desfazer' },
+      countTally: { en: '{name}: {n}', de: '{name}: {n}', fr: '{name} : {n}', es: '{name}: {n}', pt: '{name}: {n}' },
+      askHowManyMore: { en: 'How many MORE does {name} have?', de: 'Wie viele MEHR hat {name}?', fr: 'Combien de PLUS a {name} ?', es: '¿Cuántos MÁS tiene {name}?', pt: 'Quantos a MAIS {name} tem?' },
+      revealMore: { en: 'Yes! {big} has MORE — {bigN} is more than {smallN}!', de: 'Ja! {big} hat MEHR — {bigN} ist mehr als {smallN}!', fr: 'Oui ! {big} en a PLUS — {bigN}, c’est plus que {smallN} !', es: '¡Sí! {big} tiene MÁS: ¡{bigN} es más que {smallN}!', pt: 'Isso! {big} tem MAIS — {bigN} é mais que {smallN}!' },
+      revealFewer: { en: 'Yes! {small} has FEWER — {smallN} is fewer than {bigN}!', de: 'Ja! {small} hat WENIGER — {smallN} ist weniger als {bigN}!', fr: 'Oui ! {small} en a MOINS — {smallN}, c’est moins que {bigN} !', es: '¡Sí! {small} tiene MENOS: ¡{smallN} es menos que {bigN}!', pt: 'Isso! {small} tem MENOS — {smallN} é menos que {bigN}!' },
+      revealSame: { en: 'They are the SAME — both have {n}! The bunch just looked different.', de: 'Gleich viel! Beide haben {n}. Die Häufchen sahen nur anders aus.', fr: 'C’est PAREIL — les deux en ont {n} ! Le groupe avait juste l’air différent.', es: '¡La misma cantidad! Los dos tienen {n}. Los montones solo se veían diferentes.', pt: 'São IGUAIS — os dois têm {n}! O montinho só parecia diferente.' },
+      revealHowMany: { en: 'Right! {big} has {d} more — {d} friend(s) with no buddy.', de: 'Richtig! {big} hat {d} mehr — {d} ohne Partner.', fr: 'Bravo ! {big} en a {d} de plus — {d} ami(s) sans copain.', es: '¡Correcto! {big} tiene {d} más: ¡{d} sin pareja!', pt: 'Certo! {big} tem {d} a mais — {d} amiguinho(s) sem par.' },
+      revealBust: { en: 'Surprise! The short little bunch had more. ', de: 'Überraschung! Das kleine Häufchen hatte mehr. ', fr: 'Surprise ! C’est le petit groupe qui en avait le plus. ', es: '¡Sorpresa! El montón chiquito en realidad tenía más. ', pt: 'Surpresa! O montinho baixinho tinha mais. ' },
+      reSpread: { en: "Tricky! It LOOKED like more — let's give everyone a buddy and see.", de: 'Knifflig! Das SAH nach mehr aus — geben wir jedem einen Partner und schauen nach!', fr: 'Malin ! On DIRAIT qu’il y en a plus — donnons un copain à chacun pour voir.', es: '¡Tramposo! Eso PARECÍA más… ¡démosle pareja a todos y revisemos!', pt: 'Que truque! PARECIA mais — vamos dar um par para cada um e ver.' },
+      reJudge: { en: "Let's pair them up first — then we will know for sure!", de: 'Finde erst die Partner — dann wissen wir es ganz sicher!', fr: 'Formons d’abord les paires — après on saura à coup sûr !', es: 'Primero encuentra las parejas… ¡así lo sabremos seguro!', pt: 'Vamos formar os pares primeiro — aí teremos certeza!' },
+      reBuild: { en: 'Not the same yet — keep adding until everyone has a buddy.', de: 'Noch nicht gleich viel — leg noch dazu, bis jeder einen Partner hat.', fr: 'Pas encore pareil — continue d’ajouter jusqu’à ce que chacun ait un copain.', es: 'Todavía no son iguales… agrega más hasta que todos tengan pareja.', pt: 'Ainda não estão iguais — continue adicionando até todos terem par.' },
+      reHowMany: { en: 'Count again — how many friends have no buddy?', de: 'Zähl noch mal — wie viele Freunde haben keinen Partner?', fr: 'Compte encore — combien d’amis n’ont pas de copain ?', es: 'Cuenta otra vez: ¿cuántos amigos se quedaron sin pareja?', pt: 'Conte de novo — quantos amiguinhos estão sem par?' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf „Prüfen"! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca «Revisar»! ✓', pt: 'Toque em Verificar! ✓' },
+      guessLead: { en: 'Your guess:', de: 'Deine Schätzung:', fr: 'Ta devinette :', es: 'Tu adivinanza:', pt: 'Seu palpite:' }
     },
     /* :strings */
     defaults: {},
@@ -199,7 +201,9 @@
           ? ('Freund von ' + (side === 'left' ? 'Big' : 'Bit') + (paired ? ', hat einen Partner' : ''))
           : (LANG === 'fr'
             ? ('ami de ' + (side === 'left' ? 'Big' : 'Bit') + (paired ? ', a un copain' : ''))
-            : ((side === 'left' ? 'Big' : 'Bit') + ' friend' + (paired ? ', has a buddy' : '')))));
+            : (LANG === 'pt'
+              ? ('amiguinho do ' + (side === 'left' ? 'Big' : 'Bit') + (paired ? ', tem par' : ''))
+              : ((side === 'left' ? 'Big' : 'Bit') + ' friend' + (paired ? ', has a buddy' : ''))))));
       if (interactive) b.addEventListener('click', function () { self._tapDisc(side, id); });
       return b;
     },
@@ -308,7 +312,9 @@
           ? (numWord(s.L.length) + ' und ' + numWord(s.R.length) + ' sind gleich viel')
           : (LANG === 'fr'
             ? (numWord(s.L.length) + ' et ' + numWord(s.R.length) + ', c’est pareil')
-            : (WORDS[s.L.length] + ' and ' + WORDS[s.R.length] + ' is the same')));
+            : (LANG === 'pt'
+              ? (numWord(s.L.length) + ' e ' + numWord(s.R.length) + ' são a mesma quantidade')
+              : (WORDS[s.L.length] + ' and ' + WORDS[s.R.length] + ' is the same'))));
       var big = rel === 'left' ? s.L.length : s.R.length, small = rel === 'left' ? s.R.length : s.L.length;
       return LANG === 'es'
         ? (numWord(big) + ' es más que ' + numWord(small))
@@ -316,7 +322,9 @@
           ? (numWord(big) + ' ist mehr als ' + numWord(small))
           : (LANG === 'fr'
             ? (numWord(big) + ' c’est plus que ' + numWord(small))
-            : (WORDS[big] + ' is more than ' + WORDS[small])));
+            : (LANG === 'pt'
+              ? (numWord(big) + ' é mais que ' + numWord(small))
+              : (WORDS[big] + ' is more than ' + WORDS[small]))));
     },
 
     /* ----- the see-saw beam: LOCKED FLAT (data-tip='') until solved ----- */

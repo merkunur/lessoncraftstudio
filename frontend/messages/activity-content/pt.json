@@ -2808,6 +2808,29 @@
         "Eu consigo encontrar todas as maneiras de dividir a mesma carga.",
         "Eu sei que o todo continua o mesmo, não importa como eu separo as partes."
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Na ponte da amizade, Big e Bit se encontram trazendo cada um um punhado de amiguinhos redondos e fofinhos — mas quem trouxe mais? Em vez de chutar no olho, a criança dá a cada amiguinho de Big um par do lado de Bit, um a um, atravessando a ponte; quem fica com um amiguinho sem par é quem tem mais.",
+        "A grande ideia é comparar quantidades fazendo pares, e não contando às pressas: fazendo os pares, a criança descobre sozinha quem tem mais, quem tem menos e quando os dois times estão iguais. E aqui o olho engana — uma fileira espalhada parece ter mais, mas, ao fazer os pares, a verdade aparece: a mesma quantidade continua a mesma, esteja espalhada ou juntinha num montinho. A criança também pode igualar os dois grupos, acrescentando amiguinhos ao montinho menor até dar par para todo mundo.",
+        "É de graça, sem cadastro, sem cronômetro e sem pontuação — só a criança, os amiguinhos e a ponte, no ritmo dela. A atividade está alinhada à BNCC, na unidade temática Números, trabalhando a comparação de quantidades (mais, menos e igual) — uma base tranquila para mais adiante contar e somar com segurança."
+      ],
+      "practices": [
+        "Comparar dois grupos de amiguinhos fazendo pares, um a um, na ponte.",
+        "Dizer qual lado tem mais, qual tem menos e quando os dois estão iguais.",
+        "Perceber que uma fileira espalhada não tem mais só por parecer maior — o olho engana, e os pares mostram a verdade.",
+        "Igualar os dois grupos acrescentando amiguinhos ao montinho menor até todos terem par."
+      ],
+      "howToPlay": [
+        "Dê a cada amiguinho de um lado um par do outro lado da ponte, um a um.",
+        "Veja se sobrou algum amiguinho sem par — esse lado é o que tem mais.",
+        "Diga em voz alta: mais, menos ou igual?"
+      ],
+      "learningGoals": [
+        "Eu consigo comparar dois grupos fazendo pares e descobrir quem tem mais.",
+        "Eu sei dizer mais, menos ou igual olhando para os amiguinhos que sobraram sem par.",
+        "Eu sei que o olho engana: uma fileira espalhada pode ter a mesma quantidade de um montinho juntinho."
+      ]
     }
   }
 }

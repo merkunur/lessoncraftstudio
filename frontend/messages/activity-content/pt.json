@@ -2525,6 +2525,29 @@
         "Compreender o valor posicional de unidades, dezenas e centenas.",
         "Ganhar segurança para operar com números até 1000 de cabeça."
       ]
+    },
+    "mending-fences.mend-board.3-md-d-8": {
+      "about": [
+        "O texugo Hazel cuida dos campos de uma pequena fazenda e vive consertando cercas. Em cada rodada, ele chama a criança para ajudar: às vezes falta um pedaço de cerca num dos lados, e dá para descobrir o tamanho que falta sabendo o perímetro do campo inteiro e o comprimento de um lado. Em outras, aparecem dois campos lado a lado e a pergunta muda — “qual precisa de mais cerca em volta?” pede para olhar o perímetro, e “qual tem mais grama por dentro?” pede para olhar a área. A criança ainda decide sozinha se vai contar as marcas da borda ou os quadradinhos de dentro, confere se um rolo de cerca dá a volta completa no campo e vê, no fim, que dois campos com a mesma grama podem precisar de cercas de tamanhos diferentes.",
+        "A ideia grande é simples de sentir contando. O perímetro é a cerca que dá a volta completa no campo: é o contorno, uma distância que se percorre pela borda. A área é a grama que fica dentro: é a superfície, o espaço que cabe ali. São duas coisas distintas de um mesmo campo, e nenhuma delas precisa de fórmula para ser entendida — basta contar. Por isso Hazel mostra, com quadradinhos e marcas na borda, que dois campos podem ter exatamente a mesma quantidade de grama (a mesma área) e mesmo assim pedir cercas diferentes (perímetros diferentes).",
+        "A atividade é gratuita, interativa e roda direto no navegador, sem cadastro, sem cronômetro e sem pontuação — nada de pressa nem de “errou, perdeu”. O tom é acolhedor e formativo: a criança tenta, observa e vai construindo a diferença entre cerca em volta e grama de dentro no seu próprio ritmo. O conteúdo é alinhado à Base Nacional Comum Curricular (BNCC), dentro da unidade temática Grandezas e medidas, e trabalha perímetro e área de um jeito concreto, apropriado para o 3º ano."
+      ],
+      "practices": [
+        "Contar o perímetro de um campo percorrendo a borda, sem usar fórmula.",
+        "Contar a área de um campo somando os quadradinhos de dentro.",
+        "Descobrir o lado que falta numa cerca usando o perímetro e um dos lados.",
+        "Comparar dois campos e perceber que a mesma área pode ter perímetros diferentes."
+      ],
+      "howToPlay": [
+        "Olhe o campo do Hazel e decida se a pergunta é sobre a cerca em volta (perímetro) ou sobre a grama de dentro (área).",
+        "Conte: as marcas da borda para o perímetro, ou os quadradinhos de dentro para a área.",
+        "Toque na sua resposta para ajudar o Hazel a consertar a cerca e passe para o próximo campo."
+      ],
+      "learningGoals": [
+        "Distinguir perímetro (o contorno, a cerca em volta) de área (a grama de dentro).",
+        "Calcular perímetro e área contando, sem depender de fórmulas.",
+        "Entender que dois campos com a mesma área podem precisar de perímetros diferentes."
+      ]
     }
   }
 }

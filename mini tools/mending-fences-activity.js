@@ -160,6 +160,39 @@
       srUnitPlant: 'Para sembrar pasto, cuenta los cuadritos de adentro.',
       srRoll: 'Un rollo de cerca de {roll} de largo: ¿alcanza para dar toda la vuelta al campo?',
       fieldAria: 'campo {n}'
+    },
+    pt: {
+      qmend: 'Conserte a cerca quebrada — qual é o tamanho da tábua que falta?',
+      qrank: 'Os dois campos da Amora — responda sobre a cerca e depois sobre a grama.',
+      qunit: 'Cercar a borda ou plantar por dentro — quais marcas?',
+      qroll: 'O rolo de cerca dá a volta inteira?',
+      qsame: 'Os dois campos têm a mesma grama — qual precisa de mais cerca?',
+      askFence: 'Qual campo precisa de MAIS cerca?',
+      askGrass: 'E qual campo tem MAIS grama?',
+      askUnitFence: 'Para comprar CERCA, quais marcas você conta?',
+      askUnitPlant: 'Para plantar GRAMA, quais você conta?',
+      askRoll: 'Um rolo de cerca de {n} de comprimento — dá a volta?',
+      reach: 'Sim, dá a volta', short: 'Não, é curto demais',
+      win: 'Consertada! {note}',
+      winFence: 'a cerca dá a volta inteira.',
+      winGrass: 'mais cerca, menos grama — bom olho!',
+      winUnit: 'esse é o tipo certo de marca.',
+      winRoll: 'no comprimento certo.',
+      nMend: 'Lembre: dois lados compridos E dois lados curtos.',
+      nRankFence: 'Olhe de novo — qual borda é mais comprida ao dar a volta inteira?',
+      nRankGrass: 'Qual campo tem mais quadradinhos de grama por dentro?',
+      nUnit: 'Para a cerca, conte as marcas AO REDOR da borda; para a grama, os quadradinhos de DENTRO.',
+      nRoll: 'Primeiro pense em quão longe é dar a volta inteira.',
+      unitEdge: 'Marcas da borda', unitInterior: 'Quadradinhos de dentro', unitBorder: 'O contorno',
+      ropeLabel: 'Corda da cerca: ', plateAria: '{n} de comprimento',
+      winMend: 'dois lados compridos e dois lados curtos.',
+      srMend: 'Uma cerca de {p} dá a volta inteira; um lado mede {s}. Qual é o tamanho da tábua que falta?',
+      srRank: 'Dois campos. Qual precisa de mais cerca ao redor da borda, e qual tem mais grama por dentro?',
+      srSame: 'Dois campos têm a mesma grama. Qual deles precisa de mais cerca ao redor?',
+      srUnitFence: 'Para comprar cerca, conte as marcas ao redor da borda.',
+      srUnitPlant: 'Para plantar grama, conte os quadradinhos de dentro.',
+      srRoll: 'Um rolo de cerca de {roll} de comprimento — dá para dar a volta inteira no campo?',
+      fieldAria: 'campo {n}'
     }
   };
   function txt(k, a) {
@@ -264,13 +297,13 @@
   var MendingFencesActivity = {
     id: 'mending-fences-activity',
     strings: {
-      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures', es: 'Hazel arregla las cercas' },
-      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !', es: '¡Ayuda a Hazel a arreglar las cercas: el perímetro es el camino que da una vuelta completa alrededor!' },
-      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.', es: 'Arregla la cerca rota.' },
-      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.', es: 'Dos campos: primero la cerca, luego el pasto.' },
-      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?', es: '¿Las marcas de la orilla o los cuadritos de adentro?' },
-      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?', es: '¿La cerca alcanza para dar toda la vuelta?' },
-      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?', es: 'Mismo pasto: ¿quién necesita más cerca?' }
+      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures', es: 'Hazel arregla las cercas', pt: 'Hazel conserta as cercas' },
+      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !', es: '¡Ayuda a Hazel a arreglar las cercas: el perímetro es el camino que da una vuelta completa alrededor!', pt: 'Ajude o Hazel a consertar as cercas — o perímetro é a distância ao dar a volta inteira!' },
+      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.', es: 'Arregla la cerca rota.', pt: 'Conserte a cerca quebrada.' },
+      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.', es: 'Dos campos: primero la cerca, luego el pasto.', pt: 'Dois campos — a cerca, depois a grama.' },
+      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?', es: '¿Las marcas de la orilla o los cuadritos de adentro?', pt: 'Marcas da borda ou quadradinhos de dentro?' },
+      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?', es: '¿La cerca alcanza para dar toda la vuelta?', pt: 'A cerca dá a volta inteira?' },
+      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?', es: 'Mismo pasto: ¿quién necesita más cerca?', pt: 'Mesma grama — qual precisa de mais cerca?' }
     },
 
     init: function (api) {

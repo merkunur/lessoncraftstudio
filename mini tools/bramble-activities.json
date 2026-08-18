@@ -3,100 +3,303 @@
     "id": "bramble.holds-more.k-md-a-2",
     "tool": "bramble-activity",
     "task_template": "bramble",
-    "alignment": { "framework": "CCSS", "code": "K.MD.A.2", "grade": "K", "strand": "Measurement & Data" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.MD.A.2",
+      "grade": "K",
+      "strand": "Measurement & Data"
+    },
     "theme": null,
     "params": {
       "rounds": [
         {
-          "id": "bramble.clearcut-1", "cog": "clearcut", "phase": "on-ramp", "assessment": false,
-          "A": { "shape": "cup", "drawnHeight": 40, "drawnWidth": 30, "trueCapacity": 2 },
-          "B": { "shape": "jug", "drawnHeight": 90, "drawnWidth": 72, "trueCapacity": 9 },
-          "structuralSignature": "clear-big-vs-small", "surfaceKey": "cup-jug-onramp1"
+          "id": "bramble.clearcut-1",
+          "cog": "clearcut",
+          "phase": "on-ramp",
+          "assessment": false,
+          "A": {
+            "shape": "cup",
+            "drawnHeight": 40,
+            "drawnWidth": 30,
+            "trueCapacity": 2
+          },
+          "B": {
+            "shape": "jug",
+            "drawnHeight": 90,
+            "drawnWidth": 72,
+            "trueCapacity": 9
+          },
+          "structuralSignature": "clear-big-vs-small",
+          "surfaceKey": "cup-jug-onramp1"
         },
         {
-          "id": "bramble.clearcut-2", "cog": "clearcut", "phase": "on-ramp", "assessment": false,
-          "A": { "shape": "bowl", "drawnHeight": 55, "drawnWidth": 82, "trueCapacity": 8 },
-          "B": { "shape": "cup", "drawnHeight": 35, "drawnWidth": 30, "trueCapacity": 3 },
-          "structuralSignature": "clear-big-vs-small", "surfaceKey": "bowl-cup-onramp2"
+          "id": "bramble.clearcut-2",
+          "cog": "clearcut",
+          "phase": "on-ramp",
+          "assessment": false,
+          "A": {
+            "shape": "bowl",
+            "drawnHeight": 55,
+            "drawnWidth": 82,
+            "trueCapacity": 8
+          },
+          "B": {
+            "shape": "cup",
+            "drawnHeight": 35,
+            "drawnWidth": 30,
+            "trueCapacity": 3
+          },
+          "structuralSignature": "clear-big-vs-small",
+          "surfaceKey": "bowl-cup-onramp2"
         },
         {
-          "id": "bramble.clearcut-3", "cog": "clearcut", "phase": "on-ramp", "assessment": false,
-          "A": { "shape": "mug", "drawnHeight": 60, "drawnWidth": 48, "trueCapacity": 5 },
-          "B": { "shape": "mug", "drawnHeight": 60, "drawnWidth": 48, "trueCapacity": 5 },
-          "structuralSignature": "clear-look-same-are-same", "surfaceKey": "mug-mug-onramp3"
+          "id": "bramble.clearcut-3",
+          "cog": "clearcut",
+          "phase": "on-ramp",
+          "assessment": false,
+          "A": {
+            "shape": "mug",
+            "drawnHeight": 60,
+            "drawnWidth": 48,
+            "trueCapacity": 5
+          },
+          "B": {
+            "shape": "mug",
+            "drawnHeight": 60,
+            "drawnWidth": 48,
+            "trueCapacity": 5
+          },
+          "structuralSignature": "clear-look-same-are-same",
+          "surfaceKey": "mug-mug-onramp3"
         },
         {
-          "id": "bramble.wide-wins-1", "cog": "wide-wins", "phase": "assessed", "assessment": true,
-          "A": { "shape": "glass", "drawnHeight": 92, "drawnWidth": 46, "trueCapacity": 5 },
-          "B": { "shape": "bowl", "drawnHeight": 48, "drawnWidth": 84, "trueCapacity": 8 },
-          "structuralSignature": "short-wide-holds-more", "surfaceKey": "glass-bowl-1"
+          "id": "bramble.wide-wins-1",
+          "cog": "wide-wins",
+          "phase": "assessed",
+          "assessment": true,
+          "A": {
+            "shape": "glass",
+            "drawnHeight": 92,
+            "drawnWidth": 46,
+            "trueCapacity": 5
+          },
+          "B": {
+            "shape": "bowl",
+            "drawnHeight": 48,
+            "drawnWidth": 84,
+            "trueCapacity": 8
+          },
+          "structuralSignature": "short-wide-holds-more",
+          "surfaceKey": "glass-bowl-1"
         },
         {
-          "id": "bramble.tall-less-1", "cog": "tall-less", "phase": "assessed", "assessment": true,
-          "A": { "shape": "jug", "drawnHeight": 90, "drawnWidth": 48, "trueCapacity": 6 },
-          "B": { "shape": "pan", "drawnHeight": 46, "drawnWidth": 86, "trueCapacity": 9 },
-          "structuralSignature": "tall-narrow-holds-less", "surfaceKey": "jug-pan-2"
+          "id": "bramble.tall-less-1",
+          "cog": "tall-less",
+          "phase": "assessed",
+          "assessment": true,
+          "A": {
+            "shape": "jug",
+            "drawnHeight": 90,
+            "drawnWidth": 48,
+            "trueCapacity": 6
+          },
+          "B": {
+            "shape": "pan",
+            "drawnHeight": 46,
+            "drawnWidth": 86,
+            "trueCapacity": 9
+          },
+          "structuralSignature": "tall-narrow-holds-less",
+          "surfaceKey": "jug-pan-2"
         },
         {
-          "id": "bramble.narrow-wins-1", "cog": "narrow-wins", "phase": "assessed", "assessment": true,
-          "A": { "shape": "bottle", "drawnHeight": 92, "drawnWidth": 30, "trueCapacity": 9 },
-          "B": { "shape": "tub", "drawnHeight": 46, "drawnWidth": 82, "trueCapacity": 6 },
-          "structuralSignature": "tall-narrow-holds-more", "surfaceKey": "bottle-tub-4"
+          "id": "bramble.narrow-wins-1",
+          "cog": "narrow-wins",
+          "phase": "assessed",
+          "assessment": true,
+          "A": {
+            "shape": "bottle",
+            "drawnHeight": 92,
+            "drawnWidth": 30,
+            "trueCapacity": 9
+          },
+          "B": {
+            "shape": "tub",
+            "drawnHeight": 46,
+            "drawnWidth": 82,
+            "trueCapacity": 6
+          },
+          "structuralSignature": "tall-narrow-holds-more",
+          "surfaceKey": "bottle-tub-4"
         },
         {
-          "id": "bramble.decouple-1", "cog": "decouple", "phase": "assessed", "assessment": true,
-          "A": { "shape": "crate", "drawnHeight": 84, "drawnWidth": 78, "trueCapacity": 4 },
-          "B": { "shape": "cup", "drawnHeight": 52, "drawnWidth": 40, "trueCapacity": 9 },
-          "structuralSignature": "looks-bigger-holds-less", "surfaceKey": "crate-cup-7"
+          "id": "bramble.decouple-1",
+          "cog": "decouple",
+          "phase": "assessed",
+          "assessment": true,
+          "A": {
+            "shape": "crate",
+            "drawnHeight": 84,
+            "drawnWidth": 78,
+            "trueCapacity": 4
+          },
+          "B": {
+            "shape": "cup",
+            "drawnHeight": 52,
+            "drawnWidth": 40,
+            "trueCapacity": 9
+          },
+          "structuralSignature": "looks-bigger-holds-less",
+          "surfaceKey": "crate-cup-7"
         },
         {
-          "id": "bramble.decouple-2", "cog": "decouple", "phase": "assessed", "assessment": true,
-          "A": { "shape": "pot", "drawnHeight": 44, "drawnWidth": 78, "trueCapacity": 9 },
-          "B": { "shape": "tower", "drawnHeight": 92, "drawnWidth": 86, "trueCapacity": 5 },
-          "structuralSignature": "looks-bigger-holds-less", "surfaceKey": "pot-tower-8"
+          "id": "bramble.decouple-2",
+          "cog": "decouple",
+          "phase": "assessed",
+          "assessment": true,
+          "A": {
+            "shape": "pot",
+            "drawnHeight": 44,
+            "drawnWidth": 78,
+            "trueCapacity": 9
+          },
+          "B": {
+            "shape": "tower",
+            "drawnHeight": 92,
+            "drawnWidth": 86,
+            "trueCapacity": 5
+          },
+          "structuralSignature": "looks-bigger-holds-less",
+          "surfaceKey": "pot-tower-8"
         },
         {
-          "id": "bramble.describe-1", "cog": "describe", "phase": "assessed", "assessment": true,
-          "A": { "shape": "flute", "drawnHeight": 90, "drawnWidth": 30, "trueCapacity": 8 },
-          "B": { "shape": "dish", "drawnHeight": 46, "drawnWidth": 84, "trueCapacity": 5 },
-          "structuralSignature": "tall-narrow-holds-more", "surfaceKey": "flute-dish-6"
+          "id": "bramble.describe-1",
+          "cog": "describe",
+          "phase": "assessed",
+          "assessment": true,
+          "A": {
+            "shape": "flute",
+            "drawnHeight": 90,
+            "drawnWidth": 30,
+            "trueCapacity": 8
+          },
+          "B": {
+            "shape": "dish",
+            "drawnHeight": 46,
+            "drawnWidth": 84,
+            "trueCapacity": 5
+          },
+          "structuralSignature": "tall-narrow-holds-more",
+          "surfaceKey": "flute-dish-6"
         },
         {
-          "id": "bramble.transfer-1", "cog": "transfer", "phase": "assessed", "assessment": true,
+          "id": "bramble.transfer-1",
+          "cog": "transfer",
+          "phase": "assessed",
+          "assessment": true,
           "reofferOf": "bramble.wide-wins-1",
-          "A": { "shape": "vial", "drawnHeight": 94, "drawnWidth": 50, "trueCapacity": 4 },
-          "B": { "shape": "tub", "drawnHeight": 44, "drawnWidth": 88, "trueCapacity": 9 },
-          "structuralSignature": "short-wide-holds-more", "surfaceKey": "vial-tub-3"
+          "A": {
+            "shape": "vial",
+            "drawnHeight": 94,
+            "drawnWidth": 50,
+            "trueCapacity": 4
+          },
+          "B": {
+            "shape": "tub",
+            "drawnHeight": 44,
+            "drawnWidth": 88,
+            "trueCapacity": 9
+          },
+          "structuralSignature": "short-wide-holds-more",
+          "surfaceKey": "vial-tub-3"
         },
         {
-          "id": "bramble.transfer-2", "cog": "transfer", "phase": "assessed", "assessment": true,
+          "id": "bramble.transfer-2",
+          "cog": "transfer",
+          "phase": "assessed",
+          "assessment": true,
           "reofferOf": "bramble.narrow-wins-1",
-          "A": { "shape": "pipe", "drawnHeight": 94, "drawnWidth": 28, "trueCapacity": 8 },
-          "B": { "shape": "bin", "drawnHeight": 44, "drawnWidth": 86, "trueCapacity": 5 },
-          "structuralSignature": "tall-narrow-holds-more", "surfaceKey": "pipe-bin-5"
+          "A": {
+            "shape": "pipe",
+            "drawnHeight": 94,
+            "drawnWidth": 28,
+            "trueCapacity": 8
+          },
+          "B": {
+            "shape": "bin",
+            "drawnHeight": 44,
+            "drawnWidth": 86,
+            "trueCapacity": 5
+          },
+          "structuralSignature": "tall-narrow-holds-more",
+          "surfaceKey": "pipe-bin-5"
         },
         {
-          "id": "bramble.fit-1", "cog": "fit", "phase": "assessed", "assessment": true,
-          "options": ["FITS", "OVERFLOWS"],
-          "A": { "shape": "bowl", "drawnHeight": 50, "drawnWidth": 72, "trueCapacity": 6 },
-          "B": { "shape": "jug", "drawnHeight": 90, "drawnWidth": 44, "trueCapacity": 9 },
-          "structuralSignature": "wide-fits-in-narrow", "surfaceKey": "bowl-jug-fit1"
+          "id": "bramble.fit-1",
+          "cog": "fit",
+          "phase": "assessed",
+          "assessment": true,
+          "options": [
+            "FITS",
+            "OVERFLOWS"
+          ],
+          "A": {
+            "shape": "bowl",
+            "drawnHeight": 50,
+            "drawnWidth": 72,
+            "trueCapacity": 6
+          },
+          "B": {
+            "shape": "jug",
+            "drawnHeight": 90,
+            "drawnWidth": 44,
+            "trueCapacity": 9
+          },
+          "structuralSignature": "wide-fits-in-narrow",
+          "surfaceKey": "bowl-jug-fit1"
         },
         {
-          "id": "bramble.same-1", "cog": "same", "phase": "assessed", "assessment": false,
-          "A": { "shape": "glass", "drawnHeight": 88, "drawnWidth": 34, "trueCapacity": 6 },
-          "B": { "shape": "tub", "drawnHeight": 46, "drawnWidth": 74, "trueCapacity": 6 },
-          "structuralSignature": "look-different-same-amount", "surfaceKey": "glass-tub-same1"
+          "id": "bramble.same-1",
+          "cog": "same",
+          "phase": "assessed",
+          "assessment": false,
+          "A": {
+            "shape": "glass",
+            "drawnHeight": 88,
+            "drawnWidth": 34,
+            "trueCapacity": 6
+          },
+          "B": {
+            "shape": "tub",
+            "drawnHeight": 46,
+            "drawnWidth": 74,
+            "trueCapacity": 6
+          },
+          "structuralSignature": "look-different-same-amount",
+          "surfaceKey": "glass-tub-same1"
         }
       ]
     },
-    "slug": { "en": "brambles-berry-juice-stand", "de": "fassungsvermoegen-vergleichen-welches-gefaess-fasst-mehr-klasse-1", "fr": "comparer-les-contenances-lequel-contient-le-plus-gs", "es": "comparar-capacidad-en-cual-cabe-mas" },
-    "page_title": { "en": "Which Holds More? — Bramble's Berry-Juice Stand", "de": "Fassungsvermögen vergleichen: welches fasst mehr? – Klasse 1", "fr": "Comparer les contenances : lequel contient le plus ? - GS", "es": "Comparar capacidad: ¿en cuál cabe más? (preescolar)" },
+    "slug": {
+      "en": "brambles-berry-juice-stand",
+      "de": "fassungsvermoegen-vergleichen-welches-gefaess-fasst-mehr-klasse-1",
+      "fr": "comparer-les-contenances-lequel-contient-le-plus-gs",
+      "es": "comparar-capacidad-en-cual-cabe-mas",
+      "pt": "comparar-capacidade-em-qual-cabe-mais-1-ano"
+    },
+    "page_title": {
+      "en": "Which Holds More? — Bramble's Berry-Juice Stand",
+      "de": "Fassungsvermögen vergleichen: welches fasst mehr? – Klasse 1",
+      "fr": "Comparer les contenances : lequel contient le plus ? - GS",
+      "es": "Comparar capacidad: ¿en cuál cabe más? (preescolar)",
+      "pt": "Comparar Capacidade: Em Qual Cabe Mais? — Atividade de 1º Ano (BNCC)"
+    },
     "page_intro": {
       "en": "Predict which cup holds more berry juice, then pour to find out — a tall, skinny glass can fool your eyes! A no-counting Kindergarten capacity activity aligned to Common Core K.MD.A.2: directly compare two containers and tell which holds more, less, or the same.",
       "de": "Fassungsvermögen vergleichen in Klasse 1: Schätze, welches Gefäß mehr fasst, und gieße die Becher aus, um es zu prüfen – kostenlos, interaktiv. Jetzt ausprobieren!",
       "fr": "Devine quel récipient contient le plus de jus de baies, puis verse pour vérifier — un verre haut et fin peut tromper tes yeux ! Une activité de contenance gratuite et interactive pour la GS, sans compter : comparer directement deux récipients et dire lequel contient le plus, le moins, ou pareil.",
-      "es": "Compara capacidad: ¿en cuál cabe más? Actividad gratis con Bramble, interactiva y sin registro para preescolar, alineada a los Planes y programas de estudio (SEP)."
+      "es": "Compara capacidad: ¿en cuál cabe más? Actividad gratis con Bramble, interactiva y sin registro para preescolar, alineada a los Planes y programas de estudio (SEP).",
+      "pt": "Comparar capacidade sem medir: na barraquinha de suco do Bramble, descubra em qual recipiente cabe mais suco de amora. Atividade grátis de 1º ano, sem cadastro, alinhada à BNCC."
     },
     "kid_prompt_template": "Call it before Bramble pours — which cup holds more?"
   }

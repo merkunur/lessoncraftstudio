@@ -146,19 +146,22 @@
       "en": "fix-it-corner",
       "de": "platzhalteraufgaben-plus-minus-fehlende-zahl-klasse-1",
       "fr": "trouver-le-nombre-manquant-plus-moins-cp",
-      "es": "numero-que-falta-sumas-y-restas-cualquier-posicion-primer-grado"
+      "es": "numero-que-falta-sumas-y-restas-cualquier-posicion-primer-grado",
+      "pt": "numero-que-falta-adicao-e-subtracao-1-ano"
     },
     "page_title": {
       "en": "Fixit's Fix-It Corner — Find the Missing Number (Grade 1)",
       "de": "Platzhalteraufgaben Plus & Minus – Fehlende Zahl Klasse 1",
       "fr": "Addition à trous – exercice en ligne (CP)",
-      "es": "El número que falta en sumas y restas (1.º de primaria)"
+      "es": "El número que falta en sumas y restas (1.º de primaria)",
+      "pt": "O Número Que Falta: Adição e Subtração com o Fixit — 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8.",
       "de": "Hilf Fixit, kaputte Geräte zu reparieren: Finde die fehlende Zahl in Plus- und Minusaufgaben – an jeder Stelle. Kostenlos & interaktiv für Klasse 1. Jetzt knobeln!",
       "fr": "Additions à trous en ligne : trouver le nombre manquant pour compléter chaque calcul. Idéal au CP. Gratuit, en ligne, sans inscription.",
-      "es": "Encuentra el número que falta en sumas y restas, en cualquier lugar de la operación: actividad gratis e interactiva, sin registro, alineada a la SEP."
+      "es": "Encuentra el número que falta en sumas y restas, en cualquier lugar de la operación: actividad gratis e interactiva, sin registro, alineada a la SEP.",
+      "pt": "Ajude o Fixit a achar o número que falta nas contas de mais e de menos, em qualquer posição da conta. Grátis, sem cadastro. Alinhada à BNCC, 1º ano."
     },
     "kid_prompt_template": "missing-part"
   }

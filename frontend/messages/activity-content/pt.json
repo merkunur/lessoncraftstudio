@@ -3153,6 +3153,29 @@
         "Eu consigo fazer o mesmo número de mais de um jeito",
         "Eu descubro qual parte falta para completar o número"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "O Fixit é uma toupeira que conserta coisas — e enxerga pertinho do nariz, então precisa da sua ajuda. Na oficina dele, cada aparelho quebrado mostra uma conta de mais ou de menos com um espacinho vazio que fica brilhando: é o número que está faltando. Você descobre qual é esse número e encaixa no lugar; quando acerta, o aparelho ronrona, acende e volta a funcionar. Para pensar junto, você tem um quadro de dez, uma reta numérica para contar pulando e uma balança de pratos, em que os dois lados precisam ficar iguaisinhos.",
+        "A grande ideia é esta: o número que falta pode aparecer em qualquer lugar da conta. Às vezes falta a soma (o total), às vezes falta uma das parcelas, às vezes falta o número que a gente tira ou até o número em que a conta começa. Procurando esse número, a criança descobre sozinha as famílias de fatos e as operações inversas — que somar e subtrair são um o contrário do outro —, pensa em \"quantos faltam?\" e entende o sinal de igual como um equilíbrio de verdade: os dois lados da balança têm que valer a mesma coisa.",
+        "Esta atividade é totalmente gratuita, sem cadastro e sem login. Não tem cronômetro, nem pontuação, nem competição — ninguém corre contra o tempo nem contra ninguém. O clima é calmo e sem vergonha de errar: quando um número não encaixa, o Fixit não briga; ele mostra com carinho o que aconteceu e resolve junto com você, com toda a paciência. A atividade é alinhada à BNCC, na unidade temática \"Números\"."
+      ],
+      "practices": [
+        "Achar o número que falta em qualquer posição da conta — na soma, numa parcela, no número que se tira ou no número que começa a conta.",
+        "Usar operações inversas e famílias de fatos para descobrir o número escondido.",
+        "Pensar com apoios concretos: o quadro de dez, a reta numérica e a balança de pratos.",
+        "Entender o sinal de igual como equilíbrio — os dois lados precisam valer a mesma coisa."
+      ],
+      "howToPlay": [
+        "Olhe a conta do aparelho quebrado e ache o espaço vazio que fica brilhando.",
+        "Use o quadro de dez, a reta numérica ou a balança para descobrir o número que falta e coloque ele no lugar.",
+        "Se encaixar, o aparelho liga na hora — se não encaixar, veja o que o Fixit mostra e tente de novo, com calma."
+      ],
+      "learningGoals": [
+        "Eu acho o número que falta numa conta de mais ou de menos, esteja ele onde estiver.",
+        "Eu uso as famílias de fatos e sei que somar e subtrair são o contrário um do outro.",
+        "Eu entendo que o sinal de igual quer dizer que os dois lados valem a mesma coisa."
+      ]
     }
   }
 }

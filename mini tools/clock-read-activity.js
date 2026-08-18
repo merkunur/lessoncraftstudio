@@ -66,16 +66,30 @@
   }
   var EVENT_ES = { Lunch: 'La comida', Breakfast: 'El desayuno', 'Garden time': 'Hora del jardín', Bedtime: 'Hora de dormir', Supper: 'La cena', 'Morning tea': 'El refrigerio', Snack: 'La merienda' };
   var CUE_ES = { dawn: 'El cielo se pinta de rosa: es muy temprano en la mañana.', noon: 'El sol está muy alto: es mediodía.' };
-  function wordFor(h, m) { return LANG === 'es' ? wordForES(h, m) : (LANG === 'fr' ? wordForFR(h, m) : (LANG === 'de' ? wordForDE(h, m) : Core.wordFor(h, m))); }
-  function setWordFor(r) { return LANG === 'es' ? wordForES(r.targetTime.hour, r.targetTime.minute) : (LANG === 'fr' ? wordForFR(r.targetTime.hour, r.targetTime.minute) : (LANG === 'de' ? wordForDE(r.targetTime.hour, r.targetTime.minute) : Core.setWord(r))); }
-  function eventLabel(label) { return LANG === 'es' ? (EVENT_ES[label] || label) : (LANG === 'de' ? (EVENT_DE[label] || label) : (LANG === 'fr' ? (EVENT_FR[label] || label) : label)); }
-  function cueLabel(cue) { return LANG === 'es' ? (CUE_ES[cue.id] || cue.label) : (LANG === 'de' ? (CUE_DE[cue.id] || cue.label) : (LANG === 'fr' ? (CUE_FR[cue.id] || cue.label) : cue.label)); }
+  /* Portuguese (BR) time-words. Half-hour idiom = « e meia » on the CURRENT hour (Romance, NOT the German toward-next-hour « halb »);
+     quarter-past = « e quinze » (BR everyday form, NOT « e um quarto »); quarter-to = « quinze para as <next> » (toward next hour).
+     ⚠ HRS_PT is the FEMININE hour-word array (hora is feminine) — emitting a digit would make TTS say "dois horas" (must be "duas horas").
+     Matches the established idiom in clock-elapsed (#62). 5-min falls through to numeric h:mm (DE/FR/ES parity). */
+  var HRS_PT = ['', 'uma', 'duas', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze'];
+  function wordForPT(h, m) {
+    if (m === 0) return HRS_PT[h] + (h === 1 ? ' hora' : ' horas');
+    if (m === 15) return HRS_PT[h] + ' e quinze';
+    if (m === 30) return HRS_PT[h] + ' e meia';
+    if (m === 45) { var nh = naechsteStunde(h); return 'quinze para ' + (nh === 1 ? 'a uma' : 'as ' + HRS_PT[nh]); }
+    return h + ':' + (m < 10 ? '0' : '') + m;
+  }
+  var EVENT_PT = { Lunch: 'Almoço', Breakfast: 'Café da manhã', 'Garden time': 'Hora do jardim', Bedtime: 'Hora de dormir', Supper: 'Jantar', 'Morning tea': 'Lanche da manhã', Snack: 'Lanche da tarde' };
+  var CUE_PT = { dawn: 'O céu fica rosa — é bem cedinho de manhã.', noon: 'O sol está bem alto no céu — é meio-dia.' };
+  function wordFor(h, m) { return LANG === 'es' ? wordForES(h, m) : (LANG === 'fr' ? wordForFR(h, m) : (LANG === 'de' ? wordForDE(h, m) : (LANG === 'pt' ? wordForPT(h, m) : Core.wordFor(h, m)))); }
+  function setWordFor(r) { return LANG === 'es' ? wordForES(r.targetTime.hour, r.targetTime.minute) : (LANG === 'fr' ? wordForFR(r.targetTime.hour, r.targetTime.minute) : (LANG === 'de' ? wordForDE(r.targetTime.hour, r.targetTime.minute) : (LANG === 'pt' ? wordForPT(r.targetTime.hour, r.targetTime.minute) : Core.setWord(r)))); }
+  function eventLabel(label) { return LANG === 'es' ? (EVENT_ES[label] || label) : (LANG === 'de' ? (EVENT_DE[label] || label) : (LANG === 'fr' ? (EVENT_FR[label] || label) : (LANG === 'pt' ? (EVENT_PT[label] || label) : label))); }
+  function cueLabel(cue) { return LANG === 'es' ? (CUE_ES[cue.id] || cue.label) : (LANG === 'de' ? (CUE_DE[cue.id] || cue.label) : (LANG === 'fr' ? (CUE_FR[cue.id] || cue.label) : (LANG === 'pt' ? (CUE_PT[cue.id] || cue.label) : cue.label))); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.92 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.92; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'es' ? 'es-MX' : 'en-US'))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.92 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.92; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'es' ? 'es-MX' : (LANG === 'pt' ? 'pt-BR' : 'en-US')))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -85,7 +99,7 @@
      opts.draggable wires the radial drag; else fixed (read/order). */
   function buildClock(hour, minute, opts, hooks) {
     opts = opts || {};
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'crd-svg' + (opts.mini ? ' crd-mini' : ''), role: 'group', 'aria-label': (LANG === 'de' ? 'Zifferblatt' : (LANG === 'fr' ? 'cadran de l’horloge' : (LANG === 'es' ? 'carátula del reloj' : 'clock face'))) });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'crd-svg' + (opts.mini ? ' crd-mini' : ''), role: 'group', 'aria-label': (LANG === 'de' ? 'Zifferblatt' : (LANG === 'fr' ? 'cadran de l’horloge' : (LANG === 'es' ? 'carátula del reloj' : (LANG === 'pt' ? 'mostrador do relógio' : 'clock face')))) });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.T, 'stroke-width': 3 }));
     for (var i = 1; i <= 12; i++) {
       var a = 30 * i * Math.PI / 180, big = (i % 3 === 0), r1 = big ? 38 : 41, r2 = 45;
@@ -104,7 +118,7 @@
   }
   function makeHand(which, len, w, color, angle, opts) {
     var g = elNS('g', { class: 'crd-hand crd-hand-' + which, transform: 'rotate(' + angle.toFixed(2) + ' 50 50)' });
-    if (opts.draggable) { g.setAttribute('role', 'button'); g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', LANG === 'de' ? (which === 'hour' ? 'Stundenzeiger' : 'Minutenzeiger') : (LANG === 'fr' ? (which === 'hour' ? 'aiguille des heures' : 'aiguille des minutes') : (LANG === 'es' ? (which === 'hour' ? 'manecilla de la hora' : 'manecilla de los minutos') : (which === 'hour' ? 'hour hand' : 'minute hand')))); }
+    if (opts.draggable) { g.setAttribute('role', 'button'); g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', LANG === 'de' ? (which === 'hour' ? 'Stundenzeiger' : 'Minutenzeiger') : (LANG === 'fr' ? (which === 'hour' ? 'aiguille des heures' : 'aiguille des minutes') : (LANG === 'es' ? (which === 'hour' ? 'manecilla de la hora' : 'manecilla de los minutos') : (LANG === 'pt' ? (which === 'hour' ? 'ponteiro das horas' : 'ponteiro dos minutos') : (which === 'hour' ? 'hour hand' : 'minute hand'))))); }
     g.appendChild(elNS('line', { x1: 50, y1: 50, x2: 50, y2: 50 - len, stroke: 'transparent', 'stroke-width': 24, 'stroke-linecap': 'round', class: 'crd-hit' }));
     g.appendChild(elNS('line', { x1: 50, y1: 50, x2: 50, y2: 50 - len, stroke: color, 'stroke-width': w, 'stroke-linecap': 'round', class: 'crd-vis' }));
     return { g: g, len: len };
@@ -131,17 +145,17 @@
     id: 'clock-read-activity',
 
     strings: {
-      title: { en: "Owl's Cuckoo Cottage", de: 'Eulchens Kuckucksuhr', fr: 'La maison à coucou de Chouette', es: 'El reloj de cucú de Tecolín' },
-      instruction: { en: '', de: '', fr: '', es: '' },
-      prompt: { en: 'What time is it in the cottage?', de: 'Wie spät ist es im Häuschen?', fr: 'Quelle heure est-il dans la maison ?', es: '¿Qué hora es en la casita?' },
-      readPrompt: { en: "What is Owl doing now?", de: 'Was macht Eulchen gerade?', fr: 'Que fait Chouette maintenant ?', es: '¿Qué está haciendo Tecolín ahorita?' },
-      orderPrompt: { en: 'Which clock shows {event}?', de: 'Welche Uhr zeigt {event}?', fr: 'Quelle horloge montre {event} ?', es: '¿Cuál reloj muestra {event}?' },
-      setPrompt: { en: 'Set the clock to {time}.', de: 'Stell die Uhr auf {time}.', fr: 'Règle l’horloge sur {time}.', es: 'Pon el reloj en {time}.' },
-      wake: { en: 'Wake the cuckoo! 🐦', de: 'Weck den Kuckuck! 🐦', fr: 'Réveille le coucou ! 🐦', es: '¡Despierta al cucú! 🐦' },
-      owlListen: { en: "Read Owl's clock…", de: 'Lies Eulchens Uhr …', fr: 'Lis l’horloge de Chouette…', es: 'Lee el reloj de Tecolín…' },
-      owlWin: { en: 'Cuckoo! ', de: 'Kuckuck! ', fr: 'Coucou ! ', es: '¡Cucú! ' },
-      owlWrong: { en: '', de: '', fr: '', es: '' },
-      hintCheck: { en: 'Find the time, then tap Check!', de: 'Finde die Uhrzeit, dann tippe auf „Prüfen"!', fr: 'Trouve l’heure, puis touche Vérifier !', es: 'Encuentra la hora y luego toca Comprobar.' }
+      title: { en: "Owl's Cuckoo Cottage", de: 'Eulchens Kuckucksuhr', fr: 'La maison à coucou de Chouette', es: 'El reloj de cucú de Tecolín', pt: 'O relógio de cuco da Corujita' },
+      instruction: { en: '', de: '', fr: '', es: '', pt: '' },
+      prompt: { en: 'What time is it in the cottage?', de: 'Wie spät ist es im Häuschen?', fr: 'Quelle heure est-il dans la maison ?', es: '¿Qué hora es en la casita?', pt: 'Que horas são na casinha?' },
+      readPrompt: { en: "What is Owl doing now?", de: 'Was macht Eulchen gerade?', fr: 'Que fait Chouette maintenant ?', es: '¿Qué está haciendo Tecolín ahorita?', pt: 'O que a Corujita está fazendo agora?' },
+      orderPrompt: { en: 'Which clock shows {event}?', de: 'Welche Uhr zeigt {event}?', fr: 'Quelle horloge montre {event} ?', es: '¿Cuál reloj muestra {event}?', pt: 'Qual relógio mostra {event}?' },
+      setPrompt: { en: 'Set the clock to {time}.', de: 'Stell die Uhr auf {time}.', fr: 'Règle l’horloge sur {time}.', es: 'Pon el reloj en {time}.', pt: 'Acerte o relógio: {time}.' },
+      wake: { en: 'Wake the cuckoo! 🐦', de: 'Weck den Kuckuck! 🐦', fr: 'Réveille le coucou ! 🐦', es: '¡Despierta al cucú! 🐦', pt: 'Acorde o cuco! 🐦' },
+      owlListen: { en: "Read Owl's clock…", de: 'Lies Eulchens Uhr …', fr: 'Lis l’horloge de Chouette…', es: 'Lee el reloj de Tecolín…', pt: 'Leia o relógio da Corujita…' },
+      owlWin: { en: 'Cuckoo! ', de: 'Kuckuck! ', fr: 'Coucou ! ', es: '¡Cucú! ', pt: 'Cucu! ' },
+      owlWrong: { en: '', de: '', fr: '', es: '', pt: '' },
+      hintCheck: { en: 'Find the time, then tap Check!', de: 'Finde die Uhrzeit, dann tippe auf „Prüfen"!', fr: 'Trouve l’heure, puis touche Vérifier !', es: 'Encuentra la hora y luego toca Comprobar.', pt: 'Descubra a hora e depois toque em Verificar!' }
     },
     defaults: {},
 
@@ -268,7 +282,7 @@
       var row = api.el('div', 'crd-clockrow');
       this.round.clocks.forEach(function (cl, i) {
         var wrap = api.el('button', 'crd-clockbtn' + (self.picked === i ? ' crd-picked' : '')); wrap.type = 'button'; wrap.setAttribute('data-i', i);
-        wrap.setAttribute('aria-label', (LANG === 'de' ? 'Uhr ' : (LANG === 'fr' ? 'horloge ' : (LANG === 'es' ? 'Reloj ' : 'clock '))) + (i + 1));
+        wrap.setAttribute('aria-label', (LANG === 'de' ? 'Uhr ' : (LANG === 'fr' ? 'horloge ' : (LANG === 'es' ? 'Reloj ' : (LANG === 'pt' ? 'Relógio ' : 'clock ')))) + (i + 1));
         var c = buildClock(cl.hour, cl.minute, { draggable: false, mini: true }, null);
         wrap.appendChild(c.svg);
         if (!self.solved) wrap.addEventListener('click', function () { self._pickClock(i); });

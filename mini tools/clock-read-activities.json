@@ -322,19 +322,22 @@
       "en": "owls-cuckoo-cottage",
       "de": "uhr-lesen-und-stellen-tagesablauf-klasse-1",
       "fr": "lire-et-regler-l-heure-heures-et-demies-cp",
-      "es": "leer-el-reloj-analogico-la-hora-en-punto-y-media-y-cuarto"
+      "es": "leer-el-reloj-analogico-la-hora-en-punto-y-media-y-cuarto",
+      "pt": "ler-as-horas-no-relogio-em-ponto-e-meia-e-quinze-2-ano"
     },
     "page_title": {
       "en": "Owl's Cuckoo Cottage — Read and Set the Clock",
       "de": "Uhr lesen lernen – Uhrzeit online üben (Klasse 1)",
       "fr": "La maison à coucou de Chouette : lire et régler l'heure (CP)",
-      "es": "Leer la hora en el reloj: en punto, y media, y cuarto"
+      "es": "Leer la hora en el reloj: en punto, y media, y cuarto",
+      "pt": "Ler as horas no relógio: em ponto, e meia e e quinze · 2º ano"
     },
     "page_intro": {
       "en": "Owl's whole cozy day unfolds in the cuckoo cottage, and you are the timekeeper! Read the wall clock to find out what Owl is doing now — breakfast, garden time, bedtime — and set the hands so the cuckoo can pop out and act it out. A warm Grade 1 game about telling time to the hour and half-hour, aligned to Common Core 1.MD.B.3.",
       "de": "Uhr lesen lernen: Uhrzeiten an der Analoguhr ablesen und stellen – im Eulen-Tagesablauf. Kostenlos online üben, ohne Anmeldung.",
       "fr": "Un jeu de maths CP, gratuit et interactif : toute la journée de Chouette se déroule dans la maison à coucou, et c'est toi le gardien du temps ! Lis l'horloge murale à aiguilles pour savoir ce que fait Chouette — le petit-déjeuner, le jardinage, le dodo — et règle les aiguilles pour que le coucou sorte et mime le moment. Un jeu tout doux pour lire l'heure aux heures entières et aux demi-heures.",
-      "es": "Tu peque lee y acomoda las manecillas de un reloj de cucú para descubrir la hora y el momento del día: en punto, y media, y cuarto. Gratis, sin registro y alineada al plan de la SEP."
+      "es": "Tu peque lee y acomoda las manecillas de un reloj de cucú para descubrir la hora y el momento del día: en punto, y media, y cuarto. Gratis, sin registro y alineada al plan de la SEP.",
+      "pt": "Seu pequeno lê e acerta os ponteiros do relógio de cuco da Corujita para descobrir a hora e o momento do dia — em ponto, e quinze, e meia. De graça, sem cadastro e sem cronômetro. Alinhado à BNCC, 2º ano."
     },
     "kid_prompt_template": "clock-read"
   }

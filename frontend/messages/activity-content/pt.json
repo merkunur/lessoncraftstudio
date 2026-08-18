@@ -3199,6 +3199,29 @@
         "Eu faço outra coleção com a mesma quantidade.",
         "Eu sei que a quantidade não muda quando eu arrumo de outro jeito."
       ]
+    },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "O Rivet é um guaxinim que toca uma pequena forja. O dia todo chegam tesouros soltos — bolotas, botões, vaga-lumes e bolas de gude — e o trabalho dele é transformar cada punhado numa carta de coleção. Só que, antes de forjar qualquer coisa, é preciso saber quantos tesouros há ali. É aí que a criança entra: ela toca em cada tesouro, um por um, para contar, e depois forja o número que diz quantos são. O mais bonito é que o próprio número é feito das coisas que acabaram de ser contadas.",
+        "Por trás da brincadeira está uma ideia central do 1º ano: relacionar uma quantidade ao seu número escrito, de 0 a 20. A criança conta uma coleção tocando cada item uma única vez, aprende a contar só um tipo de tesouro quando há outros misturados e — a parte especial — descobre que até um pacote vazio tem um número. O zero também é um número! Contar e escrever o número ganham sentido quando nascem de algo concreto que dá para ver e tocar.",
+        "A atividade é totalmente gratuita e não pede cadastro nem login. Não há cronômetro, pontuação nem competição: a criança segue no seu próprio ritmo, com um tom calmo e acolhedor, sem pressa e sem medo de errar. O conteúdo é alinhado à BNCC, na unidade temática \"Números\"."
+      ],
+      "practices": [
+        "Contar uma coleção tocando cada coisa uma única vez",
+        "Relacionar a quantidade ao número escrito, de 0 a 20",
+        "Contar só um tipo de tesouro entre outros misturados",
+        "Entender que o zero também é um número"
+      ],
+      "howToPlay": [
+        "Toque em cada tesouro para contar quantos são",
+        "Forje o número que diz quantos tesouros você contou",
+        "Até um pacote vazio tem número: o zero!"
+      ],
+      "learningGoals": [
+        "Eu conto os tesouros tocando em cada um, um de cada vez.",
+        "Eu forjo o número certo, de 0 a 20, para mostrar quantos são.",
+        "Eu sei que, quando o pacote está vazio, o número é o zero."
+      ]
     }
   }
 }

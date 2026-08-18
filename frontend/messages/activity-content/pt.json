@@ -3038,6 +3038,29 @@
         "Eu consigo subtrair minutos e achar que horas eram antes.",
         "Eu consigo virar a hora quando somo ou subtraio e passo de 60 minutos."
       ]
+    },
+    "patchwork-meadow.tile.3-md-c-6": {
+      "about": [
+        "Sprout é um coelho jardineiro que adora plantar canteiros de flores com formatos engraçados — uns parecem a letra L, outros sobem em degraus, feito uma escadinha. Nesta atividade, você ajuda o Sprout a descobrir o tamanho de cada canteiro cobrindo o espaço com quadradinhos de musgo, um encaixado no outro.",
+        "A grande ideia é simples: a área de um canteiro é quantos quadradinhos cabem para cobrir ele todo. Você vai cobrindo sem deixar nenhum buraco e sem colocar um quadradinho em cima do outro. E como esses canteiros são tortos, sem um lado certinho para multiplicar por outro, não dá para usar lado × lado — então a criança mede a área do jeito de verdade: cobrindo o espaço e contando os quadradinhos.",
+        "É de graça e sem cadastro: você abre e já começa a brincar. Não tem cronômetro correndo nem pontuação para deixar ninguém nervoso — só o coelho, os canteiros e o tempo que cada um precisa. A atividade é alinhada à BNCC, na unidade temática Grandezas e medidas, e foi pensada para acompanhar a criança com calma, sem pressa e sem cobrança."
+      ],
+      "practices": [
+        "Cobrir o canteiro todo, sem deixar nenhum buraco",
+        "Não colocar um quadradinho em cima do outro",
+        "Contar os quadradinhos para descobrir a área",
+        "Montar um canteiro com um número exato de quadradinhos"
+      ],
+      "howToPlay": [
+        "Escolha um quadradinho de musgo e arraste para dentro do canteiro do Sprout.",
+        "Vá cobrindo o espaço todo, encaixando os quadradinhos sem buraco e sem sobrepor.",
+        "Conte quantos quadradinhos você usou — esse é o tamanho da área do canteiro."
+      ],
+      "learningGoals": [
+        "Eu meço a área de um canteiro cobrindo ele com quadradinhos e contando quantos usei.",
+        "Eu cubro o espaço sem deixar buraco e sem colocar um quadradinho em cima do outro.",
+        "Eu monto um canteiro com o número certo de quadradinhos para chegar na área que eu quero."
+      ]
     }
   }
 }

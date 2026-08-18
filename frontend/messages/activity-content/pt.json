@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alinhada à BNCC"
   },
   "prose": {
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "O Gus é um esquilo esperto que abriu um carrinho de lanches e vive repondo o estoque e vendendo nozes, sementes e frutinhas. A cada rodada, a criança entra na história dele para descobrir com quantos itens o Gus ficou — uma forma calma e divertida de treinar as contas do dia a dia.",
+        "A brincadeira trabalha somar e subtrair até 100, com e sem reagrupamento. Em cada rodada, a criança lê a historinha, entende se o Gus ganhou ou vendeu itens, monta a conta com os dois números e digita a resposta. Assim ela pratica o valor posicional dos números de dois algarismos e ganha confiança para calcular de cabeça e no papel.",
+        "A atividade é gratuita e interativa, sem cronômetro, sem pontos e sem competição, no seu ritmo. A proposta segue a BNCC na unidade temática Números do 2º ano, ajudando a criança a compreender as operações de adição e subtração e a resolver problemas simples com quantidades até 100."
+      ],
+      "practices": [
+        "Somar e subtrair números de dois algarismos até 100.",
+        "Reagrupar (o famoso “vai um” e o empréstimo) quando a conta pede.",
+        "Ler uma historinha e transformá-la em uma conta de adição ou subtração.",
+        "Reconhecer o valor posicional das dezenas e das unidades."
+      ],
+      "howToPlay": [
+        "Leia a historinha do Gus no quadrinho tracejado e veja se ele vendeu ou ganhou itens.",
+        "Some ou subtraia os dois números da conta, com calma.",
+        "Digite a resposta e siga para a próxima rodada, no seu ritmo."
+      ],
+      "learningGoals": [
+        "Ganhar fluência para somar e subtrair até 100, com e sem reagrupamento.",
+        "Interpretar situações do dia a dia como contas de adição ou subtração.",
+        "Fortalecer a compreensão das dezenas e unidades nos números de dois algarismos."
+      ]
+    },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
         "No Vale do Apito, uma tempestade arrancou os trilhos do trenzinho e espalhou os dormentes numerados pelo caminho. Cada dormente traz um número, e o lugar certo dele está bem ali, na reta numérica que atravessa o vale. A criança sobe no vagonete, lê um dormente de cada vez e recoloca cada peça exatamente onde ela pertence, até a via ficar inteira de novo.",

@@ -3314,6 +3314,29 @@
         "Eu percebo o que vem primeiro, no meio e no fim do dia.",
         "Eu completo a frase com a palavra de tempo certa."
       ]
+    },
+    "booker-glossary-desk.guide-words.l-2-4-e": {
+      "about": [
+        "O urso Booker adora o dicionário dele, e agora ele quer mostrar uma página bem de pertinho para você. Lá no alto da página tem duas palavras especiais, uma na esquerda e outra na direita: são as palavras-guia. Elas contam quais palavras moram naquela página, sempre em ordem alfabética. A criança olha as cartinhas de palavras e toca naquela que fica bem no meio das duas. Por exemplo, entre \"cama\" e \"cara\", a palavra \"capa\" fica no meio, porque, comparando letra por letra, o P vem depois do M e antes do R.",
+        "Nesta atividade, a criança pratica usar as palavras-guia para descobrir onde uma palavra estaria no dicionário. Ela aprende a comparar as palavras letra por letra: primeiro a primeira letra, depois a segunda, depois a terceira, até achar o lugar certinho. Assim, a ordem alfabética do dicionário vai ficando cada vez mais fácil de entender. E dá para perceber que aos poucos a brincadeira fica um pouquinho mais desafiadora: primeiro as palavras têm a primeira letra igual, e depois têm a primeira e a segunda letra iguais, então é preciso olhar com bastante atenção.",
+        "É uma atividade totalmente gratuita, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição: cada criança vai no seu próprio ritmo, com calma e sem medo de errar. Quando a resposta não é a certa, o Booker dá uma dica gentil e convida a tentar de novo, com carinho. O conteúdo está alinhado à BNCC, no eixo \"Análise linguística/semiótica\" (Língua Portuguesa), para o 3º ano, ajudando a criança a aprender a usar o dicionário no dia a dia."
+      ],
+      "practices": [
+        "Usar as palavras-guia para achar uma palavra no dicionário.",
+        "Comparar as palavras letra por letra: a primeira, a segunda, a terceira.",
+        "Colocar as palavras em ordem alfabética.",
+        "Descobrir qual palavra fica na página, entre as duas palavras-guia."
+      ],
+      "howToPlay": [
+        "Leia as duas palavras-guia no alto da página do Booker.",
+        "Toque na palavra que fica entre elas, em ordem alfabética.",
+        "Depois, toque em \"Verificar\" para ver se acertou."
+      ],
+      "learningGoals": [
+        "Eu sei usar as palavras-guia do dicionário.",
+        "Eu comparo as palavras letra por letra para achar o lugar delas.",
+        "Eu coloco as palavras em ordem alfabética."
+      ]
     }
   }
 }

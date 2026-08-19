@@ -3,89 +3,1194 @@
     "id": "point-of-view.who-told.rl-1-6",
     "tool": "point-of-view-activity",
     "task_template": "point-of-view",
-    "alignment": { "framework": "CCSS", "code": "RL.1.6", "grade": "1", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.1.6",
+      "grade": "1",
+      "strand": "Reading: Literature"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "pv-boat",  "event": "A red boat sailed into the harbor.", "line": "The boat looked like a tiny dot, far away.", "view": "high",
-          "chars": [ {"id":"a","name":"Gull","glyph":"bird","pos":"high"}, {"id":"b","name":"Mim","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Bru","glyph":"friend","pos":"low"} ] },
-        { "id": "pv-wave",  "event": "A big wave rolled in.", "line": "The wave splashed right over me!", "view": "low",
-          "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Hop","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mim","glyph":"mouse","pos":"low"} ] },
-        { "id": "pv-fish",  "event": "A fish jumped in the bay.", "line": "The fish was just a tiny speck down below.", "view": "high",
-          "chars": [ {"id":"a","name":"Mim","glyph":"mouse","pos":"high"}, {"id":"b","name":"Bru","glyph":"friend","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] },
-        { "id": "pv-gull",  "event": "A seagull swooped past.", "line": "It zoomed right past my nose!", "view": "low",
-          "chars": [ {"id":"a","name":"Gull","glyph":"bird","pos":"high"}, {"id":"b","name":"Mim","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Hop","glyph":"bunny","pos":"low"} ] },
-        { "id": "pv-town",  "event": "The town lit up at night.", "line": "I could see the whole town, tiny far below.", "view": "high",
-          "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Gull","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mim","glyph":"mouse","pos":"low"} ] },
-        { "id": "pv-crab",  "event": "A crab scuttled by.", "line": "The crab was huge, right next to me.", "view": "low",
-          "chars": [ {"id":"a","name":"Hop","glyph":"bunny","pos":"high"}, {"id":"b","name":"Bru","glyph":"friend","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] },
-        { "id": "pv-sail",  "event": "A sailboat raced past.", "line": "The sailboat looked teeny-tiny, far off.", "view": "high",
-          "chars": [ {"id":"a","name":"Hop","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mim","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Bru","glyph":"friend","pos":"low"} ] },
-        { "id": "pv-jelly", "event": "A jellyfish drifted by.", "line": "The jellyfish was right under me, big and close.", "view": "low",
-          "chars": [ {"id":"a","name":"Bru","glyph":"friend","pos":"high"}, {"id":"b","name":"Gull","glyph":"bird","pos":"mid"}, {"id":"c","name":"Hop","glyph":"bunny","pos":"low"} ] },
-        { "id": "pv-ship",  "event": "A big ship crossed the sea.", "line": "The ship was so small, way out far.", "view": "high",
-          "chars": [ {"id":"a","name":"Mim","glyph":"mouse","pos":"high"}, {"id":"b","name":"Hop","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Gull","glyph":"bird","pos":"low"} ] }
+        {
+          "id": "pv-boat",
+          "event": "A red boat sailed into the harbor.",
+          "line": "The boat looked like a tiny dot, far away.",
+          "view": "high",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-wave",
+          "event": "A big wave rolled in.",
+          "line": "The wave splashed right over me!",
+          "view": "low",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Hop",
+              "glyph": "bunny",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-fish",
+          "event": "A fish jumped in the bay.",
+          "line": "The fish was just a tiny speck down below.",
+          "view": "high",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-gull",
+          "event": "A seagull swooped past.",
+          "line": "It zoomed right past my nose!",
+          "view": "low",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Hop",
+              "glyph": "bunny",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-town",
+          "event": "The town lit up at night.",
+          "line": "I could see the whole town, tiny far below.",
+          "view": "high",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-crab",
+          "event": "A crab scuttled by.",
+          "line": "The crab was huge, right next to me.",
+          "view": "low",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Hop",
+              "glyph": "bunny",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-sail",
+          "event": "A sailboat raced past.",
+          "line": "The sailboat looked teeny-tiny, far off.",
+          "view": "high",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Hop",
+              "glyph": "bunny",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-jelly",
+          "event": "A jellyfish drifted by.",
+          "line": "The jellyfish was right under me, big and close.",
+          "view": "low",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Bru",
+              "glyph": "friend",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Hop",
+              "glyph": "bunny",
+              "pos": "low"
+            }
+          ]
+        },
+        {
+          "id": "pv-ship",
+          "event": "A big ship crossed the sea.",
+          "line": "The ship was so small, way out far.",
+          "view": "high",
+          "chars": [
+            {
+              "id": "a",
+              "name": "Mim",
+              "glyph": "mouse",
+              "pos": "high"
+            },
+            {
+              "id": "b",
+              "name": "Hop",
+              "glyph": "bunny",
+              "pos": "mid"
+            },
+            {
+              "id": "c",
+              "name": "Gull",
+              "glyph": "bird",
+              "pos": "low"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "pv-boat",  "event": "Ein rotes Boot fuhr in den Hafen.", "line": "Das Boot war nur ein winziger Punkt, weit weg.", "view": "high",
-            "chars": [ {"id":"a","name":"Pip","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Ben","glyph":"friend","pos":"low"} ] },
-          { "id": "pv-wave",  "event": "Eine große Welle rollte heran.", "line": "Die Welle spritzte direkt über mich!", "view": "low",
-            "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Hoppel","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
-          { "id": "pv-fish",  "event": "Ein Fisch sprang in der Bucht.", "line": "Der Fisch war nur ein winziger Fleck, tief unten.", "view": "high",
-            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Ben","glyph":"friend","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] },
-          { "id": "pv-gull",  "event": "Eine Möwe flog vorbei.", "line": "Sie sauste direkt an meiner Nase vorbei!", "view": "low",
-            "chars": [ {"id":"a","name":"Pip","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Hoppel","glyph":"bunny","pos":"low"} ] },
-          { "id": "pv-town",  "event": "Nachts leuchtete die ganze Stadt.", "line": "Ich sah die ganze Stadt, winzig klein, tief unten.", "view": "high",
-            "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Pip","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
-          { "id": "pv-crab",  "event": "Eine Krabbe krabbelte vorbei.", "line": "Die Krabbe war riesig, direkt neben mir.", "view": "low",
-            "chars": [ {"id":"a","name":"Hoppel","glyph":"bunny","pos":"high"}, {"id":"b","name":"Ben","glyph":"friend","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] },
-          { "id": "pv-sail",  "event": "Ein Segelboot flitzte vorbei.", "line": "Das Segelboot war winzig klein, weit weg.", "view": "high",
-            "chars": [ {"id":"a","name":"Hoppel","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Ben","glyph":"friend","pos":"low"} ] },
-          { "id": "pv-jelly", "event": "Eine Qualle trieb vorbei.", "line": "Die Qualle war direkt unter mir, groß und ganz nah.", "view": "low",
-            "chars": [ {"id":"a","name":"Ben","glyph":"friend","pos":"high"}, {"id":"b","name":"Pip","glyph":"bird","pos":"mid"}, {"id":"c","name":"Hoppel","glyph":"bunny","pos":"low"} ] },
-          { "id": "pv-ship",  "event": "Ein großes Schiff fuhr über das Meer.", "line": "Das Schiff war so klein, ganz weit draußen.", "view": "high",
-            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Hoppel","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Pip","glyph":"bird","pos":"low"} ] }
+          {
+            "id": "pv-boat",
+            "event": "Ein rotes Boot fuhr in den Hafen.",
+            "line": "Das Boot war nur ein winziger Punkt, weit weg.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-wave",
+            "event": "Eine große Welle rollte heran.",
+            "line": "Die Welle spritzte direkt über mich!",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Hoppel",
+                "glyph": "bunny",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-fish",
+            "event": "Ein Fisch sprang in der Bucht.",
+            "line": "Der Fisch war nur ein winziger Fleck, tief unten.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-gull",
+            "event": "Eine Möwe flog vorbei.",
+            "line": "Sie sauste direkt an meiner Nase vorbei!",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Hoppel",
+                "glyph": "bunny",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-town",
+            "event": "Nachts leuchtete die ganze Stadt.",
+            "line": "Ich sah die ganze Stadt, winzig klein, tief unten.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-crab",
+            "event": "Eine Krabbe krabbelte vorbei.",
+            "line": "Die Krabbe war riesig, direkt neben mir.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Hoppel",
+                "glyph": "bunny",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-sail",
+            "event": "Ein Segelboot flitzte vorbei.",
+            "line": "Das Segelboot war winzig klein, weit weg.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Hoppel",
+                "glyph": "bunny",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-jelly",
+            "event": "Eine Qualle trieb vorbei.",
+            "line": "Die Qualle war direkt unter mir, groß und ganz nah.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Ben",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Hoppel",
+                "glyph": "bunny",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-ship",
+            "event": "Ein großes Schiff fuhr über das Meer.",
+            "line": "Das Schiff war so klein, ganz weit draußen.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Hoppel",
+                "glyph": "bunny",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pip",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "pv-boat",  "event": "Un bateau rouge est entré dans le port.", "line": "Le bateau ressemblait à un tout petit point, très loin.", "view": "high",
-            "chars": [ {"id":"a","name":"Plume","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Nino","glyph":"friend","pos":"low"} ] },
-          { "id": "pv-wave",  "event": "Une grande vague est arrivée.", "line": "La vague m'a éclaboussé, juste au-dessus de moi !", "view": "low",
-            "chars": [ {"id":"a","name":"Nino","glyph":"friend","pos":"high"}, {"id":"b","name":"Pompon","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
-          { "id": "pv-fish",  "event": "Un poisson a sauté dans la baie.", "line": "Le poisson n'était qu'un tout petit point, tout en bas.", "view": "high",
-            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Nino","glyph":"friend","pos":"mid"}, {"id":"c","name":"Plume","glyph":"bird","pos":"low"} ] },
-          { "id": "pv-gull",  "event": "Une mouette est passée en piqué.", "line": "Elle est passée juste devant mon nez !", "view": "low",
-            "chars": [ {"id":"a","name":"Plume","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Pompon","glyph":"bunny","pos":"low"} ] },
-          { "id": "pv-town",  "event": "La ville s'est illuminée la nuit.", "line": "Je voyais toute la ville, minuscule, tout en bas.", "view": "high",
-            "chars": [ {"id":"a","name":"Nino","glyph":"friend","pos":"high"}, {"id":"b","name":"Plume","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
-          { "id": "pv-crab",  "event": "Un crabe est passé en trottinant.", "line": "Le crabe était énorme, juste à côté de moi.", "view": "low",
-            "chars": [ {"id":"a","name":"Pompon","glyph":"bunny","pos":"high"}, {"id":"b","name":"Nino","glyph":"friend","pos":"mid"}, {"id":"c","name":"Plume","glyph":"bird","pos":"low"} ] },
-          { "id": "pv-sail",  "event": "Un voilier est passé à toute vitesse.", "line": "Le voilier semblait tout petit, très loin.", "view": "high",
-            "chars": [ {"id":"a","name":"Pompon","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Nino","glyph":"friend","pos":"low"} ] },
-          { "id": "pv-jelly", "event": "Une méduse a dérivé tout près.", "line": "La méduse était juste sous moi, grosse et tout près.", "view": "low",
-            "chars": [ {"id":"a","name":"Nino","glyph":"friend","pos":"high"}, {"id":"b","name":"Plume","glyph":"bird","pos":"mid"}, {"id":"c","name":"Pompon","glyph":"bunny","pos":"low"} ] },
-          { "id": "pv-ship",  "event": "Un grand navire a traversé la mer.", "line": "Le navire était tout petit, très loin là-bas.", "view": "high",
-            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Pompon","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Plume","glyph":"bird","pos":"low"} ] }
+          {
+            "id": "pv-boat",
+            "event": "Un bateau rouge est entré dans le port.",
+            "line": "Le bateau ressemblait à un tout petit point, très loin.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-wave",
+            "event": "Une grande vague est arrivée.",
+            "line": "La vague m'a éclaboussé, juste au-dessus de moi !",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Pompon",
+                "glyph": "bunny",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-fish",
+            "event": "Un poisson a sauté dans la baie.",
+            "line": "Le poisson n'était qu'un tout petit point, tout en bas.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-gull",
+            "event": "Une mouette est passée en piqué.",
+            "line": "Elle est passée juste devant mon nez !",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pompon",
+                "glyph": "bunny",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-town",
+            "event": "La ville s'est illuminée la nuit.",
+            "line": "Je voyais toute la ville, minuscule, tout en bas.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-crab",
+            "event": "Un crabe est passé en trottinant.",
+            "line": "Le crabe était énorme, juste à côté de moi.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pompon",
+                "glyph": "bunny",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-sail",
+            "event": "Un voilier est passé à toute vitesse.",
+            "line": "Le voilier semblait tout petit, très loin.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pompon",
+                "glyph": "bunny",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-jelly",
+            "event": "Une méduse a dérivé tout près.",
+            "line": "La méduse était juste sous moi, grosse et tout près.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pompon",
+                "glyph": "bunny",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-ship",
+            "event": "Un grand navire a traversé la mer.",
+            "line": "Le navire était tout petit, très loin là-bas.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Pompon",
+                "glyph": "bunny",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Plume",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          }
         ],
         "es": [
-          { "id": "pv-boat",  "event": "Una lancha roja llegó al puerto.", "line": "La lancha se veía como un puntito, allá lejos.", "view": "high",
-            "chars": [ {"id":"a","name":"Pío","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Lalo","glyph":"friend","pos":"low"} ] },
-          { "id": "pv-wave",  "event": "Llegó una ola grande.", "line": "¡La ola se veía enorme y me salpicó!", "view": "low",
-            "chars": [ {"id":"a","name":"Lalo","glyph":"friend","pos":"high"}, {"id":"b","name":"Brinco","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
-          { "id": "pv-fish",  "event": "Un pez saltó en la bahía.", "line": "El pez era solo un puntito, allá abajo.", "view": "high",
-            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Lalo","glyph":"friend","pos":"mid"}, {"id":"c","name":"Pío","glyph":"bird","pos":"low"} ] },
-          { "id": "pv-gull",  "event": "Una gaviota pasó volando.", "line": "¡Se veía enorme y pasó justo frente a mi nariz!", "view": "low",
-            "chars": [ {"id":"a","name":"Pío","glyph":"bird","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Brinco","glyph":"bunny","pos":"low"} ] },
-          { "id": "pv-town",  "event": "De noche, el pueblo se llenó de luces.", "line": "Vi todo el pueblo, muy pequeño, allá abajo.", "view": "high",
-            "chars": [ {"id":"a","name":"Lalo","glyph":"friend","pos":"high"}, {"id":"b","name":"Pío","glyph":"bird","pos":"mid"}, {"id":"c","name":"Mimi","glyph":"mouse","pos":"low"} ] },
-          { "id": "pv-crab",  "event": "Un cangrejo pasó caminando de lado.", "line": "El cangrejo se veía enorme, justo junto a mí.", "view": "low",
-            "chars": [ {"id":"a","name":"Brinco","glyph":"bunny","pos":"high"}, {"id":"b","name":"Lalo","glyph":"friend","pos":"mid"}, {"id":"c","name":"Pío","glyph":"bird","pos":"low"} ] },
-          { "id": "pv-sail",  "event": "Un velero pasó a toda velocidad.", "line": "El velero se veía pequeñito, muy lejos.", "view": "high",
-            "chars": [ {"id":"a","name":"Brinco","glyph":"bunny","pos":"high"}, {"id":"b","name":"Mimi","glyph":"mouse","pos":"mid"}, {"id":"c","name":"Lalo","glyph":"friend","pos":"low"} ] },
-          { "id": "pv-jelly", "event": "Una medusa flotó cerca.", "line": "La medusa pasó bien cerca y se veía enorme.", "view": "low",
-            "chars": [ {"id":"a","name":"Lalo","glyph":"friend","pos":"high"}, {"id":"b","name":"Pío","glyph":"bird","pos":"mid"}, {"id":"c","name":"Brinco","glyph":"bunny","pos":"low"} ] },
-          { "id": "pv-ship",  "event": "Un barco grande cruzó el mar.", "line": "El barco se veía muy pequeño, allá lejos en el mar.", "view": "high",
-            "chars": [ {"id":"a","name":"Mimi","glyph":"mouse","pos":"high"}, {"id":"b","name":"Brinco","glyph":"bunny","pos":"mid"}, {"id":"c","name":"Pío","glyph":"bird","pos":"low"} ] }
+          {
+            "id": "pv-boat",
+            "event": "Una lancha roja llegó al puerto.",
+            "line": "La lancha se veía como un puntito, allá lejos.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-wave",
+            "event": "Llegó una ola grande.",
+            "line": "¡La ola se veía enorme y me salpicó!",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Brinco",
+                "glyph": "bunny",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-fish",
+            "event": "Un pez saltó en la bahía.",
+            "line": "El pez era solo un puntito, allá abajo.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-gull",
+            "event": "Una gaviota pasó volando.",
+            "line": "¡Se veía enorme y pasó justo frente a mi nariz!",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Brinco",
+                "glyph": "bunny",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-town",
+            "event": "De noche, el pueblo se llenó de luces.",
+            "line": "Vi todo el pueblo, muy pequeño, allá abajo.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-crab",
+            "event": "Un cangrejo pasó caminando de lado.",
+            "line": "El cangrejo se veía enorme, justo junto a mí.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Brinco",
+                "glyph": "bunny",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-sail",
+            "event": "Un velero pasó a toda velocidad.",
+            "line": "El velero se veía pequeñito, muy lejos.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Brinco",
+                "glyph": "bunny",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-jelly",
+            "event": "Una medusa flotó cerca.",
+            "line": "La medusa pasó bien cerca y se veía enorme.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Lalo",
+                "glyph": "friend",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Brinco",
+                "glyph": "bunny",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-ship",
+            "event": "Un barco grande cruzó el mar.",
+            "line": "El barco se veía muy pequeño, allá lejos en el mar.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mimi",
+                "glyph": "mouse",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Brinco",
+                "glyph": "bunny",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Pío",
+                "glyph": "bird",
+                "pos": "low"
+              }
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "pv-boat",
+            "event": "Um barquinho passou pertinho do farol.",
+            "line": "O barco era só um pontinho, lá longe.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Lila",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Tito",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Bento",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-wave",
+            "event": "Uma onda grande subiu pela pedra do farol.",
+            "line": "A onda enorme me molhou todo!",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Duda",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Nina",
+                "glyph": "friend",
+                "pos": "low"
+              },
+              {
+                "id": "c",
+                "name": "Gael",
+                "glyph": "mouse",
+                "pos": "mid"
+              }
+            ]
+          },
+          {
+            "id": "pv-fish",
+            "event": "Um peixe nadou lá no fundo do mar.",
+            "line": "O peixe era um risquinho lá no fundo.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Caco",
+                "glyph": "friend",
+                "pos": "low"
+              },
+              {
+                "id": "b",
+                "name": "Bia",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Rita",
+                "glyph": "bird",
+                "pos": "high"
+              }
+            ]
+          },
+          {
+            "id": "pv-gull",
+            "event": "Uma gaivota voou rente à água.",
+            "line": "A gaivota passou enorme, bem pertinho de mim.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Zeca",
+                "glyph": "bunny",
+                "pos": "low"
+              },
+              {
+                "id": "b",
+                "name": "Téo",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "c",
+                "name": "Lulu",
+                "glyph": "mouse",
+                "pos": "mid"
+              }
+            ]
+          },
+          {
+            "id": "pv-town",
+            "event": "A cidadezinha ficava lá longe, na beira do mar.",
+            "line": "As casinhas eram pequenininhas, lá longe.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Mel",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "b",
+                "name": "Zizi",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "c",
+                "name": "Cacá",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-crab",
+            "event": "Um caranguejo andou na areia molhada.",
+            "line": "O caranguejo passou gigante, bem debaixo de mim.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Fifi",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Dinho",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Nino",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-sail",
+            "event": "Um veleiro deslizou bem longe no mar.",
+            "line": "A vela era só um pontinho branco, lá longe.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Lola",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Juca",
+                "glyph": "friend",
+                "pos": "low"
+              },
+              {
+                "id": "c",
+                "name": "Tuca",
+                "glyph": "mouse",
+                "pos": "mid"
+              }
+            ]
+          },
+          {
+            "id": "pv-jelly",
+            "event": "Uma água-viva boiou rente à pedra.",
+            "line": "A água-viva passou enorme, coladinha em mim.",
+            "view": "low",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Bel",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "b",
+                "name": "Kiko",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "c",
+                "name": "Mila",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          },
+          {
+            "id": "pv-ship",
+            "event": "Um navio enorme cruzou o horizonte.",
+            "line": "O navio parecia minúsculo, lá no fim do mar.",
+            "view": "high",
+            "chars": [
+              {
+                "id": "a",
+                "name": "Pepe",
+                "glyph": "bird",
+                "pos": "high"
+              },
+              {
+                "id": "b",
+                "name": "Zuzu",
+                "glyph": "mouse",
+                "pos": "mid"
+              },
+              {
+                "id": "c",
+                "name": "Nenê",
+                "glyph": "friend",
+                "pos": "low"
+              }
+            ]
+          }
         ]
       }
     },
@@ -93,19 +1198,22 @@
       "en": "point-of-view-who-is-telling",
       "de": "aus-wessen-sicht-erzaehlperspektive-erkennen-klasse-2",
       "fr": "identifier-le-point-de-vue-qui-raconte-ce1",
-      "es": "quien-lo-cuenta-desde-arriba-o-desde-abajo-primer-grado"
+      "es": "quien-lo-cuenta-desde-arriba-o-desde-abajo-primer-grado",
+      "pt": "de-que-janela-foi-contada-ponto-de-vista-1-ano"
     },
     "page_title": {
       "en": "Lumen's Lighthouse Windows — Point of View (Grade 1)",
       "de": "Aus wessen Sicht? Erzählperspektive erkennen",
       "fr": "Le phare de Lumen : de quelle fenêtre ? (CE1)",
-      "es": "¿Quién lo cuenta? Desde arriba o desde abajo · Primer grado"
+      "es": "¿Quién lo cuenta? Desde arriba o desde abajo · Primer grado",
+      "pt": "De qual janela? Ponto de vista · 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: help Lumen the owl figure out who is telling the story. Each creature watches the harbor from a window at a different height — high up, things look tiny and far; down low, they look big and close. Read what the storyteller saw, then tap the window it was told from. A friendly first look at point of view. Common Core RL.1.6.",
       "de": "Lies die Zeile, tippe das richtige Fenster & entdecke, aus wessen Sicht erzählt wird – ein kostenloses, interaktives Leseabenteuer für Klasse 2.",
       "fr": "Un jeu de lecture CE1, gratuit et interactif : aide Lumen le hibou à trouver de quelle fenêtre l'histoire est racontée. Chaque animal regarde le port depuis une fenêtre à une hauteur différente — tout en haut, les choses paraissent minuscules et lointaines ; tout en bas, énormes et toutes proches. Ton enfant lit ce que le conteur a vu, puis touche la fenêtre d'où c'est raconté. Un premier pas tout doux vers le point de vue.",
-      "es": "Lee la frase y descubre quién la dice: «La lancha se veía como un puntito». Arriba se ve pequeño; abajo, enorme. Actividad en línea gratis, sin registro."
+      "es": "Lee la frase y descubre quién la dice: «La lancha se veía como un puntito». Arriba se ve pequeño; abajo, enorme. Actividad en línea gratis, sin registro.",
+      "pt": "Com a coruja Luzia, no alto de um farol, a criança lê uma frase e toca na janela de onde ela foi contada — lá do alto tudo parece pequenininho e longe, lá embaixo tudo parece enorme e bem perto. Um primeiro olhar, concreto e leve, sobre o ponto de vista de quem conta a história. Grátis, sem cadastro. Alinhada à BNCC, 1º ano."
     },
     "kid_prompt_template": "point-of-view"
   }

@@ -330,14 +330,216 @@
           }
         ],
         "es": [
-          { "id": "semilla", "band": 1, "mode": "sequence", "stem": "Primero, plantas una semilla.", "question": "¿Qué pasa después?", "answer": "Crece una planta.", "options": ["Crece una planta.", "Un perro ladra.", "El gato duerme."] },
-          { "id": "huevo", "band": 1, "mode": "sequence", "stem": "Primero, un pájaro pone un huevo.", "question": "¿Qué pasa después?", "answer": "Nace un pollito.", "options": ["Nace un pollito.", "Cae la nieve.", "Suena un tambor."] },
-          { "id": "manos", "band": 1, "mode": "sequence", "stem": "Primero, te lavas las manos.", "question": "¿Qué pasa después?", "answer": "Te las secas.", "options": ["Te las secas.", "Andas en bici.", "Vuela una paloma."] },
-          { "id": "sueno", "band": 2, "mode": "sequence", "stem": "Primero, tienes sueño.", "question": "¿Qué pasa después?", "answer": "Te acuestas.", "options": ["Te acuestas.", "Pintas una barda.", "Saltas muy alto."] },
-          { "id": "sol", "band": 2, "mode": "cause", "stem": "El sol calienta la nieve.", "question": "Por eso, ¿qué pasa?", "answer": "La nieve se derrite.", "options": ["La nieve se derrite.", "Suena una campana.", "Canta un pájaro."] },
-          { "id": "lluvia", "band": 2, "mode": "cause", "stem": "Llueve sobre el pasto seco.", "question": "Por eso, ¿qué pasa?", "answer": "El pasto se moja.", "options": ["El pasto se moja.", "El gato maúlla.", "Suena un timbre."] },
-          { "id": "columpio", "band": 3, "mode": "cause", "stem": "Empujas fuerte el columpio.", "question": "Por eso, ¿qué pasa?", "answer": "El columpio sube alto.", "options": ["El columpio sube alto.", "Se prende una lámpara.", "Corre un perro."] },
-          { "id": "congelador", "band": 3, "mode": "cause", "stem": "Dejas el jugo en el congelador.", "question": "Por eso, ¿qué pasa?", "answer": "El jugo se congela.", "options": ["El jugo se congela.", "Vuela una mosca.", "Cae una hoja."] }
+          {
+            "id": "semilla",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Primero, plantas una semilla.",
+            "question": "¿Qué pasa después?",
+            "answer": "Crece una planta.",
+            "options": [
+              "Crece una planta.",
+              "Un perro ladra.",
+              "El gato duerme."
+            ]
+          },
+          {
+            "id": "huevo",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Primero, un pájaro pone un huevo.",
+            "question": "¿Qué pasa después?",
+            "answer": "Nace un pollito.",
+            "options": [
+              "Nace un pollito.",
+              "Cae la nieve.",
+              "Suena un tambor."
+            ]
+          },
+          {
+            "id": "manos",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Primero, te lavas las manos.",
+            "question": "¿Qué pasa después?",
+            "answer": "Te las secas.",
+            "options": [
+              "Te las secas.",
+              "Andas en bici.",
+              "Vuela una paloma."
+            ]
+          },
+          {
+            "id": "sueno",
+            "band": 2,
+            "mode": "sequence",
+            "stem": "Primero, tienes sueño.",
+            "question": "¿Qué pasa después?",
+            "answer": "Te acuestas.",
+            "options": [
+              "Te acuestas.",
+              "Pintas una barda.",
+              "Saltas muy alto."
+            ]
+          },
+          {
+            "id": "sol",
+            "band": 2,
+            "mode": "cause",
+            "stem": "El sol calienta la nieve.",
+            "question": "Por eso, ¿qué pasa?",
+            "answer": "La nieve se derrite.",
+            "options": [
+              "La nieve se derrite.",
+              "Suena una campana.",
+              "Canta un pájaro."
+            ]
+          },
+          {
+            "id": "lluvia",
+            "band": 2,
+            "mode": "cause",
+            "stem": "Llueve sobre el pasto seco.",
+            "question": "Por eso, ¿qué pasa?",
+            "answer": "El pasto se moja.",
+            "options": [
+              "El pasto se moja.",
+              "El gato maúlla.",
+              "Suena un timbre."
+            ]
+          },
+          {
+            "id": "columpio",
+            "band": 3,
+            "mode": "cause",
+            "stem": "Empujas fuerte el columpio.",
+            "question": "Por eso, ¿qué pasa?",
+            "answer": "El columpio sube alto.",
+            "options": [
+              "El columpio sube alto.",
+              "Se prende una lámpara.",
+              "Corre un perro."
+            ]
+          },
+          {
+            "id": "congelador",
+            "band": 3,
+            "mode": "cause",
+            "stem": "Dejas el jugo en el congelador.",
+            "question": "Por eso, ¿qué pasa?",
+            "answer": "El jugo se congela.",
+            "options": [
+              "El jugo se congela.",
+              "Vuela una mosca.",
+              "Cae una hoja."
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "semente-planta",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Primeiro, plantamos uma semente na terra.",
+            "question": "O que acontece depois?",
+            "answer": "Depois, nasce uma plantinha.",
+            "options": [
+              "Depois, nasce uma plantinha.",
+              "O gato dorme enrolado no sofá.",
+              "O sino da escola toca."
+            ]
+          },
+          {
+            "id": "ovo-pintinho",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Primeiro, a galinha choca o ovo.",
+            "question": "O que acontece depois?",
+            "answer": "Depois, nasce um pintinho.",
+            "options": [
+              "A bola rola pela grama.",
+              "O menino come uma maçã bem doce.",
+              "Depois, nasce um pintinho."
+            ]
+          },
+          {
+            "id": "lavar-maos",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Primeiro, você lava as mãos com sabão.",
+            "question": "O que acontece depois?",
+            "answer": "As mãos ficam bem limpas.",
+            "options": [
+              "O cachorro late no quintal.",
+              "As mãos ficam bem limpas.",
+              "A janela está bem aberta."
+            ]
+          },
+          {
+            "id": "regar-crescer",
+            "band": 2,
+            "mode": "sequence",
+            "stem": "Primeiro, regamos a plantinha com água.",
+            "question": "O que acontece depois?",
+            "answer": "A plantinha cresce mais forte.",
+            "options": [
+              "O carro passa correndo pela rua.",
+              "A vovó lê um livro.",
+              "A plantinha cresce mais forte."
+            ]
+          },
+          {
+            "id": "sol-gelo",
+            "band": 2,
+            "mode": "cause",
+            "stem": "O sol forte brilha sobre o gelo.",
+            "question": "Por causa disso, o que acontece?",
+            "answer": "O gelo derrete e vira água.",
+            "options": [
+              "O gelo derrete e vira água.",
+              "O pássaro voa bem alto.",
+              "A porta faz um barulho."
+            ]
+          },
+          {
+            "id": "chuva-poca",
+            "band": 2,
+            "mode": "cause",
+            "stem": "A chuva cai forte no quintal.",
+            "question": "Por causa disso, o que acontece?",
+            "answer": "Poças de água aparecem no chão.",
+            "options": [
+              "A borboleta pousa na flor.",
+              "Poças de água aparecem no chão.",
+              "O relógio marca a hora certa."
+            ]
+          },
+          {
+            "id": "soprar-vela",
+            "band": 3,
+            "mode": "cause",
+            "stem": "Você sopra bem forte a velinha.",
+            "question": "Por causa disso, o que acontece?",
+            "answer": "A chama da vela se apaga.",
+            "options": [
+              "O peixe nada dentro do aquário.",
+              "A criança pula bem alto.",
+              "A chama da vela se apaga."
+            ]
+          },
+          {
+            "id": "empurrar-balanco",
+            "band": 3,
+            "mode": "cause",
+            "stem": "O papai empurra o balanço para frente.",
+            "question": "Por causa disso, o que acontece?",
+            "answer": "O balanço vai e volta no ar.",
+            "options": [
+              "O balanço vai e volta no ar.",
+              "A formiga carrega uma folha.",
+              "O sorvete está bem gelado."
+            ]
+          }
         ]
       }
     },
@@ -346,19 +548,22 @@
       "en": "linc-fact-chain",
       "de": "ursache-und-wirkung-reihenfolge-sachtexte-verstehen-klasse-2",
       "fr": "relier-deux-faits-cause-et-consequence-ce1",
-      "es": "causa-y-efecto-secuencia-de-hechos-comprension-lectora-segundo-grado"
+      "es": "causa-y-efecto-secuencia-de-hechos-comprension-lectora-segundo-grado",
+      "pt": "corrente-de-fatos-sequencia-e-causa-e-efeito"
     },
     "page_title": {
       "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)",
       "de": "Lesetexte Klasse 2 – Sachtexte online lesen und verstehen",
       "fr": "Lecture compréhension CE1 – relier les faits en ligne",
-      "es": "Causa y efecto y secuencia de hechos · 2.º grado"
+      "es": "Causa y efecto y secuencia de hechos · 2.º grado",
+      "pt": "A corrente de fatos do Elo — sequência e causa e efeito"
     },
     "page_intro": {
       "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.",
       "de": "Lesetexte für Klasse 2: Sachtexte lesen, Reihenfolge und Ursache-Wirkung verstehen. Kostenlos online üben, ohne Anmeldung – Leseverständnis stärken.",
       "fr": "Lecture et compréhension au CE1 : relier deux faits d'un texte documentaire avec Linc. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratis: el niño lee un hecho y toca el que se relaciona por secuencia (qué pasa después) o causa y efecto. Para 2.º grado."
+      "es": "Actividad interactiva y gratis: el niño lee un hecho y toca el que se relaciona por secuencia (qué pasa después) o causa y efecto. Para 2.º grado.",
+      "pt": "Entre na corrente de fatos do lagarto Elo! A criança lê um primeiro fato e toca no fato que se conecta a ele — o que acontece depois (sequência) ou o que uma coisa faz acontecer (causa e efeito). É uma forma divertida de aprender a relacionar ideias e entender textos informativos. Grátis, sem cadastro, no ritmo da criança, com um botão 🔊 para ouvir cada fato. Alinhado à BNCC, nos primeiros anos."
     },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }

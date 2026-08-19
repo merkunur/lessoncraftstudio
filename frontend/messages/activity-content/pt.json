@@ -3751,6 +3751,29 @@
         "Eu encontro no texto a prova de uma característica do personagem.",
         "Eu percebo a diferença entre uma prova de verdade e um detalhe que não prova nada."
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "O Elo é um lagarto que adora ligar os fatos, um atrás do outro, como os elos de uma corrente. Nesta atividade, a criança lê um primeiro fato e toca no fato que se conecta a ele. Por exemplo: se plantamos uma semente, depois nasce uma planta — esse é o elo certo, e não algo solto como \"O passarinho canta.\". Os fatos se ligam de dois jeitos: pelo que vem depois (sequência) e pelo que uma coisa faz acontecer (causa e efeito).",
+        "São duas maneiras de relacionar os fatos. Na sequência, a criança pensa no que acontece depois: primeiro a galinha choca o ovo, depois nasce o pintinho. Na causa e efeito, ela pensa por que uma coisa acontece: por causa do sol quente, o gelo derrete. Relacionar fatos assim é uma das chaves para entender textos informativos — o leitor percebe como as ideias se encaixam e por que uma leva à outra, em vez de ver frases separadas.",
+        "A atividade é gratuita, sem login e sem cadastro. Não há tempo correndo, pontos nem competição — só a criança, o Elo e a corrente de fatos, no ritmo dela. Um botão 🔊 lê o primeiro fato em voz alta, ajudando quem ainda está aprendendo a ler. O conteúdo é alinhado à BNCC, no eixo de compreensão de textos informativos, trabalhando sequência e causa-e-efeito nos primeiros anos."
+      ],
+      "practices": [
+        "Ligar um fato ao que acontece depois, em ordem de sequência.",
+        "Ligar um fato à sua causa ou ao seu efeito (\"por causa disso...\").",
+        "Separar o fato que se conecta dos fatos que são verdadeiros mas não têm ligação.",
+        "Ouvir o primeiro fato em voz alta e voltar a ele para conferir a resposta."
+      ],
+      "howToPlay": [
+        "Leia (ou ouça, tocando no 🔊) o primeiro fato e a pergunta do Elo.",
+        "Olhe as três cartas de fatos e toque naquela que se liga ao primeiro.",
+        "Se não combinar, tente de novo com calma — pense no que vem depois ou no que a primeira coisa faz acontecer."
+      ],
+      "learningGoals": [
+        "Eu ligo um fato ao que acontece depois dele.",
+        "Eu descubro o que um fato faz acontecer, pensando na causa e no efeito.",
+        "Eu escolho o fato que se conecta e deixo de lado os que não têm ligação."
+      ]
     }
   }
 }

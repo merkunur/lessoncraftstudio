@@ -3,59 +3,543 @@
     "id": "booker-glossary-desk.guide-words.l-2-4-e",
     "tool": "booker-glossary-desk-activity",
     "task_template": "guide-words",
-    "alignment": { "framework": "CCSS", "code": "L.2.4.e", "grade": "2", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.2.4.e",
+      "grade": "2",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "cap-cot", "band": 1, "g1": "cap", "g2": "cot", "words": ["car", "can", "cup"] },
-        { "id": "bat-bug", "band": 1, "g1": "bat", "g2": "bug", "words": ["ant", "bee", "bun"] },
-        { "id": "dad-dog", "band": 1, "g1": "dad", "g2": "dog", "words": ["cat", "dot", "dig"] },
-        { "id": "fan-fox", "band": 2, "g1": "fan", "g2": "fox", "words": ["fig", "egg", "fun"] },
-        { "id": "map-mud", "band": 2, "g1": "map", "g2": "mud", "words": ["man", "mop", "nap"] },
-        { "id": "pat-pup", "band": 2, "g1": "pat", "g2": "pup", "words": ["pad", "rat", "pen"] },
-        { "id": "sea-sit", "band": 3, "g1": "sea", "g2": "sit", "words": ["see", "saw", "sky"] },
-        { "id": "ten-top", "band": 3, "g1": "ten", "g2": "top", "words": ["tag", "tip", "toy"] },
-        { "id": "bed-box", "band": 3, "g1": "bed", "g2": "box", "words": ["bag", "buy", "big"] }
+        {
+          "id": "cap-cot",
+          "band": 1,
+          "g1": "cap",
+          "g2": "cot",
+          "words": [
+            "car",
+            "can",
+            "cup"
+          ]
+        },
+        {
+          "id": "bat-bug",
+          "band": 1,
+          "g1": "bat",
+          "g2": "bug",
+          "words": [
+            "ant",
+            "bee",
+            "bun"
+          ]
+        },
+        {
+          "id": "dad-dog",
+          "band": 1,
+          "g1": "dad",
+          "g2": "dog",
+          "words": [
+            "cat",
+            "dot",
+            "dig"
+          ]
+        },
+        {
+          "id": "fan-fox",
+          "band": 2,
+          "g1": "fan",
+          "g2": "fox",
+          "words": [
+            "fig",
+            "egg",
+            "fun"
+          ]
+        },
+        {
+          "id": "map-mud",
+          "band": 2,
+          "g1": "map",
+          "g2": "mud",
+          "words": [
+            "man",
+            "mop",
+            "nap"
+          ]
+        },
+        {
+          "id": "pat-pup",
+          "band": 2,
+          "g1": "pat",
+          "g2": "pup",
+          "words": [
+            "pad",
+            "rat",
+            "pen"
+          ]
+        },
+        {
+          "id": "sea-sit",
+          "band": 3,
+          "g1": "sea",
+          "g2": "sit",
+          "words": [
+            "see",
+            "saw",
+            "sky"
+          ]
+        },
+        {
+          "id": "ten-top",
+          "band": 3,
+          "g1": "ten",
+          "g2": "top",
+          "words": [
+            "tag",
+            "tip",
+            "toy"
+          ]
+        },
+        {
+          "id": "bed-box",
+          "band": 3,
+          "g1": "bed",
+          "g2": "box",
+          "words": [
+            "bag",
+            "buy",
+            "big"
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "ball-dose", "band": 1, "g1": "Ball", "g2": "Dose", "words": ["Apfel", "Baum", "Ente"] },
-          { "id": "fisch-hund", "band": 1, "g1": "Fisch", "g2": "Hund", "words": ["Gabel", "Ente", "Igel"] },
-          { "id": "katze-ofen", "band": 1, "g1": "Katze", "g2": "Ofen", "words": ["Hund", "Pinsel", "Lampe"] },
-          { "id": "ast-auto", "band": 2, "g1": "Ast", "g2": "Auto", "words": ["Affe", "Auge", "Baum"] },
-          { "id": "berg-boot", "band": 2, "g1": "Berg", "g2": "Boot", "words": ["Banane", "Brot", "Birne"] },
-          { "id": "see-sofa", "band": 2, "g1": "See", "g2": "Sofa", "words": ["Socke", "Sand", "Suppe"] },
-          { "id": "stein-stuhl", "band": 3, "g1": "Stein", "g2": "Stuhl", "words": ["Stadt", "Stern", "Stunde"] },
-          { "id": "blatt-blume", "band": 3, "g1": "Blatt", "g2": "Blume", "words": ["Blitz", "Blase", "Dose"] },
-          { "id": "tanne-tasse", "band": 3, "g1": "Tanne", "g2": "Tasse", "words": ["Tafel", "Taste", "Tasche"] }
+          {
+            "id": "ball-dose",
+            "band": 1,
+            "g1": "Ball",
+            "g2": "Dose",
+            "words": [
+              "Apfel",
+              "Baum",
+              "Ente"
+            ]
+          },
+          {
+            "id": "fisch-hund",
+            "band": 1,
+            "g1": "Fisch",
+            "g2": "Hund",
+            "words": [
+              "Gabel",
+              "Ente",
+              "Igel"
+            ]
+          },
+          {
+            "id": "katze-ofen",
+            "band": 1,
+            "g1": "Katze",
+            "g2": "Ofen",
+            "words": [
+              "Hund",
+              "Pinsel",
+              "Lampe"
+            ]
+          },
+          {
+            "id": "ast-auto",
+            "band": 2,
+            "g1": "Ast",
+            "g2": "Auto",
+            "words": [
+              "Affe",
+              "Auge",
+              "Baum"
+            ]
+          },
+          {
+            "id": "berg-boot",
+            "band": 2,
+            "g1": "Berg",
+            "g2": "Boot",
+            "words": [
+              "Banane",
+              "Brot",
+              "Birne"
+            ]
+          },
+          {
+            "id": "see-sofa",
+            "band": 2,
+            "g1": "See",
+            "g2": "Sofa",
+            "words": [
+              "Socke",
+              "Sand",
+              "Suppe"
+            ]
+          },
+          {
+            "id": "stein-stuhl",
+            "band": 3,
+            "g1": "Stein",
+            "g2": "Stuhl",
+            "words": [
+              "Stadt",
+              "Stern",
+              "Stunde"
+            ]
+          },
+          {
+            "id": "blatt-blume",
+            "band": 3,
+            "g1": "Blatt",
+            "g2": "Blume",
+            "words": [
+              "Blitz",
+              "Blase",
+              "Dose"
+            ]
+          },
+          {
+            "id": "tanne-tasse",
+            "band": 3,
+            "g1": "Tanne",
+            "g2": "Tasse",
+            "words": [
+              "Tafel",
+              "Taste",
+              "Tasche"
+            ]
+          }
         ],
         "fr": [
-          { "id": "banane-dinde", "band": 1, "g1": "banane", "g2": "dinde", "words": ["chat", "abricot", "escargot"] },
-          { "id": "lac-mer", "band": 1, "g1": "lac", "g2": "mer", "words": ["lune", "cabane", "nid"] },
-          { "id": "pomme-sac", "band": 1, "g1": "pomme", "g2": "sac", "words": ["robe", "nappe", "tigre"] },
-          { "id": "fleur-four", "band": 2, "g1": "fleur", "g2": "four", "words": ["fort", "flaque", "fromage"] },
-          { "id": "canard-coq", "band": 2, "g1": "canard", "g2": "coq", "words": ["chat", "cabane", "cube"] },
-          { "id": "salade-soleil", "band": 2, "g1": "salade", "g2": "soleil", "words": ["singe", "sable", "tarte"] },
-          { "id": "tapis-tortue", "band": 2, "g1": "tapis", "g2": "tortue", "words": ["tigre", "table", "vase"] },
-          { "id": "bol-botte", "band": 3, "g1": "bol", "g2": "botte", "words": ["bonbon", "boire", "boule"] },
-          { "id": "pain-porte", "band": 3, "g1": "pain", "g2": "porte", "words": ["pomme", "pagaie", "poule"] }
+          {
+            "id": "banane-dinde",
+            "band": 1,
+            "g1": "banane",
+            "g2": "dinde",
+            "words": [
+              "chat",
+              "abricot",
+              "escargot"
+            ]
+          },
+          {
+            "id": "lac-mer",
+            "band": 1,
+            "g1": "lac",
+            "g2": "mer",
+            "words": [
+              "lune",
+              "cabane",
+              "nid"
+            ]
+          },
+          {
+            "id": "pomme-sac",
+            "band": 1,
+            "g1": "pomme",
+            "g2": "sac",
+            "words": [
+              "robe",
+              "nappe",
+              "tigre"
+            ]
+          },
+          {
+            "id": "fleur-four",
+            "band": 2,
+            "g1": "fleur",
+            "g2": "four",
+            "words": [
+              "fort",
+              "flaque",
+              "fromage"
+            ]
+          },
+          {
+            "id": "canard-coq",
+            "band": 2,
+            "g1": "canard",
+            "g2": "coq",
+            "words": [
+              "chat",
+              "cabane",
+              "cube"
+            ]
+          },
+          {
+            "id": "salade-soleil",
+            "band": 2,
+            "g1": "salade",
+            "g2": "soleil",
+            "words": [
+              "singe",
+              "sable",
+              "tarte"
+            ]
+          },
+          {
+            "id": "tapis-tortue",
+            "band": 2,
+            "g1": "tapis",
+            "g2": "tortue",
+            "words": [
+              "tigre",
+              "table",
+              "vase"
+            ]
+          },
+          {
+            "id": "bol-botte",
+            "band": 3,
+            "g1": "bol",
+            "g2": "botte",
+            "words": [
+              "bonbon",
+              "boire",
+              "boule"
+            ]
+          },
+          {
+            "id": "pain-porte",
+            "band": 3,
+            "g1": "pain",
+            "g2": "porte",
+            "words": [
+              "pomme",
+              "pagaie",
+              "poule"
+            ]
+          }
         ],
         "es": [
-          { "id": "casa-foco", "band": 1, "g1": "casa", "g2": "foco", "words": ["bota", "dedo", "gato"] },
-          { "id": "lobo-pato", "band": 1, "g1": "lobo", "g2": "pato", "words": ["mono", "taza", "goma"] },
-          { "id": "gato-mesa", "band": 1, "g1": "gato", "g2": "mesa", "words": ["dado", "rana", "hoja"] },
-          { "id": "peso-pozo", "band": 2, "g1": "peso", "g2": "pozo", "words": ["pino", "pato", "puma"] },
-          { "id": "mesa-mora", "band": 2, "g1": "mesa", "g2": "mora", "words": ["mapa", "miel", "mula"] },
-          { "id": "beso-boca", "band": 2, "g1": "beso", "g2": "boca", "words": ["banco", "burro", "bici"] },
-          { "id": "pala-pata", "band": 3, "g1": "pala", "g2": "pata", "words": ["papa", "paja", "pavo"] },
-          { "id": "codo-cola", "band": 3, "g1": "codo", "g2": "cola", "words": ["coco", "cofre", "copa"] },
-          { "id": "cama-cara", "band": 3, "g1": "cama", "g2": "cara", "words": ["caja", "casa", "capa"] }
+          {
+            "id": "casa-foco",
+            "band": 1,
+            "g1": "casa",
+            "g2": "foco",
+            "words": [
+              "bota",
+              "dedo",
+              "gato"
+            ]
+          },
+          {
+            "id": "lobo-pato",
+            "band": 1,
+            "g1": "lobo",
+            "g2": "pato",
+            "words": [
+              "mono",
+              "taza",
+              "goma"
+            ]
+          },
+          {
+            "id": "gato-mesa",
+            "band": 1,
+            "g1": "gato",
+            "g2": "mesa",
+            "words": [
+              "dado",
+              "rana",
+              "hoja"
+            ]
+          },
+          {
+            "id": "peso-pozo",
+            "band": 2,
+            "g1": "peso",
+            "g2": "pozo",
+            "words": [
+              "pino",
+              "pato",
+              "puma"
+            ]
+          },
+          {
+            "id": "mesa-mora",
+            "band": 2,
+            "g1": "mesa",
+            "g2": "mora",
+            "words": [
+              "mapa",
+              "miel",
+              "mula"
+            ]
+          },
+          {
+            "id": "beso-boca",
+            "band": 2,
+            "g1": "beso",
+            "g2": "boca",
+            "words": [
+              "banco",
+              "burro",
+              "bici"
+            ]
+          },
+          {
+            "id": "pala-pata",
+            "band": 3,
+            "g1": "pala",
+            "g2": "pata",
+            "words": [
+              "papa",
+              "paja",
+              "pavo"
+            ]
+          },
+          {
+            "id": "codo-cola",
+            "band": 3,
+            "g1": "codo",
+            "g2": "cola",
+            "words": [
+              "coco",
+              "cofre",
+              "copa"
+            ]
+          },
+          {
+            "id": "cama-cara",
+            "band": 3,
+            "g1": "cama",
+            "g2": "cara",
+            "words": [
+              "caja",
+              "casa",
+              "capa"
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "casa-foco",
+            "band": 1,
+            "g1": "casa",
+            "g2": "foco",
+            "words": [
+              "bota",
+              "dedo",
+              "gato"
+            ]
+          },
+          {
+            "id": "lobo-pato",
+            "band": 1,
+            "g1": "lobo",
+            "g2": "pato",
+            "words": [
+              "muro",
+              "faca",
+              "sapo"
+            ]
+          },
+          {
+            "id": "gato-mesa",
+            "band": 1,
+            "g1": "gato",
+            "g2": "mesa",
+            "words": [
+              "luva",
+              "dado",
+              "rosa"
+            ]
+          },
+          {
+            "id": "pato-pipa",
+            "band": 2,
+            "g1": "pato",
+            "g2": "pipa",
+            "words": [
+              "pena",
+              "pasta",
+              "pulo"
+            ]
+          },
+          {
+            "id": "mesa-mola",
+            "band": 2,
+            "g1": "mesa",
+            "g2": "mola",
+            "words": [
+              "milho",
+              "mala",
+              "muro"
+            ]
+          },
+          {
+            "id": "beco-bota",
+            "band": 2,
+            "g1": "beco",
+            "g2": "bota",
+            "words": [
+              "bico",
+              "banco",
+              "bule"
+            ]
+          },
+          {
+            "id": "pano-pata",
+            "band": 3,
+            "g1": "pano",
+            "g2": "pata",
+            "words": [
+              "papa",
+              "pai",
+              "pau"
+            ]
+          },
+          {
+            "id": "coco-cola",
+            "band": 3,
+            "g1": "coco",
+            "g2": "cola",
+            "words": [
+              "cofre",
+              "cobra",
+              "copo"
+            ]
+          },
+          {
+            "id": "cama-cara",
+            "band": 3,
+            "g1": "cama",
+            "g2": "cara",
+            "words": [
+              "capa",
+              "cabo",
+              "casa"
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "booker-glossary-desk", "de": "alphabetisch-ordnen-woerterbuch-nachschlagen-klasse-3", "fr": "chercher-un-mot-dictionnaire-ordre-alphabetique-ce2", "es": "orden-alfabetico-palabras-guia-diccionario-primaria" },
-    "page_title": { "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)", "de": "Alphabetisch ordnen üben – Klasse 3 mit Bär Booker", "fr": "Le dictionnaire de Booker : les mots repères (CE2)", "es": "Orden alfabético y palabras guía: usa el diccionario" },
-    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.", "de": "Alphabetisch ordnen üben: Hilf Bär Booker beim Nachschlagen! Tippe das Wort, das zwischen den beiden Leitwörtern steht. Kostenlos & interaktiv für Klasse 3.", "fr": "Un jeu de français CE2, gratuit et interactif : Booker l'ours ouvre son dictionnaire, et chaque page a deux mots repères. Ton enfant touche le mot qui se trouve entre les deux, en comparant les lettres dans l'ordre alphabétique — d'abord la première lettre, puis la deuxième, puis la troisième. Un jeu tout doux pour apprendre à chercher un mot dans le dictionnaire.", "es": "El niño lee las dos palabras guía de una página del diccionario y toca la palabra que va, en orden alfabético, entre ellas. Gratis, sin registro y alineada al plan de la SEP." },
+    "slug": {
+      "en": "booker-glossary-desk",
+      "de": "alphabetisch-ordnen-woerterbuch-nachschlagen-klasse-3",
+      "fr": "chercher-un-mot-dictionnaire-ordre-alphabetique-ce2",
+      "es": "orden-alfabetico-palabras-guia-diccionario-primaria",
+      "pt": "ordem-alfabetica-palavras-guia-dicionario-3-ano"
+    },
+    "page_title": {
+      "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)",
+      "de": "Alphabetisch ordnen üben – Klasse 3 mit Bär Booker",
+      "fr": "Le dictionnaire de Booker : les mots repères (CE2)",
+      "es": "Orden alfabético y palabras guía: usa el diccionario",
+      "pt": "Ordem alfabética e palavras-guia: use o dicionário · 3º ano"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.",
+      "de": "Alphabetisch ordnen üben: Hilf Bär Booker beim Nachschlagen! Tippe das Wort, das zwischen den beiden Leitwörtern steht. Kostenlos & interaktiv für Klasse 3.",
+      "fr": "Un jeu de français CE2, gratuit et interactif : Booker l'ours ouvre son dictionnaire, et chaque page a deux mots repères. Ton enfant touche le mot qui se trouve entre les deux, en comparant les lettres dans l'ordre alphabétique — d'abord la première lettre, puis la deuxième, puis la troisième. Un jeu tout doux pour apprendre à chercher un mot dans le dictionnaire.",
+      "es": "El niño lee las dos palabras guía de una página del diccionario y toca la palabra que va, en orden alfabético, entre ellas. Gratis, sin registro y alineada al plan de la SEP.",
+      "pt": "A criança lê as duas palavras-guia no alto de uma página do dicionário e toca na palavra que fica, em ordem alfabética, entre elas. Com o urso Booker, uma atividade carinhosa para aprender a usar o dicionário. Grátis, sem cadastro. BNCC, 3º ano."
+    },
     "kid_prompt_template": "guide-words"
   }
 ]

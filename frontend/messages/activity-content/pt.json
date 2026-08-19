@@ -3682,6 +3682,29 @@
         "Eu sei diferenciar o assunto principal de um detalhe pequeno.",
         "Eu percebo quando um fato não faz parte do texto."
       ]
+    },
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "O Fabo é um draguinho que adora contar histórias na sua oficina. A cada rodada, ele mostra uma pequena história em três ceninhas embaralhadas — como a luva perdida do coelho, a cenoura da ratinha e o piquenique na chuva. O seu papel é ler as ceninhas e tocar na parte certa da história.",
+        "Cada história tem três partes: o começo, que apresenta quem está na história e onde tudo acontece; o problema, quando algo dá errado; e a solução, que mostra como tudo se resolve no fim. Como as ceninhas aparecem embaralhadas, a criança precisa ler de verdade para descobrir qual é cada parte, em vez de só olhar a ordem.",
+        "A oficina é totalmente grátis, sem cadastro, sem tempo e sem pontos — só o prazer de ler junto. O botão 🔊 lê as ceninhas em voz alta para ajudar quem ainda está aprendendo a decodificar. A atividade está alinhada à BNCC, no campo da compreensão de textos literários e da estrutura da narrativa, nos primeiros anos."
+      ],
+      "practices": [
+        "Ler cada ceninha com atenção e ligar o texto à imagem.",
+        "Reconhecer o começo, o problema e a solução de uma história.",
+        "Recontar a história na ordem certa, mesmo vendo as partes embaralhadas.",
+        "Ouvir as cenas em voz alta com o botão 🔊 para apoiar a leitura."
+      ],
+      "howToPlay": [
+        "Olhe as três ceninhas embaralhadas e leia a legenda de cada uma.",
+        "Leia a pergunta do Fabo e descubra qual parte ele está pedindo.",
+        "Toque na cena certa; se precisar, use o 🔊 para ouvir a história de novo."
+      ],
+      "learningGoals": [
+        "Eu consigo achar o começo de uma história.",
+        "Eu sei mostrar o problema e a solução de uma história.",
+        "Eu leio as partes de uma história e as coloco na ordem certa."
+      ]
     }
   }
 }

@@ -3,86 +3,948 @@
     "id": "fern-clue-garden.context-clues.l-2-4-a",
     "tool": "fern-clue-garden-activity",
     "task_template": "context-clues",
-    "alignment": { "framework": "CCSS", "code": "L.2.4.a", "grade": "2", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.2.4.a",
+      "grade": "2",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "bark", "band": 1, "word": "bark", "sentence": "The puppy began to bark at the mail truck.",
-          "choices": [ { "text": "the sound a dog makes", "kind": "correct" }, { "text": "the hard cover on a tree", "kind": "no-context" }, { "text": "a soft warm coat", "kind": "off" } ] },
-        { "id": "bat", "band": 1, "word": "bat", "sentence": "After dark, a bat flew out of the cave.",
-          "choices": [ { "text": "a wooden stick for hitting a ball", "kind": "no-context" }, { "text": "a small animal that flies at night", "kind": "correct" }, { "text": "a cup for drinking milk", "kind": "off" } ] },
-        { "id": "trunk", "band": 1, "word": "trunk", "sentence": "The elephant picked up the log with its trunk.",
-          "choices": [ { "text": "a big box for keeping things", "kind": "no-context" }, { "text": "a path through a forest", "kind": "off" }, { "text": "a long bendy nose", "kind": "correct" } ] },
-        { "id": "ring", "band": 2, "word": "ring", "sentence": "The phone started to ring during dinner.",
-          "choices": [ { "text": "to make a loud sound", "kind": "correct" }, { "text": "a band you wear on a finger", "kind": "no-context" }, { "text": "a place where pigs sleep", "kind": "off" } ] },
-        { "id": "light", "band": 2, "word": "light", "sentence": "The box was so light that I lifted it easily.",
-          "choices": [ { "text": "a kind of juicy fruit", "kind": "off" }, { "text": "not heavy at all", "kind": "correct" }, { "text": "the brightness that helps us see", "kind": "no-context" } ] },
-        { "id": "fair", "band": 2, "word": "fair", "sentence": "We rode every ride at the fair on Saturday.",
-          "choices": [ { "text": "when everyone is treated the same", "kind": "no-context" }, { "text": "a tool for cutting paper", "kind": "off" }, { "text": "a fun place with rides and games", "kind": "correct" } ] },
-        { "id": "wave", "band": 3, "word": "wave", "sentence": "She lifted her hand to wave at her friend.",
-          "choices": [ { "text": "to say hello by moving your arm", "kind": "correct" }, { "text": "a small green plant", "kind": "off" }, { "text": "water that rolls onto the beach", "kind": "no-context" } ] },
-        { "id": "park", "band": 3, "word": "park", "sentence": "Dad will park the van next to the store.",
-          "choices": [ { "text": "a grassy place to play outside", "kind": "no-context" }, { "text": "to stop and leave a car somewhere", "kind": "correct" }, { "text": "a bowl of warm soup", "kind": "off" } ] },
-        { "id": "duck", "band": 3, "word": "duck", "sentence": "Duck quickly so the branch misses your head!",
-          "choices": [ { "text": "a tall stone tower", "kind": "off" }, { "text": "a bird that swims on a pond", "kind": "no-context" }, { "text": "to bend down low and fast", "kind": "correct" } ] }
+        {
+          "id": "bark",
+          "band": 1,
+          "word": "bark",
+          "sentence": "The puppy began to bark at the mail truck.",
+          "choices": [
+            {
+              "text": "the sound a dog makes",
+              "kind": "correct"
+            },
+            {
+              "text": "the hard cover on a tree",
+              "kind": "no-context"
+            },
+            {
+              "text": "a soft warm coat",
+              "kind": "off"
+            }
+          ]
+        },
+        {
+          "id": "bat",
+          "band": 1,
+          "word": "bat",
+          "sentence": "After dark, a bat flew out of the cave.",
+          "choices": [
+            {
+              "text": "a wooden stick for hitting a ball",
+              "kind": "no-context"
+            },
+            {
+              "text": "a small animal that flies at night",
+              "kind": "correct"
+            },
+            {
+              "text": "a cup for drinking milk",
+              "kind": "off"
+            }
+          ]
+        },
+        {
+          "id": "trunk",
+          "band": 1,
+          "word": "trunk",
+          "sentence": "The elephant picked up the log with its trunk.",
+          "choices": [
+            {
+              "text": "a big box for keeping things",
+              "kind": "no-context"
+            },
+            {
+              "text": "a path through a forest",
+              "kind": "off"
+            },
+            {
+              "text": "a long bendy nose",
+              "kind": "correct"
+            }
+          ]
+        },
+        {
+          "id": "ring",
+          "band": 2,
+          "word": "ring",
+          "sentence": "The phone started to ring during dinner.",
+          "choices": [
+            {
+              "text": "to make a loud sound",
+              "kind": "correct"
+            },
+            {
+              "text": "a band you wear on a finger",
+              "kind": "no-context"
+            },
+            {
+              "text": "a place where pigs sleep",
+              "kind": "off"
+            }
+          ]
+        },
+        {
+          "id": "light",
+          "band": 2,
+          "word": "light",
+          "sentence": "The box was so light that I lifted it easily.",
+          "choices": [
+            {
+              "text": "a kind of juicy fruit",
+              "kind": "off"
+            },
+            {
+              "text": "not heavy at all",
+              "kind": "correct"
+            },
+            {
+              "text": "the brightness that helps us see",
+              "kind": "no-context"
+            }
+          ]
+        },
+        {
+          "id": "fair",
+          "band": 2,
+          "word": "fair",
+          "sentence": "We rode every ride at the fair on Saturday.",
+          "choices": [
+            {
+              "text": "when everyone is treated the same",
+              "kind": "no-context"
+            },
+            {
+              "text": "a tool for cutting paper",
+              "kind": "off"
+            },
+            {
+              "text": "a fun place with rides and games",
+              "kind": "correct"
+            }
+          ]
+        },
+        {
+          "id": "wave",
+          "band": 3,
+          "word": "wave",
+          "sentence": "She lifted her hand to wave at her friend.",
+          "choices": [
+            {
+              "text": "to say hello by moving your arm",
+              "kind": "correct"
+            },
+            {
+              "text": "a small green plant",
+              "kind": "off"
+            },
+            {
+              "text": "water that rolls onto the beach",
+              "kind": "no-context"
+            }
+          ]
+        },
+        {
+          "id": "park",
+          "band": 3,
+          "word": "park",
+          "sentence": "Dad will park the van next to the store.",
+          "choices": [
+            {
+              "text": "a grassy place to play outside",
+              "kind": "no-context"
+            },
+            {
+              "text": "to stop and leave a car somewhere",
+              "kind": "correct"
+            },
+            {
+              "text": "a bowl of warm soup",
+              "kind": "off"
+            }
+          ]
+        },
+        {
+          "id": "duck",
+          "band": 3,
+          "word": "duck",
+          "sentence": "Duck quickly so the branch misses your head!",
+          "choices": [
+            {
+              "text": "a tall stone tower",
+              "kind": "off"
+            },
+            {
+              "text": "a bird that swims on a pond",
+              "kind": "no-context"
+            },
+            {
+              "text": "to bend down low and fast",
+              "kind": "correct"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "ball", "band": 1, "word": "Ball", "sentence": "Im Garten wirft Max den Ball über den Zaun.",
-            "choices": [ { "text": "ein rundes Ding zum Spielen, das man rollen oder fangen kann", "kind": "correct" }, { "text": "ein großes Tanzfest, bei dem man in feiner Kleidung tanzt", "kind": "no-context" }, { "text": "ein süßer Saft, den man aus Früchten presst", "kind": "off" } ] },
-          { "id": "maus", "band": 1, "word": "Maus", "sentence": "Die kleine Maus versteckt sich hinter dem Käse.",
-            "choices": [ { "text": "ein Gerät, mit dem man auf dem Bildschirm etwas anklickt", "kind": "no-context" }, { "text": "ein kleines Tier mit Fell und einem langen Schwanz", "kind": "correct" }, { "text": "ein Werkzeug, mit dem man Schrauben eindreht", "kind": "off" } ] },
-          { "id": "bank", "band": 1, "word": "Bank", "sentence": "Im Park setzen wir uns auf die Bank und ruhen aus.",
-            "choices": [ { "text": "ein Ort, an dem man sein Geld einzahlt und aufbewahrt", "kind": "no-context" }, { "text": "ein Tier, das im Wasser lebt und schwimmen kann", "kind": "off" }, { "text": "ein langes Sitzmöbel, auf dem mehrere Leute Platz haben", "kind": "correct" } ] },
-          { "id": "schloss", "band": 2, "word": "Schloss", "sentence": "Der Schlüssel passt genau in das Schloss an der Tür.",
-            "choices": [ { "text": "eine Vorrichtung zum Absperren, die man auf- und zumacht", "kind": "correct" }, { "text": "ein großes, altes Gebäude, in dem früher Könige gewohnt haben", "kind": "no-context" }, { "text": "ein weiches Kissen, auf das man nachts den Kopf legt", "kind": "off" } ] },
-          { "id": "hahn", "band": 2, "word": "Hahn", "sentence": "Aus dem Hahn tropft den ganzen Tag das Wasser.",
-            "choices": [ { "text": "ein männliches Huhn, das am Morgen laut kräht", "kind": "no-context" }, { "text": "ein Teil an der Leitung, das man auf- und zudreht", "kind": "correct" }, { "text": "ein Fahrzeug, das auf Schienen durch das Land fährt", "kind": "off" } ] },
-          { "id": "birne", "band": 2, "word": "Birne", "sentence": "Im Flur ist die Birne kaputt, jetzt bleibt es ganz dunkel.",
-            "choices": [ { "text": "eine süße Frucht, die am Baum wächst und gelb wird", "kind": "no-context" }, { "text": "ein fester Schuh, den man bei Schnee anzieht", "kind": "off" }, { "text": "ein Gegenstand, der hell leuchtet, wenn man ihn einschaltet", "kind": "correct" } ] },
-          { "id": "blatt", "band": 3, "word": "Blatt", "sentence": "Ich schreibe meinen Namen auf ein leeres Blatt.",
-            "choices": [ { "text": "ein dünnes Stück Papier zum Zeichnen oder Beschriften", "kind": "correct" }, { "text": "der grüne Teil einer Pflanze, der am Zweig wächst", "kind": "no-context" }, { "text": "ein lautes Krachen, das man bei einem Gewitter hört", "kind": "off" } ] },
-          { "id": "note", "band": 3, "word": "Note", "sentence": "Für den Test bekam Lena eine sehr gute Note.",
-            "choices": [ { "text": "ein Zeichen, das angibt, welcher Ton gespielt werden soll", "kind": "no-context" }, { "text": "die Bewertung, die zeigt, wie gut eine Leistung in der Schule war", "kind": "correct" }, { "text": "ein kleines Tier mit Flügeln, das nachts unterwegs ist", "kind": "off" } ] },
-          { "id": "kiefer", "band": 3, "word": "Kiefer", "sentence": "Beim Gähnen tut mir der Kiefer richtig weh.",
-            "choices": [ { "text": "ein hoher Nadelbaum, der im Wald wächst", "kind": "no-context" }, { "text": "ein Gefäß aus Metall, in dem man Suppe kocht", "kind": "off" }, { "text": "der Knochen im Gesicht, an dem die Zähne sitzen", "kind": "correct" } ] }
+          {
+            "id": "ball",
+            "band": 1,
+            "word": "Ball",
+            "sentence": "Im Garten wirft Max den Ball über den Zaun.",
+            "choices": [
+              {
+                "text": "ein rundes Ding zum Spielen, das man rollen oder fangen kann",
+                "kind": "correct"
+              },
+              {
+                "text": "ein großes Tanzfest, bei dem man in feiner Kleidung tanzt",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein süßer Saft, den man aus Früchten presst",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "maus",
+            "band": 1,
+            "word": "Maus",
+            "sentence": "Die kleine Maus versteckt sich hinter dem Käse.",
+            "choices": [
+              {
+                "text": "ein Gerät, mit dem man auf dem Bildschirm etwas anklickt",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein kleines Tier mit Fell und einem langen Schwanz",
+                "kind": "correct"
+              },
+              {
+                "text": "ein Werkzeug, mit dem man Schrauben eindreht",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "bank",
+            "band": 1,
+            "word": "Bank",
+            "sentence": "Im Park setzen wir uns auf die Bank und ruhen aus.",
+            "choices": [
+              {
+                "text": "ein Ort, an dem man sein Geld einzahlt und aufbewahrt",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein Tier, das im Wasser lebt und schwimmen kann",
+                "kind": "off"
+              },
+              {
+                "text": "ein langes Sitzmöbel, auf dem mehrere Leute Platz haben",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "schloss",
+            "band": 2,
+            "word": "Schloss",
+            "sentence": "Der Schlüssel passt genau in das Schloss an der Tür.",
+            "choices": [
+              {
+                "text": "eine Vorrichtung zum Absperren, die man auf- und zumacht",
+                "kind": "correct"
+              },
+              {
+                "text": "ein großes, altes Gebäude, in dem früher Könige gewohnt haben",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein weiches Kissen, auf das man nachts den Kopf legt",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "hahn",
+            "band": 2,
+            "word": "Hahn",
+            "sentence": "Aus dem Hahn tropft den ganzen Tag das Wasser.",
+            "choices": [
+              {
+                "text": "ein männliches Huhn, das am Morgen laut kräht",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein Teil an der Leitung, das man auf- und zudreht",
+                "kind": "correct"
+              },
+              {
+                "text": "ein Fahrzeug, das auf Schienen durch das Land fährt",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "birne",
+            "band": 2,
+            "word": "Birne",
+            "sentence": "Im Flur ist die Birne kaputt, jetzt bleibt es ganz dunkel.",
+            "choices": [
+              {
+                "text": "eine süße Frucht, die am Baum wächst und gelb wird",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein fester Schuh, den man bei Schnee anzieht",
+                "kind": "off"
+              },
+              {
+                "text": "ein Gegenstand, der hell leuchtet, wenn man ihn einschaltet",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "blatt",
+            "band": 3,
+            "word": "Blatt",
+            "sentence": "Ich schreibe meinen Namen auf ein leeres Blatt.",
+            "choices": [
+              {
+                "text": "ein dünnes Stück Papier zum Zeichnen oder Beschriften",
+                "kind": "correct"
+              },
+              {
+                "text": "der grüne Teil einer Pflanze, der am Zweig wächst",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein lautes Krachen, das man bei einem Gewitter hört",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "note",
+            "band": 3,
+            "word": "Note",
+            "sentence": "Für den Test bekam Lena eine sehr gute Note.",
+            "choices": [
+              {
+                "text": "ein Zeichen, das angibt, welcher Ton gespielt werden soll",
+                "kind": "no-context"
+              },
+              {
+                "text": "die Bewertung, die zeigt, wie gut eine Leistung in der Schule war",
+                "kind": "correct"
+              },
+              {
+                "text": "ein kleines Tier mit Flügeln, das nachts unterwegs ist",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "kiefer",
+            "band": 3,
+            "word": "Kiefer",
+            "sentence": "Beim Gähnen tut mir der Kiefer richtig weh.",
+            "choices": [
+              {
+                "text": "ein hoher Nadelbaum, der im Wald wächst",
+                "kind": "no-context"
+              },
+              {
+                "text": "ein Gefäß aus Metall, in dem man Suppe kocht",
+                "kind": "off"
+              },
+              {
+                "text": "der Knochen im Gesicht, an dem die Zähne sitzen",
+                "kind": "correct"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "souris", "band": 1, "word": "souris", "sentence": "Le chat s’est caché pour attraper la souris grise.",
-            "choices": [ { "text": "un petit animal à longue queue qui grignote et se faufile partout", "kind": "correct" }, { "text": "un petit objet qu’on déplace avec la main pour bouger la flèche sur l’écran", "kind": "no-context" }, { "text": "une grande boîte en bois où l’on range ses livres et ses jouets", "kind": "off" } ] },
-          { "id": "feuille", "band": 1, "word": "feuille", "sentence": "En automne, une feuille rouge est tombée de l’arbre.",
-            "choices": [ { "text": "un morceau plat et fin sur lequel on écrit ou on dessine", "kind": "no-context" }, { "text": "la partie plate qui pousse sur les branches et change de couleur", "kind": "correct" }, { "text": "un récipient profond dans lequel on fait cuire la soupe", "kind": "off" } ] },
-          { "id": "orange", "band": 1, "word": "orange", "sentence": "Au goûter, Léa a épluché une orange bien juteuse.",
-            "choices": [ { "text": "un fruit rond et sucré, protégé par une peau épaisse", "kind": "correct" }, { "text": "la couleur que l’on obtient en mélangeant le rouge et le jaune", "kind": "no-context" }, { "text": "un petit oiseau au chant joyeux qui saute de branche en branche", "kind": "off" } ] },
-          { "id": "regle", "band": 2, "word": "règle", "sentence": "Pour tracer un trait bien droit, je prends ma règle en bois.",
-            "choices": [ { "text": "une consigne qu’il faut respecter pour bien jouer ou vivre ensemble", "kind": "no-context" }, { "text": "une boisson chaude qu’on boit le matin dans un grand bol", "kind": "off" }, { "text": "un petit instrument plat et gradué dont on se sert pour mesurer", "kind": "correct" } ] },
-          { "id": "baguette", "band": 2, "word": "baguette", "sentence": "La fée a agité sa baguette et une citrouille est apparue.",
-            "choices": [ { "text": "un pain long et croustillant qu’on achète chez le boulanger", "kind": "no-context" }, { "text": "un fin bâton magique qui sert à jeter des sorts et faire des prodiges", "kind": "correct" }, { "text": "une grosse pierre ronde qu’on lance très loin dans l’eau", "kind": "off" } ] },
-          { "id": "glace", "band": 2, "word": "glace", "sentence": "Après le repas, j’ai mangé une glace à la fraise.",
-            "choices": [ { "text": "une surface lisse où l’on voit son reflet quand on se regarde", "kind": "no-context" }, { "text": "une longue promenade qu’on fait à pied dans la forêt", "kind": "off" }, { "text": "une crème sucrée et froide qu’on déguste surtout quand il fait chaud", "kind": "correct" } ] },
-          { "id": "carte", "band": 3, "word": "carte", "sentence": "Pour trouver le chemin, papa a déplié la carte de la région.",
-            "choices": [ { "text": "un dessin qui représente un pays ou une ville pour se repérer", "kind": "correct" }, { "text": "un petit carton avec des figures qu’on utilise pour jouer à plusieurs", "kind": "no-context" }, { "text": "un habit chaud qu’on met sur les épaules quand il fait froid", "kind": "off" } ] },
-          { "id": "peche", "band": 3, "word": "pêche", "sentence": "Dans le verger, j’ai cueilli une pêche bien mûre et sucrée.",
-            "choices": [ { "text": "l’activité qui consiste à attraper des poissons avec une ligne", "kind": "no-context" }, { "text": "un fruit d’été tout rond, à la peau douce et au gros noyau", "kind": "correct" }, { "text": "un outil pointu qui sert à creuser des trous dans la terre", "kind": "off" } ] },
-          { "id": "avocat", "band": 3, "word": "avocat", "sentence": "Au tribunal, l’avocat défend l’accusé devant le juge.",
-            "choices": [ { "text": "un meuble en bois où l’on range ses habits bien pliés", "kind": "off" }, { "text": "un fruit vert à gros noyau qu’on écrase pour faire une sauce", "kind": "no-context" }, { "text": "une personne dont le métier est de représenter les gens en justice", "kind": "correct" } ] }
+          {
+            "id": "souris",
+            "band": 1,
+            "word": "souris",
+            "sentence": "Le chat s’est caché pour attraper la souris grise.",
+            "choices": [
+              {
+                "text": "un petit animal à longue queue qui grignote et se faufile partout",
+                "kind": "correct"
+              },
+              {
+                "text": "un petit objet qu’on déplace avec la main pour bouger la flèche sur l’écran",
+                "kind": "no-context"
+              },
+              {
+                "text": "une grande boîte en bois où l’on range ses livres et ses jouets",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "feuille",
+            "band": 1,
+            "word": "feuille",
+            "sentence": "En automne, une feuille rouge est tombée de l’arbre.",
+            "choices": [
+              {
+                "text": "un morceau plat et fin sur lequel on écrit ou on dessine",
+                "kind": "no-context"
+              },
+              {
+                "text": "la partie plate qui pousse sur les branches et change de couleur",
+                "kind": "correct"
+              },
+              {
+                "text": "un récipient profond dans lequel on fait cuire la soupe",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "orange",
+            "band": 1,
+            "word": "orange",
+            "sentence": "Au goûter, Léa a épluché une orange bien juteuse.",
+            "choices": [
+              {
+                "text": "un fruit rond et sucré, protégé par une peau épaisse",
+                "kind": "correct"
+              },
+              {
+                "text": "la couleur que l’on obtient en mélangeant le rouge et le jaune",
+                "kind": "no-context"
+              },
+              {
+                "text": "un petit oiseau au chant joyeux qui saute de branche en branche",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "regle",
+            "band": 2,
+            "word": "règle",
+            "sentence": "Pour tracer un trait bien droit, je prends ma règle en bois.",
+            "choices": [
+              {
+                "text": "une consigne qu’il faut respecter pour bien jouer ou vivre ensemble",
+                "kind": "no-context"
+              },
+              {
+                "text": "une boisson chaude qu’on boit le matin dans un grand bol",
+                "kind": "off"
+              },
+              {
+                "text": "un petit instrument plat et gradué dont on se sert pour mesurer",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "baguette",
+            "band": 2,
+            "word": "baguette",
+            "sentence": "La fée a agité sa baguette et une citrouille est apparue.",
+            "choices": [
+              {
+                "text": "un pain long et croustillant qu’on achète chez le boulanger",
+                "kind": "no-context"
+              },
+              {
+                "text": "un fin bâton magique qui sert à jeter des sorts et faire des prodiges",
+                "kind": "correct"
+              },
+              {
+                "text": "une grosse pierre ronde qu’on lance très loin dans l’eau",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "glace",
+            "band": 2,
+            "word": "glace",
+            "sentence": "Après le repas, j’ai mangé une glace à la fraise.",
+            "choices": [
+              {
+                "text": "une surface lisse où l’on voit son reflet quand on se regarde",
+                "kind": "no-context"
+              },
+              {
+                "text": "une longue promenade qu’on fait à pied dans la forêt",
+                "kind": "off"
+              },
+              {
+                "text": "une crème sucrée et froide qu’on déguste surtout quand il fait chaud",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "carte",
+            "band": 3,
+            "word": "carte",
+            "sentence": "Pour trouver le chemin, papa a déplié la carte de la région.",
+            "choices": [
+              {
+                "text": "un dessin qui représente un pays ou une ville pour se repérer",
+                "kind": "correct"
+              },
+              {
+                "text": "un petit carton avec des figures qu’on utilise pour jouer à plusieurs",
+                "kind": "no-context"
+              },
+              {
+                "text": "un habit chaud qu’on met sur les épaules quand il fait froid",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "peche",
+            "band": 3,
+            "word": "pêche",
+            "sentence": "Dans le verger, j’ai cueilli une pêche bien mûre et sucrée.",
+            "choices": [
+              {
+                "text": "l’activité qui consiste à attraper des poissons avec une ligne",
+                "kind": "no-context"
+              },
+              {
+                "text": "un fruit d’été tout rond, à la peau douce et au gros noyau",
+                "kind": "correct"
+              },
+              {
+                "text": "un outil pointu qui sert à creuser des trous dans la terre",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "avocat",
+            "band": 3,
+            "word": "avocat",
+            "sentence": "Au tribunal, l’avocat défend l’accusé devant le juge.",
+            "choices": [
+              {
+                "text": "un meuble en bois où l’on range ses habits bien pliés",
+                "kind": "off"
+              },
+              {
+                "text": "un fruit vert à gros noyau qu’on écrase pour faire une sauce",
+                "kind": "no-context"
+              },
+              {
+                "text": "une personne dont le métier est de représenter les gens en justice",
+                "kind": "correct"
+              }
+            ]
+          }
         ],
         "es": [
-          { "id": "gato", "band": 1, "word": "gato", "sentence": "El gato duerme sobre la almohada y ronronea todo el día.", "choices": [ { "text": "un animalito peludo que dice miau", "kind": "correct" }, { "text": "una herramienta para levantar el coche y cambiar la llanta", "kind": "no-context" }, { "text": "un gorro de lana para el invierno", "kind": "off" } ] },
-          { "id": "hoja", "band": 1, "word": "hoja", "sentence": "En otoño, la hoja se cae del árbol y vuela con el viento.", "choices": [ { "text": "una escalera para subir al techo", "kind": "off" }, { "text": "la parte verde y plana que crece en las ramas", "kind": "correct" }, { "text": "un papel donde puedes escribir o dibujar", "kind": "no-context" } ] },
-          { "id": "vela", "band": 1, "word": "vela", "sentence": "Encendimos una vela porque se fue la luz en la casa.", "choices": [ { "text": "la tela grande que empuja un barco cuando hace viento", "kind": "no-context" }, { "text": "una piedra brillante que vale mucho dinero", "kind": "off" }, { "text": "una barra de cera con una mecha que se enciende", "kind": "correct" } ] },
-          { "id": "carta", "band": 2, "word": "carta", "sentence": "El cartero trajo una carta de mi abuela que vive muy lejos.", "choices": [ { "text": "un zapato con agujetas de colores", "kind": "off" }, { "text": "un mensaje escrito que se manda en un sobre", "kind": "correct" }, { "text": "cada uno de los naipes de la baraja para jugar", "kind": "no-context" } ] },
-          { "id": "pila", "band": 2, "word": "pila", "sentence": "El control remoto no funciona porque se le acabó la pila.", "choices": [ { "text": "un montón de cosas puestas una encima de otra", "kind": "no-context" }, { "text": "un tambor que suena en las fiestas", "kind": "off" }, { "text": "una cosa pequeña que guarda energía para los aparatos", "kind": "correct" } ] },
-          { "id": "llave", "band": 2, "word": "llave", "sentence": "Abrí la llave del lavabo para lavarme las manos.", "choices": [ { "text": "la pieza que deja pasar o cortar el agua", "kind": "correct" }, { "text": "el objeto de metal que abre una cerradura", "kind": "no-context" }, { "text": "un pájaro que canta en las mañanas", "kind": "off" } ] },
-          { "id": "planta", "band": 3, "word": "planta", "sentence": "Me lastimé la planta cuando pisé una piedra en el río.", "choices": [ { "text": "cada uno de los pisos de un edificio grande", "kind": "no-context" }, { "text": "un pastel de chocolate con muchas velas", "kind": "off" }, { "text": "la parte de abajo del pie con la que te paras", "kind": "correct" } ] },
-          { "id": "pata", "band": 3, "word": "pata", "sentence": "A la mesa se le rompió una pata y quedó chueca.", "choices": [ { "text": "cada uno de los soportes que sostienen un mueble", "kind": "correct" }, { "text": "la pierna de un animal, como la de un gato o un pato", "kind": "no-context" }, { "text": "una fruta tropical de cáscara verde", "kind": "off" } ] },
-          { "id": "pico", "band": 3, "word": "pico", "sentence": "El pájaro abrió el pico para comerse la semilla.", "choices": [ { "text": "la punta más alta de una montaña", "kind": "no-context" }, { "text": "la boca dura y puntiaguda de un ave", "kind": "correct" }, { "text": "un carrito que se empuja en el súper", "kind": "off" } ] }
+          {
+            "id": "gato",
+            "band": 1,
+            "word": "gato",
+            "sentence": "El gato duerme sobre la almohada y ronronea todo el día.",
+            "choices": [
+              {
+                "text": "un animalito peludo que dice miau",
+                "kind": "correct"
+              },
+              {
+                "text": "una herramienta para levantar el coche y cambiar la llanta",
+                "kind": "no-context"
+              },
+              {
+                "text": "un gorro de lana para el invierno",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "hoja",
+            "band": 1,
+            "word": "hoja",
+            "sentence": "En otoño, la hoja se cae del árbol y vuela con el viento.",
+            "choices": [
+              {
+                "text": "una escalera para subir al techo",
+                "kind": "off"
+              },
+              {
+                "text": "la parte verde y plana que crece en las ramas",
+                "kind": "correct"
+              },
+              {
+                "text": "un papel donde puedes escribir o dibujar",
+                "kind": "no-context"
+              }
+            ]
+          },
+          {
+            "id": "vela",
+            "band": 1,
+            "word": "vela",
+            "sentence": "Encendimos una vela porque se fue la luz en la casa.",
+            "choices": [
+              {
+                "text": "la tela grande que empuja un barco cuando hace viento",
+                "kind": "no-context"
+              },
+              {
+                "text": "una piedra brillante que vale mucho dinero",
+                "kind": "off"
+              },
+              {
+                "text": "una barra de cera con una mecha que se enciende",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "carta",
+            "band": 2,
+            "word": "carta",
+            "sentence": "El cartero trajo una carta de mi abuela que vive muy lejos.",
+            "choices": [
+              {
+                "text": "un zapato con agujetas de colores",
+                "kind": "off"
+              },
+              {
+                "text": "un mensaje escrito que se manda en un sobre",
+                "kind": "correct"
+              },
+              {
+                "text": "cada uno de los naipes de la baraja para jugar",
+                "kind": "no-context"
+              }
+            ]
+          },
+          {
+            "id": "pila",
+            "band": 2,
+            "word": "pila",
+            "sentence": "El control remoto no funciona porque se le acabó la pila.",
+            "choices": [
+              {
+                "text": "un montón de cosas puestas una encima de otra",
+                "kind": "no-context"
+              },
+              {
+                "text": "un tambor que suena en las fiestas",
+                "kind": "off"
+              },
+              {
+                "text": "una cosa pequeña que guarda energía para los aparatos",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "llave",
+            "band": 2,
+            "word": "llave",
+            "sentence": "Abrí la llave del lavabo para lavarme las manos.",
+            "choices": [
+              {
+                "text": "la pieza que deja pasar o cortar el agua",
+                "kind": "correct"
+              },
+              {
+                "text": "el objeto de metal que abre una cerradura",
+                "kind": "no-context"
+              },
+              {
+                "text": "un pájaro que canta en las mañanas",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "planta",
+            "band": 3,
+            "word": "planta",
+            "sentence": "Me lastimé la planta cuando pisé una piedra en el río.",
+            "choices": [
+              {
+                "text": "cada uno de los pisos de un edificio grande",
+                "kind": "no-context"
+              },
+              {
+                "text": "un pastel de chocolate con muchas velas",
+                "kind": "off"
+              },
+              {
+                "text": "la parte de abajo del pie con la que te paras",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "pata",
+            "band": 3,
+            "word": "pata",
+            "sentence": "A la mesa se le rompió una pata y quedó chueca.",
+            "choices": [
+              {
+                "text": "cada uno de los soportes que sostienen un mueble",
+                "kind": "correct"
+              },
+              {
+                "text": "la pierna de un animal, como la de un gato o un pato",
+                "kind": "no-context"
+              },
+              {
+                "text": "una fruta tropical de cáscara verde",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "pico",
+            "band": 3,
+            "word": "pico",
+            "sentence": "El pájaro abrió el pico para comerse la semilla.",
+            "choices": [
+              {
+                "text": "la punta más alta de una montaña",
+                "kind": "no-context"
+              },
+              {
+                "text": "la boca dura y puntiaguda de un ave",
+                "kind": "correct"
+              },
+              {
+                "text": "un carrito que se empuja en el súper",
+                "kind": "off"
+              }
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "manga-fruta",
+            "band": 1,
+            "word": "manga",
+            "sentence": "Você mordeu a manga e o suco escorreu pelo queixo.",
+            "choices": [
+              {
+                "text": "a fruta amarela, doce e suculenta",
+                "kind": "correct"
+              },
+              {
+                "text": "a parte da camisa que cobre o braço",
+                "kind": "no-context"
+              },
+              {
+                "text": "um cobertor quentinho para se cobrir",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "folha-arvore",
+            "band": 1,
+            "word": "folha",
+            "sentence": "A folha caiu da árvore e girou no vento.",
+            "choices": [
+              {
+                "text": "a parte verde que nasce na árvore",
+                "kind": "correct"
+              },
+              {
+                "text": "o pedaço de papel de escrever",
+                "kind": "no-context"
+              },
+              {
+                "text": "a parte de baixo do sapato",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "pata-animal",
+            "band": 1,
+            "word": "pata",
+            "sentence": "O cachorro machucou a pata quando correu no quintal.",
+            "choices": [
+              {
+                "text": "o pé de um animal",
+                "kind": "correct"
+              },
+              {
+                "text": "a perna de um móvel, como a mesa",
+                "kind": "no-context"
+              },
+              {
+                "text": "uma ferramenta para cavar a terra",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "banco-assento",
+            "band": 2,
+            "word": "banco",
+            "sentence": "Sentei no banco da praça para descansar um pouco.",
+            "choices": [
+              {
+                "text": "um assento comprido para sentar",
+                "kind": "correct"
+              },
+              {
+                "text": "o lugar onde se guarda dinheiro",
+                "kind": "no-context"
+              },
+              {
+                "text": "um veículo que anda na água",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "chave-porta",
+            "band": 2,
+            "word": "chave",
+            "sentence": "Peguei a chave para abrir a porta de casa.",
+            "choices": [
+              {
+                "text": "o objeto que abre e fecha a porta",
+                "kind": "correct"
+              },
+              {
+                "text": "a ferramenta para apertar parafusos",
+                "kind": "no-context"
+              },
+              {
+                "text": "um instrumento musical de sopro",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "carta-correio",
+            "band": 2,
+            "word": "carta",
+            "sentence": "O carteiro trouxe uma carta do meu avô.",
+            "choices": [
+              {
+                "text": "a mensagem escrita que chega pelo correio",
+                "kind": "correct"
+              },
+              {
+                "text": "cada peça de um baralho de jogar",
+                "kind": "no-context"
+              },
+              {
+                "text": "um carrinho de brinquedo com rodas",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "bico-ave",
+            "band": 3,
+            "word": "bico",
+            "sentence": "O passarinho abriu o bico para cantar de manhã.",
+            "choices": [
+              {
+                "text": "a parte dura da boca da ave",
+                "kind": "correct"
+              },
+              {
+                "text": "a chupeta que o bebê chupa",
+                "kind": "no-context"
+              },
+              {
+                "text": "o ponto mais alto de uma montanha",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "letra-musica",
+            "band": 3,
+            "word": "letra",
+            "sentence": "Eu decorei a letra da música inteira.",
+            "choices": [
+              {
+                "text": "as palavras que a gente canta numa música",
+                "kind": "correct"
+              },
+              {
+                "text": "cada sinal do alfabeto, como a, b, c",
+                "kind": "no-context"
+              },
+              {
+                "text": "cada número usado para contar",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "pena-ave",
+            "band": 3,
+            "word": "pena",
+            "sentence": "A pena do pavão é colorida e macia.",
+            "choices": [
+              {
+                "text": "a pluma leve que cobre o corpo da ave",
+                "kind": "correct"
+              },
+              {
+                "text": "a tristeza ou o dó que sentimos por alguém",
+                "kind": "no-context"
+              },
+              {
+                "text": "um brinquedo que roda no chão",
+                "kind": "off"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "fern-clue-garden", "de": "teekesselwoerter-mehrere-bedeutungen-klasse-2", "fr": "sens-d-un-mot-d-apres-le-contexte", "es": "palabras-con-varios-significados-por-contexto-primaria" },
-    "page_title": { "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)", "de": "Teekesselwörter Klasse 2 – Wörter mit 2 Bedeutungen", "fr": "Le jardin d'indices de Fern — Le sens d'un mot dans la phrase", "es": "Palabras con varios significados: elige por contexto | Primaria" },
-    "page_intro": { "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.", "de": "Teekesselwörter für Klasse 2 spielerisch üben: Lies den Satz und tipp die passende Bedeutung an. Kostenlos & interaktiv – jetzt mit Fern entdecken!", "fr": "Avec Fern le faon, votre enfant lit une petite phrase, puis tape la définition du mot qui va avec le contexte. Certains mots ont plusieurs sens (« la souris », « une feuille », « la glace »…) : pour choisir le bon, il faut lire toute la phrase et s'appuyer sur les indices qu'elle donne. L'enfant apprend ainsi à comprendre un mot à plusieurs sens grâce au contexte et enrichit son vocabulaire, en lien avec les programmes officiels de l'école. C'est une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte — juste le plaisir de réfléchir à son rythme.", "es": "El niño lee una oración, ve una palabra con varios significados y toca el que la oración señala usando el contexto: gratis, sin registro y alineada al plan de la SEP." },
+    "slug": {
+      "en": "fern-clue-garden",
+      "de": "teekesselwoerter-mehrere-bedeutungen-klasse-2",
+      "fr": "sens-d-un-mot-d-apres-le-contexte",
+      "es": "palabras-con-varios-significados-por-contexto-primaria",
+      "pt": "palavras-com-varios-sentidos-pelo-contexto-2-ano"
+    },
+    "page_title": {
+      "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)",
+      "de": "Teekesselwörter Klasse 2 – Wörter mit 2 Bedeutungen",
+      "fr": "Le jardin d'indices de Fern — Le sens d'un mot dans la phrase",
+      "es": "Palabras con varios significados: elige por contexto | Primaria",
+      "pt": "Palavras com vários sentidos: descubra pelo contexto · 2º ano"
+    },
+    "page_intro": {
+      "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.",
+      "de": "Teekesselwörter für Klasse 2 spielerisch üben: Lies den Satz und tipp die passende Bedeutung an. Kostenlos & interaktiv – jetzt mit Fern entdecken!",
+      "fr": "Avec Fern le faon, votre enfant lit une petite phrase, puis tape la définition du mot qui va avec le contexte. Certains mots ont plusieurs sens (« la souris », « une feuille », « la glace »…) : pour choisir le bon, il faut lire toute la phrase et s'appuyer sur les indices qu'elle donne. L'enfant apprend ainsi à comprendre un mot à plusieurs sens grâce au contexte et enrichit son vocabulaire, en lien avec les programmes officiels de l'école. C'est une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte — juste le plaisir de réfléchir à son rythme.",
+      "es": "El niño lee una oración, ve una palabra con varios significados y toca el que la oración señala usando el contexto: gratis, sin registro y alineada al plan de la SEP.",
+      "pt": "Com a corça Fern, a criança lê uma frase e descobre o sentido de uma palavra que tem mais de um significado, usando as pistas do contexto. Uma atividade para ampliar o vocabulário e ler com atenção. Grátis, sem cadastro. BNCC, 2º ano."
+    },
     "kid_prompt_template": "context-clues"
   }
 ]

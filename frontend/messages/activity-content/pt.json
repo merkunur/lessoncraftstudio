@@ -3337,6 +3337,29 @@
         "Eu comparo as palavras letra por letra para achar o lugar delas.",
         "Eu coloco as palavras em ordem alfabética."
       ]
+    },
+    "fern-clue-garden.context-clues.l-2-4-a": {
+      "about": [
+        "A corça Fern cuida de um jardim especial: o jardim de pistas. Nele, algumas palavras têm mais de um sentido, e a Fern convida a criança a descobrir qual sentido combina com cada frase. Para isso, é só ler a frase inteirinha e prestar atenção nas palavras que aparecem em volta — elas são as pistas. Veja só: em \"A manga caiu do pé\", a manga é a fruta; já em \"A manga da blusa rasgou\", a manga é a parte da roupa. A mesma palavra, dois sentidos diferentes — e o contexto ajuda a escolher o certo.",
+        "Nesta atividade, a criança pratica algo muito importante para a leitura: perceber que uma palavra pode ter mais de um significado. Ela aprende a usar as outras palavras da frase (o contexto) como pistas e a escolher o sentido que faz sentido ali. Também tem o botão 🔊 para ouvir a frase em voz alta, o que ajuda quem ainda está aprendendo a ler. Aos pouquinhos, a criança amplia o vocabulário e vai ficando cada vez mais atenta a cada detalhe do que lê.",
+        "A atividade é totalmente gratuita, sem cadastro e sem login, e não tem cronômetro, pontuação nem competição — cada criança avança no seu próprio ritmo, com calma e sem pressão. Se ela erra, a Fern dá uma dica gentil e convida a tentar de novo, num clima acolhedor e sem vergonha de errar. Tudo isso está alinhado à BNCC, no trabalho de \"Ampliação do vocabulário\" (Língua Portuguesa), pensado para o 2º ano. Aqui, aprender palavras novas é uma brincadeira tranquila no jardim de pistas."
+      ],
+      "practices": [
+        "Perceber que uma palavra pode ter mais de um sentido.",
+        "Usar as pistas da frase (o contexto) para descobrir o sentido certo.",
+        "Ler a frase toda com atenção antes de escolher.",
+        "Ampliar o vocabulário com palavras do dia a dia."
+      ],
+      "howToPlay": [
+        "Leia a frase toda e ouça no 🔊 se quiser.",
+        "Olhe as palavras em volta: elas são as pistas!",
+        "Toque no sentido que combina com a frase e depois em Verificar."
+      ],
+      "learningGoals": [
+        "Eu descubro o sentido de uma palavra pela frase.",
+        "Eu uso as pistas do contexto para escolher o sentido certo.",
+        "Eu aprendo palavras novas e leio com mais atenção."
+      ]
     }
   }
 }

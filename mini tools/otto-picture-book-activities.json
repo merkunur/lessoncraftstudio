@@ -978,6 +978,248 @@
               ]
             }
           }
+        ],
+        "pt": [
+          {
+            "id": "boat",
+            "band": 1,
+            "target": "b3",
+            "story": {
+              "id": "boat",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boat-1",
+                  "caption": "Nino dobra um barco de papel."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boat-2",
+                  "caption": "Nino põe o barco no riacho."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boat-3",
+                  "caption": "Um vento empurra o barco."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boat-4",
+                  "caption": "O barco chega do outro lado."
+                }
+              ]
+            }
+          },
+          {
+            "id": "nest",
+            "band": 1,
+            "target": "b4",
+            "story": {
+              "id": "nest",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "nest-1",
+                  "caption": "Um sabiá junta gravetinhos."
+                },
+                {
+                  "id": "b2",
+                  "panel": "nest-2",
+                  "caption": "O sabiá faz um ninho fofinho."
+                },
+                {
+                  "id": "b3",
+                  "panel": "nest-3",
+                  "caption": "O sabiá bota um ovo."
+                },
+                {
+                  "id": "b4",
+                  "panel": "nest-4",
+                  "caption": "Do ovo nasce um pintinho."
+                }
+              ]
+            }
+          },
+          {
+            "id": "sandcastle",
+            "band": 1,
+            "target": "b2",
+            "story": {
+              "id": "sandcastle",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "sand-1",
+                  "caption": "Mila enche o balde de areia."
+                },
+                {
+                  "id": "b2",
+                  "panel": "sand-2",
+                  "caption": "Mila faz um castelo alto."
+                },
+                {
+                  "id": "b3",
+                  "panel": "sand-3",
+                  "caption": "Ela põe uma concha em cima."
+                },
+                {
+                  "id": "b4",
+                  "panel": "sand-4",
+                  "caption": "O castelo fica lindo."
+                }
+              ]
+            }
+          },
+          {
+            "id": "apple",
+            "band": 1,
+            "target": "b1",
+            "story": {
+              "id": "apple",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "apple-1",
+                  "caption": "Uma maçã vermelha na árvore."
+                },
+                {
+                  "id": "b2",
+                  "panel": "apple-2",
+                  "caption": "Téo estende uma cesta."
+                },
+                {
+                  "id": "b3",
+                  "panel": "apple-3",
+                  "caption": "A maçã cai na cesta."
+                },
+                {
+                  "id": "b4",
+                  "panel": "apple-4",
+                  "caption": "Téo dá uma mordida feliz."
+                }
+              ]
+            }
+          },
+          {
+            "id": "boots",
+            "band": 2,
+            "target": "b4",
+            "story": {
+              "id": "boots",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boots-1",
+                  "caption": "A chuva cai lá fora."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boots-2",
+                  "caption": "Sam calça as botas de chuva."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boots-3",
+                  "caption": "Sam pula numa poça grande."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boots-4",
+                  "caption": "Um arco-íris enche o céu."
+                }
+              ]
+            }
+          },
+          {
+            "id": "bear",
+            "band": 2,
+            "target": "b2",
+            "story": {
+              "id": "bear",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "bear-1",
+                  "caption": "Bento não acha seu ursinho."
+                },
+                {
+                  "id": "b2",
+                  "panel": "bear-2",
+                  "caption": "Bento olha embaixo da cama."
+                },
+                {
+                  "id": "b3",
+                  "panel": "bear-3",
+                  "caption": "Ele acende a lanterna."
+                },
+                {
+                  "id": "b4",
+                  "panel": "bear-4",
+                  "caption": "Bento acha o ursinho enfim!"
+                }
+              ]
+            }
+          },
+          {
+            "id": "snowman",
+            "band": 2,
+            "target": "b3",
+            "story": {
+              "id": "snowman",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "snow-1",
+                  "caption": "A neve cai no quintal."
+                },
+                {
+                  "id": "b2",
+                  "panel": "snow-2",
+                  "caption": "Lina faz um boneco de neve."
+                },
+                {
+                  "id": "b3",
+                  "panel": "snow-3",
+                  "caption": "Ela põe um cachecol nele."
+                },
+                {
+                  "id": "b4",
+                  "panel": "snow-4",
+                  "caption": "Lina vibra com seu boneco."
+                }
+              ]
+            }
+          },
+          {
+            "id": "butterfly",
+            "band": 2,
+            "target": "b1",
+            "story": {
+              "id": "butterfly",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "fly-1",
+                  "caption": "Uma lagarta come uma folha."
+                },
+                {
+                  "id": "b2",
+                  "panel": "fly-2",
+                  "caption": "Ela se enrola pra descansar."
+                },
+                {
+                  "id": "b3",
+                  "panel": "fly-3",
+                  "caption": "Ela vira uma borboleta."
+                },
+                {
+                  "id": "b4",
+                  "panel": "fly-4",
+                  "caption": "A borboleta visita uma flor."
+                }
+              ]
+            }
+          }
         ]
       }
     },
@@ -986,19 +1228,22 @@
       "en": "ottos-picture-book",
       "de": "satz-dem-bild-zuordnen-bildergeschichte-klasse-1",
       "fr": "livre-images-otto-quelle-image-montre-le-moment",
-      "es": "relacionar-oracion-con-imagen-cuento-ilustrado-primer-grado"
+      "es": "relacionar-oracion-con-imagen-cuento-ilustrado-primer-grado",
+      "pt": "relacionar-frase-com-imagem-historia-ilustrada-primeiro-ano"
     },
     "page_title": {
       "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)",
       "de": "Erste Sätze lesen – Satz und Bild zuordnen (Klasse 1)",
       "fr": "Exercices de lecture GS – quelle image ? – en ligne",
-      "es": "Relacionar oración e imagen – cuento ilustrado 1.º grado"
+      "es": "Relacionar oración e imagen – cuento ilustrado 1.º grado",
+      "pt": "Relacionar frase e imagem – história ilustrada 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7.",
       "de": "Erste Sätze lesen und verstehen: den Satz lesen und das passende Bild dazu finden. Kostenlos online üben, ohne Anmeldung – für Leseanfänger.",
       "fr": "Exercices de lecture pour la GS : lire et choisir l'image qui montre le moment de l'histoire. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratis: los niños escuchan una oración y tocan la imagen que muestra ese momento del cuento ilustrado. Ideal para relacionar texto e imagen en 1.º grado."
+      "es": "Actividad interactiva y gratis: los niños escuchan una oración y tocan la imagen que muestra ese momento del cuento ilustrado. Ideal para relacionar texto e imagen en 1.º grado.",
+      "pt": "Um jogo de leitura interativo e gratuito sobre como as imagens e as histórias combinam: Otto, a coruja, desenha uma imagem para cada parte de uma historinha. Você OUVE a história inteira e, depois, Otto lê UMA parte em voz alta — e você toca na imagem que mostra aquele momentinho. Uma atividade alinhada à BNCC (Base Nacional Comum Curricular)."
     },
     "kid_prompt_template": "which-picture"
   }

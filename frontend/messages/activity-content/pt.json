@@ -3820,6 +3820,29 @@
         "Compreender o que aconteceu e por que aconteceu.",
         "Ampliar a compreensão de textos, com base na BNCC."
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "No livro de desenhos do Otto, a coruja Otto desenhou uma historinha em quatro imagens. Primeiro você ouve a história inteira; depois, Otto lê uma frase de cada vez. Sua missão é descobrir qual imagem mostra aquela parte da história.",
+        "É uma brincadeira de leitura que ajuda a criança a perceber como a frase e o desenho contam a mesma coisa. Cada imagem mostra um momento diferente, então vale a pena olhar com atenção e comparar antes de tocar.",
+        "A atividade é gratuita, feita para crianças dos anos iniciais e alinhada à BNCC (Base Nacional Comum Curricular). Não tem relógio nem placar — só histórias, desenhos e tempo pra pensar com calma."
+      ],
+      "practices": [
+        "Ligar uma frase à imagem que mostra aquele momento.",
+        "Ouvir a história inteira e acompanhar a ordem das partes.",
+        "Comparar as quatro imagens para achar a certa.",
+        "Prestar atenção aos detalhes de cada desenho."
+      ],
+      "howToPlay": [
+        "Toque em ▶ para ouvir a história do Otto do começo ao fim.",
+        "Otto lê uma parte — toque no 🔊 se quiser ouvir de novo.",
+        "Toque na imagem que mostra essa parte. Acertou? Otto vai comemorar com você!"
+      ],
+      "learningGoals": [
+        "Entender que as imagens e as palavras contam a história juntas.",
+        "Reconhecer qual desenho mostra cada parte do texto.",
+        "Ganhar confiança na leitura com apoio das imagens."
+      ]
     }
   }
 }

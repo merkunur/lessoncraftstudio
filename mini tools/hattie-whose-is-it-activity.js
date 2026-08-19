@@ -27,14 +27,32 @@
   }
   function deChildView(round) { return { noun: round.noun, thing: round.thing, choices: deForms(round).map(function (w, i) { return { id: i, word: w }; }) }; }
 
+  /* pt-BR REBUILD wrapper (activity-layer; 0 lines to possessive-noun-core.js).
+     Portuguese has NO possessive apostrophe/genitive-s — this teaches the GENDER
+     AGREEMENT of the possessive contraction: "De quem é? da Ana / do Téo".
+     Correct = contraction agreeing with the owner's gender (da=fem, do=masc);
+     foils = the gender-wrong contraction + a wrong-preposition contraction (na/no,
+     em≠posse). All 3 phrases share the owner name → equal length, no length cue.
+     (The uncontracted "de Ana" is acceptable BR, so it is NOT used as a foil.) */
+  function ptAnswer(round) { return (round.ownerG === 'f' ? 'da ' : 'do ') + round.noun; }
+  function ptForms(round) {
+    var owner = round.noun, f = round.ownerG === 'f';
+    var a = (f ? 'da ' : 'do ') + owner;
+    var foils = [(f ? 'do ' : 'da ') + owner, (f ? 'na ' : 'no ') + owner]; // gender-wrong, wrong-preposition
+    var slot = (((round.slot || 0) % 3) + 3) % 3, out = [], fi = 0;
+    for (var i = 0; i < 3; i++) { if (i === slot) out.push(a); else out.push(foils[fi++]); }
+    return out;
+  }
+  function ptChildView(round) { return { noun: round.noun, thing: round.thing, ownerG: round.ownerG, thingG: round.thingG, choices: ptForms(round).map(function (w, i) { return { id: i, word: w }; }) }; }
+
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function hedgehogSVG() {
-    return '<svg class="hwi-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Hattie, der Igel' : 'Hattie the hedgehog') + '">' +
+    return '<svg class="hwi-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Hattie, der Igel' : LANG === 'pt' ? 'Tuca, a ouriça' : 'Hattie the hedgehog') + '">' +
       '<path d="M22 64 q4 -26 28 -28 q24 2 28 28z" fill="#9A6B47"/>' +              /* spiky back */
       '<path d="M30 44 l-4 -10 M42 38 l-2 -11 M54 37 l2 -11 M66 42 l5 -10" stroke="#7A5238" stroke-width="3" stroke-linecap="round"/>' +
       '<ellipse cx="50" cy="64" rx="28" ry="14" fill="#E0C49E"/>' +                /* face/belly */
@@ -49,13 +67,13 @@
     id: 'hattie-whose-is-it-activity',
 
     strings: {
-      title: { en: "Hattie's Whose-Is-It", de: 'Hatties Fundkiste' },
-      instruction: { en: 'Tap the word that shows ONE owner owns it.', de: 'Tippe das Wort, das zeigt, wem es gehört – Name und s, kein Apostroph.' },
-      prompt: { en: 'Tap the word that shows ONE owner.', de: 'Wem gehört es? Tippe: Name + s – kein Apostroph.' },
-      hattieIntro: { en: "Add an apostrophe + s to show ONE owner: the dog's bone!", de: 'Ein Name bekommt nur ein s – keinen Apostroph: Annas Ball!' },
-      hintPick: { en: "One owner gets an apostrophe and an s — like cat's.", de: 'Beim Namen hängst du nur ein s an – wie Annas Ball. Kein Apostroph!' },
-      hintWrong: { en: "Look for the apostrophe before the s (one owner = 's).", de: 'Beim Namen kommt NUR ein s dran – kein Apostroph.' },
-      win: { en: "Yes! That shows who owns it. 🦔", de: 'Ja! Das zeigt, wem es gehört. 🦔' }
+      title: { en: "Hattie's Whose-Is-It", de: 'Hatties Fundkiste', pt: 'O acha-e-perde da Tuca' },
+      instruction: { en: 'Tap the word that shows ONE owner owns it.', de: 'Tippe das Wort, das zeigt, wem es gehört – Name und s, kein Apostroph.', pt: 'Toque no pedacinho que combina com o dono: da para menina, do para menino.' },
+      prompt: { en: 'Tap the word that shows ONE owner.', de: 'Wem gehört es? Tippe: Name + s – kein Apostroph.', pt: 'De quem é? Toque em da ou do.' },
+      hattieIntro: { en: "Add an apostrophe + s to show ONE owner: the dog's bone!", de: 'Ein Name bekommt nur ein s – keinen Apostroph: Annas Ball!', pt: 'Oi! Eu sou a Tuca. Dica: da é de menina, do é de menino!' },
+      hintPick: { en: "One owner gets an apostrophe and an s — like cat's.", de: 'Beim Namen hängst du nur ein s an – wie Annas Ball. Kein Apostroph!', pt: 'Olhe pro dono: se é menina, escolha da; se é menino, escolha do.' },
+      hintWrong: { en: "Look for the apostrophe before the s (one owner = 's).", de: 'Beim Namen kommt NUR ein s dran – kein Apostroph.', pt: 'Quase! Veja de novo: o dono é menina (da) ou menino (do)? E a gente usa de, não em.' },
+      win: { en: "Yes! That shows who owns it. 🦔", de: 'Ja! Das zeigt, wem es gehört. 🦔', pt: 'Isso! Você achou de quem é. 🦔' }
     },
     defaults: {},
 
@@ -70,7 +88,7 @@
     },
 
     setupTask: function (round) {
-      this.round = round; this.view = (LANG === 'de' ? deChildView(round) : Core.childView(round)); this.sel = null;
+      this.round = round; this.view = (LANG === 'pt' ? ptChildView(round) : LANG === 'de' ? deChildView(round) : Core.childView(round)); this.sel = null;
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -85,15 +103,15 @@
       var say = api.el('div', 'hwi-say'); say.textContent = api.t('hattieIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var tell = api.el('div', 'hwi-tell'); tell.textContent = (LANG === 'de' ? ('Das gehört ' + v.noun + '.') : ('This ' + v.thing + ' belongs to the ' + v.noun + '.')); root.appendChild(tell);
-      var ask = api.el('div', 'hwi-ask'); ask.textContent = (LANG === 'de' ? ('Wessen ' + v.thing + ' ist das?') : ('Whose ' + v.thing + ' is it?')); root.appendChild(ask);
+      var tell = api.el('div', 'hwi-tell'); tell.textContent = (LANG === 'pt' ? ((v.ownerG === 'f' ? 'A ' : 'O ') + v.noun + ' perdeu ' + (v.thingG === 'f' ? 'a ' : 'o ') + v.thing + '.') : LANG === 'de' ? ('Das gehört ' + v.noun + '.') : ('This ' + v.thing + ' belongs to the ' + v.noun + '.')); root.appendChild(tell);
+      var ask = api.el('div', 'hwi-ask'); ask.textContent = (LANG === 'pt' ? ('De quem é ' + (v.thingG === 'f' ? 'a ' : 'o ') + v.thing + '?') : LANG === 'de' ? ('Wessen ' + v.thing + ' ist das?') : ('Whose ' + v.thing + ' is it?')); root.appendChild(ask);
 
       var opts = api.el('div', 'hwi-opts');
       this._cards.forEach(function (o) {
         var b = api.el('button', 'hwi-opt' + (self.sel === o.id ? ' hwi-sel' : '')); b.type = 'button';
-        b.setAttribute('data-id', o.id); b.setAttribute('aria-label', o.word + ' ' + v.thing);
+        b.setAttribute('data-id', o.id); b.setAttribute('aria-label', LANG === 'pt' ? o.word : (o.word + ' ' + v.thing));
         var w = api.el('span', 'hwi-word'); w.textContent = o.word; b.appendChild(w);
-        var th = api.el('span', 'hwi-thing'); th.textContent = v.thing; b.appendChild(th);
+        var th = api.el('span', 'hwi-thing'); th.textContent = (LANG === 'pt' ? '' : v.thing); b.appendChild(th);
         b.addEventListener('click', function () { self._tap(o.id, o.word); });
         opts.appendChild(b);
       });
@@ -107,7 +125,7 @@
       this.sel = id; this.api.sound && this.api.sound(560); speak(word); this.render();
     },
 
-    isCorrect: function () { return (LANG === 'de' ? (this.sel != null && deForms(this.round)[this.sel] === deAnswer(this.round)) : Core.grade(this.round, this.sel)); },
+    isCorrect: function () { return (LANG === 'pt' ? (this.sel != null && ptForms(this.round)[this.sel] === ptAnswer(this.round)) : LANG === 'de' ? (this.sel != null && deForms(this.round)[this.sel] === deAnswer(this.round)) : Core.grade(this.round, this.sel)); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {
@@ -156,7 +174,7 @@
       return {
         id: 'hattie-whose-is-it.' + round.id, band: round.band || 1, promptKey: 'prompt', promptArgs: {}, answerType: 'state',
         setup: function (tool) { tool.setupTask(round); },
-        check: function (tool) { return (LANG === 'de' ? (tool.sel != null && deForms(round)[tool.sel] === deAnswer(round)) : Core.grade(round, tool.sel)); },
+        check: function (tool) { return (LANG === 'pt' ? (tool.sel != null && ptForms(round)[tool.sel] === ptAnswer(round)) : LANG === 'de' ? (tool.sel != null && deForms(round)[tool.sel] === deAnswer(round)) : Core.grade(round, tool.sel)); },
         hintKey: function (tool) { return tool.sel != null ? 'hintWrong' : 'hintPick'; }
       };
     });

@@ -3475,6 +3475,29 @@
         "Eu uso as pistas da capa para descobrir o tipo do livro.",
         "Eu escolho os meus livros sabendo que tipo de livro eu quero ler."
       ]
+    },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "O Fábio é uma raposinha simpática que adora contar histórias — e ele mostra uma historinha bem curtinha em 3 quadrinhos, cada um com uma frase. A criança lê com calma (ou aperta o botão 🔊 pra ouvir a história de novo) e, no final, o Fábio faz uma perguntinha sobre o que aconteceu. Aí é só tocar na resposta certa! Por exemplo: depois de ler sobre a luva perdida na neve, ele pergunta \"Quem pulou na neve?\" — e a criança é só lembrar da história pra responder. As três historinhas são curtinhas e fofas: uma luva na neve, uma cenoura gigante e um piquenique na chuva.",
+        "Enquanto brinca, a criança pratica ler com atenção e compreender os detalhes importantes de uma história: quem são os personagens, o que acontece, onde a história se passa, em que ordem os fatos acontecem, por que as coisas acontecem e como os personagens se sentem. Isso é o comecinho da compreensão de leitura — porque entender o que se lê é o coração da leitura, não basta só juntar as letras. Responder perguntas sobre a história ajuda a criança a guardar cada detalhe e a organizar tudo direitinho na cabeça, do início ao fim.",
+        "A atividade é totalmente grátis, sem cadastro e sem login — nada de cronômetro, pontuação ou competição. Cada criança vai no seu próprio ritmo, com todo o carinho: quando ela erra, o Fábio dá uma dica gentil, sem bronca e sem pressa, e o 🔊 lê a história mais uma vez pra ajudar. Tudo isso alinhado à BNCC, no trabalho de leitura e compreensão de textos literários — ler uma história e responder sobre os seus detalhes — para o 1º ano."
+      ],
+      "practices": [
+        "Ler e compreender uma historinha curta.",
+        "Lembrar os detalhes: personagens, fatos e lugar.",
+        "Entender a ordem dos acontecimentos e o porquê.",
+        "Responder perguntas sobre o que leu."
+      ],
+      "howToPlay": [
+        "Leia a historinha do Fábio nos 3 quadrinhos — aperte o 🔊 se quiser ouvir.",
+        "Leia a perguntinha e pense sobre o que aconteceu na história.",
+        "Toque na resposta certa entre as três cartinhas."
+      ],
+      "learningGoals": [
+        "Eu leio uma história e respondo sobre ela.",
+        "Eu lembro quem, o quê, onde e por quê.",
+        "Eu entendo a ordem dos fatos da história."
+      ]
     }
   }
 }

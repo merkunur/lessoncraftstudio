@@ -722,6 +722,184 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "sf1",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Os ossos do seu corpo",
+                "blurb": "Você tem ossos de verdade dentro de você.",
+                "type": "fact"
+              },
+              {
+                "title": "Os dois dragões dorminhocos",
+                "blurb": "Era uma vez dois dragões muito dorminhocos.",
+                "type": "story"
+              },
+              {
+                "title": "Como funcionam as máquinas grandes",
+                "blurb": "Máquinas de verdade: o guindaste e o trator.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf2",
+            "band": 1,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Os dois dragões dorminhocos",
+                "blurb": "Era uma vez dois dragões muito dorminhocos.",
+                "type": "story"
+              },
+              {
+                "title": "Zeca, o saci, e a meia perdida",
+                "blurb": "Zeca, o saci, não encontra a meia dele.",
+                "type": "story"
+              },
+              {
+                "title": "Os ossos do seu corpo",
+                "blurb": "Você tem ossos de verdade dentro de você.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf3",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Zeca, o saci, e a meia perdida",
+                "blurb": "Zeca, o saci, não encontra a meia dele.",
+                "type": "story"
+              },
+              {
+                "title": "Tudo sobre os insetos",
+                "blurb": "Insetos de verdade: patas, asas e antenas.",
+                "type": "fact"
+              },
+              {
+                "title": "Como as árvores crescem?",
+                "blurb": "Fatos curiosos sobre as árvores mais altas.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf4",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Lito, o barquinho valente",
+                "blurb": "Lito, o barquinho, não queria se molhar.",
+                "type": "story"
+              },
+              {
+                "title": "Téo e seu chapéu",
+                "blurb": "Era uma vez um coelho chamado Téo.",
+                "type": "story"
+              },
+              {
+                "title": "Como funcionam as máquinas grandes",
+                "blurb": "Máquinas de verdade: o guindaste e o trator.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf5",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Como as árvores crescem?",
+                "blurb": "Fatos curiosos sobre as árvores mais altas.",
+                "type": "fact"
+              },
+              {
+                "title": "Lito, o barquinho valente",
+                "blurb": "Lito, o barquinho, não queria se molhar.",
+                "type": "story"
+              },
+              {
+                "title": "Como as abelhas fazem mel?",
+                "blurb": "Abelhas de verdade e o mel gostoso.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf6",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Como as árvores crescem?",
+                "blurb": "Fatos curiosos sobre as árvores mais altas.",
+                "type": "fact"
+              },
+              {
+                "title": "A cutia que sonha em voar",
+                "blurb": "Pipa sonha em voar bem alto.",
+                "type": "story"
+              },
+              {
+                "title": "Téo e seu chapéu",
+                "blurb": "Era uma vez um coelho chamado Téo.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf7",
+            "band": 3,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Tudo sobre os insetos",
+                "blurb": "Insetos de verdade: patas, asas e antenas.",
+                "type": "fact"
+              },
+              {
+                "title": "Como as abelhas fazem mel?",
+                "blurb": "Abelhas de verdade e o mel gostoso.",
+                "type": "fact"
+              },
+              {
+                "title": "A cutia que sonha em voar",
+                "blurb": "Pipa sonha em voar bem alto.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf8",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Tudo sobre os insetos",
+                "blurb": "Insetos de verdade: patas, asas e antenas.",
+                "type": "fact"
+              },
+              {
+                "title": "A cutia que sonha em voar",
+                "blurb": "Pipa sonha em voar bem alto.",
+                "type": "story"
+              },
+              {
+                "title": "Téo e seu chapéu",
+                "blurb": "Era uma vez um coelho chamado Téo.",
+                "type": "story"
+              }
+            ]
+          }
         ]
       }
     },
@@ -730,19 +908,22 @@
       "en": "bea-two-bookshelves",
       "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1",
       "fr": "histoire-ou-documentaire-cp",
-      "es": "cuento-o-texto-informativo-tipos-de-texto-primer-grado"
+      "es": "cuento-o-texto-informativo-tipos-de-texto-primer-grado",
+      "pt": "historia-ou-livro-de-verdade-tipos-de-texto-1-ano"
     },
     "page_title": {
       "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)",
       "de": "Geschichte oder Sachbuch? Textsorten unterscheiden",
       "fr": "Les deux étagères de Bea — Récit ou documentaire ? (CP)",
-      "es": "Cuento o texto informativo: tipos de texto 1.º de primaria"
+      "es": "Cuento o texto informativo: tipos de texto 1.º de primaria",
+      "pt": "História ou livro de verdade? Tipos de texto · 1º ano"
     },
     "page_intro": {
       "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.",
       "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!",
       "fr": "Bea, un petit ver de livre, a deux étagères : une pour les livres qui racontent une histoire inventée, une pour les livres documentaires qui expliquent de vraies choses. À chaque tour, votre enfant regarde trois livres et tape celui que Bea demande : un récit ou un documentaire. Un jeu de lecture gratuit et interactif, à jouer dans le navigateur.",
-      "es": "Distingue el cuento del texto informativo mirando la portada: ayuda a Bea con sus libreros. Tipos de texto para 1.º de primaria, gratis, en línea y sin registro."
+      "es": "Distingue el cuento del texto informativo mirando la portada: ayuda a Bea con sus libreros. Tipos de texto para 1.º de primaria, gratis, en línea y sin registro.",
+      "pt": "Com a lagartinha Bea, a criança lê as capas dos livros e descobre qual é uma história inventada e qual é um livro de verdade. Uma atividade divertida de leitura para reconhecer os tipos de texto pelas pistas da capa. Grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
   }

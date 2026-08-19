@@ -1971,6 +1971,496 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "opposites.pick-black",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "preto",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "cima",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "branco",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "vermelho",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-up",
+            "cog": "pick",
+            "complementary": false,
+            "target": {
+              "word": "cima",
+              "glyph": {
+                "type": "arrow",
+                "param": "up"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "preto",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "baixo",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "esquerda",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-big",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "grande",
+              "glyph": {
+                "type": "size",
+                "param": "big"
+              },
+              "oppositionId": "size",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "baixo",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "pequeno",
+                "glyph": {
+                  "type": "size",
+                  "param": "small"
+                },
+                "relation": "opposite",
+                "dimension": "size"
+              },
+              {
+                "word": "feliz",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.route-black",
+            "cog": "route",
+            "complementary": false,
+            "anchor": {
+              "word": "preto",
+              "glyph": {
+                "type": "swatch",
+                "param": "#262626"
+              },
+              "oppositionId": "color"
+            },
+            "stream": [
+              {
+                "word": "branco",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#ffffff"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "vermelho",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              },
+              {
+                "word": "azul",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.oddpair-1",
+            "cog": "oddpair",
+            "complementary": false,
+            "pairs": [
+              {
+                "a": {
+                  "word": "preto",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#262626"
+                  }
+                },
+                "b": {
+                  "word": "branco",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#ffffff"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "cima",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "up"
+                  }
+                },
+                "b": {
+                  "word": "baixo",
+                  "glyph": {
+                    "type": "arrow",
+                    "param": "down"
+                  }
+                },
+                "relation": "opposite"
+              },
+              {
+                "a": {
+                  "word": "vermelho",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#e23b2e"
+                  }
+                },
+                "b": {
+                  "word": "azul",
+                  "glyph": {
+                    "type": "swatch",
+                    "param": "#2f6fd0"
+                  }
+                },
+                "relation": "related"
+              }
+            ]
+          },
+          {
+            "id": "opposites.scene-bedtime",
+            "cog": "scene",
+            "complementary": true,
+            "sceneLabel": "Hora de dormir, mas está tudo ao contrário!",
+            "elements": [
+              {
+                "word": "sol",
+                "glyph": {
+                  "type": "celestial",
+                  "param": "sun"
+                },
+                "flipGlyph": {
+                  "type": "celestial",
+                  "param": "moon"
+                },
+                "flipWord": "lua"
+              },
+              {
+                "word": "luz acesa",
+                "glyph": {
+                  "type": "lamp",
+                  "param": "on"
+                },
+                "flipGlyph": {
+                  "type": "lamp",
+                  "param": "off"
+                },
+                "flipWord": "luz apagada"
+              },
+              {
+                "word": "porta aberta",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "flipGlyph": {
+                  "type": "door",
+                  "param": "closed"
+                },
+                "flipWord": "porta fechada"
+              }
+            ]
+          },
+          {
+            "id": "opposites.generate-left",
+            "cog": "generate",
+            "complementary": false,
+            "target": {
+              "word": "esquerda",
+              "glyph": {
+                "type": "arrow",
+                "param": "left"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "feliz",
+                "glyph": {
+                  "type": "face",
+                  "param": "happy"
+                },
+                "relation": "unrelated",
+                "dimension": "emotion"
+              },
+              {
+                "word": "direita",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "cima",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-white",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "branco",
+              "glyph": {
+                "type": "swatch",
+                "param": "#ffffff"
+              },
+              "oppositionId": "color",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "baixo",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "down"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "preto",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#262626"
+                },
+                "relation": "opposite",
+                "dimension": "color"
+              },
+              {
+                "word": "azul",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#2f6fd0"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "color"
+              }
+            ]
+          },
+          {
+            "id": "opposites.balance-down",
+            "cog": "balance",
+            "complementary": false,
+            "target": {
+              "word": "baixo",
+              "glyph": {
+                "type": "arrow",
+                "param": "down"
+              },
+              "oppositionId": "direction",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "vermelho",
+                "glyph": {
+                  "type": "swatch",
+                  "param": "#e23b2e"
+                },
+                "relation": "unrelated",
+                "dimension": "color"
+              },
+              {
+                "word": "cima",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "up"
+                },
+                "relation": "opposite",
+                "dimension": "direction"
+              },
+              {
+                "word": "direita",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "right"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "direction"
+              }
+            ]
+          },
+          {
+            "id": "opposites.verb-push",
+            "cog": "verb",
+            "complementary": false,
+            "target": {
+              "word": "empurrar",
+              "glyph": {
+                "type": "motion",
+                "param": "push"
+              },
+              "oppositionId": "motion",
+              "pos": "verb"
+            },
+            "choices": [
+              {
+                "word": "abrir",
+                "glyph": {
+                  "type": "door",
+                  "param": "open"
+                },
+                "relation": "unrelated",
+                "dimension": "state"
+              },
+              {
+                "word": "puxar",
+                "glyph": {
+                  "type": "motion",
+                  "param": "pull"
+                },
+                "relation": "opposite",
+                "dimension": "motion"
+              },
+              {
+                "word": "levantar",
+                "glyph": {
+                  "type": "motion",
+                  "param": "lift"
+                },
+                "relation": "same-dim-sibling",
+                "dimension": "motion"
+              }
+            ]
+          },
+          {
+            "id": "opposites.pick-hot",
+            "cog": "pick",
+            "complementary": true,
+            "target": {
+              "word": "quente",
+              "glyph": {
+                "type": "temp",
+                "param": "hot"
+              },
+              "oppositionId": "temperature",
+              "pos": "adj"
+            },
+            "choices": [
+              {
+                "word": "esquerda",
+                "glyph": {
+                  "type": "arrow",
+                  "param": "left"
+                },
+                "relation": "unrelated",
+                "dimension": "direction"
+              },
+              {
+                "word": "frio",
+                "glyph": {
+                  "type": "temp",
+                  "param": "cold"
+                },
+                "relation": "opposite",
+                "dimension": "temperature"
+              },
+              {
+                "word": "grande",
+                "glyph": {
+                  "type": "size",
+                  "param": "big"
+                },
+                "relation": "unrelated",
+                "dimension": "size"
+              }
+            ]
+          }
         ]
       }
     },
@@ -1978,19 +2468,22 @@
       "en": "quills-mirror-market",
       "de": "gegensaetze-finden-gegenteile-klasse-1",
       "fr": "trouver-les-contraires-cp",
-      "es": "palabras-contrarias-antonimos-primer-grado"
+      "es": "palabras-contrarias-antonimos-primer-grado",
+      "pt": "palavras-contrarias-antonimos-1-ano"
     },
     "page_title": {
       "en": "Quill's Mirror Market — Find the Opposite",
       "de": "Gegensätze finden: Gegenteile-Spiel – Klasse 1",
       "fr": "Les contraires – exercice en ligne (CP)",
-      "es": "Palabras contrarias y antónimos – Primer grado"
+      "es": "Palabras contrarias y antónimos – Primer grado",
+      "pt": "Palavras contrárias e antônimos · 1º ano"
     },
     "page_intro": {
       "en": "Quill the hedgehog only seals a trade when you bring the OPPOSITE — the other end, not just a friend! Tap the word that means the reverse: black→white, up→down, push→pull. A Kindergarten antonyms game aligned to Common Core K.L.5.b: relate words to their opposites.",
       "de": "Welches Wort ist das Gegenteil? Dein Kind findet zu schwarz das passende weiß – ein kostenloses, interaktives Gegensätze-Spiel für Klasse 1.",
       "fr": "Trouve le contraire de chaque mot au marché-miroir de Quill ; parfait du CP à la révision au CE1. Gratuit, en ligne, sans inscription.",
-      "es": "Toca lo contrario de cada palabra: negro y blanco, grande y pequeño, caliente y frío. Actividad de antónimos de primer grado, gratis y en línea, sin registro."
+      "es": "Toca lo contrario de cada palabra: negro y blanco, grande y pequeño, caliente y frío. Actividad de antónimos de primer grado, gratis y en línea, sin registro.",
+      "pt": "No mercado espelho do ouriço Espinho, a criança acha o contrário de cada palavra — grande/pequeno, quente/frio, cima/baixo — em joguinhos divertidos. Amplia o vocabulário com antônimos. Grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "Find the opposite — the OTHER end!"
   }

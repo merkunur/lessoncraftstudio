@@ -3567,6 +3567,29 @@
         "Eu sei diferenciar a lição de um detalhe da história.",
         "Eu penso além do texto para entender o que a fábula quis ensinar."
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Na oficina do Tinoco, o polvo que faz livros com tinta, cada livro guarda uma pequena história de quem o fez. A criança vê um trabalho sendo feito num livro — alguém escreveu as palavras, alguém desenhou as figuras ou alguém está lendo a história — e toca em quem faz esse trabalho. Se alguém desenhou as figuras coloridas da capa, é o trabalho do ilustrador! E se alguém pensou e escreveu as palavras da história, esse é o autor. Aos poucos, com o Tinoco por perto, a criança vai descobrindo de quem é cada tarefa.",
+        "Nesta atividade, a criança pratica reconhecer que todo livro tem um autor (quem escreve as palavras), um ilustrador (quem desenha as figuras) e um leitor (quem lê a história) — e entende a função de cada um. Ela aprende a olhar para um livro e perceber os diferentes trabalhos que se juntam para que a história exista. Isso ajuda a criança a entender como um livro é feito, do começo ao fim. E, de quebra, ela passa a valorizar quem escreve e quem ilustra os livros que ela tanto adora.",
+        "A atividade é totalmente gratuita, sem cadastro e sem login: é só abrir e brincar. Não há cronômetro, pontuação nem competição — cada criança segue no seu ritmo, com calma e sem pressão. Quando ela erra, o Tinoco dá uma dica gentil e convida a tentar de novo, sempre com carinho e sem constrangimento. Tudo alinhado à BNCC, no trabalho de reconhecer o autor e o ilustrador de um livro e a função de cada um — pensado para o 1º ano."
+      ],
+      "practices": [
+        "Reconhecer o autor, o ilustrador e o leitor de um livro.",
+        "Entender a função de cada um: escrever as palavras, desenhar as figuras e ler a história.",
+        "Perceber como um livro é feito, do texto às ilustrações.",
+        "Valorizar quem escreve e quem ilustra os livros que a criança adora."
+      ],
+      "howToPlay": [
+        "Olhe o trabalho que está sendo feito no livro do Tinoco.",
+        "Descubra de quem é esse trabalho: o autor, o ilustrador ou o leitor.",
+        "Toque em quem faz esse trabalho — e o Tinoco comemora com você!"
+      ],
+      "learningGoals": [
+        "Eu sei quem é o autor e quem é o ilustrador de um livro.",
+        "Eu entendo que o autor escreve as palavras e o ilustrador desenha as figuras.",
+        "Eu percebo que o leitor é quem lê a história do livro."
+      ]
     }
   }
 }

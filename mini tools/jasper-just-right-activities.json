@@ -730,6 +730,192 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "drink",
+            "band": 1,
+            "situation": "Você quer beber água. O que você usa?",
+            "correctNoun": "glass",
+            "choices": [
+              {
+                "noun": "glass",
+                "themeDir": "kitchen tools",
+                "label": "o copo"
+              },
+              {
+                "noun": "scissors",
+                "themeDir": "around the house",
+                "label": "a tesoura"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "label": "a maçã"
+              }
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 1,
+            "situation": "Está chovendo. O que você usa para não se molhar?",
+            "correctNoun": "umbrella",
+            "choices": [
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "a meia"
+              },
+              {
+                "noun": "umbrella",
+                "themeDir": "accessories",
+                "label": "o guarda-chuva"
+              },
+              {
+                "noun": "bed",
+                "themeDir": "around the house",
+                "label": "a cama"
+              }
+            ]
+          },
+          {
+            "id": "feet",
+            "band": 1,
+            "situation": "Seus pés estão com frio. O que você veste neles?",
+            "correctNoun": "sock",
+            "choices": [
+              {
+                "noun": "fan",
+                "themeDir": "around the house",
+                "label": "o ventilador"
+              },
+              {
+                "noun": "spoon",
+                "themeDir": "around the house",
+                "label": "a colher"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "a meia"
+              }
+            ]
+          },
+          {
+            "id": "write",
+            "band": 2,
+            "situation": "Você quer escrever seu nome. O que você usa?",
+            "correctNoun": "pencil",
+            "choices": [
+              {
+                "noun": "pencil",
+                "themeDir": "around the house",
+                "label": "o lápis"
+              },
+              {
+                "noun": "cup",
+                "themeDir": "around the house",
+                "label": "a xícara"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "label": "a bola"
+              }
+            ]
+          },
+          {
+            "id": "eat",
+            "band": 2,
+            "situation": "Você está com fome. O que você pode comer?",
+            "correctNoun": "apple",
+            "choices": [
+              {
+                "noun": "mitten",
+                "themeDir": "accessories",
+                "label": "a luva"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "label": "a maçã"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "a meia"
+              }
+            ]
+          },
+          {
+            "id": "hot",
+            "band": 2,
+            "situation": "Está muito calor. O que te deixa mais fresquinho?",
+            "correctNoun": "fan",
+            "choices": [
+              {
+                "noun": "scissors",
+                "themeDir": "around the house",
+                "label": "a tesoura"
+              },
+              {
+                "noun": "shoe",
+                "themeDir": "clothing",
+                "label": "o sapato"
+              },
+              {
+                "noun": "fan",
+                "themeDir": "around the house",
+                "label": "o ventilador"
+              }
+            ]
+          },
+          {
+            "id": "cut",
+            "band": 3,
+            "situation": "Você quer cortar o papel. O que você usa?",
+            "correctNoun": "scissors",
+            "choices": [
+              {
+                "noun": "scissors",
+                "themeDir": "around the house",
+                "label": "a tesoura"
+              },
+              {
+                "noun": "cup",
+                "themeDir": "around the house",
+                "label": "a xícara"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "a meia"
+              }
+            ]
+          },
+          {
+            "id": "sleep",
+            "band": 3,
+            "situation": "É hora de dormir. Onde você dorme?",
+            "correctNoun": "bed",
+            "choices": [
+              {
+                "noun": "umbrella",
+                "themeDir": "accessories",
+                "label": "o guarda-chuva"
+              },
+              {
+                "noun": "bed",
+                "themeDir": "around the house",
+                "label": "a cama"
+              },
+              {
+                "noun": "crayon",
+                "themeDir": "classroom",
+                "label": "o giz de cera"
+              }
+            ]
+          }
         ]
       }
     },
@@ -738,19 +924,22 @@
       "en": "jasper-just-right",
       "de": "wozu-benutzt-man-das-klasse-1",
       "fr": "jasper-a-quoi-ca-sert-vocabulaire-cp",
-      "es": "para-que-sirven-los-objetos-primer-grado"
+      "es": "para-que-sirven-los-objetos-primer-grado",
+      "pt": "para-que-serve-cada-objeto-vocabulario-1-ano"
     },
     "page_title": {
       "en": "Jasper's Just-Right Bag — Which One Would You Use? (Grade 1)",
       "de": "Wortschatz-Übungen – online üben (Klasse 1)",
       "fr": "Jasper le geai — À quoi ça sert ? Le vocabulaire (CP)",
-      "es": "Para qué sirven los objetos – vocabulario 1.º primaria"
+      "es": "Para qué sirven los objetos – vocabulario 1.º primaria",
+      "pt": "Para que serve cada objeto? Vocabulário do dia a dia · 1º ano"
     },
     "page_intro": {
       "en": "Jasper the jay packs the just-right thing for every moment! Read what is happening (it is raining…), then tap the picture of what you would use. A Grade 1 vocabulary game about real-life connections between words and how we use them, aligned to Common Core L.1.5.c.",
       "de": "Wortschatz-Übungen für die Grundschule: Wozu benutzt man das? Wörter und ihre Verwendung zuordnen. Klasse 1 – kostenlos online, ohne Anmeldung.",
       "fr": "Jasper le geai raconte une petite situation de tous les jours — « Il pleut dehors. Qu'utilises-tu pour rester au sec ? » — et votre enfant tape l'image de l'objet qui convient, le parapluie. En reliant chaque mot à son usage réel (le verre pour boire, les ciseaux pour couper, le lit pour dormir), il enrichit son vocabulaire du quotidien tout en s'amusant. C'est gratuit, interactif, ça se joue directement dans le navigateur, sans minuteur, sans score et sans compte.",
-      "es": "¿Para qué sirve cada objeto? El niño toca la imagen del objeto que usaría en cada situación. Vocabulario en línea, gratis y sin registro, para 1.º de primaria."
+      "es": "¿Para qué sirve cada objeto? El niño toca la imagen del objeto que usaría en cada situación. Vocabulario en línea, gratis y sin registro, para 1.º de primaria.",
+      "pt": "Com o gaio Jasper, a criança lê uma situação do dia a dia e toca na figura do objeto que usaria — o copo para beber, o guarda-chuva na chuva, o lápis para escrever. Uma atividade divertida para ampliar o vocabulário. Grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "Read what is happening — what would you use?"
   }

@@ -2790,6 +2790,701 @@
               3
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "sun",
+            "type": "order",
+            "band": 1,
+            "story": {
+              "id": "sun",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "pip",
+                    "what": "asleep"
+                  },
+                  "panel": "sun-1",
+                  "caption": "Pip dorme soltinho na grama."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "sun",
+                    "what": "rises"
+                  },
+                  "panel": "sun-2",
+                  "caption": "O sol vai subindo no céu."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "sun",
+                    "what": "warms"
+                  },
+                  "panel": "sun-3",
+                  "caption": "A luz quentinha toca o nariz do Pip."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "pip",
+                    "what": "wakes"
+                  },
+                  "panel": "sun-4",
+                  "caption": "Pip acorda e se espreguiça!"
+                }
+              ]
+            },
+            "tray": [
+              "sun-2",
+              "sun-4",
+              "sun-1",
+              "sun-3"
+            ],
+            "keySlots": []
+          },
+          {
+            "id": "kite",
+            "type": "order",
+            "band": 1,
+            "story": {
+              "id": "kite",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "mira",
+                    "what": "kite-stuck"
+                  },
+                  "panel": "kite-1",
+                  "caption": "A pipa da Mira ficou presa numa árvore alta."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "mira",
+                    "what": "shakes"
+                  },
+                  "panel": "kite-2",
+                  "caption": "Mira balança o tronco com força."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "kite",
+                    "what": "floats"
+                  },
+                  "panel": "kite-3",
+                  "caption": "A pipa se solta e desce voando."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "mira",
+                    "what": "catches"
+                  },
+                  "panel": "kite-4",
+                  "caption": "Mira pega a pipa e sorri feliz."
+                }
+              ]
+            },
+            "tray": [
+              "kite-3",
+              "kite-1",
+              "kite-4",
+              "kite-2"
+            ],
+            "keySlots": []
+          },
+          {
+            "id": "crow",
+            "type": "order",
+            "band": 1,
+            "story": {
+              "id": "crow",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "crow",
+                    "what": "thirsty"
+                  },
+                  "panel": "crow-1",
+                  "caption": "Um corvo não alcança a água no jarro."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "crow",
+                    "what": "drops-pebbles"
+                  },
+                  "panel": "crow-2",
+                  "caption": "O corvo joga pedrinhas dentro do jarro."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "water",
+                    "what": "rises"
+                  },
+                  "panel": "crow-3",
+                  "caption": "A água sobe bem alto."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "crow",
+                    "what": "drinks"
+                  },
+                  "panel": "crow-4",
+                  "caption": "Enfim o corvo bebe água."
+                }
+              ]
+            },
+            "tray": [
+              "crow-2",
+              "crow-3",
+              "crow-1",
+              "crow-4"
+            ],
+            "keySlots": []
+          },
+          {
+            "id": "puppy",
+            "type": "supply-key",
+            "band": 2,
+            "story": {
+              "id": "puppy",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "duke",
+                    "what": "muddy"
+                  },
+                  "panel": "puppy-1",
+                  "caption": "O cachorrinho Duque está cheio de lama."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "sam",
+                    "what": "fills-tub"
+                  },
+                  "panel": "puppy-2",
+                  "caption": "Sam enche a banheira com água morna."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "sam",
+                    "what": "scrubs"
+                  },
+                  "panel": "puppy-3",
+                  "caption": "Sam esfrega o Duque com sabonete e espuma."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "duke",
+                    "what": "clean"
+                  },
+                  "panel": "puppy-4",
+                  "caption": "Duque fica limpo e fofinho de novo."
+                }
+              ]
+            },
+            "locked": [
+              {
+                "slot": 0,
+                "panel": "puppy-1"
+              },
+              {
+                "slot": 1,
+                "panel": "puppy-2"
+              },
+              {
+                "slot": 3,
+                "panel": "puppy-4"
+              }
+            ],
+            "trivialWhats": {
+              "b3": [
+                {
+                  "id": "puppy-tw",
+                  "caption": "Sam cantarola uma musiquinha.",
+                  "in_story": true
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "puppy-fw",
+                "caption": "Começa a cair neve.",
+                "in_story": false
+              }
+            ],
+            "foreignWhos": [
+              {
+                "id": "puppy-fwo",
+                "caption": "Uma raposa passa trotando.",
+                "in_story": false
+              }
+            ],
+            "tray": [
+              "puppy-fw",
+              "puppy-3",
+              "puppy-fwo",
+              "puppy-tw"
+            ],
+            "keySlots": [
+              2
+            ]
+          },
+          {
+            "id": "mitten",
+            "type": "supply-key",
+            "band": 2,
+            "story": {
+              "id": "mitten",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "lina",
+                    "what": "drops-mitten"
+                  },
+                  "panel": "mitten-1",
+                  "caption": "Lina deixa cair a luva vermelha na neve."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "lina",
+                    "what": "follows-tracks"
+                  },
+                  "panel": "mitten-2",
+                  "caption": "Lina volta seguindo suas pegadas."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "lina",
+                    "what": "spots-mitten"
+                  },
+                  "panel": "mitten-3",
+                  "caption": "Ela vê a luva perto de um tronco."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "lina",
+                    "what": "warm"
+                  },
+                  "panel": "mitten-4",
+                  "caption": "Lina veste a luva quentinha."
+                }
+              ]
+            },
+            "locked": [
+              {
+                "slot": 0,
+                "panel": "mitten-1"
+              },
+              {
+                "slot": 2,
+                "panel": "mitten-3"
+              },
+              {
+                "slot": 3,
+                "panel": "mitten-4"
+              }
+            ],
+            "trivialWhats": {
+              "b2": [
+                {
+                  "id": "mitten-tw",
+                  "caption": "Um boneco de neve fica ali perto.",
+                  "in_story": true
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "mitten-fw",
+                "caption": "O sol se põe bem vermelho.",
+                "in_story": false
+              }
+            ],
+            "foreignWhos": [
+              {
+                "id": "mitten-fwo",
+                "caption": "Um cervo sai pulando.",
+                "in_story": false
+              }
+            ],
+            "tray": [
+              "mitten-tw",
+              "mitten-2",
+              "mitten-fwo",
+              "mitten-fw"
+            ],
+            "keySlots": [
+              1
+            ]
+          },
+          {
+            "id": "cake",
+            "type": "supply-key",
+            "band": 2,
+            "story": {
+              "id": "cake",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "theo",
+                    "what": "wants-surprise"
+                  },
+                  "panel": "cake-1",
+                  "caption": "Téo quer surpreender a mamãe com um bolo."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "theo",
+                    "what": "mixes"
+                  },
+                  "panel": "cake-2",
+                  "caption": "Téo mistura a massa numa tigela."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "theo",
+                    "what": "bakes"
+                  },
+                  "panel": "cake-3",
+                  "caption": "Téo assa o bolo no forno."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "mom",
+                    "what": "surprised"
+                  },
+                  "panel": "cake-4",
+                  "caption": "A mamãe se surpreende com um sorriso feliz."
+                }
+              ]
+            },
+            "locked": [
+              {
+                "slot": 0,
+                "panel": "cake-1"
+              },
+              {
+                "slot": 1,
+                "panel": "cake-2"
+              },
+              {
+                "slot": 3,
+                "panel": "cake-4"
+              }
+            ],
+            "trivialWhats": {
+              "b3": [
+                {
+                  "id": "cake-tw",
+                  "caption": "Um gato tira uma soneca na cadeira.",
+                  "in_story": true
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "cake-fw",
+                "caption": "Um barco passa navegando.",
+                "in_story": false
+              }
+            ],
+            "foreignWhos": [
+              {
+                "id": "cake-fwo",
+                "caption": "Um robô apita duas vezes.",
+                "in_story": false
+              }
+            ],
+            "tray": [
+              "cake-fwo",
+              "cake-3",
+              "cake-tw",
+              "cake-fw"
+            ],
+            "keySlots": [
+              2
+            ]
+          },
+          {
+            "id": "seed",
+            "type": "fix-memory",
+            "band": 3,
+            "fixKind": "order",
+            "story": {
+              "id": "seed",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "gus",
+                    "what": "plants"
+                  },
+                  "panel": "seed-1",
+                  "caption": "Guto planta uma sementinha num vaso."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "gus",
+                    "what": "waters"
+                  },
+                  "panel": "seed-2",
+                  "caption": "Guto rega ela toda manhã."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "sprout",
+                    "what": "grows"
+                  },
+                  "panel": "seed-3",
+                  "caption": "Um broto verde vai nascendo."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "flower",
+                    "what": "blooms"
+                  },
+                  "panel": "seed-4",
+                  "caption": "Uma flor colorida desabrocha!"
+                }
+              ]
+            },
+            "prefill": [
+              "seed-1",
+              "seed-3",
+              "seed-2",
+              "seed-4"
+            ],
+            "tray": [],
+            "keySlots": []
+          },
+          {
+            "id": "paint",
+            "type": "fix-memory",
+            "band": 3,
+            "fixKind": "face",
+            "story": {
+              "id": "paint",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "ada",
+                    "what": "spills"
+                  },
+                  "panel": "paint-1",
+                  "caption": "Ada derruba a tinta azul."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "ada",
+                    "what": "grabs-cloth"
+                  },
+                  "panel": "paint-2",
+                  "caption": "Ada pega um pano para ajudar."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "ada",
+                    "what": "makes-sky"
+                  },
+                  "panel": "paint-3",
+                  "caption": "Ela transforma a mancha num céu."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "ada",
+                    "what": "proud"
+                  },
+                  "panel": "paint-4",
+                  "caption": "Ada sorri para o seu novo desenho."
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "paint-fw1",
+                "caption": "Um trem passa apitando.",
+                "in_story": false
+              },
+              {
+                "id": "paint-fw2",
+                "caption": "Começa a chover.",
+                "in_story": false
+              }
+            ],
+            "prefill": [
+              "paint-1",
+              "paint-2",
+              "paint-fw1",
+              "paint-4"
+            ],
+            "tray": [
+              "paint-3",
+              "paint-fw2"
+            ],
+            "keySlots": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
         ]
       }
     },
@@ -2798,19 +3493,22 @@
       "en": "wake-up-pip",
       "de": "geschichte-nacherzaehlen-reihenfolge-und-details-klasse-2",
       "fr": "raconter-l-histoire-dans-le-bon-ordre-cp",
-      "es": "volver-a-contar-un-cuento-orden-de-los-sucesos-segundo-grado"
+      "es": "volver-a-contar-un-cuento-orden-de-los-sucesos-segundo-grado",
+      "pt": "recontar-uma-historia-os-acontecimentos-em-ordem-segundo-ano"
     },
     "page_title": {
       "en": "Wake Up, Pip! — Retell the Story to a Friend (Kindergarten)",
       "de": "Geschichte nacherzählen – Reihenfolge & Details, Klasse 2",
       "fr": "Lecture compréhension CP – raconter l'histoire en ligne",
-      "es": "Volver a contar un cuento: los sucesos en orden – 2.º grado"
+      "es": "Volver a contar un cuento: los sucesos en orden – 2.º grado",
+      "pt": "Recontar uma história: os acontecimentos em ordem – 2.º ano"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading game for retelling stories with key details: Pip the sleepy friend naps through every story and wakes up dying to know what happened. WATCH the story play; then, after it disappears, TELL it back to Pip in the right order with the parts that matter — who, the problem, and how it ends. Putting the events back in order WITH the key details is the heart of Common Core RL.K.2.",
       "de": "Pip hat die Geschichte verschlafen! Dein Kind ordnet die Bilder richtig und erzählt sie nach – kostenlos & interaktiv für die Grundschule.",
       "fr": "Lecture et compréhension au CP : remettre l'histoire de Pip dans l'ordre pour bien la raconter. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratis: los niños vuelven a contar un cuento poniendo los sucesos en orden y eligiendo los detalles importantes. Ideal para 2.º grado."
+      "es": "Actividad interactiva y gratis: los niños vuelven a contar un cuento poniendo los sucesos en orden y eligiendo los detalles importantes. Ideal para 2.º grado.",
+      "pt": "Um jogo de leitura interativo e gratuito para recontar histórias com os detalhes importantes: Pip, o amigo sonolento, cochila durante cada história e acorda louco para saber o que aconteceu. ASSISTA à história; depois que ela some, RECONTE tudo para o Pip na ordem certa, com as partes que importam — quem, o problema e como termina. Atividade alinhada à BNCC."
     },
     "kid_prompt_template": "retell-story"
   }

@@ -3797,6 +3797,29 @@
         "Eu consigo achar o que é IGUAL nas duas histórias.",
         "Eu consigo achar o que acontece em só UMA das histórias."
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "Acorda, Pip! é um jogo de leitura tranquilo em que a criança primeiro assiste a uma historinha curta e depois a reconta para o Pip, um amiguinho que dorme o tempo todo e perde tudo. Como o Pip não viu nada, a criança precisa contar o que aconteceu na ordem certa.",
+        "Cada história é uma pequena cadeia de causa e efeito: uma parte faz a próxima acontecer. Quando a história some da tela, a criança organiza as figuras em ordem e escolhe os detalhes importantes, deixando de fora as figuras que não pertencem àquela história.",
+        "É uma prática de compreensão sem pressa e sem pontuação: nada de relógio nem de placar. O Pip fica feliz quando a criança conta a história inteira — do problema até o final. A atividade segue a BNCC (Base Nacional Comum Curricular)."
+      ],
+      "practices": [
+        "Recontar a história em ordem, do começo ao fim.",
+        "Identificar os detalhes importantes: quem, o problema e como termina.",
+        "Perceber a causa e o efeito — como uma parte faz a próxima acontecer.",
+        "Separar o que faz parte da história do que não pertence a ela."
+      ],
+      "howToPlay": [
+        "Toque em Tocar a história e assista com atenção ao que aconteceu.",
+        "Quando a história sumir, coloque as figuras em ordem, do problema até o final.",
+        "Escolha os detalhes importantes e conte tudo para o Pip!"
+      ],
+      "learningGoals": [
+        "Recontar uma história com os detalhes importantes e na ordem certa.",
+        "Compreender o que aconteceu e por que aconteceu.",
+        "Ampliar a compreensão de textos, com base na BNCC."
+      ]
     }
   }
 }

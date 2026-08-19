@@ -3774,6 +3774,29 @@
         "Eu descubro o que um fato faz acontecer, pensando na causa e no efeito.",
         "Eu escolho o fato que se conecta e deixo de lado os que não têm ligação."
       ]
+    },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "A Barba de Musgo é uma tartaruga bem antiga, cheia de musgo nas costas, que guarda histórias há muito tempo. Ela mostra duas luas no céu: uma lua dourada e uma lua prateada. Cada lua conta a sua própria história curta. Por exemplo, na lua dourada uma raposa perde uma coisa e depois encontra; na lua prateada uma coelha perde uma coisa e um amigo vem ajudar. Você lê as duas e descobre que, nas duas, alguém perdeu algo — esse é o pedacinho IGUAL das duas histórias.",
+        "Nesta atividade há dois jeitos de olhar. No primeiro, você procura o que é IGUAL nas duas histórias, ou seja, a semelhança que aparece nas duas luas. No segundo, você procura o que acontece em só UMA história, ou seja, a diferença que está só numa lua. Comparar duas histórias ajuda você a prestar atenção no que os personagens sentem e fazem, a lembrar dos detalhes e a perceber que histórias diferentes podem combinar em algumas partes e se separar em outras.",
+        "A atividade é totalmente grátis, sem cadastro, sem cronômetro, sem pontos e sem corrida contra ninguém — cada criança vai no seu tempo. Quando quiser ouvir, é só tocar no botão 🔊 para a Barba de Musgo ler as duas histórias em voz alta. Ela segue a Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários, comparando duas histórias, e serve para as crianças nos primeiros anos."
+      ],
+      "practices": [
+        "Leia com calma as duas histórias, a da lua dourada e a da lua prateada, antes de escolher.",
+        "Toque no 🔊 para ouvir as duas histórias sempre que quiser.",
+        "Quando a pergunta for sobre o IGUAL, procure a coisa que aconteceu nas DUAS histórias.",
+        "Quando a pergunta for sobre a diferença, procure a coisa que aconteceu em só UMA história."
+      ],
+      "howToPlay": [
+        "Leia a história da lua dourada e a história da lua prateada.",
+        "Veja a pergunta: às vezes você procura o que é IGUAL nas duas, às vezes o que acontece em só UMA.",
+        "Toque na opção certa. Se quiser tentar de novo, pode olhar as histórias mais uma vez."
+      ],
+      "learningGoals": [
+        "Eu consigo ler duas histórias curtas e entender o que aconteceu em cada uma.",
+        "Eu consigo achar o que é IGUAL nas duas histórias.",
+        "Eu consigo achar o que acontece em só UMA das histórias."
+      ]
     }
   }
 }

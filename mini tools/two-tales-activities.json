@@ -3,7 +3,12 @@
     "id": "two-tales.compare.rl-1-9",
     "tool": "two-tales-activity",
     "task_template": "two-tales",
-    "alignment": { "framework": "CCSS", "code": "RL.1.9", "grade": "1", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.1.9",
+      "grade": "1",
+      "strand": "Reading: Literature"
+    },
     "theme": null,
     "params": {
       "tagText": {
@@ -15,12 +20,60 @@
         "FIXED_IT": "Fixed what broke"
       },
       "stories": {
-        "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "A fox lost his cap, kept trying, and found it.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
-        "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "A bunny lost her ball. A friend helped find it.", "tags": ["LOST_FOUND", "GOT_HELP"] },
-        "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "A scared mouse felt safe when a friend helped.",  "tags": ["SCARED_SAFE", "GOT_HELP"] },
-        "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "A bird kept trying and fixed its nest.",          "tags": ["TRIED_AGAIN", "FIXED_IT"] },
-        "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "A scared frog fixed the leak and felt safe.",     "tags": ["FIXED_IT", "SCARED_SAFE"] },
-        "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "A duck shared lunch. A friend helped too.",       "tags": ["SHARED", "GOT_HELP"] }
+        "fox": {
+          "subject": "fox",
+          "glyph": "fox",
+          "summary": "A fox lost his cap, kept trying, and found it.",
+          "tags": [
+            "LOST_FOUND",
+            "TRIED_AGAIN"
+          ]
+        },
+        "bunny": {
+          "subject": "bunny",
+          "glyph": "bunny",
+          "summary": "A bunny lost her ball. A friend helped find it.",
+          "tags": [
+            "LOST_FOUND",
+            "GOT_HELP"
+          ]
+        },
+        "mouse": {
+          "subject": "mouse",
+          "glyph": "mouse",
+          "summary": "A scared mouse felt safe when a friend helped.",
+          "tags": [
+            "SCARED_SAFE",
+            "GOT_HELP"
+          ]
+        },
+        "bird": {
+          "subject": "bird",
+          "glyph": "bird",
+          "summary": "A bird kept trying and fixed its nest.",
+          "tags": [
+            "TRIED_AGAIN",
+            "FIXED_IT"
+          ]
+        },
+        "frog": {
+          "subject": "frog",
+          "glyph": "frog",
+          "summary": "A scared frog fixed the leak and felt safe.",
+          "tags": [
+            "FIXED_IT",
+            "SCARED_SAFE"
+          ]
+        },
+        "duck": {
+          "subject": "duck",
+          "glyph": "duck",
+          "summary": "A duck shared lunch. A friend helped too.",
+          "tags": [
+            "SHARED",
+            "GOT_HELP"
+          ]
+        }
       },
       "tagTextL10n": {
         "de": {
@@ -46,64 +99,364 @@
           "SHARED": "Compartió con un amigo",
           "SCARED_SAFE": "Tuvo miedo y se sintió a salvo",
           "FIXED_IT": "Arregló lo que se rompió"
+        },
+        "pt": {
+          "LOST_FOUND": "Perdeu algo e encontrou",
+          "GOT_HELP": "Um amigo veio ajudar",
+          "TRIED_AGAIN": "Continuou tentando",
+          "SHARED": "Dividiu com um amigo",
+          "SCARED_SAFE": "Teve medo e ficou a salvo",
+          "FIXED_IT": "Consertou o que quebrou"
         }
       },
       "storiesL10n": {
         "de": {
-          "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "Der Fuchs verlor seine Mütze, gab nicht auf und fand sie wieder.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
-          "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "Das Häschen verlor seinen Ball. Ein Freund half ihm, ihn wiederzufinden.", "tags": ["LOST_FOUND", "GOT_HELP"] },
-          "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "Die Maus hatte Angst. Ein Freund half ihr, und sie fühlte sich sicher.", "tags": ["SCARED_SAFE", "GOT_HELP"] },
-          "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "Der Vogel gab nicht auf und reparierte sein Nest.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
-          "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "Der Frosch hatte Angst, reparierte das Loch und fühlte sich dann sicher.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
-          "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Die Ente teilte ihr Essen. Ein Freund half ihr auch.", "tags": ["SHARED", "GOT_HELP"] }
+          "fox": {
+            "subject": "fox",
+            "glyph": "fox",
+            "summary": "Der Fuchs verlor seine Mütze, gab nicht auf und fand sie wieder.",
+            "tags": [
+              "LOST_FOUND",
+              "TRIED_AGAIN"
+            ]
+          },
+          "bunny": {
+            "subject": "bunny",
+            "glyph": "bunny",
+            "summary": "Das Häschen verlor seinen Ball. Ein Freund half ihm, ihn wiederzufinden.",
+            "tags": [
+              "LOST_FOUND",
+              "GOT_HELP"
+            ]
+          },
+          "mouse": {
+            "subject": "mouse",
+            "glyph": "mouse",
+            "summary": "Die Maus hatte Angst. Ein Freund half ihr, und sie fühlte sich sicher.",
+            "tags": [
+              "SCARED_SAFE",
+              "GOT_HELP"
+            ]
+          },
+          "bird": {
+            "subject": "bird",
+            "glyph": "bird",
+            "summary": "Der Vogel gab nicht auf und reparierte sein Nest.",
+            "tags": [
+              "TRIED_AGAIN",
+              "FIXED_IT"
+            ]
+          },
+          "frog": {
+            "subject": "frog",
+            "glyph": "frog",
+            "summary": "Der Frosch hatte Angst, reparierte das Loch und fühlte sich dann sicher.",
+            "tags": [
+              "FIXED_IT",
+              "SCARED_SAFE"
+            ]
+          },
+          "duck": {
+            "subject": "duck",
+            "glyph": "duck",
+            "summary": "Die Ente teilte ihr Essen. Ein Freund half ihr auch.",
+            "tags": [
+              "SHARED",
+              "GOT_HELP"
+            ]
+          }
         },
         "fr": {
-          "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "Le renard a perdu sa casquette. Il a continué d’essayer et l’a enfin retrouvée.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
-          "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "Le lapin a perdu sa balle. Un ami l’a aidé à la retrouver.", "tags": ["LOST_FOUND", "GOT_HELP"] },
-          "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "La souris avait peur dans le noir. Un ami l’a aidée et elle s’est sentie rassurée.", "tags": ["SCARED_SAFE", "GOT_HELP"] },
-          "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "L’oiseau a continué d’essayer et il a réparé son nid cassé.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
-          "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "La grenouille avait peur de la fuite. Elle l’a réparée et s’est sentie rassurée.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
-          "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Le canard a partagé son déjeuner. Un ami l’a aidé à tout ranger.", "tags": ["SHARED", "GOT_HELP"] }
+          "fox": {
+            "subject": "fox",
+            "glyph": "fox",
+            "summary": "Le renard a perdu sa casquette. Il a continué d’essayer et l’a enfin retrouvée.",
+            "tags": [
+              "LOST_FOUND",
+              "TRIED_AGAIN"
+            ]
+          },
+          "bunny": {
+            "subject": "bunny",
+            "glyph": "bunny",
+            "summary": "Le lapin a perdu sa balle. Un ami l’a aidé à la retrouver.",
+            "tags": [
+              "LOST_FOUND",
+              "GOT_HELP"
+            ]
+          },
+          "mouse": {
+            "subject": "mouse",
+            "glyph": "mouse",
+            "summary": "La souris avait peur dans le noir. Un ami l’a aidée et elle s’est sentie rassurée.",
+            "tags": [
+              "SCARED_SAFE",
+              "GOT_HELP"
+            ]
+          },
+          "bird": {
+            "subject": "bird",
+            "glyph": "bird",
+            "summary": "L’oiseau a continué d’essayer et il a réparé son nid cassé.",
+            "tags": [
+              "TRIED_AGAIN",
+              "FIXED_IT"
+            ]
+          },
+          "frog": {
+            "subject": "frog",
+            "glyph": "frog",
+            "summary": "La grenouille avait peur de la fuite. Elle l’a réparée et s’est sentie rassurée.",
+            "tags": [
+              "FIXED_IT",
+              "SCARED_SAFE"
+            ]
+          },
+          "duck": {
+            "subject": "duck",
+            "glyph": "duck",
+            "summary": "Le canard a partagé son déjeuner. Un ami l’a aidé à tout ranger.",
+            "tags": [
+              "SHARED",
+              "GOT_HELP"
+            ]
+          }
         },
         "es": {
-          "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "Había un zorro. Perdió algo y lo encontró. Siguió intentando.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
-          "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "Había una coneja. Perdió algo y lo encontró. Un amigo llegó a ayudar.", "tags": ["LOST_FOUND", "GOT_HELP"] },
-          "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "Había un ratón. Tuvo miedo y se sintió a salvo. Un amigo llegó a ayudar.", "tags": ["SCARED_SAFE", "GOT_HELP"] },
-          "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "Había un pájaro. Siguió intentando. Arregló lo que se rompió.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
-          "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "Había una rana. Tuvo miedo y se sintió a salvo. Arregló lo que se rompió.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
-          "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Había un pato. Compartió con un amigo. Un amigo llegó a ayudar.", "tags": ["SHARED", "GOT_HELP"] }
+          "fox": {
+            "subject": "fox",
+            "glyph": "fox",
+            "summary": "Había un zorro. Perdió algo y lo encontró. Siguió intentando.",
+            "tags": [
+              "LOST_FOUND",
+              "TRIED_AGAIN"
+            ]
+          },
+          "bunny": {
+            "subject": "bunny",
+            "glyph": "bunny",
+            "summary": "Había una coneja. Perdió algo y lo encontró. Un amigo llegó a ayudar.",
+            "tags": [
+              "LOST_FOUND",
+              "GOT_HELP"
+            ]
+          },
+          "mouse": {
+            "subject": "mouse",
+            "glyph": "mouse",
+            "summary": "Había un ratón. Tuvo miedo y se sintió a salvo. Un amigo llegó a ayudar.",
+            "tags": [
+              "SCARED_SAFE",
+              "GOT_HELP"
+            ]
+          },
+          "bird": {
+            "subject": "bird",
+            "glyph": "bird",
+            "summary": "Había un pájaro. Siguió intentando. Arregló lo que se rompió.",
+            "tags": [
+              "TRIED_AGAIN",
+              "FIXED_IT"
+            ]
+          },
+          "frog": {
+            "subject": "frog",
+            "glyph": "frog",
+            "summary": "Había una rana. Tuvo miedo y se sintió a salvo. Arregló lo que se rompió.",
+            "tags": [
+              "FIXED_IT",
+              "SCARED_SAFE"
+            ]
+          },
+          "duck": {
+            "subject": "duck",
+            "glyph": "duck",
+            "summary": "Había un pato. Compartió con un amigo. Un amigo llegó a ayudar.",
+            "tags": [
+              "SHARED",
+              "GOT_HELP"
+            ]
+          }
+        },
+        "pt": {
+          "fox": {
+            "subject": "fox",
+            "glyph": "fox",
+            "summary": "Era uma vez uma raposa. Ela perdeu algo e encontrou. E continuou tentando.",
+            "tags": [
+              "LOST_FOUND",
+              "TRIED_AGAIN"
+            ]
+          },
+          "bunny": {
+            "subject": "bunny",
+            "glyph": "bunny",
+            "summary": "Era uma vez uma coelha. Ela perdeu algo e encontrou. E um amigo veio ajudar.",
+            "tags": [
+              "LOST_FOUND",
+              "GOT_HELP"
+            ]
+          },
+          "mouse": {
+            "subject": "mouse",
+            "glyph": "mouse",
+            "summary": "Era uma vez um ratinho. Ele teve medo e ficou a salvo. E um amigo veio ajudar.",
+            "tags": [
+              "SCARED_SAFE",
+              "GOT_HELP"
+            ]
+          },
+          "bird": {
+            "subject": "bird",
+            "glyph": "bird",
+            "summary": "Era uma vez um passarinho. Ele continuou tentando. E consertou o que quebrou.",
+            "tags": [
+              "TRIED_AGAIN",
+              "FIXED_IT"
+            ]
+          },
+          "frog": {
+            "subject": "frog",
+            "glyph": "frog",
+            "summary": "Era uma vez um sapo. Ele consertou o que quebrou. E teve medo e ficou a salvo.",
+            "tags": [
+              "FIXED_IT",
+              "SCARED_SAFE"
+            ]
+          },
+          "duck": {
+            "subject": "duck",
+            "glyph": "duck",
+            "summary": "Era uma vez um pato. Ele dividiu com um amigo. E um amigo veio ajudar.",
+            "tags": [
+              "SHARED",
+              "GOT_HELP"
+            ]
+          }
         }
       },
       "rounds": [
-        { "id": "tt-s1", "mode": "same", "aId": "fox",   "bId": "bunny", "cardTags": ["LOST_FOUND", "TRIED_AGAIN", "GOT_HELP"] },
-        { "id": "tt-s2", "mode": "same", "aId": "fox",   "bId": "bird",  "cardTags": ["TRIED_AGAIN", "LOST_FOUND", "FIXED_IT"] },
-        { "id": "tt-s3", "mode": "same", "aId": "mouse", "bId": "frog",  "cardTags": ["SCARED_SAFE", "GOT_HELP", "FIXED_IT"] },
-        { "id": "tt-s4", "mode": "same", "aId": "bunny", "bId": "duck",  "cardTags": ["GOT_HELP", "LOST_FOUND", "SHARED"] },
-        { "id": "tt-s5", "mode": "same", "aId": "bird",  "bId": "frog",  "cardTags": ["FIXED_IT", "TRIED_AGAIN", "SCARED_SAFE"] },
-
-        { "id": "tt-d1", "mode": "diff", "aId": "bunny", "bId": "mouse", "cardTags": ["LOST_FOUND", "GOT_HELP", "SHARED"] },
-        { "id": "tt-d2", "mode": "diff", "aId": "mouse", "bId": "duck",  "cardTags": ["SHARED", "GOT_HELP", "TRIED_AGAIN"] },
-        { "id": "tt-d3", "mode": "diff", "aId": "fox",   "bId": "bird",  "cardTags": ["FIXED_IT", "TRIED_AGAIN", "SCARED_SAFE"] },
-        { "id": "tt-d4", "mode": "diff", "aId": "mouse", "bId": "frog",  "cardTags": ["GOT_HELP", "SCARED_SAFE", "SHARED"] }
+        {
+          "id": "tt-s1",
+          "mode": "same",
+          "aId": "fox",
+          "bId": "bunny",
+          "cardTags": [
+            "LOST_FOUND",
+            "TRIED_AGAIN",
+            "GOT_HELP"
+          ]
+        },
+        {
+          "id": "tt-s2",
+          "mode": "same",
+          "aId": "fox",
+          "bId": "bird",
+          "cardTags": [
+            "TRIED_AGAIN",
+            "LOST_FOUND",
+            "FIXED_IT"
+          ]
+        },
+        {
+          "id": "tt-s3",
+          "mode": "same",
+          "aId": "mouse",
+          "bId": "frog",
+          "cardTags": [
+            "SCARED_SAFE",
+            "GOT_HELP",
+            "FIXED_IT"
+          ]
+        },
+        {
+          "id": "tt-s4",
+          "mode": "same",
+          "aId": "bunny",
+          "bId": "duck",
+          "cardTags": [
+            "GOT_HELP",
+            "LOST_FOUND",
+            "SHARED"
+          ]
+        },
+        {
+          "id": "tt-s5",
+          "mode": "same",
+          "aId": "bird",
+          "bId": "frog",
+          "cardTags": [
+            "FIXED_IT",
+            "TRIED_AGAIN",
+            "SCARED_SAFE"
+          ]
+        },
+        {
+          "id": "tt-d1",
+          "mode": "diff",
+          "aId": "bunny",
+          "bId": "mouse",
+          "cardTags": [
+            "LOST_FOUND",
+            "GOT_HELP",
+            "SHARED"
+          ]
+        },
+        {
+          "id": "tt-d2",
+          "mode": "diff",
+          "aId": "mouse",
+          "bId": "duck",
+          "cardTags": [
+            "SHARED",
+            "GOT_HELP",
+            "TRIED_AGAIN"
+          ]
+        },
+        {
+          "id": "tt-d3",
+          "mode": "diff",
+          "aId": "fox",
+          "bId": "bird",
+          "cardTags": [
+            "FIXED_IT",
+            "TRIED_AGAIN",
+            "SCARED_SAFE"
+          ]
+        },
+        {
+          "id": "tt-d4",
+          "mode": "diff",
+          "aId": "mouse",
+          "bId": "frog",
+          "cardTags": [
+            "GOT_HELP",
+            "SCARED_SAFE",
+            "SHARED"
+          ]
+        }
       ]
     },
     "slug": {
       "en": "compare-two-stories-same-different",
       "de": "zwei-geschichten-vergleichen-gleich-und-anders-klasse-2",
       "fr": "comparer-deux-histoires-pareil-ou-different",
-      "es": "comparar-dos-cuentos-semejanzas-y-diferencias-segundo-grado"
+      "es": "comparar-dos-cuentos-semejanzas-y-diferencias-segundo-grado",
+      "pt": "comparar-duas-historias-semelhancas-e-diferencas"
     },
     "page_title": {
       "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)",
       "de": "Zwei Geschichten vergleichen: Gleich & Anders finden",
       "fr": "Deux lunes — Comparer deux histoires (pareil ou différent)",
-      "es": "Comparar dos cuentos: semejanzas y diferencias · 2.º grado"
+      "es": "Comparar dos cuentos: semejanzas y diferencias · 2.º grado",
+      "pt": "Comparar duas histórias: semelhanças e diferenças"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9.",
       "de": "Vergleiche zwei kurze Geschichten und erkenne, was gleich ist und was anders: kostenlos, interaktiv und ohne Zeitdruck – Lesen üben in der Grundschule.",
       "fr": "Sous une lune d'or et une lune d'argent, Barbe-de-Mousse la tortue présente à votre enfant deux courtes histoires côte à côte. L'enfant lit les deux, puis tape la carte qui dit ce qui est pareil dans les deux histoires, ou ce qui arrive dans une seule. Petit à petit, il apprend à comparer deux histoires : à repérer les ressemblances et les différences entre les aventures des personnages, en s'appuyant sur ce que raconte chaque histoire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école.",
-      "es": "Actividad interactiva y gratis para 2.º grado: lee dos cuentos cortos y compara semejanzas y diferencias, qué es igual y qué es diferente. Sin registro."
+      "es": "Actividad interactiva y gratis para 2.º grado: lee dos cuentos cortos y compara semejanzas y diferencias, qué es igual y qué es diferente. Sin registro.",
+      "pt": "Leia duas historinhas com a Barba de Musgo, a tartaruga guardiã de histórias, e descubra o que é IGUAL nas duas luas e o que acontece em só UMA. Toque no 🔊 para ouvir as duas histórias em voz alta. Grátis, sem cadastro, sem cronômetro e sem pontos — no ritmo de cada criança. Alinhado à Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários."
     },
     "kid_prompt_template": "two-tales"
   }

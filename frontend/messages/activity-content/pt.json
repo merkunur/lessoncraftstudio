@@ -3521,6 +3521,29 @@
         "Eu percebo quando duas palavras são opostas de verdade.",
         "Eu aprendo palavras novas com o mercado espelho do Espinho."
       ]
+    },
+    "author-purpose.why-wrote.ri-2-6": {
+      "about": [
+        "Lá no porto, quem cuida do correio é o Marujo, um pelicano de bico grande e coração maior ainda. O dia todo chegam bilhetinhos voando, e cada um precisa ir para a caixa certa — e é aí que você entra para ajudar! O Marujo separa os bilhetes em três caixas, de acordo com o motivo pelo qual eles foram escritos: para informar, para divertir ou para ensinar a fazer. Um bilhete que ensina, passo a passo, a dobrar um barquinho de papel vai direitinho na caixa \"ensinar a fazer\". Já uma historinha engraçada, dessas de dar risada, vai na caixa \"divertir\".",
+        "Enquanto brinca de separar os bilhetes, a criança vai percebendo uma coisa importante: todo texto foi escrito com uma finalidade. Alguns servem para informar, contando fatos de verdade; outros servem para divertir, com uma historinha de final engraçado; e outros servem para ensinar a fazer, com um passo a passo do tipo \"primeiro, depois, no final\". A criança aprende a reconhecer para que o texto serve olhando o jeitinho dele — as pistas que ele deixa. Isso ajuda a ler com mais atenção e a entender melhor os diferentes tipos de texto que aparecem no dia a dia.",
+        "A atividade é gratuita, sem cadastro e sem login, e não tem cronômetro, pontuação nem competição — cada criança vai no seu ritmo, com calma e sem pressão. Quando a resposta não é a esperada, o Marujo dá uma dica gentil e o 🔊 lê o bilhete de novo, para que a criança possa pensar mais uma vez, sem susto e sem vergonha de errar. O conteúdo é alinhado à BNCC e trabalha o reconhecimento da finalidade do texto — para que ele foi escrito — de um jeito leve e acolhedor, pensado para o 2º ano."
+      ],
+      "practices": [
+        "Reconhecer para que um texto foi escrito.",
+        "Diferenciar um texto que informa, um que diverte e um que ensina a fazer.",
+        "Perceber as pistas do texto (fatos de verdade, \"!\", passo a passo).",
+        "Entender melhor os diferentes tipos de texto do dia a dia."
+      ],
+      "howToPlay": [
+        "Toque no 🔊 para o Marujo ler o bilhete em voz alta.",
+        "Pense: para que esse bilhete foi escrito — para informar, divertir ou ensinar a fazer?",
+        "Toque na caixa certa e ajude o Marujo a organizar o correio do porto."
+      ],
+      "learningGoals": [
+        "Eu descubro para que um texto foi escrito.",
+        "Eu percebo se o texto quer informar, divertir ou ensinar a fazer.",
+        "Eu uso as pistas do texto para entender a finalidade dele."
+      ]
     }
   }
 }

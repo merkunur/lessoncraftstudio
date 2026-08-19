@@ -62,6 +62,17 @@
       nInform: 'Esta nota da información real — quiere informar.',
       nEntertain: 'Esta nota cuenta algo chistoso — quiere entretener.',
       nInstruct: 'Esta nota enseña los pasos — busca «primero… después… al final».'
+    },
+    /* pt-BR: `q` is AGENTLESS + PURPOSE («Para que…» = purpose, «Por que…» = cause; the bins read
+       «Para…»). §A.13.54: nInform/nEntertain/nInstruct anchor agreement on the FIXED noun «esta nota»
+       / «ela» (a nota, fem), never the round's varying subject (o sol / as abelhas / o gato Frajola). */
+    pt: {
+      q: 'Para que esta nota foi escrita?',
+      win: 'Isso! {note}', winNote: 'Você descobriu para que a nota foi escrita!',
+      hear: '🔊 Ouvir',
+      nInform: 'Esta nota dá informação de verdade — ela quer INFORMAR.',
+      nEntertain: 'Esta nota conta uma história divertida — ela quer DIVERTIR.',
+      nInstruct: 'Esta nota ensina os passos — procure "primeiro… depois… no final".'
     }
   };
   var LANG = 'en';
@@ -84,9 +95,13 @@
   var AuthorPurposeActivity = {
     id: 'author-purpose-activity',
     strings: {
-      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow' },
-      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.' },
-      q: { en: '{q}' }
+      /* pt: character renamed «Marlow»→«Marujo» (operator-ruled — «Marlow» reads as an opaque
+         English name to a BR kid; «Marujo» = a warm BR nautical word (a sailor), keeps «Mar-»/sea,
+         fits a harbor pelican). pt-only divergence. instruction is agentless («PARA QUE ela foi
+         escrita», not «por que o autor escreveu») — aligns with the «Para…» bins. */
+      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow', pt: 'O correio do porto do Marujo' },
+      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.', pt: 'Leia a nota e mande para a caixa que mostra PARA QUE ela foi escrita!' },
+      q: { en: '{q}', pt: '{q}' }
     },
 
     init: function (api) {
@@ -187,7 +202,7 @@
         /* es→es-MX: the bare LANG shipped a generic/peninsular voice, and the 🔊 is
            this activity's only audio (the notes ARE the content). Matches the
            es-shipped siblings (atlas-fact-files :23, bea-two-bookshelves :20). */
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: round.note.text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.92 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: round.note.text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
 
@@ -251,6 +266,8 @@
            «Opciones» for fr «Choix» — «Cajas»/«Buzones» would read as furniture. */
         : LANG === 'es'
         ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opciones: ' + bins + '.</p>'
+        : LANG === 'pt'
+        ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opções: ' + bins + '.</p>'
         : '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
       return wrap;
     },

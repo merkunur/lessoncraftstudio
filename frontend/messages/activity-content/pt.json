@@ -3544,6 +3544,29 @@
         "Eu percebo se o texto quer informar, divertir ou ensinar a fazer.",
         "Eu uso as pistas do texto para entender a finalidade dele."
       ]
+    },
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Quando a noite chega, a Fagulha, uma ouriça contadora de histórias, acende o seu lampião e senta pertinho para contar uma fábula curtinha. Pode ser a da lebre e da tartaruga, a da cigarra e da formiga, ou a do leão e do rato — sempre uma historinha simples, com bichos e uma aventura. A criança lê a fábula (ou ouve, se preferir) e, no fim, descobre a MORAL: a lição que aquela história quis ensinar. Na fábula da lebre e da tartaruga, por exemplo, a moral é \"quem não desiste, no fim consegue\". Aparecem três cartas com três frases, mas só uma delas é a moral de verdade.",
+        "Aqui a criança aprende que toda fábula esconde uma lição — e que essa lição quase nunca está escrita com as mesmas palavras da história. É preciso pensar além do que aconteceu, imaginar o que a fábula quis dizer por trás dos bichos e da aventura. Isso se chama inferir. Tem também uma pegadinha: uma das cartas só repete um detalhe que aconteceu na história (parece certa, mas é só um fatinho, não a lição de verdade). Escolhendo com calma, a criança treina uma leitura mais profunda e vai criando gosto pelas fábulas clássicas.",
+        "A atividade é totalmente grátis, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança vai no seu próprio ritmo, com toda a tranquilidade. Se ela erra, a Fagulha dá uma dica gentil, e o botão 🔊 lê a fábula de novo quantas vezes forem preciso, sem nenhuma pressa nem cobrança. Tudo foi pensado de acordo com a BNCC, dentro do trabalho de compreensão de textos literários — descobrir a moral de uma fábula — para o 3º ano."
+      ],
+      "practices": [
+        "Descobrir a moral (a lição) de uma fábula.",
+        "Diferenciar a lição de um simples detalhe da história.",
+        "Pensar além do que está escrito, para entender a lição (inferir).",
+        "Conhecer e apreciar as fábulas clássicas."
+      ],
+      "howToPlay": [
+        "📖 Leia a fábula da Fagulha — ou toque no 🔊 para ouvir a história.",
+        "Se quiser, toque em \"Ler de novo\" e escute a fábula mais uma vez.",
+        "Olhe as 3 cartas e escolha a que mostra a MORAL, a lição que a história ensina."
+      ],
+      "learningGoals": [
+        "Eu descubro a moral de uma fábula.",
+        "Eu sei diferenciar a lição de um detalhe da história.",
+        "Eu penso além do texto para entender o que a fábula quis ensinar."
+      ]
     }
   }
 }

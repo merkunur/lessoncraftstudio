@@ -3,311 +3,1088 @@
     "id": "juniper-story-lantern.central-message.rl-1-2",
     "tool": "juniper-story-lantern-activity",
     "task_template": "juniper-story-lantern",
-    "alignment": { "framework": "CCSS", "code": "RL.1.2", "grade": "1", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.1.2",
+      "grade": "1",
+      "strand": "Reading: Literature"
+    },
     "params": {
       "rounds": [
         {
-          "id": "tortoise", "band": 1,
-          "story": ["Hare laughed that he was much faster than Tortoise.", "Hare ran far ahead, then stopped for a long nap.", "Slow Tortoise kept going and going, and won the race."],
+          "id": "tortoise",
+          "band": 1,
+          "story": [
+            "Hare laughed that he was much faster than Tortoise.",
+            "Hare ran far ahead, then stopped for a long nap.",
+            "Slow Tortoise kept going and going, and won the race."
+          ],
           "options": [
-            { "id": "o1", "kind": "moral", "text": "Slow and steady can still win." },
-            { "id": "o2", "kind": "detail", "text": "Hare stopped for a long nap." },
-            { "id": "o3", "kind": "wrongmoral", "text": "The fastest runner always wins." }
+            {
+              "id": "o1",
+              "kind": "moral",
+              "text": "Slow and steady can still win."
+            },
+            {
+              "id": "o2",
+              "kind": "detail",
+              "text": "Hare stopped for a long nap."
+            },
+            {
+              "id": "o3",
+              "kind": "wrongmoral",
+              "text": "The fastest runner always wins."
+            }
           ]
         },
         {
-          "id": "ant", "band": 1,
-          "story": ["All summer the Grasshopper played while the Ant stored food.", "Then winter came and cold snow fell.", "The Grasshopper was hungry, but the Ant stayed warm and fed."],
+          "id": "ant",
+          "band": 1,
+          "story": [
+            "All summer the Grasshopper played while the Ant stored food.",
+            "Then winter came and cold snow fell.",
+            "The Grasshopper was hungry, but the Ant stayed warm and fed."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "Grasshopper played all summer long." },
-            { "id": "o2", "kind": "wrongmoral", "text": "Summer is the best time to rest." },
-            { "id": "o3", "kind": "moral", "text": "Plan ahead and be ready later." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "Grasshopper played all summer long."
+            },
+            {
+              "id": "o2",
+              "kind": "wrongmoral",
+              "text": "Summer is the best time to rest."
+            },
+            {
+              "id": "o3",
+              "kind": "moral",
+              "text": "Plan ahead and be ready later."
+            }
           ]
         },
         {
-          "id": "lion", "band": 1,
-          "story": ["A tiny Mouse woke a big, sleeping Lion.", "The kind Lion smiled and let the Mouse go.", "Later the Lion was caught in a net, and the Mouse chewed it free."],
+          "id": "lion",
+          "band": 1,
+          "story": [
+            "A tiny Mouse woke a big, sleeping Lion.",
+            "The kind Lion smiled and let the Mouse go.",
+            "Later the Lion was caught in a net, and the Mouse chewed it free."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "The big Lion was caught in a net." },
-            { "id": "o2", "kind": "moral", "text": "A small friend can help a lot." },
-            { "id": "o3", "kind": "wrongmoral", "text": "Never wake a sleeping lion." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "The big Lion was caught in a net."
+            },
+            {
+              "id": "o2",
+              "kind": "moral",
+              "text": "A small friend can help a lot."
+            },
+            {
+              "id": "o3",
+              "kind": "wrongmoral",
+              "text": "Never wake a sleeping lion."
+            }
           ]
         },
         {
-          "id": "crow", "band": 2,
-          "story": ["A thirsty Crow found a pitcher with a little water at the bottom.", "She could not reach the water with her beak.", "She dropped in pebbles until the water rose, and then she drank."],
+          "id": "crow",
+          "band": 2,
+          "story": [
+            "A thirsty Crow found a pitcher with a little water at the bottom.",
+            "She could not reach the water with her beak.",
+            "She dropped in pebbles until the water rose, and then she drank."
+          ],
           "options": [
-            { "id": "o1", "kind": "moral", "text": "A clever idea solves a problem." },
-            { "id": "o2", "kind": "detail", "text": "The Crow dropped in some pebbles." },
-            { "id": "o3", "kind": "wrongmoral", "text": "Always carry water when it is hot." }
+            {
+              "id": "o1",
+              "kind": "moral",
+              "text": "A clever idea solves a problem."
+            },
+            {
+              "id": "o2",
+              "kind": "detail",
+              "text": "The Crow dropped in some pebbles."
+            },
+            {
+              "id": "o3",
+              "kind": "wrongmoral",
+              "text": "Always carry water when it is hot."
+            }
           ]
         },
         {
-          "id": "wolf", "band": 2,
-          "story": ["A boy yelled Wolf just for fun, and the people ran to help.", "He laughed, because there was no wolf at all.", "When a real wolf came, no one believed the boy."],
+          "id": "wolf",
+          "band": 2,
+          "story": [
+            "A boy yelled Wolf just for fun, and the people ran to help.",
+            "He laughed, because there was no wolf at all.",
+            "When a real wolf came, no one believed the boy."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "The little boy yelled Wolf just for fun." },
-            { "id": "o2", "kind": "wrongmoral", "text": "Wolves are big and very scary." },
-            { "id": "o3", "kind": "moral", "text": "Lying makes people stop trusting you." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "The little boy yelled Wolf just for fun."
+            },
+            {
+              "id": "o2",
+              "kind": "wrongmoral",
+              "text": "Wolves are big and very scary."
+            },
+            {
+              "id": "o3",
+              "kind": "moral",
+              "text": "Lying makes people stop trusting you."
+            }
           ]
         },
         {
-          "id": "wind", "band": 2,
-          "story": ["The Wind and the Sun argued about who was stronger.", "The Wind blew hard, but the man held his coat tight.", "Then the Sun shone warm, and the man took his coat off."],
+          "id": "wind",
+          "band": 2,
+          "story": [
+            "The Wind and the Sun argued about who was stronger.",
+            "The Wind blew hard, but the man held his coat tight.",
+            "Then the Sun shone warm, and the man took his coat off."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "The strong Wind blew hard at the man." },
-            { "id": "o2", "kind": "moral", "text": "Gentle ways work better than force." },
-            { "id": "o3", "kind": "wrongmoral", "text": "The sun is hotter than wind." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "The strong Wind blew hard at the man."
+            },
+            {
+              "id": "o2",
+              "kind": "moral",
+              "text": "Gentle ways work better than force."
+            },
+            {
+              "id": "o3",
+              "kind": "wrongmoral",
+              "text": "The sun is hotter than wind."
+            }
           ]
         },
         {
-          "id": "goose", "band": 3,
-          "story": ["A goose laid one shiny golden egg every single day.", "The farmer wanted all of the gold at once.", "He cut the goose open, found nothing, and the eggs stopped."],
+          "id": "goose",
+          "band": 3,
+          "story": [
+            "A goose laid one shiny golden egg every single day.",
+            "The farmer wanted all of the gold at once.",
+            "He cut the goose open, found nothing, and the eggs stopped."
+          ],
           "options": [
-            { "id": "o1", "kind": "moral", "text": "Wanting too much costs everything." },
-            { "id": "o2", "kind": "detail", "text": "The farmer wanted all of the gold." },
-            { "id": "o3", "kind": "wrongmoral", "text": "Geese are made of pure gold." }
+            {
+              "id": "o1",
+              "kind": "moral",
+              "text": "Wanting too much costs everything."
+            },
+            {
+              "id": "o2",
+              "kind": "detail",
+              "text": "The farmer wanted all of the gold."
+            },
+            {
+              "id": "o3",
+              "kind": "wrongmoral",
+              "text": "Geese are made of pure gold."
+            }
           ]
         },
         {
-          "id": "bear", "band": 3,
-          "story": ["Two friends were walking when a big bear appeared.", "One friend climbed a tree and left the other behind.", "The other lay still until the bear left, then walked away."],
+          "id": "bear",
+          "band": 3,
+          "story": [
+            "Two friends were walking when a big bear appeared.",
+            "One friend climbed a tree and left the other behind.",
+            "The other lay still until the bear left, then walked away."
+          ],
           "options": [
-            { "id": "o1", "kind": "detail", "text": "One friend climbed up a tall tree." },
-            { "id": "o2", "kind": "wrongmoral", "text": "Bears are easy to scare off." },
-            { "id": "o3", "kind": "moral", "text": "A true friend helps in trouble." }
+            {
+              "id": "o1",
+              "kind": "detail",
+              "text": "One friend climbed up a tall tree."
+            },
+            {
+              "id": "o2",
+              "kind": "wrongmoral",
+              "text": "Bears are easy to scare off."
+            },
+            {
+              "id": "o3",
+              "kind": "moral",
+              "text": "A true friend helps in trouble."
+            }
           ]
         }
       ],
       "roundsL10n": {
         "de": [
           {
-            "id": "tortoise", "band": 1,
-            "story": ["Der Hase lachte und prahlte, er sei viel schneller als die Schildkröte.", "Der Hase rannte weit voraus und machte dann ein langes Schläfchen.", "Die langsame Schildkröte ging immer weiter und gewann das Rennen."],
+            "id": "tortoise",
+            "band": 1,
+            "story": [
+              "Der Hase lachte und prahlte, er sei viel schneller als die Schildkröte.",
+              "Der Hase rannte weit voraus und machte dann ein langes Schläfchen.",
+              "Die langsame Schildkröte ging immer weiter und gewann das Rennen."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Langsam, aber stetig kommt man auch ans Ziel." },
-              { "id": "o2", "kind": "detail", "text": "Der Hase machte ein langes Schläfchen." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Der schnellste Läufer gewinnt immer." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Langsam, aber stetig kommt man auch ans Ziel."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Der Hase machte ein langes Schläfchen."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Der schnellste Läufer gewinnt immer."
+              }
             ]
           },
           {
-            "id": "ant", "band": 1,
-            "story": ["Den ganzen Sommer spielte die Grille, während die Ameise Futter sammelte.", "Dann kam der Winter und kalter Schnee fiel.", "Die Grille hatte Hunger, doch die Ameise blieb warm und satt."],
+            "id": "ant",
+            "band": 1,
+            "story": [
+              "Den ganzen Sommer spielte die Grille, während die Ameise Futter sammelte.",
+              "Dann kam der Winter und kalter Schnee fiel.",
+              "Die Grille hatte Hunger, doch die Ameise blieb warm und satt."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Die Grille spielte den ganzen Sommer lang." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Der Sommer ist die beste Zeit zum Ausruhen." },
-              { "id": "o3", "kind": "moral", "text": "Wer vorausdenkt, ist später gut vorbereitet." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Die Grille spielte den ganzen Sommer lang."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Der Sommer ist die beste Zeit zum Ausruhen."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Wer vorausdenkt, ist später gut vorbereitet."
+              }
             ]
           },
           {
-            "id": "lion", "band": 1,
-            "story": ["Eine winzige Maus weckte einen großen, schlafenden Löwen.", "Der gütige Löwe lächelte und ließ die Maus laufen.", "Später hing der Löwe in einem Netz fest, und die Maus nagte ihn frei."],
+            "id": "lion",
+            "band": 1,
+            "story": [
+              "Eine winzige Maus weckte einen großen, schlafenden Löwen.",
+              "Der gütige Löwe lächelte und ließ die Maus laufen.",
+              "Später hing der Löwe in einem Netz fest, und die Maus nagte ihn frei."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Der große Löwe hing in einem Netz fest." },
-              { "id": "o2", "kind": "moral", "text": "Auch ein kleiner Freund kann viel helfen." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Einen schlafenden Löwen soll man nie wecken." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Der große Löwe hing in einem Netz fest."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "Auch ein kleiner Freund kann viel helfen."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Einen schlafenden Löwen soll man nie wecken."
+              }
             ]
           },
           {
-            "id": "crow", "band": 2,
-            "story": ["Eine durstige Krähe fand einen Krug mit etwas Wasser am Boden.", "Mit ihrem Schnabel kam sie nicht an das Wasser heran.", "Sie warf Steinchen hinein, bis das Wasser stieg, und dann trank sie."],
+            "id": "crow",
+            "band": 2,
+            "story": [
+              "Eine durstige Krähe fand einen Krug mit etwas Wasser am Boden.",
+              "Mit ihrem Schnabel kam sie nicht an das Wasser heran.",
+              "Sie warf Steinchen hinein, bis das Wasser stieg, und dann trank sie."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Mit einer klugen Idee löst man ein Problem." },
-              { "id": "o2", "kind": "detail", "text": "Die Krähe warf Steinchen in den Krug." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Bei Hitze soll man immer Wasser dabeihaben." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Mit einer klugen Idee löst man ein Problem."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Die Krähe warf Steinchen in den Krug."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Bei Hitze soll man immer Wasser dabeihaben."
+              }
             ]
           },
           {
-            "id": "wolf", "band": 2,
-            "story": ["Ein Junge rief aus Spaß „Wolf!“, und die Leute liefen ihm zu Hilfe.", "Er lachte, denn es gab gar keinen Wolf.", "Als ein echter Wolf kam, glaubte ihm niemand mehr."],
+            "id": "wolf",
+            "band": 2,
+            "story": [
+              "Ein Junge rief aus Spaß „Wolf!“, und die Leute liefen ihm zu Hilfe.",
+              "Er lachte, denn es gab gar keinen Wolf.",
+              "Als ein echter Wolf kam, glaubte ihm niemand mehr."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Der Junge rief nur aus Spaß „Wolf!“." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Wölfe sind groß und sehr gefährlich." },
-              { "id": "o3", "kind": "moral", "text": "Wer lügt, dem glaubt man bald nicht mehr." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Der Junge rief nur aus Spaß „Wolf!“."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Wölfe sind groß und sehr gefährlich."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Wer lügt, dem glaubt man bald nicht mehr."
+              }
             ]
           },
           {
-            "id": "wind", "band": 2,
-            "story": ["Der Wind und die Sonne stritten, wer von ihnen stärker sei.", "Der Wind blies kräftig, doch der Mann hielt seinen Mantel fest.", "Dann schien die Sonne warm, und der Mann zog den Mantel aus."],
+            "id": "wind",
+            "band": 2,
+            "story": [
+              "Der Wind und die Sonne stritten, wer von ihnen stärker sei.",
+              "Der Wind blies kräftig, doch der Mann hielt seinen Mantel fest.",
+              "Dann schien die Sonne warm, und der Mann zog den Mantel aus."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Der starke Wind blies kräftig gegen den Mann." },
-              { "id": "o2", "kind": "moral", "text": "Mit Freundlichkeit erreicht man mehr als mit Gewalt." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Die Sonne ist heißer als der Wind." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Der starke Wind blies kräftig gegen den Mann."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "Mit Freundlichkeit erreicht man mehr als mit Gewalt."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Die Sonne ist heißer als der Wind."
+              }
             ]
           },
           {
-            "id": "goose", "band": 3,
-            "story": ["Eine Gans legte jeden Tag ein einziges glänzendes goldenes Ei.", "Der Bauer wollte das ganze Gold auf einmal haben.", "Er schnitt die Gans auf, fand nichts, und die Eier blieben aus."],
+            "id": "goose",
+            "band": 3,
+            "story": [
+              "Eine Gans legte jeden Tag ein einziges glänzendes goldenes Ei.",
+              "Der Bauer wollte das ganze Gold auf einmal haben.",
+              "Er schnitt die Gans auf, fand nichts, und die Eier blieben aus."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Wer zu viel will, verliert am Ende alles." },
-              { "id": "o2", "kind": "detail", "text": "Der Bauer wollte das ganze Gold haben." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Gänse sind aus reinem Gold." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Wer zu viel will, verliert am Ende alles."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Der Bauer wollte das ganze Gold haben."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Gänse sind aus reinem Gold."
+              }
             ]
           },
           {
-            "id": "bear", "band": 3,
-            "story": ["Zwei Freunde gingen spazieren, als ein großer Bär auftauchte.", "Ein Freund kletterte auf einen Baum und ließ den anderen allein.", "Der andere blieb ganz still liegen, bis der Bär ging, und stand dann auf."],
+            "id": "bear",
+            "band": 3,
+            "story": [
+              "Zwei Freunde gingen spazieren, als ein großer Bär auftauchte.",
+              "Ein Freund kletterte auf einen Baum und ließ den anderen allein.",
+              "Der andere blieb ganz still liegen, bis der Bär ging, und stand dann auf."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Ein Freund kletterte auf einen hohen Baum." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Bären kann man leicht verscheuchen." },
-              { "id": "o3", "kind": "moral", "text": "Ein echter Freund hilft in der Not." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Ein Freund kletterte auf einen hohen Baum."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Bären kann man leicht verscheuchen."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Ein echter Freund hilft in der Not."
+              }
             ]
           }
         ],
         "fr": [
           {
-            "id": "tortoise", "band": 1,
-            "story": ["Le lièvre court très vite et se moque de la tortue.", "Sûr de gagner, il s’arrête pour dormir sous un arbre.", "La tortue avance sans jamais s’arrêter et gagne la course."],
+            "id": "tortoise",
+            "band": 1,
+            "story": [
+              "Le lièvre court très vite et se moque de la tortue.",
+              "Sûr de gagner, il s’arrête pour dormir sous un arbre.",
+              "La tortue avance sans jamais s’arrêter et gagne la course."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Rien ne sert de courir, il faut partir à temps." },
-              { "id": "o2", "kind": "detail", "text": "La tortue avance sans jamais s’arrêter." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Être rapide suffit toujours pour réussir." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Rien ne sert de courir, il faut partir à temps."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "La tortue avance sans jamais s’arrêter."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Être rapide suffit toujours pour réussir."
+              }
             ]
           },
           {
-            "id": "ant", "band": 1,
-            "story": ["Tout l’été, la cigale chante au lieu de travailler.", "La fourmi travaille et range des graines pour l’hiver.", "Quand vient le froid, la cigale a faim et pleure."],
+            "id": "ant",
+            "band": 1,
+            "story": [
+              "Tout l’été, la cigale chante au lieu de travailler.",
+              "La fourmi travaille et range des graines pour l’hiver.",
+              "Quand vient le froid, la cigale a faim et pleure."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "La cigale chante tout l’été au lieu de travailler." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Il faut toujours s’amuser d’abord." },
-              { "id": "o3", "kind": "moral", "text": "Mieux vaut préparer demain que se plaindre trop tard." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "La cigale chante tout l’été au lieu de travailler."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Il faut toujours s’amuser d’abord."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Mieux vaut préparer demain que se plaindre trop tard."
+              }
             ]
           },
           {
-            "id": "lion", "band": 1,
-            "story": ["Un petit rat réveille un grand lion endormi.", "Le lion pardonne au rat et le laisse partir.", "Plus tard, le rat ronge le filet qui tient le lion."],
+            "id": "lion",
+            "band": 1,
+            "story": [
+              "Un petit rat réveille un grand lion endormi.",
+              "Le lion pardonne au rat et le laisse partir.",
+              "Plus tard, le rat ronge le filet qui tient le lion."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Le rat ronge le filet qui tient le lion." },
-              { "id": "o2", "kind": "moral", "text": "On a souvent besoin d’un plus petit que soi." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Les grands n’ont jamais besoin des petits." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Le rat ronge le filet qui tient le lion."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "On a souvent besoin d’un plus petit que soi."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Les grands n’ont jamais besoin des petits."
+              }
             ]
           },
           {
-            "id": "crow", "band": 2,
-            "story": ["Un corbeau assoiffé trouve une cruche avec un peu d’eau.", "Son bec est trop court pour atteindre l’eau.", "Il jette des cailloux dans la cruche et l’eau monte."],
+            "id": "crow",
+            "band": 2,
+            "story": [
+              "Un corbeau assoiffé trouve une cruche avec un peu d’eau.",
+              "Son bec est trop court pour atteindre l’eau.",
+              "Il jette des cailloux dans la cruche et l’eau monte."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Petit à petit, on vient à bout de tout." },
-              { "id": "o2", "kind": "detail", "text": "Il jette des cailloux dans la cruche." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Sans aide, on ne réussit jamais seul." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Petit à petit, on vient à bout de tout."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Il jette des cailloux dans la cruche."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Sans aide, on ne réussit jamais seul."
+              }
             ]
           },
           {
-            "id": "wolf", "band": 2,
-            "story": ["Un berger crie « Au loup ! » pour s’amuser.", "Les villageois accourent, mais il n’y a pas de loup.", "Un vrai loup arrive, personne ne le croit plus."],
+            "id": "wolf",
+            "band": 2,
+            "story": [
+              "Un berger crie « Au loup ! » pour s’amuser.",
+              "Les villageois accourent, mais il n’y a pas de loup.",
+              "Un vrai loup arrive, personne ne le croit plus."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Le berger crie « Au loup ! » pour s’amuser." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Mentir pour rire, c’est toujours amusant." },
-              { "id": "o3", "kind": "moral", "text": "À force de mentir, on finit par n’être plus cru." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Le berger crie « Au loup ! » pour s’amuser."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Mentir pour rire, c’est toujours amusant."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "À force de mentir, on finit par n’être plus cru."
+              }
             ]
           },
           {
-            "id": "wind", "band": 2,
-            "story": ["La bise et le soleil se disputent : qui est le plus fort ?", "La bise souffle très fort, mais l’homme serre son manteau.", "Le soleil brille avec douceur et l’homme enlève son manteau."],
+            "id": "wind",
+            "band": 2,
+            "story": [
+              "La bise et le soleil se disputent : qui est le plus fort ?",
+              "La bise souffle très fort, mais l’homme serre son manteau.",
+              "Le soleil brille avec douceur et l’homme enlève son manteau."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Le soleil brille avec douceur et l’homme enlève son manteau." },
-              { "id": "o2", "kind": "moral", "text": "La gentillesse réussit mieux que la violence." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Pour convaincre, il faut se montrer brutal." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Le soleil brille avec douceur et l’homme enlève son manteau."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "La gentillesse réussit mieux que la violence."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Pour convaincre, il faut se montrer brutal."
+              }
             ]
           },
           {
-            "id": "goose", "band": 3,
-            "story": ["Une poule pond chaque jour un bel œuf en or.", "Son maître, trop gourmand, veut tout l’or d’un coup.", "Il ouvre la poule, mais ne trouve rien du tout."],
+            "id": "goose",
+            "band": 3,
+            "story": [
+              "Une poule pond chaque jour un bel œuf en or.",
+              "Son maître, trop gourmand, veut tout l’or d’un coup.",
+              "Il ouvre la poule, mais ne trouve rien du tout."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Trop vouloir, c’est parfois tout perdre." },
-              { "id": "o2", "kind": "detail", "text": "Il ouvre la poule, mais ne trouve rien." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Il faut toujours prendre le plus possible." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Trop vouloir, c’est parfois tout perdre."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Il ouvre la poule, mais ne trouve rien."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Il faut toujours prendre le plus possible."
+              }
             ]
           },
           {
-            "id": "bear", "band": 3,
-            "story": ["Deux amis marchent quand un ours arrive soudain.", "Le premier grimpe vite dans un arbre et se cache.", "Le second fait le mort, l’ours le renifle et s’en va."],
+            "id": "bear",
+            "band": 3,
+            "story": [
+              "Deux amis marchent quand un ours arrive soudain.",
+              "Le premier grimpe vite dans un arbre et se cache.",
+              "Le second fait le mort, l’ours le renifle et s’en va."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Le premier grimpe vite dans un arbre et se cache." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Chacun doit se sauver tout seul d’abord." },
-              { "id": "o3", "kind": "moral", "text": "Le malheur montre qui sont nos vrais amis." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Le premier grimpe vite dans un arbre et se cache."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Chacun doit se sauver tout seul d’abord."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Le malheur montre qui sont nos vrais amis."
+              }
             ]
           }
         ],
         "es": [
           {
-            "id": "tortoise", "band": 1,
-            "story": ["La liebre presumía que era mucho más rápida que la tortuga.", "Corrió muy lejos y se echó una larga siesta bajo un árbol.", "La tortuga, muy lenta, siguió y siguió, y ganó la carrera."],
+            "id": "tortoise",
+            "band": 1,
+            "story": [
+              "La liebre presumía que era mucho más rápida que la tortuga.",
+              "Corrió muy lejos y se echó una larga siesta bajo un árbol.",
+              "La tortuga, muy lenta, siguió y siguió, y ganó la carrera."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Quien no se rinde, al final lo logra." },
-              { "id": "o2", "kind": "detail", "text": "La liebre se echó una larga siesta." },
-              { "id": "o3", "kind": "wrongmoral", "text": "El más rápido siempre gana." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Quien no se rinde, al final lo logra."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "La liebre se echó una larga siesta."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "El más rápido siempre gana."
+              }
             ]
           },
           {
-            "id": "ant", "band": 1,
-            "story": ["Todo el verano la cigarra cantó y la hormiga guardó comida.", "Después llegó el invierno, con mucho frío.", "La cigarra tenía hambre; la hormiga estaba abrigada y con comida."],
+            "id": "ant",
+            "band": 1,
+            "story": [
+              "Todo el verano la cigarra cantó y la hormiga guardó comida.",
+              "Después llegó el invierno, con mucho frío.",
+              "La cigarra tenía hambre; la hormiga estaba abrigada y con comida."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "La cigarra cantó y jugó todo el verano." },
-              { "id": "o2", "kind": "wrongmoral", "text": "El verano es el mejor momento para descansar." },
-              { "id": "o3", "kind": "moral", "text": "Es mejor prepararse antes que sufrir después." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "La cigarra cantó y jugó todo el verano."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "El verano es el mejor momento para descansar."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Es mejor prepararse antes que sufrir después."
+              }
             ]
           },
           {
-            "id": "lion", "band": 1,
-            "story": ["Un ratoncito muy pequeño despertó a un león que dormía.", "El león fue bueno: sonrió y lo dejó ir.", "Después el león cayó en una red, y el ratón lo liberó a mordidas."],
+            "id": "lion",
+            "band": 1,
+            "story": [
+              "Un ratoncito muy pequeño despertó a un león que dormía.",
+              "El león fue bueno: sonrió y lo dejó ir.",
+              "Después el león cayó en una red, y el ratón lo liberó a mordidas."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "El león grande cayó en una red." },
-              { "id": "o2", "kind": "moral", "text": "Hasta un amigo pequeño puede ayudar mucho." },
-              { "id": "o3", "kind": "wrongmoral", "text": "No hay que despertar a un león dormido." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "El león grande cayó en una red."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "Hasta un amigo pequeño puede ayudar mucho."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "No hay que despertar a un león dormido."
+              }
             ]
           },
           {
-            "id": "crow", "band": 2,
-            "story": ["Un cuervo con mucha sed encontró un cántaro con poquita agua.", "No alcanzaba el agua con el pico.", "Aventó piedritas hasta que el agua subió, y por fin tomó agua."],
+            "id": "crow",
+            "band": 2,
+            "story": [
+              "Un cuervo con mucha sed encontró un cántaro con poquita agua.",
+              "No alcanzaba el agua con el pico.",
+              "Aventó piedritas hasta que el agua subió, y por fin tomó agua."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Una buena idea resuelve un problema." },
-              { "id": "o2", "kind": "detail", "text": "El cuervo aventó piedritas al cántaro." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Siempre hay que llevar agua cuando hace calor." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Una buena idea resuelve un problema."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "El cuervo aventó piedritas al cántaro."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Siempre hay que llevar agua cuando hace calor."
+              }
             ]
           },
           {
-            "id": "wolf", "band": 2,
-            "story": ["Un pastorcito gritó «¡Lobo!» por jugar, y la gente corrió a ayudar.", "Se rio, porque no había ningún lobo.", "Cuando llegó un lobo de verdad, nadie le creyó."],
+            "id": "wolf",
+            "band": 2,
+            "story": [
+              "Un pastorcito gritó «¡Lobo!» por jugar, y la gente corrió a ayudar.",
+              "Se rio, porque no había ningún lobo.",
+              "Cuando llegó un lobo de verdad, nadie le creyó."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "El pastorcito gritó «¡Lobo!» por jugar." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Los lobos son grandes y dan mucho miedo." },
-              { "id": "o3", "kind": "moral", "text": "Al que miente, nadie le tiene confianza." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "El pastorcito gritó «¡Lobo!» por jugar."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Los lobos son grandes y dan mucho miedo."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Al que miente, nadie le tiene confianza."
+              }
             ]
           },
           {
-            "id": "wind", "band": 2,
-            "story": ["El viento y el sol discutían para ver quién era más fuerte.", "El viento sopló muy fuerte, pero el señor se apretó el abrigo.", "Luego el sol brilló con calorcito, y el señor se quitó el abrigo."],
+            "id": "wind",
+            "band": 2,
+            "story": [
+              "El viento y el sol discutían para ver quién era más fuerte.",
+              "El viento sopló muy fuerte, pero el señor se apretó el abrigo.",
+              "Luego el sol brilló con calorcito, y el señor se quitó el abrigo."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "El viento sopló muy fuerte contra el señor." },
-              { "id": "o2", "kind": "moral", "text": "Tratar bien consigue más que obligar." },
-              { "id": "o3", "kind": "wrongmoral", "text": "El sol calienta más que el viento." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "El viento sopló muy fuerte contra el señor."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "Tratar bien consigue más que obligar."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "El sol calienta más que el viento."
+              }
             ]
           },
           {
-            "id": "goose", "band": 3,
-            "story": ["Una gallina ponía un huevo de oro brillante todos los días.", "El granjero quería todo el oro de una sola vez.", "Abrió a la gallina, no encontró nada y nunca más hubo oro."],
+            "id": "goose",
+            "band": 3,
+            "story": [
+              "Una gallina ponía un huevo de oro brillante todos los días.",
+              "El granjero quería todo el oro de una sola vez.",
+              "Abrió a la gallina, no encontró nada y nunca más hubo oro."
+            ],
             "options": [
-              { "id": "o1", "kind": "moral", "text": "Quien quiere demasiado, termina perdiendo." },
-              { "id": "o2", "kind": "detail", "text": "El granjero quería todo el oro de una vez." },
-              { "id": "o3", "kind": "wrongmoral", "text": "Las gallinas están hechas de oro puro." }
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Quien quiere demasiado, termina perdiendo."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "El granjero quería todo el oro de una vez."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Las gallinas están hechas de oro puro."
+              }
             ]
           },
           {
-            "id": "bear", "band": 3,
-            "story": ["Dos amigos iban caminando cuando apareció un oso grande.", "Uno se subió a un árbol y dejó solo al otro.", "El otro se quedó quietecito hasta que el oso se fue."],
+            "id": "bear",
+            "band": 3,
+            "story": [
+              "Dos amigos iban caminando cuando apareció un oso grande.",
+              "Uno se subió a un árbol y dejó solo al otro.",
+              "El otro se quedó quietecito hasta que el oso se fue."
+            ],
             "options": [
-              { "id": "o1", "kind": "detail", "text": "Un amigo se subió a un árbol muy alto." },
-              { "id": "o2", "kind": "wrongmoral", "text": "Los osos se espantan fácilmente." },
-              { "id": "o3", "kind": "moral", "text": "Un amigo de verdad se nota en lo difícil." }
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Un amigo se subió a un árbol muy alto."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Los osos se espantan fácilmente."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Un amigo de verdad se nota en lo difícil."
+              }
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "tortoise",
+            "band": 1,
+            "story": [
+              "A lebre corria muito mais rápido que a tartaruga e vivia caçoando dela.",
+              "No meio da corrida, a lebre deitou na sombra para tirar uma soneca.",
+              "A tartaruga passou devagarinho e cruzou a linha de chegada primeiro."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Quem não desiste, no fim consegue."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "A lebre parou para dormir no meio da corrida."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "O mais rápido sempre ganha."
+              }
+            ]
+          },
+          {
+            "id": "ant",
+            "band": 1,
+            "story": [
+              "No verão, a cigarra cantava o dia todo enquanto a formiga guardava comida.",
+              "A cigarra achava graça e não juntava nada para o inverno.",
+              "Quando o frio chegou, a cigarra passou fome e a formiga tinha o que comer."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "É melhor se preparar do que sofrer depois."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "A cigarra passou o verão inteiro só cantando."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Cantar é mais importante do que trabalhar."
+              }
+            ]
+          },
+          {
+            "id": "lion",
+            "band": 1,
+            "story": [
+              "Um ratinho acordou o leão sem querer, mas o leão deixou ele ir embora.",
+              "Dias depois, o leão caiu na rede de um caçador e não conseguia se soltar.",
+              "O ratinho ouviu o rugido, roeu as cordas e libertou o leão."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Até um amigo pequeno pode ajudar muito."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "O leão ficou preso na rede de um caçador."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Os pequenos não servem para nada."
+              }
+            ]
+          },
+          {
+            "id": "crow",
+            "band": 2,
+            "story": [
+              "O corvo estava com muita sede e achou um jarro com pouca água no fundo.",
+              "Por mais que tentasse, seu bico não alcançava a água lá embaixo.",
+              "Então o corvo foi jogando pedrinhas no jarro até a água subir."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Uma boa ideia resolve um problema."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "O corvo jogou pedrinhas dentro do jarro."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Quando algo é difícil, é melhor desistir."
+              }
+            ]
+          },
+          {
+            "id": "wolf",
+            "band": 2,
+            "story": [
+              "O menino cuidava das ovelhas e, de brincadeira, gritou: \"Lobo! Lobo!\"",
+              "Os moradores correram para ajudar, mas não havia lobo nenhum.",
+              "Quando o lobo apareceu de verdade, ninguém acreditou nos gritos do menino."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Quem mente perde a confiança dos outros."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "O menino gritou \"Lobo!\" só de brincadeira."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Gritar bem alto sempre traz ajuda."
+              }
+            ]
+          },
+          {
+            "id": "wind",
+            "band": 2,
+            "story": [
+              "O vento e o sol apostaram para ver quem tirava o casaco do viajante.",
+              "O vento soprou com toda a força, mas o homem segurou o casaco ainda mais forte.",
+              "O sol esquentou devagar e logo o viajante tirou o casaco sozinho."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Tratar bem consegue mais do que obrigar."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "O vento soprou com toda a força no viajante."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "A força sempre vence."
+              }
+            ]
+          },
+          {
+            "id": "goose",
+            "band": 3,
+            "story": [
+              "Todos os dias, a gansa botava um ovo de ouro para o fazendeiro.",
+              "O fazendeiro ficou ganancioso e quis todo o ouro de uma vez só.",
+              "Ele abriu a gansa por dentro, mas não achou ouro nenhum e ficou sem nada."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Quem quer demais acaba perdendo."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "O fazendeiro quis todo o ouro de uma vez só."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Ter mais ouro sempre deixa a gente feliz."
+              }
+            ]
+          },
+          {
+            "id": "bear",
+            "band": 3,
+            "story": [
+              "Dois amigos andavam pela floresta quando um urso apareceu na frente.",
+              "Um deles subiu numa árvore e deixou o outro sozinho lá no chão.",
+              "O que ficou no chão se fingiu de morto até o urso ir embora."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Um amigo de verdade se mostra na hora difícil."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Um dos amigos subiu na árvore e deixou o outro para trás."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Na hora do perigo, cada um por si."
+              }
             ]
           }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "juniper-story-lantern", "de": "die-lehre-einer-fabel-erkennen-klasse-3", "fr": "la-morale-d-une-fable-ce1", "es": "identificar-la-moraleja-de-una-fabula-tercer-grado" },
-    "page_title": { "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)", "de": "Die Lehre einer Fabel erkennen – Klasse 3", "fr": "La lanterne de Juniper — La morale d'une fable (CE1)", "es": "Identificar la moraleja de una fábula – 3.º primaria" },
-    "page_intro": { "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.", "de": "Dein Kind hört eine kurze Fabel – etwa von Hase und Schildkröte – und tippt bei Junipers Laterne die Karte mit der echten Lehre. Kostenlos und interaktiv, Klasse 3.", "fr": "À la lueur de sa lanterne, Juniper le hérisson raconte une petite fable, puis demande à votre enfant d'en trouver la morale : la vraie leçon de l'histoire, et non un simple détail. En jouant, votre enfant apprend à comprendre le sens d'un récit et à distinguer le message d'une fable d'une phrase qui « sonne bien » mais reste fausse. Gratuit et interactif, à jouer directement dans le navigateur, sans minuteur, sans score et sans compte.", "es": "Actividad gratis en línea de 3.º de primaria: lee una fábula corta, como la liebre y la tortuga, y toca cuál es su moraleja. Sin registro ni calificación." },
+    "slug": {
+      "en": "juniper-story-lantern",
+      "de": "die-lehre-einer-fabel-erkennen-klasse-3",
+      "fr": "la-morale-d-une-fable-ce1",
+      "es": "identificar-la-moraleja-de-una-fabula-tercer-grado",
+      "pt": "moral-da-fabula-licao-da-historia-3-ano"
+    },
+    "page_title": {
+      "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)",
+      "de": "Die Lehre einer Fabel erkennen – Klasse 3",
+      "fr": "La lanterne de Juniper — La morale d'une fable (CE1)",
+      "es": "Identificar la moraleja de una fábula – 3.º primaria",
+      "pt": "A moral da fábula: qual é a lição? · 3º ano"
+    },
+    "page_intro": {
+      "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.",
+      "de": "Dein Kind hört eine kurze Fabel – etwa von Hase und Schildkröte – und tippt bei Junipers Laterne die Karte mit der echten Lehre. Kostenlos und interaktiv, Klasse 3.",
+      "fr": "À la lueur de sa lanterne, Juniper le hérisson raconte une petite fable, puis demande à votre enfant d'en trouver la morale : la vraie leçon de l'histoire, et non un simple détail. En jouant, votre enfant apprend à comprendre le sens d'un récit et à distinguer le message d'une fable d'une phrase qui « sonne bien » mais reste fausse. Gratuit et interactif, à jouer directement dans le navigateur, sans minuteur, sans score et sans compte.",
+      "es": "Actividad gratis en línea de 3.º de primaria: lee una fábula corta, como la liebre y la tortuga, y toca cuál es su moraleja. Sin registro ni calificación.",
+      "pt": "Com a Fagulha, uma ouriça contadora de histórias, a criança lê fábulas clássicas à luz do lampião e descobre a moral de cada uma — a lição por trás da história. Uma atividade de compreensão de leitura que estimula a pensar além do texto. Grátis, sem cadastro. BNCC, 3º ano."
+    },
     "kid_prompt_template": "juniper-story-lantern"
   }
 ]

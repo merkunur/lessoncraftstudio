@@ -642,46 +642,424 @@
           }
         ],
         "es": [
-          { "id": "bees", "band": 1, "story": ["Las abejas viven juntas en una colmena muy ocupada.", "Vuelan de flor en flor para juntar néctar.", "En casa convierten el néctar en miel."], "options": [
-            { "id": "o1", "kind": "topic", "text": "Cómo hacen su miel las abejas." },
-            { "id": "o2", "kind": "detail", "text": "Vuelan de flor en flor para juntar néctar." },
-            { "id": "o3", "kind": "offtopic", "text": "Las arañas tejen telarañas." }
-          ] },
-          { "id": "rain", "band": 1, "story": ["El sol calienta el agua de los lagos y los mares.", "El agua sube y forma las nubes.", "Cuando las nubes se ponen pesadas, cae la lluvia."], "options": [
-            { "id": "o1", "kind": "detail", "text": "El sol calienta el agua de los lagos." },
-            { "id": "o2", "kind": "offtopic", "text": "Los camellos casi nunca beben agua." },
-            { "id": "o3", "kind": "topic", "text": "De dónde viene la lluvia." }
-          ] },
-          { "id": "frog", "band": 1, "story": ["Una rana empieza su vida como un huevito.", "Del huevo sale un renacuajo que nada.", "Poco a poco al renacuajo le salen patas y se convierte en rana."], "options": [
-            { "id": "o1", "kind": "detail", "text": "Del huevo sale un renacuajo que nada." },
-            { "id": "o2", "kind": "topic", "text": "Cómo crece una rana." },
-            { "id": "o3", "kind": "offtopic", "text": "Los búhos cazan ratones." }
-          ] },
-          { "id": "teeth", "band": 2, "story": ["Cepillarte los dientes los deja limpios y fuertes.", "Quita los restos de comida y de azúcar.", "Los dientes limpios te ayudan a masticar y a sonreír."], "options": [
-            { "id": "o1", "kind": "topic", "text": "Por qué nos cepillamos los dientes." },
-            { "id": "o2", "kind": "detail", "text": "Quita los restos de comida y de azúcar." },
-            { "id": "o3", "kind": "offtopic", "text": "Las jirafas son muy altas." }
-          ] },
-          { "id": "volcano", "band": 2, "story": ["Muy adentro de un volcán espera roca caliente y derretida.", "La presión crece hasta que la empuja hacia arriba.", "La roca sale disparada como lava caliente y brillante."], "options": [
-            { "id": "o1", "kind": "detail", "text": "Muy adentro de un volcán espera roca caliente." },
-            { "id": "o2", "kind": "offtopic", "text": "Los pingüinos no vuelan." },
-            { "id": "o3", "kind": "topic", "text": "Cómo hace erupción un volcán." }
-          ] },
-          { "id": "library", "band": 2, "story": ["Una biblioteca está llena de libros para pedir prestados.", "Escoges un libro y te lo llevas a casa a leer.", "Cuando terminas, lo regresas para los demás."], "options": [
-            { "id": "o1", "kind": "detail", "text": "Escoges un libro y te lo llevas a casa a leer." },
-            { "id": "o2", "kind": "topic", "text": "Cómo presta libros una biblioteca." },
-            { "id": "o3", "kind": "offtopic", "text": "Los murciélagos duermen de día." }
-          ] },
-          { "id": "wind", "band": 3, "story": ["Al aire que se mueve le decimos viento.", "El viento puede empujar un velero por un lago.", "También puede mover las aspas de un molino de viento."], "options": [
-            { "id": "o1", "kind": "topic", "text": "Lo que el viento puede hacer." },
-            { "id": "o2", "kind": "detail", "text": "El viento puede empujar un velero por un lago." },
-            { "id": "o3", "kind": "offtopic", "text": "Los caracoles son muy lentos." }
-          ] },
-          { "id": "seed", "band": 3, "story": ["Una semilla necesita sol, agua y tierra para crecer.", "Sus raíces bajan a buscar agua.", "Luego un brote verde empuja hacia la luz."], "options": [
-            { "id": "o1", "kind": "detail", "text": "Sus raíces bajan a buscar agua." },
-            { "id": "o2", "kind": "offtopic", "text": "Los zorros tienen pelo rojizo." },
-            { "id": "o3", "kind": "topic", "text": "Qué necesita una semilla para crecer." }
-          ] }
+          {
+            "id": "bees",
+            "band": 1,
+            "story": [
+              "Las abejas viven juntas en una colmena muy ocupada.",
+              "Vuelan de flor en flor para juntar néctar.",
+              "En casa convierten el néctar en miel."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Cómo hacen su miel las abejas."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Vuelan de flor en flor para juntar néctar."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Las arañas tejen telarañas."
+              }
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 1,
+            "story": [
+              "El sol calienta el agua de los lagos y los mares.",
+              "El agua sube y forma las nubes.",
+              "Cuando las nubes se ponen pesadas, cae la lluvia."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "El sol calienta el agua de los lagos."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Los camellos casi nunca beben agua."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "De dónde viene la lluvia."
+              }
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "story": [
+              "Una rana empieza su vida como un huevito.",
+              "Del huevo sale un renacuajo que nada.",
+              "Poco a poco al renacuajo le salen patas y se convierte en rana."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Del huevo sale un renacuajo que nada."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Cómo crece una rana."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Los búhos cazan ratones."
+              }
+            ]
+          },
+          {
+            "id": "teeth",
+            "band": 2,
+            "story": [
+              "Cepillarte los dientes los deja limpios y fuertes.",
+              "Quita los restos de comida y de azúcar.",
+              "Los dientes limpios te ayudan a masticar y a sonreír."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Por qué nos cepillamos los dientes."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Quita los restos de comida y de azúcar."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Las jirafas son muy altas."
+              }
+            ]
+          },
+          {
+            "id": "volcano",
+            "band": 2,
+            "story": [
+              "Muy adentro de un volcán espera roca caliente y derretida.",
+              "La presión crece hasta que la empuja hacia arriba.",
+              "La roca sale disparada como lava caliente y brillante."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Muy adentro de un volcán espera roca caliente."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Los pingüinos no vuelan."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Cómo hace erupción un volcán."
+              }
+            ]
+          },
+          {
+            "id": "library",
+            "band": 2,
+            "story": [
+              "Una biblioteca está llena de libros para pedir prestados.",
+              "Escoges un libro y te lo llevas a casa a leer.",
+              "Cuando terminas, lo regresas para los demás."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Escoges un libro y te lo llevas a casa a leer."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Cómo presta libros una biblioteca."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Los murciélagos duermen de día."
+              }
+            ]
+          },
+          {
+            "id": "wind",
+            "band": 3,
+            "story": [
+              "Al aire que se mueve le decimos viento.",
+              "El viento puede empujar un velero por un lago.",
+              "También puede mover las aspas de un molino de viento."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Lo que el viento puede hacer."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "El viento puede empujar un velero por un lago."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Los caracoles son muy lentos."
+              }
+            ]
+          },
+          {
+            "id": "seed",
+            "band": 3,
+            "story": [
+              "Una semilla necesita sol, agua y tierra para crecer.",
+              "Sus raíces bajan a buscar agua.",
+              "Luego un brote verde empuja hacia la luz."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Sus raíces bajan a buscar agua."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Los zorros tienen pelo rojizo."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Qué necesita una semilla para crecer."
+              }
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "abelhas-mel",
+            "band": 1,
+            "story": [
+              "As abelhas vivem juntas numa colmeia.",
+              "Elas voam de flor em flor para juntar néctar.",
+              "Com o néctar, elas fazem o mel."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Como as abelhas fazem o mel."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Voam de flor em flor para juntar néctar."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "As aranhas tecem teias."
+              }
+            ]
+          },
+          {
+            "id": "chuva",
+            "band": 1,
+            "story": [
+              "A chuva cai das nuvens do céu.",
+              "As gotas molham as plantas e a terra.",
+              "Depois da chuva, tudo fica mais verde."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "As gotas molham as plantas e a terra."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "De onde vem a chuva e o que ela faz."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "O trem anda sobre os trilhos."
+              }
+            ]
+          },
+          {
+            "id": "dentes",
+            "band": 1,
+            "story": [
+              "Você escova os dentes todos os dias.",
+              "A escova tira a sujeira dos dentes.",
+              "Dentes limpos ficam fortes e saudáveis."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "A escova tira a sujeira dos dentes."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Os peixes respiram embaixo da água."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Por que a gente escova os dentes."
+              }
+            ]
+          },
+          {
+            "id": "formigas",
+            "band": 2,
+            "story": [
+              "As formigas moram embaixo da terra.",
+              "Elas trabalham juntas para achar comida.",
+              "Cada formiga carrega migalhas para o formigueiro."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Como as formigas trabalham em grupo."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Cada formiga carrega migalhas para o formigueiro."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "A girafa tem um pescoço bem comprido."
+              }
+            ]
+          },
+          {
+            "id": "semente",
+            "band": 2,
+            "story": [
+              "A semente é plantada na terra.",
+              "Com água e sol, ela começa a crescer.",
+              "Aos poucos, vira uma plantinha verde."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "offtopic",
+                "text": "O sino da igreja faz barulho."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Como uma semente vira planta."
+              },
+              {
+                "id": "o3",
+                "kind": "detail",
+                "text": "Com água e sol, ela começa a crescer."
+              }
+            ]
+          },
+          {
+            "id": "sapo",
+            "band": 2,
+            "story": [
+              "O sapo nasce dentro da água.",
+              "No começo, ele é um girino com rabo.",
+              "Depois cria pernas e vira sapo."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "No começo, ele é um girino com rabo."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "A neve é branca e geladinha."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Como o sapo cresce e muda."
+              }
+            ]
+          },
+          {
+            "id": "lua",
+            "band": 3,
+            "story": [
+              "A lua aparece no céu à noite.",
+              "A lua não tem luz própria.",
+              "Ela brilha porque reflete a luz do sol."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "De onde vem a luz da lua."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "A lua aparece no céu à noite."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "O cavalo corre bem rápido."
+              }
+            ]
+          },
+          {
+            "id": "tartaruga",
+            "band": 3,
+            "story": [
+              "A tartaruga carrega um casco nas costas.",
+              "O casco duro protege o corpo dela.",
+              "Quando sente perigo, ela se esconde dentro dele."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Quando sente perigo, ela se esconde dentro dele."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Como o casco protege a tartaruga."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "O leão vive na savana."
+              }
+            ]
+          }
         ]
       }
     },
@@ -690,19 +1068,22 @@
       "en": "marinas-headline-desk",
       "de": "hauptthema-eines-sachtexts-erkennen-klasse-3",
       "fr": "trouver-le-sujet-principal-d-un-texte-ce2",
-      "es": "idea-principal-de-que-trata-el-texto-tercer-grado"
+      "es": "idea-principal-de-que-trata-el-texto-tercer-grado",
+      "pt": "qual-e-o-assunto-principal-do-texto-primeiros-anos"
     },
     "page_title": {
       "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)",
       "de": "Leseverständnis Klasse 2 – das Hauptthema erkennen, online üben",
       "fr": "Le bureau des titres de Marina : le sujet principal (CE2)",
-      "es": "Idea principal: ¿de qué trata el texto? · Tercer grado"
+      "es": "Idea principal: ¿de qué trata el texto? · Tercer grado",
+      "pt": "A mesa de manchetes da Marina — Qual é o assunto principal do texto?"
     },
     "page_intro": {
       "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.",
       "de": "Leseverständnis für Klasse 2: Sachtexte lesen und das Hauptthema sicher erkennen. Kostenlose Übungen online, ohne Anmeldung – ideal zum Wiederholen.",
       "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire.",
-      "es": "Lee un texto corto e identifica su idea principal: ¿de qué trata? Distingue el tema de un detalle. Juego interactivo y gratis de tercer grado."
+      "es": "Lee un texto corto e identifica su idea principal: ¿de qué trata? Distingue el tema de un detalle. Juego interactivo y gratis de tercer grado.",
+      "pt": "Na mesa de manchetes da Marina, a lontra Marina traz uma notícia curtinha e pergunta: do que trata este texto, na maior parte? A criança lê (ou ouve, no botão 🔊) três frases sobre um assunto de verdade e toca na carta que mostra o assunto principal — sem confundir com um detalhe solto ou com um fato de fora. Grátis, sem cadastro e sem login, sem relógio nem pontos, alinhada à BNCC no eixo de compreensão de textos informativos."
     },
     "kid_prompt_template": "marina-headline-desk"
   }

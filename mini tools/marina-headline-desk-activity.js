@@ -20,7 +20,7 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.6" fill="#2A2A35"/><circle cx="57" cy="47" r="2.6" fill="#2A2A35"/>';
-    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : LANG === 'fr' ? 'Marina la loutre' : LANG === 'es' ? 'Marina la nutria' : 'Marina the otter') + '">' +
+    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : LANG === 'fr' ? 'Marina la loutre' : LANG === 'es' ? 'Marina la nutria' : LANG === 'pt' ? 'Marina, a lontra' : 'Marina the otter') + '">' +
       '<circle cx="32" cy="30" r="7" fill="#A07A52"/><circle cx="68" cy="30" r="7" fill="#A07A52"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="28" ry="26" fill="#B68C5E"/>' +
       '<ellipse cx="50" cy="60" rx="16" ry="14" fill="#E7D2B5"/>' +   /* muzzle */
@@ -43,15 +43,15 @@
     id: 'marina-headline-desk-activity',
 
     strings: {
-      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch', fr: 'Le bureau des titres de Marina', es: 'El escritorio de titulares de Marina' },
-      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?', fr: 'De quoi ça parle surtout ?', es: '¿De qué trata principalmente?' },
-      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?', fr: 'Une nouvelle histoire ! De quoi parle-t-elle surtout ?', es: '¡Una historia nueva! ¿De qué trata principalmente?' },
-      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire', es: '📖 Lee la historia' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire', es: '📖 Léela otra vez' },
-      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?', fr: 'Quel est le sujet principal ?', es: '¿De qué trata TODO el texto, no sólo una oración?' },
-      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!', fr: 'Touche ce dont l’histoire parle surtout !', es: '¡Toca de qué trata principalmente la historia!' },
-      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.', fr: 'Ça, ce n’est qu’un petit détail — relis l’histoire.', es: 'Eso es solo una parte pequeña. Léela otra vez.' },
-      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰', fr: 'Oui ! C’est le sujet principal. 📰', es: '¡Sí! Ese es el tema principal. 📰' }
+      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch', fr: 'Le bureau des titres de Marina', es: 'El escritorio de titulares de Marina', pt: 'A mesa de manchetes da Marina' },
+      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?', fr: 'De quoi ça parle surtout ?', es: '¿De qué trata principalmente?', pt: 'Sobre o que é isto, na maior parte?' },
+      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?', fr: 'Une nouvelle histoire ! De quoi parle-t-elle surtout ?', es: '¡Una historia nueva! ¿De qué trata principalmente?', pt: 'Uma notícia nova! Do que será que ela fala?' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire', es: '📖 Lee la historia', pt: '📖 Ler o texto' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire', es: '📖 Léela otra vez', pt: '📖 Ler de novo' },
+      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?', fr: 'Quel est le sujet principal ?', es: '¿De qué trata TODO el texto, no sólo una oración?', pt: 'Qual é o assunto principal?' },
+      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!', fr: 'Touche ce dont l’histoire parle surtout !', es: '¡Toca de qué trata principalmente la historia!', pt: 'Toque no que o texto conta na maior parte!' },
+      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.', fr: 'Ça, ce n’est qu’un petit détail — relis l’histoire.', es: 'Eso es solo una parte pequeña. Léela otra vez.', pt: 'Isso é só um pedacinho — leia o texto de novo.' },
+      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰', fr: 'Oui ! C’est le sujet principal. 📰', es: '¡Sí! Ese es el tema principal. 📰', pt: 'Isso! Esse é o assunto principal. 📰' }
     },
     defaults: {},
 

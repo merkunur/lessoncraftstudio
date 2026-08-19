@@ -3659,6 +3659,29 @@
         "Eu percebo a frase que não combina com o assunto.",
         "Eu entendo que uma frase verdadeira pode não pertencer ao tema."
       ]
+    },
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "Na mesa de manchetes da Marina, uma lontra chamada Marina cuida das notícias do dia. Em cada rodada, você lê (ou ouve, no botão 🔊) um textinho curto de três frases sobre um assunto de verdade — as abelhas, a chuva, os dentes. Depois, você toca na carta que diz do que o texto fala na maior parte. Por exemplo, se o texto conta que as abelhas juntam néctar nas flores e fazem mel, o assunto principal é \"como as abelhas fazem o mel\", e não uma frase solta copiada do texto.",
+        "O assunto principal é o fio que costura o texto inteiro — a ideia que aparece do começo ao fim. Ele é diferente de um detalhe, que é só um pedacinho verdadeiro do texto (como \"elas voam de flor em flor\"), e é bem diferente de um fato de fora, que nem está ali (como \"as aranhas tecem teias\"). Na mesa da Marina, a carta mais parecida com o texto quase sempre é só um detalhe, então é preciso pensar no todo, não na frase mais parecida. Perceber essa diferença ajuda a criança a entender qualquer texto de verdade, e não só a repetir palavras.",
+        "A mesa de manchetes da Marina é gratuita, sem cadastro e sem login. Não tem relógio, não tem pontos e não tem corrida — cada criança vai no seu tempo, sem pressa e sem medo de errar. Quem ainda está aprendendo a ler pode tocar no botão 🔊 e ouvir o texto em voz alta antes de escolher. A atividade segue a BNCC, no eixo de compreensão de textos informativos e identificação do assunto principal, e é pensada para os primeiros anos."
+      ],
+      "practices": [
+        "Ler um texto informativo curto e dizer do que ele trata na maior parte.",
+        "Diferenciar o assunto principal de um detalhe copiado do texto.",
+        "Perceber que um fato de fora não faz parte do texto, mesmo sendo verdade.",
+        "Escolher uma manchete que resume o texto inteiro em poucas palavras."
+      ],
+      "howToPlay": [
+        "Toque em 📖 para ler o texto de três frases (ou ouça no botão 🔊).",
+        "Pense: do que este texto fala na maior parte?",
+        "Toque na carta que diz o assunto principal — se errar, é só ler de novo com calma."
+      ],
+      "learningGoals": [
+        "Eu consigo dizer do que trata um texto na maior parte.",
+        "Eu sei diferenciar o assunto principal de um detalhe pequeno.",
+        "Eu percebo quando um fato não faz parte do texto."
+      ]
     }
   }
 }

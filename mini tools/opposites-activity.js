@@ -106,6 +106,24 @@
       nudgeSibling: 'Eso es del mismo tipo… pero ¿y el otro extremo?',
       nudgeRelated: 'Eso es un amigo. ¡Busca su contrario!',
       nudgeUnrelated: 'Eso no es lo contrario. Busca el otro extremo.'
+    },
+    /* pt (§A.13.54 gender anchors): win/nudgeRelated/nudgeUnrelated anchor on masc «o contrário»;
+       nudgeSibling on masc «o mesmo tipo»; winScene's «arrumado» agrees with «tudo» (masc); oddpair's
+       «nela» agrees with the fixed fem «a dupla». `route` drops {a} (anchor card on screen; es/de precedent). */
+    pt: {
+      pick: 'Toque no CONTRÁRIO — a outra ponta!',
+      generate: 'Toque no contrário. A outra ponta!',
+      balance: 'Equilibre a balança — toque no contrário!',
+      verb: 'Toque na ação AO CONTRÁRIO!',
+      route: 'É o contrário ou só do mesmo TIPO? Mande cada um!',
+      oddpair: 'Uma dupla NÃO é de contrários — toque nela!',
+      scene: 'Está tudo ao contrário — toque em cada coisa pra VIRAR!',
+      doorOpp: 'Contrário', doorSame: 'Mesmo tipo', trade: 'Troque!',
+      win: 'Um contrário perfeito! Vai pro Livro-Espelho.',
+      winScene: 'Tudo arrumado — boa noite! Vai pro Livro-Espelho.',
+      nudgeSibling: 'É do mesmo TIPO — mas e a OUTRA ponta?',
+      nudgeRelated: 'É um amigo — ache o CONTRÁRIO!',
+      nudgeUnrelated: 'Não é o contrário — procure a outra ponta!'
     }
   };
   function txt(k, a) {
@@ -242,15 +260,18 @@
       /* es: «al revés» is the child's word for the concept and the mercado is a lived MX institution.
          ⚠ qGenerate/qOddpair use «¿Cuál…?» NOT «¿Qué…?» — the child CHOOSES from a displayed set;
          «¿qué es lo contrario?» asks for a definition. */
-      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt', fr: 'Le marché-miroir de Quill', es: 'El mercado al revés de Quill' },
-      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!', fr: 'Apporte à Quill le CONTRAIRE — l’autre bout, pas juste un ami !', es: '¡Tráele a Quill lo contrario: el otro extremo, no solo un amigo!' },
-      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.', fr: 'Trouve le contraire !', es: '¡Encuentra lo contrario!' },
-      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?', fr: 'Quel est le contraire ?', es: '¿Cuál es lo contrario?' },
-      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.', fr: 'Équilibre la balance !', es: '¡Equilibra la balanza!' },
-      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?', fr: 'Fais l’action contraire !', es: '¡Haz la acción contraria!' },
-      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.', fr: 'Contraire, ou juste la même sorte ?', es: '¿Lo contrario o solo del mismo tipo?' },
-      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?', fr: 'Quelle paire n’est PAS des contraires ?', es: '¿Cuál pareja NO es de contrarios?' },
-      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!', fr: 'Retourne le monde à l’envers !', es: '¡Voltea el mundo al revés!' }
+      /* pt: character renamed «Quill»→«Espinho» (operator-ruled — «Quill» decodes badly for a BR
+         6-7yo: qu→/k/; «Espinho» = transparent BR hedgehog name, keeps the spine wordplay). pt-only
+         divergence. qGenerate uses «Qual…?» (choose from a set), not «O que é…?» (asks a definition). */
+      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt', fr: 'Le marché-miroir de Quill', es: 'El mercado al revés de Quill', pt: 'O Mercado Espelho do Espinho' },
+      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!', fr: 'Apporte à Quill le CONTRAIRE — l’autre bout, pas juste un ami !', es: '¡Tráele a Quill lo contrario: el otro extremo, no solo un amigo!', pt: 'Traga pro Espinho o CONTRÁRIO — a outra ponta, não só um amigo!' },
+      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.', fr: 'Trouve le contraire !', es: '¡Encuentra lo contrario!', pt: 'Ache o contrário!' },
+      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?', fr: 'Quel est le contraire ?', es: '¿Cuál es lo contrario?', pt: 'Qual é o contrário?' },
+      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.', fr: 'Équilibre la balance !', es: '¡Equilibra la balanza!', pt: 'Equilibre a balança!' },
+      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?', fr: 'Fais l’action contraire !', es: '¡Haz la acción contraria!', pt: 'Faça a ação ao contrário!' },
+      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.', fr: 'Contraire, ou juste la même sorte ?', es: '¿Lo contrario o solo del mismo tipo?', pt: 'Contrário ou só do mesmo tipo?' },
+      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?', fr: 'Quelle paire n’est PAS des contraires ?', es: '¿Cuál pareja NO es de contrarios?', pt: 'Qual dupla NÃO é de contrários?' },
+      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!', fr: 'Retourne le monde à l’envers !', es: '¡Voltea el mundo al revés!', pt: 'Vire o mundo ao contrário!' }
     },
 
     init: function (api) {
@@ -544,7 +565,7 @@
            activity's word set: a future oddpair placing an i-/hi- word in the `b` slot would render
            the ungrammatical «Arriba y izquierda». GUARD: never put an i-/hi- word in a `b` slot
            (or teach this joiner the e-rule). */
-        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'fr' ? ' et ' : opLang === 'de' ? ' und ' : opLang === 'es' ? ' y ' : ' and ') + cap(pr.b.word));
+        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'fr' ? ' et ' : opLang === 'de' ? ' und ' : opLang === 'es' ? ' y ' : opLang === 'pt' ? ' e ' : ' and ') + cap(pr.b.word));
         card.innerHTML = gly(pr.a.glyph, 46) + '<span class="op-x">↔</span>' + gly(pr.b.glyph, 46);
         card.addEventListener('click', function () {
           if (self._resolved || self._nonConf[pi] || self._token !== tok) return;

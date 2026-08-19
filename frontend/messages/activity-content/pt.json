@@ -3360,6 +3360,29 @@
         "Eu uso as pistas do contexto para escolher o sentido certo.",
         "Eu aprendo palavras novas e leio com mais atenção."
       ]
+    },
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "O gaio Jasper adora explorar o mundo, e a bolsa dele vive cheia de coisas úteis para o dia a dia. A cada rodada, ele mostra uma situação bem comum — como ter sede, sentir a chuva chegando ou querer escrever um bilhete — e a criança escolhe a figura do objeto que usaria naquele momento. Para beber água, você usa o copo; na chuva, o guarda-chuva. É como ajudar o Jasper a arrumar a bolsa dele, uma situação de cada vez.",
+        "Aqui a criança pratica ligar cada palavra e cada objeto ao seu uso real, parando para pensar: para que serve mesmo essa coisa? Aos pouquinhos, ela vai ampliando o vocabulário com palavras do dia a dia — copo, meia, lápis, tesoura, ventilador. As figuras aparecem junto com as palavras escritas, então quem ainda está começando a ler encontra apoio nas imagens e vai reconhecendo as letras com mais confiança.",
+        "Esta atividade é totalmente gratuita, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança avança no seu próprio ritmo, do jeitinho dela. Quando ela erra, o Jasper dá uma dica gentil, sem nenhuma cobrança, para que ela tente de novo com tranquilidade. O conteúdo está alinhado à BNCC, no trabalho de \"Ampliação do vocabulário\" (Língua Portuguesa), pensado para o 1º ano."
+      ],
+      "practices": [
+        "Ligar cada objeto ao seu uso no dia a dia.",
+        "Pensar para que serve cada coisa.",
+        "Ampliar o vocabulário com palavras do dia a dia.",
+        "Escolher o objeto que combina com a situação."
+      ],
+      "howToPlay": [
+        "Leia a situação que o Jasper mostra.",
+        "Toque na figura do objeto que você usaria.",
+        "Toque em Verificar para ver se acertou."
+      ],
+      "learningGoals": [
+        "Eu sei para que serve cada objeto.",
+        "Eu escolho a coisa certa para cada situação.",
+        "Eu aprendo palavras novas do dia a dia."
+      ]
     }
   }
 }

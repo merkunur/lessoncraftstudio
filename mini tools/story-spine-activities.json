@@ -3,129 +3,741 @@
     "id": "story-spine.role.rl-k-3",
     "tool": "story-spine-activity",
     "task_template": "story-spine",
-    "alignment": { "framework": "CCSS", "code": "RL.K.3", "grade": "K", "strand": "Reading: Literature" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RL.K.3",
+      "grade": "K",
+      "strand": "Reading: Literature"
+    },
     "theme": null,
     "params": {
       "stories": {
-        "mitten": { "title": "The Lost Mitten", "panels": [
-          { "caption": "Bo the bunny hopped in the snow.", "glyphs": ["bunny", "snow"], "role": "setting" },
-          { "caption": "A red mitten slipped off by the tree.", "glyphs": ["tree", "mitten"], "role": "problem" },
-          { "caption": "A bird found it and called Bo back.", "glyphs": ["bird", "mitten"], "role": "solution" }
-        ] },
-        "carrot": { "title": "The Snatched Carrot", "panels": [
-          { "caption": "Millie the mouse had a carrot.", "glyphs": ["mouse", "carrot"], "role": "setting" },
-          { "caption": "A bird grabbed her carrot!", "glyphs": ["bird", "carrot"], "role": "problem" },
-          { "caption": "A friend got it back for her.", "glyphs": ["friend", "carrot"], "role": "solution" }
-        ] },
-        "picnic": { "title": "The Rainy Picnic", "panels": [
-          { "caption": "Two friends had a picnic.", "glyphs": ["friend", "basket"], "role": "setting" },
-          { "caption": "Then it rained on them.", "glyphs": ["rain", "friend"], "role": "problem" },
-          { "caption": "They ate under an umbrella.", "glyphs": ["umbrella", "friend"], "role": "solution" }
-        ] }
+        "mitten": {
+          "title": "The Lost Mitten",
+          "panels": [
+            {
+              "caption": "Bo the bunny hopped in the snow.",
+              "glyphs": [
+                "bunny",
+                "snow"
+              ],
+              "role": "setting"
+            },
+            {
+              "caption": "A red mitten slipped off by the tree.",
+              "glyphs": [
+                "tree",
+                "mitten"
+              ],
+              "role": "problem"
+            },
+            {
+              "caption": "A bird found it and called Bo back.",
+              "glyphs": [
+                "bird",
+                "mitten"
+              ],
+              "role": "solution"
+            }
+          ]
+        },
+        "carrot": {
+          "title": "The Snatched Carrot",
+          "panels": [
+            {
+              "caption": "Millie the mouse had a carrot.",
+              "glyphs": [
+                "mouse",
+                "carrot"
+              ],
+              "role": "setting"
+            },
+            {
+              "caption": "A bird grabbed her carrot!",
+              "glyphs": [
+                "bird",
+                "carrot"
+              ],
+              "role": "problem"
+            },
+            {
+              "caption": "A friend got it back for her.",
+              "glyphs": [
+                "friend",
+                "carrot"
+              ],
+              "role": "solution"
+            }
+          ]
+        },
+        "picnic": {
+          "title": "The Rainy Picnic",
+          "panels": [
+            {
+              "caption": "Two friends had a picnic.",
+              "glyphs": [
+                "friend",
+                "basket"
+              ],
+              "role": "setting"
+            },
+            {
+              "caption": "Then it rained on them.",
+              "glyphs": [
+                "rain",
+                "friend"
+              ],
+              "role": "problem"
+            },
+            {
+              "caption": "They ate under an umbrella.",
+              "glyphs": [
+                "umbrella",
+                "friend"
+              ],
+              "role": "solution"
+            }
+          ]
+        }
       },
       "rounds": [
-        { "id": "ds-mit-set",  "storyId": "mitten", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
-        { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
-        { "id": "ds-mit-sol",  "storyId": "mitten", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" },
-
-        { "id": "ds-car-set",  "storyId": "carrot", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
-        { "id": "ds-car-prob", "storyId": "carrot", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
-        { "id": "ds-car-sol",  "storyId": "carrot", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" },
-
-        { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Which part is THE START? (where the story begins)" },
-        { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Which part shows THE TROUBLE? (what goes wrong)" },
-        { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Which part is THE FIX? (how it gets better)" }
+        {
+          "id": "ds-mit-set",
+          "storyId": "mitten",
+          "role": "setting",
+          "prompt": "Which part is THE START? (where the story begins)"
+        },
+        {
+          "id": "ds-mit-prob",
+          "storyId": "mitten",
+          "role": "problem",
+          "prompt": "Which part shows THE TROUBLE? (what goes wrong)"
+        },
+        {
+          "id": "ds-mit-sol",
+          "storyId": "mitten",
+          "role": "solution",
+          "prompt": "Which part is THE FIX? (how it gets better)"
+        },
+        {
+          "id": "ds-car-set",
+          "storyId": "carrot",
+          "role": "setting",
+          "prompt": "Which part is THE START? (where the story begins)"
+        },
+        {
+          "id": "ds-car-prob",
+          "storyId": "carrot",
+          "role": "problem",
+          "prompt": "Which part shows THE TROUBLE? (what goes wrong)"
+        },
+        {
+          "id": "ds-car-sol",
+          "storyId": "carrot",
+          "role": "solution",
+          "prompt": "Which part is THE FIX? (how it gets better)"
+        },
+        {
+          "id": "ds-pic-set",
+          "storyId": "picnic",
+          "role": "setting",
+          "prompt": "Which part is THE START? (where the story begins)"
+        },
+        {
+          "id": "ds-pic-prob",
+          "storyId": "picnic",
+          "role": "problem",
+          "prompt": "Which part shows THE TROUBLE? (what goes wrong)"
+        },
+        {
+          "id": "ds-pic-sol",
+          "storyId": "picnic",
+          "role": "solution",
+          "prompt": "Which part is THE FIX? (how it gets better)"
+        }
       ],
       "storiesL10n": {
         "de": {
-          "mitten": { "title": "Der verlorene Handschuh", "panels": [
-            { "caption": "Bo das Häschen spielte im Schnee.", "glyphs": ["bunny", "snow"], "role": "setting" },
-            { "caption": "Am Baum verlor Bo einen Handschuh.", "glyphs": ["tree", "mitten"], "role": "problem" },
-            { "caption": "Ein Vogel brachte den Handschuh zurück.", "glyphs": ["bird", "mitten"], "role": "solution" }
-          ] },
-          "carrot": { "title": "Die gestohlene Möhre", "panels": [
-            { "caption": "Milli die Maus hatte eine Möhre.", "glyphs": ["mouse", "carrot"], "role": "setting" },
-            { "caption": "Ein Vogel schnappte sich die Möhre!", "glyphs": ["bird", "carrot"], "role": "problem" },
-            { "caption": "Ein Freund holte die Möhre zurück.", "glyphs": ["friend", "carrot"], "role": "solution" }
-          ] },
-          "picnic": { "title": "Das Picknick im Regen", "panels": [
-            { "caption": "Zwei Freunde packten den Picknickkorb.", "glyphs": ["friend", "basket"], "role": "setting" },
-            { "caption": "Plötzlich regnete es auf sie.", "glyphs": ["rain", "friend"], "role": "problem" },
-            { "caption": "Sie aßen unter einem Regenschirm.", "glyphs": ["umbrella", "friend"], "role": "solution" }
-          ] }
+          "mitten": {
+            "title": "Der verlorene Handschuh",
+            "panels": [
+              {
+                "caption": "Bo das Häschen spielte im Schnee.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Am Baum verlor Bo einen Handschuh.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Ein Vogel brachte den Handschuh zurück.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "carrot": {
+            "title": "Die gestohlene Möhre",
+            "panels": [
+              {
+                "caption": "Milli die Maus hatte eine Möhre.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Ein Vogel schnappte sich die Möhre!",
+                "glyphs": [
+                  "bird",
+                  "carrot"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Ein Freund holte die Möhre zurück.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "picnic": {
+            "title": "Das Picknick im Regen",
+            "panels": [
+              {
+                "caption": "Zwei Freunde packten den Picknickkorb.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Plötzlich regnete es auf sie.",
+                "glyphs": [
+                  "rain",
+                  "friend"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Sie aßen unter einem Regenschirm.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ],
+                "role": "solution"
+              }
+            ]
+          }
         },
         "fr": {
-          "mitten": { "title": "La moufle perdue", "panels": [
-            { "caption": "Bo le lapin saute dans la neige.", "glyphs": ["bunny", "snow"], "role": "setting" },
-            { "caption": "Près de l’arbre, Bo perd une moufle.", "glyphs": ["tree", "mitten"], "role": "problem" },
-            { "caption": "Un oiseau rapporte la moufle à Bo.", "glyphs": ["bird", "mitten"], "role": "solution" }
-          ] },
-          "carrot": { "title": "La carotte volée", "panels": [
-            { "caption": "Milli la souris a une carotte.", "glyphs": ["mouse", "carrot"], "role": "setting" },
-            { "caption": "Un oiseau attrape sa carotte !", "glyphs": ["bird", "carrot"], "role": "problem" },
-            { "caption": "Un ami rapporte la carotte à Milli.", "glyphs": ["friend", "carrot"], "role": "solution" }
-          ] },
-          "picnic": { "title": "Le pique-nique sous la pluie", "panels": [
-            { "caption": "Deux amis font un pique-nique.", "glyphs": ["friend", "basket"], "role": "setting" },
-            { "caption": "Puis la pluie tombe sur eux.", "glyphs": ["rain", "friend"], "role": "problem" },
-            { "caption": "Ils mangent sous un parapluie.", "glyphs": ["umbrella", "friend"], "role": "solution" }
-          ] }
+          "mitten": {
+            "title": "La moufle perdue",
+            "panels": [
+              {
+                "caption": "Bo le lapin saute dans la neige.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Près de l’arbre, Bo perd une moufle.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Un oiseau rapporte la moufle à Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "carrot": {
+            "title": "La carotte volée",
+            "panels": [
+              {
+                "caption": "Milli la souris a une carotte.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Un oiseau attrape sa carotte !",
+                "glyphs": [
+                  "bird",
+                  "carrot"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Un ami rapporte la carotte à Milli.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "picnic": {
+            "title": "Le pique-nique sous la pluie",
+            "panels": [
+              {
+                "caption": "Deux amis font un pique-nique.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Puis la pluie tombe sur eux.",
+                "glyphs": [
+                  "rain",
+                  "friend"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Ils mangent sous un parapluie.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ],
+                "role": "solution"
+              }
+            ]
+          }
         },
         "es": {
-          "mitten": { "title": "El guante perdido", "panels": [
-            { "caption": "Un día, Bo el conejo brincó en la nieve.", "glyphs": ["bunny", "snow"], "role": "setting" },
-            { "caption": "Se le cayó el guante rojo junto al árbol.", "glyphs": ["tree", "mitten"], "role": "problem" },
-            { "caption": "Un pájaro lo encontró y se lo devolvió a Bo.", "glyphs": ["bird", "mitten"], "role": "solution" }
-          ] },
-          "carrot": { "title": "La zanahoria robada", "panels": [
-            { "caption": "Millie la ratona tenía una zanahoria grande.", "glyphs": ["mouse", "carrot"], "role": "setting" },
-            { "caption": "¡Un pájaro le quitó la zanahoria!", "glyphs": ["bird", "carrot"], "role": "problem" },
-            { "caption": "Su amiga se la devolvió a Millie.", "glyphs": ["friend", "carrot"], "role": "solution" }
-          ] },
-          "picnic": { "title": "El día de campo bajo la lluvia", "panels": [
-            { "caption": "Dos amigos sacaron su canasta para el día de campo.", "glyphs": ["friend", "basket"], "role": "setting" },
-            { "caption": "De repente, empezó a llover sobre ellos.", "glyphs": ["rain", "friend"], "role": "problem" },
-            { "caption": "Se refugiaron bajo un paraguas grande.", "glyphs": ["umbrella", "friend"], "role": "solution" }
-          ] }
+          "mitten": {
+            "title": "El guante perdido",
+            "panels": [
+              {
+                "caption": "Un día, Bo el conejo brincó en la nieve.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Se le cayó el guante rojo junto al árbol.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Un pájaro lo encontró y se lo devolvió a Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "carrot": {
+            "title": "La zanahoria robada",
+            "panels": [
+              {
+                "caption": "Millie la ratona tenía una zanahoria grande.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "¡Un pájaro le quitó la zanahoria!",
+                "glyphs": [
+                  "bird",
+                  "carrot"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Su amiga se la devolvió a Millie.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "picnic": {
+            "title": "El día de campo bajo la lluvia",
+            "panels": [
+              {
+                "caption": "Dos amigos sacaron su canasta para el día de campo.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "De repente, empezó a llover sobre ellos.",
+                "glyphs": [
+                  "rain",
+                  "friend"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Se refugiaron bajo un paraguas grande.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ],
+                "role": "solution"
+              }
+            ]
+          }
+        },
+        "pt": {
+          "mitten": {
+            "title": "A luva perdida",
+            "panels": [
+              {
+                "caption": "O coelho Bento pula feliz na neve.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Perto da árvore, ele deixa cair a luva.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Um passarinho acha a luva e devolve.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "carrot": {
+            "title": "A cenoura da Mimi",
+            "panels": [
+              {
+                "caption": "A ratinha Mimi tem uma cenoura bem grande.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "De repente, um pássaro leva a cenoura embora.",
+                "glyphs": [
+                  "bird",
+                  "carrot"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Uma amiga traz a cenoura de volta.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ],
+                "role": "solution"
+              }
+            ]
+          },
+          "picnic": {
+            "title": "O piquenique dos amigos",
+            "panels": [
+              {
+                "caption": "Dois amigos abrem a cesta do piquenique.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ],
+                "role": "setting"
+              },
+              {
+                "caption": "Começa a chover forte em cima deles.",
+                "glyphs": [
+                  "rain",
+                  "friend"
+                ],
+                "role": "problem"
+              },
+              {
+                "caption": "Eles se abrigam embaixo do guarda-chuva.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ],
+                "role": "solution"
+              }
+            ]
+          }
         }
       },
       "roundsL10n": {
         "de": [
-          { "id": "ds-mit-set",  "storyId": "mitten", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
-          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
-          { "id": "ds-mit-sol",  "storyId": "mitten", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" },
-
-          { "id": "ds-car-set",  "storyId": "carrot", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
-          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
-          { "id": "ds-car-sol",  "storyId": "carrot", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" },
-
-          { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)" },
-          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)" },
-          { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)" }
+          {
+            "id": "ds-mit-set",
+            "storyId": "mitten",
+            "role": "setting",
+            "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)"
+          },
+          {
+            "id": "ds-mit-prob",
+            "storyId": "mitten",
+            "role": "problem",
+            "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)"
+          },
+          {
+            "id": "ds-mit-sol",
+            "storyId": "mitten",
+            "role": "solution",
+            "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)"
+          },
+          {
+            "id": "ds-car-set",
+            "storyId": "carrot",
+            "role": "setting",
+            "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)"
+          },
+          {
+            "id": "ds-car-prob",
+            "storyId": "carrot",
+            "role": "problem",
+            "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)"
+          },
+          {
+            "id": "ds-car-sol",
+            "storyId": "carrot",
+            "role": "solution",
+            "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)"
+          },
+          {
+            "id": "ds-pic-set",
+            "storyId": "picnic",
+            "role": "setting",
+            "prompt": "Welcher Teil ist der ANFANG? (wo die Geschichte beginnt)"
+          },
+          {
+            "id": "ds-pic-prob",
+            "storyId": "picnic",
+            "role": "problem",
+            "prompt": "Welcher Teil zeigt das PROBLEM? (was schiefgeht)"
+          },
+          {
+            "id": "ds-pic-sol",
+            "storyId": "picnic",
+            "role": "solution",
+            "prompt": "Welcher Teil ist die LÖSUNG? (wie es wieder gut wird)"
+          }
         ],
         "fr": [
-          { "id": "ds-mit-set",  "storyId": "mitten", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
-          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
-          { "id": "ds-mit-sol",  "storyId": "mitten", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" },
-
-          { "id": "ds-car-set",  "storyId": "carrot", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
-          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
-          { "id": "ds-car-sol",  "storyId": "carrot", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" },
-
-          { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
-          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
-          { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" }
+          {
+            "id": "ds-mit-set",
+            "storyId": "mitten",
+            "role": "setting",
+            "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)"
+          },
+          {
+            "id": "ds-mit-prob",
+            "storyId": "mitten",
+            "role": "problem",
+            "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)"
+          },
+          {
+            "id": "ds-mit-sol",
+            "storyId": "mitten",
+            "role": "solution",
+            "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)"
+          },
+          {
+            "id": "ds-car-set",
+            "storyId": "carrot",
+            "role": "setting",
+            "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)"
+          },
+          {
+            "id": "ds-car-prob",
+            "storyId": "carrot",
+            "role": "problem",
+            "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)"
+          },
+          {
+            "id": "ds-car-sol",
+            "storyId": "carrot",
+            "role": "solution",
+            "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)"
+          },
+          {
+            "id": "ds-pic-set",
+            "storyId": "picnic",
+            "role": "setting",
+            "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)"
+          },
+          {
+            "id": "ds-pic-prob",
+            "storyId": "picnic",
+            "role": "problem",
+            "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)"
+          },
+          {
+            "id": "ds-pic-sol",
+            "storyId": "picnic",
+            "role": "solution",
+            "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)"
+          }
         ],
         "es": [
-          { "id": "ds-mit-set", "storyId": "mitten", "role": "setting", "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)" },
-          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem", "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)" },
-          { "id": "ds-mit-sol", "storyId": "mitten", "role": "solution", "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)" },
-          { "id": "ds-car-set", "storyId": "carrot", "role": "setting", "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)" },
-          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem", "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)" },
-          { "id": "ds-car-sol", "storyId": "carrot", "role": "solution", "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)" },
-          { "id": "ds-pic-set", "storyId": "picnic", "role": "setting", "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)" },
-          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem", "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)" },
-          { "id": "ds-pic-sol", "storyId": "picnic", "role": "solution", "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)" }
+          {
+            "id": "ds-mit-set",
+            "storyId": "mitten",
+            "role": "setting",
+            "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)"
+          },
+          {
+            "id": "ds-mit-prob",
+            "storyId": "mitten",
+            "role": "problem",
+            "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)"
+          },
+          {
+            "id": "ds-mit-sol",
+            "storyId": "mitten",
+            "role": "solution",
+            "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)"
+          },
+          {
+            "id": "ds-car-set",
+            "storyId": "carrot",
+            "role": "setting",
+            "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)"
+          },
+          {
+            "id": "ds-car-prob",
+            "storyId": "carrot",
+            "role": "problem",
+            "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)"
+          },
+          {
+            "id": "ds-car-sol",
+            "storyId": "carrot",
+            "role": "solution",
+            "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)"
+          },
+          {
+            "id": "ds-pic-set",
+            "storyId": "picnic",
+            "role": "setting",
+            "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)"
+          },
+          {
+            "id": "ds-pic-prob",
+            "storyId": "picnic",
+            "role": "problem",
+            "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)"
+          },
+          {
+            "id": "ds-pic-sol",
+            "storyId": "picnic",
+            "role": "solution",
+            "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)"
+          }
+        ],
+        "pt": [
+          {
+            "id": "ds-mit-set",
+            "storyId": "mitten",
+            "role": "setting",
+            "prompt": "Qual parte é O COMEÇO? (onde a história começa)"
+          },
+          {
+            "id": "ds-mit-prob",
+            "storyId": "mitten",
+            "role": "problem",
+            "prompt": "Qual parte mostra O PROBLEMA? (o que dá errado)"
+          },
+          {
+            "id": "ds-mit-sol",
+            "storyId": "mitten",
+            "role": "solution",
+            "prompt": "Qual parte é a SOLUÇÃO? (como se resolve)"
+          },
+          {
+            "id": "ds-car-set",
+            "storyId": "carrot",
+            "role": "setting",
+            "prompt": "Qual parte é O COMEÇO? (onde a história começa)"
+          },
+          {
+            "id": "ds-car-prob",
+            "storyId": "carrot",
+            "role": "problem",
+            "prompt": "Qual parte mostra O PROBLEMA? (o que dá errado)"
+          },
+          {
+            "id": "ds-car-sol",
+            "storyId": "carrot",
+            "role": "solution",
+            "prompt": "Qual parte é a SOLUÇÃO? (como se resolve)"
+          },
+          {
+            "id": "ds-pic-set",
+            "storyId": "picnic",
+            "role": "setting",
+            "prompt": "Qual parte é O COMEÇO? (onde a história começa)"
+          },
+          {
+            "id": "ds-pic-prob",
+            "storyId": "picnic",
+            "role": "problem",
+            "prompt": "Qual parte mostra O PROBLEMA? (o que dá errado)"
+          },
+          {
+            "id": "ds-pic-sol",
+            "storyId": "picnic",
+            "role": "solution",
+            "prompt": "Qual parte é a SOLUÇÃO? (como se resolve)"
+          }
         ]
       }
     },
@@ -133,19 +745,22 @@
       "en": "story-parts-setting-problem-solution",
       "de": "aufbau-einer-geschichte-anfang-problem-loesung-klasse-1",
       "fr": "structure-du-recit-debut-probleme-solution-gs",
-      "es": "partes-de-un-cuento-inicio-problema-solucion-primer-grado"
+      "es": "partes-de-un-cuento-inicio-problema-solucion-primer-grado",
+      "pt": "partes-da-historia-comeco-problema-solucao"
     },
     "page_title": {
       "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)",
       "de": "Aufbau einer Geschichte: Anfang, Problem, Lösung – Klasse 1",
       "fr": "L’atelier des histoires de Dot — Début, problème, solution (GS)",
-      "es": "Partes de un cuento: inicio, problema y solución (1.º)"
+      "es": "Partes de un cuento: inicio, problema y solución (1.º)",
+      "pt": "Partes de uma história: começo, problema e solução"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3.",
       "de": "Übe kostenlos und interaktiv den Aufbau einer Geschichte: Ordne mit dem Drachen Dot Anfang, Problem & Lösung richtig zu. Erzählstruktur für Klasse 1 – jetzt starten!",
       "fr": "Dot le dragon raconte une petite histoire en trois images, lue à voix haute d’un simple appui sur le bouton son. À votre enfant ensuite de repérer quelle image est le début, laquelle montre le problème, et laquelle apporte la solution. Un premier jeu gratuit et interactif pour découvrir comment une histoire se construit — sans savoir encore lire.",
-      "es": "Lee un cuento en 3 imágenes e identifica sus partes: el inicio, el problema y la solución. Actividad gratis e interactiva de primer grado, sin registro."
+      "es": "Lee un cuento en 3 imágenes e identifica sus partes: el inicio, el problema y la solución. Actividad gratis e interactiva de primer grado, sin registro.",
+      "pt": "Ajude o draguinho Fabo na oficina de histórias! A cada rodada, ele mostra uma pequena história em três ceninhas embaralhadas e pede para você achar o começo, o problema ou a solução. É só ler as cenas e tocar na parte certa, com o botão 🔊 para ouvir tudo em voz alta. Grátis e sem cadastro, alinhado à BNCC, no campo da compreensão de textos literários — para os primeiros anos."
     },
     "kid_prompt_template": "story-spine"
   }

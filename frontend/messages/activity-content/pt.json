@@ -3452,6 +3452,29 @@
         "Eu sei para que serve cada parte de um livro informativo.",
         "Eu encontro o que preciso sem ler o livro inteiro."
       ]
+    },
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "A lagartinha Bea tem duas estantes cheias de livros e adora arrumar tudo direitinho. Numa estante ficam as histórias inventadas, como \"O dragão que não sabia dormir\"; na outra ficam os livros de verdade, como \"Tudo sobre os insetos\". A Bea pede uma ajudinha: entre três capas, a criança precisa achar a história ou o livro de verdade. E o melhor é que dá para descobrir só olhando a capa — não precisa ler o livro inteiro para saber que tipo de livro é aquele.",
+        "Nesta atividade, a criança percebe que os livros vêm em tipos diferentes: uns contam histórias inventadas e outros ensinam coisas reais, e cada um tem o seu jeitinho. Para reconhecer o tipo, ela usa as pistas da capa: \"era uma vez\", bichos que falam e personagens de faz de conta apontam para uma história; \"Tudo sobre…\", \"Como…?\" e coisas de verdade apontam para um livro informativo. É um passo importante para começar a ler com esperteza — saber que tipo de livro está na mão ajuda a criança a entender melhor e a escolher os livros de que mais gosta.",
+        "A atividade é totalmente grátis, sem cadastro e sem login, e não tem cronômetro, pontuação nem competição — cada criança vai no seu ritmo, sem pressa e sem medo de errar. Quando a resposta não é a certa, a Bea dá uma dica gentil e convida a tentar de novo, num clima leve e acolhedor. O trabalho de leitura segue a BNCC para o 1º ano: reconhecer o tipo de livro, percebendo se é uma história inventada ou um livro de verdade."
+      ],
+      "practices": [
+        "Diferenciar uma história inventada de um livro de verdade.",
+        "Usar as pistas da capa para reconhecer o tipo de livro.",
+        "Perceber que cada tipo de livro tem um jeito e uma finalidade.",
+        "Desenvolver o gosto e a autonomia na escolha de livros."
+      ],
+      "howToPlay": [
+        "Leia a capa de cada livro: o título e o pedacinho de texto.",
+        "Procure as pistas — \"era uma vez\" e bichos que falam são de história; \"Tudo sobre…\" e coisas de verdade são de livro informativo.",
+        "Toque no livro certo e veja a Bea comemorar com você!"
+      ],
+      "learningGoals": [
+        "Eu sei diferenciar uma história de um livro de verdade.",
+        "Eu uso as pistas da capa para descobrir o tipo do livro.",
+        "Eu escolho os meus livros sabendo que tipo de livro eu quero ler."
+      ]
     }
   }
 }

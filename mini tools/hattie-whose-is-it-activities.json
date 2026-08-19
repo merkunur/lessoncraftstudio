@@ -3,35 +3,222 @@
     "id": "hattie-whose-is-it.possessive.l-1-1-b",
     "tool": "hattie-whose-is-it-activity",
     "task_template": "possessive",
-    "alignment": { "framework": "CCSS", "code": "L.1.1.b", "grade": "1", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.1.1.b",
+      "grade": "1",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "dog", "band": 1, "noun": "dog", "thing": "bone", "slot": 0 },
-        { "id": "cat", "band": 1, "noun": "cat", "thing": "ball", "slot": 1 },
-        { "id": "bird", "band": 1, "noun": "bird", "thing": "nest", "slot": 2 },
-        { "id": "girl", "band": 2, "noun": "girl", "thing": "hat", "slot": 0 },
-        { "id": "boy", "band": 2, "noun": "boy", "thing": "kite", "slot": 1 },
-        { "id": "duck", "band": 2, "noun": "duck", "thing": "egg", "slot": 2 },
-        { "id": "king", "band": 3, "noun": "king", "thing": "crown", "slot": 0 },
-        { "id": "frog", "band": 3, "noun": "frog", "thing": "log", "slot": 1 }
+        {
+          "id": "dog",
+          "band": 1,
+          "noun": "dog",
+          "thing": "bone",
+          "slot": 0
+        },
+        {
+          "id": "cat",
+          "band": 1,
+          "noun": "cat",
+          "thing": "ball",
+          "slot": 1
+        },
+        {
+          "id": "bird",
+          "band": 1,
+          "noun": "bird",
+          "thing": "nest",
+          "slot": 2
+        },
+        {
+          "id": "girl",
+          "band": 2,
+          "noun": "girl",
+          "thing": "hat",
+          "slot": 0
+        },
+        {
+          "id": "boy",
+          "band": 2,
+          "noun": "boy",
+          "thing": "kite",
+          "slot": 1
+        },
+        {
+          "id": "duck",
+          "band": 2,
+          "noun": "duck",
+          "thing": "egg",
+          "slot": 2
+        },
+        {
+          "id": "king",
+          "band": 3,
+          "noun": "king",
+          "thing": "crown",
+          "slot": 0
+        },
+        {
+          "id": "frog",
+          "band": 3,
+          "noun": "frog",
+          "thing": "log",
+          "slot": 1
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "anna", "band": 1, "noun": "Anna", "thing": "Ball",        "slot": 0 },
-          { "id": "ben",  "band": 1, "noun": "Ben",  "thing": "Roller",      "slot": 1 },
-          { "id": "papa", "band": 1, "noun": "Papa", "thing": "Auto",        "slot": 2 },
-          { "id": "mia",  "band": 2, "noun": "Mia",  "thing": "Buch",        "slot": 0 },
-          { "id": "tom",  "band": 2, "noun": "Tom",  "thing": "Mütze",       "slot": 1 },
-          { "id": "oma",  "band": 2, "noun": "Oma",  "thing": "Brille",      "slot": 2 },
-          { "id": "lina", "band": 3, "noun": "Lina", "thing": "Schultasche", "slot": 0 },
-          { "id": "emil", "band": 3, "noun": "Emil", "thing": "Fahrrad",     "slot": 1 }
+          {
+            "id": "anna",
+            "band": 1,
+            "noun": "Anna",
+            "thing": "Ball",
+            "slot": 0
+          },
+          {
+            "id": "ben",
+            "band": 1,
+            "noun": "Ben",
+            "thing": "Roller",
+            "slot": 1
+          },
+          {
+            "id": "papa",
+            "band": 1,
+            "noun": "Papa",
+            "thing": "Auto",
+            "slot": 2
+          },
+          {
+            "id": "mia",
+            "band": 2,
+            "noun": "Mia",
+            "thing": "Buch",
+            "slot": 0
+          },
+          {
+            "id": "tom",
+            "band": 2,
+            "noun": "Tom",
+            "thing": "Mütze",
+            "slot": 1
+          },
+          {
+            "id": "oma",
+            "band": 2,
+            "noun": "Oma",
+            "thing": "Brille",
+            "slot": 2
+          },
+          {
+            "id": "lina",
+            "band": 3,
+            "noun": "Lina",
+            "thing": "Schultasche",
+            "slot": 0
+          },
+          {
+            "id": "emil",
+            "band": 3,
+            "noun": "Emil",
+            "thing": "Fahrrad",
+            "slot": 1
+          }
+        ],
+        "pt": [
+          {
+            "id": "ana",
+            "band": 1,
+            "noun": "Ana",
+            "ownerG": "f",
+            "thing": "bola",
+            "thingG": "f",
+            "slot": 0
+          },
+          {
+            "id": "teo",
+            "band": 1,
+            "noun": "Téo",
+            "ownerG": "m",
+            "thing": "pião",
+            "thingG": "m",
+            "slot": 1
+          },
+          {
+            "id": "bia",
+            "band": 1,
+            "noun": "Bia",
+            "ownerG": "f",
+            "thing": "pipa",
+            "thingG": "f",
+            "slot": 2
+          },
+          {
+            "id": "leo",
+            "band": 2,
+            "noun": "Léo",
+            "ownerG": "m",
+            "thing": "livro",
+            "thingG": "m",
+            "slot": 0
+          },
+          {
+            "id": "gui",
+            "band": 2,
+            "noun": "Gui",
+            "ownerG": "m",
+            "thing": "tênis",
+            "thingG": "m",
+            "slot": 1
+          },
+          {
+            "id": "lia",
+            "band": 2,
+            "noun": "Lia",
+            "ownerG": "f",
+            "thing": "mochila",
+            "thingG": "f",
+            "slot": 2
+          },
+          {
+            "id": "caio",
+            "band": 3,
+            "noun": "Caio",
+            "ownerG": "m",
+            "thing": "chapéu",
+            "thingG": "m",
+            "slot": 0
+          },
+          {
+            "id": "nina",
+            "band": 3,
+            "noun": "Nina",
+            "ownerG": "f",
+            "thing": "boneca",
+            "thingG": "f",
+            "slot": 1
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "hattie-whose-is-it", "de": "genitiv-s-bei-namen-apostroph" },
-    "page_title": { "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)", "de": "Genitiv-s bei Namen richtig schreiben – Annas oder Anna's?" },
-    "page_intro": { "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b.", "de": "Kostenlos & interaktiv: Dein Kind übt in der Grundschule das Genitiv-s bei Namen – „Annas Ball“, nicht „Anna's“. Ohne Zeitdruck, ohne Punkte, zum Vorlesen." },
+    "slug": {
+      "en": "hattie-whose-is-it",
+      "de": "genitiv-s-bei-namen-apostroph",
+      "pt": "de-quem-e-do-ou-da"
+    },
+    "page_title": {
+      "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)",
+      "de": "Genitiv-s bei Namen richtig schreiben – Annas oder Anna's?",
+      "pt": "De quem é? Do ou da que combina com o dono — 2º ano"
+    },
+    "page_intro": {
+      "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b.",
+      "de": "Kostenlos & interaktiv: Dein Kind übt in der Grundschule das Genitiv-s bei Namen – „Annas Ball“, nicht „Anna's“. Ohne Zeitdruck, ohne Punkte, zum Vorlesen.",
+      "pt": "No acha-e-perde da Tuca, a ouriça, cada criança perdeu uma coisa e precisa achar o dono. Você escolhe do ou da conforme o dono ser menino ou menina. Uma atividade de gramática alinhada à BNCC, para o 2º ano."
+    },
     "kid_prompt_template": "Tap the word that shows ONE owner owns it."
   }
 ]

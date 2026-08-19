@@ -3843,6 +3843,29 @@
         "Reconhecer qual desenho mostra cada parte do texto.",
         "Ganhar confiança na leitura com apoio das imagens."
       ]
+    },
+    "hattie-whose-is-it.possessive.l-1-1-b": {
+      "about": [
+        "No acha-e-perde da Tuca, a ouriça, sempre aparece uma coisa perdida — uma bola, um pião, uma mochila — e alguém está procurando.",
+        "A criança olha de quem é aquela coisa e escolhe o pedacinho certo: do ou da, aquele que combina com o dono.",
+        "É um jeito leve e concreto de perceber que a gente diz da para menina e do para menino, sempre pensando em de quem é."
+      ],
+      "practices": [
+        "Escolher entre do e da conforme o dono ser menino ou menina.",
+        "Perceber que da e do carregam a ideia de posse — de quem é aquela coisa.",
+        "Diferenciar da/do (posse) de na/no, que não mostram o dono.",
+        "Ligar o nome do dono ao pedacinho que combina com ele."
+      ],
+      "howToPlay": [
+        "A Tuca mostra o que se perdeu e pergunta: de quem é?",
+        "Aparecem três cartões; você toca no que combina com o dono — do para menino, da para menina.",
+        "Se precisar, a Tuca dá uma dica gentil e você tenta de novo, sem pressa."
+      ],
+      "learningGoals": [
+        "Usar do e da combinando com o gênero do dono — menino ou menina.",
+        "Entender que do e da respondem de quem é, mostrando posse.",
+        "Construir essa noção de gramática de um jeito tranquilo, sem relógio nem placar, como propõe a BNCC (Base Nacional Comum Curricular) para os anos iniciais."
+      ]
     }
   }
 }

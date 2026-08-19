@@ -23,7 +23,7 @@
      inclusive-ize to «Autor(a)»: parentheses + a morpheme to decode would land on the
      response surface, which is what sets this activity's grade. The NEM Igualdad-de-género
      eje is honoured in the parent prose instead. */
-  var LABEL = { en: { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' }, de: { author: 'Autor', illustrator: 'Illustrator', reader: 'Leser' }, fr: { author: 'Auteur', illustrator: 'Illustrateur', reader: 'Lecteur' }, es: { author: 'Autor', illustrator: 'Ilustrador', reader: 'Lector' } };
+  var LABEL = { en: { author: 'Author', illustrator: 'Illustrator', reader: 'Reader' }, de: { author: 'Autor', illustrator: 'Illustrator', reader: 'Leser' }, fr: { author: 'Auteur', illustrator: 'Illustrateur', reader: 'Lecteur' }, es: { author: 'Autor', illustrator: 'Ilustrador', reader: 'Lector' }, pt: { author: 'Autor', illustrator: 'Ilustrador', reader: 'Leitor' } };
   var LANG = 'en';
   function label(role) { return (LABEL[LANG] && LABEL[LANG][role]) || LABEL.en[role]; }
 
@@ -31,13 +31,13 @@
     /* es→es-MX in BOTH arms: bare LANG + the en-US fallback default would speak
        «Ilustrador» in an American English voice. Third engine with this defect
        (#84 author-purpose, #85 juniper, #86 here) — check every engine's call site. */
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function octoSVG() {
-    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Inky, der Tintenfisch' : LANG === 'fr' ? 'Inky la pieuvre' : LANG === 'es' ? 'Inky el pulpo' : 'Inky the octopus') + '">' +
+    return '<svg class="ibw-oct-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Inky, der Tintenfisch' : LANG === 'fr' ? 'Inky la pieuvre' : LANG === 'es' ? 'Inky el pulpo' : LANG === 'pt' ? 'Tinoco, o polvo' : 'Inky the octopus') + '">' +
       '<circle cx="50" cy="42" r="22" fill="#8E6FC4"/>' +                          /* head */
       '<circle cx="43" cy="40" r="3" fill="#fff"/><circle cx="57" cy="40" r="3" fill="#fff"/>' +
       '<circle cx="43" cy="40" r="1.5" fill="#2A2A35"/><circle cx="57" cy="40" r="1.5" fill="#2A2A35"/>' +
@@ -73,18 +73,22 @@
          §A.13.54: anchors are Toca/Mira (tú), «Alguien» (invariant), «Ya sabes» (verb) and
          role nouns naming the BOOK's people — never the child. A naive `win` like
          «¡Muy bien, campeón!» would break gender-invariance. */
-      title: { en: "Inky's Book Workshop", de: 'Inkys Buchwerkstatt', fr: 'L’atelier de livres d’Inky', es: 'El taller de libros de Inky' },
-      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.', de: 'Tippe, wessen Aufgabe das ist: Autor, Illustrator oder Leser.', fr: 'Touche à qui est ce travail : auteur, illustrateur ou lecteur.', es: 'Toca quién hace ese trabajo: autor, ilustrador o lector.' },
-      promptWrote: { en: 'Someone WROTE the words. Whose job is that?', de: 'Jemand hat die Wörter GESCHRIEBEN. Wessen Aufgabe ist das?', fr: 'Quelqu’un a ÉCRIT les mots. À qui est ce travail ?', es: 'Alguien ESCRIBIÓ las palabras. ¿Quién hace ese trabajo?' },
-      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?', de: 'Jemand hat die Bilder GEZEICHNET. Wessen Aufgabe ist das?', fr: 'Quelqu’un a DESSINÉ les images. À qui est ce travail ?', es: 'Alguien DIBUJÓ las imágenes. ¿Quién hace ese trabajo?' },
-      promptRead: { en: 'Someone is READING the book. Whose job is that?', de: 'Jemand LIEST das Buch. Wessen Aufgabe ist das?', fr: 'Quelqu’un LIT le livre. À qui est ce travail ?', es: 'Alguien está LEYENDO el libro. ¿Quién hace ese trabajo?' },
-      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!', de: 'Jedes Buch hat einen Autor, einen Illustrator – und einen Leser!', fr: 'Chaque livre a un auteur, un illustrateur — et un lecteur !', es: '¡Cada libro tiene un autor, un ilustrador… y un lector!' },
-      capWrote: { en: 'Writing the words ✍️', de: 'Die Wörter schreiben ✍️', fr: 'Écrire les mots ✍️', es: 'Escribir las palabras ✍️' },
-      capDrew: { en: 'Drawing the pictures 🎨', de: 'Die Bilder zeichnen 🎨', fr: 'Dessiner les images 🎨', es: 'Dibujar las imágenes 🎨' },
-      capRead: { en: 'Reading the book 📖', de: 'Das Buch lesen 📖', fr: 'Lire le livre 📖', es: 'Leer el libro 📖' },
-      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.', de: 'Der Autor schreibt die Wörter. Der Illustrator zeichnet die Bilder. Der Leser liest es.', fr: 'L’auteur écrit les mots. L’illustrateur dessine les images. Le lecteur le lit.', es: 'El autor escribe las palabras. El ilustrador dibuja las imágenes. El lector lee el libro.' },
-      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?', de: 'Schau noch mal – wer SCHREIBT, wer ZEICHNET, wer LIEST?', fr: 'Regarde encore — qui ÉCRIT, qui DESSINE, qui LIT ?', es: 'Mira otra vez: ¿quién ESCRIBE, quién DIBUJA, quién LEE?' },
-      win: { en: 'Yes! You know the job. 🐙', de: 'Ja! Du kennst die Aufgabe. 🐙', fr: 'Oui ! Tu connais le travail. 🐙', es: '¡Sí! Ya sabes quién hace cada trabajo. 🐙' }
+      /* pt: character renamed «Inky»→«Tinoco» (operator-ruled — «Inky» is opaque to a BR kid, the
+         ink→tinta pun invisible; «Tinoco» is built on tinta/ink, reads phonetically, fits o polvo,
+         distinct from Espinho/Marujo/Fagulha). pt-only divergence. LABEL roles are FORMAL (§A.13.61,
+         RL.K.6 is a naming standard): Autor/Ilustrador/Leitor. win anchors on fixed «o trabalho». */
+      title: { en: "Inky's Book Workshop", de: 'Inkys Buchwerkstatt', fr: 'L’atelier de livres d’Inky', es: 'El taller de libros de Inky', pt: 'A oficina de livros do Tinoco' },
+      instruction: { en: 'Tap whose job it is: author, illustrator, or reader.', de: 'Tippe, wessen Aufgabe das ist: Autor, Illustrator oder Leser.', fr: 'Touche à qui est ce travail : auteur, illustrateur ou lecteur.', es: 'Toca quién hace ese trabajo: autor, ilustrador o lector.', pt: 'Toque em quem faz esse trabalho: autor, ilustrador ou leitor.' },
+      promptWrote: { en: 'Someone WROTE the words. Whose job is that?', de: 'Jemand hat die Wörter GESCHRIEBEN. Wessen Aufgabe ist das?', fr: 'Quelqu’un a ÉCRIT les mots. À qui est ce travail ?', es: 'Alguien ESCRIBIÓ las palabras. ¿Quién hace ese trabajo?', pt: 'Alguém ESCREVEU as palavras. De quem é esse trabalho?' },
+      promptDrew: { en: 'Someone DREW the pictures. Whose job is that?', de: 'Jemand hat die Bilder GEZEICHNET. Wessen Aufgabe ist das?', fr: 'Quelqu’un a DESSINÉ les images. À qui est ce travail ?', es: 'Alguien DIBUJÓ las imágenes. ¿Quién hace ese trabajo?', pt: 'Alguém DESENHOU as figuras. De quem é esse trabalho?' },
+      promptRead: { en: 'Someone is READING the book. Whose job is that?', de: 'Jemand LIEST das Buch. Wessen Aufgabe ist das?', fr: 'Quelqu’un LIT le livre. À qui est ce travail ?', es: 'Alguien está LEYENDO el libro. ¿Quién hace ese trabajo?', pt: 'Alguém está LENDO o livro. De quem é esse trabalho?' },
+      inkyIntro: { en: 'Every book has an author, an illustrator — and a reader!', de: 'Jedes Buch hat einen Autor, einen Illustrator – und einen Leser!', fr: 'Chaque livre a un auteur, un illustrateur — et un lecteur !', es: '¡Cada libro tiene un autor, un ilustrador… y un lector!', pt: 'Todo livro tem um autor, um ilustrador… e um leitor!' },
+      capWrote: { en: 'Writing the words ✍️', de: 'Die Wörter schreiben ✍️', fr: 'Écrire les mots ✍️', es: 'Escribir las palabras ✍️', pt: 'Escrever as palavras ✍️' },
+      capDrew: { en: 'Drawing the pictures 🎨', de: 'Die Bilder zeichnen 🎨', fr: 'Dessiner les images 🎨', es: 'Dibujar las imágenes 🎨', pt: 'Desenhar as figuras 🎨' },
+      capRead: { en: 'Reading the book 📖', de: 'Das Buch lesen 📖', fr: 'Lire le livre 📖', es: 'Leer el libro 📖', pt: 'Ler o livro 📖' },
+      hintPick: { en: 'Author writes the words. Illustrator draws the pictures. Reader reads it.', de: 'Der Autor schreibt die Wörter. Der Illustrator zeichnet die Bilder. Der Leser liest es.', fr: 'L’auteur écrit les mots. L’illustrateur dessine les images. Le lecteur le lit.', es: 'El autor escribe las palabras. El ilustrador dibuja las imágenes. El lector lee el libro.', pt: 'O autor escreve as palavras. O ilustrador desenha as figuras. O leitor lê o livro.' },
+      hintWrong: { en: 'Look again — who WRITES, who DRAWS, who READS?', de: 'Schau noch mal – wer SCHREIBT, wer ZEICHNET, wer LIEST?', fr: 'Regarde encore — qui ÉCRIT, qui DESSINE, qui LIT ?', es: 'Mira otra vez: ¿quién ESCRIBE, quién DIBUJA, quién LEE?', pt: 'Olhe de novo — quem ESCREVE, quem DESENHA, quem LÊ?' },
+      win: { en: 'Yes! You know the job. 🐙', de: 'Ja! Du kennst die Aufgabe. 🐙', fr: 'Oui ! Tu connais le travail. 🐙', es: '¡Sí! Ya sabes quién hace cada trabajo. 🐙', pt: 'Isso! Você sabe de quem é o trabalho. 🐙' }
     },
     defaults: {},
 

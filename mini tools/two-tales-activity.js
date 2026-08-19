@@ -63,6 +63,18 @@
       reSame: 'Busca lo que pasó en LOS DOS cuentos.',
       reDiff: 'Busca lo que pasó en UN SOLO cuento.',
       choices: 'Opciones:'
+    },
+    /* pt-BR. gold/silver = the two moons (Lua dourada/prateada), matching the two-moons title.
+       §A.13.54: win/nudge anchored on «as histórias» (fixed feminine). você-form; BR "…". */
+    pt: {
+      qSame: 'O que é IGUAL nas duas histórias?',
+      qDiff: 'O que acontece em só UMA história?',
+      win: 'Isso! {note}', winNote: 'Você comparou as duas histórias!',
+      hear: '🔊 Ouvir as duas histórias',
+      gold: 'Lua dourada', silver: 'Lua prateada',
+      reSame: 'Olhe de novo — leia as duas histórias. O que é IGUAL nas duas?',
+      reDiff: 'Olhe de novo — leia as duas histórias. O que acontece em só UMA?',
+      choices: 'Opções:'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -102,9 +114,9 @@
   var TwoTalesActivity = {
     id: 'two-tales-activity',
     strings: {
-      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires', es: 'Dos lunas, dos cuentos' },
-      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !', es: '¡Lee los dos cuentos con Barba de Musgo y compara lo que les pasó a los personajes!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}' }
+      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires', es: 'Dos lunas, dos cuentos', pt: 'Duas luas, duas histórias' },
+      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !', es: '¡Lee los dos cuentos con Barba de Musgo y compara lo que les pasó a los personajes!', pt: 'Leia as duas histórias com a Barba de Musgo e compare o que aconteceu com os personagens!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}' }
     },
 
     init: function (api) {
@@ -227,7 +239,7 @@
       hear.addEventListener('click', function () {
         var a = self._stories[round.aId] || {}, b = self._stories[round.bId] || {};
         var t = txt('gold') + '. ' + (a.summary || '') + ' ' + txt('silver') + '. ' + (b.summary || '');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.9 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
 

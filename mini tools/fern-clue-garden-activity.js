@@ -20,13 +20,13 @@
   var LANG = 'en';
 
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function fawnSVG() {
-    return '<svg class="fcg-fawn-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Fern le faon' : LANG === 'de' ? 'Fern, das Rehkitz' : LANG === 'es' ? 'Fern el cervatillo' : 'Fern the fawn') + '">' +
+    return '<svg class="fcg-fawn-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Fern le faon' : LANG === 'de' ? 'Fern, das Rehkitz' : LANG === 'es' ? 'Fern el cervatillo' : LANG === 'pt' ? 'Fern, o cervo' : 'Fern the fawn') + '">' +
       '<ellipse cx="50" cy="62" rx="22" ry="19" fill="#C98A4B"/>' +                /* body */
       '<ellipse cx="50" cy="68" rx="13" ry="11" fill="#EACBA0"/>' +               /* belly */
       '<circle cx="58" cy="42" r="11" fill="#C98A4B"/>' +                          /* head */
@@ -43,13 +43,13 @@
     id: 'fern-clue-garden-activity',
 
     strings: {
-      title: { en: "Fern's Clue Garden", de: 'Ferns Rätselgarten', fr: 'Le jardin d’indices de Fern', es: 'El jardín de acertijos de Fern' },
-      prompt: { en: 'What does the word mean here?', de: 'Was bedeutet das Wort hier?', fr: 'Que veut dire le mot ici ?', es: '¿Qué significa la palabra aquí?' },
-      fernIntro: { en: 'Read the whole sentence — the clues are around the word!', de: 'Hallo, ich bin Fern! Lies den ganzen Satz – er verrät dir wie ein kleines Rätsel, welche Bedeutung gemeint ist.', fr: 'Lis toute la phrase — les indices sont autour du mot !', es: '¡Hola, soy Fern! Lee toda la oración: es como un pequeño acertijo que te dice cuál es el significado correcto.' },
-      theAsk: { en: 'What does "{word}" mean in this sentence?', de: 'Was bedeutet „{word}“ in diesem Satz?', fr: 'Que veut dire « {word} » dans cette phrase ?', es: '¿Qué significa «{word}» en esta oración?' },
-      hintPick: { en: 'Tap the meaning that fits the sentence!', de: 'Lies den Satz ganz genau und tippe dann die passende Bedeutung an.', fr: 'Tape la définition qui va avec la phrase !', es: 'Lee la oración con calma y toca el significado que le queda bien.' },
-      hintWrong: { en: "That can be a meaning, but not here — read the sentence again.", de: 'Das kann das Wort zwar auch bedeuten – aber hier nicht. Lies den Satz noch einmal in Ruhe.', fr: 'Ce mot peut vouloir dire ça, mais pas ici — relis la phrase.', es: 'Esa palabra también puede significar eso… pero aquí no. Vuelve a leer la oración sin prisa.' },
-      win: { en: 'Yes! The sentence shows what it means. 🌿', de: 'Ja! Genau diese Bedeutung zeigt der Satz.', fr: 'Oui ! La phrase montre ce que le mot veut dire. 🌿', es: '¡Sí! Ese es el significado que muestra la oración.' }
+      title: { en: "Fern's Clue Garden", de: 'Ferns Rätselgarten', fr: 'Le jardin d’indices de Fern', es: 'El jardín de acertijos de Fern', pt: 'O jardim de pistas da Fern' },
+      prompt: { en: 'What does the word mean here?', de: 'Was bedeutet das Wort hier?', fr: 'Que veut dire le mot ici ?', es: '¿Qué significa la palabra aquí?', pt: 'O que a palavra quer dizer aqui?' },
+      fernIntro: { en: 'Read the whole sentence — the clues are around the word!', de: 'Hallo, ich bin Fern! Lies den ganzen Satz – er verrät dir wie ein kleines Rätsel, welche Bedeutung gemeint ist.', fr: 'Lis toute la phrase — les indices sont autour du mot !', es: '¡Hola, soy Fern! Lee toda la oración: es como un pequeño acertijo que te dice cuál es el significado correcto.', pt: 'Leia a frase toda — as pistas estão em volta da palavra!' },
+      theAsk: { en: 'What does "{word}" mean in this sentence?', de: 'Was bedeutet „{word}“ in diesem Satz?', fr: 'Que veut dire « {word} » dans cette phrase ?', es: '¿Qué significa «{word}» en esta oración?', pt: 'O que “{word}” quer dizer nesta frase?' },
+      hintPick: { en: 'Tap the meaning that fits the sentence!', de: 'Lies den Satz ganz genau und tippe dann die passende Bedeutung an.', fr: 'Tape la définition qui va avec la phrase !', es: 'Lee la oración con calma y toca el significado que le queda bien.', pt: 'Toque no sentido que combina com a frase!' },
+      hintWrong: { en: "That can be a meaning, but not here — read the sentence again.", de: 'Das kann das Wort zwar auch bedeuten – aber hier nicht. Lies den Satz noch einmal in Ruhe.', fr: 'Ce mot peut vouloir dire ça, mais pas ici — relis la phrase.', es: 'Esa palabra también puede significar eso… pero aquí no. Vuelve a leer la oración sin prisa.', pt: 'Essa palavra também pode ter esse sentido… mas aqui não. Leia a frase de novo.' },
+      win: { en: 'Yes! The sentence shows what it means. 🌿', de: 'Ja! Genau diese Bedeutung zeigt der Satz.', fr: 'Oui ! La phrase montre ce que le mot veut dire. 🌿', es: '¡Sí! Ese es el significado que muestra la oración.', pt: 'Isso! A frase mostra o sentido certo. 🌿' }
     },
     defaults: {},
 
@@ -80,7 +80,7 @@
 
       var sent = api.el('div', 'fcg-sent');
       var txt = api.el('span', 'fcg-senttxt'); txt.innerHTML = highlight(v.sentence, v.word); sent.appendChild(txt);
-      var sp = api.el('button', 'fcg-spk'); sp.type = 'button'; sp.setAttribute('aria-label', (LANG === 'fr' ? 'écouter la phrase' : LANG === 'de' ? 'Satz anhören' : LANG === 'es' ? 'escuchar la oración' : 'hear the sentence')); sp.textContent = '🔊';
+      var sp = api.el('button', 'fcg-spk'); sp.type = 'button'; sp.setAttribute('aria-label', (LANG === 'fr' ? 'écouter la phrase' : LANG === 'de' ? 'Satz anhören' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : 'hear the sentence')); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.sentence); }); sent.appendChild(sp);
       root.appendChild(sent);
 

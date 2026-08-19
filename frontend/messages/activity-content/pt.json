@@ -3636,6 +3636,29 @@
         "Eu sei que, de cima, as coisas parecem pequenininhas e distantes.",
         "Eu sei que, lá embaixo, pertinho da água, as coisas parecem enormes e bem perto."
       ]
+    },
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "No museu de temas da pega Prata, cada sala guarda um só assunto. Uma placa avisa o tema logo na entrada — por exemplo, \"Tema: sapos\" — e ali dentro ficam quatro frases curtas e verdadeiras. Três combinam com o tema da sala. Mas uma delas entrou na sala errada: ela também é verdadeira, só que fala de outra coisa, como \"A água do lago é fria\". A criança toca na frase que não pertence àquela sala.",
+        "Perceber a frase que fugiu do assunto treina uma habilidade importante da escrita: manter o foco no tema. Quando escrevemos, tudo precisa combinar com a ideia principal. O detalhe esperto desta atividade é que a frase intrusa não está errada — ela é verdadeira. Isso mostra que uma frase pode ser correta e, ainda assim, não caber no assunto. Assim, a criança aprende a olhar para o sentido, e não só para uma palavra que se repete.",
+        "A atividade é gratuita e não pede cadastro. Não há relógio, pontos nem competição — cada criança avança no seu ritmo, sem pressa e sem medo de errar. O botão \"🔊 Ouvir\" lê as frases em voz alta, ajudando quem ainda está aprendendo a ler. O trabalho segue a BNCC, na área de produção de textos, apoiando desde os primeiros anos a ideia de manter o foco no tema."
+      ],
+      "practices": [
+        "Reconhecer o tema (o assunto) de um grupo de frases.",
+        "Perceber quando uma frase foge do assunto da sala.",
+        "Entender que uma frase pode ser verdadeira e, mesmo assim, não combinar com o tema.",
+        "Prestar atenção no sentido das frases, e não só nas palavras repetidas."
+      ],
+      "howToPlay": [
+        "Leia a placa e descubra o tema da sala.",
+        "Leia as quatro frases (ou toque em \"🔊 Ouvir\" para escutar).",
+        "Toque na frase que entrou na sala errada."
+      ],
+      "learningGoals": [
+        "Eu consigo descobrir o tema de um grupo de frases.",
+        "Eu percebo a frase que não combina com o assunto.",
+        "Eu entendo que uma frase verdadeira pode não pertencer ao tema."
+      ]
     }
   }
 }

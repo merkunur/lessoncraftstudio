@@ -47,6 +47,16 @@
       win: '¡Muy bien! Es cierto, pero se coló del tema {about}.',
       hear: '🔊 Escuchar',
       nudge: 'Esa sí es del tema {topic}. Busca la que se coló.'
+    },
+    /* pt-BR. §A.13.54: win/nudge agreement is anchored on «a frase» (fixed feminine) —
+       «essa frase»/«a que entrou» stay feminine-singular no matter what topic the room names.
+       BR curly quotes; você-form; 🔊 Ouvir. */
+    pt: {
+      q: 'Qual frase não é do tema?',
+      sign: 'Tema: {topic}',
+      win: 'Isso! É verdade, mas essa frase é sobre {about}. Ela entrou na sala errada!',
+      hear: '🔊 Ouvir',
+      nudge: 'Essa é do tema {topic}, ela pertence aqui! Ache a que entrou na sala errada.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -69,8 +79,8 @@
   var WobbleMuseumActivity = {
     id: 'wobble-museum-activity',
     strings: {
-      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram', es: 'El museo de temas de Ula' },
-      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !', es: 'Ula la urraca ordenó su museo: cada sala tiene un solo tema. Pero una oración se coló y no va con las demás. Tócala para sacarla del museo.' },
+      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram', es: 'El museo de temas de Ula', pt: 'O museu de temas da Prata' },
+      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !', es: 'Ula la urraca ordenó su museo: cada sala tiene un solo tema. Pero una oración se coló y no va con las demás. Tócala para sacarla del museo.', pt: 'A pega Prata é a curadora deste museu, e ela adora coisas brilhantes! Cada sala tem um só tema. Mas uma frase entrou na sala errada. Toque na frase que não é do tema.' },
       q: { en: '{q}' }
     },
 
@@ -187,7 +197,7 @@
       var hear = el('button', 'wm-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var t = txt('sign', { topic: round.topic }) + ' ' + (round.sentences || []).map(function (x) { return x.text; }).join(' ');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       say.append(br, msg, hear); root.appendChild(say); this._bram = br;
 

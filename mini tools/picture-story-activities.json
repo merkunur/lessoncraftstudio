@@ -461,6 +461,85 @@
               }
             ]
           }
+        },
+        "pt": {
+          "mitten": {
+            "title": "A luva perdida",
+            "panels": [
+              {
+                "caption": "Bo, o coelho, pulou na neve.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ]
+              },
+              {
+                "caption": "Uma luva vermelha caiu perto da árvore.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ]
+              },
+              {
+                "caption": "Um passarinho achou a luva e chamou o Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ]
+              }
+            ]
+          },
+          "carrot": {
+            "title": "A cenoura gigante",
+            "panels": [
+              {
+                "caption": "Millie, a ratinha, achou uma cenoura gigante.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Ela puxou a cenoura muitas vezes, mas estava presa.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "A amiga dela veio ajudar e, zás!, a cenoura saiu.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ]
+              }
+            ]
+          },
+          "picnic": {
+            "title": "O piquenique na chuva",
+            "panels": [
+              {
+                "caption": "Dois amigos sentaram para um piquenique.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ]
+              },
+              {
+                "caption": "Depois vieram nuvens cinzentas e choveu.",
+                "glyphs": [
+                  "rain"
+                ]
+              },
+              {
+                "caption": "Eles comeram embaixo de um guarda-chuva grande, bem felizes.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ]
+              }
+            ]
+          }
         }
       },
       "roundsL10n": {
@@ -865,6 +944,140 @@
               "enojados"
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "ps-mit-who",
+            "storyId": "mitten",
+            "qtype": "who",
+            "prompt": "Quem pulou na neve?",
+            "answer": "Bo, o coelho",
+            "options": [
+              "Bo, o coelho",
+              "um urso dorminhoco",
+              "uma rã verde"
+            ]
+          },
+          {
+            "id": "ps-mit-what",
+            "storyId": "mitten",
+            "qtype": "what",
+            "prompt": "O que caiu na neve?",
+            "answer": "uma luva vermelha",
+            "options": [
+              "uma luva vermelha",
+              "um gorro azul",
+              "um cachecol de lã"
+            ]
+          },
+          {
+            "id": "ps-mit-where",
+            "storyId": "mitten",
+            "qtype": "where",
+            "prompt": "Onde a luva caiu?",
+            "answer": "perto da árvore",
+            "options": [
+              "perto da árvore",
+              "perto de uma poça",
+              "em uma colina"
+            ]
+          },
+          {
+            "id": "ps-mit-order",
+            "storyId": "mitten",
+            "qtype": "order",
+            "prompt": "O que aconteceu PRIMEIRO?",
+            "answer": "Bo pulou na neve",
+            "options": [
+              "Bo pulou na neve",
+              "Um passarinho achou a luva",
+              "A luva caiu"
+            ]
+          },
+          {
+            "id": "ps-car-who",
+            "storyId": "carrot",
+            "qtype": "who",
+            "prompt": "Quem achou a cenoura?",
+            "answer": "Millie, a ratinha",
+            "options": [
+              "Millie, a ratinha",
+              "Bo, o coelho",
+              "um corvo grande"
+            ]
+          },
+          {
+            "id": "ps-car-what",
+            "storyId": "carrot",
+            "qtype": "what",
+            "prompt": "O que a Millie achou?",
+            "answer": "uma cenoura gigante",
+            "options": [
+              "uma cenoura gigante",
+              "uma pedra brilhante",
+              "uma chave perdida"
+            ]
+          },
+          {
+            "id": "ps-car-why",
+            "storyId": "carrot",
+            "qtype": "why",
+            "prompt": "Por que a Millie não conseguiu tirar a cenoura?",
+            "answer": "estava presa",
+            "options": [
+              "estava presa",
+              "estava pequena",
+              "rolou para longe"
+            ]
+          },
+          {
+            "id": "ps-car-order",
+            "storyId": "carrot",
+            "qtype": "order",
+            "prompt": "O que aconteceu NO FINAL?",
+            "answer": "a cenoura saiu",
+            "options": [
+              "a cenoura saiu",
+              "Millie achou a cenoura",
+              "Millie puxou a cenoura"
+            ]
+          },
+          {
+            "id": "ps-pic-what",
+            "storyId": "picnic",
+            "qtype": "what",
+            "prompt": "O que os dois amigos estavam fazendo?",
+            "answer": "um piquenique",
+            "options": [
+              "um piquenique",
+              "um jogo de bola",
+              "uma soneca curtinha"
+            ]
+          },
+          {
+            "id": "ps-pic-why",
+            "storyId": "picnic",
+            "qtype": "why",
+            "prompt": "Por que os amigos foram para baixo do guarda-chuva?",
+            "answer": "porque choveu",
+            "options": [
+              "porque choveu",
+              "porque ventava",
+              "porque estavam com sono"
+            ]
+          },
+          {
+            "id": "ps-pic-feel",
+            "storyId": "picnic",
+            "qtype": "feeling",
+            "prompt": "Como os amigos se sentiam no final?",
+            "answer": "felizes",
+            "options": [
+              "felizes",
+              "assustados",
+              "bravos"
+            ]
+          }
         ]
       }
     },
@@ -872,19 +1085,22 @@
       "en": "story-key-details",
       "de": "leseverstaendnis-geschichte-fragen-beantworten-klasse-1",
       "fr": "lire-une-histoire-et-repondre-aux-questions",
-      "es": "cuentos-cortos-con-preguntas-primer-grado"
+      "es": "cuentos-cortos-con-preguntas-primer-grado",
+      "pt": "leia-a-historia-e-responda-1-ano"
     },
     "page_title": {
       "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
       "de": "Lesetexte Klasse 1 – Geschichte online lesen und verstehen",
       "fr": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)",
-      "es": "Cuentos cortos con preguntas en línea para primer grado"
+      "es": "Cuentos cortos con preguntas en línea para primer grado",
+      "pt": "Leia a história e responda · Compreensão de leitura · 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
       "de": "Lesetexte für Klasse 1: eine kurze Geschichte lesen und Fragen zum Text beantworten. Kostenlos online, ohne Anmeldung – Leseverständnis üben.",
       "fr": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription.",
-      "es": "Cuento corto en imágenes: el niño lee, escucha y responde preguntas sobre quién, qué, dónde y por qué. Actividad de primer grado, gratis y en línea, sin registro."
+      "es": "Cuento corto en imágenes: el niño lee, escucha y responde preguntas sobre quién, qué, dónde y por qué. Actividad de primer grado, gratis y en línea, sin registro.",
+      "pt": "Com o Fábio, a raposinha, a criança lê uma historinha em 3 quadrinhos e responde perguntas sobre os detalhes — quem, o quê, onde, a ordem e o porquê. Uma atividade de leitura e compreensão, com apoio do 🔊. Grátis, sem cadastro. BNCC, 1º ano."
     },
     "kid_prompt_template": "picture-story"
   }

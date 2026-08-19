@@ -42,6 +42,12 @@
       win: '¡Sí! {note}', winNote: '¡Te acordaste del cuento!',
       nudge: 'Mira otra vez los dibujos: la respuesta está en el cuento.',
       hear: '🔊 Escuchar el cuento'
+    },
+    /* pt-BR: «história/historinha» is fine for a story in BR kid register (unlike es «historia»). */
+    pt: {
+      win: 'Isso! {note}', winNote: 'Você se lembrou da história!',
+      nudge: 'Olhe os desenhos de novo — a resposta está na história.',
+      hear: '🔊 Ouvir a história'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -91,9 +97,11 @@
          🚨 PERMANENT: the fox is ALWAYS masculine «el zorro». «la zorra» is a sexual insult in
          Spanish — never feminize the character in any string, aria, alt-text or future variant.
          The `instruction` carries «el zorro» explicitly, which makes the masculinity visible. */
-      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio' },
-      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}' }
+      /* pt: character «Fábio, a raposa» — male name + the natural feminine noun raposa (unlike es,
+         «raposa» is NOT a slur in pt; «o raposo» reads bookish). «historinha» is BR-fine. */
+      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio', pt: 'As histórias do Fábio' },
+      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!', pt: 'Leia a historinha com o Fábio, a raposa, e depois responda!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}' }
     },
 
     init: function (api) {
@@ -213,7 +221,7 @@
       var hear = el('button', 'ps-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
         var t = (story.panels || []).map(function (p) { return p.caption; }).join('. ');
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG), rate: 0.9 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
       });
       root.appendChild(hear);
     },
@@ -260,6 +268,8 @@
         ? '<p>Geschichte: ' + caps + ' Frage: ' + r.prompt + ' Auswahl: ' + this._choiceOrder.join('; ') + '.</p>'
         : LANG === 'fr'
         ? '<p>Histoire : ' + caps + ' Question : ' + r.prompt + ' Choix : ' + this._choiceOrder.join('; ') + '.</p>'
+        : LANG === 'pt'
+        ? '<p>História: ' + caps + ' Pergunta: ' + r.prompt + ' Opções: ' + this._choiceOrder.join('; ') + '.</p>'
         : '<p>Story: ' + caps + ' Question: ' + r.prompt + ' Choices: ' + this._choiceOrder.join('; ') + '.</p>';
       return wrap;
     },

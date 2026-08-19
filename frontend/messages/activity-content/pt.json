@@ -3406,6 +3406,29 @@
         "Eu entendo o que o textinho está contando.",
         "Eu fico mais confiante para ler sozinho."
       ]
+    },
+    "gabby-sayings.idioms.l-3-5-a": {
+      "about": [
+        "A gansa Gabby adora colecionar expressões engraçadas do dia a dia! Ela sabe que algumas frases dizem uma coisa, mas na verdade querem dizer outra bem diferente. Por exemplo, quando alguém \"fica com água na boca\" olhando um bolo, não é que a boca esteja cheia de água de verdade — é que a pessoa ficou com muita vontade de comer! Nesta atividade, a criança lê a expressão que a Gabby mostra e descobre o sentido de verdade por trás das palavras.",
+        "Ao brincar, a criança percebe que uma expressão pode ter um sentido figurado, diferente do que as palavras dizem ao pé da letra. Ela aprende a usar o contexto da frase como pista e a escolher o que a expressão realmente significa — como entender que \"custar os olhos da cara\" quer dizer ser muito caro, e não perder os olhos! Aos pouquinhos, esse tipo de descoberta amplia o vocabulário, fortalece a compreensão de leitura e desperta o gosto de brincar com as palavras da nossa língua.",
+        "A atividade é totalmente gratuita, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança avança no seu próprio ritmo, com carinho e sem pressão. Se ela escolher o sentido errado, a Gabby dá uma dica gentil para tentar de novo, sempre com um jeitinho acolhedor. Tudo isso alinhado à BNCC, no trabalho de \"Ampliação do vocabulário\" (Língua Portuguesa), pensado para o 3º ano."
+      ],
+      "practices": [
+        "Entender que uma expressão pode ter um sentido figurado.",
+        "Diferenciar o sentido literal do sentido de verdade da expressão.",
+        "Usar o contexto da frase para descobrir o significado.",
+        "Ampliar o vocabulário com expressões do dia a dia."
+      ],
+      "howToPlay": [
+        "Toque no 🔊 para ouvir a frase com a expressão.",
+        "Descubra o que a expressão realmente quer dizer.",
+        "Toque no sentido de verdade e depois em Verificar."
+      ],
+      "learningGoals": [
+        "Eu descubro o sentido de verdade de uma expressão.",
+        "Eu percebo quando uma frase não é ao pé da letra.",
+        "Eu aprendo expressões novas e brinco com as palavras."
+      ]
     }
   }
 }

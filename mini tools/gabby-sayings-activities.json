@@ -678,6 +678,168 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "agua-boca",
+            "band": 1,
+            "idiom": "ficar com água na boca",
+            "sentence": "Quando a Gabby viu o bolo de chocolate, ela ficou com água na boca.",
+            "choices": [
+              {
+                "text": "Ela ficou com muita vontade de comer.",
+                "kind": "correct"
+              },
+              {
+                "text": "A boca dela encheu de água de verdade.",
+                "kind": "literal"
+              },
+              {
+                "text": "Ela derramou um copo de suco no chão.",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "cotovelos",
+            "band": 1,
+            "idiom": "falar pelos cotovelos",
+            "sentence": "O amigo da Gabby fala pelos cotovelos e quase não para de conversar.",
+            "choices": [
+              {
+                "text": "As palavras saem pelos cotovelos dele.",
+                "kind": "literal"
+              },
+              {
+                "text": "Ele conversa demais e custa a ficar quieto.",
+                "kind": "correct"
+              },
+              {
+                "text": "Ele ganhou uma medalha na corrida de bicicleta.",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "bola",
+            "band": 1,
+            "idiom": "pisar na bola",
+            "sentence": "A Gabby esqueceu o combinado com a amiga e acabou pisando na bola.",
+            "choices": [
+              {
+                "text": "Ela pisou em cima de uma bola no chão.",
+                "kind": "literal"
+              },
+              {
+                "text": "Ela ganhou um presente lindo na festa de aniversário.",
+                "kind": "off"
+              },
+              {
+                "text": "Ela cometeu uma falha e deixou a amiga triste.",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "mico",
+            "band": 2,
+            "idiom": "pagar mico",
+            "sentence": "A Gabby tropeçou na frente de todo mundo e pagou o maior mico.",
+            "choices": [
+              {
+                "text": "Ela passou uma vergonha na frente dos outros.",
+                "kind": "correct"
+              },
+              {
+                "text": "Ela pagou com moedas para ver um mico.",
+                "kind": "literal"
+              },
+              {
+                "text": "Ela plantou uma flor bonita no jardim de casa.",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "olhos-cara",
+            "band": 2,
+            "idiom": "custar os olhos da cara",
+            "sentence": "O brinquedo novo que a Gabby queria custava os olhos da cara.",
+            "choices": [
+              {
+                "text": "Ela ganhou o brinquedo de graça na festa.",
+                "kind": "off"
+              },
+              {
+                "text": "Era caríssimo e valia muito dinheiro.",
+                "kind": "correct"
+              },
+              {
+                "text": "O preço era um olho e um pedaço da cara.",
+                "kind": "literal"
+              }
+            ]
+          },
+          {
+            "id": "lua",
+            "band": 2,
+            "idiom": "estar no mundo da lua",
+            "sentence": "Durante a aula, a Gabby ficou no mundo da lua e nem ouviu a pergunta.",
+            "choices": [
+              {
+                "text": "Ela foi morar num mundo lá na lua.",
+                "kind": "literal"
+              },
+              {
+                "text": "Ela adora estudar ciências à noite.",
+                "kind": "off"
+              },
+              {
+                "text": "Ela estava distraída, pensando em outra coisa.",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "sapo",
+            "band": 3,
+            "idiom": "engolir sapo",
+            "sentence": "A Gabby não gostou da brincadeira, mas ficou quieta e engoliu o sapo.",
+            "choices": [
+              {
+                "text": "Ela aguentou uma chateação sem reclamar.",
+                "kind": "correct"
+              },
+              {
+                "text": "Ela pulou corda no recreio.",
+                "kind": "off"
+              },
+              {
+                "text": "Ela colocou um sapo na boca e engoliu.",
+                "kind": "literal"
+              }
+            ]
+          },
+          {
+            "id": "galho",
+            "band": 3,
+            "idiom": "quebrar o galho",
+            "sentence": "Quando a amiga esqueceu o lápis, a Gabby quebrou o galho e emprestou o dela.",
+            "choices": [
+              {
+                "text": "Ela quebrou um galho da árvore ao meio.",
+                "kind": "literal"
+              },
+              {
+                "text": "Ela ajudou a amiga, dando um jeitinho na situação.",
+                "kind": "correct"
+              },
+              {
+                "text": "Ela desenhou uma paisagem bem bonita com montanhas.",
+                "kind": "off"
+              }
+            ]
+          }
         ]
       }
     },
@@ -686,19 +848,22 @@
       "en": "gabby-sayings",
       "de": "redewendungen-verstehen-uebertragene-bedeutung-klasse-3",
       "fr": "comprendre-les-expressions-imagees-sens-figure-ce2",
-      "es": "sentido-literal-y-figurado-tercer-grado"
+      "es": "sentido-literal-y-figurado-tercer-grado",
+      "pt": "sentido-literal-e-figurado-expressoes-idiomaticas-3-ano"
     },
     "page_title": {
       "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)",
       "de": "Redewendungen Klasse 3: übertragene Bedeutung üben",
       "fr": "Les drôles d'expressions de Gabby — Le sens figuré (CE2)",
-      "es": "Sentido literal y figurado – Actividad 3.º primaria"
+      "es": "Sentido literal y figurado – Actividad 3.º primaria",
+      "pt": "Expressões idiomáticas: sentido literal e figurado · 3º ano"
     },
     "page_intro": {
       "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a.",
       "de": "Redewendungen verstehen: Was bedeutet „Daumen drücken“ wirklich? Tippe die übertragene Bedeutung an statt der wörtlichen Falle. Kostenlos, interaktiv, für Klasse 3 – jetzt mitraten!",
       "fr": "Avec Gabby l'oie, votre enfant lit une expression imagée dans une phrase, puis trouve ce qu'elle veut vraiment dire. Il apprend à distinguer le sens propre du sens figuré : « avoir un chat dans la gorge » ne veut pas dire qu'un chat est vraiment là, mais qu'on est enroué et qu'on a du mal à parler ! Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer.",
-      "es": "Actividad gratis en línea para 3.º de primaria: lee una expresión mexicana y toca lo que de verdad significa. Sentido literal y figurado, sin registro."
+      "es": "Actividad gratis en línea para 3.º de primaria: lee una expresión mexicana y toca lo que de verdad significa. Sentido literal y figurado, sin registro.",
+      "pt": "Com a gansa Gabby, a criança lê uma expressão idiomática e descobre o que ela realmente quer dizer — o sentido figurado, diferente do literal. Uma atividade divertida para ampliar o vocabulário e ler com mais atenção. Grátis, sem cadastro. BNCC, 3º ano."
     },
     "kid_prompt_template": "What does the saying really mean?"
   }

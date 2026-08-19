@@ -2028,6 +2028,428 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "r1",
+            "cog": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "brilhar"
+            },
+            "items": [
+              {
+                "id": "snoud",
+                "label": "Snoud",
+                "gloss": "O Snoud ajuda ele a nadar.",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "O Frell ajuda ele a brilhar.",
+                "functions": [
+                  "brilhar"
+                ]
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "O Tarn ajuda ele a cavar.",
+                "functions": [
+                  "cavar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r2",
+            "cog": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "trepar"
+            },
+            "items": [
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "O Blorp ajuda ele a flutuar.",
+                "functions": [
+                  "flutuar"
+                ]
+              },
+              {
+                "id": "gline",
+                "label": "Gline",
+                "gloss": "O Gline ajuda ele a picar.",
+                "functions": [
+                  "picar"
+                ]
+              },
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "O Fid ajuda ele a trepar.",
+                "functions": [
+                  "trepar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r3",
+            "cog": "diagram",
+            "featureType": "caption",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "saltar"
+            },
+            "items": [
+              {
+                "id": "quib",
+                "label": "Quib",
+                "gloss": "O Quib ajuda ele a se esconder.",
+                "functions": [
+                  "se esconder"
+                ]
+              },
+              {
+                "id": "sten",
+                "label": "Sten",
+                "gloss": "O Sten ajuda ele a saltar.",
+                "functions": [
+                  "saltar"
+                ]
+              },
+              {
+                "id": "vorl",
+                "label": "Vorl",
+                "gloss": "O Vorl ajuda ele a flutuar.",
+                "functions": [
+                  "flutuar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r4",
+            "cog": "glossary",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "picar"
+            },
+            "items": [
+              {
+                "id": "snoud",
+                "label": "Snoud",
+                "gloss": "Parte que serve para nadar.",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "gline",
+                "label": "Gline",
+                "gloss": "Parte que serve para picar.",
+                "functions": [
+                  "picar"
+                ]
+              },
+              {
+                "id": "tarn",
+                "label": "Tarn",
+                "gloss": "Parte que serve para cavar.",
+                "functions": [
+                  "cavar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r5",
+            "cog": "glossary",
+            "featureType": "glossary",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "brilhar"
+            },
+            "items": [
+              {
+                "id": "fid",
+                "label": "Fid",
+                "gloss": "Parte que serve para trepar.",
+                "functions": [
+                  "trepar"
+                ]
+              },
+              {
+                "id": "blorp",
+                "label": "Blorp",
+                "gloss": "Parte que serve para flutuar.",
+                "functions": [
+                  "flutuar"
+                ]
+              },
+              {
+                "id": "frell",
+                "label": "Frell",
+                "gloss": "Parte que serve para brilhar.",
+                "functions": [
+                  "brilhar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r6",
+            "cog": "toc",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "brilhar"
+            },
+            "items": [
+              {
+                "id": "c1",
+                "label": "Capítulo 1: os snouds",
+                "gloss": "como nada",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Capítulo 2: os frells",
+                "gloss": "como brilha",
+                "functions": [
+                  "brilhar"
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Capítulo 3: os tarns",
+                "gloss": "como cava",
+                "functions": [
+                  "cavar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r7",
+            "cog": "toc",
+            "featureType": "toc",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "se esconder"
+            },
+            "items": [
+              {
+                "id": "c1",
+                "label": "Capítulo 1: os blorps",
+                "gloss": "como flutua",
+                "functions": [
+                  "flutuar"
+                ]
+              },
+              {
+                "id": "c2",
+                "label": "Capítulo 2: os stens",
+                "gloss": "como salta",
+                "functions": [
+                  "saltar"
+                ]
+              },
+              {
+                "id": "c3",
+                "label": "Capítulo 3: os quibs",
+                "gloss": "como se esconde",
+                "functions": [
+                  "se esconder"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r8",
+            "cog": "heading",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "cavar"
+            },
+            "items": [
+              {
+                "id": "snouds",
+                "label": "Tudo sobre os snouds",
+                "gloss": "como nada",
+                "functions": [
+                  "nadar"
+                ]
+              },
+              {
+                "id": "frells",
+                "label": "Tudo sobre os frells",
+                "gloss": "como brilha",
+                "functions": [
+                  "brilhar"
+                ]
+              },
+              {
+                "id": "tarns",
+                "label": "Tudo sobre os tarns",
+                "gloss": "como cava",
+                "functions": [
+                  "cavar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r9",
+            "cog": "heading",
+            "featureType": "heading",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "flutuar"
+            },
+            "items": [
+              {
+                "id": "glines",
+                "label": "Tudo sobre os glines",
+                "gloss": "como pica",
+                "functions": [
+                  "picar"
+                ]
+              },
+              {
+                "id": "blorps",
+                "label": "Tudo sobre os blorps",
+                "gloss": "como flutua",
+                "functions": [
+                  "flutuar"
+                ]
+              },
+              {
+                "id": "fids",
+                "label": "Tudo sobre os fids",
+                "gloss": "como trepa",
+                "functions": [
+                  "trepar"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r10",
+            "cog": "menu",
+            "featureType": "menu",
+            "fictional": true,
+            "question": {
+              "functionPhrase": "procurar"
+            },
+            "items": [
+              {
+                "id": "drext",
+                "label": "Drext",
+                "gloss": "serve para virar a página",
+                "functions": [
+                  "virar a página"
+                ]
+              },
+              {
+                "id": "glarn",
+                "label": "Glarn",
+                "gloss": "serve para procurar",
+                "functions": [
+                  "procurar"
+                ]
+              },
+              {
+                "id": "pled",
+                "label": "Pled",
+                "gloss": "serve para ler em voz alta",
+                "functions": [
+                  "ler em voz alta"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r12",
+            "cog": "which-feature",
+            "featureType": "which",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "meaning"
+            },
+            "items": [
+              {
+                "id": "toc",
+                "label": "Sumário",
+                "gloss": "Mostra em qual capítulo está cada assunto.",
+                "functions": [
+                  "topic"
+                ]
+              },
+              {
+                "id": "glossary",
+                "label": "Glossário",
+                "gloss": "Explica o que uma palavra quer dizer.",
+                "functions": [
+                  "meaning"
+                ]
+              },
+              {
+                "id": "caption",
+                "label": "Legenda",
+                "gloss": "Conta o que aparece na figura.",
+                "functions": [
+                  "picture"
+                ]
+              }
+            ]
+          },
+          {
+            "id": "r13",
+            "cog": "which-feature",
+            "featureType": "which",
+            "fictional": false,
+            "question": {
+              "functionPhrase": "topic"
+            },
+            "items": [
+              {
+                "id": "glossary",
+                "label": "Glossário",
+                "gloss": "Explica o que uma palavra quer dizer.",
+                "functions": [
+                  "meaning"
+                ]
+              },
+              {
+                "id": "toc",
+                "label": "Sumário",
+                "gloss": "Mostra em qual capítulo está cada assunto.",
+                "functions": [
+                  "topic"
+                ]
+              },
+              {
+                "id": "caption",
+                "label": "Legenda",
+                "gloss": "Conta o que aparece na figura.",
+                "functions": [
+                  "picture"
+                ]
+              }
+            ]
+          }
         ]
       }
     },
@@ -2035,19 +2457,22 @@
       "en": "detective-deweys-field-guide",
       "de": "textmerkmale-sachtext-informationen-finden-klasse-2",
       "fr": "utiliser-les-outils-du-texte-documentaire-ce1",
-      "es": "partes-del-libro-localizar-informacion-segundo-grado"
+      "es": "partes-del-libro-localizar-informacion-segundo-grado",
+      "pt": "partes-do-livro-localizar-informacao-2-ano"
     },
     "page_title": {
       "en": "Detective Dewey's Field Guide — Find Facts with Text Features",
       "de": "Textmerkmale nutzen – Sachbuch lesen, Klasse 2",
       "fr": "Le carnet du détective Dewey — Lire un texte documentaire (CE1)",
-      "es": "Partes del libro: localizar información – 2.º primaria"
+      "es": "Partes del libro: localizar información – 2.º primaria",
+      "pt": "Partes do livro: ache a informação · 2º ano"
     },
     "page_intro": {
       "en": "Help Detective Dewey find lost facts! Read the book's own tools — the table of contents, headings, glossary, and labeled pictures — to locate the answer, never by guessing. A Grade 1 reading activity aligned to Common Core 1.RI.5: know and use text features to locate key facts.",
       "de": "Textmerkmale nutzen: Hilf Detektiv Dewey, im Sachbuch Informationen zu finden – mit Inhaltsverzeichnis, Glossar und Überschrift. Kostenlos und interaktiv, Klasse 2.",
       "fr": "Avec le détective Dewey, votre enfant apprend à se repérer dans un texte documentaire et à y trouver une information. À chaque énigme, il utilise les vrais outils du livre — le sommaire, le glossaire, les titres, l'index, un schéma légendé — pour répondre à la question posée. Les créatures de ce carnet sont imaginaires, alors on ne peut pas deviner : il faut ouvrir le bon outil et le lire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte. Alignée sur les programmes officiels de l'école.",
-      "es": "Actividad en línea gratis de 2.º de primaria: usa el índice, el glosario y los títulos de un libro informativo para localizar información. Sin registro."
+      "es": "Actividad en línea gratis de 2.º de primaria: usa el índice, el glosario y los títulos de un libro informativo para localizar información. Sin registro.",
+      "pt": "Com o detetive Dewey, a criança usa o sumário, o glossário, os títulos e as legendas de um livro para localizar informações sobre bichinhos inventados. Uma atividade de leitura e pesquisa. Grátis, sem cadastro. BNCC, 2º ano."
     },
     "kid_prompt_template": "Read the feature to find the fact!"
   }

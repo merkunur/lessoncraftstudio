@@ -3429,6 +3429,29 @@
         "Eu percebo quando uma frase não é ao pé da letra.",
         "Eu aprendo expressões novas e brinco com as palavras."
       ]
+    },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "O detetive Dewey abriu um guia de campo especial: um livro cheio de bichinhos inventados, que ninguém nunca viu antes! Em cada página tem um sumário, títulos, um glossário e até a legenda de uma imagem — e é com essas partes do livro que a criança vira detetive junto com o Dewey. Quer saber em qual capítulo o livro mostra como o bichinho voa? É só olhar o sumário! Como os bichinhos são todos inventados, não dá para adivinhar nada de cabeça: a criança precisa mesmo USAR as partes do livro para achar cada resposta.",
+        "Nesta atividade, a criança aprende a conhecer e a usar as partes de um livro informativo — o sumário, os títulos, o glossário e as legendas — para localizar uma informação rapidinho, sem precisar ler o livro inteiro. Ela descobre que cada parte do livro serve para uma coisa: o sumário mostra onde está cada assunto, o glossário explica as palavras difíceis e a legenda conta o que aparece na imagem. É uma estratégia de leitura que ajuda em todas as matérias, sempre que a criança precisar pesquisar e encontrar uma informação.",
+        "A atividade é totalmente grátis, sem cadastro e sem login, e não tem cronômetro, pontuação nem competição — cada criança avança no seu ritmo, com calma e sem pressão. Quando a resposta não está certa, o Dewey dá uma dica gentil e convida a tentar de novo, sempre com carinho e sem constrangimento. Tudo foi pensado de acordo com a BNCC, num trabalho de leitura para o 2º ano: usar as partes do livro para localizar uma informação."
+      ],
+      "practices": [
+        "Conhecer as partes de um livro informativo (sumário, título, glossário e legenda).",
+        "Usar cada parte do livro para achar uma informação.",
+        "Localizar a informação sem precisar ler o livro todo.",
+        "Ganhar autonomia na leitura de textos informativos."
+      ],
+      "howToPlay": [
+        "Leia a pergunta do detetive Dewey com atenção.",
+        "Toque na parte do livro que ajuda a achar a resposta.",
+        "Toque em Verificar para ver se você encontrou!"
+      ],
+      "learningGoals": [
+        "Eu uso o sumário e o glossário para achar uma informação.",
+        "Eu sei para que serve cada parte de um livro informativo.",
+        "Eu encontro o que preciso sem ler o livro inteiro."
+      ]
     }
   }
 }

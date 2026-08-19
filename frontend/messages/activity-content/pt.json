@@ -3705,6 +3705,29 @@
         "Eu sei mostrar o problema e a solução de uma história.",
         "Eu leio as partes de uma história e as coloco na ordem certa."
       ]
+    },
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "A foca Pérola tem uma página de opiniões, igualzinha à de um jornal! Em cada rodada, ela mostra uma opinião — o que alguém acha que devia acontecer, como \"A nossa cidade devia construir um parque novo.\" Embaixo aparecem três cartas, e a criança toca na carta que dá uma razão de verdade para apoiar aquela opinião.",
+        "Uma razão diz o PORQUÊ: ela acrescenta uma informação nova que explica a opinião — por exemplo, \"As crianças não têm um lugar seguro para brincar.\" É diferente de uma carta que só repete a opinião com outras palavras, sem dizer nenhum motivo, e também é diferente de um fato que fala de outra coisa que não tem nada a ver. A criança aprende a perceber qual carta realmente sustenta a ideia.",
+        "A atividade é grátis, sem cadastro e sem relógio, pontos ou competição — cada criança vai no seu tempo, sem pressa e sem medo de errar. Um botão 🔊 lê a opinião em voz alta para quem ainda está aprendendo a ler sozinho. O conteúdo é alinhado à BNCC, na compreensão de textos de opinião — reconhecer a opinião e o argumento que a apoia —, um trabalho para os primeiros anos."
+      ],
+      "practices": [
+        "Ler uma opinião e entender o que a pessoa está defendendo.",
+        "Escolher, entre três cartas, a razão que apoia a opinião.",
+        "Perceber a diferença entre uma razão de verdade e uma frase que só repete a opinião.",
+        "Reconhecer quando um fato não tem relação com a opinião."
+      ],
+      "howToPlay": [
+        "Toque no botão 🔊 para ouvir a opinião da Pérola em voz alta.",
+        "Leia as três cartas e pense: qual delas explica POR QUE a opinião faz sentido?",
+        "Toque na carta com a razão. Se não for essa, é só ler a opinião de novo e tentar outra vez."
+      ],
+      "learningGoals": [
+        "Eu consigo achar a razão que apoia uma opinião.",
+        "Eu percebo quando uma carta só repete a opinião, sem dar um motivo.",
+        "Eu sei diferenciar uma razão de um fato que não tem nada a ver."
+      ]
     }
   }
 }

@@ -44,6 +44,16 @@
       win: '¡Sí! {note}', winNote: '¡Desde esa ventana se ve justo así!',
       nHigh: '¿Quién está hasta arriba? Desde ahí todo se ve muy pequeño y muy lejos.',
       nLow: '¿Quién está hasta abajo, junto al agua? Desde ahí todo se ve enorme y bien cerca.'
+    },
+    /* pt-BR. The nudges TEACH the rule → they state the size+distance contrast in the SAME
+       words as POSLABEL.pt + the instruction. §A.13.54: agreement is anchored on «a janela /
+       a vista» (fixed feminine), never on the varying creature; the impersonal/generic
+       phrasing here is invariant, so no speaker-gender leaks. Warm BR diminutive
+       (pequenininho / pertinho) per the linguist. */
+    pt: {
+      win: 'Isso! {note}', winNote: 'Essa janela tem a vista certinha!',
+      nHigh: 'Quem está lá em cima? De cima, tudo parece pequenininho e distante.',
+      nLow: 'Quem está lá embaixo, pertinho da água? De baixo, tudo parece enorme e bem perto.'
     }
   };
   var POSLABEL = {
@@ -54,7 +64,11 @@
        „Ganz oben/unten". ⚠ Do NOT flatten to bare «Arriba»/«Abajo» — the intensity IS the
        rule the activity teaches, and these words are locked to the instruction + nudges so
        the child maps rule→label with zero inference. */
-    es: { high: 'Hasta arriba', mid: 'En medio', low: 'Hasta abajo' }
+    es: { high: 'Hasta arriba', mid: 'En medio', low: 'Hasta abajo' },
+    /* pt-BR: «Lá em cima / No meio / Lá embaixo» — the natural BR locatives, locked to the
+       instruction + nudges so the child maps rule→label with zero inference. ⚠ "embaixo" is
+       ONE word in BR (not "em baixo", the EU-PT form). */
+    pt: { high: 'Lá em cima', mid: 'No meio', low: 'Lá embaixo' }
   };
   function poslabel(pos) { return (POSLABEL[LANG] && POSLABEL[LANG][pos]) || POSLABEL.en[pos]; }
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -109,9 +123,9 @@
          ⚠ The 3-sentence instruction is deliberate: the EN one-liner does NOT teach the
          rule, and the rule is the whole activity. Fused with «;» (the fr move) → 157 ch,
          SHORTER than de's shipped 168. */
-      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen' },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.' },
-      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?' }
+      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen', pt: 'O Farol da Luzia' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.' },
+      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?', pt: '“{line}” Quem contou isso?' }
     },
 
     init: function (api) {
@@ -268,6 +282,14 @@
            agrees with «la oración», never with the speaker (whose gender varies). */
         var whoEs = (r.chars || []).map(function (c) { return c.name + ' está ' + poslabel(c.pos).toLowerCase(); }).join(', ');
         wrap.innerHTML = '<p>' + (r.event || '') + ' La oración “' + r.line + '” se cuenta desde una ventana. ' + whoEs + '. ¿Quién la cuenta?</p>';
+        return wrap;
+      }
+      if (LANG === 'pt') {
+        /* `está` takes no agreement → safe for the mixed-gender names; the clitic `a` in
+           «Quem a conta?» agrees with «a frase» (feminine), never with the speaker. BR curly
+           quotes “…”. */
+        var whoPt = (r.chars || []).map(function (c) { return c.name + ' está ' + poslabel(c.pos).toLowerCase(); }).join(', ');
+        wrap.innerHTML = '<p>' + (r.event || '') + ' A frase “' + r.line + '” foi contada de uma janela. ' + whoPt + '. Quem a conta?</p>';
         return wrap;
       }
       var who = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join('; ');

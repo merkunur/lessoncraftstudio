@@ -3590,6 +3590,29 @@
         "Eu entendo que o autor escreve as palavras e o ilustrador desenha as figuras.",
         "Eu percebo que o leitor é quem lê a história do livro."
       ]
+    },
+    "pim-comma-mail.letter-commas.l-2-2-b": {
+      "about": [
+        "O Pim é um pombo-correio muito querido, e o trabalho do Pim é entregar cartas de um lugar para o outro. Nesta atividade, a criança ajuda o Pim escolhendo a saudação (o começo da carta) ou a despedida (o fim da carta) que está com a vírgula no lugar certinho. Por exemplo: \"Querida vovó,\" começa muito bem uma carta, e \"Com carinho,\" termina do jeito perfeito. Mas fique de olho nas pegadinhas: às vezes aparece uma forma sem nenhuma vírgula, e às vezes a vírgula está no lugar errado, como em \"Querida, vovó\". É só tocar na opção certa e ajudar o Pim a entregar a carta!",
+        "Brincando com o Pim, a criança percebe que a saudação e a despedida de uma carta terminam com vírgula, e que essa vírgula tem um lugar certo. Ela aprende que o certo é \"Querida vovó,\" e não \"Querida, vovó\" — a vírgula vem depois de quem a gente cumprimenta, e não no meio. Ao comparar a forma certa com as pegadinhas, a criança treina o olhar para a pontuação de um jeito leve e divertido. Isso ajuda muito na hora de escrever cartas e bilhetes com clareza e capricho.",
+        "Esta atividade é totalmente gratuita, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança avança no seu próprio ritmo, com calma. Quando ela erra, o Pim dá uma dica gentil e convida a tentar de novo, sempre com um tom acolhedor e sem pressão. O trabalho é alinhado à BNCC e trata da pontuação da carta — a vírgula na saudação e na despedida — para o 3º ano."
+      ],
+      "practices": [
+        "Usar a vírgula na saudação e na despedida de uma carta.",
+        "Perceber que a vírgula tem um lugar certo na saudação e na despedida.",
+        "Diferenciar a forma certa das pegadinhas (sem vírgula ou com a vírgula fora do lugar).",
+        "Escrever cartas e bilhetes com mais clareza e capricho."
+      ],
+      "howToPlay": [
+        "Leia com atenção a saudação ou a despedida que aparece em cada cartinha.",
+        "Toque na opção que está com a vírgula no lugar certinho.",
+        "Se escolher uma pegadinha, o Pim dá uma dica e você tenta de novo!"
+      ],
+      "learningGoals": [
+        "Eu sei pôr a vírgula certa na saudação de uma carta.",
+        "Eu sei pôr a vírgula certa na despedida de uma carta.",
+        "Eu percebo quando a vírgula está no lugar errado e escolho a forma certa."
+      ]
     }
   }
 }

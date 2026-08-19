@@ -3383,6 +3383,29 @@
         "Eu escolho a coisa certa para cada situação.",
         "Eu aprendo palavras novas do dia a dia."
       ]
+    },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "O tatu Atlas adora colecionar fichas cheias de fatos curiosos sobre o mundo — sobre abelhas, sapos, o sol, pinguins e muito mais. Em cada rodada, ele mostra um textinho de só duas frases e faz uma perguntinha sobre ele. A criança lê com calma e toca na resposta, que está escondidinha ali dentro do próprio texto. Por exemplo: o Atlas mostra \"As abelhas vivem numa colmeia.\" e pergunta: onde as abelhas vivem? É só olhar o texto — na colmeia! Cada ficha é uma descoberta gostosa de fazer.",
+        "Aqui a criança pratica ler um texto curto com atenção, entender o que ele está contando e achar a informação certa para responder à pergunta — o quê, onde ou quantos. Aos pouquinhos, ela vai percebendo que a resposta sempre mora dentro do texto, e que basta procurar com carinho. Isso fortalece a compreensão de leitura logo no comecinho e dá muita confiança para quem está aprendendo a ler. E quando bate aquela dúvida, é só tocar no 🔊 para ouvir o texto lido em voz alta, um empurrãozinho gentil para os leitores iniciantes.",
+        "Esta atividade é totalmente grátis, sem cadastro e sem login. Não tem cronômetro, não tem pontuação e não tem competição — cada criança segue no seu próprio ritmo, do jeitinho dela. O clima é sempre acolhedor e sem pressão: quando a criança erra, o tatu Atlas dá uma dica gentil e convida a tentar de novo, sem nenhuma bronca. Tudo foi pensado de acordo com a BNCC, no trabalho de leitura e compreensão de textos de Língua Portuguesa, para o 1º ano."
+      ],
+      "practices": [
+        "Ler um texto curto com atenção.",
+        "Localizar a informação que responde à pergunta.",
+        "Entender o que o texto diz (o quê, onde, quantos).",
+        "Ganhar confiança na leitura."
+      ],
+      "howToPlay": [
+        "Leia o textinho do Atlas com atenção (toque no 🔊 para ouvir).",
+        "Toque na resposta certa que está no texto.",
+        "Toque em Verificar para ver se acertou."
+      ],
+      "learningGoals": [
+        "Eu leio o texto e acho a resposta nele.",
+        "Eu entendo o que o textinho está contando.",
+        "Eu fico mais confiante para ler sozinho."
+      ]
     }
   }
 }

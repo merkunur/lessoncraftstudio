@@ -402,6 +402,104 @@
               "el sol"
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "bees",
+            "band": 1,
+            "fact": "As abelhas vivem numa colmeia. Elas fazem mel doce.",
+            "question": "Onde as abelhas vivem?",
+            "answer": "numa colmeia",
+            "options": [
+              "numa toca",
+              "numa colmeia",
+              "num lago"
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "fact": "A rã tem pernas compridas. Ela come mosquinhas.",
+            "question": "O que a rã come?",
+            "answer": "mosquinhas",
+            "options": [
+              "folhinhas",
+              "mosquinhas",
+              "sementinhas"
+            ]
+          },
+          {
+            "id": "sun",
+            "band": 1,
+            "fact": "O sol nos dá luz. Ele brilha de dia.",
+            "question": "Quando o sol brilha?",
+            "answer": "de dia",
+            "options": [
+              "de noite",
+              "de dia",
+              "de tarde"
+            ]
+          },
+          {
+            "id": "penguin",
+            "band": 2,
+            "fact": "O pinguim tem asas pretas. Ele vive no gelo frio.",
+            "question": "Onde o pinguim vive?",
+            "answer": "no gelo frio",
+            "options": [
+              "na areia quente",
+              "no gelo frio",
+              "na floresta"
+            ]
+          },
+          {
+            "id": "spider",
+            "band": 2,
+            "fact": "A aranha tece uma teia. Ela tem oito patas.",
+            "question": "Quantas patas a aranha tem?",
+            "answer": "oito patas",
+            "options": [
+              "seis patas",
+              "oito patas",
+              "dez patas"
+            ]
+          },
+          {
+            "id": "tree",
+            "band": 2,
+            "fact": "A árvore grande cresce alto. Ela nos dá sombra fresca.",
+            "question": "O que a árvore nos dá?",
+            "answer": "sombra fresca",
+            "options": [
+              "água doce",
+              "sombra fresca",
+              "mel doce"
+            ]
+          },
+          {
+            "id": "cow",
+            "band": 3,
+            "fact": "A vaca come capim verde. Ela nos dá leite fresco.",
+            "question": "O que a vaca nos dá?",
+            "answer": "leite fresco",
+            "options": [
+              "lã macia",
+              "leite fresco",
+              "ovos frescos"
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 3,
+            "fact": "A chuva cai das nuvens. Ela molha o chão.",
+            "question": "O que a chuva molha?",
+            "answer": "o chão",
+            "options": [
+              "o céu",
+              "o chão",
+              "o fogo"
+            ]
+          }
         ]
       }
     },
@@ -410,19 +508,22 @@
       "en": "atlas-fact-files",
       "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1",
       "fr": "repondre-a-une-question-texte-documentaire-cp",
-      "es": "lecturas-cortas-con-preguntas-primer-grado"
+      "es": "lecturas-cortas-con-preguntas-primer-grado",
+      "pt": "textos-curtos-com-perguntas-compreensao-leitora-1-ano"
     },
     "page_title": {
       "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)",
       "de": "Leseverstehen üben – Sachtexte lesen (Grundschule)",
       "fr": "Lecture CP – lire un texte documentaire en ligne",
-      "es": "Comprensión lectora 1.º: lecturas cortas con preguntas"
+      "es": "Comprensión lectora 1.º: lecturas cortas con preguntas",
+      "pt": "Textos curtos com perguntas: leia e responda · 1º ano"
     },
     "page_intro": {
       "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
       "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1.",
       "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription.",
-      "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primaria, gratis, en línea y sin registro."
+      "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primaria, gratis, en línea y sin registro.",
+      "pt": "Com o tatu Atlas, a criança lê um textinho de duas frases e toca na resposta da pergunta, achando a informação no próprio texto. Uma atividade de compreensão de leitura, com áudio para ouvir o texto. Grátis, sem cadastro. Alinhada à BNCC, 1º ano."
     },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }

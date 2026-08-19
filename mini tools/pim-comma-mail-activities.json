@@ -427,67 +427,277 @@
         ],
         "es": [
           {
-            "id": "abuela", "band": 1, "kind": "greeting",
+            "id": "abuela",
+            "band": 1,
+            "kind": "greeting",
             "forms": [
-              { "text": "Querida abuela:", "ok": true },
-              { "text": "Querida abuela" },
-              { "text": "Querida abuela," }
+              {
+                "text": "Querida abuela:",
+                "ok": true
+              },
+              {
+                "text": "Querida abuela"
+              },
+              {
+                "text": "Querida abuela,"
+              }
             ]
           },
           {
-            "id": "papa", "band": 1, "kind": "greeting",
+            "id": "papa",
+            "band": 1,
+            "kind": "greeting",
             "forms": [
-              { "text": "Querido papá," },
-              { "text": "Querido papá:", "ok": true },
-              { "text": "Querido papá" }
+              {
+                "text": "Querido papá,"
+              },
+              {
+                "text": "Querido papá:",
+                "ok": true
+              },
+              {
+                "text": "Querido papá"
+              }
             ]
           },
           {
-            "id": "carino", "band": 1, "kind": "closing",
+            "id": "carino",
+            "band": 1,
+            "kind": "closing",
             "forms": [
-              { "text": "Con cariño" },
-              { "text": "Con cariño,", "ok": true },
-              { "text": "Con cariño:" }
+              {
+                "text": "Con cariño"
+              },
+              {
+                "text": "Con cariño,",
+                "ok": true
+              },
+              {
+                "text": "Con cariño:"
+              }
             ]
           },
           {
-            "id": "mama", "band": 2, "kind": "greeting",
+            "id": "mama",
+            "band": 2,
+            "kind": "greeting",
             "forms": [
-              { "text": "Querida, mamá" },
-              { "text": "Querida mamá," },
-              { "text": "Querida mamá:", "ok": true }
+              {
+                "text": "Querida, mamá"
+              },
+              {
+                "text": "Querida mamá,"
+              },
+              {
+                "text": "Querida mamá:",
+                "ok": true
+              }
             ]
           },
           {
-            "id": "maestra", "band": 2, "kind": "greeting",
+            "id": "maestra",
+            "band": 2,
+            "kind": "greeting",
             "forms": [
-              { "text": "Estimada maestra Ruiz" },
-              { "text": "Estimada maestra Ruiz," },
-              { "text": "Estimada maestra Ruiz:", "ok": true }
+              {
+                "text": "Estimada maestra Ruiz"
+              },
+              {
+                "text": "Estimada maestra Ruiz,"
+              },
+              {
+                "text": "Estimada maestra Ruiz:",
+                "ok": true
+              }
             ]
           },
           {
-            "id": "abrazo", "band": 2, "kind": "closing",
+            "id": "abrazo",
+            "band": 2,
+            "kind": "closing",
             "forms": [
-              { "text": "Un abrazo,", "ok": true },
-              { "text": "Un abrazo" },
-              { "text": "Un abrazo:" }
+              {
+                "text": "Un abrazo,",
+                "ok": true
+              },
+              {
+                "text": "Un abrazo"
+              },
+              {
+                "text": "Un abrazo:"
+              }
             ]
           },
           {
-            "id": "diego", "band": 3, "kind": "greeting",
+            "id": "diego",
+            "band": 3,
+            "kind": "greeting",
             "forms": [
-              { "text": "Hola, Diego:", "ok": true },
-              { "text": "Hola, Diego," },
-              { "text": "Hola, Diego" }
+              {
+                "text": "Hola, Diego:",
+                "ok": true
+              },
+              {
+                "text": "Hola, Diego,"
+              },
+              {
+                "text": "Hola, Diego"
+              }
             ]
           },
           {
-            "id": "amiga", "band": 3, "kind": "closing",
+            "id": "amiga",
+            "band": 3,
+            "kind": "closing",
             "forms": [
-              { "text": "Tu amiga" },
-              { "text": "Tu amiga,", "ok": true },
-              { "text": "Tu amiga:" }
+              {
+                "text": "Tu amiga"
+              },
+              {
+                "text": "Tu amiga,",
+                "ok": true
+              },
+              {
+                "text": "Tu amiga:"
+              }
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "g-vovo",
+            "band": 1,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Querida vovó,",
+                "ok": true
+              },
+              {
+                "text": "Querida vovó"
+              },
+              {
+                "text": "Querida, vovó"
+              }
+            ]
+          },
+          {
+            "id": "g-papai",
+            "band": 1,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Querido papai,",
+                "ok": true
+              },
+              {
+                "text": "Querido papai"
+              },
+              {
+                "text": "Querido, papai"
+              }
+            ]
+          },
+          {
+            "id": "g-rita",
+            "band": 2,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Prezada professora Rita,",
+                "ok": true
+              },
+              {
+                "text": "Prezada professora Rita"
+              },
+              {
+                "text": "Prezada professora, Rita"
+              }
+            ]
+          },
+          {
+            "id": "g-leo",
+            "band": 2,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Querido tio Léo,",
+                "ok": true
+              },
+              {
+                "text": "Querido tio Léo"
+              },
+              {
+                "text": "Querido tio, Léo"
+              }
+            ]
+          },
+          {
+            "id": "g-titia",
+            "band": 2,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Querida titia Ana,",
+                "ok": true
+              },
+              {
+                "text": "Querida titia Ana"
+              },
+              {
+                "text": "Querida titia, Ana"
+              }
+            ]
+          },
+          {
+            "id": "c-carinho",
+            "band": 3,
+            "kind": "closing",
+            "forms": [
+              {
+                "text": "Com carinho,",
+                "ok": true
+              },
+              {
+                "text": "Com carinho"
+              },
+              {
+                "text": "Com, carinho"
+              }
+            ]
+          },
+          {
+            "id": "c-abraco",
+            "band": 3,
+            "kind": "closing",
+            "forms": [
+              {
+                "text": "Um abraço,",
+                "ok": true
+              },
+              {
+                "text": "Um abraço"
+              },
+              {
+                "text": "Um, abraço"
+              }
+            ]
+          },
+          {
+            "id": "c-amiga",
+            "band": 3,
+            "kind": "closing",
+            "forms": [
+              {
+                "text": "Sua amiga,",
+                "ok": true
+              },
+              {
+                "text": "Sua amiga"
+              },
+              {
+                "text": "Sua, amiga"
+              }
             ]
           }
         ]
@@ -498,19 +708,22 @@
       "en": "pim-comma-mail",
       "de": "komma-im-brief-anrede-ueben-klasse-3",
       "fr": "la-virgule-dans-la-lettre-appel-et-formule",
-      "es": "los-dos-puntos-en-el-saludo-de-una-carta-tercer-grado"
+      "es": "los-dos-puntos-en-el-saludo-de-una-carta-tercer-grado",
+      "pt": "virgula-na-carta-saudacao-e-despedida-3-ano"
     },
     "page_title": {
       "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)",
       "de": "Komma im Brief mit Pim üben – Klasse 3",
       "fr": "Ponctuation : placer la virgule – exercice en ligne",
-      "es": "Los dos puntos en el saludo de una carta – 3.º primaria"
+      "es": "Los dos puntos en el saludo de una carta – 3.º primaria",
+      "pt": "A vírgula na carta: saudação e despedida · 3º ano"
     },
     "page_intro": {
       "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b.",
       "de": "Übe kostenlos & interaktiv das Komma im Brief: Wo steht das Komma nach der Anrede – und wo nicht? Ein Brief-Spiel für Klasse 3 mit Pim, der Taube.",
       "fr": "Ponctuation au CE1 : place la virgule au bon endroit dans la lettre, avec correction immédiate. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad gratis en línea de 3.º de primaria: toca el saludo bien puntuado. «Querida abuela:» lleva dos puntos, no coma, y la despedida, coma. Sin registro."
+      "es": "Actividad gratis en línea de 3.º de primaria: toca el saludo bien puntuado. «Querida abuela:» lleva dos puntos, no coma, y la despedida, coma. Sin registro.",
+      "pt": "Com o Pim, o pombo-correio, a criança escolhe a saudação e a despedida de uma carta com a vírgula no lugar certo — e foge das pegadinhas, como \"Querida, vovó\". Uma atividade sobre a pontuação da carta, leve e sem pressão. Grátis, sem cadastro. Alinhada à BNCC, 3º ano."
     },
     "kid_prompt_template": "Tap the greeting or closing that has its comma in the right place."
   }

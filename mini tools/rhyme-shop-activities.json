@@ -1238,23 +1238,467 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "rhyme-shop.pt.judge-baleia-meia",
+            "cog": "judge",
+            "a": {
+              "word": "Baleia",
+              "noun": "whale",
+              "themeDir": "ocean life",
+              "category": "animal",
+              "rimeKey": "EIA",
+              "spelledRime": "eia"
+            },
+            "b": {
+              "word": "Meia",
+              "noun": "sock",
+              "themeDir": "accessories",
+              "category": "object",
+              "rimeKey": "EIA",
+              "spelledRime": "eia"
+            }
+          },
+          {
+            "id": "rhyme-shop.pt.judge-gato-rosa",
+            "cog": "judge",
+            "a": {
+              "word": "Gato",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            },
+            "b": {
+              "word": "Rosa",
+              "noun": "rose",
+              "themeDir": "flowers",
+              "category": "plant",
+              "rimeKey": "OSA",
+              "spelledRime": "osa"
+            }
+          },
+          {
+            "id": "rhyme-shop.pt.pick-abelha",
+            "cog": "pick",
+            "target": {
+              "word": "Abelha",
+              "noun": "bee",
+              "themeDir": "insects and bugs",
+              "category": "animal",
+              "rimeKey": "ELHA",
+              "spelledRime": "elha"
+            },
+            "choices": [
+              {
+                "word": "Orelha",
+                "noun": "ear",
+                "themeDir": "body parts",
+                "category": "object",
+                "rimeKey": "ELHA",
+                "spelledRime": "elha"
+              },
+              {
+                "word": "Casa",
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "category": "object",
+                "rimeKey": "ASA",
+                "spelledRime": "asa"
+              },
+              {
+                "word": "Dente",
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "category": "object",
+                "rimeKey": "ENTE",
+                "spelledRime": "ente"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.pick-panela",
+            "cog": "pick",
+            "target": {
+              "word": "Panela",
+              "noun": "pan",
+              "themeDir": "kitchen tools",
+              "category": "object",
+              "rimeKey": "ELA",
+              "spelledRime": "ela"
+            },
+            "choices": [
+              {
+                "word": "Estrela",
+                "noun": "star",
+                "themeDir": "christmas",
+                "category": "object",
+                "rimeKey": "ELA",
+                "spelledRime": "ela"
+              },
+              {
+                "word": "Peixe",
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "category": "animal",
+                "rimeKey": "EIXE",
+                "spelledRime": "eixe"
+              },
+              {
+                "word": "Galo",
+                "noun": "rooster",
+                "themeDir": "farm animals",
+                "category": "animal",
+                "rimeKey": "ALO",
+                "spelledRime": "alo"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.pick-limao",
+            "cog": "pick",
+            "target": {
+              "word": "Limão",
+              "noun": "lemon",
+              "themeDir": "At the Supermarket",
+              "category": "food",
+              "rimeKey": "AO",
+              "spelledRime": "ão"
+            },
+            "choices": [
+              {
+                "word": "Caminhão",
+                "noun": "truck",
+                "themeDir": "post office",
+                "category": "object",
+                "rimeKey": "AO",
+                "spelledRime": "ão"
+              },
+              {
+                "word": "Rosa",
+                "noun": "rose",
+                "themeDir": "flowers",
+                "category": "plant",
+                "rimeKey": "OSA",
+                "spelledRime": "osa"
+              },
+              {
+                "word": "Chave",
+                "noun": "key",
+                "themeDir": "around the house",
+                "category": "object",
+                "rimeKey": "AVE",
+                "spelledRime": "ave"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.odd-ato",
+            "cog": "odd",
+            "choices": [
+              {
+                "word": "Gato",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Pato",
+                "noun": "duck",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Sapato",
+                "noun": "shoe",
+                "themeDir": "clothing",
+                "category": "object",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Casa",
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "category": "object",
+                "rimeKey": "ASA",
+                "spelledRime": "asa"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.sort-ato-elha",
+            "cog": "sort",
+            "bins": [
+              {
+                "word": "Gato",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Abelha",
+                "noun": "bee",
+                "themeDir": "insects and bugs",
+                "category": "animal",
+                "rimeKey": "ELHA",
+                "spelledRime": "elha"
+              }
+            ],
+            "pile": [
+              {
+                "word": "Rato",
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Ovelha",
+                "noun": "sheep",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ELHA",
+                "spelledRime": "elha"
+              },
+              {
+                "word": "Pato",
+                "noun": "duck",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Orelha",
+                "noun": "ear",
+                "themeDir": "body parts",
+                "category": "object",
+                "rimeKey": "ELHA",
+                "spelledRime": "elha"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.chant-gato",
+            "cog": "chant",
+            "coupletLine": "Olha o gato, olha o gato, calçou um só …",
+            "target": {
+              "word": "Gato",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            },
+            "choices": [
+              {
+                "word": "Sapato",
+                "noun": "shoe",
+                "themeDir": "clothing",
+                "category": "object",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Rosa",
+                "noun": "rose",
+                "themeDir": "flowers",
+                "category": "plant",
+                "rimeKey": "OSA",
+                "spelledRime": "osa"
+              },
+              {
+                "word": "Dente",
+                "noun": "tooth",
+                "themeDir": "body parts",
+                "category": "object",
+                "rimeKey": "ENTE",
+                "spelledRime": "ente"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.field-ato",
+            "cog": "field",
+            "target": {
+              "word": "Sapato",
+              "noun": "shoe",
+              "themeDir": "clothing",
+              "category": "object",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            },
+            "choices": [
+              {
+                "word": "Gato",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Pato",
+                "noun": "duck",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Rato",
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Mesa",
+                "noun": "table",
+                "themeDir": "around the house",
+                "category": "object",
+                "rimeKey": "ESA",
+                "spelledRime": "esa"
+              },
+              {
+                "word": "Cabelo",
+                "noun": "hair",
+                "themeDir": "body parts",
+                "category": "object",
+                "rimeKey": "ELO",
+                "spelledRime": "elo"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.pt.chain-ao",
+            "cog": "chain",
+            "anchor": {
+              "word": "Cão",
+              "noun": "dog",
+              "themeDir": "pets",
+              "category": "animal",
+              "rimeKey": "AO",
+              "spelledRime": "ão"
+            },
+            "steps": [
+              {
+                "choices": [
+                  {
+                    "word": "Limão",
+                    "noun": "lemon",
+                    "themeDir": "At the Supermarket",
+                    "category": "food",
+                    "rimeKey": "AO",
+                    "spelledRime": "ão"
+                  },
+                  {
+                    "word": "Gato",
+                    "noun": "cat",
+                    "themeDir": "animals",
+                    "category": "animal",
+                    "rimeKey": "ATO",
+                    "spelledRime": "ato"
+                  },
+                  {
+                    "word": "Ovelha",
+                    "noun": "sheep",
+                    "themeDir": "animals",
+                    "category": "animal",
+                    "rimeKey": "ELHA",
+                    "spelledRime": "elha"
+                  }
+                ]
+              },
+              {
+                "choices": [
+                  {
+                    "word": "Avião",
+                    "noun": "airplane",
+                    "themeDir": "Things That Fly",
+                    "category": "object",
+                    "rimeKey": "AO",
+                    "spelledRime": "ão"
+                  },
+                  {
+                    "word": "Casa",
+                    "noun": "house",
+                    "themeDir": "miscellaneous",
+                    "category": "object",
+                    "rimeKey": "ASA",
+                    "spelledRime": "asa"
+                  },
+                  {
+                    "word": "Mesa",
+                    "noun": "table",
+                    "themeDir": "around the house",
+                    "category": "object",
+                    "rimeKey": "ESA",
+                    "spelledRime": "esa"
+                  }
+                ]
+              },
+              {
+                "choices": [
+                  {
+                    "word": "Caminhão",
+                    "noun": "truck",
+                    "themeDir": "post office",
+                    "category": "object",
+                    "rimeKey": "AO",
+                    "spelledRime": "ão"
+                  },
+                  {
+                    "word": "Rosa",
+                    "noun": "rose",
+                    "themeDir": "flowers",
+                    "category": "plant",
+                    "rimeKey": "OSA",
+                    "spelledRime": "osa"
+                  },
+                  {
+                    "word": "Peixe",
+                    "noun": "fish",
+                    "themeDir": "ocean life",
+                    "category": "animal",
+                    "rimeKey": "EIXE",
+                    "spelledRime": "eixe"
+                  }
+                ]
+              }
+            ]
+          }
         ]
       }
     },
     "slug": {
       "en": "rosa-raccoons-rhyme-wagon",
       "de": "reime-hoeren-und-finden-klasse-1",
-      "es": "rimas-palabras-que-riman-conciencia-fonologica-preescolar"
+      "es": "rimas-palabras-que-riman-conciencia-fonologica-preescolar",
+      "pt": "rimas-palavras-que-rimam"
     },
     "page_title": {
       "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes",
       "de": "Reime üben – Reimwörter hören und finden (Klasse 1)",
-      "es": "Rimas y palabras que riman para preescolar – Juego gratis"
+      "es": "Rimas y palabras que riman para preescolar – Juego gratis",
+      "pt": "Rimas: palavras que rimam para o 1º ano — atividade alinhada à BNCC"
     },
     "page_intro": {
       "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words.",
       "de": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1.",
-      "es": "Actividad interactiva y gratis: los niños escuchan y encuentran palabras que riman —gato y pato, ratón y limón— y desarrollan su conciencia fonológica. Ideal para preescolar."
+      "es": "Actividad interactiva y gratis: los niños escuchan y encuentran palabras que riman —gato y pato, ratón y limón— y desarrollan su conciencia fonológica. Ideal para preescolar.",
+      "pt": "O Gui, um guaxinim animado, conduz o vagão de rimas por trilhos cheios de figuras. Seu filho escuta cada palavra e descobre quais têm o mesmo som no fim, ou seja, quais rimam. É uma atividade lúdica de escuta, alinhada à BNCC, para brincar com os sons das palavras."
     },
     "kid_prompt_template": "Tap to hear — then feed the rhyme!"
   }

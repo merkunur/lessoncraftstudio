@@ -687,6 +687,278 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "gato",
+            "band": 1,
+            "word": "cat",
+            "displayWord": "gato",
+            "displaySyl": [
+              "ga",
+              "to"
+            ],
+            "choices": [
+              {
+                "id": "cat",
+                "noun": "cat",
+                "themeDir": "animals",
+                "pt": "gato"
+              },
+              {
+                "id": "rooster",
+                "noun": "rooster",
+                "themeDir": "farm animals",
+                "pt": "galo"
+              },
+              {
+                "id": "duck",
+                "noun": "duck",
+                "themeDir": "animals",
+                "pt": "pato"
+              }
+            ]
+          },
+          {
+            "id": "galo",
+            "band": 1,
+            "word": "rooster",
+            "displayWord": "galo",
+            "displaySyl": [
+              "ga",
+              "lo"
+            ],
+            "choices": [
+              {
+                "id": "rooster",
+                "noun": "rooster",
+                "themeDir": "farm animals",
+                "pt": "galo"
+              },
+              {
+                "id": "cat",
+                "noun": "cat",
+                "themeDir": "animals",
+                "pt": "gato"
+              },
+              {
+                "id": "ball",
+                "noun": "ball",
+                "themeDir": "toys",
+                "pt": "bola"
+              }
+            ]
+          },
+          {
+            "id": "bola",
+            "band": 1,
+            "word": "ball",
+            "displayWord": "bola",
+            "displaySyl": [
+              "bo",
+              "la"
+            ],
+            "choices": [
+              {
+                "id": "ball",
+                "noun": "ball",
+                "themeDir": "toys",
+                "pt": "bola"
+              },
+              {
+                "id": "mouth",
+                "noun": "mouth",
+                "themeDir": "body parts",
+                "pt": "boca"
+              },
+              {
+                "id": "pear",
+                "noun": "pear",
+                "themeDir": "fruits",
+                "pt": "pera"
+              }
+            ]
+          },
+          {
+            "id": "casa",
+            "band": 2,
+            "word": "house",
+            "displayWord": "casa",
+            "displaySyl": [
+              "ca",
+              "sa"
+            ],
+            "choices": [
+              {
+                "id": "house",
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "pt": "casa"
+              },
+              {
+                "id": "bed",
+                "noun": "bed",
+                "themeDir": "around the house",
+                "pt": "cama"
+              },
+              {
+                "id": "table",
+                "noun": "table",
+                "themeDir": "furniture",
+                "pt": "mesa"
+              }
+            ]
+          },
+          {
+            "id": "cama",
+            "band": 2,
+            "word": "bed",
+            "displayWord": "cama",
+            "displaySyl": [
+              "ca",
+              "ma"
+            ],
+            "choices": [
+              {
+                "id": "bed",
+                "noun": "bed",
+                "themeDir": "around the house",
+                "pt": "cama"
+              },
+              {
+                "id": "house",
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "pt": "casa"
+              },
+              {
+                "id": "frog",
+                "noun": "frog",
+                "themeDir": "forest creatures",
+                "pt": "sapo"
+              }
+            ]
+          },
+          {
+            "id": "boca",
+            "band": 2,
+            "word": "mouth",
+            "displayWord": "boca",
+            "displaySyl": [
+              "bo",
+              "ca"
+            ],
+            "choices": [
+              {
+                "id": "mouth",
+                "noun": "mouth",
+                "themeDir": "body parts",
+                "pt": "boca"
+              },
+              {
+                "id": "ball",
+                "noun": "ball",
+                "themeDir": "toys",
+                "pt": "bola"
+              },
+              {
+                "id": "dice",
+                "noun": "dice",
+                "themeDir": "toys",
+                "pt": "dado"
+              }
+            ]
+          },
+          {
+            "id": "bolo",
+            "band": 3,
+            "word": "cake",
+            "displayWord": "bolo",
+            "displaySyl": [
+              "bo",
+              "lo"
+            ],
+            "choices": [
+              {
+                "id": "cake",
+                "noun": "cake",
+                "themeDir": "bakery",
+                "pt": "bolo"
+              },
+              {
+                "id": "ball",
+                "noun": "ball",
+                "themeDir": "toys",
+                "pt": "bola"
+              },
+              {
+                "id": "sofa",
+                "noun": "sofa",
+                "themeDir": "furniture",
+                "pt": "sofá"
+              }
+            ]
+          },
+          {
+            "id": "bode",
+            "band": 3,
+            "word": "goat",
+            "displayWord": "bode",
+            "displaySyl": [
+              "bo",
+              "de"
+            ],
+            "choices": [
+              {
+                "id": "goat",
+                "noun": "goat",
+                "themeDir": "farm animals",
+                "pt": "bode"
+              },
+              {
+                "id": "cake",
+                "noun": "cake",
+                "themeDir": "bakery",
+                "pt": "bolo"
+              },
+              {
+                "id": "kite",
+                "noun": "kite",
+                "themeDir": "toys",
+                "pt": "pipa"
+              }
+            ]
+          },
+          {
+            "id": "bote",
+            "band": 3,
+            "word": "boat",
+            "displayWord": "bote",
+            "displaySyl": [
+              "bo",
+              "te"
+            ],
+            "choices": [
+              {
+                "id": "boat",
+                "noun": "boat",
+                "themeDir": "toys",
+                "pt": "bote"
+              },
+              {
+                "id": "mouth",
+                "noun": "mouth",
+                "themeDir": "body parts",
+                "pt": "boca"
+              },
+              {
+                "id": "glass",
+                "noun": "glass",
+                "themeDir": "kitchen tools",
+                "pt": "copo"
+              }
+            ]
+          }
         ]
       }
     },
@@ -694,17 +966,20 @@
     "slug": {
       "en": "domino-two-part",
       "de": "silben-lesen-zweisilbige-woerter-klasse-1",
-      "es": "leer-por-silabas-palabras-de-dos-silabas-primer-grado"
+      "es": "leer-por-silabas-palabras-de-dos-silabas-primer-grado",
+      "pt": "leitura-por-silabas-palavras-de-duas-silabas-1-ano"
     },
     "page_title": {
       "en": "Domino's Two-Part Words — Read Two-Syllable Words (Grade 1)",
       "de": "Silben lesen üben – zweisilbige Wörter (Klasse 1)",
-      "es": "Leer por sílabas: palabras de dos sílabas – 1.º grado"
+      "es": "Leer por sílabas: palabras de dos sílabas – 1.º grado",
+      "pt": "Leitura por sílabas: palavras de duas sílabas – 1º ano"
     },
     "page_intro": {
       "en": "Domino the penguin reads longer words in two parts! Read the word split into its two syllables (rab·bit), blend the parts together, then tap the picture it names. A Grade 1 decoding game, aligned to Common Core RF.1.3.e: decode two-syllable words by breaking them into syllables.",
       "de": "Silben lesen mit Pauli dem Pinguin: zweisilbige Wörter Silbe für Silbe erlesen und verbinden. Kostenlos online üben, ohne Anmeldung – Klasse 1.",
-      "es": "Actividad interactiva y gratis de lectura: tu hijo/a lee una palabra dividida en sílabas (ga·to) y toca el dibujo que le corresponde. Con Pancho el pingüino. Ideal para 1.º grado."
+      "es": "Actividad interactiva y gratis de lectura: tu hijo/a lee una palabra dividida en sílabas (ga·to) y toca el dibujo que le corresponde. Con Pancho el pingüino. Ideal para 1.º grado.",
+      "pt": "Uma atividade de leitura gratuita para dar os primeiros passos na alfabetização. Uma palavra aparece dividida em duas sílabas, como “ga | to” — a criança lê cada parte, junta as sílabas e toca na figura certa entre três. Como uma das figuras começa com a mesma sílaba, é preciso ler as duas, sem adivinhar pela primeira. Com o Pingo, o pinguim, tudo acontece sem pressa, no ritmo de cada um. Para o 1º ano, alinhada à BNCC."
     },
     "kid_prompt_template": "Read both parts — tap the picture!"
   }

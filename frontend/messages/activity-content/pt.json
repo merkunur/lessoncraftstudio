@@ -4050,6 +4050,29 @@
         "Decodificar a palavra inteira, sem adivinhar pela primeira letra.",
         "Ligar a palavra escrita ao seu significado e à figura — habilidades de leitura alinhadas à BNCC."
       ]
+    },
+    "fraction-equiv.same-amount.3-nf-a-3": {
+      "about": [
+        "Quem comanda a padaria é a Migalha, uma camundonga padeira cheia de carinho. Ela mostra uma fração — os números na forma a/b e uma barrinha pintada — e convida a criança a achar outra fração que mostra exatamente a mesma quantidade de bolo. Tudo com áudio, para a criança ouvir cada fração enquanto olha para a barra.",
+        "A ideia principal é simples e poderosa: a mesma quantidade pode ser cortada de jeitos diferentes. Meio bolo é a mesma coisa que dois quartos de bolo — 1/2 mostra a mesma quantidade que 2/4. São as chamadas frações equivalentes, e é isso que a criança descobre tocando na barrinha que está igualzinha à da Migalha.",
+        "Aqui a criança aprende a enxergar a fração como uma quantidade de verdade, não só como dois números. E sem nenhuma pressão: a Migalha nunca diz “errado” — ela dá uma dica e convida a tentar de novo. Não tem relógio, não tem cronômetro nem placar, só a criança, a barrinha e a padaria. Atividade alinhada à BNCC."
+      ],
+      "practices": [
+        "Reconhecer frações que mostram a mesma quantidade",
+        "Entender que a mesma quantidade pode ser dividida de jeitos diferentes",
+        "Ler frações na forma a/b",
+        "Comparar frações usando a barra"
+      ],
+      "howToPlay": [
+        "Veja a fração da Migalha — os números e a barrinha.",
+        "Procure a fração que mostra a mesma quantidade.",
+        "Toque na barra que está igualzinha à da Migalha."
+      ],
+      "learningGoals": [
+        "Reconhecer frações equivalentes — as que mostram a mesma quantidade.",
+        "Entender que a mesma quantidade pode ser cortada de jeitos diferentes.",
+        "Ler frações na forma a/b, com objetivos alinhados à BNCC."
+      ]
     }
   }
 }

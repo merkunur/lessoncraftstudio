@@ -1098,7 +1098,8 @@
       "grade_1": "1. luokka",
       "grade_2": "2. luokka",
       "grade_3": "3. luokka",
-      "grade_4": "4. luokka"
+      "grade_4": "4. luokka",
+      "grade_5": "5. luokka"
     },
     "words": {
       "worksheet": "Tehtävämoniste",

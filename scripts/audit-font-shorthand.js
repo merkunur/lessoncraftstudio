@@ -137,27 +137,28 @@ function poison() {
    asks for. They are fixed in the activity pass, where each activity's
    own local-test and locale-layout gates can confirm the change.
    --------------------------------------------------------------------- */
+/* Re-baselined 2026-08-20 for a PURE LINE-MOVE (ratchet stays flat at 37, does
+   NOT grow): the pt-BR second-batch fan-out added roundsL10n.pt to several
+   activity files, shifting these SAME pre-existing offenders down (compound-
+   meaning + shades were untouched, so their lines are unchanged; opposites/
+   rhyme-shop/field-guide/graph-it/etc. moved). Zero new offenders, zero
+   production render change. The underlying `font:` shorthands are unfixed
+   accepted debt — a separate fix arc (longhand + quoted 'Baloo 2' family) may
+   shrink the ratchet later, with per-surface visual-QA. */
 const KNOWN = new Set([
-  'affix-activity.js:144', 'bramble-activity.js:235',
-  'compound-meaning-activity.js:139', 'compound-meaning-activity.js:144',
-  'compound-meaning-activity.js:145', 'compound-meaning-activity.js:153',
-  'compound-meaning-activity.js:157', 'compound-meaning-activity.js:167',
-  'field-guide-activity.js:142', 'field-guide-activity.js:147',
-  'graph-it-activity.js:252', 'graph-it-activity.js:256',
-  'halfway-harbors-activity.js:169', 'halfway-harbors-activity.js:174',
-  'line-plot-activity.js:126', 'maple-bakery-activity.js:159',
-  'mending-fences-activity.js:296', 'mending-fences-activity.js:314',
-  'mending-fences-activity.js:322',
-  'opposites-activity.js:279', 'opposites-activity.js:280',
-  'opposites-activity.js:298', 'opposites-activity.js:299',
-  'opposites-activity.js:302', 'opposites-activity.js:310',
-  'opposites-activity.js:313',
-  'patchwork-meadow-activity.js:210', 'patchwork-meadow-activity.js:216',
-  'point-of-view-activity.js:145',
-  'rhyme-shop-activity.js:135', 'rhyme-shop-activity.js:136',
-  'rhyme-shop-activity.js:155', 'rhyme-shop-activity.js:159',
+  'affix-activity.js:153', 'bramble-activity.js:255', 'compound-meaning-activity.js:139',
+  'compound-meaning-activity.js:144', 'compound-meaning-activity.js:145', 'compound-meaning-activity.js:153',
+  'compound-meaning-activity.js:157', 'compound-meaning-activity.js:167', 'field-guide-activity.js:158',
+  'field-guide-activity.js:163', 'graph-it-activity.js:275', 'graph-it-activity.js:279',
+  'halfway-harbors-activity.js:183', 'halfway-harbors-activity.js:188', 'line-plot-activity.js:138',
+  'maple-bakery-activity.js:168', 'mending-fences-activity.js:329', 'mending-fences-activity.js:347',
+  'mending-fences-activity.js:355', 'opposites-activity.js:300', 'opposites-activity.js:301',
+  'opposites-activity.js:319', 'opposites-activity.js:320', 'opposites-activity.js:323',
+  'opposites-activity.js:331', 'opposites-activity.js:334', 'patchwork-meadow-activity.js:231',
+  'patchwork-meadow-activity.js:237', 'point-of-view-activity.js:159', 'rhyme-shop-activity.js:150',
+  'rhyme-shop-activity.js:151', 'rhyme-shop-activity.js:170', 'rhyme-shop-activity.js:174',
   'shades-activity.js:113', 'shades-activity.js:117', 'shades-activity.js:121',
-  'skipcount-activity.js:157'
+  'skipcount-activity.js:172'
 ]);
 
 const hits = scan();

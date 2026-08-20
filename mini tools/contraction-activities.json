@@ -3,51 +3,477 @@
     "id": "contraction.apostrophe.l-2-2-c",
     "tool": "contraction-activity",
     "task_template": "contraction",
-    "alignment": { "framework": "CCSS", "code": "L.2.2.c", "grade": "2", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.2.2.c",
+      "grade": "2",
+      "strand": "Language"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "ct-dont",   "word1": "do",   "word2": "not",  "combined": "dont",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": false, "family": "nt" },
-        { "id": "ct-isnt",   "word1": "is",   "word2": "not",  "combined": "isnt",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": false, "family": "nt" },
-        { "id": "ct-didnt",  "word1": "did",  "word2": "not",  "combined": "didnt", "apostropheIndex": 4, "wrongIndex": 3, "irregular": false, "family": "nt" },
-        { "id": "ct-its",    "word1": "it",   "word2": "is",   "combined": "its",   "apostropheIndex": 2, "wrongIndex": 1, "irregular": false, "family": "s" },
-        { "id": "ct-youre",  "word1": "you",  "word2": "are",  "combined": "youre", "apostropheIndex": 3, "wrongIndex": 4, "irregular": false, "family": "re" },
-        { "id": "ct-youll",  "word1": "you",  "word2": "will", "combined": "youll", "apostropheIndex": 3, "wrongIndex": 4, "irregular": false, "family": "ll" },
-        { "id": "ct-im",     "word1": "I",    "word2": "am",   "combined": "Im",    "apostropheIndex": 1, "wrongIndex": 2, "irregular": false, "family": "m" },
-        { "id": "ct-wont",   "word1": "will", "word2": "not",  "combined": "wont",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": true,  "family": "nt" },
-        { "id": "ct-cant",   "word1": "can",  "word2": "not",  "combined": "cant",  "apostropheIndex": 3, "wrongIndex": 2, "irregular": true,  "family": "nt" }
+        {
+          "id": "ct-dont",
+          "word1": "do",
+          "word2": "not",
+          "combined": "dont",
+          "apostropheIndex": 3,
+          "wrongIndex": 2,
+          "irregular": false,
+          "family": "nt"
+        },
+        {
+          "id": "ct-isnt",
+          "word1": "is",
+          "word2": "not",
+          "combined": "isnt",
+          "apostropheIndex": 3,
+          "wrongIndex": 2,
+          "irregular": false,
+          "family": "nt"
+        },
+        {
+          "id": "ct-didnt",
+          "word1": "did",
+          "word2": "not",
+          "combined": "didnt",
+          "apostropheIndex": 4,
+          "wrongIndex": 3,
+          "irregular": false,
+          "family": "nt"
+        },
+        {
+          "id": "ct-its",
+          "word1": "it",
+          "word2": "is",
+          "combined": "its",
+          "apostropheIndex": 2,
+          "wrongIndex": 1,
+          "irregular": false,
+          "family": "s"
+        },
+        {
+          "id": "ct-youre",
+          "word1": "you",
+          "word2": "are",
+          "combined": "youre",
+          "apostropheIndex": 3,
+          "wrongIndex": 4,
+          "irregular": false,
+          "family": "re"
+        },
+        {
+          "id": "ct-youll",
+          "word1": "you",
+          "word2": "will",
+          "combined": "youll",
+          "apostropheIndex": 3,
+          "wrongIndex": 4,
+          "irregular": false,
+          "family": "ll"
+        },
+        {
+          "id": "ct-im",
+          "word1": "I",
+          "word2": "am",
+          "combined": "Im",
+          "apostropheIndex": 1,
+          "wrongIndex": 2,
+          "irregular": false,
+          "family": "m"
+        },
+        {
+          "id": "ct-wont",
+          "word1": "will",
+          "word2": "not",
+          "combined": "wont",
+          "apostropheIndex": 3,
+          "wrongIndex": 2,
+          "irregular": true,
+          "family": "nt"
+        },
+        {
+          "id": "ct-cant",
+          "word1": "can",
+          "word2": "not",
+          "combined": "cant",
+          "apostropheIndex": 3,
+          "wrongIndex": 2,
+          "irregular": true,
+          "family": "nt"
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "in-dem",  "band": 1, "word1": "in",  "word2": "dem", "fusion": "im",   "foils": ["ins", "am"] },
-          { "id": "an-dem",  "band": 1, "word1": "an",  "word2": "dem", "fusion": "am",   "foils": ["ans", "im"] },
-          { "id": "zu-dem",  "band": 1, "word1": "zu",  "word2": "dem", "fusion": "zum",  "foils": ["zur", "vom"] },
-          { "id": "zu-der",  "band": 2, "word1": "zu",  "word2": "der", "fusion": "zur",  "foils": ["zum", "beim"] },
-          { "id": "in-das",  "band": 2, "word1": "in",  "word2": "das", "fusion": "ins",  "foils": ["im", "ans"] },
-          { "id": "bei-dem", "band": 2, "word1": "bei", "word2": "dem", "fusion": "beim", "foils": ["vom", "zum"] },
-          { "id": "von-dem", "band": 3, "word1": "von", "word2": "dem", "fusion": "vom",  "foils": ["beim", "zum"] },
-          { "id": "an-das",  "band": 3, "word1": "an",  "word2": "das", "fusion": "ans",  "foils": ["am", "ins"] }
+          {
+            "id": "in-dem",
+            "band": 1,
+            "word1": "in",
+            "word2": "dem",
+            "fusion": "im",
+            "foils": [
+              "ins",
+              "am"
+            ]
+          },
+          {
+            "id": "an-dem",
+            "band": 1,
+            "word1": "an",
+            "word2": "dem",
+            "fusion": "am",
+            "foils": [
+              "ans",
+              "im"
+            ]
+          },
+          {
+            "id": "zu-dem",
+            "band": 1,
+            "word1": "zu",
+            "word2": "dem",
+            "fusion": "zum",
+            "foils": [
+              "zur",
+              "vom"
+            ]
+          },
+          {
+            "id": "zu-der",
+            "band": 2,
+            "word1": "zu",
+            "word2": "der",
+            "fusion": "zur",
+            "foils": [
+              "zum",
+              "beim"
+            ]
+          },
+          {
+            "id": "in-das",
+            "band": 2,
+            "word1": "in",
+            "word2": "das",
+            "fusion": "ins",
+            "foils": [
+              "im",
+              "ans"
+            ]
+          },
+          {
+            "id": "bei-dem",
+            "band": 2,
+            "word1": "bei",
+            "word2": "dem",
+            "fusion": "beim",
+            "foils": [
+              "vom",
+              "zum"
+            ]
+          },
+          {
+            "id": "von-dem",
+            "band": 3,
+            "word1": "von",
+            "word2": "dem",
+            "fusion": "vom",
+            "foils": [
+              "beim",
+              "zum"
+            ]
+          },
+          {
+            "id": "an-das",
+            "band": 3,
+            "word1": "an",
+            "word2": "das",
+            "fusion": "ans",
+            "foils": [
+              "am",
+              "ins"
+            ]
+          }
         ],
         "fr": [
-          { "id": "el-le-ami",     "band": 1, "word1": "le",  "word2": "ami",     "fusion": "l'ami",     "foils": ["le ami", "lami"] },
-          { "id": "el-la-ecole",   "band": 1, "word1": "la",  "word2": "école",   "fusion": "l'école",   "foils": ["la école", "lécole"] },
-          { "id": "el-je-aime",    "band": 2, "word1": "je",  "word2": "aime",    "fusion": "j'aime",    "foils": ["je aime", "jaime"] },
-          { "id": "el-de-eau",     "band": 2, "word1": "de",  "word2": "eau",     "fusion": "d'eau",     "foils": ["de eau", "deau"] },
-          { "id": "el-ce-est",     "band": 2, "word1": "ce",  "word2": "est",     "fusion": "c'est",     "foils": ["ce est", "cest"] },
-          { "id": "el-me-appelle", "band": 3, "word1": "me",  "word2": "appelle", "fusion": "m'appelle", "foils": ["me appelle", "mappelle"] },
-          { "id": "el-que-il",     "band": 3, "word1": "que", "word2": "il",      "fusion": "qu'il",     "foils": ["que il", "quil"] },
-          { "id": "el-ne-a",       "band": 3, "word1": "ne",  "word2": "a",       "fusion": "n'a",       "foils": ["ne a", "na"] },
-          { "id": "el-la-heure",   "band": 3, "word1": "la",  "word2": "heure",   "fusion": "l'heure",   "foils": ["la heure", "lheure"] }
+          {
+            "id": "el-le-ami",
+            "band": 1,
+            "word1": "le",
+            "word2": "ami",
+            "fusion": "l'ami",
+            "foils": [
+              "le ami",
+              "lami"
+            ]
+          },
+          {
+            "id": "el-la-ecole",
+            "band": 1,
+            "word1": "la",
+            "word2": "école",
+            "fusion": "l'école",
+            "foils": [
+              "la école",
+              "lécole"
+            ]
+          },
+          {
+            "id": "el-je-aime",
+            "band": 2,
+            "word1": "je",
+            "word2": "aime",
+            "fusion": "j'aime",
+            "foils": [
+              "je aime",
+              "jaime"
+            ]
+          },
+          {
+            "id": "el-de-eau",
+            "band": 2,
+            "word1": "de",
+            "word2": "eau",
+            "fusion": "d'eau",
+            "foils": [
+              "de eau",
+              "deau"
+            ]
+          },
+          {
+            "id": "el-ce-est",
+            "band": 2,
+            "word1": "ce",
+            "word2": "est",
+            "fusion": "c'est",
+            "foils": [
+              "ce est",
+              "cest"
+            ]
+          },
+          {
+            "id": "el-me-appelle",
+            "band": 3,
+            "word1": "me",
+            "word2": "appelle",
+            "fusion": "m'appelle",
+            "foils": [
+              "me appelle",
+              "mappelle"
+            ]
+          },
+          {
+            "id": "el-que-il",
+            "band": 3,
+            "word1": "que",
+            "word2": "il",
+            "fusion": "qu'il",
+            "foils": [
+              "que il",
+              "quil"
+            ]
+          },
+          {
+            "id": "el-ne-a",
+            "band": 3,
+            "word1": "ne",
+            "word2": "a",
+            "fusion": "n'a",
+            "foils": [
+              "ne a",
+              "na"
+            ]
+          },
+          {
+            "id": "el-la-heure",
+            "band": 3,
+            "word1": "la",
+            "word2": "heure",
+            "fusion": "l'heure",
+            "foils": [
+              "la heure",
+              "lheure"
+            ]
+          }
         ],
         "es": [
-          { "id": "a-el-parque",  "band": 1, "word1": "a",  "word2": "el parque",  "fusion": "al parque",  "foils": ["a el parque", "del parque"] },
-          { "id": "de-el-gato",   "band": 1, "word1": "de", "word2": "el gato",    "fusion": "del gato",   "foils": ["de el gato", "al gato"] },
-          { "id": "a-el-mercado", "band": 1, "word1": "a",  "word2": "el mercado", "fusion": "al mercado", "foils": ["a el mercado", "del mercado"] },
-          { "id": "de-el-salon",  "band": 2, "word1": "de", "word2": "el salón",   "fusion": "del salón",  "foils": ["de el salón", "al salón"] },
-          { "id": "a-el-rio",     "band": 2, "word1": "a",  "word2": "el río",     "fusion": "al río",     "foils": ["a el río", "del río"] },
-          { "id": "de-el-campo",  "band": 2, "word1": "de", "word2": "el campo",   "fusion": "del campo",  "foils": ["de el campo", "al campo"] },
-          { "id": "a-el-bosque",  "band": 3, "word1": "a",  "word2": "el bosque",  "fusion": "al bosque",  "foils": ["a el bosque", "del bosque"] },
-          { "id": "de-el-arbol",  "band": 3, "word1": "de", "word2": "el árbol",   "fusion": "del árbol",  "foils": ["de el árbol", "al árbol"] }
+          {
+            "id": "a-el-parque",
+            "band": 1,
+            "word1": "a",
+            "word2": "el parque",
+            "fusion": "al parque",
+            "foils": [
+              "a el parque",
+              "del parque"
+            ]
+          },
+          {
+            "id": "de-el-gato",
+            "band": 1,
+            "word1": "de",
+            "word2": "el gato",
+            "fusion": "del gato",
+            "foils": [
+              "de el gato",
+              "al gato"
+            ]
+          },
+          {
+            "id": "a-el-mercado",
+            "band": 1,
+            "word1": "a",
+            "word2": "el mercado",
+            "fusion": "al mercado",
+            "foils": [
+              "a el mercado",
+              "del mercado"
+            ]
+          },
+          {
+            "id": "de-el-salon",
+            "band": 2,
+            "word1": "de",
+            "word2": "el salón",
+            "fusion": "del salón",
+            "foils": [
+              "de el salón",
+              "al salón"
+            ]
+          },
+          {
+            "id": "a-el-rio",
+            "band": 2,
+            "word1": "a",
+            "word2": "el río",
+            "fusion": "al río",
+            "foils": [
+              "a el río",
+              "del río"
+            ]
+          },
+          {
+            "id": "de-el-campo",
+            "band": 2,
+            "word1": "de",
+            "word2": "el campo",
+            "fusion": "del campo",
+            "foils": [
+              "de el campo",
+              "al campo"
+            ]
+          },
+          {
+            "id": "a-el-bosque",
+            "band": 3,
+            "word1": "a",
+            "word2": "el bosque",
+            "fusion": "al bosque",
+            "foils": [
+              "a el bosque",
+              "del bosque"
+            ]
+          },
+          {
+            "id": "de-el-arbol",
+            "band": 3,
+            "word1": "de",
+            "word2": "el árbol",
+            "fusion": "del árbol",
+            "foils": [
+              "de el árbol",
+              "al árbol"
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "ao-parque",
+            "band": 1,
+            "word1": "a",
+            "word2": "o parque",
+            "fusion": "ao parque",
+            "foils": [
+              "a o parque",
+              "à parque"
+            ]
+          },
+          {
+            "id": "a-escola",
+            "band": 1,
+            "word1": "a",
+            "word2": "a escola",
+            "fusion": "à escola",
+            "foils": [
+              "a a escola",
+              "ao escola"
+            ]
+          },
+          {
+            "id": "no-mercado",
+            "band": 1,
+            "word1": "em",
+            "word2": "o mercado",
+            "fusion": "no mercado",
+            "foils": [
+              "em o mercado",
+              "na mercado"
+            ]
+          },
+          {
+            "id": "na-piscina",
+            "band": 2,
+            "word1": "em",
+            "word2": "a piscina",
+            "fusion": "na piscina",
+            "foils": [
+              "em a piscina",
+              "no piscina"
+            ]
+          },
+          {
+            "id": "ao-cinema",
+            "band": 2,
+            "word1": "a",
+            "word2": "o cinema",
+            "fusion": "ao cinema",
+            "foils": [
+              "a o cinema",
+              "à cinema"
+            ]
+          },
+          {
+            "id": "a-praia",
+            "band": 2,
+            "word1": "a",
+            "word2": "a praia",
+            "fusion": "à praia",
+            "foils": [
+              "a a praia",
+              "ao praia"
+            ]
+          },
+          {
+            "id": "no-quintal",
+            "band": 3,
+            "word1": "em",
+            "word2": "o quintal",
+            "fusion": "no quintal",
+            "foils": [
+              "em o quintal",
+              "na quintal"
+            ]
+          },
+          {
+            "id": "na-casa",
+            "band": 3,
+            "word1": "em",
+            "word2": "a casa",
+            "fusion": "na casa",
+            "foils": [
+              "em a casa",
+              "no casa"
+            ]
+          }
         ]
       }
     },
@@ -55,19 +481,22 @@
       "en": "contractions-with-apostrophes",
       "de": "im-am-zum-praeposition-artikel-verschmelzung",
       "fr": "former-les-elisions-avec-l-apostrophe-ce1",
-      "es": "contracciones-al-y-del-preposicion-articulo-segundo-grado"
+      "es": "contracciones-al-y-del-preposicion-articulo-segundo-grado",
+      "pt": "contracao-ao-a-no-na-preposicao-artigo"
     },
     "page_title": {
       "en": "Nib's Apostrophe Seat — Contractions (Grade 2)",
       "de": "Kurzformen: im, am, zum – Präposition & Artikel verbinden",
       "fr": "La place de Nib — L'élision et l'apostrophe (CE1)",
-      "es": "Contracciones al y del – Gramática interactiva 2.º grado"
+      "es": "Contracciones al y del – Gramática interactiva 2.º grado",
+      "pt": "Contração ao, à, no, na — juntar preposição e artigo (2º ano)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help Nib the apostrophe-spirit form contractions. Read the two words, then pick the contraction that drops the right letters and puts the apostrophe in exactly the right spot. A friendly first look at how an apostrophe marks the missing letters. Common Core L.2.2.c.",
       "de": "Kostenlose interaktive Übung: „in dem“ wird „im“. Dein Kind verschmilzt Präposition & Artikel zu im, am, zum, ins – spielerisch, ohne Zeitdruck, ohne Punkte.",
       "fr": "Avec Nib, le petit esprit de l'apostrophe, votre enfant apprend à écrire correctement « l'ami » plutôt que « le ami ». À chaque tour, il observe deux mots à réunir et tape la bonne écriture parmi trois propositions. C'est gratuit, interactif, ça se joue directement dans le navigateur, sans minuteur ni score : juste le plaisir de comprendre.",
-      "es": "Actividad interactiva y gratis: los niños juntan «a» o «de» con «el» para formar las contracciones «al» y «del» y eligen la escritura correcta. Ideal para 2.º grado."
+      "es": "Actividad interactiva y gratis: los niños juntan «a» o «de» con «el» para formar las contracciones «al» y «del» y eligen la escritura correcta. Ideal para 2.º grado.",
+      "pt": "Juntinho adora juntar palavras: uma preposição e um artigo viram uma palavra só — ao, à, no, na. A criança lê as duas palavrinhas e toca na contração escrita do jeito certo, sem apóstrofo. Uma atividade tranquila de gramática, alinhada à BNCC, para o 2º ano do Ensino Fundamental."
     },
     "kid_prompt_template": "contraction"
   }

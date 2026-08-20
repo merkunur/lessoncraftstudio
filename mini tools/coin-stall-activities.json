@@ -471,6 +471,43 @@
             "tint": "#B8B8B8",
             "diameter": 27
           }
+        ],
+        "pt": [
+          {
+            "den": "25c",
+            "value": 25,
+            "glyph": "25¢",
+            "tint": "#B87333",
+            "diameter": 19
+          },
+          {
+            "den": "50c",
+            "value": 50,
+            "glyph": "50¢",
+            "tint": "#C9CBD4",
+            "diameter": 22
+          },
+          {
+            "den": "1r",
+            "value": 100,
+            "glyph": "R$1",
+            "tint": "#D9B35C",
+            "diameter": 25
+          },
+          {
+            "den": "2r",
+            "value": 200,
+            "glyph": "R$2",
+            "tint": "#7FA8D0",
+            "diameter": 28
+          },
+          {
+            "den": "5r",
+            "value": 500,
+            "glyph": "R$5",
+            "tint": "#9B8CC4",
+            "diameter": 30
+          }
         ]
       },
       "roundsL10n": {
@@ -1286,6 +1323,276 @@
               "1p"
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "conta-caixa",
+            "cog": "count-set",
+            "band": 1,
+            "legendTier": "none",
+            "scenario": "Otto conta o caixa. Quanto vale?",
+            "pile": [
+              {
+                "den": "2r",
+                "count": 2
+              },
+              {
+                "den": "50c",
+                "count": 1
+              }
+            ],
+            "options": [
+              400,
+              450,
+              500,
+              550
+            ]
+          },
+          {
+            "id": "faz-300",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "O pão custa R$3. Pague certinho.",
+            "target": 300,
+            "purse": [
+              "2r",
+              "1r",
+              "1r",
+              "50c",
+              "50c",
+              "1r",
+              "2r",
+              "25c"
+            ]
+          },
+          {
+            "id": "faz-250",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "O suco custa R$2 e 50 centavos. Pague certinho.",
+            "target": 250,
+            "purse": [
+              "2r",
+              "50c",
+              "1r",
+              "50c",
+              "25c",
+              "1r",
+              "2r",
+              "25c"
+            ]
+          },
+          {
+            "id": "faz-700",
+            "cog": "make-amount",
+            "band": 3,
+            "legendTier": "none",
+            "scenario": "A bola custa R$7. Pague certinho.",
+            "target": 700,
+            "purse": [
+              "5r",
+              "2r",
+              "1r",
+              "2r",
+              "50c",
+              "1r",
+              "5r",
+              "1r"
+            ]
+          },
+          {
+            "id": "menos-350",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "O caderno custa R$3 e 50 centavos. Use as MENOS moedas.",
+            "target": 350,
+            "purse": [
+              "2r",
+              "1r",
+              "50c",
+              "1r",
+              "50c",
+              "2r",
+              "25c",
+              "1r"
+            ]
+          },
+          {
+            "id": "menos-600",
+            "cog": "fewest",
+            "band": 3,
+            "legendTier": "none",
+            "scenario": "A mochila custa R$6. Use as MENOS moedas.",
+            "target": 600,
+            "purse": [
+              "5r",
+              "1r",
+              "2r",
+              "2r",
+              "1r",
+              "50c",
+              "5r",
+              "1r"
+            ]
+          },
+          {
+            "id": "troco-250",
+            "cog": "change",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "O sorvete custa R$2 e 50 centavos. Você paga com R$5. Dê o troco.",
+            "price": 250,
+            "paid": 500,
+            "purse": [
+              "2r",
+              "50c",
+              "1r",
+              "1r",
+              "50c",
+              "2r",
+              "25c",
+              "1r"
+            ]
+          },
+          {
+            "id": "troco-300",
+            "cog": "change",
+            "band": 3,
+            "legendTier": "none",
+            "scenario": "O picolé custa R$2. Você paga com R$5. Dê o troco.",
+            "price": 200,
+            "paid": 500,
+            "purse": [
+              "2r",
+              "1r",
+              "1r",
+              "50c",
+              "2r",
+              "1r",
+              "50c",
+              "25c"
+            ]
+          },
+          {
+            "id": "da-curto",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "O brinquedo custa R$4. Otto tem estas moedas. Dá para pagar?",
+            "price": 400,
+            "pile": [
+              {
+                "den": "2r",
+                "count": 1
+              },
+              {
+                "den": "1r",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": "da-certo",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "O carrinho custa R$4. Otto tem estas moedas. Dá para pagar?",
+            "price": 400,
+            "pile": [
+              {
+                "den": "2r",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "id": "duas-200",
+            "cog": "two-ways",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "R$2 é uma cédula de R$2. Faça R$2 de outra forma!",
+            "target": 200,
+            "shownSet": [
+              "2r"
+            ],
+            "purse": [
+              "1r",
+              "1r",
+              "50c",
+              "50c",
+              "2r",
+              "1r",
+              "50c",
+              "25c"
+            ]
+          },
+          {
+            "id": "duas-300",
+            "cog": "two-ways",
+            "band": 3,
+            "legendTier": "none",
+            "scenario": "Faça R$3 de DUAS formas diferentes.",
+            "target": 300,
+            "shownSet": [
+              "2r",
+              "1r"
+            ],
+            "purse": [
+              "1r",
+              "1r",
+              "1r",
+              "2r",
+              "50c",
+              "50c",
+              "1r",
+              "2r"
+            ]
+          },
+          {
+            "id": "troca-1r",
+            "cog": "trade",
+            "band": 2,
+            "legendTier": "none",
+            "scenario": "Troque a moeda de R$1 por moedas menores.",
+            "offer": {
+              "den": "1r",
+              "count": 1
+            },
+            "purse": [
+              "25c",
+              "25c",
+              "25c",
+              "25c",
+              "50c",
+              "50c",
+              "1r",
+              "50c"
+            ]
+          },
+          {
+            "id": "troca-5r",
+            "cog": "trade",
+            "band": 3,
+            "legendTier": "none",
+            "scenario": "Troque a cédula de R$5 por dinheiro menor.",
+            "offer": {
+              "den": "5r",
+              "count": 1
+            },
+            "purse": [
+              "1r",
+              "1r",
+              "1r",
+              "1r",
+              "1r",
+              "2r",
+              "2r",
+              "5r"
+            ]
+          }
         ]
       }
     },
@@ -1294,19 +1601,22 @@
       "en": "pips-market-stall",
       "de": "rechnen-mit-euro-und-cent-klasse-2",
       "fr": "payer-et-rendre-la-monnaie-euros-centimes-ce1",
-      "es": "contar-dinero-pesos-y-centavos-segundo-grado"
+      "es": "contar-dinero-pesos-y-centavos-segundo-grado",
+      "pt": "contar-dinheiro-reais-e-centavos-terceiro-ano"
     },
     "page_title": {
       "en": "Pip's Market Stall — Counting Coins & Making Change",
       "de": "Rechnen mit Geld – Euro und Cent online üben (Klasse 2)",
       "fr": "Exercices de monnaie CE1 – en ligne (euros et centimes)",
-      "es": "Contar dinero: pesos y centavos – 2.º grado"
+      "es": "Contar dinero: pesos y centavos – 2.º grado",
+      "pt": "Contar dinheiro: reais e centavos – 3º ano"
     },
     "page_intro": {
       "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8.",
       "de": "Rechnen mit Geld in Klasse 2: mit Euro und Cent an Ottos Stand bezahlen und rechnen. Kostenlos online üben, ohne Anmeldung.",
       "fr": "Exercices de monnaie CE1 en ligne : payer et rendre la monnaie en euros et centimes. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratis de dinero: tu hijo/a paga, cuenta y da cambio con monedas mexicanas (50¢, $1, $2, $5, $10) en el puesto de Otto la nutria. Ideal para 2.º grado."
+      "es": "Actividad interactiva y gratis de dinero: tu hijo/a paga, cuenta y da cambio con monedas mexicanas (50¢, $1, $2, $5, $10) en el puesto de Otto la nutria. Ideal para 2.º grado.",
+      "pt": "Atividade interativa e grátis de dinheiro: no balcão do Otto, a lontra, seu aluno conta o caixa, paga o preço certo de um lanchinho e dá o troco — tudo com moedas e cédulas do real. Uma habilidade que serve para a vida toda, sem pressa nem pontos. Alinhada à BNCC para os anos iniciais."
     },
     "kid_prompt_template": "coin-stall"
   }

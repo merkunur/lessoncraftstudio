@@ -2218,6 +2218,550 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "r1_urso_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "urso",
+            "paragraph": [
+              "No inverno faz muito frio.",
+              "O urso tem um pelo bem grosso.",
+              "Assim o urso mantém o corpo com calor.",
+              "Na toca ele fica quentinho."
+            ],
+            "topicId": "urso_calor",
+            "fish": [
+              {
+                "id": "urso_calor",
+                "phrase": "O urso mantém o corpo com calor.",
+                "key": "calor",
+                "picture": null
+              },
+              {
+                "id": "urso_pelo",
+                "phrase": "O urso tem um pelo grosso.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "urso_toca",
+                "phrase": "O urso descansa na toca.",
+                "key": "toca",
+                "picture": null
+              },
+              {
+                "id": "urso_frutas",
+                "phrase": "O urso come muitas frutinhas.",
+                "key": "frutinhas",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r2_urso_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "urso",
+            "paragraph": [
+              "O inverno é longo e frio.",
+              "O urso procura uma toca quentinha.",
+              "Ali o urso descansa bem quieto.",
+              "O pelo grosso mantém o corpo com calor."
+            ],
+            "topicId": "urso_toca",
+            "fish": [
+              {
+                "id": "urso_calor",
+                "phrase": "O urso mantém o corpo com calor.",
+                "key": "calor",
+                "picture": null
+              },
+              {
+                "id": "urso_pelo",
+                "phrase": "O urso tem um pelo grosso.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "urso_toca",
+                "phrase": "O urso descansa na toca.",
+                "key": "toca",
+                "picture": null
+              },
+              {
+                "id": "urso_frutas",
+                "phrase": "O urso come muitas frutinhas.",
+                "key": "frutinhas",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "urso_calor",
+                "belongs": true
+              },
+              {
+                "id": "urso_pelo",
+                "belongs": true
+              },
+              {
+                "id": "urso_frutas",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r3_urso_supply",
+            "cog": "supply-detail",
+            "band": 3,
+            "group": "urso",
+            "paragraph": [
+              "Quando chega o frio, o urso caminha pela floresta.",
+              "O urso sente o frio na floresta.",
+              "O pelo grosso protege o urso do frio.",
+              "Depois o urso descansa na toca."
+            ],
+            "topicId": "urso_pelo",
+            "fish": [
+              {
+                "id": "urso_calor",
+                "phrase": "O urso mantém o corpo com calor.",
+                "key": "calor",
+                "picture": null
+              },
+              {
+                "id": "urso_pelo",
+                "phrase": "O urso tem um pelo grosso.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "urso_toca",
+                "phrase": "O urso descansa na toca.",
+                "key": "toca",
+                "picture": null
+              },
+              {
+                "id": "urso_frutas",
+                "phrase": "O urso come muitas frutinhas.",
+                "key": "frutinhas",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_urso_floresta",
+                "phrase": "O urso caminha pela floresta.",
+                "key": "floresta",
+                "picture": null,
+                "belongs": true
+              },
+              {
+                "id": "alt_urso_rio",
+                "phrase": "O urso nada no rio.",
+                "key": "rio",
+                "picture": null,
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r4_abelha_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "abelha",
+            "paragraph": [
+              "A abelha voa até muitas flores.",
+              "Com elas a abelha faz um mel bem doce.",
+              "As asas rápidas zumbem enquanto isso.",
+              "Assim nasce um docinho delicioso."
+            ],
+            "topicId": "abelha_mel",
+            "fish": [
+              {
+                "id": "abelha_flores",
+                "phrase": "A abelha visita as flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abelha_asas",
+                "phrase": "A abelha voa com as asas.",
+                "key": "asas",
+                "picture": null
+              },
+              {
+                "id": "abelha_mel",
+                "phrase": "A abelha faz mel.",
+                "key": "mel",
+                "picture": null
+              },
+              {
+                "id": "abelha_colmeia",
+                "phrase": "A abelha mora na colmeia.",
+                "key": "colmeia",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r5_abelha_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "abelha",
+            "paragraph": [
+              "Muitas abelhas têm asas pequenas.",
+              "Elas vivem juntas numa grande colmeia.",
+              "Ali guardam todo o seu mel.",
+              "No inverno assim têm comida suficiente."
+            ],
+            "topicId": "abelha_colmeia",
+            "fish": [
+              {
+                "id": "abelha_flores",
+                "phrase": "A abelha visita as flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abelha_asas",
+                "phrase": "A abelha voa com as asas.",
+                "key": "asas",
+                "picture": null
+              },
+              {
+                "id": "abelha_mel",
+                "phrase": "A abelha faz mel.",
+                "key": "mel",
+                "picture": null
+              },
+              {
+                "id": "abelha_colmeia",
+                "phrase": "A abelha mora na colmeia.",
+                "key": "colmeia",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r6_abelha_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "abelha",
+            "paragraph": [
+              "A abelha voa até o jardim.",
+              "Ela visita muitas flores coloridas.",
+              "Enquanto isso mexe as suas asas.",
+              "Do néctar das flores sai um mel doce."
+            ],
+            "topicId": "abelha_flores",
+            "fish": [
+              {
+                "id": "abelha_flores",
+                "phrase": "A abelha visita as flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abelha_asas",
+                "phrase": "A abelha voa com as asas.",
+                "key": "asas",
+                "picture": null
+              },
+              {
+                "id": "abelha_mel",
+                "phrase": "A abelha faz mel.",
+                "key": "mel",
+                "picture": null
+              },
+              {
+                "id": "abelha_colmeia",
+                "phrase": "A abelha mora na colmeia.",
+                "key": "colmeia",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "abelha_mel",
+                "belongs": true
+              },
+              {
+                "id": "abelha_asas",
+                "belongs": true
+              },
+              {
+                "id": "abelha_colmeia",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r7_pato_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "pato",
+            "paragraph": [
+              "O pato vive feliz perto do lago.",
+              "O dia todo ele nada no lago.",
+              "Ali pega peixes pequenos.",
+              "À tardinha o pato grasna baixinho."
+            ],
+            "topicId": "pato_lago",
+            "fish": [
+              {
+                "id": "pato_peixes",
+                "phrase": "O pato pega peixes pequenos.",
+                "key": "peixes",
+                "picture": null
+              },
+              {
+                "id": "pato_ninho",
+                "phrase": "O pato faz um ninho.",
+                "key": "ninho",
+                "picture": null
+              },
+              {
+                "id": "pato_grasna",
+                "phrase": "O pato grasna alto.",
+                "key": "grasna",
+                "picture": null
+              },
+              {
+                "id": "pato_lago",
+                "phrase": "O pato vive no lago.",
+                "key": "lago",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r8_pato_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "pato",
+            "paragraph": [
+              "O pato procura um lugar calmo perto do lago.",
+              "Ali ele faz um ninho macio.",
+              "Coloca quatro ovinhos dentro.",
+              "Às vezes grasna bem contente."
+            ],
+            "topicId": "pato_ninho",
+            "fish": [
+              {
+                "id": "pato_peixes",
+                "phrase": "O pato pega peixes pequenos.",
+                "key": "peixes",
+                "picture": null
+              },
+              {
+                "id": "pato_ninho",
+                "phrase": "O pato faz um ninho.",
+                "key": "ninho",
+                "picture": null
+              },
+              {
+                "id": "pato_grasna",
+                "phrase": "O pato grasna alto.",
+                "key": "grasna",
+                "picture": null
+              },
+              {
+                "id": "pato_lago",
+                "phrase": "O pato vive no lago.",
+                "key": "lago",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r9_pato_supply",
+            "cog": "supply-detail",
+            "band": 3,
+            "group": "pato",
+            "paragraph": [
+              "O pato está com fome.",
+              "No lago nadam peixes pequenos.",
+              "O pato mergulha fundo para pegar comida.",
+              "Assim ele acha o seu almoço."
+            ],
+            "topicId": "pato_peixes",
+            "fish": [
+              {
+                "id": "pato_peixes",
+                "phrase": "O pato pega peixes pequenos.",
+                "key": "peixes",
+                "picture": null
+              },
+              {
+                "id": "pato_ninho",
+                "phrase": "O pato faz um ninho.",
+                "key": "ninho",
+                "picture": null
+              },
+              {
+                "id": "pato_grasna",
+                "phrase": "O pato grasna alto.",
+                "key": "grasna",
+                "picture": null
+              },
+              {
+                "id": "pato_lago",
+                "phrase": "O pato vive no lago.",
+                "key": "lago",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_pato_mergulha",
+                "phrase": "O pato mergulha fundo na água.",
+                "key": "mergulha",
+                "picture": null,
+                "belongs": true
+              },
+              {
+                "id": "alt_pato_penas",
+                "phrase": "O pato limpa as penas.",
+                "key": "penas",
+                "picture": null,
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r10_urso_nest",
+            "cog": "nest-reject",
+            "band": 3,
+            "group": "urso",
+            "paragraph": [
+              "O urso caminha com o pelo grosso pela floresta.",
+              "Antes do inverno come muitas frutinhas.",
+              "Com elas fica gordo e cheio.",
+              "Depois dorme fundo na toca."
+            ],
+            "topicId": "urso_frutas",
+            "fish": [
+              {
+                "id": "urso_calor",
+                "phrase": "O urso mantém o corpo com calor.",
+                "key": "calor",
+                "picture": null
+              },
+              {
+                "id": "urso_pelo",
+                "phrase": "O urso tem um pelo grosso.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "urso_toca",
+                "phrase": "O urso descansa na toca.",
+                "key": "toca",
+                "picture": null
+              },
+              {
+                "id": "urso_frutas",
+                "phrase": "O urso come muitas frutinhas.",
+                "key": "frutinhas",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "urso_toca",
+                "belongs": true
+              },
+              {
+                "id": "urso_pelo",
+                "belongs": true
+              },
+              {
+                "id": "urso_calor",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r11_abelha_narrow",
+            "cog": "reject-narrow",
+            "band": 3,
+            "group": "abelha",
+            "paragraph": [
+              "A abelha voa até as flores do campo.",
+              "Para voar, a abelha precisa das suas asas.",
+              "Elas se mexem bem rápido.",
+              "Nas flores a abelha acha um mel doce."
+            ],
+            "topicId": "abelha_asas",
+            "fish": [
+              {
+                "id": "abelha_flores",
+                "phrase": "A abelha visita as flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abelha_asas",
+                "phrase": "A abelha voa com as asas.",
+                "key": "asas",
+                "picture": null
+              },
+              {
+                "id": "abelha_mel",
+                "phrase": "A abelha faz mel.",
+                "key": "mel",
+                "picture": null
+              },
+              {
+                "id": "abelha_colmeia",
+                "phrase": "A abelha mora na colmeia.",
+                "key": "colmeia",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r12_pato_pick",
+            "cog": "pick-topic",
+            "band": 3,
+            "group": "pato",
+            "paragraph": [
+              "De manhã o pato senta no seu lago.",
+              "Bem alto o pato grasna a sua canção.",
+              "Também do ninho continua cantando.",
+              "Assim todos os bichos ouvem o pato feliz."
+            ],
+            "topicId": "pato_grasna",
+            "fish": [
+              {
+                "id": "pato_peixes",
+                "phrase": "O pato pega peixes pequenos.",
+                "key": "peixes",
+                "picture": null
+              },
+              {
+                "id": "pato_ninho",
+                "phrase": "O pato faz um ninho.",
+                "key": "ninho",
+                "picture": null
+              },
+              {
+                "id": "pato_grasna",
+                "phrase": "O pato grasna alto.",
+                "key": "grasna",
+                "picture": null
+              },
+              {
+                "id": "pato_lago",
+                "phrase": "O pato vive no lago.",
+                "key": "lago",
+                "picture": null
+              }
+            ]
+          }
         ]
       }
     },
@@ -2226,19 +2770,22 @@
       "en": "nilas-idea-pond",
       "de": "hauptaussage-eines-sachtexts-erkennen-klasse-1",
       "fr": "idee-principale-texte-documentaire-gs",
-      "es": "la-idea-principal-de-un-texto-preescolar"
+      "es": "la-idea-principal-de-un-texto-preescolar",
+      "pt": "a-ideia-principal-de-um-texto-educacao-infantil"
     },
     "page_title": {
       "en": "Nila's Idea Pond — Find the Big Idea",
       "de": "Sinnerfassendes Lesen – die Hauptaussage finden (Klasse 1)",
       "fr": "Lecture GS – trouver l'idée principale – en ligne",
-      "es": "La idea principal: escuchar y comprender textos – preescolar"
+      "es": "La idea principal: escuchar y comprender textos – preescolar",
+      "pt": "A ideia principal: escutar e compreender textos – educação infantil"
     },
     "page_intro": {
       "en": "Nila the otter listens to a little story, then you find the BIG IDEA among four idea-fish — net it, watch the umbrella open, and bring the true details home. A warm Kindergarten reading game about the main topic and key details of a story read aloud, aligned to Common Core RI.K.2.",
       "de": "Sinnerfassendes Lesen üben: kurze Sachtexte lesen und die Hauptaussage herausfinden. Kostenlos online, ohne Anmeldung – für Klasse 1.",
       "fr": "Lecture en GS : découvrir une histoire à l'étang de Nila et trouver l'idée principale. Gratuit, en ligne, sans inscription.",
-      "es": "Actividad interactiva y gratis de escucha: tu hijo/a oye una pequeña historia informativa y encuentra la idea principal —de qué trata— con Nila la nutria. Ideal para preescolar."
+      "es": "Actividad interactiva y gratis de escucha: tu hijo/a oye una pequeña historia informativa y encuentra la idea principal —de qué trata— con Nila la nutria. Ideal para preescolar.",
+      "pt": "Atividade interativa e gratuita de escuta: seu filho ouve uma pequena história informativa e encontra a ideia principal —do que ela fala— com a Nila, a lontra. Perfeita para a educação infantil. Alinhada à BNCC."
     },
     "kid_prompt_template": "main-idea-net"
   }

@@ -8934,6 +8934,233 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "word": "gato",
+            "correct": {
+              "noun": "cat",
+              "themeDir": "animals",
+              "word": "gato"
+            },
+            "distractors": [
+              {
+                "noun": "rooster",
+                "themeDir": "farm animals",
+                "word": "galo"
+              },
+              {
+                "noun": "duck",
+                "themeDir": "animals",
+                "word": "pato"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol"
+              }
+            ]
+          },
+          {
+            "word": "casa",
+            "correct": {
+              "noun": "house",
+              "themeDir": "miscellaneous",
+              "word": "casa"
+            },
+            "distractors": [
+              {
+                "noun": "bed",
+                "themeDir": "around the house",
+                "word": "cama"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "forest creatures",
+                "word": "sapo"
+              },
+              {
+                "noun": "cow",
+                "themeDir": "farm animals",
+                "word": "vaca"
+              }
+            ]
+          },
+          {
+            "word": "mesa",
+            "correct": {
+              "noun": "table",
+              "themeDir": "furniture",
+              "word": "mesa"
+            },
+            "distractors": [
+              {
+                "noun": "melon",
+                "themeDir": "At the Supermarket",
+                "word": "melão"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua"
+              },
+              {
+                "noun": "ox",
+                "themeDir": "farm animals",
+                "word": "boi"
+              }
+            ]
+          },
+          {
+            "word": "pato",
+            "correct": {
+              "noun": "duck",
+              "themeDir": "animals",
+              "word": "pato"
+            },
+            "distractors": [
+              {
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "pássaro"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "pets",
+                "word": "rato"
+              }
+            ]
+          },
+          {
+            "word": "bola",
+            "correct": {
+              "noun": "ball",
+              "themeDir": "toys",
+              "word": "bola"
+            },
+            "distractors": [
+              {
+                "noun": "cake",
+                "themeDir": "bakery",
+                "word": "bolo"
+              },
+              {
+                "noun": "pear",
+                "themeDir": "fruits",
+                "word": "pera"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua"
+              }
+            ]
+          },
+          {
+            "word": "lua",
+            "correct": {
+              "noun": "moon",
+              "themeDir": "space",
+              "word": "lua"
+            },
+            "distractors": [
+              {
+                "noun": "lamp",
+                "themeDir": "around the house",
+                "word": "luminária"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal"
+              },
+              {
+                "noun": "egg",
+                "themeDir": "At the Supermarket",
+                "word": "ovo"
+              }
+            ]
+          },
+          {
+            "word": "pipa",
+            "correct": {
+              "noun": "kite",
+              "themeDir": "toys",
+              "word": "pipa"
+            },
+            "distractors": [
+              {
+                "noun": "sink",
+                "themeDir": "around the house",
+                "word": "pia"
+              },
+              {
+                "noun": "pear",
+                "themeDir": "fruits",
+                "word": "pera"
+              },
+              {
+                "noun": "glass",
+                "themeDir": "kitchen tools",
+                "word": "copo"
+              }
+            ]
+          },
+          {
+            "word": "galo",
+            "correct": {
+              "noun": "rooster",
+              "themeDir": "farm animals",
+              "word": "galo"
+            },
+            "distractors": [
+              {
+                "noun": "cat",
+                "themeDir": "animals",
+                "word": "gato"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pão"
+              },
+              {
+                "noun": "grapes",
+                "themeDir": "At the Supermarket",
+                "word": "uvas"
+              }
+            ]
+          },
+          {
+            "word": "sofá",
+            "correct": {
+              "noun": "sofa",
+              "themeDir": "furniture",
+              "word": "sofá"
+            },
+            "distractors": [
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol"
+              },
+              {
+                "noun": "leaf",
+                "themeDir": "miscellaneous",
+                "word": "folha"
+              },
+              {
+                "noun": "ring",
+                "themeDir": "accessories",
+                "word": "anel"
+              }
+            ]
+          }
         ]
       }
     },
@@ -8941,17 +9168,20 @@
     "slug": {
       "en": "read-the-word-tap-the-picture",
       "de": "erste-woerter-lesen-klasse-1",
-      "es": "leer-primeras-palabras-primer-grado"
+      "es": "leer-primeras-palabras-primer-grado",
+      "pt": "ler-as-primeiras-palavras-1-ano"
     },
     "page_title": {
       "en": "Read the Word, Tap the Picture — Decoding CVC Words",
       "de": "Lesen lernen – erste Wörter online üben (Klasse 1)",
-      "es": "Leer las primeras palabras: lectura para 1.º grado"
+      "es": "Leer las primeras palabras: lectura para 1.º grado",
+      "pt": "Ler as primeiras palavras: leitura para o 1º ano"
     },
     "page_intro": {
       "en": "Reading starts with decoding — sounding out each letter and blending the sounds into a word. Here the child reads a short printed word like cat, can, or bus, then taps the picture it names. The picture choices share beginnings on purpose (cat, cap, can), so the only way to find the right one is to read the whole word, all the way to the last sound. Take your time; there is no timer and no score. Aligned to Common Core RF.K.3 — knowing and applying grade-level phonics to decode words.",
       "de": "Lesen lernen mit Emil der Eule: kurze, lautgetreue Wörter Schritt für Schritt erlesen. Kostenlose Übungen für Klasse 1 – online, ohne Anmeldung.",
-      "es": "Actividad interactiva y gratis de lectura: tu hijo/a lee una palabra corta y toca el dibujo que le corresponde. Uno de los dibujos empieza igual, así que hay que leer toda la palabra. Con Lola la lechuza. Ideal para 1.º grado."
+      "es": "Actividad interactiva y gratis de lectura: tu hijo/a lee una palabra corta y toca el dibujo que le corresponde. Uno de los dibujos empieza igual, así que hay que leer toda la palabra. Con Lola la lechuza. Ideal para 1.º grado.",
+      "pt": "Atividade interativa e grátis de leitura: seu filho ou sua filha lê uma palavra curta e toca na figura que combina com ela. Uma das figuras começa com as mesmas letras, então é preciso ler a palavra inteira, até o fim. Com Cora, a coruja, para o 1º ano — o começo da alfabetização, sem pressa nem pontos e alinhada à BNCC."
     },
     "kid_prompt_template": "promptReadWord"
   }

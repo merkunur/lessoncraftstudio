@@ -4027,6 +4027,29 @@
         "Reconhecer os sons pelo ouvido, e não pelas letras",
         "Desenvolver a consciência fonêmica para ler e escrever, com desafios alinhados à BNCC"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Quem acompanha essa leitura é Cora, a coruja — uma leitora sábia e tranquila que fica ao lado da criança em cada palavra. Ela mostra a palavra escrita e convida seu filho ou sua filha a ler com calma, no próprio ritmo.",
+        "Uma palavra curta aparece na tela, como “gato”, e embaixo surgem quatro figuras. A criança lê as letras em silêncio, sozinha, e toca na figura que a palavra nomeia. O detalhe importante é este: uma das figuras começa com as mesmas primeiras letras, então não dá para adivinhar pelo comecinho — é preciso ler até o fim para descobrir a palavra certa.",
+        "Ler a palavra inteira, letra por letra, é um passo essencial da alfabetização: é assim que a criança aprende a decodificar de verdade. E aqui ninguém tem pressa. Cora nunca diz “errado” — se a criança se confunde, ela dá uma dica gentil para ler de novo, com calma. Não há relógio, cronômetro nem placar, só o prazer de ler. Tudo alinhado à BNCC."
+      ],
+      "practices": [
+        "Ler palavras curtas sozinho",
+        "Decodificar a palavra inteira, letra por letra",
+        "Ligar a palavra escrita à figura certa",
+        "Ler até o fim, sem adivinhar pela primeira letra"
+      ],
+      "howToPlay": [
+        "Leia a palavra que aparece.",
+        "Leia até o fim — uma figura começa igual!",
+        "Toque na figura que combina com a palavra."
+      ],
+      "learningGoals": [
+        "Ler palavras curtas de forma independente, no próprio ritmo.",
+        "Decodificar a palavra inteira, sem adivinhar pela primeira letra.",
+        "Ligar a palavra escrita ao seu significado e à figura — habilidades de leitura alinhadas à BNCC."
+      ]
     }
   }
 }

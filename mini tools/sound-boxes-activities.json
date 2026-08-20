@@ -1007,23 +1007,408 @@
               }
             ]
           }
+        ],
+        "pt": [
+          {
+            "id": "sb-pt-sol-b",
+            "position": "b",
+            "target": {
+              "noun": "sun",
+              "themeDir": "weather",
+              "word": "sol",
+              "b": "s",
+              "m": "ó",
+              "e": "l"
+            },
+            "options": [
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua",
+                "b": "l",
+                "m": "u",
+                "e": "a"
+              },
+              {
+                "noun": "sink",
+                "themeDir": "around the house",
+                "word": "pia",
+                "b": "p",
+                "m": "i",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-sal-b",
+            "position": "b",
+            "target": {
+              "noun": "salt",
+              "themeDir": "At the Supermarket",
+              "word": "sal",
+              "b": "s",
+              "m": "a",
+              "e": "l"
+            },
+            "options": [
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol",
+                "b": "s",
+                "m": "ó",
+                "e": "l"
+              },
+              {
+                "noun": "grapes",
+                "themeDir": "At the Supermarket",
+                "word": "uva",
+                "b": "u",
+                "m": "v",
+                "e": "a"
+              },
+              {
+                "noun": "river",
+                "themeDir": "camping",
+                "word": "rio",
+                "b": "r",
+                "m": "i",
+                "e": "u"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-ovo-m",
+            "position": "m",
+            "target": {
+              "noun": "egg",
+              "themeDir": "At the Supermarket",
+              "word": "ovo",
+              "b": "o",
+              "m": "v",
+              "e": "u"
+            },
+            "options": [
+              {
+                "noun": "grapes",
+                "themeDir": "At the Supermarket",
+                "word": "uva",
+                "b": "u",
+                "m": "v",
+                "e": "a"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol",
+                "b": "s",
+                "m": "ó",
+                "e": "l"
+              },
+              {
+                "noun": "sink",
+                "themeDir": "around the house",
+                "word": "pia",
+                "b": "p",
+                "m": "i",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-uva-m",
+            "position": "m",
+            "target": {
+              "noun": "grapes",
+              "themeDir": "At the Supermarket",
+              "word": "uva",
+              "b": "u",
+              "m": "v",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "ave",
+                "b": "a",
+                "m": "v",
+                "e": "i"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua",
+                "b": "l",
+                "m": "u",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-ave-m",
+            "position": "m",
+            "target": {
+              "noun": "bird",
+              "themeDir": "spring",
+              "word": "ave",
+              "b": "a",
+              "m": "v",
+              "e": "i"
+            },
+            "options": [
+              {
+                "noun": "egg",
+                "themeDir": "At the Supermarket",
+                "word": "ovo",
+                "b": "o",
+                "m": "v",
+                "e": "u"
+              },
+              {
+                "noun": "river",
+                "themeDir": "camping",
+                "word": "rio",
+                "b": "r",
+                "m": "i",
+                "e": "u"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-pia-m",
+            "position": "m",
+            "target": {
+              "noun": "sink",
+              "themeDir": "around the house",
+              "word": "pia",
+              "b": "p",
+              "m": "i",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "river",
+                "themeDir": "camping",
+                "word": "rio",
+                "b": "r",
+                "m": "i",
+                "e": "u"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua",
+                "b": "l",
+                "m": "u",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-lua-e",
+            "position": "e",
+            "target": {
+              "noun": "moon",
+              "themeDir": "space",
+              "word": "lua",
+              "b": "l",
+              "m": "u",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "grapes",
+                "themeDir": "At the Supermarket",
+                "word": "uva",
+                "b": "u",
+                "m": "v",
+                "e": "a"
+              },
+              {
+                "noun": "eye",
+                "themeDir": "body parts",
+                "word": "olho",
+                "b": "o",
+                "m": "lh",
+                "e": "u"
+              },
+              {
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "ave",
+                "b": "a",
+                "m": "v",
+                "e": "i"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-pia-e",
+            "position": "e",
+            "target": {
+              "noun": "sink",
+              "themeDir": "around the house",
+              "word": "pia",
+              "b": "p",
+              "m": "i",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua",
+                "b": "l",
+                "m": "u",
+                "e": "a"
+              },
+              {
+                "noun": "egg",
+                "themeDir": "At the Supermarket",
+                "word": "ovo",
+                "b": "o",
+                "m": "v",
+                "e": "u"
+              },
+              {
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "ave",
+                "b": "a",
+                "m": "v",
+                "e": "i"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-olho-e",
+            "position": "e",
+            "target": {
+              "noun": "eye",
+              "themeDir": "body parts",
+              "word": "olho",
+              "b": "o",
+              "m": "lh",
+              "e": "u"
+            },
+            "options": [
+              {
+                "noun": "egg",
+                "themeDir": "At the Supermarket",
+                "word": "ovo",
+                "b": "o",
+                "m": "v",
+                "e": "u"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "space",
+                "word": "lua",
+                "b": "l",
+                "m": "u",
+                "e": "a"
+              },
+              {
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "ave",
+                "b": "a",
+                "m": "v",
+                "e": "i"
+              }
+            ]
+          },
+          {
+            "id": "sb-pt-rio-e",
+            "position": "e",
+            "target": {
+              "noun": "river",
+              "themeDir": "camping",
+              "word": "rio",
+              "b": "r",
+              "m": "i",
+              "e": "u"
+            },
+            "options": [
+              {
+                "noun": "eye",
+                "themeDir": "body parts",
+                "word": "olho",
+                "b": "o",
+                "m": "lh",
+                "e": "u"
+              },
+              {
+                "noun": "grapes",
+                "themeDir": "At the Supermarket",
+                "word": "uva",
+                "b": "u",
+                "m": "v",
+                "e": "a"
+              },
+              {
+                "noun": "bird",
+                "themeDir": "spring",
+                "word": "ave",
+                "b": "a",
+                "m": "v",
+                "e": "i"
+              }
+            ]
+          }
         ]
       }
     },
     "slug": {
       "en": "sound-boxes-first-middle-last",
       "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1",
-      "es": "sonido-inicial-medio-y-final-conciencia-fonemica-primer-grado"
+      "es": "sonido-inicial-medio-y-final-conciencia-fonemica-primer-grado",
+      "pt": "som-inicial-do-meio-e-final-consciencia-fonemica-1-ano"
     },
     "page_title": {
       "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
       "de": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)",
-      "es": "Los sonidos de las palabras: inicial, de en medio y final – 1.º grado"
+      "es": "Los sonidos de las palabras: inicial, de en medio y final – 1.º grado",
+      "pt": "Os sons das palavras: inicial, do meio e final – 1º ano"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
       "de": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1.",
-      "es": "Actividad interactiva y gratis de conciencia fonémica: tu hijo/a escucha una palabra corta y encuentra otra con el mismo sonido inicial, de en medio o final. Con Coco el koala. Ideal para 1.º grado."
+      "es": "Actividad interactiva y gratis de conciencia fonémica: tu hijo/a escucha una palabra corta y encuentra otra con el mismo sonido inicial, de en medio o final. Con Coco el koala. Ideal para 1.º grado.",
+      "pt": "Com Téo, o coala que ouve com muita atenção, sua criança escuta uma palavra curtinha e procura outra que tenha o mesmo som — no começo, no meio ou no fim. Tudo é falado em voz alta, então os fones de ouvido são recomendados. É grátis, sem pressa e sem pontos, alinhado à BNCC para o início da alfabetização."
     },
     "kid_prompt_template": "sound-boxes"
   }

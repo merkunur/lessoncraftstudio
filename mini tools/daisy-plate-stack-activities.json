@@ -290,6 +290,118 @@
             ],
             "answer": "jeux"
           }
+        ],
+        "pt": [
+          {
+            "id": "sp-pt-1",
+            "band": 1,
+            "sentence": "No quintal, tem dois ___.",
+            "chips": [
+              "gatos",
+              "gato",
+              "gatoes"
+            ],
+            "answer": "gatos"
+          },
+          {
+            "id": "sp-pt-2",
+            "band": 1,
+            "sentence": "Nesta rua, tem três ___.",
+            "chips": [
+              "casas",
+              "casa",
+              "casaes"
+            ],
+            "answer": "casas"
+          },
+          {
+            "id": "sp-pt-3",
+            "band": 1,
+            "sentence": "A Margarida tem cinco ___.",
+            "chips": [
+              "bolas",
+              "bola",
+              "bolaes"
+            ],
+            "answer": "bolas"
+          },
+          {
+            "id": "sp-pt-4",
+            "band": 2,
+            "sentence": "Na festa, tem seis ___.",
+            "chips": [
+              "balões",
+              "balão",
+              "balãos"
+            ],
+            "answer": "balões"
+          },
+          {
+            "id": "sp-pt-5",
+            "band": 2,
+            "sentence": "Na camisa, tem três ___.",
+            "chips": [
+              "botões",
+              "botão",
+              "botãos"
+            ],
+            "answer": "botões"
+          },
+          {
+            "id": "sp-pt-6",
+            "band": 2,
+            "sentence": "Nós temos duas ___.",
+            "chips": [
+              "mãos",
+              "mão",
+              "mões"
+            ],
+            "answer": "mãos"
+          },
+          {
+            "id": "sp-pt-7",
+            "band": 2,
+            "sentence": "Na cesta, tem dois ___.",
+            "chips": [
+              "pães",
+              "pão",
+              "pãos"
+            ],
+            "answer": "pães"
+          },
+          {
+            "id": "sp-pt-8",
+            "band": 3,
+            "sentence": "Na fazenda, tem seis ___.",
+            "chips": [
+              "animais",
+              "animal",
+              "animals"
+            ],
+            "answer": "animais"
+          },
+          {
+            "id": "sp-pt-9",
+            "band": 3,
+            "sentence": "Na cidade, tem dois ___.",
+            "chips": [
+              "jardins",
+              "jardim",
+              "jardims"
+            ],
+            "answer": "jardins"
+          },
+          {
+            "id": "sp-pt-10",
+            "band": 3,
+            "sentence": "No vaso, tem três ___.",
+            "chips": [
+              "flores",
+              "flor",
+              "flors"
+            ],
+            "answer": "flores"
+          }
         ]
       }
     },
@@ -297,17 +409,20 @@
     "slug": {
       "en": "daisy-plate-stack",
       "de": "einzahl-und-mehrzahl-klasse-2",
-      "fr": "le-pluriel-des-noms-marque-s-et-x-ce1"
+      "fr": "le-pluriel-des-noms-marque-s-et-x-ce1",
+      "pt": "singular-e-plural-dos-substantivos-2-ano"
     },
     "page_title": {
       "en": "Daisy's Plate Stack — More Than One (Kindergarten)",
       "de": "Einzahl und Mehrzahl – online üben (Klasse 2)",
-      "fr": "Singulier et pluriel – exercice en ligne (CE1)"
+      "fr": "Singulier et pluriel – exercice en ligne (CE1)",
+      "pt": "Singular e plural: forme o plural dos substantivos – 2º ano"
     },
     "page_intro": {
       "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c.",
       "de": "Einzahl und Mehrzahl üben mit Ella der Ente: zu jedem Wort die passende Mehrzahlform finden. Klasse 2 – kostenlos online, ohne Anmeldung.",
-      "fr": "Singulier ou pluriel ? Forme le pluriel des noms avec Marguerite la cane, correction immédiate à chaque réponse. Gratuit, en ligne, sans inscription."
+      "fr": "Singulier ou pluriel ? Forme le pluriel des noms avec Marguerite la cane, correction immédiate à chaque réponse. Gratuit, en ligne, sans inscription.",
+      "pt": "Nesta atividade grátis de gramática, a Margarida, uma pata muito animada, mostra uma frase com um espaço em branco e três palavrinhas embaixo — é só tocar naquela que está no plural certo. Em português, o plural tem vários jeitos: uns substantivos só ganham um -s, outros mudam mais (balão vira balões!). Tudo sem pressa, sem pontos e no ritmo dos anos iniciais, alinhado à BNCC."
     },
     "kid_prompt_template": "daisy-plate-stack"
   }

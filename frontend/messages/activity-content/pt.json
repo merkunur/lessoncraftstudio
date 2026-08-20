@@ -4073,6 +4073,29 @@
         "Entender que a mesma quantidade pode ser cortada de jeitos diferentes.",
         "Ler frações na forma a/b, com objetivos alinhados à BNCC."
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "A Margarida é uma pata que adora ter mais de um de tudo: mais de um balão, mais de um pão, mais de um amigo para a sua lanchonete. Só que, para pedir “mais de um”, ela precisa da sua ajuda para deixar cada palavra no plural.",
+        "A cada rodada aparece uma frase curtinha com uma palavra de número, como “dois” ou “três”, e um espaço em branco. Embaixo surgem três palavras: o plural certo, a palavra ainda no singular e um plural “quase certo” que tenta enganar. Você lê com calma e toca na forma que completa a frase do jeito certinho.",
+        "O legal é que, em português, o plural não é sempre só juntar um -s: balão vira balões, animal vira animais, pão vira pães — e é isso que deixa o jogo divertido. A Margarida nunca diz “errado”: se você escolhe outra palavra, ela dá uma dica gentil para você tentar de novo. Não tem relógio, nem cronômetro, nem placar — é uma atividade alinhada à BNCC, feita para brincar e aprender sem pressa."
+      ],
+      "practices": [
+        "Formar o plural dos substantivos",
+        "Reconhecer os diferentes jeitos de fazer o plural (-s, -ões, -ais, -ns…)",
+        "Diferenciar singular e plural",
+        "Ler a frase e escolher a palavra certa"
+      ],
+      "howToPlay": [
+        "Leia a frase da Margarida.",
+        "Veja as três palavras.",
+        "Toque na que está no plural certo."
+      ],
+      "learningGoals": [
+        "Formar o plural dos substantivos com segurança.",
+        "Reconhecer os diferentes padrões de plural do português (-s, -ões, -ais, -ns…).",
+        "Diferenciar o singular do plural, com objetivos alinhados à BNCC."
+      ]
     }
   }
 }

@@ -4096,6 +4096,29 @@
         "Reconhecer os diferentes padrões de plural do português (-s, -ões, -ais, -ns…).",
         "Diferenciar o singular do plural, com objetivos alinhados à BNCC."
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "O Otto é uma lontra simpática que cuida de uma barraquinha cheia de lanchinhos. Na banca dele, você usa o dinheiro do Brasil — moedas de 25 e 50 centavos e de R$1, além das cédulas de R$2 e R$5 — para pagar o que o Otto pede. É como brincar de mercadinho, só que aprendendo de verdade.",
+        "A cada rodada, você faz uma tarefa diferente: conta quanto tem no caixa, paga o valor certinho de um lanche, dá o troco, usa as menos moedas possíveis ou troca uma moeda maior por outras menores. Aos poucos, você vai pegando o jeito de lidar com dinheiro como na padaria ou na feira.",
+        "Aqui a ideia é entender que cada moeda e cada cédula tem um valor — e esse valor a gente precisa saber de cabeça, porque nem sempre está escrito de um jeito fácil. Se algo não sair certo, o Otto nunca diz que você errou: ele dá uma dica e convida a tentar de novo. Não tem relógio, não tem cronômetro nem placar. Tudo alinhado à BNCC, no seu tempo."
+      ],
+      "practices": [
+        "Contar quanto vale um punhado de moedas",
+        "Pagar o valor certo com moedas e cédulas",
+        "Dar o troco certinho",
+        "Usar as menos moedas possíveis"
+      ],
+      "howToPlay": [
+        "Leia o que o Otto pede.",
+        "Escolha as moedas e cédulas certas.",
+        "Toque para pagar ou dar o troco."
+      ],
+      "learningGoals": [
+        "Contar quanto dinheiro há juntando moedas e cédulas",
+        "Pagar o valor certo e dar o troco",
+        "Saber quanto vale cada moeda e cada cédula, com objetivos alinhados à BNCC"
+      ]
     }
   }
 }

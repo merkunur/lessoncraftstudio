@@ -17,7 +17,7 @@
 
   var Core = global.SoundBoxesCore;
   var LANG = 'en';   // #106 — set in init from api.lang
-  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' } };
+  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' }, pt: { b: 'inicial', m: 'do meio', e: 'final' } };
   var BOX_INDEX = { b: 0, m: 1, e: 2 };
 
   var L = {
@@ -50,12 +50,22 @@
       nudgeFirst: 'Casi. Ese empieza con otro sonido. ¿Cuál empieza como {t}?',
       nudgeMid: 'Escucha otra vez. Ese sonido de en medio es distinto. ¿Cuál suena igual en medio que {t}?',
       nudgeLast: 'Casi. Ese termina con otro sonido. ¿Cuál termina como {t}?'
+    },
+    pt: {
+      qFirst: 'Qual começa com o mesmo som que {t}?',
+      qMid: 'Qual tem o mesmo som no meio que {t}?',
+      qLast: 'Qual termina com o mesmo som que {t}?',
+      win: 'Isso! {t} e {m} têm o mesmo som {pos}. 🐨',
+      hear: '🔊 Ouvir',
+      nudgeFirst: 'Quase! Escute o comecinho: qual começa como {t}?',
+      nudgeMid: 'Quase! Escute o meio: qual tem o mesmo som no meio que {t}?',
+      nudgeLast: 'Quase! Escute o finalzinho: qual termina como {t}?'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
-  function wordOf(w) { return ((LANG === 'de' || LANG === 'es') && w && w.word) ? w.word : cap(w && w.noun); }
+  function wordOf(w) { return ((LANG === 'de' || LANG === 'es' || LANG === 'pt') && w && w.word) ? w.word : cap(w && w.noun); }
   function imgUrl(w) { return '/image-library-webp/themes/' + w.themeDir + '/' + w.noun + '@2x.webp'; }
 
   function cocoSVG() {
@@ -73,8 +83,8 @@
   var SoundBoxesActivity = {
     id: 'sound-boxes-activity',
     strings: {
-      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala' },
-      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.' },
+      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala', pt: 'As caixas de som do Téo' },
+      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.', pt: 'Ouça a palavra do Téo e veja qual caixinha acende — o som do início, do meio ou do fim. Toque na figura que tem esse mesmo som!' },
       q: { en: '{q}' }
     },
 
@@ -185,7 +195,7 @@
       for (var bi = 0; bi < 3; bi++) { var bx = el('div', 'sb-box' + (BOX_INDEX[round.position] === bi ? ' is-target' : '')); boxes.appendChild(bx); }
       var hear = el('button', 'sb-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'word', text: wordOf(round.target), lang: LANG, rate: 0.8 }); } catch (e) { } }
+        if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'word', text: wordOf(round.target), lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.8 }); } catch (e) { } }
       });
       boxrow.append(boxes, hear);   /* boxes + Hear-it on ONE row → shorter stimulus (fold-critical: the shell prompt is ~200px tall at desktop) */
       stim.append(tgt, boxrow); root.appendChild(stim);
@@ -242,7 +252,7 @@
       var wrap = el('div', 'sb-sronly'); wrap.setAttribute('aria-live', 'polite');
       var cs = (round.options || []).map(function (x) { return wordOf(x); }).join(', ');
       var q = txt(this._qKey(round.position), { t: wordOf(round.target) });
-      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
+      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : LANG === 'pt' ? ('<p>' + q + ' As opções são: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
       return wrap;
     },
 

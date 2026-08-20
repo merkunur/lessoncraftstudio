@@ -4004,6 +4004,29 @@
         "Converter a hora entre “15:00” e “3:00 da tarde” sem se atrapalhar",
         "Relacionar cada hora ao seu período do dia, com objetivos alinhados à BNCC"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Téo, o coala, tem orelhas bem grandes e redondas — ele adora ouvir! Ele fala uma palavra curta, de três sons, como “sol”, e convida sua criança a escutar com calma cada pedacinho do som.",
+        "Três caixinhas aparecem na tela — a do começo, a do meio e a do fim — e uma delas acende. Sua criança escuta e toca na figura que tem o mesmo som naquela posição: se a caixinha do começo acende para “sol”, ela procura outra palavra que também comece com o som /s/, como “sal”.",
+        "Ouvir cada som de uma palavra é um passo importante para aprender a ler e a escrever — é o que chamamos de consciência fonêmica. Aqui tudo é sobre o SOM, não sobre as letras: as caixinhas ficam vazias, nenhuma letra dá pista. Téo dá uma dica com carinho e nunca diz “errado”; tudo é falado em voz alta, os fones de ouvido são recomendados, e não há relógio, cronômetro nem placar. Alinhado à BNCC."
+      ],
+      "practices": [
+        "Ouvir o som inicial da palavra",
+        "Ouvir o som do meio",
+        "Ouvir o som final",
+        "Prestar atenção em cada som, não nas letras"
+      ],
+      "howToPlay": [
+        "Ouça bem a palavra que Téo fala.",
+        "Veja qual caixinha acende — o primeiro, o do meio ou o último som.",
+        "Toque na figura que tem o mesmo som nessa posição."
+      ],
+      "learningGoals": [
+        "Ouvir o som do começo, do meio e do fim das palavras",
+        "Reconhecer os sons pelo ouvido, e não pelas letras",
+        "Desenvolver a consciência fonêmica para ler e escrever, com desafios alinhados à BNCC"
+      ]
     }
   }
 }

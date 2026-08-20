@@ -1122,7 +1122,8 @@
       "grade_1": "Prima elementare",
       "grade_2": "Seconda elementare",
       "grade_3": "Terza elementare",
-      "grade_4": "Quarta elementare"
+      "grade_4": "Quarta elementare",
+      "grade_5": "Quinta elementare"
     },
     "words": {
       "worksheet": "Scheda di esercizi",

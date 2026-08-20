@@ -792,7 +792,8 @@
       "grade_1": "1.º de primaria",
       "grade_2": "2.º de primaria",
       "grade_3": "3.º de primaria",
-      "grade_4": "4.º de primaria"
+      "grade_4": "4.º de primaria",
+      "grade_5": "5.º de primaria"
     },
     "words": {
       "worksheet": "Hoja de ejercicios",

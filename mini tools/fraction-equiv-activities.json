@@ -3,69 +3,229 @@
     "id": "fraction-equiv.same-amount.3-nf-a-3",
     "tool": "fraction-equiv-activity",
     "task_template": "fraction-equiv",
-    "alignment": { "framework": "CCSS", "code": "3.NF.A.3", "grade": "3", "strand": "Number & Operations—Fractions" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "3.NF.A.3",
+      "grade": "3",
+      "strand": "Number & Operations—Fractions"
+    },
     "theme": null,
     "params": {
       "rounds": [
-        { "id": "fe-half-fourths", "ref": { "num": 1, "den": 2 }, "candidates": [
-          { "id": "c0", "num": 2, "den": 4 },
-          { "id": "c1", "num": 1, "den": 4 },
-          { "id": "c2", "num": 3, "den": 4 }
-        ] },
-        { "id": "fe-half-sixths", "ref": { "num": 1, "den": 2 }, "candidates": [
-          { "id": "c0", "num": 2, "den": 6 },
-          { "id": "c1", "num": 3, "den": 6 },
-          { "id": "c2", "num": 5, "den": 6 }
-        ] },
-        { "id": "fe-half-eighths", "ref": { "num": 1, "den": 2 }, "candidates": [
-          { "id": "c0", "num": 3, "den": 8 },
-          { "id": "c1", "num": 6, "den": 8 },
-          { "id": "c2", "num": 4, "den": 8 }
-        ] },
-        { "id": "fe-third-sixths", "ref": { "num": 1, "den": 3 }, "candidates": [
-          { "id": "c0", "num": 2, "den": 6 },
-          { "id": "c1", "num": 1, "den": 6 },
-          { "id": "c2", "num": 4, "den": 6 }
-        ] },
-        { "id": "fe-twothirds-sixths", "ref": { "num": 2, "den": 3 }, "candidates": [
-          { "id": "c0", "num": 3, "den": 6 },
-          { "id": "c1", "num": 4, "den": 6 },
-          { "id": "c2", "num": 5, "den": 6 }
-        ] },
-        { "id": "fe-threefourths-eighths", "ref": { "num": 3, "den": 4 }, "candidates": [
-          { "id": "c0", "num": 5, "den": 8 },
-          { "id": "c1", "num": 7, "den": 8 },
-          { "id": "c2", "num": 6, "den": 8 }
-        ] },
-        { "id": "fe-fourth-eighths", "ref": { "num": 1, "den": 4 }, "candidates": [
-          { "id": "c0", "num": 2, "den": 8 },
-          { "id": "c1", "num": 1, "den": 8 },
-          { "id": "c2", "num": 3, "den": 8 }
-        ] },
-        { "id": "fe-fourths-half", "ref": { "num": 2, "den": 4 }, "candidates": [
-          { "id": "c0", "num": 1, "den": 2 },
-          { "id": "c1", "num": 1, "den": 3 },
-          { "id": "c2", "num": 2, "den": 3 }
-        ] }
+        {
+          "id": "fe-half-fourths",
+          "ref": {
+            "num": 1,
+            "den": 2
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 2,
+              "den": 4
+            },
+            {
+              "id": "c1",
+              "num": 1,
+              "den": 4
+            },
+            {
+              "id": "c2",
+              "num": 3,
+              "den": 4
+            }
+          ]
+        },
+        {
+          "id": "fe-half-sixths",
+          "ref": {
+            "num": 1,
+            "den": 2
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 2,
+              "den": 6
+            },
+            {
+              "id": "c1",
+              "num": 3,
+              "den": 6
+            },
+            {
+              "id": "c2",
+              "num": 5,
+              "den": 6
+            }
+          ]
+        },
+        {
+          "id": "fe-half-eighths",
+          "ref": {
+            "num": 1,
+            "den": 2
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 3,
+              "den": 8
+            },
+            {
+              "id": "c1",
+              "num": 6,
+              "den": 8
+            },
+            {
+              "id": "c2",
+              "num": 4,
+              "den": 8
+            }
+          ]
+        },
+        {
+          "id": "fe-third-sixths",
+          "ref": {
+            "num": 1,
+            "den": 3
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 2,
+              "den": 6
+            },
+            {
+              "id": "c1",
+              "num": 1,
+              "den": 6
+            },
+            {
+              "id": "c2",
+              "num": 4,
+              "den": 6
+            }
+          ]
+        },
+        {
+          "id": "fe-twothirds-sixths",
+          "ref": {
+            "num": 2,
+            "den": 3
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 3,
+              "den": 6
+            },
+            {
+              "id": "c1",
+              "num": 4,
+              "den": 6
+            },
+            {
+              "id": "c2",
+              "num": 5,
+              "den": 6
+            }
+          ]
+        },
+        {
+          "id": "fe-threefourths-eighths",
+          "ref": {
+            "num": 3,
+            "den": 4
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 5,
+              "den": 8
+            },
+            {
+              "id": "c1",
+              "num": 7,
+              "den": 8
+            },
+            {
+              "id": "c2",
+              "num": 6,
+              "den": 8
+            }
+          ]
+        },
+        {
+          "id": "fe-fourth-eighths",
+          "ref": {
+            "num": 1,
+            "den": 4
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 2,
+              "den": 8
+            },
+            {
+              "id": "c1",
+              "num": 1,
+              "den": 8
+            },
+            {
+              "id": "c2",
+              "num": 3,
+              "den": 8
+            }
+          ]
+        },
+        {
+          "id": "fe-fourths-half",
+          "ref": {
+            "num": 2,
+            "den": 4
+          },
+          "candidates": [
+            {
+              "id": "c0",
+              "num": 1,
+              "den": 2
+            },
+            {
+              "id": "c1",
+              "num": 1,
+              "den": 3
+            },
+            {
+              "id": "c2",
+              "num": 2,
+              "den": 3
+            }
+          ]
+        }
       ]
     },
     "slug": {
       "en": "equivalent-fractions-same-amount",
       "de": "gleichwertige-brueche-gleich-viel-klasse-4",
       "fr": "fractions-equivalentes-la-meme-quantite-cm1",
-      "es": "fracciones-equivalentes-cuarto-grado"
+      "es": "fracciones-equivalentes-cuarto-grado",
+      "pt": "fracoes-equivalentes-a-mesma-quantidade-5-ano"
     },
     "page_title": {
       "en": "Crumb's Same-Amount Bakery — Equivalent Fractions (Grade 3)",
       "de": "Krümel die Maus: gleichwertige Brüche – gleich viel (Klasse 4)",
       "fr": "La boulangerie de Miette : fractions équivalentes — la même quantité (CM1)",
-      "es": "Fracciones equivalentes: la misma cantidad – 4.º grado"
+      "es": "Fracciones equivalentes: la misma cantidad – 4.º grado",
+      "pt": "Frações equivalentes: a mesma quantidade – 5º ano"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 fractions activity: Crumb the mouse shows a piece cut one way, then three pieces cut into more or fewer slices. Tap the one that is the SAME amount — the equivalent fraction (like 1/2 and 3/6). Shaded bars plus the fraction numbers let children see that different fractions can name the same amount. Common Core 3.NF.A.3.",
       "de": "Dein Kind schaut sich einen Bruch an – zum Beispiel 1/2 – und sucht darunter den Bruch, der genau gleich viel zeigt. Die farbig gefüllten Balken machen es sichtbar: 1/2 und 2/4 sind gleich voll, nur anders geschnitten. Krümel die Maus backt in ihrer kleinen Bäckerei und schneidet die Stücke – dein Kind tippt das gleich große an. Kostenlos, ohne Zeitdruck und ganz ohne Punkte.",
       "fr": "Un jeu de maths CM1, gratuit et interactif : Miette la souris montre une part coupée d'une façon, puis trois parts coupées en plus ou moins de morceaux. Touche celle qui montre la MÊME quantité — la fraction équivalente (comme 1/2 et 3/6). Les barres colorées et les nombres aident l'enfant à voir que des fractions différentes peuvent nommer la même quantité. Sans minuteur, sans points, au rythme de l'enfant.",
-      "es": "Actividad interactiva y gratis de fracciones: tu hijo/a ve una fracción como barra y encuentra otra fracción que muestra la misma cantidad (1/2 = 2/4). Con Migaja la ratona. Ideal para 4.º grado."
+      "es": "Actividad interactiva y gratis de fracciones: tu hijo/a ve una fracción como barra y encuentra otra fracción que muestra la misma cantidad (1/2 = 2/4). Con Migaja la ratona. Ideal para 4.º grado.",
+      "pt": "Atividade interativa e grátis de frações: seu aluno vê uma fração como uma barrinha e encontra outra fração que mostra a mesma quantidade. Com a Migalha, a camundonga padeira, na padaria dela, é tudo com áudio, sem pressa e sem pontos. Uma forma gostosa de entender frações nos anos iniciais, alinhada à BNCC."
     },
     "kid_prompt_template": "fraction-equiv"
   }

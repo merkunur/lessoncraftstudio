@@ -111,6 +111,38 @@
     return [ART_ES[g], NOUN_ES[o.object], (o.color ? esAdj(COLOR_ES, o.color, g) : ''), (o.size ? esAdj(SIZE_ES, o.size, g) : '')].filter(Boolean).join(' ');
   }
 
+  /* ---- pt-BR noun-phrase (like es: article + noun + [COLOR agreed] + [SIZE agreed] + [position],
+     color+size AFTER the noun); per-noun GENDER_PT. Feelings gender-safe (kid gender unknown). #101. ---- */
+  var GENDER_PT = { cup: 'f', ball: 'f', hat: 'm', teddy: 'm', car: 'm', block: 'm', blocks: 'p', stool: 'm' };
+  var NOUN_PT   = { cup: 'xícara', ball: 'bola', hat: 'chapéu', teddy: 'ursinho', car: 'carrinho', block: 'bloco', blocks: 'blocos', stool: 'banquinho' };
+  var ART_PT    = { m: 'O', f: 'A', p: 'Os' };   // capitalized, sentence-initial
+  var COLOR_PT  = { red: { m: 'vermelho', f: 'vermelha' }, blue: { m: 'azul', f: 'azul' }, green: { m: 'verde', f: 'verde' }, brown: { m: 'marrom', f: 'marrom' }, white: { m: 'branco', f: 'branca' } };   // azul/verde/marrom INVARIANT (gender)
+  var SIZE_PT   = { big: { m: 'grande', f: 'grande' }, small: { m: 'pequeno', f: 'pequena' } };   // grande INVARIANT
+  var CHIP_PT   = { red: 'vermelho', blue: 'azul', green: 'verde', brown: 'marrom', white: 'branco', big: 'grande', small: 'pequeno' };   // BASE (chip tiles, masc-sing citation)
+  var POS_PT      = { top: 'de cima', bottom: 'de baixo' };   // in-sentence
+  var POSCHIP_PT  = { top: 'em cima', bottom: 'embaixo' };    // chip tiles
+  var FEELPRED_PT = { sad: 'Estou triste', mad: 'Estou com raiva' };   // spoken predicate — BOTH invariant (kid gender unknown; "com raiva" avoids the bravo/brava leak)
+  var FEELCHIP_PT = { sad: 'triste', mad: 'com raiva' };               // chip tiles (gender-safe)
+  var REASON_PT       = { 'tower-fell': 'minha torre caiu', 'lost-teddy': 'perdi meu ursinho', 'cant-reach': 'não alcanço meu brinquedo' };
+  var SHORT_REASON_PT = { 'tower-fell': 'torre caiu', 'lost-teddy': 'ursinho perdido', 'cant-reach': 'não alcanço' };
+  function ptGender(obj) { return GENDER_PT[obj] || 'm'; }
+  function ptAdj(map, key, g) { var m = map[key]; return m ? (m[g] || m.m) : key; }
+  function ptUtter(round, turn) {
+    var t = turn, a = t.attrs || {};
+    if (round.listenerAction === 'mood') return (FEELPRED_PT[t.feeling] || '…') + (t.reason ? ' porque ' + (REASON_PT[t.reason] || '') : '') + '.';
+    var g = ptGender(t.object), parts = [ART_PT[g] || 'O', NOUN_PT[t.object] || '…'];
+    if (a.color) parts.push(ptAdj(COLOR_PT, a.color, g));   // COLOR before SIZE, both after the noun
+    if (a.size) parts.push(ptAdj(SIZE_PT, a.size, g));
+    if (a.position) parts.push(POS_PT[a.position]);
+    var s = parts.join(' ');
+    return s.charAt(0).toUpperCase() + s.slice(1) + '.';
+  }
+  function ptObjAria(o) {                            // objSVG aria — agreed + plural-safe
+    if (o.object === 'blocks') return 'Os blocos';
+    var g = ptGender(o.object);
+    return [ART_PT[g], NOUN_PT[o.object], (o.color ? ptAdj(COLOR_PT, o.color, g) : ''), (o.size ? ptAdj(SIZE_PT, o.size, g) : '')].filter(Boolean).join(' ');
+  }
+
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
     CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', CURTAIN: '#185E54'
@@ -120,7 +152,7 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -142,7 +174,7 @@
       case 'stool': body = '<rect x="26" y="40" width="48" height="12" rx="4" fill="' + tint + '"/><rect x="30" y="52" width="7" height="30" fill="' + tint + '"/><rect x="63" y="52" width="7" height="30" fill="' + tint + '"/>'; break;
       default: body = '<circle cx="50" cy="55" r="28" fill="' + tint + '"/>';
     }
-    var aria = LANG === 'de' ? deObjAria(o) : LANG === 'fr' ? frObjAria(o) : LANG === 'es' ? esObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
+    var aria = LANG === 'de' ? deObjAria(o) : LANG === 'fr' ? frObjAria(o) : LANG === 'es' ? esObjAria(o) : LANG === 'pt' ? ptObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
     return '<svg class="ss-obj-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc(aria) + '" style="transform:scale(' + sc + ')"><g stroke="' + stroke + '" stroke-width="1.5">' + body + '</g></svg>';
   }
 
@@ -157,19 +189,19 @@
     id: 'sock-and-shadow-activity',
 
     strings: {
-      title: { en: 'Sock & Shadow', de: 'Socke & Schatten', fr: 'Chaussette et Ombre', es: 'Calcetín y Sombra' },
-      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.', fr: 'Dis à Ombre lequel c’est.', es: 'Dile a Sombra cuál es.' },
-      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.', fr: 'L’enfant a perdu celui-ci. Dis à Ombre lequel aller chercher.', es: 'Se le perdió esto. Dile a Sombra cuál traer.' },
-      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.', fr: 'Dis à Ombre ce qu’il ressent, et pourquoi.', es: 'Dile a Sombra cómo se siente — y por qué.' },
-      tell: { en: 'Tell Shadow', de: 'Sag es Schatten', fr: 'Dis-le à Ombre', es: 'Dile a Sombra' },
-      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.', fr: 'Dis d’abord ce que c’est.', es: 'Primero escoge qué es.' },
-      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal', fr: 'Redis-le à Ombre', es: 'Dile otra vez a Sombra.' },
-      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?", fr: 'Je ne vois pas d’ici — quelle {cat} ?', es: 'Mmm, no me queda claro. Dime {cat}.' },
-      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?', fr: 'Trop de mots — j’en ai oublié la moitié ! Juste l’essentiel ?', es: '¡Uy, muchas palabras! Se me olvidó la mitad. ¿Nada más lo que necesito?' },
-      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?", fr: 'Hmm, je ne le vois pas ici. Tu peux répéter ?', es: 'Mmm, no lo encuentro. ¿Me lo dices otra vez?' },
-      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.', fr: 'Ça y est ! Tiens, voilà.', es: '¡Listo! Aquí está.' },
-      catColor: { en: 'colour', de: 'Farbe', fr: 'couleur', es: 'el color' }, catSize: { en: 'size', de: 'Größe', fr: 'taille', es: 'el tamaño' }, catPosition: { en: 'spot', de: 'Stelle', fr: 'place', es: 'dónde está' }, catReason: { en: 'reason', de: 'Grund', fr: 'raison', es: 'por qué' },
-      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.', fr: 'Dis-le à Ombre, puis touche Vérifier.', es: 'Dile a Sombra y toca Comprobar.' }
+      title: { en: 'Sock & Shadow', de: 'Socke & Schatten', fr: 'Chaussette et Ombre', es: 'Calcetín y Sombra', pt: 'Meia e Sombra' },
+      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.', fr: 'Dis à Ombre lequel c’est.', es: 'Dile a Sombra cuál es.', pt: 'Diga para a Sombra qual é.' },
+      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.', fr: 'L’enfant a perdu celui-ci. Dis à Ombre lequel aller chercher.', es: 'Se le perdió esto. Dile a Sombra cuál traer.', pt: 'A criança perdeu este aqui. Diga para a Sombra qual buscar.' },
+      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.', fr: 'Dis à Ombre ce qu’il ressent, et pourquoi.', es: 'Dile a Sombra cómo se siente — y por qué.', pt: 'Diga para a Sombra como a criança se sente — e por quê.' },
+      tell: { en: 'Tell Shadow', de: 'Sag es Schatten', fr: 'Dis-le à Ombre', es: 'Dile a Sombra', pt: 'Falar com a Sombra' },
+      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.', fr: 'Dis d’abord ce que c’est.', es: 'Primero escoge qué es.', pt: 'Escolha primeiro o que é.' },
+      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal', fr: 'Redis-le à Ombre', es: 'Dile otra vez a Sombra.', pt: 'Fale de novo com a Sombra' },
+      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?", fr: 'Je ne vois pas d’ici — quelle {cat} ?', es: 'Mmm, no me queda claro. Dime {cat}.', pt: 'Não sei bem daqui — qual {cat}?' },
+      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?', fr: 'Trop de mots — j’en ai oublié la moitié ! Juste l’essentiel ?', es: '¡Uy, muchas palabras! Se me olvidó la mitad. ¿Nada más lo que necesito?', pt: 'Palavras demais — esqueci metade! Só o que eu preciso?' },
+      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?", fr: 'Hmm, je ne le vois pas ici. Tu peux répéter ?', es: 'Mmm, no lo encuentro. ¿Me lo dices otra vez?', pt: 'Hmm, não estou vendo esse aqui. Fala de novo?' },
+      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.', fr: 'Ça y est ! Tiens, voilà.', es: '¡Listo! Aquí está.', pt: 'Achei! Aqui está.' },
+      catColor: { en: 'colour', de: 'Farbe', fr: 'couleur', es: 'el color', pt: 'cor' }, catSize: { en: 'size', de: 'Größe', fr: 'taille', es: 'el tamaño', pt: 'tamanho' }, catPosition: { en: 'spot', de: 'Stelle', fr: 'place', es: 'dónde está', pt: 'lugar' }, catReason: { en: 'reason', de: 'Grund', fr: 'raison', es: 'por qué', pt: 'motivo' },
+      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.', fr: 'Dis-le à Ombre, puis touche Vérifier.', es: 'Dile a Sombra y toca Comprobar.', pt: 'Fale com a Sombra e toque em Verificar.' }
     },
 
     defaults: {},
@@ -209,7 +241,7 @@
     render: function () {
       this.injectCSS();
       var api = this.api, stage = api.stage; stage.innerHTML = '';
-      var wrap = api.el('div', 'ss-wrap' + (LANG === 'fr' ? ' ss-fr' : LANG === 'es' ? ' ss-es' : ''));
+      var wrap = api.el('div', 'ss-wrap' + (LANG === 'fr' ? ' ss-fr' : (LANG === 'es' || LANG === 'pt') ? ' ss-es' : ''));
       var theater = api.el('div', 'ss-theater'); this._theaterEl = theater;
       if (!this.round) { wrap.appendChild(theater); stage.appendChild(wrap); return; }
       if (this.phase === 'resolve' || this.phase === 'done') this._renderResolve(theater);
@@ -227,7 +259,7 @@
       // stage row: Sock (sees the bin) + the greyed curtain with Shadow ducked
       var top = api.el('div', 'ss-stagerow');
       var sock = api.el('div', 'ss-sock'); sock.innerHTML = puppet('sock'); top.appendChild(sock);
-      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : LANG === 'fr' ? 'on ne regarde pas !' : LANG === 'es' ? '¡Sin espiar!' : 'no peeking!') + '</span>'; top.appendChild(curtain);
+      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : LANG === 'fr' ? 'on ne regarde pas !' : LANG === 'es' ? '¡Sin espiar!' : LANG === 'pt' ? 'Sem espiar!' : 'no peeking!') + '</span>'; top.appendChild(curtain);
       theater.appendChild(top);
 
       // the bin (Sock can see; the target glows) — fetch only. When a round varies by
@@ -300,7 +332,7 @@
 
       // the spoken bubble
       var bubble = api.el('div', 'ss-bubble');
-      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : LANG === 'fr' ? ('« ' + frUtter(r, this.turn) + ' »') : LANG === 'es' ? ('«' + esUtter(r, this.turn) + '»') : ('“' + Core.utter(r, this.turn, 'en') + '”');
+      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : LANG === 'fr' ? ('« ' + frUtter(r, this.turn) + ' »') : LANG === 'es' ? ('«' + esUtter(r, this.turn) + '»') : LANG === 'pt' ? ('“' + ptUtter(r, this.turn) + '”') : ('“' + Core.utter(r, this.turn, 'en') + '”');
       theater.appendChild(bubble);
 
       // Shadow's line
@@ -343,6 +375,14 @@
         if (c.slot === 'feeling') return FEELCHIP_ES[c.value] || c.value;      // "triste"/"enojado" chip; "Estoy triste"/"Me da coraje" spoken
         return CHIP_ES[c.value] || c.value;   // color / size (base masc-sing form)
       }
+      if (LANG === 'pt') {
+        if (c.slot === 'object') return NOUN_PT[c.value] || c.value;
+        if (c.slot === 'politeness') return 'por favor';
+        if (c.slot === 'reason') return SHORT_REASON_PT[c.value] || c.value;   // short on the chip; full clause in ptUtter()
+        if (c.slot === 'position') return POSCHIP_PT[c.value] || c.value;      // bare em cima/embaixo on the chip; "de cima" in ptUtter
+        if (c.slot === 'feeling') return FEELCHIP_PT[c.value] || c.value;      // "triste"/"com raiva" chip; "Estou triste"/"Estou com raiva" spoken
+        return CHIP_PT[c.value] || c.value;   // color / size (base masc-sing form)
+      }
       if (c.slot === 'object') return c.value;
       if (c.slot === 'politeness') return 'please';
       if (c.slot === 'reason') return SHORT_REASON[c.value] || c.value;   // short on the chip; full text in utter()
@@ -375,7 +415,7 @@
     _tellShadow: function () {
       if (this.readOnly) return;
       if (!Core.coherent(this.round, this.turn)) { this.api.announce && this.api.announce(this.api.t('needObject')); return; }
-      speak(LANG === 'de' ? deUtter(this.round, this.turn) : LANG === 'fr' ? frUtter(this.round, this.turn) : LANG === 'es' ? esUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
+      speak(LANG === 'de' ? deUtter(this.round, this.turn) : LANG === 'fr' ? frUtter(this.round, this.turn) : LANG === 'es' ? esUtter(this.round, this.turn) : LANG === 'pt' ? ptUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
       this._res = Core.resolve(this.round, this.turn);
       this.phase = 'resolve';
       if (this._res.outcome === 'clear') { this._win(); return; }

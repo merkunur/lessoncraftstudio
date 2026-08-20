@@ -3,55 +3,888 @@
     "id": "mango-animal-groups.collective-nouns.l-2-1-a",
     "tool": "mango-animal-groups-activity",
     "task_template": "collective-nouns",
-    "alignment": { "framework": "CCSS", "code": "L.2.1.a", "grade": "2", "strand": "Language" },
+    "alignment": {
+      "framework": "CCSS",
+      "code": "L.2.1.a",
+      "grade": "2",
+      "strand": "Language"
+    },
     "params": {
       "rounds": [
-        { "id": "cows", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "cows", "correct": "herd", "choices": [ { "word": "herd" }, { "word": "flock" }, { "word": "pack" } ] },
-        { "id": "fish", "band": 1, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "fish", "correct": "school", "choices": [ { "word": "swarm" }, { "word": "school" }, { "word": "herd" } ] },
-        { "id": "wolves", "band": 1, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "wolves", "correct": "pack", "choices": [ { "word": "pride" }, { "word": "flock" }, { "word": "pack" } ] },
-        { "id": "bees", "band": 2, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "bees", "correct": "swarm", "choices": [ { "word": "swarm" }, { "word": "herd" }, { "word": "school" } ] },
-        { "id": "birds", "band": 2, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "birds", "correct": "flock", "choices": [ { "word": "pack" }, { "word": "flock" }, { "word": "pride" } ] },
-        { "id": "lions", "band": 2, "subject": { "noun": "lion", "themeDir": "zoo animals" }, "plural": "lions", "correct": "pride", "choices": [ { "word": "herd" }, { "word": "swarm" }, { "word": "pride" } ] },
-        { "id": "grapes", "band": 3, "subject": { "noun": "grapes", "themeDir": "At the Supermarket" }, "plural": "grapes", "correct": "bunch", "choices": [ { "word": "bunch" }, { "word": "flock" }, { "word": "pack" } ] },
-        { "id": "sheep", "band": 3, "subject": { "noun": "sheep", "themeDir": "animals" }, "plural": "sheep", "correct": "flock", "choices": [ { "word": "school" }, { "word": "flock" }, { "word": "herd" } ] }
+        {
+          "id": "cows",
+          "band": 1,
+          "subject": {
+            "noun": "cow",
+            "themeDir": "farm animals"
+          },
+          "plural": "cows",
+          "correct": "herd",
+          "choices": [
+            {
+              "word": "herd"
+            },
+            {
+              "word": "flock"
+            },
+            {
+              "word": "pack"
+            }
+          ]
+        },
+        {
+          "id": "fish",
+          "band": 1,
+          "subject": {
+            "noun": "fish",
+            "themeDir": "animals"
+          },
+          "plural": "fish",
+          "correct": "school",
+          "choices": [
+            {
+              "word": "swarm"
+            },
+            {
+              "word": "school"
+            },
+            {
+              "word": "herd"
+            }
+          ]
+        },
+        {
+          "id": "wolves",
+          "band": 1,
+          "subject": {
+            "noun": "wolf",
+            "themeDir": "animals"
+          },
+          "plural": "wolves",
+          "correct": "pack",
+          "choices": [
+            {
+              "word": "pride"
+            },
+            {
+              "word": "flock"
+            },
+            {
+              "word": "pack"
+            }
+          ]
+        },
+        {
+          "id": "bees",
+          "band": 2,
+          "subject": {
+            "noun": "bee",
+            "themeDir": "farm animals"
+          },
+          "plural": "bees",
+          "correct": "swarm",
+          "choices": [
+            {
+              "word": "swarm"
+            },
+            {
+              "word": "herd"
+            },
+            {
+              "word": "school"
+            }
+          ]
+        },
+        {
+          "id": "birds",
+          "band": 2,
+          "subject": {
+            "noun": "bird",
+            "themeDir": "spring"
+          },
+          "plural": "birds",
+          "correct": "flock",
+          "choices": [
+            {
+              "word": "pack"
+            },
+            {
+              "word": "flock"
+            },
+            {
+              "word": "pride"
+            }
+          ]
+        },
+        {
+          "id": "lions",
+          "band": 2,
+          "subject": {
+            "noun": "lion",
+            "themeDir": "zoo animals"
+          },
+          "plural": "lions",
+          "correct": "pride",
+          "choices": [
+            {
+              "word": "herd"
+            },
+            {
+              "word": "swarm"
+            },
+            {
+              "word": "pride"
+            }
+          ]
+        },
+        {
+          "id": "grapes",
+          "band": 3,
+          "subject": {
+            "noun": "grapes",
+            "themeDir": "At the Supermarket"
+          },
+          "plural": "grapes",
+          "correct": "bunch",
+          "choices": [
+            {
+              "word": "bunch"
+            },
+            {
+              "word": "flock"
+            },
+            {
+              "word": "pack"
+            }
+          ]
+        },
+        {
+          "id": "sheep",
+          "band": 3,
+          "subject": {
+            "noun": "sheep",
+            "themeDir": "animals"
+          },
+          "plural": "sheep",
+          "correct": "flock",
+          "choices": [
+            {
+              "word": "school"
+            },
+            {
+              "word": "flock"
+            },
+            {
+              "word": "herd"
+            }
+          ]
+        }
       ],
       "roundsL10n": {
         "de": [
-          { "id": "kuehe", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "Kühe", "correct": "Herde", "choices": [ { "word": "Herde" }, { "word": "Rudel" }, { "word": "Schwarm" } ] },
-          { "id": "schafe", "band": 2, "subject": { "noun": "sheep", "themeDir": "farm animals" }, "plural": "Schafe", "correct": "Herde", "choices": [ { "word": "Herde" }, { "word": "Schwarm" }, { "word": "Volk" } ] },
-          { "id": "elefanten", "band": 3, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "Elefanten", "correct": "Herde", "choices": [ { "word": "Herde" }, { "word": "Rudel" }, { "word": "Volk" } ] },
-          { "id": "woelfe", "band": 1, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "Wölfe", "correct": "Rudel", "choices": [ { "word": "Rudel" }, { "word": "Herde" }, { "word": "Schwarm" } ] },
-          { "id": "loewen", "band": 2, "subject": { "noun": "lion", "themeDir": "zoo animals" }, "plural": "Löwen", "correct": "Rudel", "choices": [ { "word": "Rudel" }, { "word": "Schwarm" }, { "word": "Volk" } ] },
-          { "id": "fische", "band": 1, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "Fische", "correct": "Schwarm", "choices": [ { "word": "Schwarm" }, { "word": "Herde" }, { "word": "Rudel" } ] },
-          { "id": "voegel", "band": 2, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "Vögel", "correct": "Schwarm", "choices": [ { "word": "Schwarm" }, { "word": "Volk" }, { "word": "Herde" } ] },
-          { "id": "bienen", "band": 3, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "Bienen", "correct": "Volk", "choices": [ { "word": "Volk" }, { "word": "Schwarm" }, { "word": "Rudel" } ] }
+          {
+            "id": "kuehe",
+            "band": 1,
+            "subject": {
+              "noun": "cow",
+              "themeDir": "farm animals"
+            },
+            "plural": "Kühe",
+            "correct": "Herde",
+            "choices": [
+              {
+                "word": "Herde"
+              },
+              {
+                "word": "Rudel"
+              },
+              {
+                "word": "Schwarm"
+              }
+            ]
+          },
+          {
+            "id": "schafe",
+            "band": 2,
+            "subject": {
+              "noun": "sheep",
+              "themeDir": "farm animals"
+            },
+            "plural": "Schafe",
+            "correct": "Herde",
+            "choices": [
+              {
+                "word": "Herde"
+              },
+              {
+                "word": "Schwarm"
+              },
+              {
+                "word": "Volk"
+              }
+            ]
+          },
+          {
+            "id": "elefanten",
+            "band": 3,
+            "subject": {
+              "noun": "elephant",
+              "themeDir": "zoo animals"
+            },
+            "plural": "Elefanten",
+            "correct": "Herde",
+            "choices": [
+              {
+                "word": "Herde"
+              },
+              {
+                "word": "Rudel"
+              },
+              {
+                "word": "Volk"
+              }
+            ]
+          },
+          {
+            "id": "woelfe",
+            "band": 1,
+            "subject": {
+              "noun": "wolf",
+              "themeDir": "animals"
+            },
+            "plural": "Wölfe",
+            "correct": "Rudel",
+            "choices": [
+              {
+                "word": "Rudel"
+              },
+              {
+                "word": "Herde"
+              },
+              {
+                "word": "Schwarm"
+              }
+            ]
+          },
+          {
+            "id": "loewen",
+            "band": 2,
+            "subject": {
+              "noun": "lion",
+              "themeDir": "zoo animals"
+            },
+            "plural": "Löwen",
+            "correct": "Rudel",
+            "choices": [
+              {
+                "word": "Rudel"
+              },
+              {
+                "word": "Schwarm"
+              },
+              {
+                "word": "Volk"
+              }
+            ]
+          },
+          {
+            "id": "fische",
+            "band": 1,
+            "subject": {
+              "noun": "fish",
+              "themeDir": "animals"
+            },
+            "plural": "Fische",
+            "correct": "Schwarm",
+            "choices": [
+              {
+                "word": "Schwarm"
+              },
+              {
+                "word": "Herde"
+              },
+              {
+                "word": "Rudel"
+              }
+            ]
+          },
+          {
+            "id": "voegel",
+            "band": 2,
+            "subject": {
+              "noun": "bird",
+              "themeDir": "spring"
+            },
+            "plural": "Vögel",
+            "correct": "Schwarm",
+            "choices": [
+              {
+                "word": "Schwarm"
+              },
+              {
+                "word": "Volk"
+              },
+              {
+                "word": "Herde"
+              }
+            ]
+          },
+          {
+            "id": "bienen",
+            "band": 3,
+            "subject": {
+              "noun": "bee",
+              "themeDir": "farm animals"
+            },
+            "plural": "Bienen",
+            "correct": "Volk",
+            "choices": [
+              {
+                "word": "Volk"
+              },
+              {
+                "word": "Schwarm"
+              },
+              {
+                "word": "Rudel"
+              }
+            ]
+          }
         ],
         "fr": [
-          { "id": "cows", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "vaches", "correct": "un troupeau", "choices": [ { "word": "un troupeau" }, { "word": "une meute" }, { "word": "un essaim" } ] },
-          { "id": "sheep", "band": 1, "subject": { "noun": "sheep", "themeDir": "farm animals" }, "plural": "moutons", "correct": "un troupeau", "choices": [ { "word": "un troupeau" }, { "word": "un banc" }, { "word": "une volée" } ] },
-          { "id": "wolves", "band": 1, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "loups", "correct": "une meute", "choices": [ { "word": "une meute" }, { "word": "un banc" }, { "word": "un essaim" } ] },
-          { "id": "fish", "band": 2, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "poissons", "correct": "un banc", "choices": [ { "word": "un banc" }, { "word": "une meute" }, { "word": "une volée" } ] },
-          { "id": "birds", "band": 2, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "oiseaux", "correct": "une volée", "choices": [ { "word": "une volée" }, { "word": "un troupeau" }, { "word": "un banc" } ] },
-          { "id": "monkeys", "band": 2, "subject": { "noun": "monkey", "themeDir": "zoo animals" }, "plural": "singes", "correct": "une troupe", "choices": [ { "word": "une troupe" }, { "word": "une meute" }, { "word": "un essaim" } ] },
-          { "id": "elephants", "band": 3, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "éléphants", "correct": "un troupeau", "choices": [ { "word": "un troupeau" }, { "word": "un banc" }, { "word": "une meute" } ] },
-          { "id": "bees", "band": 3, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "abeilles", "correct": "un essaim", "choices": [ { "word": "un essaim" }, { "word": "un troupeau" }, { "word": "une volée" } ] }
+          {
+            "id": "cows",
+            "band": 1,
+            "subject": {
+              "noun": "cow",
+              "themeDir": "farm animals"
+            },
+            "plural": "vaches",
+            "correct": "un troupeau",
+            "choices": [
+              {
+                "word": "un troupeau"
+              },
+              {
+                "word": "une meute"
+              },
+              {
+                "word": "un essaim"
+              }
+            ]
+          },
+          {
+            "id": "sheep",
+            "band": 1,
+            "subject": {
+              "noun": "sheep",
+              "themeDir": "farm animals"
+            },
+            "plural": "moutons",
+            "correct": "un troupeau",
+            "choices": [
+              {
+                "word": "un troupeau"
+              },
+              {
+                "word": "un banc"
+              },
+              {
+                "word": "une volée"
+              }
+            ]
+          },
+          {
+            "id": "wolves",
+            "band": 1,
+            "subject": {
+              "noun": "wolf",
+              "themeDir": "animals"
+            },
+            "plural": "loups",
+            "correct": "une meute",
+            "choices": [
+              {
+                "word": "une meute"
+              },
+              {
+                "word": "un banc"
+              },
+              {
+                "word": "un essaim"
+              }
+            ]
+          },
+          {
+            "id": "fish",
+            "band": 2,
+            "subject": {
+              "noun": "fish",
+              "themeDir": "animals"
+            },
+            "plural": "poissons",
+            "correct": "un banc",
+            "choices": [
+              {
+                "word": "un banc"
+              },
+              {
+                "word": "une meute"
+              },
+              {
+                "word": "une volée"
+              }
+            ]
+          },
+          {
+            "id": "birds",
+            "band": 2,
+            "subject": {
+              "noun": "bird",
+              "themeDir": "spring"
+            },
+            "plural": "oiseaux",
+            "correct": "une volée",
+            "choices": [
+              {
+                "word": "une volée"
+              },
+              {
+                "word": "un troupeau"
+              },
+              {
+                "word": "un banc"
+              }
+            ]
+          },
+          {
+            "id": "monkeys",
+            "band": 2,
+            "subject": {
+              "noun": "monkey",
+              "themeDir": "zoo animals"
+            },
+            "plural": "singes",
+            "correct": "une troupe",
+            "choices": [
+              {
+                "word": "une troupe"
+              },
+              {
+                "word": "une meute"
+              },
+              {
+                "word": "un essaim"
+              }
+            ]
+          },
+          {
+            "id": "elephants",
+            "band": 3,
+            "subject": {
+              "noun": "elephant",
+              "themeDir": "zoo animals"
+            },
+            "plural": "éléphants",
+            "correct": "un troupeau",
+            "choices": [
+              {
+                "word": "un troupeau"
+              },
+              {
+                "word": "un banc"
+              },
+              {
+                "word": "une meute"
+              }
+            ]
+          },
+          {
+            "id": "bees",
+            "band": 3,
+            "subject": {
+              "noun": "bee",
+              "themeDir": "farm animals"
+            },
+            "plural": "abeilles",
+            "correct": "un essaim",
+            "choices": [
+              {
+                "word": "un essaim"
+              },
+              {
+                "word": "un troupeau"
+              },
+              {
+                "word": "une volée"
+              }
+            ]
+          }
         ],
         "es": [
-          { "id": "vacas", "band": 1, "subject": { "noun": "cow", "themeDir": "farm animals" }, "plural": "vacas", "correct": "rebaño", "choices": [ { "word": "rebaño" }, { "word": "manada" }, { "word": "bandada" } ] },
-          { "id": "ovejas", "band": 1, "subject": { "noun": "sheep", "themeDir": "farm animals" }, "plural": "ovejas", "correct": "rebaño", "choices": [ { "word": "rebaño" }, { "word": "enjambre" }, { "word": "manada" } ] },
-          { "id": "elefantes", "band": 2, "subject": { "noun": "elephant", "themeDir": "zoo animals" }, "plural": "elefantes", "correct": "manada", "choices": [ { "word": "manada" }, { "word": "rebaño" }, { "word": "cardumen" } ] },
-          { "id": "lobos", "band": 1, "subject": { "noun": "wolf", "themeDir": "animals" }, "plural": "lobos", "correct": "manada", "choices": [ { "word": "manada" }, { "word": "bandada" }, { "word": "rebaño" } ] },
-          { "id": "leones", "band": 2, "subject": { "noun": "lion", "themeDir": "zoo animals" }, "plural": "leones", "correct": "manada", "choices": [ { "word": "manada" }, { "word": "cardumen" }, { "word": "bandada" } ] },
-          { "id": "peces", "band": 2, "subject": { "noun": "fish", "themeDir": "animals" }, "plural": "peces", "correct": "cardumen", "choices": [ { "word": "cardumen" }, { "word": "bandada" }, { "word": "enjambre" } ] },
-          { "id": "pajaros", "band": 3, "subject": { "noun": "bird", "themeDir": "spring" }, "plural": "pájaros", "correct": "bandada", "choices": [ { "word": "bandada" }, { "word": "cardumen" }, { "word": "manada" } ] },
-          { "id": "abejas", "band": 3, "subject": { "noun": "bee", "themeDir": "farm animals" }, "plural": "abejas", "correct": "enjambre", "choices": [ { "word": "enjambre" }, { "word": "rebaño" }, { "word": "cardumen" } ] }
+          {
+            "id": "vacas",
+            "band": 1,
+            "subject": {
+              "noun": "cow",
+              "themeDir": "farm animals"
+            },
+            "plural": "vacas",
+            "correct": "rebaño",
+            "choices": [
+              {
+                "word": "rebaño"
+              },
+              {
+                "word": "manada"
+              },
+              {
+                "word": "bandada"
+              }
+            ]
+          },
+          {
+            "id": "ovejas",
+            "band": 1,
+            "subject": {
+              "noun": "sheep",
+              "themeDir": "farm animals"
+            },
+            "plural": "ovejas",
+            "correct": "rebaño",
+            "choices": [
+              {
+                "word": "rebaño"
+              },
+              {
+                "word": "enjambre"
+              },
+              {
+                "word": "manada"
+              }
+            ]
+          },
+          {
+            "id": "elefantes",
+            "band": 2,
+            "subject": {
+              "noun": "elephant",
+              "themeDir": "zoo animals"
+            },
+            "plural": "elefantes",
+            "correct": "manada",
+            "choices": [
+              {
+                "word": "manada"
+              },
+              {
+                "word": "rebaño"
+              },
+              {
+                "word": "cardumen"
+              }
+            ]
+          },
+          {
+            "id": "lobos",
+            "band": 1,
+            "subject": {
+              "noun": "wolf",
+              "themeDir": "animals"
+            },
+            "plural": "lobos",
+            "correct": "manada",
+            "choices": [
+              {
+                "word": "manada"
+              },
+              {
+                "word": "bandada"
+              },
+              {
+                "word": "rebaño"
+              }
+            ]
+          },
+          {
+            "id": "leones",
+            "band": 2,
+            "subject": {
+              "noun": "lion",
+              "themeDir": "zoo animals"
+            },
+            "plural": "leones",
+            "correct": "manada",
+            "choices": [
+              {
+                "word": "manada"
+              },
+              {
+                "word": "cardumen"
+              },
+              {
+                "word": "bandada"
+              }
+            ]
+          },
+          {
+            "id": "peces",
+            "band": 2,
+            "subject": {
+              "noun": "fish",
+              "themeDir": "animals"
+            },
+            "plural": "peces",
+            "correct": "cardumen",
+            "choices": [
+              {
+                "word": "cardumen"
+              },
+              {
+                "word": "bandada"
+              },
+              {
+                "word": "enjambre"
+              }
+            ]
+          },
+          {
+            "id": "pajaros",
+            "band": 3,
+            "subject": {
+              "noun": "bird",
+              "themeDir": "spring"
+            },
+            "plural": "pájaros",
+            "correct": "bandada",
+            "choices": [
+              {
+                "word": "bandada"
+              },
+              {
+                "word": "cardumen"
+              },
+              {
+                "word": "manada"
+              }
+            ]
+          },
+          {
+            "id": "abejas",
+            "band": 3,
+            "subject": {
+              "noun": "bee",
+              "themeDir": "farm animals"
+            },
+            "plural": "abejas",
+            "correct": "enjambre",
+            "choices": [
+              {
+                "word": "enjambre"
+              },
+              {
+                "word": "rebaño"
+              },
+              {
+                "word": "cardumen"
+              }
+            ]
+          }
+        ],
+        "pt": [
+          {
+            "id": "mango.pt.cow",
+            "band": 1,
+            "subject": {
+              "noun": "cow",
+              "themeDir": "farm animals"
+            },
+            "plural": "vacas",
+            "correct": "manada",
+            "choices": [
+              {
+                "word": "manada"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "enxame"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.sheep",
+            "band": 1,
+            "subject": {
+              "noun": "sheep",
+              "themeDir": "farm animals"
+            },
+            "plural": "ovelhas",
+            "correct": "rebanho",
+            "choices": [
+              {
+                "word": "rebanho"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "alcateia"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.elephant",
+            "band": 1,
+            "subject": {
+              "noun": "elephant",
+              "themeDir": "zoo animals"
+            },
+            "plural": "elefantes",
+            "correct": "manada",
+            "choices": [
+              {
+                "word": "manada"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "enxame"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.wolf",
+            "band": 2,
+            "subject": {
+              "noun": "wolf",
+              "themeDir": "animals"
+            },
+            "plural": "lobos",
+            "correct": "alcateia",
+            "choices": [
+              {
+                "word": "alcateia"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "enxame"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.lion",
+            "band": 2,
+            "subject": {
+              "noun": "lion",
+              "themeDir": "zoo animals"
+            },
+            "plural": "leões",
+            "correct": "alcateia",
+            "choices": [
+              {
+                "word": "alcateia"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "enxame"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.fish",
+            "band": 2,
+            "subject": {
+              "noun": "fish",
+              "themeDir": "animals"
+            },
+            "plural": "peixes",
+            "correct": "cardume",
+            "choices": [
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "enxame"
+              },
+              {
+                "word": "alcateia"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.bird",
+            "band": 3,
+            "subject": {
+              "noun": "bird",
+              "themeDir": "spring"
+            },
+            "plural": "pássaros",
+            "correct": "bando",
+            "choices": [
+              {
+                "word": "bando"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "enxame"
+              }
+            ]
+          },
+          {
+            "id": "mango.pt.bee",
+            "band": 3,
+            "subject": {
+              "noun": "bee",
+              "themeDir": "farm animals"
+            },
+            "plural": "abelhas",
+            "correct": "enxame",
+            "choices": [
+              {
+                "word": "enxame"
+              },
+              {
+                "word": "cardume"
+              },
+              {
+                "word": "alcateia"
+              }
+            ]
+          }
         ]
       }
     },
     "theme": null,
-    "slug": { "en": "mango-animal-groups", "de": "sammelnamen-fuer-tiere", "fr": "les-noms-collectifs-des-animaux-ce1", "es": "sustantivos-colectivos-de-animales-tercer-grado" },
-    "page_title": { "en": "Mango's Animal Groups — Name the Group (Grade 2)", "de": "Mango der Affe – Sammelnamen für Tiere (Klasse 2)", "fr": "Mango le singe — Les noms collectifs des animaux (CE1)", "es": "Sustantivos colectivos de animales gratis – 3.º grado" },
-    "page_intro": { "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a.", "de": "Mit Mango dem Affen lernt dein Kind Sammelnamen für Tiere kennen – ein Wort für eine ganze Gruppe: viele Kühe sind eine Herde, viele Fische ein Schwarm. So wächst der Wortschatz ganz nebenbei. Kostenlos, ohne Zeitdruck und ohne Punkte, und alles wird vorgelesen.", "fr": "Mango le singe montre à votre enfant l'image d'un animal, et l'enfant tape le nom qui désigne tout un groupe de ces animaux : un troupeau de vaches, un banc de poissons, un essaim d'abeilles. C'est une jolie façon de découvrir les noms collectifs et d'enrichir son vocabulaire, en apprenant qu'un seul mot peut nommer toute une collection. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer.", "es": "Actividad interactiva y gratis: los niños ven un animal y eligen el nombre de su grupo —rebaño, manada, bandada—. Ideal para practicar sustantivos colectivos en 3.º grado." },
+    "slug": {
+      "en": "mango-animal-groups",
+      "de": "sammelnamen-fuer-tiere",
+      "fr": "les-noms-collectifs-des-animaux-ce1",
+      "es": "sustantivos-colectivos-de-animales-tercer-grado",
+      "pt": "substantivos-coletivos-de-animais"
+    },
+    "page_title": {
+      "en": "Mango's Animal Groups — Name the Group (Grade 2)",
+      "de": "Mango der Affe – Sammelnamen für Tiere (Klasse 2)",
+      "fr": "Mango le singe — Les noms collectifs des animaux (CE1)",
+      "es": "Sustantivos colectivos de animales gratis – 3.º grado",
+      "pt": "Substantivos coletivos de animais — atividade lúdica alinhada à BNCC"
+    },
+    "page_intro": {
+      "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a.",
+      "de": "Mit Mango dem Affen lernt dein Kind Sammelnamen für Tiere kennen – ein Wort für eine ganze Gruppe: viele Kühe sind eine Herde, viele Fische ein Schwarm. So wächst der Wortschatz ganz nebenbei. Kostenlos, ohne Zeitdruck und ohne Punkte, und alles wird vorgelesen.",
+      "fr": "Mango le singe montre à votre enfant l'image d'un animal, et l'enfant tape le nom qui désigne tout un groupe de ces animaux : un troupeau de vaches, un banc de poissons, un essaim d'abeilles. C'est une jolie façon de découvrir les noms collectifs et d'enrichir son vocabulaire, en apprenant qu'un seul mot peut nommer toute une collection. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer.",
+      "es": "Actividad interactiva y gratis: los niños ven un animal y eligen el nombre de su grupo —rebaño, manada, bandada—. Ideal para practicar sustantivos colectivos en 3.º grado.",
+      "pt": "Com o Mango, o macaco, a criança descobre o nome do grupo de cada animal: um grupo de peixes é um cardume, de abelhas é um enxame, de bois é uma manada. A cada rodada aparece um animal e ela toca na palavra certa para o grupo. Uma atividade de vocabulário sobre substantivos coletivos, alinhada à BNCC."
+    },
     "kid_prompt_template": "What do we call a group of them?"
   }
 ]

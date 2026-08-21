@@ -73,7 +73,9 @@ function parseArgs(argv) {
 }
 
 function readTsv(file, ncols) {
-  return fs.readFileSync(file, 'utf8').split('\n').filter(Boolean).map(function (l) {
+  return fs.readFileSync(file, 'utf8').split('\n').map(function (l) {
+    return l.replace(/\r$/, '');
+  }).filter(Boolean).map(function (l) {
     var p = l.split('\t');
     if (p.length < ncols) throw new Error('bad TSV line in ' + file + ': ' + l);
     return p;

@@ -176,7 +176,7 @@ async function main() {
 
       if (args.confirm) {
         atomicWrite(newHtmlPath, out);
-        await db.client.deck.update({
+        await db.client().deck.update({
           where: { language_slug: { language: args.locale, slug: slug } },
           data: { titleHash: newTh, descriptionHash: newDh }
         });

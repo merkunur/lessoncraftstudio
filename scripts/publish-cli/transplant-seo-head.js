@@ -12,7 +12,7 @@
  * This script restores stability by TRANSPLANTING, per replaced deck, the OLD
  * version dir's SEO region into the NEW version dir's deck.html:
  *   - the <!-- SEO_INSERTION_POINT_START --> … <!-- SEO_INSERTION_POINT_END -->
- *     region (title, meta description, canonical, robots, JSON-LD, og:*/twitter:*)
+ *     region (title, meta description, canonical, robots, JSON-LD, og + twitter tags)
  *     is copied verbatim from old deck.html to new deck.html;
  *   - the <!--LCS_BC_START-->…<!--LCS_BC_END--> breadcrumb block (whose
  *     position-3 name is the page title) is copied too when the old file has

@@ -30,7 +30,7 @@
 
 var fs = require('fs');
 var path = require('path');
-var AdmZip = require(path.resolve(__dirname, '..', '..', 'frontend', 'node_modules', 'adm-zip'));
+var AdmZip = require(path.resolve(__dirname, '..', '..', 'node_modules', 'adm-zip'));
 var db = require('./db');
 var republish = require('./republish-seo');
 var buildSeoHeadMod = require('./build-seo-head');

@@ -70,9 +70,12 @@ function suffixOf(slug) {
   var m = /-([0-9a-z]{2,6})$/.exec(slug);
   return m ? m[1] : slug.slice(-4);
 }
-function spliceBlock(c, disambiguator) {
+function spliceBlock(c, disambiguator, variantId) {
   var seoOpts = republish.buildSeoOpts(c);
   if (disambiguator) seoOpts.disambiguator = String(disambiguator);
+  // desc-path disambiguation: buildSeoHead's disambiguator is TITLE-scoped; the
+  // description's unique tail comes from variantId ("(Set X)").
+  if (variantId) seoOpts.variantId = String(variantId);
   var block = buildSeoHeadMod.buildSeoHead(seoOpts);
   if (block.indexOf(SEO_MARKER_START) !== 0) throw new Error('block not marker-wrapped');
   var out = c.html.replace(SEO_BLOCK_REGEX, function () { return block; });
@@ -130,7 +133,7 @@ async function main() {
     var dColl = (descBySlugHash[c.locale][dh] || []).filter(function (s) { return s !== target; });
     var needDisamb = tColl.length > 0 || dColl.length > 0;
     var code = needDisamb ? suffixOf(target) : null;
-    var finalOut = needDisamb ? spliceBlock(c, code) : plain;
+    var finalOut = needDisamb ? spliceBlock(c, code, dColl.length ? code : null) : plain;
     var ft = blockTitle(finalOut.block), fd = blockDesc(finalOut.block);
     // post-check: the disambiguated head must be collision-free too
     var fth = seoRecon.hashTitleOrDescription(ft), fdh = seoRecon.hashTitleOrDescription(fd);

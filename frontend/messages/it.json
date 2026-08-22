@@ -4018,6 +4018,23 @@
       "description": "Prototipo interno della homepage ridisegnata. Non indicizzato."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "L'officina dietro ogni scheda",
+    "heroCta": "Visita la sala delle macchine",
+    "statMachines": "{count} macchine per schede",
+    "statModes": "{count}+ modalità di esercizio",
+    "statThemes": "100+ temi · 3.000 immagini",
+    "statLanguages": "Stampa in 11 lingue",
+    "bayMachines": "{count} macchine",
+    "machineNo": "N. {number}",
+    "modesMore": "+{count} altre",
+    "themeCaseTitle": "I cassetti delle immagini",
+    "themeCaseBody": "Oltre 100 cassetti a tema si inseriscono in ogni macchina: 3.000 illustrazioni disegnate con cura, a colori o da colorare.",
+    "themeCaseCta": "Sfoglia tutti i temi",
+    "langCaseTitle": "I caratteri da stampa",
+    "langCaseBody": "Ogni macchina compone le sue schede in undici lingue: la stessa scheda, nella lingua della tua classe.",
+    "dispatchCta": "Guarda le schede appena stampate"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Migliaia di schede, organizzate per tipo",

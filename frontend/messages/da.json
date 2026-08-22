@@ -2494,6 +2494,23 @@
       "description": "Intern prototype af den redesignede forside. Ikke indekseret."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "Værkstedet bag hvert arbejdsark",
+    "heroCta": "Se maskinhallen",
+    "statMachines": "{count} arbejdsark-maskiner",
+    "statModes": "{count}+ øvelsesformer",
+    "statThemes": "100+ temaer · 3.000 billeder",
+    "statLanguages": "Trykker på 11 sprog",
+    "bayMachines": "{count} maskiner",
+    "machineNo": "Nr. {number}",
+    "modesMore": "+{count} flere",
+    "themeCaseTitle": "Billedskufferne",
+    "themeCaseBody": "Over 100 temaskuffer passer i enhver maskine — 3.000 omhyggeligt tegnede billeder, i farver eller som malesider.",
+    "themeCaseCta": "Se alle temaer",
+    "langCaseTitle": "Sætteriet",
+    "langCaseBody": "Hver maskine sætter sine arbejdsark på elleve sprog — det samme ark, på klassens sprog.",
+    "dispatchCta": "Se nytrykte arbejdsark"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Tusindvis af opgaver, ordnet efter type",

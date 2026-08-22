@@ -2497,6 +2497,23 @@
       "description": "Interne prototype van de heringerichte homepage. Niet geïndexeerd."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "De werkplaats achter elk werkblad",
+    "heroCta": "Bekijk de machinehal",
+    "statMachines": "{count} werkbladmachines",
+    "statModes": "{count}+ oefenvormen",
+    "statThemes": "100+ thema's · 3.000 afbeeldingen",
+    "statLanguages": "Drukt in 11 talen",
+    "bayMachines": "{count} machines",
+    "machineNo": "Nr. {number}",
+    "modesMore": "+{count} meer",
+    "themeCaseTitle": "De prentenkasten",
+    "themeCaseBody": "Ruim 100 themalades passen in elke machine — 3.000 met zorg getekende afbeeldingen, in kleur of als kleurplaat.",
+    "themeCaseCta": "Bekijk alle thema's",
+    "langCaseTitle": "De letterkasten",
+    "langCaseBody": "Elke machine zet zijn werkbladen in elf talen — hetzelfde blad, in de taal van jouw klas.",
+    "dispatchCta": "Werkbladen, vers van de pers"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Duizenden werkbladen, geordend per type",

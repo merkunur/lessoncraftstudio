@@ -2486,6 +2486,23 @@
       "description": "Uudelleensuunnitellun etusivun sisäinen prototyyppi. Ei indeksoitu."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "Työpaja jokaisen tehtäväarkin takana",
+    "heroCta": "Tutustu konehalliin",
+    "statMachines": "{count} painokonetta",
+    "statModes": "{count}+ harjoitusmuotoa",
+    "statThemes": "100+ teemaa · 3 000 kuvaa",
+    "statLanguages": "Tulostaa 11 kielellä",
+    "bayMachines": "{count} konetta",
+    "machineNo": "Nro {number}",
+    "modesMore": "+{count} lisää",
+    "themeCaseTitle": "Kuvalaatikot",
+    "themeCaseBody": "Yli 100 teemalaatikkoa sopii jokaiseen koneeseen — 3 000 huolella piirrettyä kuvaa, värillisinä tai värityskuvina.",
+    "themeCaseCta": "Selaa kaikkia teemoja",
+    "langCaseTitle": "Latomo",
+    "langCaseBody": "Jokainen kone latoo tehtäväarkit yhdellätoista kielellä — sama arkki, luokkasi kielellä.",
+    "dispatchCta": "Katso vastapainetut tehtäväarkit"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Tuhansia tehtäviä, järjestetty tyypin mukaan",

@@ -4016,6 +4016,23 @@
       "description": "Prototipo interno de la página de inicio rediseñada. No indexable."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "El taller detrás de cada ficha",
+    "heroCta": "Recorre la sala de máquinas",
+    "statMachines": "{count} máquinas de fichas",
+    "statModes": "{count}+ modos de ejercicio",
+    "statThemes": "100+ temas · 3.000 imágenes",
+    "statLanguages": "Imprime en 11 idiomas",
+    "bayMachines": "{count} máquinas",
+    "machineNo": "N.º {number}",
+    "modesMore": "+{count} más",
+    "themeCaseTitle": "Los cajones de imágenes",
+    "themeCaseBody": "Más de 100 cajones temáticos encajan en cualquier máquina: 3.000 ilustraciones dibujadas con cariño, en color o para colorear.",
+    "themeCaseCta": "Explorar todos los temas",
+    "langCaseTitle": "Las letras de imprenta",
+    "langCaseBody": "Cada máquina compone sus fichas en once idiomas: la misma ficha, en el idioma de tu clase.",
+    "dispatchCta": "Ver fichas recién impresas"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Miles de fichas, organizadas por tipo",

@@ -79,14 +79,19 @@ export default function Modal({
         role="dialog"
         aria-modal="true"
         aria-labelledby={labelledBy}
-        className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/60 backdrop-blur-sm p-4 overflow-y-auto"
+        /* Warm ink scrim, not the cold ink-900: the overlay layer was the last
+           surface still on the pre-Direction-A vocabulary, and a blue-black
+           wash over a warm page reads as a different product. */
+        className="fixed inset-0 z-[100] flex items-center justify-center bg-[#14322D]/55 backdrop-blur-[2px] p-4 overflow-y-auto"
         onClick={closeOnBackdrop ? onClose : undefined}
       >
         <div
           ref={cardRef}
           tabIndex={-1}
           onClick={(e) => e.stopPropagation()}
-          className={`w-full ${SIZE[size]} max-h-[90vh] overflow-y-auto rounded-2xl bg-white p-6 shadow-xl outline-none md:p-7`}
+          /* Same card vocabulary as the workspace cards: paper #FFFDF8 with a
+             solid warm border and an umber shadow — not bg-white/shadow-xl. */
+          className={`w-full ${SIZE[size]} max-h-[90vh] overflow-y-auto rounded-2xl border border-[#CFC5AE] bg-[#FFFDF8] p-6 shadow-[0_8px_16px_-8px_rgba(84,66,39,0.25),0_24px_56px_-16px_rgba(84,66,39,0.4)] outline-none md:p-7`}
         >
           {children}
         </div>

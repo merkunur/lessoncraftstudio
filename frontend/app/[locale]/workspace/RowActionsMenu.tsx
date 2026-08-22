@@ -109,8 +109,8 @@ export default function RowActionsMenu({
            is explicitly non-technical. It costs almost nothing visually (a
            quiet grey glyph that does not compete with the filled Share) and it
            is the difference between two working actions and two hidden ones. */
-        className={`inline-flex h-11 w-11 items-center justify-center rounded-full transition-colors hover:bg-[#14322D]/[0.06] hover:text-[#14322D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9 md:w-9 ${
-          open ? 'bg-[#14322D]/[0.06] text-[#14322D]' : 'text-[#5E706A]'
+        className={`inline-flex h-11 w-11 items-center justify-center rounded-full transition-colors hover:bg-[#F5F1E6] hover:text-[#14322D] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9 md:w-9 ${
+          open ? 'bg-[#F5F1E6] text-[#14322D]' : 'text-[#5E706A]'
         }`}
       >
         <svg width="16" height="4" viewBox="0 0 16 4" aria-hidden="true" fill="currentColor">
@@ -124,11 +124,11 @@ export default function RowActionsMenu({
         <div
           role="menu"
           aria-label={label}
-          className="absolute right-0 top-full z-20 mt-1 w-44 origin-top-right rounded-2xl border border-[#14322D]/10 bg-[#FFFDF8] p-1 shadow-[0_4px_8px_-4px_rgba(20,50,45,0.12),0_16px_32px_-12px_rgba(20,50,45,0.20)]"
+          className="absolute right-0 top-full z-20 mt-1 w-44 origin-top-right rounded-2xl border border-[#CFC5AE] bg-[#FFFDF8] p-1 shadow-[0_4px_8px_-4px_rgba(84,66,39,0.15),0_16px_32px_-12px_rgba(84,66,39,0.28)]"
         >
           {actions.map((action, i) => (
             <div key={action.key}>
-              {action.destructive && i > 0 && <div className="my-1 h-px bg-[#14322D]/[0.08]" />}
+              {action.destructive && i > 0 && <div className="my-1 h-px bg-[#EFE9DA]" />}
               <button
                 ref={(el) => {
                   itemRefs.current[i] = el;
@@ -140,7 +140,7 @@ export default function RowActionsMenu({
                 className={`flex w-full items-center rounded-xl px-3 py-2.5 text-left font-lcsBody text-sm font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral ${
                   action.destructive
                     ? 'text-[#B3392B] hover:bg-[#B3392B]/[0.07]'
-                    : 'text-[#3D4F49] hover:bg-[#14322D]/[0.05] hover:text-[#14322D]'
+                    : 'text-[#3D4F49] hover:bg-[#F5F1E6] hover:text-[#14322D]'
                 }`}
               >
                 {action.label}

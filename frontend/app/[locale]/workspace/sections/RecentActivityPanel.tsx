@@ -14,6 +14,8 @@ import { deckTitleFor, type Activity, type Slice } from '../useWorkspaceData';
 interface Props {
   locale: string;
   slice: Slice<{ recentActivity: Activity[] }>;
+  /** Grid/order placement from the shell — it lives in the desktop rail. */
+  className?: string;
 }
 
 function deckHrefFor(language: string, slug: string): string {
@@ -93,7 +95,7 @@ function TypeToken({ type }: { type: Activity['type'] }) {
   );
 }
 
-export default function RecentActivityPanel({ locale, slice }: Props) {
+export default function RecentActivityPanel({ locale, slice, className }: Props) {
   const t = useTranslations('workspace.recentActivity');
 
   // A /api/workspace failure now degrades to hiding THIS panel only — it no
@@ -103,13 +105,19 @@ export default function RecentActivityPanel({ locale, slice }: Props) {
   const activities = slice.data?.recentActivity ?? [];
 
   return (
-    <WorkspaceSection id="ws-recent" title={t('heading')} variant="full">
+    <WorkspaceSection
+      id="ws-recent"
+      title={t('heading')}
+      icon="recent"
+      variant="full"
+      className={className}
+    >
       {activities.length === 0 ? (
         <WorkspaceEmptyState title={t('empty.title')} body={t('empty.body')} />
       ) : (
         /* Same full-bleed ruled-line idiom as the worksheet rows, so the whole
            panel reads with one rhythm. */
-        <ul className="-mx-5 divide-y divide-[#14322D]/[0.08] border-y border-[#14322D]/[0.08] md:-mx-6">
+        <ul className="-mx-5 divide-y divide-[#EFE9DA] border-y border-[#EFE9DA] md:-mx-6">
           {activities.map((a, idx) => {
             const time = relativeTime(a.when, locale, (k, p) => t(k, p));
 
@@ -135,7 +143,7 @@ export default function RecentActivityPanel({ locale, slice }: Props) {
               /* ring-inset, not ring-offset: the row runs full-bleed to the
                  panel edge, so an outset ring would be clipped by the panel's
                  overflow-hidden. */
-              'group flex min-h-[44px] items-center gap-3 px-5 py-2.5 transition-colors hover:bg-[#14322D]/[0.035] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-lcs-coral md:px-6';
+              'group flex min-h-[44px] items-center gap-3 px-5 py-2.5 transition-colors hover:bg-[#FAF6EC] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-lcs-coral md:px-6';
 
             const body = (
               <>

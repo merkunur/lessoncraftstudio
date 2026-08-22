@@ -22,16 +22,24 @@ const DECK_RAIL_BARS = 5;
 /** Form field inside the create modal — a well that becomes paper on focus,
  *  matching the list toolbar's search input. */
 const FIELD =
-  'min-h-[44px] w-full rounded-xl border border-[#14322D]/10 bg-[#F5F1E6] px-3 py-2 font-lcsBody text-sm text-[#14322D] outline-none transition-colors placeholder:text-[#9AA8A3] focus:border-lcs-coral focus:bg-[#FFFDF8] disabled:opacity-60';
+  'min-h-[44px] w-full rounded-xl border border-[#E3DCC9] bg-[#F5F1E6] px-3 py-2 font-lcsBody text-sm text-[#14322D] outline-none transition-colors placeholder:text-[#9AA8A3] focus:border-lcs-coral focus:bg-[#FFFDF8] disabled:opacity-60';
 
 interface Props {
   locale: string;
   slice: Slice<{ collections: CollectionSummary[] }>;
   variant: 'preview' | 'full';
   onSeeAll?: () => void;
+  /** Overview first-run: render the card with its empty state even in preview. */
+  showEmptyPreview?: boolean;
 }
 
-export default function CollectionsSection({ locale, slice, variant, onSeeAll }: Props) {
+export default function CollectionsSection({
+  locale,
+  slice,
+  variant,
+  onSeeAll,
+  showEmptyPreview,
+}: Props) {
   const tRoot = useTranslations('workspace');
   const t = useTranslations('workspace.collections');
   const tCreate = useTranslations('collections.create');
@@ -100,11 +108,12 @@ export default function CollectionsSection({ locale, slice, variant, onSeeAll }:
       <WorkspaceSectionMessage
         id="ws-collections"
         title={t('heading')}
+        icon="collections"
         message={slice.status === 'loading' ? tRoot('loading') : tRoot('errorGeneric')}
       />
     );
   }
-  if (variant === 'preview' && rows.length === 0) return null;
+  if (variant === 'preview' && rows.length === 0 && !showEmptyPreview) return null;
 
   const createLabel = tCreate('title').startsWith('+') ? tCreate('title') : `+ ${tCreate('title')}`;
 
@@ -113,14 +122,15 @@ export default function CollectionsSection({ locale, slice, variant, onSeeAll }:
       <WorkspaceSection
         id="ws-collections"
         title={t('heading')}
+        icon="collections"
         meter={
-          /* The page's single coral CTA. Coral is the identity mark and the ONE
-             call to action per view; everything else that is merely interactive
-             is teal. */
+          /* The page's single coral CTA — and the page's ONLY filled control
+             now that Share is a ghost button. Ink text, not white: white on
+             coral is 2.73:1 (a WCAG failure); ink is 4.97:1. */
           <button
             type="button"
             onClick={() => setCreateOpen(true)}
-            className="inline-flex h-11 items-center rounded-full bg-lcs-coral px-3.5 font-lcsBody text-[0.8125rem] font-bold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9"
+            className="inline-flex h-11 items-center rounded-full bg-lcs-coral px-3.5 font-lcsBody text-[0.8125rem] font-bold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9"
           >
             {createLabel}
           </button>
@@ -153,26 +163,28 @@ export default function CollectionsSection({ locale, slice, variant, onSeeAll }:
               <button
                 type="button"
                 onClick={() => setQuery('')}
-                className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
+                className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
               >
                 {tList('clearSearch')}
               </button>
             }
           />
         ) : (
-          /* Collections stay a grid — they are destinations, not list items —
-             but they become WELLS rather than raised paper, and hover lifts the
-             card toward the sheet color instead of translating it. Same "it
-             responded" signal, zero layout noise, consistent with the
-             darker-is-nested rule. */
-          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          /* Collections stay a grid — they are destinations, not list items.
+             The tiles read as OBJECTS now: a visible fill, a solid border and
+             a 2px bottom "deck edge" that gives them physical thickness — the
+             old #F5F1E6-on-#FFFDF8 tiles were ghost wells with near-invisible
+             borders. Hover lifts toward paper with a teal edge; no translate
+             (rows/tiles never fake motion on this surface). 2 columns in the
+             ~736px main column (3 would give ~215px slivers). */
+          <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {shown.map((c) => {
               const filled = Math.min(c.deckCount, DECK_RAIL_BARS);
               return (
                 <li key={c.id}>
                   <Link
                     href={`/${locale}/collections/${c.id}`}
-                    className="group flex h-full min-h-[132px] flex-col rounded-2xl border border-[#14322D]/10 bg-[#F5F1E6] p-4 transition-colors hover:border-lcs-teal/40 hover:bg-[#FFFDF8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8]"
+                    className="group flex h-full min-h-[116px] flex-col rounded-xl border border-[#E0D7C0] border-b-2 border-b-[#D3C8AC] bg-[#F7F1E1] p-4 transition-colors hover:border-lcs-teal/40 hover:border-b-lcs-teal/40 hover:bg-[#FFFDF8] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8]"
                   >
                     {/* The deck rail. Not decoration — it encodes how full the
                         collection is, which is what stops the card being 80%
@@ -187,7 +199,7 @@ export default function CollectionsSection({ locale, slice, variant, onSeeAll }:
                               ? c.deckCount > DECK_RAIL_BARS && i === DECK_RAIL_BARS - 1
                                 ? 'bg-lcs-teal'
                                 : 'bg-lcs-teal/45'
-                              : 'bg-[#14322D]/10'
+                              : 'bg-[#E3DCC9]'
                           }`}
                         />
                       ))}
@@ -302,7 +314,7 @@ export default function CollectionsSection({ locale, slice, variant, onSeeAll }:
               <button
                 type="submit"
                 disabled={busy}
-                className="min-h-[44px] rounded-full bg-lcs-coral px-5 py-2 font-lcsDisplay text-sm font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] disabled:opacity-60"
+                className="min-h-[44px] rounded-full bg-lcs-coral px-5 py-2 font-lcsDisplay text-sm font-semibold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] disabled:opacity-60"
               >
                 {busy ? tCreate('submitting') : tCreate('submit')}
               </button>

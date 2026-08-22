@@ -6,10 +6,10 @@ import ActivityShareModal from '@/components/activities/ActivityShareModal';
 import ConfirmDialog from '@/components/ui/ConfirmDialog';
 import PromptDialog from '@/components/ui/PromptDialog';
 import ClientPagination from '@/components/ui/ClientPagination';
-import WorkspaceSection, { WorkspaceSectionMessage, QuotaMeter } from '../WorkspaceSection';
+import WorkspaceSection, { WorkspaceSectionMessage } from '../WorkspaceSection';
 import WorkspaceListToolbar from '../WorkspaceListToolbar';
 import WorkspaceEmptyState from '../WorkspaceEmptyState';
-import WorkspaceRow, { ROW_LIST, MetaChip, MetaDot } from '../WorkspaceRow';
+import WorkspaceRow, { ROW_LIST, ROW_SHARE_BUTTON, ShareGlyph, MetaChip, MetaDot } from '../WorkspaceRow';
 import RowActionsMenu from '../RowActionsMenu';
 import { usePagedList } from '../usePagedList';
 import { filterAndSort } from '../listUtils';
@@ -23,9 +23,17 @@ interface Props {
   slice: Slice<{ shares: ShareRow[]; limit: { count: number; maxCount: number } }>;
   variant: 'preview' | 'full';
   onSeeAll?: () => void;
+  /** Overview first-run: render the card with its empty state even in preview. */
+  showEmptyPreview?: boolean;
 }
 
-export default function SharedActivitiesSection({ locale, slice, variant, onSeeAll }: Props) {
+export default function SharedActivitiesSection({
+  locale,
+  slice,
+  variant,
+  onSeeAll,
+  showEmptyPreview,
+}: Props) {
   const t = useTranslations('workspace');
   const tShared = useTranslations('workspace.sharedActivities');
   const tDialog = useTranslations('workspace.dialog');
@@ -40,7 +48,6 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
   const [dialogError, setDialogError] = useState<string | null>(null);
 
   const rows = slice.data?.shares ?? [];
-  const limit = slice.data?.limit;
 
   const visible = useMemo(
     () =>
@@ -64,11 +71,12 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
       <WorkspaceSectionMessage
         id="ws-shared"
         title={tShared('title')}
+        icon="activities"
         message={slice.status === 'loading' ? t('loading') : t('errorGeneric')}
       />
     );
   }
-  if (variant === 'preview' && rows.length === 0) return null;
+  if (variant === 'preview' && rows.length === 0 && !showEmptyPreview) return null;
 
   async function send(url: string, init: RequestInit) {
     const token = localStorage.getItem('accessToken');
@@ -112,18 +120,11 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
 
   return (
     <>
+      {/* The share-limit meter moved to the rail's plan-&-usage card. */}
       <WorkspaceSection
         id="ws-shared"
         title={tShared('title')}
-        meter={
-          limit ? (
-            <QuotaMeter
-              label={t('quotaLabel', { count: limit.count, max: limit.maxCount })}
-              count={limit.count}
-              max={limit.maxCount}
-            />
-          ) : undefined
-        }
+        icon="activities"
         variant={variant}
         totalCount={rows.length}
         onSeeAll={onSeeAll}
@@ -152,7 +153,7 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
               <button
                 type="button"
                 onClick={() => setQuery('')}
-                className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
+                className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
               >
                 {tList('clearSearch')}
               </button>
@@ -184,8 +185,9 @@ export default function SharedActivitiesSection({ locale, slice, variant, onSeeA
                     <button
                       type="button"
                       onClick={() => setShareRow(row)}
-                      className="inline-flex h-11 items-center justify-center rounded-full bg-lcs-teal px-4 font-lcsBody text-[0.8125rem] font-bold tracking-[0.01em] text-[#FFFDF8] transition-colors hover:bg-lcs-teal-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] md:h-9"
+                      className={ROW_SHARE_BUTTON}
                     >
+                      <ShareGlyph />
                       {tShared('share')}
                     </button>
                     <RowActionsMenu

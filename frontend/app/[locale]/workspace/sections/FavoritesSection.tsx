@@ -18,9 +18,17 @@ interface Props {
   slice: Slice<{ favorites: FavoriteRow[] }>;
   variant: 'preview' | 'full';
   onSeeAll?: () => void;
+  /** Overview first-run: render the card with its empty state even in preview. */
+  showEmptyPreview?: boolean;
 }
 
-export default function FavoritesSection({ locale, slice, variant, onSeeAll }: Props) {
+export default function FavoritesSection({
+  locale,
+  slice,
+  variant,
+  onSeeAll,
+  showEmptyPreview,
+}: Props) {
   const tRoot = useTranslations('workspace');
   const t = useTranslations('workspace.favorites');
   const tList = useTranslations('workspace.list');
@@ -56,11 +64,12 @@ export default function FavoritesSection({ locale, slice, variant, onSeeAll }: P
       <WorkspaceSectionMessage
         id="ws-favorites"
         title={t('title')}
+        icon="favorites"
         message={slice.status === 'loading' ? tRoot('loading') : tRoot('errorGeneric')}
       />
     );
   }
-  if (variant === 'preview' && rows.length === 0) return null;
+  if (variant === 'preview' && rows.length === 0 && !showEmptyPreview) return null;
 
   async function remove(deckId: string) {
     setPending(deckId);
@@ -81,6 +90,7 @@ export default function FavoritesSection({ locale, slice, variant, onSeeAll }: P
     <WorkspaceSection
       id="ws-favorites"
       title={t('title')}
+      icon="favorites"
       variant={variant}
       totalCount={rows.length}
       onSeeAll={onSeeAll}
@@ -109,7 +119,7 @@ export default function FavoritesSection({ locale, slice, variant, onSeeAll }: P
             <button
               type="button"
               onClick={() => setQuery('')}
-              className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
+              className="inline-flex min-h-[44px] items-center justify-center rounded-full bg-lcs-coral px-5 py-2.5 font-lcsDisplay font-semibold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#F5F1E6]"
             >
               {tList('clearSearch')}
             </button>
@@ -124,11 +134,11 @@ export default function FavoritesSection({ locale, slice, variant, onSeeAll }: P
            one. `divide-y` is WRONG on a 2-col grid — it borders every child but
            the first in DOM order, so the top-right cell would be underlined on
            the first visual row. */
-        <ul className="grid border-t border-[#14322D]/[0.08] sm:grid-cols-2 sm:gap-x-6">
+        <ul className="grid border-t border-[#EFE9DA] sm:grid-cols-2 sm:gap-x-6">
           {shown.map((f) => (
             <li
               key={f.deckId}
-              className="flex items-center gap-2 border-b border-[#14322D]/[0.08] py-1"
+              className="flex items-center gap-2 border-b border-[#EFE9DA] py-1"
             >
               {/* nginx-served deck page → plain <a> per the §15.7 routing contract */}
               <a

@@ -314,7 +314,7 @@ function LevelCard({
       className="actcat-card group flex flex-col rounded-3xl p-4 md:p-5 focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-lcs-cream"
     >
       <span aria-hidden="true" className={`block h-1.5 w-10 rounded-full ${tint} mb-3`} />
-      <h3 className="font-lcsDisplay font-bold text-base md:text-lg text-lcs-teal leading-snug capitalize break-words mb-1">
+      <h3 className="font-lcsDisplay font-bold text-base md:text-lg text-lcs-teal leading-snug capitalize break-words hyphens-auto mb-1">
         {item.name}
       </h3>
       <p className="font-lcsBody text-xs text-lcs-teal/65 leading-snug mb-3">{countLabel}</p>
@@ -372,7 +372,7 @@ function SubjectCard({
           </span>
         )}
       </div>
-      <h3 className="font-lcsDisplay font-bold text-sm md:text-base text-lcs-teal leading-snug line-clamp-2 break-words mb-1">
+      <h3 className="font-lcsDisplay font-bold text-sm md:text-base text-lcs-teal leading-snug line-clamp-2 break-words hyphens-auto mb-1">
         {item.name}
       </h3>
       <p className="font-lcsBody text-xs text-lcs-teal/65 leading-snug mb-2.5">{countLabel}</p>
@@ -424,7 +424,7 @@ function ThemeTile({
       </div>
       {/* Two lines + break-words: German/Finnish compound theme names were
           reduced to fragments (or hard-clipped) on one line (QA defects #3/#4). */}
-      <span className="font-lcsBody font-bold text-xs md:text-[0.8rem] text-lcs-teal leading-tight text-center line-clamp-2 break-words px-0.5 min-h-[2.1em]">
+      <span className="font-lcsBody font-bold text-xs md:text-[0.8rem] text-lcs-teal leading-tight text-center line-clamp-2 break-words hyphens-auto px-0.5 min-h-[2.1em]">
         {item.name}
       </span>
       <span className="font-lcsBody text-[0.65rem] text-lcs-teal/60 text-center">{countLabel}</span>

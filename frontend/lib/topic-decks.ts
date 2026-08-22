@@ -136,6 +136,52 @@ export async function axisWhere(
  * grid renders (sort=newest), so the image matches the first card a visitor sees.
  * Returns null for an empty hub — the caller falls back to the brand image.
  */
+/**
+ * One lead deck slug per exerciseType for a locale, in ONE round-trip.
+ *
+ * Powers the worksheet-makers hub's 33 specimen thumbnails. fetchMakerSamples
+ * is the wrong tool there (2–6+ queries per maker → ~70–150 queries for the
+ * full floor, computing per-mode metadata the hub never shows). This is the
+ * same narrow-select full-locale fetch the facet helpers below use (~4ms p95
+ * at 55K decks per the getFacetCounts measurement), reduced first-per-type in
+ * JS so the winning deck matches the first card the maker's own topic grid
+ * shows (TOPIC_DEFAULT_ORDER = sort=newest).
+ *
+ * Thumbnail URLs must be derived from the returned slug via
+ * deckAssets()/wwwImg() — never from the DB's thumbnailUrl column (§8.1 drift).
+ */
+export interface LeadDeckCandidate {
+  slug: string;
+  /** Primary theme tag (subjectTags[0]) — lets the hub spread themes across
+   *  the 33 cards instead of every specimen wearing the newest wave's theme. */
+  theme: string | null;
+}
+
+export async function fetchLeadDeckCandidatesByExerciseType(
+  locale: string,
+  perType = 6
+): Promise<Map<string, LeadDeckCandidate[]>> {
+  const rows = (await prisma.deck.findMany({
+    where: { language: locale, status: 'published', ...MONOLINGUAL_WHERE },
+    select: { slug: true, exerciseType: true, subjectTags: true },
+    orderBy: TOPIC_DEFAULT_ORDER,
+  })) as Array<{ slug: string; exerciseType: string; subjectTags: string[] }>;
+  const lead = new Map<string, LeadDeckCandidate[]>();
+  for (const r of rows) {
+    let list = lead.get(r.exerciseType);
+    if (!list) {
+      list = [];
+      lead.set(r.exerciseType, list);
+    }
+    if (list.length >= perType) continue;
+    const theme = r.subjectTags && r.subjectTags.length > 0 ? r.subjectTags[0] : null;
+    // keep candidates theme-distinct within a type so the picker has real choice
+    if (theme !== null && list.some((c) => c.theme === theme)) continue;
+    list.push({ slug: r.slug, theme });
+  }
+  return lead;
+}
+
 export async function fetchLeadDeckForAxes(
   axes: Array<{ axis: Axis; axisKey: string }>,
   locale: string

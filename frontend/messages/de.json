@@ -3818,6 +3818,23 @@
       "description": "Interner Prototyp der neu gestalteten Startseite. Nicht indexiert."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "Die Werkstatt hinter jedem Arbeitsblatt",
+    "heroCta": "Rundgang durch die Maschinenhalle",
+    "statMachines": "{count} Arbeitsblatt-Maschinen",
+    "statModes": "{count}+ Übungsmodi",
+    "statThemes": "100+ Themen · 3.000 Bilder",
+    "statLanguages": "Druckt in 11 Sprachen",
+    "bayMachines": "{count} Maschinen",
+    "machineNo": "Nr. {number}",
+    "modesMore": "+{count} weitere",
+    "themeCaseTitle": "Die Bilderkästen",
+    "themeCaseBody": "Über 100 Themenschubladen passen in jede Maschine — 3.000 liebevoll gezeichnete Bilder, bunt oder als Ausmalvorlage.",
+    "themeCaseCta": "Alle Themen entdecken",
+    "langCaseTitle": "Die Setzkästen",
+    "langCaseBody": "Jede Maschine setzt ihre Arbeitsblätter in elf Sprachen — dasselbe Blatt, in der Sprache Ihrer Klasse.",
+    "dispatchCta": "Frisch gedruckte Arbeitsblätter ansehen"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Tausende Arbeitsblätter, nach Typ geordnet",

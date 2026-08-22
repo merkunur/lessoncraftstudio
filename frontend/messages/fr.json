@@ -2517,6 +2517,23 @@
       "description": "Prototype interne de la page d'accueil redessinée. Non indexé."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "L'atelier derrière chaque fiche",
+    "heroCta": "Visiter la salle des machines",
+    "statMachines": "{count} machines à fiches",
+    "statModes": "{count}+ modes d'exercices",
+    "statThemes": "100+ thèmes · 3 000 images",
+    "statLanguages": "Impression en 11 langues",
+    "bayMachines": "{count} machines",
+    "machineNo": "N° {number}",
+    "modesMore": "+{count} autres",
+    "themeCaseTitle": "Les casiers à images",
+    "themeCaseBody": "Plus de 100 tiroirs à thèmes s'adaptent à chaque machine — 3 000 illustrations dessinées avec soin, en couleur ou à colorier.",
+    "themeCaseCta": "Parcourir tous les thèmes",
+    "langCaseTitle": "Les caractères d'imprimerie",
+    "langCaseBody": "Chaque machine compose ses fiches en onze langues — la même fiche, dans la langue de votre classe.",
+    "dispatchCta": "Voir les fiches fraîchement imprimées"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Des milliers de fiches, classées par type",

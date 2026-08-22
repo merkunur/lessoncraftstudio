@@ -2501,6 +2501,23 @@
       "description": "Internt prototypeoppsett av den redesignede forsiden. Ikke indeksert."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "Verkstedet bak hvert arbeidsark",
+    "heroCta": "Se maskinhallen",
+    "statMachines": "{count} arbeidsark-maskiner",
+    "statModes": "{count}+ øvingsformer",
+    "statThemes": "100+ temaer · 3 000 bilder",
+    "statLanguages": "Trykker på 11 språk",
+    "bayMachines": "{count} maskiner",
+    "machineNo": "Nr. {number}",
+    "modesMore": "+{count} flere",
+    "themeCaseTitle": "Bildeskuffene",
+    "themeCaseBody": "Over 100 temaskuffer passer i hver maskin — 3 000 omsorgsfullt tegnede bilder, i farger eller som fargeleggingsark.",
+    "themeCaseCta": "Se alle temaer",
+    "langCaseTitle": "Setteriet",
+    "langCaseBody": "Hver maskin setter arbeidsarkene sine på elleve språk — det samme arket, på klassens språk.",
+    "dispatchCta": "Se nytrykte arbeidsark"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Tusenvis av oppgaver, sortert etter type",

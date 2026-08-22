@@ -2497,6 +2497,23 @@
       "description": "Intern prototyp av den omdesignade startsidan. Indexeras inte."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "Verkstaden bakom varje arbetsblad",
+    "heroCta": "Ta en rundtur i maskinhallen",
+    "statMachines": "{count} arbetsbladsmaskiner",
+    "statModes": "{count}+ övningslägen",
+    "statThemes": "100+ teman · 3 000 bilder",
+    "statLanguages": "Trycker på 11 språk",
+    "bayMachines": "{count} maskiner",
+    "machineNo": "Nr {number}",
+    "modesMore": "+{count} till",
+    "themeCaseTitle": "Bildlådorna",
+    "themeCaseBody": "Över 100 temalådor passar i varje maskin — 3 000 omsorgsfullt tecknade bilder, i färg eller som målarbilder.",
+    "themeCaseCta": "Bläddra bland alla teman",
+    "langCaseTitle": "Sätteriet",
+    "langCaseBody": "Varje maskin sätter sina arbetsblad på elva språk — samma blad, på klassens språk.",
+    "dispatchCta": "Se nytryckta arbetsblad"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Tusentals arbetsblad, sorterade efter typ",

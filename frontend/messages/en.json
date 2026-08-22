@@ -4014,6 +4014,23 @@
       "description": "Internal prototype of the redesigned homepage. Not indexed."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "The works behind every worksheet",
+    "heroCta": "Tour the press floor",
+    "statMachines": "{count} worksheet machines",
+    "statModes": "{count}+ exercise modes",
+    "statThemes": "100+ themes · 3,000 pictures",
+    "statLanguages": "Prints in 11 languages",
+    "bayMachines": "{count} machines",
+    "machineNo": "No. {number}",
+    "modesMore": "+{count} more",
+    "themeCaseTitle": "The picture-block cases",
+    "themeCaseBody": "Slide any of the 100+ theme drawers into any machine — 3,000 hand-drawn pictures, in color and line art.",
+    "themeCaseCta": "Browse all themes",
+    "langCaseTitle": "The typesetting cases",
+    "langCaseBody": "Every machine sets its type in eleven languages — the same worksheet, in your classroom's words.",
+    "dispatchCta": "See worksheets fresh off the presses"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Thousands of worksheets, organized by type",

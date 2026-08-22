@@ -4003,6 +4003,23 @@
       "description": "Protótipo interno da nova página inicial. Não indexada."
     }
   },
+  "worksheetMakersPage": {
+    "kicker": "A oficina por trás de cada atividade",
+    "heroCta": "Conheça a sala de máquinas",
+    "statMachines": "{count} máquinas de atividades",
+    "statModes": "{count}+ modos de exercício",
+    "statThemes": "100+ temas · 3.000 imagens",
+    "statLanguages": "Imprime em 11 idiomas",
+    "bayMachines": "{count} máquinas",
+    "machineNo": "N.º {number}",
+    "modesMore": "+{count} mais",
+    "themeCaseTitle": "As gavetas de imagens",
+    "themeCaseBody": "Mais de 100 gavetas temáticas se encaixam em qualquer máquina: 3.000 ilustrações desenhadas com carinho, coloridas ou para colorir.",
+    "themeCaseCta": "Ver todos os temas",
+    "langCaseTitle": "As letras de forma",
+    "langCaseBody": "Cada máquina compõe suas atividades em onze idiomas: a mesma atividade, no idioma da sua turma.",
+    "dispatchCta": "Ver atividades recém-impressas"
+  },
   "worksheetsPage": {
     "metaTitle": {
       "hundreds": "Milhares de atividades, organizadas por tipo",

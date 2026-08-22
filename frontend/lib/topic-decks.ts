@@ -204,6 +204,50 @@ export async function listNonEmptyAxisKeys(
 }
 
 /**
+ * Same gate as listNonEmptyAxisKeys, but keeps the per-key published-deck
+ * count the groupBys already compute (the theme branch delegates to
+ * listAllNonEmptyThemesWithCounts, which tallies subjectTags the same way).
+ * Order: taxonomy registry order for exercise-type/educational-level (the
+ * caller re-sorts by localized name), count-desc for theme.
+ * Used by the /topic index hub tiles (count pills). Additive — no existing
+ * caller of listNonEmptyAxisKeys changes.
+ */
+export async function listNonEmptyAxisKeysWithCounts(
+  axis: Axis,
+  locale: string
+): Promise<Array<{ axisKey: string; count: number }>> {
+  if (axis === 'exercise-type') {
+    const grouped = await prisma.deck.groupBy({
+      by: ['exerciseType'],
+      where: { language: locale, status: 'published', contentLanguage: null },
+      _count: { _all: true },
+    });
+    const countByType = new Map(grouped.map(g => [g.exerciseType, g._count._all]));
+    return listAxisKeys(axis)
+      .filter(k => countByType.has(k))
+      .map(k => ({ axisKey: k, count: countByType.get(k) ?? 0 }));
+  }
+  if (axis === 'theme') {
+    return listAllNonEmptyThemesWithCounts(locale);
+  }
+  if (axis === 'educational-level') {
+    const grouped = await prisma.deck.groupBy({
+      by: ['ageRange'],
+      where: { language: locale, status: 'published', contentLanguage: null },
+      _count: { _all: true },
+    });
+    const countByRange = new Map(grouped.map(g => [g.ageRange, g._count._all]));
+    return listAxisKeys(axis)
+      .map(k => ({
+        axisKey: k,
+        count: levelKeyToAgeRanges(k).reduce((sum, r) => sum + (countByRange.get(r) ?? 0), 0),
+      }))
+      .filter(x => x.count > 0);
+  }
+  return [];
+}
+
+/**
  * Latest updatedAt across decks matching (axis, axisKey, locale). Used by the
  * sitemap to set `lastmod` on topic URLs — the topic's content changes when
  * its underlying decks change.

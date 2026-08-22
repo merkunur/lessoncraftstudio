@@ -33,7 +33,7 @@ export default function WorkspaceEmptyState({
     <div
       className={
         variant === 'card'
-          ? 'rounded-2xl border border-[#14322D]/10 bg-[#F5F1E6] px-6 py-10 text-center'
+          ? 'rounded-2xl border border-[#E3DCC9] bg-[#F5F1E6] px-6 py-10 text-center'
           : 'px-4 py-8 text-center'
       }
     >

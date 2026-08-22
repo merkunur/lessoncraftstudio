@@ -8,16 +8,27 @@
  * intercepted, then MEASURES the rendered DOM rather than inspecting source.
  *
  * What it proves (each an assertion, not an eyeball):
- *   A. the three surfaces are the intended hexes (desk / sheet / well)
- *   B. NO text on the page computes to a teal fill — the redesign's central
- *      rule is that teal #146B5E is interactive-only and never a text color.
+ *   A. the surfaces are the intended hexes: the desk ground, and EVERY
+ *      [data-workspace-card] is paper #FFFDF8 ("desk & cards" 2026-08-22 —
+ *      the single sheet is gone; non-vacuity: >= 2 cards on the overview)
+ *   B. NO text on the page computes to a teal fill — the standing rule is
+ *      that teal #146B5E is interactive-only and never a text color.
  *      This is the assertion that would have caught the old six-opacity mush.
  *   C. zero terracotta (the fourth chromatic family) anywhere in the tree
  *   D. no horizontal overflow at any viewport
  *   E. every interactive control is >= 44px on its smaller axis (K-2 / touch)
  *   F. no two rendered boxes COLLIDE (the class that 141 single-box assertions
  *      could not see on a prior tool)
- *   G. the row action hierarchy is real: exactly ONE filled control per row
+ *   G. the action hierarchy is real: ZERO filled controls per row at rest
+ *      (Share is a ghost button that fills only on hover/focus), every row
+ *      still carries >= 2 visible controls (nothing was hidden to get quiet),
+ *      and the page has exactly ONE coral-filled control per view where the
+ *      "+ New collection" CTA renders (overview, collections) and zero
+ *      elsewhere
+ *   H. the portaled dialogs (rename / delete-confirm) follow the same
+ *      contract: paper card, no terracotta, no teal text, brick confirm —
+ *      the overlay layer was invisible to root-scoped scans and shipped
+ *      terracotta for two weeks
  *
  * Usage:  node scripts/visual-qa-workspace.js [--base=http://localhost:3000]
  *                                             [--locale=en] [--keep]
@@ -49,9 +60,11 @@ const TABS = QUICK
   : ['overview', 'worksheets', 'activities', 'collections', 'favorites'];
 
 /* ---------------------------------------------------------------- palette -- */
-const DESK = 'rgb(231, 225, 210)'; // #E7E1D2
-const SHEET = 'rgb(255, 253, 248)'; // #FFFDF8
+const DESK = 'rgb(221, 212, 194)'; // #DDD4C2 — warm stone (2026-08-22)
+const CARD = 'rgb(255, 253, 248)'; // #FFFDF8 — every [data-workspace-card]
 const WELL = 'rgb(245, 241, 230)'; // #F5F1E6
+const BRICK = 'rgb(179, 57, 43)'; // #B3392B — destruction only
+const CORAL = 'rgb(242, 120, 75)'; // #F2784B — the ONE filled CTA per view
 // Teal as a TEXT fill is the defect. Any alpha of it, at any opacity.
 const TEAL_RE = /^rgba?\(20,\s*107,\s*94/;
 
@@ -231,7 +244,9 @@ async function measure(page, vw) {
         overflowing: [],
         surfaces: {},
         filledPerRow: [],
+        ctrlsPerRow: [],
         rowCount: 0,
+        coralControls: 0,
         bodyScrollW: document.documentElement.scrollWidth,
         clientW: document.documentElement.clientWidth,
       };
@@ -263,12 +278,14 @@ async function measure(page, vw) {
         if (/terracotta/.test(cls)) out.terracotta.push(cls.slice(0, 80));
       }
 
-      // --- A: the three surfaces -------------------------------------------
-      // The panel is found via the tab nav it contains, not by a brittle
-      // class-chain selector.
-      const panel = root.querySelector('nav[aria-label]')?.parentElement || null;
+      // --- A: the surfaces --------------------------------------------------
+      // Cards are addressed by their OWN attribute, not by walking up from the
+      // tab nav — the tabs sit on the desk now, so "the nav's parent" would
+      // silently measure the transparent shell wrapper (a false-pass shape).
       out.surfaces.ground = getComputedStyle(root).backgroundColor;
-      out.surfaces.panel = panel ? getComputedStyle(panel).backgroundColor : null;
+      out.surfaces.cards = Array.from(root.querySelectorAll('[data-workspace-card]')).map(
+        (c) => getComputedStyle(c).backgroundColor
+      );
 
       // --- E: tap targets ---------------------------------------------------
       // The 44px floor is a TOUCH guideline, so it is asserted below md (768)
@@ -349,21 +366,31 @@ async function measure(page, vw) {
         }
       }
 
-      // --- G: exactly one filled control per row ----------------------------
-      // "Filled" = a solid non-transparent background that is not the sheet.
+      // --- G: quiet-at-rest action hierarchy --------------------------------
+      // "Filled" = a solid non-transparent background that is not the paper
+      // card. Rows must have ZERO at rest (Share is a ghost) but still >= 2
+      // visible controls — quietness must not be achieved by hiding anything.
+      const isFilled = (c) => {
+        const bg = getComputedStyle(c).backgroundColor;
+        const m = bg.match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?/);
+        if (!m) return false;
+        const alpha = m[4] === undefined ? 1 : parseFloat(m[4]);
+        if (alpha < 0.5) return false;
+        const [r, g, b] = [+m[1], +m[2], +m[3]];
+        return !(r > 240 && g > 240 && b > 235); // not the paper card
+      };
       for (const li of root.querySelectorAll('ul li.group')) {
         const ctrls = Array.from(li.querySelectorAll('button,a')).filter(vis);
-        const filled = ctrls.filter((c) => {
-          const bg = getComputedStyle(c).backgroundColor;
-          const m = bg.match(/rgba?\(([\d.]+),\s*([\d.]+),\s*([\d.]+)(?:,\s*([\d.]+))?/);
-          if (!m) return false;
-          const alpha = m[4] === undefined ? 1 : parseFloat(m[4]);
-          if (alpha < 0.5) return false;
-          const [r, g, b] = [+m[1], +m[2], +m[3]];
-          return !(r > 240 && g > 240 && b > 235); // not the sheet
-        });
         out.rowCount++;
-        out.filledPerRow.push(filled.length);
+        out.ctrlsPerRow.push(ctrls.length);
+        out.filledPerRow.push(ctrls.filter(isFilled).length);
+      }
+
+      // The ONE coral-filled control per view (the "+ New collection" CTA on
+      // views that render the collections section; zero everywhere else).
+      for (const c of root.querySelectorAll('button,a')) {
+        if (!vis(c)) continue;
+        if (getComputedStyle(c).backgroundColor === 'rgb(242, 120, 75)') out.coralControls++;
       }
 
       return out;
@@ -426,12 +453,12 @@ async function measure(page, vw) {
         if (process.env.POISON) {
           await page.evaluate((kind) => {
             const root = document.querySelector('[data-workspace-root]');
-            const panel = root.querySelector('nav[aria-label]')?.parentElement;
+            const card = root.querySelector('[data-workspace-card]');
             const mk = (css, text) => {
               const d = document.createElement('p');
               d.style.cssText = css;
               d.textContent = text;
-              (panel || root).appendChild(d);
+              (card || root).appendChild(d);
               return d;
             };
             if (kind === 'teal-text') mk('color: rgb(20,107,94)', 'poisoned teal body copy');
@@ -441,7 +468,7 @@ async function measure(page, vw) {
               const b = document.createElement('button');
               b.style.cssText = 'display:block;height:20px;width:20px';
               b.setAttribute('aria-label', 'poisoned tiny control');
-              (panel || root).appendChild(b);
+              (card || root).appendChild(b);
             }
             if (kind === 'collision') {
               const a = mk('position:absolute;top:200px;left:40px;width:120px;height:40px', 'AAAA');
@@ -449,16 +476,25 @@ async function measure(page, vw) {
               a.style.zIndex = '5';
             }
             if (kind === 'overflow') mk('position:relative;left:0;width:4000px', 'wide');
+            // Violates the NEW row truth (zero filled controls at rest): a
+            // solid-filled button injected into a row.
             if (kind === 'two-filled') {
               const li = root.querySelector('ul li.group');
               if (li) {
                 const b = document.createElement('button');
-                b.style.cssText = 'background:rgb(242,120,75);height:44px;width:60px';
+                b.style.cssText = 'background:rgb(20,107,94);height:44px;width:60px';
                 b.textContent = 'X';
                 li.appendChild(b);
               }
             }
-            if (kind === 'wrong-panel-bg' && panel) panel.style.background = 'rgb(255,0,0)';
+            // Violates the one-coral-CTA-per-view rule.
+            if (kind === 'extra-coral') {
+              const b = document.createElement('button');
+              b.style.cssText = 'background:rgb(242,120,75);height:44px;width:80px';
+              b.textContent = 'X';
+              (card || root).appendChild(b);
+            }
+            if (kind === 'wrong-panel-bg' && card) card.style.background = 'rgb(255,0,0)';
           }, process.env.POISON);
           await new Promise((r) => setTimeout(r, 80));
         }
@@ -480,14 +516,40 @@ async function measure(page, vw) {
         check(m.collisions.length === 0, `${id} no box collisions`, m.collisions.slice(0, 2).map((c) => `${c.a} X ${c.b} (${c.area}px2)`).join(' | '));
 
         if (scenario === 'full' && (tab === 'worksheets' || tab === 'activities')) {
-          const bad = m.filledPerRow.filter((n) => n !== 1).length;
+          const filledBad = m.filledPerRow.filter((n) => n !== 0).length;
+          const thinBad = m.ctrlsPerRow.filter((n) => n < 2).length;
           check(m.rowCount > 0, `${id} rows rendered`, `rowCount=${m.rowCount}`);
-          check(bad === 0, `${id} exactly ONE filled control per row`, `rows with !=1: ${bad} of ${m.rowCount} (${m.filledPerRow.join(',')})`);
+          check(filledBad === 0, `${id} ZERO filled controls per row at rest`, `rows with >0: ${filledBad} of ${m.rowCount} (${m.filledPerRow.join(',')})`);
+          check(thinBad === 0, `${id} every row keeps >= 2 visible controls`, `rows with <2: ${thinBad} (${m.ctrlsPerRow.join(',')})`);
+        }
+
+        // The ONE coral CTA: present exactly once on views that render the
+        // collections section — including the empty overview, where the
+        // first-run empty-preview cards render and "+ New collection" is the
+        // page's invitation to act — zero elsewhere.
+        {
+          const wantCoral = tab === 'overview' || tab === 'collections' ? 1 : 0;
+          check(
+            m.coralControls === wantCoral,
+            `${id} exactly ${wantCoral} coral-filled control(s)`,
+            `got ${m.coralControls}`
+          );
         }
 
         if (w === 1024 && tab === 'overview') {
-          check(m.surfaces.ground === DESK, `${id} ground is desk #E7E1D2`, `got ${m.surfaces.ground}`);
-          check(m.surfaces.panel === SHEET, `${id} panel is sheet #FFFDF8`, `got ${m.surfaces.panel}`);
+          check(m.surfaces.ground === DESK, `${id} ground is desk #DDD4C2`, `got ${m.surfaces.ground}`);
+          // Non-vacuity first: a selector matching nothing must FAIL, not
+          // certify (the querySelectorAll-compared-two-empty-NodeLists trap).
+          check(
+            m.surfaces.cards.length >= 2,
+            `${id} >= 2 cards rendered (non-vacuous)`,
+            `got ${m.surfaces.cards.length}`
+          );
+          check(
+            m.surfaces.cards.every((c) => c === CARD),
+            `${id} every card is paper #FFFDF8`,
+            `got ${[...new Set(m.surfaces.cards)].join(' | ')}`
+          );
         }
 
         if ([360, 768, 1024, 1440, 1920].includes(w)) {
@@ -557,6 +619,65 @@ async function measure(page, vw) {
       check(dlg > 0, 'interaction: Rename opens a dialog', `dialogs=${dlg}`);
       const hasInput = await page.$('[role="dialog"] input');
       check(!!hasInput, 'interaction: rename dialog carries a text field');
+
+      // H. The dialogs portal to <body> — OUTSIDE [data-workspace-root] — so
+      // the root-scoped assertions B/C/A never see them. That blind spot is
+      // exactly how the overlay layer stayed on terracotta + teal-text for two
+      // weeks after the in-page surface migrated. Assert the same contract
+      // inside the open dialog.
+      if (process.env.POISON === 'dialog-terracotta') {
+        await page.evaluate(() => {
+          const d = document.querySelector('[role="dialog"]');
+          if (d && d.firstElementChild) {
+            const p = document.createElement('p');
+            p.className = 'text-terracotta-500';
+            p.textContent = 'x';
+            d.firstElementChild.appendChild(p);
+          }
+        });
+      }
+      if (process.env.POISON === 'dialog-teal-text') {
+        await page.evaluate(() => {
+          const d = document.querySelector('[role="dialog"]');
+          if (d && d.firstElementChild) {
+            const p = document.createElement('p');
+            p.style.color = 'rgb(20,107,94)';
+            p.textContent = 'poisoned teal dialog copy';
+            d.firstElementChild.appendChild(p);
+          }
+        });
+      }
+      const dlgM = await page.evaluate((TEAL_SRC) => {
+        const tealRe = new RegExp(TEAL_SRC);
+        const d = document.querySelector('[role="dialog"]');
+        if (!d) return null;
+        const cardEl = d.firstElementChild;
+        const out = {
+          bg: cardEl ? getComputedStyle(cardEl).backgroundColor : null,
+          terra: 0,
+          teal: [],
+        };
+        for (const el of d.querySelectorAll('*')) {
+          const cls = el.className && el.className.toString ? el.className.toString() : '';
+          if (/terracotta/.test(cls)) out.terra++;
+          const hasOwnText = Array.from(el.childNodes).some(
+            (n) => n.nodeType === 3 && n.textContent.trim().length > 0
+          );
+          if (hasOwnText && tealRe.test(getComputedStyle(el).color)) {
+            if (!el.closest('a,button,[role="menuitem"],label,input')) {
+              out.teal.push(el.textContent.trim().slice(0, 30));
+            }
+          }
+        }
+        return out;
+      }, TEAL_RE.source);
+      check(!!dlgM, 'dialog: rename dialog measurable');
+      if (dlgM) {
+        check(dlgM.bg === CARD, 'dialog: card is paper #FFFDF8', `got ${dlgM.bg}`);
+        check(dlgM.terra === 0, 'dialog: no terracotta class', `${dlgM.terra} node(s)`);
+        check(dlgM.teal.length === 0, 'dialog: no teal text fill', dlgM.teal.join(' | '));
+      }
+
       await page.keyboard.press('Escape');
       await new Promise((r) => setTimeout(r, 250));
 
@@ -570,6 +691,31 @@ async function measure(page, vw) {
       await new Promise((r) => setTimeout(r, 300));
       const dlg2 = await page.$$eval('[role="dialog"]', (els) => els.length);
       check(dlg2 > 0, 'interaction: Delete opens a confirm dialog', `dialogs=${dlg2}`);
+
+      // H. The confirm dialog's destructive button is BRICK — never coral (a
+      // delete must not look like the page's call to action) and never the
+      // banned terracotta.
+      if (process.env.POISON === 'dialog-confirm-not-brick') {
+        await page.evaluate(() => {
+          const d = document.querySelector('[role="dialog"]');
+          const btns = d ? d.querySelectorAll('button') : [];
+          if (btns.length) {
+            // transition:none first — the button has transition-all, and a
+            // computed read milliseconds after an inline background change
+            // reports the STILL-TRANSITIONING (near-brick) value, which let
+            // this poison survive its first run.
+            btns[btns.length - 1].style.transition = 'none';
+            btns[btns.length - 1].style.background = 'rgb(242,120,75)';
+          }
+        });
+      }
+      const confirmBg = await page.evaluate(() => {
+        const d = document.querySelector('[role="dialog"]');
+        if (!d) return null;
+        const btns = d.querySelectorAll('button');
+        return btns.length ? getComputedStyle(btns[btns.length - 1]).backgroundColor : null;
+      });
+      check(confirmBg === BRICK, 'dialog: confirm button is brick #B3392B', `got ${confirmBg}`);
     }
     await page.close();
   }

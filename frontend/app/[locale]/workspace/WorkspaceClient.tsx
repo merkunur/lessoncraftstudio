@@ -40,7 +40,7 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
         <p className="mb-7 font-lcsBody text-[#3D4F49]">{t('gate.signInPromptBody')}</p>
         <Link
           href={`/${locale}/auth/signin`}
-          className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#E7E1D2]"
+          className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#DDD4C2]"
         >
           {t('gate.signInCta')}
         </Link>
@@ -59,7 +59,7 @@ export default function WorkspaceClient({ locale }: { locale: string }) {
         {PRICING_PUBLIC && (
           <Link
             href={`/${locale}/pricing`}
-            className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#FFFDF8] transition-colors hover:bg-lcs-coral-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#E7E1D2]"
+            className="inline-flex min-h-[44px] items-center rounded-full bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-[#14322D] transition-all hover:shadow-[0_3px_10px_-2px_rgba(84,66,39,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#DDD4C2]"
           >
             {t('gate.subscriberCta')}
           </Link>

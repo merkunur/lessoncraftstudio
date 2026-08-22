@@ -4,14 +4,15 @@ import { useTranslations } from 'next-intl';
 import type { WorkspaceTab } from './constants';
 
 /**
- * Underlined tabs across the material types, sitting on the top edge of the
- * workspace panel.
+ * Underlined tabs across the material types, sitting directly ON THE DESK
+ * between the header and the card grid ("desk & cards", 2026-08-22). They
+ * govern the main column; the status rail persists across tabs, which makes
+ * the rail itself a landmark.
  *
  * Underlined, NOT pills: five 44px bordered pills with a solid-teal active fill
  * formed the heaviest and loosest block on the page — the second-heaviest thing
  * after the h1, for what is only a view switch. Underlined tabs are the
- * productivity convention, cost no chrome, and read as folder tabs cut into the
- * sheet, which is the whole surface metaphor.
+ * productivity convention and cost no chrome.
  *
  * The indicator is TEAL, not coral. Teal means "you are here"; coral is the
  * identity mark (the rule under the h1) and the single CTA. Two coral bars 40px
@@ -41,7 +42,10 @@ export default function WorkspaceTabs({ tabs, active, counts, onChange }: Worksp
   return (
     <nav
       aria-label={t('ariaLabel')}
-      className="flex gap-1 overflow-x-auto border-b border-[#14322D]/10 px-5 [scrollbar-width:none] md:px-6 [&::-webkit-scrollbar]:hidden"
+      /* The rule under the strip is a solid tone of the desk (#CBC0A9), not an
+         ink alpha — alpha hairlines go greenish over the stone ground. No
+         horizontal padding: the strip aligns with the cards' outer edge. */
+      className="flex gap-1 overflow-x-auto border-b border-[#CBC0A9] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
     >
       {tabs.map((tab) => {
         const isActive = tab === active;
@@ -57,10 +61,13 @@ export default function WorkspaceTabs({ tabs, active, counts, onChange }: Worksp
                the old strip feel loose.
                The 3px indicator sits at -bottom-px so it paints OVER the nav's
                border-b, reading as the tab breaking the rule line. */
-            className={`relative inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap px-2 py-3.5 font-lcsBody text-sm font-semibold transition-colors after:absolute after:inset-x-2 after:-bottom-px after:h-[3px] after:rounded-full after:content-[''] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#FFFDF8] ${
+            /* Inactive text is #3D4F49, not #5E706A — the muted grey is only
+               3.6:1 on the stone desk (banned there; it survives only on
+               card/well surfaces). Ring offset is the desk. */
+            className={`relative inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap px-2 py-3.5 font-lcsBody text-sm font-semibold transition-colors after:absolute after:inset-x-2 after:-bottom-px after:h-[3px] after:rounded-full after:content-[''] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-[#DDD4C2] ${
               isActive
                 ? 'text-[#14322D] after:bg-lcs-teal'
-                : 'text-[#5E706A] after:bg-transparent hover:text-[#14322D]'
+                : 'text-[#3D4F49] after:bg-transparent hover:text-[#14322D]'
             }`}
           >
             {t(tab)}
@@ -71,7 +78,7 @@ export default function WorkspaceTabs({ tabs, active, counts, onChange }: Worksp
             {typeof count === 'number' && (
               <span
                 className={`rounded-full px-1.5 py-px font-lcsBody text-[0.6875rem] font-bold tabular-nums ${
-                  isActive ? 'bg-lcs-teal/[0.12] text-lcs-teal' : 'bg-[#14322D]/[0.07] text-[#5E706A]'
+                  isActive ? 'bg-lcs-teal/[0.15] text-lcs-teal' : 'bg-[#FFFDF8] text-[#3D4F49]'
                 }`}
               >
                 {count}

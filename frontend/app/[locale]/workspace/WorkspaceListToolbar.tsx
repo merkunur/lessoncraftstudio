@@ -54,7 +54,7 @@ export default function WorkspaceListToolbar({
             onChange={(e) => onQueryChange(e.target.value)}
             placeholder={t('searchPlaceholder')}
             aria-label={t('searchLabel')}
-            className="min-h-[44px] w-full rounded-xl border border-[#14322D]/10 bg-[#F5F1E6] px-3.5 py-2 font-lcsBody text-sm text-[#14322D] outline-none transition-colors placeholder:text-[#9AA8A3] focus:border-lcs-coral focus:bg-[#FFFDF8] md:max-w-xs"
+            className="min-h-[44px] w-full rounded-xl border border-[#E3DCC9] bg-[#F5F1E6] px-3.5 py-2 font-lcsBody text-sm text-[#14322D] outline-none transition-colors placeholder:text-[#9AA8A3] focus:border-lcs-coral focus:bg-[#FFFDF8] md:max-w-xs"
           />
         </div>
       )}
@@ -75,7 +75,7 @@ export default function WorkspaceListToolbar({
           {/* Scrolls rather than wraps. At 360px the four options do not fit,
               and letting them wrap broke "A to Z" across three lines inside its
               own pill — the same reason the tab strip scrolls. */}
-          <div className="flex min-w-0 max-w-full overflow-x-auto rounded-full bg-[#14322D]/[0.05] p-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          <div className="flex min-w-0 max-w-full overflow-x-auto rounded-full bg-[#F0EADB] p-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {sortOptions.map((opt) => (
               <button
                 key={opt}

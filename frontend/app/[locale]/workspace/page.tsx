@@ -11,21 +11,28 @@ import WorkspaceClient from './WorkspaceClient';
 // next/font cannot be called from a 'use client' file, and every child below is
 // client-side.
 //
-// SURFACE SYSTEM — "the marking pile" (redesign 2026-08-07).
-// The catalog hubs are objects on a table; the workspace IS the table. Three
-// surfaces, and the nesting runs DARKER inward, which is the inversion of the
-// catalog vocabulary:
+// SURFACE SYSTEM — "desk & cards" (redesign 2026-08-22, supersedes the
+// 2026-08-07 "marking pile" single-sheet system).
+// The marking-pile sheet correctly killed the card-stack mush but over-corrected
+// into ONE ~1700px panel where every landmark was the same 17px heading — the
+// operator's verdict was "very tiring for the eye". Three fatigue sources:
+// no landmarks, six identical filled Share pills, and a ground→sheet step
+// (1.24:1) still below the ~1.4:1 threshold where a card visibly lifts.
 //
-//   desk  #E7E1D2  this element, full bleed
-//   sheet #FFFDF8  ONE panel (WorkspaceShell) holding tabs + every section
-//   well  #F5F1E6  recessed things inside the sheet — inputs, empty states,
-//                  collection cards, the billing strip
+//   desk  #DDD4C2  this element, full bleed — warm stone, deep enough that
+//                  paper genuinely lifts off it (desk→card 1.43:1)
+//   card  #FFFDF8  DISCRETE cards, one per section, plus a right rail
+//                  (plan & usage, recent activity) on desktop. Solid border
+//                  #CFC5AE + warm-umber shadow; alpha hairlines go greenish
+//                  over stone, so borders are solid colors now.
+//   well  #F5F1E6  recessed things inside cards — inputs, empty states,
+//                  chips. Always paired with a solid #E3DCC9 border: the
+//                  value step alone is sub-threshold by design (wells are
+//                  containment, not landmarks).
 //
-// Raised paper is for objects you pick up; a working surface has wells cut into
-// it. The old ground was cream #FBF3E4 under #FFFDF8 cards — a 1.09:1 luminance
-// step, which is why the page read as one undifferentiated beige mass. #E7E1D2
-// is that cream pulled ~9% down: the step becomes ~1.24:1 and it still reads as
-// the same family.
+// Cards HUG content — no min-heights, no filler. A teacher with three
+// worksheets gets a short card and the desk shows through; sparseness reads as
+// composed negative space instead of a mostly-empty panel.
 //
 // `catalog-cards.css` is deliberately NOT imported. `.actcat-card`'s fractal
 // paper grain is fine behind a 300px marketing card and is grain-over-body-text
@@ -77,13 +84,13 @@ export default function WorkspacePage({ params }: { params: { locale: string } }
       // reported the site header's nav controls as workspace defects, then
       // drove a site-nav button while trying to click a workspace tab.
       data-workspace-root=""
-      className={`${baloo2.variable} ${nunito.variable} font-lcsBody bg-[#E7E1D2] min-h-[calc(100vh-200px)] px-4 py-8 md:px-8 md:py-12`}
+      className={`${baloo2.variable} ${nunito.variable} font-lcsBody bg-[#DDD4C2] min-h-[calc(100vh-200px)] px-4 py-8 md:px-8 md:py-12`}
     >
-      {/* max-w-5xl, not 6xl: a single-column row list at 1152px puts a mile of
-          dead space between a row's title and its buttons, which is much of why
-          the rows read as empty bars. The 3-col collection grid still yields
-          ~310px cards at 1024. */}
-      <div className="mx-auto max-w-5xl">
+      {/* max-w-6xl WITH the two-column split: the main column is ~8 of 12 cols
+          (~736px), so a row's title-to-buttons gap stays short — the old
+          "max-w-5xl or rows read as empty bars" concern is solved structurally
+          by the rail, not by narrowing the page. */}
+      <div className="mx-auto max-w-6xl">
         <WorkspaceClient locale={params.locale} />
       </div>
     </div>

@@ -100,11 +100,13 @@ export default function ActivityShareModal({
       role="dialog"
       aria-modal="true"
       aria-labelledby="activity-share-title"
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-ink-900/60 backdrop-blur-sm p-4"
+      /* Warm ink scrim — matches components/ui/Modal.tsx so every overlay on
+         the site dims with the same wash. */
+      className="fixed inset-0 z-[100] flex items-center justify-center bg-[#14322D]/55 backdrop-blur-[2px] p-4"
       onClick={onClose}
     >
       <div
-        className="w-full max-w-md rounded-2xl bg-[#FFFDF8] p-6 text-center shadow-xl md:p-8"
+        className="w-full max-w-md rounded-2xl border border-[#CFC5AE] bg-[#FFFDF8] p-6 text-center shadow-[0_8px_16px_-8px_rgba(84,66,39,0.25),0_24px_56px_-16px_rgba(84,66,39,0.4)] md:p-8"
         onClick={(e) => e.stopPropagation()}
       >
         <h3

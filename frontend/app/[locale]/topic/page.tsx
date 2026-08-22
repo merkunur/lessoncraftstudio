@@ -314,7 +314,7 @@ function LevelCard({
       className="actcat-card group flex flex-col rounded-3xl p-4 md:p-5 focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-lcs-cream"
     >
       <span aria-hidden="true" className={`block h-1.5 w-10 rounded-full ${tint} mb-3`} />
-      <h3 className="font-lcsDisplay font-bold text-base md:text-lg text-lcs-teal leading-snug capitalize mb-1">
+      <h3 className="font-lcsDisplay font-bold text-base md:text-lg text-lcs-teal leading-snug capitalize break-words mb-1">
         {item.name}
       </h3>
       <p className="font-lcsBody text-xs text-lcs-teal/65 leading-snug mb-3">{countLabel}</p>
@@ -353,21 +353,26 @@ function SubjectCard({
       <div className={`relative overflow-hidden rounded-2xl ${tint.panel} aspect-[4/5] mb-3`}>
         <span aria-hidden="true" className={`absolute left-0 right-0 top-0 z-10 h-1.5 ${tint.edge}`} />
         {thumbSlug ? (
-          <Image
-            src={wwwImg(deckAssets(locale, thumbSlug).thumbnail)}
-            alt=""
-            fill
-            sizes="(max-width:639px) 45vw, (max-width:1023px) 30vw, (max-width:1279px) 23vw, 210px"
-            loading={eager ? "eager" : "lazy"}
-            className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
-          />
+          /* Image sits BELOW the edge band (top-2.5), never under it — the
+             worksheet's own title bar starts at the very top of the render
+             and an overlaying band amputates it (visual-QA defect #1). */
+          <div className="absolute inset-x-0 top-2.5 bottom-0">
+            <Image
+              src={wwwImg(deckAssets(locale, thumbSlug).thumbnail)}
+              alt=""
+              fill
+              sizes="(max-width:639px) 45vw, (max-width:1023px) 30vw, (max-width:1279px) 23vw, 210px"
+              loading={eager ? "eager" : "lazy"}
+              className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
+            />
+          </div>
         ) : (
           <span className={`absolute inset-0 flex items-center justify-center ${tint.glyph}`}>
             <ActivityGlyph tool="" category={tint.glyphKey} className="w-14 h-14 opacity-80" />
           </span>
         )}
       </div>
-      <h3 className="font-lcsDisplay font-bold text-sm md:text-base text-lcs-teal leading-snug line-clamp-2 mb-1">
+      <h3 className="font-lcsDisplay font-bold text-sm md:text-base text-lcs-teal leading-snug line-clamp-2 break-words mb-1">
         {item.name}
       </h3>
       <p className="font-lcsBody text-xs text-lcs-teal/65 leading-snug mb-2.5">{countLabel}</p>
@@ -417,7 +422,9 @@ function ThemeTile({
           </span>
         )}
       </div>
-      <span className="font-lcsBody font-bold text-xs md:text-[0.8rem] text-lcs-teal leading-snug text-center line-clamp-1">
+      {/* Two lines + break-words: German/Finnish compound theme names were
+          reduced to fragments (or hard-clipped) on one line (QA defects #3/#4). */}
+      <span className="font-lcsBody font-bold text-xs md:text-[0.8rem] text-lcs-teal leading-tight text-center line-clamp-2 break-words px-0.5 min-h-[2.1em]">
         {item.name}
       </span>
       <span className="font-lcsBody text-[0.65rem] text-lcs-teal/60 text-center">{countLabel}</span>
@@ -675,7 +682,10 @@ export default async function TopicsIndexPage({
           </>
         )}
 
-        <div className="mt-10 md:mt-14">
+        {/* PageUsageBlock ships legacy font-display/ink classes (shared with
+            legacy-styled topic detail pages) — re-skin it into Direction A
+            here via scoped arbitrary variants (QA defect #6). */}
+        <div className="mt-10 md:mt-14 [&_h2]:font-lcsDisplay [&_h2]:font-bold [&_h2]:text-lcs-teal [&_p]:font-lcsBody [&_p]:text-lcs-teal/80">
           <PageUsageBlock locale={locale} variant="hub" />
         </div>
       </article>

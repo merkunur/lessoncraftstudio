@@ -599,7 +599,9 @@ export default async function TopicsIndexPage({
               {levelItems.length > 0 && (
                 <section id="levels" className="scroll-mt-24">
                   <h2 className={sectionH2}>{strings.sectionLevels}</h2>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 md:gap-5">
+                  {/* 5-up only from lg: at md the cards are too narrow for
+                      fi "Varhaiskasvatus" (no fi hyphenation dictionary). */}
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-5">
                     {levelItems.map((it) => (
                       <LevelCard key={it.key} locale={locale} item={it} countLabel={countLabel(it.count)} />
                     ))}

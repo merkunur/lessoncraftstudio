@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "Pippa la rana ha messo su un allegro chiosco del succo in riva allo stagno, ma i numeri sulla scala sono troppo piccoli per i suoi occhi da rana: tocca a te leggere quanti litri di succo finiscono in ogni bicchiere.",
+        "È un'attività di matematica gratuita e online per la classe seconda (7-8 anni), pensata per imparare a leggere, stimare e confrontare la capacità in litri: si versa il succo nel bicchiere graduato, si guarda il livello sulla scala graduata da 0 a 10 e si conta quanti litri sono.",
+        "L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: nessun punteggio e nessun cronometro, solo un percorso tranquillo in cui versare, osservare e ragionare con calma, anche con semplici materiali manipolabili in classe o a casa."
+      ],
+      "practices": [
+        "Leggere il livello del succo sulla scala graduata e dire quanti litri sono.",
+        "Stimare a occhio «più o meno quanti litri» prima di versare, come chiede il cliente.",
+        "Confrontare due bicchieri per capire quale contiene più succo.",
+        "Capire che la capacità è la quantità di litri che riempiono il bicchiere."
+      ],
+      "howToPlay": [
+        "Ascolta l'ordine del cliente e versa il succo nel bicchiere graduato di Pippa.",
+        "Guarda fino a che numero arriva il livello sulla scala graduata e tocca quanti litri hai versato.",
+        "Se sbagli non c'è problema: arriva un suggerimento gentile e puoi riprovare con calma, senza fretta."
+      ],
+      "learningGoals": [
+        "Leggere la capacità di un contenitore in litri interi usando una scala graduata da 0 a 10.",
+        "Stimare e confrontare la capacità di due contenitori, riconoscendo quale contiene di più.",
+        "Sviluppare il linguaggio della misura in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+      ]
+    },
     "mosaic-menders.area-match.3-md-c-6": {
       "about": [
         "Nella bottega di Tessa, la mosaicista, ogni mosaico prende vita quadretto dopo quadretto: il bambino cerca, tra tre mosaici, quello fatto con lo stesso numero di quadretti del modello di Tessa.",

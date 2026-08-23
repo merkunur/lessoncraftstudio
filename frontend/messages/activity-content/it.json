@@ -192,6 +192,75 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Tuck il criceto ha un problema: deve togliere qualche unità, ma nella colonna delle unità non ce ne sono abbastanza. Con i blocchi base dieci i bambini di classe terza scoprono la soluzione: scomporre una decina in 10 unità. Questo è il cambio, il cuore della sottrazione entro il 1000.",
+        "L'attività mostra numeri come 342 − 5 o 451 − 8, in cui le unità del minuendo non bastano per la sottrazione. Il bambino osserva le tre colonne di valore posizionale e capisce che una decina va aperta e trasformata in 10 unità prima di poter togliere.",
+        "Allineata alle Indicazioni nazionali, nel nucleo Numeri, l'attività trasforma un passaggio spesso difficile in un'esperienza visiva e concreta: si vede la decina che si scompone, le unità che aumentano e la sottrazione che finalmente si può fare."
+      ],
+      "practices": [
+        "Riconoscere quando le unità non bastano e serve il cambio.",
+        "Scomporre una decina in 10 unità usando i blocchi base dieci.",
+        "Eseguire la sottrazione con il cambio di numeri a tre cifre entro il 1000.",
+        "Leggere e interpretare le colonne di valore posizionale: centinaia, decine, unità."
+      ],
+      "howToPlay": [
+        "Guarda il numero di Tuck e conta quante unità servono per la sottrazione.",
+        "Tocca una decina per scomporla in 10 unità: ora la colonna delle unità ha abbastanza blocchi.",
+        "Togli le unità richieste e leggi il risultato della sottrazione con il cambio."
+      ],
+      "learningGoals": [
+        "Comprendere il cambio come scomposizione di una decina in 10 unità.",
+        "Sottrarre numeri a tre cifre entro il 1000 quando le unità non sono sufficienti.",
+        "Collegare i blocchi base dieci al valore posizionale delle cifre."
+      ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tuck il criceto somma le decine e si accorge che sono diventate più di dieci. Che cosa fare? In classe terza i bambini imparano che 10 decine si raggruppano e formano un centinaio: è il cambio dell'addizione, spiegato con i blocchi base dieci.",
+        "Con numeri come 160 + 50 o 340 + 70, la somma delle decine supera le dieci decine. L'attività fa vedere come quelle decine in eccesso si uniscono in un centinaio nuovo, che sale nella colonna di sinistra del valore posizionale.",
+        "Allineata alle Indicazioni nazionali, nel nucleo Numeri, l'attività rende visibile un passaggio delicato dell'addizione: raggruppare dieci decine per formare un centinaio, così la somma resta ordinata e corretta entro il 1000."
+      ],
+      "practices": [
+        "Sommare le decine e riconoscere quando superano le dieci decine.",
+        "Formare un centinaio raggruppando 10 decine con i blocchi base dieci.",
+        "Completare addizioni con il cambio con somme fino a 510.",
+        "Sistemare il nuovo centinaio nella giusta colonna di valore posizionale."
+      ],
+      "howToPlay": [
+        "Somma le decine dei due numeri di Tuck e osserva quanti blocchi si formano.",
+        "Se le decine sono dieci o più, raggruppale per formare un centinaio.",
+        "Sposta il centinaio nella sua colonna e leggi la somma con il cambio."
+      ],
+      "learningGoals": [
+        "Comprendere il cambio come raggruppamento di 10 decine in un centinaio.",
+        "Eseguire addizioni con il cambio entro il 1000.",
+        "Consolidare il valore posizionale di unità, decine e centinaia con i blocchi base dieci."
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tuck il criceto affronta la sfida più difficile: sottrarre da un numero come 302 o 403, dove nelle decine c'è uno zero. Non ci sono decine da aprire, quindi in classe terza si impara il doppio cambio, un passaggio alla volta, con i blocchi base dieci.",
+        "Quando la colonna delle decine è a zero, non si può scomporre subito una decina. L'attività mostra la soluzione: prima si scompone un centinaio in 10 decine, poi una di quelle decine in 10 unità. Solo così la sottrazione con il cambio diventa possibile.",
+        "Allineata alle Indicazioni nazionali, nel nucleo Numeri, l'attività chiarisce il caso che confonde di più i bambini: il cambio attraverso lo zero. Vedere i due scambi in sequenza, centinaio e poi decina, rende ogni passaggio comprensibile e concreto."
+      ],
+      "practices": [
+        "Riconoscere lo zero nelle decine come segnale del doppio cambio.",
+        "Scomporre un centinaio in 10 decine con i blocchi base dieci.",
+        "Scomporre poi una decina in 10 unità per completare la sottrazione con il cambio.",
+        "Calcolare sottrazioni a tre cifre entro il 1000 con lo zero nelle decine."
+      ],
+      "howToPlay": [
+        "Osserva il numero di Tuck: se le decine sono a zero, servono due cambi.",
+        "Tocca un centinaio per scomporlo in 10 decine, poi scomponi una decina in 10 unità.",
+        "Togli le unità richieste e leggi il risultato della sottrazione con il cambio."
+      ],
+      "learningGoals": [
+        "Comprendere il cambio quando nelle decine c'è uno zero.",
+        "Eseguire sottrazioni a tre cifre entro il 1000 con doppio scambio.",
+        "Collegare i blocchi base dieci al valore posizionale e alla sequenza dei due cambi."
+      ]
+    },
     "place-value-regroup.add-compose-ten.1-nbt-c-4": {
       "about": [
         "Fare il cambio è il primo, grande passo verso l'addizione in colonna: qui i bambini della classe seconda lo scoprono toccando con mano, senza fretta e senza voti. Tuck, il criceto, propone somme entro il 100 usando i blocchi base dieci, così ogni operazione ha un significato concreto prima ancora di diventare un calcolo scritto.",

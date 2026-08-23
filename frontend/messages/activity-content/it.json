@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "sharing-jar.make-fair.1-oa-d-8": {
+      "about": [
+        "Pim e Bo scavano insieme le perline di luna nei loro barattoli, ma uno dei due barattoli resta sempre un po' più pieno dell'altro: sta al bambino capire quante perline mancano per rendere la divisione giusta.",
+        "L'attività trasforma le prime addizioni e sottrazioni in un gesto di amicizia, dove trovare il numero che manca serve a far tornare pari due amici, non a vincere una gara.",
+        "Il tono è caldo e gentile, senza punteggi e senza tempo che scorre, pensato per bambini di sei e sette anni che muovono i primi passi nel calcolo entro il 12."
+      ],
+      "practices": [
+        "Per completare, il bambino osserva quante perline ha già un barattolo e trova quante ne servono ancora per raggiungere l'altro, poi tocca quel numero e le vede volare al posto giusto.",
+        "Per confrontare, guarda i due barattoli fianco a fianco e scopre la differenza, cioè quante perline ha in più il barattolo più pieno rispetto a quello più vuoto.",
+        "Per rimettere a posto, riporta indietro le perline prese di troppo, ragionando a ritroso come in una piccola sottrazione entro il 12.",
+        "Per scoprire l'inizio, parte da quello che vede adesso e risale a quante perline c'erano nel barattolo all'inizio, prima che qualcosa cambiasse."
+      ],
+      "howToPlay": [
+        "Guarda i due barattoli di Pim e Bo e nota quale è più pieno e quale è più vuoto.",
+        "Trova il numero che manca per rendere la divisione giusta e tocca quella tessera tra i numeri da 0 a 10.",
+        "Osserva le perline che volano nell'altro barattolo finché i due amici sono pari, poi passa con calma a un nuovo barattolo."
+      ],
+      "learningGoals": [
+        "Trovare il numero mancante in semplici situazioni di addizione e sottrazione entro il 12, completando, confrontando e rimettendo a posto le quantità.",
+        "Costruire il senso della differenza e dell'uguaglianza, capendo quante perline servono «in più» perché due insiemi diventino pari.",
+        "Rafforzare il primo calcolo ragionando con materiali manipolabili, come indicato dalle Indicazioni nazionali per la classe prima, nel nucleo Numeri."
+      ]
+    },
     "tally-squirrel.add-four.2-nbt-b-6": {
       "about": [
         "Tally è uno scoiattolo indaffarato che riempie i suoi cestini di ghiande e chiede a tuo figlio una mano per contarle tutte, sommando i numeri scritti su ogni cestino fino a scoprire quante ghiande ci sono in tutto.",

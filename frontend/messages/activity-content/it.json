@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "tally-squirrel.add-four.2-nbt-b-6": {
+      "about": [
+        "Tally è uno scoiattolo indaffarato che riempie i suoi cestini di ghiande e chiede a tuo figlio una mano per contarle tutte, sommando i numeri scritti su ogni cestino fino a scoprire quante ghiande ci sono in tutto.",
+        "Il cuore dell'attività sono le addizioni entro il 100: davanti al bambino compaiono due, tre o quattro cestini, ciascuno con un numero di due cifre, e per trovare il totale conviene sommare prima le decine e poi le unità.",
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali (nucleo Numeri), unisce il calcolo e il valore posizionale con un tono caldo, senza punteggi e senza tempo che scorre."
+      ],
+      "practices": [
+        "Per sommare, il bambino mette insieme prima tutte le decine dei numeri sui cestini e poi aggiunge le unità: così 23 + 14 diventa 30 + 7, cioè 37.",
+        "Con tre o quattro cestini i numeri aumentano, ma la strategia resta la stessa: si raggruppano le decine, si contano le unità e si uniscono i due gruppi per arrivare al totale entro il 100.",
+        "Vedere i numeri scritti sui cestini di ghiande rende concreta ogni addizione e aiuta il bambino a capire perché le cifre uguali — decine con decine, unità con unità — si sommano tra loro.",
+        "Man mano che le partite cambiano, tuo figlio si abitua a scegliere da sé se contare a mente o appoggiarsi al valore posizionale, rafforzando la sicurezza con le somme di due cifre."
+      ],
+      "howToPlay": [
+        "Osserva i cestini di Tally: possono essere due, tre o quattro, e su ciascuno c'è un numero di due cifre da leggere.",
+        "Somma tutti i numeri dei cestini — prima le decine, poi le unità — e scrivi il totale nello spazio, ricordando che resta sempre entro il 100.",
+        "Non c'è fretta né orologio: puoi controllare con calma il tuo totale e passare a una nuova serie di cestini quando vuoi."
+      ],
+      "learningGoals": [
+        "Sommare due, tre o quattro numeri di due cifre restando entro il 100.",
+        "Usare il valore posizionale come strategia di calcolo, raggruppando prima le decine e poi le unità.",
+        "Consolidare il senso del numero e il calcolo con materiali manipolabili, come indicato dalle Indicazioni nazionali per la classe seconda, nel nucleo Numeri."
+      ]
+    },
     "pond-juice.pour-measure.3-md-a-2": {
       "about": [
         "Pippa la rana ha messo su un allegro chiosco del succo in riva allo stagno, ma i numeri sulla scala sono troppo piccoli per i suoi occhi da rana: tocca a te leggere quanti litri di succo finiscono in ogni bicchiere.",

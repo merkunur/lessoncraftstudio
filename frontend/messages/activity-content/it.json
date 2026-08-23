@@ -376,6 +376,29 @@
         "Imparare il lessico della misura: più lungo, più corto, lungo quanto."
       ]
     },
+    "graph-it.bar-graph.2-md-d-10": {
+      "about": [
+        "Pip lo scoiattolo ha raccolto tante cose nel bosco e ha bisogno di una mano per metterle in ordine: questa attività trasforma un semplice conteggio in un diagramma a barre da costruire e leggere insieme.",
+        "I bambini impilano le assi di una staccionata fino a far corrispondere l'altezza di ogni barra al numero di foglie, bacche, ghiande, pigne, funghi o fiori raccolti.",
+        "Una volta pronto il grafico a barre, si imparano a leggere i dati: quante ce ne sono di più, quante di meno, quante in tutto, e si risponde a un confronto vero o falso."
+      ],
+      "practices": [
+        "Costruire un diagramma a barre a partire da un conteggio o da una tabella di dati.",
+        "Leggere e interpretare un grafico a barre per confrontare quantità diverse.",
+        "Ragionare su «di più», «di meno» e «in tutto» osservando l'altezza delle barre.",
+        "Rappresentare e confrontare dati, un primo passo verso il nucleo Relazioni, dati e previsioni delle Indicazioni nazionali."
+      ],
+      "howToPlay": [
+        "Guarda quante cose ha trovato Pip per ogni categoria e impila le assi della staccionata per costruire la barra giusta.",
+        "Continua finché ogni barra non corrisponde al conteggio: il diagramma a barre è completo.",
+        "Ora leggi i dati e rispondi alle domande di Pip su quante in più, quante in meno e quante in tutto."
+      ],
+      "learningGoals": [
+        "Saper costruire un diagramma a barre semplice rappresentando i dati raccolti.",
+        "Saper leggere un grafico a barre e confrontare le quantità (di più, di meno, in tutto).",
+        "Avvicinarsi alla lettura e al confronto dei dati con materiali manipolabili, senza voti e senza tempo, in un clima sereno."
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "Questa è un'attività di geometria per bambini dai 6 agli 8 anni, da fare direttamente nel browser: non serve installare nulla e non serve alcun account. Il bambino vede una forma divisa in parti uguali e poi tocca un'altra forma che mostra lo stesso numero di parti uguali.",

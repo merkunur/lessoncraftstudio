@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Con Bolt il robot il tuo bambino costruisce i numeri un pezzo alla volta: lascia cadere le unità sciolte, le conta fino a dieci e tira la leva per raggrupparle in una decina, scoprendo con le mani come nascono le decine e le unità.",
+        "L'attività è gratuita, si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino compone numeri da 20 a 49, osserva quando dieci unità sciolte diventano una decina e può anche disfare una decina per tornare alle unità sciolte.",
+        "Al centro c'è il valore posizionale — decine e unità — con un approccio concreto e visivo, in linea con le Indicazioni nazionali e il nucleo dei Numeri. Nessun punteggio e nessun cronometro: solo il tempo giusto per capire, come si conviene alla classe seconda."
+      ],
+      "practices": [
+        "Costruire numeri da 20 a 49 con decine e unità",
+        "Raggruppare dieci unità sciolte in una decina",
+        "Disfare una decina per tornare a dieci unità sciolte",
+        "Comporre e scomporre numeri a due cifre usando il valore posizionale"
+      ],
+      "howToPlay": [
+        "Metti le unità sciolte una alla volta nel piano di Bolt il robot",
+        "Quando le unità sciolte sono dieci, tira la leva per raggrupparle in una decina",
+        "Leggi il numero formato da decine e unità; se serve arriva un aiuto gentile, senza punteggio"
+      ],
+      "learningGoals": [
+        "Capire il valore posizionale distinguendo le decine dalle unità",
+        "Comporre e scomporre numeri a due cifre fino a 49, riconoscendo il momento del cambio",
+        "Consolidare i traguardi per la classe seconda previsti dalle Indicazioni nazionali, nel nucleo Numeri"
+      ]
+    },
     "sharing-jar.make-fair.1-oa-d-8": {
       "about": [
         "Pim e Bo scavano insieme le perline di luna nei loro barattoli, ma uno dei due barattoli resta sempre un po' più pieno dell'altro: sta al bambino capire quante perline mancano per rendere la divisione giusta.",

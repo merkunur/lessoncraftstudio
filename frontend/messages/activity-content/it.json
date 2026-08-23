@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "Spanna, il bruco geometra, ama misurare il mondo a spanne e si ferma davanti a due oggetti chiedendosi di quanto uno superi l'altro.",
+        "È un'attività di matematica gratuita e online per la classe seconda (7-8 anni): il bambino legge la lunghezza in centimetri di due barre e scopre quanto è più lungo il più lungo, cioè la loro differenza, sempre entro i 20 cm e senza righello.",
+        "L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni: niente punteggio e niente cronometro, solo un percorso sereno in cui confrontare lunghezze e ragionare con calma, anche con semplici materiali manipolabili."
+      ],
+      "practices": [
+        "Confrontare due lunghezze espresse in centimetri e capire quale oggetto è più lungo.",
+        "Trovare la differenza di lunghezza: di quanti centimetri in più è lungo il più lungo.",
+        "Leggere le misure già segnate sulle barre, senza usare il righello.",
+        "Usare la sottrazione entro il 20 per rispondere alla domanda «quanto è più lungo?»."
+      ],
+      "howToPlay": [
+        "Guarda le due barre e leggi quanti centimetri è lunga ciascuna.",
+        "Trova di quanti centimetri in più è lungo il più lungo e digita il numero.",
+        "Se il numero non torna, arriva un suggerimento gentile: nessun punteggio, si riprova con calma."
+      ],
+      "learningGoals": [
+        "Confrontare lunghezze in centimetri e riconoscere quella maggiore.",
+        "Calcolare la differenza di lunghezza tra due oggetti, entro i 20 cm.",
+        "Avvicinarsi agli obiettivi sulla misura previsti dalle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+      ]
+    },
     "place-value-regroup.subtract-decompose.2-nbt-b-7": {
       "about": [
         "Tuck il criceto ha un problema: deve togliere qualche unità, ma nella colonna delle unità non ce ne sono abbastanza. Con i blocchi base dieci i bambini di classe terza scoprono la soluzione: scomporre una decina in 10 unità. Questo è il cambio, il cuore della sottrazione entro il 1000.",

@@ -81,6 +81,22 @@
       hintMinute: 'Conte os risquinhos — cada um é um minuto.',
       srMatchBody: ' {t}. Os relógios mostram: {cs}.',
       srReadBody: ' O relógio marca a hora. {t}. As opções são: {ds}.'
+    },
+    /* it — native ensemble (linguist + classe prima/seconda pedagogue). "orologio a lancette";
+       lancetta corta (delle ore) / lancetta lunga (dei minuti). Romance current-hour + half in
+       spoken(): "in punto" / "e mezza" (see the it branch). srReadBody restructured (pt/es shape)
+       since {t} is a full capitalized sentence. Data-nucleo strand (Relazioni, dati e previsioni). */
+    it: {
+      q: 'Che ore sono?',
+      qMatch: 'Quale orologio segna quest\'ora?',
+      win: 'Sì! {t}.',
+      hint: 'Guarda dove punta la lancetta corta: quella è l\'ora.',
+      hintMatch: 'Trova l\'orologio con le lancette che segnano quest\'ora.',
+      hintMin: 'Leggi tutte e due le lancette: quella lunga indica i minuti.',
+      hintFive: 'Conta di cinque in cinque intorno all\'orologio: la lancetta lunga indica i minuti.',
+      hintMinute: 'Conta i trattini: ognuno vale un minuto.',
+      srMatchBody: ' L\'ora è {t}. Gli orologi mostrano: {cs}.',
+      srReadBody: ' L\'orologio segna l\'ora. {t}. Le scelte sono: {ds}.'
     }
   };
   var LANG = 'en';
@@ -133,6 +149,20 @@
       if (mm === 30) return one ? 'É uma e meia' : verbo + ' ' + hp + ' e meia';
       if (mm === 15) return one ? 'É uma e quinze' : verbo + ' ' + hp + ' e quinze';
       if (mm === 45) { var nx = (hh === 12) ? 1 : hh + 1; return nx === 1 ? 'É quinze para a uma' : 'São quinze para as ' + HRS[nx]; }
+      return Core.digitalStr(t);
+    }
+    /* it — native ensemble. Romance "ora in corso + mezza" (3:30 = "Sono le tre e mezza"; MAI il
+       "halb" tedesco). è (1) vs sono (2+); "È l'una" (elisione) vs "Sono le" + HRS. "in punto" per
+       le ore intere, "e mezza" (femminile, forma scolastica) per la mezz'ora. 12:00 = "Sono le
+       dodici in punto" (mostrador 12h, niente mezzogiorno/mezzanotte). :45 = "meno un quarto" (ora
+       successiva). Le due attività usano solo mm 0/30; :15/:45 forniti per completezza. */
+    if (LANG === 'it') {
+      var HRS = ['', 'una', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci', 'undici', 'dodici'];
+      var head = (hh === 1) ? 'È l\'una' : 'Sono le ' + HRS[hh];
+      if (mm === 0) return head + ' in punto';
+      if (mm === 30) return head + ' e mezza';
+      if (mm === 15) return head + ' e un quarto';
+      if (mm === 45) { var nx = (hh === 12) ? 1 : hh + 1; return (nx === 1 ? 'È l\'una' : 'Sono le ' + HRS[nx]) + ' meno un quarto'; }
       return Core.digitalStr(t);
     }
     if (mm === 0) return hh + " o'clock";
@@ -192,8 +222,8 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket' },
-      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket', it: 'L\'orologio di Sprocket' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.', it: 'Leggi l\'orologio, poi tocca l\'ora giusta.' },
       q: { en: '{q}' }
     },
 

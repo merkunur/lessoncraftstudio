@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Inchie, un piccolo bruco misuratore, avanza lungo il sentiero del giardino e ha bisogno di una mano per scoprire quanto sono lunghi gli oggetti che incontra.",
+        "È un'attività di matematica gratuita e online per la classe seconda (7-8 anni), pensata per imparare a misurare le lunghezze usando unità non convenzionali: si posano gli «aiutanti», tutti della stessa misura, uno accanto all'altro, e si contano. Così i bambini capiscono l'idea centrale della misura, cioè che la lunghezza è il numero di unità, molto prima di usare il righello e il metro.",
+        "L'attività è allineata alle Indicazioni nazionali e ai suoi obiettivi sulla misura: nessun punteggio e nessun cronometro, solo un percorso tranquillo in cui provare, contare e ragionare con calma, anche con semplici materiali manipolabili in classe o a casa."
+      ],
+      "practices": [
+        "Iterare un'unità: appoggiare gli aiutanti in fila, senza buchi e senza sovrapposizioni.",
+        "Contare le unità posate per trovare la lunghezza dell'oggetto.",
+        "Capire che la lunghezza è il numero di unità che riempiono l'oggetto.",
+        "Scoprire il principio di compensazione: se l'unità è più piccola, ne servono di più."
+      ],
+      "howToPlay": [
+        "Posa gli aiutanti in fila, ben attaccati da un'estremità all'altra, per tutta la lunghezza dell'oggetto.",
+        "Tocca ogni aiutante per contarli a uno a uno e leggere quante unità è lungo l'oggetto.",
+        "Se resta un buco o due aiutanti si accavallano, arriva un suggerimento gentile: nessun punteggio, si può riprovare con calma."
+      ],
+      "learningGoals": [
+        "Misurare una lunghezza iterando un'unità di misura non convenzionale, senza spazi né sovrapposizioni.",
+        "Capire che la lunghezza è il numero di unità usate per misurare.",
+        "Scoprire che con unità più piccole ne servono di più per misurare lo stesso oggetto."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Nella bottega della gatta Tilly, ogni nastro colorato aspetta su uno scaffale diverso, troppo lontano perché il bambino possa affiancarlo agli altri: proprio qui nasce il gioco. Questa attività di matematica, pensata per la classe prima (6-7 anni), è gratuita, senza registrazione e funziona direttamente nel browser.",

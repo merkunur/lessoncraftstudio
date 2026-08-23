@@ -44,7 +44,10 @@
     es: { red: 'Rojo', blue: 'Azul', green: 'Verde', yellow: 'Amarillo', purple: 'Morado', orange: 'Naranja' },
     /* pt-BR — native ensemble: colors in the FEMININE to agree with the trailing feminine noun in
        srItem "Fita {label}" (Vermelha/Amarela/Roxa inflect; Azul/Verde/Laranja invariable). */
-    pt: { red: 'Vermelha', blue: 'Azul', green: 'Verde', yellow: 'Amarela', purple: 'Roxa', orange: 'Laranja' }
+    pt: { red: 'Vermelha', blue: 'Azul', green: 'Verde', yellow: 'Amarela', purple: 'Roxa', orange: 'Laranja' },
+    /* it — native ensemble: masc. to agree with "il nastro" (Rosso/Giallo inflect; Blu/Verde/Viola/
+       Arancione invariable). Standalone chip labels; the colon srItem "Nastro {label}" carries them. */
+    it: { red: 'Rosso', blue: 'Blu', green: 'Verde', yellow: 'Giallo', purple: 'Viola', orange: 'Arancione' }
   };
   function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
 
@@ -145,6 +148,26 @@
       relLonger: 'mais comprida que o barbante',
       relShorter: 'mais curta que o barbante',
       relEqual: 'tão comprida quanto o barbante'
+    },
+    /* it — native ensemble (linguista + pedagoga classe prima, Indicazioni nazionali). "lo spago"
+       (riferimento NON convenzionale — MAI righello/metro, strumenti graduati = classe seconda/terza
+       = trust-killer); oggetto = "il nastro" (masc.). Tutto ancorato al maschile → concordanza pulita
+       (più lungo/corto). srItem a due punti (Nastro {label}: {rel}); colori maschili in COLOR_L.
+       "Tocca" (tu); retry "Guarda ancora!" (mai "sbagliato"). ⚠ "LO spago" (s impura): dello/allo. */
+    it: {
+      qLongest: 'Tocca il nastro PIÙ LUNGO.',
+      qShortest: 'Tocca il nastro PIÙ CORTO.',
+      qSamecord: 'Quale nastro è lungo come lo spago?',
+      win: 'Sì! {note}', winNote: 'Hai confrontato le lunghezze!',
+      nLongest: 'Il nastro più lungo supera tutti gli altri. Guarda ancora!',
+      nShortest: 'Il nastro più corto si ferma per primo. Guarda ancora!',
+      nSamecord: 'Trova il nastro che finisce proprio alla linea dello spago. Guarda ancora!',
+      cord: 'lo spago',
+      srRef: 'Lo spago è il riferimento.',
+      srItem: 'Nastro {label}: {rel}',
+      relLonger: 'più lungo dello spago',
+      relShorter: 'più corto dello spago',
+      relEqual: 'lungo come lo spago'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -168,8 +191,8 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly' },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly', it: 'Lo scaffale lontano di Tilly' },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!', it: 'Usa lo spago per confrontare i nastri, poi tocca la risposta!' },
       q: { en: '{q}' }
     },
 

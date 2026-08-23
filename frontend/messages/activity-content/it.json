@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "skipcount.fill.2-nbt-a-2": {
+      "about": [
+        "Hopper è una rana che attraversa lo stagno saltando da una ninfea numerata all'altra, e a ogni balzo il numero cresce o diminuisce sempre della stessa quantità. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, il piccolo conta a salti di 5, di 10 e di 100 fino a 1000 e completa la sequenza delle ninfee.",
+        "L'attività è gratuita e si gioca online nel browser, senza registrazione e senza installare nulla. Non ci sono punteggi né tempo che scorre: il bambino può provare, sbagliare e riprovare con calma, seguendo con lo sguardo i salti di Hopper.",
+        "Il conteggio a salti è uno dei primi passi verso le tabelline e il calcolo veloce, ed è allineato con le Indicazioni nazionali per il nucleo Numeri. Se a casa o in classe volete rinforzarlo, funziona bene affiancare materiali manipolabili come tappi, bottoni o cannucce raggruppati a cinque a cinque o a dieci a dieci."
+      ],
+      "practices": [
+        "Contare a salti di 5, di 10 e di 100 entro il 1000",
+        "Contare avanti e indietro, in senso progressivo e regressivo",
+        "Completare una successione numerica trovando il numero mancante",
+        "Scoprire il passo costante e riconoscere la regolarità dei salti"
+      ],
+      "howToPlay": [
+        "Guarda le ninfee numerate e osserva come Hopper salta da una all'altra",
+        "Tocca il numero giusto da mettere sulla ninfea vuota per continuare la sequenza",
+        "Se sbagli ricevi un suggerimento gentile e puoi riprovare: nessun punteggio, nessuna fretta"
+      ],
+      "learningGoals": [
+        "Contare a salti di 5, 10 e 100 entro il 1000",
+        "Contare in senso progressivo e regressivo, avanti e indietro",
+        "Riconoscere la regolarità di una successione numerica"
+      ]
+    },
     "lay-units.measure.1-md-a-2": {
       "about": [
         "Inchie, un piccolo bruco misuratore, avanza lungo il sentiero del giardino e ha bisogno di una mano per scoprire quanto sono lunghi gli oggetti che incontra.",

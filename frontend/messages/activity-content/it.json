@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Nella bottega luminosa di Mim ogni figura nasce dalla luce: i bambini fondono piccoli triangoli e rombi splendenti per dare forma a figure sempre più grandi.",
+        "È un'attività di geometria pensata per la classe prima (6-7 anni), gratuita e giocabile online nel browser, senza registrazione. I bambini imparano a comporre e scomporre figure geometriche piane, spostando e ruotando i pezzi finché combaciano con la sagoma, proprio come si fa con i materiali manipolabili in classe o con un tangram.",
+        "Il percorso segue il nucleo «Spazio e figure» delle Indicazioni nazionali: nessun punteggio e nessun tempo, solo tanti modi diversi per riempire ogni figura e scoprire la geometria giocando."
+      ],
+      "practices": [
+        "Comporre figure unendo triangoli e rombi",
+        "Ruotare i pezzi per farli combaciare con la sagoma",
+        "Scomporre e ricomporre la stessa figura in modi diversi",
+        "Riconoscere che figure più piccole formano figure più grandi"
+      ],
+      "howToPlay": [
+        "Scegli un pezzo e ruotalo per orientarlo bene",
+        "Riempi ogni parte della sagoma vuota fino a completarla",
+        "Se un pezzo non combacia arriva un aiuto gentile: nessun punteggio, si prova con calma"
+      ],
+      "learningGoals": [
+        "Comporre figure geometriche piane a partire da triangoli e rombi",
+        "Scoprire che una stessa figura si può comporre in più modi",
+        "Sviluppare l'intuizione spaziale e il riconoscimento delle figure"
+      ]
+    },
     "skipcount.fill.2-nbt-a-2": {
       "about": [
         "Hopper è una rana che attraversa lo stagno saltando da una ninfea numerata all'altra, e a ogni balzo il numero cresce o diminuisce sempre della stessa quantità. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, il piccolo conta a salti di 5, di 10 e di 100 fino a 1000 e completa la sequenza delle ninfee.",

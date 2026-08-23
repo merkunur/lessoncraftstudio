@@ -37,7 +37,7 @@
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function mulberry32(a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
@@ -64,21 +64,26 @@
   global.NumbersCourtActivity = {
     id: 'numbers-court-activity',
 
+    /* it — native ensemble (linguista + pedagoga di 2ª). RELATIONAL-EQUALITY LOCK: «=» = «i due piatti
+       hanno la stessa quantità» / «è in equilibrio» — MAI «il risultato» / «fa» / «la risposta» in copia
+       affermativa (l'operativo solo dentro una negazione esplicita). Verdetto «È giusto!» / «Non è giusto!»
+       («giusto» = equo AND in pari, tribunale+bilancia); NON «Vero/Falso», NON «corretto/sbagliato».
+       classe seconda; STRAND «Numeri» auto (no algebra nucleus in Italy). la giudice Tess = femminile. */
     strings: {
-      title: { en: 'Numbers Court', de: 'Das Zahlengericht', fr: 'Le tribunal des nombres', es: 'El tribunal de los números', pt: 'O Tribunal dos Números' },
-      prompt: { en: 'Is it fair, Judge?', de: 'Stimmt das?', fr: 'Est-ce vrai, Madame la juge ?', es: '¿Es justo, jueza?', pt: 'É justo, juíza?' },
-      vTrue: { en: "It's fair!", de: 'Stimmt!', fr: 'Vrai', es: '¡Es justo!', pt: 'É justo!' }, vFalse: { en: 'Catch it!', de: 'Stimmt nicht!', fr: 'Faux', es: '¡Atrápalo!', pt: 'Não é justo!' },
-      jFalse: { en: 'Tap the heavier side.', de: 'Tippe auf die schwerere Seite.', fr: 'Touche le plateau le plus lourd.', es: 'Toca el lado más pesado.', pt: 'Toque no lado mais pesado.' },
-      jTrue: { en: 'Tap each number to fill both pans.', de: 'Tippe jede Zahl an, um beide Waagschalen zu füllen.', fr: 'Touche chaque nombre pour remplir les deux plateaux.', es: 'Toca cada número para llenar los dos platillos.', pt: 'Toque em cada número para encher os dois pratos.' },
-      repair: { en: 'Make it fair — tap a tile for the slot.', de: 'Mach beide Seiten gleich viel — tippe ein Plättchen in die Lücke.', fr: 'Équilibre la balance — touche un jeton pour la case.', es: 'Deja los dos lados iguales: toca una ficha para el espacio.', pt: 'Deixe justo — toque numa ficha para o espaço.' },
-      sure: { en: 'Are you sure, Judge? Look again.', de: 'Bist du sicher? Schau noch mal.', fr: 'Hmm… regarde encore les deux côtés.', es: '¿Segura, jueza? Míralo otra vez.', pt: 'Tem certeza, juíza? Olhe de novo.' },
-      reteach: { en: 'This much AND this much — are they the same amount?', de: 'So viel und so viel — ist das auf beiden Seiten gleich viel?', fr: 'Autant d’un côté, autant de l’autre — est-ce la même chose des deux côtés ?', es: 'Esto de un lado y esto del otro… ¿es la misma cantidad?', pt: 'Tanto assim e tanto assim — os dois lados têm a mesma quantidade?' },
-      winTrue: { en: 'Fair! Both sides are the same amount.', de: 'Stimmt! Beide Seiten sind gleich viel.', fr: 'Vrai ! Il y a la même chose des deux côtés.', es: '¡Justo! Los dos lados tienen la misma cantidad.', pt: 'Justo! Os dois lados têm a mesma quantidade.' },
-      winFalse: { en: 'Caught it! The sides are not the same.', de: 'Erwischt! Die Seiten sind nicht gleich viel.', fr: 'Faux ! Les deux côtés ne sont pas pareils.', es: '¡Lo atrapaste! Los dos lados no son iguales.', pt: 'Pegou! Os dois lados não são iguais.' },
-      winRepair: { en: 'Now it balances — fair, Judge!', de: 'Jetzt ist die Waage im Gleichgewicht — gleich viel!', fr: 'La balance s’équilibre — bien joué, Madame la juge !', es: '¡Ahora se equilibra… justo, jueza!', pt: 'Agora equilibra — justo, juíza!' },
-      regen: { en: 'Still not level — here is a fresh one, Judge.', de: 'Immer noch nicht im Gleichgewicht — hier ist eine neue Aufgabe.', fr: 'Toujours pas d’équilibre — voici une nouvelle affaire, Madame la juge.', es: 'Todavía no se equilibra… aquí tienes un caso nuevo, jueza.', pt: 'Ainda não equilibrou — aqui vai outro caso, juíza.' },
-      hintCheck: { en: 'Give your verdict, then tap Check.', de: 'Fäll dein Urteil, dann tippe auf „Prüfen".', fr: 'Donne ton verdict, puis touche « Vérifier ».', es: 'Da tu veredicto y luego toca "Revisar".', pt: 'Dê o seu veredito e toque em "Verificar".' },
-      judgeName: { en: 'Judge Tess', de: 'Richterin Tess', fr: 'La juge Tess', es: 'La jueza Tess', pt: 'A juíza Tess' }
+      title: { en: 'Numbers Court', de: 'Das Zahlengericht', fr: 'Le tribunal des nombres', es: 'El tribunal de los números', pt: 'O Tribunal dos Números', it: 'Il Tribunale dei Numeri' },
+      prompt: { en: 'Is it fair, Judge?', de: 'Stimmt das?', fr: 'Est-ce vrai, Madame la juge ?', es: '¿Es justo, jueza?', pt: 'É justo, juíza?', it: 'È giusto, Giudice?' },
+      vTrue: { en: "It's fair!", de: 'Stimmt!', fr: 'Vrai', es: '¡Es justo!', pt: 'É justo!', it: 'È giusto!' }, vFalse: { en: 'Catch it!', de: 'Stimmt nicht!', fr: 'Faux', es: '¡Atrápalo!', pt: 'Não é justo!', it: 'Non è giusto!' },
+      jFalse: { en: 'Tap the heavier side.', de: 'Tippe auf die schwerere Seite.', fr: 'Touche le plateau le plus lourd.', es: 'Toca el lado más pesado.', pt: 'Toque no lado mais pesado.', it: 'Tocca il piatto più pesante.' },
+      jTrue: { en: 'Tap each number to fill both pans.', de: 'Tippe jede Zahl an, um beide Waagschalen zu füllen.', fr: 'Touche chaque nombre pour remplir les deux plateaux.', es: 'Toca cada número para llenar los dos platillos.', pt: 'Toque em cada número para encher os dois pratos.', it: 'Tocca ogni numero per riempire i due piatti.' },
+      repair: { en: 'Make it fair — tap a tile for the slot.', de: 'Mach beide Seiten gleich viel — tippe ein Plättchen in die Lücke.', fr: 'Équilibre la balance — touche un jeton pour la case.', es: 'Deja los dos lados iguales: toca una ficha para el espacio.', pt: 'Deixe justo — toque numa ficha para o espaço.', it: 'Rendilo giusto: tocca una tessera per la casella vuota.' },
+      sure: { en: 'Are you sure, Judge? Look again.', de: 'Bist du sicher? Schau noch mal.', fr: 'Hmm… regarde encore les deux côtés.', es: '¿Segura, jueza? Míralo otra vez.', pt: 'Tem certeza, juíza? Olhe de novo.', it: 'Ripensaci bene, Giudice. Guarda di nuovo.' },
+      reteach: { en: 'This much AND this much — are they the same amount?', de: 'So viel und so viel — ist das auf beiden Seiten gleich viel?', fr: 'Autant d’un côté, autant de l’autre — est-ce la même chose des deux côtés ?', es: 'Esto de un lado y esto del otro… ¿es la misma cantidad?', pt: 'Tanto assim e tanto assim — os dois lados têm a mesma quantidade?', it: 'Tanto da una parte e tanto dall\'altra: i due piatti hanno la stessa quantità?' },
+      winTrue: { en: 'Fair! Both sides are the same amount.', de: 'Stimmt! Beide Seiten sind gleich viel.', fr: 'Vrai ! Il y a la même chose des deux côtés.', es: '¡Justo! Los dos lados tienen la misma cantidad.', pt: 'Justo! Os dois lados têm a mesma quantidade.', it: 'Giusto! I due piatti hanno la stessa quantità.' },
+      winFalse: { en: 'Caught it! The sides are not the same.', de: 'Erwischt! Die Seiten sind nicht gleich viel.', fr: 'Faux ! Les deux côtés ne sont pas pareils.', es: '¡Lo atrapaste! Los dos lados no son iguales.', pt: 'Pegou! Os dois lados não são iguais.', it: 'Preso! I due piatti non hanno la stessa quantità.' },
+      winRepair: { en: 'Now it balances — fair, Judge!', de: 'Jetzt ist die Waage im Gleichgewicht — gleich viel!', fr: 'La balance s’équilibre — bien joué, Madame la juge !', es: '¡Ahora se equilibra… justo, jueza!', pt: 'Agora equilibra — justo, juíza!', it: 'Ora è in equilibrio: giusto, Giudice!' },
+      regen: { en: 'Still not level — here is a fresh one, Judge.', de: 'Immer noch nicht im Gleichgewicht — hier ist eine neue Aufgabe.', fr: 'Toujours pas d’équilibre — voici une nouvelle affaire, Madame la juge.', es: 'Todavía no se equilibra… aquí tienes un caso nuevo, jueza.', pt: 'Ainda não equilibrou — aqui vai outro caso, juíza.', it: 'Ancora non è in equilibrio: ecco un nuovo caso, Giudice.' },
+      hintCheck: { en: 'Give your verdict, then tap Check.', de: 'Fäll dein Urteil, dann tippe auf „Prüfen".', fr: 'Donne ton verdict, puis touche « Vérifier ».', es: 'Da tu veredicto y luego toca "Revisar".', pt: 'Dê o seu veredito e toque em "Verificar".', it: 'Dai il tuo verdetto, poi tocca "Verifica".' },
+      judgeName: { en: 'Judge Tess', de: 'Richterin Tess', fr: 'La juge Tess', es: 'La jueza Tess', pt: 'A juíza Tess', it: 'La giudice Tess' }
     },
 
     defaults: {},

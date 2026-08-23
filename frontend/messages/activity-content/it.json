@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Sulla linea di marea, Shelly il granchio eremita ha bisogno di una mano per mettere in ordine le sue conchiglie: questa attività trasforma la misura di ogni conchiglia in un diagramma delle frequenze fatto di X impilate, da costruire e leggere insieme.",
+        "Il bambino misura ogni conchiglia e segna la sua lunghezza con una X sulla linea dei numeri, impilando le X finché tutte le conchiglie non trovano il loro posto.",
+        "Quando il diagramma delle frequenze è completo, si imparano a leggere i dati: quante conchiglie hanno una certa lunghezza, quale lunghezza compare più spesso e di quanto la più lunga supera la più corta, in cm."
+      ],
+      "practices": [
+        "Segnare la lunghezza di ogni conchiglia con una X sulla linea dei numeri per costruire il diagramma delle frequenze.",
+        "Leggere e interpretare il diagramma delle frequenze per contare quante conchiglie misurano una certa lunghezza.",
+        "Individuare la lunghezza che compare più spesso e confrontare la più lunga con la più corta.",
+        "Rappresentare e leggere semplici dati, un primo passo verso il nucleo Relazioni, dati e previsioni."
+      ],
+      "howToPlay": [
+        "Guarda la lunghezza di ogni conchiglia che Shelly ti mostra e segna una X sulla linea dei numeri, sul numero giusto in cm.",
+        "Continua a impilare le X finché tutte le conchiglie non sono sul diagramma delle frequenze.",
+        "Ora leggi il diagramma e rispondi alle domande di Shelly: se sbagli, puoi riprovare con calma."
+      ],
+      "learningGoals": [
+        "Saper segnare le lunghezze delle conchiglie sulla linea dei numeri e costruire un semplice diagramma delle frequenze.",
+        "Saper leggere il diagramma delle frequenze per rispondere a domande su quante conchiglie, quale lunghezza compare più spesso e di quanto la più lunga supera la più corta.",
+        "Avvicinarsi alla lettura e all'interpretazione dei dati con materiali manipolabili, senza voti e senza tempo, in linea con le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+      ]
+    },
     "bundle-bot.bundle-machine.1-nbt-b-2-a": {
       "about": [
         "Con Bolt il robot il tuo bambino costruisce i numeri un pezzo alla volta: lascia cadere le unità sciolte, le conta fino a dieci e tira la leva per raggrupparle in una decina, scoprendo con le mani come nascono le decine e le unità.",

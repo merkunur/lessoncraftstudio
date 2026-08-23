@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Fare il cambio è il primo, grande passo verso l'addizione in colonna: qui i bambini della classe seconda lo scoprono toccando con mano, senza fretta e senza voti. Tuck, il criceto, propone somme entro il 100 usando i blocchi base dieci, così ogni operazione ha un significato concreto prima ancora di diventare un calcolo scritto.",
+        "L'attività è gratuita, si apre direttamente nel browser e non richiede alcuna registrazione. Il bambino somma un numero di due cifre e uno di una cifra, nota quando 10 unità possono diventare una decina e completa il cambio con un semplice tocco, per poi scrivere il totale.",
+        "Il percorso mette al centro il valore posizionale — decine e unità — con un approccio manipolabile e visivo, in linea con le Indicazioni nazionali e il nucleo dei Numeri. Nessun punteggio, nessun cronometro: solo il tempo giusto per capire."
+      ],
+      "practices": [
+        "Sommare con il cambio entro il 100",
+        "Riconoscere quando 10 unità formano una decina",
+        "Lavorare con decine e unità (valore posizionale) usando i blocchi base dieci",
+        "Scrivere il totale dell'addizione"
+      ],
+      "howToPlay": [
+        "Guarda i blocchi base dieci di Tuck, divisi in decine e unità",
+        "Tocca «Fai il cambio» per trasformare 10 unità in una decina",
+        "Conta i blocchi e scrivi il totale: se serve arriva un suggerimento gentile, senza punteggio"
+      ],
+      "learningGoals": [
+        "Sommare un numero di due cifre e uno di una cifra con il cambio, entro il 100",
+        "Capire che 10 unità formano una decina",
+        "Consolidare il valore posizionale distinguendo decine e unità"
+      ]
+    },
     "shapeforge.compose.1-g-a-2": {
       "about": [
         "Nella bottega luminosa di Mim ogni figura nasce dalla luce: i bambini fondono piccoli triangoli e rombi splendenti per dare forma a figure sempre più grandi.",

@@ -161,23 +161,27 @@
      Botones: "Formar una decena/centena" (agrupar) + "Desarmar una decena/centena"
      (desarmar = deshacer reversible, no "romper"); concepto = agrupar / suma con
      reagrupación. Valor posicional: unidades/decenas/centenas. Comillas angulares « ». */
+  /* it — native ensemble (linguista + pedagoga classe seconda, Indicazioni nazionali). Bottone
+     «Fai il cambio» = il cambio concreto del materiale (⚠ NON «il riporto» = l'algoritmo in colonna,
+     stadio successivo). Valore posizionale: unità/decine/centinaia (⚠ «decina» NON lo spagnolo
+     «decena»). Blocchi = «blocchi base dieci» (NON «materiale dorato» = Montessori). Classe seconda. */
   var _PVR_DE = {
-    title:        { en: "Tuck's Ten Bundles", de: 'Tuck bündelt einen Zehner', fr: 'Tuck fait une dizaine', es: 'Tuck forma una decena', pt: 'Tuck agrupa uma dezena' },
-    instruction:  { en: 'Tap “Make a ten” to bundle 10 ones, then type the total.', de: 'Tippe auf „Zehner bündeln", um 10 Einer zu bündeln, und tippe dann das Ergebnis ein.', fr: 'Appuie sur « Grouper une dizaine » pour faire un paquet de 10 unités, puis écris la réponse.', es: 'Toca «Formar una decena» para agrupar 10 unidades y luego escribe el total.', pt: 'Toque em «Agrupar uma dezena» para juntar 10 unidades e depois escreva o total.' },
-    colHundreds:  { en: 'hundreds', de: 'Hunderter', fr: 'centaines', es: 'centenas', pt: 'centenas' },
-    colTens:      { en: 'tens', de: 'Zehner', fr: 'dizaines', es: 'decenas', pt: 'dezenas' },
-    colOnes:      { en: 'ones', de: 'Einer', fr: 'unités', es: 'unidades', pt: 'unidades' },
-    makeTen:      { en: '🔁 Make a ten', de: '🔁 Zehner bündeln', fr: '🔁 Grouper une dizaine', es: '🔁 Formar una decena', pt: '🔁 Agrupar uma dezena' },
-    makeHundred:  { en: '🔁 Make a hundred', de: '🔁 Hunderter bündeln', fr: '🔁 Grouper une centaine', es: '🔁 Formar una centena', pt: '🔁 Agrupar uma centena' },
-    breakTen:     { en: '🔁 Break a ten', de: '🔁 Zehner entbündeln', fr: '🔁 Casser une dizaine', es: '🔁 Desarmar una decena', pt: '🔁 Desagrupar uma dezena' },
-    breakHundred: { en: '🔁 Break a hundred', de: '🔁 Hunderter entbündeln', fr: '🔁 Casser une centaine', es: '🔁 Desarmar una centena', pt: '🔁 Desagrupar uma centena' },
-    hintBundleFirst:       { en: 'First tap “Make a ten” to bundle 10 ones!', de: 'Tippe zuerst auf „Zehner bündeln", um 10 Einer zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une dizaine » pour faire un paquet de 10 !', es: '¡Primero toca «Formar una decena» para agrupar 10 unidades!', pt: 'Primeiro toque em «Agrupar uma dezena» para juntar 10 unidades!' },
-    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln", um 10 Zehner zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une centaine » pour faire un paquet de 10 dizaines !', es: '¡Primero toca «Formar una centena» para agrupar 10 decenas!', pt: 'Primeiro toque em «Agrupar uma centena» para juntar 10 dezenas!' },
-    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.', fr: 'Il n\'y a pas assez d\'unités pour enlever. Casse d\'abord une dizaine !', es: 'Primero desarma una decena: no hay suficientes unidades para quitar.', pt: 'Desagrupe uma dezena primeiro — não há unidades suficientes para tirar.' },
-    hintBreakHundredFirst: { en: 'No tens to break — tap “Break a hundred” first.', de: 'Hier gibt es keine Zehner – tippe zuerst auf „Hunderter entbündeln".', fr: 'Il n\'y a pas de dizaine à casser — appuie d\'abord sur « Casser une centaine ».', es: 'No hay decenas para desarmar; primero toca «Desarmar una centena».', pt: 'Não há dezenas para desagrupar; toque primeiro em «Desagrupar uma centena».' },
-    hintBreakTenNext:      { en: 'Now tap “Break a ten” to get enough ones.', de: 'Tippe jetzt auf „Zehner entbündeln", damit du genug Einer hast.', fr: 'Casse une dizaine pour avoir 10 unités de plus, puis enlève.', es: 'Ahora toca «Desarmar una decena» para tener suficientes unidades.', pt: 'Agora toque em «Desagrupar uma dezena» para ter unidades suficientes.' },
-    hintReadTotal:         { en: 'Now count the blocks and type the total.', de: 'Zähle jetzt alle Blöcke und tippe das Ergebnis ein.', fr: 'Maintenant, compte tous les blocs et écris le total.', es: 'Ahora cuenta los bloques y escribe el total.', pt: 'Agora conte os blocos e escreva o total.' },
-    srMat:        { en: '{t} tens and {o} ones', de: '{t} Zehner und {o} Einer', fr: '{t} dizaines et {o} unités', es: '{t} decenas y {o} unidades', pt: '{t} dezenas e {o} unidades' }
+    title:        { en: "Tuck's Ten Bundles", de: 'Tuck bündelt einen Zehner', fr: 'Tuck fait une dizaine', es: 'Tuck forma una decena', pt: 'Tuck agrupa uma dezena', it: 'Tuck fa il cambio' },
+    instruction:  { en: 'Tap “Make a ten” to bundle 10 ones, then type the total.', de: 'Tippe auf „Zehner bündeln", um 10 Einer zu bündeln, und tippe dann das Ergebnis ein.', fr: 'Appuie sur « Grouper une dizaine » pour faire un paquet de 10 unités, puis écris la réponse.', es: 'Toca «Formar una decena» para agrupar 10 unidades y luego escribe el total.', pt: 'Toque em «Agrupar uma dezena» para juntar 10 unidades e depois escreva o total.', it: 'Tocca «Fai il cambio» per cambiare 10 unità con una decina, poi scrivi il totale.' },
+    colHundreds:  { en: 'hundreds', de: 'Hunderter', fr: 'centaines', es: 'centenas', pt: 'centenas', it: 'centinaia' },
+    colTens:      { en: 'tens', de: 'Zehner', fr: 'dizaines', es: 'decenas', pt: 'dezenas', it: 'decine' },
+    colOnes:      { en: 'ones', de: 'Einer', fr: 'unités', es: 'unidades', pt: 'unidades', it: 'unità' },
+    makeTen:      { en: '🔁 Make a ten', de: '🔁 Zehner bündeln', fr: '🔁 Grouper une dizaine', es: '🔁 Formar una decena', pt: '🔁 Agrupar uma dezena', it: '🔁 Fai il cambio' },
+    makeHundred:  { en: '🔁 Make a hundred', de: '🔁 Hunderter bündeln', fr: '🔁 Grouper une centaine', es: '🔁 Formar una centena', pt: '🔁 Agrupar uma centena', it: '🔁 Fai il cambio' },
+    breakTen:     { en: '🔁 Break a ten', de: '🔁 Zehner entbündeln', fr: '🔁 Casser une dizaine', es: '🔁 Desarmar una decena', pt: '🔁 Desagrupar uma dezena', it: '🔁 Scomponi una decina' },
+    breakHundred: { en: '🔁 Break a hundred', de: '🔁 Hunderter entbündeln', fr: '🔁 Casser une centaine', es: '🔁 Desarmar una centena', pt: '🔁 Desagrupar uma centena', it: '🔁 Scomponi un centinaio' },
+    hintBundleFirst:       { en: 'First tap “Make a ten” to bundle 10 ones!', de: 'Tippe zuerst auf „Zehner bündeln", um 10 Einer zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une dizaine » pour faire un paquet de 10 !', es: '¡Primero toca «Formar una decena» para agrupar 10 unidades!', pt: 'Primeiro toque em «Agrupar uma dezena» para juntar 10 unidades!', it: 'Prima tocca «Fai il cambio» per cambiare 10 unità con una decina!' },
+    hintMakeHundredFirst:  { en: 'First tap “Make a hundred” to bundle 10 tens!', de: 'Tippe zuerst auf „Hunderter bündeln", um 10 Zehner zu bündeln!', fr: 'Appuie d\'abord sur « Grouper une centaine » pour faire un paquet de 10 dizaines !', es: '¡Primero toca «Formar una centena» para agrupar 10 decenas!', pt: 'Primeiro toque em «Agrupar uma centena» para juntar 10 dezenas!', it: 'Prima tocca «Fai il cambio» per cambiare 10 decine con un centinaio!' },
+    hintBreakFirst:        { en: 'Break a ten first — there aren’t enough ones to take away.', de: 'Entbündle zuerst einen Zehner – es sind nicht genug Einer zum Wegnehmen da.', fr: 'Il n\'y a pas assez d\'unités pour enlever. Casse d\'abord une dizaine !', es: 'Primero desarma una decena: no hay suficientes unidades para quitar.', pt: 'Desagrupe uma dezena primeiro — não há unidades suficientes para tirar.', it: 'Prima scomponi una decina: non ci sono abbastanza unità da togliere.' },
+    hintBreakHundredFirst: { en: 'No tens to break — tap “Break a hundred” first.', de: 'Hier gibt es keine Zehner – tippe zuerst auf „Hunderter entbündeln".', fr: 'Il n\'y a pas de dizaine à casser — appuie d\'abord sur « Casser une centaine ».', es: 'No hay decenas para desarmar; primero toca «Desarmar una centena».', pt: 'Não há dezenas para desagrupar; toque primeiro em «Desagrupar uma centena».', it: 'Non ci sono decine da scomporre: tocca prima «Scomponi un centinaio».' },
+    hintBreakTenNext:      { en: 'Now tap “Break a ten” to get enough ones.', de: 'Tippe jetzt auf „Zehner entbündeln", damit du genug Einer hast.', fr: 'Casse une dizaine pour avoir 10 unités de plus, puis enlève.', es: 'Ahora toca «Desarmar una decena» para tener suficientes unidades.', pt: 'Agora toque em «Desagrupar uma dezena» para ter unidades suficientes.', it: 'Ora tocca «Scomponi una decina» per avere abbastanza unità.' },
+    hintReadTotal:         { en: 'Now count the blocks and type the total.', de: 'Zähle jetzt alle Blöcke und tippe das Ergebnis ein.', fr: 'Maintenant, compte tous les blocs et écris le total.', es: 'Ahora cuenta los bloques y escribe el total.', pt: 'Agora conte os blocos e escreva o total.', it: 'Ora conta i blocchi e scrivi il totale.' },
+    srMat:        { en: '{t} tens and {o} ones', de: '{t} Zehner und {o} Einer', fr: '{t} dizaines et {o} unités', es: '{t} decenas y {o} unidades', pt: '{t} dezenas e {o} unidades', it: '{t} decine e {o} unità' }
   };
 
   /* order-only Fisher–Yates (array-activity contract): guaranteed ≠ prev when n≥2 */
@@ -217,8 +221,8 @@
       var wrap = stage && stage.querySelector('.pvr-cap');
       if (wrap) wrap.textContent = this.a + (sub ? ' − ' : ' + ') + this.b + ' = ' + this._target;
       if (global.LCSAudio && global.LCSAudio.speak) {
-        var op = sub ? (loc === 'fr' ? ' moins ' : loc === 'pt' ? ' menos ' : ' minus ') : (loc === 'pt' ? ' mais ' : ' plus ');   /* „plus"/„minus" read by de+en TTS; fr subtract → „moins"; pt „mais"/„menos" */
-        var verb = loc === 'fr' ? ' font ' : loc === 'de' ? ' macht ' : loc === 'pt' ? ' dá ' : ' makes ';
+        var op = sub ? (loc === 'fr' ? ' moins ' : loc === 'pt' ? ' menos ' : loc === 'it' ? ' meno ' : ' minus ') : (loc === 'pt' ? ' mais ' : loc === 'it' ? ' più ' : ' plus ');   /* „plus"/„minus" read by de+en TTS; fr subtract → „moins"; pt „mais"/„menos"; it „più"/„meno" */
+        var verb = loc === 'fr' ? ' font ' : loc === 'de' ? ' macht ' : loc === 'pt' ? ' dá ' : loc === 'it' ? ' fa ' : ' makes ';
         try { global.LCSAudio.speak({ type: 'number', text: this.a + op + this.b + verb + this._target, lang: loc, rate: 0.95 }); } catch (e) {}
       }
     },

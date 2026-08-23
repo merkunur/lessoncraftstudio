@@ -116,15 +116,21 @@
   global.MosaicMendersActivity = {
     id: 'mosaic-menders-activity',
 
+    /* it (Indicazioni nazionali, classe QUARTA): mascot «Tessa» KEPT — «tessera» = mosaic tile, so
+       "Tessa la mosaicista" reads transparently. Unit word = «quadretti» (contare i quadretti — the
+       standard area-counting term); ❌ NOT «tessere» (false-friend = membership-cards + not intrinsically
+       square). AREA of a figure = the GEOMETRY nucleo «Spazio e figure» (Indicazioni: «determinare l'area…
+       per scomposizione»), NOT the length «Relazioni, dati e previsioni». Grade classe quarta (area enters
+       primaria at quarta). All counts ≥4 → «{n} quadretti» plural always right. */
     strings: {
-      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt', fr: 'L’atelier de mosaïque de Tessa', es: 'El taller de mosaicos de Tessa', pt: 'O ateliê de mosaicos da Tessa' },
-      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.', fr: 'Aide Tessa : touche la mosaïque qui a le même nombre de carreaux. Touche Vérifier quand tu as choisi.', es: 'Ayuda a Tessa: toca el mosaico que usa la misma cantidad de cuadritos. Toca Comprobar cuando estés listo.', pt: 'Ajude a Tessa: toque no mosaico que usa a mesma quantidade de quadradinhos. Toque em Verificar quando terminar.' },
-      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.', fr: 'Touche la mosaïque qui a {n} carreaux.', es: 'Toca el mosaico que usa {n} cuadritos.', pt: 'Toque no mosaico que usa {n} quadradinhos.' },
-      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.', fr: 'Touche d’abord une mosaïque.', es: 'Primero toca uno de los mosaicos.', pt: 'Toque em um dos mosaicos primeiro.' },
-      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.', fr: 'Pas celle-ci — compte les carreaux, pas la taille.', es: 'Ese no — cuenta los cuadritos, no el tamaño.', pt: 'Esse não — conte os quadradinhos, não vá pelo tamanho.' },
-      targetLabel: { en: '{n} tiles', de: '{n} Plättchen', fr: '{n} carreaux', es: '{n} cuadritos', pt: '{n} quadradinhos' },
-      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.', fr: 'Tessa a besoin d’une mosaïque de {n} carreaux.', es: 'Tessa necesita un mosaico con {n} cuadritos.', pt: 'A Tessa precisa de um mosaico com {n} quadradinhos.' },
-      srCand:      { en: 'a mosaic with {n} tiles', de: 'ein Mosaik mit {n} Plättchen', fr: 'une mosaïque de {n} carreaux', es: 'un mosaico con {n} cuadritos', pt: 'um mosaico com {n} quadradinhos' }
+      title:       { en: 'The Mosaic Menders', de: 'Tessas Mosaik-Werkstatt', fr: 'L’atelier de mosaïque de Tessa', es: 'El taller de mosaicos de Tessa', pt: 'O ateliê de mosaicos da Tessa', it: 'Il laboratorio dei mosaici di Tessa' },
+      instruction: { en: 'Help Tessa: tap the mosaic that uses the same number of tiles. Tap Check when ready.', de: 'Hilf Tessa: Tippe auf das Mosaik, das gleich viele Plättchen hat. Tippe auf „Prüfen“, wenn du fertig bist.', fr: 'Aide Tessa : touche la mosaïque qui a le même nombre de carreaux. Touche Vérifier quand tu as choisi.', es: 'Ayuda a Tessa: toca el mosaico que usa la misma cantidad de cuadritos. Toca Comprobar cuando estés listo.', pt: 'Ajude a Tessa: toque no mosaico que usa a mesma quantidade de quadradinhos. Toque em Verificar quando terminar.', it: 'Aiuta Tessa: tocca il mosaico che usa lo stesso numero di quadretti. Tocca Verifica quando hai scelto.' },
+      prompt:      { en: 'Tap the mosaic that uses {n} tiles.', de: 'Tippe auf das Mosaik mit {n} Plättchen.', fr: 'Touche la mosaïque qui a {n} carreaux.', es: 'Toca el mosaico que usa {n} cuadritos.', pt: 'Toque no mosaico que usa {n} quadradinhos.', it: 'Tocca il mosaico che usa {n} quadretti.' },
+      hintPickOne: { en: 'Tap one of the mosaics first.', de: 'Tippe zuerst auf eines der Mosaike.', fr: 'Touche d’abord une mosaïque.', es: 'Primero toca uno de los mosaicos.', pt: 'Toque em um dos mosaicos primeiro.', it: 'Prima tocca uno dei mosaici.' },
+      hintCount:   { en: 'Not that one — count the tiles, not the size.', de: 'Nicht dieses — zähle die Plättchen, nicht die Größe.', fr: 'Pas celle-ci — compte les carreaux, pas la taille.', es: 'Ese no — cuenta los cuadritos, no el tamaño.', pt: 'Esse não — conte os quadradinhos, não vá pelo tamanho.', it: 'Non quello — conta i quadretti, non la grandezza.' },
+      targetLabel: { en: '{n} tiles', de: '{n} Plättchen', fr: '{n} carreaux', es: '{n} cuadritos', pt: '{n} quadradinhos', it: '{n} quadretti' },
+      srTarget:    { en: 'Tessa needs a mosaic with {n} tiles.', de: 'Tessa braucht ein Mosaik mit {n} Plättchen.', fr: 'Tessa a besoin d’une mosaïque de {n} carreaux.', es: 'Tessa necesita un mosaico con {n} cuadritos.', pt: 'A Tessa precisa de um mosaico com {n} quadradinhos.', it: 'Tessa ha bisogno di un mosaico con {n} quadretti.' },
+      srCand:      { en: 'a mosaic with {n} tiles', de: 'ein Mosaik mit {n} Plättchen', fr: 'une mosaïque de {n} carreaux', es: 'un mosaico con {n} cuadritos', pt: 'um mosaico com {n} quadradinhos', it: 'un mosaico con {n} quadretti' }
     },
 
     defaults: {},

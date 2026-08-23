@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "Nella bottega di Tessa, la mosaicista, ogni mosaico prende vita quadretto dopo quadretto: il bambino cerca, tra tre mosaici, quello fatto con lo stesso numero di quadretti del modello di Tessa.",
+        "È un'attività di geometria per la classe quarta (bambini di circa 9 anni), gratuita e giocabile online nel browser senza registrazione, in cui si misura l'area contando i quadretti invece di lasciarsi ingannare dal mosaico con il contorno più grande.",
+        "Il percorso segue il nucleo «Spazio e figure» delle Indicazioni nazionali: niente punteggio e niente tempo, solo il piacere di scoprire che due figure di forma diversa possono avere la stessa area."
+      ],
+      "practices": [
+        "Misurare l'area di una figura contando i quadretti che la compongono",
+        "Confrontare l'area di mosaici con forme diverse",
+        "Capire che un contorno più grande non significa un'area più grande",
+        "Scoprire che due figure diverse possono avere la stessa area"
+      ],
+      "howToPlay": [
+        "Guarda il mosaico di Tessa e conta quanti quadretti lo compongono",
+        "Tra i tre mosaici proposti, tocca quello fatto con lo stesso numero di quadretti",
+        "Se scegli quello sbagliato arriva un aiuto gentile: nessun punteggio, si riprova con calma"
+      ],
+      "learningGoals": [
+        "Misurare e confrontare l'area contando i quadretti",
+        "Riconoscere che l'area è il numero di quadretti, uguale a prescindere dalla forma",
+        "Consolidare le competenze del nucleo «Spazio e figure» previste dalle Indicazioni nazionali"
+      ]
+    },
     "span-length-gap.how-much-longer.2-md-a-4": {
       "about": [
         "Spanna, il bruco geometra, ama misurare il mondo a spanne e si ferma davanti a due oggetti chiedendosi di quanto uno superi l'altro.",

@@ -399,6 +399,53 @@
         "Avvicinarsi alla lettura e al confronto dei dati con materiali manipolabili, senza voti e senza tempo, in un clima sereno."
       ]
     },
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Con Sprocket il gallo, i bambini di classe prima muovono i primi passi nella lettura dell'ora: l'orologio a lancette segna un'ora in punto e loro scelgono l'ora digitale che corrisponde.",
+        "L'attenzione è tutta sulla lancetta corta delle ore: quando la lancetta lunga dei minuti è sul 12, l'ora è \"in punto\" e basta leggere il numero indicato dalla lancetta corta.",
+        "È un'attività calma e senza fretta: nessun punteggio e nessun tempo, solo tanti orologi da leggere per prendere confidenza con «le tre in punto», «le nove in punto» e l'una."
+      ],
+      "practices": [
+        "Sprocket mostra un orologio a lancette: guarda dov'è la lancetta corta delle ore.",
+        "Controlla che la lancetta lunga dei minuti sia sul 12: significa che l'ora è in punto.",
+        "Leggi ad alta voce l'ora, per esempio «le sette in punto».",
+        "Tocca l'ora digitale giusta (7:00) tra le risposte proposte."
+      ],
+      "howToPlay": [
+        "Osserva l'orologio a lancette disegnato da Sprocket.",
+        "Trova il numero indicato dalla lancetta corta delle ore, con la lancetta lunga sul 12.",
+        "Tocca l'ora digitale corrispondente: se sbagli puoi riprovare con calma."
+      ],
+      "learningGoals": [
+        "Leggere l'ora in punto sull'orologio a lancette.",
+        "Collegare l'orologio a lancette all'ora digitale (le 3 in punto → 3:00).",
+        "Avvicinarsi alla misura del tempo secondo le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "In classe seconda si fa un passo avanti: con Sprocket il gallo i bambini imparano a distinguere l'ora in punto dalla mezz'ora leggendo insieme le due lancette dell'orologio.",
+        "Il segreto è la lancetta lunga dei minuti: quando è sul 12 l'ora è in punto, quando è sul 6 è passata la mezz'ora e si dice «e mezza».",
+        "Alla mezz'ora si legge sempre l'ora \"di prima\": se la lancetta corta è tra il 7 e l'8 con quella lunga sul 6, si dice «le sette e mezza», non le otto. Nessun punteggio e nessun tempo: solo tanti orologi da leggere con calma."
+      ],
+      "practices": [
+        "Sprocket mostra un orologio a lancette: guarda prima la lancetta lunga dei minuti.",
+        "Se la lancetta lunga è sul 12, l'ora è in punto; se è sul 6, è passata la mezz'ora.",
+        "Guarda la lancetta corta delle ore per capire di quale ora si tratta.",
+        "Tocca l'ora digitale giusta: 3:00 per «le tre in punto», 3:30 per «le tre e mezza»."
+      ],
+      "howToPlay": [
+        "Osserva le due lancette dell'orologio a lancette di Sprocket.",
+        "Controlla la lancetta lunga dei minuti: sul 12 è in punto, sul 6 è e mezza.",
+        "Ricorda che alla mezz'ora vale l'ora \"di prima\" (le sette e mezza, non le otto).",
+        "Tocca l'ora digitale corrispondente e, se serve, riprova senza fretta."
+      ],
+      "learningGoals": [
+        "Leggere l'ora e la mezz'ora sull'orologio a lancette usando entrambe le lancette.",
+        "Distinguere «le tre in punto» da «le tre e mezza» e scegliere l'ora digitale giusta (3:00 o 3:30).",
+        "Consolidare la misura del tempo secondo le Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "Questa è un'attività di geometria per bambini dai 6 agli 8 anni, da fare direttamente nel browser: non serve installare nulla e non serve alcun account. Il bambino vede una forma divisa in parti uguali e poi tocca un'altra forma che mostra lo stesso numero di parti uguali.",

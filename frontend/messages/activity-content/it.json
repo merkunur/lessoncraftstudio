@@ -492,6 +492,29 @@
         "Giudicare uguaglianze vere o false con sicurezza, usando materiali manipolabili e visivi come la bilancia per rendere concreta ogni sentenza."
       ]
     },
+    "comparison-creek.river-steer.k-cc-c-7": {
+      "about": [
+        "Sali a bordo con il capitano Quill, un anatroccolo coraggioso che discende un fiume pieno di curve: a ogni bivio ci sono due boe con due numeri, e tocca al tuo bambino decidere quale ramo del fiume prendere.",
+        "È un'attività di classe prima per confrontare e ordinare i numeri entro il 10: il bambino sceglie il numero più grande o più piccolo, oppure tocca «=» quando le due boe mostrano lo stesso numero.",
+        "Il gioco è gratuito, senza registrazione e funziona nel browser, con un tono calmo e incoraggiante: nessun punteggio e nessun cronometro, solo il piacere di navigare e imparare."
+      ],
+      "practices": [
+        "Leggere i numeri scritti da 1 a 10 e riconoscere quale è più grande e quale è più piccolo.",
+        "Confrontare e ordinare i numeri entro il 10, scegliendo il ramo del fiume con il numero richiesto.",
+        "Capire quando due numeri sono uguali e toccare il segno «=».",
+        "Leggere il valore del numero e non la grandezza della scritta: anche un «3» stampato in grande resta più piccolo di un «8»."
+      ],
+      "howToPlay": [
+        "A ogni bivio guarda le due boe: leggi bene i due numeri prima di decidere.",
+        "Tocca il ramo del fiume con il numero più grande o più piccolo, come chiede il capitano Quill; se i numeri sono uguali, tocca «=».",
+        "La zattera prosegue lungo il fiume verso il bivio successivo: si può giocare tante volte, con calma e senza fretta."
+      ],
+      "learningGoals": [
+        "Confrontare e ordinare i numeri entro il 10, riconoscendo il più grande e il più piccolo.",
+        "Rafforzare la lettura dei numeri scritti da 1 a 10 e il concetto di uguaglianza.",
+        "Distinguere il valore di un numero dalla dimensione con cui è scritto, un passo importante nel percorso di classe prima secondo le Indicazioni nazionali."
+      ]
+    },
     "choice-board.fraction-noncongruent.2-g-a-3": {
       "about": [
         "Questa è un'attività di geometria per bambini dai 6 agli 8 anni, da fare direttamente nel browser: non serve installare nulla e non serve alcun account. Il bambino vede una forma divisa in parti uguali e poi tocca un'altra forma che mostra lo stesso numero di parti uguali.",

@@ -66,16 +66,32 @@
     for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
     return out;
   }
-  /* Per-locale forms builder (en falls to the English core; de/fr/es/pt use their own
+  /* Italian list-comma forms (#30 native ensemble; 0 lines to series-comma-core.js):
+     comma between items, none before « e » («la e non vuole la virgola davanti» —
+     no Oxford comma). Mirrors the de/pt recipe (und/e→e); misplaced puts the comma
+     at the forbidden spot before « e ». ⚠ Italian has the d eufonica («ed» before a
+     vowel, obligatory before «e-»), but the engine hardcodes plain « e » → every
+     round's LAST item (item2) is CONSONANT-INITIAL by design, so « e » is always
+     correct and «ed» is never needed (the round data enforces it, not this code). */
+  function itCorrect(r) { var i = r.items; return r.lead + ' ' + i[0] + ', ' + i[1] + ' e ' + i[2] + '.'; }
+  function itNocomma(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ' e ' + i[2] + '.'; }
+  function itMisplaced(r) { var i = r.items; return r.lead + ' ' + i[0] + ' ' + i[1] + ', e ' + i[2] + '.'; }
+  function itFormsOf(r) {
+    var correct = itCorrect(r), foils = [itNocomma(r), itMisplaced(r)];
+    var slot = (((r.slot || 0) % 3) + 3) % 3, out = [], fi = 0;
+    for (var i = 0; i < 3; i++) { if (i === slot) out.push({ text: correct, ok: true }); else out.push({ text: foils[fi++], ok: false }); }
+    return out;
+  }
+  /* Per-locale forms builder (en falls to the English core; de/fr/es/pt/it use their own
      builders). Behaviour-identical to the prior `LANG!=='de'` guard for en/de. */
-  var FORMS_BUILDER = { de: deFormsOf, fr: frFormsOf, es: esFormsOf, pt: ptFormsOf };
+  var FORMS_BUILDER = { de: deFormsOf, fr: frFormsOf, es: esFormsOf, pt: ptFormsOf, it: itFormsOf };
   function cplFormsOf(r) { var b = FORMS_BUILDER[LANG]; return b ? b(r) : null; }
   function cplChildView(r) { var f = cplFormsOf(r); if (!f) return Core.childView(r); return { lead: r.lead, choices: f.map(function (x, i) { return { id: i, text: x.text }; }) }; }
   function cplGrade(r, id) { var f = cplFormsOf(r); if (!f) return Core.grade(r, id); var x = f[id]; return !!x && !!x.ok; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -94,13 +110,13 @@
     id: 'cleo-packing-list-activity',
 
     strings: {
-      title: { en: "Cleo's Packing List", de: 'Cleos Packliste', fr: 'Les virgules de Cléo', es: 'La lista de Cleo', pt: 'A lista do Cleo' },
-      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.', fr: 'Touche la liste où les virgules sont au bon endroit.', es: 'Toca la lista que tiene las comas en el lugar correcto.', pt: 'Toque na lista com as vírgulas no lugar certo.' },
-      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?', fr: 'Quelle liste a les virgules au bon endroit ?', es: '¿Cuál lista tiene las comas en el lugar correcto?', pt: 'Qual lista está com as vírgulas no lugar certo?' },
-      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!', fr: 'Une virgule entre les mots, jamais devant « et » !', es: 'Consejo de Cleo: una coma entre las cosas, ¡pero nunca antes de «y»!', pt: 'Vírgula entre as coisas, nunca antes do "e"!' },
-      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".', fr: 'Mets une virgule entre les mots, pas devant « et ».', es: 'Pon una coma entre las palabras, pero NO antes de «y».', pt: 'Ponha uma vírgula entre as palavras, mas NÃO antes do "e".' },
-      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".', fr: 'La virgule va entre les mots, pas devant « et ».', es: '¡Casi! La coma va entre las palabras, no antes de «y».', pt: 'Quase! A vírgula vai entre as palavras, não antes do "e".' },
-      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎', fr: 'Bravo ! Tes virgules sont parfaites ! 🦎', es: '¡Muy bien! Todas las comas están en su lugar. 🦎', pt: 'Isso! As vírgulas estão certinhas. 🦎' }
+      title: { en: "Cleo's Packing List", de: 'Cleos Packliste', fr: 'Les virgules de Cléo', es: 'La lista de Cleo', pt: 'A lista do Cleo', it: 'La lista di Cleo' },
+      instruction: { en: 'Tap the list that has its commas in the right places.', de: 'Tippe die Liste mit den Kommas an der richtigen Stelle.', fr: 'Touche la liste où les virgules sont au bon endroit.', es: 'Toca la lista que tiene las comas en el lugar correcto.', pt: 'Toque na lista com as vírgulas no lugar certo.', it: 'Tocca la lista con le virgole al posto giusto.' },
+      prompt: { en: 'Which list has the commas in the right places?', de: 'Welche Liste hat die Kommas an der richtigen Stelle?', fr: 'Quelle liste a les virgules au bon endroit ?', es: '¿Cuál lista tiene las comas en el lugar correcto?', pt: 'Qual lista está com as vírgulas no lugar certo?', it: 'Quale lista ha le virgole al posto giusto?' },
+      cleoIntro: { en: 'A comma goes after each thing in a list!', de: 'Tipp von Cleo: Zwischen den Dingen steht ein Komma – aber nie vor „und"!', fr: 'Une virgule entre les mots, jamais devant « et » !', es: 'Consejo de Cleo: una coma entre las cosas, ¡pero nunca antes de «y»!', pt: 'Vírgula entre as coisas, nunca antes do "e"!', it: 'Una virgola tra le parole, mai prima della «e»!' },
+      hintPick: { en: 'A comma comes after each item — and before the last "and".', de: 'Komma zwischen den Wörtern – aber KEIN Komma vor „und".', fr: 'Mets une virgule entre les mots, pas devant « et ».', es: 'Pon una coma entre las palabras, pero NO antes de «y».', pt: 'Ponha uma vírgula entre as palavras, mas NÃO antes do "e".', it: 'Metti una virgola tra le parole, non prima della «e».' },
+      hintWrong: { en: 'Check each comma — one after each thing in the list.', de: 'Fast! Das Komma gehört zwischen die Wörter – nicht vor „und".', fr: 'La virgule va entre les mots, pas devant « et ».', es: '¡Casi! La coma va entre las palabras, no antes de «y».', pt: 'Quase! A vírgula vai entre as palavras, não antes do "e".', it: 'Quasi! La virgola va tra le parole, non prima della «e».' },
+      win: { en: 'Yes! The commas are just right. 🦎', de: 'Super – alle Kommas sitzen genau richtig! 🦎', fr: 'Bravo ! Tes virgules sont parfaites ! 🦎', es: '¡Muy bien! Todas las comas están en su lugar. 🦎', pt: 'Isso! As vírgulas estão certinhas. 🦎', it: 'Sì! Le virgole sono al posto giusto. 🦎' }
     },
     defaults: {},
 

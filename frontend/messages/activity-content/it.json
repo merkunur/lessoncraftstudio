@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "track-repair.count-to-120.1-nbt-a-1": {
+      "about": [
+        "Nella valle del Fischio un temporale ha strappato via i binari e il treno è fermo alla stazione. Ma quei binari sono speciali: formano una linea dei numeri da 0 a 100. Il bambino diventa il macchinista che rimette a posto la ferrovia, prendendo una traversina numerata alla volta e collocandola nel punto esatto in cui il suo numero appartiene. Quando ogni traversina torna al suo posto, il treno fischia e riparte lungo la valle: un modo concreto e pieno di storia per capire dove vivono i numeri.",
+        "Collocare i numeri per posizione sulla linea dei numeri sviluppa il senso della grandezza: il bambino capisce che 50 sta a metà, che 90 è quasi in fondo e che i numeri crescono a intervalli regolari. Contando per 5 e per 10 impara a spostarsi con sicurezza fino a 100, a stimare le distanze fra i numeri e a costruire quel senso del numero che è la base del calcolo mentale.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È completamente gratuita, interattiva e senza pressioni: niente registrazione, niente timer e niente punteggio, così ogni bambino può esplorare, sbagliare e riprovare con calma, seguendo il proprio ritmo."
+      ],
+      "practices": [
+        "Colloca i numeri fino a 100 sulla linea dei numeri",
+        "Conta per 5 e per 10 con sicurezza",
+        "Stima la posizione e la grandezza dei numeri",
+        "Rafforza il senso del numero giocando"
+      ],
+      "howToPlay": [
+        "Tocca una traversina numerata.",
+        "Toccala al punto giusto sulla linea dei numeri.",
+        "Posa tutte le traversine e fai partire il treno."
+      ],
+      "learningGoals": [
+        "Collocare i numeri fino a 100 al posto giusto",
+        "Contare per 5 e per 10 lungo la linea dei numeri",
+        "Sviluppare il senso della posizione e della grandezza dei numeri"
+      ]
+    },
     "bram-board-shop.length-word-problems.2-md-b-5": {
       "about": [
         "Nella falegnameria di Bram, il castoro carpentiere, ogni giornata comincia con un’ordinazione da preparare: un ripiano da montare, un’asse da accorciare, due tavole da unire. I bambini leggono la richiesta del cliente, appoggiano le lunghezze note sul lungo metro di Bram e cercano il pezzo misterioso — quanto misura l’asse che manca, quanta parte è stata segata via, quanto una tavola supera l’altra. Ogni round è un piccolo problema di lunghezze in centimetri, da modellare con le mani prima ancora che con i numeri, proprio come farebbe un vero falegname davanti al suo banco da lavoro.",

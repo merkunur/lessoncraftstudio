@@ -500,6 +500,104 @@
               "80 m"
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "ant",
+            "band": 1,
+            "object": "una formica",
+            "question": "Quanto è lunga circa una formica?",
+            "answer": "1 cm",
+            "options": [
+              "1 cm",
+              "12 cm",
+              "30 cm"
+            ]
+          },
+          {
+            "id": "door",
+            "band": 1,
+            "object": "una porta",
+            "question": "Quanto è alta circa una porta?",
+            "answer": "2 m",
+            "options": [
+              "1 m",
+              "2 m",
+              "9 m"
+            ]
+          },
+          {
+            "id": "train",
+            "band": 2,
+            "object": "un treno",
+            "question": "Quanto è lungo circa un treno?",
+            "answer": "200 m",
+            "options": [
+              "3 m",
+              "40 m",
+              "200 m"
+            ]
+          },
+          {
+            "id": "crayon",
+            "band": 1,
+            "object": "un pastello a cera",
+            "question": "Quanto è lungo circa un pastello a cera?",
+            "answer": "9 cm",
+            "options": [
+              "9 cm",
+              "50 cm",
+              "90 cm"
+            ]
+          },
+          {
+            "id": "bus",
+            "band": 2,
+            "object": "uno scuolabus",
+            "question": "Quanto è lungo circa uno scuolabus?",
+            "answer": "12 m",
+            "options": [
+              "2 m",
+              "12 m",
+              "90 m"
+            ]
+          },
+          {
+            "id": "building",
+            "band": 3,
+            "object": "un grattacielo",
+            "question": "Quanto è alto circa un grattacielo?",
+            "answer": "150 m",
+            "options": [
+              "5 m",
+              "40 m",
+              "150 m"
+            ]
+          },
+          {
+            "id": "spoon",
+            "band": 2,
+            "object": "un cucchiaio",
+            "question": "Quanto è lungo circa un cucchiaio?",
+            "answer": "15 cm",
+            "options": [
+              "15 cm",
+              "60 cm",
+              "150 cm"
+            ]
+          },
+          {
+            "id": "flagpole",
+            "band": 3,
+            "object": "un pennone",
+            "question": "Quanto è alto circa un pennone?",
+            "answer": "10 m",
+            "options": [
+              "1 m",
+              "10 m",
+              "80 m"
+            ]
+          }
         ]
       }
     },
@@ -509,21 +607,24 @@
       "de": "laengen-schaetzen-cm-und-meter-klasse-2",
       "fr": "estimer-des-longueurs-cm-et-metres-ce1",
       "es": "estimar-longitudes-cm-y-metros-2-primaria",
-      "pt": "estimar-comprimentos-cm-e-metros-2-ano"
+      "pt": "estimar-comprimentos-cm-e-metros-2-ano",
+      "it": "stimare-lunghezze-cm-e-metri-classe-terza"
     },
     "page_title": {
       "en": "Gauge's Good Guess — Estimate the Length (Grade 2)",
       "de": "Meter und Zentimeter – Längen schätzen online (Klasse 2)",
       "fr": "Estimer des longueurs en cm et en mètres – La chèvre Gauge | CE1",
       "es": "Estimar longitudes en cm y metros con Gauge | 2.º primaria",
-      "pt": "Estimar comprimentos em cm e metros com Palmira | 2º ano"
+      "pt": "Estimar comprimentos em cm e metros com Palmira | 2º ano",
+      "it": "Stimare lunghezze in cm e metri con Spanna | Classe terza"
     },
     "page_intro": {
       "en": "Gauge the goat guesses sizes just by looking! Read the question, picture how big the real thing is, and tap the estimate that makes sense — in centimeters or meters. A Grade 2 math game about estimating lengths with sensible units, aligned to Common Core 2.MD.A.3.",
       "de": "Meter und Zentimeter: Längen schätzen und vergleichen mit Ziege Gauge – Klasse 2. Kostenlos online üben, ganz ohne Anmeldung.",
       "fr": "Gauge la chèvre devine les tailles rien qu'en regardant ! Lis la question, imagine la taille réelle de l'objet, et touche l'estimation qui a du sens — en centimètres ou en mètres. Une fourmi mesure à peu près 1 cm, un train près de 200 m ! Un jeu de CE1 pour estimer des longueurs et choisir la bonne unité. Gratuit et interactif.",
       "es": "Con Gauge, la cabra, tu peque estima longitudes en centímetros y metros: mira un objeto y elige cuánto mide. Actividad de 2.º de primaria, gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
-      "pt": "Conheça a Palmira, uma cabra curiosa que adivinha tamanhos só de olhar! Nesta atividade, a criança lê uma pergunta sobre um objeto de verdade, imagina o tamanho real dele e toca a estimativa que faz sentido — em centímetros ou em metros. É uma forma divertida de estimar comprimentos, gratuita e interativa, pensada para o 2º ano e alinhada à BNCC."
+      "pt": "Conheça a Palmira, uma cabra curiosa que adivinha tamanhos só de olhar! Nesta atividade, a criança lê uma pergunta sobre um objeto de verdade, imagina o tamanho real dele e toca a estimativa que faz sentido — em centímetros ou em metros. É uma forma divertida de estimar comprimentos, gratuita e interativa, pensada para o 2º ano e alinhada à BNCC.",
+      "it": "Conosci Spanna, la capra curiosa che indovina le dimensioni delle cose solo guardandole! In questa attività il bambino legge una domanda su un oggetto reale, immagina quanto è grande davvero e tocca la stima che ha più senso — in centimetri o in metri. È un modo divertente per imparare a stimare le lunghezze e a scegliere l’unità giusta a occhio, senza righello e senza misurare. Si gioca subito nel browser: gratuita, interattiva, senza registrazione, senza timer e senza punteggio. Pensata per la classe terza e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Picture the real size, then tap the estimate that makes sense."
   }

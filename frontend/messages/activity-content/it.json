@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "Spanna, la capra dall’occhio allenato, sfida il bambino a indovinare quanto sono lunghe le cose vere: una formica lunga circa 1 centimetro, un pastello, una porta, un treno lungo quasi 200 metri.",
+        "Per ogni domanda ci sono tre stime possibili e il bambino tocca quella sensata, imparando a capire quando pensare in centimetri e quando in metri.",
+        "È un’attività di misura e stima delle lunghezze, pensata per la classe terza e allineata alle Indicazioni nazionali."
+      ],
+      "practices": [
+        "Immaginare la dimensione reale di un oggetto conosciuto",
+        "Scegliere una stima sensata tra tre possibilità",
+        "Capire quando pensare in centimetri e quando in metri",
+        "Farsi un’idea di quanto è lungo un centimetro e un metro"
+      ],
+      "howToPlay": [
+        "Leggi la domanda sull’oggetto reale.",
+        "Immagina quanto è grande davvero.",
+        "Tocca la stima sensata, in centimetri o in metri."
+      ],
+      "learningGoals": [
+        "Stimare le lunghezze a occhio, senza misurare.",
+        "Scegliere l’unità di misura giusta: centimetri o metri.",
+        "Confrontare le dimensioni degli oggetti di tutti i giorni."
+      ]
+    },
     "mending-fences.mend-board.3-md-d-8": {
       "about": [
         "Il tasso Hazel rimette al suo posto la tavola di staccionata che manca e, campo dopo campo, mostra la differenza tra il perimetro — il giro tutto intorno al bordo — e l’area, cioè lo spazio dei quadretti dentro, tutto contando e senza formule.",

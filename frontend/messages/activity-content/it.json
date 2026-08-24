@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "A Ziggy la zebra non sfugge niente: con le sue strisce bianche e nere sa benissimo cosa sta bene insieme e cosa proprio non c'entra.",
+        "In ogni gioco mostra quattro immagini e chiede ai bambini di scovare l'unica che non appartiene al gruppo.",
+        "Toccando l'intruso, il bambino impara a ragionare per categorie in modo naturale, un'immagine alla volta."
+      ],
+      "practices": [
+        "Raggruppare le parole per categoria",
+        "Riconoscere l'intruso in un insieme",
+        "Costruire i campi semantici (animali, cibo, vestiti, piante)",
+        "Osservare e confrontare le immagini"
+      ],
+      "howToPlay": [
+        "Guarda le quattro immagini di Ziggy.",
+        "Trova le tre che vanno insieme.",
+        "Tocca quella diversa, l'intrusa."
+      ],
+      "learningGoals": [
+        "Imparare a classificare le immagini per categoria",
+        "Arricchire il lessico attraverso i campi semantici",
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali"
+      ]
+    },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
         "Il ruggitometro di Roary misura una cosa che di solito non si vede: quanto è forte una parola.",

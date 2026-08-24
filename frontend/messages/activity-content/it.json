@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "sentence-builder.build-a-sentence.l-1-1-j": {
+      "about": [
+        "Wiggles è un bruco fatto di tanti segmenti, uno dietro l'altro, proprio come una frase è fatta di parole messe in ordine.",
+        "Il bambino guarda un'immagine e costruisce una frase toccando le parole e portandole al posto giusto.",
+        "Poco alla volta scopre che l'ordine delle parole dà senso a quello che vogliamo dire."
+      ],
+      "practices": [
+        "Mettere le parole in ordine",
+        "Costruire una frase con articolo, nome, aggettivo e verbo",
+        "Far concordare articolo, nome e aggettivo",
+        "Cominciare con la maiuscola e finire con il punto"
+      ],
+      "howToPlay": [
+        "Guarda l'immagine e leggi le parole sparse.",
+        "Tocca le parole per metterle in ordine e formare la frase.",
+        "Controlla la tua frase con calma, senza punteggio e senza fretta."
+      ],
+      "learningGoals": [
+        "Riconoscere l'ordine giusto delle parole in una frase",
+        "Costruire frasi che concordano, con la maiuscola all'inizio e il punto alla fine",
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+      ]
+    },
     "affix.apply.l-2-4-b": {
       "about": [
         "Marigold la talpa gira gli ingranaggi della sua macchina delle parole, e ogni ingranaggio è un piccolo prefisso o suffisso che trasforma la parola.",

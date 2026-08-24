@@ -282,6 +282,17 @@
           { "id": "pt-pos-1", "role": "possessive", "sentence": "Esse é ___ chapéu.",           "pt": { "correct": "meu",   "wrong": "mim" } },
           { "id": "pt-pos-2", "role": "possessive", "sentence": "Esse é ___ lápis.",            "pt": { "correct": "teu",   "wrong": "tu" } },
           { "id": "pt-pos-3", "role": "possessive", "sentence": "Essa é ___ casa.",             "pt": { "correct": "nossa", "wrong": "nós" } }
+        ],
+        "it": [
+          { "id": "it-sub-1", "role": "subject",    "sentence": "___ corro nel parco.",           "it": { "correct": "Io",     "wrong": "Me" } },
+          { "id": "it-sub-2", "role": "subject",    "sentence": "___ provi il cappello.",          "it": { "correct": "Tu",     "wrong": "Te" } },
+          { "id": "it-sub-3", "role": "subject",    "sentence": "Luca e ___ dipingiamo il muro.",  "it": { "correct": "io",     "wrong": "me" } },
+          { "id": "it-obj-1", "role": "object",     "sentence": "La nonna ___ vede.",              "it": { "correct": "mi",     "wrong": "io" } },
+          { "id": "it-obj-2", "role": "object",     "sentence": "Il papà ___ chiama.",             "it": { "correct": "ti",     "wrong": "tu" } },
+          { "id": "it-obj-3", "role": "object",     "sentence": "La guida ___ saluta.",            "it": { "correct": "ci",     "wrong": "noi" } },
+          { "id": "it-pos-1", "role": "possessive", "sentence": "È la ___ palla.",                 "it": { "correct": "mia",    "wrong": "io" } },
+          { "id": "it-pos-2", "role": "possessive", "sentence": "Questa è la ___ bottega.",        "it": { "correct": "nostra", "wrong": "noi" } },
+          { "id": "it-pos-3", "role": "possessive", "sentence": "Questo è il ___ cappello.",       "it": { "correct": "suo",    "wrong": "lui" } }
         ]
       }
     },
@@ -290,21 +301,24 @@
       "de": "personalpronomen-ueben-er-ihn-ich-mich-klasse-3",
       "fr": "les-pronoms-choisir-la-bonne-forme-ce2",
       "es": "pronombres-personales-para-ninos-3-primaria",
-      "pt": "hattie-chapelaria-pronomes-pessoais-caso-reto-obliquo-3-ano"
+      "pt": "hattie-chapelaria-pronomes-pessoais-caso-reto-obliquo-3-ano",
+      "it": "pronomi-personali-forma-giusta-classe-terza"
     },
     "page_title": {
       "en": "The Borrowed Hat — Personal Pronouns (Grade 1)",
       "de": "Hattie übt Personalpronomen: er/ihn, ich/mich – Klasse 3",
       "fr": "Grammaire CE2 : les pronoms – exercice en ligne",
       "es": "Pronombres personales para niños: yo, él, me, mi (3.º primaria)",
-      "pt": "A Chapelaria da Hattie: pronomes pessoais no 3º ano"
+      "pt": "A Chapelaria da Hattie: pronomes pessoais no 3º ano",
+      "it": "La cappelleria di Hattie: i pronomi personali (classe terza)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: at Hattie's Lost-and-Found Hat Shop, every character needs the right word-hat for its job in the sentence — he when doing, him when it is done to him, his when it belongs to him. Read the sentence, then pick the pronoun that fits. A friendly first look at using pronouns correctly. Common Core L.1.1.d.",
       "de": "Bei Hattie im Hutladen das passende Fürwort wählen: er oder ihn, ich oder mich – je nach Satzrolle. Personalpronomen kostenlos und interaktiv üben, Klasse 3.",
       "fr": "Grammaire CE2 en ligne : choisis la bonne forme du pronom dans la phrase, avec correction immédiate. Gratuit, en ligne, sans inscription.",
       "es": "Con Hattie la liebre y su sombrerería, tu niño lee una oración con un espacio y elige el pronombre personal correcto: quién hace la acción, a quién le pasa o de quién es algo. Actividad gratuita e interactiva para 3.º de primaria, alineada a los Planes y programas de estudio (SEP).",
-      "pt": "Ajude a Hattie a escolher o pronome pessoal certo em cada frase. Atividade de 3º ano sobre caso reto, oblíquo e possessivo, no ritmo da criança."
+      "pt": "Ajude a Hattie a escolher o pronome pessoal certo em cada frase. Atividade de 3º ano sobre caso reto, oblíquo e possessivo, no ritmo da criança.",
+      "it": "La cappelleria di Hattie è un'attività di grammatica gratuita: Hattie, una lepre, gestisce un negozio di cappelli-parola, e a ogni frase si sceglie la forma giusta del pronome — il «cappello-parola» adatto — secondo il suo ruolo, cioè soggetto, complemento o possessivo. Così si impara a dire «Io» e non «Me», e a usare «Luca e io» al posto giusto. Si gioca nel browser, senza registrazione e senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica, per esercitare i pronomi personali con calma."
     },
     "kid_prompt_template": "pronoun"
   }

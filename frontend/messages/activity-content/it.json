@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "pronoun.case.l-1-1-d": {
+      "about": [
+        "Nella cappelleria di Hattie la lepre, gli scaffali traboccano di cappelli-parola: piccoli pronomi da provare frase dopo frase.",
+        "A ogni cliente serve il cappello adatto, e sta a chi gioca scegliere il pronome giusto per ogni frase.",
+        "È un modo tranquillo e concreto per scoprire che ogni pronome ha il suo posto."
+      ],
+      "practices": [
+        "Scegliere la forma giusta del pronome",
+        "Distinguere il soggetto («io») dal complemento («mi»)",
+        "Usare bene «Luca e io»",
+        "Riconoscere il possessivo («mio», «tua»)"
+      ],
+      "howToPlay": [
+        "Leggi la frase con lo spazio vuoto.",
+        "Scegli il pronome che fa al caso suo: pensa se fa l'azione, la riceve o dice di chi è.",
+        "Controlla con calma, senza punteggio."
+      ],
+      "learningGoals": [
+        "Scegliere il pronome personale giusto secondo il suo ruolo nella frase",
+        "Distinguere soggetto, complemento e possessivo",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+      ]
+    },
     "sentence-builder.build-a-sentence.l-1-1-j": {
       "about": [
         "Wiggles è un bruco fatto di tanti segmenti, uno dietro l'altro, proprio come una frase è fatta di parole messe in ordine.",

@@ -68,6 +68,20 @@
       nSubject: 'Quase! Pense: quem FAZ a ação? Olhe de novo!',
       nObject: 'Quase! Pense: com quem isso acontece? Olhe de novo!',
       nPossessive: 'Quase! Pense: de quem é isso? Olhe de novo!'
+    },
+    /* it (#24 fan-out — 4th it literacy, FIRST it grade-3 «classe terza», Indicazioni «riflessione linguistica»):
+       ⭐ every WRONG chip = the SUBJECT pronoun of the same person in the wrong job (io/noi/lui) → one story:
+       io/noi/lui = chi FA · mi/ti/ci = a chi · mia/nostra/suo = di chi è. Metalanguage stays PLAIN (chi FA /
+       a chi / di chi è) — «caso»/«complemento» only in parent prose. ⚠ ’ (U+2019) keeps the JS strings intact. */
+    it: {
+      q: 'Quale parola completa la frase?',
+      win: 'Sì! {note}', hear: '🔊 Ascolta',
+      noteSubject: 'Qui c’è chi FA l’azione!',
+      noteObject: 'Qui l’azione succede a qualcuno!',
+      notePossessive: 'Questo dice DI CHI è la cosa!',
+      nSubject: 'Quasi! Chiediti: chi FA l’azione? Guarda di nuovo!',
+      nObject: 'Quasi! Chiediti: a chi succede? Guarda di nuovo!',
+      nPossessive: 'Quasi! Chiediti: di chi è? Guarda di nuovo!'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -92,9 +106,9 @@
   var PronounActivity = {
     id: 'pronoun-activity',
     strings: {
-      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie', pt: 'A Chapelaria da Hattie' },
-      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!', pt: 'Dê à Hattie a palavra certa — a que encaixa na frase!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}' }
+      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie', pt: 'A Chapelaria da Hattie', it: 'La cappelleria di Hattie' },
+      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!', pt: 'Dê à Hattie a palavra certa — a que encaixa na frase!', it: 'Dai a Hattie la parola giusta: quella che va bene nella frase!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}' }
     },
 
     init: function (api) {
@@ -205,7 +219,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : 'blank') + ' ' + txt('q');
+        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : 'blank') + ' ' + txt('q');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -254,8 +268,8 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'pn-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : LANG === 'es' ? ' o ' : LANG === 'pt' ? ' ou ' : ' or ');
-      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : 'blank');
+      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : LANG === 'es' ? ' o ' : LANG === 'pt' ? ' ou ' : LANG === 'it' ? ' o ' : ' or ');
+      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : 'blank');
       wrap.innerHTML = '<p>' + sent + ' ' + txt('q') + ' ' + chips + '?</p>';
       return wrap;
     },

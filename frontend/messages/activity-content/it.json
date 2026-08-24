@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Alla finestrella della tavola calda di Wren i clienti arrivano di corsa e le loro domande partono sempre senza la prima parola.",
+        "Toccando Chi, Cosa, Dove, Quando, Perché o Come, il bambino rimette al posto giusto la parola interrogativa e aiuta Wren a capire ogni ordinazione.",
+        "Ogni domanda completata è una piccola conquista, senza fretta e senza voti."
+      ],
+      "practices": [
+        "Riconoscere le parole interrogative",
+        "Completare una domanda con la parola giusta",
+        "Capire che cosa chiede ogni domanda",
+        "Distinguere tra chi, cosa, dove, quando, perché e come"
+      ],
+      "howToPlay": [
+        "Leggi la domanda del cliente alla finestrella.",
+        "Pensa a che cosa vuole sapere.",
+        "Tocca la parola interrogativa giusta per completarla."
+      ],
+      "learningGoals": [
+        "Familiarizzare con le parole interrogative di uso quotidiano",
+        "Costruire domande complete e con senso",
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali"
+      ]
+    },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
         "A Ziggy la zebra non sfugge niente: con le sue strisce bianche e nere sa benissimo cosa sta bene insieme e cosa proprio non c'entra.",

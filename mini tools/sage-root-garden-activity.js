@@ -16,8 +16,8 @@
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A', GREEN: '#2FA56A' };
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -35,15 +35,19 @@
   global.SageRootGardenActivity = {
     id: 'sage-root-garden-activity',
 
+    /* it (#26 fan-out — 2nd it VOCABULARY strand «Lessico»; word families/root, classe seconda): ⭐ show the FULL
+       base noun as the «Radice» (gatto/fiore/dente — pedagogue-decisive over the stem; scuola primaria teaches
+       famiglie di parole from the parola primitiva, a real sayable word; matches the pt precedent). Sage = FEMININE
+       (la tartaruga). sageIntro SHORT (2-line bubble clips at 360px). «radice» not «radicale». «...» caporali. */
     strings: {
-      title: { en: "Sage's Root Garden", de: 'Sages Wortgarten', fr: 'Le jardin des mots de Sage', es: 'El jardín de palabras de Sage', pt: 'O Jardim de Palavras da Sage' },
-      prompt: { en: 'Which word grows from the root?', de: 'Welches Wort wächst aus dem Wortstamm?', fr: 'Quel mot pousse à partir du radical ?', es: '¿Qué palabra crece de la raíz?', pt: 'Qual palavra cresce desta raiz?' },
-      sageIntro: { en: 'Big words grow from little root words — find the family!', de: 'Aus kleinen Wortstämmen wachsen große Wörter – finde die Wortfamilie!', fr: 'De petits radicaux poussent de grands mots !', es: 'Las palabras grandes crecen de raíces pequeñas: ¡encuentra la familia!', pt: 'Grandes palavras crescem de raízes pequenas!' },
-      rootLab: { en: 'Root word:', de: 'Wortstamm:', fr: 'Radical :', es: 'Raíz:', pt: 'Raiz:' },
-      theAsk: { en: 'Tap the word that grows from this root.', de: 'Tippe das Wort an, das aus diesem Wortstamm wächst.', fr: 'Touche le mot qui pousse à partir de ce radical.', es: 'Toca la palabra que crece de esta raíz.', pt: 'Toque na palavra que cresce desta raiz.' },
-      hintPick: { en: 'Find the root hiding inside one of the words!', de: 'Finde den Wortstamm, der sich in einem der Wörter versteckt!', fr: 'Cherche le radical caché au début d’un des mots !', es: '¡Busca la raíz escondida dentro de una de las palabras!', pt: 'Ache a raiz escondida dentro de uma das palavras!' },
-      hintWrong: { en: "That one just looks alike — look for the root inside.", de: 'Das sieht nur ähnlich aus – suche den Wortstamm darin.', fr: 'Il se ressemble seulement — cherche bien le radical à l’intérieur.', es: 'Esa solo se parece; busca la raíz adentro.', pt: 'Essa é só parecida — procure a raiz de verdade dentro dela.' },
-      win: { en: 'Yes! That word grew from the root. 🌱', de: 'Ja! Dieses Wort ist aus dem Wortstamm gewachsen. 🌱', fr: 'Bravo ! Ce mot a poussé à partir du radical. 🌱', es: '¡Sí! Esa palabra creció de la raíz. 🌱', pt: 'Isso! Essa palavra cresceu da raiz. 🌱' }
+      title: { en: "Sage's Root Garden", de: 'Sages Wortgarten', fr: 'Le jardin des mots de Sage', es: 'El jardín de palabras de Sage', pt: 'O Jardim de Palavras da Sage', it: 'Il giardino delle parole di Sage' },
+      prompt: { en: 'Which word grows from the root?', de: 'Welches Wort wächst aus dem Wortstamm?', fr: 'Quel mot pousse à partir du radical ?', es: '¿Qué palabra crece de la raíz?', pt: 'Qual palavra cresce desta raiz?', it: 'Quale parola cresce da questa radice?' },
+      sageIntro: { en: 'Big words grow from little root words — find the family!', de: 'Aus kleinen Wortstämmen wachsen große Wörter – finde die Wortfamilie!', fr: 'De petits radicaux poussent de grands mots !', es: 'Las palabras grandes crecen de raíces pequeñas: ¡encuentra la familia!', pt: 'Grandes palavras crescem de raízes pequenas!', it: 'Le parole crescono da piccole radici!' },
+      rootLab: { en: 'Root word:', de: 'Wortstamm:', fr: 'Radical :', es: 'Raíz:', pt: 'Raiz:', it: 'Radice:' },
+      theAsk: { en: 'Tap the word that grows from this root.', de: 'Tippe das Wort an, das aus diesem Wortstamm wächst.', fr: 'Touche le mot qui pousse à partir de ce radical.', es: 'Toca la palabra que crece de esta raíz.', pt: 'Toque na palavra que cresce desta raiz.', it: 'Tocca la parola che cresce da questa radice.' },
+      hintPick: { en: 'Find the root hiding inside one of the words!', de: 'Finde den Wortstamm, der sich in einem der Wörter versteckt!', fr: 'Cherche le radical caché au début d’un des mots !', es: '¡Busca la raíz escondida dentro de una de las palabras!', pt: 'Ache a raiz escondida dentro de uma das palavras!', it: 'Cerca la radice nascosta dentro una delle parole!' },
+      hintWrong: { en: "That one just looks alike — look for the root inside.", de: 'Das sieht nur ähnlich aus – suche den Wortstamm darin.', fr: 'Il se ressemble seulement — cherche bien le radical à l’intérieur.', es: 'Esa solo se parece; busca la raíz adentro.', pt: 'Essa é só parecida — procure a raiz de verdade dentro dela.', it: 'Quella somiglia soltanto — cerca dentro la radice vera!' },
+      win: { en: 'Yes! That word grew from the root. 🌱', de: 'Ja! Dieses Wort ist aus dem Wortstamm gewachsen. 🌱', fr: 'Bravo ! Ce mot a poussé à partir du radical. 🌱', es: '¡Sí! Esa palabra creció de la raíz. 🌱', pt: 'Isso! Essa palavra cresceu da raiz. 🌱', it: 'Sì! Questa parola è cresciuta dalla radice. 🌱' }
     },
     defaults: {},
 
@@ -73,7 +77,7 @@
       var say = api.el('div', 'srg-say'); say.textContent = api.t('sageIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var rootBox = api.el('button', 'srg-rootbox'); rootBox.type = 'button'; rootBox.setAttribute('aria-label', LANG === 'de' ? ('Wortstamm ' + v.root + ' anhören') : LANG === 'fr' ? ('écouter le radical ' + v.root) : LANG === 'es' ? ('escuchar la raíz ' + v.root) : LANG === 'pt' ? ('ouvir a raiz ' + v.root) : ('hear the root ' + v.root));
+      var rootBox = api.el('button', 'srg-rootbox'); rootBox.type = 'button'; rootBox.setAttribute('aria-label', LANG === 'de' ? ('Wortstamm ' + v.root + ' anhören') : LANG === 'fr' ? ('écouter le radical ' + v.root) : LANG === 'es' ? ('escuchar la raíz ' + v.root) : LANG === 'pt' ? ('ouvir a raiz ' + v.root) : LANG === 'it' ? ('ascolta la radice ' + v.root) : ('hear the root ' + v.root));
       var rl = api.el('span', 'srg-rootlab'); rl.textContent = api.t('rootLab'); rootBox.appendChild(rl);
       var rw = api.el('span', 'srg-rootword'); rw.textContent = v.root; rootBox.appendChild(rw);
       rootBox.addEventListener('click', function () { speak(v.root); });

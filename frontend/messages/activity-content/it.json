@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "sage-root-garden.roots.l-2-4-c": {
+      "about": [
+        "Nel giardino di Sage, una tartaruga paziente, le parole crescono in famiglia: ogni pianticella spunta dalla stessa radice.",
+        "Osservando la radice nascosta dentro una parola, si capisce quali altre parole appartengono alla sua stessa famiglia.",
+        "Un modo calmo e curioso per esplorare le famiglie di parole, un germoglio dopo l'altro."
+      ],
+      "practices": [
+        "Riconoscere la radice di una parola",
+        "Trovare la parola che cresce dalla stessa radice",
+        "Capire le famiglie di parole",
+        "Distinguere le parole che si somigliano soltanto"
+      ],
+      "howToPlay": [
+        "Guarda la radice nel riquadro, per esempio «fiore» o «dente».",
+        "Tocca la parola che cresce da quella radice.",
+        "Se sbagli, Sage ti aiuta a cercare la radice vera, con calma."
+      ],
+      "learningGoals": [
+        "Usare la radice come indizio per capire il significato delle parole",
+        "Costruire e riconoscere le famiglie di parole",
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico"
+      ]
+    },
     "sentence-clinic.fix-it.l-2-1": {
       "about": [
         "Dott.ssa Plume è una civetta nonna dagli occhiali tondi che gestisce una piccola clinica tutta speciale: la clinica delle frasi.",

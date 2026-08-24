@@ -25,7 +25,9 @@
     de: { past: 'Vergangenheit', present: 'Gegenwart', future: 'Zukunft' },
     fr: { past: 'Passé', present: 'Présent', future: 'Futur' },
     es: { past: 'Pasado', present: 'Presente', future: 'Futuro' },
-    pt: { past: 'Passado', present: 'Presente', future: 'Futuro' }
+    pt: { past: 'Passado', present: 'Presente', future: 'Futuro' },
+    /* it (#21 fan-out): grammatical window labels — the classe-2 terms i tempi del verbo (matches es/pt) */
+    it: { past: 'Passato', present: 'Presente', future: 'Futuro' }
   };
 
   /* time-window meta: which window each tense lights, its label + glyph */
@@ -76,6 +78,19 @@
       nPast: '“Ontem” já aconteceu — escolha a palavra do passado.',
       nPresent: '“Agora” está acontecendo — escolha a palavra do presente.',
       nFuture: '“Amanhã” ainda não aconteceu — escolha a palavra do futuro.'
+    },
+    /* it (#21 fan-out — 2nd it literacy, Indicazioni nazionali «riflessione linguistica», classe seconda):
+       PAST = passato prossimo con AVERE (chip «hanno giocato», 2 parole) — il passato che un bimbo di 2ª usa
+       davvero + combacia con «Ieri» (passato remoto non parlato/non target di 2ª; imperfetto aspettualmente
+       sbagliato per un evento concluso). «...» caporali; «Quale parola va bene?» evita la trappola «qual'è»;
+       lode gender-neutral «Sì!» mai «Bravo». */
+    it: {
+      q: '«{tw}, {subj} ___.»  Quale parola va bene?',
+      win: 'Sì! {note}', winNote: 'Questa parola è al tempo giusto!',
+      hear: '🔊 Ascolta',
+      nPast: '«Ieri» è passato: scegli la parola al passato.',
+      nPresent: '«Adesso» sta succedendo: scegli la parola al presente.',
+      nFuture: '«Domani» non è ancora successo: scegli la parola al futuro.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -97,9 +112,9 @@
   var TenseActivity = {
     id: 'tense-activity',
     strings: {
-      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper' },
-      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}' }
+      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper', it: 'La torre del tempo di Juniper' },
+      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!', it: 'Leggi il tempo e tocca il verbo che va bene!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}' }
     },
 
     init: function (api) {
@@ -222,6 +237,8 @@
           ? (round.timeWord + ', ' + round.subject + '… ¿Qué palabra va aquí?')
           : LANG === 'pt'
           ? (round.timeWord + ', ' + round.subject + '… Qual palavra combina? ' + f.present + ', ' + f.past + ' ou ' + f.future + '?')
+          : LANG === 'it'
+          ? (round.timeWord + ', ' + round.subject + '… Quale parola va bene? ' + f.present + ', ' + f.past + ' o ' + f.future + '?')
           : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
       });
@@ -280,6 +297,8 @@
         ? ('La ventana «' + ((WIN_LABELS.es && WIN_LABELS.es[round.time]) || w.label) + '» está encendida. ' + round.timeWord + ', ' + round.subject + ' ___. ¿Qué palabra va aquí? Opciones: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
         : LANG === 'pt'
         ? ('Janela do ' + (((WIN_LABELS.pt && WIN_LABELS.pt[round.time]) || w.label) + '').toLowerCase() + ' acesa. ' + round.timeWord + ', ' + round.subject + ', espaço em branco. Opções: ' + f.present + ', ' + f.past + ' ou ' + f.future + '.')
+        : LANG === 'it'
+        ? ('La finestra «' + ((WIN_LABELS.it && WIN_LABELS.it[round.time]) || w.label) + '» è accesa. ' + round.timeWord + ', ' + round.subject + ' ___. Quale parola va bene? Scelte: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
         : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

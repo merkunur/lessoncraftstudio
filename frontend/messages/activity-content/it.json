@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "echo-grove.match-the-rune.3-oa-a-1": {
+      "about": [
+        "Con il gufo Pim, il bambino vede una runa come “3 × 4” e cerca il boschetto con 3 gruppi da 4 frutti: così scopre la moltiplicazione come gruppi uguali.",
+        "Il primo numero indica quanti gruppi ci sono, il secondo quanti elementi stanno in ogni gruppo, e lo stesso totale non basta per avere ragione.",
+        "L’attività accompagna la moltiplicazione della classe seconda seguendo le Indicazioni nazionali, con calma e senza voti."
+      ],
+      "practices": [
+        "Leggere una moltiplicazione come “tanti gruppi da tanti”",
+        "Distinguere il numero dei gruppi dalla quantità in ogni gruppo",
+        "Non farsi ingannare dallo stesso totale",
+        "Riconoscere il gemello commutativo, come “4 × 3” accanto a “3 × 4”"
+      ],
+      "howToPlay": [
+        "Guarda la runa di Pim, per esempio “3 × 4”.",
+        "Conta i gruppi: cerca il boschetto con 3 gruppi da 4 frutti.",
+        "Tocca il boschetto giusto ed evita il sosia con lo stesso totale."
+      ],
+      "learningGoals": [
+        "Capire la moltiplicazione come gruppi uguali.",
+        "Collegare il primo fattore al numero di gruppi e il secondo alla quantità in ogni gruppo.",
+        "Distinguere due moltiplicazioni con lo stesso totale ma gruppi diversi."
+      ]
+    },
     "halfway-harbors.nearest.3-nbt-a-1": {
       "about": [
         "Con Marina, la gatta del faro, ogni barchetta porta un numero fino al porto più vicino: il bambino arrotonda i numeri di due cifre alla decina (63 diventa 60) e quelli di tre cifre al centinaio (247 diventa 200), muovendosi lungo la retta dei numeri.",

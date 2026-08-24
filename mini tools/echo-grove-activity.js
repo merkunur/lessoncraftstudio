@@ -52,6 +52,12 @@
     cherry: 'cerejas', strawberry: 'morangos', apple: 'maçãs', lemon: 'limões',
     pear: 'peras', banana: 'bananas', orange: 'laranjas', plum: 'ameixas'
   };
+  /* it — plurals from the canonical image-vocabulary.js (§20.5); native it math
+     ensemble confirmed. ⚠ «ciliegie» (not «ciliege»/«cilieggie»), «arance» (not «arancie»). */
+  var FRUIT_IT = {
+    cherry: 'ciliegie', strawberry: 'fragole', apple: 'mele', lemon: 'limoni',
+    pear: 'pere', banana: 'banane', orange: 'arance', plum: 'prugne'
+  };
 
   var C = {
     T: '#146B5E', BODY: '#E2F0EC', BOWL: '#EAF7EF', BOWL2: '#DCEFE9',
@@ -207,15 +213,15 @@
     id: 'echo-grove-activity',
 
     strings: {
-      title:       { en: 'The Echo Grove', de: 'Pims Echo-Hain', fr: 'Le bosquet de Pim', es: 'El bosque del eco de Pim', pt: 'O bosque do eco de Pim' },
-      instruction: { en: "Read Pim's rune, then tap the grove that matches it. Tap Check when you're ready.", de: 'Lies Pims Rune und tippe dann den Hain, der dazu passt. Tippe auf „Prüfen“, wenn du bereit bist.', fr: 'Lis la rune de Pim, puis touche le bosquet qui lui correspond. Touche Vérifier quand tu es prêt.', es: 'Lee la runa de Pim y luego toca el bosque que le corresponde. Toca «Comprobar» cuando estés listo.', pt: 'Leia a runa de Pim e depois toque no bosque que combina. Toque em Verificar quando estiver pronto.' },
-      /* {g} groups of {s} — the structure, the only numerals besides the rune */
-      prompt:      { en: 'Tap the grove with {g} groups of {s}.', de: 'Tippe den Hain mit {g} Gruppen mit je {s}.', fr: 'Touche le bosquet avec {g} groupes de {s}.', es: 'Toca el bosque con {g} grupos de {s}.', pt: 'Toque no bosque com {g} grupos de {s}.' },
-      hintPickOne: { en: 'Tap one of the groves first.', de: 'Tippe zuerst auf einen der Haine.', fr: 'Touche d’abord un des bosquets.', es: 'Primero toca uno de los bosques.', pt: 'Primeiro, toque em um dos bosques.' },
-      hintCount:   { en: 'Same fruit, different shape — count the groups.', de: 'Gleiche Früchte, andere Form – zähl die Gruppen.', fr: 'Mêmes fruits, forme différente — compte les groupes.', es: 'La misma fruta, en otra forma: cuenta los grupos.', pt: 'A mesma fruta, de outro jeito: conte os grupos.' },
-      runeGloss:   { en: '{g} groups of {s}', de: '{g} Gruppen mit je {s}', fr: '{g} groupes de {s}', es: '{g} grupos de {s}', pt: '{g} grupos de {s}' },
-      srRune:      { en: 'The rune says {g} groups of {s}.', de: 'Die Rune zeigt {g} Gruppen mit je {s}.', fr: 'La rune montre {g} groupes de {s}.', es: 'La runa muestra {g} grupos de {s}.', pt: 'A runa mostra {g} grupos de {s}.' },
-      cardLabel:   { en: 'A grove with {g} baskets, {s} {fruit} in each basket.', de: 'Ein Hain mit {g} Gruppen, in jeder Gruppe {s} {fruit}.', fr: 'Un bosquet avec {g} paniers, {s} {fruit} dans chaque panier.', es: 'Un bosque con {g} grupos, {s} {fruit} en cada grupo.', pt: 'Um bosque com {g} grupos, {s} {fruit} em cada grupo.' }
+      title:       { en: 'The Echo Grove', de: 'Pims Echo-Hain', fr: 'Le bosquet de Pim', es: 'El bosque del eco de Pim', pt: 'O bosque do eco de Pim', it: 'Il boschetto dell’eco di Pim' },
+      instruction: { en: "Read Pim's rune, then tap the grove that matches it. Tap Check when you're ready.", de: 'Lies Pims Rune und tippe dann den Hain, der dazu passt. Tippe auf „Prüfen“, wenn du bereit bist.', fr: 'Lis la rune de Pim, puis touche le bosquet qui lui correspond. Touche Vérifier quand tu es prêt.', es: 'Lee la runa de Pim y luego toca el bosque que le corresponde. Toca «Comprobar» cuando estés listo.', pt: 'Leia a runa de Pim e depois toque no bosque que combina. Toque em Verificar quando estiver pronto.', it: 'Leggi la runa di Pim, poi tocca il boschetto giusto. Quando vuoi, tocca Verifica.' },
+      /* {g} groups of {s} — the structure, the only numerals besides the rune. it: «{g} gruppi da {s}» (never «per»/«volte» — that is the commutative shortcut this task blocks) */
+      prompt:      { en: 'Tap the grove with {g} groups of {s}.', de: 'Tippe den Hain mit {g} Gruppen mit je {s}.', fr: 'Touche le bosquet avec {g} groupes de {s}.', es: 'Toca el bosque con {g} grupos de {s}.', pt: 'Toque no bosque com {g} grupos de {s}.', it: 'Tocca il boschetto con {g} gruppi da {s}.' },
+      hintPickOne: { en: 'Tap one of the groves first.', de: 'Tippe zuerst auf einen der Haine.', fr: 'Touche d’abord un des bosquets.', es: 'Primero toca uno de los bosques.', pt: 'Primeiro, toque em um dos bosques.', it: 'Prima tocca uno dei boschetti.' },
+      hintCount:   { en: 'Same fruit, different shape — count the groups.', de: 'Gleiche Früchte, andere Form – zähl die Gruppen.', fr: 'Mêmes fruits, forme différente — compte les groupes.', es: 'La misma fruta, en otra forma: cuenta los grupos.', pt: 'A mesma fruta, de outro jeito: conte os grupos.', it: 'Stessa frutta, forma diversa — conta i gruppi.' },
+      runeGloss:   { en: '{g} groups of {s}', de: '{g} Gruppen mit je {s}', fr: '{g} groupes de {s}', es: '{g} grupos de {s}', pt: '{g} grupos de {s}', it: '{g} gruppi da {s}' },
+      srRune:      { en: 'The rune says {g} groups of {s}.', de: 'Die Rune zeigt {g} Gruppen mit je {s}.', fr: 'La rune montre {g} groupes de {s}.', es: 'La runa muestra {g} grupos de {s}.', pt: 'A runa mostra {g} grupos de {s}.', it: 'La runa dice {g} gruppi da {s}.' },
+      cardLabel:   { en: 'A grove with {g} baskets, {s} {fruit} in each basket.', de: 'Ein Hain mit {g} Gruppen, in jeder Gruppe {s} {fruit}.', fr: 'Un bosquet avec {g} paniers, {s} {fruit} dans chaque panier.', es: 'Un bosque con {g} grupos, {s} {fruit} en cada grupo.', pt: 'Um bosque com {g} grupos, {s} {fruit} em cada grupo.', it: 'Un boschetto con {g} gruppi, {s} {fruit} in ogni gruppo.' }
     },
 
     defaults: {},
@@ -449,7 +455,7 @@
   var CHECK_SVG = '<svg viewBox="0 0 24 24" width="100%" height="100%" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="' + C.GOOD + '"/><path d="M7 12.5l3.2 3.2L17 9" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   /* structure + fruit, ANSWER WITHHELD (identical phrasing for correct + decoys) */
   function cardLabel(api, c, fruit) {
-    var fl = (LANG === 'de' && FRUIT_DE[fruit]) ? FRUIT_DE[fruit] : (LANG === 'fr' && FRUIT_FR[fruit]) ? FRUIT_FR[fruit] : (LANG === 'es' && FRUIT_ES[fruit]) ? FRUIT_ES[fruit] : (LANG === 'pt' && FRUIT_PT[fruit]) ? FRUIT_PT[fruit] : fruit;
+    var fl = (LANG === 'de' && FRUIT_DE[fruit]) ? FRUIT_DE[fruit] : (LANG === 'fr' && FRUIT_FR[fruit]) ? FRUIT_FR[fruit] : (LANG === 'es' && FRUIT_ES[fruit]) ? FRUIT_ES[fruit] : (LANG === 'pt' && FRUIT_PT[fruit]) ? FRUIT_PT[fruit] : (LANG === 'it' && FRUIT_IT[fruit]) ? FRUIT_IT[fruit] : fruit;
     return interp(api.t('cardLabel'), { g: c.g, s: c.s, fruit: fl });
   }
 

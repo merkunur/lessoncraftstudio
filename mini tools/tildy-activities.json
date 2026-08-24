@@ -15,21 +15,24 @@
       "de": "mit-dem-lineal-messen-null-anlegen-klasse-2",
       "fr": "mesurer-avec-la-regle-graduee-cm-ce1",
       "es": "medir-longitudes-con-regla-centimetros-primaria",
-      "pt": "medir-comprimentos-com-regua-centimetros-2-ano"
+      "pt": "medir-comprimentos-com-regua-centimetros-2-ano",
+      "it": "misurare-lunghezze-con-il-righello-in-centimetri-classe-terza"
     },
     "page_title": {
       "en": "Tildy's Tailor Shop — Measure with a Ruler",
       "de": "Mit dem Lineal messen: Längen in cm – Klasse 2 | Tildy",
       "fr": "Mesurer des longueurs CE1 – exercice en ligne (cm)",
       "es": "Medir con regla: longitudes en centímetros (2.º primaria)",
-      "pt": "Medir com Régua em Centímetros – Comprimento no 2º Ano | Tildy"
+      "pt": "Medir com Régua em Centímetros – Comprimento no 2º Ano | Tildy",
+      "it": "Misurare con il righello in cm | Classe terza"
     },
     "page_intro": {
       "en": "Help Tildy measure ribbons and cords: slide the ruler so its 0 lines up with the start of the strip, then read the number at the other end. Knot the cat keeps nudging the ruler, so YOU place it — if you start at the 1 instead of the 0, it reads one short. Common Core 2.MD.A.1.",
       "de": "Mit dem Lineal messen lernen: Lege die Null an den Anfang und lies die cm am Ende ab. Kostenloses, interaktives Längen-Übungsspiel für Klasse 2 – jetzt loslegen!",
       "fr": "Exercice en ligne pour mesurer des longueurs au CE1 avec la règle graduée en centimètres. Gratuit, en ligne, sans inscription.",
       "es": "Mide listones y cordones con regla en centímetros junto a Tildy: alinea el 0 y lee el final. Gratis, interactiva, sin registro. 2.º de primaria, alineada a la SEP.",
-      "pt": "Meça comprimentos com a régua em centímetros: encoste o 0 no começo e leia o cm na outra ponta. Atividade grátis, sem cadastro, alinhada à BNCC — 2º ano."
+      "pt": "Meça comprimentos com a régua em centímetros: encoste o 0 no começo e leia o cm na outra ponta. Atividade grátis, sem cadastro, alinhada à BNCC — 2º ano.",
+      "it": "Nella sartoria di Tildy si misura per davvero! Tildy la sarta deve tagliare strisce di nastro, cordoncino e filo della lunghezza giusta, e Nodo il gatto la aiuta a modo suo, spostando il righello sul tavolo. Il compito del bambino è semplice ma prezioso: fai scorrere il righello finché lo 0 è esattamente all’inizio della striscia, poi leggi il numero all’altra estremità. Attento a NON partire dall’1! Così si impara a usare il righello correttamente, ad allineare lo zero e a misurare le lunghezze in centimetri, affrontando anche il righello rotto e la scelta dello strumento giusto. Un’attività gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo tempo per capire con calma. Pensata per la classe terza e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "tildy",
     "params": {
@@ -49,7 +52,8 @@
             "de": "Miss das Band. Schieb die 0 an den Anfang, dann lies das Ende ab.",
             "fr": "Mesure le ruban. Fais glisser le 0 au début, puis lis l'autre bout.",
             "es": "Mide la cinta: desliza el 0 hasta el inicio y luego lee el extremo.",
-            "pt": "Encoste o 0 no começo da fita e toque em Medir."
+            "pt": "Encoste o 0 no começo da fita e toque em Medir.",
+            "it": "Misura il nastro. Fai scorrere il righello così che lo 0 sia all’inizio, poi leggi il numero in fondo."
           }
         },
         {
@@ -66,7 +70,8 @@
             "de": "Miss den Lederstreifen. Leg die 0 genau an den Anfang.",
             "fr": "Mesure la bande de cuir. Aligne le 0 sur le début.",
             "es": "Mide la tira de cuero: pon el 0 justo al inicio.",
-            "pt": "Alinhe o 0 com o começo da tira de couro."
+            "pt": "Alinhe o 0 com o começo da tira de couro.",
+            "it": "Misura la striscia di cuoio. Allinea lo 0 con l’inizio."
           }
         },
         {
@@ -83,7 +88,8 @@
             "de": "Miss das Garn. Leg die 0 an den Anfang — nicht die 1!",
             "fr": "Mesure la laine. Mets le 0 au début — pas le 1 !",
             "es": "Mide el hilo: pon el 0 al inicio… ¡no en el 1!",
-            "pt": "Coloque o 0 no começo da lã — não no 1!"
+            "pt": "Coloque o 0 no começo da lã — não no 1!",
+            "it": "Misura il filo di lana. Metti lo 0 all’inizio — non l’1!"
           }
         },
         {
@@ -100,7 +106,8 @@
             "de": "Miss die Schnur. Schieb die 0 an den Anfang, dann lies das Ende ab.",
             "fr": "Mesure la corde. Fais glisser le 0 au début, puis lis l'autre bout.",
             "es": "Mide el cordón: desliza el 0 hasta el inicio y luego lee el extremo.",
-            "pt": "Encoste o 0 no começo do cordão e leia a ponta."
+            "pt": "Encoste o 0 no começo do cordão e leia a ponta.",
+            "it": "Misura il cordoncino. Porta lo 0 all’inizio, poi leggi il numero in fondo."
           }
         },
         {
@@ -117,7 +124,8 @@
             "de": "Miss das breite Band. 0 an den Anfang, dann das andere Ende ablesen.",
             "fr": "Mesure le large ruban. Le 0 au début, lis l'autre bout.",
             "es": "Mide la cinta ancha: el 0 al inicio y luego lee el otro extremo.",
-            "pt": "Ponha o 0 no começo da fita larga e veja onde ela termina."
+            "pt": "Ponha o 0 no começo da fita larga e veja onde ela termina.",
+            "it": "Misura il nastro largo. Lo 0 all’inizio, leggi l’estremità in fondo."
           }
         },
         {
@@ -134,7 +142,8 @@
             "de": "Das Lineal ist abgebrochen — es beginnt erst bei 2! Zähl die Zentimeter, die der Streifen bedeckt.",
             "fr": "La règle est cassée — elle commence à 2 ! Compte les centimètres que la bande recouvre.",
             "es": "¡La regla está rota, empieza en el 2! Cuenta los centímetros que cubre la tira.",
-            "pt": "A régua está quebrada — começa no 2! Conte os tracinhos que a fita cobre."
+            "pt": "A régua está quebrada — começa no 2! Conte os tracinhos que a fita cobre.",
+            "it": "Il righello è rotto — parte da 2! Conta le tacche dei centimetri che la striscia copre."
           }
         },
         {
@@ -156,7 +165,8 @@
             "de": "Tildy hat 5 gemessen, aber das Band ist länger. Was ist passiert?",
             "fr": "Tildy a mesuré 5, mais le ruban est plus long. Qu'est-ce qui s'est passé ?",
             "es": "Tildy midió 5, pero la cinta es más larga. ¿Qué pasó?",
-            "pt": "A Tildy mediu 5, mas a fita é mais comprida. O que deu errado?"
+            "pt": "A Tildy mediu 5, mas a fita é mais comprida. O que deu errado?",
+            "it": "Tildy ha letto 5 cm, ma la striscia è più lunga. Cosa è andato storto?"
           }
         },
         {
@@ -175,7 +185,8 @@
             "de": "Dieser Streifen ist lang! Wähl ein Lineal, das ganz bis zum Ende reicht.",
             "fr": "Cette bande est longue ! Choisis une règle qui va jusqu'au bout.",
             "es": "¡Esta tira es muy larga! Elige una regla que llegue hasta el final.",
-            "pt": "Esta fita é comprida. Escolha uma régua que chegue até o fim."
+            "pt": "Esta fita é comprida. Escolha uma régua que chegue até o fim.",
+            "it": "Questa striscia è lunga! Scegli un righello che arrivi fino in fondo."
           }
         },
         {
@@ -194,7 +205,8 @@
             "de": "Wähl ein Lineal, das lang genug für diesen Streifen ist.",
             "fr": "Choisis une règle assez longue pour mesurer cette bande.",
             "es": "Elige una regla lo bastante larga para esta tira.",
-            "pt": "Escolha uma régua comprida o suficiente para a tira."
+            "pt": "Escolha uma régua comprida o suficiente para a tira.",
+            "it": "Scegli un righello abbastanza lungo per misurare questa striscia."
           }
         }
       ]

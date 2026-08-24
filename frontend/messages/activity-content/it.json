@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "mending-fences.mend-board.3-md-d-8": {
+      "about": [
+        "Il tasso Hazel rimette al suo posto la tavola di staccionata che manca e, campo dopo campo, mostra la differenza tra il perimetro — il giro tutto intorno al bordo — e l’area, cioè lo spazio dei quadretti dentro, tutto contando e senza formule.",
+        "Il bambino ripara le staccionate, confronta due campi per capire quale ha più staccionata intorno ma fa crescere meno erba, e distingue i segni del bordo dai quadretti interni.",
+        "È un’attività di geometria per la classe terza, allineata alle Indicazioni nazionali, che fa scoprire perimetro e area a piccoli passi concreti."
+      ],
+      "practices": [
+        "Trovare la tavola di staccionata mancante conoscendo il perimetro e i lati",
+        "Distinguere il perimetro — il giro tutto intorno — dall’area, lo spazio dentro",
+        "Confrontare due campi con la stessa area ma perimetri diversi",
+        "Capire se un rotolo di rete basta a fare tutto il giro del campo"
+      ],
+      "howToPlay": [
+        "Guarda il campo di Hazel e leggi qual è il lavoro di staccionata da fare.",
+        "Conta i segni lungo il bordo per trovare la distanza tutto intorno, oppure i quadretti dentro per l’area.",
+        "Tocca la risposta giusta che ripara la staccionata o completa il campo."
+      ],
+      "learningGoals": [
+        "Capire che il perimetro è la lunghezza del giro intorno a una figura.",
+        "Capire che l’area è lo spazio dentro, misurato contando i quadretti.",
+        "Confrontare perimetro e area di due campi diversi contando, senza usare formule."
+      ]
+    },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
         "Con Cometa il canguro il bambino parte da un numero come “247”, riceve un salto come “100 in meno” e scrive di getto dove atterra: 147.",

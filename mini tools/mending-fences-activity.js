@@ -193,6 +193,42 @@
       srUnitPlant: 'Para plantar grama, conte os quadradinhos de dentro.',
       srRoll: 'Um rolo de cerca de {roll} de comprimento — dá para dar a volta inteira no campo?',
       fieldAria: 'campo {n}'
+    },
+    // it — native it math ensemble (Indicazioni, classe terza, «Spazio e figure»): fence = «la staccionata» (NOT
+    // «recinto» = enclosed space = AREA, confusing the concept); roll-reach switches to «un rotolo di rete» (boards
+    // cannot roll); board «tavola»; field «campo»; grass «erba»; inside squares «quadretti». 100% apostrophe-free.
+    it: {
+      qmend: 'Ripara la staccionata rotta: quanto è lunga la tavola che manca?',
+      qrank: 'I due campi di Hazel: rispondi prima sulla staccionata, poi sui quadretti.',
+      qunit: 'Recintare il bordo o piantare dentro: quali segni conti?',
+      qroll: 'Il rotolo di rete fa tutto il giro?',
+      qsame: 'I due campi hanno la stessa erba: chi ha bisogno di più staccionata?',
+      askFence: 'Quale campo ha bisogno di PIÙ staccionata?',
+      askGrass: 'E in quale campo cresce PIÙ erba?',
+      askUnitFence: 'Per comprare STACCIONATA, quali segni conti?',
+      askUnitPlant: 'Per piantare ERBA, quali conti?',
+      askRoll: 'Un rotolo di rete, lungo {n}: fa tutto il giro?',
+      reach: 'Sì, fa il giro', short: 'No, troppo corto',
+      win: 'Riparata! {note}',
+      winFence: 'la staccionata fa tutto il giro.',
+      winGrass: 'più staccionata, meno erba: hai visto bene!',
+      winUnit: 'è il segno giusto.',
+      winRoll: 'della lunghezza giusta.',
+      nMend: 'Ricorda: due lati lunghi E due lati corti.',
+      nRankFence: 'Guarda di nuovo: quale bordo è più lungo facendo tutto il giro?',
+      nRankGrass: 'Quale campo ha più quadretti di erba dentro?',
+      nUnit: 'Per la staccionata conti i segni sul BORDO; per piantare erba, i quadretti al CENTRO.',
+      nRoll: 'Pensa prima a quanto è lungo fare tutto il giro.',
+      unitEdge: 'Segni sul bordo', unitInterior: 'Quadretti al centro', unitBorder: 'Il bordo',
+      ropeLabel: 'Lunghezza staccionata: ', plateAria: 'lungo {n}',
+      winMend: 'due lati lunghi e due lati corti.',
+      srMend: 'Una staccionata di {p} fa tutto il giro; un lato è {s}. Quanto è lunga la tavola che manca?',
+      srRank: 'Due campi. Quale ha bisogno di più staccionata sul bordo, e in quale cresce più erba al centro?',
+      srSame: 'Due campi hanno la stessa erba. Quale ha bisogno di più staccionata tutto intorno?',
+      srUnitFence: 'Per comprare staccionata, conti i segni intorno al bordo.',
+      srUnitPlant: 'Per piantare erba, conti i quadretti al centro.',
+      srRoll: 'Un rotolo di rete, lungo {roll}: fa tutto il giro del campo?',
+      fieldAria: 'campo {n}'
     }
   };
   function txt(k, a) {
@@ -297,13 +333,13 @@
   var MendingFencesActivity = {
     id: 'mending-fences-activity',
     strings: {
-      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures', es: 'Hazel arregla las cercas', pt: 'Hazel conserta as cercas' },
-      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !', es: '¡Ayuda a Hazel a arreglar las cercas: el perímetro es el camino que da una vuelta completa alrededor!', pt: 'Ajude o Hazel a consertar as cercas — o perímetro é a distância ao dar a volta inteira!' },
-      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.', es: 'Arregla la cerca rota.', pt: 'Conserte a cerca quebrada.' },
-      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.', es: 'Dos campos: primero la cerca, luego el pasto.', pt: 'Dois campos — a cerca, depois a grama.' },
-      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?', es: '¿Las marcas de la orilla o los cuadritos de adentro?', pt: 'Marcas da borda ou quadradinhos de dentro?' },
-      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?', es: '¿La cerca alcanza para dar toda la vuelta?', pt: 'A cerca dá a volta inteira?' },
-      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?', es: 'Mismo pasto: ¿quién necesita más cerca?', pt: 'Mesma grama — qual precisa de mais cerca?' }
+      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures', es: 'Hazel arregla las cercas', pt: 'Hazel conserta as cercas', it: 'Hazel ripara le staccionate' },
+      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !', es: '¡Ayuda a Hazel a arreglar las cercas: el perímetro es el camino que da una vuelta completa alrededor!', pt: 'Ajude o Hazel a consertar as cercas — o perímetro é a distância ao dar a volta inteira!', it: 'Aiuta Hazel a riparare le staccionate: il perimetro è la distanza che fa tutto il giro!' },
+      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.', es: 'Arregla la cerca rota.', pt: 'Conserte a cerca quebrada.', it: 'Ripara la staccionata rotta.' },
+      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.', es: 'Dos campos: primero la cerca, luego el pasto.', pt: 'Dois campos — a cerca, depois a grama.', it: 'Due campi: prima la staccionata, poi i quadretti.' },
+      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?', es: '¿Las marcas de la orilla o los cuadritos de adentro?', pt: 'Marcas da borda ou quadradinhos de dentro?', it: 'Segni sul bordo o quadretti dentro?' },
+      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?', es: '¿La cerca alcanza para dar toda la vuelta?', pt: 'A cerca dá a volta inteira?', it: 'Il rotolo di rete fa tutto il giro?' },
+      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?', es: 'Mismo pasto: ¿quién necesita más cerca?', pt: 'Mesma grama — qual precisa de mais cerca?', it: 'Stessa erba: quale ha bisogno di più staccionata?' }
     },
 
     init: function (api) {

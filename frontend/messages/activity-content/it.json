@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "roary-roar-meter.shades.l-2-5-b": {
+      "about": [
+        "Il ruggitometro di Roary misura una cosa che di solito non si vede: quanto è forte una parola.",
+        "Roary il leone propone tre sinonimi vicinissimi tra loro e chiede al bambino di riconoscere quello più forte o quello più debole.",
+        "È un modo giocoso per scoprire che «sussurrare», «parlare» e «gridare» dicono la stessa azione con forze diverse."
+      ],
+      "practices": [
+        "Riconoscere le sfumature di significato tra parole simili",
+        "Ordinare i sinonimi dal più debole al più forte",
+        "Ampliare il lessico con parole precise e vivaci",
+        "Scegliere la parola giusta in base all'intensità"
+      ],
+      "howToPlay": [
+        "Leggi le tre parole che Roary ti mostra",
+        "Pensa a quanto è forte ognuna",
+        "Tocca la parola più forte oppure quella più debole"
+      ],
+      "learningGoals": [
+        "Cogliere le sfumature di significato tra sinonimi graduati",
+        "Usare parole più precise ed espressive quando si parla e si scrive",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali"
+      ]
+    },
     "rusty-yesterday.irregular-past.l-2-1-d": {
       "about": [
         "Rusty il robot infila un verbo nella sua macchina di ieri e aspetta di vedere come cambia: da «prendo» a «ho preso», da «leggo» a «ho letto».",

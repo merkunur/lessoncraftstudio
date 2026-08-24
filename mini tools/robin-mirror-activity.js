@@ -34,9 +34,17 @@
      (você/ele/ela/a gente/vocês/eles/elas — all 3rd-agreeing incl. a gente), nos (nós).
      NO tu/te (regionally marked; "tu te escondes" is a register no BR child speaks). */
   var REFL_PT = { eu: 'me', voce: 'se', ele: 'se', ela: 'se', a_gente: 'se', nos: 'nos', voces: 'se', eles: 'se', elas: 'se' };
+  /* Italian reflexive pronouns (#31 native ensemble; pronomi riflessivi, proclitic):
+     agree with the subject, sit BEFORE the verb. All 3rd-person (lui/lei/loro)
+     collapse onto « si ». 5 distinct surface forms: mi/ti/si/ci/vi. ⚠ The clitic
+     elides before a vowel («si»→«s'», «ci»→«c'» before e/i, mi/ti/vi optional), so
+     every round's VERB is CONSONANT-INITIAL by design → the written clitic never
+     elides (enforced by the round data, not this code). ⚠ Foil-picker MUST NOT pair
+     two 3rd-person subjects (both → «si» = duplicate chip). */
+  var REFL_IT = { io: 'mi', tu: 'ti', lui: 'si', lei: 'si', noi: 'ci', voi: 'vi', loro: 'si' };
   /* Per-locale table (en falls to the English core). Behaviour-identical to the
      prior LANG==='de' ternary for en/de. */
-  var REFL_L10N = { de: REFL_DE, fr: REFL_FR, es: REFL_ES, pt: REFL_PT };
+  var REFL_L10N = { de: REFL_DE, fr: REFL_FR, es: REFL_ES, pt: REFL_PT, it: REFL_IT };
   function rmReflexiveOf(ref) { var m = REFL_L10N[LANG]; return m ? (m[ref] || '') : Core.reflexiveOf(ref); }
   function rmOracle(r) { return rmReflexiveOf(r.referent); }
   function rmChips(r) { return [rmReflexiveOf(r.referent), rmReflexiveOf(r.wrongA), rmReflexiveOf(r.wrongB)]; }
@@ -44,11 +52,11 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'lacuna' : 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'lacuna' : LANG === 'it' ? 'spazio' : 'blank'); }
 
   function robinSVG(mood) {
     var happy = mood === 'happy';
@@ -67,13 +75,13 @@
     id: 'robin-mirror-activity',
 
     strings: {
-      title: { en: "Robin's Mirror", de: 'Robins Spiegel', fr: 'Robin et le miroir magique', es: 'El espejo de Robin', pt: 'O espelho do Robin' },
-      prompt: { en: 'Which word fills the blank?', de: 'Welches Wort passt?', fr: 'Quel petit mot va dans le trou ?', es: '¿Qué palabra va en el espacio?', pt: 'Qual palavra vai no espaço?' },
-      robinIntro: { en: 'A reflexive word points back at who did it!', de: 'Wie ein Spiegel zeigt das Wort zurück auf den, der etwas tut!', fr: 'Mon miroir renvoie le petit mot vers celui qui fait l’action !', es: 'Como un espejo, la palabra apunta de regreso a quien hace la acción.', pt: 'Como um espelho, a palavra volta para quem faz a ação.' },
-      theAsk: { en: 'Which word fills the blank?', de: 'Welches Wort passt in die Lücke?', fr: 'Quel petit mot va dans le trou ?', es: '¿Cuál palabra completa la oración?', pt: 'Qual palavra completa a frase?' },
-      hintPick: { en: 'Tap the word that matches who did it!', de: 'Schau zuerst: Wer tut es? Tippe dann das passende Wort an.', fr: 'Regarde d’abord qui fait l’action, puis tape le petit mot qui va avec.', es: 'Primero mira quién hace la acción y luego toca la palabra que va con esa persona.', pt: 'Primeiro veja quem faz a ação e depois toque na palavra que combina com essa pessoa.' },
-      hintWrong: { en: "That word doesn't match — read it again.", de: 'Fast! Schau auf das erste Wort: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch.', fr: 'je → me, tu → te, il/elle → se, nous → nous, vous → vous', es: '¡Casi! Fíjate en el sujeto: yo → me, tú → te, él/ella → se, nosotros → nos, ustedes → se.', pt: 'Quase! Olhe o sujeito: eu → me, você/ele/ela/a gente → se, nós → nos.' },
-      win: { en: 'Yes! That word points right back. 🪞', de: 'Super – das Wort zeigt genau zurück! 🪞', fr: 'Bravo ! Le miroir de Robin brille rien que pour toi ! 🪞', es: '¡Muy bien! La palabra apunta justo de regreso. 🪞', pt: 'Isso! A palavra volta certinho. 🪞' }
+      title: { en: "Robin's Mirror", de: 'Robins Spiegel', fr: 'Robin et le miroir magique', es: 'El espejo de Robin', pt: 'O espelho do Robin', it: 'Lo specchio di Robin' },
+      prompt: { en: 'Which word fills the blank?', de: 'Welches Wort passt?', fr: 'Quel petit mot va dans le trou ?', es: '¿Qué palabra va en el espacio?', pt: 'Qual palavra vai no espaço?', it: 'Quale parola va nello spazio?' },
+      robinIntro: { en: 'A reflexive word points back at who did it!', de: 'Wie ein Spiegel zeigt das Wort zurück auf den, der etwas tut!', fr: 'Mon miroir renvoie le petit mot vers celui qui fait l’action !', es: 'Como un espejo, la palabra apunta de regreso a quien hace la acción.', pt: 'Como um espelho, a palavra volta para quem faz a ação.', it: 'Come uno specchio, la parolina torna a chi fa l’azione!' },
+      theAsk: { en: 'Which word fills the blank?', de: 'Welches Wort passt in die Lücke?', fr: 'Quel petit mot va dans le trou ?', es: '¿Cuál palabra completa la oración?', pt: 'Qual palavra completa a frase?', it: 'Quale parola completa la frase?' },
+      hintPick: { en: 'Tap the word that matches who did it!', de: 'Schau zuerst: Wer tut es? Tippe dann das passende Wort an.', fr: 'Regarde d’abord qui fait l’action, puis tape le petit mot qui va avec.', es: 'Primero mira quién hace la acción y luego toca la palabra que va con esa persona.', pt: 'Primeiro veja quem faz a ação e depois toque na palavra que combina com essa pessoa.', it: 'Prima guarda chi fa l’azione, poi tocca la parola giusta!' },
+      hintWrong: { en: "That word doesn't match — read it again.", de: 'Fast! Schau auf das erste Wort: ich → mich, du → dich, er/sie/es → sich, wir → uns, ihr → euch.', fr: 'je → me, tu → te, il/elle → se, nous → nous, vous → vous', es: '¡Casi! Fíjate en el sujeto: yo → me, tú → te, él/ella → se, nosotros → nos, ustedes → se.', pt: 'Quase! Olhe o sujeito: eu → me, você/ele/ela/a gente → se, nós → nos.', it: 'Quasi! Guarda il soggetto: io → mi, tu → ti, lui/lei → si, noi → ci, voi → vi.' },
+      win: { en: 'Yes! That word points right back. 🪞', de: 'Super – das Wort zeigt genau zurück! 🪞', fr: 'Bravo ! Le miroir de Robin brille rien que pour toi ! 🪞', es: '¡Muy bien! La palabra apunta justo de regreso. 🪞', pt: 'Isso! A palavra volta certinho. 🪞', it: 'Sì! La parola torna proprio indietro. 🪞' }
     },
     defaults: {},
 
@@ -105,7 +113,7 @@
 
       var sent = api.el('div', 'rmr-sent');
       var txt = api.el('span', 'rmr-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'rmr-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'rmr-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : LANG === 'it' ? 'ascolta la frase' : 'hear the sentence'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 

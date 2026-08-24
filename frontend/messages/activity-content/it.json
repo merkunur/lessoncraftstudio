@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "Rusty il robot infila un verbo nella sua macchina di ieri e aspetta di vedere come cambia: da «prendo» a «ho preso», da «leggo» a «ho letto».",
+        "Il bambino legge la frase al presente e sceglie la forma corretta del passato prossimo, imparando a riconoscere i participi irregolari senza inventare finali sbagliate.",
+        "Ogni risposta giusta fa funzionare la macchina, così esercitarsi diventa un gioco invece che un compito."
+      ],
+      "practices": [
+        "Formare il passato prossimo dei verbi irregolari",
+        "Riconoscere il participio passato giusto",
+        "Evitare gli errori di regolarizzazione («ho prenduto», «ho romputo»)",
+        "Distinguere il tempo presente dal passato nella frase"
+      ],
+      "howToPlay": [
+        "Leggi la frase di «oggi» che appare sullo schermo di Rusty.",
+        "Pensa a come cambia il verbo quando diventa «ieri».",
+        "Tocca la forma corretta del passato prossimo per far partire la macchina."
+      ],
+      "learningGoals": [
+        "Consolidare l'uso del passato prossimo con i verbi irregolari",
+        "Rafforzare la sicurezza con i participi passati più difficili",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali"
+      ]
+    },
     "wally-capital-crane.special-names.l-2-2-a": {
       "about": [
         "Wally il tricheco manovra una gru buffa che aggancia una letterina minuscola e la solleva fino a farla diventare una grande MAIUSCOLA.",

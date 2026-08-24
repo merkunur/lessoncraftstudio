@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "Nella falegnameria di Bram, il castoro carpentiere, ogni giornata comincia con un’ordinazione da preparare: un ripiano da montare, un’asse da accorciare, due tavole da unire. I bambini leggono la richiesta del cliente, appoggiano le lunghezze note sul lungo metro di Bram e cercano il pezzo misterioso — quanto misura l’asse che manca, quanta parte è stata segata via, quanto una tavola supera l’altra. Ogni round è un piccolo problema di lunghezze in centimetri, da modellare con le mani prima ancora che con i numeri, proprio come farebbe un vero falegname davanti al suo banco da lavoro.",
+        "Il valore di questa attività sta nel far leggere e capire il problema, non solo nel calcolare. Il bambino si allena ad addizionare e sottrarre lunghezze entro il 100, ma soprattutto impara a riconoscere dove si nasconde l’incognita: a volte manca il totale, a volte una delle parti, a volte la differenza tra due assi. Decidere se aggiungere, togliere o confrontare — e poi dire la lunghezza esatta in centimetri — allena il ragionamento e dà un senso concreto alle misure di tutti i giorni.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È gratuita, interattiva e senza registrazione, senza timer e senza punteggio: nessuna fretta e nessuna pressione, solo il piacere di risolvere l’ordinazione di Bram al proprio ritmo, con la possibilità di riprovare tutte le volte che serve."
+      ],
+      "practices": [
+        "Leggere e modellare problemi di lunghezza sul metro",
+        "Addizionare e sottrarre lunghezze entro il 100 in centimetri",
+        "Trovare l’incognita in ogni posizione del problema",
+        "Confrontare le lunghezze: quanto più lungo o più corto"
+      ],
+      "howToPlay": [
+        "Leggi la storia dell’ordinazione e appoggia sul metro le lunghezze che già conosci.",
+        "Segna il pezzo misterioso e scegli se aggiungere, togliere o confrontare le assi.",
+        "Digita la lunghezza mancante in centimetri per completare l’ordinazione di Bram."
+      ],
+      "learningGoals": [
+        "Risolvere problemi di addizione e sottrazione con le lunghezze entro il 100",
+        "Capire il testo del problema e individuare l’incognita in ogni posizione",
+        "Confrontare lunghezze in centimetri e trovare la differenza"
+      ]
+    },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
         "Spanna, la capra dall’occhio allenato, sfida il bambino a indovinare quanto sono lunghe le cose vere: una formica lunga circa 1 centimetro, un pastello, una porta, un treno lungo quasi 200 metri.",

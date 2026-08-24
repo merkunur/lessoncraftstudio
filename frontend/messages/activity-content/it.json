@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "Tildy la sarta ha bisogno di strisce precise: un nastro per un fiocco, un cordoncino per un bordo, un filo di lana per una toppa. Nella sua sartoria il bambino prende il righello e misura, mentre Nodo il gatto gironzola sul tavolo e sposta il righello con la zampa. Per misurare bene, fai scorrere il righello finché lo 0 è all’inizio della striscia, poi leggi il numero all’altra estremità: ecco quanti centimetri è lunga.",
+        "Qui si impara il gesto che conta davvero: allineare lo 0 con l’inizio della striscia e leggere il numero all’estremità opposta. Si scopre l’errore classico di partire dall’1 invece che dallo 0, si affronta il righello rotto che comincia da 2, e si impara a scegliere il righello abbastanza lungo per la striscia da misurare. In poche parole, si impara a usare il righello correttamente.",
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È gratuita, interattiva e senza registrazione, senza timer e senza punteggio: il bambino misura con calma, prova e riprova, e prende confidenza con i centimetri senza alcuna pressione."
+      ],
+      "practices": [
+        "Allineare lo 0 del righello con l’inizio della striscia",
+        "Leggere la misura all’altra estremità",
+        "Misurare lunghezze in centimetri",
+        "Usare anche un righello rotto e sceglierne uno abbastanza lungo"
+      ],
+      "howToPlay": [
+        "Fai scorrere il righello finché lo 0 è all’inizio della striscia",
+        "Leggi il numero all’altra estremità della striscia",
+        "Digita quanti centimetri è lunga"
+      ],
+      "learningGoals": [
+        "Allineare correttamente lo zero del righello",
+        "Leggere la lunghezza in centimetri all’estremità",
+        "Evitare l’errore di partire dall’1"
+      ]
+    },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
         "Allo studio veterinario ogni animale arriva con la sua piccola storia: tre gattini nella cesta e altri che si aggiungono, i conigli che erano nel recinto prima che qualcuno scappasse, le crocchette date al mattino e quelle rimaste alla sera. Nei panni del veterinario, il bambino ascolta il racconto di ciascun paziente, appoggia i numeri conosciuti sul diagramma della diagnosi e individua il punto ancora da scoprire. Non è un semplice calcolo in colonna: è una vera indagine, in cui capire che cosa manca è già metà della cura.",

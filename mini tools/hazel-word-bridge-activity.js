@@ -23,18 +23,22 @@
   var CHIPS_ES = ['y', 'o', 'pero', 'porque'];
   var REL_CONJ_PT = { addition: 'e', alternative: 'ou', contrast: 'mas', cause: 'porque' };
   var CHIPS_PT = ['e', 'ou', 'mas', 'porque'];
-  var REL_CONJ_L10N = { de: REL_CONJ_DE, fr: REL_CONJ_FR, es: REL_CONJ_ES, pt: REL_CONJ_PT };
-  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR, es: CHIPS_ES, pt: CHIPS_PT };
+  // it (#29 native ensemble): the four basic congiunzioni for classe terza — e / o / ma / perché.
+  // ⚠ ACUTE é on «perché» (all oxytone -ché words take acute; «perchè» is the classic error).
+  var REL_CONJ_IT = { addition: 'e', alternative: 'o', contrast: 'ma', cause: 'perché' };
+  var CHIPS_IT = ['e', 'o', 'ma', 'perché'];
+  var REL_CONJ_L10N = { de: REL_CONJ_DE, fr: REL_CONJ_FR, es: REL_CONJ_ES, pt: REL_CONJ_PT, it: REL_CONJ_IT };
+  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR, es: CHIPS_ES, pt: CHIPS_PT, it: CHIPS_IT };
   function hwbOracle(round) { var m = REL_CONJ_L10N[LANG]; return m ? (m[round.relation] || '') : Core.oracle(round); }
   function hwbIsAnswer(round, str) { return str === hwbOracle(round); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'lacuna' : 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'lacuna' : LANG === 'it' ? 'spazio' : 'blank'); }
 
   function heronSVG(mood) {
     var happy = mood === 'happy';
@@ -53,13 +57,13 @@
     id: 'hazel-word-bridge-activity',
 
     strings: {
-      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke', fr: 'Le pont des mots de Hazel', es: 'El puente de palabras de Hazel', pt: 'A ponte de palavras da Hazel' },
-      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?', fr: 'Quel mot de liaison va bien ?', es: '¿Qué palabra une las dos partes?', pt: 'Qual palavrinha de ligação combina?' },
-      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!', fr: 'Un mot de liaison fait un pont entre les deux phrases !', es: 'Algunas palabras son como un puente: unen las dos partes de la oración.', pt: 'Uma palavrinha de ligação faz a ponte entre as duas ideias!' },
-      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?', fr: 'Quel mot relie les deux parties ?', es: '¿Qué palabra va con el sentido?', pt: 'Qual palavra combina com o sentido?' },
-      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.', fr: 'Touche le mot de liaison qui va dans le trou.', es: 'Toca la palabra que une las dos partes con sentido.', pt: 'Toque na palavra que liga as duas partes com sentido!' },
-      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?', fr: 'Relis toute la phrase : quel mot va avec le sens ?', es: 'Lee otra vez toda la oración. ¿Qué palabra tiene sentido aquí?', pt: 'Leia a frase toda de novo — qual palavrinha combina com o sentido?' },
-      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉', fr: 'Bravo ! Tu as construit le bon pont ! 🌉', es: '¡Muy bien! Uniste las dos partes con el puente correcto. 🌉', pt: 'Muito bem! Você ligou as duas partes com a ponte certa. 🌉' }
+      title: { en: "Hazel's Word Bridge", de: 'Hazels Wortbrücke', fr: 'Le pont des mots de Hazel', es: 'El puente de palabras de Hazel', pt: 'A ponte de palavras da Hazel', it: 'Il ponte di parole di Hazel' },
+      prompt: { en: 'Which joining word fits?', de: 'Welches Bindewort passt?', fr: 'Quel mot de liaison va bien ?', es: '¿Qué palabra une las dos partes?', pt: 'Qual palavrinha de ligação combina?', it: 'Quale parolina di collegamento va bene?' },
+      hazelIntro: { en: 'A joining word bridges the two ideas!', de: 'Ein Bindewort schlägt eine Brücke zwischen den zwei Sätzen!', fr: 'Un mot de liaison fait un pont entre les deux phrases !', es: 'Algunas palabras son como un puente: unen las dos partes de la oración.', pt: 'Uma palavrinha de ligação faz a ponte entre as duas ideias!', it: 'Una parolina fa da ponte tra le due idee!' },
+      theAsk: { en: 'Which word joins the two parts?', de: 'Welches Wort verbindet die zwei Teile?', fr: 'Quel mot relie les deux parties ?', es: '¿Qué palabra va con el sentido?', pt: 'Qual palavra combina com o sentido?', it: 'Quale parola unisce le due idee?' },
+      hintPick: { en: 'Tap the joining word that makes sense!', de: 'Tippe auf ein Bindewort, das in die Lücke passt.', fr: 'Touche le mot de liaison qui va dans le trou.', es: 'Toca la palabra que une las dos partes con sentido.', pt: 'Toque na palavra que liga as duas partes com sentido!', it: 'Tocca la parola di collegamento che ha senso!' },
+      hintWrong: { en: "That joining word doesn't fit — read it again.", de: 'Lies den ganzen Satz noch einmal. Welches Wort passt zur Bedeutung?', fr: 'Relis toute la phrase : quel mot va avec le sens ?', es: 'Lee otra vez toda la oración. ¿Qué palabra tiene sentido aquí?', pt: 'Leia a frase toda de novo — qual palavrinha combina com o sentido?', it: 'Rileggi tutta la frase — quale parola ha senso qui?' },
+      win: { en: 'Yes! That word bridges the two ideas. 🌉', de: 'Stark gemacht! Du hast die richtige Brücke gebaut! 🌉', fr: 'Bravo ! Tu as construit le bon pont ! 🌉', es: '¡Muy bien! Uniste las dos partes con el puente correcto. 🌉', pt: 'Muito bem! Você ligou as duas partes com a ponte certa. 🌉', it: 'Sì! Hai unito le due idee con il ponte giusto. 🌉' }
     },
     defaults: {},
 
@@ -92,7 +96,7 @@
 
       var sent = api.el('div', 'hwb-sent');
       var txt = api.el('span', 'hwb-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : 'hear the sentence'); sp.textContent = '🔊';
+      var sp = api.el('button', 'hwb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : LANG === 'it' ? 'ascolta la frase' : 'hear the sentence'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 

@@ -26,14 +26,18 @@
     de: { un: 'NICHT', ful: 'VOLLER', less: 'OHNE' },
     fr: { un: 'LE CONTRAIRE', re: 'À NOUVEAU', ful: 'PLEIN DE' },
     es: { un: 'LO CONTRARIO', re: 'OTRA VEZ', ful: 'LLENO DE' },
-    pt: { un: 'O CONTRÁRIO', re: 'DE NOVO', ful: 'CHEIO DE' }
+    pt: { un: 'O CONTRÁRIO', re: 'DE NOVO', ful: 'CHEIO DE' },
+    /* it (#22 fan-out — FIRST it VOCABULARY strand «Lessico»): the "opposite" prefix = dis- (ensemble-decisive:
+       zero allomorphy, pairs with ri-; in- rejected for im-/il-/ir- allomorphy, s- rejected as thin/noisy) */
+    it: { un: 'IL CONTRARIO', re: 'DI NUOVO', ful: 'PIENO DI' }
   };
   var LABEL = {
     en: { un: 'un-', re: 're-', ful: '-ful', less: '-less' },
     de: { un: 'un-', ful: '-voll', less: '-los' },
     fr: { un: 'dé-', re: 're-', ful: '-eux' },
     es: { un: 'des-', re: 're-', ful: '-oso' },
-    pt: { un: 'des-', re: 're-', ful: '-oso' }
+    pt: { un: 'des-', re: 're-', ful: '-oso' },
+    it: { un: 'dis-', re: 'ri-', ful: '-oso' }
   };
   function label(a) { return (LABEL[LANG] || LABEL.en)[a] || (LABEL.en[a] || a); }
   function sense(a) { return (SENSE[LANG] || SENSE.en)[a] || (SENSE.en[a] || ''); }
@@ -73,6 +77,15 @@
       winWhich: '“{label}” significa {sense} — é isso mesmo!',
       nApply: 'Leia a palavra: o que a engrenagem faz com ela?',
       nWhich: 'Qual engrenagem dá esse significado?'
+    },
+    /* it: «...» caporali (NOT pt curly aspas); ⚠ l’ingranaggio uses the typographic apostrophe ’ (U+2019) so
+       the single-quoted JS string stays intact (same convention as fr/de in this file) */
+    it: {
+      win: 'Sì! {note}',
+      winApply: '«{label}» significa {sense}.',
+      winWhich: '«{label}» significa {sense} — è così che si forma la parola!',
+      nApply: 'Leggi la parola: che cosa le fa l’ingranaggio?',
+      nWhich: 'Quale ingranaggio dà questo significato?'
     }
   };
   function txt(k, a) {
@@ -115,10 +128,10 @@
   var AffixActivity = {
     id: 'affix-activity',
     strings: {
-      title: { en: "Marigold's Knowing Machine", de: 'Marigolds Wortmaschine', fr: 'La machine à mots de Marigold', es: 'La máquina de palabras de Marigold', pt: 'A Máquina de Palavras da Marigold' },
-      instruction: { en: 'Help Marigold the mole figure out what the new word means!', de: 'Hilf dem Maulwurf Marigold herauszufinden, was das neue Wort bedeutet!', fr: 'Aide Marigold la taupe à découvrir ce que veut dire le nouveau mot !', es: '¡Ayuda a Marigold el topo a descubrir qué significa la palabra nueva!', pt: 'Ajude a toupeira Marigold a descobrir o que a nova palavra quer dizer!' },
-      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet ‚{word}‘?', fr: 'Que veut dire « {word} » ?', es: '¿Qué significa {word}?', pt: 'O que quer dizer {word}?' },
-      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das ‚{meaning}‘ bedeutet?', fr: 'Quel rouage fabrique un mot qui veut dire « {meaning} » ?', es: '¿Qué engrane forma una palabra que significa «{meaning}»?', pt: 'Qual engrenagem forma uma palavra que significa “{meaning}”?' }
+      title: { en: "Marigold's Knowing Machine", de: 'Marigolds Wortmaschine', fr: 'La machine à mots de Marigold', es: 'La máquina de palabras de Marigold', pt: 'A Máquina de Palavras da Marigold', it: 'La macchina delle parole di Marigold' },
+      instruction: { en: 'Help Marigold the mole figure out what the new word means!', de: 'Hilf dem Maulwurf Marigold herauszufinden, was das neue Wort bedeutet!', fr: 'Aide Marigold la taupe à découvrir ce que veut dire le nouveau mot !', es: '¡Ayuda a Marigold el topo a descubrir qué significa la palabra nueva!', pt: 'Ajude a toupeira Marigold a descobrir o que a nova palavra quer dizer!', it: 'Aiuta la talpa Marigold a scoprire che cosa significa la nuova parola!' },
+      qapply: { en: 'What does {word} mean?', de: 'Was bedeutet ‚{word}‘?', fr: 'Que veut dire « {word} » ?', es: '¿Qué significa {word}?', pt: 'O que quer dizer {word}?', it: 'Che cosa significa {word}?' },
+      qwhich: { en: 'Which cog makes a word meaning “{meaning}”?', de: 'Welches Zahnrad macht ein Wort, das ‚{meaning}‘ bedeutet?', fr: 'Quel rouage fabrique un mot qui veut dire « {meaning} » ?', es: '¿Qué engrane forma una palabra que significa «{meaning}»?', pt: 'Qual engrenagem forma uma palavra que significa “{meaning}”?', it: 'Quale ingranaggio forma una parola che significa «{meaning}»?' }
     },
 
     init: function (api) {
@@ -255,7 +268,7 @@
         this._choiceOrder.forEach(function (oi) {
           var affix = opts[oi];
           var b = el('button', 'af-cand af-cog' + (self._nonConf[affix] ? ' dim' : ''));
-          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : LANG === 'fr' ? ' veut dire ' : LANG === 'es' ? ' significa ' : LANG === 'pt' ? ' significa ' : ' meaning ') + sense(affix));
+          b.type = 'button'; b.setAttribute('aria-label', label(affix) + (LANG === 'de' ? ' bedeutet ' : LANG === 'fr' ? ' veut dire ' : LANG === 'es' ? ' significa ' : LANG === 'pt' ? ' significa ' : LANG === 'it' ? ' significa ' : ' meaning ') + sense(affix));
           b.innerHTML = '<svg viewBox="0 0 48 48" width="78" height="78" aria-hidden="true">' + cogInner(affix, 24, 24, 19) + '</svg>' +
             '<span class="af-cog-label">' + label(affix) + '</span><span class="af-cog-sense">' + sense(affix) + '</span>';
           b.addEventListener('click', function () { self._pick(affix, tok); });
@@ -314,6 +327,8 @@
           ? ('La palabra base es ' + r.root + '. ¿Qué afijo forma una palabra que significa «' + r.meaning + '»? Opciones: ' + opts + '.')
           : LANG === 'pt'
           ? ('A palavra base é ' + r.root + '. Qual afixo forma uma palavra que significa “' + r.meaning + '”? Opções: ' + opts + '.')
+          : LANG === 'it'
+          ? ('La parola di base è ' + r.root + '. Quale ingranaggio forma una parola che significa «' + r.meaning + '»? Scelte: ' + opts + '.')
           : ('The root word is ' + r.root + '. Which affix makes a word meaning "' + r.meaning + '"? Choices: ' + opts + '.');
       } else {
         var texts = snap.options.map(function (o) { return o.text; }).join('; ');
@@ -325,6 +340,8 @@
           ? ('La palabra es ' + r.word + '. ¿Qué significa? Opciones: ' + texts + '.')
           : LANG === 'pt'
           ? ('A palavra é ' + r.word + '. O que ela quer dizer? Opções: ' + texts + '.')
+          : LANG === 'it'
+          ? ('La parola è ' + r.word + '. Che cosa significa? Scelte: ' + texts + '.')
           : ('The word is ' + r.word + '. What does it mean? Choices: ' + texts + '.');
       }
       wrap.innerHTML = '<p>' + msg + '</p>';

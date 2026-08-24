@@ -64,21 +64,24 @@
       "de": "10-100-mehr-weniger-zahlenraum-1000-klasse-3",
       "fr": "ajouter-et-retrancher-10-et-100-jusqu-a-1000-ce1",
       "es": "10-100-mas-menos-valor-posicional-numeros-hasta-1000-primaria",
-      "pt": "10-100-a-mais-a-menos-valor-posicional-ate-1000"
+      "pt": "10-100-a-mais-a-menos-valor-posicional-ate-1000",
+      "it": "10-100-in-piu-in-meno-valore-posizionale-numeri-fino-a-1000"
     },
     "page_title": {
       "en": "Comet's Big Leaps — 10 & 100 More or Less (Grade 2)",
       "de": "Zahlenraum 1000 – online üben (Klasse 3)",
       "fr": "Calcul mental CE2 : 10 et 100 de plus – exercice en ligne",
       "es": "Cometa el canguro: 10 y 100 más o menos hasta 1000 · Valor posicional",
-      "pt": "Cometa o canguru: 10 e 100 a mais ou a menos até 1000 · 3º ano"
+      "pt": "Cometa o canguru: 10 e 100 a mais ou a menos até 1000 · 3º ano",
+      "it": "Cometa il canguro: 10 e 100 in più o in meno fino a 1000"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: Comet the kangaroo makes big leaps along the numbers. See a three-digit number and a leap — 10 more, 10 less, 100 more, or 100 less — work it out in your head and type where Comet lands. Mentally add or subtract 10 or 100, watching how only the tens or hundreds digit changes while the ones stay put. Common Core 2.NBT.B.8.",
       "de": "Zahlenraum 1000 online üben: 10 und 100 mehr oder weniger – mit Känguru Komet bis 1000 rechnen. Kostenlos online, ohne Anmeldung – ideal für Klasse 3.",
       "fr": "Calcul mental CE2 en ligne : ajouter ou retirer 10 et 100 sur les nombres jusqu'à 1000. Gratuit, en ligne, sans inscription.",
       "es": "Salta con Cometa, el canguro, sumando y restando 10 o 100 en los números hasta 1000 y practica el valor posicional con cálculo mental. Actividad gratis e interactiva, sin registro, alineada a los Planes y programas de estudio (SEP).",
-      "pt": "Salte pelos números com o Cometa, o canguru! A criança vê um número de três algarismos, como “247”, e um salto — “10 a mais”, “10 a menos”, “100 a mais” ou “100 a menos” — e precisa calcular de cabeça onde ele cai, digitando o número novo. Uma forma leve e divertida de trabalhar o valor posicional e o cálculo mental com números até 1000. Atividade gratuita e interativa para o 3º ano, alinhada à BNCC."
+      "pt": "Salte pelos números com o Cometa, o canguru! A criança vê um número de três algarismos, como “247”, e um salto — “10 a mais”, “10 a menos”, “100 a mais” ou “100 a menos” — e precisa calcular de cabeça onde ele cai, digitando o número novo. Uma forma leve e divertida de trabalhar o valor posicional e o cálculo mental com números até 1000. Atividade gratuita e interativa para o 3º ano, alinhada à BNCC.",
+      "it": "Salta tra i numeri con Cometa, il canguro! Il bambino vede un numero di tre cifre, per esempio “247”, e un salto — “10 in più”, “10 in meno”, “100 in più” o “100 in meno” — e deve calcolare a mente dove atterra Cometa, scrivendo il numero nuovo. È un modo leggero e divertente per allenare il valore posizionale e il calcolo mentale con numeri fino a 1000, notando che cambia solo la cifra delle decine o delle centinaia, mentre le unità restano uguali. Attività gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo tanti salti da fare di testa. Un esercizio pensato per la classe terza, in linea con le Indicazioni nazionali."
     },
     "kid_prompt_template": "tens-hundreds"
   }

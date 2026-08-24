@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "Con Cometa il canguro il bambino parte da un numero come “247”, riceve un salto come “100 in meno” e scrive di getto dove atterra: 147.",
+        "Ogni salto — “10 in più”, “10 in meno”, “100 in più”, “100 in meno” — si risolve a mente, osservando che si muove soltanto la cifra delle decine o delle centinaia e che le unità non cambiano mai.",
+        "Un allenamento breve e sereno al valore posizionale e al calcolo mentale con numeri fino a 1000, pensato per la classe terza e in linea con le Indicazioni nazionali."
+      ],
+      "practices": [
+        "Aggiungere e togliere 10 a un numero di tre cifre a mente",
+        "Aggiungere e togliere 100 a un numero di tre cifre a mente",
+        "Notare che cambia solo la cifra delle decine o delle centinaia",
+        "Scrivere il risultato invece di scegliere tra opzioni pronte"
+      ],
+      "howToPlay": [
+        "Leggi il numero di partenza, per esempio “247”, e guarda il salto: “10 in più”, “10 in meno”, “100 in più” o “100 in meno”.",
+        "Calcola a mente dove arriva Cometa, cambiando solo le decine o le centinaia.",
+        "Scrivi il numero nuovo e lascia che Cometa faccia il suo salto."
+      ],
+      "learningGoals": [
+        "Aggiungere e sottrarre 10 e 100 a mente entro il 1000.",
+        "Capire il valore posizionale di centinaia, decine e unità.",
+        "Rafforzare il calcolo mentale rapido con i numeri fino a 1000."
+      ]
+    },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
         "Lo scoiattolo Flo dispone le sue ghiande in uno schieramento di file e colonne, e il bambino traccia una linea per dividerle in mucchietti uguali finché non compare una somma di addendi uguali come “4 + 4 + 4 = 12” e i mucchietti brillano.",

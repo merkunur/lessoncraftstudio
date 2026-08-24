@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "tense.past-present-future.l-1-1-e": {
+      "about": [
+        "Juniper il pettirosso custodisce una torre del tempo con tre finestre luminose: una per il passato, una per il presente e una per il futuro.",
+        "A ogni frase si accende la finestra giusta, e i bambini scoprono così i tempi del verbo.",
+        "Un modo tranquillo e giocoso per capire quando un'azione è già accaduta, sta accadendo o deve ancora accadere."
+      ],
+      "practices": [
+        "Riconoscere presente, passato e futuro",
+        "Abbinare il verbo alla parola del tempo: «Ieri», «Adesso», «Domani»",
+        "Osservare come cambia il verbo nel passato prossimo, per esempio «hanno giocato»",
+        "Prestare attenzione al senso della frase per scegliere la forma giusta"
+      ],
+      "howToPlay": [
+        "Leggi la frase e cerca la parola del tempo.",
+        "Guarda quale finestra della torre si accende: passato, presente o futuro.",
+        "Tocca il verbo che si adatta alla frase — nessun punteggio, con calma."
+      ],
+      "learningGoals": [
+        "Distinguere i tre tempi verbali di base: presente, passato e futuro",
+        "Collegare la forma del verbo alla parola del tempo che indica quando avviene l'azione",
+        "Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+      ]
+    },
     "plural.irregular.l-2-1-b": {
       "about": [
         "Allo stagno di Perla, tra ninfee e riflessi tranquilli, tuo figlio scopre i plurali particolari dell'italiano insieme a una dolce perla-luna che gli fa da guida.",

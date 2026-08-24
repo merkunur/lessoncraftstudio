@@ -444,6 +444,16 @@
           { "id": "pt-mar",   "band": 2, "root": "mar",   "correct": "marinheiro", "choices": [ { "word": "marinheiro" }, { "word": "martelo" }, { "word": "maçã" } ] },
           { "id": "pt-pedra", "band": 3, "root": "pedra", "correct": "pedreiro",   "choices": [ { "word": "pedreiro" }, { "word": "pedaço" }, { "word": "peixe" } ] },
           { "id": "pt-livro", "band": 3, "root": "livro", "correct": "livraria",   "choices": [ { "word": "livraria" }, { "word": "limão" }, { "word": "linha" } ] }
+        ],
+        "it": [
+          { "id": "it-gatto", "band": 1, "root": "gatto", "correct": "gattino",   "choices": [ { "word": "gattino" },   { "word": "gallo" },     { "word": "gamba" } ] },
+          { "id": "it-casa",  "band": 1, "root": "casa",  "correct": "casetta",   "choices": [ { "word": "casetta" },   { "word": "cassa" },     { "word": "campo" } ] },
+          { "id": "it-pane",  "band": 1, "root": "pane",  "correct": "panino",    "choices": [ { "word": "panino" },    { "word": "panno" },     { "word": "palla" } ] },
+          { "id": "it-fiore", "band": 2, "root": "fiore", "correct": "fioraio",   "choices": [ { "word": "fioraio" },   { "word": "fionda" },    { "word": "filo" } ] },
+          { "id": "it-dente", "band": 2, "root": "dente", "correct": "dentista",  "choices": [ { "word": "dentista" },  { "word": "dentro" },    { "word": "denaro" } ] },
+          { "id": "it-mare",  "band": 3, "root": "mare",  "correct": "marinaio",  "choices": [ { "word": "marinaio" },  { "word": "martello" },  { "word": "matita" } ] },
+          { "id": "it-libro", "band": 3, "root": "libro", "correct": "libreria",  "choices": [ { "word": "libreria" },  { "word": "libellula" }, { "word": "limone" } ] },
+          { "id": "it-sale",  "band": 3, "root": "sale",  "correct": "saliera",   "choices": [ { "word": "saliera" },   { "word": "sala" },      { "word": "sasso" } ] }
         ]
       }
     },
@@ -453,21 +463,24 @@
       "de": "wortfamilien-wortstamm-erkennen-klasse-2",
       "fr": "les-familles-de-mots-le-radical-ce1",
       "es": "familias-de-palabras-la-raiz-2-primaria",
-      "pt": "jardim-de-palavras-da-sage-familia-de-palavras-raiz-2-ano"
+      "pt": "jardim-de-palavras-da-sage-familia-de-palavras-raiz-2-ano",
+      "it": "famiglie-di-parole-la-radice-classe-seconda"
     },
     "page_title": {
       "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)",
       "de": "Wortfamilien – online üben (Klasse 2)",
       "fr": "Les familles de mots : le radical – exercice en ligne",
       "es": "Familias de palabras y la raíz: actividad de 2.º primaria",
-      "pt": "Jardim de Palavras da Sage: família de palavras (2º ano)"
+      "pt": "Jardim de Palavras da Sage: família de palavras (2º ano)",
+      "it": "Le famiglie di parole e la radice (classe seconda)"
     },
     "page_intro": {
       "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.",
       "de": "Wortfamilien üben in Sages Wortgarten: verwandte Wörter zum gleichen Wortstamm finden. Für Klasse 2 – kostenlos online, ohne Anmeldung.",
       "fr": "Les familles de mots au CE1 : retrouve le radical et regroupe les mots de la même famille. Gratuit, en ligne, sans inscription.",
       "es": "Con Sage la tortuga, tu peque encuentra la raíz de una palabra y elige la que crece de la misma familia. Actividad gratis e interactiva de español para 2.º de primaria, alineado a los Planes y programas de estudio (SEP).",
-      "pt": "No Jardim de Palavras da Sage, uma tartaruga tranquila, a criança do 2º ano lê a raiz e toca na palavra da mesma família — florzinha vem de flor. No seu ritmo."
+      "pt": "No Jardim de Palavras da Sage, uma tartaruga tranquila, a criança do 2º ano lê a raiz e toca na palavra da mesma família — florzinha vem de flor. No seu ritmo.",
+      "it": "Sage è una gentile tartaruga che coltiva un giardino speciale: il giardino delle parole. Qui si scoprono le famiglie di parole cercando la radice nascosta dentro ogni parola — da «fiore» nasce «fioraio», da «gatto» spunta «gattino». Basta toccare la parola che cresce dalla stessa radice, evitando quelle che le somigliano soltanto. Un'attività gratis, senza registrazione e senza punteggi, tutta nel browser, pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico."
     },
     "kid_prompt_template": "Tap the word that grows from the root."
   }

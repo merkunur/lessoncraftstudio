@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Hopper è una rana che attraversa lo stagno saltando lungo la linea dei numeri, da una ninfea numerata all'altra: a ogni balzo in avanti somma, a ogni balzo indietro sottrae, e tu lo aiuti a scoprire dove va a finire. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, si rappresentano somme e sottrazioni entro il 100 sulla linea dei numeri.",
+        "L'attività è gratuita e si gioca online nel browser, senza registrazione e senza scaricare nulla. Non ci sono punteggi né tempo che corre: puoi provare, sbagliare e riprovare con calma, seguendo con lo sguardo il salto di Hopper sulle ninfee.",
+        "Muovere Hopper in avanti e indietro sulla linea dei numeri dà un'immagine concreta all'addizione e alla sottrazione ed è un passaggio importante verso il calcolo mentale entro il 100, in linea con le Indicazioni nazionali per il nucleo Numeri. A casa o in classe puoi rinforzarlo con semplici materiali manipolabili, contando i passi lungo una striscia di numeri disegnata su un foglio."
+      ],
+      "practices": [
+        "Rappresentare addizioni e sottrazioni entro il 100 sulla linea dei numeri",
+        "Saltare in avanti per sommare e indietro per sottrarre",
+        "Trovare il numero di arrivo partendo da un numero e da un salto",
+        "Costruire salti di diversa lunghezza e leggerli sulla linea dei numeri"
+      ],
+      "howToPlay": [
+        "Metti Hopper sulla ninfea del numero di partenza",
+        "Scegli in avanti per sommare o indietro per sottrarre, poi scegli la lunghezza del salto e guarda il balzo disegnarsi sulla linea",
+        "Osserva su quale ninfea atterra Hopper per scoprire dove va a finire, e se sbagli ricevi un suggerimento gentile per riprovare con calma, senza punteggio"
+      ],
+      "learningGoals": [
+        "Rappresentare somme e sottrazioni entro il 100 sulla linea dei numeri",
+        "Contare in avanti e indietro per sommare e sottrarre",
+        "Consolidare il calcolo entro il 100 in linea con le Indicazioni nazionali, nel nucleo Numeri"
+      ]
+    },
     "line-plot.read.2-md-d-9": {
       "about": [
         "Sulla linea di marea, Shelly il granchio eremita ha bisogno di una mano per mettere in ordine le sue conchiglie: questa attività trasforma la misura di ogni conchiglia in un diagramma delle frequenze fatto di X impilate, da costruire e leggere insieme.",

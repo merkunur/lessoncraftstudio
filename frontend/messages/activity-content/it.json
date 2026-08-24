@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Nella dispensa del coniglio Bo le more non stanno mai in disordine: dieci more entrano in una cassetta, e ciò che resta rimane sfuso sul ripiano. Il bambino aiuta Bo a sistemare la raccolta leggendo un numero a due cifre e riempiendo gli scaffali giusti — una cassetta dopo l’altra per le decine, una mora dopo l’altra per le unità. Ogni numero diventa così una piccola storia da comporre con le mani, e la dispensa si riempie a poco a poco mentre Bo osserva soddisfatto.",
+        "Dietro il gioco c’è tutto il valore posizionale: una cassetta vale una decina, le more sfuse sono le unità, e comporre un numero significa capire quante cassette e quante more servono. Il bambino impara a leggere e a comporre i numeri a due cifre, a distinguere il posto delle decine da quello delle unità e a scoprire la funzione dello zero — perché 40 o 70 sono fatti di sole cassette, senza nessuna mora sfusa. Raggruppare per dieci diventa un gesto concreto e pieno di senso, la base di tutto il calcolo che verrà.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È completamente gratuita e interattiva, funziona direttamente nel browser e non richiede alcuna registrazione. Non ci sono timer, punteggi né classifiche: solo il tempo tranquillo di provare, sbagliare e riprovare, così che ogni bambino possa costruire il valore posizionale con calma e senza pressioni."
+      ],
+      "practices": [
+        "Leggere e comporre numeri a due cifre",
+        "Raggruppare per dieci in modo concreto",
+        "Distinguere le decine dalle unità",
+        "Capire la funzione dello zero"
+      ],
+      "howToPlay": [
+        "Leggi il numero e guarda le more di Bo",
+        "Forma le decine con le cassette e le unità con le more sfuse",
+        "Lancia le more sullo scaffale giusto"
+      ],
+      "learningGoals": [
+        "Comprendere il valore posizionale delle cifre",
+        "Comporre numeri a due cifre con decine e unità",
+        "Riconoscere il ruolo dello zero nei numeri come 40 e 70"
+      ]
+    },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
         "Lo scoiattolo Gus ha un carretto degli spuntini sempre affollato, e tra noci, ghiande e piccole scorte c’è un continuo andirivieni: a volte arriva un nuovo rifornimento da aggiungere, a volte un cliente compra qualcosa da togliere. Ogni round racconta una breve storia con Gus protagonista, mostra l’operazione corrispondente e chiede al bambino di calcolare entro il 100 e digitare il risultato. Sommare quello che Gus raccoglie e sottrarre quello che vende trasforma un semplice esercizio di calcolo in una situazione viva, facile da immaginare e divertente da risolvere.",

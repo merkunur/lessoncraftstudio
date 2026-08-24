@@ -531,6 +531,15 @@
           { "id": "order-svo",   "band": 3, "action": "reorder",      "tokens": ["bebe","gato","água","O"], "correctOrder": [3,1,0,2], "convention": "As palavras vão numa ordem que faz sentido.", "clean": ["O","gato","bebe","água"] },
           { "id": "del-double",  "band": 3, "action": "delete",       "tokens": ["Minha","mãe","ela","cozinha","."], "targetIndex": 2, "convention": "Não precisa dizer duas vezes quem faz a ação.", "clean": ["Minha","mãe","cozinha","."] },
           { "id": "split-runon", "band": 3, "action": "split",        "tokens": ["A","chuva","cai","o","vento","sopra"], "seamIndex": 2, "replacement": "O", "convention": "Quando há duas ideias, separe com um ponto.", "clean": ["A","chuva","cai",".","O","vento","sopra"] }
+        ],
+        "it": [
+          { "id": "cap-start",   "band": 1, "action": "capitalize",   "tokens": ["il","cane","è","grande","."], "targetIndex": 0, "replacement": "Il", "convention": "Ogni frase comincia con la lettera maiuscola.", "clean": ["Il","cane","è","grande","."] },
+          { "id": "mark-end",    "band": 1, "action": "insert-punct",  "tokens": ["Il","sole","è","caldo"], "gapIndex": 4, "replacement": ".", "distractors": [",","?"], "convention": "Ogni frase che racconta finisce con il punto.", "clean": ["Il","sole","è","caldo","."] },
+          { "id": "swap-agree",  "band": 2, "action": "swap",          "tokens": ["Il","gatto","mangiano","il","pesce","."], "targetIndex": 2, "replacement": "mangia", "distractors": ["mangio","mangiamo"], "convention": "Il verbo va d'accordo con chi fa l'azione: il gatto mangia.", "clean": ["Il","gatto","mangia","il","pesce","."] },
+          { "id": "fill-verb",   "band": 2, "action": "insert-word",   "tokens": ["La","bambina","una","mela","."], "gapIndex": 2, "replacement": "mangia", "distractors": ["verde","sotto"], "convention": "Alla frase manca l'azione (il verbo).", "clean": ["La","bambina","mangia","una","mela","."] },
+          { "id": "order-svo",   "band": 3, "action": "reorder",       "tokens": ["beve","gatto","acqua","Il"], "correctOrder": [3,1,0,2], "convention": "Le parole vanno in ordine perché la frase abbia senso.", "clean": ["Il","gatto","beve","acqua"] },
+          { "id": "del-double",  "band": 3, "action": "delete",        "tokens": ["La","mamma","lei","cucina","."], "targetIndex": 2, "convention": "Non serve dire due volte chi fa l'azione.", "clean": ["La","mamma","cucina","."] },
+          { "id": "split-runon", "band": 3, "action": "split",         "tokens": ["La","pioggia","cade","il","vento","soffia"], "seamIndex": 2, "replacement": "Il", "convention": "Quando ci sono due idee, si separano con un punto.", "clean": ["La","pioggia","cade",".","Il","vento","soffia"] }
         ]
       }
     },
@@ -540,21 +549,24 @@
       "de": "saetze-verbessern-klasse-2",
       "fr": "corriger-une-phrase-la-reviser-ce1",
       "es": "corregir-oraciones-mayuscula-punto-2-primaria",
-      "pt": "dra-plume-clinica-corrigir-frases-pontuacao-maiuscula-concordancia-2-ano"
+      "pt": "dra-plume-clinica-corrigir-frases-pontuacao-maiuscula-concordancia-2-ano",
+      "it": "correggere-le-frasi-maiuscola-punto-classe-seconda"
     },
     "page_title": {
       "en": "Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2)",
       "de": "Dr. Plumes Satzklinik: Sätze verbessern – Klasse 2 üben",
       "fr": "Grammaire CE1 : corriger une phrase – exercice en ligne",
       "es": "Corregir oraciones: mayúscula, punto y verbo (2.º primaria)",
-      "pt": "Dra. Plume: Corrigir Frases — Pontuação e Maiúscula (2º ano)"
+      "pt": "Dra. Plume: Corrigir Frases — Pontuação e Maiúscula (2º ano)",
+      "it": "La clinica delle frasi: correggere le frasi (classe seconda)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help gentle Dr. Plume fix muddled sentences so they sound right again. Children find the trouble — a missing capital, the wrong verb form, a missing word, jumbled order, an extra word, or a run-on — then make the repair. Practising the conventions of standard English grammar and usage is the heart of Common Core L.2.1.",
       "de": "In Dr. Plumes Satzklinik findest du den Fehler im Satz und verbesserst ihn: Großbuchstabe, Punkt, Verb und Wortreihenfolge. Kostenlos und interaktiv – Klasse 2.",
       "fr": "Grammaire CE1 en ligne : repère l'erreur et corrige la phrase, avec un retour immédiat à chaque réponse. Gratuit, en ligne, sans inscription.",
       "es": "En la clínica de la Dra. Plume, cada oración tiene un pequeño error que hay que encontrar y corregir: la mayúscula inicial, el punto final, la concordancia del verbo o el orden de las palabras. Actividad interactiva y gratuita para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
-      "pt": "Na Clínica de Frases da Dra. Plume, seu aluno do 2º ano acha e conserta um errinho por vez — maiúscula, ponto, concordância — no seu ritmo, sem cronômetro."
+      "pt": "Na Clínica de Frases da Dra. Plume, seu aluno do 2º ano acha e conserta um errinho por vez — maiúscula, ponto, concordância — no seu ritmo, sem cronômetro.",
+      "it": "Nella clinica delle frasi della Dott.ssa Plume, una dolce civetta nonna, ogni frase arriva un po' storta e ha bisogno di una piccola cura. Il bambino o la bambina aiuta ogni frase a «suonare bene» con una sola correzione: mettere la maiuscola, aggiungere il punto, sistemare il verbo o rimettere le parole in ordine. Un'attività per imparare a correggere le frasi curando maiuscola e punto, gratis e senza registrazione, direttamente nel browser, senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica."
     },
     "kid_prompt_template": "fix-it"
   }

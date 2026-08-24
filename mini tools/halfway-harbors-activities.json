@@ -142,21 +142,24 @@
       "de": "runden-auf-zehner-und-hunderter-am-zahlenstrahl-klasse-3",
       "fr": "arrondir-a-la-dizaine-et-a-la-centaine-sur-la-droite-graduee-ce2",
       "es": "redondear-a-la-decena-y-centena-recta-numerica-3-primaria",
-      "pt": "arredondar-para-dezena-e-centena-reta-numerica"
+      "pt": "arredondar-para-dezena-e-centena-reta-numerica",
+      "it": "arrotondare-alla-decina-e-al-centinaio-sulla-retta-dei-numeri"
     },
     "page_title": {
       "en": "The Halfway Harbors — Rounding on a Number Line (Grade 3)",
       "de": "Runden auf Zehner und Hunderter – online üben (Klasse 3)",
       "fr": "Droite graduée CE2 : arrondir – exercice en ligne",
       "es": "Marina y los puertos: redondear a la decena y centena (3.º primaria)",
-      "pt": "Marina e os portos: arredondar dezena e centena (4º ano)"
+      "pt": "Marina e os portos: arredondar dezena e centena (4º ano)",
+      "it": "Marina e i porti: arrotondare a decina e centinaio (classe terza)"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Marina the lighthouse-cat send each little boat to its nearest round-number harbor. See where the boat sits on the number line, find the halfway buoy in the middle, and tap the harbor it is closest to — rounding to the nearest 10 and the nearest 100. Common Core 3.NBT.A.1.",
       "de": "Runden auf Zehner und Hunderter üben: Zahlen dem nächsten Zehner und Hunderter zuordnen – Klasse 3. Kostenlos online, ohne Anmeldung.",
       "fr": "Exercice en ligne sur la droite graduée au CE2 : arrondir à la dizaine et à la centaine les plus proches. Gratuit, sans inscription.",
       "es": "Redondea a la decena y a la centena más cercana en la recta numérica con Marina, la gata del faro. Actividad interactiva y gratis de matemáticas para 3.º de primaria, sin registro y alineada a los Planes y programas de estudio (SEP).",
-      "pt": "Suba a bordo com a Marina, a gata do farol, que ajuda os barquinhos a cruzar um mar de números! Cada barco carrega um número e a criança o envia para o porto mais próximo (uma dezena, como 40) ou para o farol mais próximo (uma centena, como 300), guiando-se pela reta numérica. Nas rodadas do meio, toca-se na boia do meio para descobrir que um número bem no centro arredonda para cima. Uma atividade gratuita e interativa de arredondar para a dezena e a centena mais próxima, para o 4º ano, alinhada à BNCC."
+      "pt": "Suba a bordo com a Marina, a gata do farol, que ajuda os barquinhos a cruzar um mar de números! Cada barco carrega um número e a criança o envia para o porto mais próximo (uma dezena, como 40) ou para o farol mais próximo (uma centena, como 300), guiando-se pela reta numérica. Nas rodadas do meio, toca-se na boia do meio para descobrir que um número bem no centro arredonda para cima. Uma atividade gratuita e interativa de arredondar para a dezena e a centena mais próxima, para o 4º ano, alinhada à BNCC.",
+      "it": "Sali a bordo con Marina, la gatta del faro, che aiuta le barchette ad attraversare un mare di numeri! Ogni barca porta un numero e il bambino la spinge fino al porto più vicino (una decina, come 40) oppure fino al faro più vicino (un centinaio, come 300), lasciandosi guidare dalla retta dei numeri. Nei giri speciali si tocca la boa in mezzo per scoprire che un numero proprio al centro, come 45 o 75, si arrotonda per eccesso. È un’attività gratuita e interattiva, senza registrazione, senza timer e senza punteggio, per arrotondare alla decina e al centinaio più vicini nella scuola primaria, in linea con le Indicazioni nazionali."
     },
     "kid_prompt_template": "rounding"
   }

@@ -2680,6 +2680,540 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "result-buns",
+            "cog": "result",
+            "band": 1,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "result",
+            "story": "Il cane aveva 9 biscotti. Ne ha mangiati 3. Quanti biscotti restano?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 9
+              },
+              {
+                "id": "k2",
+                "value": 3
+              },
+              {
+                "id": "d",
+                "value": 10
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": "k2"
+              },
+              {
+                "role": "result",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "addto-change-acorns",
+            "cog": "addto-change",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "change",
+            "story": "Lo scoiattolo aveva 5 ghiande. Poi ne ha trovate altre. Ora ne ha 12. Quante ghiande ha trovato?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-eggs",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
+            "story": "Nel nido c’erano alcune uova. Ne sono arrivate altre 5. Ora ce ne sono 12. Quante uova c’erano prima?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-shells",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
+            "story": "Il granchio aveva alcune conchiglie. Ne ha raccolte altre 4. Ora ne ha 11. Quante conchiglie aveva prima?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 11
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-ducks",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
+            "story": "Nello stagno c’erano 12 anatre. Alcune sono volate via. Ora ce ne sono 8. Quante anatre sono volate via?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 8
+              },
+              {
+                "id": "d",
+                "value": 6
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-berries",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
+            "story": "Sul cespuglio c’erano 15 more. Un uccellino ne ha mangiate alcune. Ora ce ne sono 9. Quante more ha mangiato?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 15
+              },
+              {
+                "id": "k2",
+                "value": 9
+              },
+              {
+                "id": "d",
+                "value": 7
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-start-bunnies",
+            "cog": "takefrom-start",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "start",
+            "story": "Nel prato c’erano alcuni coniglietti. 4 sono saltati via. Ora ce ne sono 6. Quanti coniglietti c’erano prima?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 12
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "puttogether-apples",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
+            "story": "Ci sono 12 mele: 5 sono rosse e le altre sono verdi. Quante mele verdi ci sono?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "puttogether-socks",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
+            "story": "Ci sono 11 gattini: 4 sono neri e gli altri sono bianchi. Quanti gattini bianchi ci sono?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 4
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-diff-cats",
+            "cog": "compare-diff",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "difference",
+            "story": "In sala d’attesa ci sono 12 gatti e 5 cani. Quanti gatti in più ci sono rispetto ai cani?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": "k2"
+              },
+              {
+                "role": "difference",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-cats",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
+            "story": "Ci sono 5 cani. I gatti sono 7 in più dei cani. Quanti gatti ci sono?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-geese",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
+            "story": "Ci sono 6 anatre. Le oche sono 5 in più delle anatre. Quante oche ci sono?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 6
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-cats",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
+            "story": "Ci sono 12 gatti. I gatti sono 7 in più dei cani. Quanti cani ci sono?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-birds",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
+            "story": "Ci sono 11 uccellini rossi. Gli uccellini rossi sono 6 in più di quelli blu. Quanti uccellini blu ci sono?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          }
         ]
       }
     },
@@ -2689,21 +3223,24 @@
       "de": "sachaufgaben-bis-20-klasse-2",
       "fr": "resoudre-des-problemes-jusqu-a-20-ce1",
       "es": "problemas-de-suma-y-resta-hasta-20",
-      "pt": "problemas-de-adicao-e-subtracao-ate-20"
+      "pt": "problemas-de-adicao-e-subtracao-ate-20",
+      "it": "problemi-addizione-sottrazione-entro-20-dal-veterinario"
     },
     "page_title": {
       "en": "Vet's Diagnosis Window — Word-Problem Modeling",
       "de": "Rechengeschichten bis 20 – Tierklinik online üben",
       "fr": "Problèmes de maths CE1 – exercice en ligne (jusqu'à 20)",
       "es": "Problemas de suma y resta hasta 20 (2.º primaria)",
-      "pt": "Problemas de adição e subtração até 20 – Matemática 2º ano (BNCC)"
+      "pt": "Problemas de adição e subtração até 20 – Matemática 2º ano (BNCC)",
+      "it": "Problemi entro il 20 dal veterinario | Classe seconda"
     },
     "page_intro": {
       "en": "A shy little animal shuffles into the woodland vet clinic, and its symptom is a number STORY. Watch the x-ray act out what happened, then model it: place each amount in its spot, mark the mystery part, and dial the answer to clear the x-ray and heal your patient. A warm Grade 1 game about adding and subtracting within 20 to solve word problems with unknowns in every position, aligned to Common Core 1.OA.A.1.",
       "de": "Rechengeschichten bis 20 online üben: kleine Sachaufgaben im Tierklinik-Rechenspiel lösen. Kostenlos online, ohne Anmeldung – für Klasse 2.",
       "fr": "Problèmes de maths CE1 en ligne : résoudre des situations jusqu'à 20 chez le vétérinaire. Gratuit, en ligne, sans inscription.",
       "es": "Resuelve problemas de suma y resta hasta 20 con el zorro veterinario. Juego gratis, interactivo y sin registro para 2.º de primaria (Planes de estudio, SEP).",
-      "pt": "Problemas de adição e subtração até 20 com a raposa veterinária: leia a história, modele no diagrama e descubra o número que falta. Jogo grátis e sem cadastro, alinhado à BNCC."
+      "pt": "Problemas de adição e subtração até 20 com a raposa veterinária: leia a história, modele no diagrama e descubra o número que falta. Jogo grátis e sem cadastro, alinhado à BNCC.",
+      "it": "Nei panni del veterinario, il bambino accoglie gli animali pazienti dello studio veterinario e risolve piccoli problemi uno alla volta. Prima legge la storia dell’animale, poi mette i numeri conosciuti al posto giusto sul diagramma, segna il posto misterioso e infine digita la risposta. È un allenamento completo ai problemi di addizione e sottrazione entro il 20, con l’incognita in ogni posizione — nel risultato, nel cambiamento e anche, più impegnativo, all’inizio — insieme al confronto additivo «quanti in più». Un’attività gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo il piacere di ragionare con calma, sbagliare e riprovare. Pensata per la classe seconda e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "vet-diagnosis"
   }

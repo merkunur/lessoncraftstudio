@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "maple-bakery.share.3-oa-a-2": {
+      "about": [
+        "Maple, la topolina pasticcera, distribuisce 12 biscotti su 3 piatti e scopre che ne toccano 4 a ciascuno: da qui parte il gioco della divisione.",
+        "In alcuni turni si divide in parti uguali sui piatti (il reparto), in altri si raggruppano i biscotti in scatole da un numero fisso e si conta quante scatole si riempiono (il raggruppamento).",
+        "È un percorso pensato per la scuola primaria, in linea con le Indicazioni nazionali, che fa toccare con mano i due significati della divisione senza numeri astratti."
+      ],
+      "practices": [
+        "Dividere una quantità in parti uguali",
+        "Raggruppare in scatole della stessa dimensione",
+        "Capire la divisione come reparto e come raggruppamento",
+        "Collegare l’immagine dei gruppi uguali alla risposta giusta"
+      ],
+      "howToPlay": [
+        "Guarda se Maple divide i biscotti sui piatti oppure li mette in scatole.",
+        "Conta i biscotti su un solo piatto, oppure conta quante scatole sono piene.",
+        "Tocca il numero giusto: se sbagli, riprova con calma."
+      ],
+      "learningGoals": [
+        "Dividere una quantità in gruppi uguali senza resto",
+        "Riconoscere quando la divisione serve a ripartire e quando a raggruppare",
+        "Contare quanti elementi stanno in ogni gruppo o quanti gruppi si formano"
+      ]
+    },
     "echo-grove.match-the-rune.3-oa-a-1": {
       "about": [
         "Con il gufo Pim, il bambino vede una runa come “3 × 4” e cerca il boschetto con 3 gruppi da 4 frutti: così scopre la moltiplicazione come gruppi uguali.",

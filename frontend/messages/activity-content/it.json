@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "Dott.ssa Plume è una civetta nonna dagli occhiali tondi che gestisce una piccola clinica tutta speciale: la clinica delle frasi.",
+        "Ogni frase entra un po' pasticciata, con una maiuscola dimenticata, un punto mancante o le parole in disordine.",
+        "Il bambino o la bambina fa una piccola correzione e aiuta ogni frase a suonare bene di nuovo."
+      ],
+      "practices": [
+        "Mettere la maiuscola all'inizio della frase",
+        "Aggiungere il punto alla fine",
+        "Far concordare il verbo con il soggetto",
+        "Rimettere le parole in ordine o dividere due frasi attaccate"
+      ],
+      "howToPlay": [
+        "Guarda la frase pasticciata e ascolta come «suona».",
+        "Fai la correzione giusta: tocca la parola o il segno da sistemare.",
+        "Tocca «Verifica» quando la frase suona bene, con calma e senza fretta."
+      ],
+      "learningGoals": [
+        "Riconoscere e correggere piccoli errori in una frase: maiuscola, punto, verbo e ordine delle parole",
+        "Capire che una frase «suona bene» quando è chiara, ordinata e completa",
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+      ]
+    },
     "pronoun.case.l-1-1-d": {
       "about": [
         "Nella cappelleria di Hattie la lepre, gli scaffali traboccano di cappelli-parola: piccoli pronomi da provare frase dopo frase.",

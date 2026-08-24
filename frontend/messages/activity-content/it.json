@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "hazel-word-bridge.joining-words.l-1-1-g": {
+      "about": [
+        "Tra i canneti del fiume, Hazel la garzetta raccoglie due idee e cerca la parolina giusta per farle da ponte.",
+        "In ogni frase manca la congiunzione: basta leggere le due parti e scegliere la parola che le collega con il senso giusto.",
+        "Piano piano, unire le idee con «e», «o», «ma» o «perché» diventa un gesto naturale."
+      ],
+      "practices": [
+        "Collegare due idee con la congiunzione giusta",
+        "Distinguere e, o, ma e perché",
+        "Scegliere la parola che ha senso nella frase",
+        "Completare la frase con la congiunzione corretta"
+      ],
+      "howToPlay": [
+        "Leggi la frase con lo spazio vuoto.",
+        "Pensa a come si collegano le due parti.",
+        "Tocca la congiunzione giusta, con calma."
+      ],
+      "learningGoals": [
+        "Riconoscere le congiunzioni e, o, ma, perché",
+        "Collegare due parti di una frase con la parola giusta",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica"
+      ]
+    },
     "vera-verb-match.be-agreement.l-1-1-c": {
       "about": [
         "Tra i fili d'erba, Vera la topolina raccoglie le frasi come piccoli semi e le porta a chi gioca.",

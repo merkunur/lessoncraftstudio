@@ -444,6 +444,16 @@
           { "id": "saber", "band": 2, "present": "sei a resposta", "correct": "soube", "choices": [ { "word": "soube" }, { "word": "sei" }, { "word": "sabi" } ] },
           { "id": "estar", "band": 3, "present": "estou feliz", "correct": "estive", "choices": [ { "word": "estive" }, { "word": "estou" }, { "word": "estei" } ] },
           { "id": "caber", "band": 3, "present": "caibo na caixa", "correct": "coube", "choices": [ { "word": "coube" }, { "word": "caibo" }, { "word": "cabi" } ] }
+        ],
+        "it": [
+          { "id": "prendere", "band": 1, "present": "prendo una mela", "correct": "preso", "choices": [ { "word": "preso" }, { "word": "prendo" }, { "word": "prenduto" } ] },
+          { "id": "leggere", "band": 1, "present": "leggo un libro", "correct": "letto", "choices": [ { "word": "leggo" }, { "word": "letto" }, { "word": "leggiuto" } ] },
+          { "id": "scrivere", "band": 1, "present": "scrivo una lettera", "correct": "scritto", "choices": [ { "word": "scrivo" }, { "word": "scrivuto" }, { "word": "scritto" } ] },
+          { "id": "chiudere", "band": 2, "present": "chiudo la porta", "correct": "chiuso", "choices": [ { "word": "chiuso" }, { "word": "chiudo" }, { "word": "chiuduto" } ] },
+          { "id": "rompere", "band": 2, "present": "rompo il vaso", "correct": "rotto", "choices": [ { "word": "rompo" }, { "word": "rotto" }, { "word": "romputo" } ] },
+          { "id": "aprire", "band": 2, "present": "apro il regalo", "correct": "aperto", "choices": [ { "word": "apro" }, { "word": "aprito" }, { "word": "aperto" } ] },
+          { "id": "mettere", "band": 3, "present": "metto il cappello", "correct": "messo", "choices": [ { "word": "messo" }, { "word": "metto" }, { "word": "mettuto" } ] },
+          { "id": "chiedere", "band": 3, "present": "chiedo un gelato", "correct": "chiesto", "choices": [ { "word": "chiedo" }, { "word": "chiesto" }, { "word": "chieduto" } ] }
         ]
       }
     },
@@ -453,21 +463,24 @@
       "de": "unregelmaessige-verben-praeteritum-ueben-klasse-3",
       "fr": "le-passe-compose-verbes-irreguliers-ce2",
       "es": "preterito-verbos-irregulares-pasado-3-primaria",
-      "pt": "verbos-irregulares-preterito-perfeito-passado-3-ano"
+      "pt": "verbos-irregulares-preterito-perfeito-passado-3-ano",
+      "it": "verbi-irregolari-passato-classe-terza"
     },
     "page_title": {
       "en": "Rusty's Yesterday Machine — Irregular Past-Tense Verbs (Grade 2)",
       "de": "Zeitformen Klasse 3 – Präteritum online üben",
       "fr": "Conjugaison CE2 : le passé composé – exercice en ligne",
       "es": "Rusty y la máquina del tiempo: verbos irregulares en pretérito (3.º primaria)",
-      "pt": "Verbos irregulares no passado com o Rusty | 3º ano"
+      "pt": "Verbos irregulares no passado com o Rusty | 3º ano",
+      "it": "Rusty e la macchina di ieri: i verbi irregolari al passato (classe terza)"
     },
     "page_intro": {
       "en": "Rusty the robot's machine turns today's verbs into yesterday's! Some verbs are tricky — they don't just add -ed. Today I go, but yesterday I went (not 'goed'). Read the verb, then tap the right way to say it about yesterday. A Grade 2 grammar game about irregular past-tense verbs, aligned to Common Core L.2.1.d.",
       "de": "Zeitformen in Klasse 3: unregelmäßige Verben im Präteritum üben mit Rustys Gestern-Maschine. Kostenlos online üben, ohne Anmeldung.",
       "fr": "Conjugaison CE2 en ligne : entraîne-toi sur le passé composé des verbes irréguliers, avec correction immédiate. Gratuit, sans inscription.",
       "es": "Rusty el robot enciende su máquina del tiempo para viajar de «hoy» a «ayer»: tu hijo toca el pretérito correcto de los verbos irregulares. Gratis e interactivo para 3.º de primaria, alineado a los Planes y programas de estudio (SEP).",
-      "pt": "Com o Rusty e a máquina de ontem, a criança do 3º ano lê a frase no presente e toca na forma certa do passado: verbos irregulares no pretérito perfeito."
+      "pt": "Com o Rusty e a máquina de ontem, a criança do 3º ano lê a frase no presente e toca na forma certa do passado: verbos irregulares no pretérito perfeito.",
+      "it": "Rusty il robot ha costruito una macchina speciale: da una parte entra un verbo di «oggi» e dall'altra esce come era «ieri». Il bambino legge la frase al presente — «Oggi prendo una mela» — e tocca la forma giusta del passato prossimo: «ho preso», non «ho prenduto». Un modo divertente per imparare i verbi irregolari e per non cadere nell'errore più comune. È tutto gratuito: nessuna registrazione, nessun punteggio, nessuna gara — si gioca direttamente dal browser. Pensata per la classe terza e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Yesterday — which word is right?"
   }

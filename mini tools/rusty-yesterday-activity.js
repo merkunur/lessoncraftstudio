@@ -17,8 +17,8 @@
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -36,15 +36,15 @@
     id: 'rusty-yesterday-activity',
 
     strings: {
-      title: { en: "Rusty's Yesterday Machine", de: 'Rustys Gestern-Maschine', fr: 'La machine à hier de Rusty', es: 'La máquina del ayer de Rusty', pt: 'Rusty e a Máquina de Ontem' },
-      prompt: { en: 'Which word is right for yesterday?', de: 'Welches Wort passt zu gestern?', fr: 'Quel mot va avec hier ?', es: '¿Qué palabra va con ayer?', pt: 'Qual palavra é a certa para ontem?' },
-      rustyIntro: { en: 'My machine turns today-verbs into yesterday-verbs!', de: 'Ich bin Rusty! Meine Maschine macht aus Heute-Wörtern Gestern-Wörter. Probier es aus! 🤖', fr: '🤖 Ma machine change les mots d’aujourd’hui en mots d’hier !', es: '¡Soy Rusty! Mi máquina cambia las palabras de hoy por las de ayer. ¡Pruébala! 🤖', pt: 'Sou o Rusty! Minha máquina vira hoje em ontem. 🤖' },
-      todayTpl: { en: 'Today I {present}.', de: 'Heute {present} ich.', fr: 'Aujourd’hui, je {present}.', es: 'Hoy {present}.', pt: 'Hoje eu {present}.' },
-      yTpl: { en: 'Yesterday I …', de: 'Gestern … ich?', fr: 'Hier, j’ai …?', es: '¿Y ayer?', pt: 'E ontem?' },
-      theAsk: { en: 'Tap the word that tells about yesterday.', de: 'Tippe das Wort für gestern an.', fr: 'Touche le mot d’hier.', es: 'Toca la palabra de ayer.', pt: 'Toque na palavra que fala de ontem.' },
-      hintPick: { en: 'Some verbs change in a tricky way — tap your pick!', de: 'Tippe ein Wort an, das zu gestern passt.', fr: 'Cherche le mot qui va avec hier.', es: 'Toca la palabra que va con ayer.', pt: 'Alguns verbos mudam de um jeito diferente — toque na sua escolha!' },
-      hintWrong: { en: "Not quite — yesterday's word doesn't just add -ed.", de: 'Fast! Starke Verben hängen kein „-te" an – sie ändern ihren Selbstlaut: gehe → ging.', fr: 'Oups ! Ces mots changent : « faire » devient « fait », pas « faisé ».', es: '¡Casi! Estos verbos cambian: «hago» se vuelve «hice», no «hací».', pt: 'Quase! Alguns verbos mudam bem diferente no passado — não é só juntar um final.' },
-      win: { en: 'Beep boop — that is yesterday’s word! 🤖', de: 'Stark gemacht! Die Maschine hat es geschafft. 🤖', fr: '🤖 Bravo ! Ta machine à voyager dans le temps marche super bien !', es: '¡Muy bien! La máquina lo logró. 🤖', pt: 'Bip bop — essa é a palavra de ontem! 🤖' }
+      title: { en: "Rusty's Yesterday Machine", de: 'Rustys Gestern-Maschine', fr: 'La machine à hier de Rusty', es: 'La máquina del ayer de Rusty', pt: 'Rusty e a Máquina de Ontem', it: 'Rusty e la macchina di ieri' },
+      prompt: { en: 'Which word is right for yesterday?', de: 'Welches Wort passt zu gestern?', fr: 'Quel mot va avec hier ?', es: '¿Qué palabra va con ayer?', pt: 'Qual palavra é a certa para ontem?', it: 'Quale parola è giusta per ieri?' },
+      rustyIntro: { en: 'My machine turns today-verbs into yesterday-verbs!', de: 'Ich bin Rusty! Meine Maschine macht aus Heute-Wörtern Gestern-Wörter. Probier es aus! 🤖', fr: '🤖 Ma machine change les mots d’aujourd’hui en mots d’hier !', es: '¡Soy Rusty! Mi máquina cambia las palabras de hoy por las de ayer. ¡Pruébala! 🤖', pt: 'Sou o Rusty! Minha máquina vira hoje em ontem. 🤖', it: 'Sono Rusty! La mia macchina trasforma oggi in ieri. 🤖' },
+      todayTpl: { en: 'Today I {present}.', de: 'Heute {present} ich.', fr: 'Aujourd’hui, je {present}.', es: 'Hoy {present}.', pt: 'Hoje eu {present}.', it: 'Oggi {present}.' },
+      yTpl: { en: 'Yesterday I …', de: 'Gestern … ich?', fr: 'Hier, j’ai …?', es: '¿Y ayer?', pt: 'E ontem?', it: 'Ieri ho …?' },
+      theAsk: { en: 'Tap the word that tells about yesterday.', de: 'Tippe das Wort für gestern an.', fr: 'Touche le mot d’hier.', es: 'Toca la palabra de ayer.', pt: 'Toque na palavra que fala de ontem.', it: 'Tocca la parola che parla di ieri.' },
+      hintPick: { en: 'Some verbs change in a tricky way — tap your pick!', de: 'Tippe ein Wort an, das zu gestern passt.', fr: 'Cherche le mot qui va avec hier.', es: 'Toca la palabra que va con ayer.', pt: 'Alguns verbos mudam de um jeito diferente — toque na sua escolha!', it: 'Alcuni verbi cambiano in modo speciale — tocca la tua scelta!' },
+      hintWrong: { en: "Not quite — yesterday's word doesn't just add -ed.", de: 'Fast! Starke Verben hängen kein „-te" an – sie ändern ihren Selbstlaut: gehe → ging.', fr: 'Oups ! Ces mots changent : « faire » devient « fait », pas « faisé ».', es: '¡Casi! Estos verbos cambian: «hago» se vuelve «hice», no «hací».', pt: 'Quase! Alguns verbos mudam bem diferente no passado — não é só juntar um final.', it: 'Quasi! Alcuni verbi cambiano nel passato: «prendere» diventa «preso», non «prenduto».' },
+      win: { en: 'Beep boop — that is yesterday’s word! 🤖', de: 'Stark gemacht! Die Maschine hat es geschafft. 🤖', fr: '🤖 Bravo ! Ta machine à voyager dans le temps marche super bien !', es: '¡Muy bien! La máquina lo logró. 🤖', pt: 'Bip bop — essa é a palavra de ontem! 🤖', it: 'Bip bop — questa è la parola di ieri! 🤖' }
     },
     defaults: {},
 
@@ -74,7 +74,7 @@
       var say = api.el('div', 'ryd-say'); say.textContent = api.t('rustyIntro'); row.appendChild(say);
       root.appendChild(row);
 
-      var panel = api.el('button', 'ryd-panel'); panel.type = 'button'; panel.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : 'hear the sentence');
+      var panel = api.el('button', 'ryd-panel'); panel.type = 'button'; panel.setAttribute('aria-label', LANG === 'de' ? 'Satz anhören' : LANG === 'fr' ? 'écouter la phrase' : LANG === 'es' ? 'escuchar la oración' : LANG === 'pt' ? 'ouvir a frase' : LANG === 'it' ? 'ascolta la frase' : 'hear the sentence');
       var today = api.el('div', 'ryd-today'); today.innerHTML = api.t('todayTpl').replace('{present}', '<b>' + esc(v.present) + '</b>'); panel.appendChild(today);
       var yest = api.el('div', 'ryd-yest'); yest.textContent = api.t('yTpl'); panel.appendChild(yest);
       panel.addEventListener('click', function () { speak(api.t('todayTpl').replace('{present}', v.present) + ' ' + api.t('yTpl')); });

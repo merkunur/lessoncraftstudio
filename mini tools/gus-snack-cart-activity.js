@@ -33,13 +33,13 @@
     id: 'gus-snack-cart-activity',
 
     strings: {
-      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen", fr: 'Le stand de snacks de Gus', es: 'El carrito de Gus', pt: 'O carrinho de lanches do Gus' },
-      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.', fr: 'Additionne ou soustrais jusqu’à 100, puis tape la réponse.', es: 'Suma o resta hasta 100 y escribe la respuesta.', pt: 'Some ou subtraia até 100 e escreva a resposta.' },
-      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.', fr: 'Additionne ou soustrais.', es: 'Suma o resta. Escribe tu respuesta abajo.', pt: 'Some ou subtraia. Digite a resposta.' },
-      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!', fr: 'Aide Gus à compter ses snacks — ajoute ce qu’il récolte, enlève ce qu’il vend !', es: '¡Ayúdale a Gus a contar sus botanas: suma lo que recibe y quita lo que vende!', pt: 'Ajude o Gus a contar os lanches: some o que chega e tire o que ele vende!' },
-      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.', fr: 'Il en a eu PLUS — additionne les deux nombres.', es: 'Recibió MÁS: suma los dos números.', pt: 'Recebeu MAIS: some os dois números.' },
-      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.', fr: 'Il en manque — enlève le second nombre.', es: 'Ya vendió algunas: resta el segundo número.', pt: 'Já vendeu alguns: subtraia o segundo número.' },
-      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜', fr: 'Oui ! Le compte est bon. 🥜', es: '¡Justo! 🥜', pt: 'Certinho! 🥜' }
+      title: { en: "Gus's Snack Cart", de: "Gus' Snackwagen", fr: 'Le stand de snacks de Gus', es: 'El carrito de Gus', pt: 'O carrinho de lanches do Gus', it: 'Il carretto di Gus' },
+      instruction: { en: 'Add or subtract within 100 and type the answer.', de: 'Rechne plus oder minus bis 100 und tippe die Antwort ein.', fr: 'Additionne ou soustrais jusqu’à 100, puis tape la réponse.', es: 'Suma o resta hasta 100 y escribe la respuesta.', pt: 'Some ou subtraia até 100 e escreva a resposta.', it: 'Somma o sottrai entro il 100 e scrivi la risposta.' },
+      prompt: { en: 'Add or subtract. Type the answer below.', de: 'Rechne plus oder minus. Tippe die Antwort unten ein.', fr: 'Additionne ou soustrais.', es: 'Suma o resta. Escribe tu respuesta abajo.', pt: 'Some ou subtraia. Digite a resposta.', it: 'Somma o sottrai. Scrivi la risposta qui sotto.' },
+      gusIntro: { en: 'Help Gus count his snacks — add what he gets, take away what he sells!', de: 'Hilf Gus, seine Snacks zu zählen – rechne dazu, was er bekommt, und weg, was er verkauft!', fr: 'Aide Gus à compter ses snacks — ajoute ce qu’il récolte, enlève ce qu’il vend !', es: '¡Ayúdale a Gus a contar sus botanas: suma lo que recibe y quita lo que vende!', pt: 'Ajude o Gus a contar os lanches: some o que chega e tire o que ele vende!', it: 'Aiuta Gus a contare i suoi snack: aggiungi quelli che riceve e togli quelli che vende!' },
+      hintAdd: { en: 'He got MORE — add the two numbers together.', de: 'Er hat MEHR bekommen – zähle die beiden Zahlen zusammen.', fr: 'Il en a eu PLUS — additionne les deux nombres.', es: 'Recibió MÁS: suma los dos números.', pt: 'Recebeu MAIS: some os dois números.', it: 'Ne ha avuti di più: somma i due numeri.' },
+      hintSub: { en: 'Some are gone — take the second number away.', de: 'Einige sind weg – ziehe die zweite Zahl ab.', fr: 'Il en manque — enlève le second nombre.', es: 'Ya vendió algunas: resta el segundo número.', pt: 'Já vendeu alguns: subtraia o segundo número.', it: 'Alcuni sono spariti: togli il secondo numero.' },
+      win: { en: 'Yes! That adds up. 🥜', de: 'Stimmt genau! 🥜', fr: 'Oui ! Le compte est bon. 🥜', es: '¡Justo! 🥜', pt: 'Certinho! 🥜', it: 'Sì! Il conto torna. 🥜' }
     },
     defaults: {},
 

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "winter-piles.draw-partition.2-oa-c-4": {
+      "about": [
+        "Lo scoiattolo Flo dispone le sue ghiande in uno schieramento di file e colonne, e il bambino traccia una linea per dividerle in mucchietti uguali finché non compare una somma di addendi uguali come “4 + 4 + 4 = 12” e i mucchietti brillano.",
+        "Lavorando con le file e le colonne, il bambino scopre che tante quantità uguali messe insieme si possono scrivere come un’unica addizione ripetuta, un primo passo concreto verso la moltiplicazione.",
+        "È una pratica pensata per la scuola primaria e in linea con le Indicazioni nazionali, con un tono sereno e senza fretta: niente timer, niente punteggio, solo ghiande da contare."
+      ],
+      "practices": [
+        "Dividere uno schieramento in mucchietti uguali",
+        "Contare quante ghiande ci sono in ogni mucchietto",
+        "Scrivere il totale come somma di addendi uguali, come “4 + 4 + 4 = 12”",
+        "Formare un numero preciso di mucchietti tutti uguali"
+      ],
+      "howToPlay": [
+        "Osserva le ghiande di Flo disposte in file e colonne.",
+        "Disegna una linea per tagliare le file in mucchietti uguali.",
+        "Conta le ghiande di un mucchietto e tocca il numero giusto: quando i mucchietti sono tutti uguali, compare l’addizione ripetuta."
+      ],
+      "learningGoals": [
+        "Riconoscere gruppi uguali dentro uno schieramento",
+        "Trasformare gruppi uguali in una somma di addendi uguali",
+        "Iniziare a vedere il legame tra l’addizione ripetuta e la moltiplicazione"
+      ]
+    },
     "maple-bakery.share.3-oa-a-2": {
       "about": [
         "Maple, la topolina pasticcera, distribuisce 12 biscotti su 3 piatti e scopre che ne toccano 4 a ciascuno: da qui parte il gioco della divisione.",

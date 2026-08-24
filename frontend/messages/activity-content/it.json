@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "cleo-packing-list.series-commas.l-1-2-b": {
+      "about": [
+        "Cleo il camaleonte non riesce a uscire di casa senza il suo elenco della spesa, e cambia colore ogni volta che trova la virgola giusta.",
+        "Il bambino confronta la stessa frase scritta in tre modi e tocca quella in cui le virgole separano bene le cose, senza mai finire davanti alla «e».",
+        "Un'attività breve e rilassata per prendere confidenza con la punteggiatura degli elenchi."
+      ],
+      "practices": [
+        "Usare la virgola per separare gli elementi di un elenco",
+        "Riconoscere dove la virgola NON va (mai prima della «e»)",
+        "Confrontare la stessa frase scritta in modi diversi",
+        "Leggere con attenzione la punteggiatura di una frase"
+      ],
+      "howToPlay": [
+        "Leggi la frase di Cleo scritta in tre modi diversi.",
+        "Osserva dove sono messe le virgole in ogni versione.",
+        "Tocca la frase con le virgole al posto giusto."
+      ],
+      "learningGoals": [
+        "Mettere la virgola tra gli elementi di un elenco",
+        "Capire che la virgola non si mette prima della «e»",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali."
+      ]
+    },
     "hazel-word-bridge.joining-words.l-1-1-g": {
       "about": [
         "Tra i canneti del fiume, Hazel la garzetta raccoglie due idee e cerca la parolina giusta per farle da ponte.",

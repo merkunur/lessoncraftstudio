@@ -116,6 +116,19 @@
           { "id": "af-which-despentear", "cog": "which", "root": "pentear", "affix": "un",  "meaning": "o contrário de pentear", "options": ["un","re","ful"] },
           { "id": "af-which-reabrir",    "cog": "which", "root": "abrir",   "affix": "re",  "meaning": "abrir de novo",          "options": ["un","re","ful"] },
           { "id": "af-which-cheiroso",   "cog": "which", "root": "cheiro",  "affix": "ful", "meaning": "cheio de cheiro",        "options": ["un","re","ful"] }
+        ],
+        "it": [
+          { "id": "af-disordinato",  "cog": "apply", "word": "disordinato",  "root": "ordinato",   "affix": "un",  "options": [ { "affix": "un", "text": "il contrario di ordinato" }, { "affix": "re", "text": "ordinato di nuovo" }, { "affix": "ful", "text": "pieno di ordine" } ] },
+          { "id": "af-disubbidiente","cog": "apply", "word": "disubbidiente","root": "ubbidiente", "affix": "un",  "options": [ { "affix": "un", "text": "il contrario di ubbidiente" }, { "affix": "re", "text": "ubbidiente di nuovo" }, { "affix": "ful", "text": "pieno di ubbidienza" } ] },
+          { "id": "af-disattento",   "cog": "apply", "word": "disattento",   "root": "attento",    "affix": "un",  "options": [ { "affix": "un", "text": "il contrario di attento" }, { "affix": "re", "text": "attento di nuovo" }, { "affix": "ful", "text": "pieno di attenzione" } ] },
+          { "id": "af-rileggere",    "cog": "apply", "word": "rileggere",    "root": "leggere",    "affix": "re",  "options": [ { "affix": "re", "text": "leggere di nuovo" }, { "affix": "un", "text": "il contrario di leggere" }, { "affix": "ful", "text": "pieno di libri" } ] },
+          { "id": "af-riscrivere",   "cog": "apply", "word": "riscrivere",   "root": "scrivere",   "affix": "re",  "options": [ { "affix": "re", "text": "scrivere di nuovo" }, { "affix": "un", "text": "il contrario di scrivere" }, { "affix": "ful", "text": "pieno di parole" } ] },
+          { "id": "af-coraggioso",   "cog": "apply", "word": "coraggioso",   "root": "coraggio",   "affix": "ful", "options": [ { "affix": "ful", "text": "pieno di coraggio" }, { "affix": "un", "text": "il contrario di coraggio" }, { "affix": "re", "text": "coraggio di nuovo" } ] },
+          { "id": "af-pauroso",      "cog": "apply", "word": "pauroso",      "root": "paura",      "affix": "ful", "options": [ { "affix": "ful", "text": "pieno di paura" }, { "affix": "un", "text": "il contrario di paura" }, { "affix": "re", "text": "paura di nuovo" } ] },
+          { "id": "af-rumoroso",     "cog": "apply", "word": "rumoroso",     "root": "rumore",     "affix": "ful", "options": [ { "affix": "ful", "text": "pieno di rumore" }, { "affix": "un", "text": "il contrario di rumore" }, { "affix": "re", "text": "rumore di nuovo" } ] },
+          { "id": "af-which-disonesto", "cog": "which", "root": "onesto", "affix": "un",  "meaning": "il contrario di onesto", "options": ["un","re","ful"] },
+          { "id": "af-which-riaprire",  "cog": "which", "root": "aprire", "affix": "re",  "meaning": "aprire di nuovo",        "options": ["un","re","ful"] },
+          { "id": "af-which-gioioso",   "cog": "which", "root": "gioia",  "affix": "ful", "meaning": "pieno di gioia",         "options": ["un","re","ful"] }
         ]
       }
     },
@@ -124,21 +137,24 @@
       "de": "wortbausteine-vorsilben-nachsilben-klasse-2",
       "fr": "prefixes-suffixes-le-sens-des-mots-ce1",
       "es": "prefijos-y-sufijos-formacion-de-palabras-2-primaria",
-      "pt": "maquina-de-palavras-marigold-prefixos-sufixos-formacao-de-palavras-2-ano"
+      "pt": "maquina-de-palavras-marigold-prefixos-sufixos-formacao-de-palavras-2-ano",
+      "it": "prefissi-e-suffissi-significato-delle-parole-classe-seconda"
     },
     "page_title": {
       "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
       "de": "Marigolds Wortmaschine: Vorsilben & Nachsilben – Klasse 2",
       "fr": "Préfixes et suffixes : le sens des mots – CE1",
       "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)",
-      "pt": "A Máquina de Palavras da Marigold: prefixos e sufixos"
+      "pt": "A Máquina de Palavras da Marigold: prefixos e sufixos",
+      "it": "La macchina delle parole di Marigold: prefissi e suffissi (classe seconda)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
       "de": "Mit Marigold un-, -voll und -los entdecken: Dein Kind verändert mit Vorsilben und Nachsilben die Wortbedeutung. Kostenlos, interaktiv üben – Deutsch Klasse 2.",
       "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1.",
       "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva y gratuita de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
-      "pt": "A Marigold, uma toupeira, tem uma máquina que cola prefixos e sufixos às palavras e muda o sentido delas. Formação de palavras para o 2º ano, no seu ritmo."
+      "pt": "A Marigold, uma toupeira, tem uma máquina que cola prefixos e sufixos às palavras e muda o sentido delas. Formação de palavras para o 2º ano, no seu ritmo.",
+      "it": "Marigold la talpa ha costruito una macchina delle parole piena di ingranaggi: ogni ingranaggio è un prefisso o un suffisso. Girando gli ingranaggi, il bambino scopre come prefissi e suffissi cambiano il significato delle parole — il «contrario» con dis-, il «di nuovo» con ri-, il «pieno di» con -oso. È un'attività gratuita, senza registrazione, che si gioca direttamente nel browser, senza punteggi e senza fretta. Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico, aiuta a collegare ogni parola nuova al suo significato."
     },
     "kid_prompt_template": "affix"
   }

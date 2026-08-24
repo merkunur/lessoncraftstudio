@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "affix.apply.l-2-4-b": {
+      "about": [
+        "Marigold la talpa gira gli ingranaggi della sua macchina delle parole, e ogni ingranaggio è un piccolo prefisso o suffisso che trasforma la parola.",
+        "Il bambino osserva una parola formata da una radice più un ingranaggio e scopre come cambia il suo significato.",
+        "Un po' alla volta, capisce che dis-, ri- e -oso non sono solo pezzetti di parola: sono ingranaggi che fanno funzionare il significato."
+      ],
+      "practices": [
+        "Capire come un prefisso o un suffisso cambia il significato di una parola",
+        "Riconoscere il «contrario» (dis-), il «di nuovo» (ri-) e il «pieno di» (-oso)",
+        "Collegare la parola nuova al suo significato",
+        "Osservare come una radice e un ingranaggio si uniscono per formare una parola"
+      ],
+      "howToPlay": [
+        "Guarda la parola che compare nella macchina di Marigold.",
+        "Pensa a cosa fa l'ingranaggio: aggiunge, capovolge o riempie il significato?",
+        "Tocca il significato giusto — nessun punteggio, con calma."
+      ],
+      "learningGoals": [
+        "Scoprire che prefissi e suffissi cambiano il significato delle parole",
+        "Arricchire il lessico riconoscendo dis-, ri- e -oso in parole nuove",
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico"
+      ]
+    },
     "tense.past-present-future.l-1-1-e": {
       "about": [
         "Juniper il pettirosso custodisce una torre del tempo con tre finestre luminose: una per il passato, una per il presente e una per il futuro.",

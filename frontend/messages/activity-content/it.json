@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "Allo studio veterinario ogni animale arriva con la sua piccola storia: tre gattini nella cesta e altri che si aggiungono, i conigli che erano nel recinto prima che qualcuno scappasse, le crocchette date al mattino e quelle rimaste alla sera. Nei panni del veterinario, il bambino ascolta il racconto di ciascun paziente, appoggia i numeri conosciuti sul diagramma della diagnosi e individua il punto ancora da scoprire. Non è un semplice calcolo in colonna: è una vera indagine, in cui capire che cosa manca è già metà della cura.",
+        "Dietro il gioco c’è un lavoro serio sui problemi. Il bambino impara a leggere con attenzione il testo, a distinguere quando si aggiunge e quando si toglie, e a collocare l’incognita in ogni posizione: nel risultato, nella parte che cambia e persino all’inizio, il caso più difficile perché costringe a ragionare «al contrario». Ci sono anche i problemi di confronto additivo, quelli in cui bisogna capire «quanti in più» ha un animale rispetto a un altro. Sono proprio i nodi su cui tanti bambini si bloccano, affrontati qui un passo alla volta.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali. È completamente gratuita e interattiva, non richiede registrazione e non ha né timer né punteggio: nessuna fretta, nessuna gara. Il bambino può fermarsi, ripensarci e riprovare quante volte vuole, trovando nello studio veterinario un ambiente sereno in cui sbagliare fa parte dell’imparare."
+      ],
+      "practices": [
+        "Problemi di addizione e sottrazione entro il 20",
+        "L’incognita in ogni posizione, anche all’inizio",
+        "Il confronto additivo «quanti in più»",
+        "Leggere il testo e scegliere l’operazione giusta"
+      ],
+      "howToPlay": [
+        "Leggi la storia dell’animale paziente.",
+        "Metti i numeri al posto giusto sul diagramma e segna il posto misterioso.",
+        "Digita la risposta e cura il tuo paziente."
+      ],
+      "learningGoals": [
+        "Risolvere problemi di addizione e sottrazione entro il 20",
+        "Trovare l’incognita nel risultato, nel cambiamento e all’inizio",
+        "Confrontare le quantità e capire «quanti in più»"
+      ]
+    },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
         "Nella dispensa del coniglio Bo le more non stanno mai in disordine: dieci more entrano in una cassetta, e ciò che resta rimane sfuso sul ripiano. Il bambino aiuta Bo a sistemare la raccolta leggendo un numero a due cifre e riempiendo gli scaffali giusti — una cassetta dopo l’altra per le decine, una mora dopo l’altra per le unità. Ogni numero diventa così una piccola storia da comporre con le mani, e la dispensa si riempie a poco a poco mentre Bo osserva soddisfatto.",

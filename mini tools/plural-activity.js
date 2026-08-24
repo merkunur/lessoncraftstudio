@@ -59,6 +59,18 @@
       nChange: '“{sing}” é uma palavra especial — ela muda, e não é só juntar um s. Olhe de novo!',
       nNoChange: '“{sing}” fica IGUAL para muitas — não junte um s! Olhe de novo!',
       srMirror: '{q} A palavra é {sing}. Opções: {chips}.'
+    },
+    /* it (Indicazioni nazionali, classe seconda; strand «Language» → «Riflessione linguistica» via strand-names.ts):
+       mascot «Perla» (localize «Pearl», fr/pt precedent). ⚠ THE +s FRAMING: Italian NEVER forms plurals with -s,
+       so the hard-coded +s chip is the FOREIGN plural (amicos) — the nudge/win reframe it «in italiano il plurale
+       non si fa con la -s: cambia in modo speciale». Quotes = «...» caporali. ⚠ «Qual è» NEVER «qual'è». */
+    it: {
+      q: '{q}',
+      win: 'Sì! {note}', winNote: 'In italiano il plurale non si fa con la -s: cambia in modo speciale!',
+      hear: '🔊 Ascolta',
+      nChange: '«{sing}» è una parola speciale: cambia, e in italiano non si aggiunge la -s! Guarda di nuovo!',
+      nNoChange: '«{sing}» resta uguale per tanti: non aggiungere la -s! Guarda di nuovo!',
+      srMirror: '{q} La parola è «{sing}». Scelte: {chips}.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -79,9 +91,9 @@
   var PluralActivity = {
     id: 'plural-activity',
     strings: {
-      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola' },
-      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}' }
+      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola', it: 'Lo stagno di Perla' },
+      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}' }
     },
 
     init: function (api) {
@@ -193,7 +205,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pl-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : LANG === 'es' ? ('«' + round.singular + '» en plural. ¿Cuál es el correcto?') : LANG === 'pt' ? ('Mais de um “' + round.singular + '”. Qual é o plural certo?') : ('More than one ' + round.singular + '. Which one is right?');
+        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : LANG === 'es' ? ('«' + round.singular + '» en plural. ¿Cuál es el correcto?') : LANG === 'pt' ? ('Mais de um “' + round.singular + '”. Qual é o plural certo?') : LANG === 'it' ? ('Il plurale di «' + round.singular + '». Qual è quello giusto?') : ('More than one ' + round.singular + '. Which one is right?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);

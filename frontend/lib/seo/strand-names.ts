@@ -175,6 +175,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     nl: 'Taal', // SLO-kerndoelen leergebied Nederlands/taal (nl literacy fan-out)
     fi: 'Kielen rakenteet ja oikeinkirjoitus', // OPS 2014 äidinkieli: language structures & spelling
     pt: 'Análise linguística/semiótica', // BNCC Língua Portuguesa eixo (morfologia/ortografia — flexão de número); pt literacy fan-out — reused by every future pt Language activity
+    it: 'Riflessione linguistica', // Indicazioni nazionali area "Elementi di grammatica esplicita e riflessione sugli usi della lingua"; it literacy fan-out — reused by every future it Language/grammar activity
   },
   'Vocabulary Acquisition and Use': {
     en: 'Vocabulary Acquisition and Use',

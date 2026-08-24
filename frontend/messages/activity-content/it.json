@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "plural.irregular.l-2-1-b": {
+      "about": [
+        "Allo stagno di Perla, tra ninfee e riflessi tranquilli, tuo figlio scopre i plurali particolari dell'italiano insieme a una dolce perla-luna che gli fa da guida.",
+        "L'idea centrale è semplice e sorprendente: in italiano il plurale non si fa con la -s, ma cambia in modi speciali che vale la pena conoscere uno per uno.",
+        "Parole come uovo/uova, uomo/uomini e dito/dita mostrano che la lingua ha piccole regole tutte sue, e Perla le presenta con calma e senza fretta."
+      ],
+      "practices": [
+        "Riconoscere il plurale corretto di nomi con forme particolari, come uovo/uova e braccio/braccia.",
+        "Capire che il plurale italiano non aggiunge la -s ma trasforma la parola in modo speciale.",
+        "Applicare la regola dell'h nei nomi in -co e -go, distinguendo amico/amici da lago/laghi e amica/amiche.",
+        "Osservare i cambiamenti nei plurali di uomo/uomini e mano/mani, memorizzandoli a poco a poco."
+      ],
+      "howToPlay": [
+        "Compare una parola al singolare in mezzo allo stagno: leggila con calma.",
+        "Guarda le tre opzioni e tocca il plurale che ti sembra giusto.",
+        "Se scegli quello corretto, Perla ti accompagna alla parola successiva, senza punteggi né tempo."
+      ],
+      "learningGoals": [
+        "Capire che in italiano il plurale cambia in modo speciale e non si forma con la -s.",
+        "Distinguere i plurali particolari e applicare la regola dell'h in parole come amico/amici e lago/laghi.",
+        "Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area della riflessione linguistica."
+      ]
+    },
     "hoppers-number-line.jump-sums.2-md-b-6": {
       "about": [
         "Hopper è una rana che attraversa lo stagno saltando lungo la linea dei numeri, da una ninfea numerata all'altra: a ogni balzo in avanti somma, a ogni balzo indietro sottrae, e tu lo aiuti a scoprire dove va a finire. In questa attività di matematica per la classe seconda, pensata per bambini di 7 e 8 anni, si rappresentano somme e sottrazioni entro il 100 sulla linea dei numeri.",

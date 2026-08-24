@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "halfway-harbors.nearest.3-nbt-a-1": {
+      "about": [
+        "Con Marina, la gatta del faro, ogni barchetta porta un numero fino al porto più vicino: il bambino arrotonda i numeri di due cifre alla decina (63 diventa 60) e quelli di tre cifre al centinaio (247 diventa 200), muovendosi lungo la retta dei numeri.",
+        "Nei giri con la boa in mezzo si scopre il caso più delicato: un numero esattamente al centro tra due porti, come 45 o 75, si arrotonda per eccesso. Così arrotondare diventa una questione di posizione sulla retta, non una regola sull’ultima cifra da imparare a memoria.",
+        "È un’attività gratuita e interattiva, pensata per la classe terza della scuola primaria e in linea con le Indicazioni nazionali: si gioca subito nel browser, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Individuare la posizione di un numero sulla retta dei numeri",
+        "Riconoscere la decina e il centinaio più vicini a un numero dato",
+        "Trovare il punto di mezzo tra due decine o due centinaia",
+        "Capire perché un numero al centro si arrotonda per eccesso"
+      ],
+      "howToPlay": [
+        "Guarda il numero sulla barchetta e osserva la retta dei numeri.",
+        "Spingi la barca verso il porto più vicino: la decina o il centinaio giusto.",
+        "Nei giri speciali, tocca la boa in mezzo per scoprire da che parte si arrotonda."
+      ],
+      "learningGoals": [
+        "Arrotondare i numeri alla decina più vicina.",
+        "Arrotondare i numeri al centinaio più vicino.",
+        "Riconoscere che un numero a metà strada tra due porti si arrotonda per eccesso."
+      ]
+    },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
         "Alla finestrella della tavola calda di Wren i clienti arrivano di corsa e le loro domande partono sempre senza la prima parola.",

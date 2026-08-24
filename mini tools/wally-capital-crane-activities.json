@@ -354,6 +354,16 @@
           { "id": "tio-lucas", "band": 2, "tokens": ["Hoje", "eu", "visito", "o", "meu", "tio", "lucas", "."], "proper": "lucas" },
           { "id": "brincar-laura", "band": 3, "tokens": ["Eu", "gosto", "de", "brincar", "com", "a", "laura", "."], "proper": "laura" },
           { "id": "avo-recife", "band": 3, "tokens": ["Em", "recife", "mora", "o", "meu", "avô", "."], "proper": "recife" }
+        ],
+        "it": [
+          { "id": "amico-marco", "band": 1, "tokens": ["Il", "mio", "amico", "si", "chiama", "marco", "."], "proper": "marco" },
+          { "id": "cane-anna", "band": 1, "tokens": ["Il", "cane", "di", "anna", "dorme", "."], "proper": "anna" },
+          { "id": "treno-roma", "band": 1, "tokens": ["Andiamo", "a", "roma", "in", "treno", "."], "proper": "roma" },
+          { "id": "cugina-sofia", "band": 2, "tokens": ["Mia", "cugina", "sofia", "abita", "qui", "."], "proper": "sofia" },
+          { "id": "famiglia-milano", "band": 2, "tokens": ["La", "mia", "famiglia", "va", "a", "milano", "."], "proper": "milano" },
+          { "id": "zio-luca", "band": 2, "tokens": ["Oggi", "gioco", "con", "mio", "zio", "luca", "."], "proper": "luca" },
+          { "id": "estate-napoli", "band": 3, "tokens": ["In", "estate", "andiamo", "a", "napoli", "."], "proper": "napoli" },
+          { "id": "nonna-chiara", "band": 3, "tokens": ["La", "nonna", "di", "chiara", "abita", "lontano", "."], "proper": "chiara" }
         ]
       }
     },
@@ -363,21 +373,24 @@
       "de": "nomen-grossschreiben-ueben-klasse-2",
       "fr": "la-majuscule-aux-noms-propres-ce1",
       "es": "mayuscula-en-nombres-propios-2-primaria",
-      "pt": "nomes-proprios-letra-maiuscula-2-ano"
+      "pt": "nomes-proprios-letra-maiuscula-2-ano",
+      "it": "maiuscola-nomi-propri-classe-seconda"
     },
     "page_title": {
       "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)",
       "de": "Groß- und Kleinschreibung – online üben (Klasse 2)",
       "fr": "Wally et la grue à majuscules : la majuscule aux noms propres (CE1)",
       "es": "Wally y su grúa: la mayúscula en nombres propios (2.º primaria)",
-      "pt": "Nomes próprios com letra maiúscula: a Wally — 2º ano"
+      "pt": "Nomes próprios com letra maiúscula: a Wally — 2º ano",
+      "it": "La gru di Wally: la maiuscola nei nomi propri (classe seconda)"
     },
     "page_intro": {
       "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.",
       "de": "Groß- und Kleinschreibung üben: Nomen erkennen und großschreiben mit Wallys Kran. Übungen für Klasse 2 – kostenlos online, ohne Anmeldung.",
       "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive.",
       "es": "Wally la morsa maneja su grúa para levantar la mayúscula en los nombres propios. Actividad gratuita e interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Sin registro, sin cronómetro.",
-      "pt": "Com a Wally e seu guindaste, a criança acha o nome próprio escrito com letra minúscula e o transforma em maiúscula. Ortografia do 2º ano, no seu ritmo."
+      "pt": "Com a Wally e seu guindaste, a criança acha o nome próprio escrito com letra minúscula e o transforma em maiúscula. Ortografia do 2º ano, no seu ritmo.",
+      "it": "Wally il tricheco ha una gru speciale: solleva una letterina minuscola e la trasforma in una grande MAIUSCOLA. Alcuni nomi sono speciali — i nomi di persona e i nomi di luogo — e vogliono sempre la lettera maiuscola. Leggi la frase, trova il nome proprio e toccalo: Wally lo aggancia e gli regala la sua lettera grande («marco» diventa «Marco», «roma» diventa «Roma»). È tutto gratis, senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }

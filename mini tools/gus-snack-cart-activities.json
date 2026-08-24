@@ -292,6 +292,72 @@
             "op": "+",
             "story": "Gus tenía 19 cerezas. Sumó 47 más."
           }
+        ],
+        "it": [
+          {
+            "id": "r1",
+            "band": 1,
+            "a": 45,
+            "b": 8,
+            "op": "-",
+            "story": "Gus aveva 45 noci. Ne ha vendute 8."
+          },
+          {
+            "id": "r2",
+            "band": 1,
+            "a": 23,
+            "b": 15,
+            "op": "+",
+            "story": "Gus aveva 23 mirtilli. Ne ha raccolti 15 in più."
+          },
+          {
+            "id": "r3",
+            "band": 2,
+            "a": 60,
+            "b": 25,
+            "op": "-",
+            "story": "Gus aveva 60 pinoli. Ne ha venduti 25."
+          },
+          {
+            "id": "r4",
+            "band": 2,
+            "a": 34,
+            "b": 9,
+            "op": "+",
+            "story": "Gus aveva 34 ghiande. Ne ha trovate 9 in più."
+          },
+          {
+            "id": "r5",
+            "band": 1,
+            "a": 70,
+            "b": 40,
+            "op": "-",
+            "story": "Gus aveva 70 castagne. Ne ha regalate 40."
+          },
+          {
+            "id": "r6",
+            "band": 3,
+            "a": 27,
+            "b": 36,
+            "op": "+",
+            "story": "Gus aveva 27 fichi. Ne ha caricati 36 in più."
+          },
+          {
+            "id": "r7",
+            "band": 2,
+            "a": 88,
+            "b": 16,
+            "op": "-",
+            "story": "Gus aveva 88 prugne. Ne ha vendute 16."
+          },
+          {
+            "id": "r8",
+            "band": 3,
+            "a": 19,
+            "b": 47,
+            "op": "+",
+            "story": "Gus aveva 19 ciliegie. Ne ha aggiunte 47 in più."
+          }
         ]
       }
     },
@@ -301,21 +367,24 @@
       "de": "plus-und-minus-bis-100-klasse-2",
       "fr": "additionner-et-soustraire-jusqu-a-100-ce1",
       "es": "sumar-y-restar-hasta-100-problemas-suma-resta-2-primaria",
-      "pt": "somar-e-subtrair-ate-100-2-ano"
+      "pt": "somar-e-subtrair-ate-100-2-ano",
+      "it": "addizioni-e-sottrazioni-entro-il-100-con-gus-classe-seconda"
     },
     "page_title": {
       "en": "Gus's Snack Cart — Add & Subtract Within 100 (Grade 2)",
       "de": "Rechnen bis 100 – online üben (Klasse 2)",
       "fr": "Additions CE1 jusqu'à 100 – exercice en ligne",
       "es": "El carrito de Gus: sumar y restar hasta 100 (2.º de primaria)",
-      "pt": "Somar e subtrair até 100: a conta do Gus | 2º ano"
+      "pt": "Somar e subtrair até 100: a conta do Gus | 2º ano",
+      "it": "Addizioni e sottrazioni entro il 100 con Gus | Classe seconda"
     },
     "page_intro": {
       "en": "Gus the gopher runs a busy snack cart — he is always restocking and selling! Read each little story, look at the number sentence, and add or subtract within 100 to find the answer. Type it on the keypad. A Grade 2 math game about adding and subtracting two-digit numbers fluently, aligned to Common Core 2.NBT.B.5.",
       "de": "Rechnen bis 100 online üben: Plus und Minus an Gus' Snackwagen für Klasse 2. Kostenlos online, ohne Anmeldung – sofort loslegen.",
       "fr": "Additions CE1 en ligne : additionner et soustraire jusqu'à 100 avec le stand de Gus. Gratuit, en ligne, sans inscription.",
       "es": "Ayuda a Gus, la ardilla, en su carrito de botanas: tu peque suma y resta hasta 100 con reagrupación, ideal para 2.º de primaria. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
-      "pt": "O Gus é um esquilo que cuida de um carrinho de lanches — e a cada rodada ele repõe o estoque ou faz uma venda. Seu filho lê a historinha, monta a conta e digita o resultado, somando e subtraindo até 100, com e sem reagrupamento. Uma atividade de 2º ano alinhada à BNCC, gratuita e interativa, para praticar no ritmo de cada criança."
+      "pt": "O Gus é um esquilo que cuida de um carrinho de lanches — e a cada rodada ele repõe o estoque ou faz uma venda. Seu filho lê a historinha, monta a conta e digita o resultado, somando e subtraindo até 100, com e sem reagrupamento. Uma atividade de 2º ano alinhada à BNCC, gratuita e interativa, para praticar no ritmo de cada criança.",
+      "it": "Allo scoiattolo Gus, gran raccoglitore di noci e ghiande, serve una mano al suo carretto degli spuntini: c’è sempre qualcosa da rifornire o da vendere! In ogni round leggi una piccola storia, guardi l’operazione e calcoli entro il 100: aggiungi quello che Gus raccoglie, togli quello che vende, poi digiti la risposta sulla tastierina. Un modo concreto e giocoso per allenare il calcolo con i numeri a due cifre, riconoscere quando sommare e quando sottrarre e guadagnare fluidità passo dopo passo. L’attività è gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo tempo sereno per pensare e provare. Pensata per la classe seconda e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Add or subtract within 100 and type the answer."
   }

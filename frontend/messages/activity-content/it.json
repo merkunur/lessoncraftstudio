@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Lo scoiattolo Gus ha un carretto degli spuntini sempre affollato, e tra noci, ghiande e piccole scorte c’è un continuo andirivieni: a volte arriva un nuovo rifornimento da aggiungere, a volte un cliente compra qualcosa da togliere. Ogni round racconta una breve storia con Gus protagonista, mostra l’operazione corrispondente e chiede al bambino di calcolare entro il 100 e digitare il risultato. Sommare quello che Gus raccoglie e sottrarre quello che vende trasforma un semplice esercizio di calcolo in una situazione viva, facile da immaginare e divertente da risolvere.",
+        "Dietro le storie del carretto c’è un obiettivo preciso: allenare addizioni e sottrazioni con numeri a due cifre entro il 100 fino a raggiungere una vera fluidità. Il bambino impara a riconoscere quando la situazione chiede di sommare e quando invece chiede di sottrarre, mette alla prova strategie di calcolo mentale e prende confidenza con il valore delle decine e delle unità. Ripetere questi calcoli in un contesto concreto rende il ragionamento più rapido e sicuro, senza ridurlo a una serie di operazioni astratte.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali, così da accompagnare in modo naturale il percorso scolastico. È completamente gratuita e interattiva, senza registrazione, senza timer e senza punteggio: nessuna fretta, nessuna gara, solo la libertà di provare, sbagliare e riprovare con calma. Un ambiente sereno in cui ogni bambino può esercitarsi al proprio ritmo, a scuola o a casa."
+      ],
+      "practices": [
+        "Addizioni e sottrazioni entro il 100",
+        "Calcolo con numeri a due cifre",
+        "Distinguere quando sommare e quando sottrarre",
+        "Strategie di calcolo mentale"
+      ],
+      "howToPlay": [
+        "Leggi la storia di Gus al carretto degli spuntini",
+        "Decidi se sommare quello che raccoglie o sottrarre quello che vende",
+        "Digita la risposta entro il 100 sulla tastierina"
+      ],
+      "learningGoals": [
+        "Calcolare con fluidità entro il 100",
+        "Padroneggiare i numeri a due cifre",
+        "Scegliere l’operazione giusta in ogni situazione"
+      ]
+    },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
         "Nella valle del Fischio un temporale ha strappato via i binari e il treno è fermo alla stazione. Ma quei binari sono speciali: formano una linea dei numeri da 0 a 100. Il bambino diventa il macchinista che rimette a posto la ferrovia, prendendo una traversina numerata alla volta e collocandola nel punto esatto in cui il suo numero appartiene. Quando ogni traversina torna al suo posto, il treno fischia e riparte lungo la valle: un modo concreto e pieno di storia per capire dove vivono i numeri.",

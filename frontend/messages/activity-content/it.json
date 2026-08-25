@@ -3228,6 +3228,29 @@
         "Tuo figlio impara a scrivere il numero da 0 a 9",
         "Tuo figlio impara a capire che lo zero è un numero"
       ]
+    },
+    "parking-tower.place-by-relation.k-g-a-1": {
+      "about": [
+        "Bruno il castoro gestisce una torre-parcheggio vista di lato, con tanti piani, e a ogni turno consegna a tuo figlio un veicolo da sistemare al posto giusto: sopra, sotto, accanto o tra le altre automobili.",
+        "L’attività allena a imparare e usare le parole di posizione — sopra, sotto, accanto e tra — ascoltando la parola e collocando il veicolo nel punto corretto rispetto a un altro mezzo, per imparare a orientarsi nello spazio.",
+        "È pensata per la classe prima e allineata alle Indicazioni nazionali, ed è gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Usare le parole sopra e sotto",
+        "Usare la parola accanto",
+        "Usare la parola tra",
+        "Ascoltare la parola di posizione e scegliere il posto giusto"
+      ],
+      "howToPlay": [
+        "Ascolta dove va parcheggiato il veicolo",
+        "Tocca il posto giusto: sopra, sotto, accanto o tra",
+        "Tocca Verifica"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a usare le parole di posizione sopra, sotto, accanto e tra",
+        "Tuo figlio impara a collocare un oggetto rispetto a un altro",
+        "Tuo figlio impara a orientarsi nello spazio"
+      ]
     }
   }
 }

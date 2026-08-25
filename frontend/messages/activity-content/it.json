@@ -2952,6 +2952,29 @@
         "Tuo figlio impara a riconoscere lo stesso numero anche quando è scritto in modi diversi.",
         "Tuo figlio impara a distinguere numeri simili facendo attenzione all’ordine delle cifre, come in 13 e 31."
       ]
+    },
+    "posy-egg-cartons.count-tens.k-cc-a-1": {
+      "about": [
+        "Posy è una gallina indaffarata che sistema le sue uova in scatole che ne contengono esattamente dieci l’una: a ogni turno compaiono alcune scatole piene e il bambino le conta di dieci in dieci per scoprire quante uova ci sono in tutto, toccando poi il numero totale, da 20 fino a 100.",
+        "È il primo passo verso il calcolo veloce: contando di dieci in dieci il bambino capisce che ogni scatola è una decina e che saltare di dieci — 10, 20, 30… — è molto più rapido e sicuro che contare le uova a una a una.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è completamente gratuita, senza registrazione, senza timer e senza punteggio, così il bambino può esercitarsi con calma e senza pressioni."
+      ],
+      "practices": [
+        "Contare di dieci in dieci fino a 100",
+        "Riconoscere che ogni scatola piena è una decina",
+        "Trovare il totale saltando di dieci invece di contare a uno a uno",
+        "Leggere e riconoscere i numeri entro il 100"
+      ],
+      "howToPlay": [
+        "Guarda le scatole piene: ognuna contiene dieci uova, cioè una decina.",
+        "Conta le scatole di dieci in dieci — 10, 20, 30… — fino ad arrivare all’ultima.",
+        "Tocca il numero che indica il totale delle uova in tutto."
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a contare di dieci in dieci fino a 100 con sicurezza.",
+        "Tuo figlio impara a vedere ogni scatola come una decina e a ragionare per gruppi di dieci.",
+        "Tuo figlio impara a riconoscere i numeri entro il 100 e a trovarne il totale."
+      ]
     }
   }
 }

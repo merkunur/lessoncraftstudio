@@ -69,21 +69,24 @@
       "de": "zahlen-schreiben-lernen-0-bis-9-klasse-1",
       "fr": "ecrire-les-chiffres-de-0-a-9-avec-digby-gs",
       "es": "aprender-a-escribir-los-numeros-0-al-9-trazar-preescolar",
-      "pt": "escrever-os-numeros-0-a-9-tracar-algarismos-1-ano"
+      "pt": "escrever-os-numeros-0-a-9-tracar-algarismos-1-ano",
+      "it": "imparare-a-scrivere-i-numeri-0-9-tracciare-classe-prima"
     },
     "page_title": {
       "en": "Digby's Number Trace — Write Every Number 0 to 9 (Kindergarten)",
       "de": "Zahlen schreiben üben – Ziffern 0–9 online nachspuren",
       "fr": "Écriture des chiffres – tracer de 0 à 9 en ligne (GS)",
       "es": "Aprende a escribir los números 0 al 9: trazar (preescolar)",
-      "pt": "Escrever os Números 0 a 9 com Digby — Traçar Algarismos, 1º ano"
+      "pt": "Escrever os Números 0 a 9 com Digby — Traçar Algarismos, 1º ano",
+      "it": "Scrivere i numeri da 0 a 9: tracciare le cifre — classe prima"
     },
     "page_intro": {
       "en": "Digby the dog loves digits! Practice writing every number from 0 to 9 — start on the dot and trace each stroke in order to form the numeral neatly. A Kindergarten handwriting activity for writing numerals, aligned to Common Core K.CC.A.3.",
       "de": "Zahlen schreiben üben für die Vorschule: Ziffern von 0 bis 9 Schritt für Schritt nachspuren – mit Digby. Kostenlos online, ohne Anmeldung.",
       "fr": "L'écriture des chiffres pas à pas : tracer chaque chiffre de 0 à 9 avec Digby, dans le bon sens. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis, sin registro, donde los niños trazan y escriben los números del 0 al 9 siguiendo los trazos, alineada a los planes de la SEP.",
-      "pt": "Ajude o cachorro Digby a escrever os números de 0 a 9 seguindo os pontos, traço por traço. Grátis, sem cadastro. Atividade alinhada à BNCC, 1º ano."
+      "pt": "Ajude o cachorro Digby a escrever os números de 0 a 9 seguindo os pontos, traço por traço. Grátis, sem cadastro. Atividade alinhada à BNCC, 1º ano.",
+      "it": "Il cane Digby accompagna il bambino a scrivere i numeri da 0 a 9. Ogni cifra appare tratteggiata con un punto di partenza: si parte dal punto e si seguono i tratti nell’ordine giusto, finché il numero si colora e prende forma. Un’attività gratuita, senza registrazione e senza timer, pensata per la classe prima e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Start on the dot and trace the number."
   }

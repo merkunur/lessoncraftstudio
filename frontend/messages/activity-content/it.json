@@ -2722,6 +2722,29 @@
         "Capisce che un triangolo resta un triangolo anche se cambia colore, grandezza o orientamento.",
         "Costruisce il ragionamento per caratteristiche su cui si basano la classificazione e la denominazione delle figure."
       ]
+    },
+    "bramble.holds-more.k-md-a-2": {
+      "about": [
+        "Alla bancarella del succo di Bramble ci sono sempre due bicchieri uno accanto all'altro: un bicchiere alto e stretto vicino a una ciotola bassa e larga, oppure una brocca vicino a una tazza. Prima di servire, Bramble fa una sola domanda: «Quale bicchiere contiene più succo?» Il bambino sceglie sinistra, destra o uguale, e poi Bramble versa il succo per scoprire chi ha indovinato.",
+        "L'idea è confrontare la capacità dei recipienti senza numeri e senza misurare. La forma inganna: un bicchiere alto e stretto sembra contenere di più, ma una ciotola bassa e larga può contenere molto più succo — essere alto non vuol dire contenere di più. Qui un'ipotesi sbagliata non è un errore, è una scoperta: quando il succo viene versato, il bambino vede con i propri occhi ciò che l'aspetto nascondeva.",
+        "L'attività è gratuita, senza registrazione, senza timer, senza punteggio e senza contare. È pensata per la classe prima e allineata alle Indicazioni nazionali, nell'ambito relativo a relazioni, dati e previsioni: il confronto diretto delle capacità è un primo passo importante prima di misurare, più avanti, con litri e millilitri."
+      ],
+      "practices": [
+        "Prevedere quale dei due bicchieri contiene più succo di frutti di bosco, guardando solo la loro forma.",
+        "Verificare l'ipotesi osservando Bramble versare il succo da un recipiente all'altro.",
+        "Capire che la forma inganna: un recipiente più alto non è sempre quello che contiene di più.",
+        "Descrivere il confronto con le parole contiene di più, contiene di meno e contengono la stessa quantità."
+      ],
+      "howToPlay": [
+        "Osserva bene i due bicchieri che appaiono uno accanto all'altro alla bancarella di Bramble.",
+        "Fai la tua previsione: quale contiene più succo — quello a sinistra, quello a destra, o ne contengono la stessa quantità?",
+        "Guarda Bramble versare il succo e scopri se hai indovinato."
+      ],
+      "learningGoals": [
+        "So confrontare la capacità di due recipienti senza misurare e senza contare.",
+        "So che un recipiente più alto non è sempre quello che contiene più succo.",
+        "So dire quale recipiente contiene di più, contiene di meno o se contengono la stessa quantità."
+      ]
     }
   }
 }

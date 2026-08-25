@@ -2929,6 +2929,29 @@
         "Impara a stimare una quantità con lo sguardo, prima ancora di contarla.",
         "Impara a confrontare la sua previsione con il risultato e a capire se è di più o di meno."
       ]
+    },
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "Pip è una topina postina con una borsa piena di lettere, e ogni busta porta un numero da consegnare. Il bambino legge la cifra scritta sulla lettera, cerca la casa con lo stesso numero e la tocca: se ha letto bene, il vicino si affaccia e saluta dalla finestra.",
+        "Il cuore dell’attività è leggere e riconoscere i numeri scritti da 0 a 20. Il bambino impara a riconoscere lo stesso numero anche in caratteri diversi e a distinguere numeri facili da confondere, come 13 e 31: l’ordine delle cifre conta e cambia tutto.",
+        "Un’attività allineata alle Indicazioni nazionali e pensata per la classe prima, gratuita e senza registrazione, senza timer e senza punteggio: solo il piacere di leggere i numeri e aiutare Pip a consegnare la posta."
+      ],
+      "practices": [
+        "Leggere i numeri scritti da 0 a 20",
+        "Riconoscere lo stesso numero in caratteri diversi",
+        "Distinguere numeri simili, come 13 e 31",
+        "Ascoltare un numero e trovare la casa giusta"
+      ],
+      "howToPlay": [
+        "Leggi il numero scritto sulla lettera, oppure ascoltalo.",
+        "Cerca tra le case quella con lo stesso numero.",
+        "Tocca la casa giusta e il vicino saluta dalla finestra."
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a leggere e riconoscere con sicurezza i numeri da 0 a 20.",
+        "Tuo figlio impara a riconoscere lo stesso numero anche quando è scritto in modi diversi.",
+        "Tuo figlio impara a distinguere numeri simili facendo attenzione all’ordine delle cifre, come in 13 e 31."
+      ]
     }
   }
 }

@@ -3159,6 +3159,29 @@
         "Tuo figlio impara a capire il legame tra addizione e sottrazione con le famiglie di operazioni",
         "Tuo figlio impara a calcolare con sicurezza entro il 20"
       ]
+    },
+    "twinsies.count-twin.k-cc-b-5": {
+      "about": [
+        "Il folletto gemello raccoglie un mucchietto di ghiande e sogna un gemello: non un disegno uguale, ma un mucchietto con lo stesso numero di ghiande, e tocca al bambino crearlo.",
+        "L’attività allena a contare «quanti sono» toccando gli oggetti uno a uno e poi a formare la stessa quantità disposta in modo diverso — su una riga, sparsa, in schieramento o persino leggendo un numero scritto — scoprendo che la quantità non cambia (conservazione del numero).",
+        "Costruita seguendo le Indicazioni nazionali per la classe prima, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Contare «quanti sono» toccando ogni oggetto uno a uno",
+        "Formare un insieme con la stessa quantità",
+        "Capire che la quantità non cambia se gli oggetti sono disposti in modo diverso",
+        "Leggere un numero scritto e formare quella quantità"
+      ],
+      "howToPlay": [
+        "Tocca ogni ghianda per contare il mucchietto del folletto",
+        "Forma un gemello con lo stesso numero di ghiande sul tuo piatto",
+        "Tocca «Siamo gemelli!» per controllare"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a contare «quanti sono» toccando gli oggetti uno a uno",
+        "Tuo figlio impara a formare la stessa quantità disponendo gli oggetti in modo diverso",
+        "Tuo figlio impara a riconoscere che il numero non cambia con la disposizione"
+      ]
     }
   }
 }

@@ -3205,6 +3205,29 @@
         "Tuo figlio impara a scrivere il numero fino a 20",
         "Tuo figlio impara a capire che lo zero è un numero"
       ]
+    },
+    "mamas-roll-call.numeral-trace.k-cc-b-5": {
+      "about": [
+        "È mattina al laghetto e Mamma Papera fa l’appello: chiama i suoi anatroccoli e tuo figlio le manda dalla zattera esattamente il numero che chiede, contandoli uno per uno.",
+        "L’attività allena a contare la quantità giusta di anatroccoli e poi a scrivere il numero corrispondente da 0 a 9, compreso lo zero, perché anche una mattina tranquilla ha il suo numero.",
+        "È pensata sulle Indicazioni nazionali per la classe prima ed è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Contare e mandare la quantità giusta di anatroccoli",
+        "Scrivere il numero da 0 a 9",
+        "Capire che anche lo zero è un numero",
+        "Contare solo gli anatroccoli giusti (per esempio solo quelli gialli)"
+      ],
+      "howToPlay": [
+        "Ascolta quanti anatroccoli vuole Mamma Papera",
+        "Mandane esattamente quel numero dalla zattera, contandoli uno a uno",
+        "Scrivi il numero nel fango per firmare l’appello"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a contare e mandare la quantità giusta",
+        "Tuo figlio impara a scrivere il numero da 0 a 9",
+        "Tuo figlio impara a capire che lo zero è un numero"
+      ]
     }
   }
 }

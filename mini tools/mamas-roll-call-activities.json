@@ -140,21 +140,24 @@
       "de": "mama-ente-appell-richtige-anzahl-schicken-und-ziffer-schreiben-klasse-1",
       "fr": "envoyer-le-bon-nombre-et-ecrire-le-chiffre-gs",
       "es": "pase-de-lista-en-el-estanque-contar-y-escribir-el-numero-preescolar",
-      "pt": "chamada-dos-patinhos-conte-a-quantidade-certa-e-escreva-o-numero-1-ano"
+      "pt": "chamada-dos-patinhos-conte-a-quantidade-certa-e-escreva-o-numero-1-ano",
+      "it": "appello-degli-anatroccoli-contare-e-scrivere-il-numero-classe-prima"
     },
     "page_title": {
       "en": "Mama's Roll Call — Count Out That Many (0 to 9)",
       "de": "Zahlen schreiben lernen – zählen und Ziffern schreiben",
       "fr": "Associer quantité et chiffre – compter et écrire (GS, en ligne)",
       "es": "Pase de lista: cuenta y escribe el número (preescolar)",
-      "pt": "Conte a quantidade e escreva o número · Mamãe Pata · 1º ano"
+      "pt": "Conte a quantidade e escreva o número · Mamãe Pata · 1º ano",
+      "it": "L’appello degli anatroccoli: conta e scrivi – classe prima"
     },
     "page_intro": {
       "en": "Mama Duck calls the morning roll at Quack Creek: send her exactly the number of ducklings she asks for — count them out one by one from the raft — then sign the roll by writing that number in the mud. Even a quiet morning has a number: zero! A warm Kindergarten counting game aligned to Common Core K.CC.B.5.",
       "de": "Zahlen schreiben lernen im Kindergarten: erst die Anzahl abzählen, dann die passende Ziffer schreiben. Kostenlos online üben, ohne Anmeldung.",
       "fr": "Associer quantité et chiffre : compter la collection puis écrire le chiffre qui correspond, jusqu'à 9. Gratuit, en ligne, sans inscription.",
       "es": "Mamá Pata pasa lista: tu peque envía la cantidad exacta de patitos, los cuenta uno por uno y escribe la cifra en el lodo. Gratis, sin registro y alineada al plan de la SEP para el preescolar.",
-      "pt": "Ajude a Mamãe Pata na chamada: envie exatamente o número de patinhos que ela pedir e escreva esse número no barro — até o zero! Grátis, sem cadastro. BNCC, 1º ano."
+      "pt": "Ajude a Mamãe Pata na chamada: envie exatamente o número de patinhos que ela pedir e escreva esse número no barro — até o zero! Grátis, sem cadastro. BNCC, 1º ano.",
+      "it": "Con Mamma Papera i bambini fanno l’appello al laghetto: contano la quantità giusta di anatroccoli, uno a uno, e poi scrivono il numero corrispondente da 0 a 9 — anche lo zero — in un’attività gratuita, senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "numeral-trace"
   }

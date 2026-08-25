@@ -3021,6 +3021,29 @@
         "Tuo figlio impara a calcolare il tempo trascorso anche passando da un’ora all’altra.",
         "Tuo figlio impara a scegliere da solo se contare in avanti o all’indietro a seconda della domanda."
       ]
+    },
+    "patchwork-meadow.tile.3-md-c-6": {
+      "about": [
+        "Il coniglietto giardiniere Sprout deve rivestire di verde i suoi prati fioriti, uno più storto dell’altro: il bambino posa soffici zolle di muschio a forma di quadretto, le sistema una accanto all’altra fino a ricoprire ogni angolo e scopre che l’area del prato è semplicemente il numero di quadretti che servono per coprirlo.",
+        "L’attività allena a misurare l’area contando i quadretti che ricoprono una superficie: si riempie tutto lo spazio senza lasciare buchi e senza sovrapporre le zolle, e si capisce che l’area è il numero di quadretti usati — un’unità arbitraria, senza formule e senza centimetri quadrati.",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggi: solo tempo tranquillo per esplorare, sbagliare e riprovare con Sprout."
+      ],
+      "practices": [
+        "Ricoprire una superficie con i quadretti, senza buchi né sovrapposizioni",
+        "Contare i quadretti per trovare l’area di un prato",
+        "Stimare quanti quadretti servono per ricoprire un prato vuoto",
+        "Costruire un prato formato da un numero dato di quadretti"
+      ],
+      "howToPlay": [
+        "Tocca le caselle vuote per posare le zolle di muschio",
+        "Ricopri tutto il prato senza buchi e senza doppioni",
+        "Conta i quadretti: quel numero è l’area del prato"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a ricoprire una superficie con quadretti uguali, senza lasciare spazi e senza sovrapporli",
+        "Tuo figlio impara a trovare l’area contando i quadretti che ricoprono il prato",
+        "Tuo figlio impara a stimare e a costruire prati con un numero preciso di quadretti"
+      ]
     }
   }
 }

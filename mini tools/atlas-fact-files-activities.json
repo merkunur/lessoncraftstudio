@@ -500,6 +500,104 @@
               "o fogo"
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "api",
+            "band": 1,
+            "fact": "Le api vivono in un alveare. Fanno il miele dolce.",
+            "question": "Dove vivono le api?",
+            "answer": "in un alveare",
+            "options": [
+              "in un alveare",
+              "in un nido",
+              "in uno stagno"
+            ]
+          },
+          {
+            "id": "rana",
+            "band": 1,
+            "fact": "La rana ha le zampe lunghe. Mangia piccoli insetti.",
+            "question": "Cosa mangia la rana?",
+            "answer": "piccoli insetti",
+            "options": [
+              "foglie verdi",
+              "piccoli insetti",
+              "pesciolini"
+            ]
+          },
+          {
+            "id": "sole",
+            "band": 1,
+            "fact": "Il sole ci dà luce. Splende di giorno.",
+            "question": "Quando splende il sole?",
+            "answer": "di giorno",
+            "options": [
+              "al buio",
+              "in una grotta",
+              "di giorno"
+            ]
+          },
+          {
+            "id": "pinguino",
+            "band": 2,
+            "fact": "Il pinguino ha le ali nere. Vive sul ghiaccio freddo.",
+            "question": "Dove vive il pinguino?",
+            "answer": "sul ghiaccio freddo",
+            "options": [
+              "sul ghiaccio freddo",
+              "in una tana",
+              "sulla sabbia calda"
+            ]
+          },
+          {
+            "id": "ragno",
+            "band": 2,
+            "fact": "Il ragno tesse una tela. Ha otto zampe.",
+            "question": "Quante zampe ha il ragno?",
+            "answer": "otto zampe",
+            "options": [
+              "sette zampe",
+              "otto zampe",
+              "nove zampe"
+            ]
+          },
+          {
+            "id": "albero",
+            "band": 2,
+            "fact": "Un grande albero cresce alto. Ci dà ombra fresca.",
+            "question": "Cosa ci dà un albero?",
+            "answer": "ombra fresca",
+            "options": [
+              "un rumore forte",
+              "neve fredda",
+              "ombra fresca"
+            ]
+          },
+          {
+            "id": "mucca",
+            "band": 3,
+            "fact": "La mucca mangia erba verde. Ci dà latte bianco.",
+            "question": "Cosa ci dà la mucca?",
+            "answer": "latte bianco",
+            "options": [
+              "latte bianco",
+              "uova marroni",
+              "marmellata dolce"
+            ]
+          },
+          {
+            "id": "pioggia",
+            "band": 3,
+            "fact": "La pioggia cade dalle nuvole. Bagna il terreno.",
+            "question": "Cosa bagna la pioggia?",
+            "answer": "il terreno",
+            "options": [
+              "il cielo",
+              "il sole caldo",
+              "il terreno"
+            ]
+          }
         ]
       }
     },
@@ -509,21 +607,24 @@
       "de": "leseverstaendnis-sachtext-w-fragen-beantworten-klasse-1",
       "fr": "repondre-a-une-question-texte-documentaire-cp",
       "es": "lecturas-cortas-con-preguntas-primer-grado",
-      "pt": "textos-curtos-com-perguntas-compreensao-leitora-1-ano"
+      "pt": "textos-curtos-com-perguntas-compreensao-leitora-1-ano",
+      "it": "comprensione-testi-informativi-trova-il-dettaglio-classe-prima"
     },
     "page_title": {
       "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)",
       "de": "Leseverstehen üben – Sachtexte lesen (Grundschule)",
       "fr": "Lecture CP – lire un texte documentaire en ligne",
       "es": "Comprensión lectora 1.º: lecturas cortas con preguntas",
-      "pt": "Textos curtos com perguntas: leia e responda · 1º ano"
+      "pt": "Textos curtos com perguntas: leia e responda · 1º ano",
+      "it": "Comprensione del testo: leggere testi informativi – classe prima"
     },
     "page_intro": {
       "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
       "de": "Leseverstehen in der Grundschule: kurze Sachtexte lesen und wichtige Details finden. Kostenlos online üben, ohne Anmeldung – ab Klasse 1.",
       "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription.",
       "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primaria, gratis, en línea y sin registro.",
-      "pt": "Com o tatu Atlas, a criança lê um textinho de duas frases e toca na resposta da pergunta, achando a informação no próprio texto. Uma atividade de compreensão de leitura, com áudio para ouvir o texto. Grátis, sem cadastro. Alinhada à BNCC, 1º ano."
+      "pt": "Com o tatu Atlas, a criança lê um textinho de duas frases e toca na resposta da pergunta, achando a informação no próprio texto. Uma atividade de compreensão de leitura, com áudio para ouvir o texto. Grátis, sem cadastro. Alinhada à BNCC, 1º ano.",
+      "it": "Con l’armadillo Atlas i bambini leggono un breve testo informativo, poi toccano la risposta giusta a una domanda su un dettaglio importante del testo: un’attività di comprensione semplice e guidata, gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }

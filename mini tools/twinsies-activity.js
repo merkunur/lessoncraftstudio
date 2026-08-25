@@ -23,7 +23,7 @@
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function acornHTML() { return '<svg viewBox="0 0 100 100" class="tw-acorn-svg" aria-hidden="true"><ellipse cx="50" cy="60" rx="30" ry="32" fill="#B5713C"/><path d="M22 40 Q50 16 78 40 Q70 48 50 48 Q30 48 22 40 Z" fill="#7A4A28"/><rect x="47" y="16" width="6" height="10" rx="3" fill="#5C3A22"/><ellipse cx="40" cy="56" rx="7" ry="10" fill="#fff" opacity="0.18"/></svg>'; }
@@ -31,27 +31,27 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M36 46 q5 -5 10 0 M54 46 q5 -5 10 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>' : '<circle cx="41" cy="47" r="3.4" fill="#2A2A35"/><circle cx="59" cy="47" r="3.4" fill="#2A2A35"/>';
     var mouth = happy ? '<path d="M42 58 q8 9 16 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>' : '<path d="M45 58 q5 4 10 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
-    return '<svg class="tw-sprite-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'lutin jumeau' : LANG === 'de' ? 'Zwillings-Wicht' : LANG === 'es' ? 'duende gemelo' : LANG === 'pt' ? 'duende gêmeo' : 'Twin-Sprite') + '"><ellipse cx="50" cy="54" rx="30" ry="30" fill="#9ED2C6"/><ellipse cx="30" cy="32" rx="7" ry="10" fill="#9ED2C6"/><ellipse cx="70" cy="32" rx="7" ry="10" fill="#9ED2C6"/>' + eyes + mouth + '</svg>'; }
+    return '<svg class="tw-sprite-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'lutin jumeau' : LANG === 'de' ? 'Zwillings-Wicht' : LANG === 'es' ? 'duende gemelo' : LANG === 'pt' ? 'duende gêmeo' : LANG === 'it' ? 'folletto gemello' : 'Twin-Sprite') + '"><ellipse cx="50" cy="54" rx="30" ry="30" fill="#9ED2C6"/><ellipse cx="30" cy="32" rx="7" ry="10" fill="#9ED2C6"/><ellipse cx="70" cy="32" rx="7" ry="10" fill="#9ED2C6"/>' + eyes + mouth + '</svg>'; }
 
   global.TwinsiesActivity = {
     id: 'twinsies-activity',
     reward: { id: 'friendship-shelf', label: 'Friendship Shelf', emoji: '🫶' },
 
     strings: {
-      title: { en: 'Twinsies', de: 'Zwillinge — gleich viele!', fr: 'Les jumeaux — autant l’un que l’autre !', es: '¡Gemelos — la misma cantidad!', pt: 'Gêmeos — a mesma quantidade!' },
-      prompt: { en: 'Make a twin with the same many!', de: 'Bau einen Zwilling mit gleich vielen!', fr: 'Fais un jumeau avec autant !', es: '¡Un gemelo con la misma cantidad!', pt: 'Faça um gêmeo com a mesma quantidade!' },
-      countHint: { en: 'Tap each one to count the Twin-Sprite\'s pile.', de: 'Tippe jede Eichel an und zähle den Haufen vom Zwillings-Wicht.', fr: 'Touche chaque gland pour compter le tas du lutin jumeau.', es: 'Toca cada bellota y cuenta el montón del duende gemelo.', pt: 'Toque em cada bolota e conte.' },
-      buildHint: { en: 'Build a twin with the same number.', de: 'Bau einen Zwilling mit gleich vielen.', fr: 'Construis un jumeau avec le même nombre.', es: 'Arma un gemelo con la misma cantidad.', pt: 'Monte um gêmeo com a mesma quantidade.' },
-      numeralHint: { en: 'Count out this many on your plate.', de: 'Zähle so viele auf deinen Teller.', fr: 'Compte autant de glands sur ton assiette.', es: 'Cuenta esa misma cantidad en tu plato.', pt: 'Conte a mesma quantidade no prato.' },
-      countOnHint: { en: 'Almost a twin — add one more!', de: 'Fast ein Zwilling — leg noch eine dazu!', fr: 'Presque un jumeau — ajoute-en un !', es: '¡Casi un gemelo — agrega uno más!', pt: 'Quase um gêmeo — coloque mais uma!' },
-      commit: { en: 'I counted {n} — build the twin! →', de: 'Ich habe {n} gezählt — bau den Zwilling! →', fr: 'J’ai compté {n} — construis le jumeau ! →', es: 'Conté {n} — ¡arma el gemelo! →', pt: 'Contei {n} — monte o gêmeo! →' },
-      peek: { en: '👀 Peek', de: '👀 Gucken', fr: '👀 Coup d’œil', es: '👀 Espía', pt: '👀 Espiar' },
-      twinsBtn: { en: "We're twins!", de: 'Wir sind Zwillinge!', fr: 'On est jumeaux !', es: '¡Somos gemelos!', pt: 'Somos gêmeos!' },
-      win: { en: 'Twins! Same many!', de: 'Zwillinge! Gleich viele!', fr: 'Jumeaux ! Autant l’un que l’autre !', es: '¡Gemelos! ¡La misma cantidad!', pt: 'Gêmeos! A mesma quantidade!' },
-      notyet: { en: 'Not twins yet — let\'s count again.', de: 'Noch keine Zwillinge — zählen wir noch mal.', fr: 'Pas encore jumeaux — comptons encore.', es: 'Todavía no son gemelos — vamos a contar de nuevo.', pt: 'Ainda não são gêmeos — vamos contar de novo.' },
-      hintCheck: { en: 'Make a matching twin, then tap We\'re twins!', de: 'Bau einen passenden Zwilling und tippe dann auf „Wir sind Zwillinge!“', fr: 'Fais un jumeau identique, puis touche On est jumeaux !', es: 'Arma un gemelo igual y luego toca «¡Somos gemelos!».', pt: 'Monte um gêmeo igualzinho e depois toque em “Somos gêmeos!”.' },
-      readCounted: { en: 'Counted', de: 'Gezählt', fr: 'Comptés', es: 'Conté', pt: 'Contei' },
-      readTwin: { en: 'Twin', de: 'Zwilling', fr: 'Jumeau', es: 'Gemelo', pt: 'Gêmeo' }
+      title: { en: 'Twinsies', de: 'Zwillinge — gleich viele!', fr: 'Les jumeaux — autant l’un que l’autre !', es: '¡Gemelos — la misma cantidad!', pt: 'Gêmeos — a mesma quantidade!', it: 'Gemelli — tanti quanti!' },
+      prompt: { en: 'Make a twin with the same many!', de: 'Bau einen Zwilling mit gleich vielen!', fr: 'Fais un jumeau avec autant !', es: '¡Un gemelo con la misma cantidad!', pt: 'Faça um gêmeo com a mesma quantidade!', it: 'Crea un gemello con la stessa quantità!' },
+      countHint: { en: 'Tap each one to count the Twin-Sprite\'s pile.', de: 'Tippe jede Eichel an und zähle den Haufen vom Zwillings-Wicht.', fr: 'Touche chaque gland pour compter le tas du lutin jumeau.', es: 'Toca cada bellota y cuenta el montón del duende gemelo.', pt: 'Toque em cada bolota e conte.', it: 'Tocca ogni ghianda e conta il mucchio del folletto.' },
+      buildHint: { en: 'Build a twin with the same number.', de: 'Bau einen Zwilling mit gleich vielen.', fr: 'Construis un jumeau avec le même nombre.', es: 'Arma un gemelo con la misma cantidad.', pt: 'Monte um gêmeo com a mesma quantidade.', it: 'Costruisci un gemello con lo stesso numero.' },
+      numeralHint: { en: 'Count out this many on your plate.', de: 'Zähle so viele auf deinen Teller.', fr: 'Compte autant de glands sur ton assiette.', es: 'Cuenta esa misma cantidad en tu plato.', pt: 'Conte a mesma quantidade no prato.', it: 'Conta questa quantità sul tuo piatto.' },
+      countOnHint: { en: 'Almost a twin — add one more!', de: 'Fast ein Zwilling — leg noch eine dazu!', fr: 'Presque un jumeau — ajoute-en un !', es: '¡Casi un gemelo — agrega uno más!', pt: 'Quase um gêmeo — coloque mais uma!', it: 'Quasi gemelli — aggiungi ancora uno!' },
+      commit: { en: 'I counted {n} — build the twin! →', de: 'Ich habe {n} gezählt — bau den Zwilling! →', fr: 'J’ai compté {n} — construis le jumeau ! →', es: 'Conté {n} — ¡arma el gemelo! →', pt: 'Contei {n} — monte o gêmeo! →', it: 'Ho contato {n} — costruisci il gemello! →' },
+      peek: { en: '👀 Peek', de: '👀 Gucken', fr: '👀 Coup d’œil', es: '👀 Espía', pt: '👀 Espiar', it: '👀 Sbircia' },
+      twinsBtn: { en: "We're twins!", de: 'Wir sind Zwillinge!', fr: 'On est jumeaux !', es: '¡Somos gemelos!', pt: 'Somos gêmeos!', it: 'Siamo gemelli!' },
+      win: { en: 'Twins! Same many!', de: 'Zwillinge! Gleich viele!', fr: 'Jumeaux ! Autant l’un que l’autre !', es: '¡Gemelos! ¡La misma cantidad!', pt: 'Gêmeos! A mesma quantidade!', it: 'Gemelli! Tanti quanti!' },
+      notyet: { en: 'Not twins yet — let\'s count again.', de: 'Noch keine Zwillinge — zählen wir noch mal.', fr: 'Pas encore jumeaux — comptons encore.', es: 'Todavía no son gemelos — vamos a contar de nuevo.', pt: 'Ainda não são gêmeos — vamos contar de novo.', it: 'Non ancora gemelli — contiamo di nuovo.' },
+      hintCheck: { en: 'Make a matching twin, then tap We\'re twins!', de: 'Bau einen passenden Zwilling und tippe dann auf „Wir sind Zwillinge!“', fr: 'Fais un jumeau identique, puis touche On est jumeaux !', es: 'Arma un gemelo igual y luego toca «¡Somos gemelos!».', pt: 'Monte um gêmeo igualzinho e depois toque em “Somos gêmeos!”.', it: 'Crea un gemello uguale, poi tocca Siamo gemelli!' },
+      readCounted: { en: 'Counted', de: 'Gezählt', fr: 'Comptés', es: 'Conté', pt: 'Contei', it: 'Contate' },
+      readTwin: { en: 'Twin', de: 'Zwilling', fr: 'Jumeau', es: 'Gemelo', pt: 'Gêmeo', it: 'Gemello' }
     },
     defaults: {},
 
@@ -203,7 +203,7 @@
       if (res.twins) {
         this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 7);
         this.api.sound && this.api.sound(900); this.render();
-        var n = this._n(); api.announce && api.announce(api.t('win')); speak(LANG === 'fr' ? (n + ' et ' + n + ' — jumeaux !') : LANG === 'de' ? (n + ' und ' + n + ' — Zwillinge!') : LANG === 'es' ? (n + ' y ' + n + ' — ¡gemelos!') : LANG === 'pt' ? (n + ' e ' + n + ' — gêmeos!') : (n + ' and ' + n + ' — twins!'));
+        var n = this._n(); api.announce && api.announce(api.t('win')); speak(LANG === 'fr' ? (n + ' et ' + n + ' — jumeaux !') : LANG === 'de' ? (n + ' und ' + n + ' — Zwillinge!') : LANG === 'es' ? (n + ' y ' + n + ' — ¡gemelos!') : LANG === 'pt' ? (n + ' e ' + n + ' — gêmeos!') : LANG === 'it' ? (n + ' e ' + n + ' — gemelli!') : (n + ' and ' + n + ' — twins!'));
       } else {
         this.declareFail = true; this.api.sound && this.api.sound(330); this.render();
         api.announce && api.announce(api.t('notyet'));    // undirected — NO count, NO direction
@@ -213,7 +213,7 @@
     _renderDone: function (root) {
       var api = this.api;
       var thread = api.el('div', 'tw-thread'); thread.innerHTML = '<span class="tw-pair">' + acornHTML() + '</span><span class="tw-link"></span><span class="tw-pair">' + acornHTML() + '</span>'; root.appendChild(thread);
-      var eq = api.el('div', 'tw-eq'); eq.textContent = (LANG === 'fr') ? (this._n() + ' & ' + this._n() + ' — jumeaux !') : (this._n() + ' & ' + this._n() + (LANG === 'de' ? ' — Zwillinge!' : LANG === 'es' ? ' — ¡gemelos!' : LANG === 'pt' ? ' — gêmeos!' : ' — twins!')); root.appendChild(eq);
+      var eq = api.el('div', 'tw-eq'); eq.textContent = (LANG === 'fr') ? (this._n() + ' & ' + this._n() + ' — jumeaux !') : (this._n() + ' & ' + this._n() + (LANG === 'de' ? ' — Zwillinge!' : LANG === 'es' ? ' — ¡gemelos!' : LANG === 'pt' ? ' — gêmeos!' : LANG === 'it' ? ' — gemelli!' : ' — twins!')); root.appendChild(eq);
       var shelf = api.el('div', 'tw-shelf');
       for (var i = 0; i < ((this._pool && this._pool.length) || 7); i++) { var s = api.el('span', 'tw-pairdot' + (i < this.solvedCount ? ' tw-pairdot-on' : '')); s.textContent = '🫶'; shelf.appendChild(s); }
       root.appendChild(shelf);

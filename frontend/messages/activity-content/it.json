@@ -2883,6 +2883,29 @@
         "So fermarmi al numero giusto.",
         "So togliere una golosità quando ne metto troppe."
       ]
+    },
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Dewey, un simpatico paperotto, ci mostra la sua vasca: basta un tocco e le bolle scendono una alla volta: quando arriva la decima bolla, le dieci si uniscono e brillano tutte insieme formando una decina, mentre le bolle in più galleggiano sciolte accanto come unità.",
+        "Guardando le bolle, il bambino vede i numeri da 11 a 19 come una decina e alcune unità (10 + N): impara a comporre e scomporre il numero, a separare la decina dalle unità, a raggruppare dieci unità in una decina e a confrontare due numeri osservando prima le decine e poi le unità: è la base del valore posizionale, capita con le mani e non con regole da memorizzare.",
+        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è gratuita, senza registrazione, senza timer e senza punteggio: capire le decine e le unità con i numeri da 11 a 19 è la base per lavorare più avanti con i numeri fino al 100."
+      ],
+      "practices": [
+        "Raggruppare dieci unità per formare una decina.",
+        "Vedere un numero da 11 a 19 come una decina e alcune unità (10 + N).",
+        "Scomporre il numero separando la decina dalle unità.",
+        "Confrontare due numeri guardando prima le decine e poi le unità."
+      ],
+      "howToPlay": [
+        "Tocca la vasca di Dewey per far cadere le bolle, una alla volta.",
+        "Quando arrivi a dieci bolle, si uniscono e formano una decina.",
+        "Aggiungi le unità che mancano per formare il numero da 11 a 19."
+      ],
+      "learningGoals": [
+        "So raggruppare dieci unità e formare una decina.",
+        "So che 14 è una decina e 4 unità.",
+        "So separare la decina dalle unità in un numero da 11 a 19."
+      ]
     }
   }
 }

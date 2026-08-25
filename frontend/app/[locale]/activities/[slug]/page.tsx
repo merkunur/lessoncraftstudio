@@ -106,7 +106,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
 
   'star-stitcher.connect-sequence.k-cc-a-2': { de: '1', pt: '1', it: '1' },        // K count-forward-from-N → Klasse 1 / 1º ano (pt BNCC EF01MA01 nº como indicador de ordem + EF01MA02 pareamento; sobrecontagem; ≤18 no-place-value keeps it 1º; K-cluster→1º); en stays Kindergarten
 
-  'mochi-feast.count-out.k-cc-b-5': { de: '1', pt: '1' },                 // K count-out-N / produce-a-set → Klasse 1 / 1º ano (pt BNCC EF01MA02 contar de maneira exata/pareamento — count-out-to-produce, distinct from #55 necklace EF01MA04 count-&-register; + EF01MA01; K-cluster→1º); en stays Kindergarten
+  'mochi-feast.count-out.k-cc-b-5': { de: '1', pt: '1', it: '1' },                 // K count-out-N / produce-a-set → Klasse 1 / 1º ano (pt BNCC EF01MA02 contar de maneira exata/pareamento — count-out-to-produce, distinct from #55 necklace EF01MA04 count-&-register; + EF01MA01; K-cluster→1º); en stays Kindergarten
 
   'ten-tank.ten-frame-tank.k-nbt-a-1': { de: '1', fr: '1', es: '1', pt: '1' },      // K teen numbers 11-19 as ten+ones (Bündeln) → Klasse 1. PT 1º ano (pedagogue-decisive): compor/decompor 11-19 como uma dezena e unidades com material manipulável = BNCC EF01MA07 (+ EF01MA05 comparar) — NOT EF01MA08 (add/sub problems); DISTINCT from bos-berry-pantry pt='2' (that's valor posicional formal to 85 = EF02MA01; ten-tank ≤20 concreto = 1º). Strand Números pelo auto-map (NBT→Números) → SEM STRAND_OVERRIDE pt. en stays Kindergarten (K-cluster pattern). FR CP (operator-ruled): « une dizaine et des unités » structured-tens decomposition of 11-19 = début-CP attendu; native 'K'→GS too low (posy #71: la GS s'arrête vers 30, sans dizaines structurées); CP → « Nombres et calcul » auto-map correct → NO STRAND override. ES 1.º primaria (maestra-decisive #58): unitizar diez→una decena + valor posicional = entrada de primaria (preescolar no tiene decena); alinea los hermanos base-ten es (track-repair/bundle-bot='1'); strand auto «Sentido numérico» → NO es STRAND override
   'wondering-jar.estimate-jar.k-cc-b-5': { de: '1', pt: '1' },            // K estimate-then-count → Klasse 1 / 1º ano (pt BNCC EF01MA03 "estimar e comparar quantidades... em torno de 20 elementos" — the only 1º habilidade whose verb is literally estimar; + EF01MA02 secondary via "aproximada"; DISTINCT from #57 mochi-feast EF01MA02 count-out; K-cluster→1º). Strand Números pelo auto-map (CC→Números) → SEM STRAND_OVERRIDE pt. en stays Kindergarten (K-cluster pattern)
@@ -552,7 +552,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.509';
+  const ACTIVITY_WRAPPER_VERSION = '9.510';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

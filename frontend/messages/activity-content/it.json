@@ -2860,6 +2860,29 @@
         "So dire la sequenza dei numeri in ordine.",
         "So contare ancora uno, e ancora uno, fino alla fine."
       ]
+    },
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi è affamato e a ogni giro chiede un numero esatto di golosità: il bambino tocca il piatto e riempie la ciotola una golosità per volta, contando uno a uno, e si ferma quando arriva al numero giusto, togliendone una se per caso ne ha messe troppe.",
+        "Qui non si tratta solo di dire quante golosità ci sono, ma di formare una collezione della grandezza richiesta: si conta uno a uno fino al numero e ci si ferma, senza numeri nella ciotola, perché è la ciotola che si riempie a fare da conteggio, e il bambino vede la quantità crescere e sente da solo dove fermarsi.",
+        "Allineata alle Indicazioni nazionali e pensata per la classe prima, è un’attività gratuita, senza registrazione, senza timer e senza punteggio: formare una quantità data è una base tranquilla e sicura prima di unire e sommare le quantità."
+      ],
+      "practices": [
+        "Contare uno a uno fino alla quantità richiesta, aggiungendo una golosità per volta.",
+        "Fermarsi al numero giusto senza superarlo.",
+        "Togliere una golosità dalla ciotola quando ne ha messe troppe.",
+        "Formare una collezione di un numero dato, dal 2 al 10."
+      ],
+      "howToPlay": [
+        "Guarda quante golosità vuole Mochi in questo giro.",
+        "Tocca il piatto per far cadere una golosità per volta nella ciotola.",
+        "Fermati al numero giusto e tocca «Verifica»."
+      ],
+      "learningGoals": [
+        "So contare uno a uno fino a formare la quantità richiesta.",
+        "So fermarmi al numero giusto.",
+        "So togliere una golosità quando ne metto troppe."
+      ]
     }
   }
 }

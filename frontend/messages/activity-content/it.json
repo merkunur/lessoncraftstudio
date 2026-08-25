@@ -2906,6 +2906,29 @@
         "So che 14 è una decina e 4 unità.",
         "So separare la decina dalle unità in un numero da 11 a 19."
       ]
+    },
+    "wondering-jar.estimate-jar.k-cc-b-5": {
+      "about": [
+        "Un gufo pieno di curiosità mostra un barattolo colmo di caramelle e chiede: «Secondo te, quante sono?». Il bambino esprime prima un desiderio — la sua stima sulla linea dei numeri — poi il barattolo si apre, le caramelle si sparpagliano e lui le conta a uno a uno per scoprire quante erano davvero. La previsione non viene mai giudicata: il gioco è proprio nella sorpresa di scoprirlo.",
+        "Il bambino allena la stima della numerosità e impara a contare a uno a uno, senza saltare e senza ripetere, per rispondere alla domanda «quante sono?» entro il 20. Alla fine confronta la sua stima con il numero reale e riconosce se ha immaginato di più o di meno.",
+        "Attività allineata alle Indicazioni nazionali e pensata per la classe prima. È completamente gratuita, senza registrazione, senza timer e senza punteggi: solo il piacere di contare e scoprire con calma."
+      ],
+      "practices": [
+        "Contare a uno a uno senza saltare né ripetere",
+        "Stimare una quantità prima di contarla",
+        "Confrontare due numeri: di più o di meno",
+        "Muoversi sulla linea dei numeri fino al 20"
+      ],
+      "howToPlay": [
+        "Fai la tua previsione: sposta la stella sulla linea dei numeri per indovinare quante caramelle ci sono.",
+        "Il barattolo si apre e le caramelle si sparpagliano: tocca ogni caramella e contala a uno a uno.",
+        "Scopri quante erano davvero e confronta con la tua stima: avevi immaginato di più o di meno?"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a contare a uno a uno per dire con sicurezza quanti oggetti ci sono, fino al 20.",
+        "Impara a stimare una quantità con lo sguardo, prima ancora di contarla.",
+        "Impara a confrontare la sua previsione con il risultato e a capire se è di più o di meno."
+      ]
     }
   }
 }

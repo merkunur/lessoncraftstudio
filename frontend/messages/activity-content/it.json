@@ -3044,6 +3044,29 @@
         "Tuo figlio impara a trovare l’area contando i quadretti che ricoprono il prato",
         "Tuo figlio impara a stimare e a costruire prati con un numero preciso di quadretti"
       ]
+    },
+    "digby-number-trace.numeral-formation.k-cc-a-3": {
+      "about": [
+        "Il cane Digby fa da guida: mostra al bambino ogni numero da 0 a 9 disegnato con una linea tratteggiata e un punto di partenza. Il bambino appoggia il dito sul punto e segue un tratto dopo l’altro, nell’ordine giusto, finché la cifra si colora e appare completa sullo schermo.",
+        "È un allenamento al gesto grafico del numero: scrivere e tracciare le cifre da 0 a 9 seguendo l’ordine corretto dei tratti, imparare la forma di ogni numero e memorizzarne il movimento della mano, tratto dopo tratto.",
+        "L’attività è pensata per la classe prima ed è allineata alle Indicazioni nazionali. È completamente gratuita, senza registrazione, senza timer e senza punteggio: il bambino traccia con calma, ai suoi tempi."
+      ],
+      "practices": [
+        "Tracciare le cifre da 0 a 9",
+        "Seguire l’ordine corretto dei tratti",
+        "Partire dal punto e seguire la forma del numero",
+        "Riconoscere e scrivere ogni numero"
+      ],
+      "howToPlay": [
+        "Guarda il numero tratteggiato e il punto di partenza",
+        "Parti dal punto e traccia ogni tratto nell’ordine giusto",
+        "Completa tutti i tratti e il numero appare colorato"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a scrivere le cifre da 0 a 9 con il gesto grafico corretto",
+        "Tuo figlio impara a seguire l’ordine giusto dei tratti, partendo dal punto",
+        "Tuo figlio impara a riconoscere e ricordare la forma di ogni numero"
+      ]
     }
   }
 }

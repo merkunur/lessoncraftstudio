@@ -2814,6 +2814,29 @@
         "So dire di più, di meno o uguale guardando gli amici rimasti senza compagno.",
         "So che l’occhio inganna: una fila sparsa può avere la stessa quantità di un mucchietto raccolto."
       ]
+    },
+    "necklace.bead-string.k-cc-b-4": {
+      "about": [
+        "C’è una volpe che sogna una collana di perline uguale a quella della sua amica: non le importano i colori, le importa la stessa quantità, ed è proprio questo che rende il gioco così semplice e così ricco.",
+        "Si conta per sapere quante sono, e l’ultimo numero detto dice la quantità: così, quando la volpe nasconde, scuote o sparpaglia le perline e sembra tutto cambiato, il bambino scopre la conservazione del numero, perché la quantità non cambia — l’occhio inganna, il numero no.",
+        "Allineata alle Indicazioni nazionali e pensata per la classe prima, l’attività è gratuita, senza registrazione, senza timer e senza punteggio: contare per sapere quante sono è la base tranquilla per confrontare e sommare."
+      ],
+      "practices": [
+        "Contare ogni perlina una sola volta, una a una, senza saltarne nessuna e senza ripeterla.",
+        "Capire che l’ultimo numero detto dice quante perline sono: è la cardinalità.",
+        "Accorgersi che la quantità non cambia quando le perline sono nascoste, scosse o sparpagliate.",
+        "Trovare e togliere una perlina di troppo, correggendo con calma un errore di conteggio."
+      ],
+      "howToPlay": [
+        "Conta una a una le perline della collana della sua amica, toccando ciascuna perlina.",
+        "Ricorda quante sono: è l’ultimo numero che hai detto.",
+        "Infila la stessa quantità di perline sul cordoncino della volpe e chiudi la collana."
+      ],
+      "learningGoals": [
+        "So contare fino a 10 e dire quante sono.",
+        "So che la quantità non cambia quando cambio solo la disposizione delle perline.",
+        "So infilare la stessa quantità di perline che conto o che sento."
+      ]
     }
   }
 }

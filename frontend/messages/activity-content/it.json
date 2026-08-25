@@ -3067,6 +3067,29 @@
         "Tuo figlio impara a seguire l’ordine giusto dei tratti, partendo dal punto",
         "Tuo figlio impara a riconoscere e ricordare la forma di ogni numero"
       ]
+    },
+    "clock-ampm.morning-or-night.2-md-c-7": {
+      "about": [
+        "Il gallo Sprocket accompagna il bambino attraverso la giornata: a ogni turno mostra un evento quotidiano — la colazione, il gioco al parco, le stelle prima di dormire — e chiede se succede di mattina oppure di pomeriggio e sera.",
+        "L’attività allena a riconoscere i momenti della giornata — la mattina, il pomeriggio e la sera — a collocare gli eventi quotidiani nel momento giusto e a usare l’ora come piccolo indizio, senza dover leggere l’orologio.",
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività completamente gratuita, senza registrazione, senza timer e senza punteggio: il bambino impara con calma e a modo suo."
+      ],
+      "practices": [
+        "Riconoscere la mattina, il pomeriggio e la sera",
+        "Collocare un evento quotidiano nel momento giusto della giornata",
+        "Distinguere ciò che accade prima e dopo mezzogiorno",
+        "Usare l’ora come indizio per orientarsi nella giornata"
+      ],
+      "howToPlay": [
+        "Guarda l’evento che Sprocket mostra e l’ora che lo accompagna",
+        "Scegli se accade di mattina oppure di pomeriggio e sera",
+        "Sprocket ti dice subito se hai indovinato"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a riconoscere la mattina, il pomeriggio e la sera",
+        "Tuo figlio impara a collocare gli eventi di ogni giorno nel momento giusto",
+        "Tuo figlio impara a orientarsi nel tempo usando l’ora come indizio"
+      ]
     }
   }
 }

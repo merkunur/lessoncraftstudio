@@ -3136,6 +3136,29 @@
         "Tuo figlio impara a trovare l’addendo che manca per completare il totale",
         "Tuo figlio sviluppa il senso del numero e l’addizione della classe prima"
       ]
+    },
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Fixit è una talpa aggiustatutto così miope da non riuscire a leggere il numerino consumato sui congegni rotti: tocca a tuo figlio scoprire la cifra che manca, infilarla al posto giusto e sentire l’apparecchio ripartire ronzando.",
+        "L’attività allena a trovare il numero mancante in addizioni e sottrazioni in qualsiasi posizione — somma, addendo, sottraendo o minuendo — usando strategie come fare 10, contare in avanti e all’indietro e le famiglie di operazioni.",
+        "È pensata sulle Indicazioni nazionali per la classe prima, all’interno dei «Numeri», ed è del tutto gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Trovare l’addendo mancante",
+        "Trovare il sottraendo o il minuendo mancante",
+        "Trovare la somma mancante",
+        "Contare in avanti e all’indietro entro il 20"
+      ],
+      "howToPlay": [
+        "Leggi l’operazione e capisci quale parte manca",
+        "Metti il numero giusto nel congegno di Fixit",
+        "Tocca Verifica e guarda l’apparecchio riprendere vita"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a trovare il numero mancante in ogni posizione dell’operazione",
+        "Tuo figlio impara a capire il legame tra addizione e sottrazione con le famiglie di operazioni",
+        "Tuo figlio impara a calcolare con sicurezza entro il 20"
+      ]
     }
   }
 }

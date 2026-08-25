@@ -2768,6 +2768,29 @@
         "So che una figura resta la stessa anche se è girata o più piccola.",
         "So che un quadrato girato sulla punta è ancora un quadrato, non un rombo."
       ]
+    },
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "Allo scalo di smistamento il trenino Chuffer aspetta su un binario: una carica di casse va sistemata su due vagoni, uno azzurro e uno rosso, e il bambino decide quante casse mettere su ciascuno.",
+        "L’idea è la scomposizione: uno stesso numero si scompone in due parti in molti modi diversi e resta sempre lo stesso: è il tutto e le parti. Il bambino scopre tutti i modi, incontra gli amici del dieci e capisce che «2 e 3 è come 3 e 2» — cambia solo l’ordine dei vagoni, la carica è la stessa (la commutatività).",
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione, senza timer e senza punteggio, perché comporre e scomporre è la base dell’addizione e della sottrazione."
+      ],
+      "practices": [
+        "Scomporre un numero entro il 10 in due parti spostando le casse tra i due vagoni.",
+        "Trovare tutti i modi possibili di dividere la stessa carica tra il vagone azzurro e il vagone rosso.",
+        "Dire ad alta voce ogni scomposizione, come «5 è 2 e 3».",
+        "Riconoscere che «2 e 3 è come 3 e 2» e scoprire gli amici del dieci."
+      ],
+      "howToPlay": [
+        "Sposta le casse tra il vagone azzurro e il vagone rosso per dividere la carica come preferisci.",
+        "Di’ quante casse ci sono in ogni vagone e tira il gancio per registrare quel modo nel quaderno di viaggio.",
+        "Continua a spostare le casse e a tirare il gancio finché non hai trovato tutti i modi."
+      ],
+      "learningGoals": [
+        "So scomporre un numero entro il 10 in due parti.",
+        "So dire ogni modo ad alta voce, come «5 è 2 e 3».",
+        "So che il numero resta lo stesso, comunque io divida le parti."
+      ]
     }
   }
 }

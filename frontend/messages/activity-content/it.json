@@ -3182,6 +3182,29 @@
         "Tuo figlio impara a formare la stessa quantità disponendo gli oggetti in modo diverso",
         "Tuo figlio impara a riconoscere che il numero non cambia con la disposizione"
       ]
+    },
+    "rivets-number-forge.numeral-album.k-cc-a-3": {
+      "about": [
+        "Rivet, il procione, ha una piccola fucina che trasforma il tesoro sparso — ghiande, bottoni, lucciole e biglie — in carte da collezione: il bambino conta quello che trova e forgia il numero che dice quanti sono.",
+        "L’attività allena a contare «quanti sono» e a scrivere e forgiare il numero corrispondente fino a 20, compreso lo zero — perché anche una bustina vuota ha il suo numero — riconoscendo che il numero rappresenta la quantità.",
+        "Segue le Indicazioni nazionali per la classe prima ed è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Contare quanti sono, toccando ogni oggetto una volta sola",
+        "Scrivere e forgiare il numero corrispondente fino a 20",
+        "Capire che anche lo zero è un numero",
+        "Contare solo gli oggetti giusti, ignorando i distrattori"
+      ],
+      "howToPlay": [
+        "Tocca ogni tesoro per contarlo, uno alla volta",
+        "Tira la leva per forgiare il numero che dice quanti sono",
+        "Colleziona le carte nel tuo album"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a contare quanti sono",
+        "Tuo figlio impara a scrivere il numero fino a 20",
+        "Tuo figlio impara a capire che lo zero è un numero"
+      ]
     }
   }
 }

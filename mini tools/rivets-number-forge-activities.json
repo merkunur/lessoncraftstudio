@@ -211,21 +211,24 @@
       "de": "anzahl-zaehlen-und-passende-ziffer-bis-20-klasse-1",
       "fr": "compter-et-ecrire-le-nombre-jusqu-a-20-cp",
       "es": "contar-y-su-numero-asociar-cantidad-y-numeral-preescolar",
-      "pt": "contar-e-forjar-o-numero-de-0-a-20-1-ano"
+      "pt": "contar-e-forjar-o-numero-de-0-a-20-1-ano",
+      "it": "contare-e-scrivere-il-numero-da-0-a-20-classe-prima"
     },
     "page_title": {
       "en": "Rivet's Number Forge — Count and Write the Numeral 0 to 20",
       "de": "Mengen und Zahlen zuordnen – bis 20 online üben",
       "fr": "Nombre et quantité – compter puis écrire le nombre, en ligne (CP)",
       "es": "Contar y su número: cantidad y numeral (preescolar)",
-      "pt": "Contar e forjar o número de 0 a 20 com Rivet — 1º ano"
+      "pt": "Contar e forjar o número de 0 a 20 com Rivet — 1º ano",
+      "it": "Contare e scrivere il numero fino a 20 – classe prima"
     },
     "page_intro": {
       "en": "Help Rivet the raccoon turn loose treasure into collector cards: count the acorns, buttons, and fireflies and forge the numeral that says how many — the numeral is built from the very things you count. Even an empty pack has a number: zero! A warm Kindergarten counting-and-writing game aligned to Common Core K.CC.A.3.",
       "de": "Mengen und Zahlen zuordnen: Anzahl zählen und die passende Ziffer bis 20 finden – ideal für den Schulstart. Kostenlos online, ohne Anmeldung.",
       "fr": "Associer nombre et quantité : compter une collection puis écrire le nombre qui correspond. Gratuit, en ligne, sans inscription.",
       "es": "El niño cuenta los tesoros y aparece el número que corresponde, hasta el cero: actividad interactiva gratis, sin registro y alineada al plan de la SEP.",
-      "pt": "Ajude o guaxinim Rivet a contar os tesouros e forjar o número escrito de 0 a 20 — até o zero conta! Atividade gratuita, sem cadastro. BNCC, 1º ano."
+      "pt": "Ajude o guaxinim Rivet a contar os tesouros e forjar o número escrito de 0 a 20 — até o zero conta! Atividade gratuita, sem cadastro. BNCC, 1º ano.",
+      "it": "Con Rivet, il procione, tuo figlio conta il tesoro e forgia il numero che dice quanti sono, fino a 20 e compreso lo zero: un’attività interattiva gratuita, senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "numeral-album"
   }

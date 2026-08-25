@@ -3297,6 +3297,29 @@
         "Ordinare i momenti della giornata",
         "Completare frasi con le preposizioni di tempo"
       ]
+    },
+    "booker-glossary-desk.guide-words.l-2-4-e": {
+      "about": [
+        "L’orso Booker apre il suo grande dizionario sul banco e mostra in cima alla pagina due parole guida: tocca a te capire quale parola si nasconde proprio in mezzo, in ordine alfabetico.",
+        "Questa attività aiuta a usare le parole guida del dizionario, a mettere le parole in ordine alfabetico e a confrontarle lettera per lettera — la 1ª, poi la 2ª, poi la 3ª — per consultare il dizionario con sicurezza.",
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Usare le parole guida del dizionario",
+        "Mettere le parole in ordine alfabetico",
+        "Confrontare le parole lettera per lettera",
+        "Consultare il dizionario"
+      ],
+      "howToPlay": [
+        "Guarda le due parole guida in cima alla pagina",
+        "Trova la parola che sta in mezzo in ordine alfabetico",
+        "Toccala per rispondere"
+      ],
+      "learningGoals": [
+        "Usare le parole guida per cercare nel dizionario",
+        "Ordinare le parole in ordine alfabetico",
+        "Trovare una parola nel dizionario"
+      ]
     }
   }
 }

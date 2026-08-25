@@ -515,6 +515,107 @@
               "casa"
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "casa-forma",
+            "band": 1,
+            "g1": "casa",
+            "g2": "forma",
+            "words": [
+              "dado",
+              "barca",
+              "luna"
+            ]
+          },
+          {
+            "id": "luna-rana",
+            "band": 1,
+            "g1": "luna",
+            "g2": "rana",
+            "words": [
+              "gatto",
+              "pane",
+              "sole"
+            ]
+          },
+          {
+            "id": "dado-nave",
+            "band": 1,
+            "g1": "dado",
+            "g2": "nave",
+            "words": [
+              "casa",
+              "topo",
+              "mela"
+            ]
+          },
+          {
+            "id": "palla-sole",
+            "band": 2,
+            "g1": "palla",
+            "g2": "sole",
+            "words": [
+              "rana",
+              "pala",
+              "topo"
+            ]
+          },
+          {
+            "id": "mano-nido",
+            "band": 2,
+            "g1": "mano",
+            "g2": "nido",
+            "words": [
+              "mago",
+              "mucca",
+              "sole"
+            ]
+          },
+          {
+            "id": "nave-sacco",
+            "band": 2,
+            "g1": "nave",
+            "g2": "sacco",
+            "words": [
+              "mela",
+              "sole",
+              "rana"
+            ]
+          },
+          {
+            "id": "palla-pane",
+            "band": 3,
+            "g1": "palla",
+            "g2": "pane",
+            "words": [
+              "palma",
+              "pala",
+              "penna"
+            ]
+          },
+          {
+            "id": "sole-sugo",
+            "band": 3,
+            "g1": "sole",
+            "g2": "sugo",
+            "words": [
+              "sasso",
+              "sonno",
+              "topo"
+            ]
+          },
+          {
+            "id": "cane-casa",
+            "band": 3,
+            "g1": "cane",
+            "g2": "casa",
+            "words": [
+              "cammello",
+              "cavallo",
+              "capra"
+            ]
+          }
         ]
       }
     },
@@ -524,21 +625,24 @@
       "de": "alphabetisch-ordnen-woerterbuch-nachschlagen-klasse-3",
       "fr": "chercher-un-mot-dictionnaire-ordre-alphabetique-ce2",
       "es": "orden-alfabetico-palabras-guia-diccionario-primaria",
-      "pt": "ordem-alfabetica-palavras-guia-dicionario-3-ano"
+      "pt": "ordem-alfabetica-palavras-guia-dicionario-3-ano",
+      "it": "ordine-alfabetico-parole-guida-dizionario-classe-terza"
     },
     "page_title": {
       "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)",
       "de": "Alphabetisch ordnen üben – Klasse 3 mit Bär Booker",
       "fr": "Le dictionnaire de Booker : les mots repères (CE2)",
       "es": "Orden alfabético y palabras guía: usa el diccionario",
-      "pt": "Ordem alfabética e palavras-guia: use o dicionário · 3º ano"
+      "pt": "Ordem alfabética e palavras-guia: use o dicionário · 3º ano",
+      "it": "Ordine alfabetico e parole guida: usa il dizionario · classe terza"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.",
       "de": "Alphabetisch ordnen üben: Hilf Bär Booker beim Nachschlagen! Tippe das Wort, das zwischen den beiden Leitwörtern steht. Kostenlos & interaktiv für Klasse 3.",
       "fr": "Un jeu de français CE2, gratuit et interactif : Booker l'ours ouvre son dictionnaire, et chaque page a deux mots repères. Ton enfant touche le mot qui se trouve entre les deux, en comparant les lettres dans l'ordre alphabétique — d'abord la première lettre, puis la deuxième, puis la troisième. Un jeu tout doux pour apprendre à chercher un mot dans le dictionnaire.",
       "es": "El niño lee las dos palabras guía de una página del diccionario y toca la palabra que va, en orden alfabético, entre ellas. Gratis, sin registro y alineada al plan de la SEP.",
-      "pt": "A criança lê as duas palavras-guia no alto de uma página do dicionário e toca na palavra que fica, em ordem alfabética, entre elas. Com o urso Booker, uma atividade carinhosa para aprender a usar o dicionário. Grátis, sem cadastro. BNCC, 3º ano."
+      "pt": "A criança lê as duas palavras-guia no alto de uma página do dicionário e toca na palavra que fica, em ordem alfabética, entre elas. Com o urso Booker, uma atividade carinhosa para aprender a usar o dicionário. Grátis, sem cadastro. BNCC, 3º ano.",
+      "it": "Al banco del dizionario dell’orso Booker i bambini osservano due parole guida in cima alla pagina e scoprono quale parola cade tra loro in ordine alfabetico, imparando a cercare i termini nel dizionario: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza."
     },
     "kid_prompt_template": "guide-words"
   }

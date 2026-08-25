@@ -2745,6 +2745,29 @@
         "So che un recipiente più alto non è sempre quello che contiene più succo.",
         "So dire quale recipiente contiene di più, contiene di meno o se contengono la stessa quantità."
       ]
+    },
+    "pip-museum.curate-wing.k-g-a-2": {
+      "about": [
+        "Nel museo del pinguino Professor Pip i tesori scorrono su un nastro trasportatore e ogni figura compare girata, minuscola o messa di traverso, come appena scovata in un baule polveroso.",
+        "Il gioco allena a riconoscere e denominare le figure a prescindere da orientamento e grandezza: un quadrato ruotato resta un quadrato e non diventa un rombo, mentre il rombo e l’ovale finiscono nella «Sala dei misteri» perché non sono nessuna delle cinque figure, e si impara anche a distinguere il quadrato dal rettangolo.",
+        "L’attività è allineata alle Indicazioni nazionali ed è pensata per la classe prima: è gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Riconoscere e nominare le cinque figure: cerchio, triangolo, quadrato, rettangolo ed esagono.",
+        "Riconoscere una figura anche quando è girata, capovolta o di dimensione diversa.",
+        "Distinguere il quadrato dal rettangolo osservando con attenzione i loro lati.",
+        "Capire che un quadrato ruotato sulla punta non è un rombo ma resta un quadrato."
+      ],
+      "howToPlay": [
+        "Guarda il tesoro che arriva sul nastro trasportatore, anche se è inclinato, piccolo o allungato.",
+        "Tocca il piedistallo con il nome giusto della figura: cerchio, triangolo, quadrato, rettangolo o esagono.",
+        "Se la figura non è nessuna di queste, come un rombo o un ovale, mandala nella «Sala dei misteri»."
+      ],
+      "learningGoals": [
+        "So riconoscere e nominare cerchio, triangolo, quadrato, rettangolo ed esagono.",
+        "So che una figura resta la stessa anche se è girata o più piccola.",
+        "So che un quadrato girato sulla punta è ancora un quadrato, non un rombo."
+      ]
     }
   }
 }

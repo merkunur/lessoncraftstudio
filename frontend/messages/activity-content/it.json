@@ -2975,6 +2975,52 @@
         "Tuo figlio impara a vedere ogni scatola come una decina e a ragionare per gruppi di dieci.",
         "Tuo figlio impara a riconoscere i numeri entro il 100 e a trovarne il totale."
       ]
+    },
+    "clock-elapsed.what-time.3-md-a-1": {
+      "about": [
+        "Sprocket, il galletto, indica un’ora sul suo orologio analogico e chiede: che ora sarà tra un po’? Tuo figlio legge le lancette, conta avanti i minuti un quarto d’ora o mezz’ora alla volta e tocca l’ora di arrivo giusta.",
+        "Qui si allena una vera abilità matematica: leggere l’ora sull’orologio analogico, calcolare il tempo trascorso contando avanti o indietro i minuti a intervalli di 15 e 30 minuti, e capire quanto dura un’attività dall’inizio alla fine.",
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È completamente gratuita: senza registrazione, senza timer e senza punteggi, così il bambino impara con calma e senza fretta."
+      ],
+      "practices": [
+        "Leggere l’ora sull’orologio analogico",
+        "Calcolare che ora sarà tra 15 o 30 minuti",
+        "Contare i minuti avanti e indietro",
+        "Capire le durate a intervalli di un quarto d’ora e di mezz’ora"
+      ],
+      "howToPlay": [
+        "Guarda l’orologio di Sprocket e leggi l’ora di partenza.",
+        "Conta avanti (o indietro) i minuti indicati, un quarto d’ora o mezz’ora alla volta.",
+        "Tocca la carta con l’ora di arrivo giusta."
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a leggere l’ora sull’orologio analogico con sicurezza.",
+        "Tuo figlio impara a calcolare il tempo trascorso contando i minuti avanti e indietro.",
+        "Tuo figlio impara a capire le durate e a orientarsi nel tempo di ogni giorno."
+      ]
+    },
+    "clock-elapsed.add-subtract.3-md-a-1": {
+      "about": [
+        "Qui le lancette si muovono in tutt’e due i sensi: Sprocket il galletto mostra un’ora di partenza e il bambino deve decidere se andare avanti o tornare indietro, perché a volte l’ora deve ancora arrivare e a volte è già passata. La parte più interessante è quando i minuti superano il sessanta e si cambia numero all’ora: da e:45 a un intervallo di trenta minuti si passa all’ora dopo, mentre andando indietro si torna a quella prima.",
+        "Il bambino somma e sottrae i minuti direttamente sull’orologio analogico, contando avanti o indietro con intervalli di 10, 15, 20, 25, 30, 40 e 45 minuti. Impara così a calcolare il tempo trascorso anche quando si passa da un’ora all’altra, unendo la lettura dell’orologio a un piccolo calcolo mentale che tiene insieme le due operazioni.",
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È completamente gratuita, senza registrazione, senza timer e senza punteggi: il bambino può provare, sbagliare e riprovare con calma, tutte le volte che vuole."
+      ],
+      "practices": [
+        "Sommare i minuti per contare in avanti",
+        "Sottrarre i minuti per tornare indietro",
+        "Calcolare il tempo trascorso oltre l’ora",
+        "Leggere l’ora sull’orologio analogico"
+      ],
+      "howToPlay": [
+        "Guarda l’orologio di Sprocket e leggi l’ora di partenza.",
+        "Conta avanti o indietro i minuti indicati, anche quando superi l’ora e cambi numero.",
+        "Tocca fra le tre carte l’ora di arrivo giusta."
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a sommare e sottrarre i minuti sull’orologio, avanti e indietro.",
+        "Tuo figlio impara a calcolare il tempo trascorso anche passando da un’ora all’altra.",
+        "Tuo figlio impara a scegliere da solo se contare in avanti o all’indietro a seconda della domanda."
+      ]
     }
   }
 }

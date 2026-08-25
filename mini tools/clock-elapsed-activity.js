@@ -55,6 +55,14 @@
       winBack: 'Isso! {start} − {n} min = {end}.',
       hint: 'Comece no relógio e conte os minutos para a frente.',
       hintBack: 'Comece no relógio e conte os minutos para trás.'
+    },
+    it: {
+      q: 'Che ora sarà tra {n} minuti?',
+      qBack: 'Che ora era {n} minuti fa?',
+      win: 'Sì! {start} + {n} min = {end}.',
+      winBack: 'Sì! {start} − {n} min = {end}.',
+      hint: 'Guarda che ora segna la lancetta, poi conta avanti i minuti.',
+      hintBack: 'Guarda che ora segna la lancetta, poi conta indietro i minuti.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -96,6 +104,18 @@
       if (mm === 15) return HRS_PT[hh] + ' e quinze';
       if (mm === 45) return 'quinze para ' + (nxp === 1 ? 'a uma' : 'as ' + HRS_PT[nxp]);
       return HRS_PT[hh] + ' e ' + (MIN_PT[mm] || String(mm));
+    }
+    if (LANG === 'it') {
+      /* Italian l'ora: current-hour + half, subtractive quarter-to, additive minutes.
+         ⚠ h=1 → «l'una» carries an apostrophe → fall back to the digital string (matches the visible card). */
+      if (hh === 1) return Core.digitalStr(t);
+      var HRS_IT = ['', 'una', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci', 'undici', 'dodici'];
+      var MIN_IT = { 5: 'cinque', 10: 'dieci', 20: 'venti', 25: 'venticinque', 35: 'trentacinque', 40: 'quaranta', 50: 'cinquanta', 55: 'cinquantacinque' };
+      if (mm === 0) return 'le ' + HRS_IT[hh];
+      if (mm === 30) return 'le ' + HRS_IT[hh] + ' e mezza';
+      if (mm === 15) return 'le ' + HRS_IT[hh] + ' e un quarto';
+      if (mm === 45) { var nxi = (hh === 12 ? 1 : hh + 1); return nxi === 1 ? Core.digitalStr(t) : 'le ' + HRS_IT[nxi] + ' meno un quarto'; }
+      return 'le ' + HRS_IT[hh] + ' e ' + (MIN_IT[mm] || mm);
     }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
@@ -141,8 +161,8 @@
   var ClockElapsedActivity = {
     id: 'clock-elapsed-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O Relógio do Sprocket' },
-      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.', pt: 'Leia a hora inicial e conte os minutos para a frente.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O Relógio do Sprocket', it: 'Che ora sarà?' },
+      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.', pt: 'Leia a hora inicial e conte os minutos para a frente.', it: 'Leggi che ora segna la lancetta, poi conta avanti i minuti.' },
       q: { en: '{q}' }
     },
 
@@ -299,6 +319,8 @@
         ? '<p>L’horloge indique ' + spoken(round.start) + '. ' + qText + ' Les choix sont : ' + cs + '.</p>'
         : (LANG === 'pt')
         ? '<p>O relógio marca ' + spoken(round.start) + '. ' + qText + ' As opções são: ' + cs + '.</p>'
+        : (LANG === 'it')
+        ? '<p>Sono ' + spoken(round.start) + '. ' + qText + ' Le opzioni sono: ' + cs + '.</p>'
         : '<p>The clock shows ' + spoken(round.start) + '. ' + qText + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

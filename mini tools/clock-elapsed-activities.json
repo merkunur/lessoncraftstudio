@@ -217,21 +217,24 @@
       "de": "zeitspannen-uhrzeit-berechnen-klasse-3",
       "fr": "calculer-une-duree-quelle-heure-sera-t-il-ce2",
       "es": "calcular-la-hora-tiempo-transcurrido-tercer-grado",
-      "pt": "que-horas-vao-ser-no-relogio-3-ano"
+      "pt": "que-horas-vao-ser-no-relogio-3-ano",
+      "it": "calcolare-il-tempo-trascorso-orologio-minuti-classe-terza"
     },
     "page_title": {
       "en": "Sprocket's Clock — Elapsed Time: What Time Will It Be? (Grade 3)",
       "de": "Zeitpunkt und Zeitspanne – Zeitspannen berechnen (Klasse 3)",
       "fr": "Problèmes de durée CE2 – exercice en ligne gratuit",
       "es": "Calcular la hora: tiempo transcurrido (tercer grado)",
-      "pt": "Que Horas Vão Ser? Tempo no Relógio com Sprocket — 3º Ano"
+      "pt": "Que Horas Vão Ser? Tempo no Relógio com Sprocket — 3º Ano",
+      "it": "Calcolare il tempo trascorso sull’orologio – classe terza"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 time activity: read the start time on the clock, then count on the minutes to find what time it will be. Children solve elapsed-time problems like 'it is 3:00 — what time will it be in 30 minutes?', including times that cross the next hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
       "de": "Zeitpunkt und Zeitspanne in Klasse 3: Zeitspannen an der Uhr berechnen – Schritt für Schritt an Sprockets Uhr. Kostenlos online, ohne Anmeldung.",
       "fr": "Problèmes de durée CE2 en ligne : quelle heure sera-t-il ? Calculer une durée avec l'horloge. Gratuit, en ligne, sans inscription.",
       "es": "Tu hijo lee la hora en el reloj, suma los minutos que faltan y elige qué hora será: actividad interactiva y gratis, sin registro, alineada al plan de la SEP.",
-      "pt": "Leia o relógio do galo Sprocket e conte os minutos para frente para descobrir que horas vão ser, passando da hora. Atividade grátis, sem cadastro. BNCC, 3º ano."
+      "pt": "Leia o relógio do galo Sprocket e conte os minutos para frente para descobrir que horas vão ser, passando da hora. Atividade grátis, sem cadastro. BNCC, 3º ano.",
+      "it": "Sprocket, il galletto, mostra un orologio con un’ora di partenza: tuo figlio legge l’ora e calcola che ora sarà tra 15 o 30 minuti, oppure che ora era prima, contando i minuti avanti o indietro. Un’attività gratuita e interattiva, senza registrazione, senza timer e senza punteggi, pensata per la classe terza e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "clock-elapsed"
   },
@@ -453,21 +456,24 @@
       "de": "zeit-addieren-subtrahieren-minuten-klasse-3",
       "fr": "ajouter-et-retirer-des-minutes-sur-l-horloge-ce2",
       "es": "sumar-y-restar-minutos-a-la-hora-tercer-grado",
-      "pt": "somar-e-subtrair-minutos-no-relogio-3-ano"
+      "pt": "somar-e-subtrair-minutos-no-relogio-3-ano",
+      "it": "sommare-e-sottrarre-minuti-orologio-classe-terza"
     },
     "page_title": {
       "en": "Sprocket's Clock — Time Addition & Subtraction (Grade 3)",
       "de": "Rechnen mit Uhrzeiten – Zeit addieren und subtrahieren (Klasse 3)",
       "fr": "L'horloge de Sprocket : ajouter et retirer des minutes — calculer une durée – CE2",
       "es": "Sumar y restar minutos a la hora (tercer grado)",
-      "pt": "Somar e Subtrair Minutos no Relógio do Sprocket — 3º Ano"
+      "pt": "Somar e Subtrair Minutos no Relógio do Sprocket — 3º Ano",
+      "it": "Sommare e sottrarre i minuti sull’orologio – classe terza"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 time activity: add and subtract minutes to a clock time. Children read the start time, then count on ('what time will it be in 30 minutes?') or count back ('what time was it 30 minutes ago?'), including times that cross the hour. Sprocket the rooster cheers them on. Common Core 3.MD.A.1.",
       "fr": "Un jeu de maths CE2, gratuit et interactif : Sprocket le coq montre une horloge, et ton enfant calcule une durée en avançant ou en reculant les minutes : quelle heure sera-t-il dans 30 minutes, ou quelle heure était-il il y a 30 minutes ? Il lit l'heure de départ puis choisit la bonne heure parmi trois horloges numériques, même quand on change d'heure. Sans minuteur, sans points, au rythme de l'enfant.",
       "de": "Rechnen mit Uhrzeiten: Minuten addieren und subtrahieren – Klasse 3. Kostenlos online üben, ohne Anmeldung – Zeitspannen sicher berechnen.",
       "es": "Tu hijo suma o resta minutos a una hora del reloj —«en 15 min» o «hace 15 min»— y elige el resultado: actividad interactiva, gratis y sin registro, según la SEP.",
-      "pt": "Some e subtraia minutos no relógio do galo Sprocket para achar que horas vão ser ou que horas eram, virando a hora. Atividade grátis, sem cadastro. BNCC, 3º ano."
+      "pt": "Some e subtraia minutos no relógio do galo Sprocket para achar que horas vão ser ou que horas eram, virando a hora. Atividade grátis, sem cadastro. BNCC, 3º ano.",
+      "it": "Con Sprocket il galletto le lancette vanno in tutt’e due i sensi: il bambino somma e sottrae i minuti sull’orologio, contando avanti quando l’ora deve arrivare e indietro quando è già passata, anche quando si supera l’ora e si cambia numero. Un’attività gratuita, senza registrazione, senza timer e senza punteggi, pensata per la classe terza e allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "clock-elapsed"
   }

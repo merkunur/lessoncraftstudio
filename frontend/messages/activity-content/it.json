@@ -3366,6 +3366,29 @@
         "Arricchire il vocabolario",
         "Riconoscere a cosa serve un oggetto"
       ]
+    },
+    "atlas-fact-files.key-detail.ri-k-1": {
+      "about": [
+        "L’armadillo Atlas adora collezionare piccole schede di curiosità: mostra ai bambini un breve testo informativo di due frasi, poi fa una domanda su un dettaglio nascosto tra le righe.",
+        "L’attività allena a leggere un breve testo informativo, a trovare le informazioni chiave nel testo e a rispondere a domande di comprensione toccando la risposta giusta.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Leggere un breve testo informativo",
+        "Trovare le informazioni chiave nel testo",
+        "Rispondere a domande sul testo",
+        "Leggere con attenzione"
+      ],
+      "howToPlay": [
+        "Leggi il piccolo testo di Atlas",
+        "Trova la risposta nel testo",
+        "Toccala"
+      ],
+      "learningGoals": [
+        "Leggere e capire un breve testo",
+        "Trovare un dettaglio nel testo",
+        "Rispondere a domande di comprensione"
+      ]
     }
   }
 }

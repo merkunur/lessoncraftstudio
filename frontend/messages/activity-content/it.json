@@ -2791,6 +2791,29 @@
         "So dire ogni modo ad alta voce, come «5 è 2 e 3».",
         "So che il numero resta lo stesso, comunque io divida le parti."
       ]
+    },
+    "friendship-bridge.compare-balance.k-cc-c-6": {
+      "about": [
+        "Sul ponte dell’amicizia si incontrano Big, tondo e teal, e Bit, tondo e corallo: ognuno arriva con il suo mucchietto di amici tondi e la domanda è semplice: chi ne ha portati di più?",
+        "Si confrontano i due gruppi facendo le coppie uno a uno, non contando a occhio: così si scopre chi ne ha di più, di meno o se sono uguali. L’occhio inganna, perché una fila sparsa sembra di più, ma la stessa quantità resta la stessa, sparsa o raccolta in un mucchietto; e se si vuole, si possono pareggiare i due gruppi aggiungendo amici al mucchietto più piccolo.",
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione, senza timer e senza punteggio: confrontare le quantità con di più, di meno e uguale è la base tranquilla per imparare poi a contare e a sommare."
+      ],
+      "practices": [
+        "Fare le coppie uno a uno sul ponte, dando a ogni amico di un lato un compagno dall’altro lato.",
+        "Dire quale gruppo ne ha di più, quale di meno o se i due gruppi sono uguali.",
+        "Capire che una fila sparsa non ne ha di più solo a vederla, perché l’occhio inganna.",
+        "Pareggiare i due gruppi aggiungendo amici al mucchietto più piccolo finché diventano uguali."
+      ],
+      "howToPlay": [
+        "Dai a ogni amico di un lato un compagno dall’altro lato del ponte, uno a uno.",
+        "Guarda se è rimasto qualche amico senza compagno: quel lato ne ha di più.",
+        "Di’ ad alta voce com’è andata: di più, di meno o uguale?"
+      ],
+      "learningGoals": [
+        "So confrontare due gruppi facendo le coppie e scoprire chi ne ha di più.",
+        "So dire di più, di meno o uguale guardando gli amici rimasti senza compagno.",
+        "So che l’occhio inganna: una fila sparsa può avere la stessa quantità di un mucchietto raccolto."
+      ]
     }
   }
 }

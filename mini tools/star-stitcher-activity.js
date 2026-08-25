@@ -24,12 +24,13 @@
   var CREATURE_FR = { fox: 'un renard', owl: 'une chouette', whale: 'une baleine', deer: 'un cerf', bear: 'un ours', cat: 'un chat', bird: 'un oiseau' };
   var CREATURE_ES = { fox: 'un zorro', owl: 'una lechuza', whale: 'una ballena', deer: 'un venado', bear: 'un oso', cat: 'una gata', bird: 'un pájaro' };
   var CREATURE_PT = { fox: 'uma raposa', owl: 'uma coruja', whale: 'uma baleia', deer: 'um cervo', bear: 'um urso', cat: 'um gato', bird: 'um passarinho' };
+  var CREATURE_IT = { fox: 'una volpe', owl: 'un gufo', whale: 'una balena', deer: 'un cervo', bear: 'un orso', cat: 'un gatto', bird: 'un uccellino' };
   var LANG = 'en';
-  function creaturePhrase(reveal) { return LANG === 'es' ? (CREATURE_ES[reveal] || 'una estrella') : LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : LANG === 'fr' ? (CREATURE_FR[reveal] || 'une étoile') : LANG === 'pt' ? (CREATURE_PT[reveal] || 'uma estrela') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
+  function creaturePhrase(reveal) { return LANG === 'es' ? (CREATURE_ES[reveal] || 'una estrella') : LANG === 'de' ? (CREATURE_DE[reveal] || 'einen Stern') : LANG === 'fr' ? (CREATURE_FR[reveal] || 'une étoile') : LANG === 'pt' ? (CREATURE_PT[reveal] || 'uma estrela') : LANG === 'it' ? (CREATURE_IT[reveal] || 'una stella') : (CREATURE[reveal] || ['⭐', 'star'])[1]; }
 
   function speak(text) {
-    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+    try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function svgEl(tag, attrs) { var e = document.createElementNS('http://www.w3.org/2000/svg', tag); if (attrs) for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
 
@@ -38,18 +39,18 @@
     reward: { id: 'night-sky', label: 'Night Sky', emoji: '🌌' },
 
     strings: {
-      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!', fr: 'Réveille les étoiles en comptant', es: '¡Cuenta las estrellas!', pt: 'Conte e acorde as estrelas!' },
-      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!', fr: 'Compte pour avancer !', es: '¡Haz que la luciérnaga siga contando!', pt: 'Conte para o vaga-lume avançar!' },
-      countOn: { en: 'Count on', de: 'Weiterzählen', fr: 'Compte encore', es: 'Sigue contando', pt: 'Conte mais' },
-      wake: { en: 'Wake it!', de: 'Wecken!', fr: 'Réveille !', es: '¡Despierta!', pt: 'Acorde!' },
-      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!', fr: 'Touche « Compte encore » pour avancer d’une étoile, puis « Réveille ! ».', es: 'Toca «Sigue contando» para que vuele a la siguiente estrella… ¡luego toca «Despierta»!', pt: 'Toque em Conte mais para ir à próxima estrela. Depois, Acorde!' },
-      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.', fr: 'Touche l’étoile qui brille pour compter à partir de là.', es: 'Toca la estrella que brilla para contar desde ahí.', pt: 'Toque na estrela acesa para começar a contar dali.' },
-      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!', fr: 'Touche chaque point pour les compter — c’est là qu’elle commence !', es: 'Toca cada punto y cuenta con él… ¡ahí empieza!', pt: 'Toque em cada ponto para contá-los — é daí que o vaga-lume começa!' },
-      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.', fr: 'Pas encore — recompte depuis l’étoile allumée.', es: 'Todavía no… cuenta otra vez desde la estrella que brilla.', pt: 'Ainda não — conte de novo a partir da estrela acesa.' },
-      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!', fr: 'Tu as réveillé {c} !', es: '¡Despertaste a {c}!', pt: 'Você acordou {c}!' },
-      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.', fr: 'Compte la luciole jusqu’à chaque étoile et réveille-la.', es: 'Lleva a la luciérnaga contando a cada estrella y despiértala.', pt: 'Conte o vaga-lume até cada estrela e depois Acorde!' },
-      startHere: { en: 'Start here', de: 'Hier starten', fr: 'Commence ici', es: 'Empieza aquí', pt: 'Começar aqui' },
-      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!', fr: 'Ça fait {n} — continue à compter !', es: 'Van {n}… ¡sigue contando!', pt: 'Deu {n} — conte mais!' }
+      title: { en: 'Count the Stars Awake', de: 'Zähl die Sterne wach!', fr: 'Réveille les étoiles en comptant', es: '¡Cuenta las estrellas!', pt: 'Conte e acorde as estrelas!', it: 'Conta e accendi le stelle' },
+      prompt: { en: 'Count the firefly forward!', de: 'Zähl das Glühwürmchen weiter!', fr: 'Compte pour avancer !', es: '¡Haz que la luciérnaga siga contando!', pt: 'Conte para o vaga-lume avançar!', it: 'Fai contare la lucciola in avanti!' },
+      countOn: { en: 'Count on', de: 'Weiterzählen', fr: 'Compte encore', es: 'Sigue contando', pt: 'Conte mais', it: 'Conta ancora' },
+      wake: { en: 'Wake it!', de: 'Wecken!', fr: 'Réveille !', es: '¡Despierta!', pt: 'Acorde!', it: 'Accendila!' },
+      countHint: { en: 'Tap Count on to fly her to the next star, then Wake it!', de: 'Tippe auf „Weiterzählen", damit es zum nächsten Stern fliegt – dann auf „Wecken"!', fr: 'Touche « Compte encore » pour avancer d’une étoile, puis « Réveille ! ».', es: 'Toca «Sigue contando» para que vuele a la siguiente estrella… ¡luego toca «Despierta»!', pt: 'Toque em Conte mais para ir à próxima estrela. Depois, Acorde!', it: 'Tocca Conta ancora, vola alla stella e accendila!' },
+      pickHint: { en: 'Tap the glowing star to start counting from there.', de: 'Tippe auf den leuchtenden Stern, um von dort weiterzuzählen.', fr: 'Touche l’étoile qui brille pour compter à partir de là.', es: 'Toca la estrella que brilla para contar desde ahí.', pt: 'Toque na estrela acesa para começar a contar dali.', it: 'Tocca la stella accesa per iniziare a contare.' },
+      setHint: { en: 'Tap each dot to count them — that is where she starts!', de: 'Tippe jeden Punkt an und zähle mit – dort fängt es an!', fr: 'Touche chaque point pour les compter — c’est là qu’elle commence !', es: 'Toca cada punto y cuenta con él… ¡ahí empieza!', pt: 'Toque em cada ponto para contá-los — é daí que o vaga-lume começa!', it: 'Tocca ogni punto per contarli: da lì lei parte!' },
+      overshoot: { en: 'Not yet — count on again from the lit star.', de: 'Noch nicht – zähl vom leuchtenden Stern noch einmal weiter.', fr: 'Pas encore — recompte depuis l’étoile allumée.', es: 'Todavía no… cuenta otra vez desde la estrella que brilla.', pt: 'Ainda não — conte de novo a partir da estrela acesa.', it: 'Non ancora: conta di nuovo dalla stella accesa.' },
+      win: { en: 'You woke a {c}!', de: 'Du hast {c} geweckt!', fr: 'Tu as réveillé {c} !', es: '¡Despertaste a {c}!', pt: 'Você acordou {c}!', it: 'Hai svegliato {c}!' },
+      hintCheck: { en: 'Count the firefly to each star and Wake it.', de: 'Zähl das Glühwürmchen zu jedem Stern und wecke ihn.', fr: 'Compte la luciole jusqu’à chaque étoile et réveille-la.', es: 'Lleva a la luciérnaga contando a cada estrella y despiértala.', pt: 'Conte o vaga-lume até cada estrela e depois Acorde!', it: 'Fai contare la lucciola a ogni stella e accendila.' },
+      startHere: { en: 'Start here', de: 'Hier starten', fr: 'Commence ici', es: 'Empieza aquí', pt: 'Começar aqui', it: 'Parti da qui' },
+      countSetGo: { en: "That's {n} — count on!", de: 'Das sind {n} – weiterzählen!', fr: 'Ça fait {n} — continue à compter !', es: 'Van {n}… ¡sigue contando!', pt: 'Deu {n} — conte mais!', it: 'Sono {n}: conta in avanti!' }
     },
     defaults: {},
 

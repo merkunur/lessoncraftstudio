@@ -2837,6 +2837,29 @@
         "So che la quantità non cambia quando cambio solo la disposizione delle perline.",
         "So infilare la stessa quantità di perline che conto o che sento."
       ]
+    },
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "Di notte il cielo è un buio pieno di stelle spente: una sola brilla già e porta scritto il numero da cui iniziare, mentre la lucciola aspetta di volare di stella in stella e, in fondo alla sequenza dei numeri, una creatura nascosta — una volpe, un gufo, un orso — dorme finché l’intera costellazione non si accende.",
+        "Contare in avanti a partire da un numero dato senza ricominciare da 1 è la sovraconta: è il ponte verso l’addizione, perché «ho già 7, quindi conto ancora — 8, 9, 10». Ogni numero viene subito dopo l’altro nella sequenza dei numeri, e il conteggio può partire da qualsiasi punto, non solo dall’inizio.",
+        "Allineata alle Indicazioni nazionali per la classe prima, l’attività è gratuita, senza registrazione, senza timer e senza punteggio: la sovraconta è la prima base per sommare senza ricontare ogni volta tutto da 1."
+      ],
+      "practices": [
+        "Continuare a contare a partire da un numero dato, senza tornare a 1.",
+        "Dire la sequenza dei numeri ad alta voce, un numero dopo l’altro (otto, nove, dieci).",
+        "Riconoscere da dove parte il conteggio guardando la stella già accesa.",
+        "Capire che ogni stella si accende in ordine e che la creatura si sveglia solo quando si illumina l’ultima."
+      ],
+      "howToPlay": [
+        "Guarda la stella già accesa: è da lì che parte il conteggio.",
+        "Tocca «Conta in avanti» per far volare la lucciola alla stella successiva, una per volta.",
+        "Accendi ogni stella fino all’ultima, finché appare la creatura nascosta del cielo."
+      ],
+      "learningGoals": [
+        "So contare in avanti a partire da un numero, senza ricominciare da 1.",
+        "So dire la sequenza dei numeri in ordine.",
+        "So contare ancora uno, e ancora uno, fino alla fine."
+      ]
     }
   }
 }

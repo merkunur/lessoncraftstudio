@@ -3274,6 +3274,29 @@
         "Tuo figlio impara a regolare le lancette sull’ora giusta",
         "Tuo figlio impara a capire ore, mezze e quarti"
       ]
+    },
+    "tempo-day-plan.time-prepositions.l-1-1-i": {
+      "about": [
+        "La tartaruga Tempo ha un piano per tutta la giornata e invita i bambini a raccontarla con lei, toccando di volta in volta la parolina giusta — prima, durante o dopo — per completare ogni frase.",
+        "Giocando, i bambini imparano a riconoscere prima, durante e dopo, a ordinare i momenti della giornata e a completare frasi con la preposizione di tempo corretta.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Completare frasi con prima, durante e dopo",
+        "Capire l’ordine dei momenti della giornata",
+        "Riconoscere le preposizioni di tempo",
+        "Collegare le azioni ai momenti della giornata"
+      ],
+      "howToPlay": [
+        "Leggi la frase di Tempo",
+        "Scegli prima, durante o dopo",
+        "Completa la frase giusta"
+      ],
+      "learningGoals": [
+        "Usare prima, durante e dopo",
+        "Ordinare i momenti della giornata",
+        "Completare frasi con le preposizioni di tempo"
+      ]
     }
   }
 }

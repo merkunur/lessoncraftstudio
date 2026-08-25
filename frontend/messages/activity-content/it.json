@@ -3251,6 +3251,29 @@
         "Tuo figlio impara a collocare un oggetto rispetto a un altro",
         "Tuo figlio impara a orientarsi nello spazio"
       ]
+    },
+    "clock-read.tell-time.1-md-b-3": {
+      "about": [
+        "Nella sua casetta con il cucù abita il Gufo, e oggi il piccolo guardiano del tempo sei tu: leggi l’orologio a muro per capire cosa sta facendo il gufo e sposta le lancette sull’ora giusta finché il cucù salta fuori a salutare.",
+        "L’attività allena a leggere l’orologio analogico e a regolare le lancette — l’ora esatta, la mezza e i quarti — collegando ogni ora a un momento della giornata, dalla colazione alla nanna.",
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Leggere l’ora esatta sull’orologio analogico",
+        "Leggere la mezza e i quarti",
+        "Regolare le lancette dell’orologio",
+        "Collegare l’ora ai momenti della giornata"
+      ],
+      "howToPlay": [
+        "Leggi l’orologio a muro per scoprire cosa fa il gufo",
+        "Regola le lancette sull’ora giusta",
+        "Sveglia il cucù!"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a leggere l’orologio analogico",
+        "Tuo figlio impara a regolare le lancette sull’ora giusta",
+        "Tuo figlio impara a capire ore, mezze e quarti"
+      ]
     }
   }
 }

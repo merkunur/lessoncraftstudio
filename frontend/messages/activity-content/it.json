@@ -192,6 +192,29 @@
     "whatsInsideCode": "Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "fox-forge.fraction.3-nf-a-1": {
+      "about": [
+        "Pip la volpe gestisce una piccola cioccolateria dove ogni frazione va colata a mano. Il bambino apre le ordinazioni, sceglie lo stampo giusto per DIMENSIONE — senza nessuna etichetta da leggere — e cola il pezzo di cioccolato il numero esatto di volte, finché la tavoletta è completa e l’ordine è pronto da consegnare. Costruire 3/4 significa colare tre volte il pezzo da un quarto: la frazione nasce sotto gli occhi, un pezzo alla volta, invece di comparire già scritta.",
+        "Dietro il gioco c’è un’idea precisa: una frazione a/b è semplicemente a copie del pezzo unitario 1/b. Scegliendo lo stampo per dimensione, il bambino impara a riconoscere la frazione unitaria e a lavorare con parti uguali; capisce che il denominatore indica in quante parti è divisa l’intero e che il numeratore conta quante di quelle parti prende. Ritrovando la stessa frazione su forme diverse — la tavoletta di cioccolato e la pizza — scopre che una frazione descrive una relazione, non una forma sola.",
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali. È gratuita, interattiva e si apre subito nel browser, senza registrazione. Non ci sono timer, punteggi né classifiche: il bambino può sbagliare, riprovare e colare con calma i suoi pezzi, concentrandosi sul significato delle frazioni e non sulla velocità."
+      ],
+      "practices": [
+        "Sceglie il pezzo unitario giusto guardandone la dimensione",
+        "Costruisce una frazione come copie ripetute del pezzo da 1/b",
+        "Lavora con parti uguali e con il ruolo del denominatore",
+        "Riconosce la stessa frazione su forme diverse, dalla tavoletta alla pizza"
+      ],
+      "howToPlay": [
+        "Scegli lo stampo giusto per dimensione, senza leggere etichette",
+        "Cola il pezzo il numero giusto di volte",
+        "Consegna l’ordine a Pip quando la frazione è completa"
+      ],
+      "learningGoals": [
+        "Capire che la frazione a/b è a copie della frazione unitaria 1/b",
+        "Distinguere il ruolo di numeratore e denominatore con parti uguali",
+        "Riconoscere una stessa frazione rappresentata su forme diverse"
+      ]
+    },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
         "Tildy la sarta ha bisogno di strisce precise: un nastro per un fiocco, un cordoncino per un bordo, un filo di lana per una toppa. Nella sua sartoria il bambino prende il righello e misura, mentre Nodo il gatto gironzola sul tavolo e sposta il righello con la zampa. Per misurare bene, fai scorrere il righello finché lo 0 è all’inizio della striscia, poi leggi il numero all’altra estremità: ecco quanti centimetri è lunga.",

@@ -916,6 +916,192 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "drink",
+            "band": 1,
+            "situation": "Vuoi bere un po’ d’acqua. Cosa usi?",
+            "correctNoun": "glass",
+            "choices": [
+              {
+                "noun": "glass",
+                "themeDir": "kitchen tools",
+                "label": "il bicchiere"
+              },
+              {
+                "noun": "scissors",
+                "themeDir": "around the house",
+                "label": "le forbici"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "label": "la mela"
+              }
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 1,
+            "situation": "Fuori piove. Cosa usi per non bagnarti?",
+            "correctNoun": "umbrella",
+            "choices": [
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "il calzino"
+              },
+              {
+                "noun": "umbrella",
+                "themeDir": "accessories",
+                "label": "l’ombrello"
+              },
+              {
+                "noun": "bed",
+                "themeDir": "around the house",
+                "label": "il letto"
+              }
+            ]
+          },
+          {
+            "id": "feet",
+            "band": 1,
+            "situation": "Hai i piedi freddi. Cosa ti metti?",
+            "correctNoun": "sock",
+            "choices": [
+              {
+                "noun": "fan",
+                "themeDir": "around the house",
+                "label": "il ventilatore"
+              },
+              {
+                "noun": "spoon",
+                "themeDir": "around the house",
+                "label": "il cucchiaio"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "il calzino"
+              }
+            ]
+          },
+          {
+            "id": "write",
+            "band": 2,
+            "situation": "Vuoi scrivere il tuo nome. Cosa usi?",
+            "correctNoun": "pencil",
+            "choices": [
+              {
+                "noun": "pencil",
+                "themeDir": "around the house",
+                "label": "la matita"
+              },
+              {
+                "noun": "cup",
+                "themeDir": "around the house",
+                "label": "la tazza"
+              },
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "label": "la palla"
+              }
+            ]
+          },
+          {
+            "id": "eat",
+            "band": 2,
+            "situation": "Hai fame. Cosa puoi mangiare?",
+            "correctNoun": "apple",
+            "choices": [
+              {
+                "noun": "mitten",
+                "themeDir": "accessories",
+                "label": "il guanto"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "label": "la mela"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "il calzino"
+              }
+            ]
+          },
+          {
+            "id": "hot",
+            "band": 2,
+            "situation": "Fa molto caldo. Cosa ti rinfresca?",
+            "correctNoun": "fan",
+            "choices": [
+              {
+                "noun": "scissors",
+                "themeDir": "around the house",
+                "label": "le forbici"
+              },
+              {
+                "noun": "shoe",
+                "themeDir": "clothing",
+                "label": "la scarpa"
+              },
+              {
+                "noun": "fan",
+                "themeDir": "around the house",
+                "label": "il ventilatore"
+              }
+            ]
+          },
+          {
+            "id": "cut",
+            "band": 3,
+            "situation": "Vuoi tagliare la carta. Cosa usi?",
+            "correctNoun": "scissors",
+            "choices": [
+              {
+                "noun": "scissors",
+                "themeDir": "around the house",
+                "label": "le forbici"
+              },
+              {
+                "noun": "cup",
+                "themeDir": "around the house",
+                "label": "la tazza"
+              },
+              {
+                "noun": "sock",
+                "themeDir": "accessories",
+                "label": "il calzino"
+              }
+            ]
+          },
+          {
+            "id": "sleep",
+            "band": 3,
+            "situation": "è ora di dormire. Dove dormi?",
+            "correctNoun": "bed",
+            "choices": [
+              {
+                "noun": "umbrella",
+                "themeDir": "accessories",
+                "label": "l’ombrello"
+              },
+              {
+                "noun": "bed",
+                "themeDir": "around the house",
+                "label": "il letto"
+              },
+              {
+                "noun": "crayon",
+                "themeDir": "classroom",
+                "label": "il pastello"
+              }
+            ]
+          }
         ]
       }
     },
@@ -925,21 +1111,24 @@
       "de": "wozu-benutzt-man-das-klasse-1",
       "fr": "jasper-a-quoi-ca-sert-vocabulaire-cp",
       "es": "para-que-sirven-los-objetos-primer-grado",
-      "pt": "para-que-serve-cada-objeto-vocabulario-1-ano"
+      "pt": "para-que-serve-cada-objeto-vocabulario-1-ano",
+      "it": "a-cosa-serve-ogni-oggetto-vocabolario-classe-prima"
     },
     "page_title": {
       "en": "Jasper's Just-Right Bag — Which One Would You Use? (Grade 1)",
       "de": "Wortschatz-Übungen – online üben (Klasse 1)",
       "fr": "Jasper le geai — À quoi ça sert ? Le vocabulaire (CP)",
       "es": "Para qué sirven los objetos – vocabulario 1.º primaria",
-      "pt": "Para que serve cada objeto? Vocabulário do dia a dia · 1º ano"
+      "pt": "Para que serve cada objeto? Vocabulário do dia a dia · 1º ano",
+      "it": "A cosa serve ogni oggetto? Vocabolario – classe prima"
     },
     "page_intro": {
       "en": "Jasper the jay packs the just-right thing for every moment! Read what is happening (it is raining…), then tap the picture of what you would use. A Grade 1 vocabulary game about real-life connections between words and how we use them, aligned to Common Core L.1.5.c.",
       "de": "Wortschatz-Übungen für die Grundschule: Wozu benutzt man das? Wörter und ihre Verwendung zuordnen. Klasse 1 – kostenlos online, ohne Anmeldung.",
       "fr": "Jasper le geai raconte une petite situation de tous les jours — « Il pleut dehors. Qu'utilises-tu pour rester au sec ? » — et votre enfant tape l'image de l'objet qui convient, le parapluie. En reliant chaque mot à son usage réel (le verre pour boire, les ciseaux pour couper, le lit pour dormir), il enrichit son vocabulaire du quotidien tout en s'amusant. C'est gratuit, interactif, ça se joue directement dans le navigateur, sans minuteur, sans score et sans compte.",
       "es": "¿Para qué sirve cada objeto? El niño toca la imagen del objeto que usaría en cada situación. Vocabulario en línea, gratis y sin registro, para 1.º de primaria.",
-      "pt": "Com o gaio Jasper, a criança lê uma situação do dia a dia e toca na figura do objeto que usaria — o copo para beber, o guarda-chuva na chuva, o lápis para escrever. Uma atividade divertida para ampliar o vocabulário. Grátis, sem cadastro. BNCC, 1º ano."
+      "pt": "Com o gaio Jasper, a criança lê uma situação do dia a dia e toca na figura do objeto que usaria — o copo para beber, o guarda-chuva na chuva, o lápis para escrever. Uma atividade divertida para ampliar o vocabulário. Grátis, sem cadastro. BNCC, 1º ano.",
+      "it": "Insieme alla ghiandaia Jasper, il bambino legge una piccola situazione di tutti i giorni e poi tocca l’immagine dell’oggetto giusto: un’attività gratuita e senza registrazione, pensata per collegare le parole alle cose e arricchire il vocabolario del quotidiano, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "Read what is happening — what would you use?"
   }

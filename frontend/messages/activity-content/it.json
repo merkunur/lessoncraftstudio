@@ -3343,6 +3343,29 @@
         "Riconoscere le parole con più significati",
         "Leggere con attenzione"
       ]
+    },
+    "jasper-just-right.real-life.l-1-5-c": {
+      "about": [
+        "La ghiandaia Jasper adora osservare la vita di tutti i giorni e, a ogni turno, racconta una piccola scena chiedendo al bambino quale oggetto serve per risolverla.",
+        "Toccando l’immagine giusta, il bambino impara a collegare gli oggetti al loro uso, arricchisce il vocabolario del quotidiano e capisce a cosa serve ogni cosa.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Collegare gli oggetti al loro uso",
+        "Arricchire il vocabolario del quotidiano",
+        "Riconoscere gli oggetti di tutti i giorni",
+        "Capire a cosa serve ogni cosa"
+      ],
+      "howToPlay": [
+        "Leggi la piccola situazione",
+        "Pensa a quale oggetto serve",
+        "Tocca l’immagine giusta"
+      ],
+      "learningGoals": [
+        "Collegare parole e oggetti alla vita reale",
+        "Arricchire il vocabolario",
+        "Riconoscere a cosa serve un oggetto"
+      ]
     }
   }
 }

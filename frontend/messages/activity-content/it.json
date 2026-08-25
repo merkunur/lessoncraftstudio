@@ -3320,6 +3320,29 @@
         "Ordinare le parole in ordine alfabetico",
         "Trovare una parola nel dizionario"
       ]
+    },
+    "fern-clue-garden.context-clues.l-2-4-a": {
+      "about": [
+        "Nel suo giardino degli indizi, Fern il cerbiatto raccoglie parole speciali che nascondono più di un significato e invita i bambini a scoprire quale senso si nasconde in ogni frase.",
+        "Giocando, il bambino impara a capire il significato di una parola dal contesto, a riconoscere le parole con più significati e a leggere con attenzione ogni frase prima di scegliere.",
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "capire il significato di una parola dal contesto",
+        "riconoscere le parole con più significati",
+        "usare gli indizi della frase",
+        "ampliare il vocabolario"
+      ],
+      "howToPlay": [
+        "Leggi tutta la frase",
+        "Pensa a cosa significa la parola in quel punto",
+        "Tocca il significato giusto"
+      ],
+      "learningGoals": [
+        "Capire il significato dal contesto",
+        "Riconoscere le parole con più significati",
+        "Leggere con attenzione"
+      ]
     }
   }
 }

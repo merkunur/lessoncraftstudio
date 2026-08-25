@@ -920,6 +920,188 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "penna-piuma",
+            "band": 1,
+            "word": "penna",
+            "sentence": "La penna morbida è scivolata giù dal nido.",
+            "choices": [
+              {
+                "text": "una cosa leggera che ricopre gli uccelli",
+                "kind": "correct"
+              },
+              {
+                "text": "uno strumento con l’inchiostro per scrivere",
+                "kind": "no-context"
+              },
+              {
+                "text": "un tipo di pasta al forno",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "coda-animale",
+            "band": 1,
+            "word": "coda",
+            "sentence": "Il gatto agita la coda quando è felice.",
+            "choices": [
+              {
+                "text": "un dolce ricoperto di panna",
+                "kind": "off"
+              },
+              {
+                "text": "la parte lunga dietro il corpo degli animali",
+                "kind": "correct"
+              },
+              {
+                "text": "una fila di persone che aspettano",
+                "kind": "no-context"
+              }
+            ]
+          },
+          {
+            "id": "torre-costruzione",
+            "band": 1,
+            "word": "torre",
+            "sentence": "Dalla torre altissima si vede tutto il paese.",
+            "choices": [
+              {
+                "text": "un pezzo degli scacchi a forma di castello",
+                "kind": "no-context"
+              },
+              {
+                "text": "un frutto giallo e dolce",
+                "kind": "off"
+              },
+              {
+                "text": "una costruzione stretta che sale verso il cielo",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "spina-rosa",
+            "band": 2,
+            "word": "spina",
+            "sentence": "La spina della rosa mi ha punto il dito.",
+            "choices": [
+              {
+                "text": "un aghetto duro che cresce sulle piante",
+                "kind": "correct"
+              },
+              {
+                "text": "un cappello di lana",
+                "kind": "off"
+              },
+              {
+                "text": "la parte che si mette nella presa della corrente",
+                "kind": "no-context"
+              }
+            ]
+          },
+          {
+            "id": "carta-foglio",
+            "band": 2,
+            "word": "carta",
+            "sentence": "Ho piegato la carta per costruire un aeroplano.",
+            "choices": [
+              {
+                "text": "una scarpa con i lacci",
+                "kind": "off"
+              },
+              {
+                "text": "il foglio sottile su cui si scrive e si disegna",
+                "kind": "correct"
+              },
+              {
+                "text": "una figura colorata con cui si gioca a briscola",
+                "kind": "no-context"
+              }
+            ]
+          },
+          {
+            "id": "riga-striscia",
+            "band": 2,
+            "word": "riga",
+            "sentence": "La maglietta di Leo ha una riga rossa nel mezzo.",
+            "choices": [
+              {
+                "text": "un animale che vive nel mare",
+                "kind": "off"
+              },
+              {
+                "text": "un attrezzo che serve per misurare e tracciare linee",
+                "kind": "no-context"
+              },
+              {
+                "text": "una striscia colorata e dritta",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "pesca-attivita",
+            "band": 3,
+            "word": "pesca",
+            "sentence": "Il nonno va alla pesca ogni domenica al lago.",
+            "choices": [
+              {
+                "text": "l’attività di catturare gli animali che nuotano, con la canna e l’amo",
+                "kind": "correct"
+              },
+              {
+                "text": "un frutto dolce con la buccia morbida",
+                "kind": "no-context"
+              },
+              {
+                "text": "una macchina veloce da corsa",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "squadra-gruppo",
+            "band": 3,
+            "word": "squadra",
+            "sentence": "La squadra di Anna ha vinto la partita di calcio.",
+            "choices": [
+              {
+                "text": "uno strumento a forma di triangolo per disegnare",
+                "kind": "no-context"
+              },
+              {
+                "text": "un gruppo di persone che giocano insieme",
+                "kind": "correct"
+              },
+              {
+                "text": "un tipo di formaggio fresco",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "pianta-piede",
+            "band": 3,
+            "word": "pianta",
+            "sentence": "Mi fa il solletico sotto la pianta del piede.",
+            "choices": [
+              {
+                "text": "un essere verde con le foglie e le radici che cresce nel giardino",
+                "kind": "no-context"
+              },
+              {
+                "text": "un animale con le ali",
+                "kind": "off"
+              },
+              {
+                "text": "la superficie con cui tocchiamo il suolo mentre camminiamo",
+                "kind": "correct"
+              }
+            ]
+          }
         ]
       }
     },
@@ -929,21 +1111,24 @@
       "de": "teekesselwoerter-mehrere-bedeutungen-klasse-2",
       "fr": "sens-d-un-mot-d-apres-le-contexte",
       "es": "palabras-con-varios-significados-por-contexto-primaria",
-      "pt": "palavras-com-varios-sentidos-pelo-contexto-2-ano"
+      "pt": "palavras-com-varios-sentidos-pelo-contexto-2-ano",
+      "it": "parole-con-piu-significati-significato-dal-contesto-classe-seconda"
     },
     "page_title": {
       "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)",
       "de": "Teekesselwörter Klasse 2 – Wörter mit 2 Bedeutungen",
       "fr": "Le jardin d'indices de Fern — Le sens d'un mot dans la phrase",
       "es": "Palabras con varios significados: elige por contexto | Primaria",
-      "pt": "Palavras com vários sentidos: descubra pelo contexto · 2º ano"
+      "pt": "Palavras com vários sentidos: descubra pelo contexto · 2º ano",
+      "it": "Parole con più significati: scegli dal contesto | Classe seconda"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.",
       "de": "Teekesselwörter für Klasse 2 spielerisch üben: Lies den Satz und tipp die passende Bedeutung an. Kostenlos & interaktiv – jetzt mit Fern entdecken!",
       "fr": "Avec Fern le faon, votre enfant lit une petite phrase, puis tape la définition du mot qui va avec le contexte. Certains mots ont plusieurs sens (« la souris », « une feuille », « la glace »…) : pour choisir le bon, il faut lire toute la phrase et s'appuyer sur les indices qu'elle donne. L'enfant apprend ainsi à comprendre un mot à plusieurs sens grâce au contexte et enrichit son vocabulaire, en lien avec les programmes officiels de l'école. C'est une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte — juste le plaisir de réfléchir à son rythme.",
       "es": "El niño lee una oración, ve una palabra con varios significados y toca el que la oración señala usando el contexto: gratis, sin registro y alineada al plan de la SEP.",
-      "pt": "Com a corça Fern, a criança lê uma frase e descobre o sentido de uma palavra que tem mais de um significado, usando as pistas do contexto. Uma atividade para ampliar o vocabulário e ler com atenção. Grátis, sem cadastro. BNCC, 2º ano."
+      "pt": "Com a corça Fern, a criança lê uma frase e descobre o sentido de uma palavra que tem mais de um significado, usando as pistas do contexto. Uma atividade para ampliar o vocabulário e ler com atenção. Grátis, sem cadastro. BNCC, 2º ano.",
+      "it": "Con Fern, il dolce cerbiatto, il tuo bambino scopre le parole che hanno più di un significato e impara a scegliere quello giusto usando il contesto della frase come indizio: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda, per leggere con più attenzione e sicurezza."
     },
     "kid_prompt_template": "context-clues"
   }

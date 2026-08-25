@@ -240,21 +240,24 @@
       "de": "zahlen-zusammensetzen-auf-verschiedene-arten-klasse-1",
       "fr": "composer-un-nombre-de-plusieurs-facons-cp",
       "es": "componer-numeros-de-varias-maneras-primer-grado",
-      "pt": "compor-um-numero-de-varias-formas-com-clunk-1-ano"
+      "pt": "compor-um-numero-de-varias-formas-com-clunk-1-ano",
+      "it": "comporre-un-numero-in-piu-modi-classe-prima"
     },
     "page_title": {
       "en": "Clunk's Lost Lunch — Make the Number Many Ways",
       "de": "Zahlen zusammensetzen – viele Wege | Klasse 1 mit Clunk",
       "fr": "Décomposer un nombre de plusieurs façons – en ligne (CP)",
       "es": "Componer números de varias maneras (1.º de primaria)",
-      "pt": "Compor um número de várias formas com o Clunk — 1º ano"
+      "pt": "Compor um número de várias formas com o Clunk — 1º ano",
+      "it": "Comporre un numero in più modi (classe prima)"
     },
     "page_intro": {
       "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3.",
       "de": "Setze eine Zahl mit Clunks Snacks auf viele verschiedene Arten zusammen – Zahlzerlegung interaktiv & kostenlos üben. Perfekt für Klasse 1. Jetzt loslegen!",
       "fr": "Décomposer un même nombre de plusieurs façons jusqu'à 10 avec Clunk, étape par étape. Gratuit, en ligne, sans inscription.",
       "es": "Forma un número de varias maneras y suma botanas para alimentar a Clunk: actividad gratis e interactiva, sin registro, alineada a los planes de la SEP.",
-      "pt": "Ajude o robô Clunk a montar o número dele escolhendo lanches e depois faça o mesmo número de um jeito novo. Componha números de várias formas. Grátis, BNCC, 1º ano."
+      "pt": "Ajude o robô Clunk a montar o número dele escolhendo lanches e depois faça o mesmo número de um jeito novo. Componha números de várias formas. Grátis, BNCC, 1º ano.",
+      "it": "Con Clunk, il robot affamato, il bambino compone lo stesso numero in più modi scegliendo gli snack giusti (10 = 6+4 = 7+3…): un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "make-total"
   }

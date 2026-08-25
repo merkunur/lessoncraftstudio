@@ -28,13 +28,14 @@
   var WORDS_FR = { 0: 'zéro', 1: 'un', 2: 'deux', 3: 'trois', 4: 'quatre', 5: 'cinq', 6: 'six', 7: 'sept', 8: 'huit', 9: 'neuf', 10: 'dix', 11: 'onze', 12: 'douze', 13: 'treize', 14: 'quatorze', 15: 'quinze', 16: 'seize', 17: 'dix-sept', 18: 'dix-huit', 19: 'dix-neuf', 20: 'vingt' };
   var WORDS_ES = { 0: 'cero', 1: 'uno', 2: 'dos', 3: 'tres', 4: 'cuatro', 5: 'cinco', 6: 'seis', 7: 'siete', 8: 'ocho', 9: 'nueve', 10: 'diez', 11: 'once', 12: 'doce', 13: 'trece', 14: 'catorce', 15: 'quince', 16: 'dieciséis', 17: 'diecisiete', 18: 'dieciocho', 19: 'diecinueve', 20: 'veinte' };
   var WORDS_PT = { 0: 'zero', 1: 'um', 2: 'dois', 3: 'três', 4: 'quatro', 5: 'cinco', 6: 'seis', 7: 'sete', 8: 'oito', 9: 'nove', 10: 'dez', 11: 'onze', 12: 'doze', 13: 'treze', 14: 'quatorze', 15: 'quinze', 16: 'dezesseis', 17: 'dezessete', 18: 'dezoito', 19: 'dezenove', 20: 'vinte' };
-  function numWord(c) { var w = (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : (LANG === 'es' ? WORDS_ES : (LANG === 'pt' ? WORDS_PT : WORDS))))[c]; return (w != null) ? w : c; }
+  var WORDS_IT = { 0: 'zero', 1: 'uno', 2: 'due', 3: 'tre', 4: 'quattro', 5: 'cinque', 6: 'sei', 7: 'sette', 8: 'otto', 9: 'nove', 10: 'dieci', 11: 'undici', 12: 'dodici', 13: 'tredici', 14: 'quattordici', 15: 'quindici', 16: 'sedici', 17: 'diciassette', 18: 'diciotto', 19: 'diciannove', 20: 'venti' };
+  function numWord(c) { var w = (LANG === 'de' ? WORDS_DE : (LANG === 'fr' ? WORDS_FR : (LANG === 'es' ? WORDS_ES : (LANG === 'pt' ? WORDS_PT : (LANG === 'it' ? WORDS_IT : WORDS)))))[c]; return (w != null) ? w : c; }
   var SNACKCOL = ['#F2A65A', '#7FB069', '#8FB8DE', '#E8A53A', '#C98BB9', '#6FC3B8'];
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'es' ? 'es-MX' : (LANG === 'pt' ? 'pt-BR' : 'en-US')))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'de' ? 'de-DE' : (LANG === 'fr' ? 'fr-FR' : (LANG === 'es' ? 'es-MX' : (LANG === 'pt' ? 'pt-BR' : (LANG === 'it' ? 'it-IT' : 'en-US'))))); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function clunkSVG(mood) {
@@ -59,30 +60,30 @@
     reward: { id: 'lunchbox', label: "Clunk's Lunchbox", emoji: '🍱' },
 
     strings: {
-      title: { en: "Clunk's Lost Lunch", de: 'Clunks verlorenes Mittagessen', fr: 'Le déjeuner perdu de Clunk', es: 'El almuerzo perdido de Clunk', pt: 'Clunk perdeu o lanche' },
-      instruction: { en: 'Make Clunk’s number with snacks, then feed him.', de: 'Bilde Clunks Zahl mit Snacks und füttere ihn dann!', fr: 'Compose le nombre de Clunk avec des goûters, puis nourris-le !', es: '¡Forma el número de Clunk con botanas y dale de comer!', pt: 'Faça o número do Clunk com petiscos e depois dê de comer pra ele.' },
-      prompt: { en: 'Make his number!', de: 'Bilde seine Zahl!', fr: 'Compose son nombre !', es: '¡Forma su número!', pt: 'Faça o número dele!' },
-      needs: { en: 'Clunk needs', de: 'Clunk braucht', fr: 'Clunk a besoin de', es: 'Clunk necesita', pt: 'Clunk precisa de' },
-      crunch: { en: 'crunch-units', de: 'Knusper', fr: 'croque-points', es: 'botanas', pt: 'petiscos' },
-      qFree: { en: 'Pick snacks that make {n} — any way you like!', de: 'Wähle Snacks, die zusammen {n} ergeben – ganz wie du magst!', fr: 'Choisis des goûters qui font {n} — comme tu veux !', es: '¡Elige botanas que juntas hagan {n}, como tú quieras!', pt: 'Escolha petiscos que façam {n} — do jeito que você quiser!' },
-      qTwoWays: { en: 'Make {n} — then a WHOLE new way!', de: 'Mach {n} – und dann auf eine GANZ neue Weise!', fr: 'Fais {n} — puis d’une façon TOUTE nouvelle !', es: 'Forma {n}... ¡y luego de una manera TOTALMENTE nueva!', pt: 'Faça {n} — agora de um jeito TOTALMENTE novo!' },
-      qNewWay: { en: 'Yum! Now make {n} a different way!', de: 'Lecker! Jetzt mach {n} auf eine andere Weise!', fr: 'Miam ! Maintenant, fais {n} d’une autre façon !', es: '¡Rico! ¡Ahora forma {n} de otra manera!', pt: 'Que delícia! Agora faça {n} de outro jeito!' },
-      qMissing: { en: 'Clunk already holds {g}. Add the snack that makes {n}!', de: 'Clunk hat schon {g}. Lege den Snack dazu, der {n} ergibt!', fr: 'Clunk tient déjà {g}. Ajoute le goûter qui fait {n} !', es: 'Clunk ya tiene {g}. ¡Agrega la botana que complete {n}!', pt: 'Clunk já tem {g}. Adicione o petisco que faz {n}!' },
-      qMulti: { en: 'Clunk holds {g}. Finish to {n} with exactly TWO snacks!', de: 'Clunk hat {g}. Ergänze auf {n} – mit genau ZWEI Snacks!', fr: 'Clunk tient {g}. Complète jusqu’à {n} avec exactement DEUX goûters !', es: 'Clunk tiene {g}. Completa hasta {n}... ¡con exactamente DOS botanas!', pt: 'Clunk tem {g}. Complete até {n} com exatamente DOIS petiscos!' },
-      qExactN: { en: 'Make {n} using exactly {k} snacks!', de: 'Bilde {n} mit genau {k} Snacks!', fr: 'Fais {n} avec exactement {k} goûters !', es: '¡Forma {n} con exactamente {k} botanas!', pt: 'Faça {n} usando exatamente {k} petiscos!' },
-      qConstrained: { en: 'Make {n} — only these snacks today!', de: 'Bilde {n} – heute gibt es nur diese Snacks!', fr: 'Fais {n} — aujourd’hui, seulement ces goûters !', es: 'Forma {n}... ¡hoy solo hay estas botanas!', pt: 'Faça {n} — só com estes petiscos hoje!' },
-      qReduce: { en: 'Too full! Take snacks back until it makes {n}.', de: 'Zu voll! Nimm Snacks heraus, bis es {n} ergibt.', fr: 'Trop plein ! Retire des goûters jusqu’à obtenir {n}.', es: '¡Está muy lleno! Saca botanas hasta que quede {n}.', pt: 'Cheio demais! Tire petiscos até dar {n}.' },
-      hintFeed: { en: 'Tap snacks into the lunchbox, then feed Clunk!', de: 'Tippe Snacks in die Lunchbox und füttere dann Clunk!', fr: 'Touche des goûters pour les mettre dans la boîte, puis nourris Clunk !', es: 'Toca las botanas para meterlas a la lonchera y luego dale de comer a Clunk.', pt: 'Toque nos petiscos pra colocar na lancheira e depois dê de comer pro Clunk!' },
-      hintReduce: { en: 'Tap a lunchbox snack to put it back.', de: 'Tippe einen Snack in der Lunchbox an, um ihn zurückzulegen.', fr: 'Touche un goûter de la boîte pour le remettre.', es: 'Toca una botana de la lonchera para regresarla.', pt: 'Toque num petisco da lancheira pra tirar.' },
-      lever: { en: 'Feed Clunk! 🍴', de: 'Clunk füttern! 🍴', fr: 'Nourris Clunk ! 🍴', es: '¡Dale de comer a Clunk! 🍴', pt: 'Alimente o Clunk! 🍴' },
-      lunchboxLab: { en: 'Lunchbox', de: 'Lunchbox', fr: 'Boîte à goûter', es: 'Lonchera', pt: 'Lancheira' },
-      emptyBox: { en: 'tap snacks to add them', de: 'Tippe Snacks an, um sie hinzuzufügen', fr: 'touche des goûters pour les ajouter', es: 'Toca las botanas para agregarlas', pt: 'toque nos petiscos pra adicionar' },
-      wrong: { en: "Hmm — not quite my size! Let's pack a fresh one.", de: 'Hmm – das ist nicht ganz meine Größe! Pack eine frische Lunchbox.', fr: 'Hmm — ce n’est pas tout à fait ma taille ! On refait une boîte.', es: 'Mmm... ¡ese no es mi tamaño! Arma una lonchera nueva.', pt: 'Hmm — não é bem o meu tamanho! Vamos montar outro.' },
-      repeat: { en: "That's the same way — try a different one!", de: 'Das ist der gleiche Weg – probier einen anderen!', fr: 'C’est la même façon — essaie-en une autre !', es: 'Esa es la misma manera... ¡prueba otra!', pt: 'Esse é o mesmo jeito — tente um diferente!' },
-      nextWay: { en: 'Yum! Now make it a WHOLE new way!', de: 'Lecker! Jetzt mach es auf eine GANZ neue Weise!', fr: 'Miam ! Maintenant, fais-le d’une façon TOUTE nouvelle !', es: '¡Rico! ¡Ahora hazlo de una manera TOTALMENTE nueva!', pt: 'Que delícia! Agora faça de um jeito TOTALMENTE novo!' },
-      win: { en: '{combo} makes {n} — yum! 🍱', de: '{combo} macht {n} – lecker! 🍱', fr: '{combo} fait {n} — miam ! 🍱', es: '{combo} son {n}... ¡rico! 🍱', pt: '{combo} faz {n} — que delícia! 🍱' },
-      winTwo: { en: 'Two ways to make {n} — Clunk is full! 🍱', de: 'Zwei Wege zu {n} – Clunk ist satt! 🍱', fr: 'Deux façons de faire {n} — Clunk est rassasié ! 🍱', es: 'Dos maneras de formar {n}... ¡Clunk está lleno! 🍱', pt: 'Dois jeitos de fazer {n} — o Clunk está satisfeito! 🍱' },
-      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Revisar! ✓', pt: 'Toque em Verificar! ✓' }
+      title: { en: "Clunk's Lost Lunch", de: 'Clunks verlorenes Mittagessen', fr: 'Le déjeuner perdu de Clunk', es: 'El almuerzo perdido de Clunk', pt: 'Clunk perdeu o lanche', it: 'Clunk ha perso il pranzo' },
+      instruction: { en: 'Make Clunk’s number with snacks, then feed him.', de: 'Bilde Clunks Zahl mit Snacks und füttere ihn dann!', fr: 'Compose le nombre de Clunk avec des goûters, puis nourris-le !', es: '¡Forma el número de Clunk con botanas y dale de comer!', pt: 'Faça o número do Clunk com petiscos e depois dê de comer pra ele.', it: 'Componi il numero di Clunk con i bocconcini, poi daglieli da mangiare.' },
+      prompt: { en: 'Make his number!', de: 'Bilde seine Zahl!', fr: 'Compose son nombre !', es: '¡Forma su número!', pt: 'Faça o número dele!', it: 'Componi il suo numero!' },
+      needs: { en: 'Clunk needs', de: 'Clunk braucht', fr: 'Clunk a besoin de', es: 'Clunk necesita', pt: 'Clunk precisa de', it: 'Clunk ha bisogno di' },
+      crunch: { en: 'crunch-units', de: 'Knusper', fr: 'croque-points', es: 'botanas', pt: 'petiscos', it: 'bocconcini' },
+      qFree: { en: 'Pick snacks that make {n} — any way you like!', de: 'Wähle Snacks, die zusammen {n} ergeben – ganz wie du magst!', fr: 'Choisis des goûters qui font {n} — comme tu veux !', es: '¡Elige botanas que juntas hagan {n}, como tú quieras!', pt: 'Escolha petiscos que façam {n} — do jeito que você quiser!', it: 'Scegli i bocconcini che fanno {n} — come vuoi tu!' },
+      qTwoWays: { en: 'Make {n} — then a WHOLE new way!', de: 'Mach {n} – und dann auf eine GANZ neue Weise!', fr: 'Fais {n} — puis d’une façon TOUTE nouvelle !', es: 'Forma {n}... ¡y luego de una manera TOTALMENTE nueva!', pt: 'Faça {n} — agora de um jeito TOTALMENTE novo!', it: 'Fai {n} — poi in un modo tutto nuovo!' },
+      qNewWay: { en: 'Yum! Now make {n} a different way!', de: 'Lecker! Jetzt mach {n} auf eine andere Weise!', fr: 'Miam ! Maintenant, fais {n} d’une autre façon !', es: '¡Rico! ¡Ahora forma {n} de otra manera!', pt: 'Que delícia! Agora faça {n} de outro jeito!', it: 'Che buono! Ora fai {n} in un altro modo!' },
+      qMissing: { en: 'Clunk already holds {g}. Add the snack that makes {n}!', de: 'Clunk hat schon {g}. Lege den Snack dazu, der {n} ergibt!', fr: 'Clunk tient déjà {g}. Ajoute le goûter qui fait {n} !', es: 'Clunk ya tiene {g}. ¡Agrega la botana que complete {n}!', pt: 'Clunk já tem {g}. Adicione o petisco que faz {n}!', it: 'Clunk ha già {g}. Aggiungi il bocconcino che fa {n}!' },
+      qMulti: { en: 'Clunk holds {g}. Finish to {n} with exactly TWO snacks!', de: 'Clunk hat {g}. Ergänze auf {n} – mit genau ZWEI Snacks!', fr: 'Clunk tient {g}. Complète jusqu’à {n} avec exactement DEUX goûters !', es: 'Clunk tiene {g}. Completa hasta {n}... ¡con exactamente DOS botanas!', pt: 'Clunk tem {g}. Complete até {n} com exatamente DOIS petiscos!', it: 'Clunk ha {g}. Arriva a {n} con esattamente DUE bocconcini!' },
+      qExactN: { en: 'Make {n} using exactly {k} snacks!', de: 'Bilde {n} mit genau {k} Snacks!', fr: 'Fais {n} avec exactement {k} goûters !', es: '¡Forma {n} con exactamente {k} botanas!', pt: 'Faça {n} usando exatamente {k} petiscos!', it: 'Fai {n} usando esattamente {k} bocconcini!' },
+      qConstrained: { en: 'Make {n} — only these snacks today!', de: 'Bilde {n} – heute gibt es nur diese Snacks!', fr: 'Fais {n} — aujourd’hui, seulement ces goûters !', es: 'Forma {n}... ¡hoy solo hay estas botanas!', pt: 'Faça {n} — só com estes petiscos hoje!', it: 'Fai {n} — solo questi bocconcini oggi!' },
+      qReduce: { en: 'Too full! Take snacks back until it makes {n}.', de: 'Zu voll! Nimm Snacks heraus, bis es {n} ergibt.', fr: 'Trop plein ! Retire des goûters jusqu’à obtenir {n}.', es: '¡Está muy lleno! Saca botanas hasta que quede {n}.', pt: 'Cheio demais! Tire petiscos até dar {n}.', it: 'Troppo pieno! Togli bocconcini finché non fa {n}.' },
+      hintFeed: { en: 'Tap snacks into the lunchbox, then feed Clunk!', de: 'Tippe Snacks in die Lunchbox und füttere dann Clunk!', fr: 'Touche des goûters pour les mettre dans la boîte, puis nourris Clunk !', es: 'Toca las botanas para meterlas a la lonchera y luego dale de comer a Clunk.', pt: 'Toque nos petiscos pra colocar na lancheira e depois dê de comer pro Clunk!', it: 'Tocca i bocconcini per metterli nel cestino, poi dai da mangiare a Clunk!' },
+      hintReduce: { en: 'Tap a lunchbox snack to put it back.', de: 'Tippe einen Snack in der Lunchbox an, um ihn zurückzulegen.', fr: 'Touche un goûter de la boîte pour le remettre.', es: 'Toca una botana de la lonchera para regresarla.', pt: 'Toque num petisco da lancheira pra tirar.', it: 'Tocca un bocconcino nel cestino per rimetterlo a posto.' },
+      lever: { en: 'Feed Clunk! 🍴', de: 'Clunk füttern! 🍴', fr: 'Nourris Clunk ! 🍴', es: '¡Dale de comer a Clunk! 🍴', pt: 'Alimente o Clunk! 🍴', it: 'Dai da mangiare a Clunk! 🍴' },
+      lunchboxLab: { en: 'Lunchbox', de: 'Lunchbox', fr: 'Boîte à goûter', es: 'Lonchera', pt: 'Lancheira', it: 'Cestino' },
+      emptyBox: { en: 'tap snacks to add them', de: 'Tippe Snacks an, um sie hinzuzufügen', fr: 'touche des goûters pour les ajouter', es: 'Toca las botanas para agregarlas', pt: 'toque nos petiscos pra adicionar', it: 'tocca i bocconcini per aggiungerli' },
+      wrong: { en: "Hmm — not quite my size! Let's pack a fresh one.", de: 'Hmm – das ist nicht ganz meine Größe! Pack eine frische Lunchbox.', fr: 'Hmm — ce n’est pas tout à fait ma taille ! On refait une boîte.', es: 'Mmm... ¡ese no es mi tamaño! Arma una lonchera nueva.', pt: 'Hmm — não é bem o meu tamanho! Vamos montar outro.', it: 'Uhm — non è la mia misura! Prepariamone uno nuovo.' },
+      repeat: { en: "That's the same way — try a different one!", de: 'Das ist der gleiche Weg – probier einen anderen!', fr: 'C’est la même façon — essaie-en une autre !', es: 'Esa es la misma manera... ¡prueba otra!', pt: 'Esse é o mesmo jeito — tente um diferente!', it: 'È lo stesso modo — provane un altro!' },
+      nextWay: { en: 'Yum! Now make it a WHOLE new way!', de: 'Lecker! Jetzt mach es auf eine GANZ neue Weise!', fr: 'Miam ! Maintenant, fais-le d’une façon TOUTE nouvelle !', es: '¡Rico! ¡Ahora hazlo de una manera TOTALMENTE nueva!', pt: 'Que delícia! Agora faça de um jeito TOTALMENTE novo!', it: 'Che buono! Ora fallo in un modo tutto nuovo!' },
+      win: { en: '{combo} makes {n} — yum! 🍱', de: '{combo} macht {n} – lecker! 🍱', fr: '{combo} fait {n} — miam ! 🍱', es: '{combo} son {n}... ¡rico! 🍱', pt: '{combo} faz {n} — que delícia! 🍱', it: '{combo} fa {n} — che buono! 🍱' },
+      winTwo: { en: 'Two ways to make {n} — Clunk is full! 🍱', de: 'Zwei Wege zu {n} – Clunk ist satt! 🍱', fr: 'Deux façons de faire {n} — Clunk est rassasié ! 🍱', es: 'Dos maneras de formar {n}... ¡Clunk está lleno! 🍱', pt: 'Dois jeitos de fazer {n} — o Clunk está satisfeito! 🍱', it: 'Due modi per fare {n} — Clunk è pieno! 🍱' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Revisar! ✓', pt: 'Toque em Verificar! ✓', it: 'Tocca Controlla! ✓' }
     },
     defaults: {},
 
@@ -151,7 +152,7 @@
       costs.forEach(function (cost) {
         var b = api.el('button', 'cl-cubby'); b.type = 'button'; b.innerHTML = snackSVG(cost);
         var flag = api.el('span', 'cl-flag'); flag.textContent = cost; b.appendChild(flag);
-        b.setAttribute('aria-label', LANG === 'de' ? ('Snack mit dem Wert ' + cost + ' – zum Hinzufügen antippen') : (LANG === 'fr' ? ('un goûter qui vaut ' + cost + ' — touche pour l’ajouter') : (LANG === 'es' ? ('una botana que vale ' + cost + ' — toca para agregar') : (LANG === 'pt' ? ('um petisco que vale ' + cost + ' — toque para adicionar') : ('a ' + cost + ' snack — tap to add')))));
+        b.setAttribute('aria-label', LANG === 'de' ? ('Snack mit dem Wert ' + cost + ' – zum Hinzufügen antippen') : (LANG === 'fr' ? ('un goûter qui vaut ' + cost + ' — touche pour l’ajouter') : (LANG === 'es' ? ('una botana que vale ' + cost + ' — toca para agregar') : (LANG === 'pt' ? ('um petisco que vale ' + cost + ' — toque para adicionar') : (LANG === 'it' ? ('un bocconcino da ' + cost + ' — tocca per aggiungerlo') : ('a ' + cost + ' snack — tap to add'))))));
         b.addEventListener('click', function () { Core.addChip(self.cstate, cost); self.api.sound && self.api.sound(520 + cost * 18); self.msg = null; self.render(); });
         wall.appendChild(b);
       });
@@ -177,7 +178,9 @@
               ? (c.locked ? ('Clunk tiene una botana que vale ' + c.cost) : ('una botana que vale ' + c.cost + ' — toca para regresarla'))
               : (LANG === 'pt'
                 ? (c.locked ? ('Clunk tem um petisco que vale ' + c.cost) : ('um petisco que vale ' + c.cost + ' — toque para devolver'))
-                : ((c.locked ? 'Clunk holds a ' : 'a ') + c.cost + ' snack' + (c.locked ? '' : ' — tap to take it back'))))));
+                : (LANG === 'it'
+                  ? (c.locked ? ('Clunk tiene un bocconcino da ' + c.cost) : ('un bocconcino da ' + c.cost + ' — tocca per rimetterlo a posto'))
+                  : ((c.locked ? 'Clunk holds a ' : 'a ') + c.cost + ' snack' + (c.locked ? '' : ' — tap to take it back')))))));
         chip.addEventListener('click', function () { if (c.locked) { chip.classList.add('cl-shake'); return; } Core.removeChip(s, c.id); self.api.sound && self.api.sound(360); self.msg = null; self.render(); });
         chips.appendChild(chip);
       });
@@ -195,17 +198,17 @@
       var api = this.api, costs = Core.trayCosts(this.cstate).slice();
       var r = Core.commit(this.cstate);
       if (r === 'sealed') { this.winCombo = costs; this._win(); }
-      else if (r === 'next-way') { this.api.sound && this.api.sound(760); this.msg = api.t('nextWay'); speak(LANG === 'de' ? 'Jetzt ein neuer Weg!' : (LANG === 'fr' ? 'Maintenant une nouvelle façon !' : (LANG === 'es' ? '¡Ahora de una manera nueva!' : (LANG === 'pt' ? 'Agora de um jeito novo!' : 'now a new way')))); this.render(); }
+      else if (r === 'next-way') { this.api.sound && this.api.sound(760); this.msg = api.t('nextWay'); speak(LANG === 'de' ? 'Jetzt ein neuer Weg!' : (LANG === 'fr' ? 'Maintenant une nouvelle façon !' : (LANG === 'es' ? '¡Ahora de una manera nueva!' : (LANG === 'pt' ? 'Agora de um jeito novo!' : (LANG === 'it' ? 'ora in un modo nuovo' : 'now a new way'))))); this.render(); }
       else if (r === 'repeat') { this.api.sound && this.api.sound(440); this.msg = api.t('repeat'); this.render(); }
-      else { this.api.sound && this.api.sound(330); this.msg = api.t('wrong'); speak(LANG === 'de' ? 'Nicht ganz meine Größe!' : (LANG === 'fr' ? 'Pas tout à fait ma taille !' : (LANG === 'es' ? '¡Ese no es mi tamaño!' : (LANG === 'pt' ? 'Esse não é o meu tamanho!' : 'not quite my size')))); this.render(); }   // wrong — non-directional, snacks returned
+      else { this.api.sound && this.api.sound(330); this.msg = api.t('wrong'); speak(LANG === 'de' ? 'Nicht ganz meine Größe!' : (LANG === 'fr' ? 'Pas tout à fait ma taille !' : (LANG === 'es' ? '¡Ese no es mi tamaño!' : (LANG === 'pt' ? 'Esse não é o meu tamanho!' : (LANG === 'it' ? 'non è la mia misura' : 'not quite my size'))))); this.render(); }   // wrong — non-directional, snacks returned
     },
     _win: function () {
       var api = this.api, n = this._T();
       this.solved = true; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 9);
-      var combo = (this.winCombo || []).map(numWord).join(LANG === 'de' ? ' und ' : (LANG === 'fr' ? ' et ' : (LANG === 'es' ? ' y ' : (LANG === 'pt' ? ' e ' : ' and '))));
+      var combo = (this.winCombo || []).map(numWord).join(LANG === 'de' ? ' und ' : (LANG === 'fr' ? ' et ' : (LANG === 'es' ? ' y ' : (LANG === 'pt' ? ' e ' : (LANG === 'it' ? ' e ' : ' and ')))));
       this.msg = (this.schema === 'two-ways') ? api.t('winTwo').replace('{n}', n) : api.t('win').replace('{combo}', combo).replace('{n}', n);
       this.api.sound && this.api.sound(940); this.render(); this.announce(this.msg);
-      speak((this.winCombo || []).map(numWord).join(', ') + (LANG === 'de' ? ' macht ' : (LANG === 'fr' ? ' fait ' : (LANG === 'es' ? ' son ' : (LANG === 'pt' ? ' faz ' : ' makes ')))) + numWord(n));
+      speak((this.winCombo || []).map(numWord).join(', ') + (LANG === 'de' ? ' macht ' : (LANG === 'fr' ? ' fait ' : (LANG === 'es' ? ' son ' : (LANG === 'pt' ? ' faz ' : (LANG === 'it' ? ' fa ' : ' makes '))))) + numWord(n));
     },
     _renderDone: function (root) {
       var api = this.api, n = (this._pool && this._pool.length) || 9, gallery = api.el('div', 'cl-gallery');

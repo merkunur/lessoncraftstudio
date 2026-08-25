@@ -3113,6 +3113,29 @@
         "Tuo figlio impara a ordinare i numeri in sequenza, dal più grande al più piccolo.",
         "Tuo figlio impara a leggere il numero e non la grandezza, sviluppando il senso del numero della classe prima."
       ]
+    },
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Clunk è un robot goloso che ha smarrito il suo pranzo: per accontentarlo il bambino riempie il cestino di snack numerati fino a raggiungere esattamente il numero che gli serve, poi glielo dà da mangiare e ricomincia formando lo stesso totale in un altro modo.",
+        "In questo modo impara a comporre e scomporre un numero in più modi (10 = 6+4 = 7+3 = 8+2…), a leggere i numeri e a muovere i primi passi con l’addizione.",
+        "L’attività è pensata sulle Indicazioni nazionali per la classe prima ed è gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Comporre uno stesso numero in più modi diversi",
+        "Scomporre un numero nelle sue parti",
+        "Trovare l’addendo mancante per arrivare al totale",
+        "Fare addizioni entro il 10, il 12 e il 14"
+      ],
+      "howToPlay": [
+        "Tocca gli snack numerati per metterli nel cestino di Clunk",
+        "Dai da mangiare a Clunk per controllare se hai formato il suo numero",
+        "Rifai lo stesso totale scegliendo una combinazione diversa"
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a comporre un numero in più modi diversi",
+        "Tuo figlio impara a trovare l’addendo che manca per completare il totale",
+        "Tuo figlio sviluppa il senso del numero e l’addizione della classe prima"
+      ]
     }
   }
 }

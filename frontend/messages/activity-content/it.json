@@ -3090,6 +3090,29 @@
         "Tuo figlio impara a collocare gli eventi di ogni giorno nel momento giusto",
         "Tuo figlio impara a orientarsi nel tempo usando l’ora come indizio"
       ]
+    },
+    "nesting-pots.seriate.k-cc-c-7": {
+      "about": [
+        "Nonno Pip intaglia i suoi vasetti di legno e su ciascuno dipinge un numero da 1 a 10: il bambino li annida uno dentro l’altro, dal numero più grande al più piccolo, finché il piccolo Wee Olen non trova posto al sicuro nel mezzo della famiglia.",
+        "L’attività allena a confrontare e ordinare i numeri scritti da 1 a 10: il bambino legge il numero dipinto sul vasetto — non la sua grandezza, che è un simpatico tranello — e capisce quale numero è più grande e quale più piccolo.",
+        "È pensata per la classe prima ed è allineata alle Indicazioni nazionali; è completamente gratuita, senza registrazione, senza timer e senza punteggio, così il bambino impara con calma e senza pressioni."
+      ],
+      "practices": [
+        "Confrontare due numeri scritti e capire quale è più grande e quale più piccolo.",
+        "Ordinare i numeri da 1 a 10 dal più grande al più piccolo.",
+        "Leggere il numero dipinto sul vasetto senza farsi ingannare dalla sua grandezza.",
+        "Trovare il numero mancante in una sequenza ordinata."
+      ],
+      "howToPlay": [
+        "Leggi il numero dipinto su ogni vasetto.",
+        "Incastra i vasetti uno dentro l’altro dal numero più grande al più piccolo.",
+        "Tocca Verifica quando tutta la famiglia di vasetti è sistemata."
+      ],
+      "learningGoals": [
+        "Tuo figlio impara a confrontare i numeri scritti da 1 a 10 e a riconoscere quale è più grande e quale più piccolo.",
+        "Tuo figlio impara a ordinare i numeri in sequenza, dal più grande al più piccolo.",
+        "Tuo figlio impara a leggere il numero e non la grandezza, sviluppando il senso del numero della classe prima."
+      ]
     }
   }
 }

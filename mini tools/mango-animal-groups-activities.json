@@ -860,6 +860,176 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "sheeps",
+            "band": 1,
+            "subject": {
+              "noun": "sheep",
+              "themeDir": "animals"
+            },
+            "plural": "pecore",
+            "correct": "gregge",
+            "choices": [
+              {
+                "word": "gregge"
+              },
+              {
+                "word": "mandria"
+              },
+              {
+                "word": "sciame"
+              }
+            ]
+          },
+          {
+            "id": "bees",
+            "band": 1,
+            "subject": {
+              "noun": "bee",
+              "themeDir": "farm animals"
+            },
+            "plural": "api",
+            "correct": "sciame",
+            "choices": [
+              {
+                "word": "sciame"
+              },
+              {
+                "word": "stormo"
+              },
+              {
+                "word": "gregge"
+              }
+            ]
+          },
+          {
+            "id": "birds",
+            "band": 1,
+            "subject": {
+              "noun": "bird",
+              "themeDir": "spring"
+            },
+            "plural": "uccelli",
+            "correct": "stormo",
+            "choices": [
+              {
+                "word": "stormo"
+              },
+              {
+                "word": "sciame"
+              },
+              {
+                "word": "branco"
+              }
+            ]
+          },
+          {
+            "id": "cows",
+            "band": 2,
+            "subject": {
+              "noun": "cow",
+              "themeDir": "farm animals"
+            },
+            "plural": "mucche",
+            "correct": "mandria",
+            "choices": [
+              {
+                "word": "mandria"
+              },
+              {
+                "word": "gregge"
+              },
+              {
+                "word": "stormo"
+              }
+            ]
+          },
+          {
+            "id": "wolfs",
+            "band": 2,
+            "subject": {
+              "noun": "wolf",
+              "themeDir": "animals"
+            },
+            "plural": "lupi",
+            "correct": "branco",
+            "choices": [
+              {
+                "word": "branco"
+              },
+              {
+                "word": "gregge"
+              },
+              {
+                "word": "sciame"
+              }
+            ]
+          },
+          {
+            "id": "fishs",
+            "band": 2,
+            "subject": {
+              "noun": "fish",
+              "themeDir": "animals"
+            },
+            "plural": "pesci",
+            "correct": "banco",
+            "choices": [
+              {
+                "word": "banco"
+              },
+              {
+                "word": "stormo"
+              },
+              {
+                "word": "mandria"
+              }
+            ]
+          },
+          {
+            "id": "ants",
+            "band": 3,
+            "subject": {
+              "noun": "ant",
+              "themeDir": "forest creatures"
+            },
+            "plural": "formiche",
+            "correct": "formicaio",
+            "choices": [
+              {
+                "word": "formicaio"
+              },
+              {
+                "word": "gregge"
+              },
+              {
+                "word": "banco"
+              }
+            ]
+          },
+          {
+            "id": "penguins",
+            "band": 3,
+            "subject": {
+              "noun": "penguin",
+              "themeDir": "animals"
+            },
+            "plural": "pinguini",
+            "correct": "colonia",
+            "choices": [
+              {
+                "word": "colonia"
+              },
+              {
+                "word": "branco"
+              },
+              {
+                "word": "mandria"
+              }
+            ]
+          }
         ]
       }
     },
@@ -869,21 +1039,24 @@
       "de": "sammelnamen-fuer-tiere",
       "fr": "les-noms-collectifs-des-animaux-ce1",
       "es": "sustantivos-colectivos-de-animales-tercer-grado",
-      "pt": "substantivos-coletivos-de-animais"
+      "pt": "substantivos-coletivos-de-animais",
+      "it": "nomi-collettivi-animali-classe-terza"
     },
     "page_title": {
       "en": "Mango's Animal Groups — Name the Group (Grade 2)",
       "de": "Mango der Affe – Sammelnamen für Tiere (Klasse 2)",
       "fr": "Mango le singe — Les noms collectifs des animaux (CE1)",
       "es": "Sustantivos colectivos de animales gratis – 3.º grado",
-      "pt": "Substantivos coletivos de animais — atividade lúdica alinhada à BNCC"
+      "pt": "Substantivos coletivos de animais — atividade lúdica alinhada à BNCC",
+      "it": "Nomi collettivi degli animali – classe terza | Gregge, stormo"
     },
     "page_intro": {
       "en": "Mango the monkey knows what to call a group of animals! A group of cows is a herd, a group of fish is a school. Look at the animal, then tap the word that names a whole group of them. A Grade 2 grammar game about collective nouns, aligned to Common Core L.2.1.a.",
       "de": "Mit Mango dem Affen lernt dein Kind Sammelnamen für Tiere kennen – ein Wort für eine ganze Gruppe: viele Kühe sind eine Herde, viele Fische ein Schwarm. So wächst der Wortschatz ganz nebenbei. Kostenlos, ohne Zeitdruck und ohne Punkte, und alles wird vorgelesen.",
       "fr": "Mango le singe montre à votre enfant l'image d'un animal, et l'enfant tape le nom qui désigne tout un groupe de ces animaux : un troupeau de vaches, un banc de poissons, un essaim d'abeilles. C'est une jolie façon de découvrir les noms collectifs et d'enrichir son vocabulaire, en apprenant qu'un seul mot peut nommer toute une collection. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer.",
       "es": "Actividad interactiva y gratis: los niños ven un animal y eligen el nombre de su grupo —rebaño, manada, bandada—. Ideal para practicar sustantivos colectivos en 3.º grado.",
-      "pt": "Com o Mango, o macaco, a criança descobre o nome do grupo de cada animal: um grupo de peixes é um cardume, de abelhas é um enxame, de bois é uma manada. A cada rodada aparece um animal e ela toca na palavra certa para o grupo. Uma atividade de vocabulário sobre substantivos coletivos, alinhada à BNCC."
+      "pt": "Com o Mango, o macaco, a criança descobre o nome do grupo de cada animal: um grupo de peixes é um cardume, de abelhas é um enxame, de bois é uma manada. A cada rodada aparece um animal e ela toca na palavra certa para o grupo. Uma atividade de vocabulário sobre substantivos coletivos, alinhada à BNCC.",
+      "it": "Con Mango la scimmia i bambini scoprono i nomi collettivi degli animali: guardano un animale e scelgono la parola giusta per indicare il suo gruppo — un gregge di pecore, uno sciame di api, uno stormo di uccelli. Un’attività di lessico con immagini e lettura ad alta voce per arricchire il vocabolario, gratuita, senza registrazione, senza timer e senza punteggio. Allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "What do we call a group of them?"
   }

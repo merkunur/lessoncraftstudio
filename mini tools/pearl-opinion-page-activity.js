@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.8" fill="#2A2A35"/><circle cx="57" cy="47" r="2.8" fill="#2A2A35"/>';
-    return '<svg class="pop-seal-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Pearl le phoque' : LANG === 'de' ? 'Pearl, die Robbe' : LANG === 'es' ? 'Pearl la foca' : LANG === 'pt' ? 'Pérola, a foca' : 'Pearl the seal') + '">' +
+    return '<svg class="pop-seal-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Pearl le phoque' : LANG === 'de' ? 'Pearl, die Robbe' : LANG === 'es' ? 'Pearl la foca' : LANG === 'pt' ? 'Pérola, a foca' : LANG === 'it' ? 'Perla la foca' : 'Pearl the seal') + '">' +
       '<ellipse cx="50" cy="58" rx="28" ry="26" fill="#8FA3B0"/>' +
       '<ellipse cx="24" cy="74" rx="9" ry="5" fill="#7B8E9B" transform="rotate(20 24 74)"/>' +   /* flipper */
       '<ellipse cx="76" cy="74" rx="9" ry="5" fill="#7B8E9B" transform="rotate(-20 76 74)"/>' +
@@ -44,14 +44,14 @@
     id: 'pearl-opinion-page-activity',
 
     strings: {
-      title: { en: "Pearl's Opinion Page", de: 'Pearls Meinungsseite', fr: 'La page d’opinion de Pearl', es: 'La página de opiniones de Pearl', pt: 'A página de opiniões da Pérola' },
-      prompt: { en: 'Which reason backs up the point?', de: 'Welcher Grund stützt die Meinung?', fr: 'Quelle raison justifie l’avis ?', es: '¿Cuál razón apoya la opinión?', pt: 'Qual razão apoia a opinião?' },
-      pearlIntro: { en: 'I made a point! Which card backs it up?', de: 'Ich habe eine Meinung! Welche Karte stützt sie?', fr: 'J’ai donné mon avis ! Quelle carte le justifie ?', es: '¡Di mi opinión! ¿Cuál tarjeta la apoya?', pt: 'Eu dei uma opinião! Qual carta apoia ela?' },
-      thePoint: { en: 'POINT:', de: 'MEINUNG:', fr: 'L’AVIS :', es: 'OPINIÓN:', pt: 'OPINIÃO:' },
-      theAsk: { en: 'Which reason backs it up?', de: 'Welcher Grund stützt sie?', fr: 'Quelle raison justifie cet avis ?', es: '¿Cuál razón la apoya?', pt: 'Qual razão apoia a opinião?' },
-      hintPick: { en: 'Tap the reason that backs up the point!', de: 'Tippe auf den Grund, der die Meinung stützt!', fr: 'Tape la raison qui justifie l’avis !', es: '¡Toca la razón que apoya la opinión!', pt: 'Toque na razão que apoia a opinião!' },
-      hintWrong: { en: "That doesn't back it up — read the point again.", de: 'Das stützt sie nicht – lies die Meinung noch einmal.', fr: 'Ça ne le justifie pas — relis l’avis.', es: 'Esa no la apoya. Lee la opinión otra vez.', pt: 'Isso não apoia — leia a opinião de novo.' },
-      win: { en: 'Yes! That reason backs up the point. 📰', de: 'Ja! Dieser Grund stützt die Meinung. 📰', fr: 'Oui ! Cette raison justifie l’avis. 📰', es: '¡Sí! Esa razón apoya la opinión. 📰', pt: 'Isso! Essa razão apoia a opinião. 📰' }
+      title: { en: "Pearl's Opinion Page", de: 'Pearls Meinungsseite', fr: 'La page d’opinion de Pearl', es: 'La página de opiniones de Pearl', pt: 'A página de opiniões da Pérola', it: 'La pagina delle opinioni di Perla' },
+      prompt: { en: 'Which reason backs up the point?', de: 'Welcher Grund stützt die Meinung?', fr: 'Quelle raison justifie l’avis ?', es: '¿Cuál razón apoya la opinión?', pt: 'Qual razão apoia a opinião?', it: 'Quale motivo sostiene questa opinione?' },
+      pearlIntro: { en: 'I made a point! Which card backs it up?', de: 'Ich habe eine Meinung! Welche Karte stützt sie?', fr: 'J’ai donné mon avis ! Quelle carte le justifie ?', es: '¡Di mi opinión! ¿Cuál tarjeta la apoya?', pt: 'Eu dei uma opinião! Qual carta apoia ela?', it: 'Ho detto la mia opinione! Quale carta la sostiene?' },
+      thePoint: { en: 'POINT:', de: 'MEINUNG:', fr: 'L’AVIS :', es: 'OPINIÓN:', pt: 'OPINIÃO:', it: 'OPINIONE:' },
+      theAsk: { en: 'Which reason backs it up?', de: 'Welcher Grund stützt sie?', fr: 'Quelle raison justifie cet avis ?', es: '¿Cuál razón la apoya?', pt: 'Qual razão apoia a opinião?', it: 'Quale motivo la sostiene?' },
+      hintPick: { en: 'Tap the reason that backs up the point!', de: 'Tippe auf den Grund, der die Meinung stützt!', fr: 'Tape la raison qui justifie l’avis !', es: '¡Toca la razón que apoya la opinión!', pt: 'Toque na razão que apoia a opinião!', it: 'Tocca il motivo che sostiene questa opinione!' },
+      hintWrong: { en: "That doesn't back it up — read the point again.", de: 'Das stützt sie nicht – lies die Meinung noch einmal.', fr: 'Ça ne le justifie pas — relis l’avis.', es: 'Esa no la apoya. Lee la opinión otra vez.', pt: 'Isso não apoia — leia a opinião de novo.', it: 'Questo non la sostiene. Leggi di nuovo questa opinione.' },
+      win: { en: 'Yes! That reason backs up the point. 📰', de: 'Ja! Dieser Grund stützt die Meinung. 📰', fr: 'Oui ! Cette raison justifie l’avis. 📰', es: '¡Sí! Esa razón apoya la opinión. 📰', pt: 'Isso! Essa razão apoia a opinião. 📰', it: 'Sì! Questo motivo sostiene questa opinione. 📰' }
     },
     defaults: {},
 
@@ -85,7 +85,7 @@
       var pt = api.el('div', 'pop-point');
       var lab = api.el('span', 'pop-ptlab'); lab.textContent = api.t('thePoint'); pt.appendChild(lab);
       var txt = api.el('span', 'pop-pttxt'); txt.textContent = v.point; pt.appendChild(txt);
-      var sp = api.el('button', 'pop-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’avis' : LANG === 'de' ? 'Meinung vorlesen' : LANG === 'es' ? 'escuchar la opinión' : LANG === 'pt' ? 'ouvir a opinião' : 'hear the point'); sp.textContent = '🔊';
+      var sp = api.el('button', 'pop-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’avis' : LANG === 'de' ? 'Meinung vorlesen' : LANG === 'es' ? 'escuchar la opinión' : LANG === 'pt' ? 'ouvir a opinião' : LANG === 'it' ? 'ascolta questa opinione' : 'hear the point'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.point); }); pt.appendChild(sp);
       root.appendChild(pt);
 

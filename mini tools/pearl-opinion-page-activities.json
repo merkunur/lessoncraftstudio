@@ -900,6 +900,184 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "park",
+            "band": 1,
+            "point": "La nostra città dovrebbe costruire un nuovo parco.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "reason",
+                "text": "Perché i bambini non hanno dove giocare."
+              },
+              {
+                "id": "o2",
+                "kind": "restate",
+                "text": "La nostra città dovrebbe pure costruire un nuovo parco."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "La biblioteca chiude alle cinque."
+              }
+            ]
+          },
+          {
+            "id": "helmet",
+            "band": 1,
+            "point": "Tutti dovrebbero indossare il casco in bici.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "restate",
+                "text": "Tutti dovrebbero sempre indossare il casco in bici."
+              },
+              {
+                "id": "o2",
+                "kind": "reason",
+                "text": "Perché protegge la testa se cadi."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Le foche nuotano nel mare."
+              }
+            ]
+          },
+          {
+            "id": "read",
+            "band": 1,
+            "point": "I bimbi dovrebbero leggere venti minuti al giorno.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "restate",
+                "text": "I bimbi dovrebbero pure leggere venti minuti al giorno."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Il sole tramonta a ovest."
+              },
+              {
+                "id": "o3",
+                "kind": "reason",
+                "text": "Perché così imparano parole nuove."
+              }
+            ]
+          },
+          {
+            "id": "garden",
+            "band": 2,
+            "point": "La nostra classe dovrebbe coltivare un orto.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "reason",
+                "text": "Perché le piante insegnano ad avere cura."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Le api fanno il miele."
+              },
+              {
+                "id": "o3",
+                "kind": "restate",
+                "text": "La nostra classe dovrebbe davvero coltivare un orto."
+              }
+            ]
+          },
+          {
+            "id": "water",
+            "band": 2,
+            "point": "Ogni alunno dovrebbe avere una borraccia.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "offtopic",
+                "text": "I pinguini vivono al freddo."
+              },
+              {
+                "id": "o2",
+                "kind": "reason",
+                "text": "Perché bere acqua spesso fa stare bene."
+              },
+              {
+                "id": "o3",
+                "kind": "restate",
+                "text": "Ogni alunno dovrebbe avere pure una borraccia."
+              }
+            ]
+          },
+          {
+            "id": "lights",
+            "band": 2,
+            "point": "Dovremmo spegnere le luci per risparmiare energia.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "restate",
+                "text": "Dovremmo pure spegnere le luci per risparmiare energia."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "La luna gira di notte."
+              },
+              {
+                "id": "o3",
+                "kind": "reason",
+                "text": "Perché così consumiamo di meno."
+              }
+            ]
+          },
+          {
+            "id": "dogs",
+            "band": 3,
+            "point": "I cani dovrebbero andare a spasso ogni giorno.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "reason",
+                "text": "Perché il moto li tiene sani e felici."
+              },
+              {
+                "id": "o2",
+                "kind": "restate",
+                "text": "I cani dovrebbero andare pure a spasso ogni giorno."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "I gatti dormono molto."
+              }
+            ]
+          },
+          {
+            "id": "dishes",
+            "band": 3,
+            "point": "I bambini dovrebbero aiutare a lavare i piatti.",
+            "options": [
+              {
+                "id": "o1",
+                "kind": "offtopic",
+                "text": "Le stelle brillano di notte."
+              },
+              {
+                "id": "o2",
+                "kind": "reason",
+                "text": "Perché dare una mano unisce la famiglia."
+              },
+              {
+                "id": "o3",
+                "kind": "restate",
+                "text": "I bambini dovrebbero pure aiutare a lavare i piatti."
+              }
+            ]
+          }
         ]
       }
     },
@@ -909,21 +1087,24 @@
       "de": "behauptung-und-begruendung-den-passenden-grund-finden-klasse-3",
       "fr": "justifier-un-avis-trouver-la-bonne-raison-ce2",
       "es": "opinion-y-razones-cual-razon-apoya-la-opinion-tercer-grado",
-      "pt": "opiniao-e-razoes-qual-razao-apoia"
+      "pt": "opiniao-e-razoes-qual-razao-apoia",
+      "it": "opinione-e-motivi-quale-motivo-sostiene-classe-terza"
     },
     "page_title": {
       "en": "Pearl's Opinion Page — Back It Up (Grade 2)",
       "de": "Behauptung begründen: den passenden Grund finden – Klasse 3",
       "fr": "Justifier un avis : trouver la bonne raison – CE2",
       "es": "Opinión y razones: ¿qué razón apoya? · Tercer grado",
-      "pt": "Opinião e razões: qual razão apoia a opinião? | A página da Pérola"
+      "pt": "Opinião e razões: qual razão apoia a opinião? | A página da Pérola",
+      "it": "Opinione e motivi: quale motivo la sostiene? · Classe terza"
     },
     "page_intro": {
       "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8.",
       "de": "Meinung begründen leicht gemacht: Finde mit Pearl den echten Grund, der eine Behauptung stützt – nicht nur die Wiederholung. Kostenlos & interaktiv, Klasse 3. Jetzt üben!",
       "fr": "Justifier un avis, c'est facile : avec Pearl le phoque, trouve la vraie raison qui appuie une affirmation — pas seulement la répétition. Gratuit et interactif, CE2. À toi de jouer !",
       "es": "Actividad interactiva y gratis para tercer grado: lee una opinión e identifica la razón que sí la apoya, distinta de una repetición o un dato suelto.",
-      "pt": "Entre na página de opiniões da foca Pérola! A cada rodada ela mostra uma opinião e três cartas, e você toca na carta que dá a razão certa para apoiar aquela opinião — a que explica o porquê, e não a que só repete a ideia. Um botão 🔊 lê tudo em voz alta. É grátis e sem cadastro, alinhado à BNCC, na compreensão de textos de opinião para os primeiros anos."
+      "pt": "Entre na página de opiniões da foca Pérola! A cada rodada ela mostra uma opinião e três cartas, e você toca na carta que dá a razão certa para apoiar aquela opinião — a que explica o porquê, e não a que só repete a ideia. Um botão 🔊 lê tudo em voz alta. É grátis e sem cadastro, alinhado à BNCC, na compreensão de textos de opinião para os primeiros anos.",
+      "it": "Perla la foca scrive la sua pagina delle opinioni: i bambini leggono un’opinione e toccano la carta che dà un motivo capace di sostenerla, non una ripetizione dell’idea né un fatto fuori tema. Un 🔊 legge l’opinione ad alta voce per chi preferisce ascoltare. Gratuita, senza registrazione e senza timer o punteggi, è allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "pearl-opinion-page"
   }

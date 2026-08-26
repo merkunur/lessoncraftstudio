@@ -3435,6 +3435,29 @@
         "Cercare informazioni in una pagina",
         "Capire a cosa servono indice, glossario e didascalia"
       ]
+    },
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Bea, il bruco dei libri, ha due scaffali speciali: su uno mette le storie inventate e sull’altro i libri che parlano di cose vere, e chiede ai bambini di leggere le copertine per capire dove va ciascun libro.",
+        "L’attività aiuta a riconoscere se un libro racconta una storia o dà informazioni vere, a distinguere il testo narrativo da quello informativo e a leggere le copertine con attenzione.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Distinguere una storia da un libro di informazioni",
+        "Riconoscere i tipi di testo",
+        "Leggere le copertine dei libri",
+        "Capire di che cosa parla un libro"
+      ],
+      "howToPlay": [
+        "Leggi le copertine dei tre libri",
+        "Capisci se ognuno è una storia o un libro di veri",
+        "Tocca il libro giusto per aiutare Bea"
+      ],
+      "learningGoals": [
+        "Distinguere storia e informazioni",
+        "Riconoscere i tipi di testo",
+        "Leggere per capire il genere"
+      ]
     }
   }
 }

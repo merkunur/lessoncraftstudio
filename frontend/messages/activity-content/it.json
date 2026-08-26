@@ -3550,6 +3550,29 @@
         "Distinguere il messaggio dai dettagli della storia.",
         "Ridire il senso di una storia con parole proprie."
       ]
+    },
+    "inky-book-workshop.author-illustrator.rl-k-6": {
+      "about": [
+        "Nino è un polpo che, nella sua piccola bottega dei libri in fondo al mare, mostra al bambino un lavoro appena fatto su un libro e lo invita a indovinare di chi è quel compito con un semplice tocco.",
+        "Ogni libro ha un autore che scrive le parole e la storia e un illustratore che disegna le immagini, mentre il bambino stesso è il lettore che si gode il libro: conoscere questi ruoli è un primo passo per capire come è fatto un libro.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Distinguere autore, illustratore e lettore",
+        "Riconoscere chi scrive le parole e chi disegna le immagini",
+        "Capire come è fatto un libro",
+        "Conoscere i ruoli del libro"
+      ],
+      "howToPlay": [
+        "Guarda il lavoro sul libro",
+        "Pensa a chi lo fa",
+        "Tocca autore, illustratore o lettore"
+      ],
+      "learningGoals": [
+        "Distinguere i ruoli del libro",
+        "Capire che l’autore scrive e l’illustratore disegna",
+        "Sapere che un libro è fatto da persone diverse"
+      ]
     }
   }
 }

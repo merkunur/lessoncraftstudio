@@ -3711,6 +3711,29 @@
         "scegliere il motivo pertinente ed evitare ripetizioni o fatti fuori tema",
         "muovere i primi passi nella comprensione di un testo argomentativo"
       ]
+    },
+    "marlo-magnifier.trait-evidence.rl-1-3": {
+      "about": [
+        "Con la lente di Marlo il procione i bambini diventano piccoli detective delle storie: leggono un breve racconto e un’affermazione su un personaggio, poi cercano la prova che la conferma.",
+        "Toccano il dettaglio giusto — un’azione raccontata nel testo — imparando a distinguerlo da una parola ripetuta o da un dettaglio qualsiasi, con un comodo aiuto 🔊 che legge tutto ad alta voce.",
+        "Pensata per la classe terza e allineata alle Indicazioni nazionali, l’attività è gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "descrivere un personaggio con i dettagli",
+        "trovare la prova nel testo",
+        "distinguere la prova da un dettaglio qualsiasi",
+        "capire com’è un personaggio"
+      ],
+      "howToPlay": [
+        "Leggi o ascolta 🔊 il racconto e l’affermazione sul personaggio.",
+        "Pensa a quale dettaglio dimostra davvero com’è il personaggio.",
+        "Tocca la prova: l’azione raccontata nel testo."
+      ],
+      "learningGoals": [
+        "riconoscere le caratteristiche di un personaggio",
+        "sostenere un’affermazione con la prova del testo",
+        "distinguere una prova da un dettaglio irrilevante"
+      ]
     }
   }
 }

@@ -512,6 +512,92 @@
               }
             ]
           }
+        },
+        "it": {
+          "mitten": {
+            "panels": [
+              {
+                "role": "setting",
+                "caption": "Bo il coniglio saltava nella neve.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ]
+              },
+              {
+                "role": "problem",
+                "caption": "Una manopola rossa è caduta vicino all’albero.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ]
+              },
+              {
+                "role": "solution",
+                "caption": "Un uccellino ha trovato la manopola e ha chiamato Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ]
+              }
+            ]
+          },
+          "carrot": {
+            "panels": [
+              {
+                "role": "setting",
+                "caption": "Millie la topina aveva una carota.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "role": "problem",
+                "caption": "Un uccellino le ha rubato la carota!",
+                "glyphs": [
+                  "bird",
+                  "carrot"
+                ]
+              },
+              {
+                "role": "solution",
+                "caption": "Un’amica le ha ridato la carota.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ]
+              }
+            ]
+          },
+          "picnic": {
+            "panels": [
+              {
+                "role": "setting",
+                "caption": "Due amici avevano un cestino da picnic.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ]
+              },
+              {
+                "role": "problem",
+                "caption": "Poi ha cominciato a piovere su di loro.",
+                "glyphs": [
+                  "rain",
+                  "friend"
+                ]
+              },
+              {
+                "role": "solution",
+                "caption": "Hanno mangiato sotto un ombrello.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ]
+              }
+            ]
+          }
         }
       },
       "roundsL10n": {
@@ -738,6 +824,62 @@
             "role": "solution",
             "prompt": "Qual parte é a SOLUÇÃO? (como se resolve)"
           }
+        ],
+        "it": [
+          {
+            "id": "ds-mit-set",
+            "storyId": "mitten",
+            "role": "setting",
+            "prompt": "Quale parte è l’inizio? (dove comincia la storia)"
+          },
+          {
+            "id": "ds-mit-prob",
+            "storyId": "mitten",
+            "role": "problem",
+            "prompt": "Quale parte mostra il problema? (che cosa non va)"
+          },
+          {
+            "id": "ds-mit-sol",
+            "storyId": "mitten",
+            "role": "solution",
+            "prompt": "Quale parte è la soluzione? (come si risolve)"
+          },
+          {
+            "id": "ds-car-set",
+            "storyId": "carrot",
+            "role": "setting",
+            "prompt": "Quale parte è l’inizio? (dove comincia la storia)"
+          },
+          {
+            "id": "ds-car-prob",
+            "storyId": "carrot",
+            "role": "problem",
+            "prompt": "Quale parte mostra il problema? (che cosa non va)"
+          },
+          {
+            "id": "ds-car-sol",
+            "storyId": "carrot",
+            "role": "solution",
+            "prompt": "Quale parte è la soluzione? (come si risolve)"
+          },
+          {
+            "id": "ds-pic-set",
+            "storyId": "picnic",
+            "role": "setting",
+            "prompt": "Quale parte è l’inizio? (dove comincia la storia)"
+          },
+          {
+            "id": "ds-pic-prob",
+            "storyId": "picnic",
+            "role": "problem",
+            "prompt": "Quale parte mostra il problema? (che cosa non va)"
+          },
+          {
+            "id": "ds-pic-sol",
+            "storyId": "picnic",
+            "role": "solution",
+            "prompt": "Quale parte è la soluzione? (come si risolve)"
+          }
         ]
       }
     },
@@ -746,21 +888,24 @@
       "de": "aufbau-einer-geschichte-anfang-problem-loesung-klasse-1",
       "fr": "structure-du-recit-debut-probleme-solution-gs",
       "es": "partes-de-un-cuento-inicio-problema-solucion-primer-grado",
-      "pt": "partes-da-historia-comeco-problema-solucao"
+      "pt": "partes-da-historia-comeco-problema-solucao",
+      "it": "parti-di-una-storia-inizio-problema-soluzione-classe-prima"
     },
     "page_title": {
       "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)",
       "de": "Aufbau einer Geschichte: Anfang, Problem, Lösung – Klasse 1",
       "fr": "L’atelier des histoires de Dot — Début, problème, solution (GS)",
       "es": "Partes de un cuento: inicio, problema y solución (1.º)",
-      "pt": "Partes de uma história: começo, problema e solução"
+      "pt": "Partes de uma história: começo, problema e solução",
+      "it": "Le parti di una storia: inizio, problema, soluzione (classe 1ª)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3.",
       "de": "Übe kostenlos und interaktiv den Aufbau einer Geschichte: Ordne mit dem Drachen Dot Anfang, Problem & Lösung richtig zu. Erzählstruktur für Klasse 1 – jetzt starten!",
       "fr": "Dot le dragon raconte une petite histoire en trois images, lue à voix haute d’un simple appui sur le bouton son. À votre enfant ensuite de repérer quelle image est le début, laquelle montre le problème, et laquelle apporte la solution. Un premier jeu gratuit et interactif pour découvrir comment une histoire se construit — sans savoir encore lire.",
       "es": "Lee un cuento en 3 imágenes e identifica sus partes: el inicio, el problema y la solución. Actividad gratis e interactiva de primer grado, sin registro.",
-      "pt": "Ajude o draguinho Fabo na oficina de histórias! A cada rodada, ele mostra uma pequena história em três ceninhas embaralhadas e pede para você achar o começo, o problema ou a solução. É só ler as cenas e tocar na parte certa, com o botão 🔊 para ouvir tudo em voz alta. Grátis e sem cadastro, alinhado à BNCC, no campo da compreensão de textos literários — para os primeiros anos."
+      "pt": "Ajude o draguinho Fabo na oficina de histórias! A cada rodada, ele mostra uma pequena história em três ceninhas embaralhadas e pede para você achar o começo, o problema ou a solução. É só ler as cenas e tocar na parte certa, com o botão 🔊 para ouvir tudo em voz alta. Grátis e sem cadastro, alinhado à BNCC, no campo da compreensão de textos literários — para os primeiros anos.",
+      "it": "Nella bottega di storie di Dot il drago, i bambini leggono un racconto illustrato in tre parti e toccano qual è l’inizio, qual è il problema e qual è la soluzione. Un pulsante 🔊 legge ad alta voce le didascalie per chi muove i primi passi nella lettura. Attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "story-spine"
   }

@@ -3665,6 +3665,29 @@
         "distinguere il tema principale dai dettagli e dalle informazioni fuori tema",
         "rafforzare la comprensione del testo alla lettura"
       ]
+    },
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "Nella bottega di storie di Dot il drago ogni racconto illustrato si legge in tre parti: l’inizio che presenta i personaggi, il problema che scombina tutto e la soluzione che rimette le cose a posto.",
+        "I bambini leggono le didascalie — con l’aiuto del pulsante 🔊 che le legge ad alta voce — e toccano la parte giusta, imparando a riconoscere la struttura di una storia.",
+        "L’attività è allineata alle Indicazioni nazionali per la classe prima ed è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "riconoscere l’inizio di una storia",
+        "individuare il problema di un racconto",
+        "capire la soluzione della vicenda",
+        "cogliere la struttura di una storia"
+      ],
+      "howToPlay": [
+        "Leggi il racconto illustrato in tre parti e ascolta le didascalie con il pulsante 🔊.",
+        "Pensa a quale parte è l’inizio, quale il problema e quale la soluzione.",
+        "Tocca la parte che corrisponde alla domanda."
+      ],
+      "learningGoals": [
+        "Capire com’è fatta una storia: inizio, problema e soluzione.",
+        "Sviluppare la prima comprensione del testo narrativo.",
+        "Rafforzare la lettura autonoma con il supporto dell’ascolto."
+      ]
     }
   }
 }

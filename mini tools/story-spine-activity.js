@@ -56,6 +56,17 @@
       nProblem: 'O problema é a parte em que algo dá errado.',
       nSolution: 'A solução é como o problema se resolve no fim.',
       hear: '🔊 Ouvir a história'
+    },
+    /* it. §A.13.54: win/winNote agreement anchored on «quella parte / la storia» (fixed
+       feminine) — invariant across all stories; win «Sì!» never genders the child (no
+       «Bravo/Brava»). ⚠ 100% apostrophe-free JS (nudges reword «l'inizio»→«la parte
+       iniziale», «c'è»→«chi partecipa»). 🔊 Ascolta. */
+    it: {
+      win: 'Sì! {note}', winNote: 'Hai trovato quella parte della storia!',
+      nSetting: 'La parte iniziale mostra chi partecipa e dove comincia la storia.',
+      nProblem: 'Il problema è quando qualcosa non va.',
+      nSolution: 'La soluzione mostra come il problema si risolve alla fine.',
+      hear: '🔊 Ascolta la storia'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -100,8 +111,8 @@
   var StorySpineActivity = {
     id: 'story-spine-activity',
     strings: {
-      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt', fr: 'L’atelier des histoires de Dot', es: 'El taller de cuentos de Dot', pt: 'A oficina de histórias do Fabo' },
-      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.', fr: 'Écoute l’histoire avec Dot, puis tape la bonne partie !', es: 'Lee el cuento con Dot y toca qué parte es el inicio, el problema o la solución.', pt: 'Leia a história com o Fabo e toque na parte certa!' },
+      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt', fr: 'L’atelier des histoires de Dot', es: 'El taller de cuentos de Dot', pt: 'A oficina de histórias do Fabo', it: 'La bottega delle storie di Dot' },
+      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.', fr: 'Écoute l’histoire avec Dot, puis tape la bonne partie !', es: 'Lee el cuento con Dot y toca qué parte es el inicio, el problema o la solución.', pt: 'Leia a história com o Fabo e toque na parte certa!', it: 'Leggi la storia con Dot, poi tocca la parte giusta per ogni domanda!' },
       q: { en: '{q}' }
     },
 
@@ -257,9 +268,9 @@
 
     _srMirror: function () {
       var r = this._round, story = this._story(), wrap = el('div', 'ds-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var partWord = LANG === 'fr' ? 'Partie ' : LANG === 'de' ? 'Teil ' : LANG === 'es' ? 'Parte ' : LANG === 'pt' ? 'Parte ' : 'Part ';
+      var partWord = LANG === 'fr' ? 'Partie ' : LANG === 'de' ? 'Teil ' : LANG === 'es' ? 'Parte ' : LANG === 'pt' ? 'Parte ' : LANG === 'it' ? 'Parte ' : 'Part ';
       var caps = (story.panels || []).map(function (p, i) { return partWord + (i + 1) + ': ' + p.caption; }).join(' ');
-      var tail = LANG === 'fr' ? ' Tape la partie qui correspond.' : LANG === 'de' ? ' Tippe auf den passenden Teil.' : LANG === 'es' ? ' Toca la parte que corresponde.' : LANG === 'pt' ? ' Toque na parte certa.' : ' Tap the part that matches.';
+      var tail = LANG === 'fr' ? ' Tape la partie qui correspond.' : LANG === 'de' ? ' Tippe auf den passenden Teil.' : LANG === 'es' ? ' Toca la parte que corresponde.' : LANG === 'pt' ? ' Toque na parte certa.' : LANG === 'it' ? ' Tocca la parte giusta.' : ' Tap the part that matches.';
       wrap.innerHTML = '<p>' + caps + ' ' + r.prompt + tail + '</p>';
       return wrap;
     },

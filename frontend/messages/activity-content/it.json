@@ -3573,6 +3573,29 @@
         "Capire che l’autore scrive e l’illustratore disegna",
         "Sapere che un libro è fatto da persone diverse"
       ]
+    },
+    "pim-comma-mail.letter-commas.l-2-2-b": {
+      "about": [
+        "Pim, il piccione postino, ha la borsa piena di lettere da recapitare, ma le consegna soltanto quando il bambino sceglie la cartolina scritta bene, con la virgola al posto giusto nel saluto e nella chiusura.",
+        "Quando si scrive una lettera, il saluto e la chiusura finiscono con una virgola — «Caro Nonno,» e «Un abbraccio,» — e la virgola non va mai messa nel mezzo: giocando con Pim, il bambino allena l’occhio a riconoscerla e a collocarla dove serve davvero.",
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "mettere la virgola dopo il saluto",
+        "mettere la virgola nella chiusura",
+        "distinguere il saluto dalla chiusura",
+        "osservare con attenzione la punteggiatura"
+      ],
+      "howToPlay": [
+        "Pim ti mostra un saluto o una chiusura scritti in tre modi diversi",
+        "guarda con attenzione dove si trova la virgola",
+        "tocca la carta scritta bene per far partire la lettera"
+      ],
+      "learningGoals": [
+        "usare la virgola nel saluto e nella chiusura di una lettera",
+        "riconoscere la punteggiatura giusta nel testo epistolare",
+        "scrivere lettere con più attenzione e cura"
+      ]
     }
   }
 }

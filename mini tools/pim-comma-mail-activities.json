@@ -587,11 +587,11 @@
             "kind": "greeting",
             "forms": [
               {
-                "text": "Querido papai,",
-                "ok": true
+                "text": "Querido papai"
               },
               {
-                "text": "Querido papai"
+                "text": "Querido papai,",
+                "ok": true
               },
               {
                 "text": "Querido, papai"
@@ -604,14 +604,14 @@
             "kind": "greeting",
             "forms": [
               {
-                "text": "Prezada professora Rita,",
-                "ok": true
-              },
-              {
                 "text": "Prezada professora Rita"
               },
               {
                 "text": "Prezada professora, Rita"
+              },
+              {
+                "text": "Prezada professora Rita,",
+                "ok": true
               }
             ]
           },
@@ -638,11 +638,11 @@
             "kind": "greeting",
             "forms": [
               {
-                "text": "Querida titia Ana,",
-                "ok": true
+                "text": "Querida titia Ana"
               },
               {
-                "text": "Querida titia Ana"
+                "text": "Querida titia Ana,",
+                "ok": true
               },
               {
                 "text": "Querida titia, Ana"
@@ -655,14 +655,14 @@
             "kind": "closing",
             "forms": [
               {
-                "text": "Com carinho,",
-                "ok": true
-              },
-              {
                 "text": "Com carinho"
               },
               {
                 "text": "Com, carinho"
+              },
+              {
+                "text": "Com carinho,",
+                "ok": true
               }
             ]
           },
@@ -689,14 +689,152 @@
             "kind": "closing",
             "forms": [
               {
+                "text": "Sua amiga"
+              },
+              {
                 "text": "Sua amiga,",
                 "ok": true
               },
               {
-                "text": "Sua amiga"
+                "text": "Sua, amiga"
+              }
+            ]
+          }
+        ],
+        "it": [
+          {
+            "id": "greet-nonno",
+            "band": 1,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Caro Nonno,",
+                "ok": true
               },
               {
-                "text": "Sua, amiga"
+                "text": "Caro Nonno"
+              },
+              {
+                "text": "Caro, Nonno"
+              }
+            ]
+          },
+          {
+            "id": "greet-nonna",
+            "band": 1,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Cara Nonna"
+              },
+              {
+                "text": "Cara Nonna,",
+                "ok": true
+              },
+              {
+                "text": "Cara, Nonna"
+              }
+            ]
+          },
+          {
+            "id": "greet-mamma",
+            "band": 1,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Cara Mamma"
+              },
+              {
+                "text": "Cara, Mamma"
+              },
+              {
+                "text": "Cara Mamma,",
+                "ok": true
+              }
+            ]
+          },
+          {
+            "id": "greet-zio",
+            "band": 2,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Caro zio Marco,",
+                "ok": true
+              },
+              {
+                "text": "Caro zio Marco"
+              },
+              {
+                "text": "Caro, zio Marco"
+              }
+            ]
+          },
+          {
+            "id": "greet-formal",
+            "band": 3,
+            "kind": "greeting",
+            "forms": [
+              {
+                "text": "Gentile signora Volpe"
+              },
+              {
+                "text": "Gentile signora Volpe,",
+                "ok": true
+              },
+              {
+                "text": "Gentile, signora Volpe"
+              }
+            ]
+          },
+          {
+            "id": "close-amico",
+            "band": 2,
+            "kind": "closing",
+            "forms": [
+              {
+                "text": "Il tuo amico"
+              },
+              {
+                "text": "Il tuo, amico"
+              },
+              {
+                "text": "Il tuo amico,",
+                "ok": true
+              }
+            ]
+          },
+          {
+            "id": "close-abbraccio",
+            "band": 2,
+            "kind": "closing",
+            "forms": [
+              {
+                "text": "Un abbraccio,",
+                "ok": true
+              },
+              {
+                "text": "Un abbraccio"
+              },
+              {
+                "text": "Un, abbraccio"
+              }
+            ]
+          },
+          {
+            "id": "close-affetto",
+            "band": 3,
+            "kind": "closing",
+            "forms": [
+              {
+                "text": "Con affetto"
+              },
+              {
+                "text": "Con affetto,",
+                "ok": true
+              },
+              {
+                "text": "Con, affetto"
               }
             ]
           }
@@ -709,21 +847,24 @@
       "de": "komma-im-brief-anrede-ueben-klasse-3",
       "fr": "la-virgule-dans-la-lettre-appel-et-formule",
       "es": "los-dos-puntos-en-el-saludo-de-una-carta-tercer-grado",
-      "pt": "virgula-na-carta-saudacao-e-despedida-3-ano"
+      "pt": "virgula-na-carta-saudacao-e-despedida-3-ano",
+      "it": "la-virgola-nella-lettera-saluto-e-chiusura-classe-terza"
     },
     "page_title": {
       "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)",
       "de": "Komma im Brief mit Pim üben – Klasse 3",
       "fr": "Ponctuation : placer la virgule – exercice en ligne",
       "es": "Los dos puntos en el saludo de una carta – 3.º primaria",
-      "pt": "A vírgula na carta: saudação e despedida · 3º ano"
+      "pt": "A vírgula na carta: saudação e despedida · 3º ano",
+      "it": "La virgola nella lettera: saluto e chiusura — classe terza"
     },
     "page_intro": {
       "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b.",
       "de": "Übe kostenlos & interaktiv das Komma im Brief: Wo steht das Komma nach der Anrede – und wo nicht? Ein Brief-Spiel für Klasse 3 mit Pim, der Taube.",
       "fr": "Ponctuation au CE1 : place la virgule au bon endroit dans la lettre, avec correction immédiate. Gratuit, en ligne, sans inscription.",
       "es": "Actividad gratis en línea de 3.º de primaria: toca el saludo bien puntuado. «Querida abuela:» lleva dos puntos, no coma, y la despedida, coma. Sin registro.",
-      "pt": "Com o Pim, o pombo-correio, a criança escolhe a saudação e a despedida de uma carta com a vírgula no lugar certo — e foge das pegadinhas, como \"Querida, vovó\". Uma atividade sobre a pontuação da carta, leve e sem pressão. Grátis, sem cadastro. Alinhada à BNCC, 3º ano."
+      "pt": "Com o Pim, o pombo-correio, a criança escolhe a saudação e a despedida de uma carta com a vírgula no lugar certo — e foge das pegadinhas, como \"Querida, vovó\". Uma atividade sobre a pontuação da carta, leve e sem pressão. Grátis, sem cadastro. Alinhada à BNCC, 3º ano.",
+      "it": "Con Pim, il piccione postino, il bambino consegna le lettere scegliendo il saluto e la chiusura con la virgola al posto giusto — per esempio «Caro Nonno,» —: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza, per imparare la punteggiatura del testo epistolare divertendosi."
     },
     "kid_prompt_template": "Tap the greeting or closing that has its comma in the right place."
   }

@@ -3596,6 +3596,29 @@
         "riconoscere la punteggiatura giusta nel testo epistolare",
         "scrivere lettere con più attenzione e cura"
       ]
+    },
+    "point-of-view.who-told.rl-1-6": {
+      "about": [
+        "In cima al suo faro, il gufo Lumen apre le finestre affacciate sul porto: da ognuna, a un’altezza diversa, un piccolo animale guarda il mare e racconta ciò che vede.",
+        "Dall’alto tutto sembra un puntino piccolo e lontano; laggiù, vicino all’acqua, ogni cosa sembra enorme e vicina — così il bambino legge la frase e capisce da quale finestra, cioè da quale punto di vista, è stata raccontata.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "riconoscere da quale punto di vista è raccontata una frase",
+        "collegare ciò che si vede all’altezza di chi guarda",
+        "capire che «piccolo e lontano» viene dall’alto e «grande e vicino» dal basso",
+        "leggere e comprendere un breve testo narrativo"
+      ],
+      "howToPlay": [
+        "Leggi la frase che racconta l’animale.",
+        "Pensa se guarda da lassù o da laggiù.",
+        "Tocca la finestra da cui la frase è raccontata."
+      ],
+      "learningGoals": [
+        "Capire da quale punto di vista è raccontata una storia.",
+        "Collegare le parole della frase all’altezza di chi osserva.",
+        "Fare un primo passo verso il punto di vista di chi racconta."
+      ]
     }
   }
 }

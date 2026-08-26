@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 47 q3 -4 6 0 M54 47 q3 -4 6 0" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="48" r="2.6" fill="#fff"/><circle cx="57" cy="48" r="2.6" fill="#fff"/>';
-    return '<svg class="mgf-coon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marlo le raton laveur' : LANG === 'de' ? 'Marlo, der Waschbär' : LANG === 'es' ? 'Marlo el mapache' : LANG === 'pt' ? 'Faro, o guaxinim' : 'Marlo the raccoon') + '">' +
+    return '<svg class="mgf-coon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marlo le raton laveur' : LANG === 'de' ? 'Marlo, der Waschbär' : LANG === 'es' ? 'Marlo el mapache' : LANG === 'pt' ? 'Faro, o guaxinim' : LANG === 'it' ? 'Marlo il procione' : 'Marlo the raccoon') + '">' +
       '<path d="M28 24 L40 36 L24 40 Z" fill="#9AA0A6"/><path d="M72 24 L60 36 L76 40 Z" fill="#9AA0A6"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="30" ry="27" fill="#AEB4BA"/>' +
       '<path d="M22 46 q28 -16 56 0 q-6 12 -16 12 h-24 q-10 0 -16 -12 Z" fill="#3A3F45"/>' +   /* mask */
@@ -42,16 +42,16 @@
     id: 'marlo-magnifier-activity',
 
     strings: {
-      title: { en: "Marlo's Magnifier", de: 'Marlos Lupe', fr: 'La loupe de Marlo', es: 'La lupa de Marlo', pt: 'A lupa do Faro' },
-      prompt: { en: 'Find the detail that proves it.', de: 'Finde das Detail, das es beweist.', fr: 'Trouve l’indice qui le prouve.', es: 'Encuentra el detalle que lo prueba.', pt: 'Ache o detalhe que prova isso.' },
-      marloIntro: { en: 'A new case! Find the proof in the story.', de: 'Ein neuer Fall! Finde den Beweis in der Geschichte.', fr: 'Une nouvelle enquête ! Trouve la preuve cachée dans l’histoire.', es: '¡Un caso nuevo! Encuentra la prueba en la historia.', pt: 'Um caso novo! Ache a prova na história.' },
-      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire', es: '📖 Lee la historia', pt: '📖 Ler a história' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire', es: '📖 Léela otra vez', pt: '📖 Ler de novo' },
-      theAsk: { en: 'Which detail PROVES it?', de: 'Welches Detail beweist es?', fr: 'Quel indice le PROUVE ?', es: '¿Qué detalle lo prueba?', pt: 'Qual detalhe PROVA isso?' },
-      clue: { en: 'Clue:', de: 'Hinweis:', fr: 'Indice :', es: 'Pista:', pt: 'Pista:' },
-      hintPick: { en: 'Tap the detail that shows it is true!', de: 'Tippe auf das Detail, das es beweist!', fr: 'Tape l’indice qui montre que c’est vrai !', es: '¡Toca el detalle que muestra que es verdad!', pt: 'Toque no detalhe que mostra que é verdade!' },
-      hintWrong: { en: "That is true, but it doesn't prove it — look again.", de: 'Das stimmt zwar, aber es ist kein Beweis. Schau noch einmal!', fr: 'C’est vrai, mais ça ne le prouve pas — regarde encore.', es: 'Eso es verdad, pero no lo prueba. ¡Busca otra vez!', pt: 'Isso é verdade, mas não prova — olhe de novo.' },
-      win: { en: 'Case solved! That is the proof. 🔍', de: 'Fall gelöst! Das ist der Beweis. 🔍', fr: 'Enquête résolue ! Voilà la preuve. 🔍', es: '¡Caso resuelto! Esa es la prueba. 🔍', pt: 'Caso resolvido! Essa é a prova. 🔍' }
+      title: { en: "Marlo's Magnifier", de: 'Marlos Lupe', fr: 'La loupe de Marlo', es: 'La lupa de Marlo', pt: 'A lupa do Faro', it: 'La lente di Marlo' },
+      prompt: { en: 'Find the detail that proves it.', de: 'Finde das Detail, das es beweist.', fr: 'Trouve l’indice qui le prouve.', es: 'Encuentra el detalle que lo prueba.', pt: 'Ache o detalhe que prova isso.', it: 'Trova il dettaglio che lo prova.' },
+      marloIntro: { en: 'A new case! Find the proof in the story.', de: 'Ein neuer Fall! Finde den Beweis in der Geschichte.', fr: 'Une nouvelle enquête ! Trouve la preuve cachée dans l’histoire.', es: '¡Un caso nuevo! Encuentra la prueba en la historia.', pt: 'Um caso novo! Ache a prova na história.', it: 'Un nuovo caso! Trova la prova nella storia.' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire', es: '📖 Lee la historia', pt: '📖 Ler a história', it: '📖 Leggi la storia' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire', es: '📖 Léela otra vez', pt: '📖 Ler de novo', it: '📖 Leggi di nuovo' },
+      theAsk: { en: 'Which detail PROVES it?', de: 'Welches Detail beweist es?', fr: 'Quel indice le PROUVE ?', es: '¿Qué detalle lo prueba?', pt: 'Qual detalhe PROVA isso?', it: 'Quale dettaglio lo PROVA?' },
+      clue: { en: 'Clue:', de: 'Hinweis:', fr: 'Indice :', es: 'Pista:', pt: 'Pista:', it: 'Indizio:' },
+      hintPick: { en: 'Tap the detail that shows it is true!', de: 'Tippe auf das Detail, das es beweist!', fr: 'Tape l’indice qui montre que c’est vrai !', es: '¡Toca el detalle que muestra que es verdad!', pt: 'Toque no detalhe que mostra que é verdade!', it: 'Tocca il dettaglio che dimostra che è vero!' },
+      hintWrong: { en: "That is true, but it doesn't prove it — look again.", de: 'Das stimmt zwar, aber es ist kein Beweis. Schau noch einmal!', fr: 'C’est vrai, mais ça ne le prouve pas — regarde encore.', es: 'Eso es verdad, pero no lo prueba. ¡Busca otra vez!', pt: 'Isso é verdade, mas não prova — olhe de novo.', it: 'È vero, ma non lo prova. Guarda di nuovo.' },
+      win: { en: 'Case solved! That is the proof. 🔍', de: 'Fall gelöst! Das ist der Beweis. 🔍', fr: 'Enquête résolue ! Voilà la preuve. 🔍', es: '¡Caso resuelto! Esa es la prueba. 🔍', pt: 'Caso resolvido! Essa é a prova. 🔍', it: 'Caso risolto! Questa è la prova. 🔍' }
     },
     defaults: {},
 
@@ -86,7 +86,7 @@
       var clue = api.el('div', 'mgf-clue');
       var lab = api.el('span', 'mgf-cluelab'); lab.textContent = api.t('clue'); clue.appendChild(lab);
       var txt = api.el('span', 'mgf-cluetxt'); txt.textContent = v.trait; clue.appendChild(txt);
-      var sp = api.el('button', 'mgf-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’indice' : LANG === 'de' ? 'den Hinweis anhören' : LANG === 'es' ? 'escuchar la pista' : LANG === 'pt' ? 'ouvir a pista' : 'hear the clue'); sp.textContent = '🔊';
+      var sp = api.el('button', 'mgf-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’indice' : LANG === 'de' ? 'den Hinweis anhören' : LANG === 'es' ? 'escuchar la pista' : LANG === 'pt' ? 'ouvir a pista' : LANG === 'it' ? 'ascolta questo indizio' : 'hear the clue'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.trait); }); clue.appendChild(sp);
       root.appendChild(clue);
 

@@ -900,6 +900,184 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "sf1",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Le tue ossa vere",
+                "blurb": "Dentro di te ci sono ossa vere e robuste.",
+                "type": "fact"
+              },
+              {
+                "title": "I draghi dormiglioni",
+                "blurb": "Due draghi cercano un posto tranquillo per fare la nanna.",
+                "type": "story"
+              },
+              {
+                "title": "Le grandi macchine",
+                "blurb": "Come funzionano davvero la gru e il trattore.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf2",
+            "band": 1,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "I draghi dormiglioni",
+                "blurb": "Due draghi cercano un posto tranquillo per fare la nanna.",
+                "type": "story"
+              },
+              {
+                "title": "Il folletto Nino",
+                "blurb": "Nino, il folletto, non trova più il suo calzino.",
+                "type": "story"
+              },
+              {
+                "title": "Le tue ossa vere",
+                "blurb": "Dentro di te ci sono ossa vere e robuste.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf3",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Il folletto Nino",
+                "blurb": "Nino, il folletto, non trova più il suo calzino.",
+                "type": "story"
+              },
+              {
+                "title": "Insetti veri",
+                "blurb": "Insetti veri: zampe, ali e antenne.",
+                "type": "fact"
+              },
+              {
+                "title": "Come cresce un albero",
+                "blurb": "Dal seme all’albero: fatti veri sulla natura.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf4",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "La barchetta coraggiosa",
+                "blurb": "C’era una volta una barchetta che non voleva bagnarsi.",
+                "type": "story"
+              },
+              {
+                "title": "Tito e il suo cappello",
+                "blurb": "Il coniglietto Tito perde il suo cappello magico.",
+                "type": "story"
+              },
+              {
+                "title": "Le grandi macchine",
+                "blurb": "Come funzionano davvero la gru e il trattore.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf5",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Come cresce un albero",
+                "blurb": "Dal seme all’albero: fatti veri sulla natura.",
+                "type": "fact"
+              },
+              {
+                "title": "La barchetta coraggiosa",
+                "blurb": "C’era una volta una barchetta che non voleva bagnarsi.",
+                "type": "story"
+              },
+              {
+                "title": "Le api e il miele",
+                "blurb": "Le api vere trasformano il nettare in miele.",
+                "type": "fact"
+              }
+            ]
+          },
+          {
+            "id": "sf6",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Come cresce un albero",
+                "blurb": "Dal seme all’albero: fatti veri sulla natura.",
+                "type": "fact"
+              },
+              {
+                "title": "Il sogno dello scoiattolo",
+                "blurb": "Uno scoiattolo sogna di volare tra le nuvole.",
+                "type": "story"
+              },
+              {
+                "title": "Tito e il suo cappello",
+                "blurb": "Il coniglietto Tito perde il suo cappello magico.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf7",
+            "band": 3,
+            "ask": "story",
+            "books": [
+              {
+                "title": "Insetti veri",
+                "blurb": "Insetti veri: zampe, ali e antenne.",
+                "type": "fact"
+              },
+              {
+                "title": "Le api e il miele",
+                "blurb": "Le api vere trasformano il nettare in miele.",
+                "type": "fact"
+              },
+              {
+                "title": "Il sogno dello scoiattolo",
+                "blurb": "Uno scoiattolo sogna di volare tra le nuvole.",
+                "type": "story"
+              }
+            ]
+          },
+          {
+            "id": "sf8",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              {
+                "title": "Insetti veri",
+                "blurb": "Insetti veri: zampe, ali e antenne.",
+                "type": "fact"
+              },
+              {
+                "title": "Il sogno dello scoiattolo",
+                "blurb": "Uno scoiattolo sogna di volare tra le nuvole.",
+                "type": "story"
+              },
+              {
+                "title": "Tito e il suo cappello",
+                "blurb": "Il coniglietto Tito perde il suo cappello magico.",
+                "type": "story"
+              }
+            ]
+          }
         ]
       }
     },
@@ -909,21 +1087,24 @@
       "de": "geschichte-oder-sachbuch-textsorten-unterscheiden-klasse-1",
       "fr": "histoire-ou-documentaire-cp",
       "es": "cuento-o-texto-informativo-tipos-de-texto-primer-grado",
-      "pt": "historia-ou-livro-de-verdade-tipos-de-texto-1-ano"
+      "pt": "historia-ou-livro-de-verdade-tipos-de-texto-1-ano",
+      "it": "storia-o-libro-di-informazioni-tipi-di-testo-classe-prima"
     },
     "page_title": {
       "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)",
       "de": "Geschichte oder Sachbuch? Textsorten unterscheiden",
       "fr": "Les deux étagères de Bea — Récit ou documentaire ? (CP)",
       "es": "Cuento o texto informativo: tipos de texto 1.º de primaria",
-      "pt": "História ou livro de verdade? Tipos de texto · 1º ano"
+      "pt": "História ou livro de verdade? Tipos de texto · 1º ano",
+      "it": "Storia o libro di informazioni? Tipi di testo, classe prima"
     },
     "page_intro": {
       "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.",
       "de": "Geschichte oder Sachbuch? Erkenne am Buchdeckel, ob ein Buch eine erfundene Geschichte erzählt oder als Sachbuch echte Infos zeigt. Kostenlos und interaktiv für Klasse 1 – jetzt mit Bea üben!",
       "fr": "Bea, un petit ver de livre, a deux étagères : une pour les livres qui racontent une histoire inventée, une pour les livres documentaires qui expliquent de vraies choses. À chaque tour, votre enfant regarde trois livres et tape celui que Bea demande : un récit ou un documentaire. Un jeu de lecture gratuit et interactif, à jouer dans le navigateur.",
       "es": "Distingue el cuento del texto informativo mirando la portada: ayuda a Bea con sus libreros. Tipos de texto para 1.º de primaria, gratis, en línea y sin registro.",
-      "pt": "Com a lagartinha Bea, a criança lê as capas dos livros e descobre qual é uma história inventada e qual é um livro de verdade. Uma atividade divertida de leitura para reconhecer os tipos de texto pelas pistas da capa. Grátis, sem cadastro. BNCC, 1º ano."
+      "pt": "Com a lagartinha Bea, a criança lê as capas dos livros e descobre qual é uma história inventada e qual é um livro de verdade. Uma atividade divertida de leitura para reconhecer os tipos de texto pelas pistas da capa. Grátis, sem cadastro. BNCC, 1º ano.",
+      "it": "Con Bea, il bruco dei libri, i bambini leggono le copertine per capire se un libro racconta una storia inventata o è un libro di informazioni sul mondo reale, distinguendo così il testo narrativo da quello informativo: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
   }

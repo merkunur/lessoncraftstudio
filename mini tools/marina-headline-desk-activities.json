@@ -1060,6 +1060,216 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "bees",
+            "band": 1,
+            "story": [
+              "Le api vivono insieme in un alveare.",
+              "Volano di fiore in fiore per raccogliere il nettare.",
+              "A casa trasformano il nettare in miele."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Come nasce il miele"
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Volano di fiore in fiore per raccogliere il nettare."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Il cane abbaia."
+              }
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 1,
+            "story": [
+              "Il sole scalda l’acqua del mare.",
+              "L’acqua sale in alto e forma le nuvole.",
+              "Quando le nuvole sono piene, l’acqua cade come pioggia."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "L’acqua sale in alto e forma le nuvole."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "La luna esce di notte."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Da dove viene la pioggia"
+              }
+            ]
+          },
+          {
+            "id": "frog",
+            "band": 1,
+            "story": [
+              "La rana depone le uova nello stagno.",
+              "Dalle uova nascono i girini con la coda.",
+              "I girini diventano rane con quattro zampe."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Dalle uova nascono i girini con la coda."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Come cresce una rana"
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Il sole è caldo."
+              }
+            ]
+          },
+          {
+            "id": "teeth",
+            "band": 2,
+            "story": [
+              "Ogni giorno mangiamo tanti cibi diversi.",
+              "I piccoli resti di cibo restano sui denti.",
+              "Laviamo i denti per tenerli puliti e sani."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Prendersi cura dei denti"
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Laviamo i denti per tenerli puliti e sani."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "La neve è fredda."
+              }
+            ]
+          },
+          {
+            "id": "volcano",
+            "band": 2,
+            "story": [
+              "Dentro il vulcano fa molto caldo.",
+              "La roccia si scioglie e diventa lava.",
+              "La lava esce e scende lungo i fianchi."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "La roccia si scioglie e diventa lava."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "Il pesce nuota."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Come erutta un vulcano"
+              }
+            ]
+          },
+          {
+            "id": "library",
+            "band": 2,
+            "story": [
+              "In biblioteca ci sono tanti libri.",
+              "Scegli un libro e lo porti al banco.",
+              "Puoi tenerlo a casa e poi lo riporti."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Scegli un libro e lo porti al banco."
+              },
+              {
+                "id": "o2",
+                "kind": "topic",
+                "text": "Come funziona il prestito dei libri"
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Le stelle brillano di notte."
+              }
+            ]
+          },
+          {
+            "id": "wind",
+            "band": 3,
+            "story": [
+              "Il vento è aria che si muove.",
+              "Può spingere le barche a vela sul mare.",
+              "A volte solleva le foglie e le fa volare."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "topic",
+                "text": "Tutto sul vento"
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Può spingere le barche a vela sul mare."
+              },
+              {
+                "id": "o3",
+                "kind": "offtopic",
+                "text": "Il gufo vola."
+              }
+            ]
+          },
+          {
+            "id": "seed",
+            "band": 3,
+            "story": [
+              "Il seme piccolo dorme sotto la terra.",
+              "Ha bisogno di acqua, sole e terra buona.",
+              "Con il tempo spunta e diventa una pianta."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Ha bisogno di acqua, sole e terra buona."
+              },
+              {
+                "id": "o2",
+                "kind": "offtopic",
+                "text": "La rana nuota."
+              },
+              {
+                "id": "o3",
+                "kind": "topic",
+                "text": "Come cresce una piantina"
+              }
+            ]
+          }
         ]
       }
     },
@@ -1069,21 +1279,24 @@
       "de": "hauptthema-eines-sachtexts-erkennen-klasse-3",
       "fr": "trouver-le-sujet-principal-d-un-texte-ce2",
       "es": "idea-principal-de-que-trata-el-texto-tercer-grado",
-      "pt": "qual-e-o-assunto-principal-do-texto-primeiros-anos"
+      "pt": "qual-e-o-assunto-principal-do-texto-primeiros-anos",
+      "it": "tema-principale-di-che-cosa-parla-il-testo-classe-terza"
     },
     "page_title": {
       "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)",
       "de": "Leseverständnis Klasse 2 – das Hauptthema erkennen, online üben",
       "fr": "Le bureau des titres de Marina : le sujet principal (CE2)",
       "es": "Idea principal: ¿de qué trata el texto? · Tercer grado",
-      "pt": "A mesa de manchetes da Marina — Qual é o assunto principal do texto?"
+      "pt": "A mesa de manchetes da Marina — Qual é o assunto principal do texto?",
+      "it": "Di che cosa parla il testo? Il tema principale · Classe terza"
     },
     "page_intro": {
       "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.",
       "de": "Leseverständnis für Klasse 2: Sachtexte lesen und das Hauptthema sicher erkennen. Kostenlose Übungen online, ohne Anmeldung – ideal zum Wiederholen.",
       "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire.",
       "es": "Lee un texto corto e identifica su idea principal: ¿de qué trata? Distingue el tema de un detalle. Juego interactivo y gratis de tercer grado.",
-      "pt": "Na mesa de manchetes da Marina, a lontra Marina traz uma notícia curtinha e pergunta: do que trata este texto, na maior parte? A criança lê (ou ouve, no botão 🔊) três frases sobre um assunto de verdade e toca na carta que mostra o assunto principal — sem confundir com um detalhe solto ou com um fato de fora. Grátis, sem cadastro e sem login, sem relógio nem pontos, alinhada à BNCC no eixo de compreensão de textos informativos."
+      "pt": "Na mesa de manchetes da Marina, a lontra Marina traz uma notícia curtinha e pergunta: do que trata este texto, na maior parte? A criança lê (ou ouve, no botão 🔊) três frases sobre um assunto de verdade e toca na carta que mostra o assunto principal — sem confundir com um detalhe solto ou com um fato de fora. Grátis, sem cadastro e sem login, sem relógio nem pontos, alinhada à BNCC no eixo de compreensão de textos informativos.",
+      "it": "Al banco dei titoli, Marina la lontra aiuta i bambini a scoprire di che cosa parla davvero un testo. Si legge un breve testo informativo — con l’aiuto della lettura ad alta voce 📖 — e si tocca la carta che indica il tema principale, non un piccolo dettaglio. Un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "marina-headline-desk"
   }

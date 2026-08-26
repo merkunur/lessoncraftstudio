@@ -57,6 +57,17 @@
       win: 'Isso! É verdade, mas essa frase é sobre {about}. Ela entrou na sala errada!',
       hear: '🔊 Ouvir',
       nudge: 'Essa é do tema {topic}, ela pertence aqui! Ache a que entrou na sala errada.'
+    },
+    /* it. §A.13.54: win/nudge agreement is anchored on «una frase (vera)» (fixed feminine) —
+       never on the varying room topic or the child; win «Bene!» never genders the child (no
+       «Bravo/Brava»). ⚠ 100% apostrophe-free JS (win frame «...un altro tema: {about}.» avoids
+       articulated-preposition apostrophes for any drift-about). 🔊 Ascolta. */
+    it: {
+      q: 'Quale frase non va con il tema?',
+      sign: 'Tema: {topic}',
+      win: 'Bene! È una frase vera, ma parla di un altro tema: {about}.',
+      hear: '🔊 Ascolta',
+      nudge: 'Questa frase parla del tema {topic}. Cerca la frase intrusa!'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -79,8 +90,8 @@
   var WobbleMuseumActivity = {
     id: 'wobble-museum-activity',
     strings: {
-      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram', es: 'El museo de temas de Ula', pt: 'O museu de temas da Prata' },
-      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !', es: 'Ula la urraca ordenó su museo: cada sala tiene un solo tema. Pero una oración se coló y no va con las demás. Tócala para sacarla del museo.', pt: 'A pega Prata é a curadora deste museu, e ela adora coisas brilhantes! Cada sala tem um só tema. Mas uma frase entrou na sala errada. Toque na frase que não é do tema.' },
+      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram', es: 'El museo de temas de Ula', pt: 'O museu de temas da Prata', it: 'Il museo della gazza Gemma' },
+      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !', es: 'Ula la urraca ordenó su museo: cada sala tiene un solo tema. Pero una oración se coló y no va con las demás. Tócala para sacarla del museo.', pt: 'A pega Prata é a curadora deste museu, e ela adora coisas brilhantes! Cada sala tem um só tema. Mas uma frase entrou na sala errada. Toque na frase que não é do tema.', it: 'Ogni stanza ha un solo tema. Tre frasi parlano di quel tema, ma una frase arriva da un altro tema. Tocca la frase intrusa!' },
       q: { en: '{q}' }
     },
 

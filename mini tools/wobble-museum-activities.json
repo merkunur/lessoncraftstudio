@@ -941,6 +941,192 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "wm-frogs",
+            "topic": "rane",
+            "topicWord": "rane",
+            "sentences": [
+              {
+                "text": "Le rane saltano lontano.",
+                "about": "rane"
+              },
+              {
+                "text": "Vivono vicino allo stagno.",
+                "about": "rane"
+              },
+              {
+                "text": "La loro pelle è liscia e umida.",
+                "about": "rane"
+              },
+              {
+                "text": "Il cane scodinzola quando è felice.",
+                "about": "cani"
+              }
+            ]
+          },
+          {
+            "id": "wm-moon",
+            "topic": "luna",
+            "topicWord": "luna",
+            "sentences": [
+              {
+                "text": "La luna si vede di notte.",
+                "about": "luna"
+              },
+              {
+                "text": "Di notte brilla in alto nel cielo.",
+                "about": "luna"
+              },
+              {
+                "text": "A volte sembra tonda, a volte sottile.",
+                "about": "luna"
+              },
+              {
+                "text": "Il cane abbaia quando sente un rumore.",
+                "about": "cani"
+              }
+            ]
+          },
+          {
+            "id": "wm-trucks",
+            "topic": "camion dei pompieri",
+            "topicWord": "pompieri",
+            "sentences": [
+              {
+                "text": "Il camion dei pompieri è rosso.",
+                "about": "camion dei pompieri"
+              },
+              {
+                "text": "Corre veloce con la sirena accesa.",
+                "about": "camion dei pompieri"
+              },
+              {
+                "text": "Spruzza acqua per spegnere il fuoco.",
+                "about": "camion dei pompieri"
+              },
+              {
+                "text": "Il segnale rosso dice di fermarsi.",
+                "about": "segnali stradali"
+              }
+            ]
+          },
+          {
+            "id": "wm-rain",
+            "topic": "pioggia",
+            "topicWord": "pioggia",
+            "sentences": [
+              {
+                "text": "La pioggia cade dalle nuvole.",
+                "about": "pioggia"
+              },
+              {
+                "text": "Bagna le strade con tanta acqua.",
+                "about": "pioggia"
+              },
+              {
+                "text": "Quando piove usiamo l’ombrello.",
+                "about": "pioggia"
+              },
+              {
+                "text": "Il camion dei pompieri ha una sirena forte.",
+                "about": "camion dei pompieri"
+              }
+            ]
+          },
+          {
+            "id": "wm-dogs",
+            "topic": "cani",
+            "topicWord": "cane",
+            "sentences": [
+              {
+                "text": "Il cane abbaia forte.",
+                "about": "cani"
+              },
+              {
+                "text": "Scodinzola quando è contento.",
+                "about": "cani"
+              },
+              {
+                "text": "Gli piace correre nel parco.",
+                "about": "cani"
+              },
+              {
+                "text": "Il gatto fa le fusa quando è contento.",
+                "about": "gatti"
+              }
+            ]
+          },
+          {
+            "id": "wm-bees",
+            "topic": "api",
+            "topicWord": "api",
+            "sentences": [
+              {
+                "text": "Le api volano di fiore in fiore.",
+                "about": "api"
+              },
+              {
+                "text": "Fanno il miele, che è molto dolce.",
+                "about": "api"
+              },
+              {
+                "text": "Ronzano nel giardino tutto il giorno.",
+                "about": "api"
+              },
+              {
+                "text": "Le formiche cercano il cibo dolce.",
+                "about": "formiche"
+              }
+            ]
+          },
+          {
+            "id": "wm-trees",
+            "topic": "alberi",
+            "topicWord": "albero",
+            "sentences": [
+              {
+                "text": "L’albero ha tanti rami.",
+                "about": "alberi"
+              },
+              {
+                "text": "Le foglie diventano gialle in autunno.",
+                "about": "alberi"
+              },
+              {
+                "text": "In estate danno una bella ombra.",
+                "about": "alberi"
+              },
+              {
+                "text": "Il pesce nuota nell’acqua.",
+                "about": "pesci"
+              }
+            ]
+          },
+          {
+            "id": "wm-body",
+            "topic": "corpo",
+            "topicWord": "corpo",
+            "sentences": [
+              {
+                "text": "Il corpo ha due braccia e due gambe.",
+                "about": "corpo"
+              },
+              {
+                "text": "Con le mani prendiamo le cose.",
+                "about": "corpo"
+              },
+              {
+                "text": "Con i denti mastichiamo il cibo.",
+                "about": "corpo"
+              },
+              {
+                "text": "Il camion dei pompieri corre veloce.",
+                "about": "camion dei pompieri"
+              }
+            ]
+          }
         ]
       }
     },
@@ -949,21 +1135,24 @@
       "de": "beim-thema-bleiben-welcher-satz-passt-nicht-klasse-2",
       "fr": "rester-dans-le-theme-quelle-phrase-ne-va-pas-ce1",
       "es": "quedarse-en-el-tema-cual-oracion-no-corresponde-segundo-grado",
-      "pt": "qual-frase-nao-e-do-tema-manter-o-foco-primeiros-anos"
+      "pt": "qual-frase-nao-e-do-tema-manter-o-foco-primeiros-anos",
+      "it": "quale-frase-non-e-del-tema-restare-in-tema-classe-seconda"
     },
     "page_title": {
       "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)",
       "de": "Beim Thema bleiben: Welcher Satz passt nicht? Klasse 2",
       "fr": "Le musée de Bram : rester dans le thème (CE1)",
       "es": "¿Cuál oración no corresponde al tema? (2.º grado)",
-      "pt": "Qual frase não é do tema? — Manter o foco no assunto"
+      "pt": "Qual frase não é do tema? — Manter o foco no assunto",
+      "it": "Quale frase non è del tema? Restare in tema (classe seconda)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2.",
       "de": "Beim Thema bleiben leicht gemacht: Dein Kind findet den Satz, der nicht zum Thema passt – kostenlos & interaktiv für die Klasse 2.",
       "fr": "Un jeu de lecture CE1, gratuit et interactif : dans le musée de Bram la pie, chaque salle parle d'une seule chose — mais une phrase s'est trompée de salle ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème : elle est vraie, mais elle parle d'autre chose. Un premier pas tout doux pour apprendre à rester dans le thème quand on écrit.",
       "es": "Actividad gratis e interactiva para 2.º grado: lee cuatro oraciones y toca la que no corresponde al tema. Practica identificar el tema y quedarse en el tema.",
-      "pt": "No museu de temas da pega Prata, cada sala tem um assunto e uma placa que mostra o tema. Três frases combinam com o tema, mas uma entrou na sala errada — ela é verdadeira, só que fala de outra coisa. Toque na frase intrusa e ajude a Prata a organizar o museu! Grátis, sem cadastro, sem relógio nem pontos, com o botão \"🔊 Ouvir\" para quem ainda está aprendendo a ler. Alinhado à BNCC, na área de produção de textos: manter o foco no tema."
+      "pt": "No museu de temas da pega Prata, cada sala tem um assunto e uma placa que mostra o tema. Três frases combinam com o tema, mas uma entrou na sala errada — ela é verdadeira, só que fala de outra coisa. Toque na frase intrusa e ajude a Prata a organizar o museu! Grátis, sem cadastro, sem relógio nem pontos, com o botão \"🔊 Ouvir\" para quem ainda está aprendendo a ler. Alinhado à BNCC, na área de produção de textos: manter o foco no tema.",
+      "it": "Nel museo della gazza Gemma ogni sala racconta un solo tema, ma in ognuna una frase è entrata nella stanza sbagliata: è vera, ma non c’entra con l’argomento. Il bambino legge le quattro frasi, con l’aiuto del pulsante 🔊 leggi ad alta voce, e tocca la frase intrusa. Un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "wobble-museum"
   }

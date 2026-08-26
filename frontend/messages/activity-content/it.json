@@ -3619,6 +3619,29 @@
         "Collegare le parole della frase all’altezza di chi osserva.",
         "Fare un primo passo verso il punto di vista di chi racconta."
       ]
+    },
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "Nel museo della gazza Gemma ogni sala è dedicata a un solo argomento, e in ciascuna si nasconde una frase che è vera ma non c’entra con il tema.",
+        "Il bambino legge le quattro frasi della sala, ascolta la lettura ad alta voce se vuole e tocca l’unica frase fuori tema.",
+        "Allineata alle Indicazioni nazionali per la classe seconda, l’attività è gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "riconoscere il tema di un breve testo",
+        "individuare la frase fuori tema",
+        "capire la coerenza tra le frasi",
+        "restare nel tema quando si scrive"
+      ],
+      "howToPlay": [
+        "Leggi il cartello della sala e scopri di quale tema parla.",
+        "Leggi con calma le quattro frasi, anche con il pulsante 🔊.",
+        "Tocca la frase che è entrata nella stanza sbagliata."
+      ],
+      "learningGoals": [
+        "capire qual è l’argomento di un gruppo di frasi",
+        "distinguere le frasi in tema da quella fuori tema",
+        "imparare a mantenere il focus in un testo scritto"
+      ]
     }
   }
 }

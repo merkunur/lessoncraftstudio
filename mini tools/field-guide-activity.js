@@ -73,6 +73,15 @@
       found: 'ACHOU! Que bom que você lê bem, detetive.',
       wordsToKnow: 'Palavras importantes',
       contents: 'Sumário'
+    },
+    it: {
+      readLine: 'Leggi la pagina, poi tocca la risposta.',
+      diagramLine: 'Leggi la didascalia, poi tocca la parte giusta.',
+      whichLine: 'Pensa a che cosa serve ogni strumento del libro.',
+      reread: 'Hmm, rileggiamo che cosa dice la pagina. Riprova!',
+      found: 'TROVATO! Bella lettura, detective.',
+      wordsToKnow: 'Parole da sapere',
+      contents: 'Indice'
     }
   };
   function txt(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[k] || L.en[k] || k; }
@@ -118,18 +127,18 @@
          índice/capítulos/glossário); «caderno de campo» = a researcher's notebook (wrong object).
          você-form; every {fn} slot takes a BARE INFINITIVE (pt fuses no article after a/para/consegue),
          so no German-style nominalization — verified on the reflexive «…ajuda ele a se esconder?». */
-      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft', fr: 'Le carnet du détective Dewey', es: 'La guía del detective Dewey', pt: 'O guia de campo do detetive Dewey' },
-      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!', fr: 'Lis les outils du livre pour trouver l’information !', es: '¡Lee las partes del libro para encontrar el dato!', pt: 'Leia as partes do livro para achar a informação!' },
-      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?', fr: 'Quelle partie l’aide à {fn} ?', es: '¿Qué parte le ayuda a {fn}?', pt: 'Qual parte ajuda ele a {fn}?' },
-      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?', fr: 'Quel mot désigne la partie qui sert à {fn} ?', es: '¿Qué palabra nombra la parte que sirve para {fn}?', pt: 'Qual palavra é a parte que serve para {fn}?' },
-      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?', fr: 'Quel chapitre explique comment il fait pour {fn} ?', es: '¿Qué capítulo explica cómo hace para {fn}?', pt: 'Qual capítulo mostra como ele consegue {fn}?' },
-      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?', fr: 'Quel titre raconte comment il fait pour {fn} ?', es: '¿Qué título cuenta cómo hace para {fn}?', pt: 'Qual título conta como ele consegue {fn}?' },
-      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?', fr: 'Quel bouton t’aide à {fn} ?', es: '¿Qué botón te ayuda a {fn}?', pt: 'Qual botão ajuda você a {fn}?' },
+      title: { en: "Detective Dewey's Field Guide", de: 'Detektiv Deweys Forscherheft', fr: 'Le carnet du détective Dewey', es: 'La guía del detective Dewey', pt: 'O guia de campo do detetive Dewey', it: 'Il taccuino del detective Dewey' },
+      instruction: { en: 'Read the book’s tools to find the fact!', de: 'Lies die Werkzeuge des Buches, um die Information zu finden!', fr: 'Lis les outils du livre pour trouver l’information !', es: '¡Lee las partes del libro para encontrar el dato!', pt: 'Leia as partes do livro para achar a informação!', it: 'Leggi gli strumenti del libro per trovare la risposta!' },
+      qDiagram: { en: 'Which part helps it {fn}?', de: 'Welcher Teil hilft ihm beim {fn}?', fr: 'Quelle partie l’aide à {fn} ?', es: '¿Qué parte le ayuda a {fn}?', pt: 'Qual parte ajuda ele a {fn}?', it: 'Quale parte lo aiuta a {fn}?' },
+      qGlossary: { en: 'Which word means the part that can {fn}?', de: 'Welches Wort beschreibt den Teil zum {fn}?', fr: 'Quel mot désigne la partie qui sert à {fn} ?', es: '¿Qué palabra nombra la parte que sirve para {fn}?', pt: 'Qual palavra é a parte que serve para {fn}?', it: 'Quale parola indica la parte che può {fn}?' },
+      qToc: { en: 'Which chapter is about how it can {fn}?', de: 'In welchem Kapitel geht es ums {fn}?', fr: 'Quel chapitre explique comment il fait pour {fn} ?', es: '¿Qué capítulo explica cómo hace para {fn}?', pt: 'Qual capítulo mostra como ele consegue {fn}?', it: 'Quale capitolo parla di come può {fn}?' },
+      qHeading: { en: 'Which heading tells how it can {fn}?', de: 'Welche Überschrift handelt vom {fn}?', fr: 'Quel titre raconte comment il fait pour {fn} ?', es: '¿Qué título cuenta cómo hace para {fn}?', pt: 'Qual título conta como ele consegue {fn}?', it: 'Quale titolo dice come può {fn}?' },
+      qMenu: { en: 'Which button helps you {fn}?', de: 'Welcher Knopf hilft dir beim {fn}?', fr: 'Quel bouton t’aide à {fn} ?', es: '¿Qué botón te ayuda a {fn}?', pt: 'Qual botão ajuda você a {fn}?', it: 'Quale pulsante ti aiuta a {fn}?' },
       /* es/pt: no round uses qIndex — the back-of-book alphabetical index cog is dropped (a 2.º child
          never meets it; BR/MX school books carry a front Sumário/Índice only). Kept for parity. */
-      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?', fr: 'Quelle ligne mène à la partie qui sert à {fn} ?', es: '¿Qué renglón te lleva a la página donde se habla de {fn}?', pt: 'Qual linha leva à parte que serve para {fn}?' },
-      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?', fr: 'Pour trouver ce qu’un MOT veut dire, quel outil ouvres-tu ?', es: 'Para saber qué significa una PALABRA, ¿qué parte del libro abres?', pt: 'Para descobrir o que uma PALAVRA quer dizer, qual ferramenta do livro você abre?' },
-      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?', fr: 'Pour trouver dans quel CHAPITRE un sujet se trouve, quel outil prends-tu ?', es: 'Para saber en qué capítulo está un TEMA, ¿qué parte del libro abres?', pt: 'Para descobrir em qual CAPÍTULO um assunto está, qual ferramenta do livro você abre?' }
+      qIndex: { en: 'Which line leads to the part that can {fn}?', de: 'Welche Zeile führt zur Stelle übers {fn}?', fr: 'Quelle ligne mène à la partie qui sert à {fn} ?', es: '¿Qué renglón te lleva a la página donde se habla de {fn}?', pt: 'Qual linha leva à parte que serve para {fn}?', it: 'Quale riga porta alla parte che può {fn}?' },
+      qWhichMeaning: { en: 'To find what a WORD means, which tool do you open?', de: 'Um herauszufinden, was ein WORT bedeutet — welches Buch-Werkzeug öffnest du?', fr: 'Pour trouver ce qu’un MOT veut dire, quel outil ouvres-tu ?', es: 'Para saber qué significa una PALABRA, ¿qué parte del libro abres?', pt: 'Para descobrir o que uma PALAVRA quer dizer, qual ferramenta do livro você abre?', it: 'Per scoprire che cosa vuole dire una PAROLA, quale strumento apri?' },
+      qWhichTopic: { en: 'To find which chapter a TOPIC is in, which tool do you open?', de: 'Um herauszufinden, in welchem KAPITEL ein Thema steht — welches Buch-Werkzeug nimmst du?', fr: 'Pour trouver dans quel CHAPITRE un sujet se trouve, quel outil prends-tu ?', es: 'Para saber en qué capítulo está un TEMA, ¿qué parte del libro abres?', pt: 'Para descobrir em qual CAPÍTULO um assunto está, qual ferramenta do livro você abre?', it: 'Per scoprire in quale capitolo si trova un ARGOMENTO, quale strumento apri?' }
     },
 
     init: function (api) {

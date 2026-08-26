@@ -3412,6 +3412,29 @@
         "Distinguere senso letterale e figurato",
         "Arricchire il vocabolario"
       ]
+    },
+    "field-guide.text-features.1-ri-5": {
+      "about": [
+        "Detective Dewey apre la sua guida naturalistica su creature mai viste e invita il bambino a fare il detective delle pagine, seguendo gli indizi che ogni strumento del libro sa offrire.",
+        "L’attività allena a usare gli strumenti del testo — l’indice, il glossario, la didascalia e il titolo — per cercare e trovare le informazioni, imparando a leggere non solo per capire, ma anche per ricercare.",
+        "Pensata per la classe seconda e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Usare l’indice e il glossario",
+        "Leggere le didascalie e i titoli",
+        "Cercare le informazioni nel testo",
+        "Capire a cosa serve ogni strumento del libro"
+      ],
+      "howToPlay": [
+        "Leggi lo strumento del libro",
+        "Cerca l’informazione giusta",
+        "Toccala"
+      ],
+      "learningGoals": [
+        "Usare gli strumenti del testo",
+        "Cercare informazioni in una pagina",
+        "Capire a cosa servono indice, glossario e didascalia"
+      ]
     }
   }
 }

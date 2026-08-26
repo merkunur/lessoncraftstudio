@@ -3389,6 +3389,29 @@
         "Trovare un dettaglio nel testo",
         "Rispondere a domande di comprensione"
       ]
+    },
+    "gabby-sayings.idioms.l-3-5-a": {
+      "about": [
+        "L’oca Gabby adora le frasi buffe: ogni volta apre il becco e racconta un modo di dire, aspettando che tu scopra che cosa vuole dire davvero.",
+        "Questa attività aiuta a capire il senso figurato di un modo di dire, a distinguere il senso letterale da quello figurato e ad arricchire il lessico di ogni giorno.",
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "capire il senso figurato dei modi di dire",
+        "distinguere senso letterale e figurato",
+        "arricchire il lessico",
+        "leggere con attenzione"
+      ],
+      "howToPlay": [
+        "Leggi il modo di dire di Gabby",
+        "Pensa a che cosa significa davvero",
+        "Tocca il significato giusto"
+      ],
+      "learningGoals": [
+        "Capire i modi di dire",
+        "Distinguere senso letterale e figurato",
+        "Arricchire il vocabolario"
+      ]
     }
   }
 }

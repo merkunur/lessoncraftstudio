@@ -17,12 +17,12 @@
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function gooseSVG() {
-    return '<svg class="gfs-goose-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Gabby l’oie' : LANG === 'de' ? 'Gabby die Gans' : LANG === 'es' ? 'Gabby la gansa' : LANG === 'pt' ? 'Gabby, a gansa' : 'Gabby the goose') + '">' +
+    return '<svg class="gfs-goose-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Gabby l’oie' : LANG === 'de' ? 'Gabby die Gans' : LANG === 'es' ? 'Gabby la gansa' : LANG === 'pt' ? 'Gabby, a gansa' : LANG === 'it' ? 'Gabby, la papera' : 'Gabby the goose') + '">' +
       '<ellipse cx="46" cy="64" rx="22" ry="18" fill="#FFFDF6"/>' +                /* body */
       '<path d="M62 60 q18 -2 14 -22 q-2 -16 -14 -10 q6 8 0 18 q-3 8 0 14 Z" fill="#FFFDF6"/>' + /* long neck */
       '<circle cx="70" cy="32" r="9" fill="#FFFDF6"/>' +                            /* head */
@@ -40,18 +40,18 @@
          full-sentence PROVERB with a moral («refranes y dichos populares»). Calling «¡Ya ponte las
          pilas!» a dicho would teach a false category on the very grade where SEP builds it.
          «modismo» is correct but secundaria register. «sentido figurado» = the concept (prose only). */
-      title: { en: "Gabby's Funny Sayings", de: 'Gabbys Redewendungen', fr: 'Les drôles d’expressions de Gabby', es: 'Las expresiones de Gabby', pt: 'As expressões da Gabby' },
+      title: { en: "Gabby's Funny Sayings", de: 'Gabbys Redewendungen', fr: 'Les drôles d’expressions de Gabby', es: 'Las expresiones de Gabby', pt: 'As expressões da Gabby', it: 'I modi di dire di Gabby' },
       /* «en realidad» is the MX-natural carrier of the literal↔figurative hinge (as de kept „wirklich");
          a bare «¿Qué significa…?» loses the contrast and makes the literal card look defensible. */
-      prompt: { en: 'What does the saying really mean?', de: 'Was bedeutet die Redewendung wirklich?', fr: 'Que veut vraiment dire cette expression ?', es: '¿Qué quiere decir en realidad esta expresión?', pt: 'O que a expressão quer dizer de verdade?' },
-      gabbyIntro: { en: 'Sayings are tricky — what does this one REALLY mean?', de: 'Schnatter! Manche Sätze meinen etwas ganz anderes, als sie sagen.', fr: 'Coin coin ! Certaines expressions ne veulent pas dire ce qu’elles disent…', es: '¡Soy Gabby! Digo frases chistosas que no significan lo que parecen.', pt: 'Algumas frases dizem uma coisa, mas querem dizer outra!' },
-      theAsk: { en: 'Tap the real meaning.', de: 'Tippe die echte Bedeutung an.', fr: 'Tape le vrai sens.', es: 'Toca el significado verdadero.', pt: 'Toque no sentido de verdade.' },
-      hintPick: { en: 'It does not mean the words exactly — tap the real meaning!', de: 'Es meint nicht genau die Wörter – tippe die echte Bedeutung an!', fr: 'Ce n’est pas le sens des mots exactement — tape le vrai sens !', es: 'No significa las palabras exactas: ¡toca el significado verdadero!', pt: 'Não é bem o que as palavras dizem — toque no sentido de verdade!' },
+      prompt: { en: 'What does the saying really mean?', de: 'Was bedeutet die Redewendung wirklich?', fr: 'Que veut vraiment dire cette expression ?', es: '¿Qué quiere decir en realidad esta expresión?', pt: 'O que a expressão quer dizer de verdade?', it: 'Che cosa vuol dire davvero?' },
+      gabbyIntro: { en: 'Sayings are tricky — what does this one REALLY mean?', de: 'Schnatter! Manche Sätze meinen etwas ganz anderes, als sie sagen.', fr: 'Coin coin ! Certaines expressions ne veulent pas dire ce qu’elles disent…', es: '¡Soy Gabby! Digo frases chistosas que no significan lo que parecen.', pt: 'Algumas frases dizem uma coisa, mas querem dizer outra!', it: 'I modi di dire sono buffi: che cosa vuol dire?' },
+      theAsk: { en: 'Tap the real meaning.', de: 'Tippe die echte Bedeutung an.', fr: 'Tape le vrai sens.', es: 'Toca el significado verdadero.', pt: 'Toque no sentido de verdade.', it: 'Tocca il significato vero.' },
+      hintPick: { en: 'It does not mean the words exactly — tap the real meaning!', de: 'Es meint nicht genau die Wörter – tippe die echte Bedeutung an!', fr: 'Ce n’est pas le sens des mots exactement — tape le vrai sens !', es: 'No significa las palabras exactas: ¡toca el significado verdadero!', pt: 'Não é bem o que as palavras dizem — toque no sentido de verdade!', it: 'Non vuol dire le parole esatte: tocca il significato vero!' },
       /* es §A.13.54: `hintWrong`/`win` render on ANY round → anchored on the NEUTER demonstrative
          «eso»; no adjective/participle agrees with a round's subject. (hintWrong NAMES the trap
          rather than just marking it wrong — the pedagogical payload of the activity.) */
-      hintWrong: { en: "That is what the words say, but not what it means — think again.", de: 'Das sagen die Wörter, aber so ist es nicht gemeint – denk noch mal nach.', fr: 'Ça, c’est ce que disent les mots, mais pas ce que ça veut dire — réfléchis encore.', es: 'Eso es lo que dicen las palabras, pero no lo que significa. Piénsalo otra vez.', pt: 'É isso que as palavras dizem, mas não é o que significa — pense de novo.' },
-      win: { en: 'Yes! That is what it really means. 🪿', de: 'Ja! Genau das bedeutet es wirklich. 🪿', fr: 'Oui ! C’est bien ce que ça veut dire. 🪿', es: '¡Sí! Eso es lo que significa de verdad. 🪿', pt: 'Isso! É isso que quer dizer de verdade. 🪿' }
+      hintWrong: { en: "That is what the words say, but not what it means — think again.", de: 'Das sagen die Wörter, aber so ist es nicht gemeint – denk noch mal nach.', fr: 'Ça, c’est ce que disent les mots, mais pas ce que ça veut dire — réfléchis encore.', es: 'Eso es lo que dicen las palabras, pero no lo que significa. Piénsalo otra vez.', pt: 'É isso que as palavras dizem, mas não é o que significa — pense de novo.', it: 'Questo dicono le parole, ma non è il vero significato: prova ancora.' },
+      win: { en: 'Yes! That is what it really means. 🪿', de: 'Ja! Genau das bedeutet es wirklich. 🪿', fr: 'Oui ! C’est bien ce que ça veut dire. 🪿', es: '¡Sí! Eso es lo que significa de verdad. 🪿', pt: 'Isso! É isso que quer dizer de verdade. 🪿', it: 'Sì! Vuol dire proprio questo. 🪿' }
     },
     defaults: {},
 
@@ -82,7 +82,7 @@
 
       var sent = api.el('div', 'gfs-sent');
       var txt = api.el('span', 'gfs-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'gfs-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’expression' : LANG === 'de' ? 'die Redewendung anhören' : LANG === 'es' ? 'escuchar la expresión' : LANG === 'pt' ? 'ouvir a expressão' : 'hear the saying'); sp.textContent = '🔊';
+      var sp = api.el('button', 'gfs-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’expression' : LANG === 'de' ? 'die Redewendung anhören' : LANG === 'es' ? 'escuchar la expresión' : LANG === 'pt' ? 'ouvir a expressão' : LANG === 'it' ? 'ascolta il modo di dire' : 'hear the saying'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.sentence); }); sent.appendChild(sp);
       root.appendChild(sent);
 

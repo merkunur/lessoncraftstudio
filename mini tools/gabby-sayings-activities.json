@@ -840,6 +840,168 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "gioco-da-ragazzi",
+            "band": 1,
+            "idiom": "un gioco da ragazzi",
+            "sentence": "Per Luca, montare il puzzle è stato un gioco da ragazzi.",
+            "choices": [
+              {
+                "text": "È una cosa molto facile da fare",
+                "kind": "correct"
+              },
+              {
+                "text": "Un gioco a cui giocano i ragazzi",
+                "kind": "literal"
+              },
+              {
+                "text": "Un gruppo di amici in cortile",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "piove-a-catinelle",
+            "band": 1,
+            "idiom": "piove a catinelle",
+            "sentence": "Prendi l’ombrello: fuori piove a catinelle!",
+            "choices": [
+              {
+                "text": "Le catinelle cadono giù dal cielo",
+                "kind": "literal"
+              },
+              {
+                "text": "Cade tantissima acqua dal cielo",
+                "kind": "correct"
+              },
+              {
+                "text": "C’è un bel sole caldo",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "in-bocca-al-lupo",
+            "band": 1,
+            "idiom": "in bocca al lupo",
+            "sentence": "Domani hai la gara di nuoto: in bocca al lupo!",
+            "choices": [
+              {
+                "text": "Finire dentro la bocca di un lupo",
+                "kind": "literal"
+              },
+              {
+                "text": "Andare a fare una passeggiata",
+                "kind": "off"
+              },
+              {
+                "text": "Ti auguro tanta buona fortuna",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "testa-fra-le-nuvole",
+            "band": 2,
+            "idiom": "avere la testa fra le nuvole",
+            "sentence": "Marta non ascolta la maestra: ha sempre la testa fra le nuvole.",
+            "choices": [
+              {
+                "text": "Essere distratti e pensare ad altro",
+                "kind": "correct"
+              },
+              {
+                "text": "Avere la testa su in mezzo alle nuvole",
+                "kind": "literal"
+              },
+              {
+                "text": "Avere molta fame durante la lezione",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "occhio-della-testa",
+            "band": 2,
+            "idiom": "costare un occhio della testa",
+            "sentence": "Quella bicicletta nuova costa un occhio della testa.",
+            "choices": [
+              {
+                "text": "Pagare dando via un occhio",
+                "kind": "literal"
+              },
+              {
+                "text": "Essere molto caro, con un prezzo altissimo",
+                "kind": "correct"
+              },
+              {
+                "text": "Essere leggero e facile da portare",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "tagliare-la-corda",
+            "band": 2,
+            "idiom": "tagliare la corda",
+            "sentence": "Quando è arrivato il momento di riordinare, Leo ha tagliato la corda.",
+            "choices": [
+              {
+                "text": "Camminare piano in punta di piedi",
+                "kind": "off"
+              },
+              {
+                "text": "Tagliare una corda con un coltello",
+                "kind": "literal"
+              },
+              {
+                "text": "Scappare via di nascosto e in fretta",
+                "kind": "correct"
+              }
+            ]
+          },
+          {
+            "id": "farfalle-nello-stomaco",
+            "band": 3,
+            "idiom": "avere le farfalle nello stomaco",
+            "sentence": "Prima di salire sul palco, Sara aveva le farfalle nello stomaco.",
+            "choices": [
+              {
+                "text": "Sentirsi molto emozionati e agitati",
+                "kind": "correct"
+              },
+              {
+                "text": "Avere delle farfalle che volano nella pancia",
+                "kind": "literal"
+              },
+              {
+                "text": "Avere tanto sonno la sera tardi",
+                "kind": "off"
+              }
+            ]
+          },
+          {
+            "id": "due-piccioni-una-fava",
+            "band": 3,
+            "idiom": "prendere due piccioni con una fava",
+            "sentence": "Studiando in giardino, Gabby prende due piccioni con una fava: impara e prende il sole.",
+            "choices": [
+              {
+                "text": "Catturare due piccioni lanciando una fava",
+                "kind": "literal"
+              },
+              {
+                "text": "Ottenere due vantaggi facendo una cosa sola",
+                "kind": "correct"
+              },
+              {
+                "text": "Perdere il treno tutte le mattine",
+                "kind": "off"
+              }
+            ]
+          }
         ]
       }
     },
@@ -849,21 +1011,24 @@
       "de": "redewendungen-verstehen-uebertragene-bedeutung-klasse-3",
       "fr": "comprendre-les-expressions-imagees-sens-figure-ce2",
       "es": "sentido-literal-y-figurado-tercer-grado",
-      "pt": "sentido-literal-e-figurado-expressoes-idiomaticas-3-ano"
+      "pt": "sentido-literal-e-figurado-expressoes-idiomaticas-3-ano",
+      "it": "modi-di-dire-senso-figurato-classe-terza"
     },
     "page_title": {
       "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)",
       "de": "Redewendungen Klasse 3: übertragene Bedeutung üben",
       "fr": "Les drôles d'expressions de Gabby — Le sens figuré (CE2)",
       "es": "Sentido literal y figurado – Actividad 3.º primaria",
-      "pt": "Expressões idiomáticas: sentido literal e figurado · 3º ano"
+      "pt": "Expressões idiomáticas: sentido literal e figurado · 3º ano",
+      "it": "Modi di dire: senso letterale e figurato — classe terza"
     },
     "page_intro": {
       "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a.",
       "de": "Redewendungen verstehen: Was bedeutet „Daumen drücken“ wirklich? Tippe die übertragene Bedeutung an statt der wörtlichen Falle. Kostenlos, interaktiv, für Klasse 3 – jetzt mitraten!",
       "fr": "Avec Gabby l'oie, votre enfant lit une expression imagée dans une phrase, puis trouve ce qu'elle veut vraiment dire. Il apprend à distinguer le sens propre du sens figuré : « avoir un chat dans la gorge » ne veut pas dire qu'un chat est vraiment là, mais qu'on est enroué et qu'on a du mal à parler ! Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer.",
       "es": "Actividad gratis en línea para 3.º de primaria: lee una expresión mexicana y toca lo que de verdad significa. Sentido literal y figurado, sin registro.",
-      "pt": "Com a gansa Gabby, a criança lê uma expressão idiomática e descobre o que ela realmente quer dizer — o sentido figurado, diferente do literal. Uma atividade divertida para ampliar o vocabulário e ler com mais atenção. Grátis, sem cadastro. BNCC, 3º ano."
+      "pt": "Com a gansa Gabby, a criança lê uma expressão idiomática e descobre o que ela realmente quer dizer — o sentido figurado, diferente do literal. Uma atividade divertida para ampliar o vocabulário e ler com mais atenção. Grátis, sem cadastro. BNCC, 3º ano.",
+      "it": "Con l’oca Gabby i bambini leggono un simpatico modo di dire in una frase e scelgono il suo vero significato figurato, imparando a distinguerlo da quello letterale: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza, per giocare con le parole e arricchire il lessico."
     },
     "kid_prompt_template": "What does the saying really mean?"
   }

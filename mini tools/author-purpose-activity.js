@@ -73,6 +73,20 @@
       nInform: 'Esta nota dá informação de verdade — ela quer INFORMAR.',
       nEntertain: 'Esta nota conta uma história divertida — ela quer DIVERTIR.',
       nInstruct: 'Esta nota ensina os passos — procure "primeiro… depois… no final".'
+    },
+    /* it: `q` is AGENTLESS + PURPOSE-framed («A che cosa serve…» = "what is it FOR", unambiguously
+       purposive, mirrors the «Per…» bins) — chosen over «Perché è stata scritta…» (Italian «perché»
+       tips toward CAUSE). §A.13.54: nInform/nEntertain/nInstruct anchor every agreeing word on the
+       FIXED fem noun «questa nota», never the round's varying subject (il sole m / le api f / il
+       gatto m); the purpose verbs «vuole informare/divertire» agree with nothing. winNote reworded
+       to «lo scopo di questa nota» to dodge the «l'autore» apostrophe (JS = apostrophe-free). */
+    it: {
+      q: 'A che cosa serve questa nota?',
+      win: 'Sì! {note}', winNote: 'Hai trovato lo scopo di questa nota!',
+      hear: '🔊 Ascolta',
+      nInform: 'Questa nota dà fatti veri — vuole informare.',
+      nEntertain: 'Questa nota racconta una storia divertente — vuole divertire.',
+      nInstruct: 'Questa nota mostra i passaggi — cerca «prima… poi… infine».'
     }
   };
   var LANG = 'en';
@@ -99,9 +113,12 @@
          English name to a BR kid; «Marujo» = a warm BR nautical word (a sailor), keeps «Mar-»/sea,
          fits a harbor pelican). pt-only divergence. instruction is agentless («PARA QUE ela foi
          escrita», not «por que o autor escreveu») — aligns with the «Para…» bins. */
-      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow', pt: 'O correio do porto do Marujo' },
-      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.', pt: 'Leia a nota e mande para a caixa que mostra PARA QUE ela foi escrita!' },
-      q: { en: '{q}', pt: '{q}' }
+      /* it: mascot «Marlow»→«Marino» (pedagogue-decisive — «Marlow» is opaque + the -ow grapheme
+         mis-decodes for a classe-2 it reader; «Marino» = a real Italian name AND «del mare», keeps
+         «Mar-», = the pt «Marujo» precedent). instruction is agentless (no «l'autore» apostrophe). */
+      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow', pt: 'O correio do porto do Marujo', it: 'La posta del porto di Marino' },
+      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.', pt: 'Leia a nota e mande para a caixa que mostra PARA QUE ela foi escrita!', it: 'Leggi la nota, poi mettila nella cassetta che dice PERCHÉ è stata scritta!' },
+      q: { en: '{q}', pt: '{q}', it: '{q}' }
     },
 
     init: function (api) {
@@ -268,6 +285,8 @@
         ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opciones: ' + bins + '.</p>'
         : LANG === 'pt'
         ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opções: ' + bins + '.</p>'
+        : LANG === 'it'
+        ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opzioni: ' + bins + '.</p>'
         : '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
       return wrap;
     },

@@ -3642,6 +3642,29 @@
         "distinguere le frasi in tema da quella fuori tema",
         "imparare a mantenere il focus in un testo scritto"
       ]
+    },
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "Al banco dei titoli, Marina la lontra scrive intestazioni e invita i bambini a capire di che cosa parla soprattutto un breve testo.",
+        "Si legge il testo informativo, con la lettura ad alta voce sempre a disposizione, e si sceglie la carta che nomina il tema principale, lasciando da parte i dettagli e le informazioni fuori tema.",
+        "È un’attività allineata alle Indicazioni nazionali, pensata per la classe terza, gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "riconoscere il tema principale di un testo",
+        "distinguere il tema da un dettaglio",
+        "capire di che cosa parla soprattutto un testo",
+        "leggere e comprendere un breve testo informativo"
+      ],
+      "howToPlay": [
+        "Leggi il breve testo o ascoltalo con la lettura ad alta voce 📖.",
+        "Pensa a che cosa parla soprattutto tutto il testo, non a un solo particolare.",
+        "Tocca la carta che indica il tema principale."
+      ],
+      "learningGoals": [
+        "individuare il tema principale di un breve testo informativo",
+        "distinguere il tema principale dai dettagli e dalle informazioni fuori tema",
+        "rafforzare la comprensione del testo alla lettura"
+      ]
     }
   }
 }

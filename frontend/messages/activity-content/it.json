@@ -3803,6 +3803,29 @@
         "Collegare gli eventi con relazioni di causa ed effetto.",
         "Distinguere ciò che è essenziale da ciò che non c’entra."
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "Otto il gufo ha disegnato una piccola storia illustrata in quattro scene, tutta da guardare e ascoltare.",
+        "Il bambino sente e legge una frase, poi tocca l’immagine che la mostra, imparando a collegare il testo all’illustrazione giusta.",
+        "Pensata per la classe prima e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione e senza timer né punteggio."
+      ],
+      "practices": [
+        "collegare una frase all’immagine",
+        "relazione tra testo e illustrazione",
+        "ascoltare una breve storia",
+        "comprendere una frase letta"
+      ],
+      "howToPlay": [
+        "Ascolta la breve storia di Otto il gufo.",
+        "Leggi e ascolta la frase che appare.",
+        "Tocca l’immagine che mostra quella frase."
+      ],
+      "learningGoals": [
+        "Collegare una frase all’illustrazione che la rappresenta.",
+        "Rafforzare la comprensione tra testo e immagine.",
+        "Ascoltare e capire una frase con il supporto dell’audio."
+      ]
     }
   }
 }

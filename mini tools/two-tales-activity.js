@@ -75,6 +75,19 @@
       reSame: 'Olhe de novo — leia as duas histórias. O que é IGUAL nas duas?',
       reDiff: 'Olhe de novo — leia as duas histórias. O que acontece em só UMA?',
       choices: 'Opções:'
+    },
+    /* it. gold/silver = the two moons (Luna dorata/argentata), matching the title.
+       §A.13.54: win/nudge anchored on «le due storie» (fixed); NO «Bravo/Brava».
+       apostrophe-free JS: «Luna dorata/argentata» (NOT «d'oro/d'argento»); accents à/è/ì/ò/ù + «Sì» fine. */
+    it: {
+      qSame: 'Che cosa è UGUALE nelle due storie?',
+      qDiff: 'Che cosa succede in UNA SOLA storia?',
+      win: 'Sì! {note}', winNote: 'Hai confrontato le due storie!',
+      hear: '🔊 Ascolta le due storie',
+      gold: 'Luna dorata', silver: 'Luna argentata',
+      reSame: 'Guarda di nuovo: che cosa è UGUALE nelle due storie?',
+      reDiff: 'Guarda di nuovo: che cosa succede in UNA SOLA storia?',
+      choices: 'Scelte:'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -114,9 +127,9 @@
   var TwoTalesActivity = {
     id: 'two-tales-activity',
     strings: {
-      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires', es: 'Dos lunas, dos cuentos', pt: 'Duas luas, duas histórias' },
-      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !', es: '¡Lee los dos cuentos con Barba de Musgo y compara lo que les pasó a los personajes!', pt: 'Leia as duas histórias com a Barba de Musgo e compare o que aconteceu com os personagens!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}' }
+      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires', es: 'Dos lunas, dos cuentos', pt: 'Duas luas, duas histórias', it: 'Due lune, due storie' },
+      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !', es: '¡Lee los dos cuentos con Barba de Musgo y compara lo que les pasó a los personajes!', pt: 'Leia as duas histórias com a Barba de Musgo e compare o que aconteceu com os personagens!', it: 'Leggi le due storie con Barbamuschio e confronta ciò che è successo ai personaggi!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}' }
     },
 
     init: function (api) {

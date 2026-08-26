@@ -3757,6 +3757,29 @@
         "Mettere i fatti nella giusta sequenza",
         "Comprendere le informazioni di un breve testo"
       ]
+    },
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "Con Barbamuschio la tartaruga, sotto la luna d’oro e la luna d’argento, i bambini leggono due brevi storie e le mettono a confronto con calma.",
+        "Toccano l’esperienza che si ripete uguale in tutt’e due i racconti oppure quella accaduta in una storia sola, mentre un aiuto 🔊 legge ogni parola ad alta voce.",
+        "È un’attività allineata alle Indicazioni nazionali per la classe seconda: gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "confrontare due storie",
+        "trovare ciò che è uguale in entrambe",
+        "riconoscere ciò che accade in una sola storia",
+        "comprendere le esperienze dei personaggi"
+      ],
+      "howToPlay": [
+        "Leggi o ascolta con il 🔊 tutte e due le storie sotto le due lune.",
+        "Pensa a che cosa è uguale in entrambe o a che cosa succede in una storia sola.",
+        "Tocca la carta dell’esperienza giusta."
+      ],
+      "learningGoals": [
+        "Confrontare le esperienze dei personaggi in due testi diversi.",
+        "Distinguere ciò che è uguale da ciò che è diverso tra due storie.",
+        "Rafforzare la comprensione dei testi narrativi con calma e senza fretta."
+      ]
     }
   }
 }

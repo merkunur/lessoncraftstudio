@@ -3734,6 +3734,29 @@
         "sostenere un’affermazione con la prova del testo",
         "distinguere una prova da un dettaglio irrilevante"
       ]
+    },
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Con Lia la lucertola i fatti si uniscono come una catena: si legge un fatto e si tocca quello che gli si collega davvero.",
+        "A volte è ciò che succede subito dopo, a volte è ciò che quel fatto provoca, così i bambini scoprono la sequenza e il legame di causa ed effetto in un breve testo informativo, con la lettura ad alta voce 🔗 che accompagna ogni passo.",
+        "L’attività è pensata per la classe seconda ed è allineata alle Indicazioni nazionali: è gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "collegare due fatti",
+        "riconoscere causa ed effetto",
+        "capire la sequenza dei fatti",
+        "comprendere un breve testo informativo"
+      ],
+      "howToPlay": [
+        "Leggi o ascolta il primo fatto 🔗.",
+        "Pensa a ciò che succede dopo o a ciò che quel fatto provoca.",
+        "Tocca il fatto che si collega."
+      ],
+      "learningGoals": [
+        "Riconoscere il legame di causa ed effetto tra i fatti",
+        "Mettere i fatti nella giusta sequenza",
+        "Comprendere le informazioni di un breve testo"
+      ]
     }
   }
 }

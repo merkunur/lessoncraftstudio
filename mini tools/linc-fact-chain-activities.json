@@ -540,6 +540,112 @@
               "O sorvete está bem gelado."
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "seed",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Prima pianti un seme.",
+            "question": "Che cosa succede DOPO?",
+            "answer": "Nasce una pianta.",
+            "options": [
+              "Nasce una pianta.",
+              "Il cane abbaia.",
+              "La torta è pronta."
+            ]
+          },
+          {
+            "id": "egg",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Prima un uccello depone un uovo.",
+            "question": "Che cosa succede DOPO?",
+            "answer": "Nasce un pulcino.",
+            "options": [
+              "La neve è fredda.",
+              "Nasce un pulcino.",
+              "Il pesce nuota via."
+            ]
+          },
+          {
+            "id": "wash",
+            "band": 1,
+            "mode": "sequence",
+            "stem": "Prima ti lavi le mani.",
+            "question": "Che cosa succede DOPO?",
+            "answer": "Le mani sono pulite.",
+            "options": [
+              "La porta è aperta.",
+              "Il gatto fa le fusa.",
+              "Le mani sono pulite."
+            ]
+          },
+          {
+            "id": "sleepy",
+            "band": 2,
+            "mode": "sequence",
+            "stem": "Prima ti senti stanco.",
+            "question": "Che cosa succede DOPO?",
+            "answer": "Vai a letto a dormire.",
+            "options": [
+              "Vai a letto a dormire.",
+              "La palla è rotonda.",
+              "Il cielo diventa scuro."
+            ]
+          },
+          {
+            "id": "sun",
+            "band": 2,
+            "mode": "cause",
+            "stem": "Il sole caldo splende sulla neve.",
+            "question": "Quindi, che cosa succede?",
+            "answer": "La neve si scioglie.",
+            "options": [
+              "Il gatto dorme.",
+              "La neve si scioglie.",
+              "Le foglie sono verdi."
+            ]
+          },
+          {
+            "id": "rain",
+            "band": 2,
+            "mode": "cause",
+            "stem": "Piove sull’erba secca.",
+            "question": "Quindi, che cosa succede?",
+            "answer": "L’erba diventa verde.",
+            "options": [
+              "La stella brilla su.",
+              "Il cane scava una buca.",
+              "L’erba diventa verde."
+            ]
+          },
+          {
+            "id": "swing",
+            "band": 3,
+            "mode": "cause",
+            "stem": "Spingi forte l’altalena.",
+            "question": "Quindi, che cosa succede?",
+            "answer": "L’altalena va in alto.",
+            "options": [
+              "L’altalena va in alto.",
+              "Il pane è nel forno.",
+              "Le api volano nel prato."
+            ]
+          },
+          {
+            "id": "freeze",
+            "band": 3,
+            "mode": "cause",
+            "stem": "Metti il succo nel congelatore.",
+            "question": "Quindi, che cosa succede?",
+            "answer": "Il succo diventa ghiaccio.",
+            "options": [
+              "La bici ha due ruote.",
+              "Il succo diventa ghiaccio.",
+              "Il cane corre nel giardino."
+            ]
+          }
         ]
       }
     },
@@ -549,21 +655,24 @@
       "de": "ursache-und-wirkung-reihenfolge-sachtexte-verstehen-klasse-2",
       "fr": "relier-deux-faits-cause-et-consequence-ce1",
       "es": "causa-y-efecto-secuencia-de-hechos-comprension-lectora-segundo-grado",
-      "pt": "corrente-de-fatos-sequencia-e-causa-e-efeito"
+      "pt": "corrente-de-fatos-sequencia-e-causa-e-efeito",
+      "it": "causa-ed-effetto-sequenza-di-fatti-comprensione-testi-classe-seconda"
     },
     "page_title": {
       "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)",
       "de": "Lesetexte Klasse 2 – Sachtexte online lesen und verstehen",
       "fr": "Lecture compréhension CE1 – relier les faits en ligne",
       "es": "Causa y efecto y secuencia de hechos · 2.º grado",
-      "pt": "A corrente de fatos do Elo — sequência e causa e efeito"
+      "pt": "A corrente de fatos do Elo — sequência e causa e efeito",
+      "it": "Causa ed effetto e sequenza: collega i fatti · Classe seconda"
     },
     "page_intro": {
       "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.",
       "de": "Lesetexte für Klasse 2: Sachtexte lesen, Reihenfolge und Ursache-Wirkung verstehen. Kostenlos online üben, ohne Anmeldung – Leseverständnis stärken.",
       "fr": "Lecture et compréhension au CE1 : relier deux faits d'un texte documentaire avec Linc. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis: el niño lee un hecho y toca el que se relaciona por secuencia (qué pasa después) o causa y efecto. Para 2.º grado.",
-      "pt": "Entre na corrente de fatos do lagarto Elo! A criança lê um primeiro fato e toca no fato que se conecta a ele — o que acontece depois (sequência) ou o que uma coisa faz acontecer (causa e efeito). É uma forma divertida de aprender a relacionar ideias e entender textos informativos. Grátis, sem cadastro, no ritmo da criança, com um botão 🔊 para ouvir cada fato. Alinhado à BNCC, nos primeiros anos."
+      "pt": "Entre na corrente de fatos do lagarto Elo! A criança lê um primeiro fato e toca no fato que se conecta a ele — o que acontece depois (sequência) ou o que uma coisa faz acontecer (causa e efeito). É uma forma divertida de aprender a relacionar ideias e entender textos informativos. Grátis, sem cadastro, no ritmo da criança, com um botão 🔊 para ouvir cada fato. Alinhado à BNCC, nos primeiros anos.",
+      "it": "Con Lia la lucertola i bambini leggono un fatto e toccano quello che si collega: ciò che succede dopo o ciò che quel fatto provoca. Un’attività di lettura per esercitare causa ed effetto e la sequenza in un breve testo informativo, con l’aiuto della lettura ad alta voce 🔗. Gratis, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }

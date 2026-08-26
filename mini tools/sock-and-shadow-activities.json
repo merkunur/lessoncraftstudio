@@ -206,21 +206,24 @@
       "de": "genau-beschreiben-uebung",
       "fr": "decrire-precisement-pour-se-faire-comprendre-cp",
       "es": "describir-con-claridad-para-que-te-entiendan-primer-grado",
-      "pt": "falar-com-clareza-para-a-sombra"
+      "pt": "falar-com-clareza-para-a-sombra",
+      "it": "descrivere-con-precisione-per-farsi-capire-classe-prima"
     },
     "page_title": {
       "en": "Sock & Shadow — Say It So a Listener Understands (Kindergarten)",
       "de": "Socke & Schatten – genau beschreiben (Klasse 1)",
       "fr": "Chaussette et Ombre : décrire pour se faire comprendre (CP)",
       "es": "Describir con claridad para que te entiendan – 1.º grado",
-      "pt": "Falar com clareza: descreva para alguém entender (1º ano)"
+      "pt": "Falar com clareza: descreva para alguém entender (1º ano)",
+      "it": "Descrivere con precisione per farsi capire — classe prima"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten speaking game for clear expression: be Sock's voice and tell Shadow — who is behind the curtain and can't see — exactly which lost object to fetch. Say just enough: too vague and Shadow holds two cups; too many words and Shadow forgets half. Choosing the right words so a listener understands is the heart of Common Core SL.K.6. (Speaking aloud is practiced with a grown-up.)",
       "de": "„Sprechen und Zuhören“ zum Anfassen: Bei Socke & Schatten beschreibst du der Puppe hinterm Vorhang ein Spielzeug so genau, dass sie das richtige findet – dein Kind lernt, treffende Wörter zu wählen und an den Zuhörer zu denken. Kostenlos, ohne Zeitdruck, ohne Punkte, und alles wird vorgelesen.",
       "fr": "Un jeu de langage oral CP, gratuit et interactif : sois la voix de Chaussette et dis à Ombre — qui est derrière le rideau et ne voit rien — exactement quel objet perdu aller chercher. Dis juste ce qu'il faut : trop vague, Ombre tient deux tasses ; trop de mots, Ombre en oublie la moitié. Choisir les bons mots pour se faire comprendre, c'est tout doux et malin.",
       "es": "Actividad interactiva y gratis: los niños describen un objeto con claridad —color, tamaño y lugar— para que Sombra sepa cuál es. Expresión oral ideal para 1.º grado.",
-      "pt": "Nesta atividade falada, a Meia descreve um objeto para a Sombra, que está atrás da cortina e não pode ver — só ouve. A criança escolhe as palavras certas (cor, tamanho, lugar) para que a Sombra entenda e pegue o objeto certo. Uma brincadeira de oralidade alinhada à BNCC, para treinar descrever com clareza e se fazer entender."
+      "pt": "Nesta atividade falada, a Meia descreve um objeto para a Sombra, que está atrás da cortina e não pode ver — só ouve. A criança escolhe as palavras certas (cor, tamanho, lugar) para que a Sombra entenda e pegue o objeto certo. Uma brincadeira de oralidade alinhada à BNCC, para treinar descrever com clareza e se fazer entender.",
+      "it": "Due burattini aspettano il tuo aiuto: uno vede il vassoio, Ombra no. Il bambino descrive un oggetto — colore, grandezza o posto — così Ombra prende quello giusto, dicendo solo ciò che serve, senza essere vago né usare troppe parole. C’è il 🔊 per ascoltare il burattino. Gratis, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "puppet-speak"
   }

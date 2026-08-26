@@ -3849,6 +3849,29 @@
         "Riconoscere e usare nel, del, al, dallo, nella e le altre forme.",
         "Rafforzare la sicurezza con la lingua scritta in classe terza."
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Aiuta il burattino a descrivere un oggetto così bene che l’amico capisce subito qual è, senza nemmeno guardarlo.",
+        "Il bambino sceglie il colore, la grandezza o il posto giusto e dice solo quello che serve, così Ombra prende proprio l’oggetto giusto.",
+        "È un’attività di lingua orale allineata alle Indicazioni nazionali per la classe prima, gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "descrivere con precisione",
+        "farsi capire dall’ascoltatore",
+        "scegliere le parole giuste",
+        "dire solo ciò che serve"
+      ],
+      "howToPlay": [
+        "Scegli che cos’è l’oggetto.",
+        "Aggiungi il colore, la grandezza o il posto che lo rende chiaro.",
+        "Dillo a Ombra e guarda se prende quello giusto."
+      ],
+      "learningGoals": [
+        "Descrivere un oggetto in modo chiaro e preciso.",
+        "Parlare pensando a chi ascolta.",
+        "Usare le parole giuste, senza essere vaghi né dire troppo."
+      ]
     }
   }
 }

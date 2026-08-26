@@ -3688,6 +3688,29 @@
         "Sviluppare la prima comprensione del testo narrativo.",
         "Rafforzare la lettura autonoma con il supporto dell’ascolto."
       ]
+    },
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "Nella pagina delle opinioni di Perla la foca, il bambino legge un’opinione e sceglie la carta che offre un motivo capace di sostenerla, imparando a distinguere un buon motivo da una semplice ripetizione dell’idea o da un fatto fuori tema.",
+        "Un motivo forte spiega perché l’opinione ha senso, e toccare la carta giusta aiuta a capire come le idee si tengono insieme in un breve testo argomentativo.",
+        "L’attività è pensata per la classe terza ed è allineata alle Indicazioni nazionali: è gratuita, senza registrazione e senza timer o punteggi."
+      ],
+      "practices": [
+        "riconoscere il motivo che sostiene un’opinione",
+        "distinguere un motivo da una ripetizione dell’idea",
+        "capire come un motivo sostiene un’idea",
+        "leggere e comprendere una breve opinione"
+      ],
+      "howToPlay": [
+        "Leggi l’opinione di Perla, oppure ascoltala con il 🔊.",
+        "Pensa a quale carta offre un motivo che la sostiene davvero.",
+        "Tocca la carta con il motivo giusto."
+      ],
+      "learningGoals": [
+        "capire che un’opinione ha bisogno di motivi che la sostengono",
+        "scegliere il motivo pertinente ed evitare ripetizioni o fatti fuori tema",
+        "muovere i primi passi nella comprensione di un testo argomentativo"
+      ]
     }
   }
 }

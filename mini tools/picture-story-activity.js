@@ -48,6 +48,15 @@
       win: 'Isso! {note}', winNote: 'Você se lembrou da história!',
       nudge: 'Olhe os desenhos de novo — a resposta está na história.',
       hear: '🔊 Ouvir a história'
+    },
+    /* it: character «Fabio, la volpe» — the EN «Fable»/«favola» pun is DELIBERATELY dropped:
+       «favola» is a specific Italian genre (animal tale + morale) these 3 non-moral stories are
+       NOT. «volpe» is grammatically feminine but carries NO slur (unlike es «la zorra»), so
+       «Fabio, la volpe» is safe — parallel to pt «Fábio, a raposa». «storia» = kid-register tale. */
+    it: {
+      win: 'Sì! {note}', winNote: 'Hai ricordato la storia!',
+      nudge: 'Guarda di nuovo le immagini — la risposta è nella storia.',
+      hear: '🔊 Ascolta la storia'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -99,9 +108,9 @@
          The `instruction` carries «el zorro» explicitly, which makes the masculinity visible. */
       /* pt: character «Fábio, a raposa» — male name + the natural feminine noun raposa (unlike es,
          «raposa» is NOT a slur in pt; «o raposo» reads bookish). «historinha» is BR-fine. */
-      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio', pt: 'As histórias do Fábio' },
-      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!', pt: 'Leia a historinha com o Fábio, a raposa, e depois responda!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}' }
+      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio', pt: 'As histórias do Fábio', it: 'Le storie di Fabio' },
+      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!', pt: 'Leia a historinha com o Fábio, a raposa, e depois responda!', it: 'Leggi la storia con Fabio la volpe, poi rispondi!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}' }
     },
 
     init: function (api) {
@@ -270,6 +279,8 @@
         ? '<p>Histoire : ' + caps + ' Question : ' + r.prompt + ' Choix : ' + this._choiceOrder.join('; ') + '.</p>'
         : LANG === 'pt'
         ? '<p>História: ' + caps + ' Pergunta: ' + r.prompt + ' Opções: ' + this._choiceOrder.join('; ') + '.</p>'
+        : LANG === 'it'
+        ? '<p>Storia: ' + caps + ' Domanda: ' + r.prompt + ' Scelte: ' + this._choiceOrder.join('; ') + '.</p>'
         : '<p>Story: ' + caps + ' Question: ' + r.prompt + ' Choices: ' + this._choiceOrder.join('; ') + '.</p>';
       return wrap;
     },

@@ -3458,6 +3458,29 @@
         "Riconoscere i tipi di testo",
         "Leggere per capire il genere"
       ]
+    },
+    "picture-story.read.rl-k-1": {
+      "about": [
+        "Fabio la volpe adora raccontare storie: apre il suo taccuino, mostra tre piccole scene disegnate e invita i bambini a scoprire che cosa succede.",
+        "Questa attività aiuta a leggere e capire una breve storia illustrata, a rispondere a domande sui dettagli — chi, che cosa, dove e perché — e a ricordare l’ordine dei fatti.",
+        "Pensata per la classe prima e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "Capire una breve storia illustrata",
+        "Rispondere a domande sui dettagli",
+        "Ricordare l’ordine dei fatti",
+        "Leggere con attenzione"
+      ],
+      "howToPlay": [
+        "Leggi la storia illustrata di Fabio",
+        "Pensa alla domanda",
+        "Tocca la risposta giusta"
+      ],
+      "learningGoals": [
+        "Capire una storia",
+        "Rispondere a domande sui dettagli",
+        "Ricordare che cosa succede"
+      ]
     }
   }
 }

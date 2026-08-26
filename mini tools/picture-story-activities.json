@@ -540,6 +540,85 @@
               }
             ]
           }
+        },
+        "it": {
+          "mitten": {
+            "title": "Il guanto perduto",
+            "panels": [
+              {
+                "caption": "Bo il coniglio saltellò nella neve.",
+                "glyphs": [
+                  "bunny",
+                  "snow"
+                ]
+              },
+              {
+                "caption": "Un guanto rosso cadde vicino all’albero.",
+                "glyphs": [
+                  "tree",
+                  "mitten"
+                ]
+              },
+              {
+                "caption": "Un uccellino lo trovò e chiamò Bo.",
+                "glyphs": [
+                  "bird",
+                  "mitten"
+                ]
+              }
+            ]
+          },
+          "carrot": {
+            "title": "La carota incastrata",
+            "panels": [
+              {
+                "caption": "Millie la topolina trovò una carota gigante.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "Tirò la carota ancora e ancora, ma era incastrata.",
+                "glyphs": [
+                  "mouse",
+                  "carrot"
+                ]
+              },
+              {
+                "caption": "La sua amica arrivò ad aiutare e, zac!, la carota venne fuori.",
+                "glyphs": [
+                  "friend",
+                  "carrot"
+                ]
+              }
+            ]
+          },
+          "picnic": {
+            "title": "Il picnic sotto la pioggia",
+            "panels": [
+              {
+                "caption": "Due amici si sedettero per un picnic.",
+                "glyphs": [
+                  "friend",
+                  "basket"
+                ]
+              },
+              {
+                "caption": "Poi arrivarono nuvole grigie e piovve.",
+                "glyphs": [
+                  "rain"
+                ]
+              },
+              {
+                "caption": "Mangiarono sotto un grande ombrello, molto contenti.",
+                "glyphs": [
+                  "umbrella",
+                  "friend"
+                ]
+              }
+            ]
+          }
         }
       },
       "roundsL10n": {
@@ -1078,6 +1157,140 @@
               "bravos"
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "ps-mit-who",
+            "storyId": "mitten",
+            "qtype": "who",
+            "prompt": "Chi saltellò nella neve?",
+            "answer": "Bo il coniglio",
+            "options": [
+              "Bo il coniglio",
+              "un orso addormentato",
+              "una rana verde"
+            ]
+          },
+          {
+            "id": "ps-mit-what",
+            "storyId": "mitten",
+            "qtype": "what",
+            "prompt": "Che cosa cadde nella neve?",
+            "answer": "un guanto rosso",
+            "options": [
+              "un guanto rosso",
+              "un cappello azzurro",
+              "una sciarpa di lana"
+            ]
+          },
+          {
+            "id": "ps-mit-where",
+            "storyId": "mitten",
+            "qtype": "where",
+            "prompt": "Dove cadde il guanto?",
+            "answer": "vicino all’albero",
+            "options": [
+              "vicino all’albero",
+              "vicino a una pozzanghera",
+              "su una collina"
+            ]
+          },
+          {
+            "id": "ps-mit-order",
+            "storyId": "mitten",
+            "qtype": "order",
+            "prompt": "Che cosa successe PRIMA?",
+            "answer": "Bo saltellò nella neve",
+            "options": [
+              "Bo saltellò nella neve",
+              "Un uccellino trovò il guanto",
+              "Il guanto cadde"
+            ]
+          },
+          {
+            "id": "ps-car-who",
+            "storyId": "carrot",
+            "qtype": "who",
+            "prompt": "Chi trovò la carota?",
+            "answer": "Millie la topolina",
+            "options": [
+              "Millie la topolina",
+              "Bo il coniglio",
+              "un grande corvo"
+            ]
+          },
+          {
+            "id": "ps-car-what",
+            "storyId": "carrot",
+            "qtype": "what",
+            "prompt": "Che cosa trovò Millie?",
+            "answer": "una carota gigante",
+            "options": [
+              "una carota gigante",
+              "una pietra lucente",
+              "una chiave perduta"
+            ]
+          },
+          {
+            "id": "ps-car-why",
+            "storyId": "carrot",
+            "qtype": "why",
+            "prompt": "Perché Millie non riuscì a tirare fuori la carota?",
+            "answer": "era incastrata",
+            "options": [
+              "era incastrata",
+              "era troppo piccola",
+              "rotolò troppo lontano"
+            ]
+          },
+          {
+            "id": "ps-car-order",
+            "storyId": "carrot",
+            "qtype": "order",
+            "prompt": "Che cosa successe ALLA FINE?",
+            "answer": "la carota venne fuori",
+            "options": [
+              "la carota venne fuori",
+              "Millie trovò la carota",
+              "Millie tirò la carota"
+            ]
+          },
+          {
+            "id": "ps-pic-what",
+            "storyId": "picnic",
+            "qtype": "what",
+            "prompt": "Che cosa facevano i due amici?",
+            "answer": "un picnic",
+            "options": [
+              "un picnic",
+              "una partita a palla",
+              "un pisolino corto"
+            ]
+          },
+          {
+            "id": "ps-pic-why",
+            "storyId": "picnic",
+            "qtype": "why",
+            "prompt": "Perché gli amici si misero sotto l’ombrello?",
+            "answer": "perché piovve",
+            "options": [
+              "perché piovve",
+              "perché c’era vento",
+              "perché avevano sonno"
+            ]
+          },
+          {
+            "id": "ps-pic-feel",
+            "storyId": "picnic",
+            "qtype": "feeling",
+            "prompt": "Come si sentivano gli amici alla fine?",
+            "answer": "contenti",
+            "options": [
+              "contenti",
+              "spaventati",
+              "arrabbiati"
+            ]
+          }
         ]
       }
     },
@@ -1086,21 +1299,24 @@
       "de": "leseverstaendnis-geschichte-fragen-beantworten-klasse-1",
       "fr": "lire-une-histoire-et-repondre-aux-questions",
       "es": "cuentos-cortos-con-preguntas-primer-grado",
-      "pt": "leia-a-historia-e-responda-1-ano"
+      "pt": "leia-a-historia-e-responda-1-ano",
+      "it": "storia-illustrata-comprensione-del-testo-classe-prima"
     },
     "page_title": {
       "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
       "de": "Lesetexte Klasse 1 – Geschichte online lesen und verstehen",
       "fr": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)",
       "es": "Cuentos cortos con preguntas en línea para primer grado",
-      "pt": "Leia a história e responda · Compreensão de leitura · 1º ano"
+      "pt": "Leia a história e responda · Compreensão de leitura · 1º ano",
+      "it": "Comprensione del testo: storia illustrata per la classe prima"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
       "de": "Lesetexte für Klasse 1: eine kurze Geschichte lesen und Fragen zum Text beantworten. Kostenlos online, ohne Anmeldung – Leseverständnis üben.",
       "fr": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription.",
       "es": "Cuento corto en imágenes: el niño lee, escucha y responde preguntas sobre quién, qué, dónde y por qué. Actividad de primer grado, gratis y en línea, sin registro.",
-      "pt": "Com o Fábio, a raposinha, a criança lê uma historinha em 3 quadrinhos e responde perguntas sobre os detalhes — quem, o quê, onde, a ordem e o porquê. Uma atividade de leitura e compreensão, com apoio do 🔊. Grátis, sem cadastro. BNCC, 1º ano."
+      "pt": "Com o Fábio, a raposinha, a criança lê uma historinha em 3 quadrinhos e responde perguntas sobre os detalhes — quem, o quê, onde, a ordem e o porquê. Uma atividade de leitura e compreensão, com apoio do 🔊. Grátis, sem cadastro. BNCC, 1º ano.",
+      "it": "Con Fabio la volpe i bambini leggono una breve storia illustrata in tre scene e rispondono a una domanda su un dettaglio importante — chi, che cosa, dove o perché — in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
     },
     "kid_prompt_template": "picture-story"
   }

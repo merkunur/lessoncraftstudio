@@ -1060,6 +1060,216 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "tortoise",
+            "band": 1,
+            "story": [
+              "La lepre veloce rideva della tartaruga lenta.",
+              "Fecero una gara e, sicura di vincere, la lepre si fermò a dormire.",
+              "La tartaruga andò avanti senza mai fermarsi e vinse."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Chi va piano va sano e va lontano."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "La lepre si è fermata a dormire durante la gara."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Il più veloce vince sempre."
+              }
+            ]
+          },
+          {
+            "id": "ant",
+            "band": 1,
+            "story": [
+              "Tutta l’estate la cicala cantò, mentre la formica metteva da parte il cibo.",
+              "Arrivò l’inverno freddo e la cicala non aveva nulla da mangiare.",
+              "La formica, che si era preparata per tempo, stava al calduccio."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "La cicala ha cantato per tutta l’estate."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "L’estate serve solo per riposare."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Chi si prepara per tempo, non soffre poi."
+              }
+            ]
+          },
+          {
+            "id": "lion",
+            "band": 1,
+            "story": [
+              "Un topolino svegliò un leone, che però lo lasciò andare.",
+              "Più tardi il leone restò preso in una rete.",
+              "Il topolino rosicchiò le corde e lo liberò."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Il leone è rimasto preso in una rete."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "Anche un amico piccolo può essere di grande aiuto."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Non svegliare mai un leone che dorme."
+              }
+            ]
+          },
+          {
+            "id": "crow",
+            "band": 2,
+            "story": [
+              "Un corvo assetato trovò una brocca con poca acqua sul fondo.",
+              "Non riusciva a bere, così lasciò cadere dentro tanti sassolini.",
+              "L’acqua salì piano piano e il corvo poté bere."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Una buona idea può risolvere un problema difficile."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Il corvo ha lasciato cadere i sassolini nella brocca."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Quando fa caldo, porta sempre con te dell’acqua."
+              }
+            ]
+          },
+          {
+            "id": "wolf",
+            "band": 2,
+            "story": [
+              "Un pastorello gridava «Al lupo!» per gioco, e la gente accorreva per niente.",
+              "Lo fece tante volte, e tutti si stancarono di credergli.",
+              "Quando il lupo arrivò davvero, nessuno andò ad aiutarlo."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Il pastorello ha gridato «Al lupo!» per gioco."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "I lupi sono grandi e fanno paura."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Chi mente perde la fiducia degli altri."
+              }
+            ]
+          },
+          {
+            "id": "wind",
+            "band": 2,
+            "story": [
+              "Il vento e il sole facevano a gara a chi fosse più forte.",
+              "Il vento soffiò con tutta la sua forza, ma il viaggiatore si strinse nel mantello.",
+              "Poi il sole scaldò dolcemente e l’uomo si tolse il mantello."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Il vento ha soffiato con tutta la sua forza."
+              },
+              {
+                "id": "o2",
+                "kind": "moral",
+                "text": "La dolcezza ottiene più della forza."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Il sole è più caldo del vento."
+              }
+            ]
+          },
+          {
+            "id": "goose",
+            "band": 3,
+            "story": [
+              "Un contadino aveva una gallina che ogni giorno faceva un uovo d’oro.",
+              "Voleva tutto l’oro subito, così aprì la gallina.",
+              "Dentro non c’era niente, e così perse ogni cosa."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "moral",
+                "text": "Chi troppo vuole, nulla stringe."
+              },
+              {
+                "id": "o2",
+                "kind": "detail",
+                "text": "Il contadino voleva tutto l’oro in una volta sola."
+              },
+              {
+                "id": "o3",
+                "kind": "wrongmoral",
+                "text": "Le galline sono fatte d’oro."
+              }
+            ]
+          },
+          {
+            "id": "bear",
+            "band": 3,
+            "story": [
+              "Due amici camminavano nel bosco quando comparve un orso.",
+              "Uno salì di corsa su un albero, l’altro si finse morto per terra.",
+              "L’orso se ne andò, e chi era fuggito capì chi è il vero amico."
+            ],
+            "options": [
+              {
+                "id": "o1",
+                "kind": "detail",
+                "text": "Un amico è salito sull’albero per mettersi in salvo."
+              },
+              {
+                "id": "o2",
+                "kind": "wrongmoral",
+                "text": "Gli orsi si spaventano facilmente."
+              },
+              {
+                "id": "o3",
+                "kind": "moral",
+                "text": "Nel bisogno si conosce l’amico."
+              }
+            ]
+          }
         ]
       }
     },
@@ -1069,21 +1279,24 @@
       "de": "die-lehre-einer-fabel-erkennen-klasse-3",
       "fr": "la-morale-d-une-fable-ce1",
       "es": "identificar-la-moraleja-de-una-fabula-tercer-grado",
-      "pt": "moral-da-fabula-licao-da-historia-3-ano"
+      "pt": "moral-da-fabula-licao-da-historia-3-ano",
+      "it": "la-morale-della-favola-lezione-della-storia-classe-terza"
     },
     "page_title": {
       "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)",
       "de": "Die Lehre einer Fabel erkennen – Klasse 3",
       "fr": "La lanterne de Juniper — La morale d'une fable (CE1)",
       "es": "Identificar la moraleja de una fábula – 3.º primaria",
-      "pt": "A moral da fábula: qual é a lição? · 3º ano"
+      "pt": "A moral da fábula: qual é a lição? · 3º ano",
+      "it": "La morale della favola: la lezione della storia — Classe terza"
     },
     "page_intro": {
       "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.",
       "de": "Dein Kind hört eine kurze Fabel – etwa von Hase und Schildkröte – und tippt bei Junipers Laterne die Karte mit der echten Lehre. Kostenlos und interaktiv, Klasse 3.",
       "fr": "À la lueur de sa lanterne, Juniper le hérisson raconte une petite fable, puis demande à votre enfant d'en trouver la morale : la vraie leçon de l'histoire, et non un simple détail. En jouant, votre enfant apprend à comprendre le sens d'un récit et à distinguer le message d'une fable d'une phrase qui « sonne bien » mais reste fausse. Gratuit et interactif, à jouer directement dans le navigateur, sans minuteur, sans score et sans compte.",
       "es": "Actividad gratis en línea de 3.º de primaria: lee una fábula corta, como la liebre y la tortuga, y toca cuál es su moraleja. Sin registro ni calificación.",
-      "pt": "Com a Fagulha, uma ouriça contadora de histórias, a criança lê fábulas clássicas à luz do lampião e descobre a moral de cada uma — a lição por trás da história. Uma atividade de compreensão de leitura que estimula a pensar além do texto. Grátis, sem cadastro. BNCC, 3º ano."
+      "pt": "Com a Fagulha, uma ouriça contadora de histórias, a criança lê fábulas clássicas à luz do lampião e descobre a moral de cada uma — a lição por trás da história. Uma atividade de compreensão de leitura que estimula a pensar além do texto. Grátis, sem cadastro. BNCC, 3º ano.",
+      "it": "Alla luce della lanterna, il riccio Ginepro racconta una breve favola classica — come la lepre e la tartaruga o la cicala e la formica — e invita il bambino a scoprirne la morale, cioè la piccola lezione nascosta dietro la storia: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza."
     },
     "kid_prompt_template": "juniper-story-lantern"
   }

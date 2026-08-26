@@ -3527,6 +3527,29 @@
         "Distinguere fatti, storie e istruzioni",
         "Leggere con più attenzione"
       ]
+    },
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Quando la lanterna si accende, il riccio Ginepro apre il suo libro e racconta a bassa voce una favola di un tempo, popolata di animali furbi e lenti, di formiche laboriose e cicale spensierate.",
+        "Ogni favola nasconde una morale — una piccola lezione che va oltre la storia — e il bambino impara a riconoscerla, distinguendola da un semplice dettaglio del racconto e da una frase che «suona bene» ma non c’entra davvero: cogliere la morale è vera comprensione del testo.",
+        "Pensata per la classe terza e ispirata alle Indicazioni nazionali, è completamente gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "riconoscere la morale di una favola",
+        "distinguere la morale da un dettaglio della storia",
+        "cogliere il messaggio di un racconto",
+        "leggere e capire un testo narrativo"
+      ],
+      "howToPlay": [
+        "Ascolta o leggi la breve favola.",
+        "Pensa a quale sia la sua morale.",
+        "Tocca la carta con la morale giusta."
+      ],
+      "learningGoals": [
+        "Capire la morale di una favola.",
+        "Distinguere il messaggio dai dettagli della storia.",
+        "Ridire il senso di una storia con parole proprie."
+      ]
     }
   }
 }

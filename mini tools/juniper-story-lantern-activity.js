@@ -24,7 +24,7 @@
        fable aloud in an English voice. Matches the es-shipped siblings
        (atlas-fact-files :23, bea-two-bookshelves :20, booker-glossary-desk :24). */
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -34,7 +34,7 @@
       : '<circle cx="43" cy="48" r="2.6" fill="#2A2A35"/><circle cx="57" cy="48" r="2.6" fill="#2A2A35"/>';
     var spikes = '';
     for (var i = 0; i < 9; i++) { var ang = Math.PI * (0.08 + 0.84 * (i / 8)); var cx = 50 - Math.cos(ang) * 30, cy = 52 - Math.sin(ang) * 30; var tx = 50 - Math.cos(ang) * 44, ty = 52 - Math.sin(ang) * 44; spikes += '<line x1="' + cx.toFixed(1) + '" y1="' + cy.toFixed(1) + '" x2="' + tx.toFixed(1) + '" y2="' + ty.toFixed(1) + '" stroke="#8A6D4B" stroke-width="3" stroke-linecap="round"/>'; }
-    return '<svg class="jsl-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Juniper le hérisson' : LANG === 'de' ? 'Juniper, der Igel' : LANG === 'es' ? 'Juniper, el erizo' : LANG === 'pt' ? 'Fagulha, o ouriço' : 'Juniper the hedgehog') + '">' + spikes +
+    return '<svg class="jsl-hog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Juniper le hérisson' : LANG === 'de' ? 'Juniper, der Igel' : LANG === 'es' ? 'Juniper, el erizo' : LANG === 'pt' ? 'Fagulha, o ouriço' : LANG === 'it' ? 'Ginepro il riccio' : 'Juniper the hedgehog') + '">' + spikes +
       '<ellipse cx="50" cy="54" rx="30" ry="26" fill="#C9A877"/>' +
       '<ellipse cx="62" cy="56" rx="16" ry="14" fill="#F0DEC2"/>' +   /* face */
       eyes + '<circle cx="70" cy="56" r="2.4" fill="#2A2A35"/>' +     /* nose */
@@ -57,15 +57,20 @@
          «Fagulha» = little spark, evokes the story-lantern's flame, distinct from #83's hedgehog «Espinho»).
          pt-only divergence. In-UI lesson noun = «lição» (BR-natural; "moral" reserved for slug/SEO).
          §A.13.54: win/hintWrong anchor on the fixed fem «a lição»/«a fábula». «lampião» = cozy hand-lantern. */
-      title: { en: "Juniper's Story Lantern", de: 'Junipers Geschichten-Laterne', fr: 'La lanterne à histoires de Juniper', es: 'El farolito de Juniper', pt: 'O lampião de Fagulha' },
-      prompt: { en: 'What does this story teach us?', de: 'Was lehrt uns diese Fabel?', fr: 'Quelle est la morale de cette histoire ?', es: '¿Qué nos enseña esta fábula?', pt: 'O que esta fábula nos ensina?' },
-      juniperIntro: { en: 'Here is a little tale. What does it teach us?', de: 'Hier ist eine kleine Fabel. Was lehrt sie uns?', fr: 'Voici une petite fable. Que nous apprend-elle ?', es: 'Aquí va una fábula chiquita. ¿Qué nos enseña?', pt: 'Aqui vai uma fábula bem curtinha. O que ela ensina?' },
-      readStory: { en: '📖 Read the story', de: '📖 Fabel lesen', fr: '📖 Lire l’histoire', es: '📖 Leer la fábula', pt: '📖 Ler a fábula' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal lesen', fr: '📖 Relire l’histoire', es: '📖 Leer otra vez', pt: '📖 Ler de novo' },
-      theAsk: { en: 'What is the lesson?', de: 'Was ist die Lehre?', fr: 'Quelle est la morale ?', es: '¿Cuál es la moraleja?', pt: 'Qual é a lição?' },
-      hintPick: { en: 'Tap the lesson the story teaches!', de: 'Tippe auf die Lehre, die die Fabel uns zeigt!', fr: 'Tape la morale que l’histoire nous apprend !', es: '¡Toca la moraleja que nos enseña la fábula!', pt: 'Toque na lição que a fábula nos ensina!' },
-      hintWrong: { en: "That's not the lesson — listen to the tale again.", de: 'Das ist nicht die Lehre – hör dir die Fabel noch einmal an.', fr: 'Ce n’est pas la morale — réécoute bien l’histoire.', es: 'Esa no es la moraleja. Escucha otra vez la fábula.', pt: 'Essa não é a lição — ouça a fábula de novo.' },
-      win: { en: 'Yes! That is the lesson of the tale. 🏮', de: 'Ja! Das ist die Lehre der Fabel. 🏮', fr: 'Oui ! C’est bien la morale de la fable. 🏮', es: '¡Sí! Esa es la moraleja de la fábula. 🏮', pt: 'Isso! Essa é a lição da fábula. 🏮' }
+      /* it: character «Juniper»→«Ginepro» (pedagogue-decisive — «Juniper» opaque; «Ginepro» = the
+         literal it for the juniper shrub, keeps the de/fr/es botanical link, masc → pairs with «il
+         riccio», consonant-initial → «di Ginepro» never elides, ≠ «Spino» #83). Lesson noun = «la
+         morale» (FEM; «il morale» = mood, never used). §A.13.54: win/hintWrong anchor on the fixed
+         fem «la favola»/«la morale», never the round's animal. All it strings apostrophe-free. */
+      title: { en: "Juniper's Story Lantern", de: 'Junipers Geschichten-Laterne', fr: 'La lanterne à histoires de Juniper', es: 'El farolito de Juniper', pt: 'O lampião de Fagulha', it: 'La lanterna delle favole di Ginepro' },
+      prompt: { en: 'What does this story teach us?', de: 'Was lehrt uns diese Fabel?', fr: 'Quelle est la morale de cette histoire ?', es: '¿Qué nos enseña esta fábula?', pt: 'O que esta fábula nos ensina?', it: 'Che cosa ci insegna questa favola?' },
+      juniperIntro: { en: 'Here is a little tale. What does it teach us?', de: 'Hier ist eine kleine Fabel. Was lehrt sie uns?', fr: 'Voici une petite fable. Que nous apprend-elle ?', es: 'Aquí va una fábula chiquita. ¿Qué nos enseña?', pt: 'Aqui vai uma fábula bem curtinha. O que ela ensina?', it: 'Ecco una piccola favola. Che cosa ci insegna?' },
+      readStory: { en: '📖 Read the story', de: '📖 Fabel lesen', fr: '📖 Lire l’histoire', es: '📖 Leer la fábula', pt: '📖 Ler a fábula', it: '📖 Leggi la favola' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal lesen', fr: '📖 Relire l’histoire', es: '📖 Leer otra vez', pt: '📖 Ler de novo', it: '📖 Leggi di nuovo' },
+      theAsk: { en: 'What is the lesson?', de: 'Was ist die Lehre?', fr: 'Quelle est la morale ?', es: '¿Cuál es la moraleja?', pt: 'Qual é a lição?', it: 'Qual è la morale?' },
+      hintPick: { en: 'Tap the lesson the story teaches!', de: 'Tippe auf die Lehre, die die Fabel uns zeigt!', fr: 'Tape la morale que l’histoire nous apprend !', es: '¡Toca la moraleja que nos enseña la fábula!', pt: 'Toque na lição que a fábula nos ensina!', it: 'Tocca la morale che la favola insegna!' },
+      hintWrong: { en: "That's not the lesson — listen to the tale again.", de: 'Das ist nicht die Lehre – hör dir die Fabel noch einmal an.', fr: 'Ce n’est pas la morale — réécoute bien l’histoire.', es: 'Esa no es la moraleja. Escucha otra vez la fábula.', pt: 'Essa não é a lição — ouça a fábula de novo.', it: 'Questa non è la morale: ascolta di nuovo la favola.' },
+      win: { en: 'Yes! That is the lesson of the tale. 🏮', de: 'Ja! Das ist die Lehre der Fabel. 🏮', fr: 'Oui ! C’est bien la morale de la fable. 🏮', es: '¡Sí! Esa es la moraleja de la fábula. 🏮', pt: 'Isso! Essa é a lição da fábula. 🏮', it: 'Sì! Questa è la morale della favola. 🏮' }
     },
     defaults: {},
 

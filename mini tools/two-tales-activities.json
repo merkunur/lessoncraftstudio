@@ -107,6 +107,14 @@
           "SHARED": "Dividiu com um amigo",
           "SCARED_SAFE": "Teve medo e ficou a salvo",
           "FIXED_IT": "Consertou o que quebrou"
+        },
+        "it": {
+          "LOST_FOUND": "Ha perso qualcosa e poi lo ha ritrovato",
+          "GOT_HELP": "Un amico è venuto ad aiutare",
+          "TRIED_AGAIN": "Ha continuato a provare",
+          "SHARED": "Ha condiviso",
+          "SCARED_SAFE": "Ha avuto paura e poi ha trovato un posto sicuro",
+          "FIXED_IT": "Ha aggiustato ciò che si era rotto"
         }
       },
       "storiesL10n": {
@@ -333,6 +341,62 @@
               "GOT_HELP"
             ]
           }
+        },
+        "it": {
+          "fox": {
+            "subject": "fox",
+            "glyph": "fox",
+            "summary": "C’era una volpe. Ha perso qualcosa e poi lo ha ritrovato. Ha continuato a provare.",
+            "tags": [
+              "LOST_FOUND",
+              "TRIED_AGAIN"
+            ]
+          },
+          "bunny": {
+            "subject": "bunny",
+            "glyph": "bunny",
+            "summary": "C’era un coniglio. Ha perso qualcosa e poi lo ha ritrovato. Un amico è venuto ad aiutare.",
+            "tags": [
+              "LOST_FOUND",
+              "GOT_HELP"
+            ]
+          },
+          "mouse": {
+            "subject": "mouse",
+            "glyph": "mouse",
+            "summary": "C’era un topo. Ha avuto paura e poi ha trovato un posto sicuro. Un amico è venuto ad aiutare.",
+            "tags": [
+              "SCARED_SAFE",
+              "GOT_HELP"
+            ]
+          },
+          "bird": {
+            "subject": "bird",
+            "glyph": "bird",
+            "summary": "C’era un uccellino. Ha continuato a provare. Ha aggiustato ciò che si era rotto.",
+            "tags": [
+              "TRIED_AGAIN",
+              "FIXED_IT"
+            ]
+          },
+          "frog": {
+            "subject": "frog",
+            "glyph": "frog",
+            "summary": "C’era una rana. Ha aggiustato ciò che si era rotto. Ha avuto paura e poi ha trovato un posto sicuro.",
+            "tags": [
+              "FIXED_IT",
+              "SCARED_SAFE"
+            ]
+          },
+          "duck": {
+            "subject": "duck",
+            "glyph": "duck",
+            "summary": "C’era un’anatra. Ha condiviso. Un amico è venuto ad aiutare.",
+            "tags": [
+              "SHARED",
+              "GOT_HELP"
+            ]
+          }
         }
       },
       "rounds": [
@@ -442,21 +506,24 @@
       "de": "zwei-geschichten-vergleichen-gleich-und-anders-klasse-2",
       "fr": "comparer-deux-histoires-pareil-ou-different",
       "es": "comparar-dos-cuentos-semejanzas-y-diferencias-segundo-grado",
-      "pt": "comparar-duas-historias-semelhancas-e-diferencas"
+      "pt": "comparar-duas-historias-semelhancas-e-diferencas",
+      "it": "confrontare-due-storie-somiglianze-e-differenze-classe-seconda"
     },
     "page_title": {
       "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)",
       "de": "Zwei Geschichten vergleichen: Gleich & Anders finden",
       "fr": "Deux lunes — Comparer deux histoires (pareil ou différent)",
       "es": "Comparar dos cuentos: semejanzas y diferencias · 2.º grado",
-      "pt": "Comparar duas histórias: semelhanças e diferenças"
+      "pt": "Comparar duas histórias: semelhanças e diferenças",
+      "it": "Confronta due storie: uguale o diverso · Classe seconda"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9.",
       "de": "Vergleiche zwei kurze Geschichten und erkenne, was gleich ist und was anders: kostenlos, interaktiv und ohne Zeitdruck – Lesen üben in der Grundschule.",
       "fr": "Sous une lune d'or et une lune d'argent, Barbe-de-Mousse la tortue présente à votre enfant deux courtes histoires côte à côte. L'enfant lit les deux, puis tape la carte qui dit ce qui est pareil dans les deux histoires, ou ce qui arrive dans une seule. Petit à petit, il apprend à comparer deux histoires : à repérer les ressemblances et les différences entre les aventures des personnages, en s'appuyant sur ce que raconte chaque histoire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école.",
       "es": "Actividad interactiva y gratis para 2.º grado: lee dos cuentos cortos y compara semejanzas y diferencias, qué es igual y qué es diferente. Sin registro.",
-      "pt": "Leia duas historinhas com a Barba de Musgo, a tartaruga guardiã de histórias, e descubra o que é IGUAL nas duas luas e o que acontece em só UMA. Toque no 🔊 para ouvir as duas histórias em voz alta. Grátis, sem cadastro, sem cronômetro e sem pontos — no ritmo de cada criança. Alinhado à Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários."
+      "pt": "Leia duas historinhas com a Barba de Musgo, a tartaruga guardiã de histórias, e descubra o que é IGUAL nas duas luas e o que acontece em só UMA. Toque no 🔊 para ouvir as duas histórias em voz alta. Grátis, sem cadastro, sem cronômetro e sem pontos — no ritmo de cada criança. Alinhado à Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários.",
+      "it": "Con Barbamuschio la tartaruga, sotto la luna d’oro e la luna d’argento, i bambini leggono due brevi storie e toccano l’esperienza uguale in entrambe o accaduta in una sola: un semplice confronto tra due racconti. Un aiuto 🔊 legge ad alta voce. Attività gratuita, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali (classe seconda)."
     },
     "kid_prompt_template": "two-tales"
   }

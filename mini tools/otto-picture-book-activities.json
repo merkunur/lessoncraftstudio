@@ -1220,6 +1220,248 @@
               ]
             }
           }
+        ],
+        "it": [
+          {
+            "id": "boat",
+            "band": 1,
+            "target": "b3",
+            "story": {
+              "id": "boat",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boat-1",
+                  "caption": "Nico piega una barchetta di carta."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boat-2",
+                  "caption": "Nico mette la barchetta nel ruscello."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boat-3",
+                  "caption": "Un soffio di vento spinge la barchetta."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boat-4",
+                  "caption": "La barchetta arriva dall’altra parte."
+                }
+              ]
+            }
+          },
+          {
+            "id": "nest",
+            "band": 1,
+            "target": "b4",
+            "story": {
+              "id": "nest",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "nest-1",
+                  "caption": "Un pettirosso raccoglie piccoli rametti."
+                },
+                {
+                  "id": "b2",
+                  "panel": "nest-2",
+                  "caption": "Il pettirosso costruisce un nido accogliente."
+                },
+                {
+                  "id": "b3",
+                  "panel": "nest-3",
+                  "caption": "Il pettirosso depone un uovo."
+                },
+                {
+                  "id": "b4",
+                  "panel": "nest-4",
+                  "caption": "Dall’uovo nasce un uccellino."
+                }
+              ]
+            }
+          },
+          {
+            "id": "sandcastle",
+            "band": 1,
+            "target": "b2",
+            "story": {
+              "id": "sandcastle",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "sand-1",
+                  "caption": "Sofia riempie il secchiello di sabbia."
+                },
+                {
+                  "id": "b2",
+                  "panel": "sand-2",
+                  "caption": "Sofia costruisce un castello di sabbia alto."
+                },
+                {
+                  "id": "b3",
+                  "panel": "sand-3",
+                  "caption": "Mette una conchiglia in cima."
+                },
+                {
+                  "id": "b4",
+                  "panel": "sand-4",
+                  "caption": "Il castello è bellissimo."
+                }
+              ]
+            }
+          },
+          {
+            "id": "apple",
+            "band": 1,
+            "target": "b1",
+            "story": {
+              "id": "apple",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "apple-1",
+                  "caption": "Una mela rossa pende dall’albero."
+                },
+                {
+                  "id": "b2",
+                  "panel": "apple-2",
+                  "caption": "Teo porge un cestino."
+                },
+                {
+                  "id": "b3",
+                  "panel": "apple-3",
+                  "caption": "La mela cade nel cestino."
+                },
+                {
+                  "id": "b4",
+                  "panel": "apple-4",
+                  "caption": "Teo dà un morso contento."
+                }
+              ]
+            }
+          },
+          {
+            "id": "boots",
+            "band": 2,
+            "target": "b4",
+            "story": {
+              "id": "boots",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boots-1",
+                  "caption": "Fuori piove forte."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boots-2",
+                  "caption": "Sam infila i suoi stivali."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boots-3",
+                  "caption": "Sam sguazza in una grande pozzanghera."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boots-4",
+                  "caption": "Un arcobaleno riempie il cielo."
+                }
+              ]
+            }
+          },
+          {
+            "id": "bear",
+            "band": 2,
+            "target": "b2",
+            "story": {
+              "id": "bear",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "bear-1",
+                  "caption": "Bruno non trova il suo orsetto."
+                },
+                {
+                  "id": "b2",
+                  "panel": "bear-2",
+                  "caption": "Bruno guarda sotto il letto."
+                },
+                {
+                  "id": "b3",
+                  "panel": "bear-3",
+                  "caption": "Accende la torcia."
+                },
+                {
+                  "id": "b4",
+                  "panel": "bear-4",
+                  "caption": "Finalmente Bruno trova il suo orsetto!"
+                }
+              ]
+            }
+          },
+          {
+            "id": "snowman",
+            "band": 2,
+            "target": "b3",
+            "story": {
+              "id": "snowman",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "snow-1",
+                  "caption": "La neve soffice cade nel giardino."
+                },
+                {
+                  "id": "b2",
+                  "panel": "snow-2",
+                  "caption": "Lina fa un grande pupazzo di neve."
+                },
+                {
+                  "id": "b3",
+                  "panel": "snow-3",
+                  "caption": "Gli mette una sciarpa al collo."
+                },
+                {
+                  "id": "b4",
+                  "panel": "snow-4",
+                  "caption": "Lina è felice del suo pupazzo."
+                }
+              ]
+            }
+          },
+          {
+            "id": "butterfly",
+            "band": 2,
+            "target": "b1",
+            "story": {
+              "id": "butterfly",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "fly-1",
+                  "caption": "Un bruco mangia una foglia."
+                },
+                {
+                  "id": "b2",
+                  "panel": "fly-2",
+                  "caption": "Si raggomitola per riposare."
+                },
+                {
+                  "id": "b3",
+                  "panel": "fly-3",
+                  "caption": "Diventa una farfalla."
+                },
+                {
+                  "id": "b4",
+                  "panel": "fly-4",
+                  "caption": "La farfalla si posa su un fiore."
+                }
+              ]
+            }
+          }
         ]
       }
     },
@@ -1229,21 +1471,24 @@
       "de": "satz-dem-bild-zuordnen-bildergeschichte-klasse-1",
       "fr": "livre-images-otto-quelle-image-montre-le-moment",
       "es": "relacionar-oracion-con-imagen-cuento-ilustrado-primer-grado",
-      "pt": "relacionar-frase-com-imagem-historia-ilustrada-primeiro-ano"
+      "pt": "relacionar-frase-com-imagem-historia-ilustrada-primeiro-ano",
+      "it": "quale-immagine-mostra-la-frase-collegare-testo-e-immagine-classe-prima"
     },
     "page_title": {
       "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)",
       "de": "Erste Sätze lesen – Satz und Bild zuordnen (Klasse 1)",
       "fr": "Exercices de lecture GS – quelle image ? – en ligne",
       "es": "Relacionar oración e imagen – cuento ilustrado 1.º grado",
-      "pt": "Relacionar frase e imagem – história ilustrada 1º ano"
+      "pt": "Relacionar frase e imagem – história ilustrada 1º ano",
+      "it": "Quale immagine mostra la frase? Testo e immagine – Classe prima"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7.",
       "de": "Erste Sätze lesen und verstehen: den Satz lesen und das passende Bild dazu finden. Kostenlos online üben, ohne Anmeldung – für Leseanfänger.",
       "fr": "Exercices de lecture pour la GS : lire et choisir l'image qui montre le moment de l'histoire. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis: los niños escuchan una oración y tocan la imagen que muestra ese momento del cuento ilustrado. Ideal para relacionar texto e imagen en 1.º grado.",
-      "pt": "Um jogo de leitura interativo e gratuito sobre como as imagens e as histórias combinam: Otto, a coruja, desenha uma imagem para cada parte de uma historinha. Você OUVE a história inteira e, depois, Otto lê UMA parte em voz alta — e você toca na imagem que mostra aquele momentinho. Uma atividade alinhada à BNCC (Base Nacional Comum Curricular)."
+      "pt": "Um jogo de leitura interativo e gratuito sobre como as imagens e as histórias combinam: Otto, a coruja, desenha uma imagem para cada parte de uma historinha. Você OUVE a história inteira e, depois, Otto lê UMA parte em voz alta — e você toca na imagem que mostra aquele momentinho. Uma atividade alinhada à BNCC (Base Nacional Comum Curricular).",
+      "it": "Otto il gufo ha disegnato una breve storia illustrata in quattro scene. Il bambino ascolta il racconto, poi sente e legge una frase e tocca l’immagine che la rappresenta, collegando il testo all’illustrazione giusta. Con la lettura ad alta voce 📖, è un’attività gratuita, senza registrazione e senza timer né punteggio, allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "which-picture"
   }

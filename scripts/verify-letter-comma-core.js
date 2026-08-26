@@ -45,6 +45,8 @@ const MARK = {
   de: { greeting: ',', closing: null },  /* ⚠ German closings take NO mark → greetings-only is correct */
   fr: { greeting: ',', closing: ',' },
   es: { greeting: ':', closing: ',' },   /* ⚠ the saludo colon is the whole point of the es rebuild */
+  pt: { greeting: ',', closing: ',' },   /* BR: comma for both (was missing from the table) */
+  it: { greeting: ',', closing: ',' },   /* Italian: comma for both greeting + closing (like en/fr/pt) */
 };
 
 function checkDeck(Core, rounds, loc) {

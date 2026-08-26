@@ -54,6 +54,15 @@
       win: 'Isso! {note}', winNote: 'Essa janela tem a vista certinha!',
       nHigh: 'Quem está lá em cima? De cima, tudo parece pequenininho e distante.',
       nLow: 'Quem está lá embaixo, pertinho da água? De baixo, tudo parece enorme e bem perto.'
+    },
+    /* it. The nudges TEACH the rule → they state the size+distance contrast in the SAME
+       words as POSLABEL.it + the instruction (locked «lassù / laggiù»). §A.13.54: agreement
+       is anchored on the fixed masc-sing «tutto», never on the varying creature; «sembra»
+       agrees with nothing; win «Sì!» never genders the child. ⚠ 100% apostrophe-free JS. */
+    it: {
+      win: 'Sì! {note}', winNote: 'Quella finestra ha la vista giusta!',
+      nHigh: 'Chi è lassù? Da lassù tutto sembra piccolo e lontano.',
+      nLow: 'Chi è laggiù, vicino al mare? Da laggiù tutto sembra grande e vicino.'
     }
   };
   var POSLABEL = {
@@ -68,7 +77,11 @@
     /* pt-BR: «Lá em cima / No meio / Lá embaixo» — the natural BR locatives, locked to the
        instruction + nudges so the child maps rule→label with zero inference. ⚠ "embaixo" is
        ONE word in BR (not "em baixo", the EU-PT form). */
-    pt: { high: 'Lá em cima', mid: 'No meio', low: 'Lá embaixo' }
+    pt: { high: 'Lá em cima', mid: 'No meio', low: 'Lá embaixo' },
+    /* it: «Lassù / In mezzo / Laggiù» — the intensified deictics (pedagogue-decisive; ≠ bare
+       «In alto/In basso»), locked verbatim to the instruction + nudges so the child maps
+       rule→label with zero inference. ⚠ NO line uses «lassù/laggiù» (collision guard). */
+    it: { high: 'Lassù', mid: 'In mezzo', low: 'Laggiù' }
   };
   function poslabel(pos) { return (POSLABEL[LANG] && POSLABEL[LANG][pos]) || POSLABEL.en[pos]; }
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -123,9 +136,9 @@
          ⚠ The 3-sentence instruction is deliberate: the EN one-liner does NOT teach the
          rule, and the rule is the whole activity. Fused with «;» (the fr move) → 157 ch,
          SHORTER than de's shipped 168. */
-      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen', pt: 'O Farol da Luzia' },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.' },
-      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?', pt: '“{line}” Quem contou isso?' }
+      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen', pt: 'O Farol da Luzia', it: 'Il faro di Lumen' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.', it: 'Leggi la frase. Lassù tutto sembra piccolo e lontano; laggiù tutto sembra grande e vicino. Tocca la finestra da cui la frase è raccontata.' },
+      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?', pt: '“{line}” Quem contou isso?', it: '«{line}» Chi lo racconta?' }
     },
 
     init: function (api) {
@@ -290,6 +303,14 @@
            quotes “…”. */
         var whoPt = (r.chars || []).map(function (c) { return c.name + ' está ' + poslabel(c.pos).toLowerCase(); }).join(', ');
         wrap.innerHTML = '<p>' + (r.event || '') + ' A frase “' + r.line + '” foi contada de uma janela. ' + whoPt + '. Quem a conta?</p>';
+        return wrap;
+      }
+      if (LANG === 'it') {
+        /* `è` takes no agreement → safe for the mixed-gender names; the clitic `la` in
+           «Chi la racconta?» agrees with «la frase» (feminine), never with the speaker.
+           poslabel lowercased → «lassù / in mezzo / laggiù». */
+        var whoIt = (r.chars || []).map(function (c) { return c.name + ' è ' + poslabel(c.pos).toLowerCase(); }).join(', ');
+        wrap.innerHTML = '<p>' + (r.event || '') + ' La frase «' + r.line + '» è raccontata da una finestra. ' + whoIt + '. Chi la racconta?</p>';
         return wrap;
       }
       var who = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join('; ');

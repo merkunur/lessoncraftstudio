@@ -3872,6 +3872,29 @@
         "Parlare pensando a chi ascolta.",
         "Usare le parole giuste, senza essere vaghi né dire troppo."
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "Le parole possono giocare tra loro: alcune finiscono con lo stesso suono e fanno rima, come gatto e piatto o limone e melone. In questa attività un simpatico animaletto guida il suo vagone delle rime e invita i bambini a scoprire, ascoltando, quali parole «suonano» allo stesso modo.",
+        "I bambini ascoltano le parole illustrate e giocano con tanti mini-giochi diversi: queste due parole fanno rima? quale delle immagini rima con la parola data? quale invece non rima? Poi imparano a raggruppare le parole che rimano e a completare la rima. Il pulsante 🔊 legge ad alta voce ogni parola, così i più piccoli possono affidarsi soprattutto all’orecchio, ancora prima di saper leggere.",
+        "Pensata per i primi passi nell’ascolto delle parole, questa attività è allineata alle Indicazioni nazionali e sostiene lo sviluppo della consapevolezza fonologica, un’abilità che prepara alla lettura. È completamente gratuita, senza registrazione, senza timer e senza punteggio: solo tempo sereno per giocare con i suoni della lingua, al ritmo di ogni bambino."
+      ],
+      "practices": [
+        "Riconoscere le rime",
+        "Ascoltare i suoni delle parole",
+        "Giocare con le parole",
+        "Sviluppare la consapevolezza fonologica"
+      ],
+      "howToPlay": [
+        "Ascolta le parole illustrate, toccando il 🔊 per sentirle ad alta voce.",
+        "Trova le parole che finiscono con lo stesso suono e fanno rima.",
+        "Porta le parole che rimano sul vagone delle rime dell’animaletto."
+      ],
+      "learningGoals": [
+        "Sentire e riconoscere quando due parole fanno rima.",
+        "Prestare attenzione ai suoni finali delle parole, non solo al loro significato.",
+        "Rafforzare la consapevolezza fonologica come base per imparare a leggere."
+      ]
     }
   }
 }

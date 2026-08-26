@@ -3780,6 +3780,29 @@
         "Distinguere ciò che è uguale da ciò che è diverso tra due storie.",
         "Rafforzare la comprensione dei testi narrativi con calma e senza fretta."
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "Pip si è addormentato e ha perso la storia: tocca ai bambini raccontargliela dall’inizio alla fine.",
+        "Dopo aver guardato un breve film in quattro scene, rimettono le vignette nel giusto ordine di causa ed effetto e scelgono i dettagli che contano davvero, lasciando fuori ciò che non è successo.",
+        "Pensata per la classe seconda e allineata alle Indicazioni nazionali, è un’attività gratuita, senza registrazione, senza timer e senza punteggio."
+      ],
+      "practices": [
+        "raccontare una storia nell’ordine giusto",
+        "mettere gli eventi in sequenza",
+        "riconoscere causa ed effetto",
+        "distinguere i dettagli essenziali da quelli secondari"
+      ],
+      "howToPlay": [
+        "Guarda e ascolta il breve film della storia.",
+        "Rimetti le vignette nel giusto ordine di causa ed effetto.",
+        "Racconta la storia a Pip scegliendo i dettagli chiave."
+      ],
+      "learningGoals": [
+        "Raccontare una storia rispettando l’ordine degli eventi.",
+        "Collegare gli eventi con relazioni di causa ed effetto.",
+        "Distinguere ciò che è essenziale da ciò che non c’entra."
+      ]
     }
   }
 }

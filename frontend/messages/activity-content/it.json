@@ -3826,6 +3826,29 @@
         "Rafforzare la comprensione tra testo e immagine.",
         "Ascoltare e capire una frase con il supporto dell’audio."
       ]
+    },
+    "contraction.apostrophe.l-2-2-c": {
+      "about": [
+        "Due parole che diventano una parola sola: «in» e «il» si uniscono e nasce «nel».",
+        "Il bambino guarda la coppia di parole, pensa alla forma unita e tocca quella giusta tra tre proposte, mentre il 🔊 legge ogni parola ad alta voce.",
+        "È un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe terza."
+      ],
+      "practices": [
+        "unire preposizione e articolo",
+        "formare le preposizioni articolate",
+        "riconoscere nel, del, al, dal, nella",
+        "scrivere in una parola sola"
+      ],
+      "howToPlay": [
+        "Leggi le due parole, per esempio «in» e «il».",
+        "Pensa alla forma unita che si crea: «nel».",
+        "Tocca la preposizione articolata giusta tra le tre scelte."
+      ],
+      "learningGoals": [
+        "Capire come preposizione e articolo si uniscono in una parola sola.",
+        "Riconoscere e usare nel, del, al, dallo, nella e le altre forme.",
+        "Rafforzare la sicurezza con la lingua scritta in classe terza."
+      ]
     }
   }
 }

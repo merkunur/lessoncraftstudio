@@ -1679,6 +1679,455 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "rhyme-shop.it.judge-gatto-piatto",
+            "cog": "judge",
+            "a": {
+              "word": "Gatto",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATTO",
+              "spelledRime": "atto"
+            },
+            "b": {
+              "word": "Piatto",
+              "noun": "plate",
+              "themeDir": "around the house",
+              "category": "object",
+              "rimeKey": "ATTO",
+              "spelledRime": "atto"
+            }
+          },
+          {
+            "id": "rhyme-shop.it.judge-limone-banana",
+            "cog": "judge",
+            "a": {
+              "word": "Limone",
+              "noun": "lemon",
+              "themeDir": "At the Supermarket",
+              "category": "food",
+              "rimeKey": "ONE",
+              "spelledRime": "one"
+            },
+            "b": {
+              "word": "Banana",
+              "noun": "banana",
+              "themeDir": "At the Supermarket",
+              "category": "food",
+              "rimeKey": "ANA",
+              "spelledRime": "ana"
+            }
+          },
+          {
+            "id": "rhyme-shop.it.pick-delfino",
+            "cog": "pick",
+            "target": {
+              "word": "Delfino",
+              "noun": "dolphin",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "INO",
+              "spelledRime": "ino"
+            },
+            "choices": [
+              {
+                "word": "Pinguino",
+                "noun": "penguin",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Banana",
+                "noun": "banana",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ANA",
+                "spelledRime": "ana"
+              },
+              {
+                "word": "Limone",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.pick-cappello",
+            "cog": "pick",
+            "target": {
+              "word": "Cappello",
+              "noun": "hat",
+              "themeDir": "accessories",
+              "category": "object",
+              "rimeKey": "ELLO",
+              "spelledRime": "ello"
+            },
+            "choices": [
+              {
+                "word": "Martello",
+                "noun": "hammer",
+                "themeDir": "around the house",
+                "category": "object",
+                "rimeKey": "ELLO",
+                "spelledRime": "ello"
+              },
+              {
+                "word": "Gatto",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATTO",
+                "spelledRime": "atto"
+              },
+              {
+                "word": "Rana",
+                "noun": "frog",
+                "themeDir": "camping",
+                "category": "animal",
+                "rimeKey": "ANA",
+                "spelledRime": "ana"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.pick-melone",
+            "cog": "pick",
+            "target": {
+              "word": "Melone",
+              "noun": "melon",
+              "themeDir": "At the Supermarket",
+              "category": "food",
+              "rimeKey": "ONE",
+              "spelledRime": "one"
+            },
+            "choices": [
+              {
+                "word": "Limone",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              },
+              {
+                "word": "Delfino",
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Padella",
+                "noun": "pan",
+                "themeDir": "around the house",
+                "category": "object",
+                "rimeKey": "ELLA",
+                "spelledRime": "ella"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.odd-ino",
+            "cog": "odd",
+            "choices": [
+              {
+                "word": "Calzino",
+                "noun": "sock",
+                "themeDir": "accessories",
+                "category": "object",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Panino",
+                "noun": "bun",
+                "themeDir": "bakery",
+                "category": "food",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Bambino",
+                "noun": "baby",
+                "themeDir": "toys",
+                "category": "object",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Cappello",
+                "noun": "hat",
+                "themeDir": "accessories",
+                "category": "object",
+                "rimeKey": "ELLO",
+                "spelledRime": "ello"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.sort-ino-one",
+            "cog": "sort",
+            "bins": [
+              {
+                "word": "Delfino",
+                "noun": "dolphin",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Limone",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              }
+            ],
+            "pile": [
+              {
+                "word": "Pinguino",
+                "noun": "penguin",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Panino",
+                "noun": "bun",
+                "themeDir": "bakery",
+                "category": "food",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Melone",
+                "noun": "melon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              },
+              {
+                "word": "Pavone",
+                "noun": "peacock",
+                "themeDir": "birds",
+                "category": "animal",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.chant-gatto",
+            "cog": "chant",
+            "coupletLine": "Guarda guarda che bel gatto, mangia tutto nel suo …",
+            "target": {
+              "word": "Gatto",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATTO",
+              "spelledRime": "atto"
+            },
+            "choices": [
+              {
+                "word": "Piatto",
+                "noun": "plate",
+                "themeDir": "around the house",
+                "category": "object",
+                "rimeKey": "ATTO",
+                "spelledRime": "atto"
+              },
+              {
+                "word": "Panino",
+                "noun": "bun",
+                "themeDir": "bakery",
+                "category": "food",
+                "rimeKey": "INO",
+                "spelledRime": "ino"
+              },
+              {
+                "word": "Limone",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.field-ello",
+            "cog": "field",
+            "target": {
+              "word": "Anello",
+              "noun": "ring",
+              "themeDir": "accessories",
+              "category": "object",
+              "rimeKey": "ELLO",
+              "spelledRime": "ello"
+            },
+            "choices": [
+              {
+                "word": "Cappello",
+                "noun": "hat",
+                "themeDir": "accessories",
+                "category": "object",
+                "rimeKey": "ELLO",
+                "spelledRime": "ello"
+              },
+              {
+                "word": "Martello",
+                "noun": "hammer",
+                "themeDir": "around the house",
+                "category": "object",
+                "rimeKey": "ELLO",
+                "spelledRime": "ello"
+              },
+              {
+                "word": "Ombrello",
+                "noun": "umbrella",
+                "themeDir": "accessories",
+                "category": "object",
+                "rimeKey": "ELLO",
+                "spelledRime": "ello"
+              },
+              {
+                "word": "Gatto",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATTO",
+                "spelledRime": "atto"
+              },
+              {
+                "word": "Rana",
+                "noun": "frog",
+                "themeDir": "camping",
+                "category": "animal",
+                "rimeKey": "ANA",
+                "spelledRime": "ana"
+              },
+              {
+                "word": "Limone",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ONE",
+                "spelledRime": "one"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.it.chain-ino",
+            "cog": "chain",
+            "anchor": {
+              "word": "Bambino",
+              "noun": "baby",
+              "themeDir": "toys",
+              "category": "object",
+              "rimeKey": "INO",
+              "spelledRime": "ino"
+            },
+            "steps": [
+              {
+                "choices": [
+                  {
+                    "word": "Panino",
+                    "noun": "bun",
+                    "themeDir": "bakery",
+                    "category": "food",
+                    "rimeKey": "INO",
+                    "spelledRime": "ino"
+                  },
+                  {
+                    "word": "Banana",
+                    "noun": "banana",
+                    "themeDir": "At the Supermarket",
+                    "category": "food",
+                    "rimeKey": "ANA",
+                    "spelledRime": "ana"
+                  },
+                  {
+                    "word": "Gatto",
+                    "noun": "cat",
+                    "themeDir": "animals",
+                    "category": "animal",
+                    "rimeKey": "ATTO",
+                    "spelledRime": "atto"
+                  }
+                ]
+              },
+              {
+                "choices": [
+                  {
+                    "word": "Cestino",
+                    "noun": "basket",
+                    "themeDir": "At the Supermarket",
+                    "category": "object",
+                    "rimeKey": "INO",
+                    "spelledRime": "ino"
+                  },
+                  {
+                    "word": "Limone",
+                    "noun": "lemon",
+                    "themeDir": "At the Supermarket",
+                    "category": "food",
+                    "rimeKey": "ONE",
+                    "spelledRime": "one"
+                  },
+                  {
+                    "word": "Padella",
+                    "noun": "pan",
+                    "themeDir": "around the house",
+                    "category": "object",
+                    "rimeKey": "ELLA",
+                    "spelledRime": "ella"
+                  }
+                ]
+              },
+              {
+                "choices": [
+                  {
+                    "word": "Pulcino",
+                    "noun": "chick",
+                    "themeDir": "easter",
+                    "category": "animal",
+                    "rimeKey": "INO",
+                    "spelledRime": "ino"
+                  },
+                  {
+                    "word": "Rana",
+                    "noun": "frog",
+                    "themeDir": "camping",
+                    "category": "animal",
+                    "rimeKey": "ANA",
+                    "spelledRime": "ana"
+                  },
+                  {
+                    "word": "Cappello",
+                    "noun": "hat",
+                    "themeDir": "accessories",
+                    "category": "object",
+                    "rimeKey": "ELLO",
+                    "spelledRime": "ello"
+                  }
+                ]
+              }
+            ]
+          }
         ]
       }
     },
@@ -1686,19 +2135,22 @@
       "en": "rosa-raccoons-rhyme-wagon",
       "de": "reime-hoeren-und-finden-klasse-1",
       "es": "rimas-palabras-que-riman-conciencia-fonologica-preescolar",
-      "pt": "rimas-palavras-que-rimam"
+      "pt": "rimas-palavras-que-rimam",
+      "it": "giocare-con-le-rime-scuola-infanzia"
     },
     "page_title": {
       "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes",
       "de": "Reime üben – Reimwörter hören und finden (Klasse 1)",
       "es": "Rimas y palabras que riman para preescolar – Juego gratis",
-      "pt": "Rimas: palavras que rimam para o 1º ano — atividade alinhada à BNCC"
+      "pt": "Rimas: palavras que rimam para o 1º ano — atividade alinhada à BNCC",
+      "it": "Le rime: giocare con le parole alla scuola dell’infanzia"
     },
     "page_intro": {
       "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words.",
       "de": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1.",
       "es": "Actividad interactiva y gratis: los niños escuchan y encuentran palabras que riman —gato y pato, ratón y limón— y desarrollan su conciencia fonológica. Ideal para preescolar.",
-      "pt": "O Gui, um guaxinim animado, conduz o vagão de rimas por trilhos cheios de figuras. Seu filho escuta cada palavra e descobre quais têm o mesmo som no fim, ou seja, quais rimam. É uma atividade lúdica de escuta, alinhada à BNCC, para brincar com os sons das palavras."
+      "pt": "O Gui, um guaxinim animado, conduz o vagão de rimas por trilhos cheios de figuras. Seu filho escuta cada palavra e descobre quais têm o mesmo som no fim, ou seja, quais rimam. É uma atividade lúdica de escuta, alinhada à BNCC, para brincar com os sons das palavras.",
+      "it": "Sali sul vagone delle rime insieme a un simpatico animaletto! I bambini ascoltano le parole illustrate e scoprono quelle che fanno rima, come gatto e piatto, con tanti giochi divertenti. Ogni parola si può ascoltare toccando il 🔊. Tutto gratis, senza registrazione, senza timer e senza punteggio — un’attività allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "Tap to hear — then feed the rhyme!"
   }

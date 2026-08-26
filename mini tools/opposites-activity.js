@@ -124,6 +124,30 @@
       nudgeSibling: 'É do mesmo TIPO — mas e a OUTRA ponta?',
       nudgeRelated: 'É um amigo — ache o CONTRÁRIO!',
       nudgeUnrelated: 'Não é o contrário — procure a outra ponta!'
+    },
+    /* it (§A.13.54 gender-safety): the feedback strings render on EVERY round while targets span
+       genders/POS (nero m / sinistra·destra·lampada·porta f / spingere·tirare verbs), so nothing
+       agrees with the picked card. Anchors: win/nudge on the INVARIANT masc concept «il contrario»
+       + fixed non-referent nouns «la parte opposta»/«la coppia»/«la bilancia»/«il movimento»/«un
+       amico»; nudgeSibling on masc NP «dello stesso tipo» (copula «è» agrees with nothing —
+       deliberately NOT «Quello», a card-pronoun that would agree fem); winScene on «tutto»/«a posto»;
+       scene's «girarla» on the fixed fem «ogni cosa»; oddpair's «toccala» on the fixed fem «la
+       coppia». `trade` is INVARIANT «Scambia!» (object dropped — the picked card can be fem/verb).
+       `route` DROPS {a} (anchor card on screen; de/es/pt precedent). Mirror-Book = «Libro-Specchio». */
+    it: {
+      pick: 'Tocca il CONTRARIO, la parte opposta!',
+      generate: 'Tocca il contrario. La parte opposta!',
+      balance: 'Equilibra la bilancia, tocca il contrario!',
+      verb: 'Tocca il movimento al CONTRARIO!',
+      route: 'Il contrario, o solo lo STESSO tipo? Manda ognuno al suo posto!',
+      oddpair: 'Una coppia NON è di contrari, toccala!',
+      scene: 'È tutto alla rovescia, tocca ogni cosa per girarla!',
+      doorOpp: 'Contrario', doorSame: 'Stesso tipo', trade: 'Scambia!',
+      win: 'Un contrario perfetto! Nel Libro-Specchio.',
+      winScene: 'Tutto a posto, buonanotte! Nel Libro-Specchio.',
+      nudgeSibling: 'È dello STESSO tipo, ma la parte OPPOSTA?',
+      nudgeRelated: 'È un amico, trova il suo contrario!',
+      nudgeUnrelated: 'Non è il contrario, cerca la parte opposta!'
     }
   };
   function txt(k, a) {
@@ -263,15 +287,18 @@
       /* pt: character renamed «Quill»→«Espinho» (operator-ruled — «Quill» decodes badly for a BR
          6-7yo: qu→/k/; «Espinho» = transparent BR hedgehog name, keeps the spine wordplay). pt-only
          divergence. qGenerate uses «Qual…?» (choose from a set), not «O que é…?» (asks a definition). */
-      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt', fr: 'Le marché-miroir de Quill', es: 'El mercado al revés de Quill', pt: 'O Mercado Espelho do Espinho' },
-      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!', fr: 'Apporte à Quill le CONTRAIRE — l’autre bout, pas juste un ami !', es: '¡Tráele a Quill lo contrario: el otro extremo, no solo un amigo!', pt: 'Traga pro Espinho o CONTRÁRIO — a outra ponta, não só um amigo!' },
-      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.', fr: 'Trouve le contraire !', es: '¡Encuentra lo contrario!', pt: 'Ache o contrário!' },
-      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?', fr: 'Quel est le contraire ?', es: '¿Cuál es lo contrario?', pt: 'Qual é o contrário?' },
-      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.', fr: 'Équilibre la balance !', es: '¡Equilibra la balanza!', pt: 'Equilibre a balança!' },
-      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?', fr: 'Fais l’action contraire !', es: '¡Haz la acción contraria!', pt: 'Faça a ação ao contrário!' },
-      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.', fr: 'Contraire, ou juste la même sorte ?', es: '¿Lo contrario o solo del mismo tipo?', pt: 'Contrário ou só do mesmo tipo?' },
-      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?', fr: 'Quelle paire n’est PAS des contraires ?', es: '¿Cuál pareja NO es de contrarios?', pt: 'Qual dupla NÃO é de contrários?' },
-      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!', fr: 'Retourne le monde à l’envers !', es: '¡Voltea el mundo al revés!', pt: 'Vire o mundo ao contrário!' }
+      /* it: mascot «Quill»→«Spino» (pedagogue-ruled — «Quill» decodes but is semantically opaque +
+         the spine pun is lost, the pt «Espinho» situation; «Spino» from *spina*=spine keeps the pun,
+         reads /ˈspino/). «Il Mercato-Specchio». qGenerate «Qual è» = apocope, apostrophe-free. */
+      title: { en: "Quill's Mirror Market", de: 'Quills Spiegelmarkt', fr: 'Le marché-miroir de Quill', es: 'El mercado al revés de Quill', pt: 'O Mercado Espelho do Espinho', it: 'Il Mercato-Specchio di Spino' },
+      instruction: { en: 'Bring Quill the OPPOSITE — the other end, not just a friend!', de: 'Finde immer das Gegenteil – wie im Spiegel!', fr: 'Apporte à Quill le CONTRAIRE — l’autre bout, pas juste un ami !', es: '¡Tráele a Quill lo contrario: el otro extremo, no solo un amigo!', pt: 'Traga pro Espinho o CONTRÁRIO — a outra ponta, não só um amigo!', it: 'Porta a Spino il CONTRARIO, la parte opposta, non solo un amico!' },
+      qPick: { en: 'Find the opposite!', de: 'Tipp das Gegenteil an.', fr: 'Trouve le contraire !', es: '¡Encuentra lo contrario!', pt: 'Ache o contrário!', it: 'Trova il contrario!' },
+      qGenerate: { en: 'What is the opposite?', de: 'Was ist das Gegenteil?', fr: 'Quel est le contraire ?', es: '¿Cuál es lo contrario?', pt: 'Qual é o contrário?', it: 'Qual è il contrario?' },
+      qBalance: { en: 'Balance the scale!', de: 'Finde das Gegenteil und bring die Waage ins Gleichgewicht.', fr: 'Équilibre la balance !', es: '¡Equilibra la balanza!', pt: 'Equilibre a balança!', it: 'Equilibra la bilancia!' },
+      qVerb: { en: 'Do the opposite action!', de: 'Welche Bewegung ist das Gegenteil?', fr: 'Fais l’action contraire !', es: '¡Haz la acción contraria!', pt: 'Faça a ação ao contrário!', it: 'Fai il gesto al contrario!' },
+      qRoute: { en: 'Opposite, or just the same kind?', de: 'Schick jedes Wort zur richtigen Tür.', fr: 'Contraire, ou juste la même sorte ?', es: '¿Lo contrario o solo del mismo tipo?', pt: 'Contrário ou só do mesmo tipo?', it: 'Contrario o stesso tipo?' },
+      qOddpair: { en: 'Which pair is NOT opposites?', de: 'Welches Paar ist KEIN Gegensatz?', fr: 'Quelle paire n’est PAS des contraires ?', es: '¿Cuál pareja NO es de contrarios?', pt: 'Qual dupla NÃO é de contrários?', it: 'Quale coppia NON è di contrari?' },
+      qScene: { en: 'Flip the backwards world!', de: 'Tippe alles an, was verkehrt herum ist!', fr: 'Retourne le monde à l’envers !', es: '¡Voltea el mundo al revés!', pt: 'Vire o mundo ao contrário!', it: 'Raddrizza il mondo alla rovescia!' }
     },
 
     init: function (api) {
@@ -454,7 +481,7 @@
         var pr = el('div', 'op-prompt');
         /* DE/FR/ES: adjective/adverb targets stay LOWERCASE mid-sentence → no cap().
            ES additionally REQUIRES the opening «¿» (de/fr don't). */
-        pr.textContent = gLang === 'fr' ? ('Le contraire de ' + r.target.word + ' ?') : gLang === 'de' ? ('Gegenteil von ' + r.target.word + '?') : gLang === 'es' ? ('¿Lo contrario de ' + r.target.word + '?') : ('Opposite of ' + cap(r.target.word) + '?');
+        pr.textContent = gLang === 'fr' ? ('Le contraire de ' + r.target.word + ' ?') : gLang === 'de' ? ('Gegenteil von ' + r.target.word + '?') : gLang === 'es' ? ('¿Lo contrario de ' + r.target.word + '?') : gLang === 'it' ? ('Il contrario di ' + r.target.word + '?') : ('Opposite of ' + cap(r.target.word) + '?');
         root.appendChild(pr);
       } else {
         var tg = el('div', 'op-target'); tg.innerHTML = gly(r.target.glyph, 50) + '<span class="op-w">' + esc(cap(r.target.word)) + (r.cog === 'verb' ? ' …?' : '') + '</span>'; root.appendChild(tg);
@@ -565,7 +592,10 @@
            activity's word set: a future oddpair placing an i-/hi- word in the `b` slot would render
            the ungrammatical «Arriba y izquierda». GUARD: never put an i-/hi- word in a `b` slot
            (or teach this joiner the e-rule). */
-        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'fr' ? ' et ' : opLang === 'de' ? ' und ' : opLang === 'es' ? ' y ' : opLang === 'pt' ? ' e ' : ' and ') + cap(pr.b.word));
+        /* it joiner « e ». ⚠ euphonic: Italian « e »→« ed » before a vowel-initial SECOND word; the
+           authored oddpair-1 b-slots are bianco/giù/blu (all consonant) → « e » safe. GUARD: a future
+           oddpair with a vowel-initial b-word (aperta/acceso/alto) must switch that render to « ed ». */
+        card.setAttribute('aria-label', cap(pr.a.word) + (opLang === 'fr' ? ' et ' : opLang === 'de' ? ' und ' : opLang === 'es' ? ' y ' : opLang === 'pt' ? ' e ' : opLang === 'it' ? ' e ' : ' and ') + cap(pr.b.word));
         card.innerHTML = gly(pr.a.glyph, 46) + '<span class="op-x">↔</span>' + gly(pr.b.glyph, 46);
         card.addEventListener('click', function () {
           if (self._resolved || self._nonConf[pi] || self._token !== tok) return;
@@ -591,7 +621,9 @@
            (arreglado)» = wrong gender on 2 of 3. «(ya está)» is invariant (and is what a Mexican
            adult actually says). NOTE the shipped fr carries exactly this slip after «lampe éteinte»
            — do NOT copy it. «voltear» is the MX verb (peninsular: dar la vuelta). */
-        var scAria = scLang === 'fr' ? (flipped ? ' (réparé)' : ' — tape pour retourner') : scLang === 'de' ? (flipped ? ' (richtig)' : ' – zum Umdrehen tippen') : scLang === 'es' ? (flipped ? ' (ya está)' : ' — toca para voltear') : (flipped ? ' (fixed)' : ' — tap to flip');
+        /* it: INVARIANT suffix (scene words span genders: sole m / lampada·porta f) — «(a posto)» is a
+           prepositional idiom agreeing with nothing; a masc «(fatto)» would mis-agree on lampada/porta. */
+        var scAria = scLang === 'fr' ? (flipped ? ' (réparé)' : ' — tape pour retourner') : scLang === 'de' ? (flipped ? ' (richtig)' : ' – zum Umdrehen tippen') : scLang === 'es' ? (flipped ? ' (ya está)' : ' — toca para voltear') : scLang === 'it' ? (flipped ? ' (a posto)' : ' — tocca per girare') : (flipped ? ' (fixed)' : ' — tap to flip');
         card.type = 'button'; card.setAttribute('aria-label', cap(word) + scAria);
         card.innerHTML = gly(cur, 58) + '<span class="op-w">' + esc(cap(word)) + '</span>';
         card.addEventListener('click', function () {

@@ -3987,6 +3987,29 @@
         "Distinguere il suono iniziale, centrale e finale",
         "Costruire le basi fonologiche per leggere e scrivere"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Leggere la prima parola da soli è un traguardo emozionante: qui il bambino guarda una parola stampata e scopre, lettera dopo lettera, che cosa dice.",
+        "Si legge la parola breve e si tocca la figura che le corrisponde. Tra le quattro immagini ce n’è una che inizia con le stesse lettere: per non sbagliare bisogna leggere la parola intera, non indovinare dalla prima lettera.",
+        "Un’attività allineata alle «Indicazioni nazionali», gratis e senza registrazione, senza timer e senza punteggio, così ogni bambino può leggere con calma, al proprio ritmo."
+      ],
+      "practices": [
+        "Leggere le prime parole",
+        "Decodificare parole corte",
+        "Associare la parola alla figura",
+        "Leggere tutta la parola, non solo l’inizio"
+      ],
+      "howToPlay": [
+        "Leggi la parola stampata.",
+        "Guarda bene tutte le lettere.",
+        "Tocca la figura giusta."
+      ],
+      "learningGoals": [
+        "Riconoscere e leggere parole brevi in autonomia.",
+        "Collegare la parola scritta alla sua immagine.",
+        "Leggere l’intera parola per distinguerla da una molto simile."
+      ]
     }
   }
 }

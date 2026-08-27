@@ -4056,6 +4056,29 @@
         "Distinguere le desinenze in -i e in -e",
         "Rafforzare la sicurezza nella grammatica di base"
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Quante monete servono per pagare 30 centesimi? E se il cliente ti dà 1 euro, quanto resto gli devi dare?",
+        "Alla bancarella di Otto il bambino legge il prezzo, conta le monete in euro e centesimi, compone l’importo esatto per pagare e impara a dare il resto scambiando le monete quando serve.",
+        "L’attività è allineata alle «Indicazioni nazionali» ed è completamente gratuita: senza registrazione, senza timer e senza punteggio, così ogni bambino può imparare al proprio ritmo."
+      ],
+      "practices": [
+        "Contare le monete in euro e centesimi",
+        "Comporre un importo esatto",
+        "Dare il resto",
+        "Riconoscere il valore delle monete"
+      ],
+      "howToPlay": [
+        "Leggi quanto costa alla bancarella di Otto",
+        "Scegli le monete giuste per pagare l’importo esatto",
+        "Paga Otto e, se serve, calcola il resto"
+      ],
+      "learningGoals": [
+        "Riconoscere le monete dell’euro e il loro valore, da 1 centesimo a 2 euro",
+        "Pagare una cifra componendo l’importo esatto con più monete",
+        "Calcolare e dare il resto in semplici situazioni di acquisto"
+      ]
     }
   }
 }

@@ -82,6 +82,19 @@
       nSubject: 'Quasi! Chiediti: chi FA l’azione? Guarda di nuovo!',
       nObject: 'Quasi! Chiediti: a chi succede? Guarda di nuovo!',
       nPossessive: 'Quasi! Chiediti: di chi è? Guarda di nuovo!'
+    },
+    /* nl: functioneel, GEEN "naamval"-jargon op het scherm — de nudge stelt exact de vraag die bij de
+       correcte-antwoord-note hoort (wie doet iets → onderwerp; met wie gebeurt iets → voorwerp; van wie is
+       het → bezittelijk). Geen aanhalingstekens nodig (0 apostrofs → JS-veilig). */
+    nl: {
+      q: 'Welk woord past in de zin?',
+      win: 'Ja! {note}', hear: '🔊 Voorlezen',
+      noteSubject: 'Hier doet iemand iets!',
+      noteObject: 'Hier gebeurt er iets met iemand!',
+      notePossessive: 'Dit laat zien van wie iets is!',
+      nSubject: 'Bijna! Vraag: wie doet iets? Dan past het andere woord.',
+      nObject: 'Bijna! Vraag: met wie gebeurt er iets? Dan past het andere woord.',
+      nPossessive: 'Bijna! Vraag: van wie is het? Dan past het andere woord.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -106,9 +119,9 @@
   var PronounActivity = {
     id: 'pronoun-activity',
     strings: {
-      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie', pt: 'A Chapelaria da Hattie', it: 'La cappelleria di Hattie' },
-      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!', pt: 'Dê à Hattie a palavra certa — a que encaixa na frase!', it: 'Dai a Hattie la parola giusta: quella che va bene nella frase!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}' }
+      title: { en: 'The Borrowed Hat', de: 'Hatties Hutladen', fr: 'La boutique de Hattie', es: 'La sombrerería de Hattie', pt: 'A Chapelaria da Hattie', it: 'La cappelleria di Hattie', nl: 'Hatties hoedenwinkel' },
+      instruction: { en: 'Give the character the right word — the one that fits its job!', de: 'Gib Hattie das richtige Wort — das, das in den Satz passt!', fr: 'Donne à Hattie le bon mot — celui qui va dans la phrase !', es: 'Dale a Hattie la palabra correcta: ¡la que sí queda en la oración!', pt: 'Dê à Hattie a palavra certa — a que encaixa na frase!', it: 'Dai a Hattie la parola giusta: quella che va bene nella frase!', nl: 'Geef Hattie het juiste woord — het woord dat in de zin past!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
     },
 
     init: function (api) {
@@ -219,7 +232,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pn-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : 'blank') + ' ' + txt('q');
+        var t = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'gaatje' : 'blank') + ' ' + txt('q');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);
@@ -268,8 +281,8 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'pn-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : LANG === 'es' ? ' o ' : LANG === 'pt' ? ' ou ' : LANG === 'it' ? ' o ' : ' or ');
-      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : 'blank');
+      var chips = pnChips(round).join(LANG === 'de' ? ' oder ' : LANG === 'fr' ? ' ou ' : LANG === 'es' ? ' o ' : LANG === 'pt' ? ' ou ' : LANG === 'it' ? ' o ' : LANG === 'nl' ? ' of ' : ' or ');
+      var sent = String(round.sentence).replace('___', LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'gaatje' : 'blank');
       wrap.innerHTML = '<p>' + sent + ' ' + txt('q') + ' ' + chips + '?</p>';
       return wrap;
     },

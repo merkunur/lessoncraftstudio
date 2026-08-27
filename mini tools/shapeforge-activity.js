@@ -31,7 +31,9 @@
     pt: { triangle: 'triângulo', rhombus: 'losango' },
     /* it — "rombo" È il termine geometrico corretto in italiano (NON un falso amico: rombo = rhombus,
        la forma delle carte/dell'aquilone, appropriata alla classe prima). Entrambi maschili. */
-    it: { triangle: 'triangolo', rhombus: 'rombo' }
+    it: { triangle: 'triangolo', rhombus: 'rombo' },
+    /* nl — native ensemble: formal Groep-3 terms (driehoek, ruit — NOOIT "rombus"). */
+    nl: { triangle: 'driehoek', rhombus: 'ruit' }
   };
   function pname(id) { return (PIECE_L[LANG] && PIECE_L[LANG][id]) || (PIECE_L.en && PIECE_L.en[id]) || id; }
 
@@ -59,22 +61,22 @@
          Dienes, un manipolativo DIVERSO). Forme: triangolo/rombo (rombo È corretto in it)/esagono
          formali; trapezio→"un tetto", parallelogramma→"un mattone storto" (shape-honest; il contenitore
          resta "la lanterna"). Win INVARIABILE ("Ce l'hai fatta!") — i target flettono per genere. */
-      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt', fr: "L'atelier lumineux de Mim", es: 'El taller de luz de Mim', pt: 'A oficina de luz de Mim', it: 'La bottega luminosa di Mim' },
+      title: { en: "Mim's Glow Workshop", de: 'Mims Glühwerkstatt', fr: "L'atelier lumineux de Mim", es: 'El taller de luz de Mim', pt: 'A oficina de luz de Mim', it: 'La bottega luminosa di Mim', nl: 'Mims lichtwerkplaats' },
       instruction: { en: '', de: '' },
-      prompt: { en: 'Forge the shape.', de: 'Bau die Form.', fr: 'Assemble la forme.', es: 'Arma la figura.', pt: 'Monte a figura.', it: 'Costruisci la figura.' },
-      rotate: { en: '↻ Turn', de: '↻ Drehen', fr: '↻ Tourner', es: '↻ Girar', pt: '↻ Girar', it: '↻ Gira' },
-      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!', fr: 'Choisis un éclat, fais-le tourner et assemble la lumière !', es: '¡Elige una pieza, gírala y une la luz!', pt: 'Escolha uma peça, gire e junte a luz!', it: 'Scegli un pezzo, giralo e unisci la luce!' },
-      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨', fr: 'Bravo, tu as réussi ! ✨', es: '¡Lo armaste! ✨', pt: 'Você montou! ✨', it: 'Ce l\'hai fatta! ✨' },
-      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.', fr: 'Fais tourner la pièce, ou choisis-en une autre.', es: 'Intenta girarla o elige otra pieza.', pt: 'Tente girar ou escolha outra peça.', it: 'Prova a girarlo, o scegli un altro pezzo.' },
-      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!', fr: 'Voilà la première façon — trouve maintenant une NOUVELLE façon !', es: '¡Esa fue la primera forma… ahora encuentra una NUEVA!', pt: 'Essa foi a primeira forma… agora encontre uma forma NOVA!', it: 'Questo è il primo modo… ora trovane uno NUOVO!' },
-      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.', fr: 'Touche une pièce en bas pour commencer.', es: 'Toca una pieza de abajo para empezar.', pt: 'Toque em uma peça embaixo para começar.', it: 'Tocca un pezzo qui sotto per iniziare.' },
-      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.', fr: 'Remplis toute la forme, sans laisser de trou.', es: 'Llena cada parte de la figura vacía.', pt: 'Preencha cada parte da figura vazia.', it: 'Riempi ogni parte della figura vuota.' },
-      shardLabel: { en: 'shard: ', de: 'Plättchen: ', fr: 'pièce : ', es: 'pieza: ', pt: 'peça: ', it: 'pezzo: ' },
-      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}', fr: '{piece}, encore {n}', es: '{piece}, quedan {n}', pt: '{piece}, restam {n}', it: '{piece}, restano {n}' },
-      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen', fr: 'éclats lumineux', es: 'piezas brillantes', pt: 'peças brilhantes', it: 'pezzi luminosi' },
-      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen', fr: 'la lanterne vide — assemble des éclats pour la remplir', es: 'la linterna vacía: une las piezas para llenarla', pt: 'a lanterna vazia — junte as peças para preenchê-la', it: 'la lanterna vuota — unisci i pezzi per riempirla' },
-      ariaPlace: { en: 'place here', de: 'hier einsetzen', fr: 'poser ici', es: 'coloca aquí', pt: 'coloque aqui', it: 'metti qui' },
-      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen', fr: '{piece}, posée — touche pour la reprendre', es: '{piece}, colocada: toca para quitarla', pt: '{piece}, colocado — toque para tirar de volta', it: '{piece}, messo — tocca per rimetterlo a posto' }
+      prompt: { en: 'Forge the shape.', de: 'Bau die Form.', fr: 'Assemble la forme.', es: 'Arma la figura.', pt: 'Monte a figura.', it: 'Costruisci la figura.', nl: 'Bouw de vorm.' },
+      rotate: { en: '↻ Turn', de: '↻ Drehen', fr: '↻ Tourner', es: '↻ Girar', pt: '↻ Girar', it: '↻ Gira', nl: '↻ Draai' },
+      sayWelcome: { en: 'Pick a shard, turn it, and fuse the light!', de: 'Such dir ein Leuchtplättchen aus, dreh es und setz das Licht zusammen!', fr: 'Choisis un éclat, fais-le tourner et assemble la lumière !', es: '¡Elige una pieza, gírala y une la luz!', pt: 'Escolha uma peça, gire e junte a luz!', it: 'Scegli un pezzo, giralo e unisci la luce!', nl: 'Kies een vormpje, draai het en voeg het licht samen!' },
+      sayWin: { en: 'You forged it! ✨', de: 'Du hast es gebaut! ✨', fr: 'Bravo, tu as réussi ! ✨', es: '¡Lo armaste! ✨', pt: 'Você montou! ✨', it: 'Ce l\'hai fatta! ✨', nl: 'Je hebt het gebouwd! ✨' },
+      sayIllegal: { en: "Try turning it, or pick another shard.", de: 'Dreh es mal, oder nimm ein anderes Plättchen.', fr: 'Fais tourner la pièce, ou choisis-en une autre.', es: 'Intenta girarla o elige otra pieza.', pt: 'Tente girar ou escolha outra peça.', it: 'Prova a girarlo, o scegli un altro pezzo.', nl: 'Draai het eens, of kies een ander vormpje.' },
+      sayReway: { en: "That's the first way — now find a NEW way!", de: 'Das war der erste Weg – jetzt finde einen NEUEN Weg!', fr: 'Voilà la première façon — trouve maintenant une NOUVELLE façon !', es: '¡Esa fue la primera forma… ahora encuentra una NUEVA!', pt: 'Essa foi a primeira forma… agora encontre uma forma NOVA!', it: 'Questo è il primo modo… ora trovane uno NUOVO!', nl: 'Dat was de eerste manier – zoek nu een NIEUWE manier!' },
+      pickFirst: { en: 'Tap a shard below to begin.', de: 'Tipp unten auf ein Plättchen, um loszulegen.', fr: 'Touche une pièce en bas pour commencer.', es: 'Toca una pieza de abajo para empezar.', pt: 'Toque em uma peça embaixo para começar.', it: 'Tocca un pezzo qui sotto per iniziare.', nl: 'Tik hieronder op een vormpje om te beginnen.' },
+      hintCheck: { en: 'Fill every part of the blank shape.', de: 'Füll jeden Teil der leeren Form aus.', fr: 'Remplis toute la forme, sans laisser de trou.', es: 'Llena cada parte de la figura vacía.', pt: 'Preencha cada parte da figura vazia.', it: 'Riempi ogni parte della figura vuota.', nl: 'Vul elk deel van de lege vorm.' },
+      shardLabel: { en: 'shard: ', de: 'Plättchen: ', fr: 'pièce : ', es: 'pieza: ', pt: 'peça: ', it: 'pezzo: ', nl: 'vormpje: ' },
+      paletteLeft: { en: '{piece}, {n} left', de: '{piece}, noch {n}', fr: '{piece}, encore {n}', es: '{piece}, quedan {n}', pt: '{piece}, restam {n}', it: '{piece}, restano {n}', nl: '{piece}, nog {n}' },
+      ariaShards: { en: 'glowing shards', de: 'leuchtende Plättchen', fr: 'éclats lumineux', es: 'piezas brillantes', pt: 'peças brilhantes', it: 'pezzi luminosi', nl: 'gloeiende vormpjes' },
+      ariaForge: { en: 'the blank lantern — fuse shards to fill it', de: 'die leere Laterne – setz Plättchen zusammen, um sie zu füllen', fr: 'la lanterne vide — assemble des éclats pour la remplir', es: 'la linterna vacía: une las piezas para llenarla', pt: 'a lanterna vazia — junte as peças para preenchê-la', it: 'la lanterna vuota — unisci i pezzi per riempirla', nl: 'de lege lantaarn – voeg vormpjes samen om hem te vullen' },
+      ariaPlace: { en: 'place here', de: 'hier einsetzen', fr: 'poser ici', es: 'coloca aquí', pt: 'coloque aqui', it: 'metti qui', nl: 'hier plaatsen' },
+      ariaRemovable: { en: '{piece}, placed — tap to take it back', de: '{piece}, eingesetzt – tipp drauf, um es zurückzunehmen', fr: '{piece}, posée — touche pour la reprendre', es: '{piece}, colocada: toca para quitarla', pt: '{piece}, colocado — toque para tirar de volta', it: '{piece}, messo — tocca per rimetterlo a posto', nl: '{piece}, geplaatst – tik erop om terug te nemen' }
     },
     defaults: {},
 

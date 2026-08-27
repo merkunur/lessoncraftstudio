@@ -468,6 +468,29 @@
         "De teloefening opbouwen waar plaatswaarde en de tafels later op verdergaan."
       ]
     },
+    "shapeforge.compose.1-g-a-2": {
+      "about": [
+        "Mim de vos is smid in een lichtwerkplaats: samen met je kind smelt zij kleine, gloeiende vormpjes — driehoeken en ruiten — aan elkaar tot grotere figuren. Zo vullen jullie een leeg lantaarnpatroon op en bouwen jullie een ruit, een dak, een zeshoek en nog veel meer. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "De kern is het samenstellen van vlakke figuren: grote vormen zijn opgebouwd uit kleinere, en dezelfde vorm kun je vaak op meer dan één manier bouwen — een zeshoek uit zes driehoeken óf uit drie ruiten. De rondes gaan verder dan alleen opvullen: bouw dezelfde zeshoek nog eens op een nieuwe manier, maak van een figuur een lange balk, bedek een vlak met alléén driehoeken, of laat een half afgebouwde vorm uitgroeien tot een zeshoek. Je kind kiest en draait de vormpjes net zolang tot ze echt passen, zonder gaten en zonder overlap.",
+        "De activiteit sluit aan bij de SLO-kerndoelen, domein Meetkunde, voor Groep 3. Geen timer, geen score — gewoon rustig en speels oefenen met ruimtelijk en meetkundig inzicht."
+      ],
+      "practices": [
+        "Een grotere vorm bouwen uit losse vormpjes: driehoeken en ruiten samenvoegen tot één figuur.",
+        "Een leeg patroon opvullen met vormpjes die precies passen, zonder gaten en zonder overlap.",
+        "Dezelfde vorm op meer dan één manier maken en daarna omvormen tot een nieuwe figuur, zoals een lange balk.",
+        "Een vlak bedekken met één soort vormpje, of een half afgebouwde vorm helemaal afmaken."
+      ],
+      "howToPlay": [
+        "Bekijk het lege lantaarnpatroon en zie welke ruimte je moet vullen.",
+        "Tik op een vormpje, draai het en leg het in de vorm om het patroon op te vullen — of bouw dezelfde vorm eens op een nieuwe manier.",
+        "Past het nog niet helemaal? Leg de vormpjes anders neer en probeer het opnieuw — geen timer, geen score."
+      ],
+      "learningGoals": [
+        "Vlakke figuren samenstellen tot een grotere vorm.",
+        "Begrijpen dat grote vormen zijn opgebouwd uit kleinere, vaak op meer dan één manier.",
+        "De basis leggen voor ruimtelijk inzicht dat later helpt bij meetkunde en breuken."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

@@ -330,19 +330,22 @@
       "en": "penny-alphabet-trace",
       "de": "buchstaben-schreiben-lernen-klasse-1",
       "es": "trazar-las-letras-del-abecedario-primer-grado",
-      "pt": "tracar-as-letras-do-alfabeto"
+      "pt": "tracar-as-letras-do-alfabeto",
+      "it": "tracciare-le-lettere-dell-alfabeto-classe-prima"
     },
     "page_title": {
       "en": "Penny's Alphabet Trace — Write Every Letter A to Z (Kindergarten)",
       "de": "Buchstaben nachspuren – online üben mit Penny dem Stift",
       "es": "Trazar las letras: mayúsculas y minúsculas – 1.º grado",
-      "pt": "Traçar as Letras do Alfabeto — Maiúsculas e Minúsculas (1º ano, BNCC)"
+      "pt": "Traçar as Letras do Alfabeto — Maiúsculas e Minúsculas (1º ano, BNCC)",
+      "it": "Tracciare le lettere: maiuscole e minuscole – Classe prima"
     },
     "page_intro": {
       "en": "Penny the pencil helps you write every letter of the alphabet — all 26 capital letters AND all 26 lowercase letters! Start on the dot and trace each stroke in order to form the letter neatly. A Kindergarten handwriting activity for printing upper- and lowercase letters, aligned to Common Core L.K.1.a.",
       "de": "Nachspuren üben: Buchstaben richtig formen und online nachfahren – mit Penny dem Stift. Kostenlos online üben, ohne Anmeldung.",
       "es": "Actividad interactiva y gratis: los niños trazan y forman las letras mayúsculas y minúsculas siguiendo el punto, en el orden correcto de los trazos. Ideal para 1.º grado.",
-      "pt": "Com a Penny, o lápis, a criança traça as letras do alfabeto começando sempre no ponto e seguindo os traços na ordem certa. São as 26 letras maiúsculas e as 26 minúsculas, uma de cada vez, para treinar o movimento da mão e a forma de cada letra. Atividade alinhada à BNCC, pensada para os primeiros passos da escrita no 1º ano."
+      "pt": "Com a Penny, o lápis, a criança traça as letras do alfabeto começando sempre no ponto e seguindo os traços na ordem certa. São as 26 letras maiúsculas e as 26 minúsculas, uma de cada vez, para treinar o movimento da mão e a forma de cada letra. Atividade alinhada à BNCC, pensada para os primeiros passos da escrita no 1º ano.",
+      "it": "Con Penny la matita il tuo bambino impara a tracciare ogni lettera partendo dal puntino e seguendo i tratti nell’ordine giusto: tutte le 26 maiuscole e le 26 minuscole dell’alfabeto, una alla volta e senza fretta. È un’attività gratuita, senza registrazione, senza timer e senza punteggio, così ci si può esercitare al proprio ritmo. Pensata per la classe prima e allineata alle «Indicazioni nazionali»."
     },
     "kid_prompt_template": "Start on the dot and trace the letter."
   }

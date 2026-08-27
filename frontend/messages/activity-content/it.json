@@ -3941,6 +3941,29 @@
         "Acquisire la direzione e la sequenza giusta dei tratti nella scrittura.",
         "Rafforzare la motricità fine e la sicurezza nel primo approccio alla scrittura a mano."
       ]
+    },
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Le 15:00 e le 3 del pomeriggio sono davvero la stessa ora?",
+        "Chicco il gallo mostra un orario in un formato: il bambino lo legge, pensa alla stessa ora nell’altro formato e tocca la risposta giusta, passando dall’orologio delle 24 ore alla forma colloquiale e ritorno.",
+        "L’attività è allineata alle «Indicazioni nazionali» per la misura del tempo ed è gratis, senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
+      ],
+      "practices": [
+        "Leggere l’orologio delle 24 ore",
+        "Convertire l’ora tra i due formati",
+        "Collegare l’ora alla fascia del giorno",
+        "Consolidare la misura del tempo"
+      ],
+      "howToPlay": [
+        "Leggi l’ora che ti mostra Chicco",
+        "Pensa alla stessa ora nell’altro formato",
+        "Tocca la risposta giusta"
+      ],
+      "learningGoals": [
+        "Leggere e interpretare l’orario sull’orologio delle 24 ore",
+        "Convertire un’ora dal formato 24 ore alla forma delle 12 ore e viceversa",
+        "Associare ogni orario alla fascia della giornata (mattina, pomeriggio, sera)"
+      ]
     }
   }
 }

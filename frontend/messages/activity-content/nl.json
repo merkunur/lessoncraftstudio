@@ -859,6 +859,29 @@
         "Vlot heen en weer schakelen tussen bundelen en ontbundelen, en zo de plaatswaarde van elk cijfer herkennen (groep 4)"
       ]
     },
+    "line-plot.read.2-md-d-9": {
+      "about": [
+        "Shelly de heremietkreeft verzamelt schelpjes op het strand en meet ze allemaal netjes op in centimeters.",
+        "Elke schelp krijgt een kruisje boven het juiste getal, en samen vormen die kruisjes een kruisjesdiagram waarin je in één oogopslag ziet welke lengte het vaakst voorkomt.",
+        "Zo ontdekt je kind spelenderwijs hoe je gemeten gegevens kunt ordenen en aflezen."
+      ],
+      "practices": [
+        "Schelpen opmeten in centimeters",
+        "Gemeten gegevens in een kruisjesdiagram zetten",
+        "Frequenties aflezen: hoeveel zijn even lang, en hoeveel meer?",
+        "Lengtes vergelijken: langer dan, korter dan en het verschil"
+      ],
+      "howToPlay": [
+        "Bekijk de schelp van Shelly en lees af hoe lang die is.",
+        "Tik op het juiste getal op de getallenlijn — er komt meteen een kruisje boven te staan.",
+        "In de leesmodus beantwoord je vragen over het diagram: welke lengte komt het vaakst voor, en wat is het verschil tussen de langste en de kortste schelp?"
+      ],
+      "learningGoals": [
+        "Meetgegevens weergeven in een kruisjesdiagram op een getallenlijn",
+        "Frequenties aflezen en met elkaar vergelijken",
+        "Lengtes ordenen en het verschil tussen langste en kortste bepalen"
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

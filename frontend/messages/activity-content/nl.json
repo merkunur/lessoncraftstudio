@@ -422,6 +422,29 @@
         "Het kind bouwt de basis voor later werken met groter dan en kleiner dan."
       ]
     },
+    "lay-units.measure.1-md-a-2": {
+      "about": [
+        "Inchie de spanrups meet dingen uit de tuin door helpertjes achter elkaar te leggen — langs een potlood, een blad, een lint, een wasco, een wortel of een stokje. Je kind legt gelijke eenheden aansluitend neer, zonder tussenruimte en zonder dat ze over elkaar liggen, en begint precies bij de punt. Daarna tikt je kind op elk helpertje om te tellen hoeveel het lang is. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "Het grote idee is eenvoudig: de lengte is het aantal gelijke eenheden dat past. In sommige rondes wordt een regel gebroken zodat je die goed ziet — een gaatje dat nog dicht moet, helpertjes die over elkaar liggen, een decoy die niet even groot is, of een start die niet bij de punt begint. Er is ook een omkeerronde: eerst meet je hetzelfde blad met grote helpertjes en daarna met kleine. Zo ontdekt je kind zelf dat hoe kleiner de eenheid is, hoe meer je er nodig hebt. Omdat je kind zélf legt en telt, wordt het principe niet verteld maar ontdekt.",
+        "De activiteit sluit aan bij de SLO-kerndoelen, domein “Meten en meetkunde”: meten door afpassen met een niet-standaard eenheid en het inzicht in de eenheidsgrootte horen bij de tussendoelen van groep 4. Geen timer, geen score — gewoon rustig en speels oefenen."
+      ],
+      "practices": [
+        "Gelijke eenheden aansluitend achter elkaar leggen, zonder tussenruimte en zonder overlappen.",
+        "De eerste eenheid precies bij de punt laten beginnen.",
+        "De eenheden tellen om de lengte te bepalen: de lengte is het aantal eenheden.",
+        "Ontdekken dat kleinere eenheden een groter aantal opleveren."
+      ],
+      "howToPlay": [
+        "Leg de helpertjes aansluitend achter elkaar: dicht de gaatjes en haal de overlappingen weg, zodat ze allemaal even groot netjes op een rij liggen.",
+        "Tik op elk helpertje om te tellen hoeveel het lang is en druk daarna op Controleer.",
+        "Klopt het nog niet helemaal? Probeer het rustig opnieuw — geen timer, geen score."
+      ],
+      "learningGoals": [
+        "Lengte meten door dezelfde eenheid steeds opnieuw af te passen.",
+        "Begrijpen dat gaatjes, overlappingen of eenheden van verschillende grootte een verkeerde meting geven.",
+        "Het idee van herhaald afpassen opbouwen, de basis om later een liniaal te leren aflezen."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

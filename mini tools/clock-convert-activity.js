@@ -47,6 +47,13 @@
       win12to24: 'Isso! {given} é {answer}.',
       win24to12: 'Isso! {given} é {answer}.',
       hint: 'Depois do meio-dia, o relógio continua contando: 1 hora da tarde é 13:00.'
+    },
+    it: {
+      q12to24: 'Come si scrive con le 24 ore?',
+      q24to12: 'Come si dice con il momento della giornata?',
+      win12to24: 'Sì! {given} è uguale a {answer}.',
+      win24to12: 'Sì! {given} è uguale a {answer}.',
+      hint: 'Dopo mezzogiorno le 24 ore continuano a contare: le 13:00 sono le ore 1 del pomeriggio.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -79,8 +86,15 @@
   function pt12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + MOMENT_PT[h24]; }
   function ptGivenStr(round) { return round.dir === '12to24' ? pt12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
   function ptOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : pt12str(oh, round.m); }
-  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : LANG === 'fr' ? frGivenStr(round) : LANG === 'es' ? esGivenStr(round) : LANG === 'pt' ? ptGivenStr(round) : Core.givenStr(round); }
-  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : LANG === 'fr' ? frOptionStr(round, oh) : LANG === 'es' ? esOptionStr(round, oh) : LANG === 'pt' ? ptOptionStr(round, oh) : Core.optionStr(round, oh); }
+  /* Italian: 24h side is universal („15:00"); the 12h side becomes „{h12}:{mm} {fascia}"
+     („3:00 del pomeriggio"). MOMENT_IT 0..23 (notte 0-5 / mattino 6-11 / mezzogiorno 12 / pomeriggio 13-18 / sera 19-23;
+     masc mattino+pomeriggio → „del", fem notte+sera + mezzogiorno → „di"; apostrophe-free by construction). */
+  var MOMENT_IT = ['di notte', 'di notte', 'di notte', 'di notte', 'di notte', 'di notte', 'del mattino', 'del mattino', 'del mattino', 'del mattino', 'del mattino', 'del mattino', 'di mezzogiorno', 'del pomeriggio', 'del pomeriggio', 'del pomeriggio', 'del pomeriggio', 'del pomeriggio', 'del pomeriggio', 'di sera', 'di sera', 'di sera', 'di sera', 'di sera'];
+  function it12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + MOMENT_IT[h24]; }
+  function itGivenStr(round) { return round.dir === '12to24' ? it12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
+  function itOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : it12str(oh, round.m); }
+  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : LANG === 'fr' ? frGivenStr(round) : LANG === 'es' ? esGivenStr(round) : LANG === 'pt' ? ptGivenStr(round) : LANG === 'it' ? itGivenStr(round) : Core.givenStr(round); }
+  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : LANG === 'fr' ? frOptionStr(round, oh) : LANG === 'es' ? esOptionStr(round, oh) : LANG === 'pt' ? ptOptionStr(round, oh) : LANG === 'it' ? itOptionStr(round, oh) : Core.optionStr(round, oh); }
 
   function sprocketSVG() {
     /* Sprocket — a rooster (red comb + wattle, orange beak), the time mascot */
@@ -99,8 +113,8 @@
   var ClockConvertActivity = {
     id: 'clock-convert-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Kikos Uhr', fr: 'L’horloge de Sprocket', es: 'El reloj de Quico', pt: 'O relógio do Kiko' },
-      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.', fr: 'Lis l’heure, puis touche la même heure écrite d’une autre façon.', es: 'Lee la hora y luego toca la misma hora escrita de la otra forma.', pt: 'Leia a hora e toque na mesma hora escrita do outro jeito.' },
+      title: { en: "Sprocket's Clock", de: 'Kikos Uhr', fr: 'L’horloge de Sprocket', es: 'El reloj de Quico', pt: 'O relógio do Kiko', it: 'Chicco e il suo orologio' },
+      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.', it: 'Leggi che ora è, poi tocca la stessa ora scritta in un altro modo.', fr: 'Lis l’heure, puis touche la même heure écrite d’une autre façon.', es: 'Lee la hora y luego toca la misma hora escrita de la otra forma.', pt: 'Leia a hora e toque na mesma hora escrita do outro jeito.' },
       q: { en: '{q}' }
     },
 
@@ -251,6 +265,8 @@
         ? '<p>La hora es ' + givenStr(round) + '. ' + promptFor(round) + ' Las opciones son: ' + cs + '.</p>'
         : LANG === 'pt'
         ? '<p>A hora é ' + givenStr(round) + '. ' + promptFor(round) + ' As opções são: ' + cs + '.</p>'
+        : LANG === 'it'
+        ? '<p>Sono le ' + givenStr(round) + '. ' + promptFor(round) + ' Le scelte sono: ' + cs + '.</p>'
         : '<p>The time is ' + givenStr(round) + '. ' + promptFor(round) + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

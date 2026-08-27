@@ -21,30 +21,30 @@
   /* per-noun German label forms (the labels render as bar names AND inside the
      question, so German needs the definite-article nominative per noun). EN → bare label. */
   var LABEL_L10N = {
-    'ribbon': { name: 'Band', nom: 'das Band', frName: 'Ruban', frNom: 'le ruban', esName: 'Listón', esNom: 'el listón', ptName: 'Fita', ptNom: 'a fita', itName: 'Nastro', itNom: 'il nastro' },
-    'string': { name: 'Schnur', nom: 'die Schnur', frName: 'Ficelle', frNom: 'la ficelle', esName: 'Hilo', esNom: 'el hilo', ptName: 'Barbante', ptNom: 'o barbante', itName: 'Spago', itNom: 'lo spago' },
-    'snake': { name: 'Schlange', nom: 'die Schlange', frName: 'Serpent', frNom: 'le serpent', esName: 'Víbora', esNom: 'la víbora', ptName: 'Cobra', ptNom: 'a cobra', itName: 'Serpente', itNom: 'il serpente' },
-    'worm': { name: 'Wurm', nom: 'der Wurm', frName: 'Ver', frNom: 'le ver', esName: 'Gusano', esNom: 'el gusano', ptName: 'Minhoca', ptNom: 'a minhoca', itName: 'Verme', itNom: 'il verme' },
-    'pencil': { name: 'Bleistift', nom: 'der Bleistift', frName: 'Crayon', frNom: 'le crayon', esName: 'Lápiz', esNom: 'el lápiz', ptName: 'Lápis', ptNom: 'o lápis', itName: 'Matita', itNom: 'la matita' },
-    'crayon': { name: 'Buntstift', nom: 'der Buntstift', frName: 'Feutre', frNom: 'le feutre', esName: 'Crayón', esNom: 'el crayón', ptName: 'Canetinha', ptNom: 'a canetinha', itName: 'Pastello', itNom: 'il pastello' },
-    'rope': { name: 'Seil', nom: 'das Seil', frName: 'Corde', frNom: 'la corde', esName: 'Reata', esNom: 'la reata', ptName: 'Corda', ptNom: 'a corda', itName: 'Corda', itNom: 'la corda' },
-    'cord': { name: 'Kordel', nom: 'die Kordel', frName: 'Cordon', frNom: 'le cordon', esName: 'Cordón', esNom: 'el cordón', ptName: 'Cordão', ptNom: 'o cordão', itName: 'Cordino', itNom: 'il cordino' },
-    'scarf': { name: 'Schal', nom: 'der Schal', frName: 'Écharpe', frNom: 'l’écharpe', esName: 'Bufanda', esNom: 'la bufanda', ptName: 'Cachecol', ptNom: 'o cachecol', itName: 'Sciarpa', itNom: 'la sciarpa' },
-    'belt': { name: 'Gürtel', nom: 'der Gürtel', frName: 'Ceinture', frNom: 'la ceinture', esName: 'Cinturón', esNom: 'el cinturón', ptName: 'Cinto', ptNom: 'o cinto', itName: 'Cintura', itNom: 'la cintura' },
-    'leaf': { name: 'Blatt', nom: 'das Blatt', frName: 'Feuille', frNom: 'la feuille', esName: 'Hoja', esNom: 'la hoja', ptName: 'Folha', ptNom: 'a folha', itName: 'Foglia', itNom: 'la foglia' },
-    'seed': { name: 'Samen', nom: 'der Samen', frName: 'Graine', frNom: 'la graine', esName: 'Semilla', esNom: 'la semilla', ptName: 'Semente', ptNom: 'a semente', itName: 'Seme', itNom: 'il seme' },
-    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken', frName: 'Bleue', frNom: 'la bleue', esName: 'Barra azul', esNom: 'la barra azul', ptName: 'Barra azul', ptNom: 'a barra azul', itName: 'Blu', itNom: 'la barra blu' },
-    'red bar': { name: 'roter Balken', nom: 'der rote Balken', frName: 'Rouge', frNom: 'la rouge', esName: 'Barra roja', esNom: 'la barra roja', ptName: 'Barra vermelha', ptNom: 'a barra vermelha', itName: 'Rossa', itNom: 'la barra rossa' },
-    'branch': { name: 'Ast', nom: 'der Ast', frName: 'Branche', frNom: 'la branche', esName: 'Rama', esNom: 'la rama', ptName: 'Galho', ptNom: 'o galho', itName: 'Ramo', itNom: 'il ramo' },
-    'twig': { name: 'Zweig', nom: 'der Zweig', frName: 'Brindille', frNom: 'la brindille', esName: 'Ramita', esNom: 'la ramita', ptName: 'Graveto', ptNom: 'o graveto', itName: 'Rametto', itNom: 'il rametto' }
+    'ribbon': { name: 'Band', nom: 'das Band', frName: 'Ruban', frNom: 'le ruban', esName: 'Listón', esNom: 'el listón', ptName: 'Fita', ptNom: 'a fita', itName: 'Nastro', itNom: 'il nastro', nlName: 'Lint', nlNom: 'het lint' },
+    'string': { name: 'Schnur', nom: 'die Schnur', frName: 'Ficelle', frNom: 'la ficelle', esName: 'Hilo', esNom: 'el hilo', ptName: 'Barbante', ptNom: 'o barbante', itName: 'Spago', itNom: 'lo spago', nlName: 'Touwtje', nlNom: 'het touwtje' },
+    'snake': { name: 'Schlange', nom: 'die Schlange', frName: 'Serpent', frNom: 'le serpent', esName: 'Víbora', esNom: 'la víbora', ptName: 'Cobra', ptNom: 'a cobra', itName: 'Serpente', itNom: 'il serpente', nlName: 'Slang', nlNom: 'de slang' },
+    'worm': { name: 'Wurm', nom: 'der Wurm', frName: 'Ver', frNom: 'le ver', esName: 'Gusano', esNom: 'el gusano', ptName: 'Minhoca', ptNom: 'a minhoca', itName: 'Verme', itNom: 'il verme', nlName: 'Worm', nlNom: 'de worm' },
+    'pencil': { name: 'Bleistift', nom: 'der Bleistift', frName: 'Crayon', frNom: 'le crayon', esName: 'Lápiz', esNom: 'el lápiz', ptName: 'Lápis', ptNom: 'o lápis', itName: 'Matita', itNom: 'la matita', nlName: 'Potlood', nlNom: 'het potlood' },
+    'crayon': { name: 'Buntstift', nom: 'der Buntstift', frName: 'Feutre', frNom: 'le feutre', esName: 'Crayón', esNom: 'el crayón', ptName: 'Canetinha', ptNom: 'a canetinha', itName: 'Pastello', itNom: 'il pastello', nlName: 'Krijtje', nlNom: 'het krijtje' },
+    'rope': { name: 'Seil', nom: 'das Seil', frName: 'Corde', frNom: 'la corde', esName: 'Reata', esNom: 'la reata', ptName: 'Corda', ptNom: 'a corda', itName: 'Corda', itNom: 'la corda', nlName: 'Touw', nlNom: 'het touw' },
+    'cord': { name: 'Kordel', nom: 'die Kordel', frName: 'Cordon', frNom: 'le cordon', esName: 'Cordón', esNom: 'el cordón', ptName: 'Cordão', ptNom: 'o cordão', itName: 'Cordino', itNom: 'il cordino', nlName: 'Koord', nlNom: 'het koord' },
+    'scarf': { name: 'Schal', nom: 'der Schal', frName: 'Écharpe', frNom: 'l’écharpe', esName: 'Bufanda', esNom: 'la bufanda', ptName: 'Cachecol', ptNom: 'o cachecol', itName: 'Sciarpa', itNom: 'la sciarpa', nlName: 'Sjaal', nlNom: 'de sjaal' },
+    'belt': { name: 'Gürtel', nom: 'der Gürtel', frName: 'Ceinture', frNom: 'la ceinture', esName: 'Cinturón', esNom: 'el cinturón', ptName: 'Cinto', ptNom: 'o cinto', itName: 'Cintura', itNom: 'la cintura', nlName: 'Riem', nlNom: 'de riem' },
+    'leaf': { name: 'Blatt', nom: 'das Blatt', frName: 'Feuille', frNom: 'la feuille', esName: 'Hoja', esNom: 'la hoja', ptName: 'Folha', ptNom: 'a folha', itName: 'Foglia', itNom: 'la foglia', nlName: 'Blad', nlNom: 'het blad' },
+    'seed': { name: 'Samen', nom: 'der Samen', frName: 'Graine', frNom: 'la graine', esName: 'Semilla', esNom: 'la semilla', ptName: 'Semente', ptNom: 'a semente', itName: 'Seme', itNom: 'il seme', nlName: 'Zaadje', nlNom: 'het zaadje' },
+    'blue bar': { name: 'blauer Balken', nom: 'der blaue Balken', frName: 'Bleue', frNom: 'la bleue', esName: 'Barra azul', esNom: 'la barra azul', ptName: 'Barra azul', ptNom: 'a barra azul', itName: 'Blu', itNom: 'la barra blu', nlName: 'Blauw', nlNom: 'de blauwe strook' },
+    'red bar': { name: 'roter Balken', nom: 'der rote Balken', frName: 'Rouge', frNom: 'la rouge', esName: 'Barra roja', esNom: 'la barra roja', ptName: 'Barra vermelha', ptNom: 'a barra vermelha', itName: 'Rossa', itNom: 'la barra rossa', nlName: 'Rood', nlNom: 'de rode strook' },
+    'branch': { name: 'Ast', nom: 'der Ast', frName: 'Branche', frNom: 'la branche', esName: 'Rama', esNom: 'la rama', ptName: 'Galho', ptNom: 'o galho', itName: 'Ramo', itNom: 'il ramo', nlName: 'Tak', nlNom: 'de tak' },
+    'twig': { name: 'Zweig', nom: 'der Zweig', frName: 'Brindille', frNom: 'la brindille', esName: 'Ramita', esNom: 'la ramita', ptName: 'Graveto', ptNom: 'o graveto', itName: 'Rametto', itNom: 'il rametto', nlName: 'Takje', nlNom: 'het takje' }
   };
   /* it (Indicazioni nazionali, classe seconda): mascot «Spanna, il bruco geometra» (rename of "Span" —
      spanna = the live handspan measure «misurare a spanne»; masculine agreement on «bruco»). qAsk is
      VERB-INITIAL «Quanti cm in più misura {a}?» — names only the longer bar so no di+la=della contraction
      and no lungo/lunga agreement ({b} is dropped, both bars on-screen). ⚠ «lo spago» (s-impura, not «il
      spago»). Strand → «Relazioni, dati e previsioni» (the «Misure e dati» calque is the Common-Core name). */
-  function lblName(label) { return LABEL_L10N[label] ? (LANG === 'de' ? LABEL_L10N[label].name : LANG === 'fr' ? LABEL_L10N[label].frName : LANG === 'es' ? LABEL_L10N[label].esName : LANG === 'pt' ? LABEL_L10N[label].ptName : LANG === 'it' ? LABEL_L10N[label].itName : label) : label; }
-  function lblNom(label) { return LABEL_L10N[label] ? (LANG === 'de' ? LABEL_L10N[label].nom : LANG === 'fr' ? LABEL_L10N[label].frNom : LANG === 'es' ? LABEL_L10N[label].esNom : LANG === 'pt' ? LABEL_L10N[label].ptNom : LANG === 'it' ? LABEL_L10N[label].itNom : label) : label; }
+  function lblName(label) { return LABEL_L10N[label] ? (LANG === 'de' ? LABEL_L10N[label].name : LANG === 'fr' ? LABEL_L10N[label].frName : LANG === 'es' ? LABEL_L10N[label].esName : LANG === 'pt' ? LABEL_L10N[label].ptName : LANG === 'it' ? LABEL_L10N[label].itName : LANG === 'nl' ? LABEL_L10N[label].nlName : label) : label; }
+  function lblNom(label) { return LABEL_L10N[label] ? (LANG === 'de' ? LABEL_L10N[label].nom : LANG === 'fr' ? LABEL_L10N[label].frNom : LANG === 'es' ? LABEL_L10N[label].esNom : LANG === 'pt' ? LABEL_L10N[label].ptNom : LANG === 'it' ? LABEL_L10N[label].itNom : LANG === 'nl' ? LABEL_L10N[label].nlNom : label) : label; }
 
   function inchwormSVG(api) {
     return '<svg class="slg-worm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (api && api.t ? api.t('spanName') : 'Span the inchworm') + '">' +
@@ -60,15 +60,15 @@
     id: 'span-length-gap-activity',
 
     strings: {
-      title: { en: "Span's Length Gap", de: 'Wie viel länger?', fr: 'Combien de cm de plus ?', es: '¿Cuánto más mide?', pt: 'Quanto mede a mais?', it: 'Spanna e i centimetri in più' },
-      instruction: { en: 'Read both lengths, then type how much longer the longer one is.', de: 'Lies beide Längen und tippe dann ein, wie viel länger die längere ist.', fr: 'Lis les deux longueurs, puis tape de combien de cm la plus longue dépasse la plus courte.', es: 'Lee las dos longitudes y escribe cuánto más mide la más larga.', pt: 'Leia os dois comprimentos e digite quanto o maior mede a mais.', it: 'Leggi le due lunghezze, poi scrivi quanti cm misura in più quella più lunga.' },
-      prompt: { en: 'Type how much longer it is.', de: 'Tippe ein, wie viel länger die längere ist.', fr: 'Tape de combien de cm la plus longue dépasse la plus courte.', es: 'Escribe cuánto más mide.', pt: 'Digite quanto ele mede a mais.', it: 'Scrivi quanti cm misura in più.' },
-      spanIntro: { en: 'I measure the gap — how much longer is the long one?', de: 'Ich messe den Unterschied – wie viel länger ist der längere?', fr: 'Je mesure la différence de longueur. De combien la plus longue dépasse-t-elle la plus courte ?', es: 'Yo mido la diferencia: ¿cuánto más mide la larga?', pt: 'Eu meço a diferença! Quanto o maior mede a mais?', it: 'Io misuro la differenza! Quanti cm in più misura la più lunga?' },
-      hintAdd: { en: 'Find the difference: take the shorter length from the longer one.', de: 'Finde den Unterschied: Ziehe die kürzere Länge von der längeren ab.', fr: 'Cherche la différence : retire la plus courte de la plus longue.', es: 'Encuentra la diferencia: quítale a la más larga la longitud de la más corta.', pt: 'Ache a diferença: tire o comprimento menor do maior.', it: 'Trova la differenza: togli la lunghezza più corta da quella più lunga.' },
-      win: { en: 'Yes! That is the length gap. 🐛', de: 'Ja! Das ist der Längenunterschied. 🐛', fr: 'Oui ! C’est bien la différence de longueur. 🐛', es: '¡Sí! Esa es la diferencia de longitud. 🐛', pt: 'Isso! Essa é a diferença. 🐛', it: 'Sì! Questa è la differenza di lunghezza. 🐛' },
-      spanName: { en: 'Span the inchworm', de: 'Span, die Spannerraupe', fr: 'Span, la chenille arpenteuse', es: 'Span, la oruga medidora', pt: 'Palmo, a lagarta-mede-palmos', it: 'Spanna, il bruco geometra' },
-      qAsk: { en: 'How much longer is the {a} than the {b}?', de: 'Wie viel länger ist {a} als {b}?', fr: '{a} mesure combien de cm de plus que {b} ?', es: '¿Cuánto más mide {a} que {b}?', pt: 'Quanto {a} mede a mais que {b}?', it: 'Quanti cm in più misura {a}?' },
-      qSolved: { en: 'The {a} is {n} {unit} longer! ✓', de: '{a} ist {n} {unit} länger! ✓', fr: '{a} mesure {n} {unit} de plus ! ✓', es: '{a} mide {n} {unit} más. ✓', pt: '{a} mede {n} {unit} a mais! ✓', it: '{a} misura {n} {unit} in più! ✓' }
+      title: { en: "Span's Length Gap", de: 'Wie viel länger?', fr: 'Combien de cm de plus ?', es: '¿Cuánto más mide?', pt: 'Quanto mede a mais?', it: 'Spanna e i centimetri in più', nl: 'Hoeveel langer?' },
+      instruction: { en: 'Read both lengths, then type how much longer the longer one is.', de: 'Lies beide Längen und tippe dann ein, wie viel länger die längere ist.', fr: 'Lis les deux longueurs, puis tape de combien de cm la plus longue dépasse la plus courte.', es: 'Lee las dos longitudes y escribe cuánto más mide la más larga.', pt: 'Leia os dois comprimentos e digite quanto o maior mede a mais.', it: 'Leggi le due lunghezze, poi scrivi quanti cm misura in più quella più lunga.', nl: 'Lees beide lengtes en typ hoeveel langer de langste is.' },
+      prompt: { en: 'Type how much longer it is.', de: 'Tippe ein, wie viel länger die längere ist.', fr: 'Tape de combien de cm la plus longue dépasse la plus courte.', es: 'Escribe cuánto más mide.', pt: 'Digite quanto ele mede a mais.', it: 'Scrivi quanti cm misura in più.', nl: 'Typ hoeveel langer het is.' },
+      spanIntro: { en: 'I measure the gap — how much longer is the long one?', de: 'Ich messe den Unterschied – wie viel länger ist der längere?', fr: 'Je mesure la différence de longueur. De combien la plus longue dépasse-t-elle la plus courte ?', es: 'Yo mido la diferencia: ¿cuánto más mide la larga?', pt: 'Eu meço a diferença! Quanto o maior mede a mais?', it: 'Io misuro la differenza! Quanti cm in più misura la più lunga?', nl: 'Ik meet het verschil — hoeveel langer is de langste?' },
+      hintAdd: { en: 'Find the difference: take the shorter length from the longer one.', de: 'Finde den Unterschied: Ziehe die kürzere Länge von der längeren ab.', fr: 'Cherche la différence : retire la plus courte de la plus longue.', es: 'Encuentra la diferencia: quítale a la más larga la longitud de la más corta.', pt: 'Ache a diferença: tire o comprimento menor do maior.', it: 'Trova la differenza: togli la lunghezza più corta da quella più lunga.', nl: 'Zoek het verschil: trek de kortste lengte van de langste af.' },
+      win: { en: 'Yes! That is the length gap. 🐛', de: 'Ja! Das ist der Längenunterschied. 🐛', fr: 'Oui ! C’est bien la différence de longueur. 🐛', es: '¡Sí! Esa es la diferencia de longitud. 🐛', pt: 'Isso! Essa é a diferença. 🐛', it: 'Sì! Questa è la differenza di lunghezza. 🐛', nl: 'Ja! Dat is het lengteverschil. 🐛' },
+      spanName: { en: 'Span the inchworm', de: 'Span, die Spannerraupe', fr: 'Span, la chenille arpenteuse', es: 'Span, la oruga medidora', pt: 'Palmo, a lagarta-mede-palmos', it: 'Spanna, il bruco geometra', nl: 'Span de spanrups' },
+      qAsk: { en: 'How much longer is the {a} than the {b}?', de: 'Wie viel länger ist {a} als {b}?', fr: '{a} mesure combien de cm de plus que {b} ?', es: '¿Cuánto más mide {a} que {b}?', pt: 'Quanto {a} mede a mais que {b}?', it: 'Quanti cm in più misura {a}?', nl: 'Hoeveel langer is {a} dan {b}?' },
+      qSolved: { en: 'The {a} is {n} {unit} longer! ✓', de: '{a} ist {n} {unit} länger! ✓', fr: '{a} mesure {n} {unit} de plus ! ✓', es: '{a} mide {n} {unit} más. ✓', pt: '{a} mede {n} {unit} a mais! ✓', it: '{a} misura {n} {unit} in più! ✓', nl: '{a} is {n} {unit} langer! ✓' }
     },
     defaults: {},
 
@@ -112,8 +112,8 @@
 
       var q = api.el('div', 'slg-q' + (this.solved ? ' slg-solved' : ''));
       q.textContent = this.solved
-        ? interp(api.t('qSolved'), { a: ((LANG === 'de' || LANG === 'fr' || LANG === 'es' || LANG === 'pt' || LANG === 'it') ? cap(lblNom(v.aLabel)) : v.aLabel), n: Core.answerValue(this.round), unit: v.unit })
-        : interp(api.t('qAsk'), { a: (LANG === 'fr' ? cap(lblNom(v.aLabel)) : (LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it') ? lblNom(v.aLabel) : v.aLabel), b: ((LANG === 'de' || LANG === 'fr' || LANG === 'es' || LANG === 'pt' || LANG === 'it') ? lblNom(v.bLabel) : v.bLabel) });
+        ? interp(api.t('qSolved'), { a: ((LANG === 'de' || LANG === 'fr' || LANG === 'es' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') ? cap(lblNom(v.aLabel)) : v.aLabel), n: Core.answerValue(this.round), unit: v.unit })
+        : interp(api.t('qAsk'), { a: (LANG === 'fr' ? cap(lblNom(v.aLabel)) : (LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') ? lblNom(v.aLabel) : v.aLabel), b: ((LANG === 'de' || LANG === 'fr' || LANG === 'es' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') ? lblNom(v.bLabel) : v.bLabel) });
       root.appendChild(q);
 
       wrap.appendChild(root); stage.appendChild(wrap);

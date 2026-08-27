@@ -4010,6 +4010,29 @@
         "Collegare la parola scritta alla sua immagine.",
         "Leggere l’intera parola per distinguerla da una molto simile."
       ]
+    },
+    "fraction-equiv.same-amount.3-nf-a-3": {
+      "about": [
+        "1/2 e 2/4 sono davvero la stessa quantità? Con Briciola i bambini lo scoprono guardando le barre colorate, non imparando regole a memoria.",
+        "Briciola la topina mostra una frazione di riferimento come barra colorata; il bambino confronta le barre e tocca la frazione che copre esattamente la stessa parte, per esempio 1/2 = 2/4 = 3/6.",
+        "Allineata alle «Indicazioni nazionali», l’attività è gratis, senza registrazione, senza timer e senza punteggio: ogni bambino procede al proprio ritmo."
+      ],
+      "practices": [
+        "Riconoscere le frazioni equivalenti",
+        "Confrontare le frazioni con le barre",
+        "Capire che frazioni diverse valgono uguale",
+        "Consolidare il concetto di frazione"
+      ],
+      "howToPlay": [
+        "Guarda la frazione di Briciola e quanta barra è colorata.",
+        "Confronta le barre delle altre frazioni.",
+        "Tocca quella che mostra la stessa quantità."
+      ],
+      "learningGoals": [
+        "Capire che frazioni scritte in modo diverso possono valere lo stesso.",
+        "Riconoscere frazioni equivalenti confrontando parti uguali di un intero.",
+        "Rafforzare il senso delle frazioni attraverso le rappresentazioni visive."
+      ]
     }
   }
 }

@@ -402,6 +402,107 @@
             ],
             "answer": "flores"
           }
+        ],
+        "it": [
+          {
+            "id": "gatto",
+            "band": 1,
+            "sentence": "Sul muro dormono tre ___.",
+            "chips": [
+              "gatti",
+              "gatto",
+              "gattos"
+            ],
+            "answer": "gatti"
+          },
+          {
+            "id": "libro",
+            "band": 1,
+            "sentence": "Sullo scaffale ci sono molti ___.",
+            "chips": [
+              "libri",
+              "libro",
+              "libre"
+            ],
+            "answer": "libri"
+          },
+          {
+            "id": "lago",
+            "band": 1,
+            "sentence": "In montagna abbiamo visto due ___.",
+            "chips": [
+              "laghi",
+              "lago",
+              "lagi"
+            ],
+            "answer": "laghi"
+          },
+          {
+            "id": "casa",
+            "band": 1,
+            "sentence": "In fondo alla strada ci sono quattro ___.",
+            "chips": [
+              "case",
+              "casa",
+              "casas"
+            ],
+            "answer": "case"
+          },
+          {
+            "id": "penna",
+            "band": 1,
+            "sentence": "Nel mio astuccio ho tante ___.",
+            "chips": [
+              "penne",
+              "penna",
+              "penni"
+            ],
+            "answer": "penne"
+          },
+          {
+            "id": "matita",
+            "band": 1,
+            "sentence": "Per disegnare uso due ___ colorate.",
+            "chips": [
+              "matite",
+              "matita",
+              "matiti"
+            ],
+            "answer": "matite"
+          },
+          {
+            "id": "cane",
+            "band": 1,
+            "sentence": "Nel parco corrono due ___.",
+            "chips": [
+              "cani",
+              "cane",
+              "canes"
+            ],
+            "answer": "cani"
+          },
+          {
+            "id": "fiore",
+            "band": 1,
+            "sentence": "Nel vaso ci sono tanti ___.",
+            "chips": [
+              "fiori",
+              "fiore",
+              "fiores"
+            ],
+            "answer": "fiori"
+          },
+          {
+            "id": "chiave",
+            "band": 1,
+            "sentence": "Nel cassetto ci sono due ___.",
+            "chips": [
+              "chiavi",
+              "chiave",
+              "chiaves"
+            ],
+            "answer": "chiavi"
+          }
         ]
       }
     },
@@ -410,19 +511,22 @@
       "en": "daisy-plate-stack",
       "de": "einzahl-und-mehrzahl-klasse-2",
       "fr": "le-pluriel-des-noms-marque-s-et-x-ce1",
-      "pt": "singular-e-plural-dos-substantivos-2-ano"
+      "pt": "singular-e-plural-dos-substantivos-2-ano",
+      "it": "singolare-e-plurale-dei-nomi-classe-seconda"
     },
     "page_title": {
       "en": "Daisy's Plate Stack — More Than One (Kindergarten)",
       "de": "Einzahl und Mehrzahl – online üben (Klasse 2)",
       "fr": "Singulier et pluriel – exercice en ligne (CE1)",
-      "pt": "Singular e plural: forme o plural dos substantivos – 2º ano"
+      "pt": "Singular e plural: forme o plural dos substantivos – 2º ano",
+      "it": "Singolare e plurale dei nomi — grammatica classe seconda"
     },
     "page_intro": {
       "en": "Daisy the duck plates up the orders, and every order is for more than one. Read each request, then tap the word that names more than one — adding s or es the right way (cups, dishes, boxes). A warm Kindergarten language game about forming regular plural nouns, aligned to Common Core L.K.1.c.",
       "de": "Einzahl und Mehrzahl üben mit Ella der Ente: zu jedem Wort die passende Mehrzahlform finden. Klasse 2 – kostenlos online, ohne Anmeldung.",
       "fr": "Singulier ou pluriel ? Forme le pluriel des noms avec Marguerite la cane, correction immédiate à chaque réponse. Gratuit, en ligne, sans inscription.",
-      "pt": "Nesta atividade grátis de gramática, a Margarida, uma pata muito animada, mostra uma frase com um espaço em branco e três palavrinhas embaixo — é só tocar naquela que está no plural certo. Em português, o plural tem vários jeitos: uns substantivos só ganham um -s, outros mudam mais (balão vira balões!). Tudo sem pressa, sem pontos e no ritmo dos anos iniciais, alinhado à BNCC."
+      "pt": "Nesta atividade grátis de gramática, a Margarida, uma pata muito animada, mostra uma frase com um espaço em branco e três palavrinhas embaixo — é só tocar naquela que está no plural certo. Em português, o plural tem vários jeitos: uns substantivos só ganham um -s, outros mudam mais (balão vira balões!). Tudo sem pressa, sem pontos e no ritmo dos anos iniciais, alinhado à BNCC.",
+      "it": "Margherita la papera accompagna i bambini alla scoperta del plurale dei nomi. Il bambino legge una breve frase con uno spazio vuoto — per esempio «Nel giardino ci sono due ___» — e tocca la parola giusta tra tre proposte: gatto diventa gatti, casa diventa case, cane diventa cani. Un’attività di grammatica gratuita, senza registrazione, senza timer e senza punteggio, pensata per imparare con calma e allineata alle «Indicazioni nazionali»."
     },
     "kid_prompt_template": "daisy-plate-stack"
   }

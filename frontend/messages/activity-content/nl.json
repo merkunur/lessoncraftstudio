@@ -606,6 +606,52 @@
         "Gevoel voor gegevens ontwikkelen: de stap van tellen naar het aflezen van grafieken."
       ]
     },
+    "clock-digital.read-hour.1-md-b-3": {
+      "about": [
+        "Kukel de haan wijst een klok aan en kraait er vrolijk het uur bij: kukeleku! Je kind kijkt naar de wijzers en tikt daarna de digitale tijd aan die erbij hoort, zoals 3 uur of 9 uur. Er zijn drie tijden om uit te kiezen, dus je kind leert écht kijken in plaats van gokken.",
+        "De grote wijzer staat bij een heel uur altijd op de 12. De kleine wijzer wijst dan het uur aan. Dat is de grote ontdekking hier: als de grote wijzer op de 12 staat, hoef je alleen nog naar het getal van de kleine wijzer te kijken. Zo leggen kinderen de eerste, stevige basis voor klokkijken.",
+        "De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd), en werkt zonder tijdsdruk of punten. Kukel blijft altijd vriendelijk: er is geen goed-of-fout-gedoe, alleen rustig oefenen en opnieuw proberen tot het klikt."
+      ],
+      "practices": [
+        "Hele uren aflezen van een analoge klok",
+        "De grote wijzer op de 12 herkennen als \"heel uur\"",
+        "De analoge klok koppelen aan de digitale tijd (3 uur → 3:00)",
+        "Rustig kijken en kiezen uit drie tijden"
+      ],
+      "howToPlay": [
+        "Kijk naar de klok van Kukel en luister naar zijn kukeleku.",
+        "Tik op de digitale tijd die bij de klok hoort.",
+        "Tik op \"Controleer\" om te zien of het klopt — klopt het nog niet? Probeer gewoon opnieuw."
+      ],
+      "learningGoals": [
+        "Je kind kan hele uren op een analoge klok aflezen.",
+        "Je kind weet dat de grote wijzer op de 12 een heel uur betekent.",
+        "Je kind kan de klok koppelen aan de juiste digitale tijd, zoals 7 uur en 7:00."
+      ]
+    },
+    "clock-digital.read-half-hour.1-md-b-3": {
+      "about": [
+        "Kukel de haan laat een klok zien en kraait erbij. Nu gaat het om hele én halve uren: je kind moet dus beide wijzers goed bekijken en daarna de juiste digitale tijd aantikken, zoals 3:00 of 3:30. Uit drie tijden kiest je kind de tijd die echt bij de klok hoort.",
+        "De grote wijzer verklapt alles: staat hij op de 12, dan is het een heel uur; staat hij op de 6, dan is het een half uur. En let op de kleine wijzer — bij half vier (3:30) staat die tussen de 3 en de 4, bijna bij de 4. Daarom zeggen we \"half vier\" en niet \"half drie\": het halve uur kijkt vooruit naar het volgende uur. Juist die stap voorkomt de bekende vergissing waarbij kinderen het verkeerde uur noemen.",
+        "De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) en oefent zonder tijdsdruk of punten. Kukel doet nooit flauw over een misser: je kind mag rustig opnieuw kijken en kiezen, net zo vaak als nodig is."
+      ],
+      "practices": [
+        "Hele én halve uren aflezen van een analoge klok",
+        "Beide wijzers lezen: grote wijzer op de 12 of op de 6",
+        "\"Half vier\" begrijpen als 3:30 (half naar het volgende uur)",
+        "De analoge klok koppelen aan de juiste digitale tijd"
+      ],
+      "howToPlay": [
+        "Kijk goed naar allebei de wijzers op de klok van Kukel.",
+        "Tik op de digitale tijd die erbij hoort — is het een heel uur of een half uur?",
+        "Tik op \"Controleer\" om te kijken of het klopt — nog niet gelukt? Probeer het gerust nog eens."
+      ],
+      "learningGoals": [
+        "Je kind kan hele en halve uren op een analoge klok aflezen.",
+        "Je kind ziet aan de grote wijzer (op de 12 of op de 6) of het een heel of half uur is.",
+        "Je kind snapt dat half vier hetzelfde is als 3:30 en tikt de juiste digitale tijd aan."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

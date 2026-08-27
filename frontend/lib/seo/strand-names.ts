@@ -184,6 +184,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     es: 'Ampliación del vocabulario', // SEP/NEM vocabulary-growth sub-area (es literacy fan-out — prefijos/sufijos; distinct from the grammar strand "Language"→es "Reflexión sobre la lengua"; reused by future es vocabulary activities)
     pt: 'Ampliação do vocabulário', // BNCC LP descriptor within Análise linguística/semiótica (formação de palavras — prefixos/sufixos); DISTINCT from the grammar strand "Language"→pt "Análise linguística/semiótica" (preserves the sibling vocab/grammar split, mirrors es "Ampliación del vocabulario"); pt literacy fan-out — reused by future pt vocabulary activities
     it: 'Lessico', // Indicazioni nazionali area "Acquisizione ed espansione del lessico ricettivo e produttivo" (prefissi/suffissi, arricchimento lessicale); DISTINCT from the grammar strand "Language"→it "Riflessione linguistica" (preserves the vocab/grammar split, mirrors fr "Le lexique"/es "Ampliación del vocabulario"); it literacy fan-out — reused by every future it vocabulary activity
+    nl: 'Woordenschat en woordvorming', // SLO-domein Woordenschat (leergebied Nederlands) — woordvorming/morfologie (voor-/achtervoegsels); DUIDELIJK onderscheiden van de grammatica-strand "Language"→nl "Taal" (behoudt de woordenschat/grammatica-splitsing, mirrors de "Wortschatz untersuchen"/it "Lessico"); nl literacy/vocab fan-out (#22 affix) — herbruikbaar door toekomstige nl woordenschat-activiteiten
   },
   'Number & Operations—Fractions': {
     en: 'Number & Operations—Fractions',

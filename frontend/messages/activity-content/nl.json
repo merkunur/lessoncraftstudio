@@ -767,6 +767,29 @@
         "Je kind leert oppervlakte te tellen in plaats van te oordelen op grootte."
       ]
     },
+    "pond-juice.pour-measure.3-md-a-2": {
+      "about": [
+        "Fenna de kikker heeft een vrolijke sapkraam. De klanten bestellen hun sap niet in glazen, maar in liters: \"Ik wil graag ongeveer 6 liter, alsjeblieft!\" Je kind helpt Fenna door de bestelling in te schatten en de maatbeker precies genoeg te vullen.",
+        "Bij het inschenken is de maatbeker matglas, zodat je het niveau nog niet ziet — je kind moet eerst schatten. Daarna wordt de maatbeker doorzichtig en lees je op de schaal af hoeveel liter er écht in zit. Je kind tikt op het juiste getal. In een ander spel staan er twee maatbekers naast elkaar en vergelijk je ze: in welke zit meer? Alles gaat in hele liters, van 0 tot 10 — géén milliliters en geen omrekenen.",
+        "Belangrijk: het antwoord is wat je afleest, niet je eerste schatting. Zo leert je kind dat schatten en nauwkeurig aflezen twee verschillende stappen zijn die elkaar helpen. Deze activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (inhoud) en werkt zonder tijdsdruk of punten — gewoon rustig oefenen aan de sapkraam."
+      ],
+      "practices": [
+        "Inhoud aflezen op een genummerde schaal in hele liters",
+        "Een hoeveelheid inschatten vóór je de maatbeker afleest",
+        "Twee maatbekers vergelijken: in welke zit meer of minder?",
+        "De liter leren kennen als maat voor inhoud"
+      ],
+      "howToPlay": [
+        "Schenk sap in de maatbeker tot je denkt dat je bij de bestelling zit.",
+        "Lees af: de maatbeker wordt doorzichtig — bekijk waar het niveau op de schaal staat.",
+        "Tik op het juiste aantal liters en controleer je antwoord bij Fenna."
+      ],
+      "learningGoals": [
+        "Je kind kan de inhoud van een maatbeker aflezen in hele liters.",
+        "Je kind kan een hoeveelheid schatten in liters vóór het aflezen.",
+        "Je kind kan twee inhouden met elkaar vergelijken en zeggen in welke meer zit."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

@@ -57,7 +57,8 @@
        (agreement-proof, §A.13.56). "pigne" (unambiguous in Italian — pineapple = "ananas",
        so no gloss needed, unlike es/pt); "funghi"/"fiori" masc, the rest fem → the gender
        trick lives in qMore/qFewer/qTotal via "di {a}". */
-    it: { leaf: 'foglie', berry: 'bacche', acorn: 'ghiande', pinecone: 'pigne', mushroom: 'funghi', flower: 'fiori' }
+    it: { leaf: 'foglie', berry: 'bacche', acorn: 'ghiande', pinecone: 'pigne', mushroom: 'funghi', flower: 'fiori' },
+    nl: { leaf: 'Bladeren', berry: 'Bessen', acorn: 'Eikels', pinecone: 'Dennenappels', mushroom: 'Paddenstoelen', flower: 'Bloemen' }
   };
   function clabel(k) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (CAT_L[lang] && CAT_L[lang][k]) || (CAT_L.en && CAT_L.en[k]) || cdef(k).label; }
 
@@ -183,6 +184,25 @@
       tru: 'Vero', fls: 'Falso',
       announceBar: 'La barra di {label} adesso ha {n}.',
       srCaption: 'Dati del grafico a barre'
+    },
+    /* nl — native ensemble (linguist + Groep-4 data educator). staafdiagram/turftabel/staaf; hekje
+       (het) fence flavour; miss-lines keep the colon form (agreement-proof, §A.13.56); Waar/Niet waar. */
+    nl: {
+      buildLine: 'Lees de turftabel — tik op elk hekje om het op te stapelen!',
+      fixLine: 'Eén hekje klopt niet. Verbeter het zodat het bij de turftabel past!',
+      matchLine: 'Welk staafdiagram past bij de turftabel?',
+      readLine: 'Lees Pips staafdiagram en kies het antwoord.',
+      undo: 'Terug',
+      commit: 'Dat is mijn antwoord!',
+      yes: 'Ja — je hebt het goed afgelezen!',
+      buildDone: 'Het staafdiagram is klaar — goed gestapeld!',
+      missMore: '{A}: {ca}, {B}: {cb} — tel verder vanaf {cb}.',
+      missTotal: '{A}: {ca} en {B}: {cb} — tel ze bij elkaar op.',
+      missVerify: '{A}: {ca}, {B}: {cb}. Kijk nog eens goed!',
+      missMatch: 'Nog niet helemaal — vergelijk elke staaf met de turftabel.',
+      tru: 'Waar', fls: 'Niet waar',
+      announceBar: 'De {label}-staaf is nu {n}',
+      srCaption: 'Gegevens van het staafdiagram'
     }
   };
   function txt(key) { var lang = (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; return (L[lang] || L.en)[key] || L.en[key] || key; }
@@ -258,15 +278,15 @@
          it — el mismo escudo partitivo: "Quante ce ne sono in più di {a} che di {b}?" — "Quante"
          concuerda con una cantidad femenina implícita ("quantità"), "ce ne sono" es invariable y
          {a}/{b} van en el partitivo "di" → sin acuerdo de género (funghi m / foglie f). */
-      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun', fr: 'La palissade de Pip', es: 'La cerca apilada de Pip', pt: 'A cerca empilhada do Pip', it: 'La staccionata di Pip' },
-      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!', fr: 'Construis un diagramme en barres, puis lis combien il y en a de plus !', es: '¡Construye una gráfica de barras y descubre cuántas hay de más!', pt: 'Monte um gráfico de barras e descubra quantas tem a mais!', it: 'Costruisci un grafico a barre e scopri quante ce ne sono in più!' },
-      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.', fr: 'Construis le diagramme en barres d\'après le tableau de comptage.', es: 'Construye la gráfica para que quede igual al conteo.', pt: 'Monte a cerca para ficar igual à contagem.', it: 'Costruisci la staccionata per farla combaciare con il conteggio.' },
-      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!', fr: 'Une barre est fausse — corrige-la !', es: '¡Una barra está mal, arréglala!', pt: 'Uma barra da cerca está errada — conserte!', it: 'Una barra della staccionata è sbagliata — sistemala!' },
-      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?', fr: 'Quel diagramme correspond au tableau de comptage ?', es: '¿Cuál gráfica coincide con el conteo?', pt: 'Qual cerca combina com a contagem?', it: 'Quale staccionata combacia con il conteggio?' },
-      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?', fr: 'Combien de {a} de plus que de {b} ?', es: '¿Cuántas MÁS hay de {a} que de {b}?', pt: 'Quantas a MAIS tem de {a} do que de {b}?', it: 'Quante ce ne sono in più di {a} che di {b}?' },
-      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?', fr: 'Combien de {a} de moins que de {b} ?', es: '¿Cuántas MENOS hay de {a} que de {b}?', pt: 'Quantas a MENOS tem de {a} do que de {b}?', it: 'Quante ce ne sono in meno di {a} che di {b}?' },
-      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?', fr: 'Combien de {a} et de {b} en tout ?', es: '¿Cuántas hay de {a} y de {b} en TOTAL?', pt: 'Quantas tem de {a} e de {b} no TOTAL?', it: 'Quante ce ne sono in tutto di {a} e di {b}?' },
-      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?', fr: 'Il y a {by} {x} de plus que de {y}. Vrai ou faux ?', es: 'Hay {by} {x} más que {y}. ¿Verdadero o falso?', pt: 'Tem {by} {x} a mais que {y}. Verdadeiro ou falso?', it: 'Ci sono {by} {x} in più di {y}. Vero o falso?' }
+      title: { en: "Pip's Stacking Fence", de: 'Pips Stapelzaun', fr: 'La palissade de Pip', es: 'La cerca apilada de Pip', pt: 'A cerca empilhada do Pip', it: 'La staccionata di Pip', nl: 'Pips stapelhek' },
+      instruction: { en: 'Build a bar graph, then read how many more!', de: 'Baue ein Säulendiagramm und lies dann ab, wie viele mehr!', fr: 'Construis un diagramme en barres, puis lis combien il y en a de plus !', es: '¡Construye una gráfica de barras y descubre cuántas hay de más!', pt: 'Monte um gráfico de barras e descubra quantas tem a mais!', it: 'Costruisci un grafico a barre e scopri quante ce ne sono in più!', nl: 'Bouw een staafdiagram en lees dan af hoeveel meer!' },
+      qBuild: { en: 'Build the fence to match the tally.', de: 'Baue das Säulendiagramm nach der Strichliste.', fr: 'Construis le diagramme en barres d\'après le tableau de comptage.', es: 'Construye la gráfica para que quede igual al conteo.', pt: 'Monte a cerca para ficar igual à contagem.', it: 'Costruisci la staccionata per farla combaciare con il conteggio.', nl: 'Bouw het staafdiagram volgens de turftabel.' },
+      qFix: { en: 'One fence bar is wrong — fix it!', de: 'Eine Säule ist falsch – verbessere sie!', fr: 'Une barre est fausse — corrige-la !', es: '¡Una barra está mal, arréglala!', pt: 'Uma barra da cerca está errada — conserte!', it: 'Una barra della staccionata è sbagliata — sistemala!', nl: 'Eén staaf klopt niet — verbeter hem!' },
+      qMatch: { en: 'Which fence matches the tally?', de: 'Welches Säulendiagramm passt zur Strichliste?', fr: 'Quel diagramme correspond au tableau de comptage ?', es: '¿Cuál gráfica coincide con el conteo?', pt: 'Qual cerca combina com a contagem?', it: 'Quale staccionata combacia con il conteggio?', nl: 'Welk staafdiagram past bij de turftabel?' },
+      qMore: { en: 'How many MORE {a} than {b}?', de: 'Wie viele {a} mehr als {b}?', fr: 'Combien de {a} de plus que de {b} ?', es: '¿Cuántas MÁS hay de {a} que de {b}?', pt: 'Quantas a MAIS tem de {a} do que de {b}?', it: 'Quante ce ne sono in più di {a} che di {b}?', nl: 'Hoeveel meer {a} dan {b}?' },
+      qFewer: { en: 'How many FEWER {a} than {b}?', de: 'Wie viele {a} weniger als {b}?', fr: 'Combien de {a} de moins que de {b} ?', es: '¿Cuántas MENOS hay de {a} que de {b}?', pt: 'Quantas a MENOS tem de {a} do que de {b}?', it: 'Quante ce ne sono in meno di {a} che di {b}?', nl: 'Hoeveel minder {a} dan {b}?' },
+      qTotal: { en: 'How many {a} and {b} TOGETHER?', de: 'Wie viele {a} und {b} zusammen?', fr: 'Combien de {a} et de {b} en tout ?', es: '¿Cuántas hay de {a} y de {b} en TOTAL?', pt: 'Quantas tem de {a} e de {b} no TOTAL?', it: 'Quante ce ne sono in tutto di {a} e di {b}?', nl: 'Hoeveel {a} en {b} samen?' },
+      qVerify: { en: '{x} beat {y} by {by}. True or false?', de: 'Es gibt {by} {x} mehr als {y}. Stimmt das?', fr: 'Il y a {by} {x} de plus que de {y}. Vrai ou faux ?', es: 'Hay {by} {x} más que {y}. ¿Verdadero o falso?', pt: 'Tem {by} {x} a mais que {y}. Verdadeiro ou falso?', it: 'Ci sono {by} {x} in più di {y}. Vero o falso?', nl: 'Er zijn {by} {x} meer dan {y}. Waar of niet waar?' }
     },
 
     init: function (api) {

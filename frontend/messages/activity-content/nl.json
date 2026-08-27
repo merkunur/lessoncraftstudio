@@ -721,6 +721,29 @@
         "Je kind versterkt zijn getalbegrip en gevoel voor de getallenrij door getallen steeds opnieuw te ordenen en te vergelijken."
       ]
     },
+    "span-length-gap.how-much-longer.2-md-a-4": {
+      "about": [
+        "Span de spanrups meet dolgraag alles wat hij tegenkomt. In deze oefening laat hij je kind telkens twee stroken zien die niet even lang zijn. Bij elke strook staat een voorwerp met zijn lengte in cm — bijvoorbeeld \"lint 8 cm\" en \"touwtje 5 cm\". Je kind leest allebei de lengtes rustig af en kijkt welke strook de langste is.",
+        "Daarna komt de vraag: hoeveel langer is de langste strook? Je kind rekent het lengteverschil uit door de kortste lengte van de langste af te halen (8 cm − 5 cm = 3 cm) en typt het antwoord op het toetsenblok. Alle lengtes liggen tussen 1 en 20 cm, dus het rekenen blijft overzichtelijk en dicht bij wat je kind al kent.",
+        "Dit is de derde stap in de lengte-lijn: eerst dingen ordenen op lengte, dan meten met een maat, en nu het verschil tussen twee lengtes bepalen. De oefening sluit aan bij de SLO-kerndoelen voor meten en meetkunde (lengte) en werkt zonder tijdsdruk of punten, zodat je kind op zijn eigen tempo kan oefenen."
+      ],
+      "practices": [
+        "Twee lengtes in cm aflezen en vergelijken",
+        "Zien welke strook langer of korter is",
+        "Het lengteverschil uitrekenen door aftrekken",
+        "Een antwoord met de eenheid \"cm\" geven"
+      ],
+      "howToPlay": [
+        "Lees de lengte van allebei de stroken in cm.",
+        "Reken uit hoeveel langer de langste strook is (haal de kortste eraf).",
+        "Typ het verschil op het toetsenblok en laat Span je antwoord nakijken."
+      ],
+      "learningGoals": [
+        "Je kind leert twee lengtes in cm nauwkeurig aflezen.",
+        "Je kind leert het lengteverschil berekenen door de kortste lengte van de langste af te trekken.",
+        "Je kind leert het antwoord als maat met de eenheid \"cm\" te geven."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

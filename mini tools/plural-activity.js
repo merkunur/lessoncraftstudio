@@ -71,6 +71,21 @@
       nChange: '«{sing}» è una parola speciale: cambia, e in italiano non si aggiunge la -s! Guarda di nuovo!',
       nNoChange: '«{sing}» resta uguale per tanti: non aggiungere la -s! Guarda di nuovo!',
       srMirror: '{q} La parola è «{sing}». Scelte: {chips}.'
+    },
+    /* nl (SLO-kerndoelen, Groep 4; leergebied Taal / meervoudsspelling; strand «Language» → «Taal» via
+       strand-names.ts, GEEN override): mascotte «Parel» (localize «Pearl»). ⚠ Nederlands gebruikt WÉL -s voor
+       een hele woordklasse (tafels, auto's), dus de framing is WOORD-SPECIFIEK — «dit woord krijgt een bijzonder
+       meervoud, niet zomaar met -s», NOOIT «een meervoud is nooit -s». roundsL10n.nl = 9 bijzondere meervouden
+       (3 verenkeling boom→bomen / 3 verdubbeling man→mannen / 1 f→v brief→brieven / 1 s→z huis→huizen / 1 -eren
+       kind→kinderen); elk +s-tegel is een echt-fout niet-woord. Aanhalingstekens ‚…' = U+201A + U+2019 (veilig
+       in JS single-quoted literals). GRADE Groep 4 auto (grade '2'). */
+    nl: {
+      q: '{q}',
+      win: 'Ja! {note}', winNote: 'een bijzonder meervoud, niet zomaar met -s!',
+      hear: '🔊 Beluisteren',
+      nChange: '‘{sing}’ krijgt een bijzonder meervoud: je verandert iets in het woord en zet er niet zomaar een -s achter. Kijk nog eens!',
+      nNoChange: '‘{sing}’ blijft hetzelfde — er komt geen -s bij! Kijk nog eens!',
+      srMirror: '{q} Het woord is ‘{sing}’. Keuze: {chips}.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -91,9 +106,9 @@
   var PluralActivity = {
     id: 'plural-activity',
     strings: {
-      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola', it: 'Lo stagno di Perla' },
-      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}' }
+      title: { en: 'The Doubling Pond', de: 'Pearls Mehrzahl-Teich', fr: 'L’étang de Perle : les pluriels', es: 'El estanque de Pearl', pt: 'O Lago da Pérola', it: 'Lo stagno di Perla', nl: 'Parels meervoud-vijver' },
+      instruction: { en: 'Pick the right plural — the special word, not the lazy +s!', de: 'Tippe die richtige Mehrzahl – das besondere Wort mit Umlaut, nicht einfach mit -s!', fr: 'Touche le bon pluriel — la forme spéciale, pas seulement un -s !', es: 'Elige el plural correcto: la palabra especial, ¡no siempre basta con -s!', pt: 'Escolha o plural certo — a palavra especial, não é só juntar um s!', it: 'Scegli il plurale giusto: la parola cambia in modo speciale, non con la -s!', nl: 'Tik op het juiste meervoud — dit woord krijgt een bijzonder meervoud, niet zomaar met -s!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
     },
 
     init: function (api) {
@@ -205,7 +220,7 @@
       /* Hear it */
       var self = this, hear = el('button', 'pl-hear'); hear.type = 'button'; hear.textContent = txt('hear');
       hear.addEventListener('click', function () {
-        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : LANG === 'es' ? ('«' + round.singular + '» en plural. ¿Cuál es el correcto?') : LANG === 'pt' ? ('Mais de um “' + round.singular + '”. Qual é o plural certo?') : LANG === 'it' ? ('Il plurale di «' + round.singular + '». Qual è quello giusto?') : ('More than one ' + round.singular + '. Which one is right?');
+        var t = LANG === 'de' ? ('Mehr als ein ‚' + round.singular + '‘. Welche Mehrzahl ist richtig?') : LANG === 'fr' ? ('Plus d’un « ' + round.singular + ' ». Quel est le bon pluriel ?') : LANG === 'es' ? ('«' + round.singular + '» en plural. ¿Cuál es el correcto?') : LANG === 'pt' ? ('Mais de um “' + round.singular + '”. Qual é o plural certo?') : LANG === 'it' ? ('Il plurale di «' + round.singular + '». Qual è quello giusto?') : LANG === 'nl' ? ('Meer dan één ' + round.singular + '. Welk meervoud is juist?') : ('More than one ' + round.singular + '. Which one is right?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
       root.appendChild(hear);

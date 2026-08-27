@@ -17,7 +17,7 @@
 
   var Core = global.SoundBoxesCore;
   var LANG = 'en';   // #106 — set in init from api.lang
-  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' }, pt: { b: 'inicial', m: 'do meio', e: 'final' } };
+  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' }, pt: { b: 'inicial', m: 'do meio', e: 'final' }, it: { b: 'iniziale', m: 'centrale', e: 'finale' } };
   var BOX_INDEX = { b: 0, m: 1, e: 2 };
 
   var L = {
@@ -60,12 +60,22 @@
       nudgeFirst: 'Quase! Escute o comecinho: qual começa como {t}?',
       nudgeMid: 'Quase! Escute o meio: qual tem o mesmo som no meio que {t}?',
       nudgeLast: 'Quase! Escute o finalzinho: qual termina como {t}?'
+    },
+    it: {
+      qFirst: 'Quale inizia come {t}?',
+      qMid: 'Quale ha lo stesso suono centrale di {t}?',
+      qLast: 'Quale finisce come {t}?',
+      win: 'Sì! {t} e {m} hanno lo stesso suono {pos}! 🐨',
+      hear: '🔊 Ascolta',
+      nudgeFirst: 'Non ancora. Ascolta di nuovo il primo suono di {t}.',
+      nudgeMid: 'Quasi! Ascolta di nuovo il suono centrale di {t}.',
+      nudgeLast: 'Quasi! Ascolta di nuovo come finisce {t}.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
-  function wordOf(w) { return ((LANG === 'de' || LANG === 'es' || LANG === 'pt') && w && w.word) ? w.word : cap(w && w.noun); }
+  function wordOf(w) { return ((LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it') && w && w.word) ? w.word : cap(w && w.noun); }
   function imgUrl(w) { return '/image-library-webp/themes/' + w.themeDir + '/' + w.noun + '@2x.webp'; }
 
   function cocoSVG() {
@@ -83,8 +93,8 @@
   var SoundBoxesActivity = {
     id: 'sound-boxes-activity',
     strings: {
-      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala', pt: 'As caixas de som do Téo' },
-      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.', pt: 'Ouça a palavra do Téo e veja qual caixinha acende — o som do início, do meio ou do fim. Toque na figura que tem esse mesmo som!' },
+      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala', pt: 'As caixas de som do Téo', it: 'Nino il koala' },
+      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.', pt: 'Ouça a palavra do Téo e veja qual caixinha acende — o som do início, do meio ou do fim. Toque na figura que tem esse mesmo som!', it: 'Ascolta il primo suono, quello centrale e quello finale. Tocca la figura che ha lo stesso suono!' },
       q: { en: '{q}' }
     },
 
@@ -252,7 +262,7 @@
       var wrap = el('div', 'sb-sronly'); wrap.setAttribute('aria-live', 'polite');
       var cs = (round.options || []).map(function (x) { return wordOf(x); }).join(', ');
       var q = txt(this._qKey(round.position), { t: wordOf(round.target) });
-      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : LANG === 'pt' ? ('<p>' + q + ' As opções são: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
+      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : LANG === 'pt' ? ('<p>' + q + ' As opções são: ' + cs + '.</p>') : LANG === 'it' ? ('<p>' + q + ' Le scelte sono: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
       return wrap;
     },
 

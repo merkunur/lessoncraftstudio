@@ -1389,6 +1389,350 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "sb-it-naso-first",
+            "position": "b",
+            "target": {
+              "noun": "nose",
+              "themeDir": "body parts",
+              "word": "Naso",
+              "b": "n",
+              "m": "s",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "ship",
+                "themeDir": "vehicles",
+                "word": "Nave",
+                "b": "n",
+                "m": "v",
+                "e": "e"
+              },
+              {
+                "noun": "cat",
+                "themeDir": "animals",
+                "word": "Gatto",
+                "b": "g",
+                "m": "t",
+                "e": "o"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "beach",
+                "word": "Sole",
+                "b": "s",
+                "m": "l",
+                "e": "e"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-sole-first",
+            "position": "b",
+            "target": {
+              "noun": "sun",
+              "themeDir": "beach",
+              "word": "Sole",
+              "b": "s",
+              "m": "l",
+              "e": "e"
+            },
+            "options": [
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "Sale",
+                "b": "s",
+                "m": "l",
+                "e": "e"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "word": "Mela",
+                "b": "m",
+                "m": "l",
+                "e": "a"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "camping",
+                "word": "Rana",
+                "b": "r",
+                "m": "n",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-luna-first",
+            "position": "b",
+            "target": {
+              "noun": "moon",
+              "themeDir": "camping",
+              "word": "Luna",
+              "b": "l",
+              "m": "n",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lupo",
+                "b": "l",
+                "m": "p",
+                "e": "o"
+              },
+              {
+                "noun": "hand",
+                "themeDir": "body parts",
+                "word": "Mano",
+                "b": "m",
+                "m": "n",
+                "e": "o"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "camping",
+                "word": "Rana",
+                "b": "r",
+                "m": "n",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-gatto-last",
+            "position": "e",
+            "target": {
+              "noun": "cat",
+              "themeDir": "animals",
+              "word": "Gatto",
+              "b": "g",
+              "m": "t",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo",
+                "b": "t",
+                "m": "p",
+                "e": "o"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "camping",
+                "word": "Luna",
+                "b": "l",
+                "m": "n",
+                "e": "a"
+              },
+              {
+                "noun": "dog",
+                "themeDir": "animals",
+                "word": "Cane",
+                "b": "k",
+                "m": "n",
+                "e": "e"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-mela-last",
+            "position": "e",
+            "target": {
+              "noun": "apple",
+              "themeDir": "At the Supermarket",
+              "word": "Mela",
+              "b": "m",
+              "m": "l",
+              "e": "a"
+            },
+            "options": [
+              {
+                "noun": "pear",
+                "themeDir": "At the Supermarket",
+                "word": "Pera",
+                "b": "p",
+                "m": "r",
+                "e": "a"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "beach",
+                "word": "Sole",
+                "b": "s",
+                "m": "l",
+                "e": "e"
+              },
+              {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lupo",
+                "b": "l",
+                "m": "p",
+                "e": "o"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-cane-last",
+            "position": "e",
+            "target": {
+              "noun": "dog",
+              "themeDir": "animals",
+              "word": "Cane",
+              "b": "k",
+              "m": "n",
+              "e": "e"
+            },
+            "options": [
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "Pane",
+                "b": "p",
+                "m": "n",
+                "e": "e"
+              },
+              {
+                "noun": "cat",
+                "themeDir": "animals",
+                "word": "Gatto",
+                "b": "g",
+                "m": "t",
+                "e": "o"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "camping",
+                "word": "Rana",
+                "b": "r",
+                "m": "n",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-mano-mid",
+            "position": "m",
+            "target": {
+              "noun": "hand",
+              "themeDir": "body parts",
+              "word": "Mano",
+              "b": "m",
+              "m": "n",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "moon",
+                "themeDir": "camping",
+                "word": "Luna",
+                "b": "l",
+                "m": "n",
+                "e": "a"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo",
+                "b": "t",
+                "m": "p",
+                "e": "o"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "Sale",
+                "b": "s",
+                "m": "l",
+                "e": "e"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-naso-mid",
+            "position": "m",
+            "target": {
+              "noun": "nose",
+              "themeDir": "body parts",
+              "word": "Naso",
+              "b": "n",
+              "m": "s",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "vase",
+                "themeDir": "around the house",
+                "word": "Vaso",
+                "b": "v",
+                "m": "s",
+                "e": "o"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo",
+                "b": "t",
+                "m": "p",
+                "e": "o"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "word": "Mela",
+                "b": "m",
+                "m": "l",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-it-topo-mid",
+            "position": "m",
+            "target": {
+              "noun": "mouse",
+              "themeDir": "forest creatures",
+              "word": "Topo",
+              "b": "t",
+              "m": "p",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lupo",
+                "b": "l",
+                "m": "p",
+                "e": "o"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "camping",
+                "word": "Luna",
+                "b": "l",
+                "m": "n",
+                "e": "a"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "beach",
+                "word": "Sole",
+                "b": "s",
+                "m": "l",
+                "e": "e"
+              }
+            ]
+          }
         ]
       }
     },
@@ -1396,19 +1740,22 @@
       "en": "sound-boxes-first-middle-last",
       "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1",
       "es": "sonido-inicial-medio-y-final-conciencia-fonemica-primer-grado",
-      "pt": "som-inicial-do-meio-e-final-consciencia-fonemica-1-ano"
+      "pt": "som-inicial-do-meio-e-final-consciencia-fonemica-1-ano",
+      "it": "suono-iniziale-centrale-e-finale-consapevolezza-fonologica-classe-prima"
     },
     "page_title": {
       "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
       "de": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)",
       "es": "Los sonidos de las palabras: inicial, de en medio y final – 1.º grado",
-      "pt": "Os sons das palavras: inicial, do meio e final – 1º ano"
+      "pt": "Os sons das palavras: inicial, do meio e final – 1º ano",
+      "it": "Nino il koala: suono iniziale, centrale e finale — classe prima"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
       "de": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1.",
       "es": "Actividad interactiva y gratis de conciencia fonémica: tu hijo/a escucha una palabra corta y encuentra otra con el mismo sonido inicial, de en medio o final. Con Coco el koala. Ideal para 1.º grado.",
-      "pt": "Com Téo, o coala que ouve com muita atenção, sua criança escuta uma palavra curtinha e procura outra que tenha o mesmo som — no começo, no meio ou no fim. Tudo é falado em voz alta, então os fones de ouvido são recomendados. É grátis, sem pressa e sem pontos, alinhado à BNCC para o início da alfabetização."
+      "pt": "Com Téo, o coala que ouve com muita atenção, sua criança escuta uma palavra curtinha e procura outra que tenha o mesmo som — no começo, no meio ou no fim. Tudo é falado em voz alta, então os fones de ouvido são recomendados. É grátis, sem pressa e sem pontos, alinhado à BNCC para o início da alfabetização.",
+      "it": "Con Nino il koala, tuo figlio impara ad ascoltare i suoni nascosti dentro le parole: il suono iniziale, quello centrale e quello finale. Nino pronuncia una parola, si illumina la casella del suono da cercare e il bambino tocca la figura che ha lo stesso suono in quella posizione. Un gioco caldo e senza fretta per la classe prima, gratuito e senza registrazione, senza timer né punteggio, allineato alle «Indicazioni nazionali»."
     },
     "kid_prompt_template": "sound-boxes"
   }

@@ -3964,6 +3964,29 @@
         "Convertire un’ora dal formato 24 ore alla forma delle 12 ore e viceversa",
         "Associare ogni orario alla fascia della giornata (mattina, pomeriggio, sera)"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Quanti suoni si nascondono dentro una parola? «Sole» comincia con /s/, «gatto» finisce con /o/: imparare a sentirli è il primo passo verso la lettura.",
+        "Nino il koala pronuncia una parola, poi si illumina una casella — il suono iniziale, centrale o finale — e il bambino tocca la figura che ha lo stesso suono in quella posizione.",
+        "Allineato alle «Indicazioni nazionali», è gratis e senza registrazione, senza timer e senza punteggio: ogni bambino gioca al proprio ritmo."
+      ],
+      "practices": [
+        "Riconoscere il suono iniziale delle parole",
+        "Isolare il suono centrale e quello finale",
+        "Sviluppare la consapevolezza fonologica e fonemica",
+        "Prepararsi alla letto-scrittura"
+      ],
+      "howToPlay": [
+        "Ascolta la parola che dice Nino",
+        "Guarda quale casella del suono si accende",
+        "Tocca la figura che ha lo stesso suono"
+      ],
+      "learningGoals": [
+        "Ascoltare e isolare i singoli suoni di una parola",
+        "Distinguere il suono iniziale, centrale e finale",
+        "Costruire le basi fonologiche per leggere e scrivere"
+      ]
     }
   }
 }

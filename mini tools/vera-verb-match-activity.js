@@ -23,13 +23,18 @@
      forms io/uno/tanti, the estar-cognate, a first-taught irregular verb. ⚠ FENCE: rounds are LOCATION + «sta bene»
      ONLY (never state-adjectives — «sta stanco» is a Spanishism; standard = «è stanco»). */
   var FORMS_IT = ['sto', 'sta', 'stanno'];
-  var FORMS_L10N = { de: FORMS_DE, fr: FORMS_FR, es: FORMS_ES, pt: FORMS_PT, it: FORMS_IT };
+  /* nl (#29 fan-out): the copula = ZIJN (ben/is/zijn) — the native Dutch «to be», 3 CLEAN distinct
+     forms [ik / één ding / meer], the direct analogue of DE sein (bin/ist/sind) + EN (am/is/are). NO
+     estar-substitute (Dutch has no ser/estar split). "bent" (jij, 2sg) is DELIBERATELY omitted to keep
+     3 cards — like DE omits "du bist"; no round uses a jij/je subject. */
+  var FORMS_NL = ['ben', 'is', 'zijn'];
+  var FORMS_L10N = { de: FORMS_DE, fr: FORMS_FR, es: FORMS_ES, pt: FORMS_PT, it: FORMS_IT, nl: FORMS_NL };
   function vvmForms() { return FORMS_L10N[LANG] || Core.FORMS; }
   function vvmGrade(round, id) { return vvmForms()[id] === round.correct; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -49,13 +54,13 @@
     id: 'vera-verb-match-activity',
 
     strings: {
-      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt', fr: 'Vera et le verbe être', es: 'Vera y el verbo estar', pt: 'Vera e o verbo estar', it: 'Vera e il verbo stare' },
-      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.', fr: 'Touche la bonne forme : suis, est ou sont.', es: 'Toca la forma correcta: estoy, está o están.', pt: 'Toque na forma certa: estou, está ou estão.', it: 'Tocca la forma giusta: sto, sta, stanno.' },
-      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?', fr: 'Quelle forme va dans la phrase ?', es: '¿Qué forma va en la oración?', pt: 'Qual forma completa a frase?', it: 'Quale forma completa la frase?' },
-      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!', fr: 'je → suis, un seul → est, plusieurs → sont', es: 'Recuerda: «estoy» con yo, «está» con uno, «están» con varios.', pt: 'Lembre: “estou” (eu), “está” (um), “estão” (vários).', it: 'Ricorda: «sto» io, «sta» uno, «stanno» tanti!' },
-      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.', fr: 'Touche d’abord suis, est ou sont.', es: 'Toca primero estoy, está o están.', pt: 'Leia a frase e toque em uma forma!', it: 'Leggi la frase e tocca una forma!' },
-      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!', fr: 'Regarde le sujet : un seul ou plusieurs ? Essaie encore !', es: 'Mira el sujeto: ¿uno o varios? ¡Inténtalo de nuevo!', pt: 'Olhe o sujeito de novo: um ou vários? Tente outra vez!', it: 'Guarda il soggetto: io, uno o tanti? Riprova!' },
-      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿', fr: 'Bravo ! Toutes les phrases sont justes. 🌿', es: '¡Muy bien! Todas las oraciones están bien. 🌿', pt: 'Isso! O verbo combina com o sujeito. 🌿', it: 'Sì! Il verbo va d’accordo con il soggetto. 🌿' }
+      title: { en: "Vera's Verb Match", de: 'Veras Verb-Werkstatt', fr: 'Vera et le verbe être', es: 'Vera y el verbo estar', pt: 'Vera e o verbo estar', it: 'Vera e il verbo stare', nl: "Vera's werkwoordwerkplaats" },
+      instruction: { en: 'Tap am, is, or are to match the subject.', de: 'Tippe die richtige Form: bin, ist oder sind.', fr: 'Touche la bonne forme : suis, est ou sont.', es: 'Toca la forma correcta: estoy, está o están.', pt: 'Toque na forma certa: estou, está ou estão.', it: 'Tocca la forma giusta: sto, sta, stanno.', nl: 'Tik de juiste vorm: ben, is of zijn.' },
+      prompt: { en: 'Tap the verb that matches the subject.', de: 'Welche Form passt in den Satz?', fr: 'Quelle forme va dans la phrase ?', es: '¿Qué forma va en la oración?', pt: 'Qual forma completa a frase?', it: 'Quale forma completa la frase?', nl: 'Welke vorm past in de zin?' },
+      veraIntro: { en: 'AM goes with I, IS with one, ARE with many!', de: 'Merke: „bin" bei ich, „ist" bei einem, „sind" bei vielen!', fr: 'je → suis, un seul → est, plusieurs → sont', es: 'Recuerda: «estoy» con yo, «está» con uno, «están» con varios.', pt: 'Lembre: “estou” (eu), “está” (um), “estão” (vários).', it: 'Ricorda: «sto» io, «sta» uno, «stanno» tanti!', nl: 'Onthoud: ben bij ik, is bij één, zijn bij meer!' },
+      hintPick: { en: 'Is the subject I, one, or many? Pick am, is, or are.', de: 'Tippe zuerst auf bin, ist oder sind.', fr: 'Touche d’abord suis, est ou sont.', es: 'Toca primero estoy, está o están.', pt: 'Leia a frase e toque em uma forma!', it: 'Leggi la frase e tocca una forma!', nl: 'Tik eerst op ben, is of zijn.' },
+      hintWrong: { en: 'Read the subject again — I → am, one → is, many → are.', de: 'Schau aufs Subjekt: einer oder viele? Probier es noch einmal!', fr: 'Regarde le sujet : un seul ou plusieurs ? Essaie encore !', es: 'Mira el sujeto: ¿uno o varios? ¡Inténtalo de nuevo!', pt: 'Olhe o sujeito de novo: um ou vários? Tente outra vez!', it: 'Guarda il soggetto: io, uno o tanti? Riprova!', nl: 'Kijk naar het onderwerp: één of meer? Probeer het nog eens!' },
+      win: { en: 'Yes! The verb matches the subject. 🌿', de: 'Super gemacht! Alle Sätze sind richtig. 🌿', fr: 'Bravo ! Toutes les phrases sont justes. 🌿', es: '¡Muy bien! Todas las oraciones están bien. 🌿', pt: 'Isso! O verbo combina com o sujeito. 🌿', it: 'Sì! Il verbo va d’accordo con il soggetto. 🌿', nl: 'Goed gedaan! Alle zinnen zijn goed. 🌿' }
     },
     defaults: {},
 

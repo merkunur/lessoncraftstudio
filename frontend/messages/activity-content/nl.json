@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "vera-verb-match.be-agreement.l-1-1-c": {
+      "about": [
+        "Vera de woelmuis heeft haar eigen werkwoordwerkplaats, en ze kan jouw hulp goed gebruiken. Bij elke opdracht laat ze een korte zin zien met een gaatje erin, bijvoorbeeld 'De hond ___ in het park.' Jouw kind kiest de juiste vorm van het werkwoord 'zijn' en maakt de zin compleet.",
+        "Onder elke zin staan drie kaartjes: ben, is en zijn. Door goed naar het onderwerp te kijken ontdekt je kind vanzelf dat het werkwoord 'zijn' van vorm verandert: bij ik hoort ben, bij één ding of één persoon hoort is, en bij meer dingen of personen hoort zijn. Zo leert je kind spelenderwijs hoe het onderwerp en het werkwoord bij elkaar passen.",
+        "Er is geen klok, geen puntentelling en geen stress. Je kind werkt rustig in zijn of haar eigen tempo en mag zo vaak oefenen als het wil. De activiteit sluit aan bij de SLO-kerndoelen Nederlands voor groep 4."
+      ],
+      "practices": [
+        "De vormen ben, is en zijn van elkaar onderscheiden",
+        "Het onderwerp en het werkwoord op elkaar afstemmen",
+        "Enkelvoud en meervoud herkennen aan de werkwoordsvorm",
+        "Hele zinnen lezen en goed aanvullen"
+      ],
+      "howToPlay": [
+        "Lees de zin die Vera laat zien en kijk waar het gaatje zit.",
+        "Bekijk het onderwerp: gaat het over ik, over één ding of over meer dingen?",
+        "Tik op het kaartje ben, is of zijn dat de zin goed maakt."
+      ],
+      "learningGoals": [
+        "De juiste vorm van het werkwoord 'zijn' kiezen",
+        "Het onderwerp en het werkwoord op elkaar afstemmen in een zin",
+        "Het verschil tussen enkelvoud en meervoud zien in de werkwoordsvorm"
+      ]
+    },
     "olive-kind-of.category-attribute.l-1-5-b": {
       "about": [
         "Hoog in haar categorieënboom zit uil Olive, en aan elke tak hangt een groep: dier, eten, voertuig, kleding, plant of meubel. Ze laat je kind één plaatje zien met een klein raadseltje erbij — en samen zoeken jullie de goede tak.",

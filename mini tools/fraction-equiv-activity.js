@@ -59,6 +59,14 @@
       hear: '🔊 Ouvir',
       nudge: 'Quase. Essa barra mostra um pouco {rel}. Procure a que está tão cheia quanto {ref}.',
       more: 'mais', fewer: 'menos', less: 'menos'
+    },
+    it: {
+      q: 'Quale frazione mostra la stessa quantità?',
+      win: 'Sì! {ref} e {cand} — la stessa quantità, solo con {dir} pezzi!',
+      winSame: 'Sì! {ref} e {cand} — la stessa quantità, tagliata in un altro modo!',
+      hear: '🔊 Ascolta',
+      nudge: 'Quasi! Quella barra mostra un poco {rel}. Trova quella piena come {ref}.',
+      more: 'più', fewer: 'meno', less: 'meno'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -90,6 +98,15 @@
     var word = FRACNOUN_PT[den] || (den + ' avos');
     if (num > 1) word += 's';
     return (NUMCARD_PT[num] || num) + ' ' + word;
+  }
+  /* spoken Italian fraction word: "un mezzo", "due terzi", "cinque ottavi" (denoms 2/3/4/5/6/8;
+     ordinal masc -o → plural -i for num>1; 1 is "un" [no apostrophe before a vowel: "un ottavo"]). */
+  var NUMCARD_IT = { 1: 'un', 2: 'due', 3: 'tre', 4: 'quattro', 5: 'cinque', 6: 'sei', 7: 'sette' };
+  var FRACNOUN_IT = { 2: 'mezzo', 3: 'terzo', 4: 'quarto', 5: 'quinto', 6: 'sesto', 8: 'ottavo' };
+  function bruchwortIt(num, den) {
+    var word = FRACNOUN_IT[den] || (den + 'esimo');
+    if (num > 1) word = word.replace(/o$/, 'i');
+    return (NUMCARD_IT[num] || num) + ' ' + word;
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function fracStr(f) { return f.num + '/' + f.den; }
@@ -142,9 +159,9 @@
   var FractionEquivActivity = {
     id: 'fraction-equiv-activity',
     strings: {
-      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei", fr: 'La boulangerie de Miette', es: 'La panadería de Migaja', pt: 'A padaria da Migalha' },
-      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.', fr: 'Trouve la fraction qui montre la même quantité que la part de Miette.', es: 'Encuentra la fracción que muestra la misma cantidad que el pedazo de Migaja.', pt: 'Encontre a fração que mostra a mesma quantidade que o pedaço da Migalha.' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}' }
+      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei", fr: 'La boulangerie de Miette', es: 'La panadería de Migaja', pt: 'A padaria da Migalha', it: 'Il forno di Briciola' },
+      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.', fr: 'Trouve la fraction qui montre la même quantité que la part de Miette.', es: 'Encuentra la fracción que muestra la misma cantidad que el pedazo de Migaja.', pt: 'Encontre a fração que mostra a mesma quantidade que o pedaço da Migalha.', it: 'Trova la frazione che mostra la stessa quantità del pezzo di Briciola.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', it: '{q}' }
     },
 
     init: function (api) {
@@ -246,7 +263,7 @@
         var f = round.candidates[ci];
         var b = el('button', 'fe-cand' + (self._nonAns[ci] ? ' dim' : '') + (self._lit === ci ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-ci', ci);
-        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : LANG === 'fr' ? (f.num + ' sur ' + f.den) : LANG === 'es' ? (f.num + ' de ' + f.den) : (f.num + ' over ' + f.den));
+        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : LANG === 'fr' ? (f.num + ' sur ' + f.den) : LANG === 'es' ? (f.num + ' de ' + f.den) : LANG === 'it' ? (f.num + ' su ' + f.den) : (f.num + ' over ' + f.den));
         b.innerHTML = candSVG(f);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[ci] || self._token !== tok) return;
@@ -271,6 +288,8 @@
           ? 'Migaja preparó ' + fraccionwort(round.ref.num, round.ref.den) + '. ' + txt('q')
           : (LANG === 'pt')
           ? 'A Migalha preparou ' + bruchwortPt(round.ref.num, round.ref.den) + '. ' + txt('q')
+          : (LANG === 'it')
+          ? 'Briciola ha preparato ' + bruchwortIt(round.ref.num, round.ref.den) + '. ' + txt('q')
           : 'Crumb made ' + round.ref.num + ' out of ' + round.ref.den + '. ' + txt('q');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
@@ -305,7 +324,7 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'fe-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var sep = LANG === 'de' ? ' von ' : LANG === 'fr' ? ' sur ' : LANG === 'es' ? ' de ' : LANG === 'pt' ? ' de ' : ' over ';
+      var sep = LANG === 'de' ? ' von ' : LANG === 'fr' ? ' sur ' : LANG === 'es' ? ' de ' : LANG === 'pt' ? ' de ' : LANG === 'it' ? ' su ' : ' over ';
       var cs = (round.candidates || []).map(function (x) { return x.num + sep + x.den; }).join(', ');
       wrap.innerHTML = (LANG === 'de')
         ? '<p>Krümels Stück ist ' + round.ref.num + ' von ' + round.ref.den + '. ' + txt('q') + ' Die Auswahl: ' + cs + '.</p>'
@@ -315,6 +334,8 @@
         ? '<p>El pedazo de Migaja es ' + round.ref.num + ' de ' + round.ref.den + '. ' + txt('q') + ' Las opciones son: ' + cs + '.</p>'
         : (LANG === 'pt')
         ? '<p>O pedaço da Migalha é ' + round.ref.num + ' de ' + round.ref.den + '. ' + txt('q') + ' As opções são: ' + cs + '.</p>'
+        : (LANG === 'it')
+        ? '<p>Il pezzo di Briciola è ' + round.ref.num + ' su ' + round.ref.den + '. ' + txt('q') + ' Le opzioni sono: ' + cs + '.</p>'
         : '<p>Crumb’s piece is ' + round.ref.num + ' over ' + round.ref.den + '. ' + txt('q') + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

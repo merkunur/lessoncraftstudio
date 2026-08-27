@@ -454,6 +454,16 @@
           { "id": "it-mare",  "band": 3, "root": "mare",  "correct": "marinaio",  "choices": [ { "word": "marinaio" },  { "word": "martello" },  { "word": "matita" } ] },
           { "id": "it-libro", "band": 3, "root": "libro", "correct": "libreria",  "choices": [ { "word": "libreria" },  { "word": "libellula" }, { "word": "limone" } ] },
           { "id": "it-sale",  "band": 3, "root": "sale",  "correct": "saliera",   "choices": [ { "word": "saliera" },   { "word": "sala" },      { "word": "sasso" } ] }
+        ],
+        "nl": [
+          { "id": "nl-kat",    "band": 1, "root": "kat",    "correct": "katje",       "choices": [ { "word": "katje" },       { "word": "rat" },    { "word": "mat" } ] },
+          { "id": "nl-boom",   "band": 1, "root": "boom",   "correct": "boomhut",     "choices": [ { "word": "boomhut" },     { "word": "droom" },  { "word": "stroom" } ] },
+          { "id": "nl-zon",    "band": 1, "root": "zon",    "correct": "zonnebloem",  "choices": [ { "word": "zonnebloem" },  { "word": "zoon" },   { "word": "ton" } ] },
+          { "id": "nl-school", "band": 2, "root": "school", "correct": "schoolplein", "choices": [ { "word": "schoolplein" }, { "word": "schoen" }, { "word": "stoel" } ] },
+          { "id": "nl-sneeuw", "band": 2, "root": "sneeuw", "correct": "sneeuwbal",   "choices": [ { "word": "sneeuwbal" },   { "word": "leeuw" },  { "word": "meeuw" } ] },
+          { "id": "nl-brand",  "band": 2, "root": "brand",  "correct": "brandweer",   "choices": [ { "word": "brandweer" },   { "word": "krant" },  { "word": "hand" } ] },
+          { "id": "nl-regen",  "band": 3, "root": "regen",  "correct": "regenboog",   "choices": [ { "word": "regenboog" },   { "word": "regel" },  { "word": "tegen" } ] },
+          { "id": "nl-spel",   "band": 3, "root": "spel",   "correct": "speler",      "choices": [ { "word": "speler" },      { "word": "spek" },   { "word": "snel" } ] }
         ]
       }
     },
@@ -464,7 +474,8 @@
       "fr": "les-familles-de-mots-le-radical-ce1",
       "es": "familias-de-palabras-la-raiz-2-primaria",
       "pt": "jardim-de-palavras-da-sage-familia-de-palavras-raiz-2-ano",
-      "it": "famiglie-di-parole-la-radice-classe-seconda"
+      "it": "famiglie-di-parole-la-radice-classe-seconda",
+      "nl": "woordfamilies-woordstam-herkennen-groep-4"
     },
     "page_title": {
       "en": "Sage's Root Garden — Find the Root Word Family (Grade 2)",
@@ -472,7 +483,8 @@
       "fr": "Les familles de mots : le radical – exercice en ligne",
       "es": "Familias de palabras y la raíz: actividad de 2.º primaria",
       "pt": "Jardim de Palavras da Sage: família de palavras (2º ano)",
-      "it": "Le famiglie di parole e la radice (classe seconda)"
+      "it": "Le famiglie di parole e la radice (classe seconda)",
+      "nl": "Sages Woordtuin: woordfamilies & woordstam – groep 4"
     },
     "page_intro": {
       "en": "Sage the tortoise grows word families from a single root! Big words often grow from a smaller root word you already know — farm grows into farmer. Read the root, then tap the word that GROWS from it (watch out for words that just look alike). A Grade 2 vocabulary game about using root words as a clue to meaning, aligned to Common Core L.2.4.c.",
@@ -480,7 +492,8 @@
       "fr": "Les familles de mots au CE1 : retrouve le radical et regroupe les mots de la même famille. Gratuit, en ligne, sans inscription.",
       "es": "Con Sage la tortuga, tu peque encuentra la raíz de una palabra y elige la que crece de la misma familia. Actividad gratis e interactiva de español para 2.º de primaria, alineado a los Planes y programas de estudio (SEP).",
       "pt": "No Jardim de Palavras da Sage, uma tartaruga tranquila, a criança do 2º ano lê a raiz e toca na palavra da mesma família — florzinha vem de flor. No seu ritmo.",
-      "it": "Sage è una gentile tartaruga che coltiva un giardino speciale: il giardino delle parole. Qui si scoprono le famiglie di parole cercando la radice nascosta dentro ogni parola — da «fiore» nasce «fioraio», da «gatto» spunta «gattino». Basta toccare la parola che cresce dalla stessa radice, evitando quelle che le somigliano soltanto. Un'attività gratis, senza registrazione e senza punteggi, tutta nel browser, pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico."
+      "it": "Sage è una gentile tartaruga che coltiva un giardino speciale: il giardino delle parole. Qui si scoprono le famiglie di parole cercando la radice nascosta dentro ogni parola — da «fiore» nasce «fioraio», da «gatto» spunta «gattino». Basta toccare la parola che cresce dalla stessa radice, evitando quelle che le somigliano soltanto. Un'attività gratis, senza registrazione e senza punteggi, tutta nel browser, pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico.",
+      "nl": "Ontdek met Sage de schildpad de woordstam in een woord en kies het juiste woord uit de woordfamilie. Gratis, interactief en helemaal passend bij groep 4 en de SLO-kerndoelen Nederlands."
     },
     "kid_prompt_template": "Tap the word that grows from the root."
   }

@@ -514,6 +514,75 @@
         "De plaatswaarde-betekenis ontdekken achter het optellen met tienoverschrijding op papier"
       ]
     },
+    "place-value-regroup.subtract-decompose.2-nbt-b-7": {
+      "about": [
+        "Bij deze activiteit legt Tuck de hamster een getal tot 1000 neer met MAB-blokken: platen voor de honderdtallen, staafjes voor de tientallen en blokjes voor de eenheden. Je kind moet er een klein getal van aftrekken, bijvoorbeeld 342 − 5 of 213 − 7. Al snel merkt je kind dat er te weinig blokjes liggen om weg te halen. Dan komt het slimme moment: één staafje splitsen in tien blokjes.",
+        "Door op “Splits een tiental” te tikken wisselt je kind één staafje in voor tien losse blokjes. Nu zijn er wél genoeg blokjes om weg te halen. Daarna telt je kind wat er overblijft en typt het antwoord in. Op deze manier zien kinderen precies wat er gebeurt bij inwisselen: 1 tiental is hetzelfde als 10 eenheden. Dit is de eerste betekenis van “lenen” bij het aftrekken — maar dan concreet en zichtbaar met blokken in plaats van met kale cijfers.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen en het tientallig stelsel werken kinderen in Groep 5 aan aftrekken tot 1000 en aan het begrijpen van de plaatswaarde van cijfers. Het handelen met MAB-blokken legt de stevige basis onder het latere cijferend rekenen, zonder dat je kind nu al de formele rekenregel hoeft te kennen."
+      ],
+      "practices": [
+        "Aftrekken tot 1000 met inwisselen: één staafje splitsen in tien blokjes.",
+        "Plaatswaarde herkennen: blokjes horen bij de eenheden, staafjes bij de tientallen en platen bij de honderdtallen.",
+        "Inzien dat inwisselen de waarde van het getal niet verandert — alleen de vorm van de blokken.",
+        "Een concreet fundament leggen onder het cijferend aftrekken van later."
+      ],
+      "howToPlay": [
+        "Bekijk het getal dat Tuck met MAB-blokken heeft neergelegd en zie hoeveel je kind moet weghalen.",
+        "Tik op “Splits een tiental” om één staafje in te wisselen voor tien blokjes, zodat er genoeg eenheden zijn.",
+        "Haal de blokjes weg, tel wat er overblijft en tik het antwoord in."
+      ],
+      "learningGoals": [
+        "Je kind kan tot 1000 aftrekken door een tiental in te wisselen voor tien eenheden.",
+        "Je kind begrijpt dat 1 tiental gelijk is aan 10 eenheden.",
+        "Je kind koppelt het handelen met blokken aan het uitrekenen op papier."
+      ]
+    },
+    "place-value-regroup.add-compose-hundred.2-nbt-b-7": {
+      "about": [
+        "Tuck de hamster legt met MAB-blokken twee getallen neer die je kind bij elkaar optelt, bijvoorbeeld 160 + 50 of 340 + 70. Bij het optellen komen er zoveel staafjes bij dat er meer dan tien tientallen op tafel liggen. Dat is het moment om te bundelen.",
+        "Door op “Maak een honderdtal” te tikken bundelt je kind tien staafjes tot één plaat. Zo verhuist een volle groep tientallen naar de honderdtallen. Daarna telt je kind alle blokken samen en typt het totaal in. Je kind ziet met eigen ogen dat 10 tientallen precies 1 honderdtal maken — hetzelfde bundelen-principe dat in Groep 4 al werd geoefend met tientallen, maar nu een plaats verder.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen en het tientallig stelsel werken kinderen in Groep 5 aan optellen tot 1000 en aan het inzicht dat ons getalsysteem in groepjes van tien is opgebouwd. Het bundelen met MAB-blokken maakt die opbouw zichtbaar en tastbaar."
+      ],
+      "practices": [
+        "Optellen tot 1000 met honderdtaloverschrijding.",
+        "Tien staafjes bundelen tot één plaat: 10 tientallen = 1 honderdtal.",
+        "Het bundelen-principe van Groep 4 uitbreiden naar de volgende plaats in het getal.",
+        "Plaatswaarde versterken door blokken echt te verplaatsen tussen tientallen en honderdtallen."
+      ],
+      "howToPlay": [
+        "Bekijk de twee getallen die Tuck met MAB-blokken heeft neergelegd en leg de staafjes bij elkaar.",
+        "Tik op “Maak een honderdtal” om tien staafjes te bundelen tot één plaat.",
+        "Tel alle platen, staafjes en blokjes samen en tik het totaal in."
+      ],
+      "learningGoals": [
+        "Je kind kan tot 1000 optellen en daarbij een honderdtal maken.",
+        "Je kind begrijpt dat 10 tientallen samen 1 honderdtal vormen.",
+        "Je kind ziet dat bundelen op elke plaats in het tientallig stelsel op dezelfde manier werkt."
+      ]
+    },
+    "place-value-regroup.subtract-decompose-hundred.2-nbt-b-7": {
+      "about": [
+        "Dit is de lastigste van de drie. Tuck de hamster legt een getal neer met een nul op de plaats van de tientallen, bijvoorbeeld 302 − 5 of 201 − 6. Je kind wil blokjes weghalen, maar er zijn er te weinig — en er liggen ook geen staafjes klaar om in te wisselen. Er moet dus eerst een stap eerder worden ingewisseld.",
+        "Je kind tikt eerst op “Splits een honderdtal” om één plaat in te wisselen voor tien staafjes. Nu zijn er wél tientallen. Daarna tikt je kind op “Splits een tiental” om één staafje in te wisselen voor tien blokjes. Pas dan zijn er genoeg blokjes om weg te halen. Je kind haalt de blokjes weg, telt wat er overblijft en tikt het antwoord in. Zo wordt inwisselen over de nul heen een duidelijke reeks van twee stappen in plaats van een lastige truc.",
+        "De activiteit sluit aan bij de SLO-kerndoelen: binnen het domein Getallen en het tientallig stelsel werken kinderen in Groep 5 aan aftrekken tot 1000 en aan het volledige begrip van plaatswaarde. Juist het inwisselen over de nul heen legt een sterke, concrete basis onder het cijferend rekenen dat later volgt."
+      ],
+      "practices": [
+        "Aftrekken tot 1000 uit een getal met een nul op de plaats van de tientallen.",
+        "Inwisselen over de nul heen: eerst een plaat splitsen, daarna een staafje.",
+        "Een aftreksom in twee logische stappen aanpakken in plaats van in één keer.",
+        "Plaatswaarde over drie plaatsen tegelijk overzien: honderdtallen, tientallen en eenheden."
+      ],
+      "howToPlay": [
+        "Bekijk het getal met MAB-blokken en zie dat er geen staafjes zijn om meteen in te wisselen.",
+        "Tik op “Splits een honderdtal” (1 plaat wordt 10 staafjes) en daarna op “Splits een tiental” (1 staafje wordt 10 blokjes).",
+        "Haal de blokjes weg, tel wat er overblijft en tik het antwoord in."
+      ],
+      "learningGoals": [
+        "Je kind kan aftrekken over de nul heen door in twee stappen in te wisselen.",
+        "Je kind begrijpt dat 1 honderdtal 10 tientallen is en 1 tiental 10 eenheden.",
+        "Je kind kan de plaatswaarde van honderdtallen, tientallen en eenheden met elkaar in verband brengen."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

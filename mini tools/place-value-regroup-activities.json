@@ -144,7 +144,8 @@
       "fr": "soustraction-avec-retenue-casser-une-dizaine-ce2",
       "es": "resta-con-reagrupacion-desarmar-una-decena-primaria",
       "pt": "subtracao-com-reagrupamento-desagrupar-uma-dezena-3-ano",
-      "it": "sottrazione-con-il-cambio-scomporre-una-decina-classe-terza"
+      "it": "sottrazione-con-il-cambio-scomporre-una-decina-classe-terza",
+      "nl": "aftrekken-met-inwisselen-tot-1000-groep-5"
     },
     "page_title": {
       "en": "Tuck Breaks a Ten — Subtract with Regrouping (Grade 2)",
@@ -152,7 +153,8 @@
       "fr": "Soustraction avec retenue – exercice en ligne (CE2)",
       "es": "Tuck desarma una decena: resta con reagrupación · 3er grado",
       "pt": "Tuck desagrupa uma dezena: subtração com reagrupamento (3º ano)",
-      "it": "Tuck scompone una decina: sottrazione con il cambio (classe terza)"
+      "it": "Tuck scompone una decina: sottrazione con il cambio (classe terza)",
+      "nl": "Aftrekken met inwisselen tot 1000 — Tuck splitst een tiental (Groep 5)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: subtract a one-digit number from a three-digit number when there are not enough ones. Tuck the hamster shows the base-ten blocks; tap “Break a ten” to turn one ten into ten ones, then take some away and type the answer. A clear, hands-on first look at borrowing — decomposing a ten. Common Core 2.NBT.B.7.",
@@ -160,7 +162,8 @@
       "fr": "Exercice en ligne de soustraction avec retenue : casser une dizaine pour soustraire, pas à pas. Gratuit, en ligne, sans inscription.",
       "es": "Practica la resta con reagrupación en 3er grado de primaria: cuando no alcanzan las unidades, Tuck desarma una decena en 10 unidades y quita. Actividad gratuita e interactiva alineada a los planes de la SEP.",
       "pt": "Atividade de matemática gratuita e interativa para o 3º ano: subtração com reagrupamento. Quando não há unidades suficientes para tirar, o Tuck, o hamster, desagrupa 1 dezena em 10 unidades no material dourado e então subtrai. Trabalha unidades, dezenas e centenas de forma concreta, online e sem cadastro, alinhada à BNCC na unidade temática Números.",
-      "it": "Tuck il criceto accompagna i bambini di classe terza nella sottrazione con il cambio entro il 1000. Quando nel numero non ci sono abbastanza unità per togliere, Tuck mostra come scomporre una decina in 10 unità: il cambio diventa un gesto concreto con i blocchi base dieci, disposti in colonne di valore posizionale (centinaia, decine, unità). Un'attività gratuita e senza registrazione, che funziona direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri."
+      "it": "Tuck il criceto accompagna i bambini di classe terza nella sottrazione con il cambio entro il 1000. Quando nel numero non ci sono abbastanza unità per togliere, Tuck mostra come scomporre una decina in 10 unità: il cambio diventa un gesto concreto con i blocchi base dieci, disposti in colonne di valore posizionale (centinaia, decine, unità). Un'attività gratuita e senza registrazione, che funziona direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
+      "nl": "Oefen aftrekken tot 1000 met inwisselen in een gratis, interactieve activiteit — zonder download en zonder account. Je kind helpt Tuck de hamster een tiental te splitsen in tien blokjes en ontdekt zo hoe je aftrekt als er te weinig eenheden zijn. Rustig en speels rekenen met MAB-blokken, helemaal in het Nederlands."
     },
     "kid_prompt_template": "place-value-regroup"
   },
@@ -225,7 +228,8 @@
       "fr": "addition-avec-retenue-grouper-une-centaine-ce2",
       "es": "suma-con-reagrupacion-formar-una-centena-primaria",
       "pt": "soma-com-reagrupamento-agrupar-uma-centena-3-ano",
-      "it": "addizione-con-il-cambio-formare-un-centinaio-classe-terza"
+      "it": "addizione-con-il-cambio-formare-un-centinaio-classe-terza",
+      "nl": "optellen-honderdtal-maken-tot-1000-groep-5"
     },
     "page_title": {
       "en": "Tuck Makes a Hundred — Add with Regrouping (Grade 2)",
@@ -233,7 +237,8 @@
       "fr": "Additions CE2 avec retenue – exercice en ligne",
       "es": "Tuck forma una centena: suma con reagrupación · 3er grado",
       "pt": "Tuck agrupa uma centena: soma com reagrupamento (3º ano)",
-      "it": "Tuck forma un centinaio: addizione con il cambio (classe terza)"
+      "it": "Tuck forma un centinaio: addizione con il cambio (classe terza)",
+      "nl": "Optellen tot 1000: een honderdtal maken — Tuck maakt een honderdtal (Groep 5)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: add tens that make more than ten tens. Tuck the hamster shows the base-ten blocks; tap “Make a hundred” to bundle 10 tens into one hundred-flat, then type the total. A clear, hands-on look at carrying into the hundreds — composing a hundred. Common Core 2.NBT.B.7.",
@@ -241,7 +246,8 @@
       "fr": "Additions CE2 en ligne : additionner avec une retenue en fabriquant une centaine, pas à pas. Gratuit, en ligne, sans inscription.",
       "es": "Aprende la suma con reagrupación en 3er grado de primaria: cuando las decenas pasan de diez, Tuck junta 10 decenas para «Formar una centena». Actividad gratuita e interactiva con bloques de base diez, alineada a los planes de la SEP.",
       "pt": "Aprenda a soma com reagrupamento no 3º ano: quando as dezenas passam de dez, o Tuck, o hamster, agrupa 10 dezenas para formar 1 centena no material dourado. Atividade gratuita e interativa, online e sem cadastro, alinhada à BNCC na unidade temática Números.",
-      "it": "Tuck il criceto guida i bambini di classe terza nell'addizione con il cambio entro il 1000. Quando sommando le decine si superano le dieci decine, Tuck mostra come formare un centinaio raggruppando 10 decine in un unico blocco: il cambio prende forma sotto gli occhi con i blocchi base dieci, ordinati in colonne di valore posizionale. Un'attività gratuita e senza registrazione, che si usa direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri."
+      "it": "Tuck il criceto guida i bambini di classe terza nell'addizione con il cambio entro il 1000. Quando sommando le decine si superano le dieci decine, Tuck mostra come formare un centinaio raggruppando 10 decine in un unico blocco: il cambio prende forma sotto gli occhi con i blocchi base dieci, ordinati in colonne di valore posizionale. Un'attività gratuita e senza registrazione, che si usa direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
+      "nl": "Oefen optellen tot 1000 met honderdtaloverschrijding in een gratis, interactieve activiteit — zonder download en zonder account. Je kind bundelt samen met Tuck de hamster tien staafjes tot één plaat en ziet zo hoe tientallen doorschuiven naar de honderdtallen. Rustig en speels rekenen met MAB-blokken, helemaal in het Nederlands."
     },
     "kid_prompt_template": "place-value-regroup"
   },
@@ -306,7 +312,8 @@
       "fr": "soustraction-avec-retenue-casser-une-centaine-ce2",
       "es": "resta-con-reagrupacion-desarmar-una-centena-primaria",
       "pt": "subtracao-com-reagrupamento-desagrupar-uma-centena-3-ano",
-      "it": "sottrazione-con-il-cambio-scomporre-un-centinaio-classe-terza"
+      "it": "sottrazione-con-il-cambio-scomporre-un-centinaio-classe-terza",
+      "nl": "aftrekken-met-inwisselen-over-de-nul-groep-5"
     },
     "page_title": {
       "en": "Tuck Breaks a Hundred — Subtract with Regrouping (Grade 2)",
@@ -314,7 +321,8 @@
       "fr": "Soustractions CE2 avec retenue – exercice en ligne",
       "es": "Tuck desarma una centena: resta con reagrupación · 3er grado",
       "pt": "Tuck desagrupa uma centena: subtração com reagrupamento (3º ano)",
-      "it": "Tuck scompone un centinaio: sottrazione con il cambio e lo zero (classe terza)"
+      "it": "Tuck scompone un centinaio: sottrazione con il cambio e lo zero (classe terza)",
+      "nl": "Aftrekken over de nul heen tot 1000 — Tuck splitst een honderdtal (Groep 5)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: subtract from a three-digit number with no tens to borrow from. Tuck the hamster shows the base-ten blocks; tap “Break a hundred” to turn one hundred into ten tens, then “Break a ten” for ten ones, take some away, and type the answer. A clear, hands-on look at borrowing across zero — decomposing a hundred. Common Core 2.NBT.B.7.",
@@ -322,7 +330,8 @@
       "fr": "Soustractions CE2 en ligne : soustraire avec retenue en cassant une centaine, même par-dessus le zéro. Gratuit, sans inscription.",
       "es": "Domina la resta con reagrupación a través del cero en 3er grado de primaria: cuando no hay decenas para prestar, Tuck desarma una centena y luego una decena. Actividad gratuita e interactiva con bloques de base diez, alineada a la SEP.",
       "pt": "Domine a subtração com reagrupamento quando há um zero no meio da conta, no 3º ano: quando não há dezenas para desagrupar, o Tuck, o hamster, desagrupa 1 centena e depois 1 dezena no material dourado, e então subtrai. Atividade gratuita e interativa, online e sem cadastro, alinhada à BNCC na unidade temática Números.",
-      "it": "Tuck il criceto porta i bambini di classe terza dentro la sottrazione con il cambio più impegnativa: quella con uno zero nelle decine. Quando non ci sono decine da aprire, Tuck mostra il doppio passaggio: prima scompone un centinaio in 10 decine, poi una decina in 10 unità, e solo allora toglie. Tutto con i blocchi base dieci in colonne di valore posizionale. Un'attività gratuita e senza registrazione, direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri."
+      "it": "Tuck il criceto porta i bambini di classe terza dentro la sottrazione con il cambio più impegnativa: quella con uno zero nelle decine. Quando non ci sono decine da aprire, Tuck mostra il doppio passaggio: prima scompone un centinaio in 10 decine, poi una decina in 10 unità, e solo allora toglie. Tutto con i blocchi base dieci in colonne di valore posizionale. Un'attività gratuita e senza registrazione, direttamente nel browser e allineata alle Indicazioni nazionali, nel nucleo Numeri.",
+      "nl": "Oefen aftrekken tot 1000 met inwisselen over de nul heen in een gratis, interactieve activiteit — zonder download en zonder account. Je kind splitst samen met Tuck de hamster eerst een plaat en daarna een staafje, in twee stappen. Rustig en speels rekenen met MAB-blokken, helemaal in het Nederlands."
     },
     "kid_prompt_template": "place-value-regroup"
   }

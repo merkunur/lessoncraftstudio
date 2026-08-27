@@ -4033,6 +4033,29 @@
         "Riconoscere frazioni equivalenti confrontando parti uguali di un intero.",
         "Rafforzare il senso delle frazioni attraverso le rappresentazioni visive."
       ]
+    },
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Un gatto, due… gatti o gatte? Il plurale dei nomi nasconde piccole regole che vale la pena scoprire con calma.",
+        "Margherita la papera propone una frase con uno spazio vuoto: il bambino sceglie il plurale corretto tra tre parole, come gatto→gatti o casa→case, e riceve sempre un incoraggiamento gentile.",
+        "Un percorso allineato alle «Indicazioni nazionali»: gratis, senza registrazione, senza timer e senza punteggio, per imparare al proprio ritmo."
+      ],
+      "practices": [
+        "Formare il plurale dei nomi",
+        "Riconoscere singolare e plurale",
+        "Applicare le regole -o/-i, -a/-e, -e/-i",
+        "Consolidare la grammatica di base"
+      ],
+      "howToPlay": [
+        "Leggi la frase con lo spazio vuoto",
+        "Pensa a come si scrive il plurale",
+        "Tocca la parola giusta"
+      ],
+      "learningGoals": [
+        "Trasformare i nomi dal singolare al plurale",
+        "Distinguere le desinenze in -i e in -e",
+        "Rafforzare la sicurezza nella grammatica di base"
+      ]
     }
   }
 }

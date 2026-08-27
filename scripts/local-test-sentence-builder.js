@@ -79,7 +79,10 @@ function serve() {
     const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
     note(/Sentence Builder/i.test(title), `header title "${title}"`);
     const slugKeys = await page.evaluate(() => Object.keys(window.SentenceBuilderActivity._activityRow.slug));
-    note(slugKeys.length === 1 && slugKeys[0] === 'en', `manifest not EN-only: ${slugKeys.join(',')}`);
+    // The EN slug is the canonical base; the activity is a localized fan-out target
+    // (de/fr/es/pt/it/nl added since the original EN-only build), so assert EN is PRESENT
+    // rather than EN-only (the old EN-only assertion went stale at the first localization).
+    note(slugKeys.includes('en'), `manifest missing en slug: ${slugKeys.join(',')}`);
 
     const N = await page.evaluate(() => window.SentenceBuilderActivity._pool.length);
     const ids = await page.evaluate((c) => { const t = window.SentenceBuilderActivity, out = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); out.push(x ? x.id : null); } return out; }, 2 * N);

@@ -64,6 +64,16 @@
       win: 'Hai costruito una frase!',
       hintFill: 'Usa tutte le parole: riempi ogni casella.',
       hintOrder: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.'
+    },
+    /* nl: shape Lidwoord+Bijv.nw+Zelfst.nw+Werkw. (Germaanse volgorde = het Duitse model, NIET de Romaanse
+       Art+Nome+Agg). Nederlands kapitaliseert ALLEEN het eerste woord (het lidwoord) → 1 hoofdletter-tegel.
+       ⚠ Nederlands heeft maar 2 lidwoorden "De of Het" (niet de Duitse drie). Geen aanhalingstekens nodig. */
+    nl: {
+      q: 'Zet de woorden in de goede volgorde.',
+      hear: '🔊 Voorlezen',
+      win: 'Je hebt een zin gemaakt!',
+      hintFill: 'Gebruik alle woorden — vul elk vakje.',
+      hintOrder: 'Nog geen zin — begin met De of Het, zet de punt aan het eind en maak een zinvolle zin.'
     }
   };
   function txt(k) { return (L[LANG] && L[LANG][k]) || L.en[k] || k; }
@@ -87,11 +97,11 @@
   var SentenceBuilderActivity = {
     id: 'sentence-builder-activity',
     strings: {
-      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases', es: 'Wiggles arma oraciones', pt: 'Wiggles Monta Frases', it: 'Wiggles costruisce le frasi' },
-      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.', es: 'Toca las palabras para ponerlas en orden y armar una oración.', pt: 'Toque nas palavras para colocá-las em ordem e formar uma frase.', it: 'Tocca le parole per metterle in ordine e costruire una frase.' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}' },
-      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.', es: 'Usa todas las palabras: llena todas las casillas.', pt: 'Use todas as palavras — preencha todos os espaços.', it: 'Usa tutte le parole: riempi ogni casella.' },
-      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.', pt: 'Ainda não é uma frase — comece com a maiúscula (O ou A), termine com o ponto e deixe a frase com sentido.', it: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.' }
+      title: { en: "Wiggles' Sentence Builder", de: 'Wiggles baut Sätze', fr: 'Wiggles construit des phrases', es: 'Wiggles arma oraciones', pt: 'Wiggles Monta Frases', it: 'Wiggles costruisce le frasi', nl: 'Wiggles bouwt zinnen' },
+      instruction: { en: 'Tap the words to put them in order and build a sentence.', de: 'Tippe die Wörter an und bringe sie in die richtige Reihenfolge, um einen Satz zu bauen.', fr: 'Touche les mots et mets-les dans le bon ordre pour construire une phrase.', es: 'Toca las palabras para ponerlas en orden y armar una oración.', pt: 'Toque nas palavras para colocá-las em ordem e formar uma frase.', it: 'Tocca le parole per metterle in ordine e costruire una frase.', nl: 'Tik de woorden aan en zet ze in de goede volgorde om een zin te bouwen.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' },
+      hintFill: { en: 'Use all the words — fill every box.', de: 'Nutze alle Wörter – fülle jedes Feld.', fr: 'Utilise tous les mots — remplis chaque case.', es: 'Usa todas las palabras: llena todas las casillas.', pt: 'Use todas as palavras — preencha todos os espaços.', it: 'Usa tutte le parole: riempi ogni casella.', nl: 'Gebruik alle woorden — vul elk vakje.' },
+      hintOrder: { en: 'Not a sentence yet — start with the capital word, end with the period, and make it make sense.', de: 'Noch kein Satz – fang mit Der, Die oder Das an, setze den Punkt ans Ende und bau einen sinnvollen Satz.', fr: 'Ce n’est pas encore une phrase — commence par « Le » ou « La », mets le point à la fin, et fais une phrase qui a du sens.', es: 'Todavía no es una oración: empieza con El o La, pon el punto al final, y arma una oración que tenga sentido.', pt: 'Ainda não é uma frase — comece com a maiúscula (O ou A), termine com o ponto e deixe a frase com sentido.', it: 'Comincia con la lettera maiuscola (Il o La), metti il punto alla fine e costruisci una frase che abbia senso.', nl: 'Nog geen zin — begin met De of Het, zet de punt aan het eind en maak een zinvolle zin.' }
     },
 
     init: function (api) {
@@ -272,6 +282,8 @@
         ? ('Monte uma frase. As palavras são: ' + this._tiles.join(', ') + '.')
         : LANG === 'it'
         ? ('Costruisci una frase. Le parole sono: ' + this._tiles.join(', ') + '.')
+        : LANG === 'nl'
+        ? ('Bouw een zin. De woorden zijn: ' + this._tiles.join(', ') + '.')
         : ('Build a sentence. The words are: ' + this._tiles.join(', ') + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

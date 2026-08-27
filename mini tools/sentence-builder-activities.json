@@ -446,6 +446,17 @@
           { "id": "snt-hen",    "seed": 41, "canonical": ["La","gallina","bianca","becca."],   "subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "la gallina" } },
           { "id": "snt-fish",   "seed": 71, "canonical": ["Il","pesce","rosso","nuota."],      "subject": { "noun": "fish",   "themeDir": "animals",  "label": "il pesce" } },
           { "id": "snt-flower", "seed": 83, "canonical": ["Il","fiore","viola","cresce."],     "subject": { "noun": "flower", "themeDir": "spring",   "label": "il fiore" } }
+        ],
+        "nl": [
+          { "id": "snt-dog",    "seed": 11, "canonical": ["De","grote","hond","blaft."],     "subject": { "noun": "dog",    "themeDir": "animals",  "label": "de hond" } },
+          { "id": "snt-cat",    "seed": 23, "canonical": ["De","kleine","kat","slaapt."],    "subject": { "noun": "cat",    "themeDir": "animals",  "label": "de kat" } },
+          { "id": "snt-sun",    "seed": 31, "canonical": ["De","gele","zon","schijnt."],     "subject": { "noun": "sun",    "themeDir": "beach",    "label": "de zon" } },
+          { "id": "snt-bus",    "seed": 53, "canonical": ["De","snelle","bus","rijdt."],     "subject": { "noun": "bus",    "themeDir": "vehicles", "label": "de bus" } },
+          { "id": "snt-frog",   "seed": 61, "canonical": ["De","groene","kikker","springt."],"subject": { "noun": "frog",   "themeDir": "camping",  "label": "de kikker" } },
+          { "id": "snt-pig",    "seed": 67, "canonical": ["Het","roze","varken","knort."],   "subject": { "noun": "pig",    "themeDir": "animals",  "label": "het varken" } },
+          { "id": "snt-hen",    "seed": 41, "canonical": ["De","bruine","kip","pikt."],      "subject": { "noun": "hen",    "themeDir": "birds 2",  "label": "de kip" } },
+          { "id": "snt-fish",   "seed": 71, "canonical": ["De","gladde","vis","zwemt."],     "subject": { "noun": "fish",   "themeDir": "animals",  "label": "de vis" } },
+          { "id": "snt-flower", "seed": 83, "canonical": ["De","mooie","bloem","bloeit."],   "subject": { "noun": "flower", "themeDir": "spring",   "label": "de bloem" } }
         ]
       }
     },
@@ -455,7 +466,8 @@
       "fr": "construire-une-phrase-ordre-des-mots-ce1",
       "es": "construir-oraciones-orden-de-las-palabras-2-primaria",
       "pt": "wiggles-monta-frases-ordem-das-palavras-2-ano",
-      "it": "costruire-frasi-ordine-delle-parole-classe-seconda"
+      "it": "costruire-frasi-ordine-delle-parole-classe-seconda",
+      "nl": "zinnen-bouwen-woordvolgorde-groep-4"
     },
     "page_title": {
       "en": "Wiggles' Sentence Builder — Build a Sentence (Grade 1)",
@@ -463,7 +475,8 @@
       "fr": "La phrase CE1 : remettre les mots dans l'ordre – en ligne",
       "es": "Wiggles arma oraciones: orden de las palabras (2.º primaria)",
       "pt": "Wiggles Monta Frases: ordem das palavras — 2º ano",
-      "it": "Wiggles costruisce le frasi: l'ordine delle parole (classe seconda)"
+      "it": "Wiggles costruisce le frasi: l'ordine delle parole (classe seconda)",
+      "nl": "Wiggles bouwt zinnen: woordvolgorde oefenen (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: put the scrambled words in the right order to build a complete sentence — a capital letter to start, a noun and a verb in the middle, and a period at the end. Wiggles the caterpillar helps children produce simple, complete sentences. Common Core L.1.1.j (and L.K.1.b nouns and verbs).",
@@ -471,7 +484,8 @@
       "fr": "La phrase au CE1 : remets les mots dans l'ordre pour construire une phrase correcte, étape par étape. Gratuit, en ligne, sans inscription.",
       "es": "Con Wiggles la oruga, tu peque ordena las palabras revueltas para armar una oración completa: mayúscula al inicio, concordancia y punto final. Actividad gratis e interactiva de español para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
       "pt": "Ajude a Wiggles, a lagarta, a construir frases completas colocando as palavras na ordem certa, com maiúscula e ponto — atividade calma para o 2º ano.",
-      "it": "Con Wiggles il bruco imparare a costruire frasi diventa un gioco: Wiggles è fatto di segmenti, proprio come una frase fatta di parole in ordine. Il bambino guarda l'immagine, tocca le parole sparse e le mette al posto giusto per scoprire l'ordine delle parole, con l'articolo, il nome, l'aggettivo e il verbo che vanno d'accordo. Ogni frase comincia con la maiuscola e finisce con il punto. È gratis, senza registrazione, direttamente nel browser e senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica."
+      "it": "Con Wiggles il bruco imparare a costruire frasi diventa un gioco: Wiggles è fatto di segmenti, proprio come una frase fatta di parole in ordine. Il bambino guarda l'immagine, tocca le parole sparse e le mette al posto giusto per scoprire l'ordine delle parole, con l'articolo, il nome, l'aggettivo e il verbo che vanno d'accordo. Ogni frase comincia con la maiuscola e finisce con il punto. È gratis, senza registrazione, direttamente nel browser e senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica.",
+      "nl": "Breng met Wiggles de rups de woorden in de juiste volgorde en bouw een volledige zin – met een hoofdletter aan het begin en een punt aan het eind. Gratis, interactieve oefening voor zinsbouw in groep 3/4, aansluitend bij de SLO-kerndoelen voor Nederlands."
     },
     "kid_prompt_template": "sentence-builder"
   }

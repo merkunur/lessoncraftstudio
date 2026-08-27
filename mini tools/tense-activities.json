@@ -455,6 +455,17 @@
           { "id": "tn-f1", "time": "future",  "timeWord": "Domani", "subject": "gli amici",   "verb": { "lemma": "disegnare", "regular": true, "forms": { "present": "disegnano", "past": "hanno disegnato", "future": "disegneranno" } } },
           { "id": "tn-f2", "time": "future",  "timeWord": "Domani", "subject": "le bambine",  "verb": { "lemma": "ascoltare", "regular": true, "forms": { "present": "ascoltano", "past": "hanno ascoltato", "future": "ascolteranno" } } },
           { "id": "tn-f3", "time": "future",  "timeWord": "Domani", "subject": "i nonni",     "verb": { "lemma": "guardare",  "regular": true, "forms": { "present": "guardano",  "past": "hanno guardato",  "future": "guarderanno" } } }
+        ],
+        "nl": [
+          { "id": "tn-varen",      "time": "past",    "timeWord": "Gisteren", "subject": "de boten",      "verb": { "lemma": "varen",      "regular": false, "forms": { "present": "varen",      "past": "voeren",       "future": "zullen varen" } } },
+          { "id": "tn-spelen",     "time": "present", "timeWord": "Nu",       "subject": "de kinderen",   "verb": { "lemma": "spelen",     "regular": true,  "forms": { "present": "spelen",     "past": "speelden",     "future": "zullen spelen" } } },
+          { "id": "tn-blaffen",    "time": "past",    "timeWord": "Gisteren", "subject": "de honden",     "verb": { "lemma": "blaffen",    "regular": true,  "forms": { "present": "blaffen",    "past": "blaften",      "future": "zullen blaffen" } } },
+          { "id": "tn-springen",   "time": "future",  "timeWord": "Morgen",   "subject": "de jongens",    "verb": { "lemma": "springen",   "regular": false, "forms": { "present": "springen",   "past": "sprongen",     "future": "zullen springen" } } },
+          { "id": "tn-dansen",     "time": "present", "timeWord": "Nu",       "subject": "de meisjes",    "verb": { "lemma": "dansen",     "regular": true,  "forms": { "present": "dansen",     "past": "dansten",      "future": "zullen dansen" } } },
+          { "id": "tn-lopen",      "time": "past",    "timeWord": "Gisteren", "subject": "de paarden",    "verb": { "lemma": "lopen",      "regular": false, "forms": { "present": "lopen",      "past": "liepen",       "future": "zullen lopen" } } },
+          { "id": "tn-tekenen",    "time": "present", "timeWord": "Nu",       "subject": "de leerlingen", "verb": { "lemma": "tekenen",    "regular": true,  "forms": { "present": "tekenen",    "past": "tekenden",     "future": "zullen tekenen" } } },
+          { "id": "tn-wandelen",   "time": "future",  "timeWord": "Morgen",   "subject": "de buren",      "verb": { "lemma": "wandelen",   "regular": true,  "forms": { "present": "wandelen",   "past": "wandelden",    "future": "zullen wandelen" } } },
+          { "id": "tn-verzamelen", "time": "future",  "timeWord": "Morgen",   "subject": "de bijen",      "verb": { "lemma": "verzamelen", "regular": true,  "forms": { "present": "verzamelen", "past": "verzamelden",  "future": "zullen verzamelen" } } }
         ]
       }
     },
@@ -464,7 +475,8 @@
       "fr": "passe-present-futur-conjuguer-les-verbes-ce1",
       "es": "tiempos-verbales-presente-pasado-futuro-2-primaria",
       "pt": "tempos-verbais-presente-passado-futuro-2-ano",
-      "it": "tempi-verbali-presente-passato-futuro-classe-seconda"
+      "it": "tempi-verbali-presente-passato-futuro-classe-seconda",
+      "nl": "werkwoordstijden-verleden-nu-toekomst-groep-4"
     },
     "page_title": {
       "en": "The Clock Tower — Verb Tense: Past, Present & Future (Grade 1)",
@@ -472,7 +484,8 @@
       "fr": "Conjugaison CE1 : passé, présent, futur – en ligne",
       "es": "Tiempos verbales: presente, pasado y futuro (2.º primaria)",
       "pt": "A Torre do Tempo do Juniper: tempos verbais (2º ano)",
-      "it": "La torre del tempo di Juniper: tempi verbali (classe seconda)"
+      "it": "La torre del tempo di Juniper: tempi verbali (classe seconda)",
+      "nl": "Junipers klokkentoren – werkwoordstijden (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 grammar activity: help Juniper the robin keep the clock tower's three time-windows — Before, Now, and Soon. Read the time word in each sentence, then tap the verb that fits the past, present, or future. A friendly first look at using verbs to tell when something happens. Common Core L.1.1.e.",
@@ -480,7 +493,8 @@
       "fr": "Conjugaison CE1 : conjugue le verbe au passé, au présent ou au futur, phrase par phrase. Gratuit, en ligne, sans inscription.",
       "es": "La torre del tiempo de Juniper es una actividad interactiva y gratuita para practicar los tiempos verbales: el niño elige la forma del verbo según el tiempo, presente, pasado o futuro. Pensada para 2.º de primaria, se juega en el navegador, sin registro. Alineado a los Planes y programas de estudio (SEP).",
       "pt": "Ajude o Juniper na torre do tempo: leia Ontem, Agora ou Amanhã e toque o verbo no presente, passado ou futuro. Tempos verbais para o 2º ano, com calma.",
-      "it": "Juniper è un pettirosso che custodisce una torre del tempo con tre finestre: passato, presente e futuro. In questa attività i bambini leggono una frase con una parola del tempo — «Ieri», «Adesso» o «Domani» — e toccano la forma del verbo giusta, imparando a riconoscere i tempi verbali: presente, passato e futuro. Si gioca gratis e senza registrazione, direttamente nel browser, senza punteggi e senza fretta. Un'attività pensata per la classe seconda, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica."
+      "it": "Juniper è un pettirosso che custodisce una torre del tempo con tre finestre: passato, presente e futuro. In questa attività i bambini leggono una frase con una parola del tempo — «Ieri», «Adesso» o «Domani» — e toccano la forma del verbo giusta, imparando a riconoscere i tempi verbali: presente, passato e futuro. Si gioca gratis e senza registrazione, direttamente nel browser, senza punteggi e senza fretta. Un'attività pensata per la classe seconda, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica.",
+      "nl": "In Junipers klokkentoren wijst elke klok naar een andere tijd. Juniper laat je kind een zin lezen met een tijdwoord – gisteren, nu of morgen – en dan kiest je kind de werkwoordsvorm die daarbij past: de verleden, tegenwoordige of toekomende tijd. Zo oefent je kind spelenderwijs met de tijd van het werkwoord, zonder tijdsdruk of cijfers. Deze gratis, interactieve activiteit sluit aan bij de SLO-kerndoelen voor taal in groep 4."
     },
     "kid_prompt_template": "tense"
   }

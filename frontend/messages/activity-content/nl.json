@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "sentence-clinic.fix-it.l-2-1": {
+      "about": [
+        "Diep in het bos heeft Dr. Plume — een wijze oma-uil met een zachte stem — haar eigen Zinnenkliniek. De hele dag komen er zinnen langs die zich 'een beetje in de war' voelen: er ontbreekt iets, of er is per ongeluk iets dubbel gegaan. Samen met je kind luistert Dr. Plume goed en helpt ze elke zin weer helemaal beter te worden.",
+        "In elke ronde zit precies één foutje in de zin. Soms mist er een hoofdletter aan het begin, soms een punt aan het eind. Een andere keer past het werkwoord niet bij het onderwerp (het kind rennen wordt het kind rent), staat er een woord te veel, of zijn twee zinnen aan elkaar geplakt. Je kind spoort dat ene foutje op en zet het weer recht.",
+        "Alles gebeurt rustig en zonder stress: er is geen klok, geen score en nooit een rood kruis. Kiest je kind iets wat nog niet klopt, dan geeft de zin een zacht 'giecheltje' en gaat de keuze vanzelf terug. Zo blijft proberen leuk en veilig, en ontdekt je kind al doende hoe een goede zin in elkaar zit."
+      ],
+      "practices": [
+        "Het foutje in een zin herkennen en verbeteren",
+        "Een hoofdletter aan het begin en een punt aan het eind zetten",
+        "Onderwerp en werkwoord goed bij elkaar laten passen (hij rent, niet hij rennen)",
+        "Op de juiste woordvolgorde letten en van losse woorden een hele, kloppende zin maken"
+      ],
+      "howToPlay": [
+        "Lees samen de zin die Dr. Plume laat zien en zoek het ene foutje.",
+        "Tik op wat er beter kan — de hoofdletter, de punt, het werkwoord of het woord dat niet klopt.",
+        "Klopt het, dan wordt de zin helemaal beter; zit het er nog niet, dan giechelt de zin zacht en probeer je het gewoon opnieuw."
+      ],
+      "learningGoals": [
+        "Zinnen nakijken en zelf verbeteren",
+        "Hoofdletter, punt en de juiste werkwoordsvorm stevig onder de knie krijgen",
+        "De woordvolgorde begrijpen en volledige, goedlopende zinnen maken"
+      ]
+    },
     "pronoun.case.l-1-1-d": {
       "about": [
         "Bij Hattie de haas raken de hoedjes altijd een beetje door elkaar. In haar hoedenwinkeltje zoekt elk personage het woord-hoedje dat precies past bij wat het in de zin doet – en jouw kind helpt kiezen.",

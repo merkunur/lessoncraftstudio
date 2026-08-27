@@ -540,6 +540,15 @@
           { "id": "order-svo",   "band": 3, "action": "reorder",       "tokens": ["beve","gatto","acqua","Il"], "correctOrder": [3,1,0,2], "convention": "Le parole vanno in ordine perché la frase abbia senso.", "clean": ["Il","gatto","beve","acqua"] },
           { "id": "del-double",  "band": 3, "action": "delete",        "tokens": ["La","mamma","lei","cucina","."], "targetIndex": 2, "convention": "Non serve dire due volte chi fa l'azione.", "clean": ["La","mamma","cucina","."] },
           { "id": "split-runon", "band": 3, "action": "split",         "tokens": ["La","pioggia","cade","il","vento","soffia"], "seamIndex": 2, "replacement": "Il", "convention": "Quando ci sono due idee, si separano con un punto.", "clean": ["La","pioggia","cade",".","Il","vento","soffia"] }
+        ],
+        "nl": [
+          { "id": "cap-start",   "band": 1, "action": "capitalize",   "tokens": ["de","hond","is","groot","."], "targetIndex": 0, "replacement": "De", "convention": "Een zin begint met een hoofdletter.", "clean": ["De","hond","is","groot","."] },
+          { "id": "mark-end",    "band": 1, "action": "insert-punct",  "tokens": ["De","zon","is","warm"], "gapIndex": 4, "replacement": ".", "distractors": [",","?"], "convention": "Een zin die iets vertelt, eindigt met een punt.", "clean": ["De","zon","is","warm","."] },
+          { "id": "swap-agree",  "band": 2, "action": "swap",          "tokens": ["Het","kind","rennen","snel","."], "targetIndex": 2, "replacement": "rent", "distractors": ["rennen","ren"], "convention": "Het werkwoord past bij het onderwerp: één kind rent.", "clean": ["Het","kind","rent","snel","."] },
+          { "id": "fill-verb",   "band": 2, "action": "insert-word",   "tokens": ["De","kat","melk","."], "gapIndex": 2, "replacement": "drinkt", "distractors": ["groen","onder"], "convention": "In elke zin staat een werkwoord (een doe-woord).", "clean": ["De","kat","drinkt","melk","."] },
+          { "id": "order-svo",   "band": 3, "action": "reorder",       "tokens": ["snel","rent","hond","De"], "correctOrder": [3,2,1,0], "convention": "De woorden staan in de goede volgorde.", "clean": ["De","hond","rent","snel"] },
+          { "id": "del-double",  "band": 3, "action": "delete",        "tokens": ["Mijn","moeder","zij","kookt","."], "targetIndex": 2, "convention": "Noem het onderwerp maar één keer.", "clean": ["Mijn","moeder","kookt","."] },
+          { "id": "split-runon", "band": 3, "action": "split",         "tokens": ["Het","regent","ik","blijf","binnen"], "seamIndex": 1, "replacement": "Ik", "convention": "Tussen twee zinnen staat een punt.", "clean": ["Het","regent",".","Ik","blijf","binnen"] }
         ]
       }
     },
@@ -550,7 +559,8 @@
       "fr": "corriger-une-phrase-la-reviser-ce1",
       "es": "corregir-oraciones-mayuscula-punto-2-primaria",
       "pt": "dra-plume-clinica-corrigir-frases-pontuacao-maiuscula-concordancia-2-ano",
-      "it": "correggere-le-frasi-maiuscola-punto-classe-seconda"
+      "it": "correggere-le-frasi-maiuscola-punto-classe-seconda",
+      "nl": "zinnen-verbeteren-hoofdletter-punt-groep-4"
     },
     "page_title": {
       "en": "Dr. Plume's Sentence Clinic — Fix-the-Sentence Grammar (Grade 2)",
@@ -558,7 +568,8 @@
       "fr": "Grammaire CE1 : corriger une phrase – exercice en ligne",
       "es": "Corregir oraciones: mayúscula, punto y verbo (2.º primaria)",
       "pt": "Dra. Plume: Corrigir Frases — Pontuação e Maiúscula (2º ano)",
-      "it": "La clinica delle frasi: correggere le frasi (classe seconda)"
+      "it": "La clinica delle frasi: correggere le frasi (classe seconda)",
+      "nl": "Dr. Plumes Zinnenkliniek: zinnen verbeteren – groep 4"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help gentle Dr. Plume fix muddled sentences so they sound right again. Children find the trouble — a missing capital, the wrong verb form, a missing word, jumbled order, an extra word, or a run-on — then make the repair. Practising the conventions of standard English grammar and usage is the heart of Common Core L.2.1.",
@@ -566,7 +577,8 @@
       "fr": "Grammaire CE1 en ligne : repère l'erreur et corrige la phrase, avec un retour immédiat à chaque réponse. Gratuit, en ligne, sans inscription.",
       "es": "En la clínica de la Dra. Plume, cada oración tiene un pequeño error que hay que encontrar y corregir: la mayúscula inicial, el punto final, la concordancia del verbo o el orden de las palabras. Actividad interactiva y gratuita para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
       "pt": "Na Clínica de Frases da Dra. Plume, seu aluno do 2º ano acha e conserta um errinho por vez — maiúscula, ponto, concordância — no seu ritmo, sem cronômetro.",
-      "it": "Nella clinica delle frasi della Dott.ssa Plume, una dolce civetta nonna, ogni frase arriva un po' storta e ha bisogno di una piccola cura. Il bambino o la bambina aiuta ogni frase a «suonare bene» con una sola correzione: mettere la maiuscola, aggiungere il punto, sistemare il verbo o rimettere le parole in ordine. Un'attività per imparare a correggere le frasi curando maiuscola e punto, gratis e senza registrazione, direttamente nel browser, senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica."
+      "it": "Nella clinica delle frasi della Dott.ssa Plume, una dolce civetta nonna, ogni frase arriva un po' storta e ha bisogno di una piccola cura. Il bambino o la bambina aiuta ogni frase a «suonare bene» con una sola correzione: mettere la maiuscola, aggiungere il punto, sistemare il verbo o rimettere le parole in ordine. Un'attività per imparare a correggere le frasi curando maiuscola e punto, gratis e senza registrazione, direttamente nel browser, senza punteggi, allineata alle Indicazioni nazionali, nell'area della riflessione linguistica.",
+      "nl": "In Dr. Plumes Zinnenkliniek zoek je de fout in de zin en verbeter je die: een hoofdletter, een punt, het juiste werkwoord of de woordvolgorde. Gratis en interactief oefenen met zinsopbouw voor groep 4, afgestemd op de SLO-kerndoelen."
     },
     "kid_prompt_template": "fix-it"
   }

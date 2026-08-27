@@ -110,7 +110,8 @@
       "fr": "trouver-le-nombre-manquant-cp",
       "es": "encontrar-el-numero-que-falta-completar-1-primaria",
       "pt": "encontrar-o-numero-que-falta-completar-1-ano",
-      "it": "il-barattolo-giusto-numero-mancante-completare-classe-prima"
+      "it": "il-barattolo-giusto-numero-mancante-completare-classe-prima",
+      "nl": "het-ontbrekende-getal-vinden-aanvullen-groep-3"
     },
     "page_title": {
       "en": "The Sharing Jar — Make It Fair (Find the Missing Number)",
@@ -118,7 +119,8 @@
       "fr": "Le nombre manquant CP : compléter et comparer | jeu gratuit",
       "es": "El frasco justo — encontrar el número que falta con Pim y Bo (1.º primaria)",
       "pt": "O pote justo: Pim e Bo e o número que falta — completar, 1º ano",
-      "it": "Il barattolo giusto: Pim e Bo e il numero che manca (classe prima)"
+      "it": "Il barattolo giusto: Pim e Bo e il numero che manca (classe prima)",
+      "nl": "De eerlijke pot — het ontbrekende getal vinden met Pim en Bo (groep 3)"
     },
     "page_intro": {
       "en": "A jar of moon-beads spills, and Pim and Bo scoop up different amounts — one jar glows full, the other goes quiet. Help make it fair: work out how many more beads the quiet friend needs and say that number, then watch the beads float over and two friends lean their heads together. A warm Grade-1 missing-number game aligned to Common Core 1.OA.D.8.",
@@ -126,7 +128,8 @@
       "fr": "Aide Pim et Bo à rendre le partage juste ! Un jeu gratuit et interactif pour trouver le nombre manquant, comparer et compléter des quantités, au niveau CP.",
       "es": "El frasco justo: Pim y Bo llenan sus frascos de cuentas y hay que encontrar el número que falta para dejarlos parejos — completar, comparar la diferencia y hallar cuántas había al principio, con cantidades hasta 12. Juego interactivo y gratis de primer grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Pim e Bo enchem os potes com contas e um fica mais cheio. Encontre o número que falta para ficar justo, completar e comparar. Grátis e interativo, 1º ano.",
-      "it": "Pim e Bo raccolgono le perline di luna nei loro barattoli, ma un barattolo finisce più pieno dell'altro e la divisione non è più giusta. Il tuo compito è renderla giusta: guarda i due barattoli, trova il numero che manca e tocca quel numero tra le tessere da 0 a 10 — subito le perline volano nell'altro barattolo e i due amici tornano pari. Giocando si impara a completare, a confrontare la differenza «in più», a rimettere a posto le perline e persino a scoprire quante ce n'erano all'inizio, sempre con addizioni e sottrazioni entro il 12. È gratis e senza registrazione, direttamente nel browser, allineata alle Indicazioni nazionali, nel nucleo Numeri."
+      "it": "Pim e Bo raccolgono le perline di luna nei loro barattoli, ma un barattolo finisce più pieno dell'altro e la divisione non è più giusta. Il tuo compito è renderla giusta: guarda i due barattoli, trova il numero che manca e tocca quel numero tra le tessere da 0 a 10 — subito le perline volano nell'altro barattolo e i due amici tornano pari. Giocando si impara a completare, a confrontare la differenza «in più», a rimettere a posto le perline e persino a scoprire quante ce n'erano all'inizio, sempre con addizioni e sottrazioni entro il 12. È gratis e senza registrazione, direttamente nel browser, allineata alle Indicazioni nazionali, nel nucleo Numeri.",
+      "nl": "Pim en Bo scheppen samen glinsterende kralen in hun eigen pot, maar de ene pot raakt voller dan de andere — en dat is niet eerlijk. In deze gratis, interactieve activiteit zoekt je kind telkens het ontbrekende getal: hoeveel kralen moeten erbij om evenveel te hebben, wat is het verschil, of hoeveel rolden er weg toen de pot omviel? Door het juiste getal op de getallentegels te tikken, maakt je kind de potten eerlijk en gelijk, en oefent zo spelenderwijs met optellen en aftrekken tot 12. De activiteit sluit aan bij de SLO-kerndoelen, zonder tijdsdruk of punten."
     },
     "kid_prompt_template": "make-fair"
   }

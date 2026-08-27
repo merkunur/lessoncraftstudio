@@ -111,6 +111,22 @@
       srWhich: 'Una sequenza a salti: {shown}. Di quanto è ogni salto? Opzioni: {choices}.',
       srFillFwd: 'Conta di {step} in {step}: {shown}. Quale numero manca? Opzioni: {choices}.',
       srFillBack: 'Conta di {step} in {step} all\'indietro: {shown}. Quale numero manca? Opzioni: {choices}.'
+    },
+    /* nl — native ensemble (linguist + Groep 4 rekenen-wiskunde educator, SLO-kerndoelen). "springend
+       tellen" / "in sprongen van {step} tellen" (NOOIT de calque "tellen per 5"); "de sprong" (kikkersprong,
+       NOOIT "stap"); terugtellen; het getal = onzijdig → welk/elk getal. nStep = "verandert" (backward-safe:
+       op −10 wordt een getal niet groter). Alleen cijfers. */
+    nl: {
+      win: 'Ja — {note}',
+      winFill: '{a} komt als volgende in de getallenrij!',
+      winFillMid: '{a} vult de lege plek!',
+      winStep: 'elke sprong is +{a}!',
+      nFill: 'Tel de sprongen met Hopper: blijf er steeds {s} bij optellen.',
+      nStep: 'Kijk hoeveel elk getal steeds verandert.',
+      srBlank: 'lege plek',
+      srWhich: 'Een getallenrij in sprongen: {shown}. Hoe groot is elke sprong? Keuzes: {choices}.',
+      srFillFwd: 'Tellen in sprongen van {step}: {shown}. Welk getal ontbreekt? Keuzes: {choices}.',
+      srFillBack: 'Terugtellen in sprongen van {step}: {shown}. Welk getal ontbreekt? Keuzes: {choices}.'
     }
   };
   function txt(k, a) {
@@ -154,11 +170,11 @@
   var SkipCountActivity = {
     id: 'skipcount-activity',
     strings: {
-      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge', fr: 'Les bonds de Hopper sur les nénuphars', es: 'Los brincos de Hopper', pt: 'Os pulos do Hopper', it: 'I salti di Hopper' },
-      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!', fr: "Aide Hopper la grenouille à compter par bonds à travers l'étang !", es: '¡Ayuda a Hopper la rana a contar saltando por el estanque!', pt: 'Ajude o sapo Hopper a contar pulando pela lagoa!', it: 'Aiuta la rana Hopper a contare a salti attraverso lo stagno!' },
-      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?', fr: 'Compte de {step} en {step}. Quel nombre manque ?', es: 'Cuenta de {step} en {step}. ¿Qué número falta?', pt: 'Conte de {step} em {step}. Qual número está faltando?', it: 'Conta di {step} in {step}. Quale numero manca?' },
-      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?', fr: 'Compte de {step} en {step} en reculant. Quel nombre manque ?', es: 'Cuenta de {step} en {step} hacia atrás. ¿Qué número falta?', pt: 'Conte de {step} em {step} para trás. Qual número está faltando?', it: 'Conta di {step} in {step} all\'indietro. Quale numero manca?' },
-      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?', fr: 'De combien Hopper avance-t-il à chaque bond ?', es: '¿De cuánto es cada brinco?', pt: 'De quanto é cada pulo?', it: 'Di quanto è ogni salto?' }
+      title: { en: "Hopper's Lily Hops", de: 'Hoppers Seerosen-Sprünge', fr: 'Les bonds de Hopper sur les nénuphars', es: 'Los brincos de Hopper', pt: 'Os pulos do Hopper', it: 'I salti di Hopper', nl: 'Hoppers waterlelie-sprongen' },
+      instruction: { en: 'Help Hopper the frog skip-count across the pond!', de: 'Hilf dem Frosch Hopper, in Schritten über den Teich zu hüpfen!', fr: "Aide Hopper la grenouille à compter par bonds à travers l'étang !", es: '¡Ayuda a Hopper la rana a contar saltando por el estanque!', pt: 'Ajude o sapo Hopper a contar pulando pela lagoa!', it: 'Aiuta la rana Hopper a contare a salti attraverso lo stagno!', nl: 'Help kikker Hopper om in sprongen over de vijver te tellen!' },
+      qfill: { en: 'Count by {step}s. Which number is missing?', de: 'Zähle in {step}er-Schritten weiter. Welche Zahl fehlt?', fr: 'Compte de {step} en {step}. Quel nombre manque ?', es: 'Cuenta de {step} en {step}. ¿Qué número falta?', pt: 'Conte de {step} em {step}. Qual número está faltando?', it: 'Conta di {step} in {step}. Quale numero manca?', nl: 'Tel verder in sprongen van {step}. Welk getal ontbreekt?' },
+      qfillback: { en: 'Counting down by {step}s. Which number is missing?', de: 'Zähle rückwärts in {step}er-Schritten. Welche Zahl fehlt?', fr: 'Compte de {step} en {step} en reculant. Quel nombre manque ?', es: 'Cuenta de {step} en {step} hacia atrás. ¿Qué número falta?', pt: 'Conte de {step} em {step} para trás. Qual número está faltando?', it: 'Conta di {step} in {step} all\'indietro. Quale numero manca?', nl: 'Tel terug in sprongen van {step}. Welk getal ontbreekt?' },
+      qstep: { en: 'How big is each hop?', de: 'Wie groß ist jeder Sprung?', fr: 'De combien Hopper avance-t-il à chaque bond ?', es: '¿De cuánto es cada brinco?', pt: 'De quanto é cada pulo?', it: 'Di quanto è ogni salto?', nl: 'Hoe groot is elke sprong?' }
     },
 
     init: function (api) {

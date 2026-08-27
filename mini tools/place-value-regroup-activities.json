@@ -60,7 +60,8 @@
       "fr": "addition-avec-retenue-grouper-une-dizaine-cp",
       "es": "suma-con-reagrupacion-formar-una-decena-primaria",
       "pt": "soma-com-reagrupamento-formar-uma-dezena-2-ano",
-      "it": "addizione-con-il-cambio-formare-una-decina-classe-seconda"
+      "it": "addizione-con-il-cambio-formare-una-decina-classe-seconda",
+      "nl": "optellen-met-tienoverschrijding-tot-100-groep-4"
     },
     "page_title": {
       "en": "Tuck's Ten Bundles — Add with Regrouping (Grade 1)",
@@ -68,7 +69,8 @@
       "fr": "Addition avec retenue – exercice en ligne (CP)",
       "es": "Suma con reagrupación con Tuck: forma una decena (1º de primaria)",
       "pt": "Soma com reagrupamento com o Tuck: formar uma dezena (2º ano)",
-      "it": "Addizione con il cambio con Tuck: formare una decina (classe seconda)"
+      "it": "Addizione con il cambio con Tuck: formare una decina (classe seconda)",
+      "nl": "Optellen met tienoverschrijding tot 100 — Tuck maakt een tiental (Groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math activity: add a two-digit and a one-digit number when the ones make more than ten. Tuck the hamster shows the base-ten blocks; tap “Make a ten” to bundle 10 ones into one ten, then type the total. A clear, hands-on first look at carrying — composing a ten. Common Core 1.NBT.C.4.",
@@ -76,7 +78,8 @@
       "fr": "Exercice en ligne d'addition avec retenue au CP : composer une dizaine pour additionner, pas à pas. Gratuit, en ligne, sans inscription.",
       "es": "Actividad gratis e interactiva de 1º de primaria: suma con reagrupación. Junta 10 unidades para formar una decena con bloques de base diez y escribe el total, con Tuck. Alineada con los planes y programas de estudio de la SEP.",
       "pt": "Atividade de matemática gratuita e interativa para o 2º ano: soma com reagrupamento até 100. O Tuck, o hamster, mostra o material dourado em colunas de valor posicional; agrupe 10 unidades para formar uma dezena (o famoso “vai um”) e digite o total. Trabalha unidades e dezenas de forma concreta, online e sem cadastro. Alinhada à BNCC.",
-      "it": "Attività di matematica gratuita e interattiva per la classe seconda: l'addizione con il cambio entro il 100. Tuck, il criceto, mostra i blocchi base dieci in colonne di valore posizionale; raggruppa 10 unità per formare una decina (il famoso \"cambio\") e scrivi il totale. Si lavora su decine e unità in modo concreto, con i materiali manipolabili, online e senza registrazione. Un modo semplice per capire il valore posizionale, allineato alle Indicazioni nazionali."
+      "it": "Attività di matematica gratuita e interattiva per la classe seconda: l'addizione con il cambio entro il 100. Tuck, il criceto, mostra i blocchi base dieci in colonne di valore posizionale; raggruppa 10 unità per formare una decina (il famoso \"cambio\") e scrivi il totale. Si lavora su decine e unità in modo concreto, con i materiali manipolabili, online e senza registrazione. Un modo semplice per capire il valore posizionale, allineato alle Indicazioni nazionali.",
+      "nl": "Bij deze activiteit laat Tuck de hamster met MAB-blokken zien hoe je optelt met tienoverschrijding tot 100. Je kind telt de losse eenheden, bundelt tien eenheden tot één tiental en typt daarna het totaal — zo wordt tienoverschrijding concreet en zichtbaar. Gratis online te spelen, zonder download en zonder account. Sluit aan bij de SLO-kerndoelen, domein Getallen en het tientallig stelsel (Groep 4)."
     },
     "kid_prompt_template": "place-value-regroup"
   },

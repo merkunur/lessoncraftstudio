@@ -491,6 +491,29 @@
         "De basis leggen voor ruimtelijk inzicht dat later helpt bij meetkunde en breuken."
       ]
     },
+    "place-value-regroup.add-compose-ten.1-nbt-c-4": {
+      "about": [
+        "Tuck de hamster laat MAB-blokken zien terwijl je kind een getal van twee cijfers optelt bij een getal van één cijfer, waarbij de eenheden samen over de tien heen gaan — 27+5, 48+6, 19+4. Je kind telt de losse blokjes, tikt op “Maak een tiental” om tien blokjes te bundelen tot één staafje, en typt daarna het totaal. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",
+        "De kern is de eerste, concrete betekenis van tienoverschrijding: tien eenheden vormen samen één tiental. In plaats van een trucje op papier telt je kind eerst de losse eenheden, ziet dat het er meer dan tien zijn, en kijkt hoe tien ervan samen tot één staafje worden gebundeld. De overgebleven eenheden blijven netjes in de eenheden-kolom staan, zodat je kind ziet wáárom het totaal precies daar uitkomt. Zo ervaart het het bundelen met echt materiaal, nog vóór de kale rekenregel met potlood en papier.",
+        "De activiteit sluit aan bij de SLO-kerndoelen, domein Getallen en het tientallig stelsel, en past bij het rekenen in Groep 4. Geen timer, geen score — gewoon rustig en speels oefenen, in je kind zijn of haar eigen tempo."
+      ],
+      "practices": [
+        "Een getal van twee cijfers optellen bij een getal van één cijfer, als de eenheden samen over de tien heen gaan",
+        "Tien losse blokjes bundelen tot één staafje",
+        "Tienoverschrijding begrijpen als bundelen tot een tiental",
+        "Het juiste totaal typen nadat er een tiental is gemaakt"
+      ],
+      "howToPlay": [
+        "Lees de som (27+5) en kijk hoe Tuck de hamster hem laat zien met MAB-blokken",
+        "Tik op “Maak een tiental” om tien losse eenheden te bundelen tot één staafje",
+        "Typ het totaal op het toetsenblok — je kunt altijd opnieuw proberen, zonder timer en zonder score"
+      ],
+      "learningGoals": [
+        "Optellen tot 100 met tienoverschrijding",
+        "Begrijpen dat tien eenheden samen één tiental vormen (plaatswaarde)",
+        "De plaatswaarde-betekenis ontdekken achter het optellen met tienoverschrijding op papier"
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

@@ -27,7 +27,8 @@
       "fr": "lire-un-diagramme-de-donnees-ce1",
       "es": "diagrama-de-frecuencias-leer-datos-2-primaria",
       "pt": "ler-diagrama-de-frequencias-dados-conchas-2-ano",
-      "it": "diagramma-delle-frequenze-leggere-i-dati-classe-seconda"
+      "it": "diagramma-delle-frequenze-leggere-i-dati-classe-seconda",
+      "nl": "kruisjesdiagram-aflezen-gegevens-groep-4"
     },
     "page_title": {
       "en": "Shelly's Tide-Line — Measurement Line Plots (Grade 2)",
@@ -35,7 +36,8 @@
       "fr": "Lire un diagramme de données — CE1 (longueurs en cm)",
       "es": "Shelly y la línea de marea — leer un diagrama de frecuencias (2.º primaria)",
       "pt": "Shelly e as Conchas: Ler Diagrama de Frequências e Dados — 2º ano",
-      "it": "Shelly: leggere il diagramma delle frequenze (classe seconda)"
+      "it": "Shelly: leggere il diagramma delle frequenze (classe seconda)",
+      "nl": "Shelly’s getijdenlijn – frequenties aflezen (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 math activity: help Shelly the hermit crab measure shells and plot their lengths on a tide-line. Read the X's stacked over each number to find how many shells are a given length, how many are longer, the most common length, and how much longer the longest shell is than the shortest. A clear, friendly introduction to measurement line plots. Common Core 2.MD.D.9.",
@@ -43,7 +45,8 @@
       "fr": "Lis et représente des données en CE1 : Shelly le bernard-l’ermite mesure des coquillages et place chaque longueur sur un diagramme. Gratuit et interactif.",
       "es": "Con Shelly, el cangrejo ermitaño, mide conchas en centímetros y regístralas en un diagrama de frecuencias sobre la recta numérica. Lee cuántas hay de cada longitud, cuál se repite más y la diferencia entre la más larga y la más corta. Juego interactivo y gratis de segundo grado, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Com a Shelly, o caranguejo-ermitão, meça conchas em centímetros e marque cada comprimento em um diagrama de frequências sobre a reta numérica. Leia quantas conchas há de cada comprimento, qual mais aparece e quantos cm a mais tem a mais comprida que a mais curta. Atividade interativa e grátis do 2º ano, sem cadastro, alinhada à BNCC (Probabilidade e estatística).",
-      "it": "Sulla linea di marea, Shelly il granchio eremita ha raccolto una manciata di conchiglie di tutte le misure e ha bisogno del tuo aiuto per metterle in ordine. Misura ogni conchiglia e segna la sua lunghezza con una X sulla linea dei numeri: mano a mano che le X si impilano, prende forma il diagramma delle frequenze. Quando il diagramma è pronto, lo leggi insieme a Shelly per rispondere alle sue domande: quante conchiglie misurano una certa lunghezza in cm, qual è la lunghezza che compare più spesso e quanto è più lunga la più lunga rispetto alla più corta. È un modo tranquillo per imparare a leggere e interpretare semplici dati, gratis e senza registrazione, direttamente nel browser. L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni."
+      "it": "Sulla linea di marea, Shelly il granchio eremita ha raccolto una manciata di conchiglie di tutte le misure e ha bisogno del tuo aiuto per metterle in ordine. Misura ogni conchiglia e segna la sua lunghezza con una X sulla linea dei numeri: mano a mano che le X si impilano, prende forma il diagramma delle frequenze. Quando il diagramma è pronto, lo leggi insieme a Shelly per rispondere alle sue domande: quante conchiglie misurano una certa lunghezza in cm, qual è la lunghezza che compare più spesso e quanto è più lunga la più lunga rispetto alla più corta. È un modo tranquillo per imparare a leggere e interpretare semplici dati, gratis e senza registrazione, direttamente nel browser. L'attività è allineata alle Indicazioni nazionali, nel nucleo Relazioni, dati e previsioni.",
+      "nl": "Meet samen met Shelly de heremietkreeft schelpjes op en zet ze in een kruisjesdiagram: voor elke schelp komt er een kruisje boven het juiste getal op de getallenlijn. Zo ontstaat een overzichtelijk beeld van alle lengtes, en leert je kind de frequenties aflezen: hoeveel schelpen zijn even lang, welke lengte komt het vaakst voor en hoeveel schelpen zijn langer dan een bepaald aantal centimeter? Deze activiteit is gratis en interactief, en sluit aan bij de SLO-kerndoelen voor groep 4."
     },
     "kid_prompt_template": "line-plot"
   }

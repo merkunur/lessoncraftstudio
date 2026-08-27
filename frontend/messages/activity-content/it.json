@@ -4079,6 +4079,29 @@
         "Pagare una cifra componendo l’importo esatto con più monete",
         "Calcolare e dare il resto in semplici situazioni di acquisto"
       ]
+    },
+    "domino-two-part.two-syllable.rf-1-3-e": {
+      "about": [
+        "Leggere una parola non è indovinarla: è pronunciare una sillaba dopo l’altra e sentirle diventare una parola intera. Qui ogni parola arriva già divisa, come le tessere di un domino, così il bambino vede la strada da percorrere.",
+        "Il bambino legge le due sillabe che compongono la parola (ga·to), le fonde in un’unica parola e poi tocca il disegno che le corrisponde. Un pinguino amico accompagna ogni tentativo con dolcezza.",
+        "L’attività è pensata in linea con le «Indicazioni nazionali» ed è completamente gratis: senza registrazione, senza timer e senza punteggio. Il bambino procede al proprio ritmo, senza fretta e senza pressioni."
+      ],
+      "practices": [
+        "Leggere le parole per sillabe",
+        "Fondere le sillabe in parole",
+        "Leggere parole di due sillabe",
+        "Avviarsi alla lettura fluente"
+      ],
+      "howToPlay": [
+        "Leggi le due sillabe della parola",
+        "Unisci le sillabe per formare la parola",
+        "Tocca il disegno giusto"
+      ],
+      "learningGoals": [
+        "Riconoscere e leggere le sillabe che compongono una parola",
+        "Fondere le sillabe per leggere parole di due sillabe",
+        "Rafforzare la sicurezza nella lettura e avvicinarsi alla lettura fluente"
+      ]
     }
   }
 }

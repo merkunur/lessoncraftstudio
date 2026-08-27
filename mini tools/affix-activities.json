@@ -129,6 +129,20 @@
           { "id": "af-which-disonesto", "cog": "which", "root": "onesto", "affix": "un",  "meaning": "il contrario di onesto", "options": ["un","re","ful"] },
           { "id": "af-which-riaprire",  "cog": "which", "root": "aprire", "affix": "re",  "meaning": "aprire di nuovo",        "options": ["un","re","ful"] },
           { "id": "af-which-gioioso",   "cog": "which", "root": "gioia",  "affix": "ful", "meaning": "pieno di gioia",         "options": ["un","re","ful"] }
+        ],
+        "nl": [
+          { "id": "af-ongelukkig", "cog": "apply", "word": "ongelukkig", "root": "gelukkig", "affix": "un",  "options": [ { "affix": "root", "text": "gelukkig" }, { "affix": "un", "text": "niet gelukkig" }, { "affix": "ful", "text": "heel gelukkig" } ] },
+          { "id": "af-ongezond",   "cog": "apply", "word": "ongezond",   "root": "gezond",   "affix": "un",  "options": [ { "affix": "root", "text": "gezond" }, { "affix": "un", "text": "niet gezond" }, { "affix": "ful", "text": "heel gezond" } ] },
+          { "id": "af-oneerlijk",  "cog": "apply", "word": "oneerlijk",  "root": "eerlijk",  "affix": "un",  "options": [ { "affix": "root", "text": "eerlijk" }, { "affix": "un", "text": "niet eerlijk" }, { "affix": "ful", "text": "heel eerlijk" } ] },
+          { "id": "af-kleurloos",  "cog": "apply", "word": "kleurloos",  "root": "kleur",    "affix": "less", "options": [ { "affix": "root", "text": "kleur" }, { "affix": "less", "text": "zonder kleur" }, { "affix": "ful", "text": "vol kleur" } ] },
+          { "id": "af-waardeloos", "cog": "apply", "word": "waardeloos", "root": "waarde",   "affix": "less", "options": [ { "affix": "root", "text": "waarde" }, { "affix": "less", "text": "zonder waarde" }, { "affix": "ful", "text": "vol waarde" } ] },
+          { "id": "af-geurloos",   "cog": "apply", "word": "geurloos",   "root": "geur",     "affix": "less", "options": [ { "affix": "root", "text": "geur" }, { "affix": "less", "text": "zonder geur" }, { "affix": "ful", "text": "vol geur" } ] },
+          { "id": "af-liefdevol",  "cog": "apply", "word": "liefdevol",  "root": "liefde",   "affix": "ful",  "options": [ { "affix": "root", "text": "liefde" }, { "affix": "ful", "text": "vol liefde" }, { "affix": "less", "text": "zonder liefde" } ] },
+          { "id": "af-hoopvol",    "cog": "apply", "word": "hoopvol",    "root": "hoop",     "affix": "ful",  "options": [ { "affix": "root", "text": "hoop" }, { "affix": "ful", "text": "vol hoop" }, { "affix": "less", "text": "zonder hoop" } ] },
+
+          { "id": "af-which-geluidloos", "cog": "which", "root": "geluid", "affix": "less", "meaning": "zonder geluid", "options": ["un","ful","less"] },
+          { "id": "af-which-onhandig",   "cog": "which", "root": "handig", "affix": "un",   "meaning": "niet handig",   "options": ["un","ful","less"] },
+          { "id": "af-which-waardevol",  "cog": "which", "root": "waarde", "affix": "ful",  "meaning": "vol waarde",    "options": ["un","ful","less"] }
         ]
       }
     },
@@ -138,7 +152,8 @@
       "fr": "prefixes-suffixes-le-sens-des-mots-ce1",
       "es": "prefijos-y-sufijos-formacion-de-palabras-2-primaria",
       "pt": "maquina-de-palavras-marigold-prefixos-sufixos-formacao-de-palavras-2-ano",
-      "it": "prefissi-e-suffissi-significato-delle-parole-classe-seconda"
+      "it": "prefissi-e-suffissi-significato-delle-parole-classe-seconda",
+      "nl": "woordbouwstenen-voor-en-achtervoegsels-groep-4"
     },
     "page_title": {
       "en": "Marigold's Knowing Machine — Prefixes & Suffixes Word Meaning (Grade 2)",
@@ -146,7 +161,8 @@
       "fr": "Préfixes et suffixes : le sens des mots – CE1",
       "es": "Prefijos y sufijos para niños: forma palabras (2.º primaria)",
       "pt": "A Máquina de Palavras da Marigold: prefixos e sufixos",
-      "it": "La macchina delle parole di Marigold: prefissi e suffissi (classe seconda)"
+      "it": "La macchina delle parole di Marigold: prefissi e suffissi (classe seconda)",
+      "nl": "Marigolds Woordmachine: voor- en achtervoegsels – Groep 4"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 reading activity: help Marigold the mole work out what a new word means when a prefix or suffix is added. Drop the un-, re-, -ful, or -less cog into the Knowing Machine and read the new word — then tap what it means. A clear, friendly way to learn how prefixes and suffixes change a word's meaning. Common Core L.2.4.b and L.2.4.c.",
@@ -154,7 +170,8 @@
       "fr": "Avec Marigold la taupe, découvrez comment les préfixes et suffixes (re-, dé-, -eux) changent le sens des mots. Activité gratuite et interactive, niveau CE1.",
       "es": "Con Marigold y su máquina de engranes, tu peque descubre cómo los prefijos y sufijos cambian el significado de las palabras: des- es lo contrario, re- es otra vez y -oso es lleno de. Actividad interactiva y gratuita de formación de palabras para 2.º de primaria, alineada a los Planes y programas de estudio (SEP).",
       "pt": "A Marigold, uma toupeira, tem uma máquina que cola prefixos e sufixos às palavras e muda o sentido delas. Formação de palavras para o 2º ano, no seu ritmo.",
-      "it": "Marigold la talpa ha costruito una macchina delle parole piena di ingranaggi: ogni ingranaggio è un prefisso o un suffisso. Girando gli ingranaggi, il bambino scopre come prefissi e suffissi cambiano il significato delle parole — il «contrario» con dis-, il «di nuovo» con ri-, il «pieno di» con -oso. È un'attività gratuita, senza registrazione, che si gioca direttamente nel browser, senza punteggi e senza fretta. Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico, aiuta a collegare ogni parola nuova al suo significato."
+      "it": "Marigold la talpa ha costruito una macchina delle parole piena di ingranaggi: ogni ingranaggio è un prefisso o un suffisso. Girando gli ingranaggi, il bambino scopre come prefissi e suffissi cambiano il significato delle parole — il «contrario» con dis-, il «di nuovo» con ri-, il «pieno di» con -oso. È un'attività gratuita, senza registrazione, che si gioca direttamente nel browser, senza punteggi e senza fretta. Pensata per la classe seconda e allineata alle Indicazioni nazionali, nell'area del lessico, aiuta a collegare ogni parola nuova al suo significato.",
+      "nl": "Ontdek met Marigold on-, -vol en -loos: je kind verandert met voor- en achtervoegsels de betekenis van een woord. Gratis, interactief oefenen – Nederlands, Groep 4, aansluitend op de SLO-kerndoelen."
     },
     "kid_prompt_template": "affix"
   }

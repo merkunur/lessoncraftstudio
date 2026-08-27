@@ -9161,6 +9161,233 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "word": "Gatto",
+            "correct": {
+              "noun": "cat",
+              "themeDir": "animals",
+              "word": "Gatto"
+            },
+            "distractors": [
+              {
+                "noun": "rooster",
+                "themeDir": "birds 2",
+                "word": "Gallo"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "beach",
+                "word": "Sole"
+              },
+              {
+                "noun": "apple",
+                "themeDir": "At the Supermarket",
+                "word": "Mela"
+              }
+            ]
+          },
+          {
+            "word": "Pane",
+            "correct": {
+              "noun": "bread",
+              "themeDir": "At the Supermarket",
+              "word": "Pane"
+            },
+            "distractors": [
+              {
+                "noun": "ball",
+                "themeDir": "toys",
+                "word": "Palla"
+              },
+              {
+                "noun": "moon",
+                "themeDir": "camping",
+                "word": "Luna"
+              },
+              {
+                "noun": "fig",
+                "themeDir": "fruits",
+                "word": "Fico"
+              }
+            ]
+          },
+          {
+            "word": "Luna",
+            "correct": {
+              "noun": "moon",
+              "themeDir": "camping",
+              "word": "Luna"
+            },
+            "distractors": [
+              {
+                "noun": "wolf",
+                "themeDir": "animals",
+                "word": "Lupo"
+              },
+              {
+                "noun": "frog",
+                "themeDir": "camping",
+                "word": "Rana"
+              },
+              {
+                "noun": "boat",
+                "themeDir": "beach",
+                "word": "Barca"
+              }
+            ]
+          },
+          {
+            "word": "Cane",
+            "correct": {
+              "noun": "dog",
+              "themeDir": "animals",
+              "word": "Cane"
+            },
+            "distractors": [
+              {
+                "noun": "house",
+                "themeDir": "miscellaneous",
+                "word": "Casa"
+              },
+              {
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "word": "Topo"
+              },
+              {
+                "noun": "pear",
+                "themeDir": "At the Supermarket",
+                "word": "Pera"
+              }
+            ]
+          },
+          {
+            "word": "Pera",
+            "correct": {
+              "noun": "pear",
+              "themeDir": "At the Supermarket",
+              "word": "Pera"
+            },
+            "distractors": [
+              {
+                "noun": "pen",
+                "themeDir": "around the house",
+                "word": "Penna"
+              },
+              {
+                "noun": "nut",
+                "themeDir": "tools",
+                "word": "Dado"
+              },
+              {
+                "noun": "goose",
+                "themeDir": "birds 2",
+                "word": "Oca"
+              }
+            ]
+          },
+          {
+            "word": "Mela",
+            "correct": {
+              "noun": "apple",
+              "themeDir": "At the Supermarket",
+              "word": "Mela"
+            },
+            "distractors": [
+              {
+                "noun": "chin",
+                "themeDir": "body parts",
+                "word": "Mento"
+              },
+              {
+                "noun": "nest",
+                "themeDir": "spring",
+                "word": "Nido"
+              },
+              {
+                "noun": "boat",
+                "themeDir": "beach",
+                "word": "Barca"
+              }
+            ]
+          },
+          {
+            "word": "Rana",
+            "correct": {
+              "noun": "frog",
+              "themeDir": "camping",
+              "word": "Rana"
+            },
+            "distractors": [
+              {
+                "noun": "turnip",
+                "themeDir": "vegetables",
+                "word": "Rapa"
+              },
+              {
+                "noun": "cube",
+                "themeDir": "shapes",
+                "word": "Cubo"
+              },
+              {
+                "noun": "vase",
+                "themeDir": "around the house",
+                "word": "Vaso"
+              }
+            ]
+          },
+          {
+            "word": "Topo",
+            "correct": {
+              "noun": "mouse",
+              "themeDir": "forest creatures",
+              "word": "Topo"
+            },
+            "distractors": [
+              {
+                "noun": "bull",
+                "themeDir": "farm animals",
+                "word": "Toro"
+              },
+              {
+                "noun": "ship",
+                "themeDir": "vehicles",
+                "word": "Nave"
+              },
+              {
+                "noun": "fig",
+                "themeDir": "fruits",
+                "word": "Fico"
+              }
+            ]
+          },
+          {
+            "word": "Naso",
+            "correct": {
+              "noun": "nose",
+              "themeDir": "body parts",
+              "word": "Naso"
+            },
+            "distractors": [
+              {
+                "noun": "ship",
+                "themeDir": "vehicles",
+                "word": "Nave"
+              },
+              {
+                "noun": "rice",
+                "themeDir": "At the Supermarket",
+                "word": "Riso"
+              },
+              {
+                "noun": "owl",
+                "themeDir": "animals",
+                "word": "Gufo"
+              }
+            ]
+          }
         ]
       }
     },
@@ -9169,19 +9396,22 @@
       "en": "read-the-word-tap-the-picture",
       "de": "erste-woerter-lesen-klasse-1",
       "es": "leer-primeras-palabras-primer-grado",
-      "pt": "ler-as-primeiras-palavras-1-ano"
+      "pt": "ler-as-primeiras-palavras-1-ano",
+      "it": "leggere-le-prime-parole-classe-prima"
     },
     "page_title": {
       "en": "Read the Word, Tap the Picture — Decoding CVC Words",
       "de": "Lesen lernen – erste Wörter online üben (Klasse 1)",
       "es": "Leer las primeras palabras: lectura para 1.º grado",
-      "pt": "Ler as primeiras palavras: leitura para o 1º ano"
+      "pt": "Ler as primeiras palavras: leitura para o 1º ano",
+      "it": "Leggere le prime parole: imparare a leggere in classe prima"
     },
     "page_intro": {
       "en": "Reading starts with decoding — sounding out each letter and blending the sounds into a word. Here the child reads a short printed word like cat, can, or bus, then taps the picture it names. The picture choices share beginnings on purpose (cat, cap, can), so the only way to find the right one is to read the whole word, all the way to the last sound. Take your time; there is no timer and no score. Aligned to Common Core RF.K.3 — knowing and applying grade-level phonics to decode words.",
       "de": "Lesen lernen mit Emil der Eule: kurze, lautgetreue Wörter Schritt für Schritt erlesen. Kostenlose Übungen für Klasse 1 – online, ohne Anmeldung.",
       "es": "Actividad interactiva y gratis de lectura: tu hijo/a lee una palabra corta y toca el dibujo que le corresponde. Uno de los dibujos empieza igual, así que hay que leer toda la palabra. Con Lola la lechuza. Ideal para 1.º grado.",
-      "pt": "Atividade interativa e grátis de leitura: seu filho ou sua filha lê uma palavra curta e toca na figura que combina com ela. Uma das figuras começa com as mesmas letras, então é preciso ler a palavra inteira, até o fim. Com Cora, a coruja, para o 1º ano — o começo da alfabetização, sem pressa nem pontos e alinhada à BNCC."
+      "pt": "Atividade interativa e grátis de leitura: seu filho ou sua filha lê uma palavra curta e toca na figura que combina com ela. Uma das figuras começa com as mesmas letras, então é preciso ler a palavra inteira, até o fim. Com Cora, a coruja, para o 1º ano — o começo da alfabetização, sem pressa nem pontos e alinhada à BNCC.",
+      "it": "Il bambino legge una parola breve stampata — senza audio — e tocca la figura che la rappresenta tra quattro immagini. Una delle figure sbagliate inizia con le stesse lettere, così per scegliere bene deve leggere tutta la parola, non solo l’inizio. Un primo passo verso la lettura autonoma, allineato alle «Indicazioni nazionali». È gratis, senza registrazione, senza timer e senza punteggio: si legge con calma, al proprio ritmo."
     },
     "kid_prompt_template": "promptReadWord"
   }

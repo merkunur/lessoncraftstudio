@@ -138,6 +138,7 @@ function effGrade(row: ActivityRow, locale: string): string {
    activities fall through to localizeStrand unchanged. Display-only (chip + JSON-LD
    teaches/targetDescription); related-activity matching keeps the raw alignment.strand. */
 const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
+  'tally-squirrel.add-four.2-nbt-b-6': { nl: 'Getallen' },  // NL: meerdere tweecijferige getallen optellen tot 100 (plaatswaarde) → SLO-domein «Getallen». De auto-map Number & Operations in Base Ten → «Getallen en het tientallig stelsel» is een CALQUE, GEEN bestaande SLO-domeinnaam (de vier SLO rekenen-wiskunde-domeinen: Getallen · Verhoudingen · Meten & Meetkunde · Verbanden). GRADE = Groep 4 (geen override: manifest '2' → Groep 4 auto, = de Duitse Klasse 2). CCSS 2.NBT.B.6 blijft alleen machine/SEO-anker. Override per-activiteit (strand-names.ts NIET aangeraakt); en/de/fr/es/pt/it houden hun eigen auto-map
   'gauge-good-guess.estimate.2-md-a-3': { it: 'Relazioni, dati e previsioni' },  // IT: stimare/misurare LUNGHEZZE (grandezza) con unità convenzionali (cm/metro) → nucleo «Relazioni, dati e previsioni» (dove le Indicazioni collocano la misura delle grandezze). L'auto-map Measurement & Data → «Misure e dati» è un CALCO, NON un nucleo italiano. ⚠ DISTINTO da #42 mending-fences «Spazio e figure» (il perimetro è proprietà di una FIGURA geometrica); qui è misura di una grandezza. Consistente con lay-units (#1). CCSS 2.MD.A.3 resta solo àncora macchina/SEO
   'bram-board-shop.length-word-problems.2-md-b-5': { it: 'Numeri' },  // IT: problemi di ADDIZIONE e SOTTRAZIONE con le lunghezze entro il 100; le cm sono DATE e il metro è solo il MODELLO (una retta dei numeri travestita) → il lavoro è calcolo → nucleo «Numeri» (traguardo «risolvere problemi… con le quattro operazioni»). L'auto-map Measurement & Data → «Misure e dati» è un CALCO, NON un nucleo. ⚠ DIVERGE DELIBERATAMENTE da #43 gauge-good-guess «Relazioni, dati e previsioni» (là si STIMA senza strumento = misura vera) e da #42 «Spazio e figure» (perimetro). Gemello di hoppers-number-line 2.MD.B.6 (stessa logica: la linea/il metro è il modello, il lavoro è aritmetica). GRADE = classe seconda (nessun override: alignment.grade è già '2'). CCSS 2.MD.B.5 resta solo àncora macchina/SEO
   'tildy.measure-ruler.2-md-a-1': { it: 'Relazioni, dati e previsioni' },  // IT: misurare lunghezze col righello in cm = misura di grandezze → nucleo «Relazioni, dati e previsioni» (i 3 nuclei = Numeri / Spazio e figure / Relazioni, dati e previsioni). L'auto-map Measurement & Data → «Misure e dati» è un CALCO dal Common Core. Consistente con lay-units #1 + gauge #43; ⚠ DISTINTO da #42 mending-fences «Spazio e figure» (il perimetro è geometria, non misura). Override per-attività (strand-names.ts NON toccato); de/es/fr/pt tengono il proprio auto-map. CCSS 2.MD.A.1 resta solo àncora macchina/SEO
@@ -556,7 +557,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.577';
+  const ACTIVITY_WRAPPER_VERSION = '9.578';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

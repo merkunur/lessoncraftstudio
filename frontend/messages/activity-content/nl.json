@@ -882,6 +882,29 @@
         "Lengtes ordenen en het verschil tussen langste en kortste bepalen"
       ]
     },
+    "hoppers-number-line.jump-sums.2-md-b-6": {
+      "about": [
+        "Hopper de kikker rekent met zijn poten: elke som of aftrekking wordt één sprong over de waterlelies.",
+        "Je kind kiest het startgetal, de richting en de sprongafstand, en leest daarna af waar Hopper landt.",
+        "Zo wordt de getallenlijn een echt rekenmodel — je ziet de som gebeuren in plaats van hem alleen uit te rekenen."
+      ],
+      "practices": [
+        "Optellen en aftrekken tot 100 op de getallenlijn",
+        "Bewust de richting kiezen: vooruit bij plus, achteruit bij min",
+        "Vlot springen met hele tientallen (bijvoorbeeld 45 − 20, 80 − 50, 30 + 40)",
+        "Het antwoord aflezen als het landingsgetal"
+      ],
+      "howToPlay": [
+        "Tik het startgetal aan op de getallenlijn",
+        "Kies de richting (vooruit of achteruit) en de sprongafstand",
+        "Tik in waar Hopper landt — dat is het antwoord"
+      ],
+      "learningGoals": [
+        "De getallenlijn gebruiken als rekenmodel, niet alleen om te tellen",
+        "Optellen en aftrekken koppelen aan richting en beweging",
+        "Vlot leren rekenen met hele tientallen"
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

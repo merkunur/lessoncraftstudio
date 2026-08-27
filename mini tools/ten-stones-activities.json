@@ -16,7 +16,8 @@
       "fr": "passer-par-dix-sur-la-piste-cp",
       "es": "formar-el-diez-sumar-y-restar-hasta-20-recta-numerica",
       "pt": "formar-o-dez-somar-e-subtrair-ate-20-reta-numerica-2-ano",
-      "it": "passaggio-della-decina-somme-sottrazioni-entro-20-classe-seconda"
+      "it": "passaggio-della-decina-somme-sottrazioni-entro-20-classe-seconda",
+      "nl": "rekenen-over-het-tiental-tot-20-getallenlijn-groep-3"
     },
     "page_title": {
       "en": "Lily's Ten Stones — Make a Ten to Add & Subtract",
@@ -24,7 +25,8 @@
       "fr": "Les nénuphars de Lily — Passer par 10 pour calculer (CP)",
       "es": "Lily la rana: formar el diez para sumar y restar hasta 20 (2º primaria)",
       "pt": "Lily e a pedra do dez: passar pelo dez, somar e subtrair até 20 — 2º ano",
-      "it": "I sassi del dieci di Lily: il passaggio della decina per sommare e sottrarre entro il 20 (classe seconda)"
+      "it": "I sassi del dieci di Lily: il passaggio della decina per sommare e sottrarre entro il 20 (classe seconda)",
+      "nl": "Ties en de gouden tiensteen — rekenen over het tiental op de getallenlijn (Groep 3)"
     },
     "page_intro": {
       "en": "Help Lily the frog cross the pond on the number line: to add or subtract past ten, first hop to the golden Ten Stone, then the rest. Build the make-a-ten part yourself — 8 + 2 makes 10, then 10 + 4 is 14. A strategy game, not a speed drill. Common Core 1.OA.C.6.",
@@ -32,7 +34,8 @@
       "fr": "Lily la grenouille passe par 10 : elle se pose sur le nénuphar du dix, sur la piste numérique, pour additionner et soustraire jusqu'à 20. Gratuit, interactif, CP.",
       "es": "Ayuda a Lily la rana a cruzar la recta numérica: para sumar o restar más allá del diez, primero brinca a la piedra dorada del diez y luego lo que falta. Tú formas el diez —8 + 2 son 10, luego 10 + 4 son 14—. Juego gratis, sin registro, para 2º de primaria (SEP).",
       "pt": "Ajude a rã Lily a pular até a pedra dourada do dez na reta numérica e a formar o dez para somar e subtrair até 20. Atividade grátis e interativa de 2º ano.",
-      "it": "Aiuta la rana Lily ad attraversare lo stagno lungo la linea dei numeri: per sommare o sottrarre oltre il dieci, prima salta sul sasso dorato del dieci e poi fa gli altri passi. Sei tu a costruire il passaggio della decina usando gli amici del 10 — 8 + 2 fa 10, poi 10 + 4 fa 14 — e allo stesso modo si torna indietro per sottrarre. Un'attività di matematica per la classe seconda su addizioni e sottrazioni entro il 20, allineata alle Indicazioni nazionali (nucleo Numeri). È un gioco di strategia, non una gara di velocità: online, gratis e senza registrazione, direttamente nel browser."
+      "it": "Aiuta la rana Lily ad attraversare lo stagno lungo la linea dei numeri: per sommare o sottrarre oltre il dieci, prima salta sul sasso dorato del dieci e poi fa gli altri passi. Sei tu a costruire il passaggio della decina usando gli amici del 10 — 8 + 2 fa 10, poi 10 + 4 fa 14 — e allo stesso modo si torna indietro per sottrarre. Un'attività di matematica per la classe seconda su addizioni e sottrazioni entro il 20, allineata alle Indicazioni nazionali (nucleo Numeri). È un gioco di strategia, non una gara di velocità: online, gratis e senza registrazione, direttamente nel browser.",
+      "nl": "Gratis, interactief spel: help Ties de kikker over de getallenlijn tot 20 en oefen rekenen over het tiental — eerst naar de gouden tiensteen, dan verder. Optellen én aftrekken. Sluit aan bij de SLO-kerndoelen."
     },
     "kid_prompt_template": "ten-stones",
     "params": {
@@ -52,7 +55,8 @@
             "fr": "8 + 6. Saute d'abord sur le nénuphar du dix : 8 + ⬚ = 10.",
             "es": "8 + 6. Brinca primero a la piedra del diez: 8 + ⬚ = 10.",
             "pt": "8 + 6. Primeiro pule até a pedra do dez: 8 + ⬚ = 10.",
-            "it": "8 + 6. Prima salta fino al sasso del dieci: 8 + ⬚ = 10."
+            "it": "8 + 6. Prima salta fino al sasso del dieci: 8 + ⬚ = 10.",
+            "nl": "8 + 6. Hup eerst naar de tiensteen: 8 + ⬚ = 10."
           }
         },
         {
@@ -70,7 +74,8 @@
             "fr": "7 + 5. Passe par 10 : 7 + ⬚ = 10, puis saute le reste.",
             "es": "7 + 5. Forma un diez: 7 + ⬚ = 10 y luego brinca lo que falta.",
             "pt": "7 + 5. Forme um dez: 7 + ⬚ = 10, depois pule o resto.",
-            "it": "7 + 5. Fai un dieci: 7 + ⬚ = 10, poi salta il resto."
+            "it": "7 + 5. Fai un dieci: 7 + ⬚ = 10, poi salta il resto.",
+            "nl": "7 + 5. Maak het tiental vol: 7 + ⬚ = 10, hup dan de rest."
           }
         },
         {
@@ -88,7 +93,8 @@
             "fr": "6 + 3. Est-ce que Lily doit se poser sur le nénuphar du dix ?",
             "es": "6 + 3. ¿Lily necesita descansar en la piedra del diez?",
             "pt": "6 + 3. A Lily vai precisar descansar na pedra do dez?",
-            "it": "6 + 3. Lily avrà bisogno di fare tappa sul sasso del dieci?"
+            "it": "6 + 3. Lily avrà bisogno di fare tappa sul sasso del dieci?",
+            "nl": "6 + 3. Moet Ties op de tiensteen rusten?"
           }
         },
         {
@@ -106,7 +112,8 @@
             "fr": "13 − 4. Saute en arrière jusqu'au nénuphar du dix : 13 − ⬚ = 10.",
             "es": "13 − 4. Brinca de regreso a la piedra del diez: 13 − ⬚ = 10.",
             "pt": "13 − 4. Pule de volta até a pedra do dez: 13 − ⬚ = 10.",
-            "it": "13 − 4. Salta indietro fino al sasso del dieci: 13 − ⬚ = 10."
+            "it": "13 − 4. Salta indietro fino al sasso del dieci: 13 − ⬚ = 10.",
+            "nl": "13 − 4. Hup terug naar de tiensteen: 13 − ⬚ = 10."
           }
         },
         {
@@ -122,7 +129,8 @@
             "fr": "3 + 8. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?",
             "es": "3 + 8. ¿En qué número debe pararse Lily para llegar más rápido al diez?",
             "pt": "3 + 8. Em qual número a Lily deve ficar para chegar ao dez mais rápido?",
-            "it": "3 + 8. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?"
+            "it": "3 + 8. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?",
+            "nl": "3 + 8. Op welk getal kan Ties het beste gaan staan om het snelst bij tien te komen? Denk aan de grootste eerst."
           }
         },
         {
@@ -140,7 +148,8 @@
             "fr": "8 + 6. Est-ce que Lily doit se poser sur le nénuphar du dix ?",
             "es": "8 + 6. ¿Lily necesita descansar en la piedra del diez?",
             "pt": "8 + 6. A Lily vai precisar descansar na pedra do dez?",
-            "it": "8 + 6. Lily avrà bisogno di fare tappa sul sasso del dieci?"
+            "it": "8 + 6. Lily avrà bisogno di fare tappa sul sasso del dieci?",
+            "nl": "8 + 6. Moet Ties op de tiensteen rusten?"
           }
         },
         {
@@ -161,7 +170,8 @@
             "fr": "7 + 8. Quel DOUBLE n'est qu'à 1 de la réponse ?",
             "es": "7 + 8. ¿Qué DOBLE está a solo uno de distancia y te puede ayudar?",
             "pt": "7 + 8. Qual DOBRO está a só um de distância e pode ajudar?",
-            "it": "7 + 8. Quale DOPPIO è a un solo passo dall'aiutarti?"
+            "it": "7 + 8. Quale DOPPIO è a un solo passo dall'aiutarti?",
+            "nl": "7 + 8. Welke dubbel zit er maar één vanaf om je te helpen? Denk aan de bijna-dubbel."
           }
         },
         {
@@ -179,7 +189,8 @@
             "fr": "9 + 4. Passe par 10 : 9 + ⬚ = 10, puis saute le reste.",
             "es": "9 + 4. Forma un diez: 9 + ⬚ = 10 y luego brinca lo que falta.",
             "pt": "9 + 4. Forme um dez: 9 + ⬚ = 10, depois pule o resto.",
-            "it": "9 + 4. Fai un dieci: 9 + ⬚ = 10, poi salta il resto."
+            "it": "9 + 4. Fai un dieci: 9 + ⬚ = 10, poi salta il resto.",
+            "nl": "9 + 4. Maak het tiental vol: 9 + ⬚ = 10, hup dan de rest."
           }
         },
         {
@@ -197,7 +208,8 @@
             "fr": "15 − 7. Saute en arrière jusqu'au nénuphar du dix : 15 − ⬚ = 10.",
             "es": "15 − 7. Brinca de regreso a la piedra del diez: 15 − ⬚ = 10.",
             "pt": "15 − 7. Pule de volta até a pedra do dez: 15 − ⬚ = 10.",
-            "it": "15 − 7. Salta indietro fino al sasso del dieci: 15 − ⬚ = 10."
+            "it": "15 − 7. Salta indietro fino al sasso del dieci: 15 − ⬚ = 10.",
+            "nl": "15 − 7. Hup terug naar de tiensteen: 15 − ⬚ = 10."
           }
         },
         {
@@ -213,7 +225,8 @@
             "fr": "9 + 2. Sur quel nombre Lily doit-elle se placer pour atteindre 10 le plus vite ?",
             "es": "9 + 2. ¿En qué número debe pararse Lily para llegar más rápido al diez?",
             "pt": "9 + 2. Em qual número a Lily deve ficar para chegar ao dez mais rápido?",
-            "it": "9 + 2. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?"
+            "it": "9 + 2. Su quale numero conviene che Lily si metta per arrivare al dieci più in fretta?",
+            "nl": "9 + 2. Op welk getal kan Ties het beste gaan staan om het snelst bij tien te komen? Denk aan de grootste eerst."
           }
         },
         {
@@ -231,7 +244,8 @@
             "fr": "8 + 6 = 14. Regarde Lily sauter en arrière : 14 − 6 = 8. Les mêmes nénuphars !",
             "es": "8 + 6 = 14. Mírala brincar de regreso: 14 − 6 = 8. ¡Las mismas piedras!",
             "pt": "8 + 6 = 14. Veja pular de volta: 14 − 6 = 8. As mesmas pedras!",
-            "it": "8 + 6 = 14. Guardala saltare all'indietro: 14 − 6 = 8. Gli stessi sassi!"
+            "it": "8 + 6 = 14. Guardala saltare all'indietro: 14 − 6 = 8. Gli stessi sassi!",
+            "nl": "8 + 6 = 14. Kijk hoe Ties terughuppelt: 14 − 6 = 8. Dezelfde stenen! Dat is de omkeersom."
           }
         }
       ]

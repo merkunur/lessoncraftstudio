@@ -246,7 +246,8 @@
       "fr": "comparer-et-ranger-par-longueur",
       "es": "comparar-longitudes-primero-primaria",
       "pt": "comparar-comprimentos-1-ano",
-      "it": "confrontare-lunghezze-classe-prima"
+      "it": "confrontare-lunghezze-classe-prima",
+      "nl": "linten-vergelijken-op-lengte-groep-3"
     },
     "page_title": {
       "en": "The Faraway Shelf — Compare & Order by Length (Grade 1)",
@@ -254,7 +255,8 @@
       "fr": "Ranger du plus petit au plus grand – les longueurs, en ligne (CP)",
       "es": "Los listones de Tilly — comparar y ordenar por longitud (1º de primaria)",
       "pt": "As fitas da Tilly — comparar e ordenar por comprimento (1º ano)",
-      "it": "I nastri di Tilly — confrontare e ordinare per lunghezza (classe prima)"
+      "it": "I nastri di Tilly — confrontare e ordinare per lunghezza (classe prima)",
+      "nl": "Tilly's linten — vergelijken en ordenen op lengte (Groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 measurement activity: help Tilly the shop cat compare things on far-apart shelves using a measuring cord. Read each ribbon against the cord, then tap the longest, the shortest, or the one that is just as long as the cord. A friendly first look at ordering by length and comparing two things indirectly using a third. Common Core 1.MD.A.1.",
@@ -262,7 +264,8 @@
       "fr": "Ranger les rubans du plus petit au plus grand : comparer les longueurs et les ordonner. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratuita de 1º de primaria: ayuda a Tilly, la gata de la tienda, a comparar listones en estantes lejanos con un cordón. Toca el más largo, el más corto o el que mide igual que el cordón, y aprende a ordenar por longitud y a comparar de forma indirecta. Basada en los planes y programas de estudio de la SEP.",
       "pt": "Atividade de matemática gratuita e online para o 1º ano: a criança compara as fitas da gatinha Tilly e descobre qual é a mais comprida, a mais curta e a que tem o mesmo tamanho de um barbante. Trabalha comprimento e comparação indireta na unidade temática Grandezas e medidas da BNCC. Sem cadastro, direto no navegador.",
-      "it": "Attività di matematica gratuita e senza registrazione per la classe prima (6-7 anni), da usare direttamente nel browser. Con la gatta Tilly, il bambino confronta nastri colorati su scaffali lontani e impara a confrontare e ordinare le lunghezze: tocca il nastro più lungo, quello più corto o quello lungo esattamente quanto lo spago. Poiché gli scaffali sono distanti, il bambino non può affiancare i nastri: usa lo spago come terzo oggetto e scopre il confronto indiretto, un primo passo verso la misura. Tono sereno, senza punteggio e senza fretta, allineato alle Indicazioni nazionali."
+      "it": "Attività di matematica gratuita e senza registrazione per la classe prima (6-7 anni), da usare direttamente nel browser. Con la gatta Tilly, il bambino confronta nastri colorati su scaffali lontani e impara a confrontare e ordinare le lunghezze: tocca il nastro più lungo, quello più corto o quello lungo esattamente quanto lo spago. Poiché gli scaffali sono distanti, il bambino non può affiancare i nastri: usa lo spago come terzo oggetto e scopre il confronto indiretto, un primo passo verso la misura. Tono sereno, senza punteggio e senza fretta, allineato alle Indicazioni nazionali.",
+      "nl": "Tilly's linten hangen op planken ver uit elkaar, dus je kunt ze niet naast elkaar leggen. Met het touwtje als tussenmaat lees je elk lint af en tik je op het langste of kortste lint, of op het lint dat even lang is als het touwtje. Zo oefent je kind spelenderwijs met langer, korter en even lang, en leert het twee dingen indirect vergelijken met een derde voorwerp. Gratis en online te spelen, zonder account. Afgestemd op de SLO-kerndoelen."
     },
     "kid_prompt_template": "seriation"
   }

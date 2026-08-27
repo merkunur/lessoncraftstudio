@@ -47,7 +47,9 @@
     pt: { red: 'Vermelha', blue: 'Azul', green: 'Verde', yellow: 'Amarela', purple: 'Roxa', orange: 'Laranja' },
     /* it — native ensemble: masc. to agree with "il nastro" (Rosso/Giallo inflect; Blu/Verde/Viola/
        Arancione invariable). Standalone chip labels; the colon srItem "Nastro {label}" carries them. */
-    it: { red: 'Rosso', blue: 'Blu', green: 'Verde', yellow: 'Giallo', purple: 'Viola', orange: 'Arancione' }
+    it: { red: 'Rosso', blue: 'Blu', green: 'Verde', yellow: 'Giallo', purple: 'Viola', orange: 'Arancione' },
+    /* nl — native ensemble: Dutch color words are lowercase (rood, NOT Rood). Bare nominative chip labels. */
+    nl: { red: 'rood', blue: 'blauw', green: 'groen', yellow: 'geel', purple: 'paars', orange: 'oranje' }
   };
   function clabel(color) { return (COLOR_L[LANG] && COLOR_L[LANG][color]) || (COLORS[color] && COLORS[color].label) || color; }
 
@@ -168,6 +170,26 @@
       relLonger: 'più lungo dello spago',
       relShorter: 'più corto dello spago',
       relEqual: 'lungo come lo spago'
+    },
+    /* nl — native ensemble (linguist + Groep 3 rekenen-wiskunde educator, SLO-kerndoelen). "het touwtje"
+       (niet-standaard referentiemaat — NOOIT meetlat/liniaal = standaardmaat, een latere fase); object =
+       "het lint" (het-woord) → "het langste/kortste lint". srItem in kleur-eerst vorm ("{label} lint: {rel}"):
+       een onbepaald bijvoeglijk naamwoord bij een het-woord verbuigt niet → de kale kleurlabels vallen
+       ongewijzigd in. "Tik op" (touch, niet Klik/Druk); "Kijk nog eens!" (geen goed/fout). */
+    nl: {
+      qLongest: 'Tik op het langste lint.',
+      qShortest: 'Tik op het kortste lint.',
+      qSamecord: 'Welk lint is even lang als het touwtje?',
+      win: 'Precies! {note}', winNote: 'Je hebt de lengtes vergeleken!',
+      nLongest: 'Het langste lint komt verder dan alle andere linten. Kijk nog eens!',
+      nShortest: 'Het kortste lint stopt als eerste. Kijk nog eens!',
+      nSamecord: 'Zoek het lint dat precies eindigt waar het touwtje eindigt. Kijk nog eens!',
+      cord: 'touwtje',
+      srRef: 'Het touwtje is de maat om mee te vergelijken.',
+      srItem: '{label} lint: {rel}',
+      relLonger: 'langer dan het touwtje',
+      relShorter: 'korter dan het touwtje',
+      relEqual: 'even lang als het touwtje'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -191,8 +213,8 @@
   var SeriationActivity = {
     id: 'seriation-activity',
     strings: {
-      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly', it: 'Lo scaffale lontano di Tilly' },
-      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!', it: 'Usa lo spago per confrontare i nastri, poi tocca la risposta!' },
+      title: { en: 'The Faraway Shelf', de: 'Tillys fernes Regal', fr: 'Les étagères lointaines de Tilly', es: 'El estante lejano', pt: 'A estante distante da Tilly', it: 'Lo scaffale lontano di Tilly', nl: "Tilly's verre plank" },
+      instruction: { en: 'Use the cord to compare the ribbons, then tap your answer!', de: 'Vergleiche die Bänder mit der Schnur und tippe dann auf deine Antwort!', fr: 'Utilise la ficelle pour comparer les rubans, puis touche ta réponse !', es: '¡Usa el cordón para comparar los listones y toca tu respuesta!', pt: 'Use o barbante para comparar as fitas, depois toque na sua resposta!', it: 'Usa lo spago per confrontare i nastri, poi tocca la risposta!', nl: 'Vergelijk de linten met het touwtje en tik dan op je antwoord!' },
       q: { en: '{q}' }
     },
 

@@ -2762,6 +2762,572 @@
               }
             ]
           }
+        ],
+        "it": [
+          {
+            "id": "r1_orso_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "orso",
+            "paragraph": [
+              "In inverno fa molto freddo.",
+              "Gli orsi hanno un pelo folto.",
+              "Questo pelo aiuta a tenere caldo il corpo.",
+              "Nella tana riposano al sicuro."
+            ],
+            "topicId": "orso_caldo",
+            "narrowId": "orso_pelo",
+            "fish": [
+              {
+                "id": "orso_caldo",
+                "phrase": "Gli orsi tengono caldo il corpo.",
+                "key": "caldo",
+                "picture": null
+              },
+              {
+                "id": "orso_pelo",
+                "phrase": "Gli orsi hanno un pelo folto.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "orso_bacche",
+                "phrase": "Gli orsi mangiano tante bacche.",
+                "key": "bacche",
+                "picture": null
+              },
+              {
+                "id": "orso_tana",
+                "phrase": "Gli orsi riposano nella tana.",
+                "key": "tana",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r2_orso_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "orso",
+            "slots": 2,
+            "paragraph": [
+              "Gli orsi cercano un posto sicuro.",
+              "Il pelo folto li tiene al caldo.",
+              "Con quel pelo dormono nella tana.",
+              "Lì riposano per tutto l’inverno."
+            ],
+            "topicId": "orso_tana",
+            "fish": [
+              {
+                "id": "orso_caldo",
+                "phrase": "Gli orsi tengono caldo il corpo.",
+                "key": "caldo",
+                "picture": null
+              },
+              {
+                "id": "orso_pelo",
+                "phrase": "Gli orsi hanno un pelo folto.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "orso_bacche",
+                "phrase": "Gli orsi mangiano tante bacche.",
+                "key": "bacche",
+                "picture": null
+              },
+              {
+                "id": "orso_tana",
+                "phrase": "Gli orsi riposano nella tana.",
+                "key": "tana",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "orso_pelo",
+                "belongs": true
+              },
+              {
+                "id": "orso_caldo",
+                "belongs": true
+              },
+              {
+                "id": "orso_bacche",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r3_orso_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "orso",
+            "paragraph": [
+              "In autunno gli orsi hanno molta fame.",
+              "Con il pelo folto stanno al caldo.",
+              "Cercano cibo tra i cespugli.",
+              "Mangiano tante bacche prima di dormire nella tana."
+            ],
+            "topicId": "orso_bacche",
+            "fish": [
+              {
+                "id": "orso_caldo",
+                "phrase": "Gli orsi tengono caldo il corpo.",
+                "key": "caldo",
+                "picture": null
+              },
+              {
+                "id": "orso_pelo",
+                "phrase": "Gli orsi hanno un pelo folto.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "orso_bacche",
+                "phrase": "Gli orsi mangiano tante bacche.",
+                "key": "bacche",
+                "picture": null
+              },
+              {
+                "id": "orso_tana",
+                "phrase": "Gli orsi riposano nella tana.",
+                "key": "tana",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r4_orso_supply",
+            "cog": "supply-detail",
+            "band": 2,
+            "group": "orso",
+            "paragraph": [
+              "In inverno serve stare al caldo.",
+              "Gli orsi hanno una pelliccia speciale.",
+              "Il loro pelo folto copre il corpo.",
+              "Così si riparano dal freddo pungente."
+            ],
+            "topicId": "orso_pelo",
+            "fish": [
+              {
+                "id": "orso_caldo",
+                "phrase": "Gli orsi tengono caldo il corpo.",
+                "key": "caldo",
+                "picture": null
+              },
+              {
+                "id": "orso_pelo",
+                "phrase": "Gli orsi hanno un pelo folto.",
+                "key": "pelo",
+                "picture": null
+              },
+              {
+                "id": "orso_bacche",
+                "phrase": "Gli orsi mangiano tante bacche.",
+                "key": "bacche",
+                "picture": null
+              },
+              {
+                "id": "orso_tana",
+                "phrase": "Gli orsi riposano nella tana.",
+                "key": "tana",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_orso_freddo",
+                "phrase": "Gli orsi si riparano dal freddo.",
+                "key": "freddo",
+                "belongs": true,
+                "picture": null
+              },
+              {
+                "id": "alt_orso_acqua",
+                "phrase": "Gli orsi bevono acqua fresca.",
+                "key": "acqua",
+                "belongs": false,
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r5_ape_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "ape",
+            "paragraph": [
+              "Le api lavorano tutto il giorno.",
+              "Volano sui fiori a cercare nettare.",
+              "Con il nettare fanno il miele dolce.",
+              "Portano tutto nell’alveare per l’inverno."
+            ],
+            "topicId": "ape_miele",
+            "narrowId": "ape_fiori",
+            "fish": [
+              {
+                "id": "ape_miele",
+                "phrase": "Le api fanno il miele dolce.",
+                "key": "miele",
+                "picture": null
+              },
+              {
+                "id": "ape_fiori",
+                "phrase": "Le api volano sui fiori.",
+                "key": "fiori",
+                "picture": null
+              },
+              {
+                "id": "ape_polline",
+                "phrase": "Le api raccolgono il polline.",
+                "key": "polline",
+                "picture": null
+              },
+              {
+                "id": "ape_alveare",
+                "phrase": "Le api vivono in un alveare.",
+                "key": "alveare",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r6_ape_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "ape",
+            "paragraph": [
+              "Le api raccolgono il polline nei campi.",
+              "Costruiscono una casa di cera resistente.",
+              "Tante api vivono insieme in un alveare.",
+              "Lì dentro tengono il miele al sicuro."
+            ],
+            "topicId": "ape_alveare",
+            "fish": [
+              {
+                "id": "ape_miele",
+                "phrase": "Le api fanno il miele dolce.",
+                "key": "miele",
+                "picture": null
+              },
+              {
+                "id": "ape_fiori",
+                "phrase": "Le api volano sui fiori.",
+                "key": "fiori",
+                "picture": null
+              },
+              {
+                "id": "ape_polline",
+                "phrase": "Le api raccolgono il polline.",
+                "key": "polline",
+                "picture": null
+              },
+              {
+                "id": "ape_alveare",
+                "phrase": "Le api vivono in un alveare.",
+                "key": "alveare",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r7_ape_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "ape",
+            "slots": 2,
+            "paragraph": [
+              "Le api cercano il polline ovunque.",
+              "Volano leggere fino ai fiori colorati.",
+              "Su ogni fiore trovano cibo dolce.",
+              "Poi con il nettare fanno il miele."
+            ],
+            "topicId": "ape_fiori",
+            "fish": [
+              {
+                "id": "ape_miele",
+                "phrase": "Le api fanno il miele dolce.",
+                "key": "miele",
+                "picture": null
+              },
+              {
+                "id": "ape_fiori",
+                "phrase": "Le api volano sui fiori.",
+                "key": "fiori",
+                "picture": null
+              },
+              {
+                "id": "ape_polline",
+                "phrase": "Le api raccolgono il polline.",
+                "key": "polline",
+                "picture": null
+              },
+              {
+                "id": "ape_alveare",
+                "phrase": "Le api vivono in un alveare.",
+                "key": "alveare",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "ape_polline",
+                "belongs": true
+              },
+              {
+                "id": "ape_miele",
+                "belongs": true
+              },
+              {
+                "id": "ape_alveare",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r8_ape_supply",
+            "cog": "supply-detail",
+            "band": 2,
+            "group": "ape",
+            "paragraph": [
+              "Le api volano tra mille fiori.",
+              "Raccolgono il polline con le zampette.",
+              "Intanto fanno un ronzio leggero.",
+              "Poi tornano al loro alveare."
+            ],
+            "topicId": "ape_polline",
+            "fish": [
+              {
+                "id": "ape_miele",
+                "phrase": "Le api fanno il miele dolce.",
+                "key": "miele",
+                "picture": null
+              },
+              {
+                "id": "ape_fiori",
+                "phrase": "Le api volano sui fiori.",
+                "key": "fiori",
+                "picture": null
+              },
+              {
+                "id": "ape_polline",
+                "phrase": "Le api raccolgono il polline.",
+                "key": "polline",
+                "picture": null
+              },
+              {
+                "id": "ape_alveare",
+                "phrase": "Le api vivono in un alveare.",
+                "key": "alveare",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_ape_ronzio",
+                "phrase": "Le api fanno un ronzio.",
+                "key": "ronzio",
+                "belongs": true,
+                "picture": null
+              },
+              {
+                "id": "alt_ape_rugiada",
+                "phrase": "Le api bevono la rugiada.",
+                "key": "rugiada",
+                "belongs": false,
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r9_anatra_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "anatra",
+            "paragraph": [
+              "Le anatre tuffano il becco al mattino.",
+              "Ma passano il giorno nel grande stagno.",
+              "Lì nuotano e si tuffano felici.",
+              "Verso sera raggiungono il nido."
+            ],
+            "topicId": "anatra_stagno",
+            "narrowId": "anatra_becco",
+            "fish": [
+              {
+                "id": "anatra_stagno",
+                "phrase": "Le anatre nuotano nello stagno.",
+                "key": "stagno",
+                "picture": null
+              },
+              {
+                "id": "anatra_becco",
+                "phrase": "Le anatre tuffano il becco nell’acqua.",
+                "key": "becco",
+                "picture": null
+              },
+              {
+                "id": "anatra_nido",
+                "phrase": "Le anatre fanno il nido.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "anatra_verso",
+                "phrase": "Le anatre fanno un verso forte.",
+                "key": "verso",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r10_anatra_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "anatra",
+            "paragraph": [
+              "Vicino allo stagno crescono canne alte.",
+              "Le anatre raccolgono rametti e piume.",
+              "Con quei rametti fanno il nido morbido.",
+              "Dentro tengono le uova al sicuro."
+            ],
+            "topicId": "anatra_nido",
+            "fish": [
+              {
+                "id": "anatra_stagno",
+                "phrase": "Le anatre nuotano nello stagno.",
+                "key": "stagno",
+                "picture": null
+              },
+              {
+                "id": "anatra_becco",
+                "phrase": "Le anatre tuffano il becco nell’acqua.",
+                "key": "becco",
+                "picture": null
+              },
+              {
+                "id": "anatra_nido",
+                "phrase": "Le anatre fanno il nido.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "anatra_verso",
+                "phrase": "Le anatre fanno un verso forte.",
+                "key": "verso",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r11_anatra_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "anatra",
+            "slots": 2,
+            "paragraph": [
+              "Nello stagno le anatre hanno fame.",
+              "Cercano cibo sotto la superficie.",
+              "Tuffano il becco per mangiare.",
+              "La sera tornano al nido."
+            ],
+            "topicId": "anatra_becco",
+            "fish": [
+              {
+                "id": "anatra_stagno",
+                "phrase": "Le anatre nuotano nello stagno.",
+                "key": "stagno",
+                "picture": null
+              },
+              {
+                "id": "anatra_becco",
+                "phrase": "Le anatre tuffano il becco nell’acqua.",
+                "key": "becco",
+                "picture": null
+              },
+              {
+                "id": "anatra_nido",
+                "phrase": "Le anatre fanno il nido.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "anatra_verso",
+                "phrase": "Le anatre fanno un verso forte.",
+                "key": "verso",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "anatra_stagno",
+                "belongs": true
+              },
+              {
+                "id": "anatra_nido",
+                "belongs": true
+              },
+              {
+                "id": "anatra_verso",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r12_anatra_supply",
+            "cog": "supply-detail",
+            "band": 2,
+            "group": "anatra",
+            "paragraph": [
+              "Nello stagno le anatre non stanno zitte.",
+              "Chiamano gli amici a gran voce.",
+              "Fanno un verso forte e buffo.",
+              "Tutti sanno che sono vicine."
+            ],
+            "topicId": "anatra_verso",
+            "fish": [
+              {
+                "id": "anatra_stagno",
+                "phrase": "Le anatre nuotano nello stagno.",
+                "key": "stagno",
+                "picture": null
+              },
+              {
+                "id": "anatra_becco",
+                "phrase": "Le anatre tuffano il becco nell’acqua.",
+                "key": "becco",
+                "picture": null
+              },
+              {
+                "id": "anatra_nido",
+                "phrase": "Le anatre fanno il nido.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "anatra_verso",
+                "phrase": "Le anatre fanno un verso forte.",
+                "key": "verso",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_anatra_amici",
+                "phrase": "Le anatre chiamano gli amici.",
+                "key": "amici",
+                "belongs": true,
+                "picture": null
+              },
+              {
+                "id": "alt_anatra_prato",
+                "phrase": "Le anatre corrono nel prato.",
+                "key": "prato",
+                "belongs": false,
+                "picture": null
+              }
+            ]
+          }
         ]
       }
     },
@@ -2771,21 +3337,24 @@
       "de": "hauptaussage-eines-sachtexts-erkennen-klasse-1",
       "fr": "idee-principale-texte-documentaire-gs",
       "es": "la-idea-principal-de-un-texto-preescolar",
-      "pt": "a-ideia-principal-de-um-texto-educacao-infantil"
+      "pt": "a-ideia-principal-de-um-texto-educacao-infantil",
+      "it": "idea-principale-di-un-testo-scuola-dell-infanzia"
     },
     "page_title": {
       "en": "Nila's Idea Pond — Find the Big Idea",
       "de": "Sinnerfassendes Lesen – die Hauptaussage finden (Klasse 1)",
       "fr": "Lecture GS – trouver l'idée principale – en ligne",
       "es": "La idea principal: escuchar y comprender textos – preescolar",
-      "pt": "A ideia principal: escutar e compreender textos – educação infantil"
+      "pt": "A ideia principal: escutar e compreender textos – educação infantil",
+      "it": "L’idea principale: ascoltare e capire i testi – scuola dell’infanzia"
     },
     "page_intro": {
       "en": "Nila the otter listens to a little story, then you find the BIG IDEA among four idea-fish — net it, watch the umbrella open, and bring the true details home. A warm Kindergarten reading game about the main topic and key details of a story read aloud, aligned to Common Core RI.K.2.",
       "de": "Sinnerfassendes Lesen üben: kurze Sachtexte lesen und die Hauptaussage herausfinden. Kostenlos online, ohne Anmeldung – für Klasse 1.",
       "fr": "Lecture en GS : découvrir une histoire à l'étang de Nila et trouver l'idée principale. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis de escucha: tu hijo/a oye una pequeña historia informativa y encuentra la idea principal —de qué trata— con Nila la nutria. Ideal para preescolar.",
-      "pt": "Atividade interativa e gratuita de escuta: seu filho ouve uma pequena história informativa e encontra a ideia principal —do que ela fala— com a Nila, a lontra. Perfeita para a educação infantil. Alinhada à BNCC."
+      "pt": "Atividade interativa e gratuita de escuta: seu filho ouve uma pequena história informativa e encontra a ideia principal —do que ela fala— com a Nila, a lontra. Perfeita para a educação infantil. Alinhada à BNCC.",
+      "it": "Attività di ascolto interattiva e gratuita: con Nila la lontra il tuo bambino ascolta una piccola storia informativa e scopre l’idea principale, cioè di che cosa parla. Perfetta per la scuola dell’infanzia. Allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "main-idea-net"
   }

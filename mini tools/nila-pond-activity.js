@@ -34,7 +34,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try {
-      var _tts = (LANG === 'pt' ? 'pt-BR' : LANG);
+      var _tts = (LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG);
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: _tts, rate: rate || 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.lang = _tts; u.rate = rate || 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
@@ -50,7 +50,7 @@
       : hmm ? '<path d="M48 58 q6 -3 12 1" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>'
         : '<path d="M48 57 q6 4 12 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
     var ear = listen ? '<path d="M30 30 q-7 -3 -4 6" stroke="#2A2A35" stroke-width="2" fill="none"/>' : '';
-    return '<svg class="np-nila-svg" viewBox="0 0 108 100" role="img" aria-label="' + (LANG === 'fr' ? 'Nila la loutre' : LANG === 'de' ? 'Nila die Otterdame' : LANG === 'es' ? 'Nila la nutria' : LANG === 'pt' ? 'Nila, a lontra' : 'Nila the otter') + '">'
+    return '<svg class="np-nila-svg" viewBox="0 0 108 100" role="img" aria-label="' + (LANG === 'fr' ? 'Nila la loutre' : LANG === 'de' ? 'Nila die Otterdame' : LANG === 'es' ? 'Nila la nutria' : LANG === 'pt' ? 'Nila, a lontra' : LANG === 'it' ? 'Nila la lontra' : 'Nila the otter') + '">'
       + '<ellipse cx="54" cy="58" rx="32" ry="30" fill="#B98A5E"/>'
       + '<ellipse cx="54" cy="66" rx="20" ry="18" fill="#E9D6BE"/>'
       + '<circle cx="33" cy="34" r="9" fill="#B98A5E"/><circle cx="75" cy="34" r="9" fill="#B98A5E"/>'
@@ -82,22 +82,22 @@
     id: 'nila-pond-activity',
 
     strings: {
-      title: { en: "Nila's Idea Pond", de: 'Nilas Ideen-Teich', fr: 'L’étang aux idées de Nila', es: 'El estanque de ideas de Nila', pt: 'O lago de ideias da Nila' },
-      instruction: { en: '', de: '', fr: '', es: '', pt: '' },
-      prompt: { en: "What's the big idea?", de: 'Worum geht es?', fr: 'De quoi parle ce texte ?', es: '¿De qué trata?', pt: 'Qual é a ideia principal?' },
-      readAgain: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Écouter encore', es: '🔊 Leer otra vez', pt: '🔊 Ouvir de novo' },
-      commit: { en: "That's the big idea!", de: 'Das ist die Hauptsache!', fr: 'C’est l’idée principale !', es: '¡Esa es la idea principal!', pt: 'Essa é a ideia principal!' },
-      schoolHint: { en: 'Bring the true details home. Send back the one that was NOT in the story.', de: 'Bring die echten Details nach Hause – und schick den Fisch zurück, der nicht in der Geschichte war.', fr: 'Ramène à la maison les détails vrais. Renvoie celui qui n’était PAS dans l’histoire.', es: 'Lleva a casa los detalles verdaderos. Regresa el que NO estaba en la historia.', pt: 'Leve os detalhes verdadeiros pra casa. Devolva o que NÃO estava na história.' },
-      supplyHint: { en: 'Which one was in the story?', de: 'Welcher von diesen zwei kam in der Geschichte vor?', fr: 'Lequel était dans l’histoire ?', es: '¿Cuál de estos dos estaba en la historia?', pt: 'Qual estava na história?' },
-      pondLabel: { en: 'Back to the pond', de: 'Zurück in den Teich', fr: 'Retour à l’étang', es: 'De vuelta al estanque', pt: 'Voltar ao lago' },
-      slotLabel: { en: 'Detail', de: 'Detail', fr: 'Détail', es: 'Detalle', pt: 'Detalhe' },
-      nilaListen: { en: 'Listen to the little story…', de: 'Hör dir die kleine Geschichte an …', fr: 'Écoute la petite histoire…', es: 'Escucha la pequeña historia…', pt: 'Escute a historinha…' },
-      nilaPickFirst: { en: 'Tap a fish, then tell me the big idea!', de: 'Tipp einen Fisch an und sag mir, worum es geht.', fr: 'Touche un poisson, puis dis-moi l’idée principale !', es: 'Toca un pez y dime de qué trata.', pt: 'Toque num peixinho e me diga a ideia!' },
-      nilaWrong: { en: "Hmm — let's listen again.", de: 'Hmm – hören wir noch einmal zu.', fr: 'Hmm… on écoute encore une fois.', es: 'Mmm… escuchemos otra vez.', pt: 'Hmm — vamos ouvir de novo.' },
-      nilaSchool: { en: 'Now bring the true details home!', de: 'Jetzt bring die echten Details nach Hause.', fr: 'Maintenant, ramène les détails vrais à la maison !', es: '¡Ahora lleva a casa los detalles verdaderos!', pt: 'Agora leve os detalhes verdadeiros pra casa!' },
-      nilaWin: { en: 'You found the big idea!', de: 'Du hast die Hauptsache gefunden!', fr: 'Tu as trouvé l’idée principale !', es: '¡Encontraste la idea principal!', pt: 'Achou a ideia principal!' },
-      hintCheck: { en: 'Find the big idea first, then tap Check!', de: 'Finde zuerst die Hauptsache, dann tippe auf „Prüfen".', fr: 'Trouve d’abord l’idée principale, puis touche Vérifier !', es: 'Encuentra primero la idea principal y luego toca Comprobar.', pt: 'Ache a ideia principal e toque em Verificar!' },
-      retellPrefix: { en: 'So it was all about this. ', de: 'Es ging also die ganze Zeit um das hier: ', fr: 'C’est donc ça, l’idée principale : ', es: 'Así que de eso trataba todo: ', pt: 'Então era disso que tudo falava: ' }
+      title: { en: "Nila's Idea Pond", de: 'Nilas Ideen-Teich', fr: 'L’étang aux idées de Nila', es: 'El estanque de ideas de Nila', pt: 'O lago de ideias da Nila', it: 'Lo stagno delle idee di Nila' },
+      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '' },
+      prompt: { en: "What's the big idea?", de: 'Worum geht es?', fr: 'De quoi parle ce texte ?', es: '¿De qué trata?', pt: 'Qual é a ideia principal?', it: 'Di che cosa parla?' },
+      readAgain: { en: '🔊 Read again', de: '🔊 Nochmal vorlesen', fr: '🔊 Écouter encore', es: '🔊 Leer otra vez', pt: '🔊 Ouvir de novo', it: '🔊 Ascolta ancora' },
+      commit: { en: "That's the big idea!", de: 'Das ist die Hauptsache!', fr: 'C’est l’idée principale !', es: '¡Esa es la idea principal!', pt: 'Essa é a ideia principal!', it: 'Questa è la cosa più importante!' },
+      schoolHint: { en: 'Bring the true details home. Send back the one that was NOT in the story.', de: 'Bring die echten Details nach Hause – und schick den Fisch zurück, der nicht in der Geschichte war.', fr: 'Ramène à la maison les détails vrais. Renvoie celui qui n’était PAS dans l’histoire.', es: 'Lleva a casa los detalles verdaderos. Regresa el que NO estaba en la historia.', pt: 'Leve os detalhes verdadeiros pra casa. Devolva o que NÃO estava na história.', it: 'Porta a casa i dettagli veri. Rimanda indietro quello che non era nella storia.' },
+      supplyHint: { en: 'Which one was in the story?', de: 'Welcher von diesen zwei kam in der Geschichte vor?', fr: 'Lequel était dans l’histoire ?', es: '¿Cuál de estos dos estaba en la historia?', pt: 'Qual estava na história?', it: 'Quale di questi era nella storia?' },
+      pondLabel: { en: 'Back to the pond', de: 'Zurück in den Teich', fr: 'Retour à l’étang', es: 'De vuelta al estanque', pt: 'Voltar ao lago', it: 'Torna allo stagno' },
+      slotLabel: { en: 'Detail', de: 'Detail', fr: 'Détail', es: 'Detalle', pt: 'Detalhe', it: 'Dettaglio' },
+      nilaListen: { en: 'Listen to the little story…', de: 'Hör dir die kleine Geschichte an …', fr: 'Écoute la petite histoire…', es: 'Escucha la pequeña historia…', pt: 'Escute a historinha…', it: 'Ascolta la piccola storia…' },
+      nilaPickFirst: { en: 'Tap a fish, then tell me the big idea!', de: 'Tipp einen Fisch an und sag mir, worum es geht.', fr: 'Touche un poisson, puis dis-moi l’idée principale !', es: 'Toca un pez y dime de qué trata.', pt: 'Toque num peixinho e me diga a ideia!', it: 'Tocca un pesce, poi dimmi la cosa più importante!' },
+      nilaWrong: { en: "Hmm — let's listen again.", de: 'Hmm – hören wir noch einmal zu.', fr: 'Hmm… on écoute encore une fois.', es: 'Mmm… escuchemos otra vez.', pt: 'Hmm — vamos ouvir de novo.', it: 'Mmm… ascoltiamo di nuovo.' },
+      nilaSchool: { en: 'Now bring the true details home!', de: 'Jetzt bring die echten Details nach Hause.', fr: 'Maintenant, ramène les détails vrais à la maison !', es: '¡Ahora lleva a casa los detalles verdaderos!', pt: 'Agora leve os detalhes verdadeiros pra casa!', it: 'Ora porta a casa i dettagli veri!' },
+      nilaWin: { en: 'You found the big idea!', de: 'Du hast die Hauptsache gefunden!', fr: 'Tu as trouvé l’idée principale !', es: '¡Encontraste la idea principal!', pt: 'Achou a ideia principal!', it: 'Sì! Hai trovato la cosa più importante!' },
+      hintCheck: { en: 'Find the big idea first, then tap Check!', de: 'Finde zuerst die Hauptsache, dann tippe auf „Prüfen".', fr: 'Trouve d’abord l’idée principale, puis touche Vérifier !', es: 'Encuentra primero la idea principal y luego toca Comprobar.', pt: 'Ache a ideia principal e toque em Verificar!', it: 'Prima trova la cosa più importante, poi tocca Controlla!' },
+      retellPrefix: { en: 'So it was all about this. ', de: 'Es ging also die ganze Zeit um das hier: ', fr: 'C’est donc ça, l’idée principale : ', es: 'Así que de eso trataba todo: ', pt: 'Então era disso que tudo falava: ', it: 'Quindi parlava soprattutto di questo: ' }
     },
     defaults: {},
 

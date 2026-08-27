@@ -97,6 +97,22 @@
       hintMinute: 'Conta i trattini: ognuno vale un minuto.',
       srMatchBody: ' L\'ora è {t}. Gli orologi mostrano: {cs}.',
       srReadBody: ' L\'orologio segna l\'ora. {t}. Le scelte sono: {ds}.'
+    },
+    /* nl — native ensemble (linguïst + pedagoog groep 3/4 klokkijken). "de grote wijzer"
+       (minuten, lang) / "de kleine wijzer" (uren, kort). spoken() spelt het uur als WOORD
+       zodat "half vier" (=3:30, halverwege naar het volgende uur) niet terugvalt op cijfer-
+       matchen; "één" met accenten. Digitale tegels houden de dubbele punt "3:30". */
+    nl: {
+      q: 'Hoe laat is het?',
+      qMatch: 'Welke klok laat deze tijd zien?',
+      win: 'Ja! Het is {t}.',
+      hint: 'Kijk waar de kleine wijzer wijst — dat is het uur.',
+      hintMatch: 'Zoek de klok waarvan de wijzers deze tijd aangeven.',
+      hintMin: 'Lees beide wijzers — de grote wijzer geeft de minuten aan.',
+      hintFive: 'Tel met sprongen van vijf rond de klok — de grote wijzer geeft de minuten aan.',
+      hintMinute: 'Tel de kleine streepjes — elk streepje is een minuut.',
+      srMatchBody: ' De tijd is {t}. De klokken laten zien: {cs}.',
+      srReadBody: ' De klok laat {t} zien. De keuzes zijn: {ds}.'
     }
   };
   var LANG = 'en';
@@ -165,6 +181,24 @@
       if (mm === 45) { var nx = (hh === 12) ? 1 : hh + 1; return (nx === 1 ? 'È l\'una' : 'Sono le ' + HRS[nx]) + ' meno un quarto'; }
       return Core.digitalStr(t);
     }
+    /* nl — native ensemble. Uur als WOORD ("drie uur"); halve uur naar het VOLGENDE uur
+       ("half vier" = 3:30); "één" met accenten. Verzonden variant gebruikt alleen mm 0/30;
+       :15/:45 + 5-min (relatief t.o.v. het halve uur) forward-compat; per-minuut → cijfers. */
+    if (LANG === 'nl') {
+      var HRS = ['', 'één', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien', 'elf', 'twaalf'];
+      var nx = wrapH(hh + 1);
+      if (mm === 0) return HRS[hh] + ' uur';
+      if (mm === 30) return 'half ' + HRS[nx];
+      if (mm === 15) return 'kwart over ' + HRS[hh];
+      if (mm === 45) return 'kwart voor ' + HRS[nx];
+      if (mm % 5 === 0) {
+        if (mm < 15) return HRS[mm] + ' over ' + HRS[hh];
+        if (mm < 30) return HRS[30 - mm] + ' voor half ' + HRS[nx];
+        if (mm < 45) return HRS[mm - 30] + ' over half ' + HRS[nx];
+        return HRS[60 - mm] + ' voor ' + HRS[nx];
+      }
+      return Core.digitalStr(t);
+    }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
     if (mm === 15) return 'quarter past ' + hh;
@@ -222,8 +256,8 @@
   var ClockDigitalActivity = {
     id: 'clock-digital-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket', it: 'L\'orologio di Sprocket' },
-      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.', it: 'Leggi l\'orologio, poi tocca l\'ora giusta.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr', fr: 'L\'horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O relógio do Sprocket', it: 'L\'orologio di Sprocket', nl: 'De klok van Kukel' },
+      instruction: { en: 'Read the clock, then tap the time that matches.', de: 'Lies die Uhr ab und tippe dann auf die passende Uhrzeit.', fr: 'Lis l\'horloge, puis touche l\'heure qui correspond.', es: 'Lee el reloj y luego toca la hora que coincida.', pt: 'Leia o relógio e depois toque na hora que corresponde.', it: 'Leggi l\'orologio, poi tocca l\'ora giusta.', nl: 'Lees de klok en tik op de tijd die erbij hoort.' },
       q: { en: '{q}' }
     },
 

@@ -25,7 +25,8 @@
       "fr": "lire-lheure-heures-entieres-ce1",
       "es": "leer-el-reloj-de-manecillas-la-hora-en-punto",
       "pt": "ler-relogio-de-ponteiros-hora-em-ponto-3-ano",
-      "it": "leggere-l-ora-in-punto-orologio-classe-prima"
+      "it": "leggere-l-ora-in-punto-orologio-classe-prima",
+      "nl": "klok-lezen-hele-uren-groep-3"
     },
     "page_title": {
       "en": "Sprocket's Clock — Read the Clock to the Hour (Grade 1)",
@@ -33,7 +34,8 @@
       "fr": "L'horloge de Sprocket — Lire l'heure pile (CE1)",
       "es": "Sprocket el gallo: lee el reloj a la hora en punto (1º primaria)",
       "pt": "Sprocket, o galo: ler o relógio de ponteiros na hora em ponto (3º ano)",
-      "it": "L'orologio di Sprocket — leggere l'ora in punto sull'orologio a lancette (classe prima)"
+      "it": "L'orologio di Sprocket — leggere l'ora in punto sull'orologio a lancette (classe prima)",
+      "nl": "Kukel de haan — Hele uren klokkijken (Groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock times and tap the matching digital time. Sprocket the rooster crows the hours while children learn to connect the clock face to the digital time (3 o'clock = 3:00). A friendly first step in telling time. Common Core 1.MD.B.3.",
@@ -41,7 +43,8 @@
       "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles et touche l'heure pile qui correspond, comme « 3 h 00 ». Activité gratuite et interactive, CE1, « Grandeurs et mesures ».",
       "es": "Actividad gratis e interactiva para 1º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto (las 3 en punto) y tu peque toca la hora digital correcta. Ideal para medir el tiempo según los planes y programas de la SEP.",
       "pt": "Atividade gratuita e interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros marcando uma hora em ponto (são três horas em ponto) e a criança toca a hora digital correta. Só horas em ponto, para uma primeira leitura tranquila do relógio, na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
-      "it": "Attività gratuita e interattiva per la classe prima: Sprocket, il gallo che canta le ore, mostra un orologio a lancette segnando l'ora in punto (le 3:00, le 9:00, l'una…) e il bambino osserva la lancetta corta delle ore per toccare l'ora digitale giusta. Un modo semplice e divertente per imparare a leggere l'ora in punto sull'orologio a lancette, passando dalle lancette ai numeri. Online e senza registrazione, direttamente nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo)."
+      "it": "Attività gratuita e interattiva per la classe prima: Sprocket, il gallo che canta le ore, mostra un orologio a lancette segnando l'ora in punto (le 3:00, le 9:00, l'una…) e il bambino osserva la lancetta corta delle ore per toccare l'ora digitale giusta. Un modo semplice e divertente per imparare a leggere l'ora in punto sull'orologio a lancette, passando dalle lancette ai numeri. Online e senza registrazione, direttamente nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
+      "nl": "Gratis, interactief klokkijken met hele uren. Kukel de haan kraait het uur en je kind tikt de juiste digitale tijd aan — warm, zonder tijdsdruk. Sluit aan bij de SLO-kerndoelen."
     },
     "kid_prompt_template": "clock-digital"
   },
@@ -71,7 +74,8 @@
       "fr": "lire-lheure-heures-et-demies-ce1",
       "es": "leer-el-reloj-de-manecillas-la-hora-y-media",
       "pt": "ler-relogio-de-ponteiros-hora-e-meia-3-ano",
-      "it": "leggere-l-ora-e-mezza-orologio-classe-seconda"
+      "it": "leggere-l-ora-e-mezza-orologio-classe-seconda",
+      "nl": "klok-lezen-hele-en-halve-uren-groep-4"
     },
     "page_title": {
       "en": "Sprocket's Clock — Read the Clock to the Half-Hour (Grade 1)",
@@ -79,7 +83,8 @@
       "fr": "L'horloge de Sprocket — Lire les heures et les demi-heures (CE1)",
       "es": "Sprocket el gallo: lee la hora y la media hora (2º primaria)",
       "pt": "Sprocket, o galo: ler a hora e a meia hora no relógio de ponteiros (3º ano)",
-      "it": "L'orologio di Sprocket — leggere l'ora e la mezz'ora sull'orologio (classe seconda)"
+      "it": "L'orologio di Sprocket — leggere l'ora e la mezz'ora sull'orologio (classe seconda)",
+      "nl": "Kukel de haan — Hele en halve uren klokkijken (Groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 time activity: read an analog clock at o'clock AND half-past times, then tap the matching digital time. Children must read BOTH hands — the long hand on 12 for o'clock or on 6 for half past — to tell 3:00 from 3:30. Sprocket the rooster cheers them on. A friendly next step in telling time after the hour. Common Core 1.MD.B.3.",
@@ -87,7 +92,8 @@
       "fr": "Avec Sprocket le coq, votre enfant lit l'horloge à aiguilles pour distinguer les heures et les demi-heures, « 3 h 00 » ou « 3 h 30 ». Activité gratuite et interactive, CE1, « Grandeurs et mesures ».",
       "es": "Actividad gratis e interactiva para 2º de primaria: Sprocket, el gallo, muestra un reloj de manecillas en punto y a la media hora (las 3 en punto y las 3 y media) para que tu peque toque la hora digital. Alineada al eje de tiempo de la SEP.",
       "pt": "Atividade gratuita e interativa para o 3º ano: Sprocket, o galo, mostra um relógio de ponteiros na hora em ponto e na meia hora (são três horas em ponto e são três e meia), e a criança lê os dois ponteiros para tocar a hora digital certa (3:00 ou 3:30). Na unidade temática Grandezas e medidas da BNCC. Online e sem cadastro.",
-      "it": "Attività gratuita e interattiva per la classe seconda: Sprocket, il gallo che canta le ore, mostra un orologio a lancette che segna l'ora in punto e la mezz'ora, e il bambino legge tutte e due le lancette per capire se è «le tre in punto» o «le tre e mezza». Osservando la lancetta corta delle ore e la lancetta lunga dei minuti, sceglie l'ora digitale giusta (3:00 o 3:30). Online e senza registrazione, nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo)."
+      "it": "Attività gratuita e interattiva per la classe seconda: Sprocket, il gallo che canta le ore, mostra un orologio a lancette che segna l'ora in punto e la mezz'ora, e il bambino legge tutte e due le lancette per capire se è «le tre in punto» o «le tre e mezza». Osservando la lancetta corta delle ore e la lancetta lunga dei minuti, sceglie l'ora digitale giusta (3:00 o 3:30). Online e senza registrazione, nel browser. Allineata alle Indicazioni nazionali, nucleo Relazioni, dati e previsioni (la misura del tempo).",
+      "nl": "Gratis, interactief klokkijken met hele én halve uren. Kukel de haan kraait het uur en je kind leest beide wijzers om 3 uur van half vier te onderscheiden. Sluit aan bij de SLO-kerndoelen (Groep 4)."
     },
     "kid_prompt_template": "clock-digital"
   },

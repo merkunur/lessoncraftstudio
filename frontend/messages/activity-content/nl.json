@@ -836,6 +836,29 @@
         "Vertrouwd raken met de omkeersom om een onbekend beginaantal terug te vinden."
       ]
     },
+    "bundle-bot.bundle-machine.1-nbt-b-2-a": {
+      "about": [
+        "Bolt de robot verzamelt losse eenheden op een lopende band, en pas als er precies tien liggen, mag je kind aan de hendel trekken: klik — tien losse worden één tiental.",
+        "Al bundelend en ontbundelend ontdekt je kind hoe een getal tot 49 is opgebouwd uit tientallen en eenheden.",
+        "Warm en zonder tijdsdruk: gewoon zelf ontdekken hoe tien losse eenheden samen één tiental vormen."
+      ],
+      "practices": [
+        "Tien losse eenheden bundelen tot één tiental en zo getallen van 20 tot 49 opbouwen",
+        "Een tiental weer ontbundelen tot tien losse eenheden",
+        "Een rond getal leggen, zoals 40, met alleen volle tientallen",
+        "De stand aflezen als 'X tientallen en Y eenheden' en de nep-bundel met maar negen eenheden ontdekken"
+      ],
+      "howToPlay": [
+        "Leg losse eenheden op de band van Bolt en tel mee tot er tien liggen.",
+        "Trek aan de hendel om de tien losse eenheden te bundelen tot één tiental.",
+        "Lees af hoeveel 'tientallen en eenheden' je nu hebt en tik op Controleer."
+      ],
+      "learningGoals": [
+        "Begrijpen dat tien losse eenheden samen precies één tiental vormen",
+        "Zien dat een getal onder de 50 is opgebouwd uit tientallen en eenheden — de basis van plaatswaarde",
+        "Vlot heen en weer schakelen tussen bundelen en ontbundelen, en zo de plaatswaarde van elk cijfer herkennen (groep 4)"
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

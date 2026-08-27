@@ -26,7 +26,12 @@
   if (typeof document !== 'undefined' && !document.getElementById('pvr-narrow-trim')) {
     var _pvrTrim = document.createElement('style');
     _pvrTrim.id = 'pvr-narrow-trim';
-    _pvrTrim.textContent = '@media (max-width:340px){.pvr-bar .pvr-maketen{padding:9px 11px;font-size:.8rem;line-height:1;}}';
+    _pvrTrim.textContent = '@media (max-width:340px){.pvr-bar .pvr-maketen{padding:9px 11px;font-size:.8rem;line-height:1;}}'
+      /* Long nl column label "honderdtallen" (13 chars, vs de "Hunderter"/it "centinaia" ≤9) overflowed its
+         1/3-width column box at ≤360px. Shrink the label to fit with nowrap; locale-neutral (only helps the
+         long labels; short ones stay legible). Activity-layer, 0 lines to the core (which owns .pvr-col-label).
+         §A.13.62 layout-fix, not a threshold change. */
+      + '@media (max-width:400px){.pvr-col .pvr-col-label{white-space:nowrap;font-size:clamp(.44rem,2.0vw,.72rem);letter-spacing:-.2px;}}';
     (document.head || document.documentElement).appendChild(_pvrTrim);
   }
 

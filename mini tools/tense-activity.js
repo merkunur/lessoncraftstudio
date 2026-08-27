@@ -27,7 +27,9 @@
     es: { past: 'Pasado', present: 'Presente', future: 'Futuro' },
     pt: { past: 'Passado', present: 'Presente', future: 'Futuro' },
     /* it (#21 fan-out): grammatical window labels — the classe-2 terms i tempi del verbo (matches es/pt) */
-    it: { past: 'Passato', present: 'Presente', future: 'Futuro' }
+    it: { past: 'Passato', present: 'Presente', future: 'Futuro' },
+    /* nl: korte categorie-namen die 1:1 bij de tijdwoorden Gisteren/Nu/Morgen passen + de tijd-namen echoën */
+    nl: { past: 'Verleden', present: 'Nu', future: 'Toekomst' }
   };
 
   /* time-window meta: which window each tense lights, its label + glyph */
@@ -91,6 +93,21 @@
       nPast: '«Ieri» è passato: scegli la parola al passato.',
       nPresent: '«Adesso» sta succedendo: scegli la parola al presente.',
       nFuture: '«Domani» non è ancora successo: scegli la parola al futuro.'
+    },
+    /* nl (SLO-kerndoelen, Groep 4; leergebied Taal; strand «Language» → «Taal» via strand-names.ts, GEEN
+       override): karakter «Juniper» KEEP. werkwoordstijden = HERKENNING (kind TIKT de juiste vorm, spelt niet →
+       Groep 4; de -te/-de-SPELLING via 't kofschip is Groep 5). Vensterlabels Verleden/Nu/Toekomst; tijdwoorden
+       Gisteren/Nu/Morgen; toekomende tijd = «zullen» + infinitief (nl-equivalent van de Duitse «werden»).
+       roundsL10n.nl = 9 rondes (3 verleden / 3 tegenwoordige / 3 toekomende; 6 zwak [kofschip -te/-de] + 3 sterk
+       [ablaut voeren/sprongen/liepen]). ⚠ Aanhalingstekens = de Nederlandse KRUL ‘…’ (U+2018/U+2019), NOOIT de
+       Duitse laag-open ‚ (U+201A, leest als komma voor een kind — #20-les). */
+    nl: {
+      q: '{subj} — welke vorm past bij ‘{tw}’?',
+      win: 'Ja! {note}', winNote: 'Deze vorm past bij de tijd!',
+      hear: '🔊 Voorlezen',
+      nPast: '‘Gisteren’ is al voorbij — kies de verleden tijd.',
+      nPresent: '‘Nu’ gebeurt op dit moment — kies de tegenwoordige tijd.',
+      nFuture: '‘Morgen’ is er nog niet — kies de vorm met ‘zullen’.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -112,9 +129,9 @@
   var TenseActivity = {
     id: 'tense-activity',
     strings: {
-      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper', it: 'La torre del tempo di Juniper' },
-      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!', it: 'Leggi il tempo e tocca il verbo che va bene!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}' }
+      title: { en: 'The Clock Tower', de: 'Junipers Uhrturm', fr: 'La tour du temps de Juniper', es: 'La torre del tiempo de Juniper', pt: 'A Torre do Tempo do Juniper', it: 'La torre del tempo di Juniper', nl: 'Junipers klokkentoren' },
+      instruction: { en: 'Read the time, then tap the verb that fits!', de: 'Schau auf die Zeit und tippe die passende Zeitform!', fr: 'Regarde le temps et touche la bonne forme du verbe !', es: '¡Lee el tiempo y toca el verbo que va con él!', pt: 'Leia o tempo e toque no verbo que combina!', it: 'Leggi il tempo e tocca il verbo che va bene!', nl: 'Kijk naar de tijd en tik op de juiste werkwoordsvorm!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
     },
 
     init: function (api) {
@@ -239,6 +256,8 @@
           ? (round.timeWord + ', ' + round.subject + '… Qual palavra combina? ' + f.present + ', ' + f.past + ' ou ' + f.future + '?')
           : LANG === 'it'
           ? (round.timeWord + ', ' + round.subject + '… Quale parola va bene? ' + f.present + ', ' + f.past + ' o ' + f.future + '?')
+          : LANG === 'nl'
+          ? (round.subject + '. Welke vorm past bij ' + round.timeWord + '?')
           : (round.timeWord + ', ' + round.subject + '. Which word fits? ' + f.present + ', ' + f.past + ', or ' + f.future + '?');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.9 }); } catch (e) { } }
       });
@@ -299,6 +318,8 @@
         ? ('Janela do ' + (((WIN_LABELS.pt && WIN_LABELS.pt[round.time]) || w.label) + '').toLowerCase() + ' acesa. ' + round.timeWord + ', ' + round.subject + ', espaço em branco. Opções: ' + f.present + ', ' + f.past + ' ou ' + f.future + '.')
         : LANG === 'it'
         ? ('La finestra «' + ((WIN_LABELS.it && WIN_LABELS.it[round.time]) || w.label) + '» è accesa. ' + round.timeWord + ', ' + round.subject + ' ___. Quale parola va bene? Scelte: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
+        : LANG === 'nl'
+        ? ('Het venster ‘' + ((WIN_LABELS.nl && WIN_LABELS.nl[round.time]) || w.label) + '’ is verlicht. Werkwoordstijden: ' + round.subject + '. Kies de vorm die past bij ' + round.timeWord + '. Keuze: ' + f.present + ', ' + f.past + ', ' + f.future + '.')
         : ('The "' + w.label + '" window is lit. ' + round.timeWord + ', ' + round.subject + ' blank. Which word fits? Choices: ' + f.present + ', ' + f.past + ', ' + f.future + '.');
       wrap.innerHTML = '<p>' + msg + '</p>';
       return wrap;

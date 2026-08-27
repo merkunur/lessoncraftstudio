@@ -27,7 +27,8 @@
       "fr": "comparer-les-nombres-plus-grand-plus-petit-gs",
       "es": "comparar-numeros-mayor-menor-preescolar",
       "pt": "comparar-numeros-maior-menor-1-a-10-rio-do-capitao-quill",
-      "it": "confrontare-numeri-piu-grande-piu-piccolo-entro-10-classe-prima"
+      "it": "confrontare-numeri-piu-grande-piu-piccolo-entro-10-classe-prima",
+      "nl": "getallen-vergelijken-groter-kleiner-groep-3"
     },
     "page_title": {
       "en": "Comparison Creek — Compare Numbers 1–10 (Kindergarten)",
@@ -35,7 +36,8 @@
       "fr": "Comparer les nombres jusqu’à 10 : plus grand, plus petit — GS",
       "es": "El río del capitán Quill — comparar números hasta 10 (preescolar)",
       "pt": "Rio do capitão Quill: comparar números de 1 a 10, maior ou menor — 1º ano",
-      "it": "Il fiume del capitano Quill — confrontare i numeri entro il 10 (classe prima)"
+      "it": "Il fiume del capitano Quill — confrontare i numeri entro il 10 (classe prima)",
+      "nl": "Kapitein Kwek stuurt het vlot — getallen vergelijken: groter, kleiner of gelijk (Groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten math game for comparing numbers: steer Captain Quill's raft down Comparison Creek by reading the two number-buoys at each bend and choosing the bigger or smaller one. Adjacent numbers like 6 and 7 mean children must really read the numerals — not just guess by size. Comparing written numbers is the heart of Common Core K.CC.C.7.",
@@ -43,7 +45,8 @@
       "fr": "Avec le capitaine Quill, votre enfant apprend à comparer les nombres jusqu’à 10 (plus grand, plus petit, égal). Jeu gratuit et interactif, grande section et début de CP.",
       "es": "Comparar números para preescolar: guía al capitán Quill por el río y elige en cada bifurcación el número mayor, menor o igual, del 1 al 10. Lo que vale es el número, no el tamaño de la letra. Juego gratis e interactivo, sin registro, alineado a los Planes y programas de estudio (SEP).",
       "pt": "Guie o patinho capitão Quill pelo braço certo do rio comparando números de 1 a 10: qual é o maior, qual é o menor — e lembre, o valor conta, não o tamanho. Grátis e interativo.",
-      "it": "Un gioco di matematica per la classe prima, gratis e senza registrazione, direttamente nel browser: il capitano Quill, un simpatico anatroccolo, guida la sua zattera lungo il fiume e a ogni bivio deve leggere le due boe con i numeri e scegliere il ramo del fiume con il numero più grande o più piccolo (o toccare «=» quando sono uguali). I bambini imparano a confrontare i numeri entro il 10, leggendo il valore del numero e non la grandezza della scritta. Attività allineata alle Indicazioni nazionali (nucleo Numeri)."
+      "it": "Un gioco di matematica per la classe prima, gratis e senza registrazione, direttamente nel browser: il capitano Quill, un simpatico anatroccolo, guida la sua zattera lungo il fiume e a ogni bivio deve leggere le due boe con i numeri e scegliere il ramo del fiume con il numero più grande o più piccolo (o toccare «=» quando sono uguali). I bambini imparano a confrontare i numeri entro il 10, leggendo il valore del numero e non la grandezza della scritta. Attività allineata alle Indicazioni nazionali (nucleo Numeri).",
+      "nl": "Gratis, interactief spel waarin je kind met kapitein Kwek de eend de vergelijkingsbeek afvaart. Vergelijk getallen 1 tot 10: groter, kleiner of gelijk, en stuur naar de juiste rivierarm. Sluit aan bij de SLO-kerndoelen."
     },
     "kid_prompt_template": "river-steer"
   }

@@ -35,8 +35,10 @@
   /* it (Indicazioni nazionali, classe seconda): cardinals for {w} — {w} is ALWAYS followed by the masc noun
      „litro" so 1 = „un" (apocope of uno before a masc consonant-initial noun), never „uno". */
   var WORDS_IT = ['zero', 'un', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci'];
+  /* nl cardinals for {w}: 1 = „één" (accenten — telwoord, niet lidwoord „een"); „liter" is invariabel. */
+  var WORDS_NL = ['nul', 'één', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht', 'negen', 'tien'];
   function enWord(n) { return WORDS[n | 0] || String(n); }
-  function numWord(n) { return LANG === 'de' ? (WORDS_DE[n | 0] || String(n)) : LANG === 'fr' ? (WORDS_FR[n | 0] || String(n)) : LANG === 'es' ? (WORDS_ES[n | 0] || String(n)) : LANG === 'pt' ? (WORDS_PT[n | 0] || String(n)) : LANG === 'it' ? (WORDS_IT[n | 0] || String(n)) : enWord(n); }
+  function numWord(n) { return LANG === 'de' ? (WORDS_DE[n | 0] || String(n)) : LANG === 'fr' ? (WORDS_FR[n | 0] || String(n)) : LANG === 'es' ? (WORDS_ES[n | 0] || String(n)) : LANG === 'pt' ? (WORDS_PT[n | 0] || String(n)) : LANG === 'it' ? (WORDS_IT[n | 0] || String(n)) : LANG === 'nl' ? (WORDS_NL[n | 0] || String(n)) : enWord(n); }
   /* French unit agreement: 0 and 1 → singular „litre", ≥2 → plural „litres". */
   function unitFr(n) { return (n | 0) < 2 ? 'litre' : 'litres'; }
   /* Spanish unit agreement: ONLY 1 → singular „litro"; 0 AND ≥2 → plural „litros" („cero litros"). */
@@ -56,18 +58,20 @@
   /* it: gender-baked subject phrase „Un…/Una…/Uno…/Un'…". ⚠ 3 article traps: scarabeo = s-impura → „Uno";
      anatra + ape = feminine vowel-initial → „Un'" (elision, apostrophe). EN → raw name. */
   var CUST_L10N_IT = { dragonfly: 'Una libellula', frog: 'Una rana', snail: 'Una lumaca', newt: 'Un tritone', beetle: 'Uno scarabeo', turtle: 'Una tartaruga', fish: 'Un pesce', duck: "Un'anatra", bee: "Un'ape" };
-  function custName(c) { return LANG === 'de' ? (CUST_L10N[c] || c) : LANG === 'fr' ? (CUST_L10N_FR[c] || c) : LANG === 'es' ? (CUST_L10N_ES[c] || c) : LANG === 'pt' ? (CUST_L10N_PT[c] || c) : LANG === 'it' ? (CUST_L10N_IT[c] || c) : c; }
+  /* nl: onbepaald lidwoord = „Een" voor ELK zelfstandig naamwoord (geen der/die/das-val zoals de/fr/es/pt/it). Hoofdletter (zinsbegin). */
+  var CUST_L10N_NL = { dragonfly: 'Een libel', frog: 'Een kikker', snail: 'Een slak', newt: 'Een salamander', beetle: 'Een kever', turtle: 'Een schildpad', fish: 'Een vis', duck: 'Een eend', bee: 'Een bij' };
+  function custName(c) { return LANG === 'de' ? (CUST_L10N[c] || c) : LANG === 'fr' ? (CUST_L10N_FR[c] || c) : LANG === 'es' ? (CUST_L10N_ES[c] || c) : LANG === 'pt' ? (CUST_L10N_PT[c] || c) : LANG === 'it' ? (CUST_L10N_IT[c] || c) : LANG === 'nl' ? (CUST_L10N_NL[c] || c) : c; }
   var JUICE = ['#8FD3A8', '#F4A6C0', '#9FC8F0', '#F6C97A', '#C7A8E8', '#7FCFC2'];
 
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: String(text), lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function pippaSVG(mood) {
     var happy = mood === 'happy';
-    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pippa, der Frosch' : LANG === 'fr' ? 'Pippa la grenouille' : LANG === 'es' ? 'Pippa, la rana' : LANG === 'pt' ? 'Pippa, a rã' : LANG === 'it' ? 'Pippa, la rana' : 'Pippa the frog') + '">'
+    return '<svg viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Pippa, der Frosch' : LANG === 'fr' ? 'Pippa la grenouille' : LANG === 'es' ? 'Pippa, la rana' : LANG === 'pt' ? 'Pippa, a rã' : LANG === 'it' ? 'Pippa, la rana' : LANG === 'nl' ? 'Fenna de kikker' : 'Pippa the frog') + '">'
       + '<ellipse cx="50" cy="58" rx="32" ry="28" fill="#7FB069"/>'
       + '<circle cx="34" cy="32" r="12" fill="#7FB069"/><circle cx="66" cy="32" r="12" fill="#7FB069"/>'
       + '<circle cx="34" cy="30" r="6" fill="#fff"/><circle cx="66" cy="30" r="6" fill="#fff"/>'
@@ -112,20 +116,25 @@
     reward: { id: 'served-tray', label: "Pippa's Served Glasses", emoji: '🥤' },
 
     strings: {
-      title: { en: "Pippa's Pond-Juice Lab", de: 'Pippas Saftstand', fr: 'Le stand de jus de Pippa', es: 'El puesto de jugo de Pippa', pt: 'A Barraquinha de Suco da Pippa', it: 'Il chiosco del succo di Pippa' },
-      instruction: { en: 'Pour the juice, then read how much you made off the scale.', de: 'Gieß den Saft ein und lies dann an der Skala ab, wie viel du gemacht hast.', fr: 'Verse le jus, puis lis sur la graduation combien tu en as fait.', es: 'Sirve el jugo y luego lee cuánto hiciste en la escala.', pt: 'Sirva o suco e depois leia na escala quanto você fez.', it: 'Versa il succo, poi leggi sulla scala graduata quanto ne hai fatto.' },
-      prompt: { en: 'Pour and read!', de: 'Eingießen und ablesen!', fr: 'Verse et lis !', es: '¡Sirve y lee!', pt: 'Sirva e leia!', it: 'Versa e leggi!' },
-      orderEst: { en: 'A {cust} wants about {w} cups!', de: '{cust} möchte etwa {w} Liter!', fr: '{cust} veut environ {w} {u} !', es: '¡{cust} quiere como {w} {u}!', pt: '{cust} quer mais ou menos {w} {u}!', it: '{cust} vuole più o meno {w} {u}!' },
-      orderRead: { en: 'Pippa poured some juice — how much?', de: 'Pippa hat Saft eingegossen – wie viel ist das?', fr: 'Pippa a versé du jus — ça fait combien ?', es: 'Pippa sirvió un poco de jugo… ¿cuánto?', pt: 'A Pippa serviu um pouco de suco — quanto será?', it: 'Pippa ha versato un po\' di succo — quanto sarà?' },
-      orderCompare: { en: 'Which cup has MORE?', de: 'Welcher Messbecher hat MEHR?', fr: 'Quel verre mesureur est le plus rempli ?', es: '¿Cuál vaso tiene MÁS?', pt: 'Qual copo tem MAIS?', it: 'Quale bicchiere ne ha di più?' },
-      pour: { en: 'Pour 🫗', de: 'Eingießen 🫗', fr: 'Verser 🫗', es: 'Servir 🫗', pt: 'Servir 🫗', it: 'Versa 🫗' },
-      look: { en: 'Look! 👀', de: 'Schau! 👀', fr: 'Regarde ! 👀', es: '¡Mira! 👀', pt: 'Olha! 👀', it: 'Guarda! 👀' },
-      readHint: { en: 'Read the scale — tap how much!', de: 'Lies die Skala ab – tippe an, wie viel!', fr: 'Lis la graduation — touche la bonne quantité !', es: 'Lee la escala: ¡toca cuánto es!', pt: 'Leia a escala — toque em quanto tem!', it: 'Leggi la scala graduata — tocca quanto ce n\'è!' },
-      pickThis: { en: 'This one!', de: 'Der hier!', fr: 'Celui-ci !', es: '¡Este!', pt: 'Este aqui!', it: 'Questo qui!' },
-      wrong: { en: "Hmm — what does it say where the juice reaches?", de: 'Hmm – bis zu welcher Zahl reicht der Saft?', fr: 'Hmm… jusqu’à quel nombre le jus monte-t-il ?', es: 'Mmm… ¿qué dice donde llega el jugo?', pt: 'Hummm — o que diz onde o suco chega?', it: 'Mmm… fino a quale numero arriva il succo?' },
-      win: { en: '{w} cups — just right! 🥤', de: '{w} Liter – genau richtig! 🥤', fr: '{w} {u} — exactement ! 🥤', es: '¡{w} {u}, justo! 🥤', pt: '{w} {u} — bem certinho! 🥤', it: '{w} {u} — giusto giusto! 🥤' },
-      winCompare: { en: 'That one has more — nice reading! 🥤', de: 'Der hat mehr – gut abgelesen! 🥤', fr: 'Celui-ci en a plus — bien lu ! 🥤', es: '¡Ese tiene más, qué buena lectura! 🥤', pt: 'Esse tem mais — que leitura boa! 🥤', it: 'Quello ne ha di più — bella lettura! 🥤' },
-      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Comprobar! ✓', pt: 'Toque em Verificar! ✓', it: 'Tocca Verifica! ✓' }
+      /* nl — native ensemble (linguïst + pedagoog groep 4). Inhoud/liter aflezen + schatten +
+         vergelijken (hele liters, geen ml). „liter" INVARIABEL na een getal (geen {u}); „één liter"
+         (accenten). Container = de maatbeker; inschenken (schenk … in); aflezen. Kikker = Fenna
+         (hernoemd van Pippa — stapelbotsing met #7 Pip + derde kikker). ⚠ vergelijk-prompt NIET het
+         anglicisme „heeft meer" → „In welke maatbeker zit meer sap?". */
+      title: { en: "Pippa's Pond-Juice Lab", de: 'Pippas Saftstand', fr: 'Le stand de jus de Pippa', es: 'El puesto de jugo de Pippa', pt: 'A Barraquinha de Suco da Pippa', it: 'Il chiosco del succo di Pippa', nl: 'Fenna’s sapkraam' },
+      instruction: { en: 'Pour the juice, then read how much you made off the scale.', de: 'Gieß den Saft ein und lies dann an der Skala ab, wie viel du gemacht hast.', fr: 'Verse le jus, puis lis sur la graduation combien tu en as fait.', es: 'Sirve el jugo y luego lee cuánto hiciste en la escala.', pt: 'Sirva o suco e depois leia na escala quanto você fez.', it: 'Versa il succo, poi leggi sulla scala graduata quanto ne hai fatto.', nl: 'Help Fenna: schenk het sap in en lees op de schaal af hoeveel liter het is.' },
+      prompt: { en: 'Pour and read!', de: 'Eingießen und ablesen!', fr: 'Verse et lis !', es: '¡Sirve y lee!', pt: 'Sirva e leia!', it: 'Versa e leggi!', nl: 'Inschenken en aflezen!' },
+      orderEst: { en: 'A {cust} wants about {w} cups!', de: '{cust} möchte etwa {w} Liter!', fr: '{cust} veut environ {w} {u} !', es: '¡{cust} quiere como {w} {u}!', pt: '{cust} quer mais ou menos {w} {u}!', it: '{cust} vuole più o meno {w} {u}!', nl: '{cust} wil ongeveer {w} liter!' },
+      orderRead: { en: 'Pippa poured some juice — how much?', de: 'Pippa hat Saft eingegossen – wie viel ist das?', fr: 'Pippa a versé du jus — ça fait combien ?', es: 'Pippa sirvió un poco de jugo… ¿cuánto?', pt: 'A Pippa serviu um pouco de suco — quanto será?', it: 'Pippa ha versato un po\' di succo — quanto sarà?', nl: 'Fenna schonk wat sap in — hoeveel liter?' },
+      orderCompare: { en: 'Which cup has MORE?', de: 'Welcher Messbecher hat MEHR?', fr: 'Quel verre mesureur est le plus rempli ?', es: '¿Cuál vaso tiene MÁS?', pt: 'Qual copo tem MAIS?', it: 'Quale bicchiere ne ha di più?', nl: 'In welke maatbeker zit MEER sap?' },
+      pour: { en: 'Pour 🫗', de: 'Eingießen 🫗', fr: 'Verser 🫗', es: 'Servir 🫗', pt: 'Servir 🫗', it: 'Versa 🫗', nl: 'Inschenken 🫗' },
+      look: { en: 'Look! 👀', de: 'Schau! 👀', fr: 'Regarde ! 👀', es: '¡Mira! 👀', pt: 'Olha! 👀', it: 'Guarda! 👀', nl: 'Kijk! 👀' },
+      readHint: { en: 'Read the scale — tap how much!', de: 'Lies die Skala ab – tippe an, wie viel!', fr: 'Lis la graduation — touche la bonne quantité !', es: 'Lee la escala: ¡toca cuánto es!', pt: 'Leia a escala — toque em quanto tem!', it: 'Leggi la scala graduata — tocca quanto ce n\'è!', nl: 'Lees de schaal af — tik hoeveel liter!' },
+      pickThis: { en: 'This one!', de: 'Der hier!', fr: 'Celui-ci !', es: '¡Este!', pt: 'Este aqui!', it: 'Questo qui!', nl: 'Deze!' },
+      wrong: { en: "Hmm — what does it say where the juice reaches?", de: 'Hmm – bis zu welcher Zahl reicht der Saft?', fr: 'Hmm… jusqu’à quel nombre le jus monte-t-il ?', es: 'Mmm… ¿qué dice donde llega el jugo?', pt: 'Hummm — o que diz onde o suco chega?', it: 'Mmm… fino a quale numero arriva il succo?', nl: 'Hmm — tot welk getal komt het sap?' },
+      win: { en: '{w} cups — just right! 🥤', de: '{w} Liter – genau richtig! 🥤', fr: '{w} {u} — exactement ! 🥤', es: '¡{w} {u}, justo! 🥤', pt: '{w} {u} — bem certinho! 🥤', it: '{w} {u} — giusto giusto! 🥤', nl: '{w} liter — precies goed! 🥤' },
+      winCompare: { en: 'That one has more — nice reading! 🥤', de: 'Der hat mehr – gut abgelesen! 🥤', fr: 'Celui-ci en a plus — bien lu ! 🥤', es: '¡Ese tiene más, qué buena lectura! 🥤', pt: 'Esse tem mais — que leitura boa! 🥤', it: 'Quello ne ha di più — bella lettura! 🥤', nl: 'Daar zit meer sap in — goed afgelezen! 🥤' },
+      tapCheck: { en: 'Tap Check! ✓', de: 'Tippe auf Prüfen! ✓', fr: 'Touche Vérifier ! ✓', es: '¡Toca Comprobar! ✓', pt: 'Toque em Verificar! ✓', it: 'Tocca Verifica! ✓', nl: 'Tik op Controleer! ✓' }
     },
     defaults: {},
 
@@ -198,7 +207,7 @@
       for (var v = this.round.scale.min; v <= this.round.scale.max; v++) {
         (function (val) {
           var b = api.el('button', 'pj-num'); b.type = 'button'; b.textContent = val;
-          b.setAttribute('aria-label', val + (LANG === 'de' ? ' Liter' : LANG === 'fr' ? ' ' + unitFr(val) : LANG === 'es' ? ' ' + unitEs(val) : LANG === 'pt' ? ' ' + unitPt(val) : LANG === 'it' ? ' ' + unitIt(val) : ' cups'));
+          b.setAttribute('aria-label', val + (LANG === 'de' ? ' Liter' : LANG === 'fr' ? ' ' + unitFr(val) : LANG === 'es' ? ' ' + unitEs(val) : LANG === 'pt' ? ' ' + unitPt(val) : LANG === 'it' ? ' ' + unitIt(val) : LANG === 'nl' ? ' liter' : ' cups'));
           b.addEventListener('click', function () { self._report(val); });
           strip.appendChild(b);
         })(v);
@@ -208,8 +217,8 @@
     _report: function (value) {
       if (this.solved) return;
       var r = Core.report(this.cstate, value);
-      if (r.correct) { this._win(numWord(value) + (LANG === 'de' ? ' Liter, genau richtig' : LANG === 'fr' ? ' ' + unitFr(value) + ', exactement' : LANG === 'es' ? ' ' + unitEs(value) + ', justo' : LANG === 'pt' ? ' ' + unitPt(value) + ', isso mesmo' : LANG === 'it' ? ' ' + unitIt(value) + ', proprio così' : ' cups, just right')); this.msg = this.api.t('win').replace('{w}', numWord(value)).replace('{u}', LANG === 'it' ? unitIt(value) : LANG === 'es' ? unitEs(value) : LANG === 'pt' ? unitPt(value) : unitFr(value)); this.render(); this.announce(this.msg); }
-      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Was steht da, wo der Saft ist?' : LANG === 'fr' ? 'Jusqu’à quel nombre le jus monte-t-il ?' : LANG === 'es' ? '¿qué dice donde llega el jugo?' : LANG === 'pt' ? 'o que diz onde o suco chega?' : LANG === 'it' ? 'Che numero c\'è dove arriva il succo?' : 'what does it say?'); this.render(); }
+      if (r.correct) { this._win(numWord(value) + (LANG === 'de' ? ' Liter, genau richtig' : LANG === 'fr' ? ' ' + unitFr(value) + ', exactement' : LANG === 'es' ? ' ' + unitEs(value) + ', justo' : LANG === 'pt' ? ' ' + unitPt(value) + ', isso mesmo' : LANG === 'it' ? ' ' + unitIt(value) + ', proprio così' : LANG === 'nl' ? ' liter, precies goed' : ' cups, just right')); this.msg = this.api.t('win').replace('{w}', numWord(value)).replace('{u}', LANG === 'it' ? unitIt(value) : LANG === 'es' ? unitEs(value) : LANG === 'pt' ? unitPt(value) : unitFr(value)); this.render(); this.announce(this.msg); }
+      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Was steht da, wo der Saft ist?' : LANG === 'fr' ? 'Jusqu’à quel nombre le jus monte-t-il ?' : LANG === 'es' ? '¿qué dice donde llega el jugo?' : LANG === 'pt' ? 'o que diz onde o suco chega?' : LANG === 'it' ? 'Che numero c\'è dove arriva il succo?' : LANG === 'nl' ? 'Tot welk getal komt het sap?' : 'what does it say?'); this.render(); }
     },
 
     /* ----- two cups (compare / diff-scale): read both scales, pick the more ----- */
@@ -221,7 +230,7 @@
         var cscale = { min: 0, max: cmax, step: (cmax > 10 ? 5 : 1) };
         var bk = api.el('div', 'pj-cup'); bk.innerHTML = beakerSVG(cscale, cup.level, true, JUICE[(i + 2) % JUICE.length], false); col.appendChild(bk);
         var pick = api.el('button', 'pj-pick'); pick.type = 'button'; pick.textContent = api.t('pickThis');
-        pick.setAttribute('aria-label', LANG === 'fr' ? 'ce verre en a plus' : LANG === 'es' ? 'este vaso tiene más' : LANG === 'pt' ? 'este copo tem mais' : LANG === 'it' ? 'questo bicchiere ne ha di più' : 'this cup has more');
+        pick.setAttribute('aria-label', LANG === 'fr' ? 'ce verre en a plus' : LANG === 'es' ? 'este vaso tiene más' : LANG === 'pt' ? 'este copo tem mais' : LANG === 'it' ? 'questo bicchiere ne ha di più' : LANG === 'nl' ? 'in deze maatbeker zit meer sap' : 'this cup has more');
         pick.addEventListener('click', function () { self._pick(i); });
         col.appendChild(pick); box.appendChild(col);
       });
@@ -230,8 +239,8 @@
     _pick: function (i) {
       if (this.solved) return;
       var r = Core.pick(this.cstate, i);
-      if (r.correct) { this._win(LANG === 'de' ? 'Der hat mehr' : LANG === 'fr' ? 'Celui-ci en a plus' : LANG === 'es' ? 'ese tiene más' : LANG === 'pt' ? 'esse tem mais' : LANG === 'it' ? 'questo ne ha di più' : 'that one has more'); this.msg = this.api.t('winCompare'); this.render(); this.announce(this.msg); }
-      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Lies beide Skalen ab' : LANG === 'fr' ? 'Lis les deux graduations.' : LANG === 'es' ? 'lee las dos escalas' : LANG === 'pt' ? 'leia as duas escalas' : LANG === 'it' ? 'leggi le due scale graduate' : 'read both scales'); this.render(); }
+      if (r.correct) { this._win(LANG === 'de' ? 'Der hat mehr' : LANG === 'fr' ? 'Celui-ci en a plus' : LANG === 'es' ? 'ese tiene más' : LANG === 'pt' ? 'esse tem mais' : LANG === 'it' ? 'questo ne ha di più' : LANG === 'nl' ? 'daar zit meer in' : 'that one has more'); this.msg = this.api.t('winCompare'); this.render(); this.announce(this.msg); }
+      else { this._mood = 'idle'; this.msg = this.api.t('wrong'); this.api.sound && this.api.sound(330); speak(LANG === 'de' ? 'Lies beide Skalen ab' : LANG === 'fr' ? 'Lis les deux graduations.' : LANG === 'es' ? 'lee las dos escalas' : LANG === 'pt' ? 'leia as duas escalas' : LANG === 'it' ? 'leggi le due scale graduate' : LANG === 'nl' ? 'Lees allebei de schalen af' : 'read both scales'); this.render(); }
     },
 
     _win: function (spokenText) {

@@ -744,6 +744,29 @@
         "Je kind leert het antwoord als maat met de eenheid \"cm\" te geven."
       ]
     },
+    "mosaic-menders.area-match.3-md-c-6": {
+      "about": [
+        "Tessa is tegelzetster en heeft een eigen mozaïekwerkplaats. Overal liggen kleine vierkante tegeltjes waarmee ze de mooiste mozaïeken legt. In deze activiteit laat Tessa telkens één voorbeeldmozaïek zien, en jouw kind mag helpen zoeken naar het mozaïek dat er precies bij past.",
+        "De opdracht is steeds hetzelfde: kies uit drie mozaïeken het mozaïek met evenveel tegeltjes als dat van Tessa — want evenveel tegeltjes betekent dezelfde oppervlakte, ook al ziet de vorm er heel anders uit. En daar zit de valkuil: één mozaïek lijkt groter omdat het meer plek inneemt, maar heeft de verkeerde telling, en één mozaïek heeft juist méér tegeltjes. Je komt er alleen uit door de tegeltjes te tellen, niet door op grootte te gokken.",
+        "Zo ontdekt je kind het grote idee achter oppervlakte: de oppervlakte is het aantal vierkantjes, en dat aantal blijft gelijk, ook al verandert de vorm. De activiteit sluit aan bij de SLO-kerndoelen voor meten en meetkunde (oppervlakte) en werkt met tellen in plaats van met een liniaal, cm² of formule — zonder tijdsdruk of punten, gewoon rustig ontdekken."
+      ],
+      "practices": [
+        "Oppervlakte bepalen door vierkante tegeltjes te tellen",
+        "Twee vormen vergelijken op evenveel tegeltjes",
+        "Zich niet laten misleiden door een vorm die groter lijkt",
+        "Ontdekken dat oppervlakte gelijk blijft als de vorm verandert"
+      ],
+      "howToPlay": [
+        "Bekijk het voorbeeldmozaïek van Tessa en tel de tegeltjes.",
+        "Tik op het mozaïek dat evenveel tegeltjes heeft — dezelfde oppervlakte.",
+        "Tik op \"Controleer\" om te zien of het klopt."
+      ],
+      "learningGoals": [
+        "Je kind leert dat de oppervlakte het aantal vierkantjes is dat een vorm bedekt.",
+        "Je kind ziet dat twee heel verschillende vormen toch dezelfde oppervlakte kunnen hebben.",
+        "Je kind leert oppervlakte te tellen in plaats van te oordelen op grootte."
+      ]
+    },
     "seriation.compare-length.1-md-a-1": {
       "about": [
         "Tilly, de vriendelijke winkelkat, bewaart haar gekleurde linten op planken die ver uit elkaar hangen — zo ver dat je kind ze niet naast elkaar kan leggen. Hoe weet je dan welk lint langer is? Daarvoor is er het touwtje: een handig hulpstuk dat als tussenmaat dient. Je kind legt elk lint in gedachten naast het touwtje en tikt op het langste lint, het kortste lint, of het lint dat even lang is als het touwtje. Het is een gratis, interactieve activiteit die in elke browser speelt, zonder download en zonder account.",

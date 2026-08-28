@@ -364,6 +364,16 @@
           { "id": "zio-luca", "band": 2, "tokens": ["Oggi", "gioco", "con", "mio", "zio", "luca", "."], "proper": "luca" },
           { "id": "estate-napoli", "band": 3, "tokens": ["In", "estate", "andiamo", "a", "napoli", "."], "proper": "napoli" },
           { "id": "nonna-chiara", "band": 3, "tokens": ["La", "nonna", "di", "chiara", "abita", "lontano", "."], "proper": "chiara" }
+        ],
+        "nl": [
+          { "id": "vriend-tim", "band": 1, "tokens": ["Mijn", "vriend", "heet", "tim", "."], "proper": "tim" },
+          { "id": "dit-mia", "band": 1, "tokens": ["Dit", "is", "mia", "."], "proper": "mia" },
+          { "id": "speel-noor", "band": 1, "tokens": ["Ik", "speel", "met", "noor", "."], "proper": "noor" },
+          { "id": "oma-bram", "band": 2, "tokens": ["Vandaag", "komt", "oma", "bij", "bram", "."], "proper": "bram" },
+          { "id": "kat-emma", "band": 2, "tokens": ["De", "kat", "van", "emma", "is", "zwart", "."], "proper": "emma" },
+          { "id": "nichtje-utrecht", "band": 2, "tokens": ["Mijn", "nichtje", "woont", "in", "utrecht", "."], "proper": "utrecht" },
+          { "id": "zomer-rotterdam", "band": 3, "tokens": ["In", "de", "zomer", "gaan", "wij", "naar", "rotterdam", "."], "proper": "rotterdam" },
+          { "id": "vakantie-nederland", "band": 3, "tokens": ["Volgende", "week", "ga", "ik", "op", "vakantie", "naar", "nederland", "."], "proper": "nederland" }
         ]
       }
     },
@@ -374,7 +384,8 @@
       "fr": "la-majuscule-aux-noms-propres-ce1",
       "es": "mayuscula-en-nombres-propios-2-primaria",
       "pt": "nomes-proprios-letra-maiuscula-2-ano",
-      "it": "maiuscola-nomi-propri-classe-seconda"
+      "it": "maiuscola-nomi-propri-classe-seconda",
+      "nl": "hoofdletter-bij-eigennamen-oefenen-groep-4"
     },
     "page_title": {
       "en": "Wally's Capital Crane — Capitalize Special Names (Grade 2)",
@@ -382,7 +393,8 @@
       "fr": "Wally et la grue à majuscules : la majuscule aux noms propres (CE1)",
       "es": "Wally y su grúa: la mayúscula en nombres propios (2.º primaria)",
       "pt": "Nomes próprios com letra maiúscula: a Wally — 2º ano",
-      "it": "La gru di Wally: la maiuscola nei nomi propri (classe seconda)"
+      "it": "La gru di Wally: la maiuscola nei nomi propri (classe seconda)",
+      "nl": "Wally's hoofdletterkraan – hoofdletter bij eigennamen oefenen (groep 4)"
     },
     "page_intro": {
       "en": "Wally the walrus runs a crane that lifts a little letter up into a big CAPITAL! Special names — holidays like Halloween, places like Texas, and products like Lego — always start with a capital letter. Read the sentence and tap the word that needs Wally's big letter. A Grade 2 grammar game about capitalizing holidays, places, and product names, aligned to Common Core L.2.2.a.",
@@ -390,7 +402,8 @@
       "fr": "Aide Wally le morse à mettre la majuscule aux noms propres — noms de personnes, de villes, de pays. Une activité d’orthographe CE1, gratuite et interactive.",
       "es": "Wally la morsa maneja su grúa para levantar la mayúscula en los nombres propios. Actividad gratuita e interactiva para 2.º de primaria, alineada a los Planes y programas de estudio (SEP). Sin registro, sin cronómetro.",
       "pt": "Com a Wally e seu guindaste, a criança acha o nome próprio escrito com letra minúscula e o transforma em maiúscula. Ortografia do 2º ano, no seu ritmo.",
-      "it": "Wally il tricheco ha una gru speciale: solleva una letterina minuscola e la trasforma in una grande MAIUSCOLA. Alcuni nomi sono speciali — i nomi di persona e i nomi di luogo — e vogliono sempre la lettera maiuscola. Leggi la frase, trova il nome proprio e toccalo: Wally lo aggancia e gli regala la sua lettera grande («marco» diventa «Marco», «roma» diventa «Roma»). È tutto gratis, senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali."
+      "it": "Wally il tricheco ha una gru speciale: solleva una letterina minuscola e la trasforma in una grande MAIUSCOLA. Alcuni nomi sono speciali — i nomi di persona e i nomi di luogo — e vogliono sempre la lettera maiuscola. Leggi la frase, trova il nome proprio e toccalo: Wally lo aggancia e gli regala la sua lettera grande («marco» diventa «Marco», «roma» diventa «Roma»). È tutto gratis, senza registrazione e senza punteggi, e funziona direttamente nel browser. Un'attività pensata per la classe seconda e allineata alle Indicazioni nazionali.",
+      "nl": "Help Wally de walrus om de hoofdletter op de juiste plek te zetten: een eigennaam – de naam van een persoon, een stad of een land – krijgt een hoofdletter, maar een gewoon woord blijft klein. Een gratis en interactieve oefening voor groep 4, aansluitend bij de SLO-kerndoelen Nederlands."
     },
     "kid_prompt_template": "Tap the special name that needs a capital letter."
   }

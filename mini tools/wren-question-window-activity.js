@@ -43,10 +43,15 @@
      CONSONANT-INITIAL (enforced by the round data, not this code). Chi/Perché never elide. */
   var QWORD_IT = { person: 'Chi', thing: 'Cosa', place: 'Dove', time: 'Quando', reason: 'Perché', manner: 'Come' };
   var CHIPS_IT = ['Chi', 'Cosa', 'Dove', 'Quando', 'Perché', 'Come'];
+  /* Dutch vraagwoorden (#36 native ensemble; 0 lines to question-word-core.js).
+     Capitalized — sentence-initial. Standard 6: Wie/Wat/Waar/Wanneer/Waarom/Hoe.
+     No elision, no inverted question mark. */
+  var QWORD_NL = { person: 'Wie', thing: 'Wat', place: 'Waar', time: 'Wanneer', reason: 'Waarom', manner: 'Hoe' };
+  var CHIPS_NL = ['Wie', 'Wat', 'Waar', 'Wanneer', 'Waarom', 'Hoe'];
   /* Per-locale maps (en falls to the English core). Behaviour-identical to the
      prior LANG==='de' ternary for en/de. */
-  var QWORD_L10N = { de: QWORD_DE, fr: QWORD_FR, es: QWORD_ES, pt: QWORD_PT, it: QWORD_IT };
-  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR, es: CHIPS_ES, pt: CHIPS_PT, it: CHIPS_IT };
+  var QWORD_L10N = { de: QWORD_DE, fr: QWORD_FR, es: QWORD_ES, pt: QWORD_PT, it: QWORD_IT, nl: QWORD_NL };
+  var CHIPS_L10N = { de: CHIPS_DE, fr: CHIPS_FR, es: CHIPS_ES, pt: CHIPS_PT, it: CHIPS_IT, nl: CHIPS_NL };
   function wqOracle(round) { var m = QWORD_L10N[LANG]; return m ? (m[round.asks] || '') : Core.oracle(round); }
   function wqChips() { var c = CHIPS_L10N[LANG]; return c ? c.slice() : Core.chips(); }
   function wqIsAnswer(round, str) { return str === wqOracle(round); }
@@ -54,10 +59,10 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : 'blank'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'Lücke' : LANG === 'fr' ? 'trou' : LANG === 'es' ? 'espacio' : LANG === 'pt' ? 'espaço' : LANG === 'it' ? 'spazio' : LANG === 'nl' ? 'streepje' : 'blank'); }
 
   function wrenSVG(mood) {
     var happy = mood === 'happy';
@@ -76,13 +81,13 @@
     id: 'wren-question-window-activity',
 
     strings: {
-      title: { en: "Wren's Question Window", de: 'Wrens Fragefenster', fr: 'Wren au guichet des questions', es: 'Wren y las palabras para preguntar', pt: 'Wren e as palavras de perguntar', it: 'Wren e le parole per domandare' },
-      prompt: { en: 'Which question word fits?', de: 'Welches Fragewort passt?', fr: 'Quel petit mot pose la question ?', es: '¿Qué palabra completa la pregunta?', pt: 'Qual palavra completa a pergunta?', it: 'Quale parola completa la domanda?' },
-      wrenIntro: { en: 'Help me ask it! Which question word fits?', de: 'Hallo, ich bin Wren! Jede Bestellung beginnt mit einer guten Frage.', fr: '🐦 Aide-moi à poser ma question !', es: '¡Hola, soy Wren! Cada pedido empieza con una buena pregunta.', pt: 'Oi! Sou o Wren. Todo pedido começa com uma pergunta.', it: 'Ciao, sono Wren! Ogni ordine comincia con una domanda.' },
-      theAsk: { en: 'Which word fills the blank?', de: 'Welches Fragewort passt in die Lücke?', fr: 'Touche le mot qui va dans le trou.', es: 'Toca la palabra que completa la pregunta.', pt: 'Toque na palavra que completa a pergunta.', it: 'Tocca la parola che completa la domanda.' },
-      hintPick: { en: 'Tap the question word that fits!', de: 'Tippe ein Fragewort an: Wer, Was, Wo, Wann, Warum oder Wie.', fr: 'Quel mot ? Qui, Que, Où, Quand, Pourquoi ou Comment ?', es: 'Toca una palabra: Qué, Quién, Dónde, Cuándo, Por qué o Cómo.', pt: 'Toque numa palavra: O que, Quem, Onde, Quando, Por que ou Como.', it: 'Tocca una parola: Chi, Cosa, Dove, Quando, Perché o Come.' },
-      hintWrong: { en: "That word doesn't fit — read the question again.", de: 'Fast! Überlege: Fragt der Satz nach einer Person, einem Ding, einem Ort, einer Zeit oder einem Grund? Versuch es noch einmal.', fr: 'La question parle d’une personne, d’une chose, d’un lieu, d’un moment, d’une raison ou d’une manière ? Regarde encore !', es: '¡Casi! Piensa: ¿la pregunta busca una persona, una cosa, un lugar, un momento, una razón o una manera? Inténtalo otra vez.', pt: 'Quase! Pense: a pergunta é sobre uma pessoa, uma coisa, um lugar, um momento, um motivo ou um jeito? Tente de novo.', it: 'Quasi! La domanda chiede di una persona, una cosa, un luogo, un momento, un motivo o un modo? Riprova!' },
-      win: { en: 'Yes! That is the right question word. ❓', de: 'Stark gefragt! Wren reicht dir dein Essen durch das Fenster. 🐦', fr: 'Bravo ! Ta question est parfaite ! 🐦', es: '¡Bien preguntado! Wren te pasa tu comida por la ventanilla. 🐦', pt: 'Boa pergunta! O Wren passa sua comida pela janelinha. 🐦', it: 'Bella domanda! Wren ti passa il piatto dalla finestrella. 🐦' }
+      title: { en: "Wren's Question Window", de: 'Wrens Fragefenster', fr: 'Wren au guichet des questions', es: 'Wren y las palabras para preguntar', pt: 'Wren e as palavras de perguntar', it: 'Wren e le parole per domandare', nl: 'Wrens vragenraam' },
+      prompt: { en: 'Which question word fits?', de: 'Welches Fragewort passt?', fr: 'Quel petit mot pose la question ?', es: '¿Qué palabra completa la pregunta?', pt: 'Qual palavra completa a pergunta?', it: 'Quale parola completa la domanda?', nl: 'Welk vraagwoord past?' },
+      wrenIntro: { en: 'Help me ask it! Which question word fits?', de: 'Hallo, ich bin Wren! Jede Bestellung beginnt mit einer guten Frage.', fr: '🐦 Aide-moi à poser ma question !', es: '¡Hola, soy Wren! Cada pedido empieza con una buena pregunta.', pt: 'Oi! Sou o Wren. Todo pedido começa com uma pergunta.', it: 'Ciao, sono Wren! Ogni ordine comincia con una domanda.', nl: 'Help me vragen! Welk vraagwoord past?' },
+      theAsk: { en: 'Which word fills the blank?', de: 'Welches Fragewort passt in die Lücke?', fr: 'Touche le mot qui va dans le trou.', es: 'Toca la palabra que completa la pregunta.', pt: 'Toque na palavra que completa a pergunta.', it: 'Tocca la parola che completa la domanda.', nl: 'Welk vraagwoord past in de lege plek?' },
+      hintPick: { en: 'Tap the question word that fits!', de: 'Tippe ein Fragewort an: Wer, Was, Wo, Wann, Warum oder Wie.', fr: 'Quel mot ? Qui, Que, Où, Quand, Pourquoi ou Comment ?', es: 'Toca una palabra: Qué, Quién, Dónde, Cuándo, Por qué o Cómo.', pt: 'Toque numa palavra: O que, Quem, Onde, Quando, Por que ou Como.', it: 'Tocca una parola: Chi, Cosa, Dove, Quando, Perché o Come.', nl: 'Tik een vraagwoord: Wie, Wat, Waar, Wanneer, Waarom of Hoe.' },
+      hintWrong: { en: "That word doesn't fit — read the question again.", de: 'Fast! Überlege: Fragt der Satz nach einer Person, einem Ding, einem Ort, einer Zeit oder einem Grund? Versuch es noch einmal.', fr: 'La question parle d’une personne, d’une chose, d’un lieu, d’un moment, d’une raison ou d’une manière ? Regarde encore !', es: '¡Casi! Piensa: ¿la pregunta busca una persona, una cosa, un lugar, un momento, una razón o una manera? Inténtalo otra vez.', pt: 'Quase! Pense: a pergunta é sobre uma pessoa, uma coisa, um lugar, um momento, um motivo ou um jeito? Tente de novo.', it: 'Quasi! La domanda chiede di una persona, una cosa, un luogo, un momento, un motivo o un modo? Riprova!', nl: 'Vraagt de zin naar een persoon, een ding, een plek, een tijd, een reden of een manier?' },
+      win: { en: 'Yes! That is the right question word. ❓', de: 'Stark gefragt! Wren reicht dir dein Essen durch das Fenster. 🐦', fr: 'Bravo ! Ta question est parfaite ! 🐦', es: '¡Bien preguntado! Wren te pasa tu comida por la ventanilla. 🐦', pt: 'Boa pergunta! O Wren passa sua comida pela janelinha. 🐦', it: 'Bella domanda! Wren ti passa il piatto dalla finestrella. 🐦', nl: 'Goed gevraagd! Wren geeft je je eten door het raam. 🐦' }
     },
     defaults: {},
 
@@ -115,7 +120,7 @@
 
       var sent = api.el('div', 'wqw-sent');
       var txt = api.el('span', 'wqw-senttxt'); txt.textContent = v.sentence; sent.appendChild(txt);
-      var sp = api.el('button', 'wqw-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : LANG === 'fr' ? 'écouter la question' : LANG === 'es' ? 'escuchar la pregunta' : LANG === 'pt' ? 'ouvir a pergunta' : LANG === 'it' ? 'ascolta la domanda' : 'hear the question'); sp.textContent = '🔊';
+      var sp = api.el('button', 'wqw-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'de' ? 'Frage anhören' : LANG === 'fr' ? 'écouter la question' : LANG === 'es' ? 'escuchar la pregunta' : LANG === 'pt' ? 'ouvir a pergunta' : LANG === 'it' ? 'ascolta la domanda' : LANG === 'nl' ? 'de vraag beluisteren' : 'hear the question'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(sayable(v.sentence)); }); sent.appendChild(sp);
       root.appendChild(sent);
 

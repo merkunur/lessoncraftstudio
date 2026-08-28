@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "halfway-harbors.nearest.3-nbt-a-1": {
+      "about": [
+        "Marina is een vriendelijke vuurtoren-kat die de haven bestuurt. Vanuit haar vuurtoren houdt ze de getallenlijn in de gaten, waarop de ronde havens netjes op elke tien en elke honderd liggen. De bootjes varen binnen en zoeken hun plekje — en jij helpt Marina om ieder bootje naar de juiste ronde haven te loodsen.",
+        "Elk bootje draagt een getal. Tik de dichtstbijzijnde ronde haven aan om af te ronden op tientallen: 63 hoort bijvoorbeeld bij 60. Bij grotere getallen tik je de dichtstbijzijnde vuurtoren aan en rond je af op honderdtallen: 247 hoort bij 200. In de speciale rondes ligt een getal precies tussen twee havens in, zoals 45; dan tik je de boei in het midden, want een 5 gaat naar boven af (45 wordt 50).",
+        "Er is geen klok, geen score en geen stress — je werkt gewoon op je eigen tempo. Zo oefen je afronden en versterk je je getalbegrip door getallen op de getallenlijn te plaatsen, helemaal passend bij de SLO-kerndoelen rekenen voor groep 5."
+      ],
+      "practices": [
+        "Afronden op het dichtstbijzijnde tiental",
+        "Afronden op het dichtstbijzijnde honderdtal",
+        "Getallen op de getallenlijn plaatsen",
+        "Het middelste getal herkennen (5 gaat naar boven)"
+      ],
+      "howToPlay": [
+        "Kijk welk getal het bootje draagt.",
+        "Tik de dichtstbijzijnde ronde haven op de getallenlijn aan.",
+        "Ligt het getal precies in het midden? Tik dan de boei ertussenin."
+      ],
+      "learningGoals": [
+        "Getallen afronden op tientallen en honderdtallen.",
+        "Getallen ordenen en plaatsen op de getallenlijn.",
+        "Begrijpen dat een getal precies in het midden naar boven wordt afgerond."
+      ]
+    },
     "wren-question-window.question-words.l-k-1-d": {
       "about": [
         "Wren is een klein, vrolijk vogeltje dat achter een gezellig raampje staat en bestellingen aanneemt. Bij Wrens vragenraam is elke bestelling eigenlijk een vraag — maar het allereerste woord van die vraag is weggevlogen. Jouw taak is om te bedenken welk vraagwoord er hoort.",

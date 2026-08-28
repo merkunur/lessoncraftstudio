@@ -78,6 +78,18 @@
       nPack: 'Conta quante scatole sono piene.',
       srShare: '{d} biscotti vengono divisi in parti uguali su {n} piatti. Quanti biscotti ci sono su ogni piatto? Scelte: {choices}.',
       srPack: '{d} biscotti vengono messi in scatole che contengono {n} biscotti ciascuna. Quante scatole ci sono? Scelte: {choices}.'
+    },
+    // nl — native nl math ensemble (SLO-kerndoelen rekenen, groep 4): delen als
+    // verdelen (bordjes) + groeperen (doosjes). Diminutieven bordjes/doosjes
+    // (matcht koekjes; "bord" = ook schoolbord). {tokens} preserved.
+    nl: {
+      win: 'Ja — {note}',
+      winShare: '{a} koekjes op elk bordje!',
+      winPack: '{a} volle doosjes!',
+      nShare: 'Tel de koekjes op maar één bordje.',
+      nPack: 'Tel hoeveel doosjes vol zijn.',
+      srShare: '{d} koekjes worden eerlijk verdeeld over {n} bordjes. Hoeveel koekjes liggen er op elk bordje? Keuzes: {choices}.',
+      srPack: '{d} koekjes worden in doosjes gedaan waar er telkens {n} in gaan. Hoeveel doosjes zijn er? Keuzes: {choices}.'
     }
   };
   function txt(k, a) {
@@ -145,10 +157,10 @@
   var MapleBakeryActivity = {
     id: 'maple-bakery-activity',
     strings: {
-      title: { en: "Maple's Bakery", de: 'Maples Bäckerei', fr: 'La boulangerie de Maple', es: 'La panadería de Maple', pt: 'A padaria da Maple', it: 'La pasticceria di Maple' },
-      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!', fr: 'Aide Maple la souris à partager les biscuits équitablement !', es: '¡Ayuda a Maple, la ratona, a repartir las galletas en partes iguales!', pt: 'Ajude a Maple, a ratinha, a repartir os biscoitos em partes iguais!', it: 'Aiuta la topolina Maple a dividere i biscotti in parti uguali!' },
-      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?', fr: 'Partage {d} biscuits sur {n} assiettes. Combien sur chaque assiette ?', es: 'Reparte {d} galletas en {n} platos. ¿Cuántas hay en cada plato?', pt: 'Reparta {d} biscoitos em {n} pratos. Quantos há em cada prato?', it: 'Dividi {d} biscotti su {n} piatti. Quanti biscotti su ogni piatto?' },
-      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?', fr: 'Range {d} biscuits dans des boîtes de {n}. Combien de boîtes ?', es: 'Empaca {d} galletas en cajas de {n}. ¿Cuántas cajas necesitas?', pt: 'Embale {d} biscoitos em caixas de {n}. Quantas caixas você precisa?', it: 'Metti {d} biscotti in scatole da {n}. Quante scatole?' }
+      title: { en: "Maple's Bakery", de: 'Maples Bäckerei', fr: 'La boulangerie de Maple', es: 'La panadería de Maple', pt: 'A padaria da Maple', it: 'La pasticceria di Maple', nl: 'Maples bakkerij' },
+      instruction: { en: 'Help Maple the mouse divide the cookies fairly!', de: 'Hilf Maple der Maus, die Kekse gerecht zu verteilen!', fr: 'Aide Maple la souris à partager les biscuits équitablement !', es: '¡Ayuda a Maple, la ratona, a repartir las galletas en partes iguales!', pt: 'Ajude a Maple, a ratinha, a repartir os biscoitos em partes iguais!', it: 'Aiuta la topolina Maple a dividere i biscotti in parti uguali!', nl: 'Help Maple de muis om de koekjes eerlijk te verdelen!' },
+      qshare: { en: 'Share {d} cookies onto {n} plates. How many on each plate?', de: 'Verteile {d} Kekse auf {n} Teller. Wie viele liegen auf jedem Teller?', fr: 'Partage {d} biscuits sur {n} assiettes. Combien sur chaque assiette ?', es: 'Reparte {d} galletas en {n} platos. ¿Cuántas hay en cada plato?', pt: 'Reparta {d} biscoitos em {n} pratos. Quantos há em cada prato?', it: 'Dividi {d} biscotti su {n} piatti. Quanti biscotti su ogni piatto?', nl: 'Verdeel {d} koekjes over {n} bordjes. Hoeveel liggen er op elk bordje?' },
+      qpack: { en: 'Pack {d} cookies into boxes of {n}. How many boxes?', de: 'Pack {d} Kekse in Schachteln zu je {n}. Wie viele Schachteln brauchst du?', fr: 'Range {d} biscuits dans des boîtes de {n}. Combien de boîtes ?', es: 'Empaca {d} galletas en cajas de {n}. ¿Cuántas cajas necesitas?', pt: 'Embale {d} biscoitos em caixas de {n}. Quantas caixas você precisa?', it: 'Metti {d} biscotti in scatole da {n}. Quante scatole?', nl: 'Doe {d} koekjes in doosjes van {n}. Hoeveel doosjes?' }
     },
 
     init: function (api) {

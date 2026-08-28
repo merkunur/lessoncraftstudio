@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
+      "about": [
+        "Komeet de kangoeroe is dol op grote sprongen. Bij elke sprong springt hij precies 10 of 100 vooruit of achteruit vanaf een getal van drie cijfers. Zo werk je aan positiewaarde en getalbegrip tot 1000, terwijl Komeet door het landschap stuitert.",
+        "Je ziet een getal van drie cijfers en een sprong: 10 meer, 10 minder, 100 meer of 100 minder. Reken uit je hoofd waar Komeet landt en typ het nieuwe getal in. Handig om te onthouden: alleen de tientallen of de honderdtallen veranderen, de eenheden blijven altijd gelijk. Bij '247' plus 10 land je dus op '257', en bij '247' plus 100 op '347'.",
+        "Er is geen klok, geen score en geen stress. Je werkt rustig op je eigen tempo en springt zo ver als je wilt met 10 en 100 tot 1000. Deze activiteit sluit aan bij de SLO-kerndoelen rekenen voor groep 5."
+      ],
+      "practices": [
+        "10 of 100 erbij of eraf tot 1000",
+        "Hoofdrekenen tot 1000",
+        "Positiewaarde: welk cijfer verandert?",
+        "Getalbegrip tot 1000"
+      ],
+      "howToPlay": [
+        "Bekijk het getal van drie cijfers en de sprong die Komeet maakt.",
+        "Reken uit je hoofd waar Komeet landt: 10 of 100 erbij of eraf.",
+        "Typ het nieuwe getal in en kijk of Komeet goed geland is."
+      ],
+      "learningGoals": [
+        "10 en 100 meer of minder rekenen tot 1000.",
+        "Zien welk cijfer verandert en welk cijfer gelijk blijft.",
+        "Uit het hoofd rekenen met getallen tot 1000."
+      ]
+    },
     "winter-piles.draw-partition.2-oa-c-4": {
       "about": [
         "Flo de eekhoorn is druk bezig met haar wintervoorraad. Ze verzamelt eikels en legt ze netjes in een rooster van rijen en kolommen. In deze activiteit help je Flo om haar eikels eerlijk te verdelen in even grote hoopjes, zodat elk hoopje precies evenveel eikels heeft.",

@@ -23,19 +23,19 @@
   /* German hop rebuilt from childView's dir+deltaAbs (no core change); the core's hopWord is English */
   // it — native it math ensemble (Indicazioni, classe terza): «10 in più»/«10 in meno» = the COMPARATIVE "more/less than"
   // (NOT «più 10» which reads as the signed operator +10, already on the chip); prompt «Quanto fa {hop} di {start}?».
-  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : LANG === 'fr' ? (v.deltaAbs + (v.dir === 'more' ? ' de plus' : ' de moins')) : LANG === 'es' ? (v.deltaAbs + (v.dir === 'more' ? ' más' : ' menos')) : LANG === 'pt' ? (v.deltaAbs + (v.dir === 'more' ? ' a mais' : ' a menos')) : LANG === 'it' ? (v.deltaAbs + (v.dir === 'more' ? ' in più' : ' in meno')) : v.hop; }
+  function ckgHop(v) { return LANG === 'de' ? (v.deltaAbs + (v.dir === 'more' ? ' mehr' : ' weniger')) : LANG === 'fr' ? (v.deltaAbs + (v.dir === 'more' ? ' de plus' : ' de moins')) : LANG === 'es' ? (v.deltaAbs + (v.dir === 'more' ? ' más' : ' menos')) : LANG === 'pt' ? (v.deltaAbs + (v.dir === 'more' ? ' a mais' : ' a menos')) : LANG === 'it' ? (v.deltaAbs + (v.dir === 'more' ? ' in più' : ' in meno')) : LANG === 'nl' ? (v.deltaAbs + (v.dir === 'more' ? ' meer' : ' minder')) : v.hop; }
   function ckgQuestion(v, full) {
     var h = ckgHop(v);
-    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : LANG === 'fr' ? ((full ? 'Combien font ' : '') + h + ' que ' + v.start + ' ?') : LANG === 'es' ? ((full ? '¿Cuánto es ' : '') + h + ' que ' + v.start + '?') : LANG === 'pt' ? ((full ? 'Quanto é ' : '') + h + ' que ' + v.start + '?') : LANG === 'it' ? ((full ? 'Quanto fa ' : '') + h + ' di ' + v.start + '?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
+    return LANG === 'de' ? ((full ? 'Wie viel ist ' : '') + h + ' als ' + v.start + '?') : LANG === 'fr' ? ((full ? 'Combien font ' : '') + h + ' que ' + v.start + ' ?') : LANG === 'es' ? ((full ? '¿Cuánto es ' : '') + h + ' que ' + v.start + '?') : LANG === 'pt' ? ((full ? 'Quanto é ' : '') + h + ' que ' + v.start + '?') : LANG === 'it' ? ((full ? 'Quanto fa ' : '') + h + ' di ' + v.start + '?') : LANG === 'nl' ? ((full ? 'Hoeveel is ' : '') + h + ' dan ' + v.start + '?') : ((full ? 'What is ' : '') + v.hop + ' than ' + v.start + '?');
   }
 
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function kangarooSVG() {
-    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : LANG === 'fr' ? 'Comète le kangourou' : LANG === 'es' ? 'Cometa el canguro' : LANG === 'pt' ? 'Cometa, o canguru' : LANG === 'it' ? 'Cometa il canguro' : 'Comet the kangaroo') + '">' +
+    return '<svg class="ckg-roo-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Komet das Känguru' : LANG === 'fr' ? 'Comète le kangourou' : LANG === 'es' ? 'Cometa el canguro' : LANG === 'pt' ? 'Cometa, o canguru' : LANG === 'it' ? 'Cometa il canguro' : LANG === 'nl' ? 'Komeet de kangoeroe' : 'Comet the kangaroo') + '">' +
       '<path d="M30 80 q-6 -2 -2 -10 q4 -2 10 2 Z" fill="#B06A38"/>' +              /* tail */
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#C77E45"/>' +                 /* body */
       '<ellipse cx="50" cy="70" rx="12" ry="10" fill="#E6C39B"/>' +                 /* belly */
@@ -52,10 +52,10 @@
     id: 'comet-kangaroo-activity',
 
     strings: {
-      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru', fr: 'Comète le kangourou', es: 'Cometa el canguro', pt: 'Cometa, o canguru', it: 'Cometa il canguro' },
-      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.', fr: 'Comète fait un grand bond de 10 ou 100. Trouve où elle atterrit et tape le nombre.', es: 'Cometa da un gran salto de 10 o de 100. Descubre dónde cae y escribe el número.', pt: 'O Cometa dá um grande salto de 10 ou de 100. Descubra onde ele cai e digite o número.', it: 'Cometa fa un grande salto di 10 o di 100. Scopri dove atterra e digita il numero.' },
-      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?', fr: 'Combien font {hop} que {start} ?', es: '¿Cuánto es {hop} que {start}?', pt: 'Quanto é {hop} que {start}?', it: 'Quanto fa {hop} di {start}?' },
-      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.', fr: 'Seuls les dizaines ou les centaines changent — le chiffre des unités reste le même.', es: 'Solo cambian las decenas o las centenas; las unidades se quedan igual.', pt: 'Só mudam as dezenas ou as centenas; as unidades ficam iguais.', it: 'Cambiano solo le decine o le centinaia: le unità restano uguali.' }
+      title: { en: "Comet the Kangaroo", de: 'Komet das Känguru', fr: 'Comète le kangourou', es: 'Cometa el canguro', pt: 'Cometa, o canguru', it: 'Cometa il canguro', nl: 'Komeet de kangoeroe' },
+      instruction: { en: 'Comet makes a big leap of 10 or 100. Work out where she lands and type the number.', de: 'Komet macht einen großen Sprung von 10 oder 100. Finde heraus, wo es landet, und tippe die Zahl ein.', fr: 'Comète fait un grand bond de 10 ou 100. Trouve où elle atterrit et tape le nombre.', es: 'Cometa da un gran salto de 10 o de 100. Descubre dónde cae y escribe el número.', pt: 'O Cometa dá um grande salto de 10 ou de 100. Descubra onde ele cai e digite o número.', it: 'Cometa fa un grande salto di 10 o di 100. Scopri dove atterra e digita il numero.', nl: 'Komeet maakt een grote sprong van 10 of 100. Bereken waar ze landt en typ het getal.' },
+      prompt: { en: 'What is {hop} than {start}?', de: 'Wie viel ist {hop} als {start}?', fr: 'Combien font {hop} que {start} ?', es: '¿Cuánto es {hop} que {start}?', pt: 'Quanto é {hop} que {start}?', it: 'Quanto fa {hop} di {start}?', nl: 'Hoeveel is {hop} dan {start}?' },
+      hint: { en: 'Only the tens or hundreds change — the ones digit stays the same.', de: 'Nur die Zehner oder die Hunderter ändern sich – die Einer bleiben gleich.', fr: 'Seuls les dizaines ou les centaines changent — le chiffre des unités reste le même.', es: 'Solo cambian las decenas o las centenas; las unidades se quedan igual.', pt: 'Só mudam as dezenas ou as centenas; as unidades ficam iguais.', it: 'Cambiano solo le decine o le centinaia: le unità restano uguali.', nl: 'Alleen het tiental of honderdtal verandert — de eenheden blijven staan.' }
     },
     defaults: {},
 
@@ -148,7 +148,7 @@
     return (rounds || []).map(function (round, i) {
       return {
         id: 'comet-kangaroo.round-' + i, band: round.band || 1,
-        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : LANG === 'fr' ? (Math.abs(round.delta) + (round.delta > 0 ? ' de plus' : ' de moins')) : LANG === 'es' ? (Math.abs(round.delta) + (round.delta > 0 ? ' más' : ' menos')) : LANG === 'pt' ? (Math.abs(round.delta) + (round.delta > 0 ? ' a mais' : ' a menos')) : LANG === 'it' ? (Math.abs(round.delta) + (round.delta > 0 ? ' in più' : ' in meno')) : Core.hopWord(round)), start: round.start },
+        promptKey: 'prompt', promptArgs: { hop: (LANG === 'de' ? (Math.abs(round.delta) + (round.delta > 0 ? ' mehr' : ' weniger')) : LANG === 'fr' ? (Math.abs(round.delta) + (round.delta > 0 ? ' de plus' : ' de moins')) : LANG === 'es' ? (Math.abs(round.delta) + (round.delta > 0 ? ' más' : ' menos')) : LANG === 'pt' ? (Math.abs(round.delta) + (round.delta > 0 ? ' a mais' : ' a menos')) : LANG === 'it' ? (Math.abs(round.delta) + (round.delta > 0 ? ' in più' : ' in meno')) : LANG === 'nl' ? (Math.abs(round.delta) + (round.delta > 0 ? ' meer' : ' minder')) : Core.hopWord(round)), start: round.start },
         answerType: 'number', answerMin: 0, answerMax: 1000,
         setup: function (tool) { tool.setupTask(round); },
         check: function (tool, answer) { return Core.isAnswer(round, answer); },

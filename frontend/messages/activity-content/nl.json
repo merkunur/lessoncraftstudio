@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "roary-roar-meter.shades.l-2-5-b": {
+      "about": [
+        "Roary is een vriendelijke leeuw met een bijzonder apparaat: zijn brulmeter. De meter laat zien hoe hard een woord 'brult', oftewel hoe sterk het is. Zo maakt Roary iets zichtbaars van iets wat je normaal alleen voelt in de betekenis van een woord.",
+        "Elke ronde toont Roary drie woorden die op elkaar lijken, maar in sterkte verschillen, bijvoorbeeld 'fluisteren', 'praten' en 'schreeuwen'. Soms vraagt hij om het sterkste woord, soms om het zwakste. Het middelste woord is nooit het antwoord, en de vraag wisselt steeds, dus je moet elke keer opnieuw goed nadenken.",
+        "Er is geen klok, geen score en geen stress. Je speelt rustig in je eigen tempo en probeert het gewoon nog eens als je twijfelt. Zo oefen je spelenderwijs met woordenschat en betekenisnuances, aansluitend bij de SLO-kerndoelen Nederlands voor groep 4-5."
+      ],
+      "practices": [
+        "Betekenisnuances tussen woorden herkennen",
+        "Synoniemen ordenen van zwak naar sterk",
+        "Goed lezen voordat je een woord kiest",
+        "Je woordenschat uitbreiden"
+      ],
+      "howToPlay": [
+        "Lees de drie woorden op Roary's brulmeter.",
+        "Kijk of je het sterkste of het zwakste woord moet zoeken.",
+        "Tik op het juiste woord en ga door naar de volgende ronde."
+      ],
+      "learningGoals": [
+        "Je herkent dat woorden die op elkaar lijken toch in sterkte verschillen.",
+        "Je kunt synoniemen op volgorde van sterkte zetten.",
+        "Je breidt je woordenschat uit met verwante woorden."
+      ]
+    },
     "rusty-yesterday.irregular-past.l-2-1-d": {
       "about": [
         "Rusty is een vriendelijke robot met een bijzondere uitvinding: zijn gisteren-machine. Je krijgt een zin in de tegenwoordige tijd te zien, bijvoorbeeld 'Vandaag loop ik.', en dan vraagt Rusty: 'En gisteren …?' Jouw taak is om de juiste verleden tijd te kiezen, zodat er 'Gisteren liep ik.' komt te staan.",

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "wren-question-window.question-words.l-k-1-d": {
+      "about": [
+        "Wren is een klein, vrolijk vogeltje dat achter een gezellig raampje staat en bestellingen aanneemt. Bij Wrens vragenraam is elke bestelling eigenlijk een vraag — maar het allereerste woord van die vraag is weggevlogen. Jouw taak is om te bedenken welk vraagwoord er hoort.",
+        "Bij elke bestelling lees je de vraag rustig door en kijk je naar de lege plek vooraan. Daarna kies je het vraagwoord dat past: 'wie' voor een persoon, 'wat' voor een ding, 'waar' voor een plek, 'wanneer' voor een tijd, 'waarom' voor een reden en 'hoe' voor een manier. Tik het juiste woord aan en de vraag is weer compleet.",
+        "Er is geen klok, geen score en geen stress — je speelt gewoon op je eigen tempo. Zo oefen je spelenderwijs met vraagwoorden en met het begrijpen van hele zinnen, precies passend bij wat kinderen in groep 3 leren volgens de SLO-kerndoelen Nederlands."
+      ],
+      "practices": [
+        "Vraagwoorden herkennen in een zin",
+        "De juiste vraag leren stellen",
+        "Goed en nauwkeurig lezen",
+        "Wie, wat, waar, wanneer, waarom en hoe uit elkaar houden"
+      ],
+      "howToPlay": [
+        "Lees de bestelling van Wren en kijk naar de lege plek vooraan.",
+        "Bedenk welk vraagwoord past: wie, wat, waar, wanneer, waarom of hoe.",
+        "Tik het juiste vraagwoord aan om de vraag compleet te maken."
+      ],
+      "learningGoals": [
+        "Ik herken vraagwoorden en weet waar ze voor staan.",
+        "Ik kies het vraagwoord dat bij de zin past.",
+        "Ik lees een vraag goed en begrijp wat er gevraagd wordt."
+      ]
+    },
     "ziggy-odd-one-out.category.l-1-5-a": {
       "about": [
         "Ziggy is een vrolijke zebra die dol is op sorteren en nadenken over woorden. In dit spel laat hij je telkens vier plaatjes zien en vraagt hij je een slimme keuze te maken: welke hoort er niet bij?",

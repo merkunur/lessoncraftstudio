@@ -80,7 +80,8 @@
       "fr": "la-division-partage-et-groupement-ce1",
       "es": "division-como-reparto-repartir-partes-iguales-primaria",
       "pt": "divisao-repartir-agrupar-partes-iguais",
-      "it": "divisione-reparto-raggruppamento-parti-uguali-primaria"
+      "it": "divisione-reparto-raggruppamento-parti-uguali-primaria",
+      "nl": "delen-verdelen-en-groeperen-groep-4"
     },
     "page_title": {
       "en": "Maple's Bakery — Division: Sharing & Grouping (Grade 3)",
@@ -88,7 +89,8 @@
       "fr": "La division : partager et grouper – La boulangerie de Maple | CE1",
       "es": "Maple reparte galletas: la división como reparto para primaria",
       "pt": "Divisão: repartir e agrupar biscoitos — 3º ano com a Maple",
-      "it": "Divisione: reparto e raggruppamento – classe seconda con Maple"
+      "it": "Divisione: reparto e raggruppamento – classe seconda con Maple",
+      "nl": "Maples bakkerij – delen: verdelen en groeperen (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Maple the mouse divide the cookies. Share the cookies equally onto the plates and find how many go on each plate, or pack the cookies into boxes that each hold the same number and find how many boxes you need. A friendly, picture-first way to understand what a division answer means. Common Core 3.OA.A.2.",
@@ -96,7 +98,8 @@
       "fr": "Aide Maple la souris à partager les biscuits de sa boulangerie ! Deux façons de faire : partage les biscuits également sur les assiettes et trouve combien il y en a sur chaque assiette, ou range les biscuits dans des boîtes qui contiennent toutes le même nombre et trouve combien de boîtes il te faut. Une façon douce et imagée de comprendre ce que veut dire une division. Un jeu de CE1 sur le sens de la division. Gratuit et interactif.",
       "es": "Ayuda a Maple, la ratona, a repartir galletas en partes iguales y descubre la división como reparto. Actividad gratis e interactiva, sin registro, alineada a los Planes y programas de estudio (SEP).",
       "pt": "A Maple é uma ratinha padeira que precisa de ajuda para dividir os biscoitos da padaria dela. Em algumas rodadas você reparte os biscoitos igualmente nos pratos e descobre quantos ficam em cada prato; em outras, você agrupa os biscoitos em caixas de um tamanho fixo e descobre quantas caixas se enchem. Assim a criança vive a divisão como repartição e como agrupamento, tocando a resposta com calma. É uma atividade gratuita e interativa de matemática para o 3º ano, alinhada à BNCC.",
-      "it": "Maple è una topolina pasticcera che ha bisogno di aiuto per dividere i biscotti della sua pasticceria. In alcuni turni distribuisci i biscotti in parti uguali sui piatti e scopri quanti ne restano su ogni piatto; in altri raggruppi i biscotti in scatole da un numero fisso e scopri quante scatole si riempiono. Così il bambino vive la divisione nei suoi due significati — il reparto (“quanti su ogni piatto?”) e il raggruppamento (“quante scatole?”) — partendo sempre dalle immagini, con calma e senza fretta. È un’attività di matematica gratuita e interattiva, senza registrazione, senza timer e senza punteggio. Un modo semplice per avvicinarsi alla divisione nella scuola primaria, in linea con le Indicazioni nazionali."
+      "it": "Maple è una topolina pasticcera che ha bisogno di aiuto per dividere i biscotti della sua pasticceria. In alcuni turni distribuisci i biscotti in parti uguali sui piatti e scopri quanti ne restano su ogni piatto; in altri raggruppi i biscotti in scatole da un numero fisso e scopri quante scatole si riempiono. Così il bambino vive la divisione nei suoi due significati — il reparto (“quanti su ogni piatto?”) e il raggruppamento (“quante scatole?”) — partendo sempre dalle immagini, con calma e senza fretta. È un’attività di matematica gratuita e interattiva, senza registrazione, senza timer e senza punteggio. Un modo semplice per avvicinarsi alla divisione nella scuola primaria, in linea con le Indicazioni nazionali.",
+      "nl": "Help Maple de muis in haar bakkerij! Soms verdeel je de koekjes eerlijk over de bordjes en zoek je hoeveel er op elk bordje liggen; soms doe je de koekjes in doosjes van een vast aantal en zoek je hoeveel doosjes je nodig hebt. Zo oefen je delen op twee manieren – gratis en interactief, voor groep 4, aansluitend bij de SLO-kerndoelen rekenen."
     },
     "kid_prompt_template": "division"
   }

@@ -76,7 +76,8 @@
       "fr": "la-multiplication-en-groupes-egaux-ce1",
       "es": "multiplicacion-grupos-iguales-tablas-de-multiplicar-primaria",
       "pt": "multiplicacao-grupos-iguais-2-ano",
-      "it": "moltiplicazione-gruppi-uguali-classe-seconda"
+      "it": "moltiplicazione-gruppi-uguali-classe-seconda",
+      "nl": "vermenigvuldigen-groepjes-van-groep-4"
     },
     "page_title": {
       "en": "The Echo Grove — Read Multiplication as Equal Groups (Grade 3)",
@@ -84,7 +85,8 @@
       "fr": "Multiplication CE1 – exercice en ligne gratuit",
       "es": "Multiplicación como grupos iguales con Pim | Tablas de multiplicar",
       "pt": "Multiplicação como grupos iguais com a Pim | 2º ano",
-      "it": "Moltiplicazione a gruppi uguali con Pim | Tabelline classe 2ª"
+      "it": "Moltiplicazione a gruppi uguali con Pim | Tabelline classe 2ª",
+      "nl": "Pims echobos: vermenigvuldigen als gelijke groepen – groep 4"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: read Pim's rune (like 3 × 4) and tap the grove that shows 3 groups of 4 — not the look-alike with the same total but a different grouping. Children interpret a product as equal groups (the first factor = number of groups, the second = the size of each group). Common Core 3.OA.A.1.",
@@ -92,7 +94,8 @@
       "fr": "Exercice de multiplication CE1 en ligne : lire des groupes égaux et trouver le produit. Gratuit, en ligne, sans inscription.",
       "es": "Con el búho Pim, tu peque descubre la multiplicación como grupos iguales y da sus primeros pasos en las tablas de multiplicar. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
       "pt": "A coruja Pim mostra uma runa mágica, como “3 × 4”, e convida você a tocar o bosque que traz exatamente 3 grupos de 4 frutinhas. Cuidado com o sósia: ele tem o mesmo total, mas os grupos estão arrumados de outro jeito — inclusive o gêmeo “4 × 3”, com 4 grupos de 3. É uma atividade gratuita e interativa para aprender a multiplicação como grupos iguais, pensada para o 2º ano e alinhada à BNCC.",
-      "it": "Il gufo Pim mostra una runa magica, come “3 × 4”, e ti invita a toccare il boschetto che mostra esattamente 3 gruppi da 4 frutti. Attento al sosia: ha lo stesso totale, ma i gruppi sono disposti in un altro modo — compreso il gemello “4 × 3”, con 4 gruppi da 3. Il primo numero dice quanti gruppi ci sono, il secondo quanti frutti stanno in ogni gruppo: leggere i gruppi, non fare il conto, è tutto il gioco. È un’attività gratuita e interattiva, senza registrazione e senza punteggio, pensata per la classe seconda e in linea con le Indicazioni nazionali."
+      "it": "Il gufo Pim mostra una runa magica, come “3 × 4”, e ti invita a toccare il boschetto che mostra esattamente 3 gruppi da 4 frutti. Attento al sosia: ha lo stesso totale, ma i gruppi sono disposti in un altro modo — compreso il gemello “4 × 3”, con 4 gruppi da 3. Il primo numero dice quanti gruppi ci sono, il secondo quanti frutti stanno in ogni gruppo: leggere i gruppi, non fare il conto, è tutto il gioco. È un’attività gratuita e interattiva, senza registrazione e senza punteggio, pensata per la classe seconda e in linea con le Indicazioni nazionali.",
+      "nl": "Pim de uil laat je in zijn echobos een toverteken zien, bijvoorbeeld 3 × 4. Tik op het bosje met precies 3 groepjes van 4 — niet op de tweeling met 4 groepjes van 3, met hetzelfde totaal maar anders gegroepeerd. Het eerste getal zegt hoeveel groepjes, het tweede hoeveel er in elk groepje zitten. Gratis en interactief voor groep 4, volgens de SLO-kerndoelen rekenen."
     },
     "kid_prompt_template": "match-the-rune"
   }

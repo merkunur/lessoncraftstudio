@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "rusty-yesterday.irregular-past.l-2-1-d": {
+      "about": [
+        "Rusty is een vriendelijke robot met een bijzondere uitvinding: zijn gisteren-machine. Je krijgt een zin in de tegenwoordige tijd te zien, bijvoorbeeld 'Vandaag loop ik.', en dan vraagt Rusty: 'En gisteren …?' Jouw taak is om de juiste verleden tijd te kiezen, zodat er 'Gisteren liep ik.' komt te staan.",
+        "Deze activiteit oefent de verleden tijd van sterke (onregelmatige) werkwoorden. Bij sterke werkwoorden verandert de klinker in de verleden tijd: lopen wordt liep, zwemmen wordt zwom en geven wordt gaf. Ze krijgen dus géén gewone -te of -de erachter. Een veelgemaakte fout is dat kinderen 'loopte' of 'zwemde' zeggen; die verzonnen vormen staan expres tussen de keuzes, zodat je leert het verschil te horen en te zien.",
+        "Er is geen klok, geen score en geen stress. Je werkt rustig in je eigen tempo en mag zo vaak proberen als je wilt. De oefening past bij de SLO-kerndoelen Nederlands en is bedoeld voor groep 5."
+      ],
+      "practices": [
+        "De verleden tijd van sterke werkwoorden herkennen",
+        "Zien dat de klinker verandert: loop wordt liep",
+        "De verzonnen vorm 'loopte' als fout herkennen",
+        "De tegenwoordige tijd en de verleden tijd uit elkaar houden"
+      ],
+      "howToPlay": [
+        "Lees de zin van vandaag, bijvoorbeeld 'Vandaag loop ik.'",
+        "Rusty vraagt: 'En gisteren …?' – bekijk de drie keuzes.",
+        "Tik op de juiste verleden tijd, zoals liep."
+      ],
+      "learningGoals": [
+        "Sterke werkwoorden correct in de verleden tijd zetten",
+        "Begrijpen dat de klinker verandert in plaats van -te of -de",
+        "De fout van overregelmatiging ('loopte') vermijden"
+      ]
+    },
     "wally-capital-crane.special-names.l-2-2-a": {
       "about": [
         "Wally de walrus bestuurt een grote kraan, en die kraan kan iets bijzonders: hij tilt een kleine letter op tot een hoofdletter. Je kind leest een korte zin waarin één woord een eigennaam is die nog met een kleine letter geschreven staat. Tik op dat woord, en Wally's kraan hijst de letter omhoog – zo wordt 'tim' in één beweging 'Tim'.",

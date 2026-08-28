@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "ziggy-odd-one-out.category.l-1-5-a": {
+      "about": [
+        "Ziggy is een vrolijke zebra die dol is op sorteren en nadenken over woorden. In dit spel laat hij je telkens vier plaatjes zien en vraagt hij je een slimme keuze te maken: welke hoort er niet bij?",
+        "Van de vier plaatjes horen er drie in dezelfde groep, bijvoorbeeld allemaal dieren, allemaal eten of allemaal planten. Eentje past er niet tussen. Jij tikt op het plaatje dat er als enige niet bij hoort, en Ziggy laat je meteen weten of je het goed hebt.",
+        "Er is geen klok, geen score en geen stress. Je speelt lekker in je eigen tempo en breidt spelenderwijs je woordenschat uit terwijl je leert categoriseren. Zo sluit het spel mooi aan bij wat kinderen in groep 3 oefenen binnen de SLO-kerndoelen Nederlands."
+      ],
+      "practices": [
+        "Dingen in categorieën indelen",
+        "Woordvelden herkennen (dieren, eten, planten…)",
+        "De vreemde eend eruit halen",
+        "Je woordenschat uitbreiden"
+      ],
+      "howToPlay": [
+        "Bekijk de vier plaatjes die Ziggy laat zien.",
+        "Zoek de drie die bij elkaar horen in dezelfde groep.",
+        "Tik op het plaatje dat er niet bij hoort."
+      ],
+      "learningGoals": [
+        "Woorden en plaatjes in de juiste categorie plaatsen.",
+        "Overeenkomsten en verschillen tussen woorden zien.",
+        "Nieuwe woorden leren en onthouden binnen een woordveld."
+      ]
+    },
     "roary-roar-meter.shades.l-2-5-b": {
       "about": [
         "Roary is een vriendelijke leeuw met een bijzonder apparaat: zijn brulmeter. De meter laat zien hoe hard een woord 'brult', oftewel hoe sterk het is. Zo maakt Roary iets zichtbaars van iets wat je normaal alleen voelt in de betekenis van een woord.",

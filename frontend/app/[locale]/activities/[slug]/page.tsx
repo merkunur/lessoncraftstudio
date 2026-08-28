@@ -224,7 +224,7 @@ const STRAND_OVERRIDE: Record<string, Record<string, string>> = {
   'rusty-yesterday.irregular-past.l-2-1-d': { fr: 'La conjugaison' },      // FR: le passé composé = conjugaison, its own named strand at l'école élémentaire (finer than the « Étude de la langue » umbrella; DE stays default « Sprache untersuchen »)
   'roary-roar-meter.shades.l-2-5-b': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario', pt: 'Ampliação do vocabulário', it: 'Lessico', nl: 'Woordenschat en woordvorming' }, // Bedeutungsnuancen = vocabulary work, not grammar; FR: les nuances de sens = le lexique; ES matices de significado = léxico (like #22 affix / #26 sage / #27 olive), NOT "Reflexión sobre la lengua"; IT le sfumature di significato = Lessico (area «Acquisizione ed espansione del lessico»), NOT «Riflessione linguistica»; NL betekenisnuances = woordenschat/betekenisrelaties, NIET grammatica (= #22/#26/#27)
   'ziggy-odd-one-out.category.l-1-5-a': { de: 'Wortschatz untersuchen', fr: 'Le lexique', es: 'Ampliación del vocabulario', pt: 'Ampliação do vocabulário', it: 'Lessico', nl: 'Woordenschat en woordvorming' }, // Wortfelder/Kategorien = vocabulary work, not grammar; FR: trouver l'intrus = le lexique; ES categorización/campos semánticos = léxico (like #22/#26/#27/#34), NOT "Reflexión sobre la lengua"; IT le categorie/campi semantici = Lessico (area «Acquisizione ed espansione del lessico»); NL woordvelden/categoriseren = woordenschat, NIET grammatica (= #22/#26/#27/#34)
-  'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen', pt: 'Números' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"; PT: BNCC unidade temática „Números" (arredondamento)
+  'halfway-harbors.nearest.3-nbt-a-1': { de: 'Zahlen und Operationen', pt: 'Números', nl: 'Getallen' },  // Runden = KMK Leitidee „Zahlen und Operationen", broader than the auto-localized „…Zehnersystem"; PT: BNCC unidade temática „Números" (arredondamento); NL SLO-domein „Getallen" (afronden = getalbegrip/positie-op-de-lijn, NIET bewerkingen; breder dan de auto „Getallen en het tientallig stelsel")
   'echo-grove.match-the-rune.3-oa-a-1': { de: 'Zahlen und Operationen', pt: 'Números' }, // Multiplikation = KMK Leitidee „Zahlen und Operationen"; literal „Rechnen und algebraisches Denken" reads wrong (Sekundarstufe term); PT: BNCC unidade temática „Números" (auto-map → „Álgebra" está errado; Álgebra=padrões no 2º ano)
   'maple-bakery.share.3-oa-a-2': { de: 'Zahlen und Operationen', pt: 'Números' },        // Division = same KMK Leitidee „Zahlen und Operationen" (pairs with multiplication); PT: BNCC unidade temática „Números" (auto-map → „Álgebra" está errado; Álgebra=padrões no 3º ano)
   'winter-piles.draw-partition.2-oa-c-4': { de: 'Zahlen und Operationen', pt: 'Números' }, // Punktefeld/wiederholte Addition = foundation of multiplication, same Leitidee; PT: BNCC unidade temática „Números" (adição de parcelas iguais, EF02MA07; auto-map → „Álgebra" está errado, Álgebra=padrões no 2º ano)
@@ -558,7 +558,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.599';
+  const ACTIVITY_WRAPPER_VERSION = '9.600';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

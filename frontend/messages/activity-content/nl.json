@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "bram-board-shop.length-word-problems.2-md-b-5": {
+      "about": [
+        "Bram de bever heeft een gezellige houtwerkplaats waar hij de hele dag planken zaagt en linten op maat maakt. Bij elke ronde vertelt Bram een korte verhaalsom over lengtes: twee stukken worden samen zo lang, een stuk wordt van een plank afgezaagd, of het ene lint is zoveel langer dan het andere. Jij leest de som, legt de bekende lengtes op de meetlat en zoekt de lengte die nog ontbreekt.",
+        "De gezochte lengte staat niet altijd op dezelfde plek: mal aan het eind, mal in het midden, en mal aan het begin – dan reken je de som eigenlijk omgekeerd terug. Zo oefen je optellen, aftrekken en vergelijken tot 100 in echte centimeters. Doordat je de lengtes op de getallenlijn zichtbaar maakt, ga je zo'n verhaalsom – ook wel redactiesom genoemd – écht begrijpen in plaats van alleen een kale som uit te rekenen. Dit past mooi bij het rekenen met lengtes in groep 4 volgens de SLO-doelen.",
+        "Er is geen klok, geen score en geen stress. Je werkt rustig in je eigen tempo en probeert gewoon opnieuw als het niet meteen lukt. Helemaal gratis, zo vaak als je wilt."
+      ],
+      "practices": [
+        "Verhaalsommen over lengtes lezen en op de getallenlijn modelleren",
+        "Optellen en aftrekken tot 100 met centimeters",
+        "De onbekende lengte op elke positie vinden: aan het eind, in het midden of aan het begin",
+        "Lengtes vergelijken en het verschil bepalen: hoeveel langer of korter"
+      ],
+      "howToPlay": [
+        "Lees Brams verhaalsom en zoek op welke lengtes je al weet.",
+        "Leg de bekende lengtes op de meetlat en kijk waar de gezochte lengte hoort.",
+        "Tik het ontbrekende aantal centimeters in en controleer je antwoord."
+      ],
+      "learningGoals": [
+        "Ik kan een verhaalsom over lengtes lezen en op een getallenlijn weergeven.",
+        "Ik kan lengtes tot 100 cm optellen, aftrekken en vergelijken.",
+        "Ik kan de ontbrekende lengte vinden, ook als ik de som omgekeerd moet terugrekenen."
+      ]
+    },
     "gauge-good-guess.estimate.2-md-a-3": {
       "about": [
         "Geit Maatje schat alle lengtes met het oog. Je krijgt vragen als 'Hoe lang is een mier ongeveer?' of 'Hoe hoog is een deur ongeveer?' en kiest uit drie schattingen – bijvoorbeeld '1 cm', '12 cm' of '2 m' – de meest zinnige. Zo ga je stap voor stap van zomaar gokken naar beredeneerd schatten.",

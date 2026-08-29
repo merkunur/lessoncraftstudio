@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "tildy.measure-ruler.2-md-a-1": {
+      "about": [
+        "In Fiens naaiatelier ligt de werktafel vol linten, koorden, garen en stukjes leer. Fien wil alles precies op maat knippen, dus eerst meten! Haar poes Knoop springt steeds op de tafel en duwt de liniaal een stukje weg — jij mag hem telkens netjes terugleggen voordat je begint te meten.",
+        "Goed meten begint bij goed leggen: schuif de liniaal zo dat de 0 precies op het begin van het lint ligt, en lees dan aan het andere eind af hoeveel centimeter het is. Veel kinderen beginnen per ongeluk bij de 1 in plaats van bij de 0 — ook wel een meetfout genoemd — en meten zo een hele centimeter te kort. Hier leer je die fout zelf herkennen en vermijden, ook als de liniaal kapot is of pas bij de 2 begint. Dit sluit aan bij de SLO-kerndoelen voor meten en meetkunde voor groep 4.",
+        "Geen klok, geen score, geen stress. Je werkt rustig op je eigen tempo, net als in een echte werkplaats, en je mag zo vaak opnieuw meten als je wilt. Helemaal gratis."
+      ],
+      "practices": [
+        "De 0 van de liniaal op het begin van het lint leggen",
+        "Aflezen in hele centimeters aan het andere eind",
+        "De meetfout herkennen en vermijden (begin bij de 0, niet de 1)",
+        "Meten met een kapotte of verschoven liniaal en een lang genoeg liniaal kiezen"
+      ],
+      "howToPlay": [
+        "Schuif de liniaal tot de 0 precies bij het begin van het lint ligt",
+        "Tik op \"Meten ✂️\"",
+        "Lees de centimeters aan het andere eind af en tik het getal aan"
+      ],
+      "learningGoals": [
+        "Je kunt de liniaal goed leggen met de 0 op het startpunt",
+        "Je kunt een lengte in hele centimeters aflezen en noteren",
+        "Je begrijpt waarom je bij de 0 begint en niet bij de 1"
+      ]
+    },
     "vet-diagnosis.word-problems.1-oa-a-1": {
       "about": [
         "In de behandelkamer wacht een dierenpatiënt op jou. Zijn 'symptoom' is een klein rekenverhaal: een verhaaltje waarin getallen iets doen. In het röntgenvenster verschijnt het bijpassende model dat laat zien wat er gebeurt — wat was er eerst, wat veranderde er, en wat komt er uiteindelijk uit? Jij leest het verhaal, legt de getallen op hun plek en markeert precies daar waar het raadsel zit.",

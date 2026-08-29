@@ -30,7 +30,8 @@
       "fr": "le-perimetre-la-distance-autour-cm1",
       "es": "perimetro-y-area-figuras-geometria-3-primaria",
       "pt": "perimetro-e-area-contorno-cerca-3-ano",
-      "it": "perimetro-e-area-geometria-classe-terza"
+      "it": "perimetro-e-area-geometria-classe-terza",
+      "nl": "hazel-de-das-omtrek-en-oppervlakte-rechthoek-groep-5"
     },
     "page_title": {
       "en": "The Mending Fences — Perimeter: the Distance Around (Grade 3)",
@@ -38,7 +39,8 @@
       "fr": "Hazel répare les clôtures : le périmètre, la distance tout autour (CM1)",
       "es": "Perímetro y área con Hazel el tejón — Geometría 3.º primaria",
       "pt": "Perímetro e área com o texugo Hazel — cerca e grama, 3º ano",
-      "it": "Perimetro e area con il tasso Hazel — geometria classe terza"
+      "it": "Perimetro e area con il tasso Hazel — geometria classe terza",
+      "nl": "Omtrek & oppervlakte groep 5 – Hazel de das repareert de hekken"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 math activity: help Hazel the badger mend the paddock fences and tell fencing the edge from planting the grass inside. Perimeter is the distance all the way around a shape — a length, not the space it covers. Mend a missing fence board when you know the whole fence and one side, judge which field needs more fence but grows less grass, tell the around-the-edge marks from the squares inside, and check whether a roll of fence reaches around. Common Core 3.MD.D.8.",
@@ -46,7 +48,8 @@
       "fr": "Un jeu de maths CM1, gratuit et interactif : aide Hazel le blaireau à réparer les clôtures des prés et à distinguer clôturer le bord de planter l'herbe à l'intérieur. Le périmètre, c'est la distance tout autour d'une figure — une longueur, pas la place qu'elle occupe. Répare une planche de clôture qui manque quand tu connais la clôture entière et un côté, dis quel champ a besoin de plus de clôture mais fait pousser moins d'herbe, distingue les marques du bord des carrés à l'intérieur, et vérifie si un rouleau de clôture fait le tour.",
       "es": "Hazel, el tejón, arregla cercas para enseñar perímetro y área contando, sin fórmulas: geometría para 3.º de primaria. Actividad gratis e interactiva, sin registro, alineada a los Planes y programas de estudio (SEP).",
       "pt": "O texugo Hazel conserta as cercas dos campos e, de quebra, ensina a diferença entre perímetro e área — sem fórmula nenhuma, só contando. A criança repara um pedaço de cerca que está faltando, compara dois campos para ver qual precisa de mais cerca em volta e qual tem mais grama por dentro, e escolhe se conta as marcas da borda ou os quadradinhos de dentro. É uma atividade gratuita e interativa de perímetro e área para o 3º ano, alinhada à BNCC.",
-      "it": "Il tasso Hazel ripara le staccionate dei campi e, così facendo, insegna la differenza tra perimetro e area — senza nessuna formula, solo contando. Il bambino rimette al suo posto la tavola di staccionata che manca, poi confronta due campi per scoprire quale ha più staccionata tutto intorno e quale fa crescere più erba dentro. Impara a distinguere i segni del bordo — il giro tutto intorno, cioè una lunghezza — dai quadretti dentro, che sono lo spazio: l’area. È un’attività di perimetro e area gratuita e interattiva, da giocare nel browser, senza registrazione, senza timer e senza punteggio. Pensata per la classe terza e allineata alle Indicazioni nazionali."
+      "it": "Il tasso Hazel ripara le staccionate dei campi e, così facendo, insegna la differenza tra perimetro e area — senza nessuna formula, solo contando. Il bambino rimette al suo posto la tavola di staccionata che manca, poi confronta due campi per scoprire quale ha più staccionata tutto intorno e quale fa crescere più erba dentro. Impara a distinguere i segni del bordo — il giro tutto intorno, cioè una lunghezza — dai quadretti dentro, che sono lo spazio: l’area. È un’attività di perimetro e area gratuita e interattiva, da giocare nel browser, senza registrazione, senza timer e senza punteggio. Pensata per la classe terza e allineata alle Indicazioni nazionali.",
+      "nl": "Wat is omtrek? Hazel de das repareert de weilandhekken, en jij helpt mee. Zo leer je spelenderwijs het verschil tussen omtrek (het hek helemaal rondom) en oppervlakte (het gras binnenin) – gewoon door tellen en vergelijken, zonder formules. Vijf soorten opdrachten, meten en meetkunde voor groep 5. Gratis en interactief."
     },
     "kid_prompt_template": "perimeter"
   }

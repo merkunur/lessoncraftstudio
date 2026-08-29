@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "fox-forge.fraction.3-nf-a-1": {
+      "about": [
+        "In de warme chocoladewerkplaats van Bram staan de malletjes klaar en pruttelt de chocola zachtjes op het vuur. Er komt een bestelling binnen, en jij mag hem vullen: kies het juiste stukje, giet het net zo vaak als nodig op de reep, en geef de bestelling netjes af. Geen haast — je bouwt elke breuk rustig op, stukje voor stukje.",
+        "Terwijl je de bestellingen vult, ontdek je hoe breuken in elkaar zitten. Een breuk zoals ¾ is gewoon drie keer het stukje ¼ — ook wel een stambreuk genoemd — dus je legt drie gelijke stukjes samen tot je bij ¾ bent. Daarbij let je op gelijke delen: alleen een eerlijke mal verdeelt de reep in even grote stukken. Je merkt ook dat hetzelfde deel van een grótere reep méér chocola is, en dat dezelfde breuk op een andere vorm — een reep of een pizza — precies evenveel blijft. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen met breuken voor groep 5.",
+        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo en probeert rustig zo vaak als je wilt — een fout is gewoon een kans om het nog eens te bekijken. De hele chocoladewerkplaats is en blijft gratis te spelen."
+      ],
+      "practices": [
+        "Stambreuken zoals ½, ⅓ en ¼ herkennen als deel van een geheel",
+        "Een breuk a/b bouwen door a gelijke stukjes samen te leggen (¾ = drie keer ¼)",
+        "Letten op gelijke delen: alleen een eerlijke mal verdeelt de reep eerlijk",
+        "Snappen dat dezelfde breuk van een grotere reep méér is, en dat een breuk op reep en pizza dezelfde hoeveelheid blijft"
+      ],
+      "howToPlay": [
+        "Kies het juiste stukje chocola op grootte",
+        "Giet het net zo vaak als de bestelling vraagt",
+        "Geef de bestelling af en tik op Controleer"
+      ],
+      "learningGoals": [
+        "Je begrijpt dat een breuk a/b bestaat uit a gelijke stukjes van 1/b",
+        "Je verdeelt een geheel in gelijke delen en herkent stambreuken",
+        "Je ziet dat dezelfde breuk op een andere vorm of grootte hetzelfde deel blijft, maar niet altijd evenveel chocola"
+      ]
+    },
     "tildy.measure-ruler.2-md-a-1": {
       "about": [
         "In Fiens naaiatelier ligt de werktafel vol linten, koorden, garen en stukjes leer. Fien wil alles precies op maat knippen, dus eerst meten! Haar poes Knoop springt steeds op de tafel en duwt de liniaal een stukje weg — jij mag hem telkens netjes terugleggen voordat je begint te meten.",

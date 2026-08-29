@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "gauge-good-guess.estimate.2-md-a-3": {
+      "about": [
+        "Geit Maatje schat alle lengtes met het oog. Je krijgt vragen als 'Hoe lang is een mier ongeveer?' of 'Hoe hoog is een deur ongeveer?' en kiest uit drie schattingen – bijvoorbeeld '1 cm', '12 cm' of '2 m' – de meest zinnige. Zo ga je stap voor stap van zomaar gokken naar beredeneerd schatten.",
+        "De kern is dat je een goed maatgevoel opbouwt met referentiematen die je al kent: een liniaal is ongeveer 30 cm en een deur is ongeveer 2 meter hoog. Je leert ook het verschil tussen centimeter en meter en wanneer je welke maat gebruikt. Dat past bij het SLO-domein meten en meetkunde voor groep 5.",
+        "Er is geen klok, geen score en geen stress. Je werkt lekker in je eigen tempo en mag zo vaak schatten als je wilt. De activiteit is helemaal gratis."
+      ],
+      "practices": [
+        "Lengtes zinnig schatten in cm of meter",
+        "Maatgevoel opbouwen met referentiematen",
+        "Centimeter en meter onderscheiden en bij de juiste situatie kiezen",
+        "Alledaagse voorwerpen op grootte inschatten"
+      ],
+      "howToPlay": [
+        "Lees de vraag en stel je het echte voorwerp voor",
+        "Bekijk de drie schattingen in cm of meter",
+        "Tik de meest zinnige schatting aan"
+      ],
+      "learningGoals": [
+        "Je schat lengtes en hoogtes met een zinnige maat",
+        "Je gebruikt referentiematen om beter te schatten",
+        "Je kiest de juiste eenheid: centimeter of meter"
+      ]
+    },
     "mending-fences.mend-board.3-md-d-8": {
       "about": [
         "Hazel de das houdt de weilandhekken heel. In vijf soorten opdrachten help je haar: een ontbrekende hekplank vinden; twee weilanden vergelijken (welk heeft meer hek nodig, en welk laat meer gras groeien?); de juiste eenheid kiezen (de streepjes langs de rand voor de omtrek of de vakjes binnenin voor de oppervlakte); ontdekken of een rol hek helemaal rondom reikt; en kijken welk weiland bij hetzelfde gras toch meer hek nodig heeft.",

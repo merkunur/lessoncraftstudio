@@ -27,7 +27,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -36,17 +36,17 @@
     id: 'track-repair-activity',
 
     strings: {
-      title: { en: 'Whistle Valley', de: 'Pfeiftal', fr: 'La vallée du Sifflet', es: 'El Valle del Silbato', pt: 'Vale do Apito', it: 'La valle del Fischio' },
-      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '' },
-      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!', fr: 'Pose chaque traverse à la bonne place !', es: '¡Coloca cada durmiente en su lugar!', pt: 'Coloque cada dormente no lugar certo!', it: 'Metti ogni traversina al punto giusto!' },
-      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂', fr: 'Envoie le train ! 🚂', es: '¡Arranca el tren! 🚂', pt: 'Lá vai o trenzinho! 🚂', it: 'Fai partire il treno! 🚂' },
-      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.', fr: 'Chaque traverse va là où se trouve son nombre.', es: 'Cada durmiente va donde le toca su número.', pt: 'Cada dormente fica onde manda o seu número.', it: 'Una traversina va dove sta il suo numero.' },
-      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ', fr: 'En voiture !  ', es: '¡Todos a bordo! ', pt: 'Todo mundo a bordo! ', it: 'Tutti in carrozza! ' },
-      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.', fr: 'Pas encore — le train attend toujours.', es: 'Todavía no: el tren sigue esperando.', pt: 'Ainda não: o trem continua esperando.', it: 'Non ancora, il treno aspetta ancora.' },
-      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.', fr: 'Touche une traverse, puis touche l’endroit de la voie où elle va.', es: 'Toca un durmiente y luego toca el lugar donde va.', pt: 'Toque um dormente e depois toque o lugar dele.', it: 'Tocca una traversina, poi tocca il binario nel punto giusto.' },
-      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!', fr: 'Pose toutes les traverses, puis envoie le train !', es: '¡Coloca todos los durmientes y arranca el tren!', pt: 'Coloque todos os dormentes e mande o trem!', it: 'Posa tutte le traversine, poi fai partire il treno!' },
-      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}', fr: 'traverse {n}', es: 'durmiente {n}', pt: 'dormente {n}', it: 'traversina {n}' },
-      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen', fr: '{n}, posée — touche pour la reprendre', es: '{n}, colocado — toca para levantarlo otra vez', pt: '{n}, colocado — toque para levantar de novo', it: '{n}, posata, tocca per riprenderla' }
+      title: { en: 'Whistle Valley', de: 'Pfeiftal', fr: 'La vallée du Sifflet', es: 'El Valle del Silbato', pt: 'Vale do Apito', it: 'La valle del Fischio', nl: 'Fluitdal' },
+      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '', nl: '' },
+      prompt: { en: 'Lay the track to scale!', de: 'Leg jede Schwelle an die richtige Stelle!', fr: 'Pose chaque traverse à la bonne place !', es: '¡Coloca cada durmiente en su lugar!', pt: 'Coloque cada dormente no lugar certo!', it: 'Metti ogni traversina al punto giusto!', nl: 'Leg elke biels op de juiste plek!' },
+      send: { en: 'Send the train! 🚂', de: 'Schick den Zug los! 🚂', fr: 'Envoie le train ! 🚂', es: '¡Arranca el tren! 🚂', pt: 'Lá vai o trenzinho! 🚂', it: 'Fai partire il treno! 🚂', nl: 'Laat de trein rijden! 🚂' },
+      engineListen: { en: 'A tie goes where its number belongs.', de: 'Jede Schwelle gehört dorthin, wo ihre Zahl steht.', fr: 'Chaque traverse va là où se trouve son nombre.', es: 'Cada durmiente va donde le toca su número.', pt: 'Cada dormente fica onde manda o seu número.', it: 'Una traversina va dove sta il suo numero.', nl: 'Elke biels hoort daar waar zijn getal staat.' },
+      engineWin: { en: 'All aboard! ', de: 'Alle einsteigen! ', fr: 'En voiture !  ', es: '¡Todos a bordo! ', pt: 'Todo mundo a bordo! ', it: 'Tutti in carrozza! ', nl: 'Alle instappen! ' },
+      engineWait: { en: "Not yet — the train's still waiting.", de: 'Noch nicht – der Zug wartet noch.', fr: 'Pas encore — le train attend toujours.', es: 'Todavía no: el tren sigue esperando.', pt: 'Ainda não: o trem continua esperando.', it: 'Non ancora, il treno aspetta ancora.', nl: 'Nog niet – de trein wacht nog.' },
+      tapToPlace: { en: 'Tap a tie, then tap the track where it belongs.', de: 'Tippe auf eine Schwelle und dann auf die Stelle, wo sie hingehört.', fr: 'Touche une traverse, puis touche l’endroit de la voie où elle va.', es: 'Toca un durmiente y luego toca el lugar donde va.', pt: 'Toque um dormente e depois toque o lugar dele.', it: 'Tocca una traversina, poi tocca il binario nel punto giusto.', nl: 'Tik op een biels en dan op de plek op de rails waar hij hoort.' },
+      hintCheck: { en: 'Lay every tie, then send the train!', de: 'Leg alle Schwellen, dann schick den Zug los!', fr: 'Pose toutes les traverses, puis envoie le train !', es: '¡Coloca todos los durmientes y arranca el tren!', pt: 'Coloque todos os dormentes e mande o trem!', it: 'Posa tutte le traversine, poi fai partire il treno!', nl: 'Leg alle bielzen en laat dan de trein rijden!' },
+      ariaTie: { en: 'tie {n}', de: 'Schwelle {n}', fr: 'traverse {n}', es: 'durmiente {n}', pt: 'dormente {n}', it: 'traversina {n}', nl: 'biels {n}' },
+      ariaPlaced: { en: '{n}, placed — tap to pick up again', de: '{n}, gelegt – zum Aufheben tippen', fr: '{n}, posée — touche pour la reprendre', es: '{n}, colocado — toca para levantarlo otra vez', pt: '{n}, colocado — toque para levantar de novo', it: '{n}, posata, tocca per riprenderla', nl: '{n}, gelegd – tik om weer op te pakken' }
     },
     defaults: {},
 

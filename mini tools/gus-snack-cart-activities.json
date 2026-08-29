@@ -358,6 +358,16 @@
             "op": "+",
             "story": "Gus aveva 19 ciliegie. Ne ha aggiunte 47 in più."
           }
+        ],
+        "nl": [
+          {"id":"r1","band":1,"a":45,"b":8,"op":"-","story":"Gus had 45 nootjes. Hij verkocht er 8."},
+          {"id":"r2","band":1,"a":23,"b":15,"op":"+","story":"Gus had 23 besjes. Hij plukte er 15 bij."},
+          {"id":"r3","band":2,"a":60,"b":25,"op":"-","story":"Gus had 60 zaadjes. Hij verkocht er 25."},
+          {"id":"r4","band":2,"a":34,"b":9,"op":"+","story":"Gus had 34 eikels. Hij vond er 9 bij."},
+          {"id":"r5","band":1,"a":70,"b":40,"op":"-","story":"Gus had 70 worteltjes. Hij gaf er 40 weg."},
+          {"id":"r6","band":3,"a":27,"b":36,"op":"+","story":"Gus had 27 appels. Hij pakte er 36 bij in."},
+          {"id":"r7","band":2,"a":88,"b":16,"op":"-","story":"Gus had 88 pruimen. Hij verkocht er 16."},
+          {"id":"r8","band":3,"a":19,"b":47,"op":"+","story":"Gus had 19 kersen. Hij deed er 47 bij."}
         ]
       }
     },
@@ -368,7 +378,8 @@
       "fr": "additionner-et-soustraire-jusqu-a-100-ce1",
       "es": "sumar-y-restar-hasta-100-problemas-suma-resta-2-primaria",
       "pt": "somar-e-subtrair-ate-100-2-ano",
-      "it": "addizioni-e-sottrazioni-entro-il-100-con-gus-classe-seconda"
+      "it": "addizioni-e-sottrazioni-entro-il-100-con-gus-classe-seconda",
+      "nl": "optellen-en-aftrekken-tot-100-groep-4"
     },
     "page_title": {
       "en": "Gus's Snack Cart — Add & Subtract Within 100 (Grade 2)",
@@ -376,7 +387,8 @@
       "fr": "Additions CE1 jusqu'à 100 – exercice en ligne",
       "es": "El carrito de Gus: sumar y restar hasta 100 (2.º de primaria)",
       "pt": "Somar e subtrair até 100: a conta do Gus | 2º ano",
-      "it": "Addizioni e sottrazioni entro il 100 con Gus | Classe seconda"
+      "it": "Addizioni e sottrazioni entro il 100 con Gus | Classe seconda",
+      "nl": "Optellen en aftrekken tot 100 met Gus – online oefenen (groep 4)"
     },
     "page_intro": {
       "en": "Gus the gopher runs a busy snack cart — he is always restocking and selling! Read each little story, look at the number sentence, and add or subtract within 100 to find the answer. Type it on the keypad. A Grade 2 math game about adding and subtracting two-digit numbers fluently, aligned to Common Core 2.NBT.B.5.",
@@ -384,7 +396,8 @@
       "fr": "Additions CE1 en ligne : additionner et soustraire jusqu'à 100 avec le stand de Gus. Gratuit, en ligne, sans inscription.",
       "es": "Ayuda a Gus, la ardilla, en su carrito de botanas: tu peque suma y resta hasta 100 con reagrupación, ideal para 2.º de primaria. Actividad gratis, interactiva y sin registro, alineada a los Planes y programas de estudio (SEP).",
       "pt": "O Gus é um esquilo que cuida de um carrinho de lanches — e a cada rodada ele repõe o estoque ou faz uma venda. Seu filho lê a historinha, monta a conta e digita o resultado, somando e subtraindo até 100, com e sem reagrupamento. Uma atividade de 2º ano alinhada à BNCC, gratuita e interativa, para praticar no ritmo de cada criança.",
-      "it": "Allo scoiattolo Gus, gran raccoglitore di noci e ghiande, serve una mano al suo carretto degli spuntini: c’è sempre qualcosa da rifornire o da vendere! In ogni round leggi una piccola storia, guardi l’operazione e calcoli entro il 100: aggiungi quello che Gus raccoglie, togli quello che vende, poi digiti la risposta sulla tastierina. Un modo concreto e giocoso per allenare il calcolo con i numeri a due cifre, riconoscere quando sommare e quando sottrarre e guadagnare fluidità passo dopo passo. L’attività è gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo tempo sereno per pensare e provare. Pensata per la classe seconda e allineata alle Indicazioni nazionali."
+      "it": "Allo scoiattolo Gus, gran raccoglitore di noci e ghiande, serve una mano al suo carretto degli spuntini: c’è sempre qualcosa da rifornire o da vendere! In ogni round leggi una piccola storia, guardi l’operazione e calcoli entro il 100: aggiungi quello che Gus raccoglie, togli quello che vende, poi digiti la risposta sulla tastierina. Un modo concreto e giocoso per allenare il calcolo con i numeri a due cifre, riconoscere quando sommare e quando sottrarre e guadagnare fluidità passo dopo passo. L’attività è gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo tempo sereno per pensare e provare. Pensata per la classe seconda e allineata alle Indicazioni nazionali.",
+      "nl": "Gus de eekhoorn heeft een eigen snackkar. Bij elke ronde lees je een kort verhaaltje: Gus krijgt iets erbij (optellen) of hij verkoopt iets (aftrekken), en jij typt het antwoord. Zo oefen je optellen en aftrekken tot 100, ook met tienoverschrijding. Gratis en interactief, voor groep 4 – rekenen volgens de SLO-doelen."
     },
     "kid_prompt_template": "Add or subtract within 100 and type the answer."
   }

@@ -32,7 +32,7 @@
   function speak(text) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'number', text: String(text), lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(String(text)); u.rate = .95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function beadSVG(colorKey, ready) {
@@ -52,7 +52,7 @@
     var mouth = happy
       ? '<path d="M43 61 q7 8 14 0" stroke="#2A2A35" stroke-width="2.6" fill="none" stroke-linecap="round"/>'
       : '<path d="M46 61 q4 4 8 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>';
-    return '<svg class="nk-fox-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'zorro' : LANG === 'fr' ? 'renard' : LANG === 'de' ? 'Fuchs' : LANG === 'pt' ? 'raposa' : LANG === 'it' ? 'volpe' : 'fox') + '">'
+    return '<svg class="nk-fox-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'es' ? 'zorro' : LANG === 'fr' ? 'renard' : LANG === 'de' ? 'Fuchs' : LANG === 'pt' ? 'raposa' : LANG === 'it' ? 'volpe' : LANG === 'nl' ? 'vos' : 'fox') + '">'
       + '<path d="M24 34 L34 14 L44 32 Z" fill="#E8853A"/><path d="M76 34 L66 14 L56 32 Z" fill="#E8853A"/>'
       + '<ellipse cx="50" cy="56" rx="30" ry="28" fill="#F2954B"/>'
       + '<path d="M50 78 q-18 -2 -22 -20 q22 10 44 0 q-4 18 -22 20 Z" fill="#fff"/>'
@@ -64,29 +64,29 @@
     reward: { id: 'friendship-branch', label: 'Friendship Branch', emoji: '🦊' },
 
     strings: {
-      title: { en: "The Necklace That Won't Hold Still", de: 'Die Kette, die nicht stillhält', fr: 'Le collier qui ne tient pas en place', es: 'El collar que no se queda quieto', pt: 'O colar que não para quieto', it: 'La collana che non sta ferma' },
-      prompt: { en: 'Count the beads — make the same many!', de: 'Zähl die Perlen – mach gleich viele!', fr: 'Compte les perles — fais-en autant !', es: 'Cuenta las perlas… ¡haz la misma cantidad!', pt: 'Conte as contas — faça a mesma quantidade!', it: 'Conta le perline — fanne la stessa quantità!' },
-      countHint: { en: "Tap each bead to count the fox's necklace.", de: 'Tippe jede Perle an und zähl die Kette vom Fuchs.', fr: 'Touche chaque perle pour compter le collier du renard.', es: 'Toca cada perla y cuenta el collar del zorro.', pt: 'Toque em cada conta pra contar o colar da raposa.', it: 'Tocca ogni perlina della collana della volpe.' },
-      countScatterHint: { en: 'Tap each bead — careful not to miss one!', de: 'Tippe jede Perle an – pass auf, dass du keine vergisst!', fr: 'Touche chaque perle — attention à n’en oublier aucune !', es: 'Toca cada perla… ¡con cuidado de no saltarte ninguna!', pt: 'Toque em cada conta — não deixe nenhuma passar!', it: 'Tocca ogni perlina — non saltarne nessuna!' },
-      recountHint: { en: 'Count again — the fox shook it!', de: 'Zähl noch mal – der Fuchs hat geschüttelt!', fr: 'Compte encore — le renard l’a secoué !', es: 'Cuenta otra vez… ¡el zorro lo sacudió!', pt: 'Conte de novo — a raposa sacudiu!', it: 'Conta di nuovo — la volpe ha scosso!' },
-      produceHint: { en: 'Thread your own — the same many!', de: 'Fädel deine eigene auf – gleich viele!', fr: 'Enfile les tiennes — autant que lui !', es: 'Ensarta las tuyas… ¡la misma cantidad!', pt: 'Enfie as suas — a mesma quantidade!', it: 'Infila le tue — la stessa quantità!' },
-      heardHint: { en: 'The fox said a number — thread that many!', de: 'Der Fuchs hat eine Zahl gesagt – fädel so viele auf!', fr: 'Le renard a dit un nombre — enfile-en autant !', es: 'El zorro dijo un número… ¡ensarta esa cantidad!', pt: 'A raposa falou um número — enfie essa quantidade!', it: 'La volpe ha detto un numero — infilane tante!' },
-      confirmHint: { en: 'How many did you count?', de: 'Wie viele hast du gezählt?', fr: 'Combien en as-tu compté ?', es: '¿Cuántas contaste?', pt: 'Quantas você contou?', it: 'Quante ne hai contate?' },
-      fixSkipHint: { en: 'One bead too many — take one off!', de: 'Eine Perle zu viel – nimm eine weg!', fr: 'Une perle de trop — enlèves-en une !', es: 'Una perla de más… ¡quita una!', pt: 'Uma conta a mais — tire uma!', it: 'Una perlina di troppo — togline una!' },
-      fixRepairHint: { en: "The fox's necklace is wrong — fix it to match!", de: 'Die Kette vom Fuchs stimmt nicht – mach gleich viele!', fr: 'Le collier du renard n’est pas bon — corrige-le pour qu’il soit pareil !', es: 'El collar del zorro está mal… ¡haz la misma cantidad!', pt: 'O colar da raposa está errado — conserte pra ficar igual!', it: 'La collana della volpe è sbagliata — sistemala!' },
-      shakeBtn: { en: 'Give it a shake! 🫳', de: 'Schüttel sie! 🫳', fr: 'Secoue-le ! 🫳', es: '¡Sacúdelo! 🫳', pt: 'Sacuda! 🫳', it: 'Scuoti! 🫳' },
-      commitHide: { en: 'I counted {n} — thread mine! →', de: 'Ich habe {n} gezählt – jetzt meine! →', fr: 'J’ai compté {n} — j’enfile les miennes ! →', es: 'Conté {n}… ¡ahora el mío! →', pt: 'Contei {n} — vou enfiar as minhas! →', it: 'Ho contato {n} — infilo le mie! →' },
-      commitConfirm: { en: 'I counted {n} — how many? →', de: 'Ich habe {n} gezählt – wie viele? →', fr: 'J’ai compté {n} — combien ? →', es: 'Conté {n}… ¿cuántas? →', pt: 'Contei {n} — quantas são? →', it: 'Ho contato {n} — quante sono? →' },
-      proceedAffirm: { en: "That's how many! ✓", de: 'So viele sind es! ✓', fr: 'C’est bien ça ! ✓', es: '¡Esa es la cantidad! ✓', pt: 'É essa a quantidade! ✓', it: 'Ecco quante sono! ✓' },
-      recountAffirm: { en: 'Still {n}! ✓', de: 'Immer noch {n}! ✓', fr: 'Toujours {n} ! ✓', es: '¡Sigue igual: {n}! ✓', pt: 'Ainda são {n}! ✓', it: 'Sempre {n}! ✓' },
-      claspBtn: { en: 'Clasp it! 🔗', de: 'Zumachen! 🔗', fr: 'Ferme le collier ! 🔗', es: '¡Ciérralo! 🔗', pt: 'Feche o colar! 🔗', it: 'Chiudi la collana! 🔗' },
-      doneBtn: { en: 'All fixed! ✓', de: 'Alles richtig! ✓', fr: 'Tout est réparé ! ✓', es: '¡Todo correcto! ✓', pt: 'Consertei! ✓', it: 'Tutto sistemato! ✓' },
-      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören', fr: '🔊 Écouter encore', es: '🔊 Escuchar otra vez', pt: '🔊 Ouvir de novo', it: '🔊 Ascolta di nuovo' },
-      confirmChip: { en: "It's {n}!", de: 'Genau {n}!', fr: 'C’est {n} !', es: '¡Conté {n}!', pt: 'São {n}!', it: 'Sono {n}!' },
-      peek: { en: '👀 Peek', de: '👀 Spicken', fr: '👀 Coup d’œil', es: '👀 Espiar', pt: '👀 Espiar', it: '👀 Sbircia' },
-      notyet: { en: "Not yet — let's count again together.", de: 'Noch nicht – zählen wir noch mal zusammen.', fr: 'Pas encore — comptons encore ensemble.', es: 'Todavía no… contemos juntos otra vez.', pt: 'Ainda não — vamos contar de novo juntos.', it: 'Non ancora — contiamo di nuovo insieme.' },
-      win: { en: 'Clasp! The same many! 🦊🦊', de: 'Zugemacht! Gleich viele! 🦊🦊', fr: 'Fermé ! Autant l’un que l’autre ! 🦊🦊', es: '¡Cerrado! ¡La misma cantidad! 🦊🦊', pt: 'Fechou! A mesma quantidade! 🦊🦊', it: 'Chiusa! La stessa quantità! 🦊🦊' },
-      hintCheck: { en: 'Make the same many, then clasp it!', de: 'Fädel gleich viele auf und mach sie dann zu!', fr: 'Fais-en autant, puis ferme le collier !', es: 'Ensarta la misma cantidad y… ¡ciérralo!', pt: 'Faça a mesma quantidade e feche o colar!', it: 'Fai la stessa quantità, poi chiudila!' }
+      title: { en: "The Necklace That Won't Hold Still", de: 'Die Kette, die nicht stillhält', fr: 'Le collier qui ne tient pas en place', es: 'El collar que no se queda quieto', pt: 'O colar que não para quieto', it: 'La collana che non sta ferma', nl: 'De ketting die niet stil blijft' },
+      prompt: { en: 'Count the beads — make the same many!', de: 'Zähl die Perlen – mach gleich viele!', fr: 'Compte les perles — fais-en autant !', es: 'Cuenta las perlas… ¡haz la misma cantidad!', pt: 'Conte as contas — faça a mesma quantidade!', it: 'Conta le perline — fanne la stessa quantità!', nl: 'Tel de kralen — maak er evenveel!' },
+      countHint: { en: "Tap each bead to count the fox's necklace.", de: 'Tippe jede Perle an und zähl die Kette vom Fuchs.', fr: 'Touche chaque perle pour compter le collier du renard.', es: 'Toca cada perla y cuenta el collar del zorro.', pt: 'Toque em cada conta pra contar o colar da raposa.', it: 'Tocca ogni perlina della collana della volpe.', nl: 'Tik op elke kraal en tel de ketting van de vos.' },
+      countScatterHint: { en: 'Tap each bead — careful not to miss one!', de: 'Tippe jede Perle an – pass auf, dass du keine vergisst!', fr: 'Touche chaque perle — attention à n’en oublier aucune !', es: 'Toca cada perla… ¡con cuidado de no saltarte ninguna!', pt: 'Toque em cada conta — não deixe nenhuma passar!', it: 'Tocca ogni perlina — non saltarne nessuna!', nl: 'Tik op elke kraal — sla er geen een over!' },
+      recountHint: { en: 'Count again — the fox shook it!', de: 'Zähl noch mal – der Fuchs hat geschüttelt!', fr: 'Compte encore — le renard l’a secoué !', es: 'Cuenta otra vez… ¡el zorro lo sacudió!', pt: 'Conte de novo — a raposa sacudiu!', it: 'Conta di nuovo — la volpe ha scosso!', nl: 'Tel nog een keer — de vos heeft geschud!' },
+      produceHint: { en: 'Thread your own — the same many!', de: 'Fädel deine eigene auf – gleich viele!', fr: 'Enfile les tiennes — autant que lui !', es: 'Ensarta las tuyas… ¡la misma cantidad!', pt: 'Enfie as suas — a mesma quantidade!', it: 'Infila le tue — la stessa quantità!', nl: 'Rijg je eigen ketting — evenveel!' },
+      heardHint: { en: 'The fox said a number — thread that many!', de: 'Der Fuchs hat eine Zahl gesagt – fädel so viele auf!', fr: 'Le renard a dit un nombre — enfile-en autant !', es: 'El zorro dijo un número… ¡ensarta esa cantidad!', pt: 'A raposa falou um número — enfie essa quantidade!', it: 'La volpe ha detto un numero — infilane tante!', nl: 'De vos zei een getal — rijg er zoveel!' },
+      confirmHint: { en: 'How many did you count?', de: 'Wie viele hast du gezählt?', fr: 'Combien en as-tu compté ?', es: '¿Cuántas contaste?', pt: 'Quantas você contou?', it: 'Quante ne hai contate?', nl: 'Hoeveel heb je geteld?' },
+      fixSkipHint: { en: 'One bead too many — take one off!', de: 'Eine Perle zu viel – nimm eine weg!', fr: 'Une perle de trop — enlèves-en une !', es: 'Una perla de más… ¡quita una!', pt: 'Uma conta a mais — tire uma!', it: 'Una perlina di troppo — togline una!', nl: 'Eén kraal te veel — haal er een af!' },
+      fixRepairHint: { en: "The fox's necklace is wrong — fix it to match!", de: 'Die Kette vom Fuchs stimmt nicht – mach gleich viele!', fr: 'Le collier du renard n’est pas bon — corrige-le pour qu’il soit pareil !', es: 'El collar del zorro está mal… ¡haz la misma cantidad!', pt: 'O colar da raposa está errado — conserte pra ficar igual!', it: 'La collana della volpe è sbagliata — sistemala!', nl: 'De ketting van de vos klopt niet — maak hem gelijk!' },
+      shakeBtn: { en: 'Give it a shake! 🫳', de: 'Schüttel sie! 🫳', fr: 'Secoue-le ! 🫳', es: '¡Sacúdelo! 🫳', pt: 'Sacuda! 🫳', it: 'Scuoti! 🫳', nl: 'Geef een schud! 🫳' },
+      commitHide: { en: 'I counted {n} — thread mine! →', de: 'Ich habe {n} gezählt – jetzt meine! →', fr: 'J’ai compté {n} — j’enfile les miennes ! →', es: 'Conté {n}… ¡ahora el mío! →', pt: 'Contei {n} — vou enfiar as minhas! →', it: 'Ho contato {n} — infilo le mie! →', nl: 'Ik heb er {n} geteld — nu de mijne! →' },
+      commitConfirm: { en: 'I counted {n} — how many? →', de: 'Ich habe {n} gezählt – wie viele? →', fr: 'J’ai compté {n} — combien ? →', es: 'Conté {n}… ¿cuántas? →', pt: 'Contei {n} — quantas são? →', it: 'Ho contato {n} — quante sono? →', nl: 'Ik heb er {n} geteld — hoeveel? →' },
+      proceedAffirm: { en: "That's how many! ✓", de: 'So viele sind es! ✓', fr: 'C’est bien ça ! ✓', es: '¡Esa es la cantidad! ✓', pt: 'É essa a quantidade! ✓', it: 'Ecco quante sono! ✓', nl: 'Zoveel zijn het! ✓' },
+      recountAffirm: { en: 'Still {n}! ✓', de: 'Immer noch {n}! ✓', fr: 'Toujours {n} ! ✓', es: '¡Sigue igual: {n}! ✓', pt: 'Ainda são {n}! ✓', it: 'Sempre {n}! ✓', nl: 'Nog steeds {n}! ✓' },
+      claspBtn: { en: 'Clasp it! 🔗', de: 'Zumachen! 🔗', fr: 'Ferme le collier ! 🔗', es: '¡Ciérralo! 🔗', pt: 'Feche o colar! 🔗', it: 'Chiudi la collana! 🔗', nl: 'Slotje dicht! 🔗' },
+      doneBtn: { en: 'All fixed! ✓', de: 'Alles richtig! ✓', fr: 'Tout est réparé ! ✓', es: '¡Todo correcto! ✓', pt: 'Consertei! ✓', it: 'Tutto sistemato! ✓', nl: 'Helemaal goed! ✓' },
+      hearAgain: { en: '🔊 Hear it again', de: '🔊 Nochmal hören', fr: '🔊 Écouter encore', es: '🔊 Escuchar otra vez', pt: '🔊 Ouvir de novo', it: '🔊 Ascolta di nuovo', nl: '🔊 Nog een keer horen' },
+      confirmChip: { en: "It's {n}!", de: 'Genau {n}!', fr: 'C’est {n} !', es: '¡Conté {n}!', pt: 'São {n}!', it: 'Sono {n}!', nl: 'Het zijn er {n}!' },
+      peek: { en: '👀 Peek', de: '👀 Spicken', fr: '👀 Coup d’œil', es: '👀 Espiar', pt: '👀 Espiar', it: '👀 Sbircia', nl: '👀 Gluren' },
+      notyet: { en: "Not yet — let's count again together.", de: 'Noch nicht – zählen wir noch mal zusammen.', fr: 'Pas encore — comptons encore ensemble.', es: 'Todavía no… contemos juntos otra vez.', pt: 'Ainda não — vamos contar de novo juntos.', it: 'Non ancora — contiamo di nuovo insieme.', nl: 'Nog niet — we tellen samen nog een keer.' },
+      win: { en: 'Clasp! The same many! 🦊🦊', de: 'Zugemacht! Gleich viele! 🦊🦊', fr: 'Fermé ! Autant l’un que l’autre ! 🦊🦊', es: '¡Cerrado! ¡La misma cantidad! 🦊🦊', pt: 'Fechou! A mesma quantidade! 🦊🦊', it: 'Chiusa! La stessa quantità! 🦊🦊', nl: 'Dicht! Evenveel! 🦊🦊' },
+      hintCheck: { en: 'Make the same many, then clasp it!', de: 'Fädel gleich viele auf und mach sie dann zu!', fr: 'Fais-en autant, puis ferme le collier !', es: 'Ensarta la misma cantidad y… ¡ciérralo!', pt: 'Faça a mesma quantidade e feche o colar!', it: 'Fai la stessa quantità, poi chiudila!', nl: 'Maak er evenveel, en doe dan het slotje dicht!' }
     },
     defaults: {},
 
@@ -258,7 +258,7 @@
 
     _readout: function (val, kind) {
       var api = this.api, row = api.el('div', 'nk-readout');
-      var lab = api.el('span', 'nk-readout-lab'); lab.textContent = (LANG === 'es') ? (kind === 'counted' ? 'Contadas' : 'Las tuyas') : (LANG === 'fr') ? (kind === 'counted' ? 'Comptées' : 'Les tiennes') : (LANG === 'de') ? (kind === 'counted' ? 'Gezählt' : 'Deine') : (LANG === 'pt') ? (kind === 'counted' ? 'Contadas' : 'As suas') : (LANG === 'it') ? (kind === 'counted' ? 'Contate' : 'Le tue') : (kind === 'counted' ? 'Counted' : 'Yours');
+      var lab = api.el('span', 'nk-readout-lab'); lab.textContent = (LANG === 'es') ? (kind === 'counted' ? 'Contadas' : 'Las tuyas') : (LANG === 'fr') ? (kind === 'counted' ? 'Comptées' : 'Les tiennes') : (LANG === 'de') ? (kind === 'counted' ? 'Gezählt' : 'Deine') : (LANG === 'pt') ? (kind === 'counted' ? 'Contadas' : 'As suas') : (LANG === 'it') ? (kind === 'counted' ? 'Contate' : 'Le tue') : (LANG === 'nl') ? (kind === 'counted' ? 'Geteld' : 'Van jou') : (kind === 'counted' ? 'Counted' : 'Yours');
       var num = api.el('span', 'nk-readout-num'); num.textContent = val; num.setAttribute('aria-live', 'polite');
       row.appendChild(lab); row.appendChild(num); return row;
     },
@@ -271,7 +271,7 @@
     _winClasp: function () {
       this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 8);
       this.api.sound && this.api.sound(900); this.render();
-      var n = this._target(); this.announce('win'); speak(LANG === 'es' ? (n + ' y ' + n + '… ¡a cerrar!') : LANG === 'fr' ? (n + ' et ' + n + ' — fermé !') : LANG === 'de' ? (n + ' und ' + n + ' — zugemacht!') : LANG === 'pt' ? (n + ' e ' + n + ' — fechou!') : LANG === 'it' ? (n + ' e ' + n + ' — chiusa!') : (n + ' and ' + n + ' — clasp!'));
+      var n = this._target(); this.announce('win'); speak(LANG === 'es' ? (n + ' y ' + n + '… ¡a cerrar!') : LANG === 'fr' ? (n + ' et ' + n + ' — fermé !') : LANG === 'de' ? (n + ' und ' + n + ' — zugemacht!') : LANG === 'pt' ? (n + ' e ' + n + ' — fechou!') : LANG === 'it' ? (n + ' e ' + n + ' — chiusa!') : LANG === 'nl' ? (n + ' en ' + n + ' — dicht!') : (n + ' and ' + n + ' — clasp!'));
     },
     _affirmDone: function (key, n) {
       this.solved = true; this.stage = 'done'; this.solvedCount = Math.min(this.solvedCount + 1, (this._pool && this._pool.length) || 8);
@@ -285,7 +285,7 @@
       for (var i = 0; i < n; i++) { var b = api.el('span', 'nk-donebead'); b.innerHTML = beadSVG(i % 2 ? 'teal' : 'coral', false); neck.appendChild(b); }
       var cl = api.el('span', 'nk-doneclasp'); cl.textContent = '🔗'; neck.appendChild(cl);
       root.appendChild(neck);
-      var eq = api.el('div', 'nk-eq'); eq.textContent = (LANG === 'es') ? (n + ' y ' + n + '… ¡la misma cantidad!') : (LANG === 'fr') ? (n + ' & ' + n + ' — autant l’un que l’autre !') : (LANG === 'de') ? (n + ' & ' + n + ' — gleich viele!') : (LANG === 'pt') ? (n + ' e ' + n + ' — a mesma quantidade!') : (LANG === 'it') ? (n + ' e ' + n + ' — la stessa quantità!') : (n + ' & ' + n + ' — the same many!'); root.appendChild(eq);
+      var eq = api.el('div', 'nk-eq'); eq.textContent = (LANG === 'es') ? (n + ' y ' + n + '… ¡la misma cantidad!') : (LANG === 'fr') ? (n + ' & ' + n + ' — autant l’un que l’autre !') : (LANG === 'de') ? (n + ' & ' + n + ' — gleich viele!') : (LANG === 'pt') ? (n + ' e ' + n + ' — a mesma quantidade!') : (LANG === 'it') ? (n + ' e ' + n + ' — la stessa quantità!') : (LANG === 'nl') ? (n + ' & ' + n + ' — evenveel!') : (n + ' & ' + n + ' — the same many!'); root.appendChild(eq);
       var branch = api.el('div', 'nk-branch');
       for (var j = 0; j < ((this._pool && this._pool.length) || 8); j++) { var s = api.el('span', 'nk-twig' + (j < this.solvedCount ? ' nk-twig-on' : '')); s.textContent = '🦊'; branch.appendChild(s); }
       root.appendChild(branch);

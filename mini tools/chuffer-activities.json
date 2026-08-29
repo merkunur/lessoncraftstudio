@@ -105,7 +105,8 @@
       "fr": "decomposer-les-nombres-jusqu-a-10-cp",
       "es": "descomponer-numeros-hasta-10-el-todo-y-sus-partes",
       "pt": "decompor-numeros-ate-10-o-todo-e-as-partes-1-ano",
-      "it": "scomporre-i-numeri-entro-il-10-il-tutto-e-le-parti-classe-prima"
+      "it": "scomporre-i-numeri-entro-il-10-il-tutto-e-le-parti-classe-prima",
+      "nl": "getallen-splitsen-tot-10-groep-3"
     },
     "page_title": {
       "en": "Chuffer's Switchyard — Break a Number Apart Many Ways (Kindergarten)",
@@ -113,7 +114,8 @@
       "fr": "Décomposition des nombres jusqu'à 10 – exercice en ligne (CP)",
       "es": "Descomponer números hasta 10: el todo y sus partes (preescolar)",
       "pt": "Decompor Números até 10: o Todo e as Partes | Atividade 1º ano",
-      "it": "Scomporre i numeri entro il 10: il tutto e le parti | Classe prima"
+      "it": "Scomporre i numeri entro il 10: il tutto e le parti | Classe prima",
+      "nl": "Getallen splitsen tot 10: alle splitsingen oefenen – groep 3 | Tuf"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten math game: you're the switchman at Chuffer's railway yard! A load of crates rolls in and the track forks into two cars. Split the crates between the cars, read each car, say the split (5 = 2 + 3!), and pull the coupler — then find EVERY different way to share the load. Breaking a number into two parts in more than one way is the heart of Common Core K.OA.A.3.",
@@ -121,7 +123,8 @@
       "fr": "Travailler la décomposition des nombres jusqu'à 10 : séparer un nombre en deux parties à la gare de triage. Gratuit, en ligne, sans inscription.",
       "es": "Descompón números hasta 10 en dos partes con Chuffer: juego gratis, interactivo y sin registro, alineado a los Planes y programas de estudio (SEP), preescolar.",
       "pt": "Decompor números até 10 de forma divertida: no pátio do trenzinho Chuffer a criança separa as caixas em dois vagões e descobre o todo e as partes. Grátis, sem cadastro, alinhado à BNCC — 1º ano.",
-      "it": "Il trenino Chuffer è allo scalo di smistamento e arriva una carica di casse da dividere tra il vagone azzurro e il vagone rosso. Il bambino sposta le casse, dice ogni modo ad alta voce — «5 è 2 e 3» — e tira il gancio per registrarlo nel quaderno di viaggio. L’obiettivo è trovare tutti i modi: un numero si scompone in molti modi e resta lo stesso (il tutto e le parti), scoprendo gli amici del dieci. Attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Il trenino Chuffer è allo scalo di smistamento e arriva una carica di casse da dividere tra il vagone azzurro e il vagone rosso. Il bambino sposta le casse, dice ogni modo ad alta voce — «5 è 2 e 3» — e tira il gancio per registrarlo nel quaderno di viaggio. L’obiettivo è trovare tutti i modi: un numero si scompone in molti modi e resta lo stesso (il tutto e le parti), scoprendo gli amici del dieci. Attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Verdeel de kisten over twee wagons, zeg de splitsing hardop (\"5 is 2 en 3\"), trek aan de koppeling en vind ELKE manier om de lading te verdelen. Zo ontdek je dat je één getal op veel manieren kunt splitsen — en dat het steeds dezelfde 5 blijft: deel-deel-geheel. Gratis, interactief en zonder klok of score."
     },
     "kid_prompt_template": "rail-decompose"
   }

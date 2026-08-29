@@ -173,7 +173,8 @@
       "fr": "comparer-des-collections-plus-moins-autant-gs",
       "es": "comparar-cantidades-mas-menos-igual-preescolar",
       "pt": "comparar-quantidades-mais-menos-igual-1-ano",
-      "it": "confrontare-le-quantita-di-piu-di-meno-uguale-classe-prima"
+      "it": "confrontare-le-quantita-di-piu-di-meno-uguale-classe-prima",
+      "nl": "hoeveelheden-vergelijken-meer-minder-evenveel-kleuters"
     },
     "page_title": {
       "en": "The Friendship Bridge — Compare Groups: More, Fewer, Same",
@@ -181,7 +182,8 @@
       "fr": "Plus, moins, autant – comparer des collections en ligne (GS)",
       "es": "Más, menos e igual: comparar cantidades (preescolar)",
       "pt": "Comparar quantidades: mais, menos ou igual (1º ano) — com Big e Bit",
-      "it": "Confrontare le quantità: di più, di meno, uguale | Classe prima"
+      "it": "Confrontare le quantità: di più, di meno, uguale | Classe prima",
+      "nl": "Hoeveelheden vergelijken: meer, minder of evenveel – kleuters"
     },
     "page_intro": {
       "en": "Help Big and Bit walk the bridge by pairing their friends one-to-one and counting. Which group has MORE, FEWER, or are they the SAME? A warm Kindergarten comparing game that beats the eye-tricks — a long spread-out row can have fewer than a tight little bunch. Aligned to Common Core K.CC.C.6.",
@@ -189,7 +191,8 @@
       "fr": "Plus, moins ou autant ? Comparer deux collections et choisir le bon mot sur le pont de l'amitié. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis, sin registro: tu hijo compara dos grupos uno a uno y descubre cuál tiene más, menos o igual. Alineada al programa de preescolar.",
       "pt": "Comparar quantidades: mais, menos ou igual? Na ponte da amizade, Big e Bit fazem pares dos amiguinhos, um a um. Atividade grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Big e Bit si incontrano sul ponte dell’amicizia, ciascuno con il suo gruppo di amici tondi da confrontare: chi ne ha di più, chi di meno o se ne hanno uguali? Non si indovina a occhio, si fanno le coppie uno a uno — chi resta con un amico senza compagno ne ha di più. L’occhio inganna: una fila sparsa sembra di più, ma facendo le coppie si scopre che la stessa quantità resta la stessa, sparsa o raccolta in un mucchietto. Un’attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Big e Bit si incontrano sul ponte dell’amicizia, ciascuno con il suo gruppo di amici tondi da confrontare: chi ne ha di più, chi di meno o se ne hanno uguali? Non si indovina a occhio, si fanno le coppie uno a uno — chi resta con un amico senza compagno ne ha di più. L’occhio inganna: una fila sparsa sembra di più, ma facendo le coppie si scopre che la stessa quantità resta la stessa, sparsa o raccolta in un mucchietto. Un’attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Op de vriendschapsbrug ontmoeten twee ronde pluisvriendjes elkaar, elk met een handjevol vriendjes bij zich. Je kind koppelt elk vriendje aan een maatje aan de overkant van de brug: wie een vriendje zonder maatje overheeft, heeft meer. Een lange rij lijkt al gauw meer, maar pas koppelen laat de waarheid zien — meer, minder of evenveel. Gratis, interactief en zonder cijfers of tekens, tot 10."
     },
     "kid_prompt_template": "compare-balance"
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "vet-diagnosis.word-problems.1-oa-a-1": {
+      "about": [
+        "In de behandelkamer wacht een dierenpatiënt op jou. Zijn 'symptoom' is een klein rekenverhaal: een verhaaltje waarin getallen iets doen. In het röntgenvenster verschijnt het bijpassende model dat laat zien wat er gebeurt — wat was er eerst, wat veranderde er, en wat komt er uiteindelijk uit? Jij leest het verhaal, legt de getallen op hun plek en markeert precies daar waar het raadsel zit.",
+        "De kern is een verhaalsom — ook wel redactiesom genoemd — écht begrijpen en hem als een model van getallen nabouwen, dat heet modelleren. Het gezochte getal kan overal zitten: aan het eind, in het midden, of zelfs helemaal aan het begin, bij de omgekeerde som. Soms ga je ook vergelijken: hoeveel meer of minder heeft het ene dier dan het andere? Je telt op en trekt af tot 20, en dat sluit aan bij de SLO-kerndoelen rekenen voor groep 4.",
+        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, zo vaak als je wilt, en het is helemaal gratis."
+      ],
+      "practices": [
+        "Reken-verhaalsommen tot 20 lezen en op een model nabouwen",
+        "Optellen en aftrekken tot 20",
+        "Het onbekende getal op elke plek vinden: aan het eind, in het midden of aan het begin",
+        "Vergelijken: hoeveel meer of minder?"
+      ],
+      "howToPlay": [
+        "Lees het rekenverhaal van de dierenpatiënt in de behandelkamer.",
+        "Leg de getallen op het model in het röntgenvenster en markeer het onbekende getal.",
+        "Draai het juiste antwoord en help het dier weer op weg."
+      ],
+      "learningGoals": [
+        "Je begrijpt een verhaalsom en bouwt hem na als een model van getallen.",
+        "Je telt op en trekt af tot 20, ook bij de omgekeerde en de vergelijk-verhalen.",
+        "Je vindt het gezochte getal, waar het ook in het verhaal zit."
+      ]
+    },
     "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
       "about": [
         "Diep in de winter vult Bo het konijn zijn voorraadkast met bessen. Een krat is bij Bo altijd een tiental: tien bessen, dicht en niet na te tellen. De losse bessen ernaast zijn de eenheden. Bo laat je een hoeveelheid, een getalwoord of een getal zien, en jij schiet de bessen naar het schap met precies de juiste kratten en losse bessen.",

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "gus-snack-cart.within-100.2-nbt-b-5": {
+      "about": [
+        "Achter de snackkar staat Gus, een pientere eekhoorn die de hele dag hapjes verkoopt. Bij elke ronde lees je een kort verhaaltje bij de kar: soms vult Gus verse voorraad aan, soms verkoopt hij juist iets. Bij het verhaaltje zie je meteen de bijpassende som.",
+        "Krijgt Gus er iets bij? Dan tel je op. Verkoopt of geeft hij iets weg? Dan trek je af. Je typt zelf het antwoord in. Zo oefen je optellen en aftrekken tot 100 – ook als je over het tiental heen moet rekenen, zoals bij 27 + 36 of 45 − 8.",
+        "De sommen sluiten aan bij de rekendoelen van groep 4 (SLO). Er is geen klok, geen score en geen stress: je werkt op je eigen tempo en het is helemaal gratis."
+      ],
+      "practices": [
+        "Optellen en aftrekken tot 100",
+        "Rekenen met tienoverschrijding (over het tiental heen)",
+        "Een verhaaltje omzetten in de juiste som (plus of min)",
+        "Vlot hoofdrekenen tot 100 oefenen"
+      ],
+      "howToPlay": [
+        "Lees het verhaaltje bij Gus' snackkar.",
+        "Bedenk of je moet optellen of aftrekken.",
+        "Typ je antwoord en kijk of het klopt."
+      ],
+      "learningGoals": [
+        "Vlot optellen en aftrekken tot 100.",
+        "Rekenen met tienoverschrijding onder de knie krijgen.",
+        "Een verhaaltje vertalen naar de juiste rekensom."
+      ]
+    },
     "track-repair.count-to-120.1-nbt-a-1": {
       "about": [
         "Een flinke storm heeft in het Fluitdal een stuk spoorlijn weggeslagen. Kijk je goed, dan is dat spoor eigenlijk een getallenlijn: twee genummerde stations staan aan het begin en aan het eind, en daartussen horen de bielzen op hun eigen plek. Jij legt elke genummerde biels precies waar dat getal thuishoort op de lijn.",

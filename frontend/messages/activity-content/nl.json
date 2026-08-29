@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "bos-berry-pantry.slingshot-tens.1-nbt-b-2": {
+      "about": [
+        "Diep in de winter vult Bo het konijn zijn voorraadkast met bessen. Een krat is bij Bo altijd een tiental: tien bessen, dicht en niet na te tellen. De losse bessen ernaast zijn de eenheden. Bo laat je een hoeveelheid, een getalwoord of een getal zien, en jij schiet de bessen naar het schap met precies de juiste kratten en losse bessen.",
+        "Zo ontdek je wat plaatswaarde is: een tweecijferig getal bestaat uit zoveel tientallen en zoveel eenheden. 25 is 2 kratten en 5 losse bessen, en je maakt altijd zoveel mogelijk kratten – nooit een open bundel van tien of meer losse bessen. Ook de nul krijgt betekenis: 40 is 4 kratten en 0 los. Deze oefening sluit aan bij de SLO-kerndoelen voor rekenen in groep 4.",
+        "Er is geen klok, geen score en geen stress. Je werkt op je eigen tempo, je mag zo vaak proberen als je wilt, en alles is gratis."
+      ],
+      "practices": [
+        "Tweecijferige getallen lezen als tientallen en eenheden",
+        "Getallen splitsen in tientallen en eenheden (plaatswaarde)",
+        "Zoveel mogelijk tientallen maken, zonder open bundel (unitizeren)",
+        "De functie van de nul begrijpen (40 = 4 tientallen, 0 eenheden)"
+      ],
+      "howToPlay": [
+        "Bekijk wat Bo laat zien: een hoeveelheid, een getalwoord of een getal.",
+        "Bedenk hoeveel kratten (tientallen) en hoeveel losse bessen (eenheden) je nodig hebt.",
+        "Schiet de bessen naar het schap met de juiste kratten en losse bessen."
+      ],
+      "learningGoals": [
+        "Ik kan een tweecijferig getal lezen als tientallen en eenheden.",
+        "Ik maak zoveel mogelijk kratten en houd de losse bessen apart.",
+        "Ik snap wat de nul betekent, zoals bij 40 (4 kratten, 0 los)."
+      ]
+    },
     "gus-snack-cart.within-100.2-nbt-b-5": {
       "about": [
         "Achter de snackkar staat Gus, een pientere eekhoorn die de hele dag hapjes verkoopt. Bij elke ronde lees je een kort verhaaltje bij de kar: soms vult Gus verse voorraad aan, soms verkoopt hij juist iets. Bij het verhaaltje zie je meteen de bijpassende som.",

@@ -296,7 +296,8 @@
       "fr": "reconnaitre-et-nommer-les-formes-carre-triangle-cercle-cp",
       "es": "identificar-figuras-geometricas-circulo-triangulo-cuadrado",
       "pt": "reconhecer-e-nomear-figuras-geometricas-1-ano",
-      "it": "riconoscere-e-nominare-le-figure-geometriche-classe-prima"
+      "it": "riconoscere-e-nominare-le-figure-geometriche-classe-prima",
+      "nl": "vormen-herkennen-en-benoemen-groep-3"
     },
     "page_title": {
       "en": "Professor Pip's Museum — Name Shapes Any Way They Turn (Kindergarten)",
@@ -304,7 +305,8 @@
       "fr": "Reconnaître les formes – carré, triangle, cercle, en ligne",
       "es": "Identificar figuras: círculo, triángulo, cuadrado (preescolar)",
       "pt": "Reconhecer e Nomear Figuras Geométricas — Museu do Professor Pip (1º ano) | BNCC",
-      "it": "Riconoscere le figure geometriche: cerchio, triangolo… | Classe prima"
+      "it": "Riconoscere le figure geometriche: cerchio, triangolo… | Classe prima",
+      "nl": "Vormen benoemen: cirkel, driehoek, vierkant – groep 3 | Professor Tobbe"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten geometry game: Professor Pip the penguin trusts you to NAME every new museum acquisition. Treasures ride up the conveyor tilted, tiny, stretched, or upside-down — and you route each to the pedestal that names it. A square is a square even when it's turned like a diamond! Naming circles, triangles, squares, rectangles, and hexagons no matter how they're turned or sized is the heart of Common Core K.G.A.2.",
@@ -312,7 +314,8 @@
       "fr": "Reconnaître et nommer les formes au musée de Pip : carré, triangle, cercle et plus encore. Gratuit, en ligne, sans inscription.",
       "es": "Reconoce y nombra figuras planas —círculo, triángulo, cuadrado— en el museo de Pip. Juego gratis, interactivo, sin registro, alineado a los Planes y programas (SEP). Preescolar.",
       "pt": "Reconheça e nomeie figuras planas — círculo, quadrado, triângulo — no museu do Professor Pip! Atividade grátis, sem cadastro, alinhada à BNCC, para o 1º ano.",
-      "it": "Il pinguino Professor Pip riceve al museo tanti tesori su un nastro trasportatore: figure piatte che arrivano inclinate, piccolissime, allungate o capovolte. Il bambino deve nominarle toccando il piedistallo giusto e riconoscere cerchio, triangolo, quadrato, rettangolo ed esagono a prescindere da come sono girate o grandi. Attenzione: un quadrato in piedi sulla punta resta un quadrato, non diventa un rombo! Attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Il pinguino Professor Pip riceve al museo tanti tesori su un nastro trasportatore: figure piatte che arrivano inclinate, piccolissime, allungate o capovolte. Il bambino deve nominarle toccando il piedistallo giusto e riconoscere cerchio, triangolo, quadrato, rettangolo ed esagono a prescindere da come sono girate o grandi. Attenzione: un quadrato in piedi sulla punta resta un quadrato, non diventa un rombo! Attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Bekijk elke vorm — ook gedraaid, klein of uitgerekt — en breng hem naar het voetstuk met de juiste naam: cirkel, driehoek, vierkant, rechthoek of zeshoek. Een vorm houdt zijn naam, ook al is hij gedraaid of groter: een vierkant op zijn punt is nog steeds een vierkant. Gratis en interactief, in het rustige museum van Professor Tobbe."
     },
     "kid_prompt_template": "curate-wing"
   }

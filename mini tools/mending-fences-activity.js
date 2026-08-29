@@ -229,6 +229,39 @@
       srUnitPlant: 'Per piantare erba, conti i quadretti al centro.',
       srRoll: 'Un rotolo di rete, lungo {roll}: fa tutto il giro del campo?',
       fieldAria: 'campo {n}'
+    },
+    nl: {
+      qmend: 'Repareer het kapotte hek – hoe lang is de ontbrekende plank?',
+      qrank: 'Hazels twee weilanden – eerst over het hek, dan over het gras.',
+      qunit: 'De rand omheinen of binnenin planten – welke tekens?',
+      qroll: 'Reikt de rol hek helemaal rondom?',
+      qsame: 'Beide weilanden hebben evenveel gras – welke heeft meer hek nodig?',
+      askFence: 'Welk weiland heeft MEER hek nodig?',
+      askGrass: 'En op welk weiland groeit MEER gras?',
+      askUnitFence: 'Voor het HEK – welke tekens tel je?',
+      askUnitPlant: 'Voor het GRAS – welke tel je?',
+      askRoll: 'Een rol hek van {n} lang – reikt hij rondom?',
+      reach: 'Ja, hij reikt', short: 'Nee, te kort',
+      win: 'Gerepareerd! {note}',
+      winFence: 'het hek gaat helemaal rondom.',
+      winGrass: 'meer hek, minder gras – goed gezien!',
+      winUnit: 'dat is het juiste teken.',
+      winRoll: 'precies de juiste lengte.',
+      nMend: 'Denk eraan: twee lange ÉN twee korte zijden.',
+      nRankFence: 'Kijk nog eens – welke rand is helemaal rondom langer?',
+      nRankGrass: 'Welk weiland heeft binnenin meer grasvakjes?',
+      nUnit: 'Voor het hek tel je de streepjes langs de RAND; voor het gras de vakjes BINNENIN.',
+      nRoll: 'Bedenk eerst hoe ver het helemaal rondom is.',
+      unitEdge: 'Streepjes', unitInterior: 'Vakjes binnenin', unitBorder: 'Randring',
+      ropeLabel: 'Heklengte: ', plateAria: '{n} lang',
+      winMend: 'twee lange en twee korte zijden.',
+      srMend: 'Een hek van {p} gaat rondom; één zijde is {s}. Hoe lang is de ontbrekende plank?',
+      srRank: 'Twee weilanden. Welke heeft meer hek langs de rand nodig, en op welke groeit binnenin meer gras?',
+      srSame: 'Twee weilanden hebben evenveel gras. Welke heeft er meer hek omheen nodig?',
+      srUnitFence: 'Voor het hek tel je de streepjes langs de rand.',
+      srUnitPlant: 'Voor het gras tel je de vakjes binnenin.',
+      srRoll: 'Een rol hek van {roll} lang – reikt hij helemaal rondom het weiland?',
+      fieldAria: 'weiland {n}'
     }
   };
   function txt(k, a) {
@@ -333,13 +366,13 @@
   var MendingFencesActivity = {
     id: 'mending-fences-activity',
     strings: {
-      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures', es: 'Hazel arregla las cercas', pt: 'Hazel conserta as cercas', it: 'Hazel ripara le staccionate' },
-      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !', es: '¡Ayuda a Hazel a arreglar las cercas: el perímetro es el camino que da una vuelta completa alrededor!', pt: 'Ajude o Hazel a consertar as cercas — o perímetro é a distância ao dar a volta inteira!', it: 'Aiuta Hazel a riparare le staccionate: il perimetro è la distanza che fa tutto il giro!' },
-      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.', es: 'Arregla la cerca rota.', pt: 'Conserte a cerca quebrada.', it: 'Ripara la staccionata rotta.' },
-      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.', es: 'Dos campos: primero la cerca, luego el pasto.', pt: 'Dois campos — a cerca, depois a grama.', it: 'Due campi: prima la staccionata, poi i quadretti.' },
-      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?', es: '¿Las marcas de la orilla o los cuadritos de adentro?', pt: 'Marcas da borda ou quadradinhos de dentro?', it: 'Segni sul bordo o quadretti dentro?' },
-      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?', es: '¿La cerca alcanza para dar toda la vuelta?', pt: 'A cerca dá a volta inteira?', it: 'Il rotolo di rete fa tutto il giro?' },
-      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?', es: 'Mismo pasto: ¿quién necesita más cerca?', pt: 'Mesma grama — qual precisa de mais cerca?', it: 'Stessa erba: quale ha bisogno di più staccionata?' }
+      title: { en: 'The Mending Fences', de: 'Hazel flickt die Zäune', fr: 'Hazel répare les clôtures', es: 'Hazel arregla las cercas', pt: 'Hazel conserta as cercas', it: 'Hazel ripara le staccionate', nl: 'Hazel repareert de hekken' },
+      instruction: { en: 'Help Hazel mend the fences — perimeter is the distance all the way around!', de: 'Hilf Hazel beim Zaunflicken – der Umfang ist der Weg einmal rundherum!', fr: 'Aide Hazel à réparer les clôtures — le périmètre, c’est la distance tout autour !', es: '¡Ayuda a Hazel a arreglar las cercas: el perímetro es el camino que da una vuelta completa alrededor!', pt: 'Ajude o Hazel a consertar as cercas — o perímetro é a distância ao dar a volta inteira!', it: 'Aiuta Hazel a riparare le staccionate: il perimetro è la distanza che fa tutto il giro!', nl: 'Help Hazel de hekken te repareren – de omtrek is de weg helemaal rondom!' },
+      qmend: { en: 'Mend the broken fence.', de: 'Flick den kaputten Zaun.', fr: 'Répare la clôture cassée.', es: 'Arregla la cerca rota.', pt: 'Conserte a cerca quebrada.', it: 'Ripara la staccionata rotta.', nl: 'Repareer het kapotte hek.' },
+      qrank: { en: "Two fields — fence, then grass.", de: 'Zwei Felder – erst Zaun, dann Gras.', fr: 'Deux champs — la clôture, puis l’herbe.', es: 'Dos campos: primero la cerca, luego el pasto.', pt: 'Dois campos — a cerca, depois a grama.', it: 'Due campi: prima la staccionata, poi i quadretti.', nl: 'Twee weilanden – eerst hek, dan gras.' },
+      qunit: { en: 'Edge marks or inside squares?', de: 'Randmarken oder Kästchen in der Mitte?', fr: 'Marques du bord ou carrés à l’intérieur ?', es: '¿Las marcas de la orilla o los cuadritos de adentro?', pt: 'Marcas da borda ou quadradinhos de dentro?', it: 'Segni sul bordo o quadretti dentro?', nl: 'Streepjes of vakjes binnenin?' },
+      qroll: { en: 'Does the fence reach around?', de: 'Reicht der Zaun einmal herum?', fr: 'Est-ce que la clôture fait le tour ?', es: '¿La cerca alcanza para dar toda la vuelta?', pt: 'A cerca dá a volta inteira?', it: 'Il rotolo di rete fa tutto il giro?', nl: 'Reikt het hek rondom?' },
+      qsame: { en: 'Same grass — which needs more fence?', de: 'Gleich viel Gras – wer braucht mehr Zaun?', fr: 'Autant d’herbe — lequel a besoin de plus de clôture ?', es: 'Mismo pasto: ¿quién necesita más cerca?', pt: 'Mesma grama — qual precisa de mais cerca?', it: 'Stessa erba: quale ha bisogno di più staccionata?', nl: 'Evenveel gras – welke heeft meer hek nodig?' }
     },
 
     init: function (api) {

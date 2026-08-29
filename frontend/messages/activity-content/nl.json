@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "mending-fences.mend-board.3-md-d-8": {
+      "about": [
+        "Hazel de das houdt de weilandhekken heel. In vijf soorten opdrachten help je haar: een ontbrekende hekplank vinden; twee weilanden vergelijken (welk heeft meer hek nodig, en welk laat meer gras groeien?); de juiste eenheid kiezen (de streepjes langs de rand voor de omtrek of de vakjes binnenin voor de oppervlakte); ontdekken of een rol hek helemaal rondom reikt; en kijken welk weiland bij hetzelfde gras toch meer hek nodig heeft.",
+        "De kern is het verschil tussen omtrek en oppervlakte. De omtrek is het hek rondom het weiland, de oppervlakte is het gras dat erin past. Je werkt zonder formules: je telt en vergelijkt met kleine, hele getallen. Zo bouw je een gevoel op voor allebei de begrippen, precies zoals dat past bij het SLO-domein meten en meetkunde.",
+        "Er is geen klok, geen score en geen stress. Je werkt in je eigen tempo en probeert net zo vaak als je wilt. Alles is gratis en je kunt meteen beginnen."
+      ],
+      "practices": [
+        "De omtrek als 'het hek rondom' tellen, zonder formule.",
+        "De ontbrekende zijde van een rechthoek vinden als de hele omtrek en een zijde bekend zijn (omkeeropgave).",
+        "Omtrek en oppervlakte van hetzelfde weiland uit elkaar houden en het juiste tellen.",
+        "Ontdekken dat dezelfde oppervlakte niet dezelfde omtrek betekent."
+      ],
+      "howToPlay": [
+        "Lees wat Hazel nodig heeft en kijk goed naar het weiland.",
+        "Tel de randen voor de omtrek of de vakjes voor de oppervlakte, en kies of typ je antwoord.",
+        "Klopt het niet? Probeer het rustig opnieuw – zo vaak als je wilt."
+      ],
+      "learningGoals": [
+        "Ik weet het verschil tussen omtrek en oppervlakte van een rechthoek.",
+        "Ik kan de omtrek tellen en een ontbrekende zijde terugvinden.",
+        "Ik snap dat weilanden met evenveel gras toch een andere omtrek kunnen hebben."
+      ]
+    },
     "comet-kangaroo.tens-hundreds.2-nbt-b-8": {
       "about": [
         "Komeet de kangoeroe is dol op grote sprongen. Bij elke sprong springt hij precies 10 of 100 vooruit of achteruit vanaf een getal van drie cijfers. Zo werk je aan positiewaarde en getalbegrip tot 1000, terwijl Komeet door het landschap stuitert.",

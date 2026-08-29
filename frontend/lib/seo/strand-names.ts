@@ -191,6 +191,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     de: 'Zahlen und Operationen', // KMK Primarstufe has no separate „Brüche" Leitidee — basic Bruchteile sit under „Zahlen und Operationen" (de fan-out; fox-forge 3.NF.A.1)
     es: 'Sentido numérico', // SEP/NEM: una fracción es un número; no hay eje de fracciones aparte en primaria → viven en "Sentido numérico" (es fan-out; fox-forge 3.NF.A.1)
     pt: 'Números', // BNCC não tem eixo "Frações" separado — as frações vivem na unidade temática "Números" (pt fan-out; fox-forge 3.NF.A.1)
+    nl: 'Getallen', // SLO heeft geen apart breuken-domein — breuken vallen onder getalbegrip (kerndoel 26); mirror de/es/pt (nl fan-out; fox-forge 3.NF.A.1)
   },
 };
 

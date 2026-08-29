@@ -63,12 +63,22 @@
     if (a === 1) return 'un ' + u;
     return (NUM_IT[a] || a) + ' ' + u.replace(/o$/, 'i');
   }
+  /* Dutch fraction words: "een half", "drie vierde", "twee derde" — numerator 1 = attributive "een";
+     the fraction-noun is INVARIANT (singular, no -n): modern NL/teacher standard "drie vierde" (not
+     "drie vierden"); ¼ = "vierde" (systematic ordinal set, not "kwart"). */
+  var NUM_NL = ['', 'een', 'twee', 'drie', 'vier', 'vijf', 'zes', 'zeven', 'acht'];
+  var UNIT_NL = { 2: 'half', 3: 'derde', 4: 'vierde', 6: 'zesde', 8: 'achtste' };
+  function fracWordNL(a, b) {
+    var u = UNIT_NL[b] || (b + 'de');
+    return (a === 1 ? 'een' : (NUM_NL[a] || a)) + ' ' + u;
+  }
   function fracWord(a, b) {
     if (LANG === 'es') return fracWordES(a, b);
     if (LANG === 'de') return fracWordDE(a, b);
     if (LANG === 'fr') return fracWordFR(a, b);
     if (LANG === 'pt') return fracWordPT(a, b);
     if (LANG === 'it') return fracWordIT(a, b);
+    if (LANG === 'nl') return fracWordNL(a, b);
     var u = UNIT[b] || (b + 'th');
     if (a === 1) return 'one ' + u;
     return (NUM[a] || a) + ' ' + u + 's';
@@ -76,7 +86,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'es' ? 'es-MX' : LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -86,22 +96,22 @@
     id: 'fox-forge-activity',
 
     strings: {
-      title: { en: "Pip's Chocolate Forge", de: 'Pips Schokoladen-Werkstatt', fr: 'La fabrique de chocolat de Pip', es: 'El taller de Pip', pt: 'A Fábrica de Chocolate do Pip', it: 'La cioccolateria di Pip' },
-      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '' },
-      prompt: { en: 'Forge the order.', de: 'Gieße die Bestellung.', fr: 'Fabrique la commande.', es: '¡Vacía el pedido!', pt: 'Prepare o pedido.', it: 'Prepara la tua ordinazione' },
-      handOver: { en: 'Hand it over 🍫', de: 'Abgeben 🍫', fr: 'Livrer 🍫', es: 'Entregar 🍫', pt: 'Entregar 🍫', it: 'Consegnala 🍫' },
-      tapToForge: { en: 'tap the bar to forge a piece', de: 'tippe auf die Tafel, um ein Stück zu gießen', fr: 'touche la barre pour fabriquer un morceau', es: 'Toca la barra para vaciar una pieza.', pt: 'toque na barra para moldar uma peça', it: 'tocca la tavoletta per colare un pezzo' },
-      sayWelcome: { en: 'A new order! Pick the right piece by its SIZE.', de: 'Eine neue Bestellung! Wähle das richtige Stück nach seiner GRÖSSE.', fr: 'Une nouvelle commande ! Choisis le bon morceau d’après sa TAILLE.', es: '¡Un pedido nuevo! Elige la pieza correcta por su TAMAÑO.', pt: 'Um novo pedido! Escolha a peça certa pelo TAMANHO.', it: 'Una nuova ordinazione! Scegli il pezzo giusto dalla GRANDEZZA.' },
-      sayWin: { en: 'Perfect order — thank you! 🍫', de: 'Perfekte Bestellung – danke! 🍫', fr: 'Commande parfaite — merci ! 🍫', es: '¡Pedido perfecto, gracias! 🍫', pt: 'Pedido perfeito — obrigado! 🍫', it: 'Ordinazione perfetta, grazie! 🍫' },
-      sayPickMold: { en: 'Pick a piece-mold first.', de: 'Wähle zuerst eine Form.', fr: 'Choisis d’abord un moule.', es: 'Primero elige un molde.', pt: 'Primeiro escolha uma forma.', it: 'Prima scegli uno stampo.' },
-      sayUnequal: { en: "Those aren't equal — pick the fair mold!", de: 'Die sind nicht gleich groß – wähle die faire Form!', fr: 'Ces morceaux ne sont pas égaux — choisis le moule juste !', es: 'Esas no están iguales… ¡elige el molde parejo!', pt: 'Esses pedaços não são iguais — escolha a forma que faz partes iguais!', it: 'Quelli non sono uguali, scegli lo stampo giusto!' },
-      sayShort: { en: 'Not enough yet — forge more pieces.', de: 'Noch nicht genug – gieße mehr Stücke.', fr: 'Pas encore assez — fabrique plus de morceaux.', es: 'Todavía faltan… vacía más piezas.', pt: 'Ainda falta — molde mais peças.', it: 'Non bastano ancora, cola altri pezzi.' },
-      sayOver: { en: "That's too much — tap a piece to take it back.", de: 'Das ist zu viel – tippe auf ein Stück, um es zurückzunehmen.', fr: 'C’est trop — touche un morceau pour le reprendre.', es: 'Es demasiado… toca una pieza para quitarla.', pt: 'Passou! Toque numa peça para tirar.', it: 'Troppi pezzi, tocca un pezzo per toglierlo.' },
-      sayWrongSize: { en: 'Hmm — those are the wrong size. Try another mold.', de: 'Hmm – das ist die falsche Größe. Probier eine andere Form.', fr: 'Hmm — ces morceaux ne sont pas de la bonne taille. Essaie un autre moule.', es: 'Mmm… ese tamaño no es. Prueba con otro molde.', pt: 'Hmm — o tamanho não é esse. Tente outra forma.', it: 'Mmm, la grandezza non va. Prova un altro stampo.' },
-      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.', fr: 'Regardons encore une fois.', es: 'Vamos a mirar otra vez.', pt: 'Vamos tentar de novo!', it: 'Guardiamo ancora.' },
-      sayCross: { en: 'Yes — the same share, on a different shape!', de: 'Ja – der gleiche Anteil, nur in einer anderen Form!', fr: 'Oui — le même partage, sur une autre forme !', es: '¡Sí! La misma parte, ¡solo que con otra forma!', pt: 'Isso! A mesma parte, num formato diferente!', it: 'Sì, la stessa parte, su una forma diversa!' },
-      crossYes: { en: 'Yes — same share! 🍕', de: 'Ja – gleicher Anteil! 🍕', fr: 'Oui — le même partage ! 🍕', es: '¡Sí, la misma parte! 🍕', pt: 'Isso — a mesma parte! 🍕', it: 'Sì, stessa parte! 🍕' },
-      hintCheck: { en: 'Pick the piece that fits the bar, forge it the right number of times, then hand it over.', de: 'Wähle das Stück, das zur Tafel passt, gieße es so oft wie nötig und gib sie dann ab.', fr: 'Choisis le morceau qui va avec la barre, fabrique-le le bon nombre de fois, puis livre la commande.', es: 'Elige la pieza que cabe en la barra, vacíala las veces que necesites y entrégala.', pt: 'Toque em Entregar quando o pedido estiver pronto.', it: 'Scegli il pezzo giusto per la tavoletta, colalo il numero giusto di volte, poi consegna.' }
+      title: { en: "Pip's Chocolate Forge", de: 'Pips Schokoladen-Werkstatt', fr: 'La fabrique de chocolat de Pip', es: 'El taller de Pip', pt: 'A Fábrica de Chocolate do Pip', it: 'La cioccolateria di Pip', nl: 'Brams chocoladewerkplaats' },
+      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '', nl: '' },
+      prompt: { en: 'Forge the order.', de: 'Gieße die Bestellung.', fr: 'Fabrique la commande.', es: '¡Vacía el pedido!', pt: 'Prepare o pedido.', it: 'Prepara la tua ordinazione', nl: 'Giet de bestelling.' },
+      handOver: { en: 'Hand it over 🍫', de: 'Abgeben 🍫', fr: 'Livrer 🍫', es: 'Entregar 🍫', pt: 'Entregar 🍫', it: 'Consegnala 🍫', nl: 'Geef hem af 🍫' },
+      tapToForge: { en: 'tap the bar to forge a piece', de: 'tippe auf die Tafel, um ein Stück zu gießen', fr: 'touche la barre pour fabriquer un morceau', es: 'Toca la barra para vaciar una pieza.', pt: 'toque na barra para moldar uma peça', it: 'tocca la tavoletta per colare un pezzo', nl: 'tik op de reep om een stukje te gieten' },
+      sayWelcome: { en: 'A new order! Pick the right piece by its SIZE.', de: 'Eine neue Bestellung! Wähle das richtige Stück nach seiner GRÖSSE.', fr: 'Une nouvelle commande ! Choisis le bon morceau d’après sa TAILLE.', es: '¡Un pedido nuevo! Elige la pieza correcta por su TAMAÑO.', pt: 'Um novo pedido! Escolha a peça certa pelo TAMANHO.', it: 'Una nuova ordinazione! Scegli il pezzo giusto dalla GRANDEZZA.', nl: 'Een nieuwe bestelling! Kies het juiste stukje op GROOTTE.' },
+      sayWin: { en: 'Perfect order — thank you! 🍫', de: 'Perfekte Bestellung – danke! 🍫', fr: 'Commande parfaite — merci ! 🍫', es: '¡Pedido perfecto, gracias! 🍫', pt: 'Pedido perfeito — obrigado! 🍫', it: 'Ordinazione perfetta, grazie! 🍫', nl: 'Perfecte bestelling — bedankt! 🍫' },
+      sayPickMold: { en: 'Pick a piece-mold first.', de: 'Wähle zuerst eine Form.', fr: 'Choisis d’abord un moule.', es: 'Primero elige un molde.', pt: 'Primeiro escolha uma forma.', it: 'Prima scegli uno stampo.', nl: 'Kies eerst een mal.' },
+      sayUnequal: { en: "Those aren't equal — pick the fair mold!", de: 'Die sind nicht gleich groß – wähle die faire Form!', fr: 'Ces morceaux ne sont pas égaux — choisis le moule juste !', es: 'Esas no están iguales… ¡elige el molde parejo!', pt: 'Esses pedaços não são iguais — escolha a forma que faz partes iguais!', it: 'Quelli non sono uguali, scegli lo stampo giusto!', nl: 'Die zijn niet gelijk — kies de eerlijke mal!' },
+      sayShort: { en: 'Not enough yet — forge more pieces.', de: 'Noch nicht genug – gieße mehr Stücke.', fr: 'Pas encore assez — fabrique plus de morceaux.', es: 'Todavía faltan… vacía más piezas.', pt: 'Ainda falta — molde mais peças.', it: 'Non bastano ancora, cola altri pezzi.', nl: 'Nog niet genoeg — giet meer stukjes.' },
+      sayOver: { en: "That's too much — tap a piece to take it back.", de: 'Das ist zu viel – tippe auf ein Stück, um es zurückzunehmen.', fr: 'C’est trop — touche un morceau pour le reprendre.', es: 'Es demasiado… toca una pieza para quitarla.', pt: 'Passou! Toque numa peça para tirar.', it: 'Troppi pezzi, tocca un pezzo per toglierlo.', nl: 'Dat is te veel — tik op een stukje om het terug te nemen.' },
+      sayWrongSize: { en: 'Hmm — those are the wrong size. Try another mold.', de: 'Hmm – das ist die falsche Größe. Probier eine andere Form.', fr: 'Hmm — ces morceaux ne sont pas de la bonne taille. Essaie un autre moule.', es: 'Mmm… ese tamaño no es. Prueba con otro molde.', pt: 'Hmm — o tamanho não é esse. Tente outra forma.', it: 'Mmm, la grandezza non va. Prova un altro stampo.', nl: 'Hmm — dat is de verkeerde grootte. Probeer een andere mal.' },
+      sayAgain: { en: "Let's look again.", de: 'Schauen wir noch mal.', fr: 'Regardons encore une fois.', es: 'Vamos a mirar otra vez.', pt: 'Vamos tentar de novo!', it: 'Guardiamo ancora.', nl: 'Laten we nog eens kijken.' },
+      sayCross: { en: 'Yes — the same share, on a different shape!', de: 'Ja – der gleiche Anteil, nur in einer anderen Form!', fr: 'Oui — le même partage, sur une autre forme !', es: '¡Sí! La misma parte, ¡solo que con otra forma!', pt: 'Isso! A mesma parte, num formato diferente!', it: 'Sì, la stessa parte, su una forma diversa!', nl: 'Ja — hetzelfde deel, op een andere vorm!' },
+      crossYes: { en: 'Yes — same share! 🍕', de: 'Ja – gleicher Anteil! 🍕', fr: 'Oui — le même partage ! 🍕', es: '¡Sí, la misma parte! 🍕', pt: 'Isso — a mesma parte! 🍕', it: 'Sì, stessa parte! 🍕', nl: 'Ja — hetzelfde deel! 🍕' },
+      hintCheck: { en: 'Pick the piece that fits the bar, forge it the right number of times, then hand it over.', de: 'Wähle das Stück, das zur Tafel passt, gieße es so oft wie nötig und gib sie dann ab.', fr: 'Choisis le morceau qui va avec la barre, fabrique-le le bon nombre de fois, puis livre la commande.', es: 'Elige la pieza que cabe en la barra, vacíala las veces que necesites y entrégala.', pt: 'Toque em Entregar quando o pedido estiver pronto.', it: 'Scegli il pezzo giusto per la tavoletta, colalo il numero giusto di volte, poi consegna.', nl: 'Kies het stukje dat bij de reep past, giet het het juiste aantal keer, en geef hem dan af.' }
     },
     defaults: {},
 
@@ -134,7 +144,7 @@
       var self = this, r = this.round, s = this.snap;
 
       var say = api.el('div', 'ff-saytop');
-      say.innerHTML = '<span class="ff-pip' + (this.solved ? ' ff-bounce' : '') + '">🦊</span><span class="ff-saytext">' + esc(this.msg || api.t('sayWelcome')) + '</span>';
+      say.innerHTML = '<span class="ff-pip' + (this.solved ? ' ff-bounce' : '') + '">' + (LANG === 'nl' ? '🐻' : '🦊') + '</span><span class="ff-saytext">' + esc(this.msg || api.t('sayWelcome')) + '</span>';
       root.appendChild(say);
 
       this._renderShelf(root);
@@ -178,7 +188,7 @@
       var self = this, r = this.round, W = r.wholeLen, refW = r.refWhole || 0;
       var VW = Math.max(W, refW) + 6, BH = 13, GAP = 5, twoBar = refW > 0;
       var VH = twoBar ? (BH * 2 + GAP + 4) : (BH + 4);
-      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'ff-svg' + (twoBar ? ' ff-svg2' : ''), 'aria-label': (LANG === 'es' ? 'pedido de chocolate' : LANG === 'de' ? 'Schokoladen-Bestellung' : LANG === 'fr' ? 'commande de chocolat' : LANG === 'pt' ? 'barra de chocolate do pedido' : LANG === 'it' ? 'tavoletta di cioccolato da colare' : 'chocolate order bar') });
+      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + VH, class: 'ff-svg' + (twoBar ? ' ff-svg2' : ''), 'aria-label': (LANG === 'es' ? 'pedido de chocolate' : LANG === 'de' ? 'Schokoladen-Bestellung' : LANG === 'fr' ? 'commande de chocolat' : LANG === 'pt' ? 'barra de chocolate do pedido' : LANG === 'it' ? 'tavoletta di cioccolato da colare' : LANG === 'nl' ? 'chocoladebestelling' : 'chocolate order bar') });
       sv.style.aspectRatio = (VW / VH).toFixed(2);
 
       /* the reference bar (the-whole): a smaller bar already filled to a/b, faint. */
@@ -212,7 +222,7 @@
         /* seam ridge for chocolate look */
         g.appendChild(svg('line', { x1: k * pw + pw - 0.5, y1: by + 1.4, x2: k * pw + pw - 0.5, y2: by + BH - 1.4, stroke: 'rgba(255,255,255,.25)', 'stroke-width': 0.4 }));
         if (opts.interactive) {
-          g.setAttribute('role', 'button'); g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', (LANG === 'es' ? 'toca para quitar esta pieza' : LANG === 'de' ? 'dieses Stück zurücknehmen' : LANG === 'fr' ? 'reprendre ce morceau' : LANG === 'pt' ? 'tirar esta peça' : LANG === 'it' ? 'riprendi questo pezzo' : 'take this piece back')); g.style.cursor = 'pointer';
+          g.setAttribute('role', 'button'); g.setAttribute('tabindex', '0'); g.setAttribute('aria-label', (LANG === 'es' ? 'toca para quitar esta pieza' : LANG === 'de' ? 'dieses Stück zurücknehmen' : LANG === 'fr' ? 'reprendre ce morceau' : LANG === 'pt' ? 'tirar esta peça' : LANG === 'it' ? 'riprendi questo pezzo' : LANG === 'nl' ? 'dit stukje terugnemen' : 'take this piece back')); g.style.cursor = 'pointer';
           (function (idx) { g.addEventListener('click', function () { self._unforge(idx); }); g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); self._unforge(idx); } }); })(k);
         }
         sv.appendChild(g);
@@ -228,7 +238,7 @@
       var btn = api.el('button', 'ff-mold' + (sel ? ' ff-msel' : ''));
       btn.type = 'button';
       var unequal = (moldB === 'unequal');
-      btn.setAttribute('aria-label', LANG === 'es' ? (unequal ? 'un molde disparejo' : 'un molde de piezas') : LANG === 'de' ? (unequal ? 'eine ungleiche Form' : 'eine Stück-Form') : LANG === 'fr' ? (unequal ? 'un moule inégal' : 'un moule à morceau') : LANG === 'pt' ? (unequal ? 'uma forma desigual' : 'uma forma de peça') : LANG === 'it' ? (unequal ? 'uno stampo irregolare' : 'uno stampo per pezzi') : (unequal ? 'an uneven mold' : 'a piece mold'));
+      btn.setAttribute('aria-label', LANG === 'es' ? (unequal ? 'un molde disparejo' : 'un molde de piezas') : LANG === 'de' ? (unequal ? 'eine ungleiche Form' : 'eine Stück-Form') : LANG === 'fr' ? (unequal ? 'un moule inégal' : 'un moule à morceau') : LANG === 'pt' ? (unequal ? 'uma forma desigual' : 'uma forma de peça') : LANG === 'it' ? (unequal ? 'uno stampo irregolare' : 'uno stampo per pezzi') : LANG === 'nl' ? (unequal ? 'een ongelijke mal' : 'een stukjesmal') : (unequal ? 'an uneven mold' : 'a piece mold'));
       var MW = 64, MH = 18;
       var s = svg('svg', { viewBox: '0 0 ' + (MW + 2) + ' ' + MH, class: 'ff-moldsvg' });
       s.appendChild(svg('rect', { x: 1, y: 2, width: MW, height: MH - 4, rx: 1.8, fill: 'none', stroke: 'rgba(107,74,43,.45)', 'stroke-width': 0.9 }));
@@ -254,7 +264,7 @@
       stageWrap.appendChild(this._orderSvg({ interactive: true }));
       root.appendChild(stageWrap);
 
-      var wall = api.el('div', 'ff-moldwall'); wall.setAttribute('role', 'group'); wall.setAttribute('aria-label', (LANG === 'es' ? 'moldes de piezas: elige uno por su tamaño' : LANG === 'de' ? 'Stück-Formen – wähle eine nach ihrer Größe' : LANG === 'fr' ? 'moules à morceaux — choisis-en un d’après sa taille' : LANG === 'pt' ? 'formas de peça — escolha uma pelo tamanho' : LANG === 'it' ? 'stampi per pezzi, scegline uno dalla grandezza' : 'piece molds — pick one by its size'));
+      var wall = api.el('div', 'ff-moldwall'); wall.setAttribute('role', 'group'); wall.setAttribute('aria-label', (LANG === 'es' ? 'moldes de piezas: elige uno por su tamaño' : LANG === 'de' ? 'Stück-Formen – wähle eine nach ihrer Größe' : LANG === 'fr' ? 'moules à morceaux — choisis-en un d’après sa taille' : LANG === 'pt' ? 'formas de peça — escolha uma pelo tamanho' : LANG === 'it' ? 'stampi per pezzi, scegline uno dalla grandezza' : LANG === 'nl' ? 'stukjesmallen — kies er één op grootte' : 'piece molds — pick one by its size'));
       this._molds.forEach(function (m, i) { wall.appendChild(self._moldButton(m.b, i)); });
       root.appendChild(wall);
 
@@ -268,7 +278,7 @@
     _renderNameUnit: function (root) {
       var self = this, api = this.api, r = this.round, W = r.wholeLen, BH = 16, VW = W + 4;
       var wrap = api.el('div', 'ff-forge');
-      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + (BH + 4), class: 'ff-svg', 'aria-label': (LANG === 'es' ? ('una barra en ' + r.b + ' partes iguales, una sombreada') : LANG === 'de' ? ('eine Tafel in ' + r.b + ' gleiche Teile geteilt, ein Teil gefärbt') : LANG === 'fr' ? ('une barre en ' + r.b + ' parts égales, une part colorée') : LANG === 'pt' ? ('uma barra em ' + r.b + ' partes iguais, uma pintada') : LANG === 'it' ? ('una tavoletta in ' + r.b + ' parti uguali, una colorata') : ('a bar in ' + r.b + ' equal parts, one shaded')) });
+      var sv = svg('svg', { viewBox: '0 0 ' + VW + ' ' + (BH + 4), class: 'ff-svg', 'aria-label': (LANG === 'es' ? ('una barra en ' + r.b + ' partes iguales, una sombreada') : LANG === 'de' ? ('eine Tafel in ' + r.b + ' gleiche Teile geteilt, ein Teil gefärbt') : LANG === 'fr' ? ('une barre en ' + r.b + ' parts égales, une part colorée') : LANG === 'pt' ? ('uma barra em ' + r.b + ' partes iguais, uma pintada') : LANG === 'it' ? ('una tavoletta in ' + r.b + ' parti uguali, una colorata') : LANG === 'nl' ? ('een reep in ' + r.b + ' gelijke delen verdeeld, één deel gekleurd') : ('a bar in ' + r.b + ' equal parts, one shaded')) });
       sv.style.aspectRatio = (VW / (BH + 4)).toFixed(2);
       sv.appendChild(svg('rect', { x: 0, y: 2, width: W, height: BH, rx: 1.8, fill: '#fff', stroke: C.BAR, 'stroke-width': 0.9 }));
       var unit = W / r.b;
@@ -292,7 +302,7 @@
     _renderCrossShape: function (root) {
       var self = this, api = this.api, r = this.round, W = r.wholeLen, BH = 14;
       var wrap = api.el('div', 'ff-forge ff-cross');
-      var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-svgbar', 'aria-label': (LANG === 'es' ? 'una barra con la mitad sombreada' : LANG === 'de' ? 'eine Tafel, bei der eine Hälfte gefärbt ist' : LANG === 'fr' ? 'une barre dont une moitié est colorée' : LANG === 'pt' ? 'uma barra com um meio pintado' : LANG === 'it' ? 'una tavoletta con un mezzo colorato' : 'a bar with one half shaded') });
+      var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-svgbar', 'aria-label': (LANG === 'es' ? 'una barra con la mitad sombreada' : LANG === 'de' ? 'eine Tafel, bei der eine Hälfte gefärbt ist' : LANG === 'fr' ? 'une barre dont une moitié est colorée' : LANG === 'pt' ? 'uma barra com um meio pintado' : LANG === 'it' ? 'una tavoletta con un mezzo colorato' : LANG === 'nl' ? 'een reep waarvan de helft gekleurd is' : 'a bar with one half shaded') });
       sv.style.aspectRatio = ((W + 4) / (BH + 4)).toFixed(2);
       sv.appendChild(svg('rect', { x: 0, y: 2, width: W, height: BH, rx: 1.8, fill: '#fff', stroke: C.BAR, 'stroke-width': 0.9 }));
       sv.appendChild(svg('rect', { x: 0.5, y: 2.7, width: W / r.b - 1, height: BH - 1.4, rx: 1.2, fill: C.PIECE }));
@@ -303,7 +313,8 @@
       var UNIT_ART_ES = { 2: 'la mitad', 3: 'un tercio', 4: 'un cuarto', 6: 'un sexto', 8: 'un octavo' };
       var UNIT_ART_PT = { 2: 'um meio', 3: 'um terço', 4: 'um quarto', 6: 'um sexto', 8: 'um oitavo' };
       var UNIT_ART_IT = { 2: 'un mezzo', 3: 'un terzo', 4: 'un quarto', 6: 'un sesto', 8: 'un ottavo' };
-      var pz = svg('svg', { viewBox: '0 0 40 40', class: 'ff-pizza', 'aria-label': (LANG === 'es' ? ('una pizza redonda con ' + (UNIT_ART_ES[r.b] || 'una parte') + ' sombreada') : LANG === 'de' ? ('eine runde Pizza, bei der ' + (UNIT_ART_DE[r.b] || 'ein Teil') + ' gefärbt ist') : LANG === 'fr' ? ('une pizza ronde dont ' + (UNIT_ART_FR[r.b] || 'une part') + ' est colorée') : LANG === 'pt' ? ('uma pizza redonda com ' + (UNIT_ART_PT[r.b] || 'uma parte') + ' pintado') : LANG === 'it' ? ('una pizza rotonda con ' + (UNIT_ART_IT[r.b] || 'una parte') + ' colorato') : ('a round pizza with one ' + UNIT[r.b] + ' shaded')) });
+      var UNIT_ART_NL = { 2: 'de helft', 3: 'een derde', 4: 'een vierde', 6: 'een zesde', 8: 'een achtste' };
+      var pz = svg('svg', { viewBox: '0 0 40 40', class: 'ff-pizza', 'aria-label': (LANG === 'es' ? ('una pizza redonda con ' + (UNIT_ART_ES[r.b] || 'una parte') + ' sombreada') : LANG === 'de' ? ('eine runde Pizza, bei der ' + (UNIT_ART_DE[r.b] || 'ein Teil') + ' gefärbt ist') : LANG === 'fr' ? ('une pizza ronde dont ' + (UNIT_ART_FR[r.b] || 'une part') + ' est colorée') : LANG === 'pt' ? ('uma pizza redonda com ' + (UNIT_ART_PT[r.b] || 'uma parte') + ' pintado') : LANG === 'it' ? ('una pizza rotonda con ' + (UNIT_ART_IT[r.b] || 'una parte') + ' colorato') : LANG === 'nl' ? ('een ronde pizza met ' + (UNIT_ART_NL[r.b] || 'een deel') + ' gekleurd') : ('a round pizza with one ' + UNIT[r.b] + ' shaded')) });
       pz.appendChild(svg('circle', { cx: 20, cy: 20, r: 17, fill: '#fff', stroke: C.BAR, 'stroke-width': 1.2 }));
       pz.appendChild(this._wedge(20, 20, 17, -90, -90 + 360 / r.b, C.PIECE));
       for (var i = 0; i < r.b; i++) { var ang = (-90 + i * 360 / r.b) * Math.PI / 180; pz.appendChild(svg('line', { x1: 20, y1: 20, x2: 20 + 17 * Math.cos(ang), y2: 20 + 17 * Math.sin(ang), stroke: 'rgba(107,74,43,.4)', 'stroke-width': 0.7 })); }
@@ -327,7 +338,7 @@
       /* the finished order — the completed a/b bar fills the card (not sparse) */
       if (r && s && (s.isBuild || s.isNonscored)) {
         var wrap = api.el('div', 'ff-doneforge'), W = r.wholeLen, BH = 15;
-        var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-donesvg', 'aria-label': (LANG === 'es' ? ('la barra de ' + fracWord(r.a, r.b) + ' terminada') : LANG === 'de' ? ('die fertige ' + fracWord(r.a, r.b) + '-Tafel') : LANG === 'fr' ? ('la barre ' + fracWord(r.a, r.b) + ' terminée') : LANG === 'pt' ? ('a barra de ' + fracWord(r.a, r.b) + ' pronta') : LANG === 'it' ? ('la tavoletta di ' + fracWord(r.a, r.b) + ' pronta') : ('the finished ' + fracWord(r.a, r.b) + ' bar')) });
+        var sv = svg('svg', { viewBox: '0 0 ' + (W + 4) + ' ' + (BH + 4), class: 'ff-svg ff-donesvg', 'aria-label': (LANG === 'es' ? ('la barra de ' + fracWord(r.a, r.b) + ' terminada') : LANG === 'de' ? ('die fertige ' + fracWord(r.a, r.b) + '-Tafel') : LANG === 'fr' ? ('la barre ' + fracWord(r.a, r.b) + ' terminée') : LANG === 'pt' ? ('a barra de ' + fracWord(r.a, r.b) + ' pronta') : LANG === 'it' ? ('la tavoletta di ' + fracWord(r.a, r.b) + ' pronta') : LANG === 'nl' ? ('de afgemaakte reep van ' + fracWord(r.a, r.b)) : ('the finished ' + fracWord(r.a, r.b) + ' bar')) });
         sv.style.aspectRatio = ((W + 4) / (BH + 4)).toFixed(2);
         sv.appendChild(svg('rect', { x: 0, y: 2, width: W, height: BH, rx: 1.8, fill: '#fff', stroke: C.BAR, 'stroke-width': 0.9 }));
         var unit = W / r.b;
@@ -392,7 +403,7 @@
       this.solved = true; this.servedCount = Math.min(this.servedCount + 1, (this._pool && this._pool.length) || 11);
       this.msg = api.t('sayWin');
       api.sound && api.sound(880);
-      setTimeout(function () { speak(LANG === 'es' ? '¡Perfecto!' : LANG === 'de' ? 'Perfekt!' : LANG === 'fr' ? 'Parfait !' : LANG === 'pt' ? 'Perfeito!' : 'Perfect!'); }, 160);
+      setTimeout(function () { speak(LANG === 'es' ? '¡Perfecto!' : LANG === 'de' ? 'Perfekt!' : LANG === 'fr' ? 'Parfait !' : LANG === 'pt' ? 'Perfeito!' : LANG === 'nl' ? 'Gelukt!' : 'Perfect!'); }, 160);
       this.render(); api.announce && api.announce(this.msg);
     },
 

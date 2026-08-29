@@ -286,7 +286,8 @@
       "fr": "comparer-les-contenances-lequel-contient-le-plus-gs",
       "es": "comparar-capacidad-en-cual-cabe-mas",
       "pt": "comparar-capacidade-em-qual-cabe-mais-1-ano",
-      "it": "confrontare-la-capacita-quale-bicchiere-contiene-di-piu-classe-prima"
+      "it": "confrontare-la-capacita-quale-bicchiere-contiene-di-piu-classe-prima",
+      "nl": "inhoud-vergelijken-welke-beker-meer-kleuters"
     },
     "page_title": {
       "en": "Which Holds More? — Bramble's Berry-Juice Stand",
@@ -294,7 +295,8 @@
       "fr": "Comparer les contenances : lequel contient le plus ? - GS",
       "es": "Comparar capacidad: ¿en cuál cabe más? (preescolar)",
       "pt": "Comparar Capacidade: Em Qual Cabe Mais? — Atividade de 1º Ano (BNCC)",
-      "it": "Quale bicchiere contiene di più? Il banco di Bramble | Classe prima"
+      "it": "Quale bicchiere contiene di più? Il banco di Bramble | Classe prima",
+      "nl": "Inhoud vergelijken: waar past het meeste in? – kleuters | Storm"
     },
     "page_intro": {
       "en": "Predict which cup holds more berry juice, then pour to find out — a tall, skinny glass can fool your eyes! A no-counting Kindergarten capacity activity aligned to Common Core K.MD.A.2: directly compare two containers and tell which holds more, less, or the same.",
@@ -302,7 +304,8 @@
       "fr": "Devine quel récipient contient le plus de jus de baies, puis verse pour vérifier — un verre haut et fin peut tromper tes yeux ! Une activité de contenance gratuite et interactive pour la GS, sans compter : comparer directement deux récipients et dire lequel contient le plus, le moins, ou pareil.",
       "es": "Compara capacidad: ¿en cuál cabe más? Actividad gratis con Bramble, interactiva y sin registro para preescolar, alineada a los Planes y programas de estudio (SEP).",
       "pt": "Comparar capacidade sem medir: na barraquinha de suco do Bramble, descubra em qual recipiente cabe mais suco de amora. Atividade grátis de 1º ano, sem cadastro, alinhada à BNCC.",
-      "it": "Indovina a occhio quale bicchiere contiene più succo di frutti di bosco, poi versa il succo di more per scoprirlo: un bicchiere alto e stretto inganna l’occhio! Un’attività di capacità gratuita e interattiva, senza contare: confronta direttamente due recipienti e dì quale contiene di più, di meno o la stessa quantità. Pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Indovina a occhio quale bicchiere contiene più succo di frutti di bosco, poi versa il succo di more per scoprirlo: un bicchiere alto e stretto inganna l’occhio! Un’attività di capacità gratuita e interattiva, senza contare: confronta direttamente due recipienti e dì quale contiene di più, di meno o la stessa quantità. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Bekijk de twee bekers naast elkaar en voorspel welke er meer bessensap in kan. Daarna schenk je het sap in en zie je meteen of je gelijk had. Het leuke: de vorm kan je ogen voor de gek houden — een hoog, smal glas lijkt vaak meer, terwijl een lage, brede kom er soms juist meer in kwijt kan. Geen cijfers en geen meten: gewoon goed kijken, voorspellen en ontdekken. Gratis en interactief."
     },
     "kid_prompt_template": "Call it before Bramble pours — which cup holds more?"
   }

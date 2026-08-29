@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "chuffer.rail-decompose.k-oa-a-3": {
+      "about": [
+        "Op het rangeerstation van Tuf rolt een volle wagon met kisten het spoor op, en die lading moet verdeeld worden over twee treinwagons: een blauwe en een rode. Schuif de kisten heen en weer, kijk hoeveel er in elke wagon staan, en trek dan aan de koppeling om de trein te laten rijden. Elke verdeling die je vindt, komt netjes in het ritboek te staan.",
+        "Het grote idee is dat je één getal op heel veel manieren in twee delen kunt splitsen: 5 is 1 en 4, of 2 en 3, of 0 en 5 — en toch blijft het steeds dezelfde 5. Dat je een geheel uit twee delen kunt opbouwen — ook wel deel-deel-geheel genoemd — is de basis voor later hoofdrekenen. Onderweg vind je alle splitsingen van een getal, ontdek je de vriendjes van tien, en zie je dat 2 en 3 dezelfde delen zijn als 3 en 2, alleen met de wagons omgewisseld. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen-wiskunde voor groep 3.",
+        "Geen klok, geen score, geen wedstrijd: gewoon rustig schuiven, hardop zeggen en zelf ontdekken. Zit je ernaast? Dan rijdt de trein gewoon nog een keertje voor, zodat je het opnieuw kunt proberen. Helemaal gratis te spelen."
+      ],
+      "practices": [
+        "Een getal in twee delen splitsen",
+        "Alle splitsingen van een getal vinden",
+        "Elke splitsing hardop benoemen (\"5 is 2 en 3\")",
+        "Herkennen dat 2 en 3 dezelfde delen zijn als 3 en 2 (de wisselsom)"
+      ],
+      "howToPlay": [
+        "Schuif de kisten heen en weer tussen de twee wagons",
+        "Zeg hoeveel kisten er in elke wagon staan",
+        "Vind elke andere manier om de lading te verdelen"
+      ],
+      "learningGoals": [
+        "Getallen tot 10 splitsen in twee delen en zo deel-deel-geheel begrijpen",
+        "Systematisch alle mogelijke splitsingen van een getal ontdekken",
+        "De vriendjes van tien en de wisselsom (2 en 3 = 3 en 2) herkennen"
+      ]
+    },
     "pip-museum.curate-wing.k-g-a-2": {
       "about": [
         "In het vormenmuseum van Professor Tobbe rolt de ene na de andere vorm over de lopende band naar binnen. De pinguïnprofessor vraagt jouw kind om conservator te zijn: bekijk elke vorm die aankomt, noem hardop hoe hij heet en zet hem op het voetstuk met de juiste naam. Sommige vormen liggen schuin, andere zijn piepklein of juist uitgerekt — maar dat verandert niets aan hun naam.",

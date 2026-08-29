@@ -3214,6 +3214,540 @@
               }
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "result-buns",
+            "cog": "result",
+            "band": 1,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "result",
+            "story": "9 broodjes op een bord. Er zijn er 3 opgegeten. Hoeveel nu?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 9
+              },
+              {
+                "id": "k2",
+                "value": 3
+              },
+              {
+                "id": "d",
+                "value": 10
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": "k2"
+              },
+              {
+                "role": "result",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "addto-change-acorns",
+            "cog": "addto-change",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "change",
+            "story": "Pip had 5 eikels en vond er nog een paar. Nu zijn het er 12. Hoeveel vond Pip?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-eggs",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
+            "story": "In een nest lagen eieren. Er kwamen er 5 bij. Nu zijn het er 12. Hoeveel waren het eerst?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 12
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "addto-start-shells",
+            "cog": "addto-start",
+            "band": 1,
+            "diagram": "change",
+            "op": "add",
+            "unknownRole": "start",
+            "story": "Bo had schelpen en kreeg er 4 bij. Nu zijn het er 11. Hoeveel had Bo eerst?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 11
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-ducks",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
+            "story": "12 eenden. Er vlogen er een paar weg. Nu zijn het er 8. Hoeveel vlogen er weg?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 8
+              },
+              {
+                "id": "d",
+                "value": 6
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-change-berries",
+            "cog": "takefrom-change",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "change",
+            "story": "15 bessen. Een vogel at er een paar op. Nu zijn het er 9. Hoeveel zijn er opgegeten?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 15
+              },
+              {
+                "id": "k2",
+                "value": 9
+              },
+              {
+                "id": "d",
+                "value": 7
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": "k1"
+              },
+              {
+                "role": "change",
+                "correct": null
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "takefrom-start-bunnies",
+            "cog": "takefrom-start",
+            "band": 2,
+            "diagram": "change",
+            "op": "sub",
+            "unknownRole": "start",
+            "story": "Er hupten konijnen rond. Er hupten er 4 weg. Nu zijn het er 6. Hoeveel waren het eerst?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 4
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 12
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "start",
+                "correct": null
+              },
+              {
+                "role": "change",
+                "correct": "k1"
+              },
+              {
+                "role": "result",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "puttogether-apples",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
+            "story": "Er liggen 12 appels. 5 zijn rood, de rest is groen. Hoeveel zijn er groen?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "puttogether-socks",
+            "cog": "puttogether-addend",
+            "band": 2,
+            "diagram": "bracket",
+            "op": "add",
+            "unknownRole": "partB",
+            "story": "Er liggen 11 sokken. 4 zijn blauw, de rest is wit. Hoeveel zijn er wit?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 4
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "whole",
+                "correct": "k1"
+              },
+              {
+                "role": "partA",
+                "correct": "k2"
+              },
+              {
+                "role": "partB",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-diff-cats",
+            "cog": "compare-diff",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "difference",
+            "story": "Er zijn 12 katten en 5 honden. Hoeveel meer katten dan honden zijn er?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": "k2"
+              },
+              {
+                "role": "difference",
+                "correct": null
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-cats",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
+            "story": "Er zijn 5 honden. Er zijn 7 katten meer dan honden. Hoeveel katten?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 5
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-bigger-geese",
+            "cog": "compare-bigger",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "bigger",
+            "story": "Er zijn 6 eenden. Er zijn 5 ganzen meer dan eenden. Hoeveel ganzen?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 6
+              },
+              {
+                "id": "k2",
+                "value": 5
+              },
+              {
+                "id": "d",
+                "value": 13
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": null
+              },
+              {
+                "role": "smaller",
+                "correct": "k1"
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-cats",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
+            "story": "Er zijn 12 katten. Er zijn 7 katten meer dan honden. Hoeveel honden?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 12
+              },
+              {
+                "id": "k2",
+                "value": 7
+              },
+              {
+                "id": "d",
+                "value": 15
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          },
+          {
+            "id": "compare-smaller-birds",
+            "cog": "compare-smaller",
+            "band": 3,
+            "diagram": "compare",
+            "op": "add",
+            "unknownRole": "smaller",
+            "story": "Er zijn 11 rode vogels. Er zijn 6 rode meer dan blauwe. Hoeveel blauwe?",
+            "tiles": [
+              {
+                "id": "k1",
+                "value": 11
+              },
+              {
+                "id": "k2",
+                "value": 6
+              },
+              {
+                "id": "d",
+                "value": 14
+              }
+            ],
+            "decoyId": "d",
+            "slots": [
+              {
+                "role": "bigger",
+                "correct": "k1"
+              },
+              {
+                "role": "smaller",
+                "correct": null
+              },
+              {
+                "role": "difference",
+                "correct": "k2"
+              }
+            ]
+          }
         ]
       }
     },
@@ -3224,7 +3758,8 @@
       "fr": "resoudre-des-problemes-jusqu-a-20-ce1",
       "es": "problemas-de-suma-y-resta-hasta-20",
       "pt": "problemas-de-adicao-e-subtracao-ate-20",
-      "it": "problemi-addizione-sottrazione-entro-20-dal-veterinario"
+      "it": "problemi-addizione-sottrazione-entro-20-dal-veterinario",
+      "nl": "verhaalsommen-tot-20-dierenkliniek-groep-4"
     },
     "page_title": {
       "en": "Vet's Diagnosis Window — Word-Problem Modeling",
@@ -3232,7 +3767,8 @@
       "fr": "Problèmes de maths CE1 – exercice en ligne (jusqu'à 20)",
       "es": "Problemas de suma y resta hasta 20 (2.º primaria)",
       "pt": "Problemas de adição e subtração até 20 – Matemática 2º ano (BNCC)",
-      "it": "Problemi entro il 20 dal veterinario | Classe seconda"
+      "it": "Problemi entro il 20 dal veterinario | Classe seconda",
+      "nl": "Verhaalsommen tot 20 oefenen bij de dierenkliniek – groep 4"
     },
     "page_intro": {
       "en": "A shy little animal shuffles into the woodland vet clinic, and its symptom is a number STORY. Watch the x-ray act out what happened, then model it: place each amount in its spot, mark the mystery part, and dial the answer to clear the x-ray and heal your patient. A warm Grade 1 game about adding and subtracting within 20 to solve word problems with unknowns in every position, aligned to Common Core 1.OA.A.1.",
@@ -3240,7 +3776,8 @@
       "fr": "Problèmes de maths CE1 en ligne : résoudre des situations jusqu'à 20 chez le vétérinaire. Gratuit, en ligne, sans inscription.",
       "es": "Resuelve problemas de suma y resta hasta 20 con el zorro veterinario. Juego gratis, interactivo y sin registro para 2.º de primaria (Planes de estudio, SEP).",
       "pt": "Problemas de adição e subtração até 20 com a raposa veterinária: leia a história, modele no diagrama e descubra o número que falta. Jogo grátis e sem cadastro, alinhado à BNCC.",
-      "it": "Nei panni del veterinario, il bambino accoglie gli animali pazienti dello studio veterinario e risolve piccoli problemi uno alla volta. Prima legge la storia dell’animale, poi mette i numeri conosciuti al posto giusto sul diagramma, segna il posto misterioso e infine digita la risposta. È un allenamento completo ai problemi di addizione e sottrazione entro il 20, con l’incognita in ogni posizione — nel risultato, nel cambiamento e anche, più impegnativo, all’inizio — insieme al confronto additivo «quanti in più». Un’attività gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo il piacere di ragionare con calma, sbagliare e riprovare. Pensata per la classe seconda e allineata alle Indicazioni nazionali."
+      "it": "Nei panni del veterinario, il bambino accoglie gli animali pazienti dello studio veterinario e risolve piccoli problemi uno alla volta. Prima legge la storia dell’animale, poi mette i numeri conosciuti al posto giusto sul diagramma, segna il posto misterioso e infine digita la risposta. È un allenamento completo ai problemi di addizione e sottrazione entro il 20, con l’incognita in ogni posizione — nel risultato, nel cambiamento e anche, più impegnativo, all’inizio — insieme al confronto additivo «quanti in più». Un’attività gratuita e interattiva, senza registrazione, senza timer e senza punteggio: solo il piacere di ragionare con calma, sbagliare e riprovare. Pensata per la classe seconda e allineata alle Indicazioni nazionali.",
+      "nl": "Bij de dierenarts wacht een dierenpatiënt op jou, en zijn 'symptoom' is een klein rekenverhaal. Je leest het verhaal, legt de getallen op het model in het röntgenvenster, markeert het onbekende getal en tikt het antwoord in. Zo oefen je optellen en aftrekken tot 20, ook de omgekeerde en de vergelijk-verhalen. Gratis en interactief, voor groep 4."
     },
     "kid_prompt_template": "vet-diagnosis"
   }

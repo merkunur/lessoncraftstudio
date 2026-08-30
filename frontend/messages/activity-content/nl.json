@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "patchwork-meadow.tile.3-md-c-6": {
+      "about": [
+        "Vandaag is het uitlegdag in de tuin van Sprout het konijn. De bloembedden liggen er kromgetrokken bij — een L hier, een trapje daar — en niemand weet meer hoe groot ze eigenlijk zijn. Sprout pakt er geen liniaal bij, maar een mandje zachte mos-vierkantjes die precies in de vakjes passen, en begint rustig te leggen.",
+        "De oppervlakte is het aantal vierkantjes dat een vlak helemaal bedekt — ook bij kromme vormen, waar je geen lengte × breedte kunt rekenen. Je kind meet door te bedekken zonder gaatjes en zonder dubbele vierkantjes, kleine open plekjes te dichten en daarna te tellen. De ene keer moet er een bed gerepareerd worden, de andere keer schat je eerst hoe groot het is, en soms bouw je zelf een bed van precies zoveel vierkantjes. Zo wordt oppervlakte iets wat je écht ziet en aanraakt. Dit sluit aan bij de SLO-kerndoelen voor meten en meetkunde voor groep 6.",
+        "Er is geen klok en geen score — Sprout heeft alle tijd. Je kind mag rustig leggen, tellen en opnieuw proberen; een verkeerde tik is nooit een fout, gewoon een vierkantje dat je weer optilt. Alles is gratis te spelen."
+      ],
+      "practices": [
+        "bedekken zonder gaatjes en zonder dubbele vierkantjes",
+        "de oppervlakte tellen als het aantal vierkantjes",
+        "oppervlakte meten bij kromme vormen, zonder formule",
+        "schatten, repareren en een bed van precies N vierkantjes bouwen"
+      ],
+      "howToPlay": [
+        "Beleg het bloembed helemaal met mos-vierkantjes — geen gaatje, geen dubbele.",
+        "Tel hoeveel vierkantjes het bed bedekken.",
+        "Kijk hoeveel het er zijn — dat is de oppervlakte: \"Oppervlakte: N vierkantjes\"."
+      ],
+      "learningGoals": [
+        "Begrijpen dat oppervlakte het aantal vierkantjes is dat een vlak bedekt.",
+        "Oppervlakte meten door te bedekken en te tellen, ook bij L-vormen en trapjes.",
+        "De oppervlakte vooraf schatten en een bed van precies N vierkantjes bouwen."
+      ]
+    },
     "clock-elapsed.what-time.3-md-a-1": {
       "about": [
         "Boven op de schuur staat Sprocket de haan, maar vandaag kijkt hij niet naar de zon — hij kijkt naar de grote klok naast de staldeur. Hij wil weten hoe laat het stráks is, als het voer klaarstaat en de andere dieren wakker worden. \"Nog even,\" kraait hij zachtjes, en samen met je kind volgt hij de wijzers om uit te rekenen hoe laat het dan is.",

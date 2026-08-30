@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "mochi-feast.count-out.k-cc-b-5": {
+      "about": [
+        "Mochi is een klein, hongerig wezentje dat dol is op een feestje met lekkers. Op zijn tafeltje staan schaaltjes vol aardbeien, koekjes, kersen, cupcakes, bananen, appels, donuts en muffins, en een lege kom die wacht om gevuld te worden. Mochi kijkt je kind verwachtingsvol aan: hoeveel mag er vandaag in de kom?",
+        "Elke ronde vraagt Mochi om een precies aantal, bijvoorbeeld vijf aardbeien. Je kind tikt op het bord en legt één voor één een lekkernij in de kom, telt rustig mee en stopt bij het juiste getal. Zo leert het niet ‘hoeveel zijn het?’ te beantwoorden, maar iets moeilijkers: er precies zoveel máken — ook wel een hoeveelheid aftellen genoemd. Er staan geen cijfers in de kom; de kom die langzaam vol wordt ís het tellen. Dat verstevigt getalbegrip en één-op-één tellen, en sluit aan bij de SLO-kerndoelen voor rekenen voor kleuters.",
+        "Er is geen klok en geen score. Je kind mag rustig één voor één werken, zo vaak als het wil. Zijn er te veel lekkernijen in de kom? Dan tik je er gewoon eentje uit — dat is geen fout, gewoon opnieuw kijken en tellen. Helemaal gratis te spelen."
+      ],
+      "practices": [
+        "Een gegeven aantal lekkernijen aftellen tot Mochi genoeg heeft",
+        "Één voor één meetellen tot het juiste getal",
+        "Te veel? Rustig eentje terugnemen uit de kom",
+        "Een hoeveelheid van 2 tot 10 maken, zonder cijfers"
+      ],
+      "howToPlay": [
+        "Luister of lees hoeveel lekkernijen Mochi wil",
+        "Tik op het bord en leg één voor één een lekkernij in de kom",
+        "Stop bij het juiste aantal en tik op Controleer"
+      ],
+      "learningGoals": [
+        "Een precies aantal voorwerpen aftellen en een set maken",
+        "Tellen koppelen aan hoeveelheid: elk voorwerp is één tel",
+        "Zelfvertrouwen met de getallen 2 tot 10, in je eigen tempo"
+      ]
+    },
     "star-stitcher.connect-sequence.k-cc-a-2": {
       "about": [
         "Hoog boven de weide is het nacht geworden. Aan de donkere hemel staan slaperige sterren zacht te fonkelen, en daartussen zweeft een klein vuurvliegje met een warm geel lichtje. Op één ster brandt een getal — precies daar begint het vuurvliegje aan zijn tocht langs de sterrenhemel.",

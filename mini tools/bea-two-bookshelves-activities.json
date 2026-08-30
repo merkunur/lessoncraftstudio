@@ -1078,6 +1078,88 @@
               }
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "sf1",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              { "title": "De slaperige draken", "blurb": "Twee draken zoeken een lekker dutje.", "type": "story" },
+              { "title": "Alles over echte kevers", "blurb": "Feiten over kevers en waar ze wonen.", "type": "fact" },
+              { "title": "Zo werken echte hijskranen", "blurb": "Hoe echte hijskranen en graafmachines werken.", "type": "fact" }
+            ]
+          },
+          {
+            "id": "sf2",
+            "band": 1,
+            "ask": "story",
+            "books": [
+              { "title": "De botten in je lichaam", "blurb": "Hoeveel botten heb je echt?", "type": "fact" },
+              { "title": "De kabouter en zijn sok", "blurb": "Een kabouter zoekt zijn verloren sok.", "type": "story" },
+              { "title": "Hoe bomen zo hoog groeien", "blurb": "Echte feiten over bomen en hoe ze groeien.", "type": "fact" }
+            ]
+          },
+          {
+            "id": "sf3",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              { "title": "Alles over echte kevers", "blurb": "Feiten over kevers en waar ze wonen.", "type": "fact" },
+              { "title": "Zo werken echte hijskranen", "blurb": "Hoe echte hijskranen en graafmachines werken.", "type": "fact" },
+              { "title": "Het bootje dat kon praten", "blurb": "Een klein bootje beleeft een grappig avontuur op zee.", "type": "story" }
+            ]
+          },
+          {
+            "id": "sf4",
+            "band": 2,
+            "ask": "story",
+            "books": [
+              { "title": "De toverstok van Fien", "blurb": "Fien vindt een toverstok die kan toveren.", "type": "story" },
+              { "title": "Zo werken echte hijskranen", "blurb": "Hoe echte hijskranen en graafmachines werken.", "type": "fact" },
+              { "title": "De botten in je lichaam", "blurb": "Hoeveel botten heb je echt?", "type": "fact" }
+            ]
+          },
+          {
+            "id": "sf5",
+            "band": 1,
+            "ask": "fact",
+            "books": [
+              { "title": "De slaperige draken", "blurb": "Twee draken zoeken een lekker dutje.", "type": "story" },
+              { "title": "Alles over echte kevers", "blurb": "Feiten over kevers en waar ze wonen.", "type": "fact" },
+              { "title": "Pip de pratende eekhoorn", "blurb": "Eekhoorn Pip vertelt een grappig verhaal.", "type": "story" }
+            ]
+          },
+          {
+            "id": "sf6",
+            "band": 2,
+            "ask": "fact",
+            "books": [
+              { "title": "De kabouter en zijn sok", "blurb": "Een kabouter zoekt zijn verloren sok.", "type": "story" },
+              { "title": "Het bootje dat kon praten", "blurb": "Een klein bootje beleeft een grappig avontuur op zee.", "type": "story" },
+              { "title": "Zo werken echte hijskranen", "blurb": "Hoe echte hijskranen en graafmachines werken.", "type": "fact" }
+            ]
+          },
+          {
+            "id": "sf7",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              { "title": "De botten in je lichaam", "blurb": "Hoeveel botten heb je echt?", "type": "fact" },
+              { "title": "De toverstok van Fien", "blurb": "Fien vindt een toverstok die kan toveren.", "type": "story" },
+              { "title": "Pip de pratende eekhoorn", "blurb": "Eekhoorn Pip vertelt een grappig verhaal.", "type": "story" }
+            ]
+          },
+          {
+            "id": "sf8",
+            "band": 3,
+            "ask": "fact",
+            "books": [
+              { "title": "De slaperige draken", "blurb": "Twee draken zoeken een lekker dutje.", "type": "story" },
+              { "title": "Hoe bomen zo hoog groeien", "blurb": "Echte feiten over bomen en hoe ze groeien.", "type": "fact" },
+              { "title": "Het bootje dat kon praten", "blurb": "Een klein bootje beleeft een grappig avontuur op zee.", "type": "story" }
+            ]
+          }
         ]
       }
     },
@@ -1088,7 +1170,8 @@
       "fr": "histoire-ou-documentaire-cp",
       "es": "cuento-o-texto-informativo-tipos-de-texto-primer-grado",
       "pt": "historia-ou-livro-de-verdade-tipos-de-texto-1-ano",
-      "it": "storia-o-libro-di-informazioni-tipi-di-testo-classe-prima"
+      "it": "storia-o-libro-di-informazioni-tipi-di-testo-classe-prima",
+      "nl": "verhaal-of-informatieboek-tekstsoorten-groep-3"
     },
     "page_title": {
       "en": "Bea's Two Bookshelves — Story Book or Fact Book? (Grade 1)",
@@ -1096,7 +1179,8 @@
       "fr": "Les deux étagères de Bea — Récit ou documentaire ? (CP)",
       "es": "Cuento o texto informativo: tipos de texto 1.º de primaria",
       "pt": "História ou livro de verdade? Tipos de texto · 1º ano",
-      "it": "Storia o libro di informazioni? Tipi di testo, classe prima"
+      "it": "Storia o libro di informazioni? Tipi di testo, classe prima",
+      "nl": "Verhaal of informatieboek? Tekstsoorten (groep 3)"
     },
     "page_intro": {
       "en": "Bea the bookworm keeps two bookshelves: one for STORY books that tell a make-believe tale, and one for FACT books that teach you about real things. Read the three book covers, then tap the one Bea asks for — a make-believe story, or a book of real facts. A Grade 1 reading game about telling story books from informational books, aligned to Common Core RL.1.5.",
@@ -1104,7 +1188,8 @@
       "fr": "Bea, un petit ver de livre, a deux étagères : une pour les livres qui racontent une histoire inventée, une pour les livres documentaires qui expliquent de vraies choses. À chaque tour, votre enfant regarde trois livres et tape celui que Bea demande : un récit ou un documentaire. Un jeu de lecture gratuit et interactif, à jouer dans le navigateur.",
       "es": "Distingue el cuento del texto informativo mirando la portada: ayuda a Bea con sus libreros. Tipos de texto para 1.º de primaria, gratis, en línea y sin registro.",
       "pt": "Com a lagartinha Bea, a criança lê as capas dos livros e descobre qual é uma história inventada e qual é um livro de verdade. Uma atividade divertida de leitura para reconhecer os tipos de texto pelas pistas da capa. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Con Bea, il bruco dei libri, i bambini leggono le copertine per capire se un libro racconta una storia inventata o è un libro di informazioni sul mondo reale, distinguendo così il testo narrativo da quello informativo: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con Bea, il bruco dei libri, i bambini leggono le copertine per capire se un libro racconta una storia inventata o è un libro di informazioni sul mondo reale, distinguendo così il testo narrativo da quello informativo: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Help boekenworm Bea kiezen! Je kind bekijkt drie boekomslagen en tikt op het verhalenboek of het informatieboek. Zo oefent het spelenderwijs met tekstsoorten herkennen, afgestemd op de SLO-kerndoelen voor groep 3. Gratis en interactief, zonder tijdsdruk."
     },
     "kid_prompt_template": "Tap the story book, or the fact book, that Bea asks for."
   }

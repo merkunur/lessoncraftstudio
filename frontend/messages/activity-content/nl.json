@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "bea-two-bookshelves.story-or-fact.rl-1-5": {
+      "about": [
+        "Boekenworm Bea houdt van álle boeken en laat je kind er telkens drie zien. Bij elk drietal leest je kind de omslagen — de titel en een korte zin — en tikt daarna op het boek dat Bea vraagt: het verhaal of het informatieboek. Een rustige, warme manier om in groep 3 met echte boeken bezig te zijn.",
+        "Er bestaan verhalen: verzonnen avonturen vol draken, toverkracht en pratende dieren. En er bestaan informatieboeken: die leggen echte kennis over de wereld uit, bijvoorbeeld hoe een vulkaan werkt of alles over spinnen. Het mooie is dat je vaak al aan de omslag kunt zien welke soort het is. Een titel als \"De draak die niet kon vliegen\" verklapt een verhaal, terwijl \"Alles over het weer\" een informatieboek verraadt. In groep 3 leert je kind op die kleine aanwijzingen te letten.",
+        "Let op: het gaat hier om de soort boek — de tekstsoort — en niet om waar het boek precies over gaat. Een boek over dieren kan namelijk een verzonnen verhaal zijn of juist een informatieboek. Deze activiteit is helemaal gratis, zonder tijdsdruk en zonder punten of sterren, zodat je kind rustig kan nadenken. De oefening sluit aan bij de SLO-kerndoelen voor groep 3, domein tekstsoorten."
+      ],
+      "practices": [
+        "Verhalen onderscheiden van informatieboeken",
+        "Aanwijzingen op de omslag lezen (titel en korte zin)",
+        "Fantasiewoorden herkennen (draak, tovenaar, avontuur) als signaal voor een verhaal",
+        "Feitenwoorden herkennen (\"alles over echte ...\", \"zo werkt ...\") als signaal voor een informatieboek"
+      ],
+      "howToPlay": [
+        "Lees de drie omslagen goed.",
+        "Denk na: is dit verzonnen (een verhaal) of echte kennis (een informatieboek)?",
+        "Tik op het boek dat Bea vraagt."
+      ],
+      "learningGoals": [
+        "Je kind kan een verzonnen verhaal onderscheiden van een informatieboek.",
+        "Je kind kan aan de titel en de korte zin zien welke soort boek het is.",
+        "Je kind kan uitleggen dat verhalen verzonnen zijn en informatieboeken echte kennis uitleggen."
+      ]
+    },
     "field-guide.text-features.1-ri-5": {
       "about": [
         "Detective Dewey staat voor een dik informatieboek en zoekt een heel bepaald weetje — en hij gokt niet zomaar. Hij gebruikt de onderdelen die het boek zelf meebrengt: de inhoudsopgave, de koppen, de bijschriften en de bladzijde met belangrijke woorden. Je kind helpt hem om met precies die onderdelen de juiste plek te vinden.",

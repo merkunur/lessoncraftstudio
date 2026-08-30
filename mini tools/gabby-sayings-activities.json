@@ -1002,6 +1002,24 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "wolken", "band": 1, "idiom": "in de wolken zijn", "sentence": "Toen Lisa haar cadeau zag, was ze helemaal in de wolken.",
+            "choices": [ { "text": "Ze was heel erg blij.", "kind": "correct" }, { "text": "Ze zat echt tussen de wolken in de lucht.", "kind": "literal" }, { "text": "Ze was heel erg boos.", "kind": "off" } ] },
+          { "id": "zand", "band": 1, "idiom": "de kop in het zand steken", "sentence": "Je moet je fout oplossen en niet de kop in het zand steken.",
+            "choices": [ { "text": "Je hoofd echt in het zand stoppen.", "kind": "literal" }, { "text": "Een probleem niet onder ogen willen zien.", "kind": "correct" }, { "text": "Heel hard naar huis rennen.", "kind": "off" } ] },
+          { "id": "linkerhanden", "band": 1, "idiom": "twee linkerhanden hebben", "sentence": "Bij het knutselen heeft mijn broer twee linkerhanden.",
+            "choices": [ { "text": "Hij heeft echt twee linkerhanden.", "kind": "literal" }, { "text": "Hij is juist heel sterk.", "kind": "off" }, { "text": "Hij is heel onhandig.", "kind": "correct" } ] },
+          { "id": "spijker", "band": 2, "idiom": "de spijker op de kop slaan", "sentence": "Je hebt precies gelijk, je slaat de spijker op de kop!",
+            "choices": [ { "text": "Precies het juiste zeggen.", "kind": "correct" }, { "text": "Met een hamer op een spijker slaan.", "kind": "literal" }, { "text": "Heel hard op de deur bonzen.", "kind": "off" } ] },
+          { "id": "appeltje", "band": 2, "idiom": "een appeltje voor de dorst", "sentence": "Oma bewaart altijd wat geld als een appeltje voor de dorst.",
+            "choices": [ { "text": "Een echte appel klaarleggen voor als je dorst hebt.", "kind": "literal" }, { "text": "Iets bewaren voor later, voor als je het nodig hebt.", "kind": "correct" }, { "text": "Snel iets lekkers opeten.", "kind": "off" } ] },
+          { "id": "kaas", "band": 2, "idiom": "ergens geen kaas van gegeten hebben", "sentence": "Vraag mij niets over auto's, daar heb ik geen kaas van gegeten.",
+            "choices": [ { "text": "Nog nooit kaas van iets gegeten hebben.", "kind": "literal" }, { "text": "Heel veel honger hebben.", "kind": "off" }, { "text": "Er niets van weten of snappen.", "kind": "correct" } ] },
+          { "id": "handdoek", "band": 3, "idiom": "de handdoek in de ring gooien", "sentence": "De puzzel was moeilijk, maar Sam gooide de handdoek niet in de ring.",
+            "choices": [ { "text": "Ergens mee stoppen omdat het te moeilijk is.", "kind": "correct" }, { "text": "Een handdoek in een boksring gooien.", "kind": "literal" }, { "text": "Snel de was ophangen.", "kind": "off" } ] },
+          { "id": "knie", "band": 3, "idiom": "iets onder de knie hebben", "sentence": "Na veel oefenen heeft Noor het fietsen goed onder de knie.",
+            "choices": [ { "text": "Iets echt onder je knie vasthouden.", "kind": "literal" }, { "text": "Iets goed kunnen na veel oefenen.", "kind": "correct" }, { "text": "Pijn aan je knie hebben.", "kind": "off" } ] }
         ]
       }
     },
@@ -1012,7 +1030,8 @@
       "fr": "comprendre-les-expressions-imagees-sens-figure-ce2",
       "es": "sentido-literal-y-figurado-tercer-grado",
       "pt": "sentido-literal-e-figurado-expressoes-idiomaticas-3-ano",
-      "it": "modi-di-dire-senso-figurato-classe-terza"
+      "it": "modi-di-dire-senso-figurato-classe-terza",
+      "nl": "uitdrukkingen-figuurlijke-betekenis-begrijpen-groep-5"
     },
     "page_title": {
       "en": "Gabby's Funny Sayings — What Does It Really Mean? (Grade 3)",
@@ -1020,7 +1039,8 @@
       "fr": "Les drôles d'expressions de Gabby — Le sens figuré (CE2)",
       "es": "Sentido literal y figurado – Actividad 3.º primaria",
       "pt": "Expressões idiomáticas: sentido literal e figurado · 3º ano",
-      "it": "Modi di dire: senso letterale e figurato — classe terza"
+      "it": "Modi di dire: senso letterale e figurato — classe terza",
+      "nl": "Uitdrukkingen groep 5: figuurlijke betekenis oefenen"
     },
     "page_intro": {
       "en": "Gabby the goose loves funny sayings! When we say \"it's raining cats and dogs,\" no animals are really falling — it just means it is raining hard. Read the saying, then tap what it REALLY means, not what the words literally say. A Grade 3 vocabulary game about figurative language, aligned to Common Core L.3.5.a.",
@@ -1028,7 +1048,8 @@
       "fr": "Avec Gabby l'oie, votre enfant lit une expression imagée dans une phrase, puis trouve ce qu'elle veut vraiment dire. Il apprend à distinguer le sens propre du sens figuré : « avoir un chat dans la gorge » ne veut pas dire qu'un chat est vraiment là, mais qu'on est enroué et qu'on a du mal à parler ! Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte à créer.",
       "es": "Actividad gratis en línea para 3.º de primaria: lee una expresión mexicana y toca lo que de verdad significa. Sentido literal y figurado, sin registro.",
       "pt": "Com a gansa Gabby, a criança lê uma expressão idiomática e descobre o que ela realmente quer dizer — o sentido figurado, diferente do literal. Uma atividade divertida para ampliar o vocabulário e ler com mais atenção. Grátis, sem cadastro. BNCC, 3º ano.",
-      "it": "Con l’oca Gabby i bambini leggono un simpatico modo di dire in una frase e scelgono il suo vero significato figurato, imparando a distinguerlo da quello letterale: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza, per giocare con le parole e arricchire il lessico."
+      "it": "Con l’oca Gabby i bambini leggono un simpatico modo di dire in una frase e scelgono il suo vero significato figurato, imparando a distinguerlo da quello letterale: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza, per giocare con le parole e arricchire il lessico.",
+      "nl": "Wat betekent \"in de wolken zijn\" echt? In dit gratis, interactieve woordenschatspel voor groep 5 leest je kind een zin met een uitdrukking en tikt de figuurlijke betekenis aan, niet de letterlijke val. Volgens de SLO-kerndoelen."
     },
     "kid_prompt_template": "What does the saying really mean?"
   }

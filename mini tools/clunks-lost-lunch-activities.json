@@ -241,7 +241,8 @@
       "fr": "composer-un-nombre-de-plusieurs-facons-cp",
       "es": "componer-numeros-de-varias-maneras-primer-grado",
       "pt": "compor-um-numero-de-varias-formas-com-clunk-1-ano",
-      "it": "comporre-un-numero-in-piu-modi-classe-prima"
+      "it": "comporre-un-numero-in-piu-modi-classe-prima",
+      "nl": "getallen-samenstellen-op-verschillende-manieren-groep-3"
     },
     "page_title": {
       "en": "Clunk's Lost Lunch — Make the Number Many Ways",
@@ -249,7 +250,8 @@
       "fr": "Décomposer un nombre de plusieurs façons – en ligne (CP)",
       "es": "Componer números de varias maneras (1.º de primaria)",
       "pt": "Compor um número de várias formas com o Clunk — 1º ano",
-      "it": "Comporre un numero in più modi (classe prima)"
+      "it": "Comporre un numero in più modi (classe prima)",
+      "nl": "Getallen samenstellen op verschillende manieren – groep 3"
     },
     "page_intro": {
       "en": "Clunk the snack-robot is hungry for an exact number of crunch-units, but his adding chip cracked — so you're his helper! Pick snacks off the wall into his lunchbox to make his number any way you like, then feed him to find out. Then make it again a whole new way! A warm Kindergarten decompose-a-number game aligned to Common Core K.OA.A.3.",
@@ -257,7 +259,8 @@
       "fr": "Décomposer un même nombre de plusieurs façons jusqu'à 10 avec Clunk, étape par étape. Gratuit, en ligne, sans inscription.",
       "es": "Forma un número de varias maneras y suma botanas para alimentar a Clunk: actividad gratis e interactiva, sin registro, alineada a los planes de la SEP.",
       "pt": "Ajude o robô Clunk a montar o número dele escolhendo lanches e depois faça o mesmo número de um jeito novo. Componha números de várias formas. Grátis, BNCC, 1º ano.",
-      "it": "Con Clunk, il robot affamato, il bambino compone lo stesso numero in più modi scegliendo gli snack giusti (10 = 6+4 = 7+3…): un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con Clunk, il robot affamato, il bambino compone lo stesso numero in più modi scegliendo gli snack giusti (10 = 6+4 = 7+3…): un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Clunk de snack-robot heeft honger in precies zoveel knapperts. Je kind legt hapjes met getallen in de lunchbox tot ze samen dat getal maken — de lunchbox toont geen totaal, dus je telt zelf op — en voert Clunk. Daarna maak je hetzelfde getal op een hele nieuwe manier. Zo oefent je kind getallen samenstellen tot 14. Gratis en interactief."
     },
     "kid_prompt_template": "make-total"
   }

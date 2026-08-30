@@ -21,13 +21,13 @@
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function armadilloSVG() {
     /* es: «armadillo» is the MX everyday word — NOT «tatú» (S. American) / «cusuco» (C. American). */
-    return '<svg class="aff-arm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Atlas le tatou' : LANG === 'de' ? 'Atlas, das Gürteltier' : LANG === 'es' ? 'Atlas, el armadillo' : LANG === 'pt' ? 'Atlas, o tatu' : LANG === 'it' ? 'Atlas, un armadillo' : 'Atlas the armadillo') + '">' +
+    return '<svg class="aff-arm-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Atlas le tatou' : LANG === 'de' ? 'Atlas, das Gürteltier' : LANG === 'es' ? 'Atlas, el armadillo' : LANG === 'pt' ? 'Atlas, o tatu' : LANG === 'it' ? 'Atlas, un armadillo' : LANG === 'nl' ? 'Atlas het gordeldier' : 'Atlas the armadillo') + '">' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="#C79B6E"/>' +                /* shell */
       '<path d="M30 50 q18 -10 36 0 M28 60 q20 -8 40 0 M30 70 q18 8 36 0" stroke="#9A6E42" stroke-width="3" fill="none"/>' + /* bands */
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="none" stroke="#9A6E42" stroke-width="2.5"/>' +
@@ -45,17 +45,17 @@
       /* es: the kid-facing noun is «el texto» (the daily 1.º classroom word, SEP's "lee el texto y
          localiza información"); the TITLE keeps «fichas» (the file-card metaphor + 📁) and `win`
          keeps «el dato clave» — la ficha is the card, los datos are its content. */
-      title: { en: "Atlas's Fact Files", de: 'Atlas\' Fakten-Kartei', fr: 'Les fiches d’Atlas', es: 'Las fichas de Atlas', pt: 'As fichas do Atlas', it: 'Le schede di Atlas' },
-      instruction: { en: 'Read the facts, then tap the answer to the question.', de: 'Lies den Sachtext und tippe dann auf die Antwort zur Frage.', fr: 'Lis le texte, puis tape la réponse à la question.', es: 'Lee el texto y toca la respuesta a la pregunta.', pt: 'Leia o texto e depois toque na resposta da pergunta.' },
-      prompt: { en: 'Read the facts, then tap the answer.', de: 'Lies den Sachtext und tippe auf die Antwort.', fr: 'Lis le texte, puis tape la réponse.', es: 'Lee el texto y toca la respuesta.', pt: 'Leia o texto e toque na resposta.', it: 'Leggi il testo, poi tocca la risposta.' },
-      atlasIntro: { en: 'Read my fact, then find the answer hiding inside it!', de: 'Hallo, ich bin Atlas! Lies meinen kleinen Sachtext ganz genau – die Antwort steckt mitten im Text.', fr: 'Lis bien mon petit texte : la réponse se cache dedans !', es: 'Soy Atlas. Lee mi texto: ahí está la respuesta.', pt: 'Leia o meu texto: a resposta está escondida dentro dele!', it: 'Ciao, sono Atlas! Leggi e trova la risposta nel testo.' },
-      hintPick: { en: 'The answer is right there in the facts — read them again.', de: 'Die Antwort steht schon im Text. Lies sie dort noch einmal nach!', fr: 'La réponse est dans le texte — relis-le bien.', es: 'La respuesta está en el texto. Léelo otra vez.', pt: 'A resposta está no texto — leia de novo.', it: 'La risposta è nel testo: leggi di nuovo.' },
+      title: { en: "Atlas's Fact Files", de: 'Atlas\' Fakten-Kartei', fr: 'Les fiches d’Atlas', es: 'Las fichas de Atlas', pt: 'As fichas do Atlas', it: 'Le schede di Atlas', nl: 'De weetjesmap van Atlas' },
+      instruction: { en: 'Read the facts, then tap the answer to the question.', de: 'Lies den Sachtext und tippe dann auf die Antwort zur Frage.', fr: 'Lis le texte, puis tape la réponse à la question.', es: 'Lee el texto y toca la respuesta a la pregunta.', pt: 'Leia o texto e depois toque na resposta da pergunta.', nl: 'Lees de tekst en tik dan op het antwoord op de vraag.' },
+      prompt: { en: 'Read the facts, then tap the answer.', de: 'Lies den Sachtext und tippe auf die Antwort.', fr: 'Lis le texte, puis tape la réponse.', es: 'Lee el texto y toca la respuesta.', pt: 'Leia o texto e toque na resposta.', it: 'Leggi il testo, poi tocca la risposta.', nl: 'Lees de tekst en tik op het antwoord.' },
+      atlasIntro: { en: 'Read my fact, then find the answer hiding inside it!', de: 'Hallo, ich bin Atlas! Lies meinen kleinen Sachtext ganz genau – die Antwort steckt mitten im Text.', fr: 'Lis bien mon petit texte : la réponse se cache dedans !', es: 'Soy Atlas. Lee mi texto: ahí está la respuesta.', pt: 'Leia o meu texto: a resposta está escondida dentro dele!', it: 'Ciao, sono Atlas! Leggi e trova la risposta nel testo.', nl: 'Hoi, ik ben Atlas! Het antwoord staat in de tekst.' },
+      hintPick: { en: 'The answer is right there in the facts — read them again.', de: 'Die Antwort steht schon im Text. Lies sie dort noch einmal nach!', fr: 'La réponse est dans le texte — relis-le bien.', es: 'La respuesta está en el texto. Léelo otra vez.', pt: 'A resposta está no texto — leia de novo.', it: 'La risposta è nel testo: leggi di nuovo.', nl: 'Het antwoord staat al in de tekst. Lees het daar nog eens!' },
       /* es §A.13.54: `hintWrong`/`win` render on ANY round while the answers span genders (leche
          fresca f / ocho patas f-pl / en el hielo frío m) → `hintWrong` anchors on the NEUTER clitic
          «lo»; `win` on the fixed masculine «el dato clave»; `hintPick`'s «Léelo» on «el texto».
          None agrees with a round-variable noun. */
-      hintWrong: { en: 'Look back at the facts and find the part that answers it.', de: 'Schau noch einmal in den Text. Dort steht die richtige Antwort!', fr: 'Regarde encore dans le texte : la réponse s’y trouve.', es: 'Vuelve a leer el texto y busca la parte que lo dice.', pt: 'Volte ao texto e ache a parte que responde.', it: 'Torna al testo e cerca la parte che risponde.' },
-      win: { en: 'Yes! You found the key detail. 📁', de: 'Super! Du hast die wichtige Information gefunden. 📁', fr: 'Bravo ! Tu as trouvé l’information. 📁', es: '¡Sí! Encontraste el dato clave. 📁', pt: 'Isso! Você achou a informação. 📁', it: 'Sì! Hai trovato il dettaglio giusto. 📁' }
+      hintWrong: { en: 'Look back at the facts and find the part that answers it.', de: 'Schau noch einmal in den Text. Dort steht die richtige Antwort!', fr: 'Regarde encore dans le texte : la réponse s’y trouve.', es: 'Vuelve a leer el texto y busca la parte que lo dice.', pt: 'Volte ao texto e ache a parte que responde.', it: 'Torna al testo e cerca la parte che risponde.', nl: 'Kijk nog eens in de tekst. Daar staat het juiste antwoord!' },
+      win: { en: 'Yes! You found the key detail. 📁', de: 'Super! Du hast die wichtige Information gefunden. 📁', fr: 'Bravo ! Tu as trouvé l’information. 📁', es: '¡Sí! Encontraste el dato clave. 📁', pt: 'Isso! Você achou a informação. 📁', it: 'Sì! Hai trovato il dettaglio giusto. 📁', nl: 'Goed zo! Je hebt de belangrijke informatie gevonden. 📁' }
     },
     defaults: {},
 
@@ -81,7 +81,7 @@
 
       var row = api.el('div', 'aff-row');
       var arm = api.el('div', 'aff-arm'); arm.innerHTML = armadilloSVG(); row.appendChild(arm);
-      var fileb = api.el('button', 'aff-fact'); fileb.type = 'button'; fileb.setAttribute('aria-label', (LANG === 'fr' ? 'écouter le texte' : LANG === 'de' ? 'Den Sachtext anhören' : LANG === 'es' ? 'Escuchar el texto' : LANG === 'pt' ? 'ouvir o texto' : LANG === 'it' ? 'ascolta il testo' : 'hear the facts'));
+      var fileb = api.el('button', 'aff-fact'); fileb.type = 'button'; fileb.setAttribute('aria-label', (LANG === 'fr' ? 'écouter le texte' : LANG === 'de' ? 'Den Sachtext anhören' : LANG === 'es' ? 'Escuchar el texto' : LANG === 'pt' ? 'ouvir o texto' : LANG === 'it' ? 'ascolta il testo' : LANG === 'nl' ? 'De tekst voorlezen' : 'hear the facts'));
       fileb.textContent = v.fact;
       fileb.addEventListener('click', function () { speak(v.fact); });
       row.appendChild(fileb);

@@ -598,6 +598,16 @@
               "il terreno"
             ]
           }
+        ],
+        "nl": [
+          { "id": "bees", "band": 1, "fact": "Bijen wonen in een korf. Ze maken zoete honing.", "question": "Waar wonen de bijen?", "answer": "in een korf", "options": ["in een korf", "in een nest", "in een vijver"] },
+          { "id": "frog", "band": 1, "fact": "Een kikker heeft lange poten. Hij eet kleine kevers.", "question": "Wat eet de kikker?", "answer": "kleine kevers", "options": ["groene blaadjes", "kleine kevers", "kleine visjes"] },
+          { "id": "sun", "band": 1, "fact": "De zon geeft ons licht. Zij schijnt op een heldere dag.", "question": "Wanneer schijnt de zon?", "answer": "op een heldere dag", "options": ["in de nacht", "in de grot", "op een heldere dag"] },
+          { "id": "penguin", "band": 2, "fact": "Een pinguïn heeft zwarte vleugels. Hij leeft op koud ijs.", "question": "Waar leeft de pinguïn?", "answer": "op koud ijs", "options": ["op koud ijs", "in een hol", "op warm zand"] },
+          { "id": "spider", "band": 2, "fact": "Een spin weeft een web. Zij heeft acht poten.", "question": "Hoeveel poten heeft de spin?", "answer": "acht poten", "options": ["zeven poten", "acht poten", "negen poten"] },
+          { "id": "tree", "band": 2, "fact": "Een grote boom groeit hoog. Hij geeft ons koele schaduw.", "question": "Wat geeft de boom ons?", "answer": "koele schaduw", "options": ["koel water", "koude sneeuw", "koele schaduw"] },
+          { "id": "cow", "band": 3, "fact": "Een koe eet groen gras. Zij geeft ons witte melk.", "question": "Wat geeft de koe ons?", "answer": "witte melk", "options": ["witte melk", "bruine eieren", "zoete jam"] },
+          { "id": "rain", "band": 3, "fact": "Regen valt uit de wolken. Hij maakt de grond nat.", "question": "Wat maakt de regen nat?", "answer": "de grond", "options": ["de lucht", "de warme zon", "de grond"] }
         ]
       }
     },
@@ -608,7 +618,8 @@
       "fr": "repondre-a-une-question-texte-documentaire-cp",
       "es": "lecturas-cortas-con-preguntas-primer-grado",
       "pt": "textos-curtos-com-perguntas-compreensao-leitora-1-ano",
-      "it": "comprensione-testi-informativi-trova-il-dettaglio-classe-prima"
+      "it": "comprensione-testi-informativi-trova-il-dettaglio-classe-prima",
+      "nl": "begrijpend-lezen-informatieve-tekst-vraag-beantwoorden-groep-3"
     },
     "page_title": {
       "en": "Atlas's Fact Files — Find the Key Detail (Kindergarten)",
@@ -616,7 +627,8 @@
       "fr": "Lecture CP – lire un texte documentaire en ligne",
       "es": "Comprensión lectora 1.º: lecturas cortas con preguntas",
       "pt": "Textos curtos com perguntas: leia e responda · 1º ano",
-      "it": "Comprensione del testo: leggere testi informativi – classe prima"
+      "it": "Comprensione del testo: leggere testi informativi – classe prima",
+      "nl": "Begrijpend lezen groep 3: informatieve teksten met Atlas"
     },
     "page_intro": {
       "en": "Atlas the armadillo keeps a file full of real facts! Read his two-sentence fact, then answer the question by tapping the key detail you found — who, what, where, or how many. A Kindergarten reading game about finding key details in an informational (fact) text, aligned to Common Core RI.K.1.",
@@ -624,7 +636,8 @@
       "fr": "Lecture au CP : lire un petit texte documentaire avec Atlas et retrouver les détails clés. Gratuit, en ligne, sans inscription.",
       "es": "Lee un texto corto y toca la respuesta: preguntas de qué, dónde y cuántos. Comprensión lectora para 1.º de primaria, gratis, en línea y sin registro.",
       "pt": "Com o tatu Atlas, a criança lê um textinho de duas frases e toca na resposta da pergunta, achando a informação no próprio texto. Uma atividade de compreensão de leitura, com áudio para ouvir o texto. Grátis, sem cadastro. Alinhada à BNCC, 1º ano.",
-      "it": "Con l’armadillo Atlas i bambini leggono un breve testo informativo, poi toccano la risposta giusta a una domanda su un dettaglio importante del testo: un’attività di comprensione semplice e guidata, gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con l’armadillo Atlas i bambini leggono un breve testo informativo, poi toccano la risposta giusta a una domanda su un dettaglio importante del testo: un’attività di comprensione semplice e guidata, gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Begrijpend lezen oefenen voor groep 3: lees met Atlas het gordeldier een kort tekstje en tik het antwoord op de vraag aan. Het antwoord staat gewoon in de tekst. Gratis en interactief. Volgens de SLO-kerndoelen."
     },
     "kid_prompt_template": "Read the facts, then tap the answer to the question."
   }

@@ -402,7 +402,8 @@
       "fr": "au-dessus-en-dessous-a-cote-entre-mots-de-position-gs",
       "es": "palabras-de-ubicacion-encima-debajo-junto-entre-preescolar",
       "pt": "palavras-de-posicao-em-cima-embaixo-ao-lado-entre-1-ano",
-      "it": "parole-di-posizione-sopra-sotto-accanto-tra-classe-prima"
+      "it": "parole-di-posizione-sopra-sotto-accanto-tra-classe-prima",
+      "nl": "positiewoorden-boven-onder-naast-tussen-parkeertoren-groep-3"
     },
     "page_title": {
       "en": "Bramble's Parking Tower — Position Words: Above, Below, Between (Kindergarten)",
@@ -410,7 +411,8 @@
       "fr": "Se repérer dans l'espace – exercice en ligne (GS)",
       "es": "Palabras de ubicación: encima, debajo, junto a y entre",
       "pt": "Palavras de posição: em cima, embaixo, ao lado e entre · 1º ano",
-      "it": "Parole di posizione: sopra, sotto, accanto, tra – classe prima"
+      "it": "Parole di posizione: sopra, sotto, accanto, tra – classe prima",
+      "nl": "Positiewoorden oefenen: boven, onder, naast | groep 3"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten activity for position words: help Beaver Bramble park each vehicle above, below, next to, or between the others in his side-on parking tower. The floor between levels makes \"above\" mean one level up, so children must listen to the word — not just guess the nearest spot. Describing relative positions is the heart of Common Core K.G.A.1.",
@@ -418,7 +420,8 @@
       "fr": "Au-dessus, en dessous, à côté, entre : l'enfant place chaque objet au bon endroit pour se repérer dans l'espace. Gratuit, en ligne, sans inscription.",
       "es": "El niño escucha a Beto el castor y estaciona cada vehículo en el piso correcto —encima, debajo, junto a o entre—; gratis, sin registro y alineada al plan de la SEP.",
       "pt": "Ajude o castor Beto a estacionar cada veículo no lugar certo — em cima, embaixo, ao lado ou entre os outros. A criança escuta a palavra de posição e escolhe a vaga certa em relação ao veículo de referência. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Con Bruno il castoro tuo figlio parcheggia i veicoli sopra, sotto, accanto e tra gli altri mezzi e impara così le parole di posizione e i rapporti spaziali, in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con Bruno il castoro tuo figlio parcheggia i veicoli sopra, sotto, accanto e tra gli altri mezzi e impara così le parole di posizione e i rapporti spaziali, in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Oefen de positiewoorden boven, onder, naast en tussen met Bram de bever! In zijn parkeertoren luister je goed naar het woord en parkeer je de auto op de juiste verdieping – niet raden, maar luisteren. Interactief, gratis en zonder registratie. Volgt de SLO-kerndoelen voor groep 3. Speel nu!"
     },
     "kid_prompt_template": "place-by-relation"
   }

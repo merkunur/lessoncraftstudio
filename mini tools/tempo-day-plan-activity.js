@@ -34,16 +34,18 @@
      no article), so all three cards render grammatically ("prima della/durante la/dopo la <fem-cons>") and no "l'"
      elision is ever forced (which would break the apostrophe-free JS rule). */
   var FORMS_IT = ['prima della', 'durante la', 'dopo la'];
-  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : LANG === 'fr' ? FORMS_FR : LANG === 'es' ? FORMS_ES : LANG === 'pt' ? FORMS_PT : LANG === 'it' ? FORMS_IT : Core.FORMS)[id] === round.correct; }
+  /* Dutch: voor/tijdens/na take a bare noun phrase (no case, no prep+article fusion) → bare cards like de/fr. */
+  var FORMS_NL = ['voor', 'tijdens', 'na'];
+  function tdpGrade(round, id) { return (LANG === 'de' ? FORMS_DE : LANG === 'fr' ? FORMS_FR : LANG === 'es' ? FORMS_ES : LANG === 'pt' ? FORMS_PT : LANG === 'it' ? FORMS_IT : LANG === 'nl' ? FORMS_NL : Core.FORMS)[id] === round.correct; }
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function turtleSVG() {
-    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : LANG === 'fr' ? 'Tempo la tortue' : LANG === 'es' ? 'Tempo la tortuga' : LANG === 'pt' ? 'Tempo, a tartaruga' : LANG === 'it' ? 'Tempo la tartaruga' : 'Tempo the turtle') + '">' +
+    return '<svg class="tdp-turtle-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Tempo, die Schildkröte' : LANG === 'fr' ? 'Tempo la tortue' : LANG === 'es' ? 'Tempo la tortuga' : LANG === 'pt' ? 'Tempo, a tartaruga' : LANG === 'it' ? 'Tempo la tartaruga' : LANG === 'nl' ? 'Tempo de schildpad' : 'Tempo the turtle') + '">' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="#4E9E5E"/>' +               /* shell */
       '<path d="M48 40 v40 M24 54 l48 12 M24 66 l48 -12" stroke="#377544" stroke-width="3" fill="none"/>' +
       '<ellipse cx="48" cy="60" rx="26" ry="20" fill="none" stroke="#377544" stroke-width="3"/>' +
@@ -57,13 +59,13 @@
     id: 'tempo-day-plan-activity',
 
     strings: {
-      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan', fr: 'La journée de Tempo', es: 'El día de Tempo', pt: 'O dia da Tempo', it: 'La giornata di Tempo' },
-      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.', fr: 'Touche avant, pendant ou après pour compléter la phrase.', es: 'Toca antes de, durante o después de para que quede bien en la oración.', pt: 'Toque em antes da, durante a ou depois da para completar a frase.', it: 'Tocca prima, durante o dopo per completare la frase.' },
-      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.', fr: 'Touche le mot de temps qui convient.', es: 'Toca la palabra del tiempo correcta.', pt: 'Toque na palavra de tempo que combina.', it: 'Tocca la parola del tempo giusta.' },
-      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!', fr: 'Certaines choses arrivent avant, d’autres pendant, et d’autres après !', es: '¡Unas cosas pasan antes, otras mientras y otras después!', pt: 'Antes, durante ou depois? Tudo tem a sua hora!', it: 'Alcune cose vengono prima, altre durante e altre dopo!' },
-      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?', fr: 'Est-ce que ça arrive d’abord, au milieu, ou à la fin ?', es: '¿Pasa primero, al mismo tiempo o al final?', pt: 'Isso acontece primeiro, no meio ou no fim?', it: 'Succede prima, nel mezzo o alla fine?' },
-      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?', fr: 'Pense à l’ordre : avant, pendant ou après ?', es: 'Piensa en el orden: ¿antes, durante o después?', pt: 'Pense na ordem: antes, durante ou depois?', it: 'Pensa a quando succede: prima, durante o dopo?' },
-      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢', fr: 'Oui ! C’est le bon moment. 🐢', es: '¡Sí! ¡Justo a tiempo! 🐢', pt: 'Isso! Bem na hora certa. 🐢', it: 'Sì! È il momento giusto. 🐢' }
+      title: { en: "Tempo's Day Plan", de: 'Tempos Tagesplan', fr: 'La journée de Tempo', es: 'El día de Tempo', pt: 'O dia da Tempo', it: 'La giornata di Tempo', nl: 'De dag van Tempo' },
+      instruction: { en: 'Tap before, during, or after to fit the sentence.', de: 'Tippe auf vor, während oder nach, damit es in den Satz passt.', fr: 'Touche avant, pendant ou après pour compléter la phrase.', es: 'Toca antes de, durante o después de para que quede bien en la oración.', pt: 'Toque em antes da, durante a ou depois da para completar a frase.', it: 'Tocca prima, durante o dopo per completare la frase.', nl: 'Tik op voor, tijdens of na, zodat het in de zin past.' },
+      prompt: { en: 'Tap the time word that fits.', de: 'Tippe auf das richtige Zeitwort.', fr: 'Touche le mot de temps qui convient.', es: 'Toca la palabra del tiempo correcta.', pt: 'Toque na palavra de tempo que combina.', it: 'Tocca la parola del tempo giusta.', nl: 'Tik op het juiste tijdwoord.' },
+      tempoIntro: { en: 'Some things come before, some during, and some after!', de: 'Manches kommt vorher, manches mittendrin und manches danach!', fr: 'Certaines choses arrivent avant, d’autres pendant, et d’autres après !', es: '¡Unas cosas pasan antes, otras mientras y otras después!', pt: 'Antes, durante ou depois? Tudo tem a sua hora!', it: 'Alcune cose vengono prima, altre durante e altre dopo!', nl: 'Eerst, tussendoor of daarna — alles heeft zijn tijd!' },
+      hintPick: { en: 'Does it happen first, in the middle, or at the end?', de: 'Passiert es zuerst, in der Mitte oder am Ende?', fr: 'Est-ce que ça arrive d’abord, au milieu, ou à la fin ?', es: '¿Pasa primero, al mismo tiempo o al final?', pt: 'Isso acontece primeiro, no meio ou no fim?', it: 'Succede prima, nel mezzo o alla fine?', nl: 'Gebeurt het eerst, in het midden of aan het eind?' },
+      hintWrong: { en: 'Think about the order — before, during, or after?', de: 'Denk an die Reihenfolge: vor, während oder nach?', fr: 'Pense à l’ordre : avant, pendant ou après ?', es: 'Piensa en el orden: ¿antes, durante o después?', pt: 'Pense na ordem: antes, durante ou depois?', it: 'Pensa a quando succede: prima, durante o dopo?', nl: 'Denk aan de volgorde: voor, tijdens of na?' },
+      win: { en: 'Yes! That fits the time. 🐢', de: 'Ja! Genau zur richtigen Zeit! 🐢', fr: 'Oui ! C’est le bon moment. 🐢', es: '¡Sí! ¡Justo a tiempo! 🐢', pt: 'Isso! Bem na hora certa. 🐢', it: 'Sì! È il momento giusto. 🐢', nl: 'Ja! Precies op tijd! 🐢' }
     },
     defaults: {},
 
@@ -83,6 +85,7 @@
       else if (LANG === 'es') this.view.choices = FORMS_ES.map(function (f, i) { return { id: i, word: f }; });
       else if (LANG === 'pt') this.view.choices = FORMS_PT.map(function (f, i) { return { id: i, word: f }; });
       else if (LANG === 'it') this.view.choices = FORMS_IT.map(function (f, i) { return { id: i, word: f }; });
+      else if (LANG === 'nl') this.view.choices = FORMS_NL.map(function (f, i) { return { id: i, word: f }; });
       this._cards = shuffle(this.view.choices.slice());
     },
 

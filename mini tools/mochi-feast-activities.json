@@ -68,7 +68,8 @@
       "fr": "compter-nourrir-mochi-le-bon-nombre-gs",
       "es": "formar-conjuntos-poner-cantidad-exacta-preescolar",
       "pt": "contar-e-formar-a-quantidade-dando-guloseimas-ao-mochi-1-ano",
-      "it": "contare-e-formare-la-quantita-giusta-fino-a-10-classe-prima"
+      "it": "contare-e-formare-la-quantita-giusta-fino-a-10-classe-prima",
+      "nl": "aftellen-maak-precies-genoeg-een-hoeveelheid-maken-kleuters"
     },
     "page_title": {
       "en": "Feed Mochi — Count Out Treats (Kindergarten Counting Game)",
@@ -76,7 +77,8 @@
       "fr": "Dénombrer en maternelle – donner le bon nombre, en ligne (GS)",
       "es": "Formar conjuntos: pon la cantidad exacta (preescolar)",
       "pt": "Contar e formar a quantidade certa com o Mochi | Atividade 1º ano",
-      "it": "Contare e formare la quantità giusta (2-10) | Classe prima"
+      "it": "Contare e formare la quantità giusta (2-10) | Classe prima",
+      "nl": "Aftellen: maak precies genoeg — een hoeveelheid maken – kleuters"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten counting activity: feed Mochi the dumpling exactly the number of treats asked. Tap the dish to drop berries, cookies, acorns and more into the bowl one at a time, then check. The bowl filling IS the count — no numerals — so children build cardinality and learn to count out a given number of objects. Common Core K.CC.B.5.",
@@ -84,7 +86,8 @@
       "fr": "Dénombrer en maternelle : compter et donner exactement le bon nombre de gourmandises à Mochi. Gratuit, en ligne, sans inscription.",
       "es": "Actividad gratis, interactiva y sin registro: el niño pone las golosinas una por una hasta formar la cantidad exacta que pide Mochi. Para preescolar (SEP).",
       "pt": "Ajude o Mochi: toque no prato e coloque uma guloseima de cada vez na tigela até chegar na quantidade exata pedida, e pare no número certo. Atividade grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Mochi è un bocconcino goloso e sempre affamato, e a ogni giro chiede un numero esatto di golosità: «Dai 5 fragole a Mochi!». Il bambino tocca il piatto e mette una golosità per volta nella ciotola, contando uno a uno, e si ferma al numero giusto; se ne mette troppe, ne tocca una nella ciotola per toglierla. Nella ciotola non compaiono numeri: è la ciotola che si riempie a fare da conteggio, così il bambino impara a formare una quantità data, l’altra faccia del contare. Un’attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Mochi è un bocconcino goloso e sempre affamato, e a ogni giro chiede un numero esatto di golosità: «Dai 5 fragole a Mochi!». Il bambino tocca il piatto e mette una golosità per volta nella ciotola, contando uno a uno, e si ferma al numero giusto; se ne mette troppe, ne tocca una nella ciotola per toglierla. Nella ciotola non compaiono numeri: è la ciotola che si riempie a fare da conteggio, così il bambino impara a formare una quantità data, l’altra faccia del contare. Un’attività gratuita e interattiva, senza registrazione e senza timer. Pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Mochi heeft honger en vraagt elke ronde een precies aantal, bijvoorbeeld vijf aardbeien. Je kind tikt op het bord en legt één voor één een lekkernij in de kom, telt hardop mee en stopt bij het juiste getal. Te veel? Haal er gewoon eentje uit de kom. Zo leert je kind een gegeven hoeveelheid maken — de andere kant van tellen. Gratis, interactief, getallen 2 tot 10, zonder sommen."
     },
     "kid_prompt_template": "count-out"
   }

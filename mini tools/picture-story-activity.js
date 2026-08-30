@@ -57,6 +57,11 @@
       win: 'Sì! {note}', winNote: 'Hai ricordato la storia!',
       nudge: 'Guarda di nuovo le immagini — la risposta è nella storia.',
       hear: '🔊 Ascolta la storia'
+    },
+    nl: {
+      win: 'Ja! {note}', winNote: 'Je hebt het verhaaltje goed onthouden!',
+      nudge: 'Kijk nog eens naar de plaatjes — het antwoord zit in het verhaal.',
+      hear: '🔊 Verhaal voorlezen'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -108,9 +113,9 @@
          The `instruction` carries «el zorro» explicitly, which makes the masculinity visible. */
       /* pt: character «Fábio, a raposa» — male name + the natural feminine noun raposa (unlike es,
          «raposa» is NOT a slur in pt; «o raposo» reads bookish). «historinha» is BR-fine. */
-      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio', pt: 'As histórias do Fábio', it: 'Le storie di Fabio' },
-      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!', pt: 'Leia a historinha com o Fábio, a raposa, e depois responda!', it: 'Leggi la storia con Fabio la volpe, poi rispondi!' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}' }
+      title: { en: "Fable's Picture Stories", de: 'Fabels Bildergeschichten', fr: 'Les histoires de Fable', es: 'Los cuentos de Fabio', pt: 'As histórias do Fábio', it: 'Le storie di Fabio', nl: 'De prentenverhalen van Fabel' },
+      instruction: { en: 'Read the little story with Fable the fox, then answer about it!', de: 'Lies die kleine Geschichte mit Fabel dem Fuchs und beantworte dann die Frage!', fr: 'Lis la petite histoire avec Fable le renard, puis réponds !', es: '¡Lee el cuento con Fabio el zorro y luego contesta!', pt: 'Leia a historinha com o Fábio, a raposa, e depois responda!', it: 'Leggi la storia con Fabio la volpe, poi rispondi!', nl: 'Lees het verhaaltje met Fabel de vos en beantwoord dan de vraag!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', pt: '{q}', it: '{q}', nl: '{q}' }
     },
 
     init: function (api) {
@@ -281,6 +286,8 @@
         ? '<p>História: ' + caps + ' Pergunta: ' + r.prompt + ' Opções: ' + this._choiceOrder.join('; ') + '.</p>'
         : LANG === 'it'
         ? '<p>Storia: ' + caps + ' Domanda: ' + r.prompt + ' Scelte: ' + this._choiceOrder.join('; ') + '.</p>'
+        : LANG === 'nl'
+        ? '<p>Verhaal: ' + caps + ' Vraag: ' + r.prompt + ' Keuzes: ' + this._choiceOrder.join('; ') + '.</p>'
         : '<p>Story: ' + caps + ' Question: ' + r.prompt + ' Choices: ' + this._choiceOrder.join('; ') + '.</p>';
       return wrap;
     },

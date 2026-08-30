@@ -619,6 +619,23 @@
               }
             ]
           }
+        },
+        "nl": {
+          "mitten": { "title": "De rode handschoen", "panels": [
+            { "caption": "Bo het konijntje huppelde door de sneeuw.", "glyphs": ["bunny", "snow"] },
+            { "caption": "Bij de boom gleed een rode handschoen naar beneden.", "glyphs": ["tree", "mitten"] },
+            { "caption": "Een vogel vond hem en riep Bo terug.", "glyphs": ["bird", "mitten"] }
+          ] },
+          "carrot": { "title": "De reuzenwortel", "panels": [
+            { "caption": "Millie de muis vond een reuzenwortel.", "glyphs": ["mouse", "carrot"] },
+            { "caption": "Ze trok en trok, maar de wortel zat vast.", "glyphs": ["mouse", "carrot"] },
+            { "caption": "Haar vriend duwde, en hup — hij kwam eruit!", "glyphs": ["friend", "carrot"] }
+          ] },
+          "picnic": { "title": "De picknick in de regen", "panels": [
+            { "caption": "Twee vrienden gingen picknicken.", "glyphs": ["friend", "basket"] },
+            { "caption": "Toen kwamen er donkere wolken en het regende.", "glyphs": ["rain"] },
+            { "caption": "Onder een grote paraplu waren ze blij.", "glyphs": ["umbrella", "friend"] }
+          ] }
         }
       },
       "roundsL10n": {
@@ -1291,6 +1308,21 @@
               "arrabbiati"
             ]
           }
+        ],
+        "nl": [
+          { "id": "ps-mit-who",   "storyId": "mitten", "qtype": "who",   "prompt": "Wie huppelde er door de sneeuw?",        "answer": "Bo het konijntje",       "options": ["Bo het konijntje", "een slaperig beertje", "een groene kikker"] },
+          { "id": "ps-mit-what",  "storyId": "mitten", "qtype": "what",  "prompt": "Wat gleed er bij de boom naar beneden?", "answer": "een rode handschoen",    "options": ["een rode handschoen", "een blauwe muts", "een wollen sjaal"] },
+          { "id": "ps-mit-where", "storyId": "mitten", "qtype": "where", "prompt": "Waar gleed de handschoen naar beneden?", "answer": "bij de boom",            "options": ["bij de boom", "bij de vijver", "op de heuvel"] },
+          { "id": "ps-mit-order", "storyId": "mitten", "qtype": "order", "prompt": "Wat gebeurde er EERST?",                  "answer": "Bo huppelde door de sneeuw", "options": ["Bo huppelde door de sneeuw", "Een vogel vond de handschoen", "De handschoen gleed naar beneden"] },
+
+          { "id": "ps-car-who",   "storyId": "carrot", "qtype": "who",   "prompt": "Wie vond de reuzenwortel?",               "answer": "Millie de muis",         "options": ["Millie de muis", "Bo het konijntje", "een grote kraai"] },
+          { "id": "ps-car-what",  "storyId": "carrot", "qtype": "what",  "prompt": "Wat vond Millie?",                        "answer": "een reuzenwortel",       "options": ["een reuzenwortel", "een glimmende steen", "een verloren sleutel"] },
+          { "id": "ps-car-why",   "storyId": "carrot", "qtype": "why",   "prompt": "Waarom kon Millie hem niet lostrekken?", "answer": "hij zat vast",           "options": ["hij zat vast", "hij was te klein", "hij rolde weg"] },
+          { "id": "ps-car-order", "storyId": "carrot", "qtype": "order", "prompt": "Wat gebeurde er als LAATSTE?",            "answer": "De wortel kwam eruit",   "options": ["De wortel kwam eruit", "Millie vond de wortel", "Millie trok aan de wortel"] },
+
+          { "id": "ps-pic-what",  "storyId": "picnic", "qtype": "what",  "prompt": "Wat deden de twee vrienden?",             "answer": "picknicken",             "options": ["picknicken", "met de bal spelen", "slapen"] },
+          { "id": "ps-pic-why",   "storyId": "picnic", "qtype": "why",   "prompt": "Waarom gingen de vrienden onder de paraplu?", "answer": "omdat het regende",  "options": ["omdat het regende", "omdat het waaide", "omdat ze moe waren"] },
+          { "id": "ps-pic-feel",  "storyId": "picnic", "qtype": "feeling", "prompt": "Hoe voelden de vrienden zich aan het eind?", "answer": "blij",              "options": ["blij", "bang", "boos"] }
         ]
       }
     },
@@ -1300,7 +1332,8 @@
       "fr": "lire-une-histoire-et-repondre-aux-questions",
       "es": "cuentos-cortos-con-preguntas-primer-grado",
       "pt": "leia-a-historia-e-responda-1-ano",
-      "it": "storia-illustrata-comprensione-del-testo-classe-prima"
+      "it": "storia-illustrata-comprensione-del-testo-classe-prima",
+      "nl": "begrijpend-lezen-verhaal-begrijpen-vragen-groep-3"
     },
     "page_title": {
       "en": "Fable's Picture Stories — Story Key Details (Kindergarten)",
@@ -1308,7 +1341,8 @@
       "fr": "Apprendre à lire en s'amusant – histoire en ligne (GS-CP)",
       "es": "Cuentos cortos con preguntas en línea para primer grado",
       "pt": "Leia a história e responda · Compreensão de leitura · 1º ano",
-      "it": "Comprensione del testo: storia illustrata per la classe prima"
+      "it": "Comprensione del testo: storia illustrata per la classe prima",
+      "nl": "Begrijpend lezen: een verhaal begrijpen (groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Fable the fox, then answer questions about the key details — who is in the story, what happens, where it takes place, what happened first and last, and why. A friendly, picture-and-caption way to build early story comprehension. Common Core RL.K.1.",
@@ -1316,7 +1350,8 @@
       "fr": "Apprendre à lire en s'amusant : lire une petite histoire avec Fable et répondre aux questions. Gratuit, en ligne, sans inscription.",
       "es": "Cuento corto en imágenes: el niño lee, escucha y responde preguntas sobre quién, qué, dónde y por qué. Actividad de primer grado, gratis y en línea, sin registro.",
       "pt": "Com o Fábio, a raposinha, a criança lê uma historinha em 3 quadrinhos e responde perguntas sobre os detalhes — quem, o quê, onde, a ordem e o porquê. Uma atividade de leitura e compreensão, com apoio do 🔊. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Con Fabio la volpe i bambini leggono una breve storia illustrata in tre scene e rispondono a una domanda su un dettaglio importante — chi, che cosa, dove o perché — in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con Fabio la volpe i bambini leggono una breve storia illustrata in tre scene e rispondono a una domanda su un dettaglio importante — chi, che cosa, dove o perché — in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Luister naar een prentenverhaal van Fabel de vos, bekijk de drie plaatjes en beantwoord dan een vraag over het verhaal. Zo oefent je kind begrijpend lezen in groep 3. Fabel leest het verhaal voor, dus ook wie nog niet vlot leest doet mee. Gratis en interactief, afgestemd op de SLO-kerndoelen."
     },
     "kid_prompt_template": "picture-story"
   }

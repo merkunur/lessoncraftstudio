@@ -63,6 +63,14 @@
       winBack: 'Sì! {start} − {n} min = {end}.',
       hint: 'Guarda che ora segna la lancetta, poi conta avanti i minuti.',
       hintBack: 'Guarda che ora segna la lancetta, poi conta indietro i minuti.'
+    },
+    nl: {
+      q: 'Hoe laat is het over {n} minuten?',
+      qBack: 'Hoe laat was het {n} minuten geleden?',
+      win: 'Ja! {start} + {n} min = {end}.',
+      winBack: 'Ja! {start} − {n} min = {end}.',
+      hint: 'Kijk op de klok en tel dan de minuten verder.',
+      hintBack: 'Kijk op de klok en tel dan de minuten terug.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -117,6 +125,14 @@
       if (mm === 45) { var nxi = (hh === 12 ? 1 : hh + 1); return nxi === 1 ? Core.digitalStr(t) : 'le ' + HRS_IT[nxi] + ' meno un quarto'; }
       return 'le ' + HRS_IT[hh] + ' e ' + (MIN_IT[mm] || mm);
     }
+    if (LANG === 'nl') {
+      /* Netherlands-Dutch: „N uur" / „half (N+1)" (points to the NEXT hour: half 4 = 3:30) / „kwart over·voor". */
+      if (mm === 0) return hh + ' uur';
+      if (mm === 30) return 'half ' + wrapH(hh + 1);
+      if (mm === 15) return 'kwart over ' + hh;
+      if (mm === 45) return 'kwart voor ' + wrapH(hh + 1);
+      return Core.digitalStr(t);
+    }
     if (mm === 0) return hh + " o'clock";
     if (mm === 30) return 'half past ' + hh;
     if (mm === 15) return 'quarter past ' + hh;
@@ -125,7 +141,7 @@
   }
 
   function clockSVG(h, m) {
-    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'es' ? 'carátula del reloj' : LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : LANG === 'pt' ? 'mostrador do relógio' : 'clock face') });
+    var svg = elNS('svg', { viewBox: '0 0 100 100', class: 'ce-clock', role: 'img', 'aria-label': (LANG === 'es' ? 'carátula del reloj' : LANG === 'de' ? 'Zifferblatt' : LANG === 'fr' ? 'cadran de l’horloge' : LANG === 'pt' ? 'mostrador do relógio' : LANG === 'nl' ? 'wijzerplaat' : 'clock face') });
     svg.appendChild(elNS('circle', { cx: 50, cy: 50, r: 46, fill: C.FACE, stroke: C.RIM, 'stroke-width': 3.5 }));
     for (var n = 1; n <= 12; n++) {
       var a = n * 30 * Math.PI / 180;
@@ -161,8 +177,8 @@
   var ClockElapsedActivity = {
     id: 'clock-elapsed-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O Relógio do Sprocket', it: 'Che ora sarà?' },
-      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.', pt: 'Leia a hora inicial e conte os minutos para a frente.', it: 'Leggi che ora segna la lancetta, poi conta avanti i minuti.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Zeitspannen', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket', pt: 'O Relógio do Sprocket', it: 'Che ora sarà?', nl: 'Sprockets klok' },
+      instruction: { en: 'Read the start time, then count on the minutes.', de: 'Lies die Startzeit ab und zähle dann die Minuten weiter.', fr: 'Lis l’heure de départ, puis compte les minutes.', es: 'Lee la hora de inicio y luego cuenta los minutos hacia adelante.', pt: 'Leia a hora inicial e conte os minutos para a frente.', it: 'Leggi che ora segna la lancetta, poi conta avanti i minuti.', nl: 'Lees de begintijd en tel dan de minuten verder.' },
       q: { en: '{q}' }
     },
 
@@ -321,6 +337,8 @@
         ? '<p>O relógio marca ' + spoken(round.start) + '. ' + qText + ' As opções são: ' + cs + '.</p>'
         : (LANG === 'it')
         ? '<p>Sono ' + spoken(round.start) + '. ' + qText + ' Le opzioni sono: ' + cs + '.</p>'
+        : (LANG === 'nl')
+        ? '<p>De klok wijst ' + spoken(round.start) + ' aan. ' + qText + ' De keuzes zijn: ' + cs + '.</p>'
         : '<p>The clock shows ' + spoken(round.start) + '. ' + qText + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

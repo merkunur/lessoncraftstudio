@@ -192,6 +192,52 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "clock-elapsed.what-time.3-md-a-1": {
+      "about": [
+        "Boven op de schuur staat Sprocket de haan, maar vandaag kijkt hij niet naar de zon — hij kijkt naar de grote klok naast de staldeur. Hij wil weten hoe laat het stráks is, als het voer klaarstaat en de andere dieren wakker worden. \"Nog even,\" kraait hij zachtjes, en samen met je kind volgt hij de wijzers om uit te rekenen hoe laat het dan is.",
+        "In deze activiteit wordt klokkijken langzaam rekenen met tijd. Je kind leest de begintijd op de analoge klok en telt van daaruit de minuten verder — in kleine, overzichtelijke stappen en ook over het hele uur heen, voorbij de 12. Elke tijdsprong telt mee, zodat kinderen gaan voelen hoeveel tijd er echt verstrijkt. Deze aanpak sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) voor groep 5.",
+        "Er is geen klok die aftelt en geen score die meekijkt. Je kind mag rustig nadenken, opnieuw kijken en gewoon nog een keer proberen — een verkeerde tik is geen fout, alleen een tussenstap. De hele activiteit is en blijft gratis, zonder haast en zonder druk."
+      ],
+      "practices": [
+        "De begintijd aflezen: waar staat de kleine wijzer, waar de grote? Die starttijd is het startpunt voor alles wat daarna komt.",
+        "De minuten verder tellen vanaf de begintijd — vijf minuten hier, tien minuten daar — tot de gevraagde tijdsduur bereikt is.",
+        "Over het hele uur heen rekenen: de sprongen gaan geregeld voorbij het hele uur, dus je kind leert doortellen over de 12 heen.",
+        "Van analoog naar digitaal koppelen: uit drie digitale klokken de juiste eindtijd kiezen die bij de wijzers hoort."
+      ],
+      "howToPlay": [
+        "Sprocket de haan laat een analoge klok met een begintijd zien en vraagt: \"Hoe laat is het over N minuten?\" Je kind leest eerst rustig de starttijd af.",
+        "Daarna telt je kind de minuten verder vanaf die begintijd — in stapjes en ook over het hele uur heen — om bij de juiste eindtijd uit te komen.",
+        "Onder de klok staan drie digitale klokken. Je kind tikt de tijd aan die klopt. Klopt het nog niet? Dan mag het gewoon opnieuw kijken en nog eens proberen."
+      ],
+      "learningGoals": [
+        "Een analoge klok aflezen en die begintijd als startpunt gebruiken om verder te rekenen met tijd.",
+        "De minuten verder tellen tot een gevraagde tijdsduur, ook over het hele uur heen, en zo een eindtijd bepalen.",
+        "De analoge tijd koppelen aan de digitale tijd, passend bij de SLO-kerndoelen voor meten en meetkunde (tijd) voor groep 5."
+      ]
+    },
+    "clock-elapsed.add-subtract.3-md-a-1": {
+      "about": [
+        "Op het erf draait Sprocket de haan zich twee kanten op: de ene keer wil hij weten hoe laat het straks is, de andere keer hoe laat het net was. \"Ging de melkbus nou vóór of ná het voeren langs?\" mompelt hij. Samen met je kind laat hij de wijzers soms vooruit lopen en soms weer terug, om precies uit te zoeken hoe laat het dan is.",
+        "In deze activiteit gaat de tijd allebei de kanten op. Soms telt je kind de minuten verder (\"over N minuten\"), soms rekent het ze terug (\"N minuten geleden\"). Het bewust kiezen tussen verder tellen en terugrekenen — en dat over het hele uur heen doen, zelfs voorbij de 12 — maakt het rekenen met tijd echt sterk. Deze aanpak sluit aan bij de SLO-kerndoelen voor meten en meetkunde (tijd) voor groep 5.",
+        "Ook hier is er geen klok die aftikt en geen score. Je kind mag hardop tellen, terugkijken en zo vaak proberen als het wil — een verkeerde tik hoort er gewoon bij. Alles is en blijft gratis, in alle rust."
+      ],
+      "practices": [
+        "Bewust vooruit of terug kiezen: moet ik doortellen of terugrekenen? \"Over N minuten\" of \"N minuten geleden\" vraagt om een andere denkstap.",
+        "De minuten verder tellen: bij \"over N minuten\" telt je kind vanaf de begintijd vooruit, in stapjes en over het hele uur heen.",
+        "De minuten terugrekenen: bij \"N minuten geleden\" gaat je kind de andere kant op en telt terug, langs de 12 heen naar het vorige uur.",
+        "Over het hele uur heen, in twee richtingen: vooruit of achteruit, de sprongen kruisen geregeld het hele uur."
+      ],
+      "howToPlay": [
+        "Sprocket de haan toont een analoge klok met een begintijd en vraagt óf \"over N minuten\" óf \"N minuten geleden\". Je kind leest eerst de starttijd af en kijkt welke kant het op moet.",
+        "Dan telt je kind de minuten verder of rekent ze terug — in stapjes en over het hele uur heen — tot het bij de juiste tijd uitkomt.",
+        "Uit drie digitale klokken tikt je kind de tijd aan die klopt. Zit het er nog naast? Dan kijkt het rustig opnieuw en probeert het nog een keer."
+      ],
+      "learningGoals": [
+        "Bewust kiezen tussen minuten verder tellen en minuten terugrekenen, afhankelijk van de vraag.",
+        "In twee richtingen met tijd rekenen — vooruit en achteruit — en daarbij over het hele uur heen gaan, zelfs voorbij de 12.",
+        "De uitkomst aflezen op de digitale klok en die aan de analoge tijd koppelen, passend bij de SLO-kerndoelen voor meten en meetkunde (tijd) voor groep 5."
+      ]
+    },
     "posy-egg-cartons.count-tens.k-cc-a-1": {
       "about": [
         "In het kippenhok van Posy is het altijd een gezellige drukte. Posy de kip scharrelt rond en legt haar eieren, en elke volle eierdoos krijgt precies tien eieren — geen ei meer, geen ei minder. Zo staan de eierdozen keurig op een rij, klaar om samen geteld te worden.",

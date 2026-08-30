@@ -1102,6 +1102,26 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "bank", "band": 1, "word": "bank", "sentence": "In het park gaan we op de bank zitten om uit te rusten.",
+            "choices": [ { "text": "een lang meubel voor veel mensen naast elkaar", "kind": "correct" }, { "text": "een groot gebouw waar mensen hun geld bewaren en sparen", "kind": "no-context" }, { "text": "een dier met vleugels dat hoog kan vliegen", "kind": "off" } ] },
+          { "id": "muis", "band": 1, "word": "muis", "sentence": "De kleine muis rent snel weg met een stukje kaas.",
+            "choices": [ { "text": "een apparaatje waarmee je op het computerscherm klikt", "kind": "no-context" }, { "text": "een klein harig dier met een lange dunne staart", "kind": "correct" }, { "text": "een gereedschap waarmee je een spijker in de muur slaat", "kind": "off" } ] },
+          { "id": "bal", "band": 1, "word": "bal", "sentence": "Op het plein schopt Max de bal hard over het hek.",
+            "choices": [ { "text": "een groot en deftig feest waar mensen in mooie kleren dansen", "kind": "no-context" }, { "text": "een zoet drankje dat je uit vers fruit perst", "kind": "off" }, { "text": "een rond speelding dat je kunt gooien, rollen of trappen", "kind": "correct" } ] },
+          { "id": "slot", "band": 2, "word": "slot", "sentence": "De sleutel past precies in het slot van de deur.",
+            "choices": [ { "text": "een ding waarmee je iets stevig afsluit en weer openmaakt", "kind": "correct" }, { "text": "een heel groot en oud gebouw waar vroeger koningen woonden", "kind": "no-context" }, { "text": "een zacht kussen waar je je hoofd op legt om te slapen", "kind": "off" } ] },
+          { "id": "kraan", "band": 2, "word": "kraan", "sentence": "Uit de kraan stroomt de hele dag koud water.",
+            "choices": [ { "text": "een hoge machine op de bouwplaats die zware dingen omhoog tilt", "kind": "no-context" }, { "text": "een ding aan de buis dat je open- en dichtdraait om te tappen", "kind": "correct" }, { "text": "een voertuig dat op ijzeren rails door het land rijdt", "kind": "off" } ] },
+          { "id": "noot", "band": 2, "word": "noot", "sentence": "De eekhoorn kraakt een harde noot open en eet hem op.",
+            "choices": [ { "text": "een teken in de muziek dat aangeeft welke toon je speelt", "kind": "no-context" }, { "text": "een groot dier met een lange slurf en grote oren", "kind": "off" }, { "text": "een vrucht met een stevige pit die je kunt opeten", "kind": "correct" } ] },
+          { "id": "blad", "band": 3, "word": "blad", "sentence": "Ik schrijf mijn naam netjes op een leeg blad.",
+            "choices": [ { "text": "een dun vel papier waarop je kunt schrijven of tekenen", "kind": "correct" }, { "text": "het groene deel van een plant dat aan een tak groeit", "kind": "no-context" }, { "text": "een hard geluid dat je bij onweer buiten hoort", "kind": "off" } ] },
+          { "id": "pad", "band": 3, "word": "pad", "sentence": "We lopen over het smalle pad dwars door het bos.",
+            "choices": [ { "text": "een klein springend dier dat veel op een kikker lijkt", "kind": "no-context" }, { "text": "een smal weggetje waarover je rustig kunt wandelen", "kind": "correct" }, { "text": "een warme jas die je aandoet als het buiten sneeuwt", "kind": "off" } ] },
+          { "id": "veer", "band": 3, "word": "veer", "sentence": "De vogel verliest een zachte veer uit zijn vleugel.",
+            "choices": [ { "text": "een boot die mensen over het water naar de overkant brengt", "kind": "no-context" }, { "text": "een groot rond bord waarop je het eten opschept", "kind": "off" }, { "text": "een licht en zacht dons-plukje dat een vogeltje bedekt", "kind": "correct" } ] }
         ]
       }
     },
@@ -1112,7 +1132,8 @@
       "fr": "sens-d-un-mot-d-apres-le-contexte",
       "es": "palabras-con-varios-significados-por-contexto-primaria",
       "pt": "palavras-com-varios-sentidos-pelo-contexto-2-ano",
-      "it": "parole-con-piu-significati-significato-dal-contesto-classe-seconda"
+      "it": "parole-con-piu-significati-significato-dal-contesto-classe-seconda",
+      "nl": "woorden-met-meerdere-betekenissen-betekenis-uit-de-zin-groep-4"
     },
     "page_title": {
       "en": "Fern's Clue Garden — Find a Word's Meaning from the Sentence (Grade 2)",
@@ -1120,7 +1141,8 @@
       "fr": "Le jardin d'indices de Fern — Le sens d'un mot dans la phrase",
       "es": "Palabras con varios significados: elige por contexto | Primaria",
       "pt": "Palavras com vários sentidos: descubra pelo contexto · 2º ano",
-      "it": "Parole con più significati: scegli dal contesto | Classe seconda"
+      "it": "Parole con più significati: scegli dal contesto | Classe seconda",
+      "nl": "Woorden met meerdere betekenissen – betekenis uit de zin (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 vocabulary game: Fern the fawn reads the words around a tricky word to figure out what it means. Some words have more than one meaning — read the whole sentence, use the context clues, and tap the meaning that fits. Using sentence-level context as a clue to a word's meaning. Common Core L.2.4.a.",
@@ -1128,7 +1150,8 @@
       "fr": "Avec Fern le faon, votre enfant lit une petite phrase, puis tape la définition du mot qui va avec le contexte. Certains mots ont plusieurs sens (« la souris », « une feuille », « la glace »…) : pour choisir le bon, il faut lire toute la phrase et s'appuyer sur les indices qu'elle donne. L'enfant apprend ainsi à comprendre un mot à plusieurs sens grâce au contexte et enrichit son vocabulaire, en lien avec les programmes officiels de l'école. C'est une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte — juste le plaisir de réfléchir à son rythme.",
       "es": "El niño lee una oración, ve una palabra con varios significados y toca el que la oración señala usando el contexto: gratis, sin registro y alineada al plan de la SEP.",
       "pt": "Com a corça Fern, a criança lê uma frase e descobre o sentido de uma palavra que tem mais de um significado, usando as pistas do contexto. Uma atividade para ampliar o vocabulário e ler com atenção. Grátis, sem cadastro. BNCC, 2º ano.",
-      "it": "Con Fern, il dolce cerbiatto, il tuo bambino scopre le parole che hanno più di un significato e impara a scegliere quello giusto usando il contesto della frase come indizio: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda, per leggere con più attenzione e sicurezza."
+      "it": "Con Fern, il dolce cerbiatto, il tuo bambino scopre le parole che hanno più di un significato e impara a scegliere quello giusto usando il contesto della frase come indizio: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda, per leggere con più attenzione e sicurezza.",
+      "nl": "Sommige woorden hebben meer dan één betekenis. Help Fern het reekalf: lees de hele zin en tik de betekenis aan die past — de woorden eromheen zijn de aanwijzing. Gratis en interactief voor groep 4. Volgens de SLO-kerndoelen."
     },
     "kid_prompt_template": "context-clues"
   }

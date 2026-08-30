@@ -149,6 +149,26 @@
       srEstimate: 'Prevedi quanti quadretti ricoprono questo prato.',
       srResolved: 'Tutto il prato è coperto: area {area}.',
       srProgress: 'Prato coperto: {covered} di {total} quadretti.'
+    },
+    nl: {
+      tile: 'Bedek het hele bloembed met mosplekjes.',
+      repair: 'Herstel het bloembed — geen gaatjes, geen dubbele vierkantjes.',
+      estimate: 'Hoeveel vierkantjes bedekken dit bloembed?',
+      finish: 'Maak het bloembed helemaal af.',
+      build: 'Bouw een bloembed van precies {n} vierkantjes.',
+      win: 'Mooi! Oppervlakte: {area}.',
+      gapLeft: 'Er is nog een stukje grond dat een vierkantje nodig heeft.',
+      overLeft: 'Dat stukje is al bedekt — haal het extra vierkantje weg.',
+      nudgeArea: 'Die hoeken zijn leeg — tel alleen het mos.',
+      ariaBed: 'bloembed',
+      ariaEmptyBed: 'een leeg bloembed om op te meten',
+      cellCovered: 'rij {r}, kolom {c}, bedekt',
+      cellNot: 'rij {r}, kolom {c}, niet bedekt',
+      cellDouble: 'rij {r}, kolom {c}, dubbel bedekt, tik om er een vierkantje weg te halen',
+      choiceUnits: '{value} vierkantjes',
+      srEstimate: 'Schat hoeveel vierkantjes dit bloembed bedekken.',
+      srResolved: 'Het hele bloembed is bedekt — oppervlakte {area}.',
+      srProgress: 'Bloembed bedekt: {covered} van {total} vierkantjes.'
     }
   };
   function txt(k, args) {
@@ -164,6 +184,7 @@
     if (lang === 'es') return n === 1 ? '1 cuadrito' : n + ' cuadritos';
     if (lang === 'pt') return n === 1 ? '1 quadradinho' : n + ' quadradinhos';
     if (lang === 'it') return n === 1 ? '1 quadretto' : n + ' quadretti';
+    if (lang === 'nl') return n === 1 ? '1 vierkantje' : n + ' vierkantjes';
     return n === 1 ? '1 square unit' : n + ' square units';
   }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
@@ -203,13 +224,13 @@
   var PatchworkMeadowActivity = {
     id: 'patchwork-meadow-activity',
     strings: {
-      title: { en: "Sprout's Patchwork Meadow", de: 'Sprouts Flickenwiese', fr: 'La prairie en patchwork de Sprout', es: 'El prado de retazos de Sprout', pt: 'O Prado de Retalhos do Sprout', it: 'Il prato a quadretti di Sprout' },
-      instruction: { en: 'Cover Sprout’s flower beds with moss-patch squares — the area is how many squares cover the space!', de: 'Belege Sprouts Beete mit Moos-Kästchen – die Fläche ist die Anzahl der Kästchen, die den Platz bedecken!', fr: 'Recouvre les parterres de Sprout avec des carreaux de mousse — l’aire, c’est le nombre de carreaux qui recouvrent l’espace !', es: 'Cubre los jardines de Sprout con cuadritos de musgo: ¡el área es la cantidad de cuadritos que cubren el espacio!', pt: 'Cubra os canteiros do Sprout com quadradinhos de musgo — a área é quantos quadradinhos cobrem o espaço!', it: 'Ricopri i prati di Sprout con i quadretti di muschio: Area è il numero di quadretti che copre lo spazio!' },
-      qtile: { en: 'Cover the whole bed with moss patches.', de: 'Bedecke das ganze Beet mit Moos-Kästchen.', fr: 'Recouvre tout le parterre avec des carreaux de mousse.', es: 'Cubre todo el jardín con cuadritos de musgo.', pt: 'Cubra todo o canteiro com quadradinhos de musgo.', it: 'Ricopri tutto il prato con le zolle di muschio.' },
-      qrepair: { en: 'Fix the bed — no bare spots, no double patches.', de: 'Bessere das Beet aus – keine kahlen Stellen, keine doppelten Kästchen.', fr: 'Répare le parterre : aucun trou, aucun carreau en double.', es: 'Arregla el jardín: sin partes sin cubrir ni cuadritos encimados.', pt: 'Conserte o canteiro — sem buracos e sem quadradinhos dobrados.', it: 'Sistema il prato: niente spazi vuoti, niente zolle doppie.' },
-      qestimate: { en: 'How many square units will cover this bed?', de: 'Wie viele Kästchen bedecken dieses Beet?', fr: 'Combien de carreaux faut-il pour recouvrir ce parterre ?', es: '¿Cuántos cuadritos cubren este jardín?', pt: 'Quantos quadradinhos vão cobrir este canteiro?', it: 'Quanti quadretti servono per ricoprire questo prato?' },
-      qfinish: { en: 'Finish covering the bed.', de: 'Belege das Beet fertig.', fr: 'Termine de recouvrir le parterre.', es: 'Termina de cubrir el jardín.', pt: 'Termine de cobrir o canteiro.', it: 'Finisci di ricoprire il prato.' },
-      qbuild: { en: 'Build a bed of exactly {n} square units for {n} carrots.', de: 'Baue ein Beet aus genau {n} Kästchen für {n} Karotten.', fr: 'Construis un parterre de {n} carreaux exactement pour {n} carottes.', es: 'Arma un jardín de exactamente {n} cuadritos por {n} zanahorias.', pt: 'Monte um canteiro com exatamente {n} quadradinhos por {n} cenouras.', it: 'Costruisci un prato di esattamente {n} quadretti per {n} carote.' }
+      title: { en: "Sprout's Patchwork Meadow", de: 'Sprouts Flickenwiese', fr: 'La prairie en patchwork de Sprout', es: 'El prado de retazos de Sprout', pt: 'O Prado de Retalhos do Sprout', it: 'Il prato a quadretti di Sprout', nl: 'De lappenwei van Sprout' },
+      instruction: { en: 'Cover Sprout’s flower beds with moss-patch squares — the area is how many squares cover the space!', de: 'Belege Sprouts Beete mit Moos-Kästchen – die Fläche ist die Anzahl der Kästchen, die den Platz bedecken!', fr: 'Recouvre les parterres de Sprout avec des carreaux de mousse — l’aire, c’est le nombre de carreaux qui recouvrent l’espace !', es: 'Cubre los jardines de Sprout con cuadritos de musgo: ¡el área es la cantidad de cuadritos que cubren el espacio!', pt: 'Cubra os canteiros do Sprout com quadradinhos de musgo — a área é quantos quadradinhos cobrem o espaço!', it: 'Ricopri i prati di Sprout con i quadretti di muschio: Area è il numero di quadretti che copre lo spazio!', nl: 'Bedek de bloembedden van Sprout met mosplekjes — de oppervlakte is het aantal vierkantjes dat de ruimte bedekt!' },
+      qtile: { en: 'Cover the whole bed with moss patches.', de: 'Bedecke das ganze Beet mit Moos-Kästchen.', fr: 'Recouvre tout le parterre avec des carreaux de mousse.', es: 'Cubre todo el jardín con cuadritos de musgo.', pt: 'Cubra todo o canteiro com quadradinhos de musgo.', it: 'Ricopri tutto il prato con le zolle di muschio.', nl: 'Bedek het hele bloembed met mosplekjes.' },
+      qrepair: { en: 'Fix the bed — no bare spots, no double patches.', de: 'Bessere das Beet aus – keine kahlen Stellen, keine doppelten Kästchen.', fr: 'Répare le parterre : aucun trou, aucun carreau en double.', es: 'Arregla el jardín: sin partes sin cubrir ni cuadritos encimados.', pt: 'Conserte o canteiro — sem buracos e sem quadradinhos dobrados.', it: 'Sistema il prato: niente spazi vuoti, niente zolle doppie.', nl: 'Herstel het bloembed — geen gaatjes, geen dubbele vierkantjes.' },
+      qestimate: { en: 'How many square units will cover this bed?', de: 'Wie viele Kästchen bedecken dieses Beet?', fr: 'Combien de carreaux faut-il pour recouvrir ce parterre ?', es: '¿Cuántos cuadritos cubren este jardín?', pt: 'Quantos quadradinhos vão cobrir este canteiro?', it: 'Quanti quadretti servono per ricoprire questo prato?', nl: 'Hoeveel vierkantjes bedekken dit bloembed?' },
+      qfinish: { en: 'Finish covering the bed.', de: 'Belege das Beet fertig.', fr: 'Termine de recouvrir le parterre.', es: 'Termina de cubrir el jardín.', pt: 'Termine de cobrir o canteiro.', it: 'Finisci di ricoprire il prato.', nl: 'Maak het bloembed helemaal af.' },
+      qbuild: { en: 'Build a bed of exactly {n} square units for {n} carrots.', de: 'Baue ein Beet aus genau {n} Kästchen für {n} Karotten.', fr: 'Construis un parterre de {n} carreaux exactement pour {n} carottes.', es: 'Arma un jardín de exactamente {n} cuadritos por {n} zanahorias.', pt: 'Monte um canteiro com exatamente {n} quadradinhos por {n} cenouras.', it: 'Costruisci un prato di esattamente {n} quadretti per {n} carote.', nl: 'Bouw een bloembed van precies {n} vierkantjes voor {n} worteltjes.' }
     },
 
     init: function (api) {

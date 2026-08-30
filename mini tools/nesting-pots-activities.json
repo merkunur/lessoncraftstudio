@@ -23,7 +23,8 @@
       "fr": "ranger-les-nombres-du-plus-grand-au-plus-petit-cp",
       "es": "ordenar-numeros-de-mayor-a-menor-preescolar",
       "pt": "potes-do-vovo-pip-ordenar-numeros-1-ano",
-      "it": "confrontare-e-ordinare-i-numeri-1-10-vasetti-classe-prima"
+      "it": "confrontare-e-ordinare-i-numeri-1-10-vasetti-classe-prima",
+      "nl": "getallen-ordenen-van-groot-naar-klein-groep-3"
     },
     "page_title": {
       "en": "Grandpa Pip's Nesting Pots — Compare Numbers 1–10 (Kindergarten)",
@@ -31,7 +32,8 @@
       "fr": "Ranger les nombres du plus grand au plus petit avec Papi Pip - CP",
       "es": "Ordenar números de mayor a menor (preescolar)",
       "pt": "Potes do Vovô Pip: Ordenar Números por Tamanho · 1º ano",
-      "it": "Confrontare e ordinare i numeri da 1 a 10 · classe prima"
+      "it": "Confrontare e ordinare i numeri da 1 a 10 · classe prima",
+      "nl": "Getallen ordenen van groot naar klein voor groep 3"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten math activity: help Grandpa Pip tuck his hand-carved pots away, biggest number on the outside down to little Wee Olen in the middle. The pots are every size, so children must read the painted NUMBER on each pot — not guess by how big it looks. Comparing written numerals is the heart of Common Core K.CC.C.7.",
@@ -39,7 +41,8 @@
       "fr": "Papi Pip range ses pots gigognes : le plus grand nombre à l'extérieur, jusqu'au petit Wee Olen tout au milieu. Les pots sont de toutes les tailles : ton enfant doit lire le nombre peint sur chaque pot, pas deviner d'après la taille. Comparer et ranger des nombres écrits, voilà tout le jeu. Une activité gratuite et interactive pour le CP.",
       "es": "Actividad interactiva y gratis, sin registro: los niños ordenan los números de mayor a menor leyendo el número, no el tamaño, alineada a los planes de la SEP.",
       "pt": "Ajude o Vovô Pip a empilhar os potes começando pelo maior número, lendo o número pintado e não o tamanho do pote. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Nonno Pip intaglia i suoi vasetti di legno e su ognuno dipinge un numero da 1 a 10. Il bambino li incastra uno dentro l’altro dal numero più grande al più piccolo, imparando a leggere il numero dipinto e non a farsi ingannare dalla grandezza del vasetto, così il piccolo Wee Olen resta al sicuro nel mezzo. Un’attività interattiva gratuita, senza registrazione, senza timer e senza punteggio, pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Nonno Pip intaglia i suoi vasetti di legno e su ognuno dipinge un numero da 1 a 10. Il bambino li incastra uno dentro l’altro dal numero più grande al più piccolo, imparando a leggere il numero dipinto e non a farsi ingannare dalla grandezza del vasetto, così il piccolo Wee Olen resta al sicuro nel mezzo. Un’attività interattiva gratuita, senza registrazione, senza timer e senza punteggio, pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Opa Toon maakt stapelpotjes met op elke pot een getal. Je kind stapelt ze van het grootste getal naar het kleinste, zodat de kleine Wee Olen veilig in het midden komt. Je leest het getal, niet de grootte van de pot — een dikke pot kan een klein getal dragen. Zo orden je spelenderwijs de getallen 1-10. Gratis en interactief."
     },
     "kid_prompt_template": "seriate-nest"
   }

@@ -616,6 +616,17 @@
               "capra"
             ]
           }
+        ],
+        "nl": [
+          { "id": "bad-bos", "band": 1, "g1": "bad", "g2": "bos", "words": ["bel", "baby", "bus"] },
+          { "id": "dak-doos", "band": 1, "g1": "dak", "g2": "doos", "words": ["dag", "dek", "duif"] },
+          { "id": "kar-kous", "band": 1, "g1": "kar", "g2": "kous", "words": ["kam", "kust", "kers"] },
+          { "id": "man-mus", "band": 2, "g1": "man", "g2": "mus", "words": ["mama", "mos", "muur"] },
+          { "id": "pan-pot", "band": 2, "g1": "pan", "g2": "pot", "words": ["pen", "paal", "puzzel"] },
+          { "id": "tak-tor", "band": 2, "g1": "tak", "g2": "tor", "words": ["taal", "tuin", "tent"] },
+          { "id": "stad-ster", "band": 3, "g1": "stad", "g2": "ster", "words": ["steen", "staal", "stok"] },
+          { "id": "kap-kat", "band": 3, "g1": "kap", "g2": "kat", "words": ["kaas", "kar", "koe"] },
+          { "id": "pil-pit", "band": 3, "g1": "pil", "g2": "pit", "words": ["pier", "pizza", "pin"] }
         ]
       }
     },
@@ -626,7 +637,8 @@
       "fr": "chercher-un-mot-dictionnaire-ordre-alphabetique-ce2",
       "es": "orden-alfabetico-palabras-guia-diccionario-primaria",
       "pt": "ordem-alfabetica-palavras-guia-dicionario-3-ano",
-      "it": "ordine-alfabetico-parole-guida-dizionario-classe-terza"
+      "it": "ordine-alfabetico-parole-guida-dizionario-classe-terza",
+      "nl": "alfabetisch-ordenen-woordenboek-opzoeken-groep-5"
     },
     "page_title": {
       "en": "Booker's Glossary Desk — Use Guide Words to Find the Page (Grade 2)",
@@ -634,7 +646,8 @@
       "fr": "Le dictionnaire de Booker : les mots repères (CE2)",
       "es": "Orden alfabético y palabras guía: usa el diccionario",
       "pt": "Ordem alfabética e palavras-guia: use o dicionário · 3º ano",
-      "it": "Ordine alfabetico e parole guida: usa il dizionario · classe terza"
+      "it": "Ordine alfabetico e parole guida: usa il dizionario · classe terza",
+      "nl": "Alfabetisch ordenen oefenen – groep 5 met beer Booker"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 vocabulary game: Booker the bear keeps the glossary. Two guide words sit at the top of the page — tap the word that belongs ON this page, the one that comes between them in ABC order. Using guide words to find a word in a glossary or dictionary. Common Core L.2.4.e.",
@@ -642,7 +655,8 @@
       "fr": "Un jeu de français CE2, gratuit et interactif : Booker l'ours ouvre son dictionnaire, et chaque page a deux mots repères. Ton enfant touche le mot qui se trouve entre les deux, en comparant les lettres dans l'ordre alphabétique — d'abord la première lettre, puis la deuxième, puis la troisième. Un jeu tout doux pour apprendre à chercher un mot dans le dictionnaire.",
       "es": "El niño lee las dos palabras guía de una página del diccionario y toca la palabra que va, en orden alfabético, entre ellas. Gratis, sin registro y alineada al plan de la SEP.",
       "pt": "A criança lê as duas palavras-guia no alto de uma página do dicionário e toca na palavra que fica, em ordem alfabética, entre elas. Com o urso Booker, uma atividade carinhosa para aprender a usar o dicionário. Grátis, sem cadastro. BNCC, 3º ano.",
-      "it": "Al banco del dizionario dell’orso Booker i bambini osservano due parole guida in cima alla pagina e scoprono quale parola cade tra loro in ordine alfabetico, imparando a cercare i termini nel dizionario: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza."
+      "it": "Al banco del dizionario dell’orso Booker i bambini osservano due parole guida in cima alla pagina e scoprono quale parola cade tra loro in ordine alfabetico, imparando a cercare i termini nel dizionario: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza.",
+      "nl": "Alfabetisch ordenen oefenen: help beer Booker met opzoeken! Tik het woord dat in het ABC tussen de twee kopwoorden staat. Gratis en interactief voor groep 5. Volgens de SLO-kerndoelen."
     },
     "kid_prompt_template": "guide-words"
   }

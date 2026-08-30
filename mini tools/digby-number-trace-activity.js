@@ -22,7 +22,7 @@
   function svg(tag, attrs) { var e = document.createElementNS(SVGNS, tag); for (var k in attrs) if (attrs.hasOwnProperty(k)) e.setAttribute(k, attrs[k]); return e; }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG), rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   /* Catmull-Rom → cubic-Bézier spline that PASSES THROUGH every point. <3 → line. */
   function splinePath(pts) {
@@ -39,7 +39,7 @@
   }
 
   function dogSVG() {
-    return '<svg class="dnt-dog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Digby der Hund' : LANG === 'fr' ? 'Digby le chien' : LANG === 'es' ? 'Digby el perro' : LANG === 'pt' ? 'Digby, o cachorro' : LANG === 'it' ? 'Digby, il cane' : 'Digby the dog') + '">' +
+    return '<svg class="dnt-dog-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Digby der Hund' : LANG === 'fr' ? 'Digby le chien' : LANG === 'es' ? 'Digby el perro' : LANG === 'pt' ? 'Digby, o cachorro' : LANG === 'it' ? 'Digby, il cane' : LANG === 'nl' ? 'Digby de hond' : 'Digby the dog') + '">' +
       '<ellipse cx="50" cy="58" rx="22" ry="20" fill="#C79B6E"/>' +                /* head */
       '<path d="M30 40 q-10 -4 -8 16 q8 6 14 -2z" fill="#A77B4E"/>' +              /* left ear */
       '<path d="M70 40 q10 -4 8 16 q-8 6 -14 -2z" fill="#A77B4E"/>' +             /* right ear */
@@ -54,19 +54,19 @@
     id: 'digby-number-trace-activity',
 
     strings: {
-      title: { en: "Digby's Number Trace", de: 'Digbys Zahlen-Spur', fr: 'Le tracé des chiffres de Digby', es: 'Digby traza los números', pt: 'Digby traça os números', it: 'Digby traccia i numeri' },
-      instruction: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.', es: 'Empieza en el punto y traza el número.', pt: 'Comece no ponto e trace o número.', it: 'Parti dal punto e traccia il numero.' },
-      prompt: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.', es: 'Empieza en el punto y traza el número.', pt: 'Comece no ponto e trace o número.', it: 'Parti dal punto e traccia il numero.' },
-      digbyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und fahre jeden Strich der Reihe nach!', fr: 'Trace chaque trait dans l’ordre !', es: '¡Empieza en el punto y sigue cada trazo en orden!', pt: 'Comece no ponto e siga cada traço na ordem certa!', it: 'Parti dal punto e traccia ogni tratto in ordine!' },
-      sayStroke: { en: 'Nice — next stroke!', de: 'Super – nächster Strich!', fr: 'Bien — trait suivant !', es: '¡Muy bien! Sigue con el siguiente trazo.', pt: 'Muito bem! Agora o próximo traço.', it: 'Bene, ora il prossimo tratto!' },
-      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Bleib auf der Linie – starte am Punkt.', fr: 'Suis la forme — commence sur le point.', es: 'No te salgas de la línea; empieza en el punto.', pt: 'Siga a linha e comece no ponto.', it: 'Segui la forma, parti dal punto.' },
-      sayWin: { en: 'Great number! ✏️', de: 'Tolle Zahl! ✏️', fr: 'Beau chiffre ! ✏️', es: '¡Excelente número! ✏️', pt: 'Que número caprichado! ✏️', it: 'Che bel numero! ✏️' },
-      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich in der richtigen Reihenfolge nach – beginne am Punkt.', fr: 'Trace chaque trait dans l’ordre, en commençant sur le point.', es: 'Repasa cada trazo en el orden correcto; empieza en el punto.', pt: 'Trace cada traço na ordem certa, começando no ponto.', it: 'Traccia ogni tratto in ordine, partendo dal punto.' },
-      sayWinSpoken: { en: 'Great!', de: 'Super!', fr: 'Bravo !', es: '¡Muy bien!', pt: 'Muito bem!', it: 'Benissimo!' },
-      numlab: { en: 'Trace {d}', de: 'Schreibe die {d}', fr: 'Trace le {d}', es: 'Traza el {d}', pt: 'Trace o {d}', it: 'Traccia il numero {d}' },
-      numlabAria: { en: 'trace the number {n}', de: 'die Zahl {n} nachspuren', fr: 'trace le chiffre {n}', es: 'traza el número {n}', pt: 'trace o número {n}', it: 'traccia il numero {n}' },
-      svgAria: { en: 'trace {n}', de: 'die {n} nachspuren', fr: 'trace le {n}', es: 'traza el {n}', pt: 'trace o {n}', it: 'traccia il numero {n}' },
-      doneAria: { en: 'the number you wrote: {n}', de: 'die Zahl, die du geschrieben hast: {n}', fr: 'le chiffre que tu as écrit : {n}', es: 'el número que escribiste: {n}', pt: 'o número que você escreveu: {n}', it: 'il numero che hai scritto: {n}' }
+      title: { en: "Digby's Number Trace", de: 'Digbys Zahlen-Spur', fr: 'Le tracé des chiffres de Digby', es: 'Digby traza los números', pt: 'Digby traça os números', it: 'Digby traccia i numeri', nl: 'Digby schrijft cijfers' },
+      instruction: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.', es: 'Empieza en el punto y traza el número.', pt: 'Comece no ponto e trace o número.', it: 'Parti dal punto e traccia il numero.', nl: 'Begin op de stip en trek het cijfer na.' },
+      prompt: { en: 'Start on the dot and trace the number.', de: 'Beginne am Punkt und spure die Zahl nach.', fr: 'Pars du point et trace le chiffre.', es: 'Empieza en el punto y traza el número.', pt: 'Comece no ponto e trace o número.', it: 'Parti dal punto e traccia il numero.', nl: 'Begin op de stip en trek het cijfer na.' },
+      digbyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und fahre jeden Strich der Reihe nach!', fr: 'Trace chaque trait dans l’ordre !', es: '¡Empieza en el punto y sigue cada trazo en orden!', pt: 'Comece no ponto e siga cada traço na ordem certa!', it: 'Parti dal punto e traccia ogni tratto in ordine!', nl: 'Begin op de stip en trek elke haal op volgorde na!' },
+      sayStroke: { en: 'Nice — next stroke!', de: 'Super – nächster Strich!', fr: 'Bien — trait suivant !', es: '¡Muy bien! Sigue con el siguiente trazo.', pt: 'Muito bem! Agora o próximo traço.', it: 'Bene, ora il prossimo tratto!', nl: 'Goed zo — nu de volgende haal!' },
+      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Bleib auf der Linie – starte am Punkt.', fr: 'Suis la forme — commence sur le point.', es: 'No te salgas de la línea; empieza en el punto.', pt: 'Siga a linha e comece no ponto.', it: 'Segui la forma, parti dal punto.', nl: 'Blijf op de lijn — begin op de stip.' },
+      sayWin: { en: 'Great number! ✏️', de: 'Tolle Zahl! ✏️', fr: 'Beau chiffre ! ✏️', es: '¡Excelente número! ✏️', pt: 'Que número caprichado! ✏️', it: 'Che bel numero! ✏️', nl: 'Mooi cijfer! ✏️' },
+      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich in der richtigen Reihenfolge nach – beginne am Punkt.', fr: 'Trace chaque trait dans l’ordre, en commençant sur le point.', es: 'Repasa cada trazo en el orden correcto; empieza en el punto.', pt: 'Trace cada traço na ordem certa, começando no ponto.', it: 'Traccia ogni tratto in ordine, partendo dal punto.', nl: 'Trek elke haal op volgorde na, begin op de stip.' },
+      sayWinSpoken: { en: 'Great!', de: 'Super!', fr: 'Bravo !', es: '¡Muy bien!', pt: 'Muito bem!', it: 'Benissimo!', nl: 'Goed gedaan!' },
+      numlab: { en: 'Trace {d}', de: 'Schreibe die {d}', fr: 'Trace le {d}', es: 'Traza el {d}', pt: 'Trace o {d}', it: 'Traccia il numero {d}', nl: 'Schrijf de {d}' },
+      numlabAria: { en: 'trace the number {n}', de: 'die Zahl {n} nachspuren', fr: 'trace le chiffre {n}', es: 'traza el número {n}', pt: 'trace o número {n}', it: 'traccia il numero {n}', nl: 'het cijfer {n} natrekken' },
+      svgAria: { en: 'trace {n}', de: 'die {n} nachspuren', fr: 'trace le {n}', es: 'traza el {n}', pt: 'trace o {n}', it: 'traccia il numero {n}', nl: 'de {n} natrekken' },
+      doneAria: { en: 'the number you wrote: {n}', de: 'die Zahl, die du geschrieben hast: {n}', fr: 'le chiffre que tu as écrit : {n}', es: 'el número que escribiste: {n}', pt: 'o número que você escreveu: {n}', it: 'il numero che hai scritto: {n}', nl: 'het cijfer dat je schreef: {n}' }
     },
     defaults: {},
 

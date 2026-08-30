@@ -2878,6 +2878,34 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "r1", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true, "question": { "functionPhrase": "gloeien" },
+            "items": [ { "id": "snood", "label": "Snood", "gloss": "De snood helpt hem bij het zwemmen.", "functions": ["zwemmen"], "affordance": "neutral" }, { "id": "frell", "label": "Frell", "gloss": "De frell helpt hem bij het gloeien.", "functions": ["gloeien"], "affordance": "neutral" }, { "id": "tarn", "label": "Tarn", "gloss": "De tarn helpt hem bij het graven.", "functions": ["graven"], "affordance": "neutral" } ] },
+          { "id": "r2", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true, "question": { "functionPhrase": "klimmen" },
+            "items": [ { "id": "blorp", "label": "Blorp", "gloss": "De blorp helpt hem bij het zweven.", "functions": ["zweven"], "affordance": "neutral" }, { "id": "gleen", "label": "Gleen", "gloss": "De gleen helpt hem bij het prikken.", "functions": ["prikken"], "affordance": "neutral" }, { "id": "fid", "label": "Fid", "gloss": "De fid helpt hem bij het klimmen.", "functions": ["klimmen"], "affordance": "neutral" } ] },
+          { "id": "r3", "cog": "diagram", "skin": "diagram", "featureType": "caption", "fictional": true, "question": { "functionPhrase": "fonkelen" },
+            "items": [ { "id": "quib", "label": "Quib", "gloss": "De quib helpt hem bij het springen.", "functions": ["springen"], "affordance": "neutral" }, { "id": "sten", "label": "Sten", "gloss": "De sten helpt hem bij het verstoppen.", "functions": ["verstoppen"], "affordance": "neutral" }, { "id": "vorl", "label": "Vorl", "gloss": "De vorl helpt hem bij het fonkelen.", "functions": ["fonkelen"], "affordance": "neutral" } ] },
+          { "id": "r4", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true, "question": { "functionPhrase": "gloeien" },
+            "items": [ { "id": "snood", "label": "Snood", "gloss": "een deel om te zwemmen", "functions": ["zwemmen"], "affordance": "neutral" }, { "id": "frell", "label": "Frell", "gloss": "een deel dat gloeit", "functions": ["gloeien"], "affordance": "neutral" }, { "id": "tarn", "label": "Tarn", "gloss": "een deel om te graven", "functions": ["graven"], "affordance": "neutral" } ] },
+          { "id": "r5", "cog": "glossary", "skin": "page", "featureType": "glossary", "fictional": true, "question": { "functionPhrase": "prikken" },
+            "items": [ { "id": "blorp", "label": "Blorp", "gloss": "een deel om te zweven", "functions": ["zweven"], "affordance": "neutral" }, { "id": "gleen", "label": "Gleen", "gloss": "een deel dat prikt", "functions": ["prikken"], "affordance": "neutral" }, { "id": "fid", "label": "Fid", "gloss": "een deel om te klimmen", "functions": ["klimmen"], "affordance": "neutral" } ] },
+          { "id": "r6", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true, "question": { "functionPhrase": "gloeien" },
+            "items": [ { "id": "ch1", "label": "Hoofdstuk 1: Snoods", "gloss": "alles over het zwemmen", "functions": ["zwemmen"], "affordance": "neutral", "page": 4 }, { "id": "ch2", "label": "Hoofdstuk 2: Frells", "gloss": "alles over het gloeien", "functions": ["gloeien"], "affordance": "neutral", "page": 9 }, { "id": "ch3", "label": "Hoofdstuk 3: Tarns", "gloss": "alles over het graven", "functions": ["graven"], "affordance": "neutral", "page": 14 } ] },
+          { "id": "r7", "cog": "toc", "skin": "page", "featureType": "toc", "fictional": true, "question": { "functionPhrase": "verstoppen" },
+            "items": [ { "id": "ch1", "label": "Hoofdstuk 1: Quibs", "gloss": "alles over het springen", "functions": ["springen"], "affordance": "neutral", "page": 3 }, { "id": "ch2", "label": "Hoofdstuk 2: Stens", "gloss": "alles over het verstoppen", "functions": ["verstoppen"], "affordance": "neutral", "page": 8 }, { "id": "ch3", "label": "Hoofdstuk 3: Vorls", "gloss": "alles over het fonkelen", "functions": ["fonkelen"], "affordance": "neutral", "page": 12 } ] },
+          { "id": "r8", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true, "question": { "functionPhrase": "graven" },
+            "items": [ { "id": "h1", "label": "Alles over snoods", "gloss": "hoe hij zwemt", "functions": ["zwemmen"], "affordance": "neutral" }, { "id": "h2", "label": "Alles over frells", "gloss": "hoe hij gloeit", "functions": ["gloeien"], "affordance": "neutral" }, { "id": "h3", "label": "Alles over tarns", "gloss": "hoe hij graaft", "functions": ["graven"], "affordance": "neutral" } ] },
+          { "id": "r9", "cog": "heading", "skin": "page", "featureType": "heading", "fictional": true, "question": { "functionPhrase": "zweven" },
+            "items": [ { "id": "h1", "label": "Alles over gleens", "gloss": "hoe hij prikt", "functions": ["prikken"], "affordance": "neutral" }, { "id": "h2", "label": "Alles over fids", "gloss": "hoe hij klimt", "functions": ["klimmen"], "affordance": "neutral" }, { "id": "h3", "label": "Alles over blorps", "gloss": "hoe hij zweeft", "functions": ["zweven"], "affordance": "neutral" } ] },
+          { "id": "r10", "cog": "menu", "skin": "page", "featureType": "menu", "fictional": true, "question": { "functionPhrase": "zoeken" },
+            "items": [ { "id": "drext", "label": "Drext", "gloss": "slaat de bladzijde om", "functions": ["omslaan"], "affordance": "neutral" }, { "id": "glarn", "label": "Glarn", "gloss": "vindt verloren feiten", "functions": ["zoeken"], "affordance": "neutral" }, { "id": "pled", "label": "Pled", "gloss": "leest hardop voor", "functions": ["voorlezen"], "affordance": "neutral" } ] },
+          { "id": "r11", "cog": "index", "skin": "page", "featureType": "index", "fictional": true, "question": { "functionPhrase": "gloeien" },
+            "items": [ { "id": "idx1", "label": "Snood … bladzijde 4", "gloss": "Op bladzijde 4 gaat het over het zwemmen.", "functions": ["zwemmen"], "affordance": "neutral", "page": 4 }, { "id": "idx2", "label": "Frell … bladzijde 9", "gloss": "Op bladzijde 9 gaat het over het gloeien.", "functions": ["gloeien"], "affordance": "neutral", "page": 9 }, { "id": "idx3", "label": "Tarn … bladzijde 14", "gloss": "Op bladzijde 14 gaat het over het graven.", "functions": ["graven"], "affordance": "neutral", "page": 14 } ] },
+          { "id": "r12", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false, "question": { "functionPhrase": "meaning" },
+            "items": [ { "id": "toc", "label": "Inhoudsopgave", "gloss": "laat zien in welk hoofdstuk een onderwerp staat", "functions": ["topic"], "affordance": "neutral" }, { "id": "glossary", "label": "Woordenlijst", "gloss": "legt uit wat een woord betekent", "functions": ["meaning"], "affordance": "neutral" }, { "id": "index", "label": "Register", "gloss": "laat zien op welke bladzijde een woord staat", "functions": ["page"], "affordance": "neutral" } ] },
+          { "id": "r13", "cog": "which-feature", "skin": "page", "featureType": "which-feature", "fictional": false, "question": { "functionPhrase": "topic" },
+            "items": [ { "id": "glossary", "label": "Woordenlijst", "gloss": "legt uit wat een woord betekent", "functions": ["meaning"], "affordance": "neutral" }, { "id": "toc", "label": "Inhoudsopgave", "gloss": "laat zien in welk hoofdstuk een onderwerp staat", "functions": ["topic"], "affordance": "neutral" }, { "id": "index", "label": "Register", "gloss": "laat zien op welke bladzijde een woord staat", "functions": ["page"], "affordance": "neutral" } ] }
         ]
       }
     },
@@ -2887,7 +2915,8 @@
       "fr": "utiliser-les-outils-du-texte-documentaire-ce1",
       "es": "partes-del-libro-localizar-informacion-segundo-grado",
       "pt": "partes-do-livro-localizar-informacao-2-ano",
-      "it": "strumenti-del-testo-cercare-informazioni-classe-seconda"
+      "it": "strumenti-del-testo-cercare-informazioni-classe-seconda",
+      "nl": "tekstkenmerken-gebruiken-informatie-zoeken-in-een-boek-groep-4"
     },
     "page_title": {
       "en": "Detective Dewey's Field Guide — Find Facts with Text Features",
@@ -2895,7 +2924,8 @@
       "fr": "Le carnet du détective Dewey — Lire un texte documentaire (CE1)",
       "es": "Partes del libro: localizar información – 2.º primaria",
       "pt": "Partes do livro: ache a informação · 2º ano",
-      "it": "Strumenti del testo per cercare informazioni — Classe seconda"
+      "it": "Strumenti del testo per cercare informazioni — Classe seconda",
+      "nl": "Tekstkenmerken gebruiken – informatie zoeken in een boek (groep 4)"
     },
     "page_intro": {
       "en": "Help Detective Dewey find lost facts! Read the book's own tools — the table of contents, headings, glossary, and labeled pictures — to locate the answer, never by guessing. A Grade 1 reading activity aligned to Common Core 1.RI.5: know and use text features to locate key facts.",
@@ -2903,7 +2933,8 @@
       "fr": "Avec le détective Dewey, votre enfant apprend à se repérer dans un texte documentaire et à y trouver une information. À chaque énigme, il utilise les vrais outils du livre — le sommaire, le glossaire, les titres, l'index, un schéma légendé — pour répondre à la question posée. Les créatures de ce carnet sont imaginaires, alors on ne peut pas deviner : il faut ouvrir le bon outil et le lire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte. Alignée sur les programmes officiels de l'école.",
       "es": "Actividad en línea gratis de 2.º de primaria: usa el índice, el glosario y los títulos de un libro informativo para localizar información. Sin registro.",
       "pt": "Com o detetive Dewey, a criança usa o sumário, o glossário, os títulos e as legendas de um livro para localizar informações sobre bichinhos inventados. Uma atividade de leitura e pesquisa. Grátis, sem cadastro. BNCC, 2º ano.",
-      "it": "Insieme a Detective Dewey, il bambino esplora la pagina di una guida naturalistica e impara a usare gli strumenti del libro — l’indice, il glossario, la didascalia e il titolo — per trovare le informazioni giuste al posto giusto: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda."
+      "it": "Insieme a Detective Dewey, il bambino esplora la pagina di una guida naturalistica e impara a usare gli strumenti del libro — l’indice, il glossario, la didascalia e il titolo — per trovare le informazioni giuste al posto giusto: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda.",
+      "nl": "Help detective Dewey feiten vinden in een boek! Je kind gebruikt de onderdelen van het boek zelf — de inhoudsopgave, koppen, woordenlijst en bijschriften — om het antwoord op te zoeken, nooit door te gokken. Een leesactiviteit voor groep 4, volgens de SLO-kerndoelen. De dieren zijn verzonnen, zodat je kind echt moet lezen."
     },
     "kid_prompt_template": "Read the feature to find the fact!"
   }

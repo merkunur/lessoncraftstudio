@@ -1102,6 +1102,16 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "drink", "band": 1, "situation": "Je wilt een slokje water drinken. Wat gebruik je?", "correctNoun": "cup", "choices": [ { "noun": "cup", "themeDir": "around the house", "label": "het kopje" }, { "noun": "scissors", "themeDir": "around the house", "label": "de schaar" }, { "noun": "apple", "themeDir": "At the Supermarket", "label": "de appel" } ] },
+          { "id": "rain", "band": 1, "situation": "Buiten regent het. Wat gebruik je om droog te blijven?", "correctNoun": "umbrella", "choices": [ { "noun": "sock", "themeDir": "accessories", "label": "de sok" }, { "noun": "umbrella", "themeDir": "accessories", "label": "de paraplu" }, { "noun": "bed", "themeDir": "around the house", "label": "het bed" } ] },
+          { "id": "feet", "band": 1, "situation": "Je voeten zijn koud. Wat trek je aan je voeten?", "correctNoun": "sock", "choices": [ { "noun": "fan", "themeDir": "around the house", "label": "de ventilator" }, { "noun": "spoon", "themeDir": "around the house", "label": "de lepel" }, { "noun": "sock", "themeDir": "accessories", "label": "de sok" } ] },
+          { "id": "write", "band": 2, "situation": "Je wilt je naam schrijven. Wat gebruik je?", "correctNoun": "pencil", "choices": [ { "noun": "pencil", "themeDir": "around the house", "label": "het potlood" }, { "noun": "cup", "themeDir": "around the house", "label": "het kopje" }, { "noun": "ball", "themeDir": "toys", "label": "de bal" } ] },
+          { "id": "eat", "band": 2, "situation": "Je hebt honger. Wat kun je opeten?", "correctNoun": "apple", "choices": [ { "noun": "mitten", "themeDir": "accessories", "label": "de want" }, { "noun": "apple", "themeDir": "At the Supermarket", "label": "de appel" }, { "noun": "sock", "themeDir": "accessories", "label": "de sok" } ] },
+          { "id": "hot", "band": 2, "situation": "Het is een warme dag. Wat helpt je om af te koelen?", "correctNoun": "fan", "choices": [ { "noun": "scissors", "themeDir": "around the house", "label": "de schaar" }, { "noun": "shoe", "themeDir": "clothing", "label": "de schoen" }, { "noun": "fan", "themeDir": "around the house", "label": "de ventilator" } ] },
+          { "id": "cut", "band": 3, "situation": "Je wilt het papier knippen. Wat gebruik je?", "correctNoun": "scissors", "choices": [ { "noun": "scissors", "themeDir": "around the house", "label": "de schaar" }, { "noun": "cup", "themeDir": "around the house", "label": "het kopje" }, { "noun": "sock", "themeDir": "accessories", "label": "de sok" } ] },
+          { "id": "sleep", "band": 3, "situation": "Het is bedtijd. Waar slaap je?", "correctNoun": "bed", "choices": [ { "noun": "umbrella", "themeDir": "accessories", "label": "de paraplu" }, { "noun": "bed", "themeDir": "around the house", "label": "het bed" }, { "noun": "crayon", "themeDir": "classroom", "label": "het waskrijtje" } ] }
         ]
       }
     },
@@ -1112,7 +1122,8 @@
       "fr": "jasper-a-quoi-ca-sert-vocabulaire-cp",
       "es": "para-que-sirven-los-objetos-primer-grado",
       "pt": "para-que-serve-cada-objeto-vocabulario-1-ano",
-      "it": "a-cosa-serve-ogni-oggetto-vocabolario-classe-prima"
+      "it": "a-cosa-serve-ogni-oggetto-vocabolario-classe-prima",
+      "nl": "waar-gebruik-je-dit-voor-groep-3"
     },
     "page_title": {
       "en": "Jasper's Just-Right Bag — Which One Would You Use? (Grade 1)",
@@ -1120,7 +1131,8 @@
       "fr": "Jasper le geai — À quoi ça sert ? Le vocabulaire (CP)",
       "es": "Para qué sirven los objetos – vocabulario 1.º primaria",
       "pt": "Para que serve cada objeto? Vocabulário do dia a dia · 1º ano",
-      "it": "A cosa serve ogni oggetto? Vocabolario – classe prima"
+      "it": "A cosa serve ogni oggetto? Vocabolario – classe prima",
+      "nl": "Waar gebruik je dit voor? Woordenschatspel groep 3"
     },
     "page_intro": {
       "en": "Jasper the jay packs the just-right thing for every moment! Read what is happening (it is raining…), then tap the picture of what you would use. A Grade 1 vocabulary game about real-life connections between words and how we use them, aligned to Common Core L.1.5.c.",
@@ -1128,7 +1140,8 @@
       "fr": "Jasper le geai raconte une petite situation de tous les jours — « Il pleut dehors. Qu'utilises-tu pour rester au sec ? » — et votre enfant tape l'image de l'objet qui convient, le parapluie. En reliant chaque mot à son usage réel (le verre pour boire, les ciseaux pour couper, le lit pour dormir), il enrichit son vocabulaire du quotidien tout en s'amusant. C'est gratuit, interactif, ça se joue directement dans le navigateur, sans minuteur, sans score et sans compte.",
       "es": "¿Para qué sirve cada objeto? El niño toca la imagen del objeto que usaría en cada situación. Vocabulario en línea, gratis y sin registro, para 1.º de primaria.",
       "pt": "Com o gaio Jasper, a criança lê uma situação do dia a dia e toca na figura do objeto que usaria — o copo para beber, o guarda-chuva na chuva, o lápis para escrever. Uma atividade divertida para ampliar o vocabulário. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Insieme alla ghiandaia Jasper, il bambino legge una piccola situazione di tutti i giorni e poi tocca l’immagine dell’oggetto giusto: un’attività gratuita e senza registrazione, pensata per collegare le parole alle cose e arricchire il vocabolario del quotidiano, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Insieme alla ghiandaia Jasper, il bambino legge una piccola situazione di tutti i giorni e poi tocca l’immagine dell’oggetto giusto: un’attività gratuita e senza registrazione, pensata per collegare le parole alle cose e arricchire il vocabolario del quotidiano, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Waar gebruik je een kopje voor? In dit gratis, interactieve woordenschatspel voor groep 3 koppelt je kind alledaagse woorden aan hun gebruik — lees de situatie en tik het juiste plaatje aan. Volgens de SLO-kerndoelen."
     },
     "kid_prompt_template": "Read what is happening — what would you use?"
   }

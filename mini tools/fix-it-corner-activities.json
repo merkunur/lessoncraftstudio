@@ -148,7 +148,8 @@
       "fr": "trouver-le-nombre-manquant-plus-moins-cp",
       "es": "numero-que-falta-sumas-y-restas-cualquier-posicion-primer-grado",
       "pt": "numero-que-falta-adicao-e-subtracao-1-ano",
-      "it": "numero-che-manca-addizioni-e-sottrazioni-classe-prima"
+      "it": "numero-che-manca-addizioni-e-sottrazioni-classe-prima",
+      "nl": "ontbrekende-getal-plus-en-min-elke-plaats-groep-3"
     },
     "page_title": {
       "en": "Fixit's Fix-It Corner — Find the Missing Number (Grade 1)",
@@ -156,7 +157,8 @@
       "fr": "Addition à trous – exercice en ligne (CP)",
       "es": "El número que falta en sumas y restas (1.º de primaria)",
       "pt": "O Número Que Falta: Adição e Subtração com o Fixit — 1º ano",
-      "it": "Il numero che manca in addizioni e sottrazioni (classe prima)"
+      "it": "Il numero che manca in addizioni e sottrazioni (classe prima)",
+      "nl": "Het Ontbrekende Getal in Plus- en Minsommen – Groep 3"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 math game for the missing number in addition and subtraction: help Fixit the near-sighted repair-mole work out the part each broken gadget needs — the missing sum, addend, subtrahend, or minuend — then pop it in and watch it whir to life. Counting-on, fact-families, and balancing all build Common Core 1.OA.D.8.",
@@ -164,7 +166,8 @@
       "fr": "Additions à trous en ligne : trouver le nombre manquant pour compléter chaque calcul. Idéal au CP. Gratuit, en ligne, sans inscription.",
       "es": "Encuentra el número que falta en sumas y restas, en cualquier lugar de la operación: actividad gratis e interactiva, sin registro, alineada a la SEP.",
       "pt": "Ajude o Fixit a achar o número que falta nas contas de mais e de menos, em qualquer posição da conta. Grátis, sem cadastro. Alinhada à BNCC, 1º ano.",
-      "it": "Con Fixit, la talpa aggiustatutto un po’ miope, tuo figlio trova il numero che manca in addizioni e sottrazioni in qualsiasi posizione e rimette in funzione ogni congegno: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con Fixit, la talpa aggiustatutto un po’ miope, tuo figlio trova il numero che manca in addizioni e sottrazioni in qualsiasi posizione e rimette in funzione ogni congegno: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Help Fixit de mol om kapotte apparaten te repareren: vind het ontbrekende getal in plus- en minsommen — op elke plaats. Vul een tienveld, tel op de getallenlijn of breng een balans in evenwicht. Gratis en interactief, zonder registratie. Afgestemd op de SLO-kerndoelen voor groep 3."
     },
     "kid_prompt_template": "missing-part"
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "fix-it-corner.missing-part.1-oa-d-8": {
+      "about": [
+        "Fixit de mol is een beetje bijziend, en in \"Fixits Reparatiehoekje\" help jij hem om kapotte apparaten weer aan de praat te krijgen. Elk apparaat laat een plus- of minsom zien waarbij precies één plekje oplicht — dat is het ontbrekende getal. Stop je het juiste getal erin, dan zoemt het apparaat tot leven. De ene keer vul je een tienveld tot 10, de andere keer tel je vooruit of achteruit op de getallenlijn, of breng je een balans in evenwicht.",
+        "Daarachter zit een van de belangrijkste ideeën van groep 3: het ontbrekende getal kan op elke plaats staan — de uitkomst, een van de getallen die je optelt, of het getal waar je iets vanaf haalt. Je ontdekt omkeersommen en rekenfamilies, je leert aanvullen en je ervaart het is-gelijk-teken als een echt evenwicht.",
+        "Geen klok, geen punten, geen sterren, en vrij toegankelijk voor iedereen. Bij een verkeerd getal laat het apparaat rustig zien wat er gebeurt, en Fixit rekent gezellig met je mee. Je bepaalt zelf je tempo. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3."
+      ],
+      "practices": [
+        "Het ontbrekende getal op elke plaats bepalen",
+        "Omkeersommen en rekenfamilies gebruiken",
+        "Aanschouwelijk denken met tienveld, getallenlijn en stippen",
+        "Het is-gelijk-teken als evenwicht begrijpen en je som controleren"
+      ],
+      "howToPlay": [
+        "Zoek het lege vakje dat oplicht",
+        "Bedenk met het tienveld, de getallenlijn of de balans welk getal past en stop het erin",
+        "Past het → dan zoemt het tot leven; past het nog niet → kijk wat Fixit voordoet en probeer het rustig nog een keer"
+      ],
+      "learningGoals": [
+        "Ik kan het ontbrekende getal vinden, op elke plaats",
+        "Ik kan een omkeersom of rekenfamilie gebruiken om een minsom via de plussom op te lossen",
+        "Ik begrijp dat beide kanten even veel moeten zijn — net als een balans in evenwicht"
+      ]
+    },
     "clunks-lost-lunch.make-total.k-oa-a-3": {
       "about": [
         "Clunk de snack-robot rammelt van de honger, en hij is kieskeurig: hij wil precies een bepaald aantal knapperts, geen hapje meer of minder. Tegen de muur hangt een hele wand vol hapjes met getallen erop, maar Clunks optelchip is gebarsten — dus jouw kind springt bij en helpt hem aan zijn maaltijd.",

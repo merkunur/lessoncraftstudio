@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "clunks-lost-lunch.make-total.k-oa-a-3": {
+      "about": [
+        "Clunk de snack-robot rammelt van de honger, en hij is kieskeurig: hij wil precies een bepaald aantal knapperts, geen hapje meer of minder. Tegen de muur hangt een hele wand vol hapjes met getallen erop, maar Clunks optelchip is gebarsten — dus jouw kind springt bij en helpt hem aan zijn maaltijd.",
+        "Clunk wil precies een bepaald getal aan knapperts. Je kind kiest hapjes met getallen erop en legt ze in de lunchbox tot ze samen dat getal maken. De lunchbox laat het totaal niet zien, dus je telt zelf op. Klopt het? Dan voer je Clunk. En daarna maak je hetzelfde getal op een hele nieuwe manier — bijvoorbeeld 10 = 6 en 4, of 10 = 7 en 3. Zo ontdekt je kind dat één getal uit veel verschillende delen kan bestaan (deel-deel-geheel), het fundament onder het hoofdrekenen tot 20. Dit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
+        "Er is geen klok en geen score. Je kind mag rustig kijken, tellen en uitproberen. Zit er een hap te veel of te weinig in de lunchbox? Dan zegt Clunk gewoon vriendelijk \"niet mijn maat, maak een nieuwe\", en je begint opnieuw — zonder streng rood kruis. Alles is gratis te spelen."
+      ],
+      "practices": [
+        "Getallen samenstellen tot 14",
+        "Een getal op verschillende manieren maken",
+        "Zelf optellen zonder tussentotaal",
+        "Deel-deel-geheel ontdekken"
+      ],
+      "howToPlay": [
+        "Kijk hoeveel knapperts Clunk wil",
+        "Tik hapjes in de lunchbox en tel ze zelf bij elkaar op",
+        "Denk je dat het klopt? Voer Clunk — en maak het getal daarna op een nieuwe manier"
+      ],
+      "learningGoals": [
+        "Getallen tot 14 op verschillende manieren samenstellen",
+        "Vlot zelf optellen, ook over het tiental heen",
+        "Deel-deel-geheel begrijpen als basis voor hoofdrekenen tot 20"
+      ]
+    },
     "nesting-pots.seriate.k-cc-c-7": {
       "about": [
         "In het schuurtje van Opa Toon krullen de houtkrullen om zijn schaafmes terwijl hij potje na potje uit een blok hout snijdt. Elk potje is een andere maat, en op elke ronde buik schildert hij een getal van 1 tot 10. De kleine Wee Olen kijkt met grote ogen toe, en Toet de eend waggelt tussen de krullen door op zoek naar het kleinste potje van allemaal.",

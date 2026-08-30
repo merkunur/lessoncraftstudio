@@ -20,7 +20,8 @@
             "fr": "Tu prends le petit-déjeuner.",
             "es": "Desayunas.",
             "pt": "Você toma café da manhã.",
-            "it": "Fai colazione."
+            "it": "Fai colazione.",
+            "nl": "Je eet je ontbijt."
           },
           "time": "7:00",
           "ampm": "AM"
@@ -33,7 +34,8 @@
             "fr": "Tu te réveilles.",
             "es": "Te despiertas.",
             "pt": "Você acorda.",
-            "it": "Ti svegli."
+            "it": "Ti svegli.",
+            "nl": "Je wordt wakker."
           },
           "time": "6:00",
           "ampm": "AM"
@@ -46,7 +48,8 @@
             "fr": "L'école commence.",
             "es": "Entras a la escuela.",
             "pt": "A escola começa.",
-            "it": "Comincia la scuola."
+            "it": "Comincia la scuola.",
+            "nl": "De school begint."
           },
           "time": "8:00",
           "ampm": "AM"
@@ -59,7 +62,8 @@
             "fr": "Le soleil se lève.",
             "es": "Sale el sol.",
             "pt": "O sol nasce.",
-            "it": "Sorge il sole."
+            "it": "Sorge il sole.",
+            "nl": "De zon komt op."
           },
           "time": "6:00",
           "ampm": "AM"
@@ -72,7 +76,8 @@
             "fr": "Tu prends le dîner.",
             "es": "Cenas.",
             "pt": "Você janta.",
-            "it": "Mangi la cena."
+            "it": "Mangi la cena.",
+            "nl": "Je eet je avondeten."
           },
           "time": "6:00",
           "ampm": "PM"
@@ -85,7 +90,8 @@
             "fr": "Tu vas dormir.",
             "es": "Te vas a dormir.",
             "pt": "Você vai dormir.",
-            "it": "Vai a dormire."
+            "it": "Vai a dormire.",
+            "nl": "Je gaat naar bed."
           },
           "time": "8:00",
           "ampm": "PM"
@@ -98,7 +104,8 @@
             "fr": "Tu regardes les étoiles.",
             "es": "Miras las estrellas.",
             "pt": "Você olha as estrelas.",
-            "it": "Guardi le stelle."
+            "it": "Guardi le stelle.",
+            "nl": "Je kijkt naar de sterren."
           },
           "time": "9:00",
           "ampm": "PM"
@@ -111,7 +118,8 @@
             "fr": "Tu joues après l'école.",
             "es": "Juegas después de la escuela.",
             "pt": "Você brinca depois da aula.",
-            "it": "Giochi dopo la scuola."
+            "it": "Giochi dopo la scuola.",
+            "nl": "Je speelt buiten na school."
           },
           "time": "4:00",
           "ampm": "PM"
@@ -124,7 +132,8 @@
             "fr": "Tu te brosses les dents avant de dormir.",
             "es": "Te lavas los dientes antes de dormir.",
             "pt": "Você escova os dentes antes de dormir.",
-            "it": "Ti lavi i denti prima di dormire."
+            "it": "Ti lavi i denti prima di dormire.",
+            "nl": "Je poetst je tanden voordat je gaat slapen."
           },
           "time": "9:00",
           "ampm": "PM"
@@ -137,7 +146,8 @@
       "fr": "matin-ou-apres-midi-moments-de-la-journee-cp",
       "es": "partes-del-dia-manana-tarde-y-noche-primer-grado",
       "pt": "partes-do-dia-manha-tarde-e-noite-1-ano",
-      "it": "momenti-della-giornata-mattina-pomeriggio-sera-classe-prima"
+      "it": "momenti-della-giornata-mattina-pomeriggio-sera-classe-prima",
+      "nl": "dagdelen-ochtend-middag-avond-groep-3"
     },
     "page_title": {
       "en": "Sprocket's Clock — A.M. or P.M.? (Grade 2)",
@@ -145,7 +155,8 @@
       "fr": "L'horloge de Sprocket : le matin ou l'après-midi ? (CP)",
       "es": "Partes del día: mañana, tarde y noche (1.º de primaria)",
       "pt": "Períodos do Dia com o Sprocket: Manhã ou Tarde? — 1º ano",
-      "it": "Momenti della giornata: mattina, pomeriggio e sera – classe prima"
+      "it": "Momenti della giornata: mattina, pomeriggio e sera – classe prima",
+      "nl": "Dagdelen: ochtend of avond? – dagritme voor groep 3"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 time activity: decide whether an everyday thing happens in the a.m. (morning) or p.m. (afternoon or evening). Children learn that breakfast is a.m. and dinner is p.m. — using a.m. and p.m. with the time of day. Sprocket the rooster cheers them on. Common Core 2.MD.C.7.",
@@ -153,7 +164,8 @@
       "fr": "Un jeu de maths CP, gratuit et interactif : chaque moment de la journée se passe-t-il le matin, ou l'après-midi et le soir ? Ton enfant lit ce qu'il fait — le petit-déjeuner, le dîner, les étoiles — regarde l'heure, puis touche le bon moment de la journée. Il apprend que le petit-déjeuner, c'est le matin et que le dîner, c'est le soir. Sprocket le coq l'encourage. Un jeu tout doux pour se repérer dans la journée.",
       "es": "Actividad gratis e interactiva: los niños clasifican las actividades del día en mañana, tarde y noche y aprenden a leer la hora, sin registro, alineada a la SEP.",
       "pt": "Ajude o galo Sprocket a decidir se cada coisa do dia acontece de manhã ou de tarde e à noite, olhando a hora no relógio. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Il gallo Sprocket mostra un momento della giornata: la colazione, i compiti, le stelle prima di andare a dormire. Il bambino guarda l’evento e l’ora, poi sceglie se accade di mattina oppure di pomeriggio e sera. Un’attività gratuita, senza registrazione e senza timer, pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Il gallo Sprocket mostra un momento della giornata: la colazione, i compiti, le stelle prima di andare a dormire. Il bambino guarda l’evento e l’ora, poi sceglie se accade di mattina oppure di pomeriggio e sera. Un’attività gratuita, senza registrazione e senza timer, pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Sprocket de haan laat een gebeurtenis uit de dag zien — je eet je ontbijt om 7 uur, of je kijkt naar de sterren om 9 uur — en jouw kind kiest het juiste dagdeel: de ochtend, of de middag en avond. Zo leert je kind gebeurtenissen aan dagdelen koppelen. Kloklezen hoeft niet, gewoon goed nadenken en kijken. Gratis en interactief."
     },
     "kid_prompt_template": "clock-ampm"
   }

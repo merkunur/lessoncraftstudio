@@ -295,7 +295,8 @@
       "fr": "lire-les-nombres-jusqu-a-20-cp",
       "es": "leer-numeros-reconocer-numeros-escritos-0-20-primaria",
       "pt": "ler-e-reconhecer-numeros-0-20-cartas-pip-1-ano",
-      "it": "leggere-e-riconoscere-i-numeri-0-20-classe-prima"
+      "it": "leggere-e-riconoscere-i-numeri-0-20-classe-prima",
+      "nl": "getallen-lezen-cijfers-herkennen-tot-20-groep-3"
     },
     "page_title": {
       "en": "Pip's Round — Read the House Numbers",
@@ -303,7 +304,8 @@
       "fr": "Reconnaître les chiffres – nombres jusqu'à 20, en ligne (CP)",
       "es": "Leer y reconocer números escritos 0 a 20 (1.º de primaria)",
       "pt": "Ler e Reconhecer Números 0 a 20: Entregue Cartas com o Pip — 1º ano",
-      "it": "Leggere e riconoscere i numeri 0-20 online – classe prima"
+      "it": "Leggere e riconoscere i numeri 0-20 online – classe prima",
+      "nl": "Getallen lezen: cijfers tot 20 herkennen – groep 3"
     },
     "page_intro": {
       "en": "Pip the postal mouse is on her morning round, and someone is waiting for their letter! Read the number on the envelope — or listen for it — then tap the matching house to deliver. The curtains fly open and a happy neighbor waves. A warm Kindergarten number-reading game aligned to Common Core K.CC.A.3.",
@@ -311,7 +313,8 @@
       "fr": "Reconnaître les chiffres et lire les nombres jusqu'à 20 pendant la tournée du facteur Pip. Gratuit, en ligne, sans inscription.",
       "es": "El niño lee el número del sobre y toca la casa correcta: actividad gratis para reconocer números escritos del 0 al 20. Primer grado, sin registro (SEP).",
       "pt": "Leia o número no envelope e toque na casa certa para o Pip carteiro entregar a carta — reconheça os números de 0 a 20. Atividade grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Pip la topina postina consegna le lettere in tutto il quartiere, e ha bisogno del tuo bambino per leggere i numeri sulle buste. A ogni giro compare un numero da 0 a 20: il bambino lo legge e tocca la casa giusta, e il vicino saluta felice dalla finestra. Un’attività gratuita, senza registrazione e senza timer, pensata per la classe prima e allineata alle Indicazioni nazionali."
+      "it": "Pip la topina postina consegna le lettere in tutto il quartiere, e ha bisogno del tuo bambino per leggere i numeri sulle buste. A ogni giro compare un numero da 0 a 20: il bambino lo legge e tocca la casa giusta, e il vicino saluta felice dalla finestra. Un’attività gratuita, senza registrazione e senza timer, pensata per la classe prima e allineata alle Indicazioni nazionali.",
+      "nl": "Snor de muis bezorgt de post in de buurt. Op elke brief staat een getal van 0 tot 20. Je kind leest het getal en tikt op het huis met datzelfde huisnummer, en de buurman zwaait blij uit het raam. Zo leert je kind getallen tot 20 lezen en herkennen — ook lastige tienertallen zoals 13 en 14. Gratis, interactief en zonder sommen: gewoon rustig getallen lezen en de post bezorgen."
     },
     "kid_prompt_template": "mail-route"
   }

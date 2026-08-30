@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "pips-round.mail-route.k-cc-a-3": {
+      "about": [
+        "Snor de muis heeft de posttas al om en huppelt langs de kleine huisjes in de buurt. In de tas zitten allemaal brieven, en elk huisje heeft een eigen bordje met een huisnummer erop. Snor kijkt vrolijk omhoog: welke brief mag als eerste bezorgd worden? Samen met je kind gaat de muis op pad om de post bij het juiste huis te brengen.",
+        "Op elke brief staat een getal van 0 tot 20. Je kind leest het getal en zoekt het huis met datzelfde huisnummer. Zo oefent het spelenderwijs getallen lezen en cijfers herkennen — ook de tienertallen zoals 13, 14 en 16, waar de plek van de cijfers telt (13 is niet 31). Dit noemen we ook wel getallen lezen, en het sluit mooi aan bij de SLO-kerndoelen voor rekenen in groep 3.",
+        "Er is geen klok en geen score. Je kind mag rustig lezen en bezorgen, helemaal in zijn eigen tempo. Tikt het op het verkeerde huis? Geen probleem — dat is geen fout, gewoon nog een keer goed naar het getal kijken en het juiste huisnummer zoeken. De activiteit is gratis en kan zo vaak gespeeld worden als je kind wil."
+      ],
+      "practices": [
+        "Geschreven getallen van 0 tot 20 lezen",
+        "Cijfers op de huizen herkennen",
+        "Het getal op de brief bij het juiste huis vinden",
+        "Tienertallen zoals 13 en 14 goed leren lezen"
+      ],
+      "howToPlay": [
+        "Lees het getal op de brief",
+        "Zoek het huis met datzelfde huisnummer",
+        "Tik op dat huis om de brief te bezorgen"
+      ],
+      "learningGoals": [
+        "Getallen van 0 tot 20 vlot en zeker leren lezen",
+        "Cijfers en huisnummers snel herkennen",
+        "Begrijpen dat de plek van een cijfer telt (13 is niet 31)"
+      ]
+    },
     "wondering-jar.estimate-jar.k-cc-b-5": {
       "about": [
         "Hoog op een tak zit Uiltje met een glas vol snoepjes op schoot. Uiltje houdt het glas omhoog, kijkt je kind vragend aan en hoeft het niet eens te tellen: hoeveel snoepjes zouden er nou in zitten, denk je? Even goed kijken, en dan een schatting maken.",

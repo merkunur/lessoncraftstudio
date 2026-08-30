@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "ten-tank.ten-frame-tank.k-nbt-a-1": {
+      "about": [
+        "Dobber de eend dobbert vrolijk in een hoge glazen tank vol belletjes. Elke keer dat je tikt, borrelt er een nieuw belletje omhoog, en Dobber kijkt tevreden toe hoe de tank langzaam voller wordt. Het is een rustig plekje om te ontdekken hoe getallen eigenlijk zijn opgebouwd.",
+        "Tik belletjes in de tank tot je er tien hebt: dan klikken die tien belletjes samen tot één tiental, terwijl de belletjes die overblijven los ernaast blijven staan als enen. Zo wordt elk getal van 11 tot 19 zichtbaar als een tiental en een paar enen (10 + N) — de eerste stap in het tientallig stelsel, ook wel bundelen genoemd. Kinderen bundelen tientallen, leggen er enen bij, splitsen een getal weer in tiental en enen en maken zo gesproken getallen. Deze activiteit sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
+        "Er is geen klok en geen score — Dobber heeft alle tijd. Je tikt op je eigen tempo belletjes bij en kijkt rustig hoe het tiental ontstaat. Een verkeerde plek is geen fout: je probeert het gewoon opnieuw tot het getal klopt. De activiteit is helemaal gratis."
+      ],
+      "practices": [
+        "Getallen 11 tot 19 zien als een tiental en enen",
+        "Tien losse enen bundelen tot één tiental",
+        "Een getal splitsen in een tiental en enen",
+        "10 + N herkennen in getallen van 11 tot 19"
+      ],
+      "howToPlay": [
+        "Tik belletjes in de tank tot je er tien hebt — die worden samen één tiental",
+        "Leg de losse enen naast het tiental",
+        "Maak zo het gevraagde getal, bijvoorbeeld 14: één tiental en vier enen"
+      ],
+      "learningGoals": [
+        "Begrijpen dat een getal van 11 tot 19 bestaat uit één tiental en een paar enen",
+        "Ervaren hoe tien enen samen één tiental vormen (bundelen)",
+        "De basis van het tientallig stelsel leren zien als 10 + N"
+      ]
+    },
     "mochi-feast.count-out.k-cc-b-5": {
       "about": [
         "Mochi is een klein, hongerig wezentje dat dol is op een feestje met lekkers. Op zijn tafeltje staan schaaltjes vol aardbeien, koekjes, kersen, cupcakes, bananen, appels, donuts en muffins, en een lege kom die wacht om gevuld te worden. Mochi kijkt je kind verwachtingsvol aan: hoeveel mag er vandaag in de kom?",

@@ -55,6 +55,13 @@
       winAM: 'Sì! È mattina.',
       winPM: 'Sì! È pomeriggio o sera.',
       hint: 'Prima di mezzogiorno è mattina. Dopo mezzogiorno vengono pomeriggio e sera.'
+    },
+    nl: {
+      q: "Wanneer gebeurt dit — 's ochtends, of 's middags en 's avonds?",
+      am: 'Ochtend', pm: 'Middag & avond',
+      winAM: 'Ja! Dat is in de ochtend.',
+      winPM: 'Ja! Dat is in de middag of avond.',
+      hint: "In de ochtend begint de dag; 's middags en 's avonds is het later."
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -84,8 +91,8 @@
   var ClockAmpmActivity = {
     id: 'clock-ampm-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Tageszeiten', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket — mañana o noche', pt: 'O relógio do Sprocket — manhã ou noite', it: 'Sprocket e i momenti del giorno' },
-      instruction: { en: 'Read what you are doing, then choose a.m. or p.m.', de: 'Lies, was du gerade tust, und wähle dann die richtige Tageszeit.', fr: 'Lis ce que tu fais, puis choisis le matin ou l’après-midi.', es: 'Lee lo que haces y elige la parte del día correcta.', pt: 'Leia o que você faz e escolha a parte certa do dia.', it: 'Leggi che cosa fai, poi scegli mattina o sera.' },
+      title: { en: "Sprocket's Clock", de: 'Sprockets Uhr — Tageszeiten', fr: 'L’horloge de Sprocket', es: 'El reloj de Sprocket — mañana o noche', pt: 'O relógio do Sprocket — manhã ou noite', it: 'Sprocket e i momenti del giorno', nl: 'De dag van Sprocket' },
+      instruction: { en: 'Read what you are doing, then choose a.m. or p.m.', de: 'Lies, was du gerade tust, und wähle dann die richtige Tageszeit.', fr: 'Lis ce que tu fais, puis choisis le matin ou l’après-midi.', es: 'Lee lo que haces y elige la parte del día correcta.', pt: 'Leia o que você faz e escolha a parte certa do dia.', it: 'Leggi che cosa fai, poi scegli mattina o sera.', nl: 'Lees wat je doet en kies het juiste dagdeel.' },
       q: { en: '{q}' }
     },
 
@@ -141,6 +148,10 @@
         '.ap-it .ap-choice{font-size:1.05rem;max-width:128px;}',
         '.ap-it .ap-icon{width:88px;height:88px;}',
         '@media (max-width:380px){.ap-it .ap-choice{font-size:.92rem;}}',
+        /* nl: the dual label „Middag & avond" is longer → shrink the label + tighten the card + enlarge the icon so the buttons fill their area (not-sparse) and the short „Ochtend" sun button isn't stretched empty (§A.13.62 fix-layout). nl-scoped → EN untouched. */
+        '.ap-nl .ap-choice{font-size:1.05rem;max-width:128px;}',
+        '.ap-nl .ap-icon{width:88px;height:88px;}',
+        '@media (max-width:380px){.ap-nl .ap-choice{font-size:.92rem;}}',
         '.lcs-app:not(.sprocket-resolved) .lcs-activity-check{display:none !important;}'
       ].join('');
       document.head.appendChild(s);
@@ -196,11 +207,11 @@
       var stage = api.stage; stage.innerHTML = '';
       var round = this._round; if (!round) return;
       var self = this, tok = this._token;
-      var root = el('div', 'ap-root' + (LANG === 'de' ? ' ap-de' : (LANG === 'fr' ? ' ap-fr' : (LANG === 'es' ? ' ap-es' : (LANG === 'pt' ? ' ap-pt' : (LANG === 'it' ? ' ap-it' : ''))))));
+      var root = el('div', 'ap-root' + (LANG === 'de' ? ' ap-de' : (LANG === 'fr' ? ' ap-fr' : (LANG === 'es' ? ' ap-es' : (LANG === 'pt' ? ' ap-pt' : (LANG === 'it' ? ' ap-it' : (LANG === 'nl' ? ' ap-nl' : '')))))));
 
       var scene = el('div', 'ap-scene');
-      var act = el('p', 'ap-activity'); act.textContent = (LANG === 'de' && round.activityL10n && round.activityL10n.de) || (LANG === 'fr' && round.activityL10n && round.activityL10n.fr) || (LANG === 'es' && round.activityL10n && round.activityL10n.es) || (LANG === 'pt' && round.activityL10n && round.activityL10n.pt) || (LANG === 'it' && round.activityL10n && round.activityL10n.it) || round.activity; scene.appendChild(act);
-      var tm = el('div', 'ap-time'); tm.textContent = (LANG === 'de' ? round.time.split(':')[0] + ' Uhr' : (LANG === 'fr' ? round.time.split(':')[0] + ' h' : (LANG === 'es' ? (round.time.split(':')[0] === '1' ? 'la ' : 'las ') + round.time.split(':')[0] : (LANG === 'pt' ? round.time.split(':')[0] + ' horas' : (LANG === 'it' ? 'le ' + round.time.split(':')[0] : round.time))))); scene.appendChild(tm);
+      var act = el('p', 'ap-activity'); act.textContent = (LANG === 'de' && round.activityL10n && round.activityL10n.de) || (LANG === 'fr' && round.activityL10n && round.activityL10n.fr) || (LANG === 'es' && round.activityL10n && round.activityL10n.es) || (LANG === 'pt' && round.activityL10n && round.activityL10n.pt) || (LANG === 'it' && round.activityL10n && round.activityL10n.it) || (LANG === 'nl' && round.activityL10n && round.activityL10n.nl) || round.activity; scene.appendChild(act);
+      var tm = el('div', 'ap-time'); tm.textContent = (LANG === 'de' ? round.time.split(':')[0] + ' Uhr' : (LANG === 'fr' ? round.time.split(':')[0] + ' h' : (LANG === 'es' ? (round.time.split(':')[0] === '1' ? 'la ' : 'las ') + round.time.split(':')[0] : (LANG === 'pt' ? round.time.split(':')[0] + ' horas' : (LANG === 'it' ? 'le ' + round.time.split(':')[0] : (LANG === 'nl' ? round.time.split(':')[0] + ' uur' : round.time)))))); scene.appendChild(tm);
       root.appendChild(scene);
 
       var row = el('div', 'ap-row');
@@ -270,6 +281,10 @@
         var itAct = (round.activityL10n && round.activityL10n.it) || round.activity;
         var itTime = round.time.split(':')[0];
         wrap.innerHTML = '<p>' + itAct + ' Sono le ' + itTime + '. ' + txt('q') + ' Puoi scegliere: mattina (prima di mezzogiorno) oppure pomeriggio e sera (dopo mezzogiorno).</p>';
+      } else if (LANG === 'nl') {
+        var nlAct = (round.activityL10n && round.activityL10n.nl) || round.activity;
+        var nlTime = round.time.split(':')[0] + ' uur';
+        wrap.innerHTML = '<p>' + nlAct + ' Om ' + nlTime + '. ' + txt('q') + ' Je kunt kiezen: ochtend (voor de middag) of middag en avond (na de middag).</p>';
       } else {
         wrap.innerHTML = '<p>' + round.activity + ' at ' + round.time + '. ' + txt('q') + ' The choices are: a.m. (morning), p.m. (afternoon or evening).</p>';
       }

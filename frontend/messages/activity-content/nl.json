@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "star-stitcher.connect-sequence.k-cc-a-2": {
+      "about": [
+        "Hoog boven de weide is het nacht geworden. Aan de donkere hemel staan slaperige sterren zacht te fonkelen, en daartussen zweeft een klein vuurvliegje met een warm geel lichtje. Op één ster brandt een getal — precies daar begint het vuurvliegje aan zijn tocht langs de sterrenhemel.",
+        "Het vuurvliegje begint niet bij 1, maar op een gegeven getal en telt van daaruit verder naar de volgende ster: staat het op 7, dan telt je kind hardop mee — 8, 9, 10. Zo oefent je kind het verder tellen in de telrij — ook wel doortellen genoemd — en merkt het dat tellen overal kan beginnen, ook voorbij de tien. Deze manier van verder tellen sluit aan bij de SLO-kerndoelen voor rekenen voor groep 3.",
+        "Er is geen klok en geen score. Je kind mag rustig ster voor ster verder tellen, zo vaak als het wil. Tel je een keer te ver? Dan tel je gewoon nog eens verder vanaf de brandende ster — niets kan misgaan. Het spelletje is helemaal gratis."
+      ],
+      "practices": [
+        "Verder tellen vanaf een gegeven getal",
+        "Ontdekken dat je niet altijd bij 1 hoeft te beginnen",
+        "De volgende getallen in de telrij hardop noemen",
+        "Een getal op een ster herkennen en lezen"
+      ],
+      "howToPlay": [
+        "Kijk op welk getal het vuurvliegje begint",
+        "Tik op 'verder tellen' om naar de volgende ster te vliegen",
+        "Maak de ster wakker als je bij het juiste getal bent"
+      ],
+      "learningGoals": [
+        "Je kind telt verder vanaf elk getal, niet alleen vanaf 1",
+        "Je kind leert de telrij vlot voortzetten, ook voorbij de tien",
+        "Je kind koppelt een getal aan de juiste plek in de telrij"
+      ]
+    },
     "necklace.bead-string.k-cc-b-4": {
       "about": [
         "De vos zit op een kussentje van mos en rijgt de mooiste kralen aan een draadje. Rood, geel, blauw — klik-klik glijden de kraaltjes over het touwtje. Zijn vriendje heeft ook zo'n ketting, met heel andere kleuren, maar met precies evenveel kralen. En dat is nou net wat jij gaat maken: niet dezelfde kleuren, maar hetzelfde aantal.",

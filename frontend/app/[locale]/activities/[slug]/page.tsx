@@ -104,7 +104,7 @@ const GRADE_OVERRIDE: Record<string, Record<string, string>> = {
   'friendship-bridge.compare-balance.k-cc-c-6': { de: '1', pt: '1', it: '1' },     // K compare-sets-by-matching (Mengen vergleichen mehr/weniger/gleich viel) → Klasse 1; en stays Kindergarten (K-cluster pattern). PT 1º ano (BNCC EF01MA03 — "estimar e comparar quantidades de objetos de dois conjuntos por correspondência um a um: tem mais/tem menos/tem a mesma quantidade" = verbatim esta atividade; NÃO EF01MA05 que é comparar numerais escritos = irmão comparison-creek; mirrors de, diverge de fr/es que mantêm K por GS/SEP); strand Números auto (Counting&Cardinality, NO override — NÃO é a armadilha OA)
   'necklace.bead-string.k-cc-b-4': { de: '1', pt: '1', it: '1' },                  // K count-to-cardinality → Klasse 1 / 1º ano (pt BNCC EF01MA04 contar-coleção→cardinal + EF01MA02 pareamento; invariância folded into EF01MA04; K-cluster→1º); en stays Kindergarten
 
-  'star-stitcher.connect-sequence.k-cc-a-2': { de: '1', pt: '1', it: '1' },        // K count-forward-from-N → Klasse 1 / 1º ano (pt BNCC EF01MA01 nº como indicador de ordem + EF01MA02 pareamento; sobrecontagem; ≤18 no-place-value keeps it 1º; K-cluster→1º); en stays Kindergarten
+  'star-stitcher.connect-sequence.k-cc-a-2': { de: '1', pt: '1', it: '1', nl: '1' }, // K count-forward-from-N → Klasse 1 / 1º ano / Groep 3 (nl: verder tellen ÓVER het tiental [start 11/12→~18] + getallen-tot-20-lezen = Groep-3 getalbegrip; 1e Groep-3-ruling in de tel-cluster, diverges fr/es maternelle); en stays Kindergarten
 
   'mochi-feast.count-out.k-cc-b-5': { de: '1', pt: '1', it: '1' },                 // K count-out-N / produce-a-set → Klasse 1 / 1º ano (pt BNCC EF01MA02 contar de maneira exata/pareamento — count-out-to-produce, distinct from #55 necklace EF01MA04 count-&-register; + EF01MA01; K-cluster→1º); en stays Kindergarten
 
@@ -558,7 +558,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '9.618';
+  const ACTIVITY_WRAPPER_VERSION = '9.619';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +

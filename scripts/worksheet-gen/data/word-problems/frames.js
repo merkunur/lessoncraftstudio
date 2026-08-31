@@ -115,6 +115,87 @@ const FRAMES = {
         "{name} a {n1} {noun}. {name} en perd {n2} en chemin. Combien en reste-t-il ?"
       ]
     }
+  },
+  "pt": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Sofia",
+      "Miguel",
+      "Alice",
+      "Davi",
+      "Laura",
+      "Pedro",
+      "Helena",
+      "Lucas"
+    ],
+    "frames": {
+      "add": [
+        "{name} tem {n1} {noun} e ganha mais {n2} {noun}. Qual é o total de {noun}?",
+        "{name} vê {n1} {noun} e depois vê mais {n2} {noun}. Qual é o total de {noun} agora?",
+        "{name} desenha {n1} {noun} e depois desenha mais {n2} {noun}. Qual é o total de {noun}?",
+        "{name} conta {n1} {noun} e um amigo conta mais {n2} {noun}. Qual é o total de {noun} dos dois juntos?"
+      ],
+      "sub": [
+        "{name} tem {n1} {noun} e dá {n2} {noun} para um amigo. Qual é o total de {noun} que sobra?",
+        "{name} tem {n1} {noun} e perde {n2} {noun}. Qual é o total de {noun} agora?",
+        "{name} conta {n1} {noun} e tira {n2} {noun}. Qual é o total de {noun} que resta?"
+      ]
+    }
+  },
+  "it": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Sofia",
+      "Leonardo",
+      "Giulia",
+      "Francesco",
+      "Aurora",
+      "Lorenzo",
+      "Alice",
+      "Matteo"
+    ],
+    "frames": {
+      "add": [
+        "{name} ha {n1} {noun}. Poi ne trova ancora {n2}. Qual è il totale?",
+        "{name} vede {n1} {noun}. Più tardi ne vede ancora {n2}. Qual è il totale?",
+        "{name} ha {n1} {noun}. Un amico gliene regala {n2}. Qual è il totale adesso?",
+        "{name} mette {n1} {noun} nel cesto. Poi ne aggiunge ancora {n2}. Qual è il totale?"
+      ],
+      "sub": [
+        "{name} ha {n1} {noun}. Ne regala {n2} a un amico. Qual è il totale adesso?",
+        "{name} ha {n1} {noun}. Ne perde {n2} al parco. Qual è il totale alla fine?",
+        "{name} conta {n1} {noun}. Ne dà via {n2}. Qual è il totale che resta?"
+      ]
+    }
+  },
+  "nl": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Emma",
+      "Daan",
+      "Julia",
+      "Sem",
+      "Tess",
+      "Finn",
+      "Lotte",
+      "Luuk"
+    ],
+    "frames": {
+      "add": [
+        "{name} heeft {n1} {noun}. {name} krijgt er nog {n2} bij. Hoeveel {noun} heeft {name} nu?",
+        "{name} ziet {n1} {noun}. Dan ziet {name} nog {n2} {noun}. Hoeveel {noun} ziet {name} in totaal?",
+        "{name} vindt {n1} {noun}. Daarna vindt {name} nog {n2} {noun}. Hoeveel {noun} vindt {name} bij elkaar?",
+        "{name} telt {n1} {noun}. Even later telt {name} nog {n2} {noun}. Hoeveel {noun} zijn dat samen?"
+      ],
+      "sub": [
+        "{name} heeft {n1} {noun}. {name} geeft {n2} {noun} weg. Hoeveel {noun} heeft {name} nog over?",
+        "{name} heeft {n1} {noun}. {name} verliest er {n2}. Hoeveel {noun} heeft {name} nu nog?",
+        "Er zijn {n1} {noun}. {name} pakt er {n2} weg. Hoeveel {noun} zijn er nog over?"
+      ]
+    }
   }
 };
 

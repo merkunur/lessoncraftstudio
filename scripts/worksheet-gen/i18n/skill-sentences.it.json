@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Sentire i suoni e le sillabe dentro le parole costruisce la consapevolezza fonologica da cui dipende la lettura fluente.",
     "short": "Allena la consapevolezza fonologica."
+  },
+  "pre-writing": {
+    "full": "Ripassare onde, zigzag e ponticelli allena il controllo della matita e prepara la mano a scrivere lettere e numeri.",
+    "short": "Allena il controllo della matita e il pregrafismo."
+  },
+  "number-tracing": {
+    "full": "Ricalcare ogni cifra seguendo il punto di partenza e le frecce insegna fin dall'inizio la forma corretta dei numeri.",
+    "short": "Insegna la scrittura corretta delle cifre."
+  },
+  "letter-tracing": {
+    "full": "Ricalcare le lettere maiuscole sulle righe fissa nella memoria la forma delle lettere e prepara una scrittura sicura.",
+    "short": "Consolida la forma delle lettere maiuscole."
+  },
+  "sight-words": {
+    "full": "Leggere, ricalcare e scrivere le parole più frequenti le fissa nella memoria e rende la lettura sempre più fluida.",
+    "short": "Fissa nella memoria le parole più frequenti."
+  },
+  "cutting-practice": {
+    "full": "Ritagliare le figure e incollarle nel gruppo giusto allena l'uso delle forbici e le prime classificazioni.",
+    "short": "Allena l'uso delle forbici e le classificazioni."
+  },
+  "color-by-number": {
+    "full": "Abbinare ogni codice al suo colore unisce l'osservazione attenta e i primi calcoli in un disegno tutto da completare.",
+    "short": "Consolida i primi calcoli colorando."
+  },
+  "mazes": {
+    "full": "Trovare l'unica strada giusta nel labirinto sviluppa l'attenzione visiva, il controllo della matita e la pazienza.",
+    "short": "Sviluppa attenzione visiva e controllo della matita."
+  },
+  "number-bonds": {
+    "full": "Completare gli schemi di scomposizione mostra come i numeri si dividono in parti e prepara il calcolo mentale.",
+    "short": "Insegna la scomposizione dei numeri fino a 10."
+  },
+  "mental-math": {
+    "full": "Risolvere a mente addizioni e sottrazioni entro il 20 costruisce la sicurezza su cui poggia tutto il calcolo scritto.",
+    "short": "Rende sicuri nel calcolo a mente entro il 20."
+  },
+  "fact-families": {
+    "full": "Completare le quattro operazioni di una stessa terna di numeri mostra come addizione e sottrazione siano operazioni inverse.",
+    "short": "Fa capire che addizione e sottrazione sono inverse."
+  },
+  "number-words": {
+    "full": "Abbinare i numeri in cifre ai numeri in lettere rafforza la lettura dei numeri ed evita le inversioni tra le cifre.",
+    "short": "Allena la lettura dei numeri in lettere."
+  },
+  "money": {
+    "full": "Contare il valore delle monete dalla più grande alla più piccola costruisce la confidenza con l'euro di tutti i giorni.",
+    "short": "Insegna a contare le monete dell'euro."
+  },
+  "word-problems": {
+    "full": "Leggere una breve storia, osservare la figura e scrivere la risposta trasforma il calcolo in un vero problema da risolvere.",
+    "short": "Allena a risolvere problemi con l'aiuto delle figure."
+  },
+  "column-arithmetic": {
+    "full": "Calcolare una colonna alla volta, dalle unità in su, costruisce il metodo scritto per affrontare numeri sempre più grandi.",
+    "short": "Costruisce il metodo del calcolo in colonna."
+  },
+  "symmetry": {
+    "full": "Completare la metà speculare di un disegno, quadretto dopo quadretto, sviluppa il senso della simmetria e la precisione.",
+    "short": "Sviluppa simmetria e precisione nel disegno."
+  },
+  "reading-comprehension": {
+    "full": "Leggere un breve racconto e rispondere alle domande costruisce la comprensione attenta su cui si basa ogni apprendimento.",
+    "short": "Sviluppa la comprensione del testo."
+  },
+  "multiplication-tables": {
+    "full": "Ripetere le tabelline in scalette ed esercizi misti costruisce il ricordo immediato che rende facile la matematica.",
+    "short": "Rende automatico il ricordo delle tabelline."
   }
 }

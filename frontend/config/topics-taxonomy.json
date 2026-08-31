@@ -2196,13 +2196,19 @@
           "en": "pre-writing",
           "de": "schwunguebungen",
           "es": "grafomotricidad",
-          "fr": "graphisme"
+          "fr": "graphisme",
+          "pt": "grafismo",
+          "it": "pregrafismo",
+          "nl": "schrijfpatronen"
         },
         "name": {
           "en": "Pre-Writing Practice",
           "de": "Schwungübungen",
           "es": "Grafomotricidad",
-          "fr": "Graphisme"
+          "fr": "Graphisme",
+          "pt": "Grafismo e traçados",
+          "it": "Pregrafismo",
+          "nl": "Schrijfpatronen"
         }
       },
       "number-tracing": {
@@ -2210,13 +2216,19 @@
           "en": "number-tracing",
           "de": "zahlen-schreiben-lernen",
           "es": "numeros-punteados",
-          "fr": "ecriture-des-chiffres"
+          "fr": "ecriture-des-chiffres",
+          "pt": "numeros-pontilhados",
+          "it": "numeri-tratteggiati",
+          "nl": "cijfers-schrijven"
         },
         "name": {
           "en": "Number Tracing",
           "de": "Zahlen schreiben lernen",
           "es": "Números punteados",
-          "fr": "Écriture des chiffres"
+          "fr": "Écriture des chiffres",
+          "pt": "Números pontilhados",
+          "it": "Numeri tratteggiati",
+          "nl": "Cijfers schrijven"
         }
       },
       "letter-tracing": {
@@ -2224,13 +2236,19 @@
           "en": "letter-tracing",
           "de": "buchstaben-nachspuren",
           "es": "abecedario-punteado",
-          "fr": "ecriture-des-lettres"
+          "fr": "ecriture-des-lettres",
+          "pt": "alfabeto-pontilhado",
+          "it": "lettere-tratteggiate",
+          "nl": "letters-overtrekken"
         },
         "name": {
           "en": "Letter Tracing",
           "de": "Buchstaben nachspuren",
           "es": "Abecedario punteado",
-          "fr": "Écriture des lettres"
+          "fr": "Écriture des lettres",
+          "pt": "Alfabeto pontilhado",
+          "it": "Lettere tratteggiate",
+          "nl": "Letters overtrekken"
         }
       },
       "sight-words": {
@@ -2238,13 +2256,19 @@
           "en": "sight-words",
           "de": "lernwoerter",
           "es": "palabras-de-uso-frecuente",
-          "fr": "mots-outils"
+          "fr": "mots-outils",
+          "pt": "palavras-frequentes",
+          "it": "parole-frequenti",
+          "nl": "flitswoorden"
         },
         "name": {
           "en": "Sight Words",
           "de": "Lernwörter",
           "es": "Palabras de uso frecuente",
-          "fr": "Mots-outils"
+          "fr": "Mots-outils",
+          "pt": "Palavras frequentes",
+          "it": "Parole frequenti",
+          "nl": "Flitswoorden"
         }
       },
       "cutting-practice": {
@@ -2252,13 +2276,19 @@
           "en": "cutting-practice",
           "de": "schneideuebungen",
           "es": "recortar-y-pegar",
-          "fr": "decoupage-collage"
+          "fr": "decoupage-collage",
+          "pt": "recorte-e-colagem",
+          "it": "ritaglia-e-incolla",
+          "nl": "knipoefeningen"
         },
         "name": {
           "en": "Cutting Practice",
           "de": "Schneideübungen",
           "es": "Recortar y pegar",
-          "fr": "Découpage et collage"
+          "fr": "Découpage et collage",
+          "pt": "Recorte e colagem",
+          "it": "Ritaglia e incolla",
+          "nl": "Knipoefeningen"
         }
       },
       "color-by-number": {
@@ -2266,13 +2296,19 @@
           "en": "color-by-number",
           "de": "rechnen-und-ausmalen",
           "es": "colorear-por-numeros",
-          "fr": "coloriage-magique"
+          "fr": "coloriage-magique",
+          "pt": "pinte-conforme-o-resultado",
+          "it": "conta-e-colora",
+          "nl": "kleuren-op-code"
         },
         "name": {
           "en": "Color by Number",
           "de": "Rechnen und Ausmalen",
           "es": "Colorear por números",
-          "fr": "Coloriage magique"
+          "fr": "Coloriage magique",
+          "pt": "Pinte conforme o resultado",
+          "it": "Conta e colora",
+          "nl": "Kleuren op code"
         }
       },
       "mazes": {
@@ -2280,13 +2316,19 @@
           "en": "mazes",
           "de": "labyrinthe",
           "es": "laberintos",
-          "fr": "labyrinthes"
+          "fr": "labyrinthes",
+          "pt": "labirintos",
+          "it": "labirinti",
+          "nl": "doolhoven"
         },
         "name": {
           "en": "Mazes",
           "de": "Labyrinthe",
           "es": "Laberintos",
-          "fr": "Labyrinthes"
+          "fr": "Labyrinthes",
+          "pt": "Labirintos",
+          "it": "Labirinti",
+          "nl": "Doolhoven"
         }
       },
       "number-bonds": {
@@ -2294,13 +2336,19 @@
           "en": "number-bonds",
           "de": "zahlzerlegung",
           "es": "descomposicion-de-numeros",
-          "fr": "complements-a-10"
+          "fr": "complements-a-10",
+          "pt": "decomposicao-de-numeros",
+          "it": "amici-del-10",
+          "nl": "splitsen"
         },
         "name": {
           "en": "Number Bonds",
           "de": "Zahlzerlegung",
           "es": "Descomposición de números",
-          "fr": "Compléments à 10"
+          "fr": "Compléments à 10",
+          "pt": "Decomposição de números",
+          "it": "Amici del 10",
+          "nl": "Splitsen"
         }
       },
       "mental-math": {
@@ -2308,13 +2356,19 @@
           "en": "mental-math",
           "de": "kopfrechnen",
           "es": "calculo-mental",
-          "fr": "calcul-mental"
+          "fr": "calcul-mental",
+          "pt": "calculo-mental",
+          "it": "calcolo-mentale",
+          "nl": "hoofdrekenen"
         },
         "name": {
           "en": "Mental Math",
           "de": "Kopfrechnen",
           "es": "Cálculo mental",
-          "fr": "Calcul mental"
+          "fr": "Calcul mental",
+          "pt": "Cálculo mental",
+          "it": "Calcolo mentale",
+          "nl": "Hoofdrekenen"
         }
       },
       "fact-families": {
@@ -2322,13 +2376,19 @@
           "en": "fact-families",
           "de": "aufgabenfamilien",
           "es": "familias-de-operaciones",
-          "fr": "familles-d-operations"
+          "fr": "familles-d-operations",
+          "pt": "familia-de-fatos",
+          "it": "famiglie-di-operazioni",
+          "nl": "sommenfamilies"
         },
         "name": {
           "en": "Fact Families",
           "de": "Aufgabenfamilien",
           "es": "Familias de operaciones",
-          "fr": "Familles d'opérations"
+          "fr": "Familles d'opérations",
+          "pt": "Família de fatos",
+          "it": "Famiglie di operazioni",
+          "nl": "Sommenfamilies"
         }
       },
       "number-words": {
@@ -2336,13 +2396,19 @@
           "en": "number-words",
           "de": "zahlwoerter",
           "es": "numeros-en-letras",
-          "fr": "nombres-en-lettres"
+          "fr": "nombres-en-lettres",
+          "pt": "numeros-por-extenso",
+          "it": "numeri-in-lettere",
+          "nl": "getallen-in-woorden"
         },
         "name": {
           "en": "Number Words",
           "de": "Zahlwörter",
           "es": "Números en letras",
-          "fr": "Nombres en lettres"
+          "fr": "Nombres en lettres",
+          "pt": "Números por extenso",
+          "it": "Numeri in lettere",
+          "nl": "Getallen in woorden"
         }
       },
       "money": {
@@ -2350,13 +2416,19 @@
           "en": "money",
           "de": "rechnen-mit-geld",
           "es": "contar-dinero",
-          "fr": "compter-la-monnaie"
+          "fr": "compter-la-monnaie",
+          "pt": "sistema-monetario",
+          "it": "contare-le-monete",
+          "nl": "rekenen-met-geld"
         },
         "name": {
           "en": "Counting Money",
           "de": "Rechnen mit Geld",
           "es": "Contar dinero",
-          "fr": "Compter la monnaie"
+          "fr": "Compter la monnaie",
+          "pt": "Sistema monetário",
+          "it": "Contare le monete",
+          "nl": "Rekenen met geld"
         }
       },
       "word-problems": {
@@ -2364,13 +2436,19 @@
           "en": "word-problems",
           "de": "sachaufgaben",
           "es": "problemas-de-suma-y-resta",
-          "fr": "petits-problemes"
+          "fr": "petits-problemes",
+          "pt": "situacoes-problema",
+          "it": "problemi-con-addizioni-e-sottrazioni",
+          "nl": "verhaaltjessommen"
         },
         "name": {
           "en": "Word Problems",
           "de": "Sachaufgaben",
           "es": "Problemas de suma y resta",
-          "fr": "Petits problèmes"
+          "fr": "Petits problèmes",
+          "pt": "Situações problema",
+          "it": "Problemi con addizioni e sottrazioni",
+          "nl": "Verhaaltjessommen"
         }
       },
       "column-arithmetic": {
@@ -2378,13 +2456,19 @@
           "en": "column-arithmetic",
           "de": "schriftlich-rechnen",
           "es": "sumas-y-restas-en-columna",
-          "fr": "operations-posees"
+          "fr": "operations-posees",
+          "pt": "continhas-armadas",
+          "it": "operazioni-in-colonna",
+          "nl": "sommen-onder-elkaar"
         },
         "name": {
           "en": "Column Addition and Subtraction",
           "de": "Schriftlich rechnen",
           "es": "Sumas y restas en columna",
-          "fr": "Opérations posées"
+          "fr": "Opérations posées",
+          "pt": "Continhas armadas",
+          "it": "Operazioni in colonna",
+          "nl": "Sommen onder elkaar"
         }
       },
       "symmetry": {
@@ -2392,13 +2476,19 @@
           "en": "symmetry",
           "de": "symmetrie",
           "es": "simetria",
-          "fr": "symetrie"
+          "fr": "symetrie",
+          "pt": "simetria",
+          "it": "simmetria",
+          "nl": "spiegelen"
         },
         "name": {
           "en": "Symmetry",
           "de": "Symmetrie",
           "es": "Simetría",
-          "fr": "Symétrie"
+          "fr": "Symétrie",
+          "pt": "Simetria",
+          "it": "Simmetria",
+          "nl": "Spiegelen en symmetrie"
         }
       },
       "reading-comprehension": {
@@ -2406,13 +2496,19 @@
           "en": "reading-comprehension",
           "de": "leseverstaendnis",
           "es": "comprension-lectora",
-          "fr": "lecture-comprehension"
+          "fr": "lecture-comprehension",
+          "pt": "interpretacao-de-texto",
+          "it": "comprensione-del-testo",
+          "nl": "begrijpend-lezen"
         },
         "name": {
           "en": "Reading Comprehension",
           "de": "Leseverständnis",
           "es": "Comprensión lectora",
-          "fr": "Lecture et compréhension"
+          "fr": "Lecture et compréhension",
+          "pt": "Interpretação de texto",
+          "it": "Comprensione del testo",
+          "nl": "Begrijpend lezen"
         }
       },
       "multiplication-tables": {
@@ -2420,13 +2516,19 @@
           "en": "multiplication-tables",
           "de": "kleines-einmaleins",
           "es": "tablas-de-multiplicar",
-          "fr": "tables-de-multiplication"
+          "fr": "tables-de-multiplication",
+          "pt": "tabuada",
+          "it": "tabelline",
+          "nl": "tafels-oefenen"
         },
         "name": {
           "en": "Multiplication Tables",
           "de": "Kleines Einmaleins",
           "es": "Tablas de multiplicar",
-          "fr": "Tables de multiplication"
+          "fr": "Tables de multiplication",
+          "pt": "Tabuada",
+          "it": "Tabelline",
+          "nl": "Tafels oefenen"
         }
       }
     },

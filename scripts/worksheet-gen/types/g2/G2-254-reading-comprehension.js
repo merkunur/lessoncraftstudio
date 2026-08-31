@@ -63,7 +63,7 @@ module.exports = {
 
     return {
       bodyHtml:
-        `<div data-ws-content style="flex:1;display:flex;flex-direction:column;gap:16px;justify-content:flex-start;padding-top:4px">` +
+        `<div data-ws-content style="flex:1;display:flex;flex-direction:column;gap:16px;justify-content:space-evenly;padding-top:4px">` +
         passageCard +
         `<div style="display:flex;flex-direction:column;gap:14px">${questions}</div>` +
         `</div>`,

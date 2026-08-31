@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Agrupe por categoria",
     "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-236": {
+    "title": "Grafismo e traçados",
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-237": {
+    "title": "Números pontilhados de 0 a 9",
+    "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+  },
+  "K-238": {
+    "title": "Letras maiúsculas pontilhadas",
+    "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+  },
+  "K-239": {
+    "title": "Palavras frequentes",
+    "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+  },
+  "K-240": {
+    "title": "Recorte e colagem",
+    "instruction": "Recorte as figuras da parte de baixo, separe em grupos e cole cada uma no seu quadro."
+  },
+  "K-241": {
+    "title": "Pinte conforme o resultado",
+    "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+  },
+  "K-242": {
+    "title": "Labirinto",
+    "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+  },
+  "K-243": {
+    "title": "Amigos do 10",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "G1-208": {
+    "title": "Cálculo mental até 20",
+    "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+  },
+  "G1-209": {
+    "title": "Família de fatos",
+    "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+  },
+  "G1-210": {
+    "title": "Números por extenso",
+    "instruction": "Leia o número e circule como ele se escreve por extenso."
+  },
+  "G1-211": {
+    "title": "Contando moedas",
+    "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+  },
+  "G1-212": {
+    "title": "Desenhe os ponteiros",
+    "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+  },
+  "G1-213": {
+    "title": "Situações problema com figuras",
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+  },
+  "G2-251": {
+    "title": "Continhas armadas",
+    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+  },
+  "G2-252": {
+    "title": "Medidas de capacidade e massa",
+    "instruction": "Leia cada jarra e cada balança. Escreva a quantidade com a unidade certa."
+  },
+  "G2-253": {
+    "title": "Complete a figura simétrica",
+    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+  },
+  "G2-254": {
+    "title": "Interpretação de texto",
+    "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+  },
+  "G3-357": {
+    "title": "Continhas com reagrupamento",
+    "instruction": "Resolva cada conta armada. Reagrupe quando precisar: vai um na adição, empresta na subtração."
+  },
+  "G3-358": {
+    "title": "Tabuada",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
   }
 }

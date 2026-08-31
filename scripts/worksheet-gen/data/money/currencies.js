@@ -32,7 +32,7 @@ const CURRENCIES = {
   de: { code: 'EUR', unit: 'ct', sub: EURO_FULL, subMax: 99 },
   fr: { code: 'EUR', unit: 'c', sub: EURO_FULL, subMax: 99 },
   es: { code: 'EUR', unit: 'cts', sub: EURO_FULL, subMax: 99 }, // 'cts' per es native panel (textbook abbreviation; never 'ct')
-  it: { code: 'EUR', unit: 'c', sub: EURO_FULL, subMax: 99 },
+  it: { code: 'EUR', unit: 'cent', sub: EURO_FULL, subMax: 99 }, // 'cent' per it native panel (on the coins + textbooks; never bare 'c')
   pt: { code: 'BRL', unit: 'centavos', sub: [{ v: 5, tint: 'silver' }, { v: 10, tint: 'gold' }, { v: 25, tint: 'gold' }, { v: 50, tint: 'silver' }], subMax: 99 },
   nl: { code: 'EUR', unit: 'ct', sub: EURO_ROUNDED, subMax: 95 },
   fi: { code: 'EUR', unit: 'snt', sub: EURO_ROUNDED, subMax: 95 },

@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Sorteren op groep",
     "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-236": {
+    "title": "Schrijfpatronen oefenen",
+    "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+  },
+  "K-237": {
+    "title": "Cijfers schrijven 0 tot 9",
+    "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+  },
+  "K-238": {
+    "title": "Hoofdletters overtrekken",
+    "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."
+  },
+  "K-239": {
+    "title": "Flitswoorden lezen en schrijven",
+    "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."
+  },
+  "K-240": {
+    "title": "Knippen, sorteren en plakken",
+    "instruction": "Knip de plaatjes onderaan uit. Sorteer ze en plak elk plaatje in het goede vak."
+  },
+  "K-241": {
+    "title": "Kleuren op code",
+    "instruction": "Kijk goed naar de code. Kleur elke vorm met de kleur die erbij hoort."
+  },
+  "K-242": {
+    "title": "Door het doolhof",
+    "instruction": "Begin bij de start bovenaan. Teken een weg door het doolhof naar de finish onderaan."
+  },
+  "K-243": {
+    "title": "Splitsen tot 10",
+    "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+  },
+  "G1-208": {
+    "title": "Hoofdrekenen tot 20",
+    "instruction": "Reken elke som uit je hoofd uit. Schrijf het antwoord in het vakje."
+  },
+  "G1-209": {
+    "title": "Rekenhuisjes",
+    "instruction": "Gebruik de drie getallen op het dak. Maak de vier sommen eronder af."
+  },
+  "G1-210": {
+    "title": "Getallen in woorden",
+    "instruction": "Lees het getal in het vakje. Omcirkel het woord dat erbij hoort."
+  },
+  "G1-211": {
+    "title": "Munten tellen",
+    "instruction": "Tel de munten in elke portemonnee. Schrijf het totaal in het vakje."
+  },
+  "G1-212": {
+    "title": "Teken de wijzers",
+    "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."
+  },
+  "G1-213": {
+    "title": "Verhaaltjessommen met plaatjes",
+    "instruction": "Lees elk verhaaltje. De plaatjes helpen je. Schrijf het antwoord in het vakje."
+  },
+  "G2-251": {
+    "title": "Sommen onder elkaar",
+    "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+  },
+  "G2-252": {
+    "title": "Maatbekers en weegschalen",
+    "instruction": "Lees elke maatbeker en weegschaal af. Schrijf het antwoord op met de juiste eenheid."
+  },
+  "G2-253": {
+    "title": "Maak de spiegeltekening af",
+    "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+  },
+  "G2-254": {
+    "title": "Begrijpend lezen",
+    "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."
+  },
+  "G3-357": {
+    "title": "Sommen met onthouden en lenen",
+    "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+  },
+  "G3-358": {
+    "title": "Tafels oefenen",
+    "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
   }
 }

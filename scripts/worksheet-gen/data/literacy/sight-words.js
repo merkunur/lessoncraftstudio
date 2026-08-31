@@ -62,6 +62,48 @@ const SIGHT_WORDS = {
     "sur",
     "pour",
     "mais"
+  ],
+  "pt": [
+    "de",
+    "que",
+    "não",
+    "uma",
+    "para",
+    "com",
+    "ele",
+    "ela",
+    "você",
+    "tem",
+    "foi",
+    "aqui"
+  ],
+  "it": [
+    "io",
+    "noi",
+    "non",
+    "che",
+    "con",
+    "per",
+    "sono",
+    "come",
+    "anche",
+    "qui",
+    "più",
+    "bene"
+  ],
+  "nl": [
+    "ik",
+    "de",
+    "het",
+    "een",
+    "en",
+    "is",
+    "in",
+    "op",
+    "van",
+    "dat",
+    "niet",
+    "jij"
   ]
 };
 

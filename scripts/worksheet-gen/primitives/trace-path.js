@@ -210,7 +210,7 @@ function schoolLines({ w, yTop, yBase, strokeColor }) {
  * { text, w, h, glyphH, reps, lines:true } → { svg }
  * Glyphs sit on school lines: cap height = yBase - yTop = glyphH.
  */
-function glyphLane({ text, w, h, glyphH, reps = 3, lines: withLines = true, model = true, font }) {
+function glyphLane({ text, w, h, glyphH, reps = 3, lines: withLines = true, model = true, font, emptyLast = false }) {
   const yBase = h * 0.82;
   const yTop = yBase - glyphH;
   const parts = [];
@@ -219,6 +219,9 @@ function glyphLane({ text, w, h, glyphH, reps = 3, lines: withLines = true, mode
   const fs = Math.round(glyphH * 1.38); // Baloo cap-height ≈ 0.72em
   const segW = w / reps;
   for (let i = 0; i < reps; i++) {
+    // emptyLast: the final slot stays BLANK on the school lines — the honest
+    // "now write it yourself" spot the instruction promises (pt-panel finding)
+    if (emptyLast && i === reps - 1) continue;
     const isModel = model && i === 0;
     parts.push(el('text', {
       x: (i + 0.5) * segW,
@@ -236,7 +239,9 @@ function glyphLane({ text, w, h, glyphH, reps = 3, lines: withLines = true, mode
   }
   return {
     svg: svgRoot({ width: w, height: h, label: `trace: ${text}` }, parts.join(''),
-      { 'data-lcs-prim': 'trace-glyph', 'data-lcs-text': text, 'data-lcs-reps': reps }),
+      { 'data-lcs-prim': 'trace-glyph', 'data-lcs-text': text,
+        'data-lcs-reps': emptyLast ? reps - 1 : reps, // DRAWN glyph count
+        ...(emptyLast ? { 'data-lcs-empty-slot': '1' } : {}) }),
     width: w, height: h,
   };
 }

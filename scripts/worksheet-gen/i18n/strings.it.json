@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Ordina per categoria",
     "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-236": {
+    "title": "Percorsi di pregrafismo",
+    "instruction": "Ripassa ogni linea con la matita. Parti dal punto arancione e segui la freccia."
+  },
+  "K-237": {
+    "title": "Numeri tratteggiati da 0 a 9",
+    "instruction": "Ripassa ogni numero. Parti dal punto arancione e segui le frecce."
+  },
+  "K-238": {
+    "title": "Lettere maiuscole tratteggiate",
+    "instruction": "Ripassa ogni lettera, poi prova a scriverla tu sulla riga vuota."
+  },
+  "K-239": {
+    "title": "Parole frequenti",
+    "instruction": "Leggi la parola. Ripassala. Poi scrivila tu sulla riga vuota."
+  },
+  "K-240": {
+    "title": "Ritaglia e incolla",
+    "instruction": "Ritaglia le figure in basso. Incolla ogni figura nel riquadro del suo gruppo."
+  },
+  "K-241": {
+    "title": "Colora in base al risultato",
+    "instruction": "Guarda la legenda. Risolvi il calcolo e colora ogni figura con il colore giusto."
+  },
+  "K-242": {
+    "title": "Labirinto degli animali",
+    "instruction": "Parti dall'alto e traccia la strada nel labirinto fino ad arrivare al traguardo."
+  },
+  "K-243": {
+    "title": "Amici del 10",
+    "instruction": "Guarda ogni schema. Scrivi il numero che manca nel cerchio tratteggiato."
+  },
+  "G1-208": {
+    "title": "Calcolo mentale fino a 20",
+    "instruction": "Risolvi ogni operazione a mente e scrivi il risultato nel riquadro."
+  },
+  "G1-209": {
+    "title": "Famiglie di operazioni",
+    "instruction": "Usa i tre numeri sul tetto e completa le quattro operazioni della famiglia."
+  },
+  "G1-210": {
+    "title": "Numeri in lettere",
+    "instruction": "Leggi il numero in cifre e cerchia il numero in lettere che gli corrisponde."
+  },
+  "G1-211": {
+    "title": "Contare le monete",
+    "instruction": "Conta le monete di ogni borsellino. Scrivi il totale nel riquadro."
+  },
+  "G1-212": {
+    "title": "Disegna le lancette",
+    "instruction": "Leggi l'ora scritta sotto. Disegna la lancetta delle ore e quella dei minuti sull'orologio."
+  },
+  "G1-213": {
+    "title": "Problemi illustrati",
+    "instruction": "Leggi ogni storia con calma. Aiutati con le figure e scrivi la risposta nel riquadro."
+  },
+  "G2-251": {
+    "title": "Operazioni in colonna senza cambio",
+    "instruction": "Calcola una cifra alla volta, partendo sempre dalle unità."
+  },
+  "G2-252": {
+    "title": "Capacità e peso",
+    "instruction": "Leggi ogni caraffa graduata e ogni bilancia. Scrivi la quantità con l'unità di misura."
+  },
+  "G2-253": {
+    "title": "Simmetria sui quadretti",
+    "instruction": "Ogni disegno è fatto solo a metà. Colora i quadretti dall'altra parte della linea per renderlo simmetrico."
+  },
+  "G2-254": {
+    "title": "Comprensione del testo",
+    "instruction": "Leggi il racconto con attenzione. Poi cerchia la risposta giusta per ogni domanda."
+  },
+  "G3-357": {
+    "title": "Operazioni in colonna con il cambio",
+    "instruction": "Risolvi ogni operazione in colonna. Usa il riporto o il prestito quando serve."
+  },
+  "G3-358": {
+    "title": "Tabelline",
+    "instruction": "Risolvi le moltiplicazioni e scrivi ogni risultato nel riquadro."
   }
 }

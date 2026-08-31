@@ -88,6 +88,16 @@
       reSame: 'Guarda di nuovo: che cosa è UGUALE nelle due storie?',
       reDiff: 'Guarda di nuovo: che cosa succede in UNA SOLA storia?',
       choices: 'Scelte:'
+    },
+    nl: {
+      qSame: 'Wat is in BEIDE verhalen hetzelfde?',
+      qDiff: 'Wat gebeurt er maar in ÉÉN verhaal?',
+      win: 'Ja! {note}', winNote: 'Je hebt de twee verhalen vergeleken!',
+      hear: '🔊 Beide verhalen voorlezen',
+      gold: 'Gouden verhaal', silver: 'Zilveren verhaal',
+      reSame: 'Kijk nog eens — lees beide verhalen. Wat is in allebei hetzelfde?',
+      reDiff: 'Kijk nog eens — lees beide verhalen. Wat gebeurde er maar in ÉÉN?',
+      choices: 'Keuzes:'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -127,8 +137,8 @@
   var TwoTalesActivity = {
     id: 'two-tales-activity',
     strings: {
-      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires', es: 'Dos lunas, dos cuentos', pt: 'Duas luas, duas histórias', it: 'Due lune, due storie' },
-      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !', es: '¡Lee los dos cuentos con Barba de Musgo y compara lo que les pasó a los personajes!', pt: 'Leia as duas histórias com a Barba de Musgo e compare o que aconteceu com os personagens!', it: 'Leggi le due storie con Barbamuschio e confronta ciò che è successo ai personaggi!' },
+      title: { en: 'Two Moons', de: 'Zwei Monde, zwei Geschichten', fr: 'Deux lunes, deux histoires', es: 'Dos lunas, dos cuentos', pt: 'Duas luas, duas histórias', it: 'Due lune, due storie', nl: 'Twee manen, twee verhalen' },
+      instruction: { en: 'Read both tales with Mossbeard, then compare what happened to the characters!', de: 'Lies beide Geschichten mit Moosbart und vergleiche, was den Figuren passiert!', fr: 'Lis les deux histoires avec Barbe-de-Mousse, puis compare ce qui arrive aux personnages !', es: '¡Lee los dos cuentos con Barba de Musgo y compara lo que les pasó a los personajes!', pt: 'Leia as duas histórias com a Barba de Musgo e compare o que aconteceu com os personagens!', it: 'Leggi le due storie con Barbamuschio e confronta ciò che è successo ai personaggi!', nl: 'Lees beide verhalen met Mosbaard en vergelijk daarna wat de dieren meemaakten!' },
       q: { en: '{q}', de: '{q}', fr: '{q}', pt: '{q}', it: '{q}' }
     },
 

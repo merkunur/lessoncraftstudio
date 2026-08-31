@@ -56,10 +56,17 @@
       win: 'Sì! {note}', winNote: 'Due parole diventano una sola!',
       hear: '🔊 Ascolta',
       nudge: 'Quasi! Unisci la preposizione con il suo articolo in una parola sola.'
+    },
+    /* nl. Weglatingsteken in vaste 's-tijdsuitdrukkingen ('s morgens). apostrof-vrije JS-strings; de 's-vormen leven ALLEEN in het manifest. */
+    nl: {
+      q: 'Hoe schrijf je dit met het weglatingsteken?',
+      win: 'Vonk straalt van trots! {note}', winNote: 'Het weglatingsteken staat precies waar de weggelaten letters stonden.',
+      hear: '🔊 Luister',
+      nudge: 'Kijk nog eens goed: waar hoort het weglatingsteken, en waar hoort de spatie?'
     }
   };
-  /* Locales whose chips are the free [fusion, ...foils] pick (de Verschmelzung / fr élision / es al-del) — NOT the en apostrophe-insertion core path. */
-  var FUSION_LANGS = { de: 1, fr: 1, es: 1, pt: 1, it: 1 };
+  /* Locales whose chips are the free [fusion, ...foils] pick (de Verschmelzung / fr élision / es al-del / nl weglatingsteken) — NOT the en apostrophe-insertion core path. */
+  var FUSION_LANGS = { de: 1, fr: 1, es: 1, pt: 1, it: 1, nl: 1 };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
@@ -90,9 +97,9 @@
   var ContractionActivity = {
     id: 'contraction-activity',
     strings: {
-      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel', fr: 'La place de Nib', es: 'Rulo junta las palabras', pt: 'Juntinho junta as palavras', it: 'Fondino unisce le parole' },
-      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!', fr: "Tape le mot où l'apostrophe est à la bonne place !", es: 'Une las dos palabras y toca la contracción bien escrita.', pt: 'Junte as duas palavras e toque na contração escrita do jeito certo.', it: 'Unisci le due parole e tocca la forma giusta.' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', it: '{q}' }
+      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel', fr: 'La place de Nib', es: 'Rulo junta las palabras', pt: 'Juntinho junta as palavras', it: 'Fondino unisce le parole', nl: 'Vonks weglatingsteken' },
+      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!', fr: "Tape le mot où l'apostrophe est à la bonne place !", es: 'Une las dos palabras y toca la contracción bien escrita.', pt: 'Junte as duas palavras e toque na contração escrita do jeito certo.', it: 'Unisci le due parole e tocca la forma giusta.', nl: 'Tik de juiste schrijfwijze aan!' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', it: '{q}', nl: '{q}' }
     },
 
     init: function (api) {
@@ -185,18 +192,23 @@
       var round = this._round; if (!round) return;
       var root = el('div', 'ct-root');
 
-      /* the two words (→ contraction on resolve) */
+      /* the two words (→ contraction on resolve); nl shows a dagdeel-context prompt instead of word1+word2 */
       var words = el('div', 'ct-words');
-      var w1 = el('span'); w1.textContent = round.word1;
-      var plus = el('span', 'ct-plus'); plus.textContent = '+';
-      var w2 = el('span'); w2.textContent = round.word2;
-      words.append(w1, plus, w2);
-      if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = (FUSION_LANGS[LANG] ? round.fusion : Core.deriveCorrect(round)); words.append(ar, res); }
+      if (LANG === 'nl') {
+        var wctx = el('span', 'ct-ctx'); wctx.textContent = round.icon + ' ' + round.when; words.appendChild(wctx);
+        if (this._resolved) { var arn = el('span', 'ct-arrow'); arn.textContent = '→'; var rsn = el('span', 'ct-result'); rsn.textContent = round.fusion; words.append(arn, rsn); }
+      } else {
+        var w1 = el('span'); w1.textContent = round.word1;
+        var plus = el('span', 'ct-plus'); plus.textContent = '+';
+        var w2 = el('span'); w2.textContent = round.word2;
+        words.append(w1, plus, w2);
+        if (this._resolved) { var ar = el('span', 'ct-arrow'); ar.textContent = '→'; var res = el('span', 'ct-result'); res.textContent = (FUSION_LANGS[LANG] ? round.fusion : Core.deriveCorrect(round)); words.append(ar, res); }
+      }
       root.appendChild(words);
 
       /* Nib + live line */
       var say = el('div', 'ct-say');
-      var nb = el('div', 'ct-nib'); nb.setAttribute('data-pose', this._resolved ? 'happy' : 'idle'); nb.innerHTML = nibSVG();
+      var nb = el('div', 'ct-nib'); nb.setAttribute('data-pose', this._resolved ? 'happy' : 'idle'); if (LANG === 'nl') nb.setAttribute('aria-label', 'Vonk het vuurvliegje'); nb.innerHTML = nibSVG();
       var msg = el('p', 'ct-line-msg'); msg.setAttribute('aria-live', 'polite');
       say.append(nb, msg); root.appendChild(say); this._nib = nb;
 
@@ -208,6 +220,7 @@
           : LANG === 'es' ? (round.word1 + ' ' + round.word2 + ' nos da ' + round.fusion + '.')
           : LANG === 'pt' ? (round.word1 + ' ' + round.word2 + ' vira ' + round.fusion + '.')
           : LANG === 'it' ? (round.word1 + ' ' + round.word2 + ' diventa ' + round.fusion + '.')
+          : LANG === 'nl' ? (round.speak || round.fusion)
           : (round.word1 + ' ' + round.word2 + ' makes a contraction.'));
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
@@ -228,7 +241,7 @@
         b.textContent = str;
         /* en: spell out (apostrophe position is the point); de: the bare short form;
            fr: name the apostrophe/space/joined-ness (l'ami & lami are homophonous /lami/ — the WRITTEN mark is the point). */
-        b.setAttribute('aria-label', LANG === 'fr' ? frAria(str) : (LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it') ? str : str.split('').join(' '));
+        b.setAttribute('aria-label', LANG === 'fr' ? frAria(str) : (LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') ? str : str.split('').join(' '));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[str] || self._token !== tok) return;
           if (FUSION_LANGS[LANG] ? deIsAnswer(round, str) : Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
@@ -266,6 +279,11 @@
       if (LANG === 'de') {
         var deC = deChips(round).join('; ');
         wrap.innerHTML = '<p>' + round.word1 + ' ' + round.word2 + '. ' + txt('q') + ' Zur Auswahl: ' + deC + '.</p>';
+        return wrap;
+      }
+      if (LANG === 'nl') {
+        var nlC = deChips(round).join('; ');
+        wrap.innerHTML = '<p>Vonk het vuurvliegje toont: ' + round.when + '. ' + txt('q') + ' Kies uit: ' + nlC + '.</p>';
         return wrap;
       }
       if (LANG === 'es') {

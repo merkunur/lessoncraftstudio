@@ -598,6 +598,11 @@
               }
             ]
           }
+        },
+        "nl": {
+          "mitten": { "title": "De verloren want", "panels": [ { "caption": "Bo het konijntje speelde in de sneeuw.", "glyphs": ["bunny","snow"], "role": "setting" }, { "caption": "Bij de boom verloor Bo een want.", "glyphs": ["tree","mitten"], "role": "problem" }, { "caption": "Een vogel bracht de want terug.", "glyphs": ["bird","mitten"], "role": "solution" } ] },
+          "carrot": { "title": "De weggepakte wortel", "panels": [ { "caption": "Mies de muis had een wortel.", "glyphs": ["mouse","carrot"], "role": "setting" }, { "caption": "Een vogel pakte de wortel weg!", "glyphs": ["bird","carrot"], "role": "problem" }, { "caption": "Een vriendje haalde de wortel terug.", "glyphs": ["friend","carrot"], "role": "solution" } ] },
+          "picnic": { "title": "De picknick in de regen", "panels": [ { "caption": "Twee vriendjes pakten de picknickmand in.", "glyphs": ["friend","basket"], "role": "setting" }, { "caption": "Ineens begon het te regenen.", "glyphs": ["rain","friend"], "role": "problem" }, { "caption": "Ze aten samen onder een paraplu.", "glyphs": ["umbrella","friend"], "role": "solution" } ] }
         }
       },
       "roundsL10n": {
@@ -880,6 +885,17 @@
             "role": "solution",
             "prompt": "Quale parte è la soluzione? (come si risolve)"
           }
+        ],
+        "nl": [
+          { "id": "ds-mit-set", "storyId": "mitten", "role": "setting", "prompt": "Welk deel is het BEGIN? (waar het verhaal begint)" },
+          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem", "prompt": "Welk deel is het PROBLEEM? (wat er misgaat)" },
+          { "id": "ds-mit-sol", "storyId": "mitten", "role": "solution", "prompt": "Welk deel is de OPLOSSING? (hoe het weer goed komt)" },
+          { "id": "ds-car-set", "storyId": "carrot", "role": "setting", "prompt": "Welk deel is het BEGIN? (waar het verhaal begint)" },
+          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem", "prompt": "Welk deel is het PROBLEEM? (wat er misgaat)" },
+          { "id": "ds-car-sol", "storyId": "carrot", "role": "solution", "prompt": "Welk deel is de OPLOSSING? (hoe het weer goed komt)" },
+          { "id": "ds-pic-set", "storyId": "picnic", "role": "setting", "prompt": "Welk deel is het BEGIN? (waar het verhaal begint)" },
+          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem", "prompt": "Welk deel is het PROBLEEM? (wat er misgaat)" },
+          { "id": "ds-pic-sol", "storyId": "picnic", "role": "solution", "prompt": "Welk deel is de OPLOSSING? (hoe het weer goed komt)" }
         ]
       }
     },
@@ -889,7 +905,8 @@
       "fr": "structure-du-recit-debut-probleme-solution-gs",
       "es": "partes-de-un-cuento-inicio-problema-solucion-primer-grado",
       "pt": "partes-da-historia-comeco-problema-solucao",
-      "it": "parti-di-una-storia-inizio-problema-soluzione-classe-prima"
+      "it": "parti-di-una-storia-inizio-problema-soluzione-classe-prima",
+      "nl": "verhaalstructuur-begin-probleem-oplossing-groep-3"
     },
     "page_title": {
       "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)",
@@ -897,7 +914,8 @@
       "fr": "L’atelier des histoires de Dot — Début, problème, solution (GS)",
       "es": "Partes de un cuento: inicio, problema y solución (1.º)",
       "pt": "Partes de uma história: começo, problema e solução",
-      "it": "Le parti di una storia: inizio, problema, soluzione (classe 1ª)"
+      "it": "Le parti di una storia: inizio, problema, soluzione (classe 1ª)",
+      "nl": "Verhaalstructuur oefenen: begin, probleem en oplossing (groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3.",
@@ -905,7 +923,8 @@
       "fr": "Dot le dragon raconte une petite histoire en trois images, lue à voix haute d’un simple appui sur le bouton son. À votre enfant ensuite de repérer quelle image est le début, laquelle montre le problème, et laquelle apporte la solution. Un premier jeu gratuit et interactif pour découvrir comment une histoire se construit — sans savoir encore lire.",
       "es": "Lee un cuento en 3 imágenes e identifica sus partes: el inicio, el problema y la solución. Actividad gratis e interactiva de primer grado, sin registro.",
       "pt": "Ajude o draguinho Fabo na oficina de histórias! A cada rodada, ele mostra uma pequena história em três ceninhas embaralhadas e pede para você achar o começo, o problema ou a solução. É só ler as cenas e tocar na parte certa, com o botão 🔊 para ouvir tudo em voz alta. Grátis e sem cadastro, alinhado à BNCC, no campo da compreensão de textos literários — para os primeiros anos.",
-      "it": "Nella bottega di storie di Dot il drago, i bambini leggono un racconto illustrato in tre parti e toccano qual è l’inizio, qual è il problema e qual è la soluzione. Un pulsante 🔊 legge ad alta voce le didascalie per chi muove i primi passi nella lettura. Attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Nella bottega di storie di Dot il drago, i bambini leggono un racconto illustrato in tre parti e toccano qual è l’inizio, qual è il problema e qual è la soluzione. Un pulsante 🔊 legge ad alta voce le didascalie per chi muove i primi passi nella lettura. Attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Dot de draak laat korte verhaaltjes van drie plaatjes zien, en jouw kind zoekt telkens welk deel het begin, het probleem en de oplossing is. Zo leert het kind dat elk verhaal een begin heeft (wie en waar), een probleem (Bo verliest een want) en een oplossing (een vogel brengt de want terug). Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 3."
     },
     "kid_prompt_template": "story-spine"
   }

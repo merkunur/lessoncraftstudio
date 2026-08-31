@@ -646,6 +646,16 @@
               "Il cane corre nel giardino."
             ]
           }
+        ],
+        "nl": [
+          { "id": "zaadje-plant", "band": 1, "mode": "sequence", "stem": "Een zaadje ligt in de aarde.", "question": "Wat gebeurt er daarna?", "answer": "Uit het zaadje groeit een plant.", "options": ["De vogel vliegt weg.", "Uit het zaadje groeit een plant.", "De maan komt op."] },
+          { "id": "ei-kuiken", "band": 1, "mode": "sequence", "stem": "Een kip zit op haar ei.", "question": "Wat gebeurt er daarna?", "answer": "Uit het ei komt een kuiken.", "options": ["Uit het ei komt een kuiken.", "De boot vaart langs de haven.", "De hond rent door de tuin."] },
+          { "id": "rups-vlinder", "band": 2, "mode": "sequence", "stem": "Een rups eet van een groen blad.", "question": "Wat gebeurt er daarna?", "answer": "De rups wordt later een vlinder.", "options": ["De trein rijdt door.", "De bal rolt over het gras.", "De rups wordt later een vlinder."] },
+          { "id": "deeg-brood", "band": 3, "mode": "sequence", "stem": "De bakker legt het deeg in de oven.", "question": "Wat gebeurt er daarna?", "answer": "Het deeg wordt een warm brood.", "options": ["De kat slaapt diep.", "Het deeg wordt een warm brood.", "De regen valt op het dak."] },
+          { "id": "zon-sneeuw", "band": 1, "mode": "cause", "stem": "De zon schijnt op de sneeuw.", "question": "Wat gebeurt er daardoor?", "answer": "De sneeuw smelt langzaam weg.", "options": ["De sneeuw smelt langzaam weg.", "De fiets staat naast het hek.", "De vis zwemt in de vijver."] },
+          { "id": "haard-warm", "band": 2, "mode": "cause", "stem": "Het vuur brandt in de haard.", "question": "Wat gebeurt er daardoor?", "answer": "De kamer wordt lekker warm.", "options": ["De klok hangt aan de muur.", "De eend zwemt in de koele sloot.", "De kamer wordt lekker warm."] },
+          { "id": "sap-ijs", "band": 2, "mode": "cause", "stem": "Papa zet het sap in de vriezer.", "question": "Wat gebeurt er daardoor?", "answer": "Het sap verandert in ijs.", "options": ["De auto rijdt over de brug.", "Het sap verandert in ijs.", "De bloem staat in de vaas."] },
+          { "id": "wind-bladeren", "band": 3, "mode": "cause", "stem": "Buiten waait een harde wind.", "question": "Wat gebeurt er daardoor?", "answer": "De bladeren waaien weg.", "options": ["De bladeren waaien weg.", "De lamp is aan.", "De koe staat rustig naast het hek."] }
         ]
       }
     },
@@ -656,7 +666,8 @@
       "fr": "relier-deux-faits-cause-et-consequence-ce1",
       "es": "causa-y-efecto-secuencia-de-hechos-comprension-lectora-segundo-grado",
       "pt": "corrente-de-fatos-sequencia-e-causa-e-efeito",
-      "it": "causa-ed-effetto-sequenza-di-fatti-comprensione-testi-classe-seconda"
+      "it": "causa-ed-effetto-sequenza-di-fatti-comprensione-testi-classe-seconda",
+      "nl": "oorzaak-en-gevolg-en-volgorde-feiten-verbinden-groep-4"
     },
     "page_title": {
       "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)",
@@ -664,7 +675,8 @@
       "fr": "Lecture compréhension CE1 – relier les faits en ligne",
       "es": "Causa y efecto y secuencia de hechos · 2.º grado",
       "pt": "A corrente de fatos do Elo — sequência e causa e efeito",
-      "it": "Causa ed effetto e sequenza: collega i fatti · Classe seconda"
+      "it": "Causa ed effetto e sequenza: collega i fatti · Classe seconda",
+      "nl": "Oorzaak & gevolg en volgorde – feiten verbinden (groep 4)"
     },
     "page_intro": {
       "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.",
@@ -672,7 +684,8 @@
       "fr": "Lecture et compréhension au CE1 : relier deux faits d'un texte documentaire avec Linc. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis: el niño lee un hecho y toca el que se relaciona por secuencia (qué pasa después) o causa y efecto. Para 2.º grado.",
       "pt": "Entre na corrente de fatos do lagarto Elo! A criança lê um primeiro fato e toca no fato que se conecta a ele — o que acontece depois (sequência) ou o que uma coisa faz acontecer (causa e efeito). É uma forma divertida de aprender a relacionar ideias e entender textos informativos. Grátis, sem cadastro, no ritmo da criança, com um botão 🔊 para ouvir cada fato. Alinhado à BNCC, nos primeiros anos.",
-      "it": "Con Lia la lucertola i bambini leggono un fatto e toccano quello che si collega: ciò che succede dopo o ciò che quel fatto provoca. Un’attività di lettura per esercitare causa ed effetto e la sequenza in un breve testo informativo, con l’aiuto della lettura ad alta voce 🔗. Gratis, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali."
+      "it": "Con Lia la lucertola i bambini leggono un fatto e toccano quello che si collega: ciò che succede dopo o ciò che quel fatto provoca. Un’attività di lettura per esercitare causa ed effetto e la sequenza in un breve testo informativo, con l’aiuto della lettura ad alta voce 🔗. Gratis, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali.",
+      "nl": "Gratis en interactief: je kind verbindt twee feiten uit een informatieve tekst, herkent oorzaak en gevolg en oefent wat er daarna gebeurt – begrijpend lezen, afgestemd op de SLO-kerndoelen voor groep 4."
     },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }

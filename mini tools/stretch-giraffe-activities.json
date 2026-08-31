@@ -415,21 +415,44 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "vgl-nl-been", "band": 1, "ask": "long",
+            "choices": [ { "noun": "pot", "themeDir": "around the house", "word": "pot", "vowel": "short" }, { "noun": "leg", "themeDir": "body parts", "word": "been", "vowel": "long" }, { "noun": "fish", "themeDir": "ocean life", "word": "vis", "vowel": "short" } ] },
+          { "id": "vgl-nl-hand", "band": 1, "ask": "short",
+            "choices": [ { "noun": "toe", "themeDir": "body parts", "word": "teen", "vowel": "long" }, { "noun": "rose", "themeDir": "flowers", "word": "roos", "vowel": "long" }, { "noun": "hand", "themeDir": "body parts", "word": "hand", "vowel": "short" } ] },
+          { "id": "vgl-nl-oog", "band": 1, "ask": "long",
+            "choices": [ { "noun": "eye", "themeDir": "body parts", "word": "oog", "vowel": "long" }, { "noun": "ball", "themeDir": "toys", "word": "bal", "vowel": "short" }, { "noun": "cap", "themeDir": "accessories", "word": "pet", "vowel": "short" } ] },
+          { "id": "vgl-nl-kat", "band": 2, "ask": "short",
+            "choices": [ { "noun": "boat", "themeDir": "vehicles", "word": "boot", "vowel": "long" }, { "noun": "cat", "themeDir": "animals", "word": "kat", "vowel": "short" }, { "noun": "toe", "themeDir": "body parts", "word": "teen", "vowel": "long" } ] },
+          { "id": "vgl-nl-brood", "band": 2, "ask": "long",
+            "choices": [ { "noun": "ball", "themeDir": "toys", "word": "bal", "vowel": "short" }, { "noun": "pen", "themeDir": "around the house", "word": "pen", "vowel": "short" }, { "noun": "bread", "themeDir": "At the Supermarket", "word": "brood", "vowel": "long" } ] },
+          { "id": "vgl-nl-pet", "band": 2, "ask": "short",
+            "choices": [ { "noun": "cap", "themeDir": "accessories", "word": "pet", "vowel": "short" }, { "noun": "moon", "themeDir": "camping", "word": "maan", "vowel": "long" }, { "noun": "boat", "themeDir": "vehicles", "word": "boot", "vowel": "long" } ] },
+          { "id": "vgl-nl-maan", "band": 3, "ask": "long",
+            "choices": [ { "noun": "ball", "themeDir": "toys", "word": "bal", "vowel": "short" }, { "noun": "moon", "themeDir": "camping", "word": "maan", "vowel": "long" }, { "noun": "cat", "themeDir": "animals", "word": "kat", "vowel": "short" } ] },
+          { "id": "vgl-nl-bok", "band": 3, "ask": "short",
+            "choices": [ { "noun": "rose", "themeDir": "flowers", "word": "roos", "vowel": "long" }, { "noun": "eye", "themeDir": "body parts", "word": "oog", "vowel": "long" }, { "noun": "goat", "themeDir": "farm animals", "word": "bok", "vowel": "short" } ] },
+          { "id": "vgl-nl-teen", "band": 3, "ask": "long",
+            "choices": [ { "noun": "toe", "themeDir": "body parts", "word": "teen", "vowel": "long" }, { "noun": "bed", "themeDir": "around the house", "word": "bed", "vowel": "short" }, { "noun": "pen", "themeDir": "around the house", "word": "pen", "vowel": "short" } ] }
         ]
       }
     },
     "theme": null,
     "slug": {
       "en": "stretch-giraffe",
-      "de": "langer-kurzer-vokal-hoeren-klasse-1"
+      "de": "langer-kurzer-vokal-hoeren-klasse-1",
+      "nl": "korte-lange-klinker-horen-groep-3"
     },
     "page_title": {
       "en": "Stretch the Giraffe — Long & Short Vowel Sounds (Grade 1)",
-      "de": "Laute erkennen – langer oder kurzer Vokal? (Klasse 1)"
+      "de": "Laute erkennen – langer oder kurzer Vokal? (Klasse 1)",
+      "nl": "Gijs de giraf: korte & lange klinker horen (groep 3)"
     },
     "page_intro": {
       "en": "Headphones recommended! Tap a picture to HEAR its name. Stretch the giraffe loves long, stretched-out vowel sounds — the ones that say their name, like the a in cake or the e in bee. Listen, then tap the word with the long (or short) vowel sound. A listening game for Grade 1, aligned to Common Core RF.1.2.a: distinguish long from short vowel sounds.",
-      "de": "Laute erkennen mit Gina der Giraffe: hören, ob der Vokal lang oder kurz klingt. Kostenlos online üben, ohne Anmeldung – ideal für Klasse 1."
+      "de": "Laute erkennen mit Gina der Giraffe: hören, ob der Vokal lang oder kurz klingt. Kostenlos online üben, ohne Anmeldung – ideal für Klasse 1.",
+      "nl": "Speel gratis mee met Gijs de giraf en oefen samen het horen van de korte en de lange klinker — hoor jij het verschil tussen man en maan? Je kind luistert naar drie woorden en tikt het juiste plaatje aan; er valt niets te lezen, alleen goed te luisteren, dus een koptelefoon is aangeraden. Dit interactieve luisterspel is afgestemd op de SLO-kerndoelen voor fonemisch bewustzijn (klanklengte) voor groep 3."
     },
     "kid_prompt_template": "Tap to hear — then find the vowel sound!"
   }

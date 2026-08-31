@@ -17,13 +17,13 @@
   var C = { T: '#146B5E', CREAM: '#FBF3E4', CORAL: '#F2784B', CORAL2: '#D9572F', INK: '#2A2A35', GOLD: '#E8A53A' };
   var LANG = 'en';
   /* per-locale display word (German rounds carry `word`; EN falls back to the image key). */
-  function wordOf(o) { return (LANG === 'de' && o && o.word) ? o.word : (o && o.noun); }
+  function wordOf(o) { return ((LANG === 'de' || LANG === 'nl') && o && o.word) ? o.word : (o && o.noun); }
 
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'de') ? 'de-DE' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'de') ? 'de-DE' : (LANG === 'nl') ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -43,16 +43,16 @@
     id: 'stretch-giraffe-activity',
 
     strings: {
-      title: { en: "Stretch the Giraffe", de: "Gina die Giraffe" },
-      prompt: { en: 'Find the vowel sound!', de: "Hör genau auf den Vokal!" },
-      stretchIntro: { en: 'Tap to hear. A long vowel says its NAME — like a in cake.', de: "Ein langer Vokal klingt gedehnt – wie das o in Boot." },
-      askLong: { en: 'Tap the word with a LONG vowel sound.', de: "Tippe das Wort mit dem langen Vokal." },
-      askShort: { en: 'Tap the word with a SHORT vowel sound.', de: "Tippe das Wort mit dem kurzen Vokal." },
-      hintPick: { en: 'Tap a picture, then tap Check!', de: "Tippe ein Bild an und dann auf Prüfen." },
+      title: { en: "Stretch the Giraffe", de: "Gina die Giraffe", nl: "Gijs de giraf" },
+      prompt: { en: 'Find the vowel sound!', de: "Hör genau auf den Vokal!", nl: 'Luister goed naar de klank!' },
+      stretchIntro: { en: 'Tap to hear. A long vowel says its NAME — like a in cake.', de: "Ein langer Vokal klingt gedehnt – wie das o in Boot.", nl: 'Een lange klinker klinkt lang en uitgerekt, net als de aa in maan.' },
+      askLong: { en: 'Tap the word with a LONG vowel sound.', de: "Tippe das Wort mit dem langen Vokal.", nl: 'Tik op het woord met de LANGE klinker.' },
+      askShort: { en: 'Tap the word with a SHORT vowel sound.', de: "Tippe das Wort mit dem kurzen Vokal.", nl: 'Tik op het woord met de KORTE klinker.' },
+      hintPick: { en: 'Tap a picture, then tap Check!', de: "Tippe ein Bild an und dann auf Prüfen.", nl: 'Tik op een plaatje en tik dan op Controleer!' },
       hintWrong: { en: "Not quite — say each word slowly and listen to the vowel." },
-      hintWrongLong: { en: "Not quite — listen again: which vowel can you s-t-r-e-t-c-h out?", de: "Fast! Hör noch einmal genau hin: Welchen Vokal kann man ganz lang ziehen – wie Ginas Hals? Tippe ihn an." },
-      hintWrongShort: { en: "Not quite — listen again: which word has a short, quick vowel?", de: "Fast! Hör noch einmal genau hin: Bei welchem Wort ist der Vokal ganz kurz und schnell? Probier es noch einmal." },
-      win: { en: 'Yes! You heard the vowel. 🦒', de: "Super gehört! Deine Ohren sind so fein wie Ginas langer Hals. 🦒" }
+      hintWrongLong: { en: "Not quite — listen again: which vowel can you s-t-r-e-t-c-h out?", de: "Fast! Hör noch einmal genau hin: Welchen Vokal kann man ganz lang ziehen – wie Ginas Hals? Tippe ihn an.", nl: 'Welke klank kun je lang uitrekken, net als de lange nek van de giraf?' },
+      hintWrongShort: { en: "Not quite — listen again: which word has a short, quick vowel?", de: "Fast! Hör noch einmal genau hin: Bei welchem Wort ist der Vokal ganz kurz und schnell? Probier es noch einmal.", nl: 'Welk woord heeft een korte, snelle klank?' },
+      win: { en: 'Yes! You heard the vowel. 🦒', de: "Super gehört! Deine Ohren sind so fein wie Ginas langer Hals. 🦒", nl: 'Knap gedaan! Gijs hoort elke klank precies goed. 🦒' }
     },
     defaults: {},
 

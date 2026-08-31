@@ -11,7 +11,7 @@
      • head : tap the kind-of word (the head).
      • build : Weld phase → then the meaning step.
      • the shell Check hides until resolved; head/relation/glossMod NEVER in DOM;
-       the part-images load (naturalWidth>0); EN-only; ≥7 distinct + reshuffle;
+       the part-images load (naturalWidth>0); `en` present + every locale slug url-safe; ≥7 distinct + reshuffle;
        no overflow 280→768.
    ===================================================================== */
 'use strict';
@@ -78,8 +78,11 @@ function serve() {
 
     const title = await page.$eval('.lcs-title', e => e.textContent.trim()).catch(() => '');
     note(title === "Skip's Word-Welding Yard", `header title "${title}"`);
-    const slugKeys = await page.evaluate(() => Object.keys(window.CompoundMeaningActivity._activityRow.slug));
-    note(slugKeys.length === 1 && slugKeys[0] === 'en', `manifest not EN-only: ${slugKeys.join(',')}`);
+    // The activity is a deliberate multi-locale fan-out (EN pilot + de/nl/… native rebuilds).
+    // Invariant is no longer "EN-only" but: `en` present + every locale slug is url-safe & non-empty.
+    const slug = await page.evaluate(() => window.CompoundMeaningActivity._activityRow.slug);
+    const slugKeys = Object.keys(slug);
+    note(slugKeys.includes('en') && slugKeys.every(k => /^[a-z0-9-]+$/.test(slug[k])), `manifest slugs invalid: ${slugKeys.map(k => k + '=' + slug[k]).join(',')}`);
 
     const N = await page.evaluate(() => window.CompoundMeaningActivity._pool.length);
     const ids = await page.evaluate((c) => { const t = window.CompoundMeaningActivity, out = []; for (let i = 0; i < c; i++) { const x = t.nextTask({ index: i }); out.push(x ? x.id : null); } return out; }, 2 * N);
@@ -153,6 +156,6 @@ function serve() {
   server.close();
   console.log('');
   if (fails.length) { console.error(`COMPOUND-MEANING LOCAL TEST FAILED — ${fails.length} issue(s):`); fails.forEach(f => console.error('  • ' + f)); process.exit(1); }
-  console.log('COMPOUND-MEANING LOCAL TEST PASSED — all 5 ACTIONS (predict/ticket/supply/head/build) resolve with the composeMeaning answer + the Build Board grows; a WRONG tap routes through a RELATION-BRANCHED scaffold (DIM + part-pictures light), NO advance, NO shell try-again; ticket rejects a real-but-wrong word; the shell Check hides until resolved; head/relation/glossMod never in the DOM; the part-images load; EN-only; ≥5 actions + ≥7 distinct + reshuffle; no overflow 280→768.');
+  console.log('COMPOUND-MEANING LOCAL TEST PASSED — all 5 ACTIONS (predict/ticket/supply/head/build) resolve with the composeMeaning answer + the Build Board grows; a WRONG tap routes through a RELATION-BRANCHED scaffold (DIM + part-pictures light), NO advance, NO shell try-again; ticket rejects a real-but-wrong word; the shell Check hides until resolved; head/relation/glossMod never in the DOM; the part-images load; `en` present + every locale slug url-safe; ≥5 actions + ≥7 distinct + reshuffle; no overflow 280→768.');
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

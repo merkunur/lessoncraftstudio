@@ -702,20 +702,35 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "compound.nl-handschoen", "cog": "predict", "entry": { "part1": { "noun": "hand", "themeDir": "body parts" }, "part2": { "noun": "shoe", "themeDir": "clothing" }, "head": "part2", "compound": "handschoen" }, "choices": [ { "text": "een schoen gemaakt van handen", "kind": "made-of" }, { "text": "een schoen voor de hand", "kind": "correct" }, { "text": "een hand voor schoenen", "kind": "reversed" } ] },
+          { "id": "compound.nl-eierbeker", "cog": "predict", "entry": { "part1": { "noun": "egg", "themeDir": "At the Supermarket" }, "part2": { "noun": "cup", "themeDir": "around the house" }, "head": "part2", "compound": "eierbeker" }, "choices": [ { "text": "een beker gemaakt van eieren", "kind": "made-of" }, { "text": "een beker voor een ei", "kind": "correct" }, { "text": "een ei voor bekers", "kind": "reversed" } ] },
+          { "id": "compound.nl-schoenborstel", "cog": "predict", "entry": { "part1": { "noun": "shoe", "themeDir": "clothing" }, "part2": { "noun": "brush", "themeDir": "around the house" }, "head": "part2", "compound": "schoenborstel" }, "choices": [ { "text": "een borstel gemaakt van schoenen", "kind": "made-of" }, { "text": "een borstel voor de schoenen", "kind": "correct" }, { "text": "een schoen voor borstels", "kind": "reversed" } ] },
+          { "id": "compound.nl-voetbal", "cog": "build", "entry": { "part1": { "noun": "foot", "themeDir": "body parts" }, "part2": { "noun": "ball", "themeDir": "toys" }, "head": "part2", "compound": "voetbal" }, "choices": [ { "text": "een bal gemaakt van voeten", "kind": "made-of" }, { "text": "een bal voor de voeten", "kind": "correct" }, { "text": "een voet voor ballen", "kind": "reversed" } ] },
+          { "id": "compound.nl-hondenbed", "cog": "ticket", "entry": { "part1": { "noun": "dog", "themeDir": "animals" }, "part2": { "noun": "bed", "themeDir": "around the house" }, "head": "part2", "compound": "hondenbed", "meaningNL": "een bed voor honden" }, "choices": [ { "text": "bedhond", "kind": "reversed" }, { "text": "hondenbed", "kind": "correct" }, { "text": "kinderbed", "kind": "wrong-mod" } ] },
+          { "id": "compound.nl-melkkan", "cog": "ticket", "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "jug", "themeDir": "kitchen tools" }, "head": "part2", "compound": "melkkan", "meaningNL": "een kan voor melk" }, "choices": [ { "text": "kanmelk", "kind": "reversed" }, { "text": "melkkan", "kind": "correct" }, { "text": "theekan", "kind": "wrong-mod" } ] },
+          { "id": "compound.nl-tandenborstel", "cog": "supply", "missing": "modifier", "frame": "een borstel voor de ___", "entry": { "part1": { "noun": "tooth", "themeDir": "body parts" }, "part2": { "noun": "brush", "themeDir": "around the house" }, "head": "part2", "compound": "tandenborstel" }, "choices": [ { "noun": "hand", "themeDir": "body parts", "kind": "wrong" }, { "noun": "tooth", "themeDir": "body parts", "kind": "correct" }, { "noun": "foot", "themeDir": "body parts", "kind": "wrong" } ] },
+          { "id": "compound.nl-melkbeker", "cog": "supply", "missing": "head", "frame": "een ___ voor de melk", "entry": { "part1": { "noun": "milk", "themeDir": "At the Supermarket" }, "part2": { "noun": "cup", "themeDir": "around the house" }, "head": "part2", "compound": "melkbeker" }, "choices": [ { "noun": "bed", "themeDir": "around the house", "kind": "wrong" }, { "noun": "cup", "themeDir": "around the house", "kind": "correct" }, { "noun": "ball", "themeDir": "toys", "kind": "wrong" } ] },
+          { "id": "compound.nl-appeltaart", "cog": "head", "entry": { "part1": { "noun": "apple", "themeDir": "At the Supermarket" }, "part2": { "noun": "cake", "themeDir": "4th of July" }, "head": "part2", "compound": "appeltaart", "artikel": "de" }, "choices": [ { "word": "apple", "kind": "mod" }, { "word": "cake", "kind": "head" } ] },
+          { "id": "compound.nl-handtas", "cog": "head", "entry": { "part1": { "noun": "hand", "themeDir": "body parts" }, "part2": { "noun": "bag", "themeDir": "At the Supermarket" }, "head": "part2", "compound": "handtas", "artikel": "de" }, "choices": [ { "word": "hand", "kind": "mod" }, { "word": "bag", "kind": "head" } ] }
         ]
       }
     },
     "slug": {
       "en": "skips-word-welding-yard",
-      "de": "zusammengesetzte-woerter-komposita-erkennen-klasse-2"
+      "de": "zusammengesetzte-woerter-komposita-erkennen-klasse-2",
+      "nl": "samengestelde-woorden-betekenis-groep-4"
     },
     "page_title": {
       "en": "Skip's Word-Welding Yard — Build & Mean Compound Words",
-      "de": "Zusammengesetzte Nomen – online üben (Klasse 2)"
+      "de": "Zusammengesetzte Nomen – online üben (Klasse 2)",
+      "nl": "Samengestelde woorden: betekenis afleiden uit de delen (groep 4)"
     },
     "page_intro": {
       "en": "Skip the squirrel welds word-blocks together! Bring two words and figure out what the NEW compound word means — a fishbowl is a bowl FOR fish, not a bowl made OF fish. A Grade 2 vocabulary game aligned to Common Core L.2.4.d: use the meaning of the parts to predict the meaning of compound words.",
-      "de": "Zusammengesetzte Nomen üben: Was bedeuten Komposita? Wortbedeutungen aus zwei Wörtern erschließen. Klasse 2 – kostenlos online, ohne Anmeldung."
+      "de": "Zusammengesetzte Nomen üben: Was bedeuten Komposita? Wortbedeutungen aus zwei Wörtern erschließen. Klasse 2 – kostenlos online, ohne Anmeldung.",
+      "nl": "In de Woordenwerkplaats van Nootje de eekhoorn voeg je twee woorddelen samen tot een nieuw, samengesteld woord, en jouw kind ontdekt wat dat woord betekent aan de hand van de twee delen. Zo leert je kind dat een tandenborstel een borstel voor de tanden is en niet een borstel die van tanden gemaakt is. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 4."
     },
     "kid_prompt_template": "What does the new word MEAN?"
   }

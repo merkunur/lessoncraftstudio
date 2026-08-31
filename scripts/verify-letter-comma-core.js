@@ -47,6 +47,7 @@ const MARK = {
   es: { greeting: ':', closing: ',' },   /* ⚠ the saludo colon is the whole point of the es rebuild */
   pt: { greeting: ',', closing: ',' },   /* BR: comma for both (was missing from the table) */
   it: { greeting: ',', closing: ',' },   /* Italian: comma for both greeting + closing (like en/fr/pt) */
+  nl: { greeting: ',', closing: ',' },   /* Dutch: comma for both aanhef + afsluiting (Taalunie norm; NOT the Spanish colon) → mixed comma deck like fr/it/pt */
 };
 
 function checkDeck(Core, rounds, loc) {

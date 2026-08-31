@@ -838,6 +838,16 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "g-oma", "band": 1, "kind": "greeting", "forms": [ { "text": "Beste oma,", "ok": true }, { "text": "Beste oma" }, { "text": "Beste, oma" } ] },
+          { "id": "g-papa", "band": 2, "kind": "greeting", "forms": [ { "text": "Lieve papa" }, { "text": "Lieve papa,", "ok": true }, { "text": "Lieve, papa" } ] },
+          { "id": "g-sanne", "band": 3, "kind": "greeting", "forms": [ { "text": "Hoi Sanne" }, { "text": "Hoi, Sanne" }, { "text": "Hoi Sanne,", "ok": true } ] },
+          { "id": "g-bram", "band": 4, "kind": "greeting", "forms": [ { "text": "Dag Bram,", "ok": true }, { "text": "Dag, Bram" }, { "text": "Dag Bram" } ] },
+          { "id": "g-meneer-vos", "band": 5, "kind": "greeting", "forms": [ { "text": "Beste meneer, Vos" }, { "text": "Beste meneer Vos,", "ok": true }, { "text": "Beste meneer Vos" } ] },
+          { "id": "c-groetjes", "band": 6, "kind": "closing", "forms": [ { "text": "Groetjes" }, { "text": "Groetjes." }, { "text": "Groetjes,", "ok": true } ] },
+          { "id": "c-veel-liefs", "band": 7, "kind": "closing", "forms": [ { "text": "Veel liefs,", "ok": true }, { "text": "Veel liefs" }, { "text": "Veel, liefs" } ] },
+          { "id": "c-je-vriend", "band": 8, "kind": "closing", "forms": [ { "text": "Je vriend" }, { "text": "Je vriend,", "ok": true }, { "text": "Je, vriend" } ] }
         ]
       }
     },
@@ -848,7 +858,8 @@
       "fr": "la-virgule-dans-la-lettre-appel-et-formule",
       "es": "los-dos-puntos-en-el-saludo-de-una-carta-tercer-grado",
       "pt": "virgula-na-carta-saudacao-e-despedida-3-ano",
-      "it": "la-virgola-nella-lettera-saluto-e-chiusura-classe-terza"
+      "it": "la-virgola-nella-lettera-saluto-e-chiusura-classe-terza",
+      "nl": "komma-in-de-aanhef-van-een-brief-oefenen-groep-5"
     },
     "page_title": {
       "en": "Pim's Comma Mail — Commas in Greetings & Closings (Grade 2)",
@@ -856,7 +867,8 @@
       "fr": "Ponctuation : placer la virgule – exercice en ligne",
       "es": "Los dos puntos en el saludo de una carta – 3.º primaria",
       "pt": "A vírgula na carta: saudação e despedida · 3º ano",
-      "it": "La virgola nella lettera: saluto e chiusura — classe terza"
+      "it": "La virgola nella lettera: saluto e chiusura — classe terza",
+      "nl": "Komma in de aanhef en afsluiting van een brief - interpunctie (groep 5)"
     },
     "page_intro": {
       "en": "Pim the carrier pigeon delivers letters all day — but a letter needs its commas in the right spot! The greeting (Dear Sam,) and the closing (Your friend,) each end with a comma. Read the three choices and tap the one that is punctuated correctly. A Grade 2 grammar game about commas in the greeting and closing of a letter, aligned to Common Core L.2.2.b.",
@@ -864,7 +876,8 @@
       "fr": "Ponctuation au CE1 : place la virgule au bon endroit dans la lettre, avec correction immédiate. Gratuit, en ligne, sans inscription.",
       "es": "Actividad gratis en línea de 3.º de primaria: toca el saludo bien puntuado. «Querida abuela:» lleva dos puntos, no coma, y la despedida, coma. Sin registro.",
       "pt": "Com o Pim, o pombo-correio, a criança escolhe a saudação e a despedida de uma carta com a vírgula no lugar certo — e foge das pegadinhas, como \"Querida, vovó\". Uma atividade sobre a pontuação da carta, leve e sem pressão. Grátis, sem cadastro. Alinhada à BNCC, 3º ano.",
-      "it": "Con Pim, il piccione postino, il bambino consegna le lettere scegliendo il saluto e la chiusura con la virgola al posto giusto — per esempio «Caro Nonno,» —: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza, per imparare la punteggiatura del testo epistolare divertendosi."
+      "it": "Con Pim, il piccione postino, il bambino consegna le lettere scegliendo il saluto e la chiusura con la virgola al posto giusto — per esempio «Caro Nonno,» —: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza, per imparare la punteggiatura del testo epistolare divertendosi.",
+      "nl": "Pim de postduif bezorgt post, maar eerst moet de komma op de goede plek staan. Je kind leert dat de aanhef en de afsluiting van een brief allebei met een komma eindigen, zoals in \"Beste oma,\" met de komma netjes achter de naam. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 5."
     },
     "kid_prompt_template": "Tap the greeting or closing that has its comma in the right place."
   }

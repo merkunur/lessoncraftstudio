@@ -510,7 +510,8 @@ var ACTIVITY_STRINGS = {
   /* onset-rime-blend (Lautsynthese) — blend-appropriate wrong-answer hint */
   hintBlend: {
     en: 'Blend the first sound with the rest — which word do they make?',
-    de: 'Schleif den ersten Laut und den Reim ganz langsam zusammen – welches Wort entsteht?'
+    de: 'Schleif den ersten Laut und den Reim ganz langsam zusammen – welches Wort entsteht?',
+    nl: 'Plak de eerste letter en de rest langzaam aan elkaar — welk woord wordt het?'
   }
 };
 

@@ -7622,23 +7622,23 @@
         "nl": {
           "rounds": [
             {
-              "onset": "V",
-              "rime": "is",
+              "onset": "b",
+              "rime": "oek",
               "correct": {
-                "noun": "fish",
-                "themeDir": "animals",
-                "word": "Vis"
+                "noun": "book",
+                "themeDir": "classroom",
+                "word": "Boek"
               },
               "distractors": [
                 {
-                  "noun": "house",
-                  "themeDir": "miscellaneous",
-                  "word": "Huis"
+                  "noun": "pants",
+                  "themeDir": "clothing",
+                  "word": "Broek"
                 },
                 {
-                  "noun": "mouse",
-                  "themeDir": "forest creatures",
-                  "word": "Muis"
+                  "noun": "fish",
+                  "themeDir": "animals",
+                  "word": "Vis"
                 },
                 {
                   "noun": "chicken",
@@ -7648,7 +7648,7 @@
               ]
             },
             {
-              "onset": "M",
+              "onset": "m",
               "rime": "aan",
               "correct": {
                 "noun": "moon",
@@ -7674,7 +7674,7 @@
               ]
             },
             {
-              "onset": "B",
+              "onset": "b",
               "rime": "us",
               "correct": {
                 "noun": "bus",
@@ -7700,7 +7700,7 @@
               ]
             },
             {
-              "onset": "S",
+              "onset": "s",
               "rime": "ok",
               "correct": {
                 "noun": "sock",
@@ -7726,7 +7726,7 @@
               ]
             },
             {
-              "onset": "K",
+              "onset": "k",
               "rime": "ip",
               "correct": {
                 "noun": "chicken",
@@ -7752,7 +7752,7 @@
               ]
             },
             {
-              "onset": "J",
+              "onset": "j",
               "rime": "as",
               "correct": {
                 "noun": "coat",
@@ -7778,7 +7778,7 @@
               ]
             },
             {
-              "onset": "P",
+              "onset": "p",
               "rime": "ot",
               "correct": {
                 "noun": "pot",
@@ -7804,7 +7804,7 @@
               ]
             },
             {
-              "onset": "V",
+              "onset": "v",
               "rime": "aas",
               "correct": {
                 "noun": "vase",
@@ -8266,7 +8266,7 @@
     },
     "page_title": {
       "en": "Blend Onset and Rime — Listen and Find the Word",
-      "nl": "Plak de Klanken Samen",
+      "nl": "Plak de klanken samen",
       "da": "Sæt Lydene Sammen",
       "de": "Lautschulung – Laute zusammenschleifen und üben (Klasse 1)"
     },

@@ -25,7 +25,7 @@ const path = require('path');
 
 const VARIETY_MIN = 7;
 const ROW_ID = 'choice-board.onset-rime-blend.rf-k-2-c';
-const FAN = ['en', 'nl', 'da'];
+const FAN = ['en', 'nl', 'da', 'de'];  // de added by the German rebuild (f54b8a6e, native monosyllabic onset-rime set); the gate list was stale (originally en/nl/da only)
 const REPO = path.join(__dirname, '..');
 const THEMES = path.join(REPO, 'image-library-webp', 'themes');
 

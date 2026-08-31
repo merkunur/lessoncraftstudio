@@ -1204,6 +1204,251 @@
               }
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "ezel",
+            "band": 1,
+            "word": "donkey",
+            "displayWord": "ezel",
+            "displaySyl": [
+              "e",
+              "zel"
+            ],
+            "choices": [
+              {
+                "noun": "donkey",
+                "themeDir": "animals",
+                "nl": "ezel"
+              },
+              {
+                "noun": "panda",
+                "themeDir": "animals",
+                "nl": "panda"
+              },
+              {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "nl": "tijger"
+              }
+            ]
+          },
+          {
+            "id": "appel",
+            "band": 1,
+            "word": "apple",
+            "displayWord": "appel",
+            "displaySyl": [
+              "ap",
+              "pel"
+            ],
+            "choices": [
+              {
+                "noun": "apple",
+                "themeDir": "fruits",
+                "nl": "appel"
+              },
+              {
+                "noun": "carrot",
+                "themeDir": "At the Supermarket",
+                "nl": "wortel"
+              },
+              {
+                "noun": "melon",
+                "themeDir": "At the Supermarket",
+                "nl": "meloen"
+              }
+            ]
+          },
+          {
+            "id": "robot",
+            "band": 1,
+            "word": "robot",
+            "displayWord": "robot",
+            "displaySyl": [
+              "ro",
+              "bot"
+            ],
+            "choices": [
+              {
+                "noun": "robot",
+                "themeDir": "toys",
+                "nl": "robot"
+              },
+              {
+                "noun": "rocket",
+                "themeDir": "space",
+                "nl": "raket"
+              },
+              {
+                "noun": "kite",
+                "themeDir": "toys",
+                "nl": "vlieger"
+              }
+            ]
+          },
+          {
+            "id": "tafel",
+            "band": 2,
+            "word": "table",
+            "displayWord": "tafel",
+            "displaySyl": [
+              "ta",
+              "fel"
+            ],
+            "choices": [
+              {
+                "noun": "table",
+                "themeDir": "around the house",
+                "nl": "tafel"
+              },
+              {
+                "noun": "sofa",
+                "themeDir": "furniture",
+                "nl": "sofa"
+              },
+              {
+                "noun": "pencil",
+                "themeDir": "around the house",
+                "nl": "potlood"
+              }
+            ]
+          },
+          {
+            "id": "bakker",
+            "band": 2,
+            "word": "baker",
+            "displayWord": "bakker",
+            "displaySyl": [
+              "bak",
+              "ker"
+            ],
+            "choices": [
+              {
+                "noun": "baker",
+                "themeDir": "occupations",
+                "nl": "bakker"
+              },
+              {
+                "noun": "robot",
+                "themeDir": "toys",
+                "nl": "robot"
+              },
+              {
+                "noun": "tiger",
+                "themeDir": "animals",
+                "nl": "tijger"
+              }
+            ]
+          },
+          {
+            "id": "potlood",
+            "band": 2,
+            "word": "pencil",
+            "displayWord": "potlood",
+            "displaySyl": [
+              "pot",
+              "lood"
+            ],
+            "choices": [
+              {
+                "noun": "pencil",
+                "themeDir": "around the house",
+                "nl": "potlood"
+              },
+              {
+                "noun": "brush",
+                "themeDir": "around the house",
+                "nl": "borstel"
+              },
+              {
+                "noun": "table",
+                "themeDir": "around the house",
+                "nl": "tafel"
+              }
+            ]
+          },
+          {
+            "id": "zeester",
+            "band": 3,
+            "word": "starfish",
+            "displayWord": "zeester",
+            "displaySyl": [
+              "zee",
+              "ster"
+            ],
+            "choices": [
+              {
+                "noun": "starfish",
+                "themeDir": "beach",
+                "nl": "zeester"
+              },
+              {
+                "noun": "bucket",
+                "themeDir": "beach",
+                "nl": "emmer"
+              },
+              {
+                "noun": "rabbit",
+                "themeDir": "animals",
+                "nl": "konijn"
+              }
+            ]
+          },
+          {
+            "id": "kameel",
+            "band": 3,
+            "word": "camel",
+            "displayWord": "kameel",
+            "displaySyl": [
+              "ka",
+              "meel"
+            ],
+            "choices": [
+              {
+                "noun": "camel",
+                "themeDir": "animals",
+                "nl": "kameel"
+              },
+              {
+                "noun": "panda",
+                "themeDir": "animals",
+                "nl": "panda"
+              },
+              {
+                "noun": "donkey",
+                "themeDir": "animals",
+                "nl": "ezel"
+              }
+            ]
+          },
+          {
+            "id": "schildpad",
+            "band": 3,
+            "word": "turtle",
+            "displayWord": "schildpad",
+            "displaySyl": [
+              "schild",
+              "pad"
+            ],
+            "choices": [
+              {
+                "noun": "turtle",
+                "themeDir": "animals",
+                "nl": "schildpad"
+              },
+              {
+                "noun": "rabbit",
+                "themeDir": "animals",
+                "nl": "konijn"
+              },
+              {
+                "noun": "camel",
+                "themeDir": "animals",
+                "nl": "kameel"
+              }
+            ]
+          }
         ]
       }
     },
@@ -1213,21 +1458,24 @@
       "de": "silben-lesen-zweisilbige-woerter-klasse-1",
       "es": "leer-por-silabas-palabras-de-dos-silabas-primer-grado",
       "pt": "leitura-por-silabas-palavras-de-duas-silabas-1-ano",
-      "it": "leggere-per-sillabe-parole-di-due-sillabe-classe-prima"
+      "it": "leggere-per-sillabe-parole-di-due-sillabe-classe-prima",
+      "nl": "lezen-met-lettergrepen-tweelettergrepige-woorden-groep-3"
     },
     "page_title": {
       "en": "Domino's Two-Part Words — Read Two-Syllable Words (Grade 1)",
       "de": "Silben lesen üben – zweisilbige Wörter (Klasse 1)",
       "es": "Leer por sílabas: palabras de dos sílabas – 1.º grado",
       "pt": "Leitura por sílabas: palavras de duas sílabas – 1º ano",
-      "it": "Leggere per sillabe: parole di due sillabe – classe prima"
+      "it": "Leggere per sillabe: parole di due sillabe – classe prima",
+      "nl": "Pim leest met lettergrepen: tweelettergrepige woorden (groep 3)"
     },
     "page_intro": {
       "en": "Domino the penguin reads longer words in two parts! Read the word split into its two syllables (rab·bit), blend the parts together, then tap the picture it names. A Grade 1 decoding game, aligned to Common Core RF.1.3.e: decode two-syllable words by breaking them into syllables.",
       "de": "Silben lesen mit Pauli dem Pinguin: zweisilbige Wörter Silbe für Silbe erlesen und verbinden. Kostenlos online üben, ohne Anmeldung – Klasse 1.",
       "es": "Actividad interactiva y gratis de lectura: tu hijo/a lee una palabra dividida en sílabas (ga·to) y toca el dibujo que le corresponde. Con Pancho el pingüino. Ideal para 1.º grado.",
       "pt": "Uma atividade de leitura gratuita para dar os primeiros passos na alfabetização. Uma palavra aparece dividida em duas sílabas, como “ga | to” — a criança lê cada parte, junta as sílabas e toca na figura certa entre três. Como uma das figuras começa com a mesma sílaba, é preciso ler as duas, sem adivinhar pela primeira. Com o Pingo, o pinguim, tudo acontece sem pressa, no ritmo de cada um. Para o 1º ano, alinhada à BNCC.",
-      "it": "Il tuo bambino legge una parola di due sillabe, mostrata divisa come in un domino (ga·to), unisce le due sillabe e tocca il disegno giusto. È il metodo sillabico, il ponte più naturale verso la lettura fluente in classe prima, guidato da un simpatico pinguino. Un’attività gratuita, senza registrazione, senza timer e senza punteggio: si impara con calma, al proprio ritmo, in linea con le «Indicazioni nazionali»."
+      "it": "Il tuo bambino legge una parola di due sillabe, mostrata divisa come in un domino (ga·to), unisce le due sillabe e tocca il disegno giusto. È il metodo sillabico, il ponte più naturale verso la lettura fluente in classe prima, guidato da un simpatico pinguino. Un’attività gratuita, senza registrazione, senza timer e senza punteggio: si impara con calma, al proprio ritmo, in linea con le «Indicazioni nazionali».",
+      "nl": "Met Pim de pinguïn leert je kind een woord in twee lettergrepen lezen — bijvoorbeeld \"ko·nijn\" — de twee delen samenvoegen en daarna het juiste plaatje aantikken. Zo oefent je kind spelenderwijs het hakken en plakken van tweelettergrepige woorden, in een rustig spel zonder tijdslimiet, zonder score en zonder inloggen — helemaal gratis. Afgestemd op de SLO-kerndoelen voor technisch lezen (lezen met lettergrepen) voor groep 3."
     },
     "kid_prompt_template": "Read both parts — tap the picture!"
   }

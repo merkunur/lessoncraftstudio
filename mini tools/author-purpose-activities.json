@@ -41,6 +41,11 @@
           "inform": "Per dare informazioni",
           "entertain": "Per raccontare una storia divertente",
           "instruct": "Per mostrare come si fa"
+        },
+        "nl": {
+          "inform": "Het geeft feiten",
+          "entertain": "Het vertelt een verhaal",
+          "instruct": "Het laat zien hoe het moet"
         }
       },
       "roundsL10n": {
@@ -368,6 +373,19 @@
               "text": "Per lavarti le mani: prima bagnale con l’acqua. Poi passa il sapone e strofina, e infine sciacqua e asciuga."
             }
           }
+        ],
+        "nl": [
+          { "id": "ap-i1", "note": { "purpose": "inform",    "text": "Uilen slapen overdag en jagen 's nachts. Hun zachte veren helpen hen om heel stil te vliegen." } },
+          { "id": "ap-i2", "note": { "purpose": "inform",    "text": "Bijen halen zoete nectar uit de bloemen. Van die nectar maken ze later honing in de korf." } },
+          { "id": "ap-i3", "note": { "purpose": "inform",    "text": "De zon is een reusachtige, hete ster. Elke dag geeft ze ons licht en warmte op aarde." } },
+
+          { "id": "ap-e1", "note": { "purpose": "entertain", "text": "Pip de hond joeg zijn eigen staart achterna. Hij draaide zo snel rond dat hij giechelend in de bladeren plofte!" } },
+          { "id": "ap-e2", "note": { "purpose": "entertain", "text": "De kleine kikker wilde tot aan de maan springen. Hij sprong zo hoog dat hij op een zachte wolk landde!" } },
+          { "id": "ap-e3", "note": { "purpose": "entertain", "text": "Mira de kat klom in de grote wasmand. Toen de sokken in het rond vlogen, rolde ze lachend weer naar buiten!" } },
+
+          { "id": "ap-s1", "note": { "purpose": "instruct",  "text": "Zo vouw je een bootje van papier: Eerst vouw je het papier dubbel. Daarna vouw je de hoeken naar beneden. Tot slot vouw je het bootje af." } },
+          { "id": "ap-s2", "note": { "purpose": "instruct",  "text": "Zo plant je een boon: Eerst doe je aarde in de pot. Daarna leg je de boon erin. Tot slot geef je er water bij." } },
+          { "id": "ap-s3", "note": { "purpose": "instruct",  "text": "Zo was je je handen: Eerst maak je ze nat met water. Daarna wrijf je ze in met zeep. Tot slot spoel je alles weer af." } }
         ]
       },
       "rounds": [
@@ -442,7 +460,8 @@
       "fr": "pourquoi-l-auteur-a-ecrit-ce-texte",
       "es": "proposito-del-texto-informar-entretener-instruir-segundo-grado",
       "pt": "proposito-do-texto-informar-divertir-instruir-2-ano",
-      "it": "scopo-del-testo-informare-divertire-istruire-classe-seconda"
+      "it": "scopo-del-testo-informare-divertire-istruire-classe-seconda",
+      "nl": "tekstdoel-waarom-is-een-tekst-geschreven-informeren-vermaken-uitleggen-groep-4"
     },
     "page_title": {
       "en": "The Harbor Post — Author's Purpose: Inform, Entertain & Instruct (Grade 2)",
@@ -450,7 +469,8 @@
       "fr": "Le courrier de Marlow — Pourquoi l'auteur a-t-il écrit ?",
       "es": "Propósito del texto: informar, entretener o instruir",
       "pt": "Para que serve o texto? Informar, divertir ou ensinar · 2º ano",
-      "it": "Scopo del testo: informare, divertire o istruire — classe seconda"
+      "it": "Scopo del testo: informare, divertire o istruire — classe seconda",
+      "nl": "Waarom schreef de schrijver dit? Tekstdoel herkennen (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 reading activity: help Marlow the pelican sort harbor notes by why the author wrote them. Read each short note, then send it to the right bin — to tell facts, to tell a fun story, or to show you how to do something. A friendly first look at the author's purpose. Common Core RI.2.6.",
@@ -458,7 +478,8 @@
       "fr": "Avec Marlow le pélican, votre enfant trie le courrier du port. À chaque tour, il lit une courte note, puis l'envoie dans la boîte qui dit pourquoi l'auteur l'a écrite : pour informer, pour distraire ou pour expliquer comment faire. En jouant, il apprend à reconnaître l'intention de l'auteur d'un texte, c'est-à-dire la visée du message. Une activité gratuite et interactive qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, alignée sur les programmes officiels de l'école.",
       "es": "Actividad gratis en línea de 2.º de primaria: lee una nota corta y toca para qué se escribió: informar, entretener o instruir. Sin registro ni calificación.",
       "pt": "Com o pelicano Marujo, a criança lê bilhetinhos no correio do porto e descobre para que cada um foi escrito — para informar, divertir ou ensinar a fazer. Uma atividade de leitura para reconhecer a finalidade dos textos. Grátis, sem cadastro. BNCC, 2º ano.",
-      "it": "Il pellicano postino Marino smista bigliettini del porto e invita il bambino a leggerne uno breve — che può anche ascoltare — per scoprire perché è stato scritto: per informare, per divertire o per istruire; un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda."
+      "it": "Il pellicano postino Marino smista bigliettini del porto e invita il bambino a leggerne uno breve — che può anche ascoltare — per scoprire perché è stato scritto: per informare, per divertire o per istruire; un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe seconda.",
+      "nl": "Help Marlow de pelikaan in zijn havenpost! Je kind leest korte briefjes en ontdekt het doel van de schrijver: wil de tekst informeren, vermaken of uitleggen? Zo oefent het tekstdoel herkennen — gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 4."
     },
     "kid_prompt_template": "author-purpose"
   }

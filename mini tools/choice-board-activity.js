@@ -181,7 +181,7 @@ var ACTIVITY_STRINGS = {
   /* RF.K.3 — read a whole printed CVC word + tap its picture (decode-to-meaning).
      EN-only (the cvc/decode exception); slug.en-only → 404 non-EN. The 10 non-EN
      entries are EN fallbacks that never route. */
-  promptReadWord: {"en":"Read the word. Tap the picture that matches it.","de":"Lies das Wort. Tippe das Bild, das dazu passt.","es":"Lee la palabra. Toca el dibujo que le corresponde.","it":"Leggi la parola. Tocca il disegno che le corrisponde.","pt":"Leia a palavra. Toque na figura que combina com ela.","fr":"Read the word. Tap the picture that matches it.","nl":"Read the word. Tap the picture that matches it.","sv":"Read the word. Tap the picture that matches it.","da":"Read the word. Tap the picture that matches it.","no":"Read the word. Tap the picture that matches it.","fi":"Read the word. Tap the picture that matches it."},
+  promptReadWord: {"en":"Read the word. Tap the picture that matches it.","de":"Lies das Wort. Tippe das Bild, das dazu passt.","es":"Lee la palabra. Toca el dibujo que le corresponde.","it":"Leggi la parola. Tocca il disegno che le corrisponde.","pt":"Leia a palavra. Toque na figura que combina com ela.","fr":"Read the word. Tap the picture that matches it.","nl":"Lees het woord. Tik op het plaatje dat erbij hoort.","sv":"Read the word. Tap the picture that matches it.","da":"Read the word. Tap the picture that matches it.","no":"Read the word. Tap the picture that matches it.","fi":"Read the word. Tap the picture that matches it."},
   /* RF.K.2.c — blend onset + rime (REDUCED FAN: en/nl/da native-confirmed; de/no/sv
      excluded their language uses syllable not onset-rime). The onset is shown as a
      letter-chunk + the rime is SPOKEN (TTS-safe syllable; isolated-onset TTS is
@@ -496,14 +496,16 @@ var ACTIVITY_STRINGS = {
     de: 'Tippe zuerst ein Bild an.',
     es: 'Primero toca un dibujo.',
     pt: 'Escolha uma figura primeiro.',
-    it: 'Prima scegli un disegno.'
+    it: 'Prima scegli un disegno.',
+    nl: 'Kies eerst een plaatje.'
   },
   hintReadWhole: {
     en: 'Read the whole word again — letter by letter. Which picture fits?',
     de: 'Lies das ganze Wort noch einmal – Buchstabe für Buchstabe. Welches Bild passt?',
     es: 'Lee otra vez toda la palabra, letra por letra. ¿Qué dibujo le corresponde?',
     pt: 'Leia a palavra inteira de novo — letra por letra. Qual figura combina?',
-    it: 'Leggi ancora tutta la parola, lettera per lettera. Quale disegno le corrisponde?'
+    it: 'Leggi ancora tutta la parola, lettera per lettera. Quale disegno le corrisponde?',
+    nl: 'Lees het hele woord nog eens — letter voor letter. Welk plaatje past?'
   },
   /* onset-rime-blend (Lautsynthese) — blend-appropriate wrong-answer hint */
   hintBlend: {

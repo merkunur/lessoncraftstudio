@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Oscar de uil laat een woord zien, bijvoorbeeld \"kat\". Je kind leest het woord en tikt uit vier plaatjes het juiste aan: de kat, en niet de kaas of de kam. De grote ogen van Oscar lezen elk woord goed mee, letter voor letter, zodat je kind rustig de tijd heeft om te kijken en te lezen.",
+        "Lezen begint met verklanken en decoderen: elke letter is een klank, en die klanken plak je aan elkaar tot een woord — hakken en plakken, k-a-t, kat. Omdat sommige plaatjes hetzelfde beginnen, zoals kat, kaas en kam, moet je kind het hele woord lezen tot de laatste letter, en niet raden bij de eerste letter. Juist dat nauwkeurige lezen maakt van je kind een sterke, zelfstandige lezer.",
+        "Dit past bij technisch lezen (aanvankelijk lezen) in groep 3. Oscar zegt nooit dat iets fout is: klopt het plaatje nog niet, lees dan samen rustig het woord nog een keer, letter voor letter. Er is geen tijd en geen score, dus je kind kan zonder druk oefenen. Er is ook geen geluid nodig — je kind leest zelf."
+      ],
+      "practices": [
+        "Een woord verklanken (hakken en plakken)",
+        "Het hele woord lezen tot de laatste letter",
+        "Een gelezen woord aan een plaatje koppelen",
+        "Niet raden bij de eerste letter"
+      ],
+      "howToPlay": [
+        "Lees het woord dat Oscar laat zien",
+        "Zoek uit de vier plaatjes het juiste",
+        "Tik het plaatje aan dat bij het woord past"
+      ],
+      "learningGoals": [
+        "Losse letters tot een woord verklanken",
+        "Hele woorden nauwkeurig lezen tot de laatste letter",
+        "Gelezen woorden aan betekenis (een plaatje) koppelen"
+      ]
+    },
     "stretch-giraffe.long-short-vowel.rf-1-2-a": {
       "about": [
         "Gijs de giraf zegt drie woorden hardop, bijvoorbeeld maan, bal en kat. Je kind luistert goed en hoort welk woord de lange klinker heeft — de \"aa\" die je lekker lang kunt uitrekken, net als de lange nek van Gijs — en tikt dan dat plaatje aan. De ene keer vraagt Gijs naar het woord met de lange klinker, de andere keer naar het woord met de korte klinker, zodat je kind steeds opnieuw echt moet luisteren.",

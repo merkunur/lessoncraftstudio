@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "fraction-equiv.same-amount.3-nf-a-3": {
+      "about": [
+        "Kruimel de muis bakt een lekker stukje en snijdt het in gelijke delen — bijvoorbeeld de helft, dus 1/2. Je kind ziet die breuk als getallen én als gekleurde strook. Daarna kiest je kind uit drie breuken de breuk die evenveel laat zien: 2/4. Als je die aantikt, zie je in de stroken dat 1/2 en 2/4 even vol zijn — precies dezelfde hoeveelheid, alleen in andere stukjes gesneden.",
+        "Begrijpen dat verschillende breuken dezelfde hoeveelheid kunnen zijn — 1/2 = 2/4 = 3/6 — is een belangrijke basis voor het latere rekenen met breuken. Hier draait het niet om rekenen of om een sommetje uitrekenen, maar om zien: je kind ontdekt met de stroken dat het echt evenveel is. Dat gevoel voor gelijkwaardige breuken maakt het optellen, aftrekken en vergelijken van breuken later veel makkelijker.",
+        "Dit spel past bij het werken met gelijkwaardige breuken in groep 6. Er is geen tijd en geen score, dus je kind kan rustig ontdekken met de stroken en zo vaak proberen als het wil. Alles wordt voorgelezen, zodat je kind zelfstandig aan de slag kan — gewoon kijken, vergelijken en aantikken."
+      ],
+      "practices": [
+        "Gelijkwaardige breuken herkennen",
+        "Zien dat 1/2 en 2/4 evenveel zijn",
+        "Breuken vergelijken met stroken",
+        "Begrijpen dat dezelfde hoeveelheid anders verdeeld kan zijn"
+      ],
+      "howToPlay": [
+        "Kijk naar de breuk van Kruimel en de gekleurde strook",
+        "Zoek de breuk die evenveel laat zien",
+        "Tik die breuk aan"
+      ],
+      "learningGoals": [
+        "Gelijkwaardige breuken herkennen",
+        "Breuken begrijpen als een hoeveelheid",
+        "De basis leggen voor het rekenen met breuken"
+      ]
+    },
     "choice-board.read-cvc-word.rf-k-3": {
       "about": [
         "Oscar de uil laat een woord zien, bijvoorbeeld \"kat\". Je kind leest het woord en tikt uit vier plaatjes het juiste aan: de kat, en niet de kaas of de kam. De grote ogen van Oscar lezen elk woord goed mee, letter voor letter, zodat je kind rustig de tijd heeft om te kijken en te lezen.",

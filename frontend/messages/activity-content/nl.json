@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "wobble-museum.catch-drift.w-k-2": {
+      "about": [
+        "In dit gratis leesspelletje voor groep 4 loopt je kind door het themamuseum van Bram de ekster. Bram is een verzamelaar: in elke zaal hangt een bordje met één thema, en daaronder vier korte zinnen die allemaal waar zijn. Bij \"Thema: kikkers\" lees je bijvoorbeeld dat een kikker kan springen en dat een kikker kwaakt, maar één zin — \"Een vijver is koud\" — is verdwaald uit een ander museum en hoort er niet bij. Je kind tikt op die verdwaalde zin.",
+        "Achter dit spel voor groep 4 zit een belangrijke leesvaardigheid: bij het onderwerp blijven en letten op tekstsamenhang. Elke zaal gaat over precies één thema; drie zinnen horen erbij en één zin is verdwaald uit een verwant thema. Juist omdat de thema's op elkaar lijken, kan je kind niet zomaar losse woorden matchen — het moet het thema echt begrijpen om te zien welke zin er als geheel niet bij past. Zo oefent je kind spelenderwijs met samenhang, iets wat later helpt bij het schrijven van teksten die netjes bij het onderwerp blijven.",
+        "Het spel is helemaal gratis, zonder inloggen, zonder tijdsdruk en zonder score — Bram deelt nooit een goed of fout uit, dus je kind kan rustig lezen en nadenken. Met de knop Voorlezen hoort je kind de zinnen hardop, wat fijn is voor beginnende lezers. De inhoud sluit aan bij de SLO-kerndoelen voor groep 4 en bereidt je kind voor op het schrijven: begrijpen dat een tekst bij één onderwerp hoort, is de eerste stap naar zelf teksten schrijven die samenhangen."
+      ],
+      "practices": [
+        "Bij het onderwerp/thema blijven en de verdwaalde zin herkennen",
+        "Letten op tekstsamenhang in plaats van losse woorden matchen",
+        "Het thema van een zaal begrijpen en zinnen daarbij plaatsen",
+        "Aandachtig lezen van korte zinnen en luisteren met de voorleesknop"
+      ],
+      "howToPlay": [
+        "Lees het bordje met het thema en de vier zinnen in de zaal van Bram.",
+        "Tik op de zin die niet bij het thema hoort — de verdwaalde zin.",
+        "Druk op Controleer, of laat de zinnen eerst voorlezen met Voorlezen."
+      ],
+      "learningGoals": [
+        "Je kind kan de zin aanwijzen die niet bij het thema hoort.",
+        "Je kind kan uitleggen waarom een zin bij het onderwerp past of verdwaald is.",
+        "Je kind kan letten op tekstsamenhang en zo bij het onderwerp blijven."
+      ]
+    },
     "point-of-view.who-told.rl-1-6": {
       "about": [
         "In dit gratis leesspel voor groep 3 leest je kind korte zinnen over de drukke haven en ontdekt het vanuit wie het verhaal verteld wordt. Lumen de uil woont in een vuurtoren met ramen op drie hoogtes, en achter elk raam zit een dier dat de haven anders ziet. Leest je kind \"De boot leek een piepklein stipje, heel ver weg\", dan hoort die zin bij het dier dat helemaal bovenin zit.",

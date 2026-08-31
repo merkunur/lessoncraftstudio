@@ -2951,6 +2951,84 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "opposites.pick-black", "cog": "pick", "complementary": false,
+            "target": { "word": "zwart", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color", "pos": "adj" },
+            "choices": [
+              { "word": "boven", "glyph": { "type": "arrow", "param": "up" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "wit", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
+              { "word": "rood", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" }
+            ] },
+          { "id": "opposites.pick-up", "cog": "pick", "complementary": false,
+            "target": { "word": "boven", "glyph": { "type": "arrow", "param": "up" }, "oppositionId": "direction", "pos": "adj" },
+            "choices": [
+              { "word": "zwart", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "unrelated", "dimension": "color" },
+              { "word": "onder", "glyph": { "type": "arrow", "param": "down" }, "relation": "opposite", "dimension": "direction" },
+              { "word": "links", "glyph": { "type": "arrow", "param": "left" }, "relation": "same-dim-sibling", "dimension": "direction" }
+            ] },
+          { "id": "opposites.pick-big", "cog": "pick", "complementary": true,
+            "target": { "word": "groot", "glyph": { "type": "size", "param": "big" }, "oppositionId": "size", "pos": "adj" },
+            "choices": [
+              { "word": "onder", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "klein", "glyph": { "type": "size", "param": "small" }, "relation": "opposite", "dimension": "size" },
+              { "word": "blij", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" }
+            ] },
+          { "id": "opposites.route-black", "cog": "route", "complementary": false,
+            "anchor": { "word": "zwart", "glyph": { "type": "swatch", "param": "#262626" }, "oppositionId": "color" },
+            "stream": [
+              { "word": "wit", "glyph": { "type": "swatch", "param": "#ffffff" }, "relation": "opposite", "dimension": "color" },
+              { "word": "rood", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "same-dim-sibling", "dimension": "color" },
+              { "word": "blauw", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
+            ] },
+          { "id": "opposites.oddpair-1", "cog": "oddpair", "complementary": false,
+            "pairs": [
+              { "a": { "word": "zwart", "glyph": { "type": "swatch", "param": "#262626" } }, "b": { "word": "wit", "glyph": { "type": "swatch", "param": "#ffffff" } }, "relation": "opposite" },
+              { "a": { "word": "boven", "glyph": { "type": "arrow", "param": "up" } }, "b": { "word": "onder", "glyph": { "type": "arrow", "param": "down" } }, "relation": "opposite" },
+              { "a": { "word": "rood", "glyph": { "type": "swatch", "param": "#e23b2e" } }, "b": { "word": "blauw", "glyph": { "type": "swatch", "param": "#2f6fd0" } }, "relation": "related" }
+            ] },
+          { "id": "opposites.scene-bedtime", "cog": "scene", "complementary": true,
+            "sceneLabel": "Het is bedtijd — maar alles is omgedraaid!",
+            "elements": [
+              { "word": "zon", "glyph": { "type": "celestial", "param": "sun" }, "flipGlyph": { "type": "celestial", "param": "moon" }, "flipWord": "maan" },
+              { "word": "lamp aan", "glyph": { "type": "lamp", "param": "on" }, "flipGlyph": { "type": "lamp", "param": "off" }, "flipWord": "lamp uit" },
+              { "word": "deur open", "glyph": { "type": "door", "param": "open" }, "flipGlyph": { "type": "door", "param": "closed" }, "flipWord": "deur dicht" }
+            ] },
+          { "id": "opposites.generate-left", "cog": "generate", "complementary": false,
+            "target": { "word": "links", "glyph": { "type": "arrow", "param": "left" }, "oppositionId": "direction", "pos": "adj" },
+            "choices": [
+              { "word": "blij", "glyph": { "type": "face", "param": "happy" }, "relation": "unrelated", "dimension": "emotion" },
+              { "word": "rechts", "glyph": { "type": "arrow", "param": "right" }, "relation": "opposite", "dimension": "direction" },
+              { "word": "boven", "glyph": { "type": "arrow", "param": "up" }, "relation": "same-dim-sibling", "dimension": "direction" }
+            ] },
+          { "id": "opposites.balance-white", "cog": "balance", "complementary": false,
+            "target": { "word": "wit", "glyph": { "type": "swatch", "param": "#ffffff" }, "oppositionId": "color", "pos": "adj" },
+            "choices": [
+              { "word": "onder", "glyph": { "type": "arrow", "param": "down" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "zwart", "glyph": { "type": "swatch", "param": "#262626" }, "relation": "opposite", "dimension": "color" },
+              { "word": "blauw", "glyph": { "type": "swatch", "param": "#2f6fd0" }, "relation": "same-dim-sibling", "dimension": "color" }
+            ] },
+          { "id": "opposites.balance-down", "cog": "balance", "complementary": false,
+            "target": { "word": "onder", "glyph": { "type": "arrow", "param": "down" }, "oppositionId": "direction", "pos": "adj" },
+            "choices": [
+              { "word": "rood", "glyph": { "type": "swatch", "param": "#e23b2e" }, "relation": "unrelated", "dimension": "color" },
+              { "word": "boven", "glyph": { "type": "arrow", "param": "up" }, "relation": "opposite", "dimension": "direction" },
+              { "word": "rechts", "glyph": { "type": "arrow", "param": "right" }, "relation": "same-dim-sibling", "dimension": "direction" }
+            ] },
+          { "id": "opposites.verb-push", "cog": "verb", "complementary": false,
+            "target": { "word": "duwen", "glyph": { "type": "motion", "param": "push" }, "oppositionId": "motion", "pos": "verb" },
+            "choices": [
+              { "word": "draaien", "glyph": { "type": "motion", "param": "spin" }, "relation": "same-dim-sibling", "dimension": "motion" },
+              { "word": "trekken", "glyph": { "type": "motion", "param": "pull" }, "relation": "opposite", "dimension": "motion" },
+              { "word": "tillen", "glyph": { "type": "motion", "param": "lift" }, "relation": "same-dim-sibling", "dimension": "motion" }
+            ] },
+          { "id": "opposites.pick-hot", "cog": "pick", "complementary": true,
+            "target": { "word": "warm", "glyph": { "type": "temp", "param": "hot" }, "oppositionId": "temperature", "pos": "adj" },
+            "choices": [
+              { "word": "links", "glyph": { "type": "arrow", "param": "left" }, "relation": "unrelated", "dimension": "direction" },
+              { "word": "koud", "glyph": { "type": "temp", "param": "cold" }, "relation": "opposite", "dimension": "temperature" },
+              { "word": "groot", "glyph": { "type": "size", "param": "big" }, "relation": "unrelated", "dimension": "size" }
+            ] }
         ]
       }
     },
@@ -2960,7 +3038,8 @@
       "fr": "trouver-les-contraires-cp",
       "es": "palabras-contrarias-antonimos-primer-grado",
       "pt": "palavras-contrarias-antonimos-1-ano",
-      "it": "i-contrari-antonimi-gioco-classe-prima"
+      "it": "i-contrari-antonimi-gioco-classe-prima",
+      "nl": "tegengestelden-tegenovergestelde-woorden-antoniemen-groep-3"
     },
     "page_title": {
       "en": "Quill's Mirror Market — Find the Opposite",
@@ -2968,7 +3047,8 @@
       "fr": "Les contraires – exercice en ligne (CP)",
       "es": "Palabras contrarias y antónimos – Primer grado",
       "pt": "Palavras contrárias e antônimos · 1º ano",
-      "it": "I contrari e gli antonimi: gioco gratis per la classe prima"
+      "it": "I contrari e gli antonimi: gioco gratis per la classe prima",
+      "nl": "Tegengestelden vinden: het andere woord (groep 3)"
     },
     "page_intro": {
       "en": "Quill the hedgehog only seals a trade when you bring the OPPOSITE — the other end, not just a friend! Tap the word that means the reverse: black→white, up→down, push→pull. A Kindergarten antonyms game aligned to Common Core K.L.5.b: relate words to their opposites.",
@@ -2976,7 +3056,8 @@
       "fr": "Trouve le contraire de chaque mot au marché-miroir de Quill ; parfait du CP à la révision au CE1. Gratuit, en ligne, sans inscription.",
       "es": "Toca lo contrario de cada palabra: negro y blanco, grande y pequeño, caliente y frío. Actividad de antónimos de primer grado, gratis y en línea, sin registro.",
       "pt": "No mercado espelho do ouriço Espinho, a criança acha o contrário de cada palavra — grande/pequeno, quente/frio, cima/baixo — em joguinhos divertidos. Amplia o vocabulário com antônimos. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Al mercato degli specchi il riccio Spino scambia le parole soltanto se gli porti il loro contrario — il grande cerca il piccolo, il caldo cerca il freddo, il su cerca il giù — e i bambini imparano così a riconoscere gli antonimi giocando; l’attività è gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Al mercato degli specchi il riccio Spino scambia le parole soltanto se gli porti il loro contrario — il grande cerca il piccolo, il caldo cerca il freddo, il su cerca il giù — e i bambini imparano così a riconoscere gli antonimi giocando; l’attività è gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Zoek met Stekel de egel op de spiegelmarkt het tegenovergestelde van elk woord: bij zwart hoort wit, bij duwen hoort trekken. Zo oefent je kind tegengestelden en woordenschat. Gratis en interactief, voor groep 3, afgestemd op de SLO-kerndoelen."
     },
     "kid_prompt_template": "Find the opposite — the OTHER end!"
   }

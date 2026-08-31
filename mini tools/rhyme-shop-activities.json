@@ -2128,6 +2128,18 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "rhyme-shop.nl.judge-muis-huis", "cog": "judge", "a": { "word": "Muis", "noun": "mouse", "themeDir": "forest creatures", "category": "animal", "rimeKey": "UIS", "spelledRime": "uis" }, "b": { "word": "Huis", "noun": "house", "themeDir": "miscellaneous", "category": "object", "rimeKey": "UIS", "spelledRime": "uis" } },
+          { "id": "rhyme-shop.nl.judge-beer-hond", "cog": "judge", "a": { "word": "Beer", "noun": "bear", "themeDir": "forest creatures", "category": "animal", "rimeKey": "EER", "spelledRime": "eer" }, "b": { "word": "Hond", "noun": "dog", "themeDir": "pets", "category": "animal", "rimeKey": "ONT", "spelledRime": "ond" } },
+          { "id": "rhyme-shop.nl.pick-beer-peer", "cog": "pick", "target": { "word": "Beer", "noun": "bear", "themeDir": "forest creatures", "category": "animal", "rimeKey": "EER", "spelledRime": "eer" }, "choices": [ { "word": "Peer", "noun": "pear", "themeDir": "fruits", "category": "food", "rimeKey": "EER", "spelledRime": "eer" }, { "word": "Kat", "noun": "cat", "themeDir": "animals", "category": "animal", "rimeKey": "AT", "spelledRime": "at" }, { "word": "Boot", "noun": "boat", "themeDir": "vehicles", "category": "object", "rimeKey": "OOT", "spelledRime": "oot" } ] },
+          { "id": "rhyme-shop.nl.pick-schoen-meloen", "cog": "pick", "target": { "word": "Schoen", "noun": "shoe", "themeDir": "clothing", "category": "object", "rimeKey": "OEN", "spelledRime": "oen" }, "choices": [ { "word": "Meloen", "noun": "melon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Kat", "noun": "cat", "themeDir": "animals", "category": "animal", "rimeKey": "AT", "spelledRime": "at" }, { "word": "Boot", "noun": "boat", "themeDir": "vehicles", "category": "object", "rimeKey": "OOT", "spelledRime": "oot" } ] },
+          { "id": "rhyme-shop.nl.pick-haan-banaan", "cog": "pick", "target": { "word": "Haan", "noun": "rooster", "themeDir": "farm animals", "category": "animal", "rimeKey": "AAN", "spelledRime": "aan" }, "choices": [ { "word": "Banaan", "noun": "banana", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "AAN", "spelledRime": "aan" }, { "word": "Bel", "noun": "bell", "themeDir": "christmas", "category": "object", "rimeKey": "EL", "spelledRime": "el" }, { "word": "Sok", "noun": "sock", "themeDir": "accessories", "category": "object", "rimeKey": "OK", "spelledRime": "ok" } ] },
+          { "id": "rhyme-shop.nl.odd-oen-sok", "cog": "odd", "choices": [ { "word": "Schoen", "noun": "shoe", "themeDir": "clothing", "category": "object", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Meloen", "noun": "melon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Citroen", "noun": "lemon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Sok", "noun": "sock", "themeDir": "accessories", "category": "object", "rimeKey": "OK", "spelledRime": "ok" } ] },
+          { "id": "rhyme-shop.nl.sort-uis-oen", "cog": "sort", "bins": [ { "word": "Muis", "noun": "mouse", "themeDir": "forest creatures", "category": "animal", "rimeKey": "UIS", "spelledRime": "uis" }, { "word": "Schoen", "noun": "shoe", "themeDir": "clothing", "category": "object", "rimeKey": "OEN", "spelledRime": "oen" } ], "pile": [ { "word": "Huis", "noun": "house", "themeDir": "miscellaneous", "category": "object", "rimeKey": "UIS", "spelledRime": "uis" }, { "word": "Meloen", "noun": "melon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Citroen", "noun": "lemon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" } ] },
+          { "id": "rhyme-shop.nl.chant-haan-banaan", "cog": "chant", "target": { "word": "Haan", "noun": "rooster", "themeDir": "farm animals", "category": "animal", "rimeKey": "AAN", "spelledRime": "aan" }, "choices": [ { "word": "Banaan", "noun": "banana", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "AAN", "spelledRime": "aan" }, { "word": "Vis", "noun": "fish", "themeDir": "ocean life", "category": "animal", "rimeKey": "IS", "spelledRime": "is" }, { "word": "Sok", "noun": "sock", "themeDir": "accessories", "category": "object", "rimeKey": "OK", "spelledRime": "ok" } ] },
+          { "id": "rhyme-shop.nl.field-oen", "cog": "field", "target": { "word": "Schoen", "noun": "shoe", "themeDir": "clothing", "category": "object", "rimeKey": "OEN", "spelledRime": "oen" }, "choices": [ { "word": "Meloen", "noun": "melon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Citroen", "noun": "lemon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Kat", "noun": "cat", "themeDir": "animals", "category": "animal", "rimeKey": "AT", "spelledRime": "at" }, { "word": "Boot", "noun": "boat", "themeDir": "vehicles", "category": "object", "rimeKey": "OOT", "spelledRime": "oot" } ] },
+          { "id": "rhyme-shop.nl.chain-oen", "cog": "chain", "anchor": { "word": "Schoen", "noun": "shoe", "themeDir": "clothing", "category": "object", "rimeKey": "OEN", "spelledRime": "oen" }, "steps": [ { "choices": [ { "word": "Meloen", "noun": "melon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Kat", "noun": "cat", "themeDir": "animals", "category": "animal", "rimeKey": "AT", "spelledRime": "at" }, { "word": "Boot", "noun": "boat", "themeDir": "vehicles", "category": "object", "rimeKey": "OOT", "spelledRime": "oot" } ] }, { "choices": [ { "word": "Citroen", "noun": "lemon", "themeDir": "At the Supermarket", "category": "food", "rimeKey": "OEN", "spelledRime": "oen" }, { "word": "Sok", "noun": "sock", "themeDir": "accessories", "category": "object", "rimeKey": "OK", "spelledRime": "ok" }, { "word": "Hond", "noun": "dog", "themeDir": "pets", "category": "animal", "rimeKey": "ONT", "spelledRime": "ond" } ] } ] }
         ]
       }
     },
@@ -2136,21 +2148,24 @@
       "de": "reime-hoeren-und-finden-klasse-1",
       "es": "rimas-palabras-que-riman-conciencia-fonologica-preescolar",
       "pt": "rimas-palavras-que-rimam",
-      "it": "giocare-con-le-rime-scuola-infanzia"
+      "it": "giocare-con-le-rime-scuola-infanzia",
+      "nl": "rijmen-rijmwoorden-horen-kleuters"
     },
     "page_title": {
       "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes",
       "de": "Reime üben – Reimwörter hören und finden (Klasse 1)",
       "es": "Rimas y palabras que riman para preescolar – Juego gratis",
       "pt": "Rimas: palavras que rimam para o 1º ano — atividade alinhada à BNCC",
-      "it": "Le rime: giocare con le parole alla scuola dell’infanzia"
+      "it": "Le rime: giocare con le parole alla scuola dell’infanzia",
+      "nl": "Rijmen met Rijmbeer Rob – rijmwoorden horen (kleuters)"
     },
     "page_intro": {
       "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words.",
       "de": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1.",
       "es": "Actividad interactiva y gratis: los niños escuchan y encuentran palabras que riman —gato y pato, ratón y limón— y desarrollan su conciencia fonológica. Ideal para preescolar.",
       "pt": "O Gui, um guaxinim animado, conduz o vagão de rimas por trilhos cheios de figuras. Seu filho escuta cada palavra e descobre quais têm o mesmo som no fim, ou seja, quais rimam. É uma atividade lúdica de escuta, alinhada à BNCC, para brincar com os sons das palavras.",
-      "it": "Sali sul vagone delle rime insieme a un simpatico animaletto! I bambini ascoltano le parole illustrate e scoprono quelle che fanno rima, come gatto e piatto, con tanti giochi divertenti. Ogni parola si può ascoltare toccando il 🔊. Tutto gratis, senza registrazione, senza timer e senza punteggio — un’attività allineata alle Indicazioni nazionali."
+      "it": "Sali sul vagone delle rime insieme a un simpatico animaletto! I bambini ascoltano le parole illustrate e scoprono quelle che fanno rima, come gatto e piatto, con tanti giochi divertenti. Ogni parola si può ascoltare toccando il 🔊. Tutto gratis, senza registrazione, senza timer e senza punteggio — un’attività allineata alle Indicazioni nazionali.",
+      "nl": "Rijmbeer Rob laat kleuters plaatjes zien en spreekt de woorden hardop uit. Je kind luistert naar de woorden en zoekt welke rijmen, zoals schoen en meloen of muis en huis. Een gratis, interactief luisterspel, afgestemd op de SLO-kerndoelen voor beginnende geletterdheid voor kleuters."
     },
     "kid_prompt_template": "Tap to hear — then feed the rhyme!"
   }

@@ -3328,6 +3328,151 @@
               }
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "r1_beer_pick", "group": "beer", "cog": "pick-topic", "band": 1, "topicId": "beer_warm",
+            "paragraph": ["In de winter wordt het heel koud.", "Een beer krijgt dan een dikke vacht.", "Zo houdt de beer zijn lijf lekker warm.", "In zijn hol blijft hij lekker knus."],
+            "fish": [
+              { "id": "beer_bessen", "phrase": "Een beer eet graag zoete bessen.", "key": "bessen", "picture": null },
+              { "id": "beer_vacht", "phrase": "Een beer heeft een dikke vacht.", "key": "vacht", "picture": null },
+              { "id": "beer_hol", "phrase": "Een beer slaapt in een donker hol.", "key": "hol", "picture": null },
+              { "id": "beer_warm", "phrase": "Een beer houdt zijn lijf lekker warm.", "key": "warm", "picture": null }
+            ]
+          },
+          {
+            "id": "r2_beer_nest", "group": "beer", "cog": "nest-reject", "band": 2, "topicId": "beer_hol", "slots": 2,
+            "paragraph": ["De winter is lang en koud.", "Een beer zoekt een warm hol.", "Daar rust de beer heel stil.", "Zijn dikke vacht houdt hem warm."],
+            "fish": [
+              { "id": "beer_bessen", "phrase": "Een beer eet graag zoete bessen.", "key": "bessen", "picture": null },
+              { "id": "beer_vacht", "phrase": "Een beer heeft een dikke vacht.", "key": "vacht", "picture": null },
+              { "id": "beer_hol", "phrase": "Een beer slaapt in een donker hol.", "key": "hol", "picture": null },
+              { "id": "beer_warm", "phrase": "Een beer houdt zijn lijf lekker warm.", "key": "warm", "picture": null }
+            ],
+            "details": [
+              { "id": "beer_warm", "belongs": true },
+              { "id": "beer_vacht", "belongs": true },
+              { "id": "beer_bessen", "belongs": false }
+            ]
+          },
+          {
+            "id": "r3_beer_supply", "group": "beer", "cog": "supply-detail", "band": 3, "topicId": "beer_vacht",
+            "paragraph": ["De winter komt er bijna aan.", "De beer voelt de kou al goed.", "Zijn dikke vacht beschermt hem daartegen.", "Daarna rust de beer in zijn warme hol."],
+            "fish": [
+              { "id": "beer_bessen", "phrase": "Een beer eet graag zoete bessen.", "key": "bessen", "picture": null },
+              { "id": "beer_vacht", "phrase": "Een beer heeft een dikke vacht.", "key": "vacht", "picture": null },
+              { "id": "beer_hol", "phrase": "Een beer slaapt in een donker hol.", "key": "hol", "picture": null },
+              { "id": "beer_warm", "phrase": "Een beer houdt zijn lijf lekker warm.", "key": "warm", "picture": null }
+            ],
+            "altDetails": [
+              { "id": "alt_beer_kou", "phrase": "Een beer beschermt zich tegen de kou.", "key": "kou", "belongs": true, "picture": null },
+              { "id": "alt_beer_water", "phrase": "Een beer drinkt koel water.", "key": "water", "belongs": false, "picture": null }
+            ]
+          },
+          {
+            "id": "r10_beer_bessen", "group": "beer", "cog": "nest-reject", "band": 2, "topicId": "beer_bessen", "slots": 2,
+            "paragraph": ["De beer loopt met zijn dikke vacht door het bos.", "Voor de winter eet hij veel bessen.", "Daarvan wordt hij dik en rond.", "Daarna slaapt hij diep in zijn hol."],
+            "fish": [
+              { "id": "beer_bessen", "phrase": "Een beer eet graag zoete bessen.", "key": "bessen", "picture": null },
+              { "id": "beer_vacht", "phrase": "Een beer heeft een dikke vacht.", "key": "vacht", "picture": null },
+              { "id": "beer_hol", "phrase": "Een beer slaapt in een donker hol.", "key": "hol", "picture": null },
+              { "id": "beer_warm", "phrase": "Een beer houdt zijn lijf lekker warm.", "key": "warm", "picture": null }
+            ],
+            "details": [
+              { "id": "beer_hol", "belongs": true },
+              { "id": "beer_vacht", "belongs": true },
+              { "id": "beer_warm", "belongs": false }
+            ]
+          },
+          {
+            "id": "r4_bij_pick", "group": "bij", "cog": "pick-topic", "band": 1, "topicId": "bij_honing",
+            "paragraph": ["Een bij vliegt naar veel bloemen.", "Daarvan maakt zij zoete honing.", "Haar snelle vleugels zoemen erbij.", "Zo ontstaat een heerlijk cadeau."],
+            "fish": [
+              { "id": "bij_bloemen", "phrase": "Een bij vliegt naar veel bloemen.", "key": "bloemen", "picture": null },
+              { "id": "bij_vleugels", "phrase": "Een bij heeft twee snelle vleugels.", "key": "vleugels", "picture": null },
+              { "id": "bij_honing", "phrase": "Een bij maakt lekkere zoete honing.", "key": "honing", "picture": null },
+              { "id": "bij_korf", "phrase": "Een bij woont in een grote korf.", "key": "korf", "picture": null }
+            ]
+          },
+          {
+            "id": "r5_bij_narrow", "group": "bij", "cog": "reject-narrow", "band": 2, "topicId": "bij_korf",
+            "paragraph": ["Veel bijen hebben kleine vleugels.", "Samen wonen ze in een grote korf.", "Daar bewaren ze de honing.", "In de winter is er zo genoeg te eten."],
+            "fish": [
+              { "id": "bij_bloemen", "phrase": "Een bij vliegt naar veel bloemen.", "key": "bloemen", "picture": null },
+              { "id": "bij_vleugels", "phrase": "Een bij heeft twee snelle vleugels.", "key": "vleugels", "picture": null },
+              { "id": "bij_honing", "phrase": "Een bij maakt lekkere zoete honing.", "key": "honing", "picture": null },
+              { "id": "bij_korf", "phrase": "Een bij woont in een grote korf.", "key": "korf", "picture": null }
+            ]
+          },
+          {
+            "id": "r6_bij_nest", "group": "bij", "cog": "nest-reject", "band": 2, "topicId": "bij_bloemen", "slots": 2,
+            "paragraph": ["Een bij vliegt de tuin in.", "Ze bezoekt veel kleurige bloemen.", "Daarbij beweegt ze haar vleugels.", "Uit het sap komt later zoete honing."],
+            "fish": [
+              { "id": "bij_bloemen", "phrase": "Een bij vliegt naar veel bloemen.", "key": "bloemen", "picture": null },
+              { "id": "bij_vleugels", "phrase": "Een bij heeft twee snelle vleugels.", "key": "vleugels", "picture": null },
+              { "id": "bij_honing", "phrase": "Een bij maakt lekkere zoete honing.", "key": "honing", "picture": null },
+              { "id": "bij_korf", "phrase": "Een bij woont in een grote korf.", "key": "korf", "picture": null }
+            ],
+            "details": [
+              { "id": "bij_honing", "belongs": true },
+              { "id": "bij_vleugels", "belongs": true },
+              { "id": "bij_korf", "belongs": false }
+            ]
+          },
+          {
+            "id": "r11_bij_vleugels", "group": "bij", "cog": "reject-narrow", "band": 2, "topicId": "bij_vleugels",
+            "paragraph": ["De bij vliegt naar de bloemen in de wei.", "Om te vliegen heeft de bij haar vleugels nodig.", "Die bewegen heel snel heen en weer.", "In de bloemen vindt de bij zoete honing."],
+            "fish": [
+              { "id": "bij_bloemen", "phrase": "Een bij vliegt naar veel bloemen.", "key": "bloemen", "picture": null },
+              { "id": "bij_vleugels", "phrase": "Een bij heeft twee snelle vleugels.", "key": "vleugels", "picture": null },
+              { "id": "bij_honing", "phrase": "Een bij maakt lekkere zoete honing.", "key": "honing", "picture": null },
+              { "id": "bij_korf", "phrase": "Een bij woont in een grote korf.", "key": "korf", "picture": null }
+            ]
+          },
+          {
+            "id": "r7_eend_pick", "group": "eend", "cog": "pick-topic", "band": 1, "topicId": "eend_vijver",
+            "paragraph": ["Een eend leeft graag bij het water.", "De hele dag zwemt zij over de vijver.", "Daarbij vangt zij kleine visjes.", "In de avond kwaakt de eend zacht."],
+            "fish": [
+              { "id": "eend_visjes", "phrase": "Een eend vangt kleine visjes.", "key": "visjes", "picture": null },
+              { "id": "eend_nest", "phrase": "Een eend bouwt een zacht nest.", "key": "nest", "picture": null },
+              { "id": "eend_kwaakt", "phrase": "Een eend kwaakt de hele dag.", "key": "kwaakt", "picture": null },
+              { "id": "eend_vijver", "phrase": "Een eend zwemt in de vijver.", "key": "vijver", "picture": null }
+            ]
+          },
+          {
+            "id": "r8_eend_narrow", "group": "eend", "cog": "reject-narrow", "band": 2, "topicId": "eend_nest",
+            "paragraph": ["Een eend zoekt een rustig plekje bij de vijver.", "Daar bouwt zij een zacht nest.", "Ze legt er vier eieren in.", "Soms kwaakt ze heel tevreden."],
+            "fish": [
+              { "id": "eend_visjes", "phrase": "Een eend vangt kleine visjes.", "key": "visjes", "picture": null },
+              { "id": "eend_nest", "phrase": "Een eend bouwt een zacht nest.", "key": "nest", "picture": null },
+              { "id": "eend_kwaakt", "phrase": "Een eend kwaakt de hele dag.", "key": "kwaakt", "picture": null },
+              { "id": "eend_vijver", "phrase": "Een eend zwemt in de vijver.", "key": "vijver", "picture": null }
+            ]
+          },
+          {
+            "id": "r9_eend_supply", "group": "eend", "cog": "supply-detail", "band": 3, "topicId": "eend_visjes",
+            "paragraph": ["Een eend heeft honger.", "In de vijver zwemmen kleine visjes.", "Ze duikt diep onder het water.", "Zo vangt ze haar eten."],
+            "fish": [
+              { "id": "eend_visjes", "phrase": "Een eend vangt kleine visjes.", "key": "visjes", "picture": null },
+              { "id": "eend_nest", "phrase": "Een eend bouwt een zacht nest.", "key": "nest", "picture": null },
+              { "id": "eend_kwaakt", "phrase": "Een eend kwaakt de hele dag.", "key": "kwaakt", "picture": null },
+              { "id": "eend_vijver", "phrase": "Een eend zwemt in de vijver.", "key": "vijver", "picture": null }
+            ],
+            "altDetails": [
+              { "id": "alt_eend_water", "phrase": "Een eend duikt onder het water.", "key": "water", "belongs": true, "picture": null },
+              { "id": "alt_eend_veren", "phrase": "Een eend poetst haar veren.", "key": "veren", "belongs": false, "picture": null }
+            ]
+          },
+          {
+            "id": "r12_eend_kwaakt", "group": "eend", "cog": "pick-topic", "band": 1, "topicId": "eend_kwaakt",
+            "paragraph": ["In de ochtend zit de eend bij haar vijver.", "Luid kwaakt de eend haar mooie lied.", "Ook vanaf het nest zingt ze nog door.", "Zo horen alle dieren de vrolijke eend."],
+            "fish": [
+              { "id": "eend_visjes", "phrase": "Een eend vangt kleine visjes.", "key": "visjes", "picture": null },
+              { "id": "eend_nest", "phrase": "Een eend bouwt een zacht nest.", "key": "nest", "picture": null },
+              { "id": "eend_kwaakt", "phrase": "Een eend kwaakt de hele dag.", "key": "kwaakt", "picture": null },
+              { "id": "eend_vijver", "phrase": "Een eend zwemt in de vijver.", "key": "vijver", "picture": null }
+            ]
+          }
         ]
       }
     },
@@ -3338,7 +3483,8 @@
       "fr": "idee-principale-texte-documentaire-gs",
       "es": "la-idea-principal-de-un-texto-preescolar",
       "pt": "a-ideia-principal-de-um-texto-educacao-infantil",
-      "it": "idea-principale-di-un-testo-scuola-dell-infanzia"
+      "it": "idea-principale-di-un-testo-scuola-dell-infanzia",
+      "nl": "nila-hoofdgedachte-voorgelezen-verhaal-kleuters"
     },
     "page_title": {
       "en": "Nila's Idea Pond — Find the Big Idea",
@@ -3346,7 +3492,8 @@
       "fr": "Lecture GS – trouver l'idée principale – en ligne",
       "es": "La idea principal: escuchar y comprender textos – preescolar",
       "pt": "A ideia principal: escutar e compreender textos – educação infantil",
-      "it": "L’idea principale: ascoltare e capire i testi – scuola dell’infanzia"
+      "it": "L’idea principale: ascoltare e capire i testi – scuola dell’infanzia",
+      "nl": "Nila: waar gaat het over? Hoofdgedachte van een verhaal (kleuters)"
     },
     "page_intro": {
       "en": "Nila the otter listens to a little story, then you find the BIG IDEA among four idea-fish — net it, watch the umbrella open, and bring the true details home. A warm Kindergarten reading game about the main topic and key details of a story read aloud, aligned to Common Core RI.K.2.",
@@ -3354,7 +3501,8 @@
       "fr": "Lecture en GS : découvrir une histoire à l'étang de Nila et trouver l'idée principale. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis de escucha: tu hijo/a oye una pequeña historia informativa y encuentra la idea principal —de qué trata— con Nila la nutria. Ideal para preescolar.",
       "pt": "Atividade interativa e gratuita de escuta: seu filho ouve uma pequena história informativa e encontra a ideia principal —do que ela fala— com a Nila, a lontra. Perfeita para a educação infantil. Alinhada à BNCC.",
-      "it": "Attività di ascolto interattiva e gratuita: con Nila la lontra il tuo bambino ascolta una piccola storia informativa e scopre l’idea principale, cioè di che cosa parla. Perfetta per la scuola dell’infanzia. Allineata alle Indicazioni nazionali."
+      "it": "Attività di ascolto interattiva e gratuita: con Nila la lontra il tuo bambino ascolta una piccola storia informativa e scopre l’idea principale, cioè di che cosa parla. Perfetta per la scuola dell’infanzia. Allineata alle Indicazioni nazionali.",
+      "nl": "In dit gratis luisterspelletje leest Nila de otter een kort verhaaltje over een dier voor, en ontdekt je kind waar het verhaal over gaat — de hoofdgedachte — en welke details er echt in zaten. Je kind luistert rustig mee (zo vaak opnieuw als het wil), zonder tijd, zonder score en zonder inloggen, want alles wordt voorgelezen. Zo oefent je kind spelenderwijs met begrijpend luisteren, afgestemd op de SLO-kerndoelen voor mondelinge taalvaardigheid (begrijpend luisteren) voor kleuters."
     },
     "kid_prompt_template": "main-idea-net"
   }

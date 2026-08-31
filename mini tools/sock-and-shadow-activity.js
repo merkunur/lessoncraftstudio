@@ -185,6 +185,33 @@
     return parts.join(' ');
   }
 
+  /* ---- nl noun-phrase (structurally like de: article + SIZE + COLOR + noun + [position], both
+     adjectives BEFORE the noun). ⚠ Dutch inflection is IRREGULAR (rood→rode, wit→witte, groot→grote)
+     → INFL_NL lookup, NOT CHIP_NL[k]+'e'. After the definite article both de-/het-words take -e. #101. ---- */
+  var ART_NL   = { cup: 'De', ball: 'De', hat: 'De', teddy: 'De', car: 'De', block: 'Het', blocks: 'De', stool: 'De' };
+  var NOUN_NL  = { cup: 'beker', ball: 'bal', hat: 'hoed', teddy: 'teddybeer', car: 'auto', block: 'blok', blocks: 'blokken', stool: 'kruk' };
+  var CHIP_NL  = { red: 'rood', blue: 'blauw', green: 'groen', brown: 'bruin', white: 'wit', big: 'groot', small: 'klein' };        // BASE (chip tiles)
+  var INFL_NL  = { red: 'rode', blue: 'blauwe', green: 'groene', brown: 'bruine', white: 'witte', big: 'grote', small: 'kleine' };  // after the definite article (article-independent)
+  var POS_NL   = { top: 'bovenaan', bottom: 'onderaan' };
+  var FEEL_NL  = { sad: 'verdrietig', mad: 'boos' };   // predicative "Ik ben ___" — gender-invariant in Dutch
+  var REASON_NL       = { 'tower-fell': 'mijn toren is omgevallen', 'lost-teddy': 'ik mijn teddy kwijt ben', 'cant-reach': 'ik er niet bij kan' };   // verb-final omdat-clause
+  var SHORT_REASON_NL = { 'tower-fell': 'toren omgevallen', 'lost-teddy': 'teddy kwijt', 'cant-reach': 'kan er niet bij' };   // short tap-labels; full clause in nlUtter
+  function nlInfl(k) { return INFL_NL[k] || k; }   // ⚠ NOT CHIP_NL[k]+'e' — Dutch inflection is irregular
+  function nlUtter(round, turn) {
+    var t = turn, a = t.attrs || {};
+    if (round.listenerAction === 'mood') return 'Ik ben ' + (FEEL_NL[t.feeling] || '…') + (t.reason ? ', omdat ' + (REASON_NL[t.reason] || '') : '') + '.';
+    var parts = [ART_NL[t.object] || 'De'];
+    if (a.size) parts.push(nlInfl(a.size));
+    if (a.color) parts.push(nlInfl(a.color));
+    parts.push(NOUN_NL[t.object] || '…');
+    if (a.position) parts.push(POS_NL[a.position]);
+    return parts.join(' ') + '.';
+  }
+  function nlObjAria(o) {                            // objSVG aria — grammatical + plural-safe
+    if (o.object === 'blocks') return 'De blokken';
+    return [ART_NL[o.object], (o.size ? nlInfl(o.size) : ''), (o.color ? nlInfl(o.color) : ''), NOUN_NL[o.object]].filter(Boolean).join(' ');
+  }
+
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
     CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', CURTAIN: '#185E54'
@@ -216,7 +243,7 @@
       case 'stool': body = '<rect x="26" y="40" width="48" height="12" rx="4" fill="' + tint + '"/><rect x="30" y="52" width="7" height="30" fill="' + tint + '"/><rect x="63" y="52" width="7" height="30" fill="' + tint + '"/>'; break;
       default: body = '<circle cx="50" cy="55" r="28" fill="' + tint + '"/>';
     }
-    var aria = LANG === 'de' ? deObjAria(o) : LANG === 'fr' ? frObjAria(o) : LANG === 'es' ? esObjAria(o) : LANG === 'pt' ? ptObjAria(o) : LANG === 'it' ? itObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
+    var aria = LANG === 'de' ? deObjAria(o) : LANG === 'fr' ? frObjAria(o) : LANG === 'es' ? esObjAria(o) : LANG === 'pt' ? ptObjAria(o) : LANG === 'it' ? itObjAria(o) : LANG === 'nl' ? nlObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
     return '<svg class="ss-obj-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc(aria) + '" style="transform:scale(' + sc + ')"><g stroke="' + stroke + '" stroke-width="1.5">' + body + '</g></svg>';
   }
 
@@ -231,19 +258,19 @@
     id: 'sock-and-shadow-activity',
 
     strings: {
-      title: { en: 'Sock & Shadow', de: 'Socke & Schatten', fr: 'Chaussette et Ombre', es: 'Calcetín y Sombra', pt: 'Meia e Sombra', it: 'Calzino e Ombra' },
-      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.', fr: 'Dis à Ombre lequel c’est.', es: 'Dile a Sombra cuál es.', pt: 'Diga para a Sombra qual é.', it: 'Spiega a Ombra qual è.' },
-      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.', fr: 'L’enfant a perdu celui-ci. Dis à Ombre lequel aller chercher.', es: 'Se le perdió esto. Dile a Sombra cuál traer.', pt: 'A criança perdeu este aqui. Diga para a Sombra qual buscar.', it: 'Il bambino ha perso questo. Spiega a Ombra quale prendere.' },
-      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.', fr: 'Dis à Ombre ce qu’il ressent, et pourquoi.', es: 'Dile a Sombra cómo se siente — y por qué.', pt: 'Diga para a Sombra como a criança se sente — e por quê.', it: 'Spiega a Ombra come si sente il bambino, e perché.' },
-      tell: { en: 'Tell Shadow', de: 'Sag es Schatten', fr: 'Dis-le à Ombre', es: 'Dile a Sombra', pt: 'Falar com a Sombra', it: 'Parla con Ombra' },
-      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.', fr: 'Dis d’abord ce que c’est.', es: 'Primero escoge qué es.', pt: 'Escolha primeiro o que é.', it: 'Prima scegli che cosa è.' },
-      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal', fr: 'Redis-le à Ombre', es: 'Dile otra vez a Sombra.', pt: 'Fale de novo com a Sombra', it: 'Parla di nuovo con Ombra' },
-      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?", fr: 'Je ne vois pas d’ici — quelle {cat} ?', es: 'Mmm, no me queda claro. Dime {cat}.', pt: 'Não sei bem daqui — qual {cat}?', it: 'Non lo vedo bene da qui: quale {cat}?' },
-      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?', fr: 'Trop de mots — j’en ai oublié la moitié ! Juste l’essentiel ?', es: '¡Uy, muchas palabras! Se me olvidó la mitad. ¿Nada más lo que necesito?', pt: 'Palavras demais — esqueci metade! Só o que eu preciso?', it: 'Troppe parole, ne ho dimenticata metà! Solo quello che serve?' },
-      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?", fr: 'Hmm, je ne le vois pas ici. Tu peux répéter ?', es: 'Mmm, no lo encuentro. ¿Me lo dices otra vez?', pt: 'Hmm, não estou vendo esse aqui. Fala de novo?', it: 'Mmm, non lo vedo. Me lo ridici?' },
-      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.', fr: 'Ça y est ! Tiens, voilà.', es: '¡Listo! Aquí está.', pt: 'Achei! Aqui está.', it: 'Trovato! Ecco qua.' },
-      catColor: { en: 'colour', de: 'Farbe', fr: 'couleur', es: 'el color', pt: 'cor', it: 'il colore' }, catSize: { en: 'size', de: 'Größe', fr: 'taille', es: 'el tamaño', pt: 'tamanho', it: 'la grandezza' }, catPosition: { en: 'spot', de: 'Stelle', fr: 'place', es: 'dónde está', pt: 'lugar', it: 'il posto' }, catReason: { en: 'reason', de: 'Grund', fr: 'raison', es: 'por qué', pt: 'motivo', it: 'il perché' },
-      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.', fr: 'Dis-le à Ombre, puis touche Vérifier.', es: 'Dile a Sombra y toca Comprobar.', pt: 'Fale com a Sombra e toque em Verificar.', it: 'Parla con Ombra, poi tocca Verifica.' }
+      title: { en: 'Sock & Shadow', de: 'Socke & Schatten', fr: 'Chaussette et Ombre', es: 'Calcetín y Sombra', pt: 'Meia e Sombra', it: 'Calzino e Ombra', nl: 'Sok en Schaduw' },
+      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.', fr: 'Dis à Ombre lequel c’est.', es: 'Dile a Sombra cuál es.', pt: 'Diga para a Sombra qual é.', it: 'Spiega a Ombra qual è.', nl: 'Vertel Schaduw wat het is.' },
+      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.', fr: 'L’enfant a perdu celui-ci. Dis à Ombre lequel aller chercher.', es: 'Se le perdió esto. Dile a Sombra cuál traer.', pt: 'A criança perdeu este aqui. Diga para a Sombra qual buscar.', it: 'Il bambino ha perso questo. Spiega a Ombra quale prendere.', nl: 'Het kind is dit kwijt. Zeg welk voorwerp Schaduw moet pakken.' },
+      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.', fr: 'Dis à Ombre ce qu’il ressent, et pourquoi.', es: 'Dile a Sombra cómo se siente — y por qué.', pt: 'Diga para a Sombra como a criança se sente — e por quê.', it: 'Spiega a Ombra come si sente il bambino, e perché.', nl: 'Zeg hoe het kind zich voelt — en waarom.' },
+      tell: { en: 'Tell Shadow', de: 'Sag es Schatten', fr: 'Dis-le à Ombre', es: 'Dile a Sombra', pt: 'Falar com a Sombra', it: 'Parla con Ombra', nl: 'Zeg het tegen Schaduw' },
+      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.', fr: 'Dis d’abord ce que c’est.', es: 'Primero escoge qué es.', pt: 'Escolha primeiro o que é.', it: 'Prima scegli che cosa è.', nl: 'Kies eerst een voorwerp.' },
+      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal', fr: 'Redis-le à Ombre', es: 'Dile otra vez a Sombra.', pt: 'Fale de novo com a Sombra', it: 'Parla di nuovo con Ombra', nl: 'Nog een keer' },
+      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?", fr: 'Je ne vois pas d’ici — quelle {cat} ?', es: 'Mmm, no me queda claro. Dime {cat}.', pt: 'Não sei bem daqui — qual {cat}?', it: 'Non lo vedo bene da qui: quale {cat}?', nl: 'Er zijn er meer zo. Kies ook een {cat}.' },
+      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?', fr: 'Trop de mots — j’en ai oublié la moitié ! Juste l’essentiel ?', es: '¡Uy, muchas palabras! Se me olvidó la mitad. ¿Nada más lo que necesito?', pt: 'Palavras demais — esqueci metade! Só o que eu preciso?', it: 'Troppe parole, ne ho dimenticata metà! Solo quello che serve?', nl: 'Dat zijn er te veel. Haal er een weg.' },
+      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?", fr: 'Hmm, je ne le vois pas ici. Tu peux répéter ?', es: 'Mmm, no lo encuentro. ¿Me lo dices otra vez?', pt: 'Hmm, não estou vendo esse aqui. Fala de novo?', it: 'Mmm, non lo vedo. Me lo ridici?', nl: 'Oeps, dat was niet de goede.' },
+      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.', fr: 'Ça y est ! Tiens, voilà.', es: '¡Listo! Aquí está.', pt: 'Achei! Aqui está.', it: 'Trovato! Ecco qua.', nl: 'Gelukt! Hier, alsjeblieft.' },
+      catColor: { en: 'colour', de: 'Farbe', fr: 'couleur', es: 'el color', pt: 'cor', it: 'il colore', nl: 'kleur' }, catSize: { en: 'size', de: 'Größe', fr: 'taille', es: 'el tamaño', pt: 'tamanho', it: 'la grandezza', nl: 'grootte' }, catPosition: { en: 'spot', de: 'Stelle', fr: 'place', es: 'dónde está', pt: 'lugar', it: 'il posto', nl: 'plek' }, catReason: { en: 'reason', de: 'Grund', fr: 'raison', es: 'por qué', pt: 'motivo', it: 'il perché', nl: 'reden' },
+      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.', fr: 'Dis-le à Ombre, puis touche Vérifier.', es: 'Dile a Sombra y toca Comprobar.', pt: 'Fale com a Sombra e toque em Verificar.', it: 'Parla con Ombra, poi tocca Verifica.', nl: 'Zeg het tegen Schaduw, dan tik je op Controleer.' }
     },
 
     defaults: {},
@@ -283,7 +310,7 @@
     render: function () {
       this.injectCSS();
       var api = this.api, stage = api.stage; stage.innerHTML = '';
-      var wrap = api.el('div', 'ss-wrap' + (LANG === 'fr' ? ' ss-fr' : (LANG === 'es' || LANG === 'pt' || LANG === 'it') ? ' ss-es' : ''));
+      var wrap = api.el('div', 'ss-wrap' + (LANG === 'fr' ? ' ss-fr' : (LANG === 'es' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') ? ' ss-es' : ''));
       var theater = api.el('div', 'ss-theater'); this._theaterEl = theater;
       if (!this.round) { wrap.appendChild(theater); stage.appendChild(wrap); return; }
       if (this.phase === 'resolve' || this.phase === 'done') this._renderResolve(theater);
@@ -301,7 +328,7 @@
       // stage row: Sock (sees the bin) + the greyed curtain with Shadow ducked
       var top = api.el('div', 'ss-stagerow');
       var sock = api.el('div', 'ss-sock'); sock.innerHTML = puppet('sock'); top.appendChild(sock);
-      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : LANG === 'fr' ? 'on ne regarde pas !' : LANG === 'es' ? '¡Sin espiar!' : LANG === 'pt' ? 'Sem espiar!' : LANG === 'it' ? 'Non sbirciare!' : 'no peeking!') + '</span>'; top.appendChild(curtain);
+      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : LANG === 'fr' ? 'on ne regarde pas !' : LANG === 'es' ? '¡Sin espiar!' : LANG === 'pt' ? 'Sem espiar!' : LANG === 'it' ? 'Non sbirciare!' : LANG === 'nl' ? 'Niet gluren!' : 'no peeking!') + '</span>'; top.appendChild(curtain);
       theater.appendChild(top);
 
       // the bin (Sock can see; the target glows) — fetch only. When a round varies by
@@ -374,7 +401,7 @@
 
       // the spoken bubble
       var bubble = api.el('div', 'ss-bubble');
-      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : LANG === 'fr' ? ('« ' + frUtter(r, this.turn) + ' »') : LANG === 'es' ? ('«' + esUtter(r, this.turn) + '»') : LANG === 'pt' ? ('“' + ptUtter(r, this.turn) + '”') : LANG === 'it' ? ('«' + itUtter(r, this.turn) + '»') : ('“' + Core.utter(r, this.turn, 'en') + '”');
+      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : LANG === 'fr' ? ('« ' + frUtter(r, this.turn) + ' »') : LANG === 'es' ? ('«' + esUtter(r, this.turn) + '»') : LANG === 'pt' ? ('“' + ptUtter(r, this.turn) + '”') : LANG === 'it' ? ('«' + itUtter(r, this.turn) + '»') : LANG === 'nl' ? ('„' + nlUtter(r, this.turn) + '“') : ('“' + Core.utter(r, this.turn, 'en') + '”');
       theater.appendChild(bubble);
 
       // Shadow's line
@@ -433,6 +460,14 @@
         if (c.slot === 'feeling') return FEELCHIP_IT[c.value] || c.value;      // "triste"/"arrabbiato" chip; "Sono triste"/"Che rabbia!" spoken
         return CHIP_IT[c.value] || c.value;   // color / size (base masc-sing form)
       }
+      if (LANG === 'nl') {
+        if (c.slot === 'object') return NOUN_NL[c.value] || c.value;
+        if (c.slot === 'politeness') return 'alsjeblieft';
+        if (c.slot === 'reason') return SHORT_REASON_NL[c.value] || c.value;   // short on the chip; full clause in nlUtter()
+        if (c.slot === 'position') return POS_NL[c.value] || c.value;
+        if (c.slot === 'feeling') return FEEL_NL[c.value] || c.value;
+        return CHIP_NL[c.value] || c.value;   // color / size (base form)
+      }
       if (c.slot === 'object') return c.value;
       if (c.slot === 'politeness') return 'please';
       if (c.slot === 'reason') return SHORT_REASON[c.value] || c.value;   // short on the chip; full text in utter()
@@ -465,7 +500,7 @@
     _tellShadow: function () {
       if (this.readOnly) return;
       if (!Core.coherent(this.round, this.turn)) { this.api.announce && this.api.announce(this.api.t('needObject')); return; }
-      speak(LANG === 'de' ? deUtter(this.round, this.turn) : LANG === 'fr' ? frUtter(this.round, this.turn) : LANG === 'es' ? esUtter(this.round, this.turn) : LANG === 'pt' ? ptUtter(this.round, this.turn) : LANG === 'it' ? itUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
+      speak(LANG === 'de' ? deUtter(this.round, this.turn) : LANG === 'fr' ? frUtter(this.round, this.turn) : LANG === 'es' ? esUtter(this.round, this.turn) : LANG === 'pt' ? ptUtter(this.round, this.turn) : LANG === 'it' ? itUtter(this.round, this.turn) : LANG === 'nl' ? nlUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
       this._res = Core.resolve(this.round, this.turn);
       this.phase = 'resolve';
       if (this._res.outcome === 'clear') { this._win(); return; }
@@ -519,7 +554,7 @@
         + '.ss-curtain::before{content:"";position:absolute;top:0;left:-2%;right:-2%;height:9px;background:' + C.CORAL + ';border-radius:0 0 6px 6px;box-shadow:0 1px 0 rgba(0,0,0,.12);}'
         + '.ss-curtain::after{content:"";position:absolute;top:9px;left:0;right:0;height:7px;background:radial-gradient(circle at 8px -2px,transparent 7px,#13524a 7px) repeat-x;background-size:16px 7px;}'
         + '.ss-duck{width:clamp(30px,8vw,42px);opacity:.55;filter:grayscale(1) brightness(.65);margin-bottom:-5px;}.ss-duck .ss-pup-svg{width:100%;}'
-        + '.ss-nopeek{position:absolute;top:11px;font:800 9px/1 "Baloo 2",sans-serif;color:#cfeee6;opacity:.9;}'
+        + '.ss-nopeek{position:absolute;top:8px;z-index:2;font:800 9px/1 "Baloo 2",sans-serif;color:#fff;background:rgba(19,82,74,.85);padding:2px 6px;border-radius:7px;}'   /* z-index+pill so the caption clears the ::after valance + reads over the curtain (all locales; #101) */
         /* the bin */
         + '.ss-bin{display:flex;flex-wrap:wrap;gap:clamp(4px,1.4vw,8px);justify-content:center;padding:clamp(4px,1.4vw,8px);background:#E7D9BD;border-radius:12px;box-shadow:inset 0 2px 6px rgba(120,90,40,.18);}'
         + '.ss-bin-vert{flex-direction:column;flex-wrap:nowrap;align-items:center;}'   /* position rounds: stack top→bottom so oben/unten is real */

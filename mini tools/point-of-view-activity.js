@@ -63,6 +63,14 @@
       win: 'Sì! {note}', winNote: 'Quella finestra ha la vista giusta!',
       nHigh: 'Chi è lassù? Da lassù tutto sembra piccolo e lontano.',
       nLow: 'Chi è laggiù, vicino al mare? Da laggiù tutto sembra grande e vicino.'
+    },
+    /* nl. The nudges TEACH the rule → they state the size+distance contrast in the SAME
+       words as POSLABEL.nl (bovenin/onderin) + the instruction. The lines use "beneden"
+       (never the POSLABEL word "onderin"), so no line/label collision. */
+    nl: {
+      win: 'Ja! {note}', winNote: 'Dat raam heeft precies het goede uitzicht!',
+      nHigh: 'Wie zit helemaal bovenin? Van bovenaf lijkt alles piepklein en heel ver weg.',
+      nLow: 'Wie is helemaal onderin, bij het water? Van onderaf lijkt alles enorm en heel dichtbij.'
     }
   };
   var POSLABEL = {
@@ -81,7 +89,16 @@
     /* it: «Lassù / In mezzo / Laggiù» — the intensified deictics (pedagogue-decisive; ≠ bare
        «In alto/In basso»), locked verbatim to the instruction + nudges so the child maps
        rule→label with zero inference. ⚠ NO line uses «lassù/laggiù» (collision guard). */
-    it: { high: 'Lassù', mid: 'In mezzo', low: 'Laggiù' }
+    it: { high: 'Lassù', mid: 'In mezzo', low: 'Laggiù' },
+    /* nl: «Bovenin / Midden / Onderin» — the KEY cue words bovenin/midden/onderin, shared
+       verbatim with the instruction («Van bovenin lijkt alles piepklein…») + the nudges
+       («helemaal bovenin») so the child maps rule→label with zero inference. ALL THREE are
+       ONE WORD: the window-cards use align-items:stretch, so the tallest label sets the row
+       height — a wrapping label (the 3-word «In het midden», the 2-word «Helemaal bovenin»)
+       stretched every card taller and tripped the §A.13.62 not-sparse gate at 320px. The
+       intensifier «Helemaal»/«In het» lives in the nudge/instruction, not the compact label.
+       ⚠ NO line uses «bovenin/midden/onderin» (collision guard). */
+    nl: { high: 'Bovenin', mid: 'Midden', low: 'Onderin' }
   };
   function poslabel(pos) { return (POSLABEL[LANG] && POSLABEL[LANG][pos]) || POSLABEL.en[pos]; }
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -136,9 +153,9 @@
          ⚠ The 3-sentence instruction is deliberate: the EN one-liner does NOT teach the
          rule, and the rule is the whole activity. Fused with «;» (the fr move) → 157 ch,
          SHORTER than de's shipped 168. */
-      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen', pt: 'O Farol da Luzia', it: 'Il faro di Lumen' },
-      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.', it: 'Leggi la frase. Lassù tutto sembra piccolo e lontano; laggiù tutto sembra grande e vicino. Tocca la finestra da cui la frase è raccontata.' },
-      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?', pt: '“{line}” Quem contou isso?', it: '«{line}» Chi lo racconta?' }
+      title: { en: "Lumen's Lighthouse Windows", de: 'Lumens Leuchtturm', fr: 'Le phare de Lumen', es: 'El faro de Lumen', pt: 'O Farol da Luzia', it: 'Il faro di Lumen', nl: 'De vuurtoren van Lumen' },
+      instruction: { en: 'Lumen the owl needs help — whose window is the story told from?', de: 'Lies den Satz. Von ganz oben sieht alles winzig und weit weg aus. Von ganz unten sieht alles riesig und ganz nah aus. Tippe auf das Fenster, aus dem der Satz erzählt wird.', fr: 'Lis la phrase. Tout en haut, tout paraît minuscule et lointain ; tout en bas, énorme et tout proche. Touche la fenêtre d’où la phrase est racontée.', es: 'Lee la oración. Hasta arriba todo se ve muy pequeño y lejos; hasta abajo, todo se ve enorme y bien cerca. Toca la ventana desde donde se cuenta la oración.', pt: 'A corujinha Luzia mora num farol com janelas em três alturas. Lá do alto, tudo parece pequenininho e bem longe. Lá embaixo, pertinho da água, tudo parece enorme e bem perto. Leia a frase e toque na janela de onde ela foi contada.', it: 'Leggi la frase. Lassù tutto sembra piccolo e lontano; laggiù tutto sembra grande e vicino. Tocca la finestra da cui la frase è raccontata.', nl: 'Lees de zin. Van bovenin lijkt alles piepklein en heel ver weg; van onderin lijkt alles enorm en heel dichtbij. Tik op het raam waaruit de zin verteld wordt.' },
+      q: { en: '“{line}” Who said it?', de: '„{line}“ Wer erzählt das?', fr: '« {line} » Qui l’a dit ?', es: '“{line}” ¿Quién lo cuenta?', pt: '“{line}” Quem contou isso?', it: '«{line}» Chi lo racconta?', nl: '"{line}" Wie vertelt dit?' }
     },
 
     init: function (api) {
@@ -311,6 +328,13 @@
            poslabel lowercased → «lassù / in mezzo / laggiù». */
         var whoIt = (r.chars || []).map(function (c) { return c.name + ' è ' + poslabel(c.pos).toLowerCase(); }).join(', ');
         wrap.innerHTML = '<p>' + (r.event || '') + ' La frase «' + r.line + '» è raccontata da una finestra. ' + whoIt + '. Chi la racconta?</p>';
+        return wrap;
+      }
+      if (LANG === 'nl') {
+        /* «hem» — de zin is common gender → the resumptive pronoun is hem, not het.
+           poslabel lowercased → «helemaal bovenin / in het midden / helemaal onderin». */
+        var whoNl = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join(', ');
+        wrap.innerHTML = '<p>' + (r.event || '') + ' De zin "' + r.line + '" wordt vanuit een raam verteld. ' + whoNl + '. Wie vertelt hem?</p>';
         return wrap;
       }
       var who = (r.chars || []).map(function (c) { return c.name + ' is ' + poslabel(c.pos).toLowerCase(); }).join('; ');

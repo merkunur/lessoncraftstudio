@@ -19,14 +19,14 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   function speak(word, lang) {
-    var lg = lang || (LANG === 'pt' ? 'pt-BR' : LANG);
+    var lg = lang || (LANG === 'pt' ? 'pt-BR' : LANG === 'nl' ? 'nl-NL' : LANG);
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: lg, rate: 0.95 }); return; }
       if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.lang = lg; u.rate = 0.95; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function penguinSVG() {
-    return '<svg class="dtp-pen-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'pt' ? 'Pingo, o pinguim' : LANG === 'it' ? 'Domino il pinguino' : 'Domino the penguin') + '">' +
+    return '<svg class="dtp-pen-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'pt' ? 'Pingo, o pinguim' : LANG === 'it' ? 'Domino il pinguino' : LANG === 'nl' ? 'Pim de pinguïn' : 'Domino the penguin') + '">' +
       '<ellipse cx="50" cy="56" rx="24" ry="28" fill="#2A2A35"/>' +                 /* black body */
       '<ellipse cx="50" cy="60" rx="15" ry="22" fill="#FFFDF6"/>' +                /* white belly */
       '<circle cx="50" cy="32" r="15" fill="#2A2A35"/>' +                           /* head */
@@ -41,13 +41,13 @@
     id: 'domino-two-part-activity',
 
     strings: {
-      title: { en: "Domino's Two-Part Words", de: 'Silben lesen', es: 'Leer por sílabas', pt: 'Leia por sílabas', it: 'Leggi per sillabe' },
-      prompt: { en: 'Read both parts — which picture?', de: 'Lies beide Silben – welches Bild?', es: 'Lee las dos sílabas. ¿Qué dibujo es?', pt: 'Leia as duas sílabas. Que desenho é?', it: 'Leggi le due sillabe. Quale disegno è?' },
-      dominoIntro: { en: 'Read each part, then blend them — which picture is it?', de: 'Hallo, ich bin Pauli! Lies jede Silbe – dann tippe das passende Bild an.', es: '¡Hola, soy Pancho! Lee cada sílaba y toca el dibujo que le toca.', pt: 'Oi, eu sou o Pingo! Leia cada sílaba e toque no desenho.', it: 'Ciao, sono Domino! Leggi ogni sillaba e tocca il disegno giusto.' },
-      theAsk: { en: 'Tap the picture this word names.', de: 'Tippe das Bild an, das dieses Wort zeigt.', es: 'Toca el dibujo de esta palabra.', pt: 'Toque no desenho desta palavra.', it: 'Tocca il disegno di questa parola.' },
-      hintPick: { en: 'Say the first part, then the second — tap a picture!', de: 'Lies das Wort ruhig: erst die erste Silbe, dann die zweite – tippe ein Bild an.', es: 'Di la primera sílaba, luego la segunda. ¡Toca un dibujo!', pt: 'Diga a primeira sílaba, depois a segunda. Toque num desenho!', it: 'Leggi la prima sillaba, poi la seconda. Tocca un disegno!' },
-      hintWrong: { en: "Blend the two parts slowly and try once more.", de: 'Fast! Lies noch einmal beide Silben und hör genau hin.', es: 'Casi. Junta las dos sílabas otra vez, sin prisa.', pt: 'Quase! Junte as duas sílabas de novo, sem pressa.', it: 'Quasi! Unisci le due sillabe con calma e riprova.' },
-      win: { en: 'Yes! You read both parts. 🐧', de: 'Super gelesen! Du hast jede Silbe erkannt. 🐧', es: '¡Muy bien! Leíste las dos sílabas. 🐧', pt: 'Muito bem! Você leu as duas sílabas. 🐧', it: 'Sì! Hai letto tutte e due le sillabe. 🐧' }
+      title: { en: "Domino's Two-Part Words", de: 'Silben lesen', es: 'Leer por sílabas', pt: 'Leia por sílabas', it: 'Leggi per sillabe', nl: 'Lees per lettergreep' },
+      prompt: { en: 'Read both parts — which picture?', de: 'Lies beide Silben – welches Bild?', es: 'Lee las dos sílabas. ¿Qué dibujo es?', pt: 'Leia as duas sílabas. Que desenho é?', it: 'Leggi le due sillabe. Quale disegno è?', nl: 'Lees allebei de delen — welk plaatje is het?' },
+      dominoIntro: { en: 'Read each part, then blend them — which picture is it?', de: 'Hallo, ich bin Pauli! Lies jede Silbe – dann tippe das passende Bild an.', es: '¡Hola, soy Pancho! Lee cada sílaba y toca el dibujo que le toca.', pt: 'Oi, eu sou o Pingo! Leia cada sílaba e toque no desenho.', it: 'Ciao, sono Domino! Leggi ogni sillaba e tocca il disegno giusto.', nl: 'Hallo, ik ben Pim! Lees de lettergrepen en tik het plaatje.' },
+      theAsk: { en: 'Tap the picture this word names.', de: 'Tippe das Bild an, das dieses Wort zeigt.', es: 'Toca el dibujo de esta palabra.', pt: 'Toque no desenho desta palavra.', it: 'Tocca il disegno di questa parola.', nl: 'Tik het plaatje aan dat bij dit woord hoort.' },
+      hintPick: { en: 'Say the first part, then the second — tap a picture!', de: 'Lies das Wort ruhig: erst die erste Silbe, dann die zweite – tippe ein Bild an.', es: 'Di la primera sílaba, luego la segunda. ¡Toca un dibujo!', pt: 'Diga a primeira sílaba, depois a segunda. Toque num desenho!', it: 'Leggi la prima sillaba, poi la seconda. Tocca un disegno!', nl: 'Zeg eerst het eerste deel, dan het tweede — tik daarna een plaatje aan!' },
+      hintWrong: { en: "Blend the two parts slowly and try once more.", de: 'Fast! Lies noch einmal beide Silben und hör genau hin.', es: 'Casi. Junta las dos sílabas otra vez, sin prisa.', pt: 'Quase! Junte as duas sílabas de novo, sem pressa.', it: 'Quasi! Unisci le due sillabe con calma e riprova.', nl: 'Plak de twee delen rustig aan elkaar en probeer het nog een keer.' },
+      win: { en: 'Yes! You read both parts. 🐧', de: 'Super gelesen! Du hast jede Silbe erkannt. 🐧', es: '¡Muy bien! Leíste las dos sílabas. 🐧', pt: 'Muito bem! Você leu as duas sílabas. 🐧', it: 'Sì! Hai letto tutte e due le sillabe. 🐧', nl: 'Ja! Je hebt allebei de delen gelezen. 🐧' }
     },
     defaults: {},
 
@@ -82,7 +82,7 @@
       root.appendChild(row);
 
       // the split word
-      var wordBox = api.el('button', 'dtp-word'); wordBox.type = 'button'; wordBox.setAttribute('aria-label', (LANG === 'de' ? 'anhören: ' : LANG === 'es' ? 'escuchar: ' : LANG === 'pt' ? 'ouvir: ' : LANG === 'it' ? 'ascolta: ' : 'hear ') + v.word);
+      var wordBox = api.el('button', 'dtp-word'); wordBox.type = 'button'; wordBox.setAttribute('aria-label', (LANG === 'de' ? 'anhören: ' : LANG === 'es' ? 'escuchar: ' : LANG === 'pt' ? 'ouvir: ' : LANG === 'it' ? 'ascolta: ' : LANG === 'nl' ? 'beluister: ' : 'hear ') + v.word);
       var inner = '';
       v.syl.forEach(function (s, i) {
         if (i > 0) inner += '<span class="dtp-dot">·</span>';

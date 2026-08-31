@@ -115,6 +115,14 @@
           "SHARED": "Ha condiviso",
           "SCARED_SAFE": "Ha avuto paura e poi ha trovato un posto sicuro",
           "FIXED_IT": "Ha aggiustato ciò che si era rotto"
+        },
+        "nl": {
+          "LOST_FOUND": "Kwijt en teruggevonden",
+          "GOT_HELP": "Een vriendje hielp",
+          "TRIED_AGAIN": "Niet opgegeven",
+          "SHARED": "Iets gedeeld",
+          "SCARED_SAFE": "Bang, toen veilig",
+          "FIXED_IT": "Iets gerepareerd"
         }
       },
       "storiesL10n": {
@@ -397,6 +405,14 @@
               "GOT_HELP"
             ]
           }
+        },
+        "nl": {
+          "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "Een vos was zijn muts kwijt, maar hij bleef zoeken en vond hem weer terug.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
+          "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "Een konijn was haar bal kwijt, en een vriendje hielp haar de bal terug te vinden.", "tags": ["LOST_FOUND", "GOT_HELP"] },
+          "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "Een bang muisje voelde zich weer veilig toen een vriendje kwam helpen.", "tags": ["SCARED_SAFE", "GOT_HELP"] },
+          "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "Een vogeltje bleef proberen en maakte zijn nestje weer helemaal heel.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
+          "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "Een bange kikker maakte het lek dicht en voelde zich daarna weer veilig.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
+          "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Een eendje deelde haar boterham, en een vriendje hielp haar ook.", "tags": ["SHARED", "GOT_HELP"] }
         }
       },
       "rounds": [
@@ -507,7 +523,8 @@
       "fr": "comparer-deux-histoires-pareil-ou-different",
       "es": "comparar-dos-cuentos-semejanzas-y-diferencias-segundo-grado",
       "pt": "comparar-duas-historias-semelhancas-e-diferencas",
-      "it": "confrontare-due-storie-somiglianze-e-differenze-classe-seconda"
+      "it": "confrontare-due-storie-somiglianze-e-differenze-classe-seconda",
+      "nl": "twee-verhalen-vergelijken-overeenkomsten-en-verschillen-groep-4"
     },
     "page_title": {
       "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)",
@@ -515,7 +532,8 @@
       "fr": "Deux lunes — Comparer deux histoires (pareil ou différent)",
       "es": "Comparar dos cuentos: semejanzas y diferencias · 2.º grado",
       "pt": "Comparar duas histórias: semelhanças e diferenças",
-      "it": "Confronta due storie: uguale o diverso · Classe seconda"
+      "it": "Confronta due storie: uguale o diverso · Classe seconda",
+      "nl": "Twee verhalen vergelijken: gelijk en anders vinden (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9.",
@@ -523,7 +541,8 @@
       "fr": "Sous une lune d'or et une lune d'argent, Barbe-de-Mousse la tortue présente à votre enfant deux courtes histoires côte à côte. L'enfant lit les deux, puis tape la carte qui dit ce qui est pareil dans les deux histoires, ou ce qui arrive dans une seule. Petit à petit, il apprend à comparer deux histoires : à repérer les ressemblances et les différences entre les aventures des personnages, en s'appuyant sur ce que raconte chaque histoire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école.",
       "es": "Actividad interactiva y gratis para 2.º grado: lee dos cuentos cortos y compara semejanzas y diferencias, qué es igual y qué es diferente. Sin registro.",
       "pt": "Leia duas historinhas com a Barba de Musgo, a tartaruga guardiã de histórias, e descubra o que é IGUAL nas duas luas e o que acontece em só UMA. Toque no 🔊 para ouvir as duas histórias em voz alta. Grátis, sem cadastro, sem cronômetro e sem pontos — no ritmo de cada criança. Alinhado à Base Nacional Comum Curricular (BNCC), no campo da compreensão de textos literários.",
-      "it": "Con Barbamuschio la tartaruga, sotto la luna d’oro e la luna d’argento, i bambini leggono due brevi storie e toccano l’esperienza uguale in entrambe o accaduta in una sola: un semplice confronto tra due racconti. Un aiuto 🔊 legge ad alta voce. Attività gratuita, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali (classe seconda)."
+      "it": "Con Barbamuschio la tartaruga, sotto la luna d’oro e la luna d’argento, i bambini leggono due brevi storie e toccano l’esperienza uguale in entrambe o accaduta in una sola: un semplice confronto tra due racconti. Un aiuto 🔊 legge ad alta voce. Attività gratuita, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali (classe seconda).",
+      "nl": "Vergelijk twee korte verhalen en ontdek wat gelijk is en wat maar in één verhaal gebeurt: gratis, interactief en zonder tijdsdruk. Begrijpend lezen oefenen in groep 4, afgestemd op de SLO-kerndoelen."
     },
     "kid_prompt_template": "two-tales"
   }

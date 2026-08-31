@@ -7,6 +7,9 @@
  *  - 'elapsed':      start + end clocks → write elapsed hours (G3-344)
  *  - 'convert-24h':  12h/24h conversion → circle the matching form (G3-355)
  *  - 'time-arith':   start clock + add/subtract a duration → write end time (G3-356)
+ *  - 'draw':         digital time chip + EMPTY clock face → the child DRAWS
+ *                    the hands (G1-212 — the production direction the read
+ *                    modes lack; language-free digital prompt by design)
  */
 'use strict';
 const { cardGrid } = require('../../templates/layouts/card-grid.js');
@@ -71,7 +74,17 @@ function makeClockType(cfg) {
 
       const cards = [];
       for (let i = 0; i < d.cards; i++) {
-        if (mode === 'read-circle') {
+        if (mode === 'draw') {
+          const { h, m } = pickTime();
+          // empty face (hands:'none' keeps the target in data-lcs-h/m + the
+          // coral center anchor); digital chip below reads as the caption
+          cards.push(
+            `<div class="ws-card-stage" style="flex-direction:column;gap:12px">` +
+            clock({ h, m, size: d.cards > 4 ? 156 : 186, hands: 'none' }).svg +
+            `<div style="background:#FFFFFF;border:2.5px solid #146B5E;border-radius:12px;padding:4px 22px;` +
+            `font-family:'Baloo 2';font-weight:700;font-size:30px;color:#3A3530" data-lcs-target="${fmt(h, m)}">${fmt(h, m)}</div></div>`
+          );
+        } else if (mode === 'read-circle') {
           const { h, m } = pickTime();
           const opts = new Set([fmt(h, m)]);
           const wrongs = step >= 30
@@ -191,7 +204,18 @@ function makeClockType(cfg) {
           return fails;
         }
         document.querySelectorAll('[data-lcs-card]').forEach((card, i) => {
-          if (mode === 'read-circle') {
+          if (mode === 'draw') {
+            const svg = card.querySelector('[data-lcs-prim="clock"]');
+            if (!svg) { fails.push(`card ${i + 1}: no clock`); return; }
+            // the face must be EMPTY — a rendered hand would give the answer away
+            if (svg.querySelector('[data-lcs-hourhand]') || svg.querySelector('[data-lcs-minutehand]')) {
+              fails.push(`card ${i + 1}: hands rendered on a draw-the-hands card`);
+            }
+            const chip = card.querySelector('[data-lcs-target]');
+            const want = `${svg.dataset.lcsH}:${String(svg.dataset.lcsM).padStart(2, '0')}`;
+            if (!chip || chip.dataset.lcsTarget !== want) fails.push(`card ${i + 1}: chip != clock target ${want}`);
+            if (chip && chip.textContent.trim() !== chip.dataset.lcsTarget) fails.push(`card ${i + 1}: chip text != target`);
+          } else if (mode === 'read-circle') {
             const svg = card.querySelector('[data-lcs-prim="clock"]');
             if (!angleOk(svg)) fails.push(`card ${i + 1}: hand angles wrong`);
             const want = `${svg.dataset.lcsH}:${String(svg.dataset.lcsM).padStart(2, '0')}`;

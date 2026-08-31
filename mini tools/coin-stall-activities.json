@@ -566,6 +566,64 @@
             "tint": "#B8B8B8",
             "diameter": 26
           }
+        ],
+        "nl": [
+          {
+            "den": "1c",
+            "value": 1,
+            "glyph": "1",
+            "tint": "#C97B43",
+            "diameter": 16
+          },
+          {
+            "den": "2c",
+            "value": 2,
+            "glyph": "2",
+            "tint": "#C97B43",
+            "diameter": 19
+          },
+          {
+            "den": "5c",
+            "value": 5,
+            "glyph": "5",
+            "tint": "#B87333",
+            "diameter": 21
+          },
+          {
+            "den": "10c",
+            "value": 10,
+            "glyph": "10",
+            "tint": "#D4AF37",
+            "diameter": 20
+          },
+          {
+            "den": "20c",
+            "value": 20,
+            "glyph": "20",
+            "tint": "#D4AF37",
+            "diameter": 22
+          },
+          {
+            "den": "50c",
+            "value": 50,
+            "glyph": "50",
+            "tint": "#C9A227",
+            "diameter": 24
+          },
+          {
+            "den": "1e",
+            "value": 100,
+            "glyph": "1€",
+            "tint": "#C9CBD4",
+            "diameter": 23
+          },
+          {
+            "den": "2e",
+            "value": 200,
+            "glyph": "2€",
+            "tint": "#B8B8B8",
+            "diameter": 26
+          }
         ]
       },
       "roundsL10n": {
@@ -1922,6 +1980,277 @@
               "1c"
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "count-euro",
+            "cog": "count-set",
+            "band": 1,
+            "legendTier": "none",
+            "scenario": "Otto telt de kassa. Hoeveel is dit waard?",
+            "pile": [
+              {
+                "den": "10c",
+                "count": 2
+              },
+              {
+                "den": "1c",
+                "count": 3
+              }
+            ],
+            "options": [
+              20,
+              23,
+              25,
+              26
+            ]
+          },
+          {
+            "id": "make-30",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Een schelp kost 30 cent. Betaal Otto precies.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "1c",
+              "5c",
+              "20c"
+            ]
+          },
+          {
+            "id": "make-41",
+            "cog": "make-amount",
+            "band": 3,
+            "legendTier": "none",
+            "target": 41,
+            "scenario": "Een krab kost 41 cent. Betaal precies dit bedrag.",
+            "purse": [
+              "20c",
+              "10c",
+              "10c",
+              "5c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "fewest-35",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 35,
+            "scenario": "Een vlieger kost 35 cent. Pak zo min mogelijk munten.",
+            "purse": [
+              "20c",
+              "10c",
+              "10c",
+              "5c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "fewest-30",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Een appel kost 30 cent. Pak zo min mogelijk munten.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "20c",
+              "5c",
+              "1c"
+            ]
+          },
+          {
+            "id": "change-70",
+            "cog": "change",
+            "band": 3,
+            "legendTier": "none",
+            "price": 70,
+            "paid": 100,
+            "scenario": "Een boek kost 70 cent. Je betaalt 1 euro. Geef het wisselgeld.",
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "10c",
+              "1c",
+              "1c",
+              "5c",
+              "20c"
+            ]
+          },
+          {
+            "id": "change-30",
+            "cog": "change",
+            "band": 2,
+            "legendTier": "none",
+            "price": 30,
+            "paid": 50,
+            "scenario": "Een kiezelsteen kost 30 cent. Je betaalt 50 cent. Hoeveel wisselgeld?",
+            "purse": [
+              "10c",
+              "10c",
+              "5c",
+              "5c",
+              "1c",
+              "1c",
+              "10c",
+              "20c"
+            ]
+          },
+          {
+            "id": "enough-35",
+            "cog": "enough",
+            "band": 3,
+            "legendTier": "none",
+            "price": 35,
+            "scenario": "Je hebt deze munten. De kaas kost 35 cent. Is dat genoeg?",
+            "pile": [
+              {
+                "den": "20c",
+                "count": 1
+              },
+              {
+                "den": "10c",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": "enough-40",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "price": 40,
+            "scenario": "Je hebt deze munten. De ster kost 40 cent. Is dat genoeg?",
+            "pile": [
+              {
+                "den": "20c",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "id": "twoways-20",
+            "cog": "two-ways",
+            "band": 3,
+            "legendTier": "none",
+            "target": 20,
+            "scenario": "20 cent is één muntje van 20 cent. Maak 20 cent op een nieuwe manier!",
+            "shownSet": [
+              "20c"
+            ],
+            "purse": [
+              "10c",
+              "10c",
+              "5c",
+              "5c",
+              "1c",
+              "20c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "twoways-30",
+            "cog": "two-ways",
+            "band": 2,
+            "legendTier": "none",
+            "target": 30,
+            "scenario": "Otto legde 30 cent met drie muntjes van 10 cent. Maak 30 cent op een andere manier!",
+            "shownSet": [
+              "10c",
+              "10c",
+              "10c"
+            ],
+            "purse": [
+              "20c",
+              "5c",
+              "10c",
+              "1c",
+              "20c",
+              "5c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "trade-50",
+            "cog": "trade",
+            "band": 3,
+            "legendTier": "none",
+            "offer": {
+              "den": "50c",
+              "count": 1
+            },
+            "scenario": "Geen muntjes van 50 cent meer! Ruil munten die samen 50 cent waard zijn.",
+            "purse": [
+              "20c",
+              "20c",
+              "10c",
+              "5c",
+              "5c",
+              "20c",
+              "10c",
+              "5c"
+            ]
+          },
+          {
+            "id": "trade-10",
+            "cog": "trade",
+            "band": 2,
+            "legendTier": "none",
+            "offer": {
+              "den": "10c",
+              "count": 1
+            },
+            "scenario": "Otto heeft wisselgeld nodig voor een muntje van 10 cent. Ruil munten die samen 10 cent waard zijn!",
+            "purse": [
+              "5c",
+              "5c",
+              "2c",
+              "2c",
+              "5c",
+              "1c",
+              "5c",
+              "10c"
+            ]
+          },
+          {
+            "id": "make-16",
+            "cog": "make-amount",
+            "band": 1,
+            "legendTier": "none",
+            "target": 16,
+            "scenario": "Een noot kost 16 cent. Betaal precies.",
+            "purse": [
+              "10c",
+              "5c",
+              "1c",
+              "1c",
+              "10c",
+              "5c",
+              "20c",
+              "1c"
+            ]
+          }
         ]
       }
     },
@@ -1932,7 +2261,8 @@
       "fr": "payer-et-rendre-la-monnaie-euros-centimes-ce1",
       "es": "contar-dinero-pesos-y-centavos-segundo-grado",
       "pt": "contar-dinheiro-reais-e-centavos-terceiro-ano",
-      "it": "contare-euro-e-centesimi-dare-il-resto-classe-terza"
+      "it": "contare-euro-e-centesimi-dare-il-resto-classe-terza",
+      "nl": "rekenen-met-geld-euro-en-cent-betalen-groep-4"
     },
     "page_title": {
       "en": "Pip's Market Stall — Counting Coins & Making Change",
@@ -1940,7 +2270,8 @@
       "fr": "Exercices de monnaie CE1 – en ligne (euros et centimes)",
       "es": "Contar dinero: pesos y centavos – 2.º grado",
       "pt": "Contar dinheiro: reais e centavos – 3º ano",
-      "it": "Euro e centesimi: contare il denaro e dare il resto – Classe terza"
+      "it": "Euro e centesimi: contare il denaro e dare il resto – Classe terza",
+      "nl": "Rekenen met geld: betalen met Otto de otter (groep 4)"
     },
     "page_intro": {
       "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8.",
@@ -1948,7 +2279,8 @@
       "fr": "Exercices de monnaie CE1 en ligne : payer et rendre la monnaie en euros et centimes. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis de dinero: tu hijo/a paga, cuenta y da cambio con monedas mexicanas (50¢, $1, $2, $5, $10) en el puesto de Otto la nutria. Ideal para 2.º grado.",
       "pt": "Atividade interativa e grátis de dinheiro: no balcão do Otto, a lontra, seu aluno conta o caixa, paga o preço certo de um lanchinho e dá o troco — tudo com moedas e cédulas do real. Uma habilidade que serve para a vida toda, sem pressa nem pontos. Alinhada à BNCC para os anos iniciais.",
-      "it": "Alla bancarella di Otto ogni acquisto diventa un piccolo gioco con il denaro. Il tuo bambino conta le monete in euro e centesimi, sceglie quelle giuste per pagare l’importo esatto e impara a dare il resto, proprio come farebbe al mercato. Si usano le vere monete dell’euro, da 1 centesimo fino a 2 euro, per capirne il valore toccandole con lo sguardo. L’attività è gratuita, senza registrazione, senza timer e senza punteggio: si procede con calma, al proprio ritmo. I contenuti sono allineati alle «Indicazioni nazionali»."
+      "it": "Alla bancarella di Otto ogni acquisto diventa un piccolo gioco con il denaro. Il tuo bambino conta le monete in euro e centesimi, sceglie quelle giuste per pagare l’importo esatto e impara a dare il resto, proprio come farebbe al mercato. Si usano le vere monete dell’euro, da 1 centesimo fino a 2 euro, per capirne il valore toccandole con lo sguardo. L’attività è gratuita, senza registrazione, senza timer e senza punteggio: si procede con calma, al proprio ritmo. I contenuti sono allineati alle «Indicazioni nazionali».",
+      "nl": "Bij dit gratis rekenspel leert je kind rekenen met echt geld: met euro- en centmunten het juiste bedrag betalen, passend betalen met zo min mogelijk munten, en wisselgeld teruggeven. Otto de otter staat achter zijn marktkraam en je kind rekent rustig met hem af — zonder tijdsdruk en zonder score. Het spel is afgestemd op de SLO-kerndoelen voor rekenen met geld (euro en cent) voor groep 4."
     },
     "kid_prompt_template": "coin-stall"
   }

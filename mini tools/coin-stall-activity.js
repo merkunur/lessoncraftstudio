@@ -21,7 +21,7 @@
   function speak(text, rate) {
     try {
       if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); }
     } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
@@ -36,6 +36,8 @@
     if (LANG === 'pt') { if (c < 100) return c + ' centavos'; var rl = Math.floor(c / 100), cp = c % 100; return cp === 0 ? ('R$' + rl) : ('R$' + rl + ' e ' + cp + ' centavos'); }
     /* Italian classe-3 money notation: NO comma-decimal; euro is INVARIABLE (never "euri"); connector "e": "30 centesimi" / "1 euro" / "2 euro" / "1 euro e 50 centesimi". */
     if (LANG === 'it') { if (c < 100) return c + (c === 1 ? ' centesimo' : ' centesimi'); var ei = Math.floor(c / 100), cti = c % 100; return cti === 0 ? (ei + ' euro') : (ei + ' euro e ' + cti + (cti === 1 ? ' centesimo' : ' centesimi')); }
+    /* Dutch groep-4 notation: euroteken vooraan + KOMMA + altijd 2 decimalen: "€0,30" / "€1,00" / "€1,50". */
+    if (LANG === 'nl') { var enl = Math.floor(c / 100), ctnl = c % 100; return '€' + enl + ',' + (ctnl < 10 ? '0' + ctnl : ctnl); }
     if (c % 100 === 0) return '$' + (c / 100); if (c < 100) return c + '¢'; return '$' + (c / 100).toFixed(2);
   }
 
@@ -43,19 +45,19 @@
     id: 'coin-stall-activity',
 
     strings: {
-      title: { en: "Pip's Market Stall", de: "Otto der Otter", fr: 'L’étal de Filou', es: 'El puesto de Otto', pt: 'A barraca do Otto', it: 'La bancarella di Otto' },
-      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '' },
-      prompt: { en: 'Pay Pip.', de: "Bezahle Otto.", fr: 'Paie Filou.', es: 'Págale a Otto.', pt: 'Pague ao Otto.', it: 'Paga Otto.' },
-      pay: { en: 'Pay Pip 🐚', de: "Bezahlen 🪙", fr: 'Payer 🪙', es: 'Pagar 🪙', pt: 'Pagar 🪙', it: 'Paga 🪙' },
-      sayWelcome: { en: 'Welcome to the stall! What can I get you?', de: "Willkommen an meinem Marktstand! Was möchtest du bezahlen?", fr: 'Bienvenue à mon étal ! Qu’est-ce que je te sers ?', es: '¡Bienvenido a mi puesto! ¿Qué vas a pagar?', pt: 'Bem-vindo à minha barraca! O que você vai pagar?', it: 'Benvenuto alla bancarella! Cosa vuoi comprare?' },
-      sayWin: { en: 'Exact change — thank you! 🐚', de: "Genau passend – danke dir!", fr: 'Le compte est juste — merci ! 🐚', es: '¡Justo! Gracias. 🪙', pt: 'Certinho! Obrigado. 🪙', it: 'Giusto! Grazie. 🪙' },
-      sayUnder: { en: 'Not quite enough yet.', de: "Das reicht noch nicht ganz – leg noch etwas dazu.", fr: 'Ce n’est pas encore assez.', es: 'Todavía no alcanza — pon un poco más.', pt: 'Ainda não dá — coloque um pouco mais.', it: 'Non basta ancora — aggiungi qualcosa.' },
-      sayOver: { en: 'Take one back!', de: "Das ist ein bisschen zu viel – nimm eine Münze zurück!", fr: 'Reprends-en une !', es: 'Es un poco de más — quita una moneda.', pt: 'É um pouco a mais — tire uma moeda.', it: 'È un poco troppo — togli una moneta.' },
-      sayFewer: { en: 'That works — but use FEWER coins?', de: "Schaffst du es auch mit weniger Münzen?", fr: 'Ça marche — mais avec MOINS de pièces ?', es: '¡Sí! ¿Y con MENOS monedas?', pt: 'Isso! E com MENOS moedas?', it: 'Va bene! E con MENO monete?' },
-      sayAgain: { en: "Hmm — let's try again.", de: "Kein Problem – probier es ruhig noch einmal!", fr: 'Hmm — essaie encore.', es: 'No pasa nada — inténtalo otra vez.', pt: 'Tudo bem — tente de novo.', it: 'Nessun problema — riprova pure!' },
-      tapToRemove: { en: 'tap a coin in the tray to take it back', de: "Tippe auf eine Münze, um sie zurückzunehmen.", fr: 'touche une pièce dans le plateau pour la reprendre', es: 'Toca una moneda de la bandeja para quitarla.', pt: 'Toque em uma moeda da bandeja para tirar.', it: 'Tocca una moneta nel vassoio per toglierla.' },
-      trayPh: { en: '🪙 tap coins below to pay', de: "🪙 Lege hier deine Münzen ab", fr: '🪙 touche les pièces en dessous pour payer', es: '🪙 pon aquí tus monedas', pt: '🪙 toque nas moedas abaixo para pagar', it: '🪙 tocca le monete qui sotto per pagare' },
-      hintCheck: { en: 'Pick coins by what they are WORTH, then pay.', de: "Wähle Münzen nach ihrem Wert und bezahle dann.", fr: 'Choisis les pièces selon leur VALEUR, puis paie.', es: 'Elige las monedas por lo que VALEN y luego paga.', pt: 'Escolha as moedas pelo que VALEM e depois pague.', it: 'Scegli le monete in base al loro VALORE, poi paga.' }
+      title: { en: "Pip's Market Stall", de: "Otto der Otter", fr: 'L’étal de Filou', es: 'El puesto de Otto', pt: 'A barraca do Otto', it: 'La bancarella di Otto', nl: 'Otto de otter' },
+      instruction: { en: '', de: '', fr: '', es: '', pt: '', it: '', nl: '' },
+      prompt: { en: 'Pay Pip.', de: "Bezahle Otto.", fr: 'Paie Filou.', es: 'Págale a Otto.', pt: 'Pague ao Otto.', it: 'Paga Otto.', nl: 'Betaal Otto.' },
+      pay: { en: 'Pay Pip 🐚', de: "Bezahlen 🪙", fr: 'Payer 🪙', es: 'Pagar 🪙', pt: 'Pagar 🪙', it: 'Paga 🪙', nl: 'Betaal Otto 🪙' },
+      sayWelcome: { en: 'Welcome to the stall! What can I get you?', de: "Willkommen an meinem Marktstand! Was möchtest du bezahlen?", fr: 'Bienvenue à mon étal ! Qu’est-ce que je te sers ?', es: '¡Bienvenido a mi puesto! ¿Qué vas a pagar?', pt: 'Bem-vindo à minha barraca! O que você vai pagar?', it: 'Benvenuto alla bancarella! Cosa vuoi comprare?', nl: 'Welkom bij de kraam! Wat mag het zijn?' },
+      sayWin: { en: 'Exact change — thank you! 🐚', de: "Genau passend – danke dir!", fr: 'Le compte est juste — merci ! 🐚', es: '¡Justo! Gracias. 🪙', pt: 'Certinho! Obrigado. 🪙', it: 'Giusto! Grazie. 🪙', nl: 'Gepast — dank je wel!' },
+      sayUnder: { en: 'Not quite enough yet.', de: "Das reicht noch nicht ganz – leg noch etwas dazu.", fr: 'Ce n’est pas encore assez.', es: 'Todavía no alcanza — pon un poco más.', pt: 'Ainda não dá — coloque um pouco mais.', it: 'Non basta ancora — aggiungi qualcosa.', nl: 'Nog niet genoeg.' },
+      sayOver: { en: 'Take one back!', de: "Das ist ein bisschen zu viel – nimm eine Münze zurück!", fr: 'Reprends-en une !', es: 'Es un poco de más — quita una moneda.', pt: 'É um pouco a mais — tire uma moeda.', it: 'È un poco troppo — togli una moneta.', nl: 'Pak er eentje terug!' },
+      sayFewer: { en: 'That works — but use FEWER coins?', de: "Schaffst du es auch mit weniger Münzen?", fr: 'Ça marche — mais avec MOINS de pièces ?', es: '¡Sí! ¿Y con MENOS monedas?', pt: 'Isso! E com MENOS moedas?', it: 'Va bene! E con MENO monete?', nl: 'Dat klopt — maar kan het met MINDER munten?' },
+      sayAgain: { en: "Hmm — let's try again.", de: "Kein Problem – probier es ruhig noch einmal!", fr: 'Hmm — essaie encore.', es: 'No pasa nada — inténtalo otra vez.', pt: 'Tudo bem — tente de novo.', it: 'Nessun problema — riprova pure!', nl: 'Hmm — probeer het nog eens.' },
+      tapToRemove: { en: 'tap a coin in the tray to take it back', de: "Tippe auf eine Münze, um sie zurückzunehmen.", fr: 'touche une pièce dans le plateau pour la reprendre', es: 'Toca una moneda de la bandeja para quitarla.', pt: 'Toque em uma moeda da bandeja para tirar.', it: 'Tocca una moneta nel vassoio per toglierla.', nl: 'tik op een munt in het bakje om hem terug te pakken' },
+      trayPh: { en: '🪙 tap coins below to pay', de: "🪙 Lege hier deine Münzen ab", fr: '🪙 touche les pièces en dessous pour payer', es: '🪙 pon aquí tus monedas', pt: '🪙 toque nas moedas abaixo para pagar', it: '🪙 tocca le monete qui sotto per pagare', nl: '🪙 tik hieronder op munten om te betalen' },
+      hintCheck: { en: 'Pick coins by what they are WORTH, then pay.', de: "Wähle Münzen nach ihrem Wert und bezahle dann.", fr: 'Choisis les pièces selon leur VALEUR, puis paie.', es: 'Elige las monedas por lo que VALEN y luego paga.', pt: 'Escolha as moedas pelo que VALEM e depois pague.', it: 'Scegli le monete in base al loro VALORE, poi paga.', nl: 'Kies munten op wat ze WAARD zijn en betaal dan.' }
     },
     defaults: {},
 
@@ -90,7 +92,7 @@
       var btn = api.el('button', 'cs-coin' + (opts.cls || ''));
       btn.type = 'button'; btn.setAttribute('data-den', den);
       var val = Core.valueOf(this.round.coinSet, den);   /* the REAL value — for a11y ONLY, never on the face */
-      btn.setAttribute('aria-label', LANG === 'de' ? (den + ', ' + fmt(val)) : LANG === 'fr' ? (den + ', ' + fmt(val)) : LANG === 'es' ? (den + ', ' + fmt(val)) : LANG === 'pt' ? (den + ', ' + fmt(val)) : LANG === 'it' ? (den + ', ' + fmt(val)) : (den + ', ' + val + (val === 1 ? ' cent' : ' cents')));
+      btn.setAttribute('aria-label', LANG === 'de' ? (den + ', ' + fmt(val)) : LANG === 'fr' ? (den + ', ' + fmt(val)) : LANG === 'es' ? (den + ', ' + fmt(val)) : LANG === 'pt' ? (den + ', ' + fmt(val)) : LANG === 'it' ? (den + ', ' + fmt(val)) : LANG === 'nl' ? (den + ', ' + fmt(val)) : (den + ', ' + val + (val === 1 ? ' cent' : ' cents')));
       var disc = api.el('span', 'cs-disc');
       disc.style.width = px + 'px'; disc.style.height = px + 'px';
       disc.style.background = 'radial-gradient(circle at 38% 32%, #fff5, ' + info.tint + ')';
@@ -103,16 +105,17 @@
       return btn;
     },
     _goalChip: function () {
-      var r = this.round, de = (LANG === 'de'), fr = (LANG === 'fr'), es = (LANG === 'es'), pt = (LANG === 'pt'), it = (LANG === 'it');
-      if (r.cog === 'make-amount' || r.cog === 'fewest') return (de ? 'Bezahle ' : fr ? 'Paie ' : es ? 'Paga ' : pt ? 'Pague ' : it ? 'Paga ' : 'Pay ') + fmt(r.target);
-      if (r.cog === 'change') return (de ? 'Wechselgeld aus ' : fr ? 'Monnaie sur ' : es ? 'Da el cambio de ' : pt ? 'Dê o troco de ' : it ? 'Il resto di ' : 'Change from ') + fmt(r.paid);
-      if (r.cog === 'two-ways') return (de ? 'Mache ' : fr ? 'Fais ' : es ? 'Haz ' : pt ? 'Faça ' : it ? 'Fai ' : 'Make ') + fmt(r.target);
+      var r = this.round, de = (LANG === 'de'), fr = (LANG === 'fr'), es = (LANG === 'es'), pt = (LANG === 'pt'), it = (LANG === 'it'), nl = (LANG === 'nl');
+      if (r.cog === 'make-amount' || r.cog === 'fewest') return (de ? 'Bezahle ' : fr ? 'Paie ' : es ? 'Paga ' : pt ? 'Pague ' : it ? 'Paga ' : nl ? 'Betaal ' : 'Pay ') + fmt(r.target);
+      if (r.cog === 'change') return (de ? 'Wechselgeld aus ' : fr ? 'Monnaie sur ' : es ? 'Da el cambio de ' : pt ? 'Dê o troco de ' : it ? 'Il resto di ' : nl ? 'Wisselgeld van ' : 'Change from ') + fmt(r.paid);
+      if (r.cog === 'two-ways') return (de ? 'Mache ' : fr ? 'Fais ' : es ? 'Haz ' : pt ? 'Faça ' : it ? 'Fai ' : nl ? 'Maak ' : 'Make ') + fmt(r.target);
       if (r.cog === 'trade') {
         if (de) return 'Tausche für ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
         if (fr) return 'Échange contre ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
         if (es) return 'Cambia por ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
         if (pt) return 'Troque por ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
         if (it) return 'Cambia con ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
+        if (nl) return 'Ruil voor ' + fmt(Core.valueOf(this.round.coinSet, r.offer.den) * (r.offer.count || 1));
         return 'Trade for 1 ' + r.offer.den;
       }
       return '';
@@ -213,7 +216,7 @@
           opts.appendChild(b);
         });
       } else {   /* enough */
-        var eo = (LANG === 'de') ? [['short', 'Zu wenig'], ['enough', 'Genau genug'], ['over', 'Zu viel']] : LANG === 'fr' ? [['short', 'Pas assez'], ['enough', 'Juste assez'], ['over', 'Trop']] : LANG === 'es' ? [['short', 'No alcanza'], ['enough', 'Justo'], ['over', 'Es de más']] : LANG === 'pt' ? [['short', 'Não dá'], ['enough', 'Certinho'], ['over', 'É de mais']] : LANG === 'it' ? [['short', 'Troppo poco'], ['enough', 'Giusto'], ['over', 'Troppo']] : [['short', 'Not enough'], ['enough', 'Just enough'], ['over', 'Too much']];
+        var eo = (LANG === 'de') ? [['short', 'Zu wenig'], ['enough', 'Genau genug'], ['over', 'Zu viel']] : LANG === 'fr' ? [['short', 'Pas assez'], ['enough', 'Juste assez'], ['over', 'Trop']] : LANG === 'es' ? [['short', 'No alcanza'], ['enough', 'Justo'], ['over', 'Es de más']] : LANG === 'pt' ? [['short', 'Não dá'], ['enough', 'Certinho'], ['over', 'É de mais']] : LANG === 'it' ? [['short', 'Troppo poco'], ['enough', 'Giusto'], ['over', 'Troppo']] : LANG === 'nl' ? [['short', 'Te weinig'], ['enough', 'Precies genoeg'], ['over', 'Te veel']] : [['short', 'Not enough'], ['enough', 'Just enough'], ['over', 'Too much']];
         eo.forEach(function (o) {
           var b = api.el('button', 'cs-opt cs-optword'); b.type = 'button'; b.textContent = o[1];
           b.addEventListener('click', function () { self._choose(o[0]); });

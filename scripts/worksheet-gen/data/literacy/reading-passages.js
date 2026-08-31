@@ -422,6 +422,318 @@ const READING_PASSAGES = {
         }
       ]
     }
+  ],
+  "pt": [
+    {
+      "id": "gato-pipoca",
+      "title": "O gato da Sofia",
+      "text": "Sofia tem um gato chamado Pipoca. Todo dia, Pipoca dorme na janela da sala, no lugar mais quente da casa. Quando Sofia chega da escola, ele corre para brincar com ela.",
+      "questions": [
+        {
+          "q": "Qual é o nome do gato de Sofia?",
+          "choices": [
+            "Pipoca",
+            "Bolinha",
+            "Mingau"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Onde Pipoca dorme todo dia?",
+          "choices": [
+            "No sofá",
+            "Na janela da sala",
+            "Na cama de Sofia"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Por que Pipoca corre quando Sofia chega?",
+          "choices": [
+            "Porque ele está com medo",
+            "Porque ele quer comida",
+            "Porque ele gosta de Sofia"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "feira-vovo",
+      "title": "A feira com o vovô",
+      "text": "No sábado, Miguel foi à feira com o vovô. Eles compraram bananas, laranjas e um abacaxi bem grande. O vovô deixou Miguel escolher uma fruta para levar na lancheira. Miguel escolheu uma maçã vermelha e brilhante. No caminho de casa, os dois tomaram suco de laranja e conversaram sobre a escola.",
+      "questions": [
+        {
+          "q": "Com quem Miguel foi à feira?",
+          "choices": [
+            "Com a mamãe",
+            "Com o vovô",
+            "Com a professora"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Qual fruta Miguel escolheu para a lancheira?",
+          "choices": [
+            "Uma banana",
+            "Um abacaxi",
+            "Uma maçã"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Como Miguel se sentiu no passeio com o vovô?",
+          "choices": [
+            "Feliz",
+            "Com sono",
+            "Bravo"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "chuva-na-escola",
+      "title": "O dia de chuva na escola",
+      "text": "Na quarta-feira, choveu muito na escola da Helena. As crianças não puderam brincar no pátio na hora do recreio. A professora Ana teve uma ideia: montar uma cabana de lençóis dentro da sala. Cada criança trouxe um livro e uma almofada para dentro da cabana. Helena leu uma história de dragões para os colegas. No fim do dia, ninguém queria que a chuva parasse.",
+      "questions": [
+        {
+          "q": "Por que as crianças não brincaram no pátio?",
+          "choices": [
+            "Porque estava chovendo",
+            "Porque o pátio estava sujo",
+            "Porque era dia de prova"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "O que a professora Ana montou na sala?",
+          "choices": [
+            "Um castelo de blocos",
+            "Uma cabana de lençóis",
+            "Uma barraca de acampamento"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Por que ninguém queria que a chuva parasse?",
+          "choices": [
+            "Porque queriam ir embora",
+            "Porque estavam com frio",
+            "Porque estavam se divertindo na cabana"
+          ],
+          "correct": 2
+        }
+      ]
+    }
+  ],
+  "it": [
+    {
+      "id": "it-gatto-romeo",
+      "title": "Il gatto Romeo",
+      "text": "Giulia ha un gatto che si chiama Romeo. Ogni mattina Romeo salta sul letto e le fa il solletico con i baffi. Giulia ride e gli dà una carezza prima di andare a scuola.",
+      "questions": [
+        {
+          "q": "Come si chiama il gatto di Giulia?",
+          "choices": [
+            "Leo",
+            "Romeo",
+            "Micio"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Che cosa fa Romeo ogni mattina?",
+          "choices": [
+            "Salta sul letto",
+            "Dorme in giardino",
+            "Mangia il pesce"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Che cosa prova Giulia per Romeo?",
+          "choices": [
+            "Ne ha paura",
+            "È arrabbiata con lui",
+            "Gli vuole bene"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "it-torta-nonna",
+      "title": "La torta di nonna Anna",
+      "text": "Sabato Matteo va dalla nonna Anna. Insieme preparano una torta di mele per la festa della mamma. Matteo mescola l'impasto e la nonna taglia le mele a fettine sottili. Mentre la torta cuoce, un buon profumo riempie tutta la cucina. Alla fine Matteo scrive un biglietto colorato per la mamma.",
+      "questions": [
+        {
+          "q": "Che torta preparano Matteo e la nonna?",
+          "choices": [
+            "Una torta di mele",
+            "Una torta al cioccolato",
+            "Una torta di fragole"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Che cosa fa Matteo mentre la nonna taglia le mele?",
+          "choices": [
+            "Scrive un biglietto",
+            "Mescola l'impasto",
+            "Apparecchia la tavola"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Per chi è la torta?",
+          "choices": [
+            "Per il nonno",
+            "Per la maestra",
+            "Per la mamma"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "it-giornata-mare",
+      "title": "Una giornata al mare",
+      "text": "Domenica Aurora e Lorenzo vanno al mare con il papà. Sulla spiaggia costruiscono un grande castello di sabbia con tre torri. Lorenzo trova una conchiglia bianca e la mette nel suo secchiello. A mezzogiorno mangiano i panini all'ombra dell'ombrellone insieme al papà. Nel pomeriggio arriva un'onda alta che bagna il castello. I due fratelli ridono e ne costruiscono subito un altro, ancora più grande.",
+      "questions": [
+        {
+          "q": "Quante torri ha il castello di sabbia?",
+          "choices": [
+            "Due",
+            "Quattro",
+            "Tre"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Che cosa trova Lorenzo sulla spiaggia?",
+          "choices": [
+            "Una conchiglia bianca",
+            "Un granchio",
+            "Una stella marina"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Come si sentono i fratelli quando l'onda bagna il castello?",
+          "choices": [
+            "Sono arrabbiati",
+            "Sono allegri",
+            "Hanno paura"
+          ],
+          "correct": 1
+        }
+      ]
+    }
+  ],
+  "nl": [
+    {
+      "id": "nl-poes-van-tess",
+      "title": "De poes van Tess",
+      "text": "Tess heeft een grijze poes. De poes heet Moos en hij slaapt graag in de zon op de vensterbank. Als Tess uit school komt, geeft ze Moos altijd eerst een aai.",
+      "questions": [
+        {
+          "q": "Hoe heet de poes van Tess?",
+          "choices": [
+            "Max",
+            "Moos",
+            "Mees"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Waar slaapt Moos graag?",
+          "choices": [
+            "In de zon op de vensterbank",
+            "Onder het bed van Tess",
+            "In een mand in de keuken"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Waarom ligt Moos graag op de vensterbank?",
+          "choices": [
+            "Omdat hij daar eten krijgt",
+            "Omdat hij bang is voor Tess",
+            "Omdat het daar lekker warm is"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "nl-daan-bakt-pannenkoeken",
+      "title": "Daan bakt pannenkoeken",
+      "text": "Daan mag zaterdag helpen in de keuken. Samen met papa bakt hij pannenkoeken voor het hele gezin. Daan doet het meel en de melk in de kom en roert heel goed. De eerste pannenkoek mislukt een beetje, maar de tweede is precies goed. Iedereen aan tafel wil er nog een.",
+      "questions": [
+        {
+          "q": "Wat bakken Daan en papa?",
+          "choices": [
+            "Koekjes",
+            "Pannenkoeken",
+            "Een taart"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Wat doet Daan in de kom?",
+          "choices": [
+            "Suiker en boter",
+            "Eieren en zout",
+            "Meel en melk"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Hoe weet je dat de pannenkoeken lekker zijn?",
+          "choices": [
+            "Iedereen wil er nog een",
+            "De eerste pannenkoek mislukt",
+            "Daan roert niet zo goed"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "nl-dagje-naar-het-strand",
+      "title": "Een dagje naar het strand",
+      "text": "Op zondag gaat Lotte met opa en oma naar het strand. Ze neemt haar emmer en haar schep mee. Eerst bouwt Lotte een groot zandkasteel met twee torens. Dan zoekt ze schelpen langs de zee en vindt er wel tien. Opa koopt voor iedereen een ijsje, want het is warm. Aan het einde van de dag valt Lotte moe maar blij in slaap in de auto.",
+      "questions": [
+        {
+          "q": "Met wie gaat Lotte naar het strand?",
+          "choices": [
+            "Met papa en mama",
+            "Met opa en oma",
+            "Met haar vriendin"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Hoeveel schelpen vindt Lotte?",
+          "choices": [
+            "Wel tien",
+            "Precies twee",
+            "Wel honderd"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Waarom koopt opa voor iedereen een ijsje?",
+          "choices": [
+            "Omdat Lotte jarig is",
+            "Omdat het regent",
+            "Omdat het warm is"
+          ],
+          "correct": 2
+        }
+      ]
+    }
   ]
 };
 

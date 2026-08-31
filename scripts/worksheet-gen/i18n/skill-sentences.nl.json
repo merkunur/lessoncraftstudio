@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Het horen van de klanken en lettergrepen in woorden bouwt het fonologisch bewustzijn op waarop vlot lezen steunt.",
     "short": "Oefent fonologisch bewustzijn."
+  },
+  "pre-writing": {
+    "full": "Lussen, golven en zigzaglijnen natrekken traint de fijne motoriek en de pengreep waar elke letter en elk cijfer op voortbouwt.",
+    "short": "Oefent pengreep en voorbereidend schrijven."
+  },
+  "number-tracing": {
+    "full": "Elk cijfer natrekken vanaf de startstip en langs de pijltjes leert kinderen vanaf de eerste keer de juiste schrijfrichting aan.",
+    "short": "Oefent de juiste schrijfwijze van cijfers."
+  },
+  "letter-tracing": {
+    "full": "Hoofdletters natrekken op schrijfregels traint het letterbeeld en de vaste halen die zelfverzekerd leren schrijven mogelijk maken.",
+    "short": "Oefent het schrijven van hoofdletters."
+  },
+  "sight-words": {
+    "full": "Veelvoorkomende woordjes lezen, natrekken en zelf schrijven zorgt dat kinderen ze flitsend herkennen en vlotter gaan lezen.",
+    "short": "Oefent het vlot herkennen van flitswoorden."
+  },
+  "cutting-practice": {
+    "full": "Plaatjes uitknippen en in de juiste groep plakken traint de schaarvaardigheid en het eerste ordenen in één gezellige opdracht.",
+    "short": "Oefent knippen, plakken en sorteren."
+  },
+  "color-by-number": {
+    "full": "Elke code bij de juiste kleur zoeken maakt van goed kijken en kleine sommetjes een tekening om trots op te zijn.",
+    "short": "Oefent kleine sommetjes en zorgvuldig kleuren."
+  },
+  "mazes": {
+    "full": "De ene juiste weg door het doolhof vinden traint vooruitkijken, potloodbeheersing en geduldig doorzetten bij het puzzelen.",
+    "short": "Oefent overzicht en potloodbeheersing."
+  },
+  "number-bonds": {
+    "full": "Splitsingen aanvullen laat zien hoe getallen uit elkaar vallen en legt de basis voor vlot hoofdrekenen tot 10.",
+    "short": "Oefent het splitsen van getallen tot 10."
+  },
+  "mental-math": {
+    "full": "Optellen en aftrekken tot 20 uit het hoofd geeft de vlotte rekenvaardigheid waar al het latere cijferen op steunt.",
+    "short": "Oefent vlot optellen en aftrekken tot 20."
+  },
+  "fact-families": {
+    "full": "Alle vier de sommen bij één drietal getallen maken laat zien hoe optellen en aftrekken elkaars omgekeerde zijn.",
+    "short": "Oefent het verband tussen plus en min."
+  },
+  "number-words": {
+    "full": "Getallen koppelen aan hun geschreven getalwoord versterkt het getalbegrip en voorkomt het omdraaien van cijfers.",
+    "short": "Oefent getallen lezen in woorden."
+  },
+  "money": {
+    "full": "Munten tellen van groot naar klein geeft kinderen het geldinzicht dat ze elke dag in de winkel kunnen gebruiken.",
+    "short": "Oefent munten tellen en rekenen met geld."
+  },
+  "word-problems": {
+    "full": "Een kort verhaaltje lezen, het plaatje bekijken en het antwoord opschrijven maakt van rekenen echt problemen oplossen.",
+    "short": "Oefent verhaaltjessommen met plaatjeshulp."
+  },
+  "column-arithmetic": {
+    "full": "Kolom voor kolom rekenen, eerst de eenheden en dan de tientallen, legt de basis voor het rekenen met steeds grotere getallen.",
+    "short": "Oefent optellen en aftrekken onder elkaar."
+  },
+  "symmetry": {
+    "full": "De spiegelhelft van een tekening vakje voor vakje afmaken traint ruimtelijk inzicht en heel precies werken op papier.",
+    "short": "Oefent spiegelen en ruimtelijk inzicht."
+  },
+  "reading-comprehension": {
+    "full": "Een kort verhaaltje lezen en er vragen over beantwoorden traint het begrijpend lezen waar al het verdere leren op steunt.",
+    "short": "Oefent begrijpend lezen van korte verhaaltjes."
+  },
+  "multiplication-tables": {
+    "full": "De tafels oefenen in rijtjes en door elkaar zorgt voor het vlotte opzeggen dat moeilijker rekenwerk makkelijk maakt.",
+    "short": "Oefent het vlot opzeggen van de tafels."
   }
 }

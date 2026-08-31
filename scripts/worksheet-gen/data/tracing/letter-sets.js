@@ -16,9 +16,14 @@ const LETTER_SETS = {
   de: { alphabet: [...BASE, 'Ä', 'Ö', 'Ü'], specials: ['Ä', 'Ö', 'Ü'] },
   fr: { alphabet: BASE, specials: ['É', 'È', 'Ê'] },
   es: { alphabet: [...BASE.slice(0, 14), 'Ñ', ...BASE.slice(14)], specials: ['Ñ'] },
-  pt: { alphabet: BASE, specials: ['Ã', 'Ç'] },
+  // pt-BR panel ruling: no diacritic capitals are taught as separate letters;
+  // the d3 page features K W Y — the letters BR children see least (in the
+  // alphabet since 2009).
+  pt: { alphabet: BASE, specials: ['K', 'W', 'Y'] },
   it: { alphabet: BASE.filter((c) => !'JKWXY'.includes(c)), specials: [] }, // 21-letter school alphabet
-  nl: { alphabet: BASE, specials: [] },
+  // nl panel: no accented capitals exist; the one Dutch-own letter is the
+  // IJ digraph (capitalized as TWO letters together: IJsselmeer).
+  nl: { alphabet: [...BASE, 'IJ'], specials: ['IJ'] },
   sv: { alphabet: [...BASE, 'Å', 'Ä', 'Ö'], specials: ['Å', 'Ä', 'Ö'] },
   da: { alphabet: [...BASE, 'Æ', 'Ø', 'Å'], specials: ['Æ', 'Ø', 'Å'] },
   no: { alphabet: [...BASE, 'Æ', 'Ø', 'Å'], specials: ['Æ', 'Ø', 'Å'] },

@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Ouvir os sons e as sílabas dentro das palavras desenvolve a consciência fonológica de que a leitura fluente depende.",
     "short": "Desenvolve a consciência fonológica."
+  },
+  "pre-writing": {
+    "full": "Cobrir laços, ondas e ziguezagues treina o controle do lápis e a firmeza da mão que toda letra e todo número vão precisar.",
+    "short": "Desenvolve o controle do lápis e a coordenação motora."
+  },
+  "number-tracing": {
+    "full": "Cobrir cada número seguindo o ponto de partida e as setas ensina o traçado correto desde a primeira tentativa.",
+    "short": "Ensina o traçado correto dos números."
+  },
+  "letter-tracing": {
+    "full": "Cobrir letras maiúsculas nas linhas de caligrafia grava a forma de cada letra e firma o traçado da escrita inicial.",
+    "short": "Ensina o traçado das letras maiúsculas."
+  },
+  "sight-words": {
+    "full": "Ler, cobrir e escrever palavras frequentes leva essas palavras para a memória e libera a atenção para o sentido do texto.",
+    "short": "Fixa a leitura rápida de palavras frequentes."
+  },
+  "cutting-practice": {
+    "full": "Recortar figuras e colar cada uma no seu grupo treina o uso da tesoura e o raciocínio de classificação em uma só atividade.",
+    "short": "Treina o recorte e a classificação em grupos."
+  },
+  "color-by-number": {
+    "full": "Ligar cada resultado à sua cor transforma atenção e continhas simples em um desenho que dá orgulho de terminar.",
+    "short": "Fixa as continhas por meio da pintura."
+  },
+  "mazes": {
+    "full": "Encontrar o único caminho do labirinto desenvolve o planejamento visual, o controle do lápis e a paciência para resolver problemas.",
+    "short": "Desenvolve planejamento visual e atenção."
+  },
+  "number-bonds": {
+    "full": "Completar esquemas parte-parte-todo mostra como os números se decompõem e prepara o cálculo mental com os amigos do 10.",
+    "short": "Ensina a decomposição de números até 10."
+  },
+  "mental-math": {
+    "full": "Resolver adições e subtrações até 20 de cabeça constrói a rapidez de cálculo que as contas armadas vão exigir depois.",
+    "short": "Desenvolve o cálculo mental até 20."
+  },
+  "fact-families": {
+    "full": "Completar os quatro fatos da mesma família mostra como a adição e a subtração são operações inversas.",
+    "short": "Mostra a relação entre adição e subtração."
+  },
+  "number-words": {
+    "full": "Ligar cada número à sua escrita por extenso reforça a leitura dos números e evita trocas entre os algarismos.",
+    "short": "Treina a escrita dos números por extenso."
+  },
+  "money": {
+    "full": "Contar moedas começando pelas de maior valor desenvolve a noção de dinheiro que a criança usa no dia a dia.",
+    "short": "Treina a contagem de moedas e centavos."
+  },
+  "word-problems": {
+    "full": "Ler a historinha, conferir a figura e registrar a resposta transforma a continha em verdadeira resolução de problemas.",
+    "short": "Desenvolve a resolução de situações problema."
+  },
+  "column-arithmetic": {
+    "full": "Resolver uma ordem de cada vez, das unidades para as dezenas, constrói o método da conta armada usado com números cada vez maiores.",
+    "short": "Ensina o método da conta armada por ordens."
+  },
+  "symmetry": {
+    "full": "Completar a metade espelhada quadradinho por quadradinho desenvolve a noção de simetria e a precisão no desenho.",
+    "short": "Desenvolve simetria e percepção espacial."
+  },
+  "reading-comprehension": {
+    "full": "Ler um texto curto e responder às perguntas desenvolve a compreensão leitora que sustenta toda a aprendizagem.",
+    "short": "Desenvolve a interpretação de texto."
+  },
+  "multiplication-tables": {
+    "full": "Praticar a tabuada em sequências e desafios misturados constrói a memorização que deixa a matemática muito mais leve.",
+    "short": "Fixa a tabuada para o cálculo rápido."
   }
 }

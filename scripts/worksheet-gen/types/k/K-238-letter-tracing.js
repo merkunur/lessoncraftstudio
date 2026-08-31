@@ -42,7 +42,8 @@ module.exports = {
     }
     const laneW = 660;
     const lanes = letters.map((ch) => {
-      const lane = glyphLane({ text: ch, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: d.reps });
+      // last slot stays empty — the "try one on your own" spot the instruction promises
+      const lane = glyphLane({ text: ch, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: d.reps, emptyLast: true });
       return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-letter="${ch}">${lane.svg}</div>`;
     });
     return {
@@ -73,6 +74,8 @@ module.exports = {
           if (j > 0 && !t.getAttribute('stroke-dasharray')) fails.push(`lane ${i + 1} rep ${j + 1}: not dashed`);
         });
         if (svg.querySelectorAll('line').length < 3) fails.push(`lane ${i + 1}: missing school lines`);
+        // the promised "try one on your own" empty slot must exist
+        if (!svg.hasAttribute('data-lcs-empty-slot')) fails.push(`lane ${i + 1}: no empty writing slot`);
       });
       return fails;
     });

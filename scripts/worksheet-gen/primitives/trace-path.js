@@ -274,7 +274,10 @@ function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl }) {
       let g = renderPath({
         d: s.d, mode: isModel ? 'model' : 'trace', strokeW: 3.4 * inv,
         startX: sx, startY: sy, startAngle: s.angle,
-        dot: showGuides, arrow: showGuides && fullGuides, guideScale: inv * (fullGuides ? 1 : 0.8), dashScale: inv,
+        // arrows at EVERY size (the instruction promises them — critic
+        // finding); compact lanes shrink them; only order BADGES stay
+        // large-lane-only (they were the clutter)
+        dot: showGuides, arrow: showGuides, guideScale: inv * (fullGuides ? 1 : 0.72), dashScale: inv,
       });
       if (showGuides && fullGuides && strokes.length > 1) {
         g += el('circle', { cx: sx - 16 * inv, cy: sy - 11 * inv, r: 8 * inv, fill: tokens.color.white, stroke: tokens.color.coral, 'stroke-width': 1.5 * inv });

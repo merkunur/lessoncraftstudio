@@ -87,6 +87,14 @@
       nInform: 'Questa nota dà fatti veri — vuole informare.',
       nEntertain: 'Questa nota racconta una storia divertente — vuole divertire.',
       nInstruct: 'Questa nota mostra i passaggi — cerca «prima… poi… infine».'
+    },
+    nl: {
+      q: 'Waarom heeft de schrijver dit briefje geschreven?',
+      win: 'Ja! {note}', winNote: 'Je hebt het doel van de schrijver gevonden!',
+      hear: '🔊 Luister',
+      nInform: 'Dit briefje geeft echte feiten — het wil je informeren.',
+      nEntertain: 'Dit briefje is een grappig verhaal — het wil je vermaken.',
+      nInstruct: 'Dit briefje laat stap voor stap zien hoe iets moet — het wil je iets uitleggen.'
     }
   };
   var LANG = 'en';
@@ -116,8 +124,8 @@
       /* it: mascot «Marlow»→«Marino» (pedagogue-decisive — «Marlow» is opaque + the -ow grapheme
          mis-decodes for a classe-2 it reader; «Marino» = a real Italian name AND «del mare», keeps
          «Mar-», = the pt «Marujo» precedent). instruction is agentless (no «l'autore» apostrophe). */
-      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow', pt: 'O correio do porto do Marujo', it: 'La posta del porto di Marino' },
-      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.', pt: 'Leia a nota e mande para a caixa que mostra PARA QUE ela foi escrita!', it: 'Leggi la nota, poi mettila nella cassetta che dice PERCHÉ è stata scritta!' },
+      title: { en: 'The Harbor Post', de: 'Marlows Hafenpost', fr: 'Le courrier du port de Marlow', es: 'El correo del puerto de Marlow', pt: 'O correio do porto do Marujo', it: 'La posta del porto di Marino', nl: 'De havenpost van Marlow' },
+      instruction: { en: 'Read the note, then send it to the bin that tells WHY the author wrote it!', de: 'Lies die Notiz und tippe an, warum der Autor sie geschrieben hat.', fr: 'Lis la note, puis envoie-la dans la boîte qui dit POURQUOI l’auteur l’a écrite !', es: 'Lee la nota y toca para qué se escribió.', pt: 'Leia a nota e mande para a caixa que mostra PARA QUE ela foi escrita!', it: 'Leggi la nota, poi mettila nella cassetta che dice PERCHÉ è stata scritta!', nl: 'Lees het briefje en tik waarom de schrijver het schreef.' },
       q: { en: '{q}', pt: '{q}', it: '{q}' }
     },
 
@@ -287,6 +295,8 @@
         ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opções: ' + bins + '.</p>'
         : LANG === 'it'
         ? '<p>Nota: ' + round.note.text + ' ' + txt('q') + ' Opzioni: ' + bins + '.</p>'
+        : LANG === 'nl'
+        ? '<p>Notitie: ' + round.note.text + ' ' + txt('q') + ' Keuzes: ' + bins + '.</p>'
         : '<p>Note: ' + round.note.text + ' ' + txt('q') + ' Bins: ' + bins + '.</p>';
       return wrap;
     },

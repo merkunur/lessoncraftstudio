@@ -19,7 +19,7 @@
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function pigeonSVG() {
-    return '<svg class="pcm-pig-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Pim, le pigeon voyageur' : LANG === 'de' ? 'Pim, die Taube' : LANG === 'es' ? 'Pim, la paloma mensajera' : LANG === 'pt' ? 'Pim, o pombo-correio' : LANG === 'it' ? 'Pim, il piccione' : 'Pim the pigeon') + '">' +
+    return '<svg class="pcm-pig-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Pim, le pigeon voyageur' : LANG === 'de' ? 'Pim, die Taube' : LANG === 'es' ? 'Pim, la paloma mensajera' : LANG === 'pt' ? 'Pim, o pombo-correio' : LANG === 'it' ? 'Pim, il piccione' : LANG === 'nl' ? 'Pim, de postduif' : 'Pim the pigeon') + '">' +
       '<ellipse cx="48" cy="58" rx="22" ry="18" fill="#A9C0D8"/>' +                /* body */
       '<circle cx="70" cy="44" r="12" fill="#BBD0E4"/>' +                          /* head */
       '<circle cx="73" cy="42" r="2.3" fill="#2A2A35"/>' +                         /* eye */
@@ -58,10 +58,10 @@
          amico»). §A.13.54: Pim = «il piccione» (masc); win anchors on «la virgola», never genders
          the child (NO «Bravo/Brava»). ⚠ pimIntro ≤48 chars (line-clamp:2 TEXT-CLIP gate). labels
          name the letter part, NEVER the mark (would leak the answer). */
-      title: { en: "Pim's Comma Mail", de: 'Pims Komma-Post', fr: 'La poste aux virgules de Pim', es: 'El correo de Pim: dos puntos o coma', pt: 'O correio do Pim: a vírgula certa', it: 'La posta delle virgole di Pim' },
-      instruction: { en: 'Tap the greeting or closing that has its comma in the right place.', de: 'Tipp die Karte an, bei der das Komma richtig steht.', fr: 'Touche l’appel ou la formule d’amitié dont la virgule est à la bonne place.', es: 'Toca la tarjeta con la puntuación correcta.', pt: 'Toque na carta com a pontuação no lugar certo.', it: 'Tocca la carta con la virgola al posto giusto.' },
-      promptGreeting: { en: 'Which is the right way to START the letter?', de: 'Wie beginnt der Brief richtig?', fr: 'Comment bien commencer la lettre ?', es: '¿Cómo empieza bien la carta?', pt: 'Qual é o jeito certo de COMEÇAR a carta?', it: 'Come si comincia bene la lettera?' },
-      promptClosing: { en: 'Which is the right way to END the letter?', de: 'Wie endet der Brief richtig?', fr: 'Comment bien terminer la lettre ?', es: '¿Cómo termina bien la carta?', pt: 'Qual é o jeito certo de TERMINAR a carta?', it: 'Come si finisce bene la lettera?' },
+      title: { en: "Pim's Comma Mail", de: 'Pims Komma-Post', fr: 'La poste aux virgules de Pim', es: 'El correo de Pim: dos puntos o coma', pt: 'O correio do Pim: a vírgula certa', it: 'La posta delle virgole di Pim', nl: 'De kommapost van Pim' },
+      instruction: { en: 'Tap the greeting or closing that has its comma in the right place.', de: 'Tipp die Karte an, bei der das Komma richtig steht.', fr: 'Touche l’appel ou la formule d’amitié dont la virgule est à la bonne place.', es: 'Toca la tarjeta con la puntuación correcta.', pt: 'Toque na carta com a pontuação no lugar certo.', it: 'Tocca la carta con la virgola al posto giusto.', nl: 'Tik op de aanhef of afsluiting met de komma op de goede plek.' },
+      promptGreeting: { en: 'Which is the right way to START the letter?', de: 'Wie beginnt der Brief richtig?', fr: 'Comment bien commencer la lettre ?', es: '¿Cómo empieza bien la carta?', pt: 'Qual é o jeito certo de COMEÇAR a carta?', it: 'Come si comincia bene la lettera?', nl: 'Hoe begin je de brief goed?' },
+      promptClosing: { en: 'Which is the right way to END the letter?', de: 'Wie endet der Brief richtig?', fr: 'Comment bien terminer la lettre ?', es: '¿Cómo termina bien la carta?', pt: 'Qual é o jeito certo de TERMINAR a carta?', it: 'Come si finisce bene la lettera?', nl: 'Hoe eindig je de brief goed?' },
       /* ⚠ `.pcm-say` is `-webkit-line-clamp:2` + `overflow:hidden` → anything past 2 lines
          is SILENTLY CLIPPED. The clamp is BY DESIGN, so the node reports no overflow and
          its box is the intended size — the copy just vanishes. This is now MEASURED by
@@ -86,9 +86,9 @@
          ⚠ de must NOT state the rule (the en/fr shape): the de foils include a BARE
          no-comma "Liebe Oma", so a rule-stating bubble would eliminate a foil for free.
          Self-intro + call-to-action leaks nothing. */
-      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim! Hilf mir, die Post auszutragen.', fr: 'Une lettre a besoin de sa virgule au bon endroit !', es: 'Soy Pim. ¡Ayúdame a entregar bien las cartas!', pt: 'Sou o Pim! Me ajude a entregar as cartas.', it: 'Sono Pim! Aiutami a consegnare la posta.' },
+      pimIntro: { en: 'A letter needs its comma in just the right spot!', de: 'Ich bin Pim! Hilf mir, die Post auszutragen.', fr: 'Une lettre a besoin de sa virgule au bon endroit !', es: 'Soy Pim. ¡Ayúdame a entregar bien las cartas!', pt: 'Sou o Pim! Me ajude a entregar as cartas.', it: 'Sono Pim! Aiutami a consegnare la posta.', nl: 'Ik ben Pim! Help mij de post rond te brengen.' },
       /* ⚠ the labels are ALWAYS visible — they must NOT name the mark, or they leak the answer. */
-      labelGreeting: { en: '✉️ The greeting', de: '✉️ Die Anrede', fr: '✉️ Le début de la lettre', es: '✉️ El saludo', pt: '✉️ A saudação', it: '✉️ Il saluto' },
+      labelGreeting: { en: '✉️ The greeting', de: '✉️ Die Anrede', fr: '✉️ Le début de la lettre', es: '✉️ El saludo', pt: '✉️ A saudação', it: '✉️ Il saluto', nl: '✉️ De aanhef' },
       /* 🚩 `de.labelClosing` is DEAD — the de deck is Anrede-only (8 greeting / 0 closing;
          en+fr are 4/4, es 5/3). That is CORRECT, not an omission: the German Grußformel
          takes NO comma ("Viele Grüße" ⏎ name, DIN 5008), so a de closing round is
@@ -96,11 +96,11 @@
          rounds — it would teach a comma German does not use. (Same reason `de.hintWrong`
          names only the Anrede and does NOT state both halves: the other half never
          renders. It is right as shipped — do not "fix" it.) */
-      labelClosing: { en: '✉️ The closing', de: '✉️ Der Gruß', fr: '✉️ La fin de la lettre', es: '✉️ La despedida', pt: '✉️ A despedida', it: '✉️ La chiusura' },
-      hintPick: { en: 'The greeting and the closing each end with a comma.', de: 'Schau genau hin, wo das Komma bei der Anrede steht.', fr: 'Le début et la fin de la lettre se terminent chacun par une virgule.', es: 'El saludo termina con dos puntos. La despedida termina con coma.', pt: 'A saudação e a despedida terminam com vírgula.', it: 'Il saluto e la chiusura finiscono con una virgola.' },
+      labelClosing: { en: '✉️ The closing', de: '✉️ Der Gruß', fr: '✉️ La fin de la lettre', es: '✉️ La despedida', pt: '✉️ A despedida', it: '✉️ La chiusura', nl: '✉️ De afsluiting' },
+      hintPick: { en: 'The greeting and the closing each end with a comma.', de: 'Schau genau hin, wo das Komma bei der Anrede steht.', fr: 'Le début et la fin de la lettre se terminent chacun par une virgule.', es: 'El saludo termina con dos puntos. La despedida termina con coma.', pt: 'A saudação e a despedida terminam com vírgula.', it: 'Il saluto e la chiusura finiscono con una virgola.', nl: 'De aanhef en de afsluiting eindigen allebei met een komma.' },
       /* hintKey returns ONE shared key for both kinds → hintWrong must state both halves. */
-      hintWrong: { en: 'Look at where the comma sits — it goes at the end.', de: 'Fast! Das Komma steht ganz am Ende der Anrede, nicht mittendrin.', fr: 'Regarde bien où se trouve la virgule : elle se place tout à la fin.', es: 'Casi. Fíjate en el signo del final: el saludo lleva dos puntos y la despedida lleva coma.', pt: 'Olhe de novo — onde entra a vírgula?', it: 'Guarda dove sta la virgola: va alla fine.' },
-      win: { en: 'Yes! The comma is in the right spot. 🕊️', de: 'Super! Du weißt genau, wo das Komma hingehört. Pim ist stolz auf dich!', fr: 'Bravo ! La virgule est à la bonne place. 🕊️', es: '¡Muy bien! Ya sabes dónde van los dos puntos y dónde va la coma. Pim ya puede entregar la carta.', pt: 'Isso! A carta já pode voar! 🕊️', it: 'Sì! La virgola è al posto giusto. 🕊️' }
+      hintWrong: { en: 'Look at where the comma sits — it goes at the end.', de: 'Fast! Das Komma steht ganz am Ende der Anrede, nicht mittendrin.', fr: 'Regarde bien où se trouve la virgule : elle se place tout à la fin.', es: 'Casi. Fíjate en el signo del final: el saludo lleva dos puntos y la despedida lleva coma.', pt: 'Olhe de novo — onde entra a vírgula?', it: 'Guarda dove sta la virgola: va alla fine.', nl: 'Kijk waar de komma staat — die hoort aan het eind.' },
+      win: { en: 'Yes! The comma is in the right spot. 🕊️', de: 'Super! Du weißt genau, wo das Komma hingehört. Pim ist stolz auf dich!', fr: 'Bravo ! La virgule est à la bonne place. 🕊️', es: '¡Muy bien! Ya sabes dónde van los dos puntos y dónde va la coma. Pim ya puede entregar la carta.', pt: 'Isso! A carta já pode voar! 🕊️', it: 'Sì! La virgola è al posto giusto. 🕊️', nl: 'Ja! De komma staat op de goede plek. 🕊️' }
     },
     defaults: {},
 

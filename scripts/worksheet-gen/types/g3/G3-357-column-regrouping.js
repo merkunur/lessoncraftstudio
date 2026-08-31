@@ -23,7 +23,7 @@ module.exports = makeColumnType({
   i18n: {
     en: {
       title: 'Addition and Subtraction with Regrouping',
-      instruction: 'Solve each problem. Regroup when a column goes over nine or comes up short.',
+      instruction: 'Solve each problem. Regroup when you need to carry or borrow.',
     },
   },
 });

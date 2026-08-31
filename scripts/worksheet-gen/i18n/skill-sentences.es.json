@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Oír los sonidos y las sílabas dentro de las palabras desarrolla la conciencia fonológica de la que depende la lectura fluida.",
     "short": "Desarrolla la conciencia fonológica."
+  },
+  "pre-writing": {
+    "full": "Repasar bucles, ondas y zigzags entrena el control del lápiz y la fuerza de la mano sobre las que se apoyará cada letra y cada número.",
+    "short": "Desarrolla el control del lápiz y la grafomotricidad."
+  },
+  "number-tracing": {
+    "full": "Repasar cada cifra siguiendo su trazo, con punto de inicio y flechas, enseña la escritura correcta de los números desde el primer intento.",
+    "short": "Enseña el trazo correcto de los números."
+  },
+  "letter-tracing": {
+    "full": "Repasar las mayúsculas sobre pauta de escritura fija la forma de cada letra y da seguridad a los primeros trazos de la escritura.",
+    "short": "Afianza el trazo de las letras mayúsculas."
+  },
+  "sight-words": {
+    "full": "Leer, repasar y escribir palabras de uso frecuente las lleva a la memoria inmediata y deja libre la atención para comprender lo leído.",
+    "short": "Fija las palabras frecuentes en la memoria."
+  },
+  "cutting-practice": {
+    "full": "Recortar dibujos y pegar cada uno en su grupo entrena el manejo de las tijeras y el primer pensamiento de clasificación en una sola actividad.",
+    "short": "Entrena las tijeras y la clasificación."
+  },
+  "color-by-number": {
+    "full": "Relacionar cada código con su color convierte la observación atenta y los primeros cálculos en un dibujo que da gusto terminar.",
+    "short": "Refuerza el cálculo mientras se colorea."
+  },
+  "mazes": {
+    "full": "Encontrar el único camino del laberinto desarrolla la planificación visual, el control del lápiz y la paciencia para resolver problemas.",
+    "short": "Desarrolla la planificación visual y el trazo."
+  },
+  "number-bonds": {
+    "full": "Completar esquemas parte-todo muestra cómo se descomponen los números y construye los amigos del 10 que sostienen el cálculo mental.",
+    "short": "Trabaja la descomposición de números hasta 10."
+  },
+  "mental-math": {
+    "full": "Resolver sumas y restas hasta 20 con la cabeza da la soltura de cálculo sobre la que se apoyan después las operaciones escritas.",
+    "short": "Da soltura en sumas y restas hasta 20."
+  },
+  "fact-families": {
+    "full": "Completar las cuatro operaciones de un mismo trío de números muestra cómo la suma y la resta se deshacen la una a la otra.",
+    "short": "Muestra la relación entre suma y resta."
+  },
+  "number-words": {
+    "full": "Relacionar cada cifra con su nombre escrito refuerza la lectura de números y evita confusiones al leerlos y escribirlos.",
+    "short": "Refuerza la lectura de números en letras."
+  },
+  "money": {
+    "full": "Contar el valor de las monedas de mayor a menor construye el sentido del dinero que los niños usan en su vida diaria.",
+    "short": "Enseña a contar monedas con seguridad."
+  },
+  "word-problems": {
+    "full": "Leer una historia corta, mirar el dibujo y escribir la respuesta convierte el cálculo en verdadera resolución de problemas.",
+    "short": "Trabaja los problemas con apoyo visual."
+  },
+  "column-arithmetic": {
+    "full": "Operar columna a columna, empezando por las unidades, asienta el método escrito que servirá para números cada vez mayores.",
+    "short": "Asienta el cálculo escrito en columnas."
+  },
+  "symmetry": {
+    "full": "Completar la mitad reflejada de un dibujo, cuadrado a cuadrado, trabaja la comprensión de la simetría y la precisión espacial.",
+    "short": "Trabaja la simetría y el dibujo preciso."
+  },
+  "reading-comprehension": {
+    "full": "Leer un cuento corto y responder preguntas sobre él construye la comprensión atenta de la que depende todo el aprendizaje.",
+    "short": "Desarrolla la comprensión lectora."
+  },
+  "multiplication-tables": {
+    "full": "Practicar las tablas de multiplicar en series y repasos mezclados logra la respuesta inmediata que hace fácil todo el cálculo.",
+    "short": "Automatiza las tablas de multiplicar."
   }
 }

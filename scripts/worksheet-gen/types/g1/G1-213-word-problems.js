@@ -133,7 +133,7 @@ module.exports = {
     }
 
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:26px;justify-content:center">${blocks.join('')}</div>`,
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:26px;justify-content:space-evenly">${blocks.join('')}</div>`,
       meta: {},
     };
   },

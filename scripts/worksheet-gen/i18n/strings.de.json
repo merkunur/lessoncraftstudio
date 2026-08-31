@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Nach Kategorien sortieren",
     "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-236": {
+    "title": "Schwungübungen",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-237": {
+    "title": "Zahlen schreiben lernen",
+    "instruction": "Spure jede Zahl nach. Beginne am orangen Punkt und folge den Pfeilen."
+  },
+  "K-238": {
+    "title": "Großbuchstaben nachspuren",
+    "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-239": {
+    "title": "Lernwörter üben",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."
+  },
+  "K-240": {
+    "title": "Ausschneiden und Aufkleben",
+    "instruction": "Schneide die Bilder unten aus. Ordne sie und klebe jedes in sein Kästchen."
+  },
+  "K-241": {
+    "title": "Rechnen und Ausmalen",
+    "instruction": "Schau genau auf den Farbcode. Male jede Form in der passenden Farbe aus."
+  },
+  "K-242": {
+    "title": "Durch das Labyrinth",
+    "instruction": "Starte oben. Zeichne einen Weg durch das Labyrinth bis zum Ziel unten."
+  },
+  "K-243": {
+    "title": "Zahlzerlegung bis 10",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "G1-208": {
+    "title": "Kopfrechnen bis 20",
+    "instruction": "Rechne jede Aufgabe im Kopf. Schreibe die fehlende Zahl in das Kästchen."
+  },
+  "G1-209": {
+    "title": "Aufgabenfamilien üben",
+    "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Aufgaben, die dazugehören."
+  },
+  "G1-210": {
+    "title": "Zahlwörter lesen",
+    "instruction": "Lies die große Zahl. Kreise das Zahlwort ein, das genau dazu passt."
+  },
+  "G1-211": {
+    "title": "Rechnen mit Geld",
+    "instruction": "Zähle die Münzen in jedem Geldbeutel. Schreibe den Betrag in das Kästchen."
+  },
+  "G1-212": {
+    "title": "Uhrzeiger einzeichnen",
+    "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."
+  },
+  "G1-213": {
+    "title": "Rechengeschichten mit Bildern",
+    "instruction": "Lies jede Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen."
+  },
+  "G2-251": {
+    "title": "Schriftlich rechnen ohne Übertrag",
+    "instruction": "Rechne jede Aufgabe Stelle für Stelle: zuerst die Einer, dann die Zehner."
+  },
+  "G2-252": {
+    "title": "Messbecher und Waagen ablesen",
+    "instruction": "Lies jeden Messbecher und jede Waage genau ab. Schreibe die Menge mit ihrer Einheit auf."
+  },
+  "G2-253": {
+    "title": "Spiegelbilder vervollständigen",
+    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+  },
+  "G2-254": {
+    "title": "Lesetext mit Fragen",
+    "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."
+  },
+  "G3-357": {
+    "title": "Schriftlich rechnen mit Übertrag",
+    "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."
+  },
+  "G3-358": {
+    "title": "Einmaleins üben",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
   }
 }

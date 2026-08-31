@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Clasifica por categoría",
     "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-236": {
+    "title": "Trazos de grafomotricidad",
+    "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-237": {
+    "title": "Números punteados del 0 al 9",
+    "instruction": "Repasa cada número. Empieza en el punto naranja y sigue las flechas."
+  },
+  "K-238": {
+    "title": "Letras mayúsculas punteadas",
+    "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."
+  },
+  "K-239": {
+    "title": "Palabras de uso frecuente",
+    "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."
+  },
+  "K-240": {
+    "title": "Recorta, clasifica y pega",
+    "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su casilla."
+  },
+  "K-241": {
+    "title": "Colorea según el resultado",
+    "instruction": "Mira el código. Colorea cada figura con el color que le corresponde."
+  },
+  "K-242": {
+    "title": "Laberinto de animales",
+    "instruction": "Empieza arriba. Traza el camino por el laberinto hasta llegar a la meta."
+  },
+  "K-243": {
+    "title": "Amigos del 10",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+  },
+  "G1-208": {
+    "title": "Cálculo mental hasta 20",
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+  },
+  "G1-209": {
+    "title": "Casitas de sumas y restas",
+    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+  },
+  "G1-210": {
+    "title": "Números en letras",
+    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+  },
+  "G1-211": {
+    "title": "Contamos monedas",
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+  },
+  "G1-212": {
+    "title": "Dibuja las agujas del reloj",
+    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+  },
+  "G1-213": {
+    "title": "Problemas con dibujos",
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+  },
+  "G2-251": {
+    "title": "Sumas y restas sin llevar",
+    "instruction": "Suma o resta en columnas, empezando siempre por las unidades."
+  },
+  "G2-252": {
+    "title": "Capacidad y masa",
+    "instruction": "Lee cada jarra medidora y cada balanza. Escribe la cantidad con su unidad."
+  },
+  "G2-253": {
+    "title": "Simetría en cuadrícula",
+    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+  },
+  "G2-254": {
+    "title": "Comprensión lectora",
+    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+  },
+  "G3-357": {
+    "title": "Sumas y restas con llevadas",
+    "instruction": "Resuelve cada operación en columnas. Recuerda las llevadas cuando haga falta."
+  },
+  "G3-358": {
+    "title": "Las tablas de multiplicar",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
   }
 }

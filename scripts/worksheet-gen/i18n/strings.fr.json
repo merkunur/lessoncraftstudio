@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Classe par catégorie",
     "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-236": {
+    "title": "Graphisme : les chemins du crayon",
+    "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-237": {
+    "title": "Écriture des chiffres de 0 à 9",
+    "instruction": "Repasse chaque chiffre. Pars du point orange et suis les flèches."
+  },
+  "K-238": {
+    "title": "Écriture des lettres capitales",
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+  },
+  "K-239": {
+    "title": "Mots-outils : lire et écrire",
+    "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+  },
+  "K-240": {
+    "title": "Découper, trier et coller",
+    "instruction": "Découpe les images en bas de la page. Trie-les et colle chaque image dans sa case."
+  },
+  "K-241": {
+    "title": "Coloriage magique",
+    "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+  },
+  "K-242": {
+    "title": "Le labyrinthe",
+    "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+  },
+  "K-243": {
+    "title": "Les compléments à 10",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "G1-208": {
+    "title": "Calcul mental jusqu'à 20",
+    "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+  },
+  "G1-209": {
+    "title": "Les familles d'opérations",
+    "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+  },
+  "G1-210": {
+    "title": "Les nombres en lettres",
+    "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+  },
+  "G1-211": {
+    "title": "Compter la monnaie",
+    "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+  },
+  "G1-212": {
+    "title": "Dessiner les aiguilles de l'horloge",
+    "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+  },
+  "G1-213": {
+    "title": "Petits problèmes en images",
+    "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+  },
+  "G2-251": {
+    "title": "Additions et soustractions posées",
+    "instruction": "Additionne ou soustrais, colonne par colonne. Commence par les unités."
+  },
+  "G2-252": {
+    "title": "Masses et contenances",
+    "instruction": "Lis chaque verre doseur et chaque balance. Écris la mesure avec son unité."
+  },
+  "G2-253": {
+    "title": "Symétrie sur quadrillage",
+    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+  },
+  "G2-254": {
+    "title": "Lecture et compréhension",
+    "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+  },
+  "G3-357": {
+    "title": "Additions et soustractions avec retenue",
+    "instruction": "Calcule chaque opération posée. N'oublie pas la retenue quand tu en as besoin."
+  },
+  "G3-358": {
+    "title": "Les tables de multiplication",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
   }
 }

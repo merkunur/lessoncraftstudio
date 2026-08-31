@@ -48,6 +48,20 @@
       nudgeReversed: 'Achtung: Welches Wort steht hinten? Das sagt, was es ist.',
       nudgeWrong: 'Fast! Welches Wort passt wirklich dazu?',
       nudgeHead: 'Denk dran: Das letzte Wort sagt, was es ist.'
+    },
+    nl: {
+      predict: 'Wat betekent dit woord?',
+      ticket: 'Welk woord past bij deze betekenis?',
+      supply: 'Welk deel maakt het af?',
+      head: 'Wat voor ding is het?',
+      build: 'Zet de twee woorden samen!',
+      buildMean: 'En wat betekent het nu?',
+      weld: 'Maak er één woord van!',
+      win: 'Hoera! Naar de werkplaats ermee!',
+      nudgeMadeOf: 'Kijk nog eens — is het ervan gemaakt of is het ervoor?',
+      nudgeReversed: 'Welk woord staat achteraan? Dat zegt wat het is.',
+      nudgeWrong: 'Bijna! Kijk goed naar het eerste woord — welk ding hoort erbij?',
+      nudgeHead: 'Het laatste woord zegt wat het echt is. Kijk daar eens naar.'
     }
   };
   /* image-key -> German display word (the parts are language-neutral images; only the shown word localizes) */
@@ -56,12 +70,18 @@
     dog: 'Hund', bed: 'Bett', book: 'Buch', foot: 'Fuß', ball: 'Ball', egg: 'Ei', cup: 'Becher',
     apple: 'Apfel', cake: 'Kuchen', rain: 'Regen', umbrella: 'Schirm'
   };
+  /* image-key -> Dutch display word (Netherlands standard; only the shown word localizes) */
+  var PART_NL = {
+    hand: 'Hand', shoe: 'Schoen', tooth: 'Tand', brush: 'Borstel', bag: 'Tas', milk: 'Melk', jug: 'Kan',
+    dog: 'Hond', bed: 'Bed', book: 'Boek', foot: 'Voet', ball: 'Bal', egg: 'Ei', cup: 'Beker',
+    apple: 'Appel', cake: 'Taart', rain: 'Regen', umbrella: 'Paraplu'
+  };
   function lang() { return (global.LCS && global.LCS.i18n && global.LCS.i18n.current) || 'en'; }
   function txt(k) { var lg = lang(); return (L[lg] || L.en)[k] || L.en[k] || k; }
-  function partWord(noun) { return lang() === 'de' ? (PART_DE[noun] || cap(noun)) : cap(noun); }
-  /* grade by the stored `kind` tag for de (bypasses the EN composeMeaning string-match); EN stays on Core.isAnswer */
+  function partWord(noun) { var lg = lang(); return lg === 'de' ? (PART_DE[noun] || cap(noun)) : lg === 'nl' ? (PART_NL[noun] || cap(noun)) : cap(noun); }
+  /* grade by the stored `kind` tag for de/nl (bypasses the EN composeMeaning string-match); EN stays on Core.isAnswer */
   function cmIsAnswer(round, oi) {
-    if (lang() !== 'de') return Core.isAnswer(round, oi);
+    if (lang() !== 'de' && lang() !== 'nl') return Core.isAnswer(round, oi);
     var c = round.choices[oi];
     return round.cog === 'head' ? c.kind === 'head' : c.kind === 'correct';
   }
@@ -95,9 +115,9 @@
   /* the welded compound as inline text — the HEAD (what it IS) tinted teal */
   function weldedHTML(entry) {
     var headIs2 = entry.head === 'part2';
-    var de = lang() === 'de';
-    var p1 = de ? partWord(entry.part1.noun) : cap(entry.part1.noun);
-    var p2 = de ? partWord(entry.part2.noun) : entry.part2.noun;
+    var loc = lang() !== 'en';   /* de + nl show both parts via partWord (localized display words) */
+    var p1 = loc ? partWord(entry.part1.noun) : cap(entry.part1.noun);
+    var p2 = loc ? partWord(entry.part2.noun) : entry.part2.noun;
     var a = '<span class="cm-blk' + (headIs2 ? '' : ' cm-head') + '">' + esc(p1) + '</span>';
     var b = '<span class="cm-blk' + (headIs2 ? ' cm-head' : '') + '">' + esc(p2) + '</span>';
     return a + '<span class="cm-seam">·</span>' + b;
@@ -106,13 +126,13 @@
   var CompoundMeaningActivity = {
     id: 'compound-meaning',
     strings: {
-      title: { en: "Skip's Word-Welding Yard", de: 'Skips Wortwerkstatt' },
-      instruction: { en: 'Bring Skip two words — then figure out what the new word MEANS!', de: 'Skip setzt zwei Wörter zu einem zusammen. Finde heraus, was das neue Wort bedeutet!' },
-      qpredict: { en: 'What does it mean?', de: 'Was bedeutet dieses Wort?' },
-      qticket: { en: 'Which word means this?', de: 'Welches Wort passt zu dieser Bedeutung?' },
-      qsupply: { en: 'Which part finishes it?', de: 'Welches Bild fehlt?' },
-      qhead: { en: 'What KIND of thing is it?', de: 'Was für ein Ding ist es?' },
-      qbuild: { en: 'Weld it — then what does it mean?', de: 'Setz die zwei Wörter zusammen!' }
+      title: { en: "Skip's Word-Welding Yard", de: 'Skips Wortwerkstatt', nl: 'De Woordenwerkplaats van Nootje' },
+      instruction: { en: 'Bring Skip two words — then figure out what the new word MEANS!', de: 'Skip setzt zwei Wörter zu einem zusammen. Finde heraus, was das neue Wort bedeutet!', nl: 'Nootje maakt van twee woorddelen één nieuw woord. Ontdek wat het betekent!' },
+      qpredict: { en: 'What does it mean?', de: 'Was bedeutet dieses Wort?', nl: 'Wat betekent dit woord?' },
+      qticket: { en: 'Which word means this?', de: 'Welches Wort passt zu dieser Bedeutung?', nl: 'Welk woord past bij deze betekenis?' },
+      qsupply: { en: 'Which part finishes it?', de: 'Welches Bild fehlt?', nl: 'Welk deel maakt het af?' },
+      qhead: { en: 'What KIND of thing is it?', de: 'Was für ein Ding ist es?', nl: 'Wat voor ding is het?' },
+      qbuild: { en: 'Weld it — then what does it mean?', de: 'Setz die zwei Wörter zusammen!', nl: 'Zet de twee woorden samen!' }
     },
 
     init: function (api) {
@@ -277,7 +297,8 @@
       var box = el('div', 'cm-choices' + (opts.two ? ' two' : ''));
       this._displayOrder.forEach(function (oi) {
         var c = r.choices[oi];
-        var label = c.text || (lang() === 'de' ? partWord(c.word) : c.word);
+        var lg = lang();
+        var label = c.text || ((lg === 'de' || lg === 'nl') ? partWord(c.word) : c.word);
         var b = el('button', 'cm-card cm-card' + (opts.form ? ' form' : '') + (self._nonConf[oi] ? ' dim' : ''));
         b.type = 'button'; b.textContent = label; b.setAttribute('aria-label', label);
         if (opts.form) b.classList.add('form');
@@ -298,7 +319,7 @@
     },
     _renderTicket: function (root) {
       var e = this._round.entry;
-      var m = el('div', 'cm-mean'); m.textContent = (lang() === 'de' && e.meaningDE) ? e.meaningDE : Core.composeMeaning(e); root.appendChild(m);
+      var m = el('div', 'cm-mean'); m.textContent = (lang() === 'de' && e.meaningDE) ? e.meaningDE : (lang() === 'nl' && e.meaningNL) ? e.meaningNL : Core.composeMeaning(e); root.appendChild(m);
       this._partsStrip(root);
       this._choiceList(root, { form: true });
     },
@@ -308,6 +329,8 @@
       var q = el('div', 'cm-line'); q.style.color = '#0F4A40'; q.style.font = '700 .92rem/1.2 Nunito,sans-serif';
       q.textContent = lang() === 'de'
         ? 'Ist ' + (e.artikel || 'ein') + ' ' + e.compound + ' eine Art ' + partWord(ch[0].word) + ' oder eine Art ' + partWord(ch[1].word) + '?'
+        : lang() === 'nl'
+        ? 'Is ' + (e.artikel || 'de') + ' ' + e.compound + ' een soort ' + partWord(ch[0].word).toLowerCase() + ' of een soort ' + partWord(ch[1].word).toLowerCase() + '?'
         : 'Is a ' + e.compound + ' a kind of ' + ch[0].word + ' or a kind of ' + ch[1].word + '?';
       root.appendChild(q);
       this._choiceList(root, { two: true });
@@ -360,7 +383,7 @@
     _srMirror: function () {
       var r = this._round, e = r.entry;
       var wrap = el('div', 'cm-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var parts = partWord(e.part1.noun) + (lang() === 'de' ? ' und ' : ' and ') + partWord(e.part2.noun);
+      var parts = partWord(e.part1.noun) + (lang() === 'de' ? ' und ' : lang() === 'nl' ? ' en ' : ' and ') + partWord(e.part2.noun);
       wrap.innerHTML = '<p>' + esc(e.compound) + ' — ' + esc(parts) + '</p>';
       return wrap;
     },

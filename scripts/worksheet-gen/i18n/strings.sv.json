@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Sortera efter kategori",
     "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-236": {
+    "title": "Spåra linjer",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-237": {
+    "title": "Spåra siffrorna 0 till 9",
+    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-238": {
+    "title": "Spåra stora bokstäver",
+    "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."
+  },
+  "K-239": {
+    "title": "Ordbilder: läs, spåra, skriv",
+    "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."
+  },
+  "K-240": {
+    "title": "Klipp, sortera och klistra",
+    "instruction": "Klipp ut bilderna längst ner. Sortera dem och klistra in varje bild i rätt ruta."
+  },
+  "K-241": {
+    "title": "Måla efter kod",
+    "instruction": "Titta på koden. Räkna ut talet i varje fält och färglägg med rätt färg."
+  },
+  "K-242": {
+    "title": "Hitta vägen i labyrinten",
+    "instruction": "Börja högst upp. Rita en väg genom labyrinten ända fram till målet längst ner."
+  },
+  "K-243": {
+    "title": "Tiokompisar",
+    "instruction": "Vilken tiokompis saknas? Skriv talet som fattas i den streckade cirkeln."
+  },
+  "G1-208": {
+    "title": "Huvudräkning till 20",
+    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+  },
+  "G1-209": {
+    "title": "Räknefamiljer",
+    "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop."
+  },
+  "G1-210": {
+    "title": "Tal med bokstäver",
+    "instruction": "Läs talet med siffror. Ringa in ordet som betyder samma tal."
+  },
+  "G1-211": {
+    "title": "Räkna pengar",
+    "instruction": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan."
+  },
+  "G1-212": {
+    "title": "Rita klockans visare",
+    "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."
+  },
+  "G1-213": {
+    "title": "Räknehändelser med bilder",
+    "instruction": "Läs varje räknehändelse. Ta hjälp av bilderna och skriv svaret i rutan."
+  },
+  "G2-251": {
+    "title": "Uppställning utan växling",
+    "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."
+  },
+  "G2-252": {
+    "title": "Volym och vikt",
+    "instruction": "Läs av varje mätkanna och våg. Skriv svaret med rätt enhet."
+  },
+  "G2-253": {
+    "title": "Rita färdigt spegelbilden",
+    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+  },
+  "G2-254": {
+    "title": "Läs och svara",
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."
+  },
+  "G3-357": {
+    "title": "Uppställning med växling",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "G3-358": {
+    "title": "Träna multiplikationstabellerna",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
   }
 }

@@ -40,9 +40,10 @@ const FORMS = {
     1: [{ d: 'M 52 12 L 52 130', angle: 90 }],
     7: [{ d: 'M 20 14 L 82 14 L 46 130', angle: 0 }],
   },
-  // nl panel ruling (2026-09-01): Dutch school methods (Pennenstreken class)
-  // teach a 1 with a SHORT lead-in stroke and an UNCROSSED 7 — neither the
-  // German continental pair nor the bare plain forms.
+  // nl + sv panel rulings (2026-09-01): Dutch (Pennenstreken class) AND
+  // Swedish school models teach a 1 with a SHORT lead-in stroke and an
+  // UNCROSSED 7 — neither the German continental pair nor the bare plain
+  // forms. (Key kept as 'dutch' after the first ruling; sv maps to it too.)
   dutch: {
     ...SHARED,
     1: [{ d: 'M 38 32 L 55 12 L 55 130', angle: -50 }],
@@ -68,10 +69,11 @@ const FORM_BY_LOCALE = {
   // pt-BR = PLAIN per the native panel ruling (2026-09-01): Brazilian school
   // caligraphy models use the simple 1 and uncrossed 7.
   pt: 'plain',
-  nl: 'dutch',
+  // nl/sv/no/da/fi panels all ruled the same school pair: short-flag 1 +
+  // UNCROSSED 7 (the crossed 7 is adult handwriting there, not the model).
+  // Continental crossed-7 survives only where its panels confirmed it.
+  nl: 'dutch', sv: 'dutch', no: 'dutch', da: 'dutch', fi: 'dutch',
   de: 'continental', fr: 'continental', it: 'continental',
-  sv: 'continental', da: 'continental',
-  no: 'continental', fi: 'continental',
 };
 
 const BOX = { w: 100, h: 140 };

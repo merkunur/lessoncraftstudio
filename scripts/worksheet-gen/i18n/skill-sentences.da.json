@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "At høre lydene og stavelserne inde i ordene opbygger den sproglige opmærksomhed, som flydende læsning afhænger af.",
     "short": "Styrker sproglig opmærksomhed."
+  },
+  "pre-writing": {
+    "full": "Når barnet tegner sløjfer, bølger og zigzaglinjer, trænes den blyantkontrol, som alle bogstaver og tal bygger videre på.",
+    "short": "Træner blyantkontrol og skriveforberedende motorik."
+  },
+  "number-tracing": {
+    "full": "At skrive oven i hvert tal med startprik og pile lærer barnet den rigtige skrivevej for tallene helt fra begyndelsen.",
+    "short": "Træner den rigtige skrivevej for tallene 0-9."
+  },
+  "letter-tracing": {
+    "full": "At skrive oven i de store bogstaver på skrivelinjer bygger sikre bogstavformer og en rolig, stabil håndskrift op.",
+    "short": "Træner formen på de store bogstaver."
+  },
+  "sight-words": {
+    "full": "Når barnet læser, skriver oven i og selv skriver de hyppigste ord, genkendes de på et øjeblik, så læsningen glider lettere.",
+    "short": "Opbygger hurtig genkendelse af de hyppigste ord."
+  },
+  "cutting-practice": {
+    "full": "At klippe billeder ud og lime dem ind i den rigtige gruppe træner både saksestyring og den første sortering på én gang.",
+    "short": "Træner saksefærdigheder og tidlig sortering."
+  },
+  "color-by-number": {
+    "full": "At regne små stykker og farvelægge efter koden forvandler omhyggelig kiggen og de første regnefakta til et flot billede.",
+    "short": "Træner regnefakta gennem farvelægning."
+  },
+  "mazes": {
+    "full": "At finde den ene rigtige vej gennem labyrinten træner overblik, blyantkontrol og tålmodig problemløsning.",
+    "short": "Træner visuelt overblik og blyantkontrol."
+  },
+  "number-bonds": {
+    "full": "Når barnet finder de manglende tiervenner, ser det, hvordan tal kan deles op – grundlaget for sikker hovedregning.",
+    "short": "Opbygger talforståelse og opdeling op til 10."
+  },
+  "mental-math": {
+    "full": "At lægge sammen og trække fra op til 20 i hovedet giver den paratviden, som alle skriftlige metoder senere bygger på.",
+    "short": "Træner plus og minus i hovedet op til 20."
+  },
+  "fact-families": {
+    "full": "Når alle fire regnestykker laves ud fra de samme tre tal, ser barnet, hvordan plus og minus hænger sammen.",
+    "short": "Viser sammenhængen mellem plus og minus."
+  },
+  "number-words": {
+    "full": "At forbinde tal med de rigtige talord styrker læsningen af tal og forebygger, at cifrene bliver byttet om.",
+    "short": "Træner sikker læsning af tal og talord."
+  },
+  "money": {
+    "full": "At tælle mønternes værdi fra den største til den mindste opbygger den pengeforståelse, børn bruger i hverdagen.",
+    "short": "Træner møntregning og pengeforståelse."
+  },
+  "word-problems": {
+    "full": "At læse en lille historie, se på billedet og skrive svaret gør regning til rigtig problemløsning i hverdagen.",
+    "short": "Træner regnehistorier med billedstøtte."
+  },
+  "column-arithmetic": {
+    "full": "At regne én plads ad gangen med opstilling opbygger den sikre skriftlige metode til større og større tal.",
+    "short": "Træner den skriftlige metode med opstilling."
+  },
+  "symmetry": {
+    "full": "At tegne billedets spejlede halvdel felt for felt opbygger forståelse for symmetri og præcis rumlig tegning.",
+    "short": "Træner spejling og rumlig forståelse."
+  },
+  "reading-comprehension": {
+    "full": "At læse en kort historie og svare på spørgsmål om den opbygger den grundige læseforståelse, al læring hviler på.",
+    "short": "Træner grundig læseforståelse af korte tekster."
+  },
+  "multiplication-tables": {
+    "full": "At øve den lille tabel i stiger og blandede stykker giver den paratviden, der gør sværere matematik let.",
+    "short": "Træner den lille tabel til paratviden."
   }
 }

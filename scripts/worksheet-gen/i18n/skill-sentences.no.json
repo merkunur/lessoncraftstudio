@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Å høre lydene og stavelsene inne i ord bygger den språklige bevisstheten som flytende lesing er avhengig av.",
     "short": "Øver språklig bevissthet."
+  },
+  "pre-writing": {
+    "full": "Å spore løkker, bølger og sikksakklinjer trener blyantgrepet og håndmotorikken som all bokstavskriving bygger på.",
+    "short": "Trener blyantgrep og finmotorikk før skriving."
+  },
+  "number-tracing": {
+    "full": "Å spore hvert tall fra startprikken og langs pilene gir riktig tallforming helt fra det aller første forsøket.",
+    "short": "Trener riktig forming av tallene 0 til 9."
+  },
+  "letter-tracing": {
+    "full": "Å spore store bokstaver på skrivelinjer bygger bokstavminne og de trygge strøkene som god håndskrift hviler på.",
+    "short": "Trener riktig forming av de store bokstavene."
+  },
+  "sight-words": {
+    "full": "Å lese, spore og skrive høyfrekvente ord gjør at barnet kjenner dem igjen på et blunk og kan bruke kreftene på innholdet.",
+    "short": "Gir rask gjenkjenning av de vanligste ordene."
+  },
+  "cutting-practice": {
+    "full": "Å klippe ut bilder og lime hvert bilde i riktig gruppe trener saksegrep og tidlig sortering i én og samme hyggelige oppgave.",
+    "short": "Trener sakseferdigheter og sortering."
+  },
+  "color-by-number": {
+    "full": "Når hver kode får riktig farge, blir nøye titting og små regnestykker til et bilde det er gøy å gjøre helt ferdig.",
+    "short": "Øver regneferdigheter gjennom fargelegging."
+  },
+  "mazes": {
+    "full": "Å finne den ene veien gjennom labyrinten trener øyet til å planlegge, hånden til å styre blyanten og hodet til å prøve igjen.",
+    "short": "Trener visuell planlegging og blyantkontroll."
+  },
+  "number-bonds": {
+    "full": "Å fullføre hele-og-deler-diagrammer viser hvordan tall kan deles opp, og gir tiervennene som all hoderegning bygger på.",
+    "short": "Trener oppdeling av tall opp til 10."
+  },
+  "mental-math": {
+    "full": "Å løse addisjon og subtraksjon opp til 20 i hodet gir den regneflyten som senere skriftlige metoder står trygt på.",
+    "short": "Trener pluss og minus i hodet opp til 20."
+  },
+  "fact-families": {
+    "full": "Å fullføre alle fire regnestykkene fra samme talltrio viser hvordan addisjon og subtraksjon opphever hverandre.",
+    "short": "Viser sammenhengen mellom pluss og minus."
+  },
+  "number-words": {
+    "full": "Å koble tall til riktig tallord styrker lesing av tall og hjelper barnet å unngå å bytte om på sifrene.",
+    "short": "Trener lesing og skriving av tallord."
+  },
+  "money": {
+    "full": "Å telle myntverdier fra størst til minst gir den pengeforståelsen barna trenger i hverdagen sin.",
+    "short": "Trener telling av mynter og pengeforståelse."
+  },
+  "word-problems": {
+    "full": "Å lese en liten fortelling, se på bildet og skrive svaret gjør regning om til ekte problemløsing.",
+    "short": "Trener problemløsing med regnefortellinger."
+  },
+  "column-arithmetic": {
+    "full": "Å regne én plass om gangen i oppstilte stykker gir den sikre skriftlige metoden som virker for større og større tall.",
+    "short": "Trener oppstilt addisjon og subtraksjon."
+  },
+  "symmetry": {
+    "full": "Å fullføre speilhalvdelen av et bilde rute for rute bygger forståelse for symmetri og nøyaktig romlig tegning.",
+    "short": "Trener symmetri og nøyaktig speiling."
+  },
+  "reading-comprehension": {
+    "full": "Å lese en kort fortelling og svare på spørsmål om den trener den nøye leseforståelsen all læring hviler på.",
+    "short": "Trener leseforståelse av korte tekster."
+  },
+  "multiplication-tables": {
+    "full": "Å øve på gangestykker om og om igjen gir den raske gjenkallingen som gjør vanskeligere matematikk mye lettere.",
+    "short": "Gir flyt i den lille gangetabellen."
   }
 }

@@ -104,6 +104,62 @@ const SIGHT_WORDS = {
     "dat",
     "niet",
     "jij"
+  ],
+  "sv": [
+    "och",
+    "jag",
+    "det",
+    "är",
+    "en",
+    "vi",
+    "på",
+    "har",
+    "kan",
+    "ser",
+    "här",
+    "inte"
+  ],
+  "no": [
+    "og",
+    "jeg",
+    "det",
+    "er",
+    "på",
+    "som",
+    "en",
+    "vi",
+    "har",
+    "ikke",
+    "til",
+    "den"
+  ],
+  "da": [
+    "og",
+    "jeg",
+    "det",
+    "er",
+    "en",
+    "til",
+    "den",
+    "han",
+    "hun",
+    "var",
+    "ikke",
+    "med"
+  ],
+  "fi": [
+    "ja",
+    "on",
+    "ei",
+    "se",
+    "minä",
+    "sinä",
+    "hän",
+    "me",
+    "tämä",
+    "mikä",
+    "äiti",
+    "isä"
   ]
 };
 

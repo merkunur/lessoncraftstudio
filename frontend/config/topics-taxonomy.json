@@ -2199,7 +2199,11 @@
           "fr": "graphisme",
           "pt": "grafismo",
           "it": "pregrafismo",
-          "nl": "schrijfpatronen"
+          "nl": "schrijfpatronen",
+          "sv": "spara-linjer",
+          "no": "skriveforberedende-ovelser",
+          "da": "skriveforberedende-oevelser",
+          "fi": "kynaharjoitukset"
         },
         "name": {
           "en": "Pre-Writing Practice",
@@ -2208,7 +2212,11 @@
           "fr": "Graphisme",
           "pt": "Grafismo e traçados",
           "it": "Pregrafismo",
-          "nl": "Schrijfpatronen"
+          "nl": "Schrijfpatronen",
+          "sv": "Spåra linjer",
+          "no": "Skriveforberedende øvelser",
+          "da": "Skriveforberedende øvelser",
+          "fi": "Kynäharjoitukset"
         }
       },
       "number-tracing": {
@@ -2219,7 +2227,11 @@
           "fr": "ecriture-des-chiffres",
           "pt": "numeros-pontilhados",
           "it": "numeri-tratteggiati",
-          "nl": "cijfers-schrijven"
+          "nl": "cijfers-schrijven",
+          "sv": "spara-siffror",
+          "no": "tallskriving",
+          "da": "skrive-tal",
+          "fi": "numeroiden-kirjoittaminen"
         },
         "name": {
           "en": "Number Tracing",
@@ -2228,7 +2240,11 @@
           "fr": "Écriture des chiffres",
           "pt": "Números pontilhados",
           "it": "Numeri tratteggiati",
-          "nl": "Cijfers schrijven"
+          "nl": "Cijfers schrijven",
+          "sv": "Spåra siffror",
+          "no": "Tallskriving",
+          "da": "Skrive tal",
+          "fi": "Numeroiden kirjoittaminen"
         }
       },
       "letter-tracing": {
@@ -2239,7 +2255,11 @@
           "fr": "ecriture-des-lettres",
           "pt": "alfabeto-pontilhado",
           "it": "lettere-tratteggiate",
-          "nl": "letters-overtrekken"
+          "nl": "letters-overtrekken",
+          "sv": "spara-bokstaver",
+          "no": "bokstavskriving",
+          "da": "bogstavtraening",
+          "fi": "kirjainten-kirjoittaminen"
         },
         "name": {
           "en": "Letter Tracing",
@@ -2248,7 +2268,11 @@
           "fr": "Écriture des lettres",
           "pt": "Alfabeto pontilhado",
           "it": "Lettere tratteggiate",
-          "nl": "Letters overtrekken"
+          "nl": "Letters overtrekken",
+          "sv": "Spåra bokstäver",
+          "no": "Bokstavskriving",
+          "da": "Bogstavtræning",
+          "fi": "Kirjainten kirjoittaminen"
         }
       },
       "sight-words": {
@@ -2259,7 +2283,11 @@
           "fr": "mots-outils",
           "pt": "palavras-frequentes",
           "it": "parole-frequenti",
-          "nl": "flitswoorden"
+          "nl": "flitswoorden",
+          "sv": "hogfrekventa-ord",
+          "no": "hoyfrekvente-ord",
+          "da": "hyppige-ord",
+          "fi": "yleiset-sanat"
         },
         "name": {
           "en": "Sight Words",
@@ -2268,7 +2296,11 @@
           "fr": "Mots-outils",
           "pt": "Palavras frequentes",
           "it": "Parole frequenti",
-          "nl": "Flitswoorden"
+          "nl": "Flitswoorden",
+          "sv": "Högfrekventa ord",
+          "no": "Høyfrekvente ord",
+          "da": "De hyppigste ord",
+          "fi": "Yleiset sanat"
         }
       },
       "cutting-practice": {
@@ -2279,7 +2311,11 @@
           "fr": "decoupage-collage",
           "pt": "recorte-e-colagem",
           "it": "ritaglia-e-incolla",
-          "nl": "knipoefeningen"
+          "nl": "knipoefeningen",
+          "sv": "klippovningar",
+          "no": "klipp-og-lim",
+          "da": "klip-og-klistre",
+          "fi": "leikkaa-ja-liimaa"
         },
         "name": {
           "en": "Cutting Practice",
@@ -2288,7 +2324,11 @@
           "fr": "Découpage et collage",
           "pt": "Recorte e colagem",
           "it": "Ritaglia e incolla",
-          "nl": "Knipoefeningen"
+          "nl": "Knipoefeningen",
+          "sv": "Klippövningar",
+          "no": "Klipp og lim",
+          "da": "Klip og klistre",
+          "fi": "Leikkaa ja liimaa"
         }
       },
       "color-by-number": {
@@ -2299,7 +2339,11 @@
           "fr": "coloriage-magique",
           "pt": "pinte-conforme-o-resultado",
           "it": "conta-e-colora",
-          "nl": "kleuren-op-code"
+          "nl": "kleuren-op-code",
+          "sv": "mala-efter-siffror",
+          "no": "fargelegg-etter-tall",
+          "da": "regn-og-farvelaeg",
+          "fi": "varityslaskut"
         },
         "name": {
           "en": "Color by Number",
@@ -2308,7 +2352,11 @@
           "fr": "Coloriage magique",
           "pt": "Pinte conforme o resultado",
           "it": "Conta e colora",
-          "nl": "Kleuren op code"
+          "nl": "Kleuren op code",
+          "sv": "Måla efter siffror",
+          "no": "Fargelegg etter tall",
+          "da": "Regn og farvelæg",
+          "fi": "Värityslaskut"
         }
       },
       "mazes": {
@@ -2319,7 +2367,11 @@
           "fr": "labyrinthes",
           "pt": "labirintos",
           "it": "labirinti",
-          "nl": "doolhoven"
+          "nl": "doolhoven",
+          "sv": "labyrinter",
+          "no": "labyrinter",
+          "da": "labyrinter",
+          "fi": "labyrintit"
         },
         "name": {
           "en": "Mazes",
@@ -2328,7 +2380,11 @@
           "fr": "Labyrinthes",
           "pt": "Labirintos",
           "it": "Labirinti",
-          "nl": "Doolhoven"
+          "nl": "Doolhoven",
+          "sv": "Labyrinter",
+          "no": "Labyrinter",
+          "da": "Labyrinter",
+          "fi": "Labyrintit"
         }
       },
       "number-bonds": {
@@ -2339,7 +2395,11 @@
           "fr": "complements-a-10",
           "pt": "decomposicao-de-numeros",
           "it": "amici-del-10",
-          "nl": "splitsen"
+          "nl": "splitsen",
+          "sv": "tiokompisar",
+          "no": "tiervenner",
+          "da": "tiervenner",
+          "fi": "lukujen-hajotelmat"
         },
         "name": {
           "en": "Number Bonds",
@@ -2348,7 +2408,11 @@
           "fr": "Compléments à 10",
           "pt": "Decomposição de números",
           "it": "Amici del 10",
-          "nl": "Splitsen"
+          "nl": "Splitsen",
+          "sv": "Tiokompisar",
+          "no": "Tiervenner",
+          "da": "Tiervenner",
+          "fi": "Lukujen hajotelmat"
         }
       },
       "mental-math": {
@@ -2359,7 +2423,11 @@
           "fr": "calcul-mental",
           "pt": "calculo-mental",
           "it": "calcolo-mentale",
-          "nl": "hoofdrekenen"
+          "nl": "hoofdrekenen",
+          "sv": "huvudrakning",
+          "no": "hoderegning",
+          "da": "hovedregning",
+          "fi": "paassalaskut"
         },
         "name": {
           "en": "Mental Math",
@@ -2368,7 +2436,11 @@
           "fr": "Calcul mental",
           "pt": "Cálculo mental",
           "it": "Calcolo mentale",
-          "nl": "Hoofdrekenen"
+          "nl": "Hoofdrekenen",
+          "sv": "Huvudräkning",
+          "no": "Hoderegning",
+          "da": "Hovedregning",
+          "fi": "Päässälaskut"
         }
       },
       "fact-families": {
@@ -2379,7 +2451,11 @@
           "fr": "familles-d-operations",
           "pt": "familia-de-fatos",
           "it": "famiglie-di-operazioni",
-          "nl": "sommenfamilies"
+          "nl": "sommenfamilies",
+          "sv": "raknefamiljer",
+          "no": "regnefamilier",
+          "da": "talfamilier",
+          "fi": "laskuperheet"
         },
         "name": {
           "en": "Fact Families",
@@ -2388,7 +2464,11 @@
           "fr": "Familles d'opérations",
           "pt": "Família de fatos",
           "it": "Famiglie di operazioni",
-          "nl": "Sommenfamilies"
+          "nl": "Sommenfamilies",
+          "sv": "Räknefamiljer",
+          "no": "Regnefamilier",
+          "da": "Talfamilier",
+          "fi": "Laskuperheet"
         }
       },
       "number-words": {
@@ -2399,7 +2479,11 @@
           "fr": "nombres-en-lettres",
           "pt": "numeros-por-extenso",
           "it": "numeri-in-lettere",
-          "nl": "getallen-in-woorden"
+          "nl": "getallen-in-woorden",
+          "sv": "tal-med-bokstaver",
+          "no": "tallord",
+          "da": "talord",
+          "fi": "lukusanat"
         },
         "name": {
           "en": "Number Words",
@@ -2408,7 +2492,11 @@
           "fr": "Nombres en lettres",
           "pt": "Números por extenso",
           "it": "Numeri in lettere",
-          "nl": "Getallen in woorden"
+          "nl": "Getallen in woorden",
+          "sv": "Tal med bokstäver",
+          "no": "Tallord",
+          "da": "Talord",
+          "fi": "Lukusanat"
         }
       },
       "money": {
@@ -2419,7 +2507,11 @@
           "fr": "compter-la-monnaie",
           "pt": "sistema-monetario",
           "it": "contare-le-monete",
-          "nl": "rekenen-met-geld"
+          "nl": "rekenen-met-geld",
+          "sv": "rakna-pengar",
+          "no": "regne-med-penger",
+          "da": "regne-med-penge",
+          "fi": "rahalaskut"
         },
         "name": {
           "en": "Counting Money",
@@ -2428,7 +2520,11 @@
           "fr": "Compter la monnaie",
           "pt": "Sistema monetário",
           "it": "Contare le monete",
-          "nl": "Rekenen met geld"
+          "nl": "Rekenen met geld",
+          "sv": "Räkna pengar",
+          "no": "Regne med penger",
+          "da": "Regne med penge",
+          "fi": "Rahalaskut"
         }
       },
       "word-problems": {
@@ -2439,7 +2535,11 @@
           "fr": "petits-problemes",
           "pt": "situacoes-problema",
           "it": "problemi-con-addizioni-e-sottrazioni",
-          "nl": "verhaaltjessommen"
+          "nl": "verhaaltjessommen",
+          "sv": "raknehandelser",
+          "no": "regnefortellinger",
+          "da": "regnehistorier",
+          "fi": "sanalliset-tehtavat"
         },
         "name": {
           "en": "Word Problems",
@@ -2448,7 +2548,11 @@
           "fr": "Petits problèmes",
           "pt": "Situações problema",
           "it": "Problemi con addizioni e sottrazioni",
-          "nl": "Verhaaltjessommen"
+          "nl": "Verhaaltjessommen",
+          "sv": "Räknehändelser",
+          "no": "Regnefortellinger",
+          "da": "Regnehistorier",
+          "fi": "Sanalliset tehtävät"
         }
       },
       "column-arithmetic": {
@@ -2459,7 +2563,11 @@
           "fr": "operations-posees",
           "pt": "continhas-armadas",
           "it": "operazioni-in-colonna",
-          "nl": "sommen-onder-elkaar"
+          "nl": "sommen-onder-elkaar",
+          "sv": "uppstallning",
+          "no": "oppstilt-addisjon-og-subtraksjon",
+          "da": "regne-med-opstilling",
+          "fi": "allekkain-laskeminen"
         },
         "name": {
           "en": "Column Addition and Subtraction",
@@ -2468,7 +2576,11 @@
           "fr": "Opérations posées",
           "pt": "Continhas armadas",
           "it": "Operazioni in colonna",
-          "nl": "Sommen onder elkaar"
+          "nl": "Sommen onder elkaar",
+          "sv": "Uppställning",
+          "no": "Oppstilt addisjon og subtraksjon",
+          "da": "Regne med opstilling",
+          "fi": "Allekkain laskeminen"
         }
       },
       "symmetry": {
@@ -2479,7 +2591,11 @@
           "fr": "symetrie",
           "pt": "simetria",
           "it": "simmetria",
-          "nl": "spiegelen"
+          "nl": "spiegelen",
+          "sv": "symmetri",
+          "no": "symmetri",
+          "da": "spejling",
+          "fi": "symmetria"
         },
         "name": {
           "en": "Symmetry",
@@ -2488,7 +2604,11 @@
           "fr": "Symétrie",
           "pt": "Simetria",
           "it": "Simmetria",
-          "nl": "Spiegelen en symmetrie"
+          "nl": "Spiegelen en symmetrie",
+          "sv": "Symmetri",
+          "no": "Symmetri",
+          "da": "Spejling og symmetri",
+          "fi": "Symmetria"
         }
       },
       "reading-comprehension": {
@@ -2499,7 +2619,11 @@
           "fr": "lecture-comprehension",
           "pt": "interpretacao-de-texto",
           "it": "comprensione-del-testo",
-          "nl": "begrijpend-lezen"
+          "nl": "begrijpend-lezen",
+          "sv": "lasforstaelse",
+          "no": "leseforstaelse",
+          "da": "laeseforstaaelse",
+          "fi": "luetun-ymmartaminen"
         },
         "name": {
           "en": "Reading Comprehension",
@@ -2508,7 +2632,11 @@
           "fr": "Lecture et compréhension",
           "pt": "Interpretação de texto",
           "it": "Comprensione del testo",
-          "nl": "Begrijpend lezen"
+          "nl": "Begrijpend lezen",
+          "sv": "Läsförståelse",
+          "no": "Leseforståelse",
+          "da": "Læseforståelse",
+          "fi": "Luetun ymmärtäminen"
         }
       },
       "multiplication-tables": {
@@ -2519,7 +2647,11 @@
           "fr": "tables-de-multiplication",
           "pt": "tabuada",
           "it": "tabelline",
-          "nl": "tafels-oefenen"
+          "nl": "tafels-oefenen",
+          "sv": "multiplikationstabeller",
+          "no": "gangetabellen",
+          "da": "gangetabeller",
+          "fi": "kertotaulut"
         },
         "name": {
           "en": "Multiplication Tables",
@@ -2528,7 +2660,11 @@
           "fr": "Tables de multiplication",
           "pt": "Tabuada",
           "it": "Tabelline",
-          "nl": "Tafels oefenen"
+          "nl": "Tafels oefenen",
+          "sv": "Multiplikationstabeller",
+          "no": "Gangetabellen",
+          "da": "Gangetabeller",
+          "fi": "Kertotaulut"
         }
       }
     },

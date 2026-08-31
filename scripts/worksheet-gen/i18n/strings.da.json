@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Sortér i grupper",
     "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-236": {
+    "title": "Skriveforberedende øvelser",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-237": {
+    "title": "Skriv tallene fra 0 til 9",
+    "instruction": "Skriv oven i hvert tal. Start ved den orange prik, og følg pilene."
+  },
+  "K-238": {
+    "title": "Skriv de store bogstaver",
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."
+  },
+  "K-239": {
+    "title": "Hyppige ord: læs og skriv",
+    "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."
+  },
+  "K-240": {
+    "title": "Klip, sortér og klistre",
+    "instruction": "Klip billederne nederst på siden ud. Sortér dem, og lim hvert billede ind i den rigtige kasse."
+  },
+  "K-241": {
+    "title": "Regn og farvelæg",
+    "instruction": "Regn stykket ud i hver figur. Farvelæg figuren med den farve, der passer til svaret."
+  },
+  "K-242": {
+    "title": "Find vej i labyrinten",
+    "instruction": "Start øverst. Tegn en vej gennem labyrinten, til du når målet nederst."
+  },
+  "K-243": {
+    "title": "Tiervenner op til 10",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "G1-208": {
+    "title": "Hovedregning op til 20",
+    "instruction": "Regn hvert stykke i hovedet, og skriv det manglende tal i kassen."
+  },
+  "G1-209": {
+    "title": "Talfamilier i huset",
+    "instruction": "Brug de tre tal på taget, og gør de fire regnestykker under taget færdige."
+  },
+  "G1-210": {
+    "title": "Tal og talord",
+    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+  },
+  "G1-211": {
+    "title": "Tæl mønterne",
+    "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."
+  },
+  "G1-212": {
+    "title": "Tegn viserne på uret",
+    "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."
+  },
+  "G1-213": {
+    "title": "Regnehistorier med billeder",
+    "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."
+  },
+  "G2-251": {
+    "title": "Plus og minus med opstilling",
+    "instruction": "Regn hvert stykke i opstillingen. Regn først enerne og derefter tierne."
+  },
+  "G2-252": {
+    "title": "Målebægre og vægte",
+    "instruction": "Aflæs hvert målebæger og hver vægt. Skriv svaret med den rigtige enhed."
+  },
+  "G2-253": {
+    "title": "Tegn spejlbilledet færdigt",
+    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+  },
+  "G2-254": {
+    "title": "Læs og svar",
+    "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."
+  },
+  "G3-357": {
+    "title": "Plus og minus med tierovergang",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når enerne går over ni, eller når du ikke kan trække fra."
+  },
+  "G3-358": {
+    "title": "Øv den lille tabel",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
   }
 }

@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Lajittele ryhmiin",
     "instruction": "Vedä viiva jokaisesta kuvasta ryhmään, johon se kuuluu."
+  },
+  "K-236": {
+    "title": "Kynäharjoitukset: viivat ja silmukat",
+    "instruction": "Piirrä viivaa pitkin kynällä. Aloita oranssista pisteestä ja seuraa nuolta."
+  },
+  "K-237": {
+    "title": "Numeroiden kirjoitusharjoitus 0–9",
+    "instruction": "Kirjoita numerot viivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia."
+  },
+  "K-238": {
+    "title": "Isojen kirjainten kirjoitusharjoitus",
+    "instruction": "Kirjoita kirjaimet katkoviivoja pitkin. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-239": {
+    "title": "Yleiset sanat: lue, jäljennä, kirjoita",
+    "instruction": "Lue sana. Kirjoita se ensin katkoviivojen päälle ja sitten itse tyhjälle viivalle."
+  },
+  "K-240": {
+    "title": "Leikkaa, lajittele ja liimaa",
+    "instruction": "Leikkaa kuvat irti sivun alareunasta. Lajittele ne ja liimaa jokainen omaan laatikkoonsa."
+  },
+  "K-241": {
+    "title": "Väritä koodin mukaan",
+    "instruction": "Katso värikoodia. Väritä jokainen kuvio koodin mukaisella värillä."
+  },
+  "K-242": {
+    "title": "Labyrintti",
+    "instruction": "Aloita ylhäältä. Piirrä reitti labyrintin läpi maaliin asti."
+  },
+  "K-243": {
+    "title": "Lukujen hajotelmat 10:een",
+    "instruction": "Katso hajotelmaa. Kirjoita puuttuva luku tyhjään ympyrään."
+  },
+  "G1-208": {
+    "title": "Päässälaskut 0–20",
+    "instruction": "Laske jokainen tehtävä päässäsi ja kirjoita vastaus laatikkoon."
+  },
+  "G1-209": {
+    "title": "Laskuperheet",
+    "instruction": "Katso katon kolmea lukua. Täydennä neljä laskua, jotka kuuluvat samaan laskuperheeseen."
+  },
+  "G1-210": {
+    "title": "Lukusanat",
+    "instruction": "Lue numero huolellisesti ja ympyröi lukusana, joka tarkoittaa samaa lukua."
+  },
+  "G1-211": {
+    "title": "Rahalaskut: eurot ja sentit",
+    "instruction": "Laske kukkaron kolikot yhteen. Kirjoita rahasumma laatikkoon."
+  },
+  "G1-212": {
+    "title": "Piirrä kellon viisarit",
+    "instruction": "Lue aika kellon alta. Piirrä kelloon tuntiviisari ja minuuttiviisari."
+  },
+  "G1-213": {
+    "title": "Sanalliset tehtävät kuvien avulla",
+    "instruction": "Lue tarina rauhassa. Katso kuvia avuksi ja kirjoita vastaus laatikkoon."
+  },
+  "G2-251": {
+    "title": "Yhteen- ja vähennyslasku allekkain",
+    "instruction": "Laske yksi numeropaikka kerrallaan. Aloita ykkösistä."
+  },
+  "G2-252": {
+    "title": "Tilavuus ja massa",
+    "instruction": "Lue mitta-astian ja vaa'an lukema. Kirjoita vastaus ja yksikkö laatikkoon."
+  },
+  "G2-253": {
+    "title": "Täydennä peilikuva",
+    "instruction": "Kuvasta on valmiina vain puolet. Väritä ruudut viivan toiselle puolelle niin, että kuvasta tulee symmetrinen."
+  },
+  "G2-254": {
+    "title": "Lue ja vastaa",
+    "instruction": "Lue tarina huolellisesti. Ympyröi sitten jokaiseen kysymykseen oikea vastaus."
+  },
+  "G3-357": {
+    "title": "Allekkain laskeminen kymmenylityksellä",
+    "instruction": "Laske tehtävät allekkain. Muista muistinumero yhteenlaskussa ja lainaaminen vähennyslaskussa."
+  },
+  "G3-358": {
+    "title": "Kertotauluharjoitus",
+    "instruction": "Laske kertolaskut ja kirjoita jokainen vastaus omaan laatikkoonsa."
   }
 }

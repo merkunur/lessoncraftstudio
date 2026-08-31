@@ -734,6 +734,422 @@ const READING_PASSAGES = {
         }
       ]
     }
+  ],
+  "sv": [
+    {
+      "id": "sv-katt",
+      "title": "Majas katt",
+      "text": "Maja har en liten grå katt som heter Smulan. Smulan tycker mest om att sova i den varma tvättkorgen i hallen. På kvällen ger Maja henne mat och Smulan spinner högt.",
+      "questions": [
+        {
+          "q": "Vad heter Majas katt?",
+          "choices": [
+            "Smulan",
+            "Missan",
+            "Tussan"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Var tycker Smulan om att sova?",
+          "choices": [
+            "I Majas säng",
+            "I tvättkorgen",
+            "På soffan"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Varför spinner Smulan på kvällen?",
+          "choices": [
+            "Hon är arg",
+            "Hon är rädd",
+            "Hon trivs och är nöjd"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "sv-cykel",
+      "title": "Hugo lär sig cykla",
+      "text": "Hugo har fått en ny blå cykel av farmor. Första dagen övar han på gården med pappa som håller i pakethållaren. Plötsligt släpper pappa taget, men Hugo märker det inte och cyklar vidare helt själv. När han stannar jublar pappa och klappar i händerna. Hugo ler stort och vill genast cykla en gång till.",
+      "questions": [
+        {
+          "q": "Vem har Hugo fått cykeln av?",
+          "choices": [
+            "Av pappa",
+            "Av farmor",
+            "Av sin bror"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Var övar Hugo på att cykla?",
+          "choices": [
+            "På gården",
+            "I parken",
+            "På vägen"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Varför jublar pappa?",
+          "choices": [
+            "Det är Hugos födelsedag",
+            "Cykeln är ny",
+            "Hugo cyklar helt själv"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "sv-utflykt",
+      "title": "Utflykten till skogen",
+      "text": "Klass 2A ska på utflykt till skogen en solig dag i september. Alla barn har ryggsäck med matsäck och regnkläder. Vera hittar en stor svamp under en gran och ropar på fröken. Fröken säger att de bara får titta, inte plocka, för ingen vet om svampen är giftig. Vid elden grillar barnen korv och dricker varm choklad. På vägen hem sjunger hela klassen så att det hörs långt bort.",
+      "questions": [
+        {
+          "q": "Vad hittar Vera under granen?",
+          "choices": [
+            "En kotte",
+            "En stor svamp",
+            "En sten"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Vad äter barnen vid elden?",
+          "choices": [
+            "Pannkakor",
+            "Smörgåsar",
+            "Korv"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Hur känner sig barnen på vägen hem?",
+          "choices": [
+            "Glada",
+            "Ledsna",
+            "Arga"
+          ],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "no": [
+    {
+      "id": "pus-i-vinduskarmen",
+      "title": "Pus i vinduskarmen",
+      "text": "Nora har en katt som heter Pus. Pus liker å sove i vinduskarmen når sola skinner. I dag hopper Pus ned og leker med et rødt garnnøste på gulvet.",
+      "questions": [
+        {
+          "q": "Hva heter katten til Nora?",
+          "choices": [
+            "Pus",
+            "Findus",
+            "Mons"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Hvor liker Pus å sove?",
+          "choices": [
+            "I sengen til Nora",
+            "I vinduskarmen",
+            "Under bordet"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Hvorfor hopper Pus ned fra vinduskarmen?",
+          "choices": [
+            "Fordi han vil leke",
+            "Fordi han er sulten",
+            "Fordi han er redd"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "oliver-laerer-a-sykle",
+      "title": "Oliver lærer å sykle",
+      "text": "Oliver har fått en blå sykkel av bestefar. Hver dag øver han i bakgården sammen med pappa. Først vingler sykkelen, og Oliver må sette ned foten mange ganger. Men Oliver gir seg ikke, og han prøver igjen og igjen. På lørdag sykler han helt rundt huset uten å stoppe!",
+      "questions": [
+        {
+          "q": "Hvilken farge har sykkelen til Oliver?",
+          "choices": [
+            "Rød",
+            "Grønn",
+            "Blå"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Hvor øver Oliver på å sykle?",
+          "choices": [
+            "I bakgården",
+            "I parken",
+            "På skolen"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Hva viser fortellingen om Oliver?",
+          "choices": [
+            "Han gir seg fort",
+            "Han øver til han får det til",
+            "Han liker ikke sykkelen"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "tur-til-fjaera",
+      "title": "Tur til fjæra",
+      "text": "Klassen til Sofie skal på tur til fjæra en solskinnsdag i mai. Alle barna har med seg sekk, matpakke og støvler. Nede ved vannet viser læreren dem en liten krabbe som gjemmer seg under en stein. Sofie finner et blankt skjell som hun legger forsiktig i sekken sin. Etterpå sitter hele klassen på et stort svaberg og spiser matpakkene sine. På veien hjem bestemmer Sofie seg for å gi skjellet til mormor, som samler på fine ting.",
+      "questions": [
+        {
+          "q": "Hva viser læreren barna ved vannet?",
+          "choices": [
+            "Et skjell",
+            "En liten krabbe",
+            "En sjøstjerne"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Hvor spiser barna matpakkene sine?",
+          "choices": [
+            "På bussen",
+            "Nede i sanden",
+            "På et stort svaberg"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Hvorfor vil Sofie gi skjellet til mormor?",
+          "choices": [
+            "Fordi mormor samler på fine ting",
+            "Fordi hun ikke liker skjellet",
+            "Fordi læreren sier det"
+          ],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "da": [
+    {
+      "id": "da-frejas-kat",
+      "title": "Frejas kat",
+      "text": "Freja har en lille grå kat, der hedder Musse. Hver eftermiddag sover Musse i vindueskarmen, hvor solen varmer ham. Om aftenen giver Freja ham fisk og en stor skål mælk.",
+      "questions": [
+        {
+          "q": "Hvad hedder Frejas kat?",
+          "choices": [
+            "Misse",
+            "Musse",
+            "Mille"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Hvad får Musse om aftenen?",
+          "choices": [
+            "Fisk og mælk",
+            "Brød og vand",
+            "Kød og ost"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Hvorfor ligger Musse i vindueskarmen?",
+          "choices": [
+            "Fordi der er koldt på gulvet",
+            "Fordi solen varmer der",
+            "Fordi Freja siger, han skal"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "da-william-og-cyklen",
+      "title": "William og cyklen",
+      "text": "William har fået en ny rød cykel af sin farfar. Hver dag efter skole cykler han en tur rundt om søen sammen med sin ven Noah. I dag har de en pose boller med i kurven. De sætter sig på en bænk og deler bollerne, mens ænderne kigger på. Til sidst cykler de hjem, inden det bliver mørkt.",
+      "questions": [
+        {
+          "q": "Hvem har William fået cyklen af?",
+          "choices": [
+            "Sin farfar",
+            "Sin mor",
+            "Sin ven Noah"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Hvad har drengene med i kurven?",
+          "choices": [
+            "En pose æbler",
+            "En pose boller",
+            "En flaske saft"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Hvorfor cykler drengene hjem til sidst?",
+          "choices": [
+            "Fordi det snart bliver mørkt",
+            "Fordi det begynder at regne",
+            "Fordi de er sultne"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "da-almas-have",
+      "title": "Almas have",
+      "text": "Alma hjælper sin bedstemor i den store have hver lørdag. I foråret sår de gulerødder og ærter i de lange bede. Alma vander de små planter med sin grønne vandkande. En dag ser hun, at der er kommet grønne spirer op af jorden. Hun råber glad på bedstemor, som kommer løbende med det samme. Til sommer skal de høste grøntsagerne og lave en stor gryde suppe sammen.",
+      "questions": [
+        {
+          "q": "Hvad sår Alma og bedstemor i foråret?",
+          "choices": [
+            "Gulerødder og ærter",
+            "Kartofler og løg",
+            "Tomater og agurker"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Hvilken farve har Almas vandkande?",
+          "choices": [
+            "Rød",
+            "Gul",
+            "Grøn"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Hvorfor råber Alma på sin bedstemor?",
+          "choices": [
+            "Fordi hun har slået sig",
+            "Fordi hun er glad for spirerne",
+            "Fordi hun vil hjem nu"
+          ],
+          "correct": 1
+        }
+      ]
+    }
+  ],
+  "fi": [
+    {
+      "id": "fi-r0",
+      "title": "Ainon kissa",
+      "text": "Ainolla on harmaa kissa nimeltä Viiru. Aamulla Viiru hyppää Ainon sängylle ja herättää hänet hiljaa naukumalla. Aino antaa Viirulle ruokaa ja silittää sitä, ennen kuin lähtee kouluun.",
+      "questions": [
+        {
+          "q": "Minkä värinen Ainon kissa on?",
+          "choices": [
+            "musta",
+            "harmaa",
+            "valkoinen"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Miten Viiru herättää Ainon?",
+          "choices": [
+            "naukumalla hiljaa",
+            "haukkumalla kovaa",
+            "raapimalla ovea"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mihin aikaan päivästä tarina tapahtuu?",
+          "choices": [
+            "illalla",
+            "yöllä",
+            "aamulla"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "fi-r1",
+      "title": "Onnin pyöräretki",
+      "text": "Onni ja hänen isänsä lähtivät sunnuntaina pyöräretkelle. He ajoivat kapeaa metsätietä pitkin järven rantaan ja pysähtyivät syömään eväitä. Onni löysi rannalta sileän kiven ja pisti sen taskuunsa muistoksi. Kotimatkalla alkoi sataa, ja he polkivat kovaa vauhtia kotiin. Perillä äiti keitti heille lämmintä kaakaota.",
+      "questions": [
+        {
+          "q": "Minne Onni ja isä ajoivat pyörillä?",
+          "choices": [
+            "järven rantaan",
+            "kauppaan",
+            "mummolaan"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mitä Onni löysi rannalta?",
+          "choices": [
+            "simpukan",
+            "kiven",
+            "kävyn"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Miksi Onni ja isä polkivat kotimatkalla kovaa vauhtia?",
+          "choices": [
+            "koska alkoi sataa",
+            "koska he olivat myöhässä",
+            "koska heitä paleli"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fi-r2",
+      "title": "Helmin leipomispäivä",
+      "text": "Helmi ja mummo päättivät leipoa pullaa lauantaina. Helmi mittasi jauhot kulhoon, ja mummo lisäsi hiivan ja maidon. Taikina sai kohota keittiön lämmössä, ja odottaessaan Helmi piirsi kuvan mummolle. Sitten he pyörittivät taikinasta pieniä pullia ja ripottelivat päälle sokeria. Kun pullat paistuivat uunissa, koko keittiö tuoksui niin ihanalta, että Helmin vatsa kurni. Illalla Helmi vei kaksi pullaa naapurin Väinölle, joka kiitti ja hymyili leveästi.",
+      "questions": [
+        {
+          "q": "Mitä Helmi ja mummo leipoivat?",
+          "choices": [
+            "leipää",
+            "piirakkaa",
+            "pullaa"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Mitä Helmi teki, kun taikina kohosi?",
+          "choices": [
+            "piirsi kuvan mummolle",
+            "luki kirjaa",
+            "leikki pihalla"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Miltä Väinöstä tuntui, kun hän sai pullat?",
+          "choices": [
+            "surulliselta",
+            "iloiselta",
+            "väsyneeltä"
+          ],
+          "correct": 1
+        }
+      ]
+    }
   ]
 };
 

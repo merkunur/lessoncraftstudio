@@ -958,5 +958,85 @@
   "K-235": {
     "title": "Sorter etter kategori",
     "instruction": "Tegn en strek fra hvert bilde til gruppa det hører til."
+  },
+  "K-236": {
+    "title": "Blyantløyper",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-237": {
+    "title": "Spor tallene fra 0 til 9",
+    "instruction": "Spor hvert tall. Start på den oransje prikken og følg pilene."
+  },
+  "K-238": {
+    "title": "Spor de store bokstavene",
+    "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."
+  },
+  "K-239": {
+    "title": "Høyfrekvente ord: les, spor, skriv",
+    "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."
+  },
+  "K-240": {
+    "title": "Klipp, sorter og lim",
+    "instruction": "Klipp ut bildene nederst. Sorter dem og lim hvert bilde i riktig boks."
+  },
+  "K-241": {
+    "title": "Regn og fargelegg",
+    "instruction": "Se på koden øverst. Regn ut, og fargelegg hver figur med fargen som passer."
+  },
+  "K-242": {
+    "title": "Labyrint",
+    "instruction": "Start øverst. Tegn en vei gjennom labyrinten helt frem til målet nederst."
+  },
+  "K-243": {
+    "title": "Tiervenner",
+    "instruction": "Finn tiervennene. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "G1-208": {
+    "title": "Hoderegning til 20",
+    "instruction": "Regn ut hvert stykke i hodet. Skriv tallet som mangler i ruten."
+  },
+  "G1-209": {
+    "title": "Regnefamilier",
+    "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene som hører sammen."
+  },
+  "G1-210": {
+    "title": "Tallord",
+    "instruction": "Les tallet i ruten. Sett ring rundt tallordet som passer til det."
+  },
+  "G1-211": {
+    "title": "Telle mynter",
+    "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."
+  },
+  "G1-212": {
+    "title": "Tegn viserne på klokka",
+    "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."
+  },
+  "G1-213": {
+    "title": "Regnefortellinger med bilder",
+    "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."
+  },
+  "G2-251": {
+    "title": "Oppstilt addisjon og subtraksjon",
+    "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."
+  },
+  "G2-252": {
+    "title": "Litermål og skålvekt",
+    "instruction": "Les av hvert litermål og hver skålvekt. Skriv svaret med riktig enhet."
+  },
+  "G2-253": {
+    "title": "Fullfør symmetribildet",
+    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene på den andre siden av streken, slik at bildet blir symmetrisk."
+  },
+  "G2-254": {
+    "title": "Les og svar",
+    "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."
+  },
+  "G3-357": {
+    "title": "Addisjon og subtraksjon med tierovergang",
+    "instruction": "Regn ut hvert stykke. Husk minnetall når du legger sammen, og veksling når du trekker fra."
+  },
+  "G3-358": {
+    "title": "Den lille gangetabellen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
   }
 }

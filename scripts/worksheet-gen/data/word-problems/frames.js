@@ -196,6 +196,144 @@ const FRAMES = {
         "Er zijn {n1} {noun}. {name} pakt er {n2} weg. Hoeveel {noun} zijn er nog over?"
       ]
     }
+  },
+  "sv": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Elsa",
+      "Hugo",
+      "Alma",
+      "Liam",
+      "Maja",
+      "Oscar",
+      "Vera",
+      "Elias"
+    ],
+    "frames": {
+      "add": [
+        "{name} har {n1} {noun} och får {n2} {noun} till. Hur många {noun} har {name} nu?",
+        "{name} ser först {n1} {noun} och sedan {n2} {noun} till. Hur många {noun} ser {name} sammanlagt?",
+        "{name} räknar {n1} {noun}. {name} hittar {n2} {noun} till. Hur många {noun} blir det tillsammans?",
+        "{name} har {n1} {noun}. En kompis ger {name} {n2} {noun}. Hur många {noun} har {name} då?"
+      ],
+      "sub": [
+        "{name} har {n1} {noun} och ger bort {n2} {noun}. Hur många {noun} har {name} kvar?",
+        "{name} har {n1} {noun}. {name} tappar bort {n2} {noun}. Hur många {noun} finns kvar?",
+        "{name} räknar {n1} {noun}. Sedan försvinner {n2} {noun}. Hur många {noun} är kvar?"
+      ]
+    }
+  },
+  "no": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Nora",
+      "Jakob",
+      "Emma",
+      "Oliver",
+      "Ella",
+      "Aksel",
+      "Sofie",
+      "Theodor"
+    ],
+    "frames": {
+      "add": [
+        "{name} har {n1} {noun}. {name} får {n2} {noun} til. Hvor mange {noun} har {name} nå?",
+        "{name} finner {n1} {noun}. Etterpå finner {name} {n2} {noun} til. Hvor mange {noun} finner {name} til sammen?",
+        "{name} ser {n1} {noun}. Så ser {name} {n2} {noun} til. Hvor mange {noun} ser {name} i alt?",
+        "{name} har {n1} {noun} i en kurv og {n2} {noun} i en pose. Hvor mange {noun} har {name} til sammen?"
+      ],
+      "sub": [
+        "{name} har {n1} {noun}. {name} gir bort {n2} {noun}. Hvor mange {noun} har {name} igjen?",
+        "{name} har {n1} {noun}. {name} mister {n2} {noun}. Hvor mange {noun} har {name} igjen?",
+        "{name} har {n1} {noun}. {n2} {noun} blir borte. Hvor mange {noun} er igjen?"
+      ]
+    }
+  },
+  "da": {
+    "nounForm": "plural",
+    "nounCase": "lower",
+    "names": [
+      "Ida",
+      "William",
+      "Freja",
+      "Oscar",
+      "Alma",
+      "Noah",
+      "Clara",
+      "Emil"
+    ],
+    "frames": {
+      "add": [
+        "{name} har {n1} {noun}. {name} får {n2} {noun} til. Hvor mange {noun} har {name} nu i alt?",
+        "{name} ser {n1} {noun}. Så ser {name} {n2} {noun} til. Hvor mange {noun} ser {name} i alt?",
+        "Der er {n1} {noun} i en kasse. {name} lægger {n2} {noun} ned i kassen. Hvor mange {noun} er der nu i kassen?",
+        "{name} har {n1} {noun}. En ven giver {name} {n2} {noun}. Hvor mange {noun} har {name} nu?"
+      ],
+      "sub": [
+        "{name} har {n1} {noun}. {name} giver {n2} {noun} væk. Hvor mange {noun} har {name} tilbage?",
+        "{name} har {n1} {noun}. {name} mister {n2} {noun}. Hvor mange {noun} er der tilbage?",
+        "Der er {n1} {noun} i en kurv. {name} tager {n2} {noun} op af kurven. Hvor mange {noun} er der tilbage i kurven?"
+      ]
+    }
+  },
+  "fi": {
+    "nounForm": "partitive",
+    "nounCase": "lower",
+    "nounForms": {
+      "avocado": "avokadoa",
+      "apricot": "aprikoosia",
+      "banana": "banaania",
+      "apple": "omenaa",
+      "blackberry": "karhunvatukkaa",
+      "blueberry": "mustikkaa",
+      "cherry": "kirsikkaa",
+      "clementine": "klementiiniä",
+      "coconut": "kookospähkinää",
+      "fig": "viikunaa",
+      "cranberry": "karpaloa",
+      "grapefruit": "greippiä",
+      "kiwi": "kiiviä",
+      "lemon": "sitruunaa",
+      "lime": "limettiä",
+      "mango": "mangoa",
+      "orange": "appelsiinia",
+      "papaya": "papaijaa",
+      "peach": "persikkaa",
+      "nectarine": "nektariinia",
+      "pear": "päärynää",
+      "persimmon": "persimonia",
+      "pineapple": "ananasta",
+      "plum": "luumua",
+      "pomegranate": "granaattiomenaa",
+      "watermelon": "vesimelonia",
+      "strawberry": "mansikkaa",
+      "raspberry": "vadelmaa"
+    },
+    "names": [
+      "Aino",
+      "Eeli",
+      "Sofia",
+      "Onni",
+      "Aada",
+      "Väinö",
+      "Helmi",
+      "Leo"
+    ],
+    "frames": {
+      "add": [
+        "{name} saa aamulla {n1} {noun} ja iltapäivällä vielä {n2} {noun}. Kuinka monta {noun} {name} saa yhteensä?",
+        "{name} löytää ensin {n1} {noun} ja sitten vielä {n2} {noun}. Kuinka monta {noun} {name} löytää kaikkiaan?",
+        "Korissa on {n1} {noun}. {name} laittaa koriin vielä {n2} {noun}. Kuinka monta {noun} korissa on nyt?",
+        "{name} näkee kuvassa {n1} {noun} ja toisessa kuvassa {n2} {noun}. Kuinka monta {noun} {name} näkee yhteensä?"
+      ],
+      "sub": [
+        "Korissa on {n1} {noun}. {name} ottaa niistä pois {n2}. Kuinka monta {noun} koriin jää?",
+        "{name} saa {n1} {noun} ja antaa niistä pois {n2}. Kuinka monta {noun} jää jäljelle?",
+        "{name} kantaa {n1} {noun}. Matkalla niistä putoaa {n2}. Kuinka monta {noun} {name} kantaa perille?"
+      ]
+    }
   }
 };
 

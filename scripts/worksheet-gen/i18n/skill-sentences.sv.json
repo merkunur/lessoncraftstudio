@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Att höra ljuden och stavelserna inuti ord bygger den fonologiska medvetenhet som flytande läsning bygger på.",
     "short": "Tränar fonologisk medvetenhet."
+  },
+  "pre-writing": {
+    "full": "Att spåra öglor, vågor och sicksacklinjer tränar den pennkontroll och handstyrka som alla bokstäver och siffror bygger på.",
+    "short": "Tränar pennkontroll och finmotorik inför skrivandet."
+  },
+  "number-tracing": {
+    "full": "Att spåra varje siffra längs sin väg, med startprick och pilar, ger rätt sifferform redan från början.",
+    "short": "Tränar att forma siffrorna på rätt sätt."
+  },
+  "letter-tracing": {
+    "full": "Att spåra stora bokstäver på skrivlinjer bygger upp bokstavsformerna och de säkra pennrörelser som tidigt skrivande vilar på.",
+    "short": "Tränar att forma stora bokstäver rätt."
+  },
+  "sight-words": {
+    "full": "Att läsa, spåra och skriva högfrekventa ord gör dem till säkra ordbilder, så att läsningen kan handla om innehållet.",
+    "short": "Tränar snabb igenkänning av vanliga ord."
+  },
+  "cutting-practice": {
+    "full": "Att klippa ut bilder och klistra in dem i rätt grupp tränar saxgrepp, precision och tidigt sorteringstänkande i en och samma uppgift.",
+    "short": "Tränar saxvana, precision och sortering."
+  },
+  "color-by-number": {
+    "full": "När varje kod får sin färg blir noggrant tittande och enkla tal en bild som är rolig att göra färdig.",
+    "short": "Tränar taluppfattning genom färgläggning."
+  },
+  "mazes": {
+    "full": "Att hitta den enda vägen genom labyrinten tränar visuell planering, pennkontroll och tålmodig problemlösning.",
+    "short": "Tränar visuell planering och pennkontroll."
+  },
+  "number-bonds": {
+    "full": "Att fylla i tiokompisar och talkamrater visar hur tal kan delas upp och ger de uppdelningar som huvudräkningen bygger på.",
+    "short": "Tränar talens uppdelning upp till 10."
+  },
+  "mental-math": {
+    "full": "Att räkna addition och subtraktion upp till 20 i huvudet ger den säkerhet som de skriftliga metoderna sedan vilar på.",
+    "short": "Tränar huvudräkning med tal upp till 20."
+  },
+  "fact-families": {
+    "full": "Att skriva alla fyra uppgifter ur samma taltrio visar hur addition och subtraktion hänger ihop och tar ut varandra.",
+    "short": "Tränar sambandet mellan addition och subtraktion."
+  },
+  "number-words": {
+    "full": "Att para ihop siffror med tal skrivna med bokstäver stärker talläsningen och skyddar mot omkastade siffror.",
+    "short": "Tränar att läsa och skriva tal med bokstäver."
+  },
+  "money": {
+    "full": "Att räkna mynt från störst till minst värde bygger den pengakänsla barn har nytta av i vardagen.",
+    "short": "Tränar myntens värde och att räkna pengar."
+  },
+  "word-problems": {
+    "full": "Att läsa en kort räknehändelse, ta hjälp av bilden och skriva svaret gör matematiken till verklig problemlösning.",
+    "short": "Tränar räknehändelser med stöd av bilder."
+  },
+  "column-arithmetic": {
+    "full": "Att räkna en talsort i taget i uppställning ger den noggranna skriftliga metod som fungerar för allt större tal.",
+    "short": "Tränar skriftlig räkning med uppställning."
+  },
+  "symmetry": {
+    "full": "Att färglägga spegelbildens andra halva ruta för ruta bygger förståelse för symmetri och noggrant rumsligt tänkande.",
+    "short": "Tränar symmetri, spegelbilder och rumsuppfattning."
+  },
+  "reading-comprehension": {
+    "full": "Att läsa en kort text och svara på frågor om den bygger den noggranna läsförståelse som allt lärande vilar på.",
+    "short": "Tränar läsförståelse med korta texter."
+  },
+  "multiplication-tables": {
+    "full": "Att träna multiplikationstabellerna om och om igen ger den snabba tabellkunskap som gör svårare matematik lätt.",
+    "short": "Tränar multiplikationstabellerna till säkerhet."
   }
 }

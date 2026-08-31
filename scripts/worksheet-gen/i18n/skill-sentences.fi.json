@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Sanojen sisältämien äänteiden ja tavujen kuuleminen rakentaa kielellistä tietoisuutta, jolle sujuva lukeminen perustuu.",
     "short": "Vahvistaa kielellistä tietoisuutta."
+  },
+  "pre-writing": {
+    "full": "Silmukoiden, aaltojen ja sahalaitojen jäljentäminen vahvistaa kynänhallintaa, jolle kaikki kirjaimet ja numerot rakentuvat.",
+    "short": "Vahvistaa kynänhallintaa ja hienomotoriikkaa."
+  },
+  "number-tracing": {
+    "full": "Numeroiden jäljentäminen aloituspisteen ja nuolten avulla opettaa oikean piirtosuunnan heti ensimmäisestä yrityksestä alkaen.",
+    "short": "Opettaa numeroiden oikean kirjoitustavan."
+  },
+  "letter-tracing": {
+    "full": "Isojen kirjainten jäljentäminen viivastolle vahvistaa kirjainmuotojen muistamista ja varmoja kynänvetoja kirjoittamisen pohjaksi.",
+    "short": "Vahvistaa isojen kirjainten kirjoittamista."
+  },
+  "sight-words": {
+    "full": "Yleisten sanojen lukeminen, jäljentäminen ja kirjoittaminen sujuvoittaa lukemista, jolloin huomio riittää tekstin merkitykseen.",
+    "short": "Sujuvoittaa yleisten sanojen lukemista."
+  },
+  "cutting-practice": {
+    "full": "Kuvien leikkaaminen ja liimaaminen oikeaan ryhmään harjoittaa saksien käyttöä ja luokittelun alkeita samalla kertaa.",
+    "short": "Harjoittaa saksien käyttöä ja luokittelua."
+  },
+  "color-by-number": {
+    "full": "Koodin ja värin yhdistäminen muuttaa tarkan katsomisen ja pienet laskut kuvaksi, jonka lapsi haluaa saada valmiiksi.",
+    "short": "Vahvistaa laskusujuvuutta värittämällä."
+  },
+  "mazes": {
+    "full": "Ainoan oikean reitin etsiminen labyrintista kehittää hahmottamista, kynänhallintaa ja kärsivällistä ongelmanratkaisua.",
+    "short": "Kehittää hahmottamista ja kynänhallintaa."
+  },
+  "number-bonds": {
+    "full": "Hajotelmien täydentäminen näyttää, miten luku jakautuu osiin, ja rakentaa perustan sujuvalle päässälaskulle.",
+    "short": "Vahvistaa lukujen hajottamista kymmeneen."
+  },
+  "mental-math": {
+    "full": "Yhteen- ja vähennyslaskut päässä lukualueella 0–20 rakentavat laskusujuvuuden, jonka varaan kirjalliset laskutavat perustuvat.",
+    "short": "Vahvistaa laskusujuvuutta lukualueella 0–20."
+  },
+  "fact-families": {
+    "full": "Saman lukukolmikon neljän laskun täydentäminen näyttää, miten yhteen- ja vähennyslasku ovat toistensa käänteisiä toimituksia.",
+    "short": "Opettaa käänteisten laskutoimitusten yhteyden."
+  },
+  "number-words": {
+    "full": "Numeron ja lukusanan yhdistäminen vahvistaa lukujen lukemista ja ehkäisee numeroiden paikkojen sekoittumista.",
+    "short": "Vahvistaa lukusanojen lukemista."
+  },
+  "money": {
+    "full": "Kolikoiden arvojen laskeminen suurimmasta pienimpään harjaannuttaa rahan käyttöä, jota lapsi tarvitsee jokapäiväisessä arjessa.",
+    "short": "Harjaannuttaa rahan laskemista kolikoilla."
+  },
+  "word-problems": {
+    "full": "Lyhyen tarinan lukeminen, kuvan tutkiminen ja vastauksen kirjoittaminen tekevät laskemisesta todellista ongelmanratkaisua.",
+    "short": "Harjoittaa sanallisten tehtävien ratkaisemista."
+  },
+  "column-arithmetic": {
+    "full": "Laskeminen allekkain yksi numeropaikka kerrallaan opettaa huolellisen kirjallisen laskutavan yhä suuremmille luvuille.",
+    "short": "Opettaa allekkain laskemisen taidon."
+  },
+  "symmetry": {
+    "full": "Peilikuvan täydentäminen ruutu ruudulta kehittää symmetrian ymmärtämistä ja tarkkaa avaruudellista hahmottamista.",
+    "short": "Kehittää symmetrian ymmärtämistä."
+  },
+  "reading-comprehension": {
+    "full": "Lyhyen tarinan lukeminen ja kysymyksiin vastaaminen kehittävät luetun ymmärtämistä, jonka varassa kaikki oppiminen lepää.",
+    "short": "Kehittää luetun ymmärtämistä."
+  },
+  "multiplication-tables": {
+    "full": "Kertotaulujen harjoittelu sarjoina ja sekaisin rakentaa nopean muistamisen, joka tekee vaativammastakin matematiikasta helpompaa.",
+    "short": "Vahvistaa kertotaulujen osaamista."
   }
 }

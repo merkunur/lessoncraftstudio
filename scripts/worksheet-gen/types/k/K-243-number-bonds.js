@@ -18,10 +18,13 @@ module.exports = {
   assetClass: 'icon-placement',
   exerciseType: 'number-bonds',
   themeAxis: { applicable: false },
+  // d2 = bonds OF 10 only: every locale's beloved name (tiokompisar, amigos
+  // del 10, compléments à 10, Amici del 10) PROMISES ten — a whole of 7 under
+  // that title is dishonest (sv-panel finding). Mixed wholes live at d3.
   difficulty: {
     1: { wholeMin: 3, wholeMax: 5, cards: 4, cols: 2, rows: 2, dots: true, blanks: ['a', 'b'], size: 232 },
-    2: { wholeMin: 5, wholeMax: 10, cards: 6, cols: 2, rows: 3, dots: false, blanks: ['a', 'b'], size: 196 },
-    3: { wholeMin: 10, wholeMax: 10, cards: 6, cols: 2, rows: 3, dots: false, blanks: ['a', 'b', 'whole'], size: 196 },
+    2: { wholeMin: 10, wholeMax: 10, cards: 6, cols: 2, rows: 3, dots: false, blanks: ['a', 'b'], size: 196 },
+    3: { wholeMin: 5, wholeMax: 10, cards: 6, cols: 2, rows: 3, dots: false, blanks: ['a', 'b', 'whole'], size: 196 },
   },
   i18n: {
     en: {

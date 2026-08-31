@@ -115,7 +115,9 @@ if (!wp.frames || !Array.isArray(wp.frames.sub) || wp.frames.sub.length < 3) err
   for (const slot of ['{name}', '{n1}', '{n2}', '{noun}']) {
     if (!f.includes(slot)) errs.push(`frames.${op}[${i}]: missing ${slot}`);
   }
-  if (/\{noun\}\s*\{|\{\w+\}\{/.test(f)) errs.push(`frames.${op}[${i}]: adjacent slots`);
+  // only TRUE no-space adjacency is a defect ("{n1}{noun}"); "{noun} {name}"
+  // with a space is normal grammar (fi partitive frames use it legitimately)
+  if (/\{\w+\}\{/.test(f)) errs.push(`frames.${op}[${i}]: adjacent slots`);
 }));
 // fi partitive requirement
 if (locale === 'fi' && wp.nounForm === 'partitive' && !wp.nounForms) errs.push('fi: nounForm partitive but no nounForms table');

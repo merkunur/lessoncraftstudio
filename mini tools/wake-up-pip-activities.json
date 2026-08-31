@@ -4180,6 +4180,701 @@
               3
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "sun",
+            "type": "order",
+            "band": 1,
+            "story": {
+              "id": "sun",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "pip",
+                    "what": "asleep"
+                  },
+                  "panel": "sun-1",
+                  "caption": "Pip slaapt diep in het gras."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "sun",
+                    "what": "rises"
+                  },
+                  "panel": "sun-2",
+                  "caption": "De zon klimt hoog aan de hemel."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "sun",
+                    "what": "warms"
+                  },
+                  "panel": "sun-3",
+                  "caption": "Warm zonlicht bereikt de neus van Pip."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "pip",
+                    "what": "wakes"
+                  },
+                  "panel": "sun-4",
+                  "caption": "Pip wordt wakker en rekt zich uit!"
+                }
+              ]
+            },
+            "tray": [
+              "sun-2",
+              "sun-4",
+              "sun-1",
+              "sun-3"
+            ],
+            "keySlots": []
+          },
+          {
+            "id": "kite",
+            "type": "order",
+            "band": 1,
+            "story": {
+              "id": "kite",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "mira",
+                    "what": "kite-stuck"
+                  },
+                  "panel": "kite-1",
+                  "caption": "De vlieger van Mira zit vast in een boom."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "mira",
+                    "what": "shakes"
+                  },
+                  "panel": "kite-2",
+                  "caption": "Mira schudt hard aan de boomstam."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "kite",
+                    "what": "floats"
+                  },
+                  "panel": "kite-3",
+                  "caption": "De vlieger komt los en zweeft omlaag."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "mira",
+                    "what": "catches"
+                  },
+                  "panel": "kite-4",
+                  "caption": "Mira vangt haar vlieger en lacht."
+                }
+              ]
+            },
+            "tray": [
+              "kite-3",
+              "kite-1",
+              "kite-4",
+              "kite-2"
+            ],
+            "keySlots": []
+          },
+          {
+            "id": "crow",
+            "type": "order",
+            "band": 1,
+            "story": {
+              "id": "crow",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "crow",
+                    "what": "thirsty"
+                  },
+                  "panel": "crow-1",
+                  "caption": "Een kraai kan niet bij het water in de kruik."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "crow",
+                    "what": "drops-pebbles"
+                  },
+                  "panel": "crow-2",
+                  "caption": "De kraai laat steentjes in de kruik vallen."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "water",
+                    "what": "rises"
+                  },
+                  "panel": "crow-3",
+                  "caption": "Het water komt langzaam omhoog."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "crow",
+                    "what": "drinks"
+                  },
+                  "panel": "crow-4",
+                  "caption": "Eindelijk kan de kraai drinken."
+                }
+              ]
+            },
+            "tray": [
+              "crow-2",
+              "crow-3",
+              "crow-1",
+              "crow-4"
+            ],
+            "keySlots": []
+          },
+          {
+            "id": "puppy",
+            "type": "supply-key",
+            "band": 2,
+            "story": {
+              "id": "puppy",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "duke",
+                    "what": "muddy"
+                  },
+                  "panel": "puppy-1",
+                  "caption": "Puppy Rex zit helemaal onder de modder."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "sam",
+                    "what": "fills-tub"
+                  },
+                  "panel": "puppy-2",
+                  "caption": "Sam vult de teil met warm water."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "sam",
+                    "what": "scrubs"
+                  },
+                  "panel": "puppy-3",
+                  "caption": "Sam wast Rex met veel zeepbellen."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "duke",
+                    "what": "clean"
+                  },
+                  "panel": "puppy-4",
+                  "caption": "Rex is weer schoon en zacht."
+                }
+              ]
+            },
+            "locked": [
+              {
+                "slot": 0,
+                "panel": "puppy-1"
+              },
+              {
+                "slot": 1,
+                "panel": "puppy-2"
+              },
+              {
+                "slot": 3,
+                "panel": "puppy-4"
+              }
+            ],
+            "trivialWhats": {
+              "b3": [
+                {
+                  "id": "puppy-tw",
+                  "caption": "Sam neuriet een liedje.",
+                  "in_story": true
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "puppy-fw",
+                "caption": "Het begint te sneeuwen.",
+                "in_story": false
+              }
+            ],
+            "foreignWhos": [
+              {
+                "id": "puppy-fwo",
+                "caption": "Een vos draaft voorbij.",
+                "in_story": false
+              }
+            ],
+            "tray": [
+              "puppy-fw",
+              "puppy-3",
+              "puppy-fwo",
+              "puppy-tw"
+            ],
+            "keySlots": [
+              2
+            ]
+          },
+          {
+            "id": "mitten",
+            "type": "supply-key",
+            "band": 2,
+            "story": {
+              "id": "mitten",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "lina",
+                    "what": "drops-mitten"
+                  },
+                  "panel": "mitten-1",
+                  "caption": "Lina verliest haar rode want in de sneeuw."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "lina",
+                    "what": "follows-tracks"
+                  },
+                  "panel": "mitten-2",
+                  "caption": "Lina volgt haar voetstappen terug."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "lina",
+                    "what": "spots-mitten"
+                  },
+                  "panel": "mitten-3",
+                  "caption": "Ze ziet de rode want bij een boomstam."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "lina",
+                    "what": "warm"
+                  },
+                  "panel": "mitten-4",
+                  "caption": "Lina trekt de warme want aan."
+                }
+              ]
+            },
+            "locked": [
+              {
+                "slot": 0,
+                "panel": "mitten-1"
+              },
+              {
+                "slot": 2,
+                "panel": "mitten-3"
+              },
+              {
+                "slot": 3,
+                "panel": "mitten-4"
+              }
+            ],
+            "trivialWhats": {
+              "b2": [
+                {
+                  "id": "mitten-tw",
+                  "caption": "Er staat een sneeuwpop dichtbij.",
+                  "in_story": true
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "mitten-fw",
+                "caption": "De zon gaat felrood onder.",
+                "in_story": false
+              }
+            ],
+            "foreignWhos": [
+              {
+                "id": "mitten-fwo",
+                "caption": "Een hert springt weg.",
+                "in_story": false
+              }
+            ],
+            "tray": [
+              "mitten-tw",
+              "mitten-2",
+              "mitten-fwo",
+              "mitten-fw"
+            ],
+            "keySlots": [
+              1
+            ]
+          },
+          {
+            "id": "cake",
+            "type": "supply-key",
+            "band": 2,
+            "story": {
+              "id": "cake",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "theo",
+                    "what": "wants-surprise"
+                  },
+                  "panel": "cake-1",
+                  "caption": "Theo wil mama verrassen met een taart."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "theo",
+                    "what": "mixes"
+                  },
+                  "panel": "cake-2",
+                  "caption": "Theo mengt het beslag in een kom."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "theo",
+                    "what": "bakes"
+                  },
+                  "panel": "cake-3",
+                  "caption": "Theo bakt de taart in de oven."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "mom",
+                    "what": "surprised"
+                  },
+                  "panel": "cake-4",
+                  "caption": "Mama straalt met een grote glimlach."
+                }
+              ]
+            },
+            "locked": [
+              {
+                "slot": 0,
+                "panel": "cake-1"
+              },
+              {
+                "slot": 1,
+                "panel": "cake-2"
+              },
+              {
+                "slot": 3,
+                "panel": "cake-4"
+              }
+            ],
+            "trivialWhats": {
+              "b3": [
+                {
+                  "id": "cake-tw",
+                  "caption": "Een kat slaapt op de stoel.",
+                  "in_story": true
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "cake-fw",
+                "caption": "Er vaart een boot voorbij.",
+                "in_story": false
+              }
+            ],
+            "foreignWhos": [
+              {
+                "id": "cake-fwo",
+                "caption": "Een robot piept twee keer.",
+                "in_story": false
+              }
+            ],
+            "tray": [
+              "cake-fwo",
+              "cake-3",
+              "cake-tw",
+              "cake-fw"
+            ],
+            "keySlots": [
+              2
+            ]
+          },
+          {
+            "id": "seed",
+            "type": "fix-memory",
+            "band": 3,
+            "fixKind": "order",
+            "story": {
+              "id": "seed",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "gus",
+                    "what": "plants"
+                  },
+                  "panel": "seed-1",
+                  "caption": "Gijs plant een klein zaadje in een pot."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "gus",
+                    "what": "waters"
+                  },
+                  "panel": "seed-2",
+                  "caption": "Gijs geeft het elke ochtend water."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "sprout",
+                    "what": "grows"
+                  },
+                  "panel": "seed-3",
+                  "caption": "Een groen sprietje komt omhoog."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "flower",
+                    "what": "blooms"
+                  },
+                  "panel": "seed-4",
+                  "caption": "Een mooie bloem bloeit open!"
+                }
+              ]
+            },
+            "prefill": [
+              "seed-1",
+              "seed-3",
+              "seed-2",
+              "seed-4"
+            ],
+            "tray": [],
+            "keySlots": []
+          },
+          {
+            "id": "paint",
+            "type": "fix-memory",
+            "band": 3,
+            "fixKind": "face",
+            "story": {
+              "id": "paint",
+              "beats": [
+                {
+                  "id": "b1",
+                  "order": 0,
+                  "requires": [],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "ada",
+                    "what": "spills"
+                  },
+                  "panel": "paint-1",
+                  "caption": "Ada stoot de blauwe verf om."
+                },
+                {
+                  "id": "b2",
+                  "order": 1,
+                  "requires": [
+                    "b1"
+                  ],
+                  "key": {
+                    "who": "ada",
+                    "what": "grabs-cloth"
+                  },
+                  "panel": "paint-2",
+                  "caption": "Ada pakt een doek om te helpen."
+                },
+                {
+                  "id": "b3",
+                  "order": 2,
+                  "requires": [
+                    "b2"
+                  ],
+                  "key": {
+                    "who": "ada",
+                    "what": "makes-sky"
+                  },
+                  "panel": "paint-3",
+                  "caption": "Ze maakt van de vlek een lucht."
+                },
+                {
+                  "id": "b4",
+                  "order": 3,
+                  "requires": [
+                    "b3"
+                  ],
+                  "narrative_key": true,
+                  "key": {
+                    "who": "ada",
+                    "what": "proud"
+                  },
+                  "panel": "paint-4",
+                  "caption": "Ada lacht om haar nieuwe schilderij."
+                }
+              ]
+            },
+            "foreignWhats": [
+              {
+                "id": "paint-fw1",
+                "caption": "Er rijdt een trein voorbij.",
+                "in_story": false
+              },
+              {
+                "id": "paint-fw2",
+                "caption": "Het begint te regenen.",
+                "in_story": false
+              }
+            ],
+            "prefill": [
+              "paint-1",
+              "paint-2",
+              "paint-fw1",
+              "paint-4"
+            ],
+            "tray": [
+              "paint-3",
+              "paint-fw2"
+            ],
+            "keySlots": [
+              0,
+              1,
+              2,
+              3
+            ]
+          }
         ]
       }
     },
@@ -4190,7 +4885,8 @@
       "fr": "raconter-l-histoire-dans-le-bon-ordre-cp",
       "es": "volver-a-contar-un-cuento-orden-de-los-sucesos-segundo-grado",
       "pt": "recontar-uma-historia-os-acontecimentos-em-ordem-segundo-ano",
-      "it": "racconta-la-storia-sequenza-e-dettagli-chiave-classe-seconda"
+      "it": "racconta-la-storia-sequenza-e-dettagli-chiave-classe-seconda",
+      "nl": "een-verhaal-navertellen-in-de-juiste-volgorde-groep-4"
     },
     "page_title": {
       "en": "Wake Up, Pip! — Retell the Story to a Friend (Kindergarten)",
@@ -4198,7 +4894,8 @@
       "fr": "Lecture compréhension CP – raconter l'histoire en ligne",
       "es": "Volver a contar un cuento: los sucesos en orden – 2.º grado",
       "pt": "Recontar uma história: os acontecimentos em ordem – 2.º ano",
-      "it": "Racconta la storia: sequenza e dettagli chiave (classe seconda)"
+      "it": "Racconta la storia: sequenza e dettagli chiave (classe seconda)",
+      "nl": "Een verhaal navertellen in de juiste volgorde (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading game for retelling stories with key details: Pip the sleepy friend naps through every story and wakes up dying to know what happened. WATCH the story play; then, after it disappears, TELL it back to Pip in the right order with the parts that matter — who, the problem, and how it ends. Putting the events back in order WITH the key details is the heart of Common Core RL.K.2.",
@@ -4206,7 +4903,8 @@
       "fr": "Lecture et compréhension au CP : remettre l'histoire de Pip dans l'ordre pour bien la raconter. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis: los niños vuelven a contar un cuento poniendo los sucesos en orden y eligiendo los detalles importantes. Ideal para 2.º grado.",
       "pt": "Um jogo de leitura interativo e gratuito para recontar histórias com os detalhes importantes: Pip, o amigo sonolento, cochila durante cada história e acorda louco para saber o que aconteceu. ASSISTA à história; depois que ela some, RECONTE tudo para o Pip na ordem certa, com as partes que importam — quem, o problema e como termina. Atividade alinhada à BNCC.",
-      "it": "Con Pip, l’amico assonnato che ha perso la storia, i bambini guardano un breve film in quattro scene e la raccontano rimettendo le vignette nel giusto ordine di causa ed effetto, scegliendo il dettaglio chiave e lasciando fuori ciò che non c’entra. La lettura ad alta voce 🔊 fa da guida. Gratuita, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali."
+      "it": "Con Pip, l’amico assonnato che ha perso la storia, i bambini guardano un breve film in quattro scene e la raccontano rimettendo le vignette nel giusto ordine di causa ed effetto, scegliendo il dettaglio chiave e lasciando fuori ciò che non c’entra. La lettura ad alta voce 🔊 fa da guida. Gratuita, senza registrazione, senza timer né punteggio, allineata alle Indicazioni nazionali.",
+      "nl": "Een gratis, interactief leesspel voor groep 4 waarin je kind een kort verhaal navertelt in de juiste volgorde en de belangrijke details onthoudt. Afgestemd op de SLO-kerndoelen voor groep 4 en gericht op begrijpend lezen: oorzaak en gevolg, en belangrijk onderscheiden van onbelangrijk."
     },
     "kid_prompt_template": "retell-story"
   }

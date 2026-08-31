@@ -1270,6 +1270,16 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "bees", "band": 1, "story": [ "Bijen leven samen in een korf.", "Ze vliegen van bloem naar bloem voor nectar.", "Thuis maken ze honing van de nectar." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe bijen honing maken." }, { "id": "o2", "kind": "detail", "text": "Bijen vliegen van bloem naar bloem." }, { "id": "o3", "kind": "offtopic", "text": "Spinnen weven webben." } ] },
+          { "id": "rain", "band": 1, "story": [ "De zon warmt het water in de meren.", "Het water stijgt op en wordt wolken.", "Zware wolken laten de regen vallen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Waar de regen vandaan komt." }, { "id": "o2", "kind": "detail", "text": "De zon warmt het water in de meren." }, { "id": "o3", "kind": "offtopic", "text": "Kamelen drinken maar zelden." } ] },
+          { "id": "frog", "band": 1, "story": [ "Een kikker begint als een klein ei.", "Uit het ei komt een kikkervisje dat zwemt.", "Het krijgt pootjes en wordt een kikker." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe een kikker groot wordt." }, { "id": "o2", "kind": "detail", "text": "Uit het ei komt een kikkervisje." }, { "id": "o3", "kind": "offtopic", "text": "Uilen jagen op muizen." } ] },
+          { "id": "teeth", "band": 2, "story": [ "Poetsen houdt je tanden schoon en sterk.", "Het veegt resten van eten en suiker weg.", "Schone tanden helpen bij kauwen en lachen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Waarom we onze tanden poetsen." }, { "id": "o2", "kind": "detail", "text": "Het veegt eten en suiker weg." }, { "id": "o3", "kind": "offtopic", "text": "Giraffen zijn heel groot." } ] },
+          { "id": "volcano", "band": 2, "story": [ "Diep onder de vulkaan zit heet gesteente.", "De druk stijgt en duwt het omhoog.", "Het breekt naar buiten als gloeiende lava." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe een vulkaan uitbarst." }, { "id": "o2", "kind": "detail", "text": "Diep onder de vulkaan zit heet gesteente." }, { "id": "o3", "kind": "offtopic", "text": "Pinguïns waggelen grappig." } ] },
+          { "id": "library", "band": 2, "story": [ "Een bibliotheek staat vol met boeken.", "Je zoekt een boek uit en neemt het mee.", "Als je klaar bent, breng je het terug." ], "options": [ { "id": "o1", "kind": "topic", "text": "Hoe een bibliotheek boeken uitleent." }, { "id": "o2", "kind": "detail", "text": "Je zoekt een boek uit en neemt het mee." }, { "id": "o3", "kind": "offtopic", "text": "Vleermuizen slapen overdag." } ] },
+          { "id": "wind", "band": 3, "story": [ "De wind kan zacht of hard waaien.", "Hij kan een zeilboot over het meer duwen.", "Hij kan zelfs een vlieger laten vliegen." ], "options": [ { "id": "o1", "kind": "topic", "text": "Wat de wind allemaal kan." }, { "id": "o2", "kind": "detail", "text": "De wind kan een zeilboot duwen." }, { "id": "o3", "kind": "offtopic", "text": "Slakken zijn heel traag." } ] },
+          { "id": "seed", "band": 3, "story": [ "Een zaadje heeft water, zon en warmte nodig.", "Zijn worteltjes reiken omlaag om te drinken.", "Dan groeit er langzaam een plantje uit." ], "options": [ { "id": "o1", "kind": "topic", "text": "Wat een zaadje nodig heeft om te groeien." }, { "id": "o2", "kind": "detail", "text": "Zijn worteltjes reiken omlaag om te drinken." }, { "id": "o3", "kind": "offtopic", "text": "Vossen hebben een rode vacht." } ] }
         ]
       }
     },
@@ -1280,7 +1290,8 @@
       "fr": "trouver-le-sujet-principal-d-un-texte-ce2",
       "es": "idea-principal-de-que-trata-el-texto-tercer-grado",
       "pt": "qual-e-o-assunto-principal-do-texto-primeiros-anos",
-      "it": "tema-principale-di-che-cosa-parla-il-testo-classe-terza"
+      "it": "tema-principale-di-che-cosa-parla-il-testo-classe-terza",
+      "nl": "hoofdgedachte-vinden-begrijpend-lezen-groep-5"
     },
     "page_title": {
       "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)",
@@ -1288,7 +1299,8 @@
       "fr": "Le bureau des titres de Marina : le sujet principal (CE2)",
       "es": "Idea principal: ¿de qué trata el texto? · Tercer grado",
       "pt": "A mesa de manchetes da Marina — Qual é o assunto principal do texto?",
-      "it": "Di che cosa parla il testo? Il tema principale · Classe terza"
+      "it": "Di che cosa parla il testo? Il tema principale · Classe terza",
+      "nl": "Hoofdgedachte vinden in korte teksten - begrijpend lezen (groep 5)"
     },
     "page_intro": {
       "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.",
@@ -1296,7 +1308,8 @@
       "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire.",
       "es": "Lee un texto corto e identifica su idea principal: ¿de qué trata? Distingue el tema de un detalle. Juego interactivo y gratis de tercer grado.",
       "pt": "Na mesa de manchetes da Marina, a lontra Marina traz uma notícia curtinha e pergunta: do que trata este texto, na maior parte? A criança lê (ou ouve, no botão 🔊) três frases sobre um assunto de verdade e toca na carta que mostra o assunto principal — sem confundir com um detalhe solto ou com um fato de fora. Grátis, sem cadastro e sem login, sem relógio nem pontos, alinhada à BNCC no eixo de compreensão de textos informativos.",
-      "it": "Al banco dei titoli, Marina la lontra aiuta i bambini a scoprire di che cosa parla davvero un testo. Si legge un breve testo informativo — con l’aiuto della lettura ad alta voce 📖 — e si tocca la carta che indica il tema principale, non un piccolo dettaglio. Un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali."
+      "it": "Al banco dei titoli, Marina la lontra aiuta i bambini a scoprire di che cosa parla davvero un testo. Si legge un breve testo informativo — con l’aiuto della lettura ad alta voce 📖 — e si tocca la carta che indica il tema principale, non un piccolo dettaglio. Un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali.",
+      "nl": "Marina de otter schrijft krantenkoppen, en jouw kind mag helpen kiezen. Je kind leest of hoort een kort tekstje van drie zinnen en zoekt daarna de kop die vertelt waar de hele tekst vooral over gaat: de hoofdgedachte. Bij een tekst over \"Hoe bijen honing maken\" is \"Bijen vliegen van bloem naar bloem\" wel waar, maar dat is een detail en niet het hoofdonderwerp. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 5."
     },
     "kid_prompt_template": "marina-headline-desk"
   }

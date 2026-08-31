@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "In dit spel voor groep 4 leest je kind samen met Schakel de hagedis een eerste feit, bijvoorbeeld \"Een zaadje ligt in de aarde.\", en een vraag als \"Wat gebeurt er daarna?\". Daarna tikt je kind het feit aan dat daarmee verbindt – hier is dat \"Uit het zaadje groeit een plant.\" en niet een los feit als \"De vogel zit op de tak.\", dat wel waar is maar geen verband heeft. Zo bouwt de hagedis van losse feiten een echte ketting.",
+        "De kern van dit spel is twee feiten uit een informatieve tekst met elkaar verbinden. Je kind oefent volgorde (\"wat gebeurt er daarna?\", zoals rups → vlinder of ei → kuiken) en oorzaak en gevolg (\"wat gebeurt er daardoor?\", zoals de zon schijnt op de sneeuw en de sneeuw smelt). Ook leert je kind een verbonden feit onderscheiden van een feit dat wel waar is maar er los van staat. Dat past precies bij het begrijpend lezen van informatieve teksten in groep 4, waarin kinderen verbanden tussen feiten leren zien.",
+        "Het spel is gratis, zonder inloggen en zonder tijd of score, zodat je kind rustig en zonder druk kan lezen en nadenken. Met de 📖/🔊 voorleesknop kan elk feit en elke vraag worden voorgelezen, handig voor kinderen die nog niet vlot lezen. Alles is afgestemd op de SLO-kerndoelen voor groep 4."
+      ],
+      "practices": [
+        "Twee feiten uit een informatieve tekst met elkaar verbinden",
+        "Volgorde herkennen: wat gebeurt er daarna?",
+        "Oorzaak en gevolg zien: wat gebeurt er daardoor?",
+        "Een verbonden feit onderscheiden van een waar-maar-los feit"
+      ],
+      "howToPlay": [
+        "Lees het eerste feit en de vraag, of tik op 📖 om ze te laten voorlezen.",
+        "Bedenk welk feit daarmee verbindt: wat gebeurt er daarna of daardoor?",
+        "Tik het juiste feit aan en druk op \"Controleer\"."
+      ],
+      "learningGoals": [
+        "Je kind kan twee feiten uit een informatieve tekst met elkaar verbinden.",
+        "Je kind herkent volgorde en oorzaak en gevolg tussen feiten.",
+        "Je kind kan een verbonden feit onderscheiden van een feit dat er los van staat."
+      ]
+    },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
         "In dit spel voor groep 5 speelt je kind samen met Marlo de wasbeer, die met zijn loep op zoek gaat naar bewijs in een verhaal. Elke ronde leest je kind een kort verhaaltje van drie zinnen en een bewering over een personage, bijvoorbeeld \"Mira is dapper.\" Daaronder liggen drie details. Je kind tikt het detail aan dat de eigenschap echt bewijst – een actie die het personage deed, zoals \"Zij ging de donkere grot in.\" – en niet een detail dat wel waar is maar niets bewijst, zoals \"Zij droeg rode laarzen.\"",

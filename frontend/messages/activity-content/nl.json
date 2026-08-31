@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "juniper-story-lantern.central-message.rl-1-2": {
+      "about": [
+        "Prikkel de egel steekt haar verhalenlantaarn aan en vertelt je kind een korte, klassieke fabel — bijvoorbeeld de schildpad en de haas, de leeuw en de muis of de wind en de zon. Je kind luistert naar of leest het verhaal en tikt daarna de kaart aan met de moraal, de les van de fabel. Een rustige, warme manier om in groep 5 met verhalen aan de slag te gaan.",
+        "Het grote idee is dit: elke fabel heeft een moraal — een kleine, wijze les die verder gaat dan het verhaal zelf. En daar zit meteen de valstrik. Eén kaart noemt alleen een detail uit het verhaal (\"de haas deed een lang dutje\"), en een andere kaart klinkt wél wijs, maar past niet bij déze fabel. Slechts één kaart geeft de echte les (\"rustig volhouden werkt het best\"). De moraal vinden — en niet zomaar een detail — vraagt dat je kind in groep 5 het hele verhaal overziet en de betekenis in eigen woorden vat. Dat is echt tekstbegrip, met inferentie.",
+        "De activiteit is gratis, zonder tijdsdruk en zonder punten, zodat je kind rustig kan nadenken en nog eens kan luisteren. Ze is afgestemd op de SLO-kerndoelen voor groep 5, binnen het domein leesvaardigheid en het begrijpen van verhalende teksten: fabels lezen en hun moraal herkennen."
+      ],
+      "practices": [
+        "De moraal (kernboodschap) van een fabel herkennen",
+        "Onderscheid maken tussen een detail uit het verhaal en de echte les",
+        "Een passende les onderscheiden van een die alleen wijs klinkt",
+        "De betekenis van een verhaal in eigen woorden samenvatten"
+      ],
+      "howToPlay": [
+        "Luister naar of lees de korte fabel bij Prikkels lantaarn.",
+        "Lees de kaarten en bedenk: welke geeft de les van de fabel?",
+        "Tik de kaart met de echte moraal aan."
+      ],
+      "learningGoals": [
+        "Je kind kan de moraal van een fabel herkennen en onderscheiden van een detail.",
+        "Je kind kan uitleggen waarom een les bij het verhaal past en een andere alleen wijs klinkt.",
+        "Je kind kan de kernboodschap van een verhaal in eigen woorden samenvatten."
+      ]
+    },
     "author-purpose.why-wrote.ri-2-6": {
       "about": [
         "Marlow de pelikaan runt de havenpost, en er komen de hele dag korte briefjes binnen. Jouw kind helpt mee sorteren: het leest een kort briefje, bedenkt waarom het geschreven is, en stuurt het naar de juiste mand — bij de feiten, bij het grappige verhaal, of bij de uitleg. Een rustige, speelse manier om in groep 4 goed te leren lezen én nadenken over wat er staat.",

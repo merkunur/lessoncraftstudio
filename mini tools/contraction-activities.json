@@ -564,6 +564,16 @@
               "dai fiori"
             ]
           }
+        ],
+        "nl": [
+          { "id": "morgens",  "band": 1, "when": "in de ochtend", "icon": "🌅", "fusion": "'s morgens",  "foils": ["s' morgens", "s morgens"],   "speak": "Vonk wordt wakker 's morgens." },
+          { "id": "avonds",   "band": 1, "when": "in de avond",   "icon": "🌆", "fusion": "'s avonds",   "foils": ["s' avonds", "'savonds"],     "speak": "Vonk gloeit 's avonds." },
+          { "id": "nachts",   "band": 1, "when": "in de nacht",   "icon": "🌙", "fusion": "'s nachts",   "foils": ["s' nachts", "s nachts"],     "speak": "Vonk schijnt 's nachts." },
+          { "id": "middags",  "band": 2, "when": "in de middag",  "icon": "🕛", "fusion": "'s middags",  "foils": ["s' middags", "'smiddags"],   "speak": "Vonk speelt 's middags." },
+          { "id": "zomers",   "band": 2, "when": "in de zomer",   "icon": "🏖️", "fusion": "'s zomers",   "foils": ["s' zomers", "s zomers"],     "speak": "Vonk danst 's zomers in het gras." },
+          { "id": "winters",  "band": 2, "when": "in de winter",  "icon": "❄️", "fusion": "'s winters",  "foils": ["s' winters", "'swinters"],   "speak": "Vonk gloeit warm 's winters." },
+          { "id": "maandags", "band": 3, "when": "elke maandag",  "icon": "📅", "fusion": "'s maandags", "foils": ["s' maandags", "s maandags"], "speak": "Vonk gloeit elke week weer 's maandags." },
+          { "id": "zondags",  "band": 3, "when": "elke zondag",   "icon": "🗓️", "fusion": "'s zondags",  "foils": ["s' zondags", "'szondags"],   "speak": "Vonk rust lekker uit 's zondags." }
         ]
       }
     },
@@ -573,7 +583,8 @@
       "fr": "former-les-elisions-avec-l-apostrophe-ce1",
       "es": "contracciones-al-y-del-preposicion-articulo-segundo-grado",
       "pt": "contracao-ao-a-no-na-preposicao-artigo",
-      "it": "unire-preposizione-e-articolo-preposizioni-articolate-classe-terza"
+      "it": "unire-preposizione-e-articolo-preposizioni-articolate-classe-terza",
+      "nl": "weglatingsteken-s-morgens-s-avonds-tijd-groep-5"
     },
     "page_title": {
       "en": "Nib's Apostrophe Seat — Contractions (Grade 2)",
@@ -581,7 +592,8 @@
       "fr": "La place de Nib — L'élision et l'apostrophe (CE1)",
       "es": "Contracciones al y del – Gramática interactiva 2.º grado",
       "pt": "Contração ao, à, no, na — juntar preposição e artigo (2º ano)",
-      "it": "Le preposizioni articolate: unire preposizione e articolo, classe 3ª"
+      "it": "Le preposizioni articolate: unire preposizione e articolo, classe 3ª",
+      "nl": "Weglatingsteken in 's morgens en 's avonds - spelling (groep 5)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 grammar activity: help Nib the apostrophe-spirit form contractions. Read the two words, then pick the contraction that drops the right letters and puts the apostrophe in exactly the right spot. A friendly first look at how an apostrophe marks the missing letters. Common Core L.2.2.c.",
@@ -589,7 +601,8 @@
       "fr": "Avec Nib, le petit esprit de l'apostrophe, votre enfant apprend à écrire correctement « l'ami » plutôt que « le ami ». À chaque tour, il observe deux mots à réunir et tape la bonne écriture parmi trois propositions. C'est gratuit, interactif, ça se joue directement dans le navigateur, sans minuteur ni score : juste le plaisir de comprendre.",
       "es": "Actividad interactiva y gratis: los niños juntan «a» o «de» con «el» para formar las contracciones «al» y «del» y eligen la escritura correcta. Ideal para 2.º grado.",
       "pt": "Juntinho adora juntar palavras: uma preposição e um artigo viram uma palavra só — ao, à, no, na. A criança lê as duas palavrinhas e toca na contração escrita do jeito certo, sem apóstrofo. Uma atividade tranquila de gramática, alinhada à BNCC, para o 2º ano do Ensino Fundamental.",
-      "it": "In questa attività i bambini imparano a unire una preposizione e un articolo in una sola parola: in + il → nel, di + il → del. Osservano le due parole e toccano la forma unita giusta tra tre scelte, con il 🔊 che legge tutto ad alta voce. È gratuita, senza registrazione e senza timer o punteggio, ed è allineata alle Indicazioni nazionali per la classe terza."
+      "it": "In questa attività i bambini imparano a unire una preposizione e un articolo in una sola parola: in + il → nel, di + il → del. Osservano le due parole e toccano la forma unita giusta tra tre scelte, con il 🔊 che legge tutto ad alta voce. È gratuita, senza registrazione e senza timer o punteggio, ed è allineata alle Indicazioni nazionali per la classe terza.",
+      "nl": "Help Vonk het vuurvliegje het weglatingsteken op de juiste plek te zetten in vaste tijdsuitdrukkingen zoals 's morgens, 's avonds en 's nachts. Kies telkens de goed geschreven vorm uit drie mogelijkheden. Gratis en interactief oefenen met spelling, afgestemd op de SLO-kerndoelen Nederlands voor groep 5."
     },
     "kid_prompt_template": "contraction"
   }

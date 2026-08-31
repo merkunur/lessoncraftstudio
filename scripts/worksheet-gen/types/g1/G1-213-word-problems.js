@@ -53,12 +53,15 @@ module.exports = {
     const blocks = [];
     for (let i = 0; i < d.problems; i++) {
       const op = i % 2 === 0 ? 'add' : 'sub';
+      // EVERY problem keeps its icon strip (visual-critic finding: a
+      // pictureless problem under an instruction that promises pictures is a
+      // broken scaffold) — so all quantities stay within iconMax.
       let n1, n2;
       if (op === 'add') {
-        n1 = rng.int(2, d.max - 2);
-        n2 = rng.int(2, Math.min(d.max - n1, 9));
+        n1 = rng.int(3, d.iconMax - 2);
+        n2 = rng.int(2, Math.min(d.iconMax - n1, 9));
       } else {
-        n1 = rng.int(4, Math.min(d.max, 12));
+        n1 = rng.int(4, d.iconMax);
         n2 = rng.int(2, n1 - 2);
       }
       const answer = op === 'add' ? n1 + n2 : n1 - n2;
@@ -79,28 +82,30 @@ module.exports = {
       const name = rng.pick(bank.names);
       const sentence = fillFrame(frame, { name, n1, n2, noun: nounText });
 
-      // icon strip restating the math (only when countable)
+      // icon strip restating the math (always present by construction)
       let strip = '';
-      if (n1 + (op === 'add' ? n2 : 0) <= d.iconMax) {
-        const iconPx = 44;
+      {
+        // 40px + 5px gaps lets a full 10+2 addition sit on ONE line (a
+        // wrapped "+2" group reads as broken grouping)
+        const iconPx = 40;
         const icon = (cls) => `<img class="ws-icon${cls ? ' ' + cls : ''}" src="${fileUri(theme, noun.noun)}" alt="" ` +
           `style="width:${iconPx}px;height:${iconPx}px${cls ? ';opacity:0.45' : ''}">`;
         if (op === 'add') {
           strip =
-            `<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap" data-lcs-strip data-lcs-n1="${n1}" data-lcs-n2="${n2}" data-lcs-op="add">` +
+            `<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap" data-lcs-strip data-lcs-n1="${n1}" data-lcs-n2="${n2}" data-lcs-op="add">` +
             Array.from({ length: n1 }, () => `<span data-lcs-g1>${icon()}</span>`).join('') +
-            `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E;margin:0 8px">+</span>` +
+            `<span style="font-family:'Baloo 2';font-weight:700;font-size:26px;color:#146B5E;margin:0 5px">+</span>` +
             Array.from({ length: n2 }, () => `<span data-lcs-g2>${icon()}</span>`).join('') +
             `</div>`;
         } else {
           strip =
-            `<div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap" data-lcs-strip data-lcs-n1="${n1}" data-lcs-n2="${n2}" data-lcs-op="sub">` +
+            `<div style="display:flex;align-items:center;gap:5px;flex-wrap:wrap" data-lcs-strip data-lcs-n1="${n1}" data-lcs-n2="${n2}" data-lcs-op="sub">` +
             Array.from({ length: n1 }, (_, k) => {
               const crossed = k >= n1 - n2;
               return `<span style="position:relative;display:inline-flex"${crossed ? ' data-lcs-crossed' : ' data-lcs-g1'}>` +
                 icon(crossed ? 'x' : '') +
                 (crossed
-                  ? `<svg width="44" height="44" viewBox="0 0 44 44" style="position:absolute;left:0;top:0">` +
+                  ? `<svg width="${iconPx}" height="${iconPx}" viewBox="0 0 44 44" style="position:absolute;left:0;top:0">` +
                     `<line x1="6" y1="6" x2="38" y2="38" stroke="#F2784B" stroke-width="3.5" stroke-linecap="round"/>` +
                     `<line x1="38" y1="6" x2="6" y2="38" stroke="#F2784B" stroke-width="3.5" stroke-linecap="round"/></svg>`
                   : '') +
@@ -159,6 +164,7 @@ module.exports = {
         const box = p.querySelector('[data-lcs-answer]');
         if (!box || +box.dataset.lcsAnswer !== answer) fails.push(`p${i + 1}: box != ${answer}`);
         const strip = p.querySelector('[data-lcs-strip]');
+        if (!strip) fails.push(`p${i + 1}: missing icon strip (instruction promises pictures)`);
         if (strip) {
           if (strip.dataset.lcsOp === 'add') {
             if (strip.querySelectorAll('[data-lcs-g1]').length !== a) fails.push(`p${i + 1}: strip n1 mismatch`);

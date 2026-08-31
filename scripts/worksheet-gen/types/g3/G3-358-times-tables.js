@@ -56,9 +56,10 @@ module.exports = {
       const used = new Set();
       for (let i = 0; i < d.cards; i++) {
         let a, b, guard = 0;
+        // dedup UNORDERED (6·3 and 3·6 are one fact — visual-critic finding)
         do { a = rng.int(2, 10); b = rng.int(2, 10); guard++; }
-        while (used.has(`${a}x${b}`) && guard < 150);
-        used.add(`${a}x${b}`);
+        while (used.has(`${Math.min(a, b)}x${Math.max(a, b)}`) && guard < 150);
+        used.add(`${Math.min(a, b)}x${Math.max(a, b)}`);
         if (d.mode === 'mixed') {
           cards.push(
             `<div class="ws-card-stage" style="gap:10px" data-lcs-a="${a}" data-lcs-b="${b}" data-lcs-mode="mixed">` +

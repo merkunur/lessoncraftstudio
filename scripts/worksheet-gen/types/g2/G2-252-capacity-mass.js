@@ -49,7 +49,9 @@ module.exports = {
     for (let i = 0; i < d.jugs; i++) {
       let v, guard = 0;
       do {
-        v = d.jugStep * rng.int(1, Math.floor(d.jugMax / d.jugStep));
+        // never completely full (visual-critic finding: a brim-full jug puts
+        // the waterline above the top gradation — unreadable value)
+        v = d.jugStep * rng.int(1, Math.floor(d.jugMax / d.jugStep) - 1);
         guard++;
       } while (usedJug.has(v) && guard < 60);
       usedJug.add(v);

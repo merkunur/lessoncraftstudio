@@ -52,15 +52,15 @@
     id: 'penny-alphabet-trace-activity',
 
     strings: {
-      title: { en: "Penny's Alphabet Trace", de: 'Pennys Buchstaben nachspuren', es: 'Traza el alfabeto con Penny', pt: 'Trace o alfabeto com a Penny', it: 'Traccia le lettere con Penny' },
-      instruction: { en: 'Start on the dot and trace the letter.', de: 'Am Punkt starten und nachspuren.', es: 'Empieza en el punto y traza.', pt: 'Comece no ponto e cubra a letra.', it: 'Parti dal punto e traccia la lettera.' },
-      prompt: { en: 'Start on the dot and trace the letter.', de: 'Am Punkt starten und nachspuren.', es: 'Empieza en el punto y traza.', pt: 'Comece no ponto e cubra a letra.', it: 'Parti dal punto e traccia la lettera.' },
-      pennyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und spure Strich für Strich nach.', es: '¡Empieza en el punto y traza cada línea en orden!', pt: 'Comece no ponto e cubra cada traço.', it: 'Parti dal punto e traccia ogni tratto in ordine!' },
-      capBadge: { en: 'CAPITAL', de: 'GROSS', es: 'MAYÚSCULA', pt: 'MAIÚSCULA', it: 'MAIUSCOLA' }, lowBadge: { en: 'lowercase', de: 'klein', es: 'minúscula', pt: 'minúscula', it: 'minuscola' },
-      sayStroke: { en: 'Nice — next stroke!', de: 'Toll — der nächste Strich!', es: '¡Bien! Ahora la siguiente línea.', pt: 'Isso — agora o próximo traço!', it: 'Bene — ora il prossimo tratto!' },
-      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Fahr der Form nach — starte auf dem Punkt.', es: 'Sigue la forma: empieza en el punto.', pt: 'Siga o contorno da letra — comece no ponto.', it: 'Segui la forma — parti dal punto.' },
-      sayWin: { en: 'Beautiful letter! ✏️', de: 'Wunderschöner Buchstabe! ✏️', es: '¡Qué bonita letra! ✏️', pt: 'Que letra linda! ✏️', it: 'Che bella lettera! ✏️' },
-      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich der Reihe nach — starte auf dem Punkt.', es: 'Traza cada línea en orden, empezando en el punto.', pt: 'Cubra cada traço na ordem certa, começando no ponto.', it: 'Traccia ogni tratto in ordine, partendo dal punto.' }
+      title: { en: "Penny's Alphabet Trace", de: 'Pennys Buchstaben nachspuren', es: 'Traza el alfabeto con Penny', pt: 'Trace o alfabeto com a Penny', it: 'Traccia le lettere con Penny', nl: 'Letters naschrijven met Penny' },
+      instruction: { en: 'Start on the dot and trace the letter.', de: 'Am Punkt starten und nachspuren.', es: 'Empieza en el punto y traza.', pt: 'Comece no ponto e cubra a letra.', it: 'Parti dal punto e traccia la lettera.', nl: 'Begin op de stip en trek de letter over.' },
+      prompt: { en: 'Start on the dot and trace the letter.', de: 'Am Punkt starten und nachspuren.', es: 'Empieza en el punto y traza.', pt: 'Comece no ponto e cubra a letra.', it: 'Parti dal punto e traccia la lettera.', nl: 'Begin op de stip en trek de letter over.' },
+      pennyIntro: { en: "Start on the dot and trace each stroke in order!", de: 'Starte am Punkt und spure Strich für Strich nach.', es: '¡Empieza en el punto y traza cada línea en orden!', pt: 'Comece no ponto e cubra cada traço.', it: 'Parti dal punto e traccia ogni tratto in ordine!', nl: 'Begin op de stip en trek elke haal op volgorde over!' },
+      capBadge: { en: 'CAPITAL', de: 'GROSS', es: 'MAYÚSCULA', pt: 'MAIÚSCULA', it: 'MAIUSCOLA', nl: 'HOOFDLETTER' }, lowBadge: { en: 'lowercase', de: 'klein', es: 'minúscula', pt: 'minúscula', it: 'minuscola', nl: 'kleine letter' },
+      sayStroke: { en: 'Nice — next stroke!', de: 'Toll — der nächste Strich!', es: '¡Bien! Ahora la siguiente línea.', pt: 'Isso — agora o próximo traço!', it: 'Bene — ora il prossimo tratto!', nl: 'Goed zo — nu de volgende haal!' },
+      sayOff: { en: 'Follow the shape — start on the dot.', de: 'Fahr der Form nach — starte auf dem Punkt.', es: 'Sigue la forma: empieza en el punto.', pt: 'Siga o contorno da letra — comece no ponto.', it: 'Segui la forma — parti dal punto.', nl: 'Volg de vorm — begin op de stip.' },
+      sayWin: { en: 'Beautiful letter! ✏️', de: 'Wunderschöner Buchstabe! ✏️', es: '¡Qué bonita letra! ✏️', pt: 'Que letra linda! ✏️', it: 'Che bella lettera! ✏️', nl: 'Wat een mooie letter! ✏️' },
+      hintCheck: { en: 'Trace each stroke in order, starting on the dot.', de: 'Spure jeden Strich der Reihe nach — starte auf dem Punkt.', es: 'Traza cada línea en orden, empezando en el punto.', pt: 'Cubra cada traço na ordem certa, começando no ponto.', it: 'Traccia ogni tratto in ordine, partendo dal punto.', nl: 'Trek elke haal op volgorde over, en begin op de stip.' }
     },
     defaults: {},
 
@@ -90,7 +90,7 @@
       root.appendChild(say);
 
       var head = api.el('div', 'pat-head');
-      var chip = api.el('span', 'pat-letterlab'); chip.innerHTML = (LANG === 'de' ? 'Spur nach: ' : LANG === 'es' ? 'Traza: ' : LANG === 'pt' ? 'Trace: ' : LANG === 'it' ? 'Traccia: ' : 'Trace ') + '<b class="pat-letter">' + r.letter + '</b>';
+      var chip = api.el('span', 'pat-letterlab'); chip.innerHTML = (LANG === 'de' ? 'Spur nach: ' : LANG === 'es' ? 'Traza: ' : LANG === 'pt' ? 'Trace: ' : LANG === 'it' ? 'Traccia: ' : LANG === 'nl' ? 'Schrijf na: ' : 'Trace ') + '<b class="pat-letter">' + r.letter + '</b>';
       chip.setAttribute('aria-label', LANG === 'de' ? ('den ' + (r.case === 'upper' ? 'großen' : 'kleinen') + ' Buchstaben ' + r.letter + ' nachspuren') : LANG === 'es' ? ('traza la letra ' + (r.case === 'upper' ? 'mayúscula' : 'minúscula') + ' ' + r.letter) : LANG === 'pt' ? ('trace a letra ' + (r.case === 'upper' ? 'maiúscula' : 'minúscula') + ' ' + r.letter) : LANG === 'it' ? ('traccia la lettera ' + (r.case === 'upper' ? 'maiuscola' : 'minuscola') + ' ' + r.letter) : ('trace the ' + (r.case === 'upper' ? 'capital' : 'lowercase') + ' letter ' + r.letter));
       head.appendChild(chip);
       var badge = api.el('span', 'pat-badge pat-' + (r.case || 'upper')); badge.textContent = api.t(r.case === 'lower' ? 'lowBadge' : 'capBadge'); head.appendChild(badge);

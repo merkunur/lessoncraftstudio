@@ -1078,6 +1078,72 @@
               }
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "park", "band": 1, "point": "Onze stad zou een nieuw park moeten bouwen.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Kinderen hebben geen veilige plek om te spelen." },
+              { "id": "o2", "kind": "restate", "text": "Onze stad heeft echt een nieuw park nodig." },
+              { "id": "o3", "kind": "offtopic", "text": "De bibliotheek sluit om vijf uur." }
+            ]
+          },
+          {
+            "id": "helmet", "band": 1, "point": "Op de fiets zou je een helm moeten dragen.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "Op de fiets zou je altijd een helm moeten dragen." },
+              { "id": "o2", "kind": "reason", "text": "Hij beschermt je hoofd bij een val." },
+              { "id": "o3", "kind": "offtopic", "text": "Rode fietsen zien er het mooist uit." }
+            ]
+          },
+          {
+            "id": "read", "band": 1, "point": "Kinderen zouden elke dag twintig minuten moeten lezen.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "Kinderen zouden elke dag heel veel moeten lezen." },
+              { "id": "o2", "kind": "offtopic", "text": "De rekenles is meteen na het eten." },
+              { "id": "o3", "kind": "reason", "text": "Daar word je juist heel slim van." }
+            ]
+          },
+          {
+            "id": "garden", "band": 2, "point": "Onze klas zou een tuin moeten aanleggen.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Planten geven ons verse groenten." },
+              { "id": "o2", "kind": "offtopic", "text": "De schoolbel gaat om drie uur." },
+              { "id": "o3", "kind": "restate", "text": "Onze klas zou een grote tuin moeten planten." }
+            ]
+          },
+          {
+            "id": "water", "band": 2, "point": "Kinderen zouden een drinkfles mee naar school moeten nemen.",
+            "options": [
+              { "id": "o1", "kind": "offtopic", "text": "Schoolbussen zijn meestal helemaal geel geverfd." },
+              { "id": "o2", "kind": "reason", "text": "Water houdt je gezond en wakker." },
+              { "id": "o3", "kind": "restate", "text": "Kinderen zouden elke dag een drinkfles moeten meenemen." }
+            ]
+          },
+          {
+            "id": "lights", "band": 2, "point": "We zouden het licht altijd moeten uitdoen.",
+            "options": [
+              { "id": "o1", "kind": "restate", "text": "We zouden het licht vaker moeten uitzetten." },
+              { "id": "o2", "kind": "offtopic", "text": "Op vrijdag is er pizza op school." },
+              { "id": "o3", "kind": "reason", "text": "Dat is goed voor onze hele aarde." }
+            ]
+          },
+          {
+            "id": "dogs", "band": 3, "point": "Een hond zou elke dag moeten worden uitgelaten.",
+            "options": [
+              { "id": "o1", "kind": "reason", "text": "Zo blijft een dier blij en fit." },
+              { "id": "o2", "kind": "restate", "text": "Een hond zou echt elke dag moeten worden uitgelaten." },
+              { "id": "o3", "kind": "offtopic", "text": "Katten slapen graag in de zon." }
+            ]
+          },
+          {
+            "id": "dishes", "band": 3, "point": "Kinderen zouden moeten helpen met de afwas.",
+            "options": [
+              { "id": "o1", "kind": "offtopic", "text": "Lepels zijn kleiner dan vorken." },
+              { "id": "o2", "kind": "reason", "text": "Zo leer je voor je eigen huis te zorgen." },
+              { "id": "o3", "kind": "restate", "text": "Kinderen zouden altijd moeten helpen met de afwas." }
+            ]
+          }
         ]
       }
     },
@@ -1088,7 +1154,8 @@
       "fr": "justifier-un-avis-trouver-la-bonne-raison-ce2",
       "es": "opinion-y-razones-cual-razon-apoya-la-opinion-tercer-grado",
       "pt": "opiniao-e-razoes-qual-razao-apoia",
-      "it": "opinione-e-motivi-quale-motivo-sostiene-classe-terza"
+      "it": "opinione-e-motivi-quale-motivo-sostiene-classe-terza",
+      "nl": "de-mening-met-een-echte-reden-steunen-groep-5"
     },
     "page_title": {
       "en": "Pearl's Opinion Page — Back It Up (Grade 2)",
@@ -1096,7 +1163,8 @@
       "fr": "Justifier un avis : trouver la bonne raison – CE2",
       "es": "Opinión y razones: ¿qué razón apoya? · Tercer grado",
       "pt": "Opinião e razões: qual razão apoia a opinião? | A página da Pérola",
-      "it": "Opinione e motivi: quale motivo la sostiene? · Classe terza"
+      "it": "Opinione e motivi: quale motivo la sostiene? · Classe terza",
+      "nl": "Een mening steunen met een echte reden – Parel (groep 5)"
     },
     "page_intro": {
       "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8.",
@@ -1104,7 +1172,8 @@
       "fr": "Justifier un avis, c'est facile : avec Pearl le phoque, trouve la vraie raison qui appuie une affirmation — pas seulement la répétition. Gratuit et interactif, CE2. À toi de jouer !",
       "es": "Actividad interactiva y gratis para tercer grado: lee una opinión e identifica la razón que sí la apoya, distinta de una repetición o un dato suelto.",
       "pt": "Entre na página de opiniões da foca Pérola! A cada rodada ela mostra uma opinião e três cartas, e você toca na carta que dá a razão certa para apoiar aquela opinião — a que explica o porquê, e não a que só repete a ideia. Um botão 🔊 lê tudo em voz alta. É grátis e sem cadastro, alinhado à BNCC, na compreensão de textos de opinião para os primeiros anos.",
-      "it": "Perla la foca scrive la sua pagina delle opinioni: i bambini leggono un’opinione e toccano la carta che dà un motivo capace di sostenerla, non una ripetizione dell’idea né un fatto fuori tema. Un 🔊 legge l’opinione ad alta voce per chi preferisce ascoltare. Gratuita, senza registrazione e senza timer o punteggi, è allineata alle Indicazioni nazionali."
+      "it": "Perla la foca scrive la sua pagina delle opinioni: i bambini leggono un’opinione e toccano la carta che dà un motivo capace di sostenerla, non una ripetizione dell’idea né un fatto fuori tema. Un 🔊 legge l’opinione ad alta voce per chi preferisce ascoltare. Gratuita, senza registrazione e senza timer o punteggi, è allineata alle Indicazioni nazionali.",
+      "nl": "Een mening onderbouwen met een echte reden: help Parel de zeehond het kaartje kiezen dat een mening met een WAAROM steunt – niet de kale herhaling en niet iets wat er niks mee te maken heeft. Gratis & interactief, afgestemd op de SLO-kerndoelen voor groep 5. Nu oefenen!"
     },
     "kid_prompt_template": "pearl-opinion-page"
   }

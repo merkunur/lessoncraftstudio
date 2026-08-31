@@ -119,7 +119,8 @@
       "fr": "lire-l-heure-en-24-heures-ce1",
       "es": "reloj-de-24-horas-leer-la-hora-tercer-grado",
       "pt": "relogio-de-24-horas-ler-a-hora-terceiro-ano",
-      "it": "orologio-24-ore-leggere-e-convertire-l-ora-classe-terza"
+      "it": "orologio-24-ore-leggere-e-convertire-l-ora-classe-terza",
+      "nl": "24-uursnotatie-tijd-omrekenen-groep-5"
     },
     "page_title": {
       "en": "Sprocket's Clock — 12-Hour & 24-Hour Time Conversion (Grade 2)",
@@ -127,7 +128,8 @@
       "fr": "L'horloge de Sprocket : lire et convertir l'heure en 24 heures (CE1)",
       "es": "El reloj de 24 horas: leer y convertir la hora – 3.º grado",
       "pt": "O relógio do Kiko: ler e converter a hora em 24 horas (3º ano)",
-      "it": "Orologio 24 ore: leggere e convertire l’ora con Chicco – classe terza"
+      "it": "Orologio 24 ore: leggere e convertire l’ora con Chicco – classe terza",
+      "nl": "Kukel de haan: 24-uursnotatie omrekenen (groep 5)"
     },
     "page_intro": {
       "en": "A free interactive Grade 2 time activity: convert times between 12-hour (a.m./p.m.) and 24-hour notation. Children read a time in one way of writing it and tap the same time in the other — learning that after noon, 24-hour time keeps counting (3:00 PM is 15:00). Sprocket the rooster cheers them on. Builds on Common Core 2.MD.C.7 (telling time using a.m. and p.m.), extended to 24-hour time.",
@@ -135,7 +137,8 @@
       "fr": "Un jeu de maths CE1, gratuit et interactif : convertis les heures entre le format du matin/après-midi/soir et le format 24 heures. Ton enfant lit une heure écrite d'une façon et touche la même heure écrite de l'autre façon — il apprend que l'après-midi, l'heure continue de compter : 3 h de l'après-midi, c'est 15:00.",
       "es": "Actividad interactiva y gratis: los niños aprenden a leer el reloj de 24 horas y a convertirlo a las horas del día —las 15:00 son las 3 de la tarde—. Ideal para 3.º grado.",
       "pt": "Com Kiko, o galo, seu aluno pratica a hora no formato de 24 horas de um jeito leve e divertido, aprendendo a converter — de “15:00” para “3:00 da tarde”. A cada acerto, Kiko canta! Tudo é grátis, lido em voz alta e sem pressa, sem relógio correndo nem pontos. Uma atividade alinhada à BNCC para os anos iniciais.",
-      "it": "Con Chicco il gallo tuo figlio impara a leggere l’orologio delle 24 ore e a convertire l’ora nei due formati: da «15:00» a «le 3 del pomeriggio» e viceversa. Legge un orario e tocca la stessa ora nell’altro formato, con calma e senza fretta. È un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle «Indicazioni nazionali» per la misura del tempo in classe terza."
+      "it": "Con Chicco il gallo tuo figlio impara a leggere l’orologio delle 24 ore e a convertire l’ora nei due formati: da «15:00» a «le 3 del pomeriggio» e viceversa. Legge un orario e tocca la stessa ora nell’altro formato, con calma e senza fretta. È un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle «Indicazioni nazionali» per la misura del tempo in classe terza.",
+      "nl": "Kukel de haan wijst een tijd aan op zijn klok en jij zoekt dezelfde tijd in de andere schrijfwijze. De ene keer lees je een tijd in de 12-uurstijd met een dagdeel (\"3:00 's middags\") en tik je op de 24-uursnotatie (\"15:00\"), de andere keer andersom. Gratis en interactief oefenen, afgestemd op de SLO-kerndoelen voor rekenen (tijd) voor groep 5."
     },
     "kid_prompt_template": "clock-convert"
   }

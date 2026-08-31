@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "daisy-plate-stack.plurals.l-k-1-c": {
+      "about": [
+        "Margriet de eend laat een korte zin zien met een getal erin, bijvoorbeeld \"In de tuin staan drie ___.\" Onder de zin staan drie woorden. Je kind kiest het juiste meervoud — hier bijvoorbeeld \"bomen\" — en tikt dat woord aan. Meer hoeft er niet: lezen, kiezen, tikken. Bij het goede antwoord schuift het woord vrolijk op zijn plek in de zin.",
+        "In het Nederlands is het meervoud niet één regel, en juist dat maakt het lastig. Soms komt er -en bij (kat wordt katten), soms een -s (appel wordt appels) en soms zelfs -eren (ei wordt eieren). En regelmatig verandert ook de spelling mee: boom wordt bomen en huis wordt huizen. Het juiste meervoud herkennen én goed schrijven is een belangrijke stap in groep 4, en dit spel oefent precies die keuze, woord voor woord.",
+        "Dit spel past bij enkelvoud en meervoud in groep 4. Margriet zegt nooit dat iets fout is — kiest je kind het verkeerde woord, dan mag het gewoon nog een keer proberen. Er is geen tijd die wegtikt en geen score die meetelt, zodat je kind rustig en zonder druk kan oefenen. Alles wordt voorgelezen, dus ook een kind dat nog niet vlot leest kan meedoen."
+      ],
+      "practices": [
+        "het meervoud van een woord herkennen",
+        "weten dat -en, -s en -eren allemaal meervouden zijn",
+        "letten op de spelling van het meervoud (kat wordt katten, boom wordt bomen)",
+        "enkelvoud en meervoud uit elkaar houden"
+      ],
+      "howToPlay": [
+        "Lees de zin van Margriet met het getal erin.",
+        "Kies uit de woorden het juiste meervoud.",
+        "Tik dat woord aan."
+      ],
+      "learningGoals": [
+        "het juiste meervoud kiezen bij een zin",
+        "de verschillende meervoudsvormen (-en, -s en -eren) herkennen",
+        "letten op de spelling bij het meervoud"
+      ]
+    },
     "fraction-equiv.same-amount.3-nf-a-3": {
       "about": [
         "Kruimel de muis bakt een lekker stukje en snijdt het in gelijke delen — bijvoorbeeld de helft, dus 1/2. Je kind ziet die breuk als getallen én als gekleurde strook. Daarna kiest je kind uit drie breuken de breuk die evenveel laat zien: 2/4. Als je die aantikt, zie je in de stroken dat 1/2 en 2/4 even vol zijn — precies dezelfde hoeveelheid, alleen in andere stukjes gesneden.",

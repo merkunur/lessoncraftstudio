@@ -18,15 +18,15 @@
 
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt') ? 'pt-BR' : LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : (LANG === 'fr') ? 'fr-FR' : (LANG === 'pt') ? 'pt-BR' : (LANG === 'it') ? 'it-IT' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'de') ? 'de-DE' : (LANG === 'fr') ? 'fr-FR' : (LANG === 'pt') ? 'pt-BR' : (LANG === 'it') ? 'it-IT' : (LANG === 'nl') ? 'nl-NL' : 'en-US'; global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
-  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'mehr als eins' : LANG === 'fr' ? 'plusieurs' : LANG === 'it' ? 'cose' : 'more than one'); }
+  function sayable(s) { return String(s || '').replace(/___/g, LANG === 'de' ? 'mehr als eins' : LANG === 'fr' ? 'plusieurs' : LANG === 'it' ? 'cose' : LANG === 'nl' ? 'meer dan een' : 'more than one'); }
 
   function duckSVG(mood) {
     var happy = mood === 'happy';
     var eye = happy ? '<path d="M55 40 q3 -3 6 0" stroke="#2A2A35" stroke-width="2.2" fill="none" stroke-linecap="round"/>' : '<circle cx="58" cy="41" r="2.6" fill="#2A2A35"/>';
-    return '<svg class="dps-duck-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marguerite la cane' : LANG === 'pt' ? 'Margarida, a pata' : LANG === 'it' ? 'Margherita la papera' : 'Daisy the duck') + '">' +
+    return '<svg class="dps-duck-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marguerite la cane' : LANG === 'pt' ? 'Margarida, a pata' : LANG === 'it' ? 'Margherita la papera' : LANG === 'nl' ? 'Margriet de eend' : 'Daisy the duck') + '">' +
       '<ellipse cx="44" cy="60" rx="25" ry="20" fill="#F4D35E"/>' +              /* body */
       '<ellipse cx="44" cy="66" rx="16" ry="11" fill="#FBE7A8"/>' +             /* belly */
       '<circle cx="56" cy="42" r="13" fill="#F6DA6E"/>' +                        /* head */
@@ -40,13 +40,13 @@
     id: 'daisy-plate-stack-activity',
 
     strings: {
-      title: { en: "Daisy's Plate Stack", de: "Ella die Ente", fr: 'Marguerite la cane', pt: 'Margarida, a pata', it: 'Margherita la papera' },
-      prompt: { en: 'Which word means more than one?', de: "Welches Wort ist die Mehrzahl?", fr: 'Quel mot veut dire plusieurs ?', pt: 'Qual palavra quer dizer mais de um?', it: 'Quale parola vuol dire più di uno?' },
-      duckIntro: { en: 'More than one, please! Which word is right?', de: "Mehr als eins, bitte! Welches Wort ist richtig?", fr: 'Plusieurs, s’il te plaît ! Quel mot est le bon ?', pt: 'Mais de um, por favor! Qual palavra está certa?', it: 'Più di uno, per favore! Quale parola è giusta?' },
-      theAsk: { en: 'Tap the word that means more than one.', de: "Tippe das Wort für die Mehrzahl.", fr: 'Touche le mot qui veut dire plusieurs.', pt: 'Toque na palavra que quer dizer mais de um.', it: 'Tocca la parola che vuol dire più di uno.' },
-      hintPick: { en: 'Tap the word that means more than one!', de: "Tippe die Mehrzahl an!", fr: 'Touche le mot au pluriel !', pt: 'Toque na palavra que quer dizer mais de um!', it: 'Tocca la parola che vuol dire più di uno!' },
-      hintWrong: { en: "Not quite — does it add s or es? Read it again.", de: "Wir wollen mehr als eins. Welches Wort ist die Mehrzahl?", fr: 'Presque — il faut la marque du pluriel. Relis bien.', pt: 'Quase! Olhe bem como fica a terminação do plural. Leia de novo.', it: 'Quasi! Guarda bene come finisce il plurale. Rileggi.' },
-      win: { en: 'Yes! That word means more than one. 🍽️', de: "Klasse! Genau die Mehrzahl — quak! 🦆", fr: 'Bravo ! C’est bien le pluriel. 🦆', pt: 'Isso! Essa palavra quer dizer mais de um. 🦆', it: 'Sì! Questa parola vuol dire più di uno. 🦆' }
+      title: { en: "Daisy's Plate Stack", de: "Ella die Ente", fr: 'Marguerite la cane', pt: 'Margarida, a pata', it: 'Margherita la papera', nl: 'Margriet de eend' },
+      prompt: { en: 'Which word means more than one?', de: "Welches Wort ist die Mehrzahl?", fr: 'Quel mot veut dire plusieurs ?', pt: 'Qual palavra quer dizer mais de um?', it: 'Quale parola vuol dire più di uno?', nl: 'Welk woord is het meervoud?' },
+      duckIntro: { en: 'More than one, please! Which word is right?', de: "Mehr als eins, bitte! Welches Wort ist richtig?", fr: 'Plusieurs, s’il te plaît ! Quel mot est le bon ?', pt: 'Mais de um, por favor! Qual palavra está certa?', it: 'Più di uno, per favore! Quale parola è giusta?', nl: 'Meer dan een, alsjeblieft! Welk woord is goed?' },
+      theAsk: { en: 'Tap the word that means more than one.', de: "Tippe das Wort für die Mehrzahl.", fr: 'Touche le mot qui veut dire plusieurs.', pt: 'Toque na palavra que quer dizer mais de um.', it: 'Tocca la parola che vuol dire più di uno.', nl: 'Tik op het woord dat meer dan een betekent.' },
+      hintPick: { en: 'Tap the word that means more than one!', de: "Tippe die Mehrzahl an!", fr: 'Touche le mot au pluriel !', pt: 'Toque na palavra que quer dizer mais de um!', it: 'Tocca la parola che vuol dire più di uno!', nl: 'Tik het meervoud aan!' },
+      hintWrong: { en: "Not quite — does it add s or es? Read it again.", de: "Wir wollen mehr als eins. Welches Wort ist die Mehrzahl?", fr: 'Presque — il faut la marque du pluriel. Relis bien.', pt: 'Quase! Olhe bem como fica a terminação do plural. Leia de novo.', it: 'Quasi! Guarda bene come finisce il plurale. Rileggi.', nl: 'Bijna! Dit is er maar een. Lees nog eens goed.' },
+      win: { en: 'Yes! That word means more than one. 🍽️', de: "Klasse! Genau die Mehrzahl — quak! 🦆", fr: 'Bravo ! C’est bien le pluriel. 🦆', pt: 'Isso! Essa palavra quer dizer mais de um. 🦆', it: 'Sì! Questa parola vuol dire più di uno. 🦆', nl: 'Ja! Dat woord betekent meer dan een. 🦆' }
     },
     defaults: {},
 
@@ -64,7 +64,7 @@
       this.round = round;
       /* de rounds carry explicit {sentence, chips, answer} (German plural can't
          be rule-derived); en uses the core's +s/+es childView. */
-      this.view = ((LANG === 'de' || LANG === 'fr' || LANG === 'pt' || LANG === 'it') && round.chips) ? { id: round.id, sentence: round.sentence, chips: round.chips.slice() } : Core.childView(round);
+      this.view = ((LANG === 'de' || LANG === 'fr' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') && round.chips) ? { id: round.id, sentence: round.sentence, chips: round.chips.slice() } : Core.childView(round);
       this.sel = null; this._spoke = false;
       this._chips = shuffle(this.view.chips.slice());
     },
@@ -106,7 +106,7 @@
       this.sel = w; this.api.sound && this.api.sound(540); speak(w); this.render();
     },
 
-    isCorrect: function () { return this.sel != null && (((LANG === 'de' || LANG === 'fr' || LANG === 'it') && this.round.answer) ? (this.sel === this.round.answer) : Core.isAnswer(this.round, this.sel)); },
+    isCorrect: function () { return this.sel != null && (((LANG === 'de' || LANG === 'fr' || LANG === 'it' || LANG === 'nl') && this.round.answer) ? (this.sel === this.round.answer) : Core.isAnswer(this.round, this.sel)); },
     reset: function () { this.setupTask(this.round); this.render(); },
 
     nextTask: function (opts) {

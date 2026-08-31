@@ -17,7 +17,7 @@
 
   var Core = global.SoundBoxesCore;
   var LANG = 'en';   // #106 — set in init from api.lang
-  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' }, pt: { b: 'inicial', m: 'do meio', e: 'final' }, it: { b: 'iniziale', m: 'centrale', e: 'finale' } };
+  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' }, pt: { b: 'inicial', m: 'do meio', e: 'final' }, it: { b: 'iniziale', m: 'centrale', e: 'finale' }, nl: { b: 'eerste', m: 'middelste', e: 'laatste' } };
   var BOX_INDEX = { b: 0, m: 1, e: 2 };
 
   var L = {
@@ -70,12 +70,22 @@
       nudgeFirst: 'Non ancora. Ascolta di nuovo il primo suono di {t}.',
       nudgeMid: 'Quasi! Ascolta di nuovo il suono centrale di {t}.',
       nudgeLast: 'Quasi! Ascolta di nuovo come finisce {t}.'
+    },
+    nl: {
+      qFirst: 'Welk woord begint als {t}?',
+      qMid: 'Welk woord klinkt in het midden hetzelfde als {t}?',
+      qLast: 'Welk woord eindigt als {t}?',
+      win: 'Goed geluisterd! {t} en {m} hebben dezelfde {pos} klank! 🐨',
+      hear: '🔊 Luister',
+      nudgeFirst: 'Luister nog eens naar het begin — welk woord begint als {t}?',
+      nudgeMid: 'Luister nog eens naar het midden — welk woord klinkt daar als {t}?',
+      nudgeLast: 'Luister nog eens naar het einde — welk woord eindigt als {t}?'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
-  function wordOf(w) { return ((LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it') && w && w.word) ? w.word : cap(w && w.noun); }
+  function wordOf(w) { return ((LANG === 'de' || LANG === 'es' || LANG === 'pt' || LANG === 'it' || LANG === 'nl') && w && w.word) ? w.word : cap(w && w.noun); }
   function imgUrl(w) { return '/image-library-webp/themes/' + w.themeDir + '/' + w.noun + '@2x.webp'; }
 
   function cocoSVG() {
@@ -93,8 +103,8 @@
   var SoundBoxesActivity = {
     id: 'sound-boxes-activity',
     strings: {
-      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala', pt: 'As caixas de som do Téo', it: 'Nino il koala' },
-      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.', pt: 'Ouça a palavra do Téo e veja qual caixinha acende — o som do início, do meio ou do fim. Toque na figura que tem esse mesmo som!', it: 'Ascolta il primo suono, quello centrale e quello finale. Tocca la figura che ha lo stesso suono!' },
+      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala', pt: 'As caixas de som do Téo', it: 'Nino il koala', nl: 'Koos de koala' },
+      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.', pt: 'Ouça a palavra do Téo e veja qual caixinha acende — o som do início, do meio ou do fim. Toque na figura que tem esse mesmo som!', it: 'Ascolta il primo suono, quello centrale e quello finale. Tocca la figura che ha lo stesso suono!', nl: 'Luister naar de eerste, midden- en laatste klank. Tik op het plaatje met dezelfde klank!' },
       q: { en: '{q}' }
     },
 
@@ -262,7 +272,7 @@
       var wrap = el('div', 'sb-sronly'); wrap.setAttribute('aria-live', 'polite');
       var cs = (round.options || []).map(function (x) { return wordOf(x); }).join(', ');
       var q = txt(this._qKey(round.position), { t: wordOf(round.target) });
-      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : LANG === 'pt' ? ('<p>' + q + ' As opções são: ' + cs + '.</p>') : LANG === 'it' ? ('<p>' + q + ' Le scelte sono: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
+      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : LANG === 'pt' ? ('<p>' + q + ' As opções são: ' + cs + '.</p>') : LANG === 'it' ? ('<p>' + q + ' Le scelte sono: ' + cs + '.</p>') : LANG === 'nl' ? ('<p>' + q + ' Je kunt kiezen uit: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
       return wrap;
     },
 

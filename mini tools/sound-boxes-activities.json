@@ -1733,6 +1733,71 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "sb-nl-bal-first", "position": "b",
+            "target": { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
+            "options": [
+              { "noun": "boat", "themeDir": "vehicles", "word": "boot", "b": "b", "m": "oo", "e": "t" },
+              { "noun": "moon", "themeDir": "camping", "word": "maan", "b": "m", "m": "aa", "e": "n" },
+              { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" }
+            ] },
+          { "id": "sb-nl-pet-first", "position": "b",
+            "target": { "noun": "cap", "themeDir": "accessories", "word": "pet", "b": "p", "m": "e", "e": "t" },
+            "options": [
+              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
+              { "noun": "cat", "themeDir": "animals", "word": "kat", "b": "k", "m": "a", "e": "t" },
+              { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" }
+            ] },
+          { "id": "sb-nl-maan-first", "position": "b",
+            "target": { "noun": "moon", "themeDir": "camping", "word": "maan", "b": "m", "m": "aa", "e": "n" },
+            "options": [
+              { "noun": "mouse", "themeDir": "pets", "word": "muis", "b": "m", "m": "ui", "e": "s" },
+              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
+              { "noun": "nose", "themeDir": "body parts", "word": "neus", "b": "n", "m": "eu", "e": "s" }
+            ] },
+          { "id": "sb-nl-vis-first", "position": "b",
+            "target": { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" },
+            "options": [
+              { "noun": "foot", "themeDir": "body parts", "word": "voet", "b": "v", "m": "oe", "e": "t" },
+              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
+              { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" }
+            ] },
+          { "id": "sb-nl-vis-last", "position": "e",
+            "target": { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" },
+            "options": [
+              { "noun": "coat", "themeDir": "clothing", "word": "jas", "b": "j", "m": "a", "e": "s" },
+              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
+              { "noun": "pen", "themeDir": "around the house", "word": "pen", "b": "p", "m": "e", "e": "n" }
+            ] },
+          { "id": "sb-nl-maan-last", "position": "e",
+            "target": { "noun": "moon", "themeDir": "camping", "word": "maan", "b": "m", "m": "aa", "e": "n" },
+            "options": [
+              { "noun": "pen", "themeDir": "around the house", "word": "pen", "b": "p", "m": "e", "e": "n" },
+              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
+              { "noun": "coat", "themeDir": "clothing", "word": "jas", "b": "j", "m": "a", "e": "s" }
+            ] },
+          { "id": "sb-nl-kat-last", "position": "e",
+            "target": { "noun": "cat", "themeDir": "animals", "word": "kat", "b": "k", "m": "a", "e": "t" },
+            "options": [
+              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
+              { "noun": "fish", "themeDir": "ocean life", "word": "vis", "b": "v", "m": "i", "e": "s" },
+              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" }
+            ] },
+          { "id": "sb-nl-bal-mid", "position": "m",
+            "target": { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
+            "options": [
+              { "noun": "cat", "themeDir": "animals", "word": "kat", "b": "k", "m": "a", "e": "t" },
+              { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" },
+              { "noun": "cap", "themeDir": "accessories", "word": "pet", "b": "p", "m": "e", "e": "t" }
+            ] },
+          { "id": "sb-nl-zon-mid", "position": "m",
+            "target": { "noun": "sun", "themeDir": "beach", "word": "zon", "b": "z", "m": "o", "e": "n" },
+            "options": [
+              { "noun": "pot", "themeDir": "around the house", "word": "pot", "b": "p", "m": "o", "e": "t" },
+              { "noun": "ball", "themeDir": "toys", "word": "bal", "b": "b", "m": "a", "e": "l" },
+              { "noun": "cap", "themeDir": "accessories", "word": "pet", "b": "p", "m": "e", "e": "t" }
+            ] }
         ]
       }
     },
@@ -1741,21 +1806,24 @@
       "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1",
       "es": "sonido-inicial-medio-y-final-conciencia-fonemica-primer-grado",
       "pt": "som-inicial-do-meio-e-final-consciencia-fonemica-1-ano",
-      "it": "suono-iniziale-centrale-e-finale-consapevolezza-fonologica-classe-prima"
+      "it": "suono-iniziale-centrale-e-finale-consapevolezza-fonologica-classe-prima",
+      "nl": "eerste-midden-laatste-klank-horen-groep-3"
     },
     "page_title": {
       "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
       "de": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)",
       "es": "Los sonidos de las palabras: inicial, de en medio y final – 1.º grado",
       "pt": "Os sons das palavras: inicial, do meio e final – 1º ano",
-      "it": "Nino il koala: suono iniziale, centrale e finale — classe prima"
+      "it": "Nino il koala: suono iniziale, centrale e finale — classe prima",
+      "nl": "Koos de koala – eerste, midden & laatste klank (groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
       "de": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1.",
       "es": "Actividad interactiva y gratis de conciencia fonémica: tu hijo/a escucha una palabra corta y encuentra otra con el mismo sonido inicial, de en medio o final. Con Coco el koala. Ideal para 1.º grado.",
       "pt": "Com Téo, o coala que ouve com muita atenção, sua criança escuta uma palavra curtinha e procura outra que tenha o mesmo som — no começo, no meio ou no fim. Tudo é falado em voz alta, então os fones de ouvido são recomendados. É grátis, sem pressa e sem pontos, alinhado à BNCC para o início da alfabetização.",
-      "it": "Con Nino il koala, tuo figlio impara ad ascoltare i suoni nascosti dentro le parole: il suono iniziale, quello centrale e quello finale. Nino pronuncia una parola, si illumina la casella del suono da cercare e il bambino tocca la figura che ha lo stesso suono in quella posizione. Un gioco caldo e senza fretta per la classe prima, gratuito e senza registrazione, senza timer né punteggio, allineato alle «Indicazioni nazionali»."
+      "it": "Con Nino il koala, tuo figlio impara ad ascoltare i suoni nascosti dentro le parole: il suono iniziale, quello centrale e quello finale. Nino pronuncia una parola, si illumina la casella del suono da cercare e il bambino tocca la figura che ha lo stesso suono in quella posizione. Un gioco caldo e senza fretta per la classe prima, gratuito e senza registrazione, senza timer né punteggio, allineato alle «Indicazioni nazionali».",
+      "nl": "Speel gratis mee met Koos de koala en oefen samen met je kind het horen van de eerste, midden- en laatste klank in een woord. Koos zegt een woord voor, één klankvakje licht op, en je kind zoekt het plaatje met dezelfde klank op die plek – helemaal op je gehoor, zonder letters. Een warme, interactieve luisteroefening, afgestemd op de SLO-kerndoelen voor auditieve analyse (fonemisch bewustzijn) voor groep 3."
     },
     "kid_prompt_template": "sound-boxes"
   }

@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Koos de koala zegt een woord, bijvoorbeeld 'vis'. Meteen licht het eerste klankvakje op: je kind moet dus goed luisteren naar de eerste klank, de /v/. Daarna zoekt je kind tussen de plaatjes een woord dat óók met /v/ begint, zoals 'voet'. De ene keer licht het eerste vakje op, de andere keer het middelste of het laatste – zo oefent je kind om de eerste klank, de middenklank én de laatste klank uit een woord te vissen.",
+        "Losse klanken uit een woord horen – de eerste, de middenklank en de laatste – is een van de belangrijkste bouwstenen voor leren lezen en schrijven. Het gaat hier puur om de klánk, niet om de letter: de vakjes blijven expres leeg, er is geen enkele letter die helpt. Je kind moet het woord echt met de oren uit elkaar halen, oftewel 'hakken'. Juist die auditieve analyse maakt straks het lezen makkelijker.",
+        "Deze oefening past bij fonemisch bewustzijn in groep 3, de brug naar het aanvankelijk lezen. Koos zegt nooit dat iets fout is: als het even niet lukt, luistert hij rustig nog een keer met je kind mee. Alles wordt voorgelezen, dus een koptelefoon is aangeraden zodat je kind de klanken goed en zonder afleiding kan horen. Geen tijd, geen score – gewoon rustig samen luisteren."
+      ],
+      "practices": [
+        "de eerste klank horen",
+        "de middenklank (klinker) horen",
+        "de laatste klank horen",
+        "goed op losse klanken letten"
+      ],
+      "howToPlay": [
+        "Luister goed naar het woord dat Koos voorleest.",
+        "Kijk welk vakje oplicht – de eerste, de midden- of de laatste klank.",
+        "Tik op het plaatje dat op die plek dezelfde klank heeft."
+      ],
+      "learningGoals": [
+        "de eerste-, midden- en laatste klank goed horen",
+        "klanken met je oren herkennen in plaats van met letters",
+        "het fonemisch bewustzijn voor lezen en schrijven versterken"
+      ]
+    },
     "clock-convert.12-24.2-md-c-7": {
       "about": [
         "In dit spel voor groep 5 laat Kukel de haan steeds een tijd zien, en jij kiest dezelfde tijd in de andere schrijfwijze.",

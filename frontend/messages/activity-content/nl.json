@@ -192,6 +192,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "Otto de otter staat achter zijn marktkraam en verkoopt van alles. Een appel kost bijvoorbeeld €0,40. Je kind tikt munten in het bakje — een muntje van 20 cent en nog een van 20 cent, of vier van 10 cent — tot het bedrag precies klopt, en betaalt Otto dan af. Soms vraagt Otto om passend te betalen met zo min mogelijk munten, en soms betaal je met te veel geld en geeft Otto keurig wisselgeld terug.",
+        "Leren rekenen met echt geld is een praktische vaardigheid die kinderen in groep 4 elke dag kunnen gebruiken. Je kind oefent met het herkennen van euro's en centen, het samenstellen van een bedrag uit losse munten en het uitrekenen van wisselgeld. De munten in het spel hebben dezelfde kleuren en groottes als in het echt, zodat je kind de waarde van elke munt goed leert kennen.",
+        "Dit spel past bij rekenen met geld in groep 4. Otto zegt nooit dat iets fout is — hij helpt gewoon verder tot het klopt. Er is geen tijd en geen score, dus je kind kan in alle rust zo vaak oefenen als het wil. Alles wordt bovendien voorgelezen, zodat ook kinderen die nog niet vlot lezen goed kunnen meedoen."
+      ],
+      "practices": [
+        "het juiste bedrag betalen met euro- en centmunten",
+        "passend betalen met de minste munten",
+        "wisselgeld teruggeven",
+        "munten met dezelfde waarde wisselen"
+      ],
+      "howToPlay": [
+        "Lees wat het kost bij Otto",
+        "Tik de juiste munten in het bakje",
+        "Betaal Otto het juiste bedrag"
+      ],
+      "learningGoals": [
+        "bedragen samenstellen met euro- en centmunten",
+        "passend betalen en wisselgeld geven",
+        "de waarde van munten leren kennen"
+      ]
+    },
     "daisy-plate-stack.plurals.l-k-1-c": {
       "about": [
         "Margriet de eend laat een korte zin zien met een getal erin, bijvoorbeeld \"In de tuin staan drie ___.\" Onder de zin staan drie woorden. Je kind kiest het juiste meervoud — hier bijvoorbeeld \"bomen\" — en tikt dat woord aan. Meer hoeft er niet: lezen, kiezen, tikken. Bij het goede antwoord schuift het woord vrolijk op zijn plek in de zin.",

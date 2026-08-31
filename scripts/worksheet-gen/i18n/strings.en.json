@@ -267,6 +267,154 @@
     "title": "Which Shape Is Different?",
     "instruction": "Look at each row. Circle the shape that does not belong."
   },
+  "K-201": {
+    "title": "Living and Non-living Things",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-202": {
+    "title": "Fruits and Vegetables",
+    "instruction": "Draw a line from each food to the group it belongs to."
+  },
+  "K-203": {
+    "title": "Healthy and Not-Healthy Foods",
+    "instruction": "Draw a line from each food to the group it belongs to."
+  },
+  "K-204": {
+    "title": "Pets and Wild Animals",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "K-205": {
+    "title": "Animal Babies",
+    "instruction": "Draw a line from each grown-up animal to its baby."
+  },
+  "K-206": {
+    "title": "Things That Fly",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-207": {
+    "title": "Summer and Winter Clothes",
+    "instruction": "Draw a line from each item of clothing to the right group."
+  },
+  "K-208": {
+    "title": "Day and Night",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-209": {
+    "title": "Farm and Wild Animals",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "K-210": {
+    "title": "Land, Water, and Air Transportation",
+    "instruction": "Draw a line from each vehicle to where it travels."
+  },
+  "K-211": {
+    "title": "Hot and Cold",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-212": {
+    "title": "Wants and Needs",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-213": {
+    "title": "Community Helpers and Their Tools",
+    "instruction": "Draw a line from each helper to the tool they use."
+  },
+  "K-214": {
+    "title": "Natural and Man-made",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-221": {
+    "title": "Beginning Sounds",
+    "instruction": "Write the letter that each picture begins with."
+  },
+  "K-222": {
+    "title": "Capital and Small Letters",
+    "instruction": "Draw a line from each capital letter to its small letter."
+  },
+  "K-223": {
+    "title": "Missing Letters",
+    "instruction": "Write the missing letters to finish the alphabet."
+  },
+  "K-224": {
+    "title": "Missing Sound",
+    "instruction": "Write the missing letter to finish each word."
+  },
+  "K-225": {
+    "title": "Match Word to Picture",
+    "instruction": "Draw a line from each word to the picture it names."
+  },
+  "K-226": {
+    "title": "Ending Sounds",
+    "instruction": "Write the letter that each picture ends with."
+  },
+  "K-227": {
+    "title": "Middle Sounds",
+    "instruction": "Write the vowel you hear in the middle of each word."
+  },
+  "K-228": {
+    "title": "Sort by Beginning Sound",
+    "instruction": "Draw a line from each picture to the letter it begins with."
+  },
+  "K-229": {
+    "title": "Find the Letter",
+    "instruction": "Circle every letter that matches the one in the box."
+  },
+  "K-230": {
+    "title": "Vowels and Consonants",
+    "instruction": "Sort each letter into the vowels or the consonants."
+  },
+  "K-231": {
+    "title": "Build the Word",
+    "instruction": "Use the letters to build the word for each picture."
+  },
+  "K-232": {
+    "title": "Rhyming Pairs",
+    "instruction": "Draw a line between the two pictures that rhyme."
+  },
+  "K-233": {
+    "title": "Count the Syllables",
+    "instruction": "Write how many syllables you hear in each word."
+  },
+  "K-234": {
+    "title": "Sort by Syllables",
+    "instruction": "Draw a line from each picture to its number of syllables."
+  },
+  "K-235": {
+    "title": "Sort by Category",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-236": {
+    "title": "Pencil Path Practice",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-237": {
+    "title": "Trace the Numbers 0 to 9",
+    "instruction": "Trace each number. Start at the orange dot and follow the arrows."
+  },
+  "K-238": {
+    "title": "Trace the Capital Letters",
+    "instruction": "Trace each letter, then try one on your own on the empty line."
+  },
+  "K-239": {
+    "title": "Sight Words: Read, Trace, Write",
+    "instruction": "Read the word. Trace it. Then write it yourself on the empty line."
+  },
+  "K-240": {
+    "title": "Cut, Sort, and Paste",
+    "instruction": "Cut out the pictures at the bottom. Sort them and glue each one into its box."
+  },
+  "K-241": {
+    "title": "Color by Code",
+    "instruction": "Look at the code. Color every shape with its matching color."
+  },
+  "K-242": {
+    "title": "Follow the Maze",
+    "instruction": "Start at the top. Draw a path through the maze to reach the goal at the bottom."
+  },
+  "K-243": {
+    "title": "Number Bonds to 10",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
   "G1-101": {
     "title": "Add the Pictures",
     "instruction": "Count both groups. Write how many altogether."
@@ -455,6 +603,58 @@
     "title": "Three Groups",
     "instruction": "Draw a line from each picture to the bin where it belongs."
   },
+  "G1-201": {
+    "title": "Sort the Animals",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "G1-202": {
+    "title": "Where Do Animals Live?",
+    "instruction": "Draw a line from each animal to where it lives."
+  },
+  "G1-203": {
+    "title": "The Life Cycle of a Chicken",
+    "instruction": "Write 1, 2, 3 to put the pictures in the right order."
+  },
+  "G1-204": {
+    "title": "Sink or Float?",
+    "instruction": "Draw a line from each object to the group you think it belongs to."
+  },
+  "G1-205": {
+    "title": "Animal Coverings",
+    "instruction": "Draw a line from each animal to its body covering."
+  },
+  "G1-206": {
+    "title": "What Animals Eat",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "G1-207": {
+    "title": "The Four Food Groups",
+    "instruction": "Draw a line from each food to its food group."
+  },
+  "G1-208": {
+    "title": "Mental Math to 20",
+    "instruction": "Solve each problem in your head. Write the missing number in the box."
+  },
+  "G1-209": {
+    "title": "Fact Family Houses",
+    "instruction": "Use the three numbers on the roof. Complete the four related facts."
+  },
+  "G1-210": {
+    "title": "Number Words",
+    "instruction": "Read the number. Circle the word that matches it."
+  },
+  "G1-211": {
+    "title": "Counting Coins",
+    "instruction": "Count the coins in each purse. Write the total amount in the box."
+  },
+  "G1-212": {
+    "title": "Draw the Clock Hands",
+    "instruction": "Read the time. Draw the hour hand and the minute hand on the clock."
+  },
+  "G1-213": {
+    "title": "Picture Word Problems",
+    "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -635,6 +835,22 @@
     "title": "Quarter Hours",
     "instruction": "Read each clock. Circle the matching time."
   },
+  "G2-251": {
+    "title": "Column Addition and Subtraction",
+    "instruction": "Write the numbers in columns. Add or subtract, one place at a time."
+  },
+  "G2-252": {
+    "title": "Measuring Jugs and Scales",
+    "instruction": "Read each measuring jug and balance scale. Write the amount with its unit."
+  },
+  "G2-253": {
+    "title": "Complete the Symmetry Picture",
+    "instruction": "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical."
+  },
+  "G2-254": {
+    "title": "Read and Answer",
+    "instruction": "Read the story carefully. Then circle the best answer to each question."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -783,18 +999,6 @@
     "title": "Cube Towers",
     "instruction": "Count all the cubes in each tower. Write the total."
   },
-  "G3-354": {
-    "title": "To the Minute",
-    "instruction": "Read each clock. Circle the matching time."
-  },
-  "G3-355": {
-    "title": "12-Hour and 24-Hour Time",
-    "instruction": "Match each time to its 12-hour or 24-hour form. Circle the correct one."
-  },
-  "G3-356": {
-    "title": "Add and Subtract Time",
-    "instruction": "Start at the time shown, then add or subtract. Write the new time."
-  },
   "G3-348": {
     "title": "Big Picture Sudoku",
     "instruction": "Every row, column, and box needs all six pictures — fill the empty cells."
@@ -815,148 +1019,24 @@
     "title": "Two-Circle Sort",
     "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Draw a line from each picture to its place."
   },
-  "K-201": {
-    "title": "Living and Non-living Things",
-    "instruction": "Draw a line from each picture to the group it belongs to."
+  "G3-354": {
+    "title": "To the Minute",
+    "instruction": "Read each clock. Circle the matching time."
   },
-  "K-202": {
-    "title": "Fruits and Vegetables",
-    "instruction": "Draw a line from each food to the group it belongs to."
+  "G3-355": {
+    "title": "12-Hour and 24-Hour Time",
+    "instruction": "Match each time to its 12-hour or 24-hour form. Circle the correct one."
   },
-  "K-203": {
-    "title": "Healthy and Not-Healthy Foods",
-    "instruction": "Draw a line from each food to the group it belongs to."
+  "G3-356": {
+    "title": "Add and Subtract Time",
+    "instruction": "Start at the time shown, then add or subtract. Write the new time."
   },
-  "K-204": {
-    "title": "Pets and Wild Animals",
-    "instruction": "Draw a line from each animal to the group it belongs to."
+  "G3-357": {
+    "title": "Addition and Subtraction with Regrouping",
+    "instruction": "Solve each problem. Regroup when a column goes over nine or comes up short."
   },
-  "K-206": {
-    "title": "Things That Fly",
-    "instruction": "Draw a line from each picture to the group it belongs to."
-  },
-  "K-207": {
-    "title": "Summer and Winter Clothes",
-    "instruction": "Draw a line from each item of clothing to the right group."
-  },
-  "K-208": {
-    "title": "Day and Night",
-    "instruction": "Draw a line from each picture to the group it belongs to."
-  },
-  "K-209": {
-    "title": "Farm and Wild Animals",
-    "instruction": "Draw a line from each animal to the group it belongs to."
-  },
-  "K-210": {
-    "title": "Land, Water, and Air Transportation",
-    "instruction": "Draw a line from each vehicle to where it travels."
-  },
-  "K-211": {
-    "title": "Hot and Cold",
-    "instruction": "Draw a line from each picture to the group it belongs to."
-  },
-  "K-212": {
-    "title": "Wants and Needs",
-    "instruction": "Draw a line from each picture to the group it belongs to."
-  },
-  "K-214": {
-    "title": "Natural and Man-made",
-    "instruction": "Draw a line from each picture to the group it belongs to."
-  },
-  "G1-201": {
-    "title": "Sort the Animals",
-    "instruction": "Draw a line from each animal to the group it belongs to."
-  },
-  "G1-202": {
-    "title": "Where Do Animals Live?",
-    "instruction": "Draw a line from each animal to where it lives."
-  },
-  "G1-204": {
-    "title": "Sink or Float?",
-    "instruction": "Draw a line from each object to the group you think it belongs to."
-  },
-  "G1-205": {
-    "title": "Animal Coverings",
-    "instruction": "Draw a line from each animal to its body covering."
-  },
-  "G1-206": {
-    "title": "What Animals Eat",
-    "instruction": "Draw a line from each animal to the group it belongs to."
-  },
-  "G1-207": {
-    "title": "The Four Food Groups",
-    "instruction": "Draw a line from each food to its food group."
-  },
-  "G1-203": {
-    "title": "The Life Cycle of a Chicken",
-    "instruction": "Write 1, 2, 3 to put the pictures in the right order."
-  },
-  "K-205": {
-    "title": "Animal Babies",
-    "instruction": "Draw a line from each grown-up animal to its baby."
-  },
-  "K-213": {
-    "title": "Community Helpers and Their Tools",
-    "instruction": "Draw a line from each helper to the tool they use."
-  },
-  "K-221": {
-    "title": "Beginning Sounds",
-    "instruction": "Write the letter that each picture begins with."
-  },
-  "K-222": {
-    "title": "Capital and Small Letters",
-    "instruction": "Draw a line from each capital letter to its small letter."
-  },
-  "K-223": {
-    "title": "Missing Letters",
-    "instruction": "Write the missing letters to finish the alphabet."
-  },
-  "K-224": {
-    "title": "Missing Sound",
-    "instruction": "Write the missing letter to finish each word."
-  },
-  "K-225": {
-    "title": "Match Word to Picture",
-    "instruction": "Draw a line from each word to the picture it names."
-  },
-  "K-226": {
-    "title": "Ending Sounds",
-    "instruction": "Write the letter that each picture ends with."
-  },
-  "K-227": {
-    "title": "Middle Sounds",
-    "instruction": "Write the vowel you hear in the middle of each word."
-  },
-  "K-228": {
-    "title": "Sort by Beginning Sound",
-    "instruction": "Draw a line from each picture to the letter it begins with."
-  },
-  "K-229": {
-    "title": "Find the Letter",
-    "instruction": "Circle every letter that matches the one in the box."
-  },
-  "K-230": {
-    "title": "Vowels and Consonants",
-    "instruction": "Sort each letter into the vowels or the consonants."
-  },
-  "K-231": {
-    "title": "Build the Word",
-    "instruction": "Use the letters to build the word for each picture."
-  },
-  "K-232": {
-    "title": "Rhyming Pairs",
-    "instruction": "Draw a line between the two pictures that rhyme."
-  },
-  "K-233": {
-    "title": "Count the Syllables",
-    "instruction": "Write how many syllables you hear in each word."
-  },
-  "K-234": {
-    "title": "Sort by Syllables",
-    "instruction": "Draw a line from each picture to its number of syllables."
-  },
-  "K-235": {
-    "title": "Sort by Category",
-    "instruction": "Draw a line from each picture to the group it belongs to."
+  "G3-358": {
+    "title": "Times Tables Practice",
+    "instruction": "Multiply. Write each product in the box."
   }
 }

@@ -6,9 +6,13 @@
 'use strict';
 const tokens = require('../primitives/_tokens.js');
 
-const PALETTE = new Set(
-  Object.values(tokens.color).map((c) => c.toUpperCase())
-);
+const PALETTE = new Set([
+  ...Object.values(tokens.color).map((c) => c.toUpperCase()),
+  // Legend-swatch-only colors (color-by-code family). Merged EXPLICITLY from
+  // the separate tokens.codeColors namespace — see the note in _tokens.js.
+  // These are licensed for legend swatches, never for primitive artwork.
+  ...Object.values(tokens.codeColors || {}).map((c) => c.toUpperCase()),
+]);
 
 function runLints(page, { gradeBand }) {
   const density = tokens.density[gradeBand] || tokens.density.K;
@@ -22,7 +26,10 @@ function runLints(page, { gradeBand }) {
     // Catches the "blank sheet" class (e.g. a themed generator finding no usable
     // nouns and emitting zero cards) BEFORE it can be published. Every type's
     // body uses one of these content primitives.
-    const CONTENT_SEL = '.ws-card-stage, .ws-match-item, .ws-bin, .ws-pattern-slot, .ws-pattern-chip, [data-lit-content]';
+    // .ws-trace-lane = tracing-family lanes (K-236..K-239); [data-ws-content]
+    // = generic content stamp for full-page hero layouts (maze, symmetry grid,
+    // column-arithmetic frames) that don't sit inside a .ws-card-stage.
+    const CONTENT_SEL = '.ws-card-stage, .ws-match-item, .ws-bin, .ws-pattern-slot, .ws-pattern-chip, [data-lit-content], .ws-trace-lane, [data-ws-content]';
     if (document.querySelectorAll('.ws-page ' + CONTENT_SEL.split(', ').join(', .ws-page ')).length === 0) {
       fails.push('blank worksheet: no content elements rendered');
     }

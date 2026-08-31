@@ -21,6 +21,21 @@ const color = {
   grid: '#C8BFAE',       // light rules/grid lines
 };
 
+/**
+ * Legend-swatch-ONLY colors for the color-by-code family (K-241 class).
+ * Deliberately a SEPARATE namespace from `color`: qa/lints.js merges these
+ * into its whitelist EXPLICITLY so that Direction A's primitive palette
+ * (`color`) stays closed — never fold these into `color`, or every future
+ * primitive silently gains license to use them. Muted, print-friendly hues
+ * chosen against the cream ground; the child supplies the real color.
+ */
+const codeColors = {
+  codeRed: '#C0392B',
+  codeBlue: '#2E6DA4',
+  codeYellow: '#E0A800',
+  codeGreen: '#4E8A3C',
+};
+
 const font = {
   display: "'Baloo 2'",
   body: "'Nunito'",
@@ -58,4 +73,4 @@ const pageBox = {
   contentH: Math.round(250 * 96 / 25.4),  // 945
 };
 
-module.exports = { color, font, stroke, radius, density, pageBox };
+module.exports = { color, codeColors, font, stroke, radius, density, pageBox };

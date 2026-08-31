@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
     "short": "Builds phonological awareness skills."
+  },
+  "pre-writing": {
+    "full": "Tracing loops, waves, and zigzag paths trains the pencil control and hand strength that every letter and numeral will build on.",
+    "short": "Builds pencil control and pre-writing motor skills."
+  },
+  "number-tracing": {
+    "full": "Tracing each numeral along its stroke path with a start dot and arrows builds correct number formation from the very first try.",
+    "short": "Builds correct numeral formation."
+  },
+  "letter-tracing": {
+    "full": "Tracing capital letters on handwriting lines builds letterform memory and the steady strokes behind confident early writing.",
+    "short": "Builds capital letter formation."
+  },
+  "sight-words": {
+    "full": "Reading, tracing, and writing high-frequency words moves them into instant memory so young readers can focus on meaning.",
+    "short": "Builds instant recognition of frequent words."
+  },
+  "cutting-practice": {
+    "full": "Cutting out pictures and gluing each one into its group trains scissor control and early sorting thinking in one warm activity.",
+    "short": "Builds scissor skills and sorting."
+  },
+  "color-by-number": {
+    "full": "Matching every code to its color turns careful looking and early math facts into a picture worth finishing.",
+    "short": "Builds fact fluency through coloring."
+  },
+  "mazes": {
+    "full": "Finding the one path through the maze builds visual planning, pencil control, and patient problem solving.",
+    "short": "Builds visual planning and pencil control."
+  },
+  "number-bonds": {
+    "full": "Completing part-part-whole bonds shows how numbers break apart and builds the decomposition facts behind mental math.",
+    "short": "Builds number decomposition to 10."
+  },
+  "mental-math": {
+    "full": "Solving addition and subtraction to twenty in the head builds the fact fluency that later written methods stand on.",
+    "short": "Builds add and subtract fluency to 20."
+  },
+  "fact-families": {
+    "full": "Completing all four related facts from one number trio shows how addition and subtraction undo each other.",
+    "short": "Builds inverse-operation understanding."
+  },
+  "number-words": {
+    "full": "Matching numerals to their written number words strengthens place-value reading and guards against digit reversals.",
+    "short": "Builds number-word reading."
+  },
+  "money": {
+    "full": "Counting real coin values from largest to smallest builds the money sense children use in everyday life.",
+    "short": "Builds coin counting and money sense."
+  },
+  "word-problems": {
+    "full": "Reading a short story, checking the picture, and writing the answer turns arithmetic into real problem solving.",
+    "short": "Builds word-problem solving with picture support."
+  },
+  "column-arithmetic": {
+    "full": "Working one place-value column at a time builds the careful written method used for bigger and bigger numbers.",
+    "short": "Builds the written column method."
+  },
+  "symmetry": {
+    "full": "Completing the mirror half of a picture square by square builds symmetry understanding and precise spatial drawing.",
+    "short": "Builds symmetry and spatial drawing."
+  },
+  "reading-comprehension": {
+    "full": "Reading a short story and answering questions about it builds the careful understanding all learning depends on.",
+    "short": "Builds reading comprehension."
+  },
+  "multiplication-tables": {
+    "full": "Practicing times-table facts in ladders and mixed drills builds the instant recall that makes harder math feel easy.",
+    "short": "Builds times-table fact fluency."
   }
 }

@@ -8,7 +8,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, circle, el, label } = require('./_svg.js');
 
-function clock({ h, m, size = 150 }, ctx) {
+function clock({ h, m, size = 150, hands = 'both' }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (h < 0 || h > 12 || m < 0 || m > 59) throw new Error(`clock: invalid time ${h}:${m}`);
   const c = size / 2;
@@ -49,9 +49,14 @@ function clock({ h, m, size = 150 }, ctx) {
       [`data-lcs-${name}`]: angleDeg.toFixed(1),
     });
   };
-  parts.push(hand(hourAngle, rFace * 0.48, 6, t.color.ink, 'hourhand'));
-  parts.push(hand(minuteAngle, rFace * 0.72, 4.5, t.color.coral, 'minutehand'));
-  parts.push(circle({ cx: c, cy: c, r: 5.5, fill: t.color.teal }));
+  // hands:'none' → empty face for the DRAW-the-hands task (G1-212 class).
+  // meta + data-lcs-h/m still carry the TARGET time for QA; the coral center
+  // dot stays as the "start your hands here" anchor (design-panel lock).
+  if (hands !== 'none') {
+    parts.push(hand(hourAngle, rFace * 0.48, 6, t.color.ink, 'hourhand'));
+    parts.push(hand(minuteAngle, rFace * 0.72, 4.5, t.color.coral, 'minutehand'));
+  }
+  parts.push(circle({ cx: c, cy: c, r: hands === 'none' ? 7 : 5.5, fill: hands === 'none' ? t.color.coral : t.color.teal }));
 
   return {
     svg: svgRoot({ width: size, height: size, label: `clock showing ${h}:${String(m).padStart(2, '0')}` },

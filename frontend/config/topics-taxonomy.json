@@ -299,29 +299,234 @@
       "default_subject": "letters",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "phonological-awareness"
+    },
+    "pre-writing": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "pre-writing"
+    },
+    "number-tracing": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "number-tracing"
+    },
+    "letter-tracing": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "letter-tracing"
+    },
+    "sight-words": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "sight-words"
+    },
+    "cutting-practice": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "cutting-practice"
+    },
+    "color-by-number": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "color-by-number"
+    },
+    "mazes": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "mazes"
+    },
+    "number-bonds": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "number-bonds"
+    },
+    "mental-math": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "mental-math"
+    },
+    "fact-families": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "fact-families"
+    },
+    "number-words": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "number-words"
+    },
+    "money": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "money"
+    },
+    "word-problems": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "word-problems"
+    },
+    "column-arithmetic": {
+      "default_subject": "math",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "column-arithmetic"
+    },
+    "symmetry": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "symmetry"
+    },
+    "reading-comprehension": {
+      "default_subject": "letters",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "reading-comprehension"
+    },
+    "multiplication-tables": {
+      "default_subject": "math",
+      "default_age_range": "8-10",
+      "exercise_type_axis_key": "multiplication-tables"
     }
   },
   "$comment_subjects": "Subject×grade hub registry (2026-07-05). Powers /[locale]/topic/<subject>/<grade> hub pages that match how teachers search (Fach×Klasse, e.g. 'Mathe Klasse 1'). Keys = the apps.*.default_subject buckets (math/logic/letters/spatial-reasoning/science). slug+name per locale; bucket→exercise-type mapping derived from apps.* in code (exerciseTypeKeysForSubject). NOTE: the older $comment_subject_vocabulary claim of '4 values, no science' is stale — the corpus has 5 (science = science-sort/match/sequence). Added de+en at MVP; other locales added per the per-locale SEO rollout with native Fach terms.",
   "subjects": {
     "math": {
-      "slug": { "en": "math", "de": "mathe", "nl": "rekenen", "es": "matematicas", "fr": "mathematiques", "pt": "matematica", "it": "matematica", "sv": "matematik", "da": "matematik", "no": "matematikk", "fi": "matematiikka" },
-      "name": { "en": "Math", "de": "Mathe", "nl": "Rekenen", "es": "Matemáticas", "fr": "Mathématiques", "pt": "Matemática", "it": "Matematica", "sv": "Matematik", "da": "Matematik", "no": "Matematikk", "fi": "Matematiikka" }
+      "slug": {
+        "en": "math",
+        "de": "mathe",
+        "nl": "rekenen",
+        "es": "matematicas",
+        "fr": "mathematiques",
+        "pt": "matematica",
+        "it": "matematica",
+        "sv": "matematik",
+        "da": "matematik",
+        "no": "matematikk",
+        "fi": "matematiikka"
+      },
+      "name": {
+        "en": "Math",
+        "de": "Mathe",
+        "nl": "Rekenen",
+        "es": "Matemáticas",
+        "fr": "Mathématiques",
+        "pt": "Matemática",
+        "it": "Matematica",
+        "sv": "Matematik",
+        "da": "Matematik",
+        "no": "Matematikk",
+        "fi": "Matematiikka"
+      }
     },
     "letters": {
-      "slug": { "en": "reading", "de": "deutsch", "nl": "taal", "es": "espanol", "fr": "francais", "pt": "portugues", "it": "italiano", "sv": "svenska-ovningar", "da": "dansk", "no": "norsk", "fi": "aidinkieli" },
-      "name": { "en": "Reading & Writing", "de": "Deutsch", "nl": "Taal", "es": "Español", "fr": "Français", "pt": "Português", "it": "Italiano", "sv": "Svenska", "da": "Dansk", "no": "Norsk", "fi": "Äidinkieli" }
+      "slug": {
+        "en": "reading",
+        "de": "deutsch",
+        "nl": "taal",
+        "es": "espanol",
+        "fr": "francais",
+        "pt": "portugues",
+        "it": "italiano",
+        "sv": "svenska-ovningar",
+        "da": "dansk",
+        "no": "norsk",
+        "fi": "aidinkieli"
+      },
+      "name": {
+        "en": "Reading & Writing",
+        "de": "Deutsch",
+        "nl": "Taal",
+        "es": "Español",
+        "fr": "Français",
+        "pt": "Português",
+        "it": "Italiano",
+        "sv": "Svenska",
+        "da": "Dansk",
+        "no": "Norsk",
+        "fi": "Äidinkieli"
+      }
     },
     "science": {
-      "slug": { "en": "science", "de": "sachunterricht", "nl": "natuur", "es": "ciencias", "fr": "sciences", "pt": "ciencias", "it": "scienze", "sv": "natur", "da": "natur-teknologi", "no": "naturfag", "fi": "ymparistooppi" },
-      "name": { "en": "Science", "de": "Sachunterricht", "nl": "Natuur", "es": "Ciencias", "fr": "Sciences", "pt": "Ciências", "it": "Scienze", "sv": "Natur", "da": "Natur/teknologi", "no": "Naturfag", "fi": "Ympäristöoppi" }
+      "slug": {
+        "en": "science",
+        "de": "sachunterricht",
+        "nl": "natuur",
+        "es": "ciencias",
+        "fr": "sciences",
+        "pt": "ciencias",
+        "it": "scienze",
+        "sv": "natur",
+        "da": "natur-teknologi",
+        "no": "naturfag",
+        "fi": "ymparistooppi"
+      },
+      "name": {
+        "en": "Science",
+        "de": "Sachunterricht",
+        "nl": "Natuur",
+        "es": "Ciencias",
+        "fr": "Sciences",
+        "pt": "Ciências",
+        "it": "Scienze",
+        "sv": "Natur",
+        "da": "Natur/teknologi",
+        "no": "Naturfag",
+        "fi": "Ympäristöoppi"
+      }
     },
     "logic": {
-      "slug": { "en": "logic", "de": "logik", "nl": "puzzelen", "es": "razonamiento-logico", "fr": "logique", "pt": "raciocinio-logico", "it": "logica", "sv": "logik", "da": "logik", "no": "logikk", "fi": "logiikka" },
-      "name": { "en": "Logic", "de": "Logik", "nl": "Puzzelen", "es": "Razonamiento lógico", "fr": "Logique", "pt": "Raciocínio lógico", "it": "Logica", "sv": "Logik", "da": "Logik", "no": "Logikk", "fi": "Logiikka" }
+      "slug": {
+        "en": "logic",
+        "de": "logik",
+        "nl": "puzzelen",
+        "es": "razonamiento-logico",
+        "fr": "logique",
+        "pt": "raciocinio-logico",
+        "it": "logica",
+        "sv": "logik",
+        "da": "logik",
+        "no": "logikk",
+        "fi": "logiikka"
+      },
+      "name": {
+        "en": "Logic",
+        "de": "Logik",
+        "nl": "Puzzelen",
+        "es": "Razonamiento lógico",
+        "fr": "Logique",
+        "pt": "Raciocínio lógico",
+        "it": "Logica",
+        "sv": "Logik",
+        "da": "Logik",
+        "no": "Logikk",
+        "fi": "Logiikka"
+      }
     },
     "spatial-reasoning": {
-      "slug": { "en": "visual", "de": "wahrnehmung", "nl": "waarnemen", "es": "percepcion-visual", "fr": "reperage-espace", "pt": "percepcao-visual", "it": "percezione-visiva", "sv": "perception", "da": "visuel-opmaerksomhed", "no": "visuell-persepsjon", "fi": "visuaalinen-hahmottaminen" },
-      "name": { "en": "Visual & Spatial", "de": "Wahrnehmung", "nl": "Waarnemen", "es": "Percepción visual", "fr": "Repérage dans l'espace", "pt": "Percepção visual", "it": "Percezione visiva", "sv": "Visuell perception", "da": "Visuel opmærksomhed", "no": "Visuell persepsjon", "fi": "Visuaalinen hahmottaminen" }
+      "slug": {
+        "en": "visual",
+        "de": "wahrnehmung",
+        "nl": "waarnemen",
+        "es": "percepcion-visual",
+        "fr": "reperage-espace",
+        "pt": "percepcao-visual",
+        "it": "percezione-visiva",
+        "sv": "perception",
+        "da": "visuel-opmaerksomhed",
+        "no": "visuell-persepsjon",
+        "fi": "visuaalinen-hahmottaminen"
+      },
+      "name": {
+        "en": "Visual & Spatial",
+        "de": "Wahrnehmung",
+        "nl": "Waarnemen",
+        "es": "Percepción visual",
+        "fr": "Repérage dans l'espace",
+        "pt": "Percepção visual",
+        "it": "Percezione visiva",
+        "sv": "Visuell perception",
+        "da": "Visuel opmærksomhed",
+        "no": "Visuell persepsjon",
+        "fi": "Visuaalinen hahmottaminen"
+      }
     }
   },
   "axes": {
@@ -1984,6 +2189,142 @@
           "da": "Sproglig opmærksomhed",
           "no": "Språklig bevissthet",
           "fi": "Kielellinen tietoisuus"
+        }
+      },
+      "pre-writing": {
+        "slug": {
+          "en": "pre-writing"
+        },
+        "name": {
+          "en": "Pre-Writing Practice"
+        }
+      },
+      "number-tracing": {
+        "slug": {
+          "en": "number-tracing"
+        },
+        "name": {
+          "en": "Number Tracing"
+        }
+      },
+      "letter-tracing": {
+        "slug": {
+          "en": "letter-tracing"
+        },
+        "name": {
+          "en": "Letter Tracing"
+        }
+      },
+      "sight-words": {
+        "slug": {
+          "en": "sight-words"
+        },
+        "name": {
+          "en": "Sight Words"
+        }
+      },
+      "cutting-practice": {
+        "slug": {
+          "en": "cutting-practice"
+        },
+        "name": {
+          "en": "Cutting Practice"
+        }
+      },
+      "color-by-number": {
+        "slug": {
+          "en": "color-by-number"
+        },
+        "name": {
+          "en": "Color by Number"
+        }
+      },
+      "mazes": {
+        "slug": {
+          "en": "mazes"
+        },
+        "name": {
+          "en": "Mazes"
+        }
+      },
+      "number-bonds": {
+        "slug": {
+          "en": "number-bonds"
+        },
+        "name": {
+          "en": "Number Bonds"
+        }
+      },
+      "mental-math": {
+        "slug": {
+          "en": "mental-math"
+        },
+        "name": {
+          "en": "Mental Math"
+        }
+      },
+      "fact-families": {
+        "slug": {
+          "en": "fact-families"
+        },
+        "name": {
+          "en": "Fact Families"
+        }
+      },
+      "number-words": {
+        "slug": {
+          "en": "number-words"
+        },
+        "name": {
+          "en": "Number Words"
+        }
+      },
+      "money": {
+        "slug": {
+          "en": "money"
+        },
+        "name": {
+          "en": "Counting Money"
+        }
+      },
+      "word-problems": {
+        "slug": {
+          "en": "word-problems"
+        },
+        "name": {
+          "en": "Word Problems"
+        }
+      },
+      "column-arithmetic": {
+        "slug": {
+          "en": "column-arithmetic"
+        },
+        "name": {
+          "en": "Column Addition and Subtraction"
+        }
+      },
+      "symmetry": {
+        "slug": {
+          "en": "symmetry"
+        },
+        "name": {
+          "en": "Symmetry"
+        }
+      },
+      "reading-comprehension": {
+        "slug": {
+          "en": "reading-comprehension"
+        },
+        "name": {
+          "en": "Reading Comprehension"
+        }
+      },
+      "multiplication-tables": {
+        "slug": {
+          "en": "multiplication-tables"
+        },
+        "name": {
+          "en": "Multiplication Tables"
         }
       }
     },

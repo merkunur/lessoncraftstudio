@@ -1427,6 +1427,17 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "pv-boat", "event": "Een rode boot voer de haven binnen.", "line": "De boot leek een piepklein stipje, heel ver weg.", "view": "high", "chars": [ { "id": "a", "name": "Fien", "glyph": "bird", "pos": "high" }, { "id": "b", "name": "Guus", "glyph": "mouse", "pos": "mid" }, { "id": "c", "name": "Bas", "glyph": "friend", "pos": "low" } ] },
+          { "id": "pv-wave", "event": "Een grote golf rolde de kade op.", "line": "De enorme golf spatte vlak over me heen!", "view": "low", "chars": [ { "id": "a", "name": "Bas", "glyph": "friend", "pos": "high" }, { "id": "b", "name": "Flappie", "glyph": "bunny", "pos": "mid" }, { "id": "c", "name": "Guus", "glyph": "mouse", "pos": "low" } ] },
+          { "id": "pv-fish", "event": "Een vis zwom diep onder water.", "line": "De vis was maar een piepklein spikkeltje, diep beneden.", "view": "high", "chars": [ { "id": "a", "name": "Guus", "glyph": "mouse", "pos": "high" }, { "id": "b", "name": "Bas", "glyph": "friend", "pos": "mid" }, { "id": "c", "name": "Fien", "glyph": "bird", "pos": "low" } ] },
+          { "id": "pv-gull", "event": "Een meeuw scheerde voorbij.", "line": "Hij zoefde vlak langs mijn neus!", "view": "low", "chars": [ { "id": "a", "name": "Fien", "glyph": "bird", "pos": "high" }, { "id": "b", "name": "Guus", "glyph": "mouse", "pos": "mid" }, { "id": "c", "name": "Flappie", "glyph": "bunny", "pos": "low" } ] },
+          { "id": "pv-town", "event": "Het stadje lag aan de kust.", "line": "Ik zag het hele stadje, piepklein en heel ver beneden.", "view": "high", "chars": [ { "id": "a", "name": "Bas", "glyph": "friend", "pos": "high" }, { "id": "b", "name": "Fien", "glyph": "bird", "pos": "mid" }, { "id": "c", "name": "Guus", "glyph": "mouse", "pos": "low" } ] },
+          { "id": "pv-crab", "event": "Een krab kroop over de stenen.", "line": "De krab was enorm, vlak naast me.", "view": "low", "chars": [ { "id": "a", "name": "Flappie", "glyph": "bunny", "pos": "high" }, { "id": "b", "name": "Bas", "glyph": "friend", "pos": "mid" }, { "id": "c", "name": "Fien", "glyph": "bird", "pos": "low" } ] },
+          { "id": "pv-sail", "event": "Een witte zeilboot gleed over het water.", "line": "De zeilboot was piepklein, heel ver weg.", "view": "high", "chars": [ { "id": "a", "name": "Flappie", "glyph": "bunny", "pos": "high" }, { "id": "b", "name": "Guus", "glyph": "mouse", "pos": "mid" }, { "id": "c", "name": "Bas", "glyph": "friend", "pos": "low" } ] },
+          { "id": "pv-jelly", "event": "Een kwal dreef in de haven.", "line": "De kwal dreef vlak onder me, heel groot en dichtbij.", "view": "low", "chars": [ { "id": "a", "name": "Bas", "glyph": "friend", "pos": "high" }, { "id": "b", "name": "Fien", "glyph": "bird", "pos": "mid" }, { "id": "c", "name": "Flappie", "glyph": "bunny", "pos": "low" } ] },
+          { "id": "pv-ship", "event": "Een groot schip voer in de verte.", "line": "Het schip was zo klein, daar heel ver weg op zee.", "view": "high", "chars": [ { "id": "a", "name": "Guus", "glyph": "mouse", "pos": "high" }, { "id": "b", "name": "Flappie", "glyph": "bunny", "pos": "mid" }, { "id": "c", "name": "Fien", "glyph": "bird", "pos": "low" } ] }
         ]
       }
     },
@@ -1436,7 +1447,8 @@
       "fr": "identifier-le-point-de-vue-qui-raconte-ce1",
       "es": "quien-lo-cuenta-desde-arriba-o-desde-abajo-primer-grado",
       "pt": "de-que-janela-foi-contada-ponto-de-vista-1-ano",
-      "it": "punto-di-vista-chi-racconta-da-quale-finestra-classe-prima"
+      "it": "punto-di-vista-chi-racconta-da-quale-finestra-classe-prima",
+      "nl": "lezen-vertelperspectief-vanuit-wie-groep-3"
     },
     "page_title": {
       "en": "Lumen's Lighthouse Windows — Point of View (Grade 1)",
@@ -1444,7 +1456,8 @@
       "fr": "Le phare de Lumen : de quelle fenêtre ? (CE1)",
       "es": "¿Quién lo cuenta? Desde arriba o desde abajo · Primer grado",
       "pt": "De qual janela? Ponto de vista · 1º ano",
-      "it": "Il punto di vista: chi racconta? Da quale finestra — Classe prima"
+      "it": "Il punto di vista: chi racconta? Da quale finestra — Classe prima",
+      "nl": "Vertelperspectief lezen: vanuit wie wordt het verteld? (groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: help Lumen the owl figure out who is telling the story. Each creature watches the harbor from a window at a different height — high up, things look tiny and far; down low, they look big and close. Read what the storyteller saw, then tap the window it was told from. A friendly first look at point of view. Common Core RL.1.6.",
@@ -1452,7 +1465,8 @@
       "fr": "Un jeu de lecture CE1, gratuit et interactif : aide Lumen le hibou à trouver de quelle fenêtre l'histoire est racontée. Chaque animal regarde le port depuis une fenêtre à une hauteur différente — tout en haut, les choses paraissent minuscules et lointaines ; tout en bas, énormes et toutes proches. Ton enfant lit ce que le conteur a vu, puis touche la fenêtre d'où c'est raconté. Un premier pas tout doux vers le point de vue.",
       "es": "Lee la frase y descubre quién la dice: «La lancha se veía como un puntito». Arriba se ve pequeño; abajo, enorme. Actividad en línea gratis, sin registro.",
       "pt": "Com a coruja Luzia, no alto de um farol, a criança lê uma frase e toca na janela de onde ela foi contada — lá do alto tudo parece pequenininho e longe, lá embaixo tudo parece enorme e bem perto. Um primeiro olhar, concreto e leve, sobre o ponto de vista de quem conta a história. Grátis, sem cadastro. Alinhada à BNCC, 1º ano.",
-      "it": "Con il gufo Lumen, che custodisce un faro dalle finestre poste ad altezze diverse, il bambino legge una frase e tocca la finestra da cui è stata raccontata — dall’alto tutto sembra piccolo e lontano, dal basso vicino all’acqua tutto sembra grande e vicino: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con il gufo Lumen, che custodisce un faro dalle finestre poste ad altezze diverse, il bambino legge una frase e tocca la finestra da cui è stata raccontata — dall’alto tutto sembra piccolo e lontano, dal basso vicino all’acqua tutto sembra grande e vicino: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "Lumen de uil woont in een vuurtoren met ramen op drie hoogtes: hoog, midden en laag. Je kind leest een zin over de haven en tikt op het raam waar het verhaal vandaan verteld wordt, want vanuit het hoogste raam lijkt de boot een piepklein stipje heel ver weg, en beneden bij het water spat de golf zo over je heen. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 3."
     },
     "kid_prompt_template": "point-of-view"
   }

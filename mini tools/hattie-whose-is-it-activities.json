@@ -200,6 +200,16 @@
             "thingG": "f",
             "slot": 1
           }
+        ],
+        "nl": [
+          { "id": "anna", "band": 1, "noun": "Anna", "thing": "bal",   "slot": 0 },
+          { "id": "ben",  "band": 1, "noun": "Ben",  "thing": "pen",   "slot": 1 },
+          { "id": "romy", "band": 1, "noun": "Romy", "thing": "step",  "slot": 2 },
+          { "id": "tom",  "band": 2, "noun": "Tom",  "thing": "muts",  "slot": 0 },
+          { "id": "kim",  "band": 2, "noun": "Kim",  "thing": "boek",  "slot": 1 },
+          { "id": "milo", "band": 2, "noun": "Milo", "thing": "fiets", "slot": 2 },
+          { "id": "daan", "band": 3, "noun": "Daan", "thing": "jas",   "slot": 0 },
+          { "id": "sem",  "band": 3, "noun": "Sem",  "thing": "tas",   "slot": 1 }
         ]
       }
     },
@@ -207,17 +217,20 @@
     "slug": {
       "en": "hattie-whose-is-it",
       "de": "genitiv-s-bei-namen-apostroph",
-      "pt": "de-quem-e-do-ou-da"
+      "pt": "de-quem-e-do-ou-da",
+      "nl": "bezittelijke-s-bij-namen-annas-of-bens-groep-5"
     },
     "page_title": {
       "en": "Hattie's Whose-Is-It — Possessive Nouns (Grade 1)",
       "de": "Genitiv-s bei Namen richtig schreiben – Annas oder Anna's?",
-      "pt": "De quem é? Do ou da que combina com o dono — 2º ano"
+      "pt": "De quem é? Do ou da que combina com o dono — 2º ano",
+      "nl": "Bezittelijke -s bij namen: Anna's of Annas? (groep 5)"
     },
     "page_intro": {
       "en": "Hattie the hedgehog runs the lost-and-found! When ONE owner owns something, we add an apostrophe and an s — the dog's bone. Read who owns it, then tap the word that shows ONE owner. A Grade 1 grammar game about possessive nouns, aligned to Common Core L.1.1.b.",
       "de": "Kostenlos & interaktiv: Dein Kind übt in der Grundschule das Genitiv-s bei Namen – „Annas Ball“, nicht „Anna's“. Ohne Zeitdruck, ohne Punkte, zum Vorlesen.",
-      "pt": "No acha-e-perde da Tuca, a ouriça, cada criança perdeu uma coisa e precisa achar o dono. Você escolhe do ou da conforme o dono ser menino ou menina. Uma atividade de gramática alinhada à BNCC, para o 2º ano."
+      "pt": "No acha-e-perde da Tuca, a ouriça, cada criança perdeu uma coisa e precisa achar o dono. Você escolhe do ou da conforme o dono ser menino ou menina. Uma atividade de gramática alinhada à BNCC, para o 2º ano.",
+      "nl": "Gratis, interactief spel waarin je kind de bezittelijke -s bij namen oefent: apostrof-'s na een klinker (Anna's bal) en een kale -s na een medeklinker (Bens pen). Afgestemd op de SLO-kerndoelen voor groep 5, met alles voorgelezen en zonder tijd of punten."
     },
     "kid_prompt_template": "Tap the word that shows ONE owner owns it."
   }

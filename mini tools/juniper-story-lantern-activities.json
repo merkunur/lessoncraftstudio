@@ -1270,6 +1270,80 @@
               }
             ]
           }
+        ],
+        "nl": [
+          {
+            "id": "tortoise", "band": 1,
+            "story": ["De haas lachte en schepte op dat hij veel sneller was dan de schildpad.", "De haas rende ver vooruit en deed toen een lang dutje.", "De trage schildpad liep gewoon door en won de race."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Rustig volhouden werkt het best." },
+              { "id": "o2", "kind": "detail", "text": "De haas deed een lang dutje." },
+              { "id": "o3", "kind": "wrongmoral", "text": "De snelste loper wint altijd elke wedstrijd." }
+            ]
+          },
+          {
+            "id": "ant", "band": 1,
+            "story": ["De hele zomer speelde de krekel, terwijl de mier eten verzamelde.", "Toen kwam de winter en viel er koude sneeuw.", "De krekel had honger, maar de mier bleef warm en had genoeg."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "De krekel speelde de hele zomer." },
+              { "id": "o2", "kind": "wrongmoral", "text": "De zomer is de beste tijd om uit te rusten." },
+              { "id": "o3", "kind": "moral", "text": "Wie vooruitdenkt, is later goed voorbereid." }
+            ]
+          },
+          {
+            "id": "lion", "band": 1,
+            "story": ["Een kleine muis maakte een grote, slapende leeuw wakker.", "De vriendelijke leeuw glimlachte en liet de muis gaan.", "Later zat de leeuw vast in een net, en de muis knaagde hem los."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "De grote leeuw zat vast in een net." },
+              { "id": "o2", "kind": "moral", "text": "Ook een kleine vriend kan veel helpen." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Een slapende leeuw moet je nooit wakker maken." }
+            ]
+          },
+          {
+            "id": "crow", "band": 2,
+            "story": ["Een dorstige kraai vond een kruik met een beetje water op de bodem.", "Met haar snavel kon ze niet bij het water komen.", "Ze gooide steentjes in de kruik tot het water steeg, en toen dronk ze."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Slim nadenken lost problemen op." },
+              { "id": "o2", "kind": "detail", "text": "De kraai gooide steentjes in de kruik." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Bij warm weer moet je altijd water meenemen." }
+            ]
+          },
+          {
+            "id": "wolf", "band": 2,
+            "story": ["Een jongen riep voor de grap: 'Wolf!' en de mensen kwamen hem te hulp.", "Hij lachte, want er was helemaal geen wolf.", "Toen er een echte wolf kwam, geloofde niemand hem meer."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "De jongen riep voor de grap 'Wolf!'." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Wolven zijn groot en heel gevaarlijk." },
+              { "id": "o3", "kind": "moral", "text": "Wie vaak liegt, wordt niet meer vertrouwd." }
+            ]
+          },
+          {
+            "id": "wind", "band": 2,
+            "story": ["De wind en de zon maakten ruzie over wie de sterkste was.", "De wind blies hard, maar de man hield zijn jas stevig vast.", "Toen scheen de zon warm, en de man deed zijn jas uit."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "De sterke wind blies heel hard tegen de man." },
+              { "id": "o2", "kind": "moral", "text": "Vriendelijkheid werkt beter dan kracht." },
+              { "id": "o3", "kind": "wrongmoral", "text": "De zon is heter dan de wind." }
+            ]
+          },
+          {
+            "id": "goose", "band": 3,
+            "story": ["Een gans legde elke dag een glanzend gouden ei.", "De boer wilde al het goud in één keer hebben.", "Hij sneed de gans open, vond niets, en de eieren bleven uit."],
+            "options": [
+              { "id": "o1", "kind": "moral", "text": "Wie te veel wil, verliest uiteindelijk alles." },
+              { "id": "o2", "kind": "detail", "text": "De hebzuchtige boer wilde al het goud hebben." },
+              { "id": "o3", "kind": "wrongmoral", "text": "Ganzen zijn van puur goud." }
+            ]
+          },
+          {
+            "id": "bear", "band": 3,
+            "story": ["Twee vrienden wandelden samen toen er een grote beer opdook.", "De ene vriend klom in een boom en liet de ander alleen.", "De ander bleef doodstil liggen tot de beer weg was, en stond toen op."],
+            "options": [
+              { "id": "o1", "kind": "detail", "text": "Een vriend klom in een hoge boom." },
+              { "id": "o2", "kind": "wrongmoral", "text": "Beren kun je makkelijk wegjagen." },
+              { "id": "o3", "kind": "moral", "text": "Een echte vriend helpt je in nood." }
+            ]
+          }
         ]
       }
     },
@@ -1280,7 +1354,8 @@
       "fr": "la-morale-d-une-fable-ce1",
       "es": "identificar-la-moraleja-de-una-fabula-tercer-grado",
       "pt": "moral-da-fabula-licao-da-historia-3-ano",
-      "it": "la-morale-della-favola-lezione-della-storia-classe-terza"
+      "it": "la-morale-della-favola-lezione-della-storia-classe-terza",
+      "nl": "moraal-van-een-fabel-de-les-van-het-verhaal-groep-5"
     },
     "page_title": {
       "en": "Juniper's Story Lantern — What's the Lesson? (Grade 1)",
@@ -1288,7 +1363,8 @@
       "fr": "La lanterne de Juniper — La morale d'une fable (CE1)",
       "es": "Identificar la moraleja de una fábula – 3.º primaria",
       "pt": "A moral da fábula: qual é a lição? · 3º ano",
-      "it": "La morale della favola: la lezione della storia — Classe terza"
+      "it": "La morale della favola: la lezione della storia — Classe terza",
+      "nl": "Wat is de moraal? De les van een fabel herkennen (groep 5)"
     },
     "page_intro": {
       "en": "By lantern-light, Juniper the hedgehog tells a tiny fable, then asks the big question: what does this story TEACH us? Listen to the tale, then tap the card that tells its lesson — not just something that happened in it, and not a lesson that sounds right but isn't. A warm Grade 1 reading game about finding a story's central message or lesson, aligned to Common Core RL.1.2.",
@@ -1296,7 +1372,8 @@
       "fr": "À la lueur de sa lanterne, Juniper le hérisson raconte une petite fable, puis demande à votre enfant d'en trouver la morale : la vraie leçon de l'histoire, et non un simple détail. En jouant, votre enfant apprend à comprendre le sens d'un récit et à distinguer le message d'une fable d'une phrase qui « sonne bien » mais reste fausse. Gratuit et interactif, à jouer directement dans le navigateur, sans minuteur, sans score et sans compte.",
       "es": "Actividad gratis en línea de 3.º de primaria: lee una fábula corta, como la liebre y la tortuga, y toca cuál es su moraleja. Sin registro ni calificación.",
       "pt": "Com a Fagulha, uma ouriça contadora de histórias, a criança lê fábulas clássicas à luz do lampião e descobre a moral de cada uma — a lição por trás da história. Uma atividade de compreensão de leitura que estimula a pensar além do texto. Grátis, sem cadastro. BNCC, 3º ano.",
-      "it": "Alla luce della lanterna, il riccio Ginepro racconta una breve favola classica — come la lepre e la tartaruga o la cicala e la formica — e invita il bambino a scoprirne la morale, cioè la piccola lezione nascosta dietro la storia: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza."
+      "it": "Alla luce della lanterna, il riccio Ginepro racconta una breve favola classica — come la lepre e la tartaruga o la cicala e la formica — e invita il bambino a scoprirne la morale, cioè la piccola lezione nascosta dietro la storia: un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe terza.",
+      "nl": "Bij de verhalenlantaarn van Prikkel de egel luistert of leest je kind een korte fabel — zoals de schildpad en de haas — en tikt daarna de kaart met de moraal aan. Zo oefent het de les van een fabel herkennen: de kernboodschap van een verhaal vinden. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 5."
     },
     "kid_prompt_template": "juniper-story-lantern"
   }

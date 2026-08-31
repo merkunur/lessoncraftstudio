@@ -152,20 +152,30 @@ function poison() {
    (compound-meaning/shades untouched → lines unchanged; affix/opposites/rhyme-shop/
    field-guide/graph-it/mending-fences/etc. moved). The underlying `font:` shorthands
    are unfixed accepted debt awaiting the longhand fix arc. */
+/* Re-baselined 2026-08-31 for the SAME pure line-move (ratchet stays flat at 37,
+   0 net-new, 0 render change): the nl second-batch fan-out added roundsL10n.nl /
+   nl UI strings to these SAME activity files, shifting the pre-existing offenders
+   down. Verified per-file that every file's offender-count is UNCHANGED vs the
+   08-27 baseline (affix 1 / bramble 1 / compound-meaning 6 / field-guide 2 /
+   graph-it 2 / halfway-harbors 2 / line-plot 1 / maple-bakery 1 / mending-fences 3 /
+   opposites 7 / patchwork-meadow 2 / point-of-view 1 / rhyme-shop 4 / shades 3 /
+   skipcount 1 = 37). The nl edits added NO `font:` shorthand — only text strings —
+   so this is a pure line-move; the underlying shorthands remain accepted debt
+   awaiting the longhand fix arc. */
 const KNOWN = new Set([
-  'affix-activity.js:166', 'bramble-activity.js:275', 'compound-meaning-activity.js:139',
-  'compound-meaning-activity.js:144', 'compound-meaning-activity.js:145', 'compound-meaning-activity.js:153',
-  'compound-meaning-activity.js:157', 'compound-meaning-activity.js:167', 'field-guide-activity.js:167',
-  'field-guide-activity.js:172', 'graph-it-activity.js:304', 'graph-it-activity.js:308',
-  'halfway-harbors-activity.js:201', 'halfway-harbors-activity.js:206', 'line-plot-activity.js:155',
-  'maple-bakery-activity.js:179', 'mending-fences-activity.js:365', 'mending-fences-activity.js:383',
-  'mending-fences-activity.js:391', 'opposites-activity.js:327', 'opposites-activity.js:328',
-  'opposites-activity.js:346', 'opposites-activity.js:347', 'opposites-activity.js:350',
-  'opposites-activity.js:358', 'opposites-activity.js:361', 'patchwork-meadow-activity.js:252',
-  'patchwork-meadow-activity.js:258', 'point-of-view-activity.js:172', 'rhyme-shop-activity.js:165',
-  'rhyme-shop-activity.js:166', 'rhyme-shop-activity.js:185', 'rhyme-shop-activity.js:189',
+  'affix-activity.js:180', 'bramble-activity.js:295', 'compound-meaning-activity.js:159',
+  'compound-meaning-activity.js:164', 'compound-meaning-activity.js:165', 'compound-meaning-activity.js:173',
+  'compound-meaning-activity.js:177', 'compound-meaning-activity.js:187', 'field-guide-activity.js:179',
+  'field-guide-activity.js:184', 'graph-it-activity.js:324', 'graph-it-activity.js:328',
+  'halfway-harbors-activity.js:218', 'halfway-harbors-activity.js:223', 'line-plot-activity.js:173',
+  'maple-bakery-activity.js:191', 'mending-fences-activity.js:398', 'mending-fences-activity.js:416',
+  'mending-fences-activity.js:424', 'opposites-activity.js:342', 'opposites-activity.js:343',
+  'opposites-activity.js:361', 'opposites-activity.js:362', 'opposites-activity.js:365',
+  'opposites-activity.js:373', 'opposites-activity.js:376', 'patchwork-meadow-activity.js:273',
+  'patchwork-meadow-activity.js:279', 'point-of-view-activity.js:189', 'rhyme-shop-activity.js:180',
+  'rhyme-shop-activity.js:181', 'rhyme-shop-activity.js:200', 'rhyme-shop-activity.js:204',
   'shades-activity.js:113', 'shades-activity.js:117', 'shades-activity.js:121',
-  'skipcount-activity.js:188'
+  'skipcount-activity.js:204'
 ]);
 
 const hits = scan();

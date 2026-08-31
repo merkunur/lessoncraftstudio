@@ -118,5 +118,73 @@
   "phonological-awareness": {
     "full": "Entendre les sons et les syllabes à l'intérieur des mots développe la conscience phonologique dont dépend une lecture fluide.",
     "short": "Développe la conscience phonologique."
+  },
+  "pre-writing": {
+    "full": "Repasser des boucles, des vagues et des zigzags développe la tenue du crayon et le geste sûr dont toutes les lettres auront besoin.",
+    "short": "Développe la tenue du crayon et le geste d'écriture."
+  },
+  "number-tracing": {
+    "full": "Repasser chaque chiffre en partant du point de départ et en suivant les flèches installe le bon geste d'écriture dès le premier essai.",
+    "short": "Installe le bon tracé des chiffres."
+  },
+  "letter-tracing": {
+    "full": "Repasser les lettres capitales sur des lignes d'écriture fixe la forme des lettres et prépare une écriture sûre et régulière.",
+    "short": "Fixe le tracé des lettres capitales."
+  },
+  "sight-words": {
+    "full": "Lire, repasser puis écrire les mots-outils les fait entrer dans la mémoire, pour lire plus vite et se concentrer sur le sens.",
+    "short": "Automatise la lecture des mots-outils."
+  },
+  "cutting-practice": {
+    "full": "Découper des images puis coller chacune dans sa famille exerce, en une seule activité, le maniement des ciseaux et les premiers tris.",
+    "short": "Exerce le découpage et le tri."
+  },
+  "color-by-number": {
+    "full": "Associer chaque code à sa couleur transforme l'observation attentive et les premiers calculs en un joli dessin à terminer.",
+    "short": "Travaille le calcul en coloriant."
+  },
+  "mazes": {
+    "full": "Trouver le seul bon chemin du labyrinthe développe le repérage visuel, la maîtrise du crayon et la patience pour chercher.",
+    "short": "Développe le repérage et la précision du geste."
+  },
+  "number-bonds": {
+    "full": "Compléter les schémas parties-tout montre comment les nombres se décomposent et prépare les premiers calculs de tête.",
+    "short": "Travaille les décompositions jusqu'à 10."
+  },
+  "mental-math": {
+    "full": "Calculer de tête des additions et des soustractions jusqu'à 20 construit la fluidité sur laquelle s'appuieront les opérations posées.",
+    "short": "Automatise l'addition et la soustraction jusqu'à 20."
+  },
+  "fact-families": {
+    "full": "Compléter les quatre opérations d'une même famille montre comment l'addition et la soustraction sont liées l'une à l'autre.",
+    "short": "Relie l'addition et la soustraction."
+  },
+  "number-words": {
+    "full": "Associer chaque nombre à son écriture en lettres renforce la lecture des nombres et évite les confusions entre les chiffres.",
+    "short": "Travaille la lecture des nombres en lettres."
+  },
+  "money": {
+    "full": "Compter les pièces de la plus grande à la plus petite valeur construit le sens de la monnaie utile dans la vie de tous les jours.",
+    "short": "Apprend à compter les pièces et la monnaie."
+  },
+  "word-problems": {
+    "full": "Lire une petite histoire, s'aider de l'image et écrire la réponse transforme le calcul en une vraie résolution de problème.",
+    "short": "Initie à la résolution de problèmes."
+  },
+  "column-arithmetic": {
+    "full": "Calculer colonne par colonne installe la technique des opérations posées qui servira pour des nombres de plus en plus grands.",
+    "short": "Installe la technique des opérations posées."
+  },
+  "symmetry": {
+    "full": "Compléter la moitié miroir d'un dessin, case après case, construit la notion de symétrie et la précision du repérage sur quadrillage.",
+    "short": "Travaille la symétrie sur quadrillage."
+  },
+  "reading-comprehension": {
+    "full": "Lire un petit texte puis répondre à des questions construit la compréhension fine dont dépendent tous les apprentissages.",
+    "short": "Développe la compréhension de lecture."
+  },
+  "multiplication-tables": {
+    "full": "S'entraîner régulièrement sur les tables de multiplication construit les automatismes qui rendent tous les calculs plus faciles.",
+    "short": "Automatise les tables de multiplication."
   }
 }

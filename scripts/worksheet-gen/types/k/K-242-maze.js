@@ -24,7 +24,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Follow the Maze',
-      instruction: 'Start at the top. Draw a path through the maze to reach the goal at the bottom.',
+      instruction: 'Start at the animal at the top. Draw a path through the maze to reach the goal at the bottom.',
     },
   },
 

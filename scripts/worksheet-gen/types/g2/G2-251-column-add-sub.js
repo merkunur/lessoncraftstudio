@@ -21,7 +21,8 @@ module.exports = makeColumnType({
   i18n: {
     en: {
       title: 'Column Addition and Subtraction',
-      instruction: 'Write the numbers in columns. Add or subtract, one place at a time.',
+      // (de-panel finding: the numbers are pre-printed — never claim the child writes them)
+      instruction: 'Add or subtract one place at a time. Start with the ones.',
     },
   },
 });

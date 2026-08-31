@@ -405,11 +405,11 @@
   },
   "K-241": {
     "title": "Color by Code",
-    "instruction": "Look at the code. Color every shape with its matching color."
+    "instruction": "Look at the code. Then color every shape to match it."
   },
   "K-242": {
     "title": "Follow the Maze",
-    "instruction": "Start at the top. Draw a path through the maze to reach the goal at the bottom."
+    "instruction": "Start at the animal at the top. Draw a path through the maze to reach the goal at the bottom."
   },
   "K-243": {
     "title": "Number Bonds to 10",
@@ -837,7 +837,7 @@
   },
   "G2-251": {
     "title": "Column Addition and Subtraction",
-    "instruction": "Write the numbers in columns. Add or subtract, one place at a time."
+    "instruction": "Add or subtract one place at a time. Start with the ones."
   },
   "G2-252": {
     "title": "Measuring Jugs and Scales",
@@ -1033,7 +1033,7 @@
   },
   "G3-357": {
     "title": "Addition and Subtraction with Regrouping",
-    "instruction": "Solve each problem. Regroup when a column goes over nine or comes up short."
+    "instruction": "Solve each problem. Regroup when you need to carry or borrow."
   },
   "G3-358": {
     "title": "Times Tables Practice",

@@ -71,7 +71,7 @@ module.exports = {
   i18n: {
     en: {
       title: 'Color by Code',
-      instruction: 'Look at the code. Color every shape with its matching color.',
+      instruction: 'Look at the code. Then color every shape to match it.',
     },
   },
 

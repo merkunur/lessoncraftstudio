@@ -2193,138 +2193,240 @@
       },
       "pre-writing": {
         "slug": {
-          "en": "pre-writing"
+          "en": "pre-writing",
+          "de": "schwunguebungen",
+          "es": "grafomotricidad",
+          "fr": "graphisme"
         },
         "name": {
-          "en": "Pre-Writing Practice"
+          "en": "Pre-Writing Practice",
+          "de": "Schwungübungen",
+          "es": "Grafomotricidad",
+          "fr": "Graphisme"
         }
       },
       "number-tracing": {
         "slug": {
-          "en": "number-tracing"
+          "en": "number-tracing",
+          "de": "zahlen-schreiben-lernen",
+          "es": "numeros-punteados",
+          "fr": "ecriture-des-chiffres"
         },
         "name": {
-          "en": "Number Tracing"
+          "en": "Number Tracing",
+          "de": "Zahlen schreiben lernen",
+          "es": "Números punteados",
+          "fr": "Écriture des chiffres"
         }
       },
       "letter-tracing": {
         "slug": {
-          "en": "letter-tracing"
+          "en": "letter-tracing",
+          "de": "buchstaben-nachspuren",
+          "es": "abecedario-punteado",
+          "fr": "ecriture-des-lettres"
         },
         "name": {
-          "en": "Letter Tracing"
+          "en": "Letter Tracing",
+          "de": "Buchstaben nachspuren",
+          "es": "Abecedario punteado",
+          "fr": "Écriture des lettres"
         }
       },
       "sight-words": {
         "slug": {
-          "en": "sight-words"
+          "en": "sight-words",
+          "de": "lernwoerter",
+          "es": "palabras-de-uso-frecuente",
+          "fr": "mots-outils"
         },
         "name": {
-          "en": "Sight Words"
+          "en": "Sight Words",
+          "de": "Lernwörter",
+          "es": "Palabras de uso frecuente",
+          "fr": "Mots-outils"
         }
       },
       "cutting-practice": {
         "slug": {
-          "en": "cutting-practice"
+          "en": "cutting-practice",
+          "de": "schneideuebungen",
+          "es": "recortar-y-pegar",
+          "fr": "decoupage-collage"
         },
         "name": {
-          "en": "Cutting Practice"
+          "en": "Cutting Practice",
+          "de": "Schneideübungen",
+          "es": "Recortar y pegar",
+          "fr": "Découpage et collage"
         }
       },
       "color-by-number": {
         "slug": {
-          "en": "color-by-number"
+          "en": "color-by-number",
+          "de": "rechnen-und-ausmalen",
+          "es": "colorear-por-numeros",
+          "fr": "coloriage-magique"
         },
         "name": {
-          "en": "Color by Number"
+          "en": "Color by Number",
+          "de": "Rechnen und Ausmalen",
+          "es": "Colorear por números",
+          "fr": "Coloriage magique"
         }
       },
       "mazes": {
         "slug": {
-          "en": "mazes"
+          "en": "mazes",
+          "de": "labyrinthe",
+          "es": "laberintos",
+          "fr": "labyrinthes"
         },
         "name": {
-          "en": "Mazes"
+          "en": "Mazes",
+          "de": "Labyrinthe",
+          "es": "Laberintos",
+          "fr": "Labyrinthes"
         }
       },
       "number-bonds": {
         "slug": {
-          "en": "number-bonds"
+          "en": "number-bonds",
+          "de": "zahlzerlegung",
+          "es": "descomposicion-de-numeros",
+          "fr": "complements-a-10"
         },
         "name": {
-          "en": "Number Bonds"
+          "en": "Number Bonds",
+          "de": "Zahlzerlegung",
+          "es": "Descomposición de números",
+          "fr": "Compléments à 10"
         }
       },
       "mental-math": {
         "slug": {
-          "en": "mental-math"
+          "en": "mental-math",
+          "de": "kopfrechnen",
+          "es": "calculo-mental",
+          "fr": "calcul-mental"
         },
         "name": {
-          "en": "Mental Math"
+          "en": "Mental Math",
+          "de": "Kopfrechnen",
+          "es": "Cálculo mental",
+          "fr": "Calcul mental"
         }
       },
       "fact-families": {
         "slug": {
-          "en": "fact-families"
+          "en": "fact-families",
+          "de": "aufgabenfamilien",
+          "es": "familias-de-operaciones",
+          "fr": "familles-d-operations"
         },
         "name": {
-          "en": "Fact Families"
+          "en": "Fact Families",
+          "de": "Aufgabenfamilien",
+          "es": "Familias de operaciones",
+          "fr": "Familles d'opérations"
         }
       },
       "number-words": {
         "slug": {
-          "en": "number-words"
+          "en": "number-words",
+          "de": "zahlwoerter",
+          "es": "numeros-en-letras",
+          "fr": "nombres-en-lettres"
         },
         "name": {
-          "en": "Number Words"
+          "en": "Number Words",
+          "de": "Zahlwörter",
+          "es": "Números en letras",
+          "fr": "Nombres en lettres"
         }
       },
       "money": {
         "slug": {
-          "en": "money"
+          "en": "money",
+          "de": "rechnen-mit-geld",
+          "es": "contar-dinero",
+          "fr": "compter-la-monnaie"
         },
         "name": {
-          "en": "Counting Money"
+          "en": "Counting Money",
+          "de": "Rechnen mit Geld",
+          "es": "Contar dinero",
+          "fr": "Compter la monnaie"
         }
       },
       "word-problems": {
         "slug": {
-          "en": "word-problems"
+          "en": "word-problems",
+          "de": "sachaufgaben",
+          "es": "problemas-de-suma-y-resta",
+          "fr": "petits-problemes"
         },
         "name": {
-          "en": "Word Problems"
+          "en": "Word Problems",
+          "de": "Sachaufgaben",
+          "es": "Problemas de suma y resta",
+          "fr": "Petits problèmes"
         }
       },
       "column-arithmetic": {
         "slug": {
-          "en": "column-arithmetic"
+          "en": "column-arithmetic",
+          "de": "schriftlich-rechnen",
+          "es": "sumas-y-restas-en-columna",
+          "fr": "operations-posees"
         },
         "name": {
-          "en": "Column Addition and Subtraction"
+          "en": "Column Addition and Subtraction",
+          "de": "Schriftlich rechnen",
+          "es": "Sumas y restas en columna",
+          "fr": "Opérations posées"
         }
       },
       "symmetry": {
         "slug": {
-          "en": "symmetry"
+          "en": "symmetry",
+          "de": "symmetrie",
+          "es": "simetria",
+          "fr": "symetrie"
         },
         "name": {
-          "en": "Symmetry"
+          "en": "Symmetry",
+          "de": "Symmetrie",
+          "es": "Simetría",
+          "fr": "Symétrie"
         }
       },
       "reading-comprehension": {
         "slug": {
-          "en": "reading-comprehension"
+          "en": "reading-comprehension",
+          "de": "leseverstaendnis",
+          "es": "comprension-lectora",
+          "fr": "lecture-comprehension"
         },
         "name": {
-          "en": "Reading Comprehension"
+          "en": "Reading Comprehension",
+          "de": "Leseverständnis",
+          "es": "Comprensión lectora",
+          "fr": "Lecture et compréhension"
         }
       },
       "multiplication-tables": {
         "slug": {
-          "en": "multiplication-tables"
+          "en": "multiplication-tables",
+          "de": "kleines-einmaleins",
+          "es": "tablas-de-multiplicar",
+          "fr": "tables-de-multiplication"
         },
         "name": {
-          "en": "Multiplication Tables"
+          "en": "Multiplication Tables",
+          "de": "Kleines Einmaleins",
+          "es": "Tablas de multiplicar",
+          "fr": "Tables de multiplication"
         }
       }
     },

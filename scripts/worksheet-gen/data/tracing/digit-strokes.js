@@ -53,7 +53,11 @@ const FORMS = {
 /** Which digit form each locale's school convention expects. */
 const FORM_BY_LOCALE = {
   en: 'plain',
-  de: 'continental', fr: 'continental', es: 'continental', it: 'continental',
+  // es = PLAIN per the native panel ruling (2026-09-01): Spanish school
+  // caligraphy models teach the simple 1 and the UNCROSSED 7 (the crossed 7
+  // is adult handwriting, not the school model — both Spain and LatAm).
+  es: 'plain',
+  de: 'continental', fr: 'continental', it: 'continental',
   nl: 'continental', pt: 'continental', sv: 'continental', da: 'continental',
   no: 'continental', fi: 'continental',
 };

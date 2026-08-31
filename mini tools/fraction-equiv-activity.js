@@ -67,6 +67,14 @@
       hear: '🔊 Ascolta',
       nudge: 'Quasi! Quella barra mostra un poco {rel}. Trova quella piena come {ref}.',
       more: 'più', fewer: 'meno', less: 'meno'
+    },
+    nl: {
+      q: 'Welke breuk laat evenveel zien?',
+      win: 'Ja! {ref} en {cand} — evenveel, alleen {dir} stukjes!',
+      winSame: 'Ja! {ref} en {cand} — evenveel, alleen anders verdeeld!',
+      hear: '🔊 Luister',
+      nudge: 'Nog niet — die strook laat een beetje {rel} zien. Zoek de strook die even vol is als {ref}.',
+      more: 'meer', fewer: 'minder', less: 'minder'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -108,6 +116,9 @@
     if (num > 1) word = word.replace(/o$/, 'i');
     return (NUMCARD_IT[num] || num) + ' ' + word;
   }
+  var NUMCARD_NL = { 1: 'een', 2: 'twee', 3: 'drie', 4: 'vier', 5: 'vijf', 6: 'zes', 7: 'zeven' };
+  var FRACNOUN_NL = { 2: 'half', 3: 'derde', 4: 'vierde', 5: 'vijfde', 6: 'zesde', 8: 'achtste' };
+  function bruchwortNl(num, den) { return (NUMCARD_NL[num] || num) + ' ' + (FRACNOUN_NL[den] || ((NUMCARD_NL[den] || den) + 'de')); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function fracStr(f) { return f.num + '/' + f.den; }
 
@@ -159,9 +170,9 @@
   var FractionEquivActivity = {
     id: 'fraction-equiv-activity',
     strings: {
-      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei", fr: 'La boulangerie de Miette', es: 'La panadería de Migaja', pt: 'A padaria da Migalha', it: 'Il forno di Briciola' },
-      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.', fr: 'Trouve la fraction qui montre la même quantité que la part de Miette.', es: 'Encuentra la fracción que muestra la misma cantidad que el pedazo de Migaja.', pt: 'Encontre a fração que mostra a mesma quantidade que o pedaço da Migalha.', it: 'Trova la frazione che mostra la stessa quantità del pezzo di Briciola.' },
-      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', it: '{q}' }
+      title: { en: "Crumb's Same-Amount Bakery", de: "Krümels Gleich-viel-Bäckerei", fr: 'La boulangerie de Miette', es: 'La panadería de Migaja', pt: 'A padaria da Migalha', it: 'Il forno di Briciola', nl: 'Kruimels evenveel-bakkerij' },
+      instruction: { en: 'Find the fraction that shows the same amount as Crumb’s piece.', de: 'Finde den Bruch, der gleich viel zeigt wie Krümels Stück.', fr: 'Trouve la fraction qui montre la même quantité que la part de Miette.', es: 'Encuentra la fracción que muestra la misma cantidad que el pedazo de Migaja.', pt: 'Encontre a fração que mostra a mesma quantidade que o pedaço da Migalha.', it: 'Trova la frazione che mostra la stessa quantità del pezzo di Briciola.', nl: 'Zoek de breuk die evenveel laat zien als het stukje van Kruimel.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}', it: '{q}', nl: '{q}' }
     },
 
     init: function (api) {
@@ -263,7 +274,7 @@
         var f = round.candidates[ci];
         var b = el('button', 'fe-cand' + (self._nonAns[ci] ? ' dim' : '') + (self._lit === ci ? ' lit' : ''));
         b.type = 'button'; b.setAttribute('data-ci', ci);
-        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : LANG === 'fr' ? (f.num + ' sur ' + f.den) : LANG === 'es' ? (f.num + ' de ' + f.den) : LANG === 'it' ? (f.num + ' su ' + f.den) : (f.num + ' over ' + f.den));
+        b.setAttribute('aria-label', LANG === 'de' ? (f.num + ' von ' + f.den) : LANG === 'fr' ? (f.num + ' sur ' + f.den) : LANG === 'es' ? (f.num + ' de ' + f.den) : LANG === 'it' ? (f.num + ' su ' + f.den) : LANG === 'nl' ? (f.num + ' van de ' + f.den) : (f.num + ' over ' + f.den));
         b.innerHTML = candSVG(f);
         b.addEventListener('click', function () {
           if (self._resolved || self._nonAns[ci] || self._token !== tok) return;
@@ -290,6 +301,8 @@
           ? 'A Migalha preparou ' + bruchwortPt(round.ref.num, round.ref.den) + '. ' + txt('q')
           : (LANG === 'it')
           ? 'Briciola ha preparato ' + bruchwortIt(round.ref.num, round.ref.den) + '. ' + txt('q')
+          : (LANG === 'nl')
+          ? 'Kruimel heeft ' + bruchwortNl(round.ref.num, round.ref.den) + ' gebakken. ' + txt('q')
           : 'Crumb made ' + round.ref.num + ' out of ' + round.ref.den + '. ' + txt('q');
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.92 }); } catch (e) { } }
       });
@@ -324,10 +337,12 @@
 
     _srMirror: function (round) {
       var wrap = el('div', 'fe-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var sep = LANG === 'de' ? ' von ' : LANG === 'fr' ? ' sur ' : LANG === 'es' ? ' de ' : LANG === 'pt' ? ' de ' : LANG === 'it' ? ' su ' : ' over ';
+      var sep = LANG === 'de' ? ' von ' : LANG === 'fr' ? ' sur ' : LANG === 'es' ? ' de ' : LANG === 'pt' ? ' de ' : LANG === 'it' ? ' su ' : LANG === 'nl' ? ' van de ' : ' over ';
       var cs = (round.candidates || []).map(function (x) { return x.num + sep + x.den; }).join(', ');
       wrap.innerHTML = (LANG === 'de')
         ? '<p>Krümels Stück ist ' + round.ref.num + ' von ' + round.ref.den + '. ' + txt('q') + ' Die Auswahl: ' + cs + '.</p>'
+        : (LANG === 'nl')
+        ? '<p>Kruimels stukje is ' + round.ref.num + ' van de ' + round.ref.den + '. ' + txt('q') + ' De keuze: ' + cs + '.</p>'
         : (LANG === 'fr')
         ? '<p>Le morceau de Miette est ' + round.ref.num + ' sur ' + round.ref.den + '. ' + txt('q') + ' Les choix sont : ' + cs + '.</p>'
         : (LANG === 'es')

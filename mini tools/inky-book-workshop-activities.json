@@ -310,6 +310,16 @@
             "job": "read",
             "book": "una storia su un aquilone volato via"
           }
+        ],
+        "nl": [
+          { "id": "w1", "band": 1, "job": "wrote", "book": "een verhaal over een dapper bootje" },
+          { "id": "d1", "band": 1, "job": "drew", "book": "een prentenboek over een slaperige draak" },
+          { "id": "w2", "band": 1, "job": "wrote", "book": "een verhaal over een verloren rode ballon" },
+          { "id": "r1", "band": 2, "job": "read", "book": "een slaapverhaaltje over de maan" },
+          { "id": "d2", "band": 2, "job": "drew", "book": "een boek met grappige boerderijdieren" },
+          { "id": "w3", "band": 2, "job": "wrote", "book": "een verhaal over een zingende walvis" },
+          { "id": "d3", "band": 3, "job": "drew", "book": "een prentenboek over een regenboogtuin" },
+          { "id": "r2", "band": 3, "job": "read", "book": "een verhaal over een vlieger die wegvloog" }
         ]
       }
     },
@@ -320,7 +330,8 @@
       "fr": "auteur-ou-illustrateur-les-roles-du-livre-cp",
       "es": "autor-e-ilustrador-quien-escribe-y-quien-dibuja-primer-grado",
       "pt": "autor-ilustrador-leitor-quem-faz-cada-trabalho-1-ano",
-      "it": "autore-e-illustratore-chi-scrive-e-chi-disegna-classe-prima"
+      "it": "autore-e-illustratore-chi-scrive-e-chi-disegna-classe-prima",
+      "nl": "auteur-en-illustrator-wie-schrijft-een-boek-groep-3"
     },
     "page_title": {
       "en": "Inky's Book Workshop — Author or Illustrator? (Kindergarten)",
@@ -328,7 +339,8 @@
       "fr": "L'atelier de livres d'Inky : auteur ou illustrateur ? (CP)",
       "es": "Autor e ilustrador 1.º: ¿quién escribe y quién dibuja?",
       "pt": "Autor e ilustrador: quem faz o quê no livro? · 1º ano",
-      "it": "Autore e illustratore: chi scrive e chi disegna – classe prima"
+      "it": "Autore e illustratore: chi scrive e chi disegna – classe prima",
+      "nl": "Schrijver of illustrator? Wie maakt een boek (groep 3)"
     },
     "page_intro": {
       "en": "Inky the octopus makes books with ink — words AND pictures! Every book has an author (the person who WRITES the words) and an illustrator (the person who DRAWS the pictures) — and you are the reader who enjoys it. Look at the job Inky is doing and tap whose job it is. A Kindergarten reading game about the roles of the author and illustrator, aligned to Common Core RL.K.6.",
@@ -336,7 +348,8 @@
       "fr": "Inky la pieuvre fabrique des livres avec son encre — des mots ET des images ! Chaque livre a un auteur (la personne qui ÉCRIT les mots) et un illustrateur (la personne qui DESSINE les images) — et toi, tu es le lecteur qui en profite. Regarde le travail qu'Inky est en train de faire et touche à qui est ce travail. Un jeu de lecture CP sur les rôles de l'auteur et de l'illustrateur. Gratuit et interactif.",
       "es": "¿Quién escribió el cuento del dragón dormilón y quién lo dibujó? Toca al autor o al ilustrador en el taller de Inky. Actividad en línea, gratis y sin registro.",
       "pt": "Com um polvo que faz livros com tinta, a criança descobre quem escreve as palavras (o autor), quem desenha as figuras (o ilustrador) e quem lê a história (o leitor). Uma atividade divertida sobre como um livro é feito. Grátis, sem cadastro. BNCC, 1º ano.",
-      "it": "Con Nino, il simpatico polpo che crea libri con l’inchiostro, il tuo bambino scopre chi scrive le parole della storia (l’autore), chi disegna le immagini (l’illustratore) e chi legge il libro (il lettore), in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima."
+      "it": "Con Nino, il simpatico polpo che crea libri con l’inchiostro, il tuo bambino scopre chi scrive le parole della storia (l’autore), chi disegna le immagini (l’illustratore) e chi legge il libro (il lettore), in un’attività gratuita e senza registrazione, allineata alle Indicazioni nazionali per la classe prima.",
+      "nl": "In de boekenwerkplaats van Inky de inktvis kijk je wie welk werk aan een boek doet en tik je: schrijver, illustrator of lezer? Je kind leert de rollen kennen — wie schrijft, wie tekent. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 3."
     },
     "kid_prompt_template": "Tap whose job it is: author, illustrator, or reader."
   }

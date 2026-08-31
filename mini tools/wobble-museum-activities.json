@@ -1127,6 +1127,16 @@
               }
             ]
           }
+        ],
+        "nl": [
+          { "id": "wm-frogs", "topic": "kikkers", "topicWord": "kikker", "sentences": [ { "text": "Kikkers springen heel ver.", "about": "kikkers" }, { "text": "Ze eten insecten.", "about": "kikkers" }, { "text": "Een vijver is koud.", "about": "vijvers" }, { "text": "Kikkers leven in de vijver.", "about": "kikkers" } ] },
+          { "id": "wm-moon", "topic": "maan", "topicWord": "maan", "sentences": [ { "text": "Sterren schijnen ook.", "about": "sterren" }, { "text": "De maan schijnt in de nacht.", "about": "maan" }, { "text": "De maan is heel ver weg.", "about": "maan" }, { "text": "Ze is rond en geel.", "about": "maan" } ] },
+          { "id": "wm-trucks", "topic": "brandweerauto's", "topicWord": "brandweer", "sentences": [ { "text": "Brandweerauto's zijn rood.", "about": "brandweerauto's" }, { "text": "Een stopbord is ook rood.", "about": "stopborden" }, { "text": "Ze rijden heel snel.", "about": "brandweerauto's" }, { "text": "Brandweerauto's hebben een ladder.", "about": "brandweerauto's" } ] },
+          { "id": "wm-rain", "topic": "regen", "topicWord": "regen", "sentences": [ { "text": "Regen valt uit de wolken.", "about": "regen" }, { "text": "Druppels vallen op de grond.", "about": "regen" }, { "text": "Regen is goed voor de planten.", "about": "regen" }, { "text": "Planten groeien in de aarde.", "about": "planten" } ] },
+          { "id": "wm-dogs", "topic": "honden", "topicWord": "hond", "sentences": [ { "text": "Honden blaffen luid.", "about": "honden" }, { "text": "Ze kwispelen met hun staart.", "about": "honden" }, { "text": "Een kat heeft ook een staart.", "about": "katten" }, { "text": "Honden lusten graag een bot.", "about": "honden" } ] },
+          { "id": "wm-bees", "topic": "bijen", "topicWord": "bije", "sentences": [ { "text": "Mieren leven ook samen.", "about": "mieren" }, { "text": "Bijen maken honing.", "about": "bijen" }, { "text": "Bijen vliegen van bloem naar bloem.", "about": "bijen" }, { "text": "Ze leven met velen samen.", "about": "bijen" } ] },
+          { "id": "wm-trees", "topic": "bomen", "topicWord": "bome", "sentences": [ { "text": "Bomen hebben groene bladeren.", "about": "bomen" }, { "text": "Vogels bouwen een nest.", "about": "vogels" }, { "text": "In bomen wonen veel vogels.", "about": "bomen" }, { "text": "Ze geven ons schaduw.", "about": "bomen" } ] },
+          { "id": "wm-body", "topic": "lichaam", "topicWord": "lichaam", "sentences": [ { "text": "Je lichaam heeft twee benen.", "about": "lichaam" }, { "text": "Het beweegt de hele dag.", "about": "lichaam" }, { "text": "Een gezond lichaam is sterk.", "about": "lichaam" }, { "text": "Een appel is heel gezond.", "about": "appels" } ] }
         ]
       }
     },
@@ -1136,7 +1146,8 @@
       "fr": "rester-dans-le-theme-quelle-phrase-ne-va-pas-ce1",
       "es": "quedarse-en-el-tema-cual-oracion-no-corresponde-segundo-grado",
       "pt": "qual-frase-nao-e-do-tema-manter-o-foco-primeiros-anos",
-      "it": "quale-frase-non-e-del-tema-restare-in-tema-classe-seconda"
+      "it": "quale-frase-non-e-del-tema-restare-in-tema-classe-seconda",
+      "nl": "welke-zin-hoort-niet-bij-het-thema-groep-4"
     },
     "page_title": {
       "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)",
@@ -1144,7 +1155,8 @@
       "fr": "Le musée de Bram : rester dans le thème (CE1)",
       "es": "¿Cuál oración no corresponde al tema? (2.º grado)",
       "pt": "Qual frase não é do tema? — Manter o foco no assunto",
-      "it": "Quale frase non è del tema? Restare in tema (classe seconda)"
+      "it": "Quale frase non è del tema? Restare in tema (classe seconda)",
+      "nl": "Welke zin hoort niet bij het thema? Tekstsamenhang (groep 4)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2.",
@@ -1152,7 +1164,8 @@
       "fr": "Un jeu de lecture CE1, gratuit et interactif : dans le musée de Bram la pie, chaque salle parle d'une seule chose — mais une phrase s'est trompée de salle ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème : elle est vraie, mais elle parle d'autre chose. Un premier pas tout doux pour apprendre à rester dans le thème quand on écrit.",
       "es": "Actividad gratis e interactiva para 2.º grado: lee cuatro oraciones y toca la que no corresponde al tema. Practica identificar el tema y quedarse en el tema.",
       "pt": "No museu de temas da pega Prata, cada sala tem um assunto e uma placa que mostra o tema. Três frases combinam com o tema, mas uma entrou na sala errada — ela é verdadeira, só que fala de outra coisa. Toque na frase intrusa e ajude a Prata a organizar o museu! Grátis, sem cadastro, sem relógio nem pontos, com o botão \"🔊 Ouvir\" para quem ainda está aprendendo a ler. Alinhado à BNCC, na área de produção de textos: manter o foco no tema.",
-      "it": "Nel museo della gazza Gemma ogni sala racconta un solo tema, ma in ognuna una frase è entrata nella stanza sbagliata: è vera, ma non c’entra con l’argomento. Il bambino legge le quattro frasi, con l’aiuto del pulsante 🔊 leggi ad alta voce, e tocca la frase intrusa. Un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali."
+      "it": "Nel museo della gazza Gemma ogni sala racconta un solo tema, ma in ognuna una frase è entrata nella stanza sbagliata: è vera, ma non c’entra con l’argomento. Il bambino legge le quattro frasi, con l’aiuto del pulsante 🔊 leggi ad alta voce, e tocca la frase intrusa. Un’attività gratuita, senza registrazione, senza timer e senza punteggio, allineata alle Indicazioni nazionali.",
+      "nl": "Bram de ekster heeft een echt themamuseum: in elke zaal draait alles om één onderwerp. Je kind ziet een bordje (\"Thema: kikkers\") en vier korte, ware zinnen, en zoekt de verdwaalde zin die uit een ander thema komt en er niet bij hoort — bij \"Thema: kikkers\" is \"Een vijver is koud\" bijvoorbeeld verdwaald. Gratis en interactief, afgestemd op de SLO-kerndoelen voor groep 4."
     },
     "kid_prompt_template": "wobble-museum"
   }

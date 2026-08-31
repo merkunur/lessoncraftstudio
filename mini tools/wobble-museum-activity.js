@@ -68,6 +68,16 @@
       win: 'Bene! È una frase vera, ma parla di un altro tema: {about}.',
       hear: '🔊 Ascolta',
       nudge: 'Questa frase parla del tema {topic}. Cerca la frase intrusa!'
+    },
+    /* nl. {about} is always a plural/neutral theme noun (vijvers/sterren/stopborden/
+       planten/katten/mieren/vogels/appels) → "hij hoort bij het thema {about}" stays
+       agreement-neutral. 🔊 Voorlezen. 100% apostrophe-free JS. */
+    nl: {
+      q: 'Welke zin hoort niet bij het thema?',
+      sign: 'Thema: {topic}',
+      win: 'Klopt! Die zin is waar, maar hij hoort bij het thema {about}. Hij is hier verdwaald!',
+      hear: '🔊 Voorlezen',
+      nudge: 'Die zin hoort juist bij het thema {topic}. Zoek de zin die hier verdwaald is!'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -90,8 +100,8 @@
   var WobbleMuseumActivity = {
     id: 'wobble-museum-activity',
     strings: {
-      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram', es: 'El museo de temas de Ula', pt: 'O museu de temas da Prata', it: 'Il museo della gazza Gemma' },
-      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !', es: 'Ula la urraca ordenó su museo: cada sala tiene un solo tema. Pero una oración se coló y no va con las demás. Tócala para sacarla del museo.', pt: 'A pega Prata é a curadora deste museu, e ela adora coisas brilhantes! Cada sala tem um só tema. Mas uma frase entrou na sala errada. Toque na frase que não é do tema.', it: 'Ogni stanza ha un solo tema. Tre frasi parlano di quel tema, ma una frase arriva da un altro tema. Tocca la frase intrusa!' },
+      title: { en: 'The Wobble Museum', de: 'Brams Themen-Museum', fr: 'Le musée de Bram', es: 'El museo de temas de Ula', pt: 'O museu de temas da Prata', it: 'Il museo della gazza Gemma', nl: 'Het themamuseum van Bram' },
+      instruction: { en: 'Every room is about ONE thing. Tap the fact that wandered in!', de: 'In jedem Raum geht es um EIN Thema. Ein Satz ist reingewandert und passt nicht dazu. Tippe ihn an!', fr: 'Chaque salle parle d’UNE seule chose. Touche la phrase qui s’est trompée de salle !', es: 'Ula la urraca ordenó su museo: cada sala tiene un solo tema. Pero una oración se coló y no va con las demás. Tócala para sacarla del museo.', pt: 'A pega Prata é a curadora deste museu, e ela adora coisas brilhantes! Cada sala tem um só tema. Mas uma frase entrou na sala errada. Toque na frase que não é do tema.', it: 'Ogni stanza ha un solo tema. Tre frasi parlano di quel tema, ma una frase arriva da un altro tema. Tocca la frase intrusa!', nl: 'In elke zaal draait alles om één thema. Eén zin is verdwaald en hoort er niet bij. Tik erop!' },
       q: { en: '{q}' }
     },
 

@@ -1462,6 +1462,248 @@
               ]
             }
           }
+        ],
+        "nl": [
+          {
+            "id": "boat",
+            "band": 1,
+            "target": "b3",
+            "story": {
+              "id": "boat",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boat-1",
+                  "caption": "Finn vouwt een bootje van papier."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boat-2",
+                  "caption": "Finn zet het bootje in de beek."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boat-3",
+                  "caption": "Een windvlaag duwt het bootje weg."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boat-4",
+                  "caption": "Het bootje komt aan de overkant."
+                }
+              ]
+            }
+          },
+          {
+            "id": "nest",
+            "band": 1,
+            "target": "b4",
+            "story": {
+              "id": "nest",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "nest-1",
+                  "caption": "Een roodborstje verzamelt kleine takjes."
+                },
+                {
+                  "id": "b2",
+                  "panel": "nest-2",
+                  "caption": "Het vogeltje bouwt een zacht nestje."
+                },
+                {
+                  "id": "b3",
+                  "panel": "nest-3",
+                  "caption": "Het roodborstje legt één eitje."
+                },
+                {
+                  "id": "b4",
+                  "panel": "nest-4",
+                  "caption": "Uit het eitje komt een kuikentje."
+                }
+              ]
+            }
+          },
+          {
+            "id": "sandcastle",
+            "band": 1,
+            "target": "b2",
+            "story": {
+              "id": "sandcastle",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "sand-1",
+                  "caption": "Mila vult haar emmer met zand."
+                },
+                {
+                  "id": "b2",
+                  "panel": "sand-2",
+                  "caption": "Mila bouwt een hoog zandkasteel."
+                },
+                {
+                  "id": "b3",
+                  "panel": "sand-3",
+                  "caption": "Ze zet een schelp bovenop."
+                },
+                {
+                  "id": "b4",
+                  "panel": "sand-4",
+                  "caption": "Het kasteel ziet er prachtig uit."
+                }
+              ]
+            }
+          },
+          {
+            "id": "apple",
+            "band": 1,
+            "target": "b1",
+            "story": {
+              "id": "apple",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "apple-1",
+                  "caption": "Een rode appel hangt in de boom."
+                },
+                {
+                  "id": "b2",
+                  "panel": "apple-2",
+                  "caption": "Theo houdt zijn mandje omhoog."
+                },
+                {
+                  "id": "b3",
+                  "panel": "apple-3",
+                  "caption": "De appel valt in het mandje."
+                },
+                {
+                  "id": "b4",
+                  "panel": "apple-4",
+                  "caption": "Theo neemt een blije hap."
+                }
+              ]
+            }
+          },
+          {
+            "id": "boots",
+            "band": 2,
+            "target": "b4",
+            "story": {
+              "id": "boots",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "boots-1",
+                  "caption": "Buiten regent het heel hard."
+                },
+                {
+                  "id": "b2",
+                  "panel": "boots-2",
+                  "caption": "Sam trekt zijn regenlaarzen aan."
+                },
+                {
+                  "id": "b3",
+                  "panel": "boots-3",
+                  "caption": "Sam springt in een grote plas."
+                },
+                {
+                  "id": "b4",
+                  "panel": "boots-4",
+                  "caption": "Een regenboog kleurt de lucht."
+                }
+              ]
+            }
+          },
+          {
+            "id": "bear",
+            "band": 2,
+            "target": "b2",
+            "story": {
+              "id": "bear",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "bear-1",
+                  "caption": "Guus kan zijn teddybeer niet vinden."
+                },
+                {
+                  "id": "b2",
+                  "panel": "bear-2",
+                  "caption": "Guus kijkt onder het bed."
+                },
+                {
+                  "id": "b3",
+                  "panel": "bear-3",
+                  "caption": "Hij schijnt met een zaklamp."
+                },
+                {
+                  "id": "b4",
+                  "panel": "bear-4",
+                  "caption": "Eindelijk vindt Guus zijn beer!"
+                }
+              ]
+            }
+          },
+          {
+            "id": "snowman",
+            "band": 2,
+            "target": "b3",
+            "story": {
+              "id": "snowman",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "snow-1",
+                  "caption": "Zachte sneeuw valt in de tuin."
+                },
+                {
+                  "id": "b2",
+                  "panel": "snow-2",
+                  "caption": "Lina rolt een grote sneeuwpop."
+                },
+                {
+                  "id": "b3",
+                  "panel": "snow-3",
+                  "caption": "Ze doet er een sjaal om."
+                },
+                {
+                  "id": "b4",
+                  "panel": "snow-4",
+                  "caption": "Lina juicht om haar sneeuwpop."
+                }
+              ]
+            }
+          },
+          {
+            "id": "butterfly",
+            "band": 2,
+            "target": "b1",
+            "story": {
+              "id": "butterfly",
+              "beats": [
+                {
+                  "id": "b1",
+                  "panel": "fly-1",
+                  "caption": "Een rups knabbelt aan een blad."
+                },
+                {
+                  "id": "b2",
+                  "panel": "fly-2",
+                  "caption": "Hij rolt zich op om te rusten."
+                },
+                {
+                  "id": "b3",
+                  "panel": "fly-3",
+                  "caption": "Hij verandert in een vlinder."
+                },
+                {
+                  "id": "b4",
+                  "panel": "fly-4",
+                  "caption": "De vlinder vliegt naar een bloem."
+                }
+              ]
+            }
+          }
         ]
       }
     },
@@ -1472,7 +1714,8 @@
       "fr": "livre-images-otto-quelle-image-montre-le-moment",
       "es": "relacionar-oracion-con-imagen-cuento-ilustrado-primer-grado",
       "pt": "relacionar-frase-com-imagem-historia-ilustrada-primeiro-ano",
-      "it": "quale-immagine-mostra-la-frase-collegare-testo-e-immagine-classe-prima"
+      "it": "quale-immagine-mostra-la-frase-collegare-testo-e-immagine-classe-prima",
+      "nl": "welk-plaatje-hoort-bij-de-zin-plaatje-en-tekst-verbinden-groep-3"
     },
     "page_title": {
       "en": "Otto's Picture Book — Which Picture Shows It? (Kindergarten)",
@@ -1480,7 +1723,8 @@
       "fr": "Exercices de lecture GS – quelle image ? – en ligne",
       "es": "Relacionar oración e imagen – cuento ilustrado 1.º grado",
       "pt": "Relacionar frase e imagem – história ilustrada 1º ano",
-      "it": "Quale immagine mostra la frase? Testo e immagine – Classe prima"
+      "it": "Quale immagine mostra la frase? Testo e immagine – Classe prima",
+      "nl": "Welk plaatje hoort bij de zin? Plaatje en tekst verbinden (groep 3)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading game about how pictures and stories go together: Otto the owl draws a picture for every part of a little story. HEAR the whole story, then Otto reads ONE part aloud — and you tap the picture that shows that exact moment. Every choice is a real picture from the SAME story, so you have to know which part each illustration shows. Matching a sentence to the moment its picture depicts is the heart of Common Core RL.K.7.",
@@ -1488,7 +1732,8 @@
       "fr": "Exercices de lecture pour la GS : lire et choisir l'image qui montre le moment de l'histoire. Gratuit, en ligne, sans inscription.",
       "es": "Actividad interactiva y gratis: los niños escuchan una oración y tocan la imagen que muestra ese momento del cuento ilustrado. Ideal para relacionar texto e imagen en 1.º grado.",
       "pt": "Um jogo de leitura interativo e gratuito sobre como as imagens e as histórias combinam: Otto, a coruja, desenha uma imagem para cada parte de uma historinha. Você OUVE a história inteira e, depois, Otto lê UMA parte em voz alta — e você toca na imagem que mostra aquele momentinho. Uma atividade alinhada à BNCC (Base Nacional Comum Curricular).",
-      "it": "Otto il gufo ha disegnato una breve storia illustrata in quattro scene. Il bambino ascolta il racconto, poi sente e legge una frase e tocca l’immagine che la rappresenta, collegando il testo all’illustrazione giusta. Con la lettura ad alta voce 📖, è un’attività gratuita, senza registrazione e senza timer né punteggio, allineata alle Indicazioni nazionali."
+      "it": "Otto il gufo ha disegnato una breve storia illustrata in quattro scene. Il bambino ascolta il racconto, poi sente e legge una frase e tocca l’immagine che la rappresenta, collegando il testo all’illustrazione giusta. Con la lettura ad alta voce 📖, è un’attività gratuita, senza registrazione e senza timer né punteggio, allineata alle Indicazioni nazionali.",
+      "nl": "In dit gratis, interactieve leesspel voor groep 3 verbindt je kind plaatje en tekst: Otto de uil leest één deel van een kort verhaaltje voor en je kind tikt het plaatje aan dat precies dat moment toont. Zo oefent je kind spelenderwijs de plaatje-tekstkoppeling bij het aanvankelijk lezen, afgestemd op de SLO-kerndoelen voor groep 3."
     },
     "kid_prompt_template": "which-picture"
   }

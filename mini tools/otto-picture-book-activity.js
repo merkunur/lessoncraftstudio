@@ -41,7 +41,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: (LANG === 'pt' ? 'pt-BR' : LANG), rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : LANG === 'pt' ? 'pt-BR' : LANG === 'it' ? 'it-IT' : LANG === 'nl' ? 'nl-NL' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function ottoSVG(mood) {
@@ -49,7 +49,7 @@
     var eyes = happy
       ? '<path d="M30 44 q6 -6 12 0 M58 44 q6 -6 12 0" stroke="#2A2A35" stroke-width="3" fill="none" stroke-linecap="round"/>'
       : '<circle cx="36" cy="45" r="9" fill="#fff" stroke="#2A2A35" stroke-width="2"/><circle cx="64" cy="45" r="9" fill="#fff" stroke="#2A2A35" stroke-width="2"/><circle cx="36" cy="45" r="3.6" fill="#2A2A35"/><circle cx="64" cy="45" r="3.6" fill="#2A2A35"/>';
-    return '<svg class="opb-owl-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Otto le hibou' : LANG === 'de' ? 'Otto, die Eule' : LANG === 'es' ? 'Otto, el búho' : LANG === 'pt' ? 'Otto, a coruja' : LANG === 'it' ? 'Otto, il gufo' : 'Otto the owl') + '">' +
+    return '<svg class="opb-owl-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Otto le hibou' : LANG === 'de' ? 'Otto, die Eule' : LANG === 'es' ? 'Otto, el búho' : LANG === 'pt' ? 'Otto, a coruja' : LANG === 'it' ? 'Otto, il gufo' : LANG === 'nl' ? 'Otto de uil' : 'Otto the owl') + '">' +
       '<path d="M22 22 L36 36 L18 38 Z" fill="#9D7BC8"/><path d="M78 22 L64 36 L82 38 Z" fill="#9D7BC8"/>' +   /* ear tufts */
       '<ellipse cx="50" cy="56" rx="32" ry="30" fill="#B79BE0"/>' +
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#EBDFF8"/>' +   /* belly */
@@ -62,15 +62,15 @@
     id: 'otto-picture-book-activity',
 
     strings: {
-      title: { en: "Otto's Picture Book", de: 'Ottos Bilderbuch', fr: 'Le livre d’images d’Otto', es: 'El libro de imágenes de Otto', pt: 'O livro de desenhos do Otto', it: 'Il libro illustrato di Otto' },
-      prompt: { en: 'Which picture shows this part?', de: 'Welches Bild zeigt diesen Teil?', fr: 'Quelle image montre ce moment ?', es: '¿Qué imagen muestra este momento?', pt: 'Qual imagem mostra esta parte?', it: 'Quale immagine mostra questa parte?' },
-      ottoIntro: { en: 'I drew this story! Which picture shows the part I read?', de: 'Ich habe diese Geschichte gemalt! Welches Bild zeigt den Teil, den ich vorlese?', fr: 'J’ai dessiné cette histoire ! Quelle image montre le moment que je lis ?', es: '¡Yo dibujé este cuento! ¿Qué imagen muestra lo que leo?', pt: 'Eu desenhei esta história! Qual imagem mostra a parte que eu li?', it: 'Ho disegnato io questa storia! Quale figura mostra la parte?' },
-      hearStory: { en: '📖 Hear the story', de: '📖 Geschichte anhören', fr: '📖 Écouter l’histoire', es: '📖 Escuchar el cuento', pt: '📖 Ouvir a história', it: '📖 Ascolta la storia' },
-      hearAgain: { en: '📖 Hear it again', de: '📖 Noch einmal anhören', fr: '📖 Réécouter', es: '📖 Escuchar otra vez', pt: '📖 Ouvir de novo', it: '📖 Ascolta di nuovo' },
-      thePart: { en: 'Otto reads:', de: 'Otto liest vor:', fr: 'Otto lit :', es: 'Otto lee:', pt: 'Otto lê:', it: 'Otto legge:' },
-      hintPick: { en: 'Tap the picture that shows this part!', de: 'Tippe auf das Bild, das diesen Teil zeigt!', fr: 'Tape l’image qui montre ce moment !', es: '¡Toca la imagen que muestra este momento!', pt: 'Toque na imagem que mostra esta parte!', it: 'Tocca la figura che mostra questa parte!' },
-      hintWrong: { en: 'That picture shows a different part — listen again.', de: 'Dieses Bild zeigt einen anderen Teil – hör noch einmal zu.', fr: 'Cette image montre un autre moment — réécoute.', es: 'Esa imagen muestra otro momento. Escucha otra vez.', pt: 'Essa imagem mostra outra parte — ouça de novo.', it: 'Questa figura mostra una parte diversa, ascolta di nuovo.' },
-      ottoWin: { en: 'Yes! That picture shows it exactly!', de: 'Ja! Genau dieses Bild zeigt es!', fr: 'Oui ! Cette image le montre exactement !', es: '¡Sí! ¡Esa imagen lo muestra justo!', pt: 'Isso! Essa imagem mostra certinho!', it: 'Sì! Questa figura è proprio quella giusta!' }
+      title: { en: "Otto's Picture Book", de: 'Ottos Bilderbuch', fr: 'Le livre d’images d’Otto', es: 'El libro de imágenes de Otto', pt: 'O livro de desenhos do Otto', it: 'Il libro illustrato di Otto', nl: 'Het prentenboek van Otto' },
+      prompt: { en: 'Which picture shows this part?', de: 'Welches Bild zeigt diesen Teil?', fr: 'Quelle image montre ce moment ?', es: '¿Qué imagen muestra este momento?', pt: 'Qual imagem mostra esta parte?', it: 'Quale immagine mostra questa parte?', nl: 'Welk plaatje hoort bij dit stukje?' },
+      ottoIntro: { en: 'I drew this story! Which picture shows the part I read?', de: 'Ich habe diese Geschichte gemalt! Welches Bild zeigt den Teil, den ich vorlese?', fr: 'J’ai dessiné cette histoire ! Quelle image montre le moment que je lis ?', es: '¡Yo dibujé este cuento! ¿Qué imagen muestra lo que leo?', pt: 'Eu desenhei esta história! Qual imagem mostra a parte que eu li?', it: 'Ho disegnato io questa storia! Quale figura mostra la parte?', nl: 'Ik heb dit verhaal getekend! Welk plaatje hoort bij wat ik voorlees?' },
+      hearStory: { en: '📖 Hear the story', de: '📖 Geschichte anhören', fr: '📖 Écouter l’histoire', es: '📖 Escuchar el cuento', pt: '📖 Ouvir a história', it: '📖 Ascolta la storia', nl: '📖 Hoor het verhaal' },
+      hearAgain: { en: '📖 Hear it again', de: '📖 Noch einmal anhören', fr: '📖 Réécouter', es: '📖 Escuchar otra vez', pt: '📖 Ouvir de novo', it: '📖 Ascolta di nuovo', nl: '📖 Hoor het nog een keer' },
+      thePart: { en: 'Otto reads:', de: 'Otto liest vor:', fr: 'Otto lit :', es: 'Otto lee:', pt: 'Otto lê:', it: 'Otto legge:', nl: 'Otto leest:' },
+      hintPick: { en: 'Tap the picture that shows this part!', de: 'Tippe auf das Bild, das diesen Teil zeigt!', fr: 'Tape l’image qui montre ce moment !', es: '¡Toca la imagen que muestra este momento!', pt: 'Toque na imagem que mostra esta parte!', it: 'Tocca la figura che mostra questa parte!', nl: 'Tik op het plaatje dat bij dit stukje hoort!' },
+      hintWrong: { en: 'That picture shows a different part — listen again.', de: 'Dieses Bild zeigt einen anderen Teil – hör noch einmal zu.', fr: 'Cette image montre un autre moment — réécoute.', es: 'Esa imagen muestra otro momento. Escucha otra vez.', pt: 'Essa imagem mostra outra parte — ouça de novo.', it: 'Questa figura mostra una parte diversa, ascolta di nuovo.', nl: 'Dat plaatje hoort bij een ander stukje — luister nog eens.' },
+      ottoWin: { en: 'Yes! That picture shows it exactly!', de: 'Ja! Genau dieses Bild zeigt es!', fr: 'Oui ! Cette image le montre exactement !', es: '¡Sí! ¡Esa imagen lo muestra justo!', pt: 'Isso! Essa imagem mostra certinho!', it: 'Sì! Questa figura è proprio quella giusta!', nl: 'Ja! Dat plaatje hoort er precies bij!' }
     },
     defaults: {},
 
@@ -106,7 +106,7 @@
       var part = api.el('div', 'opb-part');
       var lab = api.el('span', 'opb-partlab'); lab.textContent = api.t('thePart'); part.appendChild(lab);
       var txt = api.el('span', 'opb-parttxt'); txt.textContent = this.view.prompt; part.appendChild(txt);
-      var sp = api.el('button', 'opb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'Lire la phrase' : LANG === 'de' ? 'Den Teil vorlesen' : LANG === 'es' ? 'Leer la oración' : LANG === 'pt' ? 'Ouvir a parte da história' : LANG === 'it' ? 'Leggi la parte' : 'Read the part'); sp.textContent = '🔊';
+      var sp = api.el('button', 'opb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'Lire la phrase' : LANG === 'de' ? 'Den Teil vorlesen' : LANG === 'es' ? 'Leer la oración' : LANG === 'pt' ? 'Ouvir a parte da história' : LANG === 'it' ? 'Leggi la parte' : LANG === 'nl' ? 'Het stukje voorlezen' : 'Read the part'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(self.view.prompt); }); part.appendChild(sp);
       root.appendChild(part);
 
@@ -120,7 +120,7 @@
       this.view.choices.forEach(function (ch, i) {
         var card = api.el('button', 'opb-card' + (self.sel === ch.panel ? ' opb-sel' : '')); card.type = 'button';
         card.setAttribute('data-i', i); card.style.background = tintFor(ch.panel);
-        card.setAttribute('aria-label', (LANG === 'fr' ? 'Image ' : LANG === 'de' ? 'Bild ' : LANG === 'es' ? 'Imagen ' : LANG === 'pt' ? 'Imagem ' : LANG === 'it' ? 'Immagine ' : 'Picture ') + (i + 1));
+        card.setAttribute('aria-label', (LANG === 'fr' ? 'Image ' : LANG === 'de' ? 'Bild ' : LANG === 'es' ? 'Imagen ' : LANG === 'pt' ? 'Imagem ' : LANG === 'it' ? 'Immagine ' : LANG === 'nl' ? 'Plaatje ' : 'Picture ') + (i + 1));
         var num = api.el('span', 'opb-cnum'); num.textContent = (i + 1); card.appendChild(num);
         var em = api.el('span', 'opb-cemoji'); em.setAttribute('aria-hidden', 'true'); em.textContent = EMOJI[ch.panel] || '❓'; card.appendChild(em);
         card.addEventListener('click', function () { self._tapCard(ch.panel); });

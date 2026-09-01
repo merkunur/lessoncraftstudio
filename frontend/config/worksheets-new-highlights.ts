@@ -206,6 +206,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "times-table-of-3",
         "times-table-of-4"
       ]
+    },
+    {
+      "base": "lowercase-letter-tracing",
+      "variations": [
+        "lowercase-letter-tracing-g-to-l",
+        "lowercase-letter-tracing-m-to-r",
+        "lowercase-letter-tracing-s-to-z",
+        "lowercase-vowel-tracing",
+        "first-small-letters-tracing"
+      ]
     }
   ],
   "de": [

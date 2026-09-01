@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Las tablas de multiplicar",
     "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "K-244": {
+    "title": "Grafomotricidad: rectas y zigzag",
+    "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-245": {
+    "title": "Grafomotricidad: ondas y curvas",
+    "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-246": {
+    "title": "Bucles, espirales y ochos",
+    "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-247": {
+    "title": "Grafomotricidad avanzada",
+    "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-248": {
+    "title": "Repaso de todos los trazos",
+    "instruction": "Repasa cada línea con el lápiz. Empieza en el punto naranja y sigue la flecha."
+  },
+  "K-249": {
+    "title": "Números punteados del 0 al 4",
+    "instruction": "Repasa cada número. Empieza en el punto naranja y sigue las flechas."
+  },
+  "K-250": {
+    "title": "Números punteados del 5 al 9",
+    "instruction": "Repasa cada número. Empieza en el punto naranja y sigue las flechas."
+  },
+  "K-251": {
+    "title": "Repasa y escribe los números",
+    "instruction": "Repasa cada número. Después, escríbelo tú en el espacio vacío."
+  },
+  "K-252": {
+    "title": "Números punteados del 1 al 10",
+    "instruction": "Repasa cada número. Empieza en el punto naranja y sigue las flechas."
+  },
+  "K-253": {
+    "title": "Números punteados del 11 al 20",
+    "instruction": "Repasa cada número. Empieza en el punto naranja y sigue las flechas."
+  },
+  "K-254": {
+    "title": "Letras punteadas de la G a la L",
+    "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."
+  },
+  "K-255": {
+    "title": "Letras punteadas de la M a la R",
+    "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."
+  },
+  "K-256": {
+    "title": "Letras punteadas de la S a la Z",
+    "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."
+  },
+  "K-257": {
+    "title": "La letra Ñ punteada",
+    "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."
+  },
+  "K-258": {
+    "title": "Mis primeras letras: A B C D",
+    "instruction": "Repasa cada letra con el lápiz. Después, escríbela tú en la línea vacía."
+  },
+  "K-259": {
+    "title": "Palabras frecuentes: lista 2",
+    "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."
+  },
+  "K-260": {
+    "title": "Palabras frecuentes: lista 3",
+    "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."
+  },
+  "K-261": {
+    "title": "Palabras frecuentes: lista 4",
+    "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."
+  },
+  "K-262": {
+    "title": "Palabras frecuentes: lista 5",
+    "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."
+  },
+  "K-263": {
+    "title": "Palabras frecuentes: lista 6",
+    "instruction": "Lee la palabra. Repásala con el lápiz y luego escríbela tú en la línea."
+  },
+  "K-264": {
+    "title": "Recorta y pega en dos grupos",
+    "instruction": "Recorta los dibujos de abajo. Clasifícalos y pega cada uno en su casilla."
+  },
+  "K-265": {
+    "title": "Colorea según la figura",
+    "instruction": "Mira el código. Colorea cada figura con el color que le corresponde."
+  },
+  "K-266": {
+    "title": "Colorea por números",
+    "instruction": "Mira el código. Colorea cada figura con el color de su número."
+  },
+  "K-267": {
+    "title": "Colorea con restas",
+    "instruction": "Mira el código. Colorea cada figura con el color que le corresponde."
+  },
+  "K-268": {
+    "title": "Colorea con sumas y restas",
+    "instruction": "Mira el código. Colorea cada figura con el color que le corresponde."
+  },
+  "K-269": {
+    "title": "Colorea con sumas hasta 20",
+    "instruction": "Mira el código. Colorea cada figura con el color que le corresponde."
+  },
+  "K-270": {
+    "title": "Laberinto fácil",
+    "instruction": "Empieza arriba. Traza el camino por el laberinto hasta llegar a la meta."
+  },
+  "K-271": {
+    "title": "Laberinto difícil",
+    "instruction": "Empieza arriba. Traza el camino por el laberinto hasta llegar a la meta."
+  },
+  "K-272": {
+    "title": "Laberinto gigante",
+    "instruction": "Empieza arriba. Traza el camino por el laberinto hasta llegar a la meta."
+  },
+  "K-273": {
+    "title": "Amigos del 5",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+  },
+  "K-274": {
+    "title": "Descomposición de números hasta 10",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+  },
+  "K-275": {
+    "title": "Amigos del 20",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+  },
+  "K-276": {
+    "title": "Las partes y el todo",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+  },
+  "K-277": {
+    "title": "Amigos del 10 con puntos",
+    "instruction": "Mira cada esquema. Escribe el número que falta en el círculo de puntos."
+  },
+  "G1-214": {
+    "title": "Cálculo mental hasta 10",
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+  },
+  "G1-215": {
+    "title": "Halla el número que falta hasta 20",
+    "instruction": "Piensa mentalmente qué número falta y escríbelo en la casilla."
+  },
+  "G1-216": {
+    "title": "Sumas mentales hasta 20",
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+  },
+  "G1-217": {
+    "title": "Restas mentales hasta 20",
+    "instruction": "Resuelve cada operación mentalmente. Escribe el resultado en la casilla."
+  },
+  "G1-218": {
+    "title": "Halla el número que falta hasta 10",
+    "instruction": "Piensa mentalmente qué número falta y escríbelo en la casilla."
+  },
+  "G1-219": {
+    "title": "Casitas de operaciones hasta 10",
+    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+  },
+  "G1-220": {
+    "title": "Casitas de operaciones hasta 20",
+    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+  },
+  "G1-221": {
+    "title": "Más casitas de sumas y restas",
+    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
+  },
+  "G1-222": {
+    "title": "Casitas: el número escondido",
+    "instruction": "Usa los tres números del tejado. Escribe el número que falta en cada operación."
+  },
+  "G1-223": {
+    "title": "Números en letras hasta 20",
+    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+  },
+  "G1-224": {
+    "title": "Las decenas en letras: del 10 al 100",
+    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+  },
+  "G1-225": {
+    "title": "Une números con palabras",
+    "instruction": "Une con una línea cada número con su nombre en letras."
+  },
+  "G1-226": {
+    "title": "Números en letras hasta 50",
+    "instruction": "Lee el número grande y rodea con tu lápiz la palabra que le corresponde."
+  },
+  "G1-227": {
+    "title": "Escribe los números en letras",
+    "instruction": "Busca la palabra correspondiente en el banco de palabras y escríbela en la línea."
+  },
+  "G1-228": {
+    "title": "Contamos monedas: primeros pasos",
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+  },
+  "G1-229": {
+    "title": "Contamos con todas las monedas",
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+  },
+  "G1-230": {
+    "title": "Práctica de contar monedas",
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+  },
+  "G1-231": {
+    "title": "Monedas de 1 y 2 céntimos",
+    "instruction": "Cuenta las monedas de cada monedero. Escribe el total en la casilla."
+  },
+  "G1-232": {
+    "title": "¿Qué monedero tiene más dinero?",
+    "instruction": "Cuenta el dinero de los dos monederos. Rodea el monedero que tiene más."
+  },
+  "G1-233": {
+    "title": "Dibuja las agujas: la hora en punto",
+    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+  },
+  "G1-234": {
+    "title": "Dibuja las agujas: y media",
+    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+  },
+  "G1-235": {
+    "title": "Dibuja las agujas: y cuarto y menos cuarto",
+    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+  },
+  "G1-236": {
+    "title": "Dibuja las agujas: de 5 en 5 minutos",
+    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+  },
+  "G1-237": {
+    "title": "Dibuja las agujas: repaso de horas",
+    "instruction": "Lee la hora. Dibuja la aguja de las horas y la de los minutos en el reloj."
+  },
+  "G1-238": {
+    "title": "Problemas de sumas",
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+  },
+  "G1-239": {
+    "title": "Problemas de restas",
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+  },
+  "G1-240": {
+    "title": "Problemas hasta 10",
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+  },
+  "G1-241": {
+    "title": "Práctica de problemas",
+    "instruction": "Lee cada problema. Ayúdate de los dibujos y escribe la respuesta en la casilla."
+  },
+  "G2-255": {
+    "title": "Sumas sin llevar de dos cifras",
+    "instruction": "Suma en columnas, empezando siempre por las unidades."
+  },
+  "G2-256": {
+    "title": "Restas sin llevar de dos cifras",
+    "instruction": "Resta en columnas, empezando siempre por las unidades."
+  },
+  "G2-257": {
+    "title": "Sumas y restas de tres cifras sin llevar",
+    "instruction": "Suma o resta en columnas, empezando siempre por las unidades."
+  },
+  "G2-258": {
+    "title": "Sumas de tres cifras sin llevar",
+    "instruction": "Suma en columnas, empezando siempre por las unidades."
+  },
+  "G2-259": {
+    "title": "Repaso de cuentas sin llevar",
+    "instruction": "Suma o resta en columnas, empezando siempre por las unidades."
+  },
+  "G2-260": {
+    "title": "Leemos jarras medidoras",
+    "instruction": "Lee la escala de cada jarra. Escribe cuántos mililitros hay dentro."
+  },
+  "G2-261": {
+    "title": "La balanza en gramos",
+    "instruction": "Mira las pesas de cada balanza. Escribe cuántos gramos pesa el objeto."
+  },
+  "G2-262": {
+    "title": "Escalas con marcas pequeñas",
+    "instruction": "Lee cada jarra medidora y cada balanza. Escribe la cantidad con su unidad."
+  },
+  "G2-263": {
+    "title": "Jarras grandes hasta 2000 ml",
+    "instruction": "Lee la escala de cada jarra. Escribe cuántos mililitros hay dentro."
+  },
+  "G2-264": {
+    "title": "Simetría fácil",
+    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+  },
+  "G2-265": {
+    "title": "Simetría difícil",
+    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+  },
+  "G2-266": {
+    "title": "Simetría: corazón y mariposa",
+    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+  },
+  "G2-267": {
+    "title": "Simetría: casa y corona",
+    "instruction": "Cada dibujo está a medias. Colorea los cuadrados del otro lado de la línea para completarlo igual."
+  },
+  "G2-268": {
+    "title": "Simetría con espejo horizontal",
+    "instruction": "Cada dibujo está a medias. Colorea los cuadrados debajo de la línea para completarlo igual."
+  },
+  "G2-269": {
+    "title": "Comprensión lectora: La caracola",
+    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+  },
+  "G2-270": {
+    "title": "Comprensión lectora: El huerto",
+    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+  },
+  "G2-271": {
+    "title": "Comprensión lectora: La tormenta",
+    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+  },
+  "G2-272": {
+    "title": "Comprensión lectora: El tren",
+    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+  },
+  "G2-273": {
+    "title": "Comprensión lectora: El teatro",
+    "instruction": "Lee el cuento con atención. Después, rodea la respuesta correcta de cada pregunta."
+  },
+  "G3-359": {
+    "title": "Sumas con llevadas de dos cifras",
+    "instruction": "Suma en columnas. Recuerda las llevadas cuando haga falta."
+  },
+  "G3-360": {
+    "title": "Restas con llevadas",
+    "instruction": "Resta en columnas. Recuerda las llevadas cuando haga falta."
+  },
+  "G3-361": {
+    "title": "Sumas con llevadas de tres cifras",
+    "instruction": "Suma en columnas. Recuerda las llevadas cuando haga falta."
+  },
+  "G3-362": {
+    "title": "Restas con llevadas y ceros",
+    "instruction": "Resta en columnas. Recuerda las llevadas cuando haga falta."
+  },
+  "G3-363": {
+    "title": "Repaso de llevadas",
+    "instruction": "Resuelve cada operación en columnas. Recuerda las llevadas cuando haga falta."
+  },
+  "G3-364": {
+    "title": "La tabla del 2",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-365": {
+    "title": "La tabla del 5",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-366": {
+    "title": "La tabla del 10",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-367": {
+    "title": "La tabla del 3",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-368": {
+    "title": "La tabla del 4",
+    "instruction": "Resuelve cada multiplicación y escribe el resultado en la casilla."
+  },
+  "G3-369": {
+    "title": "Familias de multiplicar y dividir",
+    "instruction": "Usa los tres números del tejado. Completa las cuatro operaciones de la familia."
   }
 }

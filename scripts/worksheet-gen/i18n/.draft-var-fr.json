@@ -1,0 +1,514 @@
+{
+  "locale": "fr",
+  "types": {
+    "K-244": {
+      "title": "Graphisme : lignes droites et zigzags",
+      "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+    },
+    "K-245": {
+      "title": "Graphisme : vagues et ponts",
+      "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+    },
+    "K-246": {
+      "title": "Graphisme : boucles et spirales",
+      "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+    },
+    "K-247": {
+      "title": "Graphisme : les tracés difficiles",
+      "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+    },
+    "K-248": {
+      "title": "Graphisme : la grande révision",
+      "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+    },
+    "K-249": {
+      "title": "Écriture des chiffres de 0 à 4",
+      "instruction": "Repasse chaque chiffre. Pars du point orange et suis les flèches."
+    },
+    "K-250": {
+      "title": "Écriture des chiffres de 5 à 9",
+      "instruction": "Repasse chaque chiffre. Pars du point orange et suis les flèches."
+    },
+    "K-251": {
+      "title": "Repasser puis écrire les chiffres",
+      "instruction": "Repasse chaque chiffre. Puis écris-le tout seul dans la case vide."
+    },
+    "K-252": {
+      "title": "Écriture des nombres de 1 à 10",
+      "instruction": "Repasse chaque nombre. Pars du point orange et suis les flèches."
+    },
+    "K-253": {
+      "title": "Écriture des nombres de 11 à 20",
+      "instruction": "Repasse chaque nombre. Pars du point orange et suis les flèches."
+    },
+    "K-254": {
+      "title": "Écriture des lettres de G à L",
+      "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+    },
+    "K-255": {
+      "title": "Écriture des lettres de M à R",
+      "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+    },
+    "K-256": {
+      "title": "Écriture des lettres de S à Z",
+      "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+    },
+    "K-257": {
+      "title": "Écriture des lettres É, È et Ê",
+      "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+    },
+    "K-258": {
+      "title": "Mes premières lettres : A B C D",
+      "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+    },
+    "K-259": {
+      "title": "Mots-outils : liste 2",
+      "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+    },
+    "K-260": {
+      "title": "Mots-outils : liste 3",
+      "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+    },
+    "K-261": {
+      "title": "Mots-outils : liste 4",
+      "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+    },
+    "K-262": {
+      "title": "Mots-outils : liste 5",
+      "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+    },
+    "K-263": {
+      "title": "Mots-outils : liste 6",
+      "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+    },
+    "K-264": {
+      "title": "Découper et coller : deux groupes",
+      "instruction": "Découpe les images en bas de la page. Trie-les et colle chaque image dans sa case."
+    },
+    "K-265": {
+      "title": "Coloriage magique des formes",
+      "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+    },
+    "K-266": {
+      "title": "Coloriage par numéros",
+      "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur de son numéro."
+    },
+    "K-267": {
+      "title": "Coloriage magique : soustractions",
+      "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+    },
+    "K-268": {
+      "title": "Coloriage magique : addition et soustraction",
+      "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+    },
+    "K-269": {
+      "title": "Coloriage magique : sommes jusqu'à 20",
+      "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+    },
+    "K-270": {
+      "title": "Labyrinthe facile",
+      "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+    },
+    "K-271": {
+      "title": "Labyrinthe difficile",
+      "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+    },
+    "K-272": {
+      "title": "Labyrinthe géant",
+      "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+    },
+    "K-273": {
+      "title": "Les compléments à 5",
+      "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+    },
+    "K-274": {
+      "title": "Compléments jusqu'à 10",
+      "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+    },
+    "K-275": {
+      "title": "Les compléments à 20",
+      "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+    },
+    "K-276": {
+      "title": "Compléments : trouver le tout",
+      "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+    },
+    "K-277": {
+      "title": "Compléments à 10 avec points à compter",
+      "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+    },
+    "G1-214": {
+      "title": "Calcul mental jusqu'à 10",
+      "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+    },
+    "G1-215": {
+      "title": "Le nombre manquant jusqu'à 20",
+      "instruction": "Trouve le nombre manquant dans ta tête. Écris-le dans la case."
+    },
+    "G1-216": {
+      "title": "Calcul mental : additions jusqu'à 20",
+      "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+    },
+    "G1-217": {
+      "title": "Calcul mental : soustractions jusqu'à 20",
+      "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+    },
+    "G1-218": {
+      "title": "Le nombre manquant jusqu'à 10",
+      "instruction": "Trouve le nombre manquant dans ta tête. Écris-le dans la case."
+    },
+    "G1-219": {
+      "title": "Familles d'opérations jusqu'à 10",
+      "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+    },
+    "G1-220": {
+      "title": "Familles d'opérations jusqu'à 20",
+      "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+    },
+    "G1-221": {
+      "title": "Maisons des nombres jusqu'à 10",
+      "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+    },
+    "G1-222": {
+      "title": "Familles d'opérations : nombre caché",
+      "instruction": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération."
+    },
+    "G1-223": {
+      "title": "Les nombres en lettres jusqu'à 20",
+      "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+    },
+    "G1-224": {
+      "title": "Les dizaines en lettres : 10 à 100",
+      "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+    },
+    "G1-225": {
+      "title": "Relier les nombres et les mots",
+      "instruction": "Relie chaque nombre écrit en chiffres au mot qui lui correspond."
+    },
+    "G1-226": {
+      "title": "Les nombres en lettres jusqu'à 50",
+      "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+    },
+    "G1-227": {
+      "title": "Écrire les nombres en lettres",
+      "instruction": "Cherche le bon mot dans la liste en haut de la page. Écris-le sur la ligne."
+    },
+    "G1-228": {
+      "title": "Compter la monnaie : premiers pas",
+      "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+    },
+    "G1-229": {
+      "title": "Compter toutes les pièces",
+      "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+    },
+    "G1-230": {
+      "title": "Entraînement : compter les pièces",
+      "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+    },
+    "G1-231": {
+      "title": "Compter avec les petites pièces",
+      "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+    },
+    "G1-232": {
+      "title": "Quel porte-monnaie a le plus ?",
+      "instruction": "Compte la monnaie des deux porte-monnaie. Entoure celui qui a le plus d'argent."
+    },
+    "G1-233": {
+      "title": "Dessiner les aiguilles : heures piles",
+      "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+    },
+    "G1-234": {
+      "title": "Dessiner les aiguilles : et demie",
+      "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+    },
+    "G1-235": {
+      "title": "Les aiguilles : et quart, moins le quart",
+      "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+    },
+    "G1-236": {
+      "title": "Les aiguilles de 5 en 5 minutes",
+      "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+    },
+    "G1-237": {
+      "title": "Dessiner les aiguilles : révision",
+      "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+    },
+    "G1-238": {
+      "title": "Problèmes d'addition en images",
+      "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+    },
+    "G1-239": {
+      "title": "Problèmes de soustraction en images",
+      "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+    },
+    "G1-240": {
+      "title": "Petits problèmes jusqu'à 10",
+      "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+    },
+    "G1-241": {
+      "title": "Trois petits problèmes",
+      "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+    },
+    "G2-255": {
+      "title": "Additions posées sans retenue",
+      "instruction": "Additionne colonne par colonne. Commence par les unités."
+    },
+    "G2-256": {
+      "title": "Soustractions posées sans retenue",
+      "instruction": "Soustrais colonne par colonne. Commence par les unités."
+    },
+    "G2-257": {
+      "title": "Opérations posées : nombres à 3 chiffres",
+      "instruction": "Additionne ou soustrais, colonne par colonne. Commence par les unités."
+    },
+    "G2-258": {
+      "title": "Additions posées à 3 chiffres",
+      "instruction": "Additionne colonne par colonne. Commence par les unités."
+    },
+    "G2-259": {
+      "title": "Opérations posées : révision",
+      "instruction": "Additionne ou soustrais, colonne par colonne. Commence par les unités."
+    },
+    "G2-260": {
+      "title": "Lire le verre doseur en millilitres",
+      "instruction": "Lis la graduation de chaque verre doseur. Écris combien de millilitres il contient."
+    },
+    "G2-261": {
+      "title": "Lire la balance en grammes",
+      "instruction": "Regarde les poids sur chaque balance. Écris combien de grammes pèse l'objet."
+    },
+    "G2-262": {
+      "title": "Lire les petites graduations",
+      "instruction": "Lis chaque verre doseur et chaque balance. Écris la mesure avec son unité."
+    },
+    "G2-263": {
+      "title": "Verres doseurs jusqu'à 2000 ml",
+      "instruction": "Lis la graduation de chaque verre doseur. Écris combien de millilitres il contient."
+    },
+    "G2-264": {
+      "title": "Symétrie facile sur quadrillage",
+      "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+    },
+    "G2-265": {
+      "title": "Symétrie difficile sur quadrillage",
+      "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+    },
+    "G2-266": {
+      "title": "Symétrie : cœur et papillon",
+      "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+    },
+    "G2-267": {
+      "title": "Symétrie : maison et couronne",
+      "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+    },
+    "G2-268": {
+      "title": "Symétrie : axe horizontal",
+      "instruction": "Chaque dessin est à moitié terminé. Colorie les cases sous la ligne pour le rendre symétrique."
+    },
+    "G2-269": {
+      "title": "Lecture : le crabe de la plage",
+      "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+    },
+    "G2-270": {
+      "title": "Lecture : l'escargot du potager",
+      "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+    },
+    "G2-271": {
+      "title": "Lecture : la nuit en camping",
+      "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+    },
+    "G2-272": {
+      "title": "Lecture : le marché du samedi",
+      "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+    },
+    "G2-273": {
+      "title": "Lecture : le spectacle de l'école",
+      "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+    },
+    "G3-359": {
+      "title": "Additions avec retenue",
+      "instruction": "Additionne colonne par colonne. N'oublie pas la retenue."
+    },
+    "G3-360": {
+      "title": "Soustractions avec retenue",
+      "instruction": "Soustrais colonne par colonne. N'oublie pas la retenue."
+    },
+    "G3-361": {
+      "title": "Additions à 3 chiffres avec retenue",
+      "instruction": "Additionne colonne par colonne. N'oublie pas la retenue."
+    },
+    "G3-362": {
+      "title": "Soustractions avec des zéros",
+      "instruction": "Soustrais colonne par colonne. N'oublie pas la retenue."
+    },
+    "G3-363": {
+      "title": "Révision : opérations avec retenue",
+      "instruction": "Calcule chaque opération posée. N'oublie pas la retenue quand tu en as besoin."
+    },
+    "G3-364": {
+      "title": "La table de 2",
+      "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+    },
+    "G3-365": {
+      "title": "La table de 5",
+      "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+    },
+    "G3-366": {
+      "title": "La table de 10",
+      "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+    },
+    "G3-367": {
+      "title": "La table de 3",
+      "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+    },
+    "G3-368": {
+      "title": "La table de 4",
+      "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+    },
+    "G3-369": {
+      "title": "Familles de multiplications et divisions",
+      "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations : deux multiplications et deux divisions."
+    }
+  },
+  "sightWordsAppend": [
+    "il",
+    "elle",
+    "je",
+    "des",
+    "du",
+    "au",
+    "qui",
+    "que",
+    "pas",
+    "son",
+    "sous",
+    "aussi"
+  ],
+  "figureNamesNew": {
+    "tulip": "Tulipe",
+    "sailboat": "Voilier",
+    "sun": "Soleil",
+    "crab": "Crabe",
+    "cactus": "Cactus",
+    "ladybug": "Coccinelle",
+    "owl": "Hibou",
+    "umbrella": "Parapluie"
+  },
+  "readingPassagesAppend": [
+    {
+      "id": "fr-p4-crabe",
+      "title": "Le crabe de Nino",
+      "text": "Nino trouve un petit crabe rouge sur la plage. Le crabe se cache vite sous un rocher. Nino le regarde sans le toucher, puis il retourne jouer dans le sable.",
+      "questions": [
+        {
+          "q": "De quelle couleur est le crabe ?",
+          "choices": ["Rouge", "Vert", "Bleu"],
+          "correct": 0
+        },
+        {
+          "q": "Où le crabe se cache-t-il ?",
+          "choices": ["Dans l'eau", "Sous un rocher", "Dans un seau"],
+          "correct": 1
+        },
+        {
+          "q": "Que peut-on dire de Nino ?",
+          "choices": ["Il a peur du crabe", "Il veut garder le crabe", "Il est doux avec les animaux"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "fr-p5-escargot",
+      "title": "L'escargot du potager",
+      "text": "Dans le potager de Papi, un escargot se promène sur une feuille de salade. Après la pluie, il sort sa petite tête et avance tout doucement. Papi le pose près des fraises, mais l'escargot préfère retourner sur la salade.",
+      "questions": [
+        {
+          "q": "Où se promène l'escargot ?",
+          "choices": ["Sur une feuille de salade", "Sur une carotte", "Sur le mur du jardin"],
+          "correct": 0
+        },
+        {
+          "q": "Quand l'escargot sort-il sa tête ?",
+          "choices": ["Quand il fait très chaud", "Après la pluie", "Pendant la nuit"],
+          "correct": 1
+        },
+        {
+          "q": "Qu'est-ce que l'escargot aime manger ?",
+          "choices": ["La salade", "Les fraises", "Les fleurs"],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fr-p6-camping",
+      "title": "La nuit en camping",
+      "text": "Ce soir, Jade dort sous la tente avec son grand frère Tom. Ils écoutent le vent dans les arbres et le chant des grillons. Tom allume la lampe de poche et lit une histoire de pirates. Avant de fermer les yeux, Jade regarde les étoiles par la petite fenêtre de la tente. Elle se sent bien, tout près de son frère.",
+      "questions": [
+        {
+          "q": "Avec qui Jade dort-elle sous la tente ?",
+          "choices": ["Avec son frère Tom", "Avec sa maman", "Avec son chien"],
+          "correct": 0
+        },
+        {
+          "q": "Que lit Tom avec la lampe de poche ?",
+          "choices": ["Une histoire de dragons", "Une histoire de pirates", "Un livre de recettes"],
+          "correct": 1
+        },
+        {
+          "q": "Comment Jade se sent-elle ce soir ?",
+          "choices": ["Elle a très peur", "Elle est en colère", "Elle est calme et heureuse"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "fr-p7-marche",
+      "title": "Le marché du samedi",
+      "text": "Le samedi matin, Lina va au marché avec sa maman. Elles achètent des tomates bien rouges, un melon et un grand bouquet de fleurs. Le marchand donne une fraise à Lina pour la remercier de son joli sourire. Sur le chemin du retour, le panier est si lourd que Lina et sa maman le portent ensemble, chacune par une anse. À la maison, elles préparent une bonne salade de tomates pour le déjeuner.",
+      "questions": [
+        {
+          "q": "Quel jour Lina va-t-elle au marché ?",
+          "choices": ["Le mercredi", "Le samedi", "Le dimanche"],
+          "correct": 1
+        },
+        {
+          "q": "Que donne le marchand à Lina ?",
+          "choices": ["Une fraise", "Une pomme", "Un bonbon"],
+          "correct": 0
+        },
+        {
+          "q": "Pourquoi portent-elles le panier ensemble ?",
+          "choices": ["Parce qu'il est très lourd", "Parce qu'il pleut", "Parce qu'il est cassé"],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fr-p8-spectacle",
+      "title": "Le spectacle de l'école",
+      "text": "Vendredi, c'est le grand spectacle de l'école. Depuis un mois, la classe de Malo répète une danse et deux chansons. Malo a un peu le trac : il doit dire la première phrase, tout seul, devant tout le monde. Le soir, la salle est pleine. Quand le rideau s'ouvre, Malo respire un grand coup et parle d'une voix claire. Les parents applaudissent très fort. Après le spectacle, la maîtresse félicite toute la classe, et Malo sourit jusqu'aux oreilles : il est fier de lui.",
+      "questions": [
+        {
+          "q": "Que doit faire Malo tout seul ?",
+          "choices": ["Chanter une chanson", "Dire la première phrase", "Fermer le rideau"],
+          "correct": 1
+        },
+        {
+          "q": "Depuis combien de temps la classe répète-t-elle ?",
+          "choices": ["Depuis un mois", "Depuis une semaine", "Depuis un jour"],
+          "correct": 0
+        },
+        {
+          "q": "Comment Malo se sent-il à la fin ?",
+          "choices": ["Il est triste", "Il a encore le trac", "Il est fier de lui"],
+          "correct": 2
+        }
+      ]
+    }
+  ],
+  "audits": {
+    "multiplicationSign": "×",
+    "divisionSign": "÷",
+    "notes": "French primary manuals (Cap Maths, Litchi, MHM, programmes 2020) use × for multiplication — never the middle dot — and ÷ for inline division at cycle 2/3 (the colon is Germanic/Belgian usage, not taught in France). K-257 features the accented capitals É È Ê per the brief; titled 'Écriture des lettres É, È et Ê' (do NOT call them 'voyelles' — È/Ê are accent variants, EN's 'Trace the Vowels' does not transfer). K-252/K-253 instructions deliberately say 'nombre' not 'chiffre' (11-20 are two-digit NOMBRES; K-237's base says 'chiffre' which is correct only for 0-9). 'porte-monnaie' kept invariable in the plural (traditional orthography, matches shipped G1-211). Sight-word lists titled 'liste 2..6' — the CP convention (listes de mots-outils). G2-255/256/258 and G3-359-362 use operation-specific single-verb instructions (addition-only pages must not say 'ou soustrais'), mirroring EN's own split. G3-364..368 titled 'La table de N' per French usage (never 'table de multiplication de N' — too long, and teachers google 'table de 2 CE1'. Base G3-358 'Les tables de multiplication' stays the family umbrella). Reading passage ids continue fr-p4..fr-p8; settings (plage, potager, camping, marché, spectacle d'école) are distinct from the shipped chat/vélo/tarte; lengths ~155→~460; correct indices per story: [0,1,2],[0,1,0],[0,1,2],[1,0,0],[1,0,2] — never all identical; 2 literal + 1 inference each. K-241 base title 'Coloriage magique' is the exact French search term for math-coded coloring; K-266 (no math, numeral-only) is therefore 'Coloriage par numéros' to keep the magique keyword honest for the calculation variants."
+  }
+}

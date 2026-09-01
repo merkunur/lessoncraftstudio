@@ -1,0 +1,514 @@
+{
+  "locale": "nl",
+  "types": {
+    "K-244": {
+      "title": "Rechte lijnen en zigzaglijnen",
+      "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+    },
+    "K-245": {
+      "title": "Golven en boogjes",
+      "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+    },
+    "K-246": {
+      "title": "Lussen, achtjes en spiralen",
+      "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+    },
+    "K-247": {
+      "title": "Moeilijke schrijfpatronen",
+      "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+    },
+    "K-248": {
+      "title": "Schrijfpatronen herhalen",
+      "instruction": "Trek elke lijn na met je potlood. Begin bij de oranje stip en volg de pijl."
+    },
+    "K-249": {
+      "title": "Cijfers schrijven 0 tot 4",
+      "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+    },
+    "K-250": {
+      "title": "Cijfers schrijven 5 tot 9",
+      "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+    },
+    "K-251": {
+      "title": "Cijfers natrekken en zelf schrijven",
+      "instruction": "Trek elk cijfer na. Schrijf het daarna zelf in het lege vakje."
+    },
+    "K-252": {
+      "title": "Getallen schrijven 1 tot 10",
+      "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+    },
+    "K-253": {
+      "title": "Getallen schrijven 11 tot 20",
+      "instruction": "Trek elk cijfer na. Begin bij de oranje stip en volg de pijltjes."
+    },
+    "K-254": {
+      "title": "Letters overtrekken: G tot L",
+      "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."
+    },
+    "K-255": {
+      "title": "Letters overtrekken: M tot R",
+      "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."
+    },
+    "K-256": {
+      "title": "Letters overtrekken: S tot Z",
+      "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."
+    },
+    "K-257": {
+      "title": "De IJ en de letters G, H, K, L, M",
+      "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."
+    },
+    "K-258": {
+      "title": "Mijn eerste hoofdletters: A B C D",
+      "instruction": "Trek elke letter na. Schrijf er daarna zelf één op de lege regel."
+    },
+    "K-259": {
+      "title": "Flitswoorden: lijst 2",
+      "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."
+    },
+    "K-260": {
+      "title": "Flitswoorden: lijst 3",
+      "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."
+    },
+    "K-261": {
+      "title": "Flitswoorden: lijst 4",
+      "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."
+    },
+    "K-262": {
+      "title": "Flitswoorden: lijst 5",
+      "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."
+    },
+    "K-263": {
+      "title": "Flitswoorden: lijst 6",
+      "instruction": "Lees het woord. Trek het na. Schrijf het daarna zelf op de lege regel."
+    },
+    "K-264": {
+      "title": "Knippen en plakken: twee groepen",
+      "instruction": "Knip de plaatjes onderaan uit. Sorteer ze en plak elk plaatje in het goede vak."
+    },
+    "K-265": {
+      "title": "Kleuren op vormcode",
+      "instruction": "Kijk goed naar de code. Kleur elke vorm met de kleur die erbij hoort."
+    },
+    "K-266": {
+      "title": "Kleuren op nummer",
+      "instruction": "Kijk naar de code. Kleur elke vorm met de kleur die bij het getal hoort."
+    },
+    "K-267": {
+      "title": "Kleuren met aftreksommen",
+      "instruction": "Kijk goed naar de code. Kleur elke vorm met de kleur die erbij hoort."
+    },
+    "K-268": {
+      "title": "Kleuren met plus- en minsommen",
+      "instruction": "Kijk goed naar de code. Kleur elke vorm met de kleur die erbij hoort."
+    },
+    "K-269": {
+      "title": "Kleuren met sommen tot 20",
+      "instruction": "Kijk goed naar de code. Kleur elke vorm met de kleur die erbij hoort."
+    },
+    "K-270": {
+      "title": "Makkelijk doolhof",
+      "instruction": "Begin bij de start bovenaan. Teken een weg door het doolhof naar de finish onderaan."
+    },
+    "K-271": {
+      "title": "Moeilijk doolhof",
+      "instruction": "Begin bij de start bovenaan. Teken een weg door het doolhof naar de finish onderaan."
+    },
+    "K-272": {
+      "title": "Reuzendoolhof",
+      "instruction": "Begin bij de start bovenaan. Teken een weg door het doolhof naar de finish onderaan."
+    },
+    "K-273": {
+      "title": "Splitsen van 5 met stippen",
+      "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+    },
+    "K-274": {
+      "title": "Splitsen van 5 tot en met 10",
+      "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+    },
+    "K-275": {
+      "title": "Splitsen tot 20",
+      "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+    },
+    "K-276": {
+      "title": "Splitsen: het geheel ontbreekt",
+      "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+    },
+    "K-277": {
+      "title": "Splitsen van 10 met stippen",
+      "instruction": "Kijk naar elke splitsing. Schrijf het getal dat mist in de lege cirkel."
+    },
+    "G1-214": {
+      "title": "Hoofdrekenen tot 10",
+      "instruction": "Reken elke som uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G1-215": {
+      "title": "Stipsommen tot 20",
+      "instruction": "Reken uit je hoofd uit welk getal op de lege plek hoort. Schrijf het in het vakje."
+    },
+    "G1-216": {
+      "title": "Optelsommen tot 20",
+      "instruction": "Reken elke som uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G1-217": {
+      "title": "Aftreksommen tot 20",
+      "instruction": "Reken elke som uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G1-218": {
+      "title": "Stipsommen tot 10",
+      "instruction": "Reken uit je hoofd uit welk getal op de lege plek hoort. Schrijf het in het vakje."
+    },
+    "G1-219": {
+      "title": "Rekenhuisjes tot 10",
+      "instruction": "Gebruik de drie getallen op het dak. Maak de vier sommen eronder af."
+    },
+    "G1-220": {
+      "title": "Rekenhuisjes tot 20",
+      "instruction": "Gebruik de drie getallen op het dak. Maak de vier sommen eronder af."
+    },
+    "G1-221": {
+      "title": "Rekenhuisjes tot 10: extra oefenen",
+      "instruction": "Gebruik de drie getallen op het dak. Maak de vier sommen eronder af."
+    },
+    "G1-222": {
+      "title": "Rekenhuisjes met stipsommen",
+      "instruction": "Gebruik de drie getallen op het dak. Schrijf in elke som het getal dat mist."
+    },
+    "G1-223": {
+      "title": "Getallen in woorden tot 20",
+      "instruction": "Lees het getal in het vakje. Omcirkel het woord dat erbij hoort."
+    },
+    "G1-224": {
+      "title": "Tientallen in woorden: 10 tot 100",
+      "instruction": "Lees het getal in het vakje. Omcirkel het woord dat erbij hoort."
+    },
+    "G1-225": {
+      "title": "Verbind getal en woord",
+      "instruction": "Trek een lijn van elk getal naar het woord dat erbij hoort."
+    },
+    "G1-226": {
+      "title": "Getallen in woorden tot 50",
+      "instruction": "Lees het getal in het vakje. Omcirkel het woord dat erbij hoort."
+    },
+    "G1-227": {
+      "title": "Schrijf het getal in woorden",
+      "instruction": "Zoek het goede woord in de woordenlijst bovenaan. Schrijf het op de lijn."
+    },
+    "G1-228": {
+      "title": "Munten tellen: eerste stapjes",
+      "instruction": "Tel de munten in elke portemonnee. Schrijf het totaal in het vakje."
+    },
+    "G1-229": {
+      "title": "Alle euromunten tellen",
+      "instruction": "Tel de munten in elke portemonnee. Schrijf het totaal in het vakje."
+    },
+    "G1-230": {
+      "title": "Geld tellen: extra oefenen",
+      "instruction": "Tel de munten in elke portemonnee. Schrijf het totaal in het vakje."
+    },
+    "G1-231": {
+      "title": "Tellen met centen",
+      "instruction": "Tel de munten in elke portemonnee. Schrijf het totaal in het vakje."
+    },
+    "G1-232": {
+      "title": "Welke portemonnee heeft meer geld?",
+      "instruction": "Tel het geld in beide portemonnees. Omcirkel de portemonnee met het meeste geld."
+    },
+    "G1-233": {
+      "title": "Wijzers tekenen: hele uren",
+      "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."
+    },
+    "G1-234": {
+      "title": "Wijzers tekenen: halve uren",
+      "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."
+    },
+    "G1-235": {
+      "title": "Wijzers tekenen: kwart over en kwart voor",
+      "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."
+    },
+    "G1-236": {
+      "title": "Wijzers tekenen: per vijf minuten",
+      "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."
+    },
+    "G1-237": {
+      "title": "Wijzers tekenen: alles door elkaar",
+      "instruction": "Lees de tijd onder de klok. Teken de kleine wijzer en de grote wijzer."
+    },
+    "G1-238": {
+      "title": "Verhaaltjessommen: optellen",
+      "instruction": "Lees elk verhaaltje. De plaatjes helpen je. Schrijf het antwoord in het vakje."
+    },
+    "G1-239": {
+      "title": "Verhaaltjessommen: aftrekken",
+      "instruction": "Lees elk verhaaltje. De plaatjes helpen je. Schrijf het antwoord in het vakje."
+    },
+    "G1-240": {
+      "title": "Verhaaltjessommen tot 10",
+      "instruction": "Lees elk verhaaltje. De plaatjes helpen je. Schrijf het antwoord in het vakje."
+    },
+    "G1-241": {
+      "title": "Drie verhaaltjessommen",
+      "instruction": "Lees elk verhaaltje. De plaatjes helpen je. Schrijf het antwoord in het vakje."
+    },
+    "G2-255": {
+      "title": "Optellen onder elkaar tot 100",
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    },
+    "G2-256": {
+      "title": "Aftrekken onder elkaar tot 100",
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    },
+    "G2-257": {
+      "title": "Sommen onder elkaar tot 1000",
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    },
+    "G2-258": {
+      "title": "Optellen onder elkaar tot 1000",
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    },
+    "G2-259": {
+      "title": "Onder elkaar rekenen: herhaling",
+      "instruction": "Reken elke som kolom voor kolom uit: eerst de eenheden, dan de tientallen."
+    },
+    "G2-260": {
+      "title": "Maatbekers aflezen",
+      "instruction": "Lees de schaal op elke maatbeker af. Schrijf op hoeveel milliliter erin zit."
+    },
+    "G2-261": {
+      "title": "Weegschalen aflezen in grammen",
+      "instruction": "Kijk naar de gewichten op elke weegschaal. Schrijf op hoeveel gram het voorwerp weegt."
+    },
+    "G2-262": {
+      "title": "Aflezen met kleine stapjes",
+      "instruction": "Lees elke maatbeker en weegschaal af. Schrijf het antwoord op met de juiste eenheid."
+    },
+    "G2-263": {
+      "title": "Maatbekers tot 2000 ml",
+      "instruction": "Lees de schaal op elke maatbeker af. Schrijf op hoeveel milliliter erin zit."
+    },
+    "G2-264": {
+      "title": "Makkelijke spiegeltekeningen",
+      "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    },
+    "G2-265": {
+      "title": "Moeilijke spiegeltekeningen",
+      "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    },
+    "G2-266": {
+      "title": "Spiegelen: hart en vlinder",
+      "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    },
+    "G2-267": {
+      "title": "Spiegelen: huis en kroon",
+      "instruction": "Elk plaatje is half af. Kleur de vakjes aan de andere kant van de spiegellijn precies na."
+    },
+    "G2-268": {
+      "title": "Spiegelen onder de lijn",
+      "instruction": "Elk plaatje is half af. Kleur de vakjes onder de spiegellijn precies na."
+    },
+    "G2-269": {
+      "title": "Begrijpend lezen: de rode vlieger",
+      "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."
+    },
+    "G2-270": {
+      "title": "Begrijpend lezen: de egel in de tuin",
+      "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."
+    },
+    "G2-271": {
+      "title": "Begrijpend lezen: de klassenvis",
+      "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."
+    },
+    "G2-272": {
+      "title": "Begrijpend lezen: Noor leert fietsen",
+      "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."
+    },
+    "G2-273": {
+      "title": "Begrijpend lezen: de bibliotheekbus",
+      "instruction": "Lees het verhaaltje goed. Omcirkel daarna bij elke vraag het beste antwoord."
+    },
+    "G3-359": {
+      "title": "Optellen met onthouden",
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    },
+    "G3-360": {
+      "title": "Aftrekken met lenen",
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    },
+    "G3-361": {
+      "title": "Optellen met onthouden tot 1000",
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    },
+    "G3-362": {
+      "title": "Lenen over de nul",
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    },
+    "G3-363": {
+      "title": "Onthouden en lenen: herhaling",
+      "instruction": "Reken elke som kolom voor kolom uit. Onthoud of leen als dat nodig is."
+    },
+    "G3-364": {
+      "title": "De tafel van 2",
+      "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G3-365": {
+      "title": "De tafel van 5",
+      "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G3-366": {
+      "title": "De tafel van 10",
+      "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G3-367": {
+      "title": "De tafel van 3",
+      "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G3-368": {
+      "title": "De tafel van 4",
+      "instruction": "Reken elke keersom uit je hoofd uit. Schrijf het antwoord in het vakje."
+    },
+    "G3-369": {
+      "title": "Rekenhuisjes: keer en delen",
+      "instruction": "Gebruik de drie getallen op het dak. Maak de twee keersommen en de twee deelsommen af."
+    }
+  },
+  "sightWordsAppend": [
+    "ja",
+    "nee",
+    "met",
+    "naar",
+    "hij",
+    "wij",
+    "ook",
+    "maar",
+    "dan",
+    "kijk",
+    "gaat",
+    "was"
+  ],
+  "figureNamesNew": {
+    "tulip": "tulp",
+    "sailboat": "zeilboot",
+    "sun": "zon",
+    "crab": "krab",
+    "cactus": "cactus",
+    "ladybug": "lieveheersbeestje",
+    "owl": "uil",
+    "umbrella": "paraplu"
+  },
+  "readingPassagesAppend": [
+    {
+      "id": "nl-de-rode-vlieger",
+      "title": "De rode vlieger",
+      "text": "Sam laat zijn rode vlieger op in het park. De wind waait hard en de vlieger klimt hoog boven de bomen. Mama houdt het touw vast als Sam moe wordt.",
+      "questions": [
+        {
+          "q": "Welke kleur heeft de vlieger van Sam?",
+          "choices": ["Blauw", "Rood", "Geel"],
+          "correct": 1
+        },
+        {
+          "q": "Waar laat Sam zijn vlieger op?",
+          "choices": ["In het park", "Op het strand", "In de tuin"],
+          "correct": 0
+        },
+        {
+          "q": "Waarom houdt mama het touw vast?",
+          "choices": ["Omdat de vlieger kapot is", "Omdat het regent", "Omdat Sam moe wordt"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "nl-bram-en-de-egel",
+      "title": "Bram en de egel",
+      "text": "Op een avond ziet Bram iets ritselen in de tuin. Tussen de bladeren zit een kleine egel met scherpe stekels. Bram haalt papa erbij en samen zetten ze een schaaltje water neer. De egel drinkt en schuifelt dan de heg in.",
+      "questions": [
+        {
+          "q": "Wat zit er tussen de bladeren?",
+          "choices": ["Een muis", "Een egel", "Een vogel"],
+          "correct": 1
+        },
+        {
+          "q": "Wat zetten Bram en papa neer?",
+          "choices": ["Een schaaltje water", "Een bordje brood", "Een lampje"],
+          "correct": 0
+        },
+        {
+          "q": "Hoe weet je dat de egel dorst had?",
+          "choices": ["Hij drinkt van het water", "Hij kruipt in de heg", "Hij ritselt in de bladeren"],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "nl-de-klassenvis",
+      "title": "De klassenvis",
+      "text": "In groep 4 staat een aquarium naast het raam. Daarin zwemt Bubbel, de goudvis van de klas. Elke week mag een ander kind Bubbel eten geven. Deze week is Fien aan de beurt. Ze strooit elke ochtend een klein beetje visvoer in het water. Bubbel zwemt dan snel naar boven en hapt de vlokjes op.",
+      "questions": [
+        {
+          "q": "Hoe heet de vis van de klas?",
+          "choices": ["Bubbel", "Goudje", "Flip"],
+          "correct": 0
+        },
+        {
+          "q": "Wie mag deze week eten geven?",
+          "choices": ["Bram", "Fien", "De juf"],
+          "correct": 1
+        },
+        {
+          "q": "Hoe weet je dat Bubbel het voer lekker vindt?",
+          "choices": ["Hij zwemt snel naar boven en hapt", "Hij verstopt zich achter een plant", "Hij zwemt naar de bodem"],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "nl-noor-leert-fietsen",
+      "title": "Noor leert fietsen",
+      "text": "Noor heeft een nieuwe fiets gekregen, maar de zijwieltjes zijn eraf. Op zaterdag oefent ze met mama op het plein achter het huis. Eerst gaat het wiebelig en zet Noor steeds haar voeten op de grond. Mama houdt het zadel vast en rent mee. Dan laat mama stiekem los. Noor fietst helemaal alleen naar de bank en weer terug! Ze krijgt een high five en straalt van trots.",
+      "questions": [
+        {
+          "q": "Waar oefent Noor het fietsen?",
+          "choices": ["Op het plein achter het huis", "In de speeltuin", "Op het schoolplein"],
+          "correct": 0
+        },
+        {
+          "q": "Wat houdt mama eerst vast?",
+          "choices": ["Het stuur", "Het zadel", "De bel"],
+          "correct": 1
+        },
+        {
+          "q": "Hoe voelt Noor zich aan het einde?",
+          "choices": ["Boos en moe", "Bang en verdrietig", "Trots en blij"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "nl-de-bibliotheekbus",
+      "title": "De bibliotheekbus",
+      "text": "Elke woensdag komt er een bijzondere bus naar het dorp van Ties. Het is de bibliotheekbus, een rijdende bibliotheek vol boeken. Ties staat altijd vooraan te wachten met zijn tas. Vandaag zoekt hij een boek over ridders, want daar weet hij al heel veel van. De meneer van de bus wijst hem een plank helemaal achterin. Daar vindt Ties een dik boek met een gouden kasteel op de kaft. Hij mag het drie weken houden. Op de terugweg naar huis kan hij niet wachten om te beginnen met lezen.",
+      "questions": [
+        {
+          "q": "Op welke dag komt de bibliotheekbus?",
+          "choices": ["Op maandag", "Op woensdag", "Op zaterdag"],
+          "correct": 1
+        },
+        {
+          "q": "Waarover zoekt Ties een boek?",
+          "choices": ["Over ridders", "Over dieren", "Over de ruimte"],
+          "correct": 0
+        },
+        {
+          "q": "Hoe weet je dat Ties veel zin heeft in het boek?",
+          "choices": ["Hij kan niet wachten om te lezen", "Hij geeft het boek meteen terug", "Hij laat zijn tas thuis"],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "audits": {
+    "multiplicationSign": "×",
+    "divisionSign": ":",
+    "notes": "Nederlands basisonderwijs: keerteken is × (nooit ·), deelteken is : (÷ wordt op de basisschool niet gebruikt) — G3-369 moet dus a × b en p : a tonen. Register geharmoniseerd met de basistypes: splitsen (K-243-familie), rekenhuisjes (G1-209), hoofdrekenen, sommen onder elkaar, onthouden/lenen (G3-357-familie), 'de tafel van N' (G3-358-familie). Missing-number sommen heten in Nederland 'stipsommen' (☐+3=8) — dat keyword is bewust in de titels gezet (G1-215/218/222). K-257 toont het digraaf IJ + G H K L M — de EN-titel 'Trace the Vowels' klopt hier dus niet; nl-titel benoemt de IJ expliciet. Klok: hele uren / halve uren / kwart over en kwart voor. Munten = euromunten; G1-231 gebruikt de twee kleinste soorten (1 en 2 cent) → 'Tellen met centen'. G3-362 (302−158) = 'Lenen over de nul'. Flitswoorden worden als 'lijst N' genummerd. Alle titels ≤45 tekens, geen 'werkblad' (engine plakt dat erachter), uniek per band."
+  }
+}

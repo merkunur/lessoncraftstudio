@@ -7,9 +7,8 @@
  * d1: 3 words, large · d2: 4 words · d3: 5 words.
  */
 'use strict';
-const { glyphLane, writingRow } = require('../../primitives/trace-path.js');
+const { strokeWordLane, writingRow } = require('../../primitives/trace-path.js');
 const { SIGHT_WORDS } = require('../../data/literacy/sight-words.js');
-const tokens = require('../../primitives/_tokens.js');
 
 module.exports = {
   id: 'K-239',
@@ -57,8 +56,9 @@ module.exports = {
     }
     const laneW = 660;
     const lanes = words.map((word) => {
-      const lane = glyphLane({ text: word, w: laneW, h: d.traceH, glyphH: d.glyphH, reps: d.reps, font: tokens.font.body });
-      const wr = writingRow({ w: laneW, h: d.writeH, glyphH: d.glyphH });
+      const lane = strokeWordLane({ text: word, w: laneW, h: d.traceH, glyphH: d.glyphH, reps: d.reps });
+      // xHeight: rule the empty row exactly like the trace lane above it
+      const wr = writingRow({ w: laneW, h: d.writeH, glyphH: d.glyphH, xHeight: true });
       return (
         `<div class="ws-trace-lane" style="display:flex;flex-direction:column;align-items:center;gap:2px" data-lcs-word="${word}">` +
         lane.svg + wr.svg + `</div>`
@@ -81,15 +81,34 @@ module.exports = {
         if (seen.has(word)) fails.push(`lane ${i + 1}: duplicate word`);
         seen.add(word);
         if (!/^[\p{Ll}\p{Lu}]{1,10}$/u.test(word)) fails.push(`lane ${i + 1}: suspicious word "${word}"`);
-        const svg = lane.querySelector('[data-lcs-prim="trace-glyph"]');
+        const svg = lane.querySelector('[data-lcs-prim="trace-word"]');
         if (!svg) { fails.push(`lane ${i + 1}: no trace svg`); return; }
-        const texts = [...svg.querySelectorAll('text')];
-        if (!texts.length) { fails.push(`lane ${i + 1}: no word rendered`); return; }
-        if (texts[0].getAttribute('fill') === 'none') fails.push(`lane ${i + 1}: model not solid`);
-        texts.slice(1).forEach((t) => {
-          if (t.getAttribute('fill') !== 'none') fails.push(`lane ${i + 1}: trace rep not hollow`);
+        // the word is CENTRELINE strokes, one dashed line per pen stroke —
+        // never a stroked font outline (which drew two contours per stem)
+        if (svg.querySelectorAll('text').length) fails.push(`lane ${i + 1}: word rendered as <text>, not strokes`);
+        if (+svg.dataset.lcsLetters !== [...word].length) {
+          fails.push(`lane ${i + 1}: ${svg.dataset.lcsLetters} letters, want ${[...word].length}`);
+        }
+        const reps = +svg.dataset.lcsReps;
+        const perRep = +svg.dataset.lcsStrokes;
+        const groups = [...svg.querySelectorAll(':scope > g')];
+        if (groups.length !== reps) fails.push(`lane ${i + 1}: ${groups.length} reps, want ${reps}`);
+        groups.forEach((g, j) => {
+          const paths = [...g.querySelectorAll('path')];
+          if (paths.length !== perRep) fails.push(`lane ${i + 1} rep ${j + 1}: ${paths.length} strokes, want ${perRep}`);
+          paths.forEach((p) => {
+            if (p.getAttribute('fill') !== 'none') fails.push(`lane ${i + 1} rep ${j + 1}: stroke is filled`);
+            const dashed = !!p.getAttribute('stroke-dasharray');
+            if (j === 0 && dashed) fails.push(`lane ${i + 1}: model is dashed, not solid`);
+            if (j > 0 && !dashed) fails.push(`lane ${i + 1} rep ${j + 1}: not dashed`);
+          });
         });
-        texts.forEach((t) => { if (t.textContent !== word) fails.push(`lane ${i + 1}: text != word`); });
+        // a word lane carries NO stroke guides — a dot per letter is clutter,
+        // and the instruction promises reading and tracing, not stroke order
+        if (svg.querySelectorAll('circle, polygon').length) {
+          fails.push(`lane ${i + 1}: word lane must carry no start dots or arrows`);
+        }
+        if (svg.querySelectorAll('line').length < 3) fails.push(`lane ${i + 1}: missing school lines`);
         // the independent-writing row must exist and be empty
         if (!lane.querySelector('[data-lcs-prim="writing-row"]')) fails.push(`lane ${i + 1}: no writing row`);
       });

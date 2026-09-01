@@ -16,6 +16,7 @@
 'use strict';
 const tokens = require('./_tokens.js');
 const { el, svgRoot, line } = require('./_svg.js');
+const letterStrokes = require('../data/tracing/letter-strokes.js');
 
 const DASH = '7 5';
 const MIN_TRACE_W = 2.5;
@@ -237,9 +238,13 @@ function strokeLane({ stroke, w, h, reps = 4, amp, n }) {
  * Drawn INSIDE a glyph area of height h: topline at yTop, midline halfway,
  * baseline at yBase. Descender space below baseline is the caller's concern.
  * ------------------------------------------------------------------ */
-function schoolLines({ w, yTop, yBase, strokeColor }) {
+function schoolLines({ w, yTop, yBase, strokeColor, yMid: yMidIn }) {
   const c = strokeColor || tokens.color.grid;
-  const yMid = (yTop + yBase) / 2;
+  // The dotted midline is the X-HEIGHT line, which is only the arithmetic
+  // midpoint by coincidence. Digits and pre-writing strokes have no x-height
+  // and keep the midpoint; letter/word lanes pass the real one, or every
+  // lowercase word floats off its own guide (letter-strokes.js METRICS.xTop).
+  const yMid = yMidIn != null ? yMidIn : (yTop + yBase) / 2;
   return [
     line({ x1: 0, y1: yTop, x2: w, y2: yTop, strokeColor: c, strokeWidth: 1.5 }),
     line({ x1: 0, y1: yMid, x2: w, y2: yMid, strokeColor: c, strokeWidth: 1, dash: '3 5' }),
@@ -390,13 +395,258 @@ function strokeGlyphPairLane({ tens, ones, box, w, h, glyphH, reps = 4, label: l
   };
 }
 
-/** An empty school-lines writing row (the "now write it yourself" lane). */
-function writingRow({ w, h, glyphH }) {
-  const yBase = h * 0.82;
-  const yTop = yBase - glyphH;
+/* ------------------------------------------------------------------ *
+ * Letter + word tracing on hand-authored CENTRELINE letterforms.
+ *
+ * These supersede glyphLane (above), which stroked a filled font's OUTLINE and
+ * therefore painted two dashed contours per stem. Here a letter is the same
+ * kind of object a digit already is: ordered single strokes, so one dashed line
+ * per stroke, and a start point + direction that actually exist.
+ *
+ * Vertical placement is by BASELINE, not by box. strokeGlyphLane's
+ * `scale = glyphH / box.h` works only because the digit box is essentially all
+ * glyph; the letter box is 0..100 with the cap band at 16..84, so that mapping
+ * would float every letter off the school lines. The ink band also runs wider
+ * than the cap band in both directions — accents reach y=2 (the d3 "specials"
+ * page is entirely accented capitals, so this is the common case) and Q's tail
+ * reaches 92 — so the scale is additionally capped to whatever the lane can
+ * actually hold, shrinking slightly rather than clipping.
+ * ------------------------------------------------------------------ */
+
+const LM = letterStrokes.METRICS;
+const LANE_PAD = 6;
+
+/**
+ * Shared geometry for a centreline text lane.
+ * `inkTop`/`inkBottom` are the glyph-unit extremes the lane must hold;
+ * `heightUnits` is what the caller's `glyphH` measures (cap height for
+ * capitals, ascender-to-baseline for lowercase words).
+ */
+function textLaneGeometry({ h, glyphH, heightUnits, inkTop, inkBottom }) {
+  const span = inkBottom - inkTop;
+  const scale = Math.min(glyphH / heightUnits, (h - LANE_PAD) / span);
+  const top = (h - span * scale) / 2;          // centre the ink band in the lane
+  const yBase = top + (LM.base - inkTop) * scale;
+  return { scale, yBase };
+}
+
+const BADGE_R = 8;
+
+/**
+ * Find a spot for a stroke-order badge that does not sit on one already placed.
+ * Letters make coincident stroke starts the RULE, not the exception — A's two
+ * legs, and the stem-then-bowl of B D P R, all begin at the same point — so a
+ * fixed offset buries badge 1 under badge 2 and the child is told to start at
+ * stroke 2. Search outward from the left of the stroke's own direction.
+ */
+function placeBadge(x, y, angleDeg, placed) {
+  for (const r of [22, 36]) {
+    for (let k = 0; k < 12; k++) {
+      const a = (angleDeg - 90 + k * 30) * Math.PI / 180;
+      const bx = x + Math.cos(a) * r, by = y + Math.sin(a) * r;
+      if (!placed.some((p) => Math.hypot(p.x - bx, p.y - by) < BADGE_R * 2 + 3)) return { x: bx, y: by };
+    }
+  }
+  return { x, y: y - 22 };
+}
+
+/**
+ * Emit one repetition of `items` (from letterStrokes.textGlyphs) at x0.
+ *
+ * The GUIDES (start dot, arrowhead, stroke-order badge) are drawn in DISPLAY
+ * coordinates, outside the scaled group, for two reasons. An SVG transform
+ * does not change a font-size ATTRIBUTE, so a badge authored inside the group
+ * carries a 7px attribute at letter scale and trips the 9px font-size floor
+ * (letters scale UP where digits scale DOWN — the only reason the digit lane
+ * never hit this). And placement has to reason about real distances to keep
+ * coincident-start guides apart.
+ *
+ * @returns {{ rep: string, guides: string }}
+ */
+function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges }) {
+  const inv = 1 / scale;
+  const ty = yBase - LM.base * scale;
+  const dotR = badges ? 5 : 4;
+  const arrowSz = badges ? 9 : 6.5;
+  const arrowD = badges ? 18 : 12;
+  const guideParts = [];
+  const dots = [];        // display-space start points already marked
+  const placedBadges = [];
+  const inner = items.map((it) => {
+    const glyph = it.strokes.map((s, si) => {
+      const m = s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
+      const sx = parseFloat(m[1]), sy = parseFloat(m[2]);
+      const g = renderPath({
+        d: s.d, mode: isModel ? 'model' : 'trace', strokeW: 3.4 * inv,
+        dot: false, arrow: false, dashScale: inv,
+      });
+      // An accent mark gets no guides: the coral dot is wider than an umlaut
+      // tick, and its arrow would be thrown onto the letter body below.
+      if (showGuides && !s.mark) {
+        const dx = x0 + (it.x + sx) * scale;
+        const dy = ty + sy * scale;
+        // ONE dot per distinct start point — two strokes that genuinely begin
+        // together (A's legs) share one dot rather than stacking two
+        const shared = dots.filter((p) => Math.hypot(p.x - dx, p.y - dy) < 2);
+        if (!shared.length) {
+          guideParts.push(el('circle', { cx: dx.toFixed(1), cy: dy.toFixed(1), r: dotR, fill: tokens.color.coral }));
+        }
+        dots.push({ x: dx, y: dy });
+        // arrows fan OUT along their own direction when they share a start,
+        // so two directions from one point read as two arrows, not a butterfly
+        const a = s.angle * Math.PI / 180;
+        const d = arrowD + shared.length * (arrowSz + 4);
+        guideParts.push(arrowHead({
+          x: dx + Math.cos(a) * d, y: dy + Math.sin(a) * d, angleDeg: s.angle, size: arrowSz,
+        }));
+        if (badges) {
+          const b = placeBadge(dx, dy, s.angle, placedBadges);
+          placedBadges.push(b);
+          guideParts.push(el('circle', {
+            cx: b.x.toFixed(1), cy: b.y.toFixed(1), r: BADGE_R,
+            fill: tokens.color.white, stroke: tokens.color.coral, 'stroke-width': 1.5,
+          }));
+          guideParts.push(el('text', {
+            x: b.x.toFixed(1), y: b.y.toFixed(1),
+            'font-family': tokens.font.display, 'font-size': 11,
+            'font-weight': 700, fill: tokens.color.coral, 'text-anchor': 'middle',
+            'dominant-baseline': 'central',
+          }, String(si + 1)));
+        }
+      }
+      return g;
+    }).join('');
+    return el('g', { transform: `translate(${it.x.toFixed(2)} 0)` }, glyph);
+  }).join('');
+  return {
+    rep: el('g', { transform: `translate(${x0.toFixed(1)} ${ty.toFixed(1)}) scale(${scale.toFixed(4)})` }, inner),
+    guides: guideParts.join(''),
+  };
+}
+
+/**
+ * A capital-letter tracing lane: one solid teal centreline model, then dashed
+ * repetitions. The FIRST dashed repetition carries the coral start dot +
+ * arrowhead per stroke, and stroke-order badges on the large lane — the same
+ * guide contract number tracing ships, which the instruction now promises.
+ * `text` may be a digraph (nl "IJ"); it is laid out by advance width.
+ * { text, w, h, glyphH, reps, emptyLast } -> { svg }
+ */
+function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, label: lbl }) {
+  let { items, width } = letterStrokes.textGlyphs(text);
+  // A single letter is centred on its DESIGNED box, not on its ink. The source
+  // table draws every glyph around x=50 with its side bearings already built
+  // in, and several letters are deliberately asymmetric inside it — C's arc
+  // stops at x=61.5 (a 60-degree opening), Q's tail runs out to x=80. Centring
+  // those on ink would shove C left of A B D E F in the very same lane.
+  if (items.length === 1) {
+    items = [{ ...items[0], x: 0 }];
+    width = letterStrokes.BOX.w;
+  }
+  const { scale, yBase } = textLaneGeometry({
+    h, glyphH, heightUnits: LM.base - LM.capTop,
+    inkTop: LM.capMarkTop, inkBottom: LM.desc,
+  });
+  const yTop = yBase - (LM.base - LM.capTop) * scale;
+  const yMid = yBase - (LM.base - LM.capMid) * scale;
+  const badges = glyphH >= 80;
+  const parts = [schoolLines({ w, yTop, yBase, yMid })];
+  const guideParts = [];
+  const segW = w / reps;
+  const gW = width * scale;
+  for (let i = 0; i < reps; i++) {
+    // emptyLast: the final slot stays BLANK — the "try one on your own" spot
+    if (emptyLast && i === reps - 1) continue;
+    const r = renderTextRep({
+      items, x0: (i + 0.5) * segW - gW / 2, yBase, scale,
+      isModel: i === 0, showGuides: i === 1, badges,
+    });
+    parts.push(r.rep);
+    if (r.guides) guideParts.push(r.guides);
+  }
+  // guides last so dots, arrows and badges sit above the strokes, and outside
+  // every rep group so the rep count stays `:scope > g`
+  parts.push(guideParts.join(''));
+  const strokeCount = items.reduce((n, it) => n + it.strokes.length, 0);
+  return {
+    svg: svgRoot({ width: w, height: h, label: lbl || `trace letter ${text}` }, parts.join(''),
+      { 'data-lcs-prim': 'trace-letter', 'data-lcs-text': text,
+        'data-lcs-reps': emptyLast ? reps - 1 : reps,
+        'data-lcs-strokes': strokeCount,
+        ...(emptyLast ? { 'data-lcs-empty-slot': '1' } : {}) }),
+    width: w, height: h,
+  };
+}
+
+/**
+ * A whole-word tracing lane: solid teal centreline model, then dashed
+ * repetitions, laid out letter by letter on shared school lines with the
+ * dotted midline on the real x-height. NO start dots or arrows — a dot per
+ * letter of a six-letter word is six coral spots, and the sight-word
+ * instruction promises reading and tracing, not stroke order.
+ * { text, w, h, glyphH, reps } -> { svg }
+ */
+function strokeWordLane({ text, w, h, glyphH, reps = 2, label: lbl }) {
+  const { items, width } = letterStrokes.textGlyphs(text);
+  const segW = w / reps;
+  let { scale, yBase } = textLaneGeometry({
+    h, glyphH, heightUnits: LM.base - LM.ascender,
+    inkTop: LM.ascender, inkBottom: LM.desc,
+  });
+  // a long word in a narrow slot shrinks to fit rather than running over its
+  // neighbour (fi/pt carry the longest sight words)
+  const maxW = segW - 16;
+  if (width * scale > maxW) scale = maxW / width;
+  const yTop = yBase - (LM.base - LM.ascender) * scale;
+  const yMid = yBase - (LM.base - LM.xTop) * scale;
+  const parts = [schoolLines({ w, yTop, yBase, yMid })];
+  const gW = width * scale;
+  for (let i = 0; i < reps; i++) {
+    parts.push(renderTextRep({
+      items, x0: (i + 0.5) * segW - gW / 2, yBase, scale,
+      isModel: i === 0, showGuides: false, badges: false,
+    }).rep);
+  }
+  const strokeCount = items.reduce((n, it) => n + it.strokes.length, 0);
+  return {
+    svg: svgRoot({ width: w, height: h, label: lbl || `trace word ${text}` }, parts.join(''),
+      { 'data-lcs-prim': 'trace-word', 'data-lcs-text': text,
+        'data-lcs-reps': reps, 'data-lcs-strokes': strokeCount,
+        'data-lcs-letters': items.length }),
+    width: w, height: h,
+  };
+}
+
+/**
+ * An empty school-lines writing row (the "now write it yourself" lane).
+ * `xHeight: true` rules it like a strokeWordLane — dotted line on the real
+ * x-height rather than the arithmetic midpoint. K-239 stacks this row directly
+ * under a word lane, so without it the child gets two differently-ruled line
+ * sets a couple of pixels apart.
+ */
+function writingRow({ w, h, glyphH, xHeight = false }) {
+  let yBase = h * 0.82;
+  let yTop = yBase - glyphH;
+  let yMid;
+  if (xHeight) {
+    // Rule the row exactly like strokeWordLane, by the same geometry, so the
+    // two stacked line sets agree instead of sitting a few pixels apart.
+    // This also restores the TOPLINE, which the flat `yBase - glyphH` loses:
+    // K-239 passes writeH 66 with glyphH 64, so yTop lands at -9.9 and the
+    // ascender guide is clipped off the top of the row. The child has been
+    // asked to write on a two-line rule with no height to aim for.
+    const g = textLaneGeometry({
+      h, glyphH, heightUnits: LM.base - LM.ascender,
+      inkTop: LM.ascender, inkBottom: LM.desc,
+    });
+    const span = (LM.base - LM.ascender) * g.scale;
+    yBase = g.yBase;
+    yTop = yBase - span;
+    yMid = yBase - (LM.base - LM.xTop) * g.scale;
+  }
   return {
     svg: svgRoot({ width: w, height: h, label: 'writing lines' },
-      schoolLines({ w, yTop, yBase }), { 'data-lcs-prim': 'writing-row' }),
+      schoolLines({ w, yTop, yBase, yMid }), { 'data-lcs-prim': 'writing-row' }),
     width: w, height: h,
   };
 }
@@ -405,4 +655,5 @@ function escText(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, writingRow, schoolLines, renderPath, arrowHead };
+module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane,
+  strokeLetterLane, strokeWordLane, writingRow, schoolLines, renderPath, arrowHead };

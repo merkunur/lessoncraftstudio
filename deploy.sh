@@ -258,6 +258,15 @@ node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ER
 echo "🔎 Activity route + thumbnail check..."
 node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
 
+# Letter/word tracing glyph set. Browser-free, pure geometry. Guards the defect
+# class the whole dataset exists to kill — a traced letter drawn as a stroked
+# FONT OUTLINE, i.e. two parallel dashed contours per stem instead of one
+# centreline. Also guards coverage (a locale's own capital resolving to nothing)
+# and the refuse-don't-guess contract (an unknown glyph must throw, never fall
+# back to printing some other letter). Every check is poison-tested both ways.
+echo "🔎 Letter-tracing glyph check..."
+node /opt/lessoncraftstudio/scripts/verify-letter-strokes.js || { echo "ERROR: the letter tracing glyph set is broken — see scripts/worksheet-gen/data/tracing/letter-strokes.js"; exit 1; }
+
 # Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
 # digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE
 # shorthand: the size and the weight go down with the family. Measured in a browser:

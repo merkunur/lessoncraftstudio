@@ -283,7 +283,15 @@ const FIGURE_NAMES = {
     "apple": "omena",
     "diamond": "vinoneliö",
     "ice-cream": "jäätelö",
-    "snowman": "lumiukko"
+    "snowman": "lumiukko",
+    "tulip": "tulppaani",
+    "sailboat": "purjevene",
+    "sun": "aurinko",
+    "crab": "rapu",
+    "cactus": "kaktus",
+    "ladybug": "leppäkerttu",
+    "owl": "pöllö",
+    "umbrella": "sateenvarjo"
   }
 };
 

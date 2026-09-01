@@ -2579,6 +2579,7 @@
     },
     "tileCta": "Voir les fiches",
     "newHeading": "Nouvelles fiches",
+    "moreTypesHeading": "Plus de types d'exercices",
     "tileAlt": "Exemple de fiche : {typeName}",
     "emptyTitle": "Aucune fiche disponible dans cette langue pour le moment.",
     "emptyBody": "Notre catalogue s'étend langue par langue. Reviens bientôt ou parcours une autre langue.",

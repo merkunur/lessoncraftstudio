@@ -2563,6 +2563,7 @@
     },
     "tileCta": "Se oppgavene",
     "newHeading": "Nye oppgaveark",
+    "moreTypesHeading": "Flere oppgavetyper",
     "tileAlt": "Eksempel på oppgave: {typeName}",
     "emptyTitle": "Ingen oppgaver tilgjengelig på dette språket ennå.",
     "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk.",

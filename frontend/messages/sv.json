@@ -2559,6 +2559,7 @@
     },
     "tileCta": "Se arbetsbladen",
     "newHeading": "Nya arbetsblad",
+    "moreTypesHeading": "Fler övningstyper",
     "tileAlt": "Arbetsbladsexempel: {typeName}",
     "emptyTitle": "Inga arbetsblad tillgängliga på det här språket ännu.",
     "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk.",

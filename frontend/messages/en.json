@@ -4074,6 +4074,7 @@
       "safer": "Pick a worksheet type to see every available worksheet — interactive HTML to play in the browser plus a printable PDF for every set."
     },
     "tileCta": "View worksheets",
+    "newHeading": "New worksheets",
     "tileAlt": "{typeName} worksheet sample",
     "emptyTitle": "No worksheets available in this language yet.",
     "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language.",

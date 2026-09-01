@@ -44,6 +44,7 @@ import {
 } from '@/components/catalog/CatalogFilters';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
+import { NEW_WORKSHEET_LANDINGS } from '@/config/worksheets-new-highlights';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -306,6 +307,19 @@ export default async function AllWorksheetsPage({
   const page = filters.page;
   const pageItems = filtered.slice((page - 1) * WORKSHEETS_PAGE_SIZE, page * WORKSHEETS_PAGE_SIZE);
 
+  // "New worksheets" strip — bare hub state only (page 1, no filters, default
+  // sort). The variety grid orders type buckets by SIZE, so a fresh batch of
+  // single-landing families lands on pages 2-3 and is invisible on the first
+  // screen; this strip surfaces the newest batch above the main grid. Slugs
+  // that no longer exist in the corpus are dropped silently (config is a
+  // highlight list, not a contract).
+  const newHighlights =
+    !browseActive && page === 1 && filters.sort === 'variety'
+      ? (NEW_WORKSHEET_LANDINGS[locale] || [])
+          .map((s) => allLandings.find((l) => l.slug === s))
+          .filter((l): l is NonNullable<typeof l> => Boolean(l))
+      : [];
+
   // Active-filter chips + clear-all.
   const removeHref = (key: string) => {
     const next = withoutParam(new URLSearchParams(spString), key);
@@ -427,6 +441,32 @@ export default async function AllWorksheetsPage({
                 <div className="lg:col-span-9">
                   <CatalogMobileFilters heading={tFacets('heading')} groups={facetGroups} basePath={basePath} spString={spString} />
 
+                  {newHighlights.length > 0 && (
+                    <section className="mb-9 md:mb-11" aria-labelledby="new-worksheets-heading">
+                      <h2
+                        id="new-worksheets-heading"
+                        className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4"
+                      >
+                        {t('newHeading')}
+                      </h2>
+                      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+                        {newHighlights.map((l, i) => (
+                          <WorksheetCatalogCard
+                            key={`new-${l.slug}`}
+                            href={localePath(locale, 'worksheets', l.slug)}
+                            thumbnailSrc={wwwImg(deckAssets(locale, l.canonicalDeckSlug).thumbnail)}
+                            title={l.h1}
+                            levelLabel={levelChip(l.coordinate.level, locale)}
+                            typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
+                            subject={worksheetSubject(l.coordinate.type)}
+                            ctaLabel={t('tileCta')}
+                            eager={i < EAGER_CARDS}
+                          />
+                        ))}
+                      </div>
+                    </section>
+                  )}
+
                   <div className="flex items-center justify-between gap-3 flex-wrap mb-5">
                     <p className="font-lcsBody text-sm font-semibold text-lcs-teal/70">
                       {tBrowse('results', { count: total })}
@@ -462,7 +502,7 @@ export default async function AllWorksheetsPage({
                           typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
                           subject={worksheetSubject(l.coordinate.type)}
                           ctaLabel={t('tileCta')}
-                          eager={page === 1 && i < EAGER_CARDS}
+                          eager={page === 1 && newHighlights.length === 0 && i < EAGER_CARDS}
                         />
                       ))}
                     </div>

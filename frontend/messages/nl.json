@@ -2557,6 +2557,7 @@
       "safer": "Kies een werkbladtype om alle beschikbare werkbladen te zien — interactieve HTML om in de browser te spelen plus een afdrukbare PDF voor elke set."
     },
     "tileCta": "Bekijk werkbladen",
+    "newHeading": "Nieuwe werkbladen",
     "tileAlt": "Voorbeeld werkblad: {typeName}",
     "emptyTitle": "Nog geen werkbladen beschikbaar in deze taal.",
     "emptyBody": "Onze catalogus groeit taal per taal. Kom snel terug of blader door een andere taal.",

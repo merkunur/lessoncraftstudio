@@ -2546,6 +2546,7 @@
       "safer": "Valitse tehtävätyyppi nähdäksesi kaikki saatavilla olevat tehtävät — vuorovaikutteinen HTML pelattavaksi selaimessa ja tulostettava PDF jokaisessa sarjassa."
     },
     "tileCta": "Katso tehtävät",
+    "newHeading": "Uudet tehtävät",
     "tileAlt": "Esimerkkitehtävä: {typeName}",
     "emptyTitle": "Tällä kielellä ei ole vielä saatavilla tehtäviä.",
     "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä.",

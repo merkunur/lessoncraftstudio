@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "S'entraîner régulièrement sur les tables de multiplication construit les automatismes qui rendent tous les calculs plus faciles.",
     "short": "Automatise les tables de multiplication."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Repasser les minuscules sur des lignes d'écriture apprend le corps de la lettre, les hampes qui montent et les jambages qui descendent.",
+    "short": "Fixe le tracé des lettres minuscules."
   }
 }

@@ -1,0 +1,20 @@
+{
+  "id": "wave-lc-da",
+  "seedEpoch": 1,
+  "locales": [
+    "da"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-278",
+    "K-279",
+    "K-280",
+    "K-281",
+    "K-282",
+    "K-283"
+  ]
+}

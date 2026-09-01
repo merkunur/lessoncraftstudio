@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "Att träna multiplikationstabellerna om och om igen ger den snabba tabellkunskap som gör svårare matematik lätt.",
     "short": "Tränar multiplikationstabellerna till säkerhet."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Att spåra små bokstäver på skrivlinjer tränar mittenhöjden, staplarna som går upp och svansarna som går under raden.",
+    "short": "Tränar att forma små bokstäver rätt."
   }
 }

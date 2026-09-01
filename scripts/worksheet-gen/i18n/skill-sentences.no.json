@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "Å øve på gangestykker om og om igjen gir den raske gjenkallingen som gjør vanskeligere matematikk mye lettere.",
     "short": "Gir flyt i den lille gangetabellen."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Å spore små bokstaver på skrivelinjer trener mellomhøyden, stavene som går opp, og halene som går under linjen.",
+    "short": "Trener riktig forming av de små bokstavene."
   }
 }

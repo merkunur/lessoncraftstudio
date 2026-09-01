@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "Praticar a tabuada em sequências e desafios misturados constrói a memorização que deixa a matemática muito mais leve.",
     "short": "Fixa a tabuada para o cálculo rápido."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Cobrir letras minúsculas nas linhas de caligrafia ensina o corpo da letra, as hastes que sobem e as caudas que descem abaixo da linha.",
+    "short": "Ensina o traçado das letras minúsculas."
   }
 }

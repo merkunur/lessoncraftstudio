@@ -1406,5 +1406,29 @@
   "G3-369": {
     "title": "Familles de multiplications et divisions",
     "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations : deux multiplications et deux divisions."
+  },
+  "K-278": {
+    "title": "Écriture des lettres minuscules",
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+  },
+  "K-279": {
+    "title": "Écriture des minuscules de g à l",
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+  },
+  "K-280": {
+    "title": "Écriture des minuscules de m à r",
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+  },
+  "K-281": {
+    "title": "Écriture des minuscules de s à z",
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+  },
+  "K-282": {
+    "title": "Écriture des minuscules é, è et ê",
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
+  },
+  "K-283": {
+    "title": "Mes premières minuscules : a b c d",
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches."
   }
 }

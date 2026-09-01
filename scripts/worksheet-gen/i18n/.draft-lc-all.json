@@ -1,0 +1,143 @@
+{
+  "_note": "K-278..K-283 lowercase letter-tracing, 10 non-EN locales. Rebuilt from each locale's OWN established capitals vocabulary (Grossbuchstaben->Kleinbuchstaben, stora->sma, isojen->pienten), not translated from English; the arrow/dot and write-it-yourself clauses are reused verbatim from each locale's own K-238 instruction. Titles name the letters the page ACTUALLY carries, which differs per locale (pt and it slice differently; de carries ss, es n-tilde, nl the ij digraph).",
+  "de": {
+    "taxo": { "slug": "kleinbuchstaben-nachspuren", "name": "Kleinbuchstaben nachspuren" },
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie.",
+    "titles": {
+      "K-278": "Kleinbuchstaben nachspuren",
+      "K-279": "Kleinbuchstaben nachspuren: g bis l",
+      "K-280": "Kleinbuchstaben nachspuren: m bis r",
+      "K-281": "Kleinbuchstaben nachspuren: s bis z",
+      "K-282": "Kleine Umlaute und ß nachspuren",
+      "K-283": "Meine ersten Kleinbuchstaben: a, b, c, d"
+    },
+    "skill": { "full": "Kleinbuchstaben auf Schreiblinien nachzuspuren übt die Mittelhöhe, in der die meisten Buchstaben sitzen, dazu Ober- und Unterlängen.", "short": "Prägt die Formen der Kleinbuchstaben ein." },
+    "topicMeta": "Kleinbuchstaben nachspuren: kleine Buchstaben von a bis z, dazu ä, ö, ü und ß, auf Schreiblinien mit Ober- und Unterlängen. Kostenlose PDFs zum Ausdrucken."
+  },
+  "es": {
+    "taxo": { "slug": "minusculas-punteadas", "name": "Minúsculas punteadas" },
+    "instruction": "Repasa cada letra minúscula con el lápiz. Empieza en el punto naranja y sigue las flechas. Después, escríbela tú en la línea vacía.",
+    "titles": {
+      "K-278": "Letras minúsculas punteadas",
+      "K-279": "Minúsculas punteadas de la g a la l",
+      "K-280": "Minúsculas punteadas de la m a la r",
+      "K-281": "Minúsculas punteadas de la s a la z",
+      "K-282": "La letra ñ minúscula punteada",
+      "K-283": "Mis primeras minúsculas: a b c d"
+    },
+    "skill": { "full": "Repasar las minúsculas sobre pauta enseña la altura media de la letra, los rasgos que suben y los que bajan de la línea de base.", "short": "Afianza el trazo de las letras minúsculas." },
+    "topicMeta": "Fichas de minúsculas punteadas: repasa las letras pequeñas sobre pauta de tres líneas, con rasgos altos y bajos, y escríbelas tú. PDF gratis para imprimir."
+  },
+  "fr": {
+    "taxo": { "slug": "ecriture-des-minuscules", "name": "Écriture des minuscules" },
+    "instruction": "Repasse chaque lettre minuscule, puis essaie de l'écrire sur la ligne vide. Pars du point orange et suis les flèches.",
+    "titles": {
+      "K-278": "Écriture des lettres minuscules",
+      "K-279": "Écriture des minuscules de g à l",
+      "K-280": "Écriture des minuscules de m à r",
+      "K-281": "Écriture des minuscules de s à z",
+      "K-282": "Écriture des minuscules é, è et ê",
+      "K-283": "Mes premières minuscules : a b c d"
+    },
+    "skill": { "full": "Repasser les minuscules sur des lignes d'écriture apprend le corps de la lettre, les hampes qui montent et les jambages qui descendent.", "short": "Fixe le tracé des lettres minuscules." },
+    "topicMeta": "Fiches d'écriture des lettres minuscules : modèles à repasser sur des lignes, avec hampes et jambages, puis lettres à écrire seul. PDF gratuit à imprimer."
+  },
+  "pt": {
+    "taxo": { "slug": "minusculas-pontilhadas", "name": "Minúsculas pontilhadas" },
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia.",
+    "titles": {
+      "K-278": "Letras minúsculas pontilhadas",
+      "K-279": "Minúsculas pontilhadas de g a m",
+      "K-280": "Minúsculas pontilhadas de n a s",
+      "K-281": "Minúsculas pontilhadas de s a z",
+      "K-282": "As letras k, w e y minúsculas",
+      "K-283": "Primeiras minúsculas: a, b, c, d"
+    },
+    "skill": { "full": "Cobrir letras minúsculas nas linhas de caligrafia ensina o corpo da letra, as hastes que sobem e as caudas que descem abaixo da linha.", "short": "Ensina o traçado das letras minúsculas." },
+    "topicMeta": "Alfabeto minúsculo pontilhado para cobrir e escrever nas linhas de caligrafia, com hastes que sobem e caudas que descem. PDFs grátis para imprimir."
+  },
+  "it": {
+    "taxo": { "slug": "minuscole-tratteggiate", "name": "Minuscole tratteggiate" },
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce.",
+    "titles": {
+      "K-278": "Lettere minuscole tratteggiate",
+      "K-279": "Minuscole tratteggiate da g a n",
+      "K-280": "Minuscole tratteggiate da o a t",
+      "K-281": "Minuscole tratteggiate da r a z",
+      "K-282": "Le vocali minuscole: a e i o u",
+      "K-283": "Le prime minuscole: a b c d"
+    },
+    "skill": { "full": "Ricalcare le lettere minuscole sulle righe insegna il corpo della lettera, le aste che salgono e le code che scendono sotto il rigo.", "short": "Consolida la forma delle lettere minuscole." },
+    "topicMeta": "Schede con le lettere minuscole tratteggiate da ricalcare sulle righe di scrittura, con aste e code. PDF gratuiti da stampare."
+  },
+  "nl": {
+    "taxo": { "slug": "kleine-letters-overtrekken", "name": "Kleine letters overtrekken" },
+    "instruction": "Trek elke kleine letter na. Begin bij de oranje stip en volg de pijltjes. Schrijf er daarna zelf één op de lege regel.",
+    "titles": {
+      "K-278": "Kleine letters overtrekken",
+      "K-279": "Kleine letters overtrekken: g tot l",
+      "K-280": "Kleine letters overtrekken: m tot r",
+      "K-281": "Kleine letters overtrekken: s tot z",
+      "K-282": "De ij en de kleine letters g, h, k, l, m",
+      "K-283": "Mijn eerste kleine letters: a b c d"
+    },
+    "skill": { "full": "Kleine letters natrekken op schrijfregels oefent de romphoogte, de stokken die omhoog gaan en de staarten die onder de regel duiken.", "short": "Oefent het schrijven van kleine letters." },
+    "topicMeta": "Kleine letters overtrekken: kleine letters natrekken op schrijfregels, met stokken en staarten, en daarna zelf schrijven. Gratis printbare pdf's."
+  },
+  "sv": {
+    "taxo": { "slug": "spara-sma-bokstaver", "name": "Spåra små bokstäver" },
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna.",
+    "titles": {
+      "K-278": "Spåra små bokstäver",
+      "K-279": "Spåra små bokstäver g till l",
+      "K-280": "Spåra små bokstäver m till r",
+      "K-281": "Spåra små bokstäver s till z",
+      "K-282": "Spåra små bokstäver: å, ä och ö",
+      "K-283": "Mina första små bokstäver: a b c d"
+    },
+    "skill": { "full": "Att spåra små bokstäver på skrivlinjer tränar mittenhöjden, staplarna som går upp och svansarna som går under raden.", "short": "Tränar att forma små bokstäver rätt." },
+    "topicMeta": "Arbetsblad för att spåra små bokstäver på skrivlinjer, med staplar och svansar – hela vägen från a till ö. Gratis PDF:er att skriva ut."
+  },
+  "da": {
+    "taxo": { "slug": "sma-bogstaver", "name": "Små bogstaver" },
+    "instruction": "Skriv oven i hvert lille bogstav, og prøv derefter selv på den tomme linje. Start ved den orange prik, og følg pilene.",
+    "titles": {
+      "K-278": "Skriv de små bogstaver",
+      "K-279": "Skriv de små bogstaver g til l",
+      "K-280": "Skriv de små bogstaver m til r",
+      "K-281": "Skriv de små bogstaver s til z",
+      "K-282": "Skriv de små bogstaver æ, ø og å",
+      "K-283": "Mine første små bogstaver: a b c d"
+    },
+    "skill": { "full": "At skrive oven i de små bogstaver på skrivelinjer træner mellemhøjden, de bogstaver der går op, og dem der går under linjen.", "short": "Træner formen på de små bogstaver." },
+    "topicMeta": "Bogstavtræning med små bogstaver: skriv oven i på skrivelinjer, med stave og haler, og øv derefter formen selv. Gratis PDF'er til print."
+  },
+  "no": {
+    "taxo": { "slug": "sma-bokstaver", "name": "Små bokstaver" },
+    "instruction": "Spor hver liten bokstav, og prøv å skrive en selv på den tomme linjen. Start på den oransje prikken og følg pilene.",
+    "titles": {
+      "K-278": "Spor de små bokstavene",
+      "K-279": "Spor små bokstaver fra g til l",
+      "K-280": "Spor små bokstaver fra m til r",
+      "K-281": "Spor små bokstaver fra s til z",
+      "K-282": "Spor små bokstaver: æ, ø og å",
+      "K-283": "Mine første små bokstaver"
+    },
+    "skill": { "full": "Å spore små bokstaver på skrivelinjer trener mellomhøyden, stavene som går opp, og halene som går under linjen.", "short": "Trener riktig forming av de små bokstavene." },
+    "topicMeta": "Oppgaveark med små bokstaver: spor på skrivelinjer, med staver og haler, og med æ, ø og å. Gratis PDF-er til utskrift."
+  },
+  "fi": {
+    "taxo": { "slug": "pienten-kirjainten-kirjoittaminen", "name": "Pienten kirjainten kirjoittaminen" },
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle.",
+    "titles": {
+      "K-278": "Pienten kirjainten kirjoitusharjoitus",
+      "K-279": "Pienten kirjainten kirjoitusharjoitus g–l",
+      "K-280": "Pienten kirjainten kirjoitusharjoitus m–r",
+      "K-281": "Pienten kirjainten kirjoitusharjoitus s–å",
+      "K-282": "Pienet ääkköset: ä ja ö",
+      "K-283": "Ensimmäiset pienet kirjaimet: a b c d"
+    },
+    "skill": { "full": "Pienten kirjainten jäljentäminen viivastolle harjoittaa keskikorkeutta sekä ylä- ja alapidennyksiä, jotka ylittävät ja alittavat rivin.", "short": "Vahvistaa pienten kirjainten kirjoittamista." },
+    "topicMeta": "Pienten kirjainten kirjoitusharjoituksia: jäljennä pienet kirjaimet viivastolle ylä- ja alapidennyksineen. Ilmaiset tulostettavat PDF:t."
+  }
+}

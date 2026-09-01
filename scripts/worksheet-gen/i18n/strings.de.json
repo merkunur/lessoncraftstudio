@@ -1406,5 +1406,29 @@
   "G3-369": {
     "title": "Aufgabenfamilien: Mal und Geteilt",
     "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Mal- und Geteiltaufgaben."
+  },
+  "K-278": {
+    "title": "Kleinbuchstaben nachspuren",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-279": {
+    "title": "Kleinbuchstaben nachspuren: g bis l",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-280": {
+    "title": "Kleinbuchstaben nachspuren: m bis r",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-281": {
+    "title": "Kleinbuchstaben nachspuren: s bis z",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-282": {
+    "title": "Kleine Umlaute und ß nachspuren",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-283": {
+    "title": "Meine ersten Kleinbuchstaben: a, b, c, d",
+    "instruction": "Spure jeden kleinen Buchstaben nach. Beginne am orangen Punkt und folge den Pfeilen. Schreibe ihn dann allein auf die leere Linie."
   }
 }

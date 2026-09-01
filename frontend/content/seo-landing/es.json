@@ -100671,6 +100671,1097 @@
    ],
    "title": "Tablas de multiplicar para 3.º de primaria | para imprimir PDF",
    "metaDescription": "Las tablas de multiplicar: doce multiplicaciones por ficha para practicar y ganar respuesta inmediata en 3.º de primaria. PDF gratis para imprimir."
+  },
+  {
+   "slug": "numeros-punteados-0-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de números punteados",
+   "h1": "Números punteados del 0 al 4: los primeros trazos en grande",
+   "strand": "Escritura de los números",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeros-punteados",
+    "preescolar"
+   ],
+   "p1": "En esta ficha el niño repasa los números 0, 1, 2, 3 y 4 en formato grande, uno por fila. Cada cifra aparece varias veces en trazo punteado, y en cada copia hay un punto naranja que dice exactamente dónde apoyar el lápiz y unas flechas que marcan el recorrido. El 0 y el 2 se dibujan con una sola curva, el 1 con un trazo que baja, el 3 con sus dos barrigas y el 4 con sus rectas: cinco formas muy distintas para empezar a escribir cifras. Al ser tan grandes, hay sitio de sobra para que la mano gire sin apretarse.",
+   "p2": "El hábito que se juega aquí es dónde empieza cada número. Un niño que apoya el lápiz en cualquier punto acaba inventando recorridos distintos cada vez, y eso hace la escritura lenta e irregular durante años. Si desde las cinco primeras cifras el gesto es siempre el mismo —arriba, punto naranja, y a seguir la flecha—, el trazo se automatiza sin discusión. El formato grande es deliberado: a los cuatro o cinco años los músculos pequeños de la mano todavía se están organizando, y una cifra amplia perdona los temblores mientras fija la forma.",
+   "p3": "Imprime la ficha gratis en PDF y trabájala en tandas cortas: dos o tres filas bien hechas valen más que la hoja entera con prisas. Cuando el 0 al 4 salga con soltura, los números punteados del 5 al 9 completan la serie con las cifras de curvas más traicioneras, y las primeras letras A B C D usan el mismo sistema de punto y flechas, así que el niño ya llega sabiendo cómo se juega.",
+   "canonicalDeckSlug": "numeros-punteados-k249",
+   "carousel": [
+    {
+     "label": "Números punteados del 5 al 9: las cifras que se giran",
+     "href": "numeros-punteados-5-9"
+    },
+    {
+     "label": "Repasa y escribe los números: del punteado a escribir solo",
+     "href": "repasa-y-escribe-los-numeros"
+    },
+    {
+     "label": "Números punteados del 1 al 10: llega el primer número de dos cifras",
+     "href": "numeros-punteados-1-10"
+    },
+    {
+     "label": "Números punteados del 11 al 20: dos cifras en cada número",
+     "href": "numeros-punteados-11-20"
+    }
+   ],
+   "title": "Números punteados del 0 al 4 – Kínder | para imprimir PDF",
+   "metaDescription": "Números punteados del 0 al 4 en formato grande: punto de inicio naranja y flechas para trazar las cinco primeras cifras. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "numeros-punteados-5-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de números punteados",
+   "h1": "Números punteados del 5 al 9: las cifras que se giran",
+   "strand": "Escritura de los números",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeros-punteados",
+    "preescolar"
+   ],
+   "p1": "Esta ficha trabaja los números 5, 6, 7, 8 y 9 en formato grande, con varias copias punteadas de cada cifra. Son justamente los números que más se escriben al revés: el 5 aparece volteado como un espejo, el 6 y el 9 se confunden entre sí, y el 8 tienta a dibujar dos círculos sueltos en lugar de un solo lazo. Por eso cada copia lleva su punto naranja de inicio y sus flechas de dirección: el niño no adivina el recorrido, lo sigue.",
+   "p2": "Las inversiones de cifras son normales a esta edad y no indican ningún problema, pero la manera de que desaparezcan pronto es siempre la misma: repetir el recorrido correcto hasta que la mano lo recuerde sola. Cuando el 5 empieza siempre por su palito de arriba y el 6 baja primero por la izquierda, el cerebro deja de tener dos versiones entre las que elegir. Practicarlo ahora, en grande y con calma, evita que la inversión se instale y aparezca luego en los dictados de números de primaria, donde ya cuesta mucho más corregirla.",
+   "p3": "Descarga la ficha gratis en PDF y, si un número sale girado, no lo taches: señala el punto naranja y pide otro intento al lado. Esta hoja forma pareja natural con los números punteados del 0 al 4, que abren la serie con las cifras más amables, y el paso siguiente es la ficha de repasar y escribir, donde el niño ya escribe cada número él solo en un hueco vacío.",
+   "canonicalDeckSlug": "numeros-punteados-k250",
+   "carousel": [
+    {
+     "label": "Repasa y escribe los números: del punteado a escribir solo",
+     "href": "repasa-y-escribe-los-numeros"
+    },
+    {
+     "label": "Números punteados del 1 al 10: llega el primer número de dos cifras",
+     "href": "numeros-punteados-1-10"
+    },
+    {
+     "label": "Números punteados del 11 al 20: dos cifras en cada número",
+     "href": "numeros-punteados-11-20"
+    },
+    {
+     "label": "Números punteados del 0 al 4: los primeros trazos en grande",
+     "href": "numeros-punteados-0-4"
+    }
+   ],
+   "title": "Números punteados del 5 al 9 – Kínder | para imprimir PDF",
+   "metaDescription": "Números punteados del 5 al 9 en formato grande, con punto de inicio y flechas: la mejor vacuna contra los números escritos al revés. PDF gratis para imprimir."
+  },
+  {
+   "slug": "repasa-y-escribe-los-numeros",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de números punteados",
+   "h1": "Repasa y escribe los números: del punteado a escribir solo",
+   "strand": "Escritura de los números",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeros-punteados",
+    "preescolar"
+   ],
+   "p1": "En esta ficha cada fila trae un número del 0 al 9 con copias punteadas para repasar y, al final, un espacio vacío sin puntitos: ahí el niño escribe la cifra él solo, de memoria. Es el mismo sistema de punto naranja y flechas de las fichas anteriores, pero con una novedad importante, porque la fila no termina hasta que la mano demuestra que ya no necesita la guía. Primero se calienta repasando, después se escribe de verdad.",
+   "p2": "Ese hueco vacío es el salto que de verdad importa. Repasar puntitos entrena el gesto, pero escribir sin apoyo obliga a recuperar la forma completa de la cifra desde la memoria, que es exactamente lo que el niño hará cada día en primaria. Tener las dos cosas en la misma fila es lo que hace funcionar la ficha: el modelo recién repasado sigue fresco cuando llega el momento de soltarse, así que el intento libre sale bien y da confianza en lugar de frustración. Con una fila al día se nota el cambio en un par de semanas.",
+   "p3": "Imprime la ficha gratis en PDF y fíjate sobre todo en la última cifra de cada fila: esa cuenta doble. Si alguna se resiste, vuelve un momento a los números punteados del 5 al 9, que insisten en los recorridos difíciles. Y cuando los diez números salgan solos, los números punteados del 1 al 10 añaden el primer reto de dos cifras: escribir el diez.",
+   "canonicalDeckSlug": "numeros-punteados-k251",
+   "carousel": [
+    {
+     "label": "Números punteados del 1 al 10: llega el primer número de dos cifras",
+     "href": "numeros-punteados-1-10"
+    },
+    {
+     "label": "Números punteados del 11 al 20: dos cifras en cada número",
+     "href": "numeros-punteados-11-20"
+    },
+    {
+     "label": "Números punteados del 0 al 4: los primeros trazos en grande",
+     "href": "numeros-punteados-0-4"
+    },
+    {
+     "label": "Números punteados del 5 al 9: las cifras que se giran",
+     "href": "numeros-punteados-5-9"
+    }
+   ],
+   "title": "Repasa y escribe los números – Kínder | para imprimir PDF",
+   "metaDescription": "Repasa y escribe los números del 0 al 9: primero sobre puntitos y después en el hueco vacío, sin ayuda. El salto a escribir solo, en PDF gratis para imprimir."
+  },
+  {
+   "slug": "numeros-punteados-1-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de números punteados",
+   "h1": "Números punteados del 1 al 10: llega el primer número de dos cifras",
+   "strand": "Escritura de los números",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeros-punteados",
+    "preescolar"
+   ],
+   "p1": "Esta ficha recorre los números del 1 al 10 en trazo punteado, con su punto naranja de inicio y sus flechas en cada copia. Las nueve primeras filas repasan cifras que el niño ya conoce, pero la última guarda la novedad: el 10 llega en un carril doble, con el 1 y el 0 uno al lado del otro. Es la primera vez que escribir un número significa escribir dos cifras seguidas, en orden y sin juntarlas ni separarlas demasiado.",
+   "p2": "Ese detalle, que parece pequeño, es una idea matemática de las grandes: los números no se acaban en el 9, se componen. Ver el 10 como un uno y un cero que trabajan juntos prepara el terreno para entender las decenas mucho antes de nombrarlas. Además, la fila del 10 entrena algo nuevo para la mano: terminar una cifra, levantar el lápiz y colocar la siguiente en su sitio. Contar hasta diez con los dedos ya lo hace cualquier niño de esta edad; escribir hasta diez es el paso que deja huella en el papel.",
+   "p3": "Descarga la ficha gratis en PDF y deja que la fila del 10 sea la estrella del día: merece comentarse en voz alta, «¡un uno y un cero!». Después de esta hoja, los números punteados del 11 al 20 siguen la aventura con toda una página de números de dos cifras, y la ficha de repasar y escribir sirve de repaso perfecto para comprobar que el 0 al 9 sigue saliendo sin puntitos.",
+   "canonicalDeckSlug": "numeros-punteados-k252",
+   "carousel": [
+    {
+     "label": "Números punteados del 11 al 20: dos cifras en cada número",
+     "href": "numeros-punteados-11-20"
+    },
+    {
+     "label": "Números punteados del 0 al 4: los primeros trazos en grande",
+     "href": "numeros-punteados-0-4"
+    },
+    {
+     "label": "Números punteados del 5 al 9: las cifras que se giran",
+     "href": "numeros-punteados-5-9"
+    },
+    {
+     "label": "Repasa y escribe los números: del punteado a escribir solo",
+     "href": "repasa-y-escribe-los-numeros"
+    }
+   ],
+   "title": "Números punteados del 1 al 10 – Kínder | para imprimir PDF",
+   "metaDescription": "Números punteados del 1 al 10 con punto de inicio y flechas. El 10 estrena carril doble: un uno y un cero juntos forman un número. PDF gratis para imprimir."
+  },
+  {
+   "slug": "numeros-punteados-11-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de números punteados",
+   "h1": "Números punteados del 11 al 20: dos cifras en cada número",
+   "strand": "Escritura de los números",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeros-punteados",
+    "preescolar"
+   ],
+   "p1": "En esta ficha todos los números tienen dos cifras: del 11 al 20, cada uno en su carril doble punteado, con punto de inicio y flechas en las dos posiciones. El niño repasa el 11, el 12, el 15, el 17… y descubre un patrón que se ve mejor escribiendo que contando: casi todos empiezan por 1, y lo que cambia es la cifra de al lado. Solo el 20 rompe la serie, con su 2 delante, y por eso cierra la página.",
+   "p2": "Los números del 11 al 20 son los más traicioneros del idioma: «once», «doce» o «quince» no dicen nada de cómo se escriben, así que muchos niños que los recitan de carrerilla se pierden al ponerlos en papel. Escribirlos en carril doble hace visible lo que el nombre esconde: hay un 1 que significa una decena y otra cifra que dice cuántas unidades más. No hace falta explicar la palabra «decena» todavía; basta con que la mano se acostumbre a que quince se escribe uno-cinco, y esa imagen trabajará a favor durante toda la primaria.",
+   "p3": "Imprime la ficha gratis en PDF y prueba un juego al terminar: tapar la cifra de la izquierda y preguntar qué número quedaría. Esta hoja continúa lo empezado en los números punteados del 1 al 10, donde el carril doble aparece por primera vez, y si el trazo de alguna cifra suelta todavía baila, los números punteados del 5 al 9 son el sitio al que volver un par de días.",
+   "canonicalDeckSlug": "numeros-punteados-k253",
+   "carousel": [
+    {
+     "label": "Números punteados del 0 al 4: los primeros trazos en grande",
+     "href": "numeros-punteados-0-4"
+    },
+    {
+     "label": "Números punteados del 5 al 9: las cifras que se giran",
+     "href": "numeros-punteados-5-9"
+    },
+    {
+     "label": "Repasa y escribe los números: del punteado a escribir solo",
+     "href": "repasa-y-escribe-los-numeros"
+    },
+    {
+     "label": "Números punteados del 1 al 10: llega el primer número de dos cifras",
+     "href": "numeros-punteados-1-10"
+    }
+   ],
+   "title": "Números punteados del 11 al 20 – Kínder | para imprimir PDF",
+   "metaDescription": "Números punteados del 11 al 20, todos en carril doble: cada número se escribe con dos cifras y el uno delante. La decena en el lápiz, PDF gratis para imprimir."
+  },
+  {
+   "slug": "letras-punteadas-g-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de letras punteadas",
+   "h1": "Letras punteadas de la G a la L: seis letras, tres familias de trazo",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "abecedario-punteado",
+    "preescolar"
+   ],
+   "p1": "Esta ficha reúne las mayúsculas G, H, I, J, K y L, cada una con su modelo en trazo firme, varias copias punteadas para repasar con el lápiz y una línea vacía al final para escribirla sin ayuda. Es un tramo del abecedario con mucha variedad: la G es una curva que se cierra con un pequeño estante, la H, la I y la L son pura línea recta, la J baja y remata con su gancho, y la K junta dos diagonales en el mismo punto.",
+   "p2": "Justo esa mezcla es lo que hace valioso este tramo. Cada familia de trazo —curvas, rectas, diagonales— pide un gesto distinto de la mano, y practicarlas juntas enseña a cambiar de gesto sin perder el control, que es lo que exige la escritura de verdad. La K y la J suelen ser las que más cuestan: la K porque sus diagonales deben tocarse en el centro, la J porque su gancho tienta a girar de más. El modelo firme al inicio de cada fila está ahí para volver a mirarlo cuantas veces haga falta.",
+   "p3": "Descarga la ficha gratis en PDF y celebra especialmente la letra de la línea vacía: es la que enseña lo aprendido. Si el niño viene de las primeras letras A B C D, notará que el sistema es el mismo y que solo suben un poco las formas. El siguiente escalón son las letras punteadas de la M a la R, donde esperan los zigzags de la M y la N y dos parejas que se parecen mucho.",
+   "canonicalDeckSlug": "abecedario-punteado-k254",
+   "carousel": [
+    {
+     "label": "Letras punteadas de la M a la R: gemelas que hay que distinguir",
+     "href": "letras-punteadas-m-r"
+    },
+    {
+     "label": "Letras punteadas de la S a la Z: el final del abecedario",
+     "href": "letras-punteadas-s-z"
+    },
+    {
+     "label": "La letra Ñ punteada: la letra más nuestra, trazo a trazo",
+     "href": "la-letra-n-punteada"
+    },
+    {
+     "label": "Mis primeras letras: A, B, C y D en tamaño gigante",
+     "href": "mis-primeras-letras-a-b-c-d"
+    }
+   ],
+   "title": "Letras punteadas de la G a la L – Kínder | para imprimir PDF",
+   "metaDescription": "Letras punteadas de la G a la L: curvas, rectas y el gancho de la J, con modelo y línea final para escribir solo. Mayúsculas en PDF gratis para imprimir."
+  },
+  {
+   "slug": "letras-punteadas-m-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de letras punteadas",
+   "h1": "Letras punteadas de la M a la R: gemelas que hay que distinguir",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "abecedario-punteado",
+    "preescolar"
+   ],
+   "p1": "En esta ficha se repasan las mayúsculas M, N, O, P, Q y R: modelo firme, copias punteadas y una línea vacía al final de cada fila para escribir la letra sin puntitos. Este tramo tiene truco, porque viene con dos parejas casi gemelas. La O y la Q son el mismo círculo, salvo por el rabito que la Q saca por abajo; la P y la R comparten palo y barriga, y solo la patita diagonal de la R las separa. Y antes esperan la M y la N, con sus picos de sube y baja.",
+   "p2": "Distinguir letras parecidas no es cosa de la vista, sino de la mano: cuando el niño ha trazado muchas veces el rabito de la Q y la patita de la R, ya no puede confundirlas al leerlas, porque su mano sabe qué las hace diferentes. Los zigzags de la M y la N entrenan además el cambio de dirección en pleno trazo, uno de los gestos más difíciles de esta edad: subir, clavar el pico y volver a bajar sin redondear. Las flechas de cada copia marcan esos giros exactos para que el pico sea pico y no ola.",
+   "p3": "Imprime la ficha gratis en PDF y, al acabar, juega a los detectives: ¿en qué se diferencian la P y la R? Que lo explique con sus palabras. Quien haya pasado ya por las letras punteadas de la G a la L reconocerá la rutina de la línea vacía final. Para cerrar el abecedario quedan las letras punteadas de la S a la Z, el tramo de las diagonales valientes.",
+   "canonicalDeckSlug": "abecedario-punteado-k255",
+   "carousel": [
+    {
+     "label": "Letras punteadas de la S a la Z: el final del abecedario",
+     "href": "letras-punteadas-s-z"
+    },
+    {
+     "label": "La letra Ñ punteada: la letra más nuestra, trazo a trazo",
+     "href": "la-letra-n-punteada"
+    },
+    {
+     "label": "Mis primeras letras: A, B, C y D en tamaño gigante",
+     "href": "mis-primeras-letras-a-b-c-d"
+    },
+    {
+     "label": "Letras punteadas de la G a la L: seis letras, tres familias de trazo",
+     "href": "letras-punteadas-g-l"
+    }
+   ],
+   "title": "Letras punteadas de la M a la R – Kínder | para imprimir PDF",
+   "metaDescription": "Letras punteadas de la M a la R: los zigzags de M y N y las parejas O-Q y P-R, que solo se distinguen por un detalle. Mayúsculas en PDF gratis para imprimir."
+  },
+  {
+   "slug": "letras-punteadas-s-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de letras punteadas",
+   "h1": "Letras punteadas de la S a la Z: el final del abecedario",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "abecedario-punteado",
+    "preescolar"
+   ],
+   "p1": "Esta ficha cierra el abecedario con las mayúsculas del tramo final: la S y su doble curva, la T, y después el desfile de diagonales —V, W, X, Y, Z— que casi no usa ni una línea vertical. Cada letra trae su modelo firme, sus copias punteadas con punto de inicio y flechas, y la línea vacía del final para escribirla ya sin ayuda. La S abre la página a propósito: es la letra que más veces sale «al revés» y merece ir la primera, con la mano fresca.",
+   "p2": "Las diagonales son el último gesto que madura en la escritura infantil: trazar una línea inclinada controlada es más difícil que una recta o una curva, y este tramo las sirve todas juntas. La V y la W enseñan a bajar y subir en ángulo, la X pide cruzar dos trazos justo por el centro, y la Y añade la decisión de dónde nace su palito. Llegar aquí también tiene un valor que no es de lápiz: el niño que completa la línea vacía de la Z puede decir, con toda razón, que sabe trazar el abecedario entero.",
+   "p3": "Descarga la ficha gratis en PDF y guarda la hoja terminada: junto a las de tramos anteriores, como las letras punteadas de la M a la R, forma la colección completa del abecedario y da gusto verla entera. Queda un capítulo especial que ningún abecedario nuestro puede saltarse: la letra Ñ punteada, la única que lleva sombrero, tiene ficha propia.",
+   "canonicalDeckSlug": "abecedario-punteado-k256",
+   "carousel": [
+    {
+     "label": "La letra Ñ punteada: la letra más nuestra, trazo a trazo",
+     "href": "la-letra-n-punteada"
+    },
+    {
+     "label": "Mis primeras letras: A, B, C y D en tamaño gigante",
+     "href": "mis-primeras-letras-a-b-c-d"
+    },
+    {
+     "label": "Letras punteadas de la G a la L: seis letras, tres familias de trazo",
+     "href": "letras-punteadas-g-l"
+    },
+    {
+     "label": "Letras punteadas de la M a la R: gemelas que hay que distinguir",
+     "href": "letras-punteadas-m-r"
+    }
+   ],
+   "title": "Letras punteadas de la S a la Z – Kínder | para imprimir PDF",
+   "metaDescription": "Letras punteadas de la S a la Z: la doble curva de la S, las diagonales de V, W, X, Y y el zigzag de la Z. El cierre del abecedario en PDF gratis para imprimir."
+  },
+  {
+   "slug": "la-letra-n-punteada",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de letras punteadas",
+   "h1": "La letra Ñ punteada: la letra más nuestra, trazo a trazo",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "abecedario-punteado",
+    "preescolar"
+   ],
+   "p1": "Esta ficha está dedicada por entero a una sola letra: la Ñ mayúscula. El niño la repasa en copias punteadas, con el punto naranja de inicio y las flechas de siempre, y la escribe él solo en la línea vacía del final. El trazo tiene dos tiempos que la ficha enseña por su orden: primero se construye la N, con sus dos palos y su diagonal, y después se corona con la virgulilla, esa ondita pequeña que se dibuja aparte, flotando justo encima.",
+   "p2": "La Ñ merece su propia página porque es la letra que hace español al español: está en niño, en año, en mañana, en España, y en ningún abecedario prestado. Para la mano es además un ejercicio doble: exige rematar bien una letra completa y luego levantar el lápiz para añadir un signo pequeño en el lugar exacto, sin que se caiga sobre la N ni salga volando. Ese control fino de «terminar y colocar» es el mismo que después pedirán las tildes, así que practicarlo aquí es adelantar trabajo con una letra que a los niños les hace ilusión dominar.",
+   "p3": "Imprime la ficha gratis en PDF y busca después la Ñ en casa: en un cuento, en un envase, en su propio nombre si tiene la suerte de llevarla. Como cierre del abecedario combina de maravilla con las letras punteadas de la S a la Z, y si el niño quiere seguir jugando con el lápiz, la ficha de colorear por números cambia las letras por colores sin soltar la muñeca.",
+   "canonicalDeckSlug": "abecedario-punteado-k257",
+   "carousel": [
+    {
+     "label": "Mis primeras letras: A, B, C y D en tamaño gigante",
+     "href": "mis-primeras-letras-a-b-c-d"
+    },
+    {
+     "label": "Letras punteadas de la G a la L: seis letras, tres familias de trazo",
+     "href": "letras-punteadas-g-l"
+    },
+    {
+     "label": "Letras punteadas de la M a la R: gemelas que hay que distinguir",
+     "href": "letras-punteadas-m-r"
+    },
+    {
+     "label": "Letras punteadas de la S a la Z: el final del abecedario",
+     "href": "letras-punteadas-s-z"
+    }
+   ],
+   "title": "La letra Ñ punteada para repasar – Kínder | para imprimir PDF",
+   "metaDescription": "La letra Ñ punteada en mayúscula: primero la N y encima su virgulilla, la ondita que la convierte en la letra propia del español. PDF gratis para imprimir."
+  },
+  {
+   "slug": "mis-primeras-letras-a-b-c-d",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de letras punteadas",
+   "h1": "Mis primeras letras: A, B, C y D en tamaño gigante",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "abecedario-punteado",
+    "preescolar"
+   ],
+   "p1": "Esta ficha es la puerta de entrada al abecedario: solo cuatro letras —A, B, C y D— pero en tamaño gigante, para que quepan la mano entera y todos sus temblores. Cada letra trae su modelo en trazo firme, copias punteadas con punto naranja de inicio y flechas, y la línea vacía final para atreverse sin guía. Cuatro letras y cuatro mundos: la A con su tejado y su travesaño, la B con sus dos barrigas, la C abierta de una sola curva y la D con su palo y su panza.",
+   "p2": "Empezar por poco y en grande es la manera amable de empezar. Con cuatro letras la página no abruma, y el tamaño gigante deja que el niño se concentre en el recorrido sin pelearse con la puntería. Estas cuatro además lo enseñan casi todo: rectas, curvas cerradas, curvas abiertas y el travesaño que cruza. Quien traza una A y una B con su orden correcto ya tiene los gestos que le pedirán casi todas las letras que vienen después. Y hay un premio secreto: son las cuatro letras que el niño canta primero, así que reconocerlas en el papel emociona.",
+   "p3": "Descarga la ficha gratis en PDF y no tengas prisa: una letra por día es un ritmo estupendo para el primer contacto. Cuando la D salga sola en su línea vacía, las letras punteadas de la G a la L continúan el camino con el mismo sistema, y los números punteados del 0 al 4 ofrecen la versión con cifras para alternar letras y números sin cambiar de costumbres.",
+   "canonicalDeckSlug": "abecedario-punteado-k258",
+   "carousel": [
+    {
+     "label": "Letras punteadas de la G a la L: seis letras, tres familias de trazo",
+     "href": "letras-punteadas-g-l"
+    },
+    {
+     "label": "Letras punteadas de la M a la R: gemelas que hay que distinguir",
+     "href": "letras-punteadas-m-r"
+    },
+    {
+     "label": "Letras punteadas de la S a la Z: el final del abecedario",
+     "href": "letras-punteadas-s-z"
+    },
+    {
+     "label": "La letra Ñ punteada: la letra más nuestra, trazo a trazo",
+     "href": "la-letra-n-punteada"
+    }
+   ],
+   "title": "Mis primeras letras A B C D – Kínder | para imprimir PDF",
+   "metaDescription": "Las primeras letras A, B, C y D en formato gigante: cuatro mayúsculas punteadas con punto de inicio y flechas para el primer contacto con el lápiz. PDF gratis."
+  },
+  {
+   "slug": "colorear-por-numeros-infantil",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de colorear por números",
+   "h1": "Colorear por números del 1 al 6: mira el código y pinta",
+   "strand": "Cálculo inicial y atención",
+   "slotTokens": [
+    "colorear-por-numeros",
+    "preescolar"
+   ],
+   "p1": "Esta es la versión clásica de colorear por números, sin ninguna operación: cada figura de la lámina lleva dentro una cifra del 1 al 6, y arriba espera la leyenda donde cada número está unido a su color escrito en palabra. El niño mira la cifra de la figura, la busca en el código, lee o pregunta el color que le toca y pinta sin salirse. No hay que calcular nada; hay que reconocer números, emparejarlos y colorear con cuidado hasta que el dibujo aparezca completo.",
+   "p2": "Debajo de su aire de juego, la ficha trabaja tres cosas muy concretas. Reconocer las cifras del 1 al 6 de un vistazo, que es un paso distinto de saber contar: aquí el número funciona como etiqueta y hay que identificarlo entre otros. Consultar una leyenda, ese gesto de ir y volver entre el dibujo y el código que después usará en mapas, tablas y enunciados. Y unir cada cifra con su color escrito en palabra, un primer puente entre número y lectura. Todo mientras la mano practica el control del contorno, que es gimnasia pura para la escritura.",
+   "p3": "Imprime la lámina gratis en PDF y deja el resultado a la vista, que colorear también merece exposición. Si el niño aún duda entre el 2 y el 5, los números punteados del 0 al 4 y del 5 al 9 refuerzan esas cifras por la vía del trazo, y las primeras letras A B C D son el plan perfecto para otro rato tranquilo de lápiz y mesa.",
+   "canonicalDeckSlug": "colorear-por-numeros-k266",
+   "carousel": [
+    {
+     "label": "La caracola: un cuento corto de playa con tres preguntas",
+     "href": "comprension-lectora-la-caracola"
+    },
+    {
+     "label": "El huerto de la escuela: leer quién hace qué (y cuándo)",
+     "href": "comprension-lectora-el-huerto"
+    },
+    {
+     "label": "La noche de la tormenta: un final con sorpresa que hay que explicar",
+     "href": "comprension-lectora-la-tormenta"
+    },
+    {
+     "label": "El tren de las montañas: leer con la ventanilla abierta",
+     "href": "comprension-lectora-el-tren"
+    }
+   ],
+   "title": "Colorear por números para niños – 1 a 6 | para imprimir PDF",
+   "metaDescription": "Colorear por números clásico para infantil: cada figura lleva una cifra del 1 al 6 y el código la une a su color escrito en palabra. Sin sumas. PDF gratis."
+  },
+  {
+   "slug": "comprension-lectora-la-caracola",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Comprensión lectora",
+   "h1": "La caracola: un cuento corto de playa con tres preguntas",
+   "strand": "Lectura y comprensión",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "comprension-lectora",
+    "segundo-grado"
+   ],
+   "p1": "En esta ficha el niño lee «La caracola», un cuento breve y original: Ana encuentra una caracola en la playa, se la acerca a la oreja y oye un sonido como el del mar; sonríe y la guarda en su cubo para enseñársela a su hermano. Después responde tres preguntas de opción múltiple —qué encuentra Ana, dónde la guarda y cómo se siente— rodeando la respuesta correcta. Es la historia más corta de la serie, pensada para que la primera experiencia con un texto y sus preguntas sepa a victoria.",
+   "p2": "Con un texto así de contenido se entrena la destreza más básica de la comprensión: localizar información que está dicha con todas las letras. Las dos primeras preguntas se responden volviendo al cuento y señalando la frase exacta, y ese gesto de releer para comprobar es justo el hábito que queremos fundar. La tercera pregunta da un pasito más: el cuento no dice «Ana está contenta», dice que sonríe, y el lector tiene que traducir el gesto en emoción. Pequeña, pero es su primera inferencia.",
+   "p3": "Descarga la ficha gratis en PDF y, antes de corregir, pide que subraye en el cuento dónde encontró cada respuesta. Cuando «La caracola» se quede corta, «El huerto de la escuela» sube un peldaño con más personajes y tareas que ordenar, y la serie sigue creciendo cuento a cuento hasta la función de teatro, que es la historia más larga de las cinco.",
+   "canonicalDeckSlug": "comprension-lectora-g2269",
+   "carousel": [
+    {
+     "label": "El huerto de la escuela: leer quién hace qué (y cuándo)",
+     "href": "comprension-lectora-el-huerto"
+    },
+    {
+     "label": "La noche de la tormenta: un final con sorpresa que hay que explicar",
+     "href": "comprension-lectora-la-tormenta"
+    },
+    {
+     "label": "El tren de las montañas: leer con la ventanilla abierta",
+     "href": "comprension-lectora-el-tren"
+    },
+    {
+     "label": "La función de teatro: la historia más larga de la serie",
+     "href": "comprension-lectora-el-teatro"
+    }
+   ],
+   "title": "La caracola – comprensión lectora 2.º | para imprimir PDF",
+   "metaDescription": "«La caracola»: Ana encuentra una caracola en la playa y oye el mar dentro. Cuento corto original con tres preguntas de opción múltiple. PDF gratis."
+  },
+  {
+   "slug": "comprension-lectora-el-huerto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Comprensión lectora",
+   "h1": "El huerto de la escuela: leer quién hace qué (y cuándo)",
+   "strand": "Lectura y comprensión",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "comprension-lectora",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha trae «El huerto de la escuela», un cuento original sobre la clase de Marta: los viernes cuidan el huerto escolar, cada niño tiene su tarea —unos riegan, otros quitan las malas hierbas—, hoy recogen los primeros tomates y Marta se lleva tres a casa para preparar una ensalada con su madre. Las tres preguntas de opción múltiple apuntan a datos repartidos por todo el texto: qué día toca huerto, qué han recogido hoy y cómo trabajan los niños.",
+   "p2": "La gracia de este cuento está en que la información viene organizada como la vida misma: un día de la semana, un reparto de tareas, un resultado. Para responder bien no basta con quedarse con la anécdota final de los tomates; hay que haber registrado también el «cuándo» y el «cómo», que aparecen al principio y en medio del texto. Es un entrenamiento suave contra el vicio más común del lector de esta edad: leer solo el final. La pregunta sobre cómo trabajan los niños pide además juntar dos frases en una sola idea, el reparto en equipo.",
+   "p3": "Imprime la ficha gratis en PDF; si el niño viene de «La caracola», notará que aquí el cuento pide un poco más de memoria. Un truco de maestro: preguntarle qué tarea del huerto elegiría él, porque hablar del texto también es comprenderlo. El siguiente escalón es «La noche de la tormenta», donde por primera vez habrá que adivinar un porqué que el cuento no dice directamente.",
+   "canonicalDeckSlug": "comprension-lectora-g2270",
+   "carousel": [
+    {
+     "label": "La noche de la tormenta: un final con sorpresa que hay que explicar",
+     "href": "comprension-lectora-la-tormenta"
+    },
+    {
+     "label": "El tren de las montañas: leer con la ventanilla abierta",
+     "href": "comprension-lectora-el-tren"
+    },
+    {
+     "label": "La función de teatro: la historia más larga de la serie",
+     "href": "comprension-lectora-el-teatro"
+    },
+    {
+     "label": "La caracola: un cuento corto de playa con tres preguntas",
+     "href": "comprension-lectora-la-caracola"
+    }
+   ],
+   "title": "El huerto de la escuela – comprensión lectora | para imprimir PDF",
+   "metaDescription": "«El huerto de la escuela»: la clase de Marta riega, quita malas hierbas y recoge sus primeros tomates. Cuento con tres preguntas tipo test. PDF gratis."
+  },
+  {
+   "slug": "comprension-lectora-la-tormenta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Comprensión lectora",
+   "h1": "La noche de la tormenta: un final con sorpresa que hay que explicar",
+   "strand": "Lectura y comprensión",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "comprension-lectora",
+    "segundo-grado"
+   ],
+   "p1": "En esta ficha se lee «La noche de la tormenta», un cuento original con final inesperado: una tormenta deja sin luz la casa de Leo, su madre enciende dos velas, la familia se junta en el sofá, su padre cuenta historias con una linterna y el gato se esconde debajo de la mesa. Cuando vuelve la luz, Leo casi se pone triste, porque la noche a oscuras era muy divertida. Tres preguntas de opción múltiple acompañan al texto, y la última es la joya: ¿por qué se pone Leo casi triste al final?",
+   "p2": "Este cuento está construido para dar el salto de leer datos a leer intenciones. Las dos primeras preguntas se apoyan en hechos del texto —qué pasa en casa de Leo, dónde se esconde el gato—, pero la tercera pide una inferencia de verdad: el lector tiene que conectar la diversión de las velas y las historias con la pena de que todo termine, una lógica sentimental que el cuento muestra pero no explica. Las opciones incorrectas están pensadas para tentar a quien lee por encima, así que acertarla es señal de comprensión profunda, no de suerte.",
+   "p3": "Descarga la ficha gratis en PDF y comenta el final en voz alta: ¿le ha pasado algo parecido alguna vez? Las mejores respuestas a un porqué empiezan en la propia vida. En la serie, este cuento marca el ecuador: detrás quedan «La caracola» y «El huerto de la escuela», y delante espera «El tren de las montañas», con más paisaje, más personajes y detalles que llegan en orden.",
+   "canonicalDeckSlug": "comprension-lectora-g2271",
+   "carousel": [
+    {
+     "label": "El tren de las montañas: leer con la ventanilla abierta",
+     "href": "comprension-lectora-el-tren"
+    },
+    {
+     "label": "La función de teatro: la historia más larga de la serie",
+     "href": "comprension-lectora-el-teatro"
+    },
+    {
+     "label": "La caracola: un cuento corto de playa con tres preguntas",
+     "href": "comprension-lectora-la-caracola"
+    },
+    {
+     "label": "El huerto de la escuela: leer quién hace qué (y cuándo)",
+     "href": "comprension-lectora-el-huerto"
+    }
+   ],
+   "title": "La noche de la tormenta – comprensión lectora | para imprimir PDF",
+   "metaDescription": "«La noche de la tormenta»: se va la luz en casa de Leo y la noche a oscuras acaba siendo divertida. Cuento con tres preguntas de comprensión. PDF gratis."
+  },
+  {
+   "slug": "comprension-lectora-el-tren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Comprensión lectora",
+   "h1": "El tren de las montañas: leer con la ventanilla abierta",
+   "strand": "Lectura y comprensión",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "comprension-lectora",
+    "segundo-grado"
+   ],
+   "p1": "Esta ficha propone «El tren de las montañas», un cuento original de viaje: Sara y su padre toman el tren para visitar al tío Andrés, que vive en un pueblo de montaña. Por la ventanilla desfilan primero campos amarillos, después un río y al final montañas con nieve; en la estación esperan el tío y su perra Luna, que mueve tanto el rabo que Sara se ríe, y la tarde acaba con pan con miel junto a la chimenea. Las tres preguntas de opción múltiple preguntan a quién visitan, qué se ve al final desde la ventanilla y cómo sabemos que Luna se alegra.",
+   "p2": "Aquí el reto es doble. Por un lado, el orden: el paisaje llega en secuencia —campos, río, montañas— y la pregunta apunta justo al final de la serie, así que contestar bien exige haber leído con la secuencia en la cabeza y no con impresiones sueltas. Por otro, la lectura de pistas: el cuento nunca dice que Luna esté contenta, dice que mueve el rabo, y el lector debe reconocer esa señal como prueba de alegría. Datos en orden y conducta que delata emociones: dos herramientas que sirven igual para los cuentos que para los enunciados de problemas.",
+   "p3": "Imprime la ficha gratis en PDF y, después de corregir, reconstruid juntos el viaje de memoria: qué se vio primero, qué después. Si «La noche de la tormenta» enseñó a explicar un porqué, este cuento enseña a mirar los detalles con lupa. Para cerrar la serie con el texto más largo queda «La función de teatro», donde Hugo se juega tres frases delante de todo el mundo.",
+   "canonicalDeckSlug": "comprension-lectora-g2272",
+   "carousel": [
+    {
+     "label": "La función de teatro: la historia más larga de la serie",
+     "href": "comprension-lectora-el-teatro"
+    },
+    {
+     "label": "La caracola: un cuento corto de playa con tres preguntas",
+     "href": "comprension-lectora-la-caracola"
+    },
+    {
+     "label": "El huerto de la escuela: leer quién hace qué (y cuándo)",
+     "href": "comprension-lectora-el-huerto"
+    },
+    {
+     "label": "La noche de la tormenta: un final con sorpresa que hay que explicar",
+     "href": "comprension-lectora-la-tormenta"
+    }
+   ],
+   "title": "El tren de las montañas – comprensión lectora | para imprimir PDF",
+   "metaDescription": "«El tren de las montañas»: Sara viaja en tren a ver al tío Andrés y su perra Luna. Cuento original con tres preguntas de opción múltiple. PDF gratis."
+  },
+  {
+   "slug": "comprension-lectora-el-teatro",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "segundo-grado"
+   },
+   "eyebrow": "Comprensión lectora",
+   "h1": "La función de teatro: la historia más larga de la serie",
+   "strand": "Lectura y comprensión",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "comprension-lectora",
+    "segundo-grado"
+   ],
+   "p1": "En esta ficha se lee «La función de teatro», el cuento más largo de la serie: en la escuela de Hugo preparan una obra sobre el fondo del mar, a Hugo le toca hacer de pulpo y decir tres frases, en los ensayos se equivoca y pasa vergüenza, y su amiga Clara lo ayuda a practicar cada recreo, una frase tras otra. El día de la función, con el salón lleno de familias, Hugo respira hondo, dice sus tres frases sin fallo y, al saludar, busca a Clara con la mirada para darle las gracias en voz baja. Tres preguntas de opción múltiple acompañan la historia.",
+   "p2": "Un texto de esta extensión es un pequeño examen de resistencia lectora: hay más personajes, más tiempo narrativo —los ensayos, el gran día— y una emoción que cambia de la vergüenza a la satisfacción. Las preguntas siguen ese arco: el papel de Hugo es un dato, quién lo ayuda exige recordar el nudo, y el porqué de las gracias pide entender la historia entera, porque solo quien ha conectado los recreos con el triunfo final sabe qué le debe Hugo a Clara. Es comprensión de causas y de personas, la más valiosa de todas.",
+   "p3": "Descarga la ficha gratis en PDF y saboread el final: que el niño explique con sus palabras por qué Clara merece esas gracias. Quien haya subido toda la escalera —«La caracola», «El huerto de la escuela», «La tormenta», «El tren de las montañas»— llega aquí con las herramientas puestas; y quien empiece por este cuento y lo encuentre cuesta arriba, tiene cuatro peldaños más abajo esperándole.",
+   "canonicalDeckSlug": "comprension-lectora-g2273",
+   "carousel": [
+    {
+     "label": "La caracola: un cuento corto de playa con tres preguntas",
+     "href": "comprension-lectora-la-caracola"
+    },
+    {
+     "label": "El huerto de la escuela: leer quién hace qué (y cuándo)",
+     "href": "comprension-lectora-el-huerto"
+    },
+    {
+     "label": "La noche de la tormenta: un final con sorpresa que hay que explicar",
+     "href": "comprension-lectora-la-tormenta"
+    },
+    {
+     "label": "El tren de las montañas: leer con la ventanilla abierta",
+     "href": "comprension-lectora-el-tren"
+    }
+   ],
+   "title": "La función de teatro – comprensión lectora | para imprimir PDF",
+   "metaDescription": "«La función de teatro»: Hugo hace de pulpo, ensaya con su amiga Clara y triunfa el gran día. Cuento largo con tres preguntas de comprensión. PDF gratis."
+  },
+  {
+   "slug": "sumas-con-llevadas-dos-cifras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Cálculo escrito",
+   "h1": "Sumas con llevadas de dos cifras: el uno que viaja de columna",
+   "strand": "Cálculo escrito",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha propone sumas de dos cifras en columnas donde las unidades se desbordan: 8 más 7 son 15, y ese 1 no puede quedarse donde está. Encima de la columna de las decenas, cada operación trae una casilla punteada donde anotar la llevada antes de seguir sumando. El niño resuelve columna a columna —primero unidades, apunto la llevada si la hay, después decenas— y escribe cada resultado en su sitio, con las cifras bien alineadas.",
+   "p2": "La llevada no es un truco: es el valor posicional en acción. Cuando 8 y 7 hacen 15, lo que ocurre de verdad es que diez unidades se han convertido en una decena nueva que se muda a la columna de al lado, y el 1 de la casilla es esa decena de mudanza. Anotarla por escrito, en lugar de «llevarla en la cabeza», tiene dos ventajas en esta etapa: descarga la memoria, que aún se satura con facilidad, y deja rastro, de modo que si el resultado sale mal se puede ver exactamente en qué columna se torció. Con el tiempo la casilla sobrará; ahora es andamio.",
+   "p3": "Imprime la ficha gratis en PDF y corrige mirando las casillas antes que los resultados: ahí se ve el razonamiento. Cuando las dos cifras salgan con soltura, las sumas con llevadas de tres cifras estiran el mismo mecanismo una columna más allá, y las restas con llevadas presentan la operación hermana, donde en vez de llevar hay que pedir prestado.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g3359",
+   "carousel": [
+    {
+     "label": "Restas con llevadas: cuando hay que pedir prestado",
+     "href": "restas-con-llevadas"
+    },
+    {
+     "label": "Sumas con llevadas de tres cifras: hasta la columna de las centenas",
+     "href": "sumas-con-llevadas-tres-cifras"
+    },
+    {
+     "label": "Restas con llevadas y ceros: el caso 302 − 158",
+     "href": "restas-con-llevadas-y-ceros"
+    },
+    {
+     "label": "Repaso de llevadas: sumas y restas mezcladas en una hoja",
+     "href": "repaso-sumas-y-restas-con-llevadas"
+    }
+   ],
+   "title": "Sumas con llevadas de dos cifras – 3.º | para imprimir PDF",
+   "metaDescription": "Sumas con llevadas de dos cifras en columnas, con casilla punteada para anotar el uno que me llevo. Entender la llevada, no solo usarla. PDF gratis."
+  },
+  {
+   "slug": "restas-con-llevadas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Cálculo escrito",
+   "h1": "Restas con llevadas: cuando hay que pedir prestado",
+   "strand": "Cálculo escrito",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "tercer-grado"
+   ],
+   "p1": "En esta ficha se restan números de dos cifras en columnas, y en las operaciones la cifra de arriba no siempre alcanza: en 53 menos 27, el 3 no puede con el 7. Ahí entra la llevada de la resta: se deshace una decena del 53, las unidades pasan a ser trece, y la columna de las decenas se queda con una menos. El niño trabaja cada resta columna a columna, decide cuándo hace falta pedir prestado y cuándo no, y escribe el resultado alineado bajo la raya.",
+   "p2": "Si en la suma la decena nueva viaja hacia la izquierda, en la resta el viaje es al revés: una decena se deshace y vuelve convertida en diez unidades. Entender ese trueque —no memorizar «le pongo un uno al de al lado», sino saber qué se está cambiando por qué— es lo que separa al niño que resta con seguridad del que aplica una receta que se le olvida en vacaciones. Por eso conviene verbalizarlo mientras se resuelve: «como tres no llega, cambio una decena por diez unidades». La ficha mezcla restas que piden préstamo con otras que no, para que decidir sea parte del ejercicio.",
+   "p3": "Descarga la ficha gratis en PDF y pide que marque, antes de resolver, las restas donde hará falta préstamo: ese vistazo previo es medio camino. Las sumas con llevadas de dos cifras son la pareja natural de esta hoja, y cuando el préstamo sencillo esté dominado, las restas con llevadas y ceros traen el caso más famoso del algoritmo: pedirle prestado a una columna que está a cero.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g3360",
+   "carousel": [
+    {
+     "label": "Sumas con llevadas de tres cifras: hasta la columna de las centenas",
+     "href": "sumas-con-llevadas-tres-cifras"
+    },
+    {
+     "label": "Restas con llevadas y ceros: el caso 302 − 158",
+     "href": "restas-con-llevadas-y-ceros"
+    },
+    {
+     "label": "Repaso de llevadas: sumas y restas mezcladas en una hoja",
+     "href": "repaso-sumas-y-restas-con-llevadas"
+    },
+    {
+     "label": "Sumas con llevadas de dos cifras: el uno que viaja de columna",
+     "href": "sumas-con-llevadas-dos-cifras"
+    }
+   ],
+   "title": "Restas con llevadas de dos cifras – 3.º | para imprimir PDF",
+   "metaDescription": "Restas con llevadas de dos cifras en columnas: cuando la cifra de arriba no alcanza, se deshace una decena y se piden prestadas diez unidades. PDF gratis."
+  },
+  {
+   "slug": "sumas-con-llevadas-tres-cifras",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Cálculo escrito",
+   "h1": "Sumas con llevadas de tres cifras: hasta la columna de las centenas",
+   "strand": "Cálculo escrito",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha lleva la suma en columnas al terreno de las tres cifras: números como 347 y 285, unos debajo de otros, con sus casillas punteadas para anotar las llevadas. La novedad respecto a las sumas de dos cifras es que aquí la llevada puede aparecer dos veces en la misma operación: las unidades desbordan hacia las decenas, y las decenas —a veces cargando con esa llevada recién llegada— desbordan a su vez hacia las centenas. Tres columnas, mismo ritmo: resolver, anotar si hace falta, avanzar.",
+   "p2": "El valor de esta hoja está en la cadena. Con dos cifras la llevada es un episodio; con tres se convierte en un sistema, porque el niño comprueba que el mecanismo se repite igual en cada frontera: diez unidades hacen una decena, diez decenas hacen una centena, y siempre es un 1 el que cruza a la columna siguiente. Quien entiende esa repetición ya no necesita aprender nada nuevo para sumar números de cuatro o cinco cifras: el algoritmo escala solo. El error típico aquí es olvidar la llevada intermedia justo cuando la columna de las decenas ya venía cargada, y las casillas están para atraparlo.",
+   "p3": "Imprime la ficha gratis en PDF y, en las operaciones con doble llevada, celebra el proceso más que el resultado: dos casillas bien anotadas son la prueba de que el sistema se ha entendido. Como calentamiento sirven las sumas con llevadas de dos cifras, y el desafío gemelo del otro lado es la resta con llevadas y ceros, donde el algoritmo enseña su cara más difícil.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g3361",
+   "carousel": [
+    {
+     "label": "Restas con llevadas y ceros: el caso 302 − 158",
+     "href": "restas-con-llevadas-y-ceros"
+    },
+    {
+     "label": "Repaso de llevadas: sumas y restas mezcladas en una hoja",
+     "href": "repaso-sumas-y-restas-con-llevadas"
+    },
+    {
+     "label": "Sumas con llevadas de dos cifras: el uno que viaja de columna",
+     "href": "sumas-con-llevadas-dos-cifras"
+    },
+    {
+     "label": "Restas con llevadas: cuando hay que pedir prestado",
+     "href": "restas-con-llevadas"
+    }
+   ],
+   "title": "Sumas con llevadas de tres cifras – 3.º | para imprimir PDF",
+   "metaDescription": "Sumas con llevadas de tres cifras en columnas: la llevada puede aparecer dos veces, de unidades a decenas y de decenas a centenas. PDF gratis para imprimir."
+  },
+  {
+   "slug": "restas-con-llevadas-y-ceros",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Cálculo escrito",
+   "h1": "Restas con llevadas y ceros: el caso 302 − 158",
+   "strand": "Cálculo escrito",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha se planta delante de la resta más temida de primaria: la del tipo 302 menos 158. El 2 no puede con el 8 y toca pedir prestado, pero la columna vecina tiene un cero: no hay decenas a las que recurrir. La solución hay que ir a buscarla una puerta más allá: una centena se deshace en diez decenas, una de esas decenas se deshace en diez unidades, y solo entonces se puede restar. Todas las operaciones de la hoja contienen ceros en el minuendo, porque este caso no se domina de refilón: se domina practicándolo.",
+   "p2": "El cero es donde el algoritmo demuestra si se entendió o solo se memorizó. Quien aprendió la receta corta —«tacho y pongo un uno»— se queda sin pasos cuando la columna está vacía; quien entiende que pedir prestado es deshacer una unidad del orden superior simplemente repite la idea dos veces. Por eso este es el mejor diagnóstico de comprensión del valor posicional que existe en 3.º: barato, rápido y no falla. Merece la pena resolver la primera operación en voz alta y a cámara lenta, dejando cada tachadura escrita, antes de soltar al niño con el resto de la hoja.",
+   "p3": "Descarga la ficha gratis en PDF y no te alarmes si las primeras salen mal: este caso pide su propio rato de práctica, y para eso existe la hoja. El escalón anterior son las restas con llevadas sencillas, sin ceros de por medio, y cuando la trampa del cero esté vencida, el repaso de sumas y restas con llevadas mezcla todos los casos para comprobar que la victoria es definitiva.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g3362",
+   "carousel": [
+    {
+     "label": "Repaso de llevadas: sumas y restas mezcladas en una hoja",
+     "href": "repaso-sumas-y-restas-con-llevadas"
+    },
+    {
+     "label": "Sumas con llevadas de dos cifras: el uno que viaja de columna",
+     "href": "sumas-con-llevadas-dos-cifras"
+    },
+    {
+     "label": "Restas con llevadas: cuando hay que pedir prestado",
+     "href": "restas-con-llevadas"
+    },
+    {
+     "label": "Sumas con llevadas de tres cifras: hasta la columna de las centenas",
+     "href": "sumas-con-llevadas-tres-cifras"
+    }
+   ],
+   "title": "Restas con llevadas y ceros – 3.º | para imprimir PDF",
+   "metaDescription": "Restas con ceros del tipo 302 − 158: cuando la columna vecina está a cero, el préstamo viaja hasta las centenas. La trampa del cero, resuelta. PDF gratis."
+  },
+  {
+   "slug": "repaso-sumas-y-restas-con-llevadas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Cálculo escrito",
+   "h1": "Repaso de llevadas: sumas y restas mezcladas en una hoja",
+   "strand": "Cálculo escrito",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "sumas-y-restas-en-columna",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha es el examen amistoso del cálculo escrito con llevadas: sumas y restas mezcladas, de dos y de tres cifras, unas con llevada y otras sin ella, todas en columnas. Aquí el niño ya no sabe de antemano qué toca: antes de calcular tiene que mirar el signo, decidir si es suma o resta, y sobre la marcha detectar si habrá que llevar, pedir prestado o ninguna de las dos cosas. Las sumas conservan sus casillas punteadas para la llevada; las restas piden sus tachaduras de siempre.",
+   "p2": "Mezclar es lo que convierte la técnica en dominio. Practicadas por separado, las llevadas de la suma y de la resta funcionan; mezcladas, empiezan a contaminarse, y aparece el error clásico de tercero: sumar la llevada en una resta o restar donde había que llevar. Este repaso existe para provocar esas confusiones en el papel, donde son baratas, y limpiarlas antes de que lleguen a los problemas. La decisión previa —¿qué operación es y qué me va a pedir?— es además el mismo gesto mental que exigirá cualquier problema de enunciado, donde nadie avisa de qué técnica toca.",
+   "p3": "Imprime la ficha gratis en PDF y úsala como termómetro: los aciertos dirán qué está maduro y los fallos señalarán a qué hoja volver, ya sean las sumas con llevadas de tres cifras o las restas con llevadas y ceros. Y cuando esta hoja salga limpia, el cálculo escrito está listo para su siguiente aventura: las tablas de multiplicar, empezando por la tabla del 2.",
+   "canonicalDeckSlug": "sumas-y-restas-en-columna-g3363",
+   "carousel": [
+    {
+     "label": "Sumas con llevadas de dos cifras: el uno que viaja de columna",
+     "href": "sumas-con-llevadas-dos-cifras"
+    },
+    {
+     "label": "Restas con llevadas: cuando hay que pedir prestado",
+     "href": "restas-con-llevadas"
+    },
+    {
+     "label": "Sumas con llevadas de tres cifras: hasta la columna de las centenas",
+     "href": "sumas-con-llevadas-tres-cifras"
+    },
+    {
+     "label": "Restas con llevadas y ceros: el caso 302 − 158",
+     "href": "restas-con-llevadas-y-ceros"
+    }
+   ],
+   "title": "Repaso de sumas y restas con llevadas | para imprimir PDF",
+   "metaDescription": "Repaso de llevadas: sumas y restas mezcladas en columnas, con dos y tres cifras. Primero decidir qué técnica toca, después calcular. PDF gratis para imprimir."
+  },
+  {
+   "slug": "tabla-del-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Tablas de multiplicar",
+   "h1": "La tabla del 2: multiplicar es cosa de dobles",
+   "strand": "Multiplicación",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tablas-de-multiplicar",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha presenta la tabla del 2 completa: la escalera entera del 1 × 2 al 10 × 2, cada multiplicación con el signo × y su casilla para escribir el resultado. El niño sube peldaño a peldaño —2, 4, 6, 8…— y rellena las diez casillas hasta rematar el 10 × 2 = 20. Es la primera tabla que se estudia de verdad, y trae ventaja escondida: multiplicar por 2 es exactamente hallar el doble, y los dobles ya viven en la cabeza desde las sumas de segundo.",
+   "p2": "Empezar por el 2 es empezar ganando. Como 7 × 2 no es más que 7 + 7, el niño descubre que la multiplicación no es una materia nueva, sino una forma abreviada de algo que ya domina, y ese descubrimiento marca el tono de todas las tablas siguientes. La escalera ordenada tiene además su propio mensaje: cada resultado está dos unidades por encima del anterior, y verlo en columna hace visible el ritmo de los números pares. Conviene practicarla primero en orden, para asentar el patrón, y después salteada, tapando resultados sueltos, que es como la pedirán los problemas.",
+   "p3": "Descarga la ficha gratis en PDF y remátala en dos sesiones cortas mejor que en una larga: las tablas se fijan durmiendo. Cuando el 2 salga sin pensar, hay un secreto que contar: la tabla del 4 es la del 2 doblada, así que ya está medio aprendida. Y la tabla del 5, con su ritmo de cinco en cinco, es la otra puerta amable para seguir.",
+   "canonicalDeckSlug": "tablas-de-multiplicar-g3364",
+   "carousel": [
+    {
+     "label": "La tabla del 5: de cinco en cinco, como el reloj",
+     "href": "tabla-del-5"
+    },
+    {
+     "label": "La tabla del 10: el cero que lo dice todo",
+     "href": "tabla-del-10"
+    },
+    {
+     "label": "La tabla del 3: aquí empieza la memoria de verdad",
+     "href": "tabla-del-3"
+    },
+    {
+     "label": "La tabla del 4: el doble de la tabla del 2",
+     "href": "tabla-del-4"
+    }
+   ],
+   "title": "Tabla del 2 – multiplicar con dobles | para imprimir PDF",
+   "metaDescription": "La tabla del 2 completa, del 1 × 2 al 10 × 2, con casillas para el resultado: multiplicar por 2 es hallar el doble, y los dobles ya se saben. PDF gratis."
+  },
+  {
+   "slug": "tabla-del-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Tablas de multiplicar",
+   "h1": "La tabla del 5: de cinco en cinco, como el reloj",
+   "strand": "Multiplicación",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tablas-de-multiplicar",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha despliega la tabla del 5 entera: del 1 × 5 al 10 × 5, cada operación con su signo × y su casilla vacía esperando el resultado. La serie que el niño va escribiendo —5, 10, 15, 20, 25…— le sonará enseguida, porque es la misma cantinela de contar de cinco en cinco que ya practicó con los dedos de una mano y con las monedas. Diez peldaños después, la escalera termina redonda en el 50.",
+   "p2": "La tabla del 5 tiene el patrón más limpio de todas: los resultados acaban siempre en 5 o en 0, alternándose sin excepción, y esa regularidad la convierte en terreno ideal para aprender a apoyarse en patrones en lugar de memorizar a ciegas. Un niño que sabe que 7 × 5 tiene que acabar en 5 ya puede vigilar sus propias respuestas. Además es la tabla con premio inmediato fuera de la escuela: los minutos del reloj van de cinco en cinco, así que dominar esta escalera es media lectura de la hora. Pocas veces una tabla se deja usar tan pronto en la vida real.",
+   "p3": "Imprime la ficha gratis en PDF y busca el patrón juntos antes de memorizar nada: que el niño descubra solo el baile del 5 y el 0. En la escalera de las tablas, esta es la compañera perfecta de la tabla del 2, la de los dobles, y prepara de maravilla la tabla del 10, que lleva el mismo truco de las terminaciones a su versión más elegante.",
+   "canonicalDeckSlug": "tablas-de-multiplicar-g3365",
+   "carousel": [
+    {
+     "label": "La tabla del 10: el cero que lo dice todo",
+     "href": "tabla-del-10"
+    },
+    {
+     "label": "La tabla del 3: aquí empieza la memoria de verdad",
+     "href": "tabla-del-3"
+    },
+    {
+     "label": "La tabla del 4: el doble de la tabla del 2",
+     "href": "tabla-del-4"
+    },
+    {
+     "label": "La tabla del 2: multiplicar es cosa de dobles",
+     "href": "tabla-del-2"
+    }
+   ],
+   "title": "Tabla del 5 – contar de cinco en cinco | para imprimir PDF",
+   "metaDescription": "La tabla del 5 completa, del 1 × 5 al 10 × 5, con casillas para el resultado: todo acaba en 5 o en 0, como los minutos del reloj. PDF gratis para imprimir."
+  },
+  {
+   "slug": "tabla-del-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Tablas de multiplicar",
+   "h1": "La tabla del 10: el cero que lo dice todo",
+   "strand": "Multiplicación",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tablas-de-multiplicar",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha recorre la tabla del 10 al completo: del 1 × 10 al 10 × 10, con el signo × y una casilla para cada resultado. El niño la rellena y el patrón salta a la vista casi de inmediato: 10, 20, 30, 40… cada resultado es el número de partida con un cero detrás, hasta llegar al 10 × 10 = 100, el primer resultado de tres cifras que escribe en una tabla.",
+   "p2": "Sería un error despachar esta tabla como «la fácil», porque lo que enseña es enorme: ese cero que aparece no es un adorno, es valor posicional puro. Multiplicar 7 por 10 convierte 7 unidades en 7 decenas, y por eso el 7 se desplaza un lugar a la izquierda dejando un cero de recuerdo. El niño que entiende ese movimiento —y no solo la regla de «añade un cero»— tiene en la mano la llave de multiplicar por 20, por 100 o por 1000 el día de mañana. La tabla del 10 es, en el fondo, la primera lección sobre cómo está construido nuestro sistema de numeración.",
+   "p3": "Descarga la ficha gratis en PDF y, al corregirla, pregunta la buena pregunta: ¿por qué aparece ese cero? Vale más una explicación torpe con sus palabras que la regla recitada. En la familia de las tablas, esta cierra el trío amable junto a la tabla del 2 y la tabla del 5; después llega la tabla del 3, donde empieza la memorización de verdad.",
+   "canonicalDeckSlug": "tablas-de-multiplicar-g3366",
+   "carousel": [
+    {
+     "label": "La tabla del 3: aquí empieza la memoria de verdad",
+     "href": "tabla-del-3"
+    },
+    {
+     "label": "La tabla del 4: el doble de la tabla del 2",
+     "href": "tabla-del-4"
+    },
+    {
+     "label": "La tabla del 2: multiplicar es cosa de dobles",
+     "href": "tabla-del-2"
+    },
+    {
+     "label": "La tabla del 5: de cinco en cinco, como el reloj",
+     "href": "tabla-del-5"
+    }
+   ],
+   "title": "Tabla del 10 – ficha para practicar | para imprimir PDF",
+   "metaDescription": "La tabla del 10 completa, del 1 × 10 al 10 × 10: cada resultado es el número con un cero detrás, puro valor posicional. Ficha en PDF gratis para imprimir."
+  },
+  {
+   "slug": "tabla-del-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Tablas de multiplicar",
+   "h1": "La tabla del 3: aquí empieza la memoria de verdad",
+   "strand": "Multiplicación",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tablas-de-multiplicar",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha planta delante del niño la tabla del 3 completa: del 1 × 3 al 10 × 3, cada multiplicación con su signo × y su casilla en blanco. La serie que hay que construir —3, 6, 9, 12, 15…— ya no se apoya en dobles ni en terminaciones cantarinas: el 3 es la primera tabla que hay que ganarse a pulso, y por eso esta hoja es probablemente la más importante de toda la colección de tablas.",
+   "p2": "Hasta aquí, cada tabla tenía su atajo: el 2 eran dobles, el 5 y el 10 llevaban el resultado escrito en la terminación. Con el 3 el niño estrena la herramienta que le servirá para el 6, el 7 y el 8: la memorización honesta, por repetición espaciada y en tandas cortas. Eso no significa memorizar a ciegas: cuando un peldaño se atasca —el 7 × 3 y el 8 × 3 son los sospechosos habituales—, se puede reconstruir desde uno seguro, «si 7 × 3 no me sale, sé que 6 × 3 son 18, y tres más, 21». Saber rescatarse así es media fluidez, y se entrena justo en esta tabla.",
+   "p3": "Imprime la ficha gratis en PDF y dosifícala: cinco minutos diarios durante una semana rinden más que una tarde entera. Conviene llegar aquí con la tabla del 2 y la tabla del 5 firmes, para que la memoria trabaje sobre confianza. Y hay recompensa esperando: con el 3 dominado, la tabla del 4 se conquista con un solo truco, doblar lo que ya se sabe del 2.",
+   "canonicalDeckSlug": "tablas-de-multiplicar-g3367",
+   "carousel": [
+    {
+     "label": "La tabla del 4: el doble de la tabla del 2",
+     "href": "tabla-del-4"
+    },
+    {
+     "label": "La tabla del 2: multiplicar es cosa de dobles",
+     "href": "tabla-del-2"
+    },
+    {
+     "label": "La tabla del 5: de cinco en cinco, como el reloj",
+     "href": "tabla-del-5"
+    },
+    {
+     "label": "La tabla del 10: el cero que lo dice todo",
+     "href": "tabla-del-10"
+    }
+   ],
+   "title": "Tabla del 3 – ficha para memorizar | para imprimir PDF",
+   "metaDescription": "La tabla del 3 completa, del 1 × 3 al 10 × 3, con casillas para el resultado: la primera tabla sin truco fácil, la que se gana memorizando. PDF gratis."
+  },
+  {
+   "slug": "tabla-del-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "tercer-grado"
+   },
+   "eyebrow": "Tablas de multiplicar",
+   "h1": "La tabla del 4: el doble de la tabla del 2",
+   "strand": "Multiplicación",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tablas-de-multiplicar",
+    "tercer-grado"
+   ],
+   "p1": "Esta ficha propone la tabla del 4 completa: del 1 × 4 al 10 × 4, con el signo × y una casilla para cada resultado. Antes de rellenar ninguna, merece la pena contar el secreto de esta tabla: multiplicar por 4 es multiplicar por 2 dos veces. Como 4 es el doble de 2, cada peldaño de esta escalera —4, 8, 12, 16…— es exactamente el doble del peldaño correspondiente de la tabla del 2, hasta cerrar en el 10 × 4 = 40.",
+   "p2": "Ese parentesco convierte la tabla del 4 en la lección perfecta sobre cómo se relacionan las tablas entre sí. Si 7 × 2 son 14, entonces 7 × 4 son 28: el doble. Un niño que usa ese puente no está haciendo trampa, está haciendo matemáticas; está descubriendo que las tablas no son diez listas sueltas sino una red donde unas sostienen a otras. La estrategia de doblar sirve de red de seguridad mientras la memoria termina su trabajo, porque el objetivo final sigue siendo que 6 × 4 salga solo, sin peaje. Práctica en orden primero, salteada después, y el puente del doble para los peldaños que se resistan.",
+   "p3": "Descarga la ficha gratis en PDF y haz la prueba estrella: preguntar seguidos 6 × 2 y 6 × 4, y que el niño note el doble con sus propios oídos. Para que el truco funcione, la tabla del 2 tiene que estar fresca, y la tabla del 3 es la vecina con la que esta suele repasarse a pares. Con el 2, el 3, el 4, el 5 y el 10 en el bolsillo, más de media multiplicación de primaria está ganada.",
+   "canonicalDeckSlug": "tablas-de-multiplicar-g3368",
+   "carousel": [
+    {
+     "label": "La tabla del 2: multiplicar es cosa de dobles",
+     "href": "tabla-del-2"
+    },
+    {
+     "label": "La tabla del 5: de cinco en cinco, como el reloj",
+     "href": "tabla-del-5"
+    },
+    {
+     "label": "La tabla del 10: el cero que lo dice todo",
+     "href": "tabla-del-10"
+    },
+    {
+     "label": "La tabla del 3: aquí empieza la memoria de verdad",
+     "href": "tabla-del-3"
+    }
+   ],
+   "title": "Tabla del 4 – el doble de la tabla del 2 | para imprimir PDF",
+   "metaDescription": "La tabla del 4 completa, del 1 × 4 al 10 × 4, con casillas para el resultado: cada producto es el doble de la tabla del 2, medio camino ya hecho. PDF gratis."
   }
  ]
 }

@@ -173506,6 +173506,1097 @@
    ],
    "title": "Times Tables Practice for Grade 3 | Free Printable PDF",
    "metaDescription": "Times tables worksheet: twelve mixed multiplication facts to answer for instant recall. Free printable Grade 3 PDF for daily fact fluency practice."
+  },
+  {
+   "slug": "number-tracing-0-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Tracing Worksheet",
+   "h1": "Number Tracing 0 to 4: Big Digits, First Strokes",
+   "strand": "Handwriting & Numeral Formation",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "number-tracing",
+    "kindergarten"
+   ],
+   "p1": "This number tracing worksheet takes the five easiest digits — 0, 1, 2, 3 and 4 — and prints them big, so a brand-new writer has room to work. Each numeral appears as a row of large dashed models. The child sets the pencil on the orange dot, follows the little arrows, and traces the digit again and again across the row. That is the whole task: five friendly numbers, traced slowly and often, with the start dot and the arrows doing the coaching.",
+   "p2": "The very first thing to teach about writing numbers is not the shape — it is where the pencil begins. A child who starts the 2 at the top curve and the 4 at the top of its first stroke will write those digits cleanly for life; a child who improvises a starting point each time builds a habit that is hard to undo later. This page exists to plant that habit while the digits are still simple. The 1 is a single line, the 0 a single curve, the 4 two straight strokes — nothing here fights the hand, so all of the child's attention can go to the orange dot and the direction of travel.",
+   "p3": "The page prints free as a PDF, and one digit per sitting is plenty at this stage. When 0 to 4 feel comfortable, the number tracing 5 to 9 sheet brings on the curvier second half of the digits, and later the trace-and-write numbers page lets the child prove each numeral without any dashes at all.",
+   "canonicalDeckSlug": "number-tracing-k249",
+   "carousel": [
+    {
+     "label": "Number Tracing 5 to 9: The Tricky Half",
+     "href": "number-tracing-5-9"
+    },
+    {
+     "label": "Trace and Write the Numbers 0 to 9",
+     "href": "trace-and-write-numbers-0-9"
+    },
+    {
+     "label": "Number Tracing 1 to 10: All the Way to Two Digits",
+     "href": "number-tracing-1-10"
+    },
+    {
+     "label": "Teen Number Tracing 11 to 20",
+     "href": "teen-number-tracing-11-20"
+    }
+   ],
+   "title": "Number Tracing 0-4 Worksheet | Free Printable PDF",
+   "metaDescription": "Number tracing worksheet for digits 0 to 4: big dashed numerals with orange start dots and stroke arrows for first-time writers. Free printable PDF."
+  },
+  {
+   "slug": "number-tracing-5-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Tracing Worksheet",
+   "h1": "Number Tracing 5 to 9: The Tricky Half",
+   "strand": "Handwriting & Numeral Formation",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "number-tracing",
+    "kindergarten"
+   ],
+   "p1": "This number tracing worksheet covers the second half of the digits — 5, 6, 7, 8 and 9 — in the same big format young hands need. Every numeral comes as a row of large dashed copies; the child places the pencil on the orange starting dot and traces along the arrows until the row is done. These are the digits with the awkward turns: the 5 changes direction twice, the 8 crosses itself, and the 9 starts with a circle where children expect a line.",
+   "p2": "The digits on this page are exactly the ones that most often come out backwards. A 5 flipped left-to-right, a 7 facing the wrong way, a 9 that turns into a lowercase g — these reversals are completely normal at this age, and the cure is not correction after the fact but correct movement from the start. That is what the arrows are for. When the hand practices the true stroke path dozens of times — start at the dot, travel the way the arrow points — the reversed version simply never gets rehearsed, and the correct form becomes the automatic one. Ten slow, accurate traces do more here than fifty rushed ones.",
+   "p3": "Print the PDF free and treat the 8 and the 9 as their own little projects — they deserve an extra day each. This sheet is the natural sequel to number tracing 0 to 4, and once all ten digits flow, the trace-and-write numbers page removes the training wheels one slot at a time.",
+   "canonicalDeckSlug": "number-tracing-k250",
+   "carousel": [
+    {
+     "label": "Trace and Write the Numbers 0 to 9",
+     "href": "trace-and-write-numbers-0-9"
+    },
+    {
+     "label": "Number Tracing 1 to 10: All the Way to Two Digits",
+     "href": "number-tracing-1-10"
+    },
+    {
+     "label": "Teen Number Tracing 11 to 20",
+     "href": "teen-number-tracing-11-20"
+    },
+    {
+     "label": "Number Tracing 0 to 4: Big Digits, First Strokes",
+     "href": "number-tracing-0-4"
+    }
+   ],
+   "title": "Number Tracing 5-9 Worksheet | Free Printable PDF",
+   "metaDescription": "Number tracing worksheet for digits 5 to 9: big dashed models with start dots and arrows that keep tricky numerals from flipping. Free printable PDF."
+  },
+  {
+   "slug": "trace-and-write-numbers-0-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Tracing Worksheet",
+   "h1": "Trace and Write the Numbers 0 to 9",
+   "strand": "Handwriting & Numeral Formation",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "number-tracing",
+    "kindergarten"
+   ],
+   "p1": "This trace-and-write worksheet runs through all ten digits, 0 to 9, and adds the step that turns tracing into real writing: at the end of each row, after the dashed models, there is an empty space where the child writes the numeral entirely on their own. Trace, trace, trace — and then one honest attempt with no dashes to lean on. Every row ends with that small moment of independence.",
+   "p2": "The jump from tracing to writing alone is the whole point of numeral practice, and it is easy to postpone forever. A child can trace beautifully for weeks and still freeze in front of a blank space, because tracing borrows the shape from the page while writing must pull it from memory. The empty slot on every row makes the handover happen ten times per sheet, in the gentlest possible way: the child has just traced the digit seconds earlier, so the shape is warm in the hand when the blank arrives. It also gives an adult an instant, honest reading of which digits have truly landed — the freshly written numeral tells the truth in a way traced dashes never can.",
+   "p3": "The PDF prints free, and comparing this week's solo digits with last week's is genuinely encouraging for a child. If a numeral wobbles in the empty slot, a quick return to number tracing 5 to 9 rebuilds it; when all ten stand firm, number tracing 1 to 10 introduces the first two-digit number.",
+   "canonicalDeckSlug": "number-tracing-k251",
+   "carousel": [
+    {
+     "label": "Number Tracing 1 to 10: All the Way to Two Digits",
+     "href": "number-tracing-1-10"
+    },
+    {
+     "label": "Teen Number Tracing 11 to 20",
+     "href": "teen-number-tracing-11-20"
+    },
+    {
+     "label": "Number Tracing 0 to 4: Big Digits, First Strokes",
+     "href": "number-tracing-0-4"
+    },
+    {
+     "label": "Number Tracing 5 to 9: The Tricky Half",
+     "href": "number-tracing-5-9"
+    }
+   ],
+   "title": "Trace and Write Numbers 0-9 | Free Printable PDF",
+   "metaDescription": "Trace and write the numbers 0 to 9: dashed digits to trace, then an empty space where the child writes each numeral alone. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "number-tracing-1-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Tracing Worksheet",
+   "h1": "Number Tracing 1 to 10: All the Way to Two Digits",
+   "strand": "Handwriting & Numeral Formation",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "number-tracing",
+    "kindergarten"
+   ],
+   "p1": "This number tracing worksheet follows the counting numbers 1 to 10 — the exact sequence a child chants every day — and ends with something new. The rows for 1 through 9 work like classic tracing: pencil on the orange dot, follow the arrows, trace the dashed models across the line. Then comes the 10, and for the first time the lane holds two digits side by side: a 1 and a 0, traced together as one number.",
+   "p2": "Writing 10 looks like a small step and is actually a big idea. Until now, every number was a single mark; suddenly one number is built out of two digits standing in order, and the order is the meaning — 10 is not 01. Tracing the pair inside one lane lets the child feel that composition physically: first the 1, then the 0 right beside it, close but not touching, a team rather than two strangers. Because the sheet runs in counting order, the child also rehearses the sequence itself while writing it, which quietly ties the spoken chant, the counted quantity and the written numeral into one bundle.",
+   "p3": "Print the PDF free and let the child crown each session by writing the grand two-digit 10 with full ceremony. From here, teen number tracing 11 to 20 continues straight up the number line, and the trace-and-write numbers page is the place to test how many of these digits now stand on their own.",
+   "canonicalDeckSlug": "number-tracing-k252",
+   "carousel": [
+    {
+     "label": "Teen Number Tracing 11 to 20",
+     "href": "teen-number-tracing-11-20"
+    },
+    {
+     "label": "Number Tracing 0 to 4: Big Digits, First Strokes",
+     "href": "number-tracing-0-4"
+    },
+    {
+     "label": "Number Tracing 5 to 9: The Tricky Half",
+     "href": "number-tracing-5-9"
+    },
+    {
+     "label": "Trace and Write the Numbers 0 to 9",
+     "href": "trace-and-write-numbers-0-9"
+    }
+   ],
+   "title": "Number Tracing 1-10 Worksheet | Free Printable PDF",
+   "metaDescription": "Number tracing worksheet 1 to 10: trace each counting number up to the first two-digit numeral, with start dots and arrows. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "teen-number-tracing-11-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Number Tracing Worksheet",
+   "h1": "Teen Number Tracing 11 to 20",
+   "strand": "Handwriting & Numeral Formation",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "number-tracing",
+    "kindergarten"
+   ],
+   "p1": "This tracing worksheet is all two-digit work: the teen numbers 11 to 20, each written in its own wide lane built for a pair of digits. The child starts every digit on its orange dot, follows the arrows, and traces the two numerals of each teen number side by side — the 1 first, then its partner. Ten lanes, ten teen numbers, every one of them a small exercise in keeping two digits straight, even and in the right order.",
+   "p2": "Teen numbers are famously slippery, and English is partly to blame: we say \"fourteen\" but write the 1 first, so children who spell the word with their ears write 41. Tracing the teens in full — always the 1 on the left, always the partner digit on the right — attacks that confusion with the hand instead of a lecture. Lane after lane, the child physically rehearses the truth that every teen number is a ten and some more: the leading 1 is the ten, the second digit counts the extras. That is place value sneaking in through handwriting practice, months before anyone calls it place value.",
+   "p3": "The page prints free as a PDF and rewards saying each number aloud while tracing it — eyes, ears and hand voting together. It follows on directly from number tracing 1 to 10, and when the teens are steady, the letter tracing pages give the same careful pencil a whole alphabet to conquer.",
+   "canonicalDeckSlug": "number-tracing-k253",
+   "carousel": [
+    {
+     "label": "Number Tracing 0 to 4: Big Digits, First Strokes",
+     "href": "number-tracing-0-4"
+    },
+    {
+     "label": "Number Tracing 5 to 9: The Tricky Half",
+     "href": "number-tracing-5-9"
+    },
+    {
+     "label": "Trace and Write the Numbers 0 to 9",
+     "href": "trace-and-write-numbers-0-9"
+    },
+    {
+     "label": "Number Tracing 1 to 10: All the Way to Two Digits",
+     "href": "number-tracing-1-10"
+    }
+   ],
+   "title": "Teen Number Tracing 11-20 | Free Printable PDF",
+   "metaDescription": "Teen number tracing worksheet 11 to 20: two-digit lanes with start dots and stroke arrows for every tricky teen numeral. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "letter-tracing-g-to-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Letter Tracing Worksheet",
+   "h1": "Letter Tracing G to L on Handwriting Lines",
+   "strand": "Handwriting & Letter Formation",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "letter-tracing",
+    "kindergarten"
+   ],
+   "p1": "This letter tracing worksheet picks up the alphabet at G and carries it through L — the capitals G, H, I, J, K and L, each on its own handwriting line. The child traces the dashed models one by one, and every line saves its final spot for the real test: an empty space where the letter is written alone, no dashes, no guide. Six letters, six little rows of practice, six solo finishes.",
+   "p2": "This middle stretch of the alphabet is a quiet turning point. G asks for a curve that stops and comes back in — the first capital that does not simply flow to its end. K brings the alphabet's first genuinely tricky diagonals, two slanted strokes that must meet the upright at just the right spot. Around them sit H, I, J and L, friendly straight-line letters that give the hand a rest between challenges. That mix is what makes the set work: effort, relief, effort, relief. And because the child has left the famous ABC opening behind, this page is where letter practice stops being a song they know and becomes real letter-by-letter craftsmanship.",
+   "p3": "Print the PDF free and give G and K a second lap on another day — they earn it. The journey continues with letter tracing M to R, and if the child is still warming up, the big letters A to D page is a gentler on-ramp to come back to.",
+   "canonicalDeckSlug": "letter-tracing-k254",
+   "carousel": [
+    {
+     "label": "Letter Tracing M to R: Points, Bumps and Loops",
+     "href": "letter-tracing-m-to-r"
+    },
+    {
+     "label": "Letter Tracing S to Z: Finishing the Alphabet",
+     "href": "letter-tracing-s-to-z"
+    },
+    {
+     "label": "Vowel Tracing: A, E, I, O, U",
+     "href": "vowel-tracing-a-e-i-o-u"
+    },
+    {
+     "label": "My First Big Letters: Tracing A, B, C and D",
+     "href": "big-letter-tracing-abcd"
+    }
+   ],
+   "title": "Letter Tracing G to L Worksheet | Free Printable PDF",
+   "metaDescription": "Letter tracing worksheet G to L: trace each capital on handwriting lines, then write one alone on the empty line. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "letter-tracing-m-to-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Letter Tracing Worksheet",
+   "h1": "Letter Tracing M to R: Points, Bumps and Loops",
+   "strand": "Handwriting & Letter Formation",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "letter-tracing",
+    "kindergarten"
+   ],
+   "p1": "This letter tracing worksheet covers the heart of the alphabet: the capitals M, N, O, P, Q and R. Each letter sits on a handwriting line as a row of dashed models to trace, and each row ends with an empty space where the child writes that capital with no help at all. The set walks the pencil through three very different jobs — the sharp up-down-up-down of M and N, the single smooth circle of O, and the stick-plus-bump builds of P, Q and R.",
+   "p2": "Sorting letters by how they are built is one of the most useful things a handwriting page can do, and this stretch of the alphabet sorts itself beautifully. M and N are pure zigzag — the pencil never leaves the paper, it just changes direction at the peaks. O is the round family in its purest form. P, R and Q each start from something simple and add one feature: P hangs a bump on a stick, R hangs the bump and kicks out a leg, Q draws an O and gives it a tail. When a child notices these family resemblances — and tracing them back to back makes that almost automatic — new letters stop being six separate mysteries and become variations on moves the hand already owns.",
+   "p3": "The sheet prints free as a PDF, and asking the child which two letters felt like cousins makes a lovely end to the session. Letter tracing S to Z finishes the alphabet next, while the vowels page is a perfect quick review day in between.",
+   "canonicalDeckSlug": "letter-tracing-k255",
+   "carousel": [
+    {
+     "label": "Letter Tracing S to Z: Finishing the Alphabet",
+     "href": "letter-tracing-s-to-z"
+    },
+    {
+     "label": "Vowel Tracing: A, E, I, O, U",
+     "href": "vowel-tracing-a-e-i-o-u"
+    },
+    {
+     "label": "My First Big Letters: Tracing A, B, C and D",
+     "href": "big-letter-tracing-abcd"
+    },
+    {
+     "label": "Letter Tracing G to L on Handwriting Lines",
+     "href": "letter-tracing-g-to-l"
+    }
+   ],
+   "title": "Letter Tracing M to R Worksheet | Free Printable PDF",
+   "metaDescription": "Letter tracing worksheet M to R: dashed capitals to trace on handwriting lines plus an empty line for writing alone. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "letter-tracing-s-to-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Letter Tracing Worksheet",
+   "h1": "Letter Tracing S to Z: Finishing the Alphabet",
+   "strand": "Handwriting & Letter Formation",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "letter-tracing",
+    "kindergarten"
+   ],
+   "p1": "This letter tracing worksheet brings the alphabet home: the capitals S through Z, traced on handwriting lines with an empty space at the end of every line for writing the letter alone. It is the most dramatic stretch of the whole alphabet — S with its double curve, the crossing strokes of X, the three-way meeting point of Y, and the sharp slants of V, W and Z. The child traces each dashed model, then proves the letter solo in the final slot.",
+   "p2": "There is a reason the alphabet saves these letters for last. S is widely considered the hardest capital of all — one continuous stroke that curves one way, then immediately the other — and the V-W-X-Y-Z run is diagonal country, where every stroke leans and the angles matter. A child who reaches this page has already built straight lines, circles and bumps; this is where those skills get stress-tested. The empty finishing slot matters more than ever here, because these letters are the ones that most need the moment of truth: a traced S proves little, but an S written alone in the last space is the real graduation.",
+   "p3": "Print the PDF free, expect the S to take a few honest tries, and celebrate accordingly — after this page the child has traced the entire alphabet. The vowel tracing page makes a satisfying victory lap, and sight word practice is the natural next adventure for letters that can now stand on their own.",
+   "canonicalDeckSlug": "letter-tracing-k256",
+   "carousel": [
+    {
+     "label": "Vowel Tracing: A, E, I, O, U",
+     "href": "vowel-tracing-a-e-i-o-u"
+    },
+    {
+     "label": "My First Big Letters: Tracing A, B, C and D",
+     "href": "big-letter-tracing-abcd"
+    },
+    {
+     "label": "Letter Tracing G to L on Handwriting Lines",
+     "href": "letter-tracing-g-to-l"
+    },
+    {
+     "label": "Letter Tracing M to R: Points, Bumps and Loops",
+     "href": "letter-tracing-m-to-r"
+    }
+   ],
+   "title": "Letter Tracing S to Z Worksheet | Free Printable PDF",
+   "metaDescription": "Letter tracing worksheet S to Z: trace the last capitals of the alphabet, then write each one alone on the empty line. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "vowel-tracing-a-e-i-o-u",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Letter Tracing Worksheet",
+   "h1": "Vowel Tracing: A, E, I, O, U",
+   "strand": "Handwriting & Letter Formation",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "letter-tracing",
+    "kindergarten"
+   ],
+   "p1": "This tracing worksheet gathers the five vowels — A, E, I, O and U — onto one page. Each vowel gets its own handwriting line: dashed capitals to trace first, and then the empty space at the end where the child writes the letter with no dashes underneath. It is a short, focused set, and a wonderfully varied one for the hand: the slants of A, the straight combs of E and I, the perfect circle of O, and the dip-and-rise of U.",
+   "p2": "Pulling the vowels out for their own session is more than a handwriting choice — it is an early reading move. These five letters appear in virtually every word a child will ever read or write; no other set of five works nearly as hard. Naming them as a team ('these are the vowels — every word needs at least one') plants a concept that phonics lessons will build on for years, and tracing them together attaches that concept to the child's own hand. It also makes a natural review day: the five letters come from different corners of the alphabet, so the page quietly re-tests strokes learned across many earlier sessions.",
+   "p3": "The page prints free as a PDF and takes only minutes, which makes it ideal as a warm-up before other work. It pairs neatly with letter tracing S to Z for children finishing the alphabet, and vowel-spotting in a favorite picture book afterward turns five traced letters into a game.",
+   "canonicalDeckSlug": "letter-tracing-k257",
+   "carousel": [
+    {
+     "label": "My First Big Letters: Tracing A, B, C and D",
+     "href": "big-letter-tracing-abcd"
+    },
+    {
+     "label": "Letter Tracing G to L on Handwriting Lines",
+     "href": "letter-tracing-g-to-l"
+    },
+    {
+     "label": "Letter Tracing M to R: Points, Bumps and Loops",
+     "href": "letter-tracing-m-to-r"
+    },
+    {
+     "label": "Letter Tracing S to Z: Finishing the Alphabet",
+     "href": "letter-tracing-s-to-z"
+    }
+   ],
+   "title": "Vowel Tracing Worksheet A E I O U | Free Printable PDF",
+   "metaDescription": "Vowel tracing worksheet: trace the letters A, E, I, O and U on handwriting lines, then write each vowel alone. Free printable PDF for kindergarten."
+  },
+  {
+   "slug": "big-letter-tracing-abcd",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Letter Tracing Worksheet",
+   "h1": "My First Big Letters: Tracing A, B, C and D",
+   "strand": "Handwriting & Letter Formation",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "letter-tracing",
+    "kindergarten"
+   ],
+   "p1": "This is a first-ever letter tracing worksheet: just four letters — A, B, C and D — printed extra large. Each capital fills its line with big dashed models, sized so that a small hand steering a chunky pencil has room to succeed. The child traces each giant letter, and at the end of the line tries one alone in the empty space. Four letters is the entire page, and for a three- or four-year-old, four letters is exactly enough.",
+   "p2": "First letters deserve to be big. A young child writes from the shoulder and elbow long before the fingers take over, and oversized models meet that stage instead of fighting it — the same A that would be a scribble at normal size comes out recognizable at this scale, and recognizable means proud. The four letters are chosen as carefully as the size: A introduces slanted lines, B stacks two bumps on a stick, C is a single open curve, D pairs a stick with one big bow. Between them, these four cover almost every basic move the rest of the alphabet will recycle — which is why ABCD has been the classic starting lineup for generations.",
+   "p3": "Print the PDF free and keep sessions tiny and cheerful — one proud letter beats four tired ones. When these four feel like old friends, letter tracing G to L continues the journey at regular size, and the vowels page will greet the child with a familiar face: that very first A.",
+   "canonicalDeckSlug": "letter-tracing-k258",
+   "carousel": [
+    {
+     "label": "Letter Tracing G to L on Handwriting Lines",
+     "href": "letter-tracing-g-to-l"
+    },
+    {
+     "label": "Letter Tracing M to R: Points, Bumps and Loops",
+     "href": "letter-tracing-m-to-r"
+    },
+    {
+     "label": "Letter Tracing S to Z: Finishing the Alphabet",
+     "href": "letter-tracing-s-to-z"
+    },
+    {
+     "label": "Vowel Tracing: A, E, I, O, U",
+     "href": "vowel-tracing-a-e-i-o-u"
+    }
+   ],
+   "title": "Big Letter Tracing A B C D | Free Printable PDF",
+   "metaDescription": "Big letter tracing for A, B, C and D: extra-large dashed capitals with an empty writing line for a child's very first solo try. Free printable preschool PDF."
+  },
+  {
+   "slug": "color-by-number-1-6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "kindergarten"
+   },
+   "eyebrow": "Color by Number Worksheet",
+   "h1": "Color by Number: Match Every Number to Its Color",
+   "strand": "Counting & Cardinality",
+   "slotTokens": [
+    "color-by-number",
+    "kindergarten"
+   ],
+   "p1": "This is color by number in its classic form: a picture built from outlined shapes, each shape holding a single numeral from 1 to 6, and a legend that pairs every numeral with a color word. The child reads the number in a shape, finds that number in the legend, reads which color it calls for, and colors the shape to match. No sums to solve and nothing to count — just number, legend, color, repeated shape by shape until the whole picture blooms.",
+   "p2": "The magic of the classic version is that it isolates one skill and drills it joyfully: numeral recognition. A 3 in the corner of a shape must be known instantly and certainly, because the coloring depends on it — mistake it for an 8 and the picture says so. Every shape is therefore a tiny read-the-numeral flashcard with a built-in reward. The legend adds two quiet bonuses: the child practices reading color words in a context where guessing is easy to check, and learns to use a key — looking something up rather than remembering it — which is the exact skill maps and charts will demand later. Keeping math out is deliberate; nothing distracts from knowing the numbers cold.",
+   "p3": "Print the PDF free and enjoy how self-correcting it is — wrong colors reveal themselves. Children who want a puzzle with more bite can graduate to color by code, where each shape hides a little sum, and the number tracing pages keep those freshly recognized numerals flowing out of the pencil too.",
+   "canonicalDeckSlug": "color-by-number-k266",
+   "carousel": [
+    {
+     "label": "Reading Comprehension: The Red Kite",
+     "href": "red-kite-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Lost Boot",
+     "href": "lost-boot-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Little Garden",
+     "href": "little-garden-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: A Rainy School Day",
+     "href": "rainy-school-day-reading-comprehension"
+    }
+   ],
+   "title": "Color by Number for Kindergarten | Free Printable PDF",
+   "metaDescription": "Classic color by number worksheet: find the numeral 1-6 in each shape, read its color word in the legend and color to match. Free printable kindergarten PDF."
+  },
+  {
+   "slug": "red-kite-reading-comprehension",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Reading Worksheet",
+   "h1": "Reading Comprehension: The Red Kite",
+   "strand": "Reading Comprehension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "reading-comprehension",
+    "grade-2"
+   ],
+   "p1": "This reading comprehension worksheet features the original short story The Red Kite. Mia takes her red kite with its long yellow tail to the park on a windy Saturday; it soars over the trees, and a watching boy says it looks like a little dragon. Under the story sit three multiple-choice questions — the child reads carefully, then circles the best answer to each one, checking back in the text whenever two choices both sound possible.",
+   "p2": "The questions on this page are chosen to train precise reading rather than lucky guessing. Two of them hunt small facts a skimming reader slides past — the tail is yellow, not red, and the flying happens in the park, not the garden — details planted exactly where careless eyes blur them. The third asks why the kite flies so high, which is a different kind of work entirely: the story never says 'because', so the child must connect the strong wind in one sentence to the soaring kite in the next. Spotting stated facts and linking cause to effect are the two foundation stones of comprehension, and this little story exercises both in under a hundred words.",
+   "p3": "The PDF prints free, and asking 'which words told you?' after each circled answer doubles the value of the page. Readers who enjoyed Mia's windy afternoon usually love The Lost Boot next — a story with a four-legged hero — while The Little Garden slows things down beautifully.",
+   "canonicalDeckSlug": "reading-comprehension-g2269",
+   "carousel": [
+    {
+     "label": "Reading Comprehension: The Lost Boot",
+     "href": "lost-boot-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Little Garden",
+     "href": "little-garden-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: A Rainy School Day",
+     "href": "rainy-school-day-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Birthday Surprise",
+     "href": "birthday-surprise-reading-comprehension"
+    }
+   ],
+   "title": "The Red Kite Reading Comprehension | Free Printable PDF",
+   "metaDescription": "The Red Kite reading comprehension worksheet: a short story about a windy day at the park, with three multiple-choice questions. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "lost-boot-reading-comprehension",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Reading Worksheet",
+   "h1": "Reading Comprehension: The Lost Boot",
+   "strand": "Reading Comprehension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "reading-comprehension",
+    "grade-2"
+   ],
+   "p1": "This reading comprehension worksheet is built around the original story The Lost Boot. Ben's left boot has vanished — it is not under the bed, not behind the door — until his dog Rex trots in carrying it in his mouth, and the day ends in a hug and a plan to go puddle-jumping. Three multiple-choice questions follow the story; the child reads, circles the best answers, and returns to the text to settle any doubts.",
+   "p2": "A story with a tiny mystery gives comprehension questions real teeth. The first question checks the basic frame — what is actually being looked for — and the second springs the trap this story sets on purpose: Ben does the searching, but Rex does the finding, so 'who finds the boot?' catches every reader who matched the question to the busiest character instead of the right one. The third question looks forward — what will Ben do next? — which sends the child back to the closing line about puddles and asks them to read for what is coming, not just what happened. Search, twist, and what-comes-next: three questions, three genuinely different reading moves.",
+   "p3": "Print the PDF free and let the child act out Rex's proud delivery — retelling is comprehension too. The Red Kite makes a fine companion story from the same collection, and A Rainy School Day keeps the wet-weather mood going with a question about feelings.",
+   "canonicalDeckSlug": "reading-comprehension-g2270",
+   "carousel": [
+    {
+     "label": "Reading Comprehension: The Little Garden",
+     "href": "little-garden-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: A Rainy School Day",
+     "href": "rainy-school-day-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Birthday Surprise",
+     "href": "birthday-surprise-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Red Kite",
+     "href": "red-kite-reading-comprehension"
+    }
+   ],
+   "title": "The Lost Boot Reading Comprehension | Free Printable PDF",
+   "metaDescription": "The Lost Boot reading comprehension worksheet: a funny short story about a missing boot and a helpful dog, plus three questions. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "little-garden-reading-comprehension",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Reading Worksheet",
+   "h1": "Reading Comprehension: The Little Garden",
+   "strand": "Reading Comprehension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "reading-comprehension",
+    "grade-2"
+   ],
+   "p1": "This reading comprehension worksheet features The Little Garden, an original story about patience. In spring, Nora plants three seeds in a pot on the balcony, waters them a little every day, and sets the pot in the sun. First one tiny leaf appears; after two weeks, three small plants — and Nora is proud, because tomatoes are on the way. The child reads the story, then circles the best answer to each of the three questions beneath it.",
+   "p2": "This story runs on numbers and time, so its questions do too. How many seeds — three, not two, not five — rewards the reader who holds an exact quantity in mind rather than a vague 'some'. What does Nora do every day tests whether the child separates the repeated action, the watering, from one-time events around it. And what will grow leads to the payoff the story saves for its final word: tomatoes. Reading a sequence — plant, tend, sprout, wait, harvest — and keeping its details in order is precisely the skill children need for science texts and instructions later on, and a garden story is the friendliest possible place to practice it.",
+   "p3": "The PDF prints free, and a windowsill bean in a cup makes an irresistible follow-up experiment. From the same story collection, The Birthday Surprise offers another tale of patient practice paying off, while The Red Kite trades the quiet balcony for a gusty park.",
+   "canonicalDeckSlug": "reading-comprehension-g2271",
+   "carousel": [
+    {
+     "label": "Reading Comprehension: A Rainy School Day",
+     "href": "rainy-school-day-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Birthday Surprise",
+     "href": "birthday-surprise-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Red Kite",
+     "href": "red-kite-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Lost Boot",
+     "href": "lost-boot-reading-comprehension"
+    }
+   ],
+   "title": "The Little Garden Reading Comprehension | Free Printable PDF",
+   "metaDescription": "The Little Garden reading comprehension worksheet: a short story about seeds, patience and tomatoes, with three questions. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "rainy-school-day-reading-comprehension",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Reading Worksheet",
+   "h1": "Reading Comprehension: A Rainy School Day",
+   "strand": "Reading Comprehension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "reading-comprehension",
+    "grade-2"
+   ],
+   "p1": "This reading comprehension worksheet centers on the original story A Rainy School Day. Rain pours all Monday morning, so the class stays in at break; the teacher opens the big game cupboard, Sam and Lena build a tall block tower, two girls paint rain pictures — and when the bell rings, nobody wants to stop. Three multiple-choice questions follow; the child reads the story, circles the best answers, and checks the text whenever unsure.",
+   "p2": "What makes this story special for question-writing is its emotional arc. It begins with a small disappointment and ends with Sam thinking rainy days might not be so bad — but no sentence ever says 'Sam feels happy'. The final question asks how Sam feels at the end, so the child has to read the thought in the last line and name the feeling behind it: a first, gentle step into inference, the skill of understanding what a text means without being told. The other two questions keep the reader honest on the surface facts — why the children stay inside, and what Sam and Lena build — so the page balances plain recall with that one deeper reach.",
+   "p3": "Print the PDF free and talk about the feeling question together — 'what changed Sam's mind?' is a conversation worth having. The Lost Boot brings more wet-weather cheer with a boot-stealing dog, and The Little Garden suits readers in the mood for something calm and green.",
+   "canonicalDeckSlug": "reading-comprehension-g2272",
+   "carousel": [
+    {
+     "label": "Reading Comprehension: The Birthday Surprise",
+     "href": "birthday-surprise-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Red Kite",
+     "href": "red-kite-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Lost Boot",
+     "href": "lost-boot-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Little Garden",
+     "href": "little-garden-reading-comprehension"
+    }
+   ],
+   "title": "A Rainy School Day Reading Worksheet | Free Printable PDF",
+   "metaDescription": "A Rainy School Day reading comprehension worksheet: a short story about an indoor break at school, with three multiple-choice questions. Free printable PDF."
+  },
+  {
+   "slug": "birthday-surprise-reading-comprehension",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "grade-2"
+   },
+   "eyebrow": "Reading Worksheet",
+   "h1": "Reading Comprehension: The Birthday Surprise",
+   "strand": "Reading Comprehension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "reading-comprehension",
+    "grade-2"
+   ],
+   "p1": "This reading comprehension worksheet features The Birthday Surprise, an original story about courage and a recorder. Grandpa is turning seventy, and Ella secretly practices his favorite song all week, hiding in her room so he cannot hear. At the party she stands up, takes a deep breath, and plays the whole song without one mistake — and Grandpa claps loudest of all and asks for it again. Three multiple-choice questions follow for the child to read, consider, and circle.",
+   "p2": "The star question here is the third one: how do we know Grandpa likes the song? That phrasing — how do we know — is evidence-hunting, the exact habit teachers spend years building. The story never announces Grandpa's opinion; it shows him clapping loudest and asking for an encore, and the child must recognize those actions as proof. The other questions guard the story's logic: whose birthday it is keeps the two main characters straight, and why Ella practices in her room checks that the child caught the point of the secrecy — a surprise only works if it stays one. Together the three questions walk a reader from plain facts to reading between the lines.",
+   "p3": "The PDF prints free, and 'what else could show us someone is happy?' extends the evidence game beyond the page. The Little Garden pairs beautifully — another story where quiet daily effort earns its reward — and A Rainy School Day offers one more feelings question to practice on.",
+   "canonicalDeckSlug": "reading-comprehension-g2273",
+   "carousel": [
+    {
+     "label": "Reading Comprehension: The Red Kite",
+     "href": "red-kite-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Lost Boot",
+     "href": "lost-boot-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: The Little Garden",
+     "href": "little-garden-reading-comprehension"
+    },
+    {
+     "label": "Reading Comprehension: A Rainy School Day",
+     "href": "rainy-school-day-reading-comprehension"
+    }
+   ],
+   "title": "The Birthday Surprise Reading Worksheet | Free Printable PDF",
+   "metaDescription": "The Birthday Surprise reading comprehension worksheet: a story about a secret song for Grandpa's birthday, plus three questions. Free printable Grade 2 PDF."
+  },
+  {
+   "slug": "2-digit-addition-with-regrouping",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Regrouping Worksheet",
+   "h1": "2-Digit Addition with Carrying",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-3"
+   ],
+   "p1": "This worksheet is pure two-digit column addition with carrying. Every problem is stacked vertically — ones over ones, tens over tens — and every problem overflows: the ones column adds up past nine, so the child must regroup. Above each problem waits a small dashed carry box, the official parking spot for the carried ten. Add the ones, write the ones digit below, tuck the 1 into its dashed box, then add the tens column including that carried 1.",
+   "p2": "Carrying is the moment column addition starts meaning something. When 8 and 7 make 15, the child is really discovering that fifteen ones are worth one ten and five ones — and the little 1 traveling to the tens column is that trade made visible. The dashed carry boxes on this page are there to keep the trade honest: a carried ten scribbled in a random corner gets forgotten or double-counted, but a carry with a fixed home gets used exactly once. Saying the trade aloud on the first few problems — 'fifteen: five stays, one ten moves over' — turns a mechanical habit into place-value understanding that will hold up under three-digit numbers later.",
+   "p3": "The sheet prints free as a PDF and suits a talk-one-then-solo routine. Its mirror image is 2-digit subtraction with borrowing, where the trade runs the other way, and when both directions feel steady, 3-digit addition with carrying raises the ceiling.",
+   "canonicalDeckSlug": "column-arithmetic-g3359",
+   "carousel": [
+    {
+     "label": "2-Digit Subtraction with Borrowing",
+     "href": "2-digit-subtraction-with-regrouping"
+    },
+    {
+     "label": "3-Digit Addition with Carrying",
+     "href": "3-digit-addition-with-regrouping"
+    },
+    {
+     "label": "Subtracting Across Zeros: 3-Digit Subtraction",
+     "href": "subtracting-across-zeros"
+    },
+    {
+     "label": "Regrouping Review: Mixed Carrying and Borrowing",
+     "href": "mixed-regrouping-review"
+    }
+   ],
+   "title": "2-Digit Addition with Regrouping | Free Printable PDF",
+   "metaDescription": "2-digit addition with regrouping: column problems with dashed carry boxes that give the carried ten a proper home. Free printable Grade 3 math worksheet PDF."
+  },
+  {
+   "slug": "2-digit-subtraction-with-regrouping",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Regrouping Worksheet",
+   "h1": "2-Digit Subtraction with Borrowing",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-3"
+   ],
+   "p1": "This worksheet drills two-digit column subtraction with borrowing. Each problem is written vertically, and each one has been built so the ones column comes up short — a 3 on top facing a 7 below. The child cannot take 7 from 3, so a ten must be borrowed: cross out the tens digit, make it one smaller, give the ones a fresh ten, and subtract. Every problem on the page rehearses that exact exchange until it feels routine.",
+   "p2": "Borrowing is carrying run backwards, and most children find it the harder direction. Carrying bundles ten ones into a ten; borrowing has to unbundle a ten back into ones, and it forces a judgment call first: can I subtract this column as it stands, or not? That look-before-you-leap moment is the real skill this page trains. The classic error — flipping the digits and taking 3 from 7 because it is easier — comes from skipping the judgment, and a page of all-borrowing problems confronts it head on: here, the smaller-from-larger shortcut always gives the wrong answer, so honest borrowing is the only road through.",
+   "p3": "Print the PDF free and have the child mark each crossed-out ten clearly — visible bookkeeping prevents silent errors. The companion page, 2-digit addition with carrying, keeps the opposite trade fresh, and subtracting across zeros waits down the road as borrowing's boss level.",
+   "canonicalDeckSlug": "column-arithmetic-g3360",
+   "carousel": [
+    {
+     "label": "3-Digit Addition with Carrying",
+     "href": "3-digit-addition-with-regrouping"
+    },
+    {
+     "label": "Subtracting Across Zeros: 3-Digit Subtraction",
+     "href": "subtracting-across-zeros"
+    },
+    {
+     "label": "Regrouping Review: Mixed Carrying and Borrowing",
+     "href": "mixed-regrouping-review"
+    },
+    {
+     "label": "2-Digit Addition with Carrying",
+     "href": "2-digit-addition-with-regrouping"
+    }
+   ],
+   "title": "2-Digit Subtraction with Regrouping | Free Printable PDF",
+   "metaDescription": "2-digit subtraction with regrouping: column problems where the child borrows a ten whenever the ones come up short. Free printable Grade 3 math worksheet PDF."
+  },
+  {
+   "slug": "3-digit-addition-with-regrouping",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Regrouping Worksheet",
+   "h1": "3-Digit Addition with Carrying",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-3"
+   ],
+   "p1": "This worksheet stretches column addition to three digits: hundreds, tens and ones stacked in tidy columns, with dashed carry boxes above each problem. The child works right to left as always — ones first, then tens, then hundreds — but now a carry can appear twice in one problem: the ones may send a ten leftward, and the tens may send a hundred leftward, sometimes one after the other in a little chain.",
+   "p2": "The step from two digits to three is less about difficulty and more about trust in the method. Nothing new happens in any single column — it is the same add-and-regroup the child already knows — but the problem is longer, working memory is under more load, and a carry made in the ones can matter two columns later. That is why the chain problems are the heart of this page: when a carried ten tips the tens column over as well, the child experiences the deep truth of the column method, that the same simple rule just repeats leftward, no matter how long the number gets. A child who owns that idea can add numbers of any size; the digits stop being a threat.",
+   "p3": "The PDF prints free — encourage a fingertip on each column as it is worked, a small habit that prevents skipped carries. If chains cause stumbles, 2-digit addition with carrying isolates the basic trade again, and the regrouping review page mixes directions once confidence returns.",
+   "canonicalDeckSlug": "column-arithmetic-g3361",
+   "carousel": [
+    {
+     "label": "Subtracting Across Zeros: 3-Digit Subtraction",
+     "href": "subtracting-across-zeros"
+    },
+    {
+     "label": "Regrouping Review: Mixed Carrying and Borrowing",
+     "href": "mixed-regrouping-review"
+    },
+    {
+     "label": "2-Digit Addition with Carrying",
+     "href": "2-digit-addition-with-regrouping"
+    },
+    {
+     "label": "2-Digit Subtraction with Borrowing",
+     "href": "2-digit-subtraction-with-regrouping"
+    }
+   ],
+   "title": "3-Digit Addition with Regrouping | Free Printable PDF",
+   "metaDescription": "3-digit addition with regrouping: column problems with dashed carry boxes, carrying into the tens and into the hundreds. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "subtracting-across-zeros",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Regrouping Worksheet",
+   "h1": "Subtracting Across Zeros: 3-Digit Subtraction",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-3"
+   ],
+   "p1": "This worksheet tackles the most feared move in column subtraction: borrowing across a zero. Every problem looks like 302 − 158 — a three-digit number with a 0 in the tens place, and a ones column that needs to borrow. The child reaches next door for a ten, finds the cupboard empty, and must go one door further: borrow from the hundreds first, turn the 0 into a 10, and only then lend a ten to the ones. Each problem on the page rehearses that double move.",
+   "p2": "The zero trap is where subtraction skills genuinely part ways. A child who has only memorized 'cross out, borrow' meets 302 − 158 and has nothing to cross out — so digits start getting invented. A child who understands the unbundling can reason through it: 302 has no loose tens, but it has three hundreds, and one of them can be broken into ten tens, one of which can be broken into ten ones. Writing the two-step trade carefully — the 3 becomes 2, the 0 becomes 10, the 10 becomes 9, the 2 becomes 12 — turns the scariest problem in third grade into a slow, certain routine. This page exists so that routine gets enough repetitions to become calm.",
+   "p3": "Print the PDF free and narrate the first problem together, door by door. The regrouping review page mixes these zero problems back in with friendlier ones, and 2-digit subtraction with borrowing remains the quiet warm-up when a reset helps.",
+   "canonicalDeckSlug": "column-arithmetic-g3362",
+   "carousel": [
+    {
+     "label": "Regrouping Review: Mixed Carrying and Borrowing",
+     "href": "mixed-regrouping-review"
+    },
+    {
+     "label": "2-Digit Addition with Carrying",
+     "href": "2-digit-addition-with-regrouping"
+    },
+    {
+     "label": "2-Digit Subtraction with Borrowing",
+     "href": "2-digit-subtraction-with-regrouping"
+    },
+    {
+     "label": "3-Digit Addition with Carrying",
+     "href": "3-digit-addition-with-regrouping"
+    }
+   ],
+   "title": "Subtracting Across Zeros Worksheet | Free Printable PDF",
+   "metaDescription": "Subtracting across zeros worksheet: 3-digit column problems like 302 minus 158, where borrowing must travel through the zero. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "mixed-regrouping-review",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Regrouping Worksheet",
+   "h1": "Regrouping Review: Mixed Carrying and Borrowing",
+   "strand": "Number & Operations in Base Ten",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "column-arithmetic",
+    "grade-3"
+   ],
+   "p1": "This review worksheet mixes everything regrouping has to offer onto one page: column additions that need carrying, column subtractions that need borrowing, side by side in no particular pattern. The dashed carry boxes stand ready above the additions. Before touching any digits, the child must do something none of the single-skill pages asked for — read the sign, choose the right method, and only then start working the columns from the right.",
+   "p2": "Mixed practice is where regrouping proves it has truly been learned. On a page of all-addition problems, a child can coast on momentum, carrying by reflex without ever deciding anything; the mix takes that away. Every problem now opens with a choice — add or subtract? — and continues with judgment calls — does this column even need regrouping? Interleaving skills this way feels harder than drilling them separately, and that difficulty is precisely the benefit: retrieval with a decision attached is what sticks, and it is exactly what tests and real life serve up. A clean run through this page means carrying and borrowing are no longer two rehearsed tricks but one flexible tool.",
+   "p3": "The PDF prints free and makes an honest weekly check-up — the wrong-method error, adding when the sign says minus, tells you attention needs training, not arithmetic. Wobbly columns point back to subtracting across zeros or 3-digit addition with carrying, whichever direction needs the reps.",
+   "canonicalDeckSlug": "column-arithmetic-g3363",
+   "carousel": [
+    {
+     "label": "2-Digit Addition with Carrying",
+     "href": "2-digit-addition-with-regrouping"
+    },
+    {
+     "label": "2-Digit Subtraction with Borrowing",
+     "href": "2-digit-subtraction-with-regrouping"
+    },
+    {
+     "label": "3-Digit Addition with Carrying",
+     "href": "3-digit-addition-with-regrouping"
+    },
+    {
+     "label": "Subtracting Across Zeros: 3-Digit Subtraction",
+     "href": "subtracting-across-zeros"
+    }
+   ],
+   "title": "Mixed Regrouping Review Worksheet | Free Printable PDF",
+   "metaDescription": "Regrouping review worksheet: mixed addition and subtraction columns where the child must decide when to carry and when to borrow. Free printable Grade 3 PDF."
+  },
+  {
+   "slug": "times-table-of-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Times Tables Worksheet",
+   "h1": "Times Table of 2: The Doubles Ladder",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "multiplication-tables",
+    "grade-3"
+   ],
+   "p1": "This worksheet presents the times table of 2 as a complete ladder: 1×2, 2×2, 3×2, all the way to 10×2, each fact with an empty answer box beside it. The child climbs the ladder in order, multiplying and writing each product in its box. Because the whole table stands on one page in sequence, the answers reveal their own pattern as they appear: 2, 4, 6, 8 — every product even, every step the same size.",
+   "p2": "The 2s are the friendliest possible doorway into multiplication because the child already knows them by another name: doubles. 4×2 is just 4 plus 4; 7×2 is the double of 7 — facts most children have carried around since first-grade addition. Writing the ladder top to bottom converts that comfortable doubling knowledge into multiplication language, and it plants the habit that will organize every table to come: each row is the last row plus two more. Meeting multiplication first through something this familiar sends exactly the right message — the times tables are not new math to fear, they are old math wearing a new symbol.",
+   "p3": "Print the PDF free and run the ladder until it flows, then try it with the page turned over. The times table of 4 is the classic next move — after the 2s, the 4s are half the work, since every 4-fact is just a 2-fact doubled — and the table of 10 offers an even gentler victory in between.",
+   "canonicalDeckSlug": "multiplication-tables-g3364",
+   "carousel": [
+    {
+     "label": "Times Table of 5: Skip-Counting Fives",
+     "href": "times-table-of-5"
+    },
+    {
+     "label": "Times Table of 10: The Place-Value Table",
+     "href": "times-table-of-10"
+    },
+    {
+     "label": "Times Table of 3: The First Real Memory Work",
+     "href": "times-table-of-3"
+    },
+    {
+     "label": "Times Table of 4: Double the Twos",
+     "href": "times-table-of-4"
+    }
+   ],
+   "title": "Times Table of 2 Worksheet | Free Printable PDF",
+   "metaDescription": "Times table of 2 worksheet: the full ladder from 1×2 up to 10×2 with answer boxes, building doubles fluency fact by fact. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "times-table-of-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Times Tables Worksheet",
+   "h1": "Times Table of 5: Skip-Counting Fives",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "multiplication-tables",
+    "grade-3"
+   ],
+   "p1": "This worksheet lays out the times table of 5 in full: the ladder from 1×5 to 10×5, one fact per row, an answer box for every product. The child multiplies row by row and watches the most rhythmic pattern in all the tables assemble itself down the page: 5, 10, 15, 20 — the last digit forever alternating 5, 0, 5, 0, so every answer announces itself before it is even checked.",
+   "p2": "The 5s ride on a chant most children already own from skip-counting, and this page turns that chant into fact knowledge. The deeper prize is the anchor system it creates: because the 5-facts become effortless, they turn into landmarks for harder tables — a child who owns 5×7 can reach 6×7 by adding one more seven, and 4×7 by taking one away. The 5s also live on the clock face: five, ten, fifteen, twenty is exactly how minutes are read past the hour, so this ladder quietly doubles as telling-time preparation. The 5-0-5-0 ending pattern even gives children their first self-checking tool — an answer ending in 3 is instantly, visibly wrong.",
+   "p3": "The PDF prints free — try climbing the ladder out loud like the chant it secretly is. The times table of 10 shares half its answers with this one and makes a natural partner page, while the table of 3 is where the real memory training begins.",
+   "canonicalDeckSlug": "multiplication-tables-g3365",
+   "carousel": [
+    {
+     "label": "Times Table of 10: The Place-Value Table",
+     "href": "times-table-of-10"
+    },
+    {
+     "label": "Times Table of 3: The First Real Memory Work",
+     "href": "times-table-of-3"
+    },
+    {
+     "label": "Times Table of 4: Double the Twos",
+     "href": "times-table-of-4"
+    },
+    {
+     "label": "Times Table of 2: The Doubles Ladder",
+     "href": "times-table-of-2"
+    }
+   ],
+   "title": "Times Table of 5 Worksheet | Free Printable PDF",
+   "metaDescription": "Times table of 5 worksheet: the complete ladder from 1×5 up to 10×5 with answer boxes, riding the skip-counting rhythm. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "times-table-of-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Times Tables Worksheet",
+   "h1": "Times Table of 10: The Place-Value Table",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "multiplication-tables",
+    "grade-3"
+   ],
+   "p1": "This worksheet runs the times table of 10 as a full ladder — 1×10 through 10×10, answer boxes down the side — and lands on the grandest product a beginning table-learner meets: 100. The child fills the boxes in order and watches the tidiest pattern in multiplication unfold: 10, 20, 30, 40, each answer simply the row number wearing a zero.",
+   "p2": "It would be easy to dismiss the 10s as too simple to practice, and that would miss what they are really teaching. The pattern the child discovers — multiplying by ten shifts a digit one place to the left and fills the gap with zero — is place value in action, the exact mechanism behind our whole way of writing numbers. A child who sees why 7×10 must be 70, rather than just memorizing that it is, has grasped something that will power mental math for years: 30×4, 700+50, and eventually decimals all lean on this one insight. The 10s are also the confidence table — ten quick wins in a row — which makes this the perfect page for a day when multiplication needs to feel good.",
+   "p3": "Print the PDF free and ask the magic question afterward: 'what does the zero do?' The times table of 5 pairs perfectly — every 10-fact is a 5-fact doubled — and the table of 2 completes the trio of pattern-rich starter tables.",
+   "canonicalDeckSlug": "multiplication-tables-g3366",
+   "carousel": [
+    {
+     "label": "Times Table of 3: The First Real Memory Work",
+     "href": "times-table-of-3"
+    },
+    {
+     "label": "Times Table of 4: Double the Twos",
+     "href": "times-table-of-4"
+    },
+    {
+     "label": "Times Table of 2: The Doubles Ladder",
+     "href": "times-table-of-2"
+    },
+    {
+     "label": "Times Table of 5: Skip-Counting Fives",
+     "href": "times-table-of-5"
+    }
+   ],
+   "title": "Times Table of 10 Worksheet | Free Printable PDF",
+   "metaDescription": "Times table of 10 worksheet: the full ladder from 1×10 up to 10×10 with answer boxes and a place-value pattern to discover. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "times-table-of-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Times Tables Worksheet",
+   "h1": "Times Table of 3: The First Real Memory Work",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "multiplication-tables",
+    "grade-3"
+   ],
+   "p1": "This worksheet takes on the times table of 3, laid out as the complete ladder from 1×3 to 10×3 with an answer box for every fact. The child multiplies step by step — 3, 6, 9, 12 — writing each product in its box. Unlike the 2s, the 5s and the 10s, the 3s hand over no chant, no doubles shortcut and no ending pattern; row by row, this table must actually be learned.",
+   "p2": "That is exactly why the 3s matter so much: they are the first table where memorization itself is the skill being built. With the crutches gone, the child has to develop the tools that will carry every hard table after this one — climbing from a known fact to an unknown neighbor (3×6 is 3×5 and three more), noticing that the answers alternate odd and even, leaning on the ladder's structure when recall stumbles. Educators often call the 3s the honesty table, because it shows precisely which facts are known cold and which were being reconstructed on the fly. Working through it in order first, then out of order, is the classic two-stage route to real fluency.",
+   "p3": "The PDF prints free — a fact a day sticks better than the page in one sitting. Once the 3s hold firm, the times table of 4 arrives with a gift the 3s never offered: a doubling shortcut through the already-mastered 2s.",
+   "canonicalDeckSlug": "multiplication-tables-g3367",
+   "carousel": [
+    {
+     "label": "Times Table of 4: Double the Twos",
+     "href": "times-table-of-4"
+    },
+    {
+     "label": "Times Table of 2: The Doubles Ladder",
+     "href": "times-table-of-2"
+    },
+    {
+     "label": "Times Table of 5: Skip-Counting Fives",
+     "href": "times-table-of-5"
+    },
+    {
+     "label": "Times Table of 10: The Place-Value Table",
+     "href": "times-table-of-10"
+    }
+   ],
+   "title": "Times Table of 3 Worksheet | Free Printable PDF",
+   "metaDescription": "Times table of 3 worksheet: the full ladder from 1×3 up to 10×3 with answer boxes — the first table that takes real memorizing. Free printable Grade 3 math PDF."
+  },
+  {
+   "slug": "times-table-of-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "grade-3"
+   },
+   "eyebrow": "Times Tables Worksheet",
+   "h1": "Times Table of 4: Double the Twos",
+   "strand": "Operations & Algebraic Thinking",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "multiplication-tables",
+    "grade-3"
+   ],
+   "p1": "This worksheet works the times table of 4 as a full ladder — every fact from 1×4 to 10×4, each with its own answer box. The child climbs in order, multiplying and filling the boxes: 4, 8, 12, 16, on up to 40. Hidden inside the ladder is the best shortcut in the times tables: every 4-fact is a 2-fact doubled. 6×4? Take 6×2, which is 12, and double it — 24. The page rewards anyone who spots the trick, and teaching it outright is fair play.",
+   "p2": "The 4s carry a lesson bigger than one table: known facts can build unknown ones. A child who reaches this page owning the 2s already holds every answer here at one doubling's distance, and using that connection — rather than starting the memory work from zero — is genuine mathematical thinking, the derived-facts strategy that mathematicians and fast mental calculators use for life. With every answer double an even number, the 4s also extend the all-even parade begun by the 2s, another pattern worth noticing aloud. Doubling practice itself sharpens here too, since doubling 14 or 18 stretches a skill that began with doubling 6 and 7.",
+   "p3": "Print the PDF free and play both ways: answer 8×4 cold, then verify it by doubling 8×2. Climbing onward, the times table of 3 offers the contrast of pure memory work, and the table of 5 hands back a rhythm after the 4s' quiet logic.",
+   "canonicalDeckSlug": "multiplication-tables-g3368",
+   "carousel": [
+    {
+     "label": "Times Table of 2: The Doubles Ladder",
+     "href": "times-table-of-2"
+    },
+    {
+     "label": "Times Table of 5: Skip-Counting Fives",
+     "href": "times-table-of-5"
+    },
+    {
+     "label": "Times Table of 10: The Place-Value Table",
+     "href": "times-table-of-10"
+    },
+    {
+     "label": "Times Table of 3: The First Real Memory Work",
+     "href": "times-table-of-3"
+    }
+   ],
+   "title": "Times Table of 4 Worksheet | Free Printable PDF",
+   "metaDescription": "Times table of 4 worksheet: the full ladder from 1×4 up to 10×4 with answer boxes — every fact is just a 2s fact doubled. Free printable Grade 3 math PDF."
   }
  ]
 }

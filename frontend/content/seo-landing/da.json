@@ -131724,6 +131724,1097 @@
    ],
    "title": "Den lille tabel – opgaveark, 3. klasse | print PDF gratis",
    "metaDescription": "Tolv gangestykker fra den lille tabel: regn hvert stykke, og skriv resultatet i kassen – øv til det sidder udenad. 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-tallene-0-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Talskrivnings-opgaveark",
+   "h1": "Skriv tallene fra 0 til 4 – store tal med startprik",
+   "strand": "Tal og algebra",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "skrive-tal",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark øver barnet de fem første tal: 0, 1, 2, 3 og 4 – skrevet ekstra stort, så der er god plads til de første forsøg. Hvert tal står øverst som en tydelig model, og under den venter store, stiplede udgaver, som barnet skriver oven i. Den orange prik viser, hvor blyanten skal begynde, og pilene viser vejen rundt i tallet. Barnet arbejder med ét tal ad gangen og gentager det, til bevægelsen føles kendt.",
+   "p2": "De allerførste tal handler mindre om matematik og mere om gode blyantvaner. Når barnet fra begyndelsen lærer at sætte an ved startprikken og følge den samme vej hver gang, bliver skrivebevægelsen automatisk – og netop dét frigør senere kræfter til at tænke over, hvad tallene betyder. Det store format er valgt med vilje: Små hænder styrer bedst i store bevægelser, og først når formen sidder i armen, kan den skrumpe ned på en almindelig linje. 0, 1 og 4 består af enkle streger og buer, mens 2 og 3 byder på de første rigtige sving – en fin blanding at starte på.",
+   "p3": "Arket printes gratis som PDF – uden tilmelding – og egner sig fint til de allerførste skriveuger i børnehaveklassen. Er blyanten helt ny i hånden, kan de skriveforberedende baner med sløjfer og bølger varme op først. Og når 0 til 4 glider let, står fortsættelsen klar: arket med tallene fra 5 til 9, hvor de svungne tal for alvor tager over.",
+   "canonicalDeckSlug": "skrive-tal-k249",
+   "carousel": [
+    {
+     "label": "Skriv tallene fra 5 til 9 – store tal med pile",
+     "href": "skriv-tallene-5-9"
+    },
+    {
+     "label": "Spor tallene 0-9, og skriv dem selv",
+     "href": "spor-og-skriv-tallene-selv"
+    },
+    {
+     "label": "Skriv tallene fra 1 til 10",
+     "href": "skriv-tallene-1-10"
+    },
+    {
+     "label": "Skriv tallene fra 11 til 20 – tocifrede tal",
+     "href": "skriv-tallene-11-20"
+    }
+   ],
+   "title": "Skriv tallene 0-4 – store tal at spore | print PDF gratis",
+   "metaDescription": "Opgaveark med tallene 0-4 i ekstra stort format: skriv oven i de stiplede tal med startprik og pile. Til børnehaveklassen. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-tallene-5-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Talskrivnings-opgaveark",
+   "h1": "Skriv tallene fra 5 til 9 – store tal med pile",
+   "strand": "Tal og algebra",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "skrive-tal",
+    "boernehaveklasse"
+   ],
+   "p1": "Her øver barnet tallene 5, 6, 7, 8 og 9 – anden halvdel af cifrene, skrevet ekstra stort med god plads til hånden. Hvert tal vises som en tydelig model, og barnet skriver oven i de store, stiplede udgaver nedenunder. Den orange prik markerer startstedet, og pilene viser strøgene i den rigtige rækkefølge – i 5-tallet først den lodrette streg, så maven og til sidst taget.",
+   "p2": "Netop tallene fra 5 til 9 er dem, der oftest vender forkert. Et 5-tal, der spejlvendes, ligner pludselig et S, og 6 og 9 er hinandens omvendte – derfor gør pilene her et stort stykke arbejde. Når startpunkt og retning trænes fast fra begyndelsen, forebygges de spejlvendte tal, længe før de bliver en vane, der skal aflæres. 8-tallet, med sine to sammenhængende sløjfer, er samtidig lidt af en motorisk prøvesten: Kan hånden det, kan den næsten alt. Det store format giver ro til at mærke hver bevægelse, og gentagelserne i rækken gør resten.",
+   "p3": "Arket printes gratis som PDF og bruges bedst i forlængelse af arket med tallene fra 0 til 4, så alle ti cifre efterhånden er besøgt. Næste skridt er at slippe støtten: På arket 'spor og skriv selv' skriver barnet hvert tal i et tomt felt – helt uden stiplede linjer.",
+   "canonicalDeckSlug": "skrive-tal-k250",
+   "carousel": [
+    {
+     "label": "Spor tallene 0-9, og skriv dem selv",
+     "href": "spor-og-skriv-tallene-selv"
+    },
+    {
+     "label": "Skriv tallene fra 1 til 10",
+     "href": "skriv-tallene-1-10"
+    },
+    {
+     "label": "Skriv tallene fra 11 til 20 – tocifrede tal",
+     "href": "skriv-tallene-11-20"
+    },
+    {
+     "label": "Skriv tallene fra 0 til 4 – store tal med startprik",
+     "href": "skriv-tallene-0-4"
+    }
+   ],
+   "title": "Skriv tallene 5-9 – undgå spejlvendte tal | print PDF gratis",
+   "metaDescription": "Opgaveark med tallene 5-9 i ekstra stort format: startprik og pile forebygger spejlvendte tal. Skriv oven i de stiplede tal. Gratis PDF til print."
+  },
+  {
+   "slug": "spor-og-skriv-tallene-selv",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Talskrivnings-opgaveark",
+   "h1": "Spor tallene 0-9, og skriv dem selv",
+   "strand": "Tal og algebra",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "skrive-tal",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark møder barnet alle tallene fra 0 til 9 – men med en ny udfordring: Efter de stiplede tal, der skrives oven i, venter et tomt felt, hvor tallet skal skrives helt uden hjælp. Først spores modellen med blyanten, så bevægelsen genopfriskes, og til sidst prøver hånden selv. Startprik og pile er stadig med på de stiplede tal, så formen holdes ved lige undervejs. Ét tal pr. række, hele cifferrækken igennem, i barnets eget tempo.",
+   "p2": "Springet fra at spore til at skrive selv er det vigtigste øjeblik i talskrivningen. Så længe der er stiplede linjer at følge, låner hånden formen udefra – men i det tomme felt skal den hentes frem fra hukommelsen, og det er netop dér, læringen fæstner sig. Arket er bygget som en lille trappe: model, sporing, selvstændigt forsøg. Læreren eller den voksne kan med det samme se, hvilke tal der allerede sidder, og hvilke der stadig læner sig op ad støtten – det tomme felt afslører det ærligt og venligt. En perfekt kopi er ikke målet; et genkendeligt, selvskrevet tal er en sejr.",
+   "p3": "Arket printes gratis som PDF og er oplagt som opsamling, når tallene 0-4 og 5-9 er øvet hver for sig. Driller enkelte tal, går man bare tilbage til de store spore-ark en runde til. Og når alle ti cifre kan skrives frit, venter tallene fra 1 til 10 – med det første tocifrede tal som ny milepæl.",
+   "canonicalDeckSlug": "skrive-tal-k251",
+   "carousel": [
+    {
+     "label": "Skriv tallene fra 1 til 10",
+     "href": "skriv-tallene-1-10"
+    },
+    {
+     "label": "Skriv tallene fra 11 til 20 – tocifrede tal",
+     "href": "skriv-tallene-11-20"
+    },
+    {
+     "label": "Skriv tallene fra 0 til 4 – store tal med startprik",
+     "href": "skriv-tallene-0-4"
+    },
+    {
+     "label": "Skriv tallene fra 5 til 9 – store tal med pile",
+     "href": "skriv-tallene-5-9"
+    }
+   ],
+   "title": "Spor og skriv tallene 0-9 selv | print PDF gratis",
+   "metaDescription": "Spor tallene 0-9, og skriv dem derefter selv i det tomme felt – helt uden stiplede linjer. Opgaveark til børnehaveklassen. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-tallene-1-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Talskrivnings-opgaveark",
+   "h1": "Skriv tallene fra 1 til 10",
+   "strand": "Tal og algebra",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "skrive-tal",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark skriver barnet tallene fra 1 til 10 i rækkefølge – og for første gang er der et tal, der fylder to felter. Fra 1 til 9 følger barnet de stiplede tal med startprik og pile, som det kender det, men ved 10 sker der noget nyt: Et 1-tal og et 0 skal stå pænt ved siden af hinanden i hver sin skrivebane, før tallet er helt.",
+   "p2": "Ti er barnets første møde med et tocifret tal, og det er en større opdagelse, end den ser ud til. Pludselig er et tal ikke ét tegn, men to, der arbejder sammen – og rækkefølgen betyder alt: 10 og 01 er ikke det samme. De to adskilte skrivebaner gør netop dét synligt: Hvert ciffer har sin egen plads. Samtidig binder arket tælleremsen og skriften sammen, for tallene skrives i den rækkefølge, barnet allerede kan sige dem i. På den måde bliver siden både skrivetræning og en stille forberedelse til titalssystemet, længe før nogen siger ordet 'tiere'.",
+   "p3": "Arket printes gratis som PDF og passer fint, når cifrene fra 0 til 9 er kendte hver for sig. Herfra fortsætter trappen naturligt til tallene fra 11 til 20, hvor alle tal fylder to baner – og tiervennerne op til 10 er et hyggeligt makkerark, når tallene også skal bruges til noget.",
+   "canonicalDeckSlug": "skrive-tal-k252",
+   "carousel": [
+    {
+     "label": "Skriv tallene fra 11 til 20 – tocifrede tal",
+     "href": "skriv-tallene-11-20"
+    },
+    {
+     "label": "Skriv tallene fra 0 til 4 – store tal med startprik",
+     "href": "skriv-tallene-0-4"
+    },
+    {
+     "label": "Skriv tallene fra 5 til 9 – store tal med pile",
+     "href": "skriv-tallene-5-9"
+    },
+    {
+     "label": "Spor tallene 0-9, og skriv dem selv",
+     "href": "spor-og-skriv-tallene-selv"
+    }
+   ],
+   "title": "Skriv tallene 1-10 – opgaveark | print PDF gratis",
+   "metaDescription": "Opgaveark til børnehaveklassen: skriv tallene 1-10 med startprik og pile – og mød det første tocifrede tal med to skrivebaner. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-tallene-11-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Talskrivnings-opgaveark",
+   "h1": "Skriv tallene fra 11 til 20 – tocifrede tal",
+   "strand": "Tal og algebra",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "skrive-tal",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark skrives tallene fra 11 til 20 – og her fylder hvert eneste tal to skrivebaner. Barnet skriver oven i de stiplede cifre med startprik og pile: først tieren, så eneren, fra venstre mod højre. Modellen øverst i hver række viser, hvordan det færdige tal skal se ud. Række for række arbejder barnet sig gennem netop de tal, der driller mest, når man er ny i talrækken.",
+   "p2": "Tallene mellem 11 og 20 er de sværeste at lære at skrive – ikke på grund af hånden, men på grund af ørerne. På dansk hedder det 'tretten' og 'femten', men der står 13 og 15: Man hører noget med tre og fem først, mens tieren gemmer sig i endelsen. Netop derfor er det guld værd at skrive tallene mange gange, mens man siger dem højt – øjet lærer, at alle tallene i rækken begynder med 1, fordi de alle indeholder én tier. De to baner holder cifrene adskilt, så barnet kan se, at 17 er '1 tier og 7 enere' – begyndelsen på hele positionssystemet.",
+   "p3": "Arket printes gratis som PDF og er den naturlige fortsættelse af arket med tallene fra 1 til 10. Vil man binde tal og sprog endnu tættere sammen, er arket med tal og talord et fint sideskridt – og derfra er vejen banet til de første rigtige regnestykker.",
+   "canonicalDeckSlug": "skrive-tal-k253",
+   "carousel": [
+    {
+     "label": "Skriv tallene fra 0 til 4 – store tal med startprik",
+     "href": "skriv-tallene-0-4"
+    },
+    {
+     "label": "Skriv tallene fra 5 til 9 – store tal med pile",
+     "href": "skriv-tallene-5-9"
+    },
+    {
+     "label": "Spor tallene 0-9, og skriv dem selv",
+     "href": "spor-og-skriv-tallene-selv"
+    },
+    {
+     "label": "Skriv tallene fra 1 til 10",
+     "href": "skriv-tallene-1-10"
+    }
+   ],
+   "title": "Skriv tallene 11-20 – tocifrede tal | print PDF gratis",
+   "metaDescription": "Opgaveark med tallene 11-20: to skrivebaner pr. tal – først tieren, så eneren. Træn de tal, der driller mest på dansk. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-bogstaverne-g-til-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Bogstav-opgaveark",
+   "h1": "Skriv bogstaverne G til L",
+   "strand": "Skrivning og bogstavkendskab",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "bogstavtraening",
+    "boernehaveklasse"
+   ],
+   "p1": "Dette opgaveark samler de seks store bogstaver G, H, I, J, K og L på én side. Hvert bogstav står først som model på skrivelinjen; derefter skriver barnet oven i de stiplede udgaver, og til sidst prøver det selv på den tomme linje. Startprikken viser, hvor strøget begynder, og pilene viser rækkefølgen – så G'ets store bue og K'ets skrå ben formes rigtigt fra første forsøg.",
+   "p2": "Bogstaverne fra G til L er en spændende blanding: H, I og L består udelukkende af lige streger, K sætter de første skrå streger på prøve, mens G og J kræver runde, kontrollerede buer – G'et endda med den lille hylde til sidst. Netop den vekslen gør sekvensen god at træne samlet, for hånden skal skifte mellem lineal-lige og blødt svungne bevægelser og lærer at styre begge dele. Seks bogstaver er samtidig en overskuelig portion: Der er nok at arbejde med, uden at koncentrationen slipper op, og hver række slutter med den lille triumf at skrive bogstavet helt selv.",
+   "p3": "Arket printes gratis som PDF – klar til bogstavarbejdet i børnehaveklassen eller genopfriskning derhjemme. Kommer man direkte fra de fire første bogstaver på A B C D-arket, er dette den naturlige fortsættelse, og bagefter venter bogstaverne fra M til R, hvor buerne tager over for alvor.",
+   "canonicalDeckSlug": "bogstavtraening-k254",
+   "carousel": [
+    {
+     "label": "Skriv bogstaverne M til R",
+     "href": "skriv-bogstaverne-m-til-r"
+    },
+    {
+     "label": "Skriv bogstaverne S til Z",
+     "href": "skriv-bogstaverne-s-til-z"
+    },
+    {
+     "label": "Skriv Æ, Ø og Å – de tre danske bogstaver",
+     "href": "skriv-ae-oe-aa"
+    },
+    {
+     "label": "Mine første bogstaver: A B C D",
+     "href": "mine-foerste-bogstaver-abcd"
+    }
+   ],
+   "title": "Skriv bogstaverne G til L – opgaveark | print PDF gratis",
+   "metaDescription": "Opgaveark med bogstaverne G, H, I, J, K og L: spor de stiplede bogstaver med startprik og pile, og skriv selv på den tomme linje. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-bogstaverne-m-til-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Bogstav-opgaveark",
+   "h1": "Skriv bogstaverne M til R",
+   "strand": "Skrivning og bogstavkendskab",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "bogstavtraening",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark øves de seks store bogstaver M, N, O, P, Q og R. Barnet skriver oven i de stiplede bogstaver efter modellen, med startprik og pile som guide, og afslutter hver række med at skrive bogstavet selv på den tomme linje. M'ets fire streger, O'ets lukkede cirkel og R'ets kombination af bue og skråt ben giver hånden noget forskelligt at arbejde med i hver eneste række.",
+   "p2": "Midt i alfabetet begynder ensartetheden at betyde noget: Bogstaverne skal ikke bare være rigtige, de skal også være lige høje og stå roligt på linjen. M og N træner de skrå zigzag-streger uden at løfte blyanten forkert undervejs; O og Q kræver en rund bevægelse, der ender, hvor den begyndte; P og R starter helt ens – lodret streg og bue – og skilles først til sidst, hvor R'et får sit ben. At se de par ligheder og forskelle skærper samtidig bogstavkendskabet: Barnet skriver ikke seks tilfældige tegn, men opdager, hvordan bogstaver er byggede af de samme få dele.",
+   "p3": "Arket printes gratis som PDF og lægger sig i rækken efter bogstaverne G til L. Når de seks bogstaver her sidder sikkert, er der kun ét stræk tilbage af det fælles alfabet: bogstaverne fra S til Z – og til allersidst venter de tre helt danske bogstaver Æ, Ø og Å.",
+   "canonicalDeckSlug": "bogstavtraening-k255",
+   "carousel": [
+    {
+     "label": "Skriv bogstaverne S til Z",
+     "href": "skriv-bogstaverne-s-til-z"
+    },
+    {
+     "label": "Skriv Æ, Ø og Å – de tre danske bogstaver",
+     "href": "skriv-ae-oe-aa"
+    },
+    {
+     "label": "Mine første bogstaver: A B C D",
+     "href": "mine-foerste-bogstaver-abcd"
+    },
+    {
+     "label": "Skriv bogstaverne G til L",
+     "href": "skriv-bogstaverne-g-til-l"
+    }
+   ],
+   "title": "Skriv bogstaverne M til R – opgaveark | print PDF gratis",
+   "metaDescription": "Opgaveark med bogstaverne M, N, O, P, Q og R: skriv oven i de stiplede bogstaver, og øv ens højde og form – skriv selv til sidst. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-bogstaverne-s-til-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Bogstav-opgaveark",
+   "h1": "Skriv bogstaverne S til Z",
+   "strand": "Skrivning og bogstavkendskab",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "bogstavtraening",
+    "boernehaveklasse"
+   ],
+   "p1": "Dette opgaveark tager fat på alfabetets sidste stræk: bogstaverne fra S til Z. Hvert bogstav vises som model, skrives oven i de stiplede udgaver og til sidst helt selv på den tomme linje. Rækkerne løses oppefra og ned, ét bogstav ad gangen. Startprik og pile styrer strøgene – ikke mindst i S'ets dobbeltbue, der skifter retning midtvejs, og i Z'ets tre streger, der skal vende rigtigt for ikke at blive spejlvendte.",
+   "p2": "Slutningen af alfabetet er de skrå stregers rige: V, W, X og Y består næsten kun af diagonaler, som er de motorisk sværeste streger at styre – de kræver, at håndleddet arbejder i en ny vinkel. T og U giver små pusterum imellem, mens S er en klassiker at øve ekstra: Den lange, modsatrettede bue skal læres i kroppen, ikke forklares. At nå til Z er samtidig noget særligt. Når den sidste række på arket er skrevet, har barnet været hele vejen igennem det fælles alfabet med blyanten – og det må gerne fejres.",
+   "p3": "Arket printes gratis som PDF og fortsætter, hvor bogstaverne M til R slap. Og selvom Z er alfabetets sidste bogstav i mange sprog, er vi ikke færdige på dansk: Æ, Ø og Å venter på deres eget ark – de tre bogstaver, der gør alfabetet helt til vores.",
+   "canonicalDeckSlug": "bogstavtraening-k256",
+   "carousel": [
+    {
+     "label": "Skriv Æ, Ø og Å – de tre danske bogstaver",
+     "href": "skriv-ae-oe-aa"
+    },
+    {
+     "label": "Mine første bogstaver: A B C D",
+     "href": "mine-foerste-bogstaver-abcd"
+    },
+    {
+     "label": "Skriv bogstaverne G til L",
+     "href": "skriv-bogstaverne-g-til-l"
+    },
+    {
+     "label": "Skriv bogstaverne M til R",
+     "href": "skriv-bogstaverne-m-til-r"
+    }
+   ],
+   "title": "Skriv bogstaverne S til Z – opgaveark | print PDF gratis",
+   "metaDescription": "Opgaveark med bogstaverne S til Z: spor de stiplede bogstaver med startprik og pile, og træn de svære skrå streger i V, W, X og Y. Gratis PDF til print."
+  },
+  {
+   "slug": "skriv-ae-oe-aa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Bogstav-opgaveark",
+   "h1": "Skriv Æ, Ø og Å – de tre danske bogstaver",
+   "strand": "Skrivning og bogstavkendskab",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "bogstavtraening",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark øver barnet de tre danske bogstaver Æ, Ø og Å – dem, der står allersidst i alfabetet og gør det helt til vores. Hvert bogstav vises som model og skrives oven i de stiplede udgaver, inden barnet prøver selv på den tomme linje. Pilene viser, hvordan Æ'ets to dele hænger sammen, hvordan Ø'ets skrå streg lægges gennem cirklen, og hvornår Å'et får sin lille ring.",
+   "p2": "Æ, Ø og Å findes ikke på ret mange andre sprog – og derfor heller ikke på ret mange skriveark. Men på dansk er de umulige at undvære: De bor i ord som æble, ønske og år, i navne som Søren og Åse, og ø og å kan endda være hele ord helt alene. Motorisk bygger de klogt oven på det kendte: Æ er et A og et E, der er vokset sammen, Ø er et O med en skrå streg, og Å er et A med en ring over. Barnet genbruger altså former, det allerede kan – og lærer samtidig, at detaljerne gør forskellen: Uden streg og ring bliver bæk til bak og år til ar.",
+   "p3": "Arket printes gratis som PDF og er den festlige afslutning på bogstavrækken – oplagt, når bogstaverne fra S til Z er på plads. Derfra kan hele alfabetet holdes ved lige med de øvrige bogstavark, fra de allerførste på A B C D-arket og fremefter.",
+   "canonicalDeckSlug": "bogstavtraening-k257",
+   "carousel": [
+    {
+     "label": "Mine første bogstaver: A B C D",
+     "href": "mine-foerste-bogstaver-abcd"
+    },
+    {
+     "label": "Skriv bogstaverne G til L",
+     "href": "skriv-bogstaverne-g-til-l"
+    },
+    {
+     "label": "Skriv bogstaverne M til R",
+     "href": "skriv-bogstaverne-m-til-r"
+    },
+    {
+     "label": "Skriv bogstaverne S til Z",
+     "href": "skriv-bogstaverne-s-til-z"
+    }
+   ],
+   "title": "Skriv Æ, Ø og Å – bogstavark | print PDF gratis",
+   "metaDescription": "Opgaveark med Æ, Ø og Å: skriv oven i de tre danske bogstaver med startprik og pile, og skriv dem selv på den tomme linje. Gratis PDF til print."
+  },
+  {
+   "slug": "mine-foerste-bogstaver-abcd",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Bogstav-opgaveark",
+   "h1": "Mine første bogstaver: A B C D",
+   "strand": "Skrivning og bogstavkendskab",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "bogstavtraening",
+    "boernehaveklasse"
+   ],
+   "p1": "Dette opgaveark er selve begyndelsen: de fire første store bogstaver A, B, C og D i ekstra stort format. Hvert bogstav står som en tydelig model, og barnet skriver oven i de store, stiplede udgaver – A'ets to skrå streger og tværbjælken, B'ets to maver, C'ets åbne bue og D'ets ene, store. Startprikken viser, hvor blyanten sætter an, og til sidst i rækken prøver barnet selv på den tomme linje.",
+   "p2": "De fire første bogstaver bærer en særlig glæde: 'A, B, C, D' er starten på den remse, de fleste børn kan synge, længe før de kan skrive – og nu får hånden lov at følge med. Det ekstra store format er valgt til helt nye skrivere: Store bevægelser er lettere at styre end små, og succesen i de første forsøg betyder mere end noget andet for lysten til at fortsætte. Fire bogstaver er samtidig en bevidst lille portion. Hellere fire bogstaver, der bliver skrevet med stolthed og ro, end en hel side, der ender i hastværk.",
+   "p3": "Arket printes gratis som PDF og er et fint allerførste bogstavark i børnehaveklassen – eller derhjemme, når interessen melder sig. Er blyantgrebet helt nyt, varmer de skriveforberedende baner med sløjfer og bølger godt op, og bagefter fortsætter bogstavrejsen med arket fra G til L.",
+   "canonicalDeckSlug": "bogstavtraening-k258",
+   "carousel": [
+    {
+     "label": "Skriv bogstaverne G til L",
+     "href": "skriv-bogstaverne-g-til-l"
+    },
+    {
+     "label": "Skriv bogstaverne M til R",
+     "href": "skriv-bogstaverne-m-til-r"
+    },
+    {
+     "label": "Skriv bogstaverne S til Z",
+     "href": "skriv-bogstaverne-s-til-z"
+    },
+    {
+     "label": "Skriv Æ, Ø og Å – de tre danske bogstaver",
+     "href": "skriv-ae-oe-aa"
+    }
+   ],
+   "title": "Mine første bogstaver A B C D – opgaveark | print PDF gratis",
+   "metaDescription": "De fire første bogstaver A, B, C og D i ekstra stort format: spor de stiplede bogstaver, og skriv selv. Til helt nye skrivere. Gratis PDF til print."
+  },
+  {
+   "slug": "farvelaeg-efter-tal",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "boernehaveklasse"
+   },
+   "eyebrow": "Farvelægnings-opgaveark",
+   "h1": "Farvelæg efter tal – tallene 1 til 6",
+   "strand": "Tal og algebra",
+   "slotTokens": [
+    "regn-og-farvelaeg",
+    "boernehaveklasse"
+   ],
+   "p1": "På dette opgaveark har hvert felt i tegningen et lille tal fra 1 til 6, og nederst står farvekoden: ét tal ud for hvert farveord. Barnet finder tallet i feltet, slår det op i koden – 1 betyder måske rød, 2 betyder blå – og farvelægger feltet med netop den farve. Felt for felt vokser et farvestrålende billede frem, og der skal hverken plusses eller minusses undervejs: Her handler alt om at kende sine tal.",
+   "p2": "Klassisk 'farvelæg efter tal' træner to ting på én gang, uden at det føles som træning. Først talgenkendelsen: Barnet skal se forskel på 1, 4 og 6 igen og igen, i skiftende rækkefølge, til aflæsningen sker helt af sig selv. Dernæst koblingen mellem tal og farveord, hvor koden fungerer som en lille ordbog, barnet selv slår op i – en tidlig og meget konkret læseøvelse. Og så er der alt det stille: at holde sig inden for stregerne, at vælge felt med omhu, at blive i opgaven, til billedet er færdigt. Fejl opdager barnet ofte selv, for en forkert farve stikker ud af billedet.",
+   "p3": "Arket printes gratis som PDF og fungerer skønt som rolig station, i vikartimen eller ved køkkenbordet. Når tallene sidder helt fast, kan barnet vokse videre til 'regn og farvelæg', hvor der først skal regnes et lille stykke, før farven findes – og talskrivningen kan følges op med arket med tallene fra 0 til 4.",
+   "canonicalDeckSlug": "regn-og-farvelaeg-k266",
+   "carousel": [
+    {
+     "label": "Læseforståelse: Elias på stranden",
+     "href": "laeseforstaaelse-elias-paa-stranden"
+    },
+    {
+     "label": "Læseforståelse: På biblioteket",
+     "href": "laeseforstaaelse-paa-biblioteket"
+    },
+    {
+     "label": "Læseforståelse: Kælkedag",
+     "href": "laeseforstaaelse-kaelkedag"
+    },
+    {
+     "label": "Læseforståelse: Hos bageren",
+     "href": "laeseforstaaelse-hos-bageren"
+    }
+   ],
+   "title": "Farvelæg efter tal 1-6 – opgaveark | print PDF gratis",
+   "metaDescription": "Farvelæg efter tal: hvert felt har et tal fra 1 til 6, og farvekoden viser farven. Talgenkendelse og farveglæde – uden regnestykker. Gratis PDF til print."
+  },
+  {
+   "slug": "laeseforstaaelse-elias-paa-stranden",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Læseforståelses-opgaveark",
+   "h1": "Læseforståelse: Elias på stranden",
+   "strand": "Læsning",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "laeseforstaaelse",
+    "2-klasse"
+   ],
+   "p1": "På dette opgaveark læser barnet den lille historie 'Elias på stranden': Elias er på stranden med sin mor, finder en krabbe mellem stenene og ser den løbe sidelæns ned i vandet, inden han bygger et sandslot. Efter teksten venter tre spørgsmål, hver med tre svarmuligheder – barnet læser, tænker sig om og sætter ring om det rigtige svar. Historien er kort og venlig, et godt sted at begynde med rigtige forståelsesspørgsmål.",
+   "p2": "De tre spørgsmål er bygget i trappeform. De første kan findes direkte i teksten: Hvem er Elias sammen med, og hvad finder han mellem stenene? Det sidste kræver et lille spring: Hvorfor løber krabben ned i vandet? Det står der ikke ordret – barnet må bruge det, det ved om krabber og hav, sammen med det, teksten fortæller. Netop den slags tænke-videre-spørgsmål er begyndelsen på rigtig læseforståelse: Teksten er ikke kun noget, man afkoder, men noget, man tænker med. Og fordi svarene er givet som muligheder, kan barnet koncentrere sig helt om at vende tilbage til teksten og tjekke efter.",
+   "p3": "Arket printes gratis som PDF og passer til den daglige læsestund i 2. klasse. Historien om Elias er den korteste i rækken og derfor et fint startsted – bagefter kan klassen følge Sofia 'På biblioteket' eller tage med 'Hos bageren', hvor teksterne vokser lidt i længde, mens opskriften er tryg og den samme.",
+   "canonicalDeckSlug": "laeseforstaaelse-g2269",
+   "carousel": [
+    {
+     "label": "Læseforståelse: På biblioteket",
+     "href": "laeseforstaaelse-paa-biblioteket"
+    },
+    {
+     "label": "Læseforståelse: Kælkedag",
+     "href": "laeseforstaaelse-kaelkedag"
+    },
+    {
+     "label": "Læseforståelse: Hos bageren",
+     "href": "laeseforstaaelse-hos-bageren"
+    },
+    {
+     "label": "Læseforståelse: Skovturen",
+     "href": "laeseforstaaelse-skovturen"
+    }
+   ],
+   "title": "Læseforståelse: Elias på stranden – 2. klasse | print PDF gratis",
+   "metaDescription": "Læseforståelse for 2. klasse: læs den lille historie om Elias på stranden, og sæt ring om det rigtige svar til tre spørgsmål. Gratis PDF til print."
+  },
+  {
+   "slug": "laeseforstaaelse-paa-biblioteket",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Læseforståelses-opgaveark",
+   "h1": "Læseforståelse: På biblioteket",
+   "strand": "Læsning",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "laeseforstaaelse",
+    "2-klasse"
+   ],
+   "p1": "På dette opgaveark følger barnet Sofia i historien 'På biblioteket': Hver torsdag går hendes klasse på biblioteket, og i dag vælger Sofia en bog om rummet, får den stemplet og lægger den forsigtigt i tasken – hun glæder sig til at læse højt for sin lillebror. Efter historien svarer barnet på tre spørgsmål ved at sætte ring om den rigtige af tre muligheder.",
+   "p2": "Historien om Sofia egner sig særligt godt til at tale om det, der står mellem linjerne. To af spørgsmålene handler om fakta – hvilken dag, hvilken bog – og træner at finde præcise oplysninger i teksten igen. Men det tredje spørger, hvad det viser, at Sofia lægger bogen forsigtigt i tasken. Svaret står ingen steder; det skal læses ud af hendes handling. At slutte fra det, en person gør, til det, personen føler, er et stort skridt i læseudviklingen – og en færdighed, der rækker langt ud over skolen. Svarmulighederne gør springet trygt: Barnet skal ikke formulere selv, kun genkende den tanke, der passer.",
+   "p3": "Arket printes gratis som PDF – oplagt til læsestationen eller som hyggelig lektie, måske endda før et rigtigt biblioteksbesøg. I samme serie venter 'Kælkedag', hvor det er vinterens kulde, der driver historien, og 'Skovturen', seriens længste tekst, når klassen er klar til mere.",
+   "canonicalDeckSlug": "laeseforstaaelse-g2270",
+   "carousel": [
+    {
+     "label": "Læseforståelse: Kælkedag",
+     "href": "laeseforstaaelse-kaelkedag"
+    },
+    {
+     "label": "Læseforståelse: Hos bageren",
+     "href": "laeseforstaaelse-hos-bageren"
+    },
+    {
+     "label": "Læseforståelse: Skovturen",
+     "href": "laeseforstaaelse-skovturen"
+    },
+    {
+     "label": "Læseforståelse: Elias på stranden",
+     "href": "laeseforstaaelse-elias-paa-stranden"
+    }
+   ],
+   "title": "Læseforståelse: På biblioteket – 2. klasse | print PDF gratis",
+   "metaDescription": "Læs historien om Sofia på biblioteket, og svar på tre spørgsmål – ét kræver at læse mellem linjerne. Læseforståelse til 2. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "laeseforstaaelse-kaelkedag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Læseforståelses-opgaveark",
+   "h1": "Læseforståelse: Kælkedag",
+   "strand": "Læsning",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "laeseforstaaelse",
+    "2-klasse"
+   ],
+   "p1": "'Kælkedag' er en lille vinterhistorie: Det har sneet i nat, og Anton og hans søster Ida tager kælken med op på bakken bag huset. De suser ned, så sneen fyger, Ida griner højt – og da fingrene bliver kolde, går de ind til varm kakao med flødeskum. På dette opgaveark læser barnet historien og sætter derefter ring om det rigtige svar til tre spørgsmål med hver tre muligheder.",
+   "p2": "Vinterhistorien er bygget op om årsag og virkning, og det afspejler spørgsmålene. Hvad tager børnene med op på bakken, og hvad får de, da de kommer ind – det finder barnet ved at gå tilbage i teksten og læse efter. Men hvorfor går de ind til sidst? Her skal to oplysninger kædes sammen: kolde fingre først, kakao bagefter. At se den slags forbindelser – dét skete, fordi dét skete – er en af de vigtigste muskler i læseforståelsen, og den trænes bedst i tekster, hvor sammenhængen er til at få øje på. De forkerte svarmuligheder er valgt, så de frister den, der kun har skimmet.",
+   "p3": "Arket printes gratis som PDF og er som skabt til en frostklar vintermorgen – eller en hvilken som helst dag, hvor klassen trænger til sne på papir. Bagefter byder serien på 'Hos bageren', hvor duften af rundstykker næsten stiger op af siden, og på den stille eftertænksomhed i 'På biblioteket'.",
+   "canonicalDeckSlug": "laeseforstaaelse-g2271",
+   "carousel": [
+    {
+     "label": "Læseforståelse: Hos bageren",
+     "href": "laeseforstaaelse-hos-bageren"
+    },
+    {
+     "label": "Læseforståelse: Skovturen",
+     "href": "laeseforstaaelse-skovturen"
+    },
+    {
+     "label": "Læseforståelse: Elias på stranden",
+     "href": "laeseforstaaelse-elias-paa-stranden"
+    },
+    {
+     "label": "Læseforståelse: På biblioteket",
+     "href": "laeseforstaaelse-paa-biblioteket"
+    }
+   ],
+   "title": "Læseforståelse: Kælkedag – 2. klasse | print PDF gratis",
+   "metaDescription": "Vinterhistorie med spørgsmål: Anton og Ida på kælkebakken – læs, og sæt ring om det rigtige svar. Læseforståelse til 2. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "laeseforstaaelse-hos-bageren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Læseforståelses-opgaveark",
+   "h1": "Læseforståelse: Hos bageren",
+   "strand": "Læsning",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "laeseforstaaelse",
+    "2-klasse"
+   ],
+   "p1": "I historien 'Hos bageren' cykler Nora og hendes far lørdag morgen ned til bageren på hjørnet, hvor der allerede ude på gaden dufter af friskbagt brød. De køber rundstykker, fordi farmor kommer på besøg – og far køber et lille stykke kringle til Nora, da hun peger på den i vinduet. På opgavearket læser barnet historien og svarer på tre spørgsmål med hver tre svarmuligheder.",
+   "p2": "Historien er hverdag, som børn kender den, og netop derfor god at læse omhyggeligt: Detaljerne ligner hinanden, og kun teksten afgør, om det var farmor eller farfar, der kom på besøg, og om der blev købt rundstykker eller rugbrød. De to første spørgsmål belønner den præcise læser. Det tredje går et spadestik dybere: Hvad viser det, at far køber kringle til Nora? Han siger det ikke selv – men handlingen fortæller om omsorg, og det er den slags stille pointer, gode læsere lærer at fange. Samtalen bagefter kan sagtens fortsætte: Hvordan mon rundstykkerne holder sig varme på vejen hjem?",
+   "p3": "Arket printes gratis som PDF – og gør sig godt en fredag, hvor weekendens morgenbord alligevel er lige om hjørnet. I samme serie ligger den vinterglade 'Kælkedag' og strandhistorien om Elias, så læsestunden kan skifte årstid fra uge til uge med samme trygge opbygning.",
+   "canonicalDeckSlug": "laeseforstaaelse-g2272",
+   "carousel": [
+    {
+     "label": "Læseforståelse: Skovturen",
+     "href": "laeseforstaaelse-skovturen"
+    },
+    {
+     "label": "Læseforståelse: Elias på stranden",
+     "href": "laeseforstaaelse-elias-paa-stranden"
+    },
+    {
+     "label": "Læseforståelse: På biblioteket",
+     "href": "laeseforstaaelse-paa-biblioteket"
+    },
+    {
+     "label": "Læseforståelse: Kælkedag",
+     "href": "laeseforstaaelse-kaelkedag"
+    }
+   ],
+   "title": "Læseforståelse: Hos bageren – 2. klasse | print PDF gratis",
+   "metaDescription": "Læs historien om Nora hos bageren, og svar på tre spørgsmål – det sidste gemmer sig mellem linjerne. Læseforståelse til 2. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "laeseforstaaelse-skovturen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Læseforståelses-opgaveark",
+   "h1": "Læseforståelse: Skovturen",
+   "strand": "Læsning",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "laeseforstaaelse",
+    "2-klasse"
+   ],
+   "p1": "'Skovturen' er seriens længste historie: 2.a skal i skoven med deres lærer Mette, og alle har madpakker og gummistøvler med, for stien er mudret efter regnen. Undervejs finder Liv en fjer, Oscar ser et egern pile op ad en stamme, klassen spiser ved den store eg, og børnene samler blade og kastanjer – de skal nemlig bruges til efterårsbilleder. Efter teksten sætter barnet ring om det rigtige svar til tre spørgsmål.",
+   "p2": "Med flere personer og flere hændelser stiller den længere tekst nye krav: Nu gælder det om at holde styr på, hvem der gjorde hvad – var det Liv eller Oscar, der så egernet? – og på, hvorfor tingene sker: Gummistøvlerne er med af en grund, og bladene samles med et mål. Spørgsmålene sender derfor barnet tilbage i teksten flere gange, og det er hele pointen: Gode læsere bladrer tilbage, tjekker efter og lader ikke hukommelsen gætte for sig. Kan barnet det i en tekst af denne længde, er det klar til de længere kapitler, der venter i læsebøgerne.",
+   "p3": "Arket printes gratis som PDF – oplagt før eller efter klassens egen tur i efterårsskoven. Er teksten i overkanten endnu, er den korte strandhistorie om Elias det milde startsted, og 'Kælkedag' ligger fint midtimellem. Serien er bygget, så man kan klatre i tekstlængde uden at skifte opskrift.",
+   "canonicalDeckSlug": "laeseforstaaelse-g2273",
+   "carousel": [
+    {
+     "label": "Læseforståelse: Elias på stranden",
+     "href": "laeseforstaaelse-elias-paa-stranden"
+    },
+    {
+     "label": "Læseforståelse: På biblioteket",
+     "href": "laeseforstaaelse-paa-biblioteket"
+    },
+    {
+     "label": "Læseforståelse: Kælkedag",
+     "href": "laeseforstaaelse-kaelkedag"
+    },
+    {
+     "label": "Læseforståelse: Hos bageren",
+     "href": "laeseforstaaelse-hos-bageren"
+    }
+   ],
+   "title": "Læseforståelse: Skovturen – 2. klasse | print PDF gratis",
+   "metaDescription": "Seriens længste historie: 2.a på skovtur – hold styr på personer og detaljer, og svar på tre spørgsmål. Læseforståelse til 2. klasse. Gratis PDF."
+  },
+  {
+   "slug": "plus-med-tierovergang",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tierovergangs-opgaveark",
+   "h1": "Plus med tierovergang – tocifrede tal med mente",
+   "strand": "Tal og algebra",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "regne-med-opstilling",
+    "3-klasse"
+   ],
+   "p1": "På dette opgaveark står tocifrede plusstykker opstillet under hinanden – enere over enere, tiere over tiere – og i hvert stykke giver enerne mere end ni, så der skal veksles. Over opstillingen sidder en lille stiplet boks til menten: Når enerne fx giver 13, skrives 3 under stregen, og 1-tallet parkeres i boksen, til tierne lægges sammen. Kasserne om cifrene holder pladserne rene, så intet skrider undervejs.",
+   "p2": "Menten er det sted, hvor mange børns forståelse enten bygges eller tabes. Derfor er det værd at sige højt, hver gang: Det lille 1-tal er ikke 'et et-tal, man flytter' – det er ti enere, der er vekslet til én tier og nu hører hjemme i tiernes søjle. Ti enere og én tier er præcis det samme, bare klædt forskelligt på. Når den sætning sidder, holder metoden op med at være en remse og bliver til regning med mening. De stiplede huskebokse gør vekslingen synlig, mens den er ny; med tiden bærer mange børn menten i hovedet, og boksene kan stå tomme.",
+   "p3": "Arket printes gratis som PDF og fungerer bedst efter et fælles eksempel på tavlen, hvor vekslingen sættes i ord. Når plus med mente glider, er det naturlige næste trin minus med tierovergang – dér veksles der den modsatte vej – og senere venter de trecifrede plusstykker, hvor menten kan optræde to gange.",
+   "canonicalDeckSlug": "regne-med-opstilling-g3359",
+   "carousel": [
+    {
+     "label": "Minus med tierovergang – veksl en tier",
+     "href": "minus-med-tierovergang"
+    },
+    {
+     "label": "Trecifret plus med tierovergang",
+     "href": "trecifret-plus-med-tierovergang"
+    },
+    {
+     "label": "Minus hen over nul – 302 minus 158",
+     "href": "minus-hen-over-nul"
+    },
+    {
+     "label": "Repetition med tierovergang – plus og minus blandet",
+     "href": "repetition-med-tierovergang"
+    }
+   ],
+   "title": "Plus med tierovergang – 3. klasse | print PDF gratis",
+   "metaDescription": "Tocifrede plusstykker i opstilling med tierovergang: veksl ti enere til én tier, og brug den stiplede boks til menten. 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "minus-med-tierovergang",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tierovergangs-opgaveark",
+   "h1": "Minus med tierovergang – veksl en tier",
+   "strand": "Tal og algebra",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "regne-med-opstilling",
+    "3-klasse"
+   ],
+   "p1": "Her regner barnet tocifrede minusstykker i opstilling, hvor enerne ikke slår til: I et stykke som 52 − 27 kan man ikke trække 7 fra 2, så der må hentes hjælp. Barnet veksler en tier til ti enere, retter tallene til over stykket og trækker så fra – først enere, så tiere. Kasserne holder cifrene på plads, og hvert eneste stykke på arket kræver netop den veksling, der her skal øves.",
+   "p2": "At 'låne' er det klassiske ord, men veksle er det ærlige: Der lånes ikke noget, som skal betales tilbage – en tier bliver til ti enere, og tallets samlede værdi er urørt. 52 er stadig 52, selvom det et øjeblik ser ud som 4 tiere og 12 enere. Det er positionssystemets vigtigste pointe, og minusstykkerne er stedet, hvor den for alvor bliver testet. Den typiske fejl er at trække det mindste ciffer fra det største, uanset rækkefølgen – 7 minus 2 i stedet for 12 minus 7 – og netop dén fejl afslører, om vekslingen er forstået eller kun husket. Derfor: Regn langsomt, og sæt ord på hvert skridt.",
+   "p3": "Arket printes gratis som PDF og hører naturligt sammen med plusstykkerne med mente, så begge veksleretninger trænes side om side. Er de tocifrede minusstykker på plads, byder trappen videre op: trecifret plus – og siden det berømte 'minus hen over nul', hvor vekslingen tager to skridt.",
+   "canonicalDeckSlug": "regne-med-opstilling-g3360",
+   "carousel": [
+    {
+     "label": "Trecifret plus med tierovergang",
+     "href": "trecifret-plus-med-tierovergang"
+    },
+    {
+     "label": "Minus hen over nul – 302 minus 158",
+     "href": "minus-hen-over-nul"
+    },
+    {
+     "label": "Repetition med tierovergang – plus og minus blandet",
+     "href": "repetition-med-tierovergang"
+    },
+    {
+     "label": "Plus med tierovergang – tocifrede tal med mente",
+     "href": "plus-med-tierovergang"
+    }
+   ],
+   "title": "Minus med tierovergang – 3. klasse | print PDF gratis",
+   "metaDescription": "Tocifrede minusstykker med tierovergang: veksl en tier til ti enere, når du ikke kan trække fra. Opstilling med kasser, 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "trecifret-plus-med-tierovergang",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tierovergangs-opgaveark",
+   "h1": "Trecifret plus med tierovergang",
+   "strand": "Tal og algebra",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "regne-med-opstilling",
+    "3-klasse"
+   ],
+   "p1": "På dette opgaveark er plusstykkerne vokset til tre cifre: Hundreder, tiere og enere står i hver deres søjle, og over stykkerne venter de stiplede huskebokse til menten. Barnet regner søjle for søjle – enere først, så tiere, så hundreder – og i flere af stykkerne skal der veksles mere end én gang, før resultatet står under stregen. Fremgangsmåden er nøjagtig den samme som med to cifre; der er bare kommet en søjle mere.",
+   "p2": "Det nye ved trecifrede stykker er ikke metoden, men udholdenheden – og kædereaktionen. En mente kan nu vandre fra enerne til tierne og videre fra tierne til hundrederne i samme stykke: Ti tiere veksles til én hundreder, præcis som ti enere veksles til én tier. Når barnet opdager, at det er den samme regel, der bare gentager sig én etage oppe, er der åbnet en dør: Så kan man i princippet lægge vilkårligt store tal sammen, for systemet fortsætter bare. Store tal under stregen giver desuden en helt særlig regnestolthed – 'jeg kan regne med hundreder' – som er værd at tage med.",
+   "p3": "Arket printes gratis som PDF og forudsætter, at de tocifrede stykker med mente sidder nogenlunde sikkert. Undervejs kan minus med tierovergang holdes varmt ved siden af – og når begge dele glider, er 'minus hen over nul' den sidste store prøve i vekslingens kunst.",
+   "canonicalDeckSlug": "regne-med-opstilling-g3361",
+   "carousel": [
+    {
+     "label": "Minus hen over nul – 302 minus 158",
+     "href": "minus-hen-over-nul"
+    },
+    {
+     "label": "Repetition med tierovergang – plus og minus blandet",
+     "href": "repetition-med-tierovergang"
+    },
+    {
+     "label": "Plus med tierovergang – tocifrede tal med mente",
+     "href": "plus-med-tierovergang"
+    },
+    {
+     "label": "Minus med tierovergang – veksl en tier",
+     "href": "minus-med-tierovergang"
+    }
+   ],
+   "title": "Trecifret plus med tierovergang | print PDF gratis",
+   "metaDescription": "Trecifrede plusstykker i opstilling: menten kan vandre fra enere til tiere til hundreder. Med stiplede huskebokse. 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "minus-hen-over-nul",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tierovergangs-opgaveark",
+   "h1": "Minus hen over nul – 302 minus 158",
+   "strand": "Tal og algebra",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "regne-med-opstilling",
+    "3-klasse"
+   ],
+   "p1": "Dette opgaveark er viet til den berømte nul-fælde: minusstykker som 302 − 158, hvor der skal veksles – men hvor der står et nul på tiernes plads, så der i første omgang ikke er nogen tier at veksle. Barnet lærer at gå ét skridt længere op: Veksl en hundreder til ti tiere først, og veksl derefter en af de nye tiere til ti enere. Så er der pludselig noget at trække fra, og stykket kan regnes som sædvanligt.",
+   "p2": "Minus hen over nul er dér, hvor det viser sig, om opstillingen er forstået eller kun indøvet. Den, der følger en remse, går i stå ved nullet; den, der forstår vekslingen, kan bruge den to gange i træk. Derfor er stykkerne på arket valgt, så nullet optræder igen og igen, og derfor er det klogt at lade barnet forklare højt undervejs: 'Jeg kan ikke veksle en tier, for der er ingen – så jeg veksler en hundreder først.' 302 bliver et øjeblik til 2 hundreder, 9 tiere og 12 enere – og er stadig præcis 302. Kan barnet sige dét med egne ord, er den svære del af subtraktionen i hus.",
+   "p3": "Arket printes gratis som PDF og bør først på bordet, når minus med almindelig tierovergang glider uden sved. Bagefter er det oplagt at samle det hele i repetitionsarket, hvor plus og minus med veksling står blandet mellem hinanden – dér skal metoden vælges fra stykke til stykke.",
+   "canonicalDeckSlug": "regne-med-opstilling-g3362",
+   "carousel": [
+    {
+     "label": "Repetition med tierovergang – plus og minus blandet",
+     "href": "repetition-med-tierovergang"
+    },
+    {
+     "label": "Plus med tierovergang – tocifrede tal med mente",
+     "href": "plus-med-tierovergang"
+    },
+    {
+     "label": "Minus med tierovergang – veksl en tier",
+     "href": "minus-med-tierovergang"
+    },
+    {
+     "label": "Trecifret plus med tierovergang",
+     "href": "trecifret-plus-med-tierovergang"
+    }
+   ],
+   "title": "Minus hen over nul – 3. klasse | print PDF gratis",
+   "metaDescription": "Minus hen over nul: stykker som 302-158, hvor der veksles i to skridt – hundreder til tiere, tiere til enere. Opgaveark til 3. klasse. Gratis PDF."
+  },
+  {
+   "slug": "repetition-med-tierovergang",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tierovergangs-opgaveark",
+   "h1": "Repetition med tierovergang – plus og minus blandet",
+   "strand": "Tal og algebra",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "regne-med-opstilling",
+    "3-klasse"
+   ],
+   "p1": "På dette repetitionsark står plus- og minusstykker med tierovergang blandet mellem hinanden i opstilling. Intet mønster hjælper på vejen: Ved hvert stykke må barnet først se efter regnetegnet, derefter afgøre, om der skal veksles – og til hvilken side. Nogle stykker kræver mente i plus, andre veksling i minus, og enkelte glider igennem helt uden. Netop dét er meningen. Kasser og huskebokse er med hele vejen, som barnet kender dem.",
+   "p2": "Blandet træning er det ærligste billede af, hvad der faktisk sidder fast. Når alle stykker på en side skal løses på samme måde, kan hånden gå i automatgear – men i det blandede ark skal hovedet med i hvert eneste valg, og det er præcis sådan, regning ser ud i virkeligheden. Arket fungerer derfor fint som lille status: Går fejlene igen i plus-stykkerne, i minus-stykkerne eller i valget imellem dem? Svaret fortæller nøjagtigt, hvilket af de foregående ark der skal en tur til. Og går det hele glat, er der ikke mere at bevise – så er tierovergangen ejendom, ikke lån.",
+   "p3": "Arket printes gratis som PDF og er den naturlige afrunding efter plus med mente, minus med veksling, de trecifrede stykker og nul-fælden. Er der energi til overs, venter et helt nyt kapitel: 2-tabellen, hvor gangetegnet tager over efter plus og minus.",
+   "canonicalDeckSlug": "regne-med-opstilling-g3363",
+   "carousel": [
+    {
+     "label": "Plus med tierovergang – tocifrede tal med mente",
+     "href": "plus-med-tierovergang"
+    },
+    {
+     "label": "Minus med tierovergang – veksl en tier",
+     "href": "minus-med-tierovergang"
+    },
+    {
+     "label": "Trecifret plus med tierovergang",
+     "href": "trecifret-plus-med-tierovergang"
+    },
+    {
+     "label": "Minus hen over nul – 302 minus 158",
+     "href": "minus-hen-over-nul"
+    }
+   ],
+   "title": "Repetition med tierovergang – 3. klasse | print PDF gratis",
+   "metaDescription": "Repetition med tierovergang: blandede plus- og minusstykker i opstilling – vælg selv metode og veksleretning fra stykke til stykke. 3. klasse. Gratis PDF."
+  },
+  {
+   "slug": "2-tabellen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tabel-opgaveark",
+   "h1": "2-tabellen – gangestykker fra 1 · 2 til 10 · 2",
+   "strand": "Tal og algebra",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "gangetabeller",
+    "3-klasse"
+   ],
+   "p1": "På dette opgaveark øves 2-tabellen fra den ene ende: 1 · 2, 2 · 2 og hele vejen op til 10 · 2, med gangetegnet · som i skolens bøger og en svarkasse ud for hvert stykke. Barnet regner stigen igennem oppefra og ned, skriver resultaterne og opdager hurtigt rækken 2, 4, 6, 8, 10 … – tallene hopper to ad gangen. Målet er, at stykkerne til sidst kan svares uden at tælle.",
+   "p2": "2-tabellen er det bedste sted at begynde tabeltræningen, fordi den allerede bor i barnet: At gange med 2 er at lægge et tal sammen med sig selv, og 'dobbelt op' kender alle fra terninger, tvillinger og par af sokker. Resultaterne er alle lige tal, og netop den tydelige rytme gør det let at opdage systemet – og at fange sine egne fejl, for et ulige tal i svarkassen kan simpelthen ikke passe. Undervejs er det guld værd at koble stykkerne til dobbelt-sprog: 7 · 2 er 'dobbelt 7'. Den kobling gør tabellen til viden, der kan bruges, ikke bare remses.",
+   "p3": "Arket printes gratis som PDF, og 2-tabellen fortjener mange små gentagelser hen over ugerne. Når den sidder helt fast, er 4-tabellen det logiske næste skridt – den er nemlig bare 2-tabellen dobbelt op – og 5-tabellen står klar med sin egen, behagelige rytme.",
+   "canonicalDeckSlug": "gangetabeller-g3364",
+   "carousel": [
+    {
+     "label": "5-tabellen – gangestykker fra 1 · 5 til 10 · 5",
+     "href": "5-tabellen"
+    },
+    {
+     "label": "10-tabellen – gangestykker fra 1 · 10 til 10 · 10",
+     "href": "10-tabellen"
+    },
+    {
+     "label": "3-tabellen – gangestykker fra 1 · 3 til 10 · 3",
+     "href": "3-tabellen"
+    },
+    {
+     "label": "4-tabellen – gangestykker fra 1 · 4 til 10 · 4",
+     "href": "4-tabellen"
+    }
+   ],
+   "title": "2-tabellen – opgaveark til 3. klasse | print PDF gratis",
+   "metaDescription": "2-tabellen som stige fra 1·2 til 10·2 med svarkasser: dobbelt op og lige tal hele vejen. Den første tabeltræning i 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "5-tabellen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tabel-opgaveark",
+   "h1": "5-tabellen – gangestykker fra 1 · 5 til 10 · 5",
+   "strand": "Tal og algebra",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "gangetabeller",
+    "3-klasse"
+   ],
+   "p1": "Dette opgaveark tager 5-tabellen fra 1 · 5 til 10 · 5 – en fuld stige med gangetegnet · og en svarkasse til hvert resultat. Barnet regner sig ned gennem rækken og ser mønsteret vokse frem: 5, 10, 15, 20 … Hvert eneste svar ender på 5 eller 0, og det gør tabellen både let at huske og let at kontrollere. Som altid gælder det om at øve, til svarene kommer helt af sig selv.",
+   "p2": "5-tabellen er tælleremsens tabel: De fleste børn kan allerede tælle i spring på fem, og her opdager de, at remsen og gangestykkerne er to sider af samme sag – 4 · 5 er det fjerde tal, man siger. Tabellen har desuden en berømt makker i klasseværelset: uret. Minutviseren regner i femmere hele døgnet – tre streger efter tolv er 3 · 5 minutter – så hver gang klokken læses, repeteres tabellen gratis. Endelig er femmerne halvdelen af tierne, en sammenhæng, der senere gør hovedregning smidig: Kan man gange med 10, kan man gange med 5 ved at tage det halve.",
+   "p3": "Arket printes gratis som PDF og kan fint trænes samtidig med 2-tabellen – de to blander sig ikke i hinanden. Naturlig fortsættelse er 10-tabellen, hvor slægtskabet med femmerne bliver tydeligt, og derefter 3-tabellen, hvor der for alvor skal læres udenad.",
+   "canonicalDeckSlug": "gangetabeller-g3365",
+   "carousel": [
+    {
+     "label": "10-tabellen – gangestykker fra 1 · 10 til 10 · 10",
+     "href": "10-tabellen"
+    },
+    {
+     "label": "3-tabellen – gangestykker fra 1 · 3 til 10 · 3",
+     "href": "3-tabellen"
+    },
+    {
+     "label": "4-tabellen – gangestykker fra 1 · 4 til 10 · 4",
+     "href": "4-tabellen"
+    },
+    {
+     "label": "2-tabellen – gangestykker fra 1 · 2 til 10 · 2",
+     "href": "2-tabellen"
+    }
+   ],
+   "title": "5-tabellen – opgaveark til 3. klasse | print PDF gratis",
+   "metaDescription": "5-tabellen fra 1·5 til 10·5: tæl i spring, brug urets femmere, og skriv svarene i kasserne – alle ender på 5 eller 0. 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "10-tabellen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tabel-opgaveark",
+   "h1": "10-tabellen – gangestykker fra 1 · 10 til 10 · 10",
+   "strand": "Tal og algebra",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "gangetabeller",
+    "3-klasse"
+   ],
+   "p1": "På dette opgaveark står 10-tabellen som en fuld stige fra 1 · 10 til 10 · 10, med gangetegn og svarkasser hele vejen ned. Barnet skriver 10, 20, 30 … og runder af med det flotte 100. Stykkerne regnes oppefra og ned, og facit står hurtigt på stribe. Rækken ligner tælleremsen i tiere, og netop derfor er arket også et lille vindue ind i titalssystemet.",
+   "p2": "'Man sætter bare et nul bagpå' – sådan lyder huskereglen, men det spændende er hvorfor: Når 7 ganges med 10, bliver de 7 enere til 7 tiere. Hvert ciffer rykker en plads op i systemet, og på enernes tomme plads står nullet vagt. Det er positionssystemet i sin reneste form, og den forklaring er værd at give, inden reglen får lov at køre af sig selv – ellers sætter børn senere også bare 'et nul bagpå' decimaltal, hvor reglen bryder sammen. 10-tabellen er samtidig et anker for de andre tabeller: Ni tiere er én tier mindre end hundrede, og femmerne er halvdelen af tierne.",
+   "p3": "Arket printes gratis som PDF og er tabelrækkens hurtigste succesoplevelse – de fleste kan den næsten på forhånd. Brug den som springbræt: 5-tabellen ligger lige ved siden af som 'det halve af tierne', og i den blandede træning i den lille tabel bliver tierne de trygge stykker, man hviler i.",
+   "canonicalDeckSlug": "gangetabeller-g3366",
+   "carousel": [
+    {
+     "label": "3-tabellen – gangestykker fra 1 · 3 til 10 · 3",
+     "href": "3-tabellen"
+    },
+    {
+     "label": "4-tabellen – gangestykker fra 1 · 4 til 10 · 4",
+     "href": "4-tabellen"
+    },
+    {
+     "label": "2-tabellen – gangestykker fra 1 · 2 til 10 · 2",
+     "href": "2-tabellen"
+    },
+    {
+     "label": "5-tabellen – gangestykker fra 1 · 5 til 10 · 5",
+     "href": "5-tabellen"
+    }
+   ],
+   "title": "10-tabellen – opgaveark til 3. klasse | print PDF gratis",
+   "metaDescription": "10-tabellen fra 1·10 til 10·10: forstå, hvorfor cifrene rykker en plads, og nullet står bagerst. Stige med svarkasser, 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "3-tabellen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tabel-opgaveark",
+   "h1": "3-tabellen – gangestykker fra 1 · 3 til 10 · 3",
+   "strand": "Tal og algebra",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "gangetabeller",
+    "3-klasse"
+   ],
+   "p1": "Dette opgaveark stiller 3-tabellen op som en stige fra 1 · 3 til 10 · 3 med en svarkasse til hvert stykke. Barnet arbejder sig ned gennem rækken – 3, 6, 9, 12 … op til 30 – og skriver hvert resultat i kassen. Her er ingen nem tommelfingerregel at læne sig op ad: 3-tabellen er den første tabel, der for alvor skal læres udenad, og derfor har den fået sit helt eget ark.",
+   "p2": "Netop derfor er den et vigtigt sted i tabeltræningen. Toerne var dobbelt op, femmerne fulgte remsen, og tierne gav næsten sig selv – men treerne kræver rigtige strategier. To af dem bærer det meste: at bruge et kendt stykke som trædesten (6 · 3 er 5 · 3 og tre mere) og at vende faktorerne, når det er smart. Det er også her, træningskulturen grundlægges: korte, hyppige runder på få minutter slår én lang seance. Stigen på arket giver struktur – og næste skridt er at kunne svare på stykkerne i tilfældig rækkefølge, for først dér sidder tabellen rigtigt.",
+   "p3": "Arket printes gratis som PDF, og et frisk eksemplar med få dages mellemrum gør fremgangen synlig. Er treerne tunge, så byg selvtillid med 2-tabellen og 10-tabellen først – og når treerne sidder, er 4-tabellen inden for rækkevidde med et velkendt trick: dobbelt op på toerne.",
+   "canonicalDeckSlug": "gangetabeller-g3367",
+   "carousel": [
+    {
+     "label": "4-tabellen – gangestykker fra 1 · 4 til 10 · 4",
+     "href": "4-tabellen"
+    },
+    {
+     "label": "2-tabellen – gangestykker fra 1 · 2 til 10 · 2",
+     "href": "2-tabellen"
+    },
+    {
+     "label": "5-tabellen – gangestykker fra 1 · 5 til 10 · 5",
+     "href": "5-tabellen"
+    },
+    {
+     "label": "10-tabellen – gangestykker fra 1 · 10 til 10 · 10",
+     "href": "10-tabellen"
+    }
+   ],
+   "title": "3-tabellen – opgaveark til 3. klasse | print PDF gratis",
+   "metaDescription": "3-tabellen fra 1·3 til 10·3 – den første tabel, der skal læres helt udenad. Stige med svarkasser og gode strategier. 3. klasse. Gratis PDF til print."
+  },
+  {
+   "slug": "4-tabellen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Tabel-opgaveark",
+   "h1": "4-tabellen – gangestykker fra 1 · 4 til 10 · 4",
+   "strand": "Tal og algebra",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "gangetabeller",
+    "3-klasse"
+   ],
+   "p1": "På dette opgaveark øves 4-tabellen som en fuld stige fra 1 · 4 til 10 · 4, med gangetegnet · og en svarkasse ved hvert stykke. Barnet regner rækken igennem – 4, 8, 12, 16 … helt op til 40 – og skriver svarene, til de kommer uden tøven. Alle resultater er lige tal, og hvert eneste af dem er et dobbelt så stort ekko af 2-tabellen.",
+   "p2": "Det er hele hemmeligheden ved firerne: At gange med 4 er at gange med 2 – to gange. 7 · 4 er dobbelt 7, og så dobbelt op igen: 14, 28. Barnet, der kan sine toere, har derfor allerede halvdelen af arbejdet gjort og skal 'bare' lære at tage det andet dobbelt-skridt hurtigt. Undervejs opdages flere fine sammenhænge: Firernes række er hveranden af toernes, og 4 · 5 mødes med 5 · 4 fra femmerne – samme stykke, to veje ind. At se tabellerne hjælpe hinanden på den måde er et stort skridt væk fra remseregning og hen mod rigtig talforståelse.",
+   "p3": "Arket printes gratis som PDF og hører hjemme lige efter 2-tabellen – gevinsten ved dobbelt-tricket er størst, mens toerne er varme. Sammen med 3-tabellen dækker firerne det svære mellemstykke i den lille tabel, og derfra er den blandede tabeltræning det sidste trin op.",
+   "canonicalDeckSlug": "gangetabeller-g3368",
+   "carousel": [
+    {
+     "label": "2-tabellen – gangestykker fra 1 · 2 til 10 · 2",
+     "href": "2-tabellen"
+    },
+    {
+     "label": "5-tabellen – gangestykker fra 1 · 5 til 10 · 5",
+     "href": "5-tabellen"
+    },
+    {
+     "label": "10-tabellen – gangestykker fra 1 · 10 til 10 · 10",
+     "href": "10-tabellen"
+    },
+    {
+     "label": "3-tabellen – gangestykker fra 1 · 3 til 10 · 3",
+     "href": "3-tabellen"
+    }
+   ],
+   "title": "4-tabellen – opgaveark til 3. klasse | print PDF gratis",
+   "metaDescription": "4-tabellen fra 1·4 til 10·4: dobbelt op på 2-tabellen – to gange. Stige med svarkasser til træning, til det sidder. 3. klasse. Gratis PDF til print."
   }
  ]
 }

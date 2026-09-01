@@ -131691,6 +131691,1097 @@
    ],
    "title": "Kertotauluharjoitukset, 3. luokka – tulostettava PDF",
    "metaDescription": "Kaksitoista kertolaskua kertotaulujen harjoitteluun: lapsi laskee ja kirjoittaa vastaukset. Vahvistaa 3. luokan kertotauluja. Ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "numeroiden-kirjoitusharjoitus-0-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Numeroiden jäljennysmoniste 0–4",
+   "h1": "Numeroiden kirjoitusharjoitus 0–4 isolla viivastolla",
+   "strand": "Numeromerkit ja lukukäsite",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeroiden-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tällä monisteella lapsi harjoittelee viittä ensimmäistä numeroa: 0, 1, 2, 3 ja 4. Numerot ovat tavallista suurempia, jotta pienelle kädelle jää tilaa liikkua, ja jokainen rivi on omistettu yhdelle numerolle. Rivin alussa on selkeä malli, ja katkoviivanumeron oranssi aloituspiste näyttää täsmälleen, mihin kynä asetetaan ensin; pienet nuolet kertovat, mihin suuntaan viiva lähtee. Lapsi jäljentää saman numeron monta kertaa peräkkäin, ja liike alkaa löytyä usein jo yhden rivin aikana.",
+   "p2": "Aloituskohta on tämän harjoituksen tärkein opetus. Moni lapsi keksii numeroille omat luovat piirtotapansa – ykkösen alhaalta ylös tai nollan myötäpäivään – ja juuri nämä tavat jäävät helposti pysyviksi. Kun kynä lähtee heti ensimmäisistä yrityksistä oikeasta pisteestä ja kulkee nuolten suuntaan, käsi oppii liikeradan, joka kantaa läpi kouluvuosien. Suuri koko on tarkoituksellinen valinta: esikouluikäinen piirtää mieluummin koko käsivarrella kuin pelkillä sormilla, ja iso numero sallii sen. Numerot 0–4 ovat muodoiltaan sopiva aloituspaketti, sillä niissä harjoitellaan sekä suoria viivoja että kaaria rauhallisessa tahdissa. Rivien lomassa voi pitää pieniä taukoja ja ravistella kättä, sillä laatu syntyy rauhasta eikä rivien määrästä. Hyvä tavoite ensimmäiselle kerralle on, että yksikin numero jokaiselta riviltä on lapsen omasta mielestä onnistunut – sen saa ympyröidä ylpeänä.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja uuden version voi ottaa niin monta kertaa kuin harjoitus vaatii. Kun ensimmäiset viisi numeroa sujuvat, jatko odottaa numeroiden 5–9 harjoituksessa, jossa mukaan tulevat mutkikkaammat muodot. Ja jos kynäote on vielä epävarma, kynäharjoitusten aalto- ja silmukkaradat lämmittävät kättä mukavasti ennen numeroita.",
+   "canonicalDeckSlug": "numeroiden-kirjoittaminen-k249",
+   "carousel": [
+    {
+     "label": "Numeroiden kirjoitusharjoitus 5–9 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-5-9"
+    },
+    {
+     "label": "Jäljennä ja kirjoita numerot 0–9 itse",
+     "href": "jaljenna-ja-kirjoita-numerot"
+    },
+    {
+     "label": "Lukujen kirjoitusharjoitus 1–10",
+     "href": "lukujen-kirjoitusharjoitus-1-10"
+    },
+    {
+     "label": "Lukujen kirjoitusharjoitus 11–20",
+     "href": "lukujen-kirjoitusharjoitus-11-20"
+    }
+   ],
+   "title": "Numeroiden kirjoitusharjoitus 0–4 – tulostettava PDF",
+   "metaDescription": "Isot mallinumerot 0, 1, 2, 3 ja 4: oranssi aloituspiste ja nuolet ohjaavat kynän heti oikealle liikeradalle. Ilmainen tulostettava PDF-moniste esikouluun."
+  },
+  {
+   "slug": "numeroiden-kirjoitusharjoitus-5-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Numeroiden jäljennysmoniste 5–9",
+   "h1": "Numeroiden kirjoitusharjoitus 5–9 isolla viivastolla",
+   "strand": "Numeromerkit ja lukukäsite",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeroiden-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tämä moniste keskittyy numeroihin 5, 6, 7, 8 ja 9 – juuri niihin, joiden muodot tuottavat esikoululaisille eniten päänvaivaa. Jokainen numero saa oman rivinsä isolla viivastolla: ensin selkeä malli, sitten katkoviivanumerot, joiden oranssi piste ja nuolet ohjaavat kynän kulkua. Vitosen mutka, kutosen ja yhdeksikön silmukat sekä kahdeksikon kaksi lenkkiä vaativat tarkkaa kädenliikettä, ja siksi jokaista muotoa toistetaan monta kertaa peräkkäin.",
+   "p2": "Tämän numerojoukon erityinen sudenkuoppa on peilautuminen. Viitonen ja kuutonen kääntyvät herkästi peilikuvikseen, ja seiska ja yhdeksikkö lähtevät helposti väärästä kulmasta. Peilautuminen on esikouluiässä täysin tavallista eikä kerro mistään huolestuttavasta – mutta siihen kannattaa tarttua juuri nyt, kun liikerata on vasta muotoutumassa. Nuolet tekevät oikean suunnan näkyväksi, ja iso koko antaa kädelle tilaa harjoitella kaaria kiirehtimättä. Kun aikuinen istuu vieressä ensimmäisillä riveillä ja sanoittaa liikkeen ääneen – ylhäältä alas, sitten kaari – muoto painuu muistiin kahta reittiä yhtä aikaa. Vasenkätiselle lapselle nuolet ovat aivan yhtä käypiä, mutta paperia kannattaa kallistaa hieman oikealle, jotta käsi näkee oman jälkensä. Ja jos jokin muoto menee solmuun, sen voi ensin piirtää sormella ilmaan isona – ilmapiirto vapauttaa liikkeen ennen kynää.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-muodossa vaikka joka päivälle uudelleen. Jos alkupään numerot kaipaavat vielä varmistelua, numeroiden 0–4 harjoitus kertaa helpommat muodot samalla isolla viivastolla. Ja kun kaikki kymmenen numeroa alkavat löytyä, jäljennä ja kirjoita -moniste haastaa kirjoittamaan ne jo kokonaan itse.",
+   "canonicalDeckSlug": "numeroiden-kirjoittaminen-k250",
+   "carousel": [
+    {
+     "label": "Jäljennä ja kirjoita numerot 0–9 itse",
+     "href": "jaljenna-ja-kirjoita-numerot"
+    },
+    {
+     "label": "Lukujen kirjoitusharjoitus 1–10",
+     "href": "lukujen-kirjoitusharjoitus-1-10"
+    },
+    {
+     "label": "Lukujen kirjoitusharjoitus 11–20",
+     "href": "lukujen-kirjoitusharjoitus-11-20"
+    },
+    {
+     "label": "Numeroiden kirjoitusharjoitus 0–4 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-0-4"
+    }
+   ],
+   "title": "Numeroiden kirjoitusharjoitus 5–9 – tulostettava PDF",
+   "metaDescription": "Isot mallinumerot 5, 6, 7, 8 ja 9 aloituspisteineen ja nuolineen. Harjoitus ehkäisee numeroiden peilautumista alusta alkaen. Ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "jaljenna-ja-kirjoita-numerot",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Jäljennä ja kirjoita -moniste",
+   "h1": "Jäljennä ja kirjoita numerot 0–9 itse",
+   "strand": "Numeromerkit ja lukukäsite",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeroiden-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tässä harjoituksessa käydään läpi kaikki numerot nollasta yhdeksään, ja jokaisella rivillä on kaksi vaihetta. Ensin lapsi kirjoittaa numeron katkoviivojen päälle, kuten aiemmissa harjoituksissa. Sitten tulee tämän monisteen ydin: rivin lopussa odottaa tyhjä kohta, johon sama numero kirjoitetaan kokonaan ilman tukiviivoja, pelkän muistin varassa. Sivu etenee numerojärjestyksessä, joten lapsi näkee koko numeromerkistön yhdellä silmäyksellä.",
+   "p2": "Tyhjä kohta on pieni mutta merkittävä hyppy. Jäljentäessä käsi seuraa valmista uraa, ja muoto voi sujua ilman, että se on vielä oikeasti muistissa. Vasta kun tuki otetaan pois, näkyy, mitkä numerot todella osataan ja mitkä vielä horjuvat. Juuri tämä palauttaminen omasta muistista – ei pelkkä toisto – rakentaa pysyvän muistijäljen. Aikuiselle tyhjät kohdat ovat samalla nopea tilannekatsaus: jos kolmonen kääntyy peilikuvaksi tai kahdeksikko mutkistuu, tiedät heti, mikä numero kaipaa vielä omaa harjoitusriviään. Onnistumisen ilo on vastaavasti aito, sillä lapsi näkee itse kirjoittaneensa numeron ihan omin voimin. Sivun voi täyttää myös kahdessa osassa: ensin kaikki jäljennykset, ja tyhjät kohdat vasta seuraavana päivänä. Silloin tyhjä kohta mittaa aitoa muistamista eikä äskeisen rivin kaikua, ja edistyminen näkyy paljon selvemmin.",
+   "p3": "Moniste on ilmainen tulostettava PDF, joka toimii hyvin myös taidon tarkistuslistana muutaman viikon välein. Jos jokin muoto vielä takeltelee, isot mallirivit löytyvät numeroiden 0–4 ja 5–9 harjoituksista. Ja kun kirjoittaminen sujuu, lukujen 1–10 harjoitus vie saman taidon lukujonon puolelle.",
+   "canonicalDeckSlug": "numeroiden-kirjoittaminen-k251",
+   "carousel": [
+    {
+     "label": "Lukujen kirjoitusharjoitus 1–10",
+     "href": "lukujen-kirjoitusharjoitus-1-10"
+    },
+    {
+     "label": "Lukujen kirjoitusharjoitus 11–20",
+     "href": "lukujen-kirjoitusharjoitus-11-20"
+    },
+    {
+     "label": "Numeroiden kirjoitusharjoitus 0–4 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-0-4"
+    },
+    {
+     "label": "Numeroiden kirjoitusharjoitus 5–9 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-5-9"
+    }
+   ],
+   "title": "Jäljennä ja kirjoita numerot 0–9 – tulostettava PDF",
+   "metaDescription": "Kaikki numerot 0–9 samalla sivulla: ensin jäljennetään katkoviivoja pitkin, sitten kirjoitetaan tyhjään kohtaan kokonaan itse. Ilmainen PDF-tehtävämoniste."
+  },
+  {
+   "slug": "lukujen-kirjoitusharjoitus-1-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Lukujen jäljennysmoniste 1–10",
+   "h1": "Lukujen kirjoitusharjoitus 1–10",
+   "strand": "Numeromerkit ja lukukäsite",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeroiden-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tällä sivulla kirjoitetaan luvut yhdestä kymmeneen järjestyksessä, rivi kerrallaan. Luvut 1–9 harjoitellaan tutulla tavalla: malli, oranssi aloituspiste, nuolet ja monta toistoa. Viimeinen rivi on kuitenkin erilainen, ja juuri se tekee monisteesta oman kokonaisuutensa: kymmenen kirjoitetaan kahdella numerolla, ykkösellä ja nollalla vierekkäin, omiin ratoihinsa. Lapsi kirjoittaa siis ensimmäistä kertaa luvun, joka koostuu kahdesta merkistä.",
+   "p2": "Kymppi on lapsen ensimmäinen kosketus ajatukseen, että luku voi rakentua useammasta numerosta. Se ei ole uusi merkki opeteltavaksi, vaan kaksi jo tuttua numeroa uudessa tehtävässä – ja tämä oivallus kantaa pitkälle, sillä kaikki tulevat luvut rakentuvat samalla periaatteella. Kirjoitusjärjestyskin on merkityksellinen: ensin ykkönen, sitten nolla, vasemmalta oikealle, samaan suuntaan kuin lukeminenkin kulkee. Kun luvut kirjoitetaan lukujonon järjestyksessä, harjoitus tukee samalla laskemisen taitoa: moni lapsi luettelee lukuja ääneen kirjoittaessaan, ja se kannattaa sallia, sillä silloin merkki, sana ja järjestys kytkeytyvät toisiinsa. Ennen kymppiriviä kannattaa pysähtyä hetkeksi kysymään: montako numeroa tähän lukuun tarvitaan? Kysymys kuulostaa pieneltä, mutta juuri se saa lapsen huomaamaan eron yhdeksän ja kymmenen välillä – yhdeksään asti riitti yksi merkki, nyt tarvitaan kaksi.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-tiedostona ja sopii esikouluun ja ensimmäisen luokan alkuun. Luonteva jatko on lukujen 11–20 harjoitus, jossa kahden numeron luvut ovat jo pääosassa. Ja jos numeroiden tunnistaminen kaipaa hauskaa vaihtelua, väritä numeroiden mukaan -tehtävässä samat merkit johdattavat värikuvan valmiiksi.",
+   "canonicalDeckSlug": "numeroiden-kirjoittaminen-k252",
+   "carousel": [
+    {
+     "label": "Lukujen kirjoitusharjoitus 11–20",
+     "href": "lukujen-kirjoitusharjoitus-11-20"
+    },
+    {
+     "label": "Numeroiden kirjoitusharjoitus 0–4 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-0-4"
+    },
+    {
+     "label": "Numeroiden kirjoitusharjoitus 5–9 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-5-9"
+    },
+    {
+     "label": "Jäljennä ja kirjoita numerot 0–9 itse",
+     "href": "jaljenna-ja-kirjoita-numerot"
+    }
+   ],
+   "title": "Lukujen kirjoitusharjoitus 1–10 – tulostettava PDF",
+   "metaDescription": "Lapsi kirjoittaa luvut 1–10 viivastolle mallin, aloituspisteen ja nuolten avulla. Kymmenen kirjoitetaan kahden numeron parina. Ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "lukujen-kirjoitusharjoitus-11-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Lukujen jäljennysmoniste 11–20",
+   "h1": "Lukujen kirjoitusharjoitus 11–20",
+   "strand": "Numeromerkit ja lukukäsite",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeroiden-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tässä harjoituksessa kirjoitetaan luvut yhdestätoista kahteenkymmeneen, ja jokainen rivi on kahden numeron rata. Lapsi jäljentää molemmat numerot katkoviivojen päälle aloituspisteiden ja nuolten avulla ja toistaa luvun useita kertoja rivillään. Sivu etenee lukujonon mukaisesti 11:stä 20:een, joten samalla vahvistuu tuntuma siihen, missä järjestyksessä nämä luvut toisiaan seuraavat.",
+   "p2": "Luvut 11–19 ovat suomen kielessä omalla tavallaan kiperiä: sanassa yksitoista kuuluu ensin yksi, ja moni lapsi kirjoittaakin sen kuulemansa mukaan. Kirjallisessa muodossa etummainen ykkönen tarkoittaa kuitenkin yhtä kymmentä ja jälkimmäinen numero ykkösiä – 14 on yksi kymmenen ja neljä ykköstä. Juuri tämän vuoksi lukujen kirjoittaminen käsin on arvokasta: jokainen toisto asettaa kymmenet ja ykköset omille paikoilleen ja pohjustaa paikka-arvon ymmärtämistä, jonka varaan koko myöhempi laskutaito rakentuu. Kahdenkymmenen kohdalla lapsi huomaa etunumeron vaihtuvan kakkoseksi ja saa ensimmäisen vihjeen siitä, miten lukualue jatkuu eteenpäin. Riviä kirjoittaessa luku kannattaa sanoa ääneen ja osoittaa samalla numeroita: neljätoista – tässä kymmenen, tässä neljä. Puhe ja kynä yhdessä tekevät järjestyksestä muistettavan, ja kuulonvarainen toista-loppu lakkaa sotkemasta kirjoitusjärjestystä.",
+   "p3": "Moniste on ilmainen tulostettava PDF, joka sopii esiopetuksen loppuun ja ensimmäiselle luokalle. Jos kahden numeron kirjoittaminen tuntuu vielä uudelta, lukujen 1–10 harjoitus tarjoaa pehmeämmän aloituksen, sillä siinä vasta kymppi vaatii kahta merkkiä. Myöhemmin kymppiparien hajotelmat jatkavat samaa kymmenajattelua laskemisen puolella. Kahdenkymmenen luvun urakka kannattaa jakaa vaikka kahdelle aamulle, jotta jälki pysyy siistinä loppuun asti.",
+   "canonicalDeckSlug": "numeroiden-kirjoittaminen-k253",
+   "carousel": [
+    {
+     "label": "Numeroiden kirjoitusharjoitus 0–4 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-0-4"
+    },
+    {
+     "label": "Numeroiden kirjoitusharjoitus 5–9 isolla viivastolla",
+     "href": "numeroiden-kirjoitusharjoitus-5-9"
+    },
+    {
+     "label": "Jäljennä ja kirjoita numerot 0–9 itse",
+     "href": "jaljenna-ja-kirjoita-numerot"
+    },
+    {
+     "label": "Lukujen kirjoitusharjoitus 1–10",
+     "href": "lukujen-kirjoitusharjoitus-1-10"
+    }
+   ],
+   "title": "Lukujen kirjoitusharjoitus 11–20 – tulostettava PDF",
+   "metaDescription": "Luvut 11–20 kirjoitetaan kahden numeron radoille: etummainen ykkönen tarkoittaa yhtä kymmentä. Tulostettava PDF-moniste lukualueen laajentamiseen."
+  },
+  {
+   "slug": "kirjainten-kirjoitusharjoitus-g-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kirjainten jäljennysmoniste G–L",
+   "h1": "Kirjainten kirjoitusharjoitus G–L",
+   "strand": "Lukemaan ja kirjoittamaan oppiminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kirjainten-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tällä monisteella harjoitellaan kuutta kirjainta aakkosten keskivaiheilta: G, H, I, J, K ja L. Jokainen kirjain saa oman rivinsä, jolla on ensin malli, sitten katkoviivakirjaimet jäljennettäväksi ja lopussa tyhjä viiva omaa kirjoitusta varten. Kirjainjoukko on kynän kannalta monipuolinen: H, I, K ja L rakentuvat suorista viivoista, kun taas G vaatii kaaren ja pienen sisäänvedon ja J kaartuu alhaalta kuin koukku.",
+   "p2": "Suorien ja kaartuvien kirjainten vuorottelu on tämän sivun vahvuus. Suorat viivat antavat kädelle lepohetkiä ja onnistumisia, kaaret taas kehittävät juuri sitä pehmeää ranteen liikettä, jota sujuva kirjoittaminen myöhemmin tarvitsee. K:n vinottaiset viivat opettavat kynän suunnanvaihtoa keskellä kirjainta. Harjoituksen aikana kannattaa sanoa kunkin kirjaimen äänne ääneen ja keksiä sille tuttu sana – esimerkiksi kala, lelu, juna tai hattu – jolloin muoto ja äänne kiinnittyvät toisiinsa. G on suomen omissa sanoissa harvinainen vieras, mutta lapset tuntevat sen usein etunimistä ja eläinsanoista, ja juuri siksi sekin ansaitsee huolellisen rivin. I on sivun helpoin rivi ja siksi hyvä hengähdyspaikka vaativien kaarten välissä – yksi veto ylhäältä alas, ja onnistuminen on taattu.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja sen voi ottaa esiin aina, kun uudet kirjaimet tulevat ajankohtaisiksi. Aakkosissa matka jatkuu kirjainten M–R harjoituksella, jossa vastaan tulevat toisiaan muistuttavat parit. Ja jos kirjoittaminen on vasta alkamassa, ensimmäisten kirjainten A–D moniste tarjoaa rauhallisimman lähtöruudun.",
+   "canonicalDeckSlug": "kirjainten-kirjoittaminen-k254",
+   "carousel": [
+    {
+     "label": "Kirjainten kirjoitusharjoitus M–R",
+     "href": "kirjainten-kirjoitusharjoitus-m-r"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus S–Ö",
+     "href": "kirjainten-kirjoitusharjoitus-s-o"
+    },
+    {
+     "label": "Ääkköset Ä ja Ö – kirjoitusharjoitus",
+     "href": "aakkoset-a-ja-o"
+    },
+    {
+     "label": "Ensimmäiset kirjaimet A, B, C ja D",
+     "href": "ensimmaiset-kirjaimet-a-b-c-d"
+    }
+   ],
+   "title": "Kirjainten kirjoitusharjoitus G–L – tulostettava PDF",
+   "metaDescription": "Isot kirjaimet G, H, I, J, K ja L mallin ja katkoviivojen avulla: jäljennä ja kirjoita lopuksi tyhjälle viivalle itse. Ilmainen tulostettava PDF-moniste."
+  },
+  {
+   "slug": "kirjainten-kirjoitusharjoitus-m-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kirjainten jäljennysmoniste M–R",
+   "h1": "Kirjainten kirjoitusharjoitus M–R",
+   "strand": "Lukemaan ja kirjoittamaan oppiminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kirjainten-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tässä harjoituksessa kirjoitetaan kirjaimet M, N, O, P, Q ja R. Rivit etenevät tutulla kaavalla mallista katkoviivojen kautta omaan kirjoitukseen tyhjälle viivalle – mutta kirjainjoukko itsessään on aakkosten visainen keskikohta, sillä siinä on peräti kolme toisiaan muistuttavaa paria. M ja N eroavat vain huippujen määrässä, P ja R jalallisesta vedosta ja O ja Q pienestä hännästä.",
+   "p2": "Samannäköisten kirjainten erottaminen on lukemaan oppimisen ydintaitoja, ja se opitaan parhaiten kirjoittamalla. Kun käsi piirtää M:ään kaksi huippua ja N:ään yhden, ero tallentuu lihasmuistiin paljon lujemmin kuin pelkästään katsomalla. Sama koskee R:n jalkaa ja Q:n häntää: pieni ylimääräinen veto on juuri se, joka tekee kirjaimesta oman merkkinsä, ja jäljentäminen pakottaa huomaamaan sen joka kerta. Riveillä kannattaa edetä pareittain ja pysähtyä vertaamaan: mikä näissä kahdessa on samaa, mikä eroaa? Tällainen vertailupuhe kehittää tarkkaa katsetta, josta on hyötyä myöhemmin myös sanojen lukemisessa. Q on suomen sanoissa harvinaisin vieras, mutta juuri siksi sen häntä jää mieleen, sillä lapsi muistaa erikoisuudet. O:n rivi taas on sivun rauhallisin – pelkkä tasainen ympyrä, jonka voi kokeeksi piirtää vaikka silmät kiinni.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-tiedostona, ja parhaan hyödyn saa, kun samat kirjaimet bongataan illalla vielä kirjan sivulta tai kaupan kylteistä. Aakkosten loppurutistus odottaa kirjainten S–Ö harjoituksessa, jossa koko kirjaimisto tulee kirjoitetuksi loppuun asti. Edelliset kirjaimet voi kerrata G–L-monisteella, jos jokin muoto pääsi unohtumaan.",
+   "canonicalDeckSlug": "kirjainten-kirjoittaminen-k255",
+   "carousel": [
+    {
+     "label": "Kirjainten kirjoitusharjoitus S–Ö",
+     "href": "kirjainten-kirjoitusharjoitus-s-o"
+    },
+    {
+     "label": "Ääkköset Ä ja Ö – kirjoitusharjoitus",
+     "href": "aakkoset-a-ja-o"
+    },
+    {
+     "label": "Ensimmäiset kirjaimet A, B, C ja D",
+     "href": "ensimmaiset-kirjaimet-a-b-c-d"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus G–L",
+     "href": "kirjainten-kirjoitusharjoitus-g-l"
+    }
+   ],
+   "title": "Kirjainten kirjoitusharjoitus M–R – tulostettava PDF",
+   "metaDescription": "Isot kirjaimet M, N, O, P, Q ja R: malli, katkoviivat ja oma kirjoitus. Harjoitus opettaa erottamaan toisiaan muistuttavat kirjainparit. Tulostettava PDF."
+  },
+  {
+   "slug": "kirjainten-kirjoitusharjoitus-s-o",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Kirjainten jäljennysmoniste S–Ö",
+   "h1": "Kirjainten kirjoitusharjoitus S–Ö",
+   "strand": "Lukemaan ja kirjoittamaan oppiminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kirjainten-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tällä monisteella kirjoitetaan aakkosten viimeinen osuus S:stä aina Ö:hön saakka. Jokainen kirjain jäljennetään ensin katkoviivoja pitkin ja kirjoitetaan sitten itse tyhjälle viivalle. Alkupää on arjesta tuttua tavaraa – S, T, U ja V esiintyvät suomen sanoissa tiheään – mutta loppua kohti vastaan tulevat myös harvinaisemmat vieraat sekä aakkoston oma päätöskolmikko Å, Ä ja Ö pisteineen ja palloineen.",
+   "p2": "Aakkosten loppupään kirjoittaminen on lapselle merkkipaalu: tämän sivun jälkeen koko kirjaimisto on käyty kertaalleen läpi omalla kynällä. Harvinaiset kirjaimet ansaitsevat rivinsä, vaikka niitä näkee suomen sanoissa vähän – ne vilahtavat nimissä, kartoissa ja kirjojen kansissa, ja lapsi kohtaa ne varmasti. Loppupään erityisyys ovat myös tarkkeet: Ä:n ja Ö:n pisteet sekä Å:n pallo kirjoitetaan heti kirjaimen rungon perään, ja tämä järjestys kannattaa opettaa tavaksi asti. S:n kaksoiskaari on puolestaan yksi kirjaimiston vaativimmista vedoista, joten sen toistoihin kannattaa käyttää hetki ylimääräistä aikaa. T:n ja L:n kaltaiset suoraviivaiset rivit tasapainottavat sivua, joten vaativat muodot eivät kasaudu peräkkäin. Sivun voi myös jakaa kahdelle päivälle, jolloin loppukolmikolle Å, Ä ja Ö jää oma rauhallinen hetkensä.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja koko aakkoston läpikäynnin kunniaksi seinälle voi ripustaa lapsen itse kirjoittamat kirjaimet. Ä ja Ö saavat vielä oman syventävän harjoituksensa ääkkösmonisteella, jossa pisteiden paikka harjaantuu huolella. Keskivaiheen kirjaimet kertautuvat tarvittaessa M–R-harjoituksella. Viimeinen rivi on hyvä hetki pienelle juhlalle, sillä aakkoset on nyt kirjoitettu alusta loppuun.",
+   "canonicalDeckSlug": "kirjainten-kirjoittaminen-k256",
+   "carousel": [
+    {
+     "label": "Ääkköset Ä ja Ö – kirjoitusharjoitus",
+     "href": "aakkoset-a-ja-o"
+    },
+    {
+     "label": "Ensimmäiset kirjaimet A, B, C ja D",
+     "href": "ensimmaiset-kirjaimet-a-b-c-d"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus G–L",
+     "href": "kirjainten-kirjoitusharjoitus-g-l"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus M–R",
+     "href": "kirjainten-kirjoitusharjoitus-m-r"
+    }
+   ],
+   "title": "Kirjainten kirjoitusharjoitus S–Ö – tulostettava PDF",
+   "metaDescription": "Aakkosten loppupää S:stä Ö:hön katkoviivoilla: mukana myös harvinaiset kirjaimet sekä rivin päättävät Å, Ä ja Ö. Ilmainen tulostettava PDF-kirjainharjoitus."
+  },
+  {
+   "slug": "aakkoset-a-ja-o",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Ääkkösten jäljennysmoniste",
+   "h1": "Ääkköset Ä ja Ö – kirjoitusharjoitus",
+   "strand": "Lukemaan ja kirjoittamaan oppiminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kirjainten-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tämä moniste on omistettu kahdelle suomen kielen omimmalle kirjaimelle: Ä:lle ja Ö:lle. Kumpikin kirjain saa omat rivinsä, joilla muoto jäljennetään katkoviivojen päälle ja kirjoitetaan lopuksi itse tyhjälle viivalle. Harjoituksen erityinen huomio on pisteissä: ne piirretään kirjaimen rungon valmistuttua, tasavälein kirjaimen yläpuolelle, ja nuolet muistuttavat tästä joka toistolla.",
+   "p2": "Ä ja Ö eivät ole A:n ja O:n koristeltuja versioita vaan itsenäisiä kirjaimia, joilla on oma äänteensä ja oma paikkansa aakkosten lopussa – ja ne kuuluvat suomen kirjoitetuimpiin kirjaimiin, sillä ne kantavat sanoja kuten äiti, isä, pöytä ja yö. Siksi ne ansaitsevat oman harjoituksensa sen sijaan, että jäisivät aakkosten häntäpäässä parin toiston varaan. Pisteiden merkitys kannattaa näyttää lapselle sanaparilla: saa ja sää ovat eri sanat, ja eron tekevät juuri ne kaksi pientä pistettä. Kun pisteet oppii lisäämään heti rungon perään eikä vasta koko rivin lopuksi, ne eivät pääse unohtumaan kirjoituksesta myöhemminkään. Ö:lle saman todistuksen antaa pari soi ja söi – kaksi pistettä muuttaa soivan kellon syödyksi puuroksi. Tällaiset sanaparit naurattavat lapsia, ja nauru on tehokas liima muistille.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-muodossa ja sopii hetkeen, jolloin ääkköset alkavat ilmestyä lapsen omiin kirjoituksiin. Koko aakkosten loppupää harjoitellaan kirjainten S–Ö monisteella, jossa Ä ja Ö kohdataan ensi kertaa. Numeropuolella samaa tarkkuutta harjoittaa jäljennä ja kirjoita -moniste, jossa merkit kirjoitetaan lopulta muistista.",
+   "canonicalDeckSlug": "kirjainten-kirjoittaminen-k257",
+   "carousel": [
+    {
+     "label": "Ensimmäiset kirjaimet A, B, C ja D",
+     "href": "ensimmaiset-kirjaimet-a-b-c-d"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus G–L",
+     "href": "kirjainten-kirjoitusharjoitus-g-l"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus M–R",
+     "href": "kirjainten-kirjoitusharjoitus-m-r"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus S–Ö",
+     "href": "kirjainten-kirjoitusharjoitus-s-o"
+    }
+   ],
+   "title": "Ääkköset Ä ja Ö: kirjoitusharjoitus – tulostettava PDF",
+   "metaDescription": "Ä ja Ö saavat oman monisteen: kirjain jäljennetään ja pisteet opitaan laittamaan paikoilleen heti. Suomen omat kirjaimet haltuun. Tulostettava PDF-moniste."
+  },
+  {
+   "slug": "ensimmaiset-kirjaimet-a-b-c-d",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Ensimmäisten kirjainten moniste",
+   "h1": "Ensimmäiset kirjaimet A, B, C ja D",
+   "strand": "Lukemaan ja kirjoittamaan oppiminen",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kirjainten-kirjoittaminen",
+    "esikoulu"
+   ],
+   "p1": "Tällä sivulla kirjoitetaan aakkosten neljä ensimmäistä kirjainta: A, B, C ja D. Kirjaimet ovat tavallista suurempia, ja niitä on vain neljä – molemmat valinnat ovat tahallisia, sillä tämä moniste on tarkoitettu aivan ensimmäiseksi kirjainharjoitukseksi. Jokaisella rivillä on iso malli ja katkoviivakirjaimet, joiden päälle lapsi kirjoittaa omaan tahtiinsa, ja rivin lopussa muotoa kokeillaan kerran ilman tukea.",
+   "p2": "Ensimmäinen kirjoitushetki määrittää paljon sitä, miltä kirjoittaminen lapsesta tuntuu. Neljä kirjainta on tarkoituksella pieni annos: se ehtii valmiiksi yhdellä istumalla, ja lapsi lähtee pöydästä onnistujana eikä kesken jääneen sivun jättäjänä. A:n teltta, B:n kaksi vatsaa, C:n avoin kaari ja D:n yksi iso maha ovat muodoiltaan selkeitä ja erottuvat toisistaan hyvin, joten sekaannuksia ei tässä vaiheessa synny. Moni lapsi tuntee jo jonkin näistä kirjaimista omasta nimestään tai nimikirjaimistaan, ja se kannattaa käyttää hyödyksi: oma kirjain on aina se innostavin, ja siitä on hyvä aloittaa vaikka koko rivi. Jos neljä riviä hurahtaa ohi vauhdilla, sivun voi tulostaa toisenkin kerran ja pyytää lasta valitsemaan jokaiselta riviltä kauneimman kirjaimen – valinta ohjaa katsomaan omaa jälkeä tarkasti ja arvostamaan sitä.",
+   "p3": "Moniste on ilmainen tulostettava PDF, jonka pariin voi palata monta kertaa ennen kuin matka jatkuu. Seuraavat kirjaimet odottavat vuoroaan, ja esimerkiksi kirjainten G–L harjoitus jatkaa samalla rakenteella pidemmälle aakkosiin. Jos kynä kaipaa vielä totuttelua, kynäharjoitusten radat pehmentävät otetta ennen kirjaimia.",
+   "canonicalDeckSlug": "kirjainten-kirjoittaminen-k258",
+   "carousel": [
+    {
+     "label": "Kirjainten kirjoitusharjoitus G–L",
+     "href": "kirjainten-kirjoitusharjoitus-g-l"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus M–R",
+     "href": "kirjainten-kirjoitusharjoitus-m-r"
+    },
+    {
+     "label": "Kirjainten kirjoitusharjoitus S–Ö",
+     "href": "kirjainten-kirjoitusharjoitus-s-o"
+    },
+    {
+     "label": "Ääkköset Ä ja Ö – kirjoitusharjoitus",
+     "href": "aakkoset-a-ja-o"
+    }
+   ],
+   "title": "Ensimmäiset kirjaimet A B C D – tulostettava PDF",
+   "metaDescription": "Neljä ensimmäistä kirjainta A, B, C ja D erityisen isoina malleina: rauhallinen ensikosketus kirjainten kirjoittamiseen. Ilmainen tulostettava PDF-moniste."
+  },
+  {
+   "slug": "varita-numeroiden-mukaan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "esikoulu"
+   },
+   "eyebrow": "Värityskuva numeroilla",
+   "h1": "Väritä numeroiden mukaan 1–6",
+   "strand": "Numeromerkit ja lukukäsite",
+   "slotTokens": [
+    "varityslaskut",
+    "esikoulu"
+   ],
+   "p1": "Tässä värityskuvassa jokaisen kuvion sisällä lukee numero yhdestä kuuteen, ja sivun värikoodi kertoo, mikä väri kullekin numerolle kuuluu – koodissa numeron parina on värin nimi kirjoitettuna. Lapsi katsoo kuvion numeron, etsii sen koodista ja värittää kuvion oikealla värillä. Laskutehtäviä sivulla ei ole lainkaan: tämä on puhdas numerontunnistuksen ja värittämisen tehtävä, jossa kuva valmistuu kuvio kerrallaan.",
+   "p2": "Laskuttomuus on tämän monisteen vahvuus. Kun mitään ei tarvitse laskea, kaikki huomio kohdistuu itse numeromerkkiin: lapsi lukee saman numeron monta kertaa eri kohdista kuvaa, ja tunnistaminen nopeutuu huomaamatta. Värisanojen lukeminen koodista tuo mukaan pienen lukutehtävän, joka sopii myös lapselle, joka vasta harjoittelee lukemista – sanan voi tunnistaa alkukirjaimesta, ja aikuinen voi lukea sen tarvittaessa ääneen. Samalla harjoittuu ohjeen mukaan toimiminen: numero pitää muistaa matkalla koodista kuvioon, mikä on mainiota työmuistin treeniä. Valmis, oikein väritetty kuva on lapselle näkyvä todiste huolellisesta työstä. Väritysjärjestyksen voi valita kahdella tavalla: edetä kuvio kerrallaan tai etsiä ensin kaikki ykköset, sitten kaikki kakkoset. Jälkimmäinen tapa muuttaa sivun etsintäleikiksi ja antaa samalle numerolle vielä enemmän toistoja.",
+   "p3": "Moniste on ilmainen tulostettava PDF, joka rauhoittaa mukavasti vaikka iltapäivän levottomimman hetken. Kun numerot tunnistuvat varmasti ja pienet laskut alkavat kiinnostaa, väritä koodin mukaan -tehtävä lisää kuvioihin laskettavaa. Numeroiden kirjoittamista voi puolestaan harjoitella numeroiden 0–4 monisteella, jossa samat merkit syntyvät omalla kynällä.",
+   "canonicalDeckSlug": "varityslaskut-k266",
+   "carousel": [
+    {
+     "label": "Luetun ymmärtäminen: Ensilumi",
+     "href": "luetun-ymmartaminen-ensilumi"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Kirjastoauto",
+     "href": "luetun-ymmartaminen-kirjastoauto"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Uimahallissa",
+     "href": "luetun-ymmartaminen-uimahallissa"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Maatilan retki",
+     "href": "luetun-ymmartaminen-maatilan-retki"
+    }
+   ],
+   "title": "Väritä numeroiden mukaan 1–6 – tulostettava PDF",
+   "metaDescription": "Jokaisessa kuviossa on numero 1–6, ja värikoodi kertoo jokaiselle numerolle värin nimen. Numeroiden tunnistusta ilman laskuja. Ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "luetun-ymmartaminen-ensilumi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Lukutarina ja kysymykset",
+   "h1": "Luetun ymmärtäminen: Ensilumi",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "luetun-ymmartaminen",
+    "2-luokka"
+   ],
+   "p1": "Tällä monisteella luetaan tarina Ensilumi: yöllä on satanut talven ensimmäinen lumi, ja Eetu juoksee aamulla pihalle, tekee lumeen enkelin ja rakentaa lumiukon, joka saa nenäkseen porkkanan. Tarinan jälkeen lapsi vastaa kolmeen monivalintakysymykseen ympyröimällä oikean vaihtoehdon. Kysymykset koskevat sitä, mitä Eetu tekee ensin, mitä lumiukko saa nenäkseen ja mihin vuodenaikaan tarina sijoittuu.",
+   "p2": "Tämä on lukusarjan lyhin ja selkein tarina, ja siksi hyvä aloituspaikka. Ensimmäinen kysymys harjoittaa tapahtumajärjestyksen huomaamista: pihalla tapahtuu monta asiaa, ja sana ensin vaatii palaamaan tekstiin tarkistamaan, missä järjestyksessä ne tulivat. Kolmas kysymys taas kysyy jotakin, mitä tekstissä ei suoraan sanota – vuodenaikaa – ja lapsi saa oivaltaa vastauksen lumesta itse. Juuri tällainen pieni päättely on luetun ymmärtämisen ydin: teksti kertoo enemmän kuin sen sanat. Lyhyt tarina jättää voimia kysymyksiin, joten lukeminen ei ehdi väsyttää ennen tärkeintä työvaihetta. Toinen kysymys pysyy tiukasti tekstin yksityiskohdissa, joten sivu harjoittaa molempia lukutapoja: tarkkaa poimimista ja omaa oivaltamista. Vastausten jälkeen tarinan voi lukea vielä kerran ääneen ja antaa lapsen näyttää kohdat, joista vastaukset löytyivät.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja tarinan päälle voi hyvin jutella omista lumiukkomuistoista. Kun Ensilumi sujuu, sarja jatkuu Kirjastoauto-tarinalla, joka on hieman pidempi ja kysyy jo perusteluakin. Viisiosaisen sarjan tarinat kasvavat askel askeleelta, joten jokaiselle lukijalle löytyy sopiva kohta aloittaa. Lyhyt teksti jättää aikaa myös kuvitteluun: millaisen lumiukon lapsi itse rakentaisi?",
+   "canonicalDeckSlug": "luetun-ymmartaminen-g2269",
+   "carousel": [
+    {
+     "label": "Luetun ymmärtäminen: Kirjastoauto",
+     "href": "luetun-ymmartaminen-kirjastoauto"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Uimahallissa",
+     "href": "luetun-ymmartaminen-uimahallissa"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Maatilan retki",
+     "href": "luetun-ymmartaminen-maatilan-retki"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Yö mökillä",
+     "href": "luetun-ymmartaminen-yo-mokilla"
+    }
+   ],
+   "title": "Luetun ymmärtäminen: Ensilumi – tulostettava PDF",
+   "metaDescription": "Lapsi lukee tarinan Eetusta ja ensilumesta ja ympyröi vastaukset kolmeen kysymykseen. Sarjan lyhin luetun ymmärtämisen harjoitus. Tulostettava PDF-moniste."
+  },
+  {
+   "slug": "luetun-ymmartaminen-kirjastoauto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Lukutarina ja kysymykset",
+   "h1": "Luetun ymmärtäminen: Kirjastoauto",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "luetun-ymmartaminen",
+    "2-luokka"
+   ],
+   "p1": "Tämän monisteen tarinassa Kirjastoauto ajaa torstaisin Siirin koulun pihaan. Siiri palauttaa kaksi kirjaa, valitsee hyllystä uuden, jonka kannessa on avaruusraketti, ja lukee sitä kotona iltaan asti. Tarinan jälkeen ympyröidään vastaukset kolmeen monivalintakysymykseen: minä päivänä auto tulee, mitä valitun kirjan kannessa on ja mistä lukija voi tietää, että kirja on Siirin mielestä hyvä.",
+   "p2": "Viimeinen kysymys tekee tästä sivusta erityisen. Kahteen ensimmäiseen vastaus löytyy tekstistä sellaisenaan, mutta kolmanteen ei – missään ei lue, että kirja oli Siirin mielestä hyvä. Lapsi joutuu päättelemään sen siitä, että Siiri lukee kirjaa iltaan asti. Tämä on monelle toisluokkalaiselle ensimmäisiä kertoja, kun kysymykseen vastataan tekstin vihjeiden eikä suoran lauseen perusteella, ja se kannattaa sanoittaa ääneen: mistä sinä huomasit sen? Arjen yksityiskohdat, kuten viikonpäivä, harjaannuttavat puolestaan tarkkaa lukemista, sillä väärät vaihtoehdot ovat aivan yhtä tavallisia päiviä. Ennen kysymyksiä kannattaa sopia yksi sääntö: jokaisen ympyröinnin jälkeen näytetään tekstistä kohta, johon vastaus nojaa – tai kolmannen kysymyksen kohdalla se vihje, josta asian voi päätellä. Sääntö tekee lukemisesta etsivän työtä ja pitää arvaamisen loitolla.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-tiedostona, ja moni perhe tunnistaa tarinasta oman kirjastoreissunsa – siitä on mukava jatkaa juttua. Sarjassa seuraavana odottaa Uimahallissa, jossa kysytään jo tunteista ja niiden syistä. Kevyemmän aloituksen tarjoaa Ensilumi, sarjan lyhin tarina. Samalla voi käydä katsomassa, milloin oma kirjastoauto seuraavan kerran pysähtyy lähelle – lukuinto kannattaa käyttää heti.",
+   "canonicalDeckSlug": "luetun-ymmartaminen-g2270",
+   "carousel": [
+    {
+     "label": "Luetun ymmärtäminen: Uimahallissa",
+     "href": "luetun-ymmartaminen-uimahallissa"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Maatilan retki",
+     "href": "luetun-ymmartaminen-maatilan-retki"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Yö mökillä",
+     "href": "luetun-ymmartaminen-yo-mokilla"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Ensilumi",
+     "href": "luetun-ymmartaminen-ensilumi"
+    }
+   ],
+   "title": "Luetun ymmärtäminen: Kirjastoauto – tulostettava PDF",
+   "metaDescription": "Tarina Siiristä ja kirjastoautosta sekä kolme monivalintakysymystä, joista yksi vaatii omaa päättelyä. Luetun ymmärtämistä 2. luokalle. Tulostettava PDF."
+  },
+  {
+   "slug": "luetun-ymmartaminen-uimahallissa",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Lukutarina ja kysymykset",
+   "h1": "Luetun ymmärtäminen: Uimahallissa",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "luetun-ymmartaminen",
+    "2-luokka"
+   ],
+   "p1": "Tässä tarinassa Niilo menee isosiskonsa kanssa uimahalliin. Ensin käydään suihkussa, sitten Niilo saa uimalasit päähänsä ja harjoittelee matalassa altaassa potkuja lautan kanssa – kunnes hän yhtäkkiä huomaa uivansa kolme metriä aivan itse. Isosisko taputtaa, ja kotimatkalla Niilon hymy on leveä. Tarinan jälkeen ympyröidään vastaukset kolmeen kysymykseen, joista viimeinen kuuluu: miksi Niilo hymyilee kotimatkalla?",
+   "p2": "Tämän sivun kysymykset kulkevat tapahtumista tunteisiin. Kaksi ensimmäistä tarkistavat, että lukija seurasi tarinan kulkua – kenen kanssa uimaan mentiin ja mitä altaassa harjoiteltiin. Kolmas vie syvemmälle: hymyn syytä ei kerrota suoraan, vaan se pitää yhdistää siihen, mitä altaassa juuri tapahtui. Tunteen ja sen syyn yhdistäminen on taito, jota tarvitaan kaikessa kertovassa tekstissä, ja tässä se harjoitellaan tilanteessa, jonka moni lapsi tuntee omasta elämästään. Ensimmäisen onnistumisen riemu uimahallissa on niin tuttu kokemus, että tarina kutsuu kertomaan myös omista ensimmäisistä kerroista. Tarinassa on myös hieno yksityiskohta keskusteluun: isosisko ei ui Niilon puolesta vaan taputtaa ja nostaa peukalon – kannustaja voi olla aivan lähellä ja silti antaa toisen onnistua itse. Tällaiset huomiot syventävät lukemista ilman yhtäkään lisäkysymystä.",
+   "p3": "Moniste on ilmainen tulostettava PDF, joka sopii vaikka uintikauden avaukseen. Sarjassa seuraavana on Maatilan retki, jonka pidempi teksti kuljettaa jo useampaa yksityiskohtaa. Ja jos perusteleva kysymystyyppi on vielä uusi, Kirjastoauto-tarina harjoittaa sitä hiukan lyhyemmällä tekstillä. Tarina toimii hyvin myös rohkaisuna lapselle, jonka oma uimaharjoittelu on juuri nyt kesken.",
+   "canonicalDeckSlug": "luetun-ymmartaminen-g2271",
+   "carousel": [
+    {
+     "label": "Luetun ymmärtäminen: Maatilan retki",
+     "href": "luetun-ymmartaminen-maatilan-retki"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Yö mökillä",
+     "href": "luetun-ymmartaminen-yo-mokilla"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Ensilumi",
+     "href": "luetun-ymmartaminen-ensilumi"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Kirjastoauto",
+     "href": "luetun-ymmartaminen-kirjastoauto"
+    }
+   ],
+   "title": "Luetun ymmärtäminen: Uimahallissa – tulostettava PDF",
+   "metaDescription": "Niilo oppii uimaan kolme metriä aivan itse. Tarinaan liittyy kolme kysymystä tapahtumista, tunteista ja syistä. Ilmainen tulostettava PDF-lukumoniste."
+  },
+  {
+   "slug": "luetun-ymmartaminen-maatilan-retki",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Lukutarina ja kysymykset",
+   "h1": "Luetun ymmärtäminen: Maatilan retki",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "luetun-ymmartaminen",
+    "2-luokka"
+   ],
+   "p1": "Tällä monisteella luetaan tarina Maatilan retki. Lumin luokka matkustaa keväällä maatilalle: isäntä esittelee navetan, Lumi saa silittää pehmeäturkkista vasikkaa, kanalassa jokainen etsii yhden munan – Lumi löytää omansa oljen alta – ja lopuksi juodaan tuoretta maitoa pitkän pöydän ääressä. Bussissa Lumi päättää, että hänestä tulee isona eläinlääkäri. Kolme monivalintakysymystä käsittelee eläintä, munan löytöpaikkaa ja Lumin haaveen syytä.",
+   "p2": "Tämä on sarjan toiseksi pisin teksti, ja sen haaste on yksityiskohtien määrä: retkipäivään mahtuu monta paikkaa ja tapahtumaa, ja väärät vaihtoehdot on poimittu samasta maailmasta. Vasikka, porsas ja lammas ovat kaikki uskottavia maatilan eläimiä, joten muistikuva ei riitä – tekstiin on palattava. Juuri tekstiin palaaminen onkin tämän sivun tärkein työtapa: vastaus etsitään ja osoitetaan sormella ennen ympyröintiä. Viimeinen kysymys kokoaa koko tarinan, sillä Lumin haave selittyy vasta kaikella sillä, mitä päivän aikana koettiin. Kysymysten jälkeen tarinasta voi vielä luetella yhdessä retkipäivän vaiheet järjestyksessä bussista bussiin – pieni muisti- ja järjestysharjoitus, joka näyttää, kuinka paljon yhdestä tekstistä todella jäi talteen.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-muodossa, ja se sopii erityisen hyvin luokan omaa retkeä edeltävälle tai seuraavalle viikolle. Sarjan päättää Yö mökillä, viidestä tarinasta pisin ja tunnelmallisin. Lyhyemmän lukuhetken tarjoaa Uimahallissa, jossa yksityiskohtia on vähemmän kannateltavana. Tarina sopii myös ääneen luettavaksi koko luokalle ennen itsenäistä lukukertaa. Eläinsanasto tarttuu samalla mukaan, ja moni lapsi haluaa kertoa omista maatilakokemuksistaan.",
+   "canonicalDeckSlug": "luetun-ymmartaminen-g2272",
+   "carousel": [
+    {
+     "label": "Luetun ymmärtäminen: Yö mökillä",
+     "href": "luetun-ymmartaminen-yo-mokilla"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Ensilumi",
+     "href": "luetun-ymmartaminen-ensilumi"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Kirjastoauto",
+     "href": "luetun-ymmartaminen-kirjastoauto"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Uimahallissa",
+     "href": "luetun-ymmartaminen-uimahallissa"
+    }
+   ],
+   "title": "Luetun ymmärtäminen: Maatilan retki – tulostettava PDF",
+   "metaDescription": "Lumin luokka retkeilee maatilalla: vasikka, kananmuna oljen alta ja tuore maito. Kolme kysymystä harjoittaa tarkkaa lukemista. Tulostettava PDF-moniste."
+  },
+  {
+   "slug": "luetun-ymmartaminen-yo-mokilla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-luokka"
+   },
+   "eyebrow": "Lukutarina ja kysymykset",
+   "h1": "Luetun ymmärtäminen: Yö mökillä",
+   "strand": "Luetun ymmärtäminen",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "luetun-ymmartaminen",
+    "2-luokka"
+   ],
+   "p1": "Tämän monisteen tarinassa Yö mökillä Eevi viettää kesäpäivän perheensä kanssa: hän onkii laiturilta pienen ahvenen, jonka isä päästää takaisin veteen, illalla käydään saunassa ja kastetaan varpaat viileään järveen, ja pimeän tullen paistetaan nuotiolla makkaraa. Yöllä Eevi kuulee huuhkajan huhuilevan, ja se kuulostaa vähän pelottavalta – kunnes äiti kuiskaa, että huuhkaja vain toivottaa hyvää yötä. Kolme monivalintakysymystä päättää sivun.",
+   "p2": "Sarjan pisimpänä tekstinä tämä tarina harjoittaa lukemisen kestävyyttä: tapahtumia on aamusta yöhön, ja lukijan on kannateltava niitä kaikkia kysymyksiin asti. Viimeinen kysymys on samalla sarjan syvin – miksi Eevi voi nukahtaa rauhassa? Vastaus ei ole teko vaan tunteen muutos: äidin sanat muuttavat pelottavan äänen turvalliseksi. Kun lapsi tavoittaa tämän, hän on lukenut muutakin kuin tapahtumat – hän on lukenut henkilön mielen liikkeen. Tarina antaa myös luontevan tilaisuuden puhua omista pelottavista äänistä ja siitä, miten aikuisen sana voi ne kesyttää. Pituudestaan huolimatta teksti pysyy lempeänä: mikään ei mene pieleen, ja pelkokin ratkeaa sanoilla. Siksi sivu sopii myös iltalukemiseksi, sillä tarina itsessään on pieni oppitunti rauhoittumisesta.",
+   "p3": "Moniste on ilmainen tulostettava PDF ja viisiosaisen tarinasarjan päätös. Jos pitkä teksti tuntui raskaalta, sarjan voi aloittaa alusta Ensilumi-tarinalla ja edetä pituusjärjestyksessä uudelleen tänne. Matematiikan puolella sanalliset tehtävät jatkavat samaa taitoa: tiedon poimimista tekstistä omin silmin. Vastausten jälkeen voi vielä kysyä, mikä mökkipäivän hetki olisi lapsen oma suosikki.",
+   "canonicalDeckSlug": "luetun-ymmartaminen-g2273",
+   "carousel": [
+    {
+     "label": "Luetun ymmärtäminen: Ensilumi",
+     "href": "luetun-ymmartaminen-ensilumi"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Kirjastoauto",
+     "href": "luetun-ymmartaminen-kirjastoauto"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Uimahallissa",
+     "href": "luetun-ymmartaminen-uimahallissa"
+    },
+    {
+     "label": "Luetun ymmärtäminen: Maatilan retki",
+     "href": "luetun-ymmartaminen-maatilan-retki"
+    }
+   ],
+   "title": "Luetun ymmärtäminen: Yö mökillä – tulostettava PDF",
+   "metaDescription": "Sarjan pisin tarina vie Eevin mökille: onkimista, sauna, nuotio ja huuhkajan huhuilua. Viimeinen kysymys vaatii päättelyä. Ilmainen tulostettava PDF."
+  },
+  {
+   "slug": "yhteenlasku-allekkain-muistinumerolla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Allekkainlaskun moniste",
+   "h1": "Kaksinumeroinen yhteenlasku allekkain muistinumerolla",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "allekkain-laskeminen",
+    "3-luokka"
+   ],
+   "p1": "Tällä monisteella lasketaan kaksinumeroisia yhteenlaskuja allekkain, ja jokaisessa laskussa ykkösten summa kasvaa yli kymmenen. Kymmenten sarakkeen yläpuolella odottaa katkoviivoin piirretty pikkuruutu, johon muistinumero kirjoitetaan näkyviin. Lapsi laskee ensin ykköset, merkitsee muistinumeron ruutuunsa ja laskee sitten kymmenet muistinumero mukaan lukien – sama järjestys joka laskussa.",
+   "p2": "Tämän sivun tavoite ei ole vain oikea vastaus vaan sen ymmärtäminen, mitä muistinumero tarkoittaa. Kun ykkösistä kertyy esimerkiksi neljätoista, kymmenen niistä vaihdetaan yhdeksi kymmeneksi, joka muuttaa saraketta – ja juuri se pieni ykkönen ruudussa on tämä vaihdettu kymppi. Katkoviivaruutu tekee vaihdosta näkyvän: mikään ei katoa eikä ilmesty tyhjästä, kymmenen ykköstä vain vaihtaa asua. Kun tämä ajatus sanotaan ääneen muutaman laskun kohdalla, muistinumerosta tulee lapselle järkevä työkalu eikä ulkoa opeteltu temppu, ja se kestää silloin myös isommat luvut ja kiireisemmät hetket. Hyvä rutiini on lukea valmis vastaus vielä kerran ja kysyä: onko tämä järkevän kokoinen? Jos kaksi alle viidenkymmenen lukua tuottaa yli sadan, jokin sarake jäi matkalle. Tällainen suuruusluokan silmäily on taito, joka kulkee laskijan mukana koko kouluajan.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-tiedostona, ja samanlaisia harjoituskertoja kannattaa ottaa muutama peräkkäisille päiville. Luonteva pari tälle sivulle on vähennyslasku allekkain lainaamalla, jossa sama vaihtoajatus kulkee toiseen suuntaan. Kun kaksinumeroiset sujuvat, kolminumeroinen yhteenlasku tuo sadat mukaan samaan menetelmään. Katkoviivaruudut jäävät vähitellen tarpeettomiksi, mutta alussa ne ovat paras mahdollinen muistituki.",
+   "canonicalDeckSlug": "allekkain-laskeminen-g3359",
+   "carousel": [
+    {
+     "label": "Kaksinumeroinen vähennyslasku allekkain lainaamalla",
+     "href": "vahennyslasku-allekkain-lainaamalla"
+    },
+    {
+     "label": "Kolminumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "3-numeroinen-yhteenlasku-allekkain"
+    },
+    {
+     "label": "Vähennyslasku nollien yli allekkain",
+     "href": "vahennyslasku-nollien-yli"
+    },
+    {
+     "label": "Kymmenylityksen kertaus – yhteen- ja vähennyslaskua sekaisin",
+     "href": "kymmenylityksen-kertaus"
+    }
+   ],
+   "title": "Yhteenlasku allekkain muistinumerolla – tulostettava PDF",
+   "metaDescription": "Kaksinumeroisia yhteenlaskuja allekkain: kun ykkösten summa ylittää kymmenen, muistinumero merkitään omaan katkoviivaruutuunsa. Tulostettava PDF-moniste."
+  },
+  {
+   "slug": "vahennyslasku-allekkain-lainaamalla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Allekkainlaskun moniste",
+   "h1": "Kaksinumeroinen vähennyslasku allekkain lainaamalla",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "allekkain-laskeminen",
+    "3-luokka"
+   ],
+   "p1": "Tällä monisteella harjoitellaan kaksinumeroista vähennyslaskua allekkain, ja jokaisessa laskussa tarvitaan lainaamista: ykkösten sarakkeessa ylempi numero on pienempi kuin alempi, joten viereisistä kymmenistä avataan yksi kymppi ykkösiksi. Laskut on aseteltu valmiiksi selkeisiin sarakkeisiin, ja lapsi etenee aina ykkösistä kymmeniin samalla kaavalla.",
+   "p2": "Lainaaminen on vähennyslaskun kohta, jossa syntyy myös se kaikkein sitkein virhe: kun ylempi numero ei riitä, moni lapsi kääntää vähennyksen salaa toisinpäin ja vähentää pienemmän suuremmasta – 43 − 27 muuttuu ykkösissä muotoon 7 − 3. Tämä sivu on rakennettu juuri sen tavan kitkemiseen, sillä jokainen lasku pakottaa lainaamaan. Ajatus kannattaa sanoittaa vaihtona: yksi kymppi puretaan kymmeneksi ykköseksi, jolloin ykkösiä on yhtäkkiä tarpeeksi ja kymmeniä yksi vähemmän. Kun välivaiheet merkitään huolellisesti näkyviin, lapsi pystyy itse jäljittämään, mihin mikäkin numero meni – ja huomaa, ettei mitään kadonnut. Nopea kotikonsti paljastaa kääntövirheen heti: jos erotus on suurempi kuin vähennettävä tai lasku helpottui yhtäkkiä, käännös on käynyt salaa. Kannattaa myös verrata kahta laskua vierekkäin ja kysyä, kummassa lainattiin ja mistä sen huomasi.",
+   "p3": "Moniste on ilmainen tulostettava PDF, joka kannattaa laskea rauhallisessa tahdissa ja tarkistaa yhdessä. Vastinpari eli yhteenlasku allekkain muistinumerolla näyttää saman kympinvaihdon toiseen suuntaan, ja monelle asiat loksahtavat juuri parin kautta. Seuraava porras on vähennyslasku nollien yli, jossa lainaus jatkuu kahden sarakkeen läpi. Kun molemmat suunnat sujuvat, sekalaiset laskut näyttävät, kumpi työkalu nousee käteen oikeassa kohdassa.",
+   "canonicalDeckSlug": "allekkain-laskeminen-g3360",
+   "carousel": [
+    {
+     "label": "Kolminumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "3-numeroinen-yhteenlasku-allekkain"
+    },
+    {
+     "label": "Vähennyslasku nollien yli allekkain",
+     "href": "vahennyslasku-nollien-yli"
+    },
+    {
+     "label": "Kymmenylityksen kertaus – yhteen- ja vähennyslaskua sekaisin",
+     "href": "kymmenylityksen-kertaus"
+    },
+    {
+     "label": "Kaksinumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "yhteenlasku-allekkain-muistinumerolla"
+    }
+   ],
+   "title": "Vähennyslasku allekkain lainaamalla – tulostettava PDF",
+   "metaDescription": "Kaksinumeroisia vähennyslaskuja allekkain: kun ylempi numero ei riitä, lainataan viereisistä kymmenistä. Selkeät sarakkeet tukevat. Tulostettava PDF."
+  },
+  {
+   "slug": "3-numeroinen-yhteenlasku-allekkain",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Allekkainlaskun moniste",
+   "h1": "Kolminumeroinen yhteenlasku allekkain muistinumerolla",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "allekkain-laskeminen",
+    "3-luokka"
+   ],
+   "p1": "Tällä monisteella yhteenlasku allekkain laajenee kolminumeroisiin lukuihin: sarakkeita on nyt kolme, kun satojen paikka tulee ykkösten ja kymmenten rinnalle. Muistinumerolle on varattu katkoviivaruudut, sillä ylitys voi syntyä sekä ykkösistä että kymmenistä – välillä jopa molemmista saman laskun aikana. Laskeminen etenee tutussa järjestyksessä oikealta vasemmalle, sarake kerrallaan.",
+   "p2": "Tämän sivun tärkein oivallus on, ettei mitään uutta menetelmää tarvita. Sama työtapa, joka opittiin kaksinumeroisilla, hoitaa myös sadat: ykköset ykkösten kanssa, kymmenet kymmenten, sadat satojen – ja täyteen tullut sarake lähettää muistinumeron aina seuraavalle. Kun lapsi huomaa, että menetelmä vain jatkuu vasemmalle niin pitkälle kuin numeroita riittää, allekkainlasku muuttuu avoimeksi työkaluksi, joka ei pelkää suuria lukuja. Kahdesti samassa laskussa syntyvä muistinumero on hyvä tarkkuuden mittari: se vaatii pitämään järjestyksen kirkkaana, mutta palkitsee laskijan, joka etenee sarake kerrallaan hosumatta. Ennen laskemista jokaisesta laskusta voi tehdä nopean arvion pyöristämällä sadat: noin kolmesataa ja noin kaksisataa on noin viisisataa. Kun tarkka vastaus osuu arvion tuntumaan, lapsi saa varmuuden siitä, että sarakkeet pysyivät hallinnassa – ja arviointitaito kasvaa kaupanpäälle.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-muodossa, ja isompien lukujen laskeminen tuntuu monesta kolmasluokkalaisesta suorastaan hienolta. Jos kahden muistinumeron laskut tuottavat vielä sotkua, yhteenlasku allekkain muistinumerolla palauttaa rungon mieleen kapeammalla lukualueella. Vaativin porras odottaa vähennyslaskussa nollien yli. Sivu sopii hyvin myös eriyttämiseen nopeille laskijoille. Kolmen sarakkeen hallinta on myös hieno viesti lapselle: menetelmä kasvaa laskijan mukana.",
+   "canonicalDeckSlug": "allekkain-laskeminen-g3361",
+   "carousel": [
+    {
+     "label": "Vähennyslasku nollien yli allekkain",
+     "href": "vahennyslasku-nollien-yli"
+    },
+    {
+     "label": "Kymmenylityksen kertaus – yhteen- ja vähennyslaskua sekaisin",
+     "href": "kymmenylityksen-kertaus"
+    },
+    {
+     "label": "Kaksinumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "yhteenlasku-allekkain-muistinumerolla"
+    },
+    {
+     "label": "Kaksinumeroinen vähennyslasku allekkain lainaamalla",
+     "href": "vahennyslasku-allekkain-lainaamalla"
+    }
+   ],
+   "title": "3-numeroinen yhteenlasku allekkain – tulostettava PDF",
+   "metaDescription": "Kolminumeroisia yhteenlaskuja allekkain: muistinumero voi syntyä sekä ykkösistä että kymmenistä, ja sadat saavat oman sarakkeensa. Tulostettava PDF."
+  },
+  {
+   "slug": "vahennyslasku-nollien-yli",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Allekkainlaskun moniste",
+   "h1": "Vähennyslasku nollien yli allekkain",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "allekkain-laskeminen",
+    "3-luokka"
+   ],
+   "p1": "Tämän monisteen vähennyslaskuissa vähennettävän keskellä on nolla – laskut ovat muotoa 302 − 158. Kun ykkösiin tarvitaan lainaa, viereisestä sarakkeesta ei löydykään mitään lainattavaa, sillä kymmenten paikalla on nolla. Laina on haettava sadoista asti: ensin yksi sata puretaan kymmeneksi kympiksi, ja vasta sitten yksi kymppi puretaan ykkösiksi. Moniste kuljettaa tämän kaksivaiheisen lainauksen läpi lasku laskulta.",
+   "p2": "Nollan yli lainaaminen on koko allekkainlaskun kuuluisin kompastuskivi, ja siihen kannattaa varata oma harjoituskertansa juuri siksi. Tyypillinen virhe on ohittaa tyhjä sarake ja lainata suoraan sadoista ykkösiin, jolloin kymmenet jäävät hoitamatta ja tulos heittää tasan kymmenellä. Sivun laskut on valittu niin, että tämä tilanne toistuu ja kaksivaiheinen ajatus ehtii vakiintua: nolla ei ole seinä vaan välietappi, jonka kautta laina kulkee. Kannattaa myös näyttää, miten vastauksen voi tarkistaa yhteenlaskulla – erotus plus vähentäjä palauttaa alkuperäisen luvun, ja lapsi voi todeta itse onnistumisensa. Purkamisen voi havainnollistaa rahalla: kolmesta sadan setelistä yksi vaihdetaan kymppeihin ja yksi kymppi kolikoiksi – sen jälkeen 302:sta on helppo antaa 158.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja pariin otteeseen laskettuna tämä porras kesyyntyy pysyvästi. Pohjatyö kannattaa varmistaa vähennyslaskulla allekkain lainaamalla, jossa laina haetaan vielä viereisestä sarakkeesta. Koko menetelmän kokoaa lopuksi kymmenylityksen kertaus, jossa lasku itse kertoo, mitä otetta se vaatii. Sama kaksivaiheinen ote kantaa myöhemmin myös nelinumeroisiin lukuihin.",
+   "canonicalDeckSlug": "allekkain-laskeminen-g3362",
+   "carousel": [
+    {
+     "label": "Kymmenylityksen kertaus – yhteen- ja vähennyslaskua sekaisin",
+     "href": "kymmenylityksen-kertaus"
+    },
+    {
+     "label": "Kaksinumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "yhteenlasku-allekkain-muistinumerolla"
+    },
+    {
+     "label": "Kaksinumeroinen vähennyslasku allekkain lainaamalla",
+     "href": "vahennyslasku-allekkain-lainaamalla"
+    },
+    {
+     "label": "Kolminumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "3-numeroinen-yhteenlasku-allekkain"
+    }
+   ],
+   "title": "Vähennyslasku nollien yli – tulostettava PDF",
+   "metaDescription": "Vähennyslaskuja, joissa lainataan nollan yli – esimerkiksi 302 − 158. Allekkainlaskun hankalin lainaustilanne vaihe vaiheelta haltuun. Tulostettava PDF."
+  },
+  {
+   "slug": "kymmenylityksen-kertaus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Allekkainlaskun kertausmoniste",
+   "h1": "Kymmenylityksen kertaus – yhteen- ja vähennyslaskua sekaisin",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "allekkain-laskeminen",
+    "3-luokka"
+   ],
+   "p1": "Tällä kertausmonisteella yhteen- ja vähennyslaskut ovat sekaisin samalla sivulla, kaikki allekkain aseteltuina. Osa laskuista vaatii muistinumeron, osa lainaamisen, ja yhteenlaskujen katkoviivaruudut muistuttavat muistinumeron paikasta. Lapsen ensimmäinen tehtävä jokaisen laskun kohdalla onkin katsoa laskumerkkiä ja päättää, kumpaa työkalua nyt tarvitaan – vasta sitten lasketaan.",
+   "p2": "Juuri valinta tekee kertauksesta arvokkaan. Kun koko sivu on samaa laskutyyppiä, käsi laskee lopulta automaattisesti eikä pää enää osallistu; sekalaisessa järjestyksessä jokainen lasku alkaa hetken harkinnalla, ja se on merkki todellisesta osaamisesta. Tässä paljastuvat myös tyypilliset huolimattomuudet: miinusmerkki jää huomaamatta ja lasku lasketaan yhteen, tai muistinumero merkitään vähennyslaskuun, jossa sitä ei tarvita. Sellaiset löydöt eivät ole epäonnistumisia vaan kertauksen koko tarkoitus – ne näyttävät täsmälleen, mikä kohta kaipaa vielä yhden harjoituskerran ennen kuin menetelmä on valmis arkikäyttöön. Hyvä tapa on merkitä ennen laskemista jokaisen laskun viereen pieni M tai L sen mukaan, tarvitaanko muistinumeroa vai lainaamista – ja tarkistaa merkintä vasta laskettuaan. Näin valinta ja lasku saavat kumpikin oman huomionsa, eikä kumpikaan jää toisen varjoon.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-tiedostona ja sopii jakson päätökseen tai kokeeseen valmistautumiseen. Jos jompikumpi laskusuunta horjuu, omat sivut löytyvät sekä yhteenlaskulle muistinumerolla että vähennyslaskulle nollien yli. Ja kun kymmenylitys on hallussa, kolmasluokkalaisen seuraava suuri urakka odottaa kertotauluissa – vaikkapa 2:n kertotaulusta aloittaen. Kertauksen voi ajoittaa vaikkapa jakson viimeiselle viikolle.",
+   "canonicalDeckSlug": "allekkain-laskeminen-g3363",
+   "carousel": [
+    {
+     "label": "Kaksinumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "yhteenlasku-allekkain-muistinumerolla"
+    },
+    {
+     "label": "Kaksinumeroinen vähennyslasku allekkain lainaamalla",
+     "href": "vahennyslasku-allekkain-lainaamalla"
+    },
+    {
+     "label": "Kolminumeroinen yhteenlasku allekkain muistinumerolla",
+     "href": "3-numeroinen-yhteenlasku-allekkain"
+    },
+    {
+     "label": "Vähennyslasku nollien yli allekkain",
+     "href": "vahennyslasku-nollien-yli"
+    }
+   ],
+   "title": "Kymmenylityksen kertaus allekkain – tulostettava PDF",
+   "metaDescription": "Sekaisin yhteen- ja vähennyslaskuja allekkain: lapsi valitsee itse, milloin tarvitaan muistinumeroa ja milloin lainaamista. Tulostettava PDF-kertaus."
+  },
+  {
+   "slug": "2n-kertotaulu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Kertotaulumoniste",
+   "h1": "2:n kertotaulu – tehtävämoniste",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "kertotaulut",
+    "3-luokka"
+   ],
+   "p1": "Tällä monisteella lasketaan koko kahden kertotaulu järjestyksessä: tikkaat alkavat laskusta 1 · 2 ja päättyvät laskuun 10 · 2, ja jokaisen rivin vastaus kirjoitetaan omaan laatikkoonsa. Laskut on merkitty koulusta tutulla pistemuotoisella kertomerkillä. Kun rivit laskee ylhäältä alas, vastaussarakkeeseen syntyy tuttu jono: 2, 4, 6, 8 – parilliset luvut kymmeneen kertaa kahteen asti.",
+   "p2": "Kahden kertotaulu on taulujen luonnollinen aloitus, koska sen takana on ajatus, jonka lapsi jo osaa: tuplaaminen. Kaksi kertaa neljä on sama kuin neljä ja neljä, ja tämä silta vanhasta uuteen kannattaa sanoa ääneen monta kertaa – kertolasku ei ole uusi outo laji vaan nopea tapa laskea samanlaisia yhteen. Järjestyksessä laskeminen tuo esiin myös vastausten rytmin: joka rivi kasvaa kahdella, ja jokainen vastaus on parillinen. Kun tikkaat sujuvat alusta loppuun, riviltä voi alkaa hyppiä epäjärjestyksessä – se on hetki, jolloin taulu alkaa siirtyä muistiin asti. Arjesta löytyy tuplia joka suunnasta – silmät, kädet, sukkaparit ja polkupyörän renkaat – ja jokainen niistä on valmis kahden taulun lasku kysyttäväksi.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja lyhyt päivittäinen toisto vie pidemmälle kuin yksi pitkä rupeama. Kahden taulun jälkeen 5:n kertotaulu on perinteinen seuraava askel selkeän rytminsä ansiosta. Ja kun tuplat istuvat, 4:n kertotaulu on jo puoliksi opittu – jokainen sen vastaus on kahden taulun vastaus tuplattuna.",
+   "canonicalDeckSlug": "kertotaulut-g3364",
+   "carousel": [
+    {
+     "label": "5:n kertotaulu – tehtävämoniste",
+     "href": "5n-kertotaulu"
+    },
+    {
+     "label": "10:n kertotaulu – tehtävämoniste",
+     "href": "10n-kertotaulu"
+    },
+    {
+     "label": "3:n kertotaulu – tehtävämoniste",
+     "href": "3n-kertotaulu"
+    },
+    {
+     "label": "4:n kertotaulu – tehtävämoniste",
+     "href": "4n-kertotaulu"
+    }
+   ],
+   "title": "2:n kertotaulu: tehtävät 1 · 2 – 10 · 2 – tulostettava PDF",
+   "metaDescription": "Koko 2:n kertotaulu tikkaina 1 · 2:sta 10 · 2:een, vastauslaatikko jokaiselle riville. Parilliset luvut ja tuplat tutuiksi. Tulostettava PDF-moniste."
+  },
+  {
+   "slug": "5n-kertotaulu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Kertotaulumoniste",
+   "h1": "5:n kertotaulu – tehtävämoniste",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "kertotaulut",
+    "3-luokka"
+   ],
+   "p1": "Tämä moniste käy läpi viiden kertotaulun kokonaisuudessaan: rivit etenevät laskusta 1 · 5 laskuun 10 · 5, ja jokainen vastaus kirjoitetaan omaan laatikkoonsa. Vastausjono 5, 10, 15, 20 on monelle lapselle ennestään tuttu hyppylaskennasta, ja tällä sivulla se saa viralliset kertolaskuvaatteet: kolme hyppyä viitosittain on sama asia kuin 3 · 5.",
+   "p2": "Viiden taulu on taulujen ystävällisin, sillä sen vastaukset päättyvät aina viiteen tai nollaan – lapsi voi itse tarkistaa jokaisen rivin sekunnissa pelkästä viimeisestä numerosta. Taululla on myös arkinen koti: kellotaulu. Jokainen numero kellossa tarkoittaa viittä minuuttia, joten viittä vaille ja kymmentä yli luetaan käytännössä viiden taululla, ja tämä yhteys kannattaa näyttää lapselle konkreettisesti oikeasta kellosta. Kun sama jono palvelee sekä matematiikan tunnilla että ajan lukemisessa, toistoja kertyy huomaamatta pitkin päivää ja taulu vahvistuu kuin itsestään. Myös raha tukee viitosia, sillä viiden sentin ja viiden euron askelmat ovat lapselle tuttuja kaupasta. Kun tikkaat sujuvat järjestyksessä, rivejä voi kysyä sikin sokin – vastausten loppunumero kertoo heti, menikö muistista haettu tulo oikein.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-muodossa vaikka joka viikolle. Viitosten jälkeen kevyin jatko on 10:n kertotaulu, jossa on tasan puolet vähemmän muistettavaa – jokainen kymppitulo on viitostulo tuplana. Alkuun pääsee puolestaan 2:n kertotaulusta, jos tuplien rytmi kaipaa vielä vahvistusta. Viitoset ovat monen lapsen mielitaulu ja siksi oiva itseluottamuksen lähde.",
+   "canonicalDeckSlug": "kertotaulut-g3365",
+   "carousel": [
+    {
+     "label": "10:n kertotaulu – tehtävämoniste",
+     "href": "10n-kertotaulu"
+    },
+    {
+     "label": "3:n kertotaulu – tehtävämoniste",
+     "href": "3n-kertotaulu"
+    },
+    {
+     "label": "4:n kertotaulu – tehtävämoniste",
+     "href": "4n-kertotaulu"
+    },
+    {
+     "label": "2:n kertotaulu – tehtävämoniste",
+     "href": "2n-kertotaulu"
+    }
+   ],
+   "title": "5:n kertotaulu: tehtävät 1 · 5 – 10 · 5 – tulostettava PDF",
+   "metaDescription": "5:n kertotaulu tikkaina 1 · 5:stä 10 · 5:een. Hyppylaskenta viidellä ja kellotaulun viisiminuuttiset tekevät taulusta tutun. Tulostettava PDF-moniste."
+  },
+  {
+   "slug": "10n-kertotaulu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Kertotaulumoniste",
+   "h1": "10:n kertotaulu – tehtävämoniste",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "kertotaulut",
+    "3-luokka"
+   ],
+   "p1": "Tällä monisteella lasketaan kymmenen kertotaulu laskusta 1 · 10 aina lakikorkeuteen 10 · 10 = 100 saakka, vastaukset omiin laatikoihinsa. Jo muutaman rivin jälkeen lapsi huomaa säännön itse: vastaus on kerroin, jonka perään ilmestyy nolla. Juuri tämä oma oivallus on sivun paras hetki, ja se kannattaa antaa lapsen löytää eikä kertoa valmiiksi.",
+   "p2": "Nollan ilmestyminen ei ole taikatemppu vaan paikka-arvon ydin näkyvissä: kun luku kerrotaan kymmenellä, jokainen ykkönen muuttuu kymmeneksi ja numero siirtyy yhden paikan vasemmalle – tyhjäksi jääneen ykköspaikan täyttää nolla. Kolme kymppiä on kolmekymmentä. Tämä on sama kymmenjärjestelmän ajatus, joka pyörittää allekkainlaskun muistinumeroa ja myöhemmin isojen lukujen kertolaskua, joten kymmenen taulu on paljon enemmän kuin helppo välietappi. Viimeinen rivi 10 · 10 = 100 vie lukualueen sataan asti ja on monelle laskijalle sivun juhlahetki. Tärkeä tarkennus kannattaa sanoa ääneen: nollaa ei lisätä lukuun tyhjästä, vaan se merkitsee tyhjäksi jäänyttä ykköspaikkaa siirron jälkeen. Näin sääntö ei myöhemmin sotke desimaalilukuja, joissa pelkkä nollan perään lyöminen ei enää toimisi.",
+   "p3": "Moniste on ilmainen tulostettava PDF ja sopii myös itseluottamuksen rakentajaksi kahden vaikeamman taulun väliin. Kymppien rinnalla kannattaa pitää 5:n kertotaulua, sillä jokainen kymppitulo on täsmälleen kaksi viitostuloa. Seuraava kunnon urakka on 3:n kertotaulu – ensimmäinen, joka opitaan ihan ulkoa asti. Kymppitaulu kertautuu arjessa itsestään rahoissa ja mittayksiköissä. Sadan täyttyminen viimeisellä rivillä kruunaa monisteen ja jää mieleen virstanpylväänä.",
+   "canonicalDeckSlug": "kertotaulut-g3366",
+   "carousel": [
+    {
+     "label": "3:n kertotaulu – tehtävämoniste",
+     "href": "3n-kertotaulu"
+    },
+    {
+     "label": "4:n kertotaulu – tehtävämoniste",
+     "href": "4n-kertotaulu"
+    },
+    {
+     "label": "2:n kertotaulu – tehtävämoniste",
+     "href": "2n-kertotaulu"
+    },
+    {
+     "label": "5:n kertotaulu – tehtävämoniste",
+     "href": "5n-kertotaulu"
+    }
+   ],
+   "title": "10:n kertotaulu: tehtävät 1 · 10 – 10 · 10 – tulostettava PDF",
+   "metaDescription": "10:n kertotaulu tikkaina 1 · 10:stä 10 · 10:een. Vastauksissa näkyy paikka-arvon idea: luku saa nollan peräänsä. Ilmainen tulostettava PDF-moniste."
+  },
+  {
+   "slug": "3n-kertotaulu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Kertotaulumoniste",
+   "h1": "3:n kertotaulu – tehtävämoniste",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "kertotaulut",
+    "3-luokka"
+   ],
+   "p1": "Tällä monisteella opetellaan kolmen kertotaulu: tikkaat kulkevat laskusta 1 · 3 laskuun 10 · 3, ja jokainen vastaus kirjoitetaan omaan laatikkoonsa. Vastausjono 3, 6, 9, 12 kasvaa kolmella joka rivillä, ja juuri sen jonon luetteleminen ääneen – ylös ja alas – on hyvä lämmittely ennen kynään tarttumista.",
+   "p2": "Kolmen taulu on rehellisesti sanoen ensimmäinen taulu, jossa ulkoa opettelua ei pääse pakoon. Kakkosissa auttoivat tuplat, viitosissa ja kympeissä vastausten selkeä kaava – kolmosilla apukeinot ohenevat, ja siksi tämä taulu kannattaa ottaa tosissaan mutta pieninä annoksina. Toimiva reitti kulkee naapuruuksien kautta: jos 5 · 3 = 15 on varma ankkuri, niin 6 · 3 on vain kolme enemmän. Muutama varma ankkuririvi ja niistä eteenpäin laskeminen kantaa siihen asti, että koko jono nousee muistista. Kolmen taulun eteen nähty vaiva palkitaan korkojen kera, sillä sama työtapa avaa myöhemmin kaikki loputkin taulut. Kolmoset kuuluvat myös arkeen: kolmen hengen perheet, kolmipyörät ja kolmiot antavat laskuille kasvot. Pieni jono paperilapulla jääkaapin ovessa – 3, 6, 9, 12 – kerää päivän mittaan monta ohikulkutoistoa.",
+   "p3": "Moniste tulostuu ilmaiseksi PDF-tiedostona – muutama minuutti päivässä riittää mainiosti. Kolmosten jälkeen 4:n kertotaulu tuntuu yllättävän kevyeltä, sillä siihen on olemassa valmis oikotie tuplaamisen kautta. Ja kaikkien taulujen sekakertaus onnistuu kertotauluharjoitusten monisteella, kun yksittäiset taulut alkavat istua. Pieninä annoksina opeteltu taulu istuu lopulta lujimmin, joten kiirettä ei kannata pitää.",
+   "canonicalDeckSlug": "kertotaulut-g3367",
+   "carousel": [
+    {
+     "label": "4:n kertotaulu – tehtävämoniste",
+     "href": "4n-kertotaulu"
+    },
+    {
+     "label": "2:n kertotaulu – tehtävämoniste",
+     "href": "2n-kertotaulu"
+    },
+    {
+     "label": "5:n kertotaulu – tehtävämoniste",
+     "href": "5n-kertotaulu"
+    },
+    {
+     "label": "10:n kertotaulu – tehtävämoniste",
+     "href": "10n-kertotaulu"
+    }
+   ],
+   "title": "3:n kertotaulu: tehtävät 1 · 3 – 10 · 3 – tulostettava PDF",
+   "metaDescription": "3:n kertotaulu tikkaina 1 · 3:sta 10 · 3:een vastauslaatikoineen. Ensimmäinen taulu, joka vaatii aitoa ulkoa opettelua. Ilmainen tulostettava PDF-moniste."
+  },
+  {
+   "slug": "4n-kertotaulu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-luokka"
+   },
+   "eyebrow": "Kertotaulumoniste",
+   "h1": "4:n kertotaulu – tehtävämoniste",
+   "strand": "Luvut ja laskutoimitukset",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "kertotaulut",
+    "3-luokka"
+   ],
+   "p1": "Tämän monisteen tikkailla lasketaan neljän kertotaulu laskusta 1 · 4 laskuun 10 · 4, vastaukset omiin laatikoihinsa. Sivun salaisuus paljastuu, kun sen laskee kahden taulun jälkeen: jokainen neljän taulun vastaus on kahden taulun vastaava vastaus tuplattuna. Koska 7 · 2 = 14, on 7 · 4 = 28 – tuplaa vain tulos, ja neljän taulu aukeaa.",
+   "p2": "Tupla tuplasta on lapsen ensimmäinen oikea laskustrategia kertotauluissa, ja se on arvokkaampi kuin yksikään yksittäinen ulkoa osattu rivi. Neljä on kaksi kertaa kaksi, joten neljällä kertominen on kahdella kertomista kahdesti – ajatus, jonka voi näyttää konkreettisesti vaikka napeilla: neljän riveihin järjestetty joukko jakautuu aina kahdeksi kahden riviksi. Kun lapsi käyttää strategiaa muutaman sivullisen verran, välivaihe alkaa jäädä pois ja vastaukset nousta suoraan muistista – juuri näin taulujen kuuluu automatisoitua, ymmärryksen kautta eikä sen ohi. Samalla vahvistuu huomaamatta myös kahden taulu, joka saa jokaisella rivillä yhden kertauksen. Sama oikotie kannattaa sanoa myös toisin päin: neljän taulun vastauksen puolittamalla pääsee takaisin kahden tauluun, ja edestakainen liike syventää molempien taulujen ymmärrystä.",
+   "p3": "Moniste on ilmainen tulostettava PDF, ja se kannattaa laskea heti kahden taulun päälle, kun tuplat ovat tuoreessa muistissa. Rinnalle sopii 3:n kertotaulu, joka harjoittaa toisenlaista, ulkomuistiin nojaavaa lihasta. Kun molemmat sujuvat, kertotauluharjoitusten sekamoniste näyttää, nousevatko vastaukset jo järjestyksestä riippumatta. Strategian sanallistaminen ääneen kotona vahvistaa sitä vielä yhden kierroksen verran.",
+   "canonicalDeckSlug": "kertotaulut-g3368",
+   "carousel": [
+    {
+     "label": "2:n kertotaulu – tehtävämoniste",
+     "href": "2n-kertotaulu"
+    },
+    {
+     "label": "5:n kertotaulu – tehtävämoniste",
+     "href": "5n-kertotaulu"
+    },
+    {
+     "label": "10:n kertotaulu – tehtävämoniste",
+     "href": "10n-kertotaulu"
+    },
+    {
+     "label": "3:n kertotaulu – tehtävämoniste",
+     "href": "3n-kertotaulu"
+    }
+   ],
+   "title": "4:n kertotaulu: tehtävät 1 · 4 – 10 · 4 – tulostettava PDF",
+   "metaDescription": "4:n kertotaulu tikkaina 1 · 4:stä 10 · 4:ään. Jokainen tulo on 2:n taulun vastaus tuplattuna – tuplaamisen taktiikka keventää työtä. Tulostettava PDF."
   }
  ]
 }

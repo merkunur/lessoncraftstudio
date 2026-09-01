@@ -125677,6 +125677,258 @@
    ],
    "title": "Werkblad spiegelen onder de lijn | om te printen PDF gratis",
    "metaDescription": "Gratis werkblad spiegelen met een horizontale spiegellijn: kleur de vakjes onder de lijn precies na. De lastigste stap. Print de PDF voor groep 4 en 5."
+  },
+  {
+   "slug": "kleine-letters-overtrekken",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kleuters"
+   },
+   "eyebrow": "Werkblad kleine letters overtrekken",
+   "h1": "Kleine letters overtrekken: a tot f op schrijfregels",
+   "strand": "Voorbereidend lezen en schrijven",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleine-letters-overtrekken",
+    "kleuters"
+   ],
+   "p1": "Op dit werkblad voor kleuters trekt het kind de kleine letters a tot f na op echte schrijfregels: een bovenregel, een gestippelde middenregel en een basisregel. Elke letter heeft op die regels zijn eigen plaats. De a, de c en de e vullen alleen de romp, tussen de stippellijn en de basisregel. De b, de d en de f zijn stokletters en reiken tot aan de bovenregel. Na de gestippelde voorbeelden blijft het laatste vak van elke regel leeg: daar schrijft het kind de letter helemaal zelf.",
+   "p2": "De kleine letters zijn de moeilijkste helft van het alfabet en tegelijk de helft die kinderen echt schrijven: alleen de eerste letter van een zin is een hoofdletter, al het andere is klein. Waar hoofdletters allemaal even hoog staan, leven kleine letters in drie zones tegelijk, en de gestippelde middenregel goed lezen is het grootste deel van de vaardigheid. Deze bladzijde bevat bovendien de bekendste verwisseling van het alfabet: de b en de d, twee regels uit elkaar, dezelfde ronding en dezelfde stok, maar gespiegeld. Ze in één sessie natrekken, met de schrijfrichting erbij, maakt van dat verschil iets dat de hand herkent.",
+   "p3": "De letters zijn getekend in de schoolvormen, met de a van één verdieping en de open g, en niet in de vormen met twee verdiepingen die de meeste lettertypen gebruiken. Het werkblad print gratis als pdf en kan per letter herhaald worden. Hoofdletters overtrekken past er goed naast.",
+   "canonicalDeckSlug": "kleine-letters-overtrekken-k278",
+   "carousel": [
+    {
+     "label": "Kleine letters overtrekken: g tot l",
+     "href": "kleine-letters-overtrekken-g-tot-l"
+    },
+    {
+     "label": "Kleine letters overtrekken: m tot r",
+     "href": "kleine-letters-overtrekken-m-tot-r"
+    },
+    {
+     "label": "Kleine letters overtrekken: s tot z",
+     "href": "kleine-letters-overtrekken-s-tot-z"
+    },
+    {
+     "label": "De kleine ij overtrekken, met g, h, k, l en m",
+     "href": "kleine-ij-overtrekken"
+    }
+   ],
+   "title": "Werkblad kleine letters overtrekken | om te printen PDF",
+   "metaDescription": "Kleine letters a tot f natrekken op schrijfregels: eerst overtrekken, daarna zelf schrijven op de lege regel. Print het werkblad gratis als pdf."
+  },
+  {
+   "slug": "kleine-letters-overtrekken-g-tot-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kleuters"
+   },
+   "eyebrow": "Werkblad kleine letters overtrekken",
+   "h1": "Kleine letters overtrekken: g tot l",
+   "strand": "Voorbereidend lezen en schrijven",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleine-letters-overtrekken",
+    "kleuters"
+   ],
+   "p1": "Dit werkblad voor kleuters zet het alfabet voort van g tot l: zes kleine letters die elk deel van de schrijfregels gebruiken. De g en de j laten hun staart onder de basisregel zakken. De h, de k en de l staan als stokletters tot aan de bovenregel. De i en de j eindigen met hun puntje erboven. Het kind trekt de gestippelde letters na, begint bij de oranje stip, volgt de pijltjes en schrijft de laatste letter van elke regel zonder hulp.",
+   "p2": "Bij deze zes letters gaat de derde zone van de schrijfregels eindelijk meetellen. Tot nu toe kon een kind de basisregel als vloer behandelen; de g en de j gaan er dwars doorheen. Een staart die te kort blijft lijkt op een andere letter, en een die te ver doorloopt botst op de regel eronder, dus de basisregel wordt van een rustpunt een lijn die je met opzet oversteekt. De puntjes op i en j zijn een eigen lesje: een los teken, gezet nadat de haal af is en niet tijdens. Ook de l verdient even aandacht, want het is niets dan een rechte hoge stok en kinderen maken hem vaak te kort.",
+   "p3": "De g staat in de schoolvorm met één verdieping en een open staart, de vorm die kinderen leren schrijven en niet de vorm die in boeken gedrukt staat. De pdf is gratis en kan per letter herhaald worden. Het blad a tot f komt ervoor, m tot r sluit er direct op aan.",
+   "canonicalDeckSlug": "kleine-letters-overtrekken-k279",
+   "carousel": [
+    {
+     "label": "Kleine letters overtrekken: m tot r",
+     "href": "kleine-letters-overtrekken-m-tot-r"
+    },
+    {
+     "label": "Kleine letters overtrekken: s tot z",
+     "href": "kleine-letters-overtrekken-s-tot-z"
+    },
+    {
+     "label": "De kleine ij overtrekken, met g, h, k, l en m",
+     "href": "kleine-ij-overtrekken"
+    },
+    {
+     "label": "Mijn eerste kleine letters: a, b, c en d extra groot",
+     "href": "eerste-kleine-letters"
+    }
+   ],
+   "title": "Kleine letters overtrekken g tot l | printen PDF gratis",
+   "metaDescription": "Kleine letters g tot l natrekken op schrijfregels: de staarten van g en j, de stokken van h, k en l, en de puntjes op i en j. Gratis printbare pdf."
+  },
+  {
+   "slug": "kleine-letters-overtrekken-m-tot-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kleuters"
+   },
+   "eyebrow": "Werkblad kleine letters overtrekken",
+   "h1": "Kleine letters overtrekken: m tot r",
+   "strand": "Voorbereidend lezen en schrijven",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleine-letters-overtrekken",
+    "kleuters"
+   ],
+   "p1": "Dit werkblad voor kleuters behandelt de kleine letters m tot r op schrijfregels. Vijf van de zes blijven helemaal in de romp, tussen de stippellijn en de basisregel; de p en de q zijn de uitzondering en laten elk een rechte staart eronder zakken. Het kind trekt de gestippelde voorbeelden na, volgt de pijltjes voor de schrijfrichting en sluit elke regel af door de letter zelf in het lege vak te schrijven.",
+   "p2": "Deze bladzijde bevat het tweede verwisselpaar. Wat de b en de d aan het begin van het alfabet zijn, zijn de p en de q aan het eind: één ronding, één staart, en alleen de richting verschilt. Ze op hetzelfde blad hebben, na elkaar nagetrokken en met het startpunt aangegeven, maakt van twijfel een gewoonte. De m en de n zijn een paar van een andere soort: dezelfde boog, één keer en dan twee keer geschreven, dus wie de ene kan maken, kan de andere ook. De r valt buiten de rij en wordt het vaakst te hoog geschreven: het is een korte letter met een klein schoudertje, niet hoger dan de o ernaast.",
+   "p3": "Alle letters staan in de schoolvormen op echte schrijfregels, dus de haal die hier geoefend wordt is de haal die het schrift straks vraagt. Het werkblad print gratis als pdf. Het volgt op g tot l, en s tot z sluit het alfabet af.",
+   "canonicalDeckSlug": "kleine-letters-overtrekken-k280",
+   "carousel": [
+    {
+     "label": "Kleine letters overtrekken: s tot z",
+     "href": "kleine-letters-overtrekken-s-tot-z"
+    },
+    {
+     "label": "De kleine ij overtrekken, met g, h, k, l en m",
+     "href": "kleine-ij-overtrekken"
+    },
+    {
+     "label": "Mijn eerste kleine letters: a, b, c en d extra groot",
+     "href": "eerste-kleine-letters"
+    },
+    {
+     "label": "Kleine letters overtrekken: a tot f op schrijfregels",
+     "href": "kleine-letters-overtrekken"
+    }
+   ],
+   "title": "Kleine letters overtrekken m tot r | printen PDF gratis",
+   "metaDescription": "Kleine letters m tot r natrekken op schrijfregels: de bogen van m en n, de staarten van p en q, en de korte r. Gratis printbare pdf."
+  },
+  {
+   "slug": "kleine-letters-overtrekken-s-tot-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kleuters"
+   },
+   "eyebrow": "Werkblad kleine letters overtrekken",
+   "h1": "Kleine letters overtrekken: s tot z",
+   "strand": "Voorbereidend lezen en schrijven",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleine-letters-overtrekken",
+    "kleuters"
+   ],
+   "p1": "Dit werkblad voor kleuters sluit het alfabet af met de kleine letters s tot z: acht letters op schrijfregels. De meeste blijven in de romp, de t komt maar een stukje omhoog en de y stuurt een staart onder de basisregel. Het kind trekt elke gestippelde letter na vanaf de oranje stip, volgt de pijltjes en schrijft de laatste letter van elke regel zonder voorbeeld.",
+   "p2": "Aan het eind van het alfabet verzamelen zich de schuine halen. De v, de w, de x, de y en de z bestaan allemaal uit rechte lijnen die onder een hoek samenkomen, en een schuine lijn is voor een jonge hand lastiger dan een rechte of een ronding: er is geen papierrand om langs te lopen en geen cirkel om te sluiten. Vijf ervan bij elkaar tegenkomen is nuttig, want dezelfde beheersing geldt voor alle vijf. Twee letters breken hier hun eigen regel. De t is geen volle stokletter: hij stopt onder de bovenregel, en hem op volle hoogte schrijven is een van de meest gemaakte beginnersfouten. De s draait in één haal twee keer van richting, en is daarom vaak de laatste letter die lukt.",
+   "p3": "Hiermee eindigt de reeks van vier die bij a tot f begint. De letters gebruiken de schoolvormen op echte schrijfregels, en de pdf is gratis, zodat de lastigere vormen zo vaak herhaald kunnen worden als nodig is.",
+   "canonicalDeckSlug": "kleine-letters-overtrekken-k281",
+   "carousel": [
+    {
+     "label": "De kleine ij overtrekken, met g, h, k, l en m",
+     "href": "kleine-ij-overtrekken"
+    },
+    {
+     "label": "Mijn eerste kleine letters: a, b, c en d extra groot",
+     "href": "eerste-kleine-letters"
+    },
+    {
+     "label": "Kleine letters overtrekken: a tot f op schrijfregels",
+     "href": "kleine-letters-overtrekken"
+    },
+    {
+     "label": "Kleine letters overtrekken: g tot l",
+     "href": "kleine-letters-overtrekken-g-tot-l"
+    }
+   ],
+   "title": "Kleine letters overtrekken s tot z | printen PDF gratis",
+   "metaDescription": "Kleine letters s tot z natrekken op schrijfregels: de schuine halen van v, w, x en z, de staart van de y en de korte t. Gratis printbare pdf."
+  },
+  {
+   "slug": "kleine-ij-overtrekken",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kleuters"
+   },
+   "eyebrow": "Werkblad kleine letters overtrekken",
+   "h1": "De kleine ij overtrekken, met g, h, k, l en m",
+   "strand": "Voorbereidend lezen en schrijven",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleine-letters-overtrekken",
+    "kleuters"
+   ],
+   "p1": "Dit werkblad voor kleuters zet de ij vooraan: de eigen letter van het Nederlands, in kleine letters op schrijfregels, samen met de g, de h, de k, de l en de m. De ij bestaat uit twee tekens die samen één klank vormen, en allebei dragen ze een puntje. De g zakt met haar staart onder de basisregel, de h, de k en de l zijn stokletters. Het kind trekt de gestippelde letters na en schrijft er aan het eind van elke regel zelf een.",
+   "p2": "De ij verdient een eigen blad omdat kinderen hem vroeg nodig hebben: hij zit in wijzen, in mijn en in ijs, en in de naam van het IJsselmeer. Bij het schrijven levert hij een dubbele les op. Eerst de twee puntjes: ze horen bij twee losse letters, worden gezet nadat beide halen af zijn, en staan even hoog naast elkaar. Daarnaast blijven de i en de j als paar bij elkaar horen, ook al zijn het twee tekens — de j zakt onder de regel, de i niet, en juist dat hoogteverschil maakt de ij herkenbaar op de regel.",
+   "p3": "De letters staan in de schoolvormen op echte schrijfregels en de pdf is gratis. Dit is het blad dat Engelstalige werkbladen niet kunnen bieden; het past goed naast a tot f en naast g tot l, waar de g en de puntjes terugkomen.",
+   "canonicalDeckSlug": "kleine-letters-overtrekken-k282",
+   "carousel": [
+    {
+     "label": "Mijn eerste kleine letters: a, b, c en d extra groot",
+     "href": "eerste-kleine-letters"
+    },
+    {
+     "label": "Kleine letters overtrekken: a tot f op schrijfregels",
+     "href": "kleine-letters-overtrekken"
+    },
+    {
+     "label": "Kleine letters overtrekken: g tot l",
+     "href": "kleine-letters-overtrekken-g-tot-l"
+    },
+    {
+     "label": "Kleine letters overtrekken: m tot r",
+     "href": "kleine-letters-overtrekken-m-tot-r"
+    }
+   ],
+   "title": "De kleine ij overtrekken | werkblad printen PDF gratis",
+   "metaDescription": "Werkblad met de kleine ij op schrijfregels, samen met g, h, k, l en m. De letter die alleen het Nederlands kent. Gratis printbare pdf."
+  },
+  {
+   "slug": "eerste-kleine-letters",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "kleuters"
+   },
+   "eyebrow": "Werkblad kleine letters overtrekken",
+   "h1": "Mijn eerste kleine letters: a, b, c en d extra groot",
+   "strand": "Voorbereidend lezen en schrijven",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleine-letters-overtrekken",
+    "kleuters"
+   ],
+   "p1": "Dit werkblad voor kleuters is het zachtste begin: maar vier kleine letters — a, b, c en d — extra groot op schrijfregels. Minder letters en een grotere haal betekenen een korte sessie en veel ruimte voor een hand die het sturen van het potlood nog leert. Het kind trekt elke gestippelde letter na vanaf de oranje stip, volgt de pijltjes en schrijft hem aan het eind van de regel één keer helemaal zelf.",
+   "p2": "Een eerste schrijfblad moet maar één ding tegelijk vragen. Deze vier letters laten precies de twee hoogtes zien die een kind meteen moet opmerken, en verder niets: de a en de c wonen in de romp, tussen de stippellijn en de basisregel, terwijl de b en de d stokletters zijn die tot de bovenregel reiken. Dat is het hele idee van schrijfregels, uitgelegd met vier letters in plaats van zesentwintig. Op dit formaat is het verschil tussen een korte letter en een stokletter dwars over de tafel te zien, en dat is precies wat een beginner nodig heeft voordat de letters kleiner worden.",
+   "p3": "Doordat de b en de d hier samen staan, komt het blad de meest gemaakte vroege verwisseling tegen op het moment dat die nog voorkomen kan worden in plaats van hersteld. De pdf print gratis en is zo vaak te gebruiken als nuttig is; als vier letters makkelijk gaan, volgt het blad a tot f.",
+   "canonicalDeckSlug": "kleine-letters-overtrekken-k283",
+   "carousel": [
+    {
+     "label": "Kleine letters overtrekken: a tot f op schrijfregels",
+     "href": "kleine-letters-overtrekken"
+    },
+    {
+     "label": "Kleine letters overtrekken: g tot l",
+     "href": "kleine-letters-overtrekken-g-tot-l"
+    },
+    {
+     "label": "Kleine letters overtrekken: m tot r",
+     "href": "kleine-letters-overtrekken-m-tot-r"
+    },
+    {
+     "label": "Kleine letters overtrekken: s tot z",
+     "href": "kleine-letters-overtrekken-s-tot-z"
+    }
+   ],
+   "title": "Mijn eerste kleine letters a b c d | werkblad PDF gratis",
+   "metaDescription": "Eerste schrijfwerkblad met maar vier kleine letters, a, b, c en d, extra groot op schrijfregels. Gratis printbare pdf om te oefenen."
   }
  ]
 }

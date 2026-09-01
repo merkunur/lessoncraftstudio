@@ -105344,6 +105344,258 @@
    ],
    "title": "Arbeitsblätter Waagerechte Spiegelachse | zum Ausdrucken PDF",
    "metaDescription": "Spiegeln an der waagerechten Achse: Rakete, Pfeil, Eis und Roboter oberhalb der Linie, das Spiegelbild darunter ausmalen. Gratis als PDF für Klasse 2."
+  },
+  {
+   "slug": "kleinbuchstaben-nachspuren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Kleinbuchstaben nachspuren – a bis f auf Schreiblinien",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleinbuchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Auf diesem Arbeitsblatt für die Vorschule spuren Kinder die Kleinbuchstaben a bis f auf echten Schreiblinien nach: obere Linie, gestrichelte Mittellinie, Grundlinie. Jeder Buchstabe hat auf diesen Linien seinen eigenen Platz. Das a, das c und das e füllen nur das Mittelband zwischen Mittellinie und Grundlinie. Das b, das d und das f sind Oberlängen und reichen bis zur oberen Linie hinauf. Nach den gestrichelten Vorlagen bleibt am Ende jeder Zeile ein Feld frei – dort schreibt das Kind den Buchstaben allein.",
+   "p2": "Die Kleinbuchstaben sind die schwierigere Hälfte des Alphabets und zugleich die, die Kinder wirklich schreiben: Groß geschrieben wird nur der Satzanfang, alles danach ist klein. Während Großbuchstaben alle gleich hoch stehen, bewegen sich Kleinbuchstaben in drei Bändern gleichzeitig, und die gestrichelte Mittellinie richtig zu lesen ist der größte Teil der Übung. Auf dieser Seite steht außerdem die bekannteste Verwechslung des Alphabets: b und d, zwei Zeilen auseinander, derselbe Bogen und derselbe Strich, nur spiegelverkehrt. Beide in einer Sitzung nachzuspuren, mit gezeigter Schreibrichtung, macht den Unterschied zu etwas, das die Hand kennt.",
+   "p3": "Die Buchstaben sind in der Grundschulform gezeichnet – mit dem einstöckigen a und dem offenen g, nicht in den zweistöckigen Druckformen vieler Schriftarten. Das Blatt lässt sich kostenlos als PDF ausdrucken und für einzelne Buchstaben beliebig oft wiederholen. Großbuchstaben nachspuren passt gut daneben, und sobald die kleinen Buchstaben sitzen, setzen die Lernwörter sie in echten Wörtern ein.",
+   "canonicalDeckSlug": "kleinbuchstaben-nachspuren-k278",
+   "carousel": [
+    {
+     "label": "Kleinbuchstaben g bis l nachspuren",
+     "href": "kleinbuchstaben-nachspuren-g-bis-l"
+    },
+    {
+     "label": "Kleinbuchstaben m bis r nachspuren",
+     "href": "kleinbuchstaben-nachspuren-m-bis-r"
+    },
+    {
+     "label": "Kleinbuchstaben s bis z nachspuren",
+     "href": "kleinbuchstaben-nachspuren-s-bis-z"
+    },
+    {
+     "label": "Kleine Umlaute und ß nachspuren – ä, ö, ü, ß",
+     "href": "umlaute-und-ss-nachspuren"
+    }
+   ],
+   "title": "Arbeitsblätter Kleinbuchstaben nachspuren | zum Ausdrucken PDF",
+   "metaDescription": "Kleinbuchstaben a bis f auf Schreiblinien nachspuren: Mittelband, Oberlängen und eine leere Linie zum Selberschreiben. Gratis als PDF ausdrucken."
+  },
+  {
+   "slug": "kleinbuchstaben-nachspuren-g-bis-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Kleinbuchstaben g bis l nachspuren",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleinbuchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Dieses Arbeitsblatt für die Vorschule führt die Kleinbuchstaben von g bis l weiter – sechs Buchstaben, die jeden Teil der Schreiblinien benutzen. Das g und das j ziehen ihre Unterlänge unter die Grundlinie. Das h, das k und das l stehen als Oberlängen bis zur oberen Linie. Das i und das j bekommen zum Schluss ihren Punkt. Das Kind spurt die gestrichelten Buchstaben nach, beginnt am orangen Punkt, folgt den Pfeilen und schreibt den letzten Buchstaben jeder Zeile ohne Hilfe.",
+   "p2": "Bei diesen sechs Buchstaben wird das dritte Band der Schreiblinien zum ersten Mal wichtig. Bis hierher kann ein Kind die Grundlinie als Boden behandeln; g und j gehen hindurch. Eine zu kurze Unterlänge sieht aus wie ein anderer Buchstabe, eine zu lange stößt in die Zeile darunter – die Grundlinie wird also von einer Ablage zu einer Linie, die man bewusst überschreitet. Die Punkte auf i und j sind eine eigene kleine Lektion: ein getrennter Strich, gesetzt nach dem Buchstaben, nicht Teil davon. Und das l lohnt eine kurze Pause, denn es ist nichts als ein gerader hoher Strich und gerät Kindern oft zu kurz.",
+   "p3": "Das g ist in der einstöckigen Grundschulform mit offener Unterlänge gezeichnet, also so, wie es in der Schule geschrieben und nicht wie es in Büchern gedruckt wird. Das PDF ist kostenlos und lässt sich für einzelne Buchstaben wiederholen. Das Blatt a bis f kommt davor, m bis r schließt direkt an.",
+   "canonicalDeckSlug": "kleinbuchstaben-nachspuren-k279",
+   "carousel": [
+    {
+     "label": "Kleinbuchstaben m bis r nachspuren",
+     "href": "kleinbuchstaben-nachspuren-m-bis-r"
+    },
+    {
+     "label": "Kleinbuchstaben s bis z nachspuren",
+     "href": "kleinbuchstaben-nachspuren-s-bis-z"
+    },
+    {
+     "label": "Kleine Umlaute und ß nachspuren – ä, ö, ü, ß",
+     "href": "umlaute-und-ss-nachspuren"
+    },
+    {
+     "label": "Meine ersten Kleinbuchstaben – a, b, c, d ganz groß",
+     "href": "erste-kleinbuchstaben"
+    }
+   ],
+   "title": "Kleinbuchstaben g bis l nachspuren | zum Ausdrucken PDF",
+   "metaDescription": "Kleinbuchstaben g bis l nachspuren: Unterlängen bei g und j, Oberlängen bei h, k und l, dazu die Punkte auf i und j. Gratis PDF zum Ausdrucken."
+  },
+  {
+   "slug": "kleinbuchstaben-nachspuren-m-bis-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Kleinbuchstaben m bis r nachspuren",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleinbuchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Dieses Arbeitsblatt für die Vorschule umfasst die Kleinbuchstaben m bis r auf Schreiblinien. Fünf der sechs sitzen ganz im Mittelband zwischen gestrichelter Mittellinie und Grundlinie; p und q sind die Ausnahme und ziehen je einen geraden Strich als Unterlänge darunter. Das Kind spurt die gestrichelten Vorlagen nach, folgt für die Schreibrichtung den Pfeilen und schreibt den Buchstaben am Ende jeder Zeile allein in das freie Feld.",
+   "p2": "Auf dieser Seite steht die zweite Verwechslung des Alphabets. Was b und d am Anfang sind, sind p und q am Ende: ein Bogen, ein Strich, und nur die Richtung unterscheidet sie. Beide auf demselben Blatt, nacheinander und mit markiertem Startpunkt nachgespurt, macht aus dem Raten eine Gewohnheit. Das m und das n sind ein Paar anderer Art: derselbe Bogen, einmal und dann zweimal geschrieben – wer den einen kann, kann auch den anderen. Das r fällt heraus und wird am häufigsten zu hoch geschrieben: Es ist ein kurzer Buchstabe mit einer kleinen Schulter, nicht höher als das o daneben.",
+   "p3": "Alle Buchstaben erscheinen in der Grundschulform auf echten Schreiblinien, die geübte Form ist also die Form, die auch im Heft erwartet wird. Das Blatt gibt es kostenlos als PDF. Es folgt auf g bis l, und s bis z schließt das Alphabet ab.",
+   "canonicalDeckSlug": "kleinbuchstaben-nachspuren-k280",
+   "carousel": [
+    {
+     "label": "Kleinbuchstaben s bis z nachspuren",
+     "href": "kleinbuchstaben-nachspuren-s-bis-z"
+    },
+    {
+     "label": "Kleine Umlaute und ß nachspuren – ä, ö, ü, ß",
+     "href": "umlaute-und-ss-nachspuren"
+    },
+    {
+     "label": "Meine ersten Kleinbuchstaben – a, b, c, d ganz groß",
+     "href": "erste-kleinbuchstaben"
+    },
+    {
+     "label": "Kleinbuchstaben nachspuren – a bis f auf Schreiblinien",
+     "href": "kleinbuchstaben-nachspuren"
+    }
+   ],
+   "title": "Kleinbuchstaben m bis r nachspuren | zum Ausdrucken PDF",
+   "metaDescription": "Kleinbuchstaben m bis r nachspuren: die Bögen von m und n, die Unterlängen von p und q und das kurze r auf Schreiblinien. Gratis PDF zum Ausdrucken."
+  },
+  {
+   "slug": "kleinbuchstaben-nachspuren-s-bis-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Kleinbuchstaben s bis z nachspuren",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleinbuchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Dieses Arbeitsblatt für die Vorschule beendet das Alphabet mit den Kleinbuchstaben s bis z – acht Buchstaben auf Schreiblinien. Die meisten bleiben im Mittelband, das t reicht ein Stück nach oben, und das y schickt eine Unterlänge unter die Grundlinie. Das Kind spurt jeden gestrichelten Buchstaben vom orangen Punkt aus nach, folgt den Pfeilen und schreibt den letzten Buchstaben jeder Zeile ohne Vorlage.",
+   "p2": "Am Ende des Alphabets sammeln sich die schrägen Striche. Das v, w, x, y und z bestehen alle aus geraden Linien, die in einem Winkel aufeinandertreffen, und eine schräge Linie ist für eine junge Hand schwerer als ein Strich oder ein Bogen: Sie hat keine Papierkante, an der sie entlanglaufen kann, und keinen Kreis, den sie schließt. Fünf davon zusammen zu üben ist sinnvoll, weil dieselbe Bewegungskontrolle für alle fünf gilt. Zwei Buchstaben brechen hier ihre eigene Regel. Das t ist keine volle Oberlänge – es bleibt unter der oberen Linie, und es auf voller Höhe zu schreiben ist einer der häufigsten Anfängerfehler. Das s wechselt in einem einzigen Strich zweimal die Richtung und wird deshalb oft zuletzt sicher.",
+   "p3": "Damit endet die vierteilige Reihe der Kleinbuchstaben, die bei a bis f beginnt. Die Buchstaben nutzen die Grundschulformen auf echten Schreiblinien, und das PDF ist kostenlos, sodass sich die schwierigeren Formen so oft wiederholen lassen, wie es nötig ist.",
+   "canonicalDeckSlug": "kleinbuchstaben-nachspuren-k281",
+   "carousel": [
+    {
+     "label": "Kleine Umlaute und ß nachspuren – ä, ö, ü, ß",
+     "href": "umlaute-und-ss-nachspuren"
+    },
+    {
+     "label": "Meine ersten Kleinbuchstaben – a, b, c, d ganz groß",
+     "href": "erste-kleinbuchstaben"
+    },
+    {
+     "label": "Kleinbuchstaben nachspuren – a bis f auf Schreiblinien",
+     "href": "kleinbuchstaben-nachspuren"
+    },
+    {
+     "label": "Kleinbuchstaben g bis l nachspuren",
+     "href": "kleinbuchstaben-nachspuren-g-bis-l"
+    }
+   ],
+   "title": "Kleinbuchstaben s bis z nachspuren | zum Ausdrucken PDF",
+   "metaDescription": "Kleinbuchstaben s bis z nachspuren: die schrägen Striche von v, w, x und z, die Unterlänge von y und das kurze t. Gratis PDF zum Ausdrucken."
+  },
+  {
+   "slug": "umlaute-und-ss-nachspuren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Kleine Umlaute und ß nachspuren – ä, ö, ü, ß",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleinbuchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Dieses Arbeitsblatt für die Vorschule versammelt die Kleinbuchstaben, die es nur im Deutschen gibt: ä, ö, ü und ß. Die drei Umlaute sitzen im Mittelband und tragen ihre zwei Punkte darüber. Das ß ist der ungewöhnlichste Buchstabe der Seite: Es beginnt oben als Oberlänge, läuft bis zur Grundlinie und endet in einer offenen Schlaufe nach rechts. Das Kind spurt die gestrichelten Buchstaben nach und schreibt jeden am Ende der Zeile allein.",
+   "p2": "Das ß ist der Grund, warum es diese Seite überhaupt geben kann. Es ist ein reiner Kleinbuchstabe – einen großen gibt es nicht, und deshalb konnte er auf keinem Blatt mit Großbuchstaben stehen. Genau deshalb wird er oft übersprungen, obwohl Kinder ihn ab der ersten Klasse schreiben. Seine Form braucht besondere Aufmerksamkeit: Wer die untere Schlaufe zum Strich zurückführt, schreibt ein B. Die Rundung berührt den Strich nur oben, wird in der Mitte schmal und endet frei. Die Umlautpunkte sind die zweite Lektion: zwei getrennte Punkte über dem Buchstaben, gesetzt nachdem der Buchstabe fertig ist, gleichmäßig nebeneinander und nicht zu hoch.",
+   "p3": "Ohne diese vier Zeichen lässt sich kein deutscher Text schreiben, und in englischsprachigen Übungsheften fehlen sie vollständig. Das Blatt zeigt sie in der Grundschulform auf echten Schreiblinien. Das PDF ist kostenlos; daneben passen die Blätter a bis f und s bis z.",
+   "canonicalDeckSlug": "kleinbuchstaben-nachspuren-k282",
+   "carousel": [
+    {
+     "label": "Meine ersten Kleinbuchstaben – a, b, c, d ganz groß",
+     "href": "erste-kleinbuchstaben"
+    },
+    {
+     "label": "Kleinbuchstaben nachspuren – a bis f auf Schreiblinien",
+     "href": "kleinbuchstaben-nachspuren"
+    },
+    {
+     "label": "Kleinbuchstaben g bis l nachspuren",
+     "href": "kleinbuchstaben-nachspuren-g-bis-l"
+    },
+    {
+     "label": "Kleinbuchstaben m bis r nachspuren",
+     "href": "kleinbuchstaben-nachspuren-m-bis-r"
+    }
+   ],
+   "title": "Umlaute und ß nachspuren – Kleinbuchstaben | PDF gratis",
+   "metaDescription": "Die deutschen Kleinbuchstaben ä, ö, ü und ß auf Schreiblinien nachspuren – mit Umlautpunkten und der Oberlänge des ß. Gratis PDF zum Ausdrucken."
+  },
+  {
+   "slug": "erste-kleinbuchstaben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Meine ersten Kleinbuchstaben – a, b, c, d ganz groß",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "kleinbuchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Dieses Arbeitsblatt für die Vorschule ist der sanfteste Anfang: nur vier Kleinbuchstaben – a, b, c und d – in extra großer Schrift auf Schreiblinien. Weniger Buchstaben und größere Formen bedeuten eine kurze Übung und viel Platz für eine Hand, die das Führen des Stiftes noch lernt. Das Kind spurt jeden gestrichelten Buchstaben vom orangen Punkt aus nach, folgt den Pfeilen und schreibt ihn am Ende der Zeile einmal allein.",
+   "p2": "Ein erstes Schreibblatt sollte immer nur eine Sache verlangen. Diese vier Buchstaben zeigen genau die zwei Höhen, die ein Kind sofort erkennen muss, und sonst nichts: a und c bleiben im Mittelband zwischen Mittellinie und Grundlinie, b und d sind Oberlängen bis zur oberen Linie. Das ist die ganze Idee der Schreiblinien, erklärt mit vier Buchstaben statt mit sechsundzwanzig. In dieser Größe ist der Unterschied zwischen einem kurzen und einem hohen Buchstaben quer über den Tisch zu sehen – genau das braucht ein Anfänger, bevor die Buchstaben auf Heftgröße schrumpfen.",
+   "p3": "Weil b und d hier zusammen stehen, trifft das Blatt die häufigste frühe Verwechslung in dem Moment, in dem sie sich noch verhindern statt korrigieren lässt. Das PDF ist kostenlos und beliebig oft verwendbar; wenn vier Buchstaben leicht fallen, folgt das Blatt a bis f.",
+   "canonicalDeckSlug": "kleinbuchstaben-nachspuren-k283",
+   "carousel": [
+    {
+     "label": "Kleinbuchstaben nachspuren – a bis f auf Schreiblinien",
+     "href": "kleinbuchstaben-nachspuren"
+    },
+    {
+     "label": "Kleinbuchstaben g bis l nachspuren",
+     "href": "kleinbuchstaben-nachspuren-g-bis-l"
+    },
+    {
+     "label": "Kleinbuchstaben m bis r nachspuren",
+     "href": "kleinbuchstaben-nachspuren-m-bis-r"
+    },
+    {
+     "label": "Kleinbuchstaben s bis z nachspuren",
+     "href": "kleinbuchstaben-nachspuren-s-bis-z"
+    }
+   ],
+   "title": "Erste Kleinbuchstaben a b c d | Arbeitsblatt PDF gratis",
+   "metaDescription": "Erstes Schreibblatt mit nur vier Kleinbuchstaben a, b, c und d in extra großer Schrift auf Schreiblinien. Gratis als PDF zum Ausdrucken."
   }
  ]
 }

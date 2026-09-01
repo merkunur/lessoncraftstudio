@@ -104836,6 +104836,258 @@
    ],
    "title": "Simetría con eje horizontal | para imprimir PDF",
    "metaDescription": "Simetría con eje horizontal: cohete, flecha, helado y robot dibujados de lado para reflejar hacia abajo de la línea coral. Ficha de 2.º en PDF gratis."
+  },
+  {
+   "slug": "minusculas-punteadas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de minúsculas punteadas",
+   "h1": "Minúsculas punteadas: de la a a la f sobre pauta",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minusculas-punteadas",
+    "preescolar"
+   ],
+   "p1": "En esta ficha de preescolar el niño repasa las letras minúsculas de la a a la f sobre una pauta de tres líneas: línea superior, línea de puntos en el medio y línea de base. Cada letra ocupa su propio sitio en esa pauta. La a, la c y la e llenan solo el cuerpo, entre la línea de puntos y la de base. La b, la d y la f son letras altas y suben hasta la línea superior. Tras los modelos punteados, el último hueco de cada renglón queda vacío: ahí el niño escribe la letra él solo.",
+   "p2": "Las minúsculas son la mitad difícil del abecedario y la que de verdad se escribe: solo la primera letra de la frase va en mayúscula, todo lo demás va en minúscula. Mientras las mayúsculas tienen todas la misma altura, las minúsculas viven en tres alturas a la vez, y leer bien la línea de puntos del medio es casi toda la destreza. Esta página trae además la confusión más conocida del abecedario: la b y la d, a dos renglones de distancia, el mismo círculo y el mismo palo, mirando al revés. Repasarlas en la misma sesión, con el sentido del trazo marcado, convierte esa diferencia en algo que la mano reconoce.",
+   "p3": "Las letras están dibujadas con la forma escolar: la a de un solo piso y la g abierta, no las formas de dos pisos que usan la mayoría de las tipografías. La ficha se imprime gratis en PDF y se puede repetir con las letras que hagan falta. El abecedario punteado en mayúsculas acompaña bien a esta ficha.",
+   "canonicalDeckSlug": "minusculas-punteadas-k278",
+   "carousel": [
+    {
+     "label": "Minúsculas punteadas de la g a la l",
+     "href": "minusculas-punteadas-g-a-l"
+    },
+    {
+     "label": "Minúsculas punteadas de la m a la r",
+     "href": "minusculas-punteadas-m-a-r"
+    },
+    {
+     "label": "Minúsculas punteadas de la s a la z",
+     "href": "minusculas-punteadas-s-a-z"
+    },
+    {
+     "label": "La ñ minúscula punteada y las letras g, h, i, j, k",
+     "href": "letra-n-minuscula-punteada"
+    }
+   ],
+   "title": "Minúsculas punteadas para Kínder | para imprimir PDF",
+   "metaDescription": "Letras minúsculas de la a a la f sobre pauta de tres líneas: el niño repasa y luego escribe la letra solo en la línea vacía. PDF gratis para imprimir."
+  },
+  {
+   "slug": "minusculas-punteadas-g-a-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de minúsculas punteadas",
+   "h1": "Minúsculas punteadas de la g a la l",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minusculas-punteadas",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de preescolar sigue el abecedario de la g a la l: seis letras minúsculas que usan todas las zonas de la pauta. La g y la j bajan su rasgo por debajo de la línea de base. La h, la k y la l suben hasta la línea superior. La i y la j terminan con su punto encima. El niño repasa las letras punteadas empezando en el punto naranja, sigue las flechas y escribe sin ayuda la última de cada renglón.",
+   "p2": "Con estas seis letras la tercera zona de la pauta empieza a importar de verdad. Hasta aquí el niño puede tratar la línea de base como un suelo; la g y la j la atraviesan. Un rasgo que baja demasiado poco parece otra letra, y uno que baja demasiado invade el renglón siguiente, así que la línea de base deja de ser un apoyo y pasa a ser una línea que se cruza a propósito. Los puntos de la i y la j son otra pequeña lección: una marca aparte, hecha después del trazo y no dentro de él. La l también merece una pausa, porque es solo un palo alto y los niños suelen quedarse cortos.",
+   "p3": "La g aparece en la forma escolar de un solo piso con la cola abierta, que es la que se enseña a escribir y no la que se imprime en los libros. El PDF es gratuito y se puede repetir. La ficha de la a a la f va antes, y la de la m a la r sigue después.",
+   "canonicalDeckSlug": "minusculas-punteadas-k279",
+   "carousel": [
+    {
+     "label": "Minúsculas punteadas de la m a la r",
+     "href": "minusculas-punteadas-m-a-r"
+    },
+    {
+     "label": "Minúsculas punteadas de la s a la z",
+     "href": "minusculas-punteadas-s-a-z"
+    },
+    {
+     "label": "La ñ minúscula punteada y las letras g, h, i, j, k",
+     "href": "letra-n-minuscula-punteada"
+    },
+    {
+     "label": "Mis primeras minúsculas: a, b, c y d en grande",
+     "href": "primeras-minusculas-punteadas"
+    }
+   ],
+   "title": "Minúsculas punteadas de la g a la l | imprimir PDF",
+   "metaDescription": "Letras minúsculas de la g a la l sobre pauta: rasgos que bajan en la g y la j, letras altas en h, k y l, y los puntos de la i y la j. PDF gratis."
+  },
+  {
+   "slug": "minusculas-punteadas-m-a-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de minúsculas punteadas",
+   "h1": "Minúsculas punteadas de la m a la r",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minusculas-punteadas",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de preescolar recorre las letras minúsculas de la m a la r sobre pauta de tres líneas. Cinco de las seis se quedan enteras en el cuerpo, entre la línea de puntos y la de base; la p y la q son la excepción y bajan cada una un rasgo recto por debajo. El niño repasa los modelos punteados, sigue las flechas para el sentido del trazo y termina cada renglón escribiendo la letra solo en el hueco vacío.",
+   "p2": "Aquí está la segunda pareja que se confunde. Lo que la b y la d son al principio del abecedario, la p y la q lo son al final: un círculo, un rasgo que baja, y solo la dirección los distingue. Tenerlas en la misma hoja, repasadas una detrás de otra y con el punto de salida marcado, es lo que convierte la duda en costumbre. La m y la n forman otra pareja distinta: el mismo arco, dibujado una vez y luego dos, de modo que quien sabe hacer una sabe hacer la otra. La r es la rara y la que más se dibuja alta de más: es una letra corta, con un hombro pequeño, y no debe pasar de la o que tiene al lado.",
+   "p3": "Todas las letras se muestran con la forma escolar sobre pauta real, así que el trazo que se practica aquí es el que luego se pide en el cuaderno. La ficha se imprime gratis en PDF. Viene después de la g a la l, y la de la s a la z cierra el abecedario.",
+   "canonicalDeckSlug": "minusculas-punteadas-k280",
+   "carousel": [
+    {
+     "label": "Minúsculas punteadas de la s a la z",
+     "href": "minusculas-punteadas-s-a-z"
+    },
+    {
+     "label": "La ñ minúscula punteada y las letras g, h, i, j, k",
+     "href": "letra-n-minuscula-punteada"
+    },
+    {
+     "label": "Mis primeras minúsculas: a, b, c y d en grande",
+     "href": "primeras-minusculas-punteadas"
+    },
+    {
+     "label": "Minúsculas punteadas: de la a a la f sobre pauta",
+     "href": "minusculas-punteadas"
+    }
+   ],
+   "title": "Minúsculas punteadas de la m a la r | imprimir PDF",
+   "metaDescription": "Letras minúsculas de la m a la r sobre pauta: los arcos de la m y la n, los rasgos que bajan en p y q, y la r corta. PDF gratis para imprimir."
+  },
+  {
+   "slug": "minusculas-punteadas-s-a-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de minúsculas punteadas",
+   "h1": "Minúsculas punteadas de la s a la z",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minusculas-punteadas",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de preescolar cierra el abecedario con las minúsculas de la s a la z: ocho letras sobre pauta de tres líneas. La mayoría se quedan en el cuerpo de la letra, la t sube solo una parte y la y manda su cola por debajo de la línea de base. El niño repasa cada letra punteada desde el punto naranja, sigue las flechas y escribe sin ayuda la última de cada renglón.",
+   "p2": "El final del abecedario es donde se juntan los trazos oblicuos. La v, la w, la x, la y y la z están hechas de rectas que se encuentran en ángulo, y una recta inclinada cuesta más a una mano pequeña que una vertical o una curva: no tiene un borde de papel al que seguir ni un círculo que cerrar. Encontrarse con cinco a la vez es útil, porque el mismo control sirve para las cinco. Dos letras rompen aquí su propia regla. La t no es una letra alta completa: se queda por debajo de la línea superior, y dibujarla a toda altura es uno de los errores más comunes. La s cambia de sentido dos veces en un solo trazo, y por eso suele ser la última que sale bien.",
+   "p3": "Con esta ficha termina la serie de cuatro que empieza en la a. Las letras usan las formas escolares sobre pauta real, y el PDF se imprime gratis, así que las formas más difíciles se pueden repetir tantas veces como haga falta.",
+   "canonicalDeckSlug": "minusculas-punteadas-k281",
+   "carousel": [
+    {
+     "label": "La ñ minúscula punteada y las letras g, h, i, j, k",
+     "href": "letra-n-minuscula-punteada"
+    },
+    {
+     "label": "Mis primeras minúsculas: a, b, c y d en grande",
+     "href": "primeras-minusculas-punteadas"
+    },
+    {
+     "label": "Minúsculas punteadas: de la a a la f sobre pauta",
+     "href": "minusculas-punteadas"
+    },
+    {
+     "label": "Minúsculas punteadas de la g a la l",
+     "href": "minusculas-punteadas-g-a-l"
+    }
+   ],
+   "title": "Minúsculas punteadas de la s a la z | imprimir PDF",
+   "metaDescription": "Letras minúsculas de la s a la z sobre pauta: los trazos oblicuos de v, w, x y z, la cola de la y y la t que no llega arriba. PDF gratis."
+  },
+  {
+   "slug": "letra-n-minuscula-punteada",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de minúsculas punteadas",
+   "h1": "La ñ minúscula punteada y las letras g, h, i, j, k",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minusculas-punteadas",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de preescolar pone en primer lugar la letra propia del español: la ñ minúscula, sobre pauta de tres líneas y con su virgulilla encima. La acompañan la g, la h, la i, la j y la k, que traen entre todas las tres zonas de la pauta: la g y la j bajan por debajo de la línea de base, la h y la k suben hasta la línea superior, y la i lleva su punto. El niño repasa las letras punteadas y escribe cada una sola al final del renglón.",
+   "p2": "La ñ merece su propia hoja porque es una letra, no una n adornada. Tiene su lugar propio en el abecedario, entre la n y la o, y sin ella no se escriben ni año, ni niño, ni mañana. Su dificultad está en la virgulilla: es un trazo aparte, ondulado, que se hace después de terminar la n y se coloca centrado sobre ella, ni demasiado alto ni pegado al cuerpo de la letra. Practicarla junto a la i y la j ayuda, porque las tres comparten la misma idea: primero la letra, y solo después la marca que va encima.",
+   "p3": "Las letras están dibujadas con la forma escolar sobre pauta real, y la ficha se imprime gratis en PDF. Es la hoja que las fichas en inglés no pueden ofrecer, y encaja bien junto a la de la a a la f y la de la m a la r.",
+   "canonicalDeckSlug": "minusculas-punteadas-k282",
+   "carousel": [
+    {
+     "label": "Mis primeras minúsculas: a, b, c y d en grande",
+     "href": "primeras-minusculas-punteadas"
+    },
+    {
+     "label": "Minúsculas punteadas: de la a a la f sobre pauta",
+     "href": "minusculas-punteadas"
+    },
+    {
+     "label": "Minúsculas punteadas de la g a la l",
+     "href": "minusculas-punteadas-g-a-l"
+    },
+    {
+     "label": "Minúsculas punteadas de la m a la r",
+     "href": "minusculas-punteadas-m-a-r"
+    }
+   ],
+   "title": "La letra ñ minúscula punteada | ficha PDF gratis",
+   "metaDescription": "Ficha para repasar la ñ minúscula sobre pauta, con su virgulilla, junto a las letras g, h, i, j y k. PDF gratis para imprimir."
+  },
+  {
+   "slug": "primeras-minusculas-punteadas",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "preescolar"
+   },
+   "eyebrow": "Ficha de minúsculas punteadas",
+   "h1": "Mis primeras minúsculas: a, b, c y d en grande",
+   "strand": "Escritura de las letras",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minusculas-punteadas",
+    "preescolar"
+   ],
+   "p1": "Esta ficha de preescolar es el comienzo más suave: solo cuatro letras minúsculas —a, b, c y d— en tamaño grande sobre pauta de tres líneas. Menos letras y un trazo mayor significan una sesión corta y mucho sitio para una mano que todavía está aprendiendo a dirigir el lápiz. El niño repasa cada letra punteada desde el punto naranja, sigue las flechas y la escribe una vez él solo al final del renglón.",
+   "p2": "Una primera hoja de escritura debe pedir una sola cosa cada vez. Estas cuatro letras enseñan justo las dos alturas que hay que distinguir desde el principio y nada más: la a y la c viven en el cuerpo, entre la línea de puntos y la de base, mientras que la b y la d son letras altas que llegan a la línea superior. Esa es toda la idea de la pauta de tres líneas, explicada con cuatro letras en lugar de con veintisiete. A este tamaño, la diferencia entre una letra corta y una alta se ve desde el otro lado de la mesa, que es exactamente lo que necesita quien empieza antes de que las letras se hagan pequeñas.",
+   "p3": "Como la b y la d aparecen juntas, la ficha se encuentra con la confusión más común justo cuando todavía se puede prevenir en lugar de corregir. El PDF se imprime gratis y se usa tantas veces como sea útil; cuando cuatro letras resulten fáciles, sigue la ficha de la a a la f.",
+   "canonicalDeckSlug": "minusculas-punteadas-k283",
+   "carousel": [
+    {
+     "label": "Minúsculas punteadas: de la a a la f sobre pauta",
+     "href": "minusculas-punteadas"
+    },
+    {
+     "label": "Minúsculas punteadas de la g a la l",
+     "href": "minusculas-punteadas-g-a-l"
+    },
+    {
+     "label": "Minúsculas punteadas de la m a la r",
+     "href": "minusculas-punteadas-m-a-r"
+    },
+    {
+     "label": "Minúsculas punteadas de la s a la z",
+     "href": "minusculas-punteadas-s-a-z"
+    }
+   ],
+   "title": "Mis primeras minúsculas a b c d | ficha PDF gratis",
+   "metaDescription": "Primera ficha de escritura con solo cuatro letras minúsculas, a, b, c y d, en tamaño grande sobre pauta de tres líneas. PDF gratis para imprimir."
   }
  ]
 }

@@ -1406,5 +1406,29 @@
   "G3-369": {
     "title": "Famiglie del per e del diviso",
     "instruction": "Usa i tre numeri sul tetto. Completa le quattro operazioni della famiglia: due moltiplicazioni e due divisioni."
+  },
+  "K-278": {
+    "title": "Lettere minuscole tratteggiate",
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+  },
+  "K-279": {
+    "title": "Minuscole tratteggiate da g a n",
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+  },
+  "K-280": {
+    "title": "Minuscole tratteggiate da o a t",
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+  },
+  "K-281": {
+    "title": "Minuscole tratteggiate da r a z",
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+  },
+  "K-282": {
+    "title": "Le vocali minuscole: a e i o u",
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
+  },
+  "K-283": {
+    "title": "Le prime minuscole: a b c d",
+    "instruction": "Ripassa ogni lettera minuscola, poi prova a scriverla tu sulla riga vuota. Parti dal punto arancione e segui le frecce."
   }
 }

@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "De tafels oefenen in rijtjes en door elkaar zorgt voor het vlotte opzeggen dat moeilijker rekenwerk makkelijk maakt.",
     "short": "Oefent het vlot opzeggen van de tafels."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Kleine letters natrekken op schrijfregels oefent de romphoogte, de stokken die omhoog gaan en de staarten die onder de regel duiken.",
+    "short": "Oefent het schrijven van kleine letters."
   }
 }

@@ -1406,5 +1406,29 @@
   "G3-369": {
     "title": "Räknefamiljer med gånger och delat",
     "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop: två med gånger och två med delat."
+  },
+  "K-278": {
+    "title": "Spåra små bokstäver",
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-279": {
+    "title": "Spåra små bokstäver g till l",
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-280": {
+    "title": "Spåra små bokstäver m till r",
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-281": {
+    "title": "Spåra små bokstäver s till z",
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-282": {
+    "title": "Spåra små bokstäver: å, ä och ö",
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-283": {
+    "title": "Mina första små bokstäver: a b c d",
+    "instruction": "Spåra varje liten bokstav och skriv sedan en egen på den tomma raden. Börja vid den orangea pricken och följ pilarna."
   }
 }

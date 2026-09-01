@@ -1406,5 +1406,29 @@
   "G3-369": {
     "title": "Casinhas de multiplicar e dividir",
     "instruction": "Use os três números do telhado e complete os quatro fatos de vezes e de dividir."
+  },
+  "K-278": {
+    "title": "Letras minúsculas pontilhadas",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+  },
+  "K-279": {
+    "title": "Minúsculas pontilhadas de g a m",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+  },
+  "K-280": {
+    "title": "Minúsculas pontilhadas de n a s",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+  },
+  "K-281": {
+    "title": "Minúsculas pontilhadas de s a z",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+  },
+  "K-282": {
+    "title": "As letras k, w e y minúsculas",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
+  },
+  "K-283": {
+    "title": "Primeiras minúsculas: a, b, c, d",
+    "instruction": "Cubra cada letra minúscula pontilhada. Comece no ponto laranja e siga as setas. Depois escreva uma letra na linha vazia."
   }
 }

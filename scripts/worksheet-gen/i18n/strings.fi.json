@@ -1406,5 +1406,29 @@
   "G3-369": {
     "title": "Kerto- ja jakolaskuperheet",
     "instruction": "Katso katon kolmea lukua. Täydennä neljä laskua: kaksi kertolaskua ja kaksi jakolaskua."
+  },
+  "K-278": {
+    "title": "Pienten kirjainten kirjoitusharjoitus",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-279": {
+    "title": "Pienten kirjainten kirjoitusharjoitus g–l",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-280": {
+    "title": "Pienten kirjainten kirjoitusharjoitus m–r",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-281": {
+    "title": "Pienten kirjainten kirjoitusharjoitus s–å",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-282": {
+    "title": "Pienet ääkköset: ä ja ö",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
+  },
+  "K-283": {
+    "title": "Ensimmäiset pienet kirjaimet: a b c d",
+    "instruction": "Kirjoita pienet kirjaimet katkoviivoja pitkin. Aloita oranssista pisteestä ja seuraa nuolia. Kokeile sitten itse tyhjälle viivalle."
   }
 }

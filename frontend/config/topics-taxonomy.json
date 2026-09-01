@@ -2674,10 +2674,30 @@
       },
       "lowercase-letter-tracing": {
         "slug": {
-          "en": "lowercase-letter-tracing"
+          "en": "lowercase-letter-tracing",
+          "de": "kleinbuchstaben-nachspuren",
+          "es": "minusculas-punteadas",
+          "fr": "ecriture-des-minuscules",
+          "pt": "minusculas-pontilhadas",
+          "it": "minuscole-tratteggiate",
+          "nl": "kleine-letters-overtrekken",
+          "sv": "spara-sma-bokstaver",
+          "da": "sma-bogstaver",
+          "no": "sma-bokstaver",
+          "fi": "pienten-kirjainten-kirjoittaminen"
         },
         "name": {
-          "en": "Lowercase Letter Tracing"
+          "en": "Lowercase Letter Tracing",
+          "de": "Kleinbuchstaben nachspuren",
+          "es": "Minúsculas punteadas",
+          "fr": "Écriture des minuscules",
+          "pt": "Minúsculas pontilhadas",
+          "it": "Minuscole tratteggiate",
+          "nl": "Kleine letters overtrekken",
+          "sv": "Spåra små bokstäver",
+          "da": "Små bogstaver",
+          "no": "Små bokstaver",
+          "fi": "Pienten kirjainten kirjoittaminen"
         }
       }
     },

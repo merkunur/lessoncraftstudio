@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "Kertotaulujen harjoittelu sarjoina ja sekaisin rakentaa nopean muistamisen, joka tekee vaativammastakin matematiikasta helpompaa.",
     "short": "Vahvistaa kertotaulujen osaamista."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Pienten kirjainten jäljentäminen viivastolle harjoittaa keskikorkeutta sekä ylä- ja alapidennyksiä, jotka ylittävät ja alittavat rivin.",
+    "short": "Vahvistaa pienten kirjainten kirjoittamista."
   }
 }

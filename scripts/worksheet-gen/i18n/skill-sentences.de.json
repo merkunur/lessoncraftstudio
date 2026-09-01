@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "Einmaleinsreihen und gemischte Aufgaben zu üben führt zum blitzschnellen Abrufen, das schwerere Mathematik leicht macht.",
     "short": "Übt das Einmaleins bis zum sicheren Abruf."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Kleinbuchstaben auf Schreiblinien nachzuspuren übt die Mittelhöhe, in der die meisten Buchstaben sitzen, dazu Ober- und Unterlängen.",
+    "short": "Prägt die Formen der Kleinbuchstaben ein."
   }
 }

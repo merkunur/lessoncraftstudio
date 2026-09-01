@@ -3879,6 +3879,7 @@
       "safer": "Wähle einen Arbeitsblatttyp, um alle verfügbaren Arbeitsblätter zu sehen — interaktives HTML zum Spielen im Browser plus eine druckbare PDF für jeden Satz."
     },
     "tileCta": "Arbeitsblätter ansehen",
+    "tileCtaSheet": "Arbeitsblatt ansehen",
     "newHeading": "Neue Arbeitsblätter",
     "moreTypesHeading": "Weitere Übungstypen",
     "tileAlt": "{typeName} — Arbeitsblatt-Beispiel",

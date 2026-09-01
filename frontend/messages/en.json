@@ -4075,6 +4075,7 @@
       "safer": "Pick a worksheet type to see every available worksheet — interactive HTML to play in the browser plus a printable PDF for every set."
     },
     "tileCta": "View worksheets",
+    "tileCtaSheet": "View worksheet",
     "newHeading": "New worksheets",
     "moreTypesHeading": "More worksheet types",
     "tileAlt": "{typeName} worksheet sample",

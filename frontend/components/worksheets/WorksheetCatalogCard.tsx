@@ -29,6 +29,12 @@ export interface WorksheetCatalogCardProps {
   subject: Subject; // teal (math family) / coral (literacy) tint
   ctaLabel: string;
   eager?: boolean; // first-row cards load eagerly; the rest lazy
+  /**
+   * True when href is an nginx-served deck URL (`/<locale>/decks/<slug>/`)
+   * rather than a Next route. Those must be a plain <a>: a Next <Link> would
+   * client-side route to an app route that does not exist (§15.7).
+   */
+  external?: boolean;
 }
 
 export default function WorksheetCatalogCard({
@@ -40,12 +46,14 @@ export default function WorksheetCatalogCard({
   subject,
   ctaLabel,
   eager = false,
+  external = false,
 }: WorksheetCatalogCardProps) {
   const s = SUBJECT_STYLE[subject];
+  const Card = external ? 'a' : Link;
+  const cardProps = external ? { href } : { href, prefetch: false as const };
   return (
-    <Link
-      href={href}
-      prefetch={false}
+    <Card
+      {...cardProps}
       className="actcat-card group flex flex-col rounded-3xl p-3.5 md:p-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-lcs-coral focus-visible:ring-offset-2 focus-visible:ring-offset-lcs-cream"
     >
       {/* Thumbnail: the deck's real 480×620 worksheet render (portrait 4/5),
@@ -85,6 +93,6 @@ export default function WorksheetCatalogCard({
         {ctaLabel}
         <span aria-hidden="true">→</span>
       </span>
-    </Link>
+    </Card>
   );
 }

@@ -52,7 +52,9 @@ module.exports = {
 
     const blocks = [];
     for (let i = 0; i < d.problems; i++) {
-      const op = i % 2 === 0 ? 'add' : 'sub';
+      // nt20-VAR: opsPattern pins the operation per slot (['add'] = addition-
+      // only page, ['sub'] = subtraction-only); default keeps the alternation
+      const op = d.opsPattern ? d.opsPattern[i % d.opsPattern.length] : (i % 2 === 0 ? 'add' : 'sub');
       // EVERY problem keeps its icon strip (visual-critic finding: a
       // pictureless problem under an instruction that promises pictures is a
       // broken scaffold) — so all quantities stay within iconMax.
@@ -86,8 +88,9 @@ module.exports = {
       let strip = '';
       {
         // 40px + 5px gaps lets a full 10+2 addition sit on ONE line (a
-        // wrapped "+2" group reads as broken grouping)
-        const iconPx = 40;
+        // wrapped "+2" group reads as broken grouping); 3-problem pages
+        // (nt20-VAR G1-241) compact to d.iconPx to fit the page box
+        const iconPx = d.iconPx || 40;
         const icon = (cls) => `<img class="ws-icon${cls ? ' ' + cls : ''}" src="${fileUri(theme, noun.noun)}" alt="" ` +
           `style="width:${iconPx}px;height:${iconPx}px${cls ? ';opacity:0.45' : ''}">`;
         if (op === 'add') {
@@ -115,15 +118,18 @@ module.exports = {
         }
       }
 
-      // show-your-thinking panel: faint dot grid
+      // show-your-thinking panel: faint dot grid (height parameterized for
+      // the compact 3-problem page — nt20-VAR G1-241; default byte-identical)
+      const thinkH = d.thinkH || 104;
+      const dotRows = thinkH >= 100 ? 4 : 3;
       const dots = [];
-      for (let r = 0; r < 4; r++) for (let c = 0; c < 18; c++) {
+      for (let r = 0; r < dotRows; r++) for (let c = 0; c < 18; c++) {
         dots.push(`<circle cx="${14 + c * 26}" cy="${14 + r * 24}" r="1.6" fill="#C8BFAE"/>`);
       }
       const thinkPanel =
         `<div style="display:flex;gap:14px;align-items:stretch">` +
-        `<div style="flex:1;min-width:0;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;min-height:104px;display:flex;align-items:center;overflow:hidden">` +
-        `<svg width="490" height="104" viewBox="0 0 490 104" aria-hidden="true" preserveAspectRatio="xMinYMid meet">${dots.join('')}</svg></div>` +
+        `<div style="flex:1;min-width:0;background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;min-height:${thinkH}px;display:flex;align-items:center;overflow:hidden">` +
+        `<svg width="490" height="${thinkH}" viewBox="0 0 490 ${thinkH}" aria-hidden="true" preserveAspectRatio="xMinYMid meet">${dots.join('')}</svg></div>` +
         `<div style="display:flex;align-items:center">${answerBox({ w: 84, h: 64, answer })}</div>` +
         `</div>`;
 

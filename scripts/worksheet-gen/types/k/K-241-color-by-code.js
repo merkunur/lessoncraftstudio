@@ -97,13 +97,20 @@ module.exports = {
       order.forEach((k, i) => items.push({ kind: k, code: k, inner: '' }));
     } else {
       // number codes: distinct target values, each value ≥2 shapes
-      const values = rng.sample([2, 3, 4, 5, 6, 7, 8, 9, 10], d.codes);
+      // nt20-VAR: d.values = custom value pool (sums-to-20 page); mode
+      // 'numbers' = the classic plain color-by-number (numeral in the shape,
+      // no arithmetic — the legend numeral IS the code)
+      const values = rng.sample(d.values || [2, 3, 4, 5, 6, 7, 8, 9, 10], d.codes);
       entries = values.map((v, i) => ({ code: v, colorKey: colorKeys[i], word: words[colorKeys[i]] }));
       const bag = [];
       values.forEach((v) => { bag.push(v, v); });
       while (bag.length < d.items) bag.push(rng.pick(values));
       const order = rng.shuffle(bag);
       const kinds = ['circle', 'square', 'triangle', 'star', 'heart'];
+      if (d.mode === 'numbers') {
+        order.forEach((v) => items.push({ kind: rng.pick(kinds), code: v, plain: true }));
+        entries = entries.slice(); // same legend shape; no expressions anywhere
+      } else {
       const usedExpr = new Set();
       order.forEach((v) => {
         // find a fresh ± expression landing exactly on v
@@ -118,6 +125,7 @@ module.exports = {
         const expr = `${a} ${op === '-' ? '−' : '+'} ${b}`;
         items.push({ kind: rng.pick(kinds), code: v, expr });
       });
+      }
     }
 
     // jittered grid scatter of outline shapes
@@ -129,12 +137,13 @@ module.exports = {
       const size = d.size + rng.int(-10, 8);
       const x = c * cellW + (cellW - size) / 2 + rng.int(-8, 8);
       const y = r * cellH + (cellH - size) / 2 + rng.int(-8, 8);
-      const inner = it.expr
+      const innerLabel = it.expr || (it.plain ? String(it.code) : '');
+      const inner = innerLabel
         ? el('text', {
             x: size / 2, y: size * (it.kind === 'triangle' ? 0.68 : it.kind === 'heart' ? 0.5 : 0.5),
-            'font-family': tokens.font.display, 'font-size': Math.round(size * 0.2), 'font-weight': 700,
+            'font-family': tokens.font.display, 'font-size': Math.round(size * (it.plain ? 0.3 : 0.2)), 'font-weight': 700,
             fill: tokens.color.ink, 'text-anchor': 'middle', 'dominant-baseline': 'central',
-          }, it.expr)
+          }, innerLabel)
         : '';
       return `<span style="position:absolute;left:${x.toFixed(0)}px;top:${y.toFixed(0)}px" data-lcs-item="${it.code}"${it.expr ? ` data-lcs-expr="${it.expr}"` : ''}>` +
         svgRoot({ width: size, height: size, label: String(it.code) }, shapeSvg(it.kind, size, inner), {}) + `</span>`;

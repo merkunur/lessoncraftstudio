@@ -109,6 +109,176 @@ const READING_PASSAGES = {
           "correct": 2
         }
       ]
+    },
+    {
+      "id": "red-kite",
+      "title": "The Red Kite",
+      "text": "Mia has a red kite with a long yellow tail. On Saturday she takes it to the park with her dad. The wind is strong, and the kite flies high over the trees. A boy claps and says it looks like a little dragon.",
+      "questions": [
+        {
+          "q": "What color is the tail of the kite?",
+          "choices": [
+            "yellow",
+            "red",
+            "green"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Where does Mia fly her kite?",
+          "choices": [
+            "at the beach",
+            "in the park",
+            "in the garden"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why does the kite fly so high?",
+          "choices": [
+            "the wind is strong",
+            "the kite is new",
+            "Mia runs fast"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "lost-boot",
+      "title": "The Lost Boot",
+      "text": "Ben cannot find his left boot. He looks under the bed and behind the door, but it is not there. Then his dog Rex walks in with something in his mouth. It is the boot! Ben laughs and gives Rex a big hug before they go out to play in the puddles.",
+      "questions": [
+        {
+          "q": "What is Ben looking for?",
+          "choices": [
+            "his coat",
+            "his boot",
+            "his hat"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Who finds the boot?",
+          "choices": [
+            "Ben",
+            "Dad",
+            "Rex the dog"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "What will Ben do next?",
+          "choices": [
+            "go to sleep",
+            "play in the puddles",
+            "eat lunch"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "little-garden",
+      "title": "The Little Garden",
+      "text": "In spring, Nora plants three seeds in a pot on the balcony. Every day she gives them a little water and sets the pot in the sun. First a tiny green leaf comes up. After two weeks there are three small plants. Nora is proud, because soon she will have her own tomatoes.",
+      "questions": [
+        {
+          "q": "How many seeds does Nora plant?",
+          "choices": [
+            "two",
+            "three",
+            "five"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "What does Nora do every day?",
+          "choices": [
+            "waters the seeds",
+            "picks tomatoes",
+            "buys new pots"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What will grow from the plants?",
+          "choices": [
+            "apples",
+            "flowers",
+            "tomatoes"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "rainy-school-day",
+      "title": "A Rainy School Day",
+      "text": "It rains and rains on Monday morning. The children cannot go out for break, so the teacher opens the big game cupboard. Sam and Lena build a tall tower out of blocks, and two girls paint pictures of the rain. When the bell rings, nobody wants to stop. Maybe rainy days are not so bad after all, Sam thinks.",
+      "questions": [
+        {
+          "q": "Why do the children stay inside at break?",
+          "choices": [
+            "it is raining",
+            "it is too cold",
+            "the door is locked"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "What do Sam and Lena build?",
+          "choices": [
+            "a boat",
+            "a tower",
+            "a house"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "How does Sam feel at the end?",
+          "choices": [
+            "angry about the rain",
+            "happy about the day",
+            "tired of painting"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "birthday-surprise",
+      "title": "The Birthday Surprise",
+      "text": "Grandpa is turning seventy, and Ella wants to surprise him. All week she practices his favorite song on her recorder, hiding in her room so he cannot hear. At the party, Ella stands up, takes a deep breath, and plays the whole song without one mistake. Grandpa is so happy that he claps the loudest of everyone and asks her to play it one more time.",
+      "questions": [
+        {
+          "q": "Whose birthday is it?",
+          "choices": [
+            "Ella’s",
+            "Grandpa’s",
+            "Mom’s"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Why does Ella practice in her room?",
+          "choices": [
+            "so Grandpa cannot hear",
+            "her recorder is quiet",
+            "her room is warm"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "How do we know Grandpa likes the song?",
+          "choices": [
+            "he falls asleep",
+            "he claps the loudest",
+            "he leaves the party"
+          ],
+          "correct": 1
+        }
+      ]
     }
   ],
   "de": [

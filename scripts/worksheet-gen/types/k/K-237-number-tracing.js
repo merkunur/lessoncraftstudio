@@ -40,6 +40,7 @@ module.exports = {
       const lane = strokeGlyphLane({
         strokes: form[digit], box: BOX, w: laneW, h: d.laneH, glyphH: d.glyphH,
         reps: d.reps, label: `trace digit ${digit}`,
+        emptyLast: !!d.emptyLast, // nt20-VAR K-251: trace-then-write blank slot
       });
       return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-digit-lane="${digit}">${lane.svg}</div>`;
     });

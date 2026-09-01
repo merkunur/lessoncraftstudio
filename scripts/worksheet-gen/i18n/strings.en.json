@@ -409,10 +409,146 @@
   },
   "K-242": {
     "title": "Follow the Maze",
-    "instruction": "Start at the animal at the top. Draw a path through the maze to reach the goal at the bottom."
+    "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom."
   },
   "K-243": {
     "title": "Number Bonds to 10",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-244": {
+    "title": "Straight Lines and Zigzags",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-245": {
+    "title": "Wavy Lines and Curves",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-246": {
+    "title": "Loops, Eights and Spirals",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-247": {
+    "title": "Advanced Pencil Paths",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-248": {
+    "title": "Pencil Path Review",
+    "instruction": "Trace each line with your pencil. Start at the orange dot and follow the arrow."
+  },
+  "K-249": {
+    "title": "Trace the Numbers 0 to 4",
+    "instruction": "Trace each number. Start at the orange dot and follow the arrows."
+  },
+  "K-250": {
+    "title": "Trace the Numbers 5 to 9",
+    "instruction": "Trace each number. Start at the orange dot and follow the arrows."
+  },
+  "K-251": {
+    "title": "Trace and Write the Numbers",
+    "instruction": "Trace each number. Then write it yourself in the empty space."
+  },
+  "K-252": {
+    "title": "Trace the Numbers 1 to 10",
+    "instruction": "Trace each number. Start at the orange dot and follow the arrows."
+  },
+  "K-253": {
+    "title": "Trace the Teen Numbers 11 to 20",
+    "instruction": "Trace each number. Start at the orange dot and follow the arrows."
+  },
+  "K-254": {
+    "title": "Trace the Letters G to L",
+    "instruction": "Trace each letter, then try one on your own on the empty line."
+  },
+  "K-255": {
+    "title": "Trace the Letters M to R",
+    "instruction": "Trace each letter, then try one on your own on the empty line."
+  },
+  "K-256": {
+    "title": "Trace the Letters S to Z",
+    "instruction": "Trace each letter, then try one on your own on the empty line."
+  },
+  "K-257": {
+    "title": "Trace the Vowels",
+    "instruction": "Trace each letter, then try one on your own on the empty line."
+  },
+  "K-258": {
+    "title": "My First Big Letters",
+    "instruction": "Trace each letter, then try one on your own on the empty line."
+  },
+  "K-259": {
+    "title": "Sight Words Practice Set 2",
+    "instruction": "Read the word. Trace it. Then write it yourself on the empty line."
+  },
+  "K-260": {
+    "title": "Sight Words Practice Set 3",
+    "instruction": "Read the word. Trace it. Then write it yourself on the empty line."
+  },
+  "K-261": {
+    "title": "Sight Words Practice Set 4",
+    "instruction": "Read the word. Trace it. Then write it yourself on the empty line."
+  },
+  "K-262": {
+    "title": "Sight Words Practice Set 5",
+    "instruction": "Read the word. Trace it. Then write it yourself on the empty line."
+  },
+  "K-263": {
+    "title": "Sight Words Practice Set 6",
+    "instruction": "Read the word. Trace it. Then write it yourself on the empty line."
+  },
+  "K-264": {
+    "title": "Cut and Paste: Two Big Groups",
+    "instruction": "Cut out the pictures at the bottom. Sort them and glue each one into its box."
+  },
+  "K-265": {
+    "title": "Color by Shape Code",
+    "instruction": "Look at the code. Then color every shape to match it."
+  },
+  "K-266": {
+    "title": "Color by Number",
+    "instruction": "Look at the code. Color every shape to match its number."
+  },
+  "K-267": {
+    "title": "Subtraction Color by Code",
+    "instruction": "Look at the code. Then color every shape to match it."
+  },
+  "K-268": {
+    "title": "Add and Subtract Coloring",
+    "instruction": "Look at the code. Then color every shape to match it."
+  },
+  "K-269": {
+    "title": "Color by Code: Sums to 20",
+    "instruction": "Look at the code. Then color every shape to match it."
+  },
+  "K-270": {
+    "title": "Easy Maze",
+    "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom."
+  },
+  "K-271": {
+    "title": "Hard Maze",
+    "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom."
+  },
+  "K-272": {
+    "title": "Giant Maze",
+    "instruction": "Start at the picture at the top. Draw a path through the maze to reach the goal at the bottom."
+  },
+  "K-273": {
+    "title": "Number Bonds to 5",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-274": {
+    "title": "Number Bonds Within 10",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-275": {
+    "title": "Number Bonds to 20",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-276": {
+    "title": "Find the Whole: Number Bonds",
+    "instruction": "Look at each number bond. Write the missing number in the dashed circle."
+  },
+  "K-277": {
+    "title": "Make Ten with Counting Dots",
     "instruction": "Look at each number bond. Write the missing number in the dashed circle."
   },
   "G1-101": {
@@ -655,6 +791,118 @@
     "title": "Picture Word Problems",
     "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
   },
+  "G1-214": {
+    "title": "Mental Math to 10",
+    "instruction": "Solve each problem in your head. Write the missing number in the box."
+  },
+  "G1-215": {
+    "title": "Missing Number Problems to 20",
+    "instruction": "Work out the missing number in your head. Write it in the box."
+  },
+  "G1-216": {
+    "title": "Addition Practice to 20",
+    "instruction": "Solve each problem in your head. Write the missing number in the box."
+  },
+  "G1-217": {
+    "title": "Subtraction Practice to 20",
+    "instruction": "Solve each problem in your head. Write the missing number in the box."
+  },
+  "G1-218": {
+    "title": "Missing Number Problems to 10",
+    "instruction": "Work out the missing number in your head. Write it in the box."
+  },
+  "G1-219": {
+    "title": "Fact Families to 10",
+    "instruction": "Use the three numbers on the roof. Complete the four related facts."
+  },
+  "G1-220": {
+    "title": "Fact Family Houses to 20",
+    "instruction": "Use the three numbers on the roof. Complete the four related facts."
+  },
+  "G1-221": {
+    "title": "Fact House Practice to 10",
+    "instruction": "Use the three numbers on the roof. Complete the four related facts."
+  },
+  "G1-222": {
+    "title": "Fact Families: Missing Partners",
+    "instruction": "Use the three numbers on the roof. Write the missing number in each fact."
+  },
+  "G1-223": {
+    "title": "Number Words to 20",
+    "instruction": "Read the number. Circle the word that matches it."
+  },
+  "G1-224": {
+    "title": "Tens in Words: 10 to 100",
+    "instruction": "Read the number. Circle the word that matches it."
+  },
+  "G1-225": {
+    "title": "Match Numbers to Words",
+    "instruction": "Draw a line from each number to its word."
+  },
+  "G1-226": {
+    "title": "Number Words to 50",
+    "instruction": "Read the number. Circle the word that matches it."
+  },
+  "G1-227": {
+    "title": "Write the Number Words",
+    "instruction": "Find the matching word in the word bank. Write it on the line."
+  },
+  "G1-228": {
+    "title": "Counting Coins: First Steps",
+    "instruction": "Count the coins in each purse. Write the total amount in the box."
+  },
+  "G1-229": {
+    "title": "Counting Money: All the Coins",
+    "instruction": "Count the coins in each purse. Write the total amount in the box."
+  },
+  "G1-230": {
+    "title": "Coin Counting Practice",
+    "instruction": "Count the coins in each purse. Write the total amount in the box."
+  },
+  "G1-231": {
+    "title": "Two-Coin Counting",
+    "instruction": "Count the coins in each purse. Write the total amount in the box."
+  },
+  "G1-232": {
+    "title": "Which Purse Has More?",
+    "instruction": "Count the money in both purses. Circle the purse that has more."
+  },
+  "G1-233": {
+    "title": "Draw the Hands: O'Clock",
+    "instruction": "Read the time. Draw the hour hand and the minute hand on the clock."
+  },
+  "G1-234": {
+    "title": "Draw the Hands: Half Past",
+    "instruction": "Read the time. Draw the hour hand and the minute hand on the clock."
+  },
+  "G1-235": {
+    "title": "Draw the Hands: Quarter Hours",
+    "instruction": "Read the time. Draw the hour hand and the minute hand on the clock."
+  },
+  "G1-236": {
+    "title": "Draw the Hands: Five Minutes",
+    "instruction": "Read the time. Draw the hour hand and the minute hand on the clock."
+  },
+  "G1-237": {
+    "title": "Draw the Hands: Mixed Times",
+    "instruction": "Read the time. Draw the hour hand and the minute hand on the clock."
+  },
+  "G1-238": {
+    "title": "Addition Word Problems",
+    "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
+  },
+  "G1-239": {
+    "title": "Subtraction Word Problems",
+    "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
+  },
+  "G1-240": {
+    "title": "Word Problems Within 10",
+    "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
+  },
+  "G1-241": {
+    "title": "Word Problem Practice",
+    "instruction": "Read each story. Use the pictures to help you. Write the answer in the box."
+  },
   "G2-203": {
     "title": "Add the Blocks",
     "instruction": "Add the two block groups. Write the total."
@@ -851,6 +1099,82 @@
     "title": "Read and Answer",
     "instruction": "Read the story carefully. Then circle the best answer to each question."
   },
+  "G2-255": {
+    "title": "2-Digit Column Addition",
+    "instruction": "Add one place at a time. Start with the ones."
+  },
+  "G2-256": {
+    "title": "2-Digit Column Subtraction",
+    "instruction": "Subtract one place at a time. Start with the ones."
+  },
+  "G2-257": {
+    "title": "3-Digit Numbers in Columns",
+    "instruction": "Add or subtract one place at a time. Start with the ones."
+  },
+  "G2-258": {
+    "title": "3-Digit Column Addition",
+    "instruction": "Add one place at a time. Start with the ones."
+  },
+  "G2-259": {
+    "title": "Column Method Review",
+    "instruction": "Add or subtract one place at a time. Start with the ones."
+  },
+  "G2-260": {
+    "title": "Reading Measuring Jugs",
+    "instruction": "Read the scale on each jug. Write how many milliliters are inside."
+  },
+  "G2-261": {
+    "title": "Balance Scales in Grams",
+    "instruction": "Look at the weights on each scale. Write how many grams the object weighs."
+  },
+  "G2-262": {
+    "title": "Reading Scales: Small Steps",
+    "instruction": "Read each measuring jug and balance scale. Write the amount with its unit."
+  },
+  "G2-263": {
+    "title": "Measuring Jugs to 2000 ml",
+    "instruction": "Read the scale on each jug. Write how many milliliters are inside."
+  },
+  "G2-264": {
+    "title": "Easy Symmetry Drawing",
+    "instruction": "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical."
+  },
+  "G2-265": {
+    "title": "Hard Symmetry Drawing",
+    "instruction": "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical."
+  },
+  "G2-266": {
+    "title": "Mirror Pictures: Heart and Butterfly",
+    "instruction": "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical."
+  },
+  "G2-267": {
+    "title": "Mirror Pictures: House and Crown",
+    "instruction": "Each picture is only half done. Color the squares on the other side of the line to make it symmetrical."
+  },
+  "G2-268": {
+    "title": "Mirror Below the Line",
+    "instruction": "Each picture is only half done. Color the squares below the line to make it symmetrical."
+  },
+  "G2-269": {
+    "title": "Reading Comprehension: Story 2",
+    "instruction": "Read the story carefully. Then circle the best answer to each question."
+  },
+  "G2-270": {
+    "title": "Reading Comprehension: Story 3",
+    "instruction": "Read the story carefully. Then circle the best answer to each question."
+  },
+  "G2-271": {
+    "title": "Reading Comprehension: Story 4",
+    "instruction": "Read the story carefully. Then circle the best answer to each question."
+  },
+  "G2-272": {
+    "title": "Reading Comprehension: Story 5",
+    "instruction": "Read the story carefully. Then circle the best answer to each question."
+  },
+  "G2-273": {
+    "title": "Reading Comprehension: Story 6",
+    "instruction": "Read the story carefully. Then circle the best answer to each question."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -1038,5 +1362,49 @@
   "G3-358": {
     "title": "Times Tables Practice",
     "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-359": {
+    "title": "Addition with Carrying",
+    "instruction": "Add one place at a time. Regroup when you need to carry."
+  },
+  "G3-360": {
+    "title": "Subtraction with Borrowing",
+    "instruction": "Subtract one place at a time. Regroup when you need to borrow."
+  },
+  "G3-361": {
+    "title": "3-Digit Addition with Carrying",
+    "instruction": "Add one place at a time. Regroup when you need to carry."
+  },
+  "G3-362": {
+    "title": "Subtracting Across Zeros",
+    "instruction": "Subtract one place at a time. Regroup when you need to borrow."
+  },
+  "G3-363": {
+    "title": "Regrouping Review",
+    "instruction": "Solve each problem. Regroup when you need to carry or borrow."
+  },
+  "G3-364": {
+    "title": "Times Table of 2",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-365": {
+    "title": "Times Table of 5",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-366": {
+    "title": "Times Table of 10",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-367": {
+    "title": "Times Table of 3",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-368": {
+    "title": "Times Table of 4",
+    "instruction": "Multiply. Write each product in the box."
+  },
+  "G3-369": {
+    "title": "Multiply and Divide Fact Families",
+    "instruction": "Use the three numbers on the roof. Complete the four related facts."
   }
 }

@@ -44,7 +44,9 @@ module.exports = {
     const cards = [];
 
     if (d.mode === 'table') {
-      const table = rng.int(2, 9);
+      // nt20-VAR: d.table pins the table (the per-table query pages: tabuada
+      // do 2, 2er-Einmaleins, table de 2…); default keeps the seeded pick
+      const table = d.table || rng.int(2, 9);
       for (let k = 1; k <= 10; k++) {
         cards.push(
           `<div class="ws-card-stage" style="gap:10px" data-lcs-a="${k}" data-lcs-b="${table}" data-lcs-mode="table">` +

@@ -1,0 +1,18 @@
+{
+  "id": "wave-var-fanmaze-sv",
+  "seedEpoch": 1,
+  "locales": [
+    "sv"
+  ],
+  "themes": [
+    "animals",
+    "fruits"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-242"
+  ]
+}

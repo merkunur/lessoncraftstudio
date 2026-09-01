@@ -38,11 +38,17 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const nouns = labelSafeNouns(theme);
-    if (nouns.length < this.themeAxis.minNouns) {
-      throw new Error(`G2-252: theme ${theme} has ${nouns.length} nouns < 3`);
+    // nt20-VAR: a jug-only page (balances:0) is THEMELESS — the theme rides
+    // the balance-pan icons, and a themed slug over a page with no icons
+    // would promise content the sheet doesn't show
+    let pickNouns = [];
+    if (d.balances > 0) {
+      const nouns = labelSafeNouns(theme);
+      if (nouns.length < (this.themeAxis.minNouns || 3)) {
+        throw new Error(`G2-252: theme ${theme} has ${nouns.length} nouns < 3`);
+      }
+      pickNouns = rng.sample(nouns, d.balances);
     }
-    const pickNouns = rng.sample(nouns, d.balances);
     const usedJug = new Set();
     const cards = [];
 

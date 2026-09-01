@@ -35,10 +35,30 @@ module.exports = {
     const set = LETTER_SETS[(locale || 'en').slice(0, 2)] || LETTER_SETS.en;
     let letters;
     if (d.from === 'specials') {
-      const rest = set.alphabet.filter((c) => !set.specials.includes(c));
-      letters = [...set.specials, ...rest.slice(6, 6 + d.count)].slice(0, d.count);
+      // filler letters may not repeat a special or any letter INSIDE one
+      // (nl: the IJ digraph would otherwise sit beside bare I and J lanes)
+      const rest = set.alphabet.filter((c) => !set.specials.some((s) => s === c || s.includes(c)));
+      // nt20-VAR: locales with no special capitals (en, it) get the vowels —
+      // a real query face — instead of a degenerate duplicate of the G-L page
+      const feature = set.specials.length ? set.specials : ['A', 'E', 'I', 'O', 'U'].filter((v) => set.alphabet.includes(v));
+      letters = set.specials.length
+        ? [...feature, ...rest.slice(6, 6 + d.count)].slice(0, d.count)
+        : feature;
     } else {
-      letters = set.alphabet.slice(d.from, d.from + d.count);
+      // nt20-VAR: `pool:'rest'` slices the base alphabet with the locale's own
+      // letters removed (they own the specials page); `toEnd` covers to the
+      // pool's end (min 6 / max 9 lanes), clamped so short alphabets (it: 21
+      // letters) still render a full page instead of a 3-lane verify() fail.
+      const pool = d.pool === 'rest' ? set.alphabet.filter((c) => !set.specials.includes(c)) : set.alphabet;
+      let from = d.from;
+      let count = d.count;
+      if (d.toEnd) {
+        count = Math.min(9, Math.max(6, pool.length - from));
+        from = Math.max(0, Math.min(from, pool.length - count));
+      } else {
+        from = Math.min(from, Math.max(0, pool.length - count));
+      }
+      letters = pool.slice(from, from + count);
     }
     const laneW = 660;
     const lanes = letters.map((ch) => {

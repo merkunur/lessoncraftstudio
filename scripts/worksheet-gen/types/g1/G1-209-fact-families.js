@@ -64,9 +64,14 @@ module.exports = {
       } while ((a === b || used.has([Math.min(a, b), Math.max(a, b)].join('|'))) && guard < 120);
       used.add([Math.min(a, b), Math.max(a, b)].join('|'));
 
-      const row = (x, op, y, res) =>
-        `<div style="display:flex;align-items:center;justify-content:center;gap:8px" data-lcs-eq="${x}${op}${y}">` +
-        NUM(x) + OP(op) + NUM(y) + EQ() + answerBox({ w: 50, h: 40, answer: res }) + `</div>`;
+      // nt20-VAR d.blank 'partner': the MISSING-PARTNER page — the second
+      // operand is the blank (7 + ☐ = 12), result printed; default blanks
+      // the result exactly as before.
+      const row = (x, op, y, res) => d.blank === 'partner'
+        ? `<div style="display:flex;align-items:center;justify-content:center;gap:8px" data-lcs-eq="${x}${op}_${res}" data-lcs-partner="${y}">` +
+          NUM(x) + OP(op) + answerBox({ w: 50, h: 40, answer: y }) + EQ() + NUM(res) + `</div>`
+        : `<div style="display:flex;align-items:center;justify-content:center;gap:8px" data-lcs-eq="${x}${op}${y}">` +
+          NUM(x) + OP(op) + NUM(y) + EQ() + answerBox({ w: 50, h: 40, answer: res }) + `</div>`;
 
       const compact = d.cards > 4;
       cards.push(
@@ -93,7 +98,11 @@ module.exports = {
         if (a === b) fails.push(`card ${i + 1}: degenerate a==b family`);
         const rows = [...card.querySelectorAll('[data-lcs-eq]')];
         if (rows.length !== 4) { fails.push(`card ${i + 1}: ${rows.length} equations`); return; }
-        const want = [[`${a}+${b}`, whole], [`${b}+${a}`, whole], [`${whole}-${a}`, b], [`${whole}-${b}`, a]];
+        const partnerMode = rows[0].dataset.lcsPartner != null;
+        const want = partnerMode
+          // missing-partner rows: x + ☐ = res, box holds the partner
+          ? [[`${a}+_${whole}`, b], [`${b}+_${whole}`, a], [`${whole}-_${b}`, a], [`${whole}-_${a}`, b]]
+          : [[`${a}+${b}`, whole], [`${b}+${a}`, whole], [`${whole}-${a}`, b], [`${whole}-${b}`, a]];
         rows.forEach((r, j) => {
           if (r.dataset.lcsEq !== want[j][0]) fails.push(`card ${i + 1} row ${j + 1}: eq ${r.dataset.lcsEq} != ${want[j][0]}`);
           const box = r.querySelector('[data-lcs-answer]');

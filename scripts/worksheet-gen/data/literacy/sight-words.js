@@ -19,7 +19,19 @@ const SIGHT_WORDS = {
     "here",
     "come",
     "little",
-    "down"
+    "down",
+    "we",
+    "was",
+    "not",
+    "for",
+    "big",
+    "went",
+    "are",
+    "she",
+    "have",
+    "they",
+    "with",
+    "this"
   ],
   "de": [
     "und",

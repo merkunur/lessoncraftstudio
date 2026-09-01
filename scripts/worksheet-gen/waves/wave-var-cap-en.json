@@ -1,0 +1,18 @@
+{
+  "id": "wave-var-cap-en",
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [
+    "vehicles"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G2-261",
+    "G2-262"
+  ]
+}

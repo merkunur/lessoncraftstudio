@@ -41,7 +41,7 @@ module.exports = {
   build({ theme, difficulty }, ctx) {
     const d = this.difficulty[difficulty];
     const rng = ctx.rng;
-    const strokes = SETS[difficulty];
+    const strokes = d.strokes || SETS[difficulty]; // nt20-VAR: variation specs pin their own stroke set
     const nouns = labelSafeNouns(theme);
     if (nouns.length < this.themeAxis.minNouns) {
       throw new Error(`K-236: theme ${theme} has ${nouns.length} nouns < min`);

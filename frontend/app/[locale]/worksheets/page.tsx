@@ -263,8 +263,11 @@ export default async function AllWorksheetsPage({
       console.warn('[AllWorksheetsPage] sheet-title query failed:', (err as Error).message);
     }
   }
-  const hubRows: HubRow[] = expandHubRows(allLandings, sheetTitles, (slug) =>
-    deckAssets(locale, slug).deckDir,
+  const hubRows: HubRow[] = expandHubRows(
+    allLandings,
+    sheetTitles,
+    (slug) => deckAssets(locale, slug).deckDir,
+    (themeKey) => themeLabel(themeKey, locale),
   );
   const filters = parseWorksheetFilters(searchParams ?? {});
   const browseActive = Boolean(filters.type || filters.level || filters.theme);

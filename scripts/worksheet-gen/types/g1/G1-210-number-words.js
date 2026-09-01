@@ -53,12 +53,45 @@ module.exports = {
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     const used = new Set();
+    // nt20-VAR: pool 'tens' = round tens only (the forty-vs-fourteen page)
+    const tensPool = d.pool === 'tens' ? [10, 20, 30, 40, 50, 60, 70, 80, 90, 100].filter((v) => v >= d.min && v <= d.max) : null;
     const pickN = () => {
       let n, guard = 0;
-      do { n = rng.int(d.min, d.max); guard++; } while (used.has(n) && guard < 200);
+      do { n = tensPool ? rng.pick(tensPool) : rng.int(d.min, d.max); guard++; } while (used.has(n) && guard < 200);
       used.add(n);
       return n;
     };
+    const distractorsFor = (n) => {
+      if (!tensPool) return distractorValues(n, d.max, rng);
+      // tens page: the teen counterpart (40 ↔ 14 — THE classic word trap) + a neighbor ten
+      const pool = new Set();
+      const teen = n / 10 + 10;
+      if (n >= 30 && n <= 90) pool.add(teen);
+      [n - 10, n + 10].forEach((v) => { if (v >= 10 && v <= d.max && v !== n) pool.add(v); });
+      if (pool.size < 2) pool.add(n === 10 ? 12 : n - 1);
+      return rng.shuffle([...pool]).slice(0, 2);
+    };
+
+    // nt20-VAR mode 'write': numeral + blank writing line per card, with a
+    // shuffled word BANK banner on top — the child finds and copies the right
+    // word (G1-honest: copying, not spelling from memory; self-checking).
+    if (d.mode === 'write') {
+      const ns = Array.from({ length: d.cards }, pickN);
+      const bank = rng.shuffle(ns.slice());
+      const bankHtml = `<div class="ws-scene-banner" style="gap:18px;flex-wrap:wrap" data-lcs-bank>` +
+        bank.map((v) =>
+          `<span style="font-family:'Nunito';font-weight:800;font-size:18px;color:#3A3530;background:#FFFFFF;` +
+          `border:2px solid #F0E4CB;border-radius:18px;padding:5px 16px" data-lcs-bank-word="${v}">${numberWord(v, loc)}</span>`).join('') +
+        `</div>`;
+      const cards = ns.map((n) =>
+        `<div class="ws-card-stage" style="flex-direction:column;gap:14px;justify-content:center" data-lcs-write="${n}">` +
+        NUMERAL(n, 64) +
+        `<div style="width:82%;height:60px;border-bottom:2.5px solid #8A8276"></div></div>`);
+      return {
+        bodyHtml: bankHtml + `<div style="margin-top:10px">${cardGrid({ cards, cols: d.cols, rows: d.rows })}</div>`,
+        meta: {},
+      };
+    }
 
     if (d.mode === 'match') {
       const ns = Array.from({ length: d.items }, pickN);
@@ -82,7 +115,7 @@ module.exports = {
     const cards = [];
     for (let i = 0; i < d.cards; i++) {
       const n = pickN();
-      const opts = rng.shuffle([n, ...distractorValues(n, d.max, rng)]);
+      const opts = rng.shuffle([n, ...distractorsFor(n)]);
       const chips = opts.map((v) => wordChip(numberWord(v, loc), v, v === n)).join('');
       cards.push(
         `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-n="${n}">` +
@@ -97,7 +130,18 @@ module.exports = {
     // DOM facts extracted in-page; word-correctness asserted Node-side
     // against the same engine (the page cannot require lib/number-words).
     const facts = await page.evaluate(() => {
-      const out = { mode: null, cards: [], match: null };
+      const out = { mode: null, cards: [], match: null, write: null };
+      const writes = [...document.querySelectorAll('[data-lcs-write]')];
+      if (writes.length) {
+        out.mode = 'write';
+        out.write = {
+          ns: writes.map((e) => +e.dataset.lcsWrite),
+          bank: [...document.querySelectorAll('[data-lcs-bank-word]')].map((e) => ({
+            n: +e.dataset.lcsBankWord, word: e.textContent.trim(),
+          })),
+        };
+        return out;
+      }
       const stages = [...document.querySelectorAll('[data-lcs-card] [data-lcs-n]')];
       if (stages.length) {
         out.mode = 'circle';
@@ -124,6 +168,17 @@ module.exports = {
     // locale reaches verify via the rendered <html lang> — read it from the page
     const lang = await page.evaluate(() => document.documentElement.lang || 'en');
     const loc = (lang || 'en').slice(0, 2);
+    if (facts.mode === 'write') {
+      const { ns, bank } = facts.write;
+      if (ns.length < 4) fails.push(`only ${ns.length} write cards`);
+      if (new Set(ns).size !== ns.length) fails.push('duplicate numerals');
+      if (bank.map((b) => b.n).sort().join() !== ns.slice().sort().join()) fails.push('bank not a permutation of the cards');
+      bank.forEach((b) => {
+        const want = numberWord(b.n, loc);
+        if (b.word !== want) fails.push(`bank word "${b.word}" != engine "${want}" for ${b.n}`);
+      });
+      return fails;
+    }
     if (facts.mode === 'circle') {
       if (!facts.cards.length) fails.push('no cards');
       facts.cards.forEach((c, i) => {

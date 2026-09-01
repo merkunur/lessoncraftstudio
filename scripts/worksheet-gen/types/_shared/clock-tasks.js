@@ -38,13 +38,21 @@ function makeClockType(cfg) {
     build({ difficulty }, ctx) {
       const d = this.difficulty[difficulty];
       const rng = ctx.rng;
-      const step = d.stepM;
+      // nt20-VAR: stepM may be an ARRAY (mixed-granularity review page) —
+      // each card draws its own step; scalar behavior is byte-identical.
+      const stepFor = () => (Array.isArray(d.stepM) ? rng.pick(d.stepM) : d.stepM);
+      const step = stepFor();
       const used = new Set();
       const pickTime = () => {
         let h, m, guard = 0;
         do {
+          const st = Array.isArray(d.stepM) ? stepFor() : step;
           h = rng.int(1, 12);
-          m = step * rng.int(0, Math.floor(59 / step));
+          // nt20-VAR d.fixedM: pin the minute (the true "half past" page);
+          // d.minutes: draw from an explicit set (quarter past/to = [15,45])
+          m = d.fixedM != null ? d.fixedM
+            : Array.isArray(d.minutes) ? rng.pick(d.minutes)
+            : st * rng.int(0, Math.floor(59 / st));
           guard++;
         } while (used.has(h + ':' + m) && guard < 60);
         used.add(h + ':' + m);

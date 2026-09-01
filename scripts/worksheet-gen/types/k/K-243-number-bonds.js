@@ -39,14 +39,21 @@ module.exports = {
     const used = new Set();
     const cards = [];
     for (let i = 0; i < d.cards; i++) {
-      let whole, a, blank, guard = 0;
+      let whole, a, blank, key, guard = 0;
       do {
         whole = rng.int(d.wholeMin, d.wholeMax);
         a = rng.int(1, whole - 1); // both parts ≥1 — a zero part is a degenerate bond
         blank = rng.pick(d.blanks);
+        // nt20-VAR dedupUnordered: one card per unordered PART PAIR — a
+        // mirrored repeat (9=1+8 next to 9=8+1) is the same work twice
+        // (critic finding on the mixed-whole pages). Bonds-of-5 keeps the
+        // legacy key: only two unordered pairs exist there.
+        key = d.dedupUnordered
+          ? `${whole}|${Math.min(a, whole - a)}-${Math.max(a, whole - a)}`
+          : `${whole}|${a}|${blank}`;
         guard++;
-      } while (used.has(`${whole}|${a}|${blank}`) && guard < 80);
-      used.add(`${whole}|${a}|${blank}`);
+      } while (used.has(key) && guard < 80);
+      used.add(key);
       const bond = numberBond({ whole, a, b: whole - a, blank, size: d.size, dots: d.dots });
       cards.push(`<div class="ws-card-stage">${bond.svg}</div>`);
     }

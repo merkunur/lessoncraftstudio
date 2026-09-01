@@ -54,14 +54,20 @@ module.exports = {
     const tiles = rng.shuffle(cats.flatMap((c) => Array.from({ length: d.perBin }, () => c)));
     const ghost = d.tilePx + 8;
 
+    // nt20-VAR d.ghostGrid: paste slots wrap into a 2-wide grid instead of a
+    // single tall column — the 4-per-bin page (K-264) overflows its group box
+    // as a column (critic finding). Default column stays byte-identical.
+    const ghostSpans = (c) => Array.from({ length: d.perBin }, () =>
+      `<span style="width:${ghost}px;height:${ghost}px;border:2.5px dashed #C8BFAE;border-radius:12px;background:#FFFFFF;flex:0 0 auto" data-lcs-ghost="${c.vocabKey}"></span>`
+    ).join('');
     const binBoxes = cats.map((c) =>
       `<div class="ws-bin" style="max-width:none;flex:1 1 0;height:auto;align-self:stretch;` +
       `display:flex;flex-direction:column;align-items:center;justify-content:space-evenly;gap:10px;padding:26px 12px 16px" data-lcs-bin="${c.vocabKey}">` +
       `<span class="ws-bin-label" style="width:56px;height:56px">` +
       `<img class="ws-icon" src="${fileUri(theme, c.noun)}" alt="" style="width:42px;height:42px"></span>` +
-      Array.from({ length: d.perBin }, () =>
-        `<span style="width:${ghost}px;height:${ghost}px;border:2.5px dashed #C8BFAE;border-radius:12px;background:#FFFFFF;flex:0 0 auto" data-lcs-ghost="${c.vocabKey}"></span>`
-      ).join('') +
+      (d.ghostGrid
+        ? `<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px;width:${ghost * 2 + 14}px">${ghostSpans(c)}</div>`
+        : ghostSpans(c)) +
       `</div>`).join('');
 
     const tileHtml = (c) =>

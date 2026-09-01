@@ -117,6 +117,10 @@ function makeColumnType(cfg) {
           if (op === '+' && a + b > d.sumMax) continue;
           const carries = op === '+' ? hasCarry(a, b) : hasBorrow(a, b);
           if (regroup !== carries) continue;
+          // nt20-VAR d.acrossZero: subtraction page where the minuend carries
+          // a 0 in the tens place (302 − 158 class) — the hardest borrow;
+          // additive-only, undefined = current behavior
+          if (d.acrossZero && !(op === '-' && a >= 100 && Math.floor(a / 10) % 10 === 0 && hasBorrow(a, b))) continue;
           if (used.has(`${a}${op}${b}`)) continue;
           ok = true;
         }

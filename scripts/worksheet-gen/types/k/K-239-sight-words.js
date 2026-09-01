@@ -39,7 +39,22 @@ module.exports = {
       // refuse-don't-guess: a locale without an authored native list cannot ship
       throw new Error(`K-239: no sight-word list for locale ${loc}`);
     }
-    const words = rng.sample(list, d.words);
+    // nt20-VAR: `slice` = deterministic word-set window (set N covers indices
+    // 4N..4N+words-1) so each variation page owns a stable, distinct word set;
+    // base path (no slice) keeps the seeded sample. Refuse when the pool is
+    // too short for the requested window — never repeat another set's words.
+    let words;
+    if (d.slice != null) {
+      const start = d.slice * 4;
+      if (list.length < start + d.words) {
+        throw new Error(`K-239: locale ${loc} pool ${list.length} words < set ${d.slice} window end ${start + d.words}`);
+      }
+      words = list.slice(start, start + d.words);
+    } else {
+      // base page samples the ORIGINAL 12-word core — frozen so growing the
+      // pool for the set pages never changes the published base deck's draw
+      words = rng.sample(list.slice(0, 12), d.words);
+    }
     const laneW = 660;
     const lanes = words.map((word) => {
       const lane = glyphLane({ text: word, w: laneW, h: d.traceH, glyphH: d.glyphH, reps: d.reps, font: tokens.font.body });

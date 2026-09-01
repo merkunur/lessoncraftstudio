@@ -101,6 +101,45 @@ function mountains({ w, cy, amp, n }) {
   return { d, startAngle: -70 };
 }
 
+/** Inward-winding spirals (Schwungübungen Spiralen). Semicircle arcs of
+ * shrinking radius chained on the center line; pencil lifts between spirals
+ * (subpath M jumps) are intentional — each spiral is its own little journey. */
+function spiral({ w, cy, amp, n }) {
+  const k = Math.max(2, Math.round((n || 4) / 2)); // spirals across the lane
+  const cellW = w / k;
+  const r0 = Math.min(amp * 1.15, cellW * 0.42);
+  const q = 0.55; // radius shrink per half-turn
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const cx = (i + 0.5) * cellW;
+    const r = [r0, r0 * q, r0 * q * q, r0 * q * q * q];
+    // alternating semicircles sharing endpoints on the center line, winding in:
+    // (cx-r0)→(cx+r0) over the top, →(cx-r1) under, →(cx+r2) over, →(cx-r3) under
+    const px = [cx - r[0], cx + r[0], cx - r[1], cx + r[2], cx - r[3]];
+    d += `${d ? ' ' : ''}M ${px[0].toFixed(1)} ${cy}`;
+    for (let a = 0; a < 4; a++) {
+      const radius = Math.abs(px[a + 1] - px[a]) / 2;
+      d += ` A ${radius.toFixed(1)} ${radius.toFixed(1)} 0 0 1 ${px[a + 1].toFixed(1)} ${cy}`;
+    }
+  }
+  return { d, startAngle: -90 };
+}
+
+/** Lying eights (liegende Acht / infinity loops) marching across the lane. */
+function eight({ w, cy, amp, n }) {
+  const k = Math.max(2, Math.round((n || 4) / 2));
+  const cellW = w / k;
+  const rx = cellW * 0.46;
+  let d = '';
+  for (let i = 0; i < k; i++) {
+    const cx = (i + 0.5) * cellW;
+    d += `${d ? ' ' : ''}M ${cx.toFixed(1)} ${cy}` +
+      ` C ${(cx + rx).toFixed(1)} ${(cy - amp * 1.5).toFixed(1)} ${(cx + rx).toFixed(1)} ${(cy + amp * 1.5).toFixed(1)} ${cx.toFixed(1)} ${cy}` +
+      ` C ${(cx - rx).toFixed(1)} ${(cy - amp * 1.5).toFixed(1)} ${(cx - rx).toFixed(1)} ${(cy + amp * 1.5).toFixed(1)} ${cx.toFixed(1)} ${cy}`;
+  }
+  return { d, startAngle: -50 };
+}
+
 /** The stroke library keyed by difficulty progression. */
 const STROKES = {
   line: straight,
@@ -111,6 +150,8 @@ const STROKES = {
   mountains,
   castle,
   loops,
+  spiral,
+  eight,
 };
 
 /* ------------------------------------------------------------------ *
@@ -170,9 +211,12 @@ function strokeLane({ stroke, w, h, reps = 4, amp, n }) {
   const segW = w / reps;
   const innerW = segW - 14;
   const a = amp || Math.min(h * 0.28, 26);
+  // loops need room for the curl — more than 3 per ~130px segment squashes
+  // the arcs into illegible spikes (seen at the K-246 render review)
+  const nEff = stroke === 'loops' ? Math.min(3, n || 4) : (n || 4);
   const parts = [];
   for (let i = 0; i < reps; i++) {
-    const { d, startAngle } = gen({ w: innerW, cy, amp: a, n: n || 4 });
+    const { d, startAngle } = gen({ w: innerW, cy, amp: a, n: nEff });
     const mode = i === 0 ? 'model' : 'trace';
     // find path start point: all generators start at x=0 with a known y —
     // parse it from the d string's "M x y".
@@ -253,7 +297,7 @@ function glyphLane({ text, w, h, glyphH, reps = 3, lines: withLines = true, mode
  * start dot + arrowhead per stroke (and small order badges when >1 stroke).
  * { strokes, box:{w,h}, w, h, glyphH, reps } → { svg }
  */
-function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl }) {
+function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl, emptyLast = false }) {
   const scale = glyphH / box.h;
   const gW = box.w * scale;
   // compact lanes (10-digit ladder) keep only the start dot — full arrows +
@@ -264,6 +308,9 @@ function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl }) {
   const parts = [schoolLines({ w, yTop, yBase })];
   const segW = w / reps;
   for (let i = 0; i < reps; i++) {
+    // emptyLast: the final slot stays BLANK on the school lines — the honest
+    // "now write it yourself" spot (glyphLane convention, nt20-VAR K-251)
+    if (emptyLast && i === reps - 1) continue;
     const isModel = i === 0;
     const showGuides = i === 1; // start dot (+ arrows when large) on the first trace rep
     const gx = (i + 0.5) * segW - gW / 2;
@@ -293,7 +340,52 @@ function strokeGlyphLane({ strokes, box, w, h, glyphH, reps = 4, label: lbl }) {
   }
   return {
     svg: svgRoot({ width: w, height: h, label: lbl || 'trace glyph' }, parts.join(''),
-      { 'data-lcs-prim': 'trace-digit', 'data-lcs-reps': reps, 'data-lcs-strokes': strokes.length }),
+      { 'data-lcs-prim': 'trace-digit', 'data-lcs-reps': emptyLast ? reps - 1 : reps,
+        'data-lcs-strokes': strokes.length,
+        ...(emptyLast ? { 'data-lcs-empty-slot': '1' } : {}) }),
+    width: w, height: h,
+  };
+}
+
+/**
+ * Two-glyph stroke lane for multi-digit numbers (10-20): each repetition
+ * renders TWO hand-authored stroke glyphs side by side (tens then ones) on
+ * shared school lines. Same model/trace/guide conventions as strokeGlyphLane;
+ * guides (start dot + arrow) appear on both digits of the first trace rep at
+ * the compact scale (no order badges — pair lanes are always compact).
+ * { tens, ones, box, w, h, glyphH, reps, label } → { svg }
+ */
+function strokeGlyphPairLane({ tens, ones, box, w, h, glyphH, reps = 4, label: lbl }) {
+  const scale = glyphH / box.h;
+  const gW = box.w * scale;
+  const gap = Math.max(6, glyphH * 0.12);
+  const pairW = gW * 2 + gap;
+  const yBase = h * 0.86;
+  const yTop = yBase - glyphH;
+  const parts = [schoolLines({ w, yTop, yBase })];
+  const segW = w / reps;
+  const inv = 1 / scale;
+  const drawGlyph = (strokes, isModel, showGuides) => strokes.map((s) => {
+    const m = s.d.match(/^M\s*([\d.-]+)\s+([\d.-]+)/);
+    return renderPath({
+      d: s.d, mode: isModel ? 'model' : 'trace', strokeW: 3.4 * inv,
+      startX: parseFloat(m[1]), startY: parseFloat(m[2]), startAngle: s.angle,
+      dot: showGuides, arrow: showGuides, guideScale: inv * 0.72, dashScale: inv,
+    });
+  }).join('');
+  for (let i = 0; i < reps; i++) {
+    const isModel = i === 0;
+    const showGuides = i === 1;
+    const x0 = (i + 0.5) * segW - pairW / 2;
+    parts.push(el('g', { transform: `translate(${x0.toFixed(1)} ${yTop.toFixed(1)}) scale(${scale.toFixed(4)})` },
+      drawGlyph(tens, isModel, showGuides)));
+    parts.push(el('g', { transform: `translate(${(x0 + gW + gap).toFixed(1)} ${yTop.toFixed(1)}) scale(${scale.toFixed(4)})` },
+      drawGlyph(ones, isModel, showGuides)));
+  }
+  return {
+    svg: svgRoot({ width: w, height: h, label: lbl || 'trace number' }, parts.join(''),
+      { 'data-lcs-prim': 'trace-digit-pair', 'data-lcs-reps': reps,
+        'data-lcs-strokes': tens.length + ones.length }),
     width: w, height: h,
   };
 }
@@ -313,4 +405,4 @@ function escText(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, writingRow, schoolLines, renderPath, arrowHead };
+module.exports = { STROKES, strokeLane, glyphLane, strokeGlyphLane, strokeGlyphPairLane, writingRow, schoolLines, renderPath, arrowHead };

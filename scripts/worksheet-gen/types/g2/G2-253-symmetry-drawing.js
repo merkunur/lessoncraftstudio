@@ -45,15 +45,20 @@ module.exports = {
     const rng = ctx.rng;
     const loc = (locale || 'en').slice(0, 2);
     const names = FIGURE_NAMES[loc] || FIGURE_NAMES.en;
-    const ranked = FIGURES.map((f) => ({ f, n: answerCellsOf(f) })).sort((a, b) => a.n - b.n);
+    // band ranking is FROZEN to the original 16 figures (file order is
+    // append-only): the nt20-VAR additions are reachable only via d.figures,
+    // so growing the art pool can never change the published band pages
+    const ranked = FIGURES.slice(0, 16).map((f) => ({ f, n: answerCellsOf(f) })).sort((a, b) => a.n - b.n);
     let pool;
-    if (d.band === 'simple') pool = ranked.slice(0, 6).map((x) => x.f);
+    if (d.figures) pool = FIGURES.filter((f) => d.figures.includes(f.key)); // nt20-VAR: explicit figure allowlist
+    else if (d.band === 'simple') pool = ranked.slice(0, 6).map((x) => x.f);
     else if (d.band === 'hard') pool = ranked.slice(-8).map((x) => x.f);
     else pool = ranked.map((x) => x.f);
+    if (pool.length < d.cards) throw new Error(`G2-253: figure pool ${pool.length} < cards ${d.cards}`);
     const picks = rng.sample(pool, d.cards);
 
     const cards = picks.map((fig) => {
-      const g = symGrid({ figure: fig, cell: d.cell });
+      const g = symGrid({ figure: fig, cell: d.cell, axis: d.axis }); // nt20-VAR: axis 'h' = horizontal mirror page
       const name = names[fig.key] || FIGURE_NAMES.en[fig.key] || fig.key;
       return (
         `<div class="ws-card-stage" style="flex-direction:column;gap:10px">` +
@@ -73,7 +78,10 @@ module.exports = {
       const seen = new Set();
       grids.forEach((g, i) => {
         const W = +g.dataset.lcsCols;
+        const H = +g.dataset.lcsRows;
+        const horiz = g.dataset.lcsAxis === 'h'; // nt20-VAR horizontal-mirror page
         const givenCols = Math.ceil(W / 2);
+        const givenRows = Math.ceil(H / 2);
         const fig = g.dataset.lcsFigure;
         if (seen.has(fig)) fails.push(`grid ${i + 1}: duplicate figure ${fig}`);
         seen.add(fig);
@@ -84,13 +92,14 @@ module.exports = {
         // every answer cell's mirror twin must exist as a GIVEN cell
         answers.forEach((cell) => {
           const [c, r] = cell.split(',').map(Number);
-          if (c < givenCols) fails.push(`grid ${i + 1}: answer cell on the given side`);
-          if (!given.has(`${W - 1 - c},${r}`)) fails.push(`grid ${i + 1}: cell ${cell} has no mirror twin`);
+          if (horiz ? r < givenRows : c < givenCols) fails.push(`grid ${i + 1}: answer cell on the given side`);
+          const twin = horiz ? `${c},${H - 1 - r}` : `${W - 1 - c},${r}`;
+          if (!given.has(twin)) fails.push(`grid ${i + 1}: cell ${cell} has no mirror twin`);
         });
-        // and no given cell sits right of the mirror line
+        // and no given cell sits past the mirror line
         given.forEach((cell) => {
-          const [c] = cell.split(',').map(Number);
-          if (c >= givenCols) fails.push(`grid ${i + 1}: given cell right of the line`);
+          const [c, r] = cell.split(',').map(Number);
+          if (horiz ? r >= givenRows : c >= givenCols) fails.push(`grid ${i + 1}: given cell past the line`);
         });
         if (!g.querySelector('[data-lcs-mirror]')) fails.push(`grid ${i + 1}: no mirror line`);
       });

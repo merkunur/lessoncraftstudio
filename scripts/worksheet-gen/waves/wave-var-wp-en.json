@@ -1,0 +1,20 @@
+{
+  "id": "wave-var-wp-en",
+  "seedEpoch": 1,
+  "locales": [
+    "en"
+  ],
+  "themes": [
+    "fruits"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G1-238",
+    "G1-239",
+    "G1-240",
+    "G1-241"
+  ]
+}

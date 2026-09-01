@@ -23,7 +23,15 @@ const FIGURE_NAMES = {
     "apple": "Apple",
     "diamond": "Diamond",
     "ice-cream": "Ice cream",
-    "snowman": "Snowman"
+    "snowman": "Snowman",
+    "tulip": "Tulip",
+    "sailboat": "Sailboat",
+    "sun": "Sun",
+    "crab": "Crab",
+    "cactus": "Cactus",
+    "ladybug": "Ladybug",
+    "owl": "Owl",
+    "umbrella": "Umbrella"
   },
   "de": {
     "heart": "Herz",

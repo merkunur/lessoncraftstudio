@@ -1,0 +1,18 @@
+{
+  "id": "wave-var-fan264-pt",
+  "seedEpoch": 1,
+  "locales": [
+    "pt"
+  ],
+  "themes": [
+    "animals",
+    "vehicles"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-264"
+  ]
+}

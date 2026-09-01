@@ -1,0 +1,19 @@
+{
+  "id": "wave-var-fan240-it",
+  "seedEpoch": 1,
+  "locales": [
+    "it"
+  ],
+  "themes": [
+    "vehicles",
+    "fruits",
+    "toys"
+  ],
+  "themesPerType": 3,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-240"
+  ]
+}

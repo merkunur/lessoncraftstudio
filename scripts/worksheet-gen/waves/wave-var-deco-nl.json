@@ -1,0 +1,27 @@
+{
+  "id": "wave-var-deco-nl",
+  "seedEpoch": 1,
+  "locales": [
+    "nl"
+  ],
+  "themes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "K-244",
+    "K-245",
+    "K-246",
+    "K-247",
+    "K-248",
+    "K-270",
+    "K-271",
+    "K-272"
+  ]
+}

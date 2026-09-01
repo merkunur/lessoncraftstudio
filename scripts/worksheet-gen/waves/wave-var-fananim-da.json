@@ -1,0 +1,18 @@
+{
+  "id": "wave-var-fananim-da",
+  "seedEpoch": 1,
+  "locales": [
+    "da"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "types": [
+    "G1-213",
+    "G2-252"
+  ]
+}

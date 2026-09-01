@@ -129605,6 +129605,848 @@
    ],
    "title": "Arbeidsark tallfølger 4. trinn – tallmaskiner og regelen | skrive ut gratis (PDF)",
    "metaDescription": "Gratis arbeidsark med tallfølger for 4. trinn: fortsett store sprang, løs tallmaskiner med inn og ut, finn regelen og tell baklengs. Skrive ut som PDF."
+  },
+  {
+   "slug": "skriveforberedende-ovelser",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Skriveforberedende oppgaveark",
+   "h1": "Skriveforberedende øvelser: blyantløyper med løkker, bølger og sikksakk",
+   "strand": "Finmotorikk og blyantgrep",
+   "slotTokens": [
+    "skriveforberedende-ovelser",
+    "dyr",
+    "1-trinn"
+   ],
+   "p1": "På dette skriveforberedende arket får barnet en side full av blyantløyper: løkker, bølger og sikksakklinjer. Hver løype starter på en oransje prikk, og en liten pil viser retningen. Ved enden av hver bane venter et vennlig dyr, så barnet «henter» katten, anda eller kaninen med blyanten. Barnet setter blyantspissen på prikken, følger linjen rolig helt frem til dyret, og kjenner at hånden styrer streken litt sikrere for hver bane som blir ferdig.",
+   "p2": "Løkker, bølger og sikksakklinjer er ikke tilfeldig valgt. Det er akkurat disse bevegelsene hånden trenger senere, når bokstavene skal formes: den runde løkka i e og l, bølgen i m og n, den skarpe vendingen i k og v. Å spore lange baner trener blyantgrepet, styrker de små musklene i hånden og lærer barnet å arbeide fra venstre mot høyre. For barn i førskolealder og rundt skolestart er dette den tryggeste veien inn i skriving, helt uten krav om å kunne en eneste bokstav.",
+   "p3": "Arket kan lastes ned gratis som PDF og skrives ut så mange ganger dere vil, hjemme eller i klasserommet. Når blyantløypene sitter, er neste naturlige steg å spore tallene fra 0 til 9 med startprikk og piler, eller å prøve arket med store bokstaver på skrivelinjer. Da får de samme trygge strøkene plutselig navn og mening.",
+   "canonicalDeckSlug": "skriveforberedende-ovelser-dyr-k236",
+   "carousel": [
+    {
+     "label": "Spor tallene fra 0 til 9 – med startprikk og piler",
+     "href": "spore-tall-0-til-9"
+    },
+    {
+     "label": "Spor de store bokstavene på skrivelinjer",
+     "href": "spore-store-bokstaver"
+    },
+    {
+     "label": "Høyfrekvente ord: les, spor og skriv",
+     "href": "hoyfrekvente-ord"
+    },
+    {
+     "label": "Klipp, sorter og lim – sorteringsark med saks og lim",
+     "href": "klipp-og-lim-sortering"
+    }
+   ],
+   "title": "Skriveforberedende øvelser – blyantløyper | utskrift PDF gratis",
+   "metaDescription": "Skriveforberedende oppgaveark med blyantløyper: løkker, bølger og sikksakk. Trener blyantgrep og finmotorikk før skolestart. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "spore-tall-0-til-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Sporingsark for tall",
+   "h1": "Spor tallene fra 0 til 9 – med startprikk og piler",
+   "strand": "Tallforming og finmotorikk",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "tallskriving",
+    "1-trinn"
+   ],
+   "p1": "På dette arket øver barnet på å skrive alle tallene fra 0 til 9. Hvert tall står først som en tydelig, hel modell på skrivelinjen, og etter den kommer en rad med stiplede utgaver som skal spores. Den oransje startprikken viser hvor blyanten skal settes ned, og små piler viser hvilken vei streken skal gå. Barnet sporer tall etter tall, og hver rad ender med at tallet sitter litt bedre i hånden enn i raden før.",
+   "p2": "Riktig tallforming fra starten av sparer barnet for mye strev senere. Et barn som lærer å begynne på toppen og følge pilene, slipper å avlære vaner som gjør skrivingen langsom, og unngår lettere de klassiske speilvendingene av 3, 5 og 9. Skrivelinjene gir tallene riktig høyde og plassering, og den jevne gjentakelsen bygger det bevegelsesminnet som gjør at tallene etter hvert kommer helt av seg selv. Det er en rolig og overkommelig oppgave for barn rundt skolestart og på 1. trinn.",
+   "p3": "Arket er gratis og skrives ut som PDF, så det er lett å ta en ny runde neste uke. Hvis barnet fortsatt famler litt med blyanten, er blyantløypene med løkker og bølger et fint sted å varme opp. Og når tallene sitter, ligger tiervenner-arket klart, der de nyskrevne tallene faktisk brukes til å regne med.",
+   "canonicalDeckSlug": "tallskriving-k237",
+   "carousel": [
+    {
+     "label": "Spor de store bokstavene på skrivelinjer",
+     "href": "spore-store-bokstaver"
+    },
+    {
+     "label": "Høyfrekvente ord: les, spor og skriv",
+     "href": "hoyfrekvente-ord"
+    },
+    {
+     "label": "Klipp, sorter og lim – sorteringsark med saks og lim",
+     "href": "klipp-og-lim-sortering"
+    },
+    {
+     "label": "Regn og fargelegg: små regnestykker med fargekode",
+     "href": "regn-og-fargelegg"
+    }
+   ],
+   "title": "Spore tallene 0–9 – oppgaveark | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark der barnet sporer tallene 0–9 på skrivelinjer: tydelig modell, startprikk og piler viser riktig tallforming. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "spore-store-bokstaver",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Sporingsark for bokstaver",
+   "h1": "Spor de store bokstavene på skrivelinjer",
+   "strand": "Bokstavforming og håndskrift",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "bokstavskriving",
+    "1-trinn"
+   ],
+   "p1": "Dette arket lar barnet arbeide grundig med seks store bokstaver. Hver bokstav står på sin egen skrivelinje: først en hel modellbokstav, deretter stiplede utgaver som skal spores med blyant. Startprikken og pilene viser hvor strøket begynner og hvilken vei det går. Helt til slutt på hver linje er det en tom plass, og der skriver barnet bokstaven helt på egen hånd – uten stipling, bare med linjen som støtte.",
+   "p2": "Nettopp den siste, tomme plassen er det viktigste på arket. Å spore bygger bokstavminnet og gir hånden de trygge strøkene, men det er i spranget fra sporing til selvstendig skriving at bokstaven virkelig blir barnets egen. De store bokstavene er det naturlige startpunktet i begynneropplæringen: de er enklere i formen enn de små, og de gir raskt mestringsfølelse. Jevn, rolig øving på riktig bokstavforming legger grunnlaget for en leselig og uanstrengt håndskrift gjennom hele skoleløpet.",
+   "p3": "Last ned arket gratis som PDF og skriv det ut når dere trenger en ny økt. Barn som trenger mer støtte for hånden, kan gå en runde med de skriveforberedende blyantløypene først. Og når bokstavene begynner å sitte, er arket med høyfrekvente ord et fint neste steg – der blir de samme bokstavene til ekte ord som barnet kan lese og skrive.",
+   "canonicalDeckSlug": "bokstavskriving-k238",
+   "carousel": [
+    {
+     "label": "Høyfrekvente ord: les, spor og skriv",
+     "href": "hoyfrekvente-ord"
+    },
+    {
+     "label": "Klipp, sorter og lim – sorteringsark med saks og lim",
+     "href": "klipp-og-lim-sortering"
+    },
+    {
+     "label": "Regn og fargelegg: små regnestykker med fargekode",
+     "href": "regn-og-fargelegg"
+    },
+    {
+     "label": "Labyrint for barn: finn veien fra start til mål",
+     "href": "labyrinter-for-barn"
+    }
+   ],
+   "title": "Spore store bokstaver – skrivelinjer | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark der barnet sporer seks store bokstaver på skrivelinjer og til slutt skriver en helt selv. Trygg bokstavforming. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "hoyfrekvente-ord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Oppgaveark med høyfrekvente ord",
+   "h1": "Høyfrekvente ord: les, spor og skriv",
+   "strand": "Begynneropplæring i lesing",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "hoyfrekvente-ord",
+    "1-trinn"
+   ],
+   "p1": "På dette arket møter barnet fire av de vanligste ordene i norsk – ord som dukker opp i nesten hver eneste setning i de første lesebøkene. Hvert ord øves i tre steg på sin egen rad: først leser barnet ordet høyt, så sporer det den stiplede utgaven med blyant, og til slutt skriver det ordet helt selv på den tomme skrivelinjen. Les, spor, skriv – samme trygge rytme fire ganger.",
+   "p2": "Høyfrekvente ord er limet i språket, og mange av dem følger ikke helt lydrette mønstre. Derfor lønner det seg at barnet lærer å kjenne dem igjen på et blunk, som hele ordbilder. Når de vanligste ordene leses automatisk, frigjøres kreftene til det lesing egentlig handler om: å forstå innholdet. Trestegsmetoden kobler øye, munn og hånd sammen, og nettopp den kombinasjonen gjør at ordene fester seg. Ti minutter med et slikt ark gir tydelig igjen i den første leseopplæringen på 1. trinn.",
+   "p3": "Arket kan skrives ut gratis som PDF, gjerne i flere eksemplarer så ordene kan øves flere dager på rad. Trenger barnet mer støtte i selve skrivingen, passer arket der de store bokstavene spores på skrivelinjer godt ved siden av. Og som en rolig belønning etterpå er en labyrint alltid populær – blyantkontroll er det uansett god bruk for.",
+   "canonicalDeckSlug": "hoyfrekvente-ord-k239",
+   "carousel": [
+    {
+     "label": "Klipp, sorter og lim – sorteringsark med saks og lim",
+     "href": "klipp-og-lim-sortering"
+    },
+    {
+     "label": "Regn og fargelegg: små regnestykker med fargekode",
+     "href": "regn-og-fargelegg"
+    },
+    {
+     "label": "Labyrint for barn: finn veien fra start til mål",
+     "href": "labyrinter-for-barn"
+    },
+    {
+     "label": "Tiervenner: hele og deler opp til 10",
+     "href": "tiervenner"
+    }
+   ],
+   "title": "Høyfrekvente ord – les, spor og skriv | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med fire høyfrekvente ord: barnet leser ordet, sporer det og skriver det selv på tom linje. For lesestart på 1. trinn. Gratis PDF."
+  },
+  {
+   "slug": "klipp-og-lim-sortering",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Klipp-og-lim-oppgaveark",
+   "h1": "Klipp, sorter og lim – sorteringsark med saks og lim",
+   "strand": "Finmotorikk og sortering",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "klipp-og-lim",
+    "dyr",
+    "1-trinn"
+   ],
+   "p1": "Nederst på dette arket ligger en stripe med bilder av dyr som skal klippes ut. Barnet klipper langs linjene, ser nøye på hvert dyr og finner ut hvor det hører hjemme. Øverst står merkede bokser, og hvert utklippede bilde limes i den boksen det passer i. Klippe, sortere, lime – tre konkrete arbeidsoppgaver på ett og samme ark, med et ferdig, litt stolt resultat til slutt.",
+   "p2": "Her trenes to ting samtidig, og begge er viktigere enn de ser ut. Sakseklipping er en av de beste finmotoriske øvelsene som finnes: den krever at begge hender samarbeider, at grepet doseres og at øynene styrer nøyaktig. Og sorteringen er tidlig klassifiseringstenkning – å se hva som hører sammen og hvorfor er en tankemåte barna bruker igjen i matematikk, naturfag og lesing. At oppgaven ender med lim og et ferdig ark, gjør at også de mest rastløse gjerne blir sittende til alt er på plass.",
+   "p3": "Arket lastes ned gratis som PDF – skriv det gjerne ut på litt tykt papir, så blir klippingen enklere. Barn som liker å arbeide med hendene, vil også trives med de skriveforberedende blyantløypene, som trener den samme hånden med blyant i stedet for saks. Og når sorteringen frister til mer tenkning, står regn-og-fargelegg-arket klart med små regnestykker gjemt i figurer som skal fargelegges.",
+   "canonicalDeckSlug": "klipp-og-lim-dyr-k240",
+   "carousel": [
+    {
+     "label": "Regn og fargelegg: små regnestykker med fargekode",
+     "href": "regn-og-fargelegg"
+    },
+    {
+     "label": "Labyrint for barn: finn veien fra start til mål",
+     "href": "labyrinter-for-barn"
+    },
+    {
+     "label": "Tiervenner: hele og deler opp til 10",
+     "href": "tiervenner"
+    },
+    {
+     "label": "Hoderegning til 20: pluss og minus i hodet",
+     "href": "hoderegning-til-20"
+    }
+   ],
+   "title": "Klipp og lim – sorteringsark | utskrift PDF gratis",
+   "metaDescription": "Klipp-og-lim-ark: barnet klipper ut dyrebilder, sorterer dem og limer hvert bilde i riktig boks. Saksetrening og sortering. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "regn-og-fargelegg",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Regn-og-fargelegg-oppgaveark",
+   "h1": "Regn og fargelegg: små regnestykker med fargekode",
+   "strand": "Tall og regning",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "fargelegg-etter-tall",
+    "1-trinn"
+   ],
+   "p1": "Dette arket gjemmer tolv små regnestykker inne i tolv figurer med tydelige omriss. Øverst står fargekoden: hvert tall hører til et fargeord. Barnet regner ut stykket i en figur, finner svaret i koden, og fargelegger figuren med akkurat den fargen. Etter hvert som stykke etter stykke løses, fylles hele arket med farge – og til slutt sitter barnet igjen med et ferdig bilde det selv har regnet seg frem til.",
+   "p2": "Det fine med regn-og-fargelegg er at regningen får en umiddelbar mening. Barnet regner ikke for å fylle en rute, men for å finne ut hvilken farge figuren skal ha – og fargeleggingen blir en naturlig kontroll, for et galt svar gir fort en farge som ikke stemmer med resten. Samtidig øves lesingen av fargeordene i koden, så arket binder sammen tidlig regning og tidlig lesing i én og samme oppgave. Konsentrasjonen som trengs for å fullføre hele bildet, er verdifull trening i seg selv.",
+   "p3": "Arket er gratis som PDF og klart til utskrift – fargeblyanter er alt som trengs i tillegg. Barn som vil ha mer av denne typen rolig presisjonsarbeid, vil like symmetriarket der et rutebilde skal speiles ferdig. Og når regnelysten er vekket, er tiervenner-arket et naturlig neste steg med litt mer matematikk i.",
+   "canonicalDeckSlug": "fargelegg-etter-tall-k241",
+   "carousel": [
+    {
+     "label": "Labyrint for barn: finn veien fra start til mål",
+     "href": "labyrinter-for-barn"
+    },
+    {
+     "label": "Tiervenner: hele og deler opp til 10",
+     "href": "tiervenner"
+    },
+    {
+     "label": "Hoderegning til 20: pluss og minus i hodet",
+     "href": "hoderegning-til-20"
+    },
+    {
+     "label": "Regnefamilier: fire regnestykker som hører sammen",
+     "href": "regnefamilier"
+    }
+   ],
+   "title": "Regn og fargelegg – oppgaveark | utskrift PDF gratis",
+   "metaDescription": "Regn og fargelegg: tolv figurer med små regnestykker og fargekode – svaret bestemmer fargen. Regnetrening for 1. trinn. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "labyrinter-for-barn",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Labyrint-oppgaveark",
+   "h1": "Labyrint for barn: finn veien fra start til mål",
+   "strand": "Visuell planlegging og finmotorikk",
+   "slotTokens": [
+    "labyrinter",
+    "leker",
+    "1-trinn"
+   ],
+   "p1": "Én stor labyrint fyller hele dette arket. Øverst ved inngangen venter en liten figur fra lekekassen – arket har leker som tema – og helt nederst ligger målet. Barnet starter øverst, lar blikket løpe i forveien for å speide etter åpninger og blindveier, og tegner så veien gjennom gangene med blyant, helt frem til mål. Går det i stå, er det bare å følge streken tilbake og prøve en annen vei.",
+   "p2": "En labyrint ser ut som ren lek, men den trener tre ting lærere setter høyt. Øyet må planlegge: se fremover, sammenligne veivalg og holde oversikt. Hånden må styre: blyanten skal holde seg i gangen uten å krysse strekene, og det er presis finmotorisk trening. Og hodet må tåle å ta feil: en blindvei er ikke et nederlag, bare et signal om å prøve igjen. Den kombinasjonen av planlegging, blyantkontroll og utholdenhet er akkurat det barn rundt skolestart trenger å samle på.",
+   "p3": "Arket kan skrives ut gratis som PDF, og siden ingen labyrint er morsom mer enn én gang, er det lett å hente et nytt eksemplar. Barn som liker å styre blyanten presist, får god nytte av de skriveforberedende blyantløypene også. Og for den som vil kombinere nøyaktighet med farger, er regn-og-fargelegg-arket en fin fortsettelse.",
+   "canonicalDeckSlug": "labyrinter-leker-k242",
+   "carousel": [
+    {
+     "label": "Tiervenner: hele og deler opp til 10",
+     "href": "tiervenner"
+    },
+    {
+     "label": "Hoderegning til 20: pluss og minus i hodet",
+     "href": "hoderegning-til-20"
+    },
+    {
+     "label": "Regnefamilier: fire regnestykker som hører sammen",
+     "href": "regnefamilier"
+    },
+    {
+     "label": "Tallord: koble tallet til riktig ord",
+     "href": "tallord"
+    }
+   ],
+   "title": "Labyrinter for barn – oppgaveark | utskrift PDF gratis",
+   "metaDescription": "Labyrint-ark for barn: én stor labyrint med leketøysfigur ved start og mål nederst. Trener visuell planlegging og blyantkontroll. Gratis PDF."
+  },
+  {
+   "slug": "tiervenner",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "1-trinn"
+   },
+   "eyebrow": "Tiervenner-oppgaveark",
+   "h1": "Tiervenner: hele og deler opp til 10",
+   "strand": "Tall og tallforståelse",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "tiervenner",
+    "1-trinn"
+   ],
+   "p1": "På dette arket møter barnet seks hele-og-deler-diagrammer, alle med 10 som det hele. I hvert diagram er to av sirklene fylt ut, mens den stiplede sirkelen står tom. Barnets jobb er å finne tiervennen: hvilket tall mangler for at delene til sammen skal bli 10? Er 6 på plass, må 4 inn i den tomme sirkelen. Slik arbeider barnet seg gjennom diagram etter diagram og skriver tallet som mangler.",
+   "p2": "Tiervennene er noe av det mest verdifulle et barn lærer i den første matematikken. Parene som til sammen blir 10 – 1 og 9, 2 og 8, 3 og 7 – er selve grunnmuren under hoderegningen: den som kan tiervennene sine, kan senere regne 8 + 5 ved å fylle opp til 10 først. Hele-og-deler-diagrammet gjør dette synlig; barnet ser at et tall kan deles opp, og at delene hører sammen med det hele. Det er tallforståelse, ikke pugg.",
+   "p3": "Arket lastes ned gratis som PDF og tåler godt å bli skrevet ut flere ganger utover året. Mange lærere bruker det som en fast liten oppvarming i starten av mattetimen. Når tiervennene begynner å sitte, er hoderegningsarket med pluss og minus til 20 den naturlige fortsettelsen – der får tiervennene virkelig jobbe. Regnefamilie-arket med de fire regnestykkene som hører sammen, bygger videre på akkurat samme tenkning.",
+   "canonicalDeckSlug": "tiervenner-k243",
+   "carousel": [
+    {
+     "label": "Hoderegning til 20: pluss og minus i hodet",
+     "href": "hoderegning-til-20"
+    },
+    {
+     "label": "Regnefamilier: fire regnestykker som hører sammen",
+     "href": "regnefamilier"
+    },
+    {
+     "label": "Tallord: koble tallet til riktig ord",
+     "href": "tallord"
+    },
+    {
+     "label": "Regne med penger: tell myntene i pungen",
+     "href": "regne-med-penger"
+    }
+   ],
+   "title": "Tiervenner – oppgaveark til 10 | utskrift PDF gratis",
+   "metaDescription": "Tiervenner-ark med seks hele-og-deler-diagrammer: én sirkel er tom, og barnet skriver tallet som mangler til 10. For 1. trinn. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "hoderegning-til-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Hoderegnings-oppgaveark",
+   "h1": "Hoderegning til 20: pluss og minus i hodet",
+   "strand": "Tall og regning",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "hoderegning",
+    "2-trinn"
+   ],
+   "p1": "Dette arket gir barnet tolv blandede regnestykker med addisjon og subtraksjon innenfor 20. Oppgaven er enkel og tydelig: regn ut hvert stykke i hodet, og skriv tallet som mangler i ruten. Ingen tegninger å telle på og ingen oppstilling å støtte seg til – bare tallene og barnets egne strategier. Tolv stykker er passe mengde for en konsentrert økt: nok til å komme i flyt, ikke så mye at det blir tungt.",
+   "p2": "Regneflyt innenfor 20 er en av de viktigste byggesteinene på 2. trinn. Når pluss og minus i dette tallområdet går raskt og sikkert, frigjøres tankekraften til alt som kommer etterpå: større tall, oppstilte metoder og problemløsing. God hoderegning handler ikke om å huske alle svar utenat, men om smarte veier – å bruke tiervennene, fylle opp til 10 og se sammenhengen mellom pluss og minus. Et kort ark som dette, brukt jevnlig, bygger nettopp den sikkerheten.",
+   "p3": "Arket er gratis som PDF og fint å skrive ut som en fast liten rutine, for eksempel en gang i uka. Hvis noen stykker butter, går veien gjerne om tiervenner-arket, der oppdelingen av 10 trenes helt konkret. Og når flyten sitter, er regnefortellingene med bilder et fint neste steg – der brukes den samme regningen på små fortellinger fra virkeligheten.",
+   "canonicalDeckSlug": "hoderegning-g1208",
+   "carousel": [
+    {
+     "label": "Regnefamilier: fire regnestykker som hører sammen",
+     "href": "regnefamilier"
+    },
+    {
+     "label": "Tallord: koble tallet til riktig ord",
+     "href": "tallord"
+    },
+    {
+     "label": "Regne med penger: tell myntene i pungen",
+     "href": "regne-med-penger"
+    },
+    {
+     "label": "Lære klokka: tegn viserne selv",
+     "href": "laere-klokka"
+    }
+   ],
+   "title": "Hoderegning til 20 – pluss og minus | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med tolv blandede pluss- og minusstykker opp til 20 som barnet regner ut i hodet. Bygger regneflyt på 2. trinn. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "regnefamilier",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Regnefamilie-oppgaveark",
+   "h1": "Regnefamilier: fire regnestykker som hører sammen",
+   "strand": "Tall og regning",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "regnefamilier",
+    "2-trinn"
+   ],
+   "p1": "På dette arket står fire små hus med trekantede tak. På hvert tak bor tre tall som hører sammen – for eksempel 3, 5 og 8. Inne i huset venter fire regnelinjer, og barnets jobb er å fullføre hele familien: 3 + 5 = 8, 5 + 3 = 8, 8 − 5 = 3 og 8 − 3 = 5. Fire hus gir fire familier, og for hvert hus blir mønsteret tydeligere: de samme tre tallene rommer alle fire stykkene.",
+   "p2": "Regnefamiliene viser barnet noe av det viktigste i tidlig matematikk: at addisjon og subtraksjon er to sider av samme sak. Den som ser at 8 − 5 bare er spørsmålet «5 pluss hva blir 8?», trenger aldri å grue seg for minus. Denne sammenhengen gjør også at ett innlært faktum plutselig gir fire – kan du 3 + 5, kan du egentlig hele familien. Det er en effektiv snarvei til regneflyt, og en tankemåte barnet får bruk for langt opp i skoleårene.",
+   "p3": "Arket kan skrives ut gratis som PDF og passer fint både til felles gjennomgang og selvstendig arbeid på 2. trinn. Hoderegningsarket til 20 er den naturlige treningspartneren, der familiene brukes i fart. Og for den som vil se hvor tallparene kommer fra, ligger grunnlaget i tiervenner-arket med hele og deler.",
+   "canonicalDeckSlug": "regnefamilier-g1209",
+   "carousel": [
+    {
+     "label": "Tallord: koble tallet til riktig ord",
+     "href": "tallord"
+    },
+    {
+     "label": "Regne med penger: tell myntene i pungen",
+     "href": "regne-med-penger"
+    },
+    {
+     "label": "Lære klokka: tegn viserne selv",
+     "href": "laere-klokka"
+    },
+    {
+     "label": "Regnefortellinger med bilder: les, regn og svar",
+     "href": "regnefortellinger"
+    }
+   ],
+   "title": "Regnefamilier – pluss og minus til 20 | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med fire regnehus: tre tall på taket gir fire regnestykker som hører sammen. Viser sammenhengen mellom pluss og minus. Gratis PDF."
+  },
+  {
+   "slug": "tallord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Tallord-oppgaveark",
+   "h1": "Tallord: koble tallet til riktig ord",
+   "strand": "Tall og tallforståelse",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "tallord",
+    "2-trinn"
+   ],
+   "p1": "Dette arket kobler sammen tall og språk. Seks tall står i hver sin rute, og ved siden av hvert tall står tre skrevne tallord – bare ett av dem stemmer. Barnet leser tallet, leser de tre ordene nøye og setter ring rundt tallordet som passer. Alternativene ligner gjerne på hverandre, så det gjelder å lese helt til siste bokstav før ringen settes.",
+   "p2": "Å lese og skrive tallord er et lite felt der matematikk og norsk møtes, og det fortjener egen øving. Mange barn regner fint med sifre, men nøler når tallet står med bokstaver – og nettopp de lumske parene, som tretten og tretti, skaper klassiske misforståelser med ombyttede sifre. Når koblingen mellom tallsymbol og tallord sitter, leser barnet tekster med tall tryggere, skriver svar riktigere og får et sikrere grep om selve tallrekka. Ringoppgaven gjør øvingen overkommelig: all oppmerksomhet går til å lese nøyaktig.",
+   "p3": "Arket er gratis som PDF og raskt å skrive ut til en kort og fokusert økt på 2. trinn. Arket egner seg fint som stasjonsarbeid eller en kort lekse. Regnefortellingene med bilder er en fin fortsettelse, for der møter barnet tall midt inne i vanlige setninger. Og i myntarket får tallene verdi i kroner – enda en måte å lese og bruke tall på i praksis.",
+   "canonicalDeckSlug": "tallord-g1210",
+   "carousel": [
+    {
+     "label": "Regne med penger: tell myntene i pungen",
+     "href": "regne-med-penger"
+    },
+    {
+     "label": "Lære klokka: tegn viserne selv",
+     "href": "laere-klokka"
+    },
+    {
+     "label": "Regnefortellinger med bilder: les, regn og svar",
+     "href": "regnefortellinger"
+    },
+    {
+     "label": "Oppstilt addisjon og subtraksjon uten tierovergang",
+     "href": "oppstilt-addisjon-og-subtraksjon"
+    }
+   ],
+   "title": "Tallord – oppgaveark 2. trinn | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med seks tall: barnet leser tallet og setter ring rundt riktig tallord blant tre alternativer. Trener lesing av tallord. Gratis PDF."
+  },
+  {
+   "slug": "regne-med-penger",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Penge-oppgaveark",
+   "h1": "Regne med penger: tell myntene i pungen",
+   "strand": "Regning med penger",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "regne-med-penger",
+    "2-trinn"
+   ],
+   "p1": "På dette arket ligger seks pengepunger, hver med sin lille samling norske mynter – kronestykker, femmere, tiere og tjuekroninger om hverandre. Barnet teller myntene i pungen, gjerne ved å starte med de største verdiene først, og skriver totalbeløpet i ruten ved siden av. Seks punger gir seks små telleoppdrag, og hver pung har sin egen blanding, så ingen ruter kan fylles på autopilot.",
+   "p2": "Penger er noe av det mest motiverende tallstoffet som finnes, for barna vet at dette er ekte. Samtidig er myntene krevende på en lærerik måte: en mynt er ikke bare «én ting», men bærer en verdi, og å telle 10, 15, 16, 17 blander hopptelling og vanlig telling i samme regnestykke. Strategien med å sortere fra størst til minst verdi gir orden i tellingen og er samme tankegang som brukes i butikken. Slik bygges praktisk pengeforståelse – en hverdagsferdighet med mye god regning gjemt i seg.",
+   "p3": "Arket lastes ned gratis som PDF, og med ekte mynter fra lommeboka ved siden av blir økten enda mer konkret – tell på arket først, og legg beløpet med ordentlige mynter etterpå. Hoderegningsarket til 20 er god støtte når beløpene skal legges sammen raskt. Og klokkearket, der viserne skal tegnes på, er en fin makker – tid og penger er de to store hverdagstallene på 2. trinn.",
+   "canonicalDeckSlug": "regne-med-penger-g1211",
+   "carousel": [
+    {
+     "label": "Lære klokka: tegn viserne selv",
+     "href": "laere-klokka"
+    },
+    {
+     "label": "Regnefortellinger med bilder: les, regn og svar",
+     "href": "regnefortellinger"
+    },
+    {
+     "label": "Oppstilt addisjon og subtraksjon uten tierovergang",
+     "href": "oppstilt-addisjon-og-subtraksjon"
+    },
+    {
+     "label": "Litermål og skålvekt: les av milliliter og gram",
+     "href": "male-liter-og-gram"
+    }
+   ],
+   "title": "Regne med penger – telle mynter | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med seks pengepunger: barnet teller norske mynter og skriver totalbeløpet i kroner. Praktisk pengeforståelse for 2. trinn. Gratis PDF."
+  },
+  {
+   "slug": "laere-klokka",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Klokke-oppgaveark",
+   "h1": "Lære klokka: tegn viserne selv",
+   "strand": "Måling og tid",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "klokka",
+    "2-trinn"
+   ],
+   "p1": "Dette arket snur klokkeøvingen på hodet. I stedet for å lese av en ferdig klokke får barnet fire tomme urskiver, og ved hver av dem står klokkeslettet skrevet digitalt. Barnet leser tiden, finner ut hvor viserne skal peke, og tegner både timeviseren og minuttviseren selv – den korte til timen, den lange til minuttene. Fire skiver gir fire klokkeslett å bryne seg på.",
+   "p2": "Å tegne viserne selv krever dypere forståelse enn å lese av en klokke som allerede er stilt. Barnet må tenke gjennom hva hver viser betyr, huske at den korte og den lange har hver sin jobb, og oppdage det som forvirrer mange: at timeviseren ikke står stille på tallet, men kryper fremover mellom timene. Samtidig trenes oversettelsen mellom digital og analog tid – en ferdighet barna trenger daglig, i en verden der begge klokketypene lever side om side. Det er klokkeforståelse som sitter, fordi barnet selv har bygget den.",
+   "p3": "Arket er gratis som PDF og lett å skrive ut til både skole og kjøkkenbord – heng gjerne et ferdig utfylt ark ved siden av veggklokka hjemme. Klokka og myntene hører sammen som hverdagens to store tallområder, så pengearket med de seks pungene er en naturlig kompis. Og for den som vil ha mer å regne på, står hoderegningsarket til 20 klart etterpå.",
+   "canonicalDeckSlug": "klokka-g1212",
+   "carousel": [
+    {
+     "label": "Regnefortellinger med bilder: les, regn og svar",
+     "href": "regnefortellinger"
+    },
+    {
+     "label": "Oppstilt addisjon og subtraksjon uten tierovergang",
+     "href": "oppstilt-addisjon-og-subtraksjon"
+    },
+    {
+     "label": "Litermål og skålvekt: les av milliliter og gram",
+     "href": "male-liter-og-gram"
+    },
+    {
+     "label": "Symmetri: fullfør speilbildet rute for rute",
+     "href": "symmetri-oppgaver"
+    }
+   ],
+   "title": "Lære klokka – tegn viserne | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med fire tomme urskiver: barnet leser klokkeslettet og tegner time- og minuttviser selv. Analog klokketrening for 2. trinn. Gratis PDF."
+  },
+  {
+   "slug": "regnefortellinger",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "2-trinn"
+   },
+   "eyebrow": "Regnefortelling-oppgaveark",
+   "h1": "Regnefortellinger med bilder: les, regn og svar",
+   "strand": "Problemløsing",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "regnefortellinger",
+    "frukter",
+    "2-trinn"
+   ],
+   "p1": "På dette arket møter barnet to små regnefortellinger med frukt i hovedrollen – epler, pærer og jordbær som plukkes, deles og legges i kurver. Under hver fortelling ligger en stripe med småbilder som viser det samme regnestykket som teksten forteller, så barnet kan telle og sjekke seg selv. Et eget arbeidsfelt med prikkerute gir plass til å tegne, telle og kladde, før svaret skrives i ruten.",
+   "p2": "Regnefortellinger er broen mellom lesing og matematikk, og de er ofte det første stedet barn møter regning slik den ser ut i virkeligheten: gjemt i en situasjon, ikke servert som et ferdig stykke. Kunsten er å finne matematikken i teksten – hva vet vi, hva spørres det om, blir det pluss eller minus? Bildestripen gjør tenkningen synlig og gir alle barn en vei inn, også de som ennå leser sakte. Prikkeruta oppmuntrer til å vise egen tenkning, en vane som blir gull verdt senere.",
+   "p3": "Arket kan skrives ut gratis som PDF når som helst. Sikker hoderegning gjør fortellingene lettere, så arket med pluss og minus til 20 er fin trening ved siden av. Og leseforståelsesarket med en kort fortelling og spørsmål trener den andre halvparten av kunsten – å lese nøye nok til å få med seg det som faktisk står.",
+   "canonicalDeckSlug": "regnefortellinger-frukter-g1213",
+   "carousel": [
+    {
+     "label": "Oppstilt addisjon og subtraksjon uten tierovergang",
+     "href": "oppstilt-addisjon-og-subtraksjon"
+    },
+    {
+     "label": "Litermål og skålvekt: les av milliliter og gram",
+     "href": "male-liter-og-gram"
+    },
+    {
+     "label": "Symmetri: fullfør speilbildet rute for rute",
+     "href": "symmetri-oppgaver"
+    },
+    {
+     "label": "Leseforståelse: les fortellingen og svar på spørsmålene",
+     "href": "leseforstaelse"
+    }
+   ],
+   "title": "Regnefortellinger med bilder | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med to regnefortellinger om frukt: barnet leser, bruker bildestøtten og skriver svaret. Problemløsing for 2. trinn. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "oppstilt-addisjon-og-subtraksjon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Oppstilt regning-oppgaveark",
+   "h1": "Oppstilt addisjon og subtraksjon uten tierovergang",
+   "strand": "Tall og regning",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "oppstilt-addisjon-og-subtraksjon",
+    "3-trinn"
+   ],
+   "p1": "Dette arket gir barnet seks regnestykker i oppstilling – addisjon og subtraksjon om hverandre, alle uten tierovergang. Hvert stykke står i tydelige plassverdibokser, slik at enere havner under enere og tiere under tiere. Barnet regner én plass om gangen og begynner med enerne, akkurat slik instruksjonen på arket sier: først enerkolonnen, så tierkolonnen, og svaret vokser frem nedenfra. Blandingen av pluss og minus gjør at barnet må lese regnetegnet nøye i hvert eneste stykke før regningen starter.",
+   "p2": "Den oppstilte metoden er barnets første ordentlige skriftlige regnemetode, og den fortjener en rolig start. Når stykkene er uten tierovergang, kan all oppmerksomhet gå til det som er selve poenget nå: å forstå at sifrene har ulik verdi etter hvor de står, og å venne hånden til arbeidsgangen fra høyre mot venstre. Plassverdiboksene bygger stillaset som forhindrer den vanligste feilen av alle – at kolonnene sklir og sifre havner på feil plass. Sitter dette trygt, er veien til minnetall og veksling kort og udramatisk.",
+   "p3": "Arket er gratis som PDF og fint å bruke som stille arbeid eller lekse på 3. trinn. Når alle seks stykkene går lett, er arket med tierovergang det naturlige neste steget – samme oppstilling, men nå med minnetall og veksling. Og hoderegningsarket til 20 holder den grunnleggende regneflyten ved like underveis.",
+   "canonicalDeckSlug": "oppstilt-addisjon-og-subtraksjon-g2251",
+   "carousel": [
+    {
+     "label": "Litermål og skålvekt: les av milliliter og gram",
+     "href": "male-liter-og-gram"
+    },
+    {
+     "label": "Symmetri: fullfør speilbildet rute for rute",
+     "href": "symmetri-oppgaver"
+    },
+    {
+     "label": "Leseforståelse: les fortellingen og svar på spørsmålene",
+     "href": "leseforstaelse"
+    },
+    {
+     "label": "Oppstilt addisjon og subtraksjon med tierovergang",
+     "href": "regning-med-tierovergang"
+    }
+   ],
+   "title": "Oppstilt addisjon og subtraksjon | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med seks oppstilte pluss- og minusstykker uten tierovergang, med plassverdibokser for enere og tiere. For 3. trinn. Gratis PDF til utskrift."
+  },
+  {
+   "slug": "male-liter-og-gram",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Måle-oppgaveark",
+   "h1": "Litermål og skålvekt: les av milliliter og gram",
+   "strand": "Måling",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "maling",
+    "kjoretoy",
+    "3-trinn"
+   ],
+   "p1": "Dette arket tar barnet med inn i måleverdenen med to klassiske redskaper. Øverst står tre litermål med væske, og barnet leser av skalaen og skriver hvor mange milliliter det er i hvert. Nederst venter tre skålvekter med kjøretøy på veieskålene – en liten lastebil eller buss som skal veies – og barnet leser av vekten i gram. Til slutt skrives hvert svar med riktig enhet: ml for litermålene, g for vektene.",
+   "p2": "Å lese av en skala er en egen ferdighet som må øves, ikke noe som kommer av seg selv. Barnet må finne ut hva hver strek på skalaen er verdt, telle seg oppover i riktige hopp og lese av akkurat der væsken eller viseren stopper. Samtidig bygges følelsen for enhetene: hva milliliter og gram faktisk måler, og hvorfor svaret er meningsløst uten enheten bak tallet. Dette er praktisk matematikk som peker rett inn i hverdagen – mot baking, veiing og måling på kjøkkenbenken.",
+   "p3": "Arket lastes ned gratis som PDF, og et målebeger og en kjøkkenvekt fra kjøkkenet ved siden av gjør økten helt konkret – les av på arket først, og mål etterpå i virkeligheten. Symmetriarket, der rutebilder skal speiles ferdig, passer godt sammen med dette for den som liker nøyaktig arbeid. Og den oppstilte regningen uten tierovergang holder tallarbeidet i gang parallelt med målingen.",
+   "canonicalDeckSlug": "maling-kjoretoy-g2252",
+   "carousel": [
+    {
+     "label": "Symmetri: fullfør speilbildet rute for rute",
+     "href": "symmetri-oppgaver"
+    },
+    {
+     "label": "Leseforståelse: les fortellingen og svar på spørsmålene",
+     "href": "leseforstaelse"
+    },
+    {
+     "label": "Oppstilt addisjon og subtraksjon med tierovergang",
+     "href": "regning-med-tierovergang"
+    },
+    {
+     "label": "Den lille gangetabellen: tolv gangestykker",
+     "href": "gangetabellen"
+    }
+   ],
+   "title": "Måle liter og gram – oppgaveark | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med tre litermål i ml og tre skålvekter i gram: barnet leser av skalaen og skriver svar med riktig enhet. For 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "symmetri-oppgaver",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Symmetri-oppgaveark",
+   "h1": "Symmetri: fullfør speilbildet rute for rute",
+   "strand": "Geometri",
+   "slotTokens": [
+    "symmetri",
+    "3-trinn"
+   ],
+   "p1": "På dette arket står fire bilder i rutenett, og hvert av dem er bare halvferdig. Midt gjennom går en korallfarget symmetrilinje: på den ene siden er rutene fargelagt, på den andre står de tomme. Barnet studerer det ferdige halvbildet og fargelegger rutene på motsatt side, slik at bildet blir helt symmetrisk – rute for rute, som et speilbilde. Fire bilder gir fire speilingsoppdrag med økende glede når motivet trer frem.",
+   "p2": "Symmetri er et av geometriens vakreste møtepunkter mellom matematikk og øye. For å speile riktig må barnet telle seg frem – tre ruter fra streken på den ene siden betyr tre ruter fra streken på den andre – og det er nettopp denne tellingen som gjør oppgaven til presis romlig tenkning og ikke bare fargelegging. Barnet lærer å arbeide systematisk, kontrollere sitt eget arbeid mot originalen og oppdage speilingens logikk: nær streken forblir nær, langt fra forblir langt fra. Slike erfaringer bygger geometriforståelsen på 3. trinn nedenfra.",
+   "p3": "Arket er gratis som PDF – fargeblyanter frem, og økten er i gang. Regn-og-fargelegg-arket gir samme rolige kombinasjon av tenkning og farge for den som vil ha mer. Og måler dere lysten på flere presisjonsoppgaver, står arket med litermål og skålvekt klart med skalaer som skal leses helt nøyaktig.",
+   "canonicalDeckSlug": "symmetri-g2253",
+   "carousel": [
+    {
+     "label": "Leseforståelse: les fortellingen og svar på spørsmålene",
+     "href": "leseforstaelse"
+    },
+    {
+     "label": "Oppstilt addisjon og subtraksjon med tierovergang",
+     "href": "regning-med-tierovergang"
+    },
+    {
+     "label": "Den lille gangetabellen: tolv gangestykker",
+     "href": "gangetabellen"
+    },
+    {
+     "label": "Skriveforberedende øvelser: blyantløyper med løkker, bølger og sikksakk",
+     "href": "skriveforberedende-ovelser"
+    }
+   ],
+   "title": "Symmetri-oppgaver – fullfør bildet | utskrift PDF gratis",
+   "metaDescription": "Symmetriark med fire rutebilder: barnet speiler halvferdige pikselbilder over symmetrilinjen, rute for rute. Geometri for 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "leseforstaelse",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "3-trinn"
+   },
+   "eyebrow": "Leseforståelse-oppgaveark",
+   "h1": "Leseforståelse: les fortellingen og svar på spørsmålene",
+   "strand": "Leseforståelse",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "leseforstaelse",
+    "3-trinn"
+   ],
+   "p1": "På dette arket får barnet en kort, original fortelling å lese – en liten historie med begynnelse, midte og slutt, skrevet for lesere på 3. trinn. Under teksten venter tre flervalgsspørsmål. Barnet leser fortellingen nøye, gjerne to ganger, og setter ring rundt det svaret som passer best til hvert spørsmål. Svarene står i teksten, men de gale alternativene er lure nok til at det ikke holder å skumlese.",
+   "p2": "På dette trinnet skjer et viktig skifte: barnet skal ikke lenger bare lære å lese, men lese for å lære. Da er det nøyaktigheten som teller – å få med seg hvem som gjorde hva, hva som skjedde først og sist, og hva teksten faktisk sier i motsetning til hva man tror den sier. Flervalgsformen trener nettopp dette, fordi barnet må veie alternativene mot teksten og gå tilbake for å sjekke. Vanen med å lete etter belegg i teksten er selve kjernen i god leseforståelse, og den bygges best gjennom korte, hyggelige tekster som denne.",
+   "p3": "Arket kan skrives ut gratis som PDF, og en ny fortelling venter hver gang dere henter et nytt ark. Regnefortellingene med bilder er en fin tvillingoppgave, der den samme nøyaktige lesingen brukes på matematikk. Og arket med høyfrekvente ord gir fart til de yngste leserne som fortsatt bruker krefter på selve ordavkodingen.",
+   "canonicalDeckSlug": "leseforstaelse-g2254",
+   "carousel": [
+    {
+     "label": "Oppstilt addisjon og subtraksjon med tierovergang",
+     "href": "regning-med-tierovergang"
+    },
+    {
+     "label": "Den lille gangetabellen: tolv gangestykker",
+     "href": "gangetabellen"
+    },
+    {
+     "label": "Skriveforberedende øvelser: blyantløyper med løkker, bølger og sikksakk",
+     "href": "skriveforberedende-ovelser"
+    },
+    {
+     "label": "Spor tallene fra 0 til 9 – med startprikk og piler",
+     "href": "spore-tall-0-til-9"
+    }
+   ],
+   "title": "Leseforståelse – kort tekst med spørsmål | utskrift PDF gratis",
+   "metaDescription": "Leseforståelsesark med en kort original fortelling og tre flervalgsspørsmål: barnet leser nøye og setter ring rundt riktig svar. 3. trinn. Gratis PDF."
+  },
+  {
+   "slug": "regning-med-tierovergang",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Oppstilt regning-oppgaveark",
+   "h1": "Oppstilt addisjon og subtraksjon med tierovergang",
+   "strand": "Tall og regning",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "oppstilt-addisjon-og-subtraksjon",
+    "4-trinn"
+   ],
+   "p1": "Dette arket byr på seks oppstilte regnestykker der tierovergangen står i sentrum. I addisjonsstykkene blir enersummen større enn ni, så det trengs minnetall – og over hvert plusstykke står en egen liten minneboks der tallet som flyttes til neste kolonne, får sin faste plass. I subtraksjonsstykkene holder ikke enerne, så barnet må veksle en tier. Regelen er den samme hele veien: regn én plass om gangen, og begynn med enerne.",
+   "p2": "Tierovergangen er selve terskelen i den skriftlige regningen, og det er her plassverdiforståelsen virkelig settes på prøve. Minnetallet er ikke et triks, men en tier som bytter kolonne, og vekslingen i subtraksjon er samme handel den andre veien. Når barnet fører minnetallet i boksen sin i stedet for å holde det i hodet, blir metoden ryddig og feilene sporbare – man kan gå tilbake og se nøyaktig hvor det glapp. Sikker regning med tierovergang på 4. trinn er billetten til å regne trygt med så store tall det skulle være.",
+   "p3": "Arket er gratis som PDF og passer både til innøving og repetisjon. Hvis vekslingen skaper trøbbel, er det lurt å gå en runde tilbake til arket uten tierovergang og la selve arbeidsgangen sette seg først. Og når begge deler sitter, venter den lille gangetabellen som neste store byggekloss i regningen.",
+   "canonicalDeckSlug": "oppstilt-addisjon-og-subtraksjon-g3357",
+   "carousel": [
+    {
+     "label": "Den lille gangetabellen: tolv gangestykker",
+     "href": "gangetabellen"
+    },
+    {
+     "label": "Skriveforberedende øvelser: blyantløyper med løkker, bølger og sikksakk",
+     "href": "skriveforberedende-ovelser"
+    },
+    {
+     "label": "Spor tallene fra 0 til 9 – med startprikk og piler",
+     "href": "spore-tall-0-til-9"
+    },
+    {
+     "label": "Spor de store bokstavene på skrivelinjer",
+     "href": "spore-store-bokstaver"
+    }
+   ],
+   "title": "Addisjon og subtraksjon med tierovergang | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med seks oppstilte stykker med tierovergang: minnetall i addisjon og veksling i subtraksjon, med egne minnebokser. 4. trinn. Gratis PDF."
+  },
+  {
+   "slug": "gangetabellen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "4-trinn"
+   },
+   "eyebrow": "Gangetabell-oppgaveark",
+   "h1": "Den lille gangetabellen: tolv gangestykker",
+   "strand": "Tall og regning",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "gangetabellen",
+    "4-trinn"
+   ],
+   "p1": "På dette arket står tolv gangestykker fra den lille gangetabellen og venter, skrevet med gangetegnet slik barna møter det i regneboka. Oppgaven er rett frem: regn ut hvert stykke og skriv svaret i ruten. Stykkene er blandet fra ulike tabeller, så barnet kan ikke lene seg på å ramse opp én rekke fra start til slutt – hvert svar må hentes frem for seg. Tolv stykker er en passe dose: kort nok til å holde farten oppe, lang nok til å kjenne fremgangen.",
+   "p2": "Den lille gangetabellen er kanskje den enkeltferdigheten som gir størst avkastning i hele mellomtrinnsmatematikken. Divisjon, brøk, arealregning og oppstilt multiplikasjon hviler alle på at gangestykkene kommer raskt og sikkert. Målet er automatisering – at 7 ganger 8 svarer seg selv, uten omveier – og dit kommer man med korte, hyppige økter heller enn lange skippertak. Blandede stykker som her er den beste testen på om tabellene faktisk sitter, og ikke bare kan ramses opp i rekkefølge.",
+   "p3": "Arket lastes ned gratis som PDF, og siden øving i små doser virker best, er det fint å skrive ut et nytt ark jevnlig. Regningen med tierovergang er en god parallell økt for den skriftlige metoden. Og for litt avveksling med samme konsentrasjon kan symmetriarket med rutebildene være en hyggelig pause som fortsatt krever nøyaktig telling.",
+   "canonicalDeckSlug": "gangetabellen-g3358",
+   "carousel": [
+    {
+     "label": "Skriveforberedende øvelser: blyantløyper med løkker, bølger og sikksakk",
+     "href": "skriveforberedende-ovelser"
+    },
+    {
+     "label": "Spor tallene fra 0 til 9 – med startprikk og piler",
+     "href": "spore-tall-0-til-9"
+    },
+    {
+     "label": "Spor de store bokstavene på skrivelinjer",
+     "href": "spore-store-bokstaver"
+    },
+    {
+     "label": "Høyfrekvente ord: les, spor og skriv",
+     "href": "hoyfrekvente-ord"
+    }
+   ],
+   "title": "Den lille gangetabellen – oppgaveark | utskrift PDF gratis",
+   "metaDescription": "Oppgaveark med tolv gangestykker fra den lille gangetabellen: barnet regner og skriver svaret i ruten. Gir flyt i ganging på 4. trinn. Gratis PDF."
   }
  ]
 }

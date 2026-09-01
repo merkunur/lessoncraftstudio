@@ -2849,6 +2849,176 @@ const READING_PASSAGES = {
           "correct": 1
         }
       ]
+    },
+    {
+      "id": "fi-ensilumi",
+      "title": "Ensilumi",
+      "text": "Yöllä satoi ensilumi. Eetu juoksee aamulla pihalle ja tekee lumeen enkelin. Sitten hän pyörittää ison lumipallon ja rakentaa pienen lumiukon. Lumiukko saa nenäksi porkkanan.",
+      "questions": [
+        {
+          "q": "Mitä Eetu tekee ensin lumeen?",
+          "choices": [
+            "enkelin",
+            "lumiukon",
+            "lumilinnan"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mitä lumiukko saa nenäksi?",
+          "choices": [
+            "kiven",
+            "porkkanan",
+            "kävyn"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Mihin vuodenaikaan tarina tapahtuu?",
+          "choices": [
+            "kesällä",
+            "keväällä",
+            "talvella"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "fi-kirjastoauto",
+      "title": "Kirjastoauto",
+      "text": "Torstaisin kirjastoauto ajaa Siirin koulun pihaan. Siiri palauttaa kaksi kirjaa ja etsii hyllystä uuden. Hän valitsee kirjan, jonka kannessa on avaruusraketti. Kuljettaja leimaa kirjan ja toivottaa mukavia lukuhetkiä. Kotona Siiri lukee kirjaa iltaan asti.",
+      "questions": [
+        {
+          "q": "Minä päivänä kirjastoauto tulee koululle?",
+          "choices": [
+            "maanantaisin",
+            "torstaisin",
+            "lauantaisin"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Mitä Siirin valitseman kirjan kannessa on?",
+          "choices": [
+            "avaruusraketti",
+            "dinosaurus",
+            "laiva"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mistä tiedät, että kirja on Siirin mielestä hyvä?",
+          "choices": [
+            "hän lukee sitä iltaan asti",
+            "hän palauttaa sen heti",
+            "hän antaa sen kuljettajalle"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fi-uimahalli",
+      "title": "Uimahallissa",
+      "text": "Niilo menee isosiskonsa kanssa uimahalliin. Ensin he käyvät suihkussa, ja sitten Niilo saa laittaa uimalasit päähänsä. Matalassa altaassa Niilo harjoittelee potkuja lautan kanssa. Yhtäkkiä hän huomaa uivansa kolme metriä aivan itse! Isosisko taputtaa ja nostaa peukalon pystyyn. Kotimatkalla Niilon tukka on märkä, mutta hymy on leveä.",
+      "questions": [
+        {
+          "q": "Kenen kanssa Niilo menee uimahalliin?",
+          "choices": [
+            "isän",
+            "isosiskon",
+            "kaverin"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Mitä Niilo harjoittelee matalassa altaassa?",
+          "choices": [
+            "potkuja",
+            "sukellusta",
+            "hyppyjä"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Miksi Niilo hymyilee kotimatkalla?",
+          "choices": [
+            "hän ui ensimmäistä kertaa itse",
+            "hän sai jäätelön",
+            "hänen tukkansa kuivui nopeasti"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fi-maatilaretki",
+      "title": "Maatilan retki",
+      "text": "Lumin luokka lähtee keväällä retkelle maatilalle. Bussissa lapset laulavat, ja perillä isäntä esittelee heille navetan. Lumi saa silittää vasikkaa, jonka turkki tuntuu pehmeältä. Kanalassa jokainen lapsi saa etsiä yhden munan, ja Lumi löytää omansa oljen alta. Lopuksi kaikki juovat tuoretta maitoa ja syövät eväsleivät pitkän pöydän ääressä. Bussissa kotimatkalla Lumi päättää, että hänestä tulee isona eläinlääkäri.",
+      "questions": [
+        {
+          "q": "Mitä eläintä Lumi saa silittää?",
+          "choices": [
+            "vasikkaa",
+            "porsasta",
+            "lammasta"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Mistä Lumi löytää munan?",
+          "choices": [
+            "pesäkopista",
+            "oljen alta",
+            "pöydän alta"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Miksi Lumi haluaa isona eläinlääkäriksi?",
+          "choices": [
+            "eläimet ovat hänestä mukavia",
+            "hän pitää bussimatkoista",
+            "hän haluaa juoda maitoa"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "fi-yo-mokilla",
+      "title": "Yö mökillä",
+      "text": "Kesällä Eevi matkustaa perheensä kanssa mökille. Päivällä hän onkii laiturilta ja saa pienen ahvenen, jonka isä päästää takaisin veteen. Illalla koko perhe menee saunaan, ja sen jälkeen Eevi kastaa varpaansa viileään järveen. Kun tulee pimeää, he istuvat nuotiolla ja paistavat makkaraa. Yöllä Eevi kuulee huuhkajan huhuilevan, ja se kuulostaa vähän pelottavalta. Äiti kuiskaa, että huuhkaja vain toivottaa hyvää yötä. Eevi hymyilee ja nukahtaa oman peiton alle.",
+      "questions": [
+        {
+          "q": "Minkä kalan Eevi saa laiturilta?",
+          "choices": [
+            "hauen",
+            "ahvenen",
+            "särjen"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Mitä perhe tekee nuotiolla?",
+          "choices": [
+            "paistaa makkaraa",
+            "laulaa lauluja",
+            "kertoo satuja"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Miksi Eevi voi nukahtaa rauhassa?",
+          "choices": [
+            "äidin sanat rauhoittavat häntä",
+            "huuhkaja lentää pois",
+            "isä sammuttaa nuotion"
+          ],
+          "correct": 0
+        }
+      ]
     }
   ]
 };

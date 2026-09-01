@@ -280,7 +280,19 @@ const SIGHT_WORDS = {
     "tämä",
     "mikä",
     "äiti",
-    "isä"
+    "isä",
+    "mitä",
+    "kuka",
+    "oli",
+    "niin",
+    "mutta",
+    "myös",
+    "kyllä",
+    "sitten",
+    "täällä",
+    "koti",
+    "koulu",
+    "kaveri"
   ]
 };
 

@@ -4,8 +4,7 @@
  * round-robin cannot pin inside a multi-theme wave). No published
  * (variant-id, theme) pair is ever re-emitted: every variation has a fresh
  * type id, and the base-id fans use only themes the base never shipped.
- * fananim is NOT generated for fi until the fi animal partitives land
- * (G1-213 fi refuses non-fruits themes by design).
+ * fananim includes fi (the fi animal partitives landed with the VAR i18n pass)
  */
 'use strict';
 const fs = require('fs');
@@ -41,7 +40,7 @@ const WAVES = [
   { kind: 'fan240', types: ['K-240'], themes: ['vehicles', 'fruits', 'toys'], themesPerType: 3 },
   { kind: 'fan264', types: ['K-264'], themes: ['animals', 'vehicles'], themesPerType: 2 },
   { kind: 'fanmaze', types: ['K-242'], themes: ['animals', 'fruits'], themesPerType: 2 },
-  { kind: 'fananim', types: ['G1-213', 'G2-252'], themes: ['animals'], themesPerType: 1, skipLocales: ['fi'] },
+  { kind: 'fananim', types: ['G1-213', 'G2-252'], themes: ['animals'], themesPerType: 1 },
 ];
 
 if (CORE.length !== 77) throw new Error('CORE count ' + CORE.length + ' != 77');

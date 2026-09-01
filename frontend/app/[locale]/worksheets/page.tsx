@@ -44,7 +44,7 @@ import {
 } from '@/components/catalog/CatalogFilters';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
-import { NEW_WORKSHEET_LANDINGS } from '@/config/worksheets-new-highlights';
+import { NEW_WORKSHEET_GROUPS } from '@/config/worksheets-new-highlights';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -309,15 +309,22 @@ export default async function AllWorksheetsPage({
 
   // "New worksheets" strip — bare hub state only (page 1, no filters, default
   // sort). The variety grid orders type buckets by SIZE, so a fresh batch of
-  // single-landing families lands on pages 2-3 and is invisible on the first
-  // screen; this strip surfaces the newest batch above the main grid. Slugs
-  // that no longer exist in the corpus are dropped silently (config is a
-  // highlight list, not a contract).
-  const newHighlights =
+  // small families lands on pages 2-3 and is invisible on the first screen;
+  // this strip surfaces the newest batch above the main grid as 20 family
+  // cards, each with chips linking its VARIATION landings (every batch page
+  // reachable from hub page 1 — the operator-demanded contract). Slugs that
+  // no longer exist in the corpus are dropped silently.
+  const landingBySlug = new Map(allLandings.map((l) => [l.slug, l]));
+  const newHighlightGroups =
     !browseActive && page === 1 && filters.sort === 'variety'
-      ? (NEW_WORKSHEET_LANDINGS[locale] || [])
-          .map((s) => allLandings.find((l) => l.slug === s))
-          .filter((l): l is NonNullable<typeof l> => Boolean(l))
+      ? (NEW_WORKSHEET_GROUPS[locale] || [])
+          .map((g) => ({
+            base: landingBySlug.get(g.base),
+            variations: g.variations
+              .map((s) => landingBySlug.get(s))
+              .filter((l): l is NonNullable<typeof l> => Boolean(l)),
+          }))
+          .filter((g): g is { base: NonNullable<typeof g.base>; variations: NonNullable<typeof g.base>[] } => Boolean(g.base))
       : [];
 
   // Active-filter chips + clear-all.
@@ -441,7 +448,7 @@ export default async function AllWorksheetsPage({
                 <div className="lg:col-span-9">
                   <CatalogMobileFilters heading={tFacets('heading')} groups={facetGroups} basePath={basePath} spString={spString} />
 
-                  {newHighlights.length > 0 && (
+                  {newHighlightGroups.length > 0 && (
                     <section className="mb-9 md:mb-11" aria-labelledby="new-worksheets-heading">
                       <h2
                         id="new-worksheets-heading"
@@ -449,19 +456,33 @@ export default async function AllWorksheetsPage({
                       >
                         {t('newHeading')}
                       </h2>
-                      <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-                        {newHighlights.map((l, i) => (
-                          <WorksheetCatalogCard
-                            key={`new-${l.slug}`}
-                            href={localePath(locale, 'worksheets', l.slug)}
-                            thumbnailSrc={wwwImg(deckAssets(locale, l.canonicalDeckSlug).thumbnail)}
-                            title={l.h1}
-                            levelLabel={levelChip(l.coordinate.level, locale)}
-                            typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
-                            subject={worksheetSubject(l.coordinate.type)}
-                            ctaLabel={t('tileCta')}
-                            eager={i < EAGER_CARDS}
-                          />
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+                        {newHighlightGroups.map((g, i) => (
+                          <div key={`new-${g.base.slug}`} className="flex flex-col gap-2">
+                            <WorksheetCatalogCard
+                              href={localePath(locale, 'worksheets', g.base.slug)}
+                              thumbnailSrc={wwwImg(deckAssets(locale, g.base.canonicalDeckSlug).thumbnail)}
+                              title={g.base.h1}
+                              levelLabel={levelChip(g.base.coordinate.level, locale)}
+                              typeLabel={getAxisName('exercise-type', g.base.coordinate.type, locale) || g.base.coordinate.type}
+                              subject={worksheetSubject(g.base.coordinate.type)}
+                              ctaLabel={t('tileCta')}
+                              eager={i < EAGER_CARDS}
+                            />
+                            {g.variations.length > 0 && (
+                              <div className="flex flex-wrap gap-1.5">
+                                {g.variations.map((v) => (
+                                  <a
+                                    key={v.slug}
+                                    href={localePath(locale, 'worksheets', v.slug)}
+                                    className="inline-flex items-center px-2.5 py-1 rounded-full border border-lcs-teal/20 bg-white/60 text-xs font-lcsBody font-semibold text-lcs-teal leading-snug hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
+                                  >
+                                    {v.h1}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
                         ))}
                       </div>
                     </section>
@@ -502,7 +523,7 @@ export default async function AllWorksheetsPage({
                           typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
                           subject={worksheetSubject(l.coordinate.type)}
                           ctaLabel={t('tileCta')}
-                          eager={page === 1 && newHighlights.length === 0 && i < EAGER_CARDS}
+                          eager={page === 1 && newHighlightGroups.length === 0 && i < EAGER_CARDS}
                         />
                       ))}
                     </div>

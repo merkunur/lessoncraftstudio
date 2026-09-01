@@ -115381,7 +115381,7 @@
     "animali",
     "infanzia"
    ],
-   "p1": "In fondo alla scheda c'è una striscia di figure di animali da ritagliare con le forbici. Il bambino le stacca una a una, le osserva bene e poi le incolla nel riquadro del gruppo a cui appartengono, guidato dalle etichette dei riquadri. Tagliare lungo la linea, decidere dove va ogni animale, spalmare la colla e sistemare la figura: ogni gesto è parte del gioco.",
+   "p1": "In fondo alla scheda c'è una striscia di figure di animali da ritagliare con le forbici. Il bambino le stacca una a una, le osserva bene e poi le incolla nel riquadro del gruppo a cui appartengono: in cima a ogni riquadro c'è una figura modello che dice quale gruppo è, e sotto aspettano i quadretti tratteggiati da riempire. Tagliare lungo la linea, decidere dove va ogni animale, spalmare la colla e sistemare la figura: ogni gesto è parte del gioco.",
    "p2": "Questa attività lavora su due piani insieme. Da un lato le forbici: ritagliare seguendo un contorno è uno degli esercizi più efficaci per la motricità fine e per il controllo delle due mani che collaborano. Dall'altro la mente: decidere in quale gruppo va ogni figura è una vera classificazione, lo stesso pensiero che il bambino userà in matematica, in scienze e nella lettura. Ordine delle mani e ordine dei pensieri crescono insieme.",
    "p3": "Basta stampare il PDF gratuito, prendere forbici dalla punta arrotondata e un po' di colla: il pomeriggio è sistemato. Per continuare con la logica senza forbici c'è il calcola e colora, dove ogni figura si colora in base al risultato di un piccolo calcolo, oppure il grande labirinto da percorrere con la matita, per allenare attenzione e precisione in un'altra veste. E la scheda finita, con tutti gli animali al posto giusto, merita senz'altro un posto d'onore sul frigorifero.",
    "canonicalDeckSlug": "ritaglia-e-incolla-animali-k240",
@@ -115465,7 +115465,7 @@
     "giocattoli",
     "infanzia"
    ],
-   "p1": "Un grande labirinto occupa tutta la scheda, in un allegro mondo di giocattoli. In alto, all'ingresso, aspetta un animaletto pronto a partire; in basso c'è il traguardo da raggiungere. Il bambino esplora i corridoi con gli occhi, prova le strade, torna indietro dai vicoli ciechi e infine traccia con la matita il percorso giusto, dall'inizio alla fine, senza attraversare le pareti.",
+   "p1": "Un grande labirinto occupa tutta la scheda, con i giocattoli a fare da tema. In alto, nella casella di partenza, c'è un giocattolo pronto a mettersi in cammino; in basso, al traguardo, ne aspetta un altro. Fra i due non c'è nient'altro che il tracciato da attraversare. Il bambino esplora i corridoi con gli occhi, prova le strade, torna indietro dai vicoli ciechi e infine traccia con la matita il percorso giusto, dall'inizio alla fine, senza attraversare le pareti.",
    "p2": "Un labirinto è molto più di un passatempo. Cercare l'unica strada giusta allena l'attenzione visiva e la capacità di pianificare: prima si guarda avanti, poi si traccia. Guidare la matita nei corridoi senza toccare i bordi è un esercizio raffinato di controllo del gesto, mentre i vicoli ciechi insegnano una lezione preziosa: sbagliare strada fa parte del gioco, si torna indietro e si riprova con pazienza. Un allenamento gentile alla perseveranza, che tornerà utile ben oltre il labirinto, davanti a ogni compito un po' difficile.",
    "p3": "La scheda si stampa gratuitamente in PDF ed è perfetta anche nei momenti di attesa, a casa o in classe. Per continuare ad allenare occhio e matita ci sono i percorsi di pregrafismo con onde e zigzag da ripassare, mentre chi ama le sfide di precisione può cimentarsi con la simmetria sui quadretti, dove ogni disegno va completato a specchio.",
    "canonicalDeckSlug": "labirinti-giocattoli-k242",
@@ -115488,7 +115488,7 @@
     }
    ],
    "title": "Labirinti per bambini – Scuola dell'infanzia | da stampare PDF",
-   "metaDescription": "Un grande labirinto dei giocattoli: si parte dall'animaletto in alto e si traccia la strada fino al traguardo. Scheda per bambini in PDF gratis da stampare."
+   "metaDescription": "Un grande labirinto dei giocattoli: si parte dal giocattolo in alto e si traccia la strada fino al traguardo. Scheda per bambini in PDF gratis da stampare."
   },
   {
    "slug": "amici-del-10",
@@ -117127,6 +117127,3080 @@
    ],
    "title": "La tabellina del 4 – Esercizi | da stampare PDF",
    "metaDescription": "La tabellina del 4 da completare: scheda gratuita in PDF con la scala da 1×4 a 10×4. Ogni risultato è il doppio del doppio: la strategia dei raddoppi."
+  },
+  {
+   "slug": "pregrafismo-linee-rette-e-zigzag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di pregrafismo",
+   "h1": "Pregrafismo: linee rette, zigzag e merli",
+   "strand": "Motricità fine e pregrafismo",
+   "slotTokens": [
+    "pregrafismo",
+    "animali",
+    "infanzia"
+   ],
+   "p1": "Su questa scheda di pregrafismo il bambino trova corsie di tracciati spezzati: linee rette, zigzag, denti di sega e merli di castello, tutti fatti di angoli. Si appoggia la matita sul punto arancione, si segue la freccia e si ripassa il tracciato fino in fondo alla corsia, dove aspetta un animaletto come premio. Sono le linee “dure” del pregrafismo: niente curve, solo cambi di direzione netti e decisi.",
+   "p2": "L'angolo è un gesto speciale: la mano deve correre, fermarsi al punto giusto e ripartire in una direzione nuova. È questo freno-e-via che rende gli zigzag così preziosi: allenano il controllo fine del movimento, la precisione dei vertici e la fiducia nel tratto deciso. Le lettere piene di angoli — la E, la M, la N, la Z — nasceranno proprio da qui, da corsie percorse tante volte con la matita ben salda in mano.",
+   "p3": "La scheda si stampa gratis in PDF, pronta per il tavolo di casa o per l'angolo grafico della sezione. Completate le linee spezzate, il passaggio naturale sono le onde e le linee curve, dove il polso impara invece a non fermarsi mai; per una pagina che mescola tutto c'è il ripasso di pregrafismo con cinque tracciati diversi. Un tracciato al giorno, e la mano si fa più sicura di settimana in settimana.",
+   "canonicalDeckSlug": "pregrafismo-animali-k244",
+   "carousel": [
+    {
+     "label": "Pregrafismo: onde, ponticelli e coppette",
+     "href": "pregrafismo-onde-e-linee-curve"
+    },
+    {
+     "label": "Pregrafismo: occhielli, otto sdraiati e spirali",
+     "href": "pregrafismo-occhielli-otto-e-spirali"
+    },
+    {
+     "label": "Pregrafismo avanzato: cinque corsie difficili",
+     "href": "pregrafismo-avanzato-cinque-corsie"
+    },
+    {
+     "label": "Ripasso di pregrafismo: cinque tracciati in una pagina",
+     "href": "pregrafismo-ripasso-cinque-tracciati"
+    }
+   ],
+   "title": "Pregrafismo linee rette e zigzag | da stampare PDF",
+   "metaDescription": "Scheda di pregrafismo con linee rette, zigzag e merli: tracciati ad angolo da ripassare dal punto arancione, con un animaletto al traguardo. PDF gratis."
+  },
+  {
+   "slug": "pregrafismo-onde-e-linee-curve",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di pregrafismo",
+   "h1": "Pregrafismo: onde, ponticelli e coppette",
+   "strand": "Motricità fine e pregrafismo",
+   "slotTokens": [
+    "pregrafismo",
+    "frutta",
+    "infanzia"
+   ],
+   "p1": "Onde del mare, ponticelli, coppette e primi occhielli: qui tutte le corsie sono fatte di linee curve. Il bambino parte dal punto arancione, segue la freccia e accompagna la matita su e giù, lasciando che il tratto scorra morbido fino alla fine della riga, dove lo aspetta un bel frutto colorato. Nessun angolo su questa pagina: solo movimenti tondi, da ripetere finché diventano leggeri.",
+   "p2": "Le curve chiedono alla mano l'esatto contrario degli zigzag: non fermarsi mai. Il polso si ammorbidisce, il gesto diventa continuo e ritmico, quasi una danza sulla carta — ed è proprio questa fluidità la base del corsivo che verrà: la a, la c, la e e la o sono tutte figlie di coppette e ponticelli. Ripassare onde a ritmo regolare aiuta anche a sciogliere la presa: la matita smette di essere stretta come un martello e comincia a scivolare.",
+   "p3": "Il PDF si scarica e si stampa gratuitamente, da proporre anche più volte con colori diversi. Chi ha già percorso le linee rette e gli zigzag noterà subito la differenza di gesto; il gradino successivo sono gli occhielli, gli otto e le spirali, i movimenti rotondi più raffinati del pregrafismo. E per chi ama le sfide, la pagina di pregrafismo avanzato mette insieme il meglio di tutti i tracciati.",
+   "canonicalDeckSlug": "pregrafismo-frutta-k245",
+   "carousel": [
+    {
+     "label": "Pregrafismo: occhielli, otto sdraiati e spirali",
+     "href": "pregrafismo-occhielli-otto-e-spirali"
+    },
+    {
+     "label": "Pregrafismo avanzato: cinque corsie difficili",
+     "href": "pregrafismo-avanzato-cinque-corsie"
+    },
+    {
+     "label": "Ripasso di pregrafismo: cinque tracciati in una pagina",
+     "href": "pregrafismo-ripasso-cinque-tracciati"
+    },
+    {
+     "label": "Pregrafismo: linee rette, zigzag e merli",
+     "href": "pregrafismo-linee-rette-e-zigzag"
+    }
+   ],
+   "title": "Pregrafismo onde e linee curve | da stampare PDF",
+   "metaDescription": "Pregrafismo con onde, ponticelli e coppette: linee curve da ripassare con gesto continuo dal punto arancione, un frutto al traguardo. PDF gratis da stampare."
+  },
+  {
+   "slug": "pregrafismo-occhielli-otto-e-spirali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di pregrafismo",
+   "h1": "Pregrafismo: occhielli, otto sdraiati e spirali",
+   "strand": "Motricità fine e pregrafismo",
+   "slotTokens": [
+    "pregrafismo",
+    "veicoli",
+    "infanzia"
+   ],
+   "p1": "Questa scheda raccoglie i grandi classici del pregrafismo: occhielli in fila, otto sdraiati come il simbolo dell'infinito, spirali che si avvolgono e onde che corrono. Ogni corsia parte dal punto arancione e segue la freccia; al traguardo aspetta un veicolo, e per raggiungerlo bisogna guidare la matita fin lì senza uscire di strada. Sono i tracciati rotondi più famosi, quelli che si ritrovano su tutti i quaderni di grafismo.",
+   "p2": "L'otto sdraiato ha un segreto: per disegnarlo la mano attraversa la linea di mezzo del corpo, prima verso una parte e poi verso l'altra. Questo incrocio fa lavorare insieme i due lati, e occhio e mano si coordinano su un movimento rotatorio completo — un allenamento prezioso che prepara i futuri occhielli del corsivo, dalla l alla f. Anche la spirale ha il suo compito: stringere il giro poco a poco insegna a dosare il gesto, non solo a ripeterlo.",
+   "p3": "La scheda è un PDF gratuito da stampare, ideale come pagina quotidiana di riscaldamento della mano. Chi arriva dalle onde e dalle coppette troverà qui il seguito naturale; chi le padroneggia tutte può misurarsi con la pagina di pregrafismo avanzato, cinque corsie con i tracciati più difficili mescolati. Un paio di minuti al giorno su questi motivi, e il corsivo di domani partirà con una marcia in più.",
+   "canonicalDeckSlug": "pregrafismo-veicoli-k246",
+   "carousel": [
+    {
+     "label": "Pregrafismo avanzato: cinque corsie difficili",
+     "href": "pregrafismo-avanzato-cinque-corsie"
+    },
+    {
+     "label": "Ripasso di pregrafismo: cinque tracciati in una pagina",
+     "href": "pregrafismo-ripasso-cinque-tracciati"
+    },
+    {
+     "label": "Pregrafismo: linee rette, zigzag e merli",
+     "href": "pregrafismo-linee-rette-e-zigzag"
+    },
+    {
+     "label": "Pregrafismo: onde, ponticelli e coppette",
+     "href": "pregrafismo-onde-e-linee-curve"
+    }
+   ],
+   "title": "Pregrafismo occhielli, otto e spirali | da stampare PDF",
+   "metaDescription": "I classici del pregrafismo: occhielli, otto sdraiati, spirali e onde da ripassare dal punto arancione, con un veicolo al traguardo. PDF gratis da stampare."
+  },
+  {
+   "slug": "pregrafismo-avanzato-cinque-corsie",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "toys",
+    "level": "infanzia"
+   },
+   "eyebrow": "Pregrafismo per l'infanzia",
+   "h1": "Pregrafismo avanzato: cinque corsie difficili",
+   "strand": "Motricità fine e pregrafismo",
+   "slotTokens": [
+    "pregrafismo",
+    "giocattoli",
+    "infanzia"
+   ],
+   "p1": "Cinque corsie, cinque tracciati diversi, nessuno facile: merli di castello, spirali, otto sdraiati, punte e occhielli si alternano su un'unica pagina. Il bambino parte ogni volta dal punto arancione, segue la freccia e porta il tratto fino al giocattolo che chiude la corsia. È la scheda per chi le linee semplici le ha già domate: qui a ogni riga bisogna cambiare completamente movimento.",
+   "p2": "Il vero esercizio, in questa pagina, non è il singolo tracciato ma il passaggio dall'uno all'altro. Finiti i merli, la mano deve dimenticare gli angoli e mettersi a girare in spirale; dopo gli otto, servono di nuovo punte decise. Questo cambio continuo di programma motorio è ciò che accade davvero quando si scrive: ogni lettera chiede un gesto diverso dal precedente. Chi percorre queste cinque corsie senza confondersi sta facendo, senza saperlo, una prova generale di scrittura.",
+   "p3": "Stampa il PDF gratuito e proponila come pagina dei campioni: è la naturale conclusione del percorso iniziato con le linee rette e proseguito con curve e spirali. Per verificare con calma tutti i gesti c'è anche il ripasso di pregrafismo, più disteso; e quando le corsie non bastano più, le lettere maiuscole tratteggiate aspettano solo di essere ricalcate. Meglio proporla a piccole dosi: una corsia alla volta, fatta con calma, vale più di una pagina intera percorsa di fretta.",
+   "canonicalDeckSlug": "pregrafismo-giocattoli-k247",
+   "carousel": [
+    {
+     "label": "Ripasso di pregrafismo: cinque tracciati in una pagina",
+     "href": "pregrafismo-ripasso-cinque-tracciati"
+    },
+    {
+     "label": "Pregrafismo: linee rette, zigzag e merli",
+     "href": "pregrafismo-linee-rette-e-zigzag"
+    },
+    {
+     "label": "Pregrafismo: onde, ponticelli e coppette",
+     "href": "pregrafismo-onde-e-linee-curve"
+    },
+    {
+     "label": "Pregrafismo: occhielli, otto sdraiati e spirali",
+     "href": "pregrafismo-occhielli-otto-e-spirali"
+    }
+   ],
+   "title": "Pregrafismo avanzato, cinque corsie | da stampare PDF",
+   "metaDescription": "Pregrafismo avanzato: cinque corsie con merli, spirali, otto, punte e occhielli da ripassare una dopo l'altra, un giocattolo al traguardo. PDF gratis."
+  },
+  {
+   "slug": "pregrafismo-ripasso-cinque-tracciati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "infanzia"
+   },
+   "eyebrow": "Ripasso di pregrafismo",
+   "h1": "Ripasso di pregrafismo: cinque tracciati in una pagina",
+   "strand": "Motricità fine e pregrafismo",
+   "slotTokens": [
+    "pregrafismo",
+    "animali",
+    "infanzia"
+   ],
+   "p1": "Una corsia con la linea, una con l'onda, una con lo zigzag, poi coppette e ponticelli: questa scheda di ripasso mette in fila cinque tracciati fondamentali del pregrafismo, uno per riga. Si parte sempre dal punto arancione, si segue la freccia e si arriva all'animaletto in fondo. In una sola pagina il bambino ripercorre tutto il cammino fatto: linee dritte, curve e spezzate, ciascuna con il suo gesto.",
+   "p2": "Per l'adulto che osserva, questa pagina vale come una piccola fotografia: si vede subito quale tracciato scorre ormai sicuro e quale ancora tentenna. Lo zigzag esce storto? Meglio riprendere le linee spezzate. Le onde diventano spigolose? Serve ancora un po' di gesto morbido. Usata ogni tanto, la scheda di ripasso permette di dosare gli esercizi successivi sui punti deboli veri, invece di ripetere a caso — ed è anche una bella occasione per mostrare al bambino quanta strada ha già fatto.",
+   "p3": "Il PDF è gratuito da stampare, perfetto a fine percorso o come rientro dopo una pausa. Dove emerge un'incertezza si torna alla pagina dedicata: le linee rette e gli zigzag per gli angoli, le onde e le coppette per le curve. E quando tutte e cinque le corsie filano lisce, è il momento dei numeri tratteggiati da 0 a 9: la mano è pronta.",
+   "canonicalDeckSlug": "pregrafismo-animali-k248",
+   "carousel": [
+    {
+     "label": "Pregrafismo: linee rette, zigzag e merli",
+     "href": "pregrafismo-linee-rette-e-zigzag"
+    },
+    {
+     "label": "Pregrafismo: onde, ponticelli e coppette",
+     "href": "pregrafismo-onde-e-linee-curve"
+    },
+    {
+     "label": "Pregrafismo: occhielli, otto sdraiati e spirali",
+     "href": "pregrafismo-occhielli-otto-e-spirali"
+    },
+    {
+     "label": "Pregrafismo avanzato: cinque corsie difficili",
+     "href": "pregrafismo-avanzato-cinque-corsie"
+    }
+   ],
+   "title": "Ripasso di pregrafismo | da stampare PDF",
+   "metaDescription": "Ripasso di pregrafismo: linea, onda, zigzag, coppette e ponticelli in cinque corsie da ripassare dal punto arancione. PDF gratis da stampare per l'infanzia."
+  },
+  {
+   "slug": "parole-frequenti-serie-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di prime parole",
+   "h1": "Parole frequenti, serie 2: con, per, sono, come",
+   "strand": "Prima lettura e scrittura",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "parole-frequenti",
+    "infanzia"
+   ],
+   "p1": "Questa seconda serie di parole frequenti porta sulla pagina con, per, sono e come: quattro parole piccole che compaiono in quasi ogni frase italiana. Per ciascuna, il percorso è quello collaudato: prima la si legge ad alta voce, poi la si ripassa sul tratteggio, infine la si scrive da soli sulla riga vuota. Quattro parole, tre passaggi, una pagina che si completa in un quarto d'ora sereno.",
+   "p2": "Parole come con e per non si possono disegnare: non sono un gatto o una mela, sono la colla che tiene insieme le frasi. Proprio per questo vanno conosciute di vista: il piccolo lettore che le riconosce al volo non spreca energie a sillabarle e può dedicarsi alle parole piene di significato. Allenarle con mano e voce insieme le fissa prima e meglio: quando le ritroverà nel libro, gli sembreranno vecchie amiche.",
+   "p3": "La scheda si stampa gratis in PDF e continua il lavoro iniziato con la prima pagina di parole frequenti. Il ritmo giusto è una serie alla volta, senza fretta: dopo questa, la serie 3 aggiunge anche, qui, più e bene. Un'idea in più: a fine settimana, rileggere insieme le serie già fatte e contare quante parole ormai si leggono a colpo d'occhio.",
+   "canonicalDeckSlug": "parole-frequenti-k259",
+   "carousel": [
+    {
+     "label": "Parole frequenti, serie 3: anche, qui, più, bene",
+     "href": "parole-frequenti-serie-3"
+    },
+    {
+     "label": "Parole frequenti, serie 4: ma, poi, una, dove",
+     "href": "parole-frequenti-serie-4"
+    },
+    {
+     "label": "Parole frequenti, serie 5: cosa, oggi, molto, sempre",
+     "href": "parole-frequenti-serie-5"
+    },
+    {
+     "label": "Parole frequenti, serie 6: quando, tutti, questo, fare",
+     "href": "parole-frequenti-serie-6"
+    }
+   ],
+   "title": "Parole frequenti serie 2: con, per, sono, come | da stampare PDF",
+   "metaDescription": "Parole frequenti, serie 2: con, per, sono e come da leggere, ricalcare e riscrivere sulla riga vuota. Scheda di prima lettura in PDF gratis da stampare."
+  },
+  {
+   "slug": "parole-frequenti-serie-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di prime parole",
+   "h1": "Parole frequenti, serie 3: anche, qui, più, bene",
+   "strand": "Prima lettura e scrittura",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "parole-frequenti",
+    "infanzia"
+   ],
+   "p1": "Anche, qui, più, bene: la terza serie di parole frequenti propone quattro parole brevi che i bambini sentono e usano ogni giorno. Come sempre si legge la parola ad alta voce, la si ripassa sul tratteggio e poi la si scrive in autonomia sulla riga vuota accanto. Una routine ormai familiare, con quattro protagoniste nuove da aggiungere alla collezione.",
+   "p2": "In questa serie si nasconde un dettaglio prezioso: l'accento di più. Ricalcarla è il modo migliore per fissare fin dall'inizio che quel segno fa parte della parola e non è un ornamento — un'abitudine ortografica che vale oro negli anni a venire. E c'è anche un piccolo lavoro di attenzione tra parole che si assomigliano: bene e anche condividono lettere e suoni, e distinguerle a prima vista è esattamente il tipo di occhio fino che la lettura fluente richiede.",
+   "p3": "Il PDF gratuito si stampa in un attimo e si aggiunge al quadernino delle parole. Chi arriva dalla serie 2 con con, per, sono e come troverà la difficoltà giusta; il passo successivo è la serie 4, con ma, poi, una e dove. Ogni tanto vale la pena mescolare le carte: leggere le parole in ordine sparso, saltando da una serie all'altra, per essere sicuri che siano davvero riconosciute e non recitate a memoria.",
+   "canonicalDeckSlug": "parole-frequenti-k260",
+   "carousel": [
+    {
+     "label": "Parole frequenti, serie 4: ma, poi, una, dove",
+     "href": "parole-frequenti-serie-4"
+    },
+    {
+     "label": "Parole frequenti, serie 5: cosa, oggi, molto, sempre",
+     "href": "parole-frequenti-serie-5"
+    },
+    {
+     "label": "Parole frequenti, serie 6: quando, tutti, questo, fare",
+     "href": "parole-frequenti-serie-6"
+    },
+    {
+     "label": "Parole frequenti, serie 2: con, per, sono, come",
+     "href": "parole-frequenti-serie-2"
+    }
+   ],
+   "title": "Parole frequenti serie 3: anche, qui, più, bene | da stampare PDF",
+   "metaDescription": "Serie 3 delle parole frequenti: anche, qui, più e bene da leggere, ricalcare e scrivere da soli, con l'accento di più da fissare. PDF gratis da stampare."
+  },
+  {
+   "slug": "parole-frequenti-serie-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di prime parole",
+   "h1": "Parole frequenti, serie 4: ma, poi, una, dove",
+   "strand": "Prima lettura e scrittura",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "parole-frequenti",
+    "infanzia"
+   ],
+   "p1": "La quarta serie di parole frequenti mette in pagina ma, poi, una e dove. Il bambino le affronta una alla volta: lettura ad alta voce, ricalco sul tratteggio, scrittura autonoma sulla riga vuota. Quattro parole corte, due delle quali — ma e poi — di sole due o tre lettere: pagine così danno soddisfazione, perché la riga vuota si riempie in fretta e bene.",
+   "p2": "Ma e poi sono le parole che fanno andare avanti le storie: voleva uscire, ma pioveva; poi arrivò il sole. Riconoscerle al volo significa sentire la svolta del racconto nel momento stesso in cui la si legge. Dove apre le domande, una accompagna i nomi: quattro funzioni diverse, tutte centrali nella frase. Un piccolo gioco da fare a voce, dopo la scheda: inventare insieme frasi che contengano tutte e quattro le parole — più sono buffe, meglio si fissano.",
+   "p3": "Come sempre la scheda è un PDF gratuito da stampare. Le serie si susseguono in ordine di frequenza: prima di questa ci sono anche, qui, più e bene nella serie 3, dopo arrivano cosa, oggi, molto e sempre nella serie 5. Al ritmo di una pagina ogni pochi giorni, il gruzzolo di parole lette a colpo d'occhio cresce senza sforzo.",
+   "canonicalDeckSlug": "parole-frequenti-k261",
+   "carousel": [
+    {
+     "label": "Parole frequenti, serie 5: cosa, oggi, molto, sempre",
+     "href": "parole-frequenti-serie-5"
+    },
+    {
+     "label": "Parole frequenti, serie 6: quando, tutti, questo, fare",
+     "href": "parole-frequenti-serie-6"
+    },
+    {
+     "label": "Parole frequenti, serie 2: con, per, sono, come",
+     "href": "parole-frequenti-serie-2"
+    },
+    {
+     "label": "Parole frequenti, serie 3: anche, qui, più, bene",
+     "href": "parole-frequenti-serie-3"
+    }
+   ],
+   "title": "Parole frequenti serie 4: ma, poi, una, dove | da stampare PDF",
+   "metaDescription": "Parole frequenti, serie 4: ma, poi, una e dove — leggi, ricalca e riscrivi ogni parola sulla riga vuota. Scheda di prima lettura in PDF gratis da stampare."
+  },
+  {
+   "slug": "parole-frequenti-serie-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di prime parole",
+   "h1": "Parole frequenti, serie 5: cosa, oggi, molto, sempre",
+   "strand": "Prima lettura e scrittura",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "parole-frequenti",
+    "infanzia"
+   ],
+   "p1": "Cosa, oggi, molto, sempre: la quinta serie di parole frequenti alza leggermente l'asticella, con parole fino a sei lettere. La formula non cambia: si legge la parola ad alta voce, la si ripassa sul tratteggio e infine la si scrive da soli sulla riga vuota. Sempre, la più lunga della pagina, è anche la più soddisfacente da veder riuscire tutta intera.",
+   "p2": "Con le parole più lunghe entra in gioco la memoria della sequenza: non basta riconoscere le lettere, bisogna tenerle in fila mentre la mano scrive. Il ricalco fa da ponte: la matita percorre l'ordine giusto delle lettere, e alla scrittura autonoma quella strada è già tracciata nella mente. Sono anche parole perfette per la vita di classe: oggi apre il calendario del mattino, cosa apre le domande — scriverle bene significa poterle usare subito.",
+   "p3": "Il PDF si stampa gratuitamente, come tutte le schede del percorso. Chi è arrivato fin qui ha già incontrato sedici parole tra le più usate della lingua; con la serie 6 — quando, tutti, questo e fare — il traguardo delle ventiquattro è a un passo. E per far vivere le parole fuori dalla scheda si può giocare a scovarle: quante volte compare oggi nel giornalino o nel libro di fiabe?",
+   "canonicalDeckSlug": "parole-frequenti-k262",
+   "carousel": [
+    {
+     "label": "Parole frequenti, serie 6: quando, tutti, questo, fare",
+     "href": "parole-frequenti-serie-6"
+    },
+    {
+     "label": "Parole frequenti, serie 2: con, per, sono, come",
+     "href": "parole-frequenti-serie-2"
+    },
+    {
+     "label": "Parole frequenti, serie 3: anche, qui, più, bene",
+     "href": "parole-frequenti-serie-3"
+    },
+    {
+     "label": "Parole frequenti, serie 4: ma, poi, una, dove",
+     "href": "parole-frequenti-serie-4"
+    }
+   ],
+   "title": "Parole frequenti serie 5: cosa, oggi, molto, sempre | da stampare PDF",
+   "metaDescription": "Quinta serie di parole frequenti: cosa, oggi, molto e sempre da leggere, ricalcare e scrivere in autonomia sulla riga vuota. PDF gratis da stampare."
+  },
+  {
+   "slug": "parole-frequenti-serie-6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di prime parole",
+   "h1": "Parole frequenti, serie 6: quando, tutti, questo, fare",
+   "strand": "Prima lettura e scrittura",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "parole-frequenti",
+    "infanzia"
+   ],
+   "p1": "Con quando, tutti, questo e fare si chiude la sesta e ultima serie del percorso sulle parole frequenti. Il rito è quello di sempre: lettura ad alta voce, ricalco sul tratteggio, scrittura autonoma sulla riga vuota. Quando e questo portano in dote il gruppo qu, che in italiano ha le sue regole, e fare è il verbo dei verbi, quello che i bambini usano per tutto.",
+   "p2": "Arrivare all'ultima serie significa avere alle spalle ventiquattro parole allenate con occhi, voce e mano. Il salto di qualità, ora, è passare dal riconoscere al produrre: con queste quattro parole si costruiscono domande e frasi vere — quando giochiamo tutti insieme? cosa vuoi fare? Invitare il bambino a dettarle o a scriverle è il modo più naturale di trasformare l'esercizio in linguaggio vivo. E il gruppo qu di quando e questo, fissato adesso con il ricalco, eviterà parecchi errori nei dettati futuri.",
+   "p3": "La scheda si scarica gratis in PDF. Completata la raccolta, due strade naturali: rileggere le sei serie mescolate, magari a caccia di parole nel libro preferito, oppure fare il grande passo verso il primo racconto con le domande di comprensione. Le parole frequenti ormai non sono più ostacoli: sono trampolini. E il traguardo merita una piccola festa: ventiquattro parole conosciute per nome sono un tesoro da lettori veri.",
+   "canonicalDeckSlug": "parole-frequenti-k263",
+   "carousel": [
+    {
+     "label": "Parole frequenti, serie 2: con, per, sono, come",
+     "href": "parole-frequenti-serie-2"
+    },
+    {
+     "label": "Parole frequenti, serie 3: anche, qui, più, bene",
+     "href": "parole-frequenti-serie-3"
+    },
+    {
+     "label": "Parole frequenti, serie 4: ma, poi, una, dove",
+     "href": "parole-frequenti-serie-4"
+    },
+    {
+     "label": "Parole frequenti, serie 5: cosa, oggi, molto, sempre",
+     "href": "parole-frequenti-serie-5"
+    }
+   ],
+   "title": "Parole frequenti serie 6: quando, tutti, questo, fare | da stampare PDF",
+   "metaDescription": "Ultima serie di parole frequenti: quando, tutti, questo e fare da leggere, ricalcare e scrivere da soli. Chiude il percorso delle 24 parole. PDF gratis."
+  },
+  {
+   "slug": "ritaglia-e-incolla-due-gruppi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda ritaglia e incolla",
+   "h1": "Ritaglia e incolla: otto figure in due grandi gruppi",
+   "strand": "Motricità fine e classificazione",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "ritaglia-e-incolla",
+    "animali",
+    "infanzia"
+   ],
+   "p1": "In fondo a questa scheda ci sono ben due strisce da ritagliare, otto figure in tutto, e in alto due grandi riquadri: ciascuno porta in cima una figura modello che dice quale gruppo è, e sotto quattro quadretti tratteggiati disposti due per due. Il compito è chiaro: staccare le figure con le forbici, osservarle una a una e incollarle nel gruppo giusto. La scheda esiste in due versioni — una popolata di animali, l'altra di veicoli — così l'esercizio si può rifare con un mondo tutto nuovo.",
+   "p2": "Dividere otto figure in due soli gruppi è la forma più pulita di classificazione: o di qua, o di là, e ogni scelta va motivata. È il momento perfetto per chiedere perché lo metti lì? e sentire il bambino spiegare il suo criterio ad alta voce — il ragionamento conta quanto la colla. Nel frattempo le mani lavorano sodo: due strisce significano il doppio del ritaglio, con le forbici che seguono il contorno e la mano libera che gira il foglio al punto giusto.",
+   "p3": "Il PDF si stampa gratuitamente: servono solo forbici dalla punta arrotondata e un tubetto di colla. Chi vuole variare trova le versioni a tema della scheda ritaglia e incolla — frutta, veicoli o giocattoli — con un'unica striscia; e per chi preferisce classificare con la matita invece che con le forbici c'è il colora in base alla forma. Otto figure al posto giusto: la pagina finita parla da sola.",
+   "canonicalDeckSlug": "ritaglia-e-incolla-animali-k264",
+   "collapseSiblings": [
+    "ritaglia-e-incolla-veicoli-k264"
+   ],
+   "carousel": [
+    {
+     "label": "Ritaglia e incolla con i veicoli",
+     "href": "ritaglia-e-incolla-veicoli"
+    },
+    {
+     "label": "Ritaglia e incolla con la frutta",
+     "href": "ritaglia-e-incolla-frutta"
+    },
+    {
+     "label": "Ritaglia e incolla con i giocattoli",
+     "href": "ritaglia-e-incolla-giocattoli"
+    },
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    }
+   ],
+   "title": "Ritaglia e incolla: due grandi gruppi | da stampare PDF",
+   "metaDescription": "Ritaglia e incolla con due strisce e otto figure da dividere in due grandi gruppi, in versione animali o veicoli. Forbici, colla e logica. PDF gratis."
+  },
+  {
+   "slug": "ritaglia-e-incolla-veicoli",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda ritaglia e incolla",
+   "h1": "Ritaglia e incolla con i veicoli",
+   "strand": "Motricità fine e classificazione",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "ritaglia-e-incolla",
+    "veicoli",
+    "infanzia"
+   ],
+   "p1": "Questa versione della scheda ritaglia e incolla è tutta dedicata ai veicoli: sulla striscia in basso sfilano mezzi di ogni tipo, da ritagliare con le forbici e incollare nel riquadro del gruppo giusto, riconoscibile dalla figura modello posata in cima. Prima si osserva, poi si taglia lungo la linea, infine si decide: questo dove va? Ogni veicolo trova la sua casa, e la pagina si riempie pezzo dopo pezzo.",
+   "p2": "I veicoli sono una miniera di parole e di osservazioni: c'è chi corre sulla strada, chi vola, chi galleggia. Mentre ritaglia e incolla, il bambino nomina i mezzi, li confronta, scopre somiglianze e differenze — un lavoro di lessico e di conoscenza del mondo che viaggia insieme alla motricità fine. Per molti bambini, poi, i veicoli sono una vera passione: e quando il tema appassiona, la concentrazione dura il doppio. Un consiglio pratico: far nominare ogni mezzo ad alta voce prima di incollarlo trasforma la scheda in un gioco di parole.",
+   "p3": "Il PDF è gratuito da stampare, forbici e colla fanno il resto. Se la formula piace, la stessa attività esiste anche con la frutta e con i giocattoli; per una sfida di classificazione più netta c'è la scheda con due strisce e due grandi gruppi. E dopo tanto ritagliare, il labirinto difficile dei veicoli è il premio perfetto per restare nel mondo dei motori.",
+   "canonicalDeckSlug": "ritaglia-e-incolla-veicoli-k240",
+   "carousel": [
+    {
+     "label": "Ritaglia e incolla con la frutta",
+     "href": "ritaglia-e-incolla-frutta"
+    },
+    {
+     "label": "Ritaglia e incolla con i giocattoli",
+     "href": "ritaglia-e-incolla-giocattoli"
+    },
+    {
+     "label": "Ritaglia e incolla: otto figure in due grandi gruppi",
+     "href": "ritaglia-e-incolla-due-gruppi"
+    },
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    }
+   ],
+   "title": "Ritaglia e incolla con i veicoli | da stampare PDF",
+   "metaDescription": "Ritaglia e incolla a tema veicoli: mezzi da ritagliare con le forbici e incollare nel riquadro del gruppo giusto. Motricità fine e logica. PDF gratis."
+  },
+  {
+   "slug": "ritaglia-e-incolla-frutta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "fruits",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda ritaglia e incolla",
+   "h1": "Ritaglia e incolla con la frutta",
+   "strand": "Motricità fine e classificazione",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "ritaglia-e-incolla",
+    "frutta",
+    "infanzia"
+   ],
+   "p1": "Sulla striscia in fondo a questa scheda è tutta questione di frutta: figure colorate da ritagliare una a una e da incollare nel riquadro del gruppo a cui appartengono, riconoscibile dalla figura modello che sta in cima. Forbici in mano, si segue il contorno, si osserva bene ogni frutto e si sceglie il suo posto. Alla fine la pagina diventa una piccola bancarella ordinata.",
+   "p2": "La frutta è il tema più quotidiano che ci sia: ogni figura è qualcosa che il bambino ha visto sul tavolo, al mercato, nella merenda. Per questo la scheda fa nascere conversazioni vere — quale ti piace? di che colore è? — che allargano il lessico mentre le mani lavorano. Ritagliare figure tondeggianti, poi, è un ottimo esercizio: le curve chiedono alle forbici piccoli aggiustamenti continui, ben diversi dai tagli dritti. E a lavoro finito si può giocare a coprire una figura con la mano e indovinare quale frutto manca: memoria e lessico in un colpo solo.",
+   "p3": "Basta stampare il PDF gratuito, prendere forbici sicure e colla, e l'attività è pronta — magari proprio prima della merenda. Le versioni con i veicoli e con i giocattoli permettono di ripetere il gioco cambiando mondo; chi invece vuole restare tra i frutti può proseguire con il labirinto facile della frutta, dove al posto delle forbici si usa la matita.",
+   "canonicalDeckSlug": "ritaglia-e-incolla-frutta-k240",
+   "carousel": [
+    {
+     "label": "Ritaglia e incolla con i giocattoli",
+     "href": "ritaglia-e-incolla-giocattoli"
+    },
+    {
+     "label": "Ritaglia e incolla: otto figure in due grandi gruppi",
+     "href": "ritaglia-e-incolla-due-gruppi"
+    },
+    {
+     "label": "Ritaglia e incolla con i veicoli",
+     "href": "ritaglia-e-incolla-veicoli"
+    },
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    }
+   ],
+   "title": "Ritaglia e incolla con la frutta | da stampare PDF",
+   "metaDescription": "Ritaglia e incolla a tema frutta: figure da ritagliare con le forbici e incollare nel gruppo giusto. Lessico quotidiano e motricità fine. PDF gratis."
+  },
+  {
+   "slug": "ritaglia-e-incolla-giocattoli",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "toys",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda ritaglia e incolla",
+   "h1": "Ritaglia e incolla con i giocattoli",
+   "strand": "Motricità fine e classificazione",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "ritaglia-e-incolla",
+    "giocattoli",
+    "infanzia"
+   ],
+   "p1": "Qui la striscia da ritagliare è piena di giocattoli: figure che sembrano uscite dalla cesta dei giochi, da staccare con le forbici e incollare ciascuna nel riquadro del proprio gruppo, indicato dalla figura modello in cima. Taglia, osserva, decidi, incolla: quattro gesti che si ripetono per ogni figura, finché ogni giocattolo non è sistemato al posto giusto.",
+   "p2": "Mettere ordine tra i giocattoli è un gesto che il bambino conosce bene — qui lo fa sulla carta, e il riordino diventa pensiero: che cosa sta con che cosa, e perché. Il tema familiare abbassa la fatica d'ingresso: nominare le figure è facile, e tutta l'energia va nella decisione e nel ritaglio. È anche una scheda che fa parlare: ogni giocattolo incollato è una piccola storia da raccontare — a chi appartiene, come ci si gioca, dove sta di solito. Le domande nascono da sole, e con loro le frasi.",
+   "p3": "Si stampa gratis in PDF e si prepara in un minuto. Per cambiare scenario ci sono le versioni con la frutta e con i veicoli, stessa formula e mondi diversi; la scheda con due strisce e due grandi gruppi aggiunge invece una sfida di classificazione più essenziale. E per salutare il tema in bellezza, il labirinto gigante dei giocattoli aspetta i più pazienti.",
+   "canonicalDeckSlug": "ritaglia-e-incolla-giocattoli-k240",
+   "carousel": [
+    {
+     "label": "Ritaglia e incolla: otto figure in due grandi gruppi",
+     "href": "ritaglia-e-incolla-due-gruppi"
+    },
+    {
+     "label": "Ritaglia e incolla con i veicoli",
+     "href": "ritaglia-e-incolla-veicoli"
+    },
+    {
+     "label": "Ritaglia e incolla con la frutta",
+     "href": "ritaglia-e-incolla-frutta"
+    },
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    }
+   ],
+   "title": "Ritaglia e incolla con i giocattoli | da stampare PDF",
+   "metaDescription": "Ritaglia e incolla a tema giocattoli: figure da ritagliare e incollare nel riquadro del gruppo giusto. Ordine, lessico e forbici. PDF gratis da stampare."
+  },
+  {
+   "slug": "colora-in-base-alla-forma",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda colora e impara",
+   "h1": "Colora in base alla forma: un colore per ogni figura",
+   "strand": "Numeri",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "conta-e-colora",
+    "infanzia"
+   ],
+   "p1": "Su questa scheda niente calcoli: la legenda in alto abbina ogni forma a un colore scritto in lettere — per esempio, tutti i triangoli rossi, tutti i cerchi blu. Sulla pagina sono sparse dodici figure dai contorni bianchi: il bambino le guarda una a una, riconosce di che forma sono e dà a ciascuna il colore stabilito dal codice. Forma dopo forma, la pagina si accende di colore.",
+   "p2": "Il bello dell'esercizio è che le stesse forme tornano più volte sul foglio, sparse qua e là in mezzo alle altre: triangoli, cerchi e quadrati da ritrovare uno a uno, ognuno nel suo angolo di pagina. Riconoscere un triangolo dovunque capiti significa aver capito che cosa lo rende un triangolo — non il colore, ma i tre lati. È geometria vera, travestita da colorazione, con in più la lettura dei nomi dei colori nella legenda: due apprendimenti in una sola pagina serena. Nominare le forme mentre si colora — questo è un quadrato, questo un cerchio — aggiunge anche il lessico giusto al momento giusto.",
+   "p3": "Il PDF si stampa gratuitamente e chiede solo una scatola di pastelli. Chi si diverte con i codici può passare al colora con i numeri, dove la legenda abbina numeri e colori, oppure — quando i primi calcoli sono maturi — al classico calcola e colora. Stessa magia: seguire un codice e veder comparire i colori giusti, uno dopo l'altro.",
+   "canonicalDeckSlug": "conta-e-colora-k265",
+   "carousel": [
+    {
+     "label": "Colora con le sottrazioni: ogni differenza ha il suo colore",
+     "href": "colora-con-le-sottrazioni"
+    },
+    {
+     "label": "Colora con addizioni e sottrazioni mescolate",
+     "href": "colora-con-addizioni-e-sottrazioni"
+    },
+    {
+     "label": "Colora con le somme fino a 20",
+     "href": "colora-con-le-somme-fino-a-20"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    }
+   ],
+   "title": "Colora in base alla forma | da stampare PDF",
+   "metaDescription": "Colora in base alla forma: la legenda abbina ogni forma a un colore — triangoli, cerchi e quadrati da riconoscere e colorare. PDF gratis da stampare."
+  },
+  {
+   "slug": "colora-con-le-sottrazioni",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda calcola e colora",
+   "h1": "Colora con le sottrazioni: ogni differenza ha il suo colore",
+   "strand": "Numeri",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "conta-e-colora",
+    "infanzia"
+   ],
+   "p1": "Dentro ogni parte del disegno si nasconde una sottrazione: il bambino la risolve, cerca il risultato nella legenda in alto e colora quella zona con il colore abbinato. Solo sottrazioni, su tutta la pagina — 7 meno 3, 9 meno 5, e così via — una differenza alla volta, finché l'immagine non è tutta colorata.",
+   "p2": "La sottrazione è spesso la sorella fragile dell'addizione: si impara dopo, si sbaglia di più. Una pagina di sole sottrazioni le dà tutta la scena, senza che il bambino possa rifugiarsi nei più. E il colore lavora da correttore silenzioso: se una differenza è sbagliata, il disegno stona, e viene voglia di ricontrollare da soli — contando indietro, oppure pensando quanto manca da 3 a 7, che è il trucco dei piccoli calcolatori esperti. Vale la pena chiedere al bambino quale strategia usa: parlarne ad alta voce la rende sua per davvero.",
+   "p3": "Il PDF gratuito si stampa in un attimo: servono i pastelli e un po' di calma. Chi vuole alternare i segni trova la versione con addizioni e sottrazioni mescolate, dove bisogna stare attenti anche al simbolo; chi preferisce cominciare più morbido può partire dal classico calcola e colora. Una scheda alla volta, i numeri diventano colori. E la pagina finita, tutta colorata, resta sul tavolo come piccolo promemoria: anche le sottrazioni sanno essere belle.",
+   "canonicalDeckSlug": "conta-e-colora-k267",
+   "carousel": [
+    {
+     "label": "Colora con addizioni e sottrazioni mescolate",
+     "href": "colora-con-addizioni-e-sottrazioni"
+    },
+    {
+     "label": "Colora con le somme fino a 20",
+     "href": "colora-con-le-somme-fino-a-20"
+    },
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    }
+   ],
+   "title": "Colora con le sottrazioni | da stampare PDF",
+   "metaDescription": "Colora con le sottrazioni: ogni zona del disegno nasconde una differenza, la legenda abbina risultati e colori. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "colora-con-addizioni-e-sottrazioni",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda calcola e colora",
+   "h1": "Colora con addizioni e sottrazioni mescolate",
+   "strand": "Numeri",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "conta-e-colora",
+    "infanzia"
+   ],
+   "p1": "Su questa scheda addizioni e sottrazioni si danno il cambio senza preavviso: in una zona del disegno c'è un 4 più 3, in quella accanto un 8 meno 2. Il bambino risolve il calcolo, trova il risultato nella legenda e colora la zona con il colore giusto. Il disegno si completa solo se ogni calcolo — più o meno che sia — è stato letto e risolto per quello che è.",
+   "p2": "Il protagonista segreto di questa pagina è il segno. Quando i calcoli sono tutti uguali, l'occhio smette presto di guardarlo; qui invece ogni zona richiede la domanda più o meno? prima ancora di contare. È l'antidoto all'errore più classico dei primi anni: sommare tutto per abitudine. Alternare le due operazioni sulla stessa pagina allena flessibilità e attenzione, le stesse che serviranno davanti a una pagina di problemi veri.",
+   "p3": "La scheda si stampa gratis in PDF. È il seguito ideale del colora con le sottrazioni, quando entrambe le operazioni girano bene da sole; il gradino dopo è il colora con le somme fino a 20, dove i numeri si fanno più grandi. E per un momento senza calcoli, il colora in base alla forma riposa la mente senza mollare i pastelli.",
+   "canonicalDeckSlug": "conta-e-colora-k268",
+   "carousel": [
+    {
+     "label": "Colora con le somme fino a 20",
+     "href": "colora-con-le-somme-fino-a-20"
+    },
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    },
+    {
+     "label": "Colora con le sottrazioni: ogni differenza ha il suo colore",
+     "href": "colora-con-le-sottrazioni"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    }
+   ],
+   "title": "Colora con addizioni e sottrazioni | da stampare PDF",
+   "metaDescription": "Addizioni e sottrazioni mescolate da risolvere e colorare: occhio al segno! La legenda abbina ogni risultato al suo colore. PDF gratis da stampare."
+  },
+  {
+   "slug": "colora-con-le-somme-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda calcola e colora",
+   "h1": "Colora con le somme fino a 20",
+   "strand": "Numeri",
+   "slotTokens": [
+    "conta-e-colora",
+    "infanzia"
+   ],
+   "p1": "Qui le addizioni fanno il grande salto oltre il dieci: dentro le zone del disegno si trovano calcoli come 8 più 5 o 9 più 7, con risultati tutti tra 11 e 20. Il bambino risolve la somma, cerca il numero nella legenda in alto e colora la zona con il colore corrispondente, fino a completare tutta l'immagine.",
+   "p2": "Superare il dieci è un passaggio delicato: le dita non bastano più, e serve una strategia. Molti bambini scoprono proprio qui il passaggio per la decina — da 8 più 5 a 8 più 2 più 3 — o imparano a partire dal numero più grande e contare in avanti. La scheda offre l'occasione perfetta per parlarne: come hai fatto? c'è un modo più veloce? Ogni zona colorata è una somma oltre il dieci andata a buon fine, e il disegno completo è la prova visibile che il traguardo è raggiunto.",
+   "p3": "Il PDF è gratuito da stampare. Chi ha ancora bisogno di sicurezza entro il dieci può ripassare con il classico calcola e colora o con gli amici del 10, che allenano proprio le coppie che fanno dieci — il trucco che qui torna utilissimo. Poi si riprende questa pagina, pastelli alla mano, e le somme grandi non fanno più paura.",
+   "canonicalDeckSlug": "conta-e-colora-k269",
+   "carousel": [
+    {
+     "label": "Colora in base alla forma: un colore per ogni figura",
+     "href": "colora-in-base-alla-forma"
+    },
+    {
+     "label": "Colora con le sottrazioni: ogni differenza ha il suo colore",
+     "href": "colora-con-le-sottrazioni"
+    },
+    {
+     "label": "Colora con addizioni e sottrazioni mescolate",
+     "href": "colora-con-addizioni-e-sottrazioni"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    }
+   ],
+   "title": "Colora con le somme fino a 20 | da stampare PDF",
+   "metaDescription": "Colora con le somme da 11 a 20: addizioni oltre il dieci da risolvere e colorare secondo la legenda. Scheda di calcolo in PDF gratis da stampare."
+  },
+  {
+   "slug": "labirinto-facile-frutta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda con labirinto",
+   "h1": "Labirinto facile nel mondo della frutta",
+   "strand": "Percezione visiva e motricità",
+   "slotTokens": [
+    "labirinti",
+    "frutta",
+    "infanzia"
+   ],
+   "p1": "È il labirinto perfetto per cominciare: una griglia piccola, corridoi larghi e una strada da trovare che non fa mai perdere la pazienza, ambientata in un allegro mondo di frutta. Si parte dall'ingresso in alto, si esplora con gli occhi e si traccia con la matita il percorso fino al traguardo, senza attraversare le pareti.",
+   "p2": "Nei primi labirinti l'importante è riuscire: un percorso breve, con pochi bivi, regala presto la soddisfazione dell'arrivo e insegna il metodo — prima guardo, poi traccio — senza frustrazione. È la palestra ideale per i più piccoli o per chi ai labirinti non ha mai giocato: la mano fa un tratto continuo e controllato, l'occhio impara a correre avanti lungo i corridoi, e la fiducia cresce quel tanto che basta per sentirsi chiedere subito: un altro!",
+   "p3": "Il PDF si stampa gratis, anche in più copie per riprovare a tempo di record. Quando la strada si trova ormai al primo colpo, il labirinto difficile dei veicoli alza il livello con una griglia più grande; i più coraggiosi puntano dritti al labirinto gigante. E per restare nel tema, c'è il ritaglia e incolla della frutta, forbici alla mano. Ogni frutto incontrato lungo la strada, poi, è un'occasione per nominare e contare: il labirinto diventa anche una passeggiata tra le parole.",
+   "canonicalDeckSlug": "labirinti-frutta-k270",
+   "carousel": [
+    {
+     "label": "Labirinto difficile tra i veicoli",
+     "href": "labirinto-difficile-veicoli"
+    },
+    {
+     "label": "Labirinto gigante dei giocattoli",
+     "href": "labirinto-gigante-giocattoli"
+    },
+    {
+     "label": "Labirinto degli animali da stampare",
+     "href": "labirinto-degli-animali"
+    },
+    {
+     "label": "Labirinto della frutta da stampare",
+     "href": "labirinto-della-frutta"
+    }
+   ],
+   "title": "Labirinto facile della frutta | da stampare PDF",
+   "metaDescription": "Labirinto facile a tema frutta: griglia piccola e corridoi larghi per trovare la prima strada con la matita, dall'ingresso al traguardo. PDF gratis."
+  },
+  {
+   "slug": "labirinto-difficile-veicoli",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda con labirinto",
+   "h1": "Labirinto difficile tra i veicoli",
+   "strand": "Percezione visiva e motricità",
+   "slotTokens": [
+    "labirinti",
+    "veicoli",
+    "infanzia"
+   ],
+   "p1": "Questo labirinto fa sul serio: la griglia è grande, i corridoi si intrecciano e i vicoli ciechi sono in agguato a ogni svolta, in un mondo popolato di veicoli. Dall'ingresso in alto al traguardo la strada c'è, ma va conquistata: occhi avanti, matita ferma, e via tra le curve.",
+   "p2": "Su un labirinto grande la strategia batte la fortuna: partire a caso significa cancellare spesso. I bambini scoprono da soli le mosse dei risolutori esperti — seguire il corridoio con lo sguardo prima di tracciare, tornare all'ultimo bivio quando la strada muore, magari controllare il percorso anche a ritroso partendo dal traguardo. È pianificazione allo stato puro: tenere a mente dove si è già stati e scegliere dove andare, esattamente il pensiero che servirà nei problemi a più passaggi. E se la matita esita, nessun problema: si può seguire prima il corridoio con il dito, e tracciare solo quando la strada è ormai sicura.",
+   "p3": "La scheda è un PDF gratuito da stampare. Chi trovasse la griglia ancora troppo intricata può farsi le ossa sul labirinto facile della frutta; chi invece arriva al traguardo senza esitazioni è pronto per il labirinto gigante dei giocattoli, il più grande di tutti. E a fine impresa, il percorso tracciato merita di essere ripercorso col dito, raccontando la strada ad alta voce.",
+   "canonicalDeckSlug": "labirinti-veicoli-k271",
+   "carousel": [
+    {
+     "label": "Labirinto gigante dei giocattoli",
+     "href": "labirinto-gigante-giocattoli"
+    },
+    {
+     "label": "Labirinto degli animali da stampare",
+     "href": "labirinto-degli-animali"
+    },
+    {
+     "label": "Labirinto della frutta da stampare",
+     "href": "labirinto-della-frutta"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    }
+   ],
+   "title": "Labirinto difficile dei veicoli | da stampare PDF",
+   "metaDescription": "Labirinto difficile a tema veicoli: griglia grande, bivi e vicoli ciechi da superare con strategia, dall'ingresso al traguardo. PDF gratis da stampare."
+  },
+  {
+   "slug": "labirinto-gigante-giocattoli",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda con labirinto",
+   "h1": "Labirinto gigante dei giocattoli",
+   "strand": "Percezione visiva e motricità",
+   "slotTokens": [
+    "labirinti",
+    "giocattoli",
+    "infanzia"
+   ],
+   "p1": "Il più grande di tutti: questo labirinto gigante riempie la pagina con la griglia più fitta della serie, in un mondo di giocattoli. La strada dall'ingresso al traguardo è lunga, piena di svolte e di false piste: servono matita, pazienza e una buona dose di caparbietà per arrivare fino in fondo.",
+   "p2": "Un labirinto così lungo allena qualcosa che nessun esercizio veloce può dare: la tenuta. L'attenzione deve restare accesa per parecchi minuti, la frustrazione dei vicoli ciechi va incassata e trasformata in un nuovo tentativo, e il traguardo premia solo chi non molla. Per questo è una scheda preziosa nei momenti di calma — arriva il silenzio operoso — e per questo l'arrivo va festeggiato: portare a termine un'impresa lunga è una conquista che il bambino riconosce da solo. Per i più piccoli può diventare un'impresa in due tappe: una pausa a metà strada non toglie nulla alla vittoria finale.",
+   "p3": "Il PDF gratuito si stampa in un attimo, e vale la pena tenerne una copia di scorta. Chi vuole scaldarsi prima dell'impresa può passare dal labirinto difficile dei veicoli; chi cerca un'attività più distesa dopo tanta concentrazione trova nel ritaglia e incolla dei giocattoli il proseguimento perfetto del tema. Missione compiuta: il gigante è domato.",
+   "canonicalDeckSlug": "labirinti-giocattoli-k272",
+   "carousel": [
+    {
+     "label": "Labirinto degli animali da stampare",
+     "href": "labirinto-degli-animali"
+    },
+    {
+     "label": "Labirinto della frutta da stampare",
+     "href": "labirinto-della-frutta"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    },
+    {
+     "label": "Labirinto difficile tra i veicoli",
+     "href": "labirinto-difficile-veicoli"
+    }
+   ],
+   "title": "Labirinto gigante dei giocattoli | da stampare PDF",
+   "metaDescription": "Labirinto gigante a tema giocattoli: la griglia più grande della serie, per allenare pazienza e concentrazione fino al traguardo. PDF gratis da stampare."
+  },
+  {
+   "slug": "labirinto-degli-animali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "animals",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda con labirinto",
+   "h1": "Labirinto degli animali da stampare",
+   "strand": "Percezione visiva e motricità",
+   "slotTokens": [
+    "labirinti",
+    "animali",
+    "infanzia"
+   ],
+   "p1": "In questo grande labirinto il tema è affidato a due sole figure: un animale nella casella di partenza, in alto a sinistra, e un altro che aspetta al traguardo, in basso a destra. In mezzo non c'è nient'altro che il tracciato da attraversare per arrivare dall'uno all'altro. Il bambino esplora i corridoi con lo sguardo, prova le strade, evita i vicoli ciechi e traccia con la matita il percorso giusto, dall'inizio alla fine, senza attraversare le pareti.",
+   "p2": "Il tema non è solo decorazione: due figure bastano a far nascere una storia. Chi parte, in alto? chi aspetta al traguardo? Trasformare il labirinto in una piccola storia — aiuta l'animaletto ad arrivare a casa! — dà al compito uno scopo e tiene viva la motivazione fino alla fine. Nel frattempo lavorano le solite, preziose abilità: occhio che pianifica, mano che traccia, pazienza che cresce a ogni bivio superato. E nominare i due animali, quello che parte e quello che attende, è già una parola in più nel vocabolario del bambino.",
+   "p3": "La scheda si stampa gratuitamente in PDF, pronta per casa o per la sezione. La stessa avventura esiste anche nel labirinto della frutta, con un mondo tutto da gustare; chi cerca livelli su misura trova il labirinto facile per iniziare e il gigante per le grandi occasioni. E la scheda ritaglia e incolla degli animali completa il tema, forbici alla mano.",
+   "canonicalDeckSlug": "labirinti-animali-k242",
+   "carousel": [
+    {
+     "label": "Labirinto della frutta da stampare",
+     "href": "labirinto-della-frutta"
+    },
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    },
+    {
+     "label": "Labirinto difficile tra i veicoli",
+     "href": "labirinto-difficile-veicoli"
+    },
+    {
+     "label": "Labirinto gigante dei giocattoli",
+     "href": "labirinto-gigante-giocattoli"
+    }
+   ],
+   "title": "Labirinto degli animali | da stampare PDF",
+   "metaDescription": "Labirinto a tema animali: aiuta l'animaletto a trovare la strada fino al traguardo, tracciando il percorso con la matita. PDF gratis da stampare."
+  },
+  {
+   "slug": "labirinto-della-frutta",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda con labirinto",
+   "h1": "Labirinto della frutta da stampare",
+   "strand": "Percezione visiva e motricità",
+   "slotTokens": [
+    "labirinti",
+    "frutta",
+    "infanzia"
+   ],
+   "p1": "Questo labirinto porta il bambino in un mondo di frutta: tra le pareti della grande griglia si snoda un'unica strada giusta, dall'ingresso in alto fino al traguardo. Si osserva, si sceglie il corridoio, si torna indietro se la via si chiude e si traccia il percorso con la matita, con un tratto continuo e senza toccare i bordi.",
+   "p2": "Qui vale la pena guardare da vicino il gesto: tracciare un percorso lungo dentro corridoi stretti è un esercizio di calibrazione fine — la matita deve stare al centro, rallentare nelle curve, fermarsi e ripartire ai bivi senza strappi. È lo stesso controllo che servirà per scrivere dentro le righe. Un trucco da suggerire: prima percorrere la strada con il dito, poi con la matita; la seconda volta il tratto esce pulito e sicuro.",
+   "p3": "Il PDF gratuito è pronto da stampare. Per cambiare ambientazione c'è il labirinto degli animali, identico nello spirito e diverso nel mondo; per calibrare la difficoltà, il labirinto facile della frutta accoglie i principianti mentre il gigante sfida i veterani. E quando la matita chiede riposo, il ritaglia e incolla della frutta continua il tema con le forbici. E se il percorso riesce al primo colpo, si può rigiocare a occhi puntati: trovare la strada solo con lo sguardo, senza matita.",
+   "canonicalDeckSlug": "labirinti-frutta-k242",
+   "carousel": [
+    {
+     "label": "Labirinto facile nel mondo della frutta",
+     "href": "labirinto-facile-frutta"
+    },
+    {
+     "label": "Labirinto difficile tra i veicoli",
+     "href": "labirinto-difficile-veicoli"
+    },
+    {
+     "label": "Labirinto gigante dei giocattoli",
+     "href": "labirinto-gigante-giocattoli"
+    },
+    {
+     "label": "Labirinto degli animali da stampare",
+     "href": "labirinto-degli-animali"
+    }
+   ],
+   "title": "Labirinto della frutta | da stampare PDF",
+   "metaDescription": "Labirinto a tema frutta: una sola strada giusta tra i corridoi della griglia, da tracciare con la matita senza toccare i bordi. PDF gratis da stampare."
+  },
+  {
+   "slug": "amici-del-5-con-i-puntini",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda amici del 5",
+   "h1": "Amici del 5 con i puntini da contare",
+   "strand": "Numeri",
+   "standard": "K.OA.A.5",
+   "slotTokens": [
+    "amici-del-10",
+    "infanzia"
+   ],
+   "p1": "Questa scheda presenta gli schemi parte-parte-tutto del numero 5, e dentro ogni cerchio ci sono i puntini da contare. In alto sta il 5, sotto due cerchi collegati: uno mostra già il suo numero con i pallini corrispondenti, l'altro è tratteggiato e aspetta. Il bambino conta i puntini, capisce quanti ne mancano per arrivare a cinque e scrive il numero nel cerchio vuoto.",
+   "p2": "I puntini fanno la differenza per chi inizia: il numero non è ancora un simbolo astratto, ma una quantità che si vede e si tocca con il dito. Contare i pallini uno a uno, o riconoscerne tre a colpo d'occhio senza contare, sono esattamente i passi con cui alla scuola dell'infanzia nasce il senso del numero. E il 5 è il totale perfetto per cominciare: sta tutto in una mano, così ogni schema della scheda si può verificare aprendo e chiudendo le dita. Due dita alzate, quante piegate? Il corpo conferma quello che dice il foglio.",
+   "p3": "Il PDF si scarica e si stampa gratis, pronto per un momento tranquillo al tavolo. Quando le coppie del 5 escono sicure, il passo naturale sono gli amici del 10 con i puntini, che allargano il gioco a due mani intere; più avanti aspetta la versione senza pallini, gli amici del 10, dove i numeri si affrontano da soli. Una scala serena, un gradino alla volta.",
+   "canonicalDeckSlug": "amici-del-10-k273",
+   "carousel": [
+    {
+     "label": "Scomposizioni fino a 10: totali sempre diversi",
+     "href": "scomposizioni-fino-a-10"
+    },
+    {
+     "label": "Amici del 20: coppie di numeri fino a venti",
+     "href": "amici-del-20"
+    },
+    {
+     "label": "Scomposizioni: trova il totale in alto",
+     "href": "scomposizioni-trova-il-totale"
+    },
+    {
+     "label": "Amici del 10 con i puntini da contare",
+     "href": "amici-del-10-con-i-puntini"
+    }
+   ],
+   "title": "Amici del 5 con i puntini – Infanzia | da stampare PDF",
+   "metaDescription": "Schemi parte-parte-tutto del numero 5 con i puntini da contare: il bambino conta i pallini, trova il numero che manca e scopre le coppie del 5. PDF gratis."
+  },
+  {
+   "slug": "scomposizioni-fino-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di scomposizione",
+   "h1": "Scomposizioni fino a 10: totali sempre diversi",
+   "strand": "Numeri",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "amici-del-10",
+    "infanzia"
+   ],
+   "p1": "Su questa scheda il totale cambia a ogni schema: gli interi in alto vanno dal 5 al 10, tutti mescolati. Sotto ogni totale ci sono i due cerchi delle parti; una parte è scritta, l'altra è tratteggiata e vuota. Il bambino deve prima leggere bene quale numero comanda in alto, poi trovare la parte che manca per completarlo e scriverla nel cerchio.",
+   "p2": "È proprio il totale che cambia a rendere prezioso questo esercizio. Quando il numero in alto è sempre lo stesso, dopo un po' la mano va da sola; qui invece ogni schema chiede di ricominciare da capo: guardare l'intero, guardare la parte data, ragionare. È un allenamento all'attenzione prima ancora che al calcolo, e previene l'errore più tipico di queste attività, cioè rispondere in automatico come se il totale fosse sempre dieci. Scomporre numeri diversi insegna anche una verità grande: ogni numero, non solo il 10, si può spezzare in pezzi amici.",
+   "p3": "La scheda è un PDF gratuito da stampare quando serve. Chi vuole concentrarsi su un totale solo trova gli amici del 10 con i puntini, dolcissimi per cominciare, e la scheda degli amici del 20 per chi ha già la marcia lunga. C'è anche la variante al contrario, scomposizioni: trova il totale, dove le parti ci sono e manca proprio il numero in alto.",
+   "canonicalDeckSlug": "amici-del-10-k274",
+   "carousel": [
+    {
+     "label": "Amici del 20: coppie di numeri fino a venti",
+     "href": "amici-del-20"
+    },
+    {
+     "label": "Scomposizioni: trova il totale in alto",
+     "href": "scomposizioni-trova-il-totale"
+    },
+    {
+     "label": "Amici del 10 con i puntini da contare",
+     "href": "amici-del-10-con-i-puntini"
+    },
+    {
+     "label": "Amici del 5 con i puntini da contare",
+     "href": "amici-del-5-con-i-puntini"
+    }
+   ],
+   "title": "Scomposizioni fino a 10 – Numeri da 5 a 10 | da stampare PDF",
+   "metaDescription": "Schemi parte-parte-tutto con totali che cambiano da 5 a 10: il bambino legge il numero in alto e trova la parte mancante. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "amici-del-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda amici del 20",
+   "h1": "Amici del 20: coppie di numeri fino a venti",
+   "strand": "Numeri",
+   "slotTokens": [
+    "amici-del-10",
+    "infanzia"
+   ],
+   "p1": "Qui il numero di casa è il 20: in ogni schema parte-parte-tutto della scheda il venti sta in alto e si divide in due cerchi collegati. Un compagno è già scritto, l'altro cerchio è tratteggiato e vuoto: il bambino cerca il numero che, insieme al primo, arriva esattamente a venti, e lo scrive con cura. Coppia dopo coppia, il 20 rivela tutti i suoi segreti.",
+   "p2": "Il salto dal 10 al 20 è il primo vero passaggio di livello, e questa scheda lo accompagna con un'idea potente: le coppie del 20 assomigliano a quelle del 10. Chi sa che 7 e 3 fanno dieci può scoprire che 17 e 3 fanno venti, e che il gioco è lo stesso una decina più in là. Ragionando sugli schemi il bambino comincia a vedere i numeri oltre il dieci non come una selva nuova, ma come vecchi amici con la giacca da grandi. È il ponte che porta dritti al calcolo entro il 20 di classe prima.",
+   "p3": "Stampa il PDF gratuito e lascia tutto il tempo che serve: qui conta capire, non correre. Se il venti si dimostra ancora troppo grande, il ritorno agli amici del 10 rimette in fila le basi; quando invece le coppie escono spedite, il calcolo mentale fino a 20 è il campo di gara perfetto per metterle al lavoro. Un passo alla volta, la montagna diventa collina.",
+   "canonicalDeckSlug": "amici-del-10-k275",
+   "carousel": [
+    {
+     "label": "Scomposizioni: trova il totale in alto",
+     "href": "scomposizioni-trova-il-totale"
+    },
+    {
+     "label": "Amici del 10 con i puntini da contare",
+     "href": "amici-del-10-con-i-puntini"
+    },
+    {
+     "label": "Amici del 5 con i puntini da contare",
+     "href": "amici-del-5-con-i-puntini"
+    },
+    {
+     "label": "Scomposizioni fino a 10: totali sempre diversi",
+     "href": "scomposizioni-fino-a-10"
+    }
+   ],
+   "title": "Amici del 20 – Scomposizioni del venti | da stampare PDF",
+   "metaDescription": "Schemi parte-parte-tutto dedicati al numero 20: un cerchio è vuoto e il bambino scrive il numero che completa la coppia. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "scomposizioni-trova-il-totale",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di scomposizione",
+   "h1": "Scomposizioni: trova il totale in alto",
+   "strand": "Numeri",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "amici-del-10",
+    "infanzia"
+   ],
+   "p1": "Questa volta lo schema parte-parte-tutto è capovolto: le due parti in basso sono già scritte tutte e due, mentre il cerchio del totale, in alto, è tratteggiato e vuoto. Il bambino guarda le due parti, le mette insieme e scrive nel cerchio grande il numero intero che formano. Non si cerca più il pezzo che manca: si costruisce il tutto.",
+   "p2": "Cambiare il posto del buco cambia il pensiero. Quando manca una parte, il bambino scompone; quando manca il totale, compone — e comporre due parti è, senza che nessuno l'abbia ancora chiamata così, un'addizione vera. Alternare le due direzioni sullo stesso schema insegna la cosa più importante: parti e tutto sono legati da una relazione che funziona in entrambi i sensi. È il seme da cui in classe prima germoglieranno le famiglie di operazioni, dove da tre numeri nascono quattro calcoli. Chi ha giocato con questi schemi le riconoscerà al primo sguardo.",
+   "p3": "Il PDF è gratuito e pronto da stampare. Per completare l'allenamento conviene alternare questa scheda con le scomposizioni fino a 10, dove il totale è scritto e manca la parte: insieme coprono le due direzioni del ragionamento. E per i più piccoli restano gli amici del 5 con i puntini, il gradino morbido da cui tutto comincia. Bottoni e tappi sul tavolo aiutano sempre.",
+   "canonicalDeckSlug": "amici-del-10-k276",
+   "carousel": [
+    {
+     "label": "Amici del 10 con i puntini da contare",
+     "href": "amici-del-10-con-i-puntini"
+    },
+    {
+     "label": "Amici del 5 con i puntini da contare",
+     "href": "amici-del-5-con-i-puntini"
+    },
+    {
+     "label": "Scomposizioni fino a 10: totali sempre diversi",
+     "href": "scomposizioni-fino-a-10"
+    },
+    {
+     "label": "Amici del 20: coppie di numeri fino a venti",
+     "href": "amici-del-20"
+    }
+   ],
+   "title": "Scomposizioni: trova il totale – Infanzia | da stampare PDF",
+   "metaDescription": "Schemi parte-parte-tutto al contrario: le due parti sono scritte e manca il totale in alto. Il bambino unisce le parti e scrive l'intero. PDF gratis."
+  },
+  {
+   "slug": "amici-del-10-con-i-puntini",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda amici del 10",
+   "h1": "Amici del 10 con i puntini da contare",
+   "strand": "Numeri",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "amici-del-10",
+    "infanzia"
+   ],
+   "p1": "Su questa scheda gli schemi del 10 arrivano con un aiuto prezioso: i puntini da contare dentro i cerchi. Il dieci sta in alto, sotto ci sono le due parti; quella già scritta mostra anche i suoi pallini, così il bambino può contarli con il dito, proseguire il conteggio fino a dieci e scoprire quanti ne servono ancora. Il numero trovato si scrive nel cerchio tratteggiato.",
+   "p2": "Tra il contare oggetti e il calcolare con i simboli c'è un ponte, e questa scheda è fatta apposta per attraversarlo. I puntini permettono a chi non è ancora pronto per i numeri nudi di lavorare sulle stesse identiche coppie del dieci: conta sette pallini, prosegue otto, nove, dieci, e capisce che gli amici di sette sono tre. In una sezione o in una classe con livelli diversi, questa pagina e la sua gemella senza puntini permettono a tutti di fare lo stesso esercizio, ciascuno con il sostegno giusto. Nessuno resta indietro, nessuno si annoia.",
+   "p3": "Il PDF si stampa gratis in un attimo. Quando i puntini non servono più — succede prima di quanto si creda — la scheda degli amici del 10 propone le stesse coppie in versione da grandi, solo numeri. E per chi vuole cominciare ancora più in piccolo ci sono gli amici del 5 con i puntini: una mano sola, cinque dita, le prime coppie di tutte.",
+   "canonicalDeckSlug": "amici-del-10-k277",
+   "carousel": [
+    {
+     "label": "Amici del 5 con i puntini da contare",
+     "href": "amici-del-5-con-i-puntini"
+    },
+    {
+     "label": "Scomposizioni fino a 10: totali sempre diversi",
+     "href": "scomposizioni-fino-a-10"
+    },
+    {
+     "label": "Amici del 20: coppie di numeri fino a venti",
+     "href": "amici-del-20"
+    },
+    {
+     "label": "Scomposizioni: trova il totale in alto",
+     "href": "scomposizioni-trova-il-totale"
+    }
+   ],
+   "title": "Amici del 10 con i puntini – Infanzia | da stampare PDF",
+   "metaDescription": "Gli amici del 10 con l'aiuto dei puntini: il bambino conta i pallini nei cerchi e trova il numero che completa il dieci. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "calcolo-mentale-fino-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di calcolo mentale",
+   "h1": "Calcolo mentale fino a 10: le prime operazioni a mente",
+   "strand": "Numeri",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calcolo-mentale",
+    "classe-prima"
+   ],
+   "p1": "Le operazioni di questa scheda stanno tutte entro il 10: piccole addizioni e sottrazioni da risolvere a mente, una per carta, con il riquadro accanto che aspetta il risultato. Niente figure da contare, niente colonne: si legge l'operazione, si pensa un momento, si scrive. È il primo campo di allenamento del calcolo pensato, con numeri che il bambino conosce come le proprie tasche.",
+   "p2": "Restare entro il 10 non è una versione ridotta dell'esercizio vero: è il fondamento di tutto. Le coppie entro il dieci — 4 più 3, 9 meno 5 — sono i fatti che devono diventare istantanei, perché ogni calcolo futuro li userà come mattoni: chi risolve 24 più 3 sta in realtà usando 4 più 3. Su numeri piccoli il bambino può anche staccarsi dalle dita, e accorgersi che la mente da sola è più veloce. È il momento in cui la strategia sostituisce il conteggio: un passaggio che merita tutte le pagine tranquille di cui c'è bisogno.",
+   "p3": "La scheda si stampa gratis in PDF, ideale per i cinque minuti buoni dopo la merenda. Quando i risultati escono senza esitazioni, la strada prosegue con il calcolo mentale fino a 20, dove entrano in gioco i passaggi per la decina; e per chi ama le sfide con il buco c'è trova il numero mancante fino a 10, la stessa matematica guardata dall'altra parte.",
+   "canonicalDeckSlug": "calcolo-mentale-g1214",
+   "carousel": [
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 20",
+     "href": "numero-mancante-fino-a-20"
+    },
+    {
+     "label": "Addizioni a mente fino a 20, solo più",
+     "href": "addizioni-a-mente-fino-a-20"
+    },
+    {
+     "label": "Sottrazioni a mente fino a 20, solo meno",
+     "href": "sottrazioni-a-mente-fino-a-20"
+    },
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 10",
+     "href": "numero-mancante-fino-a-10"
+    }
+   ],
+   "title": "Calcolo mentale fino a 10 – Classe prima | da stampare PDF",
+   "metaDescription": "Addizioni e sottrazioni entro il 10 da risolvere a mente, con il risultato da scrivere nel riquadro. Scheda per la classe prima, in PDF gratis da stampare."
+  },
+  {
+   "slug": "numero-mancante-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda del numero mancante",
+   "h1": "Trova il numero mancante nelle operazioni fino a 20",
+   "strand": "Numeri",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "calcolo-mentale",
+    "classe-prima"
+   ],
+   "p1": "In ogni operazione di questa scheda c'è un buco: un quadratino vuoto al posto di uno dei numeri, come in ☐ + 3 = 8. Le uguaglianze restano entro il 20 e il risultato è già scritto: il compito del bambino è trovare a mente il numero nascosto che fa tornare i conti e scriverlo nel quadratino. Ogni carta è un piccolo indovinello matematico.",
+   "p2": "Il numero mancante costringe a un salto di qualità: non basta più eseguire, bisogna ragionare all'indietro. Quanto devo aggiungere a 3 per arrivare a 8? È il pensiero che i matematici chiamano pre-algebrico, e che rimette al suo posto anche il segno di uguale: non un fischio che annuncia il risultato, ma una bilancia con due piatti che devono pesare uguale. L'errore classico — sommare i due numeri visibili e scrivere 11 — è il segnale prezioso che il bambino sta ancora leggendo l'uguale nel modo vecchio. Qualche schema con i gettoni sul tavolo, e la bilancia si raddrizza.",
+   "p3": "Il PDF è gratuito da stampare. Se i buchi entro il 20 fanno ancora sudare, la versione fino a 10 offre lo stesso ragionamento su numeri più amichevoli; e per vedere da vicino come addizione e sottrazione si scambiano i ruoli, le famiglie di operazioni con le loro casette sono la scheda compagna ideale. Un buco al giorno leva il dubbio di torno.",
+   "canonicalDeckSlug": "calcolo-mentale-g1215",
+   "carousel": [
+    {
+     "label": "Addizioni a mente fino a 20, solo più",
+     "href": "addizioni-a-mente-fino-a-20"
+    },
+    {
+     "label": "Sottrazioni a mente fino a 20, solo meno",
+     "href": "sottrazioni-a-mente-fino-a-20"
+    },
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 10",
+     "href": "numero-mancante-fino-a-10"
+    },
+    {
+     "label": "Calcolo mentale fino a 10: le prime operazioni a mente",
+     "href": "calcolo-mentale-fino-a-10"
+    }
+   ],
+   "title": "Numero mancante fino a 20 – Classe prima | da stampare PDF",
+   "metaDescription": "Operazioni entro il 20 con un buco al posto di un numero: il bambino ragiona al contrario e completa l'uguaglianza. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "addizioni-a-mente-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di calcolo mentale",
+   "h1": "Addizioni a mente fino a 20, solo più",
+   "strand": "Numeri",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calcolo-mentale",
+    "classe-prima"
+   ],
+   "p1": "Su questa scheda ci sono soltanto addizioni: somme entro il 20, una per carta, tutte da risolvere a mente e da completare scrivendo il risultato nel riquadro. Nessuna sottrazione a mescolare le carte: il segno è sempre più, e il bambino può dedicare tutta la pagina a un'unica missione, diventare rapido e sicuro con le somme.",
+   "p2": "Lavorare su una sola operazione alla volta ha un vantaggio preciso: permette di consolidare le strategie senza cambiare marcia a ogni riga. Entro il 20 le strade buone per addizionare sono soprattutto due — passare per il dieci, come in 8 più 5 che diventa 8 più 2 più 3, e appoggiarsi ai doppi, come in 6 più 7 che è 6 più 6 più 1. Una pagina di sole addizioni dà il tempo di provarle, confrontarle e scegliere la preferita. Chiedere ogni tanto come hai fatto? vale quanto l'esercizio: dà un nome alla strategia e la rende riutilizzabile.",
+   "p3": "La scheda si stampa gratis in PDF. La sua gemella naturale è quella delle sottrazioni a mente fino a 20, per dare alla seconda operazione lo stesso allenamento dedicato; quando entrambe filano lisce, il calcolo mentale fino a 20 le rimescola in un'unica pagina, come accade nei problemi veri. Prima i binari separati, poi lo scambio: è così che si costruisce la velocità.",
+   "canonicalDeckSlug": "calcolo-mentale-g1216",
+   "carousel": [
+    {
+     "label": "Sottrazioni a mente fino a 20, solo meno",
+     "href": "sottrazioni-a-mente-fino-a-20"
+    },
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 10",
+     "href": "numero-mancante-fino-a-10"
+    },
+    {
+     "label": "Calcolo mentale fino a 10: le prime operazioni a mente",
+     "href": "calcolo-mentale-fino-a-10"
+    },
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 20",
+     "href": "numero-mancante-fino-a-20"
+    }
+   ],
+   "title": "Addizioni a mente fino a 20 – Classe prima | da stampare PDF",
+   "metaDescription": "Solo addizioni entro il 20, tutte da risolvere a mente scrivendo la somma nel riquadro. Scheda di calcolo per la classe prima, in PDF gratis da stampare."
+  },
+  {
+   "slug": "sottrazioni-a-mente-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di calcolo mentale",
+   "h1": "Sottrazioni a mente fino a 20, solo meno",
+   "strand": "Numeri",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calcolo-mentale",
+    "classe-prima"
+   ],
+   "p1": "Questa scheda è tutta dedicata alle sottrazioni: differenze entro il 20, una per carta, da risolvere a mente scrivendo il risultato nel riquadro accanto. Il segno meno non si alterna con niente: riga dopo riga, il bambino affronta soltanto sottrazioni, e proprio per questo può prenderci finalmente la mano.",
+   "p2": "La sottrazione è quasi sempre la sorella fragile: nelle pagine miste il bambino la incontra di rado e non fa in tempo ad addomesticarla. Una scheda di soli meno rimette le cose in pari. Ed è l'occasione per scoprire il segreto che cambia tutto: molte sottrazioni si risolvono meglio salendo che scendendo. Per 13 meno 9 non serve contare nove passi all'indietro: basta chiedersi quanto manca da 9 a 13, e la risposta arriva in due salti. Vedere la sottrazione come distanza tra due numeri, invece che come togliere, è la strategia che i calcolatori esperti usano senza dirlo.",
+   "p3": "Il PDF è gratuito da stampare. Per un allenamento bilanciato conviene alternare questa pagina con le addizioni a mente fino a 20, e poi mescolare tutto nel calcolo mentale fino a 20. E se una differenza continua a inciampare, la casetta giusta nelle famiglie di operazioni mostra quale addizione le fa da stampella: 9 più 4 fa 13, quindi 13 meno 9 fa 4. Sempre.",
+   "canonicalDeckSlug": "calcolo-mentale-g1217",
+   "carousel": [
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 10",
+     "href": "numero-mancante-fino-a-10"
+    },
+    {
+     "label": "Calcolo mentale fino a 10: le prime operazioni a mente",
+     "href": "calcolo-mentale-fino-a-10"
+    },
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 20",
+     "href": "numero-mancante-fino-a-20"
+    },
+    {
+     "label": "Addizioni a mente fino a 20, solo più",
+     "href": "addizioni-a-mente-fino-a-20"
+    }
+   ],
+   "title": "Sottrazioni a mente fino a 20 – Classe prima | da stampare PDF",
+   "metaDescription": "Solo sottrazioni entro il 20 da risolvere a mente, con il risultato da scrivere nel riquadro. Scheda per la classe prima, in PDF gratis da stampare."
+  },
+  {
+   "slug": "numero-mancante-fino-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda del numero mancante",
+   "h1": "Trova il numero mancante nelle operazioni fino a 10",
+   "strand": "Numeri",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "calcolo-mentale",
+    "classe-prima"
+   ],
+   "p1": "Le uguaglianze di questa scheda stanno tutte entro il 10, e in ognuna manca un numero: al suo posto c'è un quadratino vuoto, come in ☐ + 2 = 6. Il risultato è già scritto; il bambino deve scovare il numero nascosto che rende vera l'uguaglianza e scriverlo nel quadratino. Numeri piccoli, ragionamento grande.",
+   "p2": "Cominciare i numeri mancanti entro il 10 è una scelta gentile e furba insieme. Gentile, perché con numeri così piccoli il bambino può verificare ogni risposta con le dita o con i gettoni, e nessun buco fa davvero paura. Furba, perché qui il lavoro vero non è il calcolo ma il modo nuovo di leggere l'uguaglianza: capire che il quadratino è una domanda, non un posto dove copiare il risultato. E c'è un alleato segreto: chi conosce gli amici del 10 e le coppie dei numeri piccoli riconosce quasi ogni buco al primo sguardo. L'esercizio diventa il collaudo di quelle coppie.",
+   "p3": "La scheda si stampa gratuitamente in PDF. Il gradino successivo è la versione fino a 20, dove il ragionamento resta identico ma i numeri allungano il passo; e per chi vuole vedere il numero mancante dentro una struttura più ricca ci sono le famiglie con il numero mancante, dove il buco si sposta dentro le casette delle operazioni. L'indovinello continua, cambia solo il vestito.",
+   "canonicalDeckSlug": "calcolo-mentale-g1218",
+   "carousel": [
+    {
+     "label": "Calcolo mentale fino a 10: le prime operazioni a mente",
+     "href": "calcolo-mentale-fino-a-10"
+    },
+    {
+     "label": "Trova il numero mancante nelle operazioni fino a 20",
+     "href": "numero-mancante-fino-a-20"
+    },
+    {
+     "label": "Addizioni a mente fino a 20, solo più",
+     "href": "addizioni-a-mente-fino-a-20"
+    },
+    {
+     "label": "Sottrazioni a mente fino a 20, solo meno",
+     "href": "sottrazioni-a-mente-fino-a-20"
+    }
+   ],
+   "title": "Numero mancante fino a 10 – Classe prima | da stampare PDF",
+   "metaDescription": "Piccole uguaglianze entro il 10 con un quadratino vuoto: il bambino trova il numero nascosto che fa tornare il conto. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "famiglie-di-operazioni-fino-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda delle famiglie",
+   "h1": "Famiglie di operazioni fino a 10: quattro casette",
+   "strand": "Numeri",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "famiglie-di-operazioni",
+    "classe-prima"
+   ],
+   "p1": "Le quattro casette di questa scheda ospitano terne di numeri tutte entro il 10. Sul tetto a triangolo abitano i tre numeri della famiglia; nelle righe sotto il bambino completa le quattro operazioni imparentate: due addizioni e due sottrazioni, costruite sempre con quei tre numeri. Quattro case, quattro famiglie al completo.",
+   "p2": "Entro il 10 la famiglia di operazioni dà il meglio come prima scoperta. I numeri sono così familiari che il bambino può controllare ogni riga con le dita o con le coppie che già conosce, e concentrarsi sulla cosa nuova: il legame. Perché 3 più 4 e 4 più 3 danno lo stesso 7? Perché 7 meno 4 riporta proprio al 3 del tetto? Con terne piccole queste domande trovano risposta nell'esperienza, non nella regola imparata. E quattro sole casette sono la dose giusta per un primo incontro: abbastanza per vedere lo schema ripetersi, non troppe da trasformare la scoperta in catena di montaggio.",
+   "p3": "Il PDF è gratuito da stampare. Per proseguire ci sono due strade: le casette delle operazioni fino a 10, che aggiungono altre famiglie sullo stesso terreno sicuro, e le famiglie di operazioni fino a 20, dove le terne crescono e il legame tra più e meno comincia a fare il lavoro pesante. Prima capire, poi allenare: questa pagina serve al capire.",
+   "canonicalDeckSlug": "famiglie-di-operazioni-g1219",
+   "carousel": [
+    {
+     "label": "Famiglie di operazioni fino a 20: sei casette",
+     "href": "famiglie-di-operazioni-fino-a-20"
+    },
+    {
+     "label": "Casette delle operazioni fino a 10: pagina di allenamento",
+     "href": "casette-delle-operazioni-fino-a-10"
+    },
+    {
+     "label": "Famiglie di operazioni con il numero mancante",
+     "href": "famiglie-con-il-numero-mancante"
+    },
+    {
+     "label": "Famiglie del per e del diviso: quattro operazioni da una terna",
+     "href": "famiglie-del-per-e-del-diviso"
+    }
+   ],
+   "title": "Famiglie di operazioni fino a 10 – Classe prima | da stampare PDF",
+   "metaDescription": "Quattro casette con terne entro il 10: dai tre numeri sul tetto nascono due addizioni e due sottrazioni da completare. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "famiglie-di-operazioni-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda delle famiglie",
+   "h1": "Famiglie di operazioni fino a 20: sei casette",
+   "strand": "Numeri",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "famiglie-di-operazioni",
+    "classe-prima"
+   ],
+   "p1": "Su questa scheda le casette diventano sei e le terne salgono fino al 20. Ogni tetto a triangolo porta i suoi tre numeri; nelle righe sottostanti il bambino scrive le quattro operazioni della famiglia — due addizioni e due sottrazioni — usando soltanto quei tre numeri. Sei famiglie da completare: la pagina è piena e il lavoro è vero.",
+   "p2": "Con le terne entro il 20 la famiglia di operazioni smette di essere una curiosità e diventa uno strumento. Davanti a 17 meno 9 contare all'indietro è lento e pieno di trappole; chi pensa alla famiglia si chiede invece 9 più quanto fa 17? e arriva prima e meglio. È qui che il legame tra addizione e sottrazione, scoperto sui numeri piccoli, comincia a ripagare davvero. Sei casette, poi, vogliono dire ventiquattro operazioni: abbastanza da costruire resistenza e ritmo, con la terna del tetto che a ogni casa rimette in moto il ragionamento invece della copiatura.",
+   "p3": "La scheda si stampa gratis in PDF. Se le terne grandi affaticano, un passaggio dalle famiglie di operazioni fino a 10 rimette in chiaro il meccanismo su numeri morbidi; quando invece le casette girano spedite, il calcolo mentale fino a 20 è il banco di prova dove il legame appena allenato taglia i tempi. E in classe terza lo stesso tetto tornerà con per e diviso: le buone idee non invecchiano.",
+   "canonicalDeckSlug": "famiglie-di-operazioni-g1220",
+   "carousel": [
+    {
+     "label": "Casette delle operazioni fino a 10: pagina di allenamento",
+     "href": "casette-delle-operazioni-fino-a-10"
+    },
+    {
+     "label": "Famiglie di operazioni con il numero mancante",
+     "href": "famiglie-con-il-numero-mancante"
+    },
+    {
+     "label": "Famiglie del per e del diviso: quattro operazioni da una terna",
+     "href": "famiglie-del-per-e-del-diviso"
+    },
+    {
+     "label": "Famiglie di operazioni fino a 10: quattro casette",
+     "href": "famiglie-di-operazioni-fino-a-10"
+    }
+   ],
+   "title": "Famiglie di operazioni fino a 20 – Classe prima | da stampare PDF",
+   "metaDescription": "Sei casette con terne entro il 20: per ogni tetto il bambino completa le quattro operazioni della famiglia. Scheda per la classe prima in PDF gratis."
+  },
+  {
+   "slug": "casette-delle-operazioni-fino-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda delle famiglie",
+   "h1": "Casette delle operazioni fino a 10: pagina di allenamento",
+   "strand": "Numeri",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "famiglie-di-operazioni",
+    "classe-prima"
+   ],
+   "p1": "Questa pagina di allenamento mette in fila sei casette con terne tutte entro il 10. Il meccanismo è quello ben noto: tre numeri sul tetto, quattro operazioni da completare nelle righe sotto — due con il più e due con il meno, sempre con gli stessi tre numeri. Sei tetti, ventiquattro righe: una vera sessione di esercizio sul terreno dei numeri piccoli.",
+   "p2": "C'è un momento, dopo la scoperta, in cui serve solo ripetere: non per imparare qualcosa di nuovo, ma perché il gesto diventi automatico. Questa scheda è pensata per quel momento. Le terne entro il 10 non oppongono resistenza, così tutta l'energia va alla struttura della famiglia, che a forza di casette si imprime da sola. È la pagina perfetta per il ripasso del mattino, per chi finisce presto e chiede ancora, per i compiti leggeri del fine settimana. E siccome le terne cambiano ma il livello resta, ogni bambino la può affrontare in autonomia completa, senza chiedere aiuto a ogni riga.",
+   "p3": "Il PDF si stampa gratuitamente, anche più volte: la ripetizione è il suo mestiere. Chi incontra le casette per la prima volta farà meglio a partire dalle famiglie di operazioni fino a 10, che introducono il meccanismo con calma; chi invece è pronto a salire trova le famiglie di operazioni fino a 20 ad aspettarlo. Allenarsi sul facile per essere forti sul difficile: funziona così anche in matematica.",
+   "canonicalDeckSlug": "famiglie-di-operazioni-g1221",
+   "carousel": [
+    {
+     "label": "Famiglie di operazioni con il numero mancante",
+     "href": "famiglie-con-il-numero-mancante"
+    },
+    {
+     "label": "Famiglie del per e del diviso: quattro operazioni da una terna",
+     "href": "famiglie-del-per-e-del-diviso"
+    },
+    {
+     "label": "Famiglie di operazioni fino a 10: quattro casette",
+     "href": "famiglie-di-operazioni-fino-a-10"
+    },
+    {
+     "label": "Famiglie di operazioni fino a 20: sei casette",
+     "href": "famiglie-di-operazioni-fino-a-20"
+    }
+   ],
+   "title": "Casette delle operazioni fino a 10 | da stampare PDF",
+   "metaDescription": "Sei casette con terne entro il 10 per allenare le famiglie di operazioni: ogni tetto genera quattro calcoli da completare. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "famiglie-con-il-numero-mancante",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda delle famiglie",
+   "h1": "Famiglie di operazioni con il numero mancante",
+   "strand": "Numeri",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "famiglie-di-operazioni",
+    "classe-prima"
+   ],
+   "p1": "In queste casette è sparito il numero di mezzo: ogni operazione mostra il primo numero e il risultato, ma al centro c'è un buco, come in 7 + ☐ = 12. I tre numeri del tetto restano la bussola: il bambino li guarda, capisce quale dei tre completa ogni riga e lo scrive al suo posto. I risultati sono già stampati; il lavoro sta tutto nel trovare il pezzo mancante.",
+   "p2": "Questa variante rovescia il flusso del pensiero. Nelle famiglie classiche si parte dai numeri e si produce il risultato; qui il risultato è sotto gli occhi e va ricostruita la strada che ci porta. È un controllo di comprensione formidabile: chi completa le casette normali copiando lo schema qui si ferma, perché servono davvero le relazioni tra i tre numeri del tetto. E il formato con il buco al centro allena esattamente il ragionamento che i problemi chiederanno di continuo — avevo 7 figurine, ora ne ho 12: quante ne ho ricevute? La stessa domanda, vestita da casetta.",
+   "p3": "La scheda è un PDF gratuito da stampare. Funziona benissimo dopo le famiglie di operazioni fino a 20, come tappa di verifica travestita da gioco; e va a braccetto con trova il numero mancante fino a 20, dove gli stessi buchi compaiono in operazioni sciolte, senza il sostegno del tetto. Prima con la bussola, poi senza: è la progressione che rende sicuri.",
+   "canonicalDeckSlug": "famiglie-di-operazioni-g1222",
+   "carousel": [
+    {
+     "label": "Famiglie del per e del diviso: quattro operazioni da una terna",
+     "href": "famiglie-del-per-e-del-diviso"
+    },
+    {
+     "label": "Famiglie di operazioni fino a 10: quattro casette",
+     "href": "famiglie-di-operazioni-fino-a-10"
+    },
+    {
+     "label": "Famiglie di operazioni fino a 20: sei casette",
+     "href": "famiglie-di-operazioni-fino-a-20"
+    },
+    {
+     "label": "Casette delle operazioni fino a 10: pagina di allenamento",
+     "href": "casette-delle-operazioni-fino-a-10"
+    }
+   ],
+   "title": "Famiglie con il numero mancante – Classe prima | da stampare PDF",
+   "metaDescription": "Nelle casette il numero di mezzo è sparito: i risultati sono scritti e il bambino trova il numero mancante di ogni operazione. Scheda in PDF gratis."
+  },
+  {
+   "slug": "famiglie-del-per-e-del-diviso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda delle famiglie",
+   "h1": "Famiglie del per e del diviso: quattro operazioni da una terna",
+   "strand": "Numeri",
+   "standard": "3.OA.B.6",
+   "slotTokens": [
+    "famiglie-di-operazioni",
+    "classe-terza"
+   ],
+   "p1": "Le casette di questa scheda parlano la lingua della classe terza: sul tetto a triangolo abitano due fattori e il loro prodotto, e nelle righe sotto il bambino completa le quattro operazioni della famiglia — due moltiplicazioni con il segno × e due divisioni con il segno dei due punti. Da una terna come 3, 4 e 12 nascono 3 × 4, 4 × 3, 12 : 3 e 12 : 4: quattro calcoli, una sola parentela.",
+   "p2": "Chi ha conosciuto le casette del più e del meno in classe prima ritrova qui lo stesso tetto con inquilini nuovi, e la sorpresa è che il meccanismo regge: anche per e diviso sono operazioni inverse. La famiglia lo rende visibile due volte. Scambiando i fattori si tocca con mano la proprietà commutativa — 3 × 4 e 4 × 3 portano allo stesso 12 — e completando le divisioni si scopre che dividere non è un'arte oscura, ma una tabellina letta al contrario: 12 : 4 chiede soltanto 4 per quanto fa 12? È il colpo che toglie alla divisione quasi tutta la sua paura.",
+   "p3": "Il PDF si stampa gratuitamente. La famiglia lavora al meglio in coppia con le tabelline, che forniscono i prodotti da richiamare al volo — la tabellina del 4 e quella del 3 sono ottimi punti di partenza — e con le schede di moltiplicazione e divisione di classe terza, dove il legame appena scoperto serve per il fattore mancante e per la divisione in gruppi. Ogni divisione riuscita si può controllare con la sua moltiplicazione gemella: la verifica è già dentro la famiglia.",
+   "canonicalDeckSlug": "famiglie-di-operazioni-g3369",
+   "carousel": [
+    {
+     "label": "Famiglie di operazioni fino a 10: quattro casette",
+     "href": "famiglie-di-operazioni-fino-a-10"
+    },
+    {
+     "label": "Famiglie di operazioni fino a 20: sei casette",
+     "href": "famiglie-di-operazioni-fino-a-20"
+    },
+    {
+     "label": "Casette delle operazioni fino a 10: pagina di allenamento",
+     "href": "casette-delle-operazioni-fino-a-10"
+    },
+    {
+     "label": "Famiglie di operazioni con il numero mancante",
+     "href": "famiglie-con-il-numero-mancante"
+    }
+   ],
+   "title": "Famiglie del per e del diviso – Classe terza | da stampare PDF",
+   "metaDescription": "Casette di classe terza: sul tetto due fattori e il prodotto, sotto due moltiplicazioni e due divisioni da completare. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "numeri-in-lettere-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dei numeri in lettere",
+   "h1": "Numeri in lettere fino a 20: cerchia la parola",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeri-in-lettere",
+    "classe-prima"
+   ],
+   "p1": "I numeri di questa scheda stanno tutti entro il 20: ognuno è scritto in cifre, ben grande, e accanto ha tre numeri in lettere tra cui scegliere. Uno solo è quello giusto; gli altri due gli somigliano quel tanto che basta a far lavorare gli occhi. Il bambino legge la cifra, esamina le tre parole e cerchia quella che dice davvero lo stesso numero.",
+   "p2": "Entro il 20 l'italiano gioca la sua partita più curiosa: fino a sedici il numero si costruisce in un modo — undici, dodici, tredici, con la parte piccola davanti — e da diciassette in poi si volta — dicias-sette, dician-nove, con il dieci in testa. Nessuno lo spiega ai bambini, eppure è proprio su questo confine che nascono letture incerte e scambi. Le alternative della scheda battono su quel punto: mettono vicine parole che iniziano uguale e finiscono diverse, e chiedono una lettura completa, fino all'ultima sillaba. Così la scelta cerchiata diventa un piccolo esercizio di precisione, oltre che di numeri.",
+   "p3": "Il PDF si scarica e si stampa gratis. Quando le parole fino a venti non nascondono più sorprese, i numeri in lettere fino a 50 allargano il campo alle decine composte; e per un formato diverso con le stesse parole c'è collega numeri e parole, dove al posto del cerchio si tracciano linee. Leggere bene i numeri oggi vuol dire capire bene i problemi domani.",
+   "canonicalDeckSlug": "numeri-in-lettere-g1223",
+   "carousel": [
+    {
+     "label": "Le decine in lettere: da dieci a cento",
+     "href": "decine-in-lettere-da-10-a-100"
+    },
+    {
+     "label": "Collega numeri e parole con una linea",
+     "href": "collega-numeri-e-parole"
+    },
+    {
+     "label": "Numeri in lettere fino a 50: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-50"
+    },
+    {
+     "label": "Scrivi i numeri in lettere con l'elenco delle parole",
+     "href": "scrivi-i-numeri-in-lettere"
+    }
+   ],
+   "title": "Numeri in lettere fino a 20 – Classe prima | da stampare PDF",
+   "metaDescription": "Numeri in cifre entro il 20 e tre parole accanto a ciascuno: il bambino cerchia il numero in lettere giusto. Scheda per la classe prima in PDF gratis."
+  },
+  {
+   "slug": "decine-in-lettere-da-10-a-100",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dei numeri in lettere",
+   "h1": "Le decine in lettere: da dieci a cento",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeri-in-lettere",
+    "classe-prima"
+   ],
+   "p1": "Questa scheda è dedicata alle decine tonde da 10 a 100: dieci, venti, trenta e così via fino a cento. Ogni decina compare in cifre, con accanto tre numeri in lettere tra cui scegliere; il bambino legge la cifra e cerchia la parola che le corrisponde, stando attento ai vicini insidiosi messi lì apposta per confondere.",
+   "p2": "Il tranello di questa pagina ha un nome preciso: quaranta contro quattordici, sessanta contro sedici, settanta contro diciassette. Coppie di parole che condividono l'attacco e si separano solo dopo, dove l'occhio frettoloso non arriva. Sono gli scambi che in seconda e in terza producono errori misteriosi nei dettati di numeri e nei problemi — misteriosi finché non si scopre che il bambino legge l'inizio della parola e indovina il resto. Le decine meritano perciò una scheda tutta loro: sono lo scheletro dei numeri a due cifre, e chi le possiede in lettere scrive poi trentaquattro e novantotto senza inciampare.",
+   "p3": "Il PDF è gratuito da stampare. Questa pagina dà il meglio in mezzo al percorso: dopo i numeri in lettere fino a 50, che introducono le prime decine composte, e prima di scrivi i numeri in lettere, dove le parole non si scelgono più ma si scrivono per intero. Una lettura ad alta voce delle dieci decine, prima di cominciare, vale come riscaldamento perfetto.",
+   "canonicalDeckSlug": "numeri-in-lettere-g1224",
+   "carousel": [
+    {
+     "label": "Collega numeri e parole con una linea",
+     "href": "collega-numeri-e-parole"
+    },
+    {
+     "label": "Numeri in lettere fino a 50: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-50"
+    },
+    {
+     "label": "Scrivi i numeri in lettere con l'elenco delle parole",
+     "href": "scrivi-i-numeri-in-lettere"
+    },
+    {
+     "label": "Numeri in lettere fino a 20: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-20"
+    }
+   ],
+   "title": "Le decine in lettere da 10 a 100 | da stampare PDF",
+   "metaDescription": "Le decine tonde da 10 a 100 in cifre e in lettere: il bambino cerchia la parola giusta tra tre proposte, senza cadere nel tranello quaranta-quattordici."
+  },
+  {
+   "slug": "collega-numeri-e-parole",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dei numeri in lettere",
+   "h1": "Collega numeri e parole con una linea",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeri-in-lettere",
+    "classe-prima"
+   ],
+   "p1": "Su questa scheda i numeri in cifre stanno da una parte e i numeri in lettere dall'altra, in ordine mescolato. Il bambino prende la matita e traccia una linea da ogni cifra alla parola che le corrisponde, finché ogni numero ha trovato il suo compagno. Alla fine la pagina è attraversata da una ragnatela di collegamenti: ogni filo, un abbinamento riuscito.",
+   "p2": "Il formato ad abbinamento cambia la natura dell'esercizio. Con le alternative da cerchiare si giudica una coppia alla volta; qui bisogna tenere d'occhio due colonne intere, scorrere, confrontare, escludere. Se una linea finisce nel posto sbagliato, da qualche parte resta una parola orfana: è la scheda stessa a segnalare l'errore, e il bambino può tornare indietro e correggersi da solo, senza che nessuno glielo dica. Questo autocontrollo silenzioso è oro per il lavoro autonomo. E i più strategici scoprono presto il mestiere: prima si collegano le coppie sicure, e le ultime si incastrano per esclusione, come in ogni buon gioco di logica.",
+   "p3": "La scheda si stampa gratis in PDF. Chi vuole variare l'allenamento sulla stessa materia può alternarla con i numeri in lettere fino a 20, dove si cerchia invece di collegare, e poi salire verso scrivi i numeri in lettere, dove le parole si producono da zero. Tre formati, un solo obiettivo: che cifre e parole diventino due vestiti dello stesso numero.",
+   "canonicalDeckSlug": "numeri-in-lettere-g1225",
+   "carousel": [
+    {
+     "label": "Numeri in lettere fino a 50: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-50"
+    },
+    {
+     "label": "Scrivi i numeri in lettere con l'elenco delle parole",
+     "href": "scrivi-i-numeri-in-lettere"
+    },
+    {
+     "label": "Numeri in lettere fino a 20: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-20"
+    },
+    {
+     "label": "Le decine in lettere: da dieci a cento",
+     "href": "decine-in-lettere-da-10-a-100"
+    }
+   ],
+   "title": "Collega numeri e parole – Classe prima | da stampare PDF",
+   "metaDescription": "Numeri in cifre da una parte, numeri in lettere dall'altra: il bambino li unisce tracciando linee. Scheda di abbinamento in PDF gratis da stampare."
+  },
+  {
+   "slug": "numeri-in-lettere-fino-a-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dei numeri in lettere",
+   "h1": "Numeri in lettere fino a 50: cerchia la parola",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeri-in-lettere",
+    "classe-prima"
+   ],
+   "p1": "Qui i numeri salgono fino a 50: sulla scheda compaiono in cifre, ognuno affiancato da tre numeri in lettere, e uno solo dei tre è quello giusto da cerchiare. Entrano in scena le parole composte — ventitré, trentotto, quarantasei — dove la decina e l'unità si saldano in un'unica parola lunga da leggere fino in fondo.",
+   "p2": "Con le decine composte l'italiano mostra le sue piccole regole segrete: ventuno e ventotto perdono la vocale finale di venti, ventitré si prende l'accento, trentatré lo stesso. E soprattutto la parola scritta va letta per intero, perché trentaquattro e quarantatré usano gli stessi mattoni in ordine inverso — esattamente come 34 e 43. Le alternative sbagliate della scheda sfruttano proprio questi scambi di posizione, che sono poi la versione in lettere delle inversioni di cifre. Chi impara qui a leggere con calma tutta la parola si porta a casa una difesa che vale doppio: contro gli errori di lettura e contro quelli di scrittura dei numeri.",
+   "p3": "Il PDF è gratuito da stampare. Il percorso naturale parte dai numeri in lettere fino a 20, passa da questa scheda e prosegue con le decine in lettere da 10 a 100, dove si mettono a fuoco i mattoni grandi. Per chi è pronto a scrivere invece che a riconoscere, scrivi i numeri in lettere chiude il cerchio con la penna in mano.",
+   "canonicalDeckSlug": "numeri-in-lettere-g1226",
+   "carousel": [
+    {
+     "label": "Scrivi i numeri in lettere con l'elenco delle parole",
+     "href": "scrivi-i-numeri-in-lettere"
+    },
+    {
+     "label": "Numeri in lettere fino a 20: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-20"
+    },
+    {
+     "label": "Le decine in lettere: da dieci a cento",
+     "href": "decine-in-lettere-da-10-a-100"
+    },
+    {
+     "label": "Collega numeri e parole con una linea",
+     "href": "collega-numeri-e-parole"
+    }
+   ],
+   "title": "Numeri in lettere fino a 50 – Classe prima | da stampare PDF",
+   "metaDescription": "Numeri in cifre fino a 50 con tre numeri in lettere accanto: uno solo è giusto e va cerchiato. Scheda sulle decine composte in PDF gratis da stampare."
+  },
+  {
+   "slug": "scrivi-i-numeri-in-lettere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dei numeri in lettere",
+   "h1": "Scrivi i numeri in lettere con l'elenco delle parole",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeri-in-lettere",
+    "classe-prima"
+   ],
+   "p1": "In cima a questa scheda c'è un elenco di parole: sono i numeri in lettere, tutti insieme, in ordine sparso. Sotto, ogni numero in cifre ha accanto una riga vuota. Il bambino legge la cifra, cerca nell'elenco la parola che le corrisponde e la copia sulla riga, lettera per lettera. Alla fine ogni numero della pagina è scritto due volte: in cifre e in parole.",
+   "p2": "Questa è la scheda del passaggio dal riconoscere al produrre. Cerchiare una parola giusta è una cosa; scriverla per esteso è un'altra, perché la copia richiede di guardare davvero com'è fatta — dove finisce la decina, dove si attacca l'unità, dove cade un accento. L'elenco in alto fa da rete di sicurezza: il bambino non deve inventare l'ortografia, deve trovarla e trasportarla con precisione, che è il modo migliore di impararla. È lo stesso gesto che la scuola chiederà per anni, dal dettato dei numeri alla scrittura degli importi, fin sulle ricevute e sugli assegni dei grandi.",
+   "p3": "Il PDF si stampa gratuitamente. Questa pagina arriva al momento giusto dopo le schede di riconoscimento — i numeri in lettere fino a 20 e fino a 50 — quando le parole sono ormai familiari alla vista e chiedono solo di passare nella mano. Come chiusura del percorso, un piccolo dettato di numeri fatto in casa: la scheda ha appena preparato tutto il necessario.",
+   "canonicalDeckSlug": "numeri-in-lettere-g1227",
+   "carousel": [
+    {
+     "label": "Numeri in lettere fino a 20: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-20"
+    },
+    {
+     "label": "Le decine in lettere: da dieci a cento",
+     "href": "decine-in-lettere-da-10-a-100"
+    },
+    {
+     "label": "Collega numeri e parole con una linea",
+     "href": "collega-numeri-e-parole"
+    },
+    {
+     "label": "Numeri in lettere fino a 50: cerchia la parola",
+     "href": "numeri-in-lettere-fino-a-50"
+    }
+   ],
+   "title": "Scrivi i numeri in lettere – Classe prima | da stampare PDF",
+   "metaDescription": "Ogni numero in cifre ha la sua riga vuota: il bambino cerca la parola nell'elenco in alto e la copia. Scheda di scrittura dei numeri in PDF gratis."
+  },
+  {
+   "slug": "contare-le-monete-primi-passi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'euro",
+   "h1": "Contare le monete: primi passi con due o tre monete",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "classe-prima"
+   ],
+   "p1": "I borsellini di questa scheda sono leggeri apposta: dentro ognuno ci sono soltanto due o tre monete in euro. Il bambino le guarda una per una, riconosce il valore di ciascuna, le somma e scrive il totale nel riquadro accanto al borsellino. Pochi pezzi per volta: è il primo incontro tranquillo con il denaro da contare.",
+   "p2": "Con due o tre monete l'attenzione va dove deve andare all'inizio: sul riconoscimento. Ogni moneta ha il suo colore, la sua taglia, il suo numero — il rame dei centesimini, l'oro del 10 e del 20, i due metalli dell'1 e dei 2 euro — e distinguere i valori è un'abilità a sé, che le somme lunghe finirebbero solo per disturbare. Qui ogni borsellino è una piccola frase di due o tre parole: si legge, si somma, si scrive. La sicurezza costruita su questi totali brevi è quella che tra poco reggerà i borsellini pieni e, un giorno, la spesa vera al mercato.",
+   "p3": "La scheda è un PDF gratuito da stampare; con qualche moneta vera da maneggiare accanto al foglio, l'esercizio raddoppia il suo valore. Il seguito naturale è contare gli euro con tutte le monete, dove i borsellini si riempiono e serve una strategia di conteggio; per una via di mezzo tutta speciale ci sono le monete da 1 e 2 centesimi, che allenano il contare per uno e per due.",
+   "canonicalDeckSlug": "contare-le-monete-g1228",
+   "carousel": [
+    {
+     "label": "Contare gli euro: tutte le monete nel borsellino",
+     "href": "contare-gli-euro-tutte-le-monete"
+    },
+    {
+     "label": "Allenamento con le monete: otto borsellini da contare",
+     "href": "allenamento-con-le-monete"
+    },
+    {
+     "label": "Monete da 1 e 2 centesimi da contare",
+     "href": "monete-da-1-e-2-centesimi"
+    },
+    {
+     "label": "Quale borsellino ha di più? Confronta e cerchia",
+     "href": "quale-borsellino-ha-di-piu"
+    }
+   ],
+   "title": "Contare le monete: primi passi – Euro | da stampare PDF",
+   "metaDescription": "Borsellini facili con due o tre monete in euro ciascuno: il bambino le riconosce, le conta e scrive il totale. Prima scheda sull'euro in PDF gratis."
+  },
+  {
+   "slug": "contare-gli-euro-tutte-le-monete",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'euro",
+   "h1": "Contare gli euro: tutte le monete nel borsellino",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "classe-prima"
+   ],
+   "p1": "Qui i borsellini fanno sul serio: dentro ciascuno ci sono cinque, sei o sette monete, e possono comparire tutti i tagli dell'euro, dal centesimino di rame fino alla moneta da 2 euro. Il bambino esamina il mucchietto, mette ordine con gli occhi, somma i valori e scrive il totale nel riquadro. Ogni borsellino è un piccolo conto della spesa.",
+   "p2": "Quando le monete diventano tante, contare a caso non funziona più: serve un metodo, ed è proprio questo il cuore della scheda. Il metodo dei cassieri è partire dalle monete più grandi e scendere — prima i 2 euro, poi l'euro, poi 50, 20, 10 centesimi, giù giù fino ai rametti — tenendo il conto che cresce a ogni passo. È conteggio progressivo allo stato puro, con salti di taglia diversa: da 2 a 3, da 3 a 3 e 50. In mezzo c'è anche la convivenza di euro e centesimi, il primo incontro pratico con l'idea che cento centesimi fanno un euro intero.",
+   "p3": "Il PDF si stampa gratis. Chi arriva qui dai primi passi con due o tre monete sentirà il gradino, ed è un buon segno: la pagina di allenamento con otto borsellini offre poi tutto lo spazio per consolidare il metodo. E per trasformare il conteggio in giudizio c'è quale borsellino ha di più?, dove i totali appena calcolati servono a prendere una decisione.",
+   "canonicalDeckSlug": "contare-le-monete-g1229",
+   "carousel": [
+    {
+     "label": "Allenamento con le monete: otto borsellini da contare",
+     "href": "allenamento-con-le-monete"
+    },
+    {
+     "label": "Monete da 1 e 2 centesimi da contare",
+     "href": "monete-da-1-e-2-centesimi"
+    },
+    {
+     "label": "Quale borsellino ha di più? Confronta e cerchia",
+     "href": "quale-borsellino-ha-di-piu"
+    },
+    {
+     "label": "Contare le monete: primi passi con due o tre monete",
+     "href": "contare-le-monete-primi-passi"
+    }
+   ],
+   "title": "Contare gli euro: tutte le monete | da stampare PDF",
+   "metaDescription": "Borsellini con cinque, sei o sette monete di ogni taglio, dai centesimi ai 2 euro: il bambino conta e scrive il totale. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "allenamento-con-le-monete",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'euro",
+   "h1": "Allenamento con le monete: otto borsellini da contare",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "classe-prima"
+   ],
+   "p1": "Questa è la pagina di allenamento: otto borsellini in una sola scheda, ognuno con il suo gruzzolo di monete in euro da contare. Il bambino procede con ordine, borsellino dopo borsellino, somma i valori e scrive ogni totale nel suo riquadro. Otto conti completi: quando l'ultimo riquadro è pieno, l'esercizio è stato davvero tanto.",
+   "p2": "Contare il denaro è una di quelle abilità che non si imparano una volta: si consolidano a forza di volumi, come la lettura. Otto borsellini in fila offrono esattamente questo — ripetizione sufficiente perché la strategia del partire dalle monete grandi smetta di essere uno sforzo e diventi abitudine. La pagina funziona bene anche in classe: come stazione di lavoro autonoma, come attività per chi finisce prima, o divisa a metà tra oggi e domani. E per il genitore o l'insegnante il colpo d'occhio finale sugli otto totali rivela subito dove il conteggio fila e dove ancora inciampa, senza bisogno di interrogare nessuno.",
+   "p3": "Il PDF è gratuito e si ristampa a volontà, che per una pagina di puro esercizio è la caratteristica più preziosa. Prima di affrontarla conviene aver preso confidenza con contare gli euro con tutte le monete; dopo, la sfida cambia natura con quale borsellino ha di più?, dove si confrontano due gruzzoli alla volta. E ogni tanto, al posto della scheda, va benissimo il salvadanaio di casa rovesciato sul tavolo.",
+   "canonicalDeckSlug": "contare-le-monete-g1230",
+   "carousel": [
+    {
+     "label": "Monete da 1 e 2 centesimi da contare",
+     "href": "monete-da-1-e-2-centesimi"
+    },
+    {
+     "label": "Quale borsellino ha di più? Confronta e cerchia",
+     "href": "quale-borsellino-ha-di-piu"
+    },
+    {
+     "label": "Contare le monete: primi passi con due o tre monete",
+     "href": "contare-le-monete-primi-passi"
+    },
+    {
+     "label": "Contare gli euro: tutte le monete nel borsellino",
+     "href": "contare-gli-euro-tutte-le-monete"
+    }
+   ],
+   "title": "Allenamento con le monete – 8 borsellini | da stampare PDF",
+   "metaDescription": "Pagina di allenamento con otto borsellini di monete in euro: il bambino conta ogni gruzzolo e scrive il totale nel riquadro. Scheda in PDF gratis."
+  },
+  {
+   "slug": "monete-da-1-e-2-centesimi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'euro",
+   "h1": "Monete da 1 e 2 centesimi da contare",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "classe-prima"
+   ],
+   "p1": "In questi borsellini circolano soltanto le due monete più piccole dell'euro: il centesimo e i 2 centesimi, i dischetti di rame che ogni bambino ha visto spuntare dal resto della spesa. Si conta il contenuto di ogni borsellino e si scrive il totale nel riquadro: con due soli tagli in gioco, tutta l'attenzione va al conteggio.",
+   "p2": "Limitare la scena a due monete è una scelta didattica precisa: trasforma la pagina in un esercizio di conteggio ritmato. Le monete da 1 centesimo si contano per uno; quelle da 2 chiedono il salto — due, quattro, sei — che è il conteggio a due visto nel suo habitat naturale. E quando in un borsellino i tagli si mescolano, il bambino deve decidere da dove partire e come proseguire: di solito scopre da solo che conviene contare prima tutte le monete da 2 e aggiungere gli spiccioli alla fine. È una strategia inventata, non insegnata — e le strategie inventate restano.",
+   "p3": "Il PDF si stampa gratuitamente. Questa scheda lavora benissimo accanto ai primi passi con le monete, come palestra parallela sul conteggio puro; il passo successivo è il salto nei borsellini misti di contare gli euro con tutte le monete, dove i rametti incontrano i tagli d'oro e d'argento. Un pugno di centesimi veri sul tavolo, e l'esercizio diventa un gioco da banco.",
+   "canonicalDeckSlug": "contare-le-monete-g1231",
+   "carousel": [
+    {
+     "label": "Quale borsellino ha di più? Confronta e cerchia",
+     "href": "quale-borsellino-ha-di-piu"
+    },
+    {
+     "label": "Contare le monete: primi passi con due o tre monete",
+     "href": "contare-le-monete-primi-passi"
+    },
+    {
+     "label": "Contare gli euro: tutte le monete nel borsellino",
+     "href": "contare-gli-euro-tutte-le-monete"
+    },
+    {
+     "label": "Allenamento con le monete: otto borsellini da contare",
+     "href": "allenamento-con-le-monete"
+    }
+   ],
+   "title": "Monete da 1 e 2 centesimi – Contare | da stampare PDF",
+   "metaDescription": "Borsellini con sole monete da 1 e 2 centesimi: il bambino conta per uno e per due e scrive il totale. Scheda sull'euro in PDF gratis da stampare."
+  },
+  {
+   "slug": "quale-borsellino-ha-di-piu",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'euro",
+   "h1": "Quale borsellino ha di più? Confronta e cerchia",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "classe-prima"
+   ],
+   "p1": "In ogni riga di questa scheda ci sono due borsellini a confronto, ciascuno con le sue monete in euro. Il bambino conta il contenuto del primo, conta il contenuto del secondo e poi cerchia il borsellino che contiene più soldi. Non basta contare: bisogna anche confrontare i due totali e prendere una decisione.",
+   "p2": "Il cuore di questa pagina è un inganno da smontare: il borsellino con più monete non è sempre quello con più soldi. Tre monetine da 2 centesimi perdono contro una sola moneta da 1 euro, per quanto il mucchietto sembri più ricco. Distinguere il numero degli oggetti dal loro valore è un traguardo concettuale vero — la stessa idea che regge il sistema posizionale, dove una cifra vale per la posizione che occupa — e le coppie della scheda sono costruite per far emergere l'inganno più volte. Ogni riga può accendere una conversazione d'oro: come fai a dirlo? Chi sa spiegare il perché ha capito davvero.",
+   "p3": "La scheda è un PDF gratuito da stampare. I confronti riescono meglio a chi ha già mano svelta con i totali: contare gli euro con tutte le monete e l'allenamento con gli otto borsellini sono la preparazione ideale. Poi il gioco continua in cucina: due pugni di spiccioli sul tavolo, e la domanda di sempre — quale mucchietto vale di più? Stavolta la risposta arriverà con il sorriso di chi lo sa.",
+   "canonicalDeckSlug": "contare-le-monete-g1232",
+   "carousel": [
+    {
+     "label": "Contare le monete: primi passi con due o tre monete",
+     "href": "contare-le-monete-primi-passi"
+    },
+    {
+     "label": "Contare gli euro: tutte le monete nel borsellino",
+     "href": "contare-gli-euro-tutte-le-monete"
+    },
+    {
+     "label": "Allenamento con le monete: otto borsellini da contare",
+     "href": "allenamento-con-le-monete"
+    },
+    {
+     "label": "Monete da 1 e 2 centesimi da contare",
+     "href": "monete-da-1-e-2-centesimi"
+    }
+   ],
+   "title": "Quale borsellino ha di più? – Euro | da stampare PDF",
+   "metaDescription": "Due borsellini a confronto in ogni riga: il bambino conta i soldi di entrambi e cerchia quello che contiene di più. Scheda sull'euro in PDF gratis."
+  },
+  {
+   "slug": "disegna-le-lancette-ore-in-punto",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'orologio",
+   "h1": "Disegna le lancette: solo le ore in punto",
+   "strand": "Misure",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "leggere-l-orologio",
+    "classe-prima"
+   ],
+   "p1": "Su questa scheda tutti i cartellini digitali segnano un'ora tonda: 3:00, 7:00, 9:00, 11:00. I quattro quadranti sopra di essi sono completamente vuoti e il bambino deve disegnarci sopra le due lancette. Quella corta va puntata sul numero dell'ora, quella lunga resta ferma sul dodici, sempre, in tutti e quattro gli orologi. Un solo gesto da imparare, ripetuto quattro volte.",
+   "p2": "Le ore in punto sono il gradino più basso della scala e vanno salite con calma. Isolano l'unica cosa che conta all'inizio: capire quale lancetta dice l'ora e quale i minuti. Finché la lancetta lunga sta immobile sul dodici, tutta l'attenzione può andare alla lancetta corta e al giro del quadrante da uno a dodici. Gli inciampi che vediamo più avanti, sulle mezze ore e sui quarti, quasi sempre nascono qui: da una distinzione fra le due lancette data per scontata troppo presto. Quattro orologi identici nella struttura servono proprio a non avere fretta.",
+   "p3": "Il PDF si stampa gratis e sta bene accanto all'orologio appeso in classe, che diventa il modello da guardare. Quando le ore in punto non fanno più esitare, il passo successivo naturale sono le mezze ore, con la lancetta lunga che scende sul sei; più avanti arriveranno i quarti d'ora. Per restare tra le misure di tutti i giorni c'è anche la scheda per contare le monete in euro.",
+   "canonicalDeckSlug": "leggere-l-orologio-g1233",
+   "carousel": [
+    {
+     "label": "Disegna le lancette: tutte le mezze ore",
+     "href": "disegna-le-lancette-e-mezza"
+    },
+    {
+     "label": "Disegna le lancette: i quarti d'ora",
+     "href": "disegna-le-lancette-quarti-di-ora"
+    },
+    {
+     "label": "Disegna le lancette: i minuti di 5 in 5",
+     "href": "disegna-le-lancette-di-5-in-5-minuti"
+    },
+    {
+     "label": "Disegna le lancette: la pagina di ripasso",
+     "href": "disegna-le-lancette-ripasso"
+    }
+   ],
+   "title": "Disegna le lancette: ore in punto | da stampare PDF",
+   "metaDescription": "Quattro orologi senza lancette e l'ora in punto sul cartellino digitale: il bambino disegna le due lancette. Classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "disegna-le-lancette-e-mezza",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'orologio",
+   "h1": "Disegna le lancette: tutte le mezze ore",
+   "strand": "Misure",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "leggere-l-orologio",
+    "classe-prima"
+   ],
+   "p1": "Ogni cartellino digitale di questa pagina finisce con :30 — le 4:30, le 8:30, le 10:30 — e ogni quadrante sopra aspetta le sue lancette. La lancetta lunga dei minuti va sempre sul sei, in basso; quella corta delle ore non punta più un numero preciso, ma si ferma a metà strada fra l'ora appena passata e quella successiva. Quattro orologi, tutti alla mezza.",
+   "p2": "Proprio la lancetta corta a metà strada è l'ostacolo vero di questa scheda, e il posto dove nascono gli errori più frequenti: alle 4:30 molti bambini disegnano la lancetta delle ore esattamente sul quattro, oppure la spostano già sul cinque. Vederla scivolare lentamente mentre i minuti girano è un'idea che si costruisce disegnandola, non ascoltandola. Conviene dirlo a voce mentre si lavora: le ore sono in viaggio, i minuti hanno fatto mezzo giro. E la parola mezza torna, non a caso, quando in classe seconda si comincia a parlare di metà.",
+   "p3": "Stampa gratis il PDF e, se hai un orologio con le lancette che si muovono, falle girare insieme al bambino prima di iniziare. Chi non è ancora sicuro può tornare alla pagina con le sole ore in punto; chi invece va spedito trova il seguito nei quarti d'ora, dove entrano in gioco anche il tre e il nove.",
+   "canonicalDeckSlug": "leggere-l-orologio-g1234",
+   "carousel": [
+    {
+     "label": "Disegna le lancette: i quarti d'ora",
+     "href": "disegna-le-lancette-quarti-di-ora"
+    },
+    {
+     "label": "Disegna le lancette: i minuti di 5 in 5",
+     "href": "disegna-le-lancette-di-5-in-5-minuti"
+    },
+    {
+     "label": "Disegna le lancette: la pagina di ripasso",
+     "href": "disegna-le-lancette-ripasso"
+    },
+    {
+     "label": "Disegna le lancette: solo le ore in punto",
+     "href": "disegna-le-lancette-ore-in-punto"
+    }
+   ],
+   "title": "Disegna le lancette: le mezze ore | da stampare PDF",
+   "metaDescription": "Su ogni cartellino un'ora e mezza: si disegna la lancetta lunga sul sei e quella corta a metà strada fra due numeri. PDF gratis da stampare."
+  },
+  {
+   "slug": "disegna-le-lancette-quarti-di-ora",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'orologio",
+   "h1": "Disegna le lancette: i quarti d'ora",
+   "strand": "Misure",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "leggere-l-orologio",
+    "classe-prima"
+   ],
+   "p1": "Qui i cartellini digitali si fermano su quattro momenti soltanto: :00, :15, :30 e :45. Il bambino disegna la lancetta lunga sul dodici, sul tre, sul sei o sul nove, e sistema la lancetta corta di conseguenza, sempre un po' più avanti man mano che i minuti aumentano. Quattro quadranti vuoti, quattro posizioni chiave da fissare bene.",
+   "p2": "I quarti d'ora sono il primo incontro fra l'orologio e le frazioni: il quadrante è un cerchio intero, il tre segna un quarto di giro, il sei la metà, il nove tre quarti. Mostrare questa divisione mentre si disegna dà un senso concreto a parole che altrimenti restano formule da ripetere. È anche il momento in cui l'italiano parlato si fa più ricco: le quattro e un quarto, le cinque meno un quarto, due modi diversi di indicare lo stesso istante che vale la pena pronunciare ad alta voce mentre la matita traccia.",
+   "p3": "Il PDF è gratuito e si stampa in un attimo. Se il salto sembra grande, la pagina delle sole mezze ore prepara il terreno; se invece i quattro quarti sono ormai automatici, il passo avanti è la scheda dei minuti di cinque in cinque, dove tutto il quadrante entra in gioco. Anche il ripasso dell'orologio è un buon controllo finale.",
+   "canonicalDeckSlug": "leggere-l-orologio-g1235",
+   "carousel": [
+    {
+     "label": "Disegna le lancette: i minuti di 5 in 5",
+     "href": "disegna-le-lancette-di-5-in-5-minuti"
+    },
+    {
+     "label": "Disegna le lancette: la pagina di ripasso",
+     "href": "disegna-le-lancette-ripasso"
+    },
+    {
+     "label": "Disegna le lancette: solo le ore in punto",
+     "href": "disegna-le-lancette-ore-in-punto"
+    },
+    {
+     "label": "Disegna le lancette: tutte le mezze ore",
+     "href": "disegna-le-lancette-e-mezza"
+    }
+   ],
+   "title": "Disegna le lancette: i quarti d'ora | da stampare PDF",
+   "metaDescription": "Ore in punto, un quarto, mezza e tre quarti: quattro orologi da completare disegnando le lancette. Scheda di classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "disegna-le-lancette-di-5-in-5-minuti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'orologio",
+   "h1": "Disegna le lancette: i minuti di 5 in 5",
+   "strand": "Misure",
+   "standard": "2.MD.C.7",
+   "slotTokens": [
+    "leggere-l-orologio",
+    "classe-prima"
+   ],
+   "p1": "Gli orari di questa pagina cadono tutti su multipli di cinque: le 7:20, le 2:55, le 10:35. Il quadrante è vuoto e il bambino deve capire dove finisce la lancetta lunga, contando di cinque in cinque i numeri lungo il bordo, e dove si trova nel frattempo la lancetta corta. Quattro orologi, quattro posizioni tutte diverse.",
+   "p2": "È il momento in cui il quadrante rivela il suo doppio linguaggio: lo stesso numero 4 vale quattro se lo legge la lancetta corta e venti se lo legge quella lunga. Contare cinque, dieci, quindici, venti lungo il cerchio trasforma la tabellina del cinque in uno strumento che serve davvero, e non in un elenco da ricordare a memoria. Vale la pena far scorrere il dito sul quadrante contando ad alta voce, prima di posare la matita: quasi tutti gli errori di questa scheda nascono da un conteggio saltato, non da una lancetta disegnata male.",
+   "p3": "Il PDF si scarica e si stampa gratuitamente. Se contare di cinque in cinque è ancora incerto, un giro sulla scheda dei quarti d'ora rimette in ordine i punti principali del quadrante; quando invece tutto fila, il ripasso dell'orologio mescola ore in punto, mezze, quarti e cinque minuti nella stessa pagina. Chi preferisce restare sui numeri della vita quotidiana può passare ai problemi illustrati, dove le quantità escono dal quadrante ed entrano in una storia.",
+   "canonicalDeckSlug": "leggere-l-orologio-g1236",
+   "carousel": [
+    {
+     "label": "Disegna le lancette: la pagina di ripasso",
+     "href": "disegna-le-lancette-ripasso"
+    },
+    {
+     "label": "Disegna le lancette: solo le ore in punto",
+     "href": "disegna-le-lancette-ore-in-punto"
+    },
+    {
+     "label": "Disegna le lancette: tutte le mezze ore",
+     "href": "disegna-le-lancette-e-mezza"
+    },
+    {
+     "label": "Disegna le lancette: i quarti d'ora",
+     "href": "disegna-le-lancette-quarti-di-ora"
+    }
+   ],
+   "title": "Disegna le lancette: minuti di 5 in 5 | da stampare PDF",
+   "metaDescription": "Orari come le 7:20 o le 2:55 da rappresentare disegnando le lancette sul quadrante vuoto. Minuti di cinque in cinque, PDF gratis da stampare."
+  },
+  {
+   "slug": "disegna-le-lancette-ripasso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'orologio",
+   "h1": "Disegna le lancette: la pagina di ripasso",
+   "strand": "Misure",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "leggere-l-orologio",
+    "classe-prima"
+   ],
+   "p1": "Questa pagina non introduce niente di nuovo: rimescola tutto. I quattro cartellini digitali pescano da ogni livello incontrato finora — un'ora tonda, una mezza, un quarto, un orario di cinque in cinque — senza dire quale sia quale. Il bambino guarda l'ora scritta, decide da solo che tipo di orario ha davanti e disegna le due lancette sul quadrante vuoto. Nessun cartellino avverte in anticipo se l'orario sarà facile o difficile: lo si scopre soltanto leggendolo con attenzione.",
+   "p2": "Mescolare è ciò che rende utile un ripasso. Quando tutta la pagina è fatta di mezze ore, dopo il primo esercizio la mano va da sola e la testa si riposa; qui invece ogni orologio impone una decisione nuova, ed è proprio quella decisione la competenza che vogliamo vedere. Per l'insegnante è anche una fotografia molto leggibile: se gli errori si concentrano su un solo tipo di orario, si sa esattamente dove tornare, senza rifare tutto il percorso da capo.",
+   "p3": "Il PDF gratuito si stampa volentieri anche a metà quadrimestre, come controllo veloce prima di passare oltre. Chi inciampa sui minuti può riprendere la scheda del cinque in cinque, chi esita sulle posizioni intermedie quella dei quarti d'ora. E per continuare a usare i numeri nella vita di ogni giorno, i problemi illustrati con gli animali sono un ottimo cambio di ritmo.",
+   "canonicalDeckSlug": "leggere-l-orologio-g1237",
+   "carousel": [
+    {
+     "label": "Disegna le lancette: solo le ore in punto",
+     "href": "disegna-le-lancette-ore-in-punto"
+    },
+    {
+     "label": "Disegna le lancette: tutte le mezze ore",
+     "href": "disegna-le-lancette-e-mezza"
+    },
+    {
+     "label": "Disegna le lancette: i quarti d'ora",
+     "href": "disegna-le-lancette-quarti-di-ora"
+    },
+    {
+     "label": "Disegna le lancette: i minuti di 5 in 5",
+     "href": "disegna-le-lancette-di-5-in-5-minuti"
+    }
+   ],
+   "title": "Disegna le lancette: ripasso dell'orologio | da stampare PDF",
+   "metaDescription": "Ore in punto, mezze ore, quarti e minuti di cinque in cinque mescolati: quattro orologi da completare. Ripasso di classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "problemi-di-addizione-illustrati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di problemi",
+   "h1": "Problemi di addizione illustrati con la frutta",
+   "strand": "Numeri e problemi",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-prima"
+   ],
+   "p1": "Le due storie di questa scheda hanno tutte la stessa direzione: qualcosa arriva, si unisce, si aggiunge. Mele che si sommano ad altre mele, cesti che si riempiono, banane portate da qualcuno. Sotto ogni testo scorre una striscia di figure di frutta che ripete la situazione in immagini, poi c'è il pannello a puntini per calcolare e il riquadro per la risposta.",
+   "p2": "Presentare solo addizioni ha un vantaggio preciso all'inizio: il bambino non deve ancora scegliere l'operazione e può dedicare tutta l'energia a capire il racconto. Prima si legge, si guarda il disegno, si dice a parole che cosa succede; solo dopo si scrive l'operazione. Quando invece si mescolano subito somme e sottrazioni, molti bambini smettono di leggere e si mettono a indovinare guardando i numeri. Meglio costruire la sicurezza su un unico tipo di storia, e togliere l'appoggio più avanti.",
+   "p3": "La scheda è un PDF gratuito, comodo anche come compito breve da fare insieme a casa. Il passo naturale dopo le somme sono i problemi di sottrazione, costruiti nello stesso modo; per chi ha bisogno di numeri più piccoli c'è la versione con i problemi entro il dieci. Chi preferisce cambiare argomento troverà nel calcolo mentale fino a 20 la pratica che rende i problemi meno faticosi.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g1238",
+   "carousel": [
+    {
+     "label": "Problemi di sottrazione illustrati con la frutta",
+     "href": "problemi-di-sottrazione-illustrati"
+    },
+    {
+     "label": "Problemi illustrati con numeri fino a 10",
+     "href": "problemi-illustrati-fino-a-10"
+    },
+    {
+     "label": "Tre problemi illustrati in una sola pagina",
+     "href": "tre-problemi-illustrati"
+    },
+    {
+     "label": "Problemi illustrati con gli animali per la classe prima",
+     "href": "problemi-illustrati-con-gli-animali"
+    }
+   ],
+   "title": "Problemi di addizione per la classe prima | da stampare PDF",
+   "metaDescription": "Due storie di frutta in cui qualcosa si aggiunge sempre: il bambino legge, conta le figure e scrive la somma. Classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "problemi-di-sottrazione-illustrati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di problemi",
+   "h1": "Problemi di sottrazione illustrati con la frutta",
+   "strand": "Numeri e problemi",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-prima"
+   ],
+   "p1": "In queste due storie qualcosa se ne va: la frutta viene mangiata, regalata, messa via. Il bambino legge il testo, poi conta sulla striscia di figure quante fragole o quante pere c'erano all'inizio e quante spariscono, e capisce che la domanda finale è sempre la stessa: quante ne restano? Il calcolo si svolge nel pannello a puntini, la risposta va nel riquadro.",
+   "p2": "La sottrazione raccontata è più difficile della sottrazione scritta, e non per colpa dei numeri. Ne ha regalate tre chiede di immaginare qualcosa che scompare, cioè di tenere in mente una quantità che sulla pagina non c'è più. Le figure aiutano moltissimo: si possono barrare con la matita gli elementi che vanno via, rendendo visibile un'azione che altrimenti resta solo nella testa. È un gesto piccolo, da suggerire subito, che spesso scioglie in un attimo la confusione fra ciò che c'era e ciò che rimane.",
+   "p3": "Il PDF si stampa gratis e funziona bene subito dopo la scheda con i soli problemi di addizione: le due pagine insieme mostrano che storie diverse chiedono operazioni diverse. Se serve un passo indietro, la pagina dei problemi entro il dieci lavora con quantità più maneggevoli; se invece si vuole allungare la sessione, la scheda con tre problemi in una pagina è il seguito giusto.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g1239",
+   "carousel": [
+    {
+     "label": "Problemi illustrati con numeri fino a 10",
+     "href": "problemi-illustrati-fino-a-10"
+    },
+    {
+     "label": "Tre problemi illustrati in una sola pagina",
+     "href": "tre-problemi-illustrati"
+    },
+    {
+     "label": "Problemi illustrati con gli animali per la classe prima",
+     "href": "problemi-illustrati-con-gli-animali"
+    },
+    {
+     "label": "Problemi di addizione illustrati con la frutta",
+     "href": "problemi-di-addizione-illustrati"
+    }
+   ],
+   "title": "Problemi di sottrazione classe prima | da stampare PDF",
+   "metaDescription": "Due storie in cui la frutta viene mangiata, regalata o portata via: si legge, si contano le figure e si scrive quanto resta. PDF gratis da stampare."
+  },
+  {
+   "slug": "problemi-illustrati-fino-a-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di problemi",
+   "h1": "Problemi illustrati con numeri fino a 10",
+   "strand": "Numeri e problemi",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-prima"
+   ],
+   "p1": "In questa versione della scheda nessun numero supera il dieci: le storie parlano di tre pere, di sei arance, di due fragole che arrivano. Le figure disegnate sotto ogni testo sono quindi poche e contabili con un colpo d'occhio, e il pannello a puntini basta e avanza per rappresentare tutta la situazione. Due problemi soltanto, con quantità che stanno comodamente sulle dita.",
+   "p2": "Abbassare i numeri non rende il compito banale: sposta semplicemente la fatica dove serve. Con quantità piccole il bambino sbaglia pochissimo il calcolo e può concentrarsi su ciò che i problemi chiedono davvero, cioè trasformare un racconto in un'operazione. È la pagina giusta per chi ha appena imparato a leggere frasi intere, per chi si blocca davanti ai numeri grandi e perde fiducia, e per i primi problemi svolti insieme a voce alta in classe, prima di lasciare i bambini da soli.",
+   "p3": "Stampa il PDF gratuito e lascia che il bambino racconti la storia con parole sue prima di scrivere: è metà del lavoro. Quando entro il dieci non ci sono più incertezze si può salire di livello con i problemi di addizione o con quelli di sottrazione, che usano numeri più grandi. Anche le scomposizioni fino a 10 aiutano, perché mostrano da dove vengono i numeri delle storie.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g1240",
+   "carousel": [
+    {
+     "label": "Tre problemi illustrati in una sola pagina",
+     "href": "tre-problemi-illustrati"
+    },
+    {
+     "label": "Problemi illustrati con gli animali per la classe prima",
+     "href": "problemi-illustrati-con-gli-animali"
+    },
+    {
+     "label": "Problemi di addizione illustrati con la frutta",
+     "href": "problemi-di-addizione-illustrati"
+    },
+    {
+     "label": "Problemi di sottrazione illustrati con la frutta",
+     "href": "problemi-di-sottrazione-illustrati"
+    }
+   ],
+   "title": "Problemi illustrati fino a 10 | da stampare PDF",
+   "metaDescription": "Storie con quantità piccole, tutte entro il dieci, da risolvere contando le figure di frutta. Primi problemi di classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "tre-problemi-illustrati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di problemi",
+   "h1": "Tre problemi illustrati in una sola pagina",
+   "strand": "Numeri e problemi",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-prima"
+   ],
+   "p1": "Questa scheda porta a tre il numero delle storie: un problema in più rispetto alla versione classica, con testi un po' più asciutti e riquadri più compatti per farli stare tutti nella stessa pagina. Ogni storia mantiene la sua striscia di figure di frutta e il suo spazio per il calcolo, ma la lettura procede più svelta, una situazione dopo l'altra.",
+   "p2": "Tre problemi di seguito chiedono qualcosa che due non chiedono: mantenere la concentrazione fino in fondo. Nel terzo esercizio si vede bene chi ha capito il metodo e chi finora si appoggiava all'aiuto dell'adulto, perché la stanchezza fa saltare proprio il passaggio più importante, la rilettura del testo. Per questo la pagina funziona bene come esercitazione a metà anno, quando i problemi non sono più una novità ma non sono ancora un'abitudine solida. Conviene concordare prima una piccola regola comune: si rilegge sempre la domanda a voce prima di scrivere il risultato nel riquadro.",
+   "p3": "Il PDF si stampa gratuitamente ed è perfetto anche per il quaderno delle vacanze. Se tre storie sono troppe in una volta, la scheda dei problemi entro il dieci alleggerisce il carico; se invece si vuole lavorare su un'unica operazione alla volta ci sono le pagine dedicate ai problemi di addizione e a quelli di sottrazione. E per cambiare completamente registro, i problemi illustrati con gli animali raccontano storie nuove.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g1241",
+   "carousel": [
+    {
+     "label": "Problemi illustrati con gli animali per la classe prima",
+     "href": "problemi-illustrati-con-gli-animali"
+    },
+    {
+     "label": "Problemi di addizione illustrati con la frutta",
+     "href": "problemi-di-addizione-illustrati"
+    },
+    {
+     "label": "Problemi di sottrazione illustrati con la frutta",
+     "href": "problemi-di-sottrazione-illustrati"
+    },
+    {
+     "label": "Problemi illustrati con numeri fino a 10",
+     "href": "problemi-illustrati-fino-a-10"
+    }
+   ],
+   "title": "Tre problemi illustrati da risolvere | da stampare PDF",
+   "metaDescription": "Tre storie brevi con le figure di frutta al posto dei soliti due problemi: più esercizio nella stessa pagina. Classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "problemi-illustrati-con-gli-animali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di problemi",
+   "h1": "Problemi illustrati con gli animali per la classe prima",
+   "strand": "Numeri e problemi",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "animali",
+    "classe-prima"
+   ],
+   "p1": "Le due storie di questa scheda si svolgono fra gli animali: papere che raggiungono lo stagno, gattini che se ne vanno, pesci che nuotano insieme. Sotto ogni testo una striscia di figure ripete la scena in immagini, così le quantità del racconto si possono contare davvero con il dito. Il bambino legge, conta, calcola nel pannello a puntini e scrive la risposta nel riquadro.",
+   "p2": "Cambiare il tema di un problema non è una decorazione: è un modo per verificare se il metodo ha retto. Un bambino che ha risolto dieci storie di frutta può aver imparato quelle storie, non il procedimento; le stesse strutture raccontate con gli animali mostrano subito se il ragionamento regge quando cambia il contesto. E poiché gli animali sono, quasi sempre, l'argomento che i bambini di sei anni scelgono per primo, l'attenzione alla lettura arriva senza doverla chiedere.",
+   "p3": "Il PDF gratuito si stampa in un momento ed è un ottimo secondo giro dopo la versione con la frutta. Chi ha bisogno di numeri più piccoli può passare ai problemi entro il dieci; chi vuole invece lavorare su un'unica operazione trova le pagine dedicate ai problemi di addizione e di sottrazione. Per restare in tema, anche il labirinto degli animali è un bel modo di chiudere la giornata.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-animali-g1213",
+   "carousel": [
+    {
+     "label": "Problemi di addizione illustrati con la frutta",
+     "href": "problemi-di-addizione-illustrati"
+    },
+    {
+     "label": "Problemi di sottrazione illustrati con la frutta",
+     "href": "problemi-di-sottrazione-illustrati"
+    },
+    {
+     "label": "Problemi illustrati con numeri fino a 10",
+     "href": "problemi-illustrati-fino-a-10"
+    },
+    {
+     "label": "Tre problemi illustrati in una sola pagina",
+     "href": "tre-problemi-illustrati"
+    }
+   ],
+   "title": "Problemi illustrati con gli animali | da stampare PDF",
+   "metaDescription": "Due problemi illustrati con gli animali: storia breve, figure da contare e spazio a puntini per il calcolo. Classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "addizioni-in-colonna-a-due-cifre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Addizioni in colonna a due cifre senza cambio",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-seconda"
+   ],
+   "p1": "Sei addizioni, tutte a due cifre, incolonnate nelle loro caselle di decine e unità. Le coppie di numeri sono scelte perché la somma delle unità non superi mai il nove: nessun riporto da segnare sopra la colonna, nessuna eccezione da ricordare. Il bambino somma prima le unità, scrive il risultato nella casella sotto, poi passa alle decine e completa la riga.",
+   "p2": "Un'intera pagina di sole addizioni permette di fissare il gesto senza cambiarlo mai. Il rischio, in seconda, è che l'incolonnamento venga eseguito come una formula imparata a memoria: si scrive un numero sotto l'altro perché così ha detto la maestra. Le caselle separate mostrano invece il motivo, cioè che le unità stanno con le unità e le decine con le decine, e che il metodo funziona solo se le colonne non si mescolano. Vale la pena chiedere ad alta voce, sulla prima operazione, quanto vale ogni cifra.",
+   "p3": "Il PDF si stampa gratis e vale come pagina di partenza di tutto il percorso in colonna. Il compagno immediato è la scheda delle sottrazioni in colonna a due cifre, che allena il gesto opposto; poi si sale con le operazioni a tre cifre. Quando il metodo è saldo arriva il momento delle addizioni con il riporto, dove finalmente la colonna delle unità supera il nove.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g2255",
+   "carousel": [
+    {
+     "label": "Sottrazioni in colonna a due cifre senza prestito",
+     "href": "sottrazioni-in-colonna-a-due-cifre"
+    },
+    {
+     "label": "Operazioni in colonna a tre cifre, addizioni e sottrazioni",
+     "href": "operazioni-in-colonna-a-tre-cifre"
+    },
+    {
+     "label": "Addizioni in colonna a tre cifre senza riporto",
+     "href": "addizioni-in-colonna-a-tre-cifre"
+    },
+    {
+     "label": "Ripasso delle operazioni in colonna a due e tre cifre",
+     "href": "ripasso-operazioni-in-colonna"
+    }
+   ],
+   "title": "Addizioni in colonna a due cifre | da stampare PDF",
+   "metaDescription": "Sei addizioni in colonna a due cifre senza riporto, con le caselle di decine e unità già pronte. Scheda di classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "sottrazioni-in-colonna-a-due-cifre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Sottrazioni in colonna a due cifre senza prestito",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-seconda"
+   ],
+   "p1": "Sei sottrazioni incolonnate, tutte a due cifre, con le cifre del numero di sopra sempre più grandi di quelle di sotto. Significa che ogni colonna si risolve da sola: prima le unità, poi le decine, senza mai dover chiedere in prestito una decina. Il bambino scrive ogni differenza nella casella corrispondente e completa la riga del risultato.",
+   "p2": "La sottrazione in colonna ha un nemico preciso: l'abitudine a togliere sempre il numero più piccolo dal più grande, colonna per colonna, senza guardare quale sta sopra e quale sotto. Da 43 meno 27 nasce così il classico 24. Una pagina senza prestito non elimina l'errore, ma costruisce l'ordine mentale che servirà a evitarlo: si legge la cifra di sopra, si toglie quella di sotto, si scrive sotto la riga. Quando arriverà il prestito, il bambino avrà già un procedimento da cui partire, invece di una regola nuova su un terreno incerto.",
+   "p3": "Il PDF è gratuito e si stampa in un attimo, anche in più copie per l'esercizio quotidiano. Prima o insieme a questa pagina sta bene la scheda delle addizioni in colonna a due cifre; dopo si può passare al ripasso con le operazioni mescolate, e più avanti alle sottrazioni con il prestito, che sono il vero salto della classe terza.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g2256",
+   "carousel": [
+    {
+     "label": "Operazioni in colonna a tre cifre, addizioni e sottrazioni",
+     "href": "operazioni-in-colonna-a-tre-cifre"
+    },
+    {
+     "label": "Addizioni in colonna a tre cifre senza riporto",
+     "href": "addizioni-in-colonna-a-tre-cifre"
+    },
+    {
+     "label": "Ripasso delle operazioni in colonna a due e tre cifre",
+     "href": "ripasso-operazioni-in-colonna"
+    },
+    {
+     "label": "Addizioni in colonna a due cifre senza cambio",
+     "href": "addizioni-in-colonna-a-due-cifre"
+    }
+   ],
+   "title": "Sottrazioni in colonna a due cifre | da stampare PDF",
+   "metaDescription": "Sei sottrazioni in colonna a due cifre senza prestito: si parte sempre dalle unità e si scrive cifra per cifra. Classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "operazioni-in-colonna-a-tre-cifre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Operazioni in colonna a tre cifre, addizioni e sottrazioni",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-seconda"
+   ],
+   "p1": "Le caselle diventano tre: centinaia, decine e unità. Su questa pagina compaiono sei operazioni a tre cifre, addizioni e sottrazioni mescolate, tutte senza cambio. Il bambino deve prima leggere il segno, decidere se aggiungere o togliere, e poi procedere colonna per colonna partendo sempre da destra, fino a riempire le tre caselle del risultato.",
+   "p2": "Mescolare i due segni cambia il compito più di quanto sembri. In una pagina di sole addizioni la mano prende il ritmo e la testa può distrarsi; qui invece ogni operazione impone di guardare il simbolo prima di iniziare, ed è esattamente l'abitudine che salva più tardi, quando i due algoritmi con il cambio si assomiglieranno molto. L'aggiunta della terza colonna, intanto, allunga il procedimento senza renderlo più difficile: è la prova che il metodo regge anche quando i numeri crescono.",
+   "p3": "Stampa gratis il PDF: la pagina è un buon banco di prova prima delle verifiche. Se le tre colonne creano confusione conviene tornare alle addizioni e alle sottrazioni a due cifre, dove il gesto è più corto; se invece tutto scorre, ci sono le addizioni a tre cifre e, per il livello successivo, le operazioni in colonna con il cambio. Una raccomandazione che vale per l'intera pagina: prima di calcolare si passa il dito sul segno e lo si legge ad alta voce, così l'operazione parte subito nella direzione giusta.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g2257",
+   "carousel": [
+    {
+     "label": "Addizioni in colonna a tre cifre senza riporto",
+     "href": "addizioni-in-colonna-a-tre-cifre"
+    },
+    {
+     "label": "Ripasso delle operazioni in colonna a due e tre cifre",
+     "href": "ripasso-operazioni-in-colonna"
+    },
+    {
+     "label": "Addizioni in colonna a due cifre senza cambio",
+     "href": "addizioni-in-colonna-a-due-cifre"
+    },
+    {
+     "label": "Sottrazioni in colonna a due cifre senza prestito",
+     "href": "sottrazioni-in-colonna-a-due-cifre"
+    }
+   ],
+   "title": "Operazioni in colonna a tre cifre | da stampare PDF",
+   "metaDescription": "Sei operazioni a tre cifre senza cambio, addizioni e sottrazioni mescolate, con le caselle di centinaia, decine e unità. PDF gratis da stampare."
+  },
+  {
+   "slug": "addizioni-in-colonna-a-tre-cifre",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Addizioni in colonna a tre cifre senza riporto",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-seconda"
+   ],
+   "p1": "Sei addizioni a tre cifre, una sotto l'altra, con le colonne di centinaia, decine e unità già disegnate. Gli addendi sono scelti in modo che nessuna colonna superi il nove: si somma tre volte di seguito, sempre nello stesso modo, e non c'è mai niente da riportare. Il risultato riempie tre caselle invece di due.",
+   "p2": "Questa pagina serve soprattutto a una cosa: mostrare che l'algoritmo non cambia quando i numeri diventano grandi. Molti bambini si spaventano davanti al 400 e al 500, convinti che serva un metodo nuovo, mentre in realtà stanno solo ripetendo un gesto che conoscono già una volta in più. Dirlo esplicitamente, prima di iniziare, toglie metà della fatica. La terza colonna è anche un'occasione naturale per rileggere i numeri per intero — quattrocentotrentadue, non quattro tre due — e tenere vivo il valore posizionale.",
+   "p3": "Il PDF gratuito si stampa quando serve, anche una riga per volta da copiare sul quaderno. Chi arriva da poco dalle due cifre farà bene a passare prima dalle addizioni in colonna a due cifre; chi vuole invece mettere alla prova l'attenzione trova le operazioni a tre cifre mescolate con le sottrazioni, e più avanti le addizioni a tre cifre con il riporto. Anche il ripasso delle operazioni in colonna è un buon modo per controllare che la terza colonna non crei più esitazioni.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g2258",
+   "carousel": [
+    {
+     "label": "Ripasso delle operazioni in colonna a due e tre cifre",
+     "href": "ripasso-operazioni-in-colonna"
+    },
+    {
+     "label": "Addizioni in colonna a due cifre senza cambio",
+     "href": "addizioni-in-colonna-a-due-cifre"
+    },
+    {
+     "label": "Sottrazioni in colonna a due cifre senza prestito",
+     "href": "sottrazioni-in-colonna-a-due-cifre"
+    },
+    {
+     "label": "Operazioni in colonna a tre cifre, addizioni e sottrazioni",
+     "href": "operazioni-in-colonna-a-tre-cifre"
+    }
+   ],
+   "title": "Addizioni in colonna a tre cifre | da stampare PDF",
+   "metaDescription": "Sei addizioni a tre cifre senza riporto: centinaia, decine e unità, ognuna nella sua casella. Scheda di classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "ripasso-operazioni-in-colonna",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Ripasso delle operazioni in colonna a due e tre cifre",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-seconda"
+   ],
+   "p1": "Una pagina di ripasso che rimette insieme tutto il percorso senza cambio: sei operazioni in cui si alternano due e tre cifre, addizioni e sottrazioni. Nessun avviso, nessun ordine prevedibile. Il bambino guarda l'operazione, conta quante colonne ha davanti, legge il segno e procede dalle unità verso sinistra fino all'ultima casella da riempire. Sei operazioni bastano: la pagina è pensata per essere corretta in classe, tutti insieme, subito dopo.",
+   "p2": "Il valore di una pagina mescolata sta tutto nella varietà: obbliga a decidere ogni volta invece di ripetere. Per l'insegnante è una verifica leggibile in pochi minuti, perché gli errori si raggruppano da soli in categorie riconoscibili — chi sbaglia solo le sottrazioni, chi perde il filo quando compare la terza colonna, chi incolonna male e trascina l'errore su tutta la riga. Ognuna di queste tracce indica una pagina precisa a cui tornare, senza dover ripercorrere l'intero cammino. È anche l'occasione giusta per parlare del controllo del proprio lavoro, che a questa età si insegna esattamente come si insegna il calcolo.",
+   "p3": "Il PDF si stampa gratis e chiude bene il lavoro sul calcolo senza cambio. Da qui la strada prosegue verso le operazioni in colonna con il cambio, con riporto e prestito; chi invece deve consolidare può riprendere le addizioni a due cifre o le sottrazioni a due cifre, una alla volta. Un po' di calcolo mentale fino a 20 resta utile anche adesso.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g2259",
+   "carousel": [
+    {
+     "label": "Addizioni in colonna a due cifre senza cambio",
+     "href": "addizioni-in-colonna-a-due-cifre"
+    },
+    {
+     "label": "Sottrazioni in colonna a due cifre senza prestito",
+     "href": "sottrazioni-in-colonna-a-due-cifre"
+    },
+    {
+     "label": "Operazioni in colonna a tre cifre, addizioni e sottrazioni",
+     "href": "operazioni-in-colonna-a-tre-cifre"
+    },
+    {
+     "label": "Addizioni in colonna a tre cifre senza riporto",
+     "href": "addizioni-in-colonna-a-tre-cifre"
+    }
+   ],
+   "title": "Ripasso delle operazioni in colonna | da stampare PDF",
+   "metaDescription": "Addizioni e sottrazioni in colonna, a due e a tre cifre, mescolate nella stessa pagina e sempre senza cambio. Classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "capacita-in-millilitri",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di misure",
+   "h1": "La capacità in millilitri: leggi le sei caraffe",
+   "strand": "Misure",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "misurazione",
+    "classe-seconda"
+   ],
+   "p1": "Su questa pagina ci sono solo caraffe: sei recipienti graduati, riempiti fino a livelli diversi, senza nessuna bilancia a dividere l'attenzione. Il bambino osserva dove arriva il liquido, segue con lo sguardo la scala stampata sul fianco e scrive nel riquadro quanti millilitri contiene ogni caraffa, unità di misura compresa. Sei riquadri, sei numeri da scrivere e nient'altro sulla pagina che possa distrarre.",
+   "p2": "Concentrare la pagina su un unico strumento permette di lavorare sul gesto più delicato della misura: capire quanto vale una tacca. È un'abilità che non si insegna con una definizione, ma guardando molte scale di seguito e notando che gli intervalli si contano come i numeri sulla linea dei numeri. Sei letture consecutive danno il tempo di prenderci la mano, e a fine pagina l'occhio si muove sulla graduazione molto più sicuro di quando ha cominciato.",
+   "p3": "Stampa il PDF gratuito e, se puoi, tieni accanto un misurino da cucina: versare l'acqua e controllare rende tutto memorabile. La pagina gemella è quella dedicata al peso in grammi, con le bilance a due piatti; per numeri più grandi ci sono le caraffe fino a 2000 ml, mentre chi vuole leggere strumenti diversi nella stessa scheda trova la pagina di capacità e peso. In classe la scheda si presta anche a una piccola gara di lettura veloce, quando serve un po' di ritmo.",
+   "canonicalDeckSlug": "misurazione-g2260",
+   "carousel": [
+    {
+     "label": "Il peso in grammi: leggi le sei bilance",
+     "href": "il-peso-in-grammi"
+    },
+    {
+     "label": "Misurare con precisione: le tacche da 50 ml",
+     "href": "misurare-con-precisione-tacche-da-50-ml"
+    },
+    {
+     "label": "Capacità fino a 2000 ml: le caraffe grandi",
+     "href": "capacita-fino-a-2000-ml"
+    },
+    {
+     "label": "Capacità e peso con gli animali: caraffe e bilance",
+     "href": "capacita-e-peso-con-gli-animali"
+    }
+   ],
+   "title": "La capacità in millilitri – Classe seconda | da stampare PDF",
+   "metaDescription": "Sei caraffe graduate riempite a livelli diversi: il bambino legge la scala e scrive quanti millilitri contiene ciascuna. PDF gratis da stampare."
+  },
+  {
+   "slug": "il-peso-in-grammi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di misure",
+   "h1": "Il peso in grammi: leggi le sei bilance",
+   "strand": "Misure",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "misurazione",
+    "veicoli",
+    "classe-seconda"
+   ],
+   "p1": "Sei bilance a due piatti occupano tutta la pagina, e su ognuna è in equilibrio un veicolo: un camion, un'automobile, un autobus. Sull'altro piatto stanno i pesi. Il bambino li guarda, li mette insieme e scrive quanti grammi pesa l'oggetto, senza dimenticare l'unità di misura accanto al numero. Nessuna caraffa e nessun millilitro: qui si parla soltanto di grammi.",
+   "p2": "La bilancia a due piatti racconta il peso meglio di qualsiasi display digitale, perché mostra un'idea invece di un risultato: due quantità si equivalgono quando i piatti stanno allo stesso livello. È anche un buon esercizio di addizione mascherato, dato che i pesi vanno sommati prima di rispondere. E l'equilibrio è un'immagine che tornerà utile molto più avanti, quando i due piatti diventeranno i due membri di un'uguaglianza. Vale la pena chiedere ai bambini di indicare a dito i due piatti e di dire ad alta voce che cosa vedono prima di scrivere: la frase pronunciata fissa l'idea meglio del numero.",
+   "p3": "Il PDF si stampa gratis e sta bene accanto alla bilancia della cucina, che permette di rifare la stessa lettura con oggetti veri. La scheda parallela è quella della capacità in millilitri, con le sole caraffe; per mettere insieme i due strumenti c'è la pagina di capacità e peso, e per una versione con letture più fini quella con le tacche da 50 ml.",
+   "canonicalDeckSlug": "misurazione-veicoli-g2261",
+   "carousel": [
+    {
+     "label": "Misurare con precisione: le tacche da 50 ml",
+     "href": "misurare-con-precisione-tacche-da-50-ml"
+    },
+    {
+     "label": "Capacità fino a 2000 ml: le caraffe grandi",
+     "href": "capacita-fino-a-2000-ml"
+    },
+    {
+     "label": "Capacità e peso con gli animali: caraffe e bilance",
+     "href": "capacita-e-peso-con-gli-animali"
+    },
+    {
+     "label": "La capacità in millilitri: leggi le sei caraffe",
+     "href": "capacita-in-millilitri"
+    }
+   ],
+   "title": "Il peso in grammi – Bilance classe seconda | da stampare PDF",
+   "metaDescription": "Sei bilance a due piatti con i veicoli da pesare: si guardano i pesi e si scrive quanti grammi. Misure di classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "misurare-con-precisione-tacche-da-50-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di misure",
+   "h1": "Misurare con precisione: le tacche da 50 ml",
+   "strand": "Misure",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "misurazione",
+    "veicoli",
+    "classe-seconda"
+   ],
+   "p1": "La differenza di questa scheda sta tutta nella scala: le caraffe sono graduate ogni 50 ml, non ogni 100, e i livelli cadono spesso fra due tacche numerate. Accanto ci sono le bilance con i veicoli da pesare in grammi. Il bambino deve contare le tacche una per una, non accontentarsi del numero più vicino, e scrivere ogni misura con la sua unità.",
+   "p2": "È il passaggio dalla lettura approssimativa alla lettura esatta, e non è un dettaglio: fino a qui bastava vedere se il liquido superava o no un numero scritto, adesso bisogna capire quanti millilitri vale ogni segno intermedio e contarli. Chi legge in fretta scriverà 300 dove ci sono 350. Conviene farlo notare subito, con il dito appoggiato sulla graduazione: le tacche si contano come i gradini di una scala vera, uno alla volta, e la precisione diventa un'abitudine invece che una raccomandazione ripetuta.",
+   "p3": "Il PDF gratuito si stampa per l'esercizio in classe o a casa. Se le letture fini risultano ancora difficili, le pagine con le sole caraffe in millilitri o con le sole bilance in grammi tolgono una difficoltà alla volta; per numeri più alti ci sono invece le caraffe fino a 2000 ml. Tutte insieme formano un piccolo percorso completo sulle misure.",
+   "canonicalDeckSlug": "misurazione-veicoli-g2262",
+   "carousel": [
+    {
+     "label": "Capacità fino a 2000 ml: le caraffe grandi",
+     "href": "capacita-fino-a-2000-ml"
+    },
+    {
+     "label": "Capacità e peso con gli animali: caraffe e bilance",
+     "href": "capacita-e-peso-con-gli-animali"
+    },
+    {
+     "label": "La capacità in millilitri: leggi le sei caraffe",
+     "href": "capacita-in-millilitri"
+    },
+    {
+     "label": "Il peso in grammi: leggi le sei bilance",
+     "href": "il-peso-in-grammi"
+    }
+   ],
+   "title": "Misurare con precisione: tacche da 50 ml | da stampare PDF",
+   "metaDescription": "Caraffe con le tacche da 50 ml e bilance con i veicoli: letture più fini, dove ogni segno della scala conta. Classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "capacita-fino-a-2000-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di misure",
+   "h1": "Capacità fino a 2000 ml: le caraffe grandi",
+   "strand": "Misure",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "misurazione",
+    "classe-seconda"
+   ],
+   "p1": "Le caraffe di questa pagina arrivano fino a 2000 millilitri: recipienti grandi, scale lunghe e livelli che superano spesso il mille. Il bambino legge la graduazione come nelle schede precedenti, ma i numeri da scrivere sono ora di tre o quattro cifre, e vanno riportati per intero nel riquadro insieme all'unità di misura.",
+   "p2": "Superare il mille cambia il modo di leggere una scala. I numeri grandi vanno prima riconosciuti — milleduecento, millecinquecento — e poi collocati sulla graduazione, e questo doppio lavoro è un ottimo ripasso del valore posizionale dentro un contesto concreto. È anche il momento in cui la parola litro entra nel discorso in modo naturale: una bottiglia d'acqua da un litro e mezzo, sotto gli occhi di tutti, vale 1500 ml. Il collegamento fra i millilitri di una scheda e gli oggetti della dispensa si fa qui, senza bisogno di formule.",
+   "p3": "Il PDF si stampa gratis e si abbina benissimo a una bottiglia vera portata in classe. Se i numeri sopra il mille creano difficoltà, la scheda con le caraffe in millilitri usa quantità più piccole; per un lavoro sulla precisione ci sono le tacche da 50 ml, e per leggere due strumenti diversi la pagina di capacità e peso con caraffe e bilance.",
+   "canonicalDeckSlug": "misurazione-g2263",
+   "carousel": [
+    {
+     "label": "Capacità e peso con gli animali: caraffe e bilance",
+     "href": "capacita-e-peso-con-gli-animali"
+    },
+    {
+     "label": "La capacità in millilitri: leggi le sei caraffe",
+     "href": "capacita-in-millilitri"
+    },
+    {
+     "label": "Il peso in grammi: leggi le sei bilance",
+     "href": "il-peso-in-grammi"
+    },
+    {
+     "label": "Misurare con precisione: le tacche da 50 ml",
+     "href": "misurare-con-precisione-tacche-da-50-ml"
+    }
+   ],
+   "title": "Capacità fino a 2000 ml | da stampare PDF",
+   "metaDescription": "Sei caraffe grandi da leggere, con livelli fino a 2000 millilitri: numeri alti e il primo incontro con il litro. Classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "capacita-e-peso-con-gli-animali",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "animals",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di misure",
+   "h1": "Capacità e peso con gli animali: caraffe e bilance",
+   "strand": "Misure",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "misurazione",
+    "animali",
+    "classe-seconda"
+   ],
+   "p1": "La scheda mette insieme sei strumenti: tre caraffe graduate da leggere in millilitri e tre bilance a due piatti su cui, questa volta, stanno gli animali — un panda, una tartaruga, un pinguino da pesare in grammi. Il bambino osserva ogni strumento, capisce che cosa sta misurando e scrive la quantità con l'unità giusta accanto al numero.",
+   "p2": "Alternare capacità e peso nella stessa pagina è più impegnativo di quanto sembri, perché costringe a cambiare unità a ogni esercizio: millilitri per il liquido, grammi per gli oggetti sui piatti. È esattamente il tipo di attenzione che manca quando un bambino scrive 250 g sotto una caraffa. Sostituire i veicoli con gli animali, poi, rinnova l'interesse su un meccanismo già visto: la stessa pagina, con protagonisti diversi, si affronta volentieri una seconda volta. Un accorgimento aiuta parecchio: leggere prima tutta la scheda e dire, strumento per strumento, se misura una capacità o un peso.",
+   "p3": "Il PDF gratuito si stampa in un attimo. Chi preferisce un solo strumento per volta trova la scheda con le sole caraffe in millilitri e quella con le sole bilance in grammi; chi cerca invece più difficoltà può passare alle tacche da 50 ml o alle caraffe fino a 2000 ml. E per continuare con gli animali ci sono i problemi illustrati con gli animali.",
+   "canonicalDeckSlug": "misurazione-animali-g2252",
+   "carousel": [
+    {
+     "label": "La capacità in millilitri: leggi le sei caraffe",
+     "href": "capacita-in-millilitri"
+    },
+    {
+     "label": "Il peso in grammi: leggi le sei bilance",
+     "href": "il-peso-in-grammi"
+    },
+    {
+     "label": "Misurare con precisione: le tacche da 50 ml",
+     "href": "misurare-con-precisione-tacche-da-50-ml"
+    },
+    {
+     "label": "Capacità fino a 2000 ml: le caraffe grandi",
+     "href": "capacita-fino-a-2000-ml"
+    }
+   ],
+   "title": "Capacità e peso con gli animali | da stampare PDF",
+   "metaDescription": "Tre caraffe graduate in millilitri e tre bilance con gli animali sui piatti: si legge lo strumento e si scrive la misura. PDF gratis da stampare."
+  },
+  {
+   "slug": "simmetria-facile-sui-quadretti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di simmetria",
+   "h1": "Simmetria facile sui quadretti: figure semplici",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "simmetria",
+    "classe-seconda"
+   ],
+   "p1": "Le quattro figure di questa pagina sono le più semplici della serie: sagome compatte, fatte di pochi quadretti e senza sporgenze difficili da seguire. Metà disegno è già colorata, l'altra metà attende oltre la linea verticale colorata. Il bambino conta quanti quadretti ci sono in ogni riga e colora gli stessi dall'altra parte.",
+   "p2": "Cominciare da forme piccole serve a rendere visibile la regola prima di applicarla a figure complicate: ogni quadretto ha il suo gemello alla stessa distanza dalla linea, sulla riga corrispondente. Con poche caselle il controllo è immediato e l'errore si corregge subito, senza dover ricominciare tutto da capo. E la verifica non richiede l'adulto: se le due metà non combaciano, lo si vede al primo sguardo. Conviene lavorare riga per riga, con il dito appoggiato sulla linea di simmetria: è il metodo che regge anche quando le figure diventeranno grandi.",
+   "p3": "Il PDF si stampa gratis e servono soltanto dei pastelli. Quando le figure semplici non danno più problemi c'è la versione con le figure difficili, e per lavorare su sagome riconoscibili ci sono i disegni a specchio con il cuore e la farfalla. Chi invece ha voglia di un'altra sfida visiva può provare il labirinto gigante. Bastano dieci minuti, e la pagina funziona bene anche a coppie, con un bambino che conta i quadretti e l'altro che colora.",
+   "canonicalDeckSlug": "simmetria-g2264",
+   "carousel": [
+    {
+     "label": "Simmetria difficile sui quadretti: figure complesse",
+     "href": "simmetria-difficile-sui-quadretti"
+    },
+    {
+     "label": "Disegni a specchio: cuore, farfalla, pupazzo di neve e albero",
+     "href": "disegni-a-specchio-cuore-e-farfalla"
+    },
+    {
+     "label": "Disegni a specchio: casa, corona, fungo e mela",
+     "href": "disegni-a-specchio-casa-e-corona"
+    },
+    {
+     "label": "Simmetria con la linea orizzontale: colora sotto la linea",
+     "href": "simmetria-con-la-linea-orizzontale"
+    }
+   ],
+   "title": "Simmetria facile sui quadretti | da stampare PDF",
+   "metaDescription": "Quattro figure semplici, fatte di pochi quadretti, da completare a specchio oltre la linea centrale. Simmetria facile, PDF gratis da stampare."
+  },
+  {
+   "slug": "simmetria-difficile-sui-quadretti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di simmetria",
+   "h1": "Simmetria difficile sui quadretti: figure complesse",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "simmetria",
+    "classe-seconda"
+   ],
+   "p1": "Qui le sagome crescono: righe più lunghe, contorni frastagliati, quadretti isolati lontani dalla linea di simmetria. La metà già disegnata occupa buona parte della griglia e riprodurla dall'altra parte richiede di contare con attenzione riga dopo riga, senza saltarne nessuna. Quattro figure impegnative, da fare con calma e con la gomma a portata di mano.",
+   "p2": "Le figure difficili mettono alla prova non la comprensione della simmetria, che a questo punto c'è già, ma la tenuta: bisogna mantenere il metodo per venti o trenta quadretti di seguito. È qui che si vede la differenza fra chi conta ogni casella e chi va a occhio, perché lo sguardo, davanti a un contorno irregolare, sbaglia quasi sempre. Un consiglio pratico che funziona: segnare con un puntino leggero la casella corrispondente prima di colorarla, e colorare solo dopo aver controllato l'intera riga.",
+   "p3": "Il PDF è gratuito e regge bene anche come attività lunga del venerdì pomeriggio. Se le figure sembrano troppo, la pagina con la simmetria facile riprende da forme più piccole; se invece la mano è sicura, i disegni a specchio con la casa e la corona aggiungono il gusto di riconoscere l'immagine, e la scheda con la linea orizzontale cambia completamente il punto di vista. Un ultimo consiglio da dare prima di iniziare: meglio una figura fatta bene che quattro finite di corsa.",
+   "canonicalDeckSlug": "simmetria-g2265",
+   "carousel": [
+    {
+     "label": "Disegni a specchio: cuore, farfalla, pupazzo di neve e albero",
+     "href": "disegni-a-specchio-cuore-e-farfalla"
+    },
+    {
+     "label": "Disegni a specchio: casa, corona, fungo e mela",
+     "href": "disegni-a-specchio-casa-e-corona"
+    },
+    {
+     "label": "Simmetria con la linea orizzontale: colora sotto la linea",
+     "href": "simmetria-con-la-linea-orizzontale"
+    },
+    {
+     "label": "Simmetria facile sui quadretti: figure semplici",
+     "href": "simmetria-facile-sui-quadretti"
+    }
+   ],
+   "title": "Simmetria difficile sui quadretti | da stampare PDF",
+   "metaDescription": "Quattro figure più grandi e frastagliate da completare a specchio: righe lunghe, quadretti sparsi e molta precisione. PDF gratis da stampare."
+  },
+  {
+   "slug": "disegni-a-specchio-cuore-e-farfalla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di simmetria",
+   "h1": "Disegni a specchio: cuore, farfalla, pupazzo di neve e albero",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "simmetria",
+    "classe-seconda"
+   ],
+   "p1": "Le quattro figure di questa pagina hanno un nome: un cuore, una farfalla, un pupazzo di neve e un albero. Di ciascuna è disegnata solo la metà sinistra, in quadretti colorati; il bambino completa la metà destra contando le caselle oltre la linea di simmetria, e a poco a poco il disegno si rivela per intero. Le sagome sono grandi abbastanza da restare chiare anche quando i quadretti da colorare sono tanti.",
+   "p2": "Lavorare su immagini riconoscibili aggiunge qualcosa che le figure astratte non danno: un'aspettativa. Il bambino sa dove dovrebbe arrivare, quindi si accorge da solo se una riga è sbagliata, perché l'ala della farfalla non viene bene. È autocorrezione gratuita, e insieme un'occasione per notare che la simmetria non è un'invenzione della scuola: cuori, farfalle e alberi sono simmetrici anche fuori dal quaderno, e vale la pena cercarne altri esempi guardandosi intorno.",
+   "p3": "Il PDF si stampa gratuitamente e il risultato è bello da appendere, il che non guasta mai. La pagina compagna, con la casa, la corona, il fungo e la mela, propone altre quattro sagome da riconoscere; chi vuole invece alzare il livello troverà pane per i suoi denti nelle figure difficili, e chi cerca una svolta nel ragionamento nella simmetria con la linea orizzontale. Il momento più bello resta sempre l'ultimo quadretto, quando la figura si chiude e si riconosce.",
+   "canonicalDeckSlug": "simmetria-g2266",
+   "carousel": [
+    {
+     "label": "Disegni a specchio: casa, corona, fungo e mela",
+     "href": "disegni-a-specchio-casa-e-corona"
+    },
+    {
+     "label": "Simmetria con la linea orizzontale: colora sotto la linea",
+     "href": "simmetria-con-la-linea-orizzontale"
+    },
+    {
+     "label": "Simmetria facile sui quadretti: figure semplici",
+     "href": "simmetria-facile-sui-quadretti"
+    },
+    {
+     "label": "Simmetria difficile sui quadretti: figure complesse",
+     "href": "simmetria-difficile-sui-quadretti"
+    }
+   ],
+   "title": "Disegni a specchio: cuore e farfalla | da stampare PDF",
+   "metaDescription": "Cuore, farfalla, pupazzo di neve e albero da completare a specchio sui quadretti: quattro figure simmetriche da colorare. PDF gratis da stampare."
+  },
+  {
+   "slug": "disegni-a-specchio-casa-e-corona",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di simmetria",
+   "h1": "Disegni a specchio: casa, corona, fungo e mela",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "simmetria",
+    "classe-seconda"
+   ],
+   "p1": "Casa, corona, fungo e mela: quattro sagome familiari, ciascuna disegnata a metà sulla griglia di quadretti. Il bambino colora oltre la linea centrale le caselle corrispondenti, riga per riga, finché la seconda metà non compare uguale alla prima. Le punte della corona e il tetto della casa sono i punti in cui bisogna contare con più attenzione.",
+   "p2": "Ogni figura di questa pagina ha un tratto che mette alla prova la precisione: le punte della corona sono strette e vicine, il tetto sale in diagonale, il gambo del fungo è largo poche caselle. Sono esattamente i posti dove i bambini approssimano, e per questo sono utili. Se una punta viene fuori più corta della sua gemella, il disegno lo denuncia subito: nessuna correzione dell'adulto è più efficace di questa. Vale la pena fermarsi proprio su quei dettagli, invece di correre a finire.",
+   "p3": "Stampa il PDF gratuito e prepara quattro colori diversi, uno per figura. Se questa pagina è piaciuta, la gemella con il cuore, la farfalla, il pupazzo di neve e l'albero offre altre quattro sagome; per una difficoltà maggiore ci sono le figure complesse, mentre la simmetria facile resta il ripasso giusto per chi ha bisogno di ricominciare da poche caselle. E se avanza tempo, si può inventare una quinta sagoma sui quadretti del quaderno e passarla al compagno di banco.",
+   "canonicalDeckSlug": "simmetria-g2267",
+   "carousel": [
+    {
+     "label": "Simmetria con la linea orizzontale: colora sotto la linea",
+     "href": "simmetria-con-la-linea-orizzontale"
+    },
+    {
+     "label": "Simmetria facile sui quadretti: figure semplici",
+     "href": "simmetria-facile-sui-quadretti"
+    },
+    {
+     "label": "Simmetria difficile sui quadretti: figure complesse",
+     "href": "simmetria-difficile-sui-quadretti"
+    },
+    {
+     "label": "Disegni a specchio: cuore, farfalla, pupazzo di neve e albero",
+     "href": "disegni-a-specchio-cuore-e-farfalla"
+    }
+   ],
+   "title": "Disegni a specchio: casa e corona | da stampare PDF",
+   "metaDescription": "Casa, corona, fungo e mela da completare a specchio sui quadretti: quattro sagome simmetriche da colorare oltre la linea. PDF gratis da stampare."
+  },
+  {
+   "slug": "simmetria-con-la-linea-orizzontale",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di simmetria",
+   "h1": "Simmetria con la linea orizzontale: colora sotto la linea",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "simmetria",
+    "classe-seconda"
+   ],
+   "p1": "Su questa pagina la linea di simmetria non è verticale ma orizzontale: attraversa la griglia da sinistra a destra, e la metà già colorata sta sopra. Il bambino deve completare la parte sotto la linea, ribaltando il disegno verso il basso invece che di lato. Le quattro figure — un razzo, una freccia, un gelato e un robot — sono disegnate coricate, così da restare riconoscibili.",
+   "p2": "Girare l'asse di novanta gradi è un piccolo terremoto, e proprio per questo è la pagina più istruttiva della serie. Molti bambini, dopo alcune schede con la linea verticale, hanno imparato un movimento della mano — a destra, alla stessa altezza — più che il concetto di riflessione. Qui quel movimento non funziona più: bisogna contare i quadretti sopra la linea e riportarli in giù, alla stessa distanza, nella stessa colonna. Chi ha capito la simmetria si riorienta in pochi minuti; chi aveva imparato solo il gesto lo scopre subito, ed è un'informazione preziosa per l'insegnante.",
+   "p3": "Il PDF si stampa gratis e vale come verifica finale di tutto il lavoro sulla simmetria. Prima conviene aver fatto le figure semplici e quelle difficili con l'asse verticale; per un ripasso più leggero, i disegni a specchio con il cuore e la farfalla restano i preferiti dei bambini. Dopo questa pagina la simmetria non è più un automatismo.",
+   "canonicalDeckSlug": "simmetria-g2268",
+   "carousel": [
+    {
+     "label": "Simmetria facile sui quadretti: figure semplici",
+     "href": "simmetria-facile-sui-quadretti"
+    },
+    {
+     "label": "Simmetria difficile sui quadretti: figure complesse",
+     "href": "simmetria-difficile-sui-quadretti"
+    },
+    {
+     "label": "Disegni a specchio: cuore, farfalla, pupazzo di neve e albero",
+     "href": "disegni-a-specchio-cuore-e-farfalla"
+    },
+    {
+     "label": "Disegni a specchio: casa, corona, fungo e mela",
+     "href": "disegni-a-specchio-casa-e-corona"
+    }
+   ],
+   "title": "Simmetria con la linea orizzontale | da stampare PDF",
+   "metaDescription": "La linea di simmetria è orizzontale e il bambino colora la metà sotto la linea: razzo, freccia, gelato e robot disegnati di lato. PDF gratis da stampare."
   }
  ]
 }

@@ -123219,8 +123219,8 @@
     "mala-efter-siffror",
     "forskola"
    ],
-   "p1": "Det här arbetsbladet gömmer matte i en färgläggningsbild. Tolv fält med konturer bär var sitt litet tal att räkna ut, och överst finns koden: varje tal hör ihop med ett färgord. Barnet räknar ut talet i ett fält, letar upp talet i koden, läser vilken färg som gäller och färglägger fältet. Fält för fält växer bilden fram – och den blir bara rätt om räkningen stämmer.",
-   "p2": "Måla efter kod förenar noggrant tittande med enkel räkning. Varje fält är en liten uppgift med ett tydligt facit i färg: ett räknefel syns direkt i bilden, och rätt svar belönas med att bilden växer. Det tränar taluppfattning och de första små talkombinationerna, samtidigt som färgläggandet i sig tränar pennkontroll och uthållighet. För många barn är det här den snällaste vägen in i räknandet – det känns som målarstund, inte som prov.",
+   "p1": "Det här arbetsbladet gömmer matte i färgläggningen. Tolv konturtecknade figurer ligger utspridda över bladet och bär var sitt litet tal att räkna ut, och överst finns koden: varje tal hör ihop med ett färgord. Barnet räknar ut talet i en figur, letar upp talet i koden, läser vilken färg som gäller och färglägger figuren. Figur för figur fylls bladet med färg – och färgerna hamnar bara rätt om räkningen stämmer.",
+   "p2": "Måla efter kod förenar noggrant tittande med enkel räkning. Varje figur är en liten uppgift med ett tydligt facit i färg: räknar barnet fel finns svaret inte i koden, och varje rätt svar belönas med ännu en figur som får sin färg. Det tränar taluppfattning och de första små talkombinationerna, samtidigt som färgläggandet i sig tränar pennkontroll och uthållighet. För många barn är det här den snällaste vägen in i räknandet – det känns som målarstund, inte som prov.",
    "p3": "Bladet skrivs ut gratis som PDF, så det är fritt fram att måla flera gånger. Den som fastnar för räknandet kan gå vidare till tiokompisarna, där talet 10 delas upp i par som är guld värda i huvudräkningen – och den som mest gillar pennarbetet kan ta en labyrint och låta pennan hitta vägen till målet i stället. Och behöver själva sifferformerna fortfarande övas finns bladet där siffrorna 0 till 9 spåras med startprick och pilar.",
    "canonicalDeckSlug": "mala-efter-siffror-k241",
    "carousel": [
@@ -123242,7 +123242,7 @@
     }
    ],
    "title": "Arbetsblad måla efter kod – räkna, färglägg | skriva ut PDF gratis",
-   "metaDescription": "Tolv fält med små tal och en färgkod: barnet räknar ut talet i varje fält och färglägger med rätt färg. Räkning och färgläggning – skriv ut gratis som PDF."
+   "metaDescription": "Tolv figurer med små tal och en färgkod: barnet räknar ut talet i varje figur och färglägger med rätt färg. Räkning och färgläggning – skriv ut gratis som PDF."
   },
   {
    "slug": "labyrinter-for-barn",
@@ -123261,9 +123261,9 @@
     "leksaker",
     "forskola"
    ],
-   "p1": "Ett helt blad, en enda stor labyrint. Vid starten högst upp står ett litet djur redo, och längst ner väntar målet – bladet har leksakstema, så vägen dit går genom en värld av leksaker. Barnet letar sig fram med ögonen först och pennan sedan, ritar sin väg genom gångarna, backar ur återvändsgränder och fortsätter tills strecket når ända fram. En uppgift, ett mål och en riktigt nöjd upptäckare på slutet.",
+   "p1": "Ett helt blad, en enda stor labyrint. Vid starten högst upp till vänster står en leksak, och vid målet längst ner till höger står en till – det är bladets två enda bilder, båda hämtade ur samma leksakstema. Gångarna däremellan är helt rena, så ingenting stör ögat när vägen ska hittas. Barnet letar sig fram med ögonen först och pennan sedan, ritar sin väg genom gångarna, backar ur återvändsgränder och fortsätter tills strecket når ända fram. En uppgift, ett mål och en riktigt nöjd upptäckare på slutet.",
    "p2": "Labyrinter ser ut som ren lek men tränar precis det skolstarten behöver. Ögat lär sig planera framåt och hålla flera vägval i minnet, handen tränar att styra pennan i smala gångar utan att nudda väggarna, och varje återvändsgränd övar det tålmodiga försök-igen-tänk som all problemlösning bygger på. Att uppgiften har ett tydligt slut – strecket når målet – gör att även den mest orolige stannar kvar tills det är löst.",
-   "p3": "Skriv ut labyrinten gratis som PDF och låt pennan ge sig ut på äventyr. Den som vill ha mer renodlad pennträning kan gå till skrivövningarna med öglor, vågor och sicksacklinjer, som bygger samma pennkontroll bana för bana – och den som hellre räknar sig igenom en bild kan prova att måla efter kod, där varje färgfält gömmer ett litet tal.",
+   "p3": "Skriv ut labyrinten gratis som PDF och låt pennan ge sig ut på äventyr. Den som vill ha mer renodlad pennträning kan gå till skrivövningarna med öglor, vågor och sicksacklinjer, som bygger samma pennkontroll bana för bana – och den som hellre räknar sig igenom ett blad kan prova att måla efter kod, där var och en av tolv figurer gömmer ett litet tal.",
    "canonicalDeckSlug": "labyrinter-leksaker-k242",
    "carousel": [
     {
@@ -124269,9 +124269,9 @@
     "mala-efter-siffror",
     "forskola"
    ],
-   "p1": "På det här arbetsbladet bär varje fält i bilden en siffra mellan 1 och 6, och överst sitter koden: vid varje siffra står ett färgord. Barnet tittar på siffran i ett fält, letar upp samma siffra i koden, läser färgordet och målar fältet i rätt färg. Ingenting ska räknas ut – här handlar allt om att känna igen siffran och läsa ordet. Fält för fält kliver bilden fram ur konturerna.",
-   "p2": "Det här är färgläggning efter siffror i sin mest klassiska form, och den tränar två igenkänningar på samma gång. Siffrorna 1 till 6 ska kännas igen snabbt och säkert – i olika fält, om och om igen, tills en fyra är en fyra var den än dyker upp. Och färgorden ska läsas: röd, blå, gul och deras kamrater hör till de första ord många barn läser helt själva, och här får varje avläst ord en omedelbar följd i handen. Att uppgiften saknar räkning är en styrka – även den som ännu inte räknar kan arbeta helt självständigt, och koncentration, pennfattning och noggrannhet tränas på köpet.",
-   "p3": "Skriv ut bladet gratis som PDF och låt målarstunden göra jobbet. Den som vill ha in lite räkning i bilden kan sedan gå vidare till måla efter kod, där varje fält gömmer ett litet tal att räkna ut först – och den som hellre stannar hos siffrorna kan träna formerna i spåra och skriv siffror, så att sexan och nian aldrig blandas ihop.",
+   "p1": "På det här arbetsbladet ligger tolv konturtecknade figurer utspridda över sidan, och var och en bär en siffra mellan 1 och 6. Överst sitter koden: vid varje siffra står ett färgord. Barnet tittar på siffran i en figur, letar upp samma siffra i koden, läser färgordet och målar figuren i rätt färg. Ingenting ska räknas ut – här handlar allt om att känna igen siffran och läsa ordet. Figur för figur fylls det tomma bladet med färg.",
+   "p2": "Det här är färgläggning efter siffror i sin mest klassiska form, och den tränar två igenkänningar på samma gång. Siffrorna 1 till 6 ska kännas igen snabbt och säkert – i den ena figuren efter den andra, om och om igen, tills en fyra är en fyra var den än dyker upp. Och färgorden ska läsas: röd, blå, gul och deras kamrater hör till de första ord många barn läser helt själva, och här får varje avläst ord en omedelbar följd i handen. Att uppgiften saknar räkning är en styrka – även den som ännu inte räknar kan arbeta helt självständigt, och koncentration, pennfattning och noggrannhet tränas på köpet.",
+   "p3": "Skriv ut bladet gratis som PDF och låt målarstunden göra jobbet. Den som vill ha in lite räkning kan sedan gå vidare till måla efter kod, där varje figur gömmer ett litet tal att räkna ut först – och den som hellre stannar hos siffrorna kan träna formerna i spåra och skriv siffror, så att sexan och nian aldrig blandas ihop.",
    "canonicalDeckSlug": "mala-efter-siffror-k266",
    "carousel": [
     {
@@ -124292,7 +124292,7 @@
     }
    ],
    "title": "Arbetsblad färglägg efter siffror | skriva ut PDF gratis",
-   "metaDescription": "Varje fält i bilden har en siffra mellan 1 och 6. Barnet läser siffran, hittar färgordet i koden och målar fältet – ingen räkning alls. Skriv ut gratis som PDF."
+   "metaDescription": "Var och en av tolv figurer bär en siffra mellan 1 och 6. Barnet läser siffran, hittar färgordet i koden och målar – ingen räkning alls. Skriv ut gratis som PDF."
   },
   {
    "slug": "lasforstaelse-simskolan",
@@ -124923,6 +124923,3080 @@
    ],
    "title": "Arbetsblad 4:ans tabell | skriva ut PDF gratis",
    "metaDescription": "4:ans tabell från 1 · 4 till 10 · 4 med svarsrutor. Tricket som bär hela tabellen: dubbla talet två gånger – 4:an är dubbla 2:an. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "spara-raka-linjer-sicksack",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad skrivövningar",
+   "h1": "Räta linjer och sicksack – spårövningar",
+   "strand": "Finmotorik och pennkontroll",
+   "slotTokens": [
+    "spara-linjer",
+    "djur",
+    "forskola"
+   ],
+   "p1": "Det här arbetsbladet samlar de kantiga spårövningarna: räta linjer, sicksacklinjer, spetsiga toppar och banor som klättrar upp, går rakt och dyker ner igen som ett murkrön. Varje bana börjar vid en orange startprick, och pilen visar åt vilket håll pennan ska gå. Bladet har djurtema – i slutet av varje bana väntar ett djur, så barnet spårar hela vägen fram för att komma dit. Inget att läsa, inget att räkna: bara pennan, banorna och en allt stadigare hand.",
+   "p2": "De kantiga formerna tränar något annat än de mjuka. Här ska pennan hålla kursen, stanna helt och byta riktning i ett skarpt hörn – om och om igen. Just den rörelsen, full fart, tvärstopp, ny riktning, är precis vad bokstäver som K, M, V och Z kräver. Många barn drar hellre svepande bågar än gör tydliga stopp, så topparna och trappstegen bygger vanan att kontrollera pennan även när linjen bryts. Det syns direkt i banan när ett hörn blivit runt, och nästa försök får skärpa till det.",
+   "p3": "Skriv ut arbetsbladet gratis som PDF och låt hörnen göra jobbet. När de kantiga linjerna sitter är vågor och bågar det naturliga nästa steget – samma upplägg, men med mjuka pennrörelser i stället för skarpa stopp. Den som vill blanda allt på en och samma sida kan sedan ta bladet med blandade spårlinjer, och för de allra första försöken finns grundbladet med spårlinjer att börja i.",
+   "canonicalDeckSlug": "spara-linjer-djur-k244",
+   "carousel": [
+    {
+     "label": "Vågor och bågar – spåra mjuka linjer",
+     "href": "vagor-och-bagar"
+    },
+    {
+     "label": "Öglor, åttor och spiraler – skrivövningar",
+     "href": "oglor-attor-spiraler"
+    },
+    {
+     "label": "Svåra spårlinjer – fem banor",
+     "href": "svara-sparlinjer"
+    },
+    {
+     "label": "Blandade spårlinjer – repetition",
+     "href": "blandade-sparlinjer"
+    }
+   ],
+   "title": "Arbetsblad räta linjer och sicksack | skriva ut PDF gratis",
+   "metaDescription": "Kantiga spårbanor med räta linjer, sicksack, toppar och murkrön. Barnet spårar från den orangea startpricken mot ett djur i slutet. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "vagor-och-bagar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "fruits",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad skrivövningar",
+   "h1": "Vågor och bågar – spåra mjuka linjer",
+   "strand": "Finmotorik och pennkontroll",
+   "slotTokens": [
+    "spara-linjer",
+    "frukter",
+    "forskola"
+   ],
+   "p1": "På det här arbetsbladet är alla banor mjuka: vågor som rullar fram, bågar som små regnbågar, uppåtvända skålar och rundade skrivöglor. Barnet sätter pennan på den orangea startpricken, följer pilens riktning och låter linjen böja sig genom hela banan utan att lyfta pennan. Bladet har frukttema, så i slutet av varje bana väntar en frukt – ett litet mål som gör att linjen gärna dras hela vägen fram.",
+   "p2": "Rundade pennrörelser är råmaterialet till de flesta små bokstäver. Ett a, ett c, ett e och ett o byggs alla av just sådana bågar och skålar som banorna här innehåller, och rörelsen ska helst komma mjukt ur handleden i stället för ur hela armen. Vågorna ger flyt och jämn fart, skålarna tränar att vända mjukt i botten utan hack, och öglorna förbereder den rundning som gör bokstäverna läsliga. Barn som trycker hårt och drar kantigt får här öva på motsatsen: en lätt hand som glider.",
+   "p3": "Bladet skrivs ut gratis som PDF, och det tål att spåras många gånger. Den som vill fortsätta med rundare och svårare rörelser går vidare till öglor, åttor och spiraler – de klassiska skrivmotoriska motiven – och den som hellre växlar tillbaka till skarpa hörn tar bladet med räta linjer och sicksack. Tillsammans täcker de båda handens hela register.",
+   "canonicalDeckSlug": "spara-linjer-frukter-k245",
+   "carousel": [
+    {
+     "label": "Öglor, åttor och spiraler – skrivövningar",
+     "href": "oglor-attor-spiraler"
+    },
+    {
+     "label": "Svåra spårlinjer – fem banor",
+     "href": "svara-sparlinjer"
+    },
+    {
+     "label": "Blandade spårlinjer – repetition",
+     "href": "blandade-sparlinjer"
+    },
+    {
+     "label": "Räta linjer och sicksack – spårövningar",
+     "href": "spara-raka-linjer-sicksack"
+    }
+   ],
+   "title": "Arbetsblad vågor och bågar – spåra | skriva ut PDF gratis",
+   "metaDescription": "Mjuka spårbanor med vågor, bågar, skålar och skrivöglor. Pennan flyter från startpricken till en frukt i slutet av varje bana. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "oglor-attor-spiraler",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad skrivövningar",
+   "h1": "Öglor, åttor och spiraler – skrivövningar",
+   "strand": "Finmotorik och pennkontroll",
+   "slotTokens": [
+    "spara-linjer",
+    "fordon",
+    "forskola"
+   ],
+   "p1": "Här möter barnet de klassiska skrivmotoriska motiven: rader av öglor, liggande åttor, spiraler som snurrar inåt och vågor som binder ihop alltsammans. Varje bana startar vid den orangea pricken, pilen anger riktningen, och i slutet väntar ett fordon – bladet har fordonstema, så pennan kör i mål vid en bil, en båt eller något annat med hjul eller vingar. Rörelserna är stora och generösa, gjorda för att upprepas i jämn rytm.",
+   "p2": "De här motiven finns i skrivförberedande material över hela världen av ett skäl: de tränar den sammanhängande, rytmiska rörelse som flytande handstil bygger på. Öglan är själva grundslingan i många bokstäver, spiralen lär handen att styra en kurva som hela tiden ändrar radie, och den liggande åttan har en extra poäng – pennan korsar kroppens mittlinje i en oavbruten rörelse, vilket får ögat och handen att samarbeta över hela pappersbredden. Målet är inte perfekta figurer utan jämn fart utan pennlyft.",
+   "p3": "Skriv ut arbetsbladet gratis som PDF och låt rörelserna gå på repeat. Nästa naturliga steg är bladet med svåra spårlinjer, där öglor, åttor och murkrön blandas på samma sida – och den som vill backa ett snäpp hittar mjukstarten bland vågor och bågar. Bra som lugn start på dagen eller som stationsarbete i förskoleklassen.",
+   "canonicalDeckSlug": "spara-linjer-fordon-k246",
+   "carousel": [
+    {
+     "label": "Svåra spårlinjer – fem banor",
+     "href": "svara-sparlinjer"
+    },
+    {
+     "label": "Blandade spårlinjer – repetition",
+     "href": "blandade-sparlinjer"
+    },
+    {
+     "label": "Räta linjer och sicksack – spårövningar",
+     "href": "spara-raka-linjer-sicksack"
+    },
+    {
+     "label": "Vågor och bågar – spåra mjuka linjer",
+     "href": "vagor-och-bagar"
+    }
+   ],
+   "title": "Arbetsblad öglor, åttor och spiraler | skriva ut PDF gratis",
+   "metaDescription": "Klassiska skrivmotoriska banor: öglor, liggande åttor, spiraler och vågor med startprick och pil. Fordonstema i slutet av banorna. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "svara-sparlinjer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "toys",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad skrivövningar",
+   "h1": "Svåra spårlinjer – fem banor",
+   "strand": "Finmotorik och pennkontroll",
+   "slotTokens": [
+    "spara-linjer",
+    "leksaker",
+    "forskola"
+   ],
+   "p1": "Det här är utmaningsbladet i serien: fem banor med den svåraste blandningen – murkrön, spiraler, liggande åttor, spetsiga toppar och öglor, alla på samma sida. Varje bana har sin orangea startprick och sin pil, och bladet har leksakstema, så i slutet av varje bana väntar en leksak som kvitto på att linjen nådde ända fram. Här får pennan inga vilorader: varje ny bana kräver en helt annan rörelse än den förra.",
+   "p2": "Det svåra på det här bladet är inte formerna i sig – det är bytena. Att gå från en snurrande spiral direkt till ett kantigt murkrön tvingar handen att släppa en inarbetad rörelse och hämta upp en annan, och det är ett större kliv än det ser ut. Barnet måste hålla formens plan i huvudet samtidigt som pennan arbetar, vilket tränar både arbetsminne och omställningsförmåga. Därför passar bladet bäst för barn som redan klarar de enklare spårbladen och behöver något som bjuder motstånd.",
+   "p3": "Skriv ut bladet gratis som PDF när de enklare banorna börjat kännas lätta. Går det trögt är det ingen förlust att backa till vågor och bågar eller till räta linjer och sicksack och bygga vidare därifrån – och som avrundning på hela serien finns repetitionsbladet med blandade spårlinjer, som samlar grundformerna en sista gång.",
+   "canonicalDeckSlug": "spara-linjer-leksaker-k247",
+   "carousel": [
+    {
+     "label": "Blandade spårlinjer – repetition",
+     "href": "blandade-sparlinjer"
+    },
+    {
+     "label": "Räta linjer och sicksack – spårövningar",
+     "href": "spara-raka-linjer-sicksack"
+    },
+    {
+     "label": "Vågor och bågar – spåra mjuka linjer",
+     "href": "vagor-och-bagar"
+    },
+    {
+     "label": "Öglor, åttor och spiraler – skrivövningar",
+     "href": "oglor-attor-spiraler"
+    }
+   ],
+   "title": "Arbetsblad svåra spårlinjer | skriva ut PDF gratis",
+   "metaDescription": "Den svåraste blandningen: murkrön, spiraler, liggande åttor, toppar och öglor på fem banor. Leksakstema och startprickar. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "blandade-sparlinjer",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad skrivövningar",
+   "h1": "Blandade spårlinjer – repetition",
+   "strand": "Finmotorik och pennkontroll",
+   "slotTokens": [
+    "spara-linjer",
+    "djur",
+    "forskola"
+   ],
+   "p1": "Fem banor, fem grundformer: en rät linje, en våg, en sicksack, en rad skålar och en rad bågar. Det här arbetsbladet repeterar spårlinjernas hela grundrepertoar på en enda sida, med orange startprick och riktningspil på varje bana. Djurtemat följer med – varje bana slutar hos ett djur, så barnet ser tydligt vart linjen ska. Formerna är bekanta från de tidigare bladen; här handlar det om att visa att de sitter.",
+   "p2": "För läraren är det här bladet lika mycket ett diagnosverktyg som en övning. När alla fem grundformer står bredvid varandra syns det på en gång vilken rörelse som flyter och vilken som fortfarande hackar: kanske är vågen jämn men sicksacken rundas av, eller så tappar skålarna botten. Då är det bara att plocka fram just det blad som tränar den formen igen. Att återvända till bekanta rörelser med lite tid emellan är dessutom precis så befästande som färdighetsträning ska vara.",
+   "p3": "Skriv ut repetitionsbladet gratis som PDF och använd det som avstämning efter de andra spårbladen. Den vars linjer sitter stadigt är redo för nästa trappsteg: att spåra siffrorna 0 till 9 eller de stora bokstäverna, där samma startprickar och pilar följer med in i de riktiga tecknen. Många lärare sparar ett exemplar från terminsstarten och låter barnet spåra samma blad igen efter några veckor – skillnaden brukar vara rolig att se för både barn och föräldrar.",
+   "canonicalDeckSlug": "spara-linjer-djur-k248",
+   "carousel": [
+    {
+     "label": "Räta linjer och sicksack – spårövningar",
+     "href": "spara-raka-linjer-sicksack"
+    },
+    {
+     "label": "Vågor och bågar – spåra mjuka linjer",
+     "href": "vagor-och-bagar"
+    },
+    {
+     "label": "Öglor, åttor och spiraler – skrivövningar",
+     "href": "oglor-attor-spiraler"
+    },
+    {
+     "label": "Svåra spårlinjer – fem banor",
+     "href": "svara-sparlinjer"
+    }
+   ],
+   "title": "Arbetsblad blandade spårlinjer | skriva ut PDF gratis",
+   "metaDescription": "Repetitionsblad med fem banor: rät linje, våg, sicksack, skålar och bågar. Djurtema med startprick och pil på varje bana. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "ordbilder-lista-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad ordbilder",
+   "h1": "Ordbilder lista 2: en, vi, på, har",
+   "strand": "Läsa och skriva",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "hogfrekventa-ord",
+    "forskola"
+   ],
+   "p1": "Lista 2 i ordbildsserien tränar fyra av språkets vanligaste ord: en, vi, på och har. Varje ord får en egen rad med tre steg – först läser barnet ordet, sedan spåras det bokstav för bokstav på de streckade formerna, och till sist skriver barnet ordet helt själv på den tomma raden. Orden är korta, men de bär upp nästan varje mening ett barn möter i sina första böcker.",
+   "p2": "Det fina med just de här fyra orden är att de tillsammans med den första listan räcker till riktiga meningar. Vi har en katt. Jag är på väg. När orden känns igen direkt som ordbilder behöver barnet inte ljuda sig igenom dem varje gång, och plötsligt går det att bygga och läsa korta meningar där bara det nya ordet kräver arbete. Många lärare skriver därför meningarna på tavlan direkt efter träningen – då får orden genast ett sammanhang och blir mer än rader på ett papper.",
+   "p3": "Bladet skrivs ut gratis som PDF och tar bara en kort stund – lagom som daglig rutin. När en, vi, på och har sitter är lista 3 det självklara nästa steget, med fyra nya högfrekventa ord i samma trygga ordning: läs, spåra, skriv. Och den som vill se var serien började hittar grundbladet med de allra första ordbilderna.",
+   "canonicalDeckSlug": "hogfrekventa-ord-k259",
+   "carousel": [
+    {
+     "label": "Ordbilder lista 3: kan, ser, här, inte",
+     "href": "ordbilder-lista-3"
+    },
+    {
+     "label": "Ordbilder lista 4: som, den, du, vill",
+     "href": "ordbilder-lista-4"
+    },
+    {
+     "label": "Ordbilder lista 5: med, hon, han, till",
+     "href": "ordbilder-lista-5"
+    },
+    {
+     "label": "Ordbilder lista 6: min, vad, ska, nu",
+     "href": "ordbilder-lista-6"
+    }
+   ],
+   "title": "Arbetsblad ordbilder lista 2 | skriva ut PDF gratis",
+   "metaDescription": "Fyra högfrekventa ord – en, vi, på och har – tränas i tre steg: läs ordet, spåra det och skriv det själv på den tomma raden. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "ordbilder-lista-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad ordbilder",
+   "h1": "Ordbilder lista 3: kan, ser, här, inte",
+   "strand": "Läsa och skriva",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "hogfrekventa-ord",
+    "forskola"
+   ],
+   "p1": "På lista 3 tränas orden kan, ser, här och inte – fyra ord som dyker upp i nästan varje läsebok för nybörjare. Upplägget är detsamma som i resten av serien: barnet läser ordet, spårar det på de streckade bokstäverna och skriver det sedan på egen hand på den tomma raden bredvid. Tre möten med varje ord, från igenkänning till egen skrift, på en och samma rad.",
+   "p2": "Två av orden förtjänar extra uppmärksamhet. Inte är språkets viktigaste lilla ord för betydelsen – Jag kan inte betyder motsatsen till Jag kan – och det måste kännas igen blixtsnabbt för att meningen inte ska läsas fel. Och kan och ser är verb som tillsammans med här låter barnet läsa och skriva sina första beskrivande meningar: Här ser jag en katt. Jag kan inte se den. Funktionsorden är själva bruket som håller ihop meningarna, och när de flyter frigörs kraften till innehållsorden.",
+   "p3": "Skriv ut bladet gratis som PDF och låt det ingå i läsrutinen. Efter lista 3 väntar lista 4 med fyra nya ord, och den som behöver repetera tar ett varv till med lista 2 – korta pass ofta slår långa pass sällan. Alla listor följer samma tre steg, så barnet känner igen sig direkt.",
+   "canonicalDeckSlug": "hogfrekventa-ord-k260",
+   "carousel": [
+    {
+     "label": "Ordbilder lista 4: som, den, du, vill",
+     "href": "ordbilder-lista-4"
+    },
+    {
+     "label": "Ordbilder lista 5: med, hon, han, till",
+     "href": "ordbilder-lista-5"
+    },
+    {
+     "label": "Ordbilder lista 6: min, vad, ska, nu",
+     "href": "ordbilder-lista-6"
+    },
+    {
+     "label": "Ordbilder lista 2: en, vi, på, har",
+     "href": "ordbilder-lista-2"
+    }
+   ],
+   "title": "Arbetsblad ordbilder lista 3 | skriva ut PDF gratis",
+   "metaDescription": "Ordbilderna kan, ser, här och inte i tre steg per ord: läs, spåra på streckade bokstäver och skriv själv på raden. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "ordbilder-lista-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad ordbilder",
+   "h1": "Ordbilder lista 4: som, den, du, vill",
+   "strand": "Läsa och skriva",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "hogfrekventa-ord",
+    "forskola"
+   ],
+   "p1": "Lista 4 innehåller orden som, den, du och vill. Varje ord tränas i seriens tre steg: läs ordet högt, spåra det på de streckade bokstäverna och skriv det sedan själv på den tomma raden. Just de här fyra orden är sådana som ögat måste lära sig svälja hela – de är för vanliga för att ljudas fram varje gång de dyker upp.",
+   "p2": "Ordet som är ett bra exempel på varför ordbildsträning lönar sig: det är ett av svenskans absolut vanligaste ord, men det går inte att rita en bild av det eller gissa det ur sammanhanget – det måste helt enkelt kännas igen. Du och vill öppnar samtidigt dörren till texter som talar direkt till läsaren, Vill du leka?, och den låter barnet peka ut saker i skrift. När sådana småord automatiseras märks det tydligt i läsflytet: pauserna flyttar från vartannat ord till de ställen där de hör hemma.",
+   "p3": "Bladet är gratis att skriva ut som PDF, och tre steg per ord gör det lätt att dela upp i korta pass. Nästa steg i stegen är lista 5, och den som vill befästa ännu mer kan varva med lista 3 igen. Sitter bokstavsformerna löst är spårbladen med stora bokstäver ett bra sidospår.",
+   "canonicalDeckSlug": "hogfrekventa-ord-k261",
+   "carousel": [
+    {
+     "label": "Ordbilder lista 5: med, hon, han, till",
+     "href": "ordbilder-lista-5"
+    },
+    {
+     "label": "Ordbilder lista 6: min, vad, ska, nu",
+     "href": "ordbilder-lista-6"
+    },
+    {
+     "label": "Ordbilder lista 2: en, vi, på, har",
+     "href": "ordbilder-lista-2"
+    },
+    {
+     "label": "Ordbilder lista 3: kan, ser, här, inte",
+     "href": "ordbilder-lista-3"
+    }
+   ],
+   "title": "Arbetsblad ordbilder lista 4 | skriva ut PDF gratis",
+   "metaDescription": "Fyra nya högfrekventa ord – som, den, du och vill – att läsa, spåra och skriva själv. Ordbildsträning för de första läsåren. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "ordbilder-lista-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad ordbilder",
+   "h1": "Ordbilder lista 5: med, hon, han, till",
+   "strand": "Läsa och skriva",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "hogfrekventa-ord",
+    "forskola"
+   ],
+   "p1": "På femte listan i ordbildsserien möter barnet orden med, hon, han och till. Arbetsgången är välbekant vid det här laget: läs ordet, spåra det bokstav för bokstav på de streckade formerna och skriv det till sist helt själv på den tomma raden. Fyra korta ord, tolv små arbetsmoment, ett blad.",
+   "p2": "Den här listan rymmer en klassisk förväxlingsfälla: hon och han skiljer sig åt på en enda bokstav mitt i ordet, och just sådana ordpar avslöjar om barnet verkligen tittar på hela ordbilden eller chansar utifrån första bokstaven. Att träna dem sida vid sida är därför en poäng i sig – blicken tvingas till vokalen. Med och till är samtidigt de små riktningsorden som binder ihop berättelser: hon går till skolan, han leker med bollen. Ord som dessa läses hundratals gånger per vecka redan i årskurs 1. Att öga och hand dessutom får forma orden i tre steg gör skillnaden mellan dem tydligare än om de bara lästes med blicken.",
+   "p3": "Skriv ut bladet gratis som PDF och lägg det i läsläxan eller morgonrutinen. Serien avslutas med lista 6, som lägger de sista fyra orden till samlingen – och den som samlat alla listor har en ordbildsbank på över tjugo av språkets vanligaste ord, tränade med både öga och hand. Läs, spåra, skriv – samma trygga ordning hela vägen.",
+   "canonicalDeckSlug": "hogfrekventa-ord-k262",
+   "carousel": [
+    {
+     "label": "Ordbilder lista 6: min, vad, ska, nu",
+     "href": "ordbilder-lista-6"
+    },
+    {
+     "label": "Ordbilder lista 2: en, vi, på, har",
+     "href": "ordbilder-lista-2"
+    },
+    {
+     "label": "Ordbilder lista 3: kan, ser, här, inte",
+     "href": "ordbilder-lista-3"
+    },
+    {
+     "label": "Ordbilder lista 4: som, den, du, vill",
+     "href": "ordbilder-lista-4"
+    }
+   ],
+   "title": "Arbetsblad ordbilder lista 5 | skriva ut PDF gratis",
+   "metaDescription": "Ordbilderna med, hon, han och till tränas i tre steg per ord – läs, spåra, skriv på egen rad. Femte listan i serien. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "ordbilder-lista-6",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad ordbilder",
+   "h1": "Ordbilder lista 6: min, vad, ska, nu",
+   "strand": "Läsa och skriva",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "hogfrekventa-ord",
+    "forskola"
+   ],
+   "p1": "Serien rundas av med lista 6 och orden min, vad, ska och nu. Precis som tidigare tränas varje ord i tre steg på sin egen rad: barnet läser ordet, spårar det på de streckade bokstäverna och skriver det sedan självt på den tomma raden. Med de här fyra orden är hela grundlistan med högfrekventa ord genomarbetad – läst, spårad och skriven.",
+   "p2": "Orden på slutlistan gör något särskilt: de öppnar frågorna och framtiden. Vad är barnets första frågeord i skrift – Vad är det? – och ska pekar framåt: Nu ska vi läsa. I klassrummet passar listan därför fint som veckans ord på en ordvägg, där orden först tränas på bladet och sedan jagas i böcker, på skyltar och i fröknarnas meningar på tavlan. Varje gång ett tränat ord känns igen ute i det vilda förstärks kopplingen, och ordbilden går från övning till egendom.",
+   "p3": "Bladet skrivs ut gratis som PDF, som alla listor i serien. Den som vill repetera tar om lista 4 och lista 5 med lite tids mellanrum – det är återbesöken som gör ordbilderna varaktiga. Och när alla sex listor sitter är barnet rustat med de småord som bär upp nästan varje mening i de första läseböckerna. Fira gärna med att låta barnet läsa en hel mening helt på egen hand.",
+   "canonicalDeckSlug": "hogfrekventa-ord-k263",
+   "carousel": [
+    {
+     "label": "Ordbilder lista 2: en, vi, på, har",
+     "href": "ordbilder-lista-2"
+    },
+    {
+     "label": "Ordbilder lista 3: kan, ser, här, inte",
+     "href": "ordbilder-lista-3"
+    },
+    {
+     "label": "Ordbilder lista 4: som, den, du, vill",
+     "href": "ordbilder-lista-4"
+    },
+    {
+     "label": "Ordbilder lista 5: med, hon, han, till",
+     "href": "ordbilder-lista-5"
+    }
+   ],
+   "title": "Arbetsblad ordbilder lista 6 | skriva ut PDF gratis",
+   "metaDescription": "Sista listan i ordbildsserien: min, vad, ska och nu. Läs ordet, spåra det och skriv det själv på den tomma raden. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "klipp-och-klistra-tva-grupper",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad klipp och klistra",
+   "h1": "Klipp och klistra: sortera i två grupper",
+   "strand": "Finmotorik och sortering",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "klippovningar",
+    "djur",
+    "forskola"
+   ],
+   "p1": "Längst ner på det här arbetsbladet sitter två remsor med sammanlagt åtta bilder som barnet klipper ut. Högre upp väntar två märkta rutor – varje bild hör hemma i den ena eller den andra. Barnet klipper längs linjerna, tittar på varje bild, bestämmer grupp och klistrar fast den i rätt ruta. Bladet finns i två utföranden, ett med djur och ett med fordon, så övningen kan göras två gånger med helt nytt innehåll.",
+   "p2": "Att sortera i exakt två grupper är klassificeringens enklaste och tydligaste form: varje bild kräver ett aktivt antingen–eller-beslut, och det finns ingenstans att gömma en gissning. Åtta beslut i rad ger en fin liten tankekedja – och samtalet bredvid är halva värdet: hur vet du att den hör dit? Samtidigt ger de två remsorna dubbelt så mycket klipparbete som en, så saxhanden får ett rejält pass med raka klipp innan limstiftet ens kommer fram. Be gärna barnet motivera sitt val högt innan limmet får sista ordet – då syns tänkandet bakom sorteringen.",
+   "p3": "Skriv ut bladet gratis som PDF, framsidan räcker – sax och limstift står för resten. Det bygger vidare på grundbladet med klipp, sortering och klistring, och den som vill variera innehållet hittar även utgåvor med frukter och leksaker i samma serie. Två rutor idag, fler grupper imorgon: sorteringstänket växer med bladen.",
+   "canonicalDeckSlug": "klippovningar-djur-k264",
+   "collapseSiblings": [
+    "klippovningar-fordon-k264"
+   ],
+   "carousel": [
+    {
+     "label": "Klipp och klistra med fordon",
+     "href": "klipp-och-klistra-fordon"
+    },
+    {
+     "label": "Klipp och klistra med frukter",
+     "href": "klipp-och-klistra-frukter"
+    },
+    {
+     "label": "Klipp och klistra med leksaker",
+     "href": "klipp-och-klistra-leksaker"
+    },
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    }
+   ],
+   "title": "Arbetsblad klipp och klistra i två grupper | skriva ut PDF gratis",
+   "metaDescription": "Åtta bilder på två klipp-remsor ska sorteras i två märkta rutor. Finns med både djur och fordon – klipp, välj grupp och klistra. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "klipp-och-klistra-fordon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad klipp och klistra",
+   "h1": "Klipp och klistra med fordon",
+   "strand": "Finmotorik och sortering",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "klippovningar",
+    "fordon",
+    "forskola"
+   ],
+   "p1": "Det här är klipp-och-klistra-bladet i fordonsutgåva. På remsan längst ner radar fordonen upp sig – barnet klipper ut bilderna en och en, funderar på var varje fordon hör hemma och klistrar in det i rätt märkt ruta högre upp på sidan. Sax, ögon och limstift arbetar i tur och ordning, och när sista fordonet parkerats i sin ruta är bladet komplett.",
+   "p2": "Fordon är tacksamma att sortera för att de bjuder på så mycket att prata om: vad heter det här, var kör det, vad är det som skiljer det från de andra? Sorteringsstunden blir lätt en språkstund där ord som lastbil, traktor och helikopter används på riktigt medan händerna arbetar. För barn som ännu inte fastnat för pyssel brukar fordonstemat dessutom vara en genväg till motivationen – det är skillnad på att klippa ut vilka bilder som helst och att klippa ut en brandbil.",
+   "p3": "Bladet skrivs ut gratis som PDF och kräver bara sax och lim. I samma serie finns utgåvor med frukter och leksaker, och grundbladet med djur – samma trygga mekanik, nytt innehåll varje gång. När sorterandet i märkta rutor sitter är bladet med två grupper ett fint nästa steg, där varje bild kräver ett tydligt antingen–eller-val. Och den som vill fortsätta prata fordon kan låta varje inklistrad bild få en egen mening högt – en liten berättarstund direkt ur arbetsbladet.",
+   "canonicalDeckSlug": "klippovningar-fordon-k240",
+   "carousel": [
+    {
+     "label": "Klipp och klistra med frukter",
+     "href": "klipp-och-klistra-frukter"
+    },
+    {
+     "label": "Klipp och klistra med leksaker",
+     "href": "klipp-och-klistra-leksaker"
+    },
+    {
+     "label": "Klipp och klistra: sortera i två grupper",
+     "href": "klipp-och-klistra-tva-grupper"
+    },
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    }
+   ],
+   "title": "Arbetsblad klipp och klistra fordon | skriva ut PDF gratis",
+   "metaDescription": "Fordonsbilder på en klipp-remsa längst ner: klipp ut, sortera och klistra in varje fordon i rätt märkt ruta. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "klipp-och-klistra-frukter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "fruits",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad klipp och klistra",
+   "h1": "Klipp och klistra med frukter",
+   "strand": "Finmotorik och sortering",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "klippovningar",
+    "frukter",
+    "forskola"
+   ],
+   "p1": "I fruktutgåvan av klipp-och-klistra-bladet fylls remsan längst ner av frukter. Barnet klipper loss bilderna längs linjerna, tittar noga på varje frukt, avgör vilken märkt ruta den hör hemma i och klistrar fast den där. Momenten kommer i en lugn följd – klipp allt först, sortera sedan, klistra sist – eller bild för bild, precis som det passar barnet bäst.",
+   "p2": "Små fruktbilder ställer fina krav på saxhanden: klippen ska vara korta och kontrollerade, papperet ska vridas med andra handen, och varje bild ska bli hel. Det är exakt den tvåhandssamordning som skrivandet sedan vilar på. Samtidigt smyger bladet in vardagsord som varje barn behöver ha säkra – äpple, päron, banan – och en och annan frukt som kanske är ny. Ett tips är att låta barnet säga fruktens namn högt i samma stund som den klistras fast: hand, öga och ord möts i samma rörelse.",
+   "p3": "Skriv ut bladet gratis som PDF – det gör inget om det blir lite lim på bordet. Serien fortsätter med fordon och leksaker för den som vill sortera vidare, och grundbladet med djur är startpunkten. Som nästa utmaning finns bladet med två grupper, där åtta bilder på två remsor ska fördelas med ett tydligt val per bild.",
+   "canonicalDeckSlug": "klippovningar-frukter-k240",
+   "carousel": [
+    {
+     "label": "Klipp och klistra med leksaker",
+     "href": "klipp-och-klistra-leksaker"
+    },
+    {
+     "label": "Klipp och klistra: sortera i två grupper",
+     "href": "klipp-och-klistra-tva-grupper"
+    },
+    {
+     "label": "Klipp och klistra med fordon",
+     "href": "klipp-och-klistra-fordon"
+    },
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    }
+   ],
+   "title": "Arbetsblad klipp och klistra frukter | skriva ut PDF gratis",
+   "metaDescription": "Klipp ut fruktbilderna på remsan, sortera dem och klistra in varje frukt i rätt ruta. Finmotorik och sortering i ett. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "klipp-och-klistra-leksaker",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "toys",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad klipp och klistra",
+   "h1": "Klipp och klistra med leksaker",
+   "strand": "Finmotorik och sortering",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "klippovningar",
+    "leksaker",
+    "forskola"
+   ],
+   "p1": "Här har klipp-och-klistra-bladet fått leksakstema. Remsan längst ner är full av leksaker som barnet klipper ut en efter en; sedan gäller det att para ihop varje leksak med rätt märkt ruta högre upp på sidan och klistra fast den där. Välbekanta saker att titta på, tydliga rutor att fylla – och ett färdigt blad att visa upp när allt sitter på plats.",
+   "p2": "Leksaker är barnens eget expertområde, och det går att använda i undervisningen. När sakerna på bilderna liknar dem i den egna leklådan blir sorteringen genast angelägen, och samtalet kommer av sig självt: vilka hör ihop, och varför? Samma leksaker går att gruppera på flera sätt – och att upptäcka att en sortering kan göras med olika ögon är ett tankekliv i sig. Under tiden gör händerna sitt: klipp längs linjen, håll bilden stilla, klistra rakt. Tänkandet och finmotoriken tränas i samma stund. Fråga gärna efteråt hur barnet tänkte när grupperna valdes – svaret brukar avslöja mer om tankearbetet än själva det färdiga bladet.",
+   "p3": "Bladet är gratis att skriva ut som PDF och passar lika bra hemma som i förskoleklassens pysselhörna. I serien finns också utgåvor med fordon och frukter samt grundbladet med djur, så sorterandet kan fortsätta med nytt innehåll. Därefter väntar bladet med två grupper – två remsor, åtta bilder och ett tydligt val för varje.",
+   "canonicalDeckSlug": "klippovningar-leksaker-k240",
+   "carousel": [
+    {
+     "label": "Klipp och klistra: sortera i två grupper",
+     "href": "klipp-och-klistra-tva-grupper"
+    },
+    {
+     "label": "Klipp och klistra med fordon",
+     "href": "klipp-och-klistra-fordon"
+    },
+    {
+     "label": "Klipp och klistra med frukter",
+     "href": "klipp-och-klistra-frukter"
+    },
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    }
+   ],
+   "title": "Arbetsblad klipp och klistra leksaker | skriva ut PDF gratis",
+   "metaDescription": "Leksaksbilder att klippa ut, sortera och klistra in i rätt märkt ruta. Sax, sortering och limstift i samma övning. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "mala-efter-figurkod",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad färgläggning",
+   "h1": "Måla efter figurkod",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.G.A.2",
+   "slotTokens": [
+    "mala-efter-siffror",
+    "forskola"
+   ],
+   "p1": "På det här arbetsbladet är koden byggd av figurer i stället för tal. Överst står vilken färg varje figur ska ha – till exempel att alla trianglar får en färg och alla cirklar en annan – och nedanför ligger tolv konturtecknade figurer utspridda över bladet. Barnet tittar på en figur, känner igen formen, letar upp den i koden och målar figuren i rätt färg. Ingen räkning någonstans: här är det formerna som styr penseln.",
+   "p2": "Att plocka ut alla trianglar bland tolv figurer är svårare än det låter, för de ligger om vartannat med cirklar, kvadrater och rektanglar över hela bladet. Det är precis den sortens igenkänning som geometrin i skolan bygger vidare på: det är konturen och antalet sidor som avgör vad en figur heter. Alla figurer står upp och är ungefär lika stora, så ingenting drar uppmärksamheten från just det. Bladet tränar alltså formuppfattning på samma lekfulla sätt som färgläggning efter siffror tränar sifferigenkänning – ögat lär sig se det som är gemensamt och strunta i det som bara är olika på ytan.",
+   "p3": "Skriv ut bladet gratis som PDF och låt figurerna kliva fram i färg. Den som hellre målar efter siffror hittar den klassiska varianten med siffrorna 1 till 6, och den som är redo att räkna kan gå vidare till måla efter kod, där varje figur gömmer ett litet tal att räkna ut innan färgen kan väljas.",
+   "canonicalDeckSlug": "mala-efter-siffror-k265",
+   "carousel": [
+    {
+     "label": "Måla efter kod: subtraktion",
+     "href": "mala-efter-kod-subtraktion"
+    },
+    {
+     "label": "Måla efter kod: plus och minus",
+     "href": "mala-efter-kod-plus-och-minus"
+    },
+    {
+     "label": "Måla efter kod: summor till 20",
+     "href": "mala-efter-kod-summor-till-20"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    }
+   ],
+   "title": "Arbetsblad måla efter figurkod | skriva ut PDF gratis",
+   "metaDescription": "Koden parar geometriska figurer med färger: alla trianglar får en färg, alla cirklar en annan. Känn igen figuren och måla rätt. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "mala-efter-kod-subtraktion",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad färgläggning",
+   "h1": "Måla efter kod: subtraktion",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "mala-efter-siffror",
+    "forskola"
+   ],
+   "p1": "I den här varianten av måla efter kod är alla uppgifter subtraktioner. Var och en av de tolv figurerna på bladet bär ett litet minustal; barnet räknar ut differensen, letar upp svaret i koden överst, läser vilken färg som gäller och målar figuren. Uppgift för uppgift, figur för figur, fylls bladet med färg – och varje färglagd figur är ett subtraktionstal som blivit löst på vägen.",
+   "p2": "Subtraktion får ofta mindre träningstid än addition, trots att den brukar sitta lösare – att räkna bakåt är helt enkelt svårare än att räkna framåt. Här blir minusträningen både riklig och självrättande: den som räknar fel hittar inte sitt svar i koden, och det märks långt innan någon vuxen hunnit titta. Då är det naturligt att stanna upp, räkna om och måla rätt. Felet blir en ledtråd i stället för ett rött kryss, och barnet gör gärna många fler minusuppgifter än på ett vanligt räkneblad. Den som vill kan låta barnet skriva differensen med blyerts i figurens kant innan färgen läggs på – då blir den egna kontrollen ännu tydligare.",
+   "p3": "Bladet skrivs ut gratis som PDF, så det går fint att måla flera omgångar. Den som vill blanda räknesätten fortsätter till varianten med plus och minus om vartannat, och den som vill upp i talområdet tar bladet med summor till 20. Grundbladet måla efter kod är hemvisten för hela serien.",
+   "canonicalDeckSlug": "mala-efter-siffror-k267",
+   "carousel": [
+    {
+     "label": "Måla efter kod: plus och minus",
+     "href": "mala-efter-kod-plus-och-minus"
+    },
+    {
+     "label": "Måla efter kod: summor till 20",
+     "href": "mala-efter-kod-summor-till-20"
+    },
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    }
+   ],
+   "title": "Arbetsblad måla efter kod subtraktion | skriva ut PDF gratis",
+   "metaDescription": "Var och en av tolv figurer gömmer en subtraktion. Barnet räknar ut differensen, hittar talet i koden och målar med rätt färg. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "mala-efter-kod-plus-och-minus",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad färgläggning",
+   "h1": "Måla efter kod: plus och minus",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "mala-efter-siffror",
+    "forskola"
+   ],
+   "p1": "Här blandas räknesätten: en del av bladets tolv figurer gömmer additioner, andra gömmer subtraktioner, och de ligger huller om buller. Barnet räknar ut talet i figuren, hittar svaret i koden överst, läser färgordet och målar. Samma välbekanta arbetsgång som i seriens andra blad – men nu måste varje uppgift först granskas: står det plus eller minus?",
+   "p2": "Det vanligaste felet på blandade räkneblad är inte felräkning – det är att tecknet läses slarvigt, så att ett minustal adderas i farten. Just därför är blandningen så nyttig: när plus och minus kommer om vartannat går det inte att ställa in hjärnan på ett räknesätt och rulla på. Varje figur kräver en ny liten omställning, och den vanan – titta på tecknet först, räkna sedan – är guld värd långt upp i årskurserna. Och som alltid i serien rättar bladet sig självt: ett svar som inte finns i koden är ett svar att räkna om. Ett bra knep är att låta barnet ringa in alla minustecken innan räknandet börjar – då är den vanligaste fällan redan avväpnad innan pennan byts mot färgpennorna.",
+   "p3": "Skriv ut bladet gratis som PDF och låt tecknen hålla barnet på tårna. Den som behöver renodla ett räknesätt först backar till subtraktionsvarianten, och den som vill ha större tal går vidare till summor till 20. Alla vägar leder tillbaka till klassikern måla efter kod.",
+   "canonicalDeckSlug": "mala-efter-siffror-k268",
+   "carousel": [
+    {
+     "label": "Måla efter kod: summor till 20",
+     "href": "mala-efter-kod-summor-till-20"
+    },
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    },
+    {
+     "label": "Måla efter kod: subtraktion",
+     "href": "mala-efter-kod-subtraktion"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    }
+   ],
+   "title": "Arbetsblad måla efter kod plus och minus | skriva ut PDF gratis",
+   "metaDescription": "Plus och minus om vartannat: räkna ut talet i varje figur, slå upp svaret i färgkoden och måla med rätt färg. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "mala-efter-kod-summor-till-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad färgläggning",
+   "h1": "Måla efter kod: summor till 20",
+   "strand": "Taluppfattning och tals användning",
+   "slotTokens": [
+    "mala-efter-siffror",
+    "forskola"
+   ],
+   "p1": "Det här är seriens storasyskonblad: additionerna i de tolv figurerna ger summor mellan 11 och 20. Barnet räknar ut talet i en figur, letar upp summan i koden, läser färgen och målar – samma gång i arbetet som tidigare, men nu räcker det inte längre att räkna på fingrarna upp till tio. Figur för figur färgläggs bladet av tal som kliver över tiogränsen.",
+   "p2": "Steget upp i talområdet 11 till 20 är ett av de viktigaste i den tidiga aritmetiken, för här möter barnet tiotalsövergången: 8 plus 5 löses smidigast genom att först fylla upp till tio och sedan lägga på resten. Bladet ger många tillfällen att nöta just den strategin i ett sammanhang som känns som målarstund snarare än mattestund. Den som fortfarande räknar ett steg i taget klarar sig också – men vinsten med att tänka via tian brukar upptäckas av sig själv någonstans på vägen mot färdigmålat blad.",
+   "p3": "Bladet är gratis att skriva ut som PDF, och eftersom uppgifterna är tolv till antalet hinner de flesta bli klara i ett svep. Känns talen för stora är det klokt att först gå tillbaka till grundbladet måla efter kod med sina mindre tal, eller träna minus för sig i subtraktionsvarianten. Och tiokompisarna – talpar som blir tio – är den bästa genvägen till att tiotalsövergången ska klaffa.",
+   "canonicalDeckSlug": "mala-efter-siffror-k269",
+   "carousel": [
+    {
+     "label": "Måla efter figurkod",
+     "href": "mala-efter-figurkod"
+    },
+    {
+     "label": "Måla efter kod: subtraktion",
+     "href": "mala-efter-kod-subtraktion"
+    },
+    {
+     "label": "Måla efter kod: plus och minus",
+     "href": "mala-efter-kod-plus-och-minus"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    }
+   ],
+   "title": "Arbetsblad måla efter kod till 20 | skriva ut PDF gratis",
+   "metaDescription": "Additioner med svar mellan 11 och 20 gömmer sig i bladets tolv figurer. Räkna, hitta summan i koden och färglägg rätt. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "latt-labyrint-frukter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad labyrinter",
+   "h1": "Lätt labyrint med frukter",
+   "strand": "Visuell perception och logiskt tänkande",
+   "slotTokens": [
+    "labyrinter",
+    "frukter",
+    "forskola"
+   ],
+   "p1": "Det här är den minsta och snällaste labyrinten i serien. Rutnätet är litet, gångarna är få och vägen till målet är kort – perfekt för ett barn som ritar sin allra första labyrintväg. Bladet har frukttema: en frukt står redo vid ingången högst upp, en annan väntar vid målet längst ner, och barnets penna ska hitta vägen däremellan utan att gå genom väggarna.",
+   "p2": "Den första labyrinten ska vara lätt – det är hela poängen. Ett barn som lyckas på första eller andra försöket lär sig något viktigare än själva vägen: att den här sortens kluring går att lösa, och att det är roligt. Den korta banan passar också unga penngrepp, som ännu inte orkar styra pennan genom långa smala gångar. Ögat hinner se hela vägen innan pennan sätts i, vilket ger en tidig och naturlig introduktion till strategin titta först, rita sedan.",
+   "p3": "Skriv ut labyrinten gratis som PDF och låt den bli en lyckad start. När den känns för lätt är den svåra labyrinten med fordon nästa steg, med större rutnät och fler återvändsgränder – och längst fram i trappan väntar jättelabyrinten. Fler labyrinter i lagom mellanstorlek finns också, bland annat med djur och frukter. Spara gärna bladet och låt barnet rita om vägen med en ny färg en annan dag – samma glädje en gång till, och dubbel träning på köpet.",
+   "canonicalDeckSlug": "labyrinter-frukter-k270",
+   "carousel": [
+    {
+     "label": "Svår labyrint med fordon",
+     "href": "svar-labyrint-fordon"
+    },
+    {
+     "label": "Jättelabyrint med leksaker",
+     "href": "jattelabyrint-leksaker"
+    },
+    {
+     "label": "Labyrint med djur",
+     "href": "labyrint-djur"
+    },
+    {
+     "label": "Labyrint med frukter",
+     "href": "labyrint-frukter"
+    }
+   ],
+   "title": "Arbetsblad lätt labyrint med frukter | skriva ut PDF gratis",
+   "metaDescription": "En liten och lätt labyrint för de yngsta: kort väg, breda gångar och frukter vid start och mål. Rita vägen med pennan. Skriv ut arbetsbladet gratis som PDF."
+  },
+  {
+   "slug": "svar-labyrint-fordon",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad labyrinter",
+   "h1": "Svår labyrint med fordon",
+   "strand": "Visuell perception och logiskt tänkande",
+   "slotTokens": [
+    "labyrinter",
+    "fordon",
+    "forskola"
+   ],
+   "p1": "Här växer labyrinten: rutnätet är större, gångarna fler och återvändsgränderna betydligt lömskare än i den lätta varianten. Bladet har fordonstema – ett fordon står startklart vid ingången högst upp och ett annat väntar vid målet längst ner. Barnet ritar sin väg genom gångarna, kör fast, backar ut och provar en ny riktning tills vägen igenom är hittad.",
+   "p2": "Det är i återvändsgränderna den här labyrinten gör sitt jobb. Att köra fast, stryka ett vägval och försöka igen utan att ge upp är ren träning i uthållighet – och i att planera: den som lär sig låta blicken löpa före pennan slipper de flesta felvägarna. Många barn upptäcker just här att det lönar sig att stanna upp och spana efter nästa förgrening i stället för att rita på i blindo. Det är samma tålmodiga pröva–ompröva-tänk som problemlösning i matematiken bygger på, fast förklätt till lek. Och till skillnad från många andra uppgifter känns ett misslyckat vägval här aldrig som ett fel – det är en del av spelet, och nästa försök ligger bara en pennrörelse bort.",
+   "p3": "Skriv ut bladet gratis som PDF och låt fordonet hitta hem. Den som behöver en mjukare uppkörning börjar i den lätta labyrinten med frukter, och den som vill ha seriens största utmaning fortsätter till jättelabyrinten med leksaker – ett helt blad, ett enda enormt vägnät.",
+   "canonicalDeckSlug": "labyrinter-fordon-k271",
+   "carousel": [
+    {
+     "label": "Jättelabyrint med leksaker",
+     "href": "jattelabyrint-leksaker"
+    },
+    {
+     "label": "Labyrint med djur",
+     "href": "labyrint-djur"
+    },
+    {
+     "label": "Labyrint med frukter",
+     "href": "labyrint-frukter"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    }
+   ],
+   "title": "Arbetsblad svår labyrint med fordon | skriva ut PDF gratis",
+   "metaDescription": "Ett större rutnät, trängre gångar och fler återvändsgränder – en svår labyrint med fordon vid start och mål. Skriv ut arbetsbladet gratis som PDF och kör!"
+  },
+  {
+   "slug": "jattelabyrint-leksaker",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad labyrinter",
+   "h1": "Jättelabyrint med leksaker",
+   "strand": "Visuell perception och logiskt tänkande",
+   "slotTokens": [
+    "labyrinter",
+    "leksaker",
+    "forskola"
+   ],
+   "p1": "Jättelabyrinten är seriens final: det största rutnätet av alla, ett vägnät som fyller hela sidan från kant till kant. Vid ingången högst upp står en leksak beredd, och långt därnere vid målet väntar en annan. Mellan dem ligger fler gångar, korsningar och fällor än på något annat blad i serien – här räcker det inte med tur, här krävs en plan.",
+   "p2": "En labyrint i det här formatet tränar något som få arbetsblad kommer åt: att hålla i en och samma uppgift länge. Vägen är för lång för att lösas i ett svep, så barnet måste hålla riktningen i huvudet, minnas vilka gångar som redan visat sig stängda och orka fortsätta efter tredje felvägen. Det är koncentration och arbetsminne i praktiken – och belöningen när pennan till sist glider in i mål är därefter. För många barn blir jättelabyrinten ett litet maraton de är stolta över länge.",
+   "p3": "Skriv ut jättelabyrinten gratis som PDF och avsätt en lugn stund – det här är inget femminutersblad. Vägen hit går med fördel via den lätta labyrinten och den svåra labyrinten, så att strategin sitter innan det stora vägnätet öppnar. Och den som vill varva ner efteråt kan ta en klassisk labyrint med djur i lagom storlek.",
+   "canonicalDeckSlug": "labyrinter-leksaker-k272",
+   "carousel": [
+    {
+     "label": "Labyrint med djur",
+     "href": "labyrint-djur"
+    },
+    {
+     "label": "Labyrint med frukter",
+     "href": "labyrint-frukter"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    },
+    {
+     "label": "Svår labyrint med fordon",
+     "href": "svar-labyrint-fordon"
+    }
+   ],
+   "title": "Arbetsblad jättelabyrint med leksaker | skriva ut PDF gratis",
+   "metaDescription": "Seriens största labyrint: ett jätterutnät som fyller hela sidan, med leksaker vid start och mål. En riktig utmaning i uthållighet. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "labyrint-djur",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "animals",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad labyrinter",
+   "h1": "Labyrint med djur",
+   "strand": "Visuell perception och logiskt tänkande",
+   "slotTokens": [
+    "labyrinter",
+    "djur",
+    "forskola"
+   ],
+   "p1": "Det här är den klassiska labyrinten i djurutgåva. Ett helt blad, en enda stor labyrint: vid ingången högst upp står ett djur redo, och vid målet längst ner väntar en kompis. Barnet hjälper djuret hem genom att rita vägen genom gångarna – runt hörn, förbi förgreningar och ut ur en och annan återvändsgränd – tills de två djuren är återförenade.",
+   "p2": "I klassrummet är en labyrint av den här sorten ett av de mest användbara bladen som finns: den kräver ingen genomgång, ingen läsning och inget facit, och den fungerar lika bra som lugn start på dagen som för den som blivit klar i förtid. Djuret vid ingången ger dessutom uppgiften en riktning som små barn tar till sig direkt – det är skillnad på att lösa en labyrint och att hjälpa någon hem. Under tiden tränas blickföljning, pennkontroll och det tysta lilla planerandet vid varje vägskäl.",
+   "p3": "Skriv ut labyrinten gratis som PDF och lägg den i pysselhögen – den försvinner först. I samma storlek finns en utgåva med frukter, och den som vill trappa upp eller ner hittar hela stegen: lätt labyrint, svår labyrint och till sist jättelabyrinten för de riktigt uthålliga. Plasta gärna in ett exemplar och låt barnen rita vägen med whiteboardpenna – då räcker samma labyrint många gånger om i stationsarbetet.",
+   "canonicalDeckSlug": "labyrinter-djur-k242",
+   "carousel": [
+    {
+     "label": "Labyrint med frukter",
+     "href": "labyrint-frukter"
+    },
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    },
+    {
+     "label": "Svår labyrint med fordon",
+     "href": "svar-labyrint-fordon"
+    },
+    {
+     "label": "Jättelabyrint med leksaker",
+     "href": "jattelabyrint-leksaker"
+    }
+   ],
+   "title": "Arbetsblad labyrint med djur | skriva ut PDF gratis",
+   "metaDescription": "En klassisk labyrint i djurutgåva: ett djur vid ingången ska hitta vägen till kompisen vid målet. Rita vägen genom gångarna. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "labyrint-frukter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "fruits",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad labyrinter",
+   "h1": "Labyrint med frukter",
+   "strand": "Visuell perception och logiskt tänkande",
+   "slotTokens": [
+    "labyrinter",
+    "frukter",
+    "forskola"
+   ],
+   "p1": "En labyrint stor som hela bladet, klädd i frukttema: vid starten högst upp ligger en frukt, vid målet längst ner väntar en annan, och däremellan breder gångarna ut sig. Barnet söker sig fram – helst med ögonen först och pennan sedan – och ritar sin väg genom labyrinten, hela vägen från fruktens startruta till målet.",
+   "p2": "Just det där med ögonen först är värt att göra till en vana, och den här labyrinten är rätt plats att träna den. Att låta blicken vandra genom gångarna, följa en väg en bit, förkasta den och prova en annan – helt utan penna – är visuell avsökning i sin renaste form, samma färdighet som senare hjälper ögat att hålla raden i en text. Först när en lovande väg är hittad får pennan sättas i. Barn som ritar först och tittar sedan möter fler återvändsgränder, och märker det snabbt själva. Ett enkelt sätt att öva in strategin är att låta barnet peka vägen med fingret först och först därefter plocka upp pennan och rita.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar från förskoleklass och uppåt. Systerutgåvan med djur har samma storlek och svårighet, och för den som vill välja nivå finns den lätta labyrinten med frukter som mjukstart och den svåra med fordon som nästa kliv – med jättelabyrinten som krönet på det hela.",
+   "canonicalDeckSlug": "labyrinter-frukter-k242",
+   "carousel": [
+    {
+     "label": "Lätt labyrint med frukter",
+     "href": "latt-labyrint-frukter"
+    },
+    {
+     "label": "Svår labyrint med fordon",
+     "href": "svar-labyrint-fordon"
+    },
+    {
+     "label": "Jättelabyrint med leksaker",
+     "href": "jattelabyrint-leksaker"
+    },
+    {
+     "label": "Labyrint med djur",
+     "href": "labyrint-djur"
+    }
+   ],
+   "title": "Arbetsblad labyrint med frukter | skriva ut PDF gratis",
+   "metaDescription": "Klassisk labyrint med frukttema: en frukt vid starten, en vid målet och ett helt blad av gångar däremellan. Ögat före pennan! Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "femkompisar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad femkompisar",
+   "h1": "Femkompisar – dela upp talet 5",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.OA.A.5",
+   "slotTokens": [
+    "tiokompisar",
+    "forskola"
+   ],
+   "p1": "Det här arbetsbladet tränar femkompisarna – uppdelningarna av talet 5 – med räkneprickar som stöd. I varje uppdelningsbild sitter helheten 5 överst och två delar under, men den ena delen är tom. Den del som syns visar sina prickar, så barnet räknar prickarna, funderar ut hur många som fattas upp till 5 och skriver femkompisen som saknas i den streckade cirkeln. Prickarna gör att ingen behöver gissa: svaret går alltid att räkna fram.",
+   "p2": "Talet 5 är barnets allra första riktiga helhet – lika många som fingrarna på en hand – och just därför är femkompisarna det mjukaste stället att börja på. Inom talområdet upp till 5 kan barnet fortfarande se delarna framför sig utan att räkna ett och ett: tre prickar och två prickar känns igen som bilder, inte bara som antal. Räkneprickarna bygger bron från det konkreta till det abstrakta – först räknas varje prick, sedan känns mönstret igen, och till slut sitter paren i huvudet utan att ögonen behöver hjälpa till. Den vägen, från plockande till vetande, är precis den väg all taluppfattning tar.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar från förskoleklassens första mattestunder. När femmans par sitter är tiokompisar med räkneprickar det naturliga nästa steget – samma bild, dubbelt så stor helhet – och den som är redo att släppa prickarna helt kan gå vidare till tiokompisarna utan stöd.",
+   "canonicalDeckSlug": "tiokompisar-k273",
+   "carousel": [
+    {
+     "label": "Talkamrater upp till 10 – blandade helheter",
+     "href": "talkamrater-till-10"
+    },
+    {
+     "label": "Tjugokompisar – dela upp talet 20",
+     "href": "tjugokompisar"
+    },
+    {
+     "label": "Talkamrater – räkna ut det hela talet",
+     "href": "talkamrater-hela-talet"
+    },
+    {
+     "label": "Tiokompisar med räkneprickar",
+     "href": "tiokompisar-med-prickar"
+    }
+   ],
+   "title": "Arbetsblad femkompisar med prickar | skriva ut PDF gratis",
+   "metaDescription": "Dela upp talet 5 med räkneprickar som stöd: barnet räknar prickarna och skriver femkompisen som saknas i den streckade cirkeln. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "talkamrater-till-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad talkamrater",
+   "h1": "Talkamrater upp till 10 – blandade helheter",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "tiokompisar",
+    "forskola"
+   ],
+   "p1": "På det här arbetsbladet är helheten inte densamma i varje uppgift – den växlar mellan 5 och 10. I varje uppdelningsbild står ett helt tal överst med två delar under sig, och den ena delen är tom. Barnet måste därför börja med att läsa av vilken helhet uppgiften gäller, titta på delen som visas och sedan skriva talet som fattas i den streckade cirkeln. Sex, åtta eller tio – varje bild kräver en ny liten tankevända.",
+   "p2": "Att blanda helheterna är ett medvetet steg uppåt. Ett barn kan nöta in tiokompisarna som en ramsa utan att egentligen förstå vad en uppdelning är – men när helheten byter från uppgift till uppgift går det inte längre att svara på rutin. Här tvingas tanken tillbaka till själva sambandet: en helhet består av två delar, och vet jag helheten och den ena delen kan jag alltid hitta den andra. Det är förståelsen, inte ramsan, som sedan bär vidare in i subtraktionen och de öppna utsagorna. Blandningen fungerar dessutom som en tyst diagnos: läraren ser direkt vilka helheter som sitter och vilka som fortfarande vacklar.",
+   "p3": "Skriv ut bladet gratis som PDF och låt det gärna komma efter att femkompisarna och tiokompisarna tränats var för sig – här möts de. Nästa kliv uppåt i talområdet är tjugokompisarna, där samma tanke får dubbelt så stort spelrum, och den som vill vända på frågan kan prova bladet där det hela talet saknas.",
+   "canonicalDeckSlug": "tiokompisar-k274",
+   "carousel": [
+    {
+     "label": "Tjugokompisar – dela upp talet 20",
+     "href": "tjugokompisar"
+    },
+    {
+     "label": "Talkamrater – räkna ut det hela talet",
+     "href": "talkamrater-hela-talet"
+    },
+    {
+     "label": "Tiokompisar med räkneprickar",
+     "href": "tiokompisar-med-prickar"
+    },
+    {
+     "label": "Femkompisar – dela upp talet 5",
+     "href": "femkompisar"
+    }
+   ],
+   "title": "Arbetsblad talkamrater upp till 10 | skriva ut PDF gratis",
+   "metaDescription": "Uppdelningar där helheten växlar mellan 5 och 10: barnet läser det hela talet, ser delen som visas och skriver delen som fattas. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "tjugokompisar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad tjugokompisar",
+   "h1": "Tjugokompisar – dela upp talet 20",
+   "strand": "Taluppfattning och tals användning",
+   "slotTokens": [
+    "tiokompisar",
+    "forskola"
+   ],
+   "p1": "Det här arbetsbladet lyfter uppdelningstanken till talet 20. I varje uppdelningsbild sitter helheten 20 överst med två delar kopplade under sig – den ena delen syns, den andra är tom. Barnet tittar på talet som visas, räknar ut vilken tjugokompis som saknas och skriver talet i den streckade cirkeln. Samma trygga bild som barnet känner igen från tiokompisarna, men nu med ett helt tiotal till att hålla reda på.",
+   "p2": "Tjugokompisarna är platsen där tiokompisarna visar sitt riktiga värde. Den som vet att 3 och 7 bildar 10 kan upptäcka att 13 och 7 bildar 20 – samma par, bara ett tiotal högre. Det är en av matematikens första riktiga aha-upplevelser: mönster flyttar med uppåt i talraden, och det man redan kan går att återanvända. Att arbeta med helheten 20 förbereder samtidigt tiotalsövergångarna och huvudräkningen i hela talområdet upp till 20, där skolår ett tillbringar större delen av sin mattetid. Barnet som ser tjugokompisarna som gamla bekanta i ny kostym slipper börja om från noll.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar i slutet av förskoleklassen eller som utmaning i åk 1. Sätt gärna tiokompisarna bredvid och låt barnet jämföra paren – likheten är själva poängen. Därefter väntar huvudräkning med tal upp till 20, där de nya paren får arbeta på riktigt.",
+   "canonicalDeckSlug": "tiokompisar-k275",
+   "carousel": [
+    {
+     "label": "Talkamrater – räkna ut det hela talet",
+     "href": "talkamrater-hela-talet"
+    },
+    {
+     "label": "Tiokompisar med räkneprickar",
+     "href": "tiokompisar-med-prickar"
+    },
+    {
+     "label": "Femkompisar – dela upp talet 5",
+     "href": "femkompisar"
+    },
+    {
+     "label": "Talkamrater upp till 10 – blandade helheter",
+     "href": "talkamrater-till-10"
+    }
+   ],
+   "title": "Arbetsblad tjugokompisar – dela upp 20 | skriva ut PDF gratis",
+   "metaDescription": "Uppdelningar av talet 20: en tjugokompis saknas i varje bild och barnet skriver talet som fattas i den streckade cirkeln. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "talkamrater-hela-talet",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad talkamrater",
+   "h1": "Talkamrater – räkna ut det hela talet",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.OA.A.3",
+   "slotTokens": [
+    "tiokompisar",
+    "forskola"
+   ],
+   "p1": "På det här arbetsbladet är det tvärtom mot vanligt: båda delarna syns – men det hela talet överst är tomt. Barnet läser de två delarna i varje uppdelningsbild, räknar ihop dem och skriver helheten i den streckade cirkeln högst upp. Efter alla blad där en del saknats är det en ny fråga att svara på, fast bilden ser likadan ut: inte vad som fattas, utan vad det blir tillsammans.",
+   "p2": "Att vända på uppgiften är ett fint sätt att skilja förståelse från rutin. Ett barn som fyllt i många uppdelningar kan börja svara mekaniskt – se ett tal, skriva dess kompis – utan att tänka på vad bilden betyder. När helheten saknas fungerar inte den genvägen: nu måste delarna läggas ihop, och det är addition i sin renaste form. Samtidigt blir sambandet mellan delar och helhet komplett åt båda hållen – helheten kan delas upp i delar, och delarna kan byggas ihop till en helhet. Det dubbla seendet är exakt vad räknefamiljerna sedan bygger vidare på, när addition och subtraktion vävs ihop till ett.",
+   "p3": "Skriv ut bladet gratis som PDF och använd det gärna omväxlande med de vanliga uppdelningsbladen, så att båda frågorna hålls levande. Talkamrater upp till 10 med blandade helheter är en fin parhäst, och när båda riktningarna sitter är räknefamiljerna upp till 10 det självklara nästa steget.",
+   "canonicalDeckSlug": "tiokompisar-k276",
+   "carousel": [
+    {
+     "label": "Tiokompisar med räkneprickar",
+     "href": "tiokompisar-med-prickar"
+    },
+    {
+     "label": "Femkompisar – dela upp talet 5",
+     "href": "femkompisar"
+    },
+    {
+     "label": "Talkamrater upp till 10 – blandade helheter",
+     "href": "talkamrater-till-10"
+    },
+    {
+     "label": "Tjugokompisar – dela upp talet 20",
+     "href": "tjugokompisar"
+    }
+   ],
+   "title": "Arbetsblad talkamrater: hela talet saknas | skriva ut PDF gratis",
+   "metaDescription": "Här är det helheten som är tom: båda delarna syns och barnet räknar ihop dem och skriver det hela talet i den streckade cirkeln. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "tiokompisar-med-prickar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "forskola"
+   },
+   "eyebrow": "Arbetsblad tiokompisar",
+   "h1": "Tiokompisar med räkneprickar",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "tiokompisar",
+    "forskola"
+   ],
+   "p1": "Det här arbetsbladet tränar tiokompisarna – med räkneprickar som stöd. I varje uppdelningsbild sitter helheten 10 överst och två delar under; den ena delen visar sitt tal tillsammans med lika många prickar, den andra är tom. Barnet räknar prickarna, räknar vidare upp till tio och skriver tiokompisen som saknas i den streckade cirkeln. Prickarna gör vägen till svaret synlig för den som ännu inte bär paren i huvudet.",
+   "p2": "I ett klassrum är barnen aldrig på samma ställe samtidigt, och det är precis där det här bladet gör nytta. Några klasskamrater skriver redan tiokompisarna på rutin – de behöver bladet utan stöd. Andra vet vad som ska göras men behöver något att räkna på, och för dem är prickarna skillnaden mellan att lyckas själv och att fastna. Samma uppgift, samma mål, två ingångar: det är differentiering i sin enklaste form. Prickarna bjuder dessutom in räkna vidare-strategin – sju prickar, sedan åtta, nio, tio med fingret – som är ett stort kliv upp från att räkna allt från början, och en strategi barnet bär med sig långt in i huvudräkningen.",
+   "p3": "Bladet skrivs ut gratis som PDF och fungerar fint som mjukstart innan tiokompisarna utan prickar tar vid – samma bilder, bara stödet borta. Den som vill börja ännu mjukare tar femkompisarna med prickar först, och den som vill se paren i arbete går vidare till huvudräkning med tal upp till 10.",
+   "canonicalDeckSlug": "tiokompisar-k277",
+   "carousel": [
+    {
+     "label": "Femkompisar – dela upp talet 5",
+     "href": "femkompisar"
+    },
+    {
+     "label": "Talkamrater upp till 10 – blandade helheter",
+     "href": "talkamrater-till-10"
+    },
+    {
+     "label": "Tjugokompisar – dela upp talet 20",
+     "href": "tjugokompisar"
+    },
+    {
+     "label": "Talkamrater – räkna ut det hela talet",
+     "href": "talkamrater-hela-talet"
+    }
+   ],
+   "title": "Arbetsblad tiokompisar med prickar | skriva ut PDF gratis",
+   "metaDescription": "Tiokompisarna med räkneprickar som stöd: barnet räknar prickarna i delen som syns och skriver kompisen som saknas upp till 10. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "huvudrakning-till-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad huvudräkning åk 1",
+   "h1": "Huvudräkning med tal upp till 10",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "huvudrakning",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet håller sig helt inom talområdet 0 till 10: blandade additions- och subtraktionsuppgifter som barnet räknar ut i huvudet och besvarar genom att skriva talet som saknas i rutan. Inga bilder och inget plockmaterial – bara små tal, plus och minus om vartannat, i ett format där varje uppgift går att klara på några sekunder när kombinationerna börjar sitta.",
+   "p2": "Talområdet upp till 10 är huvudräkningens plantskola. Det är här de allra första strategierna föds – dubblorna, att räkna vidare från det största talet, tiokompisarna – och det är här de ska bli så säkra att de inte längre känns som strategier. Forskningen och beprövad erfarenhet pekar åt samma håll: den som är trygg inom tio har allt som behövs för att klara tjugo, medan den som hoppar över det här steget bär med sig osäkerheten uppåt. Små tal betyder också många lyckade svar på kort tid, och just den känslan – att huvudräkning är något man kan – är värd minst lika mycket som själva träningen i början av åk 1.",
+   "p3": "Skriv ut bladet gratis som PDF och gör det till en kort, återkommande rutin – fem minuter ofta slår en timme sällan. När tian känns trygg är huvudräkning med tal upp till 20 det givna nästa steget, och den som vill förstå varför svaren stämmer hittar förklaringen i tiokompisarna.",
+   "canonicalDeckSlug": "huvudrakning-g1214",
+   "carousel": [
+    {
+     "label": "Öppna utsagor upp till 20",
+     "href": "oppna-utsagor-till-20"
+    },
+    {
+     "label": "Träna addition upp till 20",
+     "href": "addition-till-20"
+    },
+    {
+     "label": "Träna subtraktion upp till 20",
+     "href": "subtraktion-till-20"
+    },
+    {
+     "label": "Öppna utsagor upp till 10",
+     "href": "oppna-utsagor-till-10"
+    }
+   ],
+   "title": "Arbetsblad huvudräkning till 10 | skriva ut PDF gratis",
+   "metaDescription": "Blandade plus- och minusuppgifter i talområdet 0–10 som barnet räknar ut i huvudet och skriver i rutan. Den första huvudräkningen i åk 1 – skriv ut gratis som PDF."
+  },
+  {
+   "slug": "oppna-utsagor-till-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad öppna utsagor",
+   "h1": "Öppna utsagor upp till 20",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "huvudrakning",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet tränar öppna utsagor i talområdet upp till 20. I varje uppgift sitter rutan inte efter likhetstecknet utan mitt i utsagan – som i ruta plus 3 är lika med 8 – och barnet ska räkna ut vilket tal som gör utsagan sann och skriva det i rutan. Plus och minus blandas, och rutan flyttar runt, så varje uppgift måste läsas i sin helhet innan den går att lösa.",
+   "p2": "Öppna utsagor är det första riktiga mötet med algebraiskt tänkande – och med likhetstecknets verkliga betydelse. Många barn lär sig i tysthet att tecknet betyder ”här kommer svaret”, och den missuppfattningen fungerar utmärkt ända tills rutan byter plats. Då avslöjas den: barnet som ser 5 i ruta plus 3 är lika med 8 har adderat talen det ser i stället för att fråga vad som fattas. Att träna utsagor där tecknet måste läsas som en balansvåg – lika mycket på båda sidor – rättar till bilden medan den fortfarande är lätt att rätta till. Det är en investering som betalar sig hela vägen upp i ekvationerna på högstadiet.",
+   "p3": "Bladet skrivs ut gratis som PDF och gör störst nytta när vanlig huvudräkning upp till 20 redan flyter. Är steget för stort börjar man i öppna utsagor upp till 10, där tanken får tränas med snällare tal – och räknefamiljerna visar samma samband från ett annat håll.",
+   "canonicalDeckSlug": "huvudrakning-g1215",
+   "carousel": [
+    {
+     "label": "Träna addition upp till 20",
+     "href": "addition-till-20"
+    },
+    {
+     "label": "Träna subtraktion upp till 20",
+     "href": "subtraktion-till-20"
+    },
+    {
+     "label": "Öppna utsagor upp till 10",
+     "href": "oppna-utsagor-till-10"
+    },
+    {
+     "label": "Huvudräkning med tal upp till 10",
+     "href": "huvudrakning-till-10"
+    }
+   ],
+   "title": "Arbetsblad öppna utsagor till 20 | skriva ut PDF gratis",
+   "metaDescription": "Öppna utsagor i talområdet upp till 20: rutan sitter mitt i likheten och barnet räknar ut vilket tal som gör utsagan sann. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "addition-till-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad addition åk 1",
+   "h1": "Träna addition upp till 20",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "huvudrakning",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet är varje uppgift en addition – inga minustecken som bryter av. Barnet räknar ut summor i talområdet upp till 20 i huvudet och skriver talet som saknas i rutan, uppgift för uppgift. Att räknesättet är detsamma hela vägen är själva poängen: här får additionens egna strategier arbeta i fred.",
+   "p2": "När plus och minus blandas går mycket av barnets kraft åt till att växla mellan räknesätten. Ett renodlat additionsblad tar bort den växlingen och låter strategierna mogna i stället: dubblorna som ger 6 plus 6 direkt, nästan-dubblorna som gör 6 plus 7 till en dubbla plus ett, och tiokompisarna som förvandlar 8 plus 5 till 10 plus 3. Det är strategier – inte fingerräkning – som gör huvudräkning snabb, och strategier behöver just sådan här samlad träning för att bli förstahandsval. Läraren kan dessutom lyssna efter dem: ett barn som förklarar hur det tänkte kring 9 plus 6 visar exakt var det befinner sig på vägen från räknande till vetande.",
+   "p3": "Skriv ut bladet gratis som PDF och låt gärna barnet berätta högt hur det tänker på några av uppgifterna – strategin är lika viktig som svaret. Tvillingbladet med bara subtraktion tränar det andra räknesättet lika renodlat, och den blandade huvudräkningen upp till 20 knyter sedan ihop dem.",
+   "canonicalDeckSlug": "huvudrakning-g1216",
+   "carousel": [
+    {
+     "label": "Träna subtraktion upp till 20",
+     "href": "subtraktion-till-20"
+    },
+    {
+     "label": "Öppna utsagor upp till 10",
+     "href": "oppna-utsagor-till-10"
+    },
+    {
+     "label": "Huvudräkning med tal upp till 10",
+     "href": "huvudrakning-till-10"
+    },
+    {
+     "label": "Öppna utsagor upp till 20",
+     "href": "oppna-utsagor-till-20"
+    }
+   ],
+   "title": "Arbetsblad addition till 20 | skriva ut PDF gratis",
+   "metaDescription": "Bara addition i talområdet upp till 20: barnet räknar ut summorna i huvudet och tränar dubblor och tiokompisar i lugn och ro. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "subtraktion-till-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad subtraktion åk 1",
+   "h1": "Träna subtraktion upp till 20",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "huvudrakning",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet ägnar sig helt åt subtraktion i talområdet upp till 20. Varje uppgift är ett minus, barnet räknar ut differensen i huvudet och skriver talet som saknas i rutan. Ingen addition smyger sig in – hela bladet är en samlad träningsstund för det räknesätt som brukar behöva den bäst.",
+   "p2": "Subtraktionen släpar nästan alltid efter additionen, och det är inte konstigt: minus går att tänka på flera sätt, och barnet måste lära sig välja rätt sätt för rätt uppgift. 15 minus 2 räknas enklast nedåt – två steg bakåt. Men 15 minus 13 räknas mycket enklare uppåt, från 13 till 15, och det vanligaste felet är att envist räkna nedåt även då: tretton steg bakåt på fingrarna, med snubbelrisk i varje steg. Ett tredje sätt är att tänka addition – vad ska läggas till 8 för att det ska bli 14? Ett renodlat subtraktionsblad ger tid att pröva alla tre och upptäcka när vart och ett lönar sig, i stället för att minus alltid tas med samma tunga metod.",
+   "p3": "Bladet skrivs ut gratis som PDF och gör sig bäst i par med additionsbladet upp till 20, så att båda räknesätten får sin egen stund. Räknefamiljerna visar sedan varför tänka addition fungerar – och den blandade huvudräkningen upp till 20 blir kvittot på att strategierna sitter.",
+   "canonicalDeckSlug": "huvudrakning-g1217",
+   "carousel": [
+    {
+     "label": "Öppna utsagor upp till 10",
+     "href": "oppna-utsagor-till-10"
+    },
+    {
+     "label": "Huvudräkning med tal upp till 10",
+     "href": "huvudrakning-till-10"
+    },
+    {
+     "label": "Öppna utsagor upp till 20",
+     "href": "oppna-utsagor-till-20"
+    },
+    {
+     "label": "Träna addition upp till 20",
+     "href": "addition-till-20"
+    }
+   ],
+   "title": "Arbetsblad subtraktion till 20 | skriva ut PDF gratis",
+   "metaDescription": "Bara subtraktion i talområdet upp till 20: barnet räknar i huvudet och tränar att räkna upp, räkna ner och tänka addition. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "oppna-utsagor-till-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad öppna utsagor",
+   "h1": "Öppna utsagor upp till 10",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "huvudrakning",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet introducerar öppna utsagor i det lilla talområdet 0 till 10. Rutan står mitt i utsagan – ruta plus 2 är lika med 7, eller 9 minus ruta är lika med 4 – och barnet räknar ut vilket tal som gör utsagan sann och skriver det i rutan. Talen är med flit små: alla kombinationer är sådana som barnet redan möter i den vanliga huvudräkningen.",
+   "p2": "Att hålla nere talområdet är det som gör bladet till en bra introduktion. Öppna utsagor kräver ett nytt sätt att läsa en uppgift – rutan är en fråga, inte en plats för svaret, och likhetstecknet är en våg som ska väga jämnt. Det tankearbetet är stort nog i sig. Om talen samtidigt är svåra tvingas barnet jonglera två nya saker på en gång, och då är det ofta själva utsagetanken som tappas. Med tal under tio kan aritmetiken gå på rutin medan uppmärksamheten läggs där den ska: på vad utsagan faktiskt säger. I klassrummet är bladet därför en naturlig första station innan tjugoversionen – och ett bra ställe att upptäcka vilka barn som adderar allt de ser i stället för att läsa.",
+   "p3": "Skriv ut bladet gratis som PDF och lös gärna de första uppgifterna gemensamt, med likhetstecknet som balansvåg på tavlan. När tanken sitter är öppna utsagor upp till 20 den raka fortsättningen, och tiokompisarna ger paren som gör svaren snabba.",
+   "canonicalDeckSlug": "huvudrakning-g1218",
+   "carousel": [
+    {
+     "label": "Huvudräkning med tal upp till 10",
+     "href": "huvudrakning-till-10"
+    },
+    {
+     "label": "Öppna utsagor upp till 20",
+     "href": "oppna-utsagor-till-20"
+    },
+    {
+     "label": "Träna addition upp till 20",
+     "href": "addition-till-20"
+    },
+    {
+     "label": "Träna subtraktion upp till 20",
+     "href": "subtraktion-till-20"
+    }
+   ],
+   "title": "Arbetsblad öppna utsagor till 10 | skriva ut PDF gratis",
+   "metaDescription": "Öppna utsagor i det lilla talområdet 0–10: rutan sitter mitt i likheten och barnet skriver talet som gör utsagan sann. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknefamiljer-till-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknefamiljer",
+   "h1": "Räknefamiljer upp till 10",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "raknefamiljer",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet står fyra räknehus med tre tal på varje trekantigt tak – och alla tal håller sig inom talområdet upp till 10. Barnet använder taktrion i varje hus och skriver färdigt de fyra uppgifter som hör ihop: två additioner och två subtraktioner byggda av samma tre tal. Fyra hus räcker gott för en första bekantskap med hur en räknefamilj fungerar.",
+   "p2": "Det lilla talområdet är valt med omsorg. När talen är små – som 2, 3 och 5 – behöver barnet inte kämpa med själva räknandet, och då kan all uppmärksamhet läggas på strukturen: att samma tre tal bildar fyra sanna uppgifter, att de två största talen aldrig adderas med varandra och att helheten alltid står först i subtraktionerna. Det är den strukturen som är lektionens egentliga innehåll. Många av taktriorna är dessutom gamla bekanta från uppdelningarna – barnet som mött 3, 7 och 10 som tiokompisar ser nu samma trio flytta in i ett hus och få fyra uppgifter på köpet. Igenkänningen gör det nya greppbart.",
+   "p3": "Bladet skrivs ut gratis som PDF och är den naturliga startpunkten i familjeserien. När de fyra husen känns trygga väntar sex nya hus på bladet med fler räknefamiljer upp till 10, och därefter räknefamiljerna upp till 20 – samma tanke, större tal.",
+   "canonicalDeckSlug": "raknefamiljer-g1219",
+   "carousel": [
+    {
+     "label": "Räknefamiljer upp till 20 – sex räknehus",
+     "href": "raknefamiljer-till-20"
+    },
+    {
+     "label": "Fler räknefamiljer upp till 10",
+     "href": "fler-raknefamiljer-till-10"
+    },
+    {
+     "label": "Räknefamiljer – talet i mitten saknas",
+     "href": "raknefamiljer-talet-i-mitten"
+    },
+    {
+     "label": "Räknefamiljer med gånger och delat",
+     "href": "raknefamiljer-multiplikation-division"
+    }
+   ],
+   "title": "Arbetsblad räknefamiljer till 10 | skriva ut PDF gratis",
+   "metaDescription": "Fyra räknehus med tal upp till 10: barnet använder trion på taket och skriver de fyra uppgifter som hör ihop. En mjuk start – skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknefamiljer-till-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknefamiljer",
+   "h1": "Räknefamiljer upp till 20 – sex räknehus",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "raknefamiljer",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet rymmer sex räknehus med taltrior i hela talområdet upp till 20. Barnet tar de tre talen på varje tak och skriver färdigt husets fyra uppgifter – två additioner och två subtraktioner av samma trio. Sex hus och tjugofyra rader gör bladet till ett rejält träningspass, och taktriorna innehåller nu även paren som korsar tiogränsen.",
+   "p2": "När strukturen väl sitter är det mängden som gör jobbet. Sex hus i talområdet upp till 20 betyder att barnet möter de kombinationer som brukar kosta mest möda – 8, 5 och 13, eller 9, 7 och 16 – och får se dem hänga ihop i familjer i stället för att dyka upp som lösryckta uppgifter. Det är just för trior med tiotalsövergång som familjetänket lönar sig mest: 13 minus 8 är svår att räkna nedåt men trivial för den som ser att 8 och 5 bygger 13. Varje färdigt hus är dessutom sin egen kontroll – hänger de fyra raderna inte ihop har något tal hamnat fel, och barnet kan hitta felet självt utan att vänta på rättning.",
+   "p3": "Skriv ut bladet gratis som PDF och använd det som fortsättningen efter räknefamiljerna upp till 10. Specialbladet där talet i mitten saknas vrider sedan om frågan i varje rad – och huvudräkningen upp till 20 skördar till sist det familjerna sått.",
+   "canonicalDeckSlug": "raknefamiljer-g1220",
+   "carousel": [
+    {
+     "label": "Fler räknefamiljer upp till 10",
+     "href": "fler-raknefamiljer-till-10"
+    },
+    {
+     "label": "Räknefamiljer – talet i mitten saknas",
+     "href": "raknefamiljer-talet-i-mitten"
+    },
+    {
+     "label": "Räknefamiljer med gånger och delat",
+     "href": "raknefamiljer-multiplikation-division"
+    },
+    {
+     "label": "Räknefamiljer upp till 10",
+     "href": "raknefamiljer-till-10"
+    }
+   ],
+   "title": "Arbetsblad räknefamiljer till 20 – sex hus | skriva ut PDF gratis",
+   "metaDescription": "Sex räknehus med tal upp till 20: barnet skriver de fyra uppgifter som hör ihop i varje hus och nöter sambandet plus–minus. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "fler-raknefamiljer-till-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknefamiljer",
+   "h1": "Fler räknefamiljer upp till 10",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "raknefamiljer",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet bjuder på sex nya räknehus, alla i talområdet upp till 10. Precis som tidigare sitter tre tal på varje tak, och barnet skriver färdigt husets fyra uppgifter – två med plus och två med minus – byggda av samma trio. Med sex hus i stället för fyra blir det ett längre pass, med nya taltrior som inte förekom på introduktionsbladet.",
+   "p2": "Ett moment är inte färdigt för att det gåtts igenom en gång – det är färdigt när barnet klarar det på egen hand, utan lärare bredvid. Det är den rollen det här bladet spelar. Talområdet är medvetet kvar under tio, så att ingen ny svårighet läggs på; det som ökar är mängden och självständigheten. I klassrummet gör det bladet mångsidigt: som eget arbete medan läraren handleder en grupp, som station i ett arbetsschema, som hemuppgift efter genomgång eller som extrablad för den som blev klar tidigt. Och för läraren är sex färdiga hus ett fint kvitto: den som klarar dem utan stöd är redo för större tal – den som stakar sig behöver en runda till, inte en genomgång till.",
+   "p3": "Bladet skrivs ut gratis som PDF och tar vid direkt efter räknefamiljerna upp till 10. Nästa steg uppåt är räknefamiljerna upp till 20 med sina sex hus i större talområde – och den som vill ha en klurigare vinkel på samma struktur provar bladet där talet i mitten saknas.",
+   "canonicalDeckSlug": "raknefamiljer-g1221",
+   "carousel": [
+    {
+     "label": "Räknefamiljer – talet i mitten saknas",
+     "href": "raknefamiljer-talet-i-mitten"
+    },
+    {
+     "label": "Räknefamiljer med gånger och delat",
+     "href": "raknefamiljer-multiplikation-division"
+    },
+    {
+     "label": "Räknefamiljer upp till 10",
+     "href": "raknefamiljer-till-10"
+    },
+    {
+     "label": "Räknefamiljer upp till 20 – sex räknehus",
+     "href": "raknefamiljer-till-20"
+    }
+   ],
+   "title": "Arbetsblad fler räknefamiljer till 10 | skriva ut PDF gratis",
+   "metaDescription": "Sex nya räknehus i talområdet upp till 10: mer självständig träning på de fyra uppgifter som hör ihop i varje familj. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknefamiljer-talet-i-mitten",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknefamiljer",
+   "h1": "Räknefamiljer – talet i mitten saknas",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "1.OA.D.8",
+   "slotTokens": [
+    "raknefamiljer",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet är räknehusens rader redan påbörjade – men i varje uppgift är det talet i mitten som fattas. Svaret står alltså redan där: raden kan se ut som 7 plus ruta är lika med 12, och barnet tar hjälp av de tre talen på taket för att skriva talet som saknas i mitten av varje uppgift. Fyra rader per hus, som vanligt – men frågan sitter på ett nytt ställe i varje rad.",
+   "p2": "Flytten av luckan förändrar mer än man kan tro. På ett vanligt familjeblad går det att fylla i alla fyra raderna genom att kopiera mönstret – trion är känd, ordningen given, och pennan kan gå på räls utan att huvudet är med. När mittentalet saknas bryts rälsen: varje rad blir en liten öppen utsaga där barnet måste läsa både det första talet och svaret och fråga sig vad som ligger emellan. Det avslöjar direkt om familjetanken bara är en ifyllnadsrutin eller en verklig förståelse av hur talen hänger ihop. Samtidigt byggs bron till de öppna utsagorna – här får de trygga taktrion som ledstång, vilket gör bladet till en mjuk mellanstation på vägen dit.",
+   "p3": "Skriv ut bladet gratis som PDF när de vanliga räknefamiljerna upp till 20 börjat kännas bekväma – det är då vridningen gör som mest nytta. Därefter är öppna utsagor upp till 20 det naturliga nästa steget, nu utan tak att hålla i.",
+   "canonicalDeckSlug": "raknefamiljer-g1222",
+   "carousel": [
+    {
+     "label": "Räknefamiljer med gånger och delat",
+     "href": "raknefamiljer-multiplikation-division"
+    },
+    {
+     "label": "Räknefamiljer upp till 10",
+     "href": "raknefamiljer-till-10"
+    },
+    {
+     "label": "Räknefamiljer upp till 20 – sex räknehus",
+     "href": "raknefamiljer-till-20"
+    },
+    {
+     "label": "Fler räknefamiljer upp till 10",
+     "href": "fler-raknefamiljer-till-10"
+    }
+   ],
+   "title": "Arbetsblad räknefamiljer: talet i mitten | skriva ut PDF gratis",
+   "metaDescription": "Räknehus där mittentalet är tomt i varje uppgift – som 7 + ruta = 12. Barnet använder taket och tränar öppna utsagor i familjeform. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknefamiljer-multiplikation-division",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "ak-3"
+   },
+   "eyebrow": "Arbetsblad räknefamiljer åk 3",
+   "h1": "Räknefamiljer med gånger och delat",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "3.OA.B.6",
+   "slotTokens": [
+    "raknefamiljer",
+    "ak-3"
+   ],
+   "p1": "Det här arbetsbladet flyttar räknehusen till multiplikation och division. På varje trekantigt tak sitter en trio – två faktorer och deras produkt – och barnet skriver färdigt husets fyra uppgifter: två med gånger, där faktorerna byter plats, och två med delat, där produkten delas med den ena faktorn i taget. Multiplikationstecknet skrivs som en punkt, precis som i skolboken.",
+   "p2": "För den som mött räknefamiljerna i plus och minus är det här en återträff med höjd insats. Samma hus, samma logik – men nu är det gånger och delat som visar sig vara två sidor av samma mynt. Vinsten är svår att överskatta: divisionen, som annars brukar kännas som ett helt nytt räknesätt att lära från noll, blir i huset bara tabellkunskap läst baklänges. Den som kan 6 gånger 7 äger redan 42 delat med 7 – det finns inget nytt att nöta, bara ett samband att upptäcka. Familjetänket ger dessutom en kontrollstrategi vid division som håller i sig genom hela skoltiden: multiplicera svaret och se om produkten kommer tillbaka.",
+   "p3": "Bladet skrivs ut gratis som PDF och gör störst nytta när några tabeller börjat sätta sig – 2:ans tabell och 5:ans tabell är utmärkta startfamiljer. Kör gärna huset muntligt först: säg trion, låt barnet säga alla fyra uppgifterna högt, och skriv sedan.",
+   "canonicalDeckSlug": "raknefamiljer-g3369",
+   "carousel": [
+    {
+     "label": "Räknefamiljer upp till 10",
+     "href": "raknefamiljer-till-10"
+    },
+    {
+     "label": "Räknefamiljer upp till 20 – sex räknehus",
+     "href": "raknefamiljer-till-20"
+    },
+    {
+     "label": "Fler räknefamiljer upp till 10",
+     "href": "fler-raknefamiljer-till-10"
+    },
+    {
+     "label": "Räknefamiljer – talet i mitten saknas",
+     "href": "raknefamiljer-talet-i-mitten"
+    }
+   ],
+   "title": "Arbetsblad räknefamiljer gånger–delat | skriva ut PDF gratis",
+   "metaDescription": "Räknehus för multiplikation och division: trion på taket ger två gånger-uppgifter och två delat-uppgifter i varje hus. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "tal-med-bokstaver-till-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad talord",
+   "h1": "Tal med bokstäver upp till 20",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "tal-med-bokstaver",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet håller sig till talen upp till 20. Varje uppgift visar ett tal skrivet med siffror och tre tal skrivna med bokstäver under – tre talord som liknar varandra lagom mycket – och barnet läser talet, läser orden och ringar in det ord som betyder samma tal. Här möter barnet orden det använder mest: elva, tolv, femton, arton och deras grannar.",
+   "p2": "Just talen mellan tio och tjugo har de besvärligaste orden i hela svenska talraden. Elva och tolv avslöjar ingenting om att de innehåller ett tiotal, tretton och fjorton bara antyder det – och inga av orden följer det snygga mönster som senare gör tjugofem genomskinligt. Orden måste helt enkelt läras som ord, ett och ett, och det är precis vad det här bladet låter barnet göra medan orden ännu är färska. Att välja mellan tre snarlika alternativ tvingar dessutom fram en noggrann läsning ända till sista bokstaven – femton och sexton skiljer sig bara i början, arton och nitton likaså – vilket i det tysta även är fin lästräning.",
+   "p3": "Skriv ut bladet gratis som PDF och läs gärna orden högt tillsammans – talorden fastnar bäst när ögat och örat hjälps åt. Fortsättningen är tal med bokstäver upp till 50, där ordens byggmönster klarnar, och de hela tiotalen från tio till hundra, där de riktiga fällorna väntar.",
+   "canonicalDeckSlug": "tal-med-bokstaver-g1223",
+   "carousel": [
+    {
+     "label": "Hela tiotal med bokstäver – 10 till 100",
+     "href": "hela-tiotal-med-bokstaver"
+    },
+    {
+     "label": "Para ihop tal och ord med streck",
+     "href": "para-ihop-tal-och-ord"
+    },
+    {
+     "label": "Tal med bokstäver upp till 50",
+     "href": "tal-med-bokstaver-till-50"
+    },
+    {
+     "label": "Skriv talen med bokstäver",
+     "href": "skriv-talen-med-bokstaver"
+    }
+   ],
+   "title": "Arbetsblad tal med bokstäver till 20 | skriva ut PDF gratis",
+   "metaDescription": "Talen upp till 20 skrivna med siffror och tre talord att välja mellan: barnet läser talet och ringar in ordet som betyder samma tal. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "hela-tiotal-med-bokstaver",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad talord",
+   "h1": "Hela tiotal med bokstäver – 10 till 100",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "tal-med-bokstaver",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet är alla tal hela tiotal: tio, tjugo, trettio och så vidare upp till hundra. Barnet läser talet i siffror, granskar de tre talorden under och ringar in ordet som stämmer. Bland alternativen lurar med flit de klassiska förväxlingarna – där fyrtio står kan fjorton finnas bland svaren – så bladet handlar lika mycket om att läsa noga som om att kunna orden.",
+   "p2": "Fjorton och fyrtio, sexton och sextio, sjutton och sjuttio: paren låter nästan likadant, ser nästan likadana ut och betyder helt olika saker. Det är en av de segaste förväxlingarna i den tidiga matematiken – den dyker upp när tal ska skrivas efter diktamen, när klockan ska läsas och långt senare när sjuttiofem blir sjutton i en huvudräkning. Nyckeln sitter i ordens slut: -ton betyder ett tiotal och något mer, -tio betyder hela tiotal. Ett blad som radar upp just tiotalen och ställer dem mot sina -ton-dubbelgångare ger barnet anledning att upptäcka den regeln själv, och en upptäckt regel sitter bättre än en påpekad. Säg gärna orden högt: i uttalets betoning hörs skillnaden tydligast.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar som specialrunda när talorden upp till 20 sitter. Vill barnet se tiotalen sättas ihop med ental är tal med bokstäver upp till 50 rätt fortsättning – och att skriva talen med bokstäver låter barnet till sist stava orden själv.",
+   "canonicalDeckSlug": "tal-med-bokstaver-g1224",
+   "carousel": [
+    {
+     "label": "Para ihop tal och ord med streck",
+     "href": "para-ihop-tal-och-ord"
+    },
+    {
+     "label": "Tal med bokstäver upp till 50",
+     "href": "tal-med-bokstaver-till-50"
+    },
+    {
+     "label": "Skriv talen med bokstäver",
+     "href": "skriv-talen-med-bokstaver"
+    },
+    {
+     "label": "Tal med bokstäver upp till 20",
+     "href": "tal-med-bokstaver-till-20"
+    }
+   ],
+   "title": "Arbetsblad hela tiotal 10–100 | skriva ut PDF gratis",
+   "metaDescription": "Hela tiotal från 10 till 100: barnet läser talet i siffror och ringar in rätt talord – och lär sig skilja fjorton från fyrtio. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "para-ihop-tal-och-ord",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad talord",
+   "h1": "Para ihop tal och ord med streck",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "tal-med-bokstaver",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet ställer siffror och ord i två spalter: talen skrivna med siffror på ena sidan, talorden i blandad ordning på den andra. Barnet drar ett streck från varje tal till ordet som betyder samma tal, tills alla par har hittat varandra. Samma koppling som på inringningsbladen – men här hänger uppgifterna ihop: varje ord ska användas exakt en gång.",
+   "p2": "Att para ihop är en annan tankeövning än att välja bland tre alternativ. Här överblickar barnet hela ordlistan på en gång, och strategin får vara med och arbeta: de säkra paren dras först, och de kluriga orden ringas in av uteslutning – finns bara ett ord kvar måste det höra till talet som återstår. Den lilla logiken är nyttig i sig, och den gör bladet självrättande på köpet: blir två streck dragna till samma ord syns felet direkt, och barnet kan nysta upp det på egen hand. Variationen i arbetssätt har också ett värde – samma innehåll i ny form gör att träningen känns ny, fast det är precis samma talord som nöts.",
+   "p3": "Skriv ut bladet gratis som PDF och låt det gärna omväxla med inringningsbladen – tal med bokstäver upp till 20 och upp till 50 tränar samma ord i annan dräkt. Den som är redo för nästa svårighetsgrad skriver orden själv på bladet med ordbank.",
+   "canonicalDeckSlug": "tal-med-bokstaver-g1225",
+   "carousel": [
+    {
+     "label": "Tal med bokstäver upp till 50",
+     "href": "tal-med-bokstaver-till-50"
+    },
+    {
+     "label": "Skriv talen med bokstäver",
+     "href": "skriv-talen-med-bokstaver"
+    },
+    {
+     "label": "Tal med bokstäver upp till 20",
+     "href": "tal-med-bokstaver-till-20"
+    },
+    {
+     "label": "Hela tiotal med bokstäver – 10 till 100",
+     "href": "hela-tiotal-med-bokstaver"
+    }
+   ],
+   "title": "Arbetsblad para ihop tal och ord | skriva ut PDF gratis",
+   "metaDescription": "Tal i siffror i ena spalten, talord i den andra: barnet drar streck mellan varje tal och ordet som betyder samma tal. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "tal-med-bokstaver-till-50",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad talord",
+   "h1": "Tal med bokstäver upp till 50",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "tal-med-bokstaver",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet sträcker talområdet upp till 50. Varje uppgift visar ett tal i siffror och tre talord att välja mellan, och barnet ringar in ordet som betyder samma tal. Nu handlar det om de sammansatta orden – tjugofem, trettioåtta, fyrtioett – där två orddelar ska läsas i rätt ordning för att talet ska bli rätt.",
+   "p2": "Uppåt tjugo händer något fint med svenskans talord: de blir genomskinliga. Tjugofem är helt enkelt tjugo och fem, hopskrivet i samma ordning som siffrorna 2 och 5 står i talet – först tiotalen, sedan entalen. Det mönstret är positionssystemet speglat i språket, och barnet som upptäcker det behöver inte längre lära sig orden ett och ett utan kan bygga vilket tal som helst av delarna. Bladet ger många tillfällen att se mönstret arbeta, och distraktorerna sätter det på prov: bland alternativen till 38 kan åttiotre stå – samma delar i fel ordning – och den som ringar in rätt har läst positionerna, inte bara känt igen orddelarna.",
+   "p3": "Skriv ut bladet gratis som PDF som fortsättning på talorden upp till 20 – kontrasten mellan de regelbundna nya orden och de egensinniga gamla är lärorik i sig. Para ihop tal och ord ger samma träning i matchningsform, och de hela tiotalen upp till 100 finslipar den sista förväxlingsrisken.",
+   "canonicalDeckSlug": "tal-med-bokstaver-g1226",
+   "carousel": [
+    {
+     "label": "Skriv talen med bokstäver",
+     "href": "skriv-talen-med-bokstaver"
+    },
+    {
+     "label": "Tal med bokstäver upp till 20",
+     "href": "tal-med-bokstaver-till-20"
+    },
+    {
+     "label": "Hela tiotal med bokstäver – 10 till 100",
+     "href": "hela-tiotal-med-bokstaver"
+    },
+    {
+     "label": "Para ihop tal och ord med streck",
+     "href": "para-ihop-tal-och-ord"
+    }
+   ],
+   "title": "Arbetsblad tal med bokstäver till 50 | skriva ut PDF gratis",
+   "metaDescription": "Tal upp till 50 i siffror med tre talord att välja mellan: barnet ser hur tjugofem byggs av tjugo och fem och ringar in rätt ord. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "skriv-talen-med-bokstaver",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad talord",
+   "h1": "Skriv talen med bokstäver",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "tal-med-bokstaver",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet skriver barnet talorden själv. Högst upp står en ordbank med alla ord som behövs; under den väntar talen skrivna med siffror, vart och ett med en tom skrivrad bredvid. Barnet läser talet, letar rätt på ordet i banken och skriver det på raden. Ordbanken tar hand om stavningen – uppgiften är att välja rätt ord och forma det själv.",
+   "p2": "Att känna igen ett ord och att skriva det är två olika kunskaper, och den andra är djupare. På inringnings- och matchningsbladen räcker det att ordbilden känns bekant; här måste barnet återge ordet bokstav för bokstav, och då avgörs det om fjorton verkligen sitter eller bara brukar kännas igen i mängden. Skrivandet tvingar också fram en långsam, noggrann läsning av det egna ordet – precis den sortens bearbetning som får ord att fastna på riktigt. Ordbanken är ställningen som gör det möjligt: den flyttar ansträngningen från att minnas stavningen till att koppla rätt ord till rätt tal, vilket är just den koppling bladet vill befästa. Att talord dessutom ska skrivas med bokstäver i löpande text är en skrivregel barnet kommer att möta genom hela skoltiden.",
+   "p3": "Bladet skrivs ut gratis som PDF och är den naturliga toppen på talordstrappan – efter att ha ringat in på bladen upp till 20 och 50 och dragit streck i para ihop tal och ord får barnet här visa allt på en gång.",
+   "canonicalDeckSlug": "tal-med-bokstaver-g1227",
+   "carousel": [
+    {
+     "label": "Tal med bokstäver upp till 20",
+     "href": "tal-med-bokstaver-till-20"
+    },
+    {
+     "label": "Hela tiotal med bokstäver – 10 till 100",
+     "href": "hela-tiotal-med-bokstaver"
+    },
+    {
+     "label": "Para ihop tal och ord med streck",
+     "href": "para-ihop-tal-och-ord"
+    },
+    {
+     "label": "Tal med bokstäver upp till 50",
+     "href": "tal-med-bokstaver-till-50"
+    }
+   ],
+   "title": "Arbetsblad skriv talen med bokstäver | skriva ut PDF gratis",
+   "metaDescription": "Barnet skriver själv talordet till varje tal – med ordbanken högst upp som stöd för stavningen. Från att känna igen till att kunna skriva. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rakna-mynt-forsta-stegen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räkna pengar",
+   "h1": "Räkna mynt – de första stegen",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "rakna-pengar",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet ligger bara två eller tre mynt i varje börs. Barnet tittar på mynten, räknar ihop deras värde och skriver i rutan hur många kronor det blir. Med så få mynt hinner ingen tappa bort sig i räknandet – en femkrona och en tvåkrona, en tia och en enkrona – och varje börs blir ett litet, överkomligt räkneproblem.",
+   "p2": "Det svåraste med pengar är inte att addera – det är att förstå att ett mynt kan vara värt mer än ett. Ett barn som räknar mynt som föremål svarar tre på en börs med en femma och två enkronor, och det svaret är helt logiskt tills värdetanken är på plats. Därför börjar den här sidan så smått: med bara ett par mynt per börs finns det gott om tid att titta på varje mynt, säga dess värde högt och lägga ihop medvetet. Få mynt betyder också att arbetsminnet går fritt – all kraft kan läggas på det nya, att femman räknas som fem. Det är grunden som allt vidare pengaräknande vilar på, och den är värd att lägga i lugn och ro.",
+   "p3": "Bladet skrivs ut gratis som PDF, och med några riktiga mynt bredvid blir varje börs dubbelt så verklig. När värdena sitter är räkna enkronor och tvåkronor en fin specialrunda – och därefter väntar börsarna med alla mynt, där sorteringsknepet gör entré.",
+   "canonicalDeckSlug": "rakna-pengar-g1228",
+   "carousel": [
+    {
+     "label": "Räkna pengar med alla mynt",
+     "href": "rakna-pengar-alla-mynt"
+    },
+    {
+     "label": "Träna på att räkna mynt – åtta börsar",
+     "href": "trana-rakna-mynt"
+    },
+    {
+     "label": "Räkna enkronor och tvåkronor",
+     "href": "enkronor-och-tvakronor"
+    },
+    {
+     "label": "Vilken börs har mest pengar?",
+     "href": "vilken-bors-har-mest"
+    }
+   ],
+   "title": "Arbetsblad räkna mynt: första stegen | skriva ut PDF gratis",
+   "metaDescription": "Börsar med bara två eller tre mynt i varje: barnet räknar ihop värdet och skriver antalet kronor i rutan. Den mjukaste starten – skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rakna-pengar-alla-mynt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räkna pengar",
+   "h1": "Räkna pengar med alla mynt",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "rakna-pengar",
+    "ak-1"
+   ],
+   "p1": "Nu är börsarna välfyllda: fem till sju mynt i varje, och alla valörer är med – tior, femmor, tvåkronor och enkronor om vartannat. Barnet räknar ihop värdet i en börs i taget och skriver summan i kronor i rutan. Med så många mynt av olika slag räcker det inte längre att bara lägga ihop på måfå – här behövs en ordning.",
+   "p2": "Det är precis den ordningen som är bladets egentliga lektion. Den som räknar mynten huller om buller tappar tråden halvvägs; den som först sorterar dem i tanken – störst först – får en väg genom börsen: tiorna tas med tiohopp, femmorna med femhopp, och till sist knattrar tvåkronorna och enkronorna på plats. Så räknar alla som hanterar pengar på riktigt, och strategin är guld värd långt utanför plånboken: sortera först, räkna sedan är ett arbetssätt som återkommer i statistik, i problemlösning och i vardagen. Hoppräkningen får här dessutom sitt tydligaste syfte hittills – den finns inte för sin egen skull utan för att den gör räknandet både snabbare och säkrare.",
+   "p3": "Skriv ut bladet gratis som PDF och låt barnet gärna berätta i vilken ordning mynten togs – ordningen är halva kunskapen. Träningsbladet med åtta börsar ger sedan mängden som gör strategin till vana, och vilken börs har mest pengar ställer två summor mot varandra.",
+   "canonicalDeckSlug": "rakna-pengar-g1229",
+   "carousel": [
+    {
+     "label": "Träna på att räkna mynt – åtta börsar",
+     "href": "trana-rakna-mynt"
+    },
+    {
+     "label": "Räkna enkronor och tvåkronor",
+     "href": "enkronor-och-tvakronor"
+    },
+    {
+     "label": "Vilken börs har mest pengar?",
+     "href": "vilken-bors-har-mest"
+    },
+    {
+     "label": "Räkna mynt – de första stegen",
+     "href": "rakna-mynt-forsta-stegen"
+    }
+   ],
+   "title": "Arbetsblad räkna pengar: alla mynt | skriva ut PDF gratis",
+   "metaDescription": "Fem till sju mynt av alla valörer i varje börs: barnet sorterar från störst till minst, hoppräknar och skriver summan i kronor. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "trana-rakna-mynt",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räkna pengar",
+   "h1": "Träna på att räkna mynt – åtta börsar",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "rakna-pengar",
+    "ak-1"
+   ],
+   "p1": "Det här är träningssidan i pengafamiljen: åtta börsar på ett och samma blad. Barnet arbetar sig igenom börs efter börs, räknar ihop myntens värde och skriver varje summa i kronor i sin ruta. Uppgiften är densamma hela vägen – det är just det som är poängen. Åtta ronder ger räknandet en chans att gå från ansträngt till självklart.",
+   "p2": "Mellan att kunna något och att kunna det med flyt ligger ett antal repetitioner, och de måste göras någonstans. Åtta börsar i följd är ett sådant tillfälle: de första tar tid, de mittersta går lättare, och framåt slutet märker barnet ofta självt att handen och tanken hittat en rytm. Den upplevelsen – att det gick trögt och sedan lossnade – är värdefull långt bortom pengarna, för den visar att flyt är något man tränar sig till. I klassrummet gör formatet bladet lättplacerat: som station i ett arbetsschema, som eget arbete medan läraren handleder, eller som hemuppgift där en vuxen kan sitta bredvid med slantar ur börsen. Och eftersom varje börs är sin egen lilla uppgift går bladet utmärkt att dela upp i två pass.",
+   "p3": "Bladet skrivs ut gratis som PDF och gör störst nytta efter börsarna med alla mynt, när sorteringsstrategin just satt sig och behöver köras varm. Som avslutning på pengaresan väntar jämförelsebladet vilken börs har mest pengar – där summorna plötsligt får något att säga till om.",
+   "canonicalDeckSlug": "rakna-pengar-g1230",
+   "carousel": [
+    {
+     "label": "Räkna enkronor och tvåkronor",
+     "href": "enkronor-och-tvakronor"
+    },
+    {
+     "label": "Vilken börs har mest pengar?",
+     "href": "vilken-bors-har-mest"
+    },
+    {
+     "label": "Räkna mynt – de första stegen",
+     "href": "rakna-mynt-forsta-stegen"
+    },
+    {
+     "label": "Räkna pengar med alla mynt",
+     "href": "rakna-pengar-alla-mynt"
+    }
+   ],
+   "title": "Arbetsblad räkna mynt: åtta börsar | skriva ut PDF gratis",
+   "metaDescription": "En träningssida med åtta börsar: barnet räknar mynten i börs efter börs och skriver varje summa i kronor. Mängdträning som ger flyt – skriv ut gratis som PDF."
+  },
+  {
+   "slug": "enkronor-och-tvakronor",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räkna pengar",
+   "h1": "Räkna enkronor och tvåkronor",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "rakna-pengar",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet innehåller börsarna bara de två minsta mynten: enkronor och tvåkronor. Barnet räknar ihop värdet i varje börs och skriver summan i kronor i rutan. Begränsningen är medveten – med bara två valörer blir varje börs en renodlad övning i att skilja myntets värde från antalet mynt, i det allra minsta formatet.",
+   "p2": "Tvåkronan är det första mynt som bryter mot räknar-som-föremål-tanken, och därför förtjänar den en egen sida. En börs med tre tvåkronor och två enkronor innehåller fem mynt men åtta kronor – och skillnaden mellan de två svaren är exakt den insikt bladet vill fram till. Räknevägen är tvåhoppen: två, fyra, sex för tvåkronorna, och sedan sju, åtta med enkronorna på slutet. Det är hoppräkning med två i skarpt läge, samma ramsa som jämna tal och dubblor bygger på, och här får den göra verklig nytta. Strategin att ta det stora myntslaget först och fylla på med det lilla är dessutom en miniatyr av hur alla myntsummor räknas – inlärd här, i den enklaste tänkbara miljön.",
+   "p3": "Skriv ut bladet gratis som PDF och plocka gärna fram riktiga en- och tvåkronor att lägga i högar bredvid. Bladet passar fint mellan de första stegen med få mynt och börsarna med alla mynt, där femmor och tior ansluter – och tvåhoppen känns igen från 2:ans tabell längre fram.",
+   "canonicalDeckSlug": "rakna-pengar-g1231",
+   "carousel": [
+    {
+     "label": "Vilken börs har mest pengar?",
+     "href": "vilken-bors-har-mest"
+    },
+    {
+     "label": "Räkna mynt – de första stegen",
+     "href": "rakna-mynt-forsta-stegen"
+    },
+    {
+     "label": "Räkna pengar med alla mynt",
+     "href": "rakna-pengar-alla-mynt"
+    },
+    {
+     "label": "Träna på att räkna mynt – åtta börsar",
+     "href": "trana-rakna-mynt"
+    }
+   ],
+   "title": "Arbetsblad enkronor och tvåkronor | skriva ut PDF gratis",
+   "metaDescription": "Börsar med enbart enkronor och tvåkronor: barnet hoppräknar med två, fyller på med ett och skriver summan i kronor. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "vilken-bors-har-mest",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räkna pengar",
+   "h1": "Vilken börs har mest pengar?",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "rakna-pengar",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet ligger börsarna i par: två börsar i varje rad. Barnet räknar ihop värdet i den vänstra, räknar värdet i den högra och ringar in den börs som har mest pengar. Inget svar ska skrivas – hela uppgiften är att räkna två summor och jämföra dem. Och paren är riggade med list: ibland har börsen med flest mynt inte alls mest pengar.",
+   "p2": "Fler mynt betyder mer pengar är en av de segaste missuppfattningarna i pengaräkningen, och det här bladet är byggt för att punktera den. En börs med fem enkronor ser rikare ut än en börs med en tia – tills värdena räknas. Barnet som ringar in fel efter att bara ha ögnat antalet får en omedelbar anledning att räkna om, och varje sådant möte flyttar tanken från att se mynt till att se värden. Jämförandet tränar samtidigt något eget: två summor ska hållas i huvudet på en gång och vägas mot varandra, vilket är ett steg upp från att redovisa en summa i taget. Det är samma jämförelseblick som prisjämförelser i affären bygger på – mer eller mindre, dyrare eller billigare – klädd i lågstadiets talområde.",
+   "p3": "Bladet skrivs ut gratis som PDF och är en naturlig avrundning på myntserien: efter de första stegen, specialrundan med enkronor och tvåkronor och träningen med åtta börsar får räknandet här ett skäl. Den som vill klä summorna i berättelser fortsätter till räknehändelserna med bilder.",
+   "canonicalDeckSlug": "rakna-pengar-g1232",
+   "carousel": [
+    {
+     "label": "Räkna mynt – de första stegen",
+     "href": "rakna-mynt-forsta-stegen"
+    },
+    {
+     "label": "Räkna pengar med alla mynt",
+     "href": "rakna-pengar-alla-mynt"
+    },
+    {
+     "label": "Träna på att räkna mynt – åtta börsar",
+     "href": "trana-rakna-mynt"
+    },
+    {
+     "label": "Räkna enkronor och tvåkronor",
+     "href": "enkronor-och-tvakronor"
+    }
+   ],
+   "title": "Arbetsblad vilken börs har mest pengar | skriva ut PDF gratis",
+   "metaDescription": "Två börsar i varje rad: barnet räknar värdet i båda och ringar in börsen med mest pengar. Fler mynt är inte alltid mer pengar! Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rita-visarna-hela-timmar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad klockan",
+   "h1": "Rita visarna – hela timmar",
+   "strand": "Tid och klockan",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "klockan",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet står varje digital tid på hel timme: 3:00, 7:00, 11:00 och så vidare. Urtavlorna är tomma, utan visare, och bredvid varje klocka sitter lappen med tiden. Barnet läser talet på lappen, letar upp rätt siffra på urtavlan och ritar dit den korta timvisaren – och låter sedan den långa minutvisaren peka rakt upp på tolvan, eftersom noll minuter har passerat.",
+   "p2": "Hela timmar är klockans nybörjarsteg, och de förtjänar ett eget blad. När minutvisaren alltid pekar på tolvan behöver barnet bara hålla reda på en sak i taget: vilken siffra timvisaren ska peka på. Det frigör tanken till det som faktiskt är svårt i början – att de två visarna har olika jobb, att den korta är den viktigaste och att klockan går medsols. Att minutvisaren står stilla på tolvan sida efter sida bygger dessutom en bild som sitter kvar: barn som en gång sett rakt-upp-läget som att ingenting har hänt än känner igen det direkt när halvorna och kvartarna dyker upp längre fram.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar utmärkt som första klockläxa i åk 1. När hela timmar sitter tryggt är halva timmar det självklara nästa steget – där minutvisaren för första gången lämnar tolvan. Det ursprungliga bladet med blandade tider fungerar sedan bra som avstämning en bit fram i terminen.",
+   "canonicalDeckSlug": "klockan-g1233",
+   "carousel": [
+    {
+     "label": "Rita visarna – halva timmar",
+     "href": "rita-visarna-halva-timmar"
+    },
+    {
+     "label": "Rita visarna – kvart över och kvart i",
+     "href": "rita-visarna-kvart-i-kvart-over"
+    },
+    {
+     "label": "Rita visarna – var femte minut",
+     "href": "rita-visarna-fem-minuter"
+    },
+    {
+     "label": "Rita visarna – blandade tider",
+     "href": "rita-visarna-blandade-tider"
+    }
+   ],
+   "title": "Arbetsblad rita visarna: hela timmar | skriva ut PDF gratis",
+   "metaDescription": "Fyra tomma urtavlor med tider på hel timme: barnet ritar timvisaren på rätt siffra och låter minutvisaren peka på tolvan. Klockan i åk 1. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rita-visarna-halva-timmar",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad klockan",
+   "h1": "Rita visarna – halva timmar",
+   "strand": "Tid och klockan",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "klockan",
+    "ak-1"
+   ],
+   "p1": "Varje lapp på det här arbetsbladet slutar på :30 – halv fyra, halv nio, halv tolv. Urtavlorna är tomma, och barnet ritar båda visarna själv: minutvisaren rakt ner på sexan, och timvisaren mitt emellan två siffror. Det sista är sidans hela poäng, för på en halv timme har timvisaren hunnit halvvägs mot nästa timme och får inte peka rakt på siffran längre.",
+   "p2": "Här möter barnet klockans två klassiska snubbeltrådar samtidigt. Den första är visarplaceringen: många ritar timvisaren rakt på siffran även på halvtimmen, och då blir bilden fel även om tiden är rätt läst. Den andra är svenskans sätt att säga tiden – vi säger halv fyra när klockan är 3:30, alltså halvvägs mot fyran, och inte något med trean i. Ett blad där varje uppgift är en halvtimme ger den kopplingen många tillfällen att sätta sig: lappen säger 3:30, munnen säger halv fyra, och timvisaren mellan trean och fyran visar precis varför. Låt gärna barnet säga tiden högt innan pennan sätts i – det är då bilden och orden hittar varandra.",
+   "p3": "Skriv ut bladet gratis som PDF och ta det direkt efter bladet med hela timmar, när tolvan har blivit en trygg utgångspunkt. Nästa steg är kvartarna, där minutvisaren delar timmen i fyra delar i stället för två.",
+   "canonicalDeckSlug": "klockan-g1234",
+   "carousel": [
+    {
+     "label": "Rita visarna – kvart över och kvart i",
+     "href": "rita-visarna-kvart-i-kvart-over"
+    },
+    {
+     "label": "Rita visarna – var femte minut",
+     "href": "rita-visarna-fem-minuter"
+    },
+    {
+     "label": "Rita visarna – blandade tider",
+     "href": "rita-visarna-blandade-tider"
+    },
+    {
+     "label": "Rita visarna – hela timmar",
+     "href": "rita-visarna-hela-timmar"
+    }
+   ],
+   "title": "Arbetsblad rita visarna: halva timmar | skriva ut PDF gratis",
+   "metaDescription": "Alla tider slutar på :30. Barnet ritar minutvisaren på sexan och timvisaren mitt emellan två siffror – halv fyra på svenska. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rita-visarna-kvart-i-kvart-over",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad klockan",
+   "h1": "Rita visarna – kvart över och kvart i",
+   "strand": "Tid och klockan",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "klockan",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet håller sig till kvartarna: tiderna på lapparna slutar på :00, :15, :30 och :45, alltså hel, kvart över, halv och kvart i. Urtavlorna är tomma och barnet ritar in visarna själv – minutvisaren på trean, sexan, nian eller tolvan, och timvisaren en fjärdedel, en halv eller tre fjärdedelar på väg mot nästa siffra.",
+   "p2": "Kvartarna är första gången timmen delas i mindre bitar, och det är ett större kliv än det låter. Barnet ska nu se urtavlan som en cirkel med fjärdedelar: trean är en fjärdedels varv, sexan halva varvet, nian tre fjärdedelar. Det är bråkräkning i förklädnad, långt innan bråk står på schemat, och många barn får sin första riktiga känsla för en fjärdedel just på en klocka. Samtidigt måste språket följa med: kvart i fyra betyder att fyran ännu inte kommit, och timvisaren ska stå nästan framme men inte riktigt. Att rita visarna själv gör den skillnaden omöjlig att slarva förbi.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar när hela och halva timmar sitter. Därefter väntar femminuterssteget, där varje litet streck på urtavlan får en betydelse – och bladet med blandade tider samlar sedan ihop hela klockan igen. Ett tips är att låta barnet vika ett papper i fyra delar och lägga det över klockan – då syns kvartarna som fyra lika stora bitar.",
+   "canonicalDeckSlug": "klockan-g1235",
+   "carousel": [
+    {
+     "label": "Rita visarna – var femte minut",
+     "href": "rita-visarna-fem-minuter"
+    },
+    {
+     "label": "Rita visarna – blandade tider",
+     "href": "rita-visarna-blandade-tider"
+    },
+    {
+     "label": "Rita visarna – hela timmar",
+     "href": "rita-visarna-hela-timmar"
+    },
+    {
+     "label": "Rita visarna – halva timmar",
+     "href": "rita-visarna-halva-timmar"
+    }
+   ],
+   "title": "Arbetsblad klockan kvart i och kvart över | skriva ut PDF gratis",
+   "metaDescription": "Tider på hel, kvart över, halv och kvart i: barnet ritar visarna själv och möter timmens fjärdedelar på urtavlan. För åk 1. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rita-visarna-fem-minuter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad klockan",
+   "h1": "Rita visarna – var femte minut",
+   "strand": "Tid och klockan",
+   "standard": "2.MD.C.7",
+   "slotTokens": [
+    "klockan",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet slutar tiderna på fem, tio, tjugo, tjugofem – alla minuttal som är jämna femmor. Urtavlorna är tomma, och barnet räknar sig fram fem i taget runt klockan för att hitta rätt plats åt minutvisaren, och ritar sedan dit timvisaren på ungefär rätt ställe mellan siffrorna.",
+   "p2": "Femminutersklockan är det steg där urtavlan blir en tallinje i cirkelform. Varje siffra på klockan står nu för två saker samtidigt: ettan är både klockan ett och fem minuter, tvåan både klockan två och tio minuter. Den dubbelheten kräver att barnet kan femhoppen flytande – 5, 10, 15, 20 – och därför är det här bladet lika mycket en tabellövning som en klockövning. Den som räknar femhopp säkert läser plötsligt av vilken tid som helst, och den som stakar sig får här ett konkret skäl att träna dem. Många barn hittar också sin egen genväg: från tolvan och medsols, eller från sexan och bakåt, beroende på var minutvisaren hamnat.",
+   "p3": "Skriv ut bladet gratis som PDF, gärna parallellt med 5:ans tabell – de två stöttar varandra direkt. Efter femminuterssteget återstår bara att blanda allt, vilket bladet med blandade tider gör. Lägg gärna in en kort muntlig runda innan bladet: räkna femhopp tillsammans runt klassrumsklockan, så sitter talföljden när pennan ska börja arbeta. Många barn tycker dessutom att det går lättare att räkna baklänges från tolvan när minutvisaren hamnat på vänstra halvan.",
+   "canonicalDeckSlug": "klockan-g1236",
+   "carousel": [
+    {
+     "label": "Rita visarna – blandade tider",
+     "href": "rita-visarna-blandade-tider"
+    },
+    {
+     "label": "Rita visarna – hela timmar",
+     "href": "rita-visarna-hela-timmar"
+    },
+    {
+     "label": "Rita visarna – halva timmar",
+     "href": "rita-visarna-halva-timmar"
+    },
+    {
+     "label": "Rita visarna – kvart över och kvart i",
+     "href": "rita-visarna-kvart-i-kvart-over"
+    }
+   ],
+   "title": "Arbetsblad klockan var femte minut | skriva ut PDF gratis",
+   "metaDescription": "Tider på jämna femmor: barnet räknar femhopp runt urtavlan och ritar dit minutvisaren och timvisaren. Klockan i åk 1–2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "rita-visarna-blandade-tider",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad klockan",
+   "h1": "Rita visarna – blandade tider",
+   "strand": "Tid och klockan",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "klockan",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet blandar allt barnet lärt sig om att rita visare: hela timmar, halvtimmar, kvartar och jämna femminuterstider står om vartannat på lapparna. Urtavlorna är tomma som vanligt, men ingen uppgift avslöjar i förväg vilken sorts tid den är – barnet måste läsa varje lapp för sig, avgöra var minutvisaren hör hemma och sedan placera timvisaren därefter.",
+   "p2": "Blandade blad är de enda som visar vad som verkligen sitter. På ett blad med bara halvtimmar kan barnet klara alla fyra klockorna genom att upprepa samma handgrepp; här måste varje uppgift börja om från början. Det gör bladet till ett utmärkt avstämningsblad: de klockor som blir fel pekar direkt ut vilket träningsblad som behöver en runda till – hela timmar, halvor, kvartar eller femminuterstiderna. I klassrummet fungerar det bra som avslutning på ett klockarbetsområde, som station i ett arbetspass eller som något att skicka hem inför utvecklingssamtalet, där en förälder snabbt kan se var barnet står.",
+   "p3": "Bladet skrivs ut gratis som PDF och ger mest när det tas sist i serien. Behövs mer träning finns kvartarna och femminuterstiderna kvar att gå tillbaka till, och den som hellre möter tal i berättelseform kan gå vidare till räknehändelserna med bilder. Ett enkelt sätt att förlänga bladet är att låta barnet skriva en egen tid på baksidan och be en kompis rita visarna.",
+   "canonicalDeckSlug": "klockan-g1237",
+   "carousel": [
+    {
+     "label": "Rita visarna – hela timmar",
+     "href": "rita-visarna-hela-timmar"
+    },
+    {
+     "label": "Rita visarna – halva timmar",
+     "href": "rita-visarna-halva-timmar"
+    },
+    {
+     "label": "Rita visarna – kvart över och kvart i",
+     "href": "rita-visarna-kvart-i-kvart-over"
+    },
+    {
+     "label": "Rita visarna – var femte minut",
+     "href": "rita-visarna-fem-minuter"
+    }
+   ],
+   "title": "Arbetsblad klockan blandade tider | skriva ut PDF gratis",
+   "metaDescription": "Hela timmar, halvor, kvartar och femminuterstider om vartannat: barnet ritar visarna på tomma urtavlor. Bra avstämning i åk 1. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknehandelser-addition",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknehändelser",
+   "h1": "Räknehändelser med addition",
+   "strand": "Problemlösning",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "raknehandelser",
+    "frukter",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet handlar båda räknehändelserna om att något blir fler. Berättelserna har frukttema – någon plockar äpplen och får fler, en korg fylls på med päron – och under varje text står en bildrad med samma frukter uppradade. Barnet läser händelsen, räknar ihop de två mängderna med hjälp av bilderna eller prickrutan bredvid, och skriver summan i svarsrutan.",
+   "p2": "Att bara träna addition i berättelseform gör en sak tydlig: additionen bor i orden. Får, kommer, plockar fler, tillsammans, sammanlagt – det är signalorden barnet ska lära sig känna igen, och när alla uppgifter på sidan går åt samma håll hinner öronen ställa in sig på dem. Samtidigt är det värt att veta att signalordsjakt inte räcker som strategi i längden; poängen med ett rent additionsblad är att barnet ska hinna bygga en inre bild av vad som händer i berättelsen, inte att lära sig leta efter ett ord. Fråga gärna blev det fler eller färre innan pennan sätts i – svaret på den frågan är hela problemlösningen.",
+   "p3": "Bladet skrivs ut gratis som PDF och är den mjukaste ingången i räknehändelsefamiljen. Systerbladet med subtraktion tar sedan händelserna åt andra hållet, och när båda riktningarna sitter blandar grundbladet räknehändelser med bilder dem igen. Räknehändelser upp till tio är samtidigt ett bra sidospår för den som behöver mindre tal medan strategin sätter sig.",
+   "canonicalDeckSlug": "raknehandelser-frukter-g1238",
+   "carousel": [
+    {
+     "label": "Räknehändelser med subtraktion",
+     "href": "raknehandelser-subtraktion"
+    },
+    {
+     "label": "Räknehändelser upp till 10",
+     "href": "raknehandelser-till-10"
+    },
+    {
+     "label": "Träna på räknehändelser – tre uppgifter",
+     "href": "trana-raknehandelser"
+    },
+    {
+     "label": "Räknehändelser med djur",
+     "href": "raknehandelser-med-djur"
+    }
+   ],
+   "title": "Arbetsblad räknehändelser addition | skriva ut PDF gratis",
+   "metaDescription": "Två räknehändelser där något blir fler, med frukter i bildraden under texten. Barnet räknar ihop och skriver summan i rutan. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknehandelser-subtraktion",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknehändelser",
+   "h1": "Räknehändelser med subtraktion",
+   "strand": "Problemlösning",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "raknehandelser",
+    "frukter",
+    "ak-1"
+   ],
+   "p1": "Här går båda räknehändelserna åt andra hållet: något försvinner, äts upp eller ges bort. Frukttemat är detsamma – bananer som delas ut, jordgubbar som blir uppätna – och under varje text ligger bildraden som visar hela mängden innan något togs bort. Barnet läser, räknar bort i huvudet eller i prickrutan bredvid, och skriver hur många som är kvar.",
+   "p2": "Subtraktion i berättelseform är svårare än addition, och det är helt normalt. Bilden visar bara utgångsläget – det som ska bort finns inte ritat, utan måste tänkas bort – och det kräver att barnet håller två mängder i huvudet samtidigt. Det vanligaste felet är att räkna ihop talen i stället för att dra bort, särskilt hos barn som ännu läser texten som en samling siffror snarare än som en händelse. Motmedlet är enkelt: låt barnet berätta historien med egna ord innan det räknar. Den som kan säga att det fanns sju och att tre försvann har redan valt räknesätt utan att veta om det, och då blir subtraktionen bara det sista lilla steget.",
+   "p3": "Skriv ut bladet gratis som PDF och ta det efter additionsbladet, när riktningen fler behöver ett motstycke. Ett tips är att låta samma barn göra båda bladen samma vecka – det är kontrasten mellan dem som lär ut skillnaden.",
+   "canonicalDeckSlug": "raknehandelser-frukter-g1239",
+   "carousel": [
+    {
+     "label": "Räknehändelser upp till 10",
+     "href": "raknehandelser-till-10"
+    },
+    {
+     "label": "Träna på räknehändelser – tre uppgifter",
+     "href": "trana-raknehandelser"
+    },
+    {
+     "label": "Räknehändelser med djur",
+     "href": "raknehandelser-med-djur"
+    },
+    {
+     "label": "Räknehändelser med addition",
+     "href": "raknehandelser-addition"
+    }
+   ],
+   "title": "Arbetsblad räknehändelser subtraktion | skriva ut PDF gratis",
+   "metaDescription": "Två räknehändelser där något försvinner eller ges bort: barnet tar hjälp av bildraden och skriver hur många som är kvar. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknehandelser-till-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknehändelser",
+   "h1": "Räknehändelser upp till 10",
+   "strand": "Problemlösning",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "raknehandelser",
+    "frukter",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet håller alla tal inom tio. Två räknehändelser med frukttema, bildrader under texten och en prickruta att tänka i – men inget svar går över tio, och inga tal i berättelserna är större än så. Barnet kan därför räkna på fingrarna, på prickarna eller på bilderna hela vägen och ändå komma rätt.",
+   "p2": "Talområdet är en volymknapp för svårighetsgraden, och här är den nedskruvad med flit. Ett barn som brottas med både läsningen, valet av räknesätt och stora tal på samma gång får sällan något gjort; när talen ryms inom tio blir det själva problemlösningen som får plats i huvudet. Bladet passar därför tidigt på höstterminen i åk 1, i en liten grupp som behöver bygga självförtroende, eller som repetition för den som fastnat på svårare uppgifter. Att få räkna på fingrarna utan att skämmas är dessutom en poäng i sig – strategin ska få finnas kvar tills tanken går fortare än handen.",
+   "p3": "Bladet skrivs ut gratis som PDF och är rätt startpunkt för den yngsta. När talen inom tio går på rutin höjer additionsbladet och subtraktionsbladet svårigheten ett steg i taget, och grundbladet räknehändelser med bilder blandar sedan riktningarna. Vill man behålla det lilla talområdet men byta bilder finns dessutom djurutgåvan av räknehändelserna, som fungerar precis lika bra för den som just börjat läsa uppgifter på egen hand.",
+   "canonicalDeckSlug": "raknehandelser-frukter-g1240",
+   "carousel": [
+    {
+     "label": "Träna på räknehändelser – tre uppgifter",
+     "href": "trana-raknehandelser"
+    },
+    {
+     "label": "Räknehändelser med djur",
+     "href": "raknehandelser-med-djur"
+    },
+    {
+     "label": "Räknehändelser med addition",
+     "href": "raknehandelser-addition"
+    },
+    {
+     "label": "Räknehändelser med subtraktion",
+     "href": "raknehandelser-subtraktion"
+    }
+   ],
+   "title": "Arbetsblad räknehändelser till 10 | skriva ut PDF gratis",
+   "metaDescription": "Räknehändelser med alla tal inom tio: korta berättelser, bildstöd och prickruta. Perfekt start på problemlösningen i åk 1. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "trana-raknehandelser",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknehändelser",
+   "h1": "Träna på räknehändelser – tre uppgifter",
+   "strand": "Problemlösning",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "raknehandelser",
+    "frukter",
+    "ak-1"
+   ],
+   "p1": "På det här arbetsbladet ryms tre räknehändelser i stället för två. Texterna är kortare och layouten tätare: varje händelse får sin bildrad, sin prickruta och sin svarsruta, men allt är hoppackat så att en uppgift till får plats på sidan. Frukttemat är detsamma, och barnet arbetar sig igenom de tre händelserna en i taget.",
+   "p2": "Tre uppgifter i stället för två låter som en småsak, men skillnaden märks i uthålligheten. Efter två räknehändelser har många barn hittat rytmen; den tredje är den som visar om rytmen håller. Det tätare formatet tränar samtidigt något eget – att hitta rätt på en sida med mer text och mindre luft, vilket är precis vad läroboken kommer att kräva längre fram. I klassrummet är bladet praktiskt när tiden är knapp: det ger ett fullt pass problemlösning på ett papper, och den som blir klar tidigt har fortfarande en uppgift kvar. Låt gärna den tredje händelsen redovisas muntligt i stället för skriftligt – då hinns både räknandet och samtalet med.",
+   "p3": "Skriv ut bladet gratis som PDF när de tvåuppgiftsblad som finns börjat gå för lätt. Vill man ta ner nivån i stället finns räknehändelser upp till tio, och den som vill träna en riktning i taget väljer additions- eller subtraktionsbladet. Djurutgåvan ger samma träning i en annan bildvärld, vilket är praktiskt när samma barn ska göra två blad i rad.",
+   "canonicalDeckSlug": "raknehandelser-frukter-g1241",
+   "carousel": [
+    {
+     "label": "Räknehändelser med djur",
+     "href": "raknehandelser-med-djur"
+    },
+    {
+     "label": "Räknehändelser med addition",
+     "href": "raknehandelser-addition"
+    },
+    {
+     "label": "Räknehändelser med subtraktion",
+     "href": "raknehandelser-subtraktion"
+    },
+    {
+     "label": "Räknehändelser upp till 10",
+     "href": "raknehandelser-till-10"
+    }
+   ],
+   "title": "Arbetsblad räknehändelser: tre uppgifter | skriva ut PDF gratis",
+   "metaDescription": "Tre räknehändelser på ett blad i tätare format: bildrad, prickruta och svarsruta till varje uppgift. Ett helt pass problemlösning. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "raknehandelser-med-djur",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "animals",
+    "level": "ak-1"
+   },
+   "eyebrow": "Arbetsblad räknehändelser",
+   "h1": "Räknehändelser med djur",
+   "strand": "Problemlösning",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "raknehandelser",
+    "djur",
+    "ak-1"
+   ],
+   "p1": "Det här arbetsbladet är djurutgåvan i räknehändelsefamiljen: två korta berättelser där katter, elefanter och pingviner råkar ut för matematik. Under varje text står en bildrad med samma djur uppradade, så att händelsen går att räkna på och inte bara läsa. Barnet tänker i prickrutan bredvid och skriver sedan svaret i rutan.",
+   "p2": "Bildtemat är inte dekoration – det är ofta det som avgör om ett barn orkar läsa uppgiften en gång till. Djur är för de flesta sexåringar den starkaste av alla motivationsknappar, och en räknehändelse om pingviner blir läst med en annan sorts uppmärksamhet än en om abstrakta föremål. Samtidigt gör djurbilderna nytta rent matematiskt: den som tappar tråden i texten kan räkna djuren i bildraden och hitta tillbaka utan att behöva be om hjälp. För flerspråkiga barn och för dem som ännu läser långsamt är det ofta skillnaden mellan att komma igång och att fastna på första meningen.",
+   "p3": "Bladet skrivs ut gratis som PDF och är utbytbart mot fruktutgåvan – samma matematik, andra bilder, vilket gör paret användbart när samma uppgiftstyp behöver tränas två gånger utan att kännas likadan. Vill man styra räknesättet finns additionsbladet och subtraktionsbladet. I klassrummet är det praktiskt att ha två utgåvor av samma uppgiftstyp: den ena kan ligga som stationsblad medan den andra går hem som läxa, utan att någon behöver räkna exakt samma tal två gånger.",
+   "canonicalDeckSlug": "raknehandelser-djur-g1213",
+   "carousel": [
+    {
+     "label": "Räknehändelser med addition",
+     "href": "raknehandelser-addition"
+    },
+    {
+     "label": "Räknehändelser med subtraktion",
+     "href": "raknehandelser-subtraktion"
+    },
+    {
+     "label": "Räknehändelser upp till 10",
+     "href": "raknehandelser-till-10"
+    },
+    {
+     "label": "Träna på räknehändelser – tre uppgifter",
+     "href": "trana-raknehandelser"
+    }
+   ],
+   "title": "Arbetsblad räknehändelser med djur | skriva ut PDF gratis",
+   "metaDescription": "Djurutgåvan av räknehändelserna: katter, pingviner och elefanter i korta berättelser med bildstöd. Barnet skriver svaret i rutan. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "addition-utan-vaxling",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad uppställning",
+   "h1": "Addition utan växling – uppställning",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "uppstallning",
+    "ak-2"
+   ],
+   "p1": "Det här arbetsbladet innehåller sex additionsuppgifter med tvåsiffriga tal, uppställda i platsvärdesrutor – och inte en enda av dem kräver växling. Entalen summerar alltid till nio eller mindre, så barnet kan räkna kolumn för kolumn utan att någon minnessiffra behöver skrivas: först entalen, sedan tiotalen, och svaret står färdigt under strecket.",
+   "p2": "Ett rent additionsblad utan växling har ett tydligt syfte: att göra själva arbetsgången till en vana innan den ska bära något svårare. Barnet ska hitta rätt kolumn med blicken, börja till höger trots att vi läser åt vänster, och skriva svarssiffran rakt under de tal den hör ihop med. Det låter enkelt, men prydlighet i kolumnerna är faktiskt en av de vanligaste orsakerna till fel längre fram – en siffra som glider ett steg åt sidan förvandlar ett tiotal till ett ental. Platsvärdesrutorna hjälper till här, men handen behöver ändå träna på att hålla ordningen själv, och det gör den bäst på uppgifter där inget annat samtidigt kräver uppmärksamhet.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar som allra första uppställningsblad i åk 2. Nästa naturliga steg är subtraktion utan växling, som använder samma arbetsgång baklänges, och när båda räknesätten sitter tar repetitionsbladet dem i blandad form. Går det trögt är det oftast grundkombinationerna som saknas, och då gör några minuters daglig huvudräkning mer nytta än ännu ett uppställningsblad.",
+   "canonicalDeckSlug": "uppstallning-g2255",
+   "carousel": [
+    {
+     "label": "Subtraktion utan växling – uppställning",
+     "href": "subtraktion-utan-vaxling"
+    },
+    {
+     "label": "Tresiffrig uppställning utan växling",
+     "href": "tresiffrig-uppstallning-utan-vaxling"
+    },
+    {
+     "label": "Tresiffrig addition utan växling",
+     "href": "tresiffrig-addition-utan-vaxling"
+    },
+    {
+     "label": "Uppställning – blandad repetition",
+     "href": "uppstallning-repetition"
+    }
+   ],
+   "title": "Arbetsblad addition utan växling | skriva ut PDF gratis",
+   "metaDescription": "Sex tvåsiffriga additioner i platsvärdesrutor, helt utan växling: barnet räknar entalen först och sedan tiotalen. För åk 2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "subtraktion-utan-vaxling",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad uppställning",
+   "h1": "Subtraktion utan växling – uppställning",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "uppstallning",
+    "ak-2"
+   ],
+   "p1": "Sex subtraktionsuppgifter med tvåsiffriga tal, uppställda i platsvärdesrutor, och varje uppgift är riggad så att ingen växling behövs: entalssiffran uppe är alltid större än den nedanför. Barnet drar bort en talsort i taget med start i entalen, skriver differensen under strecket och fortsätter till tiotalen.",
+   "p2": "Subtraktion i uppställning har en egen svårighet som addition saknar: ordningen spelar roll. I additionen går det bra att räkna tre plus åtta eller åtta plus tre, men i subtraktionen måste barnet läsa uppifrån och ner och veta att det övre talet är det man har och det undre det man tar bort. Ett blad helt utan lån låter den insikten sätta sig i lugn och ro. Först när riktningen är självklar blir lånet begripligt – för lånet handlar just om vad man gör när det man har inte räcker till. Barn som får den ordningen omkastad lär sig ofta lånet som ett magiskt handgrepp utan innebörd, och sådana handgrepp brukar vittra bort under lovet.",
+   "p3": "Skriv ut bladet gratis som PDF och lägg det direkt efter additionsbladet utan växling. Med tresiffriga tal väntar samma metod i en kolumn till, och den dag entalen inte räcker till är uppställning med växling nästa kapitel. En bra kontrollfråga efteråt är att låta barnet addera differensen med det undre talet – blir det övre talet tillbaka stämmer uppgiften.",
+   "canonicalDeckSlug": "uppstallning-g2256",
+   "carousel": [
+    {
+     "label": "Tresiffrig uppställning utan växling",
+     "href": "tresiffrig-uppstallning-utan-vaxling"
+    },
+    {
+     "label": "Tresiffrig addition utan växling",
+     "href": "tresiffrig-addition-utan-vaxling"
+    },
+    {
+     "label": "Uppställning – blandad repetition",
+     "href": "uppstallning-repetition"
+    },
+    {
+     "label": "Addition utan växling – uppställning",
+     "href": "addition-utan-vaxling"
+    }
+   ],
+   "title": "Arbetsblad subtraktion utan växling | skriva ut PDF gratis",
+   "metaDescription": "Sex tvåsiffriga subtraktioner i uppställning utan lån: barnet drar bort en talsort i taget med start i entalen. För åk 2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "tresiffrig-uppstallning-utan-vaxling",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad uppställning",
+   "h1": "Tresiffrig uppställning utan växling",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "uppstallning",
+    "ak-2"
+   ],
+   "p1": "På det här arbetsbladet är talen tresiffriga och räknesätten blandade: några uppgifter är additioner, andra subtraktioner, och sex uppställningar väntar i platsvärdesrutor med tre kolumner – ental, tiotal och hundratal. Ingen uppgift kräver växling, men barnet måste läsa räknetecknet innan det börjar räkna, och sedan arbeta sig igenom alla tre talsorterna.",
+   "p2": "Steget från två till tre siffror är mindre än det ser ut och större än man tror. Mindre, för att metoden är exakt densamma – en talsort i taget, med start i entalen – och hundratalskolumnen bara är ännu en kolumn. Större, för att sidan nu ställer krav på uthållighet: tre kolumner gånger sex uppgifter är arton delräkningar, och det räcker att tröttna en gång för att en siffra ska hamna fel. Att räknesätten dessutom blandas gör att varje uppgift måste börja med ett beslut. Ett tecken som lästs slarvigt ger ett prydligt uppställt men fullständigt felaktigt svar, och just det felet är det vanligaste på blandade sidor.",
+   "p3": "Bladet skrivs ut gratis som PDF och passar när tvåsiffrig addition och subtraktion utan växling går på rutin. Vill man ta ett räknesätt i taget finns tresiffrig addition utan växling, och repetitionsbladet samlar ihop hela serien. Ett gott råd är att låta barnet ringa in räknetecknet i varje uppgift innan det börjar räkna; den lilla vanan tar bort merparten av felen på blandade sidor.",
+   "canonicalDeckSlug": "uppstallning-g2257",
+   "carousel": [
+    {
+     "label": "Tresiffrig addition utan växling",
+     "href": "tresiffrig-addition-utan-vaxling"
+    },
+    {
+     "label": "Uppställning – blandad repetition",
+     "href": "uppstallning-repetition"
+    },
+    {
+     "label": "Addition utan växling – uppställning",
+     "href": "addition-utan-vaxling"
+    },
+    {
+     "label": "Subtraktion utan växling – uppställning",
+     "href": "subtraktion-utan-vaxling"
+    }
+   ],
+   "title": "Arbetsblad tresiffrig uppställning | skriva ut PDF gratis",
+   "metaDescription": "Tresiffriga tal, addition och subtraktion om vartannat, utan växling: barnet läser räknetecknet och räknar tre talsorter. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "tresiffrig-addition-utan-vaxling",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad uppställning",
+   "h1": "Tresiffrig addition utan växling",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.B.7",
+   "slotTokens": [
+    "uppstallning",
+    "ak-2"
+   ],
+   "p1": "Sex additionsuppgifter med tresiffriga tal, alla utan växling. Uppställningen har tre platsvärdesrutor i bredd, och barnet summerar en kolumn i taget: entalen först, sedan tiotalen och sist hundratalen. Eftersom ingen kolumn summerar över nio behövs inga minnessiffror – svaret byggs upp siffra för siffra under strecket.",
+   "p2": "Stora tal skrämmer många barn i åk 2, och det här bladet är byggt för att avdramatisera dem. Uppgiften 342 plus 215 ser mäktig ut tills barnet upptäcker att den i själva verket är tre små additioner staplade på varandra: två plus fem, fyra plus ett och tre plus två. Uppställningens hela idé är just den – att bryta ner ett svårt tal i talsorter som var för sig ligger inom det man redan kan. Att arbeta med hundratal utan växling gör idén synlig, för ingenting stör bilden av kolumner som räknas var för sig. Efteråt är det värt att fråga barnet hur stort svaret ungefär borde bli innan det räknar; överslaget gör metoden till mer än ett handgrepp.",
+   "p3": "Skriv ut bladet gratis som PDF och använd det som brygga mellan tvåsiffrig uppställning och blandade tresiffriga uppgifter. När hundratalen känns hemtama är uppställning med växling nästa milstolpe. Behöver talen bli mindre igen finns tvåsiffrig addition utan växling kvar, och repetitionsbladet blandar längder och räknesätt när det är dags att stämma av.",
+   "canonicalDeckSlug": "uppstallning-g2258",
+   "carousel": [
+    {
+     "label": "Uppställning – blandad repetition",
+     "href": "uppstallning-repetition"
+    },
+    {
+     "label": "Addition utan växling – uppställning",
+     "href": "addition-utan-vaxling"
+    },
+    {
+     "label": "Subtraktion utan växling – uppställning",
+     "href": "subtraktion-utan-vaxling"
+    },
+    {
+     "label": "Tresiffrig uppställning utan växling",
+     "href": "tresiffrig-uppstallning-utan-vaxling"
+    }
+   ],
+   "title": "Arbetsblad tresiffrig addition | skriva ut PDF gratis",
+   "metaDescription": "Sex tresiffriga additioner utan växling: hundratal, tiotal och ental i var sin kolumn, en liten addition i taget. För åk 2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "uppstallning-repetition",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad uppställning",
+   "h1": "Uppställning – blandad repetition",
+   "strand": "Taluppfattning och tals användning",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "uppstallning",
+    "ak-2"
+   ],
+   "p1": "Repetitionsbladet i uppställningsfamiljen blandar allt utan växling: tvåsiffriga och tresiffriga tal, addition och subtraktion om vartannat, sex uppgifter i platsvärdesrutor. Vissa uppställningar har två kolumner, andra tre, och barnet måste själv se hur många talsorter uppgiften har innan det börjar räkna.",
+   "p2": "Ett blandat blad före växlingen är värt sin vikt i guld. Så länge en sida bara innehåller en sorts uppgift kan ett barn ta sig igenom den på handgrepp; när sifferlängden och räknetecknet växlar från uppgift till uppgift går det inte längre. Det gör bladet till en användbar avstämning: klarar barnet alla sex är strukturen på plats och växlingen kan introduceras utan risk. Hakar det upp sig pekar felen dessutom ut var det brister – förväxlade räknetecken är en sak, siffror som glidit ur sin kolumn en helt annan, och de två behöver olika träning. Ta gärna en kort stund efteråt och låt barnet berätta hur det tänkte i den uppgift som kändes svårast.",
+   "p3": "Bladet skrivs ut gratis som PDF och hör hemma sist i serien utan växling. Behövs mer träning finns additionsbladet och subtraktionsbladet kvar att gå tillbaka till, och den som är redo går vidare till uppställning med växling. Använd gärna bladet två gånger med några veckors mellanrum – samma sida löst med bättre flyt är ett tydligare kvitto på framsteg än ett nytt facit.",
+   "canonicalDeckSlug": "uppstallning-g2259",
+   "carousel": [
+    {
+     "label": "Addition utan växling – uppställning",
+     "href": "addition-utan-vaxling"
+    },
+    {
+     "label": "Subtraktion utan växling – uppställning",
+     "href": "subtraktion-utan-vaxling"
+    },
+    {
+     "label": "Tresiffrig uppställning utan växling",
+     "href": "tresiffrig-uppstallning-utan-vaxling"
+    },
+    {
+     "label": "Tresiffrig addition utan växling",
+     "href": "tresiffrig-addition-utan-vaxling"
+    }
+   ],
+   "title": "Arbetsblad uppställning: repetition | skriva ut PDF gratis",
+   "metaDescription": "Två- och tresiffriga tal, addition och subtraktion om vartannat, allt utan växling: en avstämning innan växlingen införs i åk 2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "las-av-matkannan",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad mätkannor",
+   "h1": "Läs av mätkannan – volym i milliliter",
+   "strand": "Mätning och enheter",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "matning",
+    "ak-2"
+   ],
+   "p1": "Sex mätkannor står uppradade på det här arbetsbladet, alla fyllda till olika nivåer, och ingen våg är med. Barnet läser av skalan på varje kanna – ser vad strecken är värda, följer vätskeytan till rätt streck – och skriver volymen i milliliter i rutan bredvid. Sex avläsningar av samma sort, med enheten ml på varje svar.",
+   "p2": "Att läsa av en skala är en färdighet som inte kommer av sig själv. Barnet måste först lista ut vad avståndet mellan två streck är värt, sedan hitta ytan och till sist översätta läget till ett tal – tre steg där det mellersta är det som oftast hoppas över. När hela sidan består av mätkannor hinner just det steget bli en vana: barnet börjar automatiskt med att titta på siffrorna vid skalan innan det tittar på vätskan. Volym är dessutom den storhet som är enklast att kontrollera på riktigt. Ett decilitermått och en kanna vatten i klassrummet eller köket förvandlar bladet till en laboration, och 250 ml blir något barnet har hällt upp och inte bara läst.",
+   "p3": "Bladet skrivs ut gratis som PDF och är den renaste ingången i mätfamiljen. Vågarna med gram tränar samma avläsningsblick på en annan storhet, och kannorna som rymmer upp till 2000 ml tar samma uppgift till större tal.",
+   "canonicalDeckSlug": "matning-g2260",
+   "carousel": [
+    {
+     "label": "Läs av vågen – vikt i gram",
+     "href": "las-av-vagen-i-gram"
+    },
+    {
+     "label": "Läs av skalan – finare steg",
+     "href": "las-av-skalan-sma-steg"
+    },
+    {
+     "label": "Mätkannor upp till 2000 ml",
+     "href": "matkannor-till-2000-ml"
+    },
+    {
+     "label": "Volym och vikt med djur",
+     "href": "volym-och-vikt-med-djur"
+    }
+   ],
+   "title": "Arbetsblad läsa av mätkanna i ml | skriva ut PDF gratis",
+   "metaDescription": "Sex mätkannor och inga vågar: barnet läser av skalan och skriver volymen i milliliter. Ren avläsningsträning för åk 2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "las-av-vagen-i-gram",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad vågar",
+   "h1": "Läs av vågen – vikt i gram",
+   "strand": "Mätning och enheter",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "matning",
+    "fordon",
+    "ak-2"
+   ],
+   "p1": "På det här arbetsbladet finns bara balansvågar – sex stycken – och inga mätkannor. På den ena vågskålen står ett fordon: en bil, en buss, en lastbil eller ett flygplan. På den andra ligger vikterna. Barnet räknar ihop vikterna, ser att vågen är i balans och skriver hur många gram fordonet väger.",
+   "p2": "Balansvågen är en av matematikens finaste bilder, och den gör mer än att lära ut gram. En våg i jämvikt säger exakt samma sak som ett likhetstecken: det som ligger till vänster är lika mycket som det som ligger till höger. Barn som mött den bilden konkret har lättare för öppna utsagor senare, där en ruta ska fyllas i så att båda sidor blir lika mycket värda. På den här sidan får bilden dessutom ett tydligt sammanhang genom fordonen på vågskålen – att en leksaksbil och en hög med vikter kan väga lika mycket är precis den sortens påstående som får barn att vilja kontrollera saken själva.",
+   "p3": "Skriv ut bladet gratis som PDF och ta gärna fram en riktig köksvåg efteråt – gissa först, väg sedan. Mätkannorna med milliliter tränar samma avläsning på volym, och grundbladet volym och vikt blandar de två storheterna på en och samma sida. Precisionsbladet med finare skalstreck är nästa steg för den som vill läsa av ännu noggrannare.",
+   "canonicalDeckSlug": "matning-fordon-g2261",
+   "carousel": [
+    {
+     "label": "Läs av skalan – finare steg",
+     "href": "las-av-skalan-sma-steg"
+    },
+    {
+     "label": "Mätkannor upp till 2000 ml",
+     "href": "matkannor-till-2000-ml"
+    },
+    {
+     "label": "Volym och vikt med djur",
+     "href": "volym-och-vikt-med-djur"
+    },
+    {
+     "label": "Läs av mätkannan – volym i milliliter",
+     "href": "las-av-matkannan"
+    }
+   ],
+   "title": "Arbetsblad läsa av våg i gram | skriva ut PDF gratis",
+   "metaDescription": "Sex balansvågar med fordon på vågskålen: barnet räknar ihop vikterna och skriver hur många gram fordonet väger. För åk 2. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "las-av-skalan-sma-steg",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad volym och vikt",
+   "h1": "Läs av skalan – finare steg",
+   "strand": "Mätning och enheter",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "matning",
+    "fordon",
+    "ak-2"
+   ],
+   "p1": "Det här är precisionsbladet i mätfamiljen. Mätkannorna har fina skalstreck med femtio milliliter mellan strecken i stället för grova hundratalssteg, och blandat med dem står balansvågar med fordon på vågskålen. Barnet läser av både kannor och vågar och skriver varje svar med rätt enhet – ml för volym, g för vikt.",
+   "p2": "Finare skalstreck ändrar hela uppgiftens karaktär. Så länge strecken står hundratalsvis går det att gissa sig ganska rätt; med femtiotalssteg måste barnet faktiskt räkna strecken mellan de utsatta siffrorna och avgöra vad varje streck är värt. Det är samma slags noggrannhet som en linjal kräver, och den kommer inte gratis. Att sidan dessutom blandar volym och vikt gör att enheten aldrig kan sättas på autopilot: barnet måste för varje uppgift avgöra vad det är som mäts innan svaret skrivs. Ett tal utan enhet är i mätsammanhang ett halvt svar, och den vanan är betydligt lättare att bygga nu än att laga senare.",
+   "p3": "Bladet skrivs ut gratis som PDF och är ett steg upp från de rena kann- och vågbladen. Behövs en mjukare start finns mätkannorna i milliliter, och för den som vill räkna med större tal väntar kannorna upp till 2000 ml. Ett tips är att låta barnet först säga ungefär hur mycket det är och sedan läsa av exakt – överslaget avslöjar snabbt en missad nolla.",
+   "canonicalDeckSlug": "matning-fordon-g2262",
+   "carousel": [
+    {
+     "label": "Mätkannor upp till 2000 ml",
+     "href": "matkannor-till-2000-ml"
+    },
+    {
+     "label": "Volym och vikt med djur",
+     "href": "volym-och-vikt-med-djur"
+    },
+    {
+     "label": "Läs av mätkannan – volym i milliliter",
+     "href": "las-av-matkannan"
+    },
+    {
+     "label": "Läs av vågen – vikt i gram",
+     "href": "las-av-vagen-i-gram"
+    }
+   ],
+   "title": "Arbetsblad läsa av skala med små steg | skriva ut PDF gratis",
+   "metaDescription": "Mätkannor med femtiotalsstreck blandat med vågar: barnet läser av noggrant och skriver svaret med rätt enhet, ml eller g. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "matkannor-till-2000-ml",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad mätkannor",
+   "h1": "Mätkannor upp till 2000 ml",
+   "strand": "Mätning och enheter",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "matning",
+    "ak-2"
+   ],
+   "p1": "På det här arbetsbladet är kannorna stora: skalan går ända upp till 2000 milliliter, och alla sex uppgifter är avläsningar av volym. Barnet läser av vätskeytan mot en skala där varje steg är värt mer än på de mindre kannorna, och skriver svaret i milliliter – tal som 750, 1250 och 1800 i stället för de små hundratalen.",
+   "p2": "Här möts två saker: mätning och stora tal. Att skriva 1800 ml kräver att barnet har koll på tal över tusen, och många möter dem här för första gången i ett verkligt sammanhang i stället för på en tallinje. Samtidigt öppnar de stora kannorna dörren till litern – 1000 ml är en liter, och en tvålitersflaska är något varje barn har sett i kylskåpet. Den kopplingen är värd att göra tydlig, för den ger enhetsbytet en förankring innan det dyker upp som regel i läromedlet. Fråga gärna hur många glas på tvåhundra milliliter som ryms i den största kannan; frågan låter enkel men bygger mer förståelse än en tabell över enheter.",
+   "p3": "Skriv ut bladet gratis som PDF och använd det när de mindre mätkannorna sitter. Vågarna i gram ger samma avläsningsträning på vikt, och precisionsbladet med femtiotalssteg skruvar upp noggrannheten i stället för talstorleken. Djurutgåvan av mätbladet ger dessutom samma avläsningar i en annan bildvärld, vilket är praktiskt när samma uppgiftstyp ska tränas två gånger.",
+   "canonicalDeckSlug": "matning-g2263",
+   "carousel": [
+    {
+     "label": "Volym och vikt med djur",
+     "href": "volym-och-vikt-med-djur"
+    },
+    {
+     "label": "Läs av mätkannan – volym i milliliter",
+     "href": "las-av-matkannan"
+    },
+    {
+     "label": "Läs av vågen – vikt i gram",
+     "href": "las-av-vagen-i-gram"
+    },
+    {
+     "label": "Läs av skalan – finare steg",
+     "href": "las-av-skalan-sma-steg"
+    }
+   ],
+   "title": "Arbetsblad mätkannor upp till 2000 ml | skriva ut PDF gratis",
+   "metaDescription": "Stora mätkannor med skala upp till 2000 ml: barnet läser av och skriver volymen, med tal över tusen och kopplingen till litern. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "volym-och-vikt-med-djur",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "animals",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad volym och vikt",
+   "h1": "Volym och vikt med djur",
+   "strand": "Mätning och enheter",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "matning",
+    "djur",
+    "ak-2"
+   ],
+   "p1": "Det här är djurutgåvan av mätbladet: tre mätkannor med vätska överst, och under dem tre balansvågar där ett djur står på vågskålen – en katt, en pingvin eller en elefant. Barnet läser av kannornas skala och skriver volymen i milliliter, väger sedan djuren genom att räkna ihop vikterna och skriver svaret i gram.",
+   "p2": "Djuren på vågskålen gör något som siffrorna ensamma inte klarar: de startar ett samtal. När en elefant väger fyrahundra gram på papperet finns det alltid ett barn som protesterar, och den protesten är guld värd. Den öppnar frågan om vad ett gram egentligen är för storlek, vad ett riktigt djur skulle väga och varför bilden på ett blad inte är samma sak som verkligheten. Att uppskatta rimliga vikter – ett äpple ungefär hundra gram, en katt några kilo – är en egen del av mätkunskapen, och den tränas bäst genom just den här sortens invändningar. Låt gärna barnen rangordna djuren efter hur tunga de tror att de är på riktigt innan de läser av vågarna.",
+   "p3": "Bladet skrivs ut gratis som PDF och kan bytas rakt av mot fordonsutgåvan – samma avläsningar, andra bilder. Vill man ta en storhet i taget finns mätkannorna i milliliter och vågarna i gram var för sig. Precisionsbladet med femtiotalssteg väntar sedan för den som vill läsa av ännu noggrannare.",
+   "canonicalDeckSlug": "matning-djur-g2252",
+   "carousel": [
+    {
+     "label": "Läs av mätkannan – volym i milliliter",
+     "href": "las-av-matkannan"
+    },
+    {
+     "label": "Läs av vågen – vikt i gram",
+     "href": "las-av-vagen-i-gram"
+    },
+    {
+     "label": "Läs av skalan – finare steg",
+     "href": "las-av-skalan-sma-steg"
+    },
+    {
+     "label": "Mätkannor upp till 2000 ml",
+     "href": "matkannor-till-2000-ml"
+    }
+   ],
+   "title": "Arbetsblad volym och vikt med djur | skriva ut PDF gratis",
+   "metaDescription": "Tre mätkannor i milliliter och tre vågar med djur på vågskålen: barnet läser av och skriver svaret med rätt enhet, ml eller g. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "latt-symmetri-i-rutnat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad symmetri",
+   "h1": "Lätt symmetri i rutnät",
+   "strand": "Geometri",
+   "slotTokens": [
+    "symmetri",
+    "ak-2"
+   ],
+   "p1": "Fyra enkla figurer, byggda av färglagda rutor i ett rutnät, är halvfärdiga på det här arbetsbladet. Mitt igenom varje bild går en lodrät korallfärgad spegellinje, och barnet färglägger rutorna på den tomma sidan så att figuren blir symmetrisk. Figurerna är de lättaste i serien: få rutor, tydliga former och korta avstånd från linjen.",
+   "p2": "Den lätta versionen finns för att det första mötet med spegling ska handla om principen och inte om uthålligheten. Med få rutor per figur hinner barnet göra varje ruta medvetet: räkna ett steg från linjen på den ena sidan, räkna ett steg på den andra, färglägga. Det är ett-till-ett-tänkandet i sin renaste form, och det behöver få ta tid innan figurerna växer. Rutorna nära spegellinjen är dessutom lättast att bedöma – felen brukar komma längre ut, där avstånden ska räknas – så en enkel figur ger många lyckade speglingar i rad. Den känslan av att lyckas är precis vad som får ett barn att vilja ta nästa blad.",
+   "p3": "Bladet skrivs ut gratis som PDF och är rätt startpunkt i symmetrifamiljen, gärna redan i slutet av åk 1. När speglandet sitter väntar de svåra figurerna, och den som hellre vill ha bekanta motiv kan gå till hjärtat och fjärilen. Ett papper som viks längs spegellinjen är förresten det enklaste facit som finns – halvorna ska täcka varandra exakt.",
+   "canonicalDeckSlug": "symmetri-g2264",
+   "carousel": [
+    {
+     "label": "Svår symmetri i rutnät",
+     "href": "svar-symmetri-i-rutnat"
+    },
+    {
+     "label": "Spegelbilder: hjärta, fjäril, snögubbe och träd",
+     "href": "spegelbilder-hjarta-och-fjaril"
+    },
+    {
+     "label": "Spegelbilder: hus, krona, svamp och äpple",
+     "href": "spegelbilder-hus-och-krona"
+    },
+    {
+     "label": "Spegla under linjen – vågrät spegellinje",
+     "href": "spegla-under-linjen"
+    }
+   ],
+   "title": "Arbetsblad lätt symmetri i rutnät | skriva ut PDF gratis",
+   "metaDescription": "Fyra enkla rutnätsfigurer, halva var: barnet färglägger rutorna på andra sidan spegellinjen. Mjuk start på symmetrin. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "svar-symmetri-i-rutnat",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad symmetri",
+   "h1": "Svår symmetri i rutnät",
+   "strand": "Geometri",
+   "slotTokens": [
+    "symmetri",
+    "ak-2"
+   ],
+   "p1": "På det här arbetsbladet är figurerna de mest krävande i serien: fler färglagda rutor, mer detaljerade konturer och rutor som ligger långt ut från spegellinjen. Fyra halvfärdiga bilder, en lodrät korallfärgad linje genom var och en, och barnets uppgift är densamma som alltid – färglägga så att bilden blir symmetrisk, ruta för ruta.",
+   "p2": "Med större figurer kommer ett nytt krav: ett arbetssätt. Den som färglägger på måfå tappar räkningen någonstans i mitten och upptäcker felet först när bilden ser skev ut. Barn som klarar de svåra figurerna har nästan alltid hittat ett system – de arbetar rad för rad uppifrån och ner, eller tar en ruta i taget och kontrollerar avståndet till linjen varje gång. Att göra det systemet uttalat är den bästa hjälpen man kan ge: fråga hur barnet tänker hålla ordning innan det börjar, inte efter att det gått fel. Det är också här symmetriövningen börjar likna riktig geometri, där avstånd och koordinater måste hanteras metodiskt och inte på känsla.",
+   "p3": "Skriv ut bladet gratis som PDF som toppen av svårighetstrappan. Känns figurerna för stora finns de lätta figurerna att backa till, och den som vill byta utmaning i stället för att sänka den kan pröva bladet med vågrät spegellinje. Låt gärna två barn byta blad och kontrollera varandras speglingar; att leta fel i någon annans bild är ofta lättare än i sin egen.",
+   "canonicalDeckSlug": "symmetri-g2265",
+   "carousel": [
+    {
+     "label": "Spegelbilder: hjärta, fjäril, snögubbe och träd",
+     "href": "spegelbilder-hjarta-och-fjaril"
+    },
+    {
+     "label": "Spegelbilder: hus, krona, svamp och äpple",
+     "href": "spegelbilder-hus-och-krona"
+    },
+    {
+     "label": "Spegla under linjen – vågrät spegellinje",
+     "href": "spegla-under-linjen"
+    },
+    {
+     "label": "Lätt symmetri i rutnät",
+     "href": "latt-symmetri-i-rutnat"
+    }
+   ],
+   "title": "Arbetsblad svår symmetri i rutnät | skriva ut PDF gratis",
+   "metaDescription": "Fyra stora och detaljerade rutnätsfigurer att spegla: fler rutor, längre avstånd till linjen och krav på ett system. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "spegelbilder-hjarta-och-fjaril",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad symmetri",
+   "h1": "Spegelbilder: hjärta, fjäril, snögubbe och träd",
+   "strand": "Geometri",
+   "slotTokens": [
+    "symmetri",
+    "ak-2"
+   ],
+   "p1": "Det här arbetsbladet har fyra bestämda motiv: ett hjärta, en fjäril, en snögubbe och ett träd, alla byggda av rutor och alla ritade till hälften. Spegellinjen går lodrätt genom mitten av varje figur, och barnet färglägger den saknade halvan tills motivet är helt. Alla fyra är figurer som verkligen är symmetriska i naturen – det är därför just de är valda.",
+   "p2": "Motiven är valda för att kunna peka utanför rutnätet. Fjärilen är biologins tydligaste symmetriexempel, hjärtat är formen barn ritar mest av alla, snögubben har sin lodräta axel och trädet sin ungefärliga. Det gör bladet till en naturlig utgångspunkt för samtalet om var symmetri finns på riktigt: i ansikten, i löv, i bokstäverna A och M, i kyrkfönster och i mattmönster. Ett barn som en gång börjat leta symmetri utanför skolboken slutar sällan. Att figurerna dessutom är igenkännbara ger en inbyggd felkontroll – blir fjärilens ena vinge fel syns det direkt, långt innan någon räknar rutor.",
+   "p3": "Bladet skrivs ut gratis som PDF och fungerar fint att ta med hem – ett hjärta blir gärna en present. Systerbladet med hus, krona, svamp och äpple har samma svårighet med andra motiv, och den som vill vända på hela idén provar bladet där spegellinjen ligger vågrätt. Och den som vill fortsätta i rutnätet kan ta de svåra figurerna, där motiven är fler rutor stora.",
+   "canonicalDeckSlug": "symmetri-g2266",
+   "carousel": [
+    {
+     "label": "Spegelbilder: hus, krona, svamp och äpple",
+     "href": "spegelbilder-hus-och-krona"
+    },
+    {
+     "label": "Spegla under linjen – vågrät spegellinje",
+     "href": "spegla-under-linjen"
+    },
+    {
+     "label": "Lätt symmetri i rutnät",
+     "href": "latt-symmetri-i-rutnat"
+    },
+    {
+     "label": "Svår symmetri i rutnät",
+     "href": "svar-symmetri-i-rutnat"
+    }
+   ],
+   "title": "Arbetsblad spegelbilder: hjärta och fjäril | skriva ut PDF gratis",
+   "metaDescription": "Hjärta, fjäril, snögubbe och träd i rutnät, halva var: barnet speglar och gör bilden hel. Symmetri som finns på riktigt. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "spegelbilder-hus-och-krona",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad symmetri",
+   "h1": "Spegelbilder: hus, krona, svamp och äpple",
+   "strand": "Geometri",
+   "slotTokens": [
+    "symmetri",
+    "ak-2"
+   ],
+   "p1": "Fyra motiv väntar på det här arbetsbladet: ett hus, en krona, en svamp och ett äpple, var och en ritad till hälften i rutnätet. Den korallfärgade linjen går lodrätt genom figuren, och barnet färglägger rutorna på den tomma sidan tills bilden är hel. Motiven är vardagliga och lätta att känna igen redan från den halva som står färdig.",
+   "p2": "En finess med igenkännbara motiv är att barnet kan gissa slutet innan det räknat. Att se en halv krona och veta att den andra halvan ska ha lika många taggar är en förutsägelse, och en förutsägelse är något att kontrollera mot. Just den rörelsen – gissa, räkna, jämföra – är vetenskapligt tänkande i miniatyr och passar symmetriövningen perfekt. Samtidigt döljer motiven en fälla värd att prata om: husets tak och äpplets skaft frestar många att rita på fri hand i stället för att räkna rutor, och då blir bilden nästan symmetrisk. Nästan räcker inte här, och det är en nyttig sak att upptäcka.",
+   "p3": "Skriv ut bladet gratis som PDF och lägg det bredvid hjärt- och fjärilsbladet – tillsammans ger de åtta motiv med samma svårighet. Vill man höja nivån väntar de svåra figurerna, och den vågräta spegellinjen ger ett helt nytt perspektiv. Ett tips är att låta barnet räkna högt hur många rutor som ska färgläggas i varje rad innan pennan sätts i.",
+   "canonicalDeckSlug": "symmetri-g2267",
+   "carousel": [
+    {
+     "label": "Spegla under linjen – vågrät spegellinje",
+     "href": "spegla-under-linjen"
+    },
+    {
+     "label": "Lätt symmetri i rutnät",
+     "href": "latt-symmetri-i-rutnat"
+    },
+    {
+     "label": "Svår symmetri i rutnät",
+     "href": "svar-symmetri-i-rutnat"
+    },
+    {
+     "label": "Spegelbilder: hjärta, fjäril, snögubbe och träd",
+     "href": "spegelbilder-hjarta-och-fjaril"
+    }
+   ],
+   "title": "Arbetsblad spegelbilder: hus och krona | skriva ut PDF gratis",
+   "metaDescription": "Hus, krona, svamp och äpple ritade till hälften i rutnätet: barnet färglägger den andra halvan och gör bilden symmetrisk. Skriv ut gratis som PDF."
+  },
+  {
+   "slug": "spegla-under-linjen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "ak-2"
+   },
+   "eyebrow": "Arbetsblad symmetri",
+   "h1": "Spegla under linjen – vågrät spegellinje",
+   "strand": "Geometri",
+   "slotTokens": [
+    "symmetri",
+    "ak-2"
+   ],
+   "p1": "Här ligger spegellinjen vågrätt i stället för lodrätt. Den övre halvan av varje bild är färdig och den nedre tom, så barnet färglägger rutorna under linjen tills figuren blir symmetrisk. Motiven är ritade liggande – en raket, en pil, en glass och en robot – och det som finns ovanför linjen ska speglas nedåt, inte åt sidan.",
+   "p2": "Att vrida spegellinjen ett kvarts varv är en liten förändring på papperet och en stor i huvudet. Nästan all symmetri barn möter är lodrät – ansikten, fjärilar, bokstäver – och handen har lärt sig att spegla åt sidan. När linjen ligger vågrätt måste samma tanke göras uppåt och nedåt: en ruta två steg ovanför linjen ska hamna två steg nedanför, och figuren blir upp och ner i stället för spegelvänd. Många barn som speglar felfritt lodrätt fastnar första gången här, och det är ett gott tecken snarare än ett dåligt – det betyder att bladet mäter förståelse av principen och inte ett inövat handgrepp. Att motiven dessutom ligger på sidan tar bort den sista genvägen, för nu går det inte att luta sig mot hur en raket brukar se ut.",
+   "p3": "Bladet skrivs ut gratis som PDF och hör hemma efter de lodräta bladen, som avslutning eller som en extra utmaning för den som tycker att speglandet gått för lätt. Ett papper som viks längs linjen blir ett perfekt facit.",
+   "canonicalDeckSlug": "symmetri-g2268",
+   "carousel": [
+    {
+     "label": "Lätt symmetri i rutnät",
+     "href": "latt-symmetri-i-rutnat"
+    },
+    {
+     "label": "Svår symmetri i rutnät",
+     "href": "svar-symmetri-i-rutnat"
+    },
+    {
+     "label": "Spegelbilder: hjärta, fjäril, snögubbe och träd",
+     "href": "spegelbilder-hjarta-och-fjaril"
+    },
+    {
+     "label": "Spegelbilder: hus, krona, svamp och äpple",
+     "href": "spegelbilder-hus-och-krona"
+    }
+   ],
+   "title": "Arbetsblad spegla under linjen | skriva ut PDF gratis",
+   "metaDescription": "Spegellinjen ligger vågrätt: barnet färglägger rutorna under linjen så att raket, pil, glass och robot blir hela figurer. Skriv ut gratis som PDF."
   }
  ]
 }

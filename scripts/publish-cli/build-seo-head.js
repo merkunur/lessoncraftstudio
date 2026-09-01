@@ -272,6 +272,12 @@ function bandedDescription(spec) {
   }
   // middles: ordered preference of complete sentences (richest first).
   var middles = (spec.middles || []).filter(function (m) { return m && String(m).trim(); });
+  // FALLBACK-ONLY composed middles (nt20-VAR): consulted ONLY when no primary
+  // candidate lands in [FLOOR,CEIL] — short-titled types whose short skill
+  // sentence stops 1-2 chars under the floor while the richer sentences
+  // overshoot. Because they are never consulted when a primary candidate
+  // bands, every existing in-band emission stays byte-identical.
+  var fallbackMiddles = (spec.middlesFallback || []).filter(function (m) { return m && String(m).trim(); });
   // Returns { desc, inBand } or null when the lead's bare core exceeds the
   // ceiling (signals the caller to try dropping the theme).
   function bestForLead(lead) {
@@ -286,6 +292,13 @@ function bandedDescription(spec) {
     // In-band (120-170): take the longest (richest) complete option.
     var inBand = cands.filter(function (c) { return c.len >= FLOOR && c.len <= CEIL; });
     if (inBand.length) { inBand.sort(function (a, b) { return b.len - a.len; }); return { desc: inBand[0].d, inBand: true }; }
+    // No primary candidate banded — try the composed fallbacks before
+    // settling for a best-effort out-of-band description.
+    if (fallbackMiddles.length) {
+      var fb = fallbackMiddles.map(function (m) { var d = assemble(lead, m); return { d: d, len: descLenRendered(d) }; })
+        .filter(function (c) { return c.len >= FLOOR && c.len <= CEIL; });
+      if (fb.length) { fb.sort(function (a, b) { return b.len - a.len; }); return { desc: fb[0].d, inBand: true }; }
+    }
     // None in band (core < FLOOR and no whole middle lands in [FLOOR,CEIL]):
     // best-effort = the longest complete option still under the ceiling.
     var underCeil = cands.filter(function (c) { return c.len <= CEIL; });
@@ -429,6 +442,20 @@ function buildSeoHead(opts) {
       descLeadNoTheme: themeName ? descLeadNoTheme : null,
       descTail: descTail,
       middles: [diffMiddle, instruction, skillSentence, skillSentenceShort],
+      // composed fallbacks — consulted only when nothing above bands (see
+      // bandedDescription); combinations of the authored sentences only
+      // (incl. the instruction's FIRST sentence — two-sentence instructions
+      // overshoot the ceiling whole)
+      middlesFallback: (function () {
+        var s = skillSentenceShort ? skillSentenceShort.replace(/\s*[.!?]+\s*$/, '') : '';
+        var instrFirst = instruction ? instruction.split(/(?<=[.!?])\s+/)[0] : '';
+        return [
+          s && instruction ? s + '. ' + instruction : null,
+          s && instrFirst && instrFirst !== instruction ? s + '. ' + instrFirst : null,
+          instrFirst && instrFirst !== instruction ? instrFirst : null,
+          s && skillSentence ? s + '. ' + skillSentence : null,
+        ];
+      })(),
       hasVariant: !!variantId
     });
   } else {

@@ -125445,6 +125445,1097 @@
    ],
    "title": "Tables de multiplication CE2 | à imprimer PDF gratuit",
    "metaDescription": "Douze multiplications pour réviser les tables : l'enfant écrit chaque résultat dans la case. Fiche d'entraînement CE2 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "ecriture-des-chiffres-0-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des chiffres",
+   "h1": "Écriture des chiffres de 0 à 4 en grand format",
+   "strand": "Numération et écriture",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "ecriture-des-chiffres",
+    "maternelle"
+   ],
+   "p1": "Sur cette fiche, l'enfant travaille exactement cinq chiffres — 0, 1, 2, 3 et 4 — tracés en grand format, chacun sur sa propre ligne. Avant de repasser les pointillés, il cherche le point orange : c'est là, et nulle part ailleurs, qu'il pose son crayon. Les flèches lui montrent ensuite dans quel sens avancer. Comme les chiffres sont grands, le bras entier participe au geste, ce qui est bien plus facile pour une main de maternelle qu'un petit tracé serré.",
+   "p2": "Ces cinq premiers chiffres sont le bon terrain pour installer la seule habitude qui compte vraiment au début : démarrer au bon endroit. Un enfant qui commence son 2 par le bas ou son 1 par le trait du pied prendra un pli difficile à défaire au CP. Le point de départ imposé, répété ligne après ligne sur des tracés simples comme le 1 ou le 4, transforme cette règle en réflexe avant même que les chiffres plus tourbillonnants n'arrivent. On travaille peu de chiffres, mais on les travaille bien.",
+   "p3": "La fiche s'imprime gratuitement en PDF et occupe parfaitement un petit rituel du matin. La suite logique est toute trouvée : la fiche des chiffres de 5 à 9 reprend les mêmes repères — point orange, flèches — sur les chiffres qui tournent davantage. Et si la main a besoin de s'échauffer avant, quelques chemins de graphisme font une excellente mise en route.",
+   "canonicalDeckSlug": "ecriture-des-chiffres-k249",
+   "carousel": [
+    {
+     "label": "Écriture des chiffres de 5 à 9 en grand format",
+     "href": "ecriture-des-chiffres-5-9"
+    },
+    {
+     "label": "Repasser puis écrire les chiffres tout seul",
+     "href": "repasser-et-ecrire-les-chiffres"
+    },
+    {
+     "label": "Écriture des nombres de 1 à 10",
+     "href": "ecriture-des-nombres-1-10"
+    },
+    {
+     "label": "Écriture des nombres de 11 à 20",
+     "href": "ecriture-des-nombres-11-20"
+    }
+   ],
+   "title": "Écriture des chiffres de 0 à 4 maternelle | à imprimer PDF",
+   "metaDescription": "Les chiffres 0, 1, 2, 3 et 4 en grand format : un point de départ orange, des flèches à suivre et des pointillés à repasser. Fiche maternelle gratuite en PDF."
+  },
+  {
+   "slug": "ecriture-des-chiffres-5-9",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des chiffres",
+   "h1": "Écriture des chiffres de 5 à 9 en grand format",
+   "strand": "Numération et écriture",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "ecriture-des-chiffres",
+    "maternelle"
+   ],
+   "p1": "Cette fiche rassemble les chiffres 5, 6, 7, 8 et 9, en grand format, un par ligne d'écriture. Pour chacun, l'enfant repère le point orange, suit les flèches et repasse toute une série de modèles en pointillés. Ce sont les chiffres qui tournent : la boucle du 6, le double rond du 8, la panse du 5 — chaque tracé demande un vrai chemin, et la fiche le montre pas à pas.",
+   "p2": "C'est précisément dans cette seconde moitié que naissent la plupart des chiffres en miroir : un 5 retourné, un 6 qui devient un 9, un 3 déguisé. La cause est presque toujours la même — l'enfant tourne dans le mauvais sens. En imposant le sens de rotation par les flèches, et en le répétant sur toute la ligne, la fiche attaque le problème à la racine plutôt que de corriger après coup. Le grand format aide aussi : une courbe ample se contrôle mieux qu'une courbe minuscule, et le bon geste s'imprime dans la mémoire du bras.",
+   "p3": "La fiche se télécharge gratuitement en PDF, idéale en complément de la fiche des chiffres de 0 à 4 pour couvrir toute la famille. Quand les dix chiffres tournent rond, l'étape suivante attend l'enfant : repasser puis écrire les chiffres tout seul, sans modèle sous le crayon — le vrai test de ce qui est acquis.",
+   "canonicalDeckSlug": "ecriture-des-chiffres-k250",
+   "carousel": [
+    {
+     "label": "Repasser puis écrire les chiffres tout seul",
+     "href": "repasser-et-ecrire-les-chiffres"
+    },
+    {
+     "label": "Écriture des nombres de 1 à 10",
+     "href": "ecriture-des-nombres-1-10"
+    },
+    {
+     "label": "Écriture des nombres de 11 à 20",
+     "href": "ecriture-des-nombres-11-20"
+    },
+    {
+     "label": "Écriture des chiffres de 0 à 4 en grand format",
+     "href": "ecriture-des-chiffres-0-4"
+    }
+   ],
+   "title": "Écriture des chiffres de 5 à 9 maternelle | à imprimer PDF",
+   "metaDescription": "Les chiffres 5, 6, 7, 8 et 9 à repasser en grand format, avec flèches et point de départ pour éviter les chiffres écrits en miroir. PDF gratuit à imprimer."
+  },
+  {
+   "slug": "repasser-et-ecrire-les-chiffres",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des chiffres",
+   "h1": "Repasser puis écrire les chiffres tout seul",
+   "strand": "Numération et écriture",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "ecriture-des-chiffres",
+    "maternelle"
+   ],
+   "p1": "Sur cette fiche, chaque ligne cache un petit défi en deux temps : l'enfant repasse d'abord une série de chiffres en pointillés, du point orange jusqu'au bout du tracé — puis il arrive à la case vide. Là, plus de pointillés, plus de flèches : il écrit le chiffre tout seul, en se fiant au geste qu'il vient de répéter. La fiche parcourt ainsi les chiffres de 0 à 9, un par ligne.",
+   "p2": "Ce saut — de la copie guidée à l'écriture autonome — est le vrai moment charnière de l'apprentissage. Tant qu'il repasse, l'enfant suit ; quand il écrit seul, il doit se rappeler d'où l'on part, dans quel sens on tourne, où l'on s'arrête. La case vide en fin de ligne rend ce passage tout doux : la mémoire du geste est encore fraîche, la réussite est à portée de main. Et pour l'adulte, cette dernière case dit tout : un chiffre réussi sans modèle est un chiffre vraiment su, pas seulement recopié.",
+   "p3": "La fiche s'imprime gratuitement en PDF et fait une excellente évaluation douce en fin de période. Si un chiffre flanche encore dans la case vide, un retour ciblé sur la fiche des chiffres de 0 à 4 ou celle des 5 à 9 suffit souvent à le remettre d'aplomb ; et quand les dix chiffres s'écrivent sans aide, l'écriture des nombres de 1 à 10 ouvre la porte des nombres à deux chiffres.",
+   "canonicalDeckSlug": "ecriture-des-chiffres-k251",
+   "carousel": [
+    {
+     "label": "Écriture des nombres de 1 à 10",
+     "href": "ecriture-des-nombres-1-10"
+    },
+    {
+     "label": "Écriture des nombres de 11 à 20",
+     "href": "ecriture-des-nombres-11-20"
+    },
+    {
+     "label": "Écriture des chiffres de 0 à 4 en grand format",
+     "href": "ecriture-des-chiffres-0-4"
+    },
+    {
+     "label": "Écriture des chiffres de 5 à 9 en grand format",
+     "href": "ecriture-des-chiffres-5-9"
+    }
+   ],
+   "title": "Repasser puis écrire les chiffres GS | à imprimer PDF",
+   "metaDescription": "Chaque ligne : des chiffres en pointillés à repasser, puis une case vide où l'enfant écrit le chiffre tout seul, sans modèle. Fiche GS gratuite en PDF."
+  },
+  {
+   "slug": "ecriture-des-nombres-1-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des nombres",
+   "h1": "Écriture des nombres de 1 à 10",
+   "strand": "Numération et écriture",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "ecriture-des-chiffres",
+    "maternelle"
+   ],
+   "p1": "Cette fiche fait écrire les nombres de 1 à 10, dans l'ordre de la comptine. De 1 à 9, l'enfant retrouve un chiffre par couloir : point orange, flèches, pointillés à repasser. Puis arrive le 10 — et avec lui une nouveauté qui saute aux yeux : le couloir s'élargit, car il faut désormais deux chiffres, un 1 puis un 0, écrits côte à côte, dans le bon ordre et sans se chevaucher.",
+   "p2": "Ce dixième nombre mérite sa place de vedette. Écrire 10, c'est découvrir qu'un nombre peut être composé de deux chiffres — une idée immense cachée dans un tout petit geste. Le 1 d'abord, le 0 ensuite, chacun dans sa case : l'ordre d'écriture prépare, sans le dire, la future lecture des dizaines et des unités. Et comme les neuf premiers tracés reprennent des chiffres déjà connus, toute l'attention de l'enfant reste disponible pour cette nouveauté-là, au bout de la fiche, comme une récompense.",
+   "p3": "La fiche est gratuite, au format PDF, prête à rejoindre un cahier d'écriture ou un plan de travail. La suite naturelle est l'écriture des nombres de 11 à 20, où chaque nombre occupe un couloir double ; et pour les enfants qui hésitent encore sur un chiffre isolé, la fiche repasser puis écrire les chiffres permet de vérifier ligne par ligne ce qui est vraiment acquis.",
+   "canonicalDeckSlug": "ecriture-des-chiffres-k252",
+   "carousel": [
+    {
+     "label": "Écriture des nombres de 11 à 20",
+     "href": "ecriture-des-nombres-11-20"
+    },
+    {
+     "label": "Écriture des chiffres de 0 à 4 en grand format",
+     "href": "ecriture-des-chiffres-0-4"
+    },
+    {
+     "label": "Écriture des chiffres de 5 à 9 en grand format",
+     "href": "ecriture-des-chiffres-5-9"
+    },
+    {
+     "label": "Repasser puis écrire les chiffres tout seul",
+     "href": "repasser-et-ecrire-les-chiffres"
+    }
+   ],
+   "title": "Écriture des nombres de 1 à 10 | à imprimer PDF gratuit",
+   "metaDescription": "Repasser les nombres de 1 à 10 sur des lignes d'écriture : neuf tracés simples, puis le 10 et son couloir à deux chiffres. Fiche gratuite à imprimer en PDF."
+  },
+  {
+   "slug": "ecriture-des-nombres-11-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des nombres",
+   "h1": "Écriture des nombres de 11 à 20",
+   "strand": "Numération et écriture",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "ecriture-des-chiffres",
+    "maternelle"
+   ],
+   "p1": "Sur cette fiche, l'enfant écrit les nombres de 11 à 20 — dix nombres, et pas un seul à un chiffre : chaque couloir est un couloir double. À gauche, presque toujours le même 1, celui de la dizaine ; à droite, l'unité qui change à chaque ligne, de 11 jusqu'à 19, avant le 20 qui vient clore la série avec son 2. Point orange et flèches guident chaque tracé, comme sur les fiches précédentes.",
+   "p2": "Ces nombres-là sont les plus traîtres du début du CP : on dit « douze » mais on écrit 12, on dit « seize » mais on écrit 16 — le nom ne dit pas les chiffres. En les écrivant l'un après l'autre, l'enfant voit ce que la comptine cache : la dizaine reste, l'unité avance d'un cran à chaque ligne. C'est de la numération par les doigts autant que par la tête — la régularité de la colonne des 1, visible sur toute la fiche, prépare le déclic « dix et encore deux » bien mieux qu'un long discours.",
+   "p3": "La fiche s'imprime gratuitement en PDF et complète l'écriture des nombres de 1 à 10 pour couvrir toute la bande numérique jusqu'à 20. Au moindre doute sur le sens d'un chiffre — un 5 ou un 9 qui se retourne — un petit détour par la fiche des chiffres de 5 à 9 remet le geste en place avant de reprendre la série.",
+   "canonicalDeckSlug": "ecriture-des-chiffres-k253",
+   "carousel": [
+    {
+     "label": "Écriture des chiffres de 0 à 4 en grand format",
+     "href": "ecriture-des-chiffres-0-4"
+    },
+    {
+     "label": "Écriture des chiffres de 5 à 9 en grand format",
+     "href": "ecriture-des-chiffres-5-9"
+    },
+    {
+     "label": "Repasser puis écrire les chiffres tout seul",
+     "href": "repasser-et-ecrire-les-chiffres"
+    },
+    {
+     "label": "Écriture des nombres de 1 à 10",
+     "href": "ecriture-des-nombres-1-10"
+    }
+   ],
+   "title": "Écriture des nombres de 11 à 20 CP | à imprimer PDF",
+   "metaDescription": "Les nombres de 11 à 20 à repasser, tous à deux chiffres : le 1 de la dizaine devant, l'unité derrière. Fiche d'écriture GS-CP gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "ecriture-des-lettres-g-l",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des lettres",
+   "h1": "Écriture des lettres capitales de G à L",
+   "strand": "Lecture et écriture",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "ecriture-des-lettres",
+    "maternelle"
+   ],
+   "p1": "Cette fiche fait travailler six capitales qui se suivent dans l'alphabet : G, H, I, J, K et L. Pour chaque lettre, l'enfant repasse une série de modèles en pointillés sur la ligne d'écriture, puis tente la lettre sur la ligne laissée vide. Le hasard de l'alphabet fait bien les choses : cette tranche mélange des lettres toutes droites, comme H, I et L, et des lettres qui s'arrondissent, comme G et J.",
+   "p2": "C'est justement ce mélange qui rend la série formatrice. Passer d'un I tout raide à la courbe du G, puis du J, oblige la main à changer de geste d'une ligne à l'autre : segments droits, demi-cercles, et les obliques du K qui demandent un vrai contrôle de direction. L'enfant qui traverse cette tranche avec aisance possède déjà les trois familles de tracés dont toutes les capitales sont faites. Repasser plusieurs fois avant d'écrire seul laisse le temps à chaque geste de se caler avant le passage sans filet.",
+   "p3": "La fiche se télécharge gratuitement en PDF, parfaite pour un atelier d'écriture qui avance dans l'alphabet à son rythme. Avant elle, les toutes premières lettres A B C D font une belle entrée en matière ; après elle, la fiche des lettres M à R attend, avec ses ponts et ses boucles fermées, pour continuer le voyage vers la fin de l'alphabet.",
+   "canonicalDeckSlug": "ecriture-des-lettres-k254",
+   "carousel": [
+    {
+     "label": "Écriture des lettres capitales de M à R",
+     "href": "ecriture-des-lettres-m-r"
+    },
+    {
+     "label": "Écriture des lettres capitales de S à Z",
+     "href": "ecriture-des-lettres-s-z"
+    },
+    {
+     "label": "Écriture des lettres accentuées É, È et Ê",
+     "href": "ecriture-des-lettres-accentuees"
+    },
+    {
+     "label": "Mes premières lettres : A, B, C et D",
+     "href": "premieres-lettres-a-b-c-d"
+    }
+   ],
+   "title": "Écriture des lettres G à L en capitales | à imprimer PDF",
+   "metaDescription": "Les capitales G, H, I, J, K et L à repasser sur des lignes d'écriture, puis à écrire seul sur la ligne vide. Fiche maternelle gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "ecriture-des-lettres-m-r",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des lettres",
+   "h1": "Écriture des lettres capitales de M à R",
+   "strand": "Lecture et écriture",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "ecriture-des-lettres",
+    "maternelle"
+   ],
+   "p1": "Sur cette fiche, l'enfant s'attaque aux capitales M, N, O, P, Q et R — le cœur de l'alphabet. Chaque lettre s'entraîne sur sa ligne : d'abord les modèles en pointillés à repasser, puis la ligne vide pour écrire seul. La série a du caractère : les pointes du M et du N, le rond parfait du O, la panse accrochée du P et du R, et ce Q qui n'est qu'un O portant sa petite queue.",
+   "p2": "Ce qui se joue ici, c'est la régularité. Le M réussi est celui dont les quatre traits ont la même hauteur ; le O réussi est celui qui se ferme là où il a commencé ; le R réussi pose sa panse puis lance sa jambe sans lever le crayon au mauvais moment. En répétant chaque lettre sur toute une ligne, l'enfant apprend à produire non pas une belle lettre de temps en temps, mais la même lettre à chaque fois — et cette constance du geste, plus que la beauté d'un tracé isolé, est la vraie fondation d'une écriture lisible.",
+   "p3": "La fiche s'imprime gratuitement en PDF et s'enchaîne naturellement après celle des lettres G à L. La dernière ligne droite n'est plus loin : la fiche des lettres S à Z boucle l'alphabet, avec ses grandes obliques — de quoi donner à l'enfant la fierté d'avoir écrit, lettre après lettre, l'alphabet entier.",
+   "canonicalDeckSlug": "ecriture-des-lettres-k255",
+   "carousel": [
+    {
+     "label": "Écriture des lettres capitales de S à Z",
+     "href": "ecriture-des-lettres-s-z"
+    },
+    {
+     "label": "Écriture des lettres accentuées É, È et Ê",
+     "href": "ecriture-des-lettres-accentuees"
+    },
+    {
+     "label": "Mes premières lettres : A, B, C et D",
+     "href": "premieres-lettres-a-b-c-d"
+    },
+    {
+     "label": "Écriture des lettres capitales de G à L",
+     "href": "ecriture-des-lettres-g-l"
+    }
+   ],
+   "title": "Écriture des lettres M à R en capitales | à imprimer PDF",
+   "metaDescription": "Six capitales à repasser puis à écrire seul : M, N, O, P, Q et R, sur de vraies lignes d'écriture. Fiche d'écriture maternelle gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "ecriture-des-lettres-s-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des lettres",
+   "h1": "Écriture des lettres capitales de S à Z",
+   "strand": "Lecture et écriture",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "ecriture-des-lettres",
+    "maternelle"
+   ],
+   "p1": "Cette fiche referme l'alphabet : l'enfant y repasse puis écrit les capitales de S à Z. C'est la tranche des grandes obliques — V, W, X, Y et le Z qui zigzague — précédée du S et de sa double courbe, la lettre que beaucoup considèrent comme la plus délicate de toutes. Comme toujours, chaque ligne commence par des modèles en pointillés et se termine par l'espace vide où la lettre s'écrit sans aide.",
+   "p2": "Les obliques méritent qu'on leur consacre une fiche : contrairement aux traits droits et aux ronds, elles n'ont ni la verticale ni l'horizontale pour se guider. Tracer un V régulier ou croiser un X en son milieu demande d'évaluer un angle — un travail de l'œil autant que de la main. Quant au S, il enchaîne deux courbes de sens contraire en un seul geste : le réussir, c'est prouver que le crayon obéit vraiment. Terminer l'alphabet sur ces lettres-là, c'est le terminer par le haut.",
+   "p3": "La fiche est gratuite, au format PDF. L'alphabet bouclé de A à Z, il reste un petit trésor bien français à explorer : la fiche des lettres É, È et Ê apprend à coiffer les lettres de leurs accents. Et si une lettre du milieu de l'alphabet vacille encore, la fiche des lettres M à R reste à portée de main pour une révision ciblée.",
+   "canonicalDeckSlug": "ecriture-des-lettres-k256",
+   "carousel": [
+    {
+     "label": "Écriture des lettres accentuées É, È et Ê",
+     "href": "ecriture-des-lettres-accentuees"
+    },
+    {
+     "label": "Mes premières lettres : A, B, C et D",
+     "href": "premieres-lettres-a-b-c-d"
+    },
+    {
+     "label": "Écriture des lettres capitales de G à L",
+     "href": "ecriture-des-lettres-g-l"
+    },
+    {
+     "label": "Écriture des lettres capitales de M à R",
+     "href": "ecriture-des-lettres-m-r"
+    }
+   ],
+   "title": "Écriture des lettres S à Z en capitales | à imprimer PDF",
+   "metaDescription": "La fin de l'alphabet en capitales : S, T, U, V, W, X, Y et Z à repasser puis à écrire tout seul. Fiche d'écriture maternelle gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "ecriture-des-lettres-accentuees",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des lettres",
+   "h1": "Écriture des lettres accentuées É, È et Ê",
+   "strand": "Lecture et écriture",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "ecriture-des-lettres",
+    "maternelle"
+   ],
+   "p1": "Cette fiche est consacrée à trois lettres que l'on ne trouve dans aucun alphabet anglais : É, È et Ê. L'enfant repasse chaque lettre accentuée sur sa ligne d'écriture, puis l'écrit seul sur la ligne vide. Le geste s'apprend dans l'ordre : le E d'abord, complet et bien campé, l'accent ensuite, posé d'un petit trait au-dessus — qui monte pour l'accent aigu, descend pour l'accent grave, ou se plie en chapeau pour le circonflexe.",
+   "p2": "Les accents ne sont pas un ornement : é et è ne se lisent pas pareil, et « été » sans accents n'est plus un mot. En français, l'accent fait partie de la lettre au même titre que sa barre ou sa boucle — c'est pourquoi il mérite d'être appris comme un tracé à part entière, avec son sens et sa place, et non ajouté au petit bonheur. Distinguer les trois accents à l'écrit prépare aussi l'oreille : l'enfant qui écrit É, È et Ê en les nommant entend mieux, ensuite, la différence entre les sons qu'ils commandent.",
+   "p3": "La fiche s'imprime gratuitement en PDF et vient naturellement couronner le parcours des capitales, une fois la fiche des lettres S à Z achevée. Pour les enfants qui débutent tout juste, mieux vaut d'abord asseoir les gestes de base avec les premières lettres A B C D — les accents attendront sagement leur tour.",
+   "canonicalDeckSlug": "ecriture-des-lettres-k257",
+   "carousel": [
+    {
+     "label": "Mes premières lettres : A, B, C et D",
+     "href": "premieres-lettres-a-b-c-d"
+    },
+    {
+     "label": "Écriture des lettres capitales de G à L",
+     "href": "ecriture-des-lettres-g-l"
+    },
+    {
+     "label": "Écriture des lettres capitales de M à R",
+     "href": "ecriture-des-lettres-m-r"
+    },
+    {
+     "label": "Écriture des lettres capitales de S à Z",
+     "href": "ecriture-des-lettres-s-z"
+    }
+   ],
+   "title": "Écriture des lettres É, È, Ê | à imprimer PDF gratuit",
+   "metaDescription": "Les lettres É, È et Ê à repasser puis à écrire seul : la lettre d'abord, l'accent ensuite, dans le bon sens. Fiche d'écriture gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "premieres-lettres-a-b-c-d",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Écriture des lettres",
+   "h1": "Mes premières lettres : A, B, C et D",
+   "strand": "Lecture et écriture",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "ecriture-des-lettres",
+    "maternelle"
+   ],
+   "p1": "Quatre lettres seulement sur cette fiche — A, B, C et D — mais quelles lettres : les toutes premières, écrites en grand. L'enfant repasse chaque capitale en pointillés sur sa ligne, puis l'essaie tout seul sur la ligne vide. Les modèles sont larges et peu nombreux, pour que chaque tracé soit fait avec soin : le A et ses deux obliques réunies par une barre, le B et ses deux panses, le C tout simple, le D bien fermé.",
+   "p2": "Commencer par quatre lettres, c'est un choix : à cet âge, mieux vaut quatre lettres bien formées que vingt-six survolées. Ce sont souvent les premières lettres qu'un enfant reconnaît — celles de l'affichage de la classe, celle qui commence un prénom — et pouvoir les écrire soi-même change tout : la lettre cesse d'être un dessin que l'on regarde pour devenir une trace que l'on produit. Ce basculement-là, du regard à la main, est le premier pas de toute l'écriture, et il mérite une fiche paisible, sans surcharge.",
+   "p3": "La fiche se télécharge gratuitement en PDF — un beau point de départ pour un tout premier cahier d'écriture. La suite du voyage passe par la fiche des lettres G à L, puis remonte l'alphabet tranche par tranche ; et pour délier la main avant chaque séance, quelques lignes de graphisme font toujours du bien.",
+   "canonicalDeckSlug": "ecriture-des-lettres-k258",
+   "carousel": [
+    {
+     "label": "Écriture des lettres capitales de G à L",
+     "href": "ecriture-des-lettres-g-l"
+    },
+    {
+     "label": "Écriture des lettres capitales de M à R",
+     "href": "ecriture-des-lettres-m-r"
+    },
+    {
+     "label": "Écriture des lettres capitales de S à Z",
+     "href": "ecriture-des-lettres-s-z"
+    },
+    {
+     "label": "Écriture des lettres accentuées É, È et Ê",
+     "href": "ecriture-des-lettres-accentuees"
+    }
+   ],
+   "title": "Premières lettres A B C D maternelle | à imprimer PDF",
+   "metaDescription": "Les quatre premières capitales A, B, C et D en grand format : repasser les pointillés, puis écrire la lettre tout seul. Fiche maternelle gratuite en PDF."
+  },
+  {
+   "slug": "coloriage-par-numeros",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "maternelle"
+   },
+   "eyebrow": "Coloriage par numéros",
+   "h1": "Coloriage par numéros : lis le code, colorie",
+   "strand": "Nombres et calculs",
+   "slotTokens": [
+    "coloriage-magique",
+    "maternelle"
+   ],
+   "p1": "Sur ce coloriage par numéros, chaque forme du dessin porte un chiffre de 1 à 6 — et rien d'autre : ici, aucun calcul à faire. En haut de la page, la légende associe chaque numéro à un mot de couleur. L'enfant lit le chiffre dans la forme, retrouve ce chiffre dans le code, lit le mot de couleur qui lui correspond, et colorie. Forme après forme, le dessin se révèle.",
+   "p2": "Ce va-et-vient entre la forme et la légende fait travailler deux reconnaissances à la fois : celle des chiffres — retrouver « ce 4-là » parmi les six numéros du code demande de le regarder vraiment — et celle des mots de couleur, que l'enfant apprend à identifier à force de les croiser. Le tout en autonomie complète : la légende répond à toutes les questions, sans adulte. C'est la marche idéale avant le coloriage magique : même plaisir du dessin qui apparaît, mais sans encore demander de calculer.",
+   "p3": "La fiche s'imprime gratuitement en PDF — un classique des temps calmes et des fins d'atelier. Quand la lecture du code devient un jeu d'enfant, le coloriage magique prend le relais en glissant une petite addition dans chaque forme ; et côté précision du geste, la fiche de graphisme entretient la souplesse de la main qui colorie sans dépasser.",
+   "canonicalDeckSlug": "coloriage-magique-k266",
+   "carousel": [
+    {
+     "label": "Lecture CE1 : le crabe de la plage",
+     "href": "lecture-ce1-crabe-de-la-plage"
+    },
+    {
+     "label": "Lecture CE1 : l'escargot du potager",
+     "href": "lecture-ce1-escargot-du-potager"
+    },
+    {
+     "label": "Lecture CE1 : la nuit en camping",
+     "href": "lecture-ce1-nuit-en-camping"
+    },
+    {
+     "label": "Lecture CE1 : le marché du samedi",
+     "href": "lecture-ce1-marche-du-samedi"
+    }
+   ],
+   "title": "Coloriage par numéros maternelle | à imprimer PDF gratuit",
+   "metaDescription": "Chaque forme porte un chiffre de 1 à 6 ; la légende associe chaque numéro à un mot de couleur. Coloriage par numéros gratuit, sans calcul, à imprimer en PDF."
+  },
+  {
+   "slug": "lecture-ce1-crabe-de-la-plage",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de lecture",
+   "h1": "Lecture CE1 : le crabe de la plage",
+   "strand": "Lecture et compréhension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "lecture-comprehension",
+    "ce1"
+   ],
+   "p1": "Dans cette histoire, Nino trouve un petit crabe rouge sur la plage — un crabe qui file aussitôt se cacher sous un rocher. L'enfant lit ce court récit de bord de mer, puis entoure la bonne réponse à trois questions à choix multiples : la couleur du crabe, sa cachette, et une dernière question plus fine, qui demande de comprendre comment Nino se comporte avec le petit animal.",
+   "p2": "Le texte est volontairement bref : c'est la fiche idéale pour un lecteur qui débute dans la compréhension et qui a besoin de réussir vite. Mais sa dernière question a du fond — nulle part il n'est écrit que Nino est doux avec les animaux ; c'est au lecteur de le déduire de ce que fait le garçon, qui regarde sans toucher et laisse le crabe tranquille. Distinguer ainsi ce que le texte dit de ce qu'il laisse comprendre, c'est le premier pas vers l'inférence, la compétence reine de la lecture.",
+   "p3": "La fiche s'imprime gratuitement en PDF, parfaite pour ouvrir un atelier de lecture en douceur. Quand ce texte court est bien apprivoisé, l'escargot du potager offre une histoire de la même famille — un petit animal observé de près — avec un cran de plus ; et la nuit en camping emmène ensuite le lecteur vers un texte plus long, plein de sons et d'étoiles.",
+   "canonicalDeckSlug": "lecture-comprehension-g2269",
+   "carousel": [
+    {
+     "label": "Lecture CE1 : l'escargot du potager",
+     "href": "lecture-ce1-escargot-du-potager"
+    },
+    {
+     "label": "Lecture CE1 : la nuit en camping",
+     "href": "lecture-ce1-nuit-en-camping"
+    },
+    {
+     "label": "Lecture CE1 : le marché du samedi",
+     "href": "lecture-ce1-marche-du-samedi"
+    },
+    {
+     "label": "Lecture CE1 : le spectacle de l'école",
+     "href": "lecture-ce1-spectacle-de-l-ecole"
+    }
+   ],
+   "title": "Lecture CE1 : le crabe de la plage | à imprimer PDF",
+   "metaDescription": "L'histoire de Nino et du petit crabe rouge de la plage, suivie de trois questions à choix multiples. Fiche de lecture CE1 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "lecture-ce1-escargot-du-potager",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de lecture",
+   "h1": "Lecture CE1 : l'escargot du potager",
+   "strand": "Lecture et compréhension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "lecture-comprehension",
+    "ce1"
+   ],
+   "p1": "Cette fiche raconte l'histoire de l'escargot du potager de Papi : après la pluie, il sort sa petite tête et se promène sur une feuille de salade — et même posé près des fraises, c'est vers sa salade qu'il retourne. Après la lecture, trois questions à choix multiples attendent l'enfant : où se promène l'escargot, à quel moment il sort sa tête, et ce qu'il préfère manger.",
+   "p2": "Ce petit texte de jardin cache une belle mécanique : sa troisième question ne trouve sa réponse nulle part en toutes lettres. Pour dire ce que l'escargot aime manger, il faut relier deux moments du récit — Papi le pose près des fraises, l'escargot retourne sur la salade — et en tirer la conclusion soi-même. C'est exactement le geste du lecteur qui comprend : rapprocher des indices éloignés. Les deux premières questions, elles, récompensent la lecture attentive des détails, ce « quand » après la pluie que l'on rate si l'on survole.",
+   "p3": "La fiche est gratuite, au format PDF, et trouve sa place dans un rituel de lecture hebdomadaire. Pour rester dans les histoires de petites bêtes avec un texte encore plus court, le crabe de la plage fait une belle étape préalable ; et le marché du samedi prolonge l'ambiance des bonnes choses du jardin, avec ses tomates et son panier bien rempli.",
+   "canonicalDeckSlug": "lecture-comprehension-g2270",
+   "carousel": [
+    {
+     "label": "Lecture CE1 : la nuit en camping",
+     "href": "lecture-ce1-nuit-en-camping"
+    },
+    {
+     "label": "Lecture CE1 : le marché du samedi",
+     "href": "lecture-ce1-marche-du-samedi"
+    },
+    {
+     "label": "Lecture CE1 : le spectacle de l'école",
+     "href": "lecture-ce1-spectacle-de-l-ecole"
+    },
+    {
+     "label": "Lecture CE1 : le crabe de la plage",
+     "href": "lecture-ce1-crabe-de-la-plage"
+    }
+   ],
+   "title": "Lecture CE1 : l'escargot du potager | à imprimer PDF",
+   "metaDescription": "Un escargot se promène dans le potager de Papi après la pluie : histoire courte et trois questions à entourer. Fiche de lecture CE1 gratuite en PDF."
+  },
+  {
+   "slug": "lecture-ce1-nuit-en-camping",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de lecture",
+   "h1": "Lecture CE1 : la nuit en camping",
+   "strand": "Lecture et compréhension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "lecture-comprehension",
+    "ce1"
+   ],
+   "p1": "Cette histoire emmène le lecteur sous la tente de Jade et de son grand frère Tom, le temps d'une nuit en camping : le vent dans les arbres, le chant des grillons, une histoire de pirates lue à la lampe de poche, et les étoiles par la petite fenêtre de la tente. Trois questions à choix multiples suivent le texte : avec qui dort Jade, ce que lit Tom, et comment Jade se sent ce soir-là.",
+   "p2": "C'est un texte d'ambiance : il ne raconte pas une aventure, il fait entendre et voir une soirée. La question la plus intéressante est la dernière — le récit ne dit jamais « Jade est heureuse », il le montre par petites touches, jusqu'à ce « tout près de son frère » de la dernière ligne. Répondre juste demande d'avoir ressenti le texte, pas seulement de l'avoir déchiffré. Et les mauvaises réponses proposées — la peur, la colère — obligent à écarter des émotions plausibles pour une nuit dehors, ce qui rend le choix vraiment réfléchi.",
+   "p3": "La fiche s'imprime gratuitement en PDF, à glisser dans un plan de travail ou un moment lecture du soir — le sujet s'y prête. Côté grandes émotions, le spectacle de l'école raconte un trac qui finit en fierté et fait un beau texte jumeau ; et pour revenir à un récit plus court, le crabe de la plage reste une valeur sûre.",
+   "canonicalDeckSlug": "lecture-comprehension-g2271",
+   "carousel": [
+    {
+     "label": "Lecture CE1 : le marché du samedi",
+     "href": "lecture-ce1-marche-du-samedi"
+    },
+    {
+     "label": "Lecture CE1 : le spectacle de l'école",
+     "href": "lecture-ce1-spectacle-de-l-ecole"
+    },
+    {
+     "label": "Lecture CE1 : le crabe de la plage",
+     "href": "lecture-ce1-crabe-de-la-plage"
+    },
+    {
+     "label": "Lecture CE1 : l'escargot du potager",
+     "href": "lecture-ce1-escargot-du-potager"
+    }
+   ],
+   "title": "Lecture CE1 : la nuit en camping | à imprimer PDF",
+   "metaDescription": "Jade et son frère Tom passent la nuit sous la tente : une histoire à lire et trois questions à choix multiples. Fiche de lecture CE1 gratuite en PDF."
+  },
+  {
+   "slug": "lecture-ce1-marche-du-samedi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de lecture",
+   "h1": "Lecture CE1 : le marché du samedi",
+   "strand": "Lecture et compréhension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "lecture-comprehension",
+    "ce1"
+   ],
+   "p1": "Sur cette fiche, l'enfant suit Lina et sa maman au marché du samedi : les tomates bien rouges, le melon, le grand bouquet de fleurs, la fraise offerte par le marchand, et ce panier si lourd qu'il faut le porter à deux, chacune par une anse. Trois questions à choix multiples vérifient ensuite la lecture : le jour du marché, ce que le marchand donne à Lina, et pourquoi le panier se porte ensemble.",
+   "p2": "Ce texte est le plus « chronologique » de la série : il déroule une matinée entière, du marché jusqu'à la salade de tomates du déjeuner. Le suivre demande de tenir l'ordre des événements en tête — une compétence discrète mais décisive, celle-là même qui servira plus tard pour les consignes en plusieurs étapes et les énoncés de problèmes. La question du panier, elle, travaille la cause : « pourquoi le portent-elles ensemble ? » ne se résout qu'en reliant le poids des courses à la solution trouvée. Lire, ici, c'est reconstruire l'enchaînement.",
+   "p3": "La fiche se télécharge gratuitement en PDF — à proposer, pourquoi pas, un samedi. Pour rester dans les plaisirs du potager et des bonnes choses, l'escargot du potager fait un joli écho à ce panier de légumes ; et quand l'enfant est prêt pour un texte riche en émotions plutôt qu'en tomates, le spectacle de l'école l'attend, rideau levé.",
+   "canonicalDeckSlug": "lecture-comprehension-g2272",
+   "carousel": [
+    {
+     "label": "Lecture CE1 : le spectacle de l'école",
+     "href": "lecture-ce1-spectacle-de-l-ecole"
+    },
+    {
+     "label": "Lecture CE1 : le crabe de la plage",
+     "href": "lecture-ce1-crabe-de-la-plage"
+    },
+    {
+     "label": "Lecture CE1 : l'escargot du potager",
+     "href": "lecture-ce1-escargot-du-potager"
+    },
+    {
+     "label": "Lecture CE1 : la nuit en camping",
+     "href": "lecture-ce1-nuit-en-camping"
+    }
+   ],
+   "title": "Lecture CE1 : le marché du samedi | à imprimer PDF",
+   "metaDescription": "Lina et sa maman font le marché du samedi : tomates, melon, bouquet de fleurs — puis trois questions à entourer. Fiche de lecture CE1 gratuite en PDF."
+  },
+  {
+   "slug": "lecture-ce1-spectacle-de-l-ecole",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "ce1"
+   },
+   "eyebrow": "Fiche de lecture",
+   "h1": "Lecture CE1 : le spectacle de l'école",
+   "strand": "Lecture et compréhension",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "lecture-comprehension",
+    "ce1"
+   ],
+   "p1": "Cette histoire raconte le grand soir de Malo : le spectacle de l'école, préparé depuis un mois, où il doit dire la première phrase tout seul devant la salle pleine. Le trac, la grande respiration quand le rideau s'ouvre, la voix claire, les applaudissements — et ce sourire jusqu'aux oreilles à la fin. Trois questions à choix multiples suivent : ce que Malo doit faire seul, la durée des répétitions, et ce qu'il ressent une fois le spectacle terminé.",
+   "p2": "C'est le texte des émotions qui changent : Malo commence avec le trac et finit fier de lui, et tout le travail du lecteur est de suivre ce chemin intérieur. La dernière question y veille — répondre « il a encore le trac » révèle qu'on a lu le début et pas la fin. La question du « depuis un mois » entraîne autre chose : repérer une information de temps glissée au fil du récit, que la mémoire seule restitue mal. Un texte parfait pour parler ensuite, en classe, de ces peurs qui se surmontent.",
+   "p3": "La fiche s'imprime gratuitement en PDF — à ressortir, évidemment, à l'approche du vrai spectacle de l'école. Dans la même veine des émotions à hauteur d'enfant, la nuit en camping fait ressentir une soirée toute en douceur ; et le marché du samedi ramène le lecteur à la vie de tous les jours, panier au bras.",
+   "canonicalDeckSlug": "lecture-comprehension-g2273",
+   "carousel": [
+    {
+     "label": "Lecture CE1 : le crabe de la plage",
+     "href": "lecture-ce1-crabe-de-la-plage"
+    },
+    {
+     "label": "Lecture CE1 : l'escargot du potager",
+     "href": "lecture-ce1-escargot-du-potager"
+    },
+    {
+     "label": "Lecture CE1 : la nuit en camping",
+     "href": "lecture-ce1-nuit-en-camping"
+    },
+    {
+     "label": "Lecture CE1 : le marché du samedi",
+     "href": "lecture-ce1-marche-du-samedi"
+    }
+   ],
+   "title": "Lecture CE1 : le spectacle de l'école | à imprimer PDF",
+   "metaDescription": "Malo a le trac avant le grand spectacle de l'école — jusqu'aux applaudissements. Histoire et trois questions. Fiche de lecture CE1 gratuite en PDF."
+  },
+  {
+   "slug": "addition-avec-retenue",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Opérations posées",
+   "h1": "Addition avec retenue : additions posées à 2 chiffres",
+   "strand": "Nombres et calculs",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "operations-posees",
+    "ce2"
+   ],
+   "p1": "Cette fiche aligne des additions posées à deux chiffres où, à chaque fois, les unités débordent : leur somme dépasse 9, et il faut une retenue. Au-dessus de la colonne des dizaines, une petite case en pointillés attend justement ce 1 que l'on retient. L'enfant calcule colonne par colonne, unités d'abord : il écrit le chiffre des unités du résultat, note la retenue dans sa case, puis l'ajoute au calcul des dizaines.",
+   "p2": "Le bon réflexe à installer ici est de comprendre ce que ce petit 1 veut dire — car il ne vaut pas un, il vaut dix. Quand 8 + 7 font 15, on écrit 5 et l'on retient 1 : quinze unités viennent de s'échanger contre une dizaine et cinq unités. La case en pointillés rend cet échange visible et matériel, au lieu de le laisser flotter dans la tête où il s'oublie. Une fiche entière d'additions du même type, sans mélange, permet de répéter ce geste jusqu'à ce qu'il devienne tranquille.",
+   "p3": "La fiche s'imprime gratuitement en PDF pour un entraînement ciblé au CE1. L'étape d'après est le miroir de celle-ci : la soustraction avec retenue, où la dizaine ne se retient plus mais s'emprunte ; et quand les deux gestes sont solides, l'addition à 3 chiffres avec retenue élargit le terrain de jeu jusqu'aux centaines.",
+   "canonicalDeckSlug": "operations-posees-g3359",
+   "carousel": [
+    {
+     "label": "Soustraction avec retenue : soustractions posées à 2 chiffres",
+     "href": "soustraction-avec-retenue"
+    },
+    {
+     "label": "Addition à 3 chiffres avec retenue",
+     "href": "addition-3-chiffres-avec-retenue"
+    },
+    {
+     "label": "Soustraction avec des zéros : franchir le zéro",
+     "href": "soustraction-avec-des-zeros"
+    },
+    {
+     "label": "Additions et soustractions avec retenue : la révision",
+     "href": "additions-et-soustractions-avec-retenue"
+    }
+   ],
+   "title": "Addition avec retenue CE1 | à imprimer PDF gratuit",
+   "metaDescription": "Additions posées à deux chiffres avec retenue : des cases en pointillés en haut des colonnes pour noter la dizaine retenue. Fiche CE1 gratuite en PDF."
+  },
+  {
+   "slug": "soustraction-avec-retenue",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Opérations posées",
+   "h1": "Soustraction avec retenue : soustractions posées à 2 chiffres",
+   "strand": "Nombres et calculs",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "operations-posees",
+    "ce2"
+   ],
+   "p1": "Sur cette fiche, toutes les soustractions posées à deux chiffres ont le même piège : en bas de la colonne des unités, le chiffre à soustraire est plus grand que celui du haut. Impossible de retirer 8 de 3 — il faut aller chercher une dizaine à côté. L'enfant calcule colonne par colonne et apprend le geste de l'emprunt : la dizaine cassée devient dix unités, le 3 devient 13, et le calcul repart.",
+   "p2": "Si la retenue de l'addition est un échange que l'on met de côté, celle de la soustraction est un échange que l'on va chercher — et c'est ce sens inverse qui déroute tant d'élèves. Le point d'appui, c'est la monnaie de la numération : une dizaine s'échange toujours contre dix unités, dans un sens comme dans l'autre. En ne proposant que des soustractions à emprunt, la fiche évite le demi-savoir du « parfois ça marche » : ici, chaque calcul oblige à casser une dizaine, et le geste se répète jusqu'à perdre son mystère.",
+   "p3": "La fiche est gratuite, au format PDF. Avant elle, l'addition avec retenue installe l'échange dans le sens le plus simple ; après elle, la soustraction avec des zéros pose le cas le plus célèbre — emprunter quand la colonne d'à côté n'a rien à prêter. Le chemin est balisé, marche après marche.",
+   "canonicalDeckSlug": "operations-posees-g3360",
+   "carousel": [
+    {
+     "label": "Addition à 3 chiffres avec retenue",
+     "href": "addition-3-chiffres-avec-retenue"
+    },
+    {
+     "label": "Soustraction avec des zéros : franchir le zéro",
+     "href": "soustraction-avec-des-zeros"
+    },
+    {
+     "label": "Additions et soustractions avec retenue : la révision",
+     "href": "additions-et-soustractions-avec-retenue"
+    },
+    {
+     "label": "Addition avec retenue : additions posées à 2 chiffres",
+     "href": "addition-avec-retenue"
+    }
+   ],
+   "title": "Soustraction avec retenue CE2 | à imprimer PDF gratuit",
+   "metaDescription": "Soustractions posées à deux chiffres avec retenue : quand les unités ne suffisent pas, on casse une dizaine. Fiche CE1-CE2 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "addition-3-chiffres-avec-retenue",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Opérations posées",
+   "h1": "Addition à 3 chiffres avec retenue",
+   "strand": "Nombres et calculs",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "operations-posees",
+    "ce2"
+   ],
+   "p1": "Cette fiche fait franchir un cap : des additions posées à trois chiffres, avec retenue. Le calcul s'étire sur trois colonnes — unités, dizaines, centaines — et les cases en pointillés du haut accueillent les retenues au fil de la traversée. L'enfant avance de droite à gauche, comme toujours : les unités peuvent envoyer une retenue aux dizaines, et les dizaines, à leur tour, en envoyer une aux centaines.",
+   "p2": "Ce que les centaines apportent, c'est la retenue en chaîne : un même calcul peut en demander deux, et la deuxième naît parfois de la première — c'est le 1 retenu qui fait déborder la colonne des dizaines. L'élève découvre que la technique apprise sur deux chiffres n'a pas à changer d'un pouce : elle se répète, colonne après colonne, aussi loin que le nombre s'étend. C'est la grande élégance de l'opération posée, et la comprendre ici, sur trois chiffres, c'est être armé pour tous les nombres à venir.",
+   "p3": "La fiche se télécharge gratuitement en PDF, pour asseoir la technique au CE2. Si l'emprunt de la soustraction n'est pas encore fluide, la soustraction avec retenue mérite sa séance à part ; et pour l'épreuve reine du calcul posé, la soustraction avec des zéros attend les élèves bien entraînés.",
+   "canonicalDeckSlug": "operations-posees-g3361",
+   "carousel": [
+    {
+     "label": "Soustraction avec des zéros : franchir le zéro",
+     "href": "soustraction-avec-des-zeros"
+    },
+    {
+     "label": "Additions et soustractions avec retenue : la révision",
+     "href": "additions-et-soustractions-avec-retenue"
+    },
+    {
+     "label": "Addition avec retenue : additions posées à 2 chiffres",
+     "href": "addition-avec-retenue"
+    },
+    {
+     "label": "Soustraction avec retenue : soustractions posées à 2 chiffres",
+     "href": "soustraction-avec-retenue"
+    }
+   ],
+   "title": "Addition à 3 chiffres avec retenue CE2 | à imprimer PDF",
+   "metaDescription": "Additions posées à trois chiffres : la retenue passe des unités aux dizaines, puis des dizaines aux centaines. Fiche CE2 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "soustraction-avec-des-zeros",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Opérations posées",
+   "h1": "Soustraction avec des zéros : franchir le zéro",
+   "strand": "Nombres et calculs",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "operations-posees",
+    "ce2"
+   ],
+   "p1": "Cette fiche rassemble les soustractions que les élèves n'oublient jamais : celles du type 302 − 158, où l'on doit emprunter… à une colonne qui affiche zéro. Impossible de retirer 8 de 2, on se tourne vers les dizaines — et il n'y en a pas. Il faut alors remonter jusqu'aux centaines, casser une centaine en dix dizaines, puis une de ces dizaines en dix unités, avant de pouvoir enfin calculer.",
+   "p2": "Ce double emprunt est le sommet technique de la soustraction posée, et le rater n'a rien d'une étourderie : c'est le signe qu'un maillon de la numération manque encore. Le franchir, à l'inverse, prouve une compréhension profonde — l'élève qui sait expliquer pourquoi le 0 devient 9 dans « 302 − 158 » a réellement compris que les rangs d'un nombre s'échangent de proche en proche. Une fiche entière de ce seul cas donne le temps de démonter le mécanisme, de le refaire, et de le voir enfin comme une évidence.",
+   "p3": "La fiche s'imprime gratuitement en PDF — à réserver aux élèves déjà à l'aise avec la soustraction avec retenue simple, dont elle est l'étage supérieur. Une fois ce sommet franchi, la révision des opérations avec retenue mélange tous les cas et transforme la technique en réflexe complet.",
+   "canonicalDeckSlug": "operations-posees-g3362",
+   "carousel": [
+    {
+     "label": "Additions et soustractions avec retenue : la révision",
+     "href": "additions-et-soustractions-avec-retenue"
+    },
+    {
+     "label": "Addition avec retenue : additions posées à 2 chiffres",
+     "href": "addition-avec-retenue"
+    },
+    {
+     "label": "Soustraction avec retenue : soustractions posées à 2 chiffres",
+     "href": "soustraction-avec-retenue"
+    },
+    {
+     "label": "Addition à 3 chiffres avec retenue",
+     "href": "addition-3-chiffres-avec-retenue"
+    }
+   ],
+   "title": "Soustraction avec des zéros CE2 | à imprimer PDF",
+   "metaDescription": "Des soustractions posées du type 302 − 158 : emprunter quand la colonne voisine affiche zéro. Fiche d'entraînement CE2 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "additions-et-soustractions-avec-retenue",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Opérations posées",
+   "h1": "Additions et soustractions avec retenue : la révision",
+   "strand": "Nombres et calculs",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "operations-posees",
+    "ce2"
+   ],
+   "p1": "Cette fiche de révision mélange tout : additions et soustractions posées se suivent sans ordre, avec ou sans retenue selon les calculs. Plus de fiche « à thème » où le même geste se répète — ici, avant chaque opération, l'enfant doit d'abord lire le signe, puis décider : est-ce que je retiens, est-ce que j'emprunte, ou est-ce que cette colonne passe toute seule ? Les cases en pointillés restent là pour accueillir les retenues des additions.",
+   "p2": "C'est le mélange qui fait la valeur de cette page. Sur une fiche d'un seul type, on peut réussir en pilote automatique ; ici, l'automatisme ne suffit plus, il faut la vigilance — celle qui fait vérifier le signe avant de calculer, et choisir la bonne technique au lieu d'appliquer la dernière apprise. C'est exactement la situation des vrais problèmes et des évaluations, où personne ne prévient de ce qui tombe. Une opération mal engagée puis rattrapée vaut ici de l'or : c'est la preuve que l'élève se relit.",
+   "p3": "La fiche est gratuite, au format PDF — parfaite en fin de séquence, pour mesurer le chemin parcouru. Si le mélange révèle une faiblesse, chaque geste a sa fiche de rattrapage : l'addition avec retenue d'un côté, la soustraction avec des zéros pour le grand cas difficile. Et la suite du voyage s'appelle multiplication — les tables, à commencer par la table de 2.",
+   "canonicalDeckSlug": "operations-posees-g3363",
+   "carousel": [
+    {
+     "label": "Addition avec retenue : additions posées à 2 chiffres",
+     "href": "addition-avec-retenue"
+    },
+    {
+     "label": "Soustraction avec retenue : soustractions posées à 2 chiffres",
+     "href": "soustraction-avec-retenue"
+    },
+    {
+     "label": "Addition à 3 chiffres avec retenue",
+     "href": "addition-3-chiffres-avec-retenue"
+    },
+    {
+     "label": "Soustraction avec des zéros : franchir le zéro",
+     "href": "soustraction-avec-des-zeros"
+    }
+   ],
+   "title": "Additions et soustractions avec retenue | à imprimer PDF",
+   "metaDescription": "Fiche de révision : additions et soustractions posées mélangées, avec retenue quand il le faut. L'enfant choisit le bon geste. Fiche CE2 gratuite en PDF."
+  },
+  {
+   "slug": "table-de-2",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Tables de multiplication",
+   "h1": "La table de 2 : de 1 × 2 à 10 × 2",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tables-de-multiplication",
+    "ce2"
+   ],
+   "p1": "Cette fiche déroule la table de 2 en entier : les dix multiplications, de 1 × 2 à 10 × 2, alignées en échelle, chacune avec sa case où écrire le résultat. L'enfant grimpe les barreaux dans l'ordre — 2, 4, 6, 8… — et voit la table se construire sous ses yeux, produit après produit, jusqu'à 20.",
+   "p2": "La table de 2 est la porte d'entrée rêvée dans la multiplication, parce qu'elle ne demande presque rien de neuf : multiplier par 2, c'est doubler, et les doubles sont déjà là — 3 + 3, 4 + 4, l'enfant les connaît depuis les additions. La fiche fait ce pont : chaque ligne peut se vérifier en additionnant le nombre à lui-même, si bien que la table ne tombe pas du ciel, elle se retrouve. Et son échelle a un rythme que l'oreille attrape vite : 2, 4, 6, 8 — les nombres pairs, tout simplement.",
+   "p3": "La fiche s'imprime gratuitement en PDF, à répéter sur plusieurs jours jusqu'à ce que l'échelle se récite sans effort. Après les 2, la table de 5 offre le deuxième rythme facile ; et le jour venu, la table de 4 réservera une jolie surprise : ce ne sera que du déjà-vu, en doublant encore une fois.",
+   "canonicalDeckSlug": "tables-de-multiplication-g3364",
+   "carousel": [
+    {
+     "label": "La table de 5 : de 1 × 5 à 10 × 5",
+     "href": "table-de-5"
+    },
+    {
+     "label": "La table de 10 : de 1 × 10 à 10 × 10",
+     "href": "table-de-10"
+    },
+    {
+     "label": "La table de 3 : de 1 × 3 à 10 × 3",
+     "href": "table-de-3"
+    },
+    {
+     "label": "La table de 4 : de 1 × 4 à 10 × 4",
+     "href": "table-de-4"
+    }
+   ],
+   "title": "Table de 2 CE1 – fiche d'exercices | à imprimer PDF",
+   "metaDescription": "La table de 2 complète, de 1 × 2 à 10 × 2, avec une case réponse pour chaque produit. La table des doubles ! Fiche CE1 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "table-de-5",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Tables de multiplication",
+   "h1": "La table de 5 : de 1 × 5 à 10 × 5",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tables-de-multiplication",
+    "ce2"
+   ],
+   "p1": "Sur cette fiche, l'enfant complète la table de 5 du premier au dernier barreau : 1 × 5, 2 × 5, et ainsi de suite jusqu'à 10 × 5, chaque produit dans sa case. L'échelle monte de cinq en cinq — 5, 10, 15, 20 — et révèle vite son secret : tous les résultats se terminent par 5 ou par 0, en alternance parfaite.",
+   "p2": "Cette régularité fait de la table de 5 la table du comptage sauté : on peut la retrouver en comptant de cinq en cinq sur les doigts d'une main imaginaire, et c'est un excellent réflexe de secours les jours d'hésitation. Elle a aussi un allié dans la vie de tous les jours : l'horloge. Les minutes s'y lisent de cinq en cinq — la grande aiguille sur le 3, c'est 3 × 5, quinze minutes. Apprendre cette table, c'est donc préparer, sans en avoir l'air, la lecture de l'heure ; peu de tables ont un terrain d'application aussi immédiat.",
+   "p3": "La fiche se télécharge gratuitement en PDF et se combine très bien avec la table de 2 pour un premier duo de tables « faciles ». La marche suivante est toute proche : la table de 10, dont l'échelle ressemble à celle des 5 en deux fois plus grand — les élèves adorent découvrir le lien entre les deux.",
+   "canonicalDeckSlug": "tables-de-multiplication-g3365",
+   "carousel": [
+    {
+     "label": "La table de 10 : de 1 × 10 à 10 × 10",
+     "href": "table-de-10"
+    },
+    {
+     "label": "La table de 3 : de 1 × 3 à 10 × 3",
+     "href": "table-de-3"
+    },
+    {
+     "label": "La table de 4 : de 1 × 4 à 10 × 4",
+     "href": "table-de-4"
+    },
+    {
+     "label": "La table de 2 : de 1 × 2 à 10 × 2",
+     "href": "table-de-2"
+    }
+   ],
+   "title": "Table de 5 CE1 – fiche d'exercices | à imprimer PDF",
+   "metaDescription": "La table de 5 complète, de 1 × 5 à 10 × 5 : l'échelle qui finit par 5 ou par 0, celle des minutes de l'horloge. Fiche CE1 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "table-de-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Tables de multiplication",
+   "h1": "La table de 10 : de 1 × 10 à 10 × 10",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tables-de-multiplication",
+    "ce2"
+   ],
+   "p1": "Cette fiche parcourt la table de 10, de 1 × 10 jusqu'à 10 × 10 et son beau 100 final, avec une case réponse à chaque ligne. L'échelle est spectaculaire : 10, 20, 30… les dizaines rondes défilent, et l'enfant qui sait compter de dix en dix se sent tout de suite en terrain conquis.",
+   "p2": "Le piège serait de n'y voir qu'un truc — « on ajoute un zéro » — sans comprendre pourquoi il marche. La vraie explication est une affaire de numération : multiplier par 10, c'est transformer des unités en dizaines ; le 7 de « 7 × 10 » ne reçoit pas un zéro en cadeau, il déménage d'un rang vers la gauche, et le zéro ne fait que tenir la place des unités restées vides. Vue ainsi, la table de 10 devient une leçon de placement des chiffres — la même idée qui, plus tard, fera comprendre 7 × 100 et les multiplications posées.",
+   "p3": "La fiche est gratuite, au format PDF — parfaite pour clore le premier trio de tables avec celle de 2 et celle de 5. D'ailleurs, un détour par la table de 5 après celle-ci réserve une découverte : chaque barreau des 5 est exactement la moitié du barreau des 10. Ces ponts entre tables sont la meilleure façon de les retenir toutes.",
+   "canonicalDeckSlug": "tables-de-multiplication-g3366",
+   "carousel": [
+    {
+     "label": "La table de 3 : de 1 × 3 à 10 × 3",
+     "href": "table-de-3"
+    },
+    {
+     "label": "La table de 4 : de 1 × 4 à 10 × 4",
+     "href": "table-de-4"
+    },
+    {
+     "label": "La table de 2 : de 1 × 2 à 10 × 2",
+     "href": "table-de-2"
+    },
+    {
+     "label": "La table de 5 : de 1 × 5 à 10 × 5",
+     "href": "table-de-5"
+    }
+   ],
+   "title": "Table de 10 CE1 – fiche d'exercices | à imprimer PDF",
+   "metaDescription": "La table de 10 complète, de 1 × 10 à 10 × 10 : comprendre pourquoi « ça ajoute un zéro », avec la numération. Fiche CE1 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "table-de-3",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Tables de multiplication",
+   "h1": "La table de 3 : de 1 × 3 à 10 × 3",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tables-de-multiplication",
+    "ce2"
+   ],
+   "p1": "Cette fiche présente la table de 3 au complet : dix lignes, de 1 × 3 à 10 × 3, chacune avec sa case à remplir. L'échelle monte de trois en trois — 3, 6, 9, 12 — et l'enfant l'écrit en entier, dans l'ordre, pour que la suite s'installe à la fois dans la main, dans l'œil et dans l'oreille.",
+   "p2": "Il faut le dire aux enfants : la table de 3 est la première vraie table. Celle de 2, c'étaient les doubles ; celle de 10, la numération ; celle de 5, le comptage sur les doigts. Ici, plus de raccourci qui fasse tout le travail — 7 × 3 ne se devine pas, il se sait. C'est donc avec cette table que se construit la méthode de mémorisation qui servira pour toutes les suivantes : l'échelle récitée dans l'ordre, puis dans le désordre, les produits difficiles répétés à part — chacun trouve ses points d'appui, comme le célèbre 3 × 3 qui fait 9.",
+   "p3": "La fiche s'imprime gratuitement en PDF ; quelques passages réguliers valent mieux qu'une longue séance unique. Le meilleur enchaînement est la table de 4, deux fois la table de 2 — après l'effort des 3, elle paraîtra douce ; et pour ancrer le tout, un retour aux opérations posées montre à quoi ces produits mémorisés vont bientôt servir.",
+   "canonicalDeckSlug": "tables-de-multiplication-g3367",
+   "carousel": [
+    {
+     "label": "La table de 4 : de 1 × 4 à 10 × 4",
+     "href": "table-de-4"
+    },
+    {
+     "label": "La table de 2 : de 1 × 2 à 10 × 2",
+     "href": "table-de-2"
+    },
+    {
+     "label": "La table de 5 : de 1 × 5 à 10 × 5",
+     "href": "table-de-5"
+    },
+    {
+     "label": "La table de 10 : de 1 × 10 à 10 × 10",
+     "href": "table-de-10"
+    }
+   ],
+   "title": "Table de 3 CE2 – fiche d'exercices | à imprimer PDF",
+   "metaDescription": "La table de 3 complète, de 1 × 3 à 10 × 3, avec cases réponses : la première table qui se mémorise vraiment. Fiche CE1-CE2 gratuite, à imprimer en PDF."
+  },
+  {
+   "slug": "table-de-4",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "ce2"
+   },
+   "eyebrow": "Tables de multiplication",
+   "h1": "La table de 4 : de 1 × 4 à 10 × 4",
+   "strand": "Nombres et calculs",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tables-de-multiplication",
+    "ce2"
+   ],
+   "p1": "Cette fiche fait travailler la table de 4 de bout en bout : les dix produits, de 1 × 4 à 10 × 4, avec une case réponse par ligne. L'échelle grimpe de quatre en quatre — 4, 8, 12, 16 — jusqu'à 40, et l'enfant la complète dans l'ordre avant de pouvoir, bientôt, répondre dans le désordre.",
+   "p2": "La table de 4 arrive avec un cadeau : elle est déjà à moitié connue. Multiplier par 4, c'est doubler deux fois — 7 × 4, c'est 7 × 2 que l'on double, 14 puis 28. Pour l'enfant qui possède bien sa table de 2, chaque produit des 4 se retrouve donc en deux temps, et la fiche devient un jeu de vérification : je propose de mémoire, je contrôle en doublant. Ce lien entre tables vaut de l'or, car il enseigne quelque chose de plus grand que la table elle-même : les nombres se fabriquent les uns avec les autres.",
+   "p3": "La fiche se télécharge gratuitement en PDF. Si le doublage hésite, un crochet par la table de 2 remet la base en place en dix minutes ; et pour les élèves qui sortent de la table de 3, comparer les deux échelles côte à côte — 3, 6, 9 contre 4, 8, 12 — aide à ne plus jamais les mélanger. La collection des premières tables se referme ici : il ne reste plus qu'à les entretenir.",
+   "canonicalDeckSlug": "tables-de-multiplication-g3368",
+   "carousel": [
+    {
+     "label": "La table de 2 : de 1 × 2 à 10 × 2",
+     "href": "table-de-2"
+    },
+    {
+     "label": "La table de 5 : de 1 × 5 à 10 × 5",
+     "href": "table-de-5"
+    },
+    {
+     "label": "La table de 10 : de 1 × 10 à 10 × 10",
+     "href": "table-de-10"
+    },
+    {
+     "label": "La table de 3 : de 1 × 3 à 10 × 3",
+     "href": "table-de-3"
+    }
+   ],
+   "title": "Table de 4 CE2 – fiche d'exercices | à imprimer PDF",
+   "metaDescription": "La table de 4 complète, de 1 × 4 à 10 × 4 : le double de la table de 2, à retrouver puis à mémoriser. Fiche CE1-CE2 gratuite, à imprimer en PDF."
   }
  ]
 }

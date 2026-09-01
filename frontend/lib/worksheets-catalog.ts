@@ -56,10 +56,10 @@ export function parseWorksheetFilters(sp: SP): WsFilters {
 }
 
 /** Landings matching the given subset of filters (any null filter is ignored). */
-export function applyLandingFilters(
-  rows: Landing[],
+export function applyLandingFilters<T extends Landing>(
+  rows: T[],
   f: Partial<Pick<WsFilters, 'type' | 'level' | 'theme'>>,
-): Landing[] {
+): T[] {
   return rows.filter((l) => {
     if (f.type && l.coordinate.type !== f.type) return false;
     if (f.level && l.coordinate.level !== f.level) return false;
@@ -109,8 +109,8 @@ export function buildLandingFacets(allRows: Landing[], f: WsFilters): LandingFac
  * tiebreak), then emits one row per bucket per round until all are exhausted.
  * Pure + stable: same input array → same output, every request.
  */
-export function interleaveByAxis(rows: Landing[], keyOf: (l: Landing) => string): Landing[] {
-  const buckets = new Map<string, Landing[]>();
+export function interleaveByAxis<T extends Landing>(rows: T[], keyOf: (l: T) => string): T[] {
+  const buckets = new Map<string, T[]>();
   for (const l of rows) {
     const k = keyOf(l) || '~';
     const b = buckets.get(k);
@@ -120,7 +120,7 @@ export function interleaveByAxis(rows: Landing[], keyOf: (l: Landing) => string)
   const order = [...buckets.keys()].sort(
     (a, b) => buckets.get(b)!.length - buckets.get(a)!.length || (a < b ? -1 : 1),
   );
-  const out: Landing[] = [];
+  const out: T[] = [];
   for (let round = 0; out.length < rows.length; round++) {
     for (const k of order) {
       const b = buckets.get(k)!;
@@ -130,12 +130,12 @@ export function interleaveByAxis(rows: Landing[], keyOf: (l: Landing) => string)
   return out;
 }
 
-export function sortLandings(
-  rows: Landing[],
+export function sortLandings<T extends Landing>(
+  rows: T[],
   locale: string,
   sort: WsSortKey,
   activeType: string | null,
-): Landing[] {
+): T[] {
   // Slug sort first = the deterministic seed order for every mode.
   const base = rows.slice().sort((a, b) => (a.slug < b.slug ? -1 : 1));
   if (sort === 'az' || sort === 'za') {

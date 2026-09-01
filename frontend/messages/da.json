@@ -2555,6 +2555,7 @@
       "safer": "Vælg en opgavetype for at se alle tilgængelige opgaver — interaktiv HTML at spille i browseren plus en printbar PDF til hvert sæt."
     },
     "tileCta": "Se opgaver",
+    "tileCtaSheet": "Se opgaven",
     "newHeading": "Nye opgaveark",
     "moreTypesHeading": "Flere opgavetyper",
     "tileAlt": "Eksempel på opgave: {typeName}",

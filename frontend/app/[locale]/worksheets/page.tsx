@@ -46,6 +46,7 @@ import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
 import type { Landing } from '@/lib/seo/landing-content';
 import { NEW_WORKSHEET_GROUPS, MORE_TYPE_GROUPS } from '@/config/worksheets-new-highlights';
+import { collapsedSheetSlugs, expandHubRows, type HubRow } from '@/lib/worksheets-sheets';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -238,12 +239,39 @@ export default async function AllWorksheetsPage({
   // ---- faceted landing catalog (SSR over the in-memory landing arrays —
   // microseconds at 2.5k entries; absent for unled locales = substrate honesty). ----
   const allLandings = getMonolingualLandings(locale);
+
+  // Expand the landing tier into the actual worksheets it collapses, so the
+  // grid, the result count and the facet counts describe sheets rather than
+  // landing pages (see lib/worksheets-sheets.ts — filtering en by "Arrays and
+  // Multiplication" returned 2 of 27 before this). Titles come from the DB
+  // because only the deck row knows what its own sheet is called; a failed
+  // read degrades to the landing-only rows rather than inventing names.
+  const sheetSlugs = collapsedSheetSlugs(allLandings);
+  const sheetTitles = new Map<string, string>();
+  if (sheetSlugs.length > 0) {
+    try {
+      const decks = await prisma.deck.findMany({
+        where: { language: locale, status: 'published', slug: { in: sheetSlugs } },
+        select: { slug: true, title: true },
+      });
+      for (const d of decks) {
+        const t = d.title as Record<string, string> | null;
+        const label = t ? t[locale] || t.en || Object.values(t)[0] : null;
+        if (label) sheetTitles.set(d.slug, label);
+      }
+    } catch (err) {
+      console.warn('[AllWorksheetsPage] sheet-title query failed:', (err as Error).message);
+    }
+  }
+  const hubRows: HubRow[] = expandHubRows(allLandings, sheetTitles, (slug) =>
+    deckAssets(locale, slug).deckDir,
+  );
   const filters = parseWorksheetFilters(searchParams ?? {});
   const browseActive = Boolean(filters.type || filters.level || filters.theme);
   const basePath = `/${locale}/worksheets`;
   const spString = toSearchParamsString(searchParams ?? {});
 
-  const facets = allLandings.length > 0 ? buildLandingFacets(allLandings, filters) : null;
+  const facets = hubRows.length > 0 ? buildLandingFacets(hubRows, filters) : null;
 
   let facetGroups: FacetGroupVM[] = [];
   if (facets) {
@@ -298,7 +326,7 @@ export default async function AllWorksheetsPage({
 
   // Filter → variety/alpha sort → paginate.
   const filtered = sortLandings(
-    applyLandingFilters(allLandings, { type: filters.type, level: filters.level, theme: filters.theme }),
+    applyLandingFilters(hubRows, { type: filters.type, level: filters.level, theme: filters.theme }),
     locale,
     filters.sort,
     filters.type,
@@ -328,7 +356,7 @@ export default async function AllWorksheetsPage({
   //     the facet rail or a sibling landing; each card is chipped with that
   //     family's other GRADE BANDS.
   // Slugs that no longer exist in the corpus are dropped silently.
-  const landingBySlug = new Map(allLandings.map((l) => [l.slug, l]));
+  const landingBySlug = new Map(hubRows.map((l) => [l.slug, l]));
   const bareHubState = !browseActive && page === 1 && filters.sort === 'variety';
   const rehydrateGroups = (groups: { base: string; variations: string[] }[]): HighlightGroup[] =>
     !bareHubState
@@ -432,14 +460,14 @@ export default async function AllWorksheetsPage({
   // only; canonical stays the bare hub, no metadata change (§21.5a-safe). ----
   const dirThemes = (() => {
     const m = new Map<string, number>();
-    for (const l of allLandings) if (l.coordinate.theme) m.set(l.coordinate.theme, (m.get(l.coordinate.theme) || 0) + 1);
+    for (const l of hubRows) if (l.coordinate.theme) m.set(l.coordinate.theme, (m.get(l.coordinate.theme) || 0) + 1);
     return [...m.entries()].sort(
       (a, b) => b[1] - a[1] || themeLabel(a[0], locale).localeCompare(themeLabel(b[0], locale), locale),
     );
   })();
   const dirLevels = (() => {
     const m = new Map<string, number>();
-    for (const l of allLandings) m.set(l.coordinate.level, (m.get(l.coordinate.level) || 0) + 1);
+    for (const l of hubRows) m.set(l.coordinate.level, (m.get(l.coordinate.level) || 0) + 1);
     return [...m.entries()].sort((a, b) => levelOrder(a[0]) - levelOrder(b[0]));
   })();
   const facetHref = (key: string, value: string) =>
@@ -470,7 +498,7 @@ export default async function AllWorksheetsPage({
   }
   // Bare-state landing ItemList (first catalog page, variety order — still
   // deterministic); filtered states emit none (canonical is the bare hub).
-  if (allLandings.length > 0 && !browseActive && page === 1 && filters.sort === 'variety') {
+  if (hubRows.length > 0 && !browseActive && page === 1 && filters.sort === 'variety') {
     collectionSchema.hasPart = {
       '@type': 'ItemList',
       numberOfItems: pageItems.length,
@@ -478,7 +506,9 @@ export default async function AllWorksheetsPage({
         '@type': 'ListItem',
         position: i + 1,
         name: l.h1,
-        url: canonicalUrl(localePath(locale, 'worksheets', l.slug)),
+        // deckHref is already an absolute, trailing-slash deck URL; canonicalUrl
+        // strips the slash, which would emit the form that 301s.
+        url: l.deckHref || canonicalUrl(localePath(locale, 'worksheets', l.slug)),
       })),
     };
   }
@@ -508,13 +538,13 @@ export default async function AllWorksheetsPage({
             </p>
           </header>
 
-          {allLandings.length === 0 && tiles.length === 0 ? (
+          {hubRows.length === 0 && tiles.length === 0 ? (
             <div className="actcat-card-flat rounded-3xl p-10 md:p-12 text-center max-w-2xl mx-auto">
               <p className="font-lcsDisplay font-bold text-xl text-lcs-teal mb-3">{t('emptyTitle')}</p>
               <p className="font-lcsBody text-lcs-teal/70">{t('emptyBody')}</p>
             </div>
           ) : (
-            allLandings.length > 0 && (
+            hubRows.length > 0 && (
               <div className="lg:grid lg:grid-cols-12 lg:gap-8">
                 <CatalogSidebar heading={tFacets('heading')} groups={facetGroups} basePath={basePath} spString={spString} />
 
@@ -553,13 +583,14 @@ export default async function AllWorksheetsPage({
                       {pageItems.map((l, i) => (
                         <WorksheetCatalogCard
                           key={l.slug}
-                          href={localePath(locale, 'worksheets', l.slug)}
+                          href={l.deckHref || localePath(locale, 'worksheets', l.slug)}
+                          external={Boolean(l.deckHref)}
                           thumbnailSrc={wwwImg(deckAssets(locale, l.canonicalDeckSlug).thumbnail)}
                           title={l.h1}
                           levelLabel={levelChip(l.coordinate.level, locale)}
                           typeLabel={getAxisName('exercise-type', l.coordinate.type, locale) || l.coordinate.type}
                           subject={worksheetSubject(l.coordinate.type)}
-                          ctaLabel={t('tileCta')}
+                          ctaLabel={l.deckHref ? t('tileCtaSheet') : t('tileCta')}
                           eager={page === 1 && newHighlightGroups.length === 0 && i < EAGER_CARDS}
                         />
                       ))}
@@ -603,7 +634,7 @@ export default async function AllWorksheetsPage({
 
           {/* Browse by theme — complete crawlable directory (Lever A). Every
               theme links to its filtered hub view; plain <a>, no images/prefetch. */}
-          {allLandings.length > 0 && dirThemes.length > 0 && (
+          {hubRows.length > 0 && dirThemes.length > 0 && (
             <section className="mt-10 md:mt-12" aria-labelledby="theme-dir-heading">
               <h2 id="theme-dir-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
                 {tBrowse('browseByTheme')}
@@ -623,7 +654,7 @@ export default async function AllWorksheetsPage({
           )}
 
           {/* Browse by level — complete crawlable directory (Lever A). */}
-          {allLandings.length > 0 && dirLevels.length > 0 && (
+          {hubRows.length > 0 && dirLevels.length > 0 && (
             <section className="mt-8" aria-labelledby="level-dir-heading">
               <h2 id="level-dir-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
                 {tBrowse('browseByLevel')}

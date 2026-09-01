@@ -4064,6 +4064,7 @@
       "safer": "Escolha um tipo de atividade para ver todas as atividades disponíveis — HTML interativo para jogar no navegador e um PDF imprimível para cada conjunto."
     },
     "tileCta": "Ver atividades",
+    "tileCtaSheet": "Ver atividade",
     "newHeading": "Novas atividades",
     "moreTypesHeading": "Mais tipos de exercício",
     "tileAlt": "Exemplo de atividade: {typeName}",

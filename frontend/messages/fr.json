@@ -2578,6 +2578,7 @@
       "safer": "Choisis un type de fiche pour voir toutes les fiches disponibles — HTML interactif à jouer dans le navigateur plus un PDF imprimable pour chaque série."
     },
     "tileCta": "Voir les fiches",
+    "tileCtaSheet": "Voir la fiche",
     "newHeading": "Nouvelles fiches",
     "moreTypesHeading": "Plus de types d'exercices",
     "tileAlt": "Exemple de fiche : {typeName}",

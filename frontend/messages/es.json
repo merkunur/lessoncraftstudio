@@ -4077,6 +4077,7 @@
       "safer": "Elige un tipo de ficha para ver todas las fichas disponibles — HTML interactivo para jugar en el navegador y un PDF imprimible para cada conjunto."
     },
     "tileCta": "Ver fichas",
+    "tileCtaSheet": "Ver ficha",
     "newHeading": "Nuevas fichas",
     "moreTypesHeading": "Más tipos de ejercicio",
     "tileAlt": "Ejemplo de ficha: {typeName}",

@@ -4079,6 +4079,7 @@
       "safer": "Scegli un tipo di scheda per vedere tutte le schede disponibili — HTML interattivo da giocare nel browser più un PDF stampabile per ogni serie."
     },
     "tileCta": "Vedi le schede",
+    "tileCtaSheet": "Vedi la scheda",
     "newHeading": "Nuove schede",
     "moreTypesHeading": "Altri tipi di esercizio",
     "tileAlt": "Esempio di scheda: {typeName}",

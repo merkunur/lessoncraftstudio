@@ -2558,6 +2558,7 @@
       "safer": "Välj en arbetsbladstyp för att se alla tillgängliga arbetsblad — interaktiv HTML att spela i webbläsaren plus en utskrivbar PDF för varje set."
     },
     "tileCta": "Se arbetsbladen",
+    "tileCtaSheet": "Se arbetsbladet",
     "newHeading": "Nya arbetsblad",
     "moreTypesHeading": "Fler övningstyper",
     "tileAlt": "Arbetsbladsexempel: {typeName}",

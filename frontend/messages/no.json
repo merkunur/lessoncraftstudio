@@ -2562,6 +2562,7 @@
       "safer": "Velg en oppgavetype for å se alle tilgjengelige oppgaver — interaktiv HTML å spille i nettleseren pluss en utskrivbar PDF for hvert sett."
     },
     "tileCta": "Se oppgavene",
+    "tileCtaSheet": "Se oppgaven",
     "newHeading": "Nye oppgaveark",
     "moreTypesHeading": "Flere oppgavetyper",
     "tileAlt": "Eksempel på oppgave: {typeName}",

@@ -2558,6 +2558,7 @@
       "safer": "Kies een werkbladtype om alle beschikbare werkbladen te zien — interactieve HTML om in de browser te spelen plus een afdrukbare PDF voor elke set."
     },
     "tileCta": "Bekijk werkbladen",
+    "tileCtaSheet": "Bekijk werkblad",
     "newHeading": "Nieuwe werkbladen",
     "moreTypesHeading": "Meer oefentypes",
     "tileAlt": "Voorbeeld werkblad: {typeName}",

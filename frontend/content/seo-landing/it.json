@@ -115194,6 +115194,848 @@
    ],
    "title": "Schede successioni numeriche classe terza – regole | da stampare gratis (PDF)",
    "metaDescription": "Schede di successioni numeriche per la classe terza da stampare in PDF: proseguire le sequenze, macchine dei numeri entrata-uscita, trovare la regola, contare all'indietro. Gratis."
+  },
+  {
+   "slug": "pregrafismo-percorsi",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di pregrafismo",
+   "h1": "Percorsi di pregrafismo per la scuola dell'infanzia",
+   "strand": "Motricità fine e pregrafismo",
+   "slotTokens": [
+    "pregrafismo",
+    "animali",
+    "infanzia"
+   ],
+   "p1": "Questa scheda di pregrafismo per la scuola dell'infanzia propone al bambino delle corsie di linee tutte da percorrere: onde, zigzag, ricci e ponticelli. Si appoggia la matita sul punto arancione, si segue la freccia e si ripassa il tracciato senza staccare la mano, fino in fondo alla corsia, dove aspetta un simpatico animale. Ogni riga è un piccolo viaggio: il gesto parte lento, poi diventa via via più sicuro e fluido.",
+   "p2": "Dietro questi percorsi c'è tutto il lavoro che prepara la mano a scrivere. Ripassare onde e zigzag allena il controllo della matita, la corretta impugnatura e la coordinazione occhio-mano; il punto di partenza e la direzione della freccia abituano fin da subito al movimento da sinistra verso destra, lo stesso della scrittura. Sono i gesti grafici di base da cui, tra qualche mese, nasceranno lettere e numeri ben formati.",
+   "p3": "La scheda si stampa gratuitamente in PDF: perfetta per un momento di calma al tavolo, a casa o in sezione. Quando le corsie scorrono senza fatica, il passo successivo viene naturale: i numeri tratteggiati da 0 a 9 da ripassare con punto di partenza e frecce, oppure le lettere maiuscole da ricalcare sulle righe. E per allenare la mano divertendosi, c'è sempre il grande labirinto da tracciare con la matita.",
+   "canonicalDeckSlug": "pregrafismo-animali-k236",
+   "carousel": [
+    {
+     "label": "Numeri tratteggiati da 0 a 9 da ricalcare",
+     "href": "numeri-tratteggiati"
+    },
+    {
+     "label": "Lettere maiuscole tratteggiate da ricalcare",
+     "href": "lettere-maiuscole-tratteggiate"
+    },
+    {
+     "label": "Parole frequenti: leggi, ricalca e scrivi",
+     "href": "parole-frequenti"
+    },
+    {
+     "label": "Ritaglia e incolla: metti ogni animale nel suo gruppo",
+     "href": "ritaglia-e-incolla"
+    }
+   ],
+   "title": "Pregrafismo per la scuola dell'infanzia | da stampare PDF",
+   "metaDescription": "Scheda di pregrafismo per la scuola dell'infanzia: onde, zigzag e ricci da ripassare dal punto arancione, con un animale al traguardo. PDF gratis da stampare."
+  },
+  {
+   "slug": "numeri-tratteggiati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda dei numeri",
+   "h1": "Numeri tratteggiati da 0 a 9 da ricalcare",
+   "strand": "Scrittura dei numeri",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "numeri-tratteggiati",
+    "infanzia"
+   ],
+   "p1": "Su questa scheda il bambino ricalca i numeri da 0 a 9 sulle righe di scrittura. Per ogni cifra c'è prima il modello scritto per intero, poi una fila di copie tratteggiate da ripassare: il punto arancione dice dove appoggiare la matita e le frecce mostrano in quale direzione muoverla. Cifra dopo cifra, la mano impara il gesto giusto e il tratteggio lascia spazio a numeri scritti sempre più da soli.",
+   "p2": "Imparare da subito il movimento corretto di ogni cifra è un investimento prezioso: evita che si fissino tracciati storti o rovesciati, difficili da correggere in seguito. Il punto di partenza e le frecce fanno da guida silenziosa, la riga di scrittura dà la misura dell'altezza, e la ripetizione trasforma il gesto in automatismo. Così, quando in classe prima arriveranno i primi calcoli, scrivere i numeri non ruberà più energie al pensare.",
+   "p3": "La scheda è un PDF gratuito da stampare, ideale da rifare più volte finché il tratto non diventa sicuro. Chi ha già confidenza con le cifre può proseguire con le lettere maiuscole tratteggiate, che seguono la stessa logica di ricalco, oppure tornare ai percorsi di pregrafismo per sciogliere la mano prima di iniziare. Un piccolo rituale quotidiano che prepara davvero alla scrittura.",
+   "canonicalDeckSlug": "numeri-tratteggiati-k237",
+   "carousel": [
+    {
+     "label": "Lettere maiuscole tratteggiate da ricalcare",
+     "href": "lettere-maiuscole-tratteggiate"
+    },
+    {
+     "label": "Parole frequenti: leggi, ricalca e scrivi",
+     "href": "parole-frequenti"
+    },
+    {
+     "label": "Ritaglia e incolla: metti ogni animale nel suo gruppo",
+     "href": "ritaglia-e-incolla"
+    },
+    {
+     "label": "Calcola e colora: ogni risultato ha il suo colore",
+     "href": "calcola-e-colora"
+    }
+   ],
+   "title": "Numeri tratteggiati da 0 a 9 – Infanzia | da stampare PDF",
+   "metaDescription": "Numeri tratteggiati da 0 a 9 su righe di scrittura: modello, punto di partenza e frecce guidano la mano del bambino. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "lettere-maiuscole-tratteggiate",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Lettere maiuscole tratteggiate da ricalcare",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "lettere-tratteggiate",
+    "infanzia"
+   ],
+   "p1": "Questa scheda presenta sei lettere maiuscole, ognuna sulla sua riga di scrittura. Il bambino ripassa le copie tratteggiate della lettera, una dopo l'altra, e alla fine trova uno spazio lasciato apposta vuoto: lì prova a scrivere la lettera tutta da solo, senza traccia da seguire. È il momento più bello della scheda, quello in cui il ricalco diventa scrittura vera.",
+   "p2": "Il ricalco guidato fissa nella memoria la forma di ogni lettera: dove si parte, in che ordine si fanno i tratti, quanto deve essere alta sulla riga. Lo spazio finale vuoto ha un ruolo pedagogico preciso: chiede al bambino di richiamare la forma appena allenata, trasformando l'esercizio di mano in un esercizio di memoria. È esattamente il passaggio che rende la scrittura sicura e autonoma, lettera dopo lettera.",
+   "p3": "Stampa la scheda gratuitamente in PDF e proponila in piccole dosi: poche lettere fatte bene valgono più di tante fatte di fretta. Come compagne di lavoro ideali ci sono le parole frequenti da leggere, ricalcare e riscrivere, che danno subito un senso alle lettere appena imparate, e i numeri tratteggiati da 0 a 9 per allenare con la stessa cura anche le cifre. Un piccolo esercizio al giorno, e la mano ringrazia: la scrittura sicura si costruisce così, senza fretta e con tanta soddisfazione.",
+   "canonicalDeckSlug": "lettere-tratteggiate-k238",
+   "carousel": [
+    {
+     "label": "Parole frequenti: leggi, ricalca e scrivi",
+     "href": "parole-frequenti"
+    },
+    {
+     "label": "Ritaglia e incolla: metti ogni animale nel suo gruppo",
+     "href": "ritaglia-e-incolla"
+    },
+    {
+     "label": "Calcola e colora: ogni risultato ha il suo colore",
+     "href": "calcola-e-colora"
+    },
+    {
+     "label": "Labirinto da stampare: trova la strada fino al traguardo",
+     "href": "labirinti-per-bambini"
+    }
+   ],
+   "title": "Lettere maiuscole da ricalcare – Infanzia | da stampare PDF",
+   "metaDescription": "Sei lettere maiuscole da ricalcare sulle righe, con l'ultimo spazio vuoto per scriverle da soli. Scheda per la scuola dell'infanzia, PDF gratis da stampare."
+  },
+  {
+   "slug": "parole-frequenti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda di prime parole",
+   "h1": "Parole frequenti: leggi, ricalca e scrivi",
+   "strand": "Prima lettura e scrittura",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "parole-frequenti",
+    "infanzia"
+   ],
+   "p1": "Quattro parole tra le più frequenti della lingua, e per ciascuna tre passaggi chiari: prima il bambino la legge ad alta voce, poi la ripassa sul tratteggio, infine la scrive tutta da solo sulla riga vuota. Leggere, ricalcare, scrivere: una piccola routine che si ripete uguale per ogni parola e che dà al bambino la soddisfazione di arrivare, ogni volta, a scriverla senza aiuti.",
+   "p2": "Le parole più frequenti sono quelle che il bambino incontrerà in quasi ogni frase: riconoscerle a colpo d'occhio rende la lettura più fluida e lascia energie per capire il significato. Il percorso in tre tappe unisce occhio, voce e mano: la lettura aggancia la parola, il ricalco ne fissa la forma, la scrittura autonoma la deposita nella memoria. È così che le prime parole smettono di essere decifrate e cominciano a essere riconosciute.",
+   "p3": "La scheda si scarica e si stampa gratis in PDF, perfetta per i primi passi verso la lettura. Chi ha ancora bisogno di sicurezza con le singole lettere può allenarsi con le lettere maiuscole tratteggiate; chi invece è pronto per una sfida più grande troverà nel breve racconto con le domande di comprensione un traguardo bellissimo da raggiungere più avanti. E rileggere le stesse parole a distanza di qualche giorno è il modo migliore per scoprire quanto la memoria le ha già fatte sue.",
+   "canonicalDeckSlug": "parole-frequenti-k239",
+   "carousel": [
+    {
+     "label": "Ritaglia e incolla: metti ogni animale nel suo gruppo",
+     "href": "ritaglia-e-incolla"
+    },
+    {
+     "label": "Calcola e colora: ogni risultato ha il suo colore",
+     "href": "calcola-e-colora"
+    },
+    {
+     "label": "Labirinto da stampare: trova la strada fino al traguardo",
+     "href": "labirinti-per-bambini"
+    },
+    {
+     "label": "Amici del 10: trova il numero che manca",
+     "href": "amici-del-10"
+    }
+   ],
+   "title": "Parole frequenti – Leggi, ricalca, scrivi | da stampare PDF",
+   "metaDescription": "Quattro parole frequenti da leggere, ricalcare e riscrivere sulla riga vuota: la prima lettura diventa scrittura sicura. PDF gratis da stampare."
+  },
+  {
+   "slug": "ritaglia-e-incolla",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda ritaglia e incolla",
+   "h1": "Ritaglia e incolla: metti ogni animale nel suo gruppo",
+   "strand": "Motricità fine e classificazione",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "ritaglia-e-incolla",
+    "animali",
+    "infanzia"
+   ],
+   "p1": "In fondo alla scheda c'è una striscia di figure di animali da ritagliare con le forbici. Il bambino le stacca una a una, le osserva bene e poi le incolla nel riquadro del gruppo a cui appartengono, guidato dalle etichette dei riquadri. Tagliare lungo la linea, decidere dove va ogni animale, spalmare la colla e sistemare la figura: ogni gesto è parte del gioco.",
+   "p2": "Questa attività lavora su due piani insieme. Da un lato le forbici: ritagliare seguendo un contorno è uno degli esercizi più efficaci per la motricità fine e per il controllo delle due mani che collaborano. Dall'altro la mente: decidere in quale gruppo va ogni figura è una vera classificazione, lo stesso pensiero che il bambino userà in matematica, in scienze e nella lettura. Ordine delle mani e ordine dei pensieri crescono insieme.",
+   "p3": "Basta stampare il PDF gratuito, prendere forbici dalla punta arrotondata e un po' di colla: il pomeriggio è sistemato. Per continuare con la logica senza forbici c'è il calcola e colora, dove ogni figura si colora in base al risultato di un piccolo calcolo, oppure il grande labirinto da percorrere con la matita, per allenare attenzione e precisione in un'altra veste. E la scheda finita, con tutti gli animali al posto giusto, merita senz'altro un posto d'onore sul frigorifero.",
+   "canonicalDeckSlug": "ritaglia-e-incolla-animali-k240",
+   "carousel": [
+    {
+     "label": "Calcola e colora: ogni risultato ha il suo colore",
+     "href": "calcola-e-colora"
+    },
+    {
+     "label": "Labirinto da stampare: trova la strada fino al traguardo",
+     "href": "labirinti-per-bambini"
+    },
+    {
+     "label": "Amici del 10: trova il numero che manca",
+     "href": "amici-del-10"
+    },
+    {
+     "label": "Calcolo mentale fino a 20: addizioni e sottrazioni",
+     "href": "calcolo-mentale-fino-a-20"
+    }
+   ],
+   "title": "Ritaglia e incolla per l'infanzia – Animali | da stampare PDF",
+   "metaDescription": "Scheda ritaglia e incolla con gli animali: il bambino ritaglia le figure e le incolla nel riquadro del gruppo giusto. Forbici e logica, PDF gratis da stampare."
+  },
+  {
+   "slug": "calcola-e-colora",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda calcola e colora",
+   "h1": "Calcola e colora: ogni risultato ha il suo colore",
+   "strand": "Numeri",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "conta-e-colora",
+    "infanzia"
+   ],
+   "p1": "Sulla scheda ci sono dodici figure dai contorni bianchi, e dentro ognuna si nasconde un piccolo calcolo. In alto, la legenda abbina ogni risultato a un colore scritto in lettere. Il bambino risolve il calcolo, cerca il risultato nella legenda e colora la figura con il colore giusto. Calcolo dopo calcolo, la pagina bianca si trasforma in un disegno colorato tutto suo.",
+   "p2": "Il bello di questa formula è che il colore diventa autocorrezione: se un calcolo è sbagliato, il colore non torna, e il bambino se ne accorge da solo. Nel frattempo lavorano insieme i primi calcoli, la lettura dei nomi dei colori e la cura nel colorare dentro i contorni. È un esercizio di matematica travestito da momento creativo, di quelli che i bambini chiedono di rifare, e proprio per questo funziona: la voglia di vedere il disegno completo tiene viva la concentrazione fino all'ultimo calcolo.",
+   "p3": "Il PDF si stampa gratis, servono solo i pastelli. Chi si diverte con i numeri può proseguire con gli amici del 10, per scoprire le coppie di numeri che insieme fanno dieci, oppure con la scheda ritaglia e incolla degli animali, dove al posto dei pastelli si usano forbici e colla. Piccole attività diverse, stessa gioia di completare la pagina.",
+   "canonicalDeckSlug": "conta-e-colora-k241",
+   "carousel": [
+    {
+     "label": "Labirinto da stampare: trova la strada fino al traguardo",
+     "href": "labirinti-per-bambini"
+    },
+    {
+     "label": "Amici del 10: trova il numero che manca",
+     "href": "amici-del-10"
+    },
+    {
+     "label": "Calcolo mentale fino a 20: addizioni e sottrazioni",
+     "href": "calcolo-mentale-fino-a-20"
+    },
+    {
+     "label": "Famiglie di operazioni: quattro calcoli da una terna",
+     "href": "famiglie-di-operazioni"
+    }
+   ],
+   "title": "Calcola e colora per l'infanzia | da stampare PDF",
+   "metaDescription": "Calcola e colora: dodici figure con un piccolo calcolo dentro e una legenda che abbina risultati e colori. Scheda in PDF gratis da stampare per l'infanzia."
+  },
+  {
+   "slug": "labirinti-per-bambini",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda con labirinto",
+   "h1": "Labirinto da stampare: trova la strada fino al traguardo",
+   "strand": "Percezione visiva e motricità",
+   "slotTokens": [
+    "labirinti",
+    "giocattoli",
+    "infanzia"
+   ],
+   "p1": "Un grande labirinto occupa tutta la scheda, in un allegro mondo di giocattoli. In alto, all'ingresso, aspetta un animaletto pronto a partire; in basso c'è il traguardo da raggiungere. Il bambino esplora i corridoi con gli occhi, prova le strade, torna indietro dai vicoli ciechi e infine traccia con la matita il percorso giusto, dall'inizio alla fine, senza attraversare le pareti.",
+   "p2": "Un labirinto è molto più di un passatempo. Cercare l'unica strada giusta allena l'attenzione visiva e la capacità di pianificare: prima si guarda avanti, poi si traccia. Guidare la matita nei corridoi senza toccare i bordi è un esercizio raffinato di controllo del gesto, mentre i vicoli ciechi insegnano una lezione preziosa: sbagliare strada fa parte del gioco, si torna indietro e si riprova con pazienza. Un allenamento gentile alla perseveranza, che tornerà utile ben oltre il labirinto, davanti a ogni compito un po' difficile.",
+   "p3": "La scheda si stampa gratuitamente in PDF ed è perfetta anche nei momenti di attesa, a casa o in classe. Per continuare ad allenare occhio e matita ci sono i percorsi di pregrafismo con onde e zigzag da ripassare, mentre chi ama le sfide di precisione può cimentarsi con la simmetria sui quadretti, dove ogni disegno va completato a specchio.",
+   "canonicalDeckSlug": "labirinti-giocattoli-k242",
+   "carousel": [
+    {
+     "label": "Amici del 10: trova il numero che manca",
+     "href": "amici-del-10"
+    },
+    {
+     "label": "Calcolo mentale fino a 20: addizioni e sottrazioni",
+     "href": "calcolo-mentale-fino-a-20"
+    },
+    {
+     "label": "Famiglie di operazioni: quattro calcoli da una terna",
+     "href": "famiglie-di-operazioni"
+    },
+    {
+     "label": "Numeri in lettere: cerchia la parola giusta",
+     "href": "numeri-in-lettere"
+    }
+   ],
+   "title": "Labirinti per bambini – Scuola dell'infanzia | da stampare PDF",
+   "metaDescription": "Un grande labirinto dei giocattoli: si parte dall'animaletto in alto e si traccia la strada fino al traguardo. Scheda per bambini in PDF gratis da stampare."
+  },
+  {
+   "slug": "amici-del-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "infanzia"
+   },
+   "eyebrow": "Scheda amici del 10",
+   "h1": "Amici del 10: trova il numero che manca",
+   "strand": "Numeri",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "amici-del-10",
+    "infanzia"
+   ],
+   "p1": "La scheda propone sei schemi parte-parte-tutto dedicati al numero 10: in ogni schema il 10 sta in alto e si divide in due cerchi collegati. Un numero è già scritto, l'altro cerchio è tratteggiato e vuoto: il bambino deve trovare il compagno mancante, l'amico che insieme al primo forma esattamente 10, e scriverlo nel cerchio. Sei schemi, sei coppie di amici da scoprire.",
+   "p2": "Gli amici del 10 sono una delle chiavi del calcolo mentale: chi sa al volo che 7 e 3 fanno 10 avrà vita facile con addizioni e sottrazioni ben più grandi. Lo schema parte-parte-tutto rende visibile l'idea che un numero si può scomporre in pezzi, sempre gli stessi anche se scritti in ordine diverso. È la base concreta su cui poggiano il calcolo in colonna e le strategie mentali dei prossimi anni.",
+   "p3": "Il PDF è gratuito e pronto da stampare: pochi minuti al giorno bastano per fissare tutte le coppie. Quando gli amici del 10 rispondono all'appello, la strada prosegue con il calcolo mentale fino a 20, dodici operazioni da risolvere a mente, e con le famiglie di operazioni, dove tre numeri sul tetto generano quattro calcoli imparentati tra loro. Un gioco da tavolo improvvisato con le dita o con i bottoni può completare l'allenamento: dieci si nasconde ovunque.",
+   "canonicalDeckSlug": "amici-del-10-k243",
+   "carousel": [
+    {
+     "label": "Calcolo mentale fino a 20: addizioni e sottrazioni",
+     "href": "calcolo-mentale-fino-a-20"
+    },
+    {
+     "label": "Famiglie di operazioni: quattro calcoli da una terna",
+     "href": "famiglie-di-operazioni"
+    },
+    {
+     "label": "Numeri in lettere: cerchia la parola giusta",
+     "href": "numeri-in-lettere"
+    },
+    {
+     "label": "Contare le monete: quanto c'è nel borsellino?",
+     "href": "contare-le-monete"
+    }
+   ],
+   "title": "Amici del 10 – Scomposizioni del dieci | da stampare PDF",
+   "metaDescription": "Amici del 10: sei schemi di scomposizione con un cerchio vuoto da completare. Il bambino scopre le coppie di numeri che formano 10. PDF gratis da stampare."
+  },
+  {
+   "slug": "calcolo-mentale-fino-a-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di calcolo mentale",
+   "h1": "Calcolo mentale fino a 20: addizioni e sottrazioni",
+   "strand": "Numeri",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "calcolo-mentale",
+    "classe-prima"
+   ],
+   "p1": "Dodici operazioni aspettano il bambino su questa scheda per la classe prima: addizioni e sottrazioni entro il 20, tutte da risolvere a mente. Niente disegni da contare e niente calcoli in colonna: si legge l'operazione, si pensa, e si scrive il risultato nel riquadro accanto. Dodici piccole sfide, una dopo l'altra, per misurare quanto è diventato veloce il pensiero.",
+   "p2": "Il calcolo mentale entro il 20 è il cuore della matematica di classe prima: è qui che le strategie imparate con le dita e con i materiali diventano automatismi. Passare per il 10, usare i doppi, vedere la sottrazione come distanza tra due numeri: ogni operazione risolta a mente rafforza queste strade. La sicurezza costruita ora è la stessa su cui poggeranno il calcolo in colonna e i problemi degli anni a venire.",
+   "p3": "La scheda si stampa gratis in PDF, ideale come ripasso veloce a casa o come gara serena con se stessi. Se qualche coppia di numeri fa ancora inciampare, conviene ripassare gli amici del 10; per capire invece come addizione e sottrazione si tengono per mano, il passo giusto sono le famiglie di operazioni, con le loro case dal tetto a triangolo. Pochi minuti al giorno, sempre gli stessi, valgono più di una lunga sessione ogni tanto.",
+   "canonicalDeckSlug": "calcolo-mentale-g1208",
+   "carousel": [
+    {
+     "label": "Famiglie di operazioni: quattro calcoli da una terna",
+     "href": "famiglie-di-operazioni"
+    },
+    {
+     "label": "Numeri in lettere: cerchia la parola giusta",
+     "href": "numeri-in-lettere"
+    },
+    {
+     "label": "Contare le monete: quanto c'è nel borsellino?",
+     "href": "contare-le-monete"
+    },
+    {
+     "label": "Disegna le lancette: l'ora giusta sull'orologio",
+     "href": "disegna-le-lancette"
+    }
+   ],
+   "title": "Calcolo mentale fino a 20 – Classe prima | da stampare PDF",
+   "metaDescription": "Dodici addizioni e sottrazioni a mente entro il 20 per la classe prima, con il risultato da scrivere nel riquadro. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "famiglie-di-operazioni",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda delle famiglie",
+   "h1": "Famiglie di operazioni: quattro calcoli da una terna",
+   "strand": "Numeri",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "famiglie-di-operazioni",
+    "classe-prima"
+   ],
+   "p1": "Su questa scheda ci sono quattro casette con il tetto a triangolo. Sul tetto di ogni casa abitano tre numeri; nelle stanze sotto ci sono quattro operazioni da completare: due addizioni e due sottrazioni, tutte costruite con quegli stessi tre numeri. Il bambino usa la terna del tetto per riempire ogni riga, e scopre che i tre numeri bastano per tutta la famiglia.",
+   "p2": "La famiglia di operazioni rende visibile una delle idee più importanti della matematica: addizione e sottrazione sono operazioni inverse. Se 4 più 3 fa 7, allora 7 meno 3 torna a 4: non sono quattro calcoli da imparare, ma un'unica relazione guardata da quattro lati. Chi interiorizza questo legame smette di temere la sottrazione, perché può sempre appoggiarsi all'addizione che già conosce. Ed è la stessa idea che più avanti renderà naturale il controllo dei risultati: ogni sottrazione si può verificare con la sua addizione gemella.",
+   "p3": "Stampa il PDF gratuito e lascia che ogni casetta venga completata con calma: la scoperta vale più della velocità. Come esercizi vicini consigliamo il calcolo mentale fino a 20, per mettere alla prova gli automatismi appena costruiti, e gli amici del 10, la scheda di scomposizione perfetta per chi ha bisogno di rinforzare le coppie che formano dieci.",
+   "canonicalDeckSlug": "famiglie-di-operazioni-g1209",
+   "carousel": [
+    {
+     "label": "Numeri in lettere: cerchia la parola giusta",
+     "href": "numeri-in-lettere"
+    },
+    {
+     "label": "Contare le monete: quanto c'è nel borsellino?",
+     "href": "contare-le-monete"
+    },
+    {
+     "label": "Disegna le lancette: l'ora giusta sull'orologio",
+     "href": "disegna-le-lancette"
+    },
+    {
+     "label": "Problemi illustrati con la frutta per la classe prima",
+     "href": "problemi-illustrati"
+    }
+   ],
+   "title": "Famiglie di operazioni – Classe prima | da stampare PDF",
+   "metaDescription": "Quattro case delle famiglie di operazioni: tre numeri sul tetto, quattro operazioni collegate da completare. Classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "numeri-in-lettere",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dei numeri in lettere",
+   "h1": "Numeri in lettere: cerchia la parola giusta",
+   "strand": "Numeri",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "numeri-in-lettere",
+    "classe-prima"
+   ],
+   "p1": "La scheda mostra sei numeri scritti in cifre, ben grandi. Accanto a ciascuno ci sono tre numeri scritti in lettere: uno solo è quello giusto, gli altri due sono lì per confondere le idee. Il bambino legge il numero in cifre, poi esamina le tre parole con attenzione e cerchia quella che gli corrisponde davvero. Sei numeri, sei scelte da fare con gli occhi ben aperti.",
+   "p2": "Collegare cifre e parole è un passaggio più delicato di quanto sembri: è proprio qui che si annidano le inversioni, come leggere 21 al posto di 12. Le alternative sbagliate della scheda sono scelte apposta per far emergere questi scambi e costringere a una lettura precisa, non a colpo d'occhio. Padroneggiare i numeri in lettere serve ogni giorno: nei problemi, nei testi e più avanti anche per scrivere le date e le quantità.",
+   "p3": "Il PDF si stampa gratuitamente ed è perfetto come esercizio breve di inizio lezione. Chi vuole usare i numeri in contesti veri può passare a contare le monete, dove ogni borsellino di euro chiede un totale, oppure ai problemi illustrati, dove i numeri vivono dentro piccole storie con le figure che aiutano a capire. Leggere bene i numeri, in fondo, è già metà del lavoro di ogni problema.",
+   "canonicalDeckSlug": "numeri-in-lettere-g1210",
+   "carousel": [
+    {
+     "label": "Contare le monete: quanto c'è nel borsellino?",
+     "href": "contare-le-monete"
+    },
+    {
+     "label": "Disegna le lancette: l'ora giusta sull'orologio",
+     "href": "disegna-le-lancette"
+    },
+    {
+     "label": "Problemi illustrati con la frutta per la classe prima",
+     "href": "problemi-illustrati"
+    },
+    {
+     "label": "Operazioni in colonna senza cambio",
+     "href": "operazioni-in-colonna-senza-cambio"
+    }
+   ],
+   "title": "Numeri in lettere – Classe prima | da stampare PDF",
+   "metaDescription": "Sei numeri in cifre e i numeri in lettere da cerchiare: la scheda allena la lettura dei numeri in classe prima ed evita le inversioni. PDF gratis da stampare."
+  },
+  {
+   "slug": "contare-le-monete",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'euro",
+   "h1": "Contare le monete: quanto c'è nel borsellino?",
+   "strand": "Misure",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "contare-le-monete",
+    "classe-prima"
+   ],
+   "p1": "Sei borsellini, ognuno con il suo gruzzolo di monete in euro: questa scheda chiede al bambino di contare quanto contiene ciascuno e di scrivere il totale nel riquadro. Le monete sono quelle vere di tutti i giorni, da riconoscere una per una. Il trucco dei bravi cassieri si impara in fretta: si parte dalle monete di valore più grande e si aggiungono via via le più piccole.",
+   "p2": "Contare il denaro è matematica che si tocca: dà un senso immediato all'addizione e al conteggio a salti, perché sommare monete da 2 euro significa contare per due. Allo stesso tempo costruisce una competenza di vita reale, quella che servirà alla bancarella, al mercatino della scuola o al negozio con i nonni. Poche attività motivano a calcolare quanto il pensiero, anche solo immaginato, di poter pagare da soli.",
+   "p3": "La scheda è un PDF gratuito da stampare; con qualche moneta vera sul tavolo diventa ancora più concreta. Per restare nella matematica di ogni giorno si può proseguire con il disegno delle lancette sull'orologio, un'altra abilità pratica da conquistare, o con il calcolo mentale fino a 20, che rende più veloci proprio i conti che servono con le monete. E alla prossima spesa, lasciate che sia il bambino a controllare il resto: non c'è verifica più bella.",
+   "canonicalDeckSlug": "contare-le-monete-g1211",
+   "carousel": [
+    {
+     "label": "Disegna le lancette: l'ora giusta sull'orologio",
+     "href": "disegna-le-lancette"
+    },
+    {
+     "label": "Problemi illustrati con la frutta per la classe prima",
+     "href": "problemi-illustrati"
+    },
+    {
+     "label": "Operazioni in colonna senza cambio",
+     "href": "operazioni-in-colonna-senza-cambio"
+    },
+    {
+     "label": "Capacità e peso: leggi caraffe e bilance",
+     "href": "capacita-e-peso"
+    }
+   ],
+   "title": "Contare le monete in euro – Classe prima | da stampare PDF",
+   "metaDescription": "Sei borsellini pieni di monete in euro: il bambino conta e scrive il totale di ogni borsellino. Scheda di matematica per la classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "disegna-le-lancette",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda dell'orologio",
+   "h1": "Disegna le lancette: l'ora giusta sull'orologio",
+   "strand": "Misure",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "leggere-l-orologio",
+    "classe-prima"
+   ],
+   "p1": "Quattro quadranti di orologio, tutti senza lancette, aspettano di essere completati. Sotto ogni quadrante un cartellino mostra l'ora in formato digitale, come sul forno di casa o sul telefono. Il bambino la legge e poi disegna sull'orologio le due lancette: quella corta delle ore e quella lunga dei minuti. Alla fine i quattro orologi segnano davvero l'ora scritta sotto.",
+   "p2": "Disegnare le lancette è più impegnativo che leggerle, ed è proprio per questo che funziona: obbliga a tradurre l'ora digitale nella posizione esatta di ogni lancetta, distinguendo bene i loro due ruoli. È il ponte tra i due modi di dire il tempo che il bambino incontra ogni giorno, sullo schermo del telefono e sull'orologio appeso in classe. Una competenza concreta, che regala autonomia e un pizzico di orgoglio: sapere che ore sono, e saperlo da soli, è una piccola conquista che si festeggia volentieri.",
+   "p3": "Stampa il PDF gratuito e, se vuoi, tieni accanto un orologio vero da manipolare: aiuta a fissare il movimento delle lancette. Per continuare con la matematica della vita quotidiana c'è la scheda per contare le monete in euro, mentre chi preferisce le storie troverà nei problemi illustrati con la frutta un modo delizioso di usare i numeri.",
+   "canonicalDeckSlug": "leggere-l-orologio-g1212",
+   "carousel": [
+    {
+     "label": "Problemi illustrati con la frutta per la classe prima",
+     "href": "problemi-illustrati"
+    },
+    {
+     "label": "Operazioni in colonna senza cambio",
+     "href": "operazioni-in-colonna-senza-cambio"
+    },
+    {
+     "label": "Capacità e peso: leggi caraffe e bilance",
+     "href": "capacita-e-peso"
+    },
+    {
+     "label": "Simmetria sui quadretti: completa il disegno a specchio",
+     "href": "simmetria-sui-quadretti"
+    }
+   ],
+   "title": "Disegna le lancette – Orologio classe prima | da stampare PDF",
+   "metaDescription": "Quattro orologi senza lancette e l'ora in formato digitale: il bambino disegna le lancette delle ore e dei minuti. Classe prima, PDF gratis da stampare."
+  },
+  {
+   "slug": "problemi-illustrati",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "classe-prima"
+   },
+   "eyebrow": "Scheda di problemi",
+   "h1": "Problemi illustrati con la frutta per la classe prima",
+   "strand": "Numeri e problemi",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "problemi-con-addizioni-e-sottrazioni",
+    "frutta",
+    "classe-prima"
+   ],
+   "p1": "Questa scheda racconta due piccole storie di frutta: situazioni semplici e quotidiane in cui qualcosa si aggiunge o si toglie. Il bambino legge la storia con calma, poi guarda la striscia di figure che la accompagna: mele e frutti disegnati ripetono la stessa situazione in immagini, così i numeri del testo si possono letteralmente contare. Il calcolo si svolge nel pannello a puntini, e la risposta finisce nel riquadro.",
+   "p2": "I problemi sono il luogo dove il calcolo incontra il pensiero: non basta saper fare 8 meno 3, bisogna capire che la storia chiede proprio quello. Le figure fanno da ponte tra le parole e l'operazione, offrendo a ogni bambino un appiglio concreto, anche a chi legge ancora con fatica. Lo spazio a puntini invita a disegnare, raggruppare e provare: perché risolvere un problema è prima di tutto rappresentarselo.",
+   "p3": "Il PDF si stampa gratis ed è perfetto per iniziare con i problemi senza paura. Chi ha bisogno di più scioltezza nei calcoli può allenarsi con il calcolo mentale fino a 20; chi invece ama leggere troverà nella scheda di comprensione del testo, con il suo racconto e le domande, la palestra ideale per la stessa lettura attenta che i problemi richiedono.",
+   "canonicalDeckSlug": "problemi-con-addizioni-e-sottrazioni-frutta-g1213",
+   "carousel": [
+    {
+     "label": "Operazioni in colonna senza cambio",
+     "href": "operazioni-in-colonna-senza-cambio"
+    },
+    {
+     "label": "Capacità e peso: leggi caraffe e bilance",
+     "href": "capacita-e-peso"
+    },
+    {
+     "label": "Simmetria sui quadretti: completa il disegno a specchio",
+     "href": "simmetria-sui-quadretti"
+    },
+    {
+     "label": "Comprensione del testo: leggi il racconto e rispondi",
+     "href": "comprensione-del-testo"
+    }
+   ],
+   "title": "Problemi illustrati per la classe prima | da stampare PDF",
+   "metaDescription": "Due problemi illustrati con la frutta per la classe prima: storia breve, figure di aiuto e spazio a puntini per il calcolo. PDF gratis da stampare."
+  },
+  {
+   "slug": "operazioni-in-colonna-senza-cambio",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Operazioni in colonna senza cambio",
+   "strand": "Numeri",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-seconda"
+   ],
+   "p1": "Sei operazioni in colonna, incolonnate in caselle che tengono ogni cifra al suo posto: le unità con le unità, le decine con le decine. Il bambino risolve ogni addizione o sottrazione una cifra alla volta, partendo sempre dalla colonna delle unità e scrivendo il risultato casella per casella. Nessun riporto e nessun prestito in agguato: qui tutta l'attenzione va al metodo.",
+   "p2": "Il calcolo in colonna è il primo vero algoritmo che i bambini incontrano, e va costruito su fondamenta tranquille. Lavorare senza cambio permette di fissare i gesti essenziali: incolonnare bene, partire dalle unità, procedere con ordine. Le caselle del valore posizionale rendono visibile il perché delle regole: ogni cifra ha una casa, e il metodo funziona proprio perché le case non si mescolano. Quando il procedimento è solido, il cambio arriverà come un passo naturale.",
+   "p3": "La scheda è un PDF gratuito da stampare, ottima per consolidare il metodo prima di alzare l'asticella. Il seguito naturale sono le operazioni in colonna con il cambio, dove entrano in scena riporto e prestito; e per tenere allenata la mente accanto alla tecnica scritta, il calcolo mentale fino a 20 resta un ripasso prezioso anche in classe seconda. Metodo scritto e agilità mentale crescono meglio quando camminano fianco a fianco.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g2251",
+   "carousel": [
+    {
+     "label": "Capacità e peso: leggi caraffe e bilance",
+     "href": "capacita-e-peso"
+    },
+    {
+     "label": "Simmetria sui quadretti: completa il disegno a specchio",
+     "href": "simmetria-sui-quadretti"
+    },
+    {
+     "label": "Comprensione del testo: leggi il racconto e rispondi",
+     "href": "comprensione-del-testo"
+    },
+    {
+     "label": "Operazioni in colonna con il cambio: riporto e prestito",
+     "href": "operazioni-in-colonna-con-il-cambio"
+    }
+   ],
+   "title": "Operazioni in colonna senza cambio – Classe seconda | da stampare PDF",
+   "metaDescription": "Sei addizioni e sottrazioni in colonna senza cambio, con le caselle di unità e decine. Scheda per la classe seconda in PDF gratis da stampare."
+  },
+  {
+   "slug": "capacita-e-peso",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di misure",
+   "h1": "Capacità e peso: leggi caraffe e bilance",
+   "strand": "Misure",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "misurazione",
+    "veicoli",
+    "classe-seconda"
+   ],
+   "p1": "La scheda mette in fila sei strumenti da leggere: tre caraffe graduate, riempite di liquido fino a livelli diversi, e tre bilance a due piatti su cui stanno in equilibrio simpatici veicoli. Il bambino osserva la scala graduata di ogni caraffa e scrive quanti millilitri contiene; poi legge ogni bilancia e annota il peso in grammi, ricordandosi sempre di scrivere l'unità di misura accanto al numero.",
+   "p2": "Leggere uno strumento graduato è un'abilità matematica a tutti gli effetti: bisogna capire quanto vale ogni tacca, seguire la scala e interpretare il livello o l'indicazione. Millilitri e grammi smettono così di essere parole astratte e diventano quantità che si vedono. È il ponte ideale verso le esperienze reali di cucina e di mercato, dove capacità e peso si incontrano ogni giorno, e verso le equivalenze che arriveranno in classe terza.",
+   "p3": "Stampa il PDF gratuito e, se possibile, affianca alla scheda una vera caraffa graduata o la bilancia della cucina: il confronto con la realtà vale doppio. Per restare nel mondo delle misure e dei numeri concreti ci sono la scheda per contare le monete in euro e quella per disegnare le lancette dell'orologio: tre modi diversi, e tutti concreti, di misurare il mondo che i bambini hanno intorno ogni giorno.",
+   "canonicalDeckSlug": "misurazione-veicoli-g2252",
+   "carousel": [
+    {
+     "label": "Simmetria sui quadretti: completa il disegno a specchio",
+     "href": "simmetria-sui-quadretti"
+    },
+    {
+     "label": "Comprensione del testo: leggi il racconto e rispondi",
+     "href": "comprensione-del-testo"
+    },
+    {
+     "label": "Operazioni in colonna con il cambio: riporto e prestito",
+     "href": "operazioni-in-colonna-con-il-cambio"
+    },
+    {
+     "label": "Tabelline: dodici moltiplicazioni da risolvere",
+     "href": "tabelline"
+    }
+   ],
+   "title": "Capacità e peso – Misure classe seconda | da stampare PDF",
+   "metaDescription": "Tre caraffe graduate in millilitri e tre bilance in grammi da leggere e trascrivere. Capacità e peso per la classe seconda, PDF gratis da stampare."
+  },
+  {
+   "slug": "simmetria-sui-quadretti",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di simmetria",
+   "h1": "Simmetria sui quadretti: completa il disegno a specchio",
+   "strand": "Spazio e figure",
+   "slotTokens": [
+    "simmetria",
+    "classe-seconda"
+   ],
+   "p1": "Quattro disegni fatti di quadretti colorati, ma ognuno completo solo a metà: l'altra metà aspetta oltre la linea centrale colorata. Il bambino conta i quadretti della parte già fatta e colora quelli corrispondenti dall'altra parte della linea, come se il disegno si riflettesse in uno specchio. Quadretto dopo quadretto, riga dopo riga, l'immagine ritrova la sua metà mancante.",
+   "p2": "Completare una figura a specchio è geometria vera travestita da gioco: il bambino deve contare le distanze dalla linea di simmetria, ribaltare mentalmente le posizioni e controllare il proprio lavoro con precisione. È un allenamento potente per la visione spaziale, la stessa che servirà con le figure geometriche, e per l'attenzione ai dettagli. E la verifica è immediata: se le due metà combaciano, l'occhio lo vede subito, e l'errore diventa un'occasione per contare di nuovo con più attenzione, non un giudizio.",
+   "p3": "Il PDF si stampa gratuitamente: bastano i pastelli e un po' di concentrazione. Chi ama questo tipo di sfide visive può proseguire con i disegni a specchio più elaborati man mano che cresce la sicurezza, oppure cambiare registro con il grande labirinto da percorrere con la matita o con il calcola e colora, dove è il risultato dei calcoli a decidere i colori.",
+   "canonicalDeckSlug": "simmetria-g2253",
+   "carousel": [
+    {
+     "label": "Comprensione del testo: leggi il racconto e rispondi",
+     "href": "comprensione-del-testo"
+    },
+    {
+     "label": "Operazioni in colonna con il cambio: riporto e prestito",
+     "href": "operazioni-in-colonna-con-il-cambio"
+    },
+    {
+     "label": "Tabelline: dodici moltiplicazioni da risolvere",
+     "href": "tabelline"
+    },
+    {
+     "label": "Percorsi di pregrafismo per la scuola dell'infanzia",
+     "href": "pregrafismo-percorsi"
+    }
+   ],
+   "title": "Simmetria sui quadretti – Classe seconda | da stampare PDF",
+   "metaDescription": "Quattro disegni sui quadretti da completare a specchio oltre la linea centrale: simmetria e precisione per la classe seconda. Scheda in PDF gratis da stampare."
+  },
+  {
+   "slug": "comprensione-del-testo",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "classe-seconda"
+   },
+   "eyebrow": "Scheda di lettura",
+   "h1": "Comprensione del testo: leggi il racconto e rispondi",
+   "strand": "Lettura e comprensione",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "comprensione-del-testo",
+    "classe-seconda"
+   ],
+   "p1": "Al centro della scheda c'è un breve racconto originale, scritto apposta per i lettori di classe seconda. Il bambino lo legge con calma, magari due volte, e poi affronta tre domande a scelta multipla: per ognuna deve cerchiare la risposta giusta tra quelle proposte. Le risposte si trovano tutte dentro la storia: basta tornare al testo e cercare, come veri detective della lettura.",
+   "p2": "Saper leggere le parole non basta: capire quello che si legge è la competenza su cui poggia tutto il resto della scuola. Le domande a scelta multipla insegnano una strategia preziosa: non fidarsi della prima impressione, ma tornare al racconto per verificare. Così si allena la lettura attenta, quella che coglie i dettagli, segue il filo della storia e distingue ciò che il testo dice davvero da ciò che sembra dire.",
+   "p3": "La scheda è un PDF gratuito da stampare, perfetta per un momento di lettura quotidiana a casa o in classe. La stessa lettura attenta serve anche in matematica: i problemi illustrati chiedono proprio di capire una piccola storia prima di calcolare. E per i lettori in erba che ancora costruiscono le basi, le parole frequenti da leggere e ricalcare restano un ottimo alleato. Un racconto al giorno, letto con calma, fa più di mille esercizi fatti di corsa.",
+   "canonicalDeckSlug": "comprensione-del-testo-g2254",
+   "carousel": [
+    {
+     "label": "Operazioni in colonna con il cambio: riporto e prestito",
+     "href": "operazioni-in-colonna-con-il-cambio"
+    },
+    {
+     "label": "Tabelline: dodici moltiplicazioni da risolvere",
+     "href": "tabelline"
+    },
+    {
+     "label": "Percorsi di pregrafismo per la scuola dell'infanzia",
+     "href": "pregrafismo-percorsi"
+    },
+    {
+     "label": "Numeri tratteggiati da 0 a 9 da ricalcare",
+     "href": "numeri-tratteggiati"
+    }
+   ],
+   "title": "Comprensione del testo – Classe seconda | da stampare PDF",
+   "metaDescription": "Un breve racconto originale da leggere con attenzione e tre domande a scelta multipla: comprensione del testo per la classe seconda. PDF gratis da stampare."
+  },
+  {
+   "slug": "operazioni-in-colonna-con-il-cambio",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda di calcolo in colonna",
+   "h1": "Operazioni in colonna con il cambio: riporto e prestito",
+   "strand": "Numeri",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "operazioni-in-colonna",
+    "classe-terza"
+   ],
+   "p1": "Sei operazioni in colonna che fanno sul serio: qui le cifre di una colonna superano la decina e serve il cambio. Il bambino risolve ogni addizione e ogni sottrazione partendo dalle unità, e quando la somma trabocca usa le caselle del riporto già predisposte sopra le addizioni per annotare la decina che passa alla colonna successiva; nelle sottrazioni, quando la cifra non basta, entra in gioco il prestito.",
+   "p2": "Il cambio è il passaggio che trasforma il calcolo in colonna in uno strumento universale: con riporto e prestito si può affrontare qualunque numero, non solo quelli comodi. Ma è anche il punto dove nascono più errori, perché chiede di tenere insieme metodo e valore posizionale: quella decina che viaggia da una colonna all'altra è matematica profonda, non un trucco. Le caselle dedicate aiutano a non perderla per strada, finché il gesto diventa sicuro.",
+   "p3": "Stampa il PDF gratuito e proponi le sei operazioni con calma, una alla volta. Se il metodo di base vacilla ancora, conviene fare un passo indietro alle operazioni in colonna senza cambio, per consolidare i fondamentali; chi invece è pronto a nuove sfide troverà nelle tabelline il prossimo grande traguardo del calcolo di classe terza. E ogni operazione riuscita con il cambio merita di essere notata: è un segno che il valore posizionale è stato capito davvero.",
+   "canonicalDeckSlug": "operazioni-in-colonna-g3357",
+   "carousel": [
+    {
+     "label": "Tabelline: dodici moltiplicazioni da risolvere",
+     "href": "tabelline"
+    },
+    {
+     "label": "Percorsi di pregrafismo per la scuola dell'infanzia",
+     "href": "pregrafismo-percorsi"
+    },
+    {
+     "label": "Numeri tratteggiati da 0 a 9 da ricalcare",
+     "href": "numeri-tratteggiati"
+    },
+    {
+     "label": "Lettere maiuscole tratteggiate da ricalcare",
+     "href": "lettere-maiuscole-tratteggiate"
+    }
+   ],
+   "title": "Operazioni in colonna con il cambio – Classe terza | da stampare PDF",
+   "metaDescription": "Sei addizioni e sottrazioni in colonna con il cambio: il bambino allena riporto e prestito passo dopo passo. Classe terza, PDF gratis da stampare."
+  },
+  {
+   "slug": "tabelline",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "classe-terza"
+   },
+   "eyebrow": "Scheda delle tabelline",
+   "h1": "Tabelline: dodici moltiplicazioni da risolvere",
+   "strand": "Numeri",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "tabelline",
+    "classe-terza"
+   ],
+   "p1": "Dodici moltiplicazioni, scritte con il segno × che i bambini conoscono dalla lavagna, aspettano su questa scheda di ripasso. Il bambino le legge una alla volta, richiama la tabellina giusta e scrive ogni risultato nel suo riquadro. Le operazioni sono mescolate apposta: non si può recitare la scaletta a memoria, bisogna pescare ogni risposta al volo, come in una piccola gara con se stessi.",
+   "p2": "Le tabelline sono le fondamenta del calcolo dei prossimi anni: moltiplicazioni in colonna, divisioni, frazioni e problemi si appoggiano tutte sul ricordo immediato di questi prodotti. L'esercizio in ordine sparso è il modo più efficace per trasformare la memoria lenta della scaletta in richiamo istantaneo. Quando 7 × 8 non fa più esitare, la mente resta libera per la parte interessante della matematica: capire e ragionare.",
+   "p3": "Il PDF è gratuito e si stampa in un attimo: perfetto per il ripasso quotidiano, magari cronometrando solo la voglia di migliorarsi, mai l'ansia. Le tabelline danno il meglio in coppia con le operazioni in colonna con il cambio, dove i prodotti memorizzati vengono messi al lavoro, e con il calcolo mentale, che tiene agili anche addizioni e sottrazioni. Cinque minuti al giorno, sempre con il sorriso: è così che le tabelline diventano amiche per tutta la vita scolastica.",
+   "canonicalDeckSlug": "tabelline-g3358",
+   "carousel": [
+    {
+     "label": "Percorsi di pregrafismo per la scuola dell'infanzia",
+     "href": "pregrafismo-percorsi"
+    },
+    {
+     "label": "Numeri tratteggiati da 0 a 9 da ricalcare",
+     "href": "numeri-tratteggiati"
+    },
+    {
+     "label": "Lettere maiuscole tratteggiate da ricalcare",
+     "href": "lettere-maiuscole-tratteggiate"
+    },
+    {
+     "label": "Parole frequenti: leggi, ricalca e scrivi",
+     "href": "parole-frequenti"
+    }
+   ],
+   "title": "Tabelline per la classe terza – Esercizi | da stampare PDF",
+   "metaDescription": "Dodici moltiplicazioni per ripassare le tabelline in classe terza, con i risultati da scrivere nel riquadro. Scheda in PDF gratis da stampare."
   }
  ]
 }

@@ -100337,6 +100337,848 @@
    ],
    "title": "Zahlenmuster Arbeitsblätter Klasse 3 – Schrittfolgen & Zahlenmaschinen | zum Ausdrucken (PDF, kostenlos)",
    "metaDescription": "Große Schrittfolgen fortsetzen, Zahlenmuster erkennen, Zahlenmaschinen mit Regel und rückwärts zählen – Arbeitsblätter für die 3. Klasse, kostenlos als PDF zum Ausdrucken."
+  },
+  {
+   "slug": "schwunguebungen-vorschule",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "pre-writing",
+    "mode": null,
+    "theme": "animals",
+    "level": "vorschule"
+   },
+   "eyebrow": "Schwungübungen-Arbeitsblatt",
+   "h1": "Schwungübungen für die Vorschule – Schleifen, Wellen und Zickzack",
+   "strand": "Feinmotorik und Stifthaltung",
+   "slotTokens": [
+    "schwunguebungen",
+    "tiere",
+    "vorschule"
+   ],
+   "p1": "Dieses Schwungübungen-Arbeitsblatt für die Vorschule schickt den Stift auf eine kleine Reise: In breiten Bahnen warten Schleifen, Wellen und Zickzacklinien darauf, nachgespurt zu werden. Das Kind setzt den Stift am orangen Startpunkt an, folgt dem Pfeil und zieht jede Linie möglichst in einem Schwung nach. Am Ende jeder Bahn wartet ein freundliches Tier – das gibt jeder Übung ein sichtbares Ziel und macht aus dem Nachspuren ein kleines Wettrennen zum Tier. So übt das Kind Bahn für Bahn, ohne dass es sich wie Üben anfühlt.",
+   "p2": "Schwungübungen sind aus gutem Grund der klassische erste Schritt vor dem Schreiben. Die großen, fließenden Bewegungen lockern Hand und Handgelenk, trainieren die Stifthaltung und bauen genau die Feinmotorik auf, auf der später jeder Buchstabe und jede Ziffer aufbaut. Wer Schleifen und Wellen sicher führen kann, schreibt später lockerer, gleichmäßiger und mit weniger Druck – und startet entspannter in die erste Klasse.",
+   "p3": "Das Blatt lässt sich kostenlos als PDF ausdrucken – ideal für die Schreibwerkstatt im Kindergarten oder eine ruhige Viertelstunde am Küchentisch. Sitzen die Schwünge, ist das Zahlen schreiben lernen von 0 bis 9 der natürliche nächste Schritt; auch das Nachspuren der Großbuchstaben knüpft direkt an diese Bewegungen an. Und wer lieber schneidet statt schwingt, findet in den Schneideübungen zum Ausschneiden und Aufkleben eine zweite starke Feinmotorik-Aufgabe.",
+   "canonicalDeckSlug": "schwunguebungen-tiere-k236",
+   "carousel": [
+    {
+     "label": "Zahlen schreiben lernen von 0 bis 9",
+     "href": "zahlen-schreiben-lernen"
+    },
+    {
+     "label": "Großbuchstaben nachspuren – vom Nachfahren zum Selberschreiben",
+     "href": "buchstaben-nachspuren"
+    },
+    {
+     "label": "Lernwörter üben – lesen, nachspuren, schreiben",
+     "href": "lernwoerter-ueben"
+    },
+    {
+     "label": "Ausschneiden und Aufkleben – Schneideübungen mit Tieren",
+     "href": "ausschneiden-und-aufkleben"
+    }
+   ],
+   "title": "Arbeitsblätter Schwungübungen Vorschule | zum Ausdrucken PDF",
+   "metaDescription": "Schwungübungen für die Vorschule: Schleifen, Wellen und Zickzack mit Startpunkt und Pfeil nachspuren. Kostenlos als PDF ausdrucken und losschwingen."
+  },
+  {
+   "slug": "zahlen-schreiben-lernen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Zahlenschreiben-Arbeitsblatt",
+   "h1": "Zahlen schreiben lernen von 0 bis 9",
+   "strand": "Zahlen und Operationen",
+   "standard": "K.CC.A.3",
+   "slotTokens": [
+    "zahlen-schreiben-lernen",
+    "vorschule"
+   ],
+   "p1": "Auf diesem Arbeitsblatt lernen Vorschulkinder, die Zahlen von 0 bis 9 richtig zu schreiben. Jede Ziffer steht zuerst als kräftige Vorlage auf der Schreiblinie, daneben folgen gestrichelte Ziffern zum Nachspuren. Ein oranger Startpunkt zeigt, wo der Stift ansetzt, und kleine Pfeile geben die Schreibrichtung vor. Das Kind spurt Ziffer für Ziffer nach – immer am Punkt beginnen, den Pfeilen folgen –, bis der Bewegungsablauf sitzt und die Zahl wie von selbst aus dem Stift kommt.",
+   "p2": "Der richtige Bewegungsablauf von Anfang an ist beim Zahlenschreiben entscheidend. Wer die 3 unten beginnt oder die 8 aus zwei Kreisen zusammensetzt, gewöhnt sich Umwege an, die später mühsam wieder abtrainiert werden müssen. Startpunkt und Pfeile führen die Hand deshalb von der ersten Ziffer an auf dem richtigen Weg. Gleichzeitig prägt sich mit jeder nachgespurten Zahl auch ihre Form ein – die beste Vorbeugung gegen spiegelverkehrt geschriebene Ziffern.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken – und weil Wiederholung hier alles ist, gern auch mehrmals. Davor oder parallel lohnen sich Schwungübungen, die die nötige Stiftführung aufbauen; danach lässt sich mit der Zahlzerlegung bis 10 gleich mit den frisch geschriebenen Zahlen weiterarbeiten. So wandern die Ziffern vom Blatt direkt ins erste Rechnen. Ein kleiner Tipp für zu Hause: Nach dem Spuren die Ziffer einmal groß in die Luft schreiben – dieselbe Bewegung ohne Stift festigt den Ablauf zusätzlich.",
+   "canonicalDeckSlug": "zahlen-schreiben-lernen-k237",
+   "carousel": [
+    {
+     "label": "Großbuchstaben nachspuren – vom Nachfahren zum Selberschreiben",
+     "href": "buchstaben-nachspuren"
+    },
+    {
+     "label": "Lernwörter üben – lesen, nachspuren, schreiben",
+     "href": "lernwoerter-ueben"
+    },
+    {
+     "label": "Ausschneiden und Aufkleben – Schneideübungen mit Tieren",
+     "href": "ausschneiden-und-aufkleben"
+    },
+    {
+     "label": "Rechnen und Ausmalen – male nach Zahlen und Farben",
+     "href": "rechnen-und-ausmalen"
+    }
+   ],
+   "title": "Arbeitsblätter Zahlen schreiben von 0 bis 9 | zum Ausdrucken PDF",
+   "metaDescription": "Zahlen schreiben lernen von 0 bis 9: Ziffern mit Startpunkt und Pfeilen auf Schreiblinien nachspuren. Kostenloses Arbeitsblatt zum Ausdrucken als PDF."
+  },
+  {
+   "slug": "buchstaben-nachspuren",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Buchstaben-Arbeitsblatt",
+   "h1": "Großbuchstaben nachspuren – vom Nachfahren zum Selberschreiben",
+   "strand": "Schriftspracherwerb",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "buchstaben-nachspuren",
+    "vorschule"
+   ],
+   "p1": "Auf diesem Arbeitsblatt spuren Kinder sechs Großbuchstaben auf echten Schreiblinien nach. Jeder Buchstabe beginnt mit einer klaren Vorlage, dahinter folgen gestrichelte Buchstaben zum Nachfahren – und der letzte Platz auf der Linie bleibt frei, damit das Kind den Buchstaben ganz allein schreibt. Genau dieser letzte Schritt macht das Blatt besonders: Vom geführten Nachspuren geht es in jeder Zeile bis zum freien Schreiben aus dem Kopf. Die Buchstaben sind groß genug für kleine Hände, und jede Zeile folgt demselben Dreischritt – schauen, nachspuren, selber schreiben.",
+   "p2": "Das Nachspuren auf Schreiblinien prägt die Buchstabenformen ein und gibt jedem Buchstaben seinen festen Platz zwischen den Linien – oben anstoßen, unten aufsetzen. Die Wiederholung in kleinen Schritten nimmt die Angst vor dem leeren Blatt: Erst führt die gestrichelte Linie die Hand, dann trägt die Erinnerung an die Bewegung. So werden die ersten Schreibversuche sicher, bevor ganze Wörter an der Reihe sind. Auch die Stifthaltung profitiert von jedem sauber geführten Bogen.",
+   "p3": "Das Blatt steht kostenlos als PDF zum Ausdrucken bereit und eignet sich für Vorschule und Schulanfang gleichermaßen. Wer vorher die Hand lockern möchte, startet mit Schwungübungen; wer nach den Buchstaben weitermachen will, übt mit den Lernwörtern gleich erste ganze Wörter – lesen, nachspuren, selbst schreiben.",
+   "canonicalDeckSlug": "buchstaben-nachspuren-k238",
+   "carousel": [
+    {
+     "label": "Lernwörter üben – lesen, nachspuren, schreiben",
+     "href": "lernwoerter-ueben"
+    },
+    {
+     "label": "Ausschneiden und Aufkleben – Schneideübungen mit Tieren",
+     "href": "ausschneiden-und-aufkleben"
+    },
+    {
+     "label": "Rechnen und Ausmalen – male nach Zahlen und Farben",
+     "href": "rechnen-und-ausmalen"
+    },
+    {
+     "label": "Durch das Labyrinth – finde den Weg zum Ziel",
+     "href": "labyrinth-arbeitsblaetter"
+    }
+   ],
+   "title": "Arbeitsblätter Buchstaben nachspuren | zum Ausdrucken PDF",
+   "metaDescription": "Großbuchstaben nachspuren auf Schreiblinien – mit Vorlage, gestrichelten Buchstaben und einer leeren Linie zum Selberschreiben. Gratis als PDF drucken."
+  },
+  {
+   "slug": "lernwoerter-ueben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "sight-words",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Lernwörter-Arbeitsblatt",
+   "h1": "Lernwörter üben – lesen, nachspuren, schreiben",
+   "strand": "Lesen und Schreiben",
+   "standard": "RF.K.3.c",
+   "slotTokens": [
+    "lernwoerter",
+    "vorschule"
+   ],
+   "p1": "Vier häufige Wörter, drei klare Schritte: Auf diesem Lernwörter-Arbeitsblatt liest das Kind zuerst jedes Wort, spurt es dann auf der gestrichelten Vorlage nach und schreibt es zum Schluss ganz allein auf die leere Linie. Lesen, nachspuren, selbst schreiben – dieser Dreischritt wiederholt sich bei jedem Wort und gibt auch Schreibanfängern einen sicheren Rahmen. Die Wörter gehören zu den häufigsten der Sprache und tauchen in fast jedem ersten Lesetext wieder auf. So wächst mit jedem Blatt ein kleiner Grundwortschatz.",
+   "p2": "Häufige Wörter auf einen Blick zu erkennen und richtig zu schreiben, entlastet das Lesen und Schreiben enorm: Wer kleine Wörter nicht mehr mühsam erlesen muss, hat den Kopf frei für den Inhalt. Der Dreischritt aus Lesen, Spuren und freiem Schreiben verankert jedes Lernwort über Auge, Hand und Gedächtnis zugleich – genau so, wie Lernwörter auch in der Schule geübt werden. Und weil das Kind jedes Wort am Ende ohne Hilfe schreibt, ist der Lernerfolg sofort sichtbar. Vier Wörter pro Blatt sind dabei bewusst gewählt: eine Portion, die sich an einem Tag wirklich verankern lässt, statt vieler Wörter, die morgen wieder vergessen sind.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken – perfekt für die tägliche Fünf-Minuten-Übung. Davor stärkt das Nachspuren der Großbuchstaben die nötige Buchstabensicherheit; später wartet mit dem Lesetext mit Fragen die schönste Belohnung: die geübten Wörter mitten in einer echten Geschichte wiederzufinden.",
+   "canonicalDeckSlug": "lernwoerter-k239",
+   "carousel": [
+    {
+     "label": "Ausschneiden und Aufkleben – Schneideübungen mit Tieren",
+     "href": "ausschneiden-und-aufkleben"
+    },
+    {
+     "label": "Rechnen und Ausmalen – male nach Zahlen und Farben",
+     "href": "rechnen-und-ausmalen"
+    },
+    {
+     "label": "Durch das Labyrinth – finde den Weg zum Ziel",
+     "href": "labyrinth-arbeitsblaetter"
+    },
+    {
+     "label": "Zahlzerlegung bis 10 – Teil, Teil, Ganzes",
+     "href": "zahlzerlegung-bis-10"
+    }
+   ],
+   "title": "Arbeitsblätter Lernwörter üben | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Lernwörter üben in drei Schritten: lesen, nachspuren, selbst schreiben. Vier häufige Wörter pro Blatt – kostenlos als PDF zum Ausdrucken für die Vorschule."
+  },
+  {
+   "slug": "ausschneiden-und-aufkleben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "cutting-practice",
+    "mode": null,
+    "theme": "animals",
+    "level": "vorschule"
+   },
+   "eyebrow": "Schneideübungen-Arbeitsblatt",
+   "h1": "Ausschneiden und Aufkleben – Schneideübungen mit Tieren",
+   "strand": "Feinmotorik und Wahrnehmung",
+   "standard": "K.MD.B.3",
+   "slotTokens": [
+    "schneideuebungen",
+    "tiere",
+    "vorschule"
+   ],
+   "p1": "Schere raus, Klebestift bereit: Am unteren Rand dieses Arbeitsblatts wartet ein Bilderstreifen voller Tiere, der zuerst ausgeschnitten wird. Dann schaut sich das Kind jedes Tierbild genau an, überlegt, in welche der beschrifteten Boxen es gehört, und klebt es in sein Kästchen. Ausschneiden und Aufkleben, Sortieren und Zuordnen – alles in einer Aufgabe, mit Tieren als Motiv, die Kinder sofort ansprechen. Die klaren Schnittlinien sind für Anfängerhände gemacht, und weil jedes Bild ein eindeutiges Zuhause hat, gibt es am Ende ein sichtbares Erfolgserlebnis: eine fertig sortierte Seite.",
+   "p2": "Schneideübungen gehören zu den wichtigsten Feinmotorik-Aufgaben der Vorschulzeit: Die Schere sauber zu führen, entlang einer Linie zu bleiben und die andere Hand mitzudrehen, verlangt genau die Hand-Auge-Koordination, die später auch das Schreiben trägt. Das Sortieren in Kategorien trainiert gleichzeitig das Ordnungsdenken – erst schauen, dann entscheiden, dann kleben. Und weil geklebt erst wird, wenn sortiert ist, lernt das Kind ganz nebenbei, vor dem Handeln kurz nachzudenken. Nicht zuletzt fühlt sich die Aufgabe nach Basteln an – gelernt wird trotzdem an jeder einzelnen Station.",
+   "p3": "Das Blatt kann kostenlos als PDF ausgedruckt werden – am besten auf etwas festerem Papier, damit das Schneiden leichter fällt. Als ruhiger Ausgleich danach bietet sich das Labyrinth an, bei dem nur der Stift den Weg sucht, oder die Schwungübungen, die die Stifthand gleich weitertrainieren.",
+   "canonicalDeckSlug": "schneideuebungen-tiere-k240",
+   "carousel": [
+    {
+     "label": "Rechnen und Ausmalen – male nach Zahlen und Farben",
+     "href": "rechnen-und-ausmalen"
+    },
+    {
+     "label": "Durch das Labyrinth – finde den Weg zum Ziel",
+     "href": "labyrinth-arbeitsblaetter"
+    },
+    {
+     "label": "Zahlzerlegung bis 10 – Teil, Teil, Ganzes",
+     "href": "zahlzerlegung-bis-10"
+    },
+    {
+     "label": "Kopfrechnen bis 20 – Plus und Minus im Kopf",
+     "href": "kopfrechnen-bis-20"
+    }
+   ],
+   "title": "Arbeitsblätter Ausschneiden und Aufkleben | PDF kostenlos",
+   "metaDescription": "Ausschneiden und Aufkleben mit Tieren: Bilderstreifen ausschneiden, sortieren und in die passenden Kästchen kleben. Schneideübungen gratis als PDF drucken."
+  },
+  {
+   "slug": "rechnen-und-ausmalen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "color-by-number",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Rechenmalblatt",
+   "h1": "Rechnen und Ausmalen – male nach Zahlen und Farben",
+   "strand": "Zahlen und Operationen",
+   "standard": "K.OA.A.2",
+   "slotTokens": [
+    "rechnen-und-ausmalen",
+    "vorschule"
+   ],
+   "p1": "Auf diesem Rechenmalblatt verstecken sich zwölf Formen mit kleinen Rechenaufgaben – und ein Farbcode verrät, welche Zahl zu welcher Farbe gehört. Das Kind rechnet die Aufgabe in jeder Form, sucht das Ergebnis in der Legende und malt die Form in der passenden Farbe aus. Mit jeder gelösten Aufgabe füllt sich das Blatt mehr mit Farbe, bis am Ende ein buntes Gesamtbild dasteht. Rechnen und Ausmalen greifen dabei so ineinander, dass keines ohne das andere funktioniert.",
+   "p2": "Diese Verbindung ist der eigentliche Trick: Das Ausmalen belohnt jede gelöste Aufgabe sofort, und der Farbcode zwingt zu genauem Schauen – wer schludrig rechnet, malt falsch. So üben Kinder erste Rechenaufgaben und das sorgfältige Zuordnen von Zahl und Farbe gleichzeitig, ohne das Gefühl zu haben, ein Rechenblatt zu bearbeiten. Auch die Ausdauer profitiert: Zwölf Formen sind ein gut machbares, sichtbares Pensum.",
+   "p3": "Das Rechenmalblatt gibt es kostenlos als PDF zum Ausdrucken. Wer danach weiterrechnen möchte, findet in der Zahlzerlegung bis 10 die passende nächste Übung; wer lieber noch einmal Stift und Auge trainiert, nimmt das Labyrinth mit seinem verschlungenen Weg zum Ziel. So bleibt die Mischung aus Denken und Gestalten erhalten, die dieses Blatt so beliebt macht. Ein Tipp für den Einsatz: Wer die Farben vor dem Start einmal laut benennen lässt, verbindet das Rechnen ganz nebenbei mit einer kleinen Sprachübung.",
+   "canonicalDeckSlug": "rechnen-und-ausmalen-k241",
+   "carousel": [
+    {
+     "label": "Durch das Labyrinth – finde den Weg zum Ziel",
+     "href": "labyrinth-arbeitsblaetter"
+    },
+    {
+     "label": "Zahlzerlegung bis 10 – Teil, Teil, Ganzes",
+     "href": "zahlzerlegung-bis-10"
+    },
+    {
+     "label": "Kopfrechnen bis 20 – Plus und Minus im Kopf",
+     "href": "kopfrechnen-bis-20"
+    },
+    {
+     "label": "Aufgabenfamilien üben – vier Aufgaben aus drei Zahlen",
+     "href": "aufgabenfamilien"
+    }
+   ],
+   "title": "Arbeitsblätter Rechnen und Ausmalen | zum Ausdrucken PDF",
+   "metaDescription": "Rechnen und Ausmalen: kleine Aufgaben lösen, den Farbcode lesen und jede Form in der richtigen Farbe anmalen. Kostenloses Arbeitsblatt als PDF ausdrucken."
+  },
+  {
+   "slug": "labyrinth-arbeitsblaetter",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mazes",
+    "mode": null,
+    "theme": "toys",
+    "level": "vorschule"
+   },
+   "eyebrow": "Labyrinth-Arbeitsblatt",
+   "h1": "Durch das Labyrinth – finde den Weg zum Ziel",
+   "strand": "Wahrnehmung und Konzentration",
+   "slotTokens": [
+    "labyrinthe",
+    "spielzeug",
+    "vorschule"
+   ],
+   "p1": "Ein großes Labyrinth voller Wege, Abzweigungen und Sackgassen – und mittendrin das Thema Spielzeug. Oben am Start wartet ein kleines Tier darauf, loszulaufen; unten liegt das Ziel. Das Kind startet oben, schaut mit den Augen voraus und zeichnet seinen Weg mit dem Stift durch das Labyrinth bis ganz nach unten. Manche Abzweigung führt in die Irre, und genau das macht den Reiz aus: kurz anhalten, zurückschauen, einen neuen Weg probieren – bis der eine richtige Pfad gefunden ist.",
+   "p2": "Labyrinthe sind kleine Denksport-Aufgaben im Vorschulformat. Sie schulen das vorausschauende Denken – wohin führt dieser Weg wohl? –, die Konzentration über mehrere Minuten und ganz nebenbei die Stiftführung, denn die Linie soll sauber zwischen den Wänden bleiben. Auch Frustrationstoleranz wird geübt: Eine Sackgasse ist kein Fehler, sondern eine Information. Wer das verinnerlicht, geht auch an andere Aufgaben gelassener heran. Zehn gute Minuten Stille am Tisch – das schafft kaum ein anderes Blatt so zuverlässig. Ein bewährter Tipp: erst mit dem Finger vorspuren, dann mit dem Stift nachziehen – so bleibt das Blatt sauber für den nächsten Anlauf.",
+   "p3": "Das Labyrinth lässt sich kostenlos als PDF ausdrucken – und eignet sich wunderbar als ruhige Konzentrationsübung zwischendurch. Wer die Stifthand weiter trainieren will, greift danach zu den Schwungübungen; wer lieber knobelt und malt, für den ist das Rechenmalblatt mit Farbcode die richtige nächste Seite.",
+   "canonicalDeckSlug": "labyrinthe-spielzeug-k242",
+   "carousel": [
+    {
+     "label": "Zahlzerlegung bis 10 – Teil, Teil, Ganzes",
+     "href": "zahlzerlegung-bis-10"
+    },
+    {
+     "label": "Kopfrechnen bis 20 – Plus und Minus im Kopf",
+     "href": "kopfrechnen-bis-20"
+    },
+    {
+     "label": "Aufgabenfamilien üben – vier Aufgaben aus drei Zahlen",
+     "href": "aufgabenfamilien"
+    },
+    {
+     "label": "Zahlwörter lesen und sicher zuordnen",
+     "href": "zahlwoerter-lesen"
+    }
+   ],
+   "title": "Arbeitsblätter Labyrinth für Kinder | zum Ausdrucken PDF",
+   "metaDescription": "Labyrinth für Kinder: vom Start oben bis zum Ziel unten einen Weg durch den Irrgarten zeichnen. Konzentration üben – kostenlos als PDF zum Ausdrucken."
+  },
+  {
+   "slug": "zahlzerlegung-bis-10",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-bonds",
+    "mode": null,
+    "theme": "",
+    "level": "vorschule"
+   },
+   "eyebrow": "Zahlzerlegungs-Arbeitsblatt",
+   "h1": "Zahlzerlegung bis 10 – Teil, Teil, Ganzes",
+   "strand": "Zahlen und Operationen",
+   "standard": "K.OA.A.4",
+   "slotTokens": [
+    "zahlzerlegung",
+    "vorschule"
+   ],
+   "p1": "Sechs Teil-Teil-Ganzes-Aufgaben, sechsmal die Zehn: Auf diesem Arbeitsblatt zur Zahlzerlegung sieht das Kind in jeder Aufgabe die 10 als Ganzes und zwei Teile, die zusammen die Zehn ergeben – doch einer der Kreise ist leer. Das Kind schaut sich die gegebene Zahl an, überlegt, wie viel zur 10 noch fehlt, und schreibt die fehlende Zahl in den gestrichelten Kreis. Die klare Bildsprache – ein großer Kreis für das Ganze, zwei kleine für die Teile – macht ohne viele Worte deutlich, was zusammengehört. Aufgabe für Aufgabe entstehen so die Zerlegungen der Zehn.",
+   "p2": "Die Zerlegung der Zehn ist eine der wichtigsten Grundlagen des ersten Schuljahres. Wer blitzschnell weiß, dass 7 und 3 die Zehn füllen, rechnet später über den Zehner, ohne zu stocken – fast jede Plus- und Minusstrategie im Zwanzigerraum stützt sich auf genau dieses Wissen. Das Teil-Teil-Ganzes-Bild macht dabei sichtbar, dass in einer Zahl immer zwei kleinere stecken: Zahlen werden zerlegbar, nicht nur zählbar. So wird aus dem Auswendiglernen ein echtes Verstehen.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken – ideal zum Wiederholen, bis alle Zehnerfreunde sitzen. Wer sie sicher beherrscht, ist bereit für das Kopfrechnen bis 20; und wer sehen möchte, wie Plus und Minus zusammenhängen, entdeckt das in den Aufgabenfamilien mit ihren Rechenhäusern.",
+   "canonicalDeckSlug": "zahlzerlegung-k243",
+   "carousel": [
+    {
+     "label": "Kopfrechnen bis 20 – Plus und Minus im Kopf",
+     "href": "kopfrechnen-bis-20"
+    },
+    {
+     "label": "Aufgabenfamilien üben – vier Aufgaben aus drei Zahlen",
+     "href": "aufgabenfamilien"
+    },
+    {
+     "label": "Zahlwörter lesen und sicher zuordnen",
+     "href": "zahlwoerter-lesen"
+    },
+    {
+     "label": "Rechnen mit Geld – Euro und Cent zählen",
+     "href": "rechnen-mit-geld"
+    }
+   ],
+   "title": "Arbeitsblätter Zahlzerlegung bis 10 | zum Ausdrucken PDF",
+   "metaDescription": "Zahlzerlegung bis 10 mit Teil-Teil-Ganzes-Kreisen: die fehlende Zahl in den leeren Kreis schreiben. Kostenloses Arbeitsblatt zum Ausdrucken als PDF."
+  },
+  {
+   "slug": "kopfrechnen-bis-20",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "mental-math",
+    "mode": null,
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Kopfrechnen-Arbeitsblatt",
+   "h1": "Kopfrechnen bis 20 – Plus und Minus im Kopf",
+   "strand": "Zahlen und Operationen",
+   "standard": "1.OA.C.6",
+   "slotTokens": [
+    "kopfrechnen",
+    "1-klasse"
+   ],
+   "p1": "Zwölf gemischte Plus- und Minusaufgaben im Zahlenraum bis 20 – das ist das tägliche Brot der 1. Klasse, und genau das trainiert dieses Kopfrechen-Arbeitsblatt. Das Kind rechnet jede Aufgabe im Kopf und schreibt die fehlende Zahl in das leere Kästchen. Weil Addition und Subtraktion bunt gemischt sind, muss es bei jeder Aufgabe neu hinschauen: Wird hier zusammengezählt oder weggenommen? Zwölf Aufgaben sind dabei bewusst ein machbares Pensum – kurz, konzentriert, ohne zu ermüden.",
+   "p2": "Sicheres Kopfrechnen bis 20 ist das Fundament, auf dem alles Weitere aufbaut: das Rechnen bis 100, die schriftlichen Verfahren, später das Einmaleins. Je flüssiger die Grundaufgaben abrufbar sind, desto mehr Denkkapazität bleibt für neue Inhalte frei. Regelmäßige kurze Übungseinheiten wirken hier besser als seltene lange – fünf Minuten am Tag verändern über Wochen sichtbar die Rechensicherheit. Und weil die Ergebnisse ins Kästchen geschrieben werden, sieht die Lehrkraft oder ein Elternteil auf einen Blick, wo es noch hakt.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken – gern im Wochenrhythmus als feste Rechenzeit. Wer noch beim Zählen stockt, festigt vorher die Zahlzerlegung bis 10; wer die Zusammenhänge hinter den Aufgaben entdecken will, für den sind die Aufgabenfamilien mit ihren vier verwandten Aufgaben der ideale Begleiter. Fehler sind dabei ausdrücklich erlaubt: Ein falsch gefülltes Kästchen zeigt nur, welche Aufgabenart noch eine Extrarunde verdient.",
+   "canonicalDeckSlug": "kopfrechnen-g1208",
+   "carousel": [
+    {
+     "label": "Aufgabenfamilien üben – vier Aufgaben aus drei Zahlen",
+     "href": "aufgabenfamilien"
+    },
+    {
+     "label": "Zahlwörter lesen und sicher zuordnen",
+     "href": "zahlwoerter-lesen"
+    },
+    {
+     "label": "Rechnen mit Geld – Euro und Cent zählen",
+     "href": "rechnen-mit-geld"
+    },
+    {
+     "label": "Uhrzeiger einzeichnen – die Uhr stellen lernen",
+     "href": "uhrzeiger-einzeichnen"
+    }
+   ],
+   "title": "Arbeitsblätter Kopfrechnen bis 20 | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Kopfrechnen bis 20: zwölf gemischte Plus- und Minusaufgaben für die 1. Klasse, Ergebnis ins Kästchen schreiben. Kostenlos als PDF zum Ausdrucken."
+  },
+  {
+   "slug": "aufgabenfamilien",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "fact-families",
+    "mode": null,
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Aufgabenfamilien-Arbeitsblatt",
+   "h1": "Aufgabenfamilien üben – vier Aufgaben aus drei Zahlen",
+   "strand": "Zahlen und Operationen",
+   "standard": "1.OA.B.4",
+   "slotTokens": [
+    "aufgabenfamilien",
+    "1-klasse"
+   ],
+   "p1": "Vier Rechenhäuser mit dreieckigem Dach stehen auf diesem Arbeitsblatt – und auf jedem Dach wohnen drei Zahlen. Aus diesem Zahlentrio bildet das Kind die vier Aufgaben, die dazugehören: zwei Plusaufgaben und zwei Minusaufgaben, die alle dieselben drei Zahlen verwenden. Die Dachform hilft dabei – die größte Zahl thront an der Spitze, die beiden Teile sitzen darunter, ein Bild, das viele Kinder aus dem Unterricht kennen. Haus für Haus vervollständigt das Kind so ganze Aufgabenfamilien und entdeckt, dass in drei Zahlen gleich vier Rechnungen stecken.",
+   "p2": "Aufgabenfamilien machen den wichtigsten Zusammenhang des ersten Schuljahres sichtbar: Plus und Minus sind keine getrennten Welten, sondern kehren einander um. Wer weiß, dass 7 plus 5 zwölf ergibt, kann daraus 12 minus 5 ableiten, ohne neu zu rechnen. Dieses Umkehrdenken halbiert den Lernaufwand beim Kopfrechnen und ist später die Grundlage für Platzhalteraufgaben und Gleichungen. Zudem trainiert das systematische Aufschreiben aller vier Aufgaben Sorgfalt und Struktur.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken. Es passt perfekt neben das Kopfrechnen bis 20, das dieselben Aufgaben in bunter Mischung trainiert – erst die Familie verstehen, dann flüssig abrufen. Auch die Rechengeschichten mit Bildern greifen dieses Wissen wieder auf, wenn aus Zahlen kleine Alltagssituationen werden. Wer mag, lässt das Kind zum Schluss eine eigene Familie erfinden – drei selbst gewählte Zahlen, vier eigene Aufgaben: die beste Probe, ob das Prinzip verstanden ist.",
+   "canonicalDeckSlug": "aufgabenfamilien-g1209",
+   "carousel": [
+    {
+     "label": "Zahlwörter lesen und sicher zuordnen",
+     "href": "zahlwoerter-lesen"
+    },
+    {
+     "label": "Rechnen mit Geld – Euro und Cent zählen",
+     "href": "rechnen-mit-geld"
+    },
+    {
+     "label": "Uhrzeiger einzeichnen – die Uhr stellen lernen",
+     "href": "uhrzeiger-einzeichnen"
+    },
+    {
+     "label": "Rechengeschichten mit Bildern – erste Sachaufgaben",
+     "href": "rechengeschichten-mit-bildern"
+    }
+   ],
+   "title": "Arbeitsblätter Aufgabenfamilien bis 20 | zum Ausdrucken PDF",
+   "metaDescription": "Aufgabenfamilien üben: aus drei Zahlen im Rechenhaus vier verwandte Plus- und Minusaufgaben bilden. Arbeitsblatt für die 1. Klasse, gratis als PDF drucken."
+  },
+  {
+   "slug": "zahlwoerter-lesen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "number-words",
+    "mode": null,
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Zahlwörter-Arbeitsblatt",
+   "h1": "Zahlwörter lesen und sicher zuordnen",
+   "strand": "Zahlen und Operationen",
+   "standard": "2.NBT.A.3",
+   "slotTokens": [
+    "zahlwoerter",
+    "1-klasse"
+   ],
+   "p1": "Sechs große Zahlen, dazu jeweils drei Zahlwörter zur Auswahl – aber nur eines passt genau. Auf diesem Arbeitsblatt liest das Kind zuerst die Ziffer, dann die drei geschriebenen Zahlwörter darunter, und kreist das Wort ein, das wirklich zur Zahl gehört. Die falschen Kandidaten sind bewusst nah dran – da steht dann etwa dreizehn neben dreißig –, sodass genaues Lesen den Unterschied macht. Sechs Aufgaben halten die Konzentration hoch, ohne zu überfordern.",
+   "p2": "Zahlwörter sicher zu lesen ist mehr als eine Leseübung: Es schützt vor den klassischen Zahlendrehern, die im Deutschen besonders tückisch sind, weil wir die Einer zuerst sprechen – einundzwanzig, aber 21 geschrieben. Wer Ziffer und Wort immer wieder bewusst zusammenbringt, verankert die richtige Verbindung und liest auch Textaufgaben später sicherer. Gleichzeitig verbindet die Übung den Mathe- mit dem Leseunterricht – zwei Fächer, ein Blatt. So beugt eine kleine Seite einem großen Stolperstein vor.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken und ist in wenigen Minuten bearbeitet – ideal als Aufwärmübung. Wer die Zahlwörter sitzen hat, wendet sie beim Kopfrechnen bis 20 gleich an; und in den Rechengeschichten mit Bildern tauchen Zahlen mitten im Text wieder auf – genau dort, wo sicheres Zahlwortlesen gebraucht wird. Auch als Partnerübung funktioniert das Blatt gut: Ein Kind liest das Zahlwort vor, das andere zeigt auf die passende Zahl – so wird aus dem Arbeitsblatt ein kleines Spiel.",
+   "canonicalDeckSlug": "zahlwoerter-g1210",
+   "carousel": [
+    {
+     "label": "Rechnen mit Geld – Euro und Cent zählen",
+     "href": "rechnen-mit-geld"
+    },
+    {
+     "label": "Uhrzeiger einzeichnen – die Uhr stellen lernen",
+     "href": "uhrzeiger-einzeichnen"
+    },
+    {
+     "label": "Rechengeschichten mit Bildern – erste Sachaufgaben",
+     "href": "rechengeschichten-mit-bildern"
+    },
+    {
+     "label": "Schriftlich rechnen ohne Übertrag – Stelle für Stelle",
+     "href": "schriftlich-rechnen-ohne-uebertrag"
+    }
+   ],
+   "title": "Arbeitsblätter Zahlwörter lesen | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Zahlwörter lesen: zu jeder Zahl das passende Zahlwort einkreisen. Sechs Aufgaben gegen Zahlendreher – kostenloses Arbeitsblatt als PDF zum Ausdrucken."
+  },
+  {
+   "slug": "rechnen-mit-geld",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "money",
+    "mode": null,
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Geld-Arbeitsblatt",
+   "h1": "Rechnen mit Geld – Euro und Cent zählen",
+   "strand": "Größen und Messen",
+   "standard": "2.MD.C.8",
+   "slotTokens": [
+    "rechnen-mit-geld",
+    "1-klasse"
+   ],
+   "p1": "Sechs Geldbeutel, gefüllt mit Euro- und Cent-Münzen – und die Frage: Wie viel ist drin? Auf diesem Arbeitsblatt zum Rechnen mit Geld schaut sich das Kind die Münzen in jedem Geldbeutel genau an, zählt sie geschickt zusammen und schreibt den Gesamtbetrag in das Kästchen. Am leichtesten geht es, wenn man bei den großen Münzwerten beginnt und sich zu den kleinen vorarbeitet – genau diese Zählstrategie legt das Blatt nahe. Jeder Beutel ist eine eigene kleine Zählaufgabe.",
+   "p2": "Rechnen mit Geld ist Mathematik zum Anfassen: Kaum ein Zahlenraum ist für Kinder so bedeutsam wie der im eigenen Portemonnaie. Beim Zählen der Münzen üben sie das geschickte Addieren gemischter Werte, das Bündeln – zwei Fünfziger sind ein Euro – und den sicheren Umgang mit Euro und Cent. Das zahlt direkt auf den Alltag ein, vom Einkaufen mit den Eltern bis zum ersten eigenen Taschengeld. Und weil jeder Geldbeutel anders gefüllt ist, bleibt jede Aufgabe eine neue kleine Zählgeschichte.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken – wer mag, legt echte Münzen daneben und lässt nachlegen. Danach schlagen die Rechengeschichten mit Bildern die Brücke zu ersten Sachaufgaben, und mit dem Arbeitsblatt zum Uhrzeiger-Einzeichnen wandert die Alltagsmathematik von der Geldbörse weiter zur Uhr.",
+   "canonicalDeckSlug": "rechnen-mit-geld-g1211",
+   "carousel": [
+    {
+     "label": "Uhrzeiger einzeichnen – die Uhr stellen lernen",
+     "href": "uhrzeiger-einzeichnen"
+    },
+    {
+     "label": "Rechengeschichten mit Bildern – erste Sachaufgaben",
+     "href": "rechengeschichten-mit-bildern"
+    },
+    {
+     "label": "Schriftlich rechnen ohne Übertrag – Stelle für Stelle",
+     "href": "schriftlich-rechnen-ohne-uebertrag"
+    },
+    {
+     "label": "Milliliter und Gramm – Messbecher und Waagen ablesen",
+     "href": "milliliter-und-gramm"
+    }
+   ],
+   "title": "Arbeitsblätter Rechnen mit Geld | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Rechnen mit Geld: Euro- und Cent-Münzen in sechs Geldbeuteln zählen und den Betrag aufschreiben. Arbeitsblatt für die 1. Klasse, kostenlos als PDF drucken."
+  },
+  {
+   "slug": "uhrzeiger-einzeichnen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "telling-time",
+    "mode": null,
+    "theme": "",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Uhrzeit-Arbeitsblatt",
+   "h1": "Uhrzeiger einzeichnen – die Uhr stellen lernen",
+   "strand": "Größen und Messen",
+   "standard": "1.MD.B.3",
+   "slotTokens": [
+    "uhrzeit",
+    "1-klasse"
+   ],
+   "p1": "Vier leere Zifferblätter, daneben die Uhrzeit in digitaler Form – und der Auftrag: Zeichne die Zeiger selbst ein! Auf diesem Arbeitsblatt liest das Kind zuerst die digitale Uhrzeit auf dem Zeitchip, überlegt, wo Stunden- und Minutenzeiger stehen müssen, und zeichnet beide in die leere Uhr ein: den kurzen Stundenzeiger und den langen Minutenzeiger. Damit dreht das Blatt die übliche Aufgabe um – nicht ablesen, sondern selbst einstellen.",
+   "p2": "Genau dieses Umdrehen macht den Lerneffekt aus: Wer Zeiger selbst einzeichnen kann, hat das Zifferblatt wirklich verstanden – dass der kurze Zeiger die Stunde zeigt, der lange die Minuten, und dass der Stundenzeiger bei halben Stunden schon zwischen zwei Zahlen wandert. Das Übersetzen von digitaler in analoge Zeit verbindet außerdem die beiden Uhrenwelten, denen Kinder täglich begegnen – Handy-Anzeige und Klassenzimmeruhr. Sorgfalt zahlt sich doppelt aus: Ein sauber gezeichneter Zeiger ist zugleich eine kleine Feinmotorik-Übung.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken und passt in jede Übungsphase zum Thema Uhrzeit in der 1. Klasse. Wer die Alltagsmathematik weiterüben möchte, greift danach zum Rechnen mit Geld – Münzen zählen statt Zeiger zeichnen – oder verpackt beides in die Rechengeschichten mit Bildern. So bleibt das Thema Zeit lebendig, bis Ablesen und Stellen wie von selbst gelingen.",
+   "canonicalDeckSlug": "uhrzeit-g1212",
+   "carousel": [
+    {
+     "label": "Rechengeschichten mit Bildern – erste Sachaufgaben",
+     "href": "rechengeschichten-mit-bildern"
+    },
+    {
+     "label": "Schriftlich rechnen ohne Übertrag – Stelle für Stelle",
+     "href": "schriftlich-rechnen-ohne-uebertrag"
+    },
+    {
+     "label": "Milliliter und Gramm – Messbecher und Waagen ablesen",
+     "href": "milliliter-und-gramm"
+    },
+    {
+     "label": "Symmetrie und Spiegeln – Spiegelbilder vervollständigen",
+     "href": "symmetrie-spiegeln"
+    }
+   ],
+   "title": "Arbeitsblätter Uhrzeiger einzeichnen | zum Ausdrucken PDF",
+   "metaDescription": "Uhrzeiger einzeichnen: digitale Uhrzeit lesen und Stunden- und Minutenzeiger in die leere Uhr zeichnen. Kostenloses Arbeitsblatt zum Ausdrucken als PDF."
+  },
+  {
+   "slug": "rechengeschichten-mit-bildern",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "word-problems",
+    "mode": null,
+    "theme": "fruits",
+    "level": "1-klasse"
+   },
+   "eyebrow": "Sachaufgaben-Arbeitsblatt",
+   "h1": "Rechengeschichten mit Bildern – erste Sachaufgaben",
+   "strand": "Zahlen und Operationen",
+   "standard": "1.OA.A.1",
+   "slotTokens": [
+    "sachaufgaben",
+    "fruchte",
+    "1-klasse"
+   ],
+   "p1": "Zwei Rechengeschichten, viele Früchte und ein klarer Arbeitsweg – das ist dieses Sachaufgaben-Arbeitsblatt für die 1. Klasse. Das Kind liest jede kurze Geschichte rund um Äpfel, Birnen und andere Früchte; darunter zeigt ein Bildstreifen die Situation noch einmal mit Symbolen, sodass die Rechnung sichtbar wird. Im Punkteraster daneben ist Platz zum Rechnen und Skizzieren, und die Antwort kommt am Ende in das Kästchen. Lesen, schauen, rechnen, antworten – jeder Schritt hat seinen festen Ort.",
+   "p2": "Rechengeschichten sind der Moment, in dem Rechnen zu Problemlösen wird: Die Zahlen stehen nicht mehr fertig da, sondern verstecken sich in einem kleinen Stück Alltag. Die Bildstreifen sind dabei die entscheidende Brücke – sie übersetzen den Text in eine Menge zum Zählen und nehmen Leseanfängern die Angst vor der Textaufgabe. Wer früh lernt, erst die Situation zu verstehen und dann zu rechnen, dem gelingen Sachaufgaben in allen folgenden Schuljahren leichter.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken. Die Rechnungen selbst bewegen sich im Zwanzigerraum – wer hier noch Sicherheit braucht, trainiert parallel mit dem Kopfrechnen bis 20. Und wer den Alltagsbezug liebt, findet im Rechnen mit Geld die nächste Portion Mathematik mitten aus dem Leben. So wächst Schritt für Schritt ein kleiner Sachrechner heran.",
+   "canonicalDeckSlug": "sachaufgaben-fruchte-g1213",
+   "carousel": [
+    {
+     "label": "Schriftlich rechnen ohne Übertrag – Stelle für Stelle",
+     "href": "schriftlich-rechnen-ohne-uebertrag"
+    },
+    {
+     "label": "Milliliter und Gramm – Messbecher und Waagen ablesen",
+     "href": "milliliter-und-gramm"
+    },
+    {
+     "label": "Symmetrie und Spiegeln – Spiegelbilder vervollständigen",
+     "href": "symmetrie-spiegeln"
+    },
+    {
+     "label": "Lesetext mit Fragen – lesen und verstehen",
+     "href": "lesetext-mit-fragen"
+    }
+   ],
+   "title": "Arbeitsblätter Rechengeschichten Klasse 1 | zum Ausdrucken PDF",
+   "metaDescription": "Rechengeschichten mit Bildern: zwei Sachaufgaben mit Früchten, Bildstreifen als Hilfe und Platz zum Rechnen. Kostenlos als PDF für die 1. Klasse drucken."
+  },
+  {
+   "slug": "schriftlich-rechnen-ohne-uebertrag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Arbeitsblatt Schriftliches Rechnen",
+   "h1": "Schriftlich rechnen ohne Übertrag – Stelle für Stelle",
+   "strand": "Zahlen und Operationen",
+   "standard": "2.NBT.B.5",
+   "slotTokens": [
+    "schriftlich-rechnen",
+    "2-klasse"
+   ],
+   "p1": "Sechs Aufgaben, sauber untereinander geschrieben, jede Ziffer in ihrem eigenen Stellenwert-Kästchen: Auf diesem Arbeitsblatt üben Kinder der 2. Klasse das schriftliche Rechnen ohne Übertrag. Die Regel ist klar und wird in jeder Aufgabe gleich angewendet – zuerst die Einer verrechnen, dann die Zehner. Weil noch kein Übertrag dazwischenfunkt, kann sich das Kind ganz auf den Ablauf des Verfahrens konzentrieren: richtig untereinander schreiben, Spalte für Spalte rechnen, das Ergebnis notieren.",
+   "p2": "Genau diese ruhige Einstiegsphase ist wichtig: Das schriftliche Verfahren ist ein Handwerk, und jedes Handwerk lernt man zuerst ohne Erschwernis. Die Stellenwert-Kästchen erziehen dabei zur Ordnung – Einer unter Einer, Zehner unter Zehner –, denn die meisten Fehler beim schriftlichen Rechnen entstehen nicht beim Rechnen selbst, sondern beim schiefen Aufschreiben. Wer das Grundgerüst hier verinnerlicht, hat später den Kopf frei für den Übertrag. So wird aus sechs Aufgaben eine kleine Verfahrensschule. Auch das leise Mitsprechen hilft vielen Kindern: Wer jeden Schritt benennt – Einer plus Einer, Zehner plus Zehner –, rechnet aufmerksamer und entdeckt eigene Fehler schneller.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken und beliebig oft wiederholen, bis der Ablauf sitzt. Der natürliche nächste Schritt ist das schriftliche Rechnen mit Übertrag, bei dem eigene Übertragskästchen den Zehnerübergang begleiten. Und wer zwischendurch die Grundaufgaben auffrischen will, bleibt mit dem Kopfrechnen bis 20 in Form.",
+   "canonicalDeckSlug": "schriftlich-rechnen-g2251",
+   "carousel": [
+    {
+     "label": "Milliliter und Gramm – Messbecher und Waagen ablesen",
+     "href": "milliliter-und-gramm"
+    },
+    {
+     "label": "Symmetrie und Spiegeln – Spiegelbilder vervollständigen",
+     "href": "symmetrie-spiegeln"
+    },
+    {
+     "label": "Lesetext mit Fragen – lesen und verstehen",
+     "href": "lesetext-mit-fragen"
+    },
+    {
+     "label": "Schriftlich rechnen mit Übertrag",
+     "href": "schriftlich-rechnen-mit-uebertrag"
+    }
+   ],
+   "title": "Arbeitsblätter Schriftlich rechnen ohne Übertrag | PDF kostenlos",
+   "metaDescription": "Schriftlich rechnen ohne Übertrag: sechs Aufgaben in Stellenwert-Kästchen, erst Einer, dann Zehner. Arbeitsblatt für die 2. Klasse, gratis als PDF drucken."
+  },
+  {
+   "slug": "milliliter-und-gramm",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "measurement",
+    "mode": null,
+    "theme": "vehicles",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Messen-Arbeitsblatt",
+   "h1": "Milliliter und Gramm – Messbecher und Waagen ablesen",
+   "strand": "Größen und Messen",
+   "standard": "3.MD.A.2",
+   "slotTokens": [
+    "messen",
+    "fahrzeuge",
+    "2-klasse"
+   ],
+   "p1": "Drei Messbecher, drei Balkenwaagen – und auf den Waagschalen stehen Fahrzeuge, die gewogen werden wollen. Auf diesem Arbeitsblatt zum Thema Messen liest das Kind zuerst an jedem Messbecher ab, wie viele Milliliter eingefüllt sind, und dann an jeder Waage, wie viele Gramm das Fahrzeug wiegt. Beide Werte werden mit ihrer Einheit aufgeschrieben – ml oder g –, denn eine Zahl ohne Einheit sagt beim Messen nur die halbe Wahrheit. Sechs Ablesestationen ergeben so ein kompaktes Mess-Training.",
+   "p2": "Skalen ablesen ist eine eigene Kunst: Man muss erkennen, in welchen Schritten die Striche zählen, den Füllstand oder Zeigerstand genau treffen und das Ergebnis mit der richtigen Einheit verbinden. Milliliter und Gramm gehören zu den Größen, die Kinder in der 2. Klasse kennenlernen – vom Wasserglas bis zur Küchenwaage. Wer Messgeräte sicher liest, versteht Größen nicht als abstrakte Zahlen, sondern als etwas, das man sehen, gießen und wiegen kann. So bekommt jede Zahl ein Gewicht – im Wortsinn.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken – und wer mag, stellt danach echten Messbecher und Küchenwaage auf den Tisch. Als Ergänzung passt das Symmetrie-Arbeitsblatt mit seinen Spiegelbildern für den geometrischen Blick oder das schriftliche Rechnen ohne Übertrag, wenn wieder die Zahlen im Mittelpunkt stehen sollen.",
+   "canonicalDeckSlug": "messen-fahrzeuge-g2252",
+   "carousel": [
+    {
+     "label": "Symmetrie und Spiegeln – Spiegelbilder vervollständigen",
+     "href": "symmetrie-spiegeln"
+    },
+    {
+     "label": "Lesetext mit Fragen – lesen und verstehen",
+     "href": "lesetext-mit-fragen"
+    },
+    {
+     "label": "Schriftlich rechnen mit Übertrag",
+     "href": "schriftlich-rechnen-mit-uebertrag"
+    },
+    {
+     "label": "Einmaleins üben – zwölf Malaufgaben bis zum sicheren Abruf",
+     "href": "einmaleins-ueben"
+    }
+   ],
+   "title": "Arbeitsblätter Milliliter und Gramm ablesen | PDF kostenlos",
+   "metaDescription": "Milliliter und Gramm ablesen: drei Messbecher und drei Waagen mit Fahrzeugen zeigen Mengen zum Ablesen und Aufschreiben. Kostenlos als PDF ausdrucken."
+  },
+  {
+   "slug": "symmetrie-spiegeln",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "symmetry",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Symmetrie-Arbeitsblatt",
+   "h1": "Symmetrie und Spiegeln – Spiegelbilder vervollständigen",
+   "strand": "Raum und Form",
+   "slotTokens": [
+    "symmetrie",
+    "2-klasse"
+   ],
+   "p1": "Vier Pixelbilder, jedes nur zur Hälfte fertig – und mitten durchs Raster läuft die korallenrote Spiegelachse. Auf diesem Symmetrie-Arbeitsblatt schaut sich das Kind die fertige Hälfte jedes Bildes genau an und malt die Kästchen auf der anderen Seite der Achse so aus, dass ein perfektes Spiegelbild entsteht. Kästchen zählen, Position übertragen, ausmalen – Reihe für Reihe wächst die zweite Hälfte, bis das ganze Bild symmetrisch dasteht. Die Motive sind so gewählt, dass Fehler sichtbar, aber nie entmutigend sind.",
+   "p2": "Spiegeln auf Kästchenpapier ist Geometrie zum Selbermachen: Das Kind erfährt am eigenen Stift, dass ein Spiegelbild gleich weit von der Achse entfernt ist wie das Original – nur eben auf der anderen Seite. Das genaue Abzählen der Kästchen schult die räumliche Orientierung und die Sorgfalt; ein einziges verrutschtes Kästchen fällt im fertigen Bild sofort auf und lädt zum Selbstkontrollieren ein. Ganz nebenbei entsteht ein Gespür für Muster, das auch im Kunstunterricht trägt.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken – die fertigen Spiegelbilder machen sich übrigens wunderbar an der Pinnwand. Wer weiter messen, schätzen und vergleichen möchte, greift zum Arbeitsblatt mit Messbechern und Waagen; wer lieber wieder rechnet und malt, findet im Rechenmalblatt mit Farbcode die verspielte Alternative. Und wer noch einen Schritt weiterdenken möchte: Mit einem Handspiegel auf der Achse lässt sich jedes fertige Bild sofort selbst kontrollieren – ein Aha-Moment, der Geometrie greifbar macht.",
+   "canonicalDeckSlug": "symmetrie-g2253",
+   "carousel": [
+    {
+     "label": "Lesetext mit Fragen – lesen und verstehen",
+     "href": "lesetext-mit-fragen"
+    },
+    {
+     "label": "Schriftlich rechnen mit Übertrag",
+     "href": "schriftlich-rechnen-mit-uebertrag"
+    },
+    {
+     "label": "Einmaleins üben – zwölf Malaufgaben bis zum sicheren Abruf",
+     "href": "einmaleins-ueben"
+    },
+    {
+     "label": "Schwungübungen für die Vorschule – Schleifen, Wellen und Zickzack",
+     "href": "schwunguebungen-vorschule"
+    }
+   ],
+   "title": "Arbeitsblätter Symmetrie und Spiegeln | zum Ausdrucken PDF",
+   "metaDescription": "Symmetrie üben: vier Pixelbilder an der Spiegelachse Kästchen für Kästchen vervollständigen. Arbeitsblatt Spiegeln für die 2. Klasse, gratis als PDF."
+  },
+  {
+   "slug": "lesetext-mit-fragen",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "reading-comprehension",
+    "mode": null,
+    "theme": "",
+    "level": "2-klasse"
+   },
+   "eyebrow": "Leseverstehen-Arbeitsblatt",
+   "h1": "Lesetext mit Fragen – lesen und verstehen",
+   "strand": "Lesen und Leseverstehen",
+   "standard": "RL.2.1",
+   "slotTokens": [
+    "leseverstaendnis",
+    "2-klasse"
+   ],
+   "p1": "Eine kurze, eigens geschriebene Geschichte, darunter drei Fragen mit Antwortmöglichkeiten zum Einkreisen – dieses Lese-Arbeitsblatt für die 2. Klasse trainiert genaues Lesen und Verstehen in einem überschaubaren Format. Das Kind liest den Text in Ruhe, gern auch zweimal, und sucht dann bei jeder Frage die Antwort, die wirklich in der Geschichte steht. Die falschen Antworten klingen oft möglich – entscheiden kann nur, wer wirklich gelesen hat und im Zweifel noch einmal in den Text zurückgeht.",
+   "p2": "Lesen können und Gelesenes verstehen sind zwei verschiedene Fähigkeiten – und die zweite entscheidet über den Schulerfolg in allen Fächern, von der Mathe-Textaufgabe bis zum Sachunterricht. Fragen zum Ankreuzen sind dafür ein idealer Einstieg: Sie nehmen die Hürde des Antwortformulierens und lenken die ganze Aufmerksamkeit auf das Verstehen. Das Zurückgehen in den Text ist dabei ausdrücklich erwünscht – genau so arbeiten geübte Leserinnen und Leser. Drei Fragen sind bewusst wenige: Qualität vor Menge.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken – ideal für die Lesezeit im Unterricht oder das Lesetraining zu Hause. Jüngere Geschwister üben derweil mit den Lernwörtern die häufigsten Wörter, und wer Lesen und Rechnen verbinden möchte, findet in den Rechengeschichten mit Bildern die mathematische Schwester dieser Seite. Wer die Geschichte danach mit eigenen Worten nacherzählen lässt, verlängert die Übung um den wertvollsten Schritt: das Verstandene selbst zu formulieren.",
+   "canonicalDeckSlug": "leseverstaendnis-g2254",
+   "carousel": [
+    {
+     "label": "Schriftlich rechnen mit Übertrag",
+     "href": "schriftlich-rechnen-mit-uebertrag"
+    },
+    {
+     "label": "Einmaleins üben – zwölf Malaufgaben bis zum sicheren Abruf",
+     "href": "einmaleins-ueben"
+    },
+    {
+     "label": "Schwungübungen für die Vorschule – Schleifen, Wellen und Zickzack",
+     "href": "schwunguebungen-vorschule"
+    },
+    {
+     "label": "Zahlen schreiben lernen von 0 bis 9",
+     "href": "zahlen-schreiben-lernen"
+    }
+   ],
+   "title": "Arbeitsblätter Lesetext mit Fragen | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Lesetext mit Fragen: eine kurze Geschichte lesen und drei Verständnisfragen ankreuzen. Leseverstehen für die 2. Klasse – kostenlos als PDF ausdrucken."
+  },
+  {
+   "slug": "schriftlich-rechnen-mit-uebertrag",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "column-arithmetic",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Arbeitsblatt Schriftliches Rechnen",
+   "h1": "Schriftlich rechnen mit Übertrag",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.NBT.A.2",
+   "slotTokens": [
+    "schriftlich-rechnen",
+    "3-klasse"
+   ],
+   "p1": "Sechs Aufgaben zum schriftlichen Rechnen – und diesmal mit der entscheidenden Schwierigkeit: dem Übertrag. Auf diesem Arbeitsblatt für die 3. Klasse rechnet das Kind Stelle für Stelle untereinander, und bei den Plusaufgaben warten eigene Übertragskästchen, in die die gemerkte Zahl sauber eingetragen wird, statt nur im Kopf mitzuschwirren. Zuerst die Einer, dann der Übertrag, dann die nächste Stelle – der Rhythmus des Verfahrens wird in jeder Aufgabe neu durchlaufen, bis er automatisch abläuft.",
+   "p2": "Der Übertrag ist die Stelle, an der das schriftliche Rechnen steht oder fällt: vergessen, doppelt gezählt oder in die falsche Spalte geschrieben – fast alle Fehler passieren genau hier. Die Übertragskästchen machen den kritischen Denkschritt sichtbar und überprüfbar, bis er verinnerlicht ist. Auch das saubere Untereinanderschreiben bleibt Thema – Ordnung ist hier die halbe Lösung. Wer das Verfahren mit Übertrag sicher beherrscht, kann beliebig große Zahlen addieren und subtrahieren – ein echtes Stück mathematischer Selbstständigkeit.",
+   "p3": "Das Arbeitsblatt lässt sich kostenlos als PDF ausdrucken. Wer vorher noch einmal ohne Stolperstelle üben möchte, nimmt das schriftliche Rechnen ohne Übertrag als Aufwärmrunde; und wer die Grundlagen für das Malnehmen legen will, trainiert parallel das Einmaleins bis zum sicheren Abruf. So fügt sich Blatt für Blatt das Rechenhandwerk der Grundschule zusammen.",
+   "canonicalDeckSlug": "schriftlich-rechnen-g3357",
+   "carousel": [
+    {
+     "label": "Einmaleins üben – zwölf Malaufgaben bis zum sicheren Abruf",
+     "href": "einmaleins-ueben"
+    },
+    {
+     "label": "Schwungübungen für die Vorschule – Schleifen, Wellen und Zickzack",
+     "href": "schwunguebungen-vorschule"
+    },
+    {
+     "label": "Zahlen schreiben lernen von 0 bis 9",
+     "href": "zahlen-schreiben-lernen"
+    },
+    {
+     "label": "Großbuchstaben nachspuren – vom Nachfahren zum Selberschreiben",
+     "href": "buchstaben-nachspuren"
+    }
+   ],
+   "title": "Arbeitsblätter Schriftlich rechnen mit Übertrag | PDF kostenlos",
+   "metaDescription": "Schriftlich rechnen mit Übertrag: sechs Aufgaben mit Übertragskästchen Stelle für Stelle lösen. Arbeitsblatt für die 3. Klasse, kostenlos als PDF drucken."
+  },
+  {
+   "slug": "einmaleins-ueben",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "multiplication-tables",
+    "mode": null,
+    "theme": "",
+    "level": "3-klasse"
+   },
+   "eyebrow": "Einmaleins-Arbeitsblatt",
+   "h1": "Einmaleins üben – zwölf Malaufgaben bis zum sicheren Abruf",
+   "strand": "Zahlen und Operationen",
+   "standard": "3.OA.C.7",
+   "slotTokens": [
+    "kleines-einmaleins",
+    "3-klasse"
+   ],
+   "p1": "Zwölf Malaufgaben quer durch die Einmaleinsreihen, notiert mit dem Malpunkt, wie er in der Schule geschrieben wird: Auf diesem Arbeitsblatt rechnet das Kind jede Aufgabe und schreibt das Ergebnis in das Kästchen. Die Aufgaben sind gemischt, damit nicht einfach eine Reihe heruntergesagt wird – jede Aufgabe verlangt einen echten Abruf aus dem Gedächtnis. Zwölf Stück sind dabei genau richtig: genug für ein spürbares Training, kurz genug für die tägliche Übungsrunde.",
+   "p2": "Das Einmaleins ist das Fundament der halben Grundschulmathematik: schriftliches Multiplizieren, Division, Brüche, Sachaufgaben – überall wird es gebraucht. Ziel ist der blitzschnelle Abruf, denn wer 7 mal 8 erst ausrechnen muss, verliert bei jeder größeren Aufgabe den Faden. Gemischte Aufgabenblätter wie dieses sind der Weg dorthin: Sie zeigen zuverlässig, welche Reihen schon sitzen und wo noch geübt werden darf. Ein Blick auf die Fehler verrät sofort die nächste Übungsreihe. Viele Familien machen daraus ein festes Ritual – ein Blatt nach dem Frühstück oder auf dem Heimweg vom Sport, immer zur gleichen Zeit.",
+   "p3": "Das Arbeitsblatt gibt es kostenlos als PDF zum Ausdrucken – am besten regelmäßig, denn beim Einmaleins schlägt Routine jedes Talent. Wer die Malaufgaben sicher beherrscht, wendet sie beim schriftlichen Rechnen mit Übertrag gleich an; und für den Rückblick auf die Grundlagen bleibt das Kopfrechnen bis 20 der bewährte Klassiker. So wird aus zwölf kleinen Aufgaben ein großer Schritt Richtung Rechensicherheit.",
+   "canonicalDeckSlug": "kleines-einmaleins-g3358",
+   "carousel": [
+    {
+     "label": "Schwungübungen für die Vorschule – Schleifen, Wellen und Zickzack",
+     "href": "schwunguebungen-vorschule"
+    },
+    {
+     "label": "Zahlen schreiben lernen von 0 bis 9",
+     "href": "zahlen-schreiben-lernen"
+    },
+    {
+     "label": "Großbuchstaben nachspuren – vom Nachfahren zum Selberschreiben",
+     "href": "buchstaben-nachspuren"
+    },
+    {
+     "label": "Lernwörter üben – lesen, nachspuren, schreiben",
+     "href": "lernwoerter-ueben"
+    }
+   ],
+   "title": "Arbeitsblätter Einmaleins üben | zum Ausdrucken PDF kostenlos",
+   "metaDescription": "Einmaleins üben: zwölf Malaufgaben mit Malpunkt bis zum sicheren Abruf trainieren. Arbeitsblatt für die 3. Klasse, kostenlos als PDF zum Ausdrucken."
   }
  ]
 }

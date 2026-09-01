@@ -2548,6 +2548,7 @@
     },
     "tileCta": "Katso tehtävät",
     "newHeading": "Uudet tehtävät",
+    "moreTypesHeading": "Lisää tehtävätyyppejä",
     "tileAlt": "Esimerkkitehtävä: {typeName}",
     "emptyTitle": "Tällä kielellä ei ole vielä saatavilla tehtäviä.",
     "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä.",

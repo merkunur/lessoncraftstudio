@@ -44,7 +44,8 @@ import {
 } from '@/components/catalog/CatalogFilters';
 import WorksheetCatalogCard from '@/components/worksheets/WorksheetCatalogCard';
 import { getMonolingualLandings, deckAssets } from '@/lib/seo/landing-content';
-import { NEW_WORKSHEET_GROUPS } from '@/config/worksheets-new-highlights';
+import type { Landing } from '@/lib/seo/landing-content';
+import { NEW_WORKSHEET_GROUPS, MORE_TYPE_GROUPS } from '@/config/worksheets-new-highlights';
 import {
   WORKSHEETS_PAGE_SIZE,
   WORKSHEETS_TOP_THEMES,
@@ -95,6 +96,13 @@ interface Tile {
   exerciseType: string;
   typeName: string;
   typeSlug: string;
+}
+
+// A family card: the landing rendered as the card, plus the landings rendered
+// as its chips. Both page-1 strips share the shape and the renderer.
+interface HighlightGroup {
+  base: Landing;
+  variations: Landing[];
 }
 
 async function countLocaleDecks(locale: string): Promise<number> {
@@ -307,25 +315,90 @@ export default async function AllWorksheetsPage({
   const page = filters.page;
   const pageItems = filtered.slice((page - 1) * WORKSHEETS_PAGE_SIZE, page * WORKSHEETS_PAGE_SIZE);
 
-  // "New worksheets" strip — bare hub state only (page 1, no filters, default
-  // sort). The variety grid orders type buckets by SIZE, so a fresh batch of
-  // small families lands on pages 2-3 and is invisible on the first screen;
-  // this strip surfaces the newest batch above the main grid as 20 family
-  // cards, each with chips linking its VARIATION landings (every batch page
-  // reachable from hub page 1 — the operator-demanded contract). Slugs that
-  // no longer exist in the corpus are dropped silently.
+  // The two family-card strips — bare hub state only (page 1, no filters,
+  // default sort). The variety grid orders type buckets by SIZE, so a family
+  // with few landings never reaches the first screen (page 1 is exactly one
+  // landing from each of the 24 largest buckets, of 53). Both strips exist to
+  // put such families one click from the hub:
+  //   newHighlightGroups — the newest batch (20 nt20 families + lowercase
+  //     letter-tracing), each card chipped with its VARIATION landings.
+  //   moreTypeGroups — 7 older families (arrays-multiplication, fractions,
+  //     geometry, graphing-data, number-charts, measurement, telling-time)
+  //     whose 2-4 landings rank ~46-53 and can only ever be reached through
+  //     the facet rail or a sibling landing; each card is chipped with that
+  //     family's other GRADE BANDS.
+  // Slugs that no longer exist in the corpus are dropped silently.
   const landingBySlug = new Map(allLandings.map((l) => [l.slug, l]));
-  const newHighlightGroups =
-    !browseActive && page === 1 && filters.sort === 'variety'
-      ? (NEW_WORKSHEET_GROUPS[locale] || [])
+  const bareHubState = !browseActive && page === 1 && filters.sort === 'variety';
+  const rehydrateGroups = (groups: { base: string; variations: string[] }[]): HighlightGroup[] =>
+    !bareHubState
+      ? []
+      : groups
           .map((g) => ({
             base: landingBySlug.get(g.base),
             variations: g.variations
               .map((s) => landingBySlug.get(s))
-              .filter((l): l is NonNullable<typeof l> => Boolean(l)),
+              .filter((l): l is Landing => Boolean(l)),
           }))
-          .filter((g): g is { base: NonNullable<typeof g.base>; variations: NonNullable<typeof g.base>[] } => Boolean(g.base))
-      : [];
+          .filter((g): g is HighlightGroup => Boolean(g.base));
+  const newHighlightGroups = rehydrateGroups(NEW_WORKSHEET_GROUPS[locale] || []);
+  const moreTypeGroups = rehydrateGroups(MORE_TYPE_GROUPS[locale] || []);
+
+  // One renderer for both strips. chipLabel differs: the new-batch chips carry
+  // the variation's own h1, while the older families' chips carry just the
+  // grade band — their h1s are full sentences ("Grade 3 Geometry Worksheets:
+  // Quadrilaterals, Right Angles, Perimeter, and Area") and would swamp a chip
+  // row, so the full title rides along as the accessible name instead.
+  // eagerCards is a budget, not a flag: only the first strip claims the
+  // above-fold image budget (see EAGER_CARDS).
+  const highlightStrip = (
+    headingId: string,
+    heading: string,
+    groups: HighlightGroup[],
+    chipLabel: (l: Landing) => string,
+    eagerCards: number,
+  ) =>
+    groups.length === 0 ? null : (
+      <section className="mb-9 md:mb-11" aria-labelledby={headingId}>
+        <h2 id={headingId} className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
+          {heading}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+          {groups.map((g, i) => (
+            <div key={`${headingId}-${g.base.slug}`} className="flex flex-col gap-2">
+              <WorksheetCatalogCard
+                href={localePath(locale, 'worksheets', g.base.slug)}
+                thumbnailSrc={wwwImg(deckAssets(locale, g.base.canonicalDeckSlug).thumbnail)}
+                title={g.base.h1}
+                levelLabel={levelChip(g.base.coordinate.level, locale)}
+                typeLabel={getAxisName('exercise-type', g.base.coordinate.type, locale) || g.base.coordinate.type}
+                subject={worksheetSubject(g.base.coordinate.type)}
+                ctaLabel={t('tileCta')}
+                eager={i < eagerCards}
+              />
+              {g.variations.length > 0 && (
+                <div className="flex flex-wrap gap-1.5">
+                  {g.variations.map((v) => {
+                    const label = chipLabel(v);
+                    return (
+                      <a
+                        key={v.slug}
+                        href={localePath(locale, 'worksheets', v.slug)}
+                        title={label === v.h1 ? undefined : v.h1}
+                        aria-label={label === v.h1 ? undefined : v.h1}
+                        className="inline-flex items-center px-2.5 py-1 rounded-full border border-lcs-teal/20 bg-white/60 text-xs font-lcsBody font-semibold text-lcs-teal leading-snug hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
+                      >
+                        {label}
+                      </a>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+    );
 
   // Active-filter chips + clear-all.
   const removeHref = (key: string) => {
@@ -448,45 +521,9 @@ export default async function AllWorksheetsPage({
                 <div className="lg:col-span-9">
                   <CatalogMobileFilters heading={tFacets('heading')} groups={facetGroups} basePath={basePath} spString={spString} />
 
-                  {newHighlightGroups.length > 0 && (
-                    <section className="mb-9 md:mb-11" aria-labelledby="new-worksheets-heading">
-                      <h2
-                        id="new-worksheets-heading"
-                        className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4"
-                      >
-                        {t('newHeading')}
-                      </h2>
-                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-                        {newHighlightGroups.map((g, i) => (
-                          <div key={`new-${g.base.slug}`} className="flex flex-col gap-2">
-                            <WorksheetCatalogCard
-                              href={localePath(locale, 'worksheets', g.base.slug)}
-                              thumbnailSrc={wwwImg(deckAssets(locale, g.base.canonicalDeckSlug).thumbnail)}
-                              title={g.base.h1}
-                              levelLabel={levelChip(g.base.coordinate.level, locale)}
-                              typeLabel={getAxisName('exercise-type', g.base.coordinate.type, locale) || g.base.coordinate.type}
-                              subject={worksheetSubject(g.base.coordinate.type)}
-                              ctaLabel={t('tileCta')}
-                              eager={i < EAGER_CARDS}
-                            />
-                            {g.variations.length > 0 && (
-                              <div className="flex flex-wrap gap-1.5">
-                                {g.variations.map((v) => (
-                                  <a
-                                    key={v.slug}
-                                    href={localePath(locale, 'worksheets', v.slug)}
-                                    className="inline-flex items-center px-2.5 py-1 rounded-full border border-lcs-teal/20 bg-white/60 text-xs font-lcsBody font-semibold text-lcs-teal leading-snug hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
-                                  >
-                                    {v.h1}
-                                  </a>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        ))}
-                      </div>
-                    </section>
-                  )}
+                  {highlightStrip('new-worksheets-heading', t('newHeading'), newHighlightGroups, (v) => v.h1, EAGER_CARDS)}
+
+                  {highlightStrip('more-types-heading', t('moreTypesHeading'), moreTypeGroups, (v) => levelChip(v.coordinate.level, locale), 0)}
 
                   <div className="flex items-center justify-between gap-3 flex-wrap mb-5">
                     <p className="font-lcsBody text-sm font-semibold text-lcs-teal/70">

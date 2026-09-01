@@ -4076,6 +4076,7 @@
     },
     "tileCta": "View worksheets",
     "newHeading": "New worksheets",
+    "moreTypesHeading": "More worksheet types",
     "tileAlt": "{typeName} worksheet sample",
     "emptyTitle": "No worksheets available in this language yet.",
     "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language.",

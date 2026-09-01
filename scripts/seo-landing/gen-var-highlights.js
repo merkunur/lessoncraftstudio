@@ -1,13 +1,25 @@
 #!/usr/bin/env node
 /**
- * gen-var-highlights.js — regenerates frontend/config/worksheets-new-highlights.ts
- * as v2 GROUPS: per locale, the 21 family cards (the 20 nt20 families + the
- * K-278 lowercase letter-tracing family), each with its variation
- * landing slugs (tier-1 + tier-2 + theme fans) in curriculum order. Landing
- * slugs are resolved from the locale's landing corpus by canonicalDeckSlug —
- * a variation without a published landing is silently omitted, so the tool
- * can run at any point of the landing rollout and the strip only ever links
- * real pages.
+ * gen-var-highlights.js — regenerates frontend/config/worksheets-new-highlights.ts,
+ * which feeds the TWO card strips on hub page 1.
+ *
+ * NEW_WORKSHEET_GROUPS (v2 GROUPS): per locale, the 21 family cards (the 20
+ * nt20 families + the K-278 lowercase letter-tracing family), each with its
+ * variation landing slugs (tier-1 + tier-2 + theme fans) in curriculum order.
+ * Landing slugs are resolved from the locale's landing corpus by
+ * canonicalDeckSlug — a variation without a published landing is silently
+ * omitted, so the tool can run at any point of the landing rollout and the
+ * strip only ever links real pages.
+ *
+ * MORE_TYPE_GROUPS: the 7 legacy families that can never reach hub page 1 on
+ * their own (see MORE_TYPES below). Resolved by SCANNING the corpus for the
+ * family key, not by re-deriving deck slugs — their canonical deck slugs carry
+ * different ids AND different themes per locale (EN graphing-data-toys-g1142 vs
+ * DE diagramme-tiere-g1144; EN measurement-fruits-k038 vs DE messen-tiere-k038),
+ * so the BASES-style (id, family, theme) triple resolves nothing in most
+ * locales. Unlike the strip above, a short resolve here is a BUG, not a
+ * rollout state: every one of these landings exists in all 11 locales today,
+ * so the run fails loudly instead of shipping a thinned strip.
  */
 'use strict';
 const fs = require('fs');
@@ -70,7 +82,43 @@ const GROUPS = {
   'K-278': [['K-279', 'lowercase-letter-tracing', null], ['K-280', 'lowercase-letter-tracing', null], ['K-281', 'lowercase-letter-tracing', null], ['K-282', 'lowercase-letter-tracing', null], ['K-283', 'lowercase-letter-tracing', null]],
 };
 
+/* ---- MORE_TYPE_GROUPS: the legacy families stranded off hub page 1 ----------
+ * frontend/lib/worksheets-catalog.ts: interleaveByAxis orders type buckets by
+ * SIZE DESC and WORKSHEETS_PAGE_SIZE is 24, so hub page 1 is exactly one
+ * landing from each of the 24 largest buckets. These families hold 2-4
+ * landings each and rank ~46-53 of 53 — they never surface organically (a
+ * bucket needs ~47 landings to make rank 24). Order below = card order.
+ */
+const MORE_TYPES = [
+  'arrays-multiplication', 'fractions', 'geometry', 'graphing-data',
+  'number-charts', 'measurement', 'telling-time',
+];
+
+/* nt20 / nt20-VAR type ids living inside the two REUSED family keys. Those
+ * decks already have their own cards in NEW_WORKSHEET_GROUPS (G1-212
+ * draw-the-clock-hands, G2-252 capacity-and-mass), so excluding them here is
+ * what keeps the two strips from showing the same worksheet twice. */
+const MORE_TYPES_EXCLUDE_IDS = [
+  'g2252', 'g2260', 'g2261', 'g2262', 'g2263',            // measurement
+  'g1212', 'g1233', 'g1234', 'g1235', 'g1236', 'g1237',   // telling-time
+];
+
+/* Expected shape, asserted per locale (see the fail-loudly note above). The
+ * group count is DERIVED from MORE_TYPES — a hand-written 7 would still pass
+ * when an 8th family resolves nothing, which is how the first version of this
+ * gate survived its own poison test. The link total is a tripwire on today's
+ * corpus, cross-checked against per-locale parity below. */
+const MORE_TYPES_EXPECT_LINKS = 21;
+
+/* Curriculum order from the grade band baked into the canonical deck id
+ * (K-038 -> k038, G1-140 -> g1140). Locale-invariant, unlike coordinate.level:
+ * the SAME deck is `kindergarten` in en, `vorschule` in de and `1-trinn` in no
+ * (the Norwegian +1 shift), so the level key cannot order these. */
+const BAND_RANK = { k: 1, g1: 2, g2: 3, g3: 4 };
+const BAND_RE = /-(k|g1|g2|g3)(\d+)$/;
+
 const out = {};
+const outMore = {};
 for (const loc of LOCALES) {
   const corpus = JSON.parse(fs.readFileSync(path.join(ROOT, 'frontend', 'content', 'seo-landing', loc + '.json'), 'utf8')).landings;
   const byDeck = new Map();
@@ -95,18 +143,73 @@ for (const loc of LOCALES) {
     groups.push({ base: baseLanding, variations });
   }
   out[loc] = groups;
+
+  // --- MORE_TYPE_GROUPS -----------------------------------------------------
+  // Scan the corpus by family key (see the docblock: these deck slugs are not
+  // reconstructable per locale), drop the ids the other strip already owns,
+  // order by grade band, then card = lowest band and chips = the rest.
+  const moreGroups = [];
+  for (const fam of MORE_TYPES) {
+    const rows = [];
+    for (const l of corpus) {
+      if (!l.coordinate || l.coordinate.type !== fam) continue;
+      const deck = String(l.canonicalDeckSlug || '');
+      if (MORE_TYPES_EXCLUDE_IDS.some((id) => deck.endsWith('-' + id))) continue;
+      const m = BAND_RE.exec(deck);
+      // An unreadable band would make the card order a guess — halt instead.
+      if (!m) throw new Error(loc + ': cannot read grade band from canonicalDeckSlug "' + deck + '" (' + fam + ')');
+      rows.push({ slug: l.slug, rank: BAND_RANK[m[1]], num: Number(m[2]) });
+    }
+    rows.sort((a, b) => a.rank - b.rank || a.num - b.num || (a.slug < b.slug ? -1 : 1));
+    if (rows.length < 2) { console.error(loc + ': ' + fam + ' resolved ' + rows.length + ' landing(s)'); continue; }
+    moreGroups.push({ base: rows[0].slug, variations: rows.slice(1).map((r) => r.slug) });
+  }
+  outMore[loc] = moreGroups;
+}
+
+// A short resolve here is a bug, not a rollout state — every one of these
+// landings exists in all 11 locales, so fail the run rather than quietly
+// shipping a thinned strip. Three independent checks: one card per named
+// family (derived, so a family that resolves nothing cannot hide), the
+// expected link total, and cross-locale parity (the same coordinates exist in
+// every locale, so an odd locale out is a defect even if the totals move).
+const linkCount = (g) => g.reduce((n, x) => n + 1 + x.variations.length, 0);
+const moreShort = LOCALES.filter((l) => (outMore[l] || []).length !== MORE_TYPES.length
+  || linkCount(outMore[l] || []) !== MORE_TYPES_EXPECT_LINKS);
+if (moreShort.length) {
+  for (const l of moreShort) {
+    const g = outMore[l] || [];
+    console.error('  ' + l + ': ' + g.length + ' groups / ' + linkCount(g) + ' links (expected '
+      + MORE_TYPES.length + ' / ' + MORE_TYPES_EXPECT_LINKS + ')');
+  }
+  throw new Error('gen-var-highlights: MORE_TYPE_GROUPS short in ' + moreShort.join(','));
+}
+const shapeOf = (l) => (outMore[l] || []).map((g) => 1 + g.variations.length).join('-');
+const odd = LOCALES.filter((l) => shapeOf(l) !== shapeOf(LOCALES[0]));
+if (odd.length) {
+  for (const l of odd) console.error('  ' + l + ': ' + shapeOf(l) + ' vs ' + LOCALES[0] + ' ' + shapeOf(LOCALES[0]));
+  throw new Error('gen-var-highlights: MORE_TYPE_GROUPS shape differs by locale in ' + odd.join(','));
 }
 
 const header = `/**
- * "New worksheets" strip on the /worksheets hub — v2 GROUPS: the 20 nt20
- * family cards, each with its variation landing slugs (chips). GENERATED by
- * scripts/seo-landing/gen-var-highlights.js from the landing corpora —
- * re-run it after landing content changes; missing slugs are omitted at
- * render, so trimming is always safe.
+ * The two card strips on the /worksheets hub page 1. GENERATED by
+ * scripts/seo-landing/gen-var-highlights.js from the landing corpora — re-run
+ * it after landing content changes; missing slugs are omitted at render, so
+ * trimming is always safe.
+ *
+ * NEW_WORKSHEET_GROUPS — the 21 nt20/lowercase family cards, each with its
+ * variation landing slugs (chips).
+ * MORE_TYPE_GROUPS — the 7 older families whose buckets are far too small to
+ * reach page 1 through the size-ordered variety grid (arrays-multiplication,
+ * fractions, geometry, graphing-data, number-charts, measurement,
+ * telling-time), each card carrying that family's other grade bands as chips.
  */
 export interface NewWorksheetGroup { base: string; variations: string[] }
 export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = `;
+const mid = `;
+export const MORE_TYPE_GROUPS: Record<string, NewWorksheetGroup[]> = `;
 fs.writeFileSync(path.join(ROOT, 'frontend', 'config', 'worksheets-new-highlights.ts'),
-  header + JSON.stringify(out, null, 2) + ';\n');
-const counts = LOCALES.map((l) => l + ':' + out[l].reduce((n, g) => n + 1 + g.variations.length, 0)).join(' ');
-console.log('gen-var-highlights:', counts);
+  header + JSON.stringify(out, null, 2) + mid + JSON.stringify(outMore, null, 2) + ';\n');
+const links = (m) => LOCALES.map((l) => l + ':' + linkCount(m[l])).join(' ');
+console.log('gen-var-highlights  NEW_WORKSHEET_GROUPS:', links(out));
+console.log('gen-var-highlights  MORE_TYPE_GROUPS:   ', links(outMore));

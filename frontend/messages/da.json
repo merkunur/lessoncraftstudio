@@ -2556,6 +2556,7 @@
     },
     "tileCta": "Se opgaver",
     "newHeading": "Nye opgaveark",
+    "moreTypesHeading": "Flere opgavetyper",
     "tileAlt": "Eksempel på opgave: {typeName}",
     "emptyTitle": "Ingen opgaver tilgængelige på dette sprog endnu.",
     "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog.",

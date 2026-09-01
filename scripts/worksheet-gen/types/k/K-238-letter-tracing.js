@@ -12,7 +12,7 @@
  */
 'use strict';
 const { strokeLetterLane } = require('../../primitives/trace-path.js');
-const { LETTER_SETS } = require('../../data/tracing/letter-sets.js');
+const { LETTER_SETS, LOWERCASE_SETS } = require('../../data/tracing/letter-sets.js');
 
 module.exports = {
   id: 'K-238',
@@ -36,7 +36,10 @@ module.exports = {
   build({ difficulty, locale }, ctx) {
     const d = this.difficulty[difficulty];
     void ctx;
-    const set = LETTER_SETS[(locale || 'en').slice(0, 2)] || LETTER_SETS.en;
+    // K-278 (the lowercase family) spreads this spec and flags its difficulty
+    // levels `lowercase`, so both families share one build() and one verify().
+    const sets = d.lowercase ? LOWERCASE_SETS : LETTER_SETS;
+    const set = sets[(locale || 'en').slice(0, 2)] || sets.en;
     let letters;
     if (d.from === 'specials') {
       // filler letters may not repeat a special or any letter INSIDE one
@@ -44,7 +47,8 @@ module.exports = {
       const rest = set.alphabet.filter((c) => !set.specials.some((s) => s === c || s.includes(c)));
       // nt20-VAR: locales with no special capitals (en, it) get the vowels —
       // a real query face — instead of a degenerate duplicate of the G-L page
-      const feature = set.specials.length ? set.specials : ['A', 'E', 'I', 'O', 'U'].filter((v) => set.alphabet.includes(v));
+      const vowels = (d.lowercase ? ['a', 'e', 'i', 'o', 'u'] : ['A', 'E', 'I', 'O', 'U']);
+      const feature = set.specials.length ? set.specials : vowels.filter((v) => set.alphabet.includes(v));
       letters = set.specials.length
         ? [...feature, ...rest.slice(6, 6 + d.count)].slice(0, d.count)
         : feature;
@@ -67,7 +71,10 @@ module.exports = {
     const laneW = 660;
     const lanes = letters.map((ch) => {
       // last slot stays empty — the "try one on your own" spot the instruction promises
-      const lane = strokeLetterLane({ text: ch, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: d.reps, emptyLast: true });
+      const lane = strokeLetterLane({
+        text: ch, w: laneW, h: d.laneH, glyphH: d.glyphH, reps: d.reps,
+        emptyLast: true, lowercase: !!d.lowercase,
+      });
       return `<div class="ws-trace-lane" style="display:flex;justify-content:center" data-lcs-letter="${ch}">${lane.svg}</div>`;
     });
     return {

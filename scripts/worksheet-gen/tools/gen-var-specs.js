@@ -61,6 +61,26 @@ const ROWS = [
     { from: 0, count: 4, glyphH: 104, laneH: 152, reps: 4 },
     'My First Big Letters', null],
 
+  // ---- K-278 LOWERCASE letter tracing (same slices, lowercase ruling) ----
+  // `lowercase: true` rides in the difficulty params (the base reads d.lowercase);
+  // `exerciseType` must be re-stated because the emitted module spreads the BASE
+  // spec, and the base here is K-278, whose family these variations belong to.
+  ['k', 'K-279', 'lowercase-letter-tracing-g-l', 'K-278-lowercase-letter-tracing.js',
+    { from: 6, count: 6, glyphH: 74, laneH: 108, reps: 5, pool: 'rest', lowercase: true },
+    'Trace the Lowercase Letters g to l', null, { exerciseType: 'lowercase-letter-tracing' }],
+  ['k', 'K-280', 'lowercase-letter-tracing-m-r', 'K-278-lowercase-letter-tracing.js',
+    { from: 12, count: 6, glyphH: 74, laneH: 108, reps: 5, pool: 'rest', lowercase: true },
+    'Trace the Lowercase Letters m to r', null, { exerciseType: 'lowercase-letter-tracing' }],
+  ['k', 'K-281', 'lowercase-letter-tracing-s-z', 'K-278-lowercase-letter-tracing.js',
+    { from: 18, count: 8, glyphH: 56, laneH: 80, reps: 5, pool: 'rest', toEnd: true, lowercase: true },
+    'Trace the Lowercase Letters s to z', null, { exerciseType: 'lowercase-letter-tracing' }],
+  ['k', 'K-282', 'lowercase-letter-tracing-own-letters', 'K-278-lowercase-letter-tracing.js',
+    { from: 'specials', count: 6, glyphH: 74, laneH: 108, reps: 5, lowercase: true },
+    'Trace the Lowercase Vowels', null, { exerciseType: 'lowercase-letter-tracing' }],
+  ['k', 'K-283', 'lowercase-letter-tracing-first-letters', 'K-278-lowercase-letter-tracing.js',
+    { from: 0, count: 4, glyphH: 104, laneH: 152, reps: 4, lowercase: true },
+    'My First Small Letters', null, { exerciseType: 'lowercase-letter-tracing' }],
+
   // ---- K-239 sight words (deterministic set windows 2..6) ----
   ...[2, 3, 4, 5, 6].map((set) => ['k', `K-${257 + set}`, `sight-words-set-${set}`, 'K-239-sight-words.js',
     { slice: set - 1, words: 4, glyphH: 52, traceH: 82, writeH: 56, reps: 2 },

@@ -23,7 +23,7 @@ const path = require('path');
 
 const WG = path.join(__dirname, 'worksheet-gen');
 const LS = require(path.join(WG, 'data', 'tracing', 'letter-strokes.js'));
-const { LETTER_SETS } = require(path.join(WG, 'data', 'tracing', 'letter-sets.js'));
+const { LETTER_SETS, LOWERCASE_SETS } = require(path.join(WG, 'data', 'tracing', 'letter-sets.js'));
 const { SIGHT_WORDS } = require(path.join(WG, 'data', 'literacy', 'sight-words.js'));
 
 const M = LS.METRICS;
@@ -130,6 +130,11 @@ const NEEDED_LOWER = new Set();
 for (const words of Object.values(SIGHT_WORDS)) {
   for (const w of words) for (const ch of w) NEEDED_LOWER.add(ch);
 }
+// the K-278 lowercase letter-tracing family: every locale's own alphabet AND
+// its specials, which is what carries German eszett and Danish/Norwegian ae
+for (const set of Object.values(LOWERCASE_SETS)) {
+  for (const entry of set.alphabet.concat(set.specials)) for (const ch of entry) NEEDED_LOWER.add(ch);
+}
 
 /* ------------------------------------------------------------------ *
  * A. COVERAGE — every glyph the catalogue needs must resolve.
@@ -164,6 +169,21 @@ for (const ch of [...NEEDED_LOWER].filter((c) => !LS.COMPOSED[c] && !LS.NEW_GLYP
     F(ink.y0 === M.xTop, `B: x-height lowercase "${ch}" top is ${ink.y0}, want ${M.xTop}`);
   }
 }
+// the hand-authored lowercase letterforms: eszett is the only lowercase glyph
+// that reaches the ASCENDER without being one of the plain ascender letters,
+// and ae must stay inside the x-height band like the a and e it is built from
+{
+  const ss = LS.glyphFor('ß').ink;
+  F(ss.y0 === M.ascender, `B: eszett top is ${ss.y0}, want the ascender ${M.ascender}`);
+  F(ss.y1 === M.base, `B: eszett bottom is ${ss.y1}, want the baseline ${M.base}`);
+  const ae = LS.glyphFor('æ').ink;
+  F(ae.y0 === M.xTop, `B: ae top is ${ae.y0}, want the x-height ${M.xTop}`);
+  F(ae.y1 === M.base, `B: ae bottom is ${ae.y1}, want the baseline ${M.base}`);
+  // an ae is a LIGATURE — it must be materially wider than either half alone
+  F(ae.x1 - ae.x0 > (LS.glyphFor('a').ink.x1 - LS.glyphFor('a').ink.x0) * 1.4,
+    'B: ae is not wider than a single bowl — it is not reading as a ligature');
+}
+
 // accents live ABOVE their base and inside the box
 for (const ch of Object.keys(LS.COMPOSED)) {
   if (!NEEDED_CAPS.has(ch) && !NEEDED_LOWER.has(ch)) continue;

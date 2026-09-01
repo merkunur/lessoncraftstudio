@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Les tables de multiplication",
     "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "K-244": {
+    "title": "Graphisme : lignes droites et zigzags",
+    "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-245": {
+    "title": "Graphisme : vagues et ponts",
+    "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-246": {
+    "title": "Graphisme : boucles et spirales",
+    "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-247": {
+    "title": "Graphisme : les tracés difficiles",
+    "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-248": {
+    "title": "Graphisme : la grande révision",
+    "instruction": "Repasse chaque ligne avec ton crayon. Pars du point orange et suis la flèche."
+  },
+  "K-249": {
+    "title": "Écriture des chiffres de 0 à 4",
+    "instruction": "Repasse chaque chiffre. Pars du point orange et suis les flèches."
+  },
+  "K-250": {
+    "title": "Écriture des chiffres de 5 à 9",
+    "instruction": "Repasse chaque chiffre. Pars du point orange et suis les flèches."
+  },
+  "K-251": {
+    "title": "Repasser puis écrire les chiffres",
+    "instruction": "Repasse chaque chiffre. Puis écris-le tout seul dans la case vide."
+  },
+  "K-252": {
+    "title": "Écriture des nombres de 1 à 10",
+    "instruction": "Repasse chaque nombre. Pars du point orange et suis les flèches."
+  },
+  "K-253": {
+    "title": "Écriture des nombres de 11 à 20",
+    "instruction": "Repasse chaque nombre. Pars du point orange et suis les flèches."
+  },
+  "K-254": {
+    "title": "Écriture des lettres de G à L",
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+  },
+  "K-255": {
+    "title": "Écriture des lettres de M à R",
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+  },
+  "K-256": {
+    "title": "Écriture des lettres de S à Z",
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+  },
+  "K-257": {
+    "title": "Écriture des lettres É, È et Ê",
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+  },
+  "K-258": {
+    "title": "Mes premières lettres : A B C D",
+    "instruction": "Repasse chaque lettre, puis essaie de l'écrire sur la ligne vide."
+  },
+  "K-259": {
+    "title": "Mots-outils : liste 2",
+    "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+  },
+  "K-260": {
+    "title": "Mots-outils : liste 3",
+    "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+  },
+  "K-261": {
+    "title": "Mots-outils : liste 4",
+    "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+  },
+  "K-262": {
+    "title": "Mots-outils : liste 5",
+    "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+  },
+  "K-263": {
+    "title": "Mots-outils : liste 6",
+    "instruction": "Lis le mot. Repasse-le. Puis écris-le sur la ligne vide."
+  },
+  "K-264": {
+    "title": "Découper et coller : deux groupes",
+    "instruction": "Découpe les images en bas de la page. Trie-les et colle chaque image dans sa case."
+  },
+  "K-265": {
+    "title": "Coloriage magique des formes",
+    "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+  },
+  "K-266": {
+    "title": "Coloriage par numéros",
+    "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur de son numéro."
+  },
+  "K-267": {
+    "title": "Coloriage magique : soustractions",
+    "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+  },
+  "K-268": {
+    "title": "Coloriage magique : addition et soustraction",
+    "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+  },
+  "K-269": {
+    "title": "Coloriage magique : sommes jusqu'à 20",
+    "instruction": "Regarde bien le code. Colorie chaque forme avec la couleur qui correspond."
+  },
+  "K-270": {
+    "title": "Labyrinthe facile",
+    "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+  },
+  "K-271": {
+    "title": "Labyrinthe difficile",
+    "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+  },
+  "K-272": {
+    "title": "Labyrinthe géant",
+    "instruction": "Pars de l'entrée en haut. Trace le chemin dans le labyrinthe pour rejoindre l'arrivée en bas."
+  },
+  "K-273": {
+    "title": "Les compléments à 5",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-274": {
+    "title": "Compléments jusqu'à 10",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-275": {
+    "title": "Les compléments à 20",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-276": {
+    "title": "Compléments : trouver le tout",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "K-277": {
+    "title": "Compléments à 10 avec points à compter",
+    "instruction": "Observe chaque schéma. Écris le nombre qui manque dans le rond en pointillés."
+  },
+  "G1-214": {
+    "title": "Calcul mental jusqu'à 10",
+    "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+  },
+  "G1-215": {
+    "title": "Le nombre manquant jusqu'à 20",
+    "instruction": "Trouve le nombre manquant dans ta tête. Écris-le dans la case."
+  },
+  "G1-216": {
+    "title": "Calcul mental : additions jusqu'à 20",
+    "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+  },
+  "G1-217": {
+    "title": "Calcul mental : soustractions jusqu'à 20",
+    "instruction": "Calcule chaque opération dans ta tête. Écris le résultat dans la case."
+  },
+  "G1-218": {
+    "title": "Le nombre manquant jusqu'à 10",
+    "instruction": "Trouve le nombre manquant dans ta tête. Écris-le dans la case."
+  },
+  "G1-219": {
+    "title": "Familles d'opérations jusqu'à 10",
+    "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+  },
+  "G1-220": {
+    "title": "Familles d'opérations jusqu'à 20",
+    "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+  },
+  "G1-221": {
+    "title": "Maisons des nombres jusqu'à 10",
+    "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations de la famille."
+  },
+  "G1-222": {
+    "title": "Familles d'opérations : nombre caché",
+    "instruction": "Utilise les trois nombres du toit. Écris le nombre qui manque dans chaque opération."
+  },
+  "G1-223": {
+    "title": "Les nombres en lettres jusqu'à 20",
+    "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+  },
+  "G1-224": {
+    "title": "Les dizaines en lettres : 10 à 100",
+    "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+  },
+  "G1-225": {
+    "title": "Relier les nombres et les mots",
+    "instruction": "Relie chaque nombre écrit en chiffres au mot qui lui correspond."
+  },
+  "G1-226": {
+    "title": "Les nombres en lettres jusqu'à 50",
+    "instruction": "Lis le nombre écrit en chiffres. Entoure le mot qui lui correspond."
+  },
+  "G1-227": {
+    "title": "Écrire les nombres en lettres",
+    "instruction": "Cherche le bon mot dans la liste en haut de la page. Écris-le sur la ligne."
+  },
+  "G1-228": {
+    "title": "Compter la monnaie : premiers pas",
+    "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+  },
+  "G1-229": {
+    "title": "Compter toutes les pièces",
+    "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+  },
+  "G1-230": {
+    "title": "Entraînement : compter les pièces",
+    "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+  },
+  "G1-231": {
+    "title": "Compter avec les petites pièces",
+    "instruction": "Compte les pièces de chaque porte-monnaie. Écris le total dans la case."
+  },
+  "G1-232": {
+    "title": "Quel porte-monnaie a le plus ?",
+    "instruction": "Compte la monnaie des deux porte-monnaie. Entoure celui qui a le plus d'argent."
+  },
+  "G1-233": {
+    "title": "Dessiner les aiguilles : heures piles",
+    "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+  },
+  "G1-234": {
+    "title": "Dessiner les aiguilles : et demie",
+    "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+  },
+  "G1-235": {
+    "title": "Les aiguilles : et quart, moins le quart",
+    "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+  },
+  "G1-236": {
+    "title": "Les aiguilles de 5 en 5 minutes",
+    "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+  },
+  "G1-237": {
+    "title": "Dessiner les aiguilles : révision",
+    "instruction": "Lis l'heure sur l'étiquette. Dessine la petite aiguille et la grande aiguille sur l'horloge."
+  },
+  "G1-238": {
+    "title": "Problèmes d'addition en images",
+    "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+  },
+  "G1-239": {
+    "title": "Problèmes de soustraction en images",
+    "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+  },
+  "G1-240": {
+    "title": "Petits problèmes jusqu'à 10",
+    "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+  },
+  "G1-241": {
+    "title": "Trois petits problèmes",
+    "instruction": "Lis chaque histoire. Aide-toi des images. Écris la réponse dans la case."
+  },
+  "G2-255": {
+    "title": "Additions posées sans retenue",
+    "instruction": "Additionne colonne par colonne. Commence par les unités."
+  },
+  "G2-256": {
+    "title": "Soustractions posées sans retenue",
+    "instruction": "Soustrais colonne par colonne. Commence par les unités."
+  },
+  "G2-257": {
+    "title": "Opérations posées : nombres à 3 chiffres",
+    "instruction": "Additionne ou soustrais, colonne par colonne. Commence par les unités."
+  },
+  "G2-258": {
+    "title": "Additions posées à 3 chiffres",
+    "instruction": "Additionne colonne par colonne. Commence par les unités."
+  },
+  "G2-259": {
+    "title": "Opérations posées : révision",
+    "instruction": "Additionne ou soustrais, colonne par colonne. Commence par les unités."
+  },
+  "G2-260": {
+    "title": "Lire le verre doseur en millilitres",
+    "instruction": "Lis la graduation de chaque verre doseur. Écris combien de millilitres il contient."
+  },
+  "G2-261": {
+    "title": "Lire la balance en grammes",
+    "instruction": "Regarde les poids sur chaque balance. Écris combien de grammes pèse l'objet."
+  },
+  "G2-262": {
+    "title": "Lire les petites graduations",
+    "instruction": "Lis chaque verre doseur et chaque balance. Écris la mesure avec son unité."
+  },
+  "G2-263": {
+    "title": "Verres doseurs jusqu'à 2000 ml",
+    "instruction": "Lis la graduation de chaque verre doseur. Écris combien de millilitres il contient."
+  },
+  "G2-264": {
+    "title": "Symétrie facile sur quadrillage",
+    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+  },
+  "G2-265": {
+    "title": "Symétrie difficile sur quadrillage",
+    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+  },
+  "G2-266": {
+    "title": "Symétrie : cœur et papillon",
+    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+  },
+  "G2-267": {
+    "title": "Symétrie : maison et couronne",
+    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases de l'autre côté de l'axe pour le rendre symétrique."
+  },
+  "G2-268": {
+    "title": "Symétrie : axe horizontal",
+    "instruction": "Chaque dessin est à moitié terminé. Colorie les cases sous la ligne pour le rendre symétrique."
+  },
+  "G2-269": {
+    "title": "Lecture : le crabe de la plage",
+    "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+  },
+  "G2-270": {
+    "title": "Lecture : l'escargot du potager",
+    "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+  },
+  "G2-271": {
+    "title": "Lecture : la nuit en camping",
+    "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+  },
+  "G2-272": {
+    "title": "Lecture : le marché du samedi",
+    "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+  },
+  "G2-273": {
+    "title": "Lecture : le spectacle de l'école",
+    "instruction": "Lis bien l'histoire. Puis entoure la bonne réponse à chaque question."
+  },
+  "G3-359": {
+    "title": "Additions avec retenue",
+    "instruction": "Additionne colonne par colonne. N'oublie pas la retenue."
+  },
+  "G3-360": {
+    "title": "Soustractions avec retenue",
+    "instruction": "Soustrais colonne par colonne. N'oublie pas la retenue."
+  },
+  "G3-361": {
+    "title": "Additions à 3 chiffres avec retenue",
+    "instruction": "Additionne colonne par colonne. N'oublie pas la retenue."
+  },
+  "G3-362": {
+    "title": "Soustractions avec des zéros",
+    "instruction": "Soustrais colonne par colonne. N'oublie pas la retenue."
+  },
+  "G3-363": {
+    "title": "Révision : opérations avec retenue",
+    "instruction": "Calcule chaque opération posée. N'oublie pas la retenue quand tu en as besoin."
+  },
+  "G3-364": {
+    "title": "La table de 2",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-365": {
+    "title": "La table de 5",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-366": {
+    "title": "La table de 10",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-367": {
+    "title": "La table de 3",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-368": {
+    "title": "La table de 4",
+    "instruction": "Multiplie les deux nombres. Écris chaque résultat dans la case."
+  },
+  "G3-369": {
+    "title": "Familles de multiplications et divisions",
+    "instruction": "Utilise les trois nombres du toit. Complète les quatre opérations : deux multiplications et deux divisions."
   }
 }

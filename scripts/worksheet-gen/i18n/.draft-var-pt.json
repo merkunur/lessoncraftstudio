@@ -1,0 +1,574 @@
+{
+  "locale": "pt",
+  "types": {
+    "K-244": {
+      "title": "Grafismo de retas e ziguezagues",
+      "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+    },
+    "K-245": {
+      "title": "Grafismo de ondas e curvas",
+      "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+    },
+    "K-246": {
+      "title": "Grafismo de laços e espirais",
+      "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+    },
+    "K-247": {
+      "title": "Grafismo avançado",
+      "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+    },
+    "K-248": {
+      "title": "Revisão de traçados",
+      "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+    },
+    "K-249": {
+      "title": "Números pontilhados de 0 a 4",
+      "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+    },
+    "K-250": {
+      "title": "Números pontilhados de 5 a 9",
+      "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+    },
+    "K-251": {
+      "title": "Cubra e escreva os números",
+      "instruction": "Cubra cada número pontilhado. Depois escreva o número sozinho no espaço vazio."
+    },
+    "K-252": {
+      "title": "Números pontilhados de 1 a 10",
+      "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+    },
+    "K-253": {
+      "title": "Números pontilhados de 11 a 20",
+      "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+    },
+    "K-254": {
+      "title": "Letras pontilhadas de G a M",
+      "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+    },
+    "K-255": {
+      "title": "Letras pontilhadas de N a S",
+      "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+    },
+    "K-256": {
+      "title": "Letras pontilhadas de S a Z",
+      "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+    },
+    "K-257": {
+      "title": "As letras K, W e Y",
+      "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+    },
+    "K-258": {
+      "title": "Primeiras letras: A, B, C, D",
+      "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+    },
+    "K-259": {
+      "title": "Palavras frequentes: lista 2",
+      "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+    },
+    "K-260": {
+      "title": "Palavras frequentes: lista 3",
+      "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+    },
+    "K-261": {
+      "title": "Palavras frequentes: lista 4",
+      "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+    },
+    "K-262": {
+      "title": "Palavras frequentes: lista 5",
+      "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+    },
+    "K-263": {
+      "title": "Palavras frequentes: lista 6",
+      "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+    },
+    "K-264": {
+      "title": "Recorte e cole em dois grupos",
+      "instruction": "Recorte as figuras da parte de baixo, separe em grupos e cole cada uma no seu quadro."
+    },
+    "K-265": {
+      "title": "Pinte conforme a forma",
+      "instruction": "Olhe a legenda e pinte cada tipo de forma com a sua cor."
+    },
+    "K-266": {
+      "title": "Colorir por números",
+      "instruction": "Cada parte tem um número. Pinte com a cor que a legenda mostra para esse número."
+    },
+    "K-267": {
+      "title": "Colorir com continhas de menos",
+      "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+    },
+    "K-268": {
+      "title": "Colorir com mais e menos",
+      "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+    },
+    "K-269": {
+      "title": "Colorir com somas até 20",
+      "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+    },
+    "K-270": {
+      "title": "Labirinto fácil",
+      "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+    },
+    "K-271": {
+      "title": "Labirinto difícil",
+      "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+    },
+    "K-272": {
+      "title": "Labirinto gigante",
+      "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+    },
+    "K-273": {
+      "title": "Amigos do 5",
+      "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+    },
+    "K-274": {
+      "title": "Amigos dos números de 5 a 10",
+      "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+    },
+    "K-275": {
+      "title": "Amigos do 20",
+      "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+    },
+    "K-276": {
+      "title": "Qual é o todo?",
+      "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+    },
+    "K-277": {
+      "title": "Amigos do 10 com bolinhas",
+      "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+    },
+    "G1-214": {
+      "title": "Cálculo mental até 10",
+      "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+    },
+    "G1-215": {
+      "title": "Descubra o número que falta até 20",
+      "instruction": "Descubra de cabeça o número que falta e escreva no quadradinho."
+    },
+    "G1-216": {
+      "title": "Continhas de mais até 20",
+      "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+    },
+    "G1-217": {
+      "title": "Continhas de menos até 20",
+      "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+    },
+    "G1-218": {
+      "title": "Descubra o número que falta até 10",
+      "instruction": "Descubra de cabeça o número que falta e escreva no quadradinho."
+    },
+    "G1-219": {
+      "title": "Família de fatos até 10",
+      "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+    },
+    "G1-220": {
+      "title": "Família de fatos até 20",
+      "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+    },
+    "G1-221": {
+      "title": "Casinhas matemáticas até 10",
+      "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+    },
+    "G1-222": {
+      "title": "Casinhas com número escondido",
+      "instruction": "Use os três números do telhado e escreva o número que falta em cada continha."
+    },
+    "G1-223": {
+      "title": "Números por extenso até 20",
+      "instruction": "Leia o número e circule como ele se escreve por extenso."
+    },
+    "G1-224": {
+      "title": "Dezenas por extenso: 10 a 100",
+      "instruction": "Leia o número e circule como ele se escreve por extenso."
+    },
+    "G1-225": {
+      "title": "Ligue o número ao nome",
+      "instruction": "Ligue cada número à palavra que mostra como ele se escreve."
+    },
+    "G1-226": {
+      "title": "Números por extenso até 50",
+      "instruction": "Leia o número e circule como ele se escreve por extenso."
+    },
+    "G1-227": {
+      "title": "Escreva os números por extenso",
+      "instruction": "Procure a palavra certa no banco de palavras e escreva na linha."
+    },
+    "G1-228": {
+      "title": "Contando moedas: primeiros passos",
+      "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+    },
+    "G1-229": {
+      "title": "Contando dinheiro: todas as moedas",
+      "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+    },
+    "G1-230": {
+      "title": "Treino de contar moedas",
+      "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+    },
+    "G1-231": {
+      "title": "Moedas de 5 e 10 centavos",
+      "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+    },
+    "G1-232": {
+      "title": "Qual carteira tem mais dinheiro?",
+      "instruction": "Conte o dinheiro das duas carteiras e circule a que tem mais."
+    },
+    "G1-233": {
+      "title": "Desenhe as horas em ponto",
+      "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+    },
+    "G1-234": {
+      "title": "Desenhe as meias horas",
+      "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+    },
+    "G1-235": {
+      "title": "Desenhe os quartos de hora",
+      "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+    },
+    "G1-236": {
+      "title": "Ponteiros de 5 em 5 minutos",
+      "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+    },
+    "G1-237": {
+      "title": "Ponteiros: revisão de horas",
+      "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+    },
+    "G1-238": {
+      "title": "Situações problema de adição",
+      "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    },
+    "G1-239": {
+      "title": "Situações problema de subtração",
+      "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    },
+    "G1-240": {
+      "title": "Situações problema até 10",
+      "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    },
+    "G1-241": {
+      "title": "Três situações problema",
+      "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+    },
+    "G2-255": {
+      "title": "Adição armada com 2 algarismos",
+      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    },
+    "G2-256": {
+      "title": "Subtração armada com 2 algarismos",
+      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    },
+    "G2-257": {
+      "title": "Continhas armadas com 3 algarismos",
+      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    },
+    "G2-258": {
+      "title": "Adição armada com 3 algarismos",
+      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    },
+    "G2-259": {
+      "title": "Revisão de continhas armadas",
+      "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+    },
+    "G2-260": {
+      "title": "Medindo com jarras em ml",
+      "instruction": "Leia a escala de cada jarra e escreva quantos mililitros ela tem."
+    },
+    "G2-261": {
+      "title": "Balanças em gramas",
+      "instruction": "Olhe os pesos de cada balança e escreva quantos gramas o objeto pesa."
+    },
+    "G2-262": {
+      "title": "Escalas com marcas pequenas",
+      "instruction": "Leia cada jarra e cada balança. Escreva a quantidade com a unidade certa."
+    },
+    "G2-263": {
+      "title": "Jarras grandes até 2000 ml",
+      "instruction": "Leia a escala de cada jarra e escreva quantos mililitros ela tem."
+    },
+    "G2-264": {
+      "title": "Simetria fácil no quadriculado",
+      "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    },
+    "G2-265": {
+      "title": "Simetria difícil no quadriculado",
+      "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    },
+    "G2-266": {
+      "title": "Simetria: coração e borboleta",
+      "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    },
+    "G2-267": {
+      "title": "Simetria: casa e coroa",
+      "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+    },
+    "G2-268": {
+      "title": "Simetria com linha deitada",
+      "instruction": "Pinte os quadradinhos abaixo da linha para deixar a figura igual em cima e embaixo."
+    },
+    "G2-269": {
+      "title": "Interpretação: O castelo de areia",
+      "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+    },
+    "G2-270": {
+      "title": "Interpretação: A padaria do seu José",
+      "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+    },
+    "G2-271": {
+      "title": "Interpretação: Um dia no sítio",
+      "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+    },
+    "G2-272": {
+      "title": "Interpretação: A bicicleta nova",
+      "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+    },
+    "G2-273": {
+      "title": "Interpretação: A festa junina",
+      "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+    },
+    "G3-359": {
+      "title": "Adição com vai um",
+      "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+    },
+    "G3-360": {
+      "title": "Subtração com empréstimo",
+      "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+    },
+    "G3-361": {
+      "title": "Adição com vai um: 3 algarismos",
+      "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+    },
+    "G3-362": {
+      "title": "Subtração emprestando do zero",
+      "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+    },
+    "G3-363": {
+      "title": "Revisão de reagrupamento",
+      "instruction": "Resolva cada conta armada. Reagrupe quando precisar: vai um na adição, empresta na subtração."
+    },
+    "G3-364": {
+      "title": "Tabuada do 2",
+      "instruction": "Multiplique e escreva cada resultado no quadradinho."
+    },
+    "G3-365": {
+      "title": "Tabuada do 5",
+      "instruction": "Multiplique e escreva cada resultado no quadradinho."
+    },
+    "G3-366": {
+      "title": "Tabuada do 10",
+      "instruction": "Multiplique e escreva cada resultado no quadradinho."
+    },
+    "G3-367": {
+      "title": "Tabuada do 3",
+      "instruction": "Multiplique e escreva cada resultado no quadradinho."
+    },
+    "G3-368": {
+      "title": "Tabuada do 4",
+      "instruction": "Multiplique e escreva cada resultado no quadradinho."
+    },
+    "G3-369": {
+      "title": "Casinhas de multiplicar e dividir",
+      "instruction": "Use os três números do telhado e complete os quatro fatos de vezes e de dividir."
+    }
+  },
+  "sightWordsAppend": [
+    "está",
+    "são",
+    "mais",
+    "muito",
+    "bem",
+    "casa",
+    "dia",
+    "vai",
+    "fazer",
+    "quando",
+    "gente",
+    "amigo"
+  ],
+  "figureNamesNew": {
+    "tulip": "Tulipa",
+    "sailboat": "Barco a vela",
+    "sun": "Sol",
+    "crab": "Caranguejo",
+    "cactus": "Cacto",
+    "ladybug": "Joaninha",
+    "owl": "Coruja",
+    "umbrella": "Guarda-chuva"
+  },
+  "readingPassagesAppend": [
+    {
+      "id": "castelo-de-areia",
+      "title": "O castelo de areia",
+      "text": "Léo foi à praia com a mamãe. Ele fez um castelo de areia com duas torres altas. Uma onda chegou bem perto, mas o castelo ficou firme. Léo bateu palmas de alegria.",
+      "questions": [
+        {
+          "q": "Aonde Léo foi com a mamãe?",
+          "choices": [
+            "Ao parque",
+            "À praia",
+            "À escola"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Quantas torres tinha o castelo?",
+          "choices": [
+            "Duas",
+            "Três",
+            "Quatro"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Como Léo se sentiu no fim?",
+          "choices": [
+            "Com medo",
+            "Triste",
+            "Feliz"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "padaria-do-seu-jose",
+      "title": "A padaria do seu José",
+      "text": "Toda manhã, Clara passa na padaria do seu José antes da escola. O cheiro de pão quentinho toma conta da rua inteira. Hoje seu José guardou para ela um pãozinho com casquinha crocante. Clara agradeceu com um sorriso enorme e guardou o pão na lancheira.",
+      "questions": [
+        {
+          "q": "Quando Clara passa na padaria?",
+          "choices": [
+            "Toda manhã, antes da escola",
+            "Só aos domingos",
+            "Depois do jantar"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "O que seu José guardou para Clara?",
+          "choices": [
+            "Um bolo de chocolate",
+            "Um suco de laranja",
+            "Um pãozinho crocante"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Por que Clara sorriu?",
+          "choices": [
+            "Porque a escola tinha acabado",
+            "Porque ficou contente com o pãozinho",
+            "Porque encontrou uma amiga"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "dia-no-sitio",
+      "title": "Um dia no sítio",
+      "text": "Nas férias, Davi visitou o sítio da tia Rosa. Logo cedo, ele ajudou a dar milho para as galinhas e conheceu uma vaca chamada Mimosa. À tarde, subiu no pé de goiaba e colheu frutas maduras para o lanche. À noite, Davi dormiu bem cedinho, sem nem terminar a história que a tia estava lendo.",
+      "questions": [
+        {
+          "q": "Quem Davi visitou nas férias?",
+          "choices": [
+            "O vovô Pedro",
+            "A professora",
+            "A tia Rosa"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Qual fruta Davi colheu no sítio?",
+          "choices": [
+            "Manga",
+            "Goiaba",
+            "Banana"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Por que Davi dormiu tão cedo?",
+          "choices": [
+            "Porque estava cansado de tanto brincar",
+            "Porque a história era chata",
+            "Porque estava escuro no sítio"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "bicicleta-nova",
+      "title": "A bicicleta nova",
+      "text": "Alice ganhou uma bicicleta vermelha no seu aniversário. No começo, ela tinha medo de andar sem as rodinhas. O papai segurava o banco e corria ao lado dela na pracinha, dia após dia. Numa tarde de sol, Alice olhou para trás e viu que o papai estava longe: ela estava pedalando sozinha! Agora Alice dá voltas na pracinha e acena para o papai a cada volta.",
+      "questions": [
+        {
+          "q": "O que Alice ganhou no aniversário?",
+          "choices": [
+            "Uma bicicleta vermelha",
+            "Um patinete azul",
+            "Uma bola nova"
+          ],
+          "correct": 0
+        },
+        {
+          "q": "Onde Alice treinava com o papai?",
+          "choices": [
+            "Na praia",
+            "Na pracinha",
+            "No quintal"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "Como Alice se sentiu ao pedalar sozinha?",
+          "choices": [
+            "Com sono",
+            "Com raiva",
+            "Orgulhosa e feliz"
+          ],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "festa-junina",
+      "title": "A festa junina",
+      "text": "Em junho, a escola do Pedro fez uma grande festa junina. O pátio ficou enfeitado com bandeirinhas coloridas e um espantalho de palha bem no meio. Pedro vestiu camisa xadrez e chapéu de palha para dançar quadrilha com a sua turma. Depois da dança, ele brincou de pescaria e ganhou um pião de madeira. No fim da festa, todos comeram paçoca, pipoca e bolo de milho quentinho. Quando tudo acabou, Pedro logo perguntou à professora se no ano que vem teria festa de novo.",
+      "questions": [
+        {
+          "q": "O que enfeitava o pátio da escola?",
+          "choices": [
+            "Balões de aniversário",
+            "Bandeirinhas coloridas e um espantalho",
+            "Luzes de Natal"
+          ],
+          "correct": 1
+        },
+        {
+          "q": "O que Pedro ganhou na pescaria?",
+          "choices": [
+            "Um peixe de verdade",
+            "Um saco de paçoca",
+            "Um pião de madeira"
+          ],
+          "correct": 2
+        },
+        {
+          "q": "Por que Pedro perguntou sobre o ano que vem?",
+          "choices": [
+            "Porque adorou a festa",
+            "Porque queria ir embora",
+            "Porque perdeu o chapéu"
+          ],
+          "correct": 0
+        }
+      ]
+    }
+  ],
+  "audits": {
+    "multiplicationSign": "×",
+    "divisionSign": "÷",
+    "notes": "BR anos-iniciais textbooks (BNCC-aligned, PNLD collections) use × for multiplication and ÷ for division; the middle dot · and colon : only appear from anos finais on — never on a 1º-5º ano page. Money register: R$ with decimal COMMA (R$ 1,50); real coin set for G1-231 'two smallest kinds' = 5 e 10 centavos. Regrouping register kept to the shipped base: 'vai um' (carrying) / 'empréstimo, empresta' (borrowing), 'reagrupamento' as umbrella. K-257 is NOT vowels in pt — it is K W Y (letters officially in the alphabet since the Acordo Ortográfico de 1990/2009 reform; a big BR search family 'atividades letras k w y'), titled accordingly. K-253: 'teen numbers' has no pt equivalent — rebuilt as plain 'de 11 a 20'. G1-224 trap pair in pt = quarenta vs quatorze/catorze (also sessenta vs dezesseis). Tabuada titles follow the canonical BR query 'tabuada do 2'. Sight-word appends continue the BR frequency tradition (está/são/mais/muito…), lowercase, no duplicates of the frozen 12. K-265 could NOT reuse the base K-241 instruction (pt base says 'Resolva a continha' — math-specific; shapes page got its own). Reading page titles ride the head keyword 'Interpretação' + story motif to match the G2-254 base 'Interpretação de texto'."
+  }
+}

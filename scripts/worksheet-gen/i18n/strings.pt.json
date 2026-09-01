@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Tabuada",
     "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "K-244": {
+    "title": "Grafismo de retas e ziguezagues",
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-245": {
+    "title": "Grafismo de ondas e curvas",
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-246": {
+    "title": "Grafismo de laços e espirais",
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-247": {
+    "title": "Grafismo avançado",
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-248": {
+    "title": "Revisão de traçados",
+    "instruction": "Cubra cada linha com o lápis. Comece no ponto laranja e siga a seta."
+  },
+  "K-249": {
+    "title": "Números pontilhados de 0 a 4",
+    "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+  },
+  "K-250": {
+    "title": "Números pontilhados de 5 a 9",
+    "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+  },
+  "K-251": {
+    "title": "Cubra e escreva os números",
+    "instruction": "Cubra cada número pontilhado. Depois escreva o número sozinho no espaço vazio."
+  },
+  "K-252": {
+    "title": "Números pontilhados de 1 a 10",
+    "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+  },
+  "K-253": {
+    "title": "Números pontilhados de 11 a 20",
+    "instruction": "Cubra cada número com o lápis. Comece no ponto laranja e siga as setas."
+  },
+  "K-254": {
+    "title": "Letras pontilhadas de G a M",
+    "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+  },
+  "K-255": {
+    "title": "Letras pontilhadas de N a S",
+    "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+  },
+  "K-256": {
+    "title": "Letras pontilhadas de S a Z",
+    "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+  },
+  "K-257": {
+    "title": "As letras K, W e Y",
+    "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+  },
+  "K-258": {
+    "title": "Primeiras letras: A, B, C, D",
+    "instruction": "Cubra cada letra pontilhada. Depois escreva uma letra na linha vazia."
+  },
+  "K-259": {
+    "title": "Palavras frequentes: lista 2",
+    "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+  },
+  "K-260": {
+    "title": "Palavras frequentes: lista 3",
+    "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+  },
+  "K-261": {
+    "title": "Palavras frequentes: lista 4",
+    "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+  },
+  "K-262": {
+    "title": "Palavras frequentes: lista 5",
+    "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+  },
+  "K-263": {
+    "title": "Palavras frequentes: lista 6",
+    "instruction": "Leia a palavra. Cubra o pontilhado e depois escreva a palavra na linha."
+  },
+  "K-264": {
+    "title": "Recorte e cole em dois grupos",
+    "instruction": "Recorte as figuras da parte de baixo, separe em grupos e cole cada uma no seu quadro."
+  },
+  "K-265": {
+    "title": "Pinte conforme a forma",
+    "instruction": "Olhe a legenda e pinte cada tipo de forma com a sua cor."
+  },
+  "K-266": {
+    "title": "Colorir por números",
+    "instruction": "Cada parte tem um número. Pinte com a cor que a legenda mostra para esse número."
+  },
+  "K-267": {
+    "title": "Colorir com continhas de menos",
+    "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+  },
+  "K-268": {
+    "title": "Colorir com mais e menos",
+    "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+  },
+  "K-269": {
+    "title": "Colorir com somas até 20",
+    "instruction": "Resolva a continha, procure o resultado na legenda e pinte com a cor certa."
+  },
+  "K-270": {
+    "title": "Labirinto fácil",
+    "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+  },
+  "K-271": {
+    "title": "Labirinto difícil",
+    "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+  },
+  "K-272": {
+    "title": "Labirinto gigante",
+    "instruction": "Comece em cima. Desenhe o caminho pelo labirinto até chegar ao final."
+  },
+  "K-273": {
+    "title": "Amigos do 5",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-274": {
+    "title": "Amigos dos números de 5 a 10",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-275": {
+    "title": "Amigos do 20",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-276": {
+    "title": "Qual é o todo?",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "K-277": {
+    "title": "Amigos do 10 com bolinhas",
+    "instruction": "Observe cada esquema e escreva o número que falta no círculo pontilhado."
+  },
+  "G1-214": {
+    "title": "Cálculo mental até 10",
+    "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+  },
+  "G1-215": {
+    "title": "Descubra o número que falta até 20",
+    "instruction": "Descubra de cabeça o número que falta e escreva no quadradinho."
+  },
+  "G1-216": {
+    "title": "Continhas de mais até 20",
+    "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+  },
+  "G1-217": {
+    "title": "Continhas de menos até 20",
+    "instruction": "Resolva cada continha de cabeça e escreva a resposta no quadradinho."
+  },
+  "G1-218": {
+    "title": "Descubra o número que falta até 10",
+    "instruction": "Descubra de cabeça o número que falta e escreva no quadradinho."
+  },
+  "G1-219": {
+    "title": "Família de fatos até 10",
+    "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+  },
+  "G1-220": {
+    "title": "Família de fatos até 20",
+    "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+  },
+  "G1-221": {
+    "title": "Casinhas matemáticas até 10",
+    "instruction": "Use os três números do telhado e complete as quatro continhas da casinha."
+  },
+  "G1-222": {
+    "title": "Casinhas com número escondido",
+    "instruction": "Use os três números do telhado e escreva o número que falta em cada continha."
+  },
+  "G1-223": {
+    "title": "Números por extenso até 20",
+    "instruction": "Leia o número e circule como ele se escreve por extenso."
+  },
+  "G1-224": {
+    "title": "Dezenas por extenso: 10 a 100",
+    "instruction": "Leia o número e circule como ele se escreve por extenso."
+  },
+  "G1-225": {
+    "title": "Ligue o número ao nome",
+    "instruction": "Ligue cada número à palavra que mostra como ele se escreve."
+  },
+  "G1-226": {
+    "title": "Números por extenso até 50",
+    "instruction": "Leia o número e circule como ele se escreve por extenso."
+  },
+  "G1-227": {
+    "title": "Escreva os números por extenso",
+    "instruction": "Procure a palavra certa no banco de palavras e escreva na linha."
+  },
+  "G1-228": {
+    "title": "Contando moedas: primeiros passos",
+    "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+  },
+  "G1-229": {
+    "title": "Contando dinheiro: todas as moedas",
+    "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+  },
+  "G1-230": {
+    "title": "Treino de contar moedas",
+    "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+  },
+  "G1-231": {
+    "title": "Moedas de 5 e 10 centavos",
+    "instruction": "Conte as moedas de cada carteira e escreva o total no quadradinho."
+  },
+  "G1-232": {
+    "title": "Qual carteira tem mais dinheiro?",
+    "instruction": "Conte o dinheiro das duas carteiras e circule a que tem mais."
+  },
+  "G1-233": {
+    "title": "Desenhe as horas em ponto",
+    "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+  },
+  "G1-234": {
+    "title": "Desenhe as meias horas",
+    "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+  },
+  "G1-235": {
+    "title": "Desenhe os quartos de hora",
+    "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+  },
+  "G1-236": {
+    "title": "Ponteiros de 5 em 5 minutos",
+    "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+  },
+  "G1-237": {
+    "title": "Ponteiros: revisão de horas",
+    "instruction": "Leia a hora no visor e desenhe o ponteiro das horas e o ponteiro dos minutos."
+  },
+  "G1-238": {
+    "title": "Situações problema de adição",
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+  },
+  "G1-239": {
+    "title": "Situações problema de subtração",
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+  },
+  "G1-240": {
+    "title": "Situações problema até 10",
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+  },
+  "G1-241": {
+    "title": "Três situações problema",
+    "instruction": "Leia cada historinha, use as figuras para ajudar e escreva a resposta no quadrinho."
+  },
+  "G2-255": {
+    "title": "Adição armada com 2 algarismos",
+    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+  },
+  "G2-256": {
+    "title": "Subtração armada com 2 algarismos",
+    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+  },
+  "G2-257": {
+    "title": "Continhas armadas com 3 algarismos",
+    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+  },
+  "G2-258": {
+    "title": "Adição armada com 3 algarismos",
+    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+  },
+  "G2-259": {
+    "title": "Revisão de continhas armadas",
+    "instruction": "Arme e efetue: resolva uma ordem de cada vez, começando pelas unidades."
+  },
+  "G2-260": {
+    "title": "Medindo com jarras em ml",
+    "instruction": "Leia a escala de cada jarra e escreva quantos mililitros ela tem."
+  },
+  "G2-261": {
+    "title": "Balanças em gramas",
+    "instruction": "Olhe os pesos de cada balança e escreva quantos gramas o objeto pesa."
+  },
+  "G2-262": {
+    "title": "Escalas com marcas pequenas",
+    "instruction": "Leia cada jarra e cada balança. Escreva a quantidade com a unidade certa."
+  },
+  "G2-263": {
+    "title": "Jarras grandes até 2000 ml",
+    "instruction": "Leia a escala de cada jarra e escreva quantos mililitros ela tem."
+  },
+  "G2-264": {
+    "title": "Simetria fácil no quadriculado",
+    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+  },
+  "G2-265": {
+    "title": "Simetria difícil no quadriculado",
+    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+  },
+  "G2-266": {
+    "title": "Simetria: coração e borboleta",
+    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+  },
+  "G2-267": {
+    "title": "Simetria: casa e coroa",
+    "instruction": "Pinte os quadradinhos do outro lado da linha para deixar a figura igual dos dois lados."
+  },
+  "G2-268": {
+    "title": "Simetria com linha deitada",
+    "instruction": "Pinte os quadradinhos abaixo da linha para deixar a figura igual em cima e embaixo."
+  },
+  "G2-269": {
+    "title": "Interpretação: O castelo de areia",
+    "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+  },
+  "G2-270": {
+    "title": "Interpretação: A padaria do seu José",
+    "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+  },
+  "G2-271": {
+    "title": "Interpretação: Um dia no sítio",
+    "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+  },
+  "G2-272": {
+    "title": "Interpretação: A bicicleta nova",
+    "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+  },
+  "G2-273": {
+    "title": "Interpretação: A festa junina",
+    "instruction": "Leia o texto com atenção e circule a melhor resposta para cada pergunta."
+  },
+  "G3-359": {
+    "title": "Adição com vai um",
+    "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+  },
+  "G3-360": {
+    "title": "Subtração com empréstimo",
+    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+  },
+  "G3-361": {
+    "title": "Adição com vai um: 3 algarismos",
+    "instruction": "Arme e some uma ordem de cada vez. Quando a soma passar de 9, não esqueça do vai um."
+  },
+  "G3-362": {
+    "title": "Subtração emprestando do zero",
+    "instruction": "Subtraia uma ordem de cada vez. Quando precisar, empreste uma dezena da ordem vizinha."
+  },
+  "G3-363": {
+    "title": "Revisão de reagrupamento",
+    "instruction": "Resolva cada conta armada. Reagrupe quando precisar: vai um na adição, empresta na subtração."
+  },
+  "G3-364": {
+    "title": "Tabuada do 2",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-365": {
+    "title": "Tabuada do 5",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-366": {
+    "title": "Tabuada do 10",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-367": {
+    "title": "Tabuada do 3",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-368": {
+    "title": "Tabuada do 4",
+    "instruction": "Multiplique e escreva cada resultado no quadradinho."
+  },
+  "G3-369": {
+    "title": "Casinhas de multiplicar e dividir",
+    "instruction": "Use os três números do telhado e complete os quatro fatos de vezes e de dividir."
   }
 }

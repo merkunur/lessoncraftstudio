@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Den lille gangetabellen",
     "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "K-244": {
+    "title": "Rette linjer og sikksakk",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-245": {
+    "title": "Bølger og buer",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-246": {
+    "title": "Sløyfer, åttetall og spiraler",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-247": {
+    "title": "Vanskelige blyantløyper",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-248": {
+    "title": "Repetisjon av blyantløyper",
+    "instruction": "Spor hver linje med blyanten. Start på den oransje prikken og følg pilen."
+  },
+  "K-249": {
+    "title": "Spor tallene fra 0 til 4",
+    "instruction": "Spor hvert tall. Start på den oransje prikken og følg pilene."
+  },
+  "K-250": {
+    "title": "Spor tallene fra 5 til 9",
+    "instruction": "Spor hvert tall. Start på den oransje prikken og følg pilene."
+  },
+  "K-251": {
+    "title": "Spor og skriv tallene",
+    "instruction": "Spor hvert tall. Skriv det så selv på den tomme plassen."
+  },
+  "K-252": {
+    "title": "Spor tallene fra 1 til 10",
+    "instruction": "Spor hvert tall. Start på den oransje prikken og følg pilene."
+  },
+  "K-253": {
+    "title": "Spor tallene fra 11 til 20",
+    "instruction": "Spor hvert tall. Start på den oransje prikken og følg pilene."
+  },
+  "K-254": {
+    "title": "Spor bokstavene fra G til L",
+    "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."
+  },
+  "K-255": {
+    "title": "Spor bokstavene fra M til R",
+    "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."
+  },
+  "K-256": {
+    "title": "Spor bokstavene fra S til Z",
+    "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."
+  },
+  "K-257": {
+    "title": "Spor bokstavene Æ, Ø og Å",
+    "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."
+  },
+  "K-258": {
+    "title": "Mine første store bokstaver",
+    "instruction": "Spor hver bokstav, og prøv å skrive en selv på den tomme linjen."
+  },
+  "K-259": {
+    "title": "Høyfrekvente ord: sett 2",
+    "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."
+  },
+  "K-260": {
+    "title": "Høyfrekvente ord: sett 3",
+    "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."
+  },
+  "K-261": {
+    "title": "Høyfrekvente ord: sett 4",
+    "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."
+  },
+  "K-262": {
+    "title": "Høyfrekvente ord: sett 5",
+    "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."
+  },
+  "K-263": {
+    "title": "Høyfrekvente ord: sett 6",
+    "instruction": "Les ordet. Spor det. Skriv det så selv på den tomme linjen."
+  },
+  "K-264": {
+    "title": "Klipp og lim: to grupper",
+    "instruction": "Klipp ut bildene nederst. Sorter dem og lim hvert bilde i riktig boks."
+  },
+  "K-265": {
+    "title": "Fargelegg etter figurkode",
+    "instruction": "Se på figurkoden øverst. Fargelegg hver figur med fargen som passer."
+  },
+  "K-266": {
+    "title": "Fargelegg etter tall",
+    "instruction": "Se på tallkoden øverst. Fargelegg hver figur med fargen som hører til tallet."
+  },
+  "K-267": {
+    "title": "Trekk fra og fargelegg",
+    "instruction": "Se på koden øverst. Regn ut, og fargelegg hver figur med fargen som passer."
+  },
+  "K-268": {
+    "title": "Fargelegg med pluss og minus",
+    "instruction": "Se på koden øverst. Regn ut, og fargelegg hver figur med fargen som passer."
+  },
+  "K-269": {
+    "title": "Fargelegg med addisjon til 20",
+    "instruction": "Se på koden øverst. Regn ut, og fargelegg hver figur med fargen som passer."
+  },
+  "K-270": {
+    "title": "Enkel labyrint",
+    "instruction": "Start øverst. Tegn en vei gjennom labyrinten helt frem til målet nederst."
+  },
+  "K-271": {
+    "title": "Vanskelig labyrint",
+    "instruction": "Start øverst. Tegn en vei gjennom labyrinten helt frem til målet nederst."
+  },
+  "K-272": {
+    "title": "Kjempelabyrint",
+    "instruction": "Start øverst. Tegn en vei gjennom labyrinten helt frem til målet nederst."
+  },
+  "K-273": {
+    "title": "Femmervenner",
+    "instruction": "Finn femmervennene. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-274": {
+    "title": "Tallvenner opp til 10",
+    "instruction": "Se på delene og det hele. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-275": {
+    "title": "Tallvenner til 20",
+    "instruction": "Delene skal bli 20 til sammen. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "K-276": {
+    "title": "Tallvenner: finn det hele",
+    "instruction": "Legg sammen de to delene. Skriv det hele tallet i den stiplede sirkelen."
+  },
+  "K-277": {
+    "title": "Tiervenner med telleprikker",
+    "instruction": "Finn tiervennene. Skriv tallet som mangler i den stiplede sirkelen."
+  },
+  "G1-214": {
+    "title": "Hoderegning til 10",
+    "instruction": "Regn ut hvert stykke i hodet. Skriv tallet som mangler i ruten."
+  },
+  "G1-215": {
+    "title": "Finn tallet som mangler til 20",
+    "instruction": "Regn ut i hodet hvilket tall som mangler. Skriv det i ruten."
+  },
+  "G1-216": {
+    "title": "Hoderegning: addisjon til 20",
+    "instruction": "Regn ut hvert stykke i hodet. Skriv tallet som mangler i ruten."
+  },
+  "G1-217": {
+    "title": "Hoderegning: subtraksjon til 20",
+    "instruction": "Regn ut hvert stykke i hodet. Skriv tallet som mangler i ruten."
+  },
+  "G1-218": {
+    "title": "Finn tallet som mangler til 10",
+    "instruction": "Regn ut i hodet hvilket tall som mangler. Skriv det i ruten."
+  },
+  "G1-219": {
+    "title": "Regnefamilier til 10",
+    "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene som hører sammen."
+  },
+  "G1-220": {
+    "title": "Regnefamilier til 20",
+    "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene som hører sammen."
+  },
+  "G1-221": {
+    "title": "Regnehus til 10",
+    "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene som hører sammen."
+  },
+  "G1-222": {
+    "title": "Regnefamilier: tallet i midten mangler",
+    "instruction": "Bruk de tre tallene på taket. Skriv tallet som mangler i hvert regnestykke."
+  },
+  "G1-223": {
+    "title": "Tallord til 20",
+    "instruction": "Les tallet i ruten. Sett ring rundt tallordet som passer til det."
+  },
+  "G1-224": {
+    "title": "Tallord: tiere fra 10 til 100",
+    "instruction": "Les tallet i ruten. Sett ring rundt tallordet som passer til det."
+  },
+  "G1-225": {
+    "title": "Koble tall og tallord",
+    "instruction": "Tegn en strek fra hvert tall til tallordet sitt."
+  },
+  "G1-226": {
+    "title": "Tallord til 50",
+    "instruction": "Les tallet i ruten. Sett ring rundt tallordet som passer til det."
+  },
+  "G1-227": {
+    "title": "Skriv tallordene",
+    "instruction": "Finn tallordet som passer i ordbanken øverst. Skriv det på linjen."
+  },
+  "G1-228": {
+    "title": "Telle penger: de første myntene",
+    "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."
+  },
+  "G1-229": {
+    "title": "Telle penger: alle myntene",
+    "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."
+  },
+  "G1-230": {
+    "title": "Øv på å telle mynter",
+    "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."
+  },
+  "G1-231": {
+    "title": "Telle enkroner og femkroner",
+    "instruction": "Tell myntene i hver pung. Skriv hvor mye det er til sammen i ruten."
+  },
+  "G1-232": {
+    "title": "Hvilken pung har mest penger?",
+    "instruction": "Tell pengene i begge pungene. Sett ring rundt pungen med mest penger."
+  },
+  "G1-233": {
+    "title": "Tegn viserne: hel time",
+    "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."
+  },
+  "G1-234": {
+    "title": "Tegn viserne: halv time",
+    "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."
+  },
+  "G1-235": {
+    "title": "Tegn viserne: kvart over og kvart på",
+    "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."
+  },
+  "G1-236": {
+    "title": "Tegn viserne: hvert femte minutt",
+    "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."
+  },
+  "G1-237": {
+    "title": "Tegn viserne: blandede klokkeslett",
+    "instruction": "Les klokkeslettet. Tegn timeviseren og minuttviseren på klokka."
+  },
+  "G1-238": {
+    "title": "Regnefortellinger: addisjon",
+    "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."
+  },
+  "G1-239": {
+    "title": "Regnefortellinger: subtraksjon",
+    "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."
+  },
+  "G1-240": {
+    "title": "Regnefortellinger opp til 10",
+    "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."
+  },
+  "G1-241": {
+    "title": "Øv på regnefortellinger",
+    "instruction": "Les hver fortelling. Bruk bildene til hjelp. Skriv svaret i ruten."
+  },
+  "G2-255": {
+    "title": "Oppstilt addisjon med tosifrede tall",
+    "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."
+  },
+  "G2-256": {
+    "title": "Oppstilt subtraksjon med tosifrede tall",
+    "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."
+  },
+  "G2-257": {
+    "title": "Tresifrede tall i oppstilling",
+    "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."
+  },
+  "G2-258": {
+    "title": "Oppstilt addisjon med tresifrede tall",
+    "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."
+  },
+  "G2-259": {
+    "title": "Oppstilling: blandet øving",
+    "instruction": "Regn ut hvert stykke i oppstillingen, én plass om gangen. Begynn med enerne."
+  },
+  "G2-260": {
+    "title": "Les av litermål",
+    "instruction": "Les av skalaen på hvert litermål. Skriv hvor mange milliliter som er i."
+  },
+  "G2-261": {
+    "title": "Skålvekt i gram",
+    "instruction": "Se på loddene på hver skålvekt. Skriv hvor mange gram tingen veier."
+  },
+  "G2-262": {
+    "title": "Les av skalaen: små steg",
+    "instruction": "Les av hvert litermål og hver skålvekt. Skriv svaret med riktig enhet."
+  },
+  "G2-263": {
+    "title": "Litermål opp til 2000 ml",
+    "instruction": "Les av skalaen på hvert litermål. Skriv hvor mange milliliter som er i."
+  },
+  "G2-264": {
+    "title": "Enkel symmetritegning",
+    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene på den andre siden av streken, slik at bildet blir symmetrisk."
+  },
+  "G2-265": {
+    "title": "Vanskelig symmetritegning",
+    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene på den andre siden av streken, slik at bildet blir symmetrisk."
+  },
+  "G2-266": {
+    "title": "Speilbilder: hjerte og sommerfugl",
+    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene på den andre siden av streken, slik at bildet blir symmetrisk."
+  },
+  "G2-267": {
+    "title": "Speilbilder: hus og krone",
+    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene på den andre siden av streken, slik at bildet blir symmetrisk."
+  },
+  "G2-268": {
+    "title": "Speiling under streken",
+    "instruction": "Hvert bilde er bare halvferdig. Fargelegg rutene under streken, slik at bildet blir symmetrisk."
+  },
+  "G2-269": {
+    "title": "Leseforståelse: Mia mater fuglene",
+    "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."
+  },
+  "G2-270": {
+    "title": "Leseforståelse: Akedag i bakken",
+    "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."
+  },
+  "G2-271": {
+    "title": "Leseforståelse: Jakob baker boller",
+    "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."
+  },
+  "G2-272": {
+    "title": "Leseforståelse: På biblioteket",
+    "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."
+  },
+  "G2-273": {
+    "title": "Leseforståelse: Fisketur ved fjellvannet",
+    "instruction": "Les fortellingen nøye. Sett ring rundt det svaret som passer best til hvert spørsmål."
+  },
+  "G3-359": {
+    "title": "Addisjon med tierovergang",
+    "instruction": "Legg sammen én plass om gangen. Husk minnetallet når du trenger det."
+  },
+  "G3-360": {
+    "title": "Subtraksjon med veksling",
+    "instruction": "Trekk fra én plass om gangen. Husk å veksle når du trenger det."
+  },
+  "G3-361": {
+    "title": "Tresifret addisjon med tierovergang",
+    "instruction": "Legg sammen én plass om gangen. Husk minnetallet når du trenger det."
+  },
+  "G3-362": {
+    "title": "Subtraksjon med veksling over null",
+    "instruction": "Trekk fra én plass om gangen. Husk å veksle når du trenger det."
+  },
+  "G3-363": {
+    "title": "Tierovergang: blandet øving",
+    "instruction": "Regn ut hvert stykke. Husk minnetall når du legger sammen, og veksling når du trekker fra."
+  },
+  "G3-364": {
+    "title": "2-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-365": {
+    "title": "5-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-366": {
+    "title": "10-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-367": {
+    "title": "3-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-368": {
+    "title": "4-gangen",
+    "instruction": "Regn ut hvert gangestykke, og skriv svaret i ruten."
+  },
+  "G3-369": {
+    "title": "Gange- og delefamilier",
+    "instruction": "Bruk de tre tallene på taket. Fullfør de fire regnestykkene med ganging og deling."
   }
 }

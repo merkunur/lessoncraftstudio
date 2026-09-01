@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Träna multiplikationstabellerna",
     "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "K-244": {
+    "title": "Räta linjer och sicksack",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-245": {
+    "title": "Vågor och bågar",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-246": {
+    "title": "Öglor, åttor och spiraler",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-247": {
+    "title": "Svåra linjer att spåra",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-248": {
+    "title": "Blandade spårlinjer",
+    "instruction": "Följ varje linje med pennan. Börja vid den orangea pricken och följ pilen."
+  },
+  "K-249": {
+    "title": "Spåra siffrorna 0 till 4",
+    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-250": {
+    "title": "Spåra siffrorna 5 till 9",
+    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-251": {
+    "title": "Spåra och skriv siffror",
+    "instruction": "Spåra varje siffra. Skriv den sedan själv i den tomma rutan."
+  },
+  "K-252": {
+    "title": "Spåra talen 1 till 10",
+    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-253": {
+    "title": "Spåra talen 11 till 20",
+    "instruction": "Spåra varje siffra. Börja vid den orangea pricken och följ pilarna."
+  },
+  "K-254": {
+    "title": "Spåra bokstäverna G till L",
+    "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."
+  },
+  "K-255": {
+    "title": "Spåra bokstäverna M till R",
+    "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."
+  },
+  "K-256": {
+    "title": "Spåra bokstäverna S till Z",
+    "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."
+  },
+  "K-257": {
+    "title": "Spåra Å, Ä och Ö",
+    "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."
+  },
+  "K-258": {
+    "title": "Mina första bokstäver: A B C D",
+    "instruction": "Spåra varje bokstav och skriv sedan en egen på den tomma raden."
+  },
+  "K-259": {
+    "title": "Ordbilder – lista 2",
+    "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."
+  },
+  "K-260": {
+    "title": "Ordbilder – lista 3",
+    "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."
+  },
+  "K-261": {
+    "title": "Ordbilder – lista 4",
+    "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."
+  },
+  "K-262": {
+    "title": "Ordbilder – lista 5",
+    "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."
+  },
+  "K-263": {
+    "title": "Ordbilder – lista 6",
+    "instruction": "Läs ordet. Spåra det. Skriv sedan ordet själv på den tomma raden."
+  },
+  "K-264": {
+    "title": "Klipp och klistra: två grupper",
+    "instruction": "Klipp ut bilderna längst ner. Sortera dem och klistra in varje bild i rätt ruta."
+  },
+  "K-265": {
+    "title": "Måla efter figurkod",
+    "instruction": "Titta på koden. Måla varje figur med rätt färg."
+  },
+  "K-266": {
+    "title": "Färglägg efter siffror",
+    "instruction": "Titta på koden. Måla varje fält med den färg som siffran visar."
+  },
+  "K-267": {
+    "title": "Måla efter kod: subtraktion",
+    "instruction": "Titta på koden. Räkna ut talet i varje fält och färglägg med rätt färg."
+  },
+  "K-268": {
+    "title": "Måla efter kod: plus och minus",
+    "instruction": "Titta på koden. Räkna ut talet i varje fält och färglägg med rätt färg."
+  },
+  "K-269": {
+    "title": "Måla efter kod: summor till 20",
+    "instruction": "Titta på koden. Räkna ut talet i varje fält och färglägg med rätt färg."
+  },
+  "K-270": {
+    "title": "Lätt labyrint",
+    "instruction": "Börja högst upp. Rita en väg genom labyrinten ända fram till målet längst ner."
+  },
+  "K-271": {
+    "title": "Svår labyrint",
+    "instruction": "Börja högst upp. Rita en väg genom labyrinten ända fram till målet längst ner."
+  },
+  "K-272": {
+    "title": "Jättelabyrint",
+    "instruction": "Börja högst upp. Rita en väg genom labyrinten ända fram till målet längst ner."
+  },
+  "K-273": {
+    "title": "Femkompisar med prickar",
+    "instruction": "Vilken femkompis saknas? Räkna prickarna till hjälp och skriv talet i den streckade cirkeln."
+  },
+  "K-274": {
+    "title": "Talkamrater upp till 10",
+    "instruction": "Dela upp talet i två delar. Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-275": {
+    "title": "Tjugokompisar",
+    "instruction": "Vilken tjugokompis saknas? Skriv talet som fattas i den streckade cirkeln."
+  },
+  "K-276": {
+    "title": "Vilket är det hela talet?",
+    "instruction": "Den här gången saknas det hela talet. Räkna ihop de två delarna och skriv talet i den streckade cirkeln."
+  },
+  "K-277": {
+    "title": "Tiokompisar med prickar",
+    "instruction": "Vilken tiokompis saknas? Skriv talet som fattas i den streckade cirkeln."
+  },
+  "G1-214": {
+    "title": "Huvudräkning till 10",
+    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+  },
+  "G1-215": {
+    "title": "Öppna utsagor till 20",
+    "instruction": "Vilket tal ska stå i rutan? Räkna ut det i huvudet och skriv talet."
+  },
+  "G1-216": {
+    "title": "Träna addition till 20",
+    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+  },
+  "G1-217": {
+    "title": "Träna subtraktion till 20",
+    "instruction": "Räkna ut varje tal i huvudet. Skriv talet som saknas i rutan."
+  },
+  "G1-218": {
+    "title": "Öppna utsagor till 10",
+    "instruction": "Vilket tal ska stå i rutan? Räkna ut det i huvudet och skriv talet."
+  },
+  "G1-219": {
+    "title": "Räknefamiljer till 10",
+    "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop."
+  },
+  "G1-220": {
+    "title": "Räknefamiljer till 20",
+    "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop."
+  },
+  "G1-221": {
+    "title": "Fler räknefamiljer till 10",
+    "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop."
+  },
+  "G1-222": {
+    "title": "Räknefamiljer: talet i mitten",
+    "instruction": "Använd de tre talen på taket. Skriv talet som saknas i mitten av varje uppgift."
+  },
+  "G1-223": {
+    "title": "Tal med bokstäver till 20",
+    "instruction": "Läs talet med siffror. Ringa in ordet som betyder samma tal."
+  },
+  "G1-224": {
+    "title": "Hela tiotal: 10 till 100",
+    "instruction": "Läs talet med siffror. Ringa in ordet som betyder samma tal."
+  },
+  "G1-225": {
+    "title": "Para ihop tal och ord",
+    "instruction": "Dra ett streck från varje tal till ordet som betyder samma tal."
+  },
+  "G1-226": {
+    "title": "Tal med bokstäver till 50",
+    "instruction": "Läs talet med siffror. Ringa in ordet som betyder samma tal."
+  },
+  "G1-227": {
+    "title": "Skriv talen med bokstäver",
+    "instruction": "Hitta rätt ord i ordbanken. Skriv ordet på raden."
+  },
+  "G1-228": {
+    "title": "Räkna mynt: första stegen",
+    "instruction": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan."
+  },
+  "G1-229": {
+    "title": "Räkna pengar: alla mynt",
+    "instruction": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan."
+  },
+  "G1-230": {
+    "title": "Träna på att räkna mynt",
+    "instruction": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan."
+  },
+  "G1-231": {
+    "title": "Räkna enkronor och tvåkronor",
+    "instruction": "Räkna mynten i varje börs. Skriv hur många kronor det blir i rutan."
+  },
+  "G1-232": {
+    "title": "Vilken börs har mest pengar?",
+    "instruction": "Räkna pengarna i båda börsarna. Ringa in börsen som har mest."
+  },
+  "G1-233": {
+    "title": "Rita visarna: hel timme",
+    "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."
+  },
+  "G1-234": {
+    "title": "Rita visarna: halva timmar",
+    "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."
+  },
+  "G1-235": {
+    "title": "Rita visarna: kvart över, kvart i",
+    "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."
+  },
+  "G1-236": {
+    "title": "Rita visarna: var femte minut",
+    "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."
+  },
+  "G1-237": {
+    "title": "Rita visarna: blandade tider",
+    "instruction": "Läs tiden på lappen. Rita timvisaren och minutvisaren på klockan."
+  },
+  "G1-238": {
+    "title": "Räknehändelser med addition",
+    "instruction": "Läs varje räknehändelse. Ta hjälp av bilderna och skriv svaret i rutan."
+  },
+  "G1-239": {
+    "title": "Räknehändelser med subtraktion",
+    "instruction": "Läs varje räknehändelse. Ta hjälp av bilderna och skriv svaret i rutan."
+  },
+  "G1-240": {
+    "title": "Räknehändelser till 10",
+    "instruction": "Läs varje räknehändelse. Ta hjälp av bilderna och skriv svaret i rutan."
+  },
+  "G1-241": {
+    "title": "Träna på räknehändelser",
+    "instruction": "Läs varje räknehändelse. Ta hjälp av bilderna och skriv svaret i rutan."
+  },
+  "G2-255": {
+    "title": "Uppställning: addition utan växling",
+    "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."
+  },
+  "G2-256": {
+    "title": "Uppställning: subtraktion utan växling",
+    "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."
+  },
+  "G2-257": {
+    "title": "Uppställning med tresiffriga tal",
+    "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."
+  },
+  "G2-258": {
+    "title": "Addition med tresiffriga tal",
+    "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."
+  },
+  "G2-259": {
+    "title": "Uppställning: repetition",
+    "instruction": "Räkna ut svaret i uppställningen, en talsort i taget. Börja med entalen."
+  },
+  "G2-260": {
+    "title": "Läs av mätkannan",
+    "instruction": "Läs av skalan på varje mätkanna. Skriv hur många milliliter det är."
+  },
+  "G2-261": {
+    "title": "Läs av vågen i gram",
+    "instruction": "Titta på vikterna på varje våg. Skriv hur många gram saken väger."
+  },
+  "G2-262": {
+    "title": "Läs av skalan: små steg",
+    "instruction": "Läs av varje mätkanna och våg. Skriv svaret med rätt enhet."
+  },
+  "G2-263": {
+    "title": "Mätkannor upp till 2000 ml",
+    "instruction": "Läs av skalan på varje mätkanna. Skriv hur många milliliter det är."
+  },
+  "G2-264": {
+    "title": "Lätt symmetri i rutnät",
+    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+  },
+  "G2-265": {
+    "title": "Svår symmetri i rutnät",
+    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+  },
+  "G2-266": {
+    "title": "Spegelbilder: hjärta och fjäril",
+    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+  },
+  "G2-267": {
+    "title": "Spegelbilder: hus och krona",
+    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna på andra sidan linjen så att bilden blir symmetrisk."
+  },
+  "G2-268": {
+    "title": "Spegla under linjen",
+    "instruction": "Bilden är bara till hälften klar. Färglägg rutorna under linjen så att bilden blir symmetrisk."
+  },
+  "G2-269": {
+    "title": "Läsförståelse: Alma på simskolan",
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."
+  },
+  "G2-270": {
+    "title": "Läsförståelse: Bullar hos mormor",
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."
+  },
+  "G2-271": {
+    "title": "Läsförståelse: På biblioteket",
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."
+  },
+  "G2-272": {
+    "title": "Läsförståelse: Snölyktan",
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."
+  },
+  "G2-273": {
+    "title": "Läsförståelse: Färjan till ön",
+    "instruction": "Läs berättelsen noga. Ringa in det bästa svaret på varje fråga."
+  },
+  "G3-359": {
+    "title": "Addition med växling",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "G3-360": {
+    "title": "Subtraktion med växling",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "G3-361": {
+    "title": "Tresiffrig addition med växling",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "G3-362": {
+    "title": "Subtraktion med växling över noll",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "G3-363": {
+    "title": "Blandad träning med växling",
+    "instruction": "Räkna ut varje uppgift med uppställning. Kom ihåg att växla när det behövs."
+  },
+  "G3-364": {
+    "title": "2:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-365": {
+    "title": "5:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-366": {
+    "title": "10:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-367": {
+    "title": "3:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-368": {
+    "title": "4:ans tabell",
+    "instruction": "Multiplicera talen i varje uppgift. Skriv produkten i rutan."
+  },
+  "G3-369": {
+    "title": "Räknefamiljer med gånger och delat",
+    "instruction": "Använd de tre talen på taket. Skriv färdigt de fyra uppgifter som hör ihop: två med gånger och två med delat."
   }
 }

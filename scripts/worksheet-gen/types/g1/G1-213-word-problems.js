@@ -134,9 +134,11 @@ module.exports = {
         `</div>`;
 
       blocks.push(
-        `<div class="ws-card-stage" style="flex:0 0 auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:12px;background:#FBF3E4;` +
-        `border:2px solid #F0E4CB;border-radius:14px;padding:18px 20px" data-lcs-problem data-lcs-a="${n1}" data-lcs-b="${n2}" data-lcs-op="${op}">` +
-        `<p style="font-family:'Nunito';font-weight:800;font-size:18px;line-height:1.5;color:#3A3530" data-lcs-sentence>${sentence}</p>` +
+        // 3-problem pages compact the furniture — long-sentence locales (de)
+        // overflow the page box at the 2-problem metrics
+        `<div class="ws-card-stage" style="flex:0 0 auto;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:${d.problems >= 3 ? 8 : 12}px;background:#FBF3E4;` +
+        `border:2px solid #F0E4CB;border-radius:14px;padding:${d.problems >= 3 ? '12px 16px' : '18px 20px'}" data-lcs-problem data-lcs-a="${n1}" data-lcs-b="${n2}" data-lcs-op="${op}">` +
+        `<p style="font-family:'Nunito';font-weight:800;font-size:${d.problems >= 3 ? 16 : 18}px;line-height:${d.problems >= 3 ? 1.45 : 1.5};color:#3A3530" data-lcs-sentence>${sentence}</p>` +
         (strip ? `<div style="background:#FFFFFF;border:2px solid #F0E4CB;border-radius:12px;padding:10px 14px">${strip}</div>` : '') +
         thinkPanel +
         `</div>`
@@ -144,7 +146,7 @@ module.exports = {
     }
 
     return {
-      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:26px;justify-content:space-evenly">${blocks.join('')}</div>`,
+      bodyHtml: `<div style="flex:1;display:flex;flex-direction:column;gap:${d.problems >= 3 ? 14 : 26}px;justify-content:space-evenly">${blocks.join('')}</div>`,
       meta: {},
     };
   },

@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Einmaleins üben",
     "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "K-244": {
+    "title": "Schwungübungen: Zacken und Zickzack",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-245": {
+    "title": "Schwungübungen: Wellen und Bögen",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-246": {
+    "title": "Schwungübungen: Schleifen und Spiralen",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-247": {
+    "title": "Schwungübungen für Profis",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-248": {
+    "title": "Schwungübungen: Wiederholung",
+    "instruction": "Spure jede Linie mit dem Stift nach. Beginne am orangen Punkt und folge dem Pfeil."
+  },
+  "K-249": {
+    "title": "Ziffern schreiben: 0 bis 4",
+    "instruction": "Spure jede Zahl nach. Beginne am orangen Punkt und folge den Pfeilen."
+  },
+  "K-250": {
+    "title": "Ziffern schreiben: 5 bis 9",
+    "instruction": "Spure jede Zahl nach. Beginne am orangen Punkt und folge den Pfeilen."
+  },
+  "K-251": {
+    "title": "Zahlen nachspuren und selbst schreiben",
+    "instruction": "Spure jede Zahl nach. Schreibe sie dann allein in das leere Feld."
+  },
+  "K-252": {
+    "title": "Zahlen schreiben: 1 bis 10",
+    "instruction": "Spure jede Zahl nach. Beginne am orangen Punkt und folge den Pfeilen."
+  },
+  "K-253": {
+    "title": "Zahlen schreiben: 11 bis 20",
+    "instruction": "Spure jede Zahl nach. Beginne am orangen Punkt und folge den Pfeilen."
+  },
+  "K-254": {
+    "title": "Buchstaben nachspuren: G bis L",
+    "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-255": {
+    "title": "Buchstaben nachspuren: M bis R",
+    "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-256": {
+    "title": "Buchstaben nachspuren: S bis Z",
+    "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-257": {
+    "title": "Umlaute nachspuren: Ä, Ö, Ü",
+    "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-258": {
+    "title": "Meine ersten Buchstaben: A, B, C, D",
+    "instruction": "Spure jeden Buchstaben nach. Schreibe ihn dann allein auf die leere Linie."
+  },
+  "K-259": {
+    "title": "Lernwörter: Liste 2",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."
+  },
+  "K-260": {
+    "title": "Lernwörter: Liste 3",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."
+  },
+  "K-261": {
+    "title": "Lernwörter: Liste 4",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."
+  },
+  "K-262": {
+    "title": "Lernwörter: Liste 5",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."
+  },
+  "K-263": {
+    "title": "Lernwörter: Liste 6",
+    "instruction": "Lies das Wort. Spure es nach. Schreibe es dann selbst auf die leere Linie."
+  },
+  "K-264": {
+    "title": "Ausschneiden und Sortieren: zwei Gruppen",
+    "instruction": "Schneide die Bilder unten aus. Ordne sie und klebe jedes in sein Kästchen."
+  },
+  "K-265": {
+    "title": "Formen nach Farbcode ausmalen",
+    "instruction": "Schau genau auf den Farbcode. Male jede Form in der passenden Farbe aus."
+  },
+  "K-266": {
+    "title": "Malen nach Zahlen",
+    "instruction": "Jede Zahl hat ihre Farbe. Male jede Form in der Farbe ihrer Zahl aus."
+  },
+  "K-267": {
+    "title": "Minus rechnen und ausmalen",
+    "instruction": "Schau genau auf den Farbcode. Male jede Form in der passenden Farbe aus."
+  },
+  "K-268": {
+    "title": "Plus und Minus ausmalen",
+    "instruction": "Schau genau auf den Farbcode. Male jede Form in der passenden Farbe aus."
+  },
+  "K-269": {
+    "title": "Plusaufgaben bis 20 ausmalen",
+    "instruction": "Schau genau auf den Farbcode. Male jede Form in der passenden Farbe aus."
+  },
+  "K-270": {
+    "title": "Leichtes Labyrinth",
+    "instruction": "Starte oben. Zeichne einen Weg durch das Labyrinth bis zum Ziel unten."
+  },
+  "K-271": {
+    "title": "Schweres Labyrinth",
+    "instruction": "Starte oben. Zeichne einen Weg durch das Labyrinth bis zum Ziel unten."
+  },
+  "K-272": {
+    "title": "Riesenlabyrinth",
+    "instruction": "Starte oben. Zeichne einen Weg durch das Labyrinth bis zum Ziel unten."
+  },
+  "K-273": {
+    "title": "Zahlzerlegung bis 5 mit Punkten",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-274": {
+    "title": "Zahlen von 5 bis 10 zerlegen",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-275": {
+    "title": "Zahlzerlegung bis 20",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-276": {
+    "title": "Zahlzerlegung: das Ganze fehlt",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "K-277": {
+    "title": "Verliebte Zahlen: die 10 zerlegen",
+    "instruction": "Schau dir jede Zahlzerlegung an. Schreibe die fehlende Zahl in den gestrichelten Kreis."
+  },
+  "G1-214": {
+    "title": "Kopfrechnen bis 10",
+    "instruction": "Rechne jede Aufgabe im Kopf. Schreibe die fehlende Zahl in das Kästchen."
+  },
+  "G1-215": {
+    "title": "Platzhalteraufgaben bis 20",
+    "instruction": "Welche Zahl fehlt im Kästchen? Rechne im Kopf und schreibe sie hinein."
+  },
+  "G1-216": {
+    "title": "Plusaufgaben bis 20",
+    "instruction": "Rechne jede Aufgabe im Kopf. Schreibe die fehlende Zahl in das Kästchen."
+  },
+  "G1-217": {
+    "title": "Minusaufgaben bis 20",
+    "instruction": "Rechne jede Aufgabe im Kopf. Schreibe die fehlende Zahl in das Kästchen."
+  },
+  "G1-218": {
+    "title": "Platzhalteraufgaben bis 10",
+    "instruction": "Welche Zahl fehlt im Kästchen? Rechne im Kopf und schreibe sie hinein."
+  },
+  "G1-219": {
+    "title": "Aufgabenfamilien bis 10",
+    "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Aufgaben, die dazugehören."
+  },
+  "G1-220": {
+    "title": "Rechenhäuser bis 20",
+    "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Aufgaben, die dazugehören."
+  },
+  "G1-221": {
+    "title": "Rechenhäuser bis 10",
+    "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Aufgaben, die dazugehören."
+  },
+  "G1-222": {
+    "title": "Aufgabenfamilien mit Lücken",
+    "instruction": "Nimm die drei Zahlen auf dem Dach. Schreibe in jede Aufgabe die fehlende Zahl."
+  },
+  "G1-223": {
+    "title": "Zahlwörter bis 20",
+    "instruction": "Lies die große Zahl. Kreise das Zahlwort ein, das genau dazu passt."
+  },
+  "G1-224": {
+    "title": "Zahlwörter: vierzig oder vierzehn?",
+    "instruction": "Lies die große Zahl. Kreise das Zahlwort ein, das genau dazu passt."
+  },
+  "G1-225": {
+    "title": "Zahlen und Zahlwörter verbinden",
+    "instruction": "Verbinde jede Zahl mit ihrem Zahlwort."
+  },
+  "G1-226": {
+    "title": "Zahlwörter bis 50",
+    "instruction": "Lies die große Zahl. Kreise das Zahlwort ein, das genau dazu passt."
+  },
+  "G1-227": {
+    "title": "Zahlwörter schreiben",
+    "instruction": "Such das passende Zahlwort im Wörterkasten oben. Schreibe es auf die Linie."
+  },
+  "G1-228": {
+    "title": "Münzen zählen: erste Schritte",
+    "instruction": "Zähle die Münzen in jedem Geldbeutel. Schreibe den Betrag in das Kästchen."
+  },
+  "G1-229": {
+    "title": "Geld zählen: alle Münzen",
+    "instruction": "Zähle die Münzen in jedem Geldbeutel. Schreibe den Betrag in das Kästchen."
+  },
+  "G1-230": {
+    "title": "Münzen zählen üben",
+    "instruction": "Zähle die Münzen in jedem Geldbeutel. Schreibe den Betrag in das Kästchen."
+  },
+  "G1-231": {
+    "title": "Zählen mit 1 und 2 Cent",
+    "instruction": "Zähle die Münzen in jedem Geldbeutel. Schreibe den Betrag in das Kästchen."
+  },
+  "G1-232": {
+    "title": "Welcher Geldbeutel hat mehr?",
+    "instruction": "Zähle das Geld in beiden Geldbeuteln. Kreise den Geldbeutel mit mehr Geld ein."
+  },
+  "G1-233": {
+    "title": "Uhrzeiger einzeichnen: volle Stunden",
+    "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."
+  },
+  "G1-234": {
+    "title": "Uhrzeiger einzeichnen: halbe Stunden",
+    "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."
+  },
+  "G1-235": {
+    "title": "Uhrzeiger einzeichnen: Viertelstunden",
+    "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."
+  },
+  "G1-236": {
+    "title": "Uhrzeiger einzeichnen: 5-Minuten-Schritte",
+    "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."
+  },
+  "G1-237": {
+    "title": "Uhrzeiger einzeichnen: gemischte Zeiten",
+    "instruction": "Lies die Uhrzeit. Zeichne den Stundenzeiger und den Minutenzeiger in die Uhr ein."
+  },
+  "G1-238": {
+    "title": "Rechengeschichten: Plusaufgaben",
+    "instruction": "Lies jede Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen."
+  },
+  "G1-239": {
+    "title": "Rechengeschichten: Minusaufgaben",
+    "instruction": "Lies jede Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen."
+  },
+  "G1-240": {
+    "title": "Rechengeschichten bis 10",
+    "instruction": "Lies jede Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen."
+  },
+  "G1-241": {
+    "title": "Drei kleine Rechengeschichten",
+    "instruction": "Lies jede Rechengeschichte. Die Bilder helfen dir. Schreibe die Antwort in das Kästchen."
+  },
+  "G2-255": {
+    "title": "Schriftliche Addition ohne Übertrag",
+    "instruction": "Rechne jede Aufgabe Stelle für Stelle: zuerst die Einer, dann die Zehner."
+  },
+  "G2-256": {
+    "title": "Schriftliche Subtraktion ohne Übertrag",
+    "instruction": "Rechne jede Aufgabe Stelle für Stelle: zuerst die Einer, dann die Zehner."
+  },
+  "G2-257": {
+    "title": "Schriftlich rechnen mit dreistelligen Zahlen",
+    "instruction": "Rechne jede Aufgabe Stelle für Stelle: Einer, Zehner, Hunderter."
+  },
+  "G2-258": {
+    "title": "Dreistellige Zahlen addieren",
+    "instruction": "Rechne jede Aufgabe Stelle für Stelle: Einer, Zehner, Hunderter."
+  },
+  "G2-259": {
+    "title": "Schriftlich rechnen: Übungsmix",
+    "instruction": "Rechne jede Aufgabe Stelle für Stelle: zuerst die Einer, dann die Zehner."
+  },
+  "G2-260": {
+    "title": "Messbecher ablesen: Milliliter",
+    "instruction": "Lies die Skala an jedem Messbecher ab. Schreibe auf, wie viele Milliliter darin sind."
+  },
+  "G2-261": {
+    "title": "Waagen ablesen: Gramm",
+    "instruction": "Schau auf die Gewichte an jeder Waage. Schreibe auf, wie viele Gramm der Gegenstand wiegt."
+  },
+  "G2-262": {
+    "title": "Skalen genau ablesen: kleine Schritte",
+    "instruction": "Lies jeden Messbecher und jede Waage genau ab. Schreibe die Menge mit ihrer Einheit auf."
+  },
+  "G2-263": {
+    "title": "Messbecher bis 2000 ml ablesen",
+    "instruction": "Lies die Skala an jedem Messbecher ab. Schreibe auf, wie viele Milliliter darin sind."
+  },
+  "G2-264": {
+    "title": "Leichte Spiegelbilder",
+    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+  },
+  "G2-265": {
+    "title": "Schwere Spiegelbilder",
+    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+  },
+  "G2-266": {
+    "title": "Spiegelbilder: Herz und Schmetterling",
+    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+  },
+  "G2-267": {
+    "title": "Spiegelbilder: Haus und Krone",
+    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen auf der anderen Seite der Spiegelachse an."
+  },
+  "G2-268": {
+    "title": "Spiegeln an der waagerechten Achse",
+    "instruction": "Jedes Bild ist nur halb fertig. Male die Kästchen unter der Spiegelachse an."
+  },
+  "G2-269": {
+    "title": "Lesen und verstehen: Der kleine Igel",
+    "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."
+  },
+  "G2-270": {
+    "title": "Lesen und verstehen: Bei der Feuerwehr",
+    "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."
+  },
+  "G2-271": {
+    "title": "Lesen und verstehen: Ein Tag am Meer",
+    "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."
+  },
+  "G2-272": {
+    "title": "Lesen und verstehen: Der Turnbeutel",
+    "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."
+  },
+  "G2-273": {
+    "title": "Lesen und verstehen: Der Schneetag",
+    "instruction": "Lies die Geschichte genau. Kreise dann bei jeder Frage die richtige Antwort ein."
+  },
+  "G3-359": {
+    "title": "Schriftliche Addition mit Übertrag",
+    "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."
+  },
+  "G3-360": {
+    "title": "Schriftliche Subtraktion mit Übertrag",
+    "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."
+  },
+  "G3-361": {
+    "title": "Addition dreistelliger Zahlen mit Übertrag",
+    "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."
+  },
+  "G3-362": {
+    "title": "Subtrahieren mit Nullen",
+    "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."
+  },
+  "G3-363": {
+    "title": "Rechnen mit Übertrag: Wiederholung",
+    "instruction": "Rechne jede Aufgabe schriftlich Stelle für Stelle. Vergiss den Übertrag nicht."
+  },
+  "G3-364": {
+    "title": "Das 2er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-365": {
+    "title": "Das 5er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-366": {
+    "title": "Das 10er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-367": {
+    "title": "Das 3er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-368": {
+    "title": "Das 4er-Einmaleins",
+    "instruction": "Rechne jede Malaufgabe. Schreibe das Ergebnis in das Kästchen."
+  },
+  "G3-369": {
+    "title": "Aufgabenfamilien: Mal und Geteilt",
+    "instruction": "Nimm die drei Zahlen auf dem Dach. Vervollständige die vier Mal- und Geteiltaufgaben."
   }
 }

@@ -1038,5 +1038,373 @@
   "G3-358": {
     "title": "Øv den lille tabel",
     "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "K-244": {
+    "title": "Lige linjer og zigzaglinjer",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-245": {
+    "title": "Bølger og buer",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-246": {
+    "title": "Sløjfer, ottetaller og spiraler",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-247": {
+    "title": "Svære skrivemønstre",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-248": {
+    "title": "Blandede skriveøvelser",
+    "instruction": "Følg hver linje med din blyant. Start ved den orange prik, og følg pilen."
+  },
+  "K-249": {
+    "title": "Skriv tallene fra 0 til 4",
+    "instruction": "Skriv oven i hvert tal. Start ved den orange prik, og følg pilene."
+  },
+  "K-250": {
+    "title": "Skriv tallene fra 5 til 9",
+    "instruction": "Skriv oven i hvert tal. Start ved den orange prik, og følg pilene."
+  },
+  "K-251": {
+    "title": "Skriv efter, og skriv selv",
+    "instruction": "Skriv oven i hvert tal. Skriv det derefter selv i det tomme felt."
+  },
+  "K-252": {
+    "title": "Skriv tallene fra 1 til 10",
+    "instruction": "Skriv oven i hvert tal. Start ved den orange prik, og følg pilene."
+  },
+  "K-253": {
+    "title": "Skriv tallene fra 11 til 20",
+    "instruction": "Skriv oven i hvert tal. Start ved den orange prik, og følg pilene."
+  },
+  "K-254": {
+    "title": "Skriv bogstaverne G til L",
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."
+  },
+  "K-255": {
+    "title": "Skriv bogstaverne M til R",
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."
+  },
+  "K-256": {
+    "title": "Skriv bogstaverne S til Z",
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."
+  },
+  "K-257": {
+    "title": "Skriv Æ, Ø og Å",
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."
+  },
+  "K-258": {
+    "title": "Mine første bogstaver: A B C D",
+    "instruction": "Skriv oven i hvert bogstav, og prøv derefter selv på den tomme linje."
+  },
+  "K-259": {
+    "title": "Hyppige ord: sæt 2",
+    "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."
+  },
+  "K-260": {
+    "title": "Hyppige ord: sæt 3",
+    "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."
+  },
+  "K-261": {
+    "title": "Hyppige ord: sæt 4",
+    "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."
+  },
+  "K-262": {
+    "title": "Hyppige ord: sæt 5",
+    "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."
+  },
+  "K-263": {
+    "title": "Hyppige ord: sæt 6",
+    "instruction": "Læs ordet. Skriv oven i det, og skriv det derefter selv på den tomme linje."
+  },
+  "K-264": {
+    "title": "Klip og sortér i to grupper",
+    "instruction": "Klip billederne nederst på siden ud. Sortér dem, og lim hvert billede ind i den rigtige kasse."
+  },
+  "K-265": {
+    "title": "Farvelæg efter figurkode",
+    "instruction": "Se på koden. Farvelæg hver figur med den farve, der passer til den."
+  },
+  "K-266": {
+    "title": "Farvelæg efter tal",
+    "instruction": "Hvert felt har et tal. Farvelæg feltet med den farve, der hører til tallet."
+  },
+  "K-267": {
+    "title": "Farvelæg med minusstykker",
+    "instruction": "Regn stykket ud i hver figur. Farvelæg figuren med den farve, der passer til svaret."
+  },
+  "K-268": {
+    "title": "Farvelæg med plus og minus",
+    "instruction": "Regn stykket ud i hver figur. Farvelæg figuren med den farve, der passer til svaret."
+  },
+  "K-269": {
+    "title": "Farvelæg med plus til 20",
+    "instruction": "Regn stykket ud i hver figur. Farvelæg figuren med den farve, der passer til svaret."
+  },
+  "K-270": {
+    "title": "Nem labyrint",
+    "instruction": "Start øverst. Tegn en vej gennem labyrinten, til du når målet nederst."
+  },
+  "K-271": {
+    "title": "Svær labyrint",
+    "instruction": "Start øverst. Tegn en vej gennem labyrinten, til du når målet nederst."
+  },
+  "K-272": {
+    "title": "Kæmpelabyrint",
+    "instruction": "Start øverst. Tegn en vej gennem labyrinten, til du når målet nederst."
+  },
+  "K-273": {
+    "title": "Femvenner med tælleprikker",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-274": {
+    "title": "Talvenner op til 10",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-275": {
+    "title": "Tyvevenner – par der giver 20",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-276": {
+    "title": "Find det hele tal",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "K-277": {
+    "title": "Tiervenner med tælleprikker",
+    "instruction": "Find det tal, der mangler, og skriv det i den stiplede cirkel. De to dele skal tilsammen give det store tal."
+  },
+  "G1-214": {
+    "title": "Hovedregning op til 10",
+    "instruction": "Regn hvert stykke i hovedet, og skriv det manglende tal i kassen."
+  },
+  "G1-215": {
+    "title": "Find det manglende tal til 20",
+    "instruction": "Regn ud i hovedet, hvilket tal der mangler. Skriv det i kassen."
+  },
+  "G1-216": {
+    "title": "Plusstykker op til 20",
+    "instruction": "Regn hvert stykke i hovedet, og skriv det manglende tal i kassen."
+  },
+  "G1-217": {
+    "title": "Minusstykker op til 20",
+    "instruction": "Regn hvert stykke i hovedet, og skriv det manglende tal i kassen."
+  },
+  "G1-218": {
+    "title": "Find det manglende tal til 10",
+    "instruction": "Regn ud i hovedet, hvilket tal der mangler. Skriv det i kassen."
+  },
+  "G1-219": {
+    "title": "Talfamilier op til 10",
+    "instruction": "Brug de tre tal på taget, og gør de fire regnestykker under taget færdige."
+  },
+  "G1-220": {
+    "title": "Talfamilier op til 20",
+    "instruction": "Brug de tre tal på taget, og gør de fire regnestykker under taget færdige."
+  },
+  "G1-221": {
+    "title": "Øv talfamilier op til 10",
+    "instruction": "Brug de tre tal på taget, og gør de fire regnestykker under taget færdige."
+  },
+  "G1-222": {
+    "title": "Talfamilier: find det midterste tal",
+    "instruction": "Brug de tre tal på taget. Skriv det tal, der mangler i midten af hvert regnestykke."
+  },
+  "G1-223": {
+    "title": "Talord op til 20",
+    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+  },
+  "G1-224": {
+    "title": "Talord: hele tiere til 100",
+    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+  },
+  "G1-225": {
+    "title": "Forbind tal og talord",
+    "instruction": "Tegn en streg fra hvert tal til det talord, der passer."
+  },
+  "G1-226": {
+    "title": "Talord op til 50",
+    "instruction": "Læs det store tal. Sæt en ring om det ord, der passer til tallet."
+  },
+  "G1-227": {
+    "title": "Skriv talordene",
+    "instruction": "Find det ord i ordbanken, der passer til tallet, og skriv det på linjen."
+  },
+  "G1-228": {
+    "title": "Tæl penge: nem start",
+    "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."
+  },
+  "G1-229": {
+    "title": "Tæl penge: alle mønter",
+    "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."
+  },
+  "G1-230": {
+    "title": "Øv dig i at tælle penge",
+    "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."
+  },
+  "G1-231": {
+    "title": "Tæl med de små mønter",
+    "instruction": "Tæl mønterne i hver pung. Start med den største mønt, og skriv det samlede beløb i kassen."
+  },
+  "G1-232": {
+    "title": "Hvilken pung har flest penge?",
+    "instruction": "Tæl pengene i begge punge. Sæt en ring om den pung, der har flest penge."
+  },
+  "G1-233": {
+    "title": "Tegn viserne: hele timer",
+    "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."
+  },
+  "G1-234": {
+    "title": "Tegn viserne: halve timer",
+    "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."
+  },
+  "G1-235": {
+    "title": "Tegn viserne: kvart over og kvart i",
+    "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."
+  },
+  "G1-236": {
+    "title": "Tegn viserne: fem minutter ad gangen",
+    "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."
+  },
+  "G1-237": {
+    "title": "Tegn viserne: blandede klokkeslæt",
+    "instruction": "Læs klokkeslættet. Tegn den lille viser og den store viser på uret."
+  },
+  "G1-238": {
+    "title": "Regnehistorier med plus",
+    "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."
+  },
+  "G1-239": {
+    "title": "Regnehistorier med minus",
+    "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."
+  },
+  "G1-240": {
+    "title": "Regnehistorier op til 10",
+    "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."
+  },
+  "G1-241": {
+    "title": "Øv regnehistorier",
+    "instruction": "Læs hver regnehistorie. Brug billederne som hjælp, og skriv svaret i kassen."
+  },
+  "G2-255": {
+    "title": "Plus med tocifrede tal",
+    "instruction": "Regn hvert stykke i opstillingen. Regn først enerne og derefter tierne."
+  },
+  "G2-256": {
+    "title": "Minus med tocifrede tal",
+    "instruction": "Regn hvert stykke i opstillingen. Regn først enerne og derefter tierne."
+  },
+  "G2-257": {
+    "title": "Trecifrede tal i opstilling",
+    "instruction": "Regn hvert stykke i opstillingen. Regn først enerne, så tierne og til sidst hundrederne."
+  },
+  "G2-258": {
+    "title": "Plus med trecifrede tal",
+    "instruction": "Regn hvert stykke i opstillingen. Regn først enerne, så tierne og til sidst hundrederne."
+  },
+  "G2-259": {
+    "title": "Repetition: opstilling med plus og minus",
+    "instruction": "Regn hvert stykke i opstillingen. Start med enerne, og tag én plads ad gangen."
+  },
+  "G2-260": {
+    "title": "Aflæs målebægre i milliliter",
+    "instruction": "Aflæs skalaen på hvert målebæger. Skriv, hvor mange milliliter der er i."
+  },
+  "G2-261": {
+    "title": "Aflæs vægte i gram",
+    "instruction": "Se på lodderne på hver vægt. Skriv, hvor mange gram tingen vejer."
+  },
+  "G2-262": {
+    "title": "Aflæs skalaer med små spring",
+    "instruction": "Aflæs hvert målebæger og hver vægt. Skriv svaret med den rigtige enhed."
+  },
+  "G2-263": {
+    "title": "Målebægre op til 2000 ml",
+    "instruction": "Aflæs skalaen på hvert målebæger. Skriv, hvor mange milliliter der er i."
+  },
+  "G2-264": {
+    "title": "Nem symmetritegning",
+    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+  },
+  "G2-265": {
+    "title": "Svær symmetritegning",
+    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+  },
+  "G2-266": {
+    "title": "Spejlbilleder: hjerte og sommerfugl",
+    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+  },
+  "G2-267": {
+    "title": "Spejlbilleder: hus og krone",
+    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne på den anden side af linjen, så billedet bliver symmetrisk."
+  },
+  "G2-268": {
+    "title": "Spejling under stregen",
+    "instruction": "Billedet er kun halvt færdigt. Farvelæg felterne under stregen, så billedet bliver symmetrisk."
+  },
+  "G2-269": {
+    "title": "Læseforståelse: Elias på stranden",
+    "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."
+  },
+  "G2-270": {
+    "title": "Læseforståelse: På biblioteket",
+    "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."
+  },
+  "G2-271": {
+    "title": "Læseforståelse: Kælkedag",
+    "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."
+  },
+  "G2-272": {
+    "title": "Læseforståelse: Hos bageren",
+    "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."
+  },
+  "G2-273": {
+    "title": "Læseforståelse: Skovturen",
+    "instruction": "Læs historien grundigt. Sæt derefter en ring om det rigtige svar til hvert spørgsmål."
+  },
+  "G3-359": {
+    "title": "Plus med tierovergang",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når enerne går over ni."
+  },
+  "G3-360": {
+    "title": "Minus med tierovergang",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når du ikke kan trække fra."
+  },
+  "G3-361": {
+    "title": "Trecifret plus med tierovergang",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når enerne går over ni."
+  },
+  "G3-362": {
+    "title": "Minus hen over nul",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når du ikke kan trække fra."
+  },
+  "G3-363": {
+    "title": "Repetition med tierovergang",
+    "instruction": "Regn hvert stykke med opstilling. Husk at veksle, når enerne går over ni, eller når du ikke kan trække fra."
+  },
+  "G3-364": {
+    "title": "2-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-365": {
+    "title": "5-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-366": {
+    "title": "10-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-367": {
+    "title": "3-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-368": {
+    "title": "4-tabellen",
+    "instruction": "Gang de to tal med hinanden, og skriv resultatet i kassen. Øv dig, til du kan dem udenad."
+  },
+  "G3-369": {
+    "title": "Talfamilier med gange og division",
+    "instruction": "Brug de tre tal på taget. Skriv de fire regnestykker med gange og division, der hører sammen."
   }
 }

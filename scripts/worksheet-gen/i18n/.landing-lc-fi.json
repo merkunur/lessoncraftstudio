@@ -1,0 +1,71 @@
+{
+  "locale": "fi",
+  "landings": {
+    "K-278": {
+      "slug": "pienten-kirjainten-kirjoittaminen",
+      "eyebrow": "Kirjainten jäljennysmoniste",
+      "h1": "Pienten kirjainten kirjoitusharjoitus a–f",
+      "title": "Pienten kirjainten kirjoitusharjoitus – tulostettava PDF",
+      "metaDescription": "Esikoulun kirjainharjoitus: jäljennä pienet kirjaimet a–f viivastolle ja kirjoita lopuksi itse. Ilmainen tulostettava PDF pienten kirjainten opetteluun.",
+      "strand": "Lukemaan ja kirjoittamaan oppiminen",
+      "p1": "Tällä esikoulun monisteella lapsi harjoittelee pieniä kirjaimia a–f oikealla kirjoitusviivastolla: ylin viiva, katkoviivainen keskiviiva ja perusviiva. Jokaisella kirjaimella on viivastolla oma paikkansa. Kirjaimet a, c ja e täyttävät vain keskikorkeuden, keskiviivan ja perusviivan välin. Kirjaimissa b, d ja f on yläpidennys, joka nousee ylimmälle viivalle asti. Katkoviivamallien jälkeen rivin viimeinen ruutu jää tyhjäksi: siihen lapsi kirjoittaa kirjaimen aivan itse.",
+      "p2": "Pienet kirjaimet ovat aakkosten vaikeampi puolisko ja samalla se puolisko, jota lapsi todella kirjoittaa: vain virkkeen ensimmäinen kirjain on iso, kaikki muu on pientä. Siinä missä isot kirjaimet ovat kaikki yhtä korkeita, pienet kirjaimet liikkuvat kolmella korkeudella yhtä aikaa, ja katkoviivaisen keskiviivan lukeminen oikein on suurin osa koko taidosta. Sivulla on lisäksi aakkosten tunnetuin sekaannus: b ja d, kahden rivin päässä toisistaan, sama kaari ja sama pystyviiva mutta peilikuvina. Niiden jäljentäminen samalla kerralla, kirjoitussuunta näkyvissä, tekee erosta jotain, jonka käsi tunnistaa. Suomessa pienet kirjaimet ovat erityisen näkyvässä osassa, koska sanat ovat pitkiä ja isoja kirjaimia tarvitaan vain sanan alussa. Moni kirjain myös toistuu peräkkäin — aa, ee, kk, ll — joten saman muodon on onnistuttava kahdesti vierekkäin, ja se onnistuu vasta kun muoto on tullut tutuksi.",
+      "p3": "Kirjaimet on piirretty koulun kirjoitusmuotoihin: yksikerroksinen a ja avoin g, eivät useimpien kirjasinten kaksikerroksiset muodot. Moniste tulostuu ilmaiseksi PDF-tiedostona, ja yksittäisiä kirjaimia voi toistaa niin usein kuin tarvitsee. Isojen kirjainten harjoitus sopii tämän rinnalle."
+    },
+    "K-279": {
+      "slug": "pienten-kirjainten-kirjoittaminen-g-l",
+      "eyebrow": "Kirjainten jäljennysmoniste",
+      "h1": "Pienten kirjainten kirjoitusharjoitus g–l",
+      "title": "Pienten kirjainten harjoitus g–l | tulostettava PDF",
+      "metaDescription": "Pienet kirjaimet g–l viivastolla: g:n ja j:n alapidennykset, h:n, k:n ja l:n yläpidennykset sekä i:n ja j:n pisteet. Ilmainen tulostettava PDF.",
+      "strand": "Lukemaan ja kirjoittamaan oppiminen",
+      "p1": "Tämä esikoulun moniste jatkaa aakkosia g:stä l:ään: kuusi pientä kirjainta, jotka käyttävät viivaston kaikkia osia. Kirjaimet g ja j vetävät alapidennyksensä perusviivan alle. Kirjaimet h, k ja l nousevat yläpidennyksellä ylimmälle viivalle. Kirjaimet i ja j päättyvät pisteeseensä. Lapsi jäljentää katkoviivakirjaimet oranssista pisteestä alkaen, seuraa nuolia ja kirjoittaa rivin viimeisen kirjaimen ilman apua.",
+      "p2": "Näiden kuuden kirjaimen kohdalla viivaston kolmas vyöhyke alkaa vihdoin merkitä. Tähän asti lapsi on voinut kohdella perusviivaa lattiana; g ja j menevät sen läpi. Liian lyhyt alapidennys näyttää toiselta kirjaimelta, ja liian pitkä törmää alempaan riviin, joten perusviivasta tulee lepopaikan sijaan viiva, jonka ylittää tarkoituksella. Kirjainten i ja j pisteet ovat oma pieni oppituntinsa: erillinen merkki, joka tehdään vedon jälkeen eikä sen aikana. Myös l ansaitsee tauon, sillä se on pelkkä suora korkea viiva, ja lapset piirtävät sen usein liian lyhyeksi. Kirjain j on suomen kielessä tavallista tärkeämpi: se aloittaa sanoja kuten ja, jo, jää ja joulu, ja se on ainoa kirjain, jossa yhdistyvät sekä alapidennys että piste. Sen harjoittelu i:n vieressä kannattaa, sillä molemmissa piste tehdään vasta lopuksi.",
+      "p3": "Kirjain g on piirretty koulun yksikerroksiseen muotoon avoimella hännällä, eli siihen muotoon, joka opetetaan kirjoitettavaksi, ei siihen, joka painetaan kirjoihin. PDF on ilmainen ja sen voi toistaa kirjain kerrallaan. Moniste a–f tulee ennen tätä, ja m–r jatkaa heti perään."
+    },
+    "K-280": {
+      "slug": "pienten-kirjainten-kirjoittaminen-m-r",
+      "eyebrow": "Kirjainten jäljennysmoniste",
+      "h1": "Pienten kirjainten kirjoitusharjoitus m–r",
+      "title": "Pienten kirjainten harjoitus m–r | tulostettava PDF",
+      "metaDescription": "Pienet kirjaimet m–r viivastolla: m:n ja n:n kaaret, p:n ja q:n alapidennykset sekä lyhyt r. Ilmainen tulostettava PDF-tehtävämoniste.",
+      "strand": "Lukemaan ja kirjoittamaan oppiminen",
+      "p1": "Tämä esikoulun moniste käy läpi pienet kirjaimet m–r kirjoitusviivastolla. Viisi kuudesta pysyy kokonaan keskikorkeudessa, katkoviivaisen keskiviivan ja perusviivan välissä; p ja q ovat poikkeus ja vetävät kumpikin suoran alapidennyksen sen alle. Lapsi jäljentää katkoviivamallit, seuraa nuolia kirjoitussuunnan mukaan ja päättää jokaisen rivin kirjoittamalla kirjaimen itse tyhjään ruutuun.",
+      "p2": "Tällä sivulla on aakkosten toinen sekaannuspari. Se, mitä b ja d ovat aakkosten alussa, ovat p ja q lopussa: yksi kaari, yksi alapidennys, ja vain suunta erottaa ne. Kun ne ovat samalla monisteella, jäljennettyinä peräkkäin ja aloituspiste merkittynä, arvaus muuttuu tavaksi. Kirjaimet m ja n ovat toisenlainen pari: sama kaari, piirrettynä kerran ja sitten kahdesti, joten se joka osaa toisen, osaa myös toisen. Kirjain r on poikkeus ja se, joka useimmin piirretään liian korkeaksi: se on lyhyt kirjain pienine olkapäineen eikä saa nousta viereisen o:n yli. Kirjaimet m, n ja p esiintyvät suomessa usein kaksoiskonsonantteina: kumpi, kanna, oppia. Kun sama kirjain kirjoitetaan kahdesti peräkkäin, epätasainen muoto näkyy heti, joten näiden kirjainten tasaisuus kannattaa harjoitella huolella.",
+      "p3": "Kaikki kirjaimet näkyvät koulun kirjoitusmuodoissa oikealla viivastolla, joten tässä harjoiteltu veto on sama, jota vihko myöhemmin odottaa. Moniste tulostuu ilmaiseksi PDF-tiedostona. Se seuraa monistetta g–l, ja s–å päättää aakkoset. Kirjaimet p ja q kannattaa katsoa vielä kerran yhdessä ennen seuraavaa monistetta, sillä niiden ero jää mieleen vasta toistojen kautta."
+    },
+    "K-281": {
+      "slug": "pienten-kirjainten-kirjoittaminen-s-a",
+      "eyebrow": "Kirjainten jäljennysmoniste",
+      "h1": "Pienten kirjainten kirjoitusharjoitus s–å",
+      "title": "Pienten kirjainten harjoitus s–å | tulostettava PDF",
+      "metaDescription": "Pienet kirjaimet s–å viivastolla: v:n, w:n, x:n ja z:n vinot vedot, y:n alapidennys ja lyhyt t. Ilmainen tulostettava PDF-tehtävämoniste.",
+      "strand": "Lukemaan ja kirjoittamaan oppiminen",
+      "p1": "Tämä esikoulun moniste päättää aakkoset pienillä kirjaimilla s–å: yhdeksän kirjainta kirjoitusviivastolla. Useimmat pysyvät keskikorkeudessa, t nousee vain osittain ja y lähettää alapidennyksen perusviivan alle. Lapsi jäljentää jokaisen katkoviivakirjaimen oranssista pisteestä alkaen, seuraa nuolia ja kirjoittaa rivin viimeisen kirjaimen ilman mallia.",
+      "p2": "Aakkosten loppupäähän kerääntyvät vinot vedot. Kirjaimet v, w, x, y ja z rakentuvat kaikki suorista viivoista, jotka kohtaavat kulmassa, ja vino viiva on nuorelle kädelle vaikeampi kuin pysty tai kaari: sillä ei ole paperin reunaa seurattavana eikä ympyrää suljettavana. Viiden kohtaaminen yhdellä kertaa on hyödyllistä, sillä sama hallinta riittää niihin kaikkiin. Kaksi kirjainta rikkoo tässä oman sääntönsä. Kirjain t ei ole täysi yläpidennys: se pysähtyy ylimmän viivan alle, ja sen kirjoittaminen täyteen korkeuteen on yleisimpiä aloittelijan virheitä. Kirjain s vaihtaa suuntaa kahdesti yhdellä vedolla, ja siksi se onnistuu usein viimeisenä. Kirjaimet v ja y ovat suomessa hyvin yleisiä — vesi, yö, työ — kun taas x ja z esiintyvät lähinnä vierasperäisissä sanoissa. Rivin viimeinen kirjain å kuuluu aakkosiin ruotsalaisten nimien vuoksi, ja se on hyvä tuntea, vaikka sitä ei suomenkielisissä sanoissa kirjoiteta.",
+      "p3": "Tähän päättyy neljän monisteen sarja, joka alkaa kirjaimista a–f. Kirjaimet käyttävät koulun kirjoitusmuotoja oikealla viivastolla, ja PDF on ilmainen, joten vaikeimpia muotoja voi toistaa niin monta kertaa kuin on tarpeen."
+    },
+    "K-282": {
+      "slug": "pienet-aakkoset-a-o",
+      "eyebrow": "Kirjainten jäljennysmoniste",
+      "h1": "Pienet ääkköset ä ja ö kirjoitusviivastolla",
+      "title": "Pienet ääkköset ä ja ö | tulostettava PDF-moniste",
+      "metaDescription": "Suomen omat kirjaimet ä ja ö pienessä muodossa viivastolla, pisteet kirjaimen yllä, yhdessä g:n, h:n, i:n ja j:n kanssa. Ilmainen tulostettava PDF.",
+      "strand": "Lukemaan ja kirjoittamaan oppiminen",
+      "p1": "Tämä esikoulun moniste nostaa esiin suomen omat kirjaimet: pienet ä ja ö kirjoitusviivastolla, mukanaan g, h, i ja j. Ä ja ö pysyvät keskikorkeudessa ja kantavat kaksi pistettä kirjaimen yläpuolella. Kirjaimet g ja j vievät alapidennyksen perusviivan alle, h nousee yläpidennyksellä ylös, ja i kantaa oman pisteensä. Lapsi jäljentää katkoviivakirjaimet ja kirjoittaa jokaisen itse rivin lopussa.",
+      "p2": "Ä ja ö ovat omia kirjaimiaan, eivät koristeltuja a:ta ja o:ta, ja ne seisovat aakkosten lopussa juuri siksi. Ilman niitä ei kirjoiteta äitiä, työtä eikä yötä. Vaikeus on merkissä kirjaimen yllä: kaksi pistettä tehdään vasta kun kirjain on valmis, ne asetetaan keskitetysti kirjaimen päälle, ja niiden pitää pysyä erillään toisistaan. Kaksi pistettä, jotka valuvat yhteen, muuttuvat viivaksi, ja liian korkealle nostetut pisteet irtoavat kirjaimestaan. Harjoittelu i:n ja j:n rinnalla tekee järjestyksen selväksi: ensin kirjain, vasta sitten sen päälle tuleva merkki. Ä ja ö ovat suomessa poikkeuksellisen yleisiä: ne esiintyvät tuhansissa arkisanoissa ja myös vokaalisoinnun takia sanan lopussa, kuten työssä ja päivää. Siksi niiden pisteiden on kestettävä myös nopeaa kirjoittamista, ei vain hidasta jäljentämistä.",
+      "p3": "Kirjaimet näkyvät koulun kirjoitusmuodoissa oikealla viivastolla, ja PDF on ilmainen. Tämä on sivu, jota englanninkieliset monisteet eivät voi tarjota, ja se sopii hyvin monisteiden a–f ja s–å rinnalle. Ääkkösten harjoittelu kannattaa ajoittaa samaan aikaan kuin muidenkin pienten kirjainten, jotta ne eivät jää erilliseksi lisäksi vaan kuuluvat alusta asti aakkosiin."
+    },
+    "K-283": {
+      "slug": "ensimmaiset-pienet-kirjaimet",
+      "eyebrow": "Kirjainten jäljennysmoniste",
+      "h1": "Ensimmäiset pienet kirjaimet: a, b, c ja d suurina",
+      "title": "Ensimmäiset pienet kirjaimet a b c d | tulostettava PDF",
+      "metaDescription": "Ensimmäinen kirjoitusmoniste, jossa on vain neljä pientä kirjainta, a, b, c ja d, erityisen suurina viivastolla. Ilmainen tulostettava PDF.",
+      "strand": "Lukemaan ja kirjoittamaan oppiminen",
+      "p1": "Tämä esikoulun moniste on lempein aloitus: vain neljä pientä kirjainta — a, b, c ja d — erityisen suurina kirjoitusviivastolla. Vähemmän kirjaimia ja suurempi veto tarkoittavat lyhyttä harjoitusta ja runsaasti tilaa kädelle, joka vasta opettelee ohjaamaan kynää. Lapsi jäljentää jokaisen katkoviivakirjaimen oranssista pisteestä, seuraa nuolia ja kirjoittaa sen kerran aivan itse rivin lopussa.",
+      "p2": "Ensimmäisen kirjoitusmonisteen pitäisi pyytää vain yhtä asiaa kerrallaan. Nämä neljä kirjainta näyttävät täsmälleen ne kaksi korkeutta, jotka lapsen on huomattava heti, eikä mitään muuta: a ja c asuvat keskikorkeudessa, keskiviivan ja perusviivan välissä, kun taas b ja d ovat yläpidennyksellisiä kirjaimia, jotka yltävät ylimmälle viivalle. Siinä on koko viivaston ajatus, opetettuna neljällä kirjaimella kahdenkymmenenyhdeksän sijaan. Tässä koossa ero lyhyen ja korkean kirjaimen välillä näkyy pöydän toiselta puolen, ja juuri sitä aloittaja tarvitsee ennen kuin kirjaimet pienenevät. Neljä kirjainta riittää myös siksi, että kirjoitusasento ja kynäote ehtivät pysyä kunnossa koko harjoituksen ajan. Kun rivejä on vähän, lapsi jaksaa keskittyä muotoon eikä vain siihen, että sivu tulee täyteen.",
+      "p3": "Koska b ja d ovat tässä yhdessä, moniste kohtaa yleisimmän varhaisen sekaannuksen juuri silloin, kun sen voi vielä ehkäistä sen sijaan että sen joutuisi korjaamaan. PDF tulostuu ilmaiseksi ja sitä voi käyttää niin monta kertaa kuin on hyödyllistä; kun neljä kirjainta tuntuu helpolta, seuraa moniste a–f."
+    }
+  }
+}

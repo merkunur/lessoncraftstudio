@@ -417,6 +417,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "3er-einmaleins",
         "4er-einmaleins"
       ]
+    },
+    {
+      "base": "kleinbuchstaben-nachspuren",
+      "variations": [
+        "kleinbuchstaben-nachspuren-g-bis-l",
+        "kleinbuchstaben-nachspuren-m-bis-r",
+        "kleinbuchstaben-nachspuren-s-bis-z",
+        "umlaute-und-ss-nachspuren",
+        "erste-kleinbuchstaben"
+      ]
     }
   ],
   "es": [
@@ -617,6 +627,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tabla-del-10",
         "tabla-del-3",
         "tabla-del-4"
+      ]
+    },
+    {
+      "base": "minusculas-punteadas",
+      "variations": [
+        "minusculas-punteadas-g-a-l",
+        "minusculas-punteadas-m-a-r",
+        "minusculas-punteadas-s-a-z",
+        "letra-n-minuscula-punteada",
+        "primeras-minusculas-punteadas"
       ]
     }
   ],
@@ -819,6 +839,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "table-de-3",
         "table-de-4"
       ]
+    },
+    {
+      "base": "ecriture-des-minuscules",
+      "variations": [
+        "ecriture-des-minuscules-g-a-l",
+        "ecriture-des-minuscules-m-a-r",
+        "ecriture-des-minuscules-s-a-z",
+        "ecriture-des-minuscules-accentuees",
+        "premieres-minuscules"
+      ]
     }
   ],
   "pt": [
@@ -1019,6 +1049,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tabuada-do-10",
         "tabuada-do-3",
         "tabuada-do-4"
+      ]
+    },
+    {
+      "base": "minusculas-pontilhadas",
+      "variations": [
+        "minusculas-pontilhadas-g-a-m",
+        "minusculas-pontilhadas-n-a-s",
+        "minusculas-pontilhadas-s-a-z",
+        "minusculas-k-w-y-pontilhadas",
+        "primeiras-minusculas-pontilhadas"
       ]
     }
   ],
@@ -1221,6 +1261,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tabellina-del-3",
         "tabellina-del-4"
       ]
+    },
+    {
+      "base": "minuscole-tratteggiate",
+      "variations": [
+        "minuscole-tratteggiate-g-n",
+        "minuscole-tratteggiate-o-t",
+        "minuscole-tratteggiate-r-z",
+        "vocali-minuscole-tratteggiate",
+        "prime-minuscole-tratteggiate"
+      ]
     }
   ],
   "nl": [
@@ -1421,6 +1471,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "tafel-van-10",
         "tafel-van-3",
         "tafel-van-4"
+      ]
+    },
+    {
+      "base": "kleine-letters-overtrekken",
+      "variations": [
+        "kleine-letters-overtrekken-g-tot-l",
+        "kleine-letters-overtrekken-m-tot-r",
+        "kleine-letters-overtrekken-s-tot-z",
+        "kleine-ij-overtrekken",
+        "eerste-kleine-letters"
       ]
     }
   ],
@@ -1623,6 +1683,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "3ans-tabell",
         "4ans-tabell"
       ]
+    },
+    {
+      "base": "spara-sma-bokstaver",
+      "variations": [
+        "spara-sma-bokstaver-g-till-l",
+        "spara-sma-bokstaver-m-till-r",
+        "spara-sma-bokstaver-s-till-z",
+        "spara-a-ring-a-prickar-o",
+        "mina-forsta-sma-bokstaver"
+      ]
     }
   ],
   "da": [
@@ -1823,6 +1893,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "10-tabellen",
         "3-tabellen",
         "4-tabellen"
+      ]
+    },
+    {
+      "base": "sma-bogstaver",
+      "variations": [
+        "sma-bogstaver-g-til-l",
+        "sma-bogstaver-m-til-r",
+        "sma-bogstaver-s-til-z",
+        "sma-bogstaver-ae-oe-aa",
+        "mine-forste-sma-bogstaver"
       ]
     }
   ],
@@ -2025,6 +2105,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "3-gangen",
         "4-gangen"
       ]
+    },
+    {
+      "base": "sma-bokstaver",
+      "variations": [
+        "sma-bokstaver-g-til-l",
+        "sma-bokstaver-m-til-r",
+        "sma-bokstaver-s-til-z",
+        "sma-bokstaver-ae-oe-aa",
+        "mine-forste-sma-bokstaver"
+      ]
     }
   ],
   "fi": [
@@ -2225,6 +2315,16 @@ export const NEW_WORKSHEET_GROUPS: Record<string, NewWorksheetGroup[]> = {
         "10n-kertotaulu",
         "3n-kertotaulu",
         "4n-kertotaulu"
+      ]
+    },
+    {
+      "base": "pienten-kirjainten-kirjoittaminen",
+      "variations": [
+        "pienten-kirjainten-kirjoittaminen-g-l",
+        "pienten-kirjainten-kirjoittaminen-m-r",
+        "pienten-kirjainten-kirjoittaminen-s-a",
+        "pienet-aakkoset-a-o",
+        "ensimmaiset-pienet-kirjaimet"
       ]
     }
   ]

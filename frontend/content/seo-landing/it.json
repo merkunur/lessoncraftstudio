@@ -120201,6 +120201,258 @@
    ],
    "title": "Simmetria con la linea orizzontale | da stampare PDF",
    "metaDescription": "La linea di simmetria è orizzontale e il bambino colora la metà sotto la linea: razzo, freccia, gelato e robot disegnati di lato. PDF gratis da stampare."
+  },
+  {
+   "slug": "minuscole-tratteggiate",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "scuola-infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Lettere minuscole tratteggiate da a a f sulle righe",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minuscole-tratteggiate",
+    "scuola-infanzia"
+   ],
+   "p1": "In questa scheda il bambino ricalca le lettere minuscole da a a f su vere righe di scrittura: riga superiore, riga tratteggiata in mezzo e riga di base. Ogni lettera ha il suo posto su queste righe. La a, la c e la e occupano solo il corpo della lettera, tra la riga tratteggiata e quella di base. La b, la d e la f hanno un'asta che sale fino alla riga superiore. Dopo i modelli tratteggiati, l'ultimo spazio di ogni riga resta vuoto: lì il bambino scrive la lettera da solo.",
+   "p2": "Le minuscole sono la metà difficile dell'alfabeto ed è quella che si scrive davvero: solo la prima lettera di una frase è maiuscola, tutto il resto è minuscolo. Mentre le maiuscole hanno tutte la stessa altezza, le minuscole vivono in tre fasce contemporaneamente, e leggere bene la riga tratteggiata di mezzo è quasi tutta l'abilità. Questa pagina porta anche la confusione più nota dell'alfabeto: la b e la d, a due righe di distanza, lo stesso cerchio e la stessa asta, girati al contrario. Ricalcarle nella stessa sessione, con il verso del tratto indicato, trasforma quella differenza in un gesto che la mano riconosce.",
+   "p3": "Le lettere sono disegnate nelle forme scolastiche, con la a a un solo piano e la g aperta, non nelle forme a due piani della maggior parte dei caratteri. La scheda si stampa gratis in PDF e si può ripetere sulle lettere che servono. Le lettere maiuscole tratteggiate le stanno bene accanto.",
+   "canonicalDeckSlug": "minuscole-tratteggiate-k278",
+   "carousel": [
+    {
+     "label": "Lettere minuscole tratteggiate da g a n",
+     "href": "minuscole-tratteggiate-g-n"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da o a t",
+     "href": "minuscole-tratteggiate-o-t"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da r a z",
+     "href": "minuscole-tratteggiate-r-z"
+    },
+    {
+     "label": "Le vocali minuscole tratteggiate: a e i o u",
+     "href": "vocali-minuscole-tratteggiate"
+    }
+   ],
+   "title": "Minuscole tratteggiate da ricalcare – Infanzia | PDF",
+   "metaDescription": "Lettere minuscole da a a f da ricalcare sulle righe di scrittura, con l'ultimo spazio vuoto per scriverle da soli. Scheda gratuita da stampare in PDF."
+  },
+  {
+   "slug": "minuscole-tratteggiate-g-n",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "scuola-infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Lettere minuscole tratteggiate da g a n",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minuscole-tratteggiate",
+    "scuola-infanzia"
+   ],
+   "p1": "Questa scheda prosegue l'alfabeto da g a n: sei lettere minuscole che usano tutte le fasce delle righe di scrittura. La g scende con la coda sotto la riga di base. La h e la l salgono con l'asta fino alla riga superiore. La i porta il suo puntino sopra il corpo. Il bambino ricalca le lettere tratteggiate partendo dal punto arancione, segue le frecce e scrive senza aiuto l'ultima lettera di ogni riga.",
+   "p2": "Con queste lettere la terza fascia delle righe comincia finalmente a contare. Fino a qui il bambino poteva trattare la riga di base come un pavimento; la g la attraversa. Una coda troppo corta somiglia a un'altra lettera e una troppo lunga entra nella riga sotto, così la riga di base smette di essere un appoggio e diventa una linea che si oltrepassa apposta. Il puntino della i è una lezione a parte: un segno separato, fatto dopo il tratto e non durante. Anche la l merita una pausa, perché è soltanto un'asta dritta e alta, e i bambini la fanno spesso troppo corta.",
+   "p3": "La g è disegnata nella forma scolastica a un solo piano con la coda aperta, quella che si impara a scrivere e non quella che si stampa nei libri. Il PDF è gratuito e si può ripetere lettera per lettera. La scheda da a a f viene prima, quella da o a t segue subito dopo.",
+   "canonicalDeckSlug": "minuscole-tratteggiate-k279",
+   "carousel": [
+    {
+     "label": "Lettere minuscole tratteggiate da o a t",
+     "href": "minuscole-tratteggiate-o-t"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da r a z",
+     "href": "minuscole-tratteggiate-r-z"
+    },
+    {
+     "label": "Le vocali minuscole tratteggiate: a e i o u",
+     "href": "vocali-minuscole-tratteggiate"
+    },
+    {
+     "label": "Le prime minuscole: a, b, c e d in grande",
+     "href": "prime-minuscole-tratteggiate"
+    }
+   ],
+   "title": "Minuscole tratteggiate da g a n | da stampare PDF",
+   "metaDescription": "Lettere minuscole da g a n sulle righe: le code della g e della i lunga, le aste di h e l, e i puntini. Scheda gratuita da stampare in PDF."
+  },
+  {
+   "slug": "minuscole-tratteggiate-o-t",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "scuola-infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Lettere minuscole tratteggiate da o a t",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minuscole-tratteggiate",
+    "scuola-infanzia"
+   ],
+   "p1": "Questa scheda percorre le lettere minuscole da o a t sulle righe di scrittura. Quattro di esse restano tutte nel corpo della lettera, tra la riga tratteggiata e quella di base; la p e la q fanno eccezione e scendono ciascuna con un'asta dritta al di sotto. Il bambino ricalca i modelli tratteggiati, segue le frecce per il verso del tratto e conclude ogni riga scrivendo la lettera da solo nello spazio vuoto.",
+   "p2": "Questa pagina porta la seconda coppia che si confonde. Quello che la b e la d sono all'inizio dell'alfabeto, la p e la q lo sono alla fine: un cerchio, una coda, e solo la direzione le distingue. Averle sullo stesso foglio, ricalcate una dopo l'altra e con il punto di partenza segnato, è ciò che trasforma il dubbio in abitudine. La r è il caso a parte, ed è quella che si disegna più spesso troppo alta: è una lettera corta, con una piccola spalla, e non deve superare la o che le sta accanto. La t invece rompe la propria regola: non è un'asta intera, si ferma sotto la riga superiore, e tracciarla a tutta altezza è uno degli errori più comuni.",
+   "p3": "Tutte le lettere compaiono nelle forme scolastiche su vere righe di scrittura, quindi il tratto esercitato qui è quello che il quaderno richiederà. La scheda si stampa gratis in PDF. Segue quella da g a n, e la scheda da r a z chiude l'alfabeto.",
+   "canonicalDeckSlug": "minuscole-tratteggiate-k280",
+   "carousel": [
+    {
+     "label": "Lettere minuscole tratteggiate da r a z",
+     "href": "minuscole-tratteggiate-r-z"
+    },
+    {
+     "label": "Le vocali minuscole tratteggiate: a e i o u",
+     "href": "vocali-minuscole-tratteggiate"
+    },
+    {
+     "label": "Le prime minuscole: a, b, c e d in grande",
+     "href": "prime-minuscole-tratteggiate"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da a a f sulle righe",
+     "href": "minuscole-tratteggiate"
+    }
+   ],
+   "title": "Minuscole tratteggiate da o a t | da stampare PDF",
+   "metaDescription": "Lettere minuscole da o a t sulle righe: le code di p e q, la r corta e la t che non arriva in cima. Scheda gratuita da stampare in PDF."
+  },
+  {
+   "slug": "minuscole-tratteggiate-r-z",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "scuola-infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Lettere minuscole tratteggiate da r a z",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minuscole-tratteggiate",
+    "scuola-infanzia"
+   ],
+   "p1": "Questa scheda chiude l'alfabeto con le minuscole da r a z: sei lettere sulle righe di scrittura. Quasi tutte restano nel corpo della lettera e la t sale solo in parte, senza arrivare alla riga superiore. Il bambino ricalca ogni lettera tratteggiata partendo dal punto arancione, segue le frecce e scrive senza modello l'ultima lettera di ogni riga.",
+   "p2": "Alla fine dell'alfabeto si radunano i tratti obliqui. La v e la z sono fatte di rette che si incontrano ad angolo, e una retta inclinata è più difficile per una mano piccola di una verticale o di una curva: non ha un bordo del foglio da seguire né un cerchio da chiudere. Incontrarle insieme è utile, perché lo stesso controllo serve per entrambe. La s merita una nota tutta sua: cambia verso due volte in un solo tratto, ed è per questo che spesso è l'ultima lettera a riuscire bene. La u e la v si somigliano molto sul foglio, una con il fondo tondo e l'altra con il fondo a punta, e vederle vicine aiuta a distinguerle.",
+   "p3": "Con questa scheda si chiude la serie di quattro che comincia dalla a. Le lettere usano le forme scolastiche su vere righe di scrittura, e il PDF è gratuito, così le forme più difficili si possono ripetere tutte le volte che serve.",
+   "canonicalDeckSlug": "minuscole-tratteggiate-k281",
+   "carousel": [
+    {
+     "label": "Le vocali minuscole tratteggiate: a e i o u",
+     "href": "vocali-minuscole-tratteggiate"
+    },
+    {
+     "label": "Le prime minuscole: a, b, c e d in grande",
+     "href": "prime-minuscole-tratteggiate"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da a a f sulle righe",
+     "href": "minuscole-tratteggiate"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da g a n",
+     "href": "minuscole-tratteggiate-g-n"
+    }
+   ],
+   "title": "Minuscole tratteggiate da r a z | da stampare PDF",
+   "metaDescription": "Lettere minuscole da r a z sulle righe: i tratti obliqui della v e della z, la s che cambia verso due volte e la t corta. Scheda gratuita in PDF."
+  },
+  {
+   "slug": "vocali-minuscole-tratteggiate",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "scuola-infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Le vocali minuscole tratteggiate: a e i o u",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minuscole-tratteggiate",
+    "scuola-infanzia"
+   ],
+   "p1": "Questa scheda raccoglie le cinque vocali minuscole — a, e, i, o, u — sulle righe di scrittura. Stanno insieme per un motivo che si vede appena sono una accanto all'altra: sono tutte lettere del corpo centrale. Nessuna sale fino alla riga superiore, nessuna scende sotto la riga di base, e solo la i aggiunge qualcosa sopra, un puntino. Il bambino ricalca i modelli tratteggiati e poi scrive ogni vocale da solo nello spazio vuoto in fondo alla riga.",
+   "p2": "Le vocali meritano una pagina propria perché compaiono in quasi ogni parola che il bambino scriverà, e in italiano ancora di più: quasi tutte le parole finiscono con una vocale. Esercitarle come gruppo costruisce le cinque forme che la mano cercherà più spesso e rende concreta la fascia centrale del rigo: cinque lettere che cominciano e finiscono nella stessa banda, così la riga tratteggiata smette di essere un ornamento e diventa il soffitto che la mano impara a toccare. Quattro delle cinque nascono inoltre dallo stesso movimento tondo, ed è per questo che si insegnano presto.",
+   "p3": "La a è nella forma scolastica a un solo piano, quella che al bambino viene chiesto di scrivere, non la a a due piani stampata nei libri. La scheda si stampa gratis in PDF e si abbina bene alla scheda da a a f e alle parole da ricalcare.",
+   "canonicalDeckSlug": "minuscole-tratteggiate-k282",
+   "carousel": [
+    {
+     "label": "Le prime minuscole: a, b, c e d in grande",
+     "href": "prime-minuscole-tratteggiate"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da a a f sulle righe",
+     "href": "minuscole-tratteggiate"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da g a n",
+     "href": "minuscole-tratteggiate-g-n"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da o a t",
+     "href": "minuscole-tratteggiate-o-t"
+    }
+   ],
+   "title": "Le vocali minuscole tratteggiate a e i o u | PDF gratis",
+   "metaDescription": "Scheda con le cinque vocali minuscole da ricalcare sulle righe di scrittura e poi da scrivere da soli. PDF gratuito da stampare per l'infanzia."
+  },
+  {
+   "slug": "prime-minuscole-tratteggiate",
+   "variantShape": "singleton",
+   "coordinate": {
+    "type": "lowercase-letter-tracing",
+    "mode": null,
+    "theme": "",
+    "level": "scuola-infanzia"
+   },
+   "eyebrow": "Scheda delle lettere",
+   "h1": "Le prime minuscole: a, b, c e d in grande",
+   "strand": "Scrittura delle lettere",
+   "standard": "L.K.1.a",
+   "slotTokens": [
+    "minuscole-tratteggiate",
+    "scuola-infanzia"
+   ],
+   "p1": "Questa scheda è l'inizio più dolce: solo quattro lettere minuscole — a, b, c e d — disegnate in grande sulle righe di scrittura. Meno lettere e un tratto più ampio significano una sessione breve e molto spazio per una mano che sta ancora imparando a guidare la matita. Il bambino ricalca ogni lettera tratteggiata partendo dal punto arancione, segue le frecce e la scrive una volta da solo alla fine della riga.",
+   "p2": "Una prima scheda di scrittura dovrebbe chiedere una cosa per volta. Queste quattro lettere mostrano esattamente le due altezze che occorre notare subito, e niente altro: la a e la c vivono nel corpo della lettera, tra la riga tratteggiata e quella di base, mentre la b e la d hanno un'asta che arriva alla riga superiore. È tutta l'idea delle righe di scrittura, insegnata con quattro lettere invece che con ventisei. A questa dimensione la differenza tra una lettera corta e una con l'asta si vede dall'altra parte del tavolo, ed è proprio ciò che serve a chi comincia prima che le lettere si rimpiccioliscano.",
+   "p3": "Poiché la b e la d stanno qui insieme, la scheda incontra la confusione più comune nel momento in cui si può ancora prevenire invece di correggere. Il PDF si stampa gratis e si riusa quante volte serve; quando quattro lettere diventano facili, si passa alla scheda da a a f.",
+   "canonicalDeckSlug": "minuscole-tratteggiate-k283",
+   "carousel": [
+    {
+     "label": "Lettere minuscole tratteggiate da a a f sulle righe",
+     "href": "minuscole-tratteggiate"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da g a n",
+     "href": "minuscole-tratteggiate-g-n"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da o a t",
+     "href": "minuscole-tratteggiate-o-t"
+    },
+    {
+     "label": "Lettere minuscole tratteggiate da r a z",
+     "href": "minuscole-tratteggiate-r-z"
+    }
+   ],
+   "title": "Le prime lettere minuscole a b c d | scheda PDF gratis",
+   "metaDescription": "Prima scheda di scrittura con sole quattro lettere minuscole, a, b, c e d, in formato grande sulle righe. PDF gratuito da stampare."
   }
  ]
 }

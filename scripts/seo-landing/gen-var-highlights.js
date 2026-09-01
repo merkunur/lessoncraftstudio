@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * gen-var-highlights.js — regenerates frontend/config/worksheets-new-highlights.ts
- * as v2 GROUPS: per locale, the 20 nt20 family cards, each with its variation
+ * as v2 GROUPS: per locale, the 21 family cards (the 20 nt20 families + the
+ * K-278 lowercase letter-tracing family), each with its variation
  * landing slugs (tier-1 + tier-2 + theme fans) in curriculum order. Landing
  * slugs are resolved from the locale's landing corpus by canonicalDeckSlug —
  * a variation without a published landing is silently omitted, so the tool
@@ -38,6 +39,9 @@ const BASES = {
   'G2-254': { family: 'reading-comprehension', theme: null },
   'G3-357': { family: 'column-arithmetic', theme: null },
   'G3-358': { family: 'multiplication-tables', theme: null },
+  // the lowercase letter-tracing family — EN only so far; the loop warns and
+  // skips a locale with no base landing yet, so this is safe before the fan-out
+  'K-278': { family: 'lowercase-letter-tracing', theme: null },
 };
 
 // base id → its variation keys in curriculum order (matrix assignment; keys
@@ -63,6 +67,7 @@ const GROUPS = {
   'G2-254': [['G2-269', 'reading-comprehension', null], ['G2-270', 'reading-comprehension', null], ['G2-271', 'reading-comprehension', null], ['G2-272', 'reading-comprehension', null], ['G2-273', 'reading-comprehension', null]],
   'G3-357': [['G3-359', 'column-arithmetic', null], ['G3-360', 'column-arithmetic', null], ['G3-361', 'column-arithmetic', null], ['G3-362', 'column-arithmetic', null], ['G3-363', 'column-arithmetic', null]],
   'G3-358': [['G3-364', 'multiplication-tables', null], ['G3-365', 'multiplication-tables', null], ['G3-366', 'multiplication-tables', null], ['G3-367', 'multiplication-tables', null], ['G3-368', 'multiplication-tables', null]],
+  'K-278': [['K-279', 'lowercase-letter-tracing', null], ['K-280', 'lowercase-letter-tracing', null], ['K-281', 'lowercase-letter-tracing', null], ['K-282', 'lowercase-letter-tracing', null], ['K-283', 'lowercase-letter-tracing', null]],
 };
 
 const out = {};

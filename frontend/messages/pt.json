@@ -4063,6 +4063,7 @@
       "safer": "Escolha um tipo de atividade para ver todas as atividades disponíveis — HTML interativo para jogar no navegador e um PDF imprimível para cada conjunto."
     },
     "tileCta": "Ver atividades",
+    "newHeading": "Novas atividades",
     "tileAlt": "Exemplo de atividade: {typeName}",
     "emptyTitle": "Ainda não há atividades disponíveis nesse idioma.",
     "emptyBody": "Nosso catálogo cresce idioma por idioma. Volte em breve ou explore outro idioma.",

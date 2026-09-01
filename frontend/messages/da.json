@@ -2554,6 +2554,7 @@
       "safer": "Vælg en opgavetype for at se alle tilgængelige opgaver — interaktiv HTML at spille i browseren plus en printbar PDF til hvert sæt."
     },
     "tileCta": "Se opgaver",
+    "newHeading": "Nye opgaveark",
     "tileAlt": "Eksempel på opgave: {typeName}",
     "emptyTitle": "Ingen opgaver tilgængelige på dette sprog endnu.",
     "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog.",

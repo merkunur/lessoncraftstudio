@@ -2561,6 +2561,7 @@
       "safer": "Velg en oppgavetype for å se alle tilgjengelige oppgaver — interaktiv HTML å spille i nettleseren pluss en utskrivbar PDF for hvert sett."
     },
     "tileCta": "Se oppgavene",
+    "newHeading": "Nye oppgaveark",
     "tileAlt": "Eksempel på oppgave: {typeName}",
     "emptyTitle": "Ingen oppgaver tilgjengelig på dette språket ennå.",
     "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk.",

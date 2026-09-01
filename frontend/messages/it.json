@@ -4078,6 +4078,7 @@
       "safer": "Scegli un tipo di scheda per vedere tutte le schede disponibili — HTML interattivo da giocare nel browser più un PDF stampabile per ogni serie."
     },
     "tileCta": "Vedi le schede",
+    "newHeading": "Nuove schede",
     "tileAlt": "Esempio di scheda: {typeName}",
     "emptyTitle": "Nessuna scheda disponibile in questa lingua per ora.",
     "emptyBody": "Il nostro catalogo cresce lingua per lingua. Torna presto o esplora un'altra lingua.",

@@ -2577,6 +2577,7 @@
       "safer": "Choisis un type de fiche pour voir toutes les fiches disponibles — HTML interactif à jouer dans le navigateur plus un PDF imprimable pour chaque série."
     },
     "tileCta": "Voir les fiches",
+    "newHeading": "Nouvelles fiches",
     "tileAlt": "Exemple de fiche : {typeName}",
     "emptyTitle": "Aucune fiche disponible dans cette langue pour le moment.",
     "emptyBody": "Notre catalogue s'étend langue par langue. Reviens bientôt ou parcours une autre langue.",

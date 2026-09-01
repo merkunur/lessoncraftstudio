@@ -2557,6 +2557,7 @@
       "safer": "Välj en arbetsbladstyp för att se alla tillgängliga arbetsblad — interaktiv HTML att spela i webbläsaren plus en utskrivbar PDF för varje set."
     },
     "tileCta": "Se arbetsbladen",
+    "newHeading": "Nya arbetsblad",
     "tileAlt": "Arbetsbladsexempel: {typeName}",
     "emptyTitle": "Inga arbetsblad tillgängliga på det här språket ännu.",
     "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk.",

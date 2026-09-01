@@ -38,10 +38,15 @@ module.exports = {
     }
     const p = passages[this.difficulty[difficulty].idx];
 
+    // long stories (the nt20-VAR pages 3-7 in wordy locales) drop a font
+    // step so the passage + 3 questions stay inside the page box; every
+    // published passage (idx 0-2 at ≤400 chars... pt story texts run longer)
+    // keeps the original metrics
+    const long = p.text.length > 400;
     const passageCard =
-      `<div style="background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px;padding:20px 26px" data-lcs-passage="${p.id}">` +
+      `<div style="background:#FBF3E4;border:2px solid #F0E4CB;border-radius:14px;padding:${long ? '16px 24px' : '20px 26px'}" data-lcs-passage="${p.id}">` +
       `<div style="font-family:'Baloo 2';font-weight:700;font-size:22px;color:#146B5E;margin-bottom:8px">${p.title}</div>` +
-      `<p style="font-family:'Nunito';font-weight:600;font-size:18px;line-height:1.65;color:#3A3530" data-lcs-text>${p.text}</p>` +
+      `<p style="font-family:'Nunito';font-weight:600;font-size:${long ? 16 : 18}px;line-height:${long ? 1.55 : 1.65};color:#3A3530" data-lcs-text>${p.text}</p>` +
       `</div>`;
 
     const questions = p.questions.map((q, qi) =>

@@ -186,5 +186,9 @@
   "multiplication-tables": {
     "full": "Practicing times-table facts in ladders and mixed drills builds the instant recall that makes harder math feel easy.",
     "short": "Builds times-table fact fluency."
+  },
+  "lowercase-letter-tracing": {
+    "full": "Tracing lowercase letters on three-line paper teaches the x-height body, the tall ascenders and the tails that drop below the line.",
+    "short": "Builds lowercase letter formation."
   }
 }

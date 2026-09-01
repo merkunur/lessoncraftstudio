@@ -183,14 +183,33 @@ const COMPOSED = {
   'ä': ['a', 'diaeresis'], 'å': ['a', 'ring'],
   'é': ['e', 'acute'], 'è': ['e', 'grave'], 'ê': ['e', 'circumflex'], 'ë': ['e', 'diaeresis'],
   'í': ['i', 'acute'], 'ì': ['i', 'grave'], 'î': ['i', 'circumflex'], 'ï': ['i', 'diaeresis'],
+  'ñ': ['n', 'tilde'],
   'ó': ['o', 'acute'], 'ò': ['o', 'grave'], 'ô': ['o', 'circumflex'], 'õ': ['o', 'tilde'],
   'ö': ['o', 'diaeresis'],
   'ú': ['u', 'acute'], 'ù': ['u', 'grave'], 'û': ['u', 'circumflex'], 'ü': ['u', 'diaeresis'],
   'ý': ['y', 'acute'], 'ÿ': ['y', 'diaeresis'],
 };
 
+/** Affine-map a stroke's points. Lets a ligature be built out of the source
+ *  table's own verified letterforms rather than a fresh hand-typed point list —
+ *  the same reasoning that makes O-slash the O plus one line. */
+/** An explicit point list, for a contour no arc/line combination describes. */
+function pl() {
+  const a = [];
+  for (let i = 0; i < arguments.length; i += 2) a.push({ x: arguments[i], y: arguments[i + 1] });
+  return a;
+}
+
+function xform(pts, o) {
+  const sx = o.sx == null ? 1 : o.sx, sy = o.sy == null ? 1 : o.sy;
+  const dx = o.dx || 0, dy = o.dy || 0;
+  return pts.map(function (p) {
+    return { x: Math.round((p.x * sx + dx) * 10) / 10, y: Math.round((p.y * sy + dy) * 10) / 10 };
+  });
+}
+
 /* ------------------------------------------------------------------ *
- * The two letterforms the source table does not carry. Danish + Norwegian
+ * The letterforms the source table does not carry. Danish + Norwegian
  * teach both as letters in their own right (letter-sets.js specials).
  * ------------------------------------------------------------------ */
 const NEW_GLYPHS = {
@@ -211,6 +230,32 @@ const NEW_GLYPHS = {
   // O-slash: the table's O, then one diagonal, baseline corner to cap corner.
   'Ø': CORE.GLYPHS['O'].concat([line(26, 84, 74, 16, 4)]),
   'ø': CORE.GLYPHS['o'].concat([line(26, 86, 74, 42, 4)]),
+
+  // ae ligature (da/no). Built from the table's OWN `a` and `e`, mapped into
+  // the two halves of the box, so both bowls keep the letterforms the type
+  // panel ruled — an `a` on the left, not an `o` (that would be the different
+  // letter oe). The a's right stem IS the junction the e attaches to, which is
+  // why it lands exactly where the e begins.
+  'æ': [
+    xform(CORE.GLYPHS['a'][0], { sx: 0.947, dx: -14.4 }),   // bowl  -> x 14..50
+    xform(CORE.GLYPHS['a'][1], { sx: 0.947, dx: -14.4 }),   // stem  -> x 50
+    xform(CORE.GLYPHS['e'][0], { dx: 18 }),                  // e     -> x 50..86
+  ],
+
+  // Eszett (de). A lowercase-ONLY letter — no capital form exists, which is
+  // exactly why the capitals page could never carry it.
+  //
+  // The topology is what separates it from a B, and the first attempt here got
+  // it wrong: two arcs each closing back onto the stem rendered a legible B.
+  // In a real eszett the contour meets the stem ONLY AT THE TOP; it arches
+  // over, comes down the right, pinches to a WAIST out in the middle of the
+  // letter (not against the stem), bulges out again, and ends in a FREE tail
+  // short of the stem. One continuous stroke, as the hand draws it.
+  'ß': [
+    line(30, 14, 30, 84, 7),
+    pl(30, 16, 38, 14, 45, 18, 47, 26, 45, 34, 40, 40,
+       47, 44, 54, 52, 57, 63, 54, 75, 48, 82, 42, 84),
+  ],
 };
 
 /* ------------------------------------------------------------------ *

@@ -532,7 +532,7 @@ function renderTextRep({ items, x0, yBase, scale, isModel, showGuides, badges })
  * `text` may be a digraph (nl "IJ"); it is laid out by advance width.
  * { text, w, h, glyphH, reps, emptyLast } -> { svg }
  */
-function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, label: lbl }) {
+function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, lowercase = false, label: lbl }) {
   let { items, width } = letterStrokes.textGlyphs(text);
   // A single letter is centred on its DESIGNED box, not on its ink. The source
   // table draws every glyph around x=50 with its side bearings already built
@@ -543,12 +543,20 @@ function strokeLetterLane({ text, w, h, glyphH, reps = 4, emptyLast = false, lab
     items = [{ ...items[0], x: 0 }];
     width = letterStrokes.BOX.w;
   }
+  // A lowercase lane is this lane's guides on the WORD lane's metrics. Capitals
+  // occupy one band (capTop..base) and rule the dotted line on the optical
+  // crossbar; lowercase spans three (ascender, x-height, descender) and its
+  // dotted line IS the x-height — the line the child aims the top of an `a` at.
+  // Ink starts at the ascender because lowercase accents (band 25..37) sit
+  // BELOW it, so the ascenders are the true top.
+  const topUnit = lowercase ? LM.ascender : LM.capTop;
+  const midUnit = lowercase ? LM.xTop : LM.capMid;
   const { scale, yBase } = textLaneGeometry({
-    h, glyphH, heightUnits: LM.base - LM.capTop,
-    inkTop: LM.capMarkTop, inkBottom: LM.desc,
+    h, glyphH, heightUnits: LM.base - topUnit,
+    inkTop: lowercase ? LM.ascender : LM.capMarkTop, inkBottom: LM.desc,
   });
-  const yTop = yBase - (LM.base - LM.capTop) * scale;
-  const yMid = yBase - (LM.base - LM.capMid) * scale;
+  const yTop = yBase - (LM.base - topUnit) * scale;
+  const yMid = yBase - (LM.base - midUnit) * scale;
   const badges = glyphH >= 80;
   const parts = [schoolLines({ w, yTop, yBase, yMid })];
   const guideParts = [];
